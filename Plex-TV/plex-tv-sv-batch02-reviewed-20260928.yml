@@ -1,0 +1,2153 @@
+sv:
+  language: Svenska
+  pluralize:
+    library:
+      zero: bibliotek
+      one: bibliotek
+      two: bibliotek
+      few: bibliotek
+      many: bibliotek
+      other: bibliotek
+    server:
+      zero: servrar
+      one: server
+      two: servrar
+      few: servers
+      many: servrar
+      other: servrar
+  layouts:
+    application:
+      title_template: Plex -?
+      twitter_title: 'Plex: Ett fönster för all din personliga media'
+      twitter_description: Njut av dina videos, foton och musik när som helst, var
+        som helst.
+      opengraph_title: Plex Media Server - Din Media på alla dina enheter
+      opengraph_description: Plex organiserar dina videos, musik och fotosamlingar
+        som du sedan kan se på alla dina skärmar. Streama dina videos, foton och musik
+        när som helst, var som helst.
+      home: Hem
+      open_plex: Öppna Plex
+      account_settings: Kontoinställningar
+      my_watchlist: Min bevakningslista
+      support: Support
+      free_movies_and_tv: Gratis filmer och TV
+      featured: Utvalt
+      movies_and_shows: Filmer och program
+      most_popular: Mest populär
+      live_tv: Live TV
+      browse_channels: Bläddra bland kanaler
+      categories: Kategorier
+      features_for_all: Utvalt för alla
+      stream_on_almost_any_device: Streama på nästan vilka enheter som helst
+      pause_save_resume: Pausa, spara, återuppta
+      upgrade_to_plex_pass: Uppgradera till Plex Pass
+      get_the_app: Skaffa appen
+      for_tvs: För TV
+      for_mobile: För mobil
+      for_consoles: För konsoler
+      for_desktop: För stationär dator
+      plex_media_server: Plex Media Server
+      features: Funktioner
+      all: Allt
+      movies: Filmer
+      tv: TV-program
+      music: Musik
+      photos: Bilder
+      videos: Videor
+      premium: Premium
+      pms: Plex Media Server
+      apps: Appar
+      android: Android
+      amazon_fire_tv: Amazon Fire TV
+      android_tv: Android TV
+      apple_tv: Apple TV
+      chromecast: Chromecast
+      pmp: Media PC
+      ios: iOS
+      nvidia_shield: NVIDIA SHIELD
+      ps3: PlayStation 3
+      ps4: PlayStation 4
+      roku: Roku
+      smart_tv: Smart TV
+      tivo: TiVo
+      web: Webb
+      windows: Windows
+      windows_phone: Windows Phone
+      xbox_360: Xbox 360
+      xbox_one: Xbox One
+      premium_thanks: Tack för att du är en trogen Plexprenumerant!
+      premium_upsell_markup: Skaffa premium och få det bästa av Plex, %{link_start}läs
+        mer%{link_end}.
+      my_account: Mitt konto
+      settings: Inställningar
+      downloads: Nedladdningar
+      support_title: Support Sajt
+      support_description: Dokumentation, Guider, Vanliga frågor, Felsökning och mer
+      forums_title: Support Forum
+      forums_description: Skicka frågor och diskutera med andra i Plex forumet
+      blog: Blogg
+      about: Om
+      servers: Servrar
+      sign_in: Logga in
+      sign_up: Registrera dig
+      sign_out: Logga ut
+      launch: Starta
+      about_us: Om
+      team: Team
+      privacy_legal: Sekretess & Legalt
+      site_map: Sajtkarta
+      connect: Anslut till oss
+      forums: Forum
+      developers: Utvecklare
+      contact: Kontakt
+      press_room: Press
+      gear: Plex-utrustning
+      status: Status
+      copyright: Copyright © %{year} Plex
+      language_picker_label: Välj språk
+  validators:
+    url_invalid: Url ej giltig.
+  subscriptions:
+    errors:
+      avs_system_error: AVS-systemfel, vänligen försök senare.
+      avs_not_supported: Banken stöder inte postnummerverifikation. Vänligen kontakta
+        din bank eller försök med en annan betalningsmetod.
+      avs_not_verified: Banken vägrade att verifiera postnumret. Vänligen kontakta
+        din bank eller försök med en annan betalningsmetod.
+      avs_not_provided: Vänligen ange postkod.
+      avs_not_matched: Ditt postnummer matchar ej
+      cvv_not_supported: Banken stöder inte CVV-kod verifiering. Vänligen kontakta
+        din bank eller försök med en annan betalningsmetod.
+      cvv_not_verified: Banken vägrade att verifiera CVV-kod. Vänligen kontakta din
+        bank eller försök med en annan betalningsmetod.
+      cvv_not_provided: Vänligen skriv din CVV-kod.
+      cvv_not_matched: Din CVV-kod matchar ej.
+      risk_threshold: För många köpförsök under en kort period. Försök igen efter
+        30 minuter.
+      payment_type_not_supported: Denna kredikortstyp godtas inte.
+      upgrade_unable_to_process: Kunde ej uppgradera din nuvarande prenumeration
+      payment_method_missing: Kan inte behandla, betalningsmetod saknas.
+      unbundle_unable_to_process: Det går inte att behandla ditt nuvarande prenumeration
+        för konvertering
+      downgrade_unable_to_process: Det går inte att behandla ditt nuvarande prenumeration
+        för nedgradering
+      cancel_unable_to_process: Det går inte att behandla avbokningsbegäran för din
+        nuvarande prenumeration
+      destroy_subscription_cancelled: Prenumeration annullerad. Du kommer inte att
+        faktureras igen.
+      destroy_subscription_already_cancelled: Prenumerationen är redan avslutad.
+      destroy_subscription_error: Ett fel uppstod när du försökte avbryta din prenumeration.
+        Vänligen försök igen.
+      process_javascript_enabled: Det uppstod ett fel vid skapandet av prenumerationen,
+        se till att JavaScript är aktiverat
+      create_braintree_error: 'There was an error creating the subscription: %{error_message}'
+      upgrade_braintree_error: 'There was an error upgrading your subscription: %{error_message}'
+      create_subscription_invalid_upgrade: Ogiltigt plan-uppgraderingsalternativ från%{current_plan}
+        till%{plan}.
+      create_success_upgrade: Tack för att du uppgraderade!
+      invalid_captcha: Invalid reCAPTCHA response
+      tidal_upgrade_no_payment: Din faktureringsinformation kunde inte hämtas. Var
+        god kontakta support.
+      different_country_of_issuance: Det valda landet matchar inte kreditkortslandet
+      different_location: Ditt valda land matchar inte din nuvarande plats
+      invalid_zip_code: Ditt postnummer är inte giltigt. Uppdatera din faktureringsinformation.
+      not_found: Du har ingen aktiv prenumeration att uppgradera från.
+    plex_pass_features:
+      page_title: Plex Pass funktioner
+      page_description: Tillgång till Premium Plex Funktioner såsom Mobile Synk, Chromecast
+        och Moln Synk
+      page_keywords: streaming media player, streaming programvara, streaming media,
+        media streamer
+      plex_pass_header_markup: '%{bold_start}Plex%{bold_end}Pass'
+      welcome_caption: Grattis till ditt nya Plex Pass och tack för ditt stöd. Du
+        har nu allt du behöver för att få ut det mesta av Plex. Börja utforska!
+      feature_camera: Kamera-uppladdning
+      feature_sync: Molnsynkronisering
+      feature_apps: Gratis Appar
+      feature_plexsync: Mobile Synk
+      feature_trailers: Trailers & Extramaterial
+      feature_earlyaccess: Tidig Tillgång
+      feature_plexhome: 'Plex Hem '
+      feature_gracenote: Gracenote musikmagi
+      feature_premium_music: Premiummusik
+      feature_camera_caption: Synkronisera telefonens eller surfplattans foton trådlöst
+        och automatiskt till din Plex Media Server.
+      feature_sync_caption: Sync specific content from your Plex Media Server to supported
+        cloud storage providers to enjoy it anywhere you have an internet connection.
+      feature_trailers_caption: Se automatiskt högkvalitativa filmtrailrar, skådespelarintervjuer
+        och annat extramaterial till filmer i ditt bibliotek.
+      feature_earlyaccess_caption_markup: Be the first to get new apps as soon as
+        we release them, free of charge.
+      feature_plexhome_caption: Skapa skräddarsydda, hanterade konton och begränsa
+        det innehåll användarna har tillgång till.
+      feature_gracenote_caption: Manage music with song identification via sonic fingerprinting,
+        get world-class album reviews and artist bios, and create automatic Plex Mix
+        playlists based on mood or similar tracks.
+      feature_premium_music_caption: Improve your music collection with sonic fingerprinting,
+        create smart playlists, and sing along with dynamic lyrics.
+      feature_multiuser_caption: Se vad dina vänner streamar från din samling. Alla
+        får sin egen vy in i ditt bibliotek.
+      feature_apps_caption_markup: Enjoy apps on us with free access to all of our
+        paid and preview %{freeapps_link_start}apps%{link_end}.
+      feature_plexsync_caption: Bring your media with you on your %{android}, %{ios},
+        or %{windows81} device and enjoy it offline anywhere.
+      feature_mobile_sync_caption_markup: Bring your media with you on your %{android_link_start}Android%{link_end},
+        %{ios_link_start}iOS%{link_end}, or %{windows_link_start}Windows%{link_end}
+        device and enjoy it offline anywhere.
+      read_more_link: More Exclusive Features
+    about:
+      page_title: Prenumerationer
+    cancel:
+      subscription_link: Prenumeration
+      page_title: Annullera
+      cancel_subscription_title: Avsluta prenumerationen
+      sad_caption: Vi är ledsna att du funderar på att annullera din prenumeration.
+        Alltså, super ledsna.
+      subscription_date_warning: 'Om du bestämmer dig för att annullera kommer vi
+        inte debitera ditt kreditkort igen och din prenumeration kommer försvinna
+        bort i solnedgången - slut, det är allt - den %{subscription_end_date}. '
+      go_back_markup: Eller gå tillbaka till din %{subscription_link_start}prenumerationssida%{link_end}.
+      cancel_confirm: Ange ditt nuvarande lösenord för att bekräfta avslutningen
+      cancel_link: Avsluta prenumerationen
+      invalid_password: Ogiltigt lösenord.
+    new:
+      page_title: Prenumerera på Plex Pass
+      back_link: Tillbaka
+      next_link: Nästa
+      subscribe_link: Prenumerera
+    promo:
+      page_title: Uppgradera till Plex Pass
+    welcome:
+      page_title: Plex Pass
+    show:
+      page_title: Prenumerationer
+      link_label: Prenumerationer
+      subscriptions_label: Prenumeration
+      next_billed_caption: You will next be billed for %{next_period_amount} on %{next_billing_date}
+      price_validity_info: (priset gäller t.o.m. %{price_active_until})
+      soft_decline_next_billed_caption_markup: Din prenumerations-förnyelse försökte
+        genomföras %{renewal_billing_date}, men transaktionen misslyckades. Ytterliggare
+        förnyelseförsök att dra summan %{next_period_amount} kommer göras %{next_billing_date}.
+        Tidigare faktureringsförsök och transaktioner kan hittas på %{payments_link_start}betalningssidan%{link_end}.
+      hard_decline_next_billed_info_markup: Din prenumeration för %{next_period_amount}
+        skulle var abetald %{renewal_billing_date}, vi kan dock inte se betalningen
+        hos oss. Vänligen kontrollera och uppdatera din fakturainformation innan %{end_of_grace_period_date}
+        så du kan behålla din prenumeration. Föregående betalningsförsök kan du se
+        på  %{payments_link_start}Betalnings sidan%{link_end}.
+      itunes_manage_caption_markup: Din prenumeration hanteras via App Store. Du kan
+        %{itunes_help_link_start}hantera din prenumeration %{link_end} från din iOS-enhet
+        eller App Store.
+      google_play_manage_caption_markup: Your subscription is handled through Google
+        Play. You can manage details of your subscription from your Google account.
+        %{google_play_help_link_start}Learn more%{link_end}.
+      amazon_manage_caption_markup: Your subscription is handled through Amazon. You
+        can manage details of your subscription from the Amazon website or Amazon
+        Appstore app. %{amazon_help_link_start}Learn more%{link_end}.
+      roku_manage_caption_markup: Your subscription is handled through Roku. You can
+        manage details of your subscription from the Roku website. %{roku_help_link_start}Learn
+        more%{link_end}.
+      next_billed_lifetime_caption: Du är livstidsmedlem. Livet är härligt.
+      cancel_subscription_caption_markup: Vi skulle bli riktigt ledsna, men du kan
+        också %{cancel_link_start}säga upp din automatiska prenumeration%{link_end}%{line_break}.
+        Om du säger upp den, kommer du inte längre att få några fakturor av oss.
+      thanks_for_supporting: Tack för att du stöder Plex, vi uppskattar det verkligen.
+      active_title: Du har ett nytt Plex Pass
+      canceled_title: Du har ett nytt Plex Pass
+      inactive_title: Ditt Plex Pass är inte aktivt
+      on_hold_title: Ditt Plex Pass är i paus
+      add_plex_pass_title: Lägg till ett Plex Pass
+      retry_markup: Så fort betalningsproblemet är löst kan du %{retry_link_start}
+        försöka förnya på nytt %{link_end}.
+      canceled_charge_again_caption_markup: Du kommer inte att faktureras igen. %{line_break}
+      canceled_active_until_caption_markup: Ditt Plex Pass är aktivt till %{active_until_date}.
+        %{add_billing_link_start}Lägg till en återkommande betalningsmetod eller uppgradera%{link_end}
+        för att undvika att du förlorar din Plex Pass-prenumeration.
+      inactive_caption_markup: '%{add_billing_link_start}Lägg till återkommande betalningsmetod%{link_end}
+        för att återaktivera eller uppgradera ditt Plex Pass.'
+      benefits_caption_markup: Se vilka%{benefits_link_start}förmåner%{link_end} du
+        får med din prenumeration.
+      benefits_gift_markup: To give the gift of Plex Pass to someone else, %{benefits_link_start}click
+        here%{link_end}.
+      upgrade_caption_markup: Du kan %{upgrade_link_start}uppgradera%{link_end} ditt
+        Plex Pass till en annan plan.
+      apply_gift_code_markup: Har du en presentkod? Tillämpa den på din nuvarande
+        prenumeration.
+      apply_gift_code_upgrading_markup: Har du en presentkod? Tillämpa den på din
+        nuvarande prenumeration eller vid %{upgrade_link_start}uppgradering%{link_end}.
+      current_prices_remark: '*Vänligen observera, nuvarande prenumerationsavgifter
+        gäller.'
+      add_plex_pass_link_markup: '%{add_plexpass_link_start}Lägg till%{link_end} ett
+        Plex Pass till din befintliga prenumeration'
+      tidal_title_premium: Premium
+      tidal_title_premium_bundle: Premiumpaket
+      tidal_title_hifi: Hifi
+      tidal_title_hifi_bundle: Hifipaket
+      unbundle_tidal_link_markup: '%{unbundle_tidal_link_start}Lägg till%{link_end}
+        ett Plex Pass till din befintliga prenumeration'
+      add_ons_title: Utökningar och paket
+      tidal_premium: TIDAL
+      billing_title: Fakturering och betalningar
+      edit_caption_markup: Du kan även %{edit_link_start}se och modifiera din faktureringsinformation%{link_end}.
+    pro:
+      title: Du har ett Plex Pass för professionella installatörer
+    upgrade:
+      subscription_link: Prenumeration
+      page_title: Prenumerationsuppgradering
+      upgrade_title: Uppgradera din Plex Pass Prenumeration
+      you_are_logged_in: Du är inloggad på kontot
+      pickaplan_caption: Vi hjälper dig gärna uppgradera din prenumeration. Välj helt
+        enkelt en plan nedan.
+      remaining_time_caption: Återstående tid på din nuvarande %{current_plan} plan
+        kommer att krediteras så att du inte betalar för tid du inte har använt.
+      existing_payment_caption_markup: Din nuvarande betalningsmetod (%{current_method_name_and_description})
+        kommer debiteras omedelbart. Om du vill ändra din betalningsmetod, vänligen
+        %{edit_billing_link_start}ändra din betalningsinformation%{link_end} innan
+        uppgradering.
+      existing_payment_confirm_caption: Om du vill använda en annan betalningsmetod,
+        se till att ändra det innan uppgradering.
+      existing_payment_removal_caption: Your existing payment information will be
+        removed when processing your free lifetime subscription.
+      edit_payment_method_label: Ändra
+      upgrade_yearly_title_markup: Uppgradera till%{bold_start}årsplan%{bold_end}
+      yearly_subscription_name: Årlig prenumeration
+      yearly_first_payment_caption: Första betalningen
+      yearly_first_payment_caption_vat: Första betalningen (inklusive moms)
+      yearly_upgrade_link: Uppgradera till Årlig
+      upgrade_three_years_title_markup: Uppgradera till %{bold_start} 3-årsabonnemang
+        %{bold_end}
+      three_years_subscription_name: 3-årsabonnemang
+      three_years_upgrade_link: Uddgradera för 3 år
+      upgrade_lifetime_title_markup: Uppgradera till%{bold_start}livstidsplan%{bold_end}
+      lifetime_subscription_name: Livstidsprenumeration
+      lifetime_total_caption: Totalt
+      lifetime_total_caption_vat: Totalt (inklusive moms)
+      remaining_credit_caption: Kredit för återstående %{current_plan} plan
+      sales_tax_caption: Försäljningsmoms
+      tax_caption: Moms
+      upgrade_credit_caption: Om du väljer att uppgradera plan tillämpas en kredit
+        %{amount}för kvarvarande tid%{current_plan} i föregående prenumeration.
+      lifetime_upgrade_link: Uppgradera till Livstid
+      upgrade_link: Uppgradera
+    guided_upgrade:
+      visit_service_markup: För att fortsätta, besök din %{service_name}-prenumerationshantering
+        och avbryt framtida förnyelse av din nuvarande %{plan} Plex Pass-prenumeration.
+        Du kan hitta mer information om %{service_link_start}hantera appbutiksprenumerationen
+        här%{link_end}.
+      still_active: '%{service_name} indikerar att Plex Pass-prenumerationen inte
+        har avslutats. Avbryt framtida förnyelse av den prenumerationen innan du fortsätter.'
+      continue: Fortsätt
+    downgrade:
+      downgrade_link: Nedgradera
+    unbundle_tidal:
+      convert_header_plan: Nuvarande paket
+      convert_header_to: Nytt paket
+      subscription_link: Prenumeration
+      page_title: Lägg till ett Plex Pass
+      upgrade_title: Välj ett Plex Pass-alternativ för att fortsätta
+      you_are_logged_in: Du är inloggad på kontot
+      confirm_title: Bekräfta din Plex Pass Prenumeration
+      amount:
+        monthly: '%{amount} per månad'
+        yearly: '%{amount} per år'
+        lifetime: '%{amount} '
+      amount_slash: '%{amount}/månad'
+      billing_frequency: Faktureringsfrekvens
+      billing_date: Faktureringsdatum
+      billing_date_today: Idag
+    upgrade_tidal:
+      subscription_link: Prenumeration
+      page_title: TIDAL prenumerationsuppgradering
+      you_are_logged_in: Du är inloggad på kontot
+      confirm_title: Bekräfta din TIDAL-prenumeration
+      upgrade_title: Uppgradera din TIDAL-prenumeration
+      amount: '%{amount} per månad'
+      amount_slash: '%{amount}/månad'
+      next_billing_date: Nästa faktureringsdatum
+    downgrade_tidal:
+      subscription_link: Prenumeration
+      page_title: TIDAL prenumerationsnedgradering
+      downgrade_title: Nedgradera din TIDAL-prenumeration
+      confirm_title: Bekräfta din TIDAL-prenumeration
+      amount: '%{amount} per månad'
+      amount_slash: '%{amount}/månad'
+    cancel_tidal:
+      subscription_link: Prenumeration
+      cancel_title: Avsluta din TIDAL-prenumeration
+      description: Jej då, farväl, auf Wiedersehen, adjö! Tråkigt att du lämnar oss.
+      submit_link: Bekräfta avslut
+    gift_code:
+      page_title: Apply Gift Code
+      apply_to_current_plan_title: Apply a gift code to your current plan
+      gift_code_label: Gift Code
+      confirm: Confirm
+      details_title: Your subscription details
+      current_plan_label: Current plan
+      price_label: Subscription price
+      success: Gift code applied!
+      apply_error: 'An error happened aplying your gift code: %{error_message}'
+      not_applied: The gift code couldn't be applied.
+    retry:
+      error: 'Det blev ett fel vid försök att: %{error_message}'
+      success: Betalning återtagen och skickad för lösning
+      not_found: Du har ingen prenumeration som gått ut.
+  auth:
+    tabs:
+      sign_in: Logga in
+      create_account: Skapa ett konto
+    trust:
+      security_alert_title: Säkerhetsalarm
+      security_alert_body: En annan enhet försöker att logga in med ditt Plex-konto.
+        Du borde enbart fortsätta om du känner igen enheten och vill ge den åtkomst.
+    continue_google: Fortsätt med Google
+    continue_apple: Fortsätt med Apple
+    terms: Allmänna användarvillkor
+    privacy: Integritetspolicy
+    password_strength:
+      too_weak: För svagt
+      very_weak: Väldigt svagt
+      somewhat_weak: Något svagt
+      somewhat_strong: Något starkt
+      very_strong: Väldigt starkt
+    signin:
+      email_label: E-post eller användarnamn
+      password_label: Lösenord
+      submit: Logga in
+    signup:
+      email_label: E-postadress
+      password_label: Skapa lösenord
+      password_placeholder: Minst 10 tecken
+      submit: Skapa ett konto
+    email_verification:
+      continue: Fortsätt
+      create: Skapa ett konto
+      code_label: Verifieringskod
+    two_factor:
+      code_label: Verifieringskod
+      submit: Verifiera
+    continue:
+      submit: Fortsätt
+    skip:
+      hint: Vad är detta?
+      heading: 'Du måste vara inloggad för att Plex ska fungera ordentligt. Om du
+        ej är inloggad:'
+      back: Logga in
+      confirm: Hoppa över och acceptera begränsad funktionalitet
+    verify:
+      password_label: Lösenord
+      code_label: Verifieringskod
+      submit: Confirm
+      or: eller
+    reset:
+      heading: Återställ lösenord
+      info: Var god och mata in den email address du använde för att skapa ditt Plex
+        Konto, så kommer vi att skicka dig instruktioner för att återställa ditt lösenord.
+      email_label: E-postadress
+      submit: Skicka instruktioner
+      success: Om du har ett konto hos oss, bör du få ett email med lösenordsåterställning
+        ögonblickligen. Vänligen kontrollera din inkorg.
+  sessions:
+    new:
+      title: Logga in
+      sign_in: Logga in
+      caption: Have a Plex account? Sign in!
+      login_label: Användarnamn eller Epostadress
+      password_label: Lösenord
+    api:
+      errors:
+        method: logga in med POST
+        client_headers: Plex klient rubriker krävs
+        wrong_parameters: Fel inmatning. Kontrollera att du skriver användarens [användarnamn]
+          och [lösenord]
+        old_version: Vänligen uppgradera. Din Plex klient är för gammal.
+  notifier:
+    shared_strings:
+      greeting: Hej %{username},
+      plex_account_label: Du kan få tillgång till ditt Plex konto när som helst på
+      username_label: 'Din användarnamn är:'
+      tidal_link: https://support.plex.tv/articles/categories/online-media-sources/tidal/
+      tidal_label: Supportdokumentation om TIDAL
+      reset_password_link: Klicka här
+      reset_password_label: om du behöver återställa ditt lösenord.
+      thank_you: Tack för att du valde Plex!
+      enjoy: Njut,
+      valediction: Med kärlek,
+      plex_team: Plex-teamet
+      footer1: Detta är ett automatiskt utskickat meddelande.
+      footer2: Vänligen svara inte direkt på denna e-post eftersom det inte kommer
+        att hamna någonstans.
+      transactional_footer: Plex GmbH, Hansmatt 32, 6370 Stans, Switzerland
+      remark: '*Vänligen observera, nuvarande prenumerationsavgifter gäller.'
+      friends: Dina vänner på Plex
+      Friends: Dina vänner på Plex
+      copyright_html: Plex GmbH, Hansmatt 32, 6370 Stans, Switzerland<br/>Upphovsrätt
+        &copy; %{year} Plex, Inc. Alla rättigheter förbehålles.
+      sincerely: Hälsningar,
+      my_account: Mitt konto
+      need_help?: Behöver du hjälp?
+      terms_of_service: Allmänna användarvillkor
+    invite_new_user:
+      subject: Någon underbar har bjudit in dig att bli vänner i Plex!
+      title: Någon underbar har bjudit in dig att bli vänner i Plex!
+      greeting: Hallå där!
+      invited_by: 'Du har blivit inbjuden av %{email} att vara Plex-vänner. För att
+        acceptera inbjudan, klicka på följande länk:'
+      accept_invitation_label: Jag accepterar inbjudan.
+    invite_existing_user:
+      subject: '%{username} vill bli vänner på Plex'
+      greetings: 👋 Hej %{username},
+      greetings_bottom: Hurra! Du har en ny vänförfrågan som väntar på dig!
+      text_bottom: Sprid ordet! Ju fler vänner du bjuder in till Plex, desto mer kan
+        ni upptäcka tillsammans.
+      view_profile: Visa profil
+      accept: Acceptera
+      mutual_friends_html:
+        one: Gemensamma vänner med <b>%{friend1}</b>
+        other: Gemensamma vänner med <b>%{friend1}</b>, <b>%{friend2}</b>%{others}
+      mutual_friends_others_html:
+        one: ', & <b>1 annan</b>'
+        other: ', & <b>%{count} andra</b>'
+      mutual_friends:
+        one: Gemensamma vänner med %{friend1}
+        other: Gemensamma vänner med %{friend1}, %{friend2} %{others}
+      mutual_friends_others:
+        one: ', och 1 annan'
+        other: ', och %{count} andra'
+    friendship_accepted:
+      subject: '%{username} accepterade din inbjudan till vänskap på Plex.'
+      greetings: 👋 Hej %{username},
+      greetings_bottom: Grattis! %{username} har precis accepterat din vänförfrågan.
+      text_bottom: Sprid ordet! Ju fler vänner du bjuder in till Plex, desto mer kan
+        ni upptäcka tillsammans.
+    server_invite:
+      subject: 'Du har fått en inbjudan att dela media i Plex '
+      title: En fantastisk person har delat sin Plexmedia med dig!
+      greeting: Hallå där!
+      invited_by: 'Du har blivit inbjuden av %{username} att dela media i Plex. För
+        att acceptera inbjudan och se din väns media, klicka på följande länk:'
+      thank_you: Njut av denna extra media och glöm inte att tacka din vän!
+      accept_invitation_label: Jag accepterar inbjudan.
+    source_invite:
+      subject: 'Du har fått en inbjudan att dela media i Plex '
+      title: En fantastisk person har delat sin Plexmedia med dig!
+      invited_by: 'Du har blivit inbjuden av %{username} att dela några media i Plex:'
+      media:
+        zero: '%{title} från servern %{server_name}'
+        one: '%{title} och ett till objekt från servern %{server_name}'
+        other: '%{title} och %{count} fler objekt från servern %{server_name}'
+      instructions: Klicka nedan för att acceptera inbjudan och börja streama!
+      thank_you: Njut av denna extra media och glöm inte att tacka din vän!
+      accept_invitation_label: ACCEPTERA
+    username_changed:
+      subject: Ditt Plex användarnamn har ändrats!
+      title: Ditt Plex användarnamn har ändrats
+      new_username_info_markup: Hej! Vi ville berätta för dig att vi var tvugna att
+        byta ditt Plex användarnamn från %{old_name} till %{bold_start}%{new_name}%{bold_end}.
+        Vi har nyligen gjort ändringar i våra villkor beträffande användarnamn och
+        tyvärr var ditt del av den lilla procent som blev påverkade. Med omedelbar
+        början kommer du behöva använda ditt nya användarnamn, %{bold_start}%{new_name}%{bold_end},
+        var gång du loggar in på Plex.
+      reasons: Vi vet att detta är irriterande och vi beklagar, men vi anser att denna
+        ändring är nödvändig för att förhindra förvirring framöver. Vi har från början
+        varit för släpphänta med att låta folk välja namn. Vi brukade t.ex. tillåta
+        namn som enbart skiljde sig åt med stor bokstav. Så om vi hade en Plex användare
+        som hette "barkley", tillät vi även någon att välja namnet "Barkley" med stort
+        "B". Det här visade sig bli frustrerande för många människor eftersom det
+        var väldigt enkelt att skriva in fel namn av misstag och även möjligt att
+        låsa någon annan ute från sitt konto genom att försöka för många gånger.
+      your_change_explanation_text: Vi vill vara så rättvisa som möjligt när vi gör
+        denna ändring, så om du får denna e-post betyder det att någon annan hade
+        en variation av ditt användarnamn först. Om du inte trivs med ditt nya användarnamn
+        kan du ändra det när du vill i dina kontoinställningar på%{account_settings_link}.
+      your_change_explanation_markup: Vi vill vara så rättvisa som möjligt när vi
+        gör denna ändring, så om du får denna e-post betyder det att någon annan hade
+        en variation av ditt användarnamn först. Om du inte trivs med ditt nya användarnamn
+        kan du ändra det när du vill i %{account_settings_link_start}dina kontoinställningar
+        på%{link_end}.
+      thank_you: Tack för din förståelse och fortsätt Plexa!
+    username_stripped:
+      subject: Ditt Plex användarnamn har ändrats!
+      title: Ditt Plex användarnamn har ändrats
+      new_username_info_markup: Hallå! Vi ville meddela att vi måste ändra ditt användarnamn
+        som är kopplat till%{email} Plex-kontot till%{bold_start}%{new_name}%{bold_end}.
+        Under en granskning av kontoinformationen upptäckte vi att ditt tidigare användarnamn
+        innehöll en eller flera speciella "dolda" tecken som en flik- eller vagnretur.
+        När sådana speciella dolda tecken togs bort resulterade det i att ditt användarnamn
+        för kontot var identiskt med ett befintligt konto.
+      new_username_info_text: Hallå! Vi ville meddela att vi måste ändra ditt användarnamn
+        som är kopplat till %{email}Plex-kontot till%{new_name}. Under en granskning
+        av kontoinformation upptäckte vi att ditt tidigare användarnamn innehöll en
+        eller flera speciella "dolda" tecken som en flik- eller vagnretur. När sådana
+        speciella dolda tecken togs bort resulterade det i att ditt användarnamn för
+        kontot var identiskt med ett befintligt konto.
+      reasons: Eftersom vi kräver att användarnamn ska vara unika måste vi justera
+        ditt användarnamn för ditt konto så att det fortfarande var unikt efter att
+        ha rättats. Vi vill vara så rättvisa som möjligt när vi gör den här typen
+        av förändring, så om du får det här mailet betyder det att någon annan hade
+        en variation av ditt användarnamn först.
+      explanation_intro: 'Vad detta betyder för dig:'
+      explanation_1_markup: Från och med nu måste du använda ditt nya användarnamn
+        (%{bold_start}%{new_name}%{bold_end}) eller din e-postadress för konto (%{email})
+        när du loggar in på Plex
+      explanation_1_text: Från och med nu måste du använda ditt nya användarnamn (%{new_name})
+        eller din e-postadress för konto (%{email}) när du loggar in på Plex
+      explanation_2_markup: Om du är missnöjd med ditt nya användarnamn kan du ändra
+        det när som helst %{account_settings_link_start}under dina kontoinställningar%{link_end}.
+      explanation_2_text: Om du är missnöjd med ditt nya användarnamn kan du ändra
+        det när som helst under dina kontoinställningar på%{account_settings_link}
+      explanation_end: Vi vet att en sådan förändring kan vara irriterande, och vi
+        är verkligen ledsna för det, men vi anser att denna förändring är nödvändig
+        för att undvika förvirring i framtiden. Vi uppskattar din förståelse med denna
+        förändring.
+      thank_you: Tack för att du använder Plex!
+    home_invite:
+      subject: Du har fått en inbjudan att gå med på en Plex hemsida
+      title: Du har fått en inbjudan att gå med på någons Plex hemsida!
+      greeting: Hallå där!
+      invited_by: Du har blivit inbjuden av %{username}att gå med i deras Plex hem.
+        För att acceptera denna inbjudan klickar du bara på nedan.
+      description: Att gå med i ett hem gör att du snabbt kan växla mellan konton
+        bland dina Plex klienter. Det kan även tillåta andra medlemmar på hemsidan
+        att administrera ditt konto och din Plex Media Server, så gå inte med i någons
+        hem som du inte känner (och litar på).
+      current_home_warning_markup: '%{bold_start}Observera:%{bold_end} Vi visar att
+        du redan är en del av ett Plex Home. Om du accepterar en inbjudan att ansluta
+        till ett annat hem, lämnar du något aktuellt hem. Om du är administratör för
+        det Plex Home, kommer det att raderas, vilket leder till att andra medlemmar
+        lämnar och alla hanterade användare ska raderas.'
+      current_home_warning_text: 'Observera: Vi visar att du redan är en del av ett
+        Plex Home. Om du accepterar en inbjudan att ansluta till ett annat hem, lämnar
+        du något aktuellt hem. Om du är administratör för det Plex Home, kommer det
+        att raderas, vilket leder till att andra medlemmar lämnar och alla hanterade
+        användare ska raderas.'
+      accept: Jag accepterar
+    manual_plexpass_cancellation:
+      three_years: 3 år %{type}
+      lifetime: livstid %{type}
+      pro: '%{type} Pro'
+      subject: Vi är ledsna att förlora dig!
+      title: Vi är ledsna att förlora dig!
+      five_years: 5 år %{type}
+      first_paragraph: Vi vill bekräfta din nyliga uppsägning av prenumerationen %{subscription}.
+        Prenumerationen är aktiv till %{date}, men förnyas inte längre.
+      second_paragraph_markup: Om du har gjort ett hemskt misstag kan du gå till %{link_html}kontot%{link_end}
+        och rätta till det! (Det tar bara en minut!)*
+      second_paragraph_text: Om du har gjort ett hemskt misstag kan du gå till kontot
+        på %{link} och rätta till det! (Det tar bara en minut!)*
+    manual_remotewatchpass_cancellation:
+      subject: Tråkigt att du lämnar oss!
+      pre_header: Din prenumeration har avslutats
+      title: Tråkigt att du lämnar oss!
+      footnote: '*Vänligen observera, nuvarande prenumerationsavgifter gäller.'
+      first_paragraph: Vi vill bekräfta din nyliga uppsägning av prenumerationen %{type}.
+        Prenumerationen är aktiv till %{date}, men förnyas inte längre.
+      second_paragraph_markup: Om du har gjort ett hemskt misstag kan du gå till %{link_html}kontot%{link_end}
+        och rätta till det!* (Det tar bara en minut.)
+      second_paragraph_text: Om du har gjort ett hemskt misstag kan du gå till kontot
+        på %{link} och rätta till det!* (Det tar bara en minut.)
+    automatic_cancellation:
+      subject: Din %{type} har löpt ut. Förnya idag!
+      title: Din %{type} har löpt ut. Förnya idag!
+      missing: Saknar dig redan,
+      cancellation: Tyvärr har %{type} löpt ut och vi har inte kunnat förnya prenumerationen!
+        För att fortsätta använda alla funktioner i %{type}, bland annat kostnadsfri
+        tidig åtkomst till de senaste apparna, möjlighet att synkronisera medier till
+        din favoritenhet samt filmtrailrar och extramaterial, går du till kontot på
+        %{link} och registrerar dig igen!*
+      cancellation_markup: Tyvärr har %{type} löpt ut och vi har inte kunnat förnya
+        prenumerationen! För att fortsätta använda alla funktioner i %{type}, bland
+        annat kostnadsfri tidig åtkomst till de senaste apparna, möjlighet att synkronisera
+        medier till din favoritenhet samt filmtrailrar och extramaterial, går du till
+        %{link_html}kontot%{link_end} och registrerar dig igen!*
+    password_change_required:
+      title: Byte av Plex lösenord krävs
+      greeting: Hej %{username},
+      reasons: Vi har upptäckt misstänkt aktivitet på ditt Plex-konto. Det är möjligt
+        att någon annan har fått ditt användarnamn / e-post och lösenord. Vi tar din
+        integritet och säkerhet på största allvar. Som en försiktighetsåtgärd kräver
+        vi att du ändrar ditt lösenord. Var noga med att välja ett starkt lösenord,
+        dela aldrig det, och återanvänd aldrig lösenord för olika konton! Tillgång
+        till ditt Plex-konto blockeras tills du gör det.
+      change_link_markup: Vänligen följ %{password_change_link_start}denna länk%{link_end}för
+        att välja nytt lösenord.
+      sorry: Vi ber om ursäkt för besväret, men både din integritet och säkerhet är
+        mycket viktigt för oss och vi tar hellre det säkra före det osäkra!
+      thank_you: Tack för att du använder Plex!
+      change_link_text: Vänligen följ länken nedan för att välja ett nytt lösenord.
+    set_password_instructions:
+      subject: Slutför din Plex-registrering nu.
+      pre_header: Du är ett steg bort från en värld av underhållning.
+      title: Nästan där! Slutför din registrering nu.
+      introduction: Välkommen till Plex, ditt hem för gratis underhållning. Du är
+        bara ett steg bort från att slutföra din registrering. Klicka på länken nedan
+        för att ställa in ditt lösenord.
+      set_anchor: Skapa ditt lösenord
+      expiration_note_markup: '%{bold_start}Obs: Denna länk kommer löpa ut om 7 dagar.%{bold_end}'
+      expiration_note_text: 'Obs: Denna länk kommer löpa ut om 7 dagar..'
+    request_otp_code:
+      title: Din återställningskod för Plex
+      greeting: Hallå där!
+      message: Någon har begärt en återställningskod för %{email} Plex-kontot.
+      recovery_code: 'Återställningskod:'
+      expiration_note: (Obs! Denna återställningskod är endast giltig i %{expiration}
+        efter att ha genererats.)
+      thanks: Tack,
+    email_verification_code:
+      thanks: Tack,
+      title: Verifiera din e-postadress för Plex
+      message: Ange den här koden för att verifiera din e-postadress och slutföra
+        skapandet av ditt Plex-konto.
+      code_label: 'Verifieringskod:'
+      expiration_note: '(Observera: Koden är giltig i 15 minuter efter att den har
+        skapats.)'
+      ignore_note: Om du inte begärde detta kan du utan risk ignorera e-postmeddelandet.
+    account_already_exists:
+      sign_in_anchor: Logga in
+      title: Du har redan ett Plex-konto
+      message: Någon försökte skapa ett Plex-konto med den här e-postadressen, men
+        du har redan ett.
+      sign_in_prompt: 'Logga in på ditt konto:'
+      reset_note: Om du har glömt lösenordet kan du återställa det från inloggningssidan.
+    email_changed:
+      title: Plex konto e-postadress har ändrats
+      greeting: Hallå där!
+      message: Detta är ett automatiskt utskickat meddelande från Plex för att låta
+        dig veta att vi har slutfört den begärda ändringen för e-postadress. E-posten
+        för kontot har ändrats från %{old_email} till %{new_email}.
+      plex_account_label_markup: Om du vill göra ytterligare ändringar, gå till %{account_settings_link_start}dina
+        kontoinställningar%{link_end}.
+      plex_account_label_text: Om du vill göra ytterligare ändringar, gå till dina
+        kontoinställingar på %{account_settings_link}.
+      unauthorized_markup: 'If you did not perform this change, you have 7 days to
+        revert your email. To do so, you can either follow %{reset_email_link_start}this
+        link%{link_end} or visit https://plex.tv/users/reset_email and input the following
+        Recovery Code:'
+      unauthorized_text: 'If you did not perform this change, you have 7 days to revert
+        your email by visiting https://plex.tv/users/reset_email and input the following
+        Recovery Code: %{token}.'
+    plex_pass_gift:
+      subject: A Plex Pass Gift!
+      title: 'You have a gift from %{senders_name}: %{gift_name}!'
+      monthly_plan_name: 3 months of Plex Pass
+      yearly_plan_name: 1 year of Plex Pass
+      lifetime_plan_name: a lifetime Plex Pass
+      plex_pass_description: Plex Pass gives you free, early access to new apps, allows
+        you to sync personal media to your mobile devices, provides extra content
+        for movies and premium music, and much more.
+      message_title: Message from %{senders_name}
+      get_started_title: Get started
+      redeem_instructions: Click the link below to log in to Plex. Don't have an account?
+        No worries, it's free and easy to set up. Once you have signed in, use the
+        promo code below during the check-out process. Enjoy!
+      redeem_now_link: Redeem Now
+      redeem_instructions_text: 'Your gift code is: %{code}. Click the link below
+        to log in to Plex. Don''t have an account? No worries, it''s free and easy
+        to set up. Once you have signed in, use the gift code during the check-out
+        process. Enjoy!'
+    gift_receipt:
+      subject: Your Plex Pass gift
+      title: Thanks for your purchase!
+      intro_print: Your gift certificate is attached to this email. Print it out,
+        wrap it up, deliver it, and watch them light up!
+      intro_email: An email will be sent to %{recipients_email} with details on how
+        to redeem their gift. Get ready to be showered with appreciation!
+      receipt_title: Order Summary
+      plan_label: Plan
+      transaction_number: Transaction No.
+      promo_code_label: Promo Code
+      date_label: Date
+      amount_label: Summa
+      voucher:
+        title: 'You have a gift from %{senders_name}: %{gift_name}!'
+        promo_label: Promo Code
+        message_label: Message from
+        how_to_use_label: How to use
+        help_label: We're here to help
+        help_markup: If you are having trouble redeeming your gift, please feel free
+          to email us at %{bold_start}gifts@plex.tv%{bold_end}
+        redeem_instructions_step1_markup: 1. Go to %{bold_start}%{redeem_url}%{bold_end}
+        redeem_instructions_step2: 2. Login or sign up
+        redeem_instructions_step3: 3. Use the above promo code during the checkout
+          process
+    free_trial_has_started:
+      pre_header: Nu kan du titta överallt
+      title: Säg hej till %{type}.
+      subject: Hurra! Din kostnadsfria provperiod för Plex %{type} har startat
+      first_paragraph: Välkommen till din kostnadsfria provperiod för %{type}! Du
+        kan nu strömma på distans från alla personliga medieservrar som du har åtkomst
+        till.
+      second_paragraph: När provperioden avslutas den %{date} förnyas den automatiskt
+        och %{price} debiteras varje %{period}, om du inte väljer att avbryta prenumerationen.
+        Priser kan ändras.
+      third_paragraph_markup: Du kan visa, hantera eller avsluta din Plex-prenumeration
+        %{link_html}här%{link_end}.
+      third_paragraph_text: Du kan visa, hantera eller avsluta din Plex-prenumeration
+        på %{link}.
+    friend_referral:
+      subject: You've been given a free month of Plex Pass!
+      title: You've been given a free month of Plex Pass!
+      intro: '%{friend_title} thinks you would enjoy a free month of Plex Pass, which
+        means a month of all of our premium features. All you have to do is enter
+        this unique code when you sign up for Plex Pass—that''s it!'
+      code: Your Promo Code
+      instructions_text: All you have to do is go to the following link and sign up
+        for Plex Pass using your code
+      terms: '* Promotion valid on new Plex Pass subscriptions only. Offer expires
+        at 11:59pm (Pacific Time) on May 31, 2016.'
+      button_text: Get my free month
+      more_info_markup: For more information on Plex Pass, %{about_link_start}click
+        here%{link_end}.
+      more_info_text: Find more information on Plex Pass at %{about_subscription_link}.
+      perks_title: Förmåner med Plex Pass
+      perks_intro: 'You have a whole month to explore what it''s all about. Here are
+        just a few of the goodies:'
+      features_premium_music_title: Premiummusik
+      features_premium_music_copy: Enjoy the best of the Plex music experience with
+        premium features, like Plex Mix, mood mixes, HD music videos, dynamic lyrics,
+        and more.
+      features_mobile_sync_title: Mobilsynk
+      features_mobile_sync_copy: Bring your synced media with you on your mobile devices
+        and enjoy it offline anywhere.
+      features_trailers_extras_title: Trailrar och extramaterial
+      features_trailers_extras_copy: Automatically get high quality movie trailers,
+        cast interviews, and other extras for movies in your library.
+      features_parental_controls_title: Föräldrakontroller
+      features_parental_controls_copy: Enable parental controls to keep the kids away
+        from what you don't want them to see.
+    past_due_notifications:
+      title: Din prenumeration kunde inte förnyas.
+      first_decline:
+        third_paragraph: Tänk på att din prenumeration kommer automatiskt avbrytas
+          om inte problemet med debiteringen löser sig inom de följande %{days_left}
+          dagarna.
+        first_paragraph: Vi hade problem med att behandla förnyelsen av din %{subscription_type}-prenumeration.
+          Betalningsuppgifterna är troligen inte längre giltiga eller har gått ut.
+      first_retry:
+        third_paragraph: Varning din prenumeration kommer automatiskt avbrytas om
+          inte problemet med debiteringen löser sig inom de följande %{days_left}
+          dagarna.
+        first_paragraph: Vi hade åter problem med att behandla förnyelsen av din %{subscription_type}-prenumeration.
+          Betalningsuppgifterna är troligen inte längre giltiga eller har gått ut.
+      n_days_past_due:
+        third_paragraph_html: <a href="%{link}">Uppdatera din faktureringsinformation
+          </a> och se till att det är korrekt.
+        third_paragraph_text: Uppdatera din faktureringsinformation och se till att
+          det är korrekt på %{link}.
+        fourth_paragraph: Om problemet inte korrigeras och din prenumeration avbryts,
+          observera att eventuell ny prenumeration kommer debiteras enligt våra aktuella
+          priser.
+        first_paragraph: Vi har inte kunnat behandla förnyelsen av din %{subscription_type}-prenumeration
+          på grund av problem med betalningsuppgifterna.
+        second_paragraph: Ditt konto har en förfallen betalning och prenumerationen
+          avslutas om betalningsuppgifterna inte uppdateras inom %{days_left} dagar
+          så att förnyelsen kan genomföras.
+      subject: Vi hade problem med förnyelsen av %{subscription_type}
+      second_paragraph_html: För att hålla prenumerationen aktiv, <a href="%{link}">uppdatera
+        faktureringsuppgifterna</a> och kontrollera att de är korrekta.
+      second_paragraph_text: För att hålla prenumerationen aktiv uppdaterar du faktureringsuppgifterna
+        och kontrollerar att de är korrekta på %{link}.
+    vendor_notification:
+      subject: En ny version av Plex Media Server
+      title: En ny officiell version av Plex Media Server
+      greeting: Hej,
+      intro: Vi ville bara meddela att vi har släppt en ny offentlig version av Plex
+        Media Server.
+      release_notes: 'Information för denna versionen - %{version} : '
+      items_added: 'Nytt:'
+      items_fixed: 'Åtgärdat:'
+      download: 'Du kan hämta paketen för dig att QA och tillämpa i din appbutik härifrån:'
+    dropbox_v2_update:
+      subject: Plex Media Server-uppdatering behövs för Molnsynk
+      intro: Vi märkte att du har försökt använda vår Molnsynk-tjänst med din Dropbox-molnlagring.
+        Dropbox har nyligen gjort några ändringar på sin backend och versionen av
+        Plex Media Server du använder är inte kompatibel med de nya ändringarna. Räds
+        ej, våra nya Plex Media Server-utgåvor är kompatibla med Dropbox-ändringarna,
+        så allt du behöver göra är att uppdatera servern.
+      message: Besök vår sida för nedladdningar (https://www.plex.tv/downloads/) och
+        ta Plex Media Server version 1.5.7 eller senare. Du kan sedan uppgradera din
+        Plex Media Server och fortsätta njuta av Molnsynk
+    upcoming_plexpass_subscription_renewal:
+      subject: Din %{type}-prenumeration förnyas snart
+      pre_header: Öppna för detaljer
+      title: Det är dags igen.
+      first_paragraph: Din återkommande %{plan} %{type}-prenumeration förnyas den
+        %{date}. Beloppet %{price} debiteras den sparade betalningsmetoden.
+      second_paragraph_markup: Du kan hantera prenumerationen, granska betalningshistoriken
+        eller ändra planen (inklusive uppsägning) %{link_html}här%{link_end}.
+      second_paragraph_text: Du kan hantera prenumerationen, granska betalningshistoriken
+        eller ändra planen (inklusive uppsägning) på %{link}.
+    upcoming_remotewatchpass_subscription_renewal:
+      subject: Din %{type}-prenumeration förnyas snart
+      pre_header: Öppna för detaljer
+      second_paragraph_html: Du kan alltid hantera ditt konto inklusive automatisk
+        förnyelse <a href="%{link}">här</a>.
+      second_paragraph_text: Du kan alltid hantera ditt konto inklusive automatisk
+        förnyelse på %{link}.
+      title: Det är dags igen.
+      first_paragraph: Din %{type} förnyas automatiskt den %{date}. Beloppet %{price}
+        %{plan} debiteras den sparade betalningsmetoden.
+    upcoming_subscription_end:
+      hi: Hej %{username},
+      missing_you: Saknar dig redan,
+      tidal:
+        subject: Din TIDAL-prenumeration löper snart ut. Förnya idag!
+        footnote: '*Vänligen observera, nuvarande prenumerationsavgifter gäller.'
+        message_markup: Din TIDAL-prenumeration håller på att ta slut, men det finns
+          fortfarande tid! Om du vill fortsätta använda alla 110 miljoner låtar av
+          högsta kvalitet, videor och exklusivt innehåll som du gillar, samt de utmärkta
+          ljudförbättringar som följer med dem, går du till %{subscription_link_start}%{subscription_url}%{link_end}
+          och registrerar dig igen!*
+        message_text: Din TIDAL-prenumeration håller på att ta slut, men det finns
+          fortfarande tid! Om du vill fortsätta använda alla 110 miljoner låtar av
+          högsta kvalitet, videor och exklusivt innehåll som du gillar, samt de utmärkta
+          ljudförbättringar som följer med dem, går du till %{subscription_url} och
+          registrerar dig igen!*
+    signin:
+      subject: Ny inloggning till ditt Plex-konto
+      title: 'En ny enhet användes för att logga in på ditt Plex-konto:'
+      location: 'Plats: %{location} (uppskattad)'
+      ip_address: 'IP-adress: %{ip_address}'
+      account: 'Konto: %{account}'
+      device: 'Enhet: %{device}'
+      location_html: <b>Plats:</b> %{location} (uppskattad)
+      ip_address_html: <b>IP-adress:</b> %{ip_address}
+      account_html: <b>Konto:</b> %{account}
+      device_html: <b>Enhet:</b> %{device}
+      change_password: 'Om du inte känner igen denna aktivitet rekommenderar vi att
+        du byter lösenord omedelbart för att säkra ditt konto: %{account_link}'
+      change_password_markup: Om du inte känner igen denna aktivitet rekommenderar
+        vi att du %{account_link_start}byter ditt lösenord%{link_end} omedelbart för
+        att säkra ditt konto.
+      manage_account: Hantera ditt konto på %{account_link}
+      manage_account_markup: '%{account_link_start}Hantera ditt konto%{link_end}'
+    federated_auth_linked:
+      subject: Nytt %{provider}-konto länkat ditt Plex-konto
+      title: Ett nytt %{provider}-konto länkades till ditt Plex-konto.
+      account: 'Konto: %{account}'
+      account_html: <b>Konto:</b> %{account}
+      unlink_and_change_password: 'Om du inte känner igen denna aktivitet rekommenderar
+        vi att du tar bort länk och ändrar ditt lösenord omedelbart för att säkra
+        ditt konto: %{account_link}'
+      unlink_and_change_password_markup: Om du inte känner igen denna aktivitet rekommenderar
+        vi att du %{account_link_start}tar bort länk och ändrar ditt lösenord%{link_end}
+        omedelbart för att säkra ditt konto.
+      manage_account: Hantera ditt konto på %{account_link}
+      manage_account_markup: '%{account_link_start}Hantera ditt konto%{link_end}'
+      email: 'E-postadress för länkat konto: %{email}'
+      email_html: <b>E-postadress för länkat konto:</b> %{email}
+    account_self_deleted:
+      subject: 'KONTOUPPDATERING: Ditt Plex-konto har tagits bort'
+      introduction: 'Vi har tagit emot din begäran om att ta bort Plex-kontot som
+        är associerat till:'
+      warn: Bara så att du vet, denna e-postadress, liksom användarnamnet som är associerat
+        till den, kan inte användas för att skapa ett nytt konto de närmaste 30 dagarna.
+      what_to_do_markup: '%{bold_start}Vad man ska göra om ditt konto togs bort av
+        misstag%{bold_end}'
+      what_to_do_text: Vad man ska göra om ditt konto togs bort av misstag
+      instructions_markup: 'Om denna begäran gjordes av misstag kan du %{recovery_link_start}följa
+        denna länk för att försöka återställa kontot%{link_end} inom de närmaste 28
+        dagarna. Eller besök https://plex.tv/users/recover och ange följande kod:'
+      instructions_text: 'Om denna begäran gjordes av misstag kan du besöka https://plex.tv/users/recover
+        och ange följande kod: %{recovery_token}.'
+      explanation: Vi säger ”försök att återställa” eftersom vi på grund av integritetsbegränsningar
+        inte kan garantera att alla borttagna konton återställs.
+    account_recovery_succeed:
+      subject: 'KONTOUPPDATERING: Ditt Plex-konto har återställts för denna e-postadress'
+      message: 'Lyckades! Du återsrällde Plex-kontot associerat med:'
+      happy_streaming: Streama på!
+    account_recovery_failed:
+      subject: 'KONTOUPPDATERING: Plex-konto är inte återställningsbart för denna
+        e-postadress'
+      message_introduction: 'Dåliga nyheter. Tidigare försökte du återställa det borttagna
+        Plex-kontot associerat med:'
+      message: men återställningen lyckades inte; koden kan ha varit ogiltig eller
+        gått ut. Om du vill försöka återställa kontot igen går du till https://www.plex.tv/contact/?option=plex-pass-billing.
+    confirm_purchase:
+      pre_header: Hämta lite popcorn och njut av din film.
+      title: Njut av din film på Plex
+      renting:
+        movie_paragraph_html: Tack för att du hyrde <b>%{movie_name}</b> på Plex!
+          Streama det nu med vänner och familj, eller titta på det ensam och behåll
+          all popcorn för dig själv.
+        movie_paragraph_text: Tack för att du hyrde %{movie_name} på Plex! Streama
+          det nu med vänner och familj, eller titta på det ensam och behåll all popcorn
+          för dig själv.
+      order_number_info: 'Beställning #: %{order_number}'
+      order_date_info: 'Beställningsdatum: %{order_date}'
+      support_html: 'Frågor? Vi finns här för dig på <a href="https://support.plex.tv/"
+        target="_blank" style="text-decoration: underline; color: #E5A00D;"><b>support</b></a>.'
+      support_text: Frågor? Vi finns här för dig på Support https://support.plex.tv
+      watch: Titta nu
+      subject: 'Nu är det dags: din hyrfilm är klar'
+    community_message:
+      share:
+        subject: Meddelande från %{sender_name}
+      comment:
+        subject: '%{content_title}: Du har fått nya kommentarer på din aktivitet!'
+      shared: '%{sender_name} delade %{title}'
+      commented: '%{sender_name} kommenterade %{title}'
+      idea_title: Visste du det?
+      reply: Svara nu
+      title:
+        episode: '%{show_title} - S%{season_order} • A%{episode_order}'
+        season: '%{show_title} - Säsong %{season_order}'
+    community_message_report:
+      subject: '%{sender_name} rapporterade ett problem'
+      title: Problem rapporterad på din server
+      description: '%{sender_name} rapporterade ett problem med en titel på din server.'
+      reply: Svara nu
+    community_message_report_comment:
+      subject: '%{sender_name} kommenterade på ett problem'
+      title: '%{sender_name} kommenterade på ett problem'
+      reply: Svara nu
+    managed_graduation:
+      subject: Du har blivit inbjuden att skapa ett Plex-konto
+      pre_header: Uppgradera till den kompletta Plex-upplevelsen
+      title: Du blir befordrad.
+      description: Du har fått en inbjudan att skapa ditt alldeles egna Plex-konto
+        från %{home_admin_title}. Genom att slutföra denna process kommer du att kunna
+        njuta av den fullständiga Plex-upplevelsen.
+      perks_description: 'För att börja kan du:'
+      perk6: Skapa en PIN-kod för att säkra ditt nya konto (rekommenderas).
+      changes_title: Vad kommer att ändras?
+      changes_description: 'Bra fråga. Här är vad du kan förvänta dig:'
+      changes3: Du kommer förlora åtkomst till alla eventuella aktiva hyrfilmer.
+      ready_to_start: Oroa dig inte, vi kommer att guida dig genom varje steg. Är
+        du redo att börja?
+      create_my_account: Skapa mitt konto
+    community_opt_in:
+      primary:
+        subject: Grattis! Du är nu i Discover Together Beta.
+        pre_header: Här är lite viktig information för att komma igång
+        title: Du är inne! Låt oss göra denna beta ännu bättre, tillsammans.
+      non_primary:
+        pre_header: Dela rekommendationer, betyg och mer med vänner
+        title: '%{primary_username} har lagt till dig i Discover Together Beta.'
+      shared:
+        availability: Tillgänglig på olika plattformar som webb och mobil
+        categories_title: Hur det fungerar
+        trending_title: Trendande
+        trending_description: Rekommenderade filmer baserat på dina tjänster, dina
+          betyg och nu dina vänner.
+        activity_title: Aktivitet
+        activity_description: Vad du och dina vänner tittar på, betygsätter och sparar
+          i bevakningslistor.
+        friends_title: Vänner
+        friends_description: Där kan du se och lägga till vänner. Om du lägger till
+          nya vänner kommer de också att bli anmälda till Discover Together Beta.
+        profile_title: Profil
+        profile_description: 'Din profil är kärnan i din Plex-upplevelse: vad du har
+          sett, betygsatt och sparat på din bevakningslista.'
+        beta_title: Beta är tillgänglig på
+        web: Plex till webben
+        ios: Plex för iOS
+        apple_tv: Plex till Apple TV
+        android_mobile: Plex för Android (Mobil)
+        android_tv: Plex för Android (TV)
+        roku: Plex till Roku
+        playstation: Plex på PlayStation
+        xbox: Plex på Xbox
+        privacy_title: Hur ändrar jag mina integritetsinställningar?
+        thank_you: Tack igen i förväg för all din feedback (fördelar och nackdelar).
+        friends: Dina vänner på Plex
+        open_plex: Öppna Plex
+    rental_notice_partially_watched:
+      support_html: 'Frågor? Vi finns här för att <a href="https://support.plex.tv/"
+        target="_blank" style="text-decoration: underline; color: #E5A00D;"><b>hjälpa
+        dig</b></a>.'
+      watch: Titta nu
+    rental_notice_unwatched:
+      title: Titta på din film nu innan den försvinner
+      support_html: 'Frågor? Vi finns här för att <a href="https://support.plex.tv/"
+        target="_blank" style="text-decoration: underline; color: #E5A00D;"><b>hjälpa
+        dig</b></a>.'
+      watch: Titta nu
+    request_password_reset:
+      subject: 'ÅTGÄRD KRÄVS: Återställ ditt lösenord för att fortsätta använda Plex'
+      pre_header: Ditt konto kommer att stängas snart om du inte vidtar åtgärder.
+      welcome: Hej %{recipient_name}
+      click_here: Klicka på länken nedan för att återställa ditt lösenord och ge ditt
+        samtycke för att logga in på ditt konto.
+      reset_password: Återställ lösenord
+      new_password_note: Observera att för alla enheter du tidigare var inloggad på
+        måste du autentisera dig igen med ditt nya lösenord. Du måste också uppdatera
+        din mobilapp till den senaste versionen.
+      support_html: 'Om du har några frågor, tveka inte att kontakta vårt <a href="mailto:dataprotection@plex.tv"
+        target="_blank" style="text-decoration: underline; color: #E5A00D;"><b>Supportteam</b></a>.'
+      support_text: Om du har några frågor, tveka inte att kontakta vårt supportteam
+        (dataprotection@plex.tv)
+      not_update_title: 'OM DU INTE UPPDATERAR DITT LÖSENORD:'
+    first_reminder:
+      subject: 'PÅMINNELSE: Återställ ditt Plex-lösenord innan ditt konto löper ut.'
+      pre_header: Ditt konto kommer att stängas om 15 dagar om du inte agerar nu.
+      welcome: Hej %{recipient_name}
+      reminder: Detta är en påminnelse om att du måste uppdatera ditt lösenord och
+        ge ditt samtycke för att kunna komma åt ditt Plex-konto.
+      terms_of_service_html: 'För 30 dagar sedan aviserade vi dig om en uppdatering
+        av våra <a href="%{tos_url}" target="_blank" style="text-decoration: underline;
+        color: #E5A00D;"><b>Användarvillkor</b></a> och <a href="%{privacy_policy_url}"
+        target="_blank" style="text-decoration: underline; color: #E5A00D;"><b>Integritetspolicy</b></a>
+        för våra besökare från Sydkorea, och du informerades om att våra krav på lösenordskomplexitet
+        har ändrats.'
+      terms_of_service_text: För 30 dagar sedan aviserade vi dig om en uppdatering
+        av våra användarvillkor (%{tos_url}) och integritetspolicy (%{privacy_policy_url})
+        för våra besökare från Sydkorea, och du informerades om att våra krav på lösenordskomplexitet
+        har ändrats.
+      not_yet: Våra register visar att du ännu inte har gett ditt samtycke till våra
+        användarvillkor och integritetspolicy.
+      click: Du kommer att ha 15 ytterligare dagar att klicka på länken nedan för
+        att återställa ditt lösenord och ge ditt samtycke för att behålla åtkomst
+        till ditt konto.
+      reset_password: Återställ lösenord
+      support_html: 'Om du har några frågor, tveka inte att kontakta vårt <a href="mailto:dataprotection@plex.tv"
+        target="_blank" style="text-decoration: underline; color: #E5A00D;"><b>Supportteam</b></a>.'
+      support_text: Om du har några frågor, tveka inte att kontakta vårt supportteam
+        (dataprotection@plex.tv)
+    second_reminder:
+      subject: 'SISTA AVISERINGEN: Ditt Plex-konto kommer snart att inaktiveras'
+      pre_header: Behåll ditt konto genom att återställa ditt lösenord nu
+      welcome: Hej %{recipient_name}
+      final_notice_html: 'Detta är en slutgiltig avisering för att uppdatera ditt
+        kontolösenord och ge ditt samtycke till våra uppdaterade <a href="%{tos_url}"
+        target="_blank" style="text-decoration: underline; color: #E5A00D;"><b>Användarvillkor</b></a>
+        för att behålla åtkomst till ditt Plex-konto.'
+      final_notice_text: Detta är en slutgiltig avisering för att uppdatera ditt kontolösenord
+        och ge ditt samtycke till våra uppdaterade användarvillkor (%{tos_url}) för
+        att behålla åtkomst till ditt Plex-konto.
+      terms_of_service_html: 'Våra register visar att du ännu inte har gett ditt samtycke
+        till våra <a href="%{tos_url}" target="_blank" style="text-decoration: underline;
+        color: #E5A00D;"><b>Användarvillkor</b></a> och <a href="%{privacy_policy_url}"
+        target="_blank" style="text-decoration: underline; color: #E5A00D;"><b>Imtegritetspolicy</b></a>.'
+      terms_of_service_text: Våra register visar att du ännu inte har gett ditt samtycke
+        till våra användarvillkor (%{tos_url}) och integritetspolicy (%{privacy_policy_url}).
+      ensure: För att säkerställa att ditt Plex-konto inte permanent inaktiveras,
+        klicka på länken nedan för att återställa ditt lösenord och ge ditt samtycke.
+      reset_password: Återställ lösenord
+      support_html: 'Om du har några frågor, tveka inte att kontakta vårt <a href="mailto:dataprotection@plex.tv"
+        target="_blank" style="text-decoration: underline; color: #E5A00D;"><b>Supportteam</b></a>.'
+      support_text: Om du har några frågor, tveka inte att kontakta vårt supportteam
+        (dataprotection@plex.tv)
+    tos_violation_spam:
+      pre_header: Öppna för detaljer
+    bulgaria_currency_changing:
+      subject: Faktureringsvalutan för prenumerationen ändras
+      pre_header: Prenumerationen faktureras i EUR
+      title: Faktureringsvalutan för prenumerationen ändras
+      body_html: Du får detta e-postmeddelande eftersom Plex-kontot %{email} har en
+        återkommande Plex Pass-prenumeration som tidigare fakturerades i bulgariska
+        lev (BGN). När Bulgarien övergår till euro konverteras prenumerationen automatiskt
+        till en transaktion i EUR. Från och med nästa förnyelse debiteras <b>%{new_rate}</b>.
+      body_text: Du får detta e-postmeddelande eftersom Plex-kontot %{email} har en
+        återkommande Plex Pass-prenumeration som tidigare fakturerades i bulgariska
+        lev (BGN). När Bulgarien övergår till euro konverteras prenumerationen automatiskt
+        till en transaktion i EUR. Från och med nästa förnyelse debiteras %{new_rate}.
+  devise_notifier:
+    confirmation_instructions:
+      welcome: Ditt Plex-konto väntar
+      instructions_markup: Ett Plex-konto har nyligen uppdaterats för att använda
+        denna %{email} e-postadress. Hjälp oss att säkerställa att vi kan kommunicera
+        med dig (för att skicka en återställningslänk för lösenord eller informera
+        dig om nya kontoinloggningar, till exempel) genom att verifiera denna e-postadress.
+        Följ helt enkelt länken nedan för att verifiera adressen.
+      instructions: Ett Plex-konto har nyligen uppdaterats för att använda denna %{email}
+        e-postadress. Hjälp oss att säkerställa att vi kan kommunicera med dig (för
+        att skicka en återställningslänk för lösenord eller informera dig om nya kontoinloggningar,
+        till exempel) genom att verifiera denna e-postadress. Följ helt enkelt länken
+        nedan för att verifiera adressen.
+      confirm_registration: Verifiera e-post
+    reset_password:
+      title: Plex lösenord återställlningsbegäran
+      introduction: Någon bad om en länk för att återställa lösenordet för ditt Plex
+        konto. Om det inte var du kan du bortse från denna e-post och ditt lösenord
+        kommer att förbli detsamma.
+      click_link: 'Om du vill ändra ditt lösenord, vänligen klicka nedan:'
+      reset_anchor: Återställ lösenord
+      expiration_note: '(OBS: Länken för lösenordsåterställning upphör att gälla efter
+        24 timmar.)'
+    password_change:
+      title: Ditt lösenord har ändrats
+      body: Detta e-postmeddelande är för att avisera dig att lösenordet för Plex-kontot
+        %{email} har ändrats. Om du glömmer det nya lösenordet eller på annat sätt
+        har problem med att logga in kan du återställa kontots lösenord på %{reset_password_url}.
+  empty_layout_mailer:
+    welcome_email:
+      title:
+        first_line: Nästan där!
+        second_line: Låt oss göra det officiellt.
+      verify_email: Verifiera min e-post
+      my_account: Mitt konto
+      need_help: Behöver du hjälp?
+  chroma:
+    confirm:
+      accept: Confirm
+      cancel: Avbryt
+    toast:
+      dismiss: Avfärda
+  confirmations:
+    new:
+      title: Skicka om bekräftelseanvisningar
+      description: Ett e-postmeddelande kommer att skickas till %{email}med en länk
+        för att bekräfta ditt konto.
+      btn_resend_label: Skicka om
+  passwords:
+    edit:
+      title: Ändra ditt lösenord
+      new_password_label: Nytt lösenord
+      confirm_password_label: Bekräfta nytt lösenord
+      btn_change_password_label: Ställ in mitt lösenord
+  account_recovery:
+    title: Återställ ditt konto
+    invalid_or_expired_token: Denna kod är ogiltig eller har löpt ut.
+    insert_token: 'Please input your Recovery Code:'
+  pins:
+    index:
+      title: Länka din Plex-app
+      pin_code_label: Skriv in den fyrställiga koden som visas i din app för att länka
+        ihop den med ditt konto.
+      btn_pin_connect_label: Länka
+      input_placeholder: Code
+      signed_in_as: Du är inloggad som %{username}
+      sign_out: Sign in as a different user
+    update:
+      title: App länkad
+      confirmation_heading: Du är redo att sätta igång!
+      thank_you: Tack för att du använder Plex!
+      confirmation_message: '%{product_name}är nu länkad med ditt konto.'
+      product_default: Plex på din enhet
+    error:
+      invalid: Din kod är ej giltig. Vänligen skaffa en ny kod från din enhet och
+        försök igen.
+      missing: Vi kunde ej hitta den koden. Vänligen kontrollera din kod och försök
+        igen.
+      expired: Din kod har gått ut. Vänligen skaffa en ny kod från din enhet och försök
+        igen.
+  registrations:
+    account_layout:
+      nav_heading: Inställningar
+    account:
+      link_label: Konto
+    edit:
+      title: Andra inställningar
+      link_label: Andra inställningar
+      confirmed_email_message_markup: Din e-postadress har ännu inte bekräftats, vilket
+        krävs för vissa aktiviteter. Du kan %{confirm_email_link_start}begära ett
+        bekräftelse email%{link_end} när som helst.
+      warn_email_only_auth: 'Note: The ''Require email address when signing in'' option
+        is enabled, which means you cannot sign in using your username.'
+      form_profile_label: Profil
+      form_username_label: användarnamn
+      form_birthday_label: födelsedag
+      form_timezone_label: tidszon
+      form_locale_label: språk
+      form_locale_system_default: Använd systemstandard
+      form_email_label: e-post
+      form_only_email_auth_label: Require email address when signing in
+      form_pin_label: Plex Account PIN
+      form_current_password_label: nuvarande lösenord
+      form_verification_code_label: verifieringskod
+      form_password_label: Nytt lösenord
+      form_reset_devices_label_markup: Sign out %{show_devices_link_start}connected
+        devices%{link_end} when setting your new password.
+      form_password_confirmation_label: ' Bekräftelse på nytt lösenord'
+      form_required: krävs
+      form_optional: Frivilligt
+      form_account_label: Konto
+      social_media_title: Länkade Konton
+      social_media_terms: Genom att länka ihop ditt Plex-konto och konton på listade
+        sajter så tillåter du att Plex, Inc. och sajten du länkade ihop oss med att
+        samla data rörande media- och uppspelningsaktiviteter som delas via tjänsten.
+      lastfm: Last.fm
+      trakt: Trakt
+      tidal: TIDAL
+      sonos: Sonos
+      parsec: Parsec
+      lastfm_linked_for_markup: Scrobbling till %{account_link_start}%{account_name}%{link_end}
+        kontot.
+      trakt_linked_for_markup: Scrobbling till %{account_link_start}%{account_name}%{link_end}
+        kontot.
+      tidal_linked_for: Länkat Konto
+      sonos_linked_for: Länkat Konto
+      parsec_linked_for: Länkat Konto
+      service_authorize_markup: Du kan %{service_link_start}tillåta %{service_name}
+        länken igen%{link_end}.
+      service_unlink_markup: Du kan också %{service_link_start}koppla bort kontot%{link_end}.
+      service_account_link: Länka ditt %{service_name} konto.
+      service_fetching_error: An error occurred fetching the info for your %{service_name}
+        account.
+      sso: Single Sign-On Autentiseringar
+      sso_delete: Radera autentisering
+      danger_zone_title: Farozon
+      danger_zone_warning: Var försiktig, åtgärder här inne kan inte ångras.
+      delete_account_link_label: Radera ditt konto
+      delete_account_warning: 'Before proceeding, please note:'
+      delete_account_warning_tidal: Om du tar bort ditt konto avbryts din TIDAL-prenumeration
+        automatiskt den %{end_date}
+      delete_account_warning_tidal_2: Om du tar bort ditt Plex-konto nu kommer du
+        att förlora möjligheten att ändra din TIDAL-prenumeration under återstående
+        faktureringsperiod.
+      delete_account_warning_1_markup: If you simply wish to change your username,
+        email address, or password, you can do so on your %{account_link_start}account
+        profile%{link_end}.
+      delete_account_warning_2_markup: If you are encountering an error with an app,
+        connection problems, or similar, deleting your account will not resolve things.
+        Instead, visit our %{support_link_start}support site%{link_end} or %{forums_link_start}forums%{link_end}.
+      delete_account_warning_3: Once the account is deleted, you will not be able
+        to use the same username or email address for a month.
+      delete_account_nopassword_message_markup: Om du fortsätter kommer detta ta bort
+        ditt konto och alla dess data inom 30 dagar permanent.%{refund_message} Eller
+        gå tillbaka %{account_link_start}till din kontosida%{link_end}.
+      delete_account_amazon_message_markup: '%{line_break}%{bold_start}Notering: %{bold_end}
+        Du har för närvarande ett Plex Pass-abonnemang som hanteras via Amazon. %{bold_start}Avslutar
+        av ditt Plex-konto här kommer inte avsluta prenumerationsfakturering via Amazon%{bold_end}.
+        Du måste %{amazon_help_link_start}hantera prenumerationen%{link_end} genom
+        användning av Amazon webbplats eller Amazon Appstore app för att faktiskt
+        avsluta den löpande prenumerationen.%{line_break}'
+      btn_account_update: Uppdatera
+      btn_account_delete: Radera
+      btn_account_go_back: Gå tillbaka
+      newsletter_title: Nyhetsbrev
+      newsletter_subscribe_button: Prenumerera
+      newsletter_unsubscribe_button: Unsubscribe
+      newsletter_status_subscribed: Du prenumererar för tillfället på Plex nyhetsbrev.
+      newsletter_status_unsubscribed: Du har nu avslutat din prenumereration för Plex
+        nyhetsbrev.
+      newsletter_status_unknown: Du har prenumererat på Plex nyhetsbrev, men vi kan
+        inte nå dig via e-post.
+      newsletter_update_error_message: Ett fel uppstod när vi försökte uppdatera din
+        prenumeration för nyhetsbrev.
+      manage_devices_markup: Kom ihåg att du kan hantera dina enheter genom att använda%{devices_web_app_link_start}webbapp.%{link_end}
+      device_last_seen: 'Senast sedd:'
+      devices_list_title: Anslutna enheter
+      devices_ok: OK
+      compromised_account_message: Ditt konto har flaggats för att ändra lösenord.
+    error:
+      enter_current_password: Vänligen skriv in ditt nuvarande lösenord för att bekräfta
+        dina ändringar.
+      invalid_password: Ogiltigt lösenord.
+      invalid_password_or_verification_code: Ogiltigt lösenord eller verifieringskod
+      confirm_email: Bekräftelse e-post skickad till %{email}
+      terms_must_be_accepted: måste accepteras
+      birthday_13: måste vara minst 13 år gammal
+      email_invalid: måste vara en giltig e-postadress
+      devices_list_error: Listan på enheter kunde inte hämtas.
+      password_too_short: måste vara minst 8 tecken långt
+      password_too_short_10: måste vara minst 10 tecken långt
+      password_too_short_for_admins: måste vara minst 10 tecken långt
+      password_failed_requirements_for_admins: måste innehålla minst en siffra och
+        en kombination av små och stora bokstäver
+      blacklisted_password: inte godkänt. Använd ett starkare lösenord
+      password_not_username_email: kan inte vara detsamma som användarnamn eller e-post
+      limit_exceeded: Det går inte att skapa konto.
+      password_reset_limit_exceeded: Återställning av lösenord ej tillgängligt
+      check_limit_exceeded: Användarinformationskontroller är inte tillgängliga
+      confirmation_email_rate_limited: En e-postbekräftelse skickades precis, vänta
+        minst en minut innan du begär det igen.
+      avatar_size: Avatarbild måste vara mindre än 1 megabyte
+      avatar_file_type: Avatarbild måste vara JPG eller PNG format
+      username_taken: Användarnamnet finns redan
+      email_from_soft_deleted_account: E-posten användes nyligen. Försök igen senare.
+      email_reserved: E-posten är reserverad. Försök igen senare.
+      email_taken: E-postadressen används redan
+      email_equal: cannot be a different email address
+      invalid_characters: 'includes invalid characters: %{characters}'
+      is_invalid: Är ogiltig
+    profile:
+      link_label: Global App-inställning
+      page_title: Global App-inställning
+      updated: Uppdatering av dina inställningar lyckades.
+      update_error: Ett fel inträffade när du uppdaterade dina inställningar.
+      missing_defaults: Please select a default audio and subtitle language
+      settings_form_label: Global Ljud/Undertext App Språkinställningar
+      settings_form_description_markup: Dessa inställningar bestämmer hur Plex kommer
+        att försöka välja ljud och undertext på låtar när du spelar upp ett media
+        i en Plex app medan du använder ditt konto .%{settings_link_start}Lär dig
+        mer%{link_end}.
+      settings_form_audio_language_label: Föredraget språk på ljud
+      settings_form_subtitle_language_label: Föredraget Språk för Undertexter
+      settings_form_language_select_blank: välj språk
+      settings_form_subtitle_mode_select_blank: välj undertextläge
+      settings_form_auto_select_subtitle_label: Automatiskt val av Undertextläge
+      settings_form_auto_select_audio_label: Välj ljud och undertext på låtar automatiskt
+      subtitle_modes:
+        manually: Manuellt
+        foreign_audio: Visas med utländstk ljud
+        always_enabled: Alltid aktiverad
+    payments:
+      title: Kontobetalningar
+      link_label: Betalningar
+      itunes_manage_caption_markup: Några av dina transaktioner har gjorts via App
+        Store. Du kan %{itunes_help_link_start}visa dem%{link_end} från din iOS-enhet
+        eller i App Store.
+      google_play_manage_caption_markup: Some of your transactions have been made
+        through Google Play. You can %{google_play_help_link_start}view them%{link_end}
+        in your Google account.
+      amazon_manage_caption_markup: Some of your transactions have been made through
+        Amazon. You can %{amazon_help_link_start}view them%{link_end} in the Amazon
+        website or the Amazon Appstore app.
+      roku_manage_caption_markup: Some of your transactions have been made through
+        Roku. You can %{roku_help_link_start}view them%{link_end} in the Roku website.
+      transaction_type: Typ
+      transaction_desc: Description (Plan)
+      transaction_status: Status
+      transaction_amount: Summa
+      transaction_created: Skapad på
+      transaction_periodstart: 'Början på period '
+      transaction_periodend: Slut på period
+      addons_tab: Paket och utökningar
+      detail_link: se
+      not_available: 'Du har inga betalningsposter. '
+      service:
+        paypal: PayPal
+        braintree: Braintree
+        itunes: App Store
+        google: Google Play
+        google_play: Google Play
+        amazon: Amazon Appstore
+      type:
+        sale: Rea
+        credit: Återbetalning
+        failure: Failure
+      plan:
+        monthly: Månadsvis
+        yearly: Årlig
+        three_years: 3 år
+        six_months: 6 månader
+        lifetime: Livstid
+        pro: Professionell installerare (årlig)
+        comped: Kostnadsfri
+        tidal_premium: TIDAL
+      status:
+        submitted_for_settlement: Behandlar
+        settled: Avklarat
+        completed: Färdig
+        pending: Väntar
+        settling: Behandlar
+        canceled_reversal: Canceled reversal
+        canceled: Avbrutet
+        reversed: Reversed
+        denied: Denied
+        refunded: Refunded
+        verification_failure: Gick inte att bekräfta
+        subscription_failure: Subscription Creation Failure
+        iap_processed: Köp inuti program (%{service})
+        refund_for_iap: Refund for In App Purchase (%{service})
+        invalid_iap_purchase: Fel vid köp av inuti-program (%{service})
+        invalid_iap: Fel vid köp av inuti-program (%{service})
+        billing_skipped: Billing Skipped
+        settlement_declined: Payment Declined
+        processor_declined: Payment Declined
+        gift_purchase: Gift Purchase
+        plex_pro_voucher: Installerare Kupongköp
+        gift_applied: Gift Code Applied
+    addon_kind:
+      created: Skapad
+      downgrade: Nedgradera
+      upgrade: Uppgradera
+      cancel: Avbryt
+      payment: Payment
+    addon_status:
+      authorizationexpired: Auktorisation löpt ut
+      authorized: Auktoriserad
+      authorizing: Auktoriserar
+      failed: Misslyckad
+      settled: Avklarat
+      settling: Inställning
+    payment_detail:
+      title: Betalningskvitto
+      base_price: Ordinarie pris
+      tax_amount: Momsbelopp
+      transaction_type: Typ
+      transaction_desc: Description (Plan)
+      transaction_status: Status
+      transaction_amount: Summa
+      transaction_created: Skapad på
+      transaction_periodstart: Period start
+      transaction_periodend: Slut på period
+      transaction_creditcard: Kreditkortstyp
+      transaction_expirationdate: Förfallodatum
+      transaction_customerlocation: Kundplats
+      transaction_last4: Sista 4 siffrorna
+      transaction_firstname: Förnamn
+      transaction_lastname: Efternamn
+      transaction_email: E-post
+      transaction_username: Användarnamn
+      invoice_title_markup: Kvitto för transaktion%{bold_start}%{id}%{bold_end}
+      invoice_information_subtitle: Transaktionsinformation
+      invoice_payment_subtitle: Betalningsinformation
+      invoice_customer_subtitle: Kundinformation
+      payment_method: Betalningsmetod
+      paypal: PayPal
+      credit_card: Kreditkort
+      print: Skriv ut
+      billing_info: Faktureringsinformation
+      extra_billing_info: Extra faktureringsinformation
+      add_extra_billing_info: Lägg till information
+      extra_billing_info_markup: Lägg till ditt fullständiga företagsnamn, momsnummer
+        eller registrerad adress här.%{line_break}För din säkerhet, inkludera ingen
+        konfidentiell eller financiell information (såsom kreditkortsnummer).
+      tax_rate_included: Pris inkluderar %{tax_percentage}% %{tax_type}.
+      tax_rate_included_disclaimer: Observera att denna avgift uppdateras kvartalsvis.
+      tax_included_disclaimer: Observera att denna avgift uppdateras kvartalsvis.
+      tax_amount_included: Pris inkluderar %{tax_amount}% %{tax_type}.
+    other_services:
+      title: Andra tjänster
+      link_label: Andra tjänster
+      link_account: Länka
+      unlink_account: Ta bort länk
+    security:
+      title: Säkerhet
+      link_label: Säkerhet
+      reset_success: Alla enheter har loggats ut från ditt konto.
+      confirm_reset: Bekräfta att du vill logga ut från alla enheter nu.
+      logout_all_devices: Logga ut från alla enheter
+      signout_all_devices: Logga ut från alla enheter
+      passkeys:
+        remove: Ta bort
+    rentals:
+      table:
+        uuid: Identifierare
+        title: Titel
+        date: Date
+        price: Pris
+  activerecord:
+    attributes:
+      user:
+        login: Användarnamn eller epostadress
+        remember_me: Kom ihåg mig
+        username: användarnamn
+        email: e-post
+        birthday: födelsedag
+        password: lösenord
+    errors:
+      models:
+        user:
+          blank: kan inte vara tomt
+          taken: har redan tagits
+          invalid_pin: måste vara 4 siffror
+          password_reset_required: Du måste återställa ditt lösenord för att ändra
+            ditt konto
+        profile:
+          invalid_subtitle_mode: ogiltigt värde för automatiskt val av undertextläge
+        shared_server:
+          invite_self: You cannot send an invitation to yourself.
+          invited_missing: You must specify an email address or username.
+          already_sharing: You're already sharing this server with %{sharee}. Please
+            edit your existing share.
+          invalid_sharee: The username or email entered appears to be invalid. Please
+            check and try again.
+        codec/license:
+          trial_already_used: finns redan en provperiod för detta konto inom det senaste
+            året.
+          fulltime_taken_for_device: finns en livstidslicens för denna enhet
+        tvod/models/order:
+          already_ordered: Du har redan köpt denna film
+          already_ordering: Du har redan köpt denna film
+          payment_method_error: Betalningsmetod måste vara kreditkort eller PayPal
+          postal_code_error: Postnummer kan inte vara tomt
+          country_code_error: Landskod kan inte vara tom
+  time:
+    formats:
+      short_only_date: '%Y-%m-%d'
+      short_pretty_with_year: '%b %e, %Y'
+  datetime:
+    time_ago_markup: '%{time_span_start}%{time}%{span_end} sedan'
+    distance_in_words:
+      x_hours:
+        one: '%{count} timme'
+        other: '%{count} timmar'
+  pms:
+    base:
+      library: bibliotek
+      servers: servers
+      system: system
+    errors:
+      restricted_users_disallowed: Begränsade användare är inte behöriga att utföra
+        denna åtgärd.
+      anonymous_users_disallowed: Du måste logga in för utföra denna åtgärd.
+    friends:
+      all_title: Alla vänner
+      requested_title: Vänförfrågningar som ännu inte har accepterats
+      requests_title: Avvaktande vänförfrågningar öppna för att accepteras.
+      404_error: Användaren kunde inte hittas.
+      1001_error: Du är redan vän med %{username}.
+      1002_error: Du har redan skickat en vänförfrågan till %{username}.
+      1003_error: Du kan inte vara vän med dig själv.
+      1004_error: Fantastiskt, %{username} hann före och bjöd in dig först.
+      invited_error: Bjöd in %{username}
+      friendship_removed_error: Vänskap med %{username} borttagen.
+      no_friendship: Du är inte vän med denna användare
+      1004_guest_user: Hem-gästkontot kan ej tas bort som vän.
+      requested_404_error: Användaren kunde inte hittas.
+      requested_0_error: Annullerad vänförfrågan till %{username}.
+      requested_1005_error: Du har inte skickat en vänförfrågan till %{username}.
+      requests_update_404_error: Användaren kunde inte hittas.
+      requests_update_0_error: Vänförfrågan från %{username} godkänd.
+      requests_update_1006_error: Du har inte fått någon vänförfrågan från %{username}.
+      requests_destroy_404_error: Användaren kunde inte hittas.
+      requests_destroy_0_error: Avvisad vänförfrågan från %{username}.
+      requests_destroy_1006_error: Du har inte fått en vänförfrågan från %{username}.
+      update_sharing_settings_error: Ett fel uppstod vid uppdatering av inställningar
+        för %{username}.
+      friend_not_found: Användare %{user_id} är inte en vän.
+    invites:
+      not_found_error: Inbjudan kunde inte hittas
+      requested_rejected: Annullera inbjudan till %{username}
+      requests_accepted: Accepterad inbjudan från %{username}
+      requests_rejected: Avvisad inbjudan från %{username}
+    playlists:
+      queue_title: Mediakö
+      recommendations_title: Rekommenderat för dig
+      all_title: Alla videos
+      unwatched_title: Osedda videos
+      watched_title: Sedda videos
+      item_creation:
+        playlist_id_missing_error: Måste ha spellist_id.
+        url_missing_error: URL:en kan ej vara tom
+        not_connected_error: Inte kopplad till mottagare.
+        non_recommendations_error: Kan inte rekommendera in i icke-rekommenderade
+          spellista.
+    social:
+      networks_title: Lista på nätverk Plex kan dela med
+      networks_facebook_token_invalid: Token för Facebook har slutat gälla
+      networks_url_required_error: En URL krävs
+      networks_facebook_connect_error: Vänligen anslut ditt Facebook konto först
+    system:
+      library_title: bibliotek
+    library:
+      sections_title: sektioner
+      myplex_section_title: Plex bibliotek
+    shared_server:
+      blocked_error: Du kan inte bjuda in denna användare
+      creation_error: Ett fel uppstod med att skapa delning
+      restricted_error: Du måste vara en administratör för att dela med begränsade
+        användare
+    homes:
+      not_in_home: Du är för tillfället inte med i ett hem
+      already_in_home: Du är redan med i ett hem
+      not_an_admin: Enbart administratören för hemmet kan modifiera det
+      plex_pass_required: Plex Hem kräver ett Plex Pass
+      invite:
+        plex_pass_required: Att bjuda in en användare kräver ett Plex Pass
+    announcements:
+      updated_user: Uppdaterade meddelande-status
+      not_found: Meddelande %{id} kunde ej hittas
+      bad_request: Please make sure you are sending the right params(read) and necessary
+        headers if unauthenticated(client_identifier).
+    ads:
+      vendors:
+        no_data_stored: Inga data lagrade
+    payment_methods:
+      errors:
+        not_found: Betalningsmetod hittades inte
+        zip_code_missing: Postnummer saknas
+        country_code_missing: Landskod saknas
+    tvod:
+      taxes:
+        errors:
+          cannot_fetch_asset: Kan inte hämta detaljer
+          invalid_zip_code: Ditt postnummer är inte giltigt
+  emails:
+    unsubscribe:
+      title: Unsubscribe from mailing list
+      body: The email %{email} has been successfully unsubscribed from all future
+        emails. No other action necessary.
+      error: Sorry, we couldn't find a record for your email.
+    reset:
+      title: Revert email address change
+      body: Do you wish to revert the email change from %{new_email} back to the %{old_email}
+        address? By continuing, the email address will be changed back, all of your
+        devices and servers will be signed out of your account, and you will need
+        to choose a new account password on the next page.
+      error: Sorry, this link has expired
+      insert_token: 'Please input your Recovery Code:'
+      ok: Revert Email
+      cancel: Annullera
+  downloads:
+    base:
+      page_title: Plex Nedladdningar
+      page_description: Videostreaming kan inte bli enklare än med vår streaming mediaspelare.
+        Ladda ner idag för att uppleva att streama media med Plex.
+      page_keywords: videostreaming, streamande mediaspelare, streamande media, streamande
+        videotjänst
+      plex_pc_download_link: Dator
+      plex_nas_download_link: NAS
+    pmp:
+      pmp_embedded_platforms_name: Embedded Platforms
+      pmp_download_windows_requirements: Windows 7 SP1 or later (64-bit only).
+      pmp_download_mac_requirements: 10.10 Yosemite eller senare (64-bit enbart).
+      pmp_download_64_link: Ladda ner 64-bitar
+      pmp_download_generic_x86_64_link: Intel/AMD 64-bit
+      pmp_rpi2_arm_download_link: Raspberry Pi
+    pdc:
+      pdc_download_windows_requirements: Windows 10 eller senare (endast 64-bitars
+        Intel- eller AMD-processorer)
+      pdc_download_macos_requirements: 10.14 Mojave eller senare (endast 64-bit).
+      pdc_download_64_link: Hämta 64-bitars
+      pdc_download_generic_x86_64_link: Intel/AMD 64-bit
+    phtpc:
+      phtpc_download_windows_requirements: Windows 10 eller senare (endast 64-bitars
+        Intel- eller AMD-processorer)
+      phtpc_download_macos_requirements: 10.14 Mojave eller senare (endast 64-bit).
+      phtpc_download_64_link: Hämta 64-bitars
+      phtpc_download_generic_x86_64_link: Intel/AMD 64-bit
+    pht:
+      pht_download_windows_requirements: Windows Vista eller senare.
+      pht_download_mac_requirements: Snow Leopard or newer.
+      pht_download_link: Ladda ner
+      pht_download_64_link: Ladda ner 64-bit
+      pht_download_32_link: Ladda ner 32-bit
+    pms:
+      pms_download_english_link: Ladda ned
+      pms_download_link: Ladda ner
+      pms_download_64_link: 64-bitar
+      pms_download_32_link: 32-bitar
+      pms_download_64v2_link: Ladda ner 64-bitar
+      pms_download_windows_requirements_markup: '%{requirements_link_start}Windows
+        10 (version 1607) eller nyare (endast Intel eller AMD-processorer)%{link_end}'
+      pms_download_mac_requirements_markup: '%{requirements_link_start}OS X 10.13
+        High Sierra eller nyare%{link_end}'
+      pms_download_wd_requirements_markup: 'Obs: %{bold_start}kräver My Cloud OS 5.
+        Äldre enheter använder ''Western Digital (OS3)''.%{bold_end}'
+      pms_download_ubuntu_requirements: Ubuntu 14.04 eller nyare
+      pms_download_fedora_requirements: RPM for Fedora 24 eller nyare
+      pms_download_centos_requirements: RPM for CentOS 7 eller nyare
+      pms_download_ubuntu_32_link: Ubuntu 32-bit (14.04 eller nyare)
+      pms_download_ubuntu_64_link: Ubuntu 64-bit (14.04 eller nyare)
+      pms_download_fedora_32_link: Fedora 32-bit (RPM for Fedora 24 eller nyare)
+      pms_download_fedora_64_link: Fedora 64-bit (RPM for Fedora 24 eller nyare)
+      pms_download_centos_32_link: CentOS 32-bit (RPM for CentOS 7 eller nyare)
+      pms_download_centos_64_link: CentOS 64-bit (RPM for CentOS 7 eller nyare)
+      pms_download_freebsd_requirements_markup: '%{requirements_link_start}FreeBSD
+        11.2 eller nyare%{link_end}'
+      pms_qnap_extra_caption_markup: '%{tutorial_link_start}%{bold_start}Visa handledningen%{bold_end}%{link_end}
+        om hur man använder en QNAP Turbo NAS som en Plex-mediaserver.'
+      pms_asustor_extra_caption_markup: '%{tutorial_link_start}%{bold_start}Visa handledningen%{bold_end}%{link_end}
+        om hur man använder en ASUSTOR NAS som en Plex-mediaserver.'
+      pms_synology_help_markup: 'Guide: %{signing_doc_link_start}Lägg till Plex som
+        betrodd utgivare/trusted publisher för paketinstallationer%{link_end}.'
+      pms_download_synology_requirements_markup: 'Obs: %{bold_start}Kräver minst DSM
+        6.0 för att installeras.%{bold_end}'
+      pms_nas_download_intel_link: Intel - 32-bit (x10 Series, DS415play, och DS214play)
+      pms_nas_download_intel_64_link: Intel - 64-bit (DSM 6.0 eller nyare)
+      pms_nas_download_arm_link: ARM
+      pms_nas_download_arm7_link: ARMv7
+      pms_nas_download_arm7_alpine_link: Alpine-ARMv7
+      pms_nas_download_arm7_x31_link: ARMv7-X31
+      pms_nas_download_arm7_x31_plus_link: ARMv7-X31+/X31P/X31X/1635
+      pms_nas_download_powerpc_link: PowerPC
+      pms_nas_download_powerpc_os6_link: PowerPC OS6
+      pms_nas_download_intel4x_link: Intel 4.x
+      pms_nas_download_arm5x_link: ARM 5.x
+      pms_nas_download_arm6x_link: ARM 6.x
+      pms_nas_download_intel6x_link: Intel 6.x
+      pms_nas_download_arm6x_rn2xxx_link: ARM 6.x RN2xx
+      pms_nas_download_intel64bit_link: Intel 64-bitar
+      pms_nas_download_intel32bit_link: Intel 32-bitar
+      pms_nas_download_intel32bit_os6_link: Intel 32-bit OS6
+      pms_nas_download_intelx64_link: Intel x64
+      pms_nas_download_qnap_intel_64_link: Intel/AMD 64-bit (QTS-4.3 eller nyare)
+      pms_nas_download_qnap_intel_32_link: Intel/AMD 32-bit (QTS-4.2.x eller äldre)
+    pms_conan:
+      pms_conan_download_windows_x86_link: Windows 32-bit
+      pms_conan_download_windows_x86_64_link: Windows 64-bit
+      pms_conan_download_windows_requirements_markup: '%{requirements_link_start}Windows
+        10 (version 1607) eller nyare (endast Intel eller AMD-processorer)%{link_end}'
+      pms_conan_download_macos_x86_64_link: Download
+      pms_conan_download_macos_requirements_markup: '%{requirements_link_start}OS
+        X 10.13 High Sierra eller nyare%{link_end}'
+      pms_conan_download_freebsd_x86_64_link: Hämta 64-bitars
+      pms_conan_download_freebsd_requirements_markup: '%{requirements_link_start}FreeBSD
+        11.2 eller nyare%{link_end}'
+      pms_conan_download_debian_x86_link: Ubuntu (16.04+)/Debian (8+) - Intel 32-bit
+      pms_conan_download_debian_x86_64_link: Ubuntu (16.04+)/Debian (8+) - Intel/AMD
+        64-bit
+      pms_conan_download_debian_armv7neon_link: Ubuntu (16.04+)/Debian (8+) - ARMv7
+      pms_conan_download_debian_aarch64_link: Ubuntu (16.04+)/Debian (8+) - ARMv8
+      pms_conan_download_redhat_x86_link: Fedora (27+)/CentOS (7+)/SUSE (15+) - Intel/AMD
+        32-bit
+      pms_conan_download_redhat_x86_64_link: Fedora (27+)/CentOS (7+)/SUSE (15+) -
+        Intel/AMD 64-bit
+      pms_conan_download_asustor_aarch64_link: ARMv8
+      pms_conan_download_asustor_armv7neon_link: ARMv7
+      pms_conan_download_asustor_x86_64_link: Intel 64-bitar
+      pms_conan_download_asustor_x86_link: Intel 32-bitar
+      pms_conan_download_netgear_x86_64_link: Intel 64-bitar
+      pms_conan_download_netgear_armv7hf_link: ARMv7
+      pms_conan_download_netgear_armv7neon_link: ARMv7 (RN2xx-serien)
+      pms_conan_download_qnap_aarch64_link: ARMv8 (TS-x28 och TS-x32-serien)
+      pms_conan_download_qnap_armv7neon_link: ARMv7 (TS-x31+, TS-x31P, TS-x31P2, TS-x31X
+        och TS-x31XU-serien)
+      pms_conan_download_qnap_armv7hf_link: ARMv7 (TS-x31 och TS-x31U-serien)
+      pms_conan_download_qnap_x86_64_link: Intel/AMD 64-bit (QTS-4.3 och nyare)
+      pms_conan_download_qnap_x86_link: Intel 32-bit (QTS-4.2.x och äldre)
+      pms_conan_download_seagate_x86_64_link: Intel 64-bitar
+      pms_conan_download_seagate_armv7hf_link: ARMv7
+      pms_conan_download_synology_help_markup: 'Guide: %{signing_doc_link_start}Lägg
+        till Plex som betrodd utgivare/trusted publisher för paketinstallationer%{link_end}.'
+      pms_conan_download_synology_requirements_markup: 'Obs: %{bold_start}Kräver minst
+        DSM 6.0 för att installeras.%{bold_end}'
+      pms_conan_download_synology_aarch64_link: ARMv8 (x18-serien)
+      pms_conan_download_synology_armv7neon_link: ARMv7 (x15-serien (exklusive DS115j
+        och RS815), x16-serien (exklusive DS216se), x17-serien, x18-serien och DS414j)
+      pms_conan_download_synology_armv7hf_link: ARMv7 (x13-serien, x14-serien (exklusive
+        DS414j), DS115j, RS815 och DS216se)
+      pms_conan_download_synology_x86_64_link: Intel 64-bit (DSM 6.0 och nyare)
+      pms_conan_download_synology_x86_link: Intel 32-bitars (x10-serien, DS415play
+        och DS214play)
+      pms_conan_download_synology-dsm7_requirements_markup: Obs! %{bold_start}Kräver
+        minst DSM 7.0 för att installera.%{bold_end}
+      pms_conan_download_synology-dsm7_aarch64_link: ARMv8
+      pms_conan_download_synology-dsm7_armv7neon_link: ARMv7 (x15-serien (exklusive
+        DS115j och RS815), x16-serien (exklusive DS216se), x17-serien, x18-serien
+        och DS414j)
+      pms_conan_download_synology-dsm7_armv7hf_link: ARMv7 (x13-serien, x14-serien
+        (exklusive DS414j), DS115j, RS815 och DS216se)
+      pms_conan_download_synology-dsm7_x86_64_link: Intel/AMD 64-bit
+      pms_conan_download_synology-dsm7_x86_link: Intel 32-bitar
+      pms_conan_download_synology-dsm72_requirements_markup: 'Obs: %{bold_start}Kräver
+        minst DSM 7.2.2 för att installeras.%{bold_end}'
+      pms_conan_download_synology-dsm72_aarch64_link: ARMv8
+      pms_conan_download_synology-dsm72_armv7neon_link: ARMv7
+      pms_conan_download_synology-dsm72_x86_64_link: Intel/AMD 64-bit
+      pms_conan_download_terramaster_x86_64_link: Intel 64-bitar
+      pms_conan_download_terramaster_aarch64_link: ARMv8
+      pms_conan_download_terramaster-tos5_x86_64_link: Intel 64-bitar
+      pms_conan_download_terramaster-tos5_aarch64_link: ARMv8
+      pms_conan_download_thecus_x86_64_link: Intel 64-bitar
+      pms_conan_download_thecus_aarch64_link: ARMv8
+      pms_conan_download_thecus_armv7neon_link: ARMv7
+      pms_conan_download_unraid_x86_64_link: Hämta 64-bitars
+      pms_conan_download_wd_requirements_markup: 'Obs: %{bold_start}kräver My Cloud
+        OS 5. Äldre enheter använder ''Western Digital (OS3)''.%{bold_end}'
+      pms_conan_download_wd_dl2100_link: My Cloud DL2100
+      pms_conan_download_wd_dl4100_link: My Cloud DL4100
+      pms_conan_download_wd_ex2100_link: My Cloud EX2100
+      pms_conan_download_wd_ex2ultra_link: My Cloud EX2 Ultra
+      pms_conan_download_wd_ex4100_link: My Cloud EX4100
+      pms_conan_download_wd_mirror_link: My Cloud Mirror
+      pms_conan_download_wd_pr2100_link: My Cloud PR2100
+      pms_conan_download_wd_pr4100_link: My Cloud PR4100
+      pms_conan_download_wd_mycloud_link: My Cloud (Single Bay)
+      pms_conan_download_wd_cloud_link: WD Cloud för Japan
+      pms_conan_download_wd_dl2100_os3_link: My Cloud DL2100 (OS 3)
+      pms_conan_download_wd_dl4100_os3_link: My Cloud DL4100 (OS 3)
+      pms_conan_download_wd_ex2_os3_link: My Cloud EX2 (OS 3)
+      pms_conan_download_wd_ex2100_os3_link: My Cloud EX2100 (OS 3)
+      pms_conan_download_wd_ex2ultra_os3_link: My Cloud EX2 Ultra (OS 3)
+      pms_conan_download_wd_ex4100_os3_link: My Cloud EX4100 (OS 3)
+      pms_conan_download_wd_mirror_os3_link: My Cloud Mirror (OS 3)
+      pms_conan_download_wd_mirrorgen2_os3_link: My Cloud Mirror Gen2 (OS 3)
+      pms_conan_download_wd_pr2100_os3_link: My Cloud PR2100 (OS 3)
+      pms_conan_download_wd_pr4100_os3_link: My Cloud PR4100 (OS 3)
+    windows_phone:
+      page_title: Plex Media Player for Windows Phone
+      page_description: Plex Media Player for Windows Phone - Access all your personal
+        media. Turn your Windows Phone into the ultimate personal media server with
+        Plex.
+      page_keywords: windows, media storage, home media server, windows media server,
+        linux media server
+    mobile:
+      page_title: Plex for Mobile
+      page_description: Mobile Media Player - Access all your personal media. Turn
+        your Android or iOS into the ultimate personal media device with Plex.
+      page_keywords: mobile, media storage, home media server, windows media server,
+        linux media server
+    android:
+      page_title: Plex för Android
+      page_description: Android Media Player - Ha tillgång till all din personliga
+        media med valfri Android enhet. Förvandla din Android till den ultimata personliga
+        mediaenheten med Plex.
+      page_keywords: amazon fire TV, medialagring, hem mediaserver, windows media
+        server, linux media server
+    ios:
+      page_title: Plex för iOS
+      page_description: Plex för iOS - Tillgång till all din personliga media med
+        din iPhone, iPad eller iOS enhet. Använd Plex för video streaming på din iPad
+        m.m.
+      page_keywords: ios, apple, media, video, streaming
+      attract_alt: Download on the AppStore
+    music:
+      magic_alt: Tror du på magi?
+  cloudsync:
+    providers:
+      page_title: Molnsynkronisering
+      link_label: Molnsynkronisering
+      no_providers_yet: Du har inga molnsynkroniserings lagringsleverantörer länkade
+        till ditt konto ännu.
+      add_provider_intro: 'Lägg till en länkad molnsynkroniserings lagringsleverantör:'
+      limit_label: 'Gräns:'
+      limit_no_limit: Ingen gräns
+      limit_up_to_bytes_markup: Använd upp till %{space_limit} GB
+      limit_up_to_percent_markup: Använd upp till %{percent_limit} av totalt utrymme
+      limit_free_bytes_markup: Lämna %{space_free} GB av totalt utrymme öppet
+      limit_free_percent_markup: Lämna %{percent_free} av totalt öppet
+      max_upload_size_label: 'Max uppladdningsstorlek:'
+      usage_information_loading_label: Laddar användarinformation
+      edit_provider_link_label: Redigera
+      reauthorize_provider_link_label: Återauktorisera
+      unlink_provider_link_label: Ta bort länk
+      unlink_provider_modal_title: Är du säker?
+      unlink_provider_confirm_message: Att koppla bort denna leverantör kommer att
+        stoppa Plex från att kunna komma åt några existerande Cloud Sync uppladdningar
+        till denna leverantör. Är du säker på att att du vill koppla bort ditt %{provider_name}
+        konto?
+      unlink_provider_last_confirm_message: Att koppla bort denna leverantör kommer
+        att stoppa Plex från att kunna komma åt några existerande Cloud Sync uppladdningar
+        till denna leverantör och du måste återskapa önskad Cloud Syncs i framtiden.
+        Är du säker på att att du vill koppla bort ditt %{provider_name} konto?
+      unlink_provider_amazon_confirm_message: 'VARNING: DU KOMMER INTE ATT KAN FÖRSTÄLLA
+        DENNA LEVERANTÖR. Att koppla bort den här leverantören kommer att hindra Plex
+        från att kunna komma åt befintliga Molnsynk-uppladdningar till den här leverantören.'
+      quota:
+        general_information: Kvoter utvärderas när nya synkobjekt läggs till. Molnsynkroniseringsplatser
+          kommer att fyllas i den ordning som anges här.
+        usage_information_used_space_of_total: '%{used_space} av%{total_space} använt'
+        usage_information_used_space: '%{used_space} använt'
+        usage_information_cloudsync_used_space: '%{used_space} använt av molnsynkronisering'
+        usage_information_error: Kunde inte ladda användarinformation
+    omniauth_callbacks:
+      success: Ditt %{provider_name} konto har länkats.
+      unsupported: Ditt %{provider_name} konto stöder inte direktlänkar.
+      timeout: Misslyckades att länka med ditt %{provider_name}-konto. Försök igen
+        om några minuter.
+  servers:
+    errors:
+      destroy: Server framgångsrikt borttagen.
+    reachable:
+      port_not_given_error: Port ej angiven, kan inte koppla till adress %{address}
+      timeout_error: timeout vid anslutning till%{address}:%{port}
+      not_reachable_error: kunde inte nås på %{address}:%{port}
+      invalid_error: är ogiltig eller har inte en giltig port
+  shared_server:
+    invalid:
+      error_title: Hoppsan, kunde inte acceptera inbjudan …
+      deleted_line_1: Ledsen, men det ser ut som %{username} har inaktiverats %{server_name}.
+      delete_line_2: Vänligen be %{username} att åter-publicera '%{server_name}' till
+        Plex. När servern har åter-publicerats kommer du automatiskt ha tillgång till
+        den.
+      404_line_1: Ledsen men vi kunde inte hitta servern som delades med dig.
+      404_line_2: Det kan hända att personen som bjöd in dig kan ha annullerat inbjudan
+        eller så kanske länken i e-posten med inbjudan inte bevarades ordentligt.
+      not_accepted: Inbjudan skickades till en annan e-postadress.
+      not_accepted_2: Logga in på rätt Plex-konto eller skapa ett nytt Plex-konto
+        under den e-postadress som inbjudan skickades till.
+      own_server: Du kan inte acceptera inbjudningar till din egen server.
+  playlist_items:
+    not_logged_error: Du måste vara inloggad för att göra det.
+    url_or_XML_missing_error: Du måste specificera en URL eller media XML.
+    video_missing_error: Ingen video hittades i angiven URL:en eller media-XML.
+  billing:
+    errors:
+      saving_billing_info: Ledsen, men ett fel uppstod när vi skulle spara din faktureringsinformation:%{message}
+      update_successful: Uppdaterad faktureringsinformation.
+      invalid_discount_code: Koden är ogiltig
+      code_only_valid_for_new_subscription: Denna kampanjkod är endast giltig för
+        nya Plex Pass-prenumerationer och kan inte användas för befintliga prenumerationer
+        eller för uppgradering av prenumerationspaket.
+      discount_code_already_used: Koden har redan använts
+      saving_third_party_billing_info: Utökningen eller paketprenumerationen kunde
+        inte uppdateras.
+    form:
+      plan_information_title: Bekräfta prenumerationen
+      payment_information_title: Betalningsinformation
+      details_discount: 'Avdragen rabatt: %{percentage}.'
+      free_lifetime: Wow! Du har tur, en gratis livstidsprenumeration, och du behöver
+        inte betala något alls! Använd knappen nedan för att bekräfta processen.
+      do_not_store_billing_details_markup: Vi lagrar inga av dina faktureringsdetaljer
+        på vår server. Datan är krypterad och säkert förvarad av Brain Tree. En kopia
+        av Brain Trees säkerhetspolicy finns tillgänglig %{information_link_start}här%{link_end}.
+      cancel_subscription_markup: Prenumerationen förnyas automatiskt. Du kan när
+        som helst avsluta din prenumeration genom att besöka området Abonnemang i
+        din kontoprofil. Se %{information_link_start}här%{link_end} för mer information.
+      contact_us_form_markup: Har du problem med att prenumerera? Vänligen%{contact_form_link_start}kontakta
+        vår Plex Pass Fakturaavdelning%{link_end}.
+      paypal_title: PayPal
+      credit_card_title: Kreditkort
+      field_ccnumber: Kreditkortsnummer
+      field_expdate: Förfallodatum
+      field_cvv: CVV
+      field_cvv_note_markup: För American Express, är %{cvv_link_start}CVV%{link_end}
+        det fyrsiffriga numret på framsidan av kortet. För andra kort gäller de tre
+        sista siffrorna på baksidan av kortet.
+      field_country: Land
+      field_postalcode: Faktureringspostnummer
+      payment_method_title: Välj betalningsmetod.
+      paypal_introduction: För att kunna betala med PayPal så klickar du på knappen
+        nedan och loggar in i ditt PayPal-konto i det popup-fönster som dyker upp.
+        När det är klart så blir du omdirigerad till denna sida för att slutföra ditt
+        köp.
+      paypal_edit: If you no longer wish to use this PayPal account, please use the
+        %{action_name} action below to unlink your PayPal account. You can either
+        link a different PayPal account or use a credit card for payment.
+      paypal_current_introduction_edit: You can use the PayPal button below to link
+        to a different PayPal account. Alternatively, to use a credit card, switch
+        to the Credit Card tab above and enter your card information. When you use
+        the Update button, your previous PayPal link will automatically be removed
+        and the new payment method will be used.
+      paypal_introduction_edit: To use PayPal, please click the button below and enter
+        your PayPal account in the popup window. Once completed you will be redirected
+        back to this page to complete updating your payment method.
+      paypal_payment_method: You will be able to choose from the available payment
+        methods on your PayPal account.
+      paypal_subscription_warning: You must have a subscription-ready payment method
+        (such as a credit card, debit card, or many bank cards) on the PayPal account,
+        even if that isn't the payment method you choose to use.
+      discount_code_label: Har du en rabattkod?
+      gift_code_label: Har du en presentkod?
+    confirm_country:
+      title: Bekräfta ditt land
+      details: Vi måste bara vara säkra på att vi vet var du är. Är detta rätt?
+    confirm:
+      title: Bekräfta din Plex Pass Prenumeration
+      details_heading: Prenumerationsdetaljer
+      details_account: Konto
+      details_plan: Plan
+      details_total: Totalt
+      details_total_vat: Totalt (inklusive moms.)
+      details_amount: Belopp
+      details_amount_vat: Belopp (inklusive moms)
+      details_country: Faktureringsland
+      payment_method: Betalningsmetod
+      discount_code_button: Lägg till
+      undo_discount_code_button: Ångra
+      plan:
+        monthly: Månadsvis
+        yearly: Årlig
+        three_years: 3 år
+        lifetime: Livstid
+      details_discount: Rabatten pålagd
+      details_free_days: Försöksperiod
+      details_code: Koden har använts
+      discount_code_validity_all: Giltig för hela prenumerationen.
+      discount_code_trial_period: 'Gratis utvärdering: %{duration} dagar.'
+      discount_code_valid: Kampanjkod tillämpas.
+      discount_code_valid_unbundle_markup: Promokod tillämpad.%{line_break}Välj ett
+        Plex Pass-paket nedan för att gå vidare till bekräftelsesidan, där eventuell
+        tillämplig rabatt kommer att visas.
+      gift_code_valid: Presentkod tillämpad.
+      discount_code_instructions: För att fullfölja processen, vänligen ange betalningsinformation
+        nedan för framtida förnyelser och skicka sedan in formuläret.
+      discount_code_free_trial: Du debiteras inte förrän efter din gratis provperiod
+        slutar.
+      captcha_caption: Please complete the CAPTCHA before you can subscribe.
+    switch:
+      page_title: Lägg till återkommande fakturering
+      btn_subscribe: Prenumerera
+    edit:
+      page_title: Redigera faktureringsinformation
+      subscription_link: Prenumeration
+      billing_info_link: Faktureringsinformation
+      btn_update: Uppdatera
+      btn_cancel: Annullera
+    show:
+      page_title: Faktureringsinformation
+      subscription_link: Prenumeration
+      payment_method_title: Betalningsmetod
+      cc_expires_label: 'Expires: %{date}'
+      cc_number: '%{card_type} ****%{cc_last_4}'
+      paypal_email: PayPal %{email}
+      edit_billing_link: Redigera faktureringsinformation
+      delete_billing_link: Radera faktureringsinformation
+      delete_billing_confirm: Radera faktureringsinformation?
+      no_payment_method: Ingen betalningsmetod
+    destroy:
+      success: Din betalningsmetod har tagits bort.
+      payment_method_in_use: Din betalningsmetod används fortfarande.
+  users:
+    avatar_upload:
+      404_user: användare
+      forbidden: Du kan inte modifiera avatar för %{title}
+      bad_request: Vänligen försäkra dig om att du skickar avatarbilden.
+      error: Ett fel uppstod
+    errors:
+      restricted_account_sso: Hanterade konton kan ej logga in till forumet. Vänligen
+        använd dit vanliga Plex-konto.
+      guest_user_main_site: Please choose a regular Plex account to access the main
+        site.
+      restricted_user_main_site: Hanterade Användare kan inte utföra denna händelse
+        (inloggad som %{current}. Vänligen ange en annan användare.
+      forbidden_for_anonymous_users: Anonyma användare kan inte utföra denna åtgärd.
+        Registrera dig eller logga in.
+  forms:
+    parsley:
+      valid_email: Vänligen ange giltig e-postadress
+      required: Detta värde krävs
+      minlength: Detta värde är för kort. Det ska innehålla %{size} tecken eller fler.
+      equalto_password: Dina lösenord matchar inte
+      username_email: Username cannot be a different email address
+  oauth:
+    auth:
+      title: Auktorisera
+      question: Do you authorize %{name} to access your Plex account?
+      submit: Auktorisera
+  contexts:
+    billing:
+      subscription_plans:
+        monthly: Månadsvis
+        six_months: 6 månader
+        yearly: Årsvis
+        lifetime: Livstid
+        comped: Kompad
+        bundled: Bundled
+      subscription_descriptions:
+        subscription: Prenumeration
+      subscriptions:
+        descriptions:
+          monthly: Månadsvis %{type}
+          six_months: 6 månader %{type}
+          yearly: Årligt %{type}
+          lifetime: Livstid %{type}
+      errors:
+        tidal_order_create: TIDAL-beställning kunde inte skapas.
+        tidal_confirmed_email_required: En bekräftat e-post krävs för att prenumerera
+          på TIDAL.
+        tidal_active_subscription_required: En aktivt TIDAL-prenumeration krävs för
+          att länka kontot.
+        tidal_provider_already_lined: Användaren har redan ett TIDAL-konto länkat.
+      descriptions:
+        verification_failure: Fel vid verifiering av din betalningsinformation
+    accounts:
+      anonymous_user:
+        friendly_name: Anonym
+  favorites:
+    playlist:
+      title: Playlists
+    dvr:
+      title: Live TV & DVR
+    providers:
+      tv:
+        plex:
+          provider:
+            epg-dev:
+              title: Live-TV (Dev)
+              source_title: På Plex
+            epg-staging:
+              source_title: På Plex
+            epg:
+              title: Live TV
+              source_title: På Plex
+            vod-dev:
+              title: Filmer och TV (Dev)
+              source_title: På Plex
+            vod-staging:
+              source_title: På Plex
+            vod:
+              title: Filmer och tv
+              source_title: På Plex
+            webshows:
+              title: Webbserier
+            podcasts-dev:
+              title: Podcasts (Dev)
+            podcasts:
+              title: Podcasts
+            music:
+              title: Musik
+              source_title: På TIDAL
+            music-dev:
+              title: Musik (Dev)
+              source_title: På TIDAL
+            music-staging:
+              source_title: På TIDAL
+            metadata:
+              title: Metadata
+            metadata-dev:
+              title: Metadata (Dev)
