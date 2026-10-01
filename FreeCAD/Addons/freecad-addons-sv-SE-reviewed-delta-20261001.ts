@@ -2278,7 +2278,8 @@ blir du ombedd att ange filen som ska skapas.
       <source>Recording has been disabled! 
 </source>
       <translation>Inspelningen har
-inaktiverats!</translation>
+inaktiverats!
+</translation>
     </message>
   </context>
   <context>
@@ -2528,7 +2529,8 @@ ställdes in när MovieObjects skapades.</translation>
       <source>Select a MovieObjects to exclude!
 </source>
       <translation>Välj en filmObjekt att
-utesluta!</translation>
+utesluta!
+</translation>
     </message>
   </context>
   <context>
