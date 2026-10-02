@@ -1,0 +1,1763 @@
+# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021, 2022, 2023, 2025.
+# Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020, 2021, 2022, 2023, 2025.
+# Pavel Brezina <pbrezina@redhat.com>, 2019. #zanata
+# Luna Jernberg <bittin@reimu.nl>, 2021, 2023.
+# Luna Jernberg <droidbittin@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: authselect 1.1\n"
+"Report-Msgid-Bugs-To: https://github.com/authselect/authselect\n"
+"POT-Creation-Date: 2026-06-22 11:55+0200\n"
+"PO-Revision-Date: 2025-10-24 17:33+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/authselect/master-application/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.13.3\n"
+
+#: src/lib/authselect.c:47 src/lib/authselect.c:216
+msgid "Unable to obtain supported features"
+msgstr "Kan inte ta fram stödda funktioner"
+
+#: src/lib/authselect.c:59
+#, c-format
+msgid "Unknown profile feature [%s], did you mean [%s]?"
+msgstr "Okänd profilfunktion [%s], menade du [%s]?"
+
+#: src/lib/authselect.c:62
+#, c-format
+msgid "Unknown profile feature [%s]"
+msgstr "Okänd profilfunktion [%s]"
+
+#: src/lib/authselect.c:86
+#, c-format
+msgid "Trying to activate profile [%s]"
+msgstr "Försöker aktivera profilen [%s]"
+
+#: src/lib/authselect.c:90 src/lib/authselect.c:209
+#: src/lib/profiles/read.c:316
+#, c-format
+msgid "Unable to find profile [%s] [%d]: %s"
+msgstr "Kan inte hitta profilen [%s] [%d]: %s"
+
+#: src/lib/authselect.c:101
+msgid "Enforcing activation!"
+msgstr "Framtvingar aktivering!"
+
+#: src/lib/authselect.c:110
+#, c-format
+msgid ""
+"%s is missing or unreadable, system was not properly configured by "
+"authselect."
+msgstr ""
+"%s saknas eller är oläsbar, systemet konfigurerades inte korrect av "
+"authselect."
+
+#: src/lib/authselect.c:112
+msgid "Refusing to activate profile unless overwrite is requested."
+msgstr "Vägrar att aktivera profilen om inte överskrivning begärs."
+
+#: src/lib/authselect.c:118
+msgid ""
+"Changes to the authselect configuration were detected. These changes will be"
+" overwritten. Please call 'authselect opt-out' in order to keep them."
+msgstr ""
+"Ändringar av authselect-konfigurationen upptäcktes. Dessa ändringar kommer "
+"skrivas över. Kör ”authselect opt-out” för att behålla dem."
+
+#: src/lib/authselect.c:127
+#, c-format
+msgid "Unable to activate profile [%s] [%d]: %s"
+msgstr "Det gick inte att aktivera profilen [%s] [%d]: %s"
+
+#: src/lib/authselect.c:141
+msgid "Trying to uninstall authselect configuration"
+msgstr "Försöker att avinstallera authselect konfiguration"
+
+#: src/lib/authselect.c:145
+#, c-format
+msgid "Unable to remove symlinks [%d]: %s"
+msgstr "Kunde inte ta bort symboliska länkar [%d]: %s"
+
+#: src/lib/authselect.c:149
+msgid "Symbolic links were successfully removed"
+msgstr "Symboliska länkar har tagits bort framgångsrikt"
+
+#: src/lib/authselect.c:154
+#, c-format
+msgid "Unable to remove authselect configuration [%d]: %s"
+msgstr "Kan inte ta bort authselect-konfigurationen [%d]: %s"
+
+#: src/lib/authselect.c:159
+msgid "Authselect configuration was successfully removed"
+msgstr "Authselect-konfigurationen togs bort"
+
+#: src/lib/authselect.c:185
+#, c-format
+msgid "Unable to read original checksum [%s] [%d]: %s"
+msgstr "Kan inte läsa ursprunglig kontrollsumma [%s] [%d]: %s"
+
+#: src/lib/authselect.c:193
+#, c-format
+msgid "Unable to read copy checksum [%s] [%d]: %s"
+msgstr "Kan inte läsa kopians kontrollsumma [%s] [%d]: %s"
+
+#: src/lib/authselect.c:198
+msgid "Installed profiles did not change. No action is needed."
+msgstr "Installerade profiler ändrades inte. Ingen åtgärd krävs."
+
+#: src/lib/authselect.c:226
+#, c-format
+msgid "Profile feature [%s] is no longer supported, removing it..."
+msgstr "Profilfunktionen [%s] stödjs inte längre, tar bort den …"
+
+#: src/lib/authselect_backup.c:48
+#, c-format
+msgid "Unable to create backup directory [%s/%s] [%d]: %s"
+msgstr "Kunde inte skapa katalog för säkerhetskopior [%s/%s] [%d]: %s"
+
+#: src/lib/authselect_backup.c:71
+#, c-format
+msgid "Unable to create backup directory [%s] [%d]: %s"
+msgstr "Kan inte skapa en katalog för säkerhetskopia [%s] [%d]: %s"
+
+#: src/lib/authselect_backup.c:92
+#, c-format
+msgid "Creating temporary directory at [%s]"
+msgstr "Skapar temporär katalog på [%s]"
+
+#: src/lib/authselect_backup.c:125 src/lib/authselect_profile.c:377
+#: src/lib/authselect_profile.c:457
+#, c-format
+msgid "There is no filename in [%s]"
+msgstr "Det finns inget filnamn i [%s]"
+
+#: src/lib/authselect_backup.c:129
+#, c-format
+msgid "Copying [%s] to [%s/%s]"
+msgstr "Kopierar [%s] till [%s/%s]"
+
+#: src/lib/authselect_backup.c:133 src/lib/util/selinux.c:389
+#: src/lib/util/selinux.c:406
+#, c-format
+msgid "File [%s] does not exist"
+msgstr "Filen [%s] finns inte"
+
+#: src/lib/authselect_backup.c:135 src/lib/authselect_backup.c:152
+#, c-format
+msgid "Unable to copy [%s] to [%s/%s] [%d]: %s"
+msgstr "Kan inte kopiera [%s] till [%s/%s] [%d]: %s"
+
+#: src/lib/authselect_backup.c:175
+#, c-format
+msgid "Trying to backup authselect configuration to [%s]"
+msgstr "Försöker säkerhetskopiera authselect konfiguration till [%s]"
+
+#: src/lib/authselect_backup.c:180
+#, c-format
+msgid "Trying to backup system configuration to [%s]"
+msgstr "Försöker säkerhetskopiera systemkonfigurationen till [%s]"
+
+#: src/lib/authselect_backup.c:185
+#, c-format
+msgid "Backup was successfully created at [%s]"
+msgstr "Säkerhetskopian skapades i [%s]"
+
+#: src/lib/authselect_backup.c:189
+#, c-format
+msgid "Unable to create backup [%d]: %s"
+msgstr "Kunde inte skapa säkerhetskopian [%d]: %s"
+
+#: src/lib/authselect_backup.c:206
+msgid " does not exist."
+msgstr " finns inte."
+
+#: src/lib/authselect_backup.c:209 src/lib/profiles/list.c:50
+#, c-format
+msgid "Unable to list directory [%s] [%d]: %s"
+msgstr "Kan inte lista katalogen [%s] [%d]: %s"
+
+#: src/lib/authselect_backup.c:223
+#, c-format
+msgid "Removing backup [%s]"
+msgstr "Tar bort säkerhetskopian [%s]"
+
+#: src/lib/authselect_backup.c:232
+#, c-format
+msgid "Unable to delete directory [%s] [%d]: %s"
+msgstr "Kan inte ta bort katalogen [%s] [%d]: %s"
+
+#: src/lib/authselect_backup.c:307
+#, c-format
+msgid "Unable to copy files [%d]: %s"
+msgstr "Kan inte kopiera filer [%d]: %s"
+
+#: src/lib/authselect_backup.c:313 src/lib/profiles/activate.c:86
+#, c-format
+msgid "Unable to create symbolic links [%d]: %s"
+msgstr "Kan inte skapa den symboliska länken [%d]: %s"
+
+#: src/lib/authselect_backup.c:319 src/lib/profiles/activate.c:92
+msgid "Dconf is not installed on your system"
+msgstr "Dconf är inte installerat på ditt system"
+
+#: src/lib/authselect_backup.c:321 src/lib/profiles/activate.c:94
+#, c-format
+msgid "Unable to update dconf database [%d]: %s"
+msgstr "Kan inte uppdatera dconf-databasen [%d]: %s"
+
+#: src/lib/authselect_backup.c:344
+#, c-format
+msgid "Restoring configuration from backup [%s]"
+msgstr "Återställer konfigurationen från säkerhetskopian [%s]"
+
+#: src/lib/authselect_backup.c:360
+#, c-format
+msgid "Backup [%s] contains authselect configuration"
+msgstr "Säkerhetskopian [%s] innehåller en authselect-konfiguration"
+
+#: src/lib/authselect_backup.c:363
+#, c-format
+msgid "Backup [%s] contains non-authselect configuration"
+msgstr "Säkerhetskpoian [%s] innehåller inte en authselect-konfiguration"
+
+#: src/lib/authselect_backup.c:369
+#, c-format
+msgid "Unable to restore [%s] [%d]: %s"
+msgstr "Kan inte återställa [%s] [%d]: %s"
+
+#: src/lib/authselect_profile.c:104
+msgid "Unable to generate nsswitch.conf"
+msgstr "Kan inte generera nsswitch.conf"
+
+#: src/lib/authselect_profile.c:111
+#, c-format
+msgid "Unable to find nsswitch maps [%d]: %s"
+msgstr "Kan inte hitta nsswitch-mappar [%d]: %s"
+
+#: src/lib/authselect_profile.c:132
+msgid "Unable to create array (out of memory)"
+msgstr "Kan inte skapa en vektor (slut på minne)"
+
+#: src/lib/authselect_profile.c:141 src/lib/authselect_profile.c:150
+msgid "Unable to obtain feature list (out of memory)"
+msgstr "Kan inte få tag i funktionslistan (slut på minne)"
+
+#: src/lib/authselect_profile.c:344
+#, c-format
+msgid "Creating empty profile at [%s]"
+msgstr "Skapar tomma profiler i [%s]"
+
+#: src/lib/authselect_profile.c:348 src/lib/authselect_profile.c:449
+#, c-format
+msgid "Unable to make path [%s] [%d]: %s"
+msgstr "Kan inte skapa sökvägen [%s] [%d]: %s"
+
+#: src/lib/authselect_profile.c:355 src/lib/authselect_profile.c:408
+#, c-format
+msgid "Unable to write to [%s] [%d]: %s"
+msgstr "Kan inte skriva till [%s] [%d]: %s"
+
+#: src/lib/authselect_profile.c:385
+#, c-format
+msgid "Omitting [%s] since it does not exist in base profile"
+msgstr "Utesluter [%s] eftersom den inte finns i basprofilen"
+
+#: src/lib/authselect_profile.c:389
+#, c-format
+msgid "Unable to check presence of [%s] [%d]: %s"
+msgstr "Kan inte kontrollera förekomsten av [%s] [%d]: %s"
+
+#: src/lib/authselect_profile.c:397
+#, c-format
+msgid "Unable to create symbolic link [%s] to [%s] [%d]: %s"
+msgstr "Kan inte skapa en symbolisk länk [%s] till [%s] [%d]: %s"
+
+#: src/lib/authselect_profile.c:430
+#, c-format
+msgid "Creating new profile from \"%s\" at [%s]"
+msgstr "Skapar en ny profil från ”%s” på [%s]"
+
+#: src/lib/authselect_profile.c:434
+#, c-format
+msgid "Unable to read base profile [%s] [%d]: %s"
+msgstr "Kan inte läsa basprofilen [%s] [%d]: %s"
+
+#: src/lib/authselect_profile.c:442
+msgid "Unable to resolve symbolic links names"
+msgstr "Kan inte slå upp symboliska länkars namn"
+
+#: src/lib/authselect_profile.c:467 src/lib/authselect_profile.c:480
+#: src/lib/authselect_profile.c:494
+#, c-format
+msgid "Unable to create [%s] [%d]: %s"
+msgstr "Kan inte skapa [%s] [%d]: %s"
+
+#: src/lib/authselect_profile.c:502
+#, c-format
+msgid "Unknown file name [%s]"
+msgstr "Okänt filnamn [%s]"
+
+#: src/lib/authselect_profile.c:529
+msgid "Name can not be empty"
+msgstr "Namnet får inte vara tomt"
+
+#: src/lib/authselect_profile.c:541
+msgid "Default profile can not be created"
+msgstr "Standardprofilen kan inte skapas"
+
+#: src/lib/authselect_profile.c:544
+msgid "Value AUTHSELECT_PROFILE_ANY is invalid in this context"
+msgstr "Värdet AUTHSELECT_PROFILE_ANY är inte giltigt i detta sammanhang"
+
+#: src/lib/authselect_profile.c:549
+msgid "Unable to create profile path: out of memory"
+msgstr "Kan inte skapa profilsökvägen: slut på minne"
+
+#: src/lib/authselect_profile.c:555
+#, c-format
+msgid "Profile \"%s\" already exists at [%s]"
+msgstr "Profilen ”%s” finns redan vid [%s]"
+
+#: src/lib/authselect_profile.c:559
+#, c-format
+msgid "Unable to access [%s] [%d]: %s"
+msgstr "Kan inte komma åt [%s] [%d]: %s"
+
+#: src/lib/authselect_profile.c:565
+msgid "Unable to create file name: out of memory"
+msgstr "Kan inte skapa filnamnet: slut på minne"
+
+#: src/lib/authselect_profile.c:573
+#, c-format
+msgid "Unable to create empty profile [%d]: %s"
+msgstr "Kan inte skapa en tom profil [%d]: %s"
+
+#: src/lib/authselect_profile.c:582
+#, c-format
+msgid "Unable to create profile [%d]: %s"
+msgstr "Kan inte skapa profilen [%d]: %s"
+
+#: src/lib/files/config.c:76
+msgid "Checking if all required directories are writable."
+msgstr "Kontrollerar om alla nödvändiga kataloger är skrivbara."
+
+#: src/lib/files/config.c:81
+#, c-format
+msgid "Unable to get path to %s parent directory!"
+msgstr "Kan inte få sökvägen till %s föräldrakatalog!"
+
+#: src/lib/files/config.c:88
+#, c-format
+msgid "Creating path [%s]"
+msgstr "Skapar sökvägen [%s]"
+
+#: src/lib/files/config.c:92
+#, c-format
+msgid "Unable to create path [%s] [%d]: %s"
+msgstr "Kan inte skapa sökvägen [%s] [%d]: %s"
+
+#: src/lib/files/config.c:97
+#, c-format
+msgid "Directory [%s] does not exist, please create it!"
+msgstr "Katalogen [%s] finns inte, var god och skapa den!"
+
+#: src/lib/files/config.c:100
+#, c-format
+msgid "Unable to access directory [%s] in [WX] mode!"
+msgstr "Kan inte komma åt katalogen [%s] i [WX]-läge!"
+
+#: src/lib/files/config.c:119
+#, c-format
+msgid "Unable to load profile [%s] [%d]: %s"
+msgstr "Kan inte läsa in profilen [%s] [%d]: %s"
+
+#: src/lib/files/symlinks.c:41
+#, c-format
+msgid "Creating symbolic link [%s] to [%s]"
+msgstr "Skapar en symbolisk länk [%s] till [%s]"
+
+#: src/lib/files/symlinks.c:47
+#, c-format
+msgid "Unable to overwrite file [%s] [%d]: %s"
+msgstr "Kan inte skriva över filen [%s] [%d]: %s"
+
+#: src/lib/files/symlinks.c:55
+#, c-format
+msgid "Unable to create symbolic link [%s] [%d]: %s"
+msgstr "Kan inte skapa en symbolisk länk [%s] [%d]: %s"
+
+#: src/lib/files/symlinks.c:79
+#, c-format
+msgid "Validating link [%s]"
+msgstr "Validerar länken [%s]"
+
+#: src/lib/files/symlinks.c:83
+#, c-format
+msgid "Unable to validate link [%s] [%d]: %s"
+msgstr "Kan inte validera länken [%s] [%d]: %s"
+
+#: src/lib/files/symlinks.c:90
+#, c-format
+msgid "[%s] was not created by authselect!"
+msgstr "[%s] skapades inte av authselect!"
+
+#: src/lib/files/symlinks.c:112 src/lib/files/symlinks.c:153
+#: src/lib/files/system.c:311
+#, c-format
+msgid "Error while trying to access file [%s] [%d]: %s"
+msgstr "Fel vid försök att komma åt filen [%s] [%d]: %s"
+
+#: src/lib/files/symlinks.c:121
+#, c-format
+msgid "Unable to check file [%s] [%d]: %s"
+msgstr "Kan inte kontrollera filen [%s] [%d]: %s"
+
+#: src/lib/files/symlinks.c:128
+#, c-format
+msgid "Symbolic link [%s] to [%s] still exists!"
+msgstr "Den symboliska länken [%s] till [%s] finns redan!"
+
+#: src/lib/files/symlinks.c:149
+#, c-format
+msgid "File [%s] exists but it needs to be overwritten!"
+msgstr "Filen [%s] finns men den behöver skrivas över!"
+
+#: src/lib/files/symlinks.c:191
+#, c-format
+msgid "Skipping [%s] because it is not an authselect file"
+msgstr "Hoppar över [%s] eftersom den inte är en authselect-fil"
+
+#: src/lib/files/system.c:74 src/lib/profiles/read.c:162
+#, c-format
+msgid "Reading file [%s/%s]"
+msgstr "Läser filen [%s/%s]"
+
+#: src/lib/files/system.c:82 src/lib/profiles/read.c:168
+#: src/lib/profiles/read.c:173
+#, c-format
+msgid "Unable to read file [%s/%s] [%d]: %s"
+msgstr "Kan inte läsa filen [%s/%s] [%d]: %s"
+
+#: src/lib/files/system.c:151
+#, c-format
+msgid "Unable to generate files [%d]: %s"
+msgstr "Kan inte generera filerna [%d]: %s"
+
+#: src/lib/files/system.c:165 src/lib/util/selinux.c:410
+#, c-format
+msgid "Writing temporary file for [%s]"
+msgstr "Skriver temporär fil för [%s]"
+
+#: src/lib/files/system.c:168
+#, c-format
+msgid "Unable to write temporary file [%s] [%d]: %s"
+msgstr "Kan inte skriva temporärfilen [%s] [%d]: %s"
+
+#: src/lib/files/system.c:173
+#, c-format
+msgid "Temporary file is named [%s]"
+msgstr "Temporär fil heter [%s]"
+
+#: src/lib/files/system.c:184 src/lib/util/selinux.c:438
+#, c-format
+msgid "Renaming [%s] to [%s]"
+msgstr "Byter namn på [%s] till [%s]"
+
+#: src/lib/files/system.c:189 src/lib/util/selinux.c:442
+#, c-format
+msgid "Unable to rename [%s] to [%s] [%d]: %s"
+msgstr "Kan inte byta namn på [%s] till [%s] [%d]: %s"
+
+#: src/lib/files/system.c:263
+#, c-format
+msgid "Validating file [%s]"
+msgstr "Validerar filen [%s]"
+
+#: src/lib/files/system.c:268
+#, c-format
+msgid "Unable to check file mode of [%s] [%d]: %s"
+msgstr "Kan inte kontrollera rättigheterna på [%s] [%d]: %s"
+
+#: src/lib/files/system.c:288
+#, c-format
+msgid "File [%s] was modified outside authselect!"
+msgstr "Filen [%s] ändrades utanför authselect!"
+
+#: src/lib/files/system.c:307
+#, c-format
+msgid "File [%s] is still present"
+msgstr "Filen [%s] är fortfarande kvar"
+
+#: src/lib/files/system.c:332 src/lib/files/system.c:342
+#, c-format
+msgid "Unable to delete [%s] [%d]: %s"
+msgstr "Kan inte radera [%s] [%d]: %s"
+
+#: src/lib/profiles/activate.c:44
+#, c-format
+msgid "%s update failed: %d"
+msgstr "%s uppdatering misslyckades: %d"
+
+#: src/lib/profiles/activate.c:54
+#, c-format
+msgid "Copying [%s] to [%s]"
+msgstr "Kopierar [%s] till [%s/]"
+
+#: src/lib/profiles/activate.c:67
+msgid "Some directories are not accessible by authselect!"
+msgstr "Några kataloger är inte åtkomliga för authselect!"
+
+#: src/lib/profiles/activate.c:73
+#, c-format
+msgid "Unable to write generated system files [%d]: %s"
+msgstr "Kan inte skriva genererade systemfiler [%d]: %s"
+
+#: src/lib/profiles/activate.c:80
+#, c-format
+msgid "Unable to write configuration [%d]: %s"
+msgstr "Kan inte skriva konfigurationen [%d]: %s"
+
+#: src/lib/profiles/activate.c:101
+#, c-format
+msgid "Unable to copy profiles checksum [%d]: %s"
+msgstr "Kan inte kopiera profilernas kontrollsumma [%d]: %s"
+
+#: src/lib/profiles/list.c:42
+#, c-format
+msgid "Reading profile directory [%s]"
+msgstr "Läser profilkatalogen [%s]"
+
+#: src/lib/profiles/list.c:47
+#, c-format
+msgid "Directory [%s] is missing!"
+msgstr "Katalogen [%s] saknas!"
+
+#: src/lib/profiles/list.c:69
+#, c-format
+msgid "Found profile [%s]"
+msgstr "Hittade profilen [%s]"
+
+#: src/lib/profiles/list.c:151
+#, c-format
+msgid "Unable to list profiles [%d]: %s"
+msgstr "Kan inte lista profiler [%d]: %s"
+
+#: src/lib/profiles/read.c:83
+#, c-format
+msgid "Unable to open directory [%s] [%d]: %s"
+msgstr "Kan inte öppna katalogen [%s] [%d]: %s"
+
+#: src/lib/profiles/read.c:106
+#, c-format
+msgid "Looking up profile [%s]"
+msgstr "Slår upp profilen [%s]"
+
+#: src/lib/profiles/read.c:110
+msgid "Locations array is NULL"
+msgstr "Platsvektorn är NOLL"
+
+#: src/lib/profiles/read.c:133
+#, c-format
+msgid "Profile [%s] is a custom profile"
+msgstr "Profil [%s] är en anpassad profil"
+
+#: src/lib/profiles/read.c:135
+#, c-format
+msgid "Profile [%s] is a vendor profile"
+msgstr "Profilen [%s] är en leverantörsprofil"
+
+#: src/lib/profiles/read.c:137
+#, c-format
+msgid "Profile [%s] is a default profile"
+msgstr "Profilen [%s] är en standardprofil"
+
+#: src/lib/profiles/read.c:140
+#, c-format
+msgid "Profile [%s] found at [%s]"
+msgstr "Profilen [%s] hittad vid [%s]"
+
+#: src/lib/profiles/read.c:148
+#, c-format
+msgid "Profile [%s] was not found"
+msgstr "Profilen [%s] hittades inte"
+
+#: src/lib/profiles/read.c:203 src/lib/profiles/read.c:222
+#, c-format
+msgid "Profile [%s] does not contain a name in [%s]!"
+msgstr "Profilen [%s] innehåller inte ett namn i [%s]!"
+
+#: src/lib/util/dir.c:77 src/lib/util/dir.c:83
+#, c-format
+msgid "Unable to get basename of [%s]"
+msgstr "Kan inte ta fram basnamnet av [%s]"
+
+#: src/lib/util/dir.c:90 src/lib/util/dir.c:97 src/lib/util/file.c:126
+#: src/lib/util/file.c:199 src/cli/main.c:979
+#, c-format
+msgid "Unable to stat [%s] [%d]: %s"
+msgstr "Kan inte ta status på [%s] [%d]: %s"
+
+#: src/lib/util/dir.c:130
+#, c-format
+msgid "Unable to stat directory [%d]: %s"
+msgstr "Det gick inte att omedelbart ange katalog [%d]: %s"
+
+#: src/lib/util/dir.c:313
+#, c-format
+msgid "Removing file [%s/%s]"
+msgstr "Tar bort filen [%s/%s]"
+
+#: src/lib/util/dir.c:321
+#, c-format
+msgid "Removing directory [%s]"
+msgstr "Tar bort katalogen [%s]"
+
+#: src/lib/util/file.c:43
+msgid "Internal error: stat cannot be NULL!"
+msgstr "Internt fel: stat kan inte vara NULL!"
+
+#: src/lib/util/file.c:51
+#, c-format
+msgid "[%s] is not a directory!"
+msgstr "[%s] är inte en katalog!"
+
+#: src/lib/util/file.c:54
+#, c-format
+msgid "[%s] is not a regular file!"
+msgstr "[%s] är inte en vanlig fil!"
+
+#: src/lib/util/file.c:57
+#, c-format
+msgid "[%s] is not a symbolic link!"
+msgstr "[%s] är inte en symbolisk länk!"
+
+#: src/lib/util/file.c:60
+#, c-format
+msgid "[%s] has wrong type [%.7o], expected [%.7o]!"
+msgstr "[%s] har fel typ [%.7o], [%.7o] förväntades!"
+
+#: src/lib/util/file.c:87
+#, c-format
+msgid "[%s] has wrong mode [%.4o], expected [%.4o]!"
+msgstr "[%s] har fel rättigheter [%.4o], [%.4o] förväntades!"
+
+#: src/lib/util/file.c:93
+#, c-format
+msgid "[%s] has wrong owner [%u], expected [%u]!"
+msgstr "[%s] har fel ägare [%u], [%u] förväntades!"
+
+#: src/lib/util/file.c:99
+#, c-format
+msgid "[%s] has wrong group [%u], expected [%u]!"
+msgstr "[%s] har fel grupp [%u], [%u] förväntades!"
+
+#: src/lib/util/file.c:121
+#, c-format
+msgid "[%s] does not exist!"
+msgstr "[%s] finns inte!"
+
+#: src/lib/util/file.c:164 src/lib/util/file.c:211
+#, c-format
+msgid "Unable to read link destination [%s] [%d]: %s"
+msgstr "Kan inte läsa länkmålet [%s] [%d]: %s"
+
+#: src/lib/util/file.c:170
+#, c-format
+msgid "Link [%s] does not point to [%s]"
+msgstr "Länken [%s] pekar inte på [%s]"
+
+#: src/lib/util/file.c:218 src/lib/util/file.c:220
+#, c-format
+msgid "Link [%s] points to [%s]"
+msgstr "Länken [%s] pekar på [%s]"
+
+#: src/lib/util/file.c:281
+msgid "Internal error: filepath cannot be NULL!"
+msgstr "Internt fel: filepath kan inte vara NULL!"
+
+#: src/lib/util/file.c:313
+#, c-format
+msgid "Unable to get parent directory of [%s] [%d]: %s"
+msgstr "Kan inte ta reda på föräldrakatalogen till [%s] [%d]: %s"
+
+#: src/lib/util/file.c:524 src/lib/util/textfile.c:175
+#, c-format
+msgid "Unable to chmod file [%s] [%d]: %s"
+msgstr "Kan inte ändra rättigheter på filen [%s] [%d]: %s"
+
+#: src/lib/util/file.c:531
+#, c-format
+msgid "Unable to chown file [%s] [%d]: %s"
+msgstr "Kan inte ändra ägare på filen [%s] [%d]: %s"
+
+#: src/lib/util/selinux.c:48
+#, c-format
+msgid "Unable to create selabel handle [%d]: %s"
+msgstr "Kan inte skapa selabel-handtag [%d]: %s"
+
+#: src/lib/util/selinux.c:57
+#, c-format
+msgid "Unable to lookup selinux context [%d]: %s"
+msgstr "Kan inte slå upp selinux-kontext [%d]: %s"
+
+#: src/lib/util/selinux.c:61
+#, c-format
+msgid "Found default selinux context for [%s]: %s"
+msgstr "Hittade standard-selinux-kontext för [%s]: %s"
+
+#: src/lib/util/selinux.c:86
+#, c-format
+msgid "Unable to obtain selinux context for [%s] [%d]: %s"
+msgstr "Kan inte få tag i selinux-kontext för [%s] [%d]: %s"
+
+#: src/lib/util/selinux.c:93
+msgid "not set"
+msgstr "inte satt"
+
+#: src/lib/util/selinux.c:92
+#, c-format
+msgid "Found selinux context for [%s]: %s"
+msgstr "Hittade selinux-kontext för [%s]: %s"
+
+#: src/lib/util/selinux.c:117 src/lib/util/selinux.c:185
+#: src/lib/util/selinux.c:253
+msgid "Unable to get current fscreate selinux context!"
+msgstr "Kan inte ta reda på aktuell fscreate selinux-kontext!"
+
+#: src/lib/util/selinux.c:123 src/lib/util/selinux.c:191
+#: src/lib/util/selinux.c:259
+#, c-format
+msgid "Unable to get default selinux context for [%s] [%d]: %s!"
+msgstr "Kan inte få tag i standard selinux-kontext för [%s] [%d]: %s!"
+
+#: src/lib/util/selinux.c:131 src/lib/util/selinux.c:199
+#: src/lib/util/selinux.c:267
+msgid "Unable to set fscreate selinux context!"
+msgstr "Kan inte sätta fscreate selinux-kontext!"
+
+#: src/lib/util/selinux.c:141 src/lib/util/selinux.c:209
+#: src/lib/util/selinux.c:277
+msgid "Unable to restore fscreate selinux context!"
+msgstr "Kan inte återställa fscreate selinux-kontext!"
+
+#: src/lib/util/selinux.c:390
+#, c-format
+#| msgid "Writing temporary file for [%s]"
+msgid "Writing empty temporary file for [%s]"
+msgstr "Skriver tom temporär fil för [%s]"
+
+#: src/lib/util/selinux.c:399
+#, c-format
+msgid ""
+"File [%s] should exist but is missing. It is not safe to delete [%s]. "
+"Aborting."
+msgstr ""
+"Filen [%s] skulle funnits men saknas. Det är inte säkert att radera [%s]. "
+"Avbryter."
+
+#: src/lib/util/selinux.c:433
+#, c-format
+msgid "Removing [%s]"
+msgstr "Tar bort [%s]"
+
+#: src/lib/util/template.c:143 src/lib/util/template.c:205
+#: src/lib/util/template.c:281
+msgid "Invalid operator!"
+msgstr "Ogiltig operatör!"
+
+#: src/lib/util/template.c:450 src/lib/util/template.c:573
+#: src/lib/util/template.c:624
+#, c-format
+msgid "Unable to compile regular expression: regex error %d"
+msgstr "Kan inte kompilera det reguljära uttrycket: reguljärt uttrycksfel %d"
+
+#: src/lib/util/template.c:460 src/lib/util/template.c:634
+#, c-format
+msgid "Unable to process match [%d]: %s"
+msgstr "Kan inte bearbeta matchningen [%d]: %s"
+
+#: src/lib/util/template.c:485
+#, c-format
+msgid "Unable to process operator [%d]: %s"
+msgstr "Det gick inte att bearbeta operatören [%d]: %s"
+
+#: src/lib/util/template.c:500 src/lib/util/template.c:650
+#, c-format
+msgid "Unable to search string: regex error %d"
+msgstr "Kan inte söka i strängen: reguljärt uttrycksfel %d"
+
+#: src/lib/util/template.c:532
+#, c-format
+msgid "Unable to generate template [%d]: %s"
+msgstr "Det gick inte att generera schablon [%d]: %s"
+
+#: src/lib/util/template.c:580
+#, c-format
+msgid "Unable to find new match: regex error %d"
+msgstr "Kan inte hitta en ny matchning: reguljäruttrycksfel %d"
+
+#: src/lib/util/template.c:705
+#, c-format
+msgid "Unable to create temporary file for [%s] [%d]: %s"
+msgstr "Kan inte skapa temporärfilen för [%s] [%d]: %s"
+
+#: src/lib/util/textfile.c:56
+#, c-format
+msgid "File [%s] is bigger than %uKiB!"
+msgstr "Filen [%s] är större än %u KiB!"
+
+#: src/lib/util/textfile.c:85
+#, c-format
+msgid "Unable to read file [%s] [%d]: %s"
+msgstr "Kan inte läsa filen [%s] [%d]: %s"
+
+#: src/lib/util/textfile.c:158
+#, c-format
+msgid "Unable to open file [%s] [%d]: %s"
+msgstr "Kan inte öppna filen [%s] [%d]: %s"
+
+#: src/lib/util/textfile.c:167
+#, c-format
+msgid "Unable to write data [%s] [%d]: %s"
+msgstr "Kan inte skriva data [%s] [%d]: %s"
+
+#: src/cli/cli_tool.c:72
+#, c-format
+msgid "Common options:\n"
+msgstr "Allmänna flaggor:\n"
+
+#: src/cli/cli_tool.c:74 src/cli/cli_tool.c:96
+msgid "Print error messages"
+msgstr "Skriv ut felmeddelanden"
+
+#: src/cli/cli_tool.c:76 src/cli/cli_tool.c:97
+msgid "Print trace messages"
+msgstr "Skriv ut spårmeddelanden"
+
+#: src/cli/cli_tool.c:78 src/cli/cli_tool.c:98
+msgid "Print warning messages"
+msgstr "Skriv ut varningsmeddelanden"
+
+#: src/cli/cli_tool.c:80
+#, c-format
+msgid "Help options:\n"
+msgstr "Hjälpflaggor:\n"
+
+#: src/cli/cli_tool.c:82
+msgid "Show this for a command"
+msgstr "Visa detta för ett kommando"
+
+#: src/cli/cli_tool.c:84
+msgid "Show brief usage message for a command"
+msgstr "Visa kort användningsmeddelande för ett kommando"
+
+#: src/cli/cli_tool.c:173
+#, c-format
+msgid ""
+"Usage:\n"
+"%s COMMAND COMMAND-ARGS\n"
+"\n"
+msgstr ""
+"Användning:\n"
+"%s KOMMANDO KOMMANDOARGUMENT\n"
+"\n"
+
+#: src/cli/cli_tool.c:174
+#, c-format
+msgid "Available commands:\n"
+msgstr "Tillgängliga kommandon:\n"
+
+#: src/cli/cli_tool.c:196
+#, c-format
+msgid "\n"
+msgstr "\n"
+
+#: src/cli/cli_tool.c:230
+#, c-format
+msgid "Authselect command '%s' can only be run as root!\n"
+msgstr "Authselect-kommandot ”%s” kan bara köras som root!\n"
+
+#: src/cli/cli_tool.c:247
+msgid "Bug: commands can't be NULL!\n"
+msgstr "Fel: kommandon kan inte vara NULL!\n"
+
+#: src/cli/cli_tool.c:310
+msgid "Command options:"
+msgstr "Kommandoflaggor:"
+
+#: src/cli/cli_tool.c:312
+msgid "Common options:"
+msgstr "Allmänna flaggor:"
+
+#: src/cli/cli_tool.c:331 src/cli/cli_tool.c:334
+msgid "[OPTIONS...]"
+msgstr "[FLAGGOR…]"
+
+#: src/cli/cli_tool.c:337 src/cli/cli_tool.c:389 src/cli/main.c:971
+msgid "Out of memory!"
+msgstr "Slut på minne!"
+
+#: src/cli/cli_tool.c:358
+#, c-format
+msgid ""
+"Invalid option %s: %s\n"
+"\n"
+msgstr ""
+"Felaktig flagga %s: %s\n"
+"\n"
+
+#: src/cli/cli_tool.c:370
+#, c-format
+msgid ""
+"Missing option: %s\n"
+"\n"
+msgstr ""
+"Saknad flagga: %s\n"
+"\n"
+
+#: src/cli/cli_tool.c:380
+#, c-format
+msgid ""
+"Only one free argument is expected!\n"
+"\n"
+msgstr ""
+"Endast ett fritt argument förväntas!\n"
+"\n"
+
+#: src/cli/cli_tool.c:395
+#, c-format
+msgid ""
+"Unexpected parameter: %s\n"
+"\n"
+msgstr ""
+"Oväntad parameter: %s\n"
+"\n"
+
+#: src/cli/cli_tool.c:407
+#, c-format
+msgid ""
+"At least one option is required!\n"
+"\n"
+msgstr ""
+"Åtminstone en flagga krävs!\n"
+"\n"
+
+#: src/cli/main.c:80 src/cli/main.c:489 src/cli/main.c:544
+msgid "Profile identifier."
+msgstr "Profilidentifierare."
+
+#: src/cli/main.c:83 src/cli/main.c:280 src/cli/main.c:329 src/cli/main.c:378
+#: src/cli/main.c:427 src/cli/main.c:492 src/cli/main.c:547 src/cli/main.c:758
+#: src/cli/main.c:835 src/cli/main.c:864 src/cli/main.c:906 src/cli/main.c:946
+#: src/cli/main.c:1011 src/cli/main.c:1037
+msgid "Unable to parse command arguments"
+msgstr "Kan inte tolka kommandoargument"
+
+#: src/cli/main.c:89
+#| msgid "Unable to create message!"
+msgid "Unable to create string array"
+msgstr "Kan inte skapa strängvektor"
+
+#: src/cli/main.c:165
+msgid "Unable to backup current configuration!\n"
+msgstr "Kan inte säkerhetskopiera den aktuella konfigurationen!\n"
+
+#: src/cli/main.c:169
+#, c-format
+msgid "Backup stored at %s\n"
+msgstr "Säkerhetskopian lagrad i %s\n"
+
+#: src/cli/main.c:191
+msgid "Enforce changes"
+msgstr "Framtvinga ändringar"
+
+#: src/cli/main.c:192 src/cli/main.c:273 src/cli/main.c:748 src/cli/main.c:826
+msgid "Backup system files before activating profile (generate unique name)"
+msgstr ""
+"Säkerhetskopiera systemfiler före aktivering av en profil (generera ett "
+"unikt namn)"
+
+#: src/cli/main.c:193 src/cli/main.c:274 src/cli/main.c:749 src/cli/main.c:827
+msgid "Backup system files before activating profile"
+msgstr "Säkerhetskopiera systemfiler före aktivering av en profil"
+
+#: src/cli/main.c:193 src/cli/main.c:274 src/cli/main.c:749 src/cli/main.c:827
+msgid "NAME"
+msgstr "NAMN"
+
+#: src/cli/main.c:194
+msgid "Do not backup system files when --force is set"
+msgstr "Säkerhetskopiera inte systemfiler när --force är angivet"
+
+#: src/cli/main.c:195 src/cli/main.c:750
+msgid "Do not print profile requirements"
+msgstr "Skriv inte ut profilkrav"
+
+#: src/cli/main.c:206 src/cli/main.c:448 src/cli/main.c:509 src/cli/main.c:586
+#: src/cli/main.c:618 src/cli/main.c:777
+#, c-format
+msgid "Unable to get profile information [%d]: %s"
+msgstr "Kan inte ta fram profilinformationen [%d]: %s"
+
+#: src/cli/main.c:214 src/cli/main.c:626 src/cli/main.c:785
+msgid "Unable to read profile requirements!"
+msgstr "Kan inte läsa profilkrav!"
+
+#: src/cli/main.c:228
+msgid ""
+"\n"
+"Some unexpected changes to the configuration were detected.\n"
+"Use --force parameter if you want to overwrite these changes.\n"
+msgstr ""
+"\n"
+"Några oväntade ändringar av konfigurationen upptäcktes.\n"
+"Använd flaggan --force om du vill skriva över dessa ändringar.\n"
+
+#: src/cli/main.c:233
+#, c-format
+msgid "Unable to activate profile [%d]: %s\n"
+msgstr "Kan inte aktivera profilen [%d]: %s\n"
+
+#: src/cli/main.c:238
+#, c-format
+msgid "Profile \"%s\" was selected.\n"
+msgstr "Profilen ”%s” valdes.\n"
+
+#: src/cli/main.c:241
+msgid "The following nsswitch maps are overwritten by the profile:\n"
+msgstr "Följande nsswitch-översättningar skrevs över av profilen:\n"
+
+#: src/cli/main.c:244
+#, c-format
+msgid "- %s\n"
+msgstr "- %s\n"
+
+#: src/cli/main.c:249
+#, c-format
+msgid ""
+"\n"
+"%s\n"
+msgstr ""
+"\n"
+"%s\n"
+
+#: src/cli/main.c:272
+msgid "Only apply changes if installed profiles have changed"
+msgstr "Tillämpa endast ändringar om installerade profiler har ändrats"
+
+#: src/cli/main.c:292
+msgid "Changes were successfully applied.\n"
+msgstr "Ändringar verkställdes.\n"
+
+#: src/cli/main.c:295
+msgid "Installed profiles did not change. No action is needed.\n"
+msgstr "Installerade profiler ändrades inte. Ingen åtgärd krävs.\n"
+
+#: src/cli/main.c:299 src/cli/main.c:335 src/cli/main.c:767
+msgid "No existing configuration detected.\n"
+msgstr "Ingen befintlig konfiguration hittades.\n"
+
+#: src/cli/main.c:302
+msgid ""
+"Some unexpected changes to the configuration were detected. Use 'select' "
+"command instead.\n"
+msgstr ""
+"Några oväntade ändringar av konfigurationen upptäcktes. Använd kommandot "
+"”select” istället.\n"
+
+#: src/cli/main.c:306
+#, c-format
+msgid "Unable to apply changes [%d]: %s\n"
+msgstr "Kan inte verkställa ändringar [%d]: %s\n"
+
+#: src/cli/main.c:323
+msgid "Print command parameters instead of formatted output"
+msgstr "Skriv ut kommandoparametrar istället för formaterad utdata"
+
+#: src/cli/main.c:338 src/cli/main.c:770
+#, c-format
+msgid "Unable to get current configuration [%d]: %s"
+msgstr "Kan inte ta fram den aktuella konfigurationen [%d]: %s"
+
+#: src/cli/main.c:352
+#, c-format
+msgid "Profile ID: %s\n"
+msgstr "Profil-ID: %s\n"
+
+#: src/cli/main.c:353
+msgid "Enabled features:"
+msgstr "Aktiverade funktioner:"
+
+#: src/cli/main.c:356
+msgid " None\n"
+msgstr " Inga\n"
+
+#: src/cli/main.c:384
+#, c-format
+msgid "Unable to test current configuration [%d]: %s"
+msgstr "Kan inte testa den aktuella konfigurationen [%d]: %s"
+
+#: src/cli/main.c:391
+msgid ""
+"Current configuration is not valid. It was probably modified outside "
+"authselect."
+msgstr ""
+"Den aktuella konfigurationen är inte giltig. Den var förmodligen ändrad "
+"utanför authselect."
+
+#: src/cli/main.c:398
+#| msgid "Current configuration is valid."
+msgid "Current authselect configuration is valid."
+msgstr "Den aktuella authselect-konfigurationen är giltig."
+
+#: src/cli/main.c:401
+msgid "No configuration detected."
+msgstr "Ingen konfiguration hittades."
+
+#: src/cli/main.c:405
+msgid "System was not configured with authselect."
+msgstr "Systemet konfigurerades inte med authselect."
+
+#: src/cli/main.c:433
+msgid "Unable to get profile list!"
+msgstr "Kan inte ta fram profillistan!"
+
+#: src/cli/main.c:517
+#, c-format
+msgid "Unable to get profile features [%d]: %s"
+msgstr "Kan inte ta fram profilfunktioner [%d]: %s"
+
+#: src/cli/main.c:563
+#, c-format
+#| msgid "Profile ID: %s\n"
+msgid "Preset: %s\n"
+msgstr "Förval: %s\n"
+
+#: src/cli/main.c:564
+#, c-format
+#| msgid ""
+#| "Missing option: %s\n"
+#| "\n"
+msgid "Description: %s\n"
+msgstr "Beskrivning: %s\n"
+
+#: src/cli/main.c:565
+#, c-format
+msgid ""
+"Source: %s\n"
+"\n"
+msgstr ""
+"Källa: %s\n"
+"\n"
+
+#: src/cli/main.c:566
+#, c-format
+msgid "Resolves to:\n"
+msgstr "Löses till:\n"
+
+#: src/cli/main.c:567
+#, c-format
+#| msgid "Profile ID: %s\n"
+msgid "  Profile: %s\n"
+msgstr "  Profil: %s\n"
+
+#: src/cli/main.c:570
+#, c-format
+#| msgid "Enabled features:"
+msgid "  Features:\n"
+msgstr "  Funktioner:\n"
+
+#: src/cli/main.c:575
+#, c-format
+#| msgid "Feature to enable."
+msgid "  Features: None\n"
+msgstr "  Funktioner: Inga\n"
+
+#: src/cli/main.c:667
+msgid "Print content of all files"
+msgstr "Skriv ut innehållet i alla filer"
+
+#: src/cli/main.c:668
+msgid "Print nsswitch.conf content"
+msgstr "Skriv innehållet i nsswitch.conf"
+
+#: src/cli/main.c:669
+msgid "Print system-auth content"
+msgstr "Skriv innehållet i system-auth"
+
+#: src/cli/main.c:670
+msgid "Print password-auth content"
+msgstr "Skriv innehållet i password-auth"
+
+#: src/cli/main.c:671
+msgid "Print smartcard-auth content"
+msgstr "Skriv innehållet i smartcard-auth"
+
+#: src/cli/main.c:672
+msgid "Print fingerprint-auth content"
+msgstr "Skriv innehållet i fingerprint-auth"
+
+#: src/cli/main.c:673
+#| msgid "Print system-auth content"
+msgid "Print switchable-auth content"
+msgstr "Skriv ut innehållet i switchable-auth"
+
+#: src/cli/main.c:674
+msgid "Print postlogin content"
+msgstr "Skriv innehållet i postlogin"
+
+#: src/cli/main.c:675
+msgid "Print dconf database content"
+msgstr "Skriv innehållet i dconf-databasen"
+
+#: src/cli/main.c:676
+msgid "Print dconf lock content"
+msgstr "Skriv innehållet i dconf-låset"
+
+#: src/cli/main.c:704
+#, c-format
+msgid "Unable to get generated content [%d]: %s"
+msgstr "Kan inte ta fram genererat innehåll [%d]: %s"
+
+#: src/cli/main.c:723
+#, c-format
+msgid ""
+"File %s: Empty\n"
+"\n"
+msgstr ""
+"Filen %s: Tom\n"
+"\n"
+
+#: src/cli/main.c:725
+#, c-format
+msgid ""
+"File %s:\n"
+"%s\n"
+"\n"
+msgstr ""
+"Filen %s:\n"
+"%s\n"
+"\n"
+
+#: src/cli/main.c:755
+msgid "Feature to enable."
+msgstr "Funktion att aktivera."
+
+#: src/cli/main.c:792
+#, c-format
+msgid "Unable to backup current configuration [%d]: %s\n"
+msgstr "Kan inte säkerhetskopiera den aktuella konfigurationen [%d]: %s\n"
+
+#: src/cli/main.c:799
+#, c-format
+msgid "Unable to enable feature [%d]: %s\n"
+msgstr "Kan inte aktivera funktionen [%d]: %s\n"
+
+#: src/cli/main.c:804
+#, c-format
+msgid "%s\n"
+msgstr "%s\n"
+
+#: src/cli/main.c:832
+msgid "Feature to disable."
+msgstr "Funktion att avaktivera."
+
+#: src/cli/main.c:846
+#, c-format
+msgid "Unable to disable feature [%d]: %s\n"
+msgstr "Kan inte avaktivera funktionen [%d]: %s\n"
+
+#: src/cli/main.c:861
+msgid "Feature to check."
+msgstr "Funktion att kontrollera."
+
+#: src/cli/main.c:870
+#, c-format
+msgid "Unable to check feature [%d]: %s\n"
+msgstr "Kan inte kontrollera funktionen [%d]: %s\n"
+
+#: src/cli/main.c:891
+msgid "Create new profile as a vendor profile instead of a custom profile"
+msgstr ""
+"Skapa en ny profil som leverantörsprofil istället för en anpassad profil"
+
+#: src/cli/main.c:892
+msgid "ID of a profile that should be used as a base for the new profile"
+msgstr "ID för en profil som skall användas som bas för den nya profilen"
+
+#: src/cli/main.c:893
+msgid ""
+"Base new profile on a default profile even if vendor profile with the same "
+"name exists"
+msgstr ""
+"Basera en ny profil på en standardprofil även om en leverantörsprofil med "
+"samma namn finns"
+
+#: src/cli/main.c:894
+msgid "Symlink meta files from the base profile instead of copying them"
+msgstr "Symlänka metafiler från basprofilen istället för att kopiera dem"
+
+#: src/cli/main.c:895
+msgid "Symlink nsswitch files from the base profile instead of copying them"
+msgstr "Symlänka nsswitch-filer från basprofilen istället för att kopiera dem"
+
+#: src/cli/main.c:896
+msgid "Symlink pam files from the base profile instead of copying them"
+msgstr "Symlänka pam-filer från basprofilen istället för att kopiera dem"
+
+#: src/cli/main.c:897
+msgid "Symlink dconf files from the base profile instead of copying them"
+msgstr "Symlänka dconf-filer från basprofilen istället för att kopiera dem"
+
+#: src/cli/main.c:898
+msgid "Symlink specific file (can be set multiple times)"
+msgstr "Symlänka en specifik fil (kan anges flera gånger)"
+
+#: src/cli/main.c:903
+msgid "New profile name."
+msgstr "Nytt profilnamn."
+
+#: src/cli/main.c:913
+#, c-format
+msgid "Unable to create new profile [%d]: %s\n"
+msgstr "Kan inte skapa en ny profil [%d]: %s\n"
+
+#: src/cli/main.c:917
+#, c-format
+msgid "New profile was created at %s\n"
+msgstr "En ny profil skapades i %s\n"
+
+#: src/cli/main.c:940
+msgid "Print backup names without any formatting and additional information"
+msgstr ""
+"Skriv namn på säkerhetskopior utan någon formatering eller ytterligare "
+"information"
+
+#: src/cli/main.c:952
+msgid "Unable to list available backups!"
+msgstr "Kan inte lista tillgängliga säkerhetskopior!"
+
+#: src/cli/main.c:989
+#, c-format
+msgid "%-*s (created at %s)\n"
+msgstr "%-*s (skapad %s)\n"
+
+#: src/cli/main.c:1008
+msgid "Name of the backup to remove."
+msgstr "Namn på säkerhetskopian att ta bort."
+
+#: src/cli/main.c:1017
+#, c-format
+msgid "Unable to remove backup [%s] [%d]: %s\n"
+msgstr "Kan inte ta bort säkerhetskopian [%s] [%d]: %s\n"
+
+#: src/cli/main.c:1034
+msgid "Name of the backup to restore from."
+msgstr "Namn på säkerhetskopian att återställa ifrån."
+
+#: src/cli/main.c:1043
+#, c-format
+msgid "Unable to restore backup [%s] [%d]: %s\n"
+msgstr "Kan inte återställa säkerhetskopian [%s] [%d]: %s\n"
+
+#: src/cli/main.c:1059
+#, c-format
+msgid "Unable to uninstall authselect configuration [%d]: %s\n"
+msgstr "Kan inte avinstallera authselect-konfigurationen [%d]: %s\n"
+
+#: src/cli/main.c:1109
+msgid "Select profile"
+msgstr "Välj profil"
+
+#: src/cli/main.c:1110
+msgid "Regenerate configuration for currently selected command"
+msgstr "Skapa om konfigurationen för det valda kommandot"
+
+#: src/cli/main.c:1111
+msgid "List available profiles"
+msgstr "Lista tillgängliga profiler"
+
+#: src/cli/main.c:1112
+msgid "List available profile features"
+msgstr "Lista tillgängliga profilfunktioner"
+
+#: src/cli/main.c:1113
+msgid "Show profile information"
+msgstr "Visa profilinformation"
+
+#: src/cli/main.c:1114
+msgid "Print profile requirements"
+msgstr "Skriv ut profilkrav"
+
+#: src/cli/main.c:1115
+msgid "Get identifier of currently selected profile"
+msgstr "Hämta identiferaren för den nu valda profilen"
+
+#: src/cli/main.c:1116
+msgid "Check if the current configuration is valid"
+msgstr "Kontrollera om den aktuella konfigurationen är giltig"
+
+#: src/cli/main.c:1117
+msgid "Print changes that would be otherwise written"
+msgstr "Skriv ut ändringar som annars skulle skrivas"
+
+#: src/cli/main.c:1118
+msgid "Enable feature in currently selected profile"
+msgstr "Aktivera en funktion i den nu valda profilen"
+
+#: src/cli/main.c:1119
+msgid "Disable feature in currently selected profile"
+msgstr "Avaktivera en funktion i den nu valda profilen"
+
+#: src/cli/main.c:1120
+msgid "Check if feature is enabled in currently selected profile"
+msgstr "Kontrollera om en funktion är aktiverad i den nu valda profilen"
+
+#: src/cli/main.c:1121
+msgid "Create new authselect profile"
+msgstr "Skapa en ny authselect-profil"
+
+#: src/cli/main.c:1122
+msgid "Backup commands:"
+msgstr "Säkerhetskopieringskommandon:"
+
+#: src/cli/main.c:1123
+msgid "List available backups"
+msgstr "Lista tillgängliga säkerhetskopior"
+
+#: src/cli/main.c:1124
+msgid "Remove backup"
+msgstr "Ta bort säkerhetskopia"
+
+#: src/cli/main.c:1125
+msgid "Restore from backup"
+msgstr "Återställ från säkerhetskopia"
+
+#: src/cli/main.c:1126
+msgid "Other:"
+msgstr "Annat:"
+
+#: src/cli/main.c:1127
+msgid "Opt-out from authselect managed configuration"
+msgstr "Välj bort authselect-hanterad konfiguration"
+
+#: src/cli/main.c:1129
+msgid "Print authselect version"
+msgstr "Skriv ut authselect version"
+
+#~ msgid "Unable to obtain nsswitch maps!"
+#~ msgstr "Kan inte ta fram nsswitch-mappar!"
+
+#~ msgid "NIS for user information by default"
+#~ msgstr "NIS för användarinformation som standard"
+
+#~ msgid "<domain>"
+#~ msgstr "<domän>"
+
+#~ msgid "default NIS domain"
+#~ msgstr "standard-NIS-domän"
+
+#~ msgid "<server>"
+#~ msgstr "<server>"
+
+#~ msgid "default NIS server"
+#~ msgstr "standard-NIS-server"
+
+#~ msgid "LDAP for user information by default"
+#~ msgstr "LDAP för användarinformation som standard"
+
+#~ msgid "LDAP for authentication by default"
+#~ msgstr "LDAP för autentisering som standard"
+
+#~ msgid "default LDAP server hostname or URI"
+#~ msgstr "standard-LDAP-serverns värdnamn eller URI"
+
+#~ msgid "<dn>"
+#~ msgstr "<dn>"
+
+#~ msgid "default LDAP base DN"
+#~ msgstr "standard-LDAP-bas-DN"
+
+#~ msgid "use of TLS with LDAP (RFC-2830)"
+#~ msgstr "användning av TLS med LDAP (RFC-2830)"
+
+#~ msgid "use of TLS for identity lookups with LDAP (RFC-2830)"
+#~ msgstr "användning av TLS för identitetsuppslagningar med LDAP (RFC-2830)"
+
+#~ msgid "use of RFC-2307bis schema for LDAP user information lookups"
+#~ msgstr ""
+#~ "användning av RFC-2307bis-schema för LDAP-uppslagning av användarinformation"
+
+#~ msgid "authentication with smart card by default"
+#~ msgstr "autentisering med smarta kort som standard"
+
+#~ msgid "<0=Lock|1=Ignore>"
+#~ msgstr "<0=Lås|1=Ignorera>"
+
+#~ msgid "action to be taken on smart card removal"
+#~ msgstr "åtgärd som ska utföras då smarta kort tas bort"
+
+#~ msgid "require smart card for authentication by default"
+#~ msgstr "kräv smartkort för autentisering som standard"
+
+#~ msgid "authentication with fingerprint readers by default"
+#~ msgstr "autentisering med fingeravtrycksläsare som standard"
+
+#~ msgid "automatic per-user ecryptfs"
+#~ msgstr "automatiskt ecryptfs per användare"
+
+#~ msgid "Kerberos authentication by default"
+#~ msgstr "Kerberosautentisering som standard"
+
+#~ msgid "default Kerberos KDC"
+#~ msgstr "standard kerberos-KDC"
+
+#~ msgid "default Kerberos admin server"
+#~ msgstr "standardadministrationsserver för Kerberos"
+
+#~ msgid "<realm>"
+#~ msgstr "<rike>"
+
+#~ msgid "default Kerberos realm"
+#~ msgstr "standardrike för Kerberos"
+
+#~ msgid "use of DNS to find Kerberos KDCs"
+#~ msgstr "användning av DNS för att hitta Kerberos-KDC:er"
+
+#~ msgid "use of DNS to find Kerberos realms"
+#~ msgstr "användning av DNS för att hitta Kerberos-riken"
+
+#~ msgid "winbind for user information by default"
+#~ msgstr "winbind för användarinformation som standard"
+
+#~ msgid "winbind for authentication by default"
+#~ msgstr "windbind för autentisering som standard"
+
+#~ msgid "<Administrator>"
+#~ msgstr "<Administratör>"
+
+#~ msgid "join the winbind domain or ads realm now as this administrator"
+#~ msgstr "gå med i winbind-domänen eller ads-riket som denna administratör nu"
+
+#~ msgid "Kerberos 5 for authenticate with winbind"
+#~ msgstr "Kerberos 5 för autentisering med winbind"
+
+#~ msgid "<workgroup>"
+#~ msgstr "<arbetsgrupp>"
+
+#~ msgid "workgroup authentication servers are in"
+#~ msgstr "servrar för autentisering av arbetsgrupper finns på"
+
+#~ msgid ""
+#~ "SSSD for user information by default with manually managed configuration"
+#~ msgstr ""
+#~ "SSSD för användarinformation som standard med manuellt hanterad "
+#~ "konfiguration"
+
+#~ msgid "SSSD for authentication by default with manually managed configuration"
+#~ msgstr ""
+#~ "SSSD för autentisering som standard med manuellt hanterad konfiguration"
+
+#~ msgid "caching of user credentials in SSSD by default"
+#~ msgstr "cachning av användarinformation i SSSD som standard"
+
+#~ msgid "check of access.conf during account authorization"
+#~ msgstr "kontroll av access.conf vid konto-autentisering"
+
+#~ msgid "creation of home directories for users on their first login"
+#~ msgstr "skapandet av hemkataloger för användare vid första inloggning"
+
+#~ msgid ""
+#~ "account locking in case of too many consecutive authentication failures"
+#~ msgstr "kontolåsning ifall för många misslyckade autentiseringar görs i följd"
+
+#~ msgid "<number>"
+#~ msgstr "<antal>"
+
+#~ msgid "minimum length of a password"
+#~ msgstr "minsta längd på ett lösenord"
+
+#~ msgid "minimum number of character classes in a password"
+#~ msgstr "minsta antal teckenklasser i ett lösenord"
+
+#~ msgid "maximum number of same consecutive characters in a password"
+#~ msgstr "högsta antalet av likadana på varandra följande tecken i ett lösenord"
+
+#~ msgid "maximum number of consecutive characters of same class in a password"
+#~ msgstr ""
+#~ "högsta antalet på varandra följande tecken av samma klass i ett lösenord"
+
+#~ msgid "require at least one lowercase character in a password"
+#~ msgstr "kräv åtminstone en gemen bokstav i ett lösenord"
+
+#~ msgid "require at least one uppercase character in a password"
+#~ msgstr "kräv åtminstone en versal bokstav i ett lösenord"
+
+#~ msgid "require at least one digit in a password"
+#~ msgstr "kräv åtminstone en siffra i ett lösenord"
+
+#~ msgid "require at least one other character in a password"
+#~ msgstr "kräv åtminstone ett annat tecken i ett lösenord"
+
+#~ msgid "do not start/stop services"
+#~ msgstr "starta/stoppa inte tjänster"
+
+#~ msgid "update all configuration files"
+#~ msgstr "uppdatera alla konfigurationsfiler"
+
+#~ msgid "the same as --updateall"
+#~ msgstr "samma som --updateall"
+
+#~ msgid "<name>"
+#~ msgstr "<namn>"
+
+#~ msgid "<descrypt|bigcrypt|md5|sha256|sha512|yescrypt>"
+#~ msgstr "<descrypt|bigcrypt|md5|sha256|sha512|yescrypt>"
+
+#~ msgid "<URL>"
+#~ msgstr "<URL>"
+
+#~ msgid "<module>"
+#~ msgstr "<modul>"
+
+#~ msgid "<user|server|domain|ads>"
+#~ msgstr "<användare|server|domän|ad:n>"
+
+#~ msgid "<servers>"
+#~ msgstr "<servrar>"
+
+#~ msgid "<lowest-highest>"
+#~ msgstr "<lägsta-högsta>"
+
+#~ msgid "<\\>"
+#~ msgstr "<\\>"
+
+#~ msgid "</home/%D/%U>"
+#~ msgstr "</home/%D/%U>"
+
+#~ msgid "</bin/false>"
+#~ msgstr "</bin/false>"
+
+#~ msgid "<options>"
+#~ msgstr "<flaggor>"
+
+#~ msgid "These options have a compatibility layer"
+#~ msgstr "Dessa flaggor har ett kompatibilitetslager"
+
+#~ msgid "These options are no longer supported and have no effect"
+#~ msgstr "Dessa flaggor stödjs inte längre och har ingen effekt"
+
+#~ msgid "enable"
+#~ msgstr "aktivera"
+
+#~ msgid "disable"
+#~ msgstr "avaktivera"
+
+#, python-format
+#~ msgid "Executing: %s"
+#~ msgstr "Kör: %s"
+
+#, python-format
+#~ msgid "Service %s was not found. Please install the service."
+#~ msgstr "Tjänsten %s finns inte. Installera tjänsten."
+
+#, python-format
+#~ msgid "Command [%s] failed with %d, stderr:"
+#~ msgstr "Kommandot [%s] misslyckades med %d, standard fel:"
+
+#, python-format
+#~ msgid "Removing file: %s"
+#~ msgstr "Tar bort filen: %s"
+
+#, python-format
+#~ msgid "%s was not found. Please, install realmd."
+#~ msgstr "%s finns inte. Installera realmd."
+
+#~ msgid "Running authconfig compatibility tool."
+#~ msgstr "Kör kompatibilitetsverktyget authconfig."
+
+#~ msgid ""
+#~ "The purpose of this tool is to enable authentication against chosen services"
+#~ " with authselect and minimum configuration. It does not provide all "
+#~ "capabilities of authconfig.\n"
+#~ msgstr ""
+#~ "Syftet med detta verktyg är att möjliggöra autentisering mot valda tjänster "
+#~ "med authselect och minimal konfiguration. Det erbjuder inte alla egenskaper "
+#~ "hos authconfig.\n"
+
+#~ msgid ""
+#~ "IMPORTANT: authconfig is replaced by authselect, please update your scripts."
+#~ msgstr "VIKTIGT: authconfig är ersatt av authselect, uppdatera dina skript."
+
+#~ msgid ""
+#~ "See Fedora 28 Change Page: "
+#~ "https://fedoraproject.org/wiki/Changes/AuthselectAsDefault"
+#~ msgstr ""
+#~ "Se Fedora 28 Change Page: "
+#~ "https://fedoraproject.org/wiki/Changes/AuthselectAsDefault"
+
+#~ msgid ""
+#~ "See man authselect-migration(7) to help you with migration to authselect"
+#~ msgstr ""
+#~ "Se man authselect-migration(7) för hjälp med migrering till authselect"
+
+#~ msgid "Warning: These options are not supported anymore and have no effect:"
+#~ msgstr "Varning: dessa flaggor stödjs inte längre och har ingen effekt:"
+
+#~ msgid "authconfig can only be run as root"
+#~ msgstr "authconfig kan endast köras som root"
+
+#, python-format
+#~ msgid ""
+#~ "Error: option --%s is no longer supported and we cannot continue if it is "
+#~ "set."
+#~ msgstr ""
+#~ "Fel: flaggan --%s stödjs inte längre och vi kan inte fortsätta om den är "
+#~ "satt."
+
+#~ msgid "Error: Both --enablewinbind and --enablewinbindauth must be set."
+#~ msgstr "Fel: både --enablewinbind och --enablewinbindauth måste vara satta."
+
+#~ msgid "Error: Please, provide --updateall option."
+#~ msgstr "Fel: var god ange flaggan --updateall."
+
+#~ msgid "Unable to get current time!"
+#~ msgstr "Kan inte ta reda på aktuell tid!"
+
+#~ msgid "Unable to check configuration [%d]: %s"
+#~ msgstr "Kan inte kontrollera konfigurationen [%d]: %s"
+
+#~ msgid "Unexpected changes to the configuration were detected."
+#~ msgstr "Oväntade ändringar av konfigurationen upptäcktes."
+
+#~ msgid ""
+#~ "Refusing to activate profile unless those changes are removed or overwrite "
+#~ "is requested."
+#~ msgstr ""
+#~ "Vägrar att aktivera profilen om inte dessa ändringar tas bort eller en "
+#~ "överskrivning begärs."
+
+#~ msgid "File that needs to be overwritten was found"
+#~ msgstr "En fil som behöver skrivas över hittades"
+
+#~ msgid "Unable to read [%s] [%d]: %s"
+#~ msgstr "Kan inte läsa [%s] [%d]: %s"
+
+#~ msgid "Unable to validate file [%s] [%d]: %s"
+#~ msgstr "Kan inte validera filen [%s] [%d]: %s"
+
+#~ msgid "Comparing content against [%s]"
+#~ msgstr "Jämför innehållet mot [%s]"
+
+#~ msgid "Comparing content against current profile"
+#~ msgstr "Jämför innehållet mot den aktuella profilen"
+
+#~ msgid "[%s] has unexpected content!"
+#~ msgstr "[%s] har oväntat innehåll!"
+
+#~ msgid "Unable to generate nsswitch.conf [%d]: %s"
+#~ msgstr "Kan inte generera nsswitch.conf [%d]: %s"
