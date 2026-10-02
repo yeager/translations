@@ -1,0 +1,1521 @@
+# translation of apt-listchanges.po to swedish
+# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
+#
+# Martin Bagge <brother@bsnet.se>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: apt-listchanges\n"
+"Report-Msgid-Bugs-To: apt-listchanges@packages.debian.org\n"
+"POT-Creation-Date: 2026-07-14 05:29+0000\n"
+"PO-Revision-Date: 2026-10-01 11:54+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: swedish <debian-l10n-swedish@lists.debian.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Launchpad (build ad10a72802faca6d6a2802f2e3a89ba90e7214dd)\n"
+"X-Launchpad-Export-Date: 2026-10-01 18:52+0000\n"
+
+#. type: Content of: <refentry><refmeta><refentrytitle>
+#: apt-listchanges.xml:25
+msgid "apt-listchanges"
+msgstr "apt-listchanges"
+
+#. type: Content of: <refentry><refmeta><manvolnum>
+#: apt-listchanges.xml:26
+msgid "1"
+msgstr "1"
+
+#. type: Content of: <refentry><refnamediv><refpurpose>
+#: apt-listchanges.xml:31
+msgid "Show new changelog entries from Debian package archives"
+msgstr "Visa nya ändringsloggsposter från Debians paketarkiv"
+
+#. type: Content of: <refentry><refsynopsisdiv><cmdsynopsis>
+#: apt-listchanges.xml:35
+msgid ""
+"<command>apt-listchanges</command> <group choice=\"opt\"> <arg "
+"rep=\"repeat\"><replaceable>options</replaceable></arg> </group> <group "
+"choice=\"req\"> <arg><option>--apt</option></arg> <arg "
+"rep=\"repeat\"><replaceable>package.deb</replaceable></arg> </group>"
+msgstr ""
+"<command>apt-listchanges</command> <group choice=\"opt\"> <arg "
+"rep=\"repeat\"><replaceable>alternativ</replaceable></arg> </group> <group "
+"choice=\"req\"> <arg><option>--apt</option></arg> <arg "
+"rep=\"repeat\"><replaceable>paket.deb</replaceable></arg> </group>"
+
+#. type: Content of: <refentry><refsect1><title>
+#: apt-listchanges.xml:48
+msgid "DESCRIPTION"
+msgstr "BESKRIVNING"
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:50
+msgid ""
+"<command>apt-listchanges</command> is a tool to show what has been changed "
+"in a new version of a Debian package, as compared to the version currently "
+"installed on the system."
+msgstr ""
+"<command>apt-listchanges</command> är ett verktyg som visar vad som har "
+"ändrats i en ny version av ett Debian-paket jämfört med den version som för "
+"närvarande är installerad i systemet."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:55
+msgid ""
+"It does this by extracting the relevant entries from both the NEWS.Debian "
+"and changelog<optional>.Debian</optional> files, usually found in "
+"<filename>/usr/share/doc/</filename><replaceable>package</replaceable>, from"
+" Debian package archives."
+msgstr ""
+"Det gör detta genom att extrahera relevanta poster från både filerna "
+"NEWS.Debian och changelog<optional>.Debian</optional>, som vanligtvis finns "
+"i <filename>/usr/share/doc/</filename><replaceable>paket</replaceable>, från"
+" Debians paketarkiv."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:61
+msgid ""
+"Please note that in the default installation if <command>apt-"
+"listchanges</command> is run during upgrades as an APT plugin, it displays "
+"NEWS.Debian entries only. This can be changed with the "
+"<option>--which</option> option."
+msgstr ""
+"Observera att om <command>apt-listchanges</command> körs under "
+"uppgraderingar som en APT-insticksmodul i standardinstallationen visas "
+"endast NEWS.Debian-poster. Detta kan ändras med alternativet "
+"<option>--which</option>."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:67
+msgid ""
+"If changelog entries are displayed and the "
+"<replaceable>package</replaceable> does not contain "
+"changelog<optional>.Debian</optional> file, <command>apt-"
+"listchanges</command> calls <command>apt-get changelog</command> command to "
+"download the changelog from network. This behavior can be disabled with the "
+"<option>--no-network</option> option."
+msgstr ""
+"Om ändringsloggsposter visas och <replaceable>paket</replaceable> inte "
+"innehåller filen changelog<optional>.Debian</optional>, anropar "
+"<command>apt-listchanges</command> kommandot <command>apt-get "
+"changelog</command> för att hämta ändringsloggen från nätverket. Detta "
+"beteende kan inaktiveras med alternativet <option>--no-network</option>."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:76
+msgid ""
+"Given a set of filenames as arguments (or read from apt when using "
+"<option>--apt</option>), <command>apt-listchanges</command> will scan the "
+"files (assumed to be Debian package archives) for the relevant changelog "
+"entries, and display them all in a summary grouped by source package.  The "
+"groups are sorted by the urgency of the most urgent change, and then by the "
+"package name.  Changes within each package group are displayed in the order "
+"of their appearance in the changelog files, i.e. starting from the latest to"
+" the oldest; the <option>--reverse</option> option can be used to alter this"
+" order."
+msgstr ""
+"Med en uppsättning filnamn som argument, eller lästa från apt vid användning"
+" av <option>--apt</option>, söker <command>apt-listchanges</command> igenom "
+"filerna, som antas vara Debian-paketarkiv, efter relevanta "
+"ändringsloggsposter och visar dem i en sammanfattning grupperad efter "
+"källpaket. Grupperna sorteras efter den mest brådskande ändringens "
+"brådskandegrad och sedan efter paketnamn. Ändringar inom varje paketgrupp "
+"visas i den ordning de förekommer i ändringsloggarna, från nyast till äldst;"
+" alternativet <option>--reverse</option> kan ändra ordningen."
+
+#. type: Content of: <refentry><refsect1><title>
+#: apt-listchanges.xml:91
+msgid "OPTIONS"
+msgstr "FLAGGOR"
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:93
+msgid ""
+"<command>apt-listchanges</command> provides the following options to control"
+" its behavior. Most of them have their equivalent entries in the "
+"configuration file, see the \"CONFIGURATION FILE\" below for details."
+msgstr ""
+"<command>apt-listchanges</command> tillhandahåller följande alternativ för "
+"att styra sitt beteende. De flesta har motsvarande poster i "
+"konfigurationsfilen; se ”CONFIGURATION FILE” nedan för detaljer."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:101
+msgid "<option>--apt</option>"
+msgstr "<option>--apt</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:103
+msgid ""
+"Read filenames from a specially-formatted pipeline (as provided by apt), "
+"rather than from command line arguments, and honor certain apt-specific "
+"options in the config file.  This pipeline must be in \"version 2\" format, "
+"specified in the apt configuration."
+msgstr ""
+"Läs filnamn från en särskilt formaterad pipeline, som tillhandahålls av apt,"
+" i stället för från kommandoradsargument, och följ vissa apt-specifika "
+"alternativ i konfigurationsfilen. Denna pipeline måste ha formatet ”version "
+"2”, som anges i apt-konfigurationen."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:112
+msgid "<option>-v, --verbose</option>"
+msgstr "<option>-v, --verbose</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:114
+msgid ""
+"Display additional (usually unwanted) information.  For instance, print a "
+"message when a package of the same or older version is to be installed, or "
+"when a package is to be newly installed."
+msgstr ""
+"Visa ytterligare information, som vanligtvis inte önskas. Skriv till exempel"
+" ut ett meddelande när ett paket av samma eller äldre version ska "
+"installeras, eller när ett paket ska nyinstalleras."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:122
+msgid "<option>-f, --frontend</option>"
+msgstr "<option>-f, --frontend</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:125
+msgid ""
+"Select which frontend to use to display information to the user.  Current "
+"frontends include:"
+msgstr ""
+"Välj vilket gränssnitt som ska användas för att visa information för "
+"användaren. Aktuella gränssnitt omfattar:"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><term>
+#: apt-listchanges.xml:130
+msgid "pager"
+msgstr "sidvisare"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:133
+msgid ""
+"Uses <citerefentry><refentrytitle>sensible-pager</refentrytitle> "
+"<manvolnum>1</manvolnum></citerefentry> command to display output.  The "
+"command uses PAGER environment variable to choose your favourite pager.  The"
+" \"pager\" option may be specified in the configuration file to select a "
+"specific pager for use with apt-listchanges."
+msgstr ""
+"Använder kommandot <citerefentry><refentrytitle>sensible-"
+"pager</refentrytitle> <manvolnum>1</manvolnum></citerefentry> för att visa "
+"utdata. Kommandot använder miljövariabeln PAGER för att välja din föredragna"
+" sidvisare. Alternativet ”pager” kan anges i konfigurationsfilen för att "
+"välja en särskild sidvisare för apt-listchanges."
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><term>
+#: apt-listchanges.xml:144
+msgid "browser"
+msgstr "webbläsare"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:147
+msgid ""
+"Displays an HTML-formatted changelog with hyperlinks for bugs and email "
+"addresses using the <citerefentry> <refentrytitle>sensible-"
+"browser</refentrytitle><manvolnum>1</manvolnum> </citerefentry> command that"
+" examines BROWSER environment variable to choose your favourite browser.  "
+"The \"browser\" option may be specified in the configuration file to select "
+"a specific browser for use with apt-listchanges."
+msgstr ""
+"Visar en HTML-formaterad ändringslogg med hyperlänkar till fel och "
+"e-postadresser med kommandot <citerefentry> <refentrytitle>sensible-"
+"browser</refentrytitle><manvolnum>1</manvolnum> </citerefentry>, som "
+"undersöker miljövariabeln BROWSER för att välja din föredragna webbläsare. "
+"Alternativet ”browser” kan anges i konfigurationsfilen för att välja en "
+"särskild webbläsare för apt-listchanges."
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><term>
+#: apt-listchanges.xml:159
+msgid "xterm-pager"
+msgstr "xterm-sidvisare"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:162
+msgid ""
+"Uses your favorite pager to display output, but does so in an xterm (using "
+"the x-terminal-emulator alternative) in the background.  This allows you to "
+"go on with the upgrade if you like, and continue to browse the changelogs.  "
+"You can override the terminal emulator to be used with the \"xterm\" "
+"configuration option."
+msgstr ""
+"Använder din föredragna sidvisare för att visa utdata, men gör det i en "
+"xterm i bakgrunden, med alternativet x-terminal-emulator. Då kan du "
+"fortsätta uppgraderingen och bläddra i ändringsloggarna. Du kan åsidosätta "
+"terminalemulatorn med konfigurationsalternativet ”xterm”."
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><term>
+#: apt-listchanges.xml:174
+msgid "xterm-browser"
+msgstr "xterm-webbläsare"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:177
+msgid ""
+"The logical combination of xterm-pager and browser.  Only appropriate for "
+"text-mode browsers."
+msgstr ""
+"Den logiska kombinationen av xterm-pager och browser. Lämplig endast för "
+"webbläsare i textläge."
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><term>
+#: apt-listchanges.xml:184
+msgid "text"
+msgstr "text"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:187
+msgid "Dumps output to stdout, with no pauses."
+msgstr "Skriver utdata till standardutmatningen utan pauser."
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><term>
+#: apt-listchanges.xml:193
+msgid "syslog"
+msgstr "syslog"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:196
+msgid "Dumps output to syslog.  Disabling the titled option is recommended."
+msgstr ""
+"Skriver utdata till syslog. Vi rekommenderar att det angivna alternativet "
+"inaktiveras."
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><term>
+#: apt-listchanges.xml:203
+msgid "log"
+msgstr "logg"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:206
+msgid ""
+"Appends output to a log file, with an optional filter process.  Disabling "
+"the titled option is recommended."
+msgstr ""
+"Lägger till utdata i en loggfil, med en valfri filterprocess. Vi "
+"rekommenderar att det angivna alternativet inaktiveras."
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><term>
+#: apt-listchanges.xml:214
+msgid "mail"
+msgstr "e-post"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:217
+msgid ""
+"Sends mail to the address specified with --email-address, and does not "
+"display changelogs."
+msgstr ""
+"Skickar e-post till adressen som anges med --email-address och visar inte "
+"ändringsloggar."
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><term>
+#: apt-listchanges.xml:224
+msgid "gtk"
+msgstr "gtk"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:227
+msgid ""
+"Spawns a gtk window to display the changelogs. Needs python3-gi to be "
+"installed."
+msgstr ""
+"Startar ett GTK-fönster för att visa ändringsloggarna. Kräver att python3-gi"
+" är installerat."
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><term>
+#: apt-listchanges.xml:234
+msgid "none"
+msgstr "ingen"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:237
+msgid ""
+"Does nothing.  Can be used to prevent apt-listchanges from running when "
+"configured to run automatically from apt."
+msgstr ""
+"Gör ingenting. Kan användas för att förhindra att apt-listchanges körs när "
+"det är inställt på att köras automatiskt från apt."
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:245
+msgid ""
+"Please note that apt-listchanges will try to switch to an unprivileged user "
+"before spawning commands in \"browser\", \"xterm-browser\", and \"xterm-"
+"pager\" frontends.  However this currently does not apply to the \"pager\" "
+"frontend.  See also \"ENVIRONMENT VARIABLES\" below."
+msgstr ""
+"Observera att apt-listchanges försöker växla till en oprivilegierad "
+"användare innan kommandon startas i gränssnitten ”browser”, ”xterm-browser” "
+"och ”xterm-pager”. Detta gäller dock för närvarande inte gränssnittet "
+"”pager”. Se även ”ENVIRONMENT VARIABLES” nedan."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:254
+msgid "<option>--hide</option>"
+msgstr "<option>--hide</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:257
+msgid ""
+"For frontends which support it (currently only gtk), hide the window by "
+"default."
+msgstr ""
+"Dölj fönstret som standard för gränssnitt som stöder detta, för närvarande "
+"endast gtk."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:264
+msgid "<option>--email-address=<replaceable>address</replaceable></option>"
+msgstr "<option>--email-address=<replaceable>address</replaceable></option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:267
+msgid ""
+"In addition to displaying it, mail a copy of the changelog data to the "
+"specified address.  To only mail changelog entries, use this option with the"
+" special frontend 'mail'."
+msgstr ""
+"Utöver att visa den skickas en kopia av ändringsloggsdata till den angivna "
+"adressen. Använd detta alternativ med det särskilda gränssnittet ”mail” för "
+"att endast skicka ändringsloggsposter via e-post."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:275
+msgid "<option>--email-format={text|html}</option>"
+msgstr "<option>--email-format={text|html}</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:278
+msgid ""
+"If sending mail copies is enabled (see <option>--email-address</option> "
+"above), this option selects whether the mail should be sent as good old "
+"plain text data (which is the default behavior), or as html data with "
+"clickable links, which might be more convenient for people using graphical "
+"mail clients."
+msgstr ""
+"Om sändning av e-postkopior är aktiverad, se <option>--email-"
+"address</option> ovan, väljer detta alternativ om e-posten ska skickas som "
+"vanlig oformaterad text, vilket är standard, eller som HTML med klickbara "
+"länkar, vilket kan vara praktiskt i grafiska e-postklienter."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:288
+msgid "<option>-c, --confirm</option>"
+msgstr "<option>-c, --confirm</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:291
+msgid ""
+"Once changelogs have been displayed, ask the user whether or not to proceed."
+"  If the user chooses not to proceed, a nonzero exit status will be "
+"returned, and apt will abort."
+msgstr ""
+"När ändringsloggarna har visats frågar programmet användaren om processen "
+"ska fortsätta. Om användaren väljer att inte fortsätta returneras en "
+"slutstatus skild från noll och apt avbryter."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:299
+msgid "<option>-a, --show-all</option>"
+msgstr "<option>-a, --show-all</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:302
+msgid ""
+"Rather than trying to display changelog entries that are newer than the "
+"currently installed version of the package, simply display all changelog "
+"entries for all packages.  This is useful for viewing the entire changelog "
+"of a .deb before extracting it."
+msgstr ""
+"Visa alla ändringsloggsposter för alla paket i stället för att försöka visa "
+"poster som är nyare än paketets för närvarande installerade version. Detta "
+"är användbart för att visa hela ändringsloggen i en .deb-fil före "
+"extrahering."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:312
+msgid "<option>-n, --no-network</option>"
+msgstr "<option>-n, --no-network</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:315
+msgid ""
+"In rare cases when a binary package (or to be more precise: none of the "
+"binary packages built from the same source package that are processed "
+"together as a group) does not contain a changelog file, <command>apt-"
+"listchanges</command> by default executes <command>apt-get "
+"changelog</command> to download changelogs from the network servers usually "
+"provided by your operating system distribution.  This option will disable "
+"this behavior, what might be useful for example for systems behind a "
+"firewall."
+msgstr ""
+"I sällsynta fall, när ett binärpaket, eller mer exakt inget av binärpaketen "
+"från samma källpaket som behandlas tillsammans som en grupp, saknar en "
+"ändringsloggfil, kör <command>apt-listchanges</command> som standard "
+"<command>apt-get changelog</command> för att hämta ändringsloggar från "
+"nätverksservrar som vanligen tillhandahålls av operativsystemets "
+"distribution. Alternativet inaktiverar detta beteende, vilket kan vara "
+"användbart för system bakom en brandvägg."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:329
+msgid "<option>--save-seen=<replaceable>file</replaceable></option>"
+msgstr "<option>--save-seen=<replaceable>file</replaceable></option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:332
+msgid ""
+"This option will cause apt-listchanges to keep track of the last version of "
+"a package for which changelogs have been displayed, to avoid redisplaying "
+"the same changelogs in a future invocation.  The database is stored in the "
+"named file.  Specify 'none' to disable this feature."
+msgstr ""
+"Det här alternativet gör att apt-listchanges håller reda på den senaste "
+"versionen av ett paket vars ändringsloggar har visats, för att undvika att "
+"visa samma ändringsloggar igen vid en senare körning. Databasen lagras i den"
+" namngivna filen. Ange ”none” för att inaktivera funktionen."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:342
+msgid "<option>--dump-seen</option>"
+msgstr "<option>--dump-seen</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:345
+msgid ""
+"Display the contents of the seen database to standard output as a list of "
+"lines consisting of source package name and its latest seen version, "
+"separated by space.  This option requires the path to the seen database to "
+"be known: please either specify it using <option>--save-seen</option> option"
+" or pass <option>--profile=apt</option> option to have it read from the "
+"configuration file."
+msgstr ""
+"Visa innehållet i databasen över sedda paket på standardutmatningen som en "
+"lista med rader bestående av källpaketets namn och dess senast sedda "
+"version, åtskilda med mellanslag. Alternativet kräver att sökvägen till "
+"databasen är känd: ange den med <option>--save-seen</option> eller använd "
+"<option>--profile=apt</option> så att den läses från konfigurationsfilen."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:357
+msgid "<option>--since=<replaceable>version</replaceable></option>"
+msgstr "<option>--since=<replaceable>version</replaceable></option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:360
+msgid ""
+"This option will cause apt-listchanges to show the entries later than the "
+"specified version. With this option, the only other argument you can pass is"
+" the path to a .deb file."
+msgstr ""
+"Detta alternativ gör att apt-listchanges visar poster som är senare än den "
+"angivna versionen. Med alternativet är det enda andra argumentet som kan "
+"skickas sökvägen till en .deb-fil."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:368
+msgid "<option>--latest=<replaceable>N</replaceable></option>"
+msgstr "<option>--latest=<replaceable>N</replaceable></option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:371
+msgid ""
+"This option will cause apt-listchanges to show only the latest "
+"<replaceable>N</replaceable> entries."
+msgstr ""
+"Detta alternativ gör att apt-listchanges endast visar de senaste "
+"<replaceable>N</replaceable> posterna."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:378
+msgid "<option>--which={news|changelogs|both}</option>"
+msgstr "<option>--which={news|changelogs|both}</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:381
+msgid ""
+"This option selects whether news (from NEWS.Debian et al.), changelogs (from"
+" changelog.Debian et al.) or both should be displayed. The default is to "
+"display news when running as an APT plugin, or both otherwise."
+msgstr ""
+"Detta alternativ väljer om nyheter, från NEWS.Debian med mera, "
+"ändringsloggar, från changelog.Debian med mera, eller båda ska visas. "
+"Standard är att visa nyheter när programmet körs som APT-insticksmodul, "
+"annars båda."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:390
+msgid "<option>--help</option>"
+msgstr "<option>--help</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:393
+msgid "Displays syntax information."
+msgstr "Visar syntaxinformation."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:399
+msgid "<option>-h, --headers</option>"
+msgstr "<option>-h, --headers</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:402
+msgid ""
+"These options will cause apt-listchanges to insert a header before each "
+"package's changelog showing the name of the package, and the names of the "
+"binary packages which are being upgraded (if there is more than one, or it "
+"differs from the source package name)."
+msgstr ""
+"Dessa alternativ gör att apt-listchanges infogar en rubrik före varje pakets"
+" ändringslogg. Den visar paketets namn och namnen på binärpaketen som "
+"uppgraderas, om det finns fler än ett eller om de skiljer sig från "
+"källpaketets namn."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:412
+msgid "<option>--debug</option>"
+msgstr "<option>--debug</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:414
+msgid "Display some debugging information."
+msgstr "Visa felsökningsinformation."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:420
+msgid "<option>--profile=<replaceable>name</replaceable></option>"
+msgstr "<option>--profile=<replaceable>name</replaceable></option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:422
+msgid ""
+"Select an option profile.  <replaceable>name</replaceable> corresponds to a "
+"section in <filename>/etc/apt/listchanges.conf</filename>.  The default when"
+" invoked from apt is \"apt\", and \"cmdline\" otherwise."
+msgstr ""
+"Välj en alternativprofil. <replaceable>namn</replaceable> motsvarar en "
+"sektion i <filename>/etc/apt/listchanges.conf</filename>. Standard vid "
+"körning från apt är ”apt”, annars ”cmdline”."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:431
+msgid "<option>--log=<replaceable>file</replaceable></option>"
+msgstr "<option>--log=<replaceable>file</replaceable></option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:434
+msgid ""
+"Select the file appended to by the log frontend.  The default is "
+"<filename>/var/log/apt/listchanges.log</filename>.  The filter command "
+"option can be used to modify the output before it is appended to the log "
+"file.  Please ensure that you setup log rotation for this file."
+msgstr ""
+"Välj filen som logggränssnittet lägger till i. Standard är "
+"<filename>/var/log/apt/listchanges.log</filename>. Alternativet för "
+"filterkommando kan ändra utdata innan den läggs till i loggfilen. Se till "
+"att loggrotation är inställd för filen."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:444
+msgid "<option>--filter=<replaceable>command</replaceable></option>"
+msgstr "<option>--filter=<replaceable>command</replaceable></option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:447
+msgid ""
+"Select the command used to filter output before it is appended to the log "
+"file by the log frontend.  stdin will receive the <command>apt-"
+"listchanges</command> output and stdout will be appended to the log file.  "
+"Separate arguments with spaces and quote arguments containing spaces.  The "
+"command will not be run using the shell unless the shell is included in the "
+"command: <command>sh -c 'date ; cat'</command>"
+msgstr ""
+"Välj kommandot som filtrerar utdata innan logggränssnittet lägger till den i"
+" loggfilen. standardindata tar emot utdata från <command>apt-"
+"listchanges</command> och standardutmatningen läggs till i loggfilen. "
+"Avgränsa argument med mellanslag och citera argument som innehåller "
+"mellanslag. Kommandot körs inte via skalet om det inte ingår i kommandot: "
+"<command>sh -c ”date ; cat”</command>."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:462
+msgid "<option>--reverse</option>"
+msgstr "<option>--reverse</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:465
+msgid "Show the changelog entries in reverse order."
+msgstr "Visa ändringsloggsposterna i omvänd ordning."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:471
+msgid ""
+"<option>--ignore-apt-assume</option>, <option>--ignore-debian-"
+"frontend</option>"
+msgstr ""
+"<option>--ignore-apt-assume</option>, <option>--ignore-debian-"
+"frontend</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:474
+msgid ""
+"Disable forcing non-interactive frontend in some of the cases described in "
+"the \"AUTOMATIC FRONTEND OVERRIDE\" section below."
+msgstr ""
+"Inaktivera tvingande av icke-interaktivt gränssnitt i vissa fall som "
+"beskrivs i avsnittet ”AUTOMATIC FRONTEND OVERRIDE” nedan."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:481
+msgid "<option>--titled</option>, <option>--untitled</option>"
+msgstr "<option>--titled</option>, <option>--untitled</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:484
+msgid "Enable or disable the title at the beginning of the output."
+msgstr "Aktivera eller inaktivera rubriken i början av utdata."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:490
+msgid "<option>--select-frontend</option>"
+msgstr "<option>--select-frontend</option>"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:493
+msgid ""
+"Choose frontend interactively.  This option is mainly for testing purposes, "
+"please do not use it."
+msgstr ""
+"Välj gränssnitt interaktivt. Detta alternativ är främst avsett för testning "
+"och bör inte användas."
+
+#. type: Content of: <refentry><refsect1><title>
+#: apt-listchanges.xml:504
+msgid "AUTOMATIC FRONTEND OVERRIDE"
+msgstr "AUTOMATISK ÅSIDOSÄTTNING AV GRÄNSSNITT"
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:506
+msgid ""
+"For a better integration with existing package management tools, "
+"<command>apt-listchanges</command> tries to detect if package upgrades are "
+"done in a non-interactive way, and automatically switches its frontend to "
+"'text' when <emphasis>any</emphasis> of the following conditions is "
+"satisfied:"
+msgstr ""
+"För bättre integrering med befintliga pakethanteringsverktyg försöker "
+"<command>apt-listchanges</command> upptäcka om paketuppgraderingar görs "
+"icke-interaktivt och växlar automatiskt till gränssnittet ”text” när "
+"<emphasis>något</emphasis> av följande villkor uppfylls:"
+
+#. type: Content of: <refentry><refsect1><para><itemizedlist><listitem><para>
+#: apt-listchanges.xml:512
+msgid "the standard output is not connected to terminal;"
+msgstr "standardutmatningen är inte ansluten till en terminal;"
+
+#. type: Content of: <refentry><refsect1><para><itemizedlist><listitem><para>
+#: apt-listchanges.xml:515
+msgid ""
+"the <option>--quiet</option> (<option>-q</option>) option is given to "
+"<citerefentry><refentrytitle>apt-get</refentrytitle><manvolnum>8</manvolnum>"
+" </citerefentry> (or <citerefentry><refentrytitle>aptitude</refentrytitle> "
+"<manvolnum>8</manvolnum></citerefentry>); note however that when the option "
+"is used more than once, apt-listchanges switches the frontend to 'mail';"
+msgstr ""
+"alternativet <option>--quiet</option> (<option>-q</option>) skickas till "
+"<citerefentry><refentrytitle>apt-get</refentrytitle><manvolnum>8</manvolnum>"
+" </citerefentry>, eller "
+"<citerefentry><refentrytitle>aptitude</refentrytitle> "
+"<manvolnum>8</manvolnum></citerefentry>; observera dock att apt-listchanges "
+"växlar till gränssnittet ”mail” när alternativet används mer än en gång;"
+
+#. type: Content of: <refentry><refsect1><para><itemizedlist><listitem><para>
+#: apt-listchanges.xml:522
+msgid ""
+"the <option>--assume-yes</option> (<option>-y</option>) option is given to "
+"<citerefentry><refentrytitle>apt-get</refentrytitle> "
+"<manvolnum>8</manvolnum></citerefentry>;"
+msgstr ""
+"alternativet <option>--assume-yes</option> (<option>-y</option>) skickas "
+"till <citerefentry><refentrytitle>apt-get</refentrytitle> "
+"<manvolnum>8</manvolnum></citerefentry>;"
+
+#. type: Content of: <refentry><refsect1><para><itemizedlist><listitem><para>
+#: apt-listchanges.xml:527
+msgid ""
+"the <envar>DEBIAN_FRONTEND</envar> environment variable is set to "
+"\"noninteractive\", and <envar>APT_LISTCHANGES_FRONTEND</envar> is not set."
+msgstr ""
+"miljövariabeln <envar>DEBIAN_FRONTEND</envar> är satt till ”noninteractive” "
+"och <envar>APT_LISTCHANGES_FRONTEND</envar> är inte satt."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:533
+msgid ""
+"For backward compatibility purposes the last two of the above checks can be "
+"disabled either with \"ignore_apt_assume=true\" or "
+"\"ignore_debian_frontend=true\" configuration file entries (see "
+"\"CONFIGURATION FILE\" below) or by using the command line options: "
+"<option>--ignore-apt-assume</option> or <option>--ignore-debian-"
+"frontend</option>."
+msgstr ""
+"Av bakåtkompatibilitetsskäl kan de två sista kontrollerna ovan inaktiveras "
+"med konfigurationsposterna ”ignore_apt_assume=true” eller "
+"”ignore_debian_frontend=true”, se ”CONFIGURATION FILE” nedan, eller med "
+"kommandoradsalternativen <option>--ignore-apt-assume</option> eller "
+"<option>--ignore-debian-frontend</option>."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:539
+msgid ""
+"Please also note that the \"mail\" frontend is already non-interactive one, "
+"so it is never switched to the \"text\" frontend."
+msgstr ""
+"Observera också att gränssnittet ”mail” redan är icke-interaktivt och därför"
+" aldrig växlas till ”text”."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:543
+msgid ""
+"Additionally <command>apt-listchanges</command> overrides X11-based "
+"frontends (\"gtk\", \"xterm-pager\", \"xterm-browser\") with \"pager\" (or "
+"\"browser\" in case of \"xterm-browser\") when the environment variable "
+"<envar>DISPLAY</envar> is not set."
+msgstr ""
+"Dessutom ersätter <command>apt-listchanges</command> X11-baserade "
+"gränssnitt, ”gtk”, ”xterm-pager” och ”xterm-browser”, med ”pager”, eller "
+"”browser” för ”xterm-browser”, när miljövariabeln <envar>DISPLAY</envar> "
+"inte är satt."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:549
+msgid ""
+"Please note that these silent frontends are not subject to the overrides: "
+"syslog, log."
+msgstr ""
+"Observera att dessa tysta gränssnitt inte omfattas av åsidosättningarna: "
+"syslog, log."
+
+#. type: Content of: <refentry><refsect1><title>
+#: apt-listchanges.xml:555
+msgid "CONFIGURATION FILE"
+msgstr "KONFIGURATIONSFIL"
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:557
+msgid ""
+"<command>apt-listchanges</command> reads its configuration from "
+"<filename>/etc/apt/listchanges.conf</filename>.  The file consists of "
+"<replaceable>sections</replaceable> with names enclosed in square brackets."
+"  Each section should contain lines in the "
+"<replaceable>key</replaceable>=<replaceable>value</replaceable> format.  "
+"Lines starting with the \"#\" sign are treated as comments and ignored.  "
+"Files named <filename><replaceable>name</replaceable>.conf</filename> in the"
+" <filename>/etc/apt/listchanges.conf.d</filename> directory are also read in"
+" the same way and override values set in the main configuration file."
+msgstr ""
+"<command>apt-listchanges</command> läser sin konfiguration från "
+"<filename>/etc/apt/listchanges.conf</filename>. Filen består av "
+"<replaceable>sektioner</replaceable> med namn inom hakparenteser. Varje "
+"sektion ska innehålla rader i formatet "
+"<replaceable>nyckel</replaceable>=<replaceable>värde</replaceable>. Rader "
+"som börjar med tecknet ”#” behandlas som kommentarer och ignoreras. Filer "
+"med namnet <filename><replaceable>namn</replaceable>.conf</filename> i "
+"katalogen <filename>/etc/apt/listchanges.conf.d</filename> läses också på "
+"samma sätt och åsidosätter värden i huvudkonfigurationsfilen."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:569
+msgid ""
+"<replaceable>Section</replaceable> is a name of profile that can be used as "
+"parameter of the <option>--profile</option> option."
+msgstr ""
+"<replaceable>Sektion</replaceable> är namnet på en profil som kan användas "
+"som parameter till alternativet <option>--profile</option>."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:573
+msgid ""
+"The configuration of the \"apt\" section can be managed by "
+"<citerefentry><refentrytitle>debconf</refentrytitle><manvolnum>7</manvolnum></citerefentry>,"
+" and most of the settings there can be changed with the help of the "
+"<command>dpkg-reconfigure apt-listchanges</command> command."
+msgstr ""
+"Konfigurationen i sektionen ”apt” kan hanteras av "
+"<citerefentry><refentrytitle>debconf</refentrytitle><manvolnum>7</manvolnum></citerefentry>,"
+" och de flesta inställningar där kan ändras med kommandot <command>dpkg-"
+"reconfigure apt-listchanges</command>."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:579
+msgid ""
+"<replaceable>Key</replaceable> is a name of some command-line option (except"
+" for <option>--apt</option>, <option>--profile</option>, "
+"<option>--help</option>) with the initial hyphens removed, and the remaining"
+" hyphens translated to underscores, for example: \"email_format\" or "
+"\"save_seen\"."
+msgstr ""
+"<replaceable>Nyckel</replaceable> är namnet på ett kommandoradsalternativ, "
+"utom <option>--apt</option>, <option>--profile</option> och "
+"<option>--help</option>, där inledande bindestreck tagits bort och "
+"återstående bindestreck ersatts med understreck, till exempel ”email_format”"
+" eller ”save_seen”."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:586
+msgid ""
+"<replaceable>Value</replaceable> represents the value of the corresponding "
+"option.  For command-line options that do not take argument, like "
+"\"confirm\" or \"headers\", the <replaceable>value</replaceable> should be "
+"set either to \"1\", \"yes\", \"true\", and \"on\" in order to enable the "
+"option, or to \"0\", \"no\", \"false\", and \"off\" to disable it."
+msgstr ""
+"<replaceable>Värde</replaceable> representerar värdet för motsvarande "
+"alternativ. För kommandoradsalternativ utan argument, som ”confirm” och "
+"”headers”, ska <replaceable>värde</replaceable> sättas till ”1”, ”yes”, "
+"”true” eller ”on” för att aktivera alternativet, eller till ”0”, ”no”, "
+"”false” eller ”off” för att inaktivera det."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:593
+msgid ""
+"Additionally <replaceable>key</replaceable> can be one of the following "
+"keywords: \"browser\", \"pager\" or \"xterm\".  The "
+"<replaceable>value</replaceable> of such configuration entry should be the "
+"name of an appropriate command, eventually followed by its arguments, for "
+"example: \"pager=less -R\"."
+msgstr ""
+"Dessutom kan <replaceable>nyckel</replaceable> vara något av nyckelorden "
+"”browser”, ”pager” eller ”xterm”. <replaceable>Värde</replaceable> för en "
+"sådan konfigurationspost ska vara namnet på ett lämpligt kommando, "
+"eventuellt följt av dess argument, till exempel ”pager=less -R”."
+
+#. type: Content of: <refentry><refsect1><example><title>
+#: apt-listchanges.xml:600
+msgid "Example configuration file"
+msgstr "Exempel på konfigurationsfil"
+
+#. type: Content of: <refentry><refsect1><example><programlisting>
+#: apt-listchanges.xml:602
+#, no-wrap
+msgid ""
+"[cmdline]\n"
+"frontend=pager\n"
+"\n"
+"[apt]\n"
+"frontend=xterm-pager\n"
+"email_address=root\n"
+"confirm=1\n"
+"\n"
+"[custom]\n"
+"frontend=browser\n"
+"browser=mozilla\n"
+msgstr ""
+"[cmdline]\n"
+"frontend=pager\n"
+"\n"
+"[apt]\n"
+"frontend=xterm-pager\n"
+"email_address=root\n"
+"confirm=1\n"
+"\n"
+"[custom]\n"
+"frontend=browser\n"
+"browser=mozilla\n"
+
+#. type: Content of: <refentry><refsect1><example>
+#: apt-listchanges.xml:601
+msgid "<placeholder type=\"programlisting\" id=\"0\"/>"
+msgstr "<placeholder type=\"programlisting\" id=\"0\"/>"
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:616
+msgid ""
+"The above configuration file specifies that in command-line mode, the "
+"default frontend is \"pager\".  In apt mode, the xterm-pager frontend is "
+"default, a copy of the changelogs (if any) should be emailed to root, and "
+"apt-listchanges should ask for confirmation.  If apt-listchanges is invoked "
+"with --profile=custom, the browser frontend will be used, and invoke "
+"mozilla."
+msgstr ""
+"Konfigurationsfilen ovan anger att standardgränssnittet i kommandoradsläge "
+"är ”pager”. I apt-läge är ”xterm-pager” standard, en kopia av "
+"ändringsloggarna ska skickas till root och apt-listchanges ska fråga efter "
+"bekräftelse. Om apt-listchanges körs med --profile=custom används "
+"gränssnittet ”browser” och mozilla startas."
+
+#. type: Content of: <refentry><refsect1><title>
+#: apt-listchanges.xml:626
+msgid "ENVIRONMENT"
+msgstr "ENVIRONMENT"
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:630
+msgid "APT_LISTCHANGES_FRONTEND"
+msgstr "APT_LISTCHANGES_FRONTEND"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:631
+msgid "Frontend to use."
+msgstr "Gränssnitt att använda."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:637
+msgid "APT_LISTCHANGES_USER, SUDO_USER, USERNAME"
+msgstr "APT_LISTCHANGES_USER, SUDO_USER, USERNAME"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:638
+msgid ""
+"The value of the first existing of the above variables will be used as the "
+"name of user to switch to when running commands spawned by the \"browser\", "
+"\"xterm-browser\", and \"xterm-pager\" frontends if <command>apt-"
+"listchanges</command> is started by a privileged user."
+msgstr ""
+"Värdet på den första av ovanstående variabler som finns används som namnet "
+"på den användare som det växlas till när kommandon från gränssnitten "
+"”browser”, ”xterm-browser” och ”xterm-pager” körs, om <command>apt-"
+"listchanges</command> startas av en privilegierad användare."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:648
+msgid "DEBIAN_FRONTEND"
+msgstr "DEBIAN_FRONTEND"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:649
+msgid ""
+"If set to \"noninteractive\", then it can force <command>apt-"
+"listchanges</command> to use non-interactive frontend, see the \"AUTOMATIC "
+"FRONTEND OVERRIDE\" section for details."
+msgstr ""
+"Om den sätts till ”noninteractive” kan den tvinga <command>apt-"
+"listchanges</command> att använda ett icke-interaktivt gränssnitt. Se "
+"avsnittet ”AUTOMATIC FRONTEND OVERRIDE” för detaljer."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:658
+msgid "BROWSER"
+msgstr "BROWSER"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:659
+msgid ""
+"Used by the browser frontend, should be set to a command expecting a file: "
+"URL for an HTML file to display."
+msgstr ""
+"Används av webbläsargränssnittet och ska sättas till ett kommando som "
+"förväntar sig en fil-URL till en HTML-fil att visa."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:668
+msgid "PAGER"
+msgstr "PAGER"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:669
+msgid "Used by the pager frontend."
+msgstr "Används av sidvisargränssnittet."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:675
+msgid "APT_HOOK_INFO_FD"
+msgstr "APT_HOOK_INFO_FD"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:676
+msgid ""
+"File descriptor to read package names from in the <option>--apt</option> "
+"mode.  (Apt is expected to set this variable to a proper file descriptor "
+"number)."
+msgstr ""
+"Filbeskrivare för att läsa paketnamn från i läget <option>--apt</option>. "
+"Apt förväntas sätta variabeln till ett korrekt filbeskrivarnummer."
+
+#. type: Content of: <refentry><refsect1><title>
+#: apt-listchanges.xml:684
+msgid "SEEN DATABASE INITIALIZATION"
+msgstr "INITIERING AV DATABAS ÖVER SEDDA PAKET"
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:687
+msgid ""
+"When <command>apt-listchanges</command> is installed for the first time or "
+"upgraded from an old version that did not use the current seen database "
+"format, it enables a <command>systemd</command> timer, <command>apt-"
+"listchanges.timer</command>, which attempts hourly to activate <command>apt-"
+"listchanges.service</command>, which scans the changelog and NEWS files of "
+"all installed packages and uses their contents to populate the seen "
+"database."
+msgstr ""
+"När <command>apt-listchanges</command> installeras för första gången eller "
+"uppgraderas från en äldre version som inte använde det aktuella "
+"databasformatet för sedda paket, aktiveras <command>systemd</command>-timern"
+" <command>apt-listchanges.timer</command>. Den försöker varje timme aktivera"
+" <command>apt-listchanges.service</command>, som söker igenom ändringslogg- "
+"och NEWS-filerna för alla installerade paket och använder innehållet för att"
+" fylla databasen."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:697
+msgid ""
+"Pre-populating the database like this makes <command>apt-"
+"listchanges</command> run faster because it then doesn't have to parse the "
+"changelog and NEWS files of currently installed packages during upgrades "
+"when determining which new entries to display."
+msgstr ""
+"Att fylla databasen i förväg på detta sätt gör att <command>apt-"
+"listchanges</command> körs snabbare eftersom programmet då inte behöver "
+"tolka ändringslogg- och NEWS-filerna för för närvarande installerade paket "
+"under uppgraderingar när nya poster ska avgöras."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:704
+msgid ""
+"Pre-populating the database should only need to be done once on any given "
+"host, since from that point forward <command>apt-listchanges</command> "
+"updates the database automatically during upgrades. Therefore, after the "
+"service runs successfully to completion, the timer is automatically "
+"disabled."
+msgstr ""
+"Databasen behöver bara fyllas i förväg en gång på varje värd, eftersom "
+"<command>apt-listchanges</command> därefter uppdaterar den automatiskt under"
+" uppgraderingar. När tjänsten har körts klart inaktiveras timern "
+"automatiskt."
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:711
+msgid ""
+"If for some reason you believe the <command>apt-listchanges</command> seen "
+"database is incomplete or inaccurate, you can rebuild it by removing "
+"<filename>/var/lib/apt/listchanges</filename> and then executing "
+"<command>systemctl start apt-listchanges.service</command>. Note that this "
+"runs to completion in the foreground."
+msgstr ""
+"Om du av någon anledning tror att databasen över sedda paket för "
+"<command>apt-listchanges</command> är ofullständig eller felaktig kan du "
+"bygga om den genom att ta bort <filename>/var/lib/apt/listchanges</filename>"
+" och sedan köra <command>systemctl start apt-listchanges.service</command>. "
+"Observera att detta körs klart i förgrunden."
+
+#. type: Content of: <refentry><refsect1><title>
+#: apt-listchanges.xml:721
+msgid "FILES"
+msgstr "FILER"
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:725
+msgid "/etc/apt/listchanges.conf"
+msgstr "/etc/apt/listchanges.conf"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:726
+msgid "Configuration file."
+msgstr "Konfigurationsfil."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:730
+msgid "/etc/apt/listchanges.conf.d/*.conf"
+msgstr "/etc/apt/listchanges.conf.d/*.conf"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:731
+msgid "Configuration file override files."
+msgstr "Filer som åsidosätter konfigurationsfilen."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:735
+msgid "/etc/apt/apt.conf.d/20listchanges"
+msgstr "/etc/apt/apt.conf.d/20listchanges"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:736
+msgid "File used for registering apt-listchanges into apt system."
+msgstr "Fil som används för att registrera apt-listchanges i apt-systemet."
+
+#. type: Content of: <refentry><refsect1><variablelist><varlistentry><term>
+#: apt-listchanges.xml:740
+msgid "/var/lib/apt/listchanges"
+msgstr "/var/lib/apt/listchanges"
+
+#. type: Content of:
+#. <refentry><refsect1><variablelist><varlistentry><listitem><para>
+#: apt-listchanges.xml:741
+msgid "Database used for save-seen."
+msgstr "Databas som används för save-seen."
+
+#. type: Content of: <refentry><refsect1><title>
+#: apt-listchanges.xml:747
+msgid "AUTHOR"
+msgstr "UPPHOVSPERSON"
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:750
+msgid "apt-listchanges was written by Matt Zimmerman &lt;mdz@debian.org&gt;"
+msgstr "apt-listchanges was written by Matt Zimmerman &lt;mdz@debian.org&gt;"
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:754
+msgid "The current maintainer is Jonathan Kamens &lt;jik@kamens.us&gt;"
+msgstr "The current maintainer is Jonathan Kamens &lt;jik@kamens.us&gt;"
+
+#. type: Content of: <refentry><refsect1><title>
+#: apt-listchanges.xml:760
+msgid "SEE ALSO"
+msgstr "SE ÄVEN"
+
+#. type: Content of: <refentry><refsect1><para>
+#: apt-listchanges.xml:763
+msgid ""
+"<citerefentry><refentrytitle>sensible-"
+"pager</refentrytitle><manvolnum>1</manvolnum></citerefentry>, "
+"<citerefentry><refentrytitle>sensible-"
+"browser</refentrytitle><manvolnum>1</manvolnum></citerefentry>, "
+"<citerefentry><refentrytitle>apt-"
+"get</refentrytitle><manvolnum>8</manvolnum></citerefentry>, "
+"<citerefentry><refentrytitle>aptitude</refentrytitle><manvolnum>8</manvolnum></citerefentry>"
+msgstr ""
+"<citerefentry><refentrytitle>sensible-"
+"pager</refentrytitle><manvolnum>1</manvolnum></citerefentry>, "
+"<citerefentry><refentrytitle>sensible-"
+"browser</refentrytitle><manvolnum>1</manvolnum></citerefentry>, "
+"<citerefentry><refentrytitle>apt-"
+"get</refentrytitle><manvolnum>8</manvolnum></citerefentry>, "
+"<citerefentry><refentrytitle>aptitude</refentrytitle><manvolnum>8</manvolnum></citerefentry>"
+
+#~ msgid "List the changes"
+#~ msgstr "Lista ändringarna"
+
+#~ msgid "Reading changelogs. Please wait."
+#~ msgstr "Läser ändringsloggar. Var god vänta."
+
+#, python-format
+#~ msgid "apt-listchanges: news for %s"
+#~ msgstr "apt-listchanges: nyheter för %s"
+
+#~ msgid "apt-listchanges: News"
+#~ msgstr "apt-listchanges: Nyheter"
+
+#~ msgid "Aborting"
+#~ msgstr "Avbryter"
+
+#~ msgid "Done"
+#~ msgstr "Klar"
+
+#, python-format
+#~ msgid "News for %s"
+#~ msgstr "Nyheter för %s"
+
+#, python-format
+#~ msgid "Changes for %s"
+#~ msgstr "Ändringar för %s"
+
+#~ msgid "Usage: apt-listchanges [options] {--apt | filename.deb ...}\n"
+#~ msgstr "Användning: apt-listchanges [flaggor] {--apt | filnamn.deb ...}\n"
+
+#, python-format
+#~ msgid "%s: will be newly installed"
+#~ msgstr "%s: kommer att installeras på nytt."
+
+#~ msgid "Informational notes"
+#~ msgstr "Information"
+
+#~ msgid "apt-listchanges: Changelogs"
+#~ msgstr "apt-listchanges: Förändringslogg"
+
+#, python-format
+#~ msgid "apt-listchanges: changelogs for %s"
+#~ msgstr "apt-listchanges: förändringslogg för %s"
+
+#~ msgid "Continue Installation?"
+#~ msgstr "Fortsätta med att installera?"
+
+#, python-format
+#~ msgid "Ignoring `%s' (seems to be a directory!)"
+#~ msgstr "Ignorerar '%s' (det verkar vara en katalog!)"
+
+#~ msgid "Do you want to continue? [Y/n] "
+#~ msgstr "Vill du fortsätta? [J/n]? "
+
+#~ msgid "Reading changelogs"
+#~ msgstr "Läser förändringsloggar"
+
+#, python-format
+#~ msgid "Unknown frontend: %s"
+#~ msgstr "Okänt gränssnitt: %s"
+
+#, python-format
+#~ msgid "Mailing %(address)s: %(subject)s"
+#~ msgstr "E-postar %(address)s: %(subject)s"
+
+#, python-format
+#~ msgid "The mail frontend needs an installed 'sendmail', using %s"
+#~ msgstr "E-post-gränssnittet behöver 'sendmail', använder %s"
+
+#~ msgid ""
+#~ "Wrong or missing VERSION from apt pipeline\n"
+#~ "(is Dpkg::Tools::Options::/usr/bin/apt-listchanges::Version set to 2?)"
+#~ msgstr ""
+#~ "Fel eller ingen VERSION i apt-pipeline\n"
+#~ "(är Dpkg::Tools::Options::/usr/bin/apt-listchanges::Version satt till 2?)"
+
+#, python-format
+#~ msgid "Database %(db)s failed to load: %(errmsg)s"
+#~ msgstr "Databsen %(db)s kunde inte laddas: %(errmsg)s"
+
+#~ msgid "APT pipeline messages:"
+#~ msgstr "APT-pipeline-meddelanden:"
+
+#~ msgid "Packages list:"
+#~ msgstr "Paketlista:"
+
+#~ msgid ""
+#~ "APT_HOOK_INFO_FD environment variable is not defined\n"
+#~ "(is Dpkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD set to 20?)"
+#~ msgstr ""
+#~ "Miljövariabeln APT_HOOK_INFO_FD är inte definierad\n"
+#~ "(är Dpkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD inställd på 20?)"
+
+#~ msgid "Invalid (non-numeric) value of APT_HOOK_INFO_FD environment variable"
+#~ msgstr "Ogiltigt (icke-numeriskt) värde för miljövariabeln APT_HOOK_INFO_FD"
+
+#, python-format
+#~ msgid "Will read apt pipeline messages from file descriptor %d"
+#~ msgstr "Läser apt-pipeline-meddelanden från filbeskrivaren %d"
+
+#~ msgid ""
+#~ "APT_HOOK_INFO_FD environment variable is incorrectly defined\n"
+#~ "(Dpkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD should be greater than 2)."
+#~ msgstr ""
+#~ "Miljövariabeln APT_HOOK_INFO_FD är felaktigt definierad\n"
+#~ "(Dpkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD bör vara större än 2)."
+
+#, python-format
+#~ msgid "Cannot read from file descriptor %(fd)d: %(errmsg)s"
+#~ msgstr "Kan inte läsa från filbeskrivaren %(fd)d: %(errmsg)s"
+
+#, python-format
+#~ msgid "Unknown configuration file option: %s"
+#~ msgstr "Okänd flagga för konfigurationsfil: %s"
+
+#, python-format
+#~ msgid "%(deb)s does not have '.deb' extension"
+#~ msgstr "%(deb)s har inte filändelsen ’.deb’"
+
+#, python-format
+#~ msgid ""
+#~ "Unknown argument %(arg)s for option %(opt)s.  Allowed are: %(allowed)s."
+#~ msgstr "Okänd argument %(arg)s för flaggan %(opt)s. Tillåtna är: %(allowed)s."
+
+#, python-format
+#~ msgid "%(deb)s does not exist or is not a file"
+#~ msgstr "%(deb)s finns inte eller är inte en fil"
+
+#, python-format
+#~ msgid "%(deb)s is not readable"
+#~ msgstr "%(deb)s är inte läsbar"
+
+#~ msgid "--since=<version> and --show-all are mutually exclusive"
+#~ msgstr "--since=<version> och --show-all utesluter varandra"
+
+#~ msgid "--since=<version> expects a path to exactly one .deb archive"
+#~ msgstr "--since=<version> förväntar sig en sökväg till exakt ett .deb-arkiv"
+
+#~ msgid "--latest=<N> and --show-all are mutually exclusive"
+#~ msgstr "--latest=<N> och --show-all utesluter varandra"
+
+#, python-format
+#~ msgid "apt-listchanges: %(msg)s"
+#~ msgstr "apt-listchanges: %(msg)s"
+
+#, python-format
+#~ msgid "apt-listchanges warning: %(msg)s"
+#~ msgstr "apt-listchanges varning: %(msg)s"
+
+#~ msgid "apt-listchanges: Reading changelogs"
+#~ msgstr "apt-listchanges: Läser ändringsloggar"
+
+#~ msgctxt "The 'yes' and 'no' should be translated."
+#~ msgid ""
+#~ "Select <i>yes</i> to continue with the installation.\n"
+#~ "Select <i>no</i> to abort the installation."
+#~ msgstr ""
+#~ "Välj <i>ja</i> för att fortsätta med installationen.\n"
+#~ "Välj <i>nej</i> för att avbryta installationen."
+
+#, python-format
+#~ msgid "Extracting changes from %(debfile)s"
+#~ msgstr "Extraherar ändringar från %(debfile)s"
+
+#, python-format
+#~ msgid "Extracting installed changes for %(package)s"
+#~ msgstr "Extraherar installerade ändringar för %(package)s"
+
+#, python-format
+#~ msgid "Calling %(cmd)s to retrieve changelog"
+#~ msgstr "Anropar %(cmd)s för att hämta ändringslogg"
+
+#~ msgid "Enabled debug output"
+#~ msgstr "Aktiverade felsökningsutdata"
+
+#, python-format
+#~ msgid "Cannot reopen /dev/tty for stdin: %s"
+#~ msgstr "Kan inte återöppna /dev/tty för stdin: %s"
+
+#, python-format
+#~ msgid "Received signal %d, exiting"
+#~ msgstr "Tog emot signal %d, avslutar"
+
+#~ msgid "Binary NMU of"
+#~ msgstr "Binär NMU för"
+
+#, python-format
+#~ msgid "Confirmation failed: %s"
+#~ msgstr "Bekräftelse misslyckades: %s"
+
+#, python-format
+#~ msgid "Failed to send mail to %(address)s: %(errmsg)s"
+#~ msgstr "Misslyckades med att skicka e-post till %(address)s: %(errmsg)s"
+
+#, python-format
+#~ msgid "The mail frontend needs an e-mail address to be configured, using %s"
+#~ msgstr ""
+#~ "E-postgränssnittet behöver en e-postadress som ska konfigureras, använder %s"
+
+#~ msgid "Available apt-listchanges frontends:"
+#~ msgstr "Tillgängliga gränssnitt för apt-listchanges:"
+
+#~ msgid "Choose a frontend by entering its number: "
+#~ msgstr "Välj ett gränssnitt genom att ange dess nummer: "
+
+#, python-format
+#~ msgid "Error: %s"
+#~ msgstr "Fel: %s"
+
+#, python-format
+#~ msgid "Using default frontend: %s"
+#~ msgstr "Använder standardgränssnitt: %s"
+
+#, python-format
+#~ msgid "$DISPLAY is not set, falling back to %(frontend)s"
+#~ msgstr "$DISPLAY är inte inställt, faller tillbaka till %(frontend)s"
+
+#, python-format
+#~ msgid ""
+#~ "The gtk frontend needs a working python3-gi,\n"
+#~ "but it cannot be loaded. Falling back to %(frontend)s.\n"
+#~ "The error is: %(errmsg)s"
+#~ msgstr ""
+#~ "Gtk-frontenden behöver en fungerande python3-gi,\n"
+#~ "men den kan inte läsas in. Återgår till %(frontend)s.\n"
+#~ "Felet är: %(errmsg)s"
+
+#, python-format
+#~ msgid "Command %(cmd)s exited with status %(status)d"
+#~ msgstr "Kommandot %(cmd)s avslutades med status %(status)d"
+
+#, python-format
+#~ msgid "Error processing '%(what)s': %(errmsg)s"
+#~ msgstr "Fel vid bearbetning av ’%(what)s’: %(errmsg)s"
+
+#, python-format
+#~ msgid ""
+#~ "Unable to retrieve changelog for package %(pkg)s; 'apt-get changelog' failed"
+#~ " with: %(errmsg)s"
+#~ msgstr ""
+#~ "Det går inte att hämta ändringsloggen för paketet %(pkg)s; ’apt-get "
+#~ "changelog’ misslyckades med: %(errmsg)s"
+
+#, python-format
+#~ msgid ""
+#~ "Unable to retrieve changelog for package %(pkg)s; could not run 'apt-get "
+#~ "changelog': %(errmsg)s"
+#~ msgstr ""
+#~ "Det går inte att hämta ändringsloggen för paketet %(pkg)s; kunde inte köra "
+#~ "’apt-get changelog’: %(errmsg)s"
+
+#, python-format
+#~ msgid "Found user: %(user)s, temporary directory: %(dir)s"
+#~ msgstr "Hittade användare: %(user)s, temporär katalog: %(dir)s"
+
+#, python-format
+#~ msgid "Error getting user from variable '%(envvar)s': %(errmsg)s"
+#~ msgstr "Fel vid hämtning av användare från variabeln ’%(envvar)s’: %(errmsg)s"
+
+#~ msgid "Cannot find suitable user to drop root privileges"
+#~ msgstr "Kan inte hitta lämplig användare för att släppa root-behörigheter"
+
+#, python-format
+#~ msgid ""
+#~ "None of the following directories is accessible by user %(user)s: %(dirs)s"
+#~ msgstr ""
+#~ "Ingen av följande kataloger är åtkomlig för användaren %(user)s: %(dirs)s"
+
+#~ msgctxt "Do not translate the 'q'."
+#~ msgid "press q to quit"
+#~ msgstr "tryck på q för att avsluta"
+
+#~ msgid ""
+#~ "The following changes are found in the packages you are about to install:"
+#~ msgstr "Följande ändringar finns i de paket du ska installera:"
