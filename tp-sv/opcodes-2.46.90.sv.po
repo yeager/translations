@@ -7,10 +7,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: opcodes 2.45.90\n"
+"Project-Id-Version: opcodes 2.46.90\n"
 "Report-Msgid-Bugs-To: https://sourceware.org/bugzilla/\n"
 "POT-Creation-Date: 2026-07-12 10:21+0100\n"
-"PO-Revision-Date: 2026-01-25 17:58+0100\n"
+"PO-Revision-Date: 2026-10-04 07:58+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -53,8 +53,7 @@ msgid ""
 "with the -M switch (multiple options should be separated by commas):\n"
 msgstr ""
 "\n"
-"Följande AARCH64-specifika flaggor för avassembleraren stöds "
-"med\n"
+"Följande AARCH64-specifika flaggor för avassembleraren stöds med\n"
 "flaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #: aarch64-dis.c:4615
@@ -94,7 +93,7 @@ msgstr ""
 "  notes            Skriv ut instruktionsnoteringar.\n"
 
 #: aarch64-dis.c:4627
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "\n"
 #| "  no-notes         Don't print instruction notes.\n"
@@ -106,7 +105,7 @@ msgstr ""
 "  annotate         Visa symbolnamn för odefinierade instruktioner.\n"
 
 #: aarch64-dis.c:4630
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "\n"
 #| "  no-notes         Don't print instruction notes.\n"
@@ -336,8 +335,11 @@ msgid "byte index must be a multiple of 8"
 msgstr "byteindex måste vara en multipel av 8"
 
 #: aarch64-opc.c:2997
-msgid "the register-index form of PRFM does not accept opcodes in the range 24-31"
-msgstr "register-index-formen av PRFM accepterar inte instruktioner i intervallet 24-31"
+msgid ""
+"the register-index form of PRFM does not accept opcodes in the range 24-31"
+msgstr ""
+"register-index-formen av PRFM accepterar inte instruktioner i intervallet "
+"24-31"
 
 #: aarch64-opc.c:3066
 msgid "extend operator expected"
@@ -364,7 +366,6 @@ msgid "'ROR' operator not allowed"
 msgstr "”ROR”-operatorn är inte tillåten"
 
 #: aarch64-opc.c:3303
-#, fuzzy
 #| msgid "expected a selection register in the range w8-w11"
 msgid "expected at least one stack pointer operand"
 msgstr "förväntade minst en stackpekaroperand"
@@ -399,7 +400,8 @@ msgstr "storleksregistret skiljer sig från det i föregående instruktion"
 
 #: aarch64-opc.c:5595
 msgid "instruction opens new dependency sequence without ending previous one"
-msgstr "instruktionen öppnar en ny beroendesekvens utan att avsluta den föregående"
+msgstr ""
+"instruktionen öppnar en ny beroendesekvens utan att avsluta den föregående"
 
 #: aarch64-opc.c:5624
 msgid "previous `movprfx' sequence not closed"
@@ -419,7 +421,8 @@ msgstr "en predicerad instruktion förväntades efter ”movprfx”"
 
 #: aarch64-opc.c:5768
 msgid "merging predicate expected due to preceding `movprfx'"
-msgstr "ett sammanslagningspredikat förväntades på grund av föregående ”movprfx”"
+msgstr ""
+"ett sammanslagningspredikat förväntades på grund av föregående ”movprfx”"
 
 #: aarch64-opc.c:5780
 msgid "predicate register differs from that in preceding `movprfx'"
@@ -427,7 +430,9 @@ msgstr "predikatregistret skiljer sig från det i föregående ”movprfx”"
 
 #: aarch64-opc.c:5799
 msgid "output register of preceding `movprfx' not used in current instruction"
-msgstr "utdataregistret från föregående ”movprfx” används inte i den aktuella instruktionen"
+msgstr ""
+"utdataregistret från föregående ”movprfx” används inte i den aktuella "
+"instruktionen"
 
 #: aarch64-opc.c:5812
 msgid "output register of preceding `movprfx' expected as output"
@@ -462,8 +467,10 @@ msgstr ""
 "\t\t\t\t"
 
 #: arc-dis.c:430
-msgid "An error occurred while generating the extension instruction operations"
-msgstr "Ett fel inträffade vid generering av operationer för utökningsinstruktioner"
+msgid ""
+"An error occurred while generating the extension instruction operations"
+msgstr ""
+"Ett fel inträffade vid generering av operationer för utökningsinstruktioner"
 
 #: arc-dis.c:834
 #, c-format
@@ -526,8 +533,7 @@ msgid ""
 "with the -M switch (multiple options should be separated by commas):\n"
 msgstr ""
 "\n"
-"Följande ARC-specifika flaggor för avassembleraren stöds "
-"med\n"
+"Följande ARC-specifika flaggor för avassembleraren stöds med\n"
 "flaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #: arc-dis.c:1593 mips-dis.c:2937 riscv-dis.c:1855
@@ -761,7 +767,8 @@ msgstr "coproc måste ha ett argument: %s"
 #: arm-dis.c:11952
 #, c-format
 msgid "coprocN argument takes options \"generic\", \"cde\", or \"CDE\": %s"
-msgstr "coprocN-argumentet accepterar värdena ”generic”, ”cde” eller ”CDE”: %s"
+msgstr ""
+"coprocN-argumentet accepterar värdena ”generic”, ”cde” eller ”CDE”: %s"
 
 #: arm-dis.c:12673
 #, c-format
@@ -771,8 +778,7 @@ msgid ""
 "the -M switch:\n"
 msgstr ""
 "\n"
-"Följande ARM-specifika flaggor för avassembleraren stöds "
-"med\n"
+"Följande ARM-specifika flaggor för avassembleraren stöds med\n"
 "flaggan -M:\n"
 
 #: avr-dis.c:130 avr-dis.c:152
@@ -798,8 +804,7 @@ msgid ""
 "with the -M switch (multiple options should be separated by commas):\n"
 msgstr ""
 "\n"
-"Följande BPF-specifika flaggor för avassembleraren stöds "
-"med\n"
+"Följande BPF-specifika flaggor för avassembleraren stöds med\n"
 "flaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #: bpf-dis.c:59
@@ -844,8 +849,12 @@ msgstr "operanden är utanför intervallet (%lu är inte mellan %lu och %lu)"
 
 #: cris-desc.c:2622
 #, c-format
-msgid "internal error: cris_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: cris_cgen_rebuild_tables: motstridiga värden för insn-chunk-bitsize: ”%d” respektive ”%d”"
+msgid ""
+"internal error: cris_cgen_rebuild_tables: conflicting insn-chunk-bitsize "
+"values: `%d' vs. `%d'"
+msgstr ""
+"internt fel: cris_cgen_rebuild_tables: motstridiga värden för insn-chunk-"
+"bitsize: ”%d” respektive ”%d”"
 
 #: cris-desc.c:2710
 #, c-format
@@ -942,11 +951,12 @@ msgstr "mnemonik saknas i syntaxsträngen"
 #: ip2k-asm.c:792 ip2k-asm.c:899 iq2000-asm.c:647 iq2000-asm.c:651
 #: iq2000-asm.c:740 iq2000-asm.c:847 lm32-asm.c:537 lm32-asm.c:541
 #: lm32-asm.c:630 lm32-asm.c:737 m32c-asm.c:1772 m32c-asm.c:1776
-#: m32c-asm.c:1865 m32c-asm.c:1972 m32r-asm.c:516 m32r-asm.c:520 m32r-asm.c:609
-#: m32r-asm.c:716 mep-asm.c:1475 mep-asm.c:1479 mep-asm.c:1568 mep-asm.c:1675
-#: mt-asm.c:783 mt-asm.c:787 mt-asm.c:876 mt-asm.c:983 or1k-asm.c:763
-#: or1k-asm.c:767 or1k-asm.c:856 or1k-asm.c:963 xstormy16-asm.c:464
-#: xstormy16-asm.c:468 xstormy16-asm.c:557 xstormy16-asm.c:664
+#: m32c-asm.c:1865 m32c-asm.c:1972 m32r-asm.c:516 m32r-asm.c:520
+#: m32r-asm.c:609 m32r-asm.c:716 mep-asm.c:1475 mep-asm.c:1479 mep-asm.c:1568
+#: mep-asm.c:1675 mt-asm.c:783 mt-asm.c:787 mt-asm.c:876 mt-asm.c:983
+#: or1k-asm.c:763 or1k-asm.c:767 or1k-asm.c:856 or1k-asm.c:963
+#: xstormy16-asm.c:464 xstormy16-asm.c:468 xstormy16-asm.c:557
+#: xstormy16-asm.c:664
 msgid "unrecognized instruction"
 msgstr "okänd instruktion"
 
@@ -992,8 +1002,12 @@ msgstr "felaktig instruktion ”%.50s”"
 
 #: epiphany-desc.c:2110
 #, c-format
-msgid "internal error: epiphany_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: epiphany_cgen_rebuild_tables: motstridiga värden för insn-chunk-bitsize: ”%d” respektive ”%d”"
+msgid ""
+"internal error: epiphany_cgen_rebuild_tables: conflicting insn-chunk-bitsize"
+" values: `%d' vs. `%d'"
+msgstr ""
+"internt fel: epiphany_cgen_rebuild_tables: motstridiga värden för insn-"
+"chunk-bitsize: ”%d” respektive ”%d”"
 
 #: epiphany-desc.c:2198
 #, c-format
@@ -1013,8 +1027,8 @@ msgid "*unknown*"
 msgstr "*okänd*"
 
 #: epiphany-dis.c:279 fr30-dis.c:300 frv-dis.c:397 ip2k-dis.c:289
-#: iq2000-dis.c:190 lm32-dis.c:148 m32c-dis.c:892 m32r-dis.c:280 mep-dis.c:1201
-#: mt-dis.c:288 or1k-dis.c:175 xstormy16-dis.c:169
+#: iq2000-dis.c:190 lm32-dis.c:148 m32c-dis.c:892 m32r-dis.c:280
+#: mep-dis.c:1201 mt-dis.c:288 or1k-dis.c:175 xstormy16-dis.c:169
 #, c-format
 msgid "internal error: unrecognized field %d while printing insn"
 msgstr "internt fel: okänt fält %d vid utskrift av instruktion"
@@ -1031,7 +1045,8 @@ msgstr "operanden är utanför intervallet (%ld är inte mellan %ld och %lu)"
 #: mep-ibld.c:187 mt-ibld.c:187 or1k-ibld.c:187 xstormy16-ibld.c:187
 #, c-format
 msgid "operand out of range (0x%lx not between 0 and 0x%lx)"
-msgstr "operanden ligger utanför intervallet (0x%lx är inte mellan 0 och 0x%lx)"
+msgstr ""
+"operanden ligger utanför intervallet (0x%lx är inte mellan 0 och 0x%lx)"
 
 #: epiphany-ibld.c:885 fr30-ibld.c:740 frv-ibld.c:866 ip2k-ibld.c:617
 #: iq2000-ibld.c:723 lm32-ibld.c:644 m32c-ibld.c:1741 m32r-ibld.c:675
@@ -1093,8 +1108,12 @@ msgstr "Registerlistan är inte giltig"
 
 #: fr30-desc.c:1587
 #, c-format
-msgid "internal error: fr30_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: fr30_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”"
+msgid ""
+"internal error: fr30_cgen_rebuild_tables: conflicting insn-chunk-bitsize "
+"values: `%d' vs. `%d'"
+msgstr ""
+"internt fel: fr30_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt:"
+" ”%d” vs. ”%d”"
 
 #: fr30-desc.c:1675
 #, c-format
@@ -1124,8 +1143,12 @@ msgstr "registernumret måste vara jämnt"
 
 #: frv-desc.c:6327
 #, c-format
-msgid "internal error: frv_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: frv_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”"
+msgid ""
+"internal error: frv_cgen_rebuild_tables: conflicting insn-chunk-bitsize "
+"values: `%d' vs. `%d'"
+msgstr ""
+"internt fel: frv_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: "
+"”%d” vs. ”%d”"
 
 #: frv-desc.c:6415
 #, c-format
@@ -1174,8 +1197,7 @@ msgid ""
 "with the -M switch (multiple options should be separated by commas):\n"
 msgstr ""
 "\n"
-"Följande i386/x86-64-specifika flaggor för avassembleraren stöds "
-"med\n"
+"Följande i386/x86-64-specifika flaggor för avassembleraren stöds med\n"
 "flaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #: i386-dis.c:9036
@@ -1264,7 +1286,8 @@ msgstr "  intel64     Visa instruktion i Intel64 ISA\n"
 #: i386-dis.c:9053
 #, c-format
 msgid "  annotate-immediates  Annotate immediate operands that match symbols\n"
-msgstr "  annotate-immediates  Kommentera direktoperander som matchar symboler\n"
+msgstr ""
+"  annotate-immediates  Kommentera direktoperander som matchar symboler\n"
 
 #: i386-dis.c:9846
 msgid "64-bit address is disabled"
@@ -1324,8 +1347,12 @@ msgstr "Försök att hitta bitindex för 0"
 
 #: ip2k-desc.c:1016
 #, c-format
-msgid "internal error: ip2k_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: ip2k_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”"
+msgid ""
+"internal error: ip2k_cgen_rebuild_tables: conflicting insn-chunk-bitsize "
+"values: `%d' vs. `%d'"
+msgstr ""
+"internt fel: ip2k_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt:"
+" ”%d” vs. ”%d”"
 
 #: ip2k-desc.c:1104
 #, c-format
@@ -1351,8 +1378,12 @@ msgstr "21-bitarsförskjutningen ligger utanför intervallet"
 
 #: iq2000-desc.c:2021
 #, c-format
-msgid "internal error: iq2000_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: iq2000_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”"
+msgid ""
+"internal error: iq2000_cgen_rebuild_tables: conflicting insn-chunk-bitsize "
+"values: `%d' vs. `%d'"
+msgstr ""
+"internt fel: iq2000_cgen_rebuild_tables: insn-chunk-bitsize-värden i "
+"konflikt: ”%d” vs. ”%d”"
 
 #: iq2000-desc.c:2109
 #, c-format
@@ -1372,8 +1403,7 @@ msgid ""
 "with the -M switch (multiple options should be separated by commas):\n"
 msgstr ""
 "\n"
-"Följande KVX-specifika flaggor för avassembleraren stöds "
-"med\n"
+"Följande KVX-specifika flaggor för avassembleraren stöds med\n"
 "flaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #: kvx-dis.c:1575
@@ -1421,8 +1451,12 @@ msgstr "förväntade en GOT-relativ adress: gotofflo16(symbol)"
 
 #: lm32-desc.c:1003
 #, c-format
-msgid "internal error: lm32_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: lm32_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”"
+msgid ""
+"internal error: lm32_cgen_rebuild_tables: conflicting insn-chunk-bitsize "
+"values: `%d' vs. `%d'"
+msgstr ""
+"internt fel: lm32_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt:"
+" ”%d” vs. ”%d”"
 
 #: lm32-desc.c:1091
 #, c-format
@@ -1442,8 +1476,7 @@ msgid ""
 "with the -M switch (multiple options should be separated by commas):\n"
 msgstr ""
 "\n"
-"Följande LoongArch-specifika flaggor för avassembleraren stöds "
-"med\n"
+"Följande LoongArch-specifika flaggor för avassembleraren stöds med\n"
 "flaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #: loongarch-dis.c:367
@@ -1530,7 +1563,9 @@ msgstr "direktvärdet ligger utanför intervallet 2-9"
 
 #: m32c-asm.c:568
 msgid "Bit number for indexing general register is out of range 0-15"
-msgstr "Bitnumret för indexering av allmänna register ligger utanför intervallet 0-15"
+msgstr ""
+"Bitnumret för indexering av allmänna register ligger utanför intervallet "
+"0-15"
 
 #: m32c-asm.c:606 m32c-asm.c:662
 msgid "bit,base is out of range"
@@ -1550,8 +1585,12 @@ msgstr "Ogiltig storleksangivare"
 
 #: m32c-desc.c:63034
 #, c-format
-msgid "internal error: m32c_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: m32c_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”"
+msgid ""
+"internal error: m32c_cgen_rebuild_tables: conflicting insn-chunk-bitsize "
+"values: `%d' vs. `%d'"
+msgstr ""
+"internt fel: m32c_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt:"
+" ”%d” vs. ”%d”"
 
 #: m32c-desc.c:63122
 #, c-format
@@ -1565,8 +1604,12 @@ msgstr "internt fel: m32c_cgen_cpu_open: ingen byteordning angiven"
 
 #: m32r-desc.c:1366
 #, c-format
-msgid "internal error: m32r_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: m32r_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”"
+msgid ""
+"internal error: m32r_cgen_rebuild_tables: conflicting insn-chunk-bitsize "
+"values: `%d' vs. `%d'"
+msgstr ""
+"internt fel: m32r_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt:"
+" ”%d” vs. ”%d”"
 
 #: m32r-desc.c:1454
 #, c-format
@@ -1623,8 +1666,12 @@ msgstr "Värdet är inte tillräckligt justerat"
 
 #: mep-desc.c:6227
 #, c-format
-msgid "internal error: mep_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: mep_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”"
+msgid ""
+"internal error: mep_cgen_rebuild_tables: conflicting insn-chunk-bitsize "
+"values: `%d' vs. `%d'"
+msgstr ""
+"internt fel: mep_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: "
+"”%d” vs. ”%d”"
 
 #: mep-desc.c:6315
 #, c-format
@@ -1663,16 +1710,20 @@ msgid ""
 "Recognize the eXtended Physical Address (XPA) ASE\n"
 "                  instructions.\n"
 msgstr ""
-"Känn igen"
-" instruktioner för ASE med eXtended Physical Address (XPA).\n"
+"Känn igen instruktioner\n"
+"                  för ASE med eXtended Physical Address (XPA).\n"
 
 #: mips-dis.c:2781
 msgid "Recognize the Global INValidate (GINV) ASE instructions.\n"
 msgstr "Känn igen instruktioner för ASE med Global INValidate (GINV).\n"
 
 #: mips-dis.c:2785
-msgid "Recognize the Loongson MultiMedia extensions Instructions (MMI) ASE instructions.\n"
-msgstr "Känn igen instruktioner för Loongson MultiMedia extensions Instructions (MMI) ASE.\n"
+msgid ""
+"Recognize the Loongson MultiMedia extensions Instructions (MMI) ASE "
+"instructions.\n"
+msgstr ""
+"Känn igen instruktioner för Loongson MultiMedia extensions Instructions "
+"(MMI) ASE.\n"
 
 #: mips-dis.c:2789
 msgid "Recognize the Loongson Content Address Memory (CAM)  instructions.\n"
@@ -1739,8 +1790,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Följande MIPS-specifika flaggor för avassembleraren stöds "
-"med\n"
+"Följande MIPS-specifika flaggor för avassembleraren stöds med\n"
 "flaggan -M (flera flaggor ska skiljas åt med komman):\n"
 "\n"
 
@@ -1775,7 +1825,9 @@ msgstr "internt fel: immediate() anropades med ogiltigt byteantal %d"
 #: msp430-dis.c:59
 #, c-format
 msgid "Warning: disassembly unreliable - not enough bytes available"
-msgstr "Varning: avassembleringen är otillförlitlig – inte tillräckligt många byte är tillgängliga"
+msgstr ""
+"Varning: avassembleringen är otillförlitlig – inte tillräckligt många byte "
+"är tillgängliga"
 
 #: msp430-dis.c:65
 #, c-format
@@ -1802,7 +1854,9 @@ msgstr "Varning: reserverad användning av A/L- och B/W-bitar upptäcktes"
 
 #: mt-asm.c:110 mt-asm.c:190
 msgid "Operand out of range. Must be between -32768 and 32767."
-msgstr "Operanden ligger utanför intervallet. Den måste vara mellan -32768 och 32767."
+msgstr ""
+"Operanden ligger utanför intervallet. Den måste vara mellan -32768 och "
+"32767."
 
 #: mt-asm.c:149
 msgid "Biiiig Trouble in parse_imm16!"
@@ -1818,8 +1872,12 @@ msgstr "ogiltig operand. Typen får endast ha värdena 0, 1 eller 2."
 
 #: mt-desc.c:1147
 #, c-format
-msgid "internal error: mt_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: mt_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”"
+msgid ""
+"internal error: mt_cgen_rebuild_tables: conflicting insn-chunk-bitsize "
+"values: `%d' vs. `%d'"
+msgstr ""
+"internt fel: mt_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: "
+"”%d” vs. ”%d”"
 
 #: mt-desc.c:1235
 #, c-format
@@ -1903,8 +1961,7 @@ msgid ""
 "with the -M switch (multiple options should be separated by commas):\n"
 msgstr ""
 "\n"
-"Följande NFP-specifika flaggor för avassembleraren stöds "
-"med\n"
+"Följande NFP-specifika flaggor för avassembleraren stöds med\n"
 "flaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #: nfp-dis.c:2999
@@ -1940,8 +1997,12 @@ msgstr "den interna omlokaliseringstypen är ogiltig"
 
 #: or1k-desc.c:2043
 #, c-format
-msgid "internal error: or1k_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: or1k_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”"
+msgid ""
+"internal error: or1k_cgen_rebuild_tables: conflicting insn-chunk-bitsize "
+"values: `%d' vs. `%d'"
+msgstr ""
+"internt fel: or1k_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt:"
+" ”%d” vs. ”%d”"
 
 #: or1k-desc.c:2131
 #, c-format
@@ -1966,8 +2027,7 @@ msgid ""
 "the -M switch:\n"
 msgstr ""
 "\n"
-"Följande PPC-specifika flaggor för avassembleraren stöds "
-"med\n"
+"Följande PPC-specifika flaggor för avassembleraren stöds med\n"
 "flaggan -M:\n"
 
 #: ppc-opc.c:52 ppc-opc.c:75 ppc-opc.c:101 ppc-opc.c:131
@@ -1996,7 +2056,9 @@ msgstr "försök att ange ”at”-bitarna när modifieraren + eller - används"
 
 #: ppc-opc.c:575
 msgid "invalid offset: must be in the range [-512, -8] and be a multiple of 8"
-msgstr "ogiltig förskjutning: måste ligga i intervallet [-512, -8] och vara en multipel av 8"
+msgstr ""
+"ogiltig förskjutning: måste ligga i intervallet [-512, -8] och vara en "
+"multipel av 8"
 
 #: ppc-opc.c:752
 msgid "invalid R operand"
@@ -2051,7 +2113,6 @@ msgid "illegal immediate value"
 msgstr "ogiltigt direktvärde"
 
 #: ppc-opc.c:1828
-#, fuzzy
 #| msgid "invalid size, value must be "
 msgid "invalid SR value (must be 0-23)"
 msgstr "ogiltigt SR-värde (måste vara 0-23)"
@@ -2077,7 +2138,6 @@ msgid "VSR overlaps ACC operand"
 msgstr "VSR överlappar ACC-operanden"
 
 #: ppc-opc.c:2423
-#, fuzzy
 #| msgid "invalid size, value must be "
 msgid "invalid S value (must be 0 - 6)"
 msgstr "ogiltigt S-värde (måste vara 0-6)"
@@ -2132,8 +2192,11 @@ msgstr "okänd privilegierad specifikation angiven av %s=%s"
 
 #: riscv-dis.c:170
 #, c-format
-msgid "mis-matched privilege spec set by %s=%s, the elf privilege attribute is %s"
-msgstr "privilegiespecifikationen från %s=%s stämmer inte; ELF-privilegieattributet är %s"
+msgid ""
+"mis-matched privilege spec set by %s=%s, the elf privilege attribute is %s"
+msgstr ""
+"privilegiespecifikationen från %s=%s stämmer inte; ELF-privilegieattributet "
+"är %s"
 
 #: riscv-dis.c:1039
 #, c-format
@@ -2164,8 +2227,7 @@ msgid ""
 "with the -M switch (multiple options should be separated by commas):\n"
 msgstr ""
 "\n"
-"Följande RISC-V-specifika flaggor för avassembleraren stöds "
-"med\n"
+"Följande RISC-V-specifika flaggor för avassembleraren stöds med\n"
 "flaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #: rx-dis.c:139 rx-dis.c:163 rx-dis.c:171 rx-dis.c:179 rx-dis.c:187
@@ -2204,7 +2266,8 @@ msgstr ".<felaktig>"
 msgid "Disassemble in ESA architecture mode"
 msgstr "Avassemblera i ESA-arkitekturläge"
 
-#. TRANSLATORS: Please do not translate 'z/Architecture' as this is a technical name.
+#. TRANSLATORS: Please do not translate 'z/Architecture' as this is a
+#. technical name.
 #: s390-dis.c:46
 msgid "Disassemble in z/Architecture mode"
 msgstr "Avassemblera i z/Architecture-läge"
@@ -2230,8 +2293,7 @@ msgid ""
 "with the -M switch (multiple options should be separated by commas):\n"
 msgstr ""
 "\n"
-"Följande S/390-specifika flaggor för avassembleraren stöds "
-"med\n"
+"Följande S/390-specifika flaggor för avassembleraren stöds med\n"
 "flaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #: score-dis.c:653 score-dis.c:871 score-dis.c:1032 score-dis.c:1138
@@ -2375,8 +2437,7 @@ msgid ""
 "The following WebAssembly-specific disassembler options are supported for use\n"
 "with the -M switch:\n"
 msgstr ""
-"Följande WebAssembly-specifika flaggor för avassembleraren stöds "
-"med\n"
+"Följande WebAssembly-specifika flaggor för avassembleraren stöds med\n"
 "flaggan -M:\n"
 
 #: xstormy16-asm.c:71
@@ -2421,8 +2482,12 @@ msgstr "Syntaxfel: ingen avslutande ”)”"
 
 #: xstormy16-desc.c:1318
 #, c-format
-msgid "internal error: xstormy16_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: xstormy16_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”"
+msgid ""
+"internal error: xstormy16_cgen_rebuild_tables: conflicting insn-chunk-"
+"bitsize values: `%d' vs. `%d'"
+msgstr ""
+"internt fel: xstormy16_cgen_rebuild_tables: insn-chunk-bitsize-värden i "
+"konflikt: ”%d” vs. ”%d”"
 
 #: xstormy16-desc.c:1406
 #, c-format
@@ -2470,8 +2535,12 @@ msgstr "internt fel: xstormy16_cgen_cpu_open: ingen byteordning angiven"
 #~ msgstr "förväntade 16, 32 eller 64 i"
 
 #, c-format
-#~ msgid "internal error: bpf_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-#~ msgstr "internt fel: bpf_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”"
+#~ msgid ""
+#~ "internal error: bpf_cgen_rebuild_tables: conflicting insn-chunk-bitsize "
+#~ "values: `%d' vs. `%d'"
+#~ msgstr ""
+#~ "internt fel: bpf_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: "
+#~ "”%d” vs. ”%d”"
 
 #, c-format
 #~ msgid "internal error: bpf_cgen_cpu_open: unsupported argument `%d'"
@@ -2708,8 +2777,12 @@ msgstr "internt fel: xstormy16_cgen_cpu_open: ingen byteordning angiven"
 #~ msgid "Missing 'seg:' prefix"
 #~ msgstr "”seg:”-prefix saknas"
 
-#~ msgid "internal error: xc16x_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-#~ msgstr "internt fel: xc16x_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”"
+#~ msgid ""
+#~ "internal error: xc16x_cgen_rebuild_tables: conflicting insn-chunk-bitsize "
+#~ "values: `%d' vs. `%d'"
+#~ msgstr ""
+#~ "internt fel: xc16x_cgen_rebuild_tables: insn-chunk-bitsize-värden i "
+#~ "konflikt: ”%d” vs. ”%d”"
 
 #~ msgid "internal error: xc16x_cgen_cpu_open: unsupported argument `%d'"
 #~ msgstr "internt fel: xc16x_cgen_cpu_open: argument stöds inte ”%d”"

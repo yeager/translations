@@ -13,15 +13,18 @@ msgstr ""
 "Project-Id-Version: coreutils 9.12-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2026-09-07 18:15+0100\n"
-"PO-Revision-Date: 2026-09-17 21:13+0200\n"
+"PO-Revision-Date: 2026-10-04 11:13+0200\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Launchpad (build ad10a72802faca6d6a2802f2e3a89ba90e7214dd)\n"
+"X-Launchpad-Export-Date: 2026-10-02 07:40+0000\n"
+
 
 #: lib/argmatch.c:141
 #, c-format
@@ -367,7 +370,8 @@ msgstr "varning: värdet %<PRIdMAX> har %<PRIdMAX> siffror. Antar ÅÅÅÅ/MM/DD
 
 #: lib/parse-datetime.y:843
 #, c-format
-msgid "warning: value %<PRIdMAX> has less than 4 digits. Assuming MM/DD/YY[YY]\n"
+msgid ""
+"warning: value %<PRIdMAX> has less than 4 digits. Assuming MM/DD/YY[YY]\n"
 msgstr "varning: värdet %<PRIdMAX> har färre än 4 siffror. Antar MM/DD/ÅÅ[ÅÅ]\n"
 
 #: lib/parse-datetime.y:1305
@@ -521,8 +525,12 @@ msgstr "fel: tzalloc (\"%s\") misslyckades\n"
 
 #: lib/parse-datetime.y:2126
 #, c-format
-msgid "error: day '%s' (day ordinal=%<PRIdMAX> number=%d) resulted in an invalid date: '%s'\n"
-msgstr "fel: dag ”%s” (dag ordning=%<PRIdMAX> nummer=%d) resulterade i ett ogiltigt datum: ”%s”\n"
+msgid ""
+"error: day '%s' (day ordinal=%<PRIdMAX> number=%d) resulted in an invalid "
+"date: '%s'\n"
+msgstr ""
+"fel: dag ”%s” (dag ordning=%<PRIdMAX> nummer=%d) resulterade i ett ogiltigt "
+"datum: ”%s”\n"
 
 #: lib/parse-datetime.y:2137
 #, c-format
@@ -545,12 +553,18 @@ msgid "starting date/time: '%s'\n"
 msgstr "startdatum/-tid: ”%s”\n"
 
 #: lib/parse-datetime.y:2164
-msgid "warning: when adding relative months/years, it is recommended to specify the 15th of the months\n"
-msgstr "varning: när relativa månader/år läggs till rekommenderas det att ange den 15:e i månaderna\n"
+msgid ""
+"warning: when adding relative months/years, it is recommended to specify the"
+" 15th of the months\n"
+msgstr ""
+"varning: när relativa månader/år läggs till rekommenderas det att ange den "
+"15:e i månaderna\n"
 
 #: lib/parse-datetime.y:2169
 msgid "warning: when adding relative days, it is recommended to specify noon\n"
-msgstr "varning: när relativa dagar läggs till rekommenderas det att ange middagstid\n"
+msgstr ""
+"varning: när relativa dagar läggs till rekommenderas det att ange "
+"middagstid\n"
 
 #: lib/parse-datetime.y:2179
 #, c-format
@@ -560,12 +574,17 @@ msgstr "fel: %s:%d\n"
 #: lib/parse-datetime.y:2194
 #, c-format
 msgid "error: adding relative date resulted in an invalid date: '%s'\n"
-msgstr "fel: att lägga till relativa datum resulterade i ett ogiltigt datum: ”%s”\n"
+msgstr ""
+"fel: att lägga till relativa datum resulterade i ett ogiltigt datum: ”%s”\n"
 
 #: lib/parse-datetime.y:2203
 #, c-format
-msgid "after date adjustment (%+<PRIdMAX> years, %+<PRIdMAX> months, %+<PRIdMAX> days),\n"
-msgstr "efter datumjustering (%+<PRIdMAX> år, %+<PRIdMAX> månader, %+<PRIdMAX> dagar),\n"
+msgid ""
+"after date adjustment (%+<PRIdMAX> years, %+<PRIdMAX> months, %+<PRIdMAX> "
+"days),\n"
+msgstr ""
+"efter datumjustering (%+<PRIdMAX> år, %+<PRIdMAX> månader, %+<PRIdMAX> "
+"dagar),\n"
 
 #: lib/parse-datetime.y:2207
 #, c-format
@@ -606,8 +625,12 @@ msgstr "fel: att lägga till relativ tid orsakade spill\n"
 
 #: lib/parse-datetime.y:2328
 #, c-format
-msgid "after time adjustment (%+<PRIdMAX> hours, %+<PRIdMAX> minutes, %+<PRIdMAX> seconds, %+d ns),\n"
-msgstr "efter tidjustering (%+<PRIdMAX> timmar, %+<PRIdMAX> minuter, %+<PRIdMAX> sekunder, %+d ns),\n"
+msgid ""
+"after time adjustment (%+<PRIdMAX> hours, %+<PRIdMAX> minutes, %+<PRIdMAX> "
+"seconds, %+d ns),\n"
+msgstr ""
+"efter tidjustering (%+<PRIdMAX> timmar, %+<PRIdMAX> minuter, %+<PRIdMAX> "
+"sekunder, %+d ns),\n"
 
 #: lib/parse-datetime.y:2334
 #, c-format
@@ -659,7 +682,6 @@ msgstr "slutlig: %s (okänt tidszonsförskjutning)\n"
 #. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
 #. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
 #. QUOTATION MARK), respectively.
-#.
 #. If the catalog has no translation, we will try to
 #. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
 #. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
@@ -668,7 +690,6 @@ msgstr "slutlig: %s (okänt tidszonsförskjutning)\n"
 #. quote "like this".  You should always include translations
 #. for "`" and "'" even if U+2018 and U+2019 are appropriate
 #. for your locale.
-#.
 #. If you don't know what to put here, please see
 #. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
 #. and use glyphs suitable for your language.
@@ -1132,16 +1153,12 @@ msgstr ""
 #: lib/version-etc.c:249
 #, c-format
 msgid "Report bugs to: <%s>.\n"
-msgstr ""
-"Rapportera fel till: <%s>.\n"
-"Rapportera kommentarer om översättningen till: <tp-sv@listor.tp-sv.se>.\n"
+msgstr "Rapportera fel till: <%s>.\n"
 
 #: lib/version-etc.c:259
 #, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr ""
-"Rapportera fel i %s till %s\n"
-"Rapportera kommentarer om översättningen till <tp-sv@listor.tp-sv.se>\n"
+msgstr "Rapportera fel i %s till %s\n"
 
 #: lib/version-etc.c:263 lib/version-etc.c:265
 #, c-format
@@ -1156,7 +1173,8 @@ msgstr "Allmän hjälp med att använda GNU-program: <%s>\n"
 #: lib/xbinary-io.c:35
 #, c-format
 msgid "failed to set file descriptor text/binary mode"
-msgstr "misslyckades med att sätta filbeskrivaren i textläge eller binärt läge"
+msgstr ""
+"misslyckades med att sätta filbeskrivaren i textläge eller binärt läge"
 
 #: lib/xmemcoll.c:39 src/expr.c:885
 #, c-format
@@ -1282,9 +1300,9 @@ msgstr "argument saknas"
 #: src/hostname.c:91 src/install.c:1020 src/join.c:996 src/link.c:82
 #: src/ln.c:637 src/logname.c:66 src/mknod.c:186 src/mv.c:463 src/nproc.c:123
 #: src/od.c:1950 src/ptx.c:1978 src/seq.c:612 src/shuf.c:514 src/sort.c:4976
-#: src/split.c:1656 src/tr.c:1760 src/tsort.c:570 src/tty.c:114 src/uname.c:303
-#: src/uniq.c:538 src/uniq.c:555 src/unlink.c:78 src/uptime.c:202
-#: src/users.c:142 src/wc.c:881 src/who.c:841 src/whoami.c:74
+#: src/split.c:1656 src/tr.c:1760 src/tsort.c:570 src/tty.c:114
+#: src/uname.c:303 src/uniq.c:538 src/uniq.c:555 src/unlink.c:78
+#: src/uptime.c:202 src/users.c:142 src/wc.c:881 src/who.c:841 src/whoami.c:74
 #, c-format
 msgid "extra operand %s"
 msgstr "extra operand %s"
@@ -1438,12 +1456,9 @@ msgid ""
 msgstr ""
 "\n"
 "Data kodas enligt beskrivningen av %s-alfabetet i RFC 4648.\n"
-"Vid "
-"avkodning får indata innehålla nyradstecken utöver de byte som\n"
-"tillhör det definierade %s-alfabetet. Använd --ignore-garbage för "
-"att\n"
-"försöka hantera andra byte utanför alfabetet i den kodade "
-"strömmen.\n"
+"Vid avkodning får indata innehålla nyradstecken utöver de byte som\n"
+"tillhör det definierade %s-alfabetet. Använd --ignore-garbage för att\n"
+"försöka hantera andra byte utanför alfabetet i den kodade strömmen.\n"
 
 #: src/basenc.c:878
 #, c-format
@@ -1536,8 +1551,11 @@ msgid "  -u                       (ignored)\n"
 msgstr "  -u                       (ignorerad)\n"
 
 #: src/cat.c:130
-msgid "  -v, --show-nonprinting   use ^ and M- notation, except for LFD and TAB\n"
-msgstr "  -v, --show-nonprinting   använd notationen ^ och M-, utom för nyrad och TAB\n"
+msgid ""
+"  -v, --show-nonprinting   use ^ and M- notation, except for LFD and TAB\n"
+msgstr ""
+"  -v, --show-nonprinting   använd notationen ^ och M-, utom för nyrad och "
+"TAB\n"
 
 #: src/cat.c:135
 #, c-format
@@ -1549,7 +1567,7 @@ msgid ""
 msgstr ""
 "\n"
 "Exempel:\n"
-"  %s f - g  Skriv f:s innehåll, därefter standard in, och sedan g:s innehåll.\n"
+"  %s f - g  Skriv f:s innehåll, därefter standard in och sedan g:s innehåll.\n"
 "  %s        Kopiera standard in till standard ut.\n"
 
 #: src/cat.c:316
@@ -1579,10 +1597,10 @@ msgstr "Russell Coker"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/chcon.c:37 src/chmod.c:40 src/chown.c:37 src/cp.c:45 src/cut.c:48
-#: src/dirname.c:33 src/du.c:55 src/head.c:46 src/hostid.c:31 src/hostname.c:31
-#: src/mktemp.c:34 src/mv.c:44 src/nohup.c:33 src/od.c:41 src/pathchk.c:32
-#: src/pwd.c:30 src/rm.c:41 src/sleep.c:32 src/sync.c:31 src/tail.c:75
-#: src/tr.c:36 src/true.c:26
+#: src/dirname.c:33 src/du.c:55 src/head.c:46 src/hostid.c:31
+#: src/hostname.c:31 src/mktemp.c:34 src/mv.c:44 src/nohup.c:33 src/od.c:41
+#: src/pathchk.c:32 src/pwd.c:30 src/rm.c:41 src/sleep.c:32 src/sync.c:31
+#: src/tail.c:75 src/tr.c:36 src/true.c:26
 msgid "Jim Meyering"
 msgstr "Jim Meyering"
 
@@ -1729,9 +1747,8 @@ msgid ""
 "      --reference=RFILE\n"
 "         use RFILE's security context rather than specifying a CONTEXT value\n"
 msgstr ""
-"      --reference=RFIL\n"
-"         använd RFIL:s säkerhetskontext istället för att ange\n"
-"         ett KONTEXT-värde\n"
+"--reference=RFIL använd RFIL:s säkerhetskontext istället för att ange ett KONTEXT-värde\n"
+"\n"
 
 #: src/chcon.c:414 src/chown.c:140
 msgid ""
@@ -1791,7 +1808,8 @@ msgstr "hämtar nya attribut för %s"
 #: src/chmod.c:170 src/chown-core.c:159
 #, c-format
 msgid "neither symbolic link %s nor referent has been changed\n"
-msgstr "varken den symboliska länken %s eller det den refererar till har ändrats\n"
+msgstr ""
+"varken den symboliska länken %s eller det den refererar till har ändrats\n"
 
 #: src/chmod.c:175
 #, c-format
@@ -2068,10 +2086,9 @@ msgid ""
 "OWNER and GROUP may be numeric as well as symbolic.\n"
 msgstr ""
 "\n"
-"Ägaren byts inte om den utelämnas.  Grupp byts inte om utelämnad,\n"
-"men byts till inloggningsgrupp om underförstådd av ”:” efter en\n"
-"symbolisk ÄGARE.  ÄGARE och GRUPP kan vara numeriska såväl som\n"
-"symboliska.\n"
+"Ägaren byts inte om den utelämnas. Grupp byts inte om utelämnad, men byts till\n"
+"inloggningsgrupp om underförstådd av ”:” efter en symbolisk ÄGARE. ÄGARE och\n"
+"GRUPP kan vara numeriska såväl som symboliska.\n"
 
 #: src/chown.c:156
 #, c-format
@@ -2388,8 +2405,8 @@ msgid ""
 "         and disable file name escaping\n"
 msgstr ""
 "  -z, --zero\n"
-"         avsluta varje utmatad rad med NUL, inte nyrad,\n"
-"         och återge filnamn utan escape-sekvenser\n"
+"         avsluta varje utmatad rad med NUL, inte\n"
+"         nyrad och återge filnamn utan escape-sekvenser\n"
 
 #: src/cksum.c:632
 msgid ""
@@ -2397,8 +2414,7 @@ msgid ""
 "The following five options are useful only when verifying checksums:\n"
 msgstr ""
 "\n"
-"De fem följande flaggorna är användbara enbart vid verifikation av\n"
-"kontrollsummor:\n"
+"De fem följande flaggorna är användbara enbart vid verifikation av kontrollsummor:\n"
 
 #: src/cksum.c:636
 msgid ""
@@ -2628,13 +2644,17 @@ msgstr "flaggan --tag är meningslös när kontrollsummor verifieras"
 
 #: src/cksum.c:1797
 #, c-format
-msgid "the --binary and --text options are meaningless when verifying checksums"
-msgstr "flaggorna --binary och --text är meningslösa när kontrollsummor verifieras"
+msgid ""
+"the --binary and --text options are meaningless when verifying checksums"
+msgstr ""
+"flaggorna --binary och --text är meningslösa när kontrollsummor verifieras"
 
 #: src/cksum.c:1805
 #, c-format
-msgid "the --ignore-missing option is meaningful only when verifying checksums"
-msgstr "flaggan --ignore-missing är meningsfull enbart när kontrollsummor verifieras"
+msgid ""
+"the --ignore-missing option is meaningful only when verifying checksums"
+msgstr ""
+"flaggan --ignore-missing är meningsfull enbart när kontrollsummor verifieras"
 
 #: src/cksum.c:1813
 #, c-format
@@ -2810,7 +2830,7 @@ msgstr ""
 "\n"
 "Exempel:\n"
 "  %s -12 fil1 fil2  Skriv ut endast rader som finns i både fil1 och fil2.\n"
-"  %s -3  fil1 fil2  Skriv ut rader i fil1 som inte finns i fil2, och omvänt.\n"
+"  %s -3  fil1 fil2  Skriv ut rader i fil1 som inte finns i fil2 och omvänt.\n"
 
 #: src/comm.c:244
 #, c-format
@@ -2994,12 +3014,14 @@ msgstr "kommer inte skriva över nyligen skapade %s med %s"
 #: src/copy.c:1926
 #, c-format
 msgid "backing up %s might destroy source;  %s not moved"
-msgstr "säkerhetskopiering av %s skulle kunna förstöra källan;  %s flyttades inte"
+msgstr ""
+"säkerhetskopiering av %s skulle kunna förstöra källan;  %s flyttades inte"
 
 #: src/copy.c:1927
 #, c-format
 msgid "backing up %s might destroy source;  %s not copied"
-msgstr "säkerhetskopiering av %s skulle kunna förstöra källan;  %s kopierades inte"
+msgstr ""
+"säkerhetskopiering av %s skulle kunna förstöra källan;  %s kopierades inte"
 
 #: src/copy.c:1953 src/ln.c:300
 #, c-format
@@ -3482,7 +3504,8 @@ msgstr ""
 "  -Z\n"
 "         sätt SELinux-säkerhetskontext på destinationsfiler till standardtypen\n"
 
-#: src/cp.c:307 src/install.c:698 src/mkdir.c:82 src/mkfifo.c:67 src/mknod.c:69
+#: src/cp.c:307 src/install.c:698 src/mkdir.c:82 src/mkfifo.c:67
+#: src/mknod.c:69
 msgid ""
 "      --context[=CTX]\n"
 "         like -Z, or if CTX is specified then set the\n"
@@ -3518,11 +3541,11 @@ msgid ""
 "Use --sparse=never to inhibit creation of sparse files.\n"
 msgstr ""
 "\n"
-"Normalt upptäcks en gles KÄLLA med en grov heuristik och motsvarande\n"
-"DEST görs likaledes gles.  Det beteendet väljs av --sparse=auto.  Ange\n"
+"Normalt upptäcks en gles KÄLLA med en grov heuristik och motsvarande DEST\n"
+"görs likaledes gles. Det beteendet väljs av --sparse=auto. Ange\n"
 "--sparse=always för att alltid göra DEST gles när KÄLLA innehåller\n"
-"tillräckligt långa nollbytesekvenser.  Ange --sparse=never för att\n"
-"hindra skapandet av glesa filer.\n"
+"tillräckligt långa nollbytesekvenser. Ange --sparse=never för att hindra\n"
+"skapandet av glesa filer.\n"
 
 #: src/cp.c:331
 msgid ""
@@ -3534,10 +3557,9 @@ msgid ""
 msgstr ""
 "\n"
 "Som standard eller med --reflink=auto kommer cp försöka med en\n"
-"lättviktskopiering, där datablocken endast kopieras när de ändras, och\n"
-"faller tillbaka till en standardkopiering om detta inte är möjligt.\n"
-"Med --reflink[=always] kommer cp misslyckas om CoW inte kan användas, medan\n"
-"--reflink=never säkerställer att en standardkopiering görs.\n"
+"lättviktskopiering, där datablocken endast kopieras när de ändras och faller\n"
+"tillbaka till en standardkopiering om detta inte är möjligt. Med\n"
+"--reflink[=always] kommer cp misslyckas om CoW inte kan användas, medan --reflink=never säkerställer att en standardkopiering görs.\n"
 
 #: src/cp.c:339
 msgid ""
@@ -3548,7 +3570,7 @@ msgid ""
 msgstr ""
 "\n"
 "Som ett specialfall gör cp en säkerhetskopia av KÄLLA när force- och\n"
-"backup-flaggorna är givna, och KÄLLA och DEST är samma namn på en befintlig\n"
+"backup-flaggorna är givna och KÄLLA och DEST är samma namn på en befintlig\n"
 "normal fil.\n"
 
 #: src/cp.c:401
@@ -3585,7 +3607,9 @@ msgstr "destinationsfilsoperand saknas efter %s"
 #: src/cp.c:692 src/install.c:1016 src/mv.c:459
 #, c-format
 msgid "cannot combine --target-directory (-t) and --no-target-directory (-T)"
-msgstr "det går inte att kombinera --target-directory (-t) och --no-target-directory (-T)"
+msgstr ""
+"det går inte att kombinera --target-directory (-t) och --no-target-directory"
+" (-T)"
 
 #: src/cp.c:704 src/mv.c:471
 #, c-format
@@ -3615,7 +3639,8 @@ msgstr "varning: ignorerar --context"
 #: src/cp.c:1229 src/install.c:963
 #, c-format
 msgid "warning: ignoring --context; it requires an SELinux-enabled kernel"
-msgstr "varning: ignorerar --context; det kräver en kärna som har SELinux aktiverat"
+msgstr ""
+"varning: ignorerar --context; det kräver en kärna som har SELinux aktiverat"
 
 #: src/cp.c:1257
 #, c-format
@@ -3775,7 +3800,7 @@ msgid ""
 "Output pieces of FILE separated by PATTERN(s) to files 'xx00', 'xx01', ...,\n"
 "and output byte counts of each piece to standard output.\n"
 msgstr ""
-"Skriv ut delar av FIL avdelade med MÖNSTER till filer ”xx00”, ”xx01”, …,\n"
+"Skriv ut delar av FIL avdelade med MÖNSTER till filer ”xx00”, ”xx01”, …\n"
 "och skriv ut antal byte för varje del till standard ut.\n"
 
 #: src/csplit.c:1409
@@ -3857,10 +3882,10 @@ msgid ""
 msgstr ""
 "\n"
 "Varje MÖNSTER kan vara:\n"
-"  HELTAL              kopiera fram till men inte inklusive angiven rad\n"
+"  INTEGER              kopiera fram till men inte inklusive angiven rad\n"
 "  /REGUTTR/[FÖRSKJUTNING]  kopiera fram till men inte inklusive matchande rad\n"
 "  %REGUTTR%[FÖRSKJUTNING]  hoppa fram till men inte inklusive matchande rad\n"
-"  {HELTAL}            upprepa föregående mönster HELTAL gånger\n"
+"  {INTEGER}            upprepa föregående mönster INTEGER gånger\n"
 "  {*}                 upprepa föregående mönster så många gånger som möjligt\n"
 "\n"
 "En radförskjutning är ett heltal som kan föregås av ”+” eller ”-”.\n"
@@ -3975,7 +4000,7 @@ msgstr ""
 "\n"
 "Använd en och endast en av -b, -c, -f eller -F.  Varje LISTA består av ett\n"
 "intervall, eller flera intervall avskiljda med komman.  Utvalda indata\n"
-"skrivs i samma ordning som de läses, och skrivs exakt en gång.\n"
+"skrivs i samma ordning som de läses och skrivs exakt en gång.\n"
 
 #: src/cut.c:247
 msgid ""
@@ -4186,7 +4211,9 @@ msgstr "  %t    \\t          en tabulator\n"
 
 #: src/date.c:213
 msgid "  %C    20          century; like %Y, except omit last two digits\n"
-msgstr "  %C    20          århundrade; som %Y, men utelämna de sista två siffrorna\n"
+msgstr ""
+"  %C    20          århundrade; som %Y, men utelämna de sista två "
+"siffrorna\n"
 
 #: src/date.c:216
 msgid "  %y    99          year (last two digits; 00..99)\n"
@@ -4198,12 +4225,16 @@ msgstr "  %Y    1999        år\n"
 
 #: src/date.c:222
 #, c-format
-msgid "  %g    99          year of ISO week number (last 2 digits; 00-99); see %G\n"
-msgstr "  %g    99          ISO-veckonumrets år (sista 2 siffrorna; 00-99); se %G\n"
+msgid ""
+"  %g    99          year of ISO week number (last 2 digits; 00-99); see %G\n"
+msgstr ""
+"  %g    99          ISO-veckonumrets år (sista 2 siffrorna; 00-99); se %G\n"
 
 #: src/date.c:225
-msgid "  %G    1999        year of ISO week number; normally useful only with %V\n"
-msgstr "  %G    1999        ISO-veckonumrets år; normalt bara meningsfullt med %V\n"
+msgid ""
+"  %G    1999        year of ISO week number; normally useful only with %V\n"
+msgstr ""
+"  %G    1999        ISO-veckonumrets år; normalt bara meningsfullt med %V\n"
 
 #: src/date.c:231
 #, c-format
@@ -4257,8 +4288,11 @@ msgstr "  %x    1999-12-31  lokalens datum (kan vara tvetydigt)\n"
 
 #: src/date.c:264
 #, c-format
-msgid "  %c    ...         locale's date and time (e.g., Thu Mar  3 23:05 2005)\n"
-msgstr "  %c    …           lokalens datum och tid (t.ex., tor  3 mar 2005 23:05:00)\n"
+msgid ""
+"  %c    ...         locale's date and time (e.g., Thu Mar  3 23:05 2005)\n"
+msgstr ""
+"  %c    …           lokalens datum och tid (t.ex., tor  3 mar 2005 "
+"23:05:00)\n"
 
 #: src/date.c:270
 msgid "  %H    23          hour (00..23)\n"
@@ -4296,8 +4330,10 @@ msgstr "  %s    1970010100  sekunder sedan epoken (1970-01-01 00.00 UTC)\n"
 
 #: src/date.c:294
 #, c-format
-msgid "  %p    PM          locale's equivalent of AM or PM; blank if not known\n"
-msgstr "  %p    <blank>     lokalens ekvivalent till fm eller em; blank om okänd\n"
+msgid ""
+"  %p    PM          locale's equivalent of AM or PM; blank if not known\n"
+msgstr ""
+"  %p    <blank>     lokalens ekvivalent till fm eller em; blank om okänd\n"
 
 #: src/date.c:297
 msgid "  %P    am          like %p, but lower case\n"
@@ -4339,15 +4375,22 @@ msgstr "  %w    6           dag i veckan (0..6); 0 är söndag\n"
 
 #: src/date.c:327
 msgid "  %U    52          week of year; Sunday as first day of week (00..53)\n"
-msgstr "  %U    52          vecka på året; söndag som första dagen i veckan (00..53)\n"
+msgstr ""
+"  %U    52          vecka på året; söndag som första dagen i veckan "
+"(00..53)\n"
 
 #: src/date.c:330
-msgid "  %V    52          ISO week number; Monday as first day of week (01..53)\n"
-msgstr "  %V    52          ISO-veckonummer; måndag är första dagen i veckan (01..53)\n"
+msgid ""
+"  %V    52          ISO week number; Monday as first day of week (01..53)\n"
+msgstr ""
+"  %V    52          ISO-veckonummer; måndag är första dagen i veckan "
+"(01..53)\n"
 
 #: src/date.c:333
 msgid "  %W    52          week of year; Monday as first day of week (00..53)\n"
-msgstr "  %W    52          vecka på året; måndag är första dagen i veckan (00..53)\n"
+msgstr ""
+"  %W    52          vecka på året; måndag är första dagen i veckan "
+"(00..53)\n"
 
 #: src/date.c:339
 msgid "  %z     +0400      +hhmm numeric time zone\n"
@@ -4393,7 +4436,7 @@ msgstr ""
 "  -  (bindestreck) fyll inte ut fältet\n"
 "  _  (understrykning) fyll ut med blanksteg\n"
 "  0  (noll) fyll ut med nollor\n"
-"  +  fyll ut med nollor, och skriv ut ”+” före framtida år med >4 siffror\n"
+"  +  fyll ut med nollor och skriv ut ”+” före framtida år med >4 siffror\n"
 "  ^  använd versaler om möjligt\n"
 "  #  använd motsatt skiftläge om möjligt\n"
 
@@ -4453,7 +4496,8 @@ msgstr "flaggorna för att ange datum för utskrift är ömsesidigt uteslutande"
 #: src/date.c:672
 #, c-format
 msgid "the options to print and set the time may not be used together"
-msgstr "flaggorna för utskrift och för tidsinställning får inte användas tillsammans"
+msgstr ""
+"flaggorna för utskrift och för tidsinställning får inte användas tillsammans"
 
 #: src/date.c:677
 #, c-format
@@ -4478,8 +4522,7 @@ msgid ""
 "argument must be a format string beginning with '+'"
 msgstr ""
 "argumentet %s saknar ett inledande ”+”;\n"
-"när en flagga används för att ange datum måste varje argument som "
-"inte\n"
+"när en flagga används för att ange datum måste varje argument som inte\n"
 "är en flagga vara en formatsträng som börjar med ”+”"
 
 #: src/date.c:797
@@ -4523,8 +4566,10 @@ msgid "  cbs=BYTES       convert BYTES bytes at a time\n"
 msgstr "  cbs=BYTE        konvertera BYTE byte åt gången\n"
 
 #: src/dd.c:542
-msgid "  conv=CONVS      convert the file as per the comma separated symbol list\n"
-msgstr "  conv=KONV:ar    konvertera filen enligt den kommaseparerade symbollistan\n"
+msgid ""
+"  conv=CONVS      convert the file as per the comma separated symbol list\n"
+msgstr ""
+"  conv=KONV:ar    konvertera filen enligt den kommaseparerade symbollistan\n"
 
 #: src/dd.c:545
 msgid "  count=N         copy only N input blocks\n"
@@ -4556,7 +4601,7 @@ msgstr "  oflag=FLAGGOR   skriv enligt den kommaseparerade symbollistan\n"
 
 #: src/dd.c:566
 msgid "  seek=N          (or oseek=N) skip N obs sized output blocks\n"
-msgstr "  seek=N          (eller oseek=N) hoppa över N obs-stora utdatablock\n"
+msgstr "  seek=N (eller oseek=N) hoppa över N obs-stora utdatablock\n"
 
 #: src/dd.c:569
 msgid "  skip=N          (or iseek=N) skip N ibs sized input blocks\n"
@@ -4589,8 +4634,8 @@ msgstr ""
 "\n"
 "N och BYTE kan följas av de följande multiplikativa ändelserna:\n"
 "c=1, w=2, b=512, kB=1000, K=1024, MB=1000·1000, M=1024·1024, xM=M,\n"
-"GB=1000·1000·1000, G=1024·1024·1024, och så vidare för T, P, E, Z, Y, R, Q.\n"
-"Binära prefix kan också användas: KiB=K, MiB=M, och så vidare.\n"
+"GB=1000·1000·1000, G=1024·1024·1024 och så vidare för T, P, E, Z, Y, R, Q.\n"
+"Binära prefix kan också användas: KiB=K, MiB=M och så vidare.\n"
 "Om N slutar i ”B” räknar den byte inte block.\n"
 "\n"
 "Varje KONV-symbol kan vara:\n"
@@ -4612,17 +4657,15 @@ msgid ""
 msgstr ""
 "  ascii     från EBCDIC till ASCII\n"
 "  ebcdic    från ASCII till EBCDIC\n"
-"  ibm       från ASCII till en alternativ EBCDIC\n"
+"  ibm       från ASCII till alternativ EBCDIC\n"
 "  block     fyll ut nyradsavslutade poster med blanktecken till cbs-storlek\n"
-"  unblock   ersätt avslutande blanktecken med nyrad i cbs-stora poster\n"
+"  unblock   ersätt avslutande blanktecken i cbs-stora poster med nyrad\n"
 "  lcase     ändra versaler till gemener\n"
 "  ucase     ändra gemener till versaler\n"
-"  sparse    försök flytta filpositionen i stället för att skriva utdatablock\n"
-"            som enbart består av NUL-tecken\n"
+"  sparse    försök flytta filpositionen i stället för att skriva block som enbart består av NUL-tecken\n"
 "  swab      byt plats på varje par av byte i indata\n"
-"  sync      fyll ut varje indatablock med NUL-tecken till ibs-storlek;\n"
-"            med block eller unblock, använd blanktecken"
-" i stället\n"
+"  sync      fyll ut varje indatablock med NUL-tecken till ibs-storlek; använd\n"
+"            blanktecken med block eller unblock i stället för NUL-tecken\n"
 
 #: src/dd.c:602
 msgid ""
@@ -4648,10 +4691,9 @@ msgid ""
 "  append    append mode (makes sense only for output; conv=notrunc suggested)\n"
 msgstr ""
 "\n"
-"Varje FLAGG-symbol kan vara:\n"
+"Varje FLAGG-symbol kan vara: append lägg-till-läge (meningsfullt endast för\n"
+"utmatning, conv=notrunc rekommenderas)\n"
 "\n"
-"  append    lägg-till-läge (meningsfullt endast för utmatning, conv=notrunc\n"
-"              rekommenderas)\n"
 
 #: src/dd.c:617
 msgid "  cio       use concurrent I/O for data\n"
@@ -4721,7 +4763,7 @@ msgid ""
 msgstr ""
 "\n"
 "Att skicka en %s-signal till en körande ”dd”-process får den att\n"
-"skriva in-/utstatistik på standard fel, och sedan fortsätta kopiera.\n"
+"skriva in-/utstatistik på standard fel och sedan fortsätta kopiera.\n"
 "\n"
 "Flaggorna är:\n"
 "\n"
@@ -4796,7 +4838,9 @@ msgstr "skrivning till %s"
 #: src/dd.c:1476
 #, c-format
 msgid "warning: %s is a zero multiplier; use %s if that is intended"
-msgstr "varning: %s är en multiplikator med värdet noll; använd %s om det är vad som avses"
+msgstr ""
+"varning: %s är en multiplikator med värdet noll; använd %s om det är vad som"
+" avses"
 
 #: src/dd.c:1516 src/dd.c:1594
 #, c-format
@@ -4899,8 +4943,11 @@ msgstr "misslyckades med att öppna %s"
 
 #: src/dd.c:2496
 #, c-format
-msgid "offset too large: cannot truncate to a length of seek=%jd (%td-byte) blocks"
-msgstr "positionen är för stor: kan inte ändra längden till seek=%jd block om %td byte"
+msgid ""
+"offset too large: cannot truncate to a length of seek=%jd (%td-byte) blocks"
+msgstr ""
+"positionen är för stor: kan inte ändra längden till seek=%jd block om %td "
+"byte"
 
 #: src/dd.c:2551 src/dd.c:2557
 #, c-format
@@ -5110,7 +5157,7 @@ msgid ""
 msgstr ""
 "      --total\n"
 "         utelämna alla poster som inte påverkar tillgängligt\n"
-"         utrymme, och skriv en totalsumma\n"
+"         utrymme och skriv en totalsumma\n"
 
 #: src/df.c:1559
 msgid ""
@@ -5241,7 +5288,7 @@ msgstr ""
 #: src/dircolors.c:338
 #, c-format
 msgid "%s:%td: invalid line;  missing second token"
-msgstr "%s:%td: ogiltig rad;  inget andra element"
+msgstr "%s:%td: ogiltig rad; inget andra element"
 
 #: src/dircolors.c:393
 #, c-format
@@ -5258,13 +5305,14 @@ msgid ""
 "the options to output non shell syntax,\n"
 "and to select a shell syntax are mutually exclusive"
 msgstr ""
-"flaggorna för att skriva ut icke-skalsyntax,\n"
+"flaggorna för att skriva ut icke-skalsyntax\n"
 "och att välja en skalsyntax är ömsesidigt uteslutande"
 
 #: src/dircolors.c:487
 #, c-format
 msgid "options --print-database and --print-ls-colors are mutually exclusive"
-msgstr "flaggorna --print-database och --print-ls-colors är ömsesidigt uteslutande"
+msgstr ""
+"flaggorna --print-database och --print-ls-colors är ömsesidigt uteslutande"
 
 #: src/dircolors.c:498
 msgid "file operands cannot be combined with --print-database (-p)"
@@ -5273,7 +5321,7 @@ msgstr "filoperander kan inte kombineras med --print-database (-p)"
 #: src/dircolors.c:520
 #, c-format
 msgid "no SHELL environment variable, and no shell type option given"
-msgstr "ingen SHELL-miljövariabel, och ingen flagga för skalvariant angiven"
+msgstr "ingen SHELL-miljövariabel och ingen flagga för skalvariant angiven"
 
 #: src/dirname.c:52
 #, c-format
@@ -5286,10 +5334,9 @@ msgid ""
 "removed; if NAME contains no /'s, output '.' (meaning the current directory).\n"
 "\n"
 msgstr ""
-"Skriv ut NAMN med dess sista snedstrecksfria komponent och avslutande snedstreck\n"
-"borttagna; om NAMN inte innehåller några /, skriv ”.” (som betyder aktuell\n"
-"katalog)\n"
-"\n"
+"Skriv ut NAMN med dess sista snedstrecksfria komponent och avslutande\n"
+"snedstreck borttagna; om NAMN inte innehåller några /, skriv ”.” (som betyder\n"
+"aktuell katalog)\n"
 
 #: src/dirname.c:67
 #, c-format
@@ -5316,8 +5363,11 @@ msgstr ""
 "   eller:   %s [FLAGGA]... --files0-from=F\n"
 
 #: src/du.c:287
-msgid "Summarize device usage of the set of FILEs, recursively for directories.\n"
-msgstr "Sammanfatta enhetsanvändningen för uppsättningen FILer, rekursivt för kataloger.\n"
+msgid ""
+"Summarize device usage of the set of FILEs, recursively for directories.\n"
+msgstr ""
+"Sammanfatta enhetsanvändningen för uppsättningen FILer, rekursivt för "
+"kataloger.\n"
 
 #: src/du.c:293 src/env.c:159 src/printenv.c:72
 msgid ""
@@ -5592,7 +5642,8 @@ msgstr "varning: att summera står i konflikt med --max-depth=%td"
 #: src/du.c:1028
 #, c-format
 msgid "warning: options --apparent-size and -b are ineffective with --inodes"
-msgstr "varning: flaggorna --apparent-size och -b har ingen effekt med --inodes"
+msgstr ""
+"varning: flaggorna --apparent-size och -b har ingen effekt med --inodes"
 
 #: src/du.c:1095 src/sort.c:4978 src/wc.c:883
 msgid "file operands cannot be combined with --files0-from"
@@ -5600,7 +5651,8 @@ msgstr "filoperander kan inte kombineras med --files0-from"
 
 #: src/du.c:1162 src/sort.c:4999 src/wc.c:947
 #, c-format
-msgid "when reading file names from standard input, no file name of %s allowed"
+msgid ""
+"when reading file names from standard input, no file name of %s allowed"
 msgstr "när filnamn läses från standard in tillåts inte filnamnet %s"
 
 #: src/du.c:1179 src/du.c:1187 src/wc.c:960 src/wc.c:967
@@ -5640,7 +5692,8 @@ msgstr "  -n     skriv inte ut den avslutande nyraden\n"
 
 #: src/echo.c:55
 msgid "  -e     enable interpretation of backslash escapes (default)\n"
-msgstr "  -e     slå på tolkning av sekvenser med omvänt snedstreck (standard)\n"
+msgstr ""
+"  -e     slå på tolkning av sekvenser med omvänt snedstreck (standard)\n"
 
 #: src/echo.c:58
 msgid "  -e     enable interpretation of backslash escapes\n"
@@ -5652,7 +5705,8 @@ msgstr "  -E     slå av tolkning av sekvenser med omvänt snedstreck\n"
 
 #: src/echo.c:65
 msgid "  -E     disable interpretation of backslash escapes (default)\n"
-msgstr "  -E     slå av tolkning av sekvenser med omvänt snedstreck (standard)\n"
+msgstr ""
+"  -E     slå av tolkning av sekvenser med omvänt snedstreck (standard)\n"
 
 #: src/echo.c:70
 msgid ""
@@ -6079,16 +6133,17 @@ msgid ""
 "         can be used to align remaining tab stops relative to\n"
 "         the last specified tab stop instead of the first column\n"
 msgstr ""
-"         Den sist angivna positionen kan föregås av ”/” för att\n"
-"         ange en tabulatorstorlek att använda efter den sista\n"
-"         explicit angivna tabulatorpositionen. Vidare kan ett prefix\n"
-"         ”+” användas för att justera de återstående\n"
-"         tabulatorpositionerna relativt den sist angivna\n"
-"         tabulatorpositionen istället för den första kolumnen\n"
+"Den sist angivna positionen kan föregås av ”/” för att ange en\n"
+"tabulatorstorlek att använda efter den sista explicit angivna\n"
+"tabulatorpositionen. Vidare kan ett prefix ”+” användas för att justera de\n"
+"återstående tabulatorpositionerna relativt den sist angivna\n"
+"tabulatorpositionen istället för den första kolumnen\n"
 
 #: src/expand.c:74
 msgid "Convert tabs in each FILE to spaces, writing to standard output.\n"
-msgstr "Konvertera tabulatorer i varje FIL till mellanslag, skriv till standard ut.\n"
+msgstr ""
+"Konvertera tabulatorer i varje FIL till mellanslag, skriv till standard "
+"ut.\n"
 
 #: src/expand.c:81
 msgid ""
@@ -6168,8 +6223,8 @@ msgid ""
 "  ARG1 - ARG2       arithmetic difference of ARG1 and ARG2\n"
 msgstr ""
 "\n"
-"  ARG1 + ARG2       aritmetisk summa av ARG1 och ARG2\n"
-"  ARG1 - ARG2       aritmetisk differens mellan ARG1 och ARG2\n"
+"  ARG1 + ARG2 aritmetisk summa av ARG1 och ARG2\n"
+"  ARG1 - ARG2 aritmetisk differens mellan ARG1 och ARG2\n"
 
 #: src/expr.c:265
 #, no-c-format
@@ -6224,10 +6279,9 @@ msgid ""
 msgstr ""
 "\n"
 "Var medveten om att många operatorer måste skyddas eller citeras för skal.\n"
-"Jämförelser är aritmetiska om båda ARG är tal, annars\n"
-"lexikografiska.  Mönsterträffar returnerar strängen som stämmer\n"
-"mellan \\( och \\), eller tom sträng; om \\( och \\) inte används returnerar\n"
-"de antalet tecken som överensstämmer eller 0.\n"
+"Jämförelser är aritmetiska om båda ARG är tal, annars lexikografiska.\n"
+"Mönsterträffar returnerar strängen som stämmer mellan \\( och \\), eller tom\n"
+"sträng; om \\( och \\) inte används returnerar de antalet tecken som överensstämmer eller 0.\n"
 
 #: src/expr.c:293
 msgid ""
@@ -6516,9 +6570,8 @@ msgid ""
 "Print group memberships for each USERNAME or, if no USERNAME is specified, for\n"
 "the current process (which may differ if the groups database has changed).\n"
 msgstr ""
-"Skriv ut gruppmedlemskap för varje ANVÄNDARNAMN eller, om inget ANVÄNDARNAMN angavs,\n"
-"för den aktuella processen (som kan vara annorlunda om gruppdatabasen har\n"
-"ändrats).\n"
+"Skriv ut gruppmedlemskap för varje ANVÄNDARNAMN eller, om inget ANVÄNDARNAMN\n"
+"angavs, för den aktuella processen (som kan vara annorlunda om gruppdatabasen har ändrats).\n"
 
 #: src/groups.c:101 src/id.c:309
 #, c-format
@@ -6566,10 +6619,9 @@ msgid ""
 "         print the first NUM lines instead of the first %d;\n"
 "         with the leading '-', print all but the last NUM lines of each file\n"
 msgstr ""
-"  -n, --lines=[-]ANT\n"
-"         skriv de första ANT raderna istället för de första %d;\n"
-"         med det inledande ”-”, skriv alla utom de sista ANT raderna av\n"
-"         varje fil\n"
+"-n, --lines=[-]ANT skriv de första ANT raderna istället för de första %d; med\n"
+"det inledande ”-”, skriv alla utom de sista ANT raderna av varje fil\n"
+"\n"
 
 #: src/head.c:130
 msgid ""
@@ -6598,8 +6650,8 @@ msgstr ""
 "\n"
 "ANT kan ha en multiplikativ ändelse:\n"
 "b 512, kB 1000, K 1024, MB 1000·1000, M 1024·1024,\n"
-"GB 1000·1000·1000, G 1024·1024·1024, och så vidare för T, P, E, Z, Y, R, Q.\n"
-"Binära prefix kan också användas: KiB=K, MiB=M, och så vidare.\n"
+"GB 1000·1000·1000, G 1024·1024·1024 och så vidare för T, P, E, Z, Y, R, Q.\n"
+"Binära prefix kan också användas: KiB=K, MiB=M och så vidare.\n"
 
 #: src/head.c:171
 #, c-format
@@ -6947,7 +6999,7 @@ msgid ""
 "         do not modify the destination at all\n"
 msgstr ""
 "  -C, --compare\n"
-"         jämför innehållet i käll- och målfiler, och om innehållet,\n"
+"         jämför innehållet i käll- och målfiler och om innehållet,\n"
 "         ägarskapet och rättigheterna inte skiljer sig, ändra då inte\n"
 "         målet alls\n"
 
@@ -7061,7 +7113,8 @@ msgstr "kan inte öppna %s"
 
 #: src/install.c:937
 #, c-format
-msgid "WARNING: ignoring --preserve-context; this kernel is not SELinux-enabled"
+msgid ""
+"WARNING: ignoring --preserve-context; this kernel is not SELinux-enabled"
 msgstr "VARNING: ignorerar --preserve-context; denna kärna har inte SELinux."
 
 #: src/install.c:977
@@ -7086,8 +7139,10 @@ msgstr "ogiltig rättighet %s"
 
 #: src/install.c:1057
 #, c-format
-msgid "WARNING: ignoring --strip-program option as -s option was not specified"
-msgstr "VARNING: ignorerar flaggan --strip-program eftersom flaggan -s inte angavs"
+msgid ""
+"WARNING: ignoring --strip-program option as -s option was not specified"
+msgstr ""
+"VARNING: ignorerar flaggan --strip-program eftersom flaggan -s inte angavs"
 
 #: src/install.c:1062
 #, c-format
@@ -7096,8 +7151,12 @@ msgstr "flaggorna --compare (-C) och --strip är ömsesidigt uteslutande"
 
 #: src/install.c:1068
 #, c-format
-msgid "the --compare (-C) option is ignored when you specify a mode with non-permission bits"
-msgstr "flaggan --compare (-C) ignoreras när du anger ett läge med andra bitar än rättighetsbitar"
+msgid ""
+"the --compare (-C) option is ignored when you specify a mode with non-"
+"permission bits"
+msgstr ""
+"flaggan --compare (-C) ignoreras när du anger ett läge med andra bitar än "
+"rättighetsbitar"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/join.c:40 src/sort.c:69
@@ -7235,21 +7294,20 @@ msgid ""
 "warning message will be given.\n"
 msgstr ""
 "\n"
-"Om inte -t TECKEN är givet separeras fält av inledande mellanslag\n"
-"som ignoreras, annars separeras fält av TECKEN.  Varje FÄLT är ett\n"
-"fältnummer räknat från 1.  FORMAT är en eller flera specifikationer\n"
-"åtskilda med komma eller mellanslag, var och en är ”FILNUM.FÄLT”\n"
-"eller ”0”.  Normalvärdet för FORMAT skriver ut föreningsfältet, de\n"
-"kvarvarande fälten från FIL1, de kvarvarande fälten från FIL2, allt\n"
-"separerat med TECKEN.  Om FORMAT är nyckelordet ”auto” avgör första\n"
-"raden av varje fil antalet fält som skrivs ut för varje rad.\n"
+"Om inte -t TECKEN är givet separeras fält av inledande mellanslag som\n"
+"ignoreras, annars separeras fält av TECKEN. Varje FÄLT är ett fältnummer\n"
+"räknat från 1. FORMAT är en eller flera specifikationer åtskilda med komma\n"
+"eller mellanslag, var och en är ”FILNUM.FÄLT” eller ”0”. Normalvärdet för\n"
+"FORMAT skriver ut föreningsfältet, de kvarvarande fälten från FIL1, de\n"
+"kvarvarande fälten från FIL2, allt separerat med TECKEN. Om FORMAT är\n"
+"nyckelordet ”auto” avgör första raden av varje fil antalet fält som skrivs ut\n"
+"för varje rad. Viktigt: FIL1 och FIL2 måste vara sorterade på föreningsfälten.\n"
+"T.ex., använd ”sort -k 1b,1” om ”join” inte har några flaggor, eller använd\n"
+"”join -t ''” om ”sort” inte har några flaggor. Jämförelser tar hänsyn till\n"
+"reglerna som anges av ”LC_COLLATE”. Om indata inte är sorterade och några\n"
+"rader inte kan förenas, ges ett varningsmeddelande.\n"
 "\n"
-"Viktigt: FIL1 och FIL2 måste vara sorterade på föreningsfälten.\n"
-"T.ex., använd ”sort -k 1b,1” om ”join” inte har några flaggor,\n"
-"eller använd ”join -t ''” om ”sort” inte har några flaggor.\n"
-"Jämförelser tar hänsyn till reglerna som anges av ”LC_COLLATE”.\n"
-"Om indata inte är sorterade och några rader inte kan förenas, ges ett\n"
-"varningsmeddelande.\n"
+"\n"
 
 #: src/join.c:452
 #, c-format
@@ -7329,9 +7387,8 @@ msgid ""
 "  -l, --list\n"
 "         list signal names, or convert signal names to/from numbers\n"
 msgstr ""
-"  -l, --list\n"
-"         räkna upp signalnamn, eller konvertera signalnamn till/från\n"
-"         nummer\n"
+"-l, --list räkna upp signalnamn, eller konvertera signalnamn till/från nummer\n"
+"\n"
 
 #: src/kill.c:79
 msgid ""
@@ -7417,8 +7474,7 @@ msgid ""
 "Call the link function to create a link named FILE2 to an existing FILE1.\n"
 "\n"
 msgstr ""
-"Anropa funktionen link för att skapa en länk som heter FIL2 till en\n"
-"befintlig FIL1.\n"
+"Anropa funktionen link för att skapa en länk som heter FIL2 till en befintlig FIL1.\n"
 "\n"
 
 #: src/link.c:87
@@ -7615,7 +7671,8 @@ msgstr "kan inte göra --relative utan --symbolic"
 #: src/ln.c:628
 #, c-format
 msgid "cannot combine --target-directory and --no-target-directory"
-msgstr "det går inte att kombinera --target-directory och --no-target-directory"
+msgstr ""
+"det går inte att kombinera --target-directory och --no-target-directory"
 
 #: src/logname.c:37
 #, c-format
@@ -8195,8 +8252,8 @@ msgid ""
 "  -v\n"
 "         natural sort of (version) numbers within text\n"
 msgstr ""
-"  -v\n"
-"         naturlig sortering av (versions)nummer i text\n"
+"  -v naturlig\n"
+"         sortering av (versions)nummer i text\n"
 
 #: src/ls.c:5631
 msgid ""
@@ -8211,8 +8268,8 @@ msgid ""
 "  -x\n"
 "         list entries by lines instead of by columns\n"
 msgstr ""
-"  -x\n"
-"         lista poster radvis istället för kolumnvis\n"
+"  -x lista\n"
+"         poster radvis istället för kolumnvis\n"
 
 #: src/ls.c:5639
 msgid ""
@@ -8257,11 +8314,10 @@ msgid ""
 msgstr ""
 "\n"
 "Argumentet TIDSSTIL kan vara full-iso, long-iso, iso, locale eller +FORMAT.\n"
-"FORMAT tolkas som i date(1).  Om FORMAT är FORMAT1<nyrad>FORMAT2, då används\n"
-"FORMAT1 för gamla filer och FORMAT2 för nyare filer.  TIDSSTIL med prefixet\n"
-"”posix-” har effekt endast utanför lokalen POSIX.\n"
-"\n"
-"Vidare anger miljövariabeln TIME_STYLE standardstilen att använda.\n"
+"FORMAT tolkas som i date(1). Om FORMAT är FORMAT1<nyrad>FORMAT2, då används\n"
+"FORMAT1 för gamla filer och FORMAT2 för nyare filer. TIDSSTIL med prefixet\n"
+"”posix-” har effekt endast utanför lokalen POSIX. Vidare anger miljövariabeln\n"
+"TIME_STYLE standardstilen att använda.\n"
 
 #: src/ls.c:5666
 msgid ""
@@ -8269,8 +8325,7 @@ msgid ""
 "The WHEN argument defaults to 'always' and can also be 'auto' or 'never'.\n"
 msgstr ""
 "\n"
-"Argumentet ”NÄR” är som standard ”always” och kan även vara ”auto” eller\n"
-"”never”.\n"
+"Argumentet ”NÄR” är som standard ”always” och kan även vara ”auto” eller ”never”.\n"
 
 #: src/ls.c:5670
 msgid ""
@@ -8281,11 +8336,10 @@ msgid ""
 "variable can change the settings.  Use the dircolors(1) command to set it.\n"
 msgstr ""
 "\n"
-"Användning av färger för att särskilja filtyper är avslagen både som\n"
-"standard och med --color=never.  Med --color=auto, skriver ls ut\n"
-"färgkoder endast när standard ut är anslutet till en terminal.\n"
-"Miljövariabeln LS_COLORS kan ändra inställningen.  Använd kommandot\n"
-"dircolors(1) för att sätta den.\n"
+"Användning av färger för att särskilja filtyper är avslagen både som standard\n"
+"och med --color=never. Med --color=auto, skriver ls ut färgkoder endast när\n"
+"standard ut är anslutet till en terminal. Miljövariabeln LS_COLORS kan ändra\n"
+"inställningen. Använd kommandot dircolors(1) för att sätta den.\n"
 
 #: src/ls.c:5677
 msgid ""
@@ -8353,7 +8407,8 @@ msgstr "skapade katalog %s"
 
 #: src/mkdir.c:257 src/mkfifo.c:123 src/mknod.c:139
 #, c-format
-msgid "warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel"
+msgid ""
+"warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel"
 msgstr "varning: ignorerar --context; det kräver en kärna med SELinux/SMACK"
 
 #: src/mkfifo.c:52 src/pathchk.c:87
@@ -8414,7 +8469,7 @@ msgid ""
 "otherwise, as decimal.  TYPE may be:\n"
 msgstr ""
 "\n"
-"Både ÖVRE och LÄGRE måste anges när TYP är b, c eller u, och de får\n"
+"Både ÖVRE och LÄGRE måste anges när TYP är b, c eller u och de får\n"
 "inte anges när TYP är p. Om ÖVRE eller LÄGRE börjar med 0x eller 0X\n"
 "tolkas det som hexadecimalt; annars, om det börjar med 0 som oktalt;\n"
 "annars som decimalt. TYP får vara:\n"
@@ -8485,13 +8540,15 @@ msgid ""
 "TEMPLATE must contain at least 3 consecutive 'X's in last component.\n"
 "If TEMPLATE is not specified, use tmp.XXXXXXXXXX, and --tmpdir is implied.\n"
 msgstr ""
-"Skapa en temporärfil eller -katalog, säkert, och skriv dess namn.\n"
+"Skapa en temporärfil eller -katalog, säkert och skriv dess namn.\n"
 "MALL måste innehålla åtminstone 3 ”X” i följd i sin sista komponent.\n"
-"Om MALL inte är angiven, används tmp.XXXXXXXXXX, och --tmpdir är implicit.\n"
+"Om MALL inte är angiven, används tmp.XXXXXXXXXX och --tmpdir är implicit.\n"
 
 #: src/mktemp.c:71
-msgid "Files are created u+rw, and directories u+rwx, minus umask restrictions.\n"
-msgstr "Filer skapas u+rw, och kataloger u+rwx, minus begränsningar från umask.\n"
+msgid ""
+"Files are created u+rw, and directories u+rwx, minus umask restrictions.\n"
+msgstr ""
+"Filer skapas u+rw och kataloger u+rwx, minus begränsningar från umask.\n"
 
 #: src/mktemp.c:75
 msgid ""
@@ -8624,8 +8681,11 @@ msgstr ""
 "         fråga innan något skrivs över\n"
 
 #: src/mv.c:293
-msgid "If you specify more than one of -i, -f, -n, only the final one takes effect.\n"
-msgstr "Om man anger mer än en av -i, -f, -n har endast den sista någon effekt.\n"
+msgid ""
+"If you specify more than one of -i, -f, -n, only the final one takes "
+"effect.\n"
+msgstr ""
+"Om man anger mer än en av -i, -f, -n har endast den sista någon effekt.\n"
 
 #: src/mv.c:296
 msgid ""
@@ -8654,7 +8714,9 @@ msgstr ""
 #: src/mv.c:530
 #, c-format
 msgid "cannot combine --backup with --exchange, -n, or --update=none-fail"
-msgstr "det går inte att kombinera --backup med --exchange, -n eller --update=none-fail"
+msgstr ""
+"det går inte att kombinera --backup med --exchange, -n eller --update=none-"
+"fail"
 
 #: src/nice.c:72
 #, c-format
@@ -8669,9 +8731,8 @@ msgid ""
 "%d (most favorable to the process) to %d (least favorable to the process).\n"
 msgstr ""
 "Kör KOMMANDO med justerat nice-värde, vilket påverkar processens\n"
-"schemaläggning.  Utan KOMMANDO skrivs nuvarande nice-värde.\n"
-"Nice-värden går från %d (mest gynnsamt för processen) till %d (minst\n"
-"gynnsamt för processen).\n"
+"schemaläggning. Utan KOMMANDO skrivs nuvarande nice-värde. Nice-värden går\n"
+"från %d (mest gynnsamt för processen) till %d (minst gynnsamt för processen).\n"
 
 #: src/nice.c:82
 msgid ""
@@ -8712,43 +8773,66 @@ msgstr "Skriv varje FIL till standard ut och lägg till radnummer.\n"
 
 #: src/nl.c:192
 msgid "  -b, --body-numbering=STYLE      use STYLE for numbering body lines\n"
-msgstr "  -b, --body-numbering=STIL       använd STIL för att numrera rader i brödtexten\n"
+msgstr ""
+"  -b, --body-numbering=STIL       använd STIL för att numrera rader i "
+"brödtexten\n"
 
 #: src/nl.c:195
 msgid "  -d, --section-delimiter=CC      use CC for logical page delimiters\n"
-msgstr "  -d, --section-delimiter=CC      använd CC som avgränsare för logiska sidor\n"
+msgstr ""
+"  -d, --section-delimiter=CC      använd CC som avgränsare för logiska "
+"sidor\n"
 
 #: src/nl.c:198
 msgid "  -f, --footer-numbering=STYLE    use STYLE for numbering footer lines\n"
-msgstr "  -f, --footer-numbering=STIL     använd STIL för att numrera rader i sidfoten\n"
+msgstr ""
+"  -f, --footer-numbering=STIL     använd STIL för att numrera rader i "
+"sidfoten\n"
 
 #: src/nl.c:201
 msgid "  -h, --header-numbering=STYLE    use STYLE for numbering header lines\n"
-msgstr "  -h, --header-numbering=STIL     använd STIL för att numrera rader i sidrubriken\n"
+msgstr ""
+"  -h, --header-numbering=STIL     använd STIL för att numrera rader i "
+"sidrubriken\n"
 
 #: src/nl.c:204
 msgid "  -i, --line-increment=NUMBER     line number increment at each line\n"
-msgstr "  -i, --line-increment=ANTAL      öka radnummer med ANTAL för varje rad\n"
+msgstr ""
+"  -i, --line-increment=ANTAL      öka radnummer med ANTAL för varje rad\n"
 
 #: src/nl.c:207
-msgid "  -l, --join-blank-lines=NUMBER   group of NUMBER empty lines counted as one\n"
-msgstr "  -l, --join-blank-lines=ANTAL    grupp med ANTAL tomma rader räknade som en\n"
+msgid ""
+"  -l, --join-blank-lines=NUMBER   group of NUMBER empty lines counted as "
+"one\n"
+msgstr ""
+"  -l, --join-blank-lines=ANTAL    grupp med ANTAL tomma rader räknade som "
+"en\n"
 
 #: src/nl.c:210
-msgid "  -n, --number-format=FORMAT      insert line numbers according to FORMAT\n"
+msgid ""
+"  -n, --number-format=FORMAT      insert line numbers according to FORMAT\n"
 msgstr "  -n, --number-format=FORMAT      följ FORMAT när radnummer sätts in\n"
 
 #: src/nl.c:213
-msgid "  -p, --no-renumber               do not reset line numbers for each section\n"
-msgstr "  -p, --no-renumber               börja inte om radnummer för varje avsnitt\n"
+msgid ""
+"  -p, --no-renumber               do not reset line numbers for each "
+"section\n"
+msgstr ""
+"  -p, --no-renumber               börja inte om radnummer för varje "
+"avsnitt\n"
 
 #: src/nl.c:216
-msgid "  -s, --number-separator=STRING   add STRING after (possible) line number\n"
-msgstr "  -s, --number-separator=STRÄNG   lägg till STRÄNG efter eventuellt radnummer\n"
+msgid ""
+"  -s, --number-separator=STRING   add STRING after (possible) line number\n"
+msgstr ""
+"  -s, --number-separator=STRÄNG   lägg till STRÄNG efter eventuellt "
+"radnummer\n"
 
 #: src/nl.c:219
-msgid "  -v, --starting-line-number=NUMBER  first line number for each section\n"
-msgstr "  -v, --starting-line-number=NUMMER  första radnumret på varje avsnitt\n"
+msgid ""
+"  -v, --starting-line-number=NUMBER  first line number for each section\n"
+msgstr ""
+"  -v, --starting-line-number=NUMMER  första radnumret på varje avsnitt\n"
 
 #: src/nl.c:222
 msgid "  -w, --number-width=NUMBER       use NUMBER columns for line numbers\n"
@@ -8769,7 +8853,7 @@ msgstr ""
 "\n"
 "CC består av två avgränsningstecken som används för att skapa logiska\n"
 "sidavgränsare, saknas andra tecknet menas ”:”. Som ett GNU-tillägg kan man\n"
-"ange mer än två tecken, och även ange den tomma strängen (-d '') som\n"
+"ange mer än två tecken och även ange den tomma strängen (-d '') som\n"
 "avaktiverar avsnittsmatchning.\n"
 
 #: src/nl.c:236
@@ -9000,7 +9084,9 @@ msgid "Usage: %s [OPTION]... [NUMBER]...\n"
 msgstr "Användning: %s [FLAGGA]… [TAL]…\n"
 
 #: src/numfmt.c:921
-msgid "Reformat NUMBER(s), or the numbers from standard input if none are specified.\n"
+msgid ""
+"Reformat NUMBER(s), or the numbers from standard input if none are "
+"specified.\n"
 msgstr "Formaterar om TAL, eller talen från standard in om inga är givna.\n"
 
 #: src/numfmt.c:925
@@ -9241,11 +9327,10 @@ msgid ""
 msgstr ""
 "\n"
 "FORMAT måste passa för att skriva ett flyttalsargument ”%f”. En valfri\n"
-"apostrof (%'f) aktiverar --grouping (om det stöds av den aktuella\n"
-"lokalen). Ett valfritt breddvärde (%10f) fyller ut utdata. En valfri\n"
-"nolla (%010f) i bredden fyller ut talet med nollor. Ett valfritt negativt\n"
-"värde (%-10f) vänsterjusterar utdata. En valfri precision (%.1f)\n"
-"åsidosätter precisionen som bestäms av indata.\n"
+"apostrof (%'f) aktiverar --grouping (om det stöds av den aktuella lokalen).\n"
+"Ett valfritt breddvärde (%10f) fyller ut utdata. En valfri nolla (%010f) i\n"
+"bredden fyller ut talet med nollor. Ett valfritt negativt värde (%-10f)\n"
+"vänsterjusterar utdata. En valfri precision (%.1f) åsidosätter precisionen som bestäms av indata.\n"
 
 #: src/numfmt.c:1050
 #, c-format
@@ -9340,8 +9425,11 @@ msgstr "felaktigt suffix i indata %s: %s"
 
 #: src/numfmt.c:1257
 #, c-format
-msgid "value/precision too large to be printed: '%Lg/%zu' (consider using --to)"
-msgstr "värdet/precisionen är för stort för att skrivas: ”%Lg/%zu” (överväg att använda --to)"
+msgid ""
+"value/precision too large to be printed: '%Lg/%zu' (consider using --to)"
+msgstr ""
+"värdet/precisionen är för stort för att skrivas: ”%Lg/%zu” (överväg att "
+"använda --to)"
 
 #: src/numfmt.c:1261
 #, c-format
@@ -9351,7 +9439,8 @@ msgstr "värdet är för stort för att skrivas: ”%Lg” (överväg att använ
 #: src/numfmt.c:1270
 #, c-format
 msgid "value too large to be printed: '%Lg' (cannot handle values > 999Q)"
-msgstr "värdet är för stort för att skrivas: ”%Lg” (kan inte hantera värden > 999Q)"
+msgstr ""
+"värdet är för stort för att skrivas: ”%Lg” (kan inte hantera värden > 999Q)"
 
 #: src/numfmt.c:1283
 #, c-format
@@ -9452,13 +9541,12 @@ msgid ""
 "suffixes may be . for octal and b for multiply by 512.\n"
 msgstr ""
 "\n"
-"Om både det första och andra anropsformatet är tillämpligt, används\n"
-"det andra formatet om den sista operanden börjar med + eller (om det\n"
-"finns två operander) en siffra.  En operand FÖRSKJUTNING betyder -j\n"
-"FÖRSKJUTNING.  ETIKETT är den första skrivna bytens pseudoadress,\n"
-"vilken ökas så länge utmatningen pågår.  För FÖRSKJUTNING och ETIKETT\n"
-"indikerar förstavelserna 0x eller 0X hexadecimalt, ändelser kan vara\n"
-". för decimalt och b multiplicerar med 512.\n"
+"Om både det första och andra anropsformatet är tillämpligt, används det andra\n"
+"formatet om den sista operanden börjar med + eller (om det finns två\n"
+"operander) en siffra. En operand FÖRSKJUTNING betyder -j FÖRSKJUTNING. ETIKETT\n"
+"är den första skrivna bytens pseudoadress, vilken ökas så länge utmatningen\n"
+"pågår. För FÖRSKJUTNING och ETIKETT indikerar förstavelserna 0x eller 0X\n"
+"hexadecimalt, ändelser kan vara . för decimalt och b multiplicerar med 512.\n"
 
 #: src/od.c:383
 msgid ""
@@ -9476,8 +9564,7 @@ msgid ""
 "         swap input bytes according the specified order\n"
 msgstr ""
 "      --endian={big|little}\n"
-"         byt plats på indatabyte enligt angiven"
-" byteordning\n"
+"         byt plats på indatabyte enligt angiven byteordning\n"
 
 #: src/od.c:392
 msgid ""
@@ -9551,7 +9638,9 @@ msgstr ""
 
 #: src/od.c:429
 msgid "  -a   same as -t a,  select named characters, ignoring high-order bit\n"
-msgstr "   -a   samma som -t a,  välj namngivna tecken, ignorera den mest signifikanta biten\n"
+msgstr ""
+"   -a   samma som -t a,  välj namngivna tecken, ignorera den mest "
+"signifikanta biten\n"
 
 #: src/od.c:432
 msgid "  -b   same as -t o1, select octal bytes\n"
@@ -9560,8 +9649,8 @@ msgstr "   -b   samma som -t o1, välj oktala byte\n"
 #: src/od.c:435
 msgid "  -c   same as -t c,  select printable characters or backslash escapes\n"
 msgstr ""
-"   -c   samma som -t c,  välj skrivbara tecken eller sekvenser med omvänt\n"
-"        snedstreck\n"
+"-c samma som -t c, välj skrivbara tecken eller sekvenser med omvänt "
+"snedstreck\n"
 
 #: src/od.c:438
 msgid "  -d   same as -t u2, select unsigned decimal 2-byte units\n"
@@ -9660,14 +9749,14 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"BYTE är hex med prefixet 0x eller 0X, och kan ha en multiplikativ ändelse:\n"
+"BYTE är hex med prefixet 0x eller 0X och kan ha en multiplikativ ändelse:\n"
 "  b    512\n"
 "  KB   1000\n"
 "  K    1024\n"
 "  MB   1000·1000\n"
 "  M    1024·1024\n"
 "och så vidare för G, T, P, E, Z, Y, R, Q.\n"
-"Binära prefix kan också användas: KiB=K, MiB=M, och så vidare.\n"
+"Binära prefix kan också användas: KiB=K, MiB=M och så vidare.\n"
 
 #: src/od.c:797 src/od.c:909
 #, c-format
@@ -9714,8 +9803,10 @@ msgstr "pseudoadressen är för stor för indatan"
 
 #: src/od.c:1740
 #, c-format
-msgid "invalid output address radix '%c'; it must be one character from [doxn]"
-msgstr "ogiltig radix för utmatningsadress ”%c”; måste vara ett tecken från [doxn]"
+msgid ""
+"invalid output address radix '%c'; it must be one character from [doxn]"
+msgstr ""
+"ogiltig radix för utmatningsadress ”%c”; måste vara ett tecken från [doxn]"
 
 #: src/od.c:1877
 #, c-format
@@ -9928,7 +10019,8 @@ msgstr "  -l     skriv ut i långt format för angivna ANVÄNDARE\n"
 
 #: src/pinky.c:489
 msgid "  -b     omit the user's home directory and shell in long format\n"
-msgstr "  -b     utelämna användarens hemkatalog och skal i det långa formatet\n"
+msgstr ""
+"  -b     utelämna användarens hemkatalog och skal i det långa formatet\n"
 
 #: src/pinky.c:492
 msgid "  -h     omit the user's project file in long format\n"
@@ -9952,11 +10044,17 @@ msgstr "  -w     utelämna användarens fullständiga namn i kort format\n"
 
 #: src/pinky.c:507
 msgid "  -i     omit the user's full name and remote host in short format\n"
-msgstr "  -i     utelämna användarens fullständiga namn och fjärrvärd i kort format\n"
+msgstr ""
+"  -i     utelämna användarens fullständiga namn och fjärrvärd i kort "
+"format\n"
 
 #: src/pinky.c:510
-msgid "  -q     omit the user's full name, remote host and idle time in short format\n"
-msgstr "  -q     utelämna användarens fullständiga namn, fjärrvärd och inaktivitetstid i kort format\n"
+msgid ""
+"  -q     omit the user's full name, remote host and idle time in short "
+"format\n"
+msgstr ""
+"  -q     utelämna användarens fullständiga namn, fjärrvärd och "
+"inaktivitetstid i kort format\n"
 
 #: src/pinky.c:513
 msgid ""
@@ -10097,8 +10195,7 @@ msgid ""
 "         print columns across rather than down, used together with -COLS\n"
 msgstr ""
 "  -a, --across\n"
-"         skriv kolumner på tvären i stället för nedåt,\n"
-"         används tillsammans med -KOL\n"
+"         skriv kolumner på tvären i stället för nedåt tillsammans med -KOL\n"
 
 #: src/pr.c:2793
 msgid ""
@@ -10159,9 +10256,8 @@ msgid ""
 "  -i[CHAR[WIDTH]], --output-tabs[=CHAR[WIDTH]]\n"
 "         replace spaces with CHARs (TABs) to tab WIDTH (8)\n"
 msgstr ""
-"  -i[TECKEN[BREDD]], --output-tabs[=TECKEN[BREDD]]\n"
-"         ersätt mellanslag med TECKEN (tabulatorer) med\n"
-"         BREDD (8) kolumners mellanrum mellan tabulatorpositionerna\n"
+"-i[TECKEN[BREDD]], --output-tabs[=TECKEN[BREDD]] ersätt mellanslag med TECKEN\n"
+"(tabulatorer) med BREDD (8) kolumners mellanrum mellan tabulatorpositionerna\n"
 
 #: src/pr.c:2824
 msgid ""
@@ -10182,7 +10278,7 @@ msgid ""
 msgstr ""
 "  -l, --length=SIDLÄNGD\n"
 "         sätt sidlängden till SIDLÄNGD (66) rader\n"
-"         (standard 56 rader text, och med -F 63).\n"
+"         (standard 56 rader text och med -F 63).\n"
 "         Implicerar -t om SIDLÄNGD ≤ 10\n"
 
 #: src/pr.c:2835
@@ -10322,7 +10418,8 @@ msgstr ""
 
 #: src/printf.c:44
 #, c-format
-msgid "warning: %s: character(s) following character constant have been ignored"
+msgid ""
+"warning: %s: character(s) following character constant have been ignored"
 msgstr "varning: %s: tecken som följer efter teckenkonstanten har ignorerats"
 
 #: src/printf.c:53
@@ -10502,12 +10599,18 @@ msgstr ""
 "  eller:    %s -G [FLAGGA]... [INFIL [UTFIL]]\n"
 
 #: src/ptx.c:1680
-msgid "Output a permuted index, including context, of the words in the input files.\n"
-msgstr "Mata ut ett permuterat index, med sammanhang, av orden i indatafilerna.\n"
+msgid ""
+"Output a permuted index, including context, of the words in the input "
+"files.\n"
+msgstr ""
+"Mata ut ett permuterat index, med sammanhang, av orden i indatafilerna.\n"
 
 #: src/ptx.c:1687
-msgid "  -A, --auto-reference           output automatically generated references\n"
-msgstr "  -A, --auto-reference           skriv ut automatiskt genererade referenser\n"
+msgid ""
+"  -A, --auto-reference           output automatically generated references\n"
+msgstr ""
+"  -A, --auto-reference           skriv ut automatiskt genererade "
+"referenser\n"
 
 #: src/ptx.c:1690
 msgid "  -G, --traditional              behave more like System V 'ptx'\n"
@@ -10523,15 +10626,19 @@ msgstr ""
 
 #: src/ptx.c:1697
 msgid "  -M, --macro-name=STRING        macro name to use instead of 'xx'\n"
-msgstr "  -M, --macro-name=STRÄNG        makronamn att använda istället för ”xx”\n"
+msgstr ""
+"  -M, --macro-name=STRÄNG        makronamn att använda istället för ”xx”\n"
 
 #: src/ptx.c:1700
 msgid "  -O, --format=roff              generate output as roff directives\n"
 msgstr "  -O, --format=roff              generera utdata som roff-direktiv\n"
 
 #: src/ptx.c:1703
-msgid "  -R, --right-side-refs          put references at right, not counted in -w\n"
-msgstr "  -R, --right-side-refs          skriv referenser till höger, ej med i -w\n"
+msgid ""
+"  -R, --right-side-refs          put references at right, not counted in "
+"-w\n"
+msgstr ""
+"  -R, --right-side-refs          skriv referenser till höger, ej med i -w\n"
 
 #: src/ptx.c:1706
 msgid "  -S, --sentence-regexp=REGEXP   for end of lines or end of sentences\n"
@@ -10543,39 +10650,57 @@ msgstr "  -T, --format=tex               generera utdata som TeX-direktiv\n"
 
 #: src/ptx.c:1712
 msgid "  -W, --word-regexp=REGEXP       use REGEXP to match each keyword\n"
-msgstr "  -W, --word-regexp=REGUTTR      använd REGUTTR för att matcha varje nyckelord\n"
+msgstr ""
+"  -W, --word-regexp=REGUTTR      använd REGUTTR för att matcha varje "
+"nyckelord\n"
 
 #: src/ptx.c:1715
 msgid "  -b, --break-file=FILE          word break characters in this FILE\n"
 msgstr "  -b, --break-file=FIL           ordavgränsande tecken i denna FIL\n"
 
 #: src/ptx.c:1718
-msgid "  -f, --ignore-case              fold lower case to upper case for sorting\n"
-msgstr "  -f, --ignore-case              gör om gemener till versaler för sortering\n"
+msgid ""
+"  -f, --ignore-case              fold lower case to upper case for sorting\n"
+msgstr ""
+"  -f, --ignore-case              gör om gemener till versaler för "
+"sortering\n"
 
 #: src/ptx.c:1721
-msgid "  -g, --gap-size=NUMBER          gap size in columns between output fields\n"
-msgstr "  -g, --gap-size=ANTAL           mellanrum i kolumner mellan utdatafält\n"
+msgid ""
+"  -g, --gap-size=NUMBER          gap size in columns between output fields\n"
+msgstr ""
+"  -g, --gap-size=ANTAL           mellanrum i kolumner mellan utdatafält\n"
 
 #: src/ptx.c:1724
 msgid "  -i, --ignore-file=FILE         read ignore word list from FILE\n"
-msgstr "  -i, --ignore-file=FIL          läs lista av ord att ignorera från FIL\n"
+msgstr ""
+"  -i, --ignore-file=FIL          läs lista av ord att ignorera från FIL\n"
 
 #: src/ptx.c:1727
 msgid "  -o, --only-file=FILE           read only word list from this FILE\n"
-msgstr "  -o, --only-file=FIL            läs lista av ord att endast använda från FIL\n"
+msgstr ""
+"  -o, --only-file=FIL            läs lista av ord att endast använda från "
+"FIL\n"
 
 #: src/ptx.c:1730
-msgid "  -r, --references               first field of each line is a reference\n"
-msgstr "  -r, --references               första fältet på varje rad är en referens\n"
+msgid ""
+"  -r, --references               first field of each line is a reference\n"
+msgstr ""
+"  -r, --references               första fältet på varje rad är en referens\n"
 
 #: src/ptx.c:1733
-msgid "  -t, --typeset-mode             change the default width from 72 to 100\n"
-msgstr "  -t, --typeset-mode             ändra standardbredden från 72 till 100\n"
+msgid ""
+"  -t, --typeset-mode             change the default width from 72 to 100\n"
+msgstr ""
+"  -t, --typeset-mode             ändra standardbredden från 72 till 100\n"
 
 #: src/ptx.c:1736
-msgid "  -w, --width=NUMBER             output width in columns, reference excluded\n"
-msgstr "  -w, --width=ANTAL              utmatningsbredd i kolumner, utan referenser\n"
+msgid ""
+"  -w, --width=NUMBER             output width in columns, reference "
+"excluded\n"
+msgstr ""
+"  -w, --width=ANTAL              utmatningsbredd i kolumner, utan "
+"referenser\n"
 
 #: src/ptx.c:1834
 #, c-format
@@ -10736,28 +10861,36 @@ msgid "Print the resolved absolute file name.\n"
 msgstr "Skriv de upplösta absoluta filnamnen.\n"
 
 #: src/realpath.c:76
-msgid "  -E, --canonicalize           all but the last component must exist (default)\n"
+msgid ""
+"  -E, --canonicalize           all but the last component must exist "
+"(default)\n"
 msgstr ""
-"  -E, --canonicalize           alla utom sista komponenten måste finnas\n"
-"                                 (standard)\n"
+"-E, --canonicalize alla utom sista komponenten måste finnas (standard)\n"
 
 #: src/realpath.c:80
 msgid "  -e, --canonicalize-existing  all components of the path must exist\n"
-msgstr "  -e, --canonicalize-existing  alla komponenter i sökvägen måste finnas\n"
+msgstr ""
+"  -e, --canonicalize-existing  alla komponenter i sökvägen måste finnas\n"
 
 #: src/realpath.c:83
-msgid "  -m, --canonicalize-missing   no path components need exist or be a directory\n"
+msgid ""
+"  -m, --canonicalize-missing   no path components need exist or be a "
+"directory\n"
 msgstr ""
-"  -m, --canonicalize-missing   inga komponenter i sökvägen behöver finnas eller\n"
-"                                 vara en katalog\n"
+"-m, --canonicalize-missing inga komponenter i sökvägen behöver finnas eller "
+"vara en katalog\n"
 
 #: src/realpath.c:87
 msgid "  -L, --logical                resolve '..' components before symlinks\n"
-msgstr "  -L, --logical                lös upp ”..”-komponenter före symlänkar\n"
+msgstr ""
+"  -L, --logical                lös upp ”..”-komponenter före symlänkar\n"
 
 #: src/realpath.c:90
-msgid "  -P, --physical               resolve symlinks as encountered (default)\n"
-msgstr "  -P, --physical               lös upp symlänkar när de påträffas (standard)\n"
+msgid ""
+"  -P, --physical               resolve symlinks as encountered (default)\n"
+msgstr ""
+"  -P, --physical               lös upp symlänkar när de påträffas "
+"(standard)\n"
 
 #: src/realpath.c:93
 msgid "  -q, --quiet                  suppress most error messages\n"
@@ -10765,19 +10898,26 @@ msgstr "  -q, --quiet                  undertryck de flesta felmeddelanden\n"
 
 #: src/realpath.c:96
 msgid "      --relative-to=DIR        print the resolved path relative to DIR\n"
-msgstr "      --relative-to=KAT        skriv den upplösta sökvägen relativt KAT\n"
+msgstr ""
+"      --relative-to=KAT        skriv den upplösta sökvägen relativt KAT\n"
 
 #: src/realpath.c:99
-msgid "      --relative-base=DIR      print absolute paths unless paths below DIR\n"
-msgstr "      --relative-base=KAT      skriv absoluta sökvägar om de inte är under KAT\n"
+msgid ""
+"      --relative-base=DIR      print absolute paths unless paths below DIR\n"
+msgstr ""
+"      --relative-base=KAT      skriv absoluta sökvägar om de inte är under "
+"KAT\n"
 
 #: src/realpath.c:102
 msgid "  -s, --strip, --no-symlinks   don't expand symlinks\n"
 msgstr "  -s, --strip, --no-symlinks   expandera inte symlänkar\n"
 
 #: src/realpath.c:105
-msgid "  -z, --zero                   end each output line with NUL, not newline\n"
-msgstr "  -z, --zero                   avsluta varje utmatad rad med NUL, inte nyrad\n"
+msgid ""
+"  -z, --zero                   end each output line with NUL, not newline\n"
+msgstr ""
+"  -z, --zero                   avsluta varje utmatad rad med NUL, inte "
+"nyrad\n"
 
 #: src/relpath.c:130
 msgid "generating relative path"
@@ -10958,9 +11098,8 @@ msgid ""
 "option to remove each listed directory, too, along with all of its contents.\n"
 msgstr ""
 "\n"
-"Som standard tar rm inte bort kataloger.  Använd flaggan --recursive (-r eller\n"
-"-R) för att ta bort varje uppräknad katalog också, tillsammans med hela dess\n"
-"innehåll.\n"
+"Som standard tar rm inte bort kataloger. Använd flaggan --recursive (-r eller\n"
+"-R) för att ta bort varje uppräknad katalog också, tillsammans med hela dess innehåll.\n"
 
 #: src/rm.c:190
 msgid ""
@@ -10998,9 +11137,8 @@ msgid ""
 msgstr ""
 "\n"
 "Om man använder rm för att ta bort en fil kan det vara möjligt att få tillbaka\n"
-"en del av dess innehåll, givet tillräckligt med expertis och/eller tid.\n"
-"För större visshet om att innehållet inte kan återställas, överväg att använda\n"
-"shred(1).\n"
+"en del av dess innehåll, givet tillräckligt med expertis och/eller tid. För\n"
+"större visshet om att innehållet inte kan återställas, överväg att använda shred(1).\n"
 
 #: src/rm.c:322
 #, c-format
@@ -11099,10 +11237,11 @@ msgstr ""
 
 #: src/runcon.c:87
 msgid "  CONTEXT            Complete security context\n"
-msgstr "  KONTEXT            Fullständig säkerhetskontext\n"
+msgstr "  KONTEXT Fullständig säkerhetskontext\n"
 
 #: src/runcon.c:90
-msgid "  -c, --compute      compute process transition context before modifying\n"
+msgid ""
+"  -c, --compute      compute process transition context before modifying\n"
 msgstr "  -c, --compute      beräkna processövergångskontext före modifiering\n"
 
 #: src/runcon.c:93
@@ -11243,13 +11382,14 @@ msgid ""
 "INCREMENT must not be 0; none of FIRST, INCREMENT and LAST may be NaN.\n"
 msgstr ""
 "\n"
-"Om FÖRSTA eller ÖKNING utelämnas, sätts de till 1. Det vill säga, en\n"
-"utelämnad ÖKNING sätts till 1 även när SISTA är mindre än FÖRSTA.\n"
-"Sekvensen av tal slutar när summan av det aktuella talet och ÖKNING\n"
-"skulle bli större än SISTA.  FÖRSTA, ÖKNING och SISTA tolkas som\n"
-"flyttalsvärden.  ÖKNING är normalt positiv om FÖRSTA är mindre än\n"
-"SISTA och ÖKNING är normalt negativ om FÖRSTA är större än SISTA.\n"
-"ÖKNING får inte vara 0, ingen av FÖRSTA, ÖKNING och SISTA får vara NaN.\n"
+"Om FÖRSTA eller ÖKNING utelämnas, sätts de till 1. Det vill säga, en utelämnad\n"
+"ÖKNING sätts till 1 även när SISTA är mindre än FÖRSTA. Sekvensen av tal\n"
+"slutar när summan av det aktuella talet och ÖKNING skulle bli större än SISTA.\n"
+"FÖRSTA, ÖKNING och SISTA tolkas som flyttalsvärden. ÖKNING är normalt positiv\n"
+"om FÖRSTA är mindre än SISTA och ÖKNING är normalt negativ om FÖRSTA är större\n"
+"än SISTA. ÖKNING får inte vara 0, ingen av FÖRSTA, ÖKNING och SISTA får vara NaN.\n"
+"\n"
+"\n"
 
 #: src/seq.c:117
 msgid ""
@@ -11259,7 +11399,7 @@ msgid ""
 msgstr ""
 "FORMAT måste passa för att skriva ett argument av typen ”double”.  Som\n"
 "standard är det %.PRECf om FÖRSTA, ÖKNING och SISTA alla är\n"
-"fixpunktsdecimaltal med maximal precision PREC, och annars %g.\n"
+"fixpunktsdecimaltal med maximal precision PREC och annars %g.\n"
 
 #: src/seq.c:163
 #, c-format
@@ -11441,9 +11581,8 @@ msgid ""
 "  -z, --zero\n"
 "         add a final overwrite with zeros to hide shredding\n"
 msgstr ""
-"  -z, --zero\n"
-"         lägg till en avslutande överskrivning med nollor för att\n"
-"         dölja strimlandet\n"
+"-z, --zero lägg till en avslutande överskrivning med nollor för att dölja strimlandet\n"
+"\n"
 
 #: src/shred.c:220
 msgid ""
@@ -11470,7 +11609,7 @@ msgid ""
 msgstr ""
 "\n"
 "Ta bort FIL(er) om --remove (-u) anges.  Standard är att inte ta bort filerna\n"
-"för det är vanligt att arbeta på enhetsfiler som /dev/hda, och dessa filer\n"
+"för det är vanligt att arbeta på enhetsfiler som /dev/hda och dessa filer\n"
 "bör inte tas bort.\n"
 "Den frivilliga parametern HUR anger hur katalogposter skall tas bort:\n"
 "”unlink” ⇒ använd ett vanligt anrop av unlink.\n"
@@ -11487,10 +11626,9 @@ msgid ""
 "be recovered later.  See the GNU coreutils manual for details.\n"
 msgstr ""
 "VARNING: shred antar att filsystemet och hårdvaran skriver över data på plats.\n"
-"Även om detta är vanligt fungerar många plattformar på annat sätt.  Vidare kan\n"
+"Även om detta är vanligt fungerar många plattformar på annat sätt. Vidare kan\n"
 "säkerhetskopior och speglar innehålla kopior som inte går att ta bort som gör\n"
-"att den strimlade filen kan återskapas senare.  Se manualen för GNU coreutils\n"
-"för detaljer.\n"
+"att den strimlade filen kan återskapas senare. Se manualen för GNU coreutils för detaljer.\n"
 
 #: src/shred.c:336
 #, c-format
@@ -11565,7 +11703,8 @@ msgstr "%s: fcntl misslyckades"
 #: src/shred.c:993
 #, c-format
 msgid "%s: cannot shred append-only file descriptor"
-msgstr "%s: kan inte skriva över filidentifierare som bara är öppnad för tillägg"
+msgstr ""
+"%s: kan inte skriva över filidentifierare som bara är öppnad för tillägg"
 
 #: src/shred.c:1075
 #, c-format
@@ -11635,17 +11774,24 @@ msgid "  -e, --echo                treat each ARG as an input line\n"
 msgstr "  -e, --echo                behandla varje ARG som en indatarad\n"
 
 #: src/shuf.c:72
-msgid "  -i, --input-range=LO-HI   treat each number LO through HI as an input line\n"
-msgstr "  -i, --input-range=LÅGT-HÖGT  behandla varje tal från LÅGT till HÖGT\n"
-"                             som en indatarad\n"
+msgid ""
+"  -i, --input-range=LO-HI   treat each number LO through HI as an input "
+"line\n"
+msgstr ""
+"-i, --input-range=LÅGT-HÖGT behandla varje tal från LÅGT till HÖGT som en "
+"indatarad\n"
 
 #: src/shuf.c:75
 msgid "  -n, --head-count=COUNT    output at most COUNT lines\n"
 msgstr "  -n, --head-count=ANTAL    skriv ut högst ANTAL rader\n"
 
 #: src/shuf.c:78
-msgid "  -o, --output=FILE         write result to FILE instead of standard output\n"
-msgstr "  -o, --output=FIL          skriv resultatet till FIL istället för standard ut\n"
+msgid ""
+"  -o, --output=FILE         write result to FILE instead of standard "
+"output\n"
+msgstr ""
+"  -o, --output=FIL          skriv resultatet till FIL istället för standard "
+"ut\n"
 
 #: src/shuf.c:81
 msgid "      --random-source=FILE  get random bytes from FILE\n"
@@ -11737,9 +11883,8 @@ msgid ""
 "  -b, --ignore-leading-blanks\n"
 "         ignore leading blanks when finding sort keys in each line\n"
 msgstr ""
-"  -b, --ignore-leading-blanks\n"
-"         ignorera inledande blanktecken vid sökning efter sorteringsnycklar\n"
-"         på varje rad\n"
+"-b, --ignore-leading-blanks ignorera inledande blanktecken vid sökning efter\n"
+"sorteringsnycklar på varje rad\n"
 
 #: src/sort.c:451
 msgid ""
@@ -11850,9 +11995,8 @@ msgid ""
 "      --batch-size=NMERGE\n"
 "         merge at most NMERGE inputs at once; for more use temp files\n"
 msgstr ""
-"      --batch-size=ANTAL\n"
-"         slå samman högst ANTAL indatafiler åt gången;\n"
-"         använd temporärfiler för fler\n"
+"--batch-size=ANTAL slå samman högst ANTAL indatafiler åt gången; använd\n"
+"temporärfiler för fler\n"
 
 #: src/sort.c:511
 msgid ""
@@ -11989,16 +12133,15 @@ msgid ""
 "SIZE may be followed by the following multiplicative suffixes:\n"
 msgstr ""
 "\n"
-"NYCKELDEF är F[.C][FLGR][,F[.C][FLGR]] för start- och slutposition, där F är ett\n"
-"fältnummer och C en teckenposition inom fältet; båda börjar på 1, och som\n"
-"standard är slutpositionen radens slut.   Om vare sig -t eller -b är på\n"
-"räknas tecken i fältet från början av föregående blanktecken.  FLGR är\n"
-"en eller flera sorteringsflaggor med en bokstav [bdfgiMhnRrV], vilka ersätter\n"
-"globala sorteringsflaggor för den nyckeln.  Om ingen nyckel är angiven, använd\n"
-"hela raden som nyckel.  Använd --debug för att diagnostisera felaktigt\n"
-"användande av nycklar.\n"
+"NYCKELDEF är F[.C][FLGR][,F[.C][FLGR]] för start- och slutposition, där F är\n"
+"ett fältnummer och C en teckenposition inom fältet; båda börjar på 1 och som\n"
+"standard är slutpositionen radens slut. Om vare sig -t eller -b är på räknas\n"
+"tecken i fältet från början av föregående blanktecken. FLGR är en eller flera\n"
+"sorteringsflaggor med en bokstav [bdfgiMhnRrV], vilka ersätter globala\n"
+"sorteringsflaggor för den nyckeln. Om ingen nyckel är angiven, använd hela\n"
+"raden som nyckel. Använd --debug för att diagnostisera felaktigt användande av\n"
+"nycklar. STORLEK kan följas av följande multiplikativa ändelser:\n"
 "\n"
-"STORLEK kan följas av följande multiplikativa ändelser:\n"
 
 #: src/sort.c:591
 msgid ""
@@ -12009,7 +12152,7 @@ msgid ""
 "Set LC_ALL=C to get the traditional sort order that uses\n"
 "native byte values.\n"
 msgstr ""
-"% 1 % av minnet, b 1, K 1024 (standard), och så vidare för M, G, T, P, E, Z, Y, R, Q.\n"
+"% 1 % av minnet, b 1, K 1024 (standard) och så vidare för M, G, T, P, E, Z, Y, R, Q.\n"
 "\n"
 "*** VARNING ***\n"
 "Lokalen som är angiven i miljön påverkar sorteringsordning.\n"
@@ -12123,8 +12266,10 @@ msgstr "nyckel %lu har noll bredd och kommer att ignoreras"
 
 #: src/sort.c:2812
 #, c-format
-msgid "leading blanks are significant in key %lu; consider also specifying 'b'"
-msgstr "inledande blanksteg är betydande i nyckel %lu, överväg att även ange ”b”"
+msgid ""
+"leading blanks are significant in key %lu; consider also specifying 'b'"
+msgstr ""
+"inledande blanksteg är betydande i nyckel %lu, överväg att även ange ”b”"
 
 #: src/sort.c:2826
 #, c-format
@@ -12288,7 +12433,7 @@ msgid ""
 "default size is 1000 lines, and default PREFIX is 'x'.\n"
 msgstr ""
 "Skriv ut delar av FIL till PREFIXaa, PREFIXab, …;\n"
-"standardstorlek är 1000 rader, och standardPREFIX är ”x”.\n"
+"standardstorlek är 1000 rader och standardPREFIX är ”x”.\n"
 
 #: src/split.c:238
 #, c-format
@@ -12607,7 +12752,8 @@ msgstr "varning: omvänt snedstreck vid slutet av formatet"
 #: src/stat.c:1264
 #, c-format
 msgid "using %s to denote standard input does not work in file system mode"
-msgstr "användning av %s för att beteckna standard in fungerar inte i filsystemsläge"
+msgstr ""
+"användning av %s för att beteckna standard in fungerar inte i filsystemsläge"
 
 #: src/stat.c:1271
 #, c-format
@@ -12909,8 +13055,8 @@ msgid ""
 "    %s"
 msgstr ""
 "\n"
-"--terse är likvärdigt med följande FORMAT:\n"
-"    %s"
+"--terse är likvärdigt med följande FORMAT: %s\n"
+"    "
 
 #: src/stat.c:1885
 #, c-format
@@ -12927,8 +13073,11 @@ msgid "Usage: %s OPTION... COMMAND\n"
 msgstr "Användning: %s FLAGGA... KOMMANDO\n"
 
 #: src/stdbuf.c:84
-msgid "Run COMMAND, with modified buffering operations for its standard streams.\n"
-msgstr "Kör KOMMANDO, med modifierade buffringsoperationer för dess standardströmmar.\n"
+msgid ""
+"Run COMMAND, with modified buffering operations for its standard streams.\n"
+msgstr ""
+"Kör KOMMANDO, med modifierade buffringsoperationer för dess "
+"standardströmmar.\n"
 
 #: src/stdbuf.c:90
 msgid "  -i, --input=MODE   adjust standard input stream buffering\n"
@@ -12971,8 +13120,8 @@ msgid ""
 msgstr ""
 "\n"
 "Annars är LÄGE ett tal som kan följas av ett av följande:\n"
-"KB 1000, K 1024, MB 1000·1000, M 1024·1024, och så vidare för G,T,P,E,Z,Y,R,Q.\n"
-"Binära prefix kan också användas: KiB=K, MiB=M, och så vidare.\n"
+"KB 1000, K 1024, MB 1000·1000, M 1024·1024 och så vidare för G,T,P,E,Z,Y,R,Q.\n"
+"Binära prefix kan också användas: KiB=K, MiB=M och så vidare.\n"
 "I detta fall är strömmen fullt buffrad med buffertstorleken satt till\n"
 "LÄGE byte.\n"
 
@@ -12988,7 +13137,7 @@ msgstr ""
 "OBSERVERA: Om KOMMANDO justerar buffringen på sina standardströmmar (”tee” gör\n"
 "det till exempel) då kommer detta att åsidosätta motsvarande ändringar av\n"
 "”stdbuf”.  Vidare använder några filter (som ”dd” och ”cat” etc.) inte strömmar\n"
-"för I/O, och påverkas alltså inte av ”stdbuf”-inställningar.\n"
+"för I/O och påverkas alltså inte av ”stdbuf”-inställningar.\n"
 
 #: src/stdbuf.c:245
 #, c-format
@@ -13030,8 +13179,10 @@ msgid "  -a, --all          print all current settings in human-readable form\n"
 msgstr "  -a, --all          skriv ut alla nuvarande inställningar läsligt\n"
 
 #: src/stty.c:560
-msgid "  -g, --save         print all current settings in a stty-readable form\n"
-msgstr "  -g, --save         skriv ut alla nuvarande inställningar i stty-format\n"
+msgid ""
+"  -g, --save         print all current settings in a stty-readable form\n"
+msgstr ""
+"  -g, --save         skriv ut alla nuvarande inställningar i stty-format\n"
 
 #: src/stty.c:563
 msgid "  -F, --file=DEVICE  open and use DEVICE instead of standard input\n"
@@ -13044,9 +13195,8 @@ msgid ""
 "settings.  The underlying system defines which settings are available.\n"
 msgstr ""
 "\n"
-"Ett valfritt - före INSTÄLLNING indikerar negation.  En * indikerar en\n"
-"icke-POSIX-inställning.  Det underliggande systemet definierar vilka\n"
-"inställningar som är tillgängliga.\n"
+"Ett valfritt - före INSTÄLLNING indikerar negation. En * indikerar en\n"
+"icke-POSIX-inställning. Det underliggande systemet definierar vilka inställningar som är tillgängliga.\n"
 
 #: src/stty.c:573
 msgid ""
@@ -13061,8 +13211,11 @@ msgid " * discard CHAR  CHAR will toggle discarding of output\n"
 msgstr " * discard TECKEN  TECKEN växlar mellan att kasta och behålla utdata\n"
 
 #: src/stty.c:582
-msgid " * dsusp CHAR    CHAR will send a terminal stop signal once input flushed\n"
-msgstr " * dsusp TECKEN  TECKEN skickar en terminalstoppsignal när programmet läser det\n"
+msgid ""
+" * dsusp CHAR    CHAR will send a terminal stop signal once input flushed\n"
+msgstr ""
+" * dsusp TECKEN  TECKEN skickar en terminalstoppsignal när programmet läser "
+"det\n"
 
 #: src/stty.c:586
 msgid ""
@@ -13140,9 +13293,12 @@ msgstr ""
 
 #: src/stty.c:644
 #, c-format
-msgid " * [-]drain      wait for transmission before applying settings (%s by default)\n"
-msgstr " * [-]drain      vänta tills sändningen är klar innan inställningarna\n"
-"                 verkställs (%s som standard)\n"
+msgid ""
+" * [-]drain      wait for transmission before applying settings (%s by "
+"default)\n"
+msgstr ""
+"* [-]drain vänta tills sändningen är klar innan inställningarna verkställs "
+"(%s som standard)\n"
 
 #: src/stty.c:646
 msgid "on"
@@ -13165,8 +13321,8 @@ msgid ""
 "   min N         with -icanon, set N characters minimum for a completed read\n"
 "   ospeed N      set the output speed to N\n"
 msgstr ""
-"   min N         med -icanon, sätt N tecken till minimum för en avslutad läsning\n"
-"   ospeed N      sätt utmatningshastighet till N\n"
+"   min N med -icanon, sätt N tecken till minimum för en avslutad läsning\n"
+"   ospeed N sätt utmatningshastighet till N\n"
 
 #: src/stty.c:660
 msgid ""
@@ -13216,11 +13372,11 @@ msgid ""
 "   [-]parenb     generate parity bit in output and expect parity bit in input\n"
 "   [-]parodd     set odd parity (or even parity with '-')\n"
 msgstr ""
-"   [-]cstopb     använd två stoppbitar per tecken (en med ”-”)\n"
-"   [-]hup        skicka en avringningssignal när sista processen stänger ttyn\n"
-"   [-]hupcl      samma som [-]hup\n"
-"   [-]parenb     generera paritetsbit i utdata och förvänta paritetsbit i indata\n"
-"   [-]parodd     ställ in udda paritet (eller jämn paritet med ”-”)\n"
+"   [-]cstopb använd två stoppbitar per tecken (en med ”-”)\n"
+"   [-]hup skicka en avringningssignal när sista processen stänger ttyn\n"
+"   [-]hupcl samma som [-]hup\n"
+"   [-]parenb generera paritetsbit i utdata och förvänta paritetsbit i indata\n"
+"   [-]parodd ställ in udda paritet (eller jämn paritet med ”-”)\n"
 
 #: src/stty.c:696
 msgid " * [-]cmspar     use \"stick\" (mark/space) parity\n"
@@ -13245,8 +13401,10 @@ msgstr ""
 "   [-]ignpar     ignorera tecken med paritetsfel\n"
 
 #: src/stty.c:710
-msgid " * [-]imaxbel    beep and do not flush a full input buffer on a character\n"
-msgstr " * [-]imaxbel    pip men töm inte en full indatabuffert vid nytt tecken\n"
+msgid ""
+" * [-]imaxbel    beep and do not flush a full input buffer on a character\n"
+msgstr ""
+" * [-]imaxbel    pip men töm inte en full indatabuffert vid nytt tecken\n"
 
 #: src/stty.c:714
 msgid ""
@@ -13267,10 +13425,12 @@ msgid " * [-]iuclc      translate uppercase characters to lowercase\n"
 msgstr " * [-]iuclc      översätt versaler till gemener\n"
 
 #: src/stty.c:730
-msgid " * [-]ixany      let any character restart output, not only start character\n"
+msgid ""
+" * [-]ixany      let any character restart output, not only start "
+"character\n"
 msgstr ""
-" * [-]ixany      tillåt vilket tecken som helst att starta om utmatning,\n"
-"                 inte bara starttecken\n"
+"* [-]ixany tillåt vilket tecken som helst att starta om utmatning, inte bara"
+" starttecken\n"
 
 #: src/stty.c:734
 msgid ""
@@ -13313,14 +13473,19 @@ msgid " * [-]ocrnl      translate carriage return to newline\n"
 msgstr " * [-]ocrnl      översätt vagnretur till nyrad\n"
 
 #: src/stty.c:770
-msgid " * [-]ofdel      use delete characters for fill instead of NUL characters\n"
-msgstr " * [-]ofdel      använd raderingstecken till utfyllnad, istället för NUL-tecken\n"
+msgid ""
+" * [-]ofdel      use delete characters for fill instead of NUL characters\n"
+msgstr ""
+" * [-]ofdel      använd raderingstecken till utfyllnad, istället för NUL-"
+"tecken\n"
 
 #: src/stty.c:775
-msgid " * [-]ofill      use fill (padding) characters instead of timing for delays\n"
+msgid ""
+" * [-]ofill      use fill (padding) characters instead of timing for "
+"delays\n"
 msgstr ""
-" * [-]ofill      använd utfyllnadstecken istället för tidsstyrning vid\n"
-"                   fördröjningar\n"
+"* [-]ofill använd utfyllnadstecken istället för tidsstyrning vid "
+"fördröjningar\n"
 
 #: src/stty.c:780
 msgid " * [-]olcuc      translate lowercase characters to uppercase\n"
@@ -13371,10 +13536,8 @@ msgid ""
 " * crtkill       kill all line by obeying the echoprt and echoe settings\n"
 " * -crtkill      kill all line by obeying the echoctl and echok settings\n"
 msgstr ""
-" * crtkill       radera hela raden genom att använda inställningarna \n"
-"                 för echoprt och echoe\n"
-" * -crtkill      radera hela raden genom att använda inställningarna\n"
-"                 för echoctl och echok\n"
+"* crtkill radera hela raden genom att använda inställningarna för echoprt och\n"
+"echoe * -crtkill radera hela raden genom att använda inställningarna för echoctl och echok\n"
 
 #: src/stty.c:826
 msgid " * [-]ctlecho    echo control characters in hat notation ('^c')\n"
@@ -13410,7 +13573,8 @@ msgstr " * [-]echoprt    eka raderade tecken baklänges, mellan ”\\” och ”
 
 #: src/stty.c:856
 msgid " * [-]extproc    enable \"LINEMODE\"; useful with high latency links\n"
-msgstr " * [-]extproc    aktivera ”LINEMODE”; användbart för länkar med hög latens\n"
+msgstr ""
+" * [-]extproc    aktivera ”LINEMODE”; användbart för länkar med hög latens\n"
 
 #: src/stty.c:861
 msgid " * [-]flusho     discard output\n"
@@ -13438,14 +13602,16 @@ msgid " * [-]prterase   same as [-]echoprt\n"
 msgstr " * [-]prterase   samma som [-]echoprt\n"
 
 #: src/stty.c:886
-msgid " * [-]tostop     stop background jobs that try to write to the terminal\n"
-msgstr " * [-]tostop     stoppa bakgrundsjobb som försöker skriva till terminalen\n"
+msgid ""
+" * [-]tostop     stop background jobs that try to write to the terminal\n"
+msgstr ""
+" * [-]tostop     stoppa bakgrundsjobb som försöker skriva till terminalen\n"
 
 #: src/stty.c:891
 msgid " * [-]xcase      with icanon, escape with '\\' for uppercase characters\n"
 msgstr ""
-" * [-]xcase      tillsammans med icanon, används ”\\” som kontrollsekvens\n"
-"                 för versaltecken\n"
+"* [-]xcase tillsammans med icanon, används ”\\” som kontrollsekvens för "
+"versaltecken\n"
 
 #: src/stty.c:895
 msgid ""
@@ -13693,11 +13859,14 @@ msgstr ""
 
 #: src/sync.c:71
 msgid "  -d, --data             sync only file data, no unneeded metadata\n"
-msgstr "  -d, --data             synkronisera endast fildata, inga onödiga metadata\n"
+msgstr ""
+"  -d, --data             synkronisera endast fildata, inga onödiga "
+"metadata\n"
 
 #: src/sync.c:74
 msgid "  -f, --file-system      sync the file systems that contain the files\n"
-msgstr "  -f, --file-system      synkronisera filsystemen som innehåller filerna\n"
+msgstr ""
+"  -f, --file-system      synkronisera filsystemen som innehåller filerna\n"
 
 #: src/sync.c:110
 #, c-format
@@ -13774,7 +13943,7 @@ msgstr ""
 "\n"
 "Argumentet STORLEK är ett heltal och eventuell enhet (exempel: 10K är 10·1024).\n"
 "Enheter är K,M,G,T,P,E,Z,Y,R,Q (potenser av 1024) eller KB,MB, … (potenser av 1000).\n"
-"Binära prefix kan också användas: KiB=K, MiB=M, och så vidare.\n"
+"Binära prefix kan också användas: KiB=K, MiB=M och så vidare.\n"
 
 #: src/system.h:773
 #, c-format
@@ -13785,7 +13954,7 @@ msgid ""
 "Otherwise, units default to 1024 bytes (or 512 if POSIXLY_CORRECT is set).\n"
 msgstr ""
 "\n"
-"Visa värden i enheter av första tillgängliga STORLEK från --block-size,\n"
+"Visa värden i enheter av första tillgängliga STORLEK från --block-size\n"
 "och miljövariablerna %s_BLOCK_SIZE, BLOCK_SIZE och BLOCKSIZE.  Annars\n"
 "är enheten som standard 1024 byte (eller 512 om POSIXLY_CORRECT är satt).\n"
 
@@ -13803,15 +13972,15 @@ msgid ""
 "in files being replaced if they're older than the corresponding source file.\n"
 msgstr ""
 "\n"
-"UPPDATERA styr vilka befintliga filer i målet som ersätts.\n"
-"”all” är standardåtgärden när inte någon flagga --update anges, och\n"
-"resulterar i att alla befintliga filer i målet ersätts.\n"
-"”none” är som flaggan --no-clobber, såtillvida att inga filer i målet\n"
-"ersätts, och överhoppade filer orsakar inte ett fel.\n"
-"”none-fail” säkerställer även att inga filer ersätts i destinationen,\n"
-"men överhoppade filer diagnostiseras och orsakar ett fel.\n"
-"”older” är standardåtgärden när --update anges, och resulterar i att\n"
-"filer ersätts om de är äldre än den motsvarande källfilen.\n"
+"UPPDATERA styr vilka befintliga filer i målet som ersätts. ”all” är\n"
+"standardåtgärden när inte någon flagga --update anges och resulterar i\n"
+"att alla befintliga filer i målet ersätts. ”none” är som flaggan\n"
+"--no-clobber, såtillvida att inga filer i målet ersätts och\n"
+"överhoppade filer orsakar inte ett fel. ”none-fail” säkerställer\n"
+"även att inga filer ersätts i destinationen, men överhoppade filer\n"
+"diagnostiseras och orsakar ett fel. ”older” är\n"
+"standardåtgärden när --update anges och resulterar i att filer ersätts\n"
+"om de är äldre än den motsvarande källfilen.\n"
 
 #: src/system.h:800
 msgid ""
@@ -13950,16 +14119,22 @@ msgid "Write each FILE to standard output, last line first.\n"
 msgstr "Skriv varje FIL till standard ut, sista raden först.\n"
 
 #: src/tac.c:130
-msgid "  -b, --before             attach the separator before instead of after\n"
-msgstr "  -b, --before             sätt in skiljetecken före i stället för efter\n"
+msgid ""
+"  -b, --before             attach the separator before instead of after\n"
+msgstr ""
+"  -b, --before             sätt in skiljetecken före i stället för efter\n"
 
 #: src/tac.c:133
-msgid "  -r, --regex              interpret the separator as a regular expression\n"
-msgstr "  -r, --regex              tolka skiljetecknet som ett reguljärt uttryck\n"
+msgid ""
+"  -r, --regex              interpret the separator as a regular expression\n"
+msgstr "  -r, --regex tolka skiljetecknet som ett reguljärt uttryck\n"
 
 #: src/tac.c:136
-msgid "  -s, --separator=STRING   use STRING as the separator instead of newline\n"
-msgstr "  -s, --separator=STRÄNG   använd STRÄNG som skiljetecken i stället för ny rad\n"
+msgid ""
+"  -s, --separator=STRING   use STRING as the separator instead of newline\n"
+msgstr ""
+"  -s, --separator=STRÄNG   använd STRÄNG som skiljetecken i stället för ny "
+"rad\n"
 
 #: src/tac.c:141
 msgid ""
@@ -13967,8 +14142,7 @@ msgid ""
 "Non-seekable input is buffered to $TMPDIR, defaulting to /tmp.\n"
 msgstr ""
 "\n"
-"Indata där filpositionen inte kan flyttas buffras till $TMPDIR,\n"
-"som standard /tmp.\n"
+"Indata där filpositionen inte kan flyttas buffras till $TMPDIR, som standard /tmp.\n"
 
 #: src/tac.c:220 src/tac.c:230 src/tac.c:338
 #, c-format
@@ -14131,10 +14305,11 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"ANT kan ha en multiplikativ ändelse:\n"
-"b 512, kB 1000, K 1024, MB 1000·1000, M 1024·1024,\n"
-"GB 1000·1000·1000, G 1024·1024·1024, och så vidare för T, P, E, Z, Y, R, Q.\n"
-"Binära prefix kan också användas: KiB=K, MiB=M, och så vidare.\n"
+"ANT kan ha en multiplikativ ändelse: b 512, kB 1000, K 1024, MB 1000·1000, M\n"
+"1024·1024, GB 1000·1000·1000, G 1024·1024·1024 och så vidare för T, P, E, Z,\n"
+"Y, R, Q. Binära prefix kan också användas: KiB=K, MiB=M och så vidare.\n"
+"\n"
+"\n"
 
 #: src/tail.c:364
 msgid ""
@@ -14145,13 +14320,12 @@ msgid ""
 "rotation).  Use --follow=name in that case.  That causes tail to track the\n"
 "named file in a way that accommodates renaming, removal and creation.\n"
 msgstr ""
-"Med --follow (-f), följer tail som standard filidentifieraren, vilket\n"
-"betyder att även om man byter namn på en tail:ad fil kommer tail att fortsätta\n"
-"att följa dess slut.  Detta standardbeteende är inte önskvärt när du\n"
-"verkligen vill följa det faktiska namnet på filen, inte filidentifieraren\n"
-"(t.ex. roterade loggfiler).  Använd --follow=name i så fall.  Det gör att\n"
-"tail följer den namngivna filen på ett sätt som hanterar att dess namn\n"
-"ändras, eller att filen tas bort eller skapas.\n"
+"Med --follow (-f), följer tail som standard filidentifieraren, vilket betyder\n"
+"att även om man byter namn på en tail:ad fil kommer tail att fortsätta att\n"
+"följa dess slut. Detta standardbeteende är inte önskvärt när du verkligen vill\n"
+"följa det faktiska namnet på filen, inte filidentifieraren (t.ex. roterade\n"
+"loggfiler). Använd --follow=name i så fall. Det gör att tail följer den\n"
+"namngivna filen på ett sätt som hanterar att dess namn ändras, eller att filen tas bort eller skapas.\n"
 
 #: src/tail.c:420
 #, c-format
@@ -14295,7 +14469,8 @@ msgstr "flagga använd i felaktigt sammanhang -- %c"
 #: src/tail.c:2295
 #, c-format
 msgid "warning: --retry ignored; --retry is useful only when following"
-msgstr "varning: --retry ignoreras; --retry är meningsfull bara när man följer"
+msgstr ""
+"varning: --retry ignoreras; --retry är meningsfull bara när man följer"
 
 #: src/tail.c:2299
 #, c-format
@@ -14327,7 +14502,7 @@ msgid ""
 "Copy standard input to each FILE, and also to standard output.\n"
 "\n"
 msgstr ""
-"Kopiera standard in till varje FIL, och även till standard ut.\n"
+"Kopiera standard in till varje FIL och även till standard ut.\n"
 "\n"
 
 #: src/tee.c:92
@@ -14385,7 +14560,7 @@ msgstr ""
 "StandardSÄTT med flaggan -p är ”warn-nopipe”.\n"
 "Med ”nopipe”-lägen avslutas programmet genast om alla utmatningar blir brutna rör.\n"
 "Standardbeteendet när --output-error inte anges är att avsluta omedelbart\n"
-"vid fel vid skrivning till ett rör, och diagnostisera fel vid skrivning till\n"
+"vid fel vid skrivning till ett rör och diagnostisera fel vid skrivning till\n"
 "annat än rör.\n"
 
 #: src/tee.c:299
@@ -14527,7 +14702,8 @@ msgid "  INTEGER1 -eq INTEGER2   INTEGER1 is equal to INTEGER2\n"
 msgstr "  HELTAL1 -eq HELTAL2     HELTAL1 är lika med HELTAL2\n"
 
 #: src/test.c:710
-msgid "  INTEGER1 -ge INTEGER2   INTEGER1 is greater than or equal to INTEGER2\n"
+msgid ""
+"  INTEGER1 -ge INTEGER2   INTEGER1 is greater than or equal to INTEGER2\n"
 msgstr "  HELTAL1 -ge HELTAL2     HELTAL1 är större än eller lika med HELTAL2\n"
 
 #: src/test.c:713
@@ -14547,7 +14723,8 @@ msgid "  INTEGER1 -ne INTEGER2   INTEGER1 is not equal to INTEGER2\n"
 msgstr "  HELTAL1 -ne HELTAL2     HELTAL1 är inte lika med HELTAL2\n"
 
 #: src/test.c:728
-msgid "  FILE1 -ef FILE2   FILE1 and FILE2 have the same device and inode numbers\n"
+msgid ""
+"  FILE1 -ef FILE2   FILE1 and FILE2 have the same device and inode numbers\n"
 msgstr "  FIL1 -ef FIL2     FIL1 och FIL2 har samma enhets- och inodnummer\n"
 
 #: src/test.c:731
@@ -14600,11 +14777,12 @@ msgstr "  -L FIL      FIL finns och är en symbolisk länk (samma som -h)\n"
 
 #: src/test.c:770
 msgid "  -N FILE     FILE exists and has been modified since it was last read\n"
-msgstr "  -N FIL      FIL finns och har ändrats sedan den senast lästes\n"
+msgstr "  -N FIL FIL finns och har ändrats sedan den senast lästes\n"
 
 #: src/test.c:773
 msgid "  -O FILE     FILE exists and is owned by the effective user ID\n"
-msgstr "  -O FIL      FIL finns och ägs av användaren med effektivt användar-ID\n"
+msgstr ""
+"  -O FIL      FIL finns och ägs av användaren med effektivt användar-ID\n"
 
 #: src/test.c:776
 msgid "  -p FILE     FILE exists and is a named pipe\n"
@@ -14616,7 +14794,7 @@ msgstr "  -r FIL      FIL finns och användaren har läsåtkomst\n"
 
 #: src/test.c:782
 msgid "  -s FILE     FILE exists and has a size greater than zero\n"
-msgstr "  -s FIL      FIL finns och har större storlek än noll\n"
+msgstr "  -s FIL FIL finns och har större storlek än noll\n"
 
 #: src/test.c:785
 msgid "  -S FILE     FILE exists and is a socket\n"
@@ -14636,7 +14814,8 @@ msgstr "  -w FIL      FIL existerar och användaren har skrivåtkomst\n"
 
 #: src/test.c:797
 msgid "  -x FILE     FILE exists and the user has execute (or search) access\n"
-msgstr "  -x FIL      FIL existerar och användaren har kör- (eller sök)åtkomst\n"
+msgstr ""
+"  -x FIL      FIL existerar och användaren har kör- (eller sök)åtkomst\n"
 
 #: src/test.c:800
 msgid ""
@@ -14647,9 +14826,8 @@ msgid ""
 msgstr ""
 "\n"
 "Förutom för -h och -L följer alla filrelaterade tester symboliska länkar.\n"
-"Observera att parenteser måste skyddas från skalets tolkning\n"
-"(t.ex. med omvända snedstreck). HELTAL kan också vara -l STRÄNG,\n"
-"som ger längden på STRÄNG.\n"
+"Observera att parenteser måste skyddas från skalets tolkning (t.ex. med\n"
+"omvända snedstreck). HELTAL kan också vara -l STRÄNG, som ger längden på STRÄNG.\n"
 
 #: src/test.c:806
 msgid ""
@@ -14720,7 +14898,7 @@ msgstr "Användning: %s [FLAGGA]… LÖPTID KOMMANDO [ARG]…\n"
 
 #: src/timeout.c:273
 msgid "Start COMMAND, and kill it if still running after DURATION.\n"
-msgstr "Starta KOMMANDO, och döda det om det fortfarande körs efter LÖPTID.\n"
+msgstr "Starta KOMMANDO och döda det om det fortfarande körs efter LÖPTID.\n"
 
 #: src/timeout.c:279
 msgid ""
@@ -14762,9 +14940,9 @@ msgid ""
 "         see 'kill -l' for a list of signals\n"
 msgstr ""
 "  -s, --signal=SIGNAL\n"
-"         ange signalen som skall skickas när tiden går ut;\n"
-"         SIGNAL kan vara ett namn som ”HUP” eller ett nummer;\n"
-"         se ”kill -l” för en lista över signaler\n"
+"         ange signalen som skall skickas när tiden\n"
+"         går ut; SIGNAL kan vara ett namn som ”HUP”\n"
+"         eller ett nummer; se ”kill -l” för en lista över signaler\n"
 
 #: src/timeout.c:301
 msgid ""
@@ -14782,11 +14960,9 @@ msgid ""
 "A duration of 0 disables the associated timeout.\n"
 msgstr ""
 "\n"
-"LÖPTID är ett flyttal eventuellt följt av ett suffix:\n"
-"”s” för sekunder (standard), ”m” för minuter, ”h” för timmar eller ”d” för\n"
-"dagar.\n"
-"\n"
-"En löptid på 0 avaktiverar den tillhörande tidsgränsen.\n"
+"LÖPTID är ett flyttal eventuellt följt av ett suffix: ”s” för sekunder\n"
+"(standard), ”m” för minuter, ”h” för timmar eller ”d” för dagar. En löptid på\n"
+"0 avaktiverar den tillhörande tidsgränsen.\n"
 
 #: src/timeout.c:314
 msgid ""
@@ -14796,10 +14972,9 @@ msgid ""
 "It may be necessary to use the KILL signal, since this signal can't be caught.\n"
 msgstr ""
 "\n"
-"När tiden går ut, skicka signalen TERM  till KOMMANDO, om ingen annan signal\n"
+"När tiden går ut, skicka signalen TERM till KOMMANDO, om ingen annan signal\n"
 "anges. Signalen TERM dödar en process som inte blockerar eller fångar den\n"
-"signalen.  Det kan vara nödvändigt att använda signalen KILL, eftersom den\n"
-"signalen inte kan fångas.\n"
+"signalen. Det kan vara nödvändigt att använda signalen KILL, eftersom den signalen inte kan fångas.\n"
 
 #: src/timeout.c:320
 msgid ""
@@ -14891,12 +15066,13 @@ msgid ""
 "A FILE argument string of - is handled specially and causes touch to\n"
 "change the times of the file associated with standard output.\n"
 msgstr ""
-"Uppdatera åtkomst- och modifieringstiderna på varje fil till aktuell tid.\n"
+"Uppdatera åtkomst- och modifieringstiderna på varje fil till aktuell tid. Ett\n"
+"FIL-argument som inte finns skapas tomt, om inte -c eller -h anges. En - som\n"
+"FIL-argumentsträng hanteras speciellt och får touch att ändra tiden på filen\n"
+"som är kopplad till standard ut.\n"
 "\n"
-"Ett FIL-argument som inte finns skapas tomt, om inte -c eller -h anges.\n"
 "\n"
-"En - som FIL-argumentsträng hanteras speciellt och får touch att ändra\n"
-"tiden på filen som är kopplad till standard ut.\n"
+"\n"
 
 #: src/touch.c:229
 msgid ""
@@ -14911,8 +15087,7 @@ msgid ""
 "  -c, --no-create\n"
 "         do not create any files\n"
 msgstr ""
-"  -c,"
-" --no-create\n"
+"  -c, --no-create\n"
 "         skapa inga filer\n"
 
 #: src/touch.c:237
@@ -14937,18 +15112,17 @@ msgid ""
 "         affect each symbolic link instead of any referenced file;\n"
 "         useful only on systems that can change the timestamps of a symlink\n"
 msgstr ""
-"  -h, --no-dereference\n"
-"         ändra varje symbolisk länk istället för den refererade filen;\n"
-"         meningsfullt endast på system där det går att ändra tidsstämpel\n"
-"         på en symlänk\n"
+"-h, --no-dereference ändra varje symbolisk länk istället för den refererade\n"
+"filen; meningsfullt endast på system där det går att ändra tidsstämpel på en symlänk\n"
+"\n"
 
 #: src/touch.c:250
 msgid ""
 "  -m\n"
 "         change only the modification time\n"
 msgstr ""
-"  -m\n"
-"         ändra bara modifieringstiden\n"
+"  -m ändra\n"
+"         bara modifieringstiden\n"
 
 #: src/touch.c:254
 msgid ""
@@ -14987,8 +15161,11 @@ msgstr "kan inte ange tider från mer än en källa"
 
 #: src/touch.c:422
 #, c-format
-msgid "warning: 'touch %s' is obsolete; use 'touch -t %04ld%02d%02d%02d%02d.%02d'"
-msgstr "varning: ”touch %s” är föråldrat; använd ”touch -t %04ld%02d%02d%02d%02d.%02d”"
+msgid ""
+"warning: 'touch %s' is obsolete; use 'touch -t %04ld%02d%02d%02d%02d.%02d'"
+msgstr ""
+"varning: ”touch %s” är föråldrat; använd ”touch -t "
+"%04ld%02d%02d%02d%02d.%02d”"
 
 #: src/tr.c:285
 #, c-format
@@ -15125,14 +15302,13 @@ msgid ""
 "Arguments like '[...]' should be quoted, to avoid potential shell globbing.\n"
 msgstr ""
 "\n"
-"Översättning sker om -d inte ges och både STRÄNG1 och STRÄNG2 förekommer.\n"
-"-t har endast betydelse vid översättning. VEKTOR2 expanderas till längden\n"
-"hos VEKTOR1 genom att dess sista tecken upprepas tillräckligt många \n"
-"gånger. Överflödiga tecken i VEKTOR2 ignoreras. Teckenklasser expanderas\n"
-"i en odefinierad ordning; vid översättning kan [:lower:] och [:upper:]\n"
-"användas i par för att ange skiftlägeskonvertering. Sammanslagning sker\n"
-"efter översättning eller radering. Argument som ”[…]” skall citeras, för\n"
-"att undvika eventuell globbning av skalet.\n"
+"Översättning sker om -d inte ges och både STRÄNG1 och STRÄNG2 förekommer. -t\n"
+"har endast betydelse vid översättning. VEKTOR2 expanderas till längden hos\n"
+"VEKTOR1 genom att dess sista tecken upprepas tillräckligt många gånger.\n"
+"Överflödiga tecken i VEKTOR2 ignoreras. Teckenklasser expanderas i en\n"
+"odefinierad ordning; vid översättning kan [:lower:] och [:upper:] användas i\n"
+"par för att ange skiftlägeskonvertering. Sammanslagning sker efter\n"
+"översättning eller radering. Argument som ”[…]” skall citeras, för att undvika eventuell globbning av skalet.\n"
 
 # Hur översätta escape?
 #: src/tr.c:519
@@ -15147,7 +15323,8 @@ msgstr ""
 #: src/tr.c:528
 #, c-format
 msgid "warning: an unescaped backslash at end of string is not portable"
-msgstr "varning: ett oskyddat omvänt snedstreck vid strängslut är inte portabelt"
+msgstr ""
+"varning: ett oskyddat omvänt snedstreck vid strängslut är inte portabelt"
 
 #: src/tr.c:676
 #, c-format
@@ -15243,7 +15420,9 @@ msgstr "sammansättningen [c*] får förekomma i sträng2 endast vid översättn
 
 #: src/tr.c:1751
 msgid "Two strings must be given when both deleting and squeezing repeats."
-msgstr "Två strängar måste anges när man både tar bort och pressar samman upprepningar."
+msgstr ""
+"Två strängar måste anges när man både tar bort och pressar samman "
+"upprepningar."
 
 #: src/tr.c:1753
 msgid "Two strings must be given when translating."
@@ -15300,8 +15479,12 @@ msgid "  -c, --no-create        do not create any files\n"
 msgstr "  -c, --no-create        skapa inga filer\n"
 
 #: src/truncate.c:84
-msgid "  -o, --io-blocks        treat SIZE as number of IO blocks instead of bytes\n"
-msgstr "  -o, --io-blocks        använd STORLEK som antal IO-block istället för byte\n"
+msgid ""
+"  -o, --io-blocks        treat SIZE as number of IO blocks instead of "
+"bytes\n"
+msgstr ""
+"  -o, --io-blocks        använd STORLEK som antal IO-block istället för "
+"byte\n"
 
 #: src/truncate.c:87
 msgid "  -r, --reference=RFILE  base size on RFILE\n"
@@ -15309,7 +15492,8 @@ msgstr "  -r, --reference=RFIL   basera storlek på RFIL\n"
 
 #: src/truncate.c:90
 msgid "  -s, --size=SIZE        set or adjust the file size by SIZE bytes\n"
-msgstr "  -s, --size=STORLEK     ange eller justera filstorlek med STORLEK byte\n"
+msgstr ""
+"  -s, --size=STORLEK     ange eller justera filstorlek med STORLEK byte\n"
 
 #: src/truncate.c:96
 msgid ""
@@ -15476,11 +15660,12 @@ msgstr "  -p, --processor            skriv ut processortypen (ej portabelt)\n"
 
 #: src/uname.c:151
 msgid "  -i, --hardware-platform  print the hardware platform (non-portable)\n"
-msgstr "  -i, --hardware-platform    skriv ut hårdvaruplattform (ej portabelt)\n"
+msgstr ""
+"  -i, --hardware-platform    skriv ut hårdvaruplattform (ej portabelt)\n"
 
 #: src/uname.c:154
 msgid "  -o, --operating-system   print the operating system\n"
-msgstr "  -o, --operating-system     skriv ut operativsystemet\n"
+msgstr "  -o, --operating-system skriv ut operativsystemet\n"
 
 #: src/uname.c:160
 msgid ""
@@ -15529,7 +15714,8 @@ msgstr "Operativsystem"
 
 #: src/unexpand.c:83
 msgid "Convert blanks in each FILE to tabs, writing to standard output.\n"
-msgstr "Konvertera mellanrum i varje FIL till tabulatorer, skriv till standard ut.\n"
+msgstr ""
+"Konvertera mellanrum i varje FIL till tabulatorer, skriv till standard ut.\n"
 
 #: src/unexpand.c:90
 msgid ""
@@ -15668,9 +15854,8 @@ msgid ""
 "characters.  Fields are skipped before chars.\n"
 msgstr ""
 "\n"
-"Ett fält är en följd av blanka (vanligen mellanslag och/eller\n"
-"tabulatorer) och sedan tecken som ej är blanka.  Fält hoppas över före\n"
-"tecken.\n"
+"Ett fält är en följd av blanka (vanligen mellanslag och/eller tabulatorer) och\n"
+"sedan tecken som ej är blanka. Fält hoppas över före tecken.\n"
 
 #: src/uniq.c:225
 msgid ""
@@ -15712,7 +15897,8 @@ msgstr "att gruppera och skriva antal repetitioner är meningslöst"
 #: src/uniq.c:673
 #, c-format
 msgid "printing all duplicated lines and repeat counts is meaningless"
-msgstr "att skriva alla duplicerade rader och antalet upprepningar är meningslöst"
+msgstr ""
+"att skriva alla duplicerade rader och antalet upprepningar är meningslöst"
 
 #: src/unlink.c:43
 #, c-format
@@ -15831,10 +16017,9 @@ msgid ""
 "more than one FILE is specified.  A word is a nonempty sequence of non white\n"
 "space delimited by white space characters or by start or end of input.\n"
 msgstr ""
-"Skriv antalet nyrader, ord och byte för varje FIL, och en totalrad om\n"
+"Skriv antalet nyrader, ord och byte för varje FIL och en totalrad om\n"
 "mer än en FIL anges. Ett ord är en icketom följd av tecken som inte är\n"
-"blanktecken, "
-"avgränsad av blanktecken eller början eller slutet av indata.\n"
+"blanktecken, avgränsad av blanktecken eller början eller slutet av indata.\n"
 
 #: src/wc.c:203
 msgid ""
@@ -16042,11 +16227,16 @@ msgstr "  -l, --login       skriv ut inloggningsprocesser\n"
 
 #: src/who.c:652
 msgid "      --lookup      attempt to canonicalize hostnames via DNS\n"
-msgstr "      --lookup      försök omvandla värdnamn till kanonisk form med hjälp av DNS\n"
+msgstr ""
+"      --lookup      försök omvandla värdnamn till kanonisk form med hjälp av"
+" DNS\n"
 
 #: src/who.c:655
-msgid "  -m                only hostname and user associated with standard input\n"
-msgstr "  -m                endast värdnamn och användarnamn associerat med standard in\n"
+msgid ""
+"  -m                only hostname and user associated with standard input\n"
+msgstr ""
+"  -m                endast värdnamn och användarnamn associerat med standard"
+" in\n"
 
 #: src/who.c:658
 msgid "  -p, --process     print active processes spawned by init\n"
@@ -16054,7 +16244,8 @@ msgstr "  -p, --process     skriv aktiva processer startade av init\n"
 
 #: src/who.c:661
 msgid "  -q, --count       all login names and number of users logged on\n"
-msgstr "  -q, --count       alla inloggningsnamn och antal inloggade användare\n"
+msgstr ""
+"  -q, --count       alla inloggningsnamn och antal inloggade användare\n"
 
 #: src/who.c:664
 msgid "  -r, --runlevel    print current runlevel\n"
@@ -16070,11 +16261,13 @@ msgstr "  -t, --time        skriv den senaste ändringen av systemklockan\n"
 
 #: src/who.c:673
 msgid "  -T, -w, --mesg    add user's message status as +, - or ?\n"
-msgstr "  -T, -w, --mesg    lägg till användares meddelandestatus som +, - eller ?\n"
+msgstr ""
+"  -T, -w, --mesg    lägg till användares meddelandestatus som +, - eller ?\n"
 
 #: src/who.c:676
 msgid "  -u, --users       list users logged in, including idle time\n"
-msgstr "  -u, --users       lista inloggade användare, inklusive inaktivitetstid\n"
+msgstr ""
+"  -u, --users       lista inloggade användare, inklusive inaktivitetstid\n"
 
 #: src/who.c:679
 msgid "      --message     same as -T\n"
