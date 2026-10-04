@@ -4,21 +4,22 @@
 # This file is distributed under the same license as the LilyPond package.
 # Martin Norbäck <d95mback@dtek.chalmers.se>, 2001, 2002, 2003.
 # Josef Andersson <janderssonse@proton.me>, 2017-2026
+# Daniel Nylander <po@danielnylander.se<, 2026.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: lilypond 2.23.80\n"
+"Project-Id-Version: lilypond 2.26.0\n"
 "Report-Msgid-Bugs-To: https://mail.gnu.org/mailman/listinfo/bug-lilypond\n"
 "POT-Creation-Date: 2026-04-19 18:19+0200\n"
-"PO-Revision-Date: 2026-02-18 16:45+0100\n"
-"Last-Translator: Josef Andersson <janderssonse@proton.me>\n"
+"PO-Revision-Date: 2026-10-02 16:45+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 
 #: book_base.py:46
 #, python-format
@@ -37,7 +38,9 @@ msgstr "det går inte att hitta \\begin{document} i LaTeX-dokument"
 #: book_latex.py:229
 #, python-format
 msgid "Running `%s' on file `%s' to detect default page settings.\n"
-msgstr "Kör ”%s” på filen ”%s” för att identifiera standardinställningar för sidan.\n"
+msgstr ""
+"Kör ”%s” på filen ”%s” för att identifiera standardinställningar för "
+"sidan.\n"
 
 #: book_latex.py:259 book_texinfo.py:257
 msgid "Unable to auto-detect default settings:\n"
@@ -132,7 +135,9 @@ msgstr ""
 #: book_texinfo.py:234
 #, python-format
 msgid "Running texi2pdf on file %s to detect default page settings.\n"
-msgstr "Kör texi2pdf på filen ”%s” för att identifiera standardinställningar för sidan.\n"
+msgstr ""
+"Kör texi2pdf på filen ”%s” för att identifiera standardinställningar för "
+"sidan.\n"
 
 #: convertrules.py:31
 #, python-format
@@ -183,14 +188,16 @@ msgstr "klustersyntax"
 
 #: convertrules.py:1407
 msgid "attempting automatic \\figures conversion.  Check results!"
-msgstr "försöker genomföra automatisk konvertering av \\figures. Kontrollera resultatet!"
+msgstr ""
+"försöker genomföra automatisk konvertering av \\figures. Kontrollera "
+"resultatet!"
 
 #: convertrules.py:1453
 msgid "Use Scheme code to construct arbitrary note events."
 msgstr "Använd Scheme-kod för att konstruera godtyckliga nothändelser."
 
 #: convertrules.py:1484
-#, fuzzy, python-format
+#, python-format
 #| msgid ""
 #| "\\outputproperty found,\n"
 #| "Please hand-edit, using\n"
@@ -206,12 +213,12 @@ msgid ""
 "\n"
 "as a substitution text"
 msgstr ""
-"\\outputproperty hittat,\n"
-"Redigera manuellt med\n"
+"\\outputproperty hittades.\n"
+"Redigera manuellt och använd\n"
 "\n"
 "  \\applyoutput #(outputproperty-compatibility %s '%s <GROB PROPERTY VALUE>)\n"
 "\n"
-"som ersättningstext."
+"som ersättningstext"
 
 #: convertrules.py:1496
 msgid ""
@@ -410,7 +417,8 @@ msgstr "\\bar ”.” producerar nu ett tjockt taktstreck.\n"
 
 #: convertrules.py:2955
 msgid "Dash parameters for slurs and ties are now in 'dash-definition.\n"
-msgstr "Streckparametrar för legato- och bindebågar finns nu i ”dash-definition”.\n"
+msgstr ""
+"Streckparametrar för legato- och bindebågar finns nu i ”dash-definition”.\n"
 
 #: convertrules.py:2974
 msgid "    Autobeam settings are now overriden with \\overrideBeamSettings.\n"
@@ -429,12 +437,19 @@ msgstr ""
 "   \\overrideBeamSettings.\n"
 
 #: convertrules.py:2991
-msgid "alignment-offsets has been changed to alignment-distances: you must now specify the distances between staves rather than the offset of staves.\n"
-msgstr "alignment-offsets har ändrats till alignment-distances: du måste nu specificera avståndet mellan stavar istället för förskjutningen mellan stavar.\n"
+msgid ""
+"alignment-offsets has been changed to alignment-distances: you must now "
+"specify the distances between staves rather than the offset of staves.\n"
+msgstr ""
+"alignment-offsets har ändrats till alignment-distances: du måste nu "
+"specificera avståndet mellan stavar istället för förskjutningen mellan "
+"stavar.\n"
 
 #: convertrules.py:3034
-msgid "Vertical spacing no longer depends on the Y-extent of a VerticalAxisGroup.\n"
-msgstr "Vertikalt utrymme beror inte längre på Y-extent för en VerticalAxisGroup.\n"
+msgid ""
+"Vertical spacing no longer depends on the Y-extent of a VerticalAxisGroup.\n"
+msgstr ""
+"Vertikalt utrymme beror inte längre på Y-extent för en VerticalAxisGroup.\n"
 
 #: convertrules.py:3088
 msgid "Use \\set beamExceptions or \\overrideTimeSignatureSettings.\n"
@@ -446,15 +461,19 @@ msgstr "Använd \\set beamExceptions eller \\revertTimeSignatureSettings.\n"
 
 #: convertrules.py:3097
 msgid "Use baseMoment, beatStructure, and beamExceptions.\n"
-msgstr "Använd baseMoment, beatStructure, och beamExceptions.\n"
+msgstr "Använd baseMoment, beatStructure och beamExceptions.\n"
 
 #: convertrules.py:3101 convertrules.py:3105
 msgid "Use baseMoment and beatStructure.\n"
 msgstr "Använd baseMoment och beatStructure.\n"
 
 #: convertrules.py:3117
-msgid "Move size, thickness, and graphic to properties.  Argument should be just the key list.\n"
-msgstr "Flytta storlek, tjocklek och grafik till egenskaper. Argumentet ska endast vara tonartslista.\n"
+msgid ""
+"Move size, thickness, and graphic to properties.  Argument should be just "
+"the key list.\n"
+msgstr ""
+"Flytta storlek, tjocklek och grafik till egenskaper. Argumentet ska endast "
+"vara tonartslista.\n"
 
 #: convertrules.py:3169
 msgid "Adjust settings for top-system-spacing instead.\n"
@@ -478,48 +497,68 @@ msgstr "Vertikala utrymmesändringar kan påverka användardefinierade kontext."
 
 #: convertrules.py:3269
 msgid "Clarinet fingering changed to reflect actual anatomy of instrument.\n"
-msgstr "Klarinettgrepp har ändrats för att motsvara instrumentets faktiska anatomi.\n"
+msgstr ""
+"Klarinettgrepp har ändrats för att motsvara instrumentets faktiska "
+"anatomi.\n"
 
 #: convertrules.py:3284
-msgid "If you are using non-automatic footnotes, make sure to set footnote-auto-numbering = ##f in the paper block.\n"
-msgstr "Om du använder icke automatiska fotnoter, försäkra dig om att ange automatisk numrering av fotnoter = ##f i paper-blocket.\n"
+msgid ""
+"If you are using non-automatic footnotes, make sure to set footnote-auto-"
+"numbering = ##f in the paper block.\n"
+msgstr ""
+"Om du använder icke automatiska fotnoter, försäkra dig om att ange "
+"automatisk numrering av fotnoter = ##f i paper-blocket.\n"
 
 #: convertrules.py:3294
-msgid "This internal property has been replaced by round-up-to-longer-rest, round-up-exceptions and usable-duration-logs.\n"
-msgstr "Denna interna egenskap har ersatts med round-up-to-longer-rest, round-up-exceptions och usable-duration-logs.\n"
+msgid ""
+"This internal property has been replaced by round-up-to-longer-rest, round-"
+"up-exceptions and usable-duration-logs.\n"
+msgstr ""
+"Denna interna egenskap har ersatts med round-up-to-longer-rest, round-up-"
+"exceptions och usable-duration-logs.\n"
 
 #: convertrules.py:3342
 msgid "consistent-broken-slope is now handled through the positions callback.\n"
 msgstr "consistent-broken-slope hanteras nu via positions-funktionen.\n"
 
 #: convertrules.py:3344
-msgid "input/regression/beam-broken-classic.ly shows how broken beams are now handled.\n"
-msgstr "input/regression/beam-broken-classic.ly visar hur brutna balkar nu hanteras.\n"
+msgid ""
+"input/regression/beam-broken-classic.ly shows how broken beams are now "
+"handled.\n"
+msgstr ""
+"input/regression/beam-broken-classic.ly visar hur brutna balkar nu "
+"hanteras.\n"
 
 #: convertrules.py:3514
 msgid "beamExceptions controls whole-measure beaming."
 msgstr "beamExceptions kontrollerar balk över en hel takt."
 
 #: convertrules.py:3860
-#, fuzzy
-#| msgid "Staff-padding now controls the distance to the baseline, not the nearest point."
+#| msgid ""
+#| "Staff-padding now controls the distance to the baseline, not the nearest "
+#| "point."
 msgid ""
 "\n"
 "staff-padding now controls the distance to the baseline, not the nearest point.\n"
-msgstr "Staff-padding styr nu avståndet till baslinjen, inte den närmaste punkten."
+msgstr ""
+"\n"
+"staff-padding styr nu avståndet till baslinjen, inte till den närmaste punkten.\n"
 
 #: convertrules.py:4154
-#, fuzzy
-#| msgid "Previously the \"id\" grob property (string) was used for SVG output."
+#| msgid ""
+#| "Previously the \"id\" grob property (string) was used for SVG output."
 msgid ""
 "\n"
 "Previously the \"id\" grob property (string) was used for SVG output.\n"
 "Now \"output-attributes\" (association list) is used instead.\n"
-msgstr "Tidigare användes grob-egenskapen ”id” (sträng) för SVG-utdata."
+msgstr ""
+"\n"
+"Tidigare användes grob-egenskapen ”id” (sträng) för SVG-utdata.\n"
+"Nu används i stället ”output-attributes” (associationslista).\n"
 
 #: convertrules.py:4261
 msgid "alternative chord naming functions"
-msgstr ""
+msgstr "alternativa funktioner för ackordbenämning"
 
 #: convertrules.py:4277
 msgid ""
@@ -532,6 +571,14 @@ msgid ""
 "The argument of \\multi-measure-rest-by-number is the number of measures\n"
 "the multi-measure rest lasts.\n"
 msgstr ""
+"\n"
+"Använd \\markup \\multi-measure-rest-by-number #1\n"
+"i stället för (till\n"
+"exempel) \\markup \\override #'(multi-measure-rest\n"
+". #t) \\rest-by-number #0 #0\n"
+"\n"
+"Argumentet till \\multi-measure-rest-by-number är\n"
+"antalet takter som flertakts­pausen varar.\n"
 
 #: convertrules.py:4313
 msgid ""
@@ -554,10 +601,28 @@ msgid ""
 "  \\set suspendMelodyDecisions = ##f\n"
 "\n"
 msgstr ""
+"\n"
+"Om du använde \\override\n"
+"\n"
+"Stem.neutral-direction = #DOWN och\n"
+"\n"
+"\\override Stem.neutral-direction #'() för\n"
+"\n"
+"att stänga av respektive\n"
+"\n"
+"slå på användningen av\n"
+"Melody_engraver, ska du i\n"
+"\n"
+"stället använda \\set suspendMelodyDecisions\n"
+"\n"
+"= ##t och \\set\n"
+"\n"
+"suspendMelodyDecisions = ##f\n"
+"\n"
 
 #: convertrules.py:4359
 msgid "Stem.neutral-direction with Melody_engraver"
-msgstr ""
+msgstr "Stem.neutral-direction med Melody_engraver"
 
 #: convertrules.py:4368
 msgid ""
@@ -567,14 +632,22 @@ msgid ""
 "The default value of the extroversion optional parameter was changed from\n"
 "-1 to 0.\n"
 msgstr ""
+"\n"
+"ly:round-filled-polygon har bytt namn till ly:round-polygon och tar\n"
+"nu emot en ytterligare valfri parameter som anger\n"
+"om polygonen är fylld. Standardvärdet för den valfria\n"
+"parametern extroversion har ändrats från -1 till 0.\n"
 
 #: convertrules.py:4445
-#, fuzzy
-#| msgid "If independent mark sequences are desired, use multiple Mark_tracking_translators."
+#| msgid ""
+#| "If independent mark sequences are desired, use multiple "
+#| "Mark_tracking_translators."
 msgid ""
 "\n"
 "If independent mark sequences are desired, use multiple Mark_tracking_translators.\n"
-msgstr "Om oberoende märkessekvenser önskas, använd flera Mark_tracking_translators."
+msgstr ""
+"\n"
+"Om oberoende markeringssekvenser önskas använder du flera Mark_tracking_translators.\n"
 
 #: convertrules.py:4462
 msgid ""
@@ -590,6 +663,17 @@ msgid ""
 "  (markup->string <markup> #:props (headers-property-alist-chain <header list>))\n"
 "\n"
 msgstr ""
+"\n"
+"Signaturen för Scheme-funktionen markup->string har ändrats.\n"
+"Anrop med bara ett argument påverkas\n"
+"inte. Anrop som använder det andra\n"
+"\n"
+"valfria argumentet, listan över huvudmoduler, ska\n"
+"\n"
+"ändras från (markup->string <markup> <header list>)\n"
+"\n"
+"till (markup->string <markup> #:props (headers-property-alist-chain <header list>))\n"
+"\n"
 
 #: convertrules.py:4519
 msgid ""
@@ -643,9 +727,13 @@ msgid ""
 "which the object is centered.  Overrides/tweaks to PercentRepeat.X-offset\n"
 "should be updated.\n"
 msgstr ""
+"\n"
+"Egenskapen X-offset för PercentRepeat är inte längre\n"
+"relativ till standardpositionen (centrerad), utan till vänster\n"
+"om det intervall där objektet är centrerat.\n"
+"Åsidosättanden och justeringar av PercentRepeat.X-offset ska uppdateras.\n"
 
 #: convertrules.py:4596
-#, fuzzy
 #| msgid ""
 #| "\n"
 #| "The barAlways property has been removed.  Instead, use\n"
@@ -656,12 +744,12 @@ msgid ""
 "measureBarType to #'() or a valid bar type.\n"
 msgstr ""
 "\n"
-"Egenskapen barAlways har tagits bort.  Använd istället\n"
-"forbidBreakBetweenBarLines.\n"
+"Egenskapen automaticBars har tagits bort. Sätt i stället\n"
+"measureBarType till #'() eller en giltig typ av taktstreck.\n"
 
 #: convertrules.py:4614
 msgid "advanced use of automaticBars"
-msgstr ""
+msgstr "avancerad användning av automaticBars"
 
 #: convertrules.py:4660
 msgid ""
@@ -671,9 +759,9 @@ msgid ""
 "unfolded, use \\volta to exclude it.\n"
 msgstr ""
 "\n"
-"Varning för att \\fine \\fine upprätthåller inte längre slutet på musiken.  Om ditt stycke\n"
-"har musik efter \\fine som du vill utesluta när den vecklas ut\n"
-"utfällt, använd \\volta för att utesluta den.\n"
+"Varning: \\fine anger inte längre slutet på musiken. Om stycket\n"
+"innehåller musik efter \\fine som ska uteslutas när det\n"
+"vecklas ut använder du \\volta för att utesluta den.\n"
 
 #: convertrules.py:4666
 msgid ""
@@ -722,32 +810,32 @@ msgid ""
 msgstr ""
 "\n"
 "GregorianTranscriptionStaff graverar nu \\divisioMinima,\n"
-"\\divisioMaior och \\divisioMaxima som BarLine-gropar med hjälp av Bar_engraver,\n"
-"och graverar \\caesura och \\virgula som Divisio-gropar med hjälp av\n"
+"\\divisioMaior och \\divisioMaxima som BarLine-grober med Bar_engraver\n"
+"och graverar \\caesura och \\virgula som Divisio-grober med\n"
 "Divisio_engraver.\n"
 "\n"
 "Tidigare använde GregorianTranscriptionVoice Breathing_sign_engraver\n"
-"för att gravera dessa som BreathingSign-grober.  På grund av de nya namnen och\n"
-"och flytten från Voice till Staff är layoutjusteringar för det gamla schemat\n"
-"inte effektiva för det nya.\n"
+"för att gravera dessa som BreathingSign-grober. På grund av de nya namnen\n"
+"och flytten från Voice till Staff fungerar layoutjusteringar för det gamla\n"
+"schemat inte för det nya.\n"
 "\n"
-"Om du inte är nöjd med den nya standardlayouten ska du använda BarLine,\n"
+"Om du inte är nöjd med den nya standardlayouten använder du BarLine,\n"
 "Bar_engraver, Divisio och Divisio_engraver i\n"
-"GregorianTranscriptionStaff sammanhang.  \\EnableGregorianDivisiones kan också\n"
-"också användas för att byta till gravering av Divisio-gropar istället för BarLine\n"
-"gropar.\n"
+"GregorianTranscriptionStaff-kontexten. \\EnableGregorianDivisiones kan\n"
+"också användas för att gravera Divisio-grober i stället för BarLine-\n"
+"grober.\n"
 
 #: convertrules.py:4707
 msgid "music following \\fine"
-msgstr ""
+msgstr "musik efter \\fine"
 
 #: convertrules.py:4712
 msgid "BreathingSign to BarLine or Divisio"
-msgstr ""
+msgstr "BreathingSign till BarLine eller Divisio"
 
 #: convertrules.py:4717
 msgid "BreathingSign to Divisio"
-msgstr ""
+msgstr "BreathingSign till Divisio"
 
 #: convertrules.py:4723
 msgid ""
@@ -761,7 +849,7 @@ msgstr ""
 
 #: convertrules.py:4735
 msgid "advanced use of barAlways"
-msgstr ""
+msgstr "avancerad användning av barAlways"
 
 #: convertrules.py:4741
 msgid ""
@@ -769,10 +857,13 @@ msgid ""
 "The second argument to ly:skylines-for-stencil is now the 'horizon axis',\n"
 "which is the opposite of the convention used previously.\n"
 msgstr ""
+"\n"
+"Det andra argumentet till ly:skylines-for-stencil är nu ”horisontaxeln”,\n"
+"vilket är motsatsen till den konvention som användes tidigare.\n"
 
 #: convertrules.py:4751
 msgid "ly:skylines-for-stencil second argument"
-msgstr ""
+msgstr "ly:skylines-for-stencil, andra argumentet"
 
 #: convertrules.py:4773
 msgid ""
@@ -785,12 +876,22 @@ msgid ""
 "\n"
 "  (ly:regex-replace (ly:make-regex pattern) str replacement)\n"
 msgstr ""
+"\n"
+"Funktionen string-regexp-substitute har tagits bort. Ett anrop\n"
+"\n"
+"  (string-regexp-substitute pattern replacement str)\n"
+"\n"
+"ska ersättas med\n"
+"\n"
+"  (ly:regex-replace (ly:make-regex pattern) str replacement)\n"
 
 #: convertrules.py:4783
 msgid ""
 "\n"
 "uniqued-alist no longer needs to take '() as its second argument.\n"
 msgstr ""
+"\n"
+"uniqued-alist behöver inte längre ta emot '() som sitt andra argument.\n"
 
 #. This replacement is not 100% reliable, but should do a good job.
 #. If there is the #:factor (/ staff-height pt 20) parameter in the
@@ -814,6 +915,17 @@ msgid ""
 "    {}\n"
 "\n"
 msgstr ""
+"\n"
+"LilyPond använder nu en annan syntax\n"
+"för att välja teckensnitt. Scheme-funktionen set-global-fonts\n"
+"har tagits bort. convert-ly har till\n"
+"största delen konverterat anropet åt dig, men\n"
+"kunde inte konvertera parametern #:factor. Teckensnittsval\n"
+"är nu oberoende av inställningen av teckenstorlek.\n"
+"Använd set-global-staff-size eller layout-set-staff-size för att\n"
+"\n"
+"ersätta parametern, som du satte till: {}\n"
+"\n"
 
 #: convertrules.py:4884
 msgid ""
@@ -836,6 +948,24 @@ msgid ""
 "  }\n"
 "}\n"
 msgstr ""
+"\n"
+"LilyPond använder nu en annan\n"
+"syntax för att välja teckensnitt.\n"
+"Argumentet #:brace till set-global-fonts saknar\n"
+"motsvarighet i den nya syntaxen;\n"
+"klamrar använder nu den vanliga\n"
+"musiktypsnittsfamiljen som standard. Koden innehåller\n"
+"\n"
+"ett anrop till set-global-fonts där\n"
+"parametrarna #:music och #:brace har\n"
+"olika värden. Om klamrar ska\n"
+"\n"
+"använda ett annat musiktypsnitt än\n"
+"andra musikglyfer använder du kod\n"
+"som denna: \\paper { fonts.music-alt\n"
+"= \"your-music-font\" } \\layout {\n"
+"\\context { \\Score \\override\n"
+"SystemStartBrace.font-family = #'music-alt } }\n"
 
 #: convertrules.py:4904
 msgid ""
@@ -864,18 +994,42 @@ msgid ""
 "convert-ly found an advanced use of set-global-fonts that it was not able to\n"
 "convert automatically.  Please do the update manually.\n"
 msgstr ""
+"\n"
+"LilyPond använder nu en\n"
+"annan syntax för att\n"
+"\n"
+"välja teckensnitt. Koden som\n"
+"motsvarar den tidigare skrivningen\n"
+"\\paper { #(define fonts\n"
+"(set-global-fonts #:music \"music-font\" #:brace\n"
+"\"brace-font\" #:roman \"roman font\"\n"
+"#:sans \"sans font\" #:typewriter\n"
+"\"typewriter font\")) }\n"
+"är nu \\paper {\n"
+"\n"
+"fonts.music = \"music-font\"\n"
+"\n"
+"fonts.roman = \"roman font\"\n"
+"fonts.sans = \"sans\n"
+"font\" fonts.typewriter = \"typewriter\n"
+"font\" } convert-ly\n"
+"hittade en avancerad användning\n"
+"av set-global-fonts som\n"
+"\n"
+"inte kunde konverteras automatiskt.\n"
+"Uppdatera den manuellt.\n"
 
 #: convertrules.py:4949
 msgid "#:factor parameter to set-global-fonts"
-msgstr ""
+msgstr "parametern #:factor till set-global-fonts"
 
 #: convertrules.py:4954
 msgid "different music and brace fonts passed to set-global-fonts"
-msgstr ""
+msgstr "olika musik- och klammerteckensnitt skickas till set-global-fonts"
 
 #: convertrules.py:4971
 msgid "advanced use of set-global-fonts"
-msgstr ""
+msgstr "avancerad användning av set-global-fonts"
 
 #. Similar logic here with the factor parameter here
 #: convertrules.py:4976
@@ -893,6 +1047,17 @@ msgid ""
 "    {}\n"
 "\n"
 msgstr ""
+"\n"
+"LilyPond använder nu en annan syntax\n"
+"för att välja teckensnitt. Scheme-funktionen make-pango-font-tree\n"
+"har tagits bort. convert-ly har till\n"
+"största delen konverterat anropet åt dig, men\n"
+"kunde inte konvertera parametern #:factor. Teckensnittsval\n"
+"är nu oberoende av inställningen av teckenstorlek.\n"
+"Använd set-global-staff-size eller layout-set-staff-size för att\n"
+"\n"
+"ersätta parametern, som du satte till: {}\n"
+"\n"
 
 #: convertrules.py:4989
 msgid ""
@@ -920,17 +1085,39 @@ msgid ""
 "convert-ly found an advanced use of make-pango-font-tree that it was not able\n"
 "to convert automatically.  Please do the update manually.\n"
 msgstr ""
+"\n"
+"LilyPond använder nu\n"
+"en annan syntax\n"
+"\n"
+"för att välja\n"
+"teckensnitt. Koden som\n"
+"motsvarar den tidigare skrivningen\n"
+"\\paper { #(define\n"
+"fonts (make-pango-font-tree \"roman font\"\n"
+"\"sans font\" \"typewriter\n"
+"font\" factor)) } är\n"
+"nu \\paper {\n"
+"\n"
+"fonts.roman = \"roman font\"\n"
+"\n"
+"fonts.sans = \"sans\n"
+"font\" fonts.typewriter = \"typewriter\n"
+"font\" } convert-ly\n"
+"hittade en avancerad användning\n"
+"av make-pango-font-tree som\n"
+"\n"
+"inte kunde konverteras automatiskt.\n"
+"Uppdatera den manuellt.\n"
 
 #: convertrules.py:5036
 msgid "factor parameter to make-pango-font-tree"
-msgstr ""
+msgstr "parametern factor till make-pango-font-tree"
 
 #: convertrules.py:5047
 msgid "advanced use of make-pango-font-tree"
-msgstr ""
+msgstr "avancerad användning av make-pango-font-tree"
 
 #: convertrules.py:5103
-#, fuzzy
 #| msgid "markup expected"
 msgid "markup in repeatCommands"
 msgstr "markup i repeatCommands"
@@ -951,10 +1138,23 @@ msgid ""
 "  \\set Score.repeatCommands = #'((volta \"1.2. ad lib.\"))\n"
 "  -> \\set Score.repeatCommands = #`((volta ,#{ \\markup { \\volta-number \"1.2.\" ad lib. } #}))\n"
 msgstr ""
+"\n"
+"Markeringar i repeatCommands sätts inte längre automatiskt\n"
+"med ett musiktypsnitt. Använd kommandot \\volta-number där\n"
+"det behövs. Exempel på ersättningar: \\set Score.repeatCommands\n"
+"\n"
+"= #'((volta \"ad lib.\")) [behöver inte konverteras]\n"
+"\\set Score.repeatCommands = #'((volta \"1.2.\")) -> \\set\n"
+"\n"
+"Score.repeatCommands = #`((volta ,#{ \\markup \\volta-number \"1.2.\"\n"
+"#})) \\set Score.repeatCommands = #'((volta \"1.2. ad\n"
+"\n"
+"lib.\")) -> \\set Score.repeatCommands = #`((volta ,#{ \\markup\n"
+"{ \\volta-number \"1.2.\" ad lib. } #}))\n"
 
 #: convertrules.py:5138
 msgid "advanced use of (text-)font-defaults"
-msgstr ""
+msgstr "avancerad användning av (text-)font-defaults"
 
 #: convertrules.py:5139
 msgid ""
@@ -962,6 +1162,9 @@ msgid ""
 "The text-font-defaults and font-defaults variables have\n"
 "been merged into a single property-defaults variable.\n"
 msgstr ""
+"\n"
+"Variablerna text-font-defaults och font-defaults har slagits\n"
+"samman till en enda variabel, property-defaults.\n"
 
 #: convertrules.py:5145
 #, python-brace-format
@@ -975,6 +1178,14 @@ msgid ""
 "\n"
 "It is recommended to rename them.\n"
 msgstr ""
+"\n"
+"Identifierare som tidigare fanns i filen\n"
+"”gregorian.ly” är nu alltid definierade. Följande\n"
+"variabel eller variabler i LilyPond-indatafilen har\n"
+"\n"
+"samma namn som någon av identifierarna:\n"
+"\n"
+"{} Vi rekommenderar att de byter namn.\n"
 
 #: convertrules.py:5155
 msgid ""
@@ -997,10 +1208,28 @@ msgid ""
 "  }\n"
 "\n"
 msgstr ""
+"\n"
+"Användningen av ”gregorian.ly” är föråldrad. Kod som\n"
+"\n"
+"  \\input \"gregorian.ly\"\n"
+"\n"
+"  \\new VaticanaStaff { ... }\n"
+"\n"
+"skall ersättas med\n"
+"\n"
+"  \\new VaticanaScore {\n"
+"    \\new VaticanaStaff { ... }\n"
+"  }\n"
+"\n"
+"  \\layout {\n"
+"    indent = 0\n"
+"    ragged-last = ##t\n"
+"  }\n"
+"\n"
 
 #: convertrules.py:5216
 msgid "gregorian.ly to VaticanaScore"
-msgstr ""
+msgstr "gregorian.ly till VaticanaScore"
 
 #: convertrules.py:5232
 msgid "possible use of \\roman markup command with #(markup ...) macro"
@@ -1014,6 +1243,11 @@ msgid ""
 "macro, e.g., #(markup #:roman ...).  If this is the case, convert\n"
 "#:roman to #:serif.\n"
 msgstr ""
+"\n"
+"convert-ly upptäckte ”#:roman” i indatafilen. Det kan hänga\n"
+"samman med användning av markup-kommandot \\roman med makrot\n"
+"markup, till exempel #(markup #:roman ...). Om så\n"
+"är fallet konverterar du #:roman till #:serif.\n"
 
 #: convertrules.py:5278
 msgid "subdivideBeams"
@@ -1033,6 +1267,17 @@ msgid ""
 "value of 'baseMoment', even at each implicit setting of 'baseMoment',\n"
 "and setting 'respectIncompleteBeams' to true.\n"
 msgstr ""
+"\n"
+"Kontextegenskapen ”subdivideBeams” använde tidigare värdet för ”baseMoment”\n"
+"som minsta underindelningsintervall. Nu styr separata egenskaper,\n"
+"”minimumBeamSubdivisionInterval”, ”maximumBeamSubdivisionInterval” och ”respectIncompleteBeams”, specifikt intervallen för\n"
+"balkunderindelning, medan ”baseMoment” inte längre har någon\n"
+"effekt. Värdet för ”baseMoment” kan ändras implicit\n"
+"när en taktart ändras eller sätts för\n"
+"första gången. För att bevara tidigare beteende\n"
+"måste ”minimumBeamSubdivisionInterval” därför sättas till samma värde\n"
+"som ”baseMoment”, även vid varje implicit inställning av\n"
+"”baseMoment” och ”respectIncompleteBeams” måste sättas till true.\n"
 
 #: convertrules.py:5475
 msgid "Advanced use of partcombine music types."
@@ -1045,6 +1290,10 @@ msgid ""
 "PartCombineEvent, with different values for property 'part-combine-status:\n"
 "'unisono, 'solo1, 'solo2 respectively.\n"
 msgstr ""
+"\n"
+"UnisonoEvent, SoloOneEvent och SoloTwoEvent har slagits\n"
+"samman till PartCombineEvent, med olika värden\n"
+"för egenskapen ”part-combine-status”: ”unisono”, ”solo1” respektive ”solo2”.\n"
 
 #: convertrules.py:5483
 msgid "Advanced use of partcombine event classes."
@@ -1057,12 +1306,18 @@ msgid ""
 "use part-combine-event with different values for property 'part-combine-status:\n"
 "'unisono, 'solo1, 'solo2 respectively.\n"
 msgstr ""
+"\n"
+"unisono-event, solo-one-event och solo-two-event har tagits bort.\n"
+"Använd i stället part-combine-event med olika värden\n"
+"för egenskapen ”part-combine-status”: ”unisono”, ”solo1” respektive ”solo2”.\n"
 
 #: convertrules.py:5491
 msgid ""
 "\n"
 "Advanced use of make-part-combine-marks or make-part-combine-context-changes.\n"
 msgstr ""
+"\n"
+"Avancerad användning av make-part-combine-marks eller make-part-combine-context-changes.\n"
 
 #: convertrules.py:5494
 msgid ""
@@ -1083,6 +1338,22 @@ msgid ""
 "\n"
 "Refer to part-combiner.scm for more information.\n"
 msgstr ""
+"\n"
+"Formatet för värden som returneras av\n"
+"alla tillståndsmaskintabeller för partcombine har ändrats:\n"
+"\n"
+"1. symbolerna ”next-label” har flyttats från\n"
+"SIST till FÖRST 2. värden är\n"
+"nu alltid riktiga listor (ändrade från\n"
+"\n"
+"punktpar för tabellen context-changes) Argumentens ordning\n"
+"till make-part-combine-marks har kastats om, men\n"
+"inte till make-part-combine-context-changes. Argumentet state-machine är\n"
+"nu valfritt och förväntar sig en\n"
+"procedur snarare än en tillståndsmaskintabell. För motsvarande\n"
+"beteende skickar du (traverse-state-machine <your-state-machine-table>) som\n"
+"\n"
+"andra argument. Mer information finns i part-combiner.scm.\n"
 
 #: convertrules.py:5572
 msgid "toe and heel marks with direction modifiers"
@@ -1097,10 +1368,16 @@ msgid ""
 "  - use normal articulations \\toe, \\vartoe, \\heel, or \\varheel\n"
 "  - remove `Toe_heel_engraver`\n"
 msgstr ""
+"\n"
+"\\rtoe, \\ltoe, \\rheel och \\lheel ignorerar nu dem.\n"
+"Tre möjliga lösningar: - använd kontextegenskapen `toeHeelStyle` för\n"
+"att formge pedalmarkeringarna i stället för att ange\n"
+"explicita riktningar (rekommenderas) - använd normala artikulationer: \\toe,\n"
+"\\vartoe, \\heel eller \\varheel - ta bort `Toe_heel_engraver`\n"
 
 #: convertrules.py:5635
 msgid "assignment of \\%"
-msgstr ""
+msgstr "tilldelning av \\%"
 
 #: convertrules.py:5636
 msgid ""
@@ -1108,10 +1385,13 @@ msgid ""
 "\\% is now a built-in abbreviation for \\repeat percent.  If you have defined it\n"
 "differently, you may wish to change the name to avoid confusion.\n"
 msgstr ""
+"\n"
+"\\% är nu en inbyggd förkortning för \\repeat percent. Om du har definierat\n"
+"den på annat sätt kan du vilja byta namn för att undvika förväxling.\n"
 
 #: convertrules.py:5643
 msgid "assignment of \\*"
-msgstr ""
+msgstr "tilldelning av \\*"
 
 #: convertrules.py:5644
 msgid ""
@@ -1119,10 +1399,13 @@ msgid ""
 "\\* is now a built-in abbreviation for \\repeat unfold.  If you have defined it\n"
 "differently, you may wish to change the name to avoid confusion.\n"
 msgstr ""
+"\n"
+"\\* är nu en inbyggd förkortning för \\repeat unfold. Om du har definierat\n"
+"den på annat sätt kan du vilja byta namn för att undvika förväxling.\n"
 
 #: convertrules.py:5667
 msgid "chord names in combination with \\language"
-msgstr ""
+msgstr "ackordnamn i kombination med \\language"
 
 #: convertrules.py:5668
 msgid ""
@@ -1131,6 +1414,10 @@ msgid ""
 "as selected with \\language.  This might cause different note names in the\n"
 "shown chord names.\n"
 msgstr ""
+"\n"
+"\\germanChords och närbesläktade kommandon beror inte längre på\n"
+"de inmatade notnamn som väljs med \\language. Detta\n"
+"kan ge andra notnamn i de visade ackordnamnen.\n"
 
 #: lilylib.py:50
 #, python-format
@@ -1162,16 +1449,14 @@ msgid "unable to set the music %(music)s for the repeat %(repeat)s"
 msgstr "det gick inte att ange musiken %(music)s för upprepning %(repeat)s"
 
 #: musicexp.py:1177
-#, fuzzy
 #| msgid "encountered repeat without body"
 msgid "encountered tremolo repeat without body"
-msgstr "påträffade upprepning utan innehåll"
+msgstr "påträffade tremoloupprepning utan innehåll"
 
 #: musicexp.py:1184
-#, fuzzy
 #| msgid "encountered repeat without body"
 msgid "encountered volta repeat without body"
-msgstr "påträffade upprepning utan innehåll"
+msgstr "påträffade voltaupprepning utan innehåll"
 
 #. No `self.elements`!
 #: musicexp.py:1796
@@ -1180,8 +1465,12 @@ msgid "Grace note with no following music: %s"
 msgstr "Grace-not utan efterföljande musik: %s"
 
 #: musicexp.py:2263
-msgid "Correct vertical positioning of trill pitch change accidental marks might fail and need manual fixing."
+msgid ""
+"Correct vertical positioning of trill pitch change accidental marks might "
+"fail and need manual fixing."
 msgstr ""
+"Korrekt lodrät placering av förtecken vid tonändringar i drillar kan "
+"misslyckas och kräver manuell rättning."
 
 #: musicexp.py:2556
 #, python-format
@@ -1194,17 +1483,24 @@ msgid "Unable to convert alteration %s to a lilypond expression"
 msgstr "Det gick inte att konvertera alteration %s till ett lilypond-uttryck"
 
 #: musicexp.py:4405
-msgid "Non-standard clef positions are not supported yet, using 'treble' instead"
+msgid ""
+"Non-standard clef positions are not supported yet, using 'treble' instead"
 msgstr ""
+"Icke-standardiserade klavpositioner stöds inte ännu; använder ”treble” i "
+"stället"
 
 #: musicexp.py:4413
 #, python-format
 msgid "Unsupported clef '%s', using 'treble' instead"
-msgstr ""
+msgstr "Klavtypen ”%s” stöds inte; använder ”treble” i stället"
 
 #: musicexp.py:5044
-msgid "Only up to 4 voices per staff are supported; expect wrong stem directions and collisions"
+msgid ""
+"Only up to 4 voices per staff are supported; expect wrong stem directions "
+"and collisions"
 msgstr ""
+"Högst fyra stämmor per notsystem stöds; felaktiga notskaftsriktningar och "
+"kollisioner kan uppstå"
 
 #: musicxml.py:178
 #, python-format
@@ -1217,14 +1513,18 @@ msgstr "Det gick inte att tolka taktart! Faller tillbaka till 4/4."
 
 #: musicxml.py:696
 #, python-format
-msgid "Key alteration octave given for a non-existing alteration nr. %s, available numbers: %s!"
-msgstr "Tonartalterationsoktav given för en icke existerande alteration nr. %s, tillgänglig antal: %s!"
+msgid ""
+"Key alteration octave given for a non-existing alteration nr. %s, available "
+"numbers: %s!"
+msgstr ""
+"Tonartalterationsoktav given för en icke existerande alteration nr. %s, "
+"tillgänglig antal: %s!"
 
 #: musicxml.py:973
-#, fuzzy, python-format
+#, python-format
 #| msgid "Encountered note at %s without type and duration(=%s)"
 msgid "Encountered note at %s without type and duration (=%s)"
-msgstr "Påträffade not vid %s utan typ och längd(=%s)"
+msgstr "Påträffade not vid %s utan typ och längd (=%s)"
 
 #: musicxml.py:1095
 msgid "cannot find suitable event"
@@ -1237,30 +1537,30 @@ msgstr "Det gick inte att hitta instrument för ID=%s\n"
 
 #: musicxml.py:1536
 msgid "Ignoring cross-voice slur"
-msgstr ""
+msgstr "Ignorerar båge mellan stämmor"
 
 #. Only for verbose operation.
 #: musicxml.py:1688 musicxml.py:1692
 msgid "Incomplete"
-msgstr ""
+msgstr "Ofullständig"
 
 #: musicxml.py:1690
 msgid "Overfull"
-msgstr ""
+msgstr "Överfull"
 
 #: musicxml.py:1694
 #, python-format
 msgid "%s measure? Expected: %s, difference: %s"
-msgstr ""
+msgstr "%s takt? Förväntat: %s, skillnad: %s"
 
 #: musicxml.py:2088
 #, python-format
 msgid "%s end seen without %s start"
-msgstr ""
+msgstr "Slutet för %s hittades utan början för %s"
 
 #: musicxml.py:2495
 msgid "Found overlapping <direction> elements"
-msgstr ""
+msgstr "Hittade överlappande <direction>-element"
 
 #: musicxml2ly_conversion.py:66
 #, python-format
@@ -1273,7 +1573,7 @@ msgid "%s [OPTION]... FILE"
 msgstr "%s [FLAGGA]… FIL"
 
 #: abc2ly.py:1633
-#, fuzzy, python-format
+#, python-format
 #| msgid ""
 #| "abc2ly converts ABC music files (see\n"
 #| "%s) to LilyPond input.\n"
@@ -1282,7 +1582,7 @@ msgid ""
 "<%s>) to LilyPond input.\n"
 msgstr ""
 "abc2ly konverterar ABC-musikfiler (se\n"
-"%s) till LilyPond-indata.\n"
+"<%s>) till LilyPond-indata.\n"
 
 #: abc2ly.py:1642 convert-ly.py:95 etf2ly.py:1231 lilypond-book.py:275
 #: midi2ly.py:1212 musicxml2ly.py:5197 main.cc:154
@@ -1316,9 +1616,7 @@ msgstr "dölj förloppsmeddelanden"
 #: midi2ly.py:1224 musicxml2ly.py:5410
 #, python-format
 msgid "Report bugs via %s"
-msgstr ""
-"Rapportera programfel till %s\n"
-"Rapportera fel i översättningen till <tp-sv@listor.tp-sv.se>"
+msgstr "Rapportera programfel till %s"
 
 #: convert-ly.py:48
 msgid ""
@@ -1362,10 +1660,15 @@ msgid "edit in place"
 msgstr "redigera på plats"
 
 #: convert-ly.py:113 musicxml2ly.py:5236
-#, fuzzy
-#| msgid "Print log messages according to LOGLEVEL (NONE, ERROR, WARNING, PROGRESS (default), DEBUG)"
-msgid "Print log messages according to LOGLEVEL (NONE, ERROR, WARN, PROGRESS (default), DEBUG)"
-msgstr "Skriv ut loggmeddelanden utefter LOGLEVEL (NONE, ERROR, WARNING, PROGRESS (standard), DEBUG)"
+#| msgid ""
+#| "Print log messages according to LOGLEVEL (NONE, ERROR, WARNING, PROGRESS "
+#| "(default), DEBUG)"
+msgid ""
+"Print log messages according to LOGLEVEL (NONE, ERROR, WARN, PROGRESS "
+"(default), DEBUG)"
+msgstr ""
+"Skriv ut loggmeddelanden enligt LOGGNIVÅ (NONE, ERROR, WARN, PROGRESS "
+"(standard), DEBUG)"
 
 #: convert-ly.py:115 lilypond-book.py:198 lilypond-book.py:214
 #: musicxml2ly.py:5238 main.cc:142
@@ -1401,7 +1704,7 @@ msgstr "skapa en numrerad säkerhetskopia [standard: filnamn.ext~]"
 
 #: convert-ly.py:157
 msgid "print rule descriptions during conversion"
-msgstr ""
+msgstr "skriv ut regelbeskrivningar under konverteringen"
 
 #: convert-ly.py:162 etf2ly.py:1235 lilypond-book.py:279 midi2ly.py:1213
 #: main.cc:156
@@ -1474,8 +1777,12 @@ msgid "FILE"
 msgstr "FIL"
 
 #: lilypond-book.py:87
-msgid "Process LilyPond snippets in hybrid HTML, LaTeX, texinfo or DocBook document."
-msgstr "Bearbeta LilyPond-stycken i hybrid HTML-, LaTex-, texinfo- eller DocBook-dokument."
+msgid ""
+"Process LilyPond snippets in hybrid HTML, LaTeX, texinfo or DocBook "
+"document."
+msgstr ""
+"Bearbeta LilyPond-stycken i hybrid HTML-, LaTex-, texinfo- eller DocBook-"
+"dokument."
 
 #: lilypond-book.py:104
 #, python-format
@@ -1491,8 +1798,11 @@ msgid "FILTER"
 msgstr "FILTER"
 
 #: lilypond-book.py:153
-msgid "use output format FORMAT (texi [default], texi-html, latex, html, docbook)"
-msgstr "använd utdataformat FORMAT (texi [standard], texi-html, latex, html, docbook)"
+msgid ""
+"use output format FORMAT (texi [default], texi-html, latex, html, docbook)"
+msgstr ""
+"använd utdataformat FORMAT (texi [standard], texi-html, latex, html, "
+"docbook)"
 
 #: lilypond-book.py:155
 msgid "FORMAT"
@@ -1508,13 +1818,20 @@ msgid "DIR"
 msgstr "KATALOG"
 
 #: lilypond-book.py:177
-msgid "format Texinfo output so that Info will look for images of music in DIR"
-msgstr "formatera Texinfo-utdata så att Info kommer att leta efter bilder av musik i KATALOG"
+msgid ""
+"format Texinfo output so that Info will look for images of music in DIR"
+msgstr ""
+"formatera Texinfo-utdata så att Info kommer att leta efter bilder av musik i"
+" KATALOG"
 
 #: lilypond-book.py:188
 #, python-format
-msgid "set minimum distance between left margin and staff to PAD (in mm) [default: %default]"
-msgstr "ange minsta avstånd mellan vänstermarginalen och notsystemet som UTFYLLNAD (i mm) [standard: %default]"
+msgid ""
+"set minimum distance between left margin and staff to PAD (in mm) [default: "
+"%default]"
+msgstr ""
+"ange minsta avstånd mellan vänstermarginalen och notsystemet som UTFYLLNAD "
+"(i mm) [standard: %default]"
 
 #: lilypond-book.py:190
 msgid "PAD"
@@ -1523,17 +1840,24 @@ msgstr "UTFYLLNAD"
 #: lilypond-book.py:196
 #, python-format
 msgid "print lilypond log messages according to LOGLEVEL [default: %default]"
-msgstr "skriv ut LilyPonds loggmeddelanden enligt LOGGNIVÅ [standard: %default]"
+msgstr ""
+"skriv ut LilyPonds loggmeddelanden enligt LOGGNIVÅ [standard: %default]"
 
 #: lilypond-book.py:204
 msgid "write lily-XXX files to DIR, link into --output dir"
-msgstr "skriv Lily-XXX-filer till KATALOG och länka dem till katalogen för --output"
+msgstr ""
+"skriv Lily-XXX-filer till KATALOG och länka dem till katalogen för --output"
 
 #: lilypond-book.py:212
-#, fuzzy
-#| msgid "print log messages according to LOGLEVEL (NONE, ERROR, WARNING, PROGRESS [default], DEBUG)"
-msgid "print log messages according to LOGLEVEL (NONE, ERROR, WARN, PROGRESS [default], DEBUG)"
-msgstr "skriv ut loggmeddelanden enligt LOGGNIVÅ (NONE, ERROR, WARN, PROGRESS [standard], DEBUG)"
+#| msgid ""
+#| "print log messages according to LOGLEVEL (NONE, ERROR, WARNING, PROGRESS "
+#| "[default], DEBUG)"
+msgid ""
+"print log messages according to LOGLEVEL (NONE, ERROR, WARN, PROGRESS "
+"[default], DEBUG)"
+msgstr ""
+"skriv ut loggmeddelanden enligt LOGGNIVÅ (NONE, ERROR, WARN, PROGRESS "
+"[standard], DEBUG)"
 
 #: lilypond-book.py:220
 msgid "write output to DIR"
@@ -1548,10 +1872,9 @@ msgid "COMMAND"
 msgstr "KOMMANDO"
 
 #: lilypond-book.py:234
-#, fuzzy
 #| msgid "redirect the lilypond output"
 msgid "redirect lilypond output messages to log files"
-msgstr "omdirigera LilyPonds utmeddelanden till loggfiler"
+msgstr "omdirigera LilyPonds utdatameddelanden till loggfiler"
 
 #: lilypond-book.py:240
 msgid "removed; using this option results in an error"
@@ -1566,7 +1889,8 @@ msgid "do not fail if no PNG images are found for EPS files"
 msgstr "misslyckas inte även om inga PNG-bilder hittas för EPS-filer"
 
 #: lilypond-book.py:261
-msgid "write snippet output files with the same base name as their source file"
+msgid ""
+"write snippet output files with the same base name as their source file"
 msgstr "skriv utdatafiler för stycken med samma basnamn som deras källfil"
 
 #: lilypond-book.py:268 midi2ly.py:1207 musicxml2ly.py:5203
@@ -1579,16 +1903,24 @@ msgstr "skapa PDF-filer för användning med pdftex"
 
 #: lilypond-book.py:292
 #, python-format
-msgid "shift inline images vertically by VSHIFT (a factor of an image's height) [default: %default]"
-msgstr "förskjut bilder i löpande text lodrätt med FÖRSKJUTNING (en faktor av bildens höjd) [standard: %default]"
+msgid ""
+"shift inline images vertically by VSHIFT (a factor of an image's height) "
+"[default: %default]"
+msgstr ""
+"förskjut bilder i löpande text lodrätt med FÖRSKJUTNING (en faktor av "
+"bildens höjd) [standard: %default]"
 
 #: lilypond-book.py:295
 msgid "VSHIFT"
 msgstr "FÖRSKJUTNING"
 
 #: lilypond-book.py:300
-msgid "run executable PROG instead of latex or, in case --pdf option is set, instead of pdflatex"
-msgstr "kör exekverbara PROG istället för latex, eller om flaggan --pdf är angiven, istället för pdflatex"
+msgid ""
+"run executable PROG instead of latex or, in case --pdf option is set, "
+"instead of pdflatex"
+msgstr ""
+"kör exekverbara PROG istället för latex, eller om flaggan --pdf är angiven, "
+"istället för pdflatex"
 
 #: lilypond-book.py:303 lilypond-book.py:312
 msgid "PROG"
@@ -1599,10 +1931,10 @@ msgid "run executable PROG instead of texi2pdf"
 msgstr "kör exekverbart PROG istället för texi2pdf"
 
 #: lilypond-book.py:359
-#, fuzzy, python-format
+#, python-format
 #| msgid "Changing working directory to: `%s'"
 msgid "Changing directory to '%s'"
-msgstr "Ändrar arbetskatalog till: ”%s”"
+msgstr "Byter arbetskatalog till ”%s”"
 
 #: lilypond-book.py:361
 #, python-format
@@ -1633,10 +1965,10 @@ msgid "All snippets are up to date..."
 msgstr "Alla stycken är uppdaterade…"
 
 #: lilypond-book.py:505
-#, fuzzy, python-format
+#, python-format
 #| msgid "Linking files..."
 msgid "Linking files from '%s/' to '%s/'..."
-msgstr "Länkar filer…"
+msgstr "Länkar filer från ”%s/” till ”%s/” …"
 
 #: lilypond-book.py:521
 #, python-format
@@ -1683,12 +2015,19 @@ msgstr "Ställer in LilyPonds loggnivå till %s"
 
 #: lilypond-book.py:752
 #, python-format
-msgid "Setting LilyPond's loglevel to %s (from environment variable LILYPOND_LOGLEVEL)"
-msgstr "Ställer in LilyPonds loggnivå till %s (från miljövariablen LILYPOND_LOGLEVEL)"
+msgid ""
+"Setting LilyPond's loglevel to %s (from environment variable "
+"LILYPOND_LOGLEVEL)"
+msgstr ""
+"Ställer in LilyPonds loggnivå till %s (från miljövariablen "
+"LILYPOND_LOGLEVEL)"
 
 #: lilypond-book.py:758
-msgid "Setting LilyPond's output to --verbose, implied by lilypond-book's setting"
-msgstr "Ställer in LilyPonds utdata till --verbose, implicerat av lilypond-books inställning"
+msgid ""
+"Setting LilyPond's output to --verbose, implied by lilypond-book's setting"
+msgstr ""
+"Ställer in LilyPonds utdata till --verbose, implicerat av lilypond-books "
+"inställning"
 
 #: lilypond-book.py:786
 #, python-format
@@ -1729,9 +2068,7 @@ msgstr "%s skrivet till ”%s”…"
 #: midi2ly.py:1162
 #, python-format
 msgid "Convert %s to LilyPond input.\n"
-msgstr ""
-"Konvertera %s till LilyPond-indata.\n"
-"\n"
+msgstr "Konvertera %s till LilyPond-indata.\n"
 
 #: midi2ly.py:1167
 msgid "print absolute pitches"
@@ -1807,19 +2144,26 @@ msgstr "inga filer angivna på kommandoraden."
 
 #: musicxml2ly.py:151
 #, python-format
-msgid "requested global staff size (%.2fmm=%.2fpt) is too %s, using %spt instead"
+msgid ""
+"requested global staff size (%.2fmm=%.2fpt) is too %s, using %spt instead"
 msgstr ""
+"begärd global storlek för notsystemet (%.2f mm = %.2f pt) är för %s; "
+"använder %s pt i stället"
 
 #: musicxml2ly.py:354 musicxml2ly.py:2043
-#, fuzzy, python-format
+#, python-format
 #| msgid "cannot open font filename `%s'"
 msgid "cannot use non-integer page number '%s'"
-msgstr "det går inte att öppna typsnittsfilnamnet: ”%s”"
+msgstr "kan inte använda icke-heltaligt sidnummer ”%s”"
 
 #: musicxml2ly.py:498
 #, python-format
-msgid "Encountered file created by %s, containing wrong beaming information. All beaming information in the MusicXML file will be ignored"
-msgstr "Påträffade en fil skapad av %s innehållande fel balkinformation. All balkinformation i filen MusicXML kommer att ignoreras"
+msgid ""
+"Encountered file created by %s, containing wrong beaming information. All "
+"beaming information in the MusicXML file will be ignored"
+msgstr ""
+"Påträffade en fil skapad av %s innehållande fel balkinformation. All "
+"balkinformation i filen MusicXML kommer att ignoreras"
 
 #: musicxml2ly.py:527 musicxml2ly.py:530
 #, python-format
@@ -1827,33 +2171,33 @@ msgid "Unprocessed PartGroupInfo %s encountered"
 msgstr "Obearbetad PartGroupInfo %s påträffad"
 
 #: musicxml2ly.py:1108 musicxml2ly.py:1149 musicxml2ly.py:1233
-#, fuzzy, python-format
+#, python-format
 #| msgid "ignoring unsupported formats ~a"
 msgid "ignoring unexpected %s"
-msgstr "formatet stöds inte: ~a"
+msgstr "ignorerar oväntat %s"
 
 #: musicxml2ly.py:1298
-#, fuzzy, python-format
+#, python-format
 #| msgid "deprecated %s"
 msgid "unexpected %s"
-msgstr "föråldrad %s"
+msgstr "oväntat %s"
 
 #: musicxml2ly.py:1307
 #, python-format
 msgid "adding repeat barline to lone %s"
-msgstr ""
+msgstr "lägger till repetitionsstreck för ensamt %s"
 
 #: musicxml2ly.py:1564
 msgid "Ignoring double-note tremolo without end"
-msgstr ""
+msgstr "Ignorerar tremolo mellan två noter utan slut"
 
 #: musicxml2ly.py:1593
 msgid "Ignoring double-note tremolo without start"
-msgstr ""
+msgstr "Ignorerar tremolo mellan två noter utan början"
 
 #: musicxml2ly.py:1611
 msgid "Strange tremolo note length encountered"
-msgstr ""
+msgstr "Ovanlig notlängd för tremolo påträffades"
 
 #: musicxml2ly.py:1811
 msgid "Unable to extract key signature!"
@@ -1877,15 +2221,15 @@ msgstr "okänd span-typ %s för %s"
 #: musicxml2ly.py:2236
 #, python-format
 msgid "empty <tremolo> element, setting value to %s"
-msgstr ""
+msgstr "tomt <tremolo>-element; sätter värdet till %s"
 
 #: musicxml2ly.py:2891
 msgid "Empty metronome element"
-msgstr ""
+msgstr "Tomt metronomelement"
 
 #: musicxml2ly.py:2959
 msgid "Invalid bpm value in metronome mark"
-msgstr ""
+msgstr "Ogiltigt BPM-värde i metronommarkering"
 
 #: musicxml2ly.py:2962
 msgid "Unknown metronome mark, ignoring"
@@ -1893,8 +2237,12 @@ msgstr "Okänd metronommarkering, ignorerar"
 
 #. TODO: Implement the other (more complex) way for tempo marks.
 #: musicxml2ly.py:2974
-msgid "Metronome marks with complex relations (<metronome-note> in MusicXML) are not yet implemented."
-msgstr "Metronommarkering med komplexa relationer (<metronome-note> i MusicXML) är ej implementerad ännu."
+msgid ""
+"Metronome marks with complex relations (<metronome-note> in MusicXML) are "
+"not yet implemented."
+msgstr ""
+"Metronommarkering med komplexa relationer (<metronome-note> i MusicXML) är "
+"ej implementerad ännu."
 
 #: musicxml2ly.py:3319
 #, python-format
@@ -1908,27 +2256,27 @@ msgstr "Negativt hopp %s (från position %s till %s)"
 
 #: musicxml2ly.py:3871
 msgid "cannot apply <offset> because there are no notes or rests"
-msgstr ""
+msgstr "kan inte tillämpa <offset> eftersom det saknas noter eller pauser"
 
 #: musicxml2ly.py:3894
 msgid "too large negative <offset> value; aligning to start of music instead"
 msgstr ""
+"för stort negativt <offset>-värde; justerar till musikens början i stället"
 
 #: musicxml2ly.py:3912
 msgid "too large <offset> value; aligning to almost the end of music instead"
 msgstr ""
+"för stort <offset>-värde; justerar i stället till nästan slutet av musiken"
 
 #: musicxml2ly.py:4026
-#, fuzzy
 #| msgid "additional bass strings are not supported by FretBoards"
 msgid "rests with lyrics are not supported yet"
-msgstr "ytterligare bassträngar stöds inte av FretBoards"
+msgstr "pauser med sångtext stöds inte ännu"
 
 #: musicxml2ly.py:4070
-#, fuzzy
 #| msgid "do not convert exact vertical positions of rests"
 msgid "cannot change vertical position of lyrics within a part"
-msgstr "konvertera inte precisa vertikala positioner av pauser"
+msgstr "kan inte ändra sångtextens lodräta position inom en stämma"
 
 #: musicxml2ly.py:4474
 #, python-format
@@ -1937,7 +2285,7 @@ msgstr "oväntat %s; förväntade sig %s eller %s eller %s"
 
 #: musicxml2ly.py:4551
 msgid "Not enough rests for multi-measure rest count"
-msgstr ""
+msgstr "Inte tillräckligt många pauser för antalet flertaktspauser"
 
 #: musicxml2ly.py:4757
 msgid "Encountered closing slur, but no slur is open"
@@ -1946,18 +2294,19 @@ msgstr "Påträffade avslutande legatobåge, men ingen legatobåge är öppen"
 #: musicxml2ly.py:4865
 msgid "ignoring <accidental-mark> not attached to proper <ornaments> child"
 msgstr ""
+"ignorerar <accidental-mark> som inte är kopplad till ett korrekt underordnat"
+" <ornaments>-element"
 
 #: musicxml2ly.py:5125
-#, fuzzy, python-format
+#, python-format
 #| msgid "Converting to LilyPond expressions..."
 msgid "Converting part '%s' (voice %s) to LilyPond expressions..."
-msgstr "Konverterar till LilyPond-uttryck…"
+msgstr "Konverterar stämman ”%s” (röst %s) till LilyPond-uttryck …"
 
 #: musicxml2ly.py:5163
-#, fuzzy
 #| msgid "musicxml2ly [OPTION]... FILE.xml"
 msgid "musicxml2ly [OPTION]... FILE"
-msgstr "musicxml2ly [FLAGGA]… FIL.xml"
+msgstr "musicxml2ly [FLAGGA] … FIL"
 
 #: musicxml2ly.py:5164
 msgid ""
@@ -1969,9 +2318,16 @@ msgid ""
 "If FILE cannot be found, 'FILE.xml', 'FILE.musicxml', and 'FILE.mxl' are\n"
 "also tried as input files.\n"
 msgstr ""
+"Konvertera FIL med MusicXML-data till en LilyPond-indatafil.\n"
+"\n"
+"Som standard heter utdatafilen ”FIL.ly” för indatafilen\n"
+"”FIL.xml”. Om FIL är ”-” läses standardindata\n"
+"\n"
+"(och standardutdata skrivs). Om FIL inte hittas provas\n"
+"även ”FIL.xml”, ”FIL.musicxml” och ”FIL.mxl” som indatafiler.\n"
 
 #: musicxml2ly.py:5181
-#, fuzzy, python-format
+#, python-format
 #| msgid ""
 #| "Copyright (c) 2005--2022 by\n"
 #| "    Han-Wen Nienhuys <hanwen@xs4all.nl>,\n"
@@ -1996,28 +2352,33 @@ msgid ""
 "under certain conditions.  Invoke as `%s --warranty' for more\n"
 "information."
 msgstr ""
-"Copyright (c) 2005--2022 by\n"
-"    Han-Wen Nienhuys <hanwen@xs4all.nl>,\n"
-"    Jan Nieuwenhuizen <janneke@gnu.org> and\n"
-"    Reinhold Kainhofer <reinhold@kainhofer.com>\n"
-"    Patrick L. Schmidt <pls@philomelos.net>\n"
+"Copyright © 2005–2026: Han-Wen Nienhuys\n"
+"<hanwen@xs4all.nl>, Jan Nieuwenhuizen <janneke@gnu.org>, Reinhold\n"
+"Kainhofer <reinhold@kainhofer.com>, Patrick L. Schmidt\n"
+"<pls@philomelos.net> och Werner Lemberg <wl@gnu.org>\n"
+"Detta program är fri programvara.\n"
+"Det omfattas av GNU General\n"
 "\n"
-"Det här är fri programvara.  Det täcks av ”GNU General Public License”,\n"
-"och du får ändra och/eller distribuera kopior av den under vissa\n"
-"villkor.  Kör ”%s --warranty” för mer\n"
-" information."
+"Public License och du\n"
+"får ändra och/eller distribuera kopior\n"
+"enligt vissa villkor. Kör\n"
+"”%s --warranty” för mer information."
 
 #: musicxml2ly.py:5208
 msgid "--lxml is obsolete, ignoring"
-msgstr ""
+msgstr "--lxml är föråldrat och ignoreras"
 
 #: musicxml2ly.py:5209
 msgid "obsolete"
-msgstr ""
+msgstr "föråldrad"
 
 #: musicxml2ly.py:5215
-msgid "input file is a compressed MusicXML file (by default, activate if file extension is .mxl)"
-msgstr "infil är en zip-komprimerad MusicXML-fil (som standard, aktivera om filändelse är .mxl)"
+msgid ""
+"input file is a compressed MusicXML file (by default, activate if file "
+"extension is .mxl)"
+msgstr ""
+"infil är en zip-komprimerad MusicXML-fil (som standard, aktivera om "
+"filändelse är .mxl)"
 
 #: musicxml2ly.py:5222
 msgid "convert pitches in relative mode (default)"
@@ -2032,22 +2393,29 @@ msgid "LANG"
 msgstr "LANG"
 
 #: musicxml2ly.py:5232
-#, fuzzy
-#| msgid "use LANG for pitch names, e.g. 'deutsch' for note names in German"
+#| msgid ""
+#| "use LANG for pitch names, e.g. 'deutsch' for note names in German"
 msgid "use LANG for pitch names, e.g., 'deutsch' for note names in German"
-msgstr "använd LANG för tonnamn, t.ex. ”deutsch” för notnamn på tyska"
+msgstr "använd SPRÅK för tonnamn, till exempel ”deutsch” för tyska notnamn"
 
 #: musicxml2ly.py:5244 musicxml2ly.py:5383
 msgid "t[rue]/f[alse]"
 msgstr "t[rue]/f[alse]"
 
 #: musicxml2ly.py:5247
-msgid "expect <octave-shift> end elements before the associated <note> (as in Finale). Default is f[alse]"
+msgid ""
+"expect <octave-shift> end elements before the associated <note> (as in "
+"Finale). Default is f[alse]"
 msgstr ""
+"förvänta <octave-shift>-slutelement före den kopplade <note> (som i Finale)."
+" Standardvärdet är f[alse]"
 
 #: musicxml2ly.py:5255
-msgid "do not convert directions (^, _ or -) for articulations, dynamics, etc."
-msgstr "konvertera inte riktningar (^,_ eller -) för artikulationer, dynamik och så vidare."
+msgid ""
+"do not convert directions (^, _ or -) for articulations, dynamics, etc."
+msgstr ""
+"konvertera inte riktningar (^,_ eller -) för artikulationer, dynamik och så "
+"vidare."
 
 #: musicxml2ly.py:5262
 msgid "do not convert exact vertical positions of rests"
@@ -2066,28 +2434,47 @@ msgid "ignore page margins"
 msgstr "ignorerar sidmarginaler"
 
 #: musicxml2ly.py:5286
-msgid "do not convert the exact page layout and breaks (shortcut for \"--nsb --npb --npm\" options)"
-msgstr "konvertera ej den exakta sidlayouten och brytningarna (genväg för flaggorna ”--nsb --npb --npm”)"
+msgid ""
+"do not convert the exact page layout and breaks (shortcut for \"--nsb --npb "
+"--npm\" options)"
+msgstr ""
+"konvertera ej den exakta sidlayouten och brytningarna (genväg för flaggorna "
+"”--nsb --npb --npm”)"
 
 #: musicxml2ly.py:5293
-msgid "ignore stem directions from MusicXML, use lilypond's automatic stemming instead"
-msgstr "ignorerar riktning för notskaft från MusicXML, använd lilyponds automatiska notskaftning istället"
+msgid ""
+"ignore stem directions from MusicXML, use lilypond's automatic stemming "
+"instead"
+msgstr ""
+"ignorerar riktning för notskaft från MusicXML, använd lilyponds automatiska "
+"notskaftning istället"
 
 #: musicxml2ly.py:5297
 msgid "FACTOR"
-msgstr ""
+msgstr "FAKTOR"
 
 #: musicxml2ly.py:5302
-msgid "scale <dynamics> elements by a non-negative FACTOR; value 0 means to use lilypond's standard size for dynamics"
+msgid ""
+"scale <dynamics> elements by a non-negative FACTOR; value 0 means to use "
+"lilypond's standard size for dynamics"
 msgstr ""
+"skala <dynamics>-element med en icke-negativ FAKTOR; värdet 0 använder "
+"LilyPonds standardstorlek för dynamik"
 
 #: musicxml2ly.py:5310
-msgid "use absolute font sizes in markup (default is to use font sizes based on score size)"
+msgid ""
+"use absolute font sizes in markup (default is to use font sizes based on "
+"score size)"
 msgstr ""
+"använd absoluta teckensnittsstorlekar i markup (standard är "
+"teckensnittsstorlekar som baseras på partiturets storlek)"
 
 #: musicxml2ly.py:5317
-msgid "do not convert beaming information, use lilypond's automatic beaming instead"
-msgstr "konvertera inte balkinformation, använd lilyponds automatiska balkning istället"
+msgid ""
+"do not convert beaming information, use lilypond's automatic beaming instead"
+msgstr ""
+"konvertera inte balkinformation, använd lilyponds automatiska balkning "
+"istället"
 
 #: musicxml2ly.py:5326
 msgid "set output filename to FILE, stdout if -"
@@ -2099,11 +2486,15 @@ msgstr "aktivera midi-block i .ly-fil"
 
 #: musicxml2ly.py:5335
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: musicxml2ly.py:5340
-msgid "use <credit> information from page N to fill the fields of the \\header block. Default is value 1"
+msgid ""
+"use <credit> information from page N to fill the fields of the \\header "
+"block. Default is value 1"
 msgstr ""
+"använd <credit>-information från sidan N för att fylla fälten i blocket "
+"\\header. Standardvärdet är 1"
 
 #: musicxml2ly.py:5346
 msgid "TOPITCH"
@@ -2115,23 +2506,30 @@ msgstr "sätt ton att transponera med intervall mellan ton ”c” och TOPITCH"
 
 #: musicxml2ly.py:5354
 msgid "VALUE"
-msgstr ""
+msgstr "VÄRDE"
 
 #: musicxml2ly.py:5359
-msgid "shift durations and time signatures by VALUE; for example, value -1 doubles all durations, and value 1 halves them"
+msgid ""
+"shift durations and time signatures by VALUE; for example, value -1 doubles "
+"all durations, and value 1 halves them"
 msgstr ""
+"förskjut längder och taktarter med VÄRDE; till exempel fördubblar värdet -1 "
+"alla längder och värdet 1 halverar dem"
 
 #: musicxml2ly.py:5364
 msgid "BEATS/BEATTYPE"
 msgstr "SLAG/SLAGTYP"
 
 #: musicxml2ly.py:5369
-msgid "`--shift-meter` is obsolete and ignored, use `--shift-duration` instead"
+msgid ""
+"`--shift-meter` is obsolete and ignored, use `--shift-duration` instead"
 msgstr ""
+"`--shift-meter` är föråldrat och ignoreras; använd `--shift-duration` i "
+"stället"
 
 #: musicxml2ly.py:5371
 msgid "ignored; use `--shift-duration` instead"
-msgstr ""
+msgstr "ignoreras; använd `--shift-duration` i stället"
 
 #: musicxml2ly.py:5375
 msgid "TABCLEFNAME"
@@ -2142,22 +2540,29 @@ msgid "switch between two versions of tab clefs (\"tab\" and \"moderntab\")"
 msgstr "växla mellan två versioner av tabulatur (”tab” och ”moderntab”)"
 
 #: musicxml2ly.py:5386
-msgid "control output of string numbers; value f[alse] disables them. Default is t[rue]"
+msgid ""
+"control output of string numbers; value f[alse] disables them. Default is "
+"t[rue]"
 msgstr ""
+"styr utdata för strängnummer; värdet f[alse] inaktiverar dem. Standardvärdet"
+" är t[rue]"
 
 #: musicxml2ly.py:5394
-#, fuzzy
-#| msgid "converts '<frame>' events to a separate FretBoards voice instead of markups"
-msgid "convert '<frame>' events to a separate FretBoards voice instead of markups"
-msgstr "konverterar ”<frame>”-händelser för att separera FretBoards-röster istället för markups"
+#| msgid ""
+#| "converts '<frame>' events to a separate FretBoards voice instead of markups"
+msgid ""
+"convert '<frame>' events to a separate FretBoards voice instead of markups"
+msgstr ""
+"konvertera ”<frame>”-händelser till en separat FretBoards-stämma i stället "
+"för markup"
 
 #: musicxml2ly.py:5400
 msgid "put top-level score into '\\book'"
-msgstr ""
+msgstr "placera toppnivåpartituret i ”\\book”"
 
 #: musicxml2ly.py:5406
 msgid "don't emit a LilyPond tagline"
-msgstr ""
+msgstr "skriv inte ut en LilyPond-slogan"
 
 #: musicxml2ly.py:5526
 #, python-format
@@ -2188,10 +2593,10 @@ msgid "Output to `%s'"
 msgstr "Utdata till ”%s”"
 
 #: musicxml2ly.py:5818
-#, fuzzy
 #| msgid "font index must be non-negative, using index 0"
 msgid "requested dynamics scale factor must be non-negative, setting to 0"
-msgstr "begärd skalfaktor för dynamik måste vara icke-negativ, sätter den till 0"
+msgstr ""
+"begärd skalfaktor för dynamik måste vara icke-negativ; sätter den till 0"
 
 #: musicxml2ly.py:5879
 #, python-format
@@ -2287,10 +2692,10 @@ msgid "natural alteration glyph not found"
 msgstr "naturligt alterationstecken inte hittat"
 
 #: all-font-metrics.cc:166
-#, fuzzy, c-format
+#, c-format
 #| msgid "cannot find context: %s"
 msgid "cannot find font '%s' (search path: %s)"
-msgstr "det går inte att hitta typsnittet ”%s” (sökväg: %s)"
+msgstr "kan inte hitta typsnittet ”%s” (sökväg: %s)"
 
 #: all-font-metrics.cc:311 font-config.cc:97
 #, c-format
@@ -2343,11 +2748,14 @@ msgstr "”%s” är inte en giltig placering för utanför notsystemet"
 
 #: axis-group-interface.cc:758
 msgid "an outside-staff object should have a direction, defaulting to up"
-msgstr "ett objekt utanför notsystemet ska ha en riktning, använder upp som standard"
+msgstr ""
+"ett objekt utanför notsystemet ska ha en riktning, använder upp som standard"
 
 #: axis-group-interface.cc:894
 msgid "Cannot set outside-staff-priority for element and elements' Y parent."
-msgstr "Det går inte att sätta outside-staff-priority för element och deras överordnade Y-element."
+msgstr ""
+"Det går inte att sätta outside-staff-priority för element och deras "
+"överordnade Y-element."
 
 #: beam-engraver.cc:127
 msgid "already have a beam"
@@ -2372,7 +2780,9 @@ msgstr "balken startades här"
 #. We are completely screwed.
 #: beam-quanting.cc:885
 msgid "no viable initial configuration found: may not find good beam slope"
-msgstr "ingen vettig initial konfiguration hittades: kanske inte hittar balksluttning"
+msgstr ""
+"ingen vettig initial konfiguration hittades: kanske inte hittar "
+"balksluttning"
 
 #: beam.cc:201
 msgid "removing beam with no stems"
@@ -2426,11 +2836,15 @@ msgstr ""
 "Använd Ghostscript för att skapa andra utdataformat."
 
 #: cairo.cc:1019
-msgid "embedded-ps only supported for PS/EPS. Use Ghostscript to create output in other formats"
-msgstr "embedded-ps stöds endast för PS/EPS. Använd Ghostscript för att skapa utdata i andra format"
+msgid ""
+"embedded-ps only supported for PS/EPS. Use Ghostscript to create output in "
+"other formats"
+msgstr ""
+"embedded-ps stöds endast för PS/EPS. Använd Ghostscript för att skapa utdata"
+" i andra format"
 
 #: cairo.cc:1058
-#, fuzzy, c-format
+#, c-format
 #| msgid "error reading font file %s: %s"
 msgid "error while reading PNG image: %s"
 msgstr "fel vid läsning av PNG-bild: %s"
@@ -2473,10 +2887,11 @@ msgid "junking empty cluster"
 msgstr "ignorerar tom kluster"
 
 #: coherent-ligature-engraver.cc:114
-#, fuzzy, c-format
-#| msgid "Coherent_ligature_engraver: setting `spacing-increment=0.01': ptr=%ul"
+#, c-format
+#| msgid ""
+#| "Coherent_ligature_engraver: setting `spacing-increment=0.01': ptr=%ul"
 msgid "Coherent_ligature_engraver: setting `spacing-increment=0.01': ptr=%p"
-msgstr "Coherent_ligature_engraver: sätter ”spacing-increment = 0.01”: ptr=%p"
+msgstr "Coherent_ligature_engraver: sätter `spacing-increment=0.01`: ptr=%p"
 
 #: constrained-breaking.cc:197 constrained-breaking.cc:218
 msgid "cannot find line breaking that satisfies constraints"
@@ -2560,8 +2975,12 @@ msgid "meta.classes must be non-empty list, found %s"
 msgstr "meta.classes måste vara en icke-tom lista, hittades %s"
 
 #: engraver.cc:174
-msgid "must have only one element in meta.classes to create a grob without specifying the class"
-msgstr "måste bara ha ett element i meta.classes för att skapa en grob utan att ange klassen"
+msgid ""
+"must have only one element in meta.classes to create a grob without "
+"specifying the class"
+msgstr ""
+"måste bara ha ett element i meta.classes för att skapa en grob utan att ange"
+" klassen"
 
 #: engraver.cc:187
 #, c-format
@@ -2608,10 +3027,10 @@ msgid "flag stroke `%s' not found"
 msgstr "flaggstrecket ”%s” hittades ej"
 
 #: font-config.cc:46
-#, fuzzy, c-format
+#, c-format
 #| msgid "Adding fontconfig configuration file: %s"
 msgid "Creating %sfont configuration..."
-msgstr "Skapar %sfontconfig-konfiguration…"
+msgstr "Skapar %sfontkonfiguration …"
 
 #: font-config.cc:71
 msgid "cannot find fontconfig default config, skipping."
@@ -2628,7 +3047,7 @@ msgid "Adding fontconfig configuration file: %s"
 msgstr "Lägger till fontconfig-konfigurationsfil: ”%s”"
 
 #: font-config.cc:105
-#, fuzzy, c-format
+#, c-format
 #| msgid "Adding font directory: %s"
 msgid "Font cache directory: %s\n"
 msgstr "Typsnittscachekatalog: %s\n"
@@ -2639,8 +3058,12 @@ msgstr "Bygger typsnittsdatabas…"
 
 #: font-select.cc:92
 #, c-format
-msgid "font-encoding is invalid, should be 'fetaMusic, 'fetaBraces, 'fetaText or 'latin1: %s"
-msgstr "font-encoding är ogiltig, ska vara ’fetaMusic, ’fetaBraces, ’fetaText eller ’latin1: %s"
+msgid ""
+"font-encoding is invalid, should be 'fetaMusic, 'fetaBraces, 'fetaText or "
+"'latin1: %s"
+msgstr ""
+"font-encoding är ogiltig, ska vara ’fetaMusic, ’fetaBraces, ’fetaText eller "
+"’latin1: %s"
 
 #: font-select.cc:95
 msgid "falling back to latin1"
@@ -2652,10 +3075,10 @@ msgid "no entry for font family %s in fonts alist"
 msgstr "ingen post för typsnittsfamiljen %s i typsnitts-alistan"
 
 #: font-select.cc:151
-#, fuzzy, c-format
+#, c-format
 #| msgid "expect 3 strings for piano pedals, found: %ld"
 msgid "expected string for value in fonts alist, found: %s"
-msgstr "förväntade en sträng som värde i typsnitts-alistan, fick: %s"
+msgstr "förväntade sträng som värde i teckensnittslistan, hittade: %s"
 
 #: footnote-engraver.cc:53
 msgid "Must be footnote-event."
@@ -2666,16 +3089,16 @@ msgid "cannot initialize FreeType"
 msgstr "det går inte att initiera FreeType"
 
 #: general-scheme.cc:73
-#, fuzzy, c-format
+#, c-format
 #| msgid "cannot find file: `%s'"
 msgid "cannot find file '%s'"
-msgstr "det går inte att hitta filen ”%s”"
+msgstr "kan inte hitta filen ”%s”"
 
 #: general-scheme.cc:74
-#, fuzzy, c-format
+#, c-format
 #| msgid "(load path: `%s', cwd: `%s')"
 msgid "(load path: '%s', cwd: '%s')"
-msgstr "(inläsningssökväg: ”%s”, arbetskatalog: ”%s”)"
+msgstr "(inläsningssökväg: ”%s”, aktuell katalog: ”%s”)"
 
 #: general-scheme.cc:102 midi-stream.cc:67
 #, c-format
@@ -2776,7 +3199,9 @@ msgstr "ly:grob-list->grob-array förväntade sig en lista"
 
 #: grob-property.cc:83
 msgid "To use grob debug callbacks, configure with --enable-checking"
-msgstr "Om du vill använda grob debug callbacks konfigurerar du med --enable-checking"
+msgstr ""
+"Om du vill använda grob debug callbacks konfigurerar du med --enable-"
+"checking"
 
 #: grob.cc:540
 #, c-format
@@ -2794,8 +3219,12 @@ msgstr "Efterfrågar bruten gränsutfyllnad vid en icke-bruten utfyllnad."
 
 #: hairpin.cc:177
 #, c-format
-msgid "hairpin: '%f' is not a valid direction for property 'endpoint-alignments', setting to '%d'"
-msgstr "hårnål: '%f' är inte en giltig riktning för egenskapen 'endpoint-alignments', inställning till '%d'"
+msgid ""
+"hairpin: '%f' is not a valid direction for property 'endpoint-alignments', "
+"setting to '%d'"
+msgstr ""
+"hårnål: '%f' är inte en giltig riktning för egenskapen 'endpoint-"
+"alignments', inställning till '%d'"
 
 #: hairpin.cc:296
 msgid "decrescendo too small"
@@ -2815,7 +3244,7 @@ msgstr "tar bort oavslutat bindestreck"
 
 #: hyphen-engraver.cc:203
 msgid "unterminated hyphen; removing"
-msgstr "oavslutat bindestreck, tar bort"
+msgstr "oavslutat bindestreck; tar bort"
 
 #: includable-lexer.cc:62 lily-parser-scheme.cc:105
 #, c-format
@@ -2880,7 +3309,7 @@ msgstr "oavslutad ligatur"
 
 #: ligature-engraver.cc:206
 msgid "ignoring rest: ligature may not contain rest"
-msgstr "ignorerar paus; ligaturen får inte innehålla paus"
+msgstr "ignorerar paus: ligaturen får inte innehålla pauser"
 
 #: lily-guile.cc:263
 #, c-format
@@ -2922,12 +3351,20 @@ msgid "Parsing..."
 msgstr "Tolkar…"
 
 #: lily-parser-scheme.cc:268
-msgid "ly:parser-parse-string is only valid with a new parser.  Use ly:parser-include-string instead."
-msgstr "ly:parser-parse-string är endast giltigt med en ny tolk. Använd ly:parser-include-string istället."
+msgid ""
+"ly:parser-parse-string is only valid with a new parser.  Use ly:parser-"
+"include-string instead."
+msgstr ""
+"ly:parser-parse-string är endast giltigt med en ny tolk. Använd ly:parser-"
+"include-string istället."
 
 #: lily-parser-scheme.cc:300
-msgid "ly:parse-string-expression is only valid with a new parser.  Use ly:parser-include-string instead."
-msgstr "ly:parse-string-expression är endast giltig med en ny tolk. Använd istället ly:parser-include-string."
+msgid ""
+"ly:parse-string-expression is only valid with a new parser.  Use ly:parser-"
+"include-string instead."
+msgstr ""
+"ly:parse-string-expression är endast giltig med en ny tolk. Använd istället "
+"ly:parser-include-string."
 
 #: lookup.cc:163
 #, c-format
@@ -2946,12 +3383,12 @@ msgid ""
 "under certain conditions.  Invoke as `%s --warranty' for more\n"
 "information.\n"
 msgstr ""
-"Det här är fri programvara. Den täcks av GNU General Public License,\n"
-"och du får ändra och/eller distribuera kopior av den under vissa\n"
+"Det här är fri programvara. Den täcks av\n"
+"GNU General Public License och du får\n"
+"ändra och/eller distribuera kopior av den under vissa\n"
 "villkor. Kör ”%s --warranty” för mer information.\n"
 
 #: main.cc:90
-#, fuzzy
 #| msgid ""
 #| "    This program is free software; you can redistribute it and/or\n"
 #| "modify it under the terms of the GNU General Public License as \n"
@@ -2982,20 +3419,18 @@ msgid ""
 "License along with this program.  If not, see\n"
 "https://www.gnu.org/licenses/.\n"
 msgstr ""
-"    Detta program är fri programvara. Du kan distribuera det och/eller\n"
+"    Detta program är fri programvara; du kan distribuera det och/eller\n"
 "ändra det enligt villkoren i GNU General Public License, som\n"
 "publicerats av Free Software Foundation, antingen version 3 av\n"
-"licensen eller (om du så vill) senare versioner.\n"
+"licensen eller (om du så vill) en senare version.\n"
 "\n"
 "    Detta program distribueras i hopp om att det ska vara användbart,\n"
-"men "
-"UTAN NÅGON SOM HELST GARANTI, inte ens underförstådd garanti om\n"
-"SÄLJBARHET eller LÄMPLIGHET FÖR ETT VISST ÄNDAMÅL. Se GNU General\n"
-"Public License för mer information.\n"
+"men UTAN NÅGON SOM HELST GARANTI, inte ens den underförstådda garantin om\n"
+"SÄLJBARHET eller LÄMPLIGHET FÖR ETT VISST ÄNDAMÅL. Se GNU\n"
+"General Public License för mer information.\n"
 "\n"
-"    Du bör ha fått en kopia av GNU General Public License tillsammans\n"
-"med "
-"detta program. Om inte, se\n"
+"    Du bör ha fått en kopia av GNU General Public\n"
+"License tillsammans med detta program. Om inte, se\n"
 "https://www.gnu.org/licenses/.\n"
 
 #: main.cc:112
@@ -3031,7 +3466,6 @@ msgid "KEY"
 msgstr "NYCKEL"
 
 #: main.cc:120
-#, fuzzy
 #| msgid ""
 #| "set ps/pdf optimization to KEY, which is either\n"
 #| "'size' (default), 'TeX', or 'TeX-GS'"
@@ -3040,8 +3474,8 @@ msgid ""
 "either 'size' (default), 'TeX', or\n"
 "'TeX-GS'"
 msgstr ""
-"sätt PS/PDF-optimering till NYCKEL, som är antingen\n"
-"”size” (standard), ”TeX” eller\n"
+"sätt PS/PDF-optimering till NYCKEL, som är\n"
+"antingen ”size” (standard), ”TeX” eller\n"
 "”TeX-GS”"
 
 #: main.cc:123
@@ -3049,13 +3483,13 @@ msgid "SYM[=VAL]"
 msgstr "SYM[=VAL]"
 
 #: main.cc:124
-#, fuzzy
 #| msgid "set Scheme option SYM to VAL (default: '#t')"
 msgid ""
 "set Scheme option SYM to VAL (default:\n"
 "'#t')"
-msgstr "sätt Scheme-alternativet SYM till VAL (standard:\n"
-"”#t”)"
+msgstr ""
+"sätt Scheme-alternativet SYM till VAL (standard:\n"
+"'#t')"
 
 #: main.cc:126
 msgid "no-SYM"
@@ -3082,7 +3516,6 @@ msgid "FIELD"
 msgstr "FÄLT"
 
 #: main.cc:133
-#, fuzzy
 #| msgid ""
 #| "dump \\header field FIELD to file\n"
 #| "named BASENAME.FIELD"
@@ -3090,7 +3523,7 @@ msgid ""
 "dump \\header field FIELD to file named\n"
 "BASENAME.FIELD"
 msgstr ""
-"skriv \\header-fältet FÄLT till filen\n"
+"skriv fältet FÄLT i \\header till filen\n"
 "BASNAMN.FÄLT"
 
 #: main.cc:135
@@ -3106,7 +3539,6 @@ msgid "USER,GROUP,JAIL,DIR"
 msgstr "ANVÄNDARE,GRUPP,JAIL,KATALOG"
 
 #: main.cc:139
-#, fuzzy
 #| msgid ""
 #| "chroot to JAIL, become USER:GROUP\n"
 #| "and cd into DIR"
@@ -3114,12 +3546,10 @@ msgid ""
 "chroot to JAIL, become USER:GROUP and cd\n"
 "into DIR"
 msgstr ""
-"byt rot till JAIL, bli ANVÄNDARE:GRUPP "
-"och byt\n"
+"använd chroot till FÄNGELSE, bli ANVÄNDARE:GRUPP och byt\n"
 "aktuell katalog till KATALOG"
 
 #: main.cc:143
-#, fuzzy
 #| msgid ""
 #| "print log messages according to LOGLEVEL,\n"
 #| "which is either NONE, ERROR, WARNING,\n"
@@ -3166,7 +3596,8 @@ msgid ""
 "Top-level directory of LilyPond's data tree:\n"
 "  '%s'\n"
 "\n"
-msgstr "\n"
+msgstr ""
+"\n"
 "Rotkatalog för LilyPonds dataträd:\n"
 "  ”%s”\n"
 "\n"
@@ -3278,51 +3709,49 @@ msgstr "Ändrar arbetskatalog till: ”%s”"
 #: main.cc:754
 #, c-format
 msgid "unable to change directory to: `%s'"
-msgstr "det går inte att ändra katalog till ”%s”"
+msgstr "kan inte byta katalog till: ”%s”"
 
 #: mark-engraver.cc:211
 msgid "mark label must be a markup object"
 msgstr "markeringsetikett måste vara ett markup-objekt"
 
 #: mensural-ligature-engraver.cc:94
-#, fuzzy
 #| msgid "ligature with less than 2 heads -> skipping"
 msgid "ligature with less than 2 heads; skipping"
 msgstr "ligatur med färre än två nothuvuden; hoppar över"
 
 #: mensural-ligature-engraver.cc:120
-#, fuzzy
 #| msgid "cannot determine pitch of ligature primitive -> skipping"
 msgid "cannot determine pitch of ligature primitive; skipping"
-msgstr "det går inte att bestämma tonhöjden för ligaturprimitivet; hoppar över"
+msgstr ""
+"det går inte att bestämma tonhöjden för ligaturprimitivet; hoppar över"
 
 #. we can get here after invalid input
 #: mensural-ligature-engraver.cc:134
-#, fuzzy
 #| msgid "single note ligature - skipping"
 msgid "single note ligature; skipping"
 msgstr "ligatur med en enda not; hoppar över"
 
 #: mensural-ligature-engraver.cc:142
-#, fuzzy
 #| msgid "prime interval within ligature -> skipping"
 msgid "prime interval within ligature; skipping"
 msgstr "primintervall inom ligatur; hoppar över"
 
 #: mensural-ligature-engraver.cc:152
-#, fuzzy
 #| msgid "mensural ligature: duration none of Mx, L, B, S -> skipping"
-msgid "mensural ligature: duration none of maxima, longa, breve, or semibreve; skipping"
-msgstr "mensural ligatur: längden är inte maxima, longa, breve eller semibreve; hoppar över"
+msgid ""
+"mensural ligature: duration none of maxima, longa, breve, or semibreve; "
+"skipping"
+msgstr ""
+"mensural ligatur: längden är inte maxima, longa, breve eller semibreve; "
+"hoppar över"
 
 #: mensural-ligature-engraver.cc:200
-#, fuzzy
 #| msgid "semibrevis must be followed by another one -> skipping"
 msgid "semibrevis must not be followed by a brevis; skipping"
 msgstr "semibrevis får inte följas av en brevis; hoppar över"
 
 #: mensural-ligature-engraver.cc:231
-#, fuzzy
 #| msgid ""
 #| "invalid ligatura ending:\n"
 #| "when the last note is a descending brevis,\n"
@@ -3395,13 +3824,16 @@ msgid "the function '%s' is deprecated"
 msgstr "funktionen ”%s” är föråldrad"
 
 #: multi-measure-rest.cc:131
-msgid "usable-duration-logs must be a non-empty list.  Falling back to whole rests."
-msgstr "usable-duration-logs måste vara en icke-tom lista. Faller tillbaka till hela pauser."
+msgid ""
+"usable-duration-logs must be a non-empty list.  Falling back to whole rests."
+msgstr ""
+"usable-duration-logs måste vara en icke-tom lista. Faller tillbaka till hela"
+" pauser."
 
 #: music.cc:149
 #, c-format
 msgid "octave check failed; expected \"%s\", found: \"%s\""
-msgstr "misslyckades med oktavkontroll; förväntades ”%s”, fick ”%s”"
+msgstr "oktavkontroll misslyckades; förväntade ”%s”, hittade ”%s”"
 
 #: new-fingering-engraver.cc:108
 msgid "cannot add text scripts to individual note heads"
@@ -3522,19 +3954,24 @@ msgstr "subtypsnitt ”%s”: det går inte att skriva fältet ”%s”"
 #: open-type-font-scheme.cc:577
 #, c-format
 msgid "font `%s': cannot read field `%s' for table %u of subfont %d"
-msgstr "typsnitt ”%s”: det går inte att läsa fältet ”%s” för tabellen %u i subtypsnitt %d"
+msgstr ""
+"typsnitt ”%s”: det går inte att läsa fältet ”%s” för tabellen %u i "
+"subtypsnitt %d"
 
 #: open-type-font-scheme.cc:592 open-type-font-scheme.cc:612
 #: open-type-font-scheme.cc:641 open-type-font-scheme.cc:665
 #, c-format
 msgid "subfont `%s': cannot write field `%s' for table `%s'"
-msgstr "subtypsnitt ”%s”: det går inte att skriva fältet ”%s” för tabellen ”%s”"
+msgstr ""
+"subtypsnitt ”%s”: det går inte att skriva fältet ”%s” för tabellen ”%s”"
 
 #: open-type-font-scheme.cc:602 open-type-font-scheme.cc:622
 #: open-type-font-scheme.cc:651
 #, c-format
 msgid "font `%s': cannot read field `%s' for table `%s' of subfont %d"
-msgstr "typsnitt ”%s”: det går inte att läsa fältet ”%s” för tabellen ”%s” i subtypsnitt %d"
+msgstr ""
+"typsnitt ”%s”: det går inte att läsa fältet ”%s” för tabellen ”%s” i "
+"subtypsnitt %d"
 
 #: open-type-font-scheme.cc:691
 #, c-format
@@ -3562,13 +3999,12 @@ msgid "FreeType error: %s"
 msgstr "FreeType-fel: %s"
 
 #: open-type-font.cc:84
-#, fuzzy
 #| msgid "cannot initialize FreeType"
 msgid "cannot initialize zlib decompression"
 msgstr "det går inte att initiera zlib-dekomprimering"
 
 #: open-type-font.cc:120
-#, fuzzy, c-format
+#, c-format
 #| msgid "cannot load font table: %s"
 msgid "cannot uncompress font table: %s"
 msgstr "det går inte att dekomprimera typsnittstabellen: %s"
@@ -3636,8 +4072,12 @@ msgid "page-count must be positive"
 msgstr "sidantalet måste vara positivt"
 
 #: optimal-page-breaking.cc:87
-msgid "could not satisfy systems-per-page and page-count at the same time, ignoring systems-per-page"
-msgstr "det gick inte att uppfylla systems-per-page och page-count samtidigt, systems-per-page ignoreras"
+msgid ""
+"could not satisfy systems-per-page and page-count at the same time, ignoring"
+" systems-per-page"
+msgstr ""
+"det gick inte att uppfylla systems-per-page och page-count samtidigt, "
+"systems-per-page ignoreras"
 
 #. find out the ideal number of pages
 #: optimal-page-breaking.cc:109
@@ -3679,16 +4119,28 @@ msgid "margins do not fit with line-width, setting default values"
 msgstr "marginaler passar inte in med line-width, ställer in standardvärden"
 
 #: output-def.cc:235
-msgid "systems run off the page due to improper paper settings, setting default values"
-msgstr "systemen hamnar utanför sidan på grund av olämpliga pappersinställningar, använder standardvärden"
+msgid ""
+"systems run off the page due to improper paper settings, setting default "
+"values"
+msgstr ""
+"systemen hamnar utanför sidan på grund av olämpliga pappersinställningar, "
+"använder standardvärden"
 
 #: page-breaking.cc:299
-msgid "ignoring min-systems-per-page and max-systems-per-page because systems-per-page was set"
-msgstr "ignorerar min-systems-per-page och max-systems-per-page eftersom systems-per-page var satt"
+msgid ""
+"ignoring min-systems-per-page and max-systems-per-page because systems-per-"
+"page was set"
+msgstr ""
+"ignorerar min-systems-per-page och max-systems-per-page eftersom systems-"
+"per-page var satt"
 
 #: page-breaking.cc:305
-msgid "min-systems-per-page is larger than max-systems-per-page, ignoring both values"
-msgstr "min-systems-per-page är större än max-systems-per-page, ignorerar båda värden"
+msgid ""
+"min-systems-per-page is larger than max-systems-per-page, ignoring both "
+"values"
+msgstr ""
+"min-systems-per-page är större än max-systems-per-page, ignorerar båda "
+"värden"
 
 #: page-breaking.cc:579
 #, c-format
@@ -3706,7 +4158,8 @@ msgid "too many pages: %ld (should have at most %ld)"
 msgstr "för många sidor: %ld (bör ha högst %ld)"
 
 #: page-layout-problem.cc:432
-msgid "A page layout problem has been initiated that cannot accommodate footnotes."
+msgid ""
+"A page layout problem has been initiated that cannot accommodate footnotes."
 msgstr "Ett problem med sidlayouten har uppstått som inte kan rymma fotnoter."
 
 #: page-layout-problem.cc:811
@@ -3732,8 +4185,12 @@ msgid "page-turn-page-breaking: breaking from %zu to %zu"
 msgstr "page-turn-page-breaking: bryter från %zu till %zu"
 
 #: page-turn-page-breaking.cc:245
-msgid "cannot fit the first page turn onto a single page.  Consider setting first-page-number to an even number."
-msgstr "det går inte att få plats med den första sidvändningen på en enda sida. Överväg att ställa in first-page-number till ett jämnt tal."
+msgid ""
+"cannot fit the first page turn onto a single page.  Consider setting first-"
+"page-number to an even number."
+msgstr ""
+"det går inte att få plats med den första sidvändningen på en enda sida. "
+"Överväg att ställa in first-page-number till ett jämnt tal."
 
 #: page-turn-page-breaking.cc:259
 #, c-format
@@ -3766,7 +4223,7 @@ msgid "\tprevious break: %zu"
 msgstr "\ttidigare bryt: %zu"
 
 #: pango-font.cc:253
-#, fuzzy, c-format
+#, c-format
 #| msgid "no glyph for character U+%04X in font `%s'"
 msgid "no glyph for character '%s' (U+%04X%s) in font `%s'"
 msgstr "ingen glyf för tecknet ”%s” (U+%04X%s) i typsnittet ”%s”"
@@ -3782,28 +4239,50 @@ msgstr "FreeType face har inget PostScript-typsnittsnamn"
 
 #: pango-select.cc:42
 #, c-format
-msgid "unknown font-variant value %s; allowed values are normal and small-caps"
-msgstr "okänt värde för font-variant: %s; tillåtna värden är normal och small-caps"
+msgid ""
+"unknown font-variant value %s; allowed values are normal and small-caps"
+msgstr ""
+"okänt värde för font-variant: %s; tillåtna värden är normal och small-caps"
 
 #: pango-select.cc:61
 #, c-format
-msgid "unknown font-shape value %s; allowed values are italic, oblique and upright"
-msgstr "okänt värde för font-shape: %s; tillåtna värden är italic, oblique och upright"
+msgid ""
+"unknown font-shape value %s; allowed values are italic, oblique and upright"
+msgstr ""
+"okänt värde för font-shape: %s; tillåtna värden är italic, oblique och "
+"upright"
 
 #: pango-select.cc:105
 #, c-format
-msgid "unknown font-series value %s; allowed values are thin, ultralight (or extralight), light, semilight (or demilight), book, normal (or regular), medium, semibold (or demibold), bold, ultrabold (or extrabold), heavy (or black), and ultraheavy (or ultrablack or extrablack)"
-msgstr "okänt värde för font-series: %s; tillåtna värden är thin, ultralight (eller extralight), light, semilight (eller demilight), book, normal (eller regular), medium, semibold (eller demibold), bold, ultrabold (eller extrabold), heavy (eller black) och ultraheavy (eller ultrablack eller extrablack)"
+msgid ""
+"unknown font-series value %s; allowed values are thin, ultralight (or "
+"extralight), light, semilight (or demilight), book, normal (or regular), "
+"medium, semibold (or demibold), bold, ultrabold (or extrabold), heavy (or "
+"black), and ultraheavy (or ultrablack or extrablack)"
+msgstr ""
+"okänt värde för font-series: %s; tillåtna värden är thin, ultralight (eller "
+"extralight), light, semilight (eller demilight), book, normal (eller "
+"regular), medium, semibold (eller demibold), bold, ultrabold (eller "
+"extrabold), heavy (eller black) och ultraheavy (eller ultrablack eller "
+"extrablack)"
 
 #: pango-select.cc:138
 #, c-format
-msgid "unknown font-stretch value %s; allowed values are ultra-condensed, extra-condensed, condensed, semi-condensed, normal, semi-expanded, extra-expanded and ultra-expanded"
-msgstr "okänt värde för font-stretch: %s; tillåtna värden är ultra-condensed, extra-condensed, condensed, semi-condensed, normal, semi-expanded, extra-expanded och ultra-expanded"
+msgid ""
+"unknown font-stretch value %s; allowed values are ultra-condensed, extra-"
+"condensed, condensed, semi-condensed, normal, semi-expanded, extra-expanded "
+"and ultra-expanded"
+msgstr ""
+"okänt värde för font-stretch: %s; tillåtna värden är ultra-condensed, extra-"
+"condensed, condensed, semi-condensed, normal, semi-expanded, extra-expanded "
+"och ultra-expanded"
 
 #: paper-book.cc:359
 #, c-format
-msgid "program option -dclip-systems/-dcrop/-dpreview not supported by backend `%s'"
-msgstr "programflagga -dclip-systems/-dcrop/-dpreview stöds inte av bakände ”%s”"
+msgid ""
+"program option -dclip-systems/-dcrop/-dpreview not supported by backend `%s'"
+msgstr ""
+"programflagga -dclip-systems/-dcrop/-dpreview stöds inte av bakände ”%s”"
 
 #: paper-book.cc:413
 #, c-format
@@ -3812,8 +4291,12 @@ msgstr "flersidig utdata stöds inte av bakände ”%s”"
 
 #: paper-column.cc:451
 #, c-format
-msgid "refusing to create a grob sticking to Paper_column grob %s; paper columns should not be created from custom engravers."
-msgstr "vägrar att skapa en grob som håller fast vid Paper_column grob %s; papperskolumner bör inte skapas från anpassade gravyrer."
+msgid ""
+"refusing to create a grob sticking to Paper_column grob %s; paper columns "
+"should not be created from custom engravers."
+msgstr ""
+"vägrar att skapa en grob som håller fast vid Paper_column grob %s; "
+"papperskolumner bör inte skapas från anpassade gravyrer."
 
 #: paper-outputter.cc:129
 #, c-format
@@ -3842,13 +4325,13 @@ msgid "Track..."
 msgstr "Spår…"
 
 #: performance.cc:139
-#, fuzzy, c-format
+#, c-format
 #| msgid "cannot create temp file: %s: %s"
 msgid "cannot create a zero-track MIDI file; skipping `%s'"
 msgstr "det går inte att skapa en MIDI-fil utan spår; hoppar över ”%s”"
 
 #: performance.cc:144
-#, fuzzy, c-format
+#, c-format
 #| msgid "MIDI output to `%s'..."
 msgid "MIDI output to `%s'...\n"
 msgstr "MIDI-utdata till ”%s”…\n"
@@ -3882,24 +4365,31 @@ msgstr "ignorerar flaggan -d%s=\"%s\": värdet har fel typ"
 msgid ""
 "ignoring option -d%s=\"%s\":\n"
 "  invalid value; possible values are %s"
-msgstr "ignorerar flaggan -d%s=\"%s”:\n"
+msgstr ""
+"ignorerar flaggan -d%s=\"%s”:\n"
 "  ogiltigt värde; möjliga värden är %s"
 
 #: program-option-scheme.cc:377
 #, c-format
-msgid "option %s is accumulative; use ly:append-to-option instead of ly:set-option"
-msgstr "alternativet %s är ackumulerande; använd ly:append-to-option i stället för ly:set-option"
+msgid ""
+"option %s is accumulative; use ly:append-to-option instead of ly:set-option"
+msgstr ""
+"alternativet %s är ackumulerande; använd ly:append-to-option i stället för "
+"ly:set-option"
 
 #: program-option-scheme.cc:384 program-option-scheme.cc:405
-#, fuzzy, c-format
+#, c-format
 #| msgid "no such internal option: %s"
 msgid "no such program option: %s"
 msgstr "ingen sådan programflagga: %s"
 
 #: program-option-scheme.cc:410
 #, c-format
-msgid "option %s is not accumulative; use ly:set-option instead of ly:add-to-option"
-msgstr "alternativet %s är inte ackumulerande; använd ly:set-option i stället för ly:add-to-option"
+msgid ""
+"option %s is not accumulative; use ly:set-option instead of ly:add-to-option"
+msgstr ""
+"alternativet %s är inte ackumulerande; använd ly:set-option i stället för "
+"ly:add-to-option"
 
 #: property-iterator.cc:67
 #, c-format
@@ -4067,8 +4557,11 @@ msgstr "vet inte hur artikulationen ska tolkas: %s"
 #. TODO: It might be nice to log the actual music that was
 #. iterated in a debug message.
 #: sequential-iterator.cc:140
-msgid "total length of sequential music elements is different than anticipated"
-msgstr "den totala längden på de sekventiella musikelementen skiljer sig från den förväntade"
+msgid ""
+"total length of sequential music elements is different than anticipated"
+msgstr ""
+"den totala längden på de sekventiella musikelementen skiljer sig från den "
+"förväntade"
 
 #. iter_ is !ok earlier than the length of its music predicts.
 #. Mitigate by waiting until the expected time so that the next
@@ -4194,8 +4687,12 @@ msgid "Grob count %zu"
 msgstr "Antal grob: %zu"
 
 #: system.cc:1079
-msgid "refusing to create a grob sticking to a System grob; systems should not be created from custom engravers."
-msgstr "vägrar att skapa en grob som håller fast vid en systemgrob; system bör inte skapas från anpassade graverare."
+msgid ""
+"refusing to create a grob sticking to a System grob; systems should not be "
+"created from custom engravers."
+msgstr ""
+"vägrar att skapa en grob som håller fast vid en systemgrob; system bör inte "
+"skapas från anpassade graverare."
 
 #. TODO: Also print the arguments of the markup!
 #: text-interface.cc:303
@@ -4232,35 +4729,37 @@ msgid "mid-measure time signature without \\partial"
 msgstr "taktart mitt i takten utan \\partial"
 
 #: time-signature-performer.cc:128
-#, fuzzy
 #| msgid "bad baseMoment/beatStructure for MIDI time signature"
 msgid "bad beatBase/beatStructure for MIDI time signature"
 msgstr "felaktig beatBase/beatStructure för MIDI-taktart"
 
 #: time-tracer-scheme.cc:60
-#, fuzzy, c-format
+#, c-format
 #| msgid "failed redirecting stderr to `%s'"
 msgid "failed redirecting time-trace output to `%s'"
 msgstr "misslyckades med att omdirigera time-trace-utdata till ”%s”"
 
 #: timing-translator.cc:138
-msgid "cannot calculate a finite measurePosition from an infinite measureLength"
-msgstr "det går inte att beräkna en ändlig measurePosition från en oändlig measureLength"
+msgid ""
+"cannot calculate a finite measurePosition from an infinite measureLength"
+msgstr ""
+"det går inte att beräkna en ändlig measurePosition från en oändlig "
+"measureLength"
 
 #: timing-translator.cc:194
-#, fuzzy, c-format
+#, c-format
 #| msgid "conflict with event: `%s'"
 msgid "conflicting measure length: %s"
 msgstr "motstridig taktlängd: %s"
 
 #: timing-translator.cc:196
-#, fuzzy, c-format
+#, c-format
 #| msgid "cannot find context: %s"
 msgid "measure length in Timing context: %s"
 msgstr "taktlängd i Timing-kontext: %s"
 
 #: timing-translator.cc:238
-#, fuzzy, c-format
+#, c-format
 #| msgid "barcheck failed at: %s"
 msgid "bar check failed at: %s"
 msgstr "taktkontroll misslyckades vid: %s"
@@ -4276,8 +4775,12 @@ msgstr "okänd översättare: ”%s”"
 
 #: translator-group-ctors.cc:40
 #, c-format
-msgid "Couldn't find translator type %s (should be Engraver_group, Performer_group, Score_engraver or Score_performer)"
-msgstr "Det gick inte att hitta typen av graverare %s (ska vara Engraver_group, Performer_group, Score_engraver eller Score_performer)"
+msgid ""
+"Couldn't find translator type %s (should be Engraver_group, Performer_group,"
+" Score_engraver or Score_performer)"
+msgstr ""
+"Det gick inte att hitta typen av graverare %s (ska vara Engraver_group, "
+"Performer_group, Score_engraver eller Score_performer)"
 
 #: translator-group.cc:157
 #, c-format
@@ -4290,16 +4793,29 @@ msgstr "Ingen triolgrupp att avsluta"
 
 #: vaticana-ligature-engraver.cc:378
 #, c-format
-msgid "ignored prefix(es) `%s' of this head according to restrictions of the selected ligature style"
-msgstr "ignorerade prefixen ”%s” för detta nothuvud enligt den valda ligaturstilens begränsningar"
+msgid ""
+"ignored prefix(es) `%s' of this head according to restrictions of the "
+"selected ligature style"
+msgstr ""
+"ignorerade prefixen ”%s” för detta nothuvud enligt den valda ligaturstilens "
+"begränsningar"
 
 #: vaticana-ligature-engraver.cc:441
-msgid "Ambiguous use of dots in ligature: there are multiple dotted notes with the same pitch.  The ligature should be split."
-msgstr "Tvetydlig användning av punkter i ligaturer: det finns flera punkterade noter med samma ton. Ligaturen bör delas upp."
+msgid ""
+"Ambiguous use of dots in ligature: there are multiple dotted notes with the "
+"same pitch.  The ligature should be split."
+msgstr ""
+"Tvetydlig användning av punkter i ligaturer: det finns flera punkterade "
+"noter med samma ton. Ligaturen bör delas upp."
 
 #: vaticana-ligature-engraver.cc:499
-msgid "This ligature has a dotted head followed by a non-dotted head.  The ligature should be split after the last dotted head before this head."
-msgstr "Denna ligatur har ett punkterat nothuvud följt av ett opunkterat nothuvud. Ligaturen bör delas efter det sista punkterade nothuvudet före detta nothuvud."
+msgid ""
+"This ligature has a dotted head followed by a non-dotted head.  The ligature"
+" should be split after the last dotted head before this head."
+msgstr ""
+"Denna ligatur har ett punkterat nothuvud följt av ett opunkterat nothuvud. "
+"Ligaturen bör delas efter det sista punkterade nothuvudet före detta "
+"nothuvud."
 
 #: vaticana-ligature.cc:89
 msgid "flexa-height undefined; assuming 0"
@@ -4329,14 +4845,12 @@ msgid "discarding conflicting volta numbers: %s"
 msgstr "förkastar motstridiga volta-nummer: %s"
 
 #: volta-engraver.cc:345
-#, fuzzy
 #| msgid "already have a volta spanner, ending that one prematurely"
 msgid "already have a VoltaBracket; ending it prematurely"
 msgstr "har redan en VoltaBracket; avslutar den i förtid"
 
 #. FIXME: Be more verbose?
 #: volta-engraver.cc:359
-#, fuzzy
 #| msgid "No tuplet to end"
 msgid "no VoltaBracket to end"
 msgstr "ingen VoltaBracket att avsluta"
@@ -4346,7 +4860,6 @@ msgid "bad expression type"
 msgstr "felaktig uttryckstyp"
 
 #: parser.yy:541
-#, fuzzy
 #| msgid "no left bound"
 msgid "not found"
 msgstr "hittades inte"
@@ -4473,10 +4986,9 @@ msgid "string outside of text script or \\lyricmode"
 msgstr "sträng utanför ett textskript eller \\lyricmode"
 
 #: parser.yy:3984 parser.yy:3994
-#, fuzzy
 #| msgid "not an unsigned integer"
 msgid "not an exact unsigned number"
-msgstr "inte ett exakt tal utan tecken"
+msgstr "inte ett exakt teckenlöst tal"
 
 #: parser.yy:4007 parser.yy:4016
 msgid "not an unsigned integer"
@@ -4561,10 +5073,10 @@ msgid "invalid character: `%s'"
 msgstr "ogiltigt tecken: ”%s”"
 
 #: lexer.ll:966
-#, fuzzy, c-format
+#, c-format
 #| msgid "unknown escaped string: `\\%s'"
 msgid "unknown command: `\\%s'"
-msgstr "okänt kommando: ”\\%s”"
+msgstr "okänt kommando: `\\%s'"
 
 #: lexer.ll:986
 #, c-format
@@ -4633,23 +5145,37 @@ msgstr "Takttecken ~a inte känt. Ignorerar."
 
 #: bar-line.scm:124
 #, scheme-format
-msgid "Annotation '~a' is allowed in the first argument of a bar line definition only."
-msgstr "Annotationen ”~a” är tillåten i det första argumentet endast för en taktstrecksdefinition."
+msgid ""
+"Annotation '~a' is allowed in the first argument of a bar line definition "
+"only."
+msgstr ""
+"Annotationen ”~a” är tillåten i det första argumentet endast för en "
+"taktstrecksdefinition."
 
 #: bar-line.scm:132
 #, scheme-format
-msgid "Replacement '~a' is allowed in the last argument of a bar line definition only."
-msgstr "Ersättning ”~a” är endast tillåten i sista argumentet för en taktstrecksdefinition."
+msgid ""
+"Replacement '~a' is allowed in the last argument of a bar line definition "
+"only."
+msgstr ""
+"Ersättning ”~a” är endast tillåten i sista argumentet för en "
+"taktstrecksdefinition."
 
 #: bar-line.scm:205
 #, scheme-format
-msgid "add-bar-glyph-print-procedure: glyph '~a' has to be a single ASCII character."
-msgstr "add-bar-glyph-print-procedure: tecknet ”~a” måste vara ett enda ASCII-tecken."
+msgid ""
+"add-bar-glyph-print-procedure: glyph '~a' has to be a single ASCII "
+"character."
+msgstr ""
+"add-bar-glyph-print-procedure: tecknet ”~a” måste vara ett enda ASCII-"
+"tecken."
 
 #: bar-line.scm:1027
 #, scheme-format
 msgid "No span bar glyph defined for bar glyph '~a'; ignoring."
-msgstr "Ingen glyf för förlängt taktstreck definierades för taktstrecksglyfen ”~a”; ignorerar."
+msgstr ""
+"Ingen glyf för förlängt taktstreck definierades för taktstrecksglyfen ”~a”; "
+"ignorerar."
 
 #: chord-entry.scm:54
 #, scheme-format
@@ -4674,12 +5200,20 @@ msgid "the property 'barCheckSynchronize' is deprecated"
 msgstr "egenskapen ”barCheckSynchronize” är föråldrad"
 
 #: define-context-properties.scm:1081
-msgid "'voltaSpannerDuration' is deprecated; use the grob property VoltaBracket.musical-length"
-msgstr "”voltaSpannerDuration” är föråldrad; använd grob-egenskapen VoltaBracket.musical-length"
+msgid ""
+"'voltaSpannerDuration' is deprecated; use the grob property "
+"VoltaBracket.musical-length"
+msgstr ""
+"”voltaSpannerDuration” är föråldrad; använd grob-egenskapen "
+"VoltaBracket.musical-length"
 
 #: define-context-properties.scm:1093
-msgid "'voltaSpannerDurationAsMoment' is deprecated; use the grob property VoltaBracket.musical-length"
-msgstr "”voltaSpannerDurationAsMoment” är föråldrad; använd grob-egenskapen VoltaBracket.musical-length"
+msgid ""
+"'voltaSpannerDurationAsMoment' is deprecated; use the grob property "
+"VoltaBracket.musical-length"
+msgstr ""
+"”voltaSpannerDurationAsMoment” är föråldrad; använd grob-egenskapen "
+"VoltaBracket.musical-length"
 
 #: define-event-classes.scm:105
 #, scheme-format
@@ -4707,8 +5241,11 @@ msgstr "okänd bildfil, ska ha filändelsen .png eller .eps: ~a"
 
 #: define-markup-commands.scm:1774
 #, scheme-format
-msgid "EPS image dimensions could not be determined; is '~a' a valid EPS file?"
-msgstr "Det gick inte att fastställa EPS-bildens dimensioner; är ”~a” en giltig EPS-fil?"
+msgid ""
+"EPS image dimensions could not be determined; is '~a' a valid EPS file?"
+msgstr ""
+"Det gick inte att fastställa EPS-bildens dimensioner; är ”~a” en giltig EPS-"
+"fil?"
 
 #: define-music-callbacks.scm:103
 #, scheme-format
@@ -4814,8 +5351,12 @@ msgstr "CFF-typsnittet ”~a” är redan inbäddat, hoppar över."
 
 #: framework-ps.scm:256
 #, scheme-format
-msgid "Different CFF fonts which have the same name `~a' has been detected. The font cannot be embedded."
-msgstr "Olika CFF-typsnitt som har samma namn ”~a” har identifierats. Det går inte att bädda in typsnittet."
+msgid ""
+"Different CFF fonts which have the same name `~a' has been detected. The "
+"font cannot be embedded."
+msgstr ""
+"Olika CFF-typsnitt som har samma namn ”~a” har identifierats. Det går inte "
+"att bädda in typsnittet."
 
 #: framework-ps.scm:261
 #, scheme-format
@@ -4828,8 +5369,12 @@ msgstr "Initierar listan över inbäddade CFF-typsnitt."
 
 #: framework-ps.scm:288
 #, scheme-format
-msgid "Preparing font ~a in PostScript resource directory for subfont ~a of file `~a'..."
-msgstr "Förbereder typsnitt ~a i en PostScript-resurskatalog för subtypsnitt ~a för fil ”~a”…"
+msgid ""
+"Preparing font ~a in PostScript resource directory for subfont ~a of file "
+"`~a'..."
+msgstr ""
+"Förbereder typsnitt ~a i en PostScript-resurskatalog för subtypsnitt ~a för "
+"fil ”~a”…"
 
 #: framework-ps.scm:304 framework-ps.scm:317 framework-ps.scm:323
 #, scheme-format
@@ -4843,31 +5388,55 @@ msgid "Font ~a is TrueType font, skipping..."
 msgstr "Typsnitt ~a är ett TrueType-typsnitt, hoppar över."
 
 #: framework-ps.scm:325
-#, fuzzy, scheme-format
-#| msgid "Font ~a cannot be used in PostScript resource directory because it is unknown format."
-msgid "Font ~S=~S cannot be used in PostScript resource directory because it uses the CFF2 format."
-msgstr "Typsnittet ~S=~S kan inte användas i PostScript-resurskatalogen eftersom det använder formatet CFF2."
+#, scheme-format
+#| msgid ""
+#| "Font ~a cannot be used in PostScript resource directory because it is "
+#| "unknown format."
+msgid ""
+"Font ~S=~S cannot be used in PostScript resource directory because it uses "
+"the CFF2 format."
+msgstr ""
+"Typsnittet ~S=~S kan inte användas i PostScript-resurskatalogen eftersom det"
+" använder CFF2-formatet."
 
 #: framework-ps.scm:328
-#, fuzzy, scheme-format
-#| msgid "Font ~a cannot be used in PostScript resource directory because it is unknown format."
-msgid "Font ~S=~S cannot be used in PostScript resource directory because it has an unknown format."
-msgstr "Typsnittet ~S=~S kan inte användas i PostScript-resurskatalogen eftersom det har ett okänt format."
+#, scheme-format
+#| msgid ""
+#| "Font ~a cannot be used in PostScript resource directory because it is "
+#| "unknown format."
+msgid ""
+"Font ~S=~S cannot be used in PostScript resource directory because it has an"
+" unknown format."
+msgstr ""
+"Typsnittet ~S=~S kan inte användas i PostScript-resurskatalogen eftersom det"
+" har ett okänt format."
 
 #: framework-ps.scm:367
 #, scheme-format
-msgid "Font ~a cannot be loaded via Ghostscript because its font-index (~a) is not zero."
-msgstr "Typsnittet ~a går inte att läsa in via Ghostscript eftersom dess typsnittsindex (~a) inte är noll."
+msgid ""
+"Font ~a cannot be loaded via Ghostscript because its font-index (~a) is not "
+"zero."
+msgstr ""
+"Typsnittet ~a går inte att läsa in via Ghostscript eftersom dess "
+"typsnittsindex (~a) inte är noll."
 
 #: framework-ps.scm:374
 #, scheme-format
-msgid "Font ~a cannot be loaded via Ghostscript because it is an OpenType/CFF Collection (OTC) font."
-msgstr "Typsnittet ~a går inte att läsa in via Ghostscript eftersom det är ett OpenType/CFF Collection (OTC)-typsnitt."
+msgid ""
+"Font ~a cannot be loaded via Ghostscript because it is an OpenType/CFF "
+"Collection (OTC) font."
+msgstr ""
+"Typsnittet ~a går inte att läsa in via Ghostscript eftersom det är ett "
+"OpenType/CFF Collection (OTC)-typsnitt."
 
 #: framework-ps.scm:381
 #, scheme-format
-msgid "Font ~a cannot be used via Ghostscript because it is a TrueType font that does not have glyph names."
-msgstr "Typsnittet ~a kan inte användas via Ghostscript eftersom det är ett TrueType-typsnitt utan glyfnamn."
+msgid ""
+"Font ~a cannot be used via Ghostscript because it is a TrueType font that "
+"does not have glyph names."
+msgstr ""
+"Typsnittet ~a kan inte användas via Ghostscript eftersom det är ett "
+"TrueType-typsnitt utan glyfnamn."
 
 #: framework-ps.scm:402
 #, scheme-format
@@ -4877,7 +5446,9 @@ msgstr "det går inte att bädda in ~S=~S"
 #: framework-ps.scm:417
 #, scheme-format
 msgid "cannot embed ~S=~S because PostScript doesn't support the CFF2 format"
-msgstr "det går inte att bädda in ~S=~S eftersom PostScript inte stöder formatet CFF2"
+msgstr ""
+"det går inte att bädda in ~S=~S eftersom PostScript inte stöder formatet "
+"CFF2"
 
 #: framework-ps.scm:421
 #, scheme-format
@@ -4941,8 +5512,12 @@ msgstr "Skapar exportkatalogen ”~a” för typsnitt."
 
 #: framework-ps.scm:694
 #, scheme-format
-msgid "conflict between embedded source files '~a' and '~a', which both have the base file name '~a'; skipping the former one"
-msgstr "konflikt mellan de inbäddade källfilerna ”~a” och ”~a”, som båda har basfilnamnet ”~a”; hoppar över den första"
+msgid ""
+"conflict between embedded source files '~a' and '~a', which both have the "
+"base file name '~a'; skipping the former one"
+msgstr ""
+"konflikt mellan de inbäddade källfilerna ”~a” och ”~a”, som båda har "
+"basfilnamnet ”~a”; hoppar över den första"
 
 #: framework-ps.scm:750
 msgid "PS backend does not support SVG format"
@@ -4984,13 +5559,20 @@ msgid "Harp pedal diagram contains ~a pedals rather than the usual 7."
 msgstr "Pedalharpadiagrammet innehåller ~a pedaler istället för de vanliga 7."
 
 #: harp-pedals.scm:190
-msgid "Harp pedal diagram does not contain a divider (usually after third pedal)."
-msgstr "Pedalharpadiagrammet innehåller inte en avdelare (vanligen efter tredje pedalen)."
+msgid ""
+"Harp pedal diagram does not contain a divider (usually after third pedal)."
+msgstr ""
+"Pedalharpadiagrammet innehåller inte en avdelare (vanligen efter tredje "
+"pedalen)."
 
 #: harp-pedals.scm:192
 #, scheme-format
-msgid "Harp pedal diagram contains dividers at positions ~a.  Normally, there is only one divider after the third pedal."
-msgstr "Pedalharpadiagrammet innehåller avdelare vid position ~a. Normalt finns det bara en avdelare, efter tredje pedalen."
+msgid ""
+"Harp pedal diagram contains dividers at positions ~a.  Normally, there is "
+"only one divider after the third pedal."
+msgstr ""
+"Pedalharpadiagrammet innehåller avdelare vid position ~a. Normalt finns det "
+"bara en avdelare, efter tredje pedalen."
 
 #: layout-beam.scm:40
 #, scheme-format
@@ -5020,8 +5602,12 @@ msgid "Music unsuitable for output-def"
 msgstr "Musik är olämplig för output-def"
 
 #: lily-library.scm:1250
-msgid "version with third number omitted is only allowed for stable releases (when the second number is even)"
-msgstr "en version utan tredje siffra är endast tillåten för stabila utgåvor (när den andra siffran är jämn)"
+msgid ""
+"version with third number omitted is only allowed for stable releases (when "
+"the second number is even)"
+msgstr ""
+"en version utan tredje siffra är endast tillåten för stabila utgåvor (när "
+"den andra siffran är jämn)"
 
 #: lily-library.scm:1263
 #, scheme-format
@@ -5064,6 +5650,17 @@ msgid ""
 "is passed, the result is the first @var{i} such that @code{(getter i)} is\n"
 "greater than or equal to @var{target-val}."
 msgstr ""
+"Dela intervallet mellan heltalen @var{start} och @var{end}, båda ändpunkterna\n"
+"inkluderade, för att hitta ett heltal @var{i} så att\n"
+"@code{(getter i)} ligger nära @var{target-val}. @var{getter} ska vara svagt\n"
+"växande (i matematisk mening) och @var{target-val} ska ligga\n"
+"mellan @code{(getter start)} och @code{(getter end)} (inklusive). Det valfria\n"
+"nyckelordsargumentet @code{mode} anger exakt hur resultatet bestäms. Med\n"
+"@code{'last-less-than-or-equal}, som är standardvärdet, är resultatet @var{i} det sista\n"
+"@var{i} så att @code{(getter i)} är mindre än\n"
+"eller lika med @code{target-val}. Om @code{#:mode 'first-greater-than-or-equal} skickas är\n"
+"resultatet i stället det första @var{i} så att\n"
+"@code{(getter i)} är större än eller lika med @code{target-val}."
 
 #: lily-library.scm:1715
 #, scheme-format
@@ -5096,7 +5693,6 @@ msgid "Ignoring option -d~a=\"~a\" due to read error: ~a"
 msgstr "Ignorerar flaggan -d~a=\"~a” på grund av läsfel: ~a"
 
 #: lily.scm:540
-#, fuzzy
 #| msgid "end quote missing"
 msgid "end of string"
 msgstr "slutet på strängen"
@@ -5107,7 +5703,7 @@ msgid "cannot find: ~A"
 msgstr "det går inte att hitta: ~A"
 
 #: lily.scm:648
-#, fuzzy, scheme-format
+#, scheme-format
 #| msgid "music expected: ~S"
 msgid "note scale expected: ~S"
 msgstr "notskala förväntas: ~S"
@@ -5123,7 +5719,7 @@ msgstr "Kompileringen slutfördes med varningar eller fel"
 #: lily.scm:1129
 #, scheme-format
 msgid "job ~a terminated with signal: ~a"
-msgstr "jobbet ~a avslutades med signalen ~a"
+msgstr "jobbet ~a avslutades med signal: ~a"
 
 #: lily.scm:1132
 #, scheme-format
@@ -5209,7 +5805,7 @@ msgstr "ton att invertera finns inte i skalan; ignorerar"
 
 #: modal-transforms.scm:94
 msgid "negative replication count; ignoring"
-msgstr "negativt replikeringsantal, ignorerar"
+msgstr "negativt replikeringsantal; ignorerar"
 
 #: modal-transforms.scm:286
 msgid "Dangling tie in \\retrograde"
@@ -5238,7 +5834,9 @@ msgstr ""
 #: music-functions.scm:306
 #, scheme-format
 msgid "unknown repeat type `~S': must be volta, unfold, percent, or tremolo"
-msgstr "okänd upprepningstyp ”~S”: måste vara en av volta, unfold, percent eller tremolo"
+msgstr ""
+"okänd upprepningstyp ”~S”: måste vara en av volta, unfold, percent eller "
+"tremolo"
 
 #: music-functions.scm:319
 msgid "alternative music expected"
@@ -5334,10 +5932,10 @@ msgid "conflicting tag group ~a"
 msgstr "motstridig taggrupp ~a"
 
 #: music-functions.scm:2928
-#, fuzzy, scheme-format
+#, scheme-format
 #| msgid "flag ~a not found"
 msgid "tag group ~a not found"
-msgstr "taggruppen ~a hittades inte"
+msgstr "tagggruppen ~a hittades inte"
 
 #: output-lib.scm:681
 #, scheme-format
@@ -5346,15 +5944,23 @@ msgstr "punktglyf ~s hittades ej"
 
 #: output-lib.scm:1127
 #, scheme-format
-msgid "no glyph name for alteration ~a in alteration-glyph-name-alist; try defining one in alterationGlyphs"
-msgstr "inget glyfnamn för alteration ~a i alteration-glyph-name-alist; försök definiera ett i alterationGlyphs"
+msgid ""
+"no glyph name for alteration ~a in alteration-glyph-name-alist; try defining"
+" one in alterationGlyphs"
+msgstr ""
+"inget glyfnamn för alteration ~a i alteration-glyph-name-alist; försök "
+"definiera ett i alterationGlyphs"
 
 #: output-lib.scm:2068
-msgid "script needs an explicit direction specifier to disambiguate between different glyphs"
-msgstr "skriptet behöver en explicit riktningsangivelse för att skilja mellan olika glyfer"
+msgid ""
+"script needs an explicit direction specifier to disambiguate between "
+"different glyphs"
+msgstr ""
+"skriptet behöver en explicit riktningsangivelse för att skilja mellan olika "
+"glyfer"
 
 #: output-lib.scm:2087
-#, fuzzy, scheme-format
+#, scheme-format
 #| msgid "script-stencil property must be pair: %s"
 msgid "script-stencil property must be pair: ~a"
 msgstr "egenskapen script-stencil måste vara ett par: ~a"
@@ -5388,20 +5994,23 @@ msgstr "ingen post i listan över måttindelningslinjer för måttindelning ~a"
 
 #: output-lib.scm:3753
 #, scheme-format
-msgid "no entry in measure-division-chord-placement-alist for measure division ~a"
-msgstr "ingen post i measure-division-chord-placement-alist för taktindelningen ~a"
+msgid ""
+"no entry in measure-division-chord-placement-alist for measure division ~a"
+msgstr ""
+"ingen post i measure-division-chord-placement-alist för taktindelningen ~a"
 
 #: output-lib.scm:4281
-#, fuzzy, scheme-format
+#, scheme-format
 #| msgid "custos `%s' not found"
 msgid "custos `~a' not found"
-msgstr "custos ”~a” hittades inte"
+msgstr "custos `~a' hittades inte"
 
 #: output-ps.scm:141
 msgid ""
 "transparency (no background color) for PNG images is not\n"
 "supported in the PostScript backend.  Use the Cairo backend instead."
-msgstr "transparens (ingen bakgrundsfärg) för PNG-bilder stöds inte\n"
+msgstr ""
+"transparens (ingen bakgrundsfärg) för PNG-bilder stöds inte\n"
 "i PostScript-bakänden. Använd Cairo-bakänden i stället."
 
 #: output-ps.scm:349 output-svg.scm:541
@@ -5474,7 +6083,9 @@ msgstr "Nordamerikanska arkitektoniska storlekar"
 
 #: paper.scm:229
 msgid "Other sizes, including antique sizes still used in the United Kingdom"
-msgstr "Andra storlekar, inklusive antika storlekar som fortfarande används i Förenade kungariket"
+msgstr ""
+"Andra storlekar, inklusive antika storlekar som fortfarande används i "
+"Förenade kungariket"
 
 #: paper.scm:252
 msgid "PA4-based sizes"
@@ -5498,21 +6109,23 @@ msgstr "Okänd pappersstorlek: ~a"
 #. that in parse-scm.cc
 #: paper.scm:415
 msgid "Must use #(set-paper-size .. ) within \\paper { ... }"
-msgstr "Måste använda #(set-paper-size .. ) inom \\paper { … }"
+msgstr "Måste använda #(set-paper-size ..) inom \\paper { … }"
 
 #: parser-clef.scm:228
-#, fuzzy, scheme-format
+#, scheme-format
 #| msgid "unknown clef type `~a'"
 msgid "unknown clef type '~a'"
 msgstr "okänd klavtyp ”~a”"
 
 #: parser-clef.scm:229
-#, fuzzy, scheme-format
+#, scheme-format
 #| msgid "supported clefs: ~a"
 msgid ""
 "supported clefs:\n"
 "~a"
-msgstr "klavar som stöds: ~a"
+msgstr ""
+"klavar som stöds:\n"
+"~a"
 
 #: parser-ly-from-scheme.scm:75
 msgid "error in #{ ... #}"
@@ -5534,18 +6147,26 @@ msgstr "”anti-alias-factor” måste vara ett positivt heltal <= 8"
 
 #: qr-code.scm:243
 #, scheme-format
-msgid "too many bytes (~a) to fit in a QR code with correction level ~a (max ~a)"
-msgstr "för många byte (~a) för att få plats i en QR-kod med felrättningsnivån ~a (högst ~a)"
+msgid ""
+"too many bytes (~a) to fit in a QR code with correction level ~a (max ~a)"
+msgstr ""
+"för många byte (~a) för att få plats i en QR-kod med felrättningsnivån ~a "
+"(högst ~a)"
 
 #: qr-code.scm:573
 #, scheme-format
-msgid "QR code error correction level must be 'low, 'medium, 'quarter or 'high; found ~s"
-msgstr "QR-kodens felrättningsnivå måste vara ’low, ’medium, ’quarter eller ’high; fick ~s"
+msgid ""
+"QR code error correction level must be 'low, 'medium, 'quarter or 'high; "
+"found ~s"
+msgstr ""
+"QR-kodens felrättningsnivå måste vara ’low, ’medium, ’quarter eller ’high; "
+"fick ~s"
 
 #: qr-code.scm:586
 #, scheme-format
 msgid "string ~s cannot be represented in a QR code due to special characters"
-msgstr "strängen ~s kan inte representeras i en QR-kod på grund av specialtecken"
+msgstr ""
+"strängen ~s kan inte representeras i en QR-kod på grund av specialtecken"
 
 #: scheme-engravers.scm:228
 msgid "count not ended before another begun"
@@ -5582,7 +6203,6 @@ msgid "Unbound BendSpanner, ignoring"
 msgstr "Oansluten BendSpanner, ignorerar"
 
 #: scheme-engravers.scm:1187
-#, fuzzy
 #| msgid "unterminated measure spanner"
 msgid "unterminated finger glide spanner"
 msgstr "oavslutad fingerspännare för glidning"
@@ -5596,16 +6216,14 @@ msgid "no highlight to end"
 msgstr "ingen markering att avsluta"
 
 #: scheme-engravers.scm:2532
-#, fuzzy
 #| msgid "unterminated glissando"
 msgid "overwriting glissando"
 msgstr "skriver över glissando"
 
 #: scheme-engravers.scm:2584
-#, fuzzy
 #| msgid "unterminated glissando"
 msgid "unterminated Glissando"
-msgstr "oavslutad glissando"
+msgstr "oavslutat glissando"
 
 #: stencil.scm:796
 msgid "Both angle-increments and radial-increments must be positive numbers."
@@ -5706,7 +6324,9 @@ msgstr ""
 #~ msgstr "Staff_margin_engraver föråldrad, använd Instrument_name_engraver"
 
 #~ msgid "change property definition case (eg. onevoice -> oneVoice)"
-#~ msgstr "ändra skiftlägeskänslighet för egenskapsdefinitioner (exempel: onevoice -> oneVoice)"
+#~ msgstr ""
+#~ "ändra skiftlägeskänslighet för egenskapsdefinitioner (exempel: onevoice -> "
+#~ "oneVoice)"
 
 #, python-format
 #~ msgid "identifier names: %s"
@@ -5816,7 +6436,9 @@ msgstr ""
 #~ msgstr "Byt namn på förtecken, använd glyph-name-alist."
 
 #~ msgid "Use #'style not #'dash-fraction to select solid/dashed lines."
-#~ msgstr "Använd #'style och inte #'dash-fraction för att välja solida/streckade linjer."
+#~ msgstr ""
+#~ "Använd #'style och inte #'dash-fraction för att välja solida/streckade "
+#~ "linjer."
 
 #~ msgid ""
 #~ "metronomeMarkFormatter uses text markup as second argument,\n"
@@ -5926,8 +6548,12 @@ msgstr ""
 #~ "Ta bort utrymme till basic-distance i olika utrymmes alists.\n"
 #~ "Ta bort HarmonicParenthesesItem.grob."
 
-#~ msgid "Remove context from overrideTimeSignatureSettings and revertTimeSignatureSettings.\n"
-#~ msgstr "Ta bort kontext från overrideTimeSignatureSettings och revertTimeSignatureSettings.\n"
+#~ msgid ""
+#~ "Remove context from overrideTimeSignatureSettings and "
+#~ "revertTimeSignatureSettings.\n"
+#~ msgstr ""
+#~ "Ta bort kontext från overrideTimeSignatureSettings och "
+#~ "revertTimeSignatureSettings.\n"
 
 #~ msgid ""
 #~ "Change stringTunings from a list of semitones to a list of pitches.\n"
@@ -5950,7 +6576,8 @@ msgstr ""
 #~ msgid "Change in internal property for MultiMeasureRest"
 #~ msgstr "Ändring i intern egenskap för MultiMeasureRest"
 
-#~ msgid "Creation of a Flag grob and moving of certain Stem properties to this grob"
+#~ msgid ""
+#~ "Creation of a Flag grob and moving of certain Stem properties to this grob"
 #~ msgstr "Skapa en flagg-grob och flytta vissa Stem-egenskaper till denna grob"
 
 #~ msgid "Flag.transparent and Flag.color inherit from Stem"
@@ -5960,21 +6587,31 @@ msgstr ""
 #~ msgstr "Nu används ”output-attributes” (associationslista) istället."
 
 #~ msgid "Tuplet brackets of curved shape are not correctly implemented"
-#~ msgstr "Oregelbundna notvärdens klamrar för kurvade former är ej korrekt implementerade"
+#~ msgstr ""
+#~ "Oregelbundna notvärdens klamrar för kurvade former är ej korrekt "
+#~ "implementerade"
 
 #~ msgid "Senza-misura time signatures are not yet supported!"
 #~ msgstr "Senza-misura-taktarter stöds inte ännu!"
 
 #, python-format
-#~ msgid "Encountered rational duration with denominator %s, unable to convert to lilypond duration"
-#~ msgstr "Påträffade rationellt tidsvärde med nämnaren %s; det gick inte att konvertera till lilypond-tidsvärde"
+#~ msgid ""
+#~ "Encountered rational duration with denominator %s, unable to convert to "
+#~ "lilypond duration"
+#~ msgstr ""
+#~ "Påträffade rationellt tidsvärde med nämnaren %s; det gick inte att "
+#~ "konvertera till lilypond-tidsvärde"
 
 #~ msgid "BOOK"
 #~ msgstr "BOK"
 
 #, python-format
-#~ msgid "pad left side of music to align music in spite of uneven bar numbers (in mm) [default: %default]"
-#~ msgstr "fyll ut vänstra sidan av musik för att justera musik i fall av ojämnt taktantal (i mm) [standard: %default]"
+#~ msgid ""
+#~ "pad left side of music to align music in spite of uneven bar numbers (in mm)"
+#~ " [default: %default]"
+#~ msgstr ""
+#~ "fyll ut vänstra sidan av musik för att justera musik i fall av ojämnt "
+#~ "taktantal (i mm) [standard: %default]"
 
 #, python-format
 #~ msgid "Negative skip found: from %s to %s, difference is %s"
@@ -5999,11 +6636,20 @@ msgstr ""
 #~ msgid "use lxml.etree; uses less memory and cpu time"
 #~ msgstr "använd lxml.etree; använder mindre minne och cpu-tid"
 
-#~ msgid "change the length|duration of notes as a function of a given time signature to make the score look faster or slower, (eg. '4/4' or '2/2')"
-#~ msgstr "ändra längden för noter som en funktion av en given taktart för att få partituren att se snabbare eller långsammare ut, (exempelvis. ”4/4” eller ”2/2”)"
+#~ msgid ""
+#~ "change the length|duration of notes as a function of a given time signature "
+#~ "to make the score look faster or slower, (eg. '4/4' or '2/2')"
+#~ msgstr ""
+#~ "ändra längden för noter som en funktion av en given taktart för att få "
+#~ "partituren att se snabbare eller långsammare ut, (exempelvis. ”4/4” eller "
+#~ "”2/2”)"
 
-#~ msgid "deactivate string number stencil with --string-numbers f[alse]. Default is t[rue]"
-#~ msgstr "inaktivera strängnummer stencil med --string-numbers f[alse]. Standard är t[rue]"
+#~ msgid ""
+#~ "deactivate string number stencil with --string-numbers f[alse]. Default is "
+#~ "t[rue]"
+#~ msgstr ""
+#~ "inaktivera strängnummer stencil med --string-numbers f[alse]. Standard är "
+#~ "t[rue]"
 
 #, python-format
 #~ msgid "Converting to current version (%s) notations ..."
@@ -6026,23 +6672,34 @@ msgstr ""
 #~ msgstr "ogiltig målvolym: %f"
 
 #, c-format
-#~ msgid "asked to compute volume at %f for dynamic span of duration %f starting at %s"
-#~ msgstr "frågad att beräkna volym %f för dynamisk spann av längd %f med början vid %s"
+#~ msgid ""
+#~ "asked to compute volume at %f for dynamic span of duration %f starting at %s"
+#~ msgstr ""
+#~ "frågad att beräkna volym %f för dynamisk spann av längd %f med början vid %s"
 
 #, c-format
-#~ msgid "asked to compute volume at +%f for dynamic span of duration %f starting at %s"
-#~ msgstr "frågade om att beräkna volymen +%f för dynamiskt spann över tiden %f med början vid %s"
+#~ msgid ""
+#~ "asked to compute volume at +%f for dynamic span of duration %f starting at "
+#~ "%s"
+#~ msgstr ""
+#~ "frågade om att beräkna volymen +%f för dynamiskt spann över tiden %f med "
+#~ "början vid %s"
 
 #~ msgid "Cairo too old for PDF metadata"
 #~ msgstr "Kairo för gammal för PDF-metadata"
 
 #, c-format
-#~ msgid "grob %s created with disallowed class %s (expected any class in the list %s)"
-#~ msgstr "grob %s skapad med otillåten klass %s (förväntad valfri klass i listan %s)"
+#~ msgid ""
+#~ "grob %s created with disallowed class %s (expected any class in the list %s)"
+#~ msgstr ""
+#~ "grob %s skapad med otillåten klass %s (förväntad valfri klass i listan %s)"
 
 #, c-format
-#~ msgid "sticky grob %s created with a type that does not have the sticky-grob-interface"
-#~ msgstr "sticky grob %s skapad med en typ som inte har sticky-grob-gränssnittet"
+#~ msgid ""
+#~ "sticky grob %s created with a type that does not have the sticky-grob-"
+#~ "interface"
+#~ msgstr ""
+#~ "sticky grob %s skapad med en typ som inte har sticky-grob-gränssnittet"
 
 #~ msgid "Initializing FontConfig..."
 #~ msgstr "Initierar FontConfig…"
@@ -6140,8 +6797,12 @@ msgstr ""
 #~ msgstr "Avbryter"
 
 #, c-format
-#~ msgid "invalid sequence %c%c in color (characters should be in one of ranges 0-9, a-f, A-F)"
-#~ msgstr "ogiltig sekvens %c%c i färg (tecken ska vara i ett av intervallen 0-9, a-f, A-F)"
+#~ msgid ""
+#~ "invalid sequence %c%c in color (characters should be in one of ranges 0-9, "
+#~ "a-f, A-F)"
+#~ msgstr ""
+#~ "ogiltig sekvens %c%c i färg (tecken ska vara i ett av intervallen 0-9, a-f, "
+#~ "A-F)"
 
 #, c-format
 #~ msgid "strange time signature found: %d/%d"
@@ -6160,8 +6821,12 @@ msgstr ""
 #~ msgstr "ger upp"
 
 #, c-format
-#~ msgid "Re-defining dash%s using a string is deprecated. Please try replacing \"%s\" by \\%s or run convert-ly."
-#~ msgstr "Att omdefiniera dash%s med hjälp av en sträng är föråldrat. Försök att ersätta \"%s\" med \\%s eller kör på motsatt sätt."
+#~ msgid ""
+#~ "Re-defining dash%s using a string is deprecated. Please try replacing \"%s\""
+#~ " by \\%s or run convert-ly."
+#~ msgstr ""
+#~ "Att omdefiniera dash%s med hjälp av en sträng är föråldrat. Försök att "
+#~ "ersätta \"%s\" med \\%s eller kör på motsatt sätt."
 
 #~ msgid "no systems found in \\score markup, does it have a \\layout block?"
 #~ msgstr "inga system hittade i \\score-markup, har \\layout-block?"
