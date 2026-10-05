@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file id="6766" original="/Arch.ts" source-language="en" target-language="sv-SE" datatype="plaintext" project-id="286" tool-id="crowdin">
     <header>
-      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1" />
     </header>
     <body>
       <trans-unit id="6502387" resname="ArchMaterial['Choose a preset card']">
@@ -334,11 +334,11 @@
 Examples of valid filters (everything is case-insensitive): Name:Wall - Will only consider objects with 'wall' in their name (internal name); !Name:Wall - Will only consider objects which DO NOT have 'wall' in their name (internal name); Description:Win - Will only consider objects with 'win' in their description; !Label:Win - Will only consider objects which DO NOT have 'win' in their label; IfcType:Wall - Will only consider objects which Ifc Type is 'Wall'; !Tag:Wall - Will only consider objects which tag is NOT 'Wall'. If you leave this field empty, no filtering is applied
 
 When dealing with native IFC objects, you can use FreeCAD properties name, ex: 'Class:IfcWall' or any other IFC attribute (ex. 'IsTypedBy:#455'). If the 'Objects' column has been set to an IFC project or document, all the IFC entities of that project will be considered.</source>
-        <target state="translated">En valfri semikolonavgränsad (;) lista med filter för egenskap:värde. Lägg till ! till ett egenskapsnamn för att invertera effekten av filtret (utesluta objekt som matchar filtret). Objekt vars egenskap innehåller värdet kommer att matchas.
+        <target state="translated">En valfri semikolonavgränsad (;) lista med filter i formen egenskap:värde. Skriv ”!” före ett egenskapsnamn för att invertera filtrets effekt och utesluta objekt som matchar filtret. Objekt vars egenskap innehåller värdet matchas.
 
-Exempel på giltiga filter (allt är skiftlägesokänsligt): Name:Wall - Kommer endast att beakta objekt med "wall" i sitt namn (internt namn); !Name:Wall - Kommer endast att beakta objekt som INTE har "wall" i sitt namn (internt namn); Description:Win - Kommer endast att beakta objekt med "win" i sin beskrivning; !Label:Win - Kommer endast att beakta objekt som INTE har "win" i sin etikett; IfcType:Wall - Kommer endast att beakta objekt vars Ifc Type är "Wall"; !Tag:Wall - Kommer endast att beakta objekt vars tagg INTE är "Wall". Om du lämnar detta fält tomt tillämpas ingen filtrering
+Exempel på giltiga filter (skiftlägesokänsliga): Name:Wall – endast objekt med ”wall” i namnet (internt namn); !Name:Wall – endast objekt som inte har ”wall” i namnet (internt namn); Description:Win – endast objekt med ”win” i beskrivningen; !Label:Win – endast objekt som inte har ”win” i etiketten; IfcType:Wall – endast objekt vars IFC-typ är ”Wall”; !Tag:Wall – endast objekt vars tagg inte är ”Wall”. Om fältet lämnas tomt tillämpas ingen filtrering.
 
-När du hanterar inbyggda IFC-objekt kan du använda FreeCAD-egenskapsnamn, t.ex. 'Class:IfcWall' eller något annat IFC-attribut (t.ex. 'IsTypedBy:#455'). Om kolumnen "Objects" har ställts in på ett IFC-projekt eller -dokument, kommer alla IFC-enheter i det projektet att beaktas.</target>
+För inbyggda IFC-objekt kan du använda FreeCAD-egenskapsnamn, till exempel ”Class:IfcWall”, eller andra IFC-attribut, till exempel ”IsTypedBy:#455”. Om kolumnen ”Objects” är inställd på ett IFC-projekt eller ett IFC-dokument beaktas alla IFC-entiteter i projektet.</target>
         <context-group purpose="information">
           <context context-type="source">Dialog
 ../ui/ArchSchedule.ui:112</context>
@@ -444,17 +444,17 @@ in FreeCAD or not.
 
 Use the name of the IFC project to get all the IFC entities
 of that project, no matter if they are expanded or not.</source>
-        <target state="translated">En valfri semikolonavgränsad (;) lista över objektnamn
-(interna namn, inte etiketter), som ska beaktas av denna åtgärd.
-Om listan innehåller grupper kommer barn att läggas till.
+        <target state="translated">En valfri semikolonavgränsad (;) lista med objektnamn
+(interna namn, inte etiketter) som ska användas av åtgärden.
+Om listan innehåller grupper läggs deras underordnade objekt till.
 
-Lämna tomt om du vill använda alla objekt från dokumentet.
+Lämna fältet tomt för att använda alla objekt i dokumentet.
 
-Om dokumentet är ett IFC-projekt kommer alla IFC-enheter i dokumentet
-dokumentet användas, oavsett om de är expanderade i FreeCAD
+Om dokumentet är ett IFC-projekt används alla IFC-entiteter i
+dokumentet, oavsett om de är expanderade
 i FreeCAD eller inte.
 
-Använd namnet på IFC-projektet för att hämta alla IFC-enheter
+Använd namnet på IFC-projektet för att hämta alla IFC-entiteter
 i det projektet, oavsett om de är expanderade eller inte.</target>
         <context-group purpose="information">
           <context context-type="source">Dialog
@@ -729,7 +729,7 @@ i det projektet, oavsett om de är expanderade eller inte.</target>
       </trans-unit>
       <trans-unit id="6678428" resname="Dialog['IFC Properties Editor']">
         <source>IFC Properties Editor</source>
-        <target state="translated">Redaktör för IFC-egenskaper</target>
+        <target state="translated">Redigerare för IFC-egenskaper</target>
         <context-group purpose="information">
           <context context-type="source">Dialog
 ../ui/dialogIfcPropertiesRedux.ui:14</context>
@@ -884,7 +884,7 @@ i det projektet, oavsett om de är expanderade eller inte.</target>
 ../ui/dialogIfcElements.ui:14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6650524" resname="Dialog['&lt;html>&lt;head/>&lt;body>&lt;p>This dialog lets you change the IFC type and material associated with any BIM object in this document. Double-click the IFC type to change, or use the drop-down menu below the list.&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6650524" resname="Dialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This dialog lets you change the IFC type and material associated with any BIM object in this document. Double-click the IFC type to change, or use the drop-down menu below the list.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This dialog lets you change the IFC type and material associated with any BIM object in this document. Double-click the IFC type to change, or use the drop-down menu below the list.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;I den här dialogen kan du ändra IFC-typ och material som är associerade med alla BIM-objekt i det här dokumentet. Dubbelklicka på den IFC-typ som ska ändras eller använd rullgardinsmenyn under listan.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -901,7 +901,7 @@ i det projektet, oavsett om de är expanderade eller inte.</target>
 ../ui/dialogIfcQuantities.ui:14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6650536" resname="Dialog['&lt;html>&lt;head/>&lt;body>&lt;p>Checked quantities will be exported to IFC. Quantities marked with a warning sign indicate a zero value that you might need to check. Clicking a column header will apply to all selected items.&lt;/p>&lt;p>&lt;span style=&quot; font-weight:600;&quot;>Warning&lt;/span>: Horizontal area is the area obtained when projecting the object on the ground (X,Y) plane, but vertical area is the sum of all areas of the faces that are vertical (orthogonal to the ground plane), so a wall will have its both faces co">
+      <trans-unit id="6650536" resname="Dialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Checked quantities will be exported to IFC. Quantities marked with a warning sign indicate a zero value that you might need to check. Clicking a column header will apply to all selected items.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Warning&lt;/span&gt;: Horizontal area is the area obtained when projecting the object on the ground (X,Y) plane, but vertical area is the sum of all areas of the faces that are vertical (orthogonal to the ground plane), so a wall will have its both faces co">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Checked quantities will be exported to IFC. Quantities marked with a warning sign indicate a zero value that you might need to check. Clicking a column header will apply to all selected items.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Warning&lt;/span&gt;: Horizontal area is the area obtained when projecting the object on the ground (X,Y) plane, but vertical area is the sum of all areas of the faces that are vertical (orthogonal to the ground plane), so a wall will have its both faces counted.&lt;/p&gt;&lt;p&gt;Length, width and height values can be changed here, but beware, it might change the geometry!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kontrollerade kvantiteter kommer att exporteras till IFC. Mängder som är markerade med en varningssignal anger ett nollvärde som du kan behöva kontrollera. Om du klickar på en kolumnrubrik gäller det för alla valda objekt.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Varning&lt;/span&gt; för: Horisontell area är den area som erhålls när objektet projiceras på markplanet (X,Y), men vertikal area är summan av alla ytor som är vertikala (ortogonala mot markplanet), så en vägg får båda sina ytor räknade.&lt;/p&gt;&lt;p&gt;Värdena för längd, bredd och höjd kan ändras här, men se upp, det kan ändra geometrin!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -1054,7 +1054,7 @@ i det projektet, oavsett om de är expanderade eller inte.</target>
 ../ui/dialogImport.ui:139</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6678546" resname="Dialog['If this is unchecked, these settings will be applied automatically next time. This can be changed later under menu Edit -> Preferences -> BIM -> Native IFC']">
+      <trans-unit id="6678546" resname="Dialog['If this is unchecked, these settings will be applied automatically next time. This can be changed later under menu Edit -&gt; Preferences -&gt; BIM -&gt; Native IFC']">
         <source>If this is unchecked, these settings will be applied automatically next time. This can be changed later under menu Edit -&gt; Preferences -&gt; BIM -&gt; Native IFC</source>
         <target state="translated">Om detta är avmarkerat kommer dessa inställningar att tillämpas automatiskt nästa gång. Detta kan ändras senare under menyn Redigera -&gt; Inställningar -&gt; BIM -&gt; Native IFC</target>
         <context-group purpose="information">
@@ -2122,7 +2122,7 @@ i det projektet, oavsett om de är expanderade eller inte.</target>
 ../ui/dialogWelcome.ui:71</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679062" resname="Dialog['&lt;html>&lt;head/>&lt;body>&lt;p>This appears to be the first time BIM workbench is used. electing OK will open a setup screen with a few recommended FreeCAD options tailored for BIM workflows. These settings can be modified later under &lt;span style=&quot; font-weight:600;&quot;>Manage -&amp;gt; BIM Setup…&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6679062" resname="Dialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This appears to be the first time BIM workbench is used. electing OK will open a setup screen with a few recommended FreeCAD options tailored for BIM workflows. These settings can be modified later under &lt;span style=&quot; font-weight:600;&quot;&gt;Manage -&amp;gt; BIM Setup…&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This appears to be the first time BIM workbench is used. electing OK will open a setup screen with a few recommended FreeCAD options tailored for BIM workflows. These settings can be modified later under &lt;span style=" font-weight:600;"&gt;Manage -&amp;gt; BIM Setup…&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Detta verkar vara första gången BIM Workbench används. Om du väljer OK öppnas en installationsskärm med några rekommenderade FreeCAD-alternativ som är skräddarsydda för BIM-arbetsflöden. Dessa inställningar kan ändras senare under &lt;span style=" font-weight:600;"&gt;Manage -&amp;gt; BIM Setup..&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -2130,7 +2130,7 @@ i det projektet, oavsett om de är expanderade eller inte.</target>
 ../ui/dialogWelcome.ui:78</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6688198" resname="Dialog['FreeCAD is a complex application. For those new to FreeCAD, or without prior experience in 3D modelling or BIM, it is recommended to begin with the &lt;a href=&quot;https://wiki.freecad.org/BIM_ingame_tutorial&quot;>BIM tutorial&lt;/a>. This can also be accessed under menu &lt;span style=&quot; font-weight:600;&quot;>Help -&amp;gt; BIM Tutorial&lt;/span>.']">
+      <trans-unit id="6688198" resname="Dialog['FreeCAD is a complex application. For those new to FreeCAD, or without prior experience in 3D modelling or BIM, it is recommended to begin with the &lt;a href=&quot;https://wiki.freecad.org/BIM_ingame_tutorial&quot;&gt;BIM tutorial&lt;/a&gt;. This can also be accessed under menu &lt;span style=&quot; font-weight:600;&quot;&gt;Help -&amp;gt; BIM Tutorial&lt;/span&gt;.']">
         <source>FreeCAD is a complex application. For those new to FreeCAD, or without prior experience in 3D modelling or BIM, it is recommended to begin with the &lt;a href="https://wiki.freecad.org/BIM_ingame_tutorial"&gt;BIM tutorial&lt;/a&gt;. This can also be accessed under menu &lt;span style=" font-weight:600;"&gt;Help -&amp;gt; BIM Tutorial&lt;/span&gt;.</source>
         <target state="translated">FreeCAD är en komplex applikation. För dem som är nya i FreeCAD, eller utan tidigare erfarenhet av 3D-modellering eller BIM, rekommenderas det att börja med &lt;a href="https://wiki.freecad.org/BIM_ingame_tutorial"&gt;BIM-handledningen&lt;/a&gt;. Detta kan också nås under menyn &lt;span style=" font-weight:600;"&gt;Hjälp -&amp;gt; BIM Tutorial&lt;/span&gt;.</target>
         <context-group purpose="information">
@@ -2138,7 +2138,7 @@ i det projektet, oavsett om de är expanderade eller inte.</target>
 ../ui/dialogWelcome.ui:100</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679070" resname="Dialog['The BIM workbench also has a &lt;a href=&quot;https://wiki.freecad.org/BIM_Workbench&quot;>complete documentation&lt;/a> available under the Help menu. The &quot;What's This?&quot; button will open the help page of any tool from the toolbars.']">
+      <trans-unit id="6679070" resname="Dialog['The BIM workbench also has a &lt;a href=&quot;https://wiki.freecad.org/BIM_Workbench&quot;&gt;complete documentation&lt;/a&gt; available under the Help menu. The &quot;What's This?&quot; button will open the help page of any tool from the toolbars.']">
         <source>The BIM workbench also has a &lt;a href="https://wiki.freecad.org/BIM_Workbench"&gt;complete documentation&lt;/a&gt; available under the Help menu. The "What's This?" button will open the help page of any tool from the toolbars.</source>
         <target state="translated">BIM Workbench har också en &lt;a href="https://wiki.freecad.org/BIM_Workbench"&gt;komplett dokumentation&lt;/a&gt; som finns tillgänglig under Hjälp-menyn. Knappen "Vad är det här?" öppnar hjälpsidan för valfritt verktyg i verktygsfälten.</target>
         <context-group purpose="information">
@@ -2146,7 +2146,7 @@ i det projektet, oavsett om de är expanderade eller inte.</target>
 ../ui/dialogWelcome.ui:110</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679076" resname="Dialog['A good way to start building a BIM model is by setting up basic characteristics of the project, under menu &lt;span style=&quot; font-weight:600;&quot;>Manage -&amp;gt; Project setup&lt;/span>. Different floor plans for the project can be configured via &lt;span style=&quot; font-weight:600;&quot;>Manage -&amp;gt; Levels.&lt;/span>']">
+      <trans-unit id="6679076" resname="Dialog['A good way to start building a BIM model is by setting up basic characteristics of the project, under menu &lt;span style=&quot; font-weight:600;&quot;&gt;Manage -&amp;gt; Project setup&lt;/span&gt;. Different floor plans for the project can be configured via &lt;span style=&quot; font-weight:600;&quot;&gt;Manage -&amp;gt; Levels.&lt;/span&gt;']">
         <source>A good way to start building a BIM model is by setting up basic characteristics of the project, under menu &lt;span style=" font-weight:600;"&gt;Manage -&amp;gt; Project setup&lt;/span&gt;. Different floor plans for the project can be configured via &lt;span style=" font-weight:600;"&gt;Manage -&amp;gt; Levels.&lt;/span&gt;</source>
         <target state="translated">Ett bra sätt att börja bygga en BIM-modell är att ställa in grundläggande egenskaper för projektet, under menyn &lt;span style=" font-weight:600;"&gt;Hantera -&amp;gt; Projektinställningar&lt;/span&gt;. Olika planlösningar för projektet kan konfigureras via &lt;span style=" font-weight:600;"&gt;Hantera -&amp;gt; Nivåer.&lt;/span&gt;</target>
         <context-group purpose="information">
@@ -2156,13 +2156,13 @@ i det projektet, oavsett om de är expanderade eller inte.</target>
       </trans-unit>
       <trans-unit id="6679084" resname="Dialog['There is no required workflow; walls and columns can be created directly, with levels organised later if preferred.']">
         <source>There is no required workflow; walls and columns can be created directly, with levels organised later if preferred.</source>
-        <target state="translated">Det finns inget nödvändigt arbetsflöde; väggar och pelare kan skapas direkt, och nivåerna kan organiseras senare om så önskas.</target>
+        <target state="translated">Det krävs inget särskilt arbetsflöde; väggar och pelare kan skapas direkt och nivåerna kan organiseras senare vid behov.</target>
         <context-group purpose="information">
           <context context-type="source">Dialog
 ../ui/dialogWelcome.ui:130</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679092" resname="Dialog['&lt;html>&lt;head/>&lt;body>&lt;p>An existing floor plan or 3D model created in another application can also be used as a starting point. Under menu &lt;span style=&quot; font-weight:600;&quot;>File -&amp;gt; Import&lt;/span>, a wide range of file formats that can be imported into FreeCAD.&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6679092" resname="Dialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;An existing floor plan or 3D model created in another application can also be used as a starting point. Under menu &lt;span style=&quot; font-weight:600;&quot;&gt;File -&amp;gt; Import&lt;/span&gt;, a wide range of file formats that can be imported into FreeCAD.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;An existing floor plan or 3D model created in another application can also be used as a starting point. Under menu &lt;span style=" font-weight:600;"&gt;File -&amp;gt; Import&lt;/span&gt;, a wide range of file formats that can be imported into FreeCAD.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;En befintlig planritning eller 3D-modell som skapats i ett annat program kan också användas som utgångspunkt. Under menyn &lt;span style=" font-weight:600;"&gt;File -&amp;gt; Import&lt;/span&gt; finns ett brett utbud av filformat som kan importeras till FreeCAD.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3137,9 +3137,9 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:289</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679410" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>The following test will check the model or the selected object(s) and their children for conformity to IFC standards.&lt;/p>&lt;p>&lt;span style=&quot; font-weight:600;&quot;>Important&lt;/span>: None of the failed tests below will prevent exporting IFC files, nor do these tests guarantee that the IFC files meets some specific quality or standard requirement. They are there to assess which elements are included or excluded from the exported file. Choose which item is of importance manually. Hovering t">
+      <trans-unit id="6679410" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The following test will check the model or the selected object(s) and their children for conformity to IFC standards.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Important&lt;/span&gt;: None of the failed tests below will prevent exporting IFC files, nor do these tests guarantee that the IFC files meets some specific quality or standard requirement. They are there to assess which elements are included or excluded from the exported file. Choose which item is of importance manually. Hovering t">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The following test will check the model or the selected object(s) and their children for conformity to IFC standards.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Important&lt;/span&gt;: None of the failed tests below will prevent exporting IFC files, nor do these tests guarantee that the IFC files meets some specific quality or standard requirement. They are there to assess which elements are included or excluded from the exported file. Choose which item is of importance manually. Hovering the mouse over each description will show more information.&lt;/p&gt;&lt;p&gt;After a test is run, clicking the corresponding button will show more information to help fix the problems.&lt;/p&gt;&lt;p&gt;The &lt;a href="http://www.buildingsmart-tech.org/specifications"&gt;&lt;span style=" text-decoration: underline; color:#0000ff;"&gt;official IFC website&lt;/span&gt;&lt;/a&gt; contains a lot of useful information about IFC standards.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Följande test kontrollerar att modellen eller det/de valda objekten och deras underordnade objekt överensstämmer med IFC-standarderna.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Viktigt&lt;/span&gt;: Inget av de misslyckade testerna nedan kommer att förhindra export av IFC-filer, och dessa tester garanterar inte heller att IFC-filerna uppfyller något specifikt kvalitets- eller standardkrav. De är till för att bedöma vilka element som ingår eller utesluts från den exporterade filen. Välj vilket objekt som är viktigt manuellt. Om du håller muspekaren över varje beskrivning visas mer information.&lt;/p&gt;&lt;p&gt;När ett test har körts kan du klicka på motsvarande knapp för att visa mer information som hjälper dig att åtgärda problemen.&lt;/p&gt;&lt;p&gt;Den &lt;a href="http://www.buildingsmart-tech.org/specifications"&gt;&lt;span style=" text-decoration: underline; color:#0000ff;"&gt;officiella IFC-webbplatsen&lt;/span&gt;&lt;/a&gt; innehåller mycket användbar information om IFC-standarder.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
+        <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Följande test kontrollerar om modellen eller de valda objekten och deras underordnade objekt uppfyller IFC-standarderna.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Viktigt&lt;/span&gt;: Tester som misslyckas hindrar inte export av IFC-filer och garanterar inte heller att IFC-filerna uppfyller ett visst kvalitets- eller standardkrav. De används för att bedöma vilka element som ingår i eller utesluts från den exporterade filen. Välj manuellt vilket objekt som är viktigt. Håll muspekaren över varje beskrivning för mer information.&lt;/p&gt;&lt;p&gt;När ett test har körts kan du klicka på motsvarande knapp för att få information som hjälper dig att åtgärda problemen.&lt;/p&gt;&lt;p&gt;Den &lt;a href="http://www.buildingsmart-tech.org/specifications"&gt;&lt;span style=" text-decoration: underline; color:#0000ff;"&gt;officiella IFC-webbplatsen&lt;/span&gt;&lt;/a&gt; innehåller mycket användbar information om IFC-standarder.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
           <context context-type="source">Form
 ../ui/dialogPreflight.ui:20</context>
@@ -3169,7 +3169,7 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:73</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679420" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>IFC export in FreeCAD is performed by an open-source third-party library called IfcOpenShell. To be able to export to the newer IFC4 standard, IfcOpenShell must have been compiled with IFC4 support enabled. This test will check if IFC4 support is available in the installed version of IfcOpenShell. If not, FreeCAD will only export IFC files in the older IFC2x3 standard. Note that some applications out there still have incomplete or inexistent IFC4 support, so in some cases IFC2x3 ">
+      <trans-unit id="6679420" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC export in FreeCAD is performed by an open-source third-party library called IfcOpenShell. To be able to export to the newer IFC4 standard, IfcOpenShell must have been compiled with IFC4 support enabled. This test will check if IFC4 support is available in the installed version of IfcOpenShell. If not, FreeCAD will only export IFC files in the older IFC2x3 standard. Note that some applications out there still have incomplete or inexistent IFC4 support, so in some cases IFC2x3 ">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC export in FreeCAD is performed by an open-source third-party library called IfcOpenShell. To be able to export to the newer IFC4 standard, IfcOpenShell must have been compiled with IFC4 support enabled. This test will check if IFC4 support is available in the installed version of IfcOpenShell. If not, FreeCAD will only export IFC files in the older IFC2x3 standard. Note that some applications out there still have incomplete or inexistent IFC4 support, so in some cases IFC2x3 might still work better.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC-export i FreeCAD utförs av ett tredjeparts bibliotek med öppen källkod som heter IfcOpenShell. För att kunna exportera till den nyare IFC4-standarden måste IfcOpenShell ha kompilerats med IFC4-stöd aktiverat. Detta test kontrollerar om IFC4-stöd är tillgängligt i den installerade versionen av IfcOpenShell. Om inte, kommer FreeCAD endast att exportera IFC-filer i den äldre IFC2x3-standarden. Observera att vissa applikationer där ute fortfarande har ofullständigt eller obefintligt IFC4-stöd, så i vissa fall kan IFC2x3 fortfarande fungera bättre.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3185,7 +3185,7 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:102</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679424" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>All IfcBuildingStorey (levels) elements are required to be inside an IfcBuilding element. This is a mandatory requirement of the IFC standard. When exporting the FreeCAD model to IFC, a default IfcBuilding will be created for all level objects (BuildingPart objects with their IFC role set as Building Storey) found that are not inside a Building. However, it is best to manually create that building, to have more control over its name and properties. This test is here to help find ">
+      <trans-unit id="6679424" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All IfcBuildingStorey (levels) elements are required to be inside an IfcBuilding element. This is a mandatory requirement of the IFC standard. When exporting the FreeCAD model to IFC, a default IfcBuilding will be created for all level objects (BuildingPart objects with their IFC role set as Building Storey) found that are not inside a Building. However, it is best to manually create that building, to have more control over its name and properties. This test is here to help find ">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All IfcBuildingStorey (levels) elements are required to be inside an IfcBuilding element. This is a mandatory requirement of the IFC standard. When exporting the FreeCAD model to IFC, a default IfcBuilding will be created for all level objects (BuildingPart objects with their IFC role set as Building Storey) found that are not inside a Building. However, it is best to manually create that building, to have more control over its name and properties. This test is here to help find those levels without buildings.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Alla IfcBuildingStorey-element (nivåer) måste vara inuti ett IfcBuilding-element. Detta är ett obligatoriskt krav i IFC-standarden. När FreeCAD-modellen exporteras till IFC skapas en standard IfcBuilding för alla nivåobjekt (BuildingPart-objekt med IFC-rollen inställd som Building Storey) som inte finns inuti en byggnad. Det är dock bäst att skapa byggnaden manuellt för att få mer kontroll över dess namn och egenskaper. Det här testet är till för att hjälpa till att hitta de nivåer som saknar byggnader.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3193,7 +3193,7 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:115</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679426" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>All elements derived from IfcProduct (that is, all the BIM elements that compose the model) are required to be inside an IfcBuildingStorey (level) element. This is a mandatory requirement of the IFC standard. When exporting the FreeCAD model to IFC, a default IfcBuildingStorey will be created for all BIM objects found that are not inside one already. However, it is best to check that all elements are correctly located inside a level to have more control over it. This test is here">
+      <trans-unit id="6679426" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All elements derived from IfcProduct (that is, all the BIM elements that compose the model) are required to be inside an IfcBuildingStorey (level) element. This is a mandatory requirement of the IFC standard. When exporting the FreeCAD model to IFC, a default IfcBuildingStorey will be created for all BIM objects found that are not inside one already. However, it is best to check that all elements are correctly located inside a level to have more control over it. This test is here">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All elements derived from IfcProduct (that is, all the BIM elements that compose the model) are required to be inside an IfcBuildingStorey (level) element. This is a mandatory requirement of the IFC standard. When exporting the FreeCAD model to IFC, a default IfcBuildingStorey will be created for all BIM objects found that are not inside one already. However, it is best to check that all elements are correctly located inside a level to have more control over it. This test is here to help find those BIM objects without a level.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Alla element som härrör från IfcProduct (det vill säga alla BIM-element som ingår i modellen) måste finnas i ett IfcBuildingStorey-element (nivå). Detta är ett obligatoriskt krav i IFC-standarden. När FreeCAD-modellen exporteras till IFC skapas en standard IfcBuildingStorey för alla BIM-objekt som inte redan finns i en sådan. Det är dock bäst att kontrollera att alla element är korrekt placerade i en nivå för att få mer kontroll över den. Det här testet är till för att hjälpa till att hitta de BIM-objekt som saknar en nivå.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3201,7 +3201,7 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:128</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679428" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>All IfcBuilding elements are required to be inside an IfcSite element. This is a mandatory requirement of the IFC standard. When exporting the FreeCAD model to IFC, a default IfcSite will be created for all Building objects found that are not inside a Site. However, it is best to manually create that site to have more control over its name and properties. This test is here to help find those buildings without sites.&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6679428" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All IfcBuilding elements are required to be inside an IfcSite element. This is a mandatory requirement of the IFC standard. When exporting the FreeCAD model to IFC, a default IfcSite will be created for all Building objects found that are not inside a Site. However, it is best to manually create that site to have more control over its name and properties. This test is here to help find those buildings without sites.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All IfcBuilding elements are required to be inside an IfcSite element. This is a mandatory requirement of the IFC standard. When exporting the FreeCAD model to IFC, a default IfcSite will be created for all Building objects found that are not inside a Site. However, it is best to manually create that site to have more control over its name and properties. This test is here to help find those buildings without sites.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Alla IfcBuilding-element måste vara inuti ett IfcSite-element. Detta är ett obligatoriskt krav i IFC-standarden. När FreeCAD-modellen exporteras till IFC skapas en standard IfcSite för alla Building-objekt som inte finns inuti en Site. Det är dock bäst att manuellt skapa den platsen för att ha mer kontroll över dess namn och egenskaper. Det här testet är till för att hjälpa till att hitta de byggnader som inte har någon plats.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3209,7 +3209,7 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:148</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679430" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>The IFC standard requires at least one site, one building and one level or building storey per project. This test will ensure that at least one object of each of these 3 types exists in the model.&lt;/p>&lt;p>Note that, as this is a mandatory requirement, FreeCAD will automatically add a default site, a default building and/or a default building storey if any of these is missing. So even if this test did not pass, the exported IFC file will meet the requirements.&lt;/p>&lt;p>However, it is a">
+      <trans-unit id="6679430" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC standard requires at least one site, one building and one level or building storey per project. This test will ensure that at least one object of each of these 3 types exists in the model.&lt;/p&gt;&lt;p&gt;Note that, as this is a mandatory requirement, FreeCAD will automatically add a default site, a default building and/or a default building storey if any of these is missing. So even if this test did not pass, the exported IFC file will meet the requirements.&lt;/p&gt;&lt;p&gt;However, it is a">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC standard requires at least one site, one building and one level or building storey per project. This test will ensure that at least one object of each of these 3 types exists in the model.&lt;/p&gt;&lt;p&gt;Note that, as this is a mandatory requirement, FreeCAD will automatically add a default site, a default building and/or a default building storey if any of these is missing. So even if this test did not pass, the exported IFC file will meet the requirements.&lt;/p&gt;&lt;p&gt;However, it is always better to manually create these projects to gain more control over naming and properties.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC-standarden kräver minst en plats, en byggnad och ett våningsplan eller en byggnadsetage per projekt. Detta test kommer att säkerställa att minst ett objekt av var och en av dessa 3 typer finns i modellen.&lt;/p&gt;&lt;p&gt;Observera att FreeCAD, eftersom detta är ett obligatoriskt krav, automatiskt kommer att lägga till en standardplats, en standardbyggnad och / eller en standardbyggnadsnivå om någon av dessa saknas. Så även om detta test inte godkändes kommer den exporterade IFC-filen att uppfylla kraven.&lt;/p&gt;&lt;p&gt;Det är dock alltid bättre att skapa dessa projekt manuellt för att få mer kontroll över namngivning och egenskaper.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3217,15 +3217,15 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:168</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679434" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>Although it is not a requirement for IFC objects to have fully clean and solid geometry, it is better if they do. This will reduce chances of problems with other applications. In real life, all objects have solid shapes.&lt;/p>&lt;p>FreeCAD has a lot of tools to check for geometry quality, and most parametric objects, including BIM objects, will usually warn the user if their geometry becomes unclean or not solid at some point. This test makes validates the solidity of the geometry.&lt;/p">
+      <trans-unit id="6679434" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Although it is not a requirement for IFC objects to have fully clean and solid geometry, it is better if they do. This will reduce chances of problems with other applications. In real life, all objects have solid shapes.&lt;/p&gt;&lt;p&gt;FreeCAD has a lot of tools to check for geometry quality, and most parametric objects, including BIM objects, will usually warn the user if their geometry becomes unclean or not solid at some point. This test makes validates the solidity of the geometry.&lt;/p">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Although it is not a requirement for IFC objects to have fully clean and solid geometry, it is better if they do. This will reduce chances of problems with other applications. In real life, all objects have solid shapes.&lt;/p&gt;&lt;p&gt;FreeCAD has a lot of tools to check for geometry quality, and most parametric objects, including BIM objects, will usually warn the user if their geometry becomes unclean or not solid at some point. This test makes validates the solidity of the geometry.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Även om det inte är ett krav att IFC-objekten ska ha en helt ren och solid geometri är det bättre om de har det. Detta minskar risken för problem med andra applikationer. I verkliga livet har alla objekt solida former.&lt;/p&gt;&lt;p&gt;FreeCAD har många verktyg för att kontrollera geometrikvaliteten, och de flesta parametriska objekt, inklusive BIM-objekt, kommer vanligtvis att varna användaren om deras geometri blir oren eller inte solid vid någon tidpunkt. Detta test gör validerar geometriens soliditet.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
+        <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Det är inte ett krav att IFC-objekt har helt ren och solid geometri, men det är bättre om de har det. Det minskar risken för problem i andra program. I verkligheten har alla objekt solida former.&lt;/p&gt;&lt;p&gt;FreeCAD har många verktyg för att kontrollera geometrikvalitet och de flesta parametriska objekt, även BIM-objekt, varnar vanligen användaren om deras geometri blir oren eller osolid. Detta test validerar geometriens soliditet.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
           <context context-type="source">Form
 ../ui/dialogPreflight.ui:204</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679440" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>The IFC format provides a defined type for most of the objects that compose a building, for example walls, columns, doors, or sinks. But it also supports undefined objects, which are given the generic BuildingElementProxy type. This test will check that all objects have a defined type.&lt;/p>&lt;p>&lt;br/>&lt;/p>&lt;p>Note that failing this test is not necessarily bad, as it may be desirable for some object to not have any defined type. In some cases, this might even give better results, as som">
+      <trans-unit id="6679440" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC format provides a defined type for most of the objects that compose a building, for example walls, columns, doors, or sinks. But it also supports undefined objects, which are given the generic BuildingElementProxy type. This test will check that all objects have a defined type.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Note that failing this test is not necessarily bad, as it may be desirable for some object to not have any defined type. In some cases, this might even give better results, as som">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC format provides a defined type for most of the objects that compose a building, for example walls, columns, doors, or sinks. But it also supports undefined objects, which are given the generic BuildingElementProxy type. This test will check that all objects have a defined type.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Note that failing this test is not necessarily bad, as it may be desirable for some object to not have any defined type. In some cases, this might even give better results, as some applications like Revit might add unwanted additional constraints or transformations to some known types such as structural elements (beams or columns). Exporting them as BuildingElementProxies will prevent that.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC-formatet tillhandahåller en definierad typ för de flesta objekt som ingår i en byggnad, t.ex. väggar, pelare, dörrar eller diskbänkar. Men det stöder också odefinierade objekt, som ges den generiska BuildingElementProxy-typen. Detta test kontrollerar att alla objekt har en definierad typ.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Observera att det inte nödvändigtvis är dåligt att misslyckas med detta test, eftersom det kan vara önskvärt för vissa objekt att inte ha någon definierad typ. I vissa fall kan detta till och med ge bättre resultat, eftersom vissa applikationer som Revit kan lägga till oönskade ytterligare begränsningar eller transformationer för vissa kända typer, t.ex. strukturella element (balkar eller pelare). Om du exporterar dem som BuildingElementProxies förhindras detta.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3233,7 +3233,7 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:217</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679446" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>Classification systems, such as UniClass or MasterFormat, or even a custom system, are in some cases an important part of a building project. This test will ensure that all BIM objects and materials found in the model have their standard code property dutifully filled.&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6679446" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Classification systems, such as UniClass or MasterFormat, or even a custom system, are in some cases an important part of a building project. This test will ensure that all BIM objects and materials found in the model have their standard code property dutifully filled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Classification systems, such as UniClass or MasterFormat, or even a custom system, are in some cases an important part of a building project. This test will ensure that all BIM objects and materials found in the model have their standard code property dutifully filled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Klassificeringssystem, som UniClass eller MasterFormat, eller till och med ett anpassat system, är i vissa fall en viktig del av ett byggprojekt. Detta test säkerställer att alla BIM-objekt och material som finns i modellen har sina standardkodsegenskaper korrekt ifyllda.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3241,7 +3241,7 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:246</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679454" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>The IFC standard offers standard, predefined property sets for many object types. For example, the property set Pset_WallCommon contains properties that the IFC standard thinks all walls should have. This test will check that all BIM objects have the right property set, if available.&lt;/p>&lt;p>Note that this is by no means a formal requirement, and these will inflate the size of the IFC file consequently. It is recommended to add standard property sets only if they are in use.&lt;/p>&lt;/b">
+      <trans-unit id="6679454" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC standard offers standard, predefined property sets for many object types. For example, the property set Pset_WallCommon contains properties that the IFC standard thinks all walls should have. This test will check that all BIM objects have the right property set, if available.&lt;/p&gt;&lt;p&gt;Note that this is by no means a formal requirement, and these will inflate the size of the IFC file consequently. It is recommended to add standard property sets only if they are in use.&lt;/p&gt;&lt;/b">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC standard offers standard, predefined property sets for many object types. For example, the property set Pset_WallCommon contains properties that the IFC standard thinks all walls should have. This test will check that all BIM objects have the right property set, if available.&lt;/p&gt;&lt;p&gt;Note that this is by no means a formal requirement, and these will inflate the size of the IFC file consequently. It is recommended to add standard property sets only if they are in use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC-standarden erbjuder standardiserade, fördefinierade egenskapsuppsättningar för många objekttyper. Egenskapsuppsättningen Pset_WallCommon innehåller till exempel egenskaper som IFC-standarden anser att alla väggar bör ha. Detta test kontrollerar att alla BIM-objekt har rätt egenskapsuppsättning, om sådan finns tillgänglig.&lt;/p&gt;&lt;p&gt;Observera att detta inte på något sätt är ett formellt krav och att IFC-filens storlek därför kommer att öka. Vi rekommenderar att man endast lägger till standardegenskaper om de används.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3249,7 +3249,7 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:273</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679456" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>IFC objects have a geometry representation, which defines the shape of the object, but can also have some or their dimensions, such as height, width or area, explicitly stated. This is very useful for BIM applications that do not process the geometry, such as spreadsheets. Those applications are still able to get and estimate quantities from IFC objects without the need to analyze the geometry.&lt;/p>&lt;p>It is also a possibility for errors (or even fraud), as nothing guarantees that ">
+      <trans-unit id="6679456" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC objects have a geometry representation, which defines the shape of the object, but can also have some or their dimensions, such as height, width or area, explicitly stated. This is very useful for BIM applications that do not process the geometry, such as spreadsheets. Those applications are still able to get and estimate quantities from IFC objects without the need to analyze the geometry.&lt;/p&gt;&lt;p&gt;It is also a possibility for errors (or even fraud), as nothing guarantees that ">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC objects have a geometry representation, which defines the shape of the object, but can also have some or their dimensions, such as height, width or area, explicitly stated. This is very useful for BIM applications that do not process the geometry, such as spreadsheets. Those applications are still able to get and estimate quantities from IFC objects without the need to analyze the geometry.&lt;/p&gt;&lt;p&gt;It is also a possibility for errors (or even fraud), as nothing guarantees that those explicitly stated dimensions match what is inside the geometry.&lt;/p&gt;&lt;p&gt;This test will find any BIM object that has available dimension properties such as width or height, for example walls and structures, but such properties are not marked for explicit export to IFC.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC-objekt har en geometrisk representation som definierar objektets form, men kan också ha vissa eller alla dimensioner, t.ex. höjd, bredd eller area, explicit angivna. Detta är mycket användbart för BIM-applikationer som inte bearbetar geometrin, t.ex. kalkylblad. Dessa applikationer kan fortfarande hämta och uppskatta kvantiteter från IFC-objekt utan att behöva analysera geometrin.&lt;/p&gt;&lt;p&gt;Det är också en möjlighet till fel (eller till och med bedrägeri), eftersom inget garanterar att de uttryckligen angivna dimensionerna matchar det som finns i geometrin.&lt;/p&gt;&lt;p&gt;Detta test kommer att hitta alla BIM-objekt som har tillgängliga dimensionsegenskaper som bredd eller höjd, till exempel väggar och strukturer, men sådana egenskaper är inte markerade för explicit export till IFC.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3257,7 +3257,7 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:286</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679460" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>Although there is no requirement for IFC objects to have a material defined, in the real world, it is an important layer of information to be added to the model. This test will find BIM objects without a material defined.&lt;/p>&lt;p>If a BIM object is exported without a material, it will nevertheless be assigned an IfcSurfaceStyle, which will be created from the object color. Some BIM applications disregard materials, and only consider the surface style of an object. No IfcMaterial wi">
+      <trans-unit id="6679460" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Although there is no requirement for IFC objects to have a material defined, in the real world, it is an important layer of information to be added to the model. This test will find BIM objects without a material defined.&lt;/p&gt;&lt;p&gt;If a BIM object is exported without a material, it will nevertheless be assigned an IfcSurfaceStyle, which will be created from the object color. Some BIM applications disregard materials, and only consider the surface style of an object. No IfcMaterial wi">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Although there is no requirement for IFC objects to have a material defined, in the real world, it is an important layer of information to be added to the model. This test will find BIM objects without a material defined.&lt;/p&gt;&lt;p&gt;If a BIM object is exported without a material, it will nevertheless be assigned an IfcSurfaceStyle, which will be created from the object color. Some BIM applications disregard materials, and only consider the surface style of an object. No IfcMaterial will be attributed to that object.&lt;/p&gt;&lt;p&gt;If a BIM object has a material defined, a surface style will still be created (an IfcMaterial too), but its surface style will take the same name and properties as the material, thus giving more consistency to the file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Även om det inte finns något krav på att IFC-objekt ska ha ett material definierat, är det i den verkliga världen ett viktigt informationslager som ska läggas till i modellen. Detta test kommer att hitta BIM-objekt utan ett definierat material.&lt;/p&gt;&lt;p&gt;Om ett BIM-objekt exporteras utan ett material kommer det ändå att tilldelas en IfcSurfaceStyle, som skapas utifrån objektets färg. Vissa BIM-applikationer bortser från material och tar bara hänsyn till objektets ytstil. Inget IfcMaterial kommer att tilldelas det objektet.&lt;/p&gt;&lt;p&gt;Om ett BIM-objekt har ett definierat material skapas ändå en ytstil (ett IfcMaterial också), men ytstilen får samma namn och egenskaper som materialet, vilket gör filen mer konsekvent.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3273,7 +3273,7 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:302</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6651004" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>Even if a BIM object has a standard property set for its type attributed, there is no guarantee that this property set still contains or only contains all the properties that the IFC standard has defined for that set. They might have been modified after the property set has been added.&lt;/p>&lt;p>This test will check that all standard property sets found throughout the model contain all and only the properties specified in the standard definition.&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6651004" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Even if a BIM object has a standard property set for its type attributed, there is no guarantee that this property set still contains or only contains all the properties that the IFC standard has defined for that set. They might have been modified after the property set has been added.&lt;/p&gt;&lt;p&gt;This test will check that all standard property sets found throughout the model contain all and only the properties specified in the standard definition.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Even if a BIM object has a standard property set for its type attributed, there is no guarantee that this property set still contains or only contains all the properties that the IFC standard has defined for that set. They might have been modified after the property set has been added.&lt;/p&gt;&lt;p&gt;This test will check that all standard property sets found throughout the model contain all and only the properties specified in the standard definition.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Även om ett BIM-objekt har en standardegenskapsuppsättning för sin typ attribuerad, finns det ingen garanti för att denna egenskapsuppsättning fortfarande innehåller eller endast innehåller alla de egenskaper som IFC-standarden har definierat för den uppsättningen. De kan ha ändrats efter att egenskapsuppsättningen har lagts till.&lt;/p&gt;&lt;p&gt;Detta test kommer att kontrollera att alla standardegenskapsuppsättningar som finns i hela modellen innehåller alla och endast de egenskaper som anges i standarddefinitionen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3297,7 +3297,7 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:349</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6651010" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>The geometry of IFC objects can be defined in a large number of ways, such as extrusions, subtractions, revolutions, or even faceted objects.&lt;/p>&lt;p>However, extrusions of flat shapes, which is the most basic and common type, often offer advantages over other types in other BIM applications.&lt;/p>&lt;p>This test will find any object that cannot be exported to IFC as an extrusion, or as a shared extrusion (clone).&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6651010" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The geometry of IFC objects can be defined in a large number of ways, such as extrusions, subtractions, revolutions, or even faceted objects.&lt;/p&gt;&lt;p&gt;However, extrusions of flat shapes, which is the most basic and common type, often offer advantages over other types in other BIM applications.&lt;/p&gt;&lt;p&gt;This test will find any object that cannot be exported to IFC as an extrusion, or as a shared extrusion (clone).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The geometry of IFC objects can be defined in a large number of ways, such as extrusions, subtractions, revolutions, or even faceted objects.&lt;/p&gt;&lt;p&gt;However, extrusions of flat shapes, which is the most basic and common type, often offer advantages over other types in other BIM applications.&lt;/p&gt;&lt;p&gt;This test will find any object that cannot be exported to IFC as an extrusion, or as a shared extrusion (clone).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC-objektens geometri kan definieras på ett stort antal olika sätt, t.ex. som profiler, subtraktioner, revolutioner eller till och med fasetterade objekt.&lt;/p&gt;&lt;p&gt;Profiler av platta former, som är den mest grundläggande och vanligaste typen, erbjuder dock ofta fördelar jämfört med andra typer i andra BIM-applikationer.&lt;/p&gt;&lt;p&gt;Detta test kommer att hitta alla objekt som inte kan exporteras till IFC som en profil eller som en delad profil (klon).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3313,7 +3313,7 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:365</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679478" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>Walls, columns and beams in FreeCAD can be constructed in a wide number of ways, but some simpler BIM applications might have difficulties with walls that are not of the most simple type. That is, a single, straight piece of wall (which correspond to the IfcWallStandardCase type) or beams and columns that are not based on a straight extrusion of a flat profile (BeamStandardCase, ColumnStandardCase)&lt;/p>&lt;p>This test will find any wall which is not such a standard case.&lt;/p>&lt;p>&lt;span ">
+      <trans-unit id="6679478" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Walls, columns and beams in FreeCAD can be constructed in a wide number of ways, but some simpler BIM applications might have difficulties with walls that are not of the most simple type. That is, a single, straight piece of wall (which correspond to the IfcWallStandardCase type) or beams and columns that are not based on a straight extrusion of a flat profile (BeamStandardCase, ColumnStandardCase)&lt;/p&gt;&lt;p&gt;This test will find any wall which is not such a standard case.&lt;/p&gt;&lt;p&gt;&lt;span ">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Walls, columns and beams in FreeCAD can be constructed in a wide number of ways, but some simpler BIM applications might have difficulties with walls that are not of the most simple type. That is, a single, straight piece of wall (which correspond to the IfcWallStandardCase type) or beams and columns that are not based on a straight extrusion of a flat profile (BeamStandardCase, ColumnStandardCase)&lt;/p&gt;&lt;p&gt;This test will find any wall which is not such a standard case.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Note&lt;/span&gt;: At the moment, BIM objects that meet the requirements to be of a standard case, are still exported as IfcWall, IfcBeam, IfcColumn.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Väggar, pelare och balkar i FreeCAD kan konstrueras på ett stort antal olika sätt, men vissa enklare BIM-applikationer kan ha svårt att hantera väggar som inte är av den enklaste typen. Det vill säga ett enda, rakt väggstycke (som motsvarar typen IfcWallStandardCase) eller balkar och pelare som inte är baserade på en rak extrudering av en platt profil (BeamStandardCase, ColumnStandardCase)&lt;/p&gt;&lt;p&gt;Detta test kommer att hitta alla väggar som inte är ett sådant standardfall.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Obs&lt;/span&gt;: För närvarande exporteras BIM-objekt som uppfyller kraven för att vara ett standardfall fortfarande som IfcWall, IfcBeam, IfcColumn.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3321,7 +3321,7 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:375</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679482" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>When exporting a model to IFC, all BIM objects that are an extrusion of a rectangular profile will use an IfcRectangleProfileDef entity as their extrusion profile. However, Revit will not import these correctly. If using the IFC file in Revit, it is recommended to disable this behavior by checking the option under menu &lt;span style=&quot; font-weight:600;&quot;>Edit -&amp;gt; Preferences -&amp;gt; BIM -&amp;gt; Native IFC -&amp;gt; Disable IfcRectangularProfileDef&lt;/span>.&lt;/p>&lt;p>When that option is checked,">
+      <trans-unit id="6679482" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When exporting a model to IFC, all BIM objects that are an extrusion of a rectangular profile will use an IfcRectangleProfileDef entity as their extrusion profile. However, Revit will not import these correctly. If using the IFC file in Revit, it is recommended to disable this behavior by checking the option under menu &lt;span style=&quot; font-weight:600;&quot;&gt;Edit -&amp;gt; Preferences -&amp;gt; BIM -&amp;gt; Native IFC -&amp;gt; Disable IfcRectangularProfileDef&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;When that option is checked,">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When exporting a model to IFC, all BIM objects that are an extrusion of a rectangular profile will use an IfcRectangleProfileDef entity as their extrusion profile. However, Revit will not import these correctly. If using the IFC file in Revit, it is recommended to disable this behavior by checking the option under menu &lt;span style=" font-weight:600;"&gt;Edit -&amp;gt; Preferences -&amp;gt; BIM -&amp;gt; Native IFC -&amp;gt; Disable IfcRectangularProfileDef&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;When that option is checked, all extrusion profiles will be exported as generic IfcArbitraryProfileDef entities, regardless of if they are rectangular or not, which will contain a little less information, but will open correctly in Revit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vid export av en modell till IFC kommer alla BIM-objekt som är en extrudering av en rektangulär profil att använda en IfcRectangleProfileDef-entitet som sin extruderingsprofil. Revit kommer dock inte att importera dessa korrekt. Om du använder IFC-filen i Revit rekommenderas att du inaktiverar detta beteende genom att markera alternativet under menyn &lt;span style=" font-weight:600;"&gt;Edit -&amp;gt; Preferences -&amp;gt; BIM -&amp;gt; Native IFC -&amp;gt; Disable IfcRectangularProfileDef&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;När det alternativet är markerat kommer alla profiler att exporteras som generiska IfcArbitraryProfileDef-enheter, oavsett om de är rektangulära eller inte, vilket kommer att innehålla lite mindre information, men öppnas korrekt i Revit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3337,7 +3337,7 @@ Please fix it</note>
 ../ui/dialogPreflight.ui:378</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6651018" resname="Form['&lt;html>&lt;head/>&lt;body>&lt;p>Revit discards all objects that contain lines smaller than 1/32 inch (0.8mm). This test will find any object containing lines smaller than that value.&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6651018" resname="Form['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Revit discards all objects that contain lines smaller than 1/32 inch (0.8mm). This test will find any object containing lines smaller than that value.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Revit discards all objects that contain lines smaller than 1/32 inch (0.8mm). This test will find any object containing lines smaller than that value.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Revit kasserar alla objekt som innehåller linjer som är mindre än 0,8 mm (1/32 tum). Detta test hittar alla objekt som innehåller linjer som är mindre än detta värde.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -3394,7 +3394,7 @@ Please fix it</note>
 ../ui/dialogTutorial.ui:14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6679512" resname="Form['&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#10;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Fira Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Loading tutorial contents from the FreeCAD wiki. Please wait…&lt;/p>&#10;&lt;p style=&quot;-qt">
+      <trans-unit id="6679512" resname="Form['&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Fira Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Loading tutorial contents from the FreeCAD wiki. Please wait…&lt;/p&gt;&#10;&lt;p style=&quot;-qt">
         <source>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
@@ -3457,7 +3457,7 @@ p, li { blanksteg: pre-wrap; }
 ../ui/dialogTutorial.ui:90</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6651048" resname="Form['Next >>']">
+      <trans-unit id="6651048" resname="Form['Next &gt;&gt;']">
         <source>Next &gt;&gt;</source>
         <target state="translated">Nästa &gt;&gt;</target>
         <context-group purpose="information">
@@ -5700,7 +5700,7 @@ enhet att arbeta med när filen öppnas.</target>
 ../ui/preferences-ifc-export.ui:345</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6680128" resname="Gui::Dialog::DlgSettingsArch['Check also native-IFC-specific preferences under BIM -> Native IFC']">
+      <trans-unit id="6680128" resname="Gui::Dialog::DlgSettingsArch['Check also native-IFC-specific preferences under BIM -&gt; Native IFC']">
         <source>Check also native-IFC-specific preferences under BIM -&gt; Native IFC</source>
         <target state="translated">Kontrollera även native-IFC-specifika inställningar under BIM -&gt; Native IFC</target>
         <context-group purpose="information">
@@ -5932,7 +5932,7 @@ En byggnadsvåning är inte obligatorisk men en vanlig praxis är att ha minst e
 ../ui/preferences-webgl.ui:14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6680266" resname="Gui::Dialog::DlgSettingsArch['A custom WebGL HTML template is used for export. Otherwise, the default template will be used.&#10;&#10;The default template is located at:&#10;&lt;FreeCAD installation directory>/Resources/Mod/BIM/templates/webgl_export_template.html ']">
+      <trans-unit id="6680266" resname="Gui::Dialog::DlgSettingsArch['A custom WebGL HTML template is used for export. Otherwise, the default template will be used.&#10;&#10;The default template is located at:&#10;&lt;FreeCAD installation directory&gt;/Resources/Mod/BIM/templates/webgl_export_template.html ']">
         <source>A custom WebGL HTML template is used for export. Otherwise, the default template will be used.
 
 The default template is located at:
@@ -15257,7 +15257,7 @@ CTRL+PgUp för att förlänga profilenCTRL+PgDown för att krympa profilenCTRL+/
       </trans-unit>
       <trans-unit id="6682398" resname="BIM['ifcopenshell is not installed on the system or not available to FreeCAD. This library is responsible for IFC support in FreeCAD, and therefore IFC support is currently disabled. Check %1 to obtain more information.']">
         <source>ifcopenshell is not installed on the system or not available to FreeCAD. This library is responsible for IFC support in FreeCAD, and therefore IFC support is currently disabled. Check %1 to obtain more information.</source>
-        <target state="translated">ifcopenshell är inte installerat på systemet eller inte tillgängligt för FreeCAD. Detta bibliotek ansvarar för IFC-stödet i FreeCAD, och därför är IFC-stödet för närvarande inaktiverat. Kontrollera %1 för att få mer information.</target>
+        <target state="translated">ifcopenshell är inte installerat på systemet eller inte tillgängligt för FreeCAD. Biblioteket ansvarar för IFC-stödet i FreeCAD och därför är IFC-stödet för närvarande inaktiverat. Se %1 för mer information.</target>
         <context-group purpose="information">
           <context context-type="source">BIM
 ../../bimcommands/BimPreflight.py:319</context>
@@ -15281,7 +15281,7 @@ CTRL+PgUp för att förlänga profilenCTRL+PgDown för att krympa profilenCTRL+/
       </trans-unit>
       <trans-unit id="6682404" resname="BIM['The following building objects have been found to not be included in any Site. You can resolve the situation by creating a Site object, if none is present in your model, and drag and drop the building objects into it in the tree view:']">
         <source>The following building objects have been found to not be included in any Site. You can resolve the situation by creating a Site object, if none is present in your model, and drag and drop the building objects into it in the tree view:</source>
-        <target state="translated">Följande byggnadsobjekt har visat sig inte ingå i någon Site. Du kan lösa situationen genom att skapa ett Site-objekt, om det inte finns något sådant i din modell, och dra och släppa byggnadsobjekten till det i trädvyn:</target>
+        <target state="translated">Följande byggnadsobjekt ingår inte i någon Site. Du kan lösa detta genom att skapa ett Site-objekt om det saknas i modellen och dra byggnadsobjekten till det i trädvyn:</target>
         <context-group purpose="information">
           <context context-type="source">BIM
 ../../bimcommands/BimPreflight.py:471</context>
@@ -15289,7 +15289,7 @@ CTRL+PgUp för att förlänga profilenCTRL+PgDown för att krympa profilenCTRL+/
       </trans-unit>
       <trans-unit id="6682406" resname="BIM['The following building storey (building parts with their IFC role set as &quot;building storey&quot;) objects have been found to not be included in any building. Resolve the situation by creating a building object, if none is present in the model, and drag and drop the building storey objects into it in the tree view:']">
         <source>The following building storey (building parts with their IFC role set as "building storey") objects have been found to not be included in any building. Resolve the situation by creating a building object, if none is present in the model, and drag and drop the building storey objects into it in the tree view:</source>
-        <target state="translated">Följande building storey-objekt (byggnadsdelar med IFC-rollen "building storey") har visat sig inte ingå i någon byggnad. Lös situationen genom att skapa ett byggnadsobjekt, om det inte finns något sådant i modellen, och dra och släpp byggnadsvåningsobjekten till det i trädvyn:</target>
+        <target state="translated">Följande objekt för byggnadsvåning (byggnadsdelar med IFC-rollen ”building storey”) ingår inte i någon byggnad. Lös detta genom att skapa ett byggnadsobjekt om det saknas i modellen och dra objekten för byggnadsvåning till det i trädvyn:</target>
         <context-group purpose="information">
           <context context-type="source">BIM
 ../../bimcommands/BimPreflight.py:521</context>
@@ -15297,7 +15297,7 @@ CTRL+PgUp för att förlänga profilenCTRL+PgDown för att krympa profilenCTRL+/
       </trans-unit>
       <trans-unit id="6682408" resname="BIM['The following BIM objects have been found to not be included in any building storey (building parts with their IFC role set as &quot;building storey&quot;). Resolve the situation by creating a building storey object, if none is present in the model, and drag and drop these objects into it in the tree view:']">
         <source>The following BIM objects have been found to not be included in any building storey (building parts with their IFC role set as "building storey"). Resolve the situation by creating a building storey object, if none is present in the model, and drag and drop these objects into it in the tree view:</source>
-        <target state="translated">Följande BIM-objekt har visat sig inte ingå i någon byggnadsetage (byggnadsdelar med sin IFC-roll inställd som "byggnadsetage"). Lös situationen genom att skapa ett objekt för byggnadsvåning, om det inte finns något sådant i modellen, och dra och släpp dessa objekt till det i trädvyn:</target>
+        <target state="translated">Följande BIM-objekt ingår inte i någon byggnadsvåning (byggnadsdelar med IFC-rollen ”building storey”). Lös detta genom att skapa ett objekt för byggnadsvåning om det saknas i modellen och dra objekten till det i trädvyn:</target>
         <context-group purpose="information">
           <context context-type="source">BIM
 ../../bimcommands/BimPreflight.py:582</context>
@@ -15311,7 +15311,7 @@ CTRL+PgUp för att förlänga profilenCTRL+PgDown för att krympa profilenCTRL+/
 ../../bimcommands/BimPreflight.py:724</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6682412" resname="BIM['To enable exporting of these quantities, use the IFC quantities manager tool located under menu Manage -> Manage IFC Quantities']">
+      <trans-unit id="6682412" resname="BIM['To enable exporting of these quantities, use the IFC quantities manager tool located under menu Manage -&gt; Manage IFC Quantities']">
         <source>To enable exporting of these quantities, use the IFC quantities manager tool located under menu Manage -&gt; Manage IFC Quantities</source>
         <target state="translated">För att möjliggöra export av dessa kvantiteter använder du verktyget för hantering av IFC-kvantiteter som finns i menyn Hantera -&gt; Hantera IFC-kvantiteter</target>
         <context-group purpose="information">
@@ -15319,7 +15319,7 @@ CTRL+PgUp för att förlänga profilenCTRL+PgDown för att krympa profilenCTRL+/
 ../../bimcommands/BimPreflight.py:732</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6682414" resname="BIM['To add common property sets to these objects, use the IFC properties manager tool located under menu Manage -> Manage IFC Properties']">
+      <trans-unit id="6682414" resname="BIM['To add common property sets to these objects, use the IFC properties manager tool located under menu Manage -&gt; Manage IFC Properties']">
         <source>To add common property sets to these objects, use the IFC properties manager tool located under menu Manage -&gt; Manage IFC Properties</source>
         <target state="translated">För att lägga till gemensamma egenskapssatser till dessa objekt använder du verktyget IFC properties manager som finns under menyn Manage -&gt; Manage IFC Properties</target>
         <context-group purpose="information">
@@ -15327,7 +15327,7 @@ CTRL+PgUp för att förlänga profilenCTRL+PgDown för att krympa profilenCTRL+/
 ../../bimcommands/BimPreflight.py:808</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6682416" resname="BIM['To fix the property sets of these objects, use the IFC properties manager tool located under menu Manage -> Manage IFC Properties']">
+      <trans-unit id="6682416" resname="BIM['To fix the property sets of these objects, use the IFC properties manager tool located under menu Manage -&gt; Manage IFC Properties']">
         <source>To fix the property sets of these objects, use the IFC properties manager tool located under menu Manage -&gt; Manage IFC Properties</source>
         <target state="translated">För att åtgärda egenskaperna för dessa objekt använder du verktyget IFC properties manager som finns under menyn Manage -&gt; Manage IFC Properties</target>
         <context-group purpose="information">
@@ -15367,7 +15367,7 @@ CTRL+PgUp för att förlänga profilenCTRL+PgDown för att krympa profilenCTRL+/
 ../../bimcommands/BimPreflight.py:636</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6663854" resname="BIM['You can turn these objects into BIM objects by using the Modify -> Add Component tool.']">
+      <trans-unit id="6663854" resname="BIM['You can turn these objects into BIM objects by using the Modify -&gt; Add Component tool.']">
         <source>You can turn these objects into BIM objects by using the Modify -&gt; Add Component tool.</source>
         <target state="translated">Du kan omvandla dessa objekt till BIM-objekt genom att använda verktyget Modify -&gt; Add Component.</target>
         <context-group purpose="information">
@@ -15447,7 +15447,7 @@ CTRL+PgUp för att förlänga profilenCTRL+PgDown för att krympa profilenCTRL+/
 ../../bimcommands/BimPreflight.py:1116</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6652148" resname="BIM['Tip: The results are best viewed in Wireframe mode (menu Views -> Draw Style -> Wireframe)']">
+      <trans-unit id="6652148" resname="BIM['Tip: The results are best viewed in Wireframe mode (menu Views -&gt; Draw Style -&gt; Wireframe)']">
         <source>Tip: The results are best viewed in Wireframe mode (menu Views -&gt; Draw Style -&gt; Wireframe)</source>
         <target state="translated">Tips: Resultaten visas bäst i Wireframe-läge (meny Views -&gt; Draw Style -&gt; Wireframe)</target>
         <context-group purpose="information">
@@ -15598,7 +15598,7 @@ CTRL+PgUp för att förlänga profilenCTRL+PgDown för att krympa profilenCTRL+/
 ../../bimcommands/BimSetup.py:139</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6682428" resname="BIM['Install them from menu Tools -> Addon Manager.']">
+      <trans-unit id="6682428" resname="BIM['Install them from menu Tools -&gt; Addon Manager.']">
         <source>Install them from menu Tools -&gt; Addon Manager.</source>
         <target state="translated">Installera dem från menyn Verktyg -&gt; Addon Manager.</target>
         <context-group purpose="information">
@@ -16072,7 +16072,7 @@ CTRL+PgUp för att förlänga profilenCTRL+PgDown för att krympa profilenCTRL+/
       </trans-unit>
       <trans-unit id="6673160" resname="BIM['Error: Incompatible type']">
         <source>Error: Incompatible type</source>
-        <target state="translated">Fel: Fel: Inkompatibel typ</target>
+        <target state="translated">Fel: Inkompatibel typ</target>
         <context-group purpose="information">
           <context context-type="source">BIM
 ../../nativeifc/ifc_types.py:164</context>
@@ -16136,7 +16136,7 @@ CTRL+PgUp för att förlänga profilenCTRL+PgDown för att krympa profilenCTRL+/
 ../../importers/importSH3DHelper.py:505</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6682470" resname="BIM['Type of &lt;{elm.tag}> #{i} is not supported: '{attribute}'. Skipping!']">
+      <trans-unit id="6682470" resname="BIM['Type of &lt;{elm.tag}&gt; #{i} is not supported: '{attribute}'. Skipping!']">
         <source>Type of &lt;{elm.tag}&gt; #{i} is not supported: '{attribute}'. Skipping!</source>
         <target state="translated">Typ av &lt;{elm.tag}&gt; #{i} stöds inte: '{attribute}'. Hoppar över!</target>
         <context-group purpose="information">
@@ -17308,7 +17308,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:159</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6652594" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>Default line width. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>Display &amp;gt; Part colors &amp;gt; Default line width, Draft &amp;gt; Visual settings &amp;gt; Default line width&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6652594" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Default line width. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;Display &amp;gt; Part colors &amp;gt; Default line width, Draft &amp;gt; Visual settings &amp;gt; Default line width&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Default line width. Location in preferences: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Part colors &amp;gt; Default line width, Draft &amp;gt; Visual settings &amp;gt; Default line width&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Standard linjebredd. Plats i inställningar: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Delfärger &amp;gt; Standardlinjebredd, Utkast &amp;gt; Visuella inställningar &amp;gt; Standardlinjebredd&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17372,7 +17372,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:223</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6652614" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>Default font. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>Draft &amp;gt; Texts and dimensions &amp;gt; Font family, TechDraw &amp;gt; TechDraw 1 &amp;gt; Label Font&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6652614" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Default font. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;Draft &amp;gt; Texts and dimensions &amp;gt; Font family, TechDraw &amp;gt; TechDraw 1 &amp;gt; Label Font&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Default font. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; Texts and dimensions &amp;gt; Font family, TechDraw &amp;gt; TechDraw 1 &amp;gt; Label Font&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Standardteckensnitt. Plats i inställningar: &lt;span style=" font-weight:600;"&gt;Utkast &amp;gt; Texter och dimensioner &amp;gt; Teckensnittsfamilj, TechDraw &amp;gt; TechDraw 1 &amp;gt; Etikettens teckensnitt&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17381,7 +17381,7 @@ You can freely translate each duplicate separately.</note>
         </context-group>
         <note from="david69" priority="4">what is TechDraw 1?</note>
       </trans-unit>
-      <trans-unit id="6652616" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>Default dimension arrow size. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>TechDraw &amp;gt; TechDraw 2 &amp;gt; Arrow size, Draft &amp;gt; Texts and dimensions &amp;gt; Arrow size&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6652616" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Default dimension arrow size. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;TechDraw &amp;gt; TechDraw 2 &amp;gt; Arrow size, Draft &amp;gt; Texts and dimensions &amp;gt; Arrow size&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Default dimension arrow size. Location in preferences: &lt;span style=" font-weight:600;"&gt;TechDraw &amp;gt; TechDraw 2 &amp;gt; Arrow size, Draft &amp;gt; Texts and dimensions &amp;gt; Arrow size&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Standarddimension pilstorlek. Plats i inställningar: &lt;span style=" font-weight:600;"&gt;TechDraw &amp;gt; TechDraw 2 &amp;gt; Pilstorlek, Utkast &amp;gt; Texter och dimensioner &amp;gt; Pilstorlek&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17390,9 +17390,9 @@ You can freely translate each duplicate separately.</note>
         </context-group>
         <note from="david69" priority="4">what is TechDraw 2?</note>
       </trans-unit>
-      <trans-unit id="6682678" resname="BIMSetupDialog['This dialog will help set FreeCAD up for efficient BIM workflow by setting a couple FreeCAD options. This dialog can be accessed again anytime from menu Manage -> Setup, and more options are available under the edit -> preferences menu.']">
+      <trans-unit id="6682678" resname="BIMSetupDialog['This dialog will help set FreeCAD up for efficient BIM workflow by setting a couple FreeCAD options. This dialog can be accessed again anytime from menu Manage -&gt; Setup, and more options are available under the edit -&gt; preferences menu.']">
         <source>This dialog will help set FreeCAD up for efficient BIM workflow by setting a couple FreeCAD options. This dialog can be accessed again anytime from menu Manage -&gt; Setup, and more options are available under the edit -&gt; preferences menu.</source>
-        <target state="translated">Denna dialog hjälper till att ställa in FreeCAD för ett effektivt BIM-arbetsflöde genom att ställa in ett par FreeCAD-alternativ. Den här dialogen kan nås igen när som helst från menyn Hantera -&gt; Inställningar, och fler alternativ finns tillgängliga under menyn Redigera -&gt; Inställningar.</target>
+        <target state="translated">Den här dialogrutan hjälper dig att konfigurera FreeCAD för ett effektivt BIM-arbetsflöde genom att ange några FreeCAD-inställningar. Dialogrutan kan öppnas igen från Hantera → Inställningar och fler alternativ finns under Redigera → Inställningar.</target>
         <context-group purpose="information">
           <context context-type="source">BIMSetupDialog
 ../ui/dialogSetup.ui:23</context>
@@ -17430,7 +17430,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:100</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6682688" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>The preferred unit that will be used everywhere: in dialogs, measurements and dimensions. However, any other unit can be entered anytime. Changing the default unit system anytime will not cause any modification to the model. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>General &amp;gt; Default unit system&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6682688" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The preferred unit that will be used everywhere: in dialogs, measurements and dimensions. However, any other unit can be entered anytime. Changing the default unit system anytime will not cause any modification to the model. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;General &amp;gt; Default unit system&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The preferred unit that will be used everywhere: in dialogs, measurements and dimensions. However, any other unit can be entered anytime. Changing the default unit system anytime will not cause any modification to the model. Location in preferences: &lt;span style=" font-weight:600;"&gt;General &amp;gt; Default unit system&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Den föredragna enheten som kommer att användas överallt: i dialoger, mätningar och dimensioner. Det går dock att ange en annan enhet när som helst. Om du när som helst ändrar det förvalda enhetssystemet kommer det inte att medföra några ändringar i modellen. Plats i inställningarna: &lt;span style=" font-weight:600;"&gt;Allmänt &amp;gt; Standard enhetssystem&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17470,7 +17470,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:144</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6682698" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>The number of decimals preferred in the interface controls and measurements. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>General &amp;gt; Units &amp;gt; Number of decimals&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6682698" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The number of decimals preferred in the interface controls and measurements. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;General &amp;gt; Units &amp;gt; Number of decimals&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The number of decimals preferred in the interface controls and measurements. Location in preferences: &lt;span style=" font-weight:600;"&gt;General &amp;gt; Units &amp;gt; Number of decimals&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Det antal decimaler som föredras i gränssnittets kontroller och mätningar. Plats i inställningarna: &lt;span style=" font-weight:600;"&gt;Allmänt &amp;gt; Enheter &amp;gt; Antal decimaler&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17478,7 +17478,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:166</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6652618" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>Default dimension style. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>Draft &amp;gt; Texts and dimensions &amp;gt; Arrow style, TechDraw &amp;gt; TechDraw 2 &amp;gt; Arrow Style&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6652618" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Default dimension style. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;Draft &amp;gt; Texts and dimensions &amp;gt; Arrow style, TechDraw &amp;gt; TechDraw 2 &amp;gt; Arrow Style&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Default dimension style. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; Texts and dimensions &amp;gt; Arrow style, TechDraw &amp;gt; TechDraw 2 &amp;gt; Arrow Style&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Standard dimensionsstil. Plats i inställningar: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; Texter och mått &amp;gt; Pilstil, TechDraw &amp;gt; TechDraw 2 &amp;gt; Pilstil&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17519,7 +17519,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:208</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6688536" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>The default color of faces in the 3D view. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>Display &amp;gt; Part/Part Design Color &amp;gt; Shape Appearance &amp;gt; Shape color&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6688536" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default color of faces in the 3D view. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;Display &amp;gt; Part/Part Design Color &amp;gt; Shape Appearance &amp;gt; Shape color&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default color of faces in the 3D view. Location in preferences: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Part/Part Design Color &amp;gt; Shape Appearance &amp;gt; Shape color&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Standardfärgen för ansikten i 3D-vyn. Plats i inställningarna: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Design av del/del Färg &amp;gt; Form Utseende &amp;gt; Formfärg&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17551,7 +17551,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:377</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6688538" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>The default color for helper objects such as grids and axes. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>BIM  &amp;gt; Defaults &amp;gt; Helper colors&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6688538" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default color for helper objects such as grids and axes. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;BIM  &amp;gt; Defaults &amp;gt; Helper colors&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default color for helper objects such as grids and axes. Location in preferences: &lt;span style=" font-weight:600;"&gt;BIM  &amp;gt; Defaults &amp;gt; Helper colors&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Standardfärg för hjälpobjekt som t.ex. rutnät och axlar. Plats i inställningar: &lt;span style=" font-weight:600;"&gt;BIM &amp;gt; Standardinställningar &amp;gt; Hjälpfärger&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17567,7 +17567,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:391</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6688540" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>The default color of lines in the 3D view. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>Display &amp;gt; Part/Part Design Color &amp;gt; Shape Appearance &amp;gt; Default line color&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6688540" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default color of lines in the 3D view. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;Display &amp;gt; Part/Part Design Color &amp;gt; Shape Appearance &amp;gt; Default line color&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default color of lines in the 3D view. Location in preferences: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Part/Part Design Color &amp;gt; Shape Appearance &amp;gt; Default line color&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Standardfärgen för linjer i 3D-vyn. Plats i inställningarna: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Designfärg för del/del &amp;gt; Formutseende &amp;gt; Standardfärg för linjer&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17615,7 +17615,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:463</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6682722" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>Name (optional). You can also add an email address like this: John Doe &amp;lt;john@doe.com&amp;gt;. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>General &amp;gt; Document &amp;gt; Author name&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6682722" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Name (optional). You can also add an email address like this: John Doe &amp;lt;john@doe.com&amp;gt;. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;General &amp;gt; Document &amp;gt; Author name&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Name (optional). You can also add an email address like this: John Doe &amp;lt;john@doe.com&amp;gt;. Location in preferences: &lt;span style=" font-weight:600;"&gt;General &amp;gt; Document &amp;gt; Author name&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Namn (valfritt). Du kan också lägga till en e-postadress så här: John Doe &amp;lt;john@doe.com&amp;gt;. Plats i inställningarna: &lt;span style=" font-weight:600;"&gt;Allmänt &amp;gt; Dokument &amp;gt; Författarens namn&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17623,7 +17623,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:476</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6682724" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>Optional license to use for new files. Keep &amp;quot;All rights reserved&amp;quot; if no license is preferred. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>General &amp;gt; Document &amp;gt; Default license&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6682724" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Optional license to use for new files. Keep &amp;quot;All rights reserved&amp;quot; if no license is preferred. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;General &amp;gt; Document &amp;gt; Default license&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Optional license to use for new files. Keep &amp;quot;All rights reserved&amp;quot; if no license is preferred. Location in preferences: &lt;span style=" font-weight:600;"&gt;General &amp;gt; Document &amp;gt; Default license&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Valfri licens att använda för nya filer. Behåll &amp;quot;Alla rättigheter förbehållna&amp;quot; om ingen licens önskas. Plats i inställningarna: &lt;span style=" font-weight:600;"&gt;Allmänt &amp;gt; Dokument &amp;gt; Standardlicens&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17639,7 +17639,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:563</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6652630" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>How many small squares between each main line of the grid. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>Draft &amp;gt; Grid and snapping &amp;gt; Main line every&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6652630" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;How many small squares between each main line of the grid. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;Draft &amp;gt; Grid and snapping &amp;gt; Main line every&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;How many small squares between each main line of the grid. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; Grid and snapping &amp;gt; Main line every&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hur många små rutor mellan varje huvudlinje i rutnätet. Plats i inställningar: &lt;span style=" font-weight:600;"&gt;Utkast &amp;gt; Rutnät och snäppning &amp;gt; Huvudlinje varje&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17655,7 +17655,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:179</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6652634" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>The number of backup files to keep when saving a file. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>General &amp;gt; Document &amp;gt; Maximum number of backup files&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6652634" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The number of backup files to keep when saving a file. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;General &amp;gt; Document &amp;gt; Maximum number of backup files&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The number of backup files to keep when saving a file. Location in preferences: &lt;span style=" font-weight:600;"&gt;General &amp;gt; Document &amp;gt; Maximum number of backup files&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Antalet säkerhetskopior som ska sparas när en fil sparas. Plats i inställningarna: &lt;span style=" font-weight:600;"&gt;Allmänt &amp;gt; Dokument &amp;gt; Maximalt antal säkerhetskopior&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17679,7 +17679,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:320</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6652664" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>This is the size of the smallest square of the grid. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>Draft &amp;gt; Grid and snapping &amp;gt; Grid spacing&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6652664" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This is the size of the smallest square of the grid. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;Draft &amp;gt; Grid and snapping &amp;gt; Grid spacing&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This is the size of the smallest square of the grid. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; Grid and snapping &amp;gt; Grid spacing&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Detta är storleken på den minsta rutan i rutnätet. Plats i inställningarna: &lt;span style=" font-weight:600;"&gt;Utkast &amp;gt; Rutnät och snäppning &amp;gt; Rutnätsavstånd&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17687,7 +17687,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:334</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6663864" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>The default color of construction geometry. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>Draft &amp;gt; General &amp;gt; Construction geometry color&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6663864" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default color of construction geometry. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;Draft &amp;gt; General &amp;gt; Construction geometry color&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default color of construction geometry. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; General &amp;gt; Construction geometry color&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Standardfärgen för konstruktionsgeometri. Plats i inställningarna: &lt;span style=" font-weight:600;"&gt;Utkast &amp;gt; Allmänt &amp;gt; Färg för konstruktionsgeometri&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17695,7 +17695,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:349</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6657628" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>The default size of texts and dimension texts. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>Draft &amp;gt; Texts and dimensions &amp;gt; Font size, TechDraw &amp;gt; TechDraw 2 &amp;gt; Font size&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6657628" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default size of texts and dimension texts. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;Draft &amp;gt; Texts and dimensions &amp;gt; Font size, TechDraw &amp;gt; TechDraw 2 &amp;gt; Font size&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default size of texts and dimension texts. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; Texts and dimensions &amp;gt; Font size, TechDraw &amp;gt; TechDraw 2 &amp;gt; Font size&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Standardstorleken för texter och dimensionstexter. Plats i inställningar: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; Texter och mått &amp;gt; Fontstorlek, TechDraw &amp;gt; TechDraw 2 &amp;gt; Fontstorlek&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17712,7 +17712,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:499</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6682732" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>&lt;span style=&quot; font-weight:600;&quot;>Tip&lt;/span>: The appropriate snapping modes on the Snapping toolbar can be set. Enabling only the snap positions needed will make drawing in FreeCAD considerably faster.&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6682732" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tip&lt;/span&gt;: The appropriate snapping modes on the Snapping toolbar can be set. Enabling only the snap positions needed will make drawing in FreeCAD considerably faster.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Tip&lt;/span&gt;: The appropriate snapping modes on the Snapping toolbar can be set. Enabling only the snap positions needed will make drawing in FreeCAD considerably faster.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Tips&lt;/span&gt;: De lämpliga snäpplägena på verktygsfältet Snapping kan ställas in. Om du bara aktiverar de snap-positioner som behövs blir det betydligt snabbare att rita i FreeCAD.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17720,7 +17720,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:603</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6682734" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>&lt;b>Tip&lt;/b>: The currently installed FreeCAD version is %1. Consider using the &lt;a href=&quot;https://github.com/FreeCAD/FreeCAD/releases&quot;>&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;>latest development version %2&lt;/span>&lt;/a>, which brings all the latest improvements to FreeCAD.&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6682734" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Tip&lt;/b&gt;: The currently installed FreeCAD version is %1. Consider using the &lt;a href=&quot;https://github.com/FreeCAD/FreeCAD/releases&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;latest development version %2&lt;/span&gt;&lt;/a&gt;, which brings all the latest improvements to FreeCAD.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Tip&lt;/b&gt;: The currently installed FreeCAD version is %1. Consider using the &lt;a href="https://github.com/FreeCAD/FreeCAD/releases"&gt;&lt;span style=" text-decoration: underline; color:#0000ff;"&gt;latest development version %2&lt;/span&gt;&lt;/a&gt;, which brings all the latest improvements to FreeCAD.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Tips&lt;/b&gt;: Den aktuella installerade FreeCAD-versionen är %1. Överväg att använda den &lt;a href="https://github.com/FreeCAD/FreeCAD/releases"&gt;&lt;span style=" text-decoration: underline; color:#0000ff;"&gt;senaste utvecklingsversionen %2&lt;/span&gt;&lt;/a&gt;som ger alla de senaste förbättringarna av FreeCAD.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17770,7 +17770,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:216</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6657630" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>Check this to make FreeCAD start with a new blank document. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>General &amp;gt; Document &amp;gt; Create new document at startup&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6657630" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Check this to make FreeCAD start with a new blank document. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;General &amp;gt; Document &amp;gt; Create new document at startup&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Check this to make FreeCAD start with a new blank document. Location in preferences: &lt;span style=" font-weight:600;"&gt;General &amp;gt; Document &amp;gt; Create new document at startup&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Markera detta för att FreeCAD ska börja med ett nytt tomt dokument. Plats i preferenser: &lt;span style=" font-weight:600;"&gt;Allmänt &amp;gt; Dokument &amp;gt; Skapa nytt dokument vid start&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17786,7 +17786,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:405</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6652712" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>The top color of the 3D view background gradient. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>Display &amp;gt; Colors &amp;gt; Color gradient&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6652712" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The top color of the 3D view background gradient. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;Display &amp;gt; Colors &amp;gt; Color gradient&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The top color of the 3D view background gradient. Location in preferences: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Colors &amp;gt; Color gradient&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Den översta färgen i bakgrundsgradienten för 3D-vyn. Plats i inställningarna: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Färger &amp;gt; Färggradient&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17794,7 +17794,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:412</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6652716" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>The bottom color of the 3D view background gradient. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>Display &amp;gt; Colors &amp;gt; Color gradient&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6652716" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The bottom color of the 3D view background gradient. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;Display &amp;gt; Colors &amp;gt; Color gradient&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The bottom color of the 3D view background gradient. Location in preferences: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Colors &amp;gt; Color gradient&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Den nedre färgen på bakgrundsgradienten för 3D-vyn. Plats i inställningarna: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Färger &amp;gt; Färggradient&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17802,7 +17802,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:426</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6663870" resname="BIMSetupDialog['&lt;html>&lt;head/>&lt;body>&lt;p>Where the grid appears at FreeCAD startup. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;>Draft &amp;gt; General &amp;gt; Default working plane&lt;/span>&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6663870" resname="BIMSetupDialog['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Where the grid appears at FreeCAD startup. Location in preferences: &lt;span style=&quot; font-weight:600;&quot;&gt;Draft &amp;gt; General &amp;gt; Default working plane&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Where the grid appears at FreeCAD startup. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; General &amp;gt; Default working plane&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Var rutnätet visas vid FreeCAD-start. Plats i preferenser: &lt;span style=" font-weight:600;"&gt;Utkast &amp;gt; Allmänt &amp;gt; Standard arbetsplan&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -17834,7 +17834,7 @@ You can freely translate each duplicate separately.</note>
 ../ui/dialogSetup.ui:267</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6652736" resname="BIMSetupDialog['&lt;b>IfcOpenShell&lt;/b> is missing on your system. IfcOpenShell is needed to import or export IFC files to/from FreeCAD. Check &lt;a href=&quot;https://www.freecadweb.org/wiki/Arch_IFC&quot;>this wiki page&lt;/a> to know more, or &lt;a href=&quot;#install&quot;>download and install it&lt;/a> directly.&lt;/p>']">
+      <trans-unit id="6652736" resname="BIMSetupDialog['&lt;b&gt;IfcOpenShell&lt;/b&gt; is missing on your system. IfcOpenShell is needed to import or export IFC files to/from FreeCAD. Check &lt;a href=&quot;https://www.freecadweb.org/wiki/Arch_IFC&quot;&gt;this wiki page&lt;/a&gt; to know more, or &lt;a href=&quot;#install&quot;&gt;download and install it&lt;/a&gt; directly.&lt;/p&gt;']">
         <source>&lt;b&gt;IfcOpenShell&lt;/b&gt; is missing on your system. IfcOpenShell is needed to import or export IFC files to/from FreeCAD. Check &lt;a href="https://www.freecadweb.org/wiki/Arch_IFC"&gt;this wiki page&lt;/a&gt; to know more, or &lt;a href="#install"&gt;download and install it&lt;/a&gt; directly.&lt;/p&gt;</source>
         <target state="translated">&lt;b&gt;IfcOpenShell&lt;/b&gt; saknas på ditt system. IfcOpenShell behövs för att importera eller exportera IFC-filer till/från FreeCAD. Läs mer på &lt;a href="https://www.freecadweb.org/wiki/Arch_IFC"&gt;den här wiki-sidan&lt;/a&gt; eller &lt;a href="#install"&gt;ladda ner och installera det&lt;/a&gt; direkt.&lt;/p&gt;</target>
         <context-group purpose="information">
@@ -18407,7 +18407,7 @@ markera både vyn och sidan innan du utför kommandot.</target>
 ../ui/dialogClassification.ui:198</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6682912" resname="bimDialogClassification['XML or IFC files of several classification systems can be downloaded from &lt;a href=&quot;https://github.com/Moult/IfcClassification&quot;>https://github.com/Moult/IfcClassification&lt;/a> and placed in %s']">
+      <trans-unit id="6682912" resname="bimDialogClassification['XML or IFC files of several classification systems can be downloaded from &lt;a href=&quot;https://github.com/Moult/IfcClassification&quot;&gt;https://github.com/Moult/IfcClassification&lt;/a&gt; and placed in %s']">
         <source>XML or IFC files of several classification systems can be downloaded from &lt;a href="https://github.com/Moult/IfcClassification"&gt;https://github.com/Moult/IfcClassification&lt;/a&gt; and placed in %s</source>
         <target state="translated">XML- eller IFC-filer för flera klassificeringssystem kan hämtas från &lt;a href="https://github.com/Moult/IfcClassification"&gt;https://github.com/Moult/IfcClassification&lt;/a&gt; och placeras i %s</target>
         <context-group purpose="information">
