@@ -1,0 +1,89 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-04 15:37+0000\n"
+"PO-Revision-Date: 2025-08-25 19:47+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://weblate.osgeo.org/projects/postgis/postgis-manual/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"This function currently relies on a geometry column being registered in "
+"<varname>geometry_columns</varname> and fails if the geometry column is not "
+"present in <varname>geometry_columns</varname> table."
+msgstr ""
+"Denna funktion är för närvarande beroende av att en geometrikolumn är "
+"registrerad i <varname>geometry_columns</varname> och misslyckas om "
+"geometrikolumnen inte finns i tabellen <varname>geometry_columns</varname>."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"All functions and tables associated with this module are installed in a "
+"schema called <varname>topology</varname>."
+msgstr ""
+"Alla funktioner och tabeller som är kopplade till denna modul är "
+"installerade i ett schema som kallas <varname>topology</varname>."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Valid <varname>feature_type</varname>s are: POINT, MULTIPOINT, LINE, "
+"MULTILINE, POLYGON, MULTIPOLYGON, COLLECTION"
+msgstr ""
+"Giltiga <varname>feature_type</varname>-värden är: POINT, MULTIPOINT, LINE, "
+"MULTILINE, POLYGON, MULTIPOLYGON, COLLECTION"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Renames a topology schema, updating its metadata record in the "
+"<varname>topology.topology</varname> table."
+msgstr ""
+"Byter namn på ett topologischema och uppdaterar dess metadatapost i tabellen"
+" <varname>topology.topology</varname>."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The <varname>srid</varname> is the <link linkend=\"spatial_ref_sys\">spatial"
+" reference system</link> SRID for the topology. The SRID defaults to -1 "
+"(unknown) if not specified."
+msgstr ""
+"<varname>srid</varname> är det <link linkend=\"spatial_ref_sys\">spatiala "
+"referenssystemets</link> SRID för topologin. Standardvärdet för SRID är -1 "
+"(okänt) om det inte anges."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Adds an isolated node with point location <varname>apoint</varname> to an "
+"existing face with faceid <varname>aface</varname> to a topology "
+"<varname>atopology</varname> and returns the nodeid of the new node."
+msgstr ""
+"Lägger till en isolerad nod med punktläge <varname>apoint</varname> till en "
+"befintlig yta med faceid <varname>aface</varname> i topologin "
+"<varname>atopology</varname> och returnerar den nya nodens nodeid."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If the spatial reference system (srid) of the point geometry is not the same"
+" as the topology, the <varname>apoint</varname> is not a point geometry, the"
+" point is null, or the point intersects an existing edge (even at the "
+"boundaries) then an exception is thrown. If the point already exists as a "
+"node, an exception is thrown."
+msgstr ""
+"Om punktgeometrins spatiala referenssystem (srid) inte är detsamma som "
+"topologins, om <varname>apoint</varname> inte är en punktgeometri, om "
+"punkten är null eller om punkten skär en befintlig kant (även vid gränserna)"
+" utlöses ett undantag. Om punkten redan finns som nod utlöses ett undantag."
