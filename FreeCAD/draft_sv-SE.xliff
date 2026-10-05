@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file id="548" original="/draft.ts" source-language="en" target-language="sv-SE" datatype="plaintext" project-id="286" tool-id="crowdin">
     <header>
-      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1" />
     </header>
     <body>
       <trans-unit id="6581098" resname="Dialog['Annotation Styles Editor']">
@@ -1393,9 +1393,9 @@ av knapparna ovan</target>
         <source>If this is selected, the working plane will be
 centered on the current view when pressing one
 of the buttons above</source>
-        <target state="translated">Om detta väljs kommer arbetsplanet att centreras
-centreras på den aktuella vyn när du trycker på en av
-av knapparna ovanför</target>
+        <target state="translated">Om detta väljs kommer arbetsplanet att
+centreras på den aktuella vyn när du trycker på en
+av knapparna ovan</target>
         <context-group purpose="information">
           <context context-type="source">Form
 ../ui/TaskSelectPlane.ui:105</context>
@@ -1413,7 +1413,7 @@ av knapparna ovanför</target>
         <source>Centers the working plane on the current view when pressing one
 of the buttons above</source>
         <target state="translated">Centrerar arbetsplanet på den aktuella vyn när du trycker på en av
-av knapparna ovan</target>
+knapparna ovan</target>
         <context-group purpose="information">
           <context context-type="source">Form
 ../ui/TaskSelectPlane.ui:117</context>
@@ -1879,8 +1879,8 @@ flyttas till mitten av vyn.</target>
       <trans-unit id="6650830" resname="Form['The annotation scale multiplier is the inverse of the scale set in the&#10;Annotation scale widget. If the scale is 1:100 the multiplier is 100.']">
         <source>The annotation scale multiplier is the inverse of the scale set in the
 Annotation scale widget. If the scale is 1:100 the multiplier is 100.</source>
-        <target state="translated">Multiplikatorn för annoteringsskalan är inversen av den skala som anges i widgeten
-Widgeten Annoteringsskala. Om skalan är 1:100 är multiplikatorn 100.</target>
+        <target state="translated">Multiplikatorn för annoteringsskalan är inversen av skalan som anges i
+widgeten Annoteringsskala. Om skalan är 1:100 är multiplikatorn 100.</target>
         <context-group purpose="information">
           <context context-type="source">Form
 ../ui/TaskPanel_SetStyle.ui:298</context>
@@ -3104,9 +3104,9 @@ value defines the gap between the ends of the extension lines and the measured
 points. A positive value defines the maximum length of the extension lines. Only
 used for linear dimensions.</source>
         <target state="translated">Standardlängden för anknytningslinjer. Använd 0 för fullständiga anknytningslinjer. Ett negativt
-värde definierar avståndet mellan förlängningslinjernas ändar och de uppmätta punkterna
-punkterna. Ett positivt värde definierar den maximala längden på förlängningslinjerna. Används endast
-används för linjära mått.</target>
+värde anger avståndet mellan förlängningslinjernas ändar och de uppmätta
+punkterna. Ett positivt värde anger den maximala längden på förlängningslinjerna. Används endast
+för linjära mått.</target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettingsDraft
 ../ui/preferences-drafttexts.ui:644</context>
@@ -3520,9 +3520,9 @@ en DXF-fil.</target>
         <source>If checked, FreeCAD is allowed to download and update the Python libraries
 required by the legacy importer. This can also be done manually by installing
 the 'dxf_library' addon from the Addon Manager.</source>
-        <target state="translated">Om det är markerat får FreeCAD ladda ner och uppdatera Python-biblioteken som
-som krävs av den äldre importören. Detta kan också göras manuellt genom att installera
-tillägget "dxf_library" från Addon Manager.</target>
+        <target state="translated">Om detta är markerat får FreeCAD ladda ner och uppdatera Python-biblioteken
+som krävs av den äldre importören. Det kan också göras manuellt genom att installera
+tillägget ”dxf_library” från Addon Manager.</target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettingsDraft
 ../ui/preferences-dxf.ui:87</context>
@@ -3542,9 +3542,9 @@ reusable objects (Part Compounds) and instances become `App::Link` objects,
 maintaining the block structure. Best for full integration with the Draft
 workbench. </source>
         <target state="translated">Skapar helt parametriska Draft-objekt. Blockdefinitioner importeras som återanvändbara
-återanvändbara objekt (Part Compounds) och instanser blir `App::Link`-objekt,
-bibehåller blockstrukturen. Bäst för fullständig integration med Draft
-arbetsbänk. </target>
+objekt (Part Compounds) och instanser blir `App::Link`-objekt,
+vilket bevarar blockstrukturen. Bäst för fullständig integration med Draft-
+arbetsbänken. </target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettingsDraft
 ../ui/preferences-dxf.ui:117</context>
@@ -3574,9 +3574,9 @@ arbetsbänk. </target>
 definitions are imported as reusable objects (Part Compounds) and instances
 become `App::Link` objects, maintaining the block structure. Best for
 script-based post-processing and Part workbench integration.</source>
-        <target state="translated">Skapar parametriska Part-objekt (t.ex. Part::Line, Part::Circle). Block
+        <target state="translated">Skapar parametriska Part-objekt (t.ex. Part::Line och Part::Circle). Block
 importeras som återanvändbara objekt (Part Compounds) och instanser blir
-blir `App::Link`-objekt, vilket bibehåller blockstrukturen. Bäst för
+`App::Link`-objekt, vilket bevarar blockstrukturen. Bäst för
 skriptbaserad efterbearbetning och integration med Part-arbetsbänken.</target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettingsDraft
@@ -3595,9 +3595,9 @@ skriptbaserad efterbearbetning och integration med Part-arbetsbänken.</target>
         <source>Creates a non-parametric shape for each DXF entity. Block definitions are
 imported as reusable objects (Part Compounds) and instances become `App::Link`
 objects, maintaining the block structure. Good for referencing and measuring.</source>
-        <target state="translated">Skapar en icke-parametrisk form för varje DXF-enhet. Blockdefinitioner importeras
-importeras som återanvändbara objekt (Part Compounds) och instanser blir `App::Link`-objekt
-objekt, vilket bibehåller blockstrukturen. Bra för referenstagning och mätning.</target>
+        <target state="translated">Skapar en icke-parametrisk form för varje DXF-enhet. Blockdefinitioner
+importeras som återanvändbara objekt (Part Compounds) och instanser blir `App::Link`-
+objekt, vilket bevarar blockstrukturen. Bra för referenser och mätning.</target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettingsDraft
 ../ui/preferences-dxf.ui:170</context>
@@ -3652,10 +3652,10 @@ form. Bäst för att importera och visa mycket stora filer med maximal prestanda
 between the DXF file's unit and millimeters. Example: for files in
 millimeters: 1, in centimeters: 10, in meters: 1000, in inches: 25.4,
 in feet: 304.8</source>
-        <target state="translated">Skalfaktor som ska tillämpas på DXF-filer vid import. Faktorn är omvandlingen mellan
+        <target state="translated">Skalfaktor som ska användas vid import av DXF-filer. Faktorn är omvandlingen
 mellan DXF-filens enhet och millimeter. Exempel: för filer i
-millimeter: 1, i centimeter: 10, i meter: 1000, i tum: 25.4,
-i fot: 304.8</target>
+millimeter: 1, centimeter: 10, meter: 1 000, tum: 25,4
+och fot: 304,8</target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettingsDraft
 ../ui/preferences-dxf.ui:252</context>
@@ -3688,8 +3688,8 @@ i fot: 304.8</target>
       <trans-unit id="6681362" resname="Gui::Dialog::DlgSettingsDraft['If checked, entities from the paper space will also be imported. By default,&#10;only model space is imported']">
         <source>If checked, entities from the paper space will also be imported. By default,
 only model space is imported</source>
-        <target state="translated">Om den är markerad kommer även enheter från pappersutrymmet att importeras. Som standard importeras
-importeras endast modellutrymme</target>
+        <target state="translated">Om detta är markerat importeras även objekt från pappersutrymmet. Som standard importeras
+endast modellutrymmet</target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettingsDraft
 ../ui/preferences-dxf.ui:323</context>
@@ -4322,7 +4322,7 @@ om de matchar X-, Y- eller Z-axeln i det globala koordinatsystemet</target>
 ../ui/preferences-dwg.ui:85</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6498589" resname="Gui::Dialog::DlgSettingsDraft['&lt;html>&lt;head/>&lt;body>&lt;p>&lt;span style=&quot; font-weight:600;&quot;>Note:&lt;/span> DXF options apply to DWG files as well.&lt;/p>&lt;/body>&lt;/html>']">
+      <trans-unit id="6498589" resname="Gui::Dialog::DlgSettingsDraft['&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Note:&lt;/span&gt; DXF options apply to DWG files as well.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;']">
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Note:&lt;/span&gt; DXF options apply to DWG files as well.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <target state="translated">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Observera:&lt;/span&gt; DXF-alternativ gäller även för DWG-filer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
         <context-group purpose="information">
@@ -4670,7 +4670,7 @@ om de matchar X-, Y- eller Z-axeln i det globala koordinatsystemet</target>
       </trans-unit>
       <trans-unit id="6682012" resname="Gui::Dialog::DlgSettingsDraft['UI Options']">
         <source>UI Options</source>
-        <target state="translated">Alternativ för användargränssnitt</target>
+        <target state="translated">UI-inställningar</target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettingsDraft
 ../ui/preferences-draftinterface.ui:781</context>
@@ -5030,7 +5030,7 @@ om de matchar X-, Y- eller Z-axeln i det globala koordinatsystemet</target>
       </trans-unit>
       <trans-unit id="6682062" resname="draft['Label Type']">
         <source>Label Type</source>
-        <target state="translated">Etiketttyp</target>
+        <target state="translated">Etikettyp</target>
         <context-group purpose="information">
           <context context-type="source">draft
 ../../DraftGui.py:778</context>
@@ -9022,7 +9022,7 @@ I don't understand why we have this string.</note>
         <source>Do you want to update the SVG pattern options
 of existing objects in all opened documents?</source>
         <target state="translated">Vill du uppdatera SVG-mönsteralternativen för
-för befintliga objekt i alla öppnade dokument?</target>
+befintliga objekt i alla öppna dokument?</target>
         <context-group purpose="information">
           <context context-type="source">draft
 ../../draftutils/params.py:206</context>
@@ -10187,7 +10187,7 @@ Om alternativet "Copy" är aktivt skapas roterade kopior.</target>
       </trans-unit>
       <trans-unit id="6682752" resname="Draft_Polygon['Creates a regular polygon (triangle, square, pentagon…)']">
         <source>Creates a regular polygon (triangle, square, pentagon…)</source>
-        <target state="translated">Skapar en regelbunden polygon (triangel, kvadrat, femhörning...)</target>
+        <target state="translated">Skapar en regelbunden polygon (triangel, kvadrat, femhörning…)</target>
         <context-group purpose="information">
           <context context-type="source">Draft_Polygon
 ../../draftguitools/gui_polygons.py:60</context>
@@ -10417,9 +10417,9 @@ The result of the operation depends on the types of objects, which may be able t
 For example, it can join the selected objects into one, convert simple edges into parametric polylines,
 convert closed edges into filled faces and parametric polygons, and merge faces into a single face.</source>
         <target state="translated">Uppgraderar de valda objekten till mer komplexa former.
-Resultatet av operationen beror på typen av objekt, som kanske kan uppgraderas flera gånger i rad.
-Den kan t.ex. sammanfoga de markerade objekten till ett, konvertera enkla kanter till parametriska polylinjer,
-konvertera slutna kanter till fyllda ytor och parametriska polygoner, och sammanfoga ytor till en enda yta.</target>
+Resultatet av åtgärden beror på typen av objekt, som kan gå att uppgradera flera gånger i följd.
+Åtgärden kan till exempel sammanfoga markerade objekt till ett, omvandla enkla kanter till parametriska polylinjer,
+omvandla slutna kanter till fyllda ytor och parametriska polygoner samt sammanfoga ytor till en enda yta.</target>
         <context-group purpose="information">
           <context context-type="source">Draft_Upgrade
 ../../draftguitools/gui_upgrade.py:61</context>
@@ -10846,10 +10846,10 @@ Denna punkt kan dekoreras med en pil eller annan symbol.</target>
 as 'Text', depending on 'Label Type'.
 
 'Target' won't be used if 'Label Type' is set to 'Custom'.</source>
-        <target state="translated">Objekt, och eventuellt underelement, vars egenskaper kommer att visas som
-som "Text", beroende på "Etikettyp".
+        <target state="translated">Objektet och eventuellt dess delelement vars egenskaper visas
+som ”Text”, beroende på ”Etikettyp”.
 
-'Target' kommer inte att användas om 'Label Type' är satt till 'Custom'.</target>
+”Target” används inte om ”Label Type” är satt till ”Custom”.</target>
         <context-group purpose="information">
           <context context-type="source">App::Property
 ../../draftobjects/label.py:82</context>
@@ -10867,14 +10867,14 @@ The middle point is calculated automatically depending on the chosen
 
 If 'Straight Direction' is set to 'Custom', the 'Points' property
 can be set as a list of arbitrary points.</source>
-        <target state="translated">Listan över punkter som definierar ledlinjen; normalt en lista med tre punkter.
+        <target state="translated">Listan över punkter som definierar hänvisningslinjen; normalt en lista med tre punkter.
 
-Den första punkten ska vara textens position, det vill säga "Placeringen",
-och den sista punkten ska vara linjens spets, det vill säga "Target Point".
-Mittpunkten beräknas automatiskt beroende på den valda
-"Rak riktning" och "Rakt avstånd"-värdet och -tecknet.
+Den första punkten ska vara textens position, det vill säga ”Placement”
+och den sista ska vara linjens spets, det vill säga ”Target Point”.
+Mittpunkten beräknas automatiskt utifrån vald
+”Straight Direction” samt värdet och tecknet för ”Straight Distance”.
 
-Om "Straight Direction" är inställd på "Custom" kan egenskapen "Points
+Om ”Straight Direction” är satt till ”Custom” kan egenskapen ”Points”
 ställas in som en lista med godtyckliga punkter.</target>
         <context-group purpose="information">
           <context context-type="source">App::Property
@@ -10935,11 +10935,11 @@ beroende på värdet för "Straight Direction".</target>
 This property is read-only, as the final text depends on 'Label Type',
 and the object defined in 'Target'.
 The 'Custom Text' is displayed only if 'Label Type' is set to 'Custom'.</source>
-        <target state="translated">Den text som visas av denna etikett.
+        <target state="translated">Texten som visas av denna etikett.
 
-Denna egenskap är skrivskyddad, eftersom den slutliga texten beror på "Etikettyp",
-och det objekt som definieras i 'Target'.
-Den "Anpassade texten" visas endast om "Etikettyp" är inställd på "Anpassad".</target>
+Egenskapen är skrivskyddad eftersom den slutliga texten beror på ”Label Type”
+och objektet som anges i ”Target”.
+”Custom Text” visas endast om ”Label Type” är satt till ”Custom”.</target>
         <context-group purpose="information">
           <context context-type="source">App::Property
 ../../draftobjects/label.py:190</context>
@@ -11653,10 +11653,10 @@ There are various possibilities:
 - An object, and one of its edges.
 - An object, and two of its vertices.
 - An arc object, and its edge.</source>
-        <target state="translated">Objektet, och specifika delelement av det,
-som denna dimension mäter.
+        <target state="translated">Objektet och dess specifika delelement
+som detta mått mäter.
 
-Det finns flera olika möjligheter:
+Det finns flera möjligheter:
 - Ett objekt och en av dess kanter.
 - Ett objekt och två av dess hörn.
 - Ett bågobjekt och dess kant.</target>
@@ -12634,7 +12634,7 @@ En enda skiss med avskurna spår konverteras dock till flera enskilda Draft-obje
         <source>Adds the selected objects to the construction group,
 and changes their appearance to the construction style.
 The construction group is created if it does not exist.</source>
-        <target state="translated">Lägger till de markerade objekten i konstruktionsgruppen,
+        <target state="translated">Lägger till de markerade objekten i konstruktionsgruppen
 och ändrar deras utseende till konstruktionsstilen.
 Konstruktionsgruppen skapas om den inte redan finns.</target>
         <context-group purpose="information">
@@ -12720,11 +12720,11 @@ If a polyline is selected, it will apply the slope transformation to each of its
 
 The slope will always change the Z value, therefore this command only works well for
 straight Draft lines that are drawn on the XY-plane.</source>
-        <target state="translated">Ställer in lutningen på den valda linjen genom att ändra värdet på Z-värdet för en av dess punkter.
-Om en polylinje är markerad kommer den att tillämpa lutningstransformationen på vart och ett av dess segment.
+        <target state="translated">Ställer in lutningen på den valda linjen genom att ändra Z-värdet för en av dess punkter.
+Om en polylinje är markerad tillämpas lutningstransformationen på vart och ett av dess segment.
 
-Lutningen ändrar alltid Z-värdet, och därför fungerar detta kommando bara bra för
-raka draglinjer som ritas i XY-planet.</target>
+Lutningen ändrar alltid Z-värdet och därför fungerar kommandot bäst för
+raka Draft-linjer som ritas i XY-planet.</target>
         <context-group purpose="information">
           <context context-type="source">Draft_Slope
 ../../draftguitools/gui_lineslope.py:69</context>
@@ -13062,7 +13062,7 @@ Den initiala projektionsriktningen är den motsatta till den aktuella aktiva vyr
       </trans-unit>
       <trans-unit id="6683082" resname="Draft_Snap_Center['Snaps to the center point of faces and circular edges, and to the placement point of working plane proxies and building parts']">
         <source>Snaps to the center point of faces and circular edges, and to the placement point of working plane proxies and building parts</source>
-        <target state="translated">Snäpper till mittpunkten för ytor och cirkulära kanter, och till placeringspunkten för arbetsplansproxyer och byggnadsdelar</target>
+        <target state="translated">Snäpper till mittpunkten för ytor och cirkulära kanter samt till placeringspunkten för arbetsplansproxyer och byggnadsdelar</target>
         <context-group purpose="information">
           <context context-type="source">Draft_Snap_Center
 ../../draftguitools/gui_snaps.py:181</context>
@@ -13298,9 +13298,9 @@ reusable objects (Part Compounds) and instances become `App::Link` objects,
 maintaining the block structure. Best for full integration with the Draft
 workbench.</source>
         <target state="translated">Skapar helt parametriska Draft-objekt. Blockdefinitioner importeras som återanvändbara
-återanvändbara objekt (Part Compounds) och instanser blir `App::Link`-objekt,
-bibehåller blockstrukturen. Bäst för fullständig integration med Draft
-arbetsbänk.</target>
+objekt (Part Compounds) och instanser blir `App::Link`-objekt,
+vilket bevarar blockstrukturen. Bäst för fullständig integration med Draft-
+arbetsbänken.</target>
         <context-group purpose="information">
           <context context-type="source">DxfImportDialog
 ../ui/preferences-dxf-import.ui:26</context>
@@ -13319,9 +13319,9 @@ arbetsbänk.</target>
 definitions are imported as reusable objects (Part Compounds) and instances
 become `App::Link` objects, maintaining the block structure. Best for
 script-based post-processing.</source>
-        <target state="translated">Skapar parametriska Part-objekt (t.ex. Part::Line, Part::Circle). Block
+        <target state="translated">Skapar parametriska Part-objekt (t.ex. Part::Line och Part::Circle). Block
 importeras som återanvändbara objekt (Part Compounds) och instanser blir
-blir `App::Link`-objekt, vilket bibehåller blockstrukturen. Bäst för
+`App::Link`-objekt, vilket bevarar blockstrukturen. Bäst för
 skriptbaserad efterbearbetning.</target>
         <context-group purpose="information">
           <context context-type="source">DxfImportDialog
@@ -13340,9 +13340,9 @@ skriptbaserad efterbearbetning.</target>
         <source>Creates a non-parametric shape for each DXF entity. Block definitions are
 imported as reusable objects (Part Compounds) and instances become `App::Link`
 objects, maintaining the block structure. Good for referencing and measuring.</source>
-        <target state="translated">Skapar en icke-parametrisk form för varje DXF-enhet. Blockdefinitioner importeras
-importeras som återanvändbara objekt (Part Compounds) och instanser blir `App::Link`-objekt
-objekt, vilket bibehåller blockstrukturen. Bra för referenstagning och mätning.</target>
+        <target state="translated">Skapar en icke-parametrisk form för varje DXF-enhet. Blockdefinitioner
+importeras som återanvändbara objekt (Part Compounds) och instanser blir `App::Link`-
+objekt, vilket bevarar blockstrukturen. Bra för referenser och mätning.</target>
         <context-group purpose="information">
           <context context-type="source">DxfImportDialog
 ../ui/preferences-dxf-import.ui:52</context>
