@@ -599,8 +599,8 @@ Vrid medurs</translation>
         <location filename="rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="104"/>
         <source>R5
 Dial CCW</source>
-        <translation>Ökar mängden tillgängligt systemminne så att den motsvarar en DECR-konsol eller mer.
-Det kan få viss programvara att bete sig annorlunda än på butikshårdvara.</translation>
+        <translation>R5
+Vrid moturs</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="105"/>
@@ -889,7 +889,7 @@ Påverkar tidsinställningen för händelser som är beroende av dessa signaler.
         <source>Multiplies the rate of VBLANK by 1000/1001 for values like 59.94Hz.
 Known to fix the rhythm game Space Channel 5 Part 2</source>
         <translation>Multiplicerar VBLANK-frekvensen med 1000/1001 för värden som 59,94 Hz.
-Det är känt att åtgärda rytmspelet Space Channel 5 Part 2.</translation>
+Det är känt att åtgärda rytmspelet Space Channel 5 Part 2</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/tooltips.h" line="52"/>
@@ -936,7 +936,7 @@ Det kan åtgärda vissa artefakter, särskilt på Apple-GPU:er, men försämrar 
 This mode is like hibernation of emulation: if you don&apos;t want to be able to cheat using savestates when playing the game, consider using this mode.
 Do note that the savestate file is not gone completely, just ignored by RPCS3. You can manually relaunch it if needed.</source>
         <translation>När läget är aktiverat avslutas emuleringen vid sparning och tillståndssparfilen döljs efter inläsning, så att den inte kan återanvändas av RPCS3.
-Det här läget fungerar som viloläge för emuleringen. Använd det om du inte vill kunna fuska med tillståndssparningar när du spelar.
+Det här läget fungerar som viloläge för emuleringen: använd det om du inte vill kunna fuska med tillståndssparningar när du spelar.
 Observera att tillståndssparfilen inte tas bort helt, utan bara ignoreras av RPCS3. Du kan starta den manuellt igen vid behov.</translation>
     </message>
     <message>
@@ -1176,7 +1176,7 @@ Använd läget Säkert för maximal kompatibilitet.</translation>
         <source>Some SPU stages are sensitive to race conditions and allowing a limited number at a time helps alleviate performance stalls.
 Setting this to a smaller value might improve performance and reduce stuttering in some games.
 Leave this on auto if performance is negatively affected when setting a small value.</source>
-        <translation>Vissa SPU-steg är känsliga för konkurrensförhållanden, och ett begränsat antal åt gången kan minska prestandastopp.
+        <translation>Vissa SPU-steg är känsliga för konkurrensförhållanden och ett begränsat antal åt gången kan minska prestandastopp.
 Ett lägre värde kan förbättra prestandan och minska hack i vissa spel.
 Lämna värdet på automatiskt om prestandan försämras av ett lågt värde.</translation>
     </message>
@@ -1307,7 +1307,7 @@ Försämrar prestandan kraftigt. Använd inte detta alternativ om du är osäker
     <message>
         <location filename="rpcs3/rpcs3qt/tooltips.h" line="113"/>
         <source>Allows to hook some functions like &apos;memcpy&apos; replacing them with high-level implementations. May do nothing or break things. Experimental.</source>
-        <translation>Gör det möjligt att haka vissa funktioner, som &apos;memcpy&apos;, och ersätta dem med högnivåimplementationer. Kan sakna effekt eller göra att saker slutar fungera. Experimentellt.</translation>
+        <translation>Gör det möjligt att haka vissa funktioner som 'memcpy' för att ersätta dem med högnivåimplementationer. Det kan sakna effekt eller få saker att sluta fungera. Experimentellt.</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/tooltips.h" line="114"/>
@@ -1983,7 +1983,7 @@ Avoid using values outside the range of -12 to +12 if you&apos;re unsure.
 -3 to +3 is plenty for most usecases</source>
         <translation>Ändrar noggrannheten för textursampling. (Små ändringar har stor effekt.)
 Undvik värden utanför intervallet −12 till +12 om du är osäker.
-−3 till +3 räcker för de flesta användningsfall.</translation>
+−3 till +3 räcker för de flesta användningsfall</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/tooltips.h" line="224"/>
@@ -2286,7 +2286,7 @@ Detta vidarebefordrar automatiskt portar som är bundna till 0.0.0.0 om din rout
         <source>Enables mouse-based gyro emulation at game startup. It can also be toggled at any time with the associated hotkey.
 Hold the right mouse button to activate gyro input: moving the mouse maps to the X and Z motion axes, and the scroll wheel maps to the Y axis. Release the button to reset the motion values.</source>
         <translation>Aktiverar musbaserad gyroemulering när spelet startas. Den kan också växlas när som helst med den tillhörande snabbtangenten.
-Håll ned höger musknapp för att aktivera gyroinmatning: musrörelser kopplas till rörelseaxlarna X och Z, och mushjulet kopplas till Y-axeln. Släpp knappen för att återställa rörelsevärdena.</translation>
+Håll ned höger musknapp för att aktivera gyroinmatning: musrörelser kopplas till rörelseaxlarna X och Z och mushjulet kopplas till Y-axeln. Släpp knappen för att återställa rörelsevärdena.</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/tooltips.h" line="274"/>
@@ -2359,7 +2359,7 @@ Använd inte alternativet om du är osäker.</translation>
         <source>Required for some Homebrew or Game Mods.
 If unsure, do not use this option</source>
         <translation>Krävs för vissa homebrew-program eller spelmodifieringar.
-Använd inte alternativet om du är osäker.</translation>
+Använd inte alternativet om du är osäker</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/tooltips.h" line="287"/>
@@ -2449,7 +2449,7 @@ Kan återställas till aktuell tid genom att klicka på &quot;Ange till nu&quot;
     <message>
         <location filename="rpcs3/rpcs3qt/tooltips.h" line="308"/>
         <source>The evdev handler should work with any controller that has Linux support.&lt;br&gt;If your joystick is not being centered properly, read the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-        <translation>evdev-hanteraren bör fungera med alla handkontroller som stöds av Linux.&lt;br&gt;Läs instruktionerna i &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3-wikin&lt;/a&gt; om styrspaken inte centreras korrekt.</translation>
+        <translation>Evdev-hanteraren bör fungera med alla handkontroller som stöds av Linux.&lt;br&gt;Läs instruktionerna i &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3-wikin&lt;/a&gt; om styrspaken inte centreras korrekt.</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/tooltips.h" line="309"/>
@@ -2628,7 +2628,7 @@ Det återstår fortfarande många implementationer och optimeringar.</translatio
         <location filename="rpcs3/rpcs3qt/auto_pause_settings_dialog.cpp" line="18"/>
         <source>To use auto pause: enter the ID(s) of a function or a system call.
 Restart of the game is required to apply. You can enable/disable this in the settings.</source>
-        <translation>Om du vill använda automatisk paus anger du ID för en funktion eller ett systemanrop.
+        <translation>Om du vill använda automatisk paus: ange ID för en funktion eller ett systemanrop.
 Spelet måste startas om för att ändringen ska tillämpas. Du kan aktivera/inaktivera funktionen i inställningarna.</translation>
     </message>
     <message>
@@ -3158,7 +3158,7 @@ Vissa inställningar verkar avvika från standardkonfigurationen:</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/debugger_add_bp_window.cpp" line="43"/>
         <source>Memory Read&amp;Write</source>
-        <translation>Minnesläsning och -skrivning</translation>
+        <translation>Minnesläsning och -&amp;skrivning</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/debugger_add_bp_window.cpp" line="45"/>
@@ -3239,7 +3239,7 @@ Vissa inställningar verkar avvika från standardkonfigurationen:</translation>
         <location filename="rpcs3/rpcs3qt/debugger_frame.cpp" line="280"/>
         <source>When set: a breakpoint hit will pause the emulation instead of the current thread.
 Applies on all breakpoints in all threads regardless if set before or after changing this setting.</source>
-        <translation>När funktionen är aktiverad pausar en träff på en brytpunkt emuleringen i stället för den aktuella tråden.
+        <translation>När funktionen är aktiverad: en träff på en brytpunkt pausar emuleringen i stället för den aktuella tråden.
 Gäller alla brytpunkter i alla trådar, oavsett om de har angetts före eller efter att den här inställningen ändrades.</translation>
     </message>
     <message>
@@ -4348,7 +4348,7 @@ Vill du låta programmet rätta dem åt dig?
         <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1288"/>
         <source>Show Min And Max</source>
         <comment>Perf Graph Detail Level</comment>
-        <translation>Visa min. och max.</translation>
+        <translation>Visa min. och max</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1289"/>
@@ -4486,13 +4486,13 @@ Vill du låta programmet rätta dem åt dig?
         <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1341"/>
         <source>Dolby Digital 5.1 Ch.</source>
         <comment>Audio format flag</comment>
-        <translation>Dolby Digital, 5.1 kanaler</translation>
+        <translation>Dolby Digital, 5.1 kanaler.</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1342"/>
         <source>DTS 5.1 Ch.</source>
         <comment>Audio format flag</comment>
-        <translation>DTS, 5.1 kanaler</translation>
+        <translation>DTS, 5.1 kanaler.</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1348"/>
@@ -8563,8 +8563,7 @@ Utrymme som behövs: %0 kB</translation>
         <location filename="rpcs3/rpcs3qt/localized_emu.h" line="95"/>
         <source>Error: %0</source>
         <comment>Gamedata Check Error</comment>
-        <translation>Resursen är tillfälligt otillgänglig.
-(%0)</translation>
+        <translation>Fel: %0</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/localized_emu.h" line="96"/>
@@ -9065,7 +9064,7 @@ Utrymme som behövs: %0 kB</translation>
         <location filename="rpcs3/rpcs3qt/localized_emu.h" line="159"/>
         <source>The Home Menu can&apos;t be opened while the On Screen Keyboard is busy!</source>
         <comment>OSK Dialog</comment>
-        <translation>Fel – sparad data är skadad</translation>
+        <translation>Hemmenyn kan inte öppnas medan skärmtangentbordet används!</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/localized_emu.h" line="160"/>
