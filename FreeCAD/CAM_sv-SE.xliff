@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file id="32192" original="/CAM.ts" source-language="en" target-language="sv-SE" datatype="plaintext" project-id="286" tool-id="crowdin">
     <header>
-      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1" />
     </header>
     <body>
       <trans-unit id="6646772" resname="CmdPathArea['CAM']">
@@ -377,11 +377,11 @@ Observera att det här alternativet är inaktiverat om ett lagerobjekt från en 
 For box and cylinder stocks this means the actual size of the stock solid being created.
 
 For stock from the base object&amp;apos;s bounding box it means the extra material in all directions. A stock object created from such a template will get its basic size from the new job&amp;apos;s base object and apply the stored extra settings.</source>
-        <target state="translated">Om denna funktion är aktiverad inkluderas de aktuella storleksinställningarna för lagerobjektet i mallen.
+        <target state="translated">Om detta är aktiverat inkluderas de gällande storleksinställningarna för råmaterialobjektet i mallen.
 
-För lådor och cylindrar innebär detta den faktiska storleken på den stock solid som skapas.
+För råmaterial i form av lådor och cylindrar innebär detta den faktiska storleken på den solida råmaterialkropp som skapas.
 
-För lager från basobjektets bounding box innebär det det extra materialet i alla riktningar. Ett lagerobjekt som skapas från en sådan mall får sin grundstorlek från det nya jobbets basobjekt och tillämpar de lagrade extrainställningarna.</target>
+För råmaterial som utgår från basobjektets begränsningsruta innebär det extramaterial i alla riktningar. Ett råmaterialobjekt som skapas från en sådan mall får sin grundstorlek från basobjektet i det nya jobbet och använder de sparade extrainställningarna.</target>
         <context-group purpose="information">
           <context context-type="source">Dialog
 ../panels/DlgJobTemplateExport.ui:159</context>
@@ -453,7 +453,7 @@ För lager från basobjektets bounding box innebär det det extra materialet i a
       </trans-unit>
       <trans-unit id="6641398" resname="Dialog['Tool Controller Editor']">
         <source>Tool Controller Editor</source>
-        <target state="translated">Tool Controller Editor</target>
+        <target state="translated">Redigerare för verktygsstyrning</target>
         <context-group purpose="information">
           <context context-type="source">Dialog
 ../panels/DlgToolControllerEdit.ui:14</context>
@@ -469,7 +469,7 @@ För lager från basobjektets bounding box innebär det det extra materialet i a
       </trans-unit>
       <trans-unit id="6641422" resname="Dialog['Tool Editor']">
         <source>Tool Editor</source>
-        <target state="translated">Verktygsredaktör</target>
+        <target state="translated">Verktygsredigerare</target>
         <context-group purpose="information">
           <context context-type="source">Dialog
 ../panels/DlgToolEdit.ui:14</context>
@@ -1465,7 +1465,7 @@ Större värden (längre till höger) ger snabbare beräkningar; mindre värden 
       </trans-unit>
       <trans-unit id="6641676" resname="Form['The amount by which the tool is laterally displaced on each cycle of the pattern, specified in percent of the tool diameter. A step over of 100% results in no overlap between two different cycles.']">
         <source>The amount by which the tool is laterally displaced on each cycle of the pattern, specified in percent of the tool diameter. A step over of 100% results in no overlap between two different cycles.</source>
-        <target state="translated">Det mått med vilket verktyget förskjuts i sidled vid varje cykel av mönstret, angivet i procent av verktygets diameter. Ett step over på 100% r resulterar i att det inte blir någon överlappning mellan två olika cykler.</target>
+        <target state="translated">Det mått med vilket verktyget förskjuts i sidled vid varje cykel i mönstret, angivet i procent av verktygets diameter. En stepover på 100 % innebär ingen överlappning mellan två cykler.</target>
         <context-group purpose="information">
           <context context-type="source">Form
 ../panels/PageOpAdaptiveEdit.ui:153</context>
@@ -1977,7 +1977,7 @@ Detta alternativ ändrar detta beteende så att varje diskret område skärs til
       </trans-unit>
       <trans-unit id="6641744" resname="Form['Specify the percent of the tool diameter each helix will be offset to the previous one. A step over of 100% means no overlap of the individual cuts.']">
         <source>Specify the percent of the tool diameter each helix will be offset to the previous one. A step over of 100% means no overlap of the individual cuts.</source>
-        <target state="translated">Ange hur många procent av verktygsdiametern som varje spiral ska förskjutas i förhållande till den föregående. En förskjutning på 100% innebär ingen överlappning av de enskilda snitten.</target>
+        <target state="translated">Ange hur stor procentandel av verktygsdiametern varje spiral ska förskjutas i förhållande till den föregående. En stepover på 100 % innebär ingen överlappning mellan de enskilda snitten.</target>
         <context-group purpose="information">
           <context context-type="source">Form
 ../panels/PageOpHelixEdit.ui:125</context>
@@ -2277,7 +2277,7 @@ Det senare kan användas för att platta av hela lagerområdet för att säkerst
       </trans-unit>
       <trans-unit id="6641810" resname="Form['The amount by which the tool is laterally displaced on each cycle of the pattern, specified in percent of the tool diameter. A step over of 100% results in no overlap between two different cycles']">
         <source>The amount by which the tool is laterally displaced on each cycle of the pattern, specified in percent of the tool diameter. A step over of 100% results in no overlap between two different cycles</source>
-        <target state="translated">Det mått med vilket verktyget förskjuts i sidled vid varje mönstercykel, angivet i procent av verktygets diameter. Ett steg över på 100% r resulterar i ingen överlappning mellan två olika cykler</target>
+        <target state="translated">Det mått med vilket verktyget förskjuts i sidled vid varje cykel i mönstret, angivet i procent av verktygets diameter. En stepover på 100 % innebär ingen överlappning mellan två cykler</target>
         <context-group purpose="information">
           <context context-type="source">Form
 ../panels/PageOpPocketFullEdit.ui:192</context>
@@ -3043,7 +3043,7 @@ It seems like the Property View holds two tabs, Data and View, rather than two t
       </trans-unit>
       <trans-unit id="6641974" resname="Form['Enable separate optimization of transitions between, and breaks within, each step over path.']">
         <source>Enable separate optimization of transitions between, and breaks within, each step over path.</source>
-        <target state="translated">Möjliggör separat optimering av övergångar mellan, och pauser inom, varje steg över banan.</target>
+        <target state="translated">Möjliggör separat optimering av övergångar mellan och avbrott inom varje stepover-bana.</target>
         <context-group purpose="information">
           <context context-type="source">Form
 ../panels/PageOpSurfaceEdit.ui:294</context>
@@ -3086,9 +3086,9 @@ It seems like the Property View holds two tabs, Data and View, rather than two t
         <source>The amount by which the tool is laterally displaced on each cycle of the pattern, specified in percent of the tool diameter.
 
 A step over of 100% results in no overlap between two different cycles.</source>
-        <target state="translated">Det mått med vilket verktyget förflyttas i sidled vid varje mönstercykel, angivet i procent av verktygets diameter.
+        <target state="translated">Det mått med vilket verktyget förskjuts i sidled vid varje cykel i mönstret, angivet i procent av verktygets diameter.
 
-Ett step over på 100% r resulterar i att det inte blir någon överlappning mellan två olika cykler.</target>
+En stepover på 100 % innebär ingen överlappning mellan två cykler.</target>
         <context-group purpose="information">
           <context context-type="source">Form
 ../panels/PageOpSurfaceEdit.ui:229
@@ -3413,7 +3413,7 @@ its settings used for...
       </trans-unit>
       <trans-unit id="6678484" resname="Form['Sets how aggressively colinear segments are filtered from the voronoi diagram. Valid values are 0 - 90 degrees (larger numbers filter more). Default = 10']">
         <source>Sets how aggressively colinear segments are filtered from the voronoi diagram. Valid values are 0 - 90 degrees (larger numbers filter more). Default = 10</source>
-        <target state="translated">Ställer in hur aggressivt kolinjära segment filtreras från voronoi-diagrammet. Giltiga värden är 0 - 90 grader (större siffror filtrerar mer). Standard = 10</target>
+        <target state="translated">Anger hur aggressivt kolinjära segment filtreras bort från Voronoi-diagrammet. Giltiga värden är 0–90 grader; högre tal filtrerar mer. Standardvärde: 10</target>
         <context-group purpose="information">
           <context context-type="source">Form
 ../panels/PageOpVcarveEdit.ui:111</context>
@@ -3714,7 +3714,7 @@ Om radien är större än den som själva taggformen stöder, kommer den resulte
       </trans-unit>
       <trans-unit id="6642128" resname="Form['Tag Generation']">
         <source>Tag Generation</source>
-        <target state="translated">Tagggenerering</target>
+        <target state="translated">Generering av taggar</target>
         <context-group purpose="information">
           <context context-type="source">Form
 ../preferences/PathDressupHoldingTags.ui:106</context>
@@ -4773,7 +4773,7 @@ Om flera verktyg eller verktygsformer med samma namn finns i olika kataloger kan
       </trans-unit>
       <trans-unit id="6663552" resname="TaskPanel['{[=-lt;-=]}html{[=-gt;-=]}{[=-lt;-=]}head/{[=-gt;-=]}{[=-lt;-=]}body{[=-gt;-=]}{[=-lt;-=]}p{[=-gt;-=]}List of bone locations (with all bones at that location) that are part of this dressup. The list is determined by the corners in the profile and the selected {[=-lt;-=]}span style={[=-quot;-=]} font-weight:600;{[=-quot;-=]}{[=-gt;-=]}Side{[=-lt;-=]}/span{[=-gt;-=]} for the bones. {[=-lt;-=]}/p{[=-gt;-=]}{[=-lt;-=]}p{[=-gt;-=]}You can {[=-lt;-=]}span style={[=-quot;-=]} font-weight:600;{[=-quot;-=">
         <source>&amp;lt;html&amp;gt;&amp;lt;head/&amp;gt;&amp;lt;body&amp;gt;&amp;lt;p&amp;gt;List of bone locations (with all bones at that location) that are part of this dressup. The list is determined by the corners in the profile and the selected &amp;lt;span style=&amp;quot; font-weight:600;&amp;quot;&amp;gt;Side&amp;lt;/span&amp;gt; for the bones. &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;You can &amp;lt;span style=&amp;quot; font-weight:600;&amp;quot;&amp;gt;un-check&amp;lt;/span&amp;gt; the bones you don&amp;apos;t want to be dressed up.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;If a bone is &amp;lt;span style=&amp;quot; font-weight:600;&amp;quot;&amp;gt;grayed out&amp;lt;/span&amp;gt; it means that it is already dressed up by a previous dressup. Or put another way, if you dress up this dogbone dressup again you will only be able to select the bones that are un-checked here.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;If this list is empty it probably means you&amp;apos;re trying to create bones on the wrong side of the profile.&amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;</source>
-        <target state="translated">&amp;lt;html&amp;gt;&amp;lt;head/&amp;gt;&amp;lt;body&amp;gt;&amp;lt;p&amp;gt;Lista över benpositioner (med alla ben på den platsen) som ingår i den här dressyren. Listan bestäms av hörnen i profilen och den valda &amp;lt;span style=&amp;quot; font-weight:600;&amp;quot;&amp;gt;Side&amp;lt;/span&amp;gt; för benen. &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Du kan &amp;lt;span style=&amp;quot; font-weight:600;&amp;quot;&amp;gt;avmarkera&amp;lt;/span&amp;gt; de ben som du inte vill ska vara uppklädda.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Om ett ben är &amp;lt;span style=&amp;quot; font-weight:600;&amp;quot;&amp;gt;greyed out&amp;lt;/span&amp;gt; betyder det att det redan är uppklätt av en tidigare uppklädning. Eller uttryckt på ett annat sätt, om du klär upp det här hundbenet igen kommer du bara att kunna välja de ben som inte är markerade här.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;p&amp;gt;Om den här listan är tom betyder det förmodligen att du försöker skapa ben på fel sida av profilen.&amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;</target>
+        <target state="translated">&amp;lt;html&amp;gt;&amp;lt;head/&amp;gt;&amp;lt;body&amp;gt;&amp;lt;p&amp;gt;Lista över benpositioner (med alla ben på den platsen) som ingår i den här dressyren. Listan bestäms av hörnen i profilen och den valda &amp;lt;span style=&amp;quot; font-weight:600;&amp;quot;&amp;gt;Side&amp;lt;/span&amp;gt; för benen. &amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Du kan &amp;lt;span style=&amp;quot; font-weight:600;&amp;quot;&amp;gt;avmarkera&amp;lt;/span&amp;gt; de ben som du inte vill ska vara uppklädda.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Om ett ben är &amp;lt;span style=&amp;quot; font-weight:600;&amp;quot;&amp;gt;greyed out&amp;lt;/span&amp;gt; betyder det att det redan är uppklätt av en tidigare uppklädning. Eller uttryckt på ett annat sätt, om du klär upp det här hundbenet igen kommer du bara att kunna välja de ben som inte är markerade här.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Om den här listan är tom betyder det förmodligen att du försöker skapa ben på fel sida av profilen.&amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;</target>
         <context-group purpose="information">
           <context context-type="source">TaskPanel
 ../panels/DogboneEdit.ui:155</context>
@@ -7728,7 +7728,7 @@ Använd egenskapen KeepToolDown för att ändra detta</target>
       </trans-unit>
       <trans-unit id="6643154" resname="App::Property['Last Stepover Radius.  If 0, 50% of cutter is used. Tuning this can be used to improve stepover for some shapes']">
         <source>Last Stepover Radius.  If 0, 50% of cutter is used. Tuning this can be used to improve stepover for some shapes</source>
-        <target state="translated">Radie för sista stegövergången.  Om 0 används skäret 50% of. Inställning av detta kan användas för att förbättra stepover för vissa former</target>
+        <target state="translated">Radie för sista stepover. Om värdet är 0 används 50 % av skärets radie. Inställningen kan förbättra stepover för vissa former</target>
         <context-group purpose="information">
           <context context-type="source">App::Property
 ../../../Path/Op/PocketBase.py:185
@@ -8221,7 +8221,7 @@ Använd egenskapen KeepToolDown för att ändra detta</target>
       </trans-unit>
       <trans-unit id="6643262" resname="App::Property['Enable separate optimization of transitions between, and breaks within, each step over path.']">
         <source>Enable separate optimization of transitions between, and breaks within, each step over path.</source>
-        <target state="translated">Möjliggör separat optimering av övergångar mellan, och pauser inom, varje steg över banan.</target>
+        <target state="translated">Möjliggör separat optimering av övergångar mellan och avbrott inom varje stepover-bana.</target>
         <context-group purpose="information">
           <context context-type="source">App::Property
 ../../../Path/Op/Surface.py:373
@@ -11315,7 +11315,7 @@ https://wiki.freecad.org/CAM_Sanity</note>
       </trans-unit>
       <trans-unit id="6689666" resname="CAM_Operation['Copy {0}…']">
         <source>Copy {0}…</source>
-        <target state="translated">Kopiera {0}..</target>
+        <target state="translated">Kopiera {0}…</target>
         <context-group purpose="information">
           <context context-type="source">CAM_Operation
 ../../../Path/Op/Gui/Base.py:463</context>
@@ -11323,7 +11323,7 @@ https://wiki.freecad.org/CAM_Sanity</note>
       </trans-unit>
       <trans-unit id="6689668" resname="CAM_Operation['New tool controller…']">
         <source>New tool controller…</source>
-        <target state="translated">Ny verktygskontroll..</target>
+        <target state="translated">Ny verktygsstyrning…</target>
         <context-group purpose="information">
           <context context-type="source">CAM_Operation
 ../../../Path/Op/Gui/Base.py:464</context>
@@ -13099,7 +13099,7 @@ https://wiki.freecad.org/CAM_Sanity</note>
       </trans-unit>
       <trans-unit id="6681468" resname="CAM_ToolBit['Open Library Editor']">
         <source>Open Library Editor</source>
-        <target state="translated">Redaktör för öppet bibliotek</target>
+        <target state="translated">Redigerare för öppet bibliotek</target>
         <context-group purpose="information">
           <context context-type="source">CAM_ToolBit
 ../../../Path/Tool/library/ui/dock.py:89</context>
@@ -13944,7 +13944,7 @@ https://wiki.freecad.org/CAM_Sanity</note>
       </trans-unit>
       <trans-unit id="6681848" resname="CAM_ToolBitSaveAs['Save Tool As…']">
         <source>Save Tool As…</source>
-        <target state="translated">Spara verktyg som..</target>
+        <target state="translated">Spara verktyg som…</target>
         <context-group purpose="information">
           <context context-type="source">CAM_ToolBitSaveAs
 ../../../Path/Tool/toolbit/ui/cmd.py:77</context>
@@ -14024,7 +14024,7 @@ https://wiki.freecad.org/CAM_Sanity</note>
       </trans-unit>
       <trans-unit id="6689702" resname="CAM_ToolBitSelection['Add toolbit…']">
         <source>Add toolbit…</source>
-        <target state="translated">Lägg till verktygsbit..</target>
+        <target state="translated">Lägg till verktygsbit…</target>
         <context-group purpose="information">
           <context context-type="source">CAM_ToolBitSelection
 ../../../Path/Tool/library/ui/cmd.py:51</context>
