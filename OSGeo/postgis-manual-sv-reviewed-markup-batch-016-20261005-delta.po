@@ -1,0 +1,114 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-04 15:37+0000\n"
+"PO-Revision-Date: 2025-08-25 19:47+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://weblate.osgeo.org/projects/postgis/postgis-manual/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If an SRID is not specified, it defaults to 0. <varname>NULL</varname> is "
+"returned if the input <varname>bytea</varname> does not represent a "
+"<varname>POINT</varname> geometry."
+msgstr ""
+"Om ingen SRID anges används 0 som standard. <varname>NULL</varname> "
+"returneras om indata av typen <varname>bytea</varname> inte representerar en"
+" <varname>POINT</varname>-geometri."
+
+#. Tag: para
+#, no-c-format
+msgid "<varname>data</varname> input FlatGeobuf data."
+msgstr "Indata <varname>data</varname> är FlatGeobuf-data."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If <varname>startfraction</varname> and <varname>endfraction</varname> have "
+"the same value this is equivalent to <xref "
+"linkend=\"ST_LineInterpolatePoint\"/>."
+msgstr ""
+"Om <varname>startfraction</varname> och <varname>endfraction</varname> har "
+"samma värde motsvarar detta <xref linkend=\"ST_LineInterpolatePoint\"/>."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Adds a geometry column to an existing table of attributes. The "
+"<varname>schema_name</varname> is the name of the table schema. The "
+"<varname>srid</varname> must be an integer value reference to an entry in "
+"the SPATIAL_REF_SYS table. The <varname>type</varname> must be a string "
+"corresponding to the geometry type, eg, 'POLYGON' or 'MULTILINESTRING' . An "
+"error is thrown if the schemaname doesn't exist (or not visible in the "
+"current search_path) or the specified SRID, geometry type, or dimension is "
+"invalid."
+msgstr ""
+"Lägger till en geometrikolumn i en befintlig attributtabell. "
+"<varname>schema_name</varname> är namnet på tabellschemat. "
+"<varname>srid</varname> måste vara ett heltal som refererar till en post i "
+"tabellen SPATIAL_REF_SYS. <varname>type</varname> måste vara en sträng som "
+"motsvarar geometritypen, till exempel 'POLYGON' eller 'MULTILINESTRING'. Ett"
+" fel utlöses om schemanamnet inte finns (eller inte är synligt i den "
+"aktuella search_path) eller om angiven SRID, geometrityp eller dimension är "
+"ogiltig."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Changed: 2.0.0 This function no longer updates geometry_columns since "
+"geometry_columns is a view that reads from system catalogs. It by default "
+"also does not create constraints, but instead uses the built in type "
+"modifier behavior of PostgreSQL. So for example building a wgs84 POINT "
+"column with this function is now equivalent to: <code>ALTER TABLE some_table"
+" ADD COLUMN geom geometry(Point,4326);</code>"
+msgstr ""
+"Ändrad: 2.0.0 Den här funktionen uppdaterar inte längre geometry_columns "
+"eftersom geometry_columns är en vy som läser från systemkataloger. Den "
+"skapar inte heller begränsningar som standard, utan använder i stället "
+"PostgreSQLs inbyggda typmodifieringsbeteende. Att skapa en wgs84-POINT-"
+"kolumn med funktionen motsvarar därför nu: <code>ALTER TABLE some_table ADD "
+"COLUMN geom geometry(Point,4326);</code>"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The azimuth is a mathematical concept defined as the angle between a "
+"reference vector and a point, with angular units in radians. The result "
+"value in radians can be converted to degrees using the PostgreSQL function "
+"<varname>degrees()</varname>."
+msgstr ""
+"Azimut är ett matematiskt begrepp som definieras som vinkeln mellan en "
+"referensvektor och en punkt, med vinkelenheten radianer. Resultatvärdet i "
+"radianer kan konverteras till grader med PostgreSQL-funktionen "
+"<varname>degrees()</varname>."
+
+#, no-c-format
+#~ msgid ""
+#~ "If an SRID is not specified, it defaults to 0. <varname>NULL</varname> is "
+#~ "returned if the input <varname>bytea</varname> does not represent a "
+#~ "<varname>LINESTRING</varname>."
+#~ msgstr ""
+#~ "Om ingen SRID anges används 0 som standard. <varname>NULL</varname> "
+#~ "returneras om indata av typen <varname>bytea</varname> inte representerar en"
+#~ " <varname>LINESTRING</varname>."
+
+#, no-c-format
+#~ msgid ""
+#~ "If an SRID is not specified, it defaults to 0. <varname>NULL</varname> is "
+#~ "returned if the input <varname>bytea</varname> does not represent a "
+#~ "<varname>LINESTRING</varname> geometry. This an alias for <xref "
+#~ "linkend=\"ST_LineFromWKB\"/>."
+#~ msgstr ""
+#~ "Om ingen SRID anges används 0 som standard. <varname>NULL</varname> "
+#~ "returneras om indata av typen <varname>bytea</varname> inte representerar en"
+#~ " <varname>LINESTRING</varname>-geometri. Detta är ett alias för <xref "
+#~ "linkend=\"ST_LineFromWKB\"/>."
