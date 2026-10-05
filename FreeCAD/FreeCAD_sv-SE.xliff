@@ -4261,16 +4261,16 @@ can be rendered directly by the GPU.
 Note: Sometimes this feature may lead to a host of different
 issues ranging from graphical anomalies to GPU crash bugs. Remember to
 report this setting as enabled when seeking support.</source>
-        <target state="translated">Om du väljer detta alternativ kommer Vertex Buffer Objects (VBO) att användas.
-Ett VBO är en OpenGL-funktion som tillhandahåller metoder för att ladda upp
+        <target state="translated">Om detta alternativ väljs används Vertex Buffer Objects (VBO).
+Ett VBO är en OpenGL-funktion med metoder för att ladda upp
 vertexdata (position, normalvektor, färg etc.) till grafikkortet.
-VBO:er ger betydande prestandavinster eftersom data ligger i grafikminnet
-ligger i grafikminnet snarare än i systemminnet och därför kan
+VBO:er ger betydande prestandavinster eftersom data ligger
+i grafikminnet i stället för i systemminnet och därför
 kan renderas direkt av GPU:n.
 
-Obs: Ibland kan denna funktion leda till en mängd olika problem
-problem som sträcker sig från grafiska avvikelser till GPU-kraschbuggar. Kom ihåg att
-rapportera den här inställningen som aktiverad när du söker support.</target>
+Obs: Ibland kan den här funktionen leda till många olika
+problem, från grafiska avvikelser till krascher i GPU:n. Kom ihåg att
+rapportera att den här inställningen är aktiverad när du söker hjälp.</target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettings3DView
 ../PreferencePages/DlgSettings3DView.ui:303</context>
@@ -4316,13 +4316,13 @@ There are 3 options available to achieve this:
 3) 'Centralized', manually turn off cache in all nodes of all view provider, and
 only cache at the scene graph root node. This offers the fastest rendering speed
 but slower response to any scene changes.</source>
-        <target state="translated">"Cachelagring av rendering" är ett annat sätt att säga "Renderingsacceleration".
-Det finns 3 alternativ tillgängliga för att uppnå detta:
-1) 'Auto' (standard), låt Coin3D bestämma var cache ska lagras.
-2) 'Distribuerad', slå på cache manuellt för alla view provider root node.
-3) 'Centraliserad', stäng manuellt av cache i alla noder hos alla visningsleverantörer, och
-endast cache i rotnoden för scengrafen. Detta ger den snabbaste renderingshastigheten
-men långsammare svar på eventuella scenförändringar.</target>
+        <target state="translated">"Renderingscache" är ett annat sätt att säga "renderingsacceleration".
+Det finns tre alternativ:
+1) 'Auto' (standard): låt Coin3D bestämma var cachen ska lagras.
+2) 'Distributed': aktivera cachen manuellt för varje rotnod i visningsleverantören.
+3) 'Centralized': inaktivera cachen manuellt i alla noder i varje visningsleverantör
+och använd endast cache i scengrafens rotnod. Detta ger snabbast rendering
+men långsammare svar vid ändringar i scenen.</target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettings3DView
 ../PreferencePages/DlgSettings3DView.ui:405</context>
@@ -5118,8 +5118,8 @@ automatiskt köra en filåterställning när den startas</target>
       <trans-unit id="6581298" resname="Gui::Dialog::DlgSettingsDocument['Backup files will get extension '.FCbak' and file names&#10;get date suffix according to the specified format']">
         <source>Backup files will get extension '.FCbak' and file names
 get date suffix according to the specified format</source>
-        <target state="translated">Backupfiler får tillägget '.FCbak' och filnamnen får
-får datumsuffix enligt angivet format</target>
+        <target state="translated">Backupfiler får tillägget '.FCbak' och filnamnen
+får ett datumsuffix enligt angivet format</target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettingsDocument
 ../PreferencePages/DlgSettingsDocument.ui:529</context>
@@ -5914,7 +5914,7 @@ Ja jestem raczej za "Aktualny" lub "Obecny"</note>
       </trans-unit>
       <trans-unit id="6577432" resname="Gui::Dialog::DlgSettingsNavigation['Number of steps by turn when using arrows (default = 8 : step angle = 360/8 = 45 deg)']">
         <source>Number of steps by turn when using arrows (default = 8 : step angle = 360/8 = 45 deg)</source>
-        <target state="translated">Antal steg per varv vid användning av pilar (standard = 8 : stegvinkel = 360/8 = 45 grader)</target>
+        <target state="translated">Antal steg per varv vid användning av pilar (standard = 8: stegvinkel = 360/8 = 45 grader)</target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettingsNavigation
 ../PreferencePages/DlgSettingsNavigation.ui:36</context>
@@ -6849,7 +6849,7 @@ https://wiki.freecad.org/Preferences_Editor/ru#Выделение</note>
       </trans-unit>
       <trans-unit id="6626803" resname="Gui::Dialog::DlgSettingsViewColor['Label text color']">
         <source>Label text color</source>
-        <target state="translated">Färg på etiketttext</target>
+        <target state="translated">Etikettens textfärg</target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettingsViewColor
 ../PreferencePages/DlgSettingsViewColor.ui:459</context>
@@ -6857,7 +6857,7 @@ https://wiki.freecad.org/Preferences_Editor/ru#Выделение</note>
       </trans-unit>
       <trans-unit id="6626807" resname="Gui::Dialog::DlgSettingsViewColor['Label text size']">
         <source>Label text size</source>
-        <target state="translated">Storlek på etiketttext</target>
+        <target state="translated">Etikettens textstorlek</target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettingsViewColor
 ../PreferencePages/DlgSettingsViewColor.ui:495</context>
@@ -8817,7 +8817,7 @@ Spara alla ändringar?</target>
       </trans-unit>
       <trans-unit id="176034" resname="Gui::EditorView[' - Editor']" approved="yes">
         <source> - Editor</source>
-        <target state="translated"> - Redaktör</target>
+        <target state="translated"> - Redigerare</target>
         <context-group purpose="information">
           <context context-type="source">Gui::EditorView
 ../EditorView.cpp:554</context>
@@ -15452,9 +15452,9 @@ I'd also like to point out that the wiki is sorely in need of Hungarian and Turk
         <source>Enables non-intrusive pop-up notifications above the status bar notification area. Pop-up notifications can be manually dismissed by clicking on them, and also automatically dismissed by specifying a maximum and minimum duration for them to be displayed.
 
 Additionally, pop-up notifications can be disabled. In this case the user can still use the notification area as a quick-access location to view notifications, without the distracton of an additional pop-up.</source>
-        <target state="translated">Aktiverar icke-påträngande popup-meddelanden ovanför statusfältets meddelandeområde. Popup-meddelanden kan avaktiveras manuellt genom att klicka på dem, och även automatiskt genom att ange en maximal och minimal tid för hur länge de ska visas.
+        <target state="translated">Aktiverar icke-påträngande popup-meddelanden ovanför statusfältets meddelandeområde. Popup-meddelanden kan stängas manuellt genom att klicka på dem och även automatiskt genom att ange en maximal och minimal tid för hur länge de ska visas.
 
-Dessutom kan popup-meddelanden inaktiveras. I det här fallet kan användaren fortfarande använda meddelandefältet som en snabbåtkomstplats för att visa meddelanden, utan att distraheras av ytterligare en popup.</target>
+Dessutom kan popup-meddelanden inaktiveras. I det här fallet kan användaren fortfarande använda meddelandefältet som en snabbåtkomstplats för att visa meddelanden utan att distraheras av ytterligare en popup.</target>
         <context-group purpose="information">
           <context context-type="source">Gui::Dialog::DlgSettingsNotificationArea
 ../PreferencePages/DlgSettingsNotificationArea.ui:32</context>
