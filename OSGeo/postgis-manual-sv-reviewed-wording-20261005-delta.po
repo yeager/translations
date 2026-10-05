@@ -1,0 +1,67 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-04 15:37+0000\n"
+"PO-Revision-Date: 2026-10-04 17:07+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://weblate.osgeo.org/projects/postgis/postgis-manual/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16.2\n"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"For geography types: computation is performed using the inverse geodesic "
+"calculation. Units of length are in meters. The spheroid is specified by the"
+" SRID; when no SRID is provided, WGS84 is used. If <varname>use_spheroid = "
+"false</varname>, then the calculation is based on a sphere instead of a "
+"spheroid."
+msgstr ""
+"För geografityper: beräkningen utförs med den inversa geodetiska "
+"beräkningen. Längdenheter är meter. Sfäroiden anges av SRID; när inget SRID "
+"anges används WGS84. Om <varname>use_spheroid = false</varname> baseras "
+"beräkningen på en sfär i stället för en sfäroid."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Query towers that a 4-kilometer receiver in Minsk Hackerspace can get. Note:"
+" two conditions are required because the shorter "
+"<literal>LEAST(b.sending_range, 4000)</literal> will not use an index."
+msgstr ""
+"Fråga efter torn som en mottagare med räckvidden 4 kilometer i Minsk "
+"Hackerspace kan ta emot. Obs: två villkor krävs eftersom den kortare "
+"<literal>LEAST(b.sending_range, 4000)</literal> inte använder ett index."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"A PROJ pipeline string of the form: <varname>+proj=pipeline ...</varname>. "
+"Automatic axis normalisation will not be applied, and if necessary the "
+"caller will need to add an additional pipeline step, or remove "
+"<varname>axisswap</varname> steps."
+msgstr ""
+"En PROJ-pipeline-sträng med formen: <varname>+proj=pipeline ...</varname>. "
+"Automatisk axelnormalisering tillämpas inte och anroparen kan vid behov "
+"behöva lägga till ytterligare ett pipeline-steg eller ta bort "
+"<varname>axisswap</varname>-steg."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"For all spatial reference systems the units returned by measurement "
+"functions (e.g. <xref linkend=\"ST_Distance\"/>, <xref "
+"linkend=\"ST_Length\"/>, <xref linkend=\"ST_Perimeter\"/>, <xref "
+"linkend=\"ST_Area\"/>) and for the distance argument of <xref "
+"linkend=\"ST_DWithin\"/> are in meters."
+msgstr ""
+"För alla spatiala referenssystem anges enheterna från mätfunktioner (t.ex. "
+"<xref linkend=\"ST_Distance\"/>, <xref linkend=\"ST_Length\"/>, <xref "
+"linkend=\"ST_Perimeter\"/>, <xref linkend=\"ST_Area\"/>) och "
+"avståndsargumentet för <xref linkend=\"ST_DWithin\"/> i meter."
