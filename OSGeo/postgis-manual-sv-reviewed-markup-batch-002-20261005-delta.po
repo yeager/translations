@@ -1,0 +1,72 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-04 15:37+0000\n"
+"PO-Revision-Date: 2025-08-25 19:47+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://weblate.osgeo.org/projects/postgis/postgis-manual/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The core PostGIS objects (geometry and geography types, and their support "
+"functions) are in the <filename>postgis.sql</filename> script. Raster "
+"objects are in the <filename>rtpostgis.sql</filename> script. Topology "
+"objects are in the <filename>topology.sql</filename> script."
+msgstr ""
+"De centrala PostGIS-objekten (geometri- och geograftyper och deras "
+"stödfunktioner) finns i skriptet <filename>postgis.sql</filename>. "
+"Rasterobjekt finns i skriptet <filename>rtpostgis.sql</filename>. "
+"Topologiobjekt finns i skriptet topology <filename>.sql</filename>."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If you wish to add comments to the PostGIS functions, you can find them in "
+"the <filename>postgis_comments.sql</filename> script. Comments can be viewed"
+" by simply typing <command>\\dd [function_name]</command> from a "
+"<command>psql</command> terminal window."
+msgstr ""
+"Om du vill lägga till kommentarer till PostGIS-funktionerna kan du hitta dem"
+" i skriptet <filename>postgis_comments.sql</filename>. Kommentarer kan visas"
+" genom att helt enkelt skriva <command>\\dd [function_name]</command> från "
+"ett ett terminalfönster för <command>psql</command>."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If your database is really old or you know you've been using long deprecated"
+" functions in your views and functions, you might need to load "
+"<filename>legacy.sql</filename> for all your functions and views etc. to "
+"properly come back. Only do this if _really_ needed. Consider upgrading your"
+" views and functions before dumping instead, if possible. The deprecated "
+"functions can be later removed by loading "
+"<filename>uninstall_legacy.sql</filename>."
+msgstr ""
+"Om din databas är riktigt gammal eller om du vet att du har använt "
+"funktioner som inte längre används i dina vyer och funktioner, kan du behöva"
+" läsa in <filename>legacy.sql</filename> för att alla dina funktioner och "
+"vyer etc. ska komma tillbaka på rätt sätt. Gör detta endast om det "
+"_verkligen_ behövs. Överväg att uppgradera dina vyer och funktioner innan du"
+" dumpar dem, om möjligt. De föråldrade funktionerna kan senare tas bort "
+"genom att läsa in <filename>uninstall_legacy.sql</filename>."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Restore your backup into your fresh <varname>newdb</varname> database using "
+"postgis_restore. Unexpected errors, if any, will be printed to the standard "
+"error stream by psql. Keep a log of those."
+msgstr ""
+"Återställ din säkerhetskopia till din den nya "
+"<varname>newdb</varname>-databasen med postgis_restore. Oväntade fel, om "
+"några, kommer att skrivas ut till standardfelströmmen av psql. Förvara en "
+"logg över dessa."
