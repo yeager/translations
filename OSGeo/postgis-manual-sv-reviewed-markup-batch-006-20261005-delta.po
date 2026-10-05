@@ -1,0 +1,104 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-04 15:37+0000\n"
+"PO-Revision-Date: 2025-08-25 19:47+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://weblate.osgeo.org/projects/postgis/postgis-manual/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If any arguments are null, the given edge is unknown (must already exist in "
+"the <varname>edge</varname> table of the topology schema), the topology name"
+" is invalid then an error is thrown."
+msgstr ""
+"Om något av argumenten är null, om den angivna kanten är okänd (den måste "
+"redan finnas i topologischemats <varname>edge</varname>-tabell) eller om "
+"topologinamnet är ogiltigt, utlöses ett fel."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If any arguments are null, the given edge does not exist in the "
+"<varname>edge</varname> table of the topology schema, the "
+"<varname>acurve</varname> is not a <varname>LINESTRING</varname>, or the "
+"modification would change the underlying topology then an error is thrown."
+msgstr ""
+"Om något av argumenten är null, om den angivna kanten inte finns i "
+"topologischemats <varname>edge</varname>-tabell, om "
+"<varname>acurve</varname> inte är en <varname>LINESTRING</varname> eller om "
+"ändringen skulle ändra den underliggande topologin, utlöses ett fel."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If the new <varname>acurve</varname> is not simple, then an error is thrown."
+msgstr "Om den nya <varname>acurve</varname> inte är enkel utlöses ett fel."
+
+#. Tag: refpurpose
+#, no-c-format
+msgid ""
+"Moves an isolated node in a topology from one point to another. If new "
+"<varname>apoint</varname> geometry exists as a node an error is thrown. "
+"Returns description of move."
+msgstr ""
+"Flyttar en isolerad nod i en topologi från en punkt till en annan. Om den "
+"nya geometrin <varname>apoint</varname> finns som nod utlöses ett fel. "
+"Returnerar en beskrivning av förflyttningen."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Moves an isolated node in a topology from one point to another. If new "
+"<varname>apoint</varname> geometry exists as a node an error is thrown."
+msgstr ""
+"Flyttar en isolerad nod i en topologi från en punkt till en annan. Om den "
+"nya geometrin <varname>apoint</varname> finns som nod utlöses ett fel."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If <varname>apoint</varname> doesn't intersect an edge, returns 0 (zero)."
+msgstr "Om <varname>apoint</varname> inte korsar en kant returneras 0 (noll)."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If <varname>apoint</varname> doesn't intersect a node, returns 0 (zero)."
+msgstr "Om <varname>apoint</varname> inte korsar en nod returneras 0 (noll)."
+
+#. Tag: refpurpose
+#, no-c-format
+msgid "Returns a set of ordered edges that bound <varname>aface</varname>."
+msgstr ""
+"Returnerar en uppsättning ordnade kanter som avgränsar "
+"<varname>aface</varname>."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Returns a set of ordered edges that bound <varname>aface</varname>. Each "
+"output consists of a sequence and edgeid. Sequence numbers start with value "
+"1."
+msgstr ""
+"Returnerar en uppsättning ordnade kanter som avgränsar "
+"<varname>aface</varname>. Varje utdata består av ett sekvensnummer och ett "
+"kant-id. Sekvensnumren börjar på 1."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If the <varname>apoint</varname> geometry already exists as a node, the node"
+" is not added but the existing nodeid is returned."
+msgstr ""
+"Om geometrin <varname>apoint</varname> redan finns som en nod läggs noden "
+"inte till, utan befintligt nod-id returneras."
