@@ -1,0 +1,65 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-04 15:37+0000\n"
+"PO-Revision-Date: 2025-08-25 19:47+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://weblate.osgeo.org/projects/postgis/postgis-manual/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Adds an edge to the edge table and associated nodes to the nodes table of "
+"the specified <varname>toponame</varname> schema using the specified "
+"linestring geometry and returns the edgeid of the new or existing record. "
+"The newly added edge has \"universe\" face on both sides and links to "
+"itself."
+msgstr ""
+"Lägger till en kant i kanttabellen och associerade noder i nodtabellen i det"
+" angivna schemat <varname>toponame</varname> med den angivna "
+"linjesträngsgeometrin och returnerar kant-id:t för den nya eller befintliga "
+"posten. Den nya kanten har ytan ”universe” på båda sidor och länkar till sig"
+" själv."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If the <varname>aline</varname> geometry crosses, overlaps, contains or is "
+"contained by an existing linestring edge, then an error is thrown and the "
+"edge is not added."
+msgstr ""
+"Om geometrin <varname>aline</varname> korsar, överlappar, innehåller eller "
+"innesluts av en befintlig linjesträngskant, utlöses ett fel och kanten läggs"
+" inte till."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If the <varname>apolygon</varname> geometry already exists as a face, then: "
+"if <varname>force_new</varname> is false (the default) the face id of the "
+"existing face is returned; if <varname>force_new</varname> is true a new id "
+"will be assigned to the newly registered face."
+msgstr ""
+"Om geometrin <varname>apolygon</varname> redan finns som en yta gäller "
+"följande: om <varname>force_new</varname> är false (standard) returneras den"
+" befintliga ytans id; om <varname>force_new</varname> är true tilldelas den "
+"nyregistrerade ytan ett nytt id."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The <varname>apolygon</varname> geometry must have the same "
+"<varname>srid</varname> as defined for the topology otherwise an invalid "
+"spatial reference sys error will be thrown."
+msgstr ""
+"Geometrin <varname>apolygon</varname> måste ha samma <varname>srid</varname>"
+" som anges för topologin, annars utlöses ett fel om ogiltigt spatialt "
+"referenssystem."
