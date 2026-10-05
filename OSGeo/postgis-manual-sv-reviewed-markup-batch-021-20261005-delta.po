@@ -1,0 +1,57 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-04 15:37+0000\n"
+"PO-Revision-Date: 2025-08-25 19:47+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://weblate.osgeo.org/projects/postgis/postgis-manual/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"This is not an aggregate function. To compute the concave hull of a set of "
+"geometries use <xref linkend=\"ST_Collect\"/> (e.g. "
+"<code>ST_ConcaveHull(ST_Collect(geom ), 0.80)</code>."
+msgstr ""
+"Detta är inte en aggregatfunktion. Använd <xref linkend=\"ST_Collect\"/> för"
+" att beräkna det konkava höljet för en uppsättning geometrier (till exempel "
+"<code>ST_ConcaveHull(ST_Collect(geom ), 0.80)</code>)."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"This is not an aggregate function. To compute the convex hull of a set of "
+"geometries, use <xref linkend=\"ST_Collect\"/> to aggregate them into a "
+"geometry collection (e.g. <code>ST_ConvexHull(ST_Collect(geom))</code>."
+msgstr ""
+"Detta är inte en aggregatfunktion. Använd <xref linkend=\"ST_Collect\"/> för"
+" att beräkna det konvexa höljet för en uppsättning geometrier genom att "
+"aggregera dem till en geometrisamling (till exempel "
+"<code>ST_ConvexHull(ST_Collect(geom))</code>)."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Computes the <link "
+"xlink:href=\"http://en.wikipedia.org/wiki/Delaunay_triangulation\">Delaunay "
+"triangulation</link> of the vertices of the input geometry. The optional "
+"<varname>tolerance</varname> can be used to snap nearby input vertices "
+"together, which improves robustness in some situations. The result geometry "
+"is bounded by the convex hull of the input vertices. The result geometry "
+"representation is determined by the <varname>flags</varname> code:"
+msgstr ""
+"Beräknar <link "
+"xlink:href=\"http://en.wikipedia.org/wiki/Delaunay_triangulation\">Delaunay "
+"triangulation</link> för hörnen i indatageometrin. Den valfria parametern "
+"<varname>tolerance</varname> kan användas för att fästa ihop närliggande "
+"indatapunkter, vilket förbättrar robustheten i vissa situationer. "
+"Resultatgeometrin avgränsas av det konvexa höljet för indatapunkterna. "
+"Resultatgeometrins representation bestäms av koden <varname>flags</varname>:"
