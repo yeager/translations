@@ -1,0 +1,83 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-04 15:37+0000\n"
+"PO-Revision-Date: 2025-08-25 19:47+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://weblate.osgeo.org/projects/postgis/postgis-manual/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The functions below are spatial aggregate functions that are used in the "
+"same way as SQL aggregate function such as <code>sum</code> and "
+"<code>average</code>."
+msgstr ""
+"Funktionerna nedan är spatiala aggregatfunktioner som används på samma sätt "
+"som SQL-aggregatfunktioner som <code>sum</code> och <code>average</code>."
+
+#. Tag: refpurpose
+#, no-c-format
+msgid ""
+"Returns a set of <varname>geometry_dump</varname> rows for the components of"
+" a geometry."
+msgstr ""
+"Returnerar en uppsättning rader med <varname>geometry_dump</varname> för "
+"komponenterna i en geometri."
+
+#. Tag: refpurpose
+#, no-c-format
+msgid ""
+"Returns a set of <varname>geometry_dump</varname> rows for the coordinates "
+"in a geometry."
+msgstr ""
+"Returnerar en uppsättning rader med <varname>geometry_dump</varname> för "
+"koordinaterna i en geometri."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"the <parameter>geom</parameter> field <varname>POINT</varname>s represent "
+"the coordinates of the supplied geometry."
+msgstr ""
+"Fältet <parameter>geom</parameter> med <varname>POINT</varname>-värden "
+"representerar koordinaterna för den angivna geometrin."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"the <parameter>path</parameter> field (an <varname>integer[]</varname>) is "
+"an index enumerating the coordinate positions in the elements of the "
+"supplied geometry. The indices are 1-based. For example, for a "
+"<varname>LINESTRING</varname> the paths are <varname>{i}</varname> where "
+"<varname>i</varname> is the <varname>nth</varname> coordinate in the "
+"<varname>LINESTRING</varname>. For a <varname>POLYGON</varname> the paths "
+"are <varname>{i,j}</varname> where <varname>i</varname> is the ring number "
+"(1 is outer; inner rings follow) and <varname>j</varname> is the coordinate "
+"position in the ring."
+msgstr ""
+"Fältet <parameter>path</parameter> (en <varname>integer[]</varname>) är ett "
+"index som räknar upp koordinatpositionerna i den angivna geometrins element."
+" Indexen är 1-baserade. För en <varname>LINESTRING</varname> är sökvägarna "
+"till exempel <varname>{i}</varname>, där <varname>i</varname> är den "
+"<varname>nth</varname> koordinaten i <varname>LINESTRING</varname>. För en "
+"<varname>POLYGON</varname> är sökvägarna <varname>{i,j}</varname>, där "
+"<varname>i</varname> är ringnumret (1 är den yttre ringen, följt av inre "
+"ringar) och <varname>j</varname> är koordinatpositionen i ringen."
+
+#. Tag: refpurpose
+#, no-c-format
+msgid ""
+"Returns a set of <varname>geometry_dump</varname> rows for the segments in a"
+" geometry."
+msgstr ""
+"Returnerar en uppsättning rader med <varname>geometry_dump</varname> för "
+"segmenten i en geometri."
