@@ -1,0 +1,75 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-04 15:37+0000\n"
+"PO-Revision-Date: 2025-08-25 19:47+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://weblate.osgeo.org/projects/postgis/postgis-manual/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If the spatial reference system (srid) of the <varname>alinestring</varname>"
+" geometry is not the same as the topology, any of the input arguments are "
+"null, or the nodes are contained in more than one face, or the nodes are "
+"start or end nodes of an existing edge, then an exception is thrown."
+msgstr ""
+"Om det spatiala referenssystemet (srid) för geometrin "
+"<varname>alinestring</varname> inte är detsamma som topologins, om något av "
+"indataargumenten är null, om noderna finns i mer än en yta eller om noderna "
+"är start- eller slutnoder för en befintlig kant, utlöses ett undantag."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If the <varname>alinestring</varname> is not within the face of the face the"
+" <varname>anode</varname> and <varname>anothernode</varname> belong to, then"
+" an exception is thrown."
+msgstr ""
+"Om <varname>alinestring</varname> inte ligger inom den yta som noderna "
+"<varname>anode</varname> och <varname>anothernode</varname> tillhör, utlöses"
+" ett undantag."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If the <varname>anode</varname> and <varname>anothernode</varname> are not "
+"the start and end points of the <varname>alinestring</varname> then an "
+"exception is thrown."
+msgstr ""
+"Om <varname>anode</varname> och <varname>anothernode</varname> inte är "
+"start- och slutpunkterna för <varname>alinestring</varname>, utlöses ett "
+"undantag."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If the spatial reference system (srid) of the <varname>acurve</varname> "
+"geometry is not the same as the topology an exception is thrown."
+msgstr ""
+"Om det spatiala referenssystemet (srid) för geometrin "
+"<varname>acurve</varname> inte är detsamma som topologins utlöses ett "
+"undantag."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"If any arguments are null, the given nodes are unknown (must already exist "
+"in the <varname>node</varname> table of the topology schema) , the "
+"<varname>acurve</varname> is not a <varname>LINESTRING</varname>, the "
+"<varname>anode</varname> and <varname>anothernode</varname> are not the "
+"start and endpoints of <varname>acurve</varname> then an error is thrown."
+msgstr ""
+"Om något argument är null, om de angivna noderna är okända (de måste redan "
+"finnas i topologischemats <varname>node</varname>-tabell), om "
+"<varname>acurve</varname> inte är en <varname>LINESTRING</varname> eller om "
+"<varname>anode</varname> och <varname>anothernode</varname> inte är start- "
+"och slutpunkterna för <varname>acurve</varname>, utlöses ett fel."
