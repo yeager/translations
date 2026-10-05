@@ -1,0 +1,110 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-04 15:37+0000\n"
+"PO-Revision-Date: 2025-08-25 19:47+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://weblate.osgeo.org/projects/postgis/postgis-manual/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"A window function that returns a cluster number for each input geometry, "
+"using the 2D <link "
+"xlink:href=\"https://en.wikipedia.org/wiki/DBSCAN\">Density-based spatial "
+"clustering of applications with noise (DBSCAN)</link> algorithm. Unlike "
+"<xref linkend=\"ST_ClusterKMeans\"/>, it does not require the number of "
+"clusters to be specified, but instead uses the desired <link "
+"linkend=\"ST_Distance\">distance</link> (<varname>eps</varname>) and density"
+" (<varname>minpoints</varname>) parameters to determine each cluster."
+msgstr ""
+"En fönsterfunktion som returnerar ett klusternummer för varje indatageometri"
+" med 2D-algoritmen <link "
+"xlink:href=\"https://en.wikipedia.org/wiki/DBSCAN\">Density-based spatial "
+"clustering of applications with noise (DBSCAN)</link>. Till skillnad från "
+"<xref linkend=\"ST_ClusterKMeans\"/> kräver den inte att antalet kluster "
+"anges, utan använder i stället parametrarna för önskat <link "
+"linkend=\"ST_Distance\">distance</link> (<varname>eps</varname>) och "
+"densitet (<varname>minpoints</varname>) för att bestämma varje kluster."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"ST_ClusterWithin is equivalent to running <xref "
+"linkend=\"ST_ClusterDBSCAN\"/> with <code>minpoints =&gt; 0</code>."
+msgstr ""
+"ST_ClusterWithin motsvarar att köra <xref linkend=\"ST_ClusterDBSCAN\"/> med"
+" <code>minpoints =&gt; 0</code>."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"A window function that returns a cluster number for each input geometry. "
+"Clustering partitions the geometries into sets in which each geometry is "
+"within the specified <varname>distance</varname> of at least one other "
+"geometry in the same cluster. Distances are Cartesian distances in the units"
+" of the SRID."
+msgstr ""
+"En fönsterfunktion som returnerar ett klusternummer för varje "
+"indatageometri. Klusterindelningen delar in geometrierna i uppsättningar där"
+" varje geometri ligger inom angivet <varname>distance</varname> från minst "
+"en annan geometri i samma kluster. Avstånden är kartesiska avstånd i SRID-"
+"enheterna."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"ST_ClusterWithinWin is equivalent to running <xref "
+"linkend=\"ST_ClusterDBSCAN\"/> with <code>minpoints =&gt; 0</code>."
+msgstr ""
+"ST_ClusterWithinWin motsvarar att köra <xref linkend=\"ST_ClusterDBSCAN\"/> "
+"med <code>minpoints =&gt; 0</code>."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Changed: 2.1.0 As a result of the introduction of geography support, the "
+"usage <code>ST_Segmentize('LINESTRING(1 2, 3 4)', 0.5)</code> causes an "
+"ambiguous function error. The input needs to be properly typed as a geometry"
+" or geography. Use ST_GeomFromText, ST_GeogFromText or a cast to the "
+"required type (e.g. <code>ST_Segmentize('LINESTRING(1 2, 3 4)'::geometry, "
+"0.5) )</code>"
+msgstr ""
+"Ändrad i 2.1.0: Införandet av geografistöd gör att "
+"<code>ST_Segmentize('LINESTRING(1 2, 3 4)', 0.5)</code> orsakar ett "
+"tvetydigt funktionsfel. Indata måste typas korrekt som geometri eller "
+"geografi. Använd ST_GeomFromText, ST_GeogFromText eller en typomvandling "
+"till nödvändig typ, till exempel <code>ST_Segmentize('LINESTRING(1 2, 3 "
+"4)'::geometry, 0.5) )</code>"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Returned <varname>POLYGON</varname> geometries will always be clockwise "
+"oriented."
+msgstr ""
+"Återlämnade <varname>POLYGON</varname>-geometrier är alltid orienterade "
+"medurs."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The <varname>ST_PointFromWKB</varname> function, takes a well-known binary "
+"representation of geometry and a Spatial Reference System ID "
+"(<varname>SRID</varname>) and creates an instance of the appropriate "
+"geometry type - in this case, a <varname>POINT</varname> geometry. This "
+"function plays the role of the Geometry Factory in SQL."
+msgstr ""
+"Funktionen <varname>ST_PointFromWKB</varname> tar en välkänd binär "
+"representation av geometri och ett Spatial Reference System ID "
+"(<varname>SRID</varname>) och skapar en instans av lämplig geometrityp, i "
+"detta fall en <varname>POINT</varname>-geometri. Funktionen har samma roll "
+"som Geometry Factory i SQL."
