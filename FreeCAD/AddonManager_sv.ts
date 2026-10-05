@@ -180,7 +180,7 @@
     <message>
         <location filename="../../addonmanager_installer_gui.py" line="654"/>
         <source>This addon (or one of its dependencies) requires Python {}, and your system is running {}. Installation cancelled.</source>
-        <translation>Det här tillägget (eller ett av dess beroenden) kräver Python {}, och ditt system kör {}. Installationen avbröts.</translation>
+        <translation>Det här tillägget (eller ett av dess beroenden) kräver Python {}. Ditt system kör {}. Installationen avbröts.</translation>
     </message>
     <message>
         <location filename="../../addonmanager_installer_gui.py" line="707"/>
