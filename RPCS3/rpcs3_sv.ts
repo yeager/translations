@@ -585,19 +585,15 @@ Plus</source>
         <location filename="rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="102"/>
         <source>L5
 Minus</source>
-        <translation>Dessa bibliotek använder LLE som standard (den nedre listan); ett val växlar till HLE.
-LLE – ”Low Level Emulated”: funktionskoden i den valda SPRX-filen används för exporterade inbyggda funktioner.
-HLE – ”High Level Emulated”: emulatorns alternativa kod används i stället för exporterade inbyggda funktioner.
-Om du väljer fel fungerar spelen inte! Lämna båda listorna tomma om du är osäker. HLE för alla SPRX-filer gör att emulatorn kan starta utan installerad inbyggd programvara. (experimentellt)</translation>
+        <translation>L5
+Minus</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="103"/>
         <source>R4
 Dial CW</source>
-        <translation>Dessa bibliotek använder HLE som standard (den övre listan); ett val växlar till LLE.
-LLE – ”Low Level Emulated”: funktionskoden i den valda SPRX-filen används för exporterade inbyggda funktioner.
-HLE – ”High Level Emulated”: emulatorns alternativa kod används i stället för exporterade inbyggda funktioner.
-Om du väljer fel fungerar spelen inte! Lämna båda listorna tomma om du är osäker. HLE för alla SPRX-filer gör att emulatorn kan starta utan installerad inbyggd programvara. (experimentellt)</translation>
+        <translation>R4
+Vrid medurs</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="104"/>
@@ -821,8 +817,9 @@ Observera att tillståndssparfilen inte tas bort helt, utan bara ignoreras av RP
         <source>Disable SPU GETLLAR spin optimization.
 This can cause severe performance degradation and stuttering in many games.
 This option is only needed for a select number of games.</source>
-        <translation>När läget är aktiverat prioriterar SPU-emuleringen kompatibilitet med tillståndssparfiler, men prestandan kan minska något.
-När läget är inaktiverat kan vissa spel inte skapa en tillståndssparfil och i stället visa ett SPU-pausfel i loggen.</translation>
+        <translation>Inaktivera snurroptimering för SPU GETLLAR.
+Detta kan orsaka allvarliga prestandaförsämringar och ryckighet i många spel.
+Alternativet behövs bara för ett fåtal spel.</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/tooltips.h" line="44"/>
@@ -846,8 +843,10 @@ Det gör att spelaren kan förbereda sig utan att omedelbart kastas in i handlin
 · Precise is the most accurate to PS3 behaviour. Required for accurate visuals in some titles such as Demon&apos;s Souls and The Darkness.
 · Approximate is a much faster way to generate occlusion data which may not always match what the PS3 would generate. Works well with most PS3 games.
 · Relaxed changes the synchronization method completely and can greatly improve performance in some games or completely break others.</source>
-        <translation>När alternativet är aktiverat mäts SPU-prestandan under körning.
-Aktivera det bara på en utvecklares begäran, eftersom det i sig minskar prestandan något.</translation>
+        <translation>Ändrar synkroniseringsbeteendet för ZCULL-rapporter. Prova dig fram till bästa alternativet för ditt spel. Ungefärligt läge rekommenderas för de flesta spel.
+· Precist ger det beteende som ligger närmast PS3. Krävs för korrekt grafik i vissa spel, till exempel Demon's Souls och The Darkness.
+· Ungefärligt är ett betydligt snabbare sätt att generera ocklusionsdata som inte alltid motsvarar det som PS3 skulle generera. Fungerar bra med de flesta PS3-spel.
+· Avslappnat ändrar synkroniseringsmetoden helt och kan ge stora prestandavinster i vissa spel eller helt slå sönder andra.</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/tooltips.h" line="47"/>
@@ -6401,7 +6400,7 @@ Förlopp: %1/%2 cacher kompilerade</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="165"/>
         <source>&amp;Change Custom Configuration</source>
-        <translation>&amp;Ändra anpassad konfiguration</translation>
+        <translation>Ä&amp;ndra anpassad konfiguration</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="166"/>
@@ -6421,7 +6420,7 @@ Förlopp: %1/%2 cacher kompilerade</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="170"/>
         <source>&amp;Change Custom Gamepad Configuration</source>
-        <translation>&amp;Ändra anpassad handkontrollskonfiguration</translation>
+        <translation>Ä&amp;ndra anpassad handkontrollskonfiguration</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="171"/>
@@ -6548,7 +6547,7 @@ Förlopp: %1/%2 cacher kompilerade</translation>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="345"/>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="1050"/>
         <source>&amp;Reset Time Played</source>
-        <translation>&amp;Återställ speltid</translation>
+        <translation>Å&amp;terställ speltid</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="303"/>
@@ -6699,17 +6698,17 @@ Förlopp: %1/%2 cacher kompilerade</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="501"/>
         <source>&amp;Open Folder</source>
-        <translation>&amp;Öppna mapp</translation>
+        <translation>Ö&amp;ppna mapp</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="512"/>
         <source>&amp;Open Disc Game Folder</source>
-        <translation>&amp;Öppna mapp för skivspel</translation>
+        <translation>Ö&amp;ppna mapp för skivspel</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="528"/>
         <source>&amp;Open %0 Folder</source>
-        <translation>&amp;Öppna mappen %0</translation>
+        <translation>Ö&amp;ppna mappen %0</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="528"/>
@@ -6719,37 +6718,37 @@ Förlopp: %1/%2 cacher kompilerade</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="540"/>
         <source>&amp;Open Custom Config Folder</source>
-        <translation>&amp;Öppna mapp för anpassad konfiguration</translation>
+        <translation>Ö&amp;ppna mapp för anpassad konfiguration</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="565"/>
         <source>&amp;Open Cache Folder</source>
-        <translation>&amp;Öppna cachemapp</translation>
+        <translation>Ö&amp;ppna cachemapp</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="574"/>
         <source>&amp;Open Data Folder</source>
-        <translation>&amp;Öppna datamapp</translation>
+        <translation>Ö&amp;ppna datamapp</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="583"/>
         <source>&amp;Open Savestates Folder</source>
-        <translation>&amp;Öppna mapp för sparade tillstånd</translation>
+        <translation>Ö&amp;ppna mapp för sparade tillstånd</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="592"/>
         <source>&amp;Open Captures Folder</source>
-        <translation>&amp;Öppna inspelningsmapp</translation>
+        <translation>Ö&amp;ppna inspelningsmapp</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="601"/>
         <source>&amp;Open Recordings Folder</source>
-        <translation>&amp;Öppna videoinspelningsmapp</translation>
+        <translation>Ö&amp;ppna videoinspelningsmapp</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="610"/>
         <source>&amp;Open Screenshots Folder</source>
-        <translation>&amp;Öppna skärmbildsmapp</translation>
+        <translation>Ö&amp;ppna skärmbildsmapp</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="957"/>
@@ -6789,7 +6788,7 @@ Förlopp: %1/%2 cacher kompilerade</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="552"/>
         <source>&amp;Open Custom Gamepad Config Folder</source>
-        <translation>&amp;Öppna mapp för anpassad handkontrollskonfiguration</translation>
+        <translation>Ö&amp;ppna mapp för anpassad handkontrollskonfiguration</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="618"/>
@@ -9053,7 +9052,8 @@ Utrymme som behövs: %0 kB</translation>
         <source>An error has occurred.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>Skärmtangentbord</translation>
+        <translation>Ett fel har inträffat.
+(%0)</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/localized_emu.h" line="158"/>
@@ -10510,7 +10510,7 @@ Lägg till spel i RPCS3:s huvudfönster.</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/log_viewer.cpp" line="85"/>
         <source>&amp;Open log file</source>
-        <translation>&amp;Öppna loggfil</translation>
+        <translation>Ö&amp;ppna loggfil</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/log_viewer.cpp" line="86"/>
@@ -12367,7 +12367,7 @@ Den loggas av vissa sceNpDrm*-funktioner när spelet/programmet som äger ”%0�
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2090"/>
         <source>&amp;Resume</source>
-        <translation>&amp;Återuppta</translation>
+        <translation>Å&amp;teruppta</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2110"/>
@@ -16319,9 +16319,8 @@ Bekräfta genom att skriva ditt användarnamn nedan och klicka på &quot;Ja&quot
     <message numerus="yes">
         <location filename="rpcs3/rpcs3qt/save_manager_dialog.cpp" line="599"/>
         <source>Are you sure you want to delete these %n items?</source>
-        <translation>
-            <numerusform>Är du säker på att du vill ta bort detta objekt?</numerusform>
-            <numerusform>Är du säker på att du vill ta bort dessa %n objekt?</numerusform>
+        <translation><numerusform>Är du säker på att du vill ta bort %n objekt?</numerusform>
+            <numerusform>Är du säker på att du vill ta bort %n objekt?</numerusform>
         </translation>
     </message>
     <message>
@@ -16332,7 +16331,7 @@ Bekräfta genom att skriva ditt användarnamn nedan och klicka på &quot;Ja&quot
     <message>
         <location filename="rpcs3/rpcs3qt/save_manager_dialog.cpp" line="624"/>
         <source>&amp;Open Save Directory</source>
-        <translation>&amp;Öppna katalog för sparade data</translation>
+        <translation>Ö&amp;ppna katalog för sparade data</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/save_manager_dialog.cpp" line="678"/>
@@ -16457,7 +16456,7 @@ Bekräfta genom att skriva ditt användarnamn nedan och klicka på &quot;Ja&quot
         <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="490"/>
         <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="551"/>
         <source>&amp;Open Savestate Directory</source>
-        <translation>&amp;Öppna katalog för sparade tillstånd</translation>
+        <translation>Ö&amp;ppna katalog för sparade tillstånd</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="491"/>
@@ -16601,7 +16600,7 @@ Bekräfta genom att skriva ditt användarnamn nedan och klicka på &quot;Ja&quot
     <message>
         <location filename="rpcs3/rpcs3qt/screenshot_preview.cpp" line="37"/>
         <source>&amp;Open file location</source>
-        <translation>&amp;Öppna filplats</translation>
+        <translation>Ö&amp;ppna filplats</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/screenshot_preview.cpp" line="40"/>
@@ -19613,7 +19612,7 @@ Misslyckade spel:
         <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1291"/>
         <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1434"/>
         <source>&amp;Open Trophy Directory</source>
-        <translation>&amp;Öppna trofékatalog</translation>
+        <translation>Ö&amp;ppna trofékatalog</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1311"/>
@@ -20105,7 +20104,7 @@ Stoppa emulatorn nu?</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/user_manager_dialog.cpp" line="412"/>
         <source>&amp;Open User Directory</source>
-        <translation>&amp;Öppna användarkatalog</translation>
+        <translation>Ö&amp;ppna användarkatalog</translation>
     </message>
 </context>
 <context>
