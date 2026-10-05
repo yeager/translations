@@ -11,7 +11,7 @@ Kontrollen bygger på de aktuella lokala exporterna och arbetskopiorna. En tom k
 | FreeCAD | svenska XLIFF- och TS-exporter | XML-kontroll | 38 501 segment med källtext; 0 tomma/ofärdiga målsegment. |
 | Cacti | `cacti-sv-reviewed-20261005.po` | msgfmt, gettext, l10n-lint, Gitleaks | 0 tomma, 0 fuzzy, inga lintfel eller varningar. |
 | Kodi core | `kodi-core-kodi-main-sv_se.po` | gettext | 0 tomma, 0 fuzzy. |
-| Codeberg/Forgejo | `forgejo-locale_sv-SE-reviewed-20261005.json` | JSON-kontroll | 1 135 textvärden; 0 tomma. |
+| Codeberg/Forgejo | `forgejo-locale_sv-SE-reviewed-20261005.json` | JSON-kontroll | 1 169 textvärden; 0 tomma. |
 | RPCS3 | `rpcs3_sv.ts` | XML-kontroll | 3 618 meddelanden; 0 ofärdiga. |
 | PCSX2 | `pcsx2-qt_sv-SE.ts` | XML-kontroll | 5 049 meddelanden; 0 ofärdiga. |
 | PostGIS manual | aktuell PO-arbetskopia | gettext | 0 tomma, 0 fuzzy. |
