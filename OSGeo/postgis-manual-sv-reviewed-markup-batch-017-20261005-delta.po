@@ -1,0 +1,70 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-04 15:37+0000\n"
+"PO-Revision-Date: 2025-08-25 19:47+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://weblate.osgeo.org/projects/postgis/postgis-manual/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#. Tag: para
+#, no-c-format
+msgid "If a geometry has a minimum clearance of <varname>e</varname>, then:"
+msgstr ""
+"Om en geometri har ett minsta avstånd på <varname>e</varname> gäller "
+"följande:"
+
+#. Tag: para
+#, no-c-format
+msgid "<varname>row</varname> row data with at least a geometry column."
+msgstr "Raddata <varname>row</varname> med minst en geometrikolumn."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The <varname>maxdecimaldigits</varname> argument may be used to reduce the "
+"maximum number of decimal places used in output (defaults to 9). If you are "
+"using EPSG:4326 and are outputting the geometry only for display, "
+"<varname>maxdecimaldigits</varname>=6 can be a good choice for many maps."
+msgstr ""
+"Argumentet <varname>maxdecimaldigits</varname> kan användas för att minska "
+"det maximala antalet decimaler som används i utdata (standard är 9). Om du "
+"använder EPSG:4326 och endast matar ut geometrin för visning kan "
+"<varname>maxdecimaldigits</varname>=6 vara ett bra val för många kartor."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"The <varname>raster2pgsql</varname> is a raster loader executable that loads"
+" GDAL supported raster formats into SQL suitable for loading into a PostGIS "
+"raster table. It is capable of loading folders of raster files as well as "
+"creating overviews of rasters."
+msgstr ""
+"<varname>raster2pgsql</varname> är ett körbart rasterinläsningsprogram som "
+"läser in GDAL-stödda rasterformat till SQL som lämpar sig för inläsning i en"
+" PostGIS-rastertabell. Det kan läsa in mappar med rasterfiler och skapa "
+"rasteröversikter."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"For non-public rasters, you may have to provide access keys to read from the"
+" cloud rasters. The same keys you used to write the "
+"<varname>raster2pgsql</varname> call can be set for use inside the database,"
+" with the <xref linkend=\"postgis_gdal_vsi_options\"/> configuration. Note "
+"that multiple options can be set by space-separating the "
+"<varname>key=value</varname> pairs."
+msgstr ""
+"För icke-offentliga raster kan du behöva ange åtkomstnycklar för att läsa "
+"från molnlagrade raster. Samma nycklar som du använde för att skriva anropet"
+" <varname>raster2pgsql</varname> kan ställas in för användning i databasen "
+"med konfigurationen <xref linkend=\"postgis_gdal_vsi_options\"/>. Observera "
+"att flera alternativ kan ställas in genom att avgränsa paren "
+"<varname>key=value</varname> med blanksteg."
