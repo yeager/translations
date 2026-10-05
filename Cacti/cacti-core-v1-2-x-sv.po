@@ -379,7 +379,7 @@ msgstr "Visa artikeluppgifter"
 
 #: aggregate_graphs.php:707
 msgid "Aggregate Preview Does Not Exist"
-msgstr "Sammanfattning Förhandsgranskning [ %s]"
+msgstr "Förhandsgranskningen av sammanställningen finns inte"
 
 #: aggregate_graphs.php:714
 #, php-format
@@ -3515,7 +3515,7 @@ msgstr "Associerade graf / datamallar [redigera: %s]"
 
 #: data_queries.php:651
 msgid "Associated Graph/Data Templates [new]"
-msgstr "Associerade graf / datamallar [redigera: %s]"
+msgstr "Associerade diagram-/datamallar [ny]"
 
 #: data_queries.php:686
 msgid "Associated Data Templates"
@@ -4299,7 +4299,7 @@ msgstr "Värdet kommer att härledas från enheten om det här fältet är tomt.
 
 #: data_templates.php:965
 msgid "Custom Data Warning Message"
-msgstr "Anpassade data [dataingång: %s]"
+msgstr "Varningsmeddelande för anpassade data"
 
 #: data_templates.php:966
 msgid "WARNING: Data Loss can Occur"
@@ -5044,7 +5044,7 @@ msgstr "Nya grafer för [Alla enheter]"
 
 #: graphs.php:1979
 msgid "Graph Management [ Non Device Based ]"
-msgstr "User Group Management [redigera: %s]"
+msgstr "Diagramhantering [inte enhetsbaserad]"
 
 #: graphs.php:1982
 #, php-format
@@ -7051,7 +7051,7 @@ msgstr "Dagskift"
 
 #: include/global_arrays.php:1445
 msgid "This Day"
-msgstr "%d dygn"
+msgstr "I dag"
 
 #: include/global_arrays.php:1446
 msgid "This Week"
@@ -8594,7 +8594,7 @@ msgstr "Right Axis Format (- right-axis-format &lt;format&gt;)"
 #: include/global_form.php:895
 #, php-format
 msgid "By default, the format of the axis labels gets determined automatically.  If you want to do this yourself, use this option with the same %lf arguments you know from the PRINT and GPRINT commands."
-msgstr "Som standard bestäms axelmärkningens format automatiskt. Om du vill göra det själv använder du det här alternativet med samma% lf argument som du vet från PRINT och GPRINT-kommandona."
+msgstr "Som standard bestäms formatet för axelrubriker automatiskt. Om du vill göra det själv använder du detta alternativ med samma %lf-argument som du känner från kommandona PRINT och GPRINT."
 
 #: include/global_form.php:898
 msgid "Right Axis Formatter (--right-axis-formatter &lt;formatname&gt;)"
@@ -11110,7 +11110,7 @@ msgstr "Läge"
 
 #: include/global_settings.php:1753
 msgid "Mode which cacti will attempt to authenticate against the LDAP server.<blockquote><i>No Searching</i> - No Distinguished Name (DN) searching occurs, just attempt to bind with the provided Distinguished Name (DN) format.<br><br><i>Anonymous Searching</i> - Attempts to search for username against LDAP directory via anonymous binding to locate the user's Distinguished Name (DN).<br><br><i>Specific Searching</i> - Attempts search for username against LDAP directory via Specific Distinguished Name (DN) and Specific Password for binding to locate the user's Distinguished Name (DN)."
-msgstr "Läge vilken Cacti försöker autentisera mot LDAP-servern. <blockquote> <i>Ingen sökning</i> - <i>Sökning utan</i> Distinguished Name (DN) sker, försök bara binda med det angivna Distinguished Name-formatet (DN). <br><br> <i>Anonym Sökning</i> - Försök att söka efter användarnamn mot LDAP-katalog via anonym bindning för att lokalisera användarens Distinguished Name (DN). <br><br> <i>Särskild</i> sökning - Försök att söka efter användarnamn mot LDAP-katalog via Specifikt Distinguished Name (DN) och Specifikt lösenord för bindning för att lokalisera användarens Distinguished Name (DN)."
+msgstr "Läge som Cacti använder för att autentisera mot LDAP-servern.<blockquote><i>Ingen sökning</i> – ingen sökning efter Distinguished Name (DN) görs; bindning försöks endast med det angivna formatet för Distinguished Name (DN).<br><br><i>Anonym sökning</i> – försök att söka efter användarnamnet i LDAP-katalogen med anonym bindning för att hitta användarens Distinguished Name (DN).<br><br><i>Specifik sökning</i> – försök att söka efter användarnamnet i LDAP-katalogen med specifikt Distinguished Name (DN) och specifikt lösenord för bindning för att hitta användarens Distinguished Name (DN)."
 
 #: include/global_settings.php:1759 user_domains.php:422
 msgid "Distinguished Name (DN)"
@@ -11510,7 +11510,7 @@ msgstr "Boost Debug Log"
 
 #: include/global_settings.php:2134
 msgid "If this field is non-blank, Boost will log RRDUpdate output from the boost\tpoller process."
-msgstr "Om det här fältet inte är tomt kommer Boost att logga RRDupdate-utmatning från boost poller-processen."
+msgstr "Om det här fältet inte är tomt loggar Boost RRDUpdate-utdata från boost	poller-processen."
 
 #: include/global_settings.php:2141 utilities.php:2859
 msgid "Image Caching"
@@ -11892,7 +11892,7 @@ msgstr "Hur vill du att Cacti ska presentera datum?  Denna inställning kommer o
 
 #: include/global_settings.php:2564
 msgid "Cacti Server Timezone"
-msgstr "Cacti Server v %s - Underhåll"
+msgstr "Cacti-serverns tidszon"
 
 #: include/global_settings.php:2565
 msgid "My Browsers Timezone"
@@ -13382,7 +13382,7 @@ msgstr "Länk %s"
 
 #: lib/functions.php:4928
 msgid "Mailer Error: No recipient address set!!<br>If using the <i>Test Mail</i> link, please set the <b>Alert e-mail</b> setting."
-msgstr "Mailer Error: Nej <b>TO</b> adress set !! <br> Om du använder länken <i>Test Mail</i> , ange inställning för <b>Alert e-post</b> ."
+msgstr "Fel i e-postfunktionen: Ingen mottagaradress har angetts!!<br>Om länken <i>Testmeddelande</i> används anger du inställningen <b>Varnings-e-post</b>."
 
 #: lib/functions.php:5262
 #, php-format
@@ -16200,7 +16200,7 @@ msgstr "CDP Okända datapunkter (0)"
 
 #: lib/rrd.php:3279
 msgid "Errors Found"
-msgstr "Inga %s hittades"
+msgstr "Fel hittades"
 
 #: lib/rrd.php:3291
 msgid "Optional Tuning Recommendations"
@@ -18773,7 +18773,7 @@ msgstr "Kryptering som servern stöder. TLS stöds endast av protokollversion 3.
 
 #: user_domains.php:416
 msgid "Mode which cacti will attempt to authenticate against the LDAP server.<blockquote><i>No Searching</i> - No Distinguished Name (DN) searching occurs, just attempt to bind with the provided Distinguished Name (DN) format.<br><br><i>Anonymous Searching</i> - Attempts to search for username against LDAP directory via anonymous binding to locate the users Distinguished Name (DN).<br><br><i>Specific Searching</i> - Attempts search for username against LDAP directory via Specific Distinguished Name (DN) and Specific Password for binding to locate the users Distinguished Name (DN)."
-msgstr "Läge vilken Cacti försöker autentisera mot LDAP-servern. <blockquote> <i>Ingen sökning</i> - <i>Sökning utan</i> Distinguished Name (DN) sker, försök bara binda med det angivna Distinguished Name-formatet (DN). <br><br> <i>Anonym Sökning</i> - Försök att söka efter användarnamn mot LDAP-katalog via anonym bindning för att hitta användarna Distinguished Name (DN). <br><br> <i>Särskild</i> sökning - Försök söka efter användarnamn mot LDAP-katalog via Specifikt Distinguished Name (DN) och Specifikt lösenord för bindning för att hitta användarnas Distinguished Name (DN)."
+msgstr "Läge som Cacti använder för att autentisera mot LDAP-servern.<blockquote><i>Ingen sökning</i> – ingen sökning efter Distinguished Name (DN) görs; bindning försöks endast med det angivna formatet för Distinguished Name (DN).<br><br><i>Anonym sökning</i> – försök att söka efter användarnamnet i LDAP-katalogen med anonym bindning för att hitta användarens Distinguished Name (DN).<br><br><i>Specifik sökning</i> – försök att söka efter användarnamnet i LDAP-katalogen med specifikt Distinguished Name (DN) och specifikt lösenord för bindning för att hitta användarens Distinguished Name (DN)."
 
 #: user_domains.php:466
 msgid "Search base for searching the LDAP directory, such as <i>\"dc=win2kdomain,dc=local\"</i> or <i>\"ou=people,dc=domain,dc=local\"</i>."
