@@ -699,7 +699,7 @@ Om du väljer fel fungerar spelen inte. Lämna båda listorna tomma om du är os
 LLE - &quot;Low Level Emulated&quot;, function code inside the selected SPRX file will be used for exported firmware functions.
 HLE - &quot;High Level Emulated&quot;, alternative emulator code will be used instead for exported firmware functions.
 If chosen wrongly, games will not work! If unsure, leave both lists empty. HLEing all SPRX allows to boot without firmware installed. (experimental)</source>
-        <translation>Dessa bibliotek emuleras som HLE som standard (den övre listan); ett val växlar dem till LLE.
+        <translation>Dessa bibliotek emuleras som HLE som standard (den övre listan); ett val använder LLE-läge.
 LLE – &quot;Low Level Emulated&quot;: funktionskoden i den valda SPRX-filen används för exporterade firmwarefunktioner.
 HLE – &quot;High Level Emulated&quot;: alternativ emulatorkod används i stället för exporterade firmwarefunktioner.
 Om du väljer fel fungerar spelen inte. Lämna båda listorna tomma om du är osäker. HLE för alla SPRX gör det möjligt att starta utan installerad firmware. (experimentellt)</translation>
@@ -8754,7 +8754,7 @@ Utrymme som behövs: %0 kB</translation>
         <source>System version error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation>Ett allvarligt systemfel inträffade vid autentisering av SELF. SELF-autentiseringen misslyckades.
+        <translation>Fel på systemversionen.
 (%0)</translation>
     </message>
     <message>
@@ -9058,7 +9058,7 @@ Utrymme som behövs: %0 kB</translation>
         <location filename="rpcs3/rpcs3qt/localized_emu.h" line="158"/>
         <source>On Screen Keyboard</source>
         <comment>OSK Dialog</comment>
-        <translation>Hemmenyn kan inte öppnas medan skärmtangentbordet används!</translation>
+        <translation>Skärmtangentbord</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/localized_emu.h" line="159"/>
@@ -11346,7 +11346,7 @@ Lägg till spel i RPCS3:s huvudfönster.</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="1131"/>
         <source>Config</source>
-        <translation>Konfig.</translation>
+        <translation>Konfiguration</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="1134"/>
@@ -12281,7 +12281,7 @@ Vänta…</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1765"/>
         <source>Firmware installation failed: Firmware could not be decompressed</source>
-        <translation>Installationen av systemprogramvara misslyckades: Systemprogramvaran kunde inte dekomprimeras.</translation>
+        <translation>Installationen av systemprogramvara misslyckades: Systemprogramvaran kunde inte dekomprimeras</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1774"/>
@@ -12532,7 +12532,7 @@ Kontrollera ändå?</translation>
         <source>Remove invalid game paths from game list?
 Undetectable games (zombies) as well as corrupted games will be removed from the game list file (games.yml)</source>
         <translation>Ta bort ogiltiga spelsökvägar från spellistan?
-Spel som inte kan upptäckas (zombier) samt skadade spel tas bort från spellistfilen (games.yml).</translation>
+Spel som inte kan upptäckas (zombier) samt skadade spel tas bort från spellistfilen (games.yml)</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4092"/>
@@ -12950,7 +12950,7 @@ Tips: SPU-flyttal kommenteras intill de instruktioner de bildar.</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/pad_led_settings_dialog.ui" line="94"/>
         <source>100%</source>
-        <translation>100%</translation>
+        <translation>100 %</translation>
     </message>
 </context>
 <context>
@@ -20515,7 +20515,7 @@ I övrigt finns diskussion och support på %3 eller vår %4-server.</translation
         <location filename="rpcs3/rpcs3qt/guest_memory_dumper.cpp" line="163"/>
         <source>The selected destination does not support sparse files, and the incomplete output folder could not be removed:
 %0</source>
-        <translation>Det valda målet saknar stöd för glesa filer, och den ofullständiga utdatamappen kunde inte tas bort:
+        <translation>Det valda målet saknar stöd för glesa filer och den ofullständiga utdatamappen kunde inte tas bort:
 %0</translation>
     </message>
     <message>
