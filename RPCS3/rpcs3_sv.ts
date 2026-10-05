@@ -7594,7 +7594,7 @@ Filen var för liten.</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="124"/>
         <source>Failed to patch PPU instruction.</source>
-        <translation>Det gick inte att patcha PPU-instruktionen.</translation>
+        <translation>Det gick inte att korrigera PPU-instruktionen.</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="163"/>
@@ -19028,7 +19028,7 @@ Filformatet är .wav och ljuden bör vara så korta som möjligt.</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="49"/>
         <source>Do you really want to remove the &apos;%0&apos; sound effect.</source>
-        <translation>Vill du verkligen ta bort ljudeffekten ”%0”?</translation>
+        <translation>Vill du verkligen ta bort ljudeffekten ”%0”.</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="61"/>
