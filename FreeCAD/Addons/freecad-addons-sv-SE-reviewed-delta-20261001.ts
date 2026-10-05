@@ -444,7 +444,7 @@ as: line, arc, circle, ellipse, B-spline or Bézier
 curve, from Sketcher or Draft Workbenches.</source>
             <translation>Val av rutt för animering av MovieCamera.
 Välj den rutt genom vilken kameran ska animeras.
-Du måste välja ett enda segment, t.ex. linje,
+Du måste välja ett enda segment: linje,
 båge, cirkel, ellips, B-spline eller Bézier-kurva,
 från arbetsbänkarna Sketcher eller Draft.</translation>
         </message>
@@ -632,7 +632,7 @@ you can make little adjustments to the
 horizontal angle value of the camera.</source>
             <translation>Yaw för position A på
 MovieCamera. Den ställs in när knappen Set
-position A trycks in, och därefter kan
+position A trycks in och därefter kan
 du vid behov göra små justeringar av
 kamerans horisontella vinkelvärde.</translation>
         </message>
@@ -648,7 +648,7 @@ you can make little adjustments to the
 vertical angle value of the camera.</source>
             <translation>Pitch för position A på
 MovieCamera. Den ställs in när knappen Set
-position A trycks in, och därefter kan
+position A trycks in och därefter kan
 du vid behov göra små justeringar av
 kamerans vertikala vinkelvärde.</translation>
         </message>
@@ -678,7 +678,7 @@ It is set when the Set position B button is pressed, after that, if necessary,
 you can make little adjustments to the 
 horizontal angle value of the camera.</source>
             <translation>Yaw för position B på
-MovieCamera. Den ställs in när knappen Set position B trycks in, och därefter kan
+MovieCamera. Den ställs in när knappen Set position B trycks in och därefter kan
 du vid behov göra små justeringar av
 kamerans horisontella vinkelvärde.</translation>
         </message>
@@ -694,7 +694,7 @@ you can make little adjustments to the
 vertical angle value of the camera.</source>
             <translation>Pitch för position B på
 MovieCamera. Den ställs in när knappen Set
-position B trycks in, och därefter kan
+position B trycks in och därefter kan
 du vid behov göra små justeringar av
 kamerans vertikala vinkelvärde.</translation>
         </message>
@@ -1205,8 +1205,8 @@ Workbenches.</source>
             <translation>Val av rutt för MovieObjects.
 Välj den rutt genom vilken objekten
 ska animeras. Du måste välja ett
-enda segment, t.ex. linje, båge, cirkel,
-ellips, B-spline eller
+enda segment, till exempel: linje,
+båge, cirkel, ellips, B-spline eller
 Bézier-kurva, från arbetsbänkarna Sketcher
 eller Draft.</translation>
         </message>
