@@ -1,0 +1,84 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-04 15:37+0000\n"
+"PO-Revision-Date: 2025-08-25 19:47+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://weblate.osgeo.org/projects/postgis/postgis-manual/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"GEOS, a required geometry library, provides a utility called <command>geos-"
+"config</command> to enable software installations to locate the GEOS "
+"installation directory. Use this parameter (<command>--with-"
+"geosconfig=/path/to/geos-config</command>) to manually specify a particular "
+"GEOS installation that PostGIS will build against."
+msgstr ""
+"GEOS, ett nödvändigt geometribibliotek, tillhandahåller verktyget "
+"<command>geos-config</command> så att programvaruinstallationer kan hitta "
+"GEOS-installationskatalogen. Använd parametern (<command>--with-"
+"geosconfig=/path/to/geos-config</command>) för att manuellt ange en viss "
+"GEOS-installation som PostGIS ska byggas mot."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"LibXML is the library required for doing GeomFromKML/GML processes. It "
+"normally is found if you have libxml installed, but if not or you want a "
+"specific version used, you'll need to point PostGIS at a specific "
+"<filename>xml2-config</filename> confi file to enable software installations"
+" to locate the LibXML installation directory. Use this parameter "
+"(<command>&gt;--with-xml2config=/path/to/xml2-config</command>) to manually "
+"specify a particular LibXML installation that PostGIS will build against."
+msgstr ""
+"LibXML är biblioteket som krävs för GeomFromKML/GML-processer. Det hittas "
+"normalt om libxml är installerat, men om det saknas eller om du vill använda"
+" en viss version måste du peka PostGIS mot en viss confi-fil "
+"<filename>xml2-config</filename> så att programvaruinstallationer kan hitta "
+"LibXML-installationskatalogen. Använd parametern (<command>&gt;--with-"
+"xml2config=/path/to/xml2-config</command>) för att manuellt ange en viss "
+"LibXML-installation som PostGIS ska byggas mot."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Proj is a reprojection library required by PostGIS. Use this parameter "
+"(<command>--with-projdir=/path/to/projdir</command>) to manually specify a "
+"particular Proj installation directory that PostGIS will build against."
+msgstr ""
+"Proj är ett reprojektionsbibliotek som krävs av PostGIS. Använd parametern "
+"(<command>--with-projdir=/path/to/projdir</command>) för att manuellt ange "
+"en viss Proj-installationskatalog som PostGIS ska byggas mot."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"<link xlink:href=\"http://oss.metaparadigm.com/json-c/\">JSON-C</link> is an"
+" MIT-licensed JSON library required by PostGIS ST_GeomFromJSON support. Use "
+"this parameter (<command>--with-jsondir=/path/to/jsondir</command>) to "
+"manually specify a particular JSON-C installation directory that PostGIS "
+"will build against."
+msgstr ""
+"<link xlink:href=\"http://oss.metaparadigm.com/json-c/\">JSON-C</link> är "
+"ett MIT-licensierat JSON-bibliotek som krävs för PostGIS stöd för "
+"ST_GeomFromJSON. Använd parametern (<command>--with-"
+"jsondir=/path/to/jsondir</command>) för att manuellt ange en viss JSON-C-"
+"installationskatalog som PostGIS ska byggas mot."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"This script will generate the <command>configure</command> script that in "
+"turn is used to customize the installation of PostGIS."
+msgstr ""
+"Detta skript genererar skriptet <command>configure</command>, som i sin tur "
+"används för att anpassa installationen av PostGIS."
