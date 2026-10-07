@@ -1,0 +1,68 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (Weblate)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-07 08:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/weblate/documentation/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1.dev0\n"
+
+#, ignore-ellipsis, rst-text
+msgid ""
+"The volume name depends on the Compose project name and can differ from "
+":file:`weblate-docker_postgres-data`. Check your setup before removing any "
+"volume."
+msgstr ""
+"Volymnamnet beror på Compose-projektnamnet och kan skilja sig från "
+":file:`weblate-docker_postgres-data`. Kontrollera din installation innan du "
+"tar bort någon volym."
+
+#, ignore-ellipsis, rst-text
+msgid "Start the database service:"
+msgstr "Starta databastjänsten:"
+
+#, ignore-ellipsis, rst-text
+msgid "Restore the database dump:"
+msgstr "Återställ databasdumpen:"
+
+#, ignore-ellipsis, rst-text
+msgid ""
+"Check that the database name matches :envvar:`POSTGRES_DB` and the user "
+"matches :envvar:`POSTGRES_USER` in your Compose configuration."
+msgstr ""
+"Kontrollera att databasnamnet stämmer överens med :envvar:`POSTGRES_DB` och "
+"att användaren stämmer överens med :envvar:`POSTGRES_USER` i din Compose-"
+"konfiguration."
+
+#, ignore-ellipsis, rst-text
+msgid ""
+"Restore the Weblate data directory to the Docker data volume mounted as "
+":file:`/app/data`, see :ref:`docker-volume`. Files in this volume have to be"
+" owned by UID 1000, see :ref:`file-permissions`."
+msgstr ""
+"Återställ Weblates datakatalog till Docker-datavolymen som är monterad som "
+":file:`/app/data`, se :ref:`docker-volume`. Filerna i denna volym måste ägas"
+" av UID 1000, se :ref:`file-permissions`."
+
+#, ignore-ellipsis, rst-text
+msgid "Start the remaining services and follow the logs:"
+msgstr "Starta återstående tjänster och följ loggarna:"
+
+#, ignore-ellipsis, rst-text
+msgid ""
+"The Weblate container performs database migrations on startup. If you are "
+"also upgrading Weblate, follow :ref:`upgrading-docker`."
+msgstr ""
+"Weblate-behållaren utför databasmigreringar vid start. Om du också "
+"uppgraderar Weblate följer du :ref:`upgrading-docker`."
+
+#, ignore-ellipsis, rst-text
+msgid "Refresh the repositories after the restore:"
+msgstr "Uppdatera förråden efter återställningen:"
