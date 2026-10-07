@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.1" version="1.1">
+  <file original="/tmp/weblate-documentation-batch25-delta.po" source-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit xml:space="preserve" id="2" approved="no" restype="x-gettext-domain-header">
+        <source>Project-Id-Version: Weblate 5.16.1
+Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/documentation/
+POT-Creation-Date: 2026-10-02 12:20+0200
+PO-Revision-Date: 2026-10-07 05:51+0000
+Last-Translator: Daniel Nylander &lt;yeagersthlm@gmail.com&gt;
+Language-Team: Swedish &lt;https://hosted.weblate.org/projects/weblate/documentation/sv/&gt;
+Language: sv
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Plural-Forms: nplurals=2; plural=n != 1;
+Generated-By: Babel 2.8.0
+X-Generator: Weblate 2026.10.1.dev0
+</source>
+        <target state="translated">Project-Id-Version: Weblate 5.16.1
+Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/documentation/
+POT-Creation-Date: 2026-10-02 12:20+0200
+PO-Revision-Date: 2026-10-07 05:51+0000
+Last-Translator: Daniel Nylander &lt;yeagersthlm@gmail.com&gt;
+Language-Team: Swedish &lt;https://hosted.weblate.org/projects/weblate/documentation/sv/&gt;
+Language: sv
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Plural-Forms: nplurals=2; plural=n != 1;
+Generated-By: Babel 2.8.0
+X-Generator: Weblate 2026.10.1.dev0
+</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="3" approved="yes">
+        <source>Runs :ref:`auto-translation` synchronously. ``auto_source: others`` reuses translations from other components, optionally restricted by the source ``component`` ID. ``auto_source: mt`` uses the service IDs in ``engines``; translation memory and AI services use the same mechanism as other providers.</source>
+        <target state="translated">Kör :ref:`auto-translation` synkront. ``auto_source: others`` återanvänder översättningar från andra komponenter och kan begränsas till källans ``component``-ID. ``auto_source: mt`` använder tjänste-ID:n i ``engines``; översättningsminne och AI-tjänster använder samma mekanism som andra leverantörer.</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="4" approved="yes">
+        <source>A sequence has no output object and does not accept an ``id``. Its successful child actions expose their individual outputs in the shared ``results`` object, including to subsequent children and actions outside the sequence. In this example, those entries are ``results.reused`` and ``results.memory``; there is no combined update count. A failing child stops the remaining actions.</source>
+        <target state="translated">En sekvens har inget utdataobjekt och accepterar inget ``id``. Dess underåtgärder som lyckas exponerar sina individuella utdata i det delade ``results``-objektet, även för efterföljande underåtgärder och åtgärder utanför sekvensen. I det här exemplet är posterna ``results.reused`` och ``results.memory``; det finns inget samlat antal uppdateringar. En underåtgärd som misslyckas stoppar återstående åtgärder.</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="5" approved="yes">
+        <source>List of (object); maximum items 100</source>
+        <target state="translated">Lista med (objekt); högst 100 poster</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="6" approved="yes">
+        <source>Evaluates branches in order and executes the first branch whose ``conditions`` all pass. Each branch requires both ``conditions`` and ``sequence``. Later branches are skipped after a match, even if the matching sequence is empty.</source>
+        <target state="translated">Utvärderar grenarna i ordning och kör den första gren vars ``conditions`` alla uppfylls. Varje gren kräver både ``conditions`` och ``sequence``. Senare grenar hoppas över efter en träff, även om den matchande sekvensen är tom.</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="7" approved="yes">
+        <source>If no branch matches, ``default`` runs. Omitting ``default`` is equivalent to an empty action list.</source>
+        <target state="translated">Om ingen gren matchar körs ``default``. Att utelämna ``default`` motsvarar en tom åtgärdslista.</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="8" approved="yes">
+        <source>For components in the ``frontend`` category, mark translated German strings as needing editing. Other components take the empty default branch.</source>
+        <target state="translated">För komponenter i kategorin ``frontend`` markeras översatta tyska strängar som behövande redigering. Övriga komponenter använder den tomma standardgrenen.</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="9" approved="yes">
+        <source>See :ref:`automation-conditional-actions` for a branch that uses an earlier action's output instead of the component category.</source>
+        <target state="translated">Se :ref:`automation-conditional-actions` för en gren som använder utdata från en tidigare åtgärd i stället för komponentkategorin.</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="10" approved="yes">
+        <source>A choose block has no output object and does not accept an ``id``. Only successful operations in the selected branch or default branch create result entries. Branch conditions and skipped actions are recorded in the activity trace. In this example, ``results.frontend_edit`` exists only if the category matches and the bulk edit succeeds. A later condition can safely check ``has(results.frontend_edit) &amp;&amp; results.frontend_edit.updated &gt; 0``. Preview records planned or conditional actions, without creating their outputs.</source>
+        <target state="translated">Ett choose-block har inget utdataobjekt och accepterar inget ``id``. Endast åtgärder som lyckas i den valda grenen eller standardgrenen skapar resultatposter. Grenvillkor och överhoppade åtgärder registreras i aktivitetsspåret. I det här exemplet finns ``results.frontend_edit`` endast om kategorin matchar och massredigeringen lyckas. Ett senare villkor kan säkert kontrollera ``has(results.frontend_edit) &amp;&amp; results.frontend_edit.updated &gt; 0``. Förhandsgranskning registrerar planerade eller villkorade åtgärder utan att skapa deras utdata.</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="11" approved="yes">
+        <source>Apply translation memory before machine translation</source>
+        <target state="translated">Använd översättningsminne före maskinöversättning</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="12" approved="yes">
+        <source>Use separate automatic translation actions to give one source priority over another. This example first applies local translation memory matches scoring at least 95, then asks DeepL to translate only strings still needing translation.</source>
+        <target state="translated">Använd separata åtgärder för automatisk översättning för att ge en källa prioritet framför en annan. Det här exemplet tillämpar först lokala träffar från översättningsminnet med minst 95 poäng och ber sedan DeepL att bara översätta strängar som fortfarande behöver översättas.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
