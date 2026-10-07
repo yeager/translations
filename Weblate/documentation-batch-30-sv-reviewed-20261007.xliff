@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.1" version="1.1">
+  <file original="/tmp/b30.po" source-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit xml:space="preserve" id="2" approved="no" restype="x-gettext-domain-header">
+        <source>Project-Id-Version: Swedish (Weblate)
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2026-10-07 08:24+0200
+PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE
+Last-Translator: FULL NAME &lt;EMAIL@ADDRESS&gt;
+Language-Team: Swedish &lt;https://hosted.weblate.org/projects/weblate/documentation/sv/&gt;
+Language: sv
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Plural-Forms: nplurals=2; plural=n != 1;
+X-Generator: Weblate 2026.10.1.dev0
+</source>
+        <target state="translated">Project-Id-Version: Swedish (Weblate)
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2026-10-07 08:24+0200
+PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE
+Last-Translator: FULL NAME &lt;EMAIL@ADDRESS&gt;
+Language-Team: Swedish &lt;https://hosted.weblate.org/projects/weblate/documentation/sv/&gt;
+Language: sv
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Plural-Forms: nplurals=2; plural=n != 1;
+X-Generator: Weblate 2026.10.1.dev0
+</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="3" approved="yes">
+        <source>The following steps assume the official Docker Compose setup using the bundled PostgreSQL and Valkey services, see :doc:`install/docker`. If your deployment uses an external database or a customized Compose file, adapt the database and volume steps to that environment.</source>
+        <target state="translated">Följande steg utgår från den officiella Docker Compose-installationen med de medföljande PostgreSQL- och Valkey-tjänsterna, se :doc:`install/docker`. Om din driftsättning använder en extern databas eller en anpassad Compose-fil anpassar du databas- och volymstegen till den miljön.</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="4" approved="yes">
+        <source>Start with a Docker Compose checkout matching the restored deployment. Restore your original Compose overrides, secrets, and environment variables. The :file:`environment.yml` file from :ref:`backup-dumps` can help with this, but it is not imported automatically.</source>
+        <target state="translated">Börja med en Docker Compose-utcheckning som motsvarar den återställda driftsättningen. Återställ dina ursprungliga Compose-åsidosättningar, hemligheter och miljövariabler. Filen :file:`environment.yml` från :ref:`backup-dumps` kan hjälpa till med detta, men importeras inte automatiskt.</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="5" approved="yes">
+        <source>Restore the backup archive using :ref:`restore-borg` or unpack your manual backup so that the Weblate data directory and :file:`backups/database.sql` are available.</source>
+        <target state="translated">Återställ säkerhetskopieringsarkivet med :ref:`restore-borg` eller packa upp den manuella säkerhetskopian så att Weblates datakatalog och :file:`backups/database.sql` är tillgängliga.</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="6" approved="yes">
+        <source>Stop the services which can write to the database or data volume:</source>
+        <target state="translated">Stoppa tjänsterna som kan skriva till databasen eller datavolymen:</target>
+      </trans-unit>
+      <trans-unit xml:space="preserve" id="7" approved="yes">
+        <source>Recreate the PostgreSQL volume.</source>
+        <target state="translated">Skapa om PostgreSQL-volymen.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
