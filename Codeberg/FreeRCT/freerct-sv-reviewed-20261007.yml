@@ -1,0 +1,525 @@
+# This file is part of FreeRCT.
+# FreeRCT is free software you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
+# FreeRCT is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with FreeRCT. If not, see <http:#www.gnu.org/licenses/>.
+#
+
+strings:
+  meta:
+    nplurals: '2'
+    plural_0: one
+    plural_1: other
+    lang: sv_SE
+  gui:
+    TITLEBAR_TIP: Klicka på titelfältet för att lyfta fram fönstret längst fram, dra titelfältet för att flytta fönstret
+    LANGUAGE_NAME: Svenska (Sverige)
+    MONTH_JANUARY: Januari
+    MONTH_FEBRUARY: Februari
+    MONTH_MARCH: Mars
+    MONTH_APRIL: April
+    MONTH_MAY: Maj
+    MONTH_JUNE: Juni
+    MONTH_JULY: Juli
+    MONTH_AUGUST: Augusti
+    MONTH_SEPTEMBER: September
+    MONTH_OCTOBER: Oktober
+    MONTH_NOVEMBER: November
+    MONTH_DECEMBER: December
+    NUMBERED_INSTANCE_NAME: '%1% #%2%'
+    RESOLUTION: '%1%x%2%'
+    DECREASE_BUTTON: '-'
+    INCREASE_BUTTON: +
+    TOOLBAR_GUI_DROPDOWN_MAIN: Meny
+    MAIN_MENU_QUIT: Avsluta
+    MAIN_MENU_SETTINGS: Inställningar
+    MAIN_MENU_LOAD: Ladda
+    MAIN_MENU_SAVE: Spara
+    MAIN_MENU_NEW_GAME: Nytt spel
+    MAIN_MENU_MENU: Huvudmeny
+    TOOLBAR_GUI_DROPDOWN_SPEED: Hastighet
+    TOOLBAR_GUI_DROPDOWN_SPEED_TOOLTIP: Ändra spelets hastighet
+    TOOLBAR_GUI_DROPDOWN_SPEED_PAUSE: Pausa
+    TOOLBAR_GUI_DROPDOWN_SPEED_1: 1×
+    TOOLBAR_GUI_DROPDOWN_SPEED_2: 2×
+    TOOLBAR_GUI_DROPDOWN_SPEED_4: 4×
+    TOOLBAR_GUI_DROPDOWN_SPEED_8: 8×
+    TOOLBAR_GUI_DROPDOWN_VIEW: Vy
+    TOOLBAR_GUI_DROPDOWN_VIEW_TOOLTIP: Vyinställningar
+    TOOLBAR_GUI_DROPDOWN_VIEW_UNDERGROUND: Underjordsvy
+    TOOLBAR_GUI_DROPDOWN_VIEW_MINIMAP: Karta
+    TOOLBAR_GUI_PATHS: Gångvägar
+    TOOLBAR_GUI_TOOLTIP_BUILD_PATHS: Bygg gångvägar och köer
+    TOOLBAR_GUI_RIDE_SELECT: Köp åkattraktion
+    TOOLBAR_GUI_TOOLTIP_RIDE_SELECT: Köp en ny åkattraktion till din park
+    TOOLBAR_GUI_FENCE: Bygg staket
+    TOOLBAR_GUI_TOOLTIP_FENCE: Bygg staket i din park
+    TOOLBAR_GUI_SCENERY: Dekorationer
+    TOOLBAR_GUI_TOOLTIP_SCENERY: Bygg dekorationer i din park
+    TOOLBAR_GUI_PATH_OBJECTS: Vägföremål
+    TOOLBAR_GUI_TOOLTIP_PATH_OBJECTS: Bygg vägföremål i din park
+    TOOLBAR_GUI_TERRAFORM: Landskapsmåleri
+    TOOLBAR_GUI_TOOLTIP_TERRAFORM: Ändra landskapet
+    TOOLBAR_GUI_FINANCES: Ekonomi
+    TOOLBAR_GUI_TOOLTIP_FINANCES: Hantera företagets ekonomi
+    TOOLBAR_GUI_STAFF: Personal
+    TOOLBAR_GUI_TOOLTIP_STAFF: Anställ och avskeda personal
+    TOOLBAR_GUI_INBOX: Inkorg
+    TOOLBAR_GUI_TOOLTIP_INBOX: Visa alla dina meddelanden
+    BOTTOMBAR_GUESTCOUNT:
+      one: '%1% gäst'
+      other: '%1% gäster'
+    QUIT_CAPTION: Avsluta?
+    QUIT_MESSAGE: Avsluta FreeRCT?
+    RETURN_CAPTION: Återvänd?
+    RETURN_MESSAGE: Återvänd till huvudmenyn?
+    CONFIRM_NO: Nej
+    CONFIRM_YES: Ja
+    ERROR_MESSAGE_CAPTION: Meddelande
+    ERROR_MESSAGE_SPRITE: Misslyckades att rita en sprite
+    ERROR_MESSAGE_HEADING_BUILD: Detta kan inte placeras här…
+    ERROR_MESSAGE_HEADING_REMOVE: Detta kan inte tas bort…
+    ERROR_MESSAGE_HEADING_COST: 'Förväntad kostnad:'
+    ERROR_MESSAGE_HEADING_RETURN: 'Förväntad avkastning:'
+    ERROR_MESSAGE_UNREMOVABLE: Det här föremålet kan inte tas bort.
+    ERROR_MESSAGE_UNOWNED_LAND: Du äger inte marken!
+    ERROR_MESSAGE_EXPENSIVE: Du behöver minst %1%.
+    ERROR_MESSAGE_BAD_LOCATION: Olämplig plats.
+    ERROR_MESSAGE_SLOPE: Kan inte byggas på en sluttning.
+    ERROR_MESSAGE_UNDERGROUND: Kan inte byggas under jorden.
+    ERROR_MESSAGE_OCCUPIED: Något är i vägen!
+    ERROR_MESSAGE_PAUSED: Inte tillåtet medan spelet är pausat.
+    PERSON_STATUS_WANDER: Strövar
+    PERSON_STATUS_HEADING_TO_RIDE: På väg till %s
+    PERSON_STATUS_INSPECTING: Inspekterar %s
+    PERSON_STATUS_REPAIRING: Reparerar %s
+    PERSON_STATUS_WATERING: Vattnar blomsterrabatterna
+    PERSON_STATUS_EMPTYING: Tömmer papperskorgarna
+    PERSON_STATUS_SWEEPING: Sopar gångvägarna
+    GUEST_INFO_MONEY: Tillgängliga pengar
+    GUEST_INFO_MONEY_SPENT: Pengar spenderade
+    GUEST_INFO_HAPPINESS: Glädjenivå
+    GUEST_INFO_HUNGER: Hunger
+    GUEST_INFO_THIRST: Törst
+    GUEST_INFO_WASTE: Sopor
+    GUEST_INFO_NAUSEA: Illamående
+    GUEST_INFO_ITEMS: Hållna föremål
+    ITEM_NONE: Inget
+    ITEM_MAP: Karta
+    ITEM_UMBRELLA: Paraply
+    ITEM_WRAPPER: Matförpackning
+    STAFF_MANAGEMENT_TITLE: Personal
+    STAFF_SALARY: 'Daglig lön: %1%'
+    STAFF_DISMISS: Avskeda
+    STAFF_HIRE: Anställ
+    STAFF_NAME_MECHANIC: Mekaniker %d
+    STAFF_NAME_HANDYMAN: Allt-i-allo %d
+    STAFF_NAME_GUARD: Vakt %d
+    STAFF_NAME_ENTERTAINER: Underhållare %d
+    STAFF_CATEGORY_MECHANICS: Mekaniker (%1%)
+    STAFF_CATEGORY_HANDYMEN: Allt-i-allo (%1%)
+    STAFF_CATEGORY_GUARDS: Vakter (%1%)
+    STAFF_CATEGORY_ENTERTAINERS: Underhållare (%1%)
+    STAFF_TITLE_NAME: Namn
+    STAFF_TITLE_STATUS: Status
+    PATH_GUI_TITLE: Vägar
+    PATH_GUI_LONG: Lång
+    PATH_GUI_BUY: Köp
+    PATH_GUI_REMOVE: Ta bort
+    PATH_GUI_LONG_TIP: Bygg en lång väg
+    PATH_GUI_BUY_TIP: Bygg en väg
+    PATH_GUI_BULLDOZER_TIP: Klicka för att ta bort den senast byggda vägen och få dina pengar tillbaka (fungerar tills du stänger fönstret)
+    PATH_GUI_SLOPE_DOWN_TIP: Bygg väg neråt
+    PATH_GUI_SLOPE_FLAT_TIP: Bygg väg vågrätt
+    PATH_GUI_SLOPE_UP_TIP: Bygg väg uppåt
+    PATH_GUI_FORWARD: Framåt
+    PATH_GUI_BACKWARD: Bakåt
+    PATH_GUI_FORWARD_TIP: Flytta en vägbit framåt
+    PATH_GUI_BACKWARD_TIP: Flytta en vägbit bakåt
+    PATH_GUI_NW_DIRECTION_TIP: Bygg väg i nordvästra riktningen
+    PATH_GUI_NE_DIRECTION_TIP: Bygg väg i nordöstra riktningen
+    PATH_GUI_SW_DIRECTION_TIP: Bygg väg i sydvästra riktningen
+    PATH_GUI_SE_DIRECTION_TIP: Bygg väg i sydöstra riktningen
+    PATH_GUI_NORMAL_PATH: Normal väg
+    PATH_GUI_QUEUE_PATH: Köväg
+    PATH_GUI_SINGLE: Enstaka
+    PATH_GUI_DIRECTIONAL: Riktad
+    PATH_GUI_SINGLE_TIP: Placera en enstaka väg
+    PATH_GUI_DIRECTIONAL_TIP: Påbörja riktad vägplacering
+    RIDE_SELECT_TITLE: Val av åkattraktion
+    RIDE_SELECT_SHOPS: Butiker
+    RIDE_SELECT_SHOPS_TOOLTIP: Klicka för att visa de tillgängliga butikstyperna
+    RIDE_SELECT_GENTLE: Lugna åkattraktioner
+    RIDE_SELECT_GENTLE_TOOLTIP: Klicka för att visa tillgängliga lugna åkattraktioner
+    RIDE_SELECT_THRILL: Spännande åkattraktioner
+    RIDE_SELECT_THRILL_TOOLTIP: Klicka för att visa tillgängliga spännande åkattraktioner
+    RIDE_SELECT_WET: Våta åkattraktioner
+    RIDE_SELECT_WET_TOOLTIP: Klicka för att visa tillgängliga våta åkattraktioner
+    RIDE_SELECT_COASTER: Berg-och-dalbanor
+    RIDE_SELECT_COASTER_TOOLTIP: Klicka för att visa tillgängliga berg-och-dalbanetyper
+    RIDE_SELECT_RIDE: Välj
+    RIDE_SELECT_RIDE_TOOLTIP: Klicka för att välja den valda åkattraktionen
+    RIDE_SELECT_ROT_POS_TOOLTIP: Klicka för att rotera åkattraktionen motsols
+    RIDE_SELECT_ROT_NEG_TOOLTIP: Klicka för att rotera åkattraktionen medsols
+    RIDE_MANAGER_ENTRANCE_FEE_TEXT: 'Inträdesavgift:'
+    RIDE_MANAGER_RELIABILITY: 'Pålitlighet: %.1f%%'
+    RIDE_MANAGER_BROKEN_DOWN: Trasig
+    RIDE_MANAGER_MAINTENANCE_TEXT: 'Underhållsintervall (minuter):'
+    RIDE_MANAGER_MAINTENANCE_NEVER: Aldrig
+    RIDE_MANAGER_MAX_IDLE_TEXT: 'Maximal väntetid (sekunder):'
+    RIDE_MANAGER_MIN_IDLE_TEXT: 'Minimum väntetid (sekunder):'
+    RIDE_MANAGER_EXCITEMENT: 'Spänningsnivå:'
+    RIDE_MANAGER_INTENSITY: 'Intensitetsnivå:'
+    RIDE_MANAGER_NAUSEA: 'Illamåendenivå:'
+    RIDE_MANAGER_RATING_VERY_LOW: '%.2f (väldigt lågt)'
+    RIDE_MANAGER_RATING_LOW: '%.2f (lågt)'
+    RIDE_MANAGER_RATING_MEDIUM: '%.2f (medelmåttigt)'
+    RIDE_MANAGER_RATING_HIGH: '%.2f (högt)'
+    RIDE_MANAGER_RATING_VERY_HIGH: '%.2f (väldigt högt)'
+    RIDE_MANAGER_RATING_EXTREME: '%.2f (extremt)'
+    RIDE_MANAGER_RATING_NOT_YET_CALCULATED: ???
+    SHOP_MANAGER_TITLE: Butik "%1%"
+    SHOP_MANAGER_COST_PRICE_TEXT: Inköpspris
+    SHOP_MANAGER_SELLING_PRICE_TEXT: Försäljningspris
+    SHOP_MANAGER_ITEMS_SOLD_TEXT: Föremål sålda
+    SHOP_MANAGER_ITEM_PROFIT_TEXT: Föremålsvinst
+    SHOP_MANAGER_SELL_PROFIT_TEXT: Försäljningsvinst
+    SHOP_MANAGER_SHOP_COST_TEXT: Personalkostnad
+    SHOP_MANAGER_TOTAL_PROFIT_TEXT: Total vinst
+    GENTLE_THRILL_RIDES_MANAGER_TITLE: '%1% "%2%"'
+    GENTLE_RIDES_MANAGER_TITLE: Lugn åkattraktion
+    THRILL_RIDES_MANAGER_TITLE: Spännande åkattraktion
+    GENTLE_THRILL_RIDES_MANAGER_MONTHLY_COST_TEXT: 'Månadskostnad:'
+    GENTLE_THRILL_RIDES_MANAGER_CYCLES_TEXT: 'Antal varv:'
+    FENCE_TITLE: Bygg staket
+    FENCE_TYPE_WOOD: Trästaket
+    FENCE_TYPE_HEDGE: Barrträdshäck
+    FENCE_TYPE_BRICK: Tegelvägg
+    TERRAFORM_TITLE: Ändra landskapet
+    TERRAFORM_ADD_TEXT: +
+    TERRAFORM_ADD_TOOLTIP: Öka storleken av terraformeringsytan
+    TERRAFORM_SUB_TEXT: '-'
+    TERRAFORM_SUB_TOOLTIP: Minska storleken av terraformeringsytan
+    TERRAFORM_LEVEL_TEXT: Jämna terraformeringsytan
+    TERRAFORM_MOVE_TEXT: Flytta terraformeringsytan som den är
+    MINIMAP_TITLE: Karta
+    FINANCES_TITLE: Hantera ekonomin
+    FINANCES_RIDE_CONSTRUCTION_TEXT: Konstruktion av åkattraktioner
+    FINANCES_RIDE_RUNNING_TEXT: Driftkostnader för åkattraktioner
+    FINANCES_LAND_PURCHASE_TEXT: Köp av land
+    FINANCES_LANDSCAPING_TEXT: Landskapsmåleri
+    FINANCES_PARK_TICKETS_TEXT: Entrébiljetter för parken
+    FINANCES_RIDE_TICKETS_TEXT: Åkattraktionsbiljetter
+    FINANCES_SHOP_SALES_TEXT: Butiksförsäljning
+    FINANCES_SHOP_STOCK_TEXT: Butikslager
+    FINANCES_FOOD_SALES_TEXT: Försäljning av mat/dryck
+    FINANCES_FOOD_STOCK_TEXT: Påfyllning av mat/dryck-lager
+    FINANCES_STAFF_WAGES_TEXT: Personalens löner
+    FINANCES_MARKETING_TEXT: Marknadsföring
+    FINANCES_RESEARCH_TEXT: Forskning
+    FINANCES_LOAN_INTEREST_TEXT: Låneränta
+    FINANCES_TOTAL_TEXT: Totalt
+    FINANCES_MAX_LOAN: Maximalt lån
+    FINANCES_CURRENT_LOAN: Nuvarande lån
+    FINANCES_LOAN_INTEREST: Låneränta
+    FINANCES_LOAN_INTEREST_VALUE: '%.1f%% per år'
+    FINANCES_CASH: Kassa
+    INBOX_TITLE: Inkorg
+    MESSAGE_NEW_RIDE: 'En ny åkattraktion är nu tillgänglig: %1%'
+    MESSAGE_SCENARIO_WON: Grattis, du har vunnit scenariot!
+    MESSAGE_SCENARIO_LOST: Du har förlorat scenarios. Bättre lycka nästa gång.
+    MESSAGE_BROKEN_DOWN: '%1% har gått sönder.'
+    MESSAGE_REPAIRED: '%1% har reparerats.'
+    MESSAGE_CRASH_NO_DEAD: '%1% kraschade!'
+    MESSAGE_CRASH_WITH_DEAD:
+      one: '%2% gäst dog när %1% kraschade!'
+      other: '%2% gäster dog när %1% kraschade!'
+    MESSAGE_BAD_RATING:
+      one: Parkbetyget är kritiskt lågt. Parken kommer stängas om %1% vecka om betyget inte förbättras.
+      other: Parkbetyget är kritiskt lågt. Parken kommer stängas om %1% veckor om betyget inte förbättras.
+    MESSAGE_GUEST_LOST: '%1% är vilse och kan inte hitta parkutgången.'
+    MESSAGE_COMPLAIN_QUEUE: Kön för %1% är väldigt lång.
+    MESSAGE_COMPLAIN_HUNGRY: Många gäster är hungriga men vet inte var de kan köpa mat.
+    MESSAGE_COMPLAIN_THIRSTY: Många gäster är törstiga men vet inte var de kan köpa något att dricka.
+    MESSAGE_COMPLAIN_TOILET: Många gäster behöver gå på toa men vet inte var de hittar en.
+    MESSAGE_COMPLAIN_LITTER: Gästerna klagar på de nedskräpade gångvägarna i parken.
+    MESSAGE_COMPLAIN_VANDALISM: Gästerna klagar på de många vandaliserade föremålen i parken.
+    MESSAGE_CHEAP_FEE: Gästerna i parken uppger att inträdesavgiften är förvånansvärt billig.
+    MESSAGE_AWARD_WON: 'Parken har vunnit en utmärkelse: %1%'
+    MESSAGE_NEGATIVE_AWARD: 'Parken har fått en negativ utmärkelse: %1%'
+    COASTER_BUILD_LEFT_BEND_TOOLTIP: Väljer spårbitar med en vänsterböj
+    COASTER_BUILD_NO_BEND_TOOLTIP: Väljer en rak spårbit
+    COASTER_BUILD_RIGHT_BEND_TOOLTIP: Väljer spårbitar med en högerböj
+    COASTER_BUILD_BANK_LEFT_TOOLTIP: Väljer spårbitar som slutar med en vänsterlutning
+    COASTER_BUILD_BANK_NONE_TOOLTIP: Väljer spårbitar som slutar med en lutningsutjämning
+    COASTER_BUILD_BANK_RIGHT_TOOLTIP: Väljer spårbitar som slutar med en högerlutning
+    COASTER_BUILD_BUY_TOOLTIP: Klicka för att köpa den valda spårbiten
+    COASTER_MANAGER_NUMBER_TRAINS:
+      one: '%1% tåg'
+      other: '%1% tåg'
+    COASTER_MANAGER_NUMBER_CARS:
+      one: '%1% vagn'
+      other: '%1% vagnar'
+    COASTER_MANAGER_EDIT: Redigera spår
+    COASTER_MANAGER_NO_GRAPHS_YET: Inga mätningar än
+    COASTER_MANAGER_GRAPH_SPEED: Hastighet
+    COASTER_MANAGER_GRAPH_VERT_G: Vertikal G-kraft
+    COASTER_MANAGER_GRAPH_HORZ_G: Horisontell G-kraft
+    COASTER_MANAGER_GRAPH_TOOLTIP_SPEED: Visa hastighetsgraf
+    COASTER_MANAGER_GRAPH_TOOLTIP_VERT_G: Visa den vertikala G-kraftsgrafen
+    COASTER_MANAGER_GRAPH_TOOLTIP_HORZ_G: Visa horisontella G-kraft grafen
+    ENTITY_REMOVE: Ta bort
+    ENTITY_REMOVE_TOOLTIP: Ta bort detta föremål?
+    ENTITY_REMOVE_CAPTION: Ta bort
+    ENTITY_REMOVE_MESSAGE: Ta bort %1%?
+    ENTITY_REMOVE_YES: Ja
+    ENTITY_REMOVE_NO: Nej
+    PLACE_ENTRANCE: Placera ingång
+    PLACE_ENTRANCE_TOOLTIP: Placera åkattraktionens ingång
+    PLACE_EXIT: Placera utgång
+    PLACE_EXIT_TOOLTIP: Placera åkattraktionens utgång
+    CHOOSE_ENTRANCE: Ingångens stil
+    CHOOSE_ENTRANCE_TOOLTIP: Ändra åkattraktionens ingångsstil
+    CHOOSE_EXIT: Utgångens still
+    CHOOSE_EXIT_TOOLTIP: Ändra åkattraktionens utgångsstil
+    RIDE_BUILD_TITLEBAR_SHOP: Placera butik
+    RIDE_BUILD_TITLEBAR_GENTLE: Placera lugn åkattraktion
+    RIDE_BUILD_TITLEBAR_THRILL: Placera spännande åkattraktion
+    RIDE_BUILD_ROTATE_TOOLTIP: Klicka för att rotera åkattraktionen
+    RIDE_BUILD_DISPLAY_TOOLTIP: En bild av åkattraktionen du köper
+    RIDE_BUILD_NAME_TEXT: Köper en %1%
+    RIDE_BUILD_COST_TEXT: Kostnad %1%
+    MONEY_CURRENCY_SYMBOL: $
+    MONEY_THOUSANDS_SEPARATOR:  
+    MONEY_DECIMAL_SEPARATOR: ','
+    SETTING_TITLE: Inställningar
+    SETTING_LANGUAGE: Byt språk
+    SETTING_LANGUAGE_TOOLTIP: Byt spelets språk
+    SETTING_RESOLUTION: Byt upplösning
+    SETTING_RESOLUTION_TOOLTIP: Byt spelets upplösning
+    NOT_AVAILABLE: ej tillgängligt
+    DATETIME_FORMAT: '%Y-%m-%d, %H:%M:%S'
+    DATE_FORMAT: '%2% %1% %3%'
+    OBJECTIVE_TIMEOUT_BEFORE: Detta mål måste uppnås före %1%.
+    OBJECTIVE_TIMEOUT_EXACT: Detta mål måste uppnås vid %1%.
+    OBJECTIVE_TIMEOUT_NONE: Detta mål kan uppnås när som helst.
+    OBJECTIVE_STRICT: Detta mål måste vara uppnått hela tiden!
+    OBJECTIVETEXT_NONE: Ha kul!
+    OBJECTIVETEXT_GUESTS:
+      one: Ha minst %1% gäst i din park.
+      other: Ha minst %1% gäster i din park.
+    OBJECTIVETEXT_PARK_RATING: Uppnå ett parkbetyg på minst %1%.
+    OBJECTIVETEXT_PARK_VALUE: Uppnå ett parkvärde på minst %1%.
+    GUEST_NAME: Gäst %1%
+    NR_DAYS:
+      one: '%1% dag'
+      other: '%1% dagar'
+    APPLY: Verkställ
+    MAIN_MENU_LAUNCH_EDITOR: Redigerare
+    TOOLBAR_GUI_DROPDOWN_VIEW_GRID: Rutnät
+    TOOLBAR_GUI_DROPDOWN_VIEW_UNDERWATER: Undervattensvy
+    TOOLBAR_GUI_DROPDOWN_VIEW_WIRE_RIDES: Trådmodell för åkattraktioner
+    TOOLBAR_GUI_DROPDOWN_VIEW_WIRE_SCENERY: Trådmodell för dekorationer
+    TOOLBAR_GUI_DROPDOWN_VIEW_HIDE_PEOPLE: Dölj personer
+    TOOLBAR_GUI_DROPDOWN_VIEW_HIDE_SUPPORTS: Dölj stöd
+    TOOLBAR_GUI_DROPDOWN_VIEW_HIDE_SURFACES: Dölj horisontella ytor
+    TOOLBAR_GUI_DROPDOWN_VIEW_HIDE_FOUNDATIONS: Dölj vertikala fundament
+    TOOLBAR_GUI_DROPDOWN_VIEW_HEIGHT_RIDES: Visa höjdmarkeringar på åkattraktioner
+    TOOLBAR_GUI_DROPDOWN_VIEW_HEIGHT_PATHS: Visa höjdmarkeringar på gångvägar
+    TOOLBAR_GUI_DROPDOWN_VIEW_HEIGHT_TERRAIN: Visa höjdmarkeringar på terrängen
+    TOOLBAR_GUI_DROPDOWN_VIEW_ZOOM_OUT: Zooma ut
+    TOOLBAR_GUI_DROPDOWN_VIEW_ZOOM_IN: Zooma in
+    TOOLBAR_GUI_PARK: Parkhantering
+    TOOLBAR_GUI_TOOLTIP_PARK: Hantera parkens uppgifter
+    NO_NAME: Okänd
+    DEFAULT_SCENARIO_NAME: Namnlös
+    DEFAULT_SCENARIO_DESCR: Detta scenario saknar beskrivning.
+    PERSON_STATUS_GOING_HOME: På väg hem
+    RIDE_SELECT_CUSTOM_DESIGN: Skapa egen banlayout…
+    RIDE_SELECT_NO_DESIGNS: Inga sparade banlayouter
+    RIDE_MANAGER_RIDE_NAME_TEXT: 'Namn:'
+    SCENERY_TITLE: Dekorationer
+    SCENERY_ROTATE_POS: Rotera föremålet moturs
+    SCENERY_ROTATE_NEG: Rotera föremålet medurs
+    SCENERY_CATEGORY_TREES: Träd
+    SCENERY_CATEGORY_FLOWERBEDS: Blomsterrabatter
+    SCENERY_CATEGORY_FOUNTAINS: Fontäner
+    PATH_OBJECTS_TITLE: Gångvägsföremål
+    PATH_OBJECTS_BENCH: Placera bänkar
+    PATH_OBJECTS_BIN: Placera papperskorgar
+    PATH_OBJECTS_LAMP: Placera lampor
+    TERRAFORM_OWNER_UNCHANGED_TEXT: Ändra inte ägandet av rutan
+    TERRAFORM_OWNER_NONE_TEXT: Gör marken oägd
+    TERRAFORM_OWNER_PARK_TEXT: Gör marken parkägd
+    TERRAFORM_OWNER_SALE_TEXT: Markera mark som till salu
+    PARK_MANAGEMENT_TAB_GENERAL: Allmänt
+    PARK_MANAGEMENT_TAB_GENERAL_TOOLTIP: Hantera parkens allmänna inställningar
+    PARK_MANAGEMENT_TAB_GUESTS: Gäster
+    PARK_MANAGEMENT_TAB_GUESTS_TOOLTIP: Visa antalet gäster i parken över tid
+    PARK_MANAGEMENT_TAB_RATING: Betyg
+    PARK_MANAGEMENT_TAB_RATING_TOOLTIP: Visa parkens betyg över tid
+    PARK_MANAGEMENT_TAB_OBJECTIVE: Mål
+    PARK_MANAGEMENT_TAB_OBJECTIVE_TOOLTIP: Visa scenariots mål
+    PARK_MANAGEMENT_TAB_AWARDS: Utmärkelser
+    PARK_MANAGEMENT_TAB_AWARDS_TOOLTIP: Visa utmärkelser som din park har fått
+    PARK_MANAGEMENT_RATING: 'Parkbetyg: %1%'
+    PARK_MANAGEMENT_NO_AWARDS: Parken har inte fått några utmärkelser på sistone.
+    PARK_MANAGEMENT_PARKNAME: 'Parknamn:'
+    PARK_MANAGEMENT_ENTRANCE_FEE: 'Entréavgift:'
+    PARK_MANAGEMENT_MAX_GUESTS: 'Högsta antal gäster:'
+    PARK_MANAGEMENT_SOLVED: 'Ange ditt namn:'
+    PARK_MANAGEMENT_OBJECTIVE_GUESTS: 'Krävda gäster:'
+    PARK_MANAGEMENT_OBJECTIVE_RATING: 'Krävt parkbetyg:'
+    PARK_MANAGEMENT_OBJECTIVE_PARK_VALUE: 'Krävt parkvärde:'
+    PARK_MANAGEMENT_OBJECTIVE_DROP_POLICY: 'Parken stänger när målet inte har uppnåtts under:'
+    PARK_MANAGEMENT_OBJECTIVE_DATE: 'Målet måste uppnås senast:'
+    PARK_MANAGEMENT_OBJECTIVE_DATE_NOT_EXACT: Målet kan uppnås när som helst
+    FINANCES_PARK_VALUE: Parkvärde
+    FINANCES_COMPANY_VALUE: Företagsvärde
+    FINANCES_PARK_VALUE_VALUE: 'Parkvärde: %1%'
+    COASTER_MANAGER_SAVE_DESIGN: Spara banlayout
+    ENTITY_REMOVE_COST: 'Återbetalning: %1%'
+    SCENARIO_SELECT_TITLE: Välj scenario
+    SCENARIO_SELECT_NO_MISSIONS: Inga uppdrag har lästs in.
+    SCENARIO_SELECT_UNLOCK:
+      one: Slutför %1% scenario till i uppdraget för att låsa upp det här scenariot.
+      other: Slutför %1% scenarier till i uppdraget för att låsa upp det här scenariot.
+    SCENARIO_SELECT_SOLVED: Slutfört av %1% den %2% med företagsvärdet %3%
+    LOADSAVE_LOAD: Ladda
+    LOADSAVE_SAVE: Spara
+    LOADSAVE_CANCEL: Avbryt
+    LOADSAVE_DELETE: Ta bort
+    LOADSAVE_COLUMN_FILE: Filnamn
+    LOADSAVE_COLUMN_TIME: Sparat datum
+    LOADSAVE_COLUMN_NAME: Scenario
+    LOADSAVE_CONFIRM_TITLE: Bekräfta
+    LOADSAVE_CONFIRM_OVERWRITE: Vill du verkligen skriva över det här sparade spelet?
+    LOADSAVE_CONFIRM_DELETE: Vill du verkligen ta bort det här sparade spelet?
+  ice-cream-stall:
+    NAME_INSTANCE1: Ispalatset
+    NAME_INSTANCE2: Kalla drycker
+    NAME_TYPE: Glasstånd
+    DESCRIPTION_TYPE: Butik som säljer drycker och glass
+    DESCRIPTION_RECOLOUR1: Bägarfärg
+    DESCRIPTION_RECOLOUR2: Isfärg
+    DESCRIPTION_RECOLOUR3: '-'
+    NAME_ITEM1: Vaniljglass
+    NAME_ITEM2: Frisk dryck
+  snack-shop:
+    NAME_INSTANCE1: Den glada snackbaren
+    NAME_INSTANCE2: Pizzapalatset
+    NAME_TYPE: Snacksbutik
+    DESCRIPTION_TYPE: Butik där du kan köpa goda kakor
+    DESCRIPTION_RECOLOUR1: '-'
+    DESCRIPTION_RECOLOUR2: '-'
+    DESCRIPTION_RECOLOUR3: '-'
+    NAME_ITEM1: Kakor
+    NAME_ITEM2: Pizza
+  toilet:
+    NAME_INSTANCE1: Toalett
+    NAME_INSTANCE2: Badrum
+    NAME_TYPE: Toalett
+    DESCRIPTION_TYPE: Gå hit när du är nödig
+    DESCRIPTION_RECOLOUR1: Toalettfärg
+    DESCRIPTION_RECOLOUR2: '-'
+    DESCRIPTION_RECOLOUR3: '-'
+    NAME_ITEM1: Toalett
+    NAME_ITEM2: '-'
+  basic-coaster:
+    NAME_INSTANCE: Galen berg-och-dalbana
+    NAME_TYPE: Enkel berg-och-dalbana
+    DESCRIPTION_TYPE: Enkel stålberg-och-dalbana
+  entrance-generic:
+    NAME: Generisk ingång
+    DESCRIPTION_RECOLOUR1: '-'
+    DESCRIPTION_RECOLOUR2: '-'
+    DESCRIPTION_RECOLOUR3: '-'
+  exit-generic:
+    NAME: Generisk utgång
+    DESCRIPTION_RECOLOUR1: '-'
+    DESCRIPTION_RECOLOUR2: '-'
+    DESCRIPTION_RECOLOUR3: '-'
+  entrance-alt:
+    NAME: Alternativ ingång
+    DESCRIPTION_RECOLOUR1: Väggar
+    DESCRIPTION_RECOLOUR2: '-'
+    DESCRIPTION_RECOLOUR3: '-'
+  exit-alt:
+    NAME: Alternativ utgång
+    DESCRIPTION_RECOLOUR1: Väggar
+    DESCRIPTION_RECOLOUR2: '-'
+    DESCRIPTION_RECOLOUR3: '-'
+  spooky-manor:
+    NAME_INSTANCE1: Skräckplatsen
+    NAME_INSTANCE2: Mörkrets gång
+    NAME_TYPE: Den hemsökta herrgården
+    DESCRIPTION_TYPE: En mörk och kuslig herrgård som förskräcker de gäster modiga nog att komma in
+    DESCRIPTION_RECOLOUR1: Väggar
+    DESCRIPTION_RECOLOUR2: '-'
+    DESCRIPTION_RECOLOUR3: '-'
+  ship-swing:
+    NAME_INSTANCE1: Kölhalaren
+    NAME_INSTANCE2: Pirater ohoj
+    NAME_TYPE: Gungande skepp
+    DESCRIPTION_TYPE: Ett skepp som gungar fram och tillbaka.
+    DESCRIPTION_RECOLOUR1: '-'
+    DESCRIPTION_RECOLOUR2: '-'
+    DESCRIPTION_RECOLOUR3: '-'
+  park-entrance-generic:
+    NAME: Generisk parkingång
+  flowers1:
+    NAME: Blomsterrabatter 1
+  flowers2:
+    NAME: Blomsterrabatter 2
+  flowers3:
+    NAME: Blomsterrabatter 3
+  tree1:
+    NAME: Träd 1
+  tree2:
+    NAME: Träd 2
+  tree3:
+    NAME: Träd 3
+  fountain1:
+    NAME: Fontän 1
+  atm:
+    NAME_INSTANCE1: Uttagsautomat
+    NAME_INSTANCE2: Bankomat
+    NAME_TYPE: Bankomat
+    DESCRIPTION_TYPE: Gör att gäster kan ta ut mer pengar när de har slut på dem.
+    DESCRIPTION_RECOLOUR1: Väggar
+    DESCRIPTION_RECOLOUR2: '-'
+    DESCRIPTION_RECOLOUR3: '-'
+    NAME_ITEM1: Kontanter
+    NAME_ITEM2: '-'
+  spiral-slide:
+    NAME_INSTANCE1: Runt runt
+    NAME_INSTANCE2: Yrsel
+    NAME_TYPE: Spiralrutschkana
+    DESCRIPTION_TYPE: En rutschkana formad som en spiral, byggd runt ett torn som omsluter trapphuset.
+    DESCRIPTION_RECOLOUR1: Väggar 1
+    DESCRIPTION_RECOLOUR2: Väggar 2
+    DESCRIPTION_RECOLOUR3: Rutschkana
+  top-spin:
+    NAME_INSTANCE1: Huvudstupa
+    NAME_INSTANCE2: På topp
+    NAME_TYPE: Top Spin
+    DESCRIPTION_TYPE: En gondol som roterar runt sin axel samtidigt som den svängs fram och tillbaka.
+    DESCRIPTION_RECOLOUR1: Gondol 1
+    DESCRIPTION_RECOLOUR2: Gondol 2
+    DESCRIPTION_RECOLOUR3: Säkerhetsbyglar
+  chair-swing:
+    NAME_INSTANCE1: Obunden
+    NAME_INSTANCE2: Gungande
+    NAME_TYPE: Kedjegunga
+    DESCRIPTION_TYPE: Åtta stolar upphängda i långa kedjor som är fästa vid en roterande skiva.
+    DESCRIPTION_RECOLOUR1: Konstruktion
+    DESCRIPTION_RECOLOUR2: Tak
+    DESCRIPTION_RECOLOUR3: Bas
+  mission-official-easy:
+    NAME: Officiell – lätt
+    DESCR: En samling enkla scenarier från FreeRCT:s utvecklingsteam.
+  scenario-emerald-expanses:
+    NAME: Smaragdvidder
+    DESCR: Vem kan se dessa vidsträckta gröna marker utan att röras av deras skönhet? Bland de skogklädda, mjuka kullarna väntar en nöjespark på att byggas.
+  scenario-rugged-ravine:
+    NAME: Karg ravin
+    DESCR: En kanjon, som en uttorkad flod en gång skar genom landskapet, är platsen för denna nöjespark.
