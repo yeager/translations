@@ -1,0 +1,319 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2026-09-28 16:08-0400\n"
+"PO-Revision-Date: 2026-09-12 08:18+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.cacti.net/projects/cacti/syslog/sv/>\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: setup.php
+msgid ""
+"You can also set the database storage engine for the analytical tables "
+"syslog and syslog_remove.  Only the InnoDB storage engine and, on MariaDB, "
+"the Aria storage engine are supported.  If using MariaDB, we recommend the "
+"Aria Storage Engine as it is designed for analytical queries."
+msgstr ""
+"Du kan också ange databaslagringsmotor för analystabellerna syslog och "
+"syslog_remove. Endast lagringsmotorn InnoDB och, på MariaDB, Aria stöds. Om "
+"MariaDB används rekommenderas lagringsmotorn Aria eftersom den är utformad "
+"för analysfrågor."
+
+#: setup.php
+msgid ""
+"You have several options to choose from when installing Syslog.  The first "
+"is the Database Architecture.  Partitioned tables are the only supported "
+"architecture as they prevent the size of the tables from becoming excessive "
+"thus slowing queries.  Traditional non-partitioned tables are deprecated and"
+" are no longer offered for new installs."
+msgstr ""
+"Du kan välja mellan flera alternativ när Syslog installeras. Det första "
+"gäller databasarkitekturen. Partitionerade tabeller är den enda arkitektur "
+"som stöds, eftersom de hindrar tabellerna från att växa för mycket och "
+"därmed göra frågor långsammare. Traditionella tabeller utan partitionering "
+"är föråldrade och erbjuds inte längre för nya installationer."
+
+#: setup.php
+msgid "Monday"
+msgstr "Måndag"
+
+#: setup.php
+msgid "Tuesday"
+msgstr "Tisdag"
+
+#: setup.php
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: setup.php
+msgid "Friday"
+msgstr "Fredag"
+
+#: setup.php
+msgid "Saturday"
+msgstr "Lördag"
+
+#: setup.php
+msgid "Sunday"
+msgstr "Söndag"
+
+#: setup.php
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: setup.php
+msgid "Monday through Friday"
+msgstr "Måndag till fredag"
+
+#: setup.php
+msgid "Saturday and Sunday"
+msgstr "Lördag och söndag"
+
+#: setup.php
+msgid "Every day"
+msgstr "Varje dag"
+
+#: setup.php
+msgid "Maximum Syslog Processing Processes"
+msgstr "Högsta antal Syslog-bearbetningsprocesser"
+
+#: setup.php
+msgid ""
+"When set above 1, incoming message processing is spread across parallel "
+"worker processes.  Each worker handles a disjoint range of incoming "
+"messages, speeding up hostname resolution and message transfer under heavy "
+"loads.  A setting of 1 processes all messages in a single process.  Worker "
+"processes are not supported on Windows or when the PHP pcntl and POSIX "
+"extensions are unavailable, in which case processing falls back to a single "
+"process."
+msgstr ""
+"När värdet är större än 1 fördelas bearbetningen av inkommande meddelanden "
+"mellan parallella arbetsprocesser. Varje arbetsprocess hanterar ett "
+"avgränsat intervall av inkommande meddelanden, vilket snabbar upp "
+"värdnamnsupplösning och meddelandeöverföring vid hög belastning. Värdet 1 "
+"bearbetar alla meddelanden i en enda process. Arbetsprocesser stöds inte i "
+"Windows eller när PHP-tilläggen pcntl och POSIX saknas; då återgår "
+"bearbetningen till en enda process."
+
+#: setup.php
+#, php-format
+msgid "%d Worker Process"
+msgstr "%d arbetsprocess"
+
+#: setup.php
+#, php-format
+msgid "%d Worker Processes"
+msgstr "%d arbetsprocesser"
+
+#: setup.php
+msgid "Host Discovery Options"
+msgstr "Alternativ för värdupptäckt"
+
+#: setup.php
+msgid "Enable Hostname Resolution"
+msgstr "Aktivera värdnamnsupplösning"
+
+#: setup.php
+msgid ""
+"If this checkbox is set, all hostnames are resolved via DNS lookup first (If"
+" enabled). If the DNS lookup fails, the system will attempt to resolve the "
+"hostname against the Cacti host table and replace it with the Cacti host "
+"description. If both DNS and Cacti lookups fail, records are assigned a "
+"prefix 'unresolved-Original_hostname'."
+msgstr ""
+"Om denna kryssruta är markerad löses alla värdnamn först via DNS-"
+"uppslagning, om den är aktiverad. Om DNS-uppslagningen misslyckas försöker "
+"systemet lösa värdnamnet mot Cactis värdtabell och ersätta det med Cacti-"
+"värdbeskrivningen. Om både DNS- och Cacti-uppslagning misslyckas får poster "
+"prefixet 'unresolved-Original_hostname'."
+
+#: setup.php
+msgid "Skip DNS Resolution for incoming hosts"
+msgstr "Hoppa över DNS-upplösning för inkommande värdar"
+
+#: setup.php
+msgid ""
+"If this checkbox is set, the system will not attempt to resolve hosts via "
+"DNS lookups.  This is useful for environments where DNS resolution is not "
+"possible or not desired."
+msgstr ""
+"Om denna kryssruta är markerad försöker systemet inte lösa värdar via DNS-"
+"uppslagningar. Detta är användbart i miljöer där DNS-upplösning inte är "
+"möjlig eller önskvärd."
+
+#: setup.php
+msgid "Partition Pre-create Window"
+msgstr "Fönster för förskapande av partitioner"
+
+#: setup.php
+msgid ""
+"This is the number of future daily partitions to maintain for partitioned "
+"Syslog tables."
+msgstr ""
+"Detta är antalet framtida dagliga partitioner som ska underhållas för "
+"partitionerade Syslog-tabeller."
+
+#: setup.php
+msgid "Partition Recovery Limit"
+msgstr "Återställningsgräns för partitioner"
+
+#: setup.php
+msgid ""
+"When partitions are missing (for example after maintenance downtime), at "
+"most this many missing partitions per table are created on each poller run."
+"  The remaining gap heals over subsequent runs; retention pruning stays "
+"deferred until the future partition horizon is fully restored.  Applies to "
+"partitioned Syslog tables only."
+msgstr ""
+"När partitioner saknas, till exempel efter driftstopp för underhåll, skapas "
+"högst så många saknade partitioner per tabell vid varje pollerkörning. Den "
+"återstående luckan återställs vid följande körningar; gallring skjuts upp "
+"tills den framtida partitionshorisonten är helt återställd. Gäller endast "
+"partitionerade Syslog-tabeller."
+
+#: setup.php
+#, php-format
+msgid "%d Partition per run"
+msgstr "%d partition per körning"
+
+#: setup.php
+#, php-format
+msgid "%d Partitions per run"
+msgstr "%d partitioner per körning"
+
+#: setup.php
+msgid "Collector Staleness Threshold"
+msgstr "Tröskelvärde för inaktiv datainsamlare"
+
+#: setup.php
+msgid ""
+"The Syslog Status page shows a warning when no new message has arrived "
+"within this many seconds.  Set to 0 to use the default of 300 seconds."
+msgstr ""
+"Syslog-statussidan visar en varning när inget nytt meddelande har kommit "
+"inom så många sekunder. Ange 0 för att använda standardvärdet 300 sekunder."
+
+#: setup.php
+msgid "Default (300 seconds)"
+msgstr "Standardvärde (300 sekunder)"
+
+#: setup.php
+#, php-format
+msgid "%d seconds"
+msgstr "%d sekunder"
+
+#: setup.php
+msgid "Collector Backlog Threshold"
+msgstr "Tröskelvärde för kö hos datainsamlare"
+
+#: setup.php
+msgid ""
+"The Syslog Status page shows a warning when more than this many messages sit"
+" unprocessed in the Syslog Incoming table.  Set to 0 to use the default of "
+"10000 messages."
+msgstr ""
+"Syslog-statussidan visar en varning när fler än så många meddelanden väntar "
+"obearbetade i tabellen Syslog Incoming. Ange 0 för att använda "
+"standardvärdet 10000 meddelanden."
+
+#: setup.php
+msgid "Default (10000 messages)"
+msgstr "Standardvärde (10000 meddelanden)"
+
+#: setup.php
+#, php-format
+msgid "%d Messages"
+msgstr "%d meddelanden"
+
+#: setup.php
+msgid "Alert Suppression and Maintenance"
+msgstr "Larmdämpning och underhåll"
+
+#: setup.php
+msgid "Maintenance Window Days"
+msgstr "Dagar för underhållsfönster"
+
+#: setup.php
+msgid ""
+"Days when all alert notifications are muted during the configured "
+"maintenance timeframe."
+msgstr ""
+"Dagar då alla larmaviseringar tystas under det konfigurerade "
+"underhållsfönstret."
+
+#: setup.php
+msgid "Maintenance Window Starts"
+msgstr "Underhållsfönstret börjar"
+
+#: setup.php
+msgid "Local start time for the global maintenance window."
+msgstr "Lokal starttid för det globala underhållsfönstret."
+
+#: setup.php
+msgid "Maintenance Window Ends"
+msgstr "Underhållsfönstret slutar"
+
+#: setup.php
+msgid ""
+"Local end time for the global maintenance window. An earlier end time "
+"continues into the next day."
+msgstr ""
+"Lokal sluttid för det globala underhållsfönstret. En tidigare sluttid "
+"fortsätter in på nästa dag."
+
+#: setup.php
+msgid "One-time Maintenance Starts"
+msgstr "Engångsunderhåll börjar"
+
+#: setup.php
+msgid ""
+"Optional local date and time to start a one-time global maintenance window."
+msgstr ""
+"Valfritt lokalt datum och tid då ett globalt engångsunderhållsfönster "
+"börjar."
+
+#: setup.php
+msgid "One-time Maintenance Ends"
+msgstr "Engångsunderhåll slutar"
+
+#: setup.php
+msgid ""
+"Optional local date and time to end a one-time global maintenance window. "
+"Format: YYYY-MM-DD HH:MM."
+msgstr ""
+"Valfritt lokalt datum och tid då ett globalt engångsunderhållsfönster "
+"slutar. Format: YYYY-MM-DD HH:MM."
+
+#: setup.php
+msgid "Default Alert Cooldown"
+msgstr "Standardtid mellan larm"
+
+#: setup.php
+msgid ""
+"Suppress any repeat notification for the same rule and reporting scope for "
+"this many minutes. Per-rule values override this setting. Set to 0 to "
+"disable."
+msgstr ""
+"Undertryck upprepade aviseringar för samma regel och rapporteringsomfång "
+"under så många minuter. Värden per regel åsidosätter denna inställning. Ange"
+" 0 för att inaktivera."
+
+#: setup.php
+msgid "Default Duplicate Suppression"
+msgstr "Standarddämpning av dubbletter"
+
+#: setup.php
+msgid ""
+"Suppress a notification with the same matched message set for this many "
+"minutes. Per-rule values override this setting. Set to 0 to disable."
+msgstr ""
+"Undertryck en avisering med samma uppsättning matchade meddelanden under så "
+"många minuter. Värden per regel åsidosätter denna inställning. Ange 0 för "
+"att inaktivera."
