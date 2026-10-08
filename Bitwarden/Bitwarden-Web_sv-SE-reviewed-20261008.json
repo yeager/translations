@@ -3021,7 +3021,7 @@
     "message": "1 skadad bilaga hoppades över vid exporten. Alla andra valvdata och bilagor exporterades utan problem."
   },
   "exportSuccessSkippedAttachments": {
-    "message": "$COUNT$ corrupted attachments were skipped during export. All other vault data and attachments exported successfully.",
+    "message": "$COUNT$ skadade bilagor hoppades över vid exporten. Alla andra valvdata och bilagor exporterades utan problem.",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -3043,7 +3043,7 @@
     "description": "Minimum special characters"
   },
   "minSpecialCharacters": {
-    "message": "Minimum special characters"
+    "message": "Minsta antal specialtecken"
   },
   "ambiguous": {
     "message": "Undvik tvetydiga tecken",
@@ -3101,7 +3101,7 @@
     "message": "Rensa generatorhistorik"
   },
   "clearGeneratorHistoryDescription": {
-    "message": "If you continue, all entries will be permanently deleted from generator's history. Are you sure you want to continue?"
+    "message": "Om du fortsätter tas alla poster bort permanent från generatorns historik. Vill du fortsätta?"
   },
   "noPasswordsInList": {
     "message": "Det finns inga lösenord att visa."
@@ -3271,7 +3271,7 @@
     "message": "Rensade organisationsvalv."
   },
   "purgedOrganizationVaultWithName": {
-    "message": "Purged $ORGNAME$ vault.",
+    "message": "Valvet $ORGNAME$ har tömts.",
     "placeholders": {
       "orgname": {
         "content": "$1",
@@ -3304,16 +3304,16 @@
     "message": "Att radera ditt konto är permanent. Det går inte att ångra."
   },
   "deleteAccountOrganizationOwnerWarning": {
-    "message": "You are the owner of at least one organization. Deleting your account will also delete any organizations you are the sole owner of."
+    "message": "Du är ägare till minst en organisation. Om du tar bort ditt konto tas även organisationer där du är ensam ägare bort."
   },
   "cannotDeleteAccountOrganizationOwnerDesc": {
-    "message": "You cannot delete your account while you are the owner of an organization. Transfer ownership or delete the organization first."
+    "message": "Du kan inte ta bort ditt konto när du är ägare till en organisation. Överför ägarskapet eller ta först bort organisationen."
   },
   "cannotDeleteAccount": {
     "message": "Det går inte att ta bort kontot"
   },
   "cannotDeleteAccountDesc": {
-    "message": "This action cannot be completed because your account is owned by an organization. Contact your organization administrator for additional details."
+    "message": "Åtgärden kan inte slutföras eftersom ditt konto ägs av en organisation. Kontakta organisationens administratör för mer information."
   },
   "accountDeleted": {
     "message": "Kontot raderades"
@@ -3331,7 +3331,7 @@
     "message": "Verktyg"
   },
   "importNoun": {
-    "message": "Import",
+    "message": "Importera",
     "description": "The noun form of the word Import"
   },
   "importVerb": {
@@ -3378,7 +3378,7 @@
     "message": "Ingenting importerades."
   },
   "importPartialErrorTitle": {
-    "message": "$COUNT$ items will be skipped",
+    "message": "$COUNT$ objekt hoppas över",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -3387,7 +3387,7 @@
     }
   },
   "importPartialErrorTitleSingular": {
-    "message": "$COUNT$ item will be skipped",
+    "message": "$COUNT$ objekt hoppas över",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -3396,58 +3396,58 @@
     }
   },
   "importPartialErrorDescription": {
-    "message": "The following items could not be read and will not be included in your import:"
+    "message": "Följande objekt kunde inte läsas och inkluderas inte i importen:"
   },
   "importSkipReasonSshKeyParse": {
-    "message": "This SSH key could not be imported"
+    "message": "Den här SSH-nyckeln kunde inte importeras"
   },
   "importSkipReasonUnsupportedType": {
-    "message": "Unsupported item type"
+    "message": "Objekttypen stöds inte"
   },
   "importSkipReasonGeneric": {
-    "message": "This item could not be imported"
+    "message": "Objektet kunde inte importeras"
   },
   "contact": {
-    "message": "Contact"
+    "message": "Kontakt"
   },
   "membership": {
-    "message": "Membership"
+    "message": "Medlemskap"
   },
   "passport": {
-    "message": "Passport"
+    "message": "Pass"
   },
   "driverLicense": {
-    "message": "Driver's license"
+    "message": "Körkort"
   },
   "ssnCard": {
-    "message": "Identity card"
+    "message": "Identitetskort"
   },
   "birthCertificate": {
-    "message": "Birth certificate"
+    "message": "Födelsebevis"
   },
   "databaseCredentials": {
-    "message": "Database credentials"
+    "message": "Databasuppgifter"
   },
   "serverCredentials": {
-    "message": "Server credentials"
+    "message": "Serveruppgifter"
   },
   "softwareLicense": {
-    "message": "Software license"
+    "message": "Programvarulicens"
   },
   "healthInsurance": {
-    "message": "Health insurance"
+    "message": "Sjukförsäkring"
   },
   "wifiCredentials": {
-    "message": "Wi-Fi credentials"
+    "message": "Wi-Fi-uppgifter"
   },
   "general": {
-    "message": "General"
+    "message": "Allmänt"
   },
   "importEncKeyError": {
     "message": "Ett fel uppstod vid dekryptering av den exporterade filen. Din krypteringsnyckel matchar inte krypteringsnyckeln som användes för att exportera datan."
   },
   "destination": {
-    "message": "Destination"
+    "message": "Mål"
   },
   "learnAboutImportOptions": {
     "message": "Läs mer om dina importalternativ"
@@ -3459,7 +3459,7 @@
     "message": "Välj en samling"
   },
   "selectImportSharedFolder": {
-    "message": "Select a shared folder"
+    "message": "Välj en delad mapp"
   },
   "importTargetMyFolder": {
     "message": "My Folder",
@@ -3472,7 +3472,7 @@
     "message": "Välj detta alternativ om du vill att innehållet i den importerade filen ska flyttas till en mapp"
   },
   "importTargetHintSharedFolder": {
-    "message": "Select this option if you want the imported file contents moved to a shared folder"
+    "message": "Välj det här alternativet om innehållet i den importerade filen ska flyttas till en delad mapp"
   },
   "importUnassignedItemsError": {
     "message": "Filen innehåller otilldelade objekt."
@@ -3490,10 +3490,10 @@
     "message": "Välj källa"
   },
   "importSourceSelectDescription": {
-    "message": "Choose the password manager or browser you are importing from."
+    "message": "Välj lösenordshanteraren eller webbläsaren som du importerar från."
   },
   "importSourceBrowsers": {
-    "message": "Browsers"
+    "message": "Webbläsare"
   },
   "importSourcePasswordManagers": {
     "message": "Lösenordshanterare"
@@ -3502,10 +3502,10 @@
     "message": "Visa alla"
   },
   "importSourceShowLess": {
-    "message": "Show less"
+    "message": "Visa mindre"
   },
   "importSourceStepCount": {
-    "message": "Step $CURRENT$ of $TOTAL$",
+    "message": "Steg $CURRENT$ av $TOTAL$",
     "placeholders": {
       "current": {
         "content": "$1",
@@ -3530,7 +3530,7 @@
     "message": "Ingen fil har valts"
   },
   "fileChosen": {
-    "message": "File chosen: $FILE_NAME$",
+    "message": "Vald fil: $FILE_NAME$",
     "placeholders": {
       "file_name": {
         "content": "$1",
@@ -3539,7 +3539,7 @@
     }
   },
   "fileAdded": {
-    "message": "File added: $FILE_NAME$",
+    "message": "Fil tillagd: $FILE_NAME$",
     "placeholders": {
       "file_name": {
         "content": "$1",
@@ -3548,7 +3548,7 @@
     }
   },
   "filesAdded": {
-    "message": "$COUNT$ files added: $FILE_NAMES$",
+    "message": "$COUNT$ filer tillagda: $FILE_NAMES$",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -3561,7 +3561,7 @@
     }
   },
   "fileRemoved": {
-    "message": "File removed: $FILE_NAME$",
+    "message": "Fil borttagen: $FILE_NAME$",
     "placeholders": {
       "file_name": {
         "content": "$1",
@@ -3573,7 +3573,7 @@
     "message": "1 fil har laddats upp"
   },
   "filesUploaded": {
-    "message": "$COUNT$ files uploaded",
+    "message": "$COUNT$ filer uppladdade",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -3582,16 +3582,16 @@
     }
   },
   "uploadedFiles": {
-    "message": "Uploaded files"
+    "message": "Uppladdade filer"
   },
   "clickToUploadOrDragAndDrop": {
-    "message": "Click to upload or drag and drop"
+    "message": "Klicka för att ladda upp eller dra och släpp"
   },
   "chooseFiles": {
-    "message": "Choose files"
+    "message": "Välj filer"
   },
   "maxFileSizeParam": {
-    "message": "Max. file size: $SIZE$ MB",
+    "message": "Största filstorlek: $SIZE$ MB",
     "placeholders": {
       "size": {
         "content": "$1",
@@ -3613,7 +3613,7 @@
     }
   },
   "importHelpCenterInstructions": {
-    "message": "See detailed $NAME$ instructions in our",
+    "message": "Se detaljerade instruktioner för $NAME$ i vårt",
     "description": "Followed by a hyperlink whose text is importHelpCenterLinkText, e.g. 'See detailed Safari instructions in our Help Center'.",
     "placeholders": {
       "name": {
@@ -3626,26 +3626,26 @@
     "message": "Hjälpcenter"
   },
   "importChromiumAliasPreamble": {
-    "message": "The process is exactly the same as importing from Google Chrome.",
+    "message": "Processen är exakt densamma som vid import från Google Chrome.",
     "description": "Shown for Chromium-based browsers other than Chrome, immediately before importHelpCenterInstructions."
   },
   "importKeepassxInstructions": {
-    "message": "Using the KeePassX desktop application, navigate to \"Database\" → \"Export to CSV file\" and save the CSV file."
+    "message": "Använd KeePassX-skrivbordsprogrammet, gå till ”Database” → ”Export to CSV file” och spara CSV-filen."
   },
   "importAviraInstructions": {
-    "message": "In the Avira web vault, go to \"Settings\" → \"My Data\" → \"Export data\" and save the CSV file."
+    "message": "Gå till ”Settings” → ”My Data” → ”Export data” i Aviras webbvalv och spara CSV-filen."
   },
   "importBlurInstructions": {
-    "message": "In the Blur web vault, click your username at the top and go to \"Settings\" → \"Export Data\", then click \"Export CSV\" for your \"Accounts\"."
+    "message": "Klicka på ditt användarnamn högst upp i Blurs webbvalv och gå till ”Settings” → ”Export Data”. Klicka sedan på ”Export CSV” för ”Accounts”."
   },
   "importSafeincloudInstructions": {
-    "message": "Using the SafeInCloud desktop application, navigate to \"File\" → \"Export\" → \"As XML\" and save the XML file."
+    "message": "Använd SafeInCloud-skrivbordsprogrammet, gå till ”File” → ”Export” → ”As XML” och spara XML-filen."
   },
   "importPadlockInstructions": {
-    "message": "Using the Padlock desktop application, click the hamburger icon in the top left corner and navigate to \"Settings\" → \"Export\" button and save the file \"As CSV\"."
+    "message": "Klicka på hamburgermenyn uppe till vänster i Padlock-skrivbordsprogrammet, gå till ”Settings” → ”Export” och spara filen ”As CSV”."
   },
   "importKeepass2Instructions": {
-    "message": "Using the KeePass 2 desktop application, navigate to \"File\" → \"Export\" and select the \"KeePass XML (2.x)\" option."
+    "message": "Använd KeePass 2-skrivbordsprogrammet, gå till ”File” → ”Export” och välj alternativet ”KeePass XML (2.x)”."
   },
   "importUpmInstructions": {
     "message": "Using the Universal Password Manager desktop application, navigate to \"Database\" → \"Export\" and save the CSV file."
