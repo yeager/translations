@@ -1,0 +1,241 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2026-09-28 16:08-0400\n"
+"PO-Revision-Date: 2026-09-12 08:18+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.cacti.net/projects/cacti/syslog/sv/>\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: functions.php
+msgid "Syslog download"
+msgstr "Hämta Syslog"
+
+#: functions.php
+msgid "Text import payload exceeds the maximum size"
+msgstr "Textimportens nyttolast överskrider den högsta tillåtna storleken"
+
+#: functions.php
+msgid ""
+"Unable to read the uploaded import file. Check the file and upload size "
+"limit."
+msgstr ""
+"Det gick inte att läsa den uppladdade importfilen. Kontrollera filen och "
+"gränsen för uppladdningsstorlek."
+
+#: functions.php
+msgid "Select an import file or paste its contents before importing."
+msgstr "Välj en importfil eller klistra in dess innehåll före importen."
+
+#: functions.php
+msgid ""
+"The Syslog tables are not partitioned.  Traditional (non-partitioned) tables"
+" are deprecated, and partitioned tables are required for new installs.  Your"
+" data will continue to be collected, but you should migrate the syslog table"
+" to a partitioned architecture."
+msgstr ""
+"Syslog-tabellerna är inte partitionerade. Traditionella tabeller utan "
+"partitionering är föråldrade och partitionerade tabeller krävs för nya "
+"installationer. Data fortsätter att samlas in, men syslog-tabellen bör "
+"migreras till en partitionerad arkitektur."
+
+#: functions.php
+#, php-format
+msgid ""
+"Partition layout for %s is invalid or incomplete; partition maintenance "
+"stopped. Verify the partition metadata with SHOW CREATE TABLE and, if "
+"required, rebuild the partitions; writes continue into the dMaxValue safety "
+"partition."
+msgstr ""
+"Partitionslayouten för %s är ogiltig eller ofullständig; "
+"partitionsunderhållet har stoppats. Verifiera partitionsmetadata med SHOW "
+"CREATE TABLE och bygg vid behov om partitionerna; skrivningar fortsätter "
+"till säkerhetspartitionen dMaxValue."
+
+#: functions.php
+#, php-format
+msgid "remaining partition gap: %d day(s)"
+msgstr "återstående partitionslucka: %d dag(ar)"
+
+#: functions.php
+msgid "no retention deferral"
+msgstr "ingen uppskjuten gallring"
+
+#: functions.php
+msgid "retention pruning deferred until the future horizon is restored"
+msgstr ""
+"gallring har skjutits upp tills den framtida horisonten har återställts"
+
+#: functions.php
+msgid "new records are accumulating in the dMaxValue safety partition"
+msgstr "nya poster samlas i säkerhetspartitionen dMaxValue"
+
+#: functions.php
+msgid "per run recovery limit reached"
+msgstr "återställningsgränsen per körning har nåtts"
+
+#: functions.php
+msgid "partition creation failed"
+msgstr "det gick inte att skapa partitionen"
+
+#: functions.php
+msgid "Unknown rule type."
+msgstr "Okänd regeltyp."
+
+#: functions.php
+msgid "The configured incoming field mapping is invalid."
+msgstr "Den konfigurerade mappningen av inkommande fält är ogiltig."
+
+#: functions.php
+msgid "The facility of this rule is not in the reference table yet."
+msgstr "Faciliteten för denna regel finns ännu inte i referenstabellen."
+
+#: functions.php
+msgid "Unknown rule match type."
+msgstr "Okänd matchningstyp för regel."
+
+#: functions.php
+msgid "The rule did not compile to a query."
+msgstr "Regeln kunde inte kompileras till en fråga."
+
+#: functions.php
+msgid "The preview query could not be evaluated."
+msgstr "Förhandsgranskningsfrågan kunde inte utvärderas."
+
+#: functions.php
+msgid "The preview sample could not be read."
+msgstr "Förhandsgranskningsexemplet kunde inte läsas."
+
+#: functions.php lib/syslog_dashboard.php syslog.php syslog_alerts.php
+#: syslog_dashboards.php syslog_removal.php syslog_reports.php
+#: syslog_saved_searches.php
+msgid "Permission denied."
+msgstr "Åtkomst nekad."
+
+#: functions.php setup.php
+msgid "Invalid request. Please try again."
+msgstr "Ogiltig begäran. Försök igen."
+
+#: functions.php
+msgid "The rule has no match expression to test."
+msgstr "Regeln har inget matchningsuttryck att testa."
+
+#: functions.php
+msgid "The match expression is too long to test."
+msgstr "Matchningsuttrycket är för långt för att testas."
+
+#: lib/syslog_dashboard.php
+msgid "Invalid dashboard panel source."
+msgstr "Ogiltig källa för instrumentpanelens panel."
+
+#: lib/syslog_dashboard.php
+msgid "Invalid dashboard panel type."
+msgstr "Ogiltig paneltyp för instrumentpanelen."
+
+#: lib/syslog_dashboard.php
+msgid "Invalid dashboard chart type."
+msgstr "Ogiltig diagramtyp för instrumentpanelen."
+
+#: lib/syslog_dashboard.php
+msgid "Invalid dashboard breakdown field."
+msgstr "Ogiltigt uppdelningsfält för instrumentpanelen."
+
+#: lib/syslog_dashboard.php
+msgid "Invalid dashboard interval."
+msgstr "Ogiltigt intervall för instrumentpanelen."
+
+#: lib/syslog_dashboard.php
+msgid "Invalid dashboard timespan."
+msgstr "Ogiltigt tidsintervall för instrumentpanelen."
+
+#: lib/syslog_dashboard.php
+msgid "Invalid dashboard record type."
+msgstr "Ogiltig posttyp för instrumentpanelen."
+
+#: lib/syslog_dashboard.php
+msgid "Invalid dashboard top count."
+msgstr "Ogiltigt antal toppresultat."
+
+#: lib/syslog_dashboard.php
+msgid "Invalid dashboard panel width."
+msgstr "Ogiltig panelbredd för instrumentpanelen."
+
+#: lib/syslog_dashboard.php
+msgid "Invalid dashboard panel height."
+msgstr "Ogiltig panelhöjd för instrumentpanelen."
+
+#: lib/syslog_dashboard.php syslog.php
+#, php-format
+msgid "Invalid logical search: %s"
+msgstr "Ogiltig logisk sökning: %s"
+
+#: lib/syslog_dashboard.php
+msgid "Other"
+msgstr "Övrigt"
+
+#: lib/syslog_dashboard.php
+msgid "A valid dashboard panel is required."
+msgstr "En giltig instrumentpanelspanel krävs."
+
+#: lib/syslog_dashboard.php
+msgid "Dashboard panel not found."
+msgstr "Instrumentpanelspanelen hittades inte."
+
+#: lib/syslog_dashboard.php syslog.php
+msgid "A name of up to 128 characters is required."
+msgstr "Ett namn med högst 128 tecken krävs."
+
+#: lib/syslog_dashboard.php
+msgid "A valid dashboard is required."
+msgstr "En giltig instrumentpanel krävs."
+
+#: lib/syslog_dashboard.php
+msgid "Dashboard not found."
+msgstr "Instrumentpanelen hittades inte."
+
+#: lib/syslog_dashboard.php
+msgid "You may only share your own dashboards."
+msgstr "Du får bara dela dina egna instrumentpaneler."
+
+#: lib/syslog_dashboard.php
+msgid "copy"
+msgstr "kopia"
+
+#: lib/syslog_dashboard.php
+msgid "Dashboard could not be copied."
+msgstr "Instrumentpanelen kunde inte kopieras."
+
+#: lib/syslog_dashboard.php
+msgid "A valid panel position is required."
+msgstr "En giltig panelposition krävs."
+
+#: lib/syslog_dashboard.php
+msgid "A title of up to 128 characters is required."
+msgstr "En titel med högst 128 tecken krävs."
+
+#: lib/syslog_dashboard.php
+msgid "Chart library unavailable on this Cacti installation."
+msgstr "Diagram-biblioteket är inte tillgängligt i denna Cacti-installation."
+
+#: lib/syslog_dashboard.php
+msgid "Edit Panel"
+msgstr "Redigera panel"
+
+#: lib/syslog_dashboard.php
+msgid "New Panel"
+msgstr "Ny panel"
+
+#: lib/syslog_dashboard.php syslog.php
+msgid "Apply"
+msgstr "Tillämpa"
+
+#: lib/syslog_dashboard.php
+msgid "Delete this dashboard panel?"
+msgstr "Ta bort denna instrumentpanelspanel?"
