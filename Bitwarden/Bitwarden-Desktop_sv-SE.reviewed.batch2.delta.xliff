@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:xliff xmlns:ns0="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <ns0:file id="53" original="/main/src/locales/en/messages.json" source-language="en" target-language="sv-SE" datatype="plaintext" project-id="299360" tool-id="crowdin">
+    <ns0:header>
+      <ns0:tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1" />
+    </ns0:header>
+    <ns0:body>
+      <ns0:trans-unit id="49894" resname="authenticationTimeout">
+        <ns0:source>Authentication timeout</ns0:source>
+        <ns0:target state="translated">Tidsgräns för autentisering</ns0:target>
+        <ns0:context-group purpose="information">
+          <ns0:context context-type="source">authenticationTimeout</ns0:context>
+        </ns0:context-group>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="4550" resname="encExportAccountWarningDesc" approved="yes">
+        <ns0:source>Account encryption keys are unique to each Bitwarden user account, so you can't import an encrypted export into a different account.</ns0:source>
+        <ns0:target state="final">Krypteringsnycklar är unika för varje Bitwarden-konto, så du kan inte importera en krypterad export till ett annat konto.</ns0:target>
+        <ns0:context-group purpose="information">
+          <ns0:context context-type="source">encExportAccountWarningDesc</ns0:context>
+        </ns0:context-group>
+        <ns0:note from="suzui" priority="4">The currently approved translation is not correct. Please review my suggestion:
+"מפתחות הצפנת חשבון הם ייחודים לכל חשבון משתמש Bitwarden, לכן אינך יכול לייבא ייצוא מוצפן לחשבון אחר."</ns0:note>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="16715" resname="vaultTimeoutPolicyWithActionInEffect">
+        <ns0:source>Your organization policies are affecting your vault timeout. Maximum allowed vault timeout is $HOURS$ hour(s) and $MINUTES$ minute(s). Your vault timeout action is set to $ACTION$.</ns0:source>
+        <ns0:target state="translated">Organisationens policyer styr valvets tidsgräns. Högsta tillåtna tidsgräns är $HOURS$ timme(ar) och $MINUTES$ minut(er). Åtgärden vid valvets tidsgräns är $ACTION$.</ns0:target>
+        <ns0:context-group purpose="information">
+          <ns0:context context-type="source">vaultTimeoutPolicyWithActionInEffect
+
+A sample value for the variable $hours$: 5
+A sample value for the variable $minutes$: 5
+A sample value for the variable $action$: Lock</ns0:context>
+        </ns0:context-group>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="16717" resname="vaultTimeoutActionPolicyInEffect">
+        <ns0:source>Your organization policies have set your vault timeout action to $ACTION$.</ns0:source>
+        <ns0:target state="translated">Organisationens policyer har angett åtgärden vid valvets tidsgräns till $ACTION$.</ns0:target>
+        <ns0:context-group purpose="information">
+          <ns0:context context-type="source">vaultTimeoutActionPolicyInEffect
+
+A sample value for the variable $action$: Lock</ns0:context>
+        </ns0:context-group>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="6495" resname="vaultTimeoutTooLarge" approved="yes">
+        <ns0:source>Your vault timeout exceeds the restrictions set by your organization.</ns0:source>
+        <ns0:target state="final">Valvets tidsgräns överskrider begränsningarna som organisationen har angett.</ns0:target>
+        <ns0:context-group purpose="information">
+          <ns0:context context-type="source">vaultTimeoutTooLarge</ns0:context>
+        </ns0:context-group>
+        <ns0:note from="c.m" priority="4">The currently approved translation is not correct. Please review my suggestion:
+"Το χρονικό όριο λήξης του θησαυ/κίου σας υπερβαίνει τους περιορισμούς που έχει ορίσει ο οργανισμός σας."</ns0:note>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="12006" resname="ssoKeyConnectorError" approved="yes">
+        <ns0:source>Key connector error: make sure key connector is available and working correctly.</ns0:source>
+        <ns0:target state="final">Key Connector-fel: kontrollera att Key Connector är tillgänglig och fungerar korrekt.</ns0:target>
+        <ns0:context-group purpose="information">
+          <ns0:context context-type="source">ssoKeyConnectorError</ns0:context>
+        </ns0:context-group>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="11774" resname="catchallEmail" approved="yes">
+        <ns0:source>Catch-all email</ns0:source>
+        <ns0:target state="final">Uppsamlingsadress för e-post</ns0:target>
+        <ns0:context-group purpose="information">
+          <ns0:context context-type="source">catchallEmail</ns0:context>
+        </ns0:context-group>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="11776" resname="catchallEmailDesc" approved="yes">
+        <ns0:source>Use your domain's configured catch-all inbox.</ns0:source>
+        <ns0:target state="final">Använd domänens konfigurerade uppsamlingsinkorg.</ns0:target>
+        <ns0:context-group purpose="information">
+          <ns0:context context-type="source">catchallEmailDesc</ns0:context>
+        </ns0:context-group>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="24802" resname="forwaderInvalidTokenWithMessage">
+        <ns0:source>Invalid $SERVICENAME$ API token: $ERRORMESSAGE$</ns0:source>
+        <ns0:target state="translated">Ogiltig $SERVICENAME$ API-token: $ERRORMESSAGE$</ns0:target>
+        <ns0:context-group purpose="information">
+          <ns0:context context-type="source">forwaderInvalidTokenWithMessage
+
+Displayed when the user's API token is rejected by the forwarding service with an error message.
+
+A sample value for the variable $servicename$: SimpleLogin
+A sample value for the variable $errormessage$: Please verify your email address to continue.</ns0:context>
+        </ns0:context-group>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="25076" resname="accessTokenUnableToBeDecrypted">
+        <ns0:source>You have been logged out because your access token could not be decrypted. Please log in again to resolve this issue.</ns0:source>
+        <ns0:target state="translated">Du har loggats ut eftersom åtkomsttoken inte kunde dekrypteras. Logga in igen för att lösa problemet.</ns0:target>
+        <ns0:context-group purpose="information">
+          <ns0:context context-type="source">accessTokenUnableToBeDecrypted</ns0:context>
+        </ns0:context-group>
+      </ns0:trans-unit>
+      </ns0:body>
+  </ns0:file>
+  </ns0:xliff>
