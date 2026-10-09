@@ -69056,12 +69056,12 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location filename="../../../src/plugins/screenrecorder/cropandtrim.cpp" line="+302" />
             <source>Save current, cropped frame as image file.</source>
-            <translation>Spara aktuella, beskärda bildrutan som bildfil.</translation>
+            <translation>Spara den aktuella, beskurna bildrutan som bildfil.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Copy current, cropped frame as image to the clipboard.</source>
-            <translation>Kopiera aktuella, beskärda bildrutan som bild till urklipp.</translation>
+            <translation>Kopiera den aktuella, beskurna bildrutan som bild till urklipp.</translation>
         </message>
         <message>
             <location line="+12" />
@@ -69086,7 +69086,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+21" />
             <source>Save Current Frame As</source>
-            <translation>Spara aktuell bild som</translation>
+            <translation>Spara aktuell bildruta som</translation>
         </message>
         <message>
             <location line="+175" />
@@ -69101,7 +69101,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+12" />
             <source>Trimming</source>
-            <translation>Optimerar</translation>
+            <translation>Trimning</translation>
         </message>
         <message>
             <location line="+6" />
@@ -69111,7 +69111,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+106" />
             <source>Crop and Trim</source>
-            <translation>Beskär och optimera</translation>
+            <translation>Beskär och trimma</translation>
         </message>
         <message>
             <location line="+12" />
@@ -69121,7 +69121,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+100" />
             <source>Crop and Trim...</source>
-            <translation>Beskär och optimera…</translation>
+            <translation>Beskär och trimma …</translation>
         </message>
         <message>
             <location line="+44" />
@@ -69156,7 +69156,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+1" />
             <source>Lossy</source>
-            <translation>Förlust</translation>
+            <translation>Med förlust</translation>
         </message>
         <message>
             <location line="+0" />
@@ -69181,7 +69181,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location filename="../../../src/plugins/screenrecorder/ffmpegutils.cpp" line="+100" />
             <source>Width and height are not both divisible by 2. The video export for some of the lossy formats will not work.</source>
-            <translation>Bredd och höjd är inte båda delbara med 2. Videoexporten för några av de format med förlust kommer inte fungera.</translation>
+            <translation>Bredden och höjden är inte båda delbara med 2. Videoexporten fungerar inte för vissa förlustformat.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/screenrecorder/record.cpp" line="+91" />
@@ -69196,7 +69196,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+7" />
             <source>FPS:</source>
-            <translation>Bilder/s:</translation>
+            <translation>Bildrutor/s:</translation>
         </message>
         <message>
             <location line="+14" />
@@ -69206,7 +69206,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+102" />
             <source>Open Mov/qtrle rgb24 File</source>
-            <translation>Öppna Mov/qtrle rgb24-fil</translation>
+            <translation>Öppna MOV-/qtrle-rgb24-fil</translation>
         </message>
         <message>
             <location line="+74" />
@@ -69236,7 +69236,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+80" />
             <source>Record Screen...</source>
-            <translation>Spela in skärmen…</translation>
+            <translation>Spela in skärm …</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/screenrecorder/screenrecordersettings.cpp" line="+60" />
@@ -69256,7 +69256,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+5" />
             <source>Capture the screen mouse clicks</source>
-            <translation>Fånga skärmens musklick</translation>
+            <translation>Fånga musklick på skärmen</translation>
         </message>
         <message>
             <location line="+4" />
@@ -69266,22 +69266,22 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+26" />
             <source>Size limit for intermediate output file</source>
-            <translation>Storleksgräns för mellanliggade utdatafil</translation>
+            <translation>Storleksgräns för mellanliggande utdatafil</translation>
         </message>
         <message>
             <location line="+10" />
             <source>RAM buffer for real-time frames</source>
-            <translation>RAM-buffert för realtidsbilder</translation>
+            <translation>RAM-buffert för bildrutor i realtid</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Write command line of FFmpeg calls to General Messages</source>
-            <translation>Skriv kommandorad för FFmpeg-anrop till Allmänna meddelanden</translation>
+            <translation>Skriv kommandoraden för FFmpeg-anrop till Allmänna meddelanden</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Export animated images as infinite loop</source>
-            <translation>Exportera animerade bilder som ändlös slinga</translation>
+            <translation>Exportera animerade bilder i en oändlig slinga</translation>
         </message>
         <message>
             <location line="+20" />
@@ -69306,7 +69306,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+10" />
             <source>Export Settings</source>
-            <translation>Exportera inställningar</translation>
+            <translation>Exportinställningar</translation>
         </message>
         <message>
             <location line="+71" />
