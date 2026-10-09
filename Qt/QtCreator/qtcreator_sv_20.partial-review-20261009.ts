@@ -60834,22 +60834,22 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+174" />
             <source>Cannot save Python project file.</source>
-            <translation>Kan inte spara projektfilen Python.</translation>
+            <translation>Kan inte spara Python-projektfilen.</translation>
         </message>
         <message>
             <location line="+128" />
             <source>Cannot read Python project.</source>
-            <translation>Kan inte läsa Python- projekt.</translation>
+            <translation>Kan inte läsa Python-projektet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/python/pythonrunconfiguration.cpp" line="+86" />
             <source>👉 Click here to install %1 (requires pip)</source>
-            <translation>på Klicka här för att installera %1 (kräver pip)</translation>
+            <translation>👉 Klicka här för att installera %1 (kräver pip)</translation>
         </message>
         <message>
             <location line="+1" />
             <source>PySide6</source>
-            <translation>För att undvika att en del av den totala mängden av de ämnen som anges i denna bilaga överskrider den mängd som anges i bilaga I till förordning (EG) nr 1907/2006 ska det finnas en risk för att de ämnen som anges i bilaga I till förordning (EG) nr 1907/2006 inte kommer att användas för att fastställa den mängd som ska användas för att fastställa den mängd som ska användas för att fastställa den mängd som ska användas för att fastställa den mängd som ska användas för att fastställa den mängd som ska användas för att fastställa den mängd som ska användas för att fastställa den mängd som ska användas för att fastställa den mängd som ska användas för att fastställa den mängd</translation>
+            <translation>PySide6</translation>
         </message>
         <message>
             <location line="+59" />
@@ -60859,7 +60859,7 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+2" />
             <source>Enabling improves output performance, but results in delayed output.</source>
-            <translation>Aktivera förbättrar prestandan, men resulterar i fördröjd utgång.</translation>
+            <translation>Aktiveringen förbättrar utdatas prestanda, men fördröjer utdata.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -60940,27 +60940,27 @@ Välj en annan sökväg.</translation>
             <location line="+765" />
             <source>Venv creation failed:
 %1</source>
-            <translation>Skaparen
-misslyckades: %1</translation>
+            <translation>Det gick inte att skapa venv:
+%1</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Venv creation terminated abnormally:
 %1</source>
-            <translation>Venv skapande avslutas
-onormalt: %1</translation>
+            <translation>Skapandet av venv avslutades onormalt:
+%1</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Venv creation could not be started:
 %1</source>
-            <translation>Venv-skapning kunde
-inte startas: %1</translation>
+            <translation>Det gick inte att starta skapandet av venv:
+%1</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Venv creation canceled.</source>
-            <translation>Venv- skapelse inställd.</translation>
+            <translation>Skapandet av venv avbröts.</translation>
         </message>
         <message>
             <location line="+198" />
@@ -60970,7 +60970,7 @@ inte startas: %1</translation>
         <message>
             <location line="+12" />
             <source>Removing Python: %1.</source>
-            <translation>Ta bort Python: %1.</translation>
+            <translation>Tar bort Python: %1.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -61002,7 +61002,7 @@ inte startas: %1</translation>
         <message>
             <location line="+20" />
             <source>For a complete list of available options, consult the [Python LSP Server configuration documentation](%1).</source>
-            <translation>För en fullständig lista över tillgängliga alternativ, se [Python LSP Server konfigurationsdokumentation](%1).</translation>
+            <translation>En fullständig lista över tillgängliga alternativ finns i [konfigurationsdokumentationen för Python LSP Server](%1).</translation>
         </message>
         <message>
             <location line="+508" />
@@ -61060,17 +61060,17 @@ inte startas: %1</translation>
         <message>
             <location filename="../../../src/plugins/python/pythonsettings.cpp" line="+456" />
             <source>Create Python venv</source>
-            <translation>Skapa Python venv</translation>
+            <translation>Skapa Python-venv</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/python/pythonwizardpage.cpp" line="+90" />
             <source>"data" of a Python wizard page expects a map with "items" containing a list of objects.</source>
-            <translation>"data" på en Python guide sida förväntar sig en karta med "poster" som innehåller en lista över objekt.</translation>
+            <translation>"data" på en Python-guidesida förväntar sig en mappning med "items" som innehåller en lista över objekt.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>An item of Python wizard page data expects a "trKey" field containing the UI visible string for that Python version and a "value" field containing an object with a "PySideVersion" field used for import statements in the Python files.</source>
-            <translation>punkt i Python guide sida data förväntar sig en "trKey" fält som innehåller UI synlig sträng för den Python version och ett "värde" fält som innehåller ett objekt med ett "PySideVersion" fält som används för import uttalanden i Python filer.</translation>
+            <translation>Ett objekt i data för en Python-guidesida förväntar sig fältet "trKey", som innehåller den användarsynliga strängen för Python-versionen, och fältet "value", som innehåller ett objekt med fältet "PySideVersion" som används i importsatser i Python-filerna.</translation>
         </message>
         <message>
             <location line="+14" />
@@ -61080,7 +61080,7 @@ inte startas: %1</translation>
         <message>
             <location filename="../../../src/plugins/python/pythonplugin.cpp" line="+55" />
             <source>Issues parsed from Python runtime output.</source>
-            <translation>Frågor tolkade från Python körning.</translation>
+            <translation>Problem tolkade från Python-körningens utdata.</translation>
         </message>
         <message>
             <source>None</source>
