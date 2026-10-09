@@ -51447,7 +51447,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+5" />
             <source>&amp;Unset</source>
-            <translation>Avi&amp;nställ</translation>
+            <translation>&amp;Ta bort</translation>
         </message>
         <message>
             <location line="+14" />
@@ -51467,7 +51467,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+1" />
             <source>Open a terminal with this environment set up.</source>
-            <translation>Öppna en terminal med denna miljö uppsatt.</translation>
+            <translation>Öppna en terminal med den här miljön inställd.</translation>
         </message>
         <message>
             <location line="+128" />
@@ -51492,7 +51492,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+3" />
             <source>Set &lt;a href="%1"&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/a&gt; to &lt;b&gt;%2&lt;/b&gt; [disabled]</source>
-            <translation>Ställ in &lt;a href="%1"&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/a&gt; to &lt;b&gt;%2&lt;/b&gt; [inaktiverad]</translation>
+            <translation>Ställ in &lt;a href="%1"&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/a&gt; till &lt;b&gt;%2&lt;/b&gt; [inaktiverad]</translation>
         </message>
         <message>
             <location line="+11" />
@@ -51519,7 +51519,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+1" />
             <source>Locates files of all open projects. Append "+&lt;number&gt;" or ":&lt;number&gt;" to jump to the given line number. Append another "+&lt;number&gt;" or ":&lt;number&gt;" to jump to the column number as well.</source>
-            <translation>Hittar filer för alla öppna projekt. Lägg till "+&lt;number&gt;" eller ":&lt;number&gt;" för att hoppa till det givna linjenumret. Lägg till ett annat "+&lt;number&gt;" eller "&lt;number&gt;" för att hoppa till kolumnnumret också.</translation>
+            <translation>Hittar filer i alla öppna projekt. Lägg till "+&lt;number&gt;" eller ":&lt;number&gt;" för att hoppa till angivet radnummer. Lägg till ytterligare "+&lt;number&gt;" eller ":&lt;number&gt;" för att också hoppa till angivet kolumnnummer.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/allprojectsfind.cpp" line="+84" />
@@ -51604,7 +51604,7 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+5" />
             <source>Active build configuration:</source>
-            <translation>Aktiv bygginställning:</translation>
+            <translation>Aktiv byggkonfiguration:</translation>
         </message>
         <message>
             <location line="+122" />
@@ -51614,7 +51614,7 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+112" />
             <source>Cancel Build &amp;&amp; Remove Build Configuration</source>
-            <translation>Avbryt byggnation och ta bort byggkonfiguration</translation>
+            <translation>Avbryt bygge och ta bort byggkonfiguration</translation>
         </message>
         <message>
             <location line="+1" />
@@ -51667,12 +51667,12 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+23" />
             <source>Discarded excessive compile output.</source>
-            <translation>Förkasta överdriven kompileringsutdata.</translation>
+            <translation>Förkastade för mycket kompileringsutdata.</translation>
         </message>
         <message>
             <location line="+169" />
             <source>Open Compile Output when building</source>
-            <translation>Öppna kompilatorutdata vid byggnation</translation>
+            <translation>Öppna kompileringsutdata vid bygge</translation>
         </message>
         <message>
             <location line="+5" />
@@ -51693,7 +51693,7 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+1" />
             <source>Locates files from the current document's project. Append "+&lt;number&gt;" or ":&lt;number&gt;" to jump to the given line number. Append another "+&lt;number&gt;" or ":&lt;number&gt;" to jump to the column number as well.</source>
-            <translation>Hittar filer från aktuella dokumentets projekt. Lägg till "+&lt;nummer&gt;" eller ":&lt;numner&gt;" på slutet för att hoppa till angivet radnummer. Lägg till ett annat "+&lt;nummer&gt;" eller ":&lt;nummer&gt;" på slutet för att hoppa till kolumnnumret också.</translation>
+            <translation>Hittar filer i det aktuella dokumentets projekt. Lägg till "+&lt;number&gt;" eller ":&lt;number&gt;" för att hoppa till angivet radnummer. Lägg till ytterligare "+&lt;number&gt;" eller ":&lt;number&gt;" för att också hoppa till angivet kolumnnummer.</translation>
         </message>
         <message>
             <source>Project "%1"</source>
