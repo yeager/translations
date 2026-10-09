@@ -30440,12 +30440,12 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location line="+2" />
             <source>Total Time</source>
-            <translation>Total tid</translation>
+            <translation>Sammanlagd tid</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Percentage</source>
-            <translation>Procentdel</translation>
+            <translation>Procent</translation>
         </message>
         <message>
             <location line="+2" />
@@ -30485,18 +30485,18 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location line="+3" />
             <source>Start</source>
-            <translation>Starta</translation>
+            <translation>Start</translation>
         </message>
         <message>
             <location line="+1" />
             <location line="+103" />
             <source>Wall Duration</source>
-            <translation>Väggens längd</translation>
+            <translation>Väggklockstid</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Unfinished</source>
-            <translation>Ofärdig</translation>
+            <translation>Oavslutad</translation>
         </message>
         <message>
             <location line="+0" />
@@ -30522,7 +30522,7 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location line="+3" />
             <source>Instant</source>
-            <translation>Direkt</translation>
+            <translation>Omedelbar</translation>
         </message>
         <message>
             <location line="+4" />
@@ -30549,12 +30549,12 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location line="+20" />
             <source>Return Arguments</source>
-            <translation>Återlämna argument</translation>
+            <translation>Returargument</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/ctfvisualizer/ctftracemanager.cpp" line="+95" />
             <source>Error while parsing CTF data: %1.</source>
-            <translation>Fel vid tolkning av CTF- data: %1.</translation>
+            <translation>Fel vid tolkning av CTF-data: %1.</translation>
         </message>
         <message>
             <location line="+14" />
@@ -30562,24 +30562,24 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
             <location line="+3" />
             <location line="+11" />
             <source>CTF Visualizer</source>
-            <translation>Visualiseringsapparat för CTF</translation>
+            <translation>CTF-visualiserare</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/ctfvisualizer/ctfvisualizertool.cpp" line="+1" />
             <source>Cannot read the CTF file.</source>
-            <translation>Kan inte läsa CTF- filen.</translation>
+            <translation>Kan inte läsa CTF-filen.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/ctfvisualizer/ctftracemanager.cpp" line="+1" />
             <source>The trace contains threads with stack depth &gt; 512.
 Do you want to display them anyway?</source>
-            <translation>Spåret innehåller trådar med stackdjup
-&gt; 512. Vill du visa dem ändå?</translation>
+            <translation>Spåret innehåller trådar med ett stackdjup &gt; 512.
+Vill du visa dem ändå?</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/ctfvisualizer/ctfvisualizertool.cpp" line="-200" />
             <source>Chrome Trace Format Viewer</source>
-            <translation>Kromspårformatvisning</translation>
+            <translation>Visare för Chrome Trace Format</translation>
         </message>
         <message>
             <location line="+6" />
@@ -30609,7 +30609,7 @@ Do you want to display them anyway?</source>
         <message>
             <location line="-42" />
             <source>Load Chrome Trace Format File</source>
-            <translation>Ladda Chrome Trace Format-fil</translation>
+            <translation>Läs in fil i Chrome Trace Format</translation>
         </message>
         <message>
             <location line="+2" />
@@ -30629,7 +30629,7 @@ Do you want to display them anyway?</source>
         <message>
             <location filename="../../../src/plugins/ctfvisualizer/ctfvisualizertool.h" line="+49" />
             <source>Chrome Trace Format Visualizer</source>
-            <translation>Visualizer i Chrome Trace Format</translation>
+            <translation>Visualiserare för Chrome Trace Format</translation>
         </message>
     </context>
     <context>
