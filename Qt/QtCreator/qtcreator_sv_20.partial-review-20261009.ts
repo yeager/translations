@@ -25363,7 +25363,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location line="+4" />
             <source>Synchronize Root Directory with Editor</source>
-            <translation>Synkronisera rotkatalog med redigerare</translation>
+            <translation>Synkronisera rotkatalogen med redigeraren</translation>
         </message>
         <message>
             <location line="+170" />
@@ -25381,7 +25381,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location line="+4" />
             <source>Remove Folder...</source>
-            <translation>Ta bort korg…</translation>
+            <translation>Ta bort mapp…</translation>
         </message>
         <message>
             <source>Remove Folder</source>
@@ -25469,7 +25469,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location line="+24" />
             <source>Text to pass to the executable via standard input. Leave empty if the executable should not receive any input.</source>
-            <translation>Text att skicka till körbar via standardinmatning. Lämna tom om körbar inte ska få någon inmatning.</translation>
+            <translation>Text som ska skickas till den körbara filen via standardinmatning. Lämna tomt om den körbara filen inte ska få någon inmatning.</translation>
         </message>
         <message>
             <location line="-1" />
@@ -25479,7 +25479,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location line="-4" />
             <source>If the tool modifies the current document, set this flag to ensure that the document is saved before running the tool and is reloaded after the tool finished.</source>
-            <translation>Om verktyget ändrar det aktuella dokumentet, ställ in flaggan för att säkerställa att dokumentet sparas innan verktyget körs och laddas om efter verktyget är färdigt.</translation>
+            <translation>Om verktyget ändrar det aktuella dokumentet ska den här flaggan anges så att dokumentet sparas innan verktyget körs och läses in igen när verktyget har avslutats.</translation>
         </message>
         <message>
             <location line="-1" />
@@ -25512,8 +25512,8 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
 &lt;ul&gt;&lt;li&gt;Ignore: Do nothing with it.&lt;/li&gt;&lt;li&gt;Show in General Messages.&lt;/li&gt;&lt;li&gt;Replace selection: Replace the current selection in the current document with it.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </source>
             <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;
-&lt;p&gt;What to do with the executable's standard output.
-&lt;ul&gt;&lt;li&gt;Ignore: Do nothing with it.&lt;/li&gt;&lt;li&gt;Show in General Messages.&lt;/li&gt;&lt;li&gt;Replace selection: Replace the current selection in the current document with it.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;p&gt;Vad som ska göras med den körbara filens standardutdata.
+&lt;ul&gt;&lt;li&gt;Ignorera: Gör inget med den.&lt;/li&gt;&lt;li&gt;Visa i Allmänna meddelanden.&lt;/li&gt;&lt;li&gt;Ersätt markering: Ersätt den aktuella markeringen i det aktuella dokumentet med den.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
         </message>
         <message>
@@ -25531,10 +25531,10 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
 &lt;li&gt;Replace selection: Replace the current selection in the current document with it.&lt;/li&gt;
 &lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
             <translation>&lt;html&gt;&lt;head&gt;&lt;body&gt;
-&lt;p &gt;What to do with the executable's standard error output.&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Ignore: Do nothing with it.&lt;/li&gt;
-&lt;li&gt;Show in General Messages.&lt;/li&gt;
-&lt;li&gt;Replace selection: Replace the current selection in the current document with it.&lt;/li&gt;
+&lt;p &gt;Vad som ska göras med den körbara filens standardfelutdata.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Ignorera: Gör inget med den.&lt;/li&gt;
+&lt;li&gt;Visa i Allmänna meddelanden.&lt;/li&gt;
+&lt;li&gt;Ersätt markering: Ersätt den aktuella markeringen i det aktuella dokumentet med den.&lt;/li&gt;
 &lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
@@ -25594,7 +25594,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location line="+2" />
             <source>Tools that will appear directly under the External Tools menu.</source>
-            <translation>Verktyg som kommer att visas direkt under Externa verktyg-menyn.</translation>
+            <translation>Verktyg som visas direkt på menyn Externa verktyg.</translation>
         </message>
         <message>
             <location line="+198" />
@@ -25619,7 +25619,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         </message>
         <message>
             <source>Creates qm translation files that can be used by an application from the translator's ts files</source>
-            <translation>Skapar qm-översättningsfiler som kan användas av ett program från översättarens ts-filer</translation>
+            <translation>Skapar QM-översättningsfiler som ett program kan använda från översättarens TS-filer</translation>
         </message>
         <message>
             <source>Release Translations (lrelease)</source>
@@ -25631,7 +25631,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         </message>
         <message>
             <source>Synchronizes translator's ts files with the program code</source>
-            <translation>Synkroniserar översättarens ts-filer med programkoden</translation>
+            <translation>Synkroniserar översättarens TS-filer med programkoden</translation>
         </message>
         <message>
             <source>Update Translations (lupdate)</source>
