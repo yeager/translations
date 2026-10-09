@@ -2572,7 +2572,7 @@ Det ska vara en relativ sökväg.</translation>
     </message>
     <message>
         <source>Enable border drop shadow</source>
-        <translation>Aktivera kantens skugga</translation>
+        <translation>Aktivera fallskugga för kanten</translation>
     </message>
     <message>
         <source>Plot Area</source>
@@ -5121,7 +5121,7 @@ Vill du verkligen uppdatera den?</translation>
         <source>Add the effect to the effect library.
 You can reuse effects added to the library in other effect compositions.</source>
         <translation>Lägg till effekten i effektbiblioteket.
-Du kan återanvända effekter som har lagts till i biblioteket i andra effektsammansättningar.</translation>
+Du kan återanvända effekter som har lagts till i biblioteket i andra effektkompositioner.</translation>
     </message>
 </context>
 <context>
@@ -7485,7 +7485,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the object</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Width</source>
@@ -7503,7 +7503,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Sets the directions of the cells.</source>
-        <translation>Ställer in riktningen för cellerna.</translation>
+        <translation>Anger cellernas flödesriktning.</translation>
     </message>
     <message>
         <source>Layout direction</source>
@@ -7511,11 +7511,11 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Sets in which direction items in the grid view are placed.</source>
-        <translation>Ställer in vilken riktning som poster i rutnätsvyn placeras.</translation>
+        <translation>Anger i vilken riktning posterna i rutnätsvyn placeras.</translation>
     </message>
     <message>
         <source>Sets how the view scrolling will settle following a drag or flick.</source>
-        <translation>Ställer in hur rullningen av vyn stabiliseras efter en dragning eller snärtning.</translation>
+        <translation>Ställer in hur vyns rullning ska avslutas efter dragning eller snärtning.</translation>
     </message>
     <message>
         <source>Cache</source>
@@ -7523,11 +7523,11 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Sets the highlight range mode.</source>
-        <translation>Ställer in läget för markeringsintervall.</translation>
+        <translation>Ställer in läget för markeringsintervallet.</translation>
     </message>
     <message>
         <source>Sets the animation duration of the highlight delegate.</source>
-        <translation>Ställer in markeringsdelegatens animeringslängd.</translation>
+        <translation>Ställer in markeringsdelegatens animeringstid.</translation>
     </message>
     <message>
         <source>Sets the preferred highlight beginning. It must be smaller than
@@ -7547,7 +7547,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Toggles if the view manages the highlight.</source>
-        <translation>Växlar om vyn hanterar framhävningen.</translation>
+        <translation>Anger om vyn hanterar markeringen.</translation>
     </message>
     <message>
         <source>Flow</source>
@@ -7555,7 +7555,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Sets in pixels how far the components are kept loaded outside the view&apos;s visible area.</source>
-        <translation>Ställer in i bildpunkter hur långt bort komponenterna hålls inlästa utanför vyns synliga område.</translation>
+        <translation>Anger i pixlar hur långt utanför vyns synliga område komponenterna behålls inlästa.</translation>
     </message>
     <message>
         <source>Navigation wraps</source>
@@ -7567,7 +7567,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Whether the grid wraps key navigation.</source>
-        <translation>Anger om rutnätet slår runt tangentnavigeringen.</translation>
+        <translation>Anger om tangentnavigeringen ska börja om från motsatt sida av rutnätet.</translation>
     </message>
     <message>
         <source>Grid View Highlight</source>
@@ -7579,7 +7579,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Move duration</source>
-        <translation>Förflyttningslängd</translation>
+        <translation>Förflyttningstid</translation>
     </message>
     <message>
         <source>Preferred begin</source>
