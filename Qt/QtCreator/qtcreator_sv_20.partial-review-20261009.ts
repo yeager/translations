@@ -77342,50 +77342,50 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+24" />
             <source>Could not open file "%1" for writing.</source>
-            <translation>Kunde inte öppna filen "%1" för skrivning.</translation>
+            <translation>Kunde inte öppna filen ”%1” för skrivning.</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Could not create temporary file in "%1" (%2).</source>
-            <translation>Kunde inte skapa temporärfilen i "%1" (%2).</translation>
+            <translation>Kunde inte skapa en tillfällig fil i ”%1” (%2).</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Could not create temporary directory in "%1" (%2).</source>
-            <translation>Kunde inte skapa tillfällig katalog i "%1" (%2).</translation>
+            <translation>Kunde inte skapa en tillfällig katalog i ”%1” (%2).</translation>
         </message>
         <message>
             <location line="+88" />
             <source>Could not change permissions for "%1".</source>
-            <translation>Kunde inte ändra behörigheter för "%1".</translation>
+            <translation>Kunde inte ändra behörigheterna för ”%1”.</translation>
         </message>
         <message>
             <location line="+124" />
             <source>Failed to determine if "%1" and "%2" refer to the same file: %3</source>
-            <translation>Misslyckades avgöra om "%1" och "%2" refererar till samma fil: %3</translation>
+            <translation>Det gick inte att avgöra om ”%1” och ”%2” avser samma fil: %3</translation>
         </message>
         <message>
             <location line="+26" />
             <source>Command "%1" failed: %2</source>
-            <translation>Kommandot "%1" misslyckades: %2</translation>
+            <translation>Kommandot ”%1” misslyckades: %2</translation>
         </message>
         <message>
             <location line="+150" />
             <source>Failed to create symbolic link for file "%1" at "%2": %3</source>
-            <translation>Misslyckades skapa symbolisk länk för filen "%1" på "%2": %3</translation>
+            <translation>Det gick inte att skapa en symbolisk länk för filen ”%1” vid ”%2”: %3</translation>
         </message>
         <message>
             <location line="+64" />
             <source>Failed reading file "%1": %2</source>
-            <translation>Misslyckades med att läsa filen "%1": %2</translation>
+            <translation>Det gick inte att läsa filen ”%1”: %2</translation>
         </message>
         <message>
             <source>Failed writing file "%1": %2</source>
-            <translation>Misslyckades med att skriva filen "%1": %2</translation>
+            <translation>Det gick inte att skriva filen ”%1”: %2</translation>
         </message>
         <message>
             <source>Failed creating temporary file "%1": %2</source>
-            <translation>Misslyckades med att skapa temporärfilen "%1": %2</translation>
+            <translation>Det gick inte att skapa den tillfälliga filen ”%1”: %2</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/fileutils.cpp" line="+747" />
@@ -77437,17 +77437,17 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+1" />
             <source>Overwrite existing file "%1"?</source>
-            <translation>Skriv över befintliga filen "%1"?</translation>
+            <translation>Skriv över den befintliga filen ”%1”?</translation>
         </message>
         <message>
             <location line="+24" />
             <source>Could not copy file "%1" to "%2".</source>
-            <translation>Kunde inte kopiera filen "%1" till "%2".</translation>
+            <translation>Kunde inte kopiera filen ”%1” till ”%2”.</translation>
         </message>
         <message>
             <location line="+312" />
             <source>Failed to create directory "%1": %2</source>
-            <translation>Misslyckades skapa katalog "%1": %2</translation>
+            <translation>Det gick inte att skapa katalogen ”%1”: %2</translation>
         </message>
         <message>
             <location line="+30" />
@@ -77457,11 +77457,11 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+105" />
             <source>Failed to set up scratch buffer in "%1".</source>
-            <translation>Misslyckades ställa in repbuffert i "%1".</translation>
+            <translation>Det gick inte att konfigurera skrapbufferten i ”%1”.</translation>
         </message>
         <message>
             <source>Failed to create directory "%1".</source>
-            <translation>Misslyckades med att skapa katalogen "%1".</translation>
+            <translation>Det gick inte att skapa katalogen ”%1”.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/textfileformat.cpp" line="+138" />
@@ -77508,32 +77508,32 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location filename="../../../src/libs/utils/elfreader.cpp" line="+161" />
             <source>odd cpu architecture</source>
-            <translation>Märklig cpu- arkitektur</translation>
+            <translation>ovanlig CPU-arkitektur</translation>
         </message>
         <message>
             <location line="-31" />
             <source>"%1" is an invalid ELF object (%2)</source>
-            <translation>"%1" är ett ogiltigt ELF-objekt (%2)</translation>
+            <translation>”%1” är ett ogiltigt ELF-objekt (%2)</translation>
         </message>
         <message>
             <location line="+18" />
             <source>"%1" is not an ELF object (file too small)</source>
-            <translation>"%1" är inte ett ELF-objekt (filen är för liten)</translation>
+            <translation>”%1” är inte ett ELF-objekt (filen är för liten)</translation>
         </message>
         <message>
             <location line="+5" />
             <source>"%1" is not an ELF object</source>
-            <translation>"%1" är inte ett ELF-objekt</translation>
+            <translation>”%1” är inte ett ELF-objekt</translation>
         </message>
         <message>
             <location line="+27" />
             <source>odd endianness</source>
-            <translation>underlig endianness</translation>
+            <translation>ovanlig byteordning</translation>
         </message>
         <message>
             <location line="+17" />
             <source>unexpected e_shsize</source>
-            <translation>oväntad storlek</translation>
+            <translation>oväntat e_shsize</translation>
         </message>
         <message>
             <location line="+11" />
@@ -77551,12 +77551,12 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+21" />
             <source>string table seems to be at 0x%1</source>
-            <translation>strängbord verkar vara på 0x%1</translation>
+            <translation>strängtabellen verkar finnas vid 0x%1</translation>
         </message>
         <message>
             <location line="+11" />
             <source>section name %1 of %2 behind end of file</source>
-            <translation>sektionsnamn %1 för %2 bakom slutet av filen</translation>
+            <translation>sektionsnamnet %1 av %2 ligger efter filslutet</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/differ.cpp" line="+922" />
@@ -77580,15 +77580,15 @@ Tryck på Retur för att stänga fönstret …</translation>
         </message>
         <message>
             <source>No source file set.</source>
-            <translation>Ingen källfil inställd.</translation>
+            <translation>Ingen källfil har angetts.</translation>
         </message>
         <message>
             <source>No destination directory set.</source>
-            <translation>Ingen målkatalog inställd.</translation>
+            <translation>Ingen målkatalog har angetts.</translation>
         </message>
         <message>
             <source>Failed to open output file.</source>
-            <translation>Misslyckades med att öppna utdatafil.</translation>
+            <translation>Det gick inte att öppna utdatafilen.</translation>
         </message>
         <message>
             <source>Failed to write output file.</source>
