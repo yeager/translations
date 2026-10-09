@@ -70836,7 +70836,7 @@ ett nytt testfall. (Redigera &gt; Inställningar &gt; Squish)</translation>
             <location line="+11" />
             <location line="+21" />
             <source>Interrupt</source>
-            <translation>Avbrott</translation>
+            <translation>Avbryt</translation>
         </message>
         <message>
             <location line="-346" />
@@ -70872,7 +70872,7 @@ ett nytt testfall. (Redigera &gt; Inställningar &gt; Squish)</translation>
         <message>
             <location line="-7" />
             <source>Squish Locals</source>
-            <translation>Squish lokala</translation>
+            <translation>Lokala variabler i Squish</translation>
         </message>
         <message>
             <location line="+7" />
@@ -70882,12 +70882,12 @@ ett nytt testfall. (Redigera &gt; Inställningar &gt; Squish)</translation>
         <message>
             <location line="+10" />
             <source>Squish Objects</source>
-            <translation>Väck objekt</translation>
+            <translation>Squish-objekt</translation>
         </message>
         <message>
             <location line="+17" />
             <source>Squish Object Properties</source>
-            <translation>Kquish objektegenskaper</translation>
+            <translation>Egenskaper för Squish-objekt</translation>
         </message>
         <message>
             <location line="+270" />
@@ -70924,7 +70924,7 @@ ett nytt testfall. (Redigera &gt; Inställningar &gt; Squish)</translation>
             <location filename="../../../src/plugins/squish/squishtools.cpp" line="+377" />
             <location line="+16" />
             <source>Could not get Squish license from server.</source>
-            <translation>Kunde inte få Squish-licens från servern.</translation>
+            <translation>Det gick inte att hämta Squish-licensen från servern.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/squish/squishsettings.cpp" line="-331" />
@@ -70939,7 +70939,7 @@ ett nytt testfall. (Redigera &gt; Inställningar &gt; Squish)</translation>
         <message>
             <location line="+13" />
             <source>Path does not contain server executable at its default location.</source>
-            <translation>Sökväg innehåller inte server körbar på sin förvalda plats.</translation>
+            <translation>Sökvägen innehåller inte serverprogrammet på dess förvalda plats.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -70974,7 +70974,7 @@ ett nytt testfall. (Redigera &gt; Inställningar &gt; Squish)</translation>
         <message>
             <location line="+1" />
             <source>Minimize IDE automatically while running or recording test cases.</source>
-            <translation>Minimera IDE automatiskt när du kör eller registrerar testfall.</translation>
+            <translation>Minimera IDE automatiskt när testfall körs eller spelas in.</translation>
         </message>
         <message>
             <location line="+43" />
@@ -70999,17 +70999,17 @@ ett nytt testfall. (Redigera &gt; Inställningar &gt; Squish)</translation>
         <message>
             <location line="+1" />
             <source>Specifies how many seconds Squish should wait for a reply from the hooked up AUT before raising a timeout error.</source>
-            <translation>Anger hur många sekunder Squish ska vänta på ett svar från den anslutna AUT innan du höjer ett timeout fel.</translation>
+            <translation>Anger hur många sekunder Squish ska vänta på ett svar från den anslutna AUT innan ett tidsgränsfel utlöses.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Maximum post-mortem wait time:</source>
-            <translation>Maximal väntetid efter slakt:</translation>
+            <translation>Maximal väntetid efter avslutad körning:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Specifies how many seconds Squish should wait after the first AUT process has exited.</source>
-            <translation>Anger hur många sekunder Squish ska vänta efter den första AUT-processen har avslutats.</translation>
+            <translation>Anger hur många sekunder Squish ska vänta efter att den första AUT-processen har avslutats.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -71049,17 +71049,17 @@ ett nytt testfall. (Redigera &gt; Inställningar &gt; Squish)</translation>
         <message>
             <location line="+58" />
             <source>Mapped AUTs</source>
-            <translation>Avbildade AUT</translation>
+            <translation>Mappade AUT:er</translation>
         </message>
         <message>
             <location line="+7" />
             <source>AUT Paths</source>
-            <translation>ÅTGÄRD</translation>
+            <translation>AUT-sökvägar</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Attachable AUTs</source>
-            <translation>Bifogbara AUT</translation>
+            <translation>Anslutningsbara AUT:er</translation>
         </message>
         <message>
             <location line="+36" />
@@ -71074,14 +71074,14 @@ ett nytt testfall. (Redigera &gt; Inställningar &gt; Squish)</translation>
         <message>
             <location line="+156" />
             <source>Squish Server Settings</source>
-            <translation>Inställningar av quishserver</translation>
+            <translation>Squish-serverinställningar</translation>
         </message>
         <message>
             <location line="+29" />
             <source>Failed to write configuration changes.
 Squish server finished with process error %1.</source>
-            <translation>Misslyckades skriva konfigurationsändringar.
-Squish- servern klar med processfelet %1.</translation>
+            <translation>Det gick inte att skriva konfigurationsändringarna.
+Squish-servern avslutades med processfelet %1.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/squish/squishtesttreemodel.cpp" line="-7" />
