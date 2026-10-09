@@ -56794,7 +56794,7 @@ misslyckas eftersom Clang inte förstår målarkitekturen.</translation>
 One for the native x86_64 target, and one for a plain x86 target.
 Enable this if you plan to create 32-bit x86 binaries without using a dedicated cross compiler.</source>
             <translation>Om alternativet är markerat konfigurerar %1 två instanser av varje x86_64-kompilator:
-En för det inbyggda x86_64-målet och en för ett vanligt x86-mål.
+En för det ursprungliga x86_64-målet och en för ett vanligt x86-mål.
 Aktivera detta om du vill skapa 32-bitars x86-binärfiler utan att använda en särskild korskompilator.</translation>
         </message>
         <message>
@@ -56848,12 +56848,12 @@ Aktivera detta om du vill skapa 32-bitars x86-binärfiler utan att använda en s
         <message>
             <location line="+38" />
             <source>Remove Run Configurations</source>
-            <translation>Ta bort körinställningar</translation>
+            <translation>Ta bort körkonfigurationer</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Filter run configurations by name</source>
-            <translation>Filterkörningsinställningar med namn</translation>
+            <translation>Filtrera körkonfigurationer efter namn</translation>
         </message>
         <message>
             <location line="+7" />
@@ -56914,12 +56914,12 @@ Aktivera detta om du vill skapa 32-bitars x86-binärfiler utan att använda en s
         <message>
             <location filename="../../../src/plugins/projectexplorer/appoutputpane.cpp" line="-1042" />
             <source>Attach debugger to this process</source>
-            <translation>Fäst felsökare till denna process</translation>
+            <translation>Anslut felsökaren till processen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Attach debugger to %1</source>
-            <translation>Fäst felsökare till %1</translation>
+            <translation>Anslut felsökaren till %1</translation>
         </message>
         <message>
             <location line="+266" />
@@ -56979,12 +56979,12 @@ Aktivera detta om du vill skapa 32-bitars x86-binärfiler utan att använda en s
         <message>
             <location line="+12" />
             <source>Re-run this run-configuration.</source>
-            <translation>Kör om denna körkonfiguration.</translation>
+            <translation>Kör om den här körkonfigurationen.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Stop running program.</source>
-            <translation>Stoppa körning av program.</translation>
+            <translation>Stoppa programmet som körs.</translation>
         </message>
         <message>
             <location line="+249" />
@@ -56995,7 +56995,7 @@ Aktivera detta om du vill skapa 32-bitars x86-binärfiler utan att använda en s
         <message>
             <location line="+70" />
             <source>Filter Qt Internal Log Categories</source>
-            <translation>Filter för interna loggkategorier för Qt</translation>
+            <translation>Filtrera Qts interna loggkategorier</translation>
         </message>
         <message>
             <location line="+28" />
@@ -57026,18 +57026,18 @@ Aktivera detta om du vill skapa 32-bitars x86-binärfiler utan att använda en s
             <location line="+491" />
             <location filename="../../../src/plugins/projectexplorer/compileoutputwindow.cpp" line="+188" />
             <source>Word-wrap output</source>
-            <translation>Utmatning av ordinmatning</translation>
+            <translation>Radbryt utdata</translation>
         </message>
         <message>
             <location line="+4" />
             <location filename="../../../src/plugins/projectexplorer/compileoutputwindow.cpp" line="+6" />
             <source>Discard excessive output</source>
-            <translation>Kassera överdriven utmatning</translation>
+            <translation>Förkasta för mycket utdata</translation>
         </message>
         <message>
             <location line="-12" />
             <source>Clear old output on a new run</source>
-            <translation>Töm gammalt utdata vid ny körning</translation>
+            <translation>Töm gammal utdata vid ny körning</translation>
         </message>
         <message>
             <location line="-15" />
