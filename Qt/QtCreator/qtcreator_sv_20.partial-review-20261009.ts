@@ -28014,16 +28014,16 @@ Den inbyggda kodmodellen hanterar markering, komplettering och så vidare.</tran
         <message>
             <location line="+20" />
             <source>Sessions with a Single Clangd Instance</source>
-            <translation>Sammanträden med en enda språkrörsinstans</translation>
+            <translation>Sessioner med en enda clangd-instans</translation>
         </message>
         <message>
             <location line="+4" />
             <source>By default, Qt Creator runs one clangd process per project.
 If you have sessions with tightly coupled projects that should be
 managed by the same clangd process, add them here.</source>
-            <translation>Normalt kör Qt Creator en cangd- process per projekt.
-Om du har sessioner med tätt kopplade projekt som ska
-hanteras med samma cangd- process, lägg till dem här.</translation>
+            <translation>Som standard kör Qt Creator en clangd-process per projekt.
+Om du har sessioner med tätt sammankopplade projekt som ska
+hanteras av samma clangd-process lägger du till dem här.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -28038,7 +28038,7 @@ hanteras med samma cangd- process, lägg till dem här.</translation>
         <message>
             <location line="+12" />
             <source>Additional settings are available via &lt;a href="https://clangd.llvm.org/config"&gt; clangd configuration files&lt;/a&gt;.&lt;br&gt;User-specific settings go &lt;a href="%1"&gt;here&lt;/a&gt;, project-specific settings can be configured by putting a .clangd file into the project source tree.</source>
-            <translation>Ytterligare inställningar finns tillgängliga via &lt;a href="https://clangd.llvm.org/config"&gt; cangd konfigurationsfiler&lt;/a&gt;.&lt;br&gt;Användarspecifika inställningar går &lt;a href="%1"&gt;here&lt;/a&gt;, projektspecifika inställningar kan konfigureras genom att sätta en .clangd fil i projektets källkodsträd.</translation>
+            <translation>Ytterligare inställningar finns i &lt;a href="https://clangd.llvm.org/config"&gt;clangd-konfigurationsfiler&lt;/a&gt;.&lt;br&gt;Användarspecifika inställningar finns &lt;a href="%1"&gt;här&lt;/a&gt;. Projektspecifika inställningar kan konfigureras genom att lägga en .clangd-fil i projektets källträd.</translation>
         </message>
         <message>
             <location line="+149" />
@@ -28053,7 +28053,7 @@ hanteras med samma cangd- process, lägg till dem här.</translation>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppeditorconstants.h" line="-62" />
             <source>Quick Fixes</source>
-            <translation>Snabbfixar</translation>
+            <translation>Snabbkorrigeringar</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cpplocatorfilter.cpp" line="+410" />
@@ -28063,17 +28063,17 @@ hanteras med samma cangd- process, lägg till dem här.</translation>
         <message>
             <location line="+5" />
             <source>Locates C++ symbols in the current document.</source>
-            <translation>Hittar C++- symboler i det aktuella dokumentet.</translation>
+            <translation>Hittar C++-symboler i det aktuella dokumentet.</translation>
         </message>
         <message>
             <location line="-20" />
             <source>Locates C++ classes in any open project.</source>
-            <translation>Hittar C++-klasser i något öppet projekt.</translation>
+            <translation>Hittar C++-klasser i alla öppna projekt.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Locates C++ functions in any open project.</source>
-            <translation>Lokaliserar C++ funktioner i alla öppna projekt.</translation>
+            <translation>Hittar C++-funktioner i alla öppna projekt.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppeditorconstants.h" line="+71" />
@@ -28083,12 +28083,12 @@ hanteras med samma cangd- process, lägg till dem här.</translation>
         <message>
             <location filename="../../../src/plugins/cppeditor/cpplocatorfilter.cpp" line="-25" />
             <source>C++ Classes, Enums, Functions and Type Aliases</source>
-            <translation>C++-klasser, enums, funktioner och type-alias</translation>
+            <translation>C++-klasser, uppräkningar, funktioner och typalias</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Locates C++ classes, enums, functions and type aliases in any open project.</source>
-            <translation>Lokaliserar C++ klasser, enummar, funktioner och typ alias i alla öppna projekt.</translation>
+            <translation>Hittar C++-klasser, uppräkningar, funktioner och typalias i alla öppna projekt.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppfilesettingspage.cpp" line="-188" />
@@ -28113,12 +28113,12 @@ hanteras med samma cangd- process, lägg till dem här.</translation>
         <message>
             <location line="+132" />
             <source>Switch Header/Source</source>
-            <translation>Byt huvud/källa</translation>
+            <translation>Växla mellan header och källfil</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Open Corresponding Header/Source in Next Split</source>
-            <translation>Öppna motsvarande rubrik/källa i nästa delning</translation>
+            <translation>Öppna motsvarande header/källfil i nästa delade vy</translation>
         </message>
         <message>
             <location line="+3" />
@@ -28148,13 +28148,13 @@ hanteras med samma cangd- process, lägg till dem här.</translation>
         <message>
             <location line="+309" />
             <source>C++ Usages:</source>
-            <translation>Användningar:</translation>
+            <translation>C++-användningar:</translation>
         </message>
         <message>
             <location line="+65" />
             <location line="+326" />
             <source>Searching for Usages</source>
-            <translation>Söker efter användningsområden</translation>
+            <translation>Söker efter användningar</translation>
         </message>
         <message numerus="yes">
             <location line="-163" />
@@ -28174,7 +28174,7 @@ hanteras med samma cangd- process, lägg till dem här.</translation>
         <message>
             <location line="+121" />
             <source>C++ Macro Usages:</source>
-            <translation>C++ Macroanvändning:</translation>
+            <translation>C++-makroanvändningar:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/logicaloperationquickfixes.cpp" line="+37" />
@@ -28185,12 +28185,12 @@ hanteras med samma cangd- process, lägg till dem här.</translation>
         <message>
             <location line="-49" />
             <source>Swap Operands</source>
-            <translation>Byte av operander</translation>
+            <translation>Byt plats på operander</translation>
         </message>
         <message>
             <location line="+270" />
             <source>Rewrite Condition Using ||</source>
-            <translation>Skriv om tillstånd med hjälp av  påslag</translation>
+            <translation>Skriv om villkoret med ||</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/splitsimpledeclaration.cpp" line="+41" />
@@ -28200,34 +28200,34 @@ hanteras med samma cangd- process, lägg till dem här.</translation>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/rewritecontrolstatements.cpp" line="+76" />
             <source>Add Curly Braces</source>
-            <translation>Lägg till lockiga fläckar</translation>
+            <translation>Lägg till klamrar</translation>
         </message>
         <message>
             <location line="+52" />
             <source>Remove Curly Braces</source>
-            <translation>Ta bort lockiga märken</translation>
+            <translation>Ta bort klamrar</translation>
         </message>
         <message>
             <location line="+120" />
             <location line="+37" />
             <source>Move Declaration out of Condition</source>
-            <translation>Flytta deklaration ur skick</translation>
+            <translation>Flytta ut deklarationen ur villkoret</translation>
         </message>
         <message>
             <location line="+42" />
             <source>Split if Statement</source>
-            <translation>Dela om uttalande</translation>
+            <translation>Dela if-sats</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/convertstringliteral.cpp" line="+88" />
             <source>Enclose in %1(...)</source>
-            <translation>Bifoga %1(…)</translation>
+            <translation>Omge med %1(...)</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Append %1 operator</source>
             <extracomment>%1 = operator name like "QLatin1Char"</extracomment>
-            <translation>Lägg till %1- operatör</translation>
+            <translation>Lägg till operatorn %1</translation>
         </message>
         <message>
             <location line="+533" />
@@ -28237,17 +28237,17 @@ hanteras med samma cangd- process, lägg till dem här.</translation>
         <message>
             <location line="+18" />
             <source>Convert to Character Literal and Enclose in QLatin1Char(...)</source>
-            <translation>Konvertera till teckenbokstav och bifoga i QLatin1Char(…)</translation>
+            <translation>Konvertera till teckenliteral och omge med QLatin1Char(...)</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Convert to Character Literal</source>
-            <translation>Konvertera till teckenbokstav</translation>
+            <translation>Konvertera till teckenliteral</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Convert to Character Literal and Append QLatin1Char Operator</source>
-            <translation>Konvertera till tecken Literal och lägg till QLatin1Char Operatör</translation>
+            <translation>Konvertera till teckenliteral och lägg till QLatin1Char-operatorn</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/bringidentifierintoscope.cpp" line="+319" />
