@@ -7020,11 +7020,11 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Samples per pixel for edge softening blur calculation. A larger value produces better quality, but is slower to render. Ideally, this value should be twice as large as the highest required radius value plus one.</source>
-        <translation>Prover per bildpunkt för oskärpeberäkning vid kantutjämning. Ett högre värde ger bättre kvalitet, men återges långsammare. Helst bör värdet vara dubbelt så stort som det högsta nödvändiga radievärdet plus ett.</translation>
+        <translation>Prover per bildpunkt för oskärpeberäkning vid kantutjämning. Ett högre värde ger bättre kvalitet, men återgivningen går långsammare. Helst bör värdet vara dubbelt så stort som det högsta nödvändiga radievärdet plus ett.</translation>
     </message>
     <message>
         <source>Spread</source>
-        <translation>Sprid</translation>
+        <translation>Spridning</translation>
     </message>
     <message>
         <source>The part of the glow color that is strengthened near the source edges.</source>
@@ -7036,7 +7036,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
@@ -7641,7 +7641,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Tonemapping Lerp</source>
-        <translation>Tonmappningslerp</translation>
+        <translation>Linjär interpolering för tonmappning</translation>
     </message>
     <message>
         <source>Tonemapping linear interpolation value.</source>
@@ -8666,7 +8666,7 @@ ska återges i texturen.</translation>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
