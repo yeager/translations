@@ -4818,7 +4818,7 @@ som definieras i &lt;b&gt;Step size&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>The vertical offset for the rendered shadow compared to the inner shadow component&apos;s vertical position. </source>
-        <translation>Den vertikala förskjutningen för den återgivna skuggan jämfört med den inre skuggkomponentens vertikala position.</translation>
+        <translation>Den vertikala förskjutningen för den återgivna skuggan jämfört med den inre skuggkomponentens vertikala position. </translation>
     </message>
     <message>
         <source>Caching and Border</source>
@@ -8057,7 +8057,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>The vertical offset for the rendered shadow compared to the inner shadow component&apos;s vertical position. </source>
-        <translation>Den vertikala förskjutningen för den återgivna skuggan jämfört med den inre skuggkomponentens vertikala position.</translation>
+        <translation>Den vertikala förskjutningen för den återgivna skuggan jämfört med den inre skuggkomponentens vertikala position. </translation>
     </message>
     <message>
         <source>Caching</source>
