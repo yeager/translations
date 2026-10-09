@@ -35192,7 +35192,7 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location line="+9" />
             <source>Plain</source>
-            <translation>kel</translation>
+            <translation>Enkel</translation>
         </message>
         <message>
             <location line="+1" />
@@ -35202,26 +35202,26 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location line="+1" />
             <source>debuglnk</source>
-            <translation>felsökning</translation>
+            <translation>debuglnk</translation>
         </message>
         <message>
             <location line="+1" />
             <source>buildid</source>
-            <translation>byggenhet</translation>
+            <translation>build-id</translation>
         </message>
         <message>
             <location line="+5" />
             <source>It is unknown whether this module contains debug information.
 Use "Examine Symbols" from the context menu to initiate a check.</source>
-            <translation>Det är okänt om modulen innehåller felsökningsinformation. Använd "Examine
-Symbols" från den sammanhangsberoende menyn för att starta en kontroll.</translation>
+            <translation>Det är okänt om modulen innehåller felsökningsinformation.
+Använd ”Undersök symboler” på snabbmenyn för att påbörja en kontroll.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>This module neither contains nor references debug information.
 Stepping into the module or setting breakpoints by file and line will not work.</source>
-            <translation>Modulen innehåller varken eller refererar felsökningsinformation. Att kliva
-in i modulen eller ställa in brytpunkter efter fil och rad fungerar inte.</translation>
+            <translation>Modulen innehåller eller hänvisar varken till felsökningsinformation.
+Det går inte att stega in i modulen eller sätta brytpunkter efter fil och rad.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -35238,17 +35238,17 @@ in i modulen eller ställa in brytpunkter efter fil och rad fungerar inte.</tran
         <message>
             <location line="+52" />
             <source>Update Module List</source>
-            <translation>Uppdatera modullista</translation>
+            <translation>Uppdatera modullistan</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Show Source Files for Module "%1"</source>
-            <translation>Visa källfiler för modulen "%1"</translation>
+            <translation>Visa källfiler för modulen ”%1”</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Show Source Files for Module</source>
-            <translation>Visa källfiler för modul</translation>
+            <translation>Visa källfiler för modulen</translation>
         </message>
         <message>
             <location line="+12" />
@@ -35263,7 +35263,7 @@ in i modulen eller ställa in brytpunkter efter fil och rad fungerar inte.</tran
         <message>
             <location line="+10" />
             <source>Load Symbols for Module</source>
-            <translation>Läs in symboler för modul</translation>
+            <translation>Läs in symboler för modulen</translation>
         </message>
         <message>
             <location line="+5" />
@@ -35295,33 +35295,33 @@ in i modulen eller ställa in brytpunkter efter fil och rad fungerar inte.</tran
             <location line="+18" />
             <source>This module contains debug information.
 Stepping into the module or setting breakpoints by file and line is expected to work.</source>
-            <translation>Modulen innehåller felsökningsinformation. Att gå in i modulen
-eller ställa in brytpunkter efter fil och rad förväntas fungera.</translation>
+            <translation>Modulen innehåller felsökningsinformation.
+Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och rad.</translation>
         </message>
         <message>
             <location line="+102" />
             <source>Load Symbols for Module "%1"</source>
-            <translation>Läs in symboler för modulen "%1"</translation>
+            <translation>Läs in symboler för modulen ”%1”</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Edit File "%1"</source>
-            <translation>Redigera filen "%1"</translation>
+            <translation>Redigera filen ”%1”</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Show Symbols in File "%1"</source>
-            <translation>Visa symboler i filen "%1"</translation>
+            <translation>Visa symboler i filen ”%1”</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Show Sections in File "%1"</source>
-            <translation>Visa sektioner i filen "%1"</translation>
+            <translation>Visa sektioner i filen ”%1”</translation>
         </message>
         <message>
             <location line="-36" />
             <source>Show Dependencies of "%1"</source>
-            <translation>Visa beroenden för "%1"</translation>
+            <translation>Visa beroenden för ”%1”</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/qml/qmlinspectoragent.cpp" line="+210" />
@@ -35341,18 +35341,18 @@ eller ställa in brytpunkter efter fil och rad förväntas fungera.</translation
         <message>
             <location filename="../../../src/plugins/debugger/registerhandler.cpp" line="+73" />
             <source>Reload Register Listing</source>
-            <translation>Ladda om registerlistning</translation>
+            <translation>Läs in registerlistan igen</translation>
         </message>
         <message>
             <location line="+37" />
             <source>Open Disassembler...</source>
-            <translation>Öppna isärtagning…</translation>
+            <translation>Öppna demonteraren …</translation>
         </message>
         <message>
             <location line="-17" />
             <location filename="../../../src/plugins/debugger/stackhandler.cpp" line="+333" />
             <source>Open Memory Editor at 0x%1</source>
-            <translation>Öppna minnesredigerare vid 0x%1</translation>
+            <translation>Öppna minnesredigeraren vid 0x%1</translation>
         </message>
         <message>
             <location line="-203" />
@@ -35362,22 +35362,22 @@ eller ställa in brytpunkter efter fil och rad förväntas fungera.</translation
         <message>
             <location line="+2" />
             <source>Content as %1-bit Signed Decimal Values</source>
-            <translation>Innehåll som %1-bit Signerade decimalvärden</translation>
+            <translation>Innehåll som %1-bitars signerade decimalvärden</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Content as %1-bit Unsigned Decimal Values</source>
-            <translation>Innehåll som %1-bit osignerade decimalvärden</translation>
+            <translation>Innehåll som %1-bitars osignerade decimalvärden</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Content as %1-bit Hexadecimal Values</source>
-            <translation>Innehåll som %1-bit Hexadecimala värden</translation>
+            <translation>Innehåll som %1-bitars hexadecimala värden</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Content as %1-bit Octal Values</source>
-            <translation>Innehåll som %1-bit Octal Värden</translation>
+            <translation>Innehåll som %1-bitars oktala värden</translation>
         </message>
         <message>
             <location line="+2" />
@@ -35387,23 +35387,23 @@ eller ställa in brytpunkter efter fil och rad förväntas fungera.</translation
         <message>
             <location line="+3" />
             <source>Content as %1-bit Floating Point Values</source>
-            <translation>Innehåll som %1-bit Flytande punktvärden</translation>
+            <translation>Innehåll som %1-bitars flyttalsvärden</translation>
         </message>
         <message>
             <location line="+48" />
             <source>A group of registers.</source>
-            <translation>grupp register.</translation>
+            <translation>En grupp register.</translation>
         </message>
         <message>
             <location line="+129" />
             <source>Open Memory View at Value of Register %1 0x%2</source>
-            <translation>Öppna minnesvy till värde av register %1 0x%2</translation>
+            <translation>Öppna minnesvyn vid värdet för register %1, 0x%2</translation>
         </message>
         <message>
             <location line="+25" />
             <location filename="../../../src/plugins/debugger/stackhandler.cpp" line="+14" />
             <source>Open Disassembler at 0x%1</source>
-            <translation>Öppna isärtagning vid 0x%1</translation>
+            <translation>Öppna demonteraren vid 0x%1</translation>
         </message>
         <message>
             <location line="+76" />
@@ -35420,7 +35420,7 @@ eller ställa in brytpunkter efter fil och rad förväntas fungera.</translation
         <message>
             <location line="-12" />
             <source>Open Memory View at Value of Register</source>
-            <translation>Öppna minnesvy till värdet av registret</translation>
+            <translation>Öppna minnesvyn vid värdet för registret</translation>
         </message>
         <message>
             <location line="+24" />
