@@ -71111,68 +71111,68 @@ Squish-servern avslutades med processfelet %1.</translation>
         <message>
             <location filename="../../../src/plugins/squish/squishtools.cpp" line="-278" />
             <source>Refusing to run a test case.</source>
-            <translation>Vägrar att köra ett testfall.</translation>
+            <translation>Kör inte ett testfall.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Could not create test results folder. Canceling test run.</source>
-            <translation>Kunde inte skapa testresultatkatalog. Avbryter testkörning.</translation>
+            <translation>Det gick inte att skapa mappen för testresultat. Avbryter testkörningen.</translation>
         </message>
         <message>
             <location line="+55" />
             <source>Refusing to execute server query.</source>
-            <translation>Vägrar att köra serverfråga.</translation>
+            <translation>Kör inte serverfrågan.</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Refusing to record a test case.</source>
-            <translation>Vägrar att registrera ett testfall.</translation>
+            <translation>Spelar inte in ett testfall.</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Refusing to write configuration changes.</source>
-            <translation>Vägrar att skriva konfigurationsändringar.</translation>
+            <translation>Skriver inte konfigurationsändringarna.</translation>
         </message>
         <message>
             <location line="+129" />
             <location line="+835" />
             <source>Squish Runner Error</source>
-            <translation>Fel vid avstängningskörning</translation>
+            <translation>Fel i Squish-testköraren</translation>
         </message>
         <message>
             <location line="-834" />
             <source>Squish runner failed to start within given timeframe.</source>
-            <translation>Squish löpare misslyckades att starta inom given tidsram.</translation>
+            <translation>Squish-testköraren kunde inte starta inom den angivna tiden.</translation>
         </message>
         <message>
             <location line="+75" />
             <source>Squish could not find the AUT "%1" to start. Make sure it has been added as a Mapped AUT in the squishserver settings.
 (Tools &gt; Squish &gt; Server Settings...)</source>
-            <translation>Squish kunde inte hitta AUT "%1" för att starta. Försäkra dig om att det har lagts till som en
-avbildad AUT i inställningarna för squashserver. (Verktyg &gt; Squish &gt; Serverinställningar…)</translation>
+            <translation>Squish kunde inte hitta AUT:en ”%1” som ska startas. Kontrollera att den har lagts till som en mappad AUT i inställningarna för squishserver.
+(Verktyg &gt; Squish &gt; Serverinställningar…)</translation>
         </message>
         <message>
             <location line="+37" />
             <location line="+720" />
             <source>"%1" could not be found or is not executable.
 Check the settings.</source>
-            <translation>"%1" kunde inte hittas eller är inte en körbar fil.
+            <translation>”%1” hittades inte eller är inte körbar.
 Kontrollera inställningarna.</translation>
         </message>
         <message>
             <location line="-718" />
             <source>Squish Server Error</source>
-            <translation>Fel vid quishserver</translation>
+            <translation>Fel i Squish-servern</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Recording test case</source>
-            <translation>Provningsfall för registrering</translation>
+            <translation>Spelar in testfall</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Running test case</source>
-            <translation>Provningsfall för körning</translation>
+            <translation>Kör testfall</translation>
         </message>
         <message>
             <location line="+175" />
@@ -71182,12 +71182,12 @@ Kontrollera inställningarna.</translation>
         <message>
             <location line="+2" />
             <source>Test record finished.</source>
-            <translation>Testskivan är klar.</translation>
+            <translation>Testinspelningen är klar.</translation>
         </message>
         <message>
             <location line="+387" />
             <source>User stop initiated.</source>
-            <translation>Användarstopp initierat.</translation>
+            <translation>Användaren begärde stopp.</translation>
         </message>
         <message>
             <location line="+12" />
@@ -71196,69 +71196,69 @@ This will cause problems later on.
 
 If you continue, the old instance will be terminated.
 Do you want to continue?</source>
-            <translation>Det finns fortfarande en gammal
-Squish serverinstans som kör.
-Det orsakar problem senare. Om du
-fortsätter, avslutas den gamla
-instansen. Vill du fortsätta?</translation>
+            <translation>En gammal instans av Squish-servern körs fortfarande.
+Det kommer att orsaka problem senare.
+
+Om du fortsätter avslutas den gamla instansen.
+Vill du fortsätta?</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Squish Server Already Running</source>
-            <translation>Squish Server kör redan</translation>
+            <translation>Squish-servern körs redan</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Unexpected state or request while starting Squish server. (state: %1, request: %2)</source>
-            <translation>Oväntat tillstånd eller begäran när Squish- servern startas. (Säg: %1, begäran: %2)</translation>
+            <translation>Oväntat tillstånd eller oväntad begäran när Squish-servern startas. (tillstånd: %1, begäran: %2)</translation>
         </message>
         <message>
             <location line="+73" />
             <source>Squish server does not seem to be running.
 (state: %1, request: %2)
 Try again.</source>
-            <translation>Squish- servern verkar
-inte köra. (LÄMNA: %1,
-begäran: %2) Försök igen.</translation>
+            <translation>Squish-servern verkar inte köras.
+(tillstånd: %1, begäran: %2)
+Försök igen.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>No Squish Server</source>
-            <translation>Ingen väpnad server</translation>
+            <translation>Ingen Squish-server</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Failed to get the server port.
 (state: %1, request: %2)
 Try again.</source>
-            <translation>Misslyckades få
-serverporten. (ange: %1, begäran:
-%2) Försök igen.</translation>
+            <translation>Det gick inte att hämta serverporten.
+(tillstånd: %1, begäran: %2)
+Försök igen.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>No Squish Server Port</source>
-            <translation>Ingen serverport för squish</translation>
+            <translation>Ingen Squish-serverport</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Squish runner seems to be running already.
 (state: %1, request: %2)
 Wait until it has finished and try again.</source>
-            <translation>Squish löpare verkar redan köra.
-(Säg: %1, begäran: %2) Vänta tills
-den är klar och försök igen.</translation>
+            <translation>Squish-testköraren verkar redan köras.
+(tillstånd: %1, begäran: %2)
+Vänta tills den är klar och försök igen.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Squish Runner Running</source>
-            <translation>Sprängare som springer</translation>
+            <translation>Squish-testköraren körs</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/squish/squishwizardpages.cpp" line="+56" />
             <location line="+132" />
             <source>Create New Squish Test Suite</source>
-            <translation>Skapa ny testsvit för quish</translation>
+            <translation>Skapa ny Squish-testsvit</translation>
         </message>
         <message>
             <location line="-129" />
@@ -71269,7 +71269,7 @@ den är klar och försök igen.</translation>
             <location filename="../../../src/plugins/squish/squishplugin.cpp" line="+5" />
             <location filename="../../../src/plugins/squish/squishwizardpages.cpp" line="+16" />
             <source>Invalid Squish settings. Configure Squish installation path inside Preferences... &gt; Squish &gt; General to use this wizard.</source>
-            <translation>Ogiltiga inställningar för Squish. Anpassa sökväg till installation av Squish inuti Inställningar… &gt; Squish &gt; Allmänt för att använda guiden.</translation>
+            <translation>Ogiltiga Squish-inställningar. Konfigurera Squish-installationens sökväg under Inställningar… &gt; Squish &gt; Allmänt för att använda den här guiden.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/squish/squishwizardpages.cpp" line="+116" />
@@ -71295,21 +71295,21 @@ den är klar och försök igen.</translation>
         <message>
             <location line="+4" />
             <source>Unsupported mode:</source>
-            <translation>Ostödd läge:</translation>
+            <translation>Läge som inte stöds:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/squish/squishxmloutputhandler.cpp" line="+44" />
             <source>Could not merge results into single results.xml.
 Destination file "%1" already exists.</source>
-            <translation>Kunde inte sammanfoga resultat till enstaka
-resultat.xml. Destinationsfilen "%1" finns redan.</translation>
+            <translation>Det gick inte att sammanfoga resultaten i en enda results.xml-fil.
+Målfilen ”%1” finns redan.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Could not merge results into single results.xml.
 Failed to open file "%1".</source>
-            <translation>Kunde inte sammanfoga resultat till enstaka
-resultat. xml. Misslyckades öppna filen "%1".</translation>
+            <translation>Det gick inte att sammanfoga resultaten i en enda results.xml-fil.
+Det gick inte att öppna filen ”%1”.</translation>
         </message>
         <message>
             <location line="+52" />
