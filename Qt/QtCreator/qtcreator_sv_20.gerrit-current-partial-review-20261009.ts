@@ -6553,7 +6553,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Controls if height fog is enabled</source>
-        <translation>Styr om höjddimma är aktiverad</translation>
+        <translation>Styr om höjddimma används</translation>
     </message>
     <message>
         <source>Least Intense Height</source>
@@ -6581,7 +6581,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Controls if the fog has a light transmission effect enabled</source>
-        <translation>Styr om dimman har en aktiverad ljusgenomsläppseffekt</translation>
+        <translation>Anger om dimman använder en ljusgenomsläppseffekt</translation>
     </message>
     <message>
         <source>Controls the intensity curve of the light transmission effect</source>
