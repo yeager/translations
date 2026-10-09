@@ -72948,22 +72948,22 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="-11" />
             <source>Delete Word from Cursor On</source>
-            <translation>Ta bort ord från förbannelsen på</translation>
+            <translation>Ta bort ord från markören och framåt</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Delete Word Camel Case from Cursor On</source>
-            <translation>Ta bort ordkamel fall från förbannelse på</translation>
+            <translation>Ta bort CamelCase-ord från markören och framåt</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Delete Word up to Cursor</source>
-            <translation>Ta bort ord fram till markör</translation>
+            <translation>Ta bort ord fram till markören</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Delete Word Camel Case up to Cursor</source>
-            <translation>Ta bort ordkamel fall upp till förbannelse</translation>
+            <translation>Ta bort CamelCase-ord fram till markören</translation>
         </message>
         <message>
             <location line="+150" />
@@ -72978,7 +72978,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+17" />
             <source>Toggle &amp;Fold All</source>
-            <translation>Växla &amp;Fold alla</translation>
+            <translation>Växla in-/utfällning av alla</translation>
         </message>
         <message>
             <location line="-165" />
@@ -72998,7 +72998,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+172" />
             <source>Select Block Up</source>
-            <translation>Välj block upp</translation>
+            <translation>Markera blocket uppåt</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73008,7 +73008,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+3" />
             <source>Select Block Down</source>
-            <translation>Välj block ner</translation>
+            <translation>Markera blocket nedåt</translation>
         </message>
         <message>
             <location line="-162" />
@@ -73018,12 +73018,12 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="-29" />
             <source>Delete Line from Cursor On</source>
-            <translation>Ta bort rad från markören på</translation>
+            <translation>Ta bort rad från markören och framåt</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Delete Line up to Cursor</source>
-            <translation>Ta bort rad upp till markör</translation>
+            <translation>Ta bort rad fram till markören</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73063,7 +73063,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+10" />
             <source>Follow Type Under Cursor</source>
-            <translation>Följ typ under markör</translation>
+            <translation>Följ typen under markören</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73073,7 +73073,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+2" />
             <source>Follow Type Under Cursor in Next Split</source>
-            <translation>Följ typen under markör i nästa delning</translation>
+            <translation>Följ typen under markören i nästa delning</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73088,12 +73088,12 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+2" />
             <source>Find References to Symbol Under Cursor</source>
-            <translation>Hitta referenser till symbol under markör</translation>
+            <translation>Hitta referenser till symbolen under markören</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Rename Symbol Under Cursor</source>
-            <translation>Byt namn på symbol under markör</translation>
+            <translation>Byt namn på symbolen under markören</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73103,12 +73103,12 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+2" />
             <source>Jump to File Under Cursor</source>
-            <translation>Hoppa till filen under markör</translation>
+            <translation>Hoppa till filen under markören</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Jump to File Under Cursor in Next Split</source>
-            <translation>Hoppa till fil under markör i nästa delning</translation>
+            <translation>Hoppa till filen under markören i nästa delning</translation>
         </message>
         <message>
             <location line="+2" />
