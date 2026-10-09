@@ -9834,7 +9834,7 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Enables the geometry of this model to be rendered to the shadow maps.</source>
-        <translation>Aktiverar att geometrin för den här modellen återges i skuggkartorna.</translation>
+        <translation>Aktiverar återgivning av den här modellens geometri i skuggkartorna.</translation>
     </message>
     <message>
         <source>Receives Shadows</source>
@@ -9842,7 +9842,7 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Enables the geometry of this model to receive shadows.</source>
-        <translation>Aktiverar att geometrin för den här modellen tar emot skuggor.</translation>
+        <translation>Gör att geometrin för den här modellen kan ta emot skuggor.</translation>
     </message>
     <message>
         <source>Casts Reflections</source>
@@ -9858,7 +9858,7 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Enables the geometry of this model to receive reflections from the nearest reflection probe. The model must be inside at least one reflection probe to start receiving reflections.</source>
-        <translation>Aktiverar att geometrin för den här modellen tar emot reflektioner från den närmaste reflektionsproben. Modellen måste vara inuti minst en reflektionsprob för att börja ta emot reflektioner.</translation>
+        <translation>Gör att geometrin för den här modellen kan ta emot reflektioner från den närmaste reflektionsproben. Modellen måste ligga inom minst en reflektionsprob för att börja ta emot reflektioner.</translation>
     </message>
     <message>
         <source>Is Pickable</source>
