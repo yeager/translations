@@ -14143,11 +14143,11 @@ Låsta komponenter kan inte ändras eller väljas.</translation>
     </message>
     <message>
         <source>Removing this state will modify locked components.</source>
-        <translation>Borttagning av detta tillstånd kommer ändra låsta komponenter.</translation>
+        <translation>Borttagning av detta tillstånd kommer att ändra låsta komponenter.</translation>
     </message>
     <message>
         <source>Continue by removing the state?</source>
-        <translation>Fortsätta att tar bort tillståndet?</translation>
+        <translation>Fortsätt genom att ta bort tillståndet?</translation>
     </message>
     <message>
         <source>base state</source>
@@ -41722,7 +41722,7 @@ Fjärr: %4</translation>
     </message>
     <message>
         <source>Continue merging other unresolved paths?</source>
-        <translation>Fortsätta sammanfoga andra olösta sökvägar?</translation>
+        <translation>Fortsätta att sammanfoga andra olösta sökvägar?</translation>
     </message>
     <message>
         <source>Refresh Remote Servers</source>
