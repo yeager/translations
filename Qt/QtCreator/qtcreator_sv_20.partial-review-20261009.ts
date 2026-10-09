@@ -76081,12 +76081,12 @@ Påverkar indraget för fortsättningsrader.
         <message>
             <location line="+3" />
             <source>Scan only the currently edited document</source>
-            <translation>Sök endast igenom aktuella redigerare dokumentet</translation>
+            <translation>Sök endast igenom det dokument som redigeras</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Scan the current subproject</source>
-            <translation>Sök igenom aktuella underprojektet</translation>
+            <translation>Sök igenom det aktuella underprojektet</translation>
         </message>
         <message>
             <location line="+19" />
@@ -76146,7 +76146,7 @@ Påverkar indraget för fortsättningsrader.
         <message>
             <location line="+12" />
             <source>Show "%1" entries</source>
-            <translation>Visa "%1" poster</translation>
+            <translation>Visa poster för ”%1”</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/todo/settings.cpp" line="+176" />
@@ -76179,7 +76179,7 @@ Påverkar indraget för fortsättningsrader.
         <message>
             <location line="+102" />
             <source>Keyword cannot be empty, contain spaces, colons, slashes or asterisks.</source>
-            <translation>Nyckelord får inte vara tomma, innehålla blanksteg, kolon, snedstreck eller asterisker.</translation>
+            <translation>Nyckelord får inte vara tomma eller innehålla blanksteg, kolon, snedstreck eller asterisker.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -76189,12 +76189,12 @@ Påverkar indraget för fortsättningsrader.
         <message>
             <location filename="../../../src/plugins/todo/todoprojectpanel.cpp" line="-144" />
             <source>&lt;Enter regular expression to exclude&gt;</source>
-            <translation>&lt;Ange reguljärt uttryck för att exkludera&gt;</translation>
+            <translation>&lt;Ange reguljärt uttryck som ska exkluderas&gt;</translation>
         </message>
         <message>
             <location line="+28" />
             <source>Regular expressions for file paths to be excluded from scanning.</source>
-            <translation>Reguljära uttryck för filsökvägar att exkluderas från genomsökning.</translation>
+            <translation>Reguljära uttryck för filsökvägar som ska undantas från genomsökning.</translation>
         </message>
         <message>
             <location line="+10" />
