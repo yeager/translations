@@ -1907,7 +1907,7 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>item</source>
-            <translation>post</translation>
+            <translation>objekt</translation>
         </message>
     </context>
     <context>
@@ -1925,11 +1925,11 @@ Detta går inte att ångra.</translation>
         <name>ContentLibraryEffectsView</name>
         <message>
             <source>No effects available.</source>
-            <translation>Inga effekter tillgängliga.</translation>
+            <translation>Inga effekter är tillgängliga.</translation>
         </message>
         <message>
             <source>&lt;b&gt;Content Library&lt;/b&gt; effects are not supported in Qt5 projects.</source>
-            <translation>&lt;b&gt;Innehållsbibliotek&lt;/b&gt;-effekter stöds inte i Qt5-projekt.</translation>
+            <translation>&lt;b&gt;Innehållsbibliotek&lt;/b&gt;seffekter stöds inte i Qt5-projekt.</translation>
         </message>
         <message>
             <source>To use &lt;b&gt;Content Library&lt;/b&gt;, first add the QtQuick3D module in the &lt;b&gt;Components&lt;/b&gt; view.</source>
@@ -1941,37 +1941,37 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>&lt;b&gt;Content Library&lt;/b&gt; is disabled inside a non-visual component.</source>
-            <translation>&lt;b&gt;Innehållsbibliotek&lt;/b&gt; är inaktiverad för en icke-visuell komponent.</translation>
+            <translation>&lt;b&gt;Innehållsbibliotek&lt;/b&gt; är inaktiverat i en icke-visuell komponent.</translation>
         </message>
         <message>
             <source>No match found.</source>
-            <translation>Ingen matchning hittades.</translation>
+            <translation>Ingen träff hittades.</translation>
         </message>
     </context>
     <context>
         <name>ContentLibraryItem</name>
         <message>
             <source>Item is imported to the project</source>
-            <translation>Posten är importerad till projektet</translation>
+            <translation>Objektet är importerat till projektet</translation>
         </message>
         <message>
             <source>Add an instance to project</source>
-            <translation>Lägg till en instans till projektet</translation>
+            <translation>Lägg till en instans i projektet</translation>
         </message>
     </context>
     <context>
         <name>ContentLibraryItemContextMenu</name>
         <message>
             <source>Apply to selected (replace)</source>
-            <translation>Tillämpa på markerade (ersätt)</translation>
+            <translation>Tillämpa på valda (ersätt)</translation>
         </message>
         <message>
             <source>Apply to selected (add)</source>
-            <translation>Tillämpa på markerade (lägg till)</translation>
+            <translation>Tillämpa på valda (lägg till)</translation>
         </message>
         <message>
             <source>Add an instance to project</source>
-            <translation>Lägg till en instans till projektet</translation>
+            <translation>Lägg till en instans i projektet</translation>
         </message>
         <message>
             <source>Remove from project</source>
@@ -1983,7 +1983,7 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Import bundle</source>
-            <translation>Importera bundle</translation>
+            <translation>Importera paket</translation>
         </message>
     </context>
     <context>
