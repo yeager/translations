@@ -81665,7 +81665,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="-257" />
             <source>Outline</source>
-            <translation>Översikt</translation>
+            <translation>Kontur</translation>
         </message>
         <message>
             <location line="+0" />
@@ -81677,7 +81677,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
             <location line="+170" />
             <location line="+73" />
             <source>Emphasized</source>
-            <translation>Betoning</translation>
+            <translation>Framhävd</translation>
         </message>
         <message>
             <location line="-229" />
@@ -81708,7 +81708,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+1" />
             <source>Stereotype display:</source>
-            <translation>Stereotypskärm:</translation>
+            <translation>Visning av stereotyp:</translation>
         </message>
         <message>
             <location line="+14" />
@@ -81718,12 +81718,12 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+22" />
             <source>Box</source>
-            <translation>Fält</translation>
+            <translation>Ruta</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Angle Brackets</source>
-            <translation>Vinkelfästen</translation>
+            <translation>Vinkelparenteser</translation>
         </message>
         <message>
             <location line="+1" />
@@ -81738,7 +81738,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+21" />
             <source>Plain shape</source>
-            <translation>kel form</translation>
+            <translation>Enkel form</translation>
         </message>
         <message>
             <location line="+32" />
@@ -81793,7 +81793,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+1" />
             <source>Footnote</source>
-            <translation>Fotnotis</translation>
+            <translation>Fotnot</translation>
         </message>
         <message>
             <location line="+16" />
@@ -81808,12 +81808,12 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+6" />
             <source>Swimlane</source>
-            <translation>Swimlane Ordförande</translation>
+            <translation>Simbana</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Swimlanes</source>
-            <translation>Swimmlaner</translation>
+            <translation>Simbanor</translation>
         </message>
         <message>
             <location line="+54" />
@@ -81875,12 +81875,12 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+124" />
             <source>Relocate Relation</source>
-            <translation>Omlokalisera relationen</translation>
+            <translation>Flytta relation</translation>
         </message>
         <message>
             <location filename="../../../src/libs/modelinglib/qmt/model_widgets_ui/addrelatedelementsdialog.cpp" line="+307" />
             <source>Relation Attributes</source>
-            <translation>Förhållandet mellan attributen</translation>
+            <translation>Relationsattribut</translation>
         </message>
         <message>
             <location line="+2" />
@@ -81902,7 +81902,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="-3" />
             <source>Other Element Attributes</source>
-            <translation>Andra elementatattribut</translation>
+            <translation>Övriga elementattribut</translation>
         </message>
         <message>
             <location line="+7" />
