@@ -5193,11 +5193,11 @@ Vill du verkligen ta bort noden:
     </message>
     <message>
         <source>Passes</source>
-        <translation>Passeringar</translation>
+        <translation>Återgivningspass</translation>
     </message>
     <message>
         <source>Sets the render passes of the effect.</source>
-        <translation>Ställer in effektens återgivningspasseringar.</translation>
+        <translation>Ställer in effektens återgivningspass.</translation>
     </message>
 </context>
 <context>
