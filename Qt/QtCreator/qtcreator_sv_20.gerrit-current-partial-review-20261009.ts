@@ -8816,11 +8816,11 @@ ska återges i texturen.</translation>
     </message>
     <message>
         <source>EOL Fade Out</source>
-        <translation>Uttoning vid slutet</translation>
+        <translation>Uttoning i slutet</translation>
     </message>
     <message>
         <source>Sets the fade out duration after the end of particle lifetime.</source>
-        <translation>Ställer in uttoningslängden efter partikelns livslängds slut.</translation>
+        <translation>Ställer in uttoningslängden efter att partikelns livslängd har löpt ut.</translation>
     </message>
 </context>
 <context>
