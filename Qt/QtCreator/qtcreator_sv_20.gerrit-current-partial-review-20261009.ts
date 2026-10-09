@@ -9182,7 +9182,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>You can share your project to Qt Design Viewer web service.&lt;br&gt;&lt;br&gt;To be able to use the sharing service, you need to sign in with your Qt Account details.</source>
-        <translation>Du kan dela ditt projekt med webbtjänsten Qt Design Viewer.&lt;br&gt;&lt;br&gt;För att kunna använda delningstjänsten måste du logga in med dina Qt Account-uppgifter.</translation>
+        <translation>Du kan dela ditt projekt med webbtjänsten Qt Design Viewer.&lt;br&gt;&lt;br&gt;För att kunna använda delningstjänsten måste du logga in med uppgifterna för ditt Qt-konto.</translation>
     </message>
     <message>
         <source>Sign in</source>
