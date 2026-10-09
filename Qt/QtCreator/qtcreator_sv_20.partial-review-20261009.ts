@@ -15982,7 +15982,7 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location line="+1" />
             <source>Limit speed to real-time:</source>
-            <translation>Gränshastighet till realtid:</translation>
+            <translation>Begränsa hastigheten till realtid:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/baremetal/debugservers/uvsc/stlinkuvscserverprovider.cpp" line="-180" />
@@ -16078,17 +16078,17 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location filename="../../../src/plugins/baremetal/debugservers/uvsc/uvscserverprovider.cpp" line="+52" />
             <source>Unable to create a uVision project template.</source>
-            <translation>Kunde inte skapa en UVision- projektmall.</translation>
+            <translation>Kunde inte skapa en uVision-projektmall.</translation>
         </message>
         <message>
             <location line="+29" />
             <source>Choose Keil Toolset Configuration File</source>
-            <translation>Välj inställningsfil för Keil- verktygsuppsättning</translation>
+            <translation>Välj inställningsfil för Keil-verktygsuppsättningen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Tools file path:</source>
-            <translation>Verktyg filsökväg:</translation>
+            <translation>Sökväg till verktygsfil:</translation>
         </message>
         <message>
             <location line="+2" />
@@ -16132,7 +16132,7 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location line="+105" />
             <source>FLASH Start</source>
-            <translation>FLASH Börja</translation>
+            <translation>FLASH-start</translation>
         </message>
         <message>
             <location line="+0" />
@@ -16142,17 +16142,17 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location line="+0" />
             <source>RAM Start</source>
-            <translation>RAM-minnets start</translation>
+            <translation>RAM-start</translation>
         </message>
         <message>
             <location line="+0" />
             <source>RAM Size</source>
-            <translation>RAM- storlek</translation>
+            <translation>RAM-storlek</translation>
         </message>
         <message>
             <location line="+26" />
             <source>Algorithm path.</source>
-            <translation>Algoritmvägen.</translation>
+            <translation>Sökväg till algoritm.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -16204,7 +16204,7 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location line="+81" />
             <source>Target device not selected.</source>
-            <translation>Målenhet inte vald.</translation>
+            <translation>Målenheten är inte vald.</translation>
         </message>
         <message>
             <location line="+20" />
@@ -16219,12 +16219,12 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location filename="../../../src/plugins/baremetal/debugservers/uvsc/uvtargetdriverselection.cpp" line="+25" />
             <source>Debugger CPU library (depends on a CPU core).</source>
-            <translation>Avlusningsprocessorbibliotek (beroende på en CPU-kärna).</translation>
+            <translation>Felsökarens CPU-bibliotek (beror på en CPU-kärna).</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/baremetal/debugservers/uvsc/uvtargetdriverviewer.cpp" line="+24" />
             <source>Debugger driver library.</source>
-            <translation>Avlusningsdrivningsbibliotek.</translation>
+            <translation>Felsökarens drivrutinsbibliotek.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -16239,7 +16239,7 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location line="+59" />
             <source>Target driver not selected.</source>
-            <translation>Måldrivrutin inte vald.</translation>
+            <translation>Måldrivrutinen är inte vald.</translation>
         </message>
         <message>
             <location line="+23" />
@@ -16265,7 +16265,7 @@ Försök igen när den har avslutats.</translation>
             <location line="+166" />
             <location filename="../../../src/plugins/baremetal/keiltoolchain.cpp" line="+717" />
             <source>Platform codegen flags:</source>
-            <translation>Plattformens codegen-flaggor:</translation>
+            <translation>Flaggor för plattformens kodgenerering:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -16277,7 +16277,7 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location filename="../../../src/plugins/baremetal/idebugserverprovider.cpp" line="-1" />
             <source>Enter the name of the debugger server provider.</source>
-            <translation>Ange namnet på leverantören av avlusaren.</translation>
+            <translation>Ange namnet på felsökningsserverleverantören.</translation>
         </message>
         <message>
             <location line="+60" />
@@ -16287,7 +16287,7 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location line="+4" />
             <source>Enter TCP/IP port which will be listened by the debug server.</source>
-            <translation>Ange TCP/IP-port som kommer att lyssnas på av felsökningsservern.</translation>
+            <translation>Ange TCP/IP-porten som felsökningsservern ska lyssna på.</translation>
         </message>
         <message>
             <source>KEIL %1 (%2, %3)</source>
