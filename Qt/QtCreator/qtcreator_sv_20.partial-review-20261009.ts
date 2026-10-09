@@ -19192,17 +19192,17 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+2" />
             <source>Repository Status</source>
-            <translation>Förrådsstatus</translation>
+            <translation>Arkivstatus</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Repository Log</source>
-            <translation>Förrådslogg</translation>
+            <translation>Arkivlogg</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Update Repository</source>
-            <translation>Uppdatera förråd</translation>
+            <translation>Uppdatera arkiv</translation>
         </message>
         <message>
             <location line="+4" />
@@ -19217,12 +19217,12 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+285" />
             <source>Would you like to discard your changes to the repository "%1"?</source>
-            <translation>Vill du förkasta dina ändringar till förrådet "%1"?</translation>
+            <translation>Vill du förkasta dina ändringar i arkivet ”%1”?</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Would you like to discard your changes to the file "%1"?</source>
-            <translation>Vill du förkasta dina ändringar till filen "%1"?</translation>
+            <translation>Vill du förkasta dina ändringar i filen ”%1”?</translation>
         </message>
         <message>
             <location line="+134" />
@@ -19232,7 +19232,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+21" />
             <source>Could not find commits of id "%1" on %2.</source>
-            <translation>Kunde inte hitta kommandon för id "%1" på %2.</translation>
+            <translation>Kunde inte hitta incheckningar med id ”%1” på %2.</translation>
         </message>
         <message>
             <location line="+83" />
@@ -19247,12 +19247,12 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="-141" />
             <source>Diff Project Directory</source>
-            <translation>Diff projektkatalog</translation>
+            <translation>Jämför projektkatalog</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Diff Directory of Project "%1"</source>
-            <translation>Diff-katalog för projekt "%1"</translation>
+            <translation>Jämför projektkatalogen för ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
@@ -19262,17 +19262,17 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+1" />
             <source>Status of Directory of Project "%1"</source>
-            <translation>Status för katalog över projekt "%1"</translation>
+            <translation>Status för projektkatalogen ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Log Project Directory</source>
-            <translation>Loggprojektkatalog</translation>
+            <translation>Logg över projektkatalog</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Log Directory of Project "%1"</source>
-            <translation>Loggkatalog för projektet "%1"</translation>
+            <translation>Logg över projektkatalogen för ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
@@ -19287,12 +19287,12 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+2" />
             <source>Commit Project Directory</source>
-            <translation>Komma över projektkatalog</translation>
+            <translation>Checka in projektkatalog</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Commit Directory of Project "%1"</source>
-            <translation>Kommittékatalog för projekt "%1"</translation>
+            <translation>Checka in projektkatalogen för ”%1”</translation>
         </message>
         <message>
             <location line="+133" />
@@ -19307,7 +19307,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+62" />
             <source>Another commit is currently being executed.</source>
-            <translation>Ett annat åtagande håller för närvarande på att genomföras.</translation>
+            <translation>En annan incheckning körs just nu.</translation>
         </message>
         <message>
             <location line="+21" />
@@ -19322,7 +19322,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+21" />
             <source>Repository status</source>
-            <translation>Förrådsstatus</translation>
+            <translation>Arkivstatus</translation>
         </message>
         <message>
             <location line="+16" />
@@ -19332,7 +19332,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+19" />
             <source>The initial revision %1 cannot be described.</source>
-            <translation>Den första versionen %1 kan inte beskrivas.</translation>
+            <translation>Den första revisionen %1 kan inte beskrivas.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cvs/cvssubmiteditor.cpp" line="+17" />
@@ -19357,7 +19357,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location filename="../../../src/plugins/cvs/cvseditor.cpp" line="+56" />
             <source>Annotate revision "%1"</source>
-            <translation>Anteckna revision "%1"</translation>
+            <translation>Annotera revision ”%1”</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cvs/cvsplugin.cpp" line="-934" />
