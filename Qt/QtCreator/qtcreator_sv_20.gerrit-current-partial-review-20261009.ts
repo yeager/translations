@@ -7342,7 +7342,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Sets the space between horizontal lines.</source>
-        <translation>Ställer in utrymmet mellan horisontella linjer.</translation>
+        <translation>Ställer in avståndet mellan horisontella linjer.</translation>
     </message>
     <message>
         <source>Vertical Step</source>
@@ -7350,7 +7350,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Sets the space between vertical lines.</source>
-        <translation>Ställer in utrymmet mellan vertikala linjer.</translation>
+        <translation>Ställer in avståndet mellan vertikala linjer.</translation>
     </message>
 </context>
 <context>
@@ -7970,7 +7970,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>On</source>
-        <translation>On</translation>
+        <translation>På</translation>
     </message>
     <message>
         <source>Off</source>
