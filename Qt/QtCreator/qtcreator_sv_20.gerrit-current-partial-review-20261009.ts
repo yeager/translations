@@ -74389,7 +74389,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Output text</source>
-        <translation>Utdatatest</translation>
+        <translation>Utdatatext</translation>
     </message>
 </context>
 <context>
@@ -74440,7 +74440,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Sets the line ends as square or rounded.</source>
-        <translation>Gör linjeändarna fyrkantiga eller rundade.</translation>
+        <translation>Anger om linjeändarna är fyrkantiga eller rundade.</translation>
     </message>
     <message>
         <source>Dash pattern</source>
@@ -75214,7 +75214,7 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Apply as light probe</source>
-        <translation>Tillämpa som ljussond</translation>
+        <translation>Tillämpa som ljusprob</translation>
     </message>
     <message>
         <source>Duplicate</source>
@@ -75233,7 +75233,7 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     <name>TextureInputSection</name>
     <message>
         <source>Texture Input</source>
-        <translation>Texturinmatning</translation>
+        <translation>Texturindata</translation>
     </message>
     <message>
         <source>Texture</source>
@@ -75793,7 +75793,7 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     <name>TrailEmitter3DSection</name>
     <message>
         <source>Particle Trail Emitter</source>
-        <translation>Partikelspårutstrålare</translation>
+        <translation>Partikelspåremitterare</translation>
     </message>
     <message>
         <source>Follow</source>
@@ -75801,7 +75801,7 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the logical particle which this emitter follows.</source>
-        <translation>Anger den logiska partikel som utstrålaren följer.</translation>
+        <translation>Anger den logiska partikeln som emitteraren följer.</translation>
     </message>
 </context>
 <context>
@@ -76170,7 +76170,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Pace Start</source>
-        <translation>Taktsstart</translation>
+        <translation>Startvärde för takt</translation>
     </message>
     <message>
         <source>Sets the starting point for the pace (frequency).</source>
@@ -76269,7 +76269,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Shift Speed</source>
-        <translation>Skift-hastighet</translation>
+        <translation>Hastighet med Skift</translation>
     </message>
     <message>
         <source>Sets the navigation speed multiplier when the Shift key is pressed.</source>
