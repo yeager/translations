@@ -79225,27 +79225,27 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+14" />
             <source>Memcheck: Failed to open file for reading: %1</source>
-            <translation>Memcheck: Misslyckades med att öppna filen för läsning: %1</translation>
+            <translation>Memcheck: Det gick inte att öppna filen för läsning: %1</translation>
         </message>
         <message>
             <location line="+37" />
             <source>Memcheck: Error occurred parsing Valgrind output: %1</source>
-            <translation>Memcheck: Fel inträffade vid tolkning av Valgrind-utdata: %1</translation>
+            <translation>Memcheck: Ett fel inträffade vid tolkning av Valgrind-utdata: %1</translation>
         </message>
         <message numerus="yes">
             <location line="+57" />
             <source>Memory Analyzer Tool finished. %n issues were found.</source>
             <translation>
-                <numerusform>Minnesanalysverktyget är färdigt. %n problem hittades.</numerusform>
-                <numerusform>Minnesanalysverktyget är färdigt. %n problem hittades.</numerusform>
+                <numerusform>Minnesanalysverktyget är klart. %n problem hittades.</numerusform>
+                <numerusform>Minnesanalysverktyget är klart. %n problem hittades.</numerusform>
             </translation>
         </message>
         <message numerus="yes">
             <location line="+6" />
             <source>Log file processed. %n issues were found.</source>
             <translation>
-                <numerusform>Loggfilen behandlad. %n problem hittades.</numerusform>
-                <numerusform>Loggfilen behandlad. %n problem hittades.</numerusform>
+                <numerusform>Loggfilen har bearbetats. %n problem hittades.</numerusform>
+                <numerusform>Loggfilen har bearbetats. %n problem hittades.</numerusform>
             </translation>
         </message>
         <message>
@@ -79314,7 +79314,7 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+4" />
             <source>Leak details:</source>
-            <translation>Läckra detaljer:</translation>
+            <translation>Läckagedetaljer:</translation>
         </message>
         <message>
             <source>None</source>
@@ -79323,7 +79323,7 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="-324" />
             <source>XML Files (*.xml)</source>
-            <translation>XML- filer (*.xml)</translation>
+            <translation>XML-filer (*.xml)</translation>
         </message>
         <message>
             <location line="+327" />
@@ -79339,22 +79339,22 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+1" />
             <source>Detect Leak Types</source>
-            <translation>Upptäck läckor</translation>
+            <translation>Identifiera läckagetyper</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Detect Leak Types (Show Reachable)</source>
-            <translation>Upptäck läckor (Visa tillgängliga)</translation>
+            <translation>Identifiera läckagetyper (visa nåbara)</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Fuzzy Detect Leak Types</source>
-            <translation>Fuzzy Detect Läckagetyper</translation>
+            <translation>Luddig identifiering av läckagetyper</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Fuzzy Detect Leak Types (Show Reachable)</source>
-            <translation>Fuzzy Detect Läckagetyper (Visa nåbar)</translation>
+            <translation>Luddig identifiering av läckagetyper (visa nåbara)</translation>
         </message>
         <message>
             <location line="+6" />
@@ -79364,7 +79364,7 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+10" />
             <source>Control leak recording:</source>
-            <translation>Kontrollläckaregistrering:</translation>
+            <translation>Styr läckageregistrering:</translation>
         </message>
         <message>
             <location line="+4" />
@@ -79404,7 +79404,7 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+8" />
             <source>OK</source>
-            <translation>Ok</translation>
+            <translation>OK</translation>
         </message>
         <message>
             <location line="+13" />
@@ -79444,7 +79444,7 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+15" />
             <source>Process finished with exit code %1 (0x%2).</source>
-            <translation>Processen färdigställdes med avslutskod %1 (0x%2).</translation>
+            <translation>Processen avslutades med slutkod %1 (0x%2).</translation>
         </message>
         <message>
             <location line="+5" />
@@ -79454,17 +79454,17 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+4" />
             <source>Cannot create target process.</source>
-            <translation>Kan inte skapa målprocess.</translation>
+            <translation>Kan inte skapa målprocessen.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Wrong bitness.</source>
-            <translation>Fel bithet.</translation>
+            <translation>Felaktig bitbredd.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Process killed.</source>
-            <translation>Process dödad.</translation>
+            <translation>Processen dödades.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -79474,12 +79474,12 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+4" />
             <source>Process stopped with unhandled exception code 0x%1.</source>
-            <translation>Processen stoppas med ohanterad undantagskod 0x%1.</translation>
+            <translation>Processen stoppades med ohanterad undantagskod 0x%1.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Not enough memory to keep track of allocations.</source>
-            <translation>Inte tillräckligt med minne för att hålla koll på allokeringar.</translation>
+            <translation>Det finns inte tillräckligt med minne för att hålla reda på allokeringar.</translation>
         </message>
         <message>
             <location line="+4" />
