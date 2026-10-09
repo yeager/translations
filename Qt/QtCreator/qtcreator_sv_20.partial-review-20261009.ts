@@ -80990,12 +80990,12 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="-31" />
             <source>Toggle Distraction Free Mode</source>
-            <translation>Visa distraktionsläge</translation>
+            <translation>Växla distraktionsfritt läge</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Shift+Escape</source>
-            <translation>Skift + Flykt</translation>
+            <translation>Skift+Esc</translation>
         </message>
         <message>
             <location line="+9" />
@@ -81005,32 +81005,32 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+1" />
             <source>Shift+Alt+Z</source>
-            <translation>Skift + Alt + Z</translation>
+            <translation>Skift+Alt+Z</translation>
         </message>
         <message>
             <location line="+152" />
             <source>Distraction free mode is active.</source>
-            <translation>Distraktionsfri läge är aktivt.</translation>
+            <translation>Det distraktionsfria läget är aktivt.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Distraction free mode is inactive.</source>
-            <translation>Distraktionsfri läge är inaktivt.</translation>
+            <translation>Det distraktionsfria läget är inaktivt.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Zen mode is active.</source>
-            <translation>Zen- läge är aktivt.</translation>
+            <translation>Zenläget är aktivt.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Zen mode is inactive.</source>
-            <translation>Zen- läge är inaktivt.</translation>
+            <translation>Zenläget är inaktivt.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/zenmode/zenmodesettings.cpp" line="+33" />
             <source>Editor content width:</source>
-            <translation>Redaktörens innehållsbredd:</translation>
+            <translation>Redigerarens innehållsbredd:</translation>
         </message>
         <message>
             <location line="+6" />
@@ -81065,7 +81065,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+11" />
             <source>When Zen Mode is Active</source>
-            <translation>När Zen- läge är aktivt</translation>
+            <translation>När zenläget är aktivt</translation>
         </message>
         <message>
             <location line="+3" />
