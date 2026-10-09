@@ -8294,7 +8294,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Rendering hints</source>
-        <translation>Återgivningshintar</translation>
+        <translation>Återgivningstips</translation>
     </message>
     <message>
         <source>Depth</source>
@@ -8466,7 +8466,7 @@ en markeringskomponent.</translation>
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the object</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Width.</source>
@@ -8509,7 +8509,7 @@ en markeringskomponent.</translation>
     <message>
         <source>Sets the rectangular area of the component that should
 be rendered into the texture.</source>
-        <translation>Anger det rektangulära område av komponenten som
+        <translation>Anger det rektangulära området av komponenten som
 ska återges i texturen.</translation>
     </message>
     <message>
@@ -72069,7 +72069,7 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>If this property is set, the imported model will not be rendered normally. Instead, a number of instances of the model will be rendered, as defined by the instance table.</source>
-        <translation>Om egenskapen är angiven renderas den importerade modellen inte normalt. I stället renderas ett antal instanser av modellen enligt instanstabellen.</translation>
+        <translation>Om egenskapen är angiven återges den importerade modellen inte normalt. I stället återges ett antal instanser av modellen enligt instanstabellen.</translation>
     </message>
 </context>
 <context>
@@ -72946,7 +72946,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
     </message>
     <message>
         <source>Sets the name of the uniform to change value for a pass.</source>
-        <translation>Anger namnet på uniformen vars värde ska ändras för en genomgång.</translation>
+        <translation>Anger namnet på uniformen vars värde ska ändras för ett återgivningspass.</translation>
     </message>
     <message>
         <source>Value</source>
