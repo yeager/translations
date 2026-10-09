@@ -8084,7 +8084,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Sets the space from the top and bottom of the area to the background top and bottom.</source>
-        <translation>Stället in ytan från topp och botten för området till bakgrundens topp och botten.</translation>
+        <translation>Ställer in avståndet mellan områdets över- och underkant och bakgrundens över- och underkant.</translation>
     </message>
     <message>
         <source>Top inset for the background.</source>
@@ -8100,7 +8100,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Sets the space from the left and right of the area to the background left and right.</source>
-        <translation>Ställer in ytan från vänster och höger av området till bakgrundens vänster och höger.</translation>
+        <translation>Ställer in avståndet mellan områdets vänster- och högerkant och bakgrundens vänster- och högerkant.</translation>
     </message>
     <message>
         <source>Left inset for the background.</source>
