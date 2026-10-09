@@ -63271,7 +63271,7 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
         <message>
             <location filename="../../../src/libs/qmljs/qmljsbind.cpp" line="+171" />
             <source>Hit maximal recursion depth in AST visit.</source>
-            <translation>Träffa maximal rekursion djup i AST besök.</translation>
+            <translation>Maximalt rekursionsdjup uppnåddes vid genomgång av AST.</translation>
         </message>
         <message>
             <location line="+48" />
@@ -63281,14 +63281,14 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
         <message>
             <location line="+110" />
             <source>Nested inline components are not supported.</source>
-            <translation>Inkopplade komponenter stöds inte.</translation>
+            <translation>Nästlade infogade komponenter stöds inte.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/qmljs/qmljsinterpreter.cpp" line="+1436" />
             <source>Errors while loading qmltypes from %1:
 %2</source>
-            <translation>Fel vid laddning av
-qml- typer från %1: %2</translation>
+            <translation>Fel vid inläsning av qmltypes från %1:
+%2</translation>
         </message>
         <message>
             <location line="+4" />
@@ -63306,44 +63306,44 @@ qml- typer från %1: %2</translation>
         <message>
             <location filename="../../../src/libs/qmljs/qmljstypedescriptionreader.cpp" line="+5" />
             <source>Expected a single import.</source>
-            <translation>Förväntade en single-import.</translation>
+            <translation>Förväntade en enskild import.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Expected import of QtQuick.tooling.</source>
-            <translation>Förväntad import av QtQuick.tooling.</translation>
+            <translation>Förväntade import av QtQuick.tooling.</translation>
         </message>
         <message>
             <location line="+25" />
             <source>Expected document to contain a Module {} member.</source>
-            <translation>Förväntade dokument innehåller en medlem av Modul {}.</translation>
+            <translation>Förväntade att dokumentet innehåller en medlem av typen Module {}.</translation>
         </message>
         <message>
             <location line="+116" />
             <source>Component definition is missing a name binding.</source>
-            <translation>Komponentdefinitionen saknar ett namnbindning.</translation>
+            <translation>Komponentdefinitionen saknar en namnkoppling.</translation>
         </message>
         <message>
             <location line="+31" />
             <source>ModuleApi definition has no or invalid version binding.</source>
-            <translation>ModuleApi definition har ingen eller ogiltig version bindande.</translation>
+            <translation>ModuleApi-definitionen saknar en versionskoppling eller har en ogiltig sådan.</translation>
         </message>
         <message>
             <location line="+37" />
             <source>Method or signal is missing a name script binding.</source>
-            <translation>Metod eller signal saknas ett namnskript som binder.</translation>
+            <translation>Metoden eller signalen saknar en namnkoppling i skriptet.</translation>
         </message>
         <message>
             <location line="+20" />
             <location line="+36" />
             <location line="+23" />
             <source>Expected script binding.</source>
-            <translation>Förväntade manusbindning.</translation>
+            <translation>Förväntade en skriptkoppling.</translation>
         </message>
         <message>
             <location line="-280" />
             <source>Major version different from 1 not supported.</source>
-            <translation>Större version skiljer sig från 1 stöds inte.</translation>
+            <translation>Huvudversioner andra än 1 stöds inte.</translation>
         </message>
         <message>
             <location line="+73" />
@@ -63354,20 +63354,20 @@ qml- typer från %1: %2</translation>
         <message>
             <location line="+164" />
             <source>Property object is missing a name script binding.</source>
-            <translation>Egenskapsobjektet saknar ett namnskriptbindning.</translation>
+            <translation>Egenskapsobjektet saknar en namnkoppling i skriptet.</translation>
         </message>
         <message>
             <location line="+64" />
             <location line="+6" />
             <location line="+6" />
             <source>Expected string after colon.</source>
-            <translation>Förväntade sträng efter kolon.</translation>
+            <translation>Förväntade en sträng efter kolon.</translation>
         </message>
         <message>
             <location line="+12" />
             <location line="+6" />
             <source>Expected boolean after colon.</source>
-            <translation>Förväntade boolesk efter kolon.</translation>
+            <translation>Förväntade ett booleskt värde efter kolon.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -63382,61 +63382,61 @@ qml- typer från %1: %2</translation>
             <location line="+6" />
             <location line="+6" />
             <source>Expected numeric literal after colon.</source>
-            <translation>Förväntade numerisk literal efter kolon.</translation>
+            <translation>Förväntade en numerisk literal efter kolon.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Expected integer after colon.</source>
-            <translation>Förväntade heltal efter kolon.</translation>
+            <translation>Förväntade ett heltal efter kolon.</translation>
         </message>
         <message>
             <location line="+12" />
             <location line="+6" />
             <location line="+6" />
             <source>Expected array of strings after colon.</source>
-            <translation>Förväntade array av strängar efter kolon.</translation>
+            <translation>Förväntade en strängmatris efter kolon.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Expected array literal with only string literal members.</source>
-            <translation>Förväntade rad bokstavligt med endast sträng bokstavliga medlemmar.</translation>
+            <translation>Förväntade en matrisliteral med endast strängliteraler.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Expected string literal to contain 'Package/Name major.minor' or 'Name major.minor'.</source>
-            <translation>Förväntade sträng bokstavligt att innehålla 'package/Name major.minor' eller 'Name major.minor'.</translation>
+            <translation>Förväntade en strängliteral som innehåller 'Package/Name major.minor' eller 'Name major.minor'.</translation>
         </message>
         <message>
             <location line="+18" />
             <location line="+6" />
             <location line="+6" />
             <source>Expected array of numbers after colon.</source>
-            <translation>Förväntade array av siffror efter kolon.</translation>
+            <translation>Förväntade en talmatris efter kolon.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Expected array literal with only number literal members.</source>
-            <translation>Förväntade matris bokstavligt med endast antal bokstavliga medlemmar.</translation>
+            <translation>Förväntade en matrisliteral med endast talliteraler.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Meta object revision without matching export.</source>
-            <translation>Meta objektrevidering utan att matcha export.</translation>
+            <translation>Metaobjektrevision utan motsvarande export.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Expected integer.</source>
-            <translation>Förväntade heltal.</translation>
+            <translation>Förväntade ett heltal.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Expected object literal after colon.</source>
-            <translation>Förväntade objekt bokstavligt efter kolon.</translation>
+            <translation>Förväntade en objektliteral efter kolon.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Expected expression after colon.</source>
-            <translation>Förväntade uttryck efter kolon.</translation>
+            <translation>Förväntade ett uttryck efter kolon.</translation>
         </message>
         <message>
             <location line="+12" />
@@ -63447,26 +63447,26 @@ qml- typer från %1: %2</translation>
         <message>
             <location line="+4" />
             <source>Expected either array or object literal as enum definition.</source>
-            <translation>Förväntade sig antingen array eller objekt bokstavligt som enum definition.</translation>
+            <translation>Förväntade en matris- eller objektliteral som enum-definition.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/qmljs/qmljsfindexportedcpptypes.cpp" line="+255" />
             <source>The type will only be available in the QML editors when the type name is a string literal.</source>
-            <translation>Typen kommer endast att finnas tillgänglig i QML-redigerarna när typnamnet är en sträng bokstavlig.</translation>
+            <translation>Typen blir bara tillgänglig i QML-redigerarna när typnamnet är en strängliteral.</translation>
         </message>
         <message>
             <location line="+61" />
             <source>The module URI cannot be determined by static analysis. The type will not be available
 globally in the QML editor. You can add a "// @uri My.Module.Uri" annotation to let
 the QML editor know about a likely URI.</source>
-            <translation>Modulen URI kan inte bestämmas med statisk analys. Typen kommer inte att
-vara tillgänglig globalt i QML- editorn. Du kan lägga till en "/ @uri
-My.Module.Uri" kommentar för att låta QML- editorn veta om en trolig URI.</translation>
+            <translation>Modulens URI kan inte fastställas genom statisk analys. Typen blir inte
+globalt tillgänglig i QML-redigeraren. Du kan lägga till kommentaren "// @uri My.Module.Uri" så att
+QML-redigeraren känner till en trolig URI.</translation>
         </message>
         <message>
             <location line="+182" />
             <source>must be a string literal to be available in the QML editor</source>
-            <translation>måste vara en sträng bokstavlig för att vara tillgänglig i QML-redigeraren</translation>
+            <translation>måste vara en strängliteral för att vara tillgänglig i QML-redigeraren</translation>
         </message>
         <message>
             <location filename="../../../src/libs/qmljs/qmljssimplereader.cpp" line="-47" />
@@ -63478,17 +63478,17 @@ My.Module.Uri" kommentar för att låta QML- editorn veta om en trolig URI.</tra
             <location filename="../../../src/libs/qmljs/qmljstypedescriptionreader.cpp" line="-534" />
             <location line="+6" />
             <source>Expected document to contain a single object definition.</source>
-            <translation>Förväntade dokument att innehålla en enda objektdefinition.</translation>
+            <translation>Förväntade att dokumentet innehåller en enda objektdefinition.</translation>
         </message>
         <message>
             <location line="+73" />
             <source>Expected expression statement after colon.</source>
-            <translation>Förväntade uttryck efter kolon.</translation>
+            <translation>Förväntade en uttryckssats efter kolon.</translation>
         </message>
         <message>
             <location line="+102" />
             <source>Property is defined twice, previous definition at %1:%2</source>
-            <translation>Egenskap definieras två gånger, tidigare definition på %1:%2</translation>
+            <translation>Egenskapen definieras två gånger. Föregående definition finns vid %1:%2.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/qmljs/qmljsstaticanalysismessage.cpp" line="+55" />
@@ -63498,12 +63498,12 @@ My.Module.Uri" kommentar för att låta QML- editorn veta om en trolig URI.</tra
         <message>
             <location line="+2" />
             <source>Enum value must be a string or a number.</source>
-            <translation>umvärdet måste vara en sträng eller ett tal.</translation>
+            <translation>Enum-värdet måste vara en sträng eller ett tal.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Number value expected.</source>
-            <translation>Antal förväntade värden.</translation>
+            <translation>Förväntade ett talvärde.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -63513,7 +63513,7 @@ My.Module.Uri" kommentar för att låta QML- editorn veta om en trolig URI.</tra
         <message>
             <location line="+2" />
             <source>String value expected.</source>
-            <translation>Strängvärde förväntades.</translation>
+            <translation>Förväntade ett strängvärde.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -63538,7 +63538,7 @@ My.Module.Uri" kommentar för att låta QML- editorn veta om en trolig URI.</tra
         <message>
             <location line="+2" />
             <source>Duplicate property binding.</source>
-            <translation>Duplicera egendomsbindning.</translation>
+            <translation>Dubblett av egenskapskoppling.</translation>
         </message>
         <message>
             <location line="+2" />
