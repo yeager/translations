@@ -27229,43 +27229,43 @@ Dubbelklicka för att redigera posten.</translation>
             <location line="+89" />
             <source>[Discarding excessive amount of pending output.]
 </source>
-            <translation>[Diskar ut alltför mycket
-väntad produktion.]</translation>
+            <translation>[Kastar för stor mängd väntande utdata.]
+</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/patchtool.cpp" line="+39" />
             <source>Apply Chunk</source>
-            <translation>Verkställ chunk</translation>
+            <translation>Verkställ ändringsstycke</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Revert Chunk</source>
-            <translation>Återställ Chunk</translation>
+            <translation>Återställ ändringsstycke</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Would you like to apply the chunk?</source>
-            <translation>Vill du lägga på?</translation>
+            <translation>Vill du verkställa ändringsstycket?</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Would you like to revert the chunk?</source>
-            <translation>Vill du ha tillbaka biten?</translation>
+            <translation>Vill du återställa ändringsstycket?</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Note: The file will be saved before this operation.</source>
-            <translation>Observera: Filen kommer att sparas innan denna åtgärd.</translation>
+            <translation>Obs! Filen sparas före åtgärden.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>There is no patch-command configured in the general "Environment" settings.</source>
-            <translation>Det finns inget patch-kommando konfigurerat i allmänna inställningar i "Miljö".</translation>
+            <translation>Det finns inget patch-kommando angivet i de allmänna inställningarna för ”Miljö”.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>The patch-command configured in the general "Environment" settings does not exist.</source>
-            <translation>Patch-kommandot som konfigurerats i allmänna inställningarna för "Miljö" finns inte.</translation>
+            <translation>Patch-kommandot som är angivet i de allmänna inställningarna för ”Miljö” finns inte.</translation>
         </message>
         <message>
             <location line="+23" />
@@ -27275,22 +27275,22 @@ väntad produktion.]</translation>
         <message>
             <location line="+6" />
             <source>Unable to launch "%1": %2</source>
-            <translation>Kunde inte starta "%1": %2</translation>
+            <translation>Kunde inte starta ”%1”: %2</translation>
         </message>
         <message>
             <location line="+11" />
             <source>A timeout occurred running "%1".</source>
-            <translation>En tidsgräns överstegs vid körning av "%1".</translation>
+            <translation>En tidsgräns överskreds när ”%1” kördes.</translation>
         </message>
         <message>
             <location line="+17" />
             <source>"%1" crashed.</source>
-            <translation>"%1" kraschade.</translation>
+            <translation>”%1” kraschade.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>"%1" failed (exit code %2).</source>
-            <translation>"%1" misslyckades (avslutskod %2).</translation>
+            <translation>”%1” misslyckades (avslutskod %2).</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/plugininstallwizard.cpp" line="-347" />
@@ -27320,22 +27320,22 @@ väntad produktion.]</translation>
         <message>
             <location line="-25" />
             <source>Plugin failed to resolve dependencies:</source>
-            <translation>Insticksmodulen misslyckades med att lösa beroenden:</translation>
+            <translation>Insticksmodulen kunde inte lösa sina beroenden:</translation>
         </message>
         <message>
             <location line="-27" />
             <source>Plugin is already installed.</source>
-            <translation>Insticksprogrammet är redan installerat.</translation>
+            <translation>Insticksmodulen är redan installerad.</translation>
         </message>
         <message>
             <location line="+20" />
             <source>A plugin with ID "%1" is already installed.</source>
-            <translation>Ett insticksprogram med ID "%1" är redan installerat.</translation>
+            <translation>En insticksmodul med id ”%1” är redan installerad.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>No plugin with ID "%1" is installed.</source>
-            <translation>Inget insticksprogram med ID "%1" är installerat.</translation>
+            <translation>Ingen insticksmodul med id ”%1” är installerad.</translation>
         </message>
         <message>
             <location line="+53" />
@@ -27350,12 +27350,12 @@ väntad produktion.]</translation>
         <message>
             <location line="+17" />
             <source>Archive extracted successfully.</source>
-            <translation>Arkiv extraherat framgångsrikt.</translation>
+            <translation>Arkivet packades upp.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>There was an error while unarchiving: %1</source>
-            <translation>Det var ett fel när du inte arkiverade: %1</translation>
+            <translation>Det uppstod ett fel när arkivet packades upp: %1</translation>
         </message>
         <message>
             <location line="+79" />
@@ -27365,7 +27365,7 @@ väntad produktion.]</translation>
         <message>
             <location line="+22" />
             <source>%1 will be installed into %2.</source>
-            <translation>%1 kommer att installera till %2.</translation>
+            <translation>%1 installeras i %2.</translation>
         </message>
         <message>
             <location line="+25" />
@@ -27389,7 +27389,7 @@ väntad produktion.]</translation>
             <location line="+26" />
             <location line="+60" />
             <source>Archive is OK.</source>
-            <translation>Arkivet är ok.</translation>
+            <translation>Arkivet är OK.</translation>
         </message>
         <message>
             <source>Install Location</source>
@@ -27405,7 +27405,7 @@ väntad produktion.]</translation>
         </message>
         <message>
             <source>The plugin will be available to all compatible %1 installations, but only for the current user.</source>
-            <translation>Insticksmodulen kommer vara tillgänglig för alla kompatibla %1-installationer men endast för aktuella användaren.</translation>
+            <translation>Insticksmodulen blir tillgänglig för alla kompatibla %1-installationer, men bara för den aktuella användaren.</translation>
         </message>
         <message>
             <source>%1 installation</source>
@@ -27413,12 +27413,12 @@ väntad produktion.]</translation>
         </message>
         <message>
             <source>The plugin will be available only to this %1 installation, but for all users that can access it.</source>
-            <translation>Insticksmodulen kommer vara tillgänglig endast för denna %1-installation men för alla användare som kan komma åt den.</translation>
+            <translation>Insticksmodulen blir endast tillgänglig för den här %1-installationen, men för alla användare som kan komma åt den.</translation>
         </message>
         <message>
             <location line="+52" />
             <source>Summary</source>
-            <translation>Sammandrag</translation>
+            <translation>Sammanfattning</translation>
         </message>
         <message>
             <location line="+117" />
@@ -27428,7 +27428,7 @@ väntad produktion.]</translation>
         <message>
             <location line="+1" />
             <source>The file "%1" exists. Overwrite?</source>
-            <translation>Filen "%1" finns. Skriva över?</translation>
+            <translation>Filen ”%1” finns redan. Vill du skriva över den?</translation>
         </message>
         <message>
             <location line="+3" />
@@ -27439,17 +27439,17 @@ väntad produktion.]</translation>
             <location line="+10" />
             <location line="+6" />
             <source>Failed to Write File</source>
-            <translation>Misslyckades med att skriva fil</translation>
+            <translation>Det gick inte att skriva filen</translation>
         </message>
         <message>
             <location line="-5" />
             <source>Failed to create directory "%1".</source>
-            <translation>Misslyckades med att skapa katalogen "%1".</translation>
+            <translation>Det gick inte att skapa katalogen ”%1”.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Failed to write file "%1".</source>
-            <translation>Misslyckades med att skriva filen "%1".</translation>
+            <translation>Det gick inte att skriva filen ”%1”.</translation>
         </message>
         <message>
             <location line="+15" />
@@ -27459,7 +27459,7 @@ väntad produktion.]</translation>
         <message>
             <location line="+57" />
             <source>Copying plugin files...</source>
-            <translation>Kopierar insticksprogramfiler…</translation>
+            <translation>Kopierar insticksmodulfiler…</translation>
         </message>
         <message>
             <location line="+8" />
@@ -27471,7 +27471,7 @@ väntad produktion.]</translation>
         <message>
             <location line="+11" />
             <source>Failed to Copy Plugin Files</source>
-            <translation>Misslyckades med att kopiera insticksmodulfiler</translation>
+            <translation>Det gick inte att kopiera insticksmodulfilerna</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/themechooser.cpp" line="+43" />
