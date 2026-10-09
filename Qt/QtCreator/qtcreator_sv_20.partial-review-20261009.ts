@@ -78696,7 +78696,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+221" />
             <source>KCachegrind executable:</source>
-            <translation>Körbar KCachegrind-fil:</translation>
+            <translation>Körbar fil för KCachegrind:</translation>
         </message>
         <message>
             <location line="+2" />
@@ -78713,13 +78713,13 @@ With cache simulation, further event counters are enabled:
 &lt;li&gt;Data read accesses ("Dr") and related cache misses ("D1mr"/"D2mr").&lt;/li&gt;
 &lt;li&gt;Data write accesses ("Dw") and related cache misses ("D1mw"/"D2mw").&lt;/li&gt;&lt;/ul&gt;
 &lt;/p&gt;</source>
-            <translation>&lt;p&gt;Does full cache simulation.&lt;/p&gt;
-&lt;p&gt;By default, only instruction read accesses will be counted ("Ir").&lt;/p&gt;
+            <translation>&lt;p&gt;Kör en fullständig cache-simulering.&lt;/p&gt;
+&lt;p&gt;Som standard räknas bara läsåtkomster till instruktioner ("Ir").&lt;/p&gt;
 &lt;p&gt;
-With cache simulation, further event counters are enabled:
-&lt;ul&gt;&lt;li&gt;Cache misses on instruction reads ("I1mr"/"I2mr").&lt;/li&gt;
-&lt;li&gt;Data read accesses ("Dr") and related cache misses ("D1mr"/"D2mr").&lt;/li&gt;
-&lt;li&gt;Data write accesses ("Dw") and related cache misses ("D1mw"/"D2mw").&lt;/li&gt;&lt;/ul&gt;
+Med cache-simulering aktiveras fler händelseräknare:
+&lt;ul&gt;&lt;li&gt;Cachemissar vid instruktionläsning ("I1mr"/"I2mr").&lt;/li&gt;
+&lt;li&gt;Dataåtkomster för läsning ("Dr") och relaterade cachemissar ("D1mr"/"D2mr").&lt;/li&gt;
+&lt;li&gt;Dataåtkomster för skrivning ("Dw") och relaterade cachemissar ("D1mw"/"D2mw").&lt;/li&gt;&lt;/ul&gt;
 &lt;/p&gt;</translation>
         </message>
         <message>
@@ -78730,22 +78730,22 @@ With cache simulation, further event counters are enabled:
 "Bc"/"Bcm").&lt;/li&gt;
 &lt;li&gt;Executed indirect jumps and related misses of the jump address predictor (
 "Bi"/"Bim").)&lt;/li&gt;&lt;/ul&gt;</source>
-            <translation>&lt;p&gt;Does branch prediction simulation.&lt;/p&gt;
-&lt;p&gt;Further event counters are enabled: &lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Number of executed conditional branches and related predictor misses (
+            <translation>&lt;p&gt;Kör simulering av grengissning.&lt;/p&gt;
+&lt;p&gt;Fler händelseräknare aktiveras: &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Antal körda villkorsgrenar och relaterade prediktormissar (
 "Bc"/"Bcm").&lt;/li&gt;
-&lt;li&gt;Executed indirect jumps and related misses of the jump address predictor (
+&lt;li&gt;Körda indirekta hopp och relaterade missar i hopadressprediktorn (
 "Bi"/"Bim").)&lt;/li&gt;&lt;/ul&gt;</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Collects information for system call times.</source>
-            <translation>Samlar in information för systemanropstider.</translation>
+            <translation>Samlar in information om tidsåtgång för systemanrop.</translation>
         </message>
         <message>
             <location line="+17" />
             <source>Visualization: Minimum event cost:</source>
-            <translation>Visualisering: Minsta händelsekostnad:</translation>
+            <translation>Visualisering: lägsta händelsekostnad:</translation>
         </message>
         <message>
             <location line="+25" />
@@ -78755,7 +78755,7 @@ With cache simulation, further event counters are enabled:
         <message>
             <location line="-127" />
             <source>Detect self-modifying code:</source>
-            <translation>Upptäck självmodifierande kod:</translation>
+            <translation>Identifiera självmodifierande kod:</translation>
         </message>
         <message>
             <location line="+26" />
@@ -78770,7 +78770,7 @@ With cache simulation, further event counters are enabled:
         <message>
             <location line="+8" />
             <source>Check for leaks on finish:</source>
-            <translation>Kontrollera läckor vid mål:</translation>
+            <translation>Kontrollera läckor vid avslut:</translation>
         </message>
         <message>
             <location line="-2" />
@@ -78804,7 +78804,7 @@ With cache simulation, further event counters are enabled:
         <message>
             <location line="-13" />
             <source>Callees</source>
-            <translation>Calles</translation>
+            <translation>Anropade funktioner</translation>
         </message>
         <message>
             <location line="-68" />
@@ -78839,7 +78839,7 @@ With cache simulation, further event counters are enabled:
         <message>
             <location line="+10" />
             <source>Request the dumping of profile information. This will update the Callgrind visualization.</source>
-            <translation>Begär dump av profilinformation. Detta kommer att uppdatera Callgrind visualisering.</translation>
+            <translation>Begär en dumpning av profilinformation. Detta uppdaterar Callgrind-visualiseringen.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -78849,7 +78849,7 @@ With cache simulation, further event counters are enabled:
         <message>
             <location line="+8" />
             <source>Pause event logging. No events are counted which will speed up program execution during profiling.</source>
-            <translation>Gör paus i händelseloggning. Inga händelser räknas som kommer att påskynda programutförandet under profilering.</translation>
+            <translation>Pausa händelseloggning. Inga händelser räknas, vilket snabbar upp programkörningen under profilering.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -78859,7 +78859,7 @@ With cache simulation, further event counters are enabled:
         <message>
             <location line="+11" />
             <source>Go back one step in history. This will select the previously selected item.</source>
-            <translation>Gå bakåt ett steg i historiken. Detta väljer föregående markerad post.</translation>
+            <translation>Gå tillbaka ett steg i historiken. Detta markerar den tidigare markerade posten.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -78869,7 +78869,7 @@ With cache simulation, further event counters are enabled:
         <message>
             <location line="+5" />
             <source>Selects which events from the profiling data are shown and visualized.</source>
-            <translation>Väljer vilka händelser från profileringsdatat som visas och visualiseras.</translation>
+            <translation>Väljer vilka händelser från profileringsdata som visas och visualiseras.</translation>
         </message>
         <message>
             <location line="+24" />
@@ -78889,17 +78889,17 @@ With cache simulation, further event counters are enabled:
         <message>
             <location line="+1" />
             <source>Show costs relative to total inclusive cost.</source>
-            <translation>Visa kostnader i förhållande till total kostnad för alla.</translation>
+            <translation>Visa kostnader relativt den totala inkluderande kostnaden.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Relative Costs to Parent</source>
-            <translation>Relativa kostnader för moderbolaget</translation>
+            <translation>Relativa kostnader till överordnad funktion</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Show costs relative to parent function's inclusive cost.</source>
-            <translation>Visa kostnader i förhållande till föräldrafunktionens inklusive kostnad.</translation>
+            <translation>Visa kostnader relativt den överordnade funktionens inkluderande kostnad.</translation>
         </message>
         <message>
             <location line="+286" />
@@ -78909,17 +78909,17 @@ With cache simulation, further event counters are enabled:
         <message>
             <location line="+3" />
             <source>Function Profiler running...</source>
-            <translation>Funktionsprofiler som kör…</translation>
+            <translation>Funktionsprofileraren körs …</translation>
         </message>
         <message>
             <location line="+82" />
             <source>Callgrind paused.</source>
-            <translation>Callgrind stannade.</translation>
+            <translation>Callgrind är pausat.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Callgrind dumped profiling info.</source>
-            <translation>Callgrind dumpade profileringsinformation.</translation>
+            <translation>Callgrind har dumpat profileringsinformation.</translation>
         </message>
         <message>
             <location line="+169" />
@@ -78934,12 +78934,12 @@ With cache simulation, further event counters are enabled:
         <message>
             <location line="+2" />
             <source>Callgrind Output (callgrind.out*)</source>
-            <translation>Utmatning av samtalsgrind (samtalgrind.out*)</translation>
+            <translation>Callgrind-utdata (callgrind.out*)</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Callgrind: Failed to open file for reading: %1</source>
-            <translation>Callgrind: Misslyckades öppna filen för läsning: %1</translation>
+            <translation>Callgrind: Det gick inte att öppna filen för läsning: %1</translation>
         </message>
         <message>
             <location line="-627" />
@@ -78955,7 +78955,7 @@ With cache simulation, further event counters are enabled:
         <message>
             <location filename="../../../src/plugins/valgrind/valgrindsettings.cpp" line="+87" />
             <source>Enable cycle detection to properly handle recursive or circular function calls.</source>
-            <translation>Aktivera cykeldetektering för att hantera rekursiva eller cirkulära funktionssamtal på rätt sätt.</translation>
+            <translation>Aktivera cykeldetektering för att hantera rekursiva eller cirkulära funktionsanrop korrekt.</translation>
         </message>
         <message>
             <location line="-104" />
@@ -78965,7 +78965,7 @@ With cache simulation, further event counters are enabled:
         <message>
             <location line="+1" />
             <source>Show only profiling info that originated from this project source.</source>
-            <translation>Visa endast profileringsinformation som härrör från projektets källa.</translation>
+            <translation>Visa endast profileringsinformation som härrör från projektets källkod.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/valgrind/callgrindtool.cpp" line="-623" />
