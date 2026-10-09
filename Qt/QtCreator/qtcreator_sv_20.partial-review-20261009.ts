@@ -45764,7 +45764,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location filename="../../../src/plugins/ios/iosbuildstep.cpp" line="+72" />
             <source>Base arguments:</source>
-            <translation>Grundar:</translation>
+            <translation>Grundargument:</translation>
         </message>
         <message>
             <location line="+7" />
@@ -45774,7 +45774,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+3" />
             <source>Extra arguments:</source>
-            <translation>Extra argument:</translation>
+            <translation>Ytterligare argument:</translation>
         </message>
         <message>
             <location line="+175" />
@@ -45804,7 +45804,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+2" />
             <source>Ask about devices not in developer mode</source>
-            <translation>Fråga om enheter som inte är i utvecklarläget</translation>
+            <translation>Fråga om enheter som inte är i utvecklarläge</translation>
         </message>
         <message>
             <location line="+4" />
@@ -45840,13 +45840,13 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+16" />
             <source>Error: no device available, deploy failed.</source>
-            <translation>Fel: ingen enhet tillgänglig, distribution misslyckades.</translation>
+            <translation>Fel: ingen enhet är tillgänglig, distributionen misslyckades.</translation>
         </message>
         <message>
             <location line="-107" />
             <location line="+130" />
             <source>Deployment failed. No iOS device found.</source>
-            <translation>Distribution misslyckades. Ingen iOS-enhet hittades.</translation>
+            <translation>Distributionen misslyckades. Ingen iOS-enhet hittades.</translation>
         </message>
         <message>
             <location line="-14" />
@@ -45856,12 +45856,12 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="-153" />
             <source>Deployment failed. The settings in the Devices window of Xcode might be incorrect.</source>
-            <translation>Utplacering misslyckades. Inställningarna i X- kodfönstret för enheter kan vara felaktiga.</translation>
+            <translation>Distributionen misslyckades. Inställningarna i enhetsfönstret i Xcode kan vara felaktiga.</translation>
         </message>
         <message>
             <location line="+59" />
             <source>Deployment canceled.</source>
-            <translation>Distribution avbröts.</translation>
+            <translation>Distributionen avbröts.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -45875,12 +45875,12 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+11" />
             <source>devicectl returned unexpected output ... deployment might have failed.</source>
-            <translation>Devicectl returnerade oväntad utgång … utbyggnaden kan ha misslyckats.</translation>
+            <translation>devicectl returnerade oväntade utdata … distributionen kan ha misslyckats.</translation>
         </message>
         <message>
             <location line="+174" />
             <source>The provisioning profile "%1" (%2) used to sign the application does not cover the device %3 (%4). Deployment to it will fail.</source>
-            <translation>Avsättningsprofilen "%1" (%2) som används för att signera programmet täcker inte enheten %3 (%4). Utplaceringen till den kommer att misslyckas.</translation>
+            <translation>Provisioneringsprofilen ”%1” (%2), som används för att signera programmet, omfattar inte enheten %3 (%4). Distributionen till enheten kommer att misslyckas.</translation>
         </message>
         <message>
             <location line="+22" />
@@ -45890,7 +45890,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="-262" />
             <source>Deployment failed.</source>
-            <translation>Distribution misslyckades.</translation>
+            <translation>Distributionen misslyckades.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/ios/iosdevice.cpp" line="+736" />
@@ -45941,12 +45941,12 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+159" />
             <source>An iOS device in user mode has been detected.</source>
-            <translation>En iOS-enhet i användarläget har upptäckts.</translation>
+            <translation>En iOS-enhet i användarläge har upptäckts.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Do you want to see how to set it up for development?</source>
-            <translation>Vill du se hur den konfigureras för utveckling?</translation>
+            <translation>Vill du se hur du ställer in den för utveckling?</translation>
         </message>
         <message>
             <location line="-321" />
@@ -45962,7 +45962,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+344" />
             <source>Cannot retrieve file contents for "%1".</source>
-            <translation>Kan inte hämta filinnehåll för "%1".</translation>
+            <translation>Kan inte hämta filinnehållet för ”%1”.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -45973,7 +45973,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="-5" />
             <source>Cannot write file contents for "%1".</source>
-            <translation>Kan inte skriva filinnehåll för "%1".</translation>
+            <translation>Kan inte skriva filinnehållet för ”%1”.</translation>
         </message>
         <message>
             <location line="+104" />
@@ -45998,7 +45998,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location filename="../../../src/plugins/ios/iosqtversion.cpp" line="+56" />
             <source>Failed to detect the ABIs used by the Qt version.</source>
-            <translation>Misslyckades upptäcka ABI- värden som används av Qt- versionen.</translation>
+            <translation>Kunde inte identifiera de ABI-värden som används av Qt-versionen.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/ios/iosdevice.cpp" line="+16" />
@@ -46021,7 +46021,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+142" />
             <source>Kit has incorrect device type for running on iOS devices.</source>
-            <translation>Kitet har felaktig enhetstyp för körning på iOS-enheter.</translation>
+            <translation>Kitet har fel enhetstyp för körning på iOS-enheter.</translation>
         </message>
         <message>
             <location line="+20" />
@@ -46031,22 +46031,22 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+2" />
             <source>No device chosen. Enable developer mode on a device.</source>
-            <translation>Ingen enhet vald. Aktivera utvecklingsläget på en enhet.</translation>
+            <translation>Ingen enhet har valts. Aktivera utvecklarläge på en enhet.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>No device available.</source>
-            <translation>Ingen enhet tillgänglig.</translation>
+            <translation>Ingen enhet är tillgänglig.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>To use this device you need to enable developer mode on it.</source>
-            <translation>För att använda denna enhet så måste du aktivera utvecklingsläget på den.</translation>
+            <translation>För att använda enheten måste du aktivera utvecklarläge på den.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>%1 is not connected. Select %2?</source>
-            <translation>%1 är inte ansluten. Välja %2?</translation>
+            <translation>%1 är inte ansluten. Vill du välja %2?</translation>
         </message>
         <message>
             <location line="+3" />
@@ -46061,7 +46061,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+6" />
             <source>Debugging on devices with iOS 17 and later requires Xcode 16 or later.</source>
-            <translation>Avlusning på enheter med iOS 17 och senare kräver Xcode 16 eller senare.</translation>
+            <translation>Felsökning på enheter med iOS 17 eller senare kräver Xcode 16 eller senare.</translation>
         </message>
         <message>
             <location line="+53" />
@@ -46082,29 +46082,29 @@ Vill du skriva över dem?</translation>
             <location line="-283" />
             <location line="+155" />
             <source>Running failed. No iOS device found.</source>
-            <translation>Körning misslyckades. Ingen iOS-enhet hittades.</translation>
+            <translation>Körningen misslyckades. Ingen iOS-enhet hittades.</translation>
         </message>
         <message>
             <location line="-100" />
             <source>Running canceled.</source>
-            <translation>Körning avbröts.</translation>
+            <translation>Körningen avbröts.</translation>
         </message>
         <message>
             <location line="-106" />
             <location line="+145" />
             <location line="+34" />
             <source>"%1" exited.</source>
-            <translation>"%1" avslutades.</translation>
+            <translation>”%1” avslutades.</translation>
         </message>
         <message>
             <location line="-321" />
             <source>Failed to determine bundle identifier.</source>
-            <translation>Misslyckades fastställa paketidentifierare.</translation>
+            <translation>Kunde inte fastställa paketidentifieraren.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Running "%1" on %2...</source>
-            <translation>Kör "%1" på %2…</translation>
+            <translation>Kör ”%1” på %2...</translation>
         </message>
         <message>
             <source>Could not get necessary ports for the debugger connection.</source>
@@ -46113,22 +46113,22 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+443" />
             <source>Could not get inferior PID.</source>
-            <translation>Kunde inte få sämre PID.</translation>
+            <translation>Kunde inte hämta målprocessens PID.</translation>
         </message>
         <message>
             <location line="-67" />
             <source>Run failed. The settings in the Organizer window of Xcode might be incorrect.</source>
-            <translation>Kör misslyckades. Inställningarna i fönstret Organizer för X- kod kan vara felaktiga.</translation>
+            <translation>Körningen misslyckades. Inställningarna i Organizer-fönstret i Xcode kan vara felaktiga.</translation>
         </message>
         <message>
             <location line="-224" />
             <source>Failed to retrieve process ID.</source>
-            <translation>Misslyckades hämta process- id.</translation>
+            <translation>Kunde inte hämta process-id.</translation>
         </message>
         <message>
             <location line="+43" />
             <source>Running failed. Failed to create the temporary output file.</source>
-            <translation>Kör misslyckades. Misslyckades skapa den tillfälliga utmatningsfilen.</translation>
+            <translation>Körningen misslyckades. Kunde inte skapa den tillfälliga utdatafilen.</translation>
         </message>
         <message>
             <location line="+184" />
@@ -46138,22 +46138,22 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+32" />
             <source>Failed to get a local debugger port.</source>
-            <translation>Misslyckades få en lokal felsökningsanpassning.</translation>
+            <translation>Kunde inte hämta en lokal felsökarport.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Listening for debugger on local port %1.</source>
-            <translation>Lyssnar efter felsökning på lokal port %1.</translation>
+            <translation>Lyssnar efter felsökaren på lokal port %1.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Failed to get a local debugger port for QML.</source>
-            <translation>Misslyckades få en lokal felsökningsanpassning för QML.</translation>
+            <translation>Kunde inte hämta en lokal felsökarport för QML.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Listening for QML debugger on local port %1 (port %2 on the device).</source>
-            <translation>Lyssna efter QML felsökning på lokal port %1 (portera %2 på enheten).</translation>
+            <translation>Lyssnar efter QML-felsökaren på lokal port %1 (port %2 på enheten).</translation>
         </message>
         <message>
             <location line="+23" />
@@ -46163,43 +46163,43 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+85" />
             <source>Run ended.</source>
-            <translation>Körning avslutad.</translation>
+            <translation>Körningen är avslutad.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Run ended with error.</source>
-            <translation>Körning avslutad med fel.</translation>
+            <translation>Körningen avslutades med fel.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Run canceled.</source>
-            <translation>Köret inställt.</translation>
+            <translation>Körningen avbröts.</translation>
         </message>
         <message>
             <location line="+112" />
             <source>Only C++ debugging is supported for devices with iOS 17 and later.</source>
-            <translation>dast C++ felsökning stöds för enheter med iOS 17 och senare.</translation>
+            <translation>Endast C++-felsökning stöds för enheter med iOS 17 eller senare.</translation>
         </message>
         <message>
             <source>Application not running.</source>
-            <translation>Programmet kör inte.</translation>
+            <translation>Programmet körs inte.</translation>
         </message>
         <message>
             <location line="-72" />
             <source>Could not find device specific debug symbols at %1. Debugging initialization will be slow until you open the Organizer window of Xcode with the device connected to have the symbols generated.</source>
-            <translation>Kunde inte hitta enhetsspecifika felsökningssymboler på %1. Att avlusa initiering kommer att vara långsamt tills du öppnar fönstret Organizer för Xcode med enheten ansluten för att få symbolerna genererade.</translation>
+            <translation>Kunde inte hitta enhetsspecifika felsökningssymboler på %1. Felsökningsinitieringen går långsamt tills du öppnar Organizer-fönstret i Xcode med enheten ansluten, så att symbolerna kan genereras.</translation>
         </message>
         <message>
             <location line="+51" />
             <source>The dSYM %1 seems to be outdated, it might confuse the debugger.</source>
-            <translation>DSYM %1 verkar vara föråldrad, det kan förvirra felsökningen.</translation>
+            <translation>dSYM-filen %1 verkar vara föråldrad och kan förvirra felsökaren.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/ios/iossimulator.cpp" line="+32" />
             <location line="+1" />
             <location line="+176" />
             <source>iOS Simulator</source>
-            <translation>iOS SimulatorName</translation>
+            <translation>iOS-simulator</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/ios/iosrunconfiguration.cpp" line="-2" />
@@ -46260,7 +46260,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+2" />
             <source>Using default development team and provisioning profile.</source>
-            <translation>Använda standardutvecklingsteam och avsättningsprofil.</translation>
+            <translation>Använder standardutvecklingsteamet och standardprovisioneringsprofilen.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -46276,7 +46276,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+16" />
             <source>%1 not configured. Use Xcode and Apple developer account to configure the provisioning profiles and teams.</source>
-            <translation>%1 är inte konfigurerad. Använd Xcode och Apple- utvecklarkonto för att konfigurera avsättningsprofiler och team.</translation>
+            <translation>%1 är inte konfigurerad. Använd Xcode och ett Apple-utvecklarkonto för att konfigurera provisioneringsprofilerna och teamen.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -46306,7 +46306,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+372" />
             <source>%1 - Free Provisioning Team : %2</source>
-            <translation>%1 - gratis proviantering team : %2</translation>
+            <translation>%1 – gratis provisioneringsteam: %2</translation>
         </message>
         <message>
             <location line="+1" />
@@ -46323,68 +46323,68 @@ Vill du skriva över dem?</translation>
             <source>Team: %1
 App ID: %2
 Expiration date: %3</source>
-            <translation>Team: %1 App
-ID: %2
+            <translation>Team: %1
+App-id: %2
 Utgångsdatum: %3</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/ios/iostoolhandler.cpp" line="+571" />
             <source>iOS tool error %1</source>
-            <translation>fel iOS-verktyg %1</translation>
+            <translation>Fel i iOS-verktyget %1</translation>
         </message>
         <message>
             <location line="+130" />
             <source>Application install on Simulator failed. Could not find bundle at expected location "%1".</source>
-            <translation>Programinstallation på Simulator misslyckades. Kunde inte hitta bunt på förväntad plats "%1".</translation>
+            <translation>Det gick inte att installera programmet på simulatorn. Kunde inte hitta paketet på den förväntade platsen ”%1”.</translation>
         </message>
         <message>
             <location line="+22" />
             <source>Application install on simulator failed. Simulator not running.</source>
-            <translation>Programinstallation på simulatorn misslyckades. Simulatorn är inte igång.</translation>
+            <translation>Det gick inte att installera programmet på simulatorn. Simulatorn körs inte.</translation>
         </message>
         <message>
             <location line="+62" />
             <source>Application launch on simulator failed. Invalid bundle path %1</source>
-            <translation>Programstart på simulator misslyckades. Ogiltig buntsökväg %1</translation>
+            <translation>Det gick inte att starta programmet på simulatorn. Ogiltig paketsökväg %1.</translation>
         </message>
         <message>
             <source>Application launch on simulator failed. Simulator not running. %1</source>
-            <translation>Programstart på simulatorn misslyckades. Simulatorn är inte igång. %1</translation>
+            <translation>Det gick inte att starta programmet på simulatorn. Simulatorn körs inte. %1</translation>
         </message>
         <message>
             <location line="-35" />
             <source>Application install on simulator failed. %1</source>
-            <translation>Programinstallation på simulatorn misslyckades. %1</translation>
+            <translation>Det gick inte att installera programmet på simulatorn. %1</translation>
         </message>
         <message>
             <location line="+54" />
             <source>Application launch on simulator failed. Simulator not running.</source>
-            <translation>Start av program på simulator misslyckades. Simulator kör inte.</translation>
+            <translation>Det gick inte att starta programmet på simulatorn. Simulatorn körs inte.</translation>
         </message>
         <message>
             <location line="+41" />
             <source>Cannot capture console output from %1. Error redirecting output to %2.*</source>
-            <translation>Kan inte fånga konsolutmatning från %1. Fel vid omdirigering av utmatning till %2.*</translation>
+            <translation>Kan inte fånga konsolutdata från %1. Det gick inte att omdirigera utdata till %2.*</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Cannot capture console output from %1. Install Xcode 8 or later.</source>
-            <translation>Kan inte fånga konsolutmatning från %1. Installera X- kod 8 eller senare.</translation>
+            <translation>Kan inte fånga konsolutdata från %1. Installera Xcode 8 eller senare.</translation>
         </message>
         <message>
             <location line="+20" />
             <source>Application launch on simulator failed. %1</source>
-            <translation>Programstart på simulatorn misslyckades. %1</translation>
+            <translation>Det gick inte att starta programmet på simulatorn. %1</translation>
         </message>
         <message>
             <location line="+83" />
             <source>Invalid simulator response. Device Id mismatch. Device Id = %1 Response Id = %2</source>
-            <translation>Ogiltigt simulatorsvar. Enhets-ID-fel. Enhets-ID = %1-svar-ID = %2</translation>
+            <translation>Ogiltigt simulatorsvar. Enhets-id stämmer inte. Enhets-id = %1, svars-id = %2.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/ios/simulatorcontrol.cpp" line="+56" />
             <source>Failed to start process.</source>
-            <translation>Misslyckades med att starta process.</translation>
+            <translation>Kunde inte starta processen.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -46394,7 +46394,7 @@ Utgångsdatum: %3</translation>
         <message>
             <location line="+2" />
             <source>Process was forced to exit.</source>
-            <translation>Processen tvingades att avsluta.</translation>
+            <translation>Processen tvingades avslutas.</translation>
         </message>
         <message>
             <location line="+26" />
@@ -46409,12 +46409,12 @@ Utgångsdatum: %3</translation>
         <message>
             <location line="+6" />
             <source>Invalid Empty UDID.</source>
-            <translation>Ogiltigt tomt UDID.</translation>
+            <translation>Tomt UDID är ogiltigt.</translation>
         </message>
         <message>
             <location line="+177" />
             <source>Simulator device is not available. (%1)</source>
-            <translation>Simulatorenheten är inte tillgänglig. (%1)</translation>
+            <translation>Simulatorenheten är inte tillgänglig (%1).</translation>
         </message>
         <message>
             <location line="+10" />
@@ -46425,22 +46425,22 @@ Utgångsdatum: %3</translation>
         <message>
             <location line="-29" />
             <source>Cannot start Simulator device. Previous instance taking too long to shut down. (%1)</source>
-            <translation>Kan inte starta Simulator- enhet. Tidigare instans tar för lång tid att stänga av. (%1)</translation>
+            <translation>Kan inte starta simulatorenheten. Det tar för lång tid för föregående instans att stängas av (%1).</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Cannot start Simulator device. Simulator not in shutdown state. (%1)</source>
-            <translation>Kan inte starta Simulator- enhet. Simulator är inte i avstängningsläge. (%1)</translation>
+            <translation>Kan inte starta simulatorenheten. Simulatorn är inte i avstängt läge (%1).</translation>
         </message>
         <message>
             <location line="+28" />
             <source>Cannot start Simulator device. Simulator not in booted state. (%1)</source>
-            <translation>Kan inte starta Simulator- enhet. Simulator är inte uppstartad. (%1)</translation>
+            <translation>Kan inte starta simulatorenheten. Simulatorn är inte i startat läge (%1).</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Bundle path does not exist.</source>
-            <translation>Bundlevägen finns inte.</translation>
+            <translation>Paketsökvägen finns inte.</translation>
         </message>
         <message>
             <location line="+26" />
@@ -46450,22 +46450,22 @@ Utgångsdatum: %3</translation>
         <message>
             <location line="+37" />
             <source>Failed to parse the inferior PID from simctl output (%1).</source>
-            <translation>Misslyckades tolka det lägre PID från simctl- utmatning (%1).</translation>
+            <translation>Kunde inte tolka målprocessens PID från utdata från simctl (%1).</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/ios/devicectlutils.cpp" line="+32" />
             <source>Failed to parse devicectl output at %1 (line %2): %3.</source>
-            <translation>Misslyckades tolka enhetsctl- utmatning vid %1 (rad %2): %3.</translation>
+            <translation>Kunde inte tolka utdata från devicectl vid %1 (rad %2): %3.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Operation failed: %1</source>
-            <translation>Operation misslyckades: %1</translation>
+            <translation>Åtgärden misslyckades: %1</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Failed to parse devicectl output: "result" is missing.</source>
-            <translation>Misslyckades med att tolka utdata från devicectl: "result" saknas.</translation>
+            <translation>Kunde inte tolka utdata från devicectl: ”result” saknas.</translation>
         </message>
         <message>
             <location line="+70" />
@@ -46475,17 +46475,17 @@ Utgångsdatum: %3</translation>
         <message>
             <location line="+12" />
             <source>Failed to parse devicectl output: Expected "apps" array.</source>
-            <translation>Misslyckades tolka utdata från enhetsktel: Förväntade "appar" - array.</translation>
+            <translation>Kunde inte tolka utdata från devicectl: Förväntade fältet ”apps”.</translation>
         </message>
         <message>
             <location line="+16" />
             <source>Failed to parse devicectl output: Expected "files" array.</source>
-            <translation>Misslyckades tolka utmatning från enheten: Förväntade "filer" array.</translation>
+            <translation>Kunde inte tolka utdata från devicectl: Förväntade fältet ”files”.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/ios/iosprobe.cpp" line="+105" />
             <source>Apple Clang iOS (%1 at "%2")</source>
-            <translation>Apple Clang iOS (%1 vid "%2")</translation>
+            <translation>Apple Clang iOS (%1 vid ”%2”)</translation>
         </message>
     </context>
     <context>
