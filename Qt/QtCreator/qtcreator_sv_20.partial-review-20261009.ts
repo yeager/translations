@@ -72661,7 +72661,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location filename="../../../src/plugins/texteditor/linenumberfilter.cpp" line="+23" />
             <source>Jumps to the given line in the current document.</source>
-            <translation>Hoppar till angiven rad i aktuella dokumentet.</translation>
+            <translation>Hoppar till angiven rad i det aktuella dokumentet.</translation>
         </message>
         <message>
             <location line="+26" />
@@ -72696,7 +72696,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="-2" />
             <source>Trigger Completion</source>
-            <translation>Utlösande av komplettering</translation>
+            <translation>Utlös komplettering</translation>
         </message>
         <message>
             <location line="+11" />
@@ -72716,7 +72716,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+4" />
             <source>Trigger Refactoring Action</source>
-            <translation>Utlösande faktor</translation>
+            <translation>Utlös omstruktureringsåtgärd</translation>
         </message>
         <message>
             <location line="+1" />
@@ -72737,37 +72737,37 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+39" />
             <source>Selected text within the current document.</source>
-            <translation>Markerad text inom aktuellt dokument.</translation>
+            <translation>Markerad text i det aktuella dokumentet.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Line number of the text cursor position in current document (starts with 1).</source>
-            <translation>Radnummer för textmarkörens position i aktuella dokumentet (börjar med 1).</translation>
+            <translation>Radnumret för textmarkörens position i det aktuella dokumentet (börjar med 1).</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Column number of the text cursor position in current document (starts with 0).</source>
-            <translation>Kolumnnumret för textmarkörens position i aktuella dokumentet (börjar med 0).</translation>
+            <translation>Kolumnnumret för textmarkörens position i det aktuella dokumentet (börjar med 0).</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Number of lines visible in current document.</source>
-            <translation>Antal rader synliga i aktuellt dokument.</translation>
+            <translation>Antal synliga rader i det aktuella dokumentet.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Number of columns visible in current document.</source>
-            <translation>Antal kolumner synliga i aktuellt dokument.</translation>
+            <translation>Antal synliga kolumner i det aktuella dokumentet.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Current document's font size in points.</source>
-            <translation>Aktuella dokumentets typsnittsstorlek i punkter.</translation>
+            <translation>Typsnittsstorleken i det aktuella dokumentet, i punkter.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Word under the current document's text cursor.</source>
-            <translation>Ord under aktuellt dokuments textmarkör.</translation>
+            <translation>Ordet under textmarkören i det aktuella dokumentet.</translation>
         </message>
         <message>
             <location line="+217" />
@@ -72787,7 +72787,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+7" />
             <source>&amp;Rewrap Paragraph</source>
-            <translation>&amp;Rewrap Punkt</translation>
+            <translation>&amp;Formatera om stycke</translation>
         </message>
         <message>
             <location line="+1" />
@@ -72802,7 +72802,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+3" />
             <source>&amp;Visualize Whitespace</source>
-            <translation>&amp;Visualize blanktecken</translation>
+            <translation>Visa &amp;blanktecken</translation>
         </message>
         <message>
             <location line="+1" />
@@ -72817,12 +72817,12 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+4" />
             <source>Clean Whitespace</source>
-            <translation>Ren blanktecken</translation>
+            <translation>Rensa blanktecken</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Enable Text &amp;Wrapping</source>
-            <translation>Aktivera text&amp;brytning</translation>
+            <translation>Aktivera rad&amp;brytning</translation>
         </message>
         <message>
             <location line="+1" />
@@ -72832,7 +72832,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+4" />
             <source>Toggle Comment &amp;Selection</source>
-            <translation>Växla kommentars&amp;markering</translation>
+            <translation>Växla kommentar för &amp;markering</translation>
         </message>
         <message>
             <location line="+8" />
@@ -72859,7 +72859,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
             <location line="+3" />
             <location filename="../../../src/plugins/texteditor/texteditorplugin.cpp" line="+4" />
             <source>Unfold</source>
-            <translation>Oviktigt</translation>
+            <translation>Fäll ut</translation>
         </message>
         <message>
             <source>Reset Font Size</source>
