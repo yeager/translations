@@ -64364,34 +64364,34 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+88" />
             <source>QML Language Server Settings</source>
-            <translation>Inställningar av QML- språkserver</translation>
+            <translation>Inställningar för QML-språkservern</translation>
         </message>
         <message>
             <location line="+22" />
             <source>Current kit does not have a valid Qt version, disabling QML Language Server.</source>
-            <translation>Nuvarande kit har inte en giltig Qt-version, vilket inaktiverar QML Language Server.</translation>
+            <translation>Det aktuella kitet saknar en giltig Qt-version. QML-språkservern inaktiveras.</translation>
         </message>
         <message>
             <location line="+126" />
             <source>Download Standalone QML Language Server</source>
-            <translation>Ladda ner fristående QML Language Server</translation>
+            <translation>Ladda ner fristående QML-språkserver</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Downloading standalone QML Language Server...</source>
-            <translation>Laddar ner fristående QML Language Server…</translation>
+            <translation>Laddar ner fristående QML-språkserver …</translation>
         </message>
         <message>
             <location line="+45" />
             <source>SSL error: %1
 </source>
-            <translation>SSL-
-fel: %1</translation>
+            <translation>SSL-fel: %1
+</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Encountered SSL errors and aborted the download.</source>
-            <translation>Misslyckades SSL-fel och avbröt nedladdningen.</translation>
+            <translation>SSL-fel uppstod och nedladdningen avbröts.</translation>
         </message>
         <message>
             <location line="+22" />
@@ -64402,22 +64402,22 @@ fel: %1</translation>
         <message>
             <location line="-36" />
             <source>Could not find a suitable QML Language Server binary for this platform.</source>
-            <translation>Kunde inte hitta en lämplig QML Language Server binär för denna plattform.</translation>
+            <translation>Kunde inte hitta en lämplig körbar fil för QML-språkservern på den här plattformen.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Latest standalone QML Language Server already exists at %1</source>
-            <translation>Senaste fristående QML Language Server finns redan på %1</translation>
+            <translation>Den senaste fristående QML-språkservern finns redan på %1</translation>
         </message>
         <message>
             <location line="+39" />
             <source>Unarchiving QML Language Server...</source>
-            <translation>Oarkiverande språkserver för QML…</translation>
+            <translation>Packar upp QML-språkservern …</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Unarchiving error: %1</source>
-            <translation>Oarkiverande fel: %1</translation>
+            <translation>Fel vid uppackning: %1</translation>
         </message>
         <message>
             <location line="+7" />
@@ -64427,7 +64427,7 @@ fel: %1</translation>
         <message>
             <location line="+7" />
             <source>Standalone QML Language Server succesfully downloaded in %1</source>
-            <translation>Fristående QML Language Server laddad med framgång ner i %1</translation>
+            <translation>Den fristående QML-språkservern laddades ned till %1.</translation>
         </message>
         <message>
             <location line="+24" />
@@ -64437,16 +64437,16 @@ fel: %1</translation>
         <message>
             <location line="+11" />
             <source>Executable selection for qmlls</source>
-            <translation>Körbart val för qmls</translation>
+            <translation>Val av körbar qmlls-fil</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Download latest standalone qmlls</source>
-            <translation>Ladda ner senaste fristående qmls</translation>
+            <translation>Ladda ner senaste fristående qmlls</translation>
         </message>
         <message>
             <source>Use from latest Qt version</source>
-            <translation>Använd från senaste Qt-version</translation>
+            <translation>Använd från den senaste Qt-versionen</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmljseditor/qmljseditorsettings.cpp" line="+97" />
@@ -64461,7 +64461,7 @@ fel: %1</translation>
         <message>
             <location line="+9" />
             <source>Enabled checks can be disabled for non Qt Quick UI files, but disabled checks cannot get explicitly enabled for non Qt Quick UI files.</source>
-            <translation>Aktiverade kontroller kan inaktiveras för icke Qt Snabba UI-filer, men inaktiverade kontroller kan inte uttryckligen aktiveras för icke Qt Snabba UI-filer.</translation>
+            <translation>Aktiverade kontroller kan inaktiveras för filer som inte är Qt Quick UI-filer, men inaktiverade kontroller kan inte aktiveras uttryckligen för sådana filer.</translation>
         </message>
         <message>
             <source>Automatic Formatting on File Save</source>
@@ -64470,7 +64470,7 @@ fel: %1</translation>
         <message>
             <location line="+23" />
             <source>Qt Quick Toolbars</source>
-            <translation>Qt- snabbverktygsrader</translation>
+            <translation>Verktygsfält för Qt Quick</translation>
         </message>
         <message>
             <location line="+36" />
@@ -64489,7 +64489,7 @@ fel: %1</translation>
         <message>
             <location line="+182" />
             <source>Open Language Server preferences...</source>
-            <translation>Inställningar för öppen språkserver…</translation>
+            <translation>Öppna inställningarna för språkservern …</translation>
         </message>
         <message>
             <location line="+7" />
@@ -64499,7 +64499,7 @@ fel: %1</translation>
         <message>
             <location line="+88" />
             <source>Reset to Default</source>
-            <translation>Nollställ till standard</translation>
+            <translation>Återställ till standard</translation>
         </message>
         <message>
             <location line="+21" />
@@ -64509,12 +64509,12 @@ fel: %1</translation>
         <message>
             <location line="-317" />
             <source>Always show Qt Quick Toolbar</source>
-            <translation>Visa alltid Qt Quick Toolbar</translation>
+            <translation>Visa alltid verktygsfältet Qt Quick</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Pin Qt Quick Toolbar</source>
-            <translation>Pin Qt snabbverktygsrad</translation>
+            <translation>Fäst verktygsfältet Qt Quick</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmljseditor/qmljscomponentfromobjectdef.cpp" line="+59" />
@@ -64565,12 +64565,12 @@ fel: %1</translation>
         <message>
             <location filename="../../../src/plugins/qmljseditor/qmljsfindreferences.cpp" line="+991" />
             <source>QML/JS Usages:</source>
-            <translation>QML/JS Användning:</translation>
+            <translation>QML/JS-användningar:</translation>
         </message>
         <message>
             <location line="+22" />
             <source>Searching for Usages</source>
-            <translation>Söker efter användningsområden</translation>
+            <translation>Söker efter användningar</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmljseditor/qmljsoutline.cpp" line="+177" />
@@ -64580,22 +64580,22 @@ fel: %1</translation>
         <message>
             <location filename="../../../src/plugins/qmljseditor/qmljsquickfixes.cpp" line="+49" />
             <source>Split Initializer</source>
-            <translation>Dela på initiering</translation>
+            <translation>Dela upp initiering</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmljseditor/qmljseditor.cpp" line="-921" />
             <source>Show Qt Quick ToolBar</source>
-            <translation>Visa Qt- snabbverktygsrad</translation>
+            <translation>Visa verktygsfältet Qt Quick</translation>
         </message>
         <message>
             <location line="+392" />
             <source>Code Model Not Available</source>
-            <translation>Kodmodellen inte tillgänglig</translation>
+            <translation>Kodmodellen är inte tillgänglig</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Code model not available.</source>
-            <translation>Kodmodell inte tillgänglig.</translation>
+            <translation>Kodmodellen är inte tillgänglig.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -64605,7 +64605,7 @@ fel: %1</translation>
         <message>
             <location line="+230" />
             <source>Refactoring</source>
-            <translation>Tillverkning</translation>
+            <translation>Omstrukturering</translation>
         </message>
         <message>
             <location line="+235" />
