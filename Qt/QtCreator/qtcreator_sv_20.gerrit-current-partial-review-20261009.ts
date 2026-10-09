@@ -652,11 +652,11 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
     </message>
     <message>
         <source>Input 01</source>
-        <translation>Inmatning 01</translation>
+        <translation>Indata 01</translation>
     </message>
     <message>
         <source>Input 02</source>
-        <translation>Inmatning 02</translation>
+        <translation>Indata 02</translation>
     </message>
     <message>
         <source>Output</source>
@@ -10378,11 +10378,11 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Input 01</source>
-        <translation>Inmatning 01</translation>
+        <translation>Indata 01</translation>
     </message>
     <message>
         <source>Input 02</source>
-        <translation>Inmatning 02</translation>
+        <translation>Indata 02</translation>
     </message>
     <message>
         <source>Output</source>
