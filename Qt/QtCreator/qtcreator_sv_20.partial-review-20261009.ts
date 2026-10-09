@@ -28277,7 +28277,7 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
         <message>
             <location line="-104" />
             <source>Convert to Objective-C String Literal</source>
-            <translation>Konvertera till Objective-C String Literal</translation>
+            <translation>Konvertera till Objective-C-strängliteral</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/convertnumericliteral.cpp" line="+127" />
@@ -28327,12 +28327,12 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/completeswitchstatement.cpp" line="+79" />
             <source>Complete Switch Statement</source>
-            <translation>Fullständigt bytesmeddelande</translation>
+            <translation>Komplettera switch-sats</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/createdeclarationfromuse.cpp" line="-45" />
             <source>Add Class Member "%1"</source>
-            <translation>Lägg till klassmedlem "%1"</translation>
+            <translation>Lägg till klassmedlemmen ”%1”</translation>
         </message>
         <message>
             <location line="-128" />
@@ -28347,12 +28347,12 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
         <message>
             <location line="+125" />
             <source>Add Member Function "%1"</source>
-            <translation>Lägg till medlemsfunktion "%1"</translation>
+            <translation>Lägg till medlemsfunktionen ”%1”</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/insertfunctiondefinition.cpp" line="+275" />
             <source>Member Function Implementations</source>
-            <translation>Genomförande av medlemsstaternas uppgifter</translation>
+            <translation>Implementationer av medlemsfunktioner</translation>
         </message>
         <message>
             <location line="+4" />
@@ -28363,22 +28363,22 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
         <message>
             <location line="+1" />
             <source>Inline</source>
-            <translation>På plats</translation>
+            <translation>Inline</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Outside Class</source>
-            <translation>Utanför klass</translation>
+            <translation>Utanför klassen</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Default implementation location:</source>
-            <translation>Förvald plats för genomförande:</translation>
+            <translation>Standardplats för implementationer:</translation>
         </message>
         <message>
             <location line="+63" />
             <source>Create Implementations for Member Functions</source>
-            <translation>Skapa implementerationer för medlemsfunktioner</translation>
+            <translation>Skapa implementationer av medlemsfunktioner</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/cppcodegenerationquickfixes.cpp" line="+1433" />
@@ -28388,17 +28388,17 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
         <message>
             <location line="+4" />
             <source>Generate Setter</source>
-            <translation>Skapa inställning</translation>
+            <translation>Skapa setter</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Generate Getter</source>
-            <translation>Skapa Getter</translation>
+            <translation>Skapa getter</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Generate Getter and Setter</source>
-            <translation>Skapa Getter och Setter</translation>
+            <translation>Skapa getter och setter</translation>
         </message>
         <message>
             <location line="+6" />
@@ -28408,7 +28408,7 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
         <message>
             <location line="+6" />
             <source>Generate Q_PROPERTY and Missing Members with Reset Function</source>
-            <translation>Skapa Q_PROPERTY och saknade medlemmar med Återställ funktion</translation>
+            <translation>Skapa Q_PROPERTY och saknade medlemmar med reset-funktion</translation>
         </message>
         <message>
             <location line="+5" />
@@ -28418,7 +28418,7 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
         <message>
             <location line="+128" />
             <source>Getters and Setters</source>
-            <translation>Getters och Setters</translation>
+            <translation>Getters och setters</translation>
         </message>
         <message>
             <location line="+3" />
@@ -28428,12 +28428,12 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
         <message>
             <location line="+1" />
             <source>Getter</source>
-            <translation>Getter Ordförande</translation>
+            <translation>Getter</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Setter</source>
-            <translation>Ställning</translation>
+            <translation>Setter</translation>
         </message>
         <message>
             <location line="+1" />
@@ -28464,7 +28464,7 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
         <message>
             <location line="+2" />
             <source>Create setters for all members</source>
-            <translation>Skapa inställningar för alla medlemmar</translation>
+            <translation>Skapa setters för alla medlemmar</translation>
         </message>
         <message>
             <location line="+2" />
@@ -28479,7 +28479,7 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
         <message>
             <location line="+33" />
             <source>Select the getters and setters to be created.</source>
-            <translation>Välj getters och inställningar som ska skapas.</translation>
+            <translation>Välj de getters och setters som ska skapas.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/extractfunction.cpp" line="+232" />
@@ -28520,7 +28520,7 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
         <message>
             <location line="+44" />
             <source>Move Definition Here</source>
-            <translation>Flytta definition hit</translation>
+            <translation>Flytta definitionen hit</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/assigntolocalvariable.cpp" line="+41" />
