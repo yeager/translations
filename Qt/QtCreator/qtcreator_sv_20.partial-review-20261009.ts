@@ -37650,26 +37650,26 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location filename="../../../src/plugins/docker/dockerapi.cpp" line="+126" />
             <source>Checking docker daemon</source>
-            <translation>Kontrollerar docker daemon</translation>
+            <translation>Kontrollerar Docker-demonen</translation>
         </message>
         <message>
             <location line="+61" />
             <source>Docker executable not found</source>
-            <translation>Körbar Docker-fil hittades inte</translation>
+            <translation>Docker-programmet hittades inte</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Failed to list docker networks: %1</source>
-            <translation>Misslyckades lista dockningsnätverk: %1</translation>
+            <translation>Kunde inte lista Docker-nätverk: %1</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Failed to parse docker network info: %1</source>
-            <translation>Misslyckades tolka information om Docker- nätverk: %1</translation>
+            <translation>Kunde inte tolka information om Docker-nätverk: %1</translation>
         </message>
         <message>
             <source>Failed to retrieve docker networks. Exit code: %1. Error: %2</source>
-            <translation>Misslyckades med att hämta docker-nätverk. Avslutskod: %1. Fel: %2</translation>
+            <translation>Kunde inte hämta Docker-nätverk. Avslutskod: %1. Fel: %2</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/docker/dockerdevice.cpp" line="+363" />
@@ -37684,27 +37684,27 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+1" />
             <source>Needed for gdb and lldb to attach to processes.</source>
-            <translation>Behövs för Gdb och lldb att fästa till processer.</translation>
+            <translation>Krävs för att gdb och lldb ska kunna ansluta till processer.</translation>
         </message>
         <message>
             <location line="+53" />
             <source>Mount Command Bridge:</source>
-            <translation>Kommandobryggan:</translation>
+            <translation>Montera Command Bridge:</translation>
         </message>
         <message>
             <location line="+4" />
             <source>The Command Bridge facilitates communication between Qt Creator and the running Container. It is mounted into the Container by default. If your Docker server does not have access to the folder where Qt Creator is installed this can fail. In that case you can disable this option for a slower workaround.</source>
-            <translation>Kommandobryggan underlättar kommunikation mellan Qt Creator och den löpande Container. Den monteras normalt i Container. Om din Docker- server inte har tillgång till den katalog där Qt Creator är installerad kan detta misslyckas. I så fall kan du inaktivera alternativet för en långsammare lösning.</translation>
+            <translation>Command Bridge underlättar kommunikationen mellan Qt Creator och containern som körs. Den monteras i containern som standard. Detta kan misslyckas om din Docker-server saknar åtkomst till mappen där Qt Creator är installerat. Du kan då inaktivera alternativet och använda en långsammare lösning.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Enable X11 forwarding:</source>
-            <translation>Aktivera X11- vidarebefordran:</translation>
+            <translation>Aktivera X11-vidarebefordran:</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Mounts the X11 socket and Xauthority file into the container so that graphical applications can display on the host. Disable to reduce noise on the command line when X11 is not needed.</source>
-            <translation>Monterar X11- uttags- och Xauthority-filen i behållaren så att grafiska program kan visas på värden. Inaktivera för att minska buller på kommandoraden när X11 inte behövs.</translation>
+            <translation>Monterar X11-uttaget och Xauthority-filen i containern så att grafiska program kan visas på värden. Inaktivera för att minska störande utdata på kommandoraden när X11 inte behövs.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -37715,22 +37715,22 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location filename="../../../src/plugins/docker/dockercontainerthread.cpp" line="+59" />
             <source>Failed creating Docker container: %1</source>
-            <translation>Misslyckades skapa Docker- behållare: %1</translation>
+            <translation>Kunde inte skapa Docker-container: %1</translation>
         </message>
         <message>
             <location line="+27" />
             <source>Failed starting Docker event listener. Exit code: %1, output: %2</source>
-            <translation>Misslyckades starta händelselyssnare för Docker. Utgångskod: %1, utmatning: %2</translation>
+            <translation>Kunde inte starta Docker-händelselyssnaren. Avslutskod: %1, utdata: %2</translation>
         </message>
         <message>
             <location line="+15" />
             <location line="+19" />
             <source>Failed starting Docker container. Exit code: %1, output: %2</source>
-            <translation>Misslyckades med att starta Docker-container. Avslutskod: %1, utdata: %2</translation>
+            <translation>Kunde inte starta Docker-container. Avslutskod: %1, utdata: %2</translation>
         </message>
         <message>
             <source>Failed to start container: %1</source>
-            <translation>Misslyckades med att starta container: %1</translation>
+            <translation>Kunde inte starta containern: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/docker/dockerdevice.cpp" line="-392" />
@@ -37741,17 +37741,17 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="-188" />
             <source>Container environment:</source>
-            <translation>Behållarmiljö:</translation>
+            <translation>Containermiljö:</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Run as outside user:</source>
-            <translation>Kör som utsideanvändare:</translation>
+            <translation>Kör som användaren utanför containern:</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Do not modify entry point:</source>
-            <translation>Ändra inte ingångspunkt:</translation>
+            <translation>Ändra inte startpunkten:</translation>
         </message>
         <message>
             <source>Enable flags needed for LLDB:</source>
@@ -37765,7 +37765,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+1" />
             <source>Extra arguments to pass to docker create.</source>
-            <translation>Extraargument att skicka till docker create.</translation>
+            <translation>Extra argument att skicka till docker create.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -37785,16 +37785,16 @@ Det kan hjälpa att bygga om projektet.</translation>
         </message>
         <message>
             <source>stopped</source>
-            <translation>Stoppad</translation>
+            <translation>stoppad</translation>
         </message>
         <message>
             <source>Error starting remote shell. No container.</source>
-            <translation>Fel vid start av fjärrskal. Ingen container.</translation>
+            <translation>Kunde inte starta fjärrskal. Ingen container.</translation>
         </message>
         <message>
             <location line="-11" />
             <source>Open Shell in Container</source>
-            <translation>Öppna skal i container</translation>
+            <translation>Öppna skal i containern</translation>
         </message>
         <message>
             <source>Image "%1" is not available.</source>
@@ -37802,12 +37802,12 @@ Det kan hjälpa att bygga om projektet.</translation>
         </message>
         <message>
             <source>Failed creating Docker container. Exit code: %1, output: %2</source>
-            <translation>Misslyckades med att skapa Docker-container. Avslutskod: %1, utdata: %2</translation>
+            <translation>Kunde inte skapa Docker-container. Avslutskod: %1, utdata: %2</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/docker/dockercontainerthread.cpp" line="-54" />
             <source>Failed creating Docker container. No container ID received.</source>
-            <translation>Misslyckades med att skapa Docker-container. Inget container-id togs emot.</translation>
+            <translation>Kunde inte skapa Docker-container. Inget container-id togs emot.</translation>
         </message>
         <message>
             <source>Device is shut down</source>
@@ -37833,24 +37833,24 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="-500" />
             <source>Docker device is not initialized. Cannot create command line.</source>
-            <translation>Docker- enheten är inte initierad. Kan inte skapa kommandorad.</translation>
+            <translation>Docker-enheten är inte initierad. Kan inte skapa en kommandorad.</translation>
         </message>
         <message>
             <location line="+47" />
             <location line="+381" />
             <source>Device is shut down.</source>
-            <translation>heten är avstängd.</translation>
+            <translation>Enheten är avstängd.</translation>
         </message>
         <message>
             <location line="+2" />
             <location line="+784" />
             <source>Docker system is not reachable.</source>
-            <translation>Dockersystemet går inte att nå.</translation>
+            <translation>Docker-systemet går inte att nå.</translation>
         </message>
         <message>
             <location line="-782" />
             <source>Docker image "%1" not found.</source>
-            <translation>Docker-bild "%1" hittades inte.</translation>
+            <translation>Docker-avbilden ”%1” hittades inte.</translation>
         </message>
         <message>
             <location line="+74" />
@@ -37897,7 +37897,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+37" />
             <source>Failed to inspect image: %1</source>
-            <translation>Misslyckades med att inspektera avbild: %1</translation>
+            <translation>Kunde inte inspektera avbilden: %1</translation>
         </message>
         <message>
             <location line="+5" />
@@ -37917,37 +37917,37 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+12" />
             <source>The path "%1" is not mounted in the Docker device "%2".</source>
-            <translation>Vägen "%1" är inte monterad i Docker-enheten "%2".</translation>
+            <translation>Sökvägen ”%1” är inte monterad i Docker-enheten ”%2”.</translation>
         </message>
         <message>
             <location line="+20" />
             <source>Host IP address.</source>
-            <translation>Värddator för IP- adress.</translation>
+            <translation>Värdens IP-adress.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Host IP:</source>
-            <translation>Värddator- IP:</translation>
+            <translation>Värdens IP:</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Host port number.</source>
-            <translation>Värdhamnsnummer.</translation>
+            <translation>Värdportens nummer.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Host port:</source>
-            <translation>Värddatorport:</translation>
+            <translation>Värdport:</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Container port number.</source>
-            <translation>Containerportnummer.</translation>
+            <translation>Containerportens nummer.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Container port:</source>
-            <translation>Behållarport:</translation>
+            <translation>Containerport:</translation>
         </message>
         <message>
             <location line="+3" />
@@ -37963,7 +37963,7 @@ Det kan hjälpa att bygga om projektet.</translation>
             <location line="+16" />
             <location filename="../../../src/plugins/docker/dockerdevicewidget.cpp" line="+58" />
             <source>Port mappings:</source>
-            <translation>Hamnkartläggningar:</translation>
+            <translation>Portmappningar:</translation>
         </message>
         <message>
             <location line="+92" />
@@ -37993,7 +37993,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+36" />
             <source>Ready (waiting for access to container...)</source>
-            <translation>Färdig (väntar på tillgång till behållare …)</translation>
+            <translation>Klar (väntar på åtkomst till containern...)</translation>
         </message>
         <message>
             <location line="+60" />
@@ -38003,12 +38003,12 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+26" />
             <source>Signal operation canceled.</source>
-            <translation>Signalen är inställd.</translation>
+            <translation>Signalåtgärden avbröts.</translation>
         </message>
         <message>
             <location line="-389" />
             <source>Image ID:</source>
-            <translation>Avbildens id:</translation>
+            <translation>Avbilds-id:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/docker/dockerdevicewidget.cpp" line="-125" />
@@ -38018,11 +38018,11 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+2" />
             <source>Clears detected daemon state. It will be automatically re-evaluated next time access is needed.</source>
-            <translation>Tömmer upptäckta demontillstånd. Det kommer automatiskt att återevalueras nästa gång åtkomst behövs.</translation>
+            <translation>Rensar det identifierade demontillståndet. Det utvärderas automatiskt på nytt nästa gång åtkomst behövs.</translation>
         </message>
         <message>
             <source>Clangd Executable:</source>
-            <translation>Körbar Clangd-fil:</translation>
+            <translation>Körbar fil för clangd:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/docker/dockerdevice.cpp" line="+41" />
@@ -38038,27 +38038,27 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location filename="../../../src/plugins/docker/dockerdevice.cpp" line="+3" />
             <source>Host directories to mount into the container.</source>
-            <translation>Värdkataloger för montering inne i containern.</translation>
+            <translation>Värdkataloger att montera i containern.</translation>
         </message>
         <message>
             <location line="-1" />
             <source>Maps paths in this list one-to-one to the docker container.</source>
-            <translation>Mappar sökvägar i denna lista en till en till docker-containern.</translation>
+            <translation>Mappar sökvägarna i listan en till en till Docker-containern.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/docker/dockerdevicewidget.cpp" line="+12" />
             <source>Auto-detect Kit Items</source>
-            <translation>Upptäck kitposter automatiskt</translation>
+            <translation>Identifiera kitobjekt automatiskt</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Remove Auto-Detected Kit Items</source>
-            <translation>Ta bort automatiskt upptäckta kitposter</translation>
+            <translation>Ta bort automatiskt identifierade kitobjekt</translation>
         </message>
         <message>
             <location line="+1" />
             <source>List Auto-Detected Kit Items</source>
-            <translation>Lista automatiskt upptäckta kitposter</translation>
+            <translation>Lista automatiskt identifierade kitobjekt</translation>
         </message>
         <message>
             <source>Search in PATH</source>
@@ -38074,21 +38074,21 @@ Det kan hjälpa att bygga om projektet.</translation>
         </message>
         <message>
             <source>Semicolon-separated list of directories</source>
-            <translation>Semikolonseparerad lista över kataloger</translation>
+            <translation>Lista över kataloger, avgränsade med semikolon</translation>
         </message>
         <message>
             <source>Select the paths in the Docker image that should be scanned for kit entries.</source>
-            <translation>Välj sökvägarna i Docker-avbilden som ska sökas igenom efter kitposter.</translation>
+            <translation>Välj de sökvägar i Docker-avbilden som ska genomsökas efter kitobjekt.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Failed to start container.</source>
-            <translation>Misslyckades med att starta container.</translation>
+            <translation>Kunde inte starta containern.</translation>
         </message>
         <message>
             <location line="+17" />
             <source>Starting auto-detection...</source>
-            <translation>Börjar upptäcka automatiskt…</translation>
+            <translation>Startar automatisk identifiering...</translation>
         </message>
         <message>
             <location line="+12" />
@@ -38103,11 +38103,11 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+25" />
             <source>Refresh Docker networks</source>
-            <translation>Uppdatera Docker- nätverk</translation>
+            <translation>Uppdatera Docker-nätverk</translation>
         </message>
         <message>
             <source>Detection complete.</source>
-            <translation>Upptäckten är färdig.</translation>
+            <translation>Identifieringen är klar.</translation>
         </message>
         <message>
             <source>Search Locations:</source>
@@ -38116,7 +38116,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+34" />
             <source>Detection log:</source>
-            <translation>Upptäcktslogg:</translation>
+            <translation>Identifieringslogg:</translation>
         </message>
         <message>
             <source>Container state:</source>
@@ -38130,7 +38130,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+28" />
             <source>Daemon state not evaluated.</source>
-            <translation>Demonens tillstånd är inte evaluerat.</translation>
+            <translation>Demontillståndet har inte utvärderats.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -38145,7 +38145,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location filename="../../../src/plugins/docker/dockersettings.cpp" line="-14" />
             <source>Docker CLI</source>
-            <translation>Dockers kommandoradsgränssnitt</translation>
+            <translation>Docker-kommandoradsgränssnitt</translation>
         </message>
         <message>
             <location line="+2" />
