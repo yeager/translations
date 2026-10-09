@@ -11624,7 +11624,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Liggande</translation>
+        <translation>Landskap</translation>
     </message>
 </context>
 <context>
@@ -14200,7 +14200,7 @@ Låsta komponenter kan inte ändras eller väljas.</translation>
     </message>
     <message>
         <source>Loops:</source>
-        <translation>Loopar:</translation>
+        <translation>Upprepningar:</translation>
     </message>
     <message>
         <source>Sets the animation to loop indefinitely.</source>
@@ -14224,7 +14224,7 @@ Låsta komponenter kan inte ändras eller väljas.</translation>
     </message>
     <message>
         <source>Animation ID:</source>
-        <translation>Animerings-id:</translation>
+        <translation>Animerings-ID:</translation>
     </message>
     <message>
         <source>State to activate when the animation finishes.</source>
@@ -14232,7 +14232,7 @@ Låsta komponenter kan inte ändras eller väljas.</translation>
     </message>
     <message>
         <source>Finished:</source>
-        <translation>Klar:</translation>
+        <translation>Slutförd:</translation>
     </message>
     <message>
         <source>Runs the animation backwards to the beginning when it reaches the end.</source>
@@ -14240,7 +14240,7 @@ Låsta komponenter kan inte ändras eller väljas.</translation>
     </message>
     <message>
         <source>Ping pong</source>
-        <translation>Ping pong</translation>
+        <translation>Pingpong</translation>
     </message>
     <message>
         <source>Transition to state:</source>
@@ -14268,7 +14268,7 @@ Låsta komponenter kan inte ändras eller väljas.</translation>
     </message>
     <message>
         <source>Duration:</source>
-        <translation>Speltid:</translation>
+        <translation>Varaktighet:</translation>
     </message>
     <message>
         <source>Last frame of the animation.</source>
@@ -14280,7 +14280,7 @@ Låsta komponenter kan inte ändras eller väljas.</translation>
     </message>
     <message>
         <source>Invalid Id</source>
-        <translation>Ogiltigt id</translation>
+        <translation>Ogiltigt ID</translation>
     </message>
     <message>
         <source>%1 already exists.</source>
@@ -72238,7 +72238,7 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>fillColor</source>
-        <translation>fyllnadsfärg</translation>
+        <translation>fillColor</translation>
     </message>
     <message>
         <source>Opacity</source>
@@ -74370,7 +74370,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Flip Corner</source>
-        <translation>Vänd hörn</translation>
+        <translation>Vänd hörnet</translation>
     </message>
 </context>
 <context>
