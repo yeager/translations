@@ -60224,7 +60224,7 @@ Dessa filer behålls.</numerusform>
         <message>
             <location line="+25" />
             <source>Copying finished.</source>
-            <translation>Kopiering färdigställd.</translation>
+            <translation>Kopieringen är klar.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -60263,7 +60263,7 @@ Dessa filer behålls.</numerusform>
         <message>
             <location line="+108" />
             <source>Copy of %1</source>
-            <translation>Kopiera %1</translation>
+            <translation>Kopia av %1</translation>
         </message>
         <message>
             <location line="+176" />
@@ -60273,7 +60273,7 @@ Dessa filer behålls.</numerusform>
         <message>
             <location line="+16" />
             <source>Rescan Workspace</source>
-            <translation>Sök igenom arbetsytan igen</translation>
+            <translation>Skanna om arbetsytan</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/devicesupport/desktopdevice.cpp" line="+49" />
@@ -60283,7 +60283,7 @@ Dessa filer behålls.</numerusform>
         <message>
             <location line="+3" />
             <source>Run Auto-Detection Now</source>
-            <translation>Kör automatisk upptäckt nu</translation>
+            <translation>Kör automatisk identifiering nu</translation>
         </message>
         <message>
             <location line="+13" />
@@ -60350,7 +60350,7 @@ Dessa filer behålls.</numerusform>
         <message>
             <location filename="../../../src/plugins/projectexplorer/userfileaccessor.cpp" line="+149" />
             <source>Failed to copy project user settings from "%1" to new default location "%2": %3</source>
-            <translation>Misslyckades kopiera projektets användarinställningar från "%1" till ny förvald plats "%2": %3</translation>
+            <translation>Kunde inte kopiera projektets användarinställningar från "%1" till den nya standardplatsen "%2": %3</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/windowsappsdksettings.cpp" line="-391" />
@@ -60360,22 +60360,22 @@ Dessa filer behålls.</numerusform>
         <message>
             <location line="+43" />
             <source>Windows Configuration</source>
-            <translation>Windows- inställning</translation>
+            <translation>Windows-inställningar</translation>
         </message>
         <message>
             <location line="+2" />
             <source>All changes on this page take effect immediately.</source>
-            <translation>Alla ändringar på denna sida tar effekt direkt.</translation>
+            <translation>Alla ändringar på sidan träder i kraft direkt.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Select the download path of NuGet and Windows App SDK.</source>
-            <translation>Välj nedladdningsvägen för NuGet och Windows App SDK.</translation>
+            <translation>Välj nedladdningssökväg för NuGet och Windows App SDK.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Select Download Path</source>
-            <translation>Välj sökväg för nedladdning</translation>
+            <translation>Välj nedladdningssökväg</translation>
         </message>
         <message>
             <location line="+5" />
@@ -60385,7 +60385,7 @@ Dessa filer behålls.</numerusform>
         <message>
             <location line="+1" />
             <source>Select nuget.exe File</source>
-            <translation>Välj nuget.exe- fil</translation>
+            <translation>Välj filen nuget.exe</translation>
         </message>
         <message>
             <location line="+4" />
@@ -60398,8 +60398,8 @@ Dessa filer behålls.</numerusform>
 
 NuGet is needed for downloading Windows App SDK.</source>
             <translation>Ladda ner NuGet automatiskt.
-NuGet behövs för att
-ladda ner Windows App SDK.</translation>
+
+NuGet krävs för att ladda ner Windows App SDK.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -60417,45 +60417,45 @@ ladda ner Windows App SDK.</translation>
 
 If the automatic download fails, Qt Creator proposes to open the download URL
 in the system browser for manual download.</source>
-            <translation>Ladda automatiskt ner Windows App SDK med
-NuGet. Om den automatiska nedladdningen
-misslyckas, Qt Creator föreslår att öppna
-nedladdningswebbläsaren för manuell nedladdning.</translation>
+            <translation>Ladda ner Windows App SDK automatiskt med NuGet.
+
+Om den automatiska nedladdningen misslyckas föreslår Qt Creator att öppna nedladdningsadressen
+i systemwebbläsaren för manuell nedladdning.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Download path exists.</source>
-            <translation>Ladda ner sökväg finns.</translation>
+            <translation>Nedladdningssökvägen finns.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>NuGet path exists.</source>
-            <translation>NuGet sökväg finns.</translation>
+            <translation>NuGet-sökvägen finns.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Windows App SDK path exists.</source>
-            <translation>Windows App SDK sökväg finns.</translation>
+            <translation>Sökvägen för Windows App SDK finns.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Windows App SDK settings are OK.</source>
-            <translation>Windows App SDK inställningar är OK.</translation>
+            <translation>Inställningarna för Windows App SDK är OK.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Windows App SDK settings have errors.</source>
-            <translation>Windows App SDK-inställningar har fel.</translation>
+            <translation>Inställningarna för Windows App SDK har fel.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Select Windows App SDK Path</source>
-            <translation>Välj SDK- sökväg för Windows- app</translation>
+            <translation>Välj sökväg för Windows App SDK</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Download Path</source>
-            <translation>Ladda ner sökväg</translation>
+            <translation>Nedladdningssökväg</translation>
         </message>
         <message>
             <location line="+2" />
