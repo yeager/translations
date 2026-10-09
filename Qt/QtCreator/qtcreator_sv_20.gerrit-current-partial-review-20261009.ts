@@ -1263,7 +1263,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
     </message>
     <message>
         <source>Duration</source>
-        <translation>Speltid</translation>
+        <translation>Varaktighet</translation>
     </message>
     <message>
         <source>Sets the duration in milliseconds how long it takes for particles to reach the attaction position.</source>
@@ -1271,11 +1271,11 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
     </message>
     <message>
         <source>Duration Variation</source>
-        <translation>Tidsvariation</translation>
+        <translation>Varaktighetsvariation</translation>
     </message>
     <message>
         <source>Sets the duration variation in milliseconds.</source>
-        <translation>Ställer in tidsvariationen i millisekunder.</translation>
+        <translation>Ställer in varaktighetsvariationen i millisekunder.</translation>
     </message>
     <message>
         <source>Hide At End</source>
@@ -73935,7 +73935,7 @@ det når början eller slutet.</translation>
     <name>SpriteSequence3DSection</name>
     <message>
         <source>Particle Sprite Sequence</source>
-        <translation>Partikelsprite-sekvens</translation>
+        <translation>Partikelspritesekvens</translation>
     </message>
     <message>
         <source>Frame Count</source>
@@ -73951,7 +73951,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Sets the initial index of the frame.</source>
-        <translation>Anger bildrutans ursprungliga index.</translation>
+        <translation>Anger bildrutans startindex.</translation>
     </message>
     <message>
         <source>Interpolate</source>
@@ -73963,7 +73963,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Duration</source>
-        <translation>Speltid</translation>
+        <translation>Varaktighet</translation>
     </message>
     <message>
         <source>Sets the duration in milliseconds how long it takes for the sprite sequence to animate.</source>
@@ -73975,7 +73975,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Sets the duration variation in milliseconds.</source>
-        <translation>Anger varaktighetsvariationen i millisekunder.</translation>
+        <translation>Ställer in varaktighetsvariationen i millisekunder.</translation>
     </message>
     <message>
         <source>Random Start</source>
