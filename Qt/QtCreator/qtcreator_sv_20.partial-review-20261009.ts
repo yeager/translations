@@ -62997,12 +62997,12 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
         <message>
             <source>The application is not set up for QML/JS debugging.</source>
             <extracomment>Error message shown after 'Could not connect ... debugger:"</extracomment>
-            <translation>Programmet är inte konfigureat för QML/JS-felsökning.</translation>
+            <translation>Programmet har inte konfigurerats för QML/JS-felsökning.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/qmldebug/qmldebugconnection.cpp" line="+49" />
             <source>Socket state changed to %1</source>
-            <translation>Uttagstillståndet ändrades till %1</translation>
+            <translation>Sockettillståndet ändrades till %1</translation>
         </message>
         <message>
             <location line="+7" />
@@ -63012,17 +63012,17 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
         <message>
             <location filename="../../../src/libs/qmldebug/qmldebugconnectionmanager.cpp" line="+193" />
             <source>Debug connection opened.</source>
-            <translation>Felsökningsanslutning öppnad.</translation>
+            <translation>Felsökningsanslutningen öppnades.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Debug connection closed.</source>
-            <translation>Felsökningsanslutning stängd.</translation>
+            <translation>Felsökningsanslutningen stängdes.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Debug connection failed.</source>
-            <translation>Felsökningsanslutning misslyckades.</translation>
+            <translation>Felsökningsanslutningen misslyckades.</translation>
         </message>
     </context>
     <context>
@@ -63041,7 +63041,7 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
         </message>
         <message>
             <source>Item</source>
-            <translation>Post</translation>
+            <translation>Objekt</translation>
         </message>
         <message>
             <source>Property</source>
@@ -63049,7 +63049,7 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
         </message>
         <message>
             <source>Source Item</source>
-            <translation>Källpost</translation>
+            <translation>Källobjekt</translation>
         </message>
         <message>
             <source>Source Property</source>
@@ -63057,7 +63057,7 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
         </message>
         <message>
             <source>Cannot Create QtQuick View</source>
-            <translation>Kan inte skapa QtQuick-vy</translation>
+            <translation>Kan inte skapa Qt Quick-vy</translation>
         </message>
         <message>
             <source>ConnectionsEditorWidget: %1 cannot be created.%2</source>
