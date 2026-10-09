@@ -958,7 +958,7 @@ msgstr ""
 
 #: flowview_devices.php flowview_schedules.php includes/functions.php
 msgid "None"
-msgstr "Inget"
+msgstr "Ingen"
 
 #: flowview_devices.php
 msgid "No Connections"
@@ -1727,8 +1727,8 @@ msgid ""
 "Show the post-NAT (translated) Source/Destination IP and DNS name in report "
 "output instead of the original, pre-NAT values."
 msgstr ""
-"Visa IP-adress och DNS-namn för källa/mål efter NAT-översättning i rapporten"
-" i stället för de ursprungliga värdena före NAT."
+"Visa IP-/DNS-namn efter NAT i rapportutdata i stället för ursprungliga "
+"värden före NAT."
 
 #: includes/arrays.php
 msgid "Table Panel"
@@ -1904,10 +1904,10 @@ msgid ""
 "delimited list of IPv4 or IPv6 address ranges in CIDR format (eg. "
 "192.168.1.0/24)."
 msgstr ""
-"Filtrera på den valda käll-IP-adressen för i filtret. Detta kan vara en "
-"kommaavgränsad lista över IPv4- eller IPv6-adresser, eller en kommaavgränsad"
-" lista över IPv4- eller IPv6-adressintervall i CIDR-format (t.ex. "
-"192.168.1.0/24)."
+"Filtrera på den översatta käll-IP-adressen efter NAT som finns i filtret. "
+"Detta kan vara en kommaseparerad lista med IPv4- eller IPv6-adresser eller "
+"en kommaseparerad lista med IPv4- eller IPv6-adressintervall i CIDR-format "
+"(t.ex. 192.168.1.0/24)."
 
 #: includes/arrays.php
 #| msgid "UDP/TCP Source Port"
@@ -1922,8 +1922,8 @@ msgid ""
 "Filter on the translated (post-NAT) Source Port for in the Filter.  This can"
 " be a comma delimited list of Ports."
 msgstr ""
-"Filtrera på de valda källportarna för i filtret. Detta kan vara en "
-"kommaavgränsad lista över källportar."
+"Filtrera på källporten efter NAT som finns i filtret. Detta kan vara en "
+"kommaseparerad lista med portar."
 
 #: includes/arrays.php
 #| msgid "Dest IP"
@@ -1941,10 +1941,10 @@ msgid ""
 "delimited list of IPv4 or IPv6 address ranges in CIDR format (eg. "
 "192.168.1.0/24)."
 msgstr ""
-"Filtrera på den valda mål-IP-adressen för i filtret. Detta kan vara en "
-"kommaavgränsad lista över IPv4- eller IPv6-adresser, eller en kommaavgränsad"
-" lista över IPv4- eller IPv6-adressintervall i CIDR-format (t.ex. "
-"192.168.1.0/24)."
+"Filtrera på den översatta mål-IP-adressen efter NAT som finns i filtret. "
+"Detta kan vara en kommaseparerad lista med IPv4- eller IPv6-adresser eller "
+"en kommaseparerad lista med IPv4- eller IPv6-adressintervall i CIDR-format "
+"(t.ex. 192.168.1.0/24)."
 
 #: includes/arrays.php
 #| msgid "Dest Port"
@@ -1959,8 +1959,8 @@ msgid ""
 "Filter on the translated (post-NAT) Destination Port for in the Filter.  "
 "This can be a comma delimited list of Ports."
 msgstr ""
-"Filtrera på de valda destinationsportarna för i filtret. Detta kan vara en "
-"kommaavgränsad lista över Destimation Ports."
+"Filtrera på målporten efter NAT som finns i filtret. Detta kan vara en "
+"kommaseparerad lista med portar."
 
 #: includes/arrays.php
 msgid "DNS Cache"
@@ -2172,7 +2172,7 @@ msgstr "Uteslut"
 
 #: includes/functions.php
 msgid "Top Sample"
-msgstr "Högsta provet"
+msgstr "Högsta provvärde"
 
 #: includes/functions.php
 #, php-format
@@ -2194,9 +2194,7 @@ msgstr "Endast domäner"
 #: includes/functions.php
 msgid ""
 "Show the post-NAT (translated) IP/DNS name instead of the original values"
-msgstr ""
-"Visa IP-adress/DNS-namn efter NAT-översättning i stället för de ursprungliga"
-" värdena"
+msgstr "Visa IP-/DNS-namn efter NAT i stället för ursprungliga värden"
 
 #: includes/functions.php
 msgid "Timespan"
@@ -2574,7 +2572,7 @@ msgstr "Ogiltigt värde för källgränssnittet!"
 
 #: includes/functions.php
 msgid "Invalid value for Source Port! (0 - 65535)"
-msgstr "Ogiltigt värde för källporten! (0–65535)"
+msgstr "Ogiltigt värde för källport! (0–65535)"
 
 #: includes/functions.php
 msgid "Invalid value for Source AS! (0 - 65535)"
@@ -2586,11 +2584,11 @@ msgstr "Ogiltigt värde för destinationsgränssnittet!"
 
 #: includes/functions.php
 msgid "Invalid value for Destination Port! (0 - 65535)"
-msgstr "Ogiltigt värde för destinationsporten! (0–65535)"
+msgstr "Ogiltigt värde för målport! (0–65535)"
 
 #: includes/functions.php
 msgid "Invalid value for Destination AS! (0 - 65535)"
-msgstr "Ogiltigt värde för destinations-AS! (0–65535)"
+msgstr "Ogiltigt värde för mål-AS! (0–65535)"
 
 #: includes/functions.php
 msgid "Invalid value for Protocol! (1 - 255)"
@@ -2807,12 +2805,11 @@ msgid ""
 "routes for the entire internet and load that information into Cacti.  Not "
 "that this will create a fairly large database of over 3GBytes of data."
 msgstr ""
-"Om du är intresserad av offentligt tillgänglig information om hela Internet "
-"kan du välja det här alternativet.  Cacti kommer att kontakta "
-"Internetregistren i hela världen en gång om dagen och kontrollera om det har"
-" skett några ändringar i rutterna för hela Internet och ladda in den "
-"informationen i Cacti.  Observera att detta kommer att skapa en ganska stor "
-"databas med över 3 GByte data."
+"Om du är intresserad av offentligt tillgänglig information om hela internet "
+"kan du välja det här alternativet. Cacti kontaktar internetregistren runt om"
+" i världen en gång om dagen, kontrollerar ändringar i internetrutter och "
+"läser in informationen i Cacti. Observera att detta skapar en ganska stor "
+"databas med över 3 GB data."
 
 #: setup.php
 msgid "Local Domain Name"
@@ -2994,10 +2991,10 @@ msgid ""
 "and you should be careful not to overload your database server with having "
 "too many concurrent threads running."
 msgstr ""
-"Det maximala antalet trådar som ska skickas för att köra FlowView-frågorna."
-"  Observera att du kan ha högst 1 tråd per databaspartition och du bör vara"
-" försiktig så att du inte överbelastar databasservern med för många "
-"samtidiga trådar som körs."
+"Det högsta antalet trådar som används för att köra FlowView-frågorna. "
+"Observera att du högst kan ha 1 tråd per databaspartition och att du bör "
+"vara försiktig så att du inte överbelastar databasservern med för många "
+"samtidiga trådar."
 
 #: setup.php
 msgid "Disabled"
@@ -3088,513 +3085,392 @@ msgstr "FlowView"
 msgid "View NetFlow Traffic In Range"
 msgstr "Visa NetFlow-trafik inom intervall"
 
-#, fuzzy
 #~ msgid "XTP"
 #~ msgstr "XTP"
 
-#, fuzzy
 #~ msgid "XNS-IDP"
 #~ msgstr "XNS-IDP"
 
-#, fuzzy
 #~ msgid "XNET"
 #~ msgstr "XNET"
 
-#, fuzzy
 #~ msgid "View"
 #~ msgstr "Visa"
 
-#, fuzzy
 #~ msgid "VMTP"
 #~ msgstr "VMTP"
 
 #~ msgid "Up"
 #~ msgstr "Uppe"
 
-#, fuzzy
 #~ msgid "UDP"
 #~ msgstr "UDP"
 
-#, fuzzy
 #~ msgid "This is the path to base the path of your flow folder structure."
-#~ msgstr "Detta är vägen för att basera vägen för din flödesmappstruktur."
+#~ msgstr "Detta är baskatalogen för flödesmappstrukturen."
 
-#, fuzzy
 #~ msgid "This is the path to a temporary directory to do work."
-#~ msgstr "Detta är sökvägen till en tillfällig katalog för att göra arbete."
+#~ msgstr "Detta är sökvägen till en tillfällig arbetskatalog."
 
-#, fuzzy
 #~ msgid "This is the DNS Server used to resolve names."
-#~ msgstr "Det här är DNS-servern som används för att lösa namn."
+#~ msgstr "Detta är DNS-servern som används för att slå upp namn."
 
-#, fuzzy
 #~ msgid "The path to your flow-cat, flow-filter, and flow-stat binary."
-#~ msgstr "Vägen till din flödes-katt, flödesfilter och flödesstat-binär."
+#~ msgstr "Sökväg till de körbara filerna flow-cat, flow-filter och flow-stat."
 
-#, fuzzy
 #~ msgid "TRUNK-2"
 #~ msgstr "TRUNK-2"
 
-#, fuzzy
 #~ msgid "TRUNK-1"
 #~ msgstr "TRUNK-1"
 
-#, fuzzy
 #~ msgid "TP++"
-#~ msgstr "TP ++"
+#~ msgstr "TP++"
 
-#, fuzzy
 #~ msgid "TCP"
 #~ msgstr "TCP"
 
-#, fuzzy
 #~ msgid "Start Time in Specified Time Span"
-#~ msgstr "Starttid i angiven tidsrymd"
+#~ msgstr "Starttid i angivet tidsintervall"
 
-#, fuzzy
 #~ msgid "Src/Dest IP"
-#~ msgstr "Src / Dest IP"
+#~ msgstr "Käll-/mål-IP"
 
-#, fuzzy
 #~ msgid "Src Prefix"
-#~ msgstr "Src Prefix"
+#~ msgstr "Källprefix"
 
-#, fuzzy
 #~ msgid "Src Port"
-#~ msgstr "Src Port"
+#~ msgstr "Källport"
 
-#, fuzzy
 #~ msgid "Src IP"
-#~ msgstr "Src IP"
+#~ msgstr "Käll-IP"
 
-#, fuzzy
 #~ msgid "Src IF"
-#~ msgstr "Src IF"
+#~ msgstr "Källgränssnitt"
 
-#, fuzzy
 #~ msgid "Src AS"
-#~ msgstr "Src AS"
+#~ msgstr "Käll-AS"
 
-#, fuzzy
 #~ msgid "Source Prefix Aggregation"
-#~ msgstr "Källa prefix Aggregation"
+#~ msgstr "Källprefixaggregering"
 
-#, fuzzy
 #~ msgid "Select a Filter to display data"
-#~ msgstr "Skriv ut rapporter"
+#~ msgstr "Välj ett filter för att visa data"
 
-#, fuzzy
 #~ msgid "Select One"
 #~ msgstr "Välj en"
 
-#, fuzzy
 #~ msgid "ST"
 #~ msgstr "ST"
 
-#, fuzzy
 #~ msgid "SDRP"
 #~ msgstr "SDRP"
 
-#, fuzzy
 #~ msgid "Report Parameters"
 #~ msgstr "Rapportparametrar"
 
-#, fuzzy
 #~ msgid "RSVP"
-#~ msgstr "OSA"
+#~ msgstr "RSVP"
 
-#, fuzzy
 #~ msgid "RSPF"
 #~ msgstr "RSPF"
 
-#, fuzzy
 #~ msgid "RDP"
 #~ msgstr "RDP"
 
-#, fuzzy
 #~ msgid "Protocol Port Aggregation"
-#~ msgstr "Protocol Port Aggregation"
+#~ msgstr "Protokollportaggregering"
 
-#, fuzzy
 #~ msgid "Prefix Aggregation"
-#~ msgstr "Prefix Aggregation"
+#~ msgstr "Prefixaggregering"
 
-#, fuzzy
 #~ msgid "Prefix"
-#~ msgstr "Före"
+#~ msgstr "Prefix"
 
-#, fuzzy
 #~ msgid "Packets Bar"
-#~ msgstr "Packets Bar"
+#~ msgstr "Paketstapel"
 
-#, fuzzy
 #~ msgid "PUP"
-#~ msgstr "VALP"
+#~ msgstr "PUP"
 
-#, fuzzy
 #~ msgid "PRM"
 #~ msgstr "PRM"
 
-#, fuzzy
 #~ msgid "OSPF"
 #~ msgstr "OSPF"
 
-#, fuzzy
 #~ msgid "Note:"
 #~ msgstr "Anteckning:"
 
-#, fuzzy
 #~ msgid "No Devices"
-#~ msgstr "Enheter"
+#~ msgstr "Inga enheter"
 
-#, fuzzy
 #~ msgid "New Query"
 #~ msgstr "Ny fråga"
 
-#, fuzzy
 #~ msgid "New Flow"
 #~ msgstr "Nytt flöde"
 
-#, fuzzy
 #~ msgid "NetFlow version 7"
 #~ msgstr "NetFlow version 7"
 
-#, fuzzy
 #~ msgid "NetFlow version 6"
 #~ msgstr "NetFlow version 6"
 
-#, fuzzy
 #~ msgid "NetFlow version 5"
 #~ msgstr "NetFlow version 5"
 
-#, fuzzy
 #~ msgid "NetFlow version 1"
 #~ msgstr "NetFlow version 1"
 
-#, fuzzy
 #~ msgid "NetFlow ToS Source Prefix Aggregation"
-#~ msgstr "NetFlow ToS Source Prefix Aggregation"
+#~ msgstr "NetFlow ToS-källprefixaggregering"
 
-#, fuzzy
 #~ msgid "NetFlow ToS Proto Port Aggregation"
-#~ msgstr "NetFlow ToS Proto Port Aggregation"
+#~ msgstr "NetFlow ToS-protokollportaggregering"
 
-#, fuzzy
 #~ msgid "NetFlow ToS Prefix Port Aggregation"
-#~ msgstr "NetFlow ToS Prefix Port Aggregation"
+#~ msgstr "NetFlow ToS-prefixportaggregering"
 
-#, fuzzy
 #~ msgid "NetFlow ToS Prefix Aggregation"
-#~ msgstr "NetFlow ToS Prefix Aggregation"
+#~ msgstr "NetFlow ToS-prefixaggregering"
 
-#, fuzzy
 #~ msgid "NetFlow ToS Destination Prefix Aggregation"
-#~ msgstr "NetFlow ToS Destination Prefix Aggregation"
+#~ msgstr "NetFlow ToS-målprefixaggregering"
 
-#, fuzzy
 #~ msgid "NetFlow ToS AS Aggregation"
-#~ msgstr "NetFlow ToS AS Aggregation"
+#~ msgstr "NetFlow ToS-AS-aggregering"
 
-#, fuzzy
 #~ msgid "NetFlow Source Prefix Aggregation"
-#~ msgstr "NetFlow Source Prefix Aggregation"
+#~ msgstr "NetFlow-källprefixaggregering"
 
-#, fuzzy
 #~ msgid "NetFlow Source Destination"
-#~ msgstr "NetFlow Source Destination"
+#~ msgstr "NetFlow-källa och mål"
 
-#, fuzzy
 #~ msgid "NetFlow Protocol version used by the device."
 #~ msgstr "NetFlow-protokollversion som används av enheten."
 
-#, fuzzy
 #~ msgid "NetFlow Proto Port Aggregation"
-#~ msgstr "NetFlow Proto Port Aggregation"
+#~ msgstr "NetFlow-protokollportaggregering"
 
-#, fuzzy
 #~ msgid "NetFlow Prefix Aggregation"
-#~ msgstr "NetFlow Prefix Aggregation"
+#~ msgstr "NetFlow-prefixaggregering"
 
-#, fuzzy
 #~ msgid "NetFlow Full Flow"
-#~ msgstr "NetFlow Full Flow"
+#~ msgstr "Fullständigt NetFlow-flöde"
 
-#, fuzzy
 #~ msgid "NetFlow Destination Prefix Aggregation"
-#~ msgstr "NetFlow Destination Prefix Aggregation"
+#~ msgstr "NetFlow-målprefixaggregering"
 
-#, fuzzy
 #~ msgid "NetFlow Destination"
-#~ msgstr "NetFlow Destination"
+#~ msgstr "NetFlow-mål"
 
-#, fuzzy
 #~ msgid "NetFlow AS Aggregation"
-#~ msgstr "NetFlow AS Aggregation"
+#~ msgstr "NetFlow-AS-aggregering"
 
-#, fuzzy
 #~ msgid "Nesting"
 #~ msgstr "Nesting"
 
-#, fuzzy
 #~ msgid "NVP-II"
 #~ msgstr "NVP-II"
 
-#, fuzzy
 #~ msgid "NETBLT"
 #~ msgstr "NETBLT"
 
-#, fuzzy
 #~ msgid ""
 #~ "Multiple field entries, separated by commas, are permitted in the fields "
 #~ "above. A minus sign (-) will negate an entry (e.g. -80 for Port, would mean "
 #~ "any Port but 80)"
 #~ msgstr ""
-#~ "Flera fältposter, separerade med kommatecken, är tillåtna i fälten ovan. Ett"
-#~ " minustecken (-) kommer att neka en post (t.ex. -80 för Port, skulle betyda "
-#~ "vilken port som helst än 80)"
+#~ "Flera fältposter, separerade med kommatecken, tillåts i fälten ovan. Ett "
+#~ "minustecken (-) negerar en post (t.ex. innebär -80 för port alla portar utom"
+#~ " 80)"
 
 #~ msgid "Misc"
 #~ msgstr "Övrigt"
 
-#, fuzzy
 #~ msgid "Manage Listeners"
 #~ msgstr "Hantera lyssnare"
 
-#, fuzzy
 #~ msgid "MUX"
 #~ msgstr "MUX"
 
-#, fuzzy
 #~ msgid "MTP"
 #~ msgstr "MTP"
 
-#, fuzzy
 #~ msgid "MFE-NSP"
 #~ msgstr "MFE-NSP"
 
-#, fuzzy
 #~ msgid "MERIT-INP"
 #~ msgstr "MERIT-INP"
 
-#, fuzzy
 #~ msgid "LEAF-2"
 #~ msgstr "LEAF-2"
 
-#, fuzzy
 #~ msgid "LEAF-1"
 #~ msgstr "LEAF-1"
 
-#, fuzzy
 #~ msgid "Include if:"
 #~ msgstr "Inkludera om:"
 
-#, fuzzy
 #~ msgid "ISO-TP4"
 #~ msgstr "ISO-TP4"
 
-#, fuzzy
 #~ msgid "IRTP"
 #~ msgstr "IRTP"
 
-#, fuzzy
 #~ msgid "IPv6-Route"
 #~ msgstr "IPv6-Rutt"
 
-#, fuzzy
 #~ msgid "IPv6-Opts"
 #~ msgstr "IPv6-OPT"
 
-#, fuzzy
 #~ msgid "IPv6-NoNxt"
 #~ msgstr "IPv6-NoNxt"
 
-#, fuzzy
 #~ msgid "IPv6-ICMP"
 #~ msgstr "IPv6-ICMP"
 
-#, fuzzy
 #~ msgid "IPv6-Frag"
 #~ msgstr "IPv6-Frag"
 
-#, fuzzy
 #~ msgid "IPSEC-ESP"
 #~ msgstr "IPSEC-ESP"
 
-#, fuzzy
 #~ msgid "IPSEC-AH"
 #~ msgstr "IPSEC-AH"
 
-#, fuzzy
 #~ msgid "IPIP"
 #~ msgstr "IPIP"
 
-#, fuzzy
 #~ msgid "IPENCAP"
 #~ msgstr "IPENCAP"
 
-#, fuzzy
 #~ msgid "IP"
 #~ msgstr "IP"
 
-#, fuzzy
 #~ msgid "IL"
 #~ msgstr "IL"
 
-#, fuzzy
 #~ msgid "IGP"
 #~ msgstr "IGP"
 
-#, fuzzy
 #~ msgid "IGMP"
 #~ msgstr "IGMP"
 
-#, fuzzy
 #~ msgid "IDRP"
 #~ msgstr "IDRP"
 
-#, fuzzy
 #~ msgid "IDPR-CMTP"
 #~ msgstr "IDPR-CTMP"
 
-#, fuzzy
 #~ msgid "IDPR"
 #~ msgstr "IDPR"
 
-#, fuzzy
 #~ msgid "ICMP"
 #~ msgstr "ICMP"
 
-#, fuzzy
 #~ msgid "How long to keep your flow files."
-#~ msgstr "Hur länge ska du hålla dina flödesfiler."
+#~ msgstr "Hur länge flödesfilerna ska behållas."
 
-#, fuzzy
 #~ msgid "HMP"
 #~ msgstr "HMP"
 
-#, fuzzy
 #~ msgid "GRE"
 #~ msgstr "GRE"
 
-#, fuzzy
 #~ msgid "GGP"
 #~ msgstr "GGP"
 
-#, fuzzy
 #~ msgid "Full (Catalyst)"
-#~ msgstr "Full (katalysator)"
+#~ msgstr "Fullständig (Catalyst)"
 
-#, fuzzy
 #~ msgid "Flows Directory"
-#~ msgstr "Flödesregister"
+#~ msgstr "Flödeskatalog"
 
-#, fuzzy
 #~ msgid "Flow-Tools tagged version 5"
-#~ msgstr "Flow-Tools tagged version 5"
+#~ msgstr "Taggad Flow-Tools-version 5"
 
-#, fuzzy
 #~ msgid "Flow Tools Work Directory"
-#~ msgstr "Flow Tools Work Directory"
+#~ msgstr "Arbetskatalog för Flow Tools"
 
-#, fuzzy
 #~ msgid "Flow Filter Constraints"
-#~ msgstr "Flödesfilterbegränsningar"
+#~ msgstr "Begränsningar för flödesfilter"
 
-#, fuzzy
 #~ msgid "Filter Data"
-#~ msgstr "Filternamn"
+#~ msgstr "Filterdata"
 
-#, fuzzy
 #~ msgid "Expire"
-#~ msgstr "Utgår"
+#~ msgstr "Förfaller"
 
-#, fuzzy
 #~ msgid "Entirely in Specified Time Span"
-#~ msgstr "Helt i angiven tidsrymd"
+#~ msgstr "Helt inom angivet tidsintervall"
 
-#, fuzzy
 #~ msgid "End Time in Specified Time Span"
-#~ msgstr "Sluttid i specificerad tidsrymd"
+#~ msgstr "Sluttid i angivet tidsintervall"
 
-#, fuzzy
 #~ msgid "End Date"
 #~ msgstr "Slutdatum"
 
-#, fuzzy
 #~ msgid "ENCAP"
 #~ msgstr "ENCAP"
 
-#, fuzzy
 #~ msgid "EMCON"
 #~ msgstr "Emcon"
 
-#, fuzzy
 #~ msgid "EIGRP"
 #~ msgstr "EIGRP"
 
-#, fuzzy
 #~ msgid "EGP"
 #~ msgstr "EGP"
 
 #~ msgid "Down"
 #~ msgstr "Nere"
 
-#, fuzzy
 #~ msgid ""
 #~ "Directory that this devices flows are in.  This directory must be in the "
 #~ "Flow Directory path.  Do not put the full path here.  Also, not that if you "
 #~ "change the path, all the predefined filer setup to to use it will have to be"
 #~ " resaved."
 #~ msgstr ""
-#~ "Directory som dessa enheter strömmar är i. Den här katalogen måste vara i "
-#~ "flödeskatalogen. Lägg inte hela vägen här. Också, inte det om du ändrar "
-#~ "sökvägen, måste alla fördefinierade filer inställda för att använda den "
-#~ "behöva resas."
+#~ "Katalogen där enhetens flöden finns. Katalogen måste ligga under "
+#~ "flödeskatalogen. Ange inte hela sökvägen här. Observera också att alla "
+#~ "fördefinierade filter som använder katalogen måste sparas igen om du ändrar "
+#~ "sökvägen."
 
-#, fuzzy
 #~ msgid "Directory Structure that will be used for the flows for this device."
 #~ msgstr "Katalogstruktur som används för flöden för den här enheten."
 
-#, fuzzy
 #~ msgid "Directory"
 #~ msgstr "Katalog"
 
-#, fuzzy
 #~ msgid "Device [new]"
 #~ msgstr "Enhet [ny]"
 
-#, fuzzy
 #~ msgid "Device [edit: %s]"
 #~ msgstr "Enhet [redigera: %s]"
 
 #~ msgid "Device Name"
 #~ msgstr "Enhetsnamn"
 
-#, fuzzy
 #~ msgid "Destination Prefix Aggregation"
-#~ msgstr "Destination Prefix Aggregation"
+#~ msgstr "Målprefixaggregering"
 
-#, fuzzy
 #~ msgid "Dest Port(s)"
-#~ msgstr "Dest Port (s)"
+#~ msgstr "Målport(ar)"
 
-#, fuzzy
 #~ msgid "Defaults"
 #~ msgstr "Standard"
 
-#, fuzzy
 #~ msgid "DDP"
 #~ msgstr "DDP"
 
-#, fuzzy
 #~ msgid "DCN-MEAS"
 #~ msgstr "DCN-MEAS"
 
-#, fuzzy
 #~ msgid "DCCP"
 #~ msgstr "DCCP"
 
-#, fuzzy
 #~ msgid ""
 #~ "Compression level of flow files.  Higher compression saves space but uses "
 #~ "more CPU to store and retrieve results."
@@ -3602,80 +3478,64 @@ msgstr "Visa NetFlow-trafik inom intervall"
 #~ "Komprimeringsnivå för flödesfiler. Högre komprimering sparar utrymme men "
 #~ "använder mer CPU för att lagra och hämta resultat."
 
-#, fuzzy
 #~ msgid "Compression Level"
 #~ msgstr "Kompressionsnivå"
 
-#, fuzzy
 #~ msgid "Compression"
 #~ msgstr "Kompression"
 
-#, fuzzy
 #~ msgid "CHAOS"
 #~ msgstr "KAOS"
 
-#, fuzzy
 #~ msgid "CBT"
 #~ msgstr "KBT"
 
-#, fuzzy
 #~ msgid "BBN-RCC-MON"
 #~ msgstr "BBN-RCC-MON"
 
-#, fuzzy
 #~ msgid "Any Part in Specified Time Span"
-#~ msgstr "Varje del i angiven tidsrymd"
+#~ msgstr "Valfri del inom angivet tidsintervall"
 
-#, fuzzy
 #~ msgid "Alternate DNS Server"
 #~ msgstr "Alternativ DNS-server"
 
-#, fuzzy
 #~ msgid ""
 #~ "Also, remember to remove any leftover files from your Net-Flow Capture "
 #~ "location."
 #~ msgstr ""
-#~ "Kom också ihåg att ta bort eventuella kvarvarande filer från din Net-Flow "
-#~ "Capture-plats."
+#~ "Kom också ihåg att ta bort kvarvarande filer från platsen för Net-Flow "
+#~ "Capture."
 
-#, fuzzy
 #~ msgid "AS Aggregation"
-#~ msgstr "AS Aggregation"
+#~ msgstr "AS-aggregering"
 
-#, fuzzy
 #~ msgid "AS"
-#~ msgstr "SOM"
+#~ msgstr "AS"
 
-#, fuzzy
 #~ msgid "ARGUS"
 #~ msgstr "ARGUS"
 
-#, fuzzy
 #~ msgid "A comma delimited list of domains names to strip from the domain."
-#~ msgstr "En komma-avgränsad lista över domännamn för att ta bort från domänen."
+#~ msgstr ""
+#~ "En kommaseparerad lista med domännamn som ska tas bort från domännamnet."
 
-#, fuzzy
 #~ msgid "9 (Highest)"
 #~ msgstr "9 (högsta)"
 
-#, fuzzy
 #~ msgid "3PC"
 #~ msgstr "3PC"
 
-#, fuzzy
 #~ msgid "1 Line with Tags"
-#~ msgstr "1 rad med etiketter"
+#~ msgstr "1 rad med taggar"
 
-#, fuzzy
 #~ msgid "0 (Disabled)"
 #~ msgstr "0 (Inaktiverad)"
 
 #~ msgid "(view)"
 #~ msgstr "(visa)"
 
-#, fuzzy
 #~ msgid "(e.g., -0x0b/0x0F)"
-#~ msgstr "(t ex -0x0b / 0x0F)"
+#~ msgstr "(t.ex. -0x0b/0x0F)"
 
 #~ msgid "Save Overrides to Selected Filter"
 #~ msgstr "Spara åsidosättningar till valt filter"
