@@ -47341,7 +47341,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
             <location line="+1" />
             <source>Allow the extension "%1" to fetch from the following URL:
 %2</source>
-            <translation>Tillåt att utökningen "%1" hämtar från följande URL:
+            <translation>Tillåt att tillägget ”%1” hämtar från följande URL:
 %2</translation>
         </message>
         <message>
@@ -47352,27 +47352,27 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+29" />
             <source>Allow the extension "%1" to fetch data from the internet?</source>
-            <translation>Tillåt att utökningen "%1" hämtar data från internet?</translation>
+            <translation>Tillåt att tillägget ”%1” hämtar data från internet?</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Allow Fetching Data?</source>
-            <translation>Tillåta att hämta data?</translation>
+            <translation>Tillåta datahämtning?</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Allow the extension "%1" to fetch data from the following URL:
 
 </source>
-            <translation>Tillåt tillägget "%1"
-för att hämta data från
-följande webbadress:</translation>
+            <translation>Tillåt att tillägget ”%1” hämtar data från följande URL:
+
+</translation>
         </message>
         <message>
             <source>Allow the extension "%1" to fetch datafrom the following URL:
 
 </source>
-            <translation>Tillåt att utökningen "%1" hämtar data från följande URL:
+            <translation>Tillåt att tillägget ”%1” hämtar data från följande URL:
 
 </translation>
         </message>
@@ -47394,17 +47394,17 @@ följande webbadress:</translation>
         <message>
             <location line="+75" />
             <source>Fetching is not allowed for the extension "%1". (You can edit permissions in Preferences &gt; Lua.)</source>
-            <translation>Hämtning tillåts inte för utökningen "%1". (Du kan redigera rättigheter i Inställningar &gt; Lua.)</translation>
+            <translation>Tillägget ”%1” får inte hämta data. (Du kan redigera behörigheter i Inställningar &gt; Lua.)</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/lua/bindings/install.cpp" line="+57" />
             <source>Package info is not an object.</source>
-            <translation>Package-info är inte ett objekt.</translation>
+            <translation>Paketinformationen är inte ett objekt.</translation>
         </message>
         <message>
             <location line="+16" />
             <source>Installed package info is not an object.</source>
-            <translation>Installerad package-info är inte ett objekt.</translation>
+            <translation>Informationen om det installerade paketet är inte ett objekt.</translation>
         </message>
         <message>
             <location line="+20" />
@@ -47414,12 +47414,12 @@ följande webbadress:</translation>
         <message>
             <location line="+5" />
             <source>Cannot write to package info: %1</source>
-            <translation>Kan inte skriva till package-info: %1</translation>
+            <translation>Kan inte skriva paketinformationen: %1</translation>
         </message>
         <message>
             <location line="+56" />
             <source>Cannot write to temporary file.</source>
-            <translation>Kan inte skriva till temporärfilen.</translation>
+            <translation>Kan inte skriva till den tillfälliga filen.</translation>
         </message>
         <message>
             <location line="+71" />
@@ -47445,13 +47445,13 @@ följande webbadress:</translation>
         </message>
         <message>
             <source>Unarchiving failed.</source>
-            <translation>Uppackning misslyckades.</translation>
+            <translation>Uppackningen misslyckades.</translation>
         </message>
         <message>
             <location line="-149" />
             <location line="+7" />
             <source>Cannot open temporary file.</source>
-            <translation>Kan inte öppna temporärfil.</translation>
+            <translation>Kan inte öppna den tillfälliga filen.</translation>
         </message>
         <message>
             <source>Installing package(s) %1</source>
@@ -47464,7 +47464,7 @@ följande webbadress:</translation>
         </message>
         <message>
             <source>The extension "%1" wants to install the following package(s):</source>
-            <translation>Utökningen "%1" vill installera följande paket:</translation>
+            <translation>Tillägget ”%1” vill installera följande paket:</translation>
         </message>
         <message>
             <location line="+39" />
@@ -47485,17 +47485,17 @@ följande webbadress:</translation>
         <message>
             <location line="+57" />
             <source>Non-string key encountered in Lua table at path "%1".</source>
-            <translation>Icke-strängad nyckel som påträffas i Lua-tabellen vid sökvägen "%1".</translation>
+            <translation>En nyckel som inte är en sträng påträffades i Lua-tabellen vid sökvägen ”%1”.</translation>
         </message>
         <message>
             <location line="+19" />
             <source>No hook with the name "%1" found.</source>
-            <translation>Ingen hook med namnet "%1" hittades.</translation>
+            <translation>Ingen hook med namnet ”%1” hittades.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Unsupported value type "%1" at path "%2".</source>
-            <translation>Värdetypen "%1" som inte stöds vid sökvägen "%2".</translation>
+            <translation>Värdetypen ”%1” stöds inte vid sökvägen ”%2”.</translation>
         </message>
         <message>
             <location line="+103" />
@@ -47505,22 +47505,22 @@ följande webbadress:</translation>
         <message>
             <location line="+22" />
             <source>Extension info table did not contain a setup function.</source>
-            <translation>Förlängning info tabell innehöll inte en inställningsfunktion.</translation>
+            <translation>Tilläggsinformationstabellen innehöll ingen inställningsfunktion.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/lua/luapluginspec.cpp" line="+117" />
             <source>Cannot prepare extension setup: %1</source>
-            <translation>Kan inte förbereda utökningsinställning: %1</translation>
+            <translation>Kan inte förbereda tilläggets inställning: %1</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Extension setup function returned false.</source>
-            <translation>Förlängningsinställningen återgick till falsk.</translation>
+            <translation>Tilläggets inställningsfunktion returnerade false.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Extension setup function returned error: %1</source>
-            <translation>Inställningsfunktionen för förlängning returnerade fel: %1</translation>
+            <translation>Tilläggets inställningsfunktion returnerade felet: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/lua/luaplugin.cpp" line="+218" />
@@ -47551,7 +47551,7 @@ följande webbadress:</translation>
         <message>
             <location line="+40" />
             <source>Run script "%1"</source>
-            <translation>Kör skript "%1"</translation>
+            <translation>Kör skriptet ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
@@ -47567,17 +47567,17 @@ följande webbadress:</translation>
         <message>
             <location line="+34" />
             <source>Failed to read script "%1": %2</source>
-            <translation>Misslyckades med att läsa skriptet "%1": %2</translation>
+            <translation>Kunde inte läsa skriptet ”%1”: %2</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/lua/luaexpander.cpp" line="+84" />
             <source>Evaluate simple Lua statements.&lt;br&gt;Literal '}' characters must be escaped as "\}", '\' characters must be escaped as "\\", '#' characters must be escaped as "\#", and "%{" must be escaped as "%\{".</source>
-            <translation>Utvärdera enkla Lua-uttalanden.&lt;br&gt;Literal '}' tecken måste undvikas som "\}", "\" tecken måste undkommas som "\\", "#" tecken måste undkommas som "\#", och "% {" måste fly som "%\ {".</translation>
+            <translation>Utvärdera enkla Lua-uttryck.&lt;br&gt;Literaltecknet '}' måste undkommas som "\}", tecknet '\' som "\\", tecknet '#' som "\#" och "%{" som "%\{".</translation>
         </message>
         <message>
             <location line="+8" />
             <source>No Lua statement to evaluate.</source>
-            <translation>Inget Lua-villkor att evaluera.</translation>
+            <translation>Inget Lua-uttryck att utvärdera.</translation>
         </message>
     </context>
     <context>
