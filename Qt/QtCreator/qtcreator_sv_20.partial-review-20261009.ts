@@ -47928,12 +47928,12 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+20" />
             <source>Warning for target %1: missing CMake toolchain file expected at %2.</source>
-            <translation>Varning för målet %1: saknad CMake-verktygskedjefil förväntades vid %2.</translation>
+            <translation>Varning för målet %1: CMake-verktygskedjefilen saknas; den förväntades på %2.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Warning for target %1: missing QulGenerators expected at %2.</source>
-            <translation>Varning för målet %1: saknad QulGenerators förväntades vid %2.</translation>
+            <translation>Varning för målet %1: QulGenerators saknas; den förväntades på %2.</translation>
         </message>
         <message>
             <location line="+66" />
@@ -47959,7 +47959,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+9" />
             <source>Missing %1. Add the path in Edit &gt; Preferences &gt; SDKs &gt; MCU.</source>
-            <translation>Saknar %1. Lägg till sökvägen i Redigera &gt; Inställningar &gt; SDK &gt; MCU.</translation>
+            <translation>%1 saknas. Lägg till sökvägen i Redigera &gt; Inställningar &gt; SDK:er &gt; MCU.</translation>
         </message>
         <message>
             <source>Path %1 does not exist. Add the path in Edit &gt; Preferences &gt; Devices &gt; MCU.</source>
@@ -47967,7 +47967,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         </message>
         <message>
             <source>Missing %1. Add the path in Edit &gt; Preferences &gt; Devices &gt; MCU.</source>
-            <translation>Saknar %1. Lägg till sökvägen i Redigera &gt; Inställningar &gt; Enheter &gt; MCU.</translation>
+            <translation>%1 saknas. Lägg till sökvägen i Redigera &gt; Inställningar &gt; Enheter &gt; MCU.</translation>
         </message>
         <message>
             <location line="+13" />
@@ -48027,16 +48027,16 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+3" />
             <source>Path %1 exists, but version %2 could not be detected.</source>
-            <translation>Sökvägen %1 finns men version %2 kunde inte upptäckas.</translation>
+            <translation>Sökvägen %1 finns, men versionen %2 kunde inte identifieras.</translation>
         </message>
         <message>
             <source>Download from "%1"</source>
-            <translation>Hämta från "%1"</translation>
+            <translation>Hämta från ”%1”</translation>
         </message>
         <message>
             <location line="+39" />
             <source>Download from "%1".</source>
-            <translation>Ladda ner från "%1".</translation>
+            <translation>Hämta från ”%1”.</translation>
         </message>
         <message>
             <location line="+29" />
@@ -48086,7 +48086,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+1" />
             <source>Flexible Software Package for Renesas RA MCU Family</source>
-            <translation>Flexibelt programvarupaket för Renesas RA MCU Family</translation>
+            <translation>Flexibelt programvarupaket för Renesas RA MCU-familjen</translation>
         </message>
         <message>
             <location line="+1" />
@@ -48096,12 +48096,12 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+1" />
             <source>Renesas Graphics Library</source>
-            <translation>Renesas Grafikbibliotek</translation>
+            <translation>Renesas grafikbibliotek</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Cypress Auto Flash Utility</source>
-            <translation>Cypress automatisk Flash-verktyg</translation>
+            <translation>Cypress-verktyg för automatisk flashning</translation>
         </message>
         <message>
             <location line="+1" />
@@ -48143,7 +48143,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
             <location line="+1" />
             <location filename="../../../src/plugins/mcusupport/mcusupportsdk.cpp" line="-116" />
             <source>GNU Arm Embedded Toolchain</source>
-            <translation>GNU Arm-inbäddad verktygskedja</translation>
+            <translation>GNU Arm Embedded Toolchain</translation>
         </message>
         <message>
             <location line="+1" />
@@ -48188,7 +48188,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+207" />
             <source>Arm GDB at %1</source>
-            <translation>Armera GDB vid %1</translation>
+            <translation>Arm GDB på %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/mcusupport/mcusupportdevice.cpp" line="+18" />
@@ -48204,12 +48204,12 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location filename="../../../src/plugins/mcusupport/mcusupportoptions.cpp" line="+189" />
             <source>Qt for MCUs Demos</source>
-            <translation>Qt for MCUer-demon</translation>
+            <translation>Qt for MCUs-demonstrationer</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Qt for MCUs Examples</source>
-            <translation>Qt for MCUer-exampel</translation>
+            <translation>Qt for MCUs-exempel</translation>
         </message>
         <message>
             <location line="+50" />
@@ -48225,18 +48225,18 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
             <location line="+1" />
             <location line="+28" />
             <source>Qt for MCUs</source>
-            <translation>Qt for MCUer</translation>
+            <translation>Qt for MCUs</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/mcusupport/mcukitmanager.cpp" line="-71" />
             <location filename="../../../src/plugins/mcusupport/mcusupportoptions.cpp" line="-27" />
             <source>New version of Qt for MCUs detected. Upgrade existing kits?</source>
-            <translation>Ny version av Qt for MCUer hittades. Uppgradera befintliga kit?</translation>
+            <translation>En ny version av Qt for MCUs har upptäckts. Vill du uppgradera befintliga kit?</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/mcusupport/mcusupportoptions.cpp" line="+25" />
             <source>Errors while creating Qt for MCUs kits</source>
-            <translation>Fel vid skapandet av Qt for MCUer-kit</translation>
+            <translation>Fel vid skapandet av kit för Qt for MCUs</translation>
         </message>
         <message>
             <location line="+5" />
@@ -48246,7 +48246,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location filename="../../../src/plugins/mcusupport/mcusupportoptionspage.cpp" line="+91" />
             <source>Qt for MCUs SDK</source>
-            <translation>Qt for MCUer SDK</translation>
+            <translation>Qt for MCUs SDK</translation>
         </message>
         <message>
             <location line="+12" />
@@ -48261,7 +48261,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+8" />
             <source>Optional</source>
-            <translation>Frivillig uppgift</translation>
+            <translation>Valfritt</translation>
         </message>
         <message>
             <location line="+14" />
@@ -48297,7 +48297,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+1" />
             <source>Kits for a different SDK version exist.</source>
-            <translation>Paket för en annan SDK-version finns.</translation>
+            <translation>Det finns kit för en annan SDK-version.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -48307,7 +48307,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+3" />
             <source>Provide the package paths to create a kit for your target.</source>
-            <translation>Ge paketsökvägarna för att skapa ett kit för ditt mål.</translation>
+            <translation>Ange paketsökvägarna för att skapa ett kit för ditt mål.</translation>
         </message>
         <message>
             <location line="+13" />
@@ -48317,7 +48317,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+88" />
             <source>Cannot apply changes in SDKs &gt; MCU.</source>
-            <translation>Kan inte tillämpa ändringar i SDK &gt; MCU.</translation>
+            <translation>Kan inte tillämpa ändringar i SDK:er &gt; MCU.</translation>
         </message>
         <message>
             <source>Cannot apply changes in Devices &gt; MCU.</source>
@@ -48326,7 +48326,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location filename="../../../src/plugins/mcusupport/dialogs/mcukitcreationdialog.cpp" line="-51" />
             <source>Qt for MCUs Kit Creation</source>
-            <translation>Qt för skapande av MCU:s kit</translation>
+            <translation>Skapa kit för Qt for MCUs</translation>
         </message>
         <message>
             <location line="+45" />
@@ -48341,7 +48341,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+18" />
             <source>Qt for MCUs path %1</source>
-            <translation>Qt för MCUs sökväg %1</translation>
+            <translation>Sökväg till Qt for MCUs: %1</translation>
         </message>
         <message>
             <location line="+23" />
@@ -48389,12 +48389,12 @@ för mål %1</translation>
         <message>
             <location filename="../../../src/plugins/mcusupport/mcusupportplugin.cpp" line="+61" />
             <source>Qt for MCUs: %1</source>
-            <translation>Qt for MCUer: %1</translation>
+            <translation>Qt for MCUs: %1</translation>
         </message>
         <message>
             <location line="+67" />
             <source>Create Kits for Qt for MCUs</source>
-            <translation>Skapa kit för Qt for MCUer</translation>
+            <translation>Skapa kit för Qt for MCUs</translation>
         </message>
         <message>
             <source>Go to the Documentation</source>
