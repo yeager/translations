@@ -29390,12 +29390,12 @@ Dessa sökvägar används utöver den aktuella katalogen vid Växla mellan heade
         <message>
             <location line="-49" />
             <source>S&amp;uffix:</source>
-            <translation>S&amp;uffix:</translation>
+            <translation>&amp;Suffix:</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Se&amp;arch paths:</source>
-            <translation>Sökvägar till Se&amp;arch:</translation>
+            <translation>&amp;Sökvägar:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -29404,11 +29404,11 @@ Dessa sökvägar används utöver den aktuella katalogen vid Växla mellan heade
 Paths can be absolute or relative to the directory of the current open document.
 
 These paths are used in addition to current directory on Switch Header/Source.</source>
-            <translation>Lista med källsökvägar åtskilda med kommatecken.
-Sökvägar kan vara absoluta eller i
-förhållande till katalogen för det aktuella
-öppna dokumentet. Sökvägarna används förutom
-nuvarande katalog på Växla huvud/källa.</translation>
+            <translation>Kommaseparerad lista över källfilsökvägar.
+
+Sökvägar kan vara absoluta eller relativa till katalogen för det aktuella öppna dokumentet.
+
+Dessa sökvägar används utöver den aktuella katalogen vid Växla mellan header och källfil.</translation>
         </message>
         <message>
             <location line="-112" />
@@ -29419,56 +29419,56 @@ nuvarande katalog på Växla huvud/källa.</translation>
 **   To protect a percent sign, use '%%'.
 **************************************************************************/
 </source>
-            <translation>%1 licenshuvudmall ** Särskilda nyckelord:
-%USER%DATE% YEAR% ** Miljövariabler:
-%$VARIBEL% ** För att skydda ett
-procenttecken,
-använd
-%%.
-********************************************************************************************************************************************</translation>
+            <translation>/**************************************************************************
+** %1 licenshuvudmall
+**   Särskilda nyckelord: %USER% %DATE% %YEAR%
+**   Miljövariabler: %$VARIABLE%
+**   Använd '%%' för att skydda ett procenttecken.
+**************************************************************************/
+</translation>
         </message>
         <message>
             <location line="+142" />
             <source>&amp;Lower case file names</source>
-            <translation>&amp;Lower ärendenamn</translation>
+            <translation>&amp;Små filnamn</translation>
         </message>
         <message>
             <location line="-66" />
             <source>Comma-separated list of header prefixes.
 
 These prefixes are used in addition to current file name on Switch Header/Source.</source>
-            <translation>Lista med prefix för rubriker åtskilda med
-kommatecken. Prefixen används utöver det
-nuvarande filnamnet på Switch Header/ Source.</translation>
+            <translation>Kommaseparerad lista över headerfilsprefix.
+
+Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header och källfil.</translation>
         </message>
         <message>
             <location line="+59" />
             <source>Uses "#pragma once" instead of "#ifndef" include guards.</source>
-            <translation>Använder "#pragma en gång" istället för "#ifndef" inkluderar vakter.</translation>
+            <translation>Använder ”#pragma once” i stället för include-skydd med ”#ifndef”.</translation>
         </message>
         <message>
             <location line="-37" />
             <source>Comma-separated list of source prefixes.
 
 These prefixes are used in addition to current file name on Switch Header/Source.</source>
-            <translation>Lista med prefix för källkodar åtskilda med
-kommatecken. Prefixen används utöver det
-nuvarande filnamnet på Switch Header/ Source.</translation>
+            <translation>Kommaseparerad lista över källfilsprefix.
+
+Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header och källfil.</translation>
         </message>
         <message>
             <location line="+51" />
             <source>Headers</source>
-            <translation>Huvuden</translation>
+            <translation>Headerfiler</translation>
         </message>
         <message>
             <location line="-74" />
             <source>&amp;Prefixes:</source>
-            <translation>&amp;Prfix:</translation>
+            <translation>&amp;Prefix:</translation>
         </message>
         <message>
             <location line="+83" />
             <source>Sources</source>
-            <translation>Källor</translation>
+            <translation>Källfiler</translation>
         </message>
         <message>
             <location line="-61" />
@@ -29488,7 +29488,7 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location line="+151" />
             <source>Extract Function Refactoring</source>
-            <translation>Extrahera funktionsrefaktor</translation>
+            <translation>Extrahera funktionsomstrukturering</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cpplocatorfilter.cpp" line="-10" />
@@ -29498,37 +29498,37 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppfunctiondecldeflink.cpp" line="+281" />
             <source>Target file was changed, could not apply changes</source>
-            <translation>Målfilen ändrades. kunde inte verkställa ändringar</translation>
+            <translation>Målfilen ändrades. Det gick inte att tillämpa ändringarna.</translation>
         </message>
         <message>
             <location line="+33" />
             <source>Apply changes to definition</source>
-            <translation>Tillämpa ändringar till definition</translation>
+            <translation>Tillämpa ändringarna på definitionen</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Apply changes to declaration</source>
-            <translation>Tillämpa ändringar till deklaration</translation>
+            <translation>Tillämpa ändringarna på deklarationen</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/cppquickfix.cpp" line="+93" />
             <source>Apply Function Signature Changes</source>
-            <translation>Tillämpa ändringar för funktionssignatur</translation>
+            <translation>Tillämpa ändringar av funktionssignaturen</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppchecksymbols.cpp" line="+517" />
             <source>Only virtual functions can be marked 'override'</source>
-            <translation>Endast virtuella funktioner kan märkas 'override'</translation>
+            <translation>Endast virtuella funktioner kan markeras med ”override”</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Only virtual functions can be marked 'final'</source>
-            <translation>Endast virtuella funktioner kan märkas 'final'</translation>
+            <translation>Endast virtuella funktioner kan markeras med ”final”</translation>
         </message>
         <message>
             <location line="+269" />
             <source>Expected a namespace-name</source>
-            <translation>Förväntade ett namnrymdsnamn</translation>
+            <translation>Ett namnrymdsnamn förväntades</translation>
         </message>
         <message>
             <location line="+623" />
@@ -29543,17 +29543,17 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location line="+80" />
             <source>Additional Preprocessor Directives...</source>
-            <translation>Ytterligare direktiv om preprocessorer…</translation>
+            <translation>Ytterligare förprocessordirektiv…</translation>
         </message>
         <message>
             <location line="-83" />
             <source>Switch Between Function Declaration/Definition</source>
-            <translation>Växla mellan funktionens deklaration/definition</translation>
+            <translation>Växla mellan funktionsdeklaration och -definition</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Open Function Declaration/Definition in Next Split</source>
-            <translation>Öppna funktionens deklaration/definition i nästa delning</translation>
+            <translation>Öppna funktionsdeklaration/-definition i nästa delade vy</translation>
         </message>
         <message>
             <location line="+3" />
@@ -29573,12 +29573,12 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location line="+6" />
             <source>Unfold All Comment Blocks</source>
-            <translation>Unfold alla kommentarblock</translation>
+            <translation>Fäll ut alla kommentarblock</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppfilesettingspage.cpp" line="+314" />
             <source>C++ File Naming</source>
-            <translation>C++ filnamngivning</translation>
+            <translation>C++-filnamngivning</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppeditorplugin.cpp" line="+61" />
@@ -29593,7 +29593,7 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location line="+4" />
             <source>Insert "#pragma once" instead of "#ifndef" include guards into header file</source>
-            <translation>Infoga "#pragma en gång" istället för "#ifndef" med skydd i huvudfilen</translation>
+            <translation>Infoga ”#pragma once” i stället för include-skydd med ”#ifndef” i headerfilen</translation>
         </message>
         <message>
             <location line="-334" />
@@ -29605,7 +29605,7 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
             <location line="+223" />
             <source>Header/Source</source>
             <comment>text on macOS touch bar</comment>
-            <translation>Huvud/källa</translation>
+            <translation>Header/källa</translation>
         </message>
         <message>
             <location line="-98" />
@@ -29621,7 +29621,7 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location line="+39" />
             <source>Clangd executable:</source>
-            <translation>Körbar för körbar slang:</translation>
+            <translation>Körbar fil för clangd:</translation>
         </message>
         <message>
             <location line="+126" />
@@ -29636,12 +29636,12 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location line="+108" />
             <source>Follow Virtual Function to Base Class Implementation</source>
-            <translation>Följ Virtual Funktion till basklassimplementering</translation>
+            <translation>Följ virtuell funktion till basklassens implementation</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Follow Virtual Function to Base Class Implementation in Next Split</source>
-            <translation>Följ Virtual Funktion till basklass implementering i nästa Split</translation>
+            <translation>Följ virtuell funktion till basklassens implementation i nästa delade vy</translation>
         </message>
         <message>
             <location line="+14" />
@@ -29667,7 +29667,7 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location line="+18" />
             <source>Fold All Inactive Code</source>
-            <translation>Vik alla inaktiv kod</translation>
+            <translation>Fäll in all inaktiv kod</translation>
         </message>
         <message>
             <location line="+8" />
