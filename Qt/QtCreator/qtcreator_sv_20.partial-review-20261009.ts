@@ -18155,7 +18155,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+12" />
             <source>There is a CMakeCache.txt file in "%1", which suggest an in-source build was done before. You are now building in "%2", and the CMakeCache.txt file might confuse CMake.</source>
-            <translation>Det finns en CMakeCache.txt-fil i "%1", som föreslår en i-källkoden-byggnation har gjorts tidigare. Du bygger nu i "%2" och CMakeCache.txt-filen kan förvirra CMake.</translation>
+            <translation>Det finns en CMakeCache.txt-fil i ”%1”, vilket tyder på att ett bygge i källkatalogen har gjorts tidigare. Du bygger nu i ”%2”, och CMakeCache.txt-filen kan förvirra CMake.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakebuildsystem.cpp" line="+1426" />
@@ -18184,12 +18184,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+141" />
             <source>&lt;b&gt;CMake configuration failed&lt;b&gt;&lt;p&gt;The backup of the previous configuration has been restored.&lt;/p&gt;&lt;p&gt;Issues and "Projects &gt; Build" settings show more information about the failure.&lt;/p&gt;</source>
-            <translation>&lt;b&gt;CMake-konfiguration misslyckades&lt;b&gt;&lt;p&gt;Säkerhetskopian av tidigare konfiguration har återställts.&lt;/p&gt;&lt;p&gt;Problem och "Projekt &gt; Bygg"-inställningar visar mer information om misslyckandet.&lt;/p&gt;</translation>
+            <translation>&lt;b&gt;CMake-konfigurationen misslyckades&lt;b&gt;&lt;p&gt;Säkerhetskopian av den tidigare konfigurationen har återställts.&lt;/p&gt;&lt;p&gt;Problem och inställningarna ”Projekt &gt; Bygg” visar mer information om felet.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+17" />
             <source>&lt;b&gt;Failed to load project&lt;b&gt;&lt;p&gt;Issues and "Projects &gt; Build" settings show more information about the failure.&lt;/p&gt;</source>
-            <translation>&lt;b&gt;Underkänd för att ladda projektet&lt;b&gt;&lt;p&gt;Issues och "Projekt &gt; Bygg" inställningar visar mer information om misslyckandet.&lt;/p&gt;</translation>
+            <translation>&lt;b&gt;Det gick inte att läsa in projektet&lt;b&gt;&lt;p&gt;Problem och inställningarna ”Projekt &gt; Bygg” visar mer information om felet.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+246" />
@@ -18209,7 +18209,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+8" />
             <source>The remote CMake executable cannot write to the local build directory.</source>
-            <translation>Den körbara CMake-fjärrfilen kan inte skriva till lokala byggkatalogen.</translation>
+            <translation>Den körbara CMake-filen på fjärrdatorn kan inte skriva till den lokala byggkatalogen.</translation>
         </message>
         <message>
             <location line="+557" />
@@ -18219,17 +18219,17 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+11" />
             <source>CMake generator failed.</source>
-            <translation>CMake- generator misslyckades.</translation>
+            <translation>CMake-generatorn misslyckades.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Kit does not have a CMake binary set.</source>
-            <translation>Kit har inte en CMake binäruppsättning.</translation>
+            <translation>Kitet har ingen körbar CMake-fil angiven.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>No valid CMake executable.</source>
-            <translation>Inget giltigt CMake körbart.</translation>
+            <translation>Ingen giltig körbar CMake-fil.</translation>
         </message>
         <message>
             <source>%1 (via cmake)</source>
@@ -18260,7 +18260,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakeconfigitem.cpp" line="+387" />
             <source>Failed to open %1 for reading.</source>
-            <translation>Misslyckades med att öppna "%1" för läsning.</translation>
+            <translation>Det gick inte att öppna ”%1” för läsning.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakeformatter.cpp" line="+198" />
@@ -18270,7 +18270,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="-142" />
             <source>Enable auto format on file save</source>
-            <translation>Automatisk formatering vid filsparning</translation>
+            <translation>Aktivera automatisk formatering när filen sparas</translation>
         </message>
         <message>
             <location line="+9" />
@@ -18290,7 +18290,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+195" />
             <source>Formatter</source>
-            <translation>Formatter</translation>
+            <translation>Formaterare</translation>
         </message>
         <message>
             <location line="-186" />
@@ -18307,12 +18307,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
             <location line="+40" />
             <source>CMake Install</source>
             <comment>Display name for CMakeProjectManager::CMakeInstallStep id.</comment>
-            <translation>CMake Installera</translation>
+            <translation>CMake-installation</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakeprocess.cpp" line="+60" />
             <source>You may need to add the project directory to the list of directories that are mounted by the build device.</source>
-            <translation>Du kan behöva att lägga till projektkatalogen till listan över kataloger som monteras av byggenheten.</translation>
+            <translation>Du kan behöva lägga till projektkatalogen i listan över kataloger som monteras av byggenheten.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -18322,7 +18322,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+9" />
             <source>The build directory %1 is not reachable by the CMake executable %2.</source>
-            <translation>Byggkatalogen %1 kan inte nås med CMake körbar %2.</translation>
+            <translation>Byggkatalogen %1 kan inte nås av den körbara CMake-filen %2.</translation>
         </message>
         <message>
             <location line="+12" />
@@ -18332,18 +18332,18 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+9" />
             <source>CMake executable "%1" and build directory "%2" must be on the same device.</source>
-            <translation>CMake körbar "%1" och byggkatalogen "%2" måste vara på samma enhet.</translation>
+            <translation>Den körbara CMake-filen ”%1” och byggkatalogen ”%2” måste finnas på samma enhet.</translation>
         </message>
         <message>
             <location line="+16" />
             <source>The %1 installation is missing the "cmake-helper" directory. It was expected here: "%2".</source>
             <extracomment>%1 applicationDisplayName</extracomment>
-            <translation>Installationen %1 saknar katalogen "cmake- helper". Det förväntades här: "%2".</translation>
+            <translation>Installationen %1 saknar katalogen ”cmake-helper”. Den förväntades här: ”%2”.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Failed to copy "cmake-helper" folder:</source>
-            <translation>Misslyckades kopiera korgen "cmake- helper":</translation>
+            <translation>Det gick inte att kopiera mappen ”cmake-helper”:</translation>
         </message>
         <message>
             <location line="+55" />
@@ -18358,27 +18358,27 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakeprojectplugin.cpp" line="+37" />
             <source>No cmake tool set.</source>
-            <translation>Inget cmake verktygsset.</translation>
+            <translation>Inget cmake-verktyg är angivet.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>No compilers set in kit.</source>
-            <translation>Inga kompilatorer inställda i kit.</translation>
+            <translation>Inga kompilatorer är angivna i kitet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakeproject.cpp" line="+228" />
             <source>CMakeUserPresets.json cannot re-define the %1 preset: %2</source>
-            <translation>CMakeUserPresets.json kan inte omdefiniera %1 förinställd: %2</translation>
+            <translation>CMakeUserPresets.json kan inte omdefiniera förinställningen %1: %2</translation>
         </message>
         <message>
             <location line="+45" />
             <source>Build preset %1 is missing a corresponding configure preset.</source>
-            <translation>Bygg förinställd %1 saknas en motsvarande inställning förinställd.</translation>
+            <translation>Byggförinställningen %1 saknar en motsvarande konfigurationsförinställning.</translation>
         </message>
         <message>
             <location line="+24" />
             <source>Test preset %1 is missing a corresponding configure preset.</source>
-            <translation>Test förinställd %1 saknas en motsvarande inställning förinställd.</translation>
+            <translation>Testförinställningen %1 saknar en motsvarande konfigurationsförinställning.</translation>
         </message>
         <message>
             <source>Failed to load %1: %2</source>
@@ -18392,7 +18392,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakeprojectimporter.cpp" line="+166" />
             <source>Unexpected source directory "%1", expected "%2". This can be correct in some situations, for example when importing a standalone Qt test, but usually this is an error. Import the build anyway?</source>
-            <translation>Oväntad källkodskatalog "%1", förväntade "%2". Detta kan vara korrekt i vissa situationer, till exempel vid import av ett fristående Qt-test, men oftast är det ett fel. Importera bygget ändå?</translation>
+            <translation>Oväntad källkatalog ”%1”, men ”%2” förväntades. Detta kan vara korrekt i vissa situationer, till exempel vid import av ett fristående Qt-test, men är oftast ett fel. Importera bygget ändå?</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakeprojectnodes.cpp" line="+58" />
