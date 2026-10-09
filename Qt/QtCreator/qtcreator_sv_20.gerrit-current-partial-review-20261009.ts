@@ -6099,11 +6099,11 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Enable Depth Prepass</source>
-        <translation>Aktivera djupförpassering</translation>
+        <translation>Aktivera djupförpassning</translation>
     </message>
     <message>
         <source>Enables draw depth buffer as a separate pass. Disable to optimize render speed for layers with low depth complexity.</source>
-        <translation>Aktiverar ritning av djupbufferten som en separat passering. Inaktivera för att optimera återgivningshastigheten för lager med låg djupkomplexitet.</translation>
+        <translation>Ritar djupbufferten i en separat passering. Inaktivera för att optimera återgivningshastigheten för lager med låg djupkomplexitet.</translation>
     </message>
     <message>
         <source>Debug Settings</source>
