@@ -41545,14 +41545,14 @@ Vill du skapa grenen ”%1” i fjärrarkivet och ange den som uppströmsgren?</
         <message>
             <location line="+870" />
             <source>Continue Cherry-Picking</source>
-            <translation>Fortsätt med Cherry-Picking</translation>
+            <translation>Fortsätt med cherry-pick</translation>
         </message>
         <message>
             <location line="+1" />
             <source>You need to commit changes to finish cherry-picking.
 Commit now?</source>
-            <translation>Du måste göra ändringar för att
-avsluta körsbärsplockningen.</translation>
+            <translation>Du måste checka in ändringarna för att slutföra cherry-pick.
+Checka in nu?</translation>
         </message>
         <message numerus="yes">
             <location line="+483" />
@@ -41566,29 +41566,29 @@ avsluta körsbärsplockningen.</translation>
             <location line="+2" />
             <source>Amended "%1" (%n files).</source>
             <translation>
-                <numerusform>Uppdaterade ”%1” (%n fil).</numerusform>
-                <numerusform>Uppdaterade ”%1” (%n filer).</numerusform>
+                <numerusform>Ändrade ”%1” (%n fil).</numerusform>
+                <numerusform>Ändrade ”%1” (%n filer).</numerusform>
             </translation>
         </message>
         <message>
             <location line="+820" />
             <source>Di&amp;ff &amp;&amp; Cancel</source>
-            <translation>Di&amp;ff &amp; &amp; &amp; Avbryt</translation>
+            <translation>&amp;Jämför &amp;&amp; avbryt</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Show a diff of the local changes and cancel %1.</source>
-            <translation>Visa en jämförelse av lokala ändringar och avbryta %1.</translation>
+            <translation>Visa en jämförelse av de lokala ändringarna och avbryt %1.</translation>
         </message>
         <message>
             <location line="+102" />
             <source>Cherr&amp;y-Pick %1</source>
-            <translation>Cherr&amp;y-Pick %1</translation>
+            <translation>&amp;Cherry-pick %1</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Re&amp;vert %1</source>
-            <translation>Re&amp;vert %1</translation>
+            <translation>Å&amp;terställ %1</translation>
         </message>
         <message>
             <location line="+4" />
@@ -41598,62 +41598,62 @@ avsluta körsbärsplockningen.</translation>
         <message>
             <location line="+3" />
             <source>Create &amp;Branch from %1...</source>
-            <translation>Skapa &amp;Branch från %1…</translation>
+            <translation>Skapa &amp;gren från %1...</translation>
         </message>
         <message>
             <location line="+27" />
             <source>&amp;Interactive Rebase from %1...</source>
-            <translation>&amp;Interactive Rebase från %1…</translation>
+            <translation>&amp;Interaktiv ombasering från %1...</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Edit Commit Message of %1...</source>
-            <translation>Redigera Kommitmeddelande av %1…</translation>
+            <translation>Redigera incheckningsmeddelandet för %1...</translation>
         </message>
         <message>
             <location line="+5" />
             <source>&amp;Log for %1</source>
-            <translation>&amp;Log för %1</translation>
+            <translation>&amp;Logg för %1</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Sh&amp;ow file "%1" on revision %2</source>
-            <translation>Sh&amp;ow-filen "%1" vid revideringen %2</translation>
+            <translation>Vi&amp;sa filen ”%1” i revision %2</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Add &amp;Tag for %1...</source>
-            <translation>Lägg till &amp;Tag för %1…</translation>
+            <translation>Lägg till &amp;tagg för %1...</translation>
         </message>
         <message>
             <location line="+27" />
             <source>&amp;Reset to Change %1</source>
-            <translation>&amp;Reset för att ändra %1</translation>
+            <translation>Å&amp;terställ till ändring %1</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Di&amp;ff %1</source>
-            <translation>Di&amp;ff %1</translation>
+            <translation>Jä&amp;mförelse för %1</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Di&amp;ff Against %1</source>
-            <translation>Di&amp;ff mot %1</translation>
+            <translation>Jä&amp;mförelse med %1</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Diff &amp;Against Saved %1</source>
-            <translation>Diff &amp;Against Sparad %1</translation>
+            <translation>Jämför m&amp;ed sparad %1</translation>
         </message>
         <message>
             <location line="+6" />
             <source>&amp;Save for Diff</source>
-            <translation>&amp;Save för jämförelse</translation>
+            <translation>&amp;Spara för jämförelse</translation>
         </message>
         <message>
             <location line="+36" />
             <source>Git Show %1:%2</source>
-            <translation>Git Visa %1:%2</translation>
+            <translation>Git-visning av %1:%2</translation>
         </message>
         <message>
             <location line="-1517" />
@@ -41663,7 +41663,7 @@ avsluta körsbärsplockningen.</translation>
         <message>
             <location line="+37" />
             <source>&lt;Detached HEAD&gt;</source>
-            <translation>&lt;Detached HEAD&gt; Ordförande</translation>
+            <translation>&lt;Frikopplad HEAD&gt;</translation>
         </message>
         <message>
             <location line="+773" />
@@ -41673,7 +41673,7 @@ avsluta körsbärsplockningen.</translation>
         <message>
             <location line="+2" />
             <source>Run &amp;Merge Tool</source>
-            <translation>Kör &amp;Merge- verktyg</translation>
+            <translation>Kör &amp;sammanslagningsverktyget</translation>
         </message>
         <message>
             <location line="+10" />
@@ -41683,7 +41683,7 @@ avsluta körsbärsplockningen.</translation>
         <message>
             <location line="+424" />
             <source>Uncommitted Changes Found</source>
-            <translation>Oanmälda ändringar hittades</translation>
+            <translation>Oincheckade ändringar hittades</translation>
         </message>
         <message>
             <location line="+1" />
@@ -41693,7 +41693,7 @@ avsluta körsbärsplockningen.</translation>
         <message>
             <location line="+7" />
             <source>Stash local changes and pop when %1 finishes.</source>
-            <translation>Stash lokala förändringar och pop när %1 avslutas.</translation>
+            <translation>Stasha lokala ändringar och poppa dem när %1 är klart.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/stashdialog.cpp" line="+172" />
@@ -41704,24 +41704,24 @@ avsluta körsbärsplockningen.</translation>
             <location filename="../../../src/plugins/git/gitclient.cpp" line="-1538" />
             <source>There were warnings while applying "%1" to "%2":
 %3</source>
-            <translation>Det fanns varningar när
-%1 applicerades på %2: %3</translation>
+            <translation>Varningar uppstod när ”%1” tillämpades på ”%2”:
+%3</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Cannot apply patch "%1" to "%2": %3</source>
-            <translation>Kan inte applicera "%1" på "%2": %3</translation>
+            <translation>Kan inte tillämpa patchen ”%1” på ”%2”: %3</translation>
         </message>
         <message>
             <location line="+137" />
             <location line="+33" />
             <source>Cannot obtain status: %1</source>
-            <translation>Kan inte erhålla status: %1</translation>
+            <translation>Kan inte hämta status: %1</translation>
         </message>
         <message>
             <location line="-1699" />
             <source>Cannot launch "%1".</source>
-            <translation>Kan inte starta "%1".</translation>
+            <translation>Kan inte starta ”%1”.</translation>
         </message>
         <message>
             <location line="+1798" />
@@ -41740,17 +41740,17 @@ avsluta körsbärsplockningen.</translation>
         <message>
             <location line="+2847" />
             <source>The repository "%1" is not initialized.</source>
-            <translation>Förrådet "%1" är inte initierat.</translation>
+            <translation>Arkivet ”%1” är inte initierat.</translation>
         </message>
         <message>
             <location line="-50" />
             <source>Cannot retrieve last commit data of repository "%1".</source>
-            <translation>Kan inte hämta senaste arkivdata från arkivet "%1".</translation>
+            <translation>Kan inte hämta data om den senaste incheckningen i arkivet ”%1”.</translation>
         </message>
         <message>
             <location line="+184" />
             <source>Amended "%1".</source>
-            <translation>Ändrad %1.</translation>
+            <translation>Ändrade den senaste incheckningen ”%1”.</translation>
         </message>
         <message>
             <location line="+220" />
@@ -41765,12 +41765,12 @@ avsluta körsbärsplockningen.</translation>
         <message>
             <location line="+151" />
             <source>Git SVN Log</source>
-            <translation>Git SVN- logg</translation>
+            <translation>Git SVN-logg</translation>
         </message>
         <message>
             <location line="+115" />
             <source>Rebase, merge or am is in progress. Finish or abort it and then try again.</source>
-            <translation>Rebase, sammanslagning eller är på gång. Avsluta eller avbryta den och försök sedan igen.</translation>
+            <translation>Ombasering, sammanslagning eller am pågår. Slutför eller avbryt den och försök sedan igen.</translation>
         </message>
         <message>
             <location line="+88" />
@@ -41780,12 +41780,12 @@ avsluta körsbärsplockningen.</translation>
         <message>
             <location line="+5" />
             <source>No commits were found</source>
-            <translation>Inga åtaganden hittades</translation>
+            <translation>Inga incheckningar hittades</translation>
         </message>
         <message>
             <location line="+0" />
             <source>No local commits were found</source>
-            <translation>Inga lokala åtaganden hittades</translation>
+            <translation>Inga lokala incheckningar hittades</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gitplugin.cpp" line="-234" />
