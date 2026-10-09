@@ -24613,14 +24613,14 @@ förutsatt att de var oförändrade före åtgärden.</translation>
             <location line="-535" />
             <location line="+495" />
             <source>Expand All</source>
-            <translation>Expandera alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <location line="-481" />
             <location line="+494" />
             <location filename="../../../src/plugins/coreplugin/locator/locator.cpp" line="+66" />
             <source>Show Paths in Relation to Active Project</source>
-            <translation>Visa sökvägar i relation till aktivt projekt</translation>
+            <translation>Visa sökvägar relativt det aktiva projektet</translation>
         </message>
         <message>
             <location line="-485" />
@@ -24671,7 +24671,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+16" />
             <source>Type the prefix followed by a space and search term to restrict search to the filter.</source>
-            <translation>Skriv in prefixet följt av ett mellanslag och en sökord för att begränsa sökningen till filtret.</translation>
+            <translation>Skriv prefixet följt av ett mellanslag och sökordet för att begränsa sökningen till filtret.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -24715,7 +24715,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location filename="../../../src/plugins/coreplugin/customlanguagemodels.cpp" line="+63" />
             <source>Custom Language Models</source>
-            <translation>Modeller för eget språk</translation>
+            <translation>Egna språkmodeller</translation>
         </message>
         <message>
             <location line="+28" />
@@ -24729,18 +24729,18 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+1" />
             <source>&lt;New model&gt;</source>
-            <translation>&lt;New model&gt; Ordförande</translation>
+            <translation>&lt;Ny modell&gt;</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Executable</source>
-            <translation>Körbar fil</translation>
+            <translation>Körbar</translation>
         </message>
         <message>
             <location line="+1" />
             <location filename="../../../src/plugins/coreplugin/mcp/mcpmanager.cpp" line="+8" />
             <source>Executable:</source>
-            <translation>Körbar fil:</translation>
+            <translation>Körbar:</translation>
         </message>
         <message>
             <location line="+4" />
@@ -24816,7 +24816,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
             <location line="+1" />
             <source>Executable:</source>
             <comment>adjective</comment>
-            <translation>Körbar fil:</translation>
+            <translation>Körbar:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -25553,7 +25553,7 @@ att göra det skriver du in genvägen och ett utrymme i fältet för att söka e
             <location filename="../../../src/plugins/coreplugin/locator/spotlightlocatorfilter.cpp" line="-1" />
             <source>Executable:</source>
             <comment>noun</comment>
-            <translation>Körbar fil:</translation>
+            <translation>Körbar:</translation>
         </message>
         <message>
             <location line="+5" />
