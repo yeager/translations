@@ -27770,7 +27770,7 @@ dem från flera platser, till exempel från kitet och från projektet.</translat
         <message>
             <location line="+7" />
             <source>%1: Could not get file contents</source>
-            <translation>%1: Kunde inte få filinnehåll</translation>
+            <translation>%1: Det gick inte att hämta filinnehållet</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppcodestylesettingspage.cpp" line="+402" />
@@ -27785,7 +27785,7 @@ dem från flera platser, till exempel från kitet och från projektet.</translat
         <message>
             <location filename="../../../src/plugins/cppeditor/cppcodemodelsettings.cpp" line="+51" />
             <source>Interpret ambiguous headers as C headers</source>
-            <translation>Tolkning av tvetydiga rubriker som C-rubriker</translation>
+            <translation>Tolka tvetydiga headerfiler som C-headerfiler</translation>
         </message>
         <message>
             <location line="+27" />
@@ -27795,7 +27795,7 @@ dem från flera platser, till exempel från kitet och från projektet.</translat
         <message>
             <location line="+1" />
             <source>Indexing should almost always be kept enabled, as disabling it will severely limit the capabilities of the code model.</source>
-            <translation>Indexering bör nästan alltid vara aktiverad, eftersom inaktivera det kommer att kraftigt begränsa kapaciteten i kodmodellen.</translation>
+            <translation>Indexering bör nästan alltid vara aktiverad, eftersom en avaktivering kraftigt begränsar kodmodellens möjligheter.</translation>
         </message>
         <message>
             <location line="-24" />
@@ -27820,22 +27820,22 @@ dem från flera platser, till exempel från kitet och från projektet.</translat
         <message>
             <location line="-29" />
             <source>Ignore precompiled headers</source>
-            <translation>Ignorera förkompilerade headers</translation>
+            <translation>Ignorera förkompilerade headerfiler</translation>
         </message>
         <message>
             <location line="+1" />
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When precompiled headers are not ignored, the parsing for code completion and semantic highlighting will process the precompiled header before processing any file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;När förkompilerade rubriker inte ignoreras, kommer tolkning för kodkomplettering och semantisk markering att behandla det förkompilerade huvudet innan någon fil behandlas.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;När förkompilerade headerfiler inte ignoreras behandlar tolkningen för kodkomplettering och semantisk markering den förkompilerade headerfilen före andra filer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Use built-in preprocessor to show pre-processed files</source>
-            <translation>Använd inbyggd preprocessor för att visa förbehandlade filer</translation>
+            <translation>Använd den inbyggda förprocessorn för att visa förbehandlade filer</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Uncheck this to invoke the actual compiler to show a pre-processed source file in the editor.</source>
-            <translation>Avmarkera detta för att åberopa den faktiska kompilatorn för att visa en förbehandlad källkodsfil i editorn.</translation>
+            <translation>Avmarkera detta för att anropa den faktiska kompilatorn och visa en förbehandlad källfil i redigeraren.</translation>
         </message>
         <message>
             <location line="+155" />
@@ -27855,76 +27855,76 @@ dem från flera platser, till exempel från kitet och från projektet.</translat
         <message>
             <location line="+1" />
             <source>Bundled</source>
-            <translation>Bundlad</translation>
+            <translation>Medföljande</translation>
         </message>
         <message>
             <location line="+440" />
             <source>&lt;p&gt;If background indexing is enabled, global symbol searches will yield more accurate results, at the cost of additional CPU load when the project is first opened. The indexing result is persisted in the project's build directory. If you disable background indexing, a faster, but less accurate, built-in indexer is used instead. The thread priority for building the background index can be adjusted since clangd 15.&lt;/p&gt;&lt;p&gt;Background Priority: Minimum priority, runs on idle CPUs. May leave 'performance' cores unused.&lt;/p&gt;&lt;p&gt;Normal Priority: Reduced priority compared to interactive work.&lt;/p&gt;&lt;p&gt;Low Priority: Same priority as other clangd work.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;If background indexing is enabled, global symbol searches will yield more accurate results, at the cost of additional CPU load when the project is first opened. The indexing result is persisted in the project's build directory. If you disable background indexing, a faster, but less accurate, built-in indexer is used instead. The thread priority for building the background index can be adjusted since clangd 15.&lt;/p&gt;&lt;p&gt;Background Priority: Minimum priority, runs on idle CPUs. May leave 'performance' cores unused.&lt;/p&gt;&lt;p&gt;Normal Priority: Reduced priority compared to interactive work.&lt;/p&gt;&lt;p&gt;Low Priority: Same priority as other clangd work.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Om bakgrundsindexering är aktiverad ger globala symbolsökningar mer exakta resultat, till priset av högre CPU-belastning när projektet öppnas första gången. Indexeringsresultatet lagras i projektets byggkatalog. Om du inaktiverar bakgrundsindexering används i stället en snabbare men mindre exakt inbyggd indexerare. Trådprioriteten för att bygga bakgrundsindexet kan justeras sedan clangd 15.&lt;/p&gt;&lt;p&gt;Bakgrundsprioritet: Lägsta prioritet, körs på overksamma CPU:er. Kan lämna prestandakärnor oanvända.&lt;/p&gt;&lt;p&gt;Normal prioritet: Lägre prioritet än interaktivt arbete.&lt;/p&gt;&lt;p&gt;Låg prioritet: Samma prioritet som annat clangd-arbete.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+10" />
             <source>The location of the per-project clangd index.&lt;p&gt;This is also where the compile_commands.json file will go.</source>
-            <translation>Platsen för per-projekt cangd index.&lt;p&gt;Detta är också där compile_commands.json filen kommer att gå.</translation>
+            <translation>Platsen för clangd-indexet per projekt.&lt;p&gt;Här placeras även filen compile_commands.json.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>The location of the per-session clangd index.&lt;p&gt;This is also where the compile_commands.json file will go.</source>
-            <translation>Platsen för indexet per session.&lt;p&gt;Detta är också där filen compile_commands.json kommer att gå.</translation>
+            <translation>Platsen för clangd-indexet per session.&lt;p&gt;Här placeras även filen compile_commands.json.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>&lt;p&gt;The C/C++ backend to use for switching between header and source files.&lt;/p&gt;&lt;p&gt;While the clangd implementation has more capabilities than the built-in code model, it tends to find false positives.&lt;/p&gt;&lt;p&gt;When "Try Both" is selected, clangd is used only if the built-in variant does not find anything.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;C/C++-gränssnittet som ska användas för att byta mellan huvud- och källfiler.&lt;/p&gt;&lt;p&gt;Medan den klumpade implementeringen har fler funktioner än den inbyggda kodmodellen, tenderar den att hitta falska positiva.&lt;/p&gt;&lt;p&gt;När "Try Both" väljs används cangd endast om den inbyggda varianten inte hittar något.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;C/C++-bakänden som används för att växla mellan header- och källfiler.&lt;/p&gt;&lt;p&gt;Clangd-implementationen har fler funktioner än den inbyggda kodmodellen, men den tenderar att hitta falska träffar.&lt;/p&gt;&lt;p&gt;När ”Try Both” är valt används clangd bara om den inbyggda varianten inte hittar något.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+7" />
             <source>&lt;p&gt;Which model clangd should use to rank possible completions.&lt;/p&gt;&lt;p&gt;This determines the order of candidates in the combo box when doing code completion.&lt;/p&gt;&lt;p&gt;The "%1" model used by default results from (pre-trained) machine learning and provides superior results on average.&lt;/p&gt;&lt;p&gt;If you feel that its suggestions stray too much from your expectations for your code base, you can try switching to the hand-crafted "%2" model.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Which model clangd should use to rank possible completions.&lt;/p&gt;&lt;p&gt;This determines the order of candidates in the combo box when doing code completion.&lt;/p&gt;&lt;p&gt;The "%1" model used by default results from (pre-trained) machine learning and provides superior results on average.&lt;/p&gt;&lt;p&gt;If you feel that its suggestions stray too much from your expectations for your code base, you can try switching to the hand-crafted "%2" model.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Vilken modell clangd ska använda för att rangordna möjliga kompletteringar.&lt;/p&gt;&lt;p&gt;Det avgör ordningen på kandidaterna i kombinationsrutan vid kodkomplettering.&lt;/p&gt;&lt;p&gt;Modellen ”%1”, som används som standard, bygger på förtränad maskininlärning och ger i genomsnitt bättre resultat.&lt;/p&gt;&lt;p&gt;Om du upplever att förslagen avviker för mycket från dina förväntningar på kodbasen kan du prova att växla till den handgjorda modellen ”%2”.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+9" />
             <source>&lt;p&gt;Which granularity to use for completion items.&lt;/p&gt;&lt;p&gt;Determines whether to use one item per overload or bundle them together.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Vilken granularitet som ska användas för kompletteringsobjekt.&lt;/p&gt;&lt;p&gt;Determinerar om en artikel per överbelastning eller bunta ihop dem.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Vilken detaljnivå som ska användas för kompletteringsobjekt.&lt;/p&gt;&lt;p&gt;Avgör om ett objekt ska användas per överlagring eller om de ska grupperas.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Number of worker threads used by clangd. Background indexing also uses this many worker threads.</source>
-            <translation>Antal arbetstrådar som används av klangd. Bakgrundsindexering använder också så många arbetstrådar.</translation>
+            <translation>Antal arbetstrådar som används av clangd. Bakgrundsindexering använder också detta antal arbetstrådar.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Controls whether clangd may insert header files as part of symbol completion.</source>
-            <translation>Kontrollerar om cangd kan infoga huvudfiler som en del av symbolens komplettering.</translation>
+            <translation>Styr om clangd får infoga headerfiler som en del av symbolkomplettering.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&lt;p&gt;Controls whether when editing a header file, clangd should re-parse all source files including that header.&lt;/p&gt;&lt;p&gt;Note that enabling this option can cause considerable CPU load when editing widely included headers.&lt;/p&gt;&lt;p&gt;If this option is disabled, the dependent source files are only re-parsed when the header file is saved.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Controls whether when editing a header file, clangd should re-parse all source files including that header.&lt;/p&gt;&lt;p&gt;Note that enabling this option can cause considerable CPU load when editing widely included headers.&lt;/p&gt;&lt;p&gt;If this option is disabled, the dependent source files are only re-parsed when the header file is saved.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Styr om clangd ska tolka om alla källfiler som inkluderar headerfilen när en headerfil redigeras.&lt;/p&gt;&lt;p&gt;Observera att alternativet kan orsaka stor CPU-belastning när headerfiler som inkluderas på många ställen redigeras.&lt;/p&gt;&lt;p&gt;Om alternativet är inaktiverat tolkas beroende källfiler om först när headerfilen sparas.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+7" />
             <source>&lt;p&gt;Controls whether clangd will use an existing compile_commands.json file, rather than one set up by Qt Creator, which is the default.&lt;/p&gt;&lt;p&gt;When enabling this option, the user is responsible for providing a suitable file at the index location specified above, as well as for keeping that file in sync with the project state.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Controls whether clangd will use an existing compile_commands.json file, rather than one set up by Qt Creator, which is the default.&lt;/p&gt;&lt;p&gt;When enabling this option, the user is responsible for providing a suitable file at the index location specified above, as well as for keeping that file in sync with the project state.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Styr om clangd ska använda en befintlig fil compile_commands.json i stället för en som Qt Creator har skapat, vilket är standard.&lt;/p&gt;&lt;p&gt;När alternativet aktiveras ansvarar användaren för att tillhandahålla en lämplig fil på den indexplats som anges ovan och hålla filen synkroniserad med projektets tillstånd.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Defines the amount of time %1 waits before sending document changes to the server.
 If the document changes again while waiting, this timeout resets.</source>
-            <translation>Definierar hur mycket tid %1 väntar innan dokument ändras till servern.
-Om dokumentet ändras igen medan du väntar, återställs denna timeout.</translation>
+            <translation>Anger hur länge %1 väntar innan dokumentändringar skickas till servern.
+Om dokumentet ändras igen under väntan återställs tidsgränsen.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Files greater than this will not be opened as documents in clangd.
 The built-in code model will handle highlighting, completion and so on.</source>
-            <translation>Filer större än detta kommer inte att öppnas som dokument i cangd. Den
-inbyggda kodmodellen hanterar markering, komplettering och så vidare.</translation>
+            <translation>Filer som är större än detta öppnas inte som dokument i clangd.
+Den inbyggda kodmodellen hanterar markering, komplettering och så vidare.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>The maximum number of completion results returned by clangd.</source>
-            <translation>Maximalt antal resultat som returnerats av klangd.</translation>
+            <translation>Det högsta antalet kompletteringsresultat som clangd returnerar.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -27934,17 +27934,17 @@ inbyggda kodmodellen hanterar markering, komplettering och så vidare.</translat
         <message>
             <location line="+45" />
             <source>Insert header files on completion</source>
-            <translation>Infoga huvudfiler när de är färdiga</translation>
+            <translation>Infoga headerfiler vid komplettering</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Use externally provided compilation database</source>
-            <translation>Använd externt tillhandahållen sammanställningsdatabas</translation>
+            <translation>Använd externt tillhandahållen kompileringsdatabas</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Update dependent sources</source>
-            <translation>Uppdatera beroende källor</translation>
+            <translation>Uppdatera beroende källfiler</translation>
         </message>
         <message>
             <location line="+4" />
@@ -27959,7 +27959,7 @@ inbyggda kodmodellen hanterar markering, komplettering och så vidare.</translat
         <message>
             <location line="+9" />
             <source>Completion results:</source>
-            <translation>Slutresultat:</translation>
+            <translation>Kompletteringsresultat:</translation>
         </message>
         <message>
             <location line="+6" />
@@ -27979,32 +27979,32 @@ inbyggda kodmodellen hanterar markering, komplettering och så vidare.</translat
         <message>
             <location line="+5" />
             <source>Per-project index location:</source>
-            <translation>Index för varje projekt:</translation>
+            <translation>Plats för index per projekt:</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Per-session index location:</source>
-            <translation>Indexplats per session:</translation>
+            <translation>Plats för index per session:</translation>
         </message>
         <message>
             <location line="+25" />
             <source>Header/source switch mode:</source>
-            <translation>Header/source switch-läge:</translation>
+            <translation>Växlingsläge för header- och källfil:</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Worker thread count:</source>
-            <translation>Antalet arbetstrådar:</translation>
+            <translation>Antal arbetstrådar:</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Completion ranking model:</source>
-            <translation>Mall för avslutningsrankning:</translation>
+            <translation>Rangordningsmodell för komplettering:</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Completion style:</source>
-            <translation>Färdigställande stil:</translation>
+            <translation>Kompletteringsstil:</translation>
         </message>
         <message>
             <location line="+7" />
