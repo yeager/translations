@@ -10240,17 +10240,17 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+1" />
             <source>Dev</source>
-            <translation>Dev Ordförande</translation>
+            <translation>Dev</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Canary</source>
-            <translation>Sockerbetsrötter</translation>
+            <translation>Canary</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Include obsolete</source>
-            <translation>Inkludera föråldrat</translation>
+            <translation>Inkludera föråldrade</translation>
         </message>
         <message>
             <location line="+2" />
@@ -10280,7 +10280,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+5" />
             <source>Expand All</source>
-            <translation>Expandera alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androidsdkmanager.cpp" line="-6" />
@@ -10301,16 +10301,16 @@ Kontrollera utdatapanelen för mer information.</translation>
             <location filename="../../../src/plugins/android/androidsdkmanager.cpp" line="+552" />
             <location filename="../../../src/plugins/android/androidsettingswidget.cpp" line="+576" />
             <source>Android SDK Changes</source>
-            <translation>Android SDK- ändringar</translation>
+            <translation>Android SDK-ändringar</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androidsettingswidget.cpp" line="+1" />
             <source>%1 cannot find the following essential packages: "%2".
 Install them manually after the current operation is done.
 </source>
-            <translation>%1 kan inte hitta följande viktiga paket:
-"%2". Installera dem manuellt efter att
-den aktuella åtgärden har genomförts.</translation>
+            <translation>%1 kan inte hitta följande nödvändiga paket: ”%2”.
+Installera dem manuellt efter att den aktuella åtgärden är klar.
+</translation>
         </message>
         <message>
             <location line="+14" />
@@ -10325,27 +10325,27 @@ den aktuella åtgärden har genomförts.</translation>
         <message>
             <location line="+1" />
             <source>The installation of Android SDK packages may fail if the respective licenses are not accepted.</source>
-            <translation>Installationen av Android SDK-paket kan bli fel om respektive licenser inte har accepterats.</translation>
+            <translation>Installationen av Android SDK-paket kan misslyckas om respektive licens inte har godkänts.</translation>
         </message>
         <message>
             <location line="+76" />
             <source>Finished successfully.</source>
-            <translation>Färdigställdes.</translation>
+            <translation>Slutfördes.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Installing / Uninstalling selected packages...</source>
-            <translation>Installerar / avinstallerar valda paket…</translation>
+            <translation>Installerar/avinstallerar valda paket …</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Closing the preferences dialog will cancel the running and scheduled SDK operations.</source>
-            <translation>Att stänga inställningsdialogrutan avbryter de pågående och schemalagda SDK- åtgärderna.</translation>
+            <translation>Om inställningsdialogrutan stängs avbryts pågående och schemalagda SDK-åtgärder.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Closing the options dialog will cancel the running and scheduled SDK operations.</source>
-            <translation>Att stänga dialogrutan Alternativ avbryter de pågående och schemalagda SDK- åtgärderna.</translation>
+            <translation>Om alternativdialogrutan stängs avbryts pågående och schemalagda SDK-åtgärder.</translation>
         </message>
         <message>
             <location line="+11" />
@@ -10365,12 +10365,12 @@ den aktuella åtgärden har genomförts.</translation>
         <message>
             <location line="+287" />
             <source>[Packages to be uninstalled:]</source>
-            <translation>[Paket att avinstalleras:]</translation>
+            <translation>[Paket som ska avinstalleras:]</translation>
         </message>
         <message>
             <location line="+7" />
             <source>[Packages to be installed:]</source>
-            <translation>[Paket att installeras:]</translation>
+            <translation>[Paket som ska installeras:]</translation>
         </message>
         <message numerus="yes">
             <location line="-17" />
@@ -10393,7 +10393,7 @@ den aktuella åtgärden har genomförts.</translation>
         <message>
             <location line="+16" />
             <source>SDK manager arguments:</source>
-            <translation>SDK manager-argument:</translation>
+            <translation>SDK Manager-argument:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -10427,12 +10427,12 @@ den aktuella åtgärden har genomförts.</translation>
         <message>
             <location line="+3" />
             <source>Skin definition:</source>
-            <translation>Huddefinition:</translation>
+            <translation>Skindefinition:</translation>
         </message>
         <message>
             <location line="+42" />
             <source>Avd list command failed. %1 %2</source>
-            <translation>Kommandot Avd- lista misslyckades. %1 %2</translation>
+            <translation>Kommandot för AVD-lista misslyckades. %1 %2</translation>
         </message>
         <message>
             <location line="+100" />
@@ -10463,7 +10463,7 @@ den aktuella åtgärden har genomförts.</translation>
             <location filename="../../../src/plugins/android/androiddevice.cpp" line="+396" />
             <location filename="../../../src/plugins/android/avdcreatordialog.cpp" line="-253" />
             <source>SD card size:</source>
-            <translation>Storlek för SD-kort:</translation>
+            <translation>SD-kortets storlek:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/keystorecertificatedialog.cpp" line="+78" />
