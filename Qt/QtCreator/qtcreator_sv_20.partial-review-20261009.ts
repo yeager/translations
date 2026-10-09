@@ -32836,17 +32836,17 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="+17" />
             <source>Insert Symbol Server...</source>
-            <translation>Infoga symbolserver…</translation>
+            <translation>Lägg till symbolserver …</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Adds the Microsoft symbol server providing symbols for operating system libraries. Requires specifying a local cache directory.</source>
-            <translation>Lägger till Microsofts symbolserver som tillhandahåller symboler för operativsystemsbibliotek. Kräver att ange en lokal cachekatalog.</translation>
+            <translation>Lägger till Microsofts symbolserver, som tillhandahåller symboler för operativsystemsbibliotek. Kräver att en lokal cachekatalog anges.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Insert Symbol Cache...</source>
-            <translation>Infoga symbolcache…</translation>
+            <translation>Lägg till symbolcache …</translation>
         </message>
         <message>
             <location line="+5" />
@@ -32856,7 +32856,7 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="+3" />
             <source>Configure Symbol paths that are used to locate debug symbol files.</source>
-            <translation>Anpassa symbolsökvägar som används för att hitta felsökningssymbolfiler.</translation>
+            <translation>Konfigurera symbolsökvägarna som används för att hitta filer med felsökningssymboler.</translation>
         </message>
         <message>
             <location line="-32" />
@@ -32879,22 +32879,22 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="+307" />
             <source>Pdb I/O Error</source>
-            <translation>Fel vid i/ O- fel</translation>
+            <translation>Pdb-I/O-fel</translation>
         </message>
         <message>
             <location line="-31" />
             <source>The Pdb process crashed some time after starting successfully.</source>
-            <translation>Processen Pdb kraschade någon gång efter att ha startat framgångsrikt.</translation>
+            <translation>Pdb-processen kraschade en stund efter att den startats.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/dap/dapengine.cpp" line="-113" />
             <source>The DAP process failed to start. Either the invoked program "%1" is missing, or you may have insufficient permissions to invoke the program.</source>
-            <translation>DAP- processen misslyckades starta. Antingen saknas det uppropade programmet "%1" eller så har du inte tillräckligt med behörigheter för att åberopa programmet.</translation>
+            <translation>DAP-processen kunde inte startas. Antingen saknas det anropade programmet ”%1” eller så saknar du behörighet att starta det.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>The DAP process crashed some time after starting successfully.</source>
-            <translation>DAP-processen kraschade någon gång efter att ha startat framgångsrikt.</translation>
+            <translation>DAP-processen kraschade en stund efter att den startats.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -32906,12 +32906,12 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="+4" />
             <source>An error occurred when attempting to write to the DAP process. For example, the process may not be running, or it may have closed its input channel.</source>
-            <translation>Ett fel uppstod när man försökte skriva till DAP- processen. Till exempel kanske processen inte körs, eller så kan den ha stängt sin inmatningskanal.</translation>
+            <translation>Ett fel uppstod när skrivning till DAP-processen försöktes. Processen kanske inte körs eller kan ha stängt sin inmatningskanal.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>An error occurred when attempting to read from the DAP process. For example, the process may not be running.</source>
-            <translation>Ett fel uppstod när man försökte läsa från DAP- processen. Till exempel kanske processen inte körs.</translation>
+            <translation>Ett fel uppstod när läsning från DAP-processen försöktes. Processen kanske inte körs.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -32921,7 +32921,7 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="+21" />
             <source>DAP I/O Error</source>
-            <translation>Fel vid fel vid fel vid I/ O</translation>
+            <translation>DAP-I/O-fel</translation>
         </message>
         <message>
             <location line="+74" />
@@ -32931,17 +32931,17 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location filename="../../../src/plugins/debugger/pdb/pdbengine.cpp" line="-8" />
             <source>The Pdb process failed to start. Either the invoked program "%1" is missing, or you may have insufficient permissions to invoke the program.</source>
-            <translation>Processen Pdb misslyckades starta. Antingen saknas det åberopade programmet "%1" eller så har du inte tillräckligt med behörigheter för att åberopa programmet.</translation>
+            <translation>Pdb-processen kunde inte startas. Antingen saknas det anropade programmet ”%1” eller så saknar du behörighet att starta det.</translation>
         </message>
         <message>
             <location line="+12" />
             <source>An error occurred when attempting to write to the Pdb process. For example, the process may not be running, or it may have closed its input channel.</source>
-            <translation>Ett fel uppstod när man försökte skriva till Pdb- processen. Till exempel kanske processen inte körs, eller så kan den ha stängt sin inmatningskanal.</translation>
+            <translation>Ett fel uppstod när skrivning till Pdb-processen försöktes. Processen kanske inte körs eller kan ha stängt sin inmatningskanal.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>An error occurred when attempting to read from the Pdb process. For example, the process may not be running.</source>
-            <translation>Ett fel uppstod när Pdb- processen försökte läsa. Till exempel kanske processen inte körs.</translation>
+            <translation>Ett fel uppstod när läsning från Pdb-processen försöktes. Processen kanske inte körs.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -33002,12 +33002,12 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="+3" />
             <source>T&amp;racepoint only:</source>
-            <translation>dast T&amp;racepoint:</translation>
+            <translation>Endast T&amp;racepoint:</translation>
         </message>
         <message>
             <location line="+4" />
             <source>&amp;One shot only:</source>
-            <translation>dast &amp;One-skott:</translation>
+            <translation>Endast e&amp;ngångsbrytpunkt:</translation>
         </message>
         <message>
             <location line="+21" />
@@ -33022,7 +33022,7 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="-14" />
             <source>Use Engine Default</source>
-            <translation>Använd motorstandard</translation>
+            <translation>Använd felsökarens standard</translation>
         </message>
         <message>
             <location line="+1" />
@@ -33048,13 +33048,13 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
             <location line="+6" />
             <location line="+394" />
             <source>&amp;Ignore count:</source>
-            <translation>&amp;Ignorera antal:</translation>
+            <translation>&amp;Ignoreringsantal:</translation>
         </message>
         <message>
             <location line="-390" />
             <location line="+391" />
             <source>&amp;Thread specification:</source>
-            <translation>&amp;Thread-specifikation:</translation>
+            <translation>&amp;Trådspecifikation:</translation>
         </message>
         <message>
             <location line="-464" />
@@ -33503,7 +33503,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location filename="../../../src/plugins/debugger/breakhandler.cpp" line="-1292" />
             <source>&amp;Condition:</source>
-            <translation>&amp;Condition:</translation>
+            <translation>&amp;Villkor:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerdialogs.cpp" line="-118" />
