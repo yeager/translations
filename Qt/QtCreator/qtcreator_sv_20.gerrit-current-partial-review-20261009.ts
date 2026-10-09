@@ -36050,7 +36050,7 @@ Det kan hjälpa att bygga om projektet.</translation>
     <name>QtC::DesignerCore</name>
     <message>
         <source>Failed to create item of type %1.</source>
-        <translation>Kunde inte skapa objekt av typen %1.</translation>
+        <translation>Kunde inte skapa ett objekt av typen %1.</translation>
     </message>
     <message>
         <source>Invalid meta info.</source>
@@ -36062,7 +36062,7 @@ Det kan hjälpa att bygga om projektet.</translation>
     </message>
     <message>
         <source>No property definition allowed.</source>
-        <translation>Ingen egenskapsdefinition tillåts.</translation>
+        <translation>Egenskapsdefinition är inte tillåten.</translation>
     </message>
     <message>
         <source>Unknown property for Type &quot;%1.&quot;.</source>
@@ -36088,7 +36088,7 @@ Det kan hjälpa att bygga om projektet.</translation>
     </message>
     <message>
         <source>Invalid or duplicate library entry &quot;%1.&quot;.</source>
-        <translation>Ogiltig eller dubblettbibliotekspost ”%1.”.</translation>
+        <translation>Ogiltig eller dubblett av biblioteksposten ”%1.”.</translation>
     </message>
     <message>
         <source>Invalid type &quot;%1.&quot;.</source>
@@ -36116,15 +36116,15 @@ Det kan hjälpa att bygga om projektet.</translation>
     </message>
     <message>
         <source>ID cannot start with an uppercase character (%1).</source>
-        <translation>Id får inte börja med ett versalt tecken (%1).</translation>
+        <translation>ID får inte börja med ett versalt tecken (%1).</translation>
     </message>
     <message>
         <source>ID cannot start with a number (%1).</source>
-        <translation>Id får inte börja med en siffra (%1).</translation>
+        <translation>ID får inte börja med en siffra (%1).</translation>
     </message>
     <message>
         <source>ID cannot include whitespace (%1).</source>
-        <translation>Id får inte innehålla blanksteg (%1).</translation>
+        <translation>ID får inte innehålla blanksteg (%1).</translation>
     </message>
     <message>
         <source>%1 is a reserved QML keyword.</source>
@@ -36140,7 +36140,7 @@ Det kan hjälpa att bygga om projektet.</translation>
     </message>
     <message>
         <source>ID includes invalid characters (%1).</source>
-        <translation>Id innehåller ogiltiga tecken (%1).</translation>
+        <translation>ID innehåller ogiltiga tecken (%1).</translation>
     </message>
     <message>
         <source>Failed to create instance of file &quot;%1&quot;: %2</source>
@@ -36184,11 +36184,11 @@ Det kan hjälpa att bygga om projektet.</translation>
     </message>
     <message>
         <source>Qt Quick 6 is not supported with a Qt 5 kit.</source>
-        <translation>Qt Quick 6 stöds inte med en Qt 5-byggsats.</translation>
+        <translation>Qt Quick 6 stöds inte med ett Qt 5-kit.</translation>
     </message>
     <message>
         <source>The Design Mode requires a valid Qt kit.</source>
-        <translation>Designläget kräver en giltig Qt-byggsats.</translation>
+        <translation>Designläget kräver ett giltigt Qt-kit.</translation>
     </message>
     <message>
         <source>No import for Qt Quick found.</source>
