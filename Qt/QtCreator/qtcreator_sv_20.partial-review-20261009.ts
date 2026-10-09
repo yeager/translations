@@ -23412,7 +23412,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <source>Reset to default.</source>
             <comment>Color</comment>
-            <translation>Återställ till standard.</translation>
+            <translation>Återställ till standardvärdet.</translation>
         </message>
         <message>
             <source>Reset to default.</source>
@@ -26284,7 +26284,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location filename="../../../src/plugins/coreplugin/actionmanager/commandmappings.cpp" line="-7" />
             <source>Reset all to default.</source>
-            <translation>Nollställ alla till standard.</translation>
+            <translation>Återställ alla till standardvärdena.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/mimetypesettings.cpp" line="-417" />
@@ -26301,7 +26301,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="-411" />
             <source>Reset the assigned handler for all MIME type definitions to the default.</source>
-            <translation>Återställ den tilldelade handledaren för alla MIME-typer till standard.</translation>
+            <translation>Återställ den tilldelade hanteraren för alla MIME-typdefinitioner till standardvärdet.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -26318,17 +26318,17 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="-406" />
             <source>A semicolon-separated list of wildcarded file names.</source>
-            <translation>semikolon-separerad lista med jokertecken filnamn.</translation>
+            <translation>En semikolonseparerad lista med filnamn som innehåller jokertecken.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Magic Header</source>
-            <translation>Magisk huvud</translation>
+            <translation>Magiskt filhuvud</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Range</source>
-            <translation>Avstånd</translation>
+            <translation>Intervall</translation>
         </message>
         <message>
             <location line="+1" />
@@ -26338,7 +26338,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+232" />
             <source>Changes will take effect after restart.</source>
-            <translation>Ändringar tar effekt efter omstart.</translation>
+            <translation>Ändringarna träder i kraft efter omstart.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/locator/directoryfilter.cpp" line="-100" />
@@ -26365,12 +26365,12 @@ Vill du skriva över dem?</translation>
             <location filename="../../../src/plugins/coreplugin/documentmanager.cpp" line="-868" />
             <source>Could not save the files.</source>
             <comment>error message</comment>
-            <translation>Kunde inte spara filerna.</translation>
+            <translation>Det gick inte att spara filerna.</translation>
         </message>
         <message>
             <location line="+51" />
             <source>Error while saving file: %1</source>
-            <translation>Fel vid sparning av filen: %1</translation>
+            <translation>Fel när filen sparades: %1</translation>
         </message>
         <message>
             <location line="+21" />
@@ -26392,7 +26392,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+1" />
             <source>An item named "%1" already exists at this location. Do you want to overwrite it?</source>
-            <translation>En post med namnet "%1" finns redan på denna plats. Vill du skriva över den?</translation>
+            <translation>En post med namnet ”%1” finns redan på den här platsen. Vill du skriva över den?</translation>
         </message>
         <message>
             <location line="+57" />
@@ -26417,7 +26417,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+295" />
             <source>File was restored from auto-saved copy. Select Save to confirm or Revert to Saved to discard changes.</source>
-            <translation>Filen återställdes från en kopia som sparats automatiskt. Välj Spara för att bekräfta eller ändra till Sparad för att kasta ändringar.</translation>
+            <translation>Filen återställdes från en automatiskt sparad kopia. Välj Spara för att bekräfta eller Återställ till sparad version för att förkasta ändringarna.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/locator/executefilter.cpp" line="+30" />
@@ -26428,23 +26428,23 @@ Vill du skriva över dem?</translation>
             <location line="+65" />
             <source>Previous command is still running ("%1").
 Do you want to kill it?</source>
-            <translation>Föregående kommando körs fortfarande ("%1").
-Vill du döda det?</translation>
+            <translation>Föregående kommando körs fortfarande (”%1”).
+Vill du avsluta det?</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Kill Previous Process?</source>
-            <translation>Döda tidigare process?</translation>
+            <translation>Avsluta föregående process?</translation>
         </message>
         <message>
             <location line="+42" />
             <source>Could not find executable for "%1".</source>
-            <translation>Kunde inte hitta körbar fil för "%1".</translation>
+            <translation>Kunde inte hitta den körbara filen för ”%1”.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Starting command "%1".</source>
-            <translation>Startar kommandot "%1".</translation>
+            <translation>Startar kommandot ”%1”.</translation>
         </message>
         <message>
             <location line="-117" />
