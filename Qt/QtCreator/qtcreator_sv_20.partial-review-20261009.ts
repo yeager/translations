@@ -72353,7 +72353,7 @@ Dessutom infogar Shift+Enter ett escape-tecken vid markörens position och flytt
         <message>
             <location line="+1" />
             <source>Show a visual hint when for example a brace or a quote is automatically inserted by the editor.</source>
-            <translation>Visa en visuell antydan när till exempel en tandställning eller en offert automatiskt infogas av editorn.</translation>
+            <translation>Visa en visuell antydan när redigeraren till exempel automatiskt infogar en klammerparentes eller ett citattecken.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -72368,17 +72368,17 @@ Dessutom infogar Shift+Enter ett escape-tecken vid markörens position och flytt
         <message>
             <location line="+1" />
             <source>Skip automatically inserted character if re-typed manually after completion or by pressing tab.</source>
-            <translation>Hoppa automatiskt in i tecknet om omskrivning skrivs in manuellt efter slutförandet eller genom att trycka på fliken.</translation>
+            <translation>Hoppa över det automatiskt infogade tecknet om det skrivs igen manuellt efter kompletteringen eller genom att trycka på Tabb.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Remove automatically inserted text on backspace</source>
-            <translation>Ta bort automatiskt infogad text med backsteg</translation>
+            <translation>Ta bort automatiskt infogad text med backstegstangenten</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Remove the automatically inserted character if the trigger is deleted by backspace after the completion.</source>
-            <translation>Ta bort det automatiskt infogade tecknet om utlösaren raderas av backspace efter kompletteringen.</translation>
+            <translation>Ta bort det automatiskt infogade tecknet om utlösaren raderas med backstegstangenten efter kompletteringen.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -72388,7 +72388,7 @@ Dessutom infogar Shift+Enter ett escape-tecken vid markörens position och flytt
         <message>
             <location line="+1" />
             <source>Automatically overwrite closing parentheses and quotes.</source>
-            <translation>Skriv automatiskt över avslutande paranteser och citattecken.</translation>
+            <translation>Skriv automatiskt över avslutande parenteser och citattecken.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/commentssettings.cpp" line="+103" />
@@ -72408,7 +72408,7 @@ Dessutom infogar Shift+Enter ett escape-tecken vid markörens position och flytt
         <message>
             <location line="+2" />
             <source>Generates a &lt;i&gt;brief&lt;/i&gt; command with an initial description for the corresponding declaration.</source>
-            <translation>Skapar ett &lt;i&gt;brief&lt;/i&gt; kommando med en inledande beskrivning för motsvarande deklaration.</translation>
+            <translation>Skapar kommandot &lt;i&gt;brief&lt;/i&gt; med en inledande beskrivning av motsvarande deklaration.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -72418,7 +72418,7 @@ Dessutom infogar Shift+Enter ett escape-tecken vid markörens position och flytt
         <message>
             <location line="+2" />
             <source>Adds leading asterisks when continuing C/C++ "/*", Qt "/*!" and Java "/**" style comments on new lines.</source>
-            <translation>Lägger till ledande asterisker när C/C++ "/*", Qt "/*!" och Java "/**" stil kommentarer på nya linjer.</translation>
+            <translation>Lägger till inledande asterisker när kommentarer i C/C++-stil med ”/*”, Qt-stil med ”/*!”, och Java-stil med ”/**” fortsätter på nya rader.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -72431,8 +72431,8 @@ Dessutom infogar Shift+Enter ett escape-tecken vid markörens position och flytt
 By default, "@" is used if the surrounding comment starts with "/**" or "///", and "\" is used
 if the comment starts with "/*!" or "//!".</source>
             <translation>Doxygen tillåter att ”@” och ”\” inleder kommandon.
-Som standard används ”@” om den omgivande kommentaren börjar med ”/**” eller ”///” och ”\” används
-om kommentaren börjar med ”/*!" eller ”//!”.</translation>
+Som standard används ”@” om den omgivande kommentaren börjar med ”/**” eller ”///”, och ”\” används
+om kommentaren börjar med ”/*! ” eller ”//!”.</translation>
         </message>
         <message>
             <location line="+65" />
@@ -72457,7 +72457,7 @@ om kommentaren börjar med ”/*!" eller ”//!”.</translation>
         <message>
             <location line="+1" />
             <source>When Triggered</source>
-            <translation>När de blev utlösta</translation>
+            <translation>Vid utlösning</translation>
         </message>
         <message>
             <location line="+101" />
@@ -72526,8 +72526,8 @@ om kommentaren börjar med ”/*!" eller ”//!”.</translation>
             <location line="-502" />
             <source>A line spacing value other than 100% disables text wrapping.
 A value less than 100% can result in overlapping and misaligned graphics.</source>
-            <translation>Ett radavståndsvärde som inte är 100% inaktiverar textomslag. Ett värde
-som är mindre än 100% kan resultera i överlappande och feljusterad grafik.</translation>
+            <translation>Ett radavstånd som inte är 100 % inaktiverar radbrytning.
+Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</translation>
         </message>
         <message>
             <location line="+19" />
@@ -72547,7 +72547,7 @@ som är mindre än 100% kan resultera i överlappande och feljusterad grafik.</t
         <message>
             <location line="+6" />
             <source>Color Scheme for Theme "%1"</source>
-            <translation>Färgschema för temat "%1"</translation>
+            <translation>Färgschema för temat ”%1”</translation>
         </message>
         <message>
             <location line="+364" />
@@ -72596,7 +72596,7 @@ som är mindre än 100% kan resultera i överlappande och feljusterad grafik.</t
         <message>
             <location line="+1" />
             <source>The color scheme "%1" was modified, do you want to save the changes?</source>
-            <translation>Färgschemat "%1" ändrades. Vill du spara ändringarna?</translation>
+            <translation>Färgschemat ”%1” har ändrats. Vill du spara ändringarna?</translation>
         </message>
         <message>
             <location line="+7" />
@@ -72611,7 +72611,7 @@ som är mindre än 100% kan resultera i överlappande och feljusterad grafik.</t
         <message>
             <location line="+16" />
             <source>File "%1":</source>
-            <translation>Fil "%1":</translation>
+            <translation>Filen ”%1”:</translation>
         </message>
         <message>
             <location line="+6" />
