@@ -71700,7 +71700,7 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location filename="../../../src/plugins/swift/swiftplugin.cpp" line="+76" />
             <source>Set up Swift language server (%1).</source>
-            <translation>Ställ in Swift language server (%1).</translation>
+            <translation>Ställ in Swift-språkservern (%1).</translation>
         </message>
         <message>
             <location line="+2" />
@@ -71710,7 +71710,7 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="+8" />
             <source>Swift Language Server</source>
-            <translation>Snabb språkserver</translation>
+            <translation>Swift-språkserver</translation>
         </message>
     </context>
     <context>
