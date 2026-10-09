@@ -13047,22 +13047,22 @@ Körbar fil: %2</translation>
             <location line="+5" />
             <location filename="../../../src/plugins/autotest/gtest/gtestframework.cpp" line="+69" />
             <source>Seed:</source>
-            <translation>För utsäde:</translation>
+            <translation>Slumpfrö:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>A seed of 0 means no randomization. A value of 1 uses the current time, any other value is used as random seed generator.</source>
-            <translation>Ett frö av 0 betyder ingen randomisering. Ett värde av 1 använder den nuvarande tiden, något annat värde används som slumpmässig frögenerator.</translation>
+            <translation>Ett frövärde på 0 innebär ingen slumpning. Värdet 1 använder den aktuella tiden; alla andra värden används som slumpfrö.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Randomize</source>
-            <translation>Slumpmässig</translation>
+            <translation>Slumpa</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Randomize execution order.</source>
-            <translation>Slumpmässiga avrättningsordern.</translation>
+            <translation>Slumpa körordningen.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -13077,7 +13077,7 @@ Körbar fil: %2</translation>
         <message>
             <location line="+4" />
             <source>Floating point exceptions</source>
-            <translation>Undantag från punkt för flytande bränsle</translation>
+            <translation>Flyttalsundantag</translation>
         </message>
         <message>
             <location line="+1" />
@@ -13092,14 +13092,14 @@ Körbar fil: %2</translation>
         <message>
             <location line="+1" />
             <source>Enable memory leak detection.</source>
-            <translation>Aktivera upptäckter av minnesläckage.</translation>
+            <translation>Aktivera upptäckt av minnesläckor.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/boost/boosttesttreeitem.cpp" line="+315" />
             <location filename="../../../src/plugins/autotest/catch/catchtreeitem.cpp" line="+305" />
             <location filename="../../../src/plugins/autotest/gtest/gtesttreeitem.cpp" line="+479" />
             <source>parameterized</source>
-            <translation>Parameteriserad</translation>
+            <translation>parametriserat</translation>
         </message>
         <message>
             <location line="+0" />
@@ -13110,13 +13110,13 @@ Körbar fil: %2</translation>
         <message>
             <location line="+0" />
             <source>templated</source>
-            <translation>mallerad</translation>
+            <translation>mallbaserat</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/catch/catchtestframework.cpp" line="+33" />
             <location line="+111" />
             <source>Catch Test</source>
-            <translation>Fånga test</translation>
+            <translation>Catch-test</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/catch/catchoutputreader.cpp" line="+105" />
@@ -13131,27 +13131,27 @@ Körbar fil: %2</translation>
         <message>
             <location line="+7" />
             <source>%1 "%2" passed.</source>
-            <translation>%1 "%2" lyckades.</translation>
+            <translation>%1 ”%2” godkändes.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Expression passed.</source>
-            <translation>Uttrycket gick över.</translation>
+            <translation>Uttrycket godkändes.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Finished executing %1 "%2".</source>
-            <translation>Färdigkörd %1 "%2".</translation>
+            <translation>Körningen av %1 ”%2” är klar.</translation>
         </message>
         <message>
             <location line="-7" />
             <source>Expression failed: %1</source>
-            <translation>Uttryck misslyckades: %1</translation>
+            <translation>Uttrycket misslyckades: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/catch/catchtestframework.cpp" line="-84" />
             <source>Number of resamples for bootstrapping.</source>
-            <translation>Antal omprov för bootstrappa.</translation>
+            <translation>Antal omsamplingar för bootstrapning.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -13171,37 +13171,37 @@ Körbar fil: %2</translation>
         <message>
             <location line="+3" />
             <source>Benchmark samples</source>
-            <translation>Riktmärken</translation>
+            <translation>Prover för prestandamätning</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Number of samples to collect while running benchmarks.</source>
-            <translation>Antal prover som ska samlas in under körning av riktmärken.</translation>
+            <translation>Antal prover som samlas in vid prestandamätning.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Benchmark resamples</source>
-            <translation>Omprov av riktmärkning</translation>
+            <translation>Omsamplingar för prestandamätning</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Number of resamples used for statistical bootstrapping.</source>
-            <translation>Antal omprov som använts för statistisk bootstrappning.</translation>
+            <translation>Antal omsamplingar för statistisk bootstrapning.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Confidence interval used for statistical bootstrapping.</source>
-            <translation>Konfidensintervall som används för statistisk bootstrappa.</translation>
+            <translation>Konfidensintervall för statistisk bootstrapning.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Benchmark confidence interval</source>
-            <translation>Riktmärke för konfidensintervall</translation>
+            <translation>Konfidensintervall för prestandamätning</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Benchmark warmup time</source>
-            <translation>Referenstid för uppvärmning</translation>
+            <translation>Uppvärmningstid för prestandamätning</translation>
         </message>
         <message>
             <location line="+1" />
@@ -13211,22 +13211,22 @@ Körbar fil: %2</translation>
         <message>
             <location line="+3" />
             <source>Disable analysis</source>
-            <translation>Inaktivera analyser</translation>
+            <translation>Inaktivera analys</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Disables statistical analysis and bootstrapping.</source>
-            <translation>Inaktiverar statistisk analys och bootstrappa.</translation>
+            <translation>Inaktiverar statistisk analys och bootstrapning.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Show success</source>
-            <translation>Visa att det lyckas</translation>
+            <translation>Visa godkända</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Show success for tests.</source>
-            <translation>Visa att tester lyckas.</translation>
+            <translation>Visa godkända tester.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -13243,12 +13243,12 @@ Körbar fil: %2</translation>
         <message>
             <location line="+3" />
             <source>Skip throwing assertions</source>
-            <translation>Hoppa över kasta påståenden</translation>
+            <translation>Hoppa över undantagskastande assertioner</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Skips all assertions that test for thrown exceptions.</source>
-            <translation>Hoppar över alla påståenden som testar bortkastade undantag.</translation>
+            <translation>Hoppar över alla assertioner som kontrollerar om undantag kastas.</translation>
         </message>
         <message>
             <location line="+3" />
