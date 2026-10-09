@@ -37120,7 +37120,7 @@ Det kan hjälpa att bygga om projektet.</translation>
     </message>
     <message>
         <source>This property specifies how much of extra space is reserved for the effect outside the parent geometry.</source>
-        <translation>Denna egenskap anger hur mycket extra utrymme som reserveras för effekten utanför överordnad geometri.</translation>
+        <translation>Den här egenskapen anger hur mycket extra utrymme som reserveras för effekten utanför den överordnade geometrin.</translation>
     </message>
     <message>
         <source>Failed to write QEN file for effect:
