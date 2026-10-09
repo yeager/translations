@@ -65796,26 +65796,26 @@ Sparandet misslyckades.</translation>
         <message>
             <location filename="../../../src/plugins/qmlprofiler/qmlprofilersettings.cpp" line="-44" />
             <source>Flush data while profiling:</source>
-            <translation>Spola data under profilering:</translation>
+            <translation>Töm data under profilering:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Periodically flush pending data to the profiler. This reduces the delay when loading the
 data and the memory usage in the application. It distorts the profile as the flushing
 itself takes time.</source>
-            <translation>Spola regelbundet väntande data till profilatorn. Detta minskar
-fördröjningen när data och minnesanvändning laddas i programmet.
-Det förvränger profilen när själva spolningen tar tid.</translation>
+            <translation>Töm regelbundet väntande data till profileraren. Det minskar fördröjningen när
+data läses in och minnesanvändningen i programmet. Profileringen förvrängs eftersom
+tömningen i sig tar tid.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Flush interval (ms):</source>
-            <translation>Flushintervall (ms):</translation>
+            <translation>Tömningsintervall (ms):</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Process data only when process ends:</source>
-            <translation>Processdata endast när processen avslutas:</translation>
+            <translation>Bearbeta data först när processen avslutas:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -65823,22 +65823,22 @@ Det förvränger profilen när själva spolningen tar tid.</translation>
 session ends. This way multiple recording sessions can be aggregated in a single trace,
 for example if multiple QML engines start and stop sequentially during a single run of
 the program.</source>
-            <translation>Processera bara data när processen som profileras avslutas, inte när
-den aktuella inspelningssessionen avslutas. På så sätt kan flera
-inspelningssessioner aggregeras i ett enda spår, till exempel om flera QML-
-motorer startar och slutar i följd under en enda körning av programmet.</translation>
+            <translation>Bearbeta endast data när processen som profileras avslutas, inte när den aktuella
+inspelningssessionen avslutas. På så sätt kan flera inspelningssessioner samlas i ett spår,
+till exempel om flera QML-motorer startar och stannar i följd under en körning av
+programmet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmlprofiler/quick3dframemodel.cpp" line="-3" />
             <location line="+229" />
             <location line="+10" />
             <source>Frame</source>
-            <translation>Ram</translation>
+            <translation>Bildruta</translation>
         </message>
         <message>
             <location line="-230" />
             <source>Frame Delta</source>
-            <translation>Ramdelta</translation>
+            <translation>Bildrutedelta</translation>
         </message>
         <message>
             <location line="+3" />
@@ -65878,7 +65878,7 @@ motorer startar och slutar i följd under en enda körning av programmet.</trans
         <message>
             <location filename="../../../src/plugins/qmlprofiler/quick3dframeview.cpp" line="-118" />
             <source>Quick3D Frame</source>
-            <translation>Snabb 3D-ram</translation>
+            <translation>Quick3D-bildruta</translation>
         </message>
         <message>
             <location line="+24" />
@@ -65888,7 +65888,7 @@ motorer startar och slutar i följd under en enda körning av programmet.</trans
         <message>
             <location line="+1" />
             <source>Compare Frame</source>
-            <translation>Jämför ram</translation>
+            <translation>Jämför bildruta</translation>
         </message>
         <message>
             <location line="+18" />
@@ -65899,42 +65899,42 @@ motorer startar och slutar i följd under en enda körning av programmet.</trans
         <message>
             <location filename="../../../src/plugins/qmlprofiler/quick3dmodel.cpp" line="-137" />
             <source>Render Frame</source>
-            <translation>Rendera ram</translation>
+            <translation>Rendera bildruta</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Synchronize Frame</source>
-            <translation>Synkronisera ram</translation>
+            <translation>Synkronisera bildruta</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Prepare Frame</source>
-            <translation>Förbered ram</translation>
+            <translation>Förbered bildruta</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Mesh Load</source>
-            <translation>Mesh-belastning</translation>
+            <translation>Läs in mesh</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Custom Mesh Load</source>
-            <translation>Egen mesh- belastning</translation>
+            <translation>Läs in anpassad mesh</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Texture Load</source>
-            <translation>Texturbelastning</translation>
+            <translation>Läs in textur</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Generate Shader</source>
-            <translation>Skapa skugga</translation>
+            <translation>Generera skuggprogram</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Load Shader</source>
-            <translation>Ladda skugga</translation>
+            <translation>Läs in skuggprogram</translation>
         </message>
         <message>
             <location line="+1" />
@@ -65944,12 +65944,12 @@ motorer startar och slutar i följd under en enda körning av programmet.</trans
         <message>
             <location line="+1" />
             <source>Render Call</source>
-            <translation>Återgivningssamtal</translation>
+            <translation>Renderingsanrop</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Render Pass</source>
-            <translation>Återlämna pass</translation>
+            <translation>Renderingspass</translation>
         </message>
         <message>
             <location line="+1" />
@@ -65959,32 +65959,32 @@ motorer startar och slutar i följd under en enda körning av programmet.</trans
         <message>
             <location line="+2" />
             <source>Mesh Memory consumption</source>
-            <translation>Mesh Minnesförbrukning</translation>
+            <translation>Minnesanvändning för mesh</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Texture Memory consumption</source>
-            <translation>Textur Minnesförbrukning</translation>
+            <translation>Minnesanvändning för textur</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Mesh Unload</source>
-            <translation>Avlasta mask</translation>
+            <translation>Avlasta mesh</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Custom Mesh Unload</source>
-            <translation>Anpassad mesh avlasta</translation>
+            <translation>Avlasta anpassad mesh</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Texture Unload</source>
-            <translation>Texturen avladdar</translation>
+            <translation>Avlasta textur</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Unknown Unload Message %1</source>
-            <translation>Okänd avladdning av brev %1</translation>
+            <translation>Okänt avlastningsmeddelande %1</translation>
         </message>
         <message>
             <location line="+82" />
@@ -65999,12 +65999,12 @@ motorer startar och slutar i följd under en enda körning av programmet.</trans
         <message>
             <location line="+4" />
             <source>Draw Calls</source>
-            <translation>Rita anrop</translation>
+            <translation>Ritanrop</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Render Passes</source>
-            <translation>Rendera passerkort</translation>
+            <translation>Renderingspass</translation>
         </message>
         <message>
             <location line="+10" />
@@ -66024,7 +66024,7 @@ motorer startar och slutar i följd under en enda körning av programmet.</trans
         <message>
             <location filename="../../../src/plugins/qmlprofiler/scenegraphtimelinemodel.cpp" line="-86" />
             <source>Render Thread Details</source>
-            <translation>Återge detaljer i tråden</translation>
+            <translation>Information om renderingstråd</translation>
         </message>
         <message>
             <location line="+4" />
