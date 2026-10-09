@@ -22171,7 +22171,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location filename="../../../src/plugins/conan/conaninstallstep.cpp" line="+76" />
             <source>Conan install</source>
-            <translation>Conan- installation</translation>
+            <translation>Conan-installation</translation>
         </message>
         <message>
             <location line="+4" />
@@ -22218,7 +22218,7 @@ Koden har kopierats till ditt urklipp.</translation>
         <message>
             <location line="+11" />
             <source>Login Failed</source>
-            <translation>Inloggning misslyckades</translation>
+            <translation>Inloggningen misslyckades</translation>
         </message>
         <message>
             <location line="+1" />
@@ -22256,7 +22256,7 @@ Koden har kopierats till ditt urklipp.</translation>
         <message>
             <location line="+1" />
             <source>Cycles through the received Copilot Suggestions showing the next available Suggestion.</source>
-            <translation>Växlar genom de mottagna Copilot-förslagen som visar nästa tillgängliga förslag.</translation>
+            <translation>Bläddrar bland de mottagna Copilot-förslagen och visar nästa tillgängliga förslag.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -22266,7 +22266,7 @@ Koden har kopierats till ditt urklipp.</translation>
         <message>
             <location line="+1" />
             <source>Cycles through the received Copilot Suggestions showing the previous available Suggestion.</source>
-            <translation>Växlar genom de mottagna Copilot-förslagen som visar föregående tillgängliga förslag.</translation>
+            <translation>Bläddrar bland de mottagna Copilot-förslagen och visar föregående tillgängliga förslag.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -22316,7 +22316,7 @@ Koden har kopierats till ditt urklipp.</translation>
             <location line="+2" />
             <source>Select path to node.js executable. See %1 for installation instructions.</source>
             <extracomment>%1 is the URL to nodejs</extracomment>
-            <translation>Välj sökväg till körbar node.js. Se %1 för installationsinstruktioner.</translation>
+            <translation>Välj sökväg till den körbara node.js-filen. Se %1 för installationsinstruktioner.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -22327,13 +22327,13 @@ Koden har kopierats till ditt urklipp.</translation>
         <message>
             <source>%1 path</source>
             <extracomment>%1 is the filename of the copilot language server</extracomment>
-            <translation>%1 sökväg</translation>
+            <translation>%1-sökväg</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Select path to %2 in Copilot Neovim plugin. See %1 for installation instructions.</source>
             <extracomment>%1 is the URL to copilot.vim getting started, %2 is the filename of the copilot language server</extracomment>
-            <translation>Välj sökväg till %2 i Copilot Neovim insticksmodulen. Se %1 för installationsinstruktioner.</translation>
+            <translation>Välj sökväg till %2 i Neovim-insticksprogrammet för Copilot. Se %1 för installationsinstruktioner.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -22348,7 +22348,7 @@ Koden har kopierats till ditt urklipp.</translation>
         <message>
             <location line="+2" />
             <source>Automatically request suggestions for the current text cursor position after changes to the document.</source>
-            <translation>Begär automatiskt förslag för aktuell textmarkörposition efter ändringar i dokumentet.</translation>
+            <translation>Begär automatiskt förslag vid den aktuella textmarkörens position när dokumentet ändras.</translation>
         </message>
         <message>
             <source>Use Proxy</source>
@@ -22396,7 +22396,7 @@ Koden har kopierats till ditt urklipp.</translation>
         </message>
         <message>
             <source>The user name to access the proxy server.</source>
-            <translation>Användarnamnet för att komma åt proxyservern.</translation>
+            <translation>Användarnamnet som används för åtkomst till proxyservern.</translation>
         </message>
         <message>
             <source>Save Proxy Password</source>
@@ -22431,12 +22431,12 @@ Koden har kopierats till ditt urklipp.</translation>
         <message>
             <location line="+14" />
             <source>Proxy</source>
-            <translation>Proxy Ordförande</translation>
+            <translation>Proxy</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Proxy:</source>
-            <translation>- Jag är ledsen.</translation>
+            <translation>Proxy:</translation>
         </message>
         <message>
             <location line="+3" />
