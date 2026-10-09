@@ -31996,17 +31996,17 @@ Du kan välja att vänta längre eller avbryta felsökningen.</numerusform>
         <message>
             <location line="+9" />
             <source>UVSC: Fetching memory at address 0x%1 failed.</source>
-            <translation>UVSC: Hämtar minne vid adress 0x%1 misslyckades.</translation>
+            <translation>UVSC: Det gick inte att hämta minnet på adressen 0x%1.</translation>
         </message>
         <message>
             <location line="+64" />
             <source>Internal error: The specified uVision project options file does not exist.</source>
-            <translation>Internt fel: Det angivna inställningsfilen för  uVision-projektet finns inte.</translation>
+            <translation>Internt fel: Den angivna alternativfilen för uVision-projektet finns inte.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Internal error: The specified uVision project file does not exist.</source>
-            <translation>Internt fel: Den angivna uVision- projektfilen finns inte.</translation>
+            <translation>Internt fel: Den angivna uVision-projektfilen finns inte.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -32032,27 +32032,27 @@ Du kan välja att vänta längre eller avbryta felsökningen.</numerusform>
         <message>
             <location line="+132" />
             <source>UVSC: Reading registers failed.</source>
-            <translation>UVSC: Läsregister misslyckades.</translation>
+            <translation>UVSC: Det gick inte att läsa registren.</translation>
         </message>
         <message>
             <location line="+14" />
             <source>UVSC: Fetching peripheral register failed.</source>
-            <translation>UVSC: Hämtar perifert register misslyckades.</translation>
+            <translation>UVSC: Det gick inte att hämta periferiregistret.</translation>
         </message>
         <message>
             <location line="+57" />
             <source>UVSC: Locals enumeration failed.</source>
-            <translation>UVSC: Uppräkning av lokalerna misslyckades.</translation>
+            <translation>UVSC: Det gick inte att räkna upp lokala variabler.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>UVSC: Watchers enumeration failed.</source>
-            <translation>UVSC: Uppräkning av åskådare misslyckades.</translation>
+            <translation>UVSC: Det gick inte att räkna upp bevakningar.</translation>
         </message>
         <message>
             <location line="+17" />
             <source>UVSC: Inserting breakpoint failed.</source>
-            <translation>UVSC: Infogning av brytpunkt misslyckades.</translation>
+            <translation>UVSC: Det gick inte att infoga brytpunkten.</translation>
         </message>
         <message>
             <location line="+17" />
@@ -32062,40 +32062,40 @@ Du kan välja att vänta längre eller avbryta felsökningen.</numerusform>
         <message>
             <location line="+13" />
             <source>UVSC: Enabling breakpoint failed.</source>
-            <translation>UVSC: Aktiverar brytpunkt misslyckades.</translation>
+            <translation>UVSC: Det gick inte att aktivera brytpunkten.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>UVSC: Disabling breakpoint failed.</source>
-            <translation>UVSC: Inaktiverar brytpunkt misslyckades.</translation>
+            <translation>UVSC: Det gick inte att inaktivera brytpunkten.</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Failed to initialize the UVSC.</source>
-            <translation>Misslyckades initiera UVSC.</translation>
+            <translation>Det gick inte att initiera UVSC.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Failed to de-initialize the UVSC.</source>
-            <translation>Misslyckades avinitiera UVSC.</translation>
+            <translation>Det gick inte att avinitiera UVSC.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Failed to run the UVSC.</source>
-            <translation>Misslyckades köra UVSC.</translation>
+            <translation>Det gick inte att köra UVSC.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Cannot continue debugged process:
 </source>
-            <translation>Kan inte fortsätta
-felsökningsprocessen:</translation>
+            <translation>Kan inte fortsätta den felsökta processen:
+</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Cannot stop debugged process:
 </source>
-            <translation>Kan inte stoppa felsökt process:
+            <translation>Kan inte stoppa den felsökta processen:
 </translation>
         </message>
         <message>
@@ -32116,7 +32116,7 @@ felsökningsprocessen:</translation>
             <location line="+1002" />
             <location filename="../../../src/plugins/debugger/lldb/lldbengine.cpp" line="+103" />
             <source>Setting up inferior...</source>
-            <translation>Ställer upp underlägsen…</translation>
+            <translation>Konfigurerar inferior …</translation>
         </message>
         <message>
             <location line="-3654" />
@@ -32137,12 +32137,12 @@ felsökningsprocessen:</translation>
         <message>
             <location line="-175" />
             <source>Retrieving data for stack view...</source>
-            <translation>Hämtar data för stackvy…</translation>
+            <translation>Hämtar data för stackvyn …</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="+1873" />
             <source>Finished retrieving data.</source>
-            <translation>- Jag hämtar data.</translation>
+            <translation>Hämtningen av data är klar.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/gdb/gdbsettings.cpp" line="+12" />
@@ -32157,7 +32157,7 @@ felsökningsprocessen:</translation>
         <message>
             <location line="-20" />
             <source>Skip known frames when stepping</source>
-            <translation>Hoppa över kända ramar när du kliver</translation>
+            <translation>Hoppa över kända stackramar vid stegning</translation>
         </message>
         <message>
             <location line="-139" />
@@ -32170,17 +32170,17 @@ felsökningsprocessen:</translation>
 for less noisy debugging. For example, the atomic reference
 counting code is skipped, and a single &lt;i&gt;Step Into&lt;/i&gt; for a signal
 emission ends up directly in the slot connected to it.</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tillåter &lt;i&gt;Step Into&lt;/i&gt; för att komprimera
-flera steg i ett steg för mindre bullriga felsökning. Till exempel
-hoppar atomreferenskod över, och en enda &lt;i&gt;Step Into&lt;/i&gt; för en
-signalemission hamnar direkt i den plats som är ansluten till den.</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Gör att &lt;i&gt;Stega in&lt;/i&gt; kan komprimera flera steg till ett
+för mindre brusig felsökning. Exempelvis hoppas koden för atomär
+referensräkning över, och ett enda &lt;i&gt;Stega in&lt;/i&gt; vid en signalutlösning
+hamnar direkt i den anslutna slotten.</translation>
         </message>
         <message>
             <location line="-138" />
             <source>Displays a message box as soon as your application
 receives a signal like SIGSEGV during debugging.</source>
-            <translation>Visar en meddelanderuta så snart din ansökan
-får en signal som SIGSEGV under felsökning.</translation>
+            <translation>Visar en meddelanderuta så snart programmet
+får en signal som SIGSEGV vid felsökning.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggeractions.cpp" line="-152" />
@@ -32195,17 +32195,17 @@ får en signal som SIGSEGV under felsökning.</translation>
         <message>
             <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="-224" />
             <source>Keep editor stationary when stepping</source>
-            <translation>Håll editor stationär när du går</translation>
+            <translation>Håll redigeraren stilla vid stegning</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Scrolls the editor only when it is necessary to keep the current line in view, instead of keeping the next statement centered at all times.</source>
-            <translation>Rullar editorn endast när det är nödvändigt att hålla den aktuella raden i vyn, istället för att hålla nästa uttalande centrerad hela tiden.</translation>
+            <translation>Rullar endast redigeraren när det behövs för att behålla den aktuella raden i vyn, i stället för att alltid hålla nästa sats centrerad.</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Force logging to console</source>
-            <translation>Tvinga loggning att konsol</translation>
+            <translation>Tvinga loggning till konsolen</translation>
         </message>
         <message>
             <location line="+2" />
@@ -32220,7 +32220,7 @@ får en signal som SIGSEGV under felsökning.</translation>
         <message>
             <location filename="../../../src/plugins/debugger/debuggeractions.cpp" line="+12" />
             <source>This switches the Locals and Expressions views to automatically dereference pointers. This saves a level in the tree view, but also loses data for the now-missing intermediate level.</source>
-            <translation>Det här byter lokalvyn och uttrycken till automatiskt avreferenspekar. Det sparar en nivå i trädvyn, men förlorar också data för den nu saknade mellannivån.</translation>
+            <translation>Det här gör att vyerna Lokala variabler och uttryck automatiskt avrefererar pekare. Det sparar en nivå i trädvyn men gör att data för den nu saknade mellannivån går förlorade.</translation>
         </message>
         <message>
             <location line="+11" />
@@ -32230,32 +32230,32 @@ får en signal som SIGSEGV under felsökning.</translation>
         <message>
             <location line="+9" />
             <source>Catches runtime error messages caused by assert(), for example.</source>
-            <translation>Fångar felmeddelanden om körning som orsakas av input(), till exempel.</translation>
+            <translation>Fångar exempelvis felmeddelanden vid körning som orsakas av assert().</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Uses CDB's native console for console applications. This overrides the setting in Environment &gt; System. The native console does not prompt on application exit. It is suitable for diagnosing cases in which the application does not start up properly in the configured console and the subsequent attach fails.</source>
-            <translation>Använder CDB: s ursprungliga konsol för konsolprogram. Det här förbigår inställningen i miljö &gt; system. Den ursprungliga konsolen frågar inte efter programutgången. Den är lämplig för att diagnostisera fall där programmet inte startar ordentligt i den inställda konsolen och det efterföljande bifogandet misslyckas.</translation>
+            <translation>Använder CDB:s inbyggda konsol för konsolprogram. Detta åsidosätter inställningen i Miljö &gt; System. Den inbyggda konsolen frågar inte när programmet avslutas. Den lämpar sig för att diagnostisera fall där programmet inte startar korrekt i den konfigurerade konsolen och den efterföljande anslutningen misslyckas.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Attempts to correct the location of a breakpoint based on file and line number should it be in a comment or in a line for which no code is generated. The correction is based on the code model.</source>
-            <translation>Försök att korrigera platsen för en brytpunkt baserat på fil- och radnummer ska det vara i en kommentar eller i en rad för vilken ingen kod genereras. Korrigeringen baseras på kodmodellen.</translation>
+            <translation>Försöker korrigera en brytpunkts plats utifrån fil och radnummer om den ligger i en kommentar eller på en rad som inte genererar kod. Korrigeringen bygger på kodmodellen.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Use Python dumper</source>
-            <translation>Använd Python- dumper</translation>
+            <translation>Använd Python-dumprar</translation>
         </message>
         <message>
             <location line="+4" />
             <source>First chance exceptions</source>
-            <translation>Undantag från första chansen</translation>
+            <translation>Undantag vid första chansen</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Second chance exceptions</source>
-            <translation>Undantag från andra chansen</translation>
+            <translation>Undantag vid andra chansen</translation>
         </message>
         <message>
             <location line="+6" />
