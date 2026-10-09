@@ -30279,7 +30279,7 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location filename="../../../src/plugins/cppcheck/cppcheckmanualrundialog.cpp" line="+30" />
             <source>Cppcheck Run Configuration</source>
-            <translation>Inställning av Cppcheck kör</translation>
+            <translation>Körkonfiguration för Cppcheck</translation>
         </message>
         <message>
             <location line="+20" />
@@ -30319,17 +30319,17 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location line="+4" />
             <source>Missing includes</source>
-            <translation>Saknas även</translation>
+            <translation>Saknade inkluderingsfiler</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Inconclusive errors</source>
-            <translation>Ouppklarade fel</translation>
+            <translation>Ej entydiga fel</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Check all define combinations</source>
-            <translation>Kontrollera alla define-kombinationer</translation>
+            <translation>Kontrollera alla #define-kombinationer</translation>
         </message>
         <message>
             <location line="+13" />
@@ -30349,27 +30349,27 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location line="-31" />
             <source>Disables multithreaded check.</source>
-            <translation>Inaktiverar flertrådig check.</translation>
+            <translation>Inaktiverar flertrådig kontroll.</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Comma-separated wildcards of full file paths. Files still can be checked if others include them.</source>
-            <translation>Komma- åtskilda jokertecken med fullständiga sökvägar. Filer kan fortfarande kontrolleras om andra inkluderar dem.</translation>
+            <translation>Kommaseparerade jokertecken för fullständiga filsökvägar. Filer kan fortfarande kontrolleras om andra inkluderar dem.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Can find missing includes but makes checking slower. Use only when needed.</source>
-            <translation>Kan hitta saknade inkluderar men gör kontroll långsammare. Använd endast vid behov.</translation>
+            <translation>Kan hitta saknade inkluderingsfiler men gör kontrollen långsammare. Använd endast vid behov.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Like C++ standard and language.</source>
-            <translation>Som C++ standard och språk.</translation>
+            <translation>Som C++-standard och språk.</translation>
         </message>
         <message>
             <location line="-64" />
             <source>Binary:</source>
-            <translation>Binär:</translation>
+            <translation>Körbar fil:</translation>
         </message>
         <message>
             <location line="+77" />
@@ -30422,7 +30422,7 @@ nuvarande filnamnet på Switch Header/ Source.</translation>
         <message>
             <location line="+75" />
             <source>Cppcheck finished.</source>
-            <translation>Cppcheck klar.</translation>
+            <translation>Cppcheck slutfördes.</translation>
         </message>
     </context>
     <context>
