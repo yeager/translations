@@ -25126,22 +25126,22 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location filename="../../../src/plugins/coreplugin/actionmanager/command.cpp" line="+635" />
             <source>Show Left Sidebar</source>
-            <translation>Visa vänster sidorad</translation>
+            <translation>Visa vänster sidofält</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Hide Left Sidebar</source>
-            <translation>Dölj vänster sidorad</translation>
+            <translation>Dölj vänster sidofält</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Show Right Sidebar</source>
-            <translation>Visa höger sidorad</translation>
+            <translation>Visa höger sidofält</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Hide Right Sidebar</source>
-            <translation>Dölj höger sidorad</translation>
+            <translation>Dölj höger sidofält</translation>
         </message>
         <message>
             <location line="+5" />
@@ -25188,36 +25188,36 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location line="+138" />
             <source>Apply all changes and return to previous mode.</source>
-            <translation>Använd alla ändringar och återgå till tidigare läge.</translation>
+            <translation>Verkställ alla ändringar och återgå till föregående läge.</translation>
         </message>
         <message>
             <location line="+1" />
             <location line="+9" />
             <source>Apply all changes and stay here.</source>
-            <translation>Tillämpa alla ändringar och stanna här.</translation>
+            <translation>Verkställ alla ändringar och stanna här.</translation>
         </message>
         <message>
             <location line="-8" />
             <location line="+9" />
             <source>Discard all changes and stay here.</source>
-            <translation>Kasta alla ändringar och stanna här.</translation>
+            <translation>Förkasta alla ändringar och stanna här.</translation>
         </message>
         <message>
             <location line="-8" />
             <source>Discard all changes and return to previous mode.</source>
-            <translation>Kassera alla ändringar och återgå till tidigare läge.</translation>
+            <translation>Förkasta alla ändringar och återgå till föregående läge.</translation>
         </message>
         <message>
             <location line="+149" />
             <location line="+41" />
             <location line="+27" />
             <source>Unapplied Changes</source>
-            <translation>Otillämpade ändringar</translation>
+            <translation>Ej verkställda ändringar</translation>
         </message>
         <message>
             <location line="-65" />
             <source>There are unapplied changes. Do you want to apply them?</source>
-            <translation>Det finns ändringar som inte tillämpas. Vill du tillämpa dem?</translation>
+            <translation>Det finns ej verkställda ändringar. Vill du verkställa dem?</translation>
         </message>
         <message>
             <location line="+2" />
@@ -25233,28 +25233,28 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
             <location line="+3" />
             <location line="+29" />
             <source>Apply Unsaved Changes</source>
-            <translation>Tillämpa ändringar som inte sparats</translation>
+            <translation>Verkställ osparade ändringar</translation>
         </message>
         <message>
             <location line="-24" />
             <location line="+31" />
             <source>Abandon Unsaved Changes</source>
-            <translation>Överge oförhindrade ändringar</translation>
+            <translation>Förkasta osparade ändringar</translation>
         </message>
         <message>
             <location line="-26" />
             <source>Return to Previous Page</source>
-            <translation>Återvänd till föregående sida</translation>
+            <translation>Återgå till föregående sida</translation>
         </message>
         <message>
             <location line="+14" />
             <source>There are unsaved changes.</source>
-            <translation>Det sker oförsonliga förändringar.</translation>
+            <translation>Det finns osparade ändringar.</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Stay in Settings Mode</source>
-            <translation>Håll dig i inställningsläge</translation>
+            <translation>Stanna i inställningsläget</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/actionsfilter.cpp" line="+395" />
@@ -25297,7 +25297,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         </message>
         <message>
             <source>Drag to drag documents between splits</source>
-            <translation>Dra för att dra dokument mellan delningar</translation>
+            <translation>Dra för att flytta dokument mellan delningar</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/editortoolbar.cpp" line="-292" />
@@ -25338,7 +25338,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location filename="../../../src/plugins/coreplugin/editormanager/editormanager.cpp" line="+536" />
             <source>Open "%1"</source>
-            <translation>Öppna "%1"</translation>
+            <translation>Öppna ”%1”</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/foldernavigationwidget.cpp" line="-548" />
@@ -25348,7 +25348,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location line="+1" />
             <source>Show Bread Crumbs</source>
-            <translation>Visa brödkrukor</translation>
+            <translation>Visa brödsmulor</translation>
         </message>
         <message>
             <location line="+1" />
@@ -25358,7 +25358,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location line="+43" />
             <source>Synchronize with Editor</source>
-            <translation>Synkronisera med redigerare</translation>
+            <translation>Synkronisera med redigeraren</translation>
         </message>
         <message>
             <location line="+4" />
