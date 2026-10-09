@@ -70619,7 +70619,7 @@ om ett arkiv kräver SSH-autentisering (se dokumentationen om SSH och miljövari
     </message>
     <message>
         <source>Or:&lt;ul&gt;&lt;li&gt;type &lt;code&gt;c&amp;lt;space&amp;gt;&amp;lt;pattern&amp;gt;&lt;/code&gt; to jump to a class definition&lt;/li&gt;&lt;li&gt;type &lt;code&gt;f&amp;lt;space&amp;gt;&amp;lt;pattern&amp;gt;&lt;/code&gt; to open a file from the file system&lt;/li&gt;&lt;li&gt;click on the magnifier icon for a complete list of possible options&lt;/li&gt;&lt;/ul&gt;</source>
-        <translation>Eller:&lt;ul&gt;&lt;li&gt;skriv &lt;code&gt;c&amp;lt;blanksteg&amp;gt;&amp;lt;mönster&amp;gt;&lt;/code&gt; för att hoppa till en klassdefinition&lt;/li&gt;&lt;li&gt;skriv &lt;code&gt;f&amp;lt;blanksteg&amp;gt;&amp;lt;mönster&amp;gt;&lt;/code&gt; för att öppna en fil från filsystemet&lt;/li&gt;&lt;li&gt;klicka på förstorningsikonen för en komplett lista över möjliga alternativ&lt;/li&gt;&lt;/ul&gt;</translation>
+        <translation>Eller:&lt;ul&gt;&lt;li&gt;skriv &lt;code&gt;c&amp;lt;blanksteg&amp;gt;&amp;lt;mönster&amp;gt;&lt;/code&gt; för att hoppa till en klassdefinition&lt;/li&gt;&lt;li&gt;skriv &lt;code&gt;f&amp;lt;blanksteg&amp;gt;&amp;lt;mönster&amp;gt;&lt;/code&gt; för att öppna en fil från filsystemet&lt;/li&gt;&lt;li&gt;klicka på förstoringsikonen för en komplett lista över möjliga alternativ&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
         <source>Output</source>
