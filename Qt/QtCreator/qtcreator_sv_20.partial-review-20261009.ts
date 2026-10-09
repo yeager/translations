@@ -66136,7 +66136,7 @@ programmet.</translation>
         <name>QtC::QmlProjectManager</name>
         <message>
             <source>Update QmlProject File</source>
-            <translation>Uppdatera QmlProject-fil</translation>
+            <translation>Uppdatera QmlProject-filen</translation>
         </message>
         <message>
             <source>Warning while loading project file %1.</source>
@@ -66144,11 +66144,11 @@ programmet.</translation>
         </message>
         <message>
             <source>Kit has no device.</source>
-            <translation>Kit har ingen enhet.</translation>
+            <translation>Kitet har ingen enhet.</translation>
         </message>
         <message>
             <source>Qt version is too old.</source>
-            <translation>Qt-version är för gammal.</translation>
+            <translation>Qt-versionen är för gammal.</translation>
         </message>
         <message>
             <source>Qt version has no QML utility.</source>
@@ -66156,11 +66156,11 @@ programmet.</translation>
         </message>
         <message>
             <source>Non-desktop Qt is used with a desktop device.</source>
-            <translation>Qt för icke-skrivbordsenhet används med en skrivbordsenhet.</translation>
+            <translation>En Qt-version för annan miljö än skrivbord används med en skrivbordsenhet.</translation>
         </message>
         <message>
             <source>No Qt version set in kit.</source>
-            <translation>Ingen Qt-version inställd i kit.</translation>
+            <translation>Ingen Qt-version har angetts i kitet.</translation>
         </message>
         <message>
             <source>&lt;Current File&gt;</source>
@@ -66193,7 +66193,7 @@ programmet.</translation>
         </message>
         <message>
             <source>Qt Version:</source>
-            <translation>Qt Version:</translation>
+            <translation>Qt-version:</translation>
         </message>
         <message>
             <source>QML Runtime</source>
@@ -66217,15 +66217,15 @@ programmet.</translation>
         </message>
         <message>
             <source>Qt Version - </source>
-            <translation>Qt Version - </translation>
+            <translation>Qt-version – </translation>
         </message>
         <message>
             <source>Qt Design Studio Version - </source>
-            <translation>Qt Design Studio Version - </translation>
+            <translation>Qt Design Studio-version – </translation>
         </message>
         <message>
             <source>No QML project file found - Would you like to create one?</source>
-            <translation>Ingen QML-projektfil hittades - Vill du skapa en?</translation>
+            <translation>Ingen QML-projektfil hittades. Vill du skapa en?</translation>
         </message>
         <message>
             <source>Generate</source>
@@ -66245,7 +66245,7 @@ programmet.</translation>
         </message>
         <message>
             <source>Open with Qt Creator - Text Mode</source>
-            <translation>Öppna med Qt Creator - Textläge</translation>
+            <translation>Öppna med Qt Creator – textläge</translation>
         </message>
         <message>
             <source>Remember my choice</source>
@@ -66269,7 +66269,7 @@ programmet.</translation>
         </message>
         <message>
             <source>Project File Generated</source>
-            <translation>Projektfil genererad</translation>
+            <translation>Projektfilen har skapats</translation>
         </message>
         <message>
             <source>File created:</source>
@@ -66277,7 +66277,7 @@ programmet.</translation>
         </message>
         <message>
             <source>Select File Location</source>
-            <translation>Välj filplats</translation>
+            <translation>Välj plats för filen</translation>
         </message>
         <message>
             <source>Qt Design Studio Project Files (*.qmlproject)</source>
@@ -66289,7 +66289,7 @@ programmet.</translation>
         </message>
         <message>
             <source>Project file must be placed in a parent directory of the QML files.</source>
-            <translation>Projektfilen måste placeras i en föräldrakatalog till QML-filerna.</translation>
+            <translation>Projektfilen måste placeras i en överordnad katalog till QML-filerna.</translation>
         </message>
         <message>
             <source>Problem</source>
@@ -66299,7 +66299,7 @@ programmet.</translation>
             <source>Selected directory is far away from the QML file. This can cause unexpected results.
 
 Are you sure?</source>
-            <translation>Vald katalog är långt bort från QML-filen. Detta kan orsaka oväntade resultat.
+            <translation>Den valda katalogen ligger långt från QML-filen. Det kan ge oväntade resultat.
 
 Är du säker?</translation>
         </message>
@@ -66311,15 +66311,15 @@ Are you sure?</source>
             <source>No project file (*.qmlproject) found for Qt Design Studio.
 Qt Design Studio requires a .qmlproject based project to open the .ui.qml file.</source>
             <translation>Ingen projektfil (*.qmlproject) hittades för Qt Design Studio.
-Qt Design Studio kräver en .qmlproject-baserat projekt för att öppna .ui.qml-filen.</translation>
+Qt Design Studio kräver ett .qmlproject-baserat projekt för att öppna .ui.qml-filen.</translation>
         </message>
         <message>
             <source>Set as Main .qml File</source>
-            <translation>Ställ in som Main .qml-fil</translation>
+            <translation>Ange som huvudsaklig .qml-fil</translation>
         </message>
         <message>
             <source>Set as Main .ui.qml File</source>
-            <translation>Ställ in som Main .ui.qml-fil</translation>
+            <translation>Ange som huvudsaklig .ui.qml-fil</translation>
         </message>
         <message>
             <source>Cannot find a valid build system.</source>
@@ -66343,15 +66343,15 @@ Qt Design Studio kräver en .qmlproject-baserat projekt för att öppna .ui.qml-
         </message>
         <message>
             <source>The Selected Kit Is Not Supported</source>
-            <translation>Markerat kit stöds inte</translation>
+            <translation>Det valda kitet stöds inte</translation>
         </message>
         <message>
             <source>You cannot use the selected kit to preview Qt for MCUs applications.</source>
-            <translation>Du kan inte använda valt kit för att förhandsvisa Qt for MCUer-program.</translation>
+            <translation>Du kan inte använda det valda kitet för att förhandsvisa program för Qt for MCUs.</translation>
         </message>
         <message>
             <source>Cannot find a valid Qt for MCUs kit.</source>
-            <translation>Kan inte hitta en giltig Qt for MCUer-kit.</translation>
+            <translation>Kan inte hitta ett giltigt Qt for MCUs-kit.</translation>
         </message>
         <message>
             <source>Export Project</source>
