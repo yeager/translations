@@ -71724,12 +71724,12 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location filename="../../../src/plugins/terminal/terminalsettings.cpp" line="+499" />
             <source>Sends Esc to terminal instead of %1.</source>
-            <translation>Skickar Esc till terminal istället för %1.</translation>
+            <translation>Skickar Esc till terminalen i stället för %1.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Press %1 to send Esc to terminal.</source>
-            <translation>Tryck %1 för att skicka Esc till terminal.</translation>
+            <translation>Tryck på %1 för att skicka Esc till terminalen.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/terminal/terminalpane.cpp" line="-34" />
@@ -71741,12 +71741,12 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location filename="../../../src/plugins/terminal/terminalsettings.cpp" line="+14" />
             <source>%1 shortcuts are blocked when focus is inside the terminal.</source>
-            <translation>%1-genvägar blockeras när fokus är inne i terminalen.</translation>
+            <translation>%1-genvägar blockeras när fokus ligger i terminalen.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>%1 shortcuts take precedence.</source>
-            <translation>%1 genvägar har företräde.</translation>
+            <translation>%1-genvägar har företräde.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/terminal/terminalpane.cpp" line="+104" />
@@ -71771,7 +71771,7 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location line="-17" />
             <source>Close the current Terminal.</source>
-            <translation>Stäng aktuell terminal.</translation>
+            <translation>Stäng den aktuella terminalen.</translation>
         </message>
         <message>
             <location line="-263" />
@@ -71811,13 +71811,13 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location line="+43" />
             <source>Failed to open file.</source>
-            <translation>Misslyckades med att öppna fil.</translation>
+            <translation>Det gick inte att öppna filen.</translation>
         </message>
         <message>
             <location line="+74" />
             <location line="+66" />
             <source>JSON parsing error: "%1", at offset: %2</source>
-            <translation>JSON- tolkningsfel: "%1", vid offset: %2</translation>
+            <translation>JSON-tolkningsfel: ”%1”, vid position %2</translation>
         </message>
         <message>
             <location line="+7" />
@@ -71842,7 +71842,7 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location line="+2" />
             <source>Uses the internal terminal when "Run In Terminal" is enabled and for "Open Terminal here".</source>
-            <translation>Använder den interna terminalen när "Run In Terminal" är aktiverat och för "Open Terminal here".</translation>
+            <translation>Använder den interna terminalen när ”Kör i terminal” är aktiverat och för ”Öppna terminal här”.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -71882,7 +71882,7 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location line="+3" />
             <source>The shell executable to be started.</source>
-            <translation>Körbara skalfilen som ska startas.</translation>
+            <translation>Det körbara skalet som ska startas.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -71897,12 +71897,12 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location line="+5" />
             <source>Send escape key to terminal</source>
-            <translation>Skicka escape-tangent till terminal</translation>
+            <translation>Skicka Esc-tangenten till terminalen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Sends the escape key to the terminal when pressed instead of closing the terminal.</source>
-            <translation>Skickar utrymningsnyckeln till terminalen när den trycks in istället för att stänga terminalen.</translation>
+            <translation>Skickar Esc-tangenten till terminalen när den trycks ned i stället för att stänga terminalen.</translation>
         </message>
         <message>
             <location line="+18" />
@@ -71912,7 +71912,7 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location line="+2" />
             <source>Keeps Qt Creator shortcuts from interfering with the terminal.</source>
-            <translation>Håller Qt Creator genvägar från att störa terminalen.</translation>
+            <translation>Förhindrar att Qt Creator-genvägar stör terminalen.</translation>
         </message>
         <message>
             <location line="+13" />
@@ -71942,7 +71942,7 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location line="+2" />
             <source>Wraps and reflows text when resizing the terminal. Note that this does not work properly with all shells and prompts.</source>
-            <translation>Raderar och återger text vid omstorlek av terminalen. Observera att detta inte fungerar korrekt med alla skal och prompter.</translation>
+            <translation>Radbryter och flödar om text när terminalens storlek ändras. Observera att detta inte fungerar korrekt med alla skal och kommandoprompter.</translation>
         </message>
         <message>
             <location line="+37" />
@@ -71997,7 +71997,7 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location line="+1" />
             <source>Find match</source>
-            <translation>Hitta matchning</translation>
+            <translation>Sökträff</translation>
         </message>
         <message>
             <location line="+20" />
@@ -72012,22 +72012,22 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location line="+19" />
             <source>Failed to start shell: %1</source>
-            <translation>Misslyckades med att starta skal: %1</translation>
+            <translation>Det gick inte att starta skalet: %1</translation>
         </message>
         <message>
             <location line="-11" />
             <source>"%1" is not executable.</source>
-            <translation>"%1" är inte körbar.</translation>
+            <translation>”%1” är inte körbar.</translation>
         </message>
         <message>
             <location line="+63" />
             <source>Terminal process exited with code %1.</source>
-            <translation>Terminalprocessen avslutades med kod %1.</translation>
+            <translation>Terminalprocessen avslutades med avslutskoden %1.</translation>
         </message>
         <message>
             <location line="+27" />
             <source>Process exited with code: %1.</source>
-            <translation>Processen avslutades med kod: %1.</translation>
+            <translation>Processen avslutades med avslutskoden %1.</translation>
         </message>
         <message>
             <location line="+490" />
@@ -72048,7 +72048,7 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
             <location line="+5" />
             <location filename="../../../src/plugins/texteditor/texteditorplugin.cpp" line="+552" />
             <source>Clear Selection</source>
-            <translation>Töm markering</translation>
+            <translation>Rensa markering</translation>
         </message>
         <message>
             <location line="+14" />
@@ -72063,17 +72063,17 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location line="-28" />
             <source>Clear Terminal</source>
-            <translation>Töm terminal</translation>
+            <translation>Töm terminalen</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Move Cursor Word Left</source>
-            <translation>Flytta markör ett ord åt vänster</translation>
+            <translation>Flytta markören ett ord åt vänster</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Move Cursor Word Right</source>
-            <translation>Flytta markör ett ord åt höger</translation>
+            <translation>Flytta markören ett ord åt höger</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/terminal/terminalpane.cpp" line="-304" />
