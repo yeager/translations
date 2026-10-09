@@ -13407,7 +13407,7 @@ En förloppsindikator i obestämt läge visar att en
     </message>
     <message>
         <source>The executable of the QML Puppet may not be responding. Switching to another kit might help.</source>
-        <translation>Den körbara filen för QML Puppet svarar kanske inte. Att byta till en annan byggsats kan hjälpa.</translation>
+        <translation>Den körbara filen för QML Puppet svarar kanske inte. Att byta till ett annat kit kan hjälpa.</translation>
     </message>
 </context>
 <context>
@@ -13657,11 +13657,11 @@ Låsta komponenter kan inte ändras eller väljas.</translation>
     </message>
     <message>
         <source>Become last sibling of parent (CTRL + Left).</source>
-        <translation>Bli förälderns sista syskon (Ctrl + vänster).</translation>
+        <translation>Gör till förälderns sista syskon (Ctrl + vänster).</translation>
     </message>
     <message>
         <source>Become child of last sibling (CTRL + Right).</source>
-        <translation>Bli barn till sista syskonet (Ctrl + höger).</translation>
+        <translation>Gör till barn till det sista syskonet (Ctrl + höger).</translation>
     </message>
     <message>
         <source>Move down (CTRL + Down).</source>
@@ -56374,7 +56374,7 @@ Vill du redigera effekten?</translation>
     </message>
     <message>
         <source>Show Viewport Modes</source>
-        <translation>Visa visningsportslägen</translation>
+        <translation>Visa visningsytelägen</translation>
     </message>
     <message>
         <source>Open Camera Speed Configuration</source>
