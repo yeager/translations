@@ -13028,7 +13028,7 @@ En förloppsindikator i obestämt läge visar att en
     </message>
     <message>
         <source>The base or diffuse color of a material is passed through without any lighting.</source>
-        <translation>Materialets bas- eller diffusa färg passerar utan belysning.</translation>
+        <translation>Materialets bas- eller diffusa färg återges utan belysning.</translation>
     </message>
     <message>
         <source>Roughness</source>
@@ -13036,7 +13036,7 @@ En förloppsindikator i obestämt läge visar att en
     </message>
     <message>
         <source>The roughness of a material is passed through as an unlit greyscale value.</source>
-        <translation>Materialets råhet passerar som ett obelyst gråskaligt värde.</translation>
+        <translation>Materialets råhet återges som ett obelyst gråskalvärde.</translation>
     </message>
     <message>
         <source>Metalness</source>
@@ -13044,7 +13044,7 @@ En förloppsindikator i obestämt läge visar att en
     </message>
     <message>
         <source>The metalness of a material is passed through as an unlit greyscale value.</source>
-        <translation>Materialets metallicitet passerar som ett obelyst gråskaligt värde.</translation>
+        <translation>Materialets metallicitet återges som ett obelyst gråskalvärde.</translation>
     </message>
     <message>
         <source>Normals</source>
@@ -13084,7 +13084,7 @@ En förloppsindikator i obestämt läge visar att en
     </message>
     <message>
         <source>Only the diffuse contribution of the material after all lighting.</source>
-        <translation>Endast materialets diffusa bidrag efter all belysning.</translation>
+        <translation>Endast materialets diffusa bidrag efter att all belysning har beräknats.</translation>
     </message>
     <message>
         <source>Specular</source>
@@ -13092,7 +13092,7 @@ En förloppsindikator i obestämt läge visar att en
     </message>
     <message>
         <source>Only the specular contribution of the material after all lighting.</source>
-        <translation>Endast materialets spekulära bidrag efter all belysning.</translation>
+        <translation>Endast materialets spekulära bidrag efter att all belysning har beräknats.</translation>
     </message>
     <message>
         <source>Reset All Viewports</source>
@@ -13112,7 +13112,7 @@ En förloppsindikator i obestämt läge visar att en
     </message>
     <message>
         <source>3D view is only supported in Qt6 qmlprojects.</source>
-        <translation>3D-vyn stöds endast i Qt6-qmlprojekt.</translation>
+        <translation>3D-vyn stöds endast i Qt 6-qmlprojekt.</translation>
     </message>
     <message>
         <source>Imported Models</source>
