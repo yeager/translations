@@ -6346,15 +6346,15 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Sets the time to delay delivering a press to children of the flickable in milliseconds.</source>
-        <translation>Ställer in tiden i millisekunder för att fördröja leveransen av en tryckning till Flickables underordnade objekt.</translation>
+        <translation>Ställer in fördröjningen i millisekunder innan en tryckning skickas till Flickables underordnade objekt.</translation>
     </message>
     <message>
         <source>Toggles if the component is being moved by complete pixel length.</source>
-        <translation>Växlar om komponenten flyttas med hela bildpunktslängden.</translation>
+        <translation>Anger om komponenten flyttas ett helt antal bildpunkter.</translation>
     </message>
     <message>
         <source>Toggles if the content should move instantly or not when the mouse or touchpoint is dragged to a new position.</source>
-        <translation>Anger om innehållet ska flyttas direkt när musen eller tryckpunkten dras till en ny position.</translation>
+        <translation>Anger om innehållet ska flyttas direkt när musen eller beröringspunkten dras till en ny position.</translation>
     </message>
     <message>
         <source>Interactive</source>
@@ -6382,7 +6382,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Synchronous drag</source>
-        <translation>Synkron dragning</translation>
+        <translation>Synkrondragning</translation>
     </message>
 </context>
 <context>
@@ -8871,7 +8871,7 @@ ska återges i texturen.</translation>
     </message>
     <message>
         <source>Sets how the view scrolling settles following a drag or flick.</source>
-        <translation>Ställer in hur rullningen av vyn stabiliseras efter en dragning eller snärtning.</translation>
+        <translation>Ställer in hur vyns rullning ska avslutas efter dragning eller snärtning.</translation>
     </message>
     <message>
         <source>Sets the spacing between components.</source>
@@ -8879,11 +8879,11 @@ ska återges i texturen.</translation>
     </message>
     <message>
         <source>Sets in pixels how far the components are kept loaded outside the view&apos;s visible area.</source>
-        <translation>Anger i pixlar hur långt utanför vyns synliga område komponenterna hålls inlästa.</translation>
+        <translation>Anger i pixlar hur långt utanför vyns synliga område komponenterna behålls inlästa.</translation>
     </message>
     <message>
         <source>Toggles if the grid wraps key navigation.</source>
-        <translation>Anger om rutnätet slår runt tangentnavigeringen.</translation>
+        <translation>Anger om tangentnavigeringen ska börja om från motsatt sida av rutnätet.</translation>
     </message>
     <message>
         <source>List View Highlight</source>
@@ -8895,16 +8895,16 @@ ska återges i texturen.</translation>
     </message>
     <message>
         <source>Sets the highlight range mode.</source>
-        <translation>Ställer in läget för markeringsintervall.</translation>
+        <translation>Ställer in läget för markeringsintervallet.</translation>
     </message>
     <message>
         <source>Move duration</source>
-        <translation>Förflyttningslängd</translation>
+        <translation>Förflyttningstid</translation>
     </message>
     <message>
         <source>Sets the animation duration of the highlight delegate when
 it is moved.</source>
-        <translation>Ställer in markeringsdelegatens animeringslängd när
+        <translation>Ställer in markeringsdelegatens animeringstid när
 den flyttas.</translation>
     </message>
     <message>
@@ -8916,7 +8916,7 @@ den flyttas.</translation>
     <message>
         <source>Sets the animation duration of the highlight delegate when
 it is resized.</source>
-        <translation>Ställer in markeringsdelegatens animeringslängd när
+        <translation>Ställer in markeringsdelegatens animeringstid när
 den storleksändras.</translation>
     </message>
     <message>
@@ -8947,7 +8947,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Resize duration</source>
-        <translation>Storleksändringslängd</translation>
+        <translation>Storleksändringstid</translation>
     </message>
     <message>
         <source>Preferred begin</source>
