@@ -66029,7 +66029,7 @@ programmet.</translation>
         <message>
             <location line="+4" />
             <source>Polish</source>
-            <translation>Polska</translation>
+            <translation>Polering</translation>
         </message>
         <message>
             <location line="+1" />
@@ -66039,42 +66039,42 @@ programmet.</translation>
         <message>
             <location line="+1" />
             <source>GUI Thread Sync</source>
-            <translation>GUI- trådsynkronisering</translation>
+            <translation>Synkronisering av GUI-tråd</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Render Thread Sync</source>
-            <translation>Återge trådsynkronisering</translation>
+            <translation>Synkronisering av renderingstråd</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Render</source>
-            <translation>Rendera</translation>
+            <translation>Rendering</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Swap</source>
-            <translation>Byte</translation>
+            <translation>Buffertbyte</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Render Preprocess</source>
-            <translation>Återge förbehandling</translation>
+            <translation>Förbehandling av rendering</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Render Update</source>
-            <translation>Återställ uppdatering</translation>
+            <translation>Uppdatering av rendering</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Render Bind</source>
-            <translation>Återvinningsbinda</translation>
+            <translation>Bindning vid rendering</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Render Render</source>
-            <translation>Återge återställ</translation>
+            <translation>Renderingsfas</translation>
         </message>
         <message>
             <location line="+1" />
@@ -66084,17 +66084,17 @@ programmet.</translation>
         <message>
             <location line="+1" />
             <source>Glyph Render</source>
-            <translation>Glyph Render</translation>
+            <translation>Glyfrendering</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Glyph Upload</source>
-            <translation>Uppladdning av Glyph</translation>
+            <translation>Uppladdning av glyfer</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Texture Bind</source>
-            <translation>Texturbinda</translation>
+            <translation>Texturbindning</translation>
         </message>
         <message>
             <location line="+1" />
@@ -66104,7 +66104,7 @@ programmet.</translation>
         <message>
             <location line="+1" />
             <source>Texture Swizzle</source>
-            <translation>Textursnurr</translation>
+            <translation>Omkanalisering av textur</translation>
         </message>
         <message>
             <location line="+1" />
@@ -66114,12 +66114,12 @@ programmet.</translation>
         <message>
             <location line="+1" />
             <source>Texture Mipmap</source>
-            <translation>Textur- Mipmap</translation>
+            <translation>Mipmap för textur</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Texture Delete</source>
-            <translation>Textur Ta bort</translation>
+            <translation>Borttagning av textur</translation>
         </message>
         <message>
             <location line="+62" />
