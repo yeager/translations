@@ -15642,13 +15642,13 @@ Försök igen när den har avslutats.</translation>
             <location filename="../../../src/plugins/baremetal/debugservers/gdb/gdbserverprovider.cpp" line="+144" />
             <location filename="../../../src/plugins/baremetal/debugservers/uvsc/uvscserverprovider.cpp" line="-79" />
             <source>Cannot debug: Local executable is not set.</source>
-            <translation>Kan inte felsöka: Lokal körbar är inte inställd.</translation>
+            <translation>Kan inte felsöka: den lokala körbara filen är inte angiven.</translation>
         </message>
         <message>
             <location line="+3" />
             <location filename="../../../src/plugins/baremetal/debugservers/uvsc/uvscserverprovider.cpp" line="+2" />
             <source>Cannot debug: Could not find executable for "%1".</source>
-            <translation>Kan inte felsöka: Kunde inte hitta körbar för "%1".</translation>
+            <translation>Kan inte felsöka: kunde inte hitta den körbara filen för ”%1”.</translation>
         </message>
         <message>
             <location line="+54" />
@@ -15664,19 +15664,19 @@ Försök igen när den har avslutats.</translation>
             <location line="+5" />
             <location filename="../../../src/plugins/baremetal/debugservers/uvsc/uvtargetdeviceviewer.cpp" line="+39" />
             <source>Peripheral description files (*.svd)</source>
-            <translation>Perifer beskrivningsfiler (*.svd)</translation>
+            <translation>Periferibeskrivningsfiler (*.svd)</translation>
         </message>
         <message>
             <location line="+2" />
             <location filename="../../../src/plugins/baremetal/debugservers/uvsc/uvtargetdeviceviewer.cpp" line="+2" />
             <source>Select Peripheral Description File</source>
-            <translation>Välj fil för perifer beskrivning</translation>
+            <translation>Välj periferibeskrivningsfil</translation>
         </message>
         <message>
             <location line="+1" />
             <location filename="../../../src/plugins/baremetal/debugservers/uvsc/uvtargetdeviceviewer.cpp" line="+1" />
             <source>Peripheral description file:</source>
-            <translation>Fil för beskrivning av yttre delar:</translation>
+            <translation>Periferibeskrivningsfil:</translation>
         </message>
         <message>
             <location line="+53" />
@@ -15691,23 +15691,23 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location line="+33" />
             <source>Enter GDB commands to reset the board and to write the nonvolatile memory.</source>
-            <translation>Ange GDB- kommandon för att återställa brädet och skriva det icke-flyktiga minnet.</translation>
+            <translation>Ange GDB-kommandon för att återställa kortet och skriva till det icke-flyktiga minnet.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Enter GDB commands to reset the hardware. The MCU should be halted after these commands.</source>
-            <translation>Ange GDB- kommandon för att återställa maskinvaran. MCU ska stoppas efter kommandona.</translation>
+            <translation>Ange GDB-kommandon för att återställa maskinvaran. MCU:n ska vara stoppad efter kommandona.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/baremetal/debugservers/gdb/genericgdbserverprovider.cpp" line="-36" />
             <location line="+101" />
             <source>Generic</source>
-            <translation>Allmän</translation>
+            <translation>Allmänt</translation>
         </message>
         <message>
             <location line="-72" />
             <source>Use GDB target extended-remote</source>
-            <translation>Använd GDB- mål med förlängd avstånd</translation>
+            <translation>Använd GDB-målet extended-remote</translation>
         </message>
         <message>
             <location line="+1" />
@@ -15729,7 +15729,7 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location line="+3" />
             <source>JLink GDB Server (JLinkGDBServer)</source>
-            <translation>JLink GDB- server (JLinkGDB- server)</translation>
+            <translation>JLink GDB-server (JLinkGDBServer)</translation>
         </message>
         <message>
             <location line="+9" />
@@ -15819,7 +15819,7 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location line="-96" />
             <source>Root scripts directory:</source>
-            <translation>Rotskriptkatalog:</translation>
+            <translation>Rotkatalog för skript:</translation>
         </message>
         <message>
             <location line="+5" />
@@ -15835,7 +15835,7 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location line="-140" />
             <source>Specify the verbosity level (0..99).</source>
-            <translation>Ange verbositetsnivån (0..99).</translation>
+            <translation>Ange utförlighetsnivån (0..99).</translation>
         </message>
         <message>
             <location line="+4" />
@@ -15845,7 +15845,7 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location line="+5" />
             <source>Reset board on connection.</source>
-            <translation>Återställ ombord på anslutning.</translation>
+            <translation>Återställ kortet vid anslutning.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -15855,7 +15855,7 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location line="+3" />
             <source>Connects to the board before executing any instructions.</source>
-            <translation>Ansluter till styrelsen innan du utför några instruktioner.</translation>
+            <translation>Ansluter till kortet innan några instruktioner körs.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -15893,7 +15893,7 @@ Försök igen när den har avslutats.</translation>
             <location filename="../../../src/plugins/baremetal/debugservers/uvsc/simulatoruvscserverprovider.cpp" line="+94" />
             <location filename="../../../src/plugins/baremetal/debugservers/uvsc/stlinkuvscserverprovider.cpp" line="-122" />
             <source>Unable to create a uVision project options template.</source>
-            <translation>Kunde inte skapa en UVision- projektalternativmall.</translation>
+            <translation>Kunde inte skapa en mall för uVision-projektalternativ.</translation>
         </message>
         <message>
             <location line="+15" />
