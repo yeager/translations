@@ -73884,42 +73884,42 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1" />
             <source>Applied to removed characters in differences (in side-by-side diff editor).</source>
-            <translation>Tillämpas på borttagna tecken i skillnader (i sid-vid-sida diff editor).</translation>
+            <translation>Tillämpas på borttagna tecken i diffar, i diff-redigeraren sida vid sida.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Diff Destination Line</source>
-            <translation>Diff- mållinje</translation>
+            <translation>Diff-målrad</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Applied to destination lines with changes in differences (in side-by-side diff editor).</source>
-            <translation>Tillämpas på mållinjer med ändringar i skillnader (i sido-by-side diff editor).</translation>
+            <translation>Tillämpas på målrader med ändringar i diffar, i diff-redigeraren sida vid sida.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Diff Destination Character</source>
-            <translation>Diff- måltecken</translation>
+            <translation>Diff-måltecken</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Applied to added characters in differences (in side-by-side diff editor).</source>
-            <translation>Tillämpas på add-tecken i skillnader (i sid-vid-sida-diff-editorn).</translation>
+            <translation>Tillämpas på tillagda tecken i diffar, i diff-redigeraren sida vid sida.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Log Change Line</source>
-            <translation>Log Byt rad</translation>
+            <translation>Ändringsrad i logg</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Applied to lines describing changes in VCS log.</source>
-            <translation>Tillämpas på linjer som beskriver förändringar i VCS-loggen.</translation>
+            <translation>Tillämpas på rader som beskriver ändringar i VCS-loggen.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Log Author Name</source>
-            <translation>Logan författares namn</translation>
+            <translation>Författarnamn i logg</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73929,22 +73929,22 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+2" />
             <source>Log Commit Date</source>
-            <translation>Log Kommit med datum</translation>
+            <translation>Incheckningsdatum i logg</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Applied to commit dates in VCS log.</source>
-            <translation>Tillämpas för att ange datum i VCS-loggen.</translation>
+            <translation>Tillämpas på incheckningsdatum i VCS-loggen.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Log Commit Hash</source>
-            <translation>Loggförrådshash</translation>
+            <translation>Incheckningshash i logg</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Applied to commit hashes in VCS log.</source>
-            <translation>Använt för att begå hash i VCS logg.</translation>
+            <translation>Tillämpas på incheckningshashar i VCS-loggen.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -73954,22 +73954,22 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1" />
             <source>Applied to commit decorations in VCS log.</source>
-            <translation>Tillämpas för att begå dekorationer i VCS logg.</translation>
+            <translation>Tillämpas på incheckningsdekorationer i VCS-loggen.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Log Commit Subject</source>
-            <translation>Log Commit- ämne</translation>
+            <translation>Incheckningsrubrik i logg</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Applied to commit subjects in VCS log.</source>
-            <translation>Tillämpas för att begå försökspersoner i VCS-loggen.</translation>
+            <translation>Tillämpas på incheckningsrubriker i VCS-loggen.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Underline color of error diagnostics.</source>
-            <translation>Underradsfärg för feldiagnos.</translation>
+            <translation>Understrykningsfärg för feldiagnostik.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -73979,7 +73979,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1" />
             <source>Underline color of the contexts of error diagnostics.</source>
-            <translation>Underradsfärg på sammanhangen för feldiagnos.</translation>
+            <translation>Understrykningsfärg för sammanhang i feldiagnostik.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -73989,7 +73989,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1" />
             <source>Underline color of warning diagnostics.</source>
-            <translation>Underradsfärg för varningsdiagnostik.</translation>
+            <translation>Understrykningsfärg för varningsdiagnostik.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -73999,7 +73999,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1" />
             <source>Underline color of the contexts of warning diagnostics.</source>
-            <translation>Underradsfärg på sammanhangen för varningsdiagnostik.</translation>
+            <translation>Understrykningsfärg för sammanhang i varningsdiagnostik.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -74009,32 +74009,32 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1" />
             <source>Underline color of info diagnostics.</source>
-            <translation>Underrad färg av info diagnostik.</translation>
+            <translation>Understrykningsfärg för informationsdiagnostik.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Info Context</source>
-            <translation>Bakgrund</translation>
+            <translation>Informationskontext</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Underline color of the contexts of info diagnostics.</source>
-            <translation>Underrad färg på sammanhangen för info diagnostik.</translation>
+            <translation>Understrykningsfärg för sammanhang i informationsdiagnostik.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Output Argument</source>
-            <translation>Utmatningsargument</translation>
+            <translation>Utdataargument</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Writable arguments of a function call.</source>
-            <translation>Skrivbara argument för ett funktionssamtal.</translation>
+            <translation>Skrivbara argument i ett funktionsanrop.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Static Member</source>
-            <translation>Stadig ledamot</translation>
+            <translation>Statisk medlem</translation>
         </message>
         <message>
             <location line="+1" />
@@ -74044,12 +74044,12 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+6" />
             <source>Code Coverage Added Code</source>
-            <translation>Kod täckning tillagd kod</translation>
+            <translation>Täckningsanalys: tillagd kod</translation>
         </message>
         <message>
             <location line="+1" />
             <source>New code that was not checked for tests.</source>
-            <translation>Ny kod som inte kontrollerades för tester.</translation>
+            <translation>Ny kod som inte har kontrollerats av tester.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -74059,42 +74059,42 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1" />
             <source>Partial branch/condition coverage.</source>
-            <translation>Delvis filial/villkor täckning.</translation>
+            <translation>Delvis täckning av grenar eller villkor.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Uncovered Code</source>
-            <translation>Kod som inte omfattas</translation>
+            <translation>Kod utan täckning</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Not covered at all.</source>
-            <translation>Inte alls täckt.</translation>
+            <translation>Inte täckt alls.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Fully Covered Code</source>
-            <translation>Fullständig kod</translation>
+            <translation>Fullständigt täckt kod</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Fully covered code.</source>
-            <translation>Fullt täckt kod.</translation>
+            <translation>Fullständigt täckt kod.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Manually Validated Code</source>
-            <translation>Manuellt validerad kod</translation>
+            <translation>Manuellt verifierad kod</translation>
         </message>
         <message>
             <location line="+1" />
             <source>User added validation.</source>
-            <translation>Användaren lade till validering.</translation>
+            <translation>Användaren lade till en verifiering.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Code Coverage Dead Code</source>
-            <translation>Kod för täckningskod för död</translation>
+            <translation>Täckningsanalys: död kod</translation>
         </message>
         <message>
             <location line="+1" />
@@ -74104,17 +74104,17 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+4" />
             <source>Code Coverage Execution Count Too Low</source>
-            <translation>Kod Täckning Avrättning Räkna för låg</translation>
+            <translation>Täckningsanalys: för lågt exekveringsantal</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Minimum count not reached.</source>
-            <translation>Minsta antal ej uppnått.</translation>
+            <translation>Minsta antalet har inte uppnåtts.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Implicitly Not Covered Code</source>
-            <translation>Oförklarligt oskyddad kod</translation>
+            <translation>Implicit ej täckt kod</translation>
         </message>
         <message>
             <location line="+1" />
@@ -74126,12 +74126,12 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="-6" />
             <source>Implicitly Covered Code</source>
-            <translation>Oförtydligt täckt kod</translation>
+            <translation>Implicit täckt kod</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Implicit Manual Coverage Validation</source>
-            <translation>Implicit manuell validering av täckning</translation>
+            <translation>Implicit manuell verifiering av täckning</translation>
         </message>
         <message>
             <location line="-256" />
