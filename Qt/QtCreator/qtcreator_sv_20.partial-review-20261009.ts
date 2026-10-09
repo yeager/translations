@@ -75466,27 +75466,27 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="+8" />
             <source>Wrapping</source>
-            <translation>Brytning</translation>
+            <translation>Radbrytning</translation>
         </message>
         <message>
             <location line="-121" />
             <source>Enable text &amp;wrapping</source>
-            <translation>Aktivera text&amp;brytning</translation>
+            <translation>Aktivera rad&amp;brytning</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Visualize indent</source>
-            <translation>Visualisera indrag</translation>
+            <translation>Visa indrag</translation>
         </message>
         <message>
             <location line="+46" />
             <source>Display file line ending</source>
-            <translation>Visa filradsslut</translation>
+            <translation>Visa filens radslut</translation>
         </message>
         <message>
             <location line="-26" />
             <source>&amp;Highlight matching parentheses</source>
-            <translation>&amp;Framhäv matchande paranteser</translation>
+            <translation>&amp;Framhäv matchande parenteser</translation>
         </message>
         <message>
             <location line="+16" />
@@ -75501,7 +75501,7 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location filename="../../../src/plugins/texteditor/highlightersettings.cpp" line="-4" />
             <source>Syntax Highlight Definition Files</source>
-            <translation>Syntaxfärgläggningsfiler</translation>
+            <translation>Syntaxmarkeringsdefinitionsfiler</translation>
         </message>
         <message>
             <source>Ignored file patterns:</source>
@@ -75515,7 +75515,7 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="-16" />
             <source>Revert Built-in</source>
-            <translation>Återställ inbyggd</translation>
+            <translation>Återställ inbyggda</translation>
         </message>
         <message>
             <location line="-179" />
@@ -75525,7 +75525,7 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="+204" />
             <source>Restore Removed Built-ins</source>
-            <translation>Återställa borttagna inbyggda</translation>
+            <translation>Återställ borttagna inbyggda</translation>
         </message>
         <message>
             <location line="+4" />
@@ -75535,11 +75535,11 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location filename="../../../src/plugins/texteditor/tabsettingswidget.cpp" line="+95" />
             <source>Tabs And Indentation</source>
-            <translation>Tabulatorer och indragning</translation>
+            <translation>Tabbar och indrag</translation>
         </message>
         <message>
             <source>Tab policy:</source>
-            <translation>Tabulatorpolicy:</translation>
+            <translation>Tabbpolicy:</translation>
         </message>
         <message>
             <location line="-26" />
@@ -75558,7 +75558,7 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="+2" />
             <source>Ta&amp;b size:</source>
-            <translation>Ta&amp;bulatorstorlek:</translation>
+            <translation>Ta&amp;bbstorlek:</translation>
         </message>
         <message>
             <source>&amp;Indent size:</source>
@@ -75567,7 +75567,7 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="+6" />
             <source>Align continuation lines:</source>
-            <translation>Anpassa fortsättningslinjer:</translation>
+            <translation>Justera fortsättningsrader:</translation>
         </message>
         <message>
             <location line="-55" />
@@ -75597,24 +75597,24 @@ Influences the indentation of continuation lines.
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
             <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;
-Influences the indentation of continuation lines.
+Påverkar indraget för fortsättningsrader.
 
 &lt;ul&gt;
-&lt;li&gt;Not At All: Do not align at all. Lines will only be indented to the current logical indentation depth.
+&lt;li&gt;Inte alls: Justera inte alls. Rader får bara indrag enligt det aktuella logiska indragsdjupet.
 &lt;pre&gt;
 (tab)int i = foo(a, b
 (tab)c, d);
 &lt;/pre&gt;
 &lt;/li&gt;
 
-&lt;li&gt;With Spaces: Always use spaces for alignment, regardless of the other indentation settings.
+&lt;li&gt;Med blanksteg: Använd alltid blanksteg för justering, oavsett övriga indragsinställningar.
 &lt;pre&gt;
 (tab)int i = foo(a, b
 (tab)            c, d);
 &lt;/pre&gt;
 &lt;/li&gt;
 
-&lt;li&gt;With Regular Indent: Use tabs and/or spaces for alignment, as configured above.
+&lt;li&gt;Med normalt indrag: Använd tabbar och/eller blanksteg för justering enligt inställningarna ovan.
 &lt;pre&gt;
 (tab)int i = foo(a, b
 (tab)(tab)(tab)  c, d);
@@ -75626,22 +75626,22 @@ Influences the indentation of continuation lines.
             <location line="+38" />
             <location filename="../../../src/plugins/texteditor/texteditor.cpp" line="-1784" />
             <source>Auto detect</source>
-            <translation>Automatisk upptäckt</translation>
+            <translation>Identifiera automatiskt</translation>
         </message>
         <message>
             <location line="+2" />
             <source>%1 tries to detect the indentation settings based on the file contents. It will fallback to the settings below if the detection fails.</source>
-            <translation>%1 försöker upptäcka indenteringsinställningarna baserat på filinnehållet. Det faller tillbaka till inställningarna nedan om detektionen misslyckas.</translation>
+            <translation>%1 försöker identifiera indragsinställningarna utifrån filens innehåll. Om identifieringen misslyckas används inställningarna nedan.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Default tab policy:</source>
-            <translation>Förvald flikpolicy:</translation>
+            <translation>Standardtabbpolicy:</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Default &amp;indent size:</source>
-            <translation>Förvald storlek på &amp;indent:</translation>
+            <translation>Standard&amp;indragsstorlek:</translation>
         </message>
         <message>
             <location line="+5" />
@@ -75656,17 +75656,17 @@ Influences the indentation of continuation lines.
         <message>
             <location line="+1" />
             <source>With Regular Indent</source>
-            <translation>Med regelbunden indentering</translation>
+            <translation>Med normalt indrag</translation>
         </message>
         <message>
             <location line="-24" />
             <source>The text editor indentation setting is used for non-code files only. See the C++ and Qt Quick coding style settings to configure indentation for code files.</source>
-            <translation>Inställningen för texteditorns indentering används endast för icke- kodfiler. Se inställningarna för C++ och Qt Snabbkodningsstil för att anpassa indentering för kodfiler.</translation>
+            <translation>Textredigerarens indragsinställning används endast för filer som inte är kodfiler. Se inställningarna för kodstil för C++ och Qt Quick för att konfigurera indrag för kodfiler.</translation>
         </message>
         <message>
             <location line="-4" />
             <source>&lt;i&gt;Code indentation is configured in &lt;a href="C++"&gt;C++&lt;/a&gt; and &lt;a href="QtQuick"&gt;Qt Quick&lt;/a&gt; settings.&lt;/i&gt;</source>
-            <translation>&lt;i&gt;Code indentering är konfigurerad i &lt;a href="C++"&gt;C++&lt;/a&gt; och &lt;a href="QtQuick"&gt;Qt Quick&lt;/a&gt; inställningar.&lt;/i&gt;</translation>
+            <translation>&lt;i&gt;Kodindrag konfigureras i inställningarna för &lt;a href="C++"&gt;C++&lt;/a&gt; och &lt;a href="QtQuick"&gt;Qt Quick&lt;/a&gt;.&lt;/i&gt;</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/findinopenfiles.cpp" line="+57" />
@@ -75712,31 +75712,31 @@ Influences the indentation of continuation lines.
             <location line="+1" />
             <source>with if</source>
             <comment>group:'C++' trigger:'else'</comment>
-            <translation>där</translation>
+            <translation>med if-sats</translation>
         </message>
         <message>
             <location line="+1" />
             <source>range-based</source>
             <comment>group:'C++' trigger:'for'</comment>
-            <translation>Räckviddsbaserad</translation>
+            <translation>intervallbaserad</translation>
         </message>
         <message>
             <location line="+1" />
             <source>and else</source>
             <comment>group:'C++' trigger:'if'</comment>
-            <translation>och annat</translation>
+            <translation>och else</translation>
         </message>
         <message>
             <location line="+1" />
             <source>with closing brace comment</source>
             <comment>group:'C++' trigger:'namespace'</comment>
-            <translation>med avslutande hänge kommentar</translation>
+            <translation>med kommentar vid avslutande klammerparentes</translation>
         </message>
         <message>
             <location line="+1" />
             <source>and catch</source>
             <comment>group:'C++' trigger:'try'</comment>
-            <translation>och fånga</translation>
+            <translation>och catch</translation>
         </message>
         <message>
             <location line="+1" />
