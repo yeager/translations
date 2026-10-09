@@ -17636,7 +17636,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
             <location line="+3" />
             <source>directory</source>
             <comment>display string for cmake type DIRECTORY</comment>
-            <translation>Katalog</translation>
+            <translation>katalog</translation>
         </message>
         <message>
             <location line="+3" />
@@ -17717,12 +17717,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+29" />
             <source>The C++ compiler QML debugging define, if enabled</source>
-            <translation>C++ kompilatorn QML felsökning definierar, om aktiverad</translation>
+            <translation>C++-kompilatorns definition för QML-felsökning, om den är aktiverad</translation>
         </message>
         <message>
             <location line="+8" />
             <source>The CMake boolean value for QML debugging: ON / OFF.</source>
-            <translation>CMake boolean-värdet för QML-avlusning: ON / OFF.</translation>
+            <translation>Det booleska CMake-värdet för QML-felsökning: ON/OFF.</translation>
         </message>
         <message>
             <location line="+923" />
@@ -17733,7 +17733,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+1" />
             <source>Base environment for the CMake configure step:</source>
-            <translation>Basmiljö för CMake configure steg:</translation>
+            <translation>Basmiljö för CMake-konfigurationssteget:</translation>
         </message>
         <message>
             <location line="+2" />
@@ -17761,7 +17761,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
             <location line="+7" />
             <location line="+267" />
             <source>Reload CMake Presets</source>
-            <translation>Läs om CMake-förval</translation>
+            <translation>Läs in CMake-förinställningar på nytt</translation>
         </message>
         <message>
             <location line="-186" />
@@ -17782,7 +17782,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+23" />
             <source>Build File</source>
-            <translation>Bygg fil</translation>
+            <translation>Byggfil</translation>
         </message>
         <message>
             <location line="+0" />
@@ -17821,7 +17821,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+197" />
             <source>Re-generates the kits that were created for CMake presets. All manual modifications to the CMake project settings will be lost.</source>
-            <translation>Skapar om kiten som skapades för förinställningar av CMake. Alla manuella ändringar av CMake- projektets inställningar kommer att gå förlorade.</translation>
+            <translation>Skapar om de kit som skapades för CMake-förinställningar. Alla manuella ändringar i CMake-projektets inställningar går förlorade.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -17844,7 +17844,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakeprojectimporter.cpp" line="+535" />
             <source>%1: %2 %3 Debugger</source>
             <extracomment>%1=project name, %2=CMake preset name, %3=debugger base name</extracomment>
-            <translation>%1: %2 %3-avlusare</translation>
+            <translation>%1: %2 %3-felsökare</translation>
         </message>
         <message>
             <location line="+472" />
@@ -17854,17 +17854,17 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+304" />
             <source>Cannot set up compiler for CMake Preset "%1".</source>
-            <translation>Kan inte ställa in kompilator för CMake förinställd "%1".</translation>
+            <translation>Kan inte konfigurera kompilatorn för CMake-förinställningen ”%1”.</translation>
         </message>
         <message>
             <location line="+41" />
             <source>Cannot set up Qt for CMake Preset "%1".</source>
-            <translation>Kan inte ställa in Qt för CMake förinställd "%1".</translation>
+            <translation>Kan inte konfigurera Qt för CMake-förinställningen ”%1”.</translation>
         </message>
         <message>
             <location line="+131" />
             <source>Creating Kits for CMake Presets</source>
-            <translation>Skapa kit för CMake förinställningar</translation>
+            <translation>Skapar kit för CMake-förinställningar</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakekitaspect.cpp" line="-124" />
@@ -17874,7 +17874,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+1" />
             <source>The CMake Tool to use when building a project with CMake.&lt;br&gt;This setting is ignored when using other build systems.</source>
-            <translation>CMake Tool att använda när man bygger ett projekt med CMake.&lt;br&gt;Denna inställning ignoreras när man använder andra byggsystem.</translation>
+            <translation>CMake-verktyget som ska användas när ett projekt byggs med CMake.&lt;br&gt;Inställningen ignoreras när andra byggsystem används.</translation>
         </message>
         <message>
             <location line="+123" />
@@ -17883,7 +17883,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         </message>
         <message>
             <source>Path to the cmake executable</source>
-            <translation>Sökväg till körbar cmake-fil</translation>
+            <translation>Sökväg till den körbara cmake-filen</translation>
         </message>
         <message>
             <location line="-264" />
