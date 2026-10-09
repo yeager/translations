@@ -5779,7 +5779,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Enables the Glow/Bloom Effect</source>
-        <translation>Aktiverar glöd-/Bloom-effekten</translation>
+        <translation>Aktiverar glöd-/bloom-effekten</translation>
     </message>
     <message>
         <source>High Quality</source>
@@ -5791,11 +5791,11 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Bicubic Upsampling</source>
-        <translation>Bikubisk uppsampling</translation>
+        <translation>Bikubisk uppskalning</translation>
     </message>
     <message>
         <source>Reduces the aliasing artifacts and boxing in the glow effect.</source>
-        <translation>Minskar kantutjämningsartefakter och blockighet i glödeffekten.</translation>
+        <translation>Minskar aliasingartefakter och blockighet i glödeffekten.</translation>
     </message>
     <message>
         <source>Sets the strength of the glow effect.</source>
@@ -5855,7 +5855,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Sets which of the blur passes get applied to the glow effect.</source>
-        <translation>Ställer in vilka oskärpepasseringar som tillämpas på glödeffekten.</translation>
+        <translation>Anger vilka oskärpesteg som tillämpas på glödeffekten.</translation>
     </message>
     <message>
         <source>Level 1</source>
