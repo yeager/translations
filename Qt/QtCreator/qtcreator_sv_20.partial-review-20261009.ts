@@ -48584,7 +48584,7 @@ för mål %1</translation>
         <message>
             <location line="+2" />
             <source>Repository:</source>
-            <translation>Förråd:</translation>
+            <translation>Arkiv:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -48594,7 +48594,7 @@ för mål %1</translation>
         <message>
             <location line="+4" />
             <source>Commit Information</source>
-            <translation>Uppgifter från kommittén</translation>
+            <translation>Incheckningsinformation</translation>
         </message>
         <message>
             <location line="+3" />
@@ -48624,7 +48624,7 @@ för mål %1</translation>
         <message>
             <location line="-20" />
             <source>Username to use by default on commit.</source>
-            <translation>Användarnamn att använda som standard på commit.</translation>
+            <translation>Användarnamn som används som standard vid incheckning.</translation>
         </message>
         <message>
             <location line="-1" />
@@ -48634,7 +48634,7 @@ för mål %1</translation>
         <message>
             <location line="+5" />
             <source>Email to use by default on commit.</source>
-            <translation>E-post att använda som standard på commit.</translation>
+            <translation>E-postadress som används som standard vid incheckning.</translation>
         </message>
         <message>
             <location line="-1" />
@@ -48654,7 +48654,7 @@ för mål %1</translation>
         <message>
             <location line="+2" />
             <source>Specify a revision other than the default?</source>
-            <translation>Ange en revision annan än standard?</translation>
+            <translation>Vill du ange en annan revision än standardrevisionen?</translation>
         </message>
         <message>
             <location line="+11" />
@@ -48690,12 +48690,12 @@ för mål %1</translation>
         <message>
             <location filename="../../../src/plugins/mercurial/commiteditor.cpp" line="+20" />
             <source>Commit Editor</source>
-            <translation>Kommit med redaktör</translation>
+            <translation>Incheckningsredigerare</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/mercurial/mercurialclient.cpp" line="+100" />
             <source>Unable to find parent revisions of %1 in %2: %3</source>
-            <translation>Kunde inte hitta överliggande revideringar av %1 i %2: %3</translation>
+            <translation>Kunde inte hitta överordnade revisioner till %1 i %2: %3</translation>
         </message>
         <message>
             <location line="+6" />
@@ -48705,13 +48705,13 @@ för mål %1</translation>
         <message>
             <location line="+133" />
             <source>Mercurial Diff</source>
-            <translation>Mercurial Diff (ömsesidigt jämförelse)</translation>
+            <translation>Mercurial-jämförelse</translation>
         </message>
         <message>
             <location line="+7" />
             <location line="+6" />
             <source>Mercurial Diff "%1"</source>
-            <translation>Mercurial Diff "%1"</translation>
+            <translation>Mercurial-jämförelse för ”%1”</translation>
         </message>
         <message>
             <location line="-55" />
@@ -48736,47 +48736,47 @@ för mål %1</translation>
         <message>
             <location line="-12" />
             <source>Triggers a Mercurial version control operation.</source>
-            <translation>Utlöser en Mercurial version kontroll operation.</translation>
+            <translation>Utlöser en Mercurial-versionshanteringsåtgärd.</translation>
         </message>
         <message>
             <location line="-136" />
             <source>Mercurial File Log Editor</source>
-            <translation>Mercurial fil loggeditor</translation>
+            <translation>Redigerare för Mercurial-fillogg</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Mercurial Annotation Editor</source>
-            <translation>Redaktör för Mercurial Annotation</translation>
+            <translation>Redigerare för Mercurial-annoteringar</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Mercurial Diff Editor</source>
-            <translation>Mercurial Diff Editor</translation>
+            <translation>Redigerare för Mercurial-jämförelser</translation>
         </message>
         <message>
             <location line="+101" />
             <source>Mercurial Commit Log Editor</source>
-            <translation>Mercurial Committe Log Editor (Skroteditor för Mercurial Committe)</translation>
+            <translation>Redigerare för Mercurial-incheckningslogg</translation>
         </message>
         <message>
             <location line="+50" />
             <source>Annotate Current File</source>
-            <translation>Anteckna aktuell fil</translation>
+            <translation>Annotera aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Annotate "%1"</source>
-            <translation>Anteckna "%1"</translation>
+            <translation>Annotera ”%1”</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Diff Current File</source>
-            <translation>Diff för aktuell fil</translation>
+            <translation>Jämför aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Diff "%1"</source>
-            <translation>Diff "%1"</translation>
+            <translation>Jämför ”%1”</translation>
         </message>
         <message>
             <location line="+3" />
@@ -48791,12 +48791,12 @@ för mål %1</translation>
         <message>
             <location line="+5" />
             <source>Log Current File</source>
-            <translation>Log aktuell fil</translation>
+            <translation>Logg för aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Log "%1"</source>
-            <translation>Logga "%1"</translation>
+            <translation>Logg för ”%1”</translation>
         </message>
         <message>
             <location line="+3" />
@@ -48811,12 +48811,12 @@ för mål %1</translation>
         <message>
             <location line="+5" />
             <source>Status Current File</source>
-            <translation>Status aktuell fil</translation>
+            <translation>Status för aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Status "%1"</source>
-            <translation>Status "%1"</translation>
+            <translation>Status för ”%1”</translation>
         </message>
         <message>
             <location line="+3" />
@@ -48836,7 +48836,7 @@ för mål %1</translation>
         <message>
             <location line="+0" />
             <source>Add "%1"</source>
-            <translation>Lägg till "%1"</translation>
+            <translation>Lägg till ”%1”</translation>
         </message>
         <message>
             <location line="+7" />
@@ -48846,7 +48846,7 @@ för mål %1</translation>
         <message>
             <location line="+0" />
             <source>Delete "%1"...</source>
-            <translation>Ta bort "%1"…</translation>
+            <translation>Ta bort ”%1”...</translation>
         </message>
         <message>
             <location line="+7" />
@@ -48856,12 +48856,12 @@ för mål %1</translation>
         <message>
             <location line="+0" />
             <source>Revert "%1"...</source>
-            <translation>Återställ %1…</translation>
+            <translation>Återställ ”%1”...</translation>
         </message>
         <message>
             <location line="+60" />
             <source>Diff</source>
-            <translation>Diff</translation>
+            <translation>Jämför</translation>
         </message>
         <message>
             <location line="+7" />
@@ -48881,12 +48881,12 @@ för mål %1</translation>
         <message>
             <location line="+43" />
             <source>Pull...</source>
-            <translation>Dra…</translation>
+            <translation>Hämta...</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Push...</source>
-            <translation>Tryck…</translation>
+            <translation>Skicka...</translation>
         </message>
         <message>
             <location line="+7" />
@@ -48911,7 +48911,7 @@ för mål %1</translation>
         <message>
             <location line="+7" />
             <source>Commit...</source>
-            <translation>- Jag är ledsen.</translation>
+            <translation>Checka in...</translation>
         </message>
         <message>
             <location line="+3" />
@@ -48926,17 +48926,17 @@ för mål %1</translation>
         <message>
             <location line="+5" />
             <source>Create Repository...</source>
-            <translation>Skapa förråd…</translation>
+            <translation>Skapa arkiv...</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Pull Source</source>
-            <translation>Dra i källa</translation>
+            <translation>Hämtningskälla</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Push Destination</source>
-            <translation>Tryck på mål</translation>
+            <translation>Överföringsmål</translation>
         </message>
         <message>
             <location line="+12" />
@@ -48951,17 +48951,17 @@ för mål %1</translation>
         <message>
             <location line="+39" />
             <source>There are no changes to commit.</source>
-            <translation>Det finns inga förändringar att göra.</translation>
+            <translation>Det finns inga ändringar att checka in.</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Unable to create an editor for the commit.</source>
-            <translation>Kunde inte skapa en editor för att begå.</translation>
+            <translation>Kunde inte skapa en redigerare för incheckningen.</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Commit changes for "%1".</source>
-            <translation>Komma med ändringar för "%1".</translation>
+            <translation>Checka in ändringar för ”%1”.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/mercurial/mercurialsettings.cpp" line="-53" />
@@ -48981,12 +48981,12 @@ för mål %1</translation>
         <message>
             <location filename="../../../src/plugins/mercurial/mercurialeditor.cpp" line="+31" />
             <source>&amp;Annotate %1</source>
-            <translation>&amp;Anteckna %1</translation>
+            <translation>&amp;Annotera %1</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Annotate &amp;parent revision %1</source>
-            <translation>Annotera &amp;parent-revisionen %1</translation>
+            <translation>Annotera &amp;överordnad revision %1</translation>
         </message>
     </context>
     <context>
