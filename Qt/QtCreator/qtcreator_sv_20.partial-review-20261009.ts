@@ -13812,7 +13812,7 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+15" />
             <source>No active test frameworks.</source>
-            <translation>Inga aktiva testramar.</translation>
+            <translation>Inga aktiva testramverk.</translation>
         </message>
         <message>
             <location line="+75" />
@@ -13849,7 +13849,7 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+56" />
             <source>Filter Test Tree</source>
-            <translation>Filtertestträd</translation>
+            <translation>Filtrera testträdet</translation>
         </message>
         <message>
             <location line="+11" />
@@ -13866,7 +13866,7 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
             <location line="-140" />
             <location filename="../../../src/plugins/autotest/testresultspane.cpp" line="-491" />
             <source>Expand All</source>
-            <translation>Expandera alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <location line="+1" />
@@ -13881,7 +13881,7 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+30" />
             <source>Show Init and Cleanup Functions</source>
-            <translation>Visa funktioner för init och rensning</translation>
+            <translation>Visa initierings- och rensningsfunktioner</translation>
         </message>
         <message>
             <location line="+6" />
@@ -13891,7 +13891,7 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location filename="../../../src/plugins/autotest/testoutputreader.cpp" line="+69" />
             <source>Test executable crashed.</source>
-            <translation>Körbar testkörning kraschade.</translation>
+            <translation>Den körbara testfilen kraschade.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/testresultspane.cpp" line="+31" />
@@ -13921,22 +13921,22 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+274" />
             <source>Pass</source>
-            <translation>Lyckades</translation>
+            <translation>Godkänd</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Fail</source>
-            <translation>Fel</translation>
+            <translation>Misslyckad</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Expected Fail</source>
-            <translation>Förväntade fel</translation>
+            <translation>Förväntat misslyckande</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Unexpected Pass</source>
-            <translation>Oväntat pass</translation>
+            <translation>Oväntat godkänd</translation>
         </message>
         <message>
             <location line="+1" />
@@ -13946,7 +13946,7 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+1" />
             <source>Benchmarks</source>
-            <translation>Riktmärken</translation>
+            <translation>Prestandamätningar</translation>
         </message>
         <message>
             <location line="+1" />
@@ -13976,32 +13976,32 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+8" />
             <source>Test summary</source>
-            <translation>Testsammandrag</translation>
+            <translation>Testsammanfattning</translation>
         </message>
         <message>
             <location line="+3" />
             <source>passes</source>
-            <translation>lyckades</translation>
+            <translation>godkända</translation>
         </message>
         <message>
             <location line="+2" />
             <source>fails</source>
-            <translation>misslyckades</translation>
+            <translation>misslyckade</translation>
         </message>
         <message>
             <location line="+3" />
             <source>unexpected passes</source>
-            <translation>lyckades (oväntade)</translation>
+            <translation>oväntat godkända</translation>
         </message>
         <message>
             <location line="+3" />
             <source>expected fails</source>
-            <translation>förväntade fel</translation>
+            <translation>förväntade misslyckanden</translation>
         </message>
         <message>
             <location line="+3" />
             <source>fatals</source>
-            <translation>ödesdigra fel</translation>
+            <translation>allvarliga fel</translation>
         </message>
         <message>
             <location line="+6" />
@@ -14011,12 +14011,12 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+3" />
             <source>skipped</source>
-            <translation>hoppades över</translation>
+            <translation>överhoppade</translation>
         </message>
         <message>
             <location line="+3" />
             <source>disabled</source>
-            <translation>Inaktiverad</translation>
+            <translation>inaktiverade</translation>
         </message>
         <message>
             <location line="+75" />
