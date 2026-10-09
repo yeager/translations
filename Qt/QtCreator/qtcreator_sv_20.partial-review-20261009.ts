@@ -43402,7 +43402,7 @@ Vill du avsluta den?</translation>
         <message>
             <location line="+1" />
             <source>Keep Running</source>
-            <translation>Fortsätt kör</translation>
+            <translation>Fortsätt köra</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gerrit/gerritoptionspage.cpp" line="-56" />
@@ -43422,7 +43422,7 @@ Vill du avsluta den?</translation>
         <message>
             <location line="+4" />
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Gerrit server with HTTP was detected, but you need to set up credentials for it.&lt;/p&gt;&lt;p&gt;To get your password, &lt;a href="LINK_PLACEHOLDER"&gt;&lt;span style=" text-decoration: underline; color:#007af4;"&gt;click here&lt;/span&gt;&lt;/a&gt; (sign in if needed). Click Generate Password if the password is blank, and copy the user name and password to this form.&lt;/p&gt;&lt;p&gt;Choose Anonymous if you do not want authentication for this server. In this case, changes that require authentication (like draft changes or private projects) will not be displayed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Gerrit server with HTTP was detected, but you need to set up credentials for it.&lt;/p&gt;&lt;p&gt;To get your password, &lt;a href="LINK_PLACEHOLDER"&gt;&lt;span style=" text-decoration: underline; color:#007af4;"&gt;click here&lt;/span&gt;&lt;/a&gt; (sign in if needed). Click Generate Password if the password is blank, and copy the user name and password to this form.&lt;/p&gt;&lt;p&gt;Choose Anonymous if you do not want authentication for this server. In this case, changes that require authentication (like draft changes or private projects) will not be displayed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;En Gerrit-server med HTTP har upptäckts, men du måste ange inloggningsuppgifter för den.&lt;/p&gt;&lt;p&gt;Hämta lösenordet genom att &lt;a href="LINK_PLACEHOLDER"&gt;&lt;span style=" text-decoration: underline; color:#007af4;"&gt;klicka här&lt;/span&gt;&lt;/a&gt; (logga in vid behov). Klicka på Generera lösenord om lösenordsfältet är tomt och kopiera användarnamnet och lösenordet till det här formuläret.&lt;/p&gt;&lt;p&gt;Välj Anonym om du inte vill använda autentisering för servern. Då visas inte ändringar som kräver autentisering, till exempel utkast eller privata projekt.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location line="+34" />
@@ -43470,9 +43470,9 @@ Vill du avsluta den?</translation>
             <source>Determines the protocol used to form a URL in case
 "canonicalWebUrl" is not configured in the file
 "gerrit.config".</source>
-            <translation>Bestämmer protokollet som används för att
-bilda en URL om "kanoniskWebUrl" inte är
-konfigurerad i filen "gerrit.config".</translation>
+            <translation>Bestämmer vilket protokoll som används för att skapa en URL när
+”canonicalWebUrl” inte är konfigurerad i filen
+”gerrit.config”.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gerrit/gerritplugin.cpp" line="+175" />
@@ -43482,7 +43482,7 @@ konfigurerad i filen "gerrit.config".</translation>
         <message>
             <location line="+7" />
             <source>Push to Gerrit...</source>
-            <translation>Tryck på mot Gerrit…</translation>
+            <translation>Skicka till Gerrit...</translation>
         </message>
         <message>
             <location line="+29" />
@@ -43497,7 +43497,7 @@ konfigurerad i filen "gerrit.config".</translation>
         <message>
             <location line="+1" />
             <source>Invalid Gerrit configuration. Host, user and ssh binary are mandatory.</source>
-            <translation>Ogiltig Gerrit- inställning. Värddator, användare och ssh- binär är obligatoriska.</translation>
+            <translation>Ogiltig Gerrit-konfiguration. Värd, användare och körbar ssh-fil krävs.</translation>
         </message>
         <message>
             <location line="+37" />
@@ -43507,7 +43507,7 @@ konfigurerad i filen "gerrit.config".</translation>
         <message>
             <location line="+40" />
             <source>Remote Not Verified</source>
-            <translation>Fjärrkontrollen ej verifierad</translation>
+            <translation>Fjärrarkiv inte verifierat</translation>
         </message>
         <message>
             <location line="+1" />
@@ -43515,27 +43515,27 @@ konfigurerad i filen "gerrit.config".</translation>
 and project %2
 
 were not verified among remotes in %3. Select different folder?</source>
-            <translation>Ändra värddator %1 och
-projekt %2 verifierades inte
-bland fjärrkontroller i %3.
-Välj olika kataloger?</translation>
+            <translation>Ändringen med värden %1
+och projektet %2
+
+verifierades inte bland fjärrarkiven i %3. Vill du välja en annan mapp?</translation>
         </message>
         <message>
             <location line="+23" />
             <source>Enter Local Repository for "%1" (%2)</source>
-            <translation>Ange lokal arkivering för "%1" (%2)</translation>
+            <translation>Ange lokalt arkiv för ”%1” (%2)</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/branchmodel.cpp" line="-471" />
             <location filename="../../../src/plugins/git/gitclient.cpp" line="+1246" />
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="+69" />
             <source>Detached HEAD</source>
-            <translation>Frikopplat huvud</translation>
+            <translation>Frikopplad HEAD</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="-21" />
             <source>Provide a valid email to commit.</source>
-            <translation>Tillhandahåll ett giltigt e-postmeddelande att göra ett åtagande.</translation>
+            <translation>Ange en giltig e-postadress för incheckningen.</translation>
         </message>
         <message>
             <location line="+47" />
@@ -43545,27 +43545,27 @@ Välj olika kataloger?</translation>
         <message>
             <location line="+3" />
             <source>Edit commit message</source>
-            <translation>Redigera brev för att komma åt</translation>
+            <translation>Redigera incheckningsmeddelande</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Opens an editor to edit the final commit message.</source>
-            <translation>Öppnar en editor för att redigera det slutliga meddelandet.</translation>
+            <translation>Öppnar en redigerare för det slutliga incheckningsmeddelandet.</translation>
         </message>
         <message>
             <location line="+20" />
             <source>&amp;Commit only</source>
-            <translation>dast &amp;Commit</translation>
+            <translation>&amp;Checka endast in</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Commit and &amp;Push</source>
-            <translation>Kommitté och &amp;Push</translation>
+            <translation>Checka in och &amp;skicka</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Commit and Push to &amp;Gerrit</source>
-            <translation>Komma och tryck på &amp;Gerrit</translation>
+            <translation>Checka in och skicka till &amp;Gerrit</translation>
         </message>
         <message>
             <location line="+43" />
@@ -43580,82 +43580,82 @@ Välj olika kataloger?</translation>
         <message>
             <location line="+3" />
             <source>Unresolved merge conflicts</source>
-            <translation>Olösta sammanfogningskonflikter</translation>
+            <translation>Olösta sammanslagningskonflikter</translation>
         </message>
         <message>
             <location line="+27" />
             <source>&amp;Commit and Push</source>
-            <translation>&amp;Commit och tryck</translation>
+            <translation>&amp;Checka in och skicka</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&amp;Commit and Push to Gerrit</source>
-            <translation>&amp;Commit och Tryck på Gerrit</translation>
+            <translation>&amp;Checka in och skicka till Gerrit</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&amp;Commit</source>
-            <translation>&amp;Commit Ordförande</translation>
+            <translation>&amp;Checka in</translation>
         </message>
         <message>
             <location line="+36" />
             <source>Copy "%1"</source>
-            <translation>Kopiera "%1"</translation>
+            <translation>Kopiera ”%1”</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Diff "%1"</source>
-            <translation>Diff "%1"</translation>
+            <translation>Jämför ”%1”</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Log "%1"</source>
-            <translation>Logga "%1"</translation>
+            <translation>Logg för ”%1”</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Blame "%1"</source>
-            <translation>-Skyldig till %1.</translation>
+            <translation>Git-blame för ”%1”</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Revert Renaming "%1"</source>
-            <translation>Återställa ändring av %1</translation>
+            <translation>Återställ namnbytet för ”%1”</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Resolve by Recovering "%1"</source>
-            <translation>Lös genom att återställa "%1"</translation>
+            <translation>Lös genom att återställa ”%1”</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Resolve by Removing "%1"...</source>
-            <translation>Lös genom att ta bort "%1"…</translation>
+            <translation>Lös genom att ta bort ”%1”...</translation>
         </message>
         <message>
             <location line="+1" />
             <source>&lt;p&gt;Permanently remove file "%1"?&lt;/p&gt;&lt;p&gt;Note: The changes will be discarded.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Permanent ta bort filen "%1"?&lt;/p&gt;&lt;p&gt;Note: Ändringarna kommer att kasseras.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Ta bort filen ”%1” permanent?&lt;/p&gt;&lt;p&gt;Obs! Ändringarna kommer att förkastas.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Recover "%1"</source>
-            <translation>Återvinning av %1</translation>
+            <translation>Återställ ”%1”</translation>
         </message>
         <message>
             <location line="+23" />
             <source>Revert Unstaged Changes to "%1"...</source>
-            <translation>Återställ ostadiga ändringar av "%1"…</translation>
+            <translation>Återställ oindexerade ändringar i ”%1”...</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&lt;p&gt;Undo unstaged changes to the file "%1"?&lt;/p&gt;&lt;p&gt;Note: These changes will be lost.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Oavsluta ostadiga ändringar i filen "%1"?&lt;/p&gt;&lt;p&gt;Note: Dessa ändringar kommer att gå förlorade.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Ångra oindexerade ändringar i filen ”%1”?&lt;/p&gt;&lt;p&gt;Obs! Ändringarna kommer att gå förlorade.&lt;/p&gt;</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gitplugin.cpp" line="+789" />
             <source>Undo Changes to %1</source>
-            <translation>Ångra ändringar till %1</translation>
+            <translation>Ångra ändringar i %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/branchcheckoutdialog.cpp" line="+28" />
