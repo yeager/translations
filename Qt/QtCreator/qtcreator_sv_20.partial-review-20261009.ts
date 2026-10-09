@@ -1493,7 +1493,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Sets the space between the items in pixels in the &lt;b&gt;Column Layout&lt;/b&gt;.</source>
-            <translation>Ställer in avståndet mellan poster i bildpunkter i &lt;b&gt;Kolumnlayout&lt;/b&gt;.</translation>
+            <translation>Anger avståndet mellan objekten i pixlar i &lt;b&gt;Kolumnlayout&lt;/b&gt;.</translation>
         </message>
         <message>
             <source>Layout direction</source>
@@ -1501,7 +1501,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Sets the direction of the item flow in the &lt;b&gt;Column Layout&lt;/b&gt;.</source>
-            <translation>Ställer in riktningen för postflödet i &lt;b&gt;Kolumnlayout&lt;/b&gt;.</translation>
+            <translation>Anger riktningen för objektflödet i &lt;b&gt;Kolumnlayout&lt;/b&gt;.</translation>
         </message>
         <message>
             <source>Uniform cell sizes</source>
@@ -1509,7 +1509,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Toggles all cells to have a uniform size.</source>
-            <translation>Växlar alla celler till att ha en enhetlig storlek.</translation>
+            <translation>Anger om alla celler ska ha en enhetlig storlek.</translation>
         </message>
     </context>
     <context>
@@ -1524,7 +1524,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Sets the spacing between column items.</source>
-            <translation>Ställer in avståndet mellan kolumnposter.</translation>
+            <translation>Anger avståndet mellan objekten i kolumnen.</translation>
         </message>
     </context>
     <context>
@@ -1539,27 +1539,27 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Sets the model role for populating the combo box.</source>
-            <translation>Ställer in modellrollen för populering av kombinationsrutan.</translation>
+            <translation>Anger modellrollen som fyller kombinationsrutan.</translation>
         </message>
         <message>
             <source>Sets the initial display text for the combo box.</source>
-            <translation>Ställer in initial visningstext för kombinationsrutan.</translation>
+            <translation>Anger den inledande visningstexten för kombinationsrutan.</translation>
         </message>
         <message>
             <source>Sets the current item.</source>
-            <translation>Ställer in aktuell post.</translation>
+            <translation>Anger aktuellt objekt.</translation>
         </message>
         <message>
             <source>Toggles if the combo box button is flat.</source>
-            <translation>Växlar om kombinationsrutans knapp är platt.</translation>
+            <translation>Anger om kombinationsrutans knapp är platt.</translation>
         </message>
         <message>
             <source>Toggles if the combo box is editable.</source>
-            <translation>Växlar om kombinationsrutan är redigeringsbar.</translation>
+            <translation>Anger om kombinationsrutan är redigerbar.</translation>
         </message>
         <message>
             <source>Display text</source>
-            <translation>Visa text</translation>
+            <translation>Visningstext</translation>
         </message>
         <message>
             <source>Current index</source>
@@ -1579,7 +1579,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Determines whether the combobox gets focus if pressed.</source>
-            <translation>Bestämmer huruvida kombinationsrutan får fokus om tryckt.</translation>
+            <translation>Anger om kombinationsrutan får fokus när den trycks ned.</translation>
         </message>
     </context>
     <context>
@@ -1620,7 +1620,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Sets a unique identification or name.</source>
-            <translation>Ställer in en unik identifierare eller namn.</translation>
+            <translation>Anger en unik identifierare eller ett namn.</translation>
         </message>
         <message>
             <source>id</source>
@@ -1628,7 +1628,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Exports this component as an alias property of the root component.</source>
-            <translation>Exporterar denna komponent som en aliasegenskap för rotkomponenten.</translation>
+            <translation>Exporterar komponenten som en aliasegenskap för rotkomponenten.</translation>
         </message>
         <message>
             <source>Annotation</source>
@@ -1636,7 +1636,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Adds a note with a title to explain the component.</source>
-            <translation>Lägger till en anteckning med en titel för att förklara komponenten.</translation>
+            <translation>Lägger till en anteckning med en rubrik som förklarar komponenten.</translation>
         </message>
         <message>
             <source>Descriptive text</source>
@@ -1660,7 +1660,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Sets the state of the component.</source>
-            <translation>Stället in tillståndet för komponenten.</translation>
+            <translation>Anger komponentens tillstånd.</translation>
         </message>
     </context>
     <context>
