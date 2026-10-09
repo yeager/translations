@@ -28063,7 +28063,7 @@ Vill du checka ut dem nu?</translation>
     </message>
     <message>
         <source>Show Details...</source>
-        <translation>Visa detaljer...</translation>
+        <translation>Visa detaljer…</translation>
     </message>
     <message>
         <source>Toggle Progress Details</source>
@@ -38777,7 +38777,7 @@ Orsak: %3</translation>
     </message>
     <message>
         <source>Create Repository...</source>
-        <translation>Skapa arkiv...</translation>
+        <translation>Skapa arkiv…</translation>
     </message>
     <message>
         <source>Remote repository is not defined.</source>
@@ -39210,7 +39210,7 @@ Orsak: %3</translation>
     </message>
     <message>
         <source>Create Git Repository...</source>
-        <translation>Skapa Git-arkiv...</translation>
+        <translation>Skapa Git-arkiv…</translation>
     </message>
     <message>
         <source>Add Branch...</source>
@@ -39234,11 +39234,11 @@ Orsak: %3</translation>
     </message>
     <message>
         <source>Rem&amp;ove...</source>
-        <translation>Ta &amp;bort...</translation>
+        <translation>Ta &amp;bort…</translation>
     </message>
     <message>
         <source>Re&amp;name...</source>
-        <translation>Byt &amp;namn...</translation>
+        <translation>Byt &amp;namn…</translation>
     </message>
     <message>
         <source>Reflo&amp;g</source>
@@ -39342,7 +39342,7 @@ Orsak: %3</translation>
     </message>
     <message>
         <source>Browse &amp;History...</source>
-        <translation>Bläddra i &amp;historiken...</translation>
+        <translation>Bläddra i &amp;historiken…</translation>
     </message>
     <message>
         <source>&amp;Show</source>
@@ -40290,7 +40290,7 @@ Checka in nu?</translation>
     </message>
     <message>
         <source>Create Repository...</source>
-        <translation>Skapa Git-arkiv...</translation>
+        <translation>Skapa Git-arkiv…</translation>
     </message>
     <message>
         <source>Saves the current state of your work and resets the repository.</source>
@@ -40530,7 +40530,7 @@ Checka in nu?</translation>
     </message>
     <message>
         <source>Archive...</source>
-        <translation>Arkivera...</translation>
+        <translation>Arkivera…</translation>
     </message>
     <message>
         <source>Unable to Retrieve File List</source>
@@ -43353,7 +43353,7 @@ Vill du skriva över dem?</translation>
     </message>
     <message>
         <source>Running &quot;%1&quot; on %2...</source>
-        <translation>Kör ”%1” på %2...</translation>
+        <translation>Kör ”%1” på %2…</translation>
     </message>
     <message>
         <source>Could not get inferior PID.</source>
@@ -45466,7 +45466,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
     </message>
     <message>
         <source>Delete &quot;%1&quot;...</source>
-        <translation>Ta bort ”%1”...</translation>
+        <translation>Ta bort ”%1”…</translation>
     </message>
     <message>
         <source>Revert Current File...</source>
@@ -45530,7 +45530,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
     </message>
     <message>
         <source>Create Repository...</source>
-        <translation>Skapa arkiv...</translation>
+        <translation>Skapa arkiv…</translation>
     </message>
     <message>
         <source>Pull Source</source>
@@ -65879,7 +65879,7 @@ Tillämpas inte på blanksteg i kommentarer och strängar.</translation>
     </message>
     <message>
         <source>Global Settings...</source>
-        <translation>Globala inställningar...</translation>
+        <translation>Globala inställningar…</translation>
     </message>
     <message>
         <source>Unix Line Endings (LF)</source>
