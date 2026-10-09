@@ -36307,7 +36307,7 @@ Det kan hjälpa att bygga om projektet.</translation>
     </message>
     <message>
         <source>Feature dependency key must contain an ID.</source>
-        <translation>Nyckeln för funktionsberoende måste innehålla ett id.</translation>
+        <translation>Nyckeln för funktionsberoende måste innehålla ett ID.</translation>
     </message>
     <message>
         <source>Failed to parse the development container feature file: %1</source>
@@ -36355,11 +36355,11 @@ Det kan hjälpa att bygga om projektet.</translation>
     </message>
     <message>
         <source>Unknown kit aspect factory: %1</source>
-        <translation>Okänd fabriksfunktion för byggsatsaspekt: %1</translation>
+        <translation>Okänd fabriksfunktion för kitaspekt: %1</translation>
     </message>
     <message>
         <source>Cannot create kit aspect %1: %2</source>
-        <translation>Kan inte skapa byggsatsaspekten %1: %2</translation>
+        <translation>Kan inte skapa kitaspekten %1: %2</translation>
     </message>
     <message>
         <source>Cannot start the development container. Check General Messages for details.</source>
