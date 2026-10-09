@@ -484,7 +484,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Height.</source>
-            <translation>Height.</translation>
+            <translation>Höjd.</translation>
         </message>
         <message>
             <source>X</source>
@@ -504,7 +504,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Running</source>
-            <translation>Kör</translation>
+            <translation>Körs</translation>
         </message>
     </context>
     <context>
@@ -515,11 +515,11 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Running</source>
-            <translation>Kör</translation>
+            <translation>Körs</translation>
         </message>
         <message>
             <source>Whether the animation is running and/or paused.</source>
-            <translation>Huruvida animeringen körs och/eller pausad.</translation>
+            <translation>Om animeringen körs och/eller är pausad.</translation>
         </message>
         <message>
             <source>Loops</source>
@@ -547,11 +547,11 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Easing curve</source>
-            <translation>Bezierkurva</translation>
+            <translation>Utjämningskurva</translation>
         </message>
         <message>
             <source>Defines a custom easing curve.</source>
-            <translation>Definierar en anpassad bezierkurva.</translation>
+            <translation>Definierar en anpassad utjämningskurva.</translation>
         </message>
     </context>
     <context>
@@ -566,7 +566,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Target to animate the properties of.</source>
-            <translation>Mål att animera egenskapen för.</translation>
+            <translation>Målet vars egenskaper ska animeras.</translation>
         </message>
         <message>
             <source>Property</source>
