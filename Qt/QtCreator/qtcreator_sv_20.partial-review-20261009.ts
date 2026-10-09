@@ -70106,7 +70106,7 @@ Rad: %4, kolumn: %5
         <message>
             <location line="+1" />
             <source>Draw some transitions to or from state.</source>
-            <translation>Rita några övergångar till eller från staten.</translation>
+            <translation>Rita några övergångar till eller från tillståndet.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -70116,7 +70116,7 @@ Rad: %4, kolumn: %5
         <message>
             <location line="+1" />
             <source>Draw some transitions from state.</source>
-            <translation>Dra några övergångar från staten.</translation>
+            <translation>Rita några övergångar från tillståndet.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -70156,7 +70156,7 @@ Rad: %4, kolumn: %5
         <message>
             <location line="+24" />
             <source>This file can only be edited in &lt;b&gt;Design&lt;/b&gt; mode.</source>
-            <translation>Denna fil kan endast redigeras i &lt;b&gt;Design&lt;/b&gt;-läget.</translation>
+            <translation>Den här filen kan bara redigeras i &lt;b&gt;Design&lt;/b&gt;-läge.</translation>
         </message>
         <message>
             <location line="+1" />
