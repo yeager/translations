@@ -833,11 +833,11 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
     </message>
     <message>
         <source>Frame duration</source>
-        <translation>Bildrutans längd</translation>
+        <translation>Bildrutans varaktighet</translation>
     </message>
     <message>
         <source>Sets the duration of each frame of the animation in milliseconds.</source>
-        <translation>Ställer in längden för varje bildruta i animeringen, i millisekunder.</translation>
+        <translation>Anger varaktigheten för varje bildruta i animeringen i millisekunder.</translation>
     </message>
     <message>
         <source>Frame sync</source>
