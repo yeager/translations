@@ -80605,7 +80605,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location filename="../../../src/plugins/vcsbase/vcsoutputformatter.cpp" line="+77" />
             <source>&amp;Open "%1"</source>
-            <translation>&amp;Öppna ”%1”</translation>
+            <translation>Ö&amp;ppna ”%1”</translation>
         </message>
         <message>
             <location line="+3" />
