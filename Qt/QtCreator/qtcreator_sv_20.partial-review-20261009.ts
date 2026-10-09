@@ -1740,7 +1740,7 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Sets the Component that is connected to a &lt;b&gt;Signal&lt;/b&gt;.</source>
-            <translation>Ställer in komponenten som är ansluten till en &lt;b&gt;Signal&lt;/b&gt;.</translation>
+            <translation>Anger komponenten som är ansluten till en &lt;b&gt;signal&lt;/b&gt;.</translation>
         </message>
     </context>
     <context>
@@ -1751,7 +1751,7 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Sets an interaction method that connects to the &lt;b&gt;Target&lt;/b&gt; component.</source>
-            <translation>Ställer in en interaktionsmetod som ansluter till &lt;b&gt;Mål&lt;/b&gt;-komponenten.</translation>
+            <translation>Anger en interaktionsmetod som ansluter till &lt;b&gt;mål&lt;/b&gt;komponenten.</translation>
         </message>
         <message>
             <source>Action</source>
@@ -1759,7 +1759,7 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Sets an action that is associated with the selected &lt;b&gt;Target&lt;/b&gt; component's &lt;b&gt;Signal&lt;/b&gt;.</source>
-            <translation>Ställer in en åtgärd som associeras med vald &lt;b&gt;Mål&lt;/b&gt;-komponents &lt;b&gt;Signal&lt;/b&gt;.</translation>
+            <translation>Anger en åtgärd som är kopplad till den valda &lt;b&gt;mål&lt;/b&gt;komponentens &lt;b&gt;signal&lt;/b&gt;.</translation>
         </message>
         <message>
             <source>Call Function</source>
@@ -1791,7 +1791,7 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Sets a logical condition for the selected &lt;b&gt;Signal&lt;/b&gt;. It works with the properties of the &lt;b&gt;Target&lt;/b&gt; component.</source>
-            <translation>Ställer in ett logiskt villkor för vald &lt;b&gt;Signal&lt;/b&gt;. Den arbetar med egenskaperna för &lt;b&gt;Mål&lt;/b&gt;-komponenten.</translation>
+            <translation>Anger ett logiskt villkor för den valda &lt;b&gt;signalen&lt;/b&gt;. Villkoret fungerar med egenskaperna hos &lt;b&gt;mål&lt;/b&gt;komponenten.</translation>
         </message>
         <message>
             <source>Remove Condition</source>
@@ -1799,23 +1799,23 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Removes the logical condition for the &lt;b&gt;Target&lt;/b&gt; component.</source>
-            <translation>Tar bort logiska villkoret för &lt;b&gt;Mål&lt;/b&gt;-komponenten.</translation>
+            <translation>Tar bort det logiska villkoret för &lt;b&gt;mål&lt;/b&gt;komponenten.</translation>
         </message>
         <message>
             <source>Add Else Statement</source>
-            <translation>Lägg till Else-villkor</translation>
+            <translation>Lägg till else-sats</translation>
         </message>
         <message>
             <source>Sets an alternate condition for the previously defined logical condition.</source>
-            <translation>Ställer in ett alternativt villkor för tidigare definierat logiskt villkor.</translation>
+            <translation>Anger ett alternativt villkor för det tidigare definierade logiska villkoret.</translation>
         </message>
         <message>
             <source>Remove Else Statement</source>
-            <translation>Ta bort Else-villkor</translation>
+            <translation>Ta bort else-sats</translation>
         </message>
         <message>
             <source>Removes the alternate logical condition for the previously defined logical condition.</source>
-            <translation>Tar bort alternativa logiska villkoret för tidigare definierat logiskt villkor.</translation>
+            <translation>Tar bort det alternativa logiska villkoret för det tidigare definierade villkoret.</translation>
         </message>
         <message>
             <source>Write the conditions for the components and the signals manually.</source>
@@ -1845,7 +1845,7 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Sets whether the component accepts change events.</source>
-            <translation>Ställer in huruvida komponenter accepterar ändringshändelser.</translation>
+            <translation>Anger om komponenten accepterar ändringshändelser.</translation>
         </message>
         <message>
             <source>Ignore unknown signals</source>
@@ -1853,7 +1853,7 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Ignores runtime errors produced by connections to non-existent signals.</source>
-            <translation>Ignorerar körtidsfel producerade av anslutningar till icke-existerande signaler.</translation>
+            <translation>Ignorerar körtidsfel från anslutningar till signaler som inte finns.</translation>
         </message>
         <message>
             <source>Target</source>
@@ -1861,7 +1861,7 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Sets the component that sends the signal.</source>
-            <translation>Ställer in komponenten som skickar signalen.</translation>
+            <translation>Anger komponenten som skickar signalen.</translation>
         </message>
     </context>
     <context>
