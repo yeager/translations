@@ -49828,7 +49828,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
             <location filename="../../../src/plugins/perfprofiler/perfprofilerstatisticsmodel.cpp" line="+24" />
             <location filename="../../../src/plugins/perfprofiler/perftimelinemodel.cpp" line="+189" />
             <source>Samples</source>
-            <translation>Prover</translation>
+            <translation>Samplingar</translation>
         </message>
         <message>
             <location line="+1" />
@@ -49847,7 +49847,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
             <location line="+1" />
             <location filename="../../../src/plugins/perfprofiler/perftimelinemodel.cpp" line="-13" />
             <source>Binary</source>
-            <translation>Binär</translation>
+            <translation>Binärfil</translation>
         </message>
         <message>
             <location line="+1" />
@@ -49864,22 +49864,22 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
             <location line="-2" />
             <location line="+3" />
             <source> guessed</source>
-            <translation>gissat</translation>
+            <translation> uppskattade</translation>
         </message>
         <message>
             <location line="-2" />
             <source>Releases</source>
-            <translation>Utsläpp</translation>
+            <translation>Frigöranden</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Peak Usage</source>
-            <translation>Maximal användning</translation>
+            <translation>Högsta användning</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Various</source>
-            <translation>Diverse</translation>
+            <translation>Övrigt</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/perfprofiler/perfconfigeventsmodel.cpp" line="+171" />
@@ -49889,12 +49889,12 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+1" />
             <source>Counter</source>
-            <translation>Motpart</translation>
+            <translation>Räknare</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Operation</source>
-            <translation>Verksamhet</translation>
+            <translation>Åtgärd</translation>
         </message>
         <message>
             <location line="+1" />
@@ -49935,7 +49935,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+1" />
             <source>"perf probe -l" failed to start. Is perf installed?</source>
-            <translation>"perf probe -l" misslyckades att starta. Är perf installerad?</translation>
+            <translation>"perf probe -l" kunde inte starta. Är perf installerat?</translation>
         </message>
         <message>
             <location line="+21" />
@@ -49945,12 +49945,12 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+1" />
             <source>Trace points can be defined with "perf probe -a".</source>
-            <translation>Spårpunkter kan definieras med "perfprob -a".</translation>
+            <translation>Spårpunkter kan definieras med "perf probe -a".</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/perfprofiler/perfdatareader.cpp" line="+58" />
             <source>The Perf data parser failed to process all the samples. Your trace is incomplete. The exit code was %1.</source>
-            <translation>Perf- datatolken misslyckades med att behandla alla prover. Spåret är ofullständigt. Utgångskoden var %1.</translation>
+            <translation>Perf-datatolken kunde inte bearbeta alla samplingar. Spårningen är ofullständig. Slutkoden var %1.</translation>
         </message>
         <message>
             <location line="+26" />
@@ -49965,7 +49965,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+6" />
             <source>Perf Data Parser Crashed</source>
-            <translation>Perf datatolken rasade</translation>
+            <translation>Perf-datatolken kraschade</translation>
         </message>
         <message>
             <source>This is a bug. Please report it.</source>
@@ -49974,37 +49974,37 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+100" />
             <source>Skipping Processing Delay</source>
-            <translation>Hoppar över handläggningsfördröjning</translation>
+            <translation>Hoppar över bearbetningsfördröjning</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Cancel this to ignore the processing delay and immediately start recording.</source>
-            <translation>Avbryt detta för att ignorera fördröjningen av behandlingen och börja omedelbart spela in.</translation>
+            <translation>Avbryt för att ignorera bearbetningsfördröjningen och börja spela in direkt.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Cancel this to ignore the processing delay and immediately stop recording.</source>
-            <translation>Avbryt detta för att ignorera fördröjningen av behandlingen och omedelbart stoppa inspelningen.</translation>
+            <translation>Avbryt för att ignorera bearbetningsfördröjningen och stoppa inspelningen direkt.</translation>
         </message>
         <message>
             <location line="+138" />
             <source>Cannot Send Data to Perf Data Parser</source>
-            <translation>Kan inte skicka data till perfdatatolk</translation>
+            <translation>Kan inte skicka data till Perf-datatolken</translation>
         </message>
         <message>
             <location line="+1" />
             <source>The Perf data parser does not accept further input. Your trace is incomplete.</source>
-            <translation>Perf- datatolken accepterar inte ytterligare inmatning. Spåret är ofullständigt.</translation>
+            <translation>Perf-datatolken tar inte emot mer indata. Spårningen är ofullständig.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/perfprofiler/perfloaddialog.cpp" line="+30" />
             <source>Load Perf Trace</source>
-            <translation>Läs in Perf-spårning</translation>
+            <translation>Läs in Perf-spår</translation>
         </message>
         <message>
             <location line="+3" />
             <source>&amp;Trace file:</source>
-            <translation>S&amp;pårningsfil:</translation>
+            <translation>&amp;Spårfil:</translation>
         </message>
         <message>
             <location line="+3" />
@@ -50029,12 +50029,12 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+49" />
             <source>Choose Perf Trace</source>
-            <translation>Välj Perf-spårning</translation>
+            <translation>Välj Perf-spår</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Perf traces (*%1)</source>
-            <translation>Perfspår (*%1)</translation>
+            <translation>Perf-spår (*%1)</translation>
         </message>
         <message>
             <location line="+9" />
@@ -50056,7 +50056,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location filename="../../../src/plugins/perfprofiler/perfprofilerruncontrol.cpp" line="+75" />
             <source>Failed to transfer Perf data to perfparser.</source>
-            <translation>Misslyckades överföra Perf- data till perfparser.</translation>
+            <translation>Kunde inte överföra Perf-data till perfparser.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/perfprofiler/perfprofilerstatisticsmodel.cpp" line="-1" />
@@ -50067,7 +50067,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+2" />
             <source>Source Location</source>
-            <translation>Källans plats</translation>
+            <translation>Källplats</translation>
         </message>
         <message>
             <location line="+1" />
@@ -50082,7 +50082,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+1" />
             <source>Callee</source>
-            <translation>Callee Ordförande</translation>
+            <translation>Anropad funktion</translation>
         </message>
         <message>
             <location line="+1" />
