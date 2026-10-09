@@ -80428,7 +80428,8 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
             <location line="+1" />
             <source>Specifies a command that is executed to graphically prompt for a password,
 should a repository require SSH-authentication (see documentation on SSH and the environment variable SSH_ASKPASS).</source>
-            <translation>Anger ett kommando som körs för att grafiskt be om ett lösenord om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljövariabeln SSH_ASKPASS).</translation>
+            <translation>Anger ett kommando som körs för att grafiskt be om ett lösenord
+om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljövariabeln SSH_ASKPASS).</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/vcsbase/vcsbaseeditor.cpp" line="-955" />
