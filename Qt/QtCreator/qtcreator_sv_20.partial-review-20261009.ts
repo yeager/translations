@@ -12541,12 +12541,12 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+19" />
             <source>Select Portrait Master Image</source>
-            <translation>Välj porträtthuvudbild</translation>
+            <translation>Välj stående huvudbild</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Select Landscape Master Image</source>
-            <translation>Välj huvudbild för landskap</translation>
+            <translation>Välj liggande huvudbild</translation>
         </message>
         <message>
             <source>XXXHDPI</source>
@@ -12554,7 +12554,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         </message>
         <message>
             <source>An image is used for the splashscreen. Qt Creator manages splashscreen by using a different method which requires changing the manifest file by overriding your settings. Allow override?</source>
-            <translation>En bild används för startskärmen. Qt Creator hanterar startskärmen genom att använda en annan metod som kräver ändring avmanifest-filen genom att åsidosätta dina inställningar. Tillåt denna åsidosättning?</translation>
+            <translation>En bild används för startskärmen. Qt Creator hanterar startskärmen med en annan metod som kräver att manifestfilen ändras genom att inställningarna åsidosätts. Tillåt åsidosättning?</translation>
         </message>
         <message>
             <source>Convert</source>
