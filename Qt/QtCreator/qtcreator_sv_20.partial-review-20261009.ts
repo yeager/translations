@@ -17183,7 +17183,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location filename="../../../src/plugins/bineditor/bineditorplugin.cpp" line="+2132" />
             <source>The file is too big for the Binary Editor (max. 32GB).</source>
-            <translation>Filen är för stor för Binärredigeraren (max. 32GB).</translation>
+            <translation>Filen är för stor för binärredigeraren (högst 32 GB).</translation>
         </message>
         <message>
             <source>&amp;Undo</source>
@@ -17224,52 +17224,52 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="-9" />
             <source>Decimal&amp;nbsp;unsigned&amp;nbsp;value:</source>
-            <translation>Decimal&amp;nbsp; osignerat&amp;nbsp;värde:</translation>
+            <translation>Decimalt&amp;nbsp;osignerat&amp;nbsp;värde:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Decimal&amp;nbsp;signed&amp;nbsp;value:</source>
-            <translation>Decimal&amp;nbsp;signerad&amp;nbsp;värde:</translation>
+            <translation>Decimalt&amp;nbsp;signerat&amp;nbsp;värde:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Previous&amp;nbsp;decimal&amp;nbsp;unsigned&amp;nbsp;value:</source>
-            <translation>Föregående&amp;nbsp;decimal&amp;nbsp;osignerad&amp;nbsp;värde:</translation>
+            <translation>Föregående&amp;nbsp;decimala&amp;nbsp;osignerade&amp;nbsp;värde:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Previous&amp;nbsp;decimal&amp;nbsp;signed&amp;nbsp;value:</source>
-            <translation>Föregående&amp;nbsp;decimal&amp;nbsp;signerad&amp;nbsp;värde:</translation>
+            <translation>Föregående&amp;nbsp;decimala&amp;nbsp;signerade&amp;nbsp;värde:</translation>
         </message>
         <message>
             <location line="+5" />
             <source>%1-bit&amp;nbsp;Integer&amp;nbsp;Type</source>
-            <translation>%1-bit&amp;nbsp;Integer&amp;nbsp;Typ</translation>
+            <translation>%1-bitars&amp;nbsp;heltalstyp</translation>
         </message>
         <message>
             <location line="+27" />
             <source>Binary&amp;nbsp;value:</source>
-            <translation>Binary&amp;nbsp;värde:</translation>
+            <translation>Binärt&amp;nbsp;värde:</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Octal&amp;nbsp;value:</source>
-            <translation>Octal&amp;nbsp;värde:</translation>
+            <translation>Oktalt&amp;nbsp;värde:</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Previous&amp;nbsp;binary&amp;nbsp;value:</source>
-            <translation>Föregående&amp;nbsp;binary&amp;nbsp;värde:</translation>
+            <translation>Föregående&amp;nbsp;binära&amp;nbsp;värde:</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Previous&amp;nbsp;octal&amp;nbsp;value:</source>
-            <translation>Föregående&amp;nbsp;oktal&amp;nbsp;värde:</translation>
+            <translation>Föregående&amp;nbsp;oktala&amp;nbsp;värde:</translation>
         </message>
         <message>
             <location line="+16" />
             <source>&lt;i&gt;double&lt;/i&gt;&amp;nbsp;value:</source>
-            <translation>&lt;i&gt;double&lt;/i&gt;&amp;nbsp; värde:</translation>
+            <translation>&lt;i&gt;double&lt;/i&gt;&amp;nbsp;värde:</translation>
         </message>
         <message>
             <location line="+3" />
@@ -17279,7 +17279,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+11" />
             <source>&lt;i&gt;float&lt;/i&gt;&amp;nbsp;value:</source>
-            <translation>&lt;i&gt;float&lt;/i&gt;&amp;nbsp; värde:</translation>
+            <translation>&lt;i&gt;float&lt;/i&gt;&amp;nbsp;värde:</translation>
         </message>
         <message>
             <location line="+3" />
@@ -17294,7 +17294,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+10" />
             <source>Copying Failed</source>
-            <translation>Kopiering misslyckades</translation>
+            <translation>Kopieringen misslyckades</translation>
         </message>
         <message>
             <location line="+1" />
@@ -17304,17 +17304,17 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+110" />
             <source>Copy Selection as ASCII Characters</source>
-            <translation>Kopiera markering som ASCII-tecken</translation>
+            <translation>Kopiera markeringen som ASCII-tecken</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Copy Selection as Hex Values</source>
-            <translation>Kopiera markering som hexadecimala värden</translation>
+            <translation>Kopiera markeringen som hexadecimala värden</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Set Data Breakpoint on Selection</source>
-            <translation>Ställ in databrytpunkt på markering</translation>
+            <translation>Sätt databrytpunkt på markeringen</translation>
         </message>
         <message>
             <location line="+11" />
@@ -17355,7 +17355,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+11" />
             <source>File offset too large.</source>
-            <translation>Filen är för stor.</translation>
+            <translation>Filpositionen är för stor.</translation>
         </message>
         <message>
             <location line="+252" />
