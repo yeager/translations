@@ -59956,7 +59956,7 @@ Vad ska %1 göra nu?</translation>
         <message>
             <location line="+5" />
             <source>Enter the path to the executable</source>
-            <translation>Ange sökvägen till körbara filen</translation>
+            <translation>Ange sökvägen till den körbara filen</translation>
         </message>
         <message>
             <location line="+1" />
@@ -59972,32 +59972,32 @@ Vad ska %1 göra nu?</translation>
         <message>
             <location line="+3" />
             <source>Use this command instead</source>
-            <translation>Använd detta kommando istället</translation>
+            <translation>Använd det här kommandot i stället</translation>
         </message>
         <message>
             <location line="+117" />
             <source>Add build library search path to DYLD_LIBRARY_PATH and DYLD_FRAMEWORK_PATH</source>
-            <translation>Lägg till sökväg för byggbibliotek till DYLD_LIBRARY_PATH och DYLD_FRAMEWORK_PATH</translation>
+            <translation>Lägg till sökväg till byggbibliotek i DYLD_LIBRARY_PATH och DYLD_FRAMEWORK_PATH</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Add build library search path to PATH</source>
-            <translation>Lägg till sökväg för byggbibliotek till PATH</translation>
+            <translation>Lägg till sökväg till byggbibliotek i PATH</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Add build library search path to LD_LIBRARY_PATH</source>
-            <translation>Lägg till sökväg för byggbibliotek till LD_ LIBRARY_ PATH</translation>
+            <translation>Lägg till sökväg till byggbibliotek i LD_LIBRARY_PATH</translation>
         </message>
         <message>
             <location line="+22" />
             <source>Use the Qt VNC platform for display</source>
-            <translation>Använd Qt VNC- plattformen för visning</translation>
+            <translation>Använd Qt VNC-plattformen för visning</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Sets QT_QPA_PLATFORM=vnc which forwards the Qt application's UI to a built-in VNC server. Connect to the application UI with a VNC client. See the application output for details.</source>
-            <translation>Ställer in QT_QPA_PLATFORM=vnc som vidarebefordrar Qt- programs användargränssnitt till en inbyggd VNC- server. Anslut till applikationsgränssnittet med en VNC- klient. Se programutmatningen för detaljinformation.</translation>
+            <translation>Ställer in QT_QPA_PLATFORM=vnc som vidarebefordrar Qt-programmets användargränssnitt till en inbyggd VNC-server. Anslut till programmets användargränssnitt med en VNC-klient. Se Programutdata för mer information.</translation>
         </message>
         <message>
             <location line="+19" />
@@ -60022,17 +60022,17 @@ Vad ska %1 göra nu?</translation>
         <message>
             <location line="+5" />
             <source>root</source>
-            <translation>rot</translation>
+            <translation>root</translation>
         </message>
         <message>
             <location line="+57" />
             <source>Enable logging category filtering</source>
-            <translation>Aktivera filtrering av loggkategori</translation>
+            <translation>Aktivera filtrering av loggkategorier</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Enables filtering for logging categories (QLoggingCategory) in the Application Output. Requires Qt 6.11 or later.</source>
-            <translation>Aktiverar filtrering för loggningskategorier (QLogingCategory) i programutmatningen. Kräver Qt 6.11 eller senare.</translation>
+            <translation>Aktiverar filtrering av loggkategorier (QLoggingCategory) i Programutdata. Kräver Qt 6.11 eller senare.</translation>
         </message>
         <message>
             <location line="+40" />
@@ -60047,7 +60047,7 @@ Vad ska %1 göra nu?</translation>
         <message>
             <location line="+62" />
             <source>Use X11 forwarding:</source>
-            <translation>Använd X11- vidarebefordran:</translation>
+            <translation>Använd X11-vidarebefordran:</translation>
         </message>
         <message>
             <location filename="../../../../creator-current_build/share/qtcreator/translations/jsonwizards_tr.h" line="-488" />
@@ -60056,7 +60056,7 @@ Vad ska %1 göra nu?</translation>
         </message>
         <message>
             <source>X11 Forwarding:</source>
-            <translation>X11 Forwarding:</translation>
+            <translation>X11-vidarebefordran:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/selectablefilesmodel.cpp" line="+537" />
@@ -60148,7 +60148,7 @@ Dessa filer behålls.</numerusform>
         <message>
             <location line="+3" />
             <source>Imports existing projects that do not use qmake, CMake, Qbs, Meson, or Autotools.&lt;p&gt;This creates a project file that allows you to use %1 as a code editor and as a launcher for debugging and analyzing tools. If you want to build the project, you might need to edit the generated project file.</source>
-            <translation>Importerar befintliga projekt som inte använder qmake, CMake, Qbs, Meson eller Autotools.&lt;p&gt;Detta skapar en projektfil som låter dig använda %1 som en kodredigerare och som en startare för felsökning och analysverktyg. Om du vill bygga projektet så kommer du behöver redigera den genererade projektfilen.</translation>
+            <translation>Importerar befintliga projekt som inte använder qmake, CMake, Qbs, Meson eller Autotools.&lt;p&gt;Detta skapar en projektfil som låter dig använda %1 som kodredigerare och startare för felsöknings- och analysverktyg. Om du vill bygga projektet kan du behöva redigera den genererade projektfilen.</translation>
         </message>
         <message>
             <location line="+162" />
@@ -60177,12 +60177,12 @@ Dessa filer behålls.</numerusform>
         <message>
             <location filename="../../../src/plugins/projectexplorer/task.cpp" line="-18" />
             <source>Taskhub Error</source>
-            <translation>Fel i Aktivitetshubb</translation>
+            <translation>Taskhub-fel</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Taskhub Warning</source>
-            <translation>Varning för aktivitetshubb</translation>
+            <translation>Taskhub-varning</translation>
         </message>
         <message>
             <location line="+20" />
