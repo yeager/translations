@@ -31003,13 +31003,13 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
             <location line="-404" />
             <location line="+406" />
             <source>Ignore Count:</source>
-            <translation>Ignorera räkning:</translation>
+            <translation>Ignoreringsantal:</translation>
         </message>
         <message>
             <location line="-397" />
             <location line="+399" />
             <source>Thread Specification:</source>
-            <translation>Gängspecifikation:</translation>
+            <translation>Trådspecifikation:</translation>
         </message>
         <message>
             <location line="-1595" />
@@ -31025,22 +31025,22 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
         <message>
             <location line="+2" />
             <source>Insertion requested</source>
-            <translation>Begärd insättning</translation>
+            <translation>Infogning begärd</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Insertion proceeding</source>
-            <translation>Inledningsförfarande</translation>
+            <translation>Infogning pågår</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Change requested</source>
-            <translation>Ändra begärd</translation>
+            <translation>Ändring begärd</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Change proceeding</source>
-            <translation>Ändringsförfarande</translation>
+            <translation>Ändring pågår</translation>
         </message>
         <message>
             <location line="+2" />
@@ -31050,12 +31050,12 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
         <message>
             <location line="+2" />
             <source>Removal requested</source>
-            <translation>Begärt avlägsnande</translation>
+            <translation>Borttagning begärd</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Removal proceeding</source>
-            <translation>Borttagningsförfarande</translation>
+            <translation>Borttagning pågår</translation>
         </message>
         <message>
             <location line="+2" />
@@ -31066,7 +31066,7 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
             <location line="+5" />
             <source>&lt;invalid state&gt;</source>
             <extracomment>Invalid breakpoint state.</extracomment>
-            <translation>&lt;invalid state&gt; Ordförande</translation>
+            <translation>&lt;ogiltigt tillstånd&gt;</translation>
         </message>
         <message>
             <location line="+5" />
@@ -31106,7 +31106,7 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
         <message>
             <location line="+4" />
             <source>Breakpoint at JavaScript throw</source>
-            <translation>Brytpunkt vid JavaScript- kasta</translation>
+            <translation>Brytpunkt vid JavaScript-undantag</translation>
         </message>
         <message>
             <location line="+5" />
@@ -31126,22 +31126,22 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
         <message>
             <location line="+1" />
             <source>Break When C++ Exception Is Thrown</source>
-            <translation>Bryt när C++ Undantag kastas</translation>
+            <translation>Bryt när C++-undantag utlöses</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Break When C++ Exception Is Caught</source>
-            <translation>Bryt när C++ undantag fångas</translation>
+            <translation>Bryt när C++-undantag fångas</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Break When Function "main" Starts</source>
-            <translation>Bryt när funktionen "huvud" börjar</translation>
+            <translation>Bryt när funktionen ”main” startar</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Break When a New Process Is Forked</source>
-            <translation>Bryt när en ny process är förfalskad</translation>
+            <translation>Bryt när en ny process grenas</translation>
         </message>
         <message>
             <location line="+1" />
@@ -31156,12 +31156,12 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
         <message>
             <location line="+1" />
             <source>Break on Data Access at Fixed Address</source>
-            <translation>Bryt på dataåtkomst på fast adress</translation>
+            <translation>Bryt vid dataåtkomst på fast adress</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Break on Data Access at Address Given by Expression</source>
-            <translation>Bryt mot dataåtkomst vid adress som ges av uttryck</translation>
+            <translation>Bryt vid dataåtkomst på en adress som ges av ett uttryck</translation>
         </message>
         <message>
             <location line="+1" />
@@ -31181,17 +31181,17 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
         <message>
             <location line="+22" />
             <source>Specifying the module (base name of the library or executable) for function or file type breakpoints can significantly speed up debugger startup times (CDB, LLDB).</source>
-            <translation>Ange modulen (basnamnet på biblioteket eller körbart program) för funktions- eller filtypsbrytpunkter kan avsevärt påskynda starttiderna för avlusare (CDB, LLDB).</translation>
+            <translation>Att ange modulen (basnamnet på biblioteket eller den körbara filen) för funktions- eller filtypsbrytpunkter kan påskynda felsökarens starttid avsevärt (CDB, LLDB).</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Debugger commands to be executed when the breakpoint is hit. This feature is only available for GDB.</source>
-            <translation>Avlusningskommandon ska utföras när brytpunkten träffas. Funktionen är bara tillgänglig för GDB.</translation>
+            <translation>Felsökarkommandon som ska köras när brytpunkten träffas. Funktionen är endast tillgänglig för GDB.</translation>
         </message>
         <message>
             <location line="+26" />
             <source>Propagate Change to Preset Breakpoint</source>
-            <translation>Propagate ändring till förinställd brytpunkt</translation>
+            <translation>Överför ändringen till den förinställda brytpunkten</translation>
         </message>
         <message>
             <location line="+407" />
@@ -84006,7 +84006,7 @@ Are you sure you want to remove it?</source>
         <name>textv2</name>
         <message>
             <source>Text</source>
-            <translation>Överför ändringen till den förinställda brytpunkten</translation>
+            <translation>Text</translation>
         </message>
     </context>
 </TS>
