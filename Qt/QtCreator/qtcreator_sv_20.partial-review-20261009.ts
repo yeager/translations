@@ -31479,12 +31479,12 @@ I så fall bör värdet höjas.</translation>
         <message>
             <location line="+11" />
             <source>Selecting this causes the C++ Code Model being asked for variable scope information. This might result in slightly faster debugger operation but may fail for optimized code.</source>
-            <translation>Att välja det här orsakar att C++- kodmodellen blir tillfrågad om information om variabel omfattning. Det kan resultera i något snabbare avlusning men kan misslyckas för optimerad kod.</translation>
+            <translation>När detta väljs frågar C++-kodmodellen efter information om variablers omfattning. Det kan ge något snabbare felsökning men kan misslyckas för optimerad kod.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggeractions.cpp" line="-25" />
             <source>Sort Members of Classes and Structs Alphabetically</source>
-            <translation>Sortera medlemmar av klasser och Struckts alfabetiskt</translation>
+            <translation>Sortera medlemmar i klasser och strukturer alfabetiskt</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/gdb/gdbsettings.cpp" line="-156" />
@@ -31494,17 +31494,17 @@ I så fall bör värdet höjas.</translation>
         <message>
             <location line="+3" />
             <source>Not all source code lines generate executable code. Putting a breakpoint on such a line acts as if the breakpoint was set on the next line that generated code. Selecting 'Adjust Breakpoint Locations' shifts the red breakpoint markers in such cases to the location of the true breakpoint.</source>
-            <translation>Alla källkodsrader genererar inte körbar kod. Att sätta en brytpunkt på en sådan rad fungerar som om brytpunkten var inställd på nästa rad som genererade koden. Att välja "Just Brytpunkter" skiftar de röda brytpunkternas markörer i sådana fall till platsen för den sanna brytpunkten.</translation>
+            <translation>Alla källkodsrader genererar inte körbar kod. Att sätta en brytpunkt på en sådan rad fungerar som om brytpunkten sattes på nästa rad som genererar kod. När du väljer ”Justera brytpunktsplatser” flyttas de röda brytpunktsmarkörerna i sådana fall till den verkliga brytpunkten.</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Break on "throw"</source>
-            <translation>Bryt på "kasta"</translation>
+            <translation>Bryt vid ”throw”</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Break on "catch"</source>
-            <translation>Bryt på "fångst"</translation>
+            <translation>Bryt vid ”catch”</translation>
         </message>
         <message>
             <location line="+3" />
@@ -31544,12 +31544,12 @@ I så fall bör värdet höjas.</translation>
         <message>
             <location filename="../../../src/plugins/debugger/debuggeractions.cpp" line="+31" />
             <source>Reload Full Stack</source>
-            <translation>Ladda om fullstack</translation>
+            <translation>Läs in hela stacken igen</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Create Full Backtrace</source>
-            <translation>Skapa fullständig backtrace</translation>
+            <translation>Skapa fullständig stackspårning</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="+126" />
@@ -31559,7 +31559,7 @@ I så fall bör värdet höjas.</translation>
         <message>
             <location line="+9" />
             <source>Displays names of QThread based threads.</source>
-            <translation>Visar namn på QThread- baserade trådar.</translation>
+            <translation>Visar namnen på QThread-baserade trådar.</translation>
         </message>
         <message>
             <location line="-1" />
@@ -31569,17 +31569,17 @@ I så fall bör värdet höjas.</translation>
         <message>
             <location filename="../../../src/plugins/debugger/gdb/gdbengine.cpp" line="-4555" />
             <source>Library %1 loaded.</source>
-            <translation>Biblioteket %1 laddat.</translation>
+            <translation>Biblioteket %1 lästes in.</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Library %1 unloaded.</source>
-            <translation>Biblioteket %1 lossad.</translation>
+            <translation>Biblioteket %1 lästes ur.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Thread group %1 created.</source>
-            <translation>Gänggrupp %1 skapades.</translation>
+            <translation>Trådgruppen %1 skapades.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -31609,12 +31609,12 @@ I så fall bör värdet höjas.</translation>
         <message>
             <location line="-171" />
             <source>The gdb process failed to start.</source>
-            <translation>Processen för gdb misslyckades starta.</translation>
+            <translation>GDB-processen kunde inte startas.</translation>
         </message>
         <message>
             <location line="+610" />
             <source>Stopping temporarily.</source>
-            <translation>Slutar tillfälligt.</translation>
+            <translation>Stoppar tillfälligt.</translation>
         </message>
         <message numerus="yes">
             <location line="+61" />
@@ -31646,17 +31646,17 @@ Du kan välja att vänta längre eller avbryta felsökningen.</numerusform>
         <message>
             <location line="-3848" />
             <source>Setting Breakpoints Failed</source>
-            <translation>Misslyckades ställa in brytpunkter</translation>
+            <translation>Det gick inte att ställa in brytpunkter</translation>
         </message>
         <message>
             <location line="+123" />
             <source>Cannot jump. Stopped.</source>
-            <translation>Kan inte hoppa. Stoppad.</translation>
+            <translation>Kan inte hoppa. Stannade.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Jumped. Stopped.</source>
-            <translation>Hoppade. Stoppade.</translation>
+            <translation>Hoppade. Stannade.</translation>
         </message>
         <message>
             <location line="+19" />
@@ -31666,23 +31666,23 @@ Du kan välja att vänta längre eller avbryta felsökningen.</numerusform>
         <message>
             <location line="+117" />
             <source>Application exited normally.</source>
-            <translation>Ansökan avslutades normalt.</translation>
+            <translation>Programmet avslutades normalt.</translation>
         </message>
         <message>
             <location line="+460" />
             <location filename="../../../src/plugins/debugger/uvsc/uvscengine.cpp" line="+175" />
             <source>Failed to Shut Down Application</source>
-            <translation>Misslyckades stänga ner programmet</translation>
+            <translation>Det gick inte att stänga av programmet</translation>
         </message>
         <message>
             <location line="+73" />
             <source>There is no GDB binary available for binaries in format "%1".</source>
-            <translation>Det finns ingen GDB binär tillgänglig för binärer i formatet "%1".</translation>
+            <translation>Det finns ingen GDB-binär för binärer i formatet ”%1”.</translation>
         </message>
         <message>
             <location line="+1318" />
             <source>Retrieving data for stack view thread %1...</source>
-            <translation>Hämtar data för stack visa tråd %1…</translation>
+            <translation>Hämtar data för tråd %1 i stackvyn …</translation>
         </message>
         <message>
             <location line="+895" />
@@ -31698,7 +31698,7 @@ Du kan välja att vänta längre eller avbryta felsökningen.</numerusform>
         <message>
             <location line="+3" />
             <source>Try to specify the binary in Debug &gt; Start Debugging &gt; Load Core File.</source>
-            <translation>Försök att ange binären i Felsökning &gt; Start Felsökning &gt; Ladda kärnfil.</translation>
+            <translation>Försök att ange binären i Felsökning &gt; Starta felsökning &gt; Läs in kärnfil.</translation>
         </message>
         <message>
             <location line="+99" />
@@ -31723,7 +31723,7 @@ Du kan välja att vänta längre eller avbryta felsökningen.</numerusform>
         <message>
             <location line="-4275" />
             <source>Stop requested...</source>
-            <translation>Stopp begärd…</translation>
+            <translation>Stopp begärdes …</translation>
         </message>
         <message>
             <location line="+190" />
