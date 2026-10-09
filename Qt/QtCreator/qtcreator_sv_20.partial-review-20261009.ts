@@ -56272,7 +56272,7 @@ Display name of the build build step list. Used as part of the labels in the pro
         <message>
             <location line="+106" />
             <source>Could not load kits in a reasonable amount of time.</source>
-            <translation>Kunde inte ladda satser på en rimlig tid.</translation>
+            <translation>Kunde inte läsa in kit inom rimlig tid.</translation>
         </message>
         <message>
             <location line="+89" />
@@ -56282,7 +56282,7 @@ Display name of the build build step list. Used as part of the labels in the pro
         <message>
             <location line="+90" />
             <source>Project "%1" was configured for kit "%2" with id %3, which does not exist anymore. You can create a new kit or copy the steps of the vanished kit to another kit in %4 mode.</source>
-            <translation>Projektet "%1" konfigurerades för kitet "%2" med id %3 som inte längre finns. Du kan skapa ett nytt kit eller kopiera stegen för det försvunna kitet till ett annat kit i %4-läget.</translation>
+            <translation>Projektet "%1" konfigurerades för kitet "%2" med ID %3, som inte längre finns. Du kan skapa ett nytt kit eller kopiera stegen från det försvunna kitet till ett annat kit i läget %4.</translation>
         </message>
         <message>
             <location line="+325" />
@@ -56305,13 +56305,13 @@ Display name of the build build step list. Used as part of the labels in the pro
             <location line="+8" />
             <source>%1: Full path to Project Directory.</source>
             <extracomment>%1 is something like "Active project"</extracomment>
-            <translation>%1: Fullständig sökväg till projektkatalog.</translation>
+            <translation>%1: Fullständig sökväg till projektkatalogen.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>%1: The name of the active kit.</source>
             <extracomment>%1 is something like "Active project"</extracomment>
-            <translation>%1: Namnet för det aktiva kitet.</translation>
+            <translation>%1: Namnet på det aktiva kitet.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -56323,7 +56323,7 @@ Display name of the build build step list. Used as part of the labels in the pro
             <location line="+9" />
             <source>%1: Type of the active build configuration.</source>
             <extracomment>%1 is something like "Active project"</extracomment>
-            <translation>%1: Typen för den aktiva byggkonfigurationen.</translation>
+            <translation>%1: Typ av den aktiva byggkonfigurationen.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -56398,7 +56398,7 @@ Display name of the build build step list. Used as part of the labels in the pro
         <message>
             <location filename="../../../src/plugins/projectexplorer/projectwindow.cpp" line="+178" />
             <source>Kit is unsuited for project</source>
-            <translation>Kitet är inte lämpligt för projektet</translation>
+            <translation>Kitet passar inte för projektet</translation>
         </message>
         <message>
             <source>Click to activate</source>
@@ -56422,12 +56422,12 @@ Display name of the build build step list. Used as part of the labels in the pro
         <message>
             <location line="+8" />
             <source>Cancel Build and Disable Kit in This Project</source>
-            <translation>Avbryt byggnation och inaktivera kitet i detta projekt</translation>
+            <translation>Avbryt bygge och inaktivera kitet i projektet</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Disable Kit "%1" in This Project?</source>
-            <translation>Inaktivera kit "%1" i detta projekt?</translation>
+            <translation>Inaktivera kitet "%1" i projektet?</translation>
         </message>
         <message>
             <location line="+1" />
@@ -56437,7 +56437,7 @@ Display name of the build build step list. Used as part of the labels in the pro
         <message>
             <location line="+1" />
             <source>Do you want to cancel the build process and remove the kit anyway?</source>
-            <translation>Vill du avbryta byggprocessen och ta bort kitet ändå?</translation>
+            <translation>Vill du avbryta byggprocessen och ändå inaktivera kitet?</translation>
         </message>
         <message>
             <location line="+12" />
@@ -56447,7 +56447,7 @@ Display name of the build build step list. Used as part of the labels in the pro
         <message>
             <location line="+13" />
             <source>Copy Steps From Another Kit...</source>
-            <translation>Kopiera steg från annat kit…</translation>
+            <translation>Kopiera steg från ett annat kit…</translation>
         </message>
         <message>
             <source>The process crashed.</source>
@@ -56496,12 +56496,12 @@ Display name of the build build step list. Used as part of the labels in the pro
         <message>
             <location line="+253" />
             <source>Removing Step failed</source>
-            <translation>Borttagning av steg misslyckades</translation>
+            <translation>Kunde inte ta bort steget</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Cannot remove build step while building</source>
-            <translation>Kan inte ta bort byggsteg under byggnation</translation>
+            <translation>Kan inte ta bort byggsteg medan bygge pågår</translation>
         </message>
         <message>
             <location line="-40" />
