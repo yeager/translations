@@ -17894,48 +17894,48 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+276" />
             <source>Path to the CMake executable</source>
-            <translation>Sökväg till körbar CMake</translation>
+            <translation>Sökväg till den körbara CMake-filen</translation>
         </message>
         <message>
             <location line="+70" />
             <location line="+94" />
             <source>Found CMake tool: "%1".</source>
-            <translation>Hittade verktyg för CMake: "%1".</translation>
+            <translation>Hittade CMake-verktyg: ”%1”.</translation>
         </message>
         <message>
             <location line="-70" />
             <source>CMake tool: %1.</source>
-            <translation>Verktyg för CMake: %1.</translation>
+            <translation>CMake-verktyg: %1.</translation>
         </message>
         <message>
             <location line="+23" />
             <source>Expected JSON Object, got: "%1".</source>
-            <translation>Förväntade JSON-objekt, fick: "%1".</translation>
+            <translation>Ett JSON-objekt förväntades, fick: ”%1”.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Expected JSON Object with key "binary" to be a string.</source>
-            <translation>Förväntade JSON Object med nyckel "binary" att vara en sträng.</translation>
+            <translation>Ett JSON-objekt med nyckeln ”binary” förväntades vara en sträng.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>CMake executable "%1" is not valid.</source>
-            <translation>CMake körbar "%1" är inte giltig.</translation>
+            <translation>Den körbara CMake-filen ”%1” är inte giltig.</translation>
         </message>
         <message>
             <location line="+16" />
             <source>CMake tool "%1" is not valid.</source>
-            <translation>CMake tool "%1" är inte giltigt.</translation>
+            <translation>CMake-verktyget ”%1” är inte giltigt.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Cannot create CMake tool from JSON: %1</source>
-            <translation>Kan inte skapa CMake- verktyg från JSON: %1</translation>
+            <translation>Kan inte skapa CMake-verktyg från JSON: %1</translation>
         </message>
         <message>
             <location line="+62" />
             <source>CMake version %1 is unsupported. Update to version 3.15 (with file-api) or later.</source>
-            <translation>CMake version %1 stöds inte. Uppdatera till version 3.15 (med file-api) eller senare.</translation>
+            <translation>CMake-version %1 stöds inte. Uppdatera till version 3.15 (med file-api) eller senare.</translation>
         </message>
         <message>
             <location line="+57" />
@@ -18002,12 +18002,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+2" />
             <source>Toolset is not supported by the selected CMake generator.</source>
-            <translation>Verktygsuppsättning stöds inte av vald CMake-generator.</translation>
+            <translation>Verktygsuppsättningen stöds inte av den valda CMake-generatorn.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>The selected CMake binary does not support file-api. %1 will not be able to parse CMake projects.</source>
-            <translation>Den valda CMake-binären har inte stöd för file-api. %1 kommer inte kunna tolka CMake-projekt.</translation>
+            <translation>Den valda körbara CMake-filen har inte stöd för file-api. %1 kommer inte att kunna tolka CMake-projekt.</translation>
         </message>
         <message>
             <location line="+66" />
@@ -18017,7 +18017,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+2" />
             <source>Generator: %1&lt;br&gt;Extra generator: %2</source>
-            <translation>Generator: %1&lt;br&gt;Extra generator: %2</translation>
+            <translation>Generator: %1&lt;br&gt;Tilläggsgenerator: %2</translation>
         </message>
         <message>
             <location line="+2" />
@@ -18032,7 +18032,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+103" />
             <source>Enter one CMake &lt;a href="variable"&gt;variable&lt;/a&gt; per line.&lt;br/&gt;To set a variable, use -D&amp;lt;variable&amp;gt;:&amp;lt;type&amp;gt;=&amp;lt;value&amp;gt;.&lt;br/&gt;&amp;lt;type&amp;gt; can have one of the following values: FILEPATH, PATH, BOOL, INTERNAL, or STRING.</source>
-            <translation>Ange en CMake-&lt;a href="variable"&gt;variabel&lt;/a&gt; per rad.&lt;br/&gt;För att ställa in en variabel, använd -D&amp;lt;variabel&amp;gt;:&amp;lt;typ&amp;gt;=&amp;lt;värde&amp;gt;.&lt;br/&gt;&amp;lt;typ&amp;gt; kan ha en av följande värden: FILEPATH, PATH, BOOL, INTERNAL eller STRING.</translation>
+            <translation>Ange en CMake-&lt;a href="variable"&gt;variabel&lt;/a&gt; per rad.&lt;br/&gt;För att ange en variabel använder du -D&amp;lt;variable&amp;gt;:&amp;lt;type&amp;gt;=&amp;lt;value&amp;gt;.&lt;br/&gt;&amp;lt;type&amp;gt; kan ha ett av följande värden: FILEPATH, PATH, BOOL, INTERNAL eller STRING.</translation>
         </message>
         <message>
             <location line="+97" />
@@ -18116,7 +18116,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+1" />
             <source>Builds a target of any open CMake project.</source>
-            <translation>Bygger ett mål för öppna CMake-projekt.</translation>
+            <translation>Bygger ett mål i valfritt öppet CMake-projekt.</translation>
         </message>
         <message>
             <location line="+18" />
@@ -18136,12 +18136,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+1" />
             <source>Runs a CTest test of the current active CMake project.</source>
-            <translation>Kör ett CTest test av det aktuella aktiva CMake- projektet.</translation>
+            <translation>Kör ett CTest-test i det aktuella aktiva CMake-projektet.</translation>
         </message>
         <message>
             <location line="+15" />
             <source>AutoTest plugin needs to be loaded in order to execute tests.</source>
-            <translation>AutoTest plugin måste laddas för att utföra tester.</translation>
+            <translation>AutoTest-insticksprogrammet måste läsas in för att tester ska kunna köras.</translation>
         </message>
         <message>
             <source>The build configuration is currently disabled.</source>
