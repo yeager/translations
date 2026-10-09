@@ -29672,7 +29672,7 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="+8" />
             <source>Unfold All Inactive Code</source>
-            <translation>Ofaldiga alla inaktiva koder</translation>
+            <translation>Fäll ut all inaktiv kod</translation>
         </message>
         <message>
             <location line="+15" />
@@ -29688,12 +29688,12 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location filename="../../../src/plugins/cppeditor/cpptypehierarchy.cpp" line="-9" />
             <source>Open Type Hierarchy</source>
-            <translation>Öppna Type-hierarki</translation>
+            <translation>Öppna typhierarki</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppincludehierarchy.cpp" line="+514" />
             <source>Open Include Hierarchy</source>
-            <translation>Öppna Include-hierarki</translation>
+            <translation>Öppna inkluderingshierarki</translation>
         </message>
         <message>
             <location line="+3" />
@@ -29728,12 +29728,12 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/cppcodegenerationquickfixes.cpp" line="+624" />
             <source>Create Getter and Setter Member Functions</source>
-            <translation>Skapa Getter och Setter Medlemsfunktioner</translation>
+            <translation>Skapa medlemsfunktioner för getter och setter</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/movefunctiondefinition.cpp" line="-81" />
             <source>Move Definition Outside Class</source>
-            <translation>Flytta definition utanför klass</translation>
+            <translation>Flytta definitionen utanför klassen</translation>
         </message>
         <message>
             <location line="+4" />
@@ -29744,7 +29744,7 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="-4" />
             <source>Move Definition to Class</source>
-            <translation>Flytta definition till klass</translation>
+            <translation>Flytta definitionen till klassen</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/cppinsertvirtualmethods.cpp" line="+516" />
@@ -29784,33 +29784,33 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="+1" />
             <source>Insert definitions inside class</source>
-            <translation>Infoga definitioner inne i klass</translation>
+            <translation>Infoga definitioner i klassen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Insert definitions outside class</source>
-            <translation>Infoga definitioner utanför klass</translation>
+            <translation>Infoga definitioner utanför klassen</translation>
         </message>
         <message>
             <location line="+1" />
             <location line="+90" />
             <source>Insert definitions in implementation file</source>
-            <translation>Infoga definitioner i implementationsfil</translation>
+            <translation>Infoga definitioner i implementationsfilen</translation>
         </message>
         <message>
             <location line="-89" />
             <source>Add "&amp;virtual" to function declaration</source>
-            <translation>Lägg till "&amp;virtuell" till funktionsdeklaration</translation>
+            <translation>Lägg till ”&amp;virtual” i funktionsdeklarationen</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Add "override" equivalent to function declaration:</source>
-            <translation>Lägg till "överskridning" motsvarande funktionsdeklarationen:</translation>
+            <translation>Lägg till ”override”-motsvarighet i funktionsdeklarationen:</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Clear Added "override" Equivalents</source>
-            <translation>Rensa tillagda "överskrid" motsvarigheter</translation>
+            <translation>Rensa tillagda ”override”-motsvarigheter</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppchecksymbols.cpp" line="-2" />
@@ -29820,17 +29820,17 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location filename="../../../src/plugins/cppeditor/cpppreprocessordialog.cpp" line="+27" />
             <source>Additional C++ Preprocessor Directives</source>
-            <translation>Ytterligare direktiv om förbearbetning av C++</translation>
+            <translation>Ytterligare C++-förprocessordirektiv</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Additional C++ Preprocessor Directives for %1:</source>
-            <translation>Ytterligare C++-direktiv för förbearbetning av %1:</translation>
+            <translation>Ytterligare C++-förprocessordirektiv för %1:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppincludehierarchy.cpp" line="-147" />
             <source>No include hierarchy available</source>
-            <translation>Ingen include-hierarki tillgänglig</translation>
+            <translation>Ingen inkluderingshierarki är tillgänglig</translation>
         </message>
         <message>
             <location line="+16" />
@@ -29840,17 +29840,17 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="+123" />
             <source>Include Hierarchy</source>
-            <translation>Include-hierarki</translation>
+            <translation>Inkluderingshierarki</translation>
         </message>
         <message>
             <location line="-283" />
             <source>Includes</source>
-            <translation>Omfattar</translation>
+            <translation>Inkluderar</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Included by</source>
-            <translation>Ingår i</translation>
+            <translation>Inkluderas av</translation>
         </message>
         <message>
             <location line="-66" />
@@ -29895,12 +29895,12 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="+52" />
             <source>For appropriate options, consult the GCC or Clang manual pages or the [GCC online documentation](%1).</source>
-            <translation>För lämpliga alternativ, se manualsidorna GCC eller Clang eller [GCC online-dokumentation](%1).</translation>
+            <translation>Läs GCC- eller Clang-manualsidorna eller [GCC:s onlinedokumentation](%1) för lämpliga alternativ.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Use diagnostic flags from build system</source>
-            <translation>Använd diagnostikflaggor från byggsystem</translation>
+            <translation>Använd diagnostikflaggor från byggsystemet</translation>
         </message>
         <message>
             <location line="+23" />
