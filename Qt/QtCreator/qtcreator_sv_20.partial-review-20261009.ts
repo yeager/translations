@@ -50102,17 +50102,17 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+2" />
             <source>Samples in Percent</source>
-            <translation>Prover i procent</translation>
+            <translation>Samplingar i procent</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Self Samples</source>
-            <translation>Självprov</translation>
+            <translation>Egna samplingar</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Self in Percent</source>
-            <translation>Själv i procent</translation>
+            <translation>Egen andel i procent</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/perfprofiler/perfprofilertool.cpp" line="+65" />
@@ -50141,7 +50141,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
             <location line="+199" />
             <location line="+18" />
             <source>Limit to Range Selected in Timeline</source>
-            <translation>Begränsa till intervall valt i tidslinje</translation>
+            <translation>Begränsa till intervallet som är valt i tidslinjen</translation>
         </message>
         <message>
             <location line="-207" />
@@ -50170,7 +50170,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="-129" />
             <source>Finds performance bottlenecks.</source>
-            <translation>Hittar flaskhalsar i prestandan.</translation>
+            <translation>Hittar prestandaflaskhalsar.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -50195,7 +50195,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+3" />
             <source>Flame Graph</source>
-            <translation>Flamediagram</translation>
+            <translation>Flamgraf</translation>
         </message>
         <message>
             <location line="+63" />
@@ -50229,14 +50229,14 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         </message>
         <message>
             <source>No Data Loaded</source>
-            <translation>Inget data inläst</translation>
+            <translation>Inga data inlästa</translation>
         </message>
         <message>
             <location line="+70" />
             <source>The profiler did not produce any samples. Make sure that you are running a recent Linux kernel and that the "perf" utility is available and generates useful call graphs.
 You might find further explanations in the Application Output view.</source>
-            <translation>Profileraren producerade inga prover. Försäkra dig om att du kör en ny Linuxkärna och att verktyget "perf" är
-tillgängligt och genererar användbara samtalsgrafer. Du kan hitta ytterligare förklaringar i programutmatningsvyn.</translation>
+            <translation>Profileraren genererade inga samplingar. Kontrollera att du kör en ny Linuxkärna och att verktyget "perf" är tillgängligt och genererar användbara anropsgrafer.
+Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         </message>
         <message>
             <location line="+38" />
@@ -50292,12 +50292,12 @@ tillgängligt och genererar användbara samtalsgrafer. Du kan hitta ytterligare 
         <message>
             <location line="+6" />
             <source>Processing delay: %1.%2s</source>
-            <translation>Fördröjning för behandling: %1.%2s</translation>
+            <translation>Bearbetningsfördröjning: %1.%2s</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/perfprofiler/perfprofilertracefile.cpp" line="+247" />
             <source>Invalid data format. The trace file's identification string is "%1". An acceptable trace file should have "%2". You cannot read trace files generated with older versions of %3.</source>
-            <translation>Ogiltigt dataformat. Spårfilens identifieringssträng är "%1". En godtagbar spårfil ska ha "%2". Du kan inte läsa spårfiler som genereras med äldre versioner av %3.</translation>
+            <translation>Ogiltigt dataformat. Spårfilens identifikationssträng är "%1". En godtagbar spårfil ska ha "%2". Du kan inte läsa spårfiler som har skapats med äldre versioner av %3.</translation>
         </message>
         <message>
             <location line="+14" />
@@ -50307,22 +50307,22 @@ tillgängligt och genererar användbara samtalsgrafer. Du kan hitta ytterligare 
         <message>
             <location filename="../../../src/plugins/perfprofiler/perfprofilertracemanager.cpp" line="+76" />
             <source>Failed to reset temporary trace file.</source>
-            <translation>Misslyckades med att nollställa temporär spårningsfil.</translation>
+            <translation>Kunde inte nollställa den tillfälliga spårfilen.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Failed to flush temporary trace file.</source>
-            <translation>Misslyckades spola temporär spårfil.</translation>
+            <translation>Kunde inte tömma den tillfälliga spårfilen.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Cannot re-open temporary trace file.</source>
-            <translation>Kan inte öppna tillfällig spårfil igen.</translation>
+            <translation>Kan inte öppna den tillfälliga spårfilen igen.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Read past end from temporary trace file.</source>
-            <translation>Läs förbi slutet från temporär spårfil.</translation>
+            <translation>Läste förbi slutet av den tillfälliga spårfilen.</translation>
         </message>
         <message>
             <location line="+94" />
@@ -50337,12 +50337,12 @@ tillgängligt och genererar användbara samtalsgrafer. Du kan hitta ytterligare 
         <message>
             <location line="+2" />
             <source>Samples lost</source>
-            <translation>Förlust av prov</translation>
+            <translation>Förlorade samplingar</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Context switch</source>
-            <translation>Sammanhangsbrytare</translation>
+            <translation>Kontextväxling</translation>
         </message>
         <message>
             <location line="+2" />
