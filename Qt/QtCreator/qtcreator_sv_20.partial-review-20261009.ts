@@ -45482,25 +45482,25 @@ Vill du skriva över dem?</translation>
             <location line="+3" />
             <location filename="../../../src/plugins/incredibuild/ibconsolebuildstep.cpp" line="+4" />
             <source>Enter the appropriate arguments to your build command.</source>
-            <translation>Ange de lämpliga argumenten till ditt byggkommando.</translation>
+            <translation>Ange lämpliga argument till byggkommandot.</translation>
         </message>
         <message>
             <location line="+4" />
             <location filename="../../../src/plugins/incredibuild/ibconsolebuildstep.cpp" line="+4" />
             <source>Make sure the build command's multi-job parameter value is large enough (such as -j200 for the JOM or Make build tools).</source>
-            <translation>Se till att byggkommandots parametervärde för flera jobb är tillräckligt stort (t.ex. -j200 för JOM eller Make build-verktyg).</translation>
+            <translation>Kontrollera att byggkommandots parameter för flera jobb är tillräckligt stor, till exempel -j200 för byggverktygen JOM eller Make.</translation>
         </message>
         <message>
             <location line="+38" />
             <location filename="../../../src/plugins/incredibuild/ibconsolebuildstep.cpp" line="+19" />
             <source>Keep original jobs number:</source>
-            <translation>Behåll det ursprungliga jobbnumret:</translation>
+            <translation>Behåll ursprungligt antal jobb:</translation>
         </message>
         <message>
             <location line="+1" />
             <location filename="../../../src/plugins/incredibuild/ibconsolebuildstep.cpp" line="+1" />
             <source>Forces IncrediBuild to not override the -j command line switch, that controls the number of parallel spawned tasks. The default IncrediBuild behavior is to set it to 200.</source>
-            <translation>Tvingar IncrediBuild att inte överskrida kommandoradsbrytaren - j, som styr antalet parallella lekar. Normalt beteendet IncrediBuild är att ställa in det till 200.</translation>
+            <translation>Hindrar IncrediBuild från att åsidosätta kommandoradsflaggan -j, som styr antalet parallellt startade uppgifter. IncrediBuild anger som standard 200.</translation>
         </message>
         <message>
             <location line="-34" />
@@ -45515,47 +45515,47 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+43" />
             <source>Defines how Automatic Interception Interface should handle the various processes involved in a distributed job. It is not necessary for "Visual Studio" or "Make and Build tools" builds, but can be used to provide configuration options if those builds use additional processes that are not included in those packages. It is required to configure distributable processes in "Dev Tools" builds.</source>
-            <translation>Definierar hur automatiskt interceptiongränssnitt ska hantera de olika processer som är involverade i ett distribuerat jobb. Det är inte nödvändigt för "Visual Studio" eller "Make and Build- verktyg" bygger, men kan användas för att tillhandahålla konfigurationsalternativ om dessa bygger använder ytterligare processer som inte ingår i dessa paket. Det krävs för att konfigurera distribuerbara processer i "Dev Tools" bygger.</translation>
+            <translation>Anger hur Automatic Interception Interface ska hantera de olika processerna i ett distribuerat jobb. Den behövs inte för bygge med ”Visual Studio” eller ”Make and Build tools”, men kan användas för konfigurationsalternativ om sådana byggen använder ytterligare processer som inte ingår i paketen. Den krävs för att konfigurera distribuerbara processer i byggen med ”Dev Tools”.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Avoid local task execution:</source>
-            <translation>Undvik lokal aktivitetsutförande:</translation>
+            <translation>Undvik lokal körning av uppgifter:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Overrides the Agent Settings dialog Avoid task execution on local machine when possible option. This allows to free more resources on the initiator machine and could be beneficial to distribution in scenarios where the initiating machine is bottlenecking the build with High CPU usage.</source>
-            <translation>Överskrider dialogrutan Agentinställningar Undvik att utföra uppgifter på lokal maskin när det är möjligt. Det gör det möjligt att frigöra mer resurser på startmaskinen och kan vara fördelaktigt för distribution i scenarier där startmaskinen flaskhalsar bygget med hög CPU- användning.</translation>
+            <translation>Åsidosätter alternativet Undvik körning av uppgifter på den lokala datorn när det är möjligt i dialogrutan Agent Settings. Det frigör mer resurser på initieringsdatorn och kan gynna distributionen när initieringsdatorn är flaskhalsen på grund av hög processorbelastning.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Determines the maximum number of CPU cores that can be used in a build, regardless of the number of available Agents. It takes into account both local and remote cores, even if the Avoid Task Execution on Local Machine option is selected.</source>
-            <translation>Bestämmer det maximala antalet CPU-kärnor som kan användas i en bygg, oavsett antalet tillgängliga agenter. Det tar hänsyn till både lokala och fjärrkärnor, även om alternativet Undvik aktivitetsutövning på lokal maskin väljs.</translation>
+            <translation>Anger det maximala antalet processorkärnor som kan användas i ett bygge, oavsett antalet tillgängliga agenter. Både lokala och fjärranslutna kärnor räknas med, även om alternativet Avoid Task Execution on Local Machine är valt.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Maximum CPUs to utilize in the build:</source>
-            <translation>Maximala processorer att använda i bygget:</translation>
+            <translation>Maximalt antal processorer att använda i bygget:</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Newest allowed helper machine OS:</source>
-            <translation>Nyast tillåtna hjälpmaskin OS:</translation>
+            <translation>Nyaste tillåtna operativsystem på hjälpdator:</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Specifies the newest operating system installed on a helper machine to be allowed to participate as helper in the build.</source>
-            <translation>Anger det nyaste operativsystemet installerat på en hjälpmaskin för att få delta som hjälpare i bygget.</translation>
+            <translation>Anger det nyaste operativsystemet på en hjälpdator som får delta i bygget som hjälpare.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Oldest allowed helper machine OS:</source>
-            <translation>Gammalaste tillåtna hjälpmaskin OS:</translation>
+            <translation>Äldsta tillåtna operativsystem på hjälpdator:</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Specifies the oldest operating system installed on a helper machine to be allowed to participate as helper in the build.</source>
-            <translation>Anger det äldsta operativsystemet installerat på en hjälpmaskin som ska tillåtas delta som hjälpare i bygget.</translation>
+            <translation>Anger det äldsta operativsystemet på en hjälpdator som får delta i bygget som hjälpare.</translation>
         </message>
         <message>
             <location line="-72" />
@@ -45570,22 +45570,22 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+2" />
             <source>Specifies a custom header line which will be displayed in the beginning of the build output text. This title will also be used for the Build History and Build Monitor displays.</source>
-            <translation>Anger en egen rubrikrad som visas i början av byggutmatningstexten. Titeln används också för visningen Bygghistorik och Byggskärm.</translation>
+            <translation>Anger en egen rubrikrad som visas i början av byggutdata. Rubriken används också i vyerna Build History och Build Monitor.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Save IncrediBuild monitor file:</source>
-            <translation>Spara IncrediBuild- monitorfil:</translation>
+            <translation>Spara IncrediBuild-övervakningsfil:</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Writes a copy of the build progress file (.ib_mon) to the specified location. If only a folder name is given, a generated GUID will serve as the file name. The full path of the saved Build Monitor will be written to the end of the build output.</source>
-            <translation>Skriver en kopia av byggförloppsfilen (.ib_ mon) till angiven plats. Om bara ett katalognamn anges, fungerar ett genererat GUID som filnamn. Den fullständiga sökvägen för den sparade byggskärmen skrivs till slutet av byggutmatningen.</translation>
+            <translation>Skriver en kopia av byggförloppsfilen (.ib_mon) till den angivna platsen. Om bara ett mappnamn anges används ett genererat GUID som filnamn. Den fullständiga sökvägen till den sparade Build Monitor-filen skrivs i slutet av byggutdata.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Suppress STDOUT:</source>
-            <translation>Tryck på STDOUT:</translation>
+            <translation>Undertryck STDOUT:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -45635,22 +45635,22 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+3" />
             <source>Hide IncrediBuild Header in output:</source>
-            <translation>Dölj IncrediBuild Header i utmatning:</translation>
+            <translation>Dölj IncrediBuild-rubrik i utdata:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Suppresses IncrediBuild's header in the build output.</source>
-            <translation>Suppresses IncrediBuilds rubrik i byggutgången.</translation>
+            <translation>Undertrycker IncrediBuild-rubriken i byggutdata.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Internal IncrediBuild logging level:</source>
-            <translation>Intern IncrediBuild loggningsnivå:</translation>
+            <translation>Intern loggningsnivå för IncrediBuild:</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Overrides the internal Incredibuild logging level for this build. Does not affect output or any user accessible logging. Used mainly to troubleshoot issues with the help of IncrediBuild support.</source>
-            <translation>Överskrider den interna Incredibuild loggningsnivån för denna bygg. Påverkar inte utdata eller någon användares tillgängliga loggning. Används främst för att felsöka problem med hjälp av stöd för IncrediBuild.</translation>
+            <translation>Åsidosätter den interna loggningsnivån för IncrediBuild i det här bygget. Påverkar inte utdata eller användaråtkomliga loggar. Används främst för felsökning med hjälp av IncrediBuilds support.</translation>
         </message>
         <message>
             <location line="-118" />
@@ -45665,7 +45665,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+2" />
             <source>Sets or overrides environment variables for the context of the build.</source>
-            <translation>Ställer in eller överskrider miljövariabler för sammanhanget för bygget.</translation>
+            <translation>Anger eller åsidosätter miljövariabler för byggets kontext.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -45675,7 +45675,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+1" />
             <source>When specified, the execution will stop as soon as an error is encountered. This is the default behavior in "Visual Studio" builds, but not the default for "Make and Build tools" or "Dev Tools" builds.</source>
-            <translation>När det anges, upphör körningen så fort ett fel uppstår. Det är standardbeteendet i "Visual Studio" bygger, men inte standardvärdet för "Make and Build tools" eller "Dev Tools" bygger.</translation>
+            <translation>När alternativet anges stoppas körningen så snart ett fel uppstår. Detta är standard för byggen med ”Visual Studio”, men inte för ”Make and Build tools” eller ”Dev Tools”.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -45685,17 +45685,17 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+2" />
             <source>Add additional buildconsole arguments manually. The value of this field will be concatenated to the final buildconsole command line.</source>
-            <translation>Lägg till ytterligare byggkonsol- argument manuellt. Värdet på fältet konkateneras till den slutliga kommandoraden för byggkonsolen.</translation>
+            <translation>Lägg till ytterligare argument till buildconsole manuellt. Fältets värde sammanfogas med den slutliga kommandoraden för buildconsole.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Open Build Monitor:</source>
-            <translation>Öppna byggskärm:</translation>
+            <translation>Öppna Build Monitor:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Opens Build Monitor once the build starts.</source>
-            <translation>Öppnar Byggskärm när bygget startar.</translation>
+            <translation>Öppnar Build Monitor när bygget startar.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/incredibuild/cmakecommandbuilder.cpp" line="+30" />
@@ -45715,7 +45715,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+1" />
             <source>Select a helper to establish the build command.</source>
-            <translation>Välj en hjälpare för att skapa byggkommandot.</translation>
+            <translation>Välj en hjälpare för att fastställa byggkommandot.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -45736,22 +45736,22 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="-44" />
             <source>Specify nice value. Nice Value should be numeric and between -20 and 19</source>
-            <translation>Ange fint värde. Fint värde ska vara numeriskt och mellan -20 och 19</translation>
+            <translation>Ange ett nice-värde. Nice-värdet måste vara numeriskt och ligga mellan -20 och 19.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Nice value:</source>
-            <translation>Fint värde:</translation>
+            <translation>Nice-värde:</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Force remote:</source>
-            <translation>Tvinga fjärr:</translation>
+            <translation>Tvinga fjärrkörning:</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Alternate tasks preference:</source>
-            <translation>Alternativa uppgifter:</translation>
+            <translation>Inställning för alternativa uppgifter:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/incredibuild/makecommandbuilder.cpp" line="+33" />
