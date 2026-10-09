@@ -84006,7 +84006,7 @@ Are you sure you want to remove it?</source>
         <name>textv2</name>
         <message>
             <source>Text</source>
-            <translation>Text</translation>
+            <translation>Överför ändringen till den förinställda brytpunkten</translation>
         </message>
     </context>
 </TS>
