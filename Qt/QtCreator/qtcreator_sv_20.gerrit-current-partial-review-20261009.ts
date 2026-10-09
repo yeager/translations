@@ -11064,7 +11064,7 @@ den totala implicita storleken.</translation>
     <name>PassSection</name>
     <message>
         <source>Pass</source>
-        <translation>Passering</translation>
+        <translation>Återgivningspass</translation>
     </message>
     <message>
         <source>Commands</source>
@@ -11072,7 +11072,7 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the render commands of the pass.</source>
-        <translation>Ställer in återgivningskommandona för passeringen.</translation>
+        <translation>Ställer in återgivningskommandona för återgivningspasset.</translation>
     </message>
     <message>
         <source>Buffer</source>
@@ -11080,7 +11080,7 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the output buffer for the pass.</source>
-        <translation>Ställer in utdatabufferten för passeringen.</translation>
+        <translation>Ställer in utdatabufferten för återgivningspasset.</translation>
     </message>
     <message>
         <source>Shaders</source>
@@ -11088,7 +11088,7 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the shaders for the pass.</source>
-        <translation>Ställer in shaderprogrammen för passeringen.</translation>
+        <translation>Ställer in shaderprogrammen för återgivningspasset.</translation>
     </message>
 </context>
 <context>
