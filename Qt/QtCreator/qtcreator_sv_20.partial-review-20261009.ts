@@ -36457,8 +36457,8 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
             <location line="+1219" />
             <source>The process %1 is already under the control of a debugger.
 %2 cannot attach to it.</source>
-            <translation>Processen %1 är redan under kontroll av en
-felsökningsmaskin. %2 kan inte ansluta till den.</translation>
+            <translation>Processen %1 styrs redan av en felsökare.
+%2 kan inte ansluta till den.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -36468,7 +36468,7 @@ felsökningsmaskin. %2 kan inte ansluta till den.</translation>
         <message>
             <location line="+1" />
             <source>It is only possible to attach to a locally running process.</source>
-            <translation>Det är bara möjligt att fästa vid en lokalt pågående process.</translation>
+            <translation>Det går endast att ansluta till en process som körs lokalt.</translation>
         </message>
         <message>
             <location line="+56" />
@@ -36507,7 +36507,7 @@ felsökningsmaskin. %2 kan inte ansluta till den.</translation>
         <message>
             <location line="+3" />
             <source>&amp;Show in Editor</source>
-            <translation>&amp;Visa i redigerare</translation>
+            <translation>&amp;Visa i redigeraren</translation>
         </message>
         <message>
             <location line="+4" />
@@ -36541,12 +36541,12 @@ felsökningsmaskin. %2 kan inte ansluta till den.</translation>
         <message>
             <location filename="../../../src/plugins/debugger/imageviewer.cpp" line="+66" />
             <source>Color at %1,%2: red: %3 green: %4 blue: %5 alpha: %6</source>
-            <translation>Färg vid %1,%2: röd: %3 grön: %4 blå: %5 alfa: %6</translation>
+            <translation>Färg vid %1,%2: röd: %3, grön: %4, blå: %5, alfa: %6</translation>
         </message>
         <message>
             <location line="+45" />
             <source>&lt;Click to display color&gt;</source>
-            <translation>&lt;Klicka för att visa färg&gt;</translation>
+            <translation>&lt;Klicka för att visa färgen&gt;</translation>
         </message>
         <message>
             <location line="+25" />
@@ -36581,7 +36581,7 @@ felsökningsmaskin. %2 kan inte ansluta till den.</translation>
         <message>
             <location line="+4" />
             <source>Terminal: Slave is no character device.</source>
-            <translation>Terminal: Slave är ingen teckenenhet.</translation>
+            <translation>Terminal: Slavänden är ingen teckenenhet.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -36596,12 +36596,12 @@ felsökningsmaskin. %2 kan inte ansluta till den.</translation>
         <message>
             <location line="+47" />
             <source>Terminal: Read failed: %1</source>
-            <translation>Terminal: Read misslyckades: %1</translation>
+            <translation>Terminal: Läsning misslyckades: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/unstartedappwatcherdialog.cpp" line="-22" />
             <source>Attach to Process Not Yet Started</source>
-            <translation>Fäst till process ännu inte startad</translation>
+            <translation>Anslut till en process som ännu inte har startat</translation>
         </message>
         <message>
             <location line="+36" />
@@ -36616,18 +36616,18 @@ felsökningsmaskin. %2 kan inte ansluta till den.</translation>
         <message>
             <location line="+5" />
             <source>Continue on attach</source>
-            <translation>Fortsätt vid fästning</translation>
+            <translation>Fortsätt vid anslutning</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Debugger does not stop the application after attach.</source>
-            <translation>Felsökaren stoppade inte programmet efter fästning.</translation>
+            <translation>Felsökaren stoppar inte programmet efter anslutning.</translation>
         </message>
         <message>
             <location line="+10" />
             <location line="+97" />
             <source>Start Watching</source>
-            <translation>Börja titta</translation>
+            <translation>Starta bevakning</translation>
         </message>
         <message>
             <location line="-90" />
@@ -36642,7 +36642,7 @@ felsökningsmaskin. %2 kan inte ansluta till den.</translation>
         <message>
             <location line="+89" />
             <source>Stop Watching</source>
-            <translation>Sluta titta</translation>
+            <translation>Stoppa bevakning</translation>
         </message>
         <message>
             <location line="+80" />
@@ -36652,7 +36652,7 @@ felsökningsmaskin. %2 kan inte ansluta till den.</translation>
         <message>
             <location line="+8" />
             <source>Not watching.</source>
-            <translation>Jag tittar inte.</translation>
+            <translation>Bevakar inte.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -36662,7 +36662,7 @@ felsökningsmaskin. %2 kan inte ansluta till den.</translation>
         <message>
             <location line="+14" />
             <source>Attach</source>
-            <translation>Fäst</translation>
+            <translation>Anslut</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/uvsc/uvscclient.cpp" line="+138" />
@@ -36683,17 +36683,17 @@ felsökningsmaskin. %2 kan inte ansluta till den.</translation>
         <message>
             <location filename="../../../src/plugins/debugger/watchwindow.cpp" line="+26" />
             <source>Locals and Expressions</source>
-            <translation>Lokaler och uttryck</translation>
+            <translation>Lokala variabler och uttryck</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/dap/pydapengine.cpp" line="+231" />
             <source>Install the debugpy package to turn on Python debugging support.</source>
-            <translation>Installera felsökningspaketet för att aktivera stöd för Python- felsökning.</translation>
+            <translation>Installera paketet debugpy för att aktivera stöd för Python-felsökning.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Python Debugging Is Not Available</source>
-            <translation>Python- felsökning finns inte</translation>
+            <translation>Python-felsökning är inte tillgänglig</translation>
         </message>
         <message>
             <location line="+3" />
