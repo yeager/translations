@@ -50578,12 +50578,12 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location filename="../../../src/plugins/perforce/changenumberdialog.cpp" line="+20" />
             <source>Change Number</source>
-            <translation>Ändra nummer</translation>
+            <translation>Ändringsnummer</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Change number:</source>
-            <translation>Ändra nummer:</translation>
+            <translation>Ändringsnummer:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/perforce/pendingchangesdialog.cpp" line="+22" />
@@ -50596,12 +50596,12 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
             <location filename="../../../src/plugins/perforce/perforcesubmiteditorwidget.cpp" line="+26" />
             <source>Submit</source>
             <extracomment>Name of the "commit" action of the VCS</extracomment>
-            <translation>Skicka</translation>
+            <translation>Skicka in</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Change %1: %2</source>
-            <translation>Ändra %1: %2</translation>
+            <translation>Ändring %1: %2</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/perforce/perforceplugin.cpp" line="-954" />
@@ -50661,7 +50661,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+0" />
             <source>Revert "%1"</source>
-            <translation>Återgå "%1"</translation>
+            <translation>Återställ "%1"</translation>
         </message>
         <message>
             <location line="+3" />
@@ -50677,22 +50677,22 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
             <location line="-57" />
             <location line="+3" />
             <source>Diff Current File</source>
-            <translation>Diff aktuell fil</translation>
+            <translation>Jämför aktuell fil</translation>
         </message>
         <message>
             <location line="-3" />
             <source>Diff "%1"</source>
-            <translation>Diff "%1"</translation>
+            <translation>Jämför "%1"</translation>
         </message>
         <message>
             <location line="+64" />
             <source>Diff Current Project/Session</source>
-            <translation>Diff aktuellt projekt/session</translation>
+            <translation>Jämför aktuellt projekt/session</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Diff Project "%1"</source>
-            <translation>Diff-projekt "%1"</translation>
+            <translation>Jämför projektet "%1"</translation>
         </message>
         <message>
             <location line="+3" />
@@ -50702,7 +50702,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+46" />
             <source>Diff Opened Files</source>
-            <translation>Diff öppnade filer</translation>
+            <translation>Jämför öppnade filer</translation>
         </message>
         <message>
             <location line="+6" />
@@ -50743,23 +50743,23 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
             <location line="-139" />
             <location line="+3" />
             <source>Annotate Current File</source>
-            <translation>Anteckna aktuell fil</translation>
+            <translation>Annotera aktuell fil</translation>
         </message>
         <message>
             <location line="-3" />
             <source>Annotate "%1"</source>
-            <translation>Anteckna "%1"</translation>
+            <translation>Annotera "%1"</translation>
         </message>
         <message>
             <location line="+144" />
             <source>Annotate...</source>
-            <translation>Anteckna…</translation>
+            <translation>Annotera…</translation>
         </message>
         <message>
             <location line="-136" />
             <location line="+4" />
             <source>Filelog Current File</source>
-            <translation>Fillogg nuvarande fil</translation>
+            <translation>Fillogg för aktuell fil</translation>
         </message>
         <message>
             <location line="-4" />
@@ -50784,27 +50784,27 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="-193" />
             <source>Perforce Log Editor</source>
-            <translation>Perforce loggeditorName</translation>
+            <translation>Perforce-loggredigerare</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Perforce Annotation Editor</source>
-            <translation>Uttalad kommentarseditor</translation>
+            <translation>Perforce-annoteringsredigerare</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Perforce Diff Editor</source>
-            <translation>Perforce diff editorName</translation>
+            <translation>Perforce-diffredigerare</translation>
         </message>
         <message>
             <location line="+20" />
             <source>Perforce Submit Editor</source>
-            <translation>Perforce Skicka in editor</translation>
+            <translation>Perforce-redigerare för inskickning</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Triggers a Perforce version control operation.</source>
-            <translation>Utlöser en Perforce versionsstyrning.</translation>
+            <translation>Utför en versionshanteringsåtgärd i Perforce.</translation>
         </message>
         <message>
             <location line="+30" />
