@@ -59804,7 +59804,7 @@ Vill du fortsätta?</translation>
     </message>
     <message>
         <source>Remote path not set</source>
-        <translation>Fjärrsökvägen är inte inställd.</translation>
+        <translation>Fjärrsökvägen är inte inställd</translation>
     </message>
     <message>
         <source>Executable on host:</source>
@@ -65078,7 +65078,7 @@ Används för att markera den omgivande funktionen för symbolanvändningen.</tr
     </message>
     <message>
         <source>Number literal.</source>
-        <translation>Talliteral</translation>
+        <translation>Talliteral.</translation>
     </message>
     <message>
         <source>String</source>
@@ -69638,7 +69638,7 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
     </message>
     <message>
         <source>(%1%)</source>
-        <translation>(%1%)</translation>
+        <translation>(%1 %)</translation>
     </message>
     <message>
         <source>%1 cost spent in a given function excluding costs from called functions.</source>
@@ -69947,7 +69947,7 @@ Kontrollera inställningarna eller säkerställ att Valgrind är installerat och
     </message>
     <message>
         <source>Submit Message Check Failed</source>
-        <translation>Kontroll av inskickningsmeddelande misslyckades.</translation>
+        <translation>Kontroll av inskickningsmeddelande misslyckades</translation>
     </message>
     <message>
         <source>Executing %1</source>
