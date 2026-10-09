@@ -79499,7 +79499,7 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+4" />
             <source>Heob stopped unexpectedly.</source>
-            <translation>Heob stoppade oväntat.</translation>
+            <translation>Heob avslutades oväntat.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -79509,12 +79509,12 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+35" />
             <source>Heob: Failure in process attach handshake (%1).</source>
-            <translation>Heob: Fel i processen bifoga handslag (%1).</translation>
+            <translation>Heob: Fel vid anslutningshandskakning till processen (%1).</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/valgrind/callgrind/callgrindcallmodel.cpp" line="+165" />
             <source>Callee</source>
-            <translation>Callee Ordförande</translation>
+            <translation>Anropad funktion</translation>
         </message>
         <message>
             <location line="+2" />
@@ -79539,7 +79539,7 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="-142" />
             <source>Dumping profile data...</source>
-            <translation>Dumpar profildata…</translation>
+            <translation>Dumpning av profildata …</translation>
         </message>
         <message>
             <location line="-517" />
@@ -79557,32 +79557,32 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+516" />
             <source>Resetting event counters...</source>
-            <translation>Återställer händelseräknare…</translation>
+            <translation>Återställer händelseräknare …</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Pausing instrumentation...</source>
-            <translation>- Gör uppehåll i instrumentering…</translation>
+            <translation>Pausar instrumentering …</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Unpausing instrumentation...</source>
-            <translation>Otillåten instrumentering…</translation>
+            <translation>Återupptar instrumentering …</translation>
         </message>
         <message>
             <location line="+50" />
             <source>An error occurred while trying to run %1: %2</source>
-            <translation>Ett fel uppstod när %1 försökte köras: %2</translation>
+            <translation>Ett fel inträffade när %1 skulle köras: %2</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Callgrind unpaused.</source>
-            <translation>- Callgrind är inte utnyttjad.</translation>
+            <translation>Callgrind har återupptagits.</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Failed opening temp file...</source>
-            <translation>Misslyckades med att öppna temporärfil…</translation>
+            <translation>Det gick inte att öppna temporärfilen …</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/valgrind/callgrind/callgrinddatamodel.cpp" line="-96" />
@@ -79599,12 +79599,12 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
             <location line="+8" />
             <location filename="../../../src/plugins/valgrind/xmlprotocol/frame.cpp" line="+8" />
             <source>Object:</source>
-            <translation>Syfte:</translation>
+            <translation>Objekt:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Called:</source>
-            <translation>Kallas:</translation>
+            <translation>Anropad:</translation>
         </message>
         <message numerus="yes">
             <location line="+0" />
@@ -79622,7 +79622,7 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+1" />
             <source>Self costs</source>
-            <translation>Självkostnad</translation>
+            <translation>Egna kostnader</translation>
         </message>
         <message>
             <location line="+0" />
@@ -79633,7 +79633,7 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+0" />
             <source>Incl. costs</source>
-            <translation>Kostnader för övriga kostnader</translation>
+            <translation>Inkluderande kostnader</translation>
         </message>
         <message>
             <location line="+15" />
@@ -79644,12 +79644,12 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+52" />
             <source>%1 cost spent in a given function excluding costs from called functions.</source>
-            <translation>%1 kostnad som spenderas i en viss funktion exklusive kostnader från kallade funktioner.</translation>
+            <translation>%1 kostnad som uppstår i en viss funktion, exklusive kostnader i anropade funktioner.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>%1 cost spent in a given function including costs from called functions.</source>
-            <translation>%1 kostnad som spenderas i en viss funktion inklusive kostnader från kallade funktioner.</translation>
+            <translation>%1 kostnad som uppstår i en viss funktion, inklusive kostnader i anropade funktioner.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -79660,17 +79660,17 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+4" />
             <source>Called</source>
-            <translation>Uppringd</translation>
+            <translation>Anropad</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Self Cost: %1</source>
-            <translation>Självkostnad: %1</translation>
+            <translation>Egen kostnad: %1</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Incl. Cost: %1</source>
-            <translation>Inkl. kostnad: %1</translation>
+            <translation>Inkluderande kostnad: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/valgrind/callgrind/callgrindfunction.cpp" line="+180" />
@@ -79701,12 +79701,12 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+2" />
             <source>Conditional branches</source>
-            <translation>Villkorade filialer</translation>
+            <translation>Villkorsgrenar</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Indirect branches</source>
-            <translation>Indirekta filialer</translation>
+            <translation>Indirekta grenar</translation>
         </message>
         <message>
             <location line="+6" />
@@ -79716,27 +79716,27 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location line="+1" />
             <source>read</source>
-            <translation>läs</translation>
+            <translation>läsning</translation>
         </message>
         <message>
             <location line="+0" />
             <source>write</source>
-            <translation>skriv</translation>
+            <translation>skrivning</translation>
         </message>
         <message>
             <location line="+3" />
             <source>mispredicted</source>
-            <translation>felförutsett</translation>
+            <translation>felpredikterad</translation>
         </message>
         <message>
             <location line="+0" />
             <source>executed</source>
-            <translation>verkställd</translation>
+            <translation>kördes</translation>
         </message>
         <message>
             <location line="+2" />
             <source>miss</source>
-            <translation>Miss</translation>
+            <translation>miss</translation>
         </message>
         <message>
             <location line="+0" />
