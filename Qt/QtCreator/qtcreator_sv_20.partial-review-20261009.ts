@@ -20548,23 +20548,23 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+3" />
             <source>&amp;Reserved</source>
-            <translation>&amp;Reserved</translation>
+            <translation>&amp;Reserverad</translation>
         </message>
         <message>
             <location line="+3" />
             <source>&amp;Unreserved if already reserved</source>
-            <translation>&amp;UnReserverad om redan reserverad</translation>
+            <translation>&amp;Oreserverad om redan reserverad</translation>
         </message>
         <message>
             <location line="+2" />
             <location filename="../../../src/plugins/clearcase/clearcasesubmiteditorwidget.cpp" line="+26" />
             <source>&amp;Preserve file modification time</source>
-            <translation>&amp;Preserve filändringstid</translation>
+            <translation>&amp;Bevara filens ändringstid</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Use &amp;Hijacked file</source>
-            <translation>Använd &amp;Hijacked- fil</translation>
+            <translation>Använd ö&amp;vertagen fil</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/clearcase/settingspage.cpp" line="+115" />
@@ -20579,7 +20579,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+5" />
             <source>Diff</source>
-            <translation>Diff</translation>
+            <translation>Jämför</translation>
         </message>
         <message>
             <location line="-58" />
@@ -20589,7 +20589,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+33" />
             <source>VOBs list, separated by comma. Indexer will only traverse the specified VOBs. If left blank, all active VOBs will be indexed.</source>
-            <translation>VOBs lista, separerad med kommatecken. Indexer passerar endast angivna VOBs. Om den lämnas tom, indexeras alla aktiva VOBs.</translation>
+            <translation>Lista med VOB:er, avgränsade med kommatecken. Indexeraren går endast igenom de angivna VOB:erna. Om fältet lämnas tomt indexeras alla aktiva VOB:er.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -20599,12 +20599,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+3" />
             <source>Do &amp;not prompt for comment during checkout or check-in</source>
-            <translation>Gör &amp;not-fråga för kommentar under kassan eller incheckningen</translation>
+            <translation>Fråga &amp;inte efter kommentar vid utcheckning eller incheckning</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Check out or check in files with no comment (-nc/omment).</source>
-            <translation>Kolla in eller checka in filer utan kommentar (-nc/omment).</translation>
+            <translation>Checka ut eller in filer utan kommentar (-nc/omment).</translation>
         </message>
         <message>
             <location line="+5" />
@@ -20614,12 +20614,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+21" />
             <source>Miscellaneous</source>
-            <translation>Diverse</translation>
+            <translation>Övrigt</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&amp;History count:</source>
-            <translation>&amp;History antal:</translation>
+            <translation>&amp;Antal historikposter:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -20644,12 +20644,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+4" />
             <source>&amp;Automatically check out files on edit</source>
-            <translation>&amp;Automatiskt kolla in filer vid redigering</translation>
+            <translation>Checka &amp;ut filer automatiskt vid redigering</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Aut&amp;o assign activity names</source>
-            <translation>Aut&amp;o tilldela aktivitetsnamn</translation>
+            <translation>Tilldela aktivitetsnamn aut&amp;omatiskt</translation>
         </message>
         <message>
             <location line="-8" />
@@ -20659,17 +20659,17 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="-34" />
             <source>&amp;Graphical (single file only)</source>
-            <translation>&amp;Grafical (endast en fil)</translation>
+            <translation>&amp;Grafisk (endast en fil)</translation>
         </message>
         <message>
             <location line="+36" />
             <source>Di&amp;sable indexer</source>
-            <translation>Di&amp;sable indexerare</translation>
+            <translation>Inaktivera indexeraren</translation>
         </message>
         <message>
             <location line="+46" />
             <source>&amp;Index only VOBs:</source>
-            <translation>dast ombordvarande på &amp;Index:</translation>
+            <translation>&amp;Indexera endast VOB:er:</translation>
         </message>
         <message>
             <location line="+66" />
@@ -20689,27 +20689,27 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+3" />
             <source>&amp;Save copy of the file with a '.keep' extension</source>
-            <translation>&amp;Save kopia av filen med en '. keep' förlängning</translation>
+            <translation>&amp;Spara en kopia av filen med filändelsen .keep</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/clearcase/versionselector.cpp" line="+24" />
             <source>Confirm Version to Check Out</source>
-            <translation>Bekräfta version att checka ut</translation>
+            <translation>Bekräfta version för utcheckning</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Multiple versions of "%1" can be checked out. Select the version to check out:</source>
-            <translation>Flera versioner av "%1" kan checkas ut. Välj den version som ska checkas ut:</translation>
+            <translation>Flera versioner av ”%1” kan checkas ut. Välj den version som ska checkas ut:</translation>
         </message>
         <message>
             <location line="+5" />
             <source>&amp;Loaded version</source>
-            <translation>&amp;Loaded version</translation>
+            <translation>&amp;Inläst version</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Note: You will not be able to check in this file without merging the changes (not supported by the plugin)</source>
-            <translation>Observera: Du kommer inte att kunna kontrollera i den här filen utan att slå samman ändringarna (som inte stöds av insticksprogrammet)</translation>
+            <translation>Observera: Du kan inte checka in filen utan att sammanfoga ändringarna (stöds inte av insticksprogrammet).</translation>
         </message>
         <message>
             <location line="+10" />
@@ -20751,12 +20751,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+7" />
             <source>&amp;Hijack</source>
-            <translation>&amp;Hijack Ordförande</translation>
+            <translation>Ö&amp;verta</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/clearcase/clearcaseeditor.cpp" line="+24" />
             <source>Annotate version "%1"</source>
-            <translation>Anteckna version "%1"</translation>
+            <translation>Annotera version ”%1”</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/clearcase/clearcaseplugin.cpp" line="-2013" />
@@ -20766,7 +20766,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+175" />
             <source>Triggers a ClearCase version control operation.</source>
-            <translation>Utlöser en ClearCase versionshantering.</translation>
+            <translation>Utlöser en versionshanteringsåtgärd i ClearCase.</translation>
         </message>
         <message>
             <location line="+6" />
