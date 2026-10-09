@@ -73360,7 +73360,7 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     <name>SpecularGlossyMaterialSection</name>
     <message>
         <source>Specular Glossy Material</source>
-        <translation>Spekulärt glansigt material</translation>
+        <translation>Spekulärt glansmaterial</translation>
     </message>
     <message>
         <source>Alpha Mode</source>
@@ -73372,11 +73372,11 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     </message>
     <message>
         <source>Alpha Cutoff</source>
-        <translation>Alfaavskärning</translation>
+        <translation>Alfagränsvärde</translation>
     </message>
     <message>
         <source>Sets the cutoff value when using the Mask alphaMode.</source>
-        <translation>Anger avskärningsvärdet när alfaMask-läget används.</translation>
+        <translation>Anger gränsvärdet när alphaMode har värdet Mask.</translation>
     </message>
     <message>
         <source>Blend Mode</source>
@@ -73408,7 +73408,7 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     </message>
     <message>
         <source>Map</source>
-        <translation>Karta</translation>
+        <translation>Texturkarta</translation>
     </message>
     <message>
         <source>Sets a texture used to set the albedo color of the material.</source>
@@ -73436,7 +73436,7 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     </message>
     <message>
         <source>Sets the size of the specular highlight generated from lights, and the clarity of reflections in general.</source>
-        <translation>Anger storleken på den spekulära högdagern som genereras från ljus och reflektionsskärpan i allmänhet.</translation>
+        <translation>Anger storleken på den spekulära högdagern som genereras av ljus och reflektionsskärpan i allmänhet.</translation>
     </message>
     <message>
         <source>Sets a texture to control the glossiness of the material.</source>
@@ -73532,7 +73532,7 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     </message>
     <message>
         <source>Min Map Samples</source>
-        <translation>Min. kartsamplingar</translation>
+        <translation>Minsta antal kartprover</translation>
     </message>
     <message>
         <source>Sets the minimum number of samples used for performing Parallax Occlusion Mapping using the heightMap.</source>
@@ -73540,7 +73540,7 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     </message>
     <message>
         <source>Max Map Samples</source>
-        <translation>Max. kartsamplingar</translation>
+        <translation>Största antal kartprover</translation>
     </message>
     <message>
         <source>Sets the maximum number of samples used for performing Parallax Occlusion Mapping using the heightMap.</source>
