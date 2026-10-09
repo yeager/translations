@@ -12040,7 +12040,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         </message>
         <message>
             <source>Project File not Updated</source>
-            <translation>Projektfilen inte uppdaterad</translation>
+            <translation>Projektfilen uppdaterades inte</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/avdcreatordialog.cpp" line="+169" />
@@ -12050,22 +12050,22 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location filename="../../../src/plugins/android/androidutils.cpp" line="+510" />
             <source>Emulator Tool Is Missing</source>
-            <translation>Emulatorverktyg saknas</translation>
+            <translation>Emulatorverktyget saknas</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Install the missing emulator tool (%1) to the installed Android SDK.</source>
-            <translation>Installera det saknade emulatorverktyget (%1) till den installerade Android SDK.</translation>
+            <translation>Installera det saknade emulatorverktyget (%1) i den installerade Android SDK:n.</translation>
         </message>
         <message>
             <location line="+24" />
             <source>AVD Start Error</source>
-            <translation>AVD Startfel</translation>
+            <translation>AVD-startfel</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Failed to start AVD emulator for "%1" device.</source>
-            <translation>Misslyckades starta AVD- emulator för "%1"- enhet.</translation>
+            <translation>Det gick inte att starta AVD-emulatorn för enheten ”%1”.</translation>
         </message>
         <message>
             <source>Master icon</source>
@@ -12089,7 +12089,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+138" />
             <source>Failed to save pixmap data to file "%1".</source>
-            <translation>Misslyckades spara pixmap- data för att fila "%1".</translation>
+            <translation>Det gick inte att spara pixmapdata i filen ”%1”.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -12099,7 +12099,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+4" />
             <source>Cannot open file for writing: "%1" (Error: %2).</source>
-            <translation>Kan inte öppna fil för skrivning: "%1" (Error: %2).</translation>
+            <translation>Det går inte att öppna filen ”%1” för skrivning (fel: %2).</translation>
         </message>
         <message>
             <location line="+41" />
@@ -12119,7 +12119,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+2" />
             <source>Clear set icons.</source>
-            <translation>Rensa uppsättningsikoner.</translation>
+            <translation>Rensa de valda ikonerna.</translation>
         </message>
         <message>
             <source>LDPI icon</source>
@@ -12128,7 +12128,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+26" />
             <source>Select an icon suitable for low-density (ldpi) screens (~120dpi).</source>
-            <translation>Välj en ikon lämplig för låg densitet (ldpi) skärmar (~120dpi).</translation>
+            <translation>Välj en ikon för skärmar med låg pixeltäthet (ldpi, ~120 dpi).</translation>
         </message>
         <message>
             <source>MDPI icon</source>
@@ -12137,7 +12137,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+5" />
             <source>Select an icon for medium-density (mdpi) screens (~160dpi).</source>
-            <translation>Välj en ikon för medelstora skärmar (mdpi) (~160dpi).</translation>
+            <translation>Välj en ikon för skärmar med medelhög pixeltäthet (mdpi, ~160 dpi).</translation>
         </message>
         <message>
             <source>HDPI icon</source>
@@ -12146,7 +12146,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+5" />
             <source>Select an icon for high-density (hdpi) screens (~240dpi).</source>
-            <translation>Välj en ikon för högdensitetsskärmar (hdpi) (~240dpi).</translation>
+            <translation>Välj en ikon för skärmar med hög pixeltäthet (hdpi, ~240 dpi).</translation>
         </message>
         <message>
             <source>XHDPI icon</source>
@@ -12155,7 +12155,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+5" />
             <source>Select an icon for extra-high-density (xhdpi) screens (~320dpi).</source>
-            <translation>Välj en ikon för extra hög densitet (xhdpi) skärmar (~320dpi).</translation>
+            <translation>Välj en ikon för skärmar med extra hög pixeltäthet (xhdpi, ~320 dpi).</translation>
         </message>
         <message>
             <source>XXHDPI icon</source>
@@ -12164,7 +12164,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+5" />
             <source>Select an icon for extra-extra-high-density (xxhdpi) screens (~480dpi).</source>
-            <translation>Välj en ikon för extra extra hög densitet (xxhdpi) skärmar (~480dpi).</translation>
+            <translation>Välj en ikon för skärmar med mycket hög pixeltäthet (xxhdpi, ~480 dpi).</translation>
         </message>
         <message>
             <source>XXXHDPI icon</source>
@@ -12173,12 +12173,12 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+5" />
             <source>Select an icon for extra-extra-extra-high-density (xxxhdpi) screens (~640dpi).</source>
-            <translation>Välj en ikon för extra extra extra-extra-hög-densitet (xxxhdpi) skärmar (~640dpi).</translation>
+            <translation>Välj en ikon för skärmar med extremt hög pixeltäthet (xxxhdpi, ~640 dpi).</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/splashscreencontainerwidget.cpp" line="+174" />
             <source>Icon scaled up.</source>
-            <translation>Icon ökade.</translation>
+            <translation>Ikonen skalades upp.</translation>
         </message>
         <message>
             <source>Click to select...</source>
@@ -12198,21 +12198,21 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+81" />
             <source>Automatically create usable Android kits and install all essential packages. To do this later, select Edit &gt; Preferences &gt; SDKs &gt; Android.</source>
-            <translation>Skapa automatiskt användbara Android-kit och installera alla viktiga paket. För att göra detta senare, välj Redigera &gt; Inställningar &gt; SDKs &gt; Android.</translation>
+            <translation>Skapa automatiskt användbara Android-kit och installera alla nödvändiga paket. För att göra det senare, välj Redigera &gt; Inställningar &gt; SDK:er &gt; Android.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Configure Android Options?</source>
-            <translation>Anpassa Android-alternativ?</translation>
+            <translation>Konfigurera Android-alternativ?</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/javalanguageserver.cpp" line="+316" />
             <source>Java Language Server</source>
-            <translation>Java språkserver</translation>
+            <translation>Java-språkserver</translation>
         </message>
         <message>
             <source>Would you like to configure Android options? This will ensure Android kits can be usable and all essential packages are installed. To do it later, select Edit &gt; Preferences &gt; Devices &gt; Android.</source>
-            <translation>Vill du konfigurera alternativ för Android? Detta kommer att försäkra att Android kits blir användbara och alla nödvändiga paket installeras. För att göra det senare, välj Redigera &gt; Inställningar &gt; Enheter &gt; Android.</translation>
+            <translation>Vill du konfigurera Android-alternativ? Detta säkerställer att Android-kit kan användas och att alla nödvändiga paket installeras. För att göra det senare, välj Redigera &gt; Inställningar &gt; Enheter &gt; Android.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androidplugin.cpp" line="+3" />
@@ -12232,7 +12232,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+2" />
             <source>Failed to detect the ABIs used by the Qt version. Check the settings in Devices &gt; Android for errors.</source>
-            <translation>Misslyckades upptäcka ABI som används av Qt- versionen. Kontrollera inställningarna i Enheter &gt; Android för fel.</translation>
+            <translation>Det gick inte att identifiera ABI:erna som används av Qt-versionen. Kontrollera inställningarna i Enheter &gt; Android för fel.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androidrunconfiguration.cpp" line="+53" />
@@ -12247,22 +12247,22 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+7" />
             <source>Pre-launch on-device shell commands:</source>
-            <translation>Kommandon för att starta på enhet:</translation>
+            <translation>Shellkommandon på enheten före start:</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Post-quit on-device shell commands:</source>
-            <translation>Kommandon för skal för efteravstängning på enhet:</translation>
+            <translation>Shellkommandon på enheten efter avslut:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androidsdkdownloader.cpp" line="+126" />
             <source>Encountered SSL errors, download is aborted.</source>
-            <translation>Påträffade SSL-fel. Hämtning avbruten.</translation>
+            <translation>SSL-fel påträffades. Hämtningen avbryts.</translation>
         </message>
         <message>
             <location line="-20" />
             <source>The SDK Tools download URL is empty.</source>
-            <translation>SDK Tools Hämta URL är tom.</translation>
+            <translation>Hämtnings-URL:en för SDK Tools är tom.</translation>
         </message>
         <message>
             <location line="-10" />
