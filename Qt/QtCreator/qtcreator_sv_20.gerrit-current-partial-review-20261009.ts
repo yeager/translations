@@ -6624,19 +6624,19 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Sets how to interpolate the text to render it more clearly when scaled.</source>
-        <translation>Ställer in hur interpolering av texten för att rendera den mer rent när skalad.</translation>
+        <translation>Anger hur texten interpoleras för att återges tydligare när den skalas.</translation>
     </message>
     <message>
         <source>Resolves the gap between texts if turned true.</source>
-        <translation>Åtgärdar mellanrummet mellan texter om värdet är true.</translation>
+        <translation>Tar bort mellanrummet mellan texter om värdet är true.</translation>
     </message>
     <message>
         <source>Toggles the font-specific special features.</source>
-        <translation>Växlar typsnittsspecifika specialfunktioner.</translation>
+        <translation>Aktiverar eller inaktiverar typsnittsspecifika specialfunktioner.</translation>
     </message>
     <message>
         <source>Auto kerning</source>
-        <translation>Auto-kerning</translation>
+        <translation>Automatisk kerning</translation>
     </message>
     <message>
         <source>Prefer shaping</source>
@@ -11520,7 +11520,7 @@ en markeringskomponent.</translation>
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the object</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>H</source>
@@ -74887,15 +74887,15 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Render type</source>
-        <translation>Renderingstyp</translation>
+        <translation>Återgivningstyp</translation>
     </message>
     <message>
         <source>Sets the rendering type for this component.</source>
-        <translation>Anger renderingstypen för den här komponenten.</translation>
+        <translation>Anger återgivningstypen för den här komponenten.</translation>
     </message>
     <message>
         <source>Sets the quality of the render. This only has an effect when &lt;b&gt;Render type&lt;/b&gt; is set to QtRendering.</source>
-        <translation>Anger renderingens kvalitet. Detta har bara effekt när &lt;b&gt;Renderingstyp&lt;/b&gt; är inställd på QtRendering.</translation>
+        <translation>Anger återgivningens kvalitet. Detta har bara effekt när &lt;b&gt;Återgivningstyp&lt;/b&gt; är inställd på QtRendering.</translation>
     </message>
     <message>
         <source>Sets how to calculate the line height based on the &lt;b&gt;Line height&lt;/b&gt; value.</source>
@@ -74931,11 +74931,11 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Minimum font pixel size of scaled text.</source>
-        <translation>Minsta teckenbildpunktsstorlek för skalad text.</translation>
+        <translation>Minsta teckenstorlek i bildpunkter för skalad text.</translation>
     </message>
     <message>
         <source>Minimum font point size of scaled text.</source>
-        <translation>Minsta teckenpunktsstorlek för skalad text.</translation>
+        <translation>Minsta teckenstorlek i punkter för skalad text.</translation>
     </message>
     <message>
         <source>Max line count</source>
