@@ -83420,14 +83420,14 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Recently Downloaded</source>
-            <translation>Tidigare hämtade</translation>
+            <translation>Nyligen hämtade</translation>
         </message>
     </context>
     <context>
         <name>TimelineBarItem</name>
         <message>
             <source>Range from %1 to %2</source>
-            <translation>Intervall från %1 till %2</translation>
+            <translation>Tidsintervall från %1 till %2</translation>
         </message>
         <message>
             <source>Override Color</source>
@@ -83446,11 +83446,11 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Edit Easing Curve...</source>
-            <translation>Redigera bezierkurva…</translation>
+            <translation>Redigera lättningskurva …</translation>
         </message>
         <message>
             <source>Edit Keyframe...</source>
-            <translation>Redigera nyckelbild…</translation>
+            <translation>Redigera nyckelbild …</translation>
         </message>
     </context>
     <context>
@@ -83465,7 +83465,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Sets the interval between triggers, in milliseconds.</source>
-            <translation>Ställer in intervallet mellan utlösare, i millisekunder.</translation>
+            <translation>Anger intervallet mellan utlösningar, i millisekunder.</translation>
         </message>
         <message>
             <source>Repeat</source>
@@ -83473,15 +83473,15 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Sets whether the timer is triggered repeatedly at the specified interval or just once.</source>
-            <translation>Ställer in huruvida timern utlöses igen och igen vid angivet intervall eller bara en gång.</translation>
+            <translation>Anger om timern utlöses upprepade gånger med det angivna intervallet eller bara en gång.</translation>
         </message>
         <message>
             <source>Running</source>
-            <translation>Kör</translation>
+            <translation>Körs</translation>
         </message>
         <message>
             <source>Sets whether the timer is running or not.</source>
-            <translation>Ställer in huruvida timern kör eller inte.</translation>
+            <translation>Anger om timern körs eller inte.</translation>
         </message>
         <message>
             <source>Triggered on start</source>
@@ -83489,7 +83489,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Sets the timer to trigger when started.</source>
-            <translation>Ställer in timern att utlösa när startad.</translation>
+            <translation>Ställer in att timern ska utlösas när den startas.</translation>
         </message>
     </context>
     <context>
@@ -83542,7 +83542,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Introduction to the most important workspaces.</source>
-            <translation>Introduktion till de mest viktiga arbetsytorna.</translation>
+            <translation>Introduktion till de viktigaste arbetsytorna.</translation>
         </message>
         <message>
             <source>Top Toolbar</source>
@@ -83578,11 +83578,11 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Adding Assets</source>
-            <translation>Lägga till tillgångar</translation>
+            <translation>Lägga till resurser</translation>
         </message>
         <message>
             <source>A way to add new assets to the project.</source>
-            <translation>Ett sätt att lägga till nya tillgångar till projektet.</translation>
+            <translation>Ett sätt att lägga till nya resurser i projektet.</translation>
         </message>
         <message>
             <source>Creating 2D Animation</source>
@@ -83606,7 +83606,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Work with Ellipse and Pie Studio Components.</source>
-            <translation>Arbeta med studiokomponenter som ellipser and pajdiagram.</translation>
+            <translation>Arbeta med Studio-komponenterna Ellipse och Pie.</translation>
         </message>
         <message>
             <source>Complex Shapes</source>
@@ -83634,32 +83634,32 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         <message>
             <location line="+8" />
             <source>Invalid mount format: missing "type" field in mount object.</source>
-            <translation>Ogiltigt monteringsformat: saknas "typ" fält i monteringsobjekt.</translation>
+            <translation>Ogiltigt monteringsformat: fältet ”type” saknas i monteringsobjektet.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Invalid mount format: missing "target" field in mount object.</source>
-            <translation>Ogiltigt monteringsformat: Saknar fältet "mål" i monteringsobjektet.</translation>
+            <translation>Ogiltigt monteringsformat: fältet ”target” saknas i monteringsobjektet.</translation>
         </message>
         <message>
             <location line="+127" />
             <source>Cannot parse development container JSON file: %1</source>
-            <translation>Kan inte tolka utvecklingsbehållare JSON- fil: %1</translation>
+            <translation>Det går inte att tolka JSON-filen för utvecklingsbehållaren: %1</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Invalid development container JSON file: expected an object.</source>
-            <translation>Ogiltig utvecklingsbehållare JSON fil: förväntade ett objekt.</translation>
+            <translation>Ogiltig JSON-fil för utvecklingsbehållare: ett objekt förväntades.</translation>
         </message>
         <message>
             <location line="+575" />
             <source>Feature dependency key cannot be empty.</source>
-            <translation>Nyckeln till beroende kan inte vara tom.</translation>
+            <translation>Nyckeln för funktionsberoendet får inte vara tom.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Feature dependency key must contain an ID.</source>
-            <translation>Nyckeln till beroende måste innehålla ett ID.</translation>
+            <translation>Nyckeln för funktionsberoendet måste innehålla ett ID.</translation>
         </message>
     </context>
     <context>
@@ -83699,7 +83699,7 @@ toppen eller botten.</translation>
         <name>UnimportBundleItemDialog</name>
         <message>
             <source>Bundle %1 might be in use</source>
-            <translation>Bundlen %1 kanske används</translation>
+            <translation>Paketet %1 kanske används</translation>
         </message>
         <message>
             <source>If the %1 you are removing is in use, it might cause the project to malfunction.
