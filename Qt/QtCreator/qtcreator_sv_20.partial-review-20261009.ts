@@ -56533,7 +56533,7 @@ Display name of the build build step list. Used as part of the labels in the pro
         <message>
             <location line="+1" />
             <source>Ask the %1 LLM to help with this issue.</source>
-            <translation>Be %1 LLM att hjälpa till med detta problem.</translation>
+            <translation>Be språkmodellen %1 om hjälp med det här problemet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/buildmanager.cpp" line="-3" />
@@ -56573,22 +56573,22 @@ Display name of the deploy build step list. Used as part of the labels in the pr
         <message>
             <location filename="../../../src/plugins/projectexplorer/devicesupport/idevice.cpp" line="+1063" />
             <source>Invalid</source>
-            <translation>Ogiltig</translation>
+            <translation>Ogiltigt</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/runcontrol.cpp" line="-2" />
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;center&gt;&lt;i&gt;%1&lt;/i&gt; is still running.&lt;center/&gt;&lt;center&gt;Force it to quit?&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;center&gt;&lt;i&gt;%1&lt;/i&gt; är fortfarande igång.&lt;center/&gt;&lt;center&gt;Tvinga den att avsluta?&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;center&gt;&lt;i&gt;%1&lt;/i&gt; kör fortfarande.&lt;center/&gt;&lt;center&gt;Tvinga det att avslutas?&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/taskhandlers.cpp" line="-101" />
             <source>Show in Editor</source>
-            <translation>Visa i redigerare</translation>
+            <translation>Visa i redigeraren</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Show task location in an editor.</source>
-            <translation>Visa aktivitetsplacering i en editor.</translation>
+            <translation>Visa uppgiftens plats i en redigerare.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/compileoutputwindow.cpp" line="-238" />
@@ -56598,27 +56598,27 @@ Display name of the deploy build step list. Used as part of the labels in the pr
         <message>
             <location filename="../../../src/plugins/projectexplorer/taskhandlers.cpp" line="+33" />
             <source>&amp;Annotate</source>
-            <translation>A&amp;nteckna</translation>
+            <translation>&amp;Annotera</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Annotate using version control system.</source>
-            <translation>Anteckna med versionskontrollsystem.</translation>
+            <translation>Annotera med versionshanteringssystemet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/taskfile.cpp" line="+154" />
             <source>Ignoring invalid task (no text).</source>
-            <translation>Ignorera ogiltig aktivitet (ingen text).</translation>
+            <translation>Ignorerar ogiltig uppgift (ingen text).</translation>
         </message>
         <message>
             <location line="+76" />
             <source>Stop Monitoring</source>
-            <translation>Stoppa monitorering</translation>
+            <translation>Stoppa övervakning</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Stop monitoring task files.</source>
-            <translation>Sluta övervaka aktivitetsfiler.</translation>
+            <translation>Sluta övervaka uppgiftsfiler.</translation>
         </message>
         <message>
             <location line="-28" />
@@ -56628,7 +56628,7 @@ Display name of the deploy build step list. Used as part of the labels in the pr
         <message>
             <location line="-92" />
             <source>Cannot open task file %1: %2</source>
-            <translation>Kan inte öppna aktivitetsfilen %1: %2</translation>
+            <translation>Kan inte öppna uppgiftsfilen %1: %2</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projectexplorer.cpp" line="+1763" />
@@ -56659,7 +56659,7 @@ Display name of the deploy build step list. Used as part of the labels in the pr
         <message>
             <location line="+1330" />
             <source>Override for code model</source>
-            <translation>Åsidosätt för kodmodell</translation>
+            <translation>Åsidosätt för kodmodellen</translation>
         </message>
         <message>
             <location line="+1" />
@@ -56671,17 +56671,17 @@ misslyckas eftersom Clang inte förstår målarkitekturen.</translation>
         <message>
             <location line="+39" />
             <source>Platform codegen flags:</source>
-            <translation>Plattformens codegen-flaggor:</translation>
+            <translation>Plattformens kodgenereringsflaggor:</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Platform linker flags:</source>
-            <translation>Plattformens linker-flaggor:</translation>
+            <translation>Plattformens länkflaggor:</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Target triple:</source>
-            <translation>Mål tredubbla:</translation>
+            <translation>Måltrippel:</translation>
         </message>
         <message>
             <location line="+25" />
@@ -56704,7 +56704,7 @@ misslyckas eftersom Clang inte förstår målarkitekturen.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/msvctoolchain.cpp" line="-1073" />
             <source>Falling back to use the cached environment for "%1" after:</source>
-            <translation>Faller tillbaka på att använda cachad miljö för "%1" efter:</translation>
+            <translation>Använder cachad miljö för "%1" som reserv efter:</translation>
         </message>
         <message>
             <location line="+538" />
@@ -56727,7 +56727,7 @@ misslyckas eftersom Clang inte förstår målarkitekturen.</translation>
         <message>
             <location line="-132" />
             <source>Additional arguments for the vcvarsall.bat call</source>
-            <translation>Ytterligare argument för att anropa vcvarsall.bat</translation>
+            <translation>Ytterligare argument för anropet till vcvarsall.bat</translation>
         </message>
         <message>
             <location line="+743" />
@@ -56781,7 +56781,7 @@ misslyckas eftersom Clang inte förstår målarkitekturen.</translation>
         <message>
             <location line="+54" />
             <source>Toolchain Auto-detection Settings</source>
-            <translation>Upptäck automatiskt inställningar för verktygskedja</translation>
+            <translation>Inställningar för automatisk identifiering av verktygskedjor</translation>
         </message>
         <message>
             <location line="+2" />
