@@ -9810,7 +9810,7 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Sets the location of the mesh file containing the geometry of this model.</source>
-        <translation>Ställer in platsen för meshfilen som innehåller geometrin för den här modellen.</translation>
+        <translation>Anger sökvägen till meshfilen som innehåller geometrin för den här modellen.</translation>
     </message>
     <message>
         <source>Geometry</source>
@@ -9834,7 +9834,7 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Enables the geometry of this model to be rendered to the shadow maps.</source>
-        <translation>Aktiverar att geometrin för den här modellen återges till skuggkartorna.</translation>
+        <translation>Aktiverar att geometrin för den här modellen återges i skuggkartorna.</translation>
     </message>
     <message>
         <source>Receives Shadows</source>
@@ -9890,7 +9890,7 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Sets the size a model needs to be when rendered before the automatic level of detail meshes are used</source>
-        <translation>Ställer in storleken en modell behöver ha vid återgivning innan automatiska detaljnivåmesher används</translation>
+        <translation>Anger hur stor modellen måste vara vid återgivning innan automatiska detaljnivåmesher används.</translation>
     </message>
     <message>
         <source>Instancing</source>
@@ -9958,7 +9958,7 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Sets the baked lightmap data for the model.</source>
-        <translation>Ställer in beräknade ljuskartsdata för modellen.</translation>
+        <translation>Anger den beräknade ljuskartsdatan för modellen.</translation>
     </message>
 </context>
 <context>
