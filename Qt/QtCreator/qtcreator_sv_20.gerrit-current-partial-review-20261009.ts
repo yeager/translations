@@ -43812,7 +43812,7 @@ Utgångsdatum: %3</translation>
     </message>
     <message>
         <source>Unexpectedly finished. Restarting in %1 seconds.</source>
-        <translation>Avslutades oväntat. Startar om om %1 sekunder.</translation>
+        <translation>Avslutades oväntat. Startar om efter %1 sekunder.</translation>
     </message>
     <message>
         <source>Unexpectedly finished.</source>
@@ -70209,7 +70209,7 @@ Kontrollera inställningarna eller säkerställ att Valgrind är installerat och
     </message>
     <message>
         <source>Submit message &amp;check script:</source>
-        <translation>Skript för kontroll av inskickningsmeddelande:</translation>
+        <translation>Skript för &amp;kontroll av inskickningsmeddelande:</translation>
     </message>
     <message>
         <source>Wrap submit message at</source>
