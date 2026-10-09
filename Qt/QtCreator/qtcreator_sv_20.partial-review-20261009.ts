@@ -33336,28 +33336,28 @@ Att välja GDB eller LLDB som felsökare skulle förbättra felsökningen för d
         <message>
             <location line="-382" />
             <source>Invalid debugger option: %1</source>
-            <translation>Ogiltig felsökning: %1</translation>
+            <translation>Ogiltigt felsökaralternativ: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="-2031" />
             <source>Not enough free ports for QML debugging.</source>
-            <translation>Inte tillräckligt med gratisportar för QML-avlusning.</translation>
+            <translation>Det finns inte tillräckligt många lediga portar för QML-felsökning.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerruncontrol.cpp" line="+58" />
             <source>Unable to create a debugging engine.</source>
-            <translation>Kunde inte skapa en felsökningsmotor.</translation>
+            <translation>Det gick inte att skapa en felsökningsmotor.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="-85" />
             <location filename="../../../src/plugins/debugger/debuggerruncontrol.cpp" line="+5" />
             <source>The kit does not have a debugger set.</source>
-            <translation>Paketet har ingen avlusare.</translation>
+            <translation>Kitet har ingen felsökare angiven.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerruncontrol.cpp" line="+81" />
             <source>Unpacking core file to %1</source>
-            <translation>Packa upp kärnfilen till %1</translation>
+            <translation>Packar upp kärnfilen till %1</translation>
         </message>
         <message>
             <location line="+114" />
@@ -33368,23 +33368,23 @@ Att välja GDB eller LLDB som felsökare skulle förbättra felsökningen för d
             <location line="+23" />
             <source>%1 is a 64 bit executable which can not be debugged by a 32 bit Debugger.
 Please select a 64 bit Debugger in the kit settings for this kit.</source>
-            <translation>%1 är en 64 bitars körbar enhet som inte kan felsökas av en 32 bitars
-felsökning. Välj en 64 bitars felsökning i kitinställningarna för detta kit.</translation>
+            <translation>%1 är en 64-bitars körbar fil som inte kan felsökas med en 32-bitars felsökare.
+Välj en 64-bitars felsökare i kitinställningarna för det här kitet.</translation>
         </message>
         <message>
             <location line="+16" />
             <source>Debugged executable</source>
-            <translation>Felsökt körbar</translation>
+            <translation>Felsökt körbar fil</translation>
         </message>
         <message>
             <location line="+117" />
             <source>Debug server executable not found on device "%1".</source>
-            <translation>Felsökningsserver körbar hittades inte på enheten "%1".</translation>
+            <translation>Felsökarserverns körbara fil hittades inte på enheten ”%1”.</translation>
         </message>
         <message>
             <location line="+127" />
             <source>Unsupported CDB host system.</source>
-            <translation>CDB- värdsystem som inte stöds.</translation>
+            <translation>CDB-värdsystemet stöds inte.</translation>
         </message>
         <message>
             <location line="+18" />
@@ -33399,12 +33399,12 @@ felsökning. Välj en 64 bitars felsökning i kitinställningarna för detta kit
         <message>
             <location line="-54" />
             <source>Some breakpoints cannot be handled by the debugger languages currently active, and will be ignored.&lt;p&gt;Affected are breakpoints %1</source>
-            <translation>Vissa brytpunkter kan inte hanteras av felsökarspråken aktiva för närvarande och kommer att ignoreras.&lt;p&gt;Påverkade brytpunkter är %1</translation>
+            <translation>Vissa brytpunkter kan inte hanteras av de aktiva felsökarspråken och ignoreras.&lt;p&gt;Påverkade brytpunkter: %1</translation>
         </message>
         <message>
             <location line="+7" />
             <source>QML debugging needs to be enabled both in the Build and the Run settings.</source>
-            <translation>QML-felsökning behöver aktiveras både i Bygg och Kör-inställningarna.</translation>
+            <translation>QML-felsökning måste aktiveras i både bygg- och körinställningarna.</translation>
         </message>
         <message>
             <location line="-161" />
@@ -33414,16 +33414,16 @@ felsökning. Välj en 64 bitars felsökning i kitinställningarna för detta kit
         <message>
             <location line="+191" />
             <source>Debugging of %1 has finished with exit code %2.</source>
-            <translation>Felsökning av %1 är färdig med avslutskod %2.</translation>
+            <translation>Felsökningen av %1 avslutades med avslutskoden %2.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Debugging of %1 has finished.</source>
-            <translation>Felsökningen av %1 är färdig.</translation>
+            <translation>Felsökningen av %1 är klar.</translation>
         </message>
         <message>
             <source>A debugging session is still in progress. Terminating the session in the current state can leave the target in an inconsistent state. Would you still like to terminate it?</source>
-            <translation>En felsökningssession pågår fortfarande. Avslutning av sessionen i aktuellt tillstånd kan lämna målet i ett inkonsekvent tillstånd. Vill du fortfarande avsluta den?</translation>
+            <translation>En felsökningssession pågår fortfarande. Om den avslutas i det aktuella läget kan målet hamna i ett inkonsekvent tillstånd. Vill du ändå avsluta den?</translation>
         </message>
         <message>
             <source>Close Debugging Session</source>
@@ -33442,7 +33442,7 @@ felsökning. Välj en 64 bitars felsökning i kitinställningarna för detta kit
         <message>
             <location line="+113" />
             <source>Press %1 to execute a line.</source>
-            <translation>Tryck på %1 för att köra en linje.</translation>
+            <translation>Tryck på %1 för att köra en rad.</translation>
         </message>
         <message>
             <location line="+67" />
@@ -33463,7 +33463,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+194" />
             <source>Global Debugger &amp;Log</source>
-            <translation>Global avlusare &amp;Log</translation>
+            <translation>Global felsökar&amp;logg</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="-766" />
@@ -33508,12 +33508,12 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location filename="../../../src/plugins/debugger/debuggerdialogs.cpp" line="-118" />
             <source>Start a CDB Remote Session</source>
-            <translation>Starta en CDB- fjärrsession</translation>
+            <translation>Starta en CDB-fjärrsession</translation>
         </message>
         <message>
             <location line="+8" />
             <source>&amp;Connection:</source>
-            <translation>A&amp;nslutning:</translation>
+            <translation>&amp;Anslutning:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="+656" />
@@ -33529,7 +33529,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+2" />
             <source>Running to function "%1".</source>
-            <translation>Kör till funktion "%1".</translation>
+            <translation>Kör till funktionen ”%1”.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="+574" />
@@ -33543,7 +33543,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="-759" />
             <source>Attaching to local process %1.</source>
-            <translation>Fäster till lokal process %1.</translation>
+            <translation>Ansluter till den lokala processen %1.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -33553,7 +33553,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+1" />
             <source>Attaching to remote server %1.</source>
-            <translation>Fäster till fjärrservern %1.</translation>
+            <translation>Ansluter till fjärrservern %1.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -33564,7 +33564,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+1" />
             <source>Attaching to core file %1.</source>
-            <translation>Bifoga till kärnfilen %1.</translation>
+            <translation>Ansluter till kärnfilen %1.</translation>
         </message>
         <message>
             <location line="+30" />
@@ -33574,13 +33574,13 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+1" />
             <source>Attaching to crashed process %1</source>
-            <translation>Ansluta till kraschad process %1</translation>
+            <translation>Ansluter till den kraschade processen %1</translation>
         </message>
         <message>
             <location line="-849" />
             <source>0x%1 hit</source>
             <extracomment>Message tracepoint: Address hit.</extracomment>
-            <translation>0x%1 träff</translation>
+            <translation>0x%1 träffad</translation>
         </message>
         <message>
             <location line="-182" />
@@ -33595,7 +33595,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+4" />
             <source>Copy Selected Items to New Editor</source>
-            <translation>Kopiera markerade objekt till ny editor</translation>
+            <translation>Kopiera markerade objekt till en ny redigerare</translation>
         </message>
         <message>
             <location line="+127" />
