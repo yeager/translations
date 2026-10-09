@@ -5391,7 +5391,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     <name>EmitBurst3DSection</name>
     <message>
         <source>Particle Emit Burst</source>
-        <translation>Partikelutsläppsstöt</translation>
+        <translation>Partikelutsläppspuls</translation>
     </message>
     <message>
         <source>Time</source>
@@ -5399,7 +5399,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Sets the time in milliseconds when emitting the burst starts.</source>
-        <translation>Ställer in tiden i millisekunder då utsläppsstöten startar.</translation>
+        <translation>Ställer in tiden i millisekunder då utsläppspulsen startar.</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -5407,15 +5407,15 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Sets the amount of particles emitted during the burst.</source>
-        <translation>Ställer in mängden partiklar som sänds ut under stöten.</translation>
+        <translation>Ställer in mängden partiklar som sänds ut under pulsen.</translation>
     </message>
     <message>
         <source>Duration</source>
-        <translation>Speltid</translation>
+        <translation>Varaktighet</translation>
     </message>
     <message>
         <source>Sets the duration of the burst.</source>
-        <translation>Ställer in stötens längd.</translation>
+        <translation>Ställer in pulsens varaktighet.</translation>
     </message>
 </context>
 <context>
