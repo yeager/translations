@@ -69839,22 +69839,22 @@ Beskrivning:	%4</translation>
         <message>
             <location line="+1" />
             <source>Adjust Height</source>
-            <translation>Justera höjd</translation>
+            <translation>Anpassa höjd</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Adjust Height (Ctrl+L,8)</source>
-            <translation>Justera höjd (Ctrl+L,8)</translation>
+            <translation>Anpassa höjd (Ctrl+L,8)</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Adjust Size</source>
-            <translation>Justera storlek</translation>
+            <translation>Anpassa storlek</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Adjust Size (Ctrl+L,9)</source>
-            <translation>Justera storlek (Ctrl+L,9)</translation>
+            <translation>Anpassa storlek (Ctrl+L,9)</translation>
         </message>
         <message>
             <location line="+2" />
@@ -69880,17 +69880,17 @@ Beskrivning:	%4</translation>
         <message>
             <location filename="../../../src/plugins/scxmleditor/plugin_interface/graphicsscene.cpp" line="-536" />
             <source>Align states</source>
-            <translation>Justera tillstånd</translation>
+            <translation>Justera tillstånden</translation>
         </message>
         <message>
             <location line="+53" />
             <source>Adjust states</source>
-            <translation>Anpassa tillstånd</translation>
+            <translation>Anpassa tillstånden</translation>
         </message>
         <message>
             <location line="+197" />
             <source>Re-layout</source>
-            <translation>Omläggning</translation>
+            <translation>Ordna om layout</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/scxmleditor/plugin_interface/idwarningitem.cpp" line="+15" />
@@ -69902,18 +69902,18 @@ Beskrivning:	%4</translation>
         <message>
             <location line="+1" />
             <source>Each state must have a unique ID.</source>
-            <translation>Varje stat måste ha ett unikt ID.</translation>
+            <translation>Varje tillstånd måste ha ett unikt ID.</translation>
         </message>
         <message>
             <location line="+1" />
             <location line="+20" />
             <source>Missing ID.</source>
-            <translation>Saknar id.</translation>
+            <translation>ID saknas.</translation>
         </message>
         <message>
             <location line="+24" />
             <source>Duplicate ID (%1).</source>
-            <translation>Duplicerad ID (%1).</translation>
+            <translation>Dubblett-id (%1).</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/scxmleditor/plugin_interface/initialwarningitem.cpp" line="+16" />
@@ -69924,7 +69924,7 @@ Beskrivning:	%4</translation>
         <message>
             <location line="+1" />
             <source>One level can contain only one initial state.</source>
-            <translation>nivå kan endast innehålla ett initialtillstånd.</translation>
+            <translation>En nivå kan bara innehålla ett initialtillstånd.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -69959,7 +69959,7 @@ Beskrivning:	%4</translation>
         <message>
             <location line="+3" />
             <source>Final</source>
-            <translation>Slutlig</translation>
+            <translation>Sluttillstånd</translation>
         </message>
         <message>
             <location line="+4" />
@@ -69999,12 +69999,12 @@ Description: %3
 
 Row: %4, Column: %5
 %6</source>
-            <translation>Fel vid läsning
-av XML. Typ:
-%1 (%2)
+            <translation>Fel vid läsning av XML.
+Typ: %1 (%2)
 Beskrivning: %3
-Rad: %4, kolumn:
-%5 %6</translation>
+
+Rad: %4, kolumn: %5
+%6</translation>
         </message>
         <message>
             <location line="+16" />
@@ -70014,7 +70014,7 @@ Rad: %4, kolumn:
         <message>
             <location line="+6" />
             <source>Pasted data is empty.</source>
-            <translation>Inklistrat data är tomt.</translation>
+            <translation>Inklistrade data är tomma.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -70049,7 +70049,7 @@ Rad: %4, kolumn:
         <message>
             <location line="+3" />
             <source>Item</source>
-            <translation>Post</translation>
+            <translation>Objekt</translation>
         </message>
         <message>
             <location line="+10" />
@@ -70059,12 +70059,12 @@ Rad: %4, kolumn:
         <message>
             <location filename="../../../src/plugins/scxmleditor/plugin_interface/scxmluifactory.cpp" line="+94" />
             <source>Created editor-instance.</source>
-            <translation>Skapad editor-intance.</translation>
+            <translation>Redigerarinstans skapad.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Editor-instance is not of the type ISCEditor.</source>
-            <translation>Redaktören är inte av typen ISCEditor.</translation>
+            <translation>Redigerarinstansen är inte av typen ISCEditor.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/scxmleditor/plugin_interface/stateitem.cpp" line="+300" />
@@ -70080,7 +70080,7 @@ Rad: %4, kolumn:
             <location line="+4" />
             <location line="+44" />
             <source>Re-Layout</source>
-            <translation>Åter-Layout</translation>
+            <translation>Ordna om layout</translation>
         </message>
         <message>
             <location line="-21" />
@@ -70091,7 +70091,7 @@ Rad: %4, kolumn:
             <location filename="../../../src/plugins/scxmleditor/plugin_interface/statewarningitem.cpp" line="+1" />
             <location line="+30" />
             <source>Draw some transitions to state.</source>
-            <translation>Rita några övergångar till tillstånd.</translation>
+            <translation>Rita några övergångar till tillståndet.</translation>
         </message>
         <message>
             <location line="-27" />
