@@ -56702,7 +56702,7 @@ Fel:
     </message>
     <message>
         <source>Also warns in the code editor about QML features that are not properly supported by the Qt Quick Designer.</source>
-        <translation>Varna även i kodredigeraren för QML-funktioner som inte stöds korrekt av Qt Quick Designer.</translation>
+        <translation>Varnar även i kodredigeraren för QML-funktioner som inte stöds korrekt av Qt Quick Designer.</translation>
     </message>
     <message>
         <source>Enable the debugging view</source>
@@ -56710,7 +56710,7 @@ Fel:
     </message>
     <message>
         <source>Always save when leaving subcomponent in bread crumb</source>
-        <translation>Spara alltid när en underkomponent lämnas i navigeringsspåret</translation>
+        <translation>Spara alltid när du lämnar en underkomponent i navigeringsspåret</translation>
     </message>
     <message>
         <source>Default style</source>
@@ -56774,7 +56774,7 @@ Fel:
     </message>
     <message>
         <source>Ask for confirmation before deleting content library files</source>
-        <translation>Fråga efter bekräftelse innan innehållsbiblioteksfiler tas bort</translation>
+        <translation>Fråga efter bekräftelse innan innehållsbibliotekets filer tas bort</translation>
     </message>
     <message>
         <source>Smooth rendering:</source>
