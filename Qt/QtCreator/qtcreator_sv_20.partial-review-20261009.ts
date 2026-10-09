@@ -55444,7 +55444,7 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="+3" />
             <source>Boost Test (header only)</source>
-            <translation>Boost Test (endast header)</translation>
+            <translation>Boost Test (endast huvudfil)</translation>
         </message>
         <message>
             <location line="+1" />
@@ -55459,17 +55459,17 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="+25" />
             <source>Boost include directory (optional):</source>
-            <translation>Öka inkludera katalog (valfritt):</translation>
+            <translation>Include-katalog för Boost (valfritt):</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Boost install directory (optional):</source>
-            <translation>Öka installationskatalogen (valfritt):</translation>
+            <translation>Installationskatalog för Boost (valfritt):</translation>
         </message>
         <message>
             <location line="-96" />
             <source>Catch2 include directory (optional):</source>
-            <translation>Fångst2 inkluderar katalog (frivilligt):</translation>
+            <translation>Include-katalog för Catch2 (valfritt):</translation>
         </message>
         <message>
             <location line="+3" />
@@ -55524,7 +55524,7 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="+160" />
             <source>Creates a new unit test project using Boost. Unit tests allow you to verify that the code is fit for use and that there are no regressions.</source>
-            <translation>Skapar ett nytt enhetstestprojekt med Boost. Enhetstester låter dig verifiera att koden passar för användning och att det inte finns några regressioner.</translation>
+            <translation>Skapar ett nytt enhetstestprojekt med Boost. Enhetstester låter dig kontrollera att koden är användbar och att det inte finns några regressioner.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -55554,12 +55554,12 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="+1" />
             <source>Use own main</source>
-            <translation>Använd egen main</translation>
+            <translation>Använd egen main-funktion</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Creates a new unit test project using Catch2. Unit tests allow you to verify that the code is fit for use and that there are no regressions.</source>
-            <translation>Skapar ett nytt enhetstestprojekt med Catch2. Enhetstester låter dig verifiera att koden passar för användning och att det inte finns några regressioner.</translation>
+            <translation>Skapar ett nytt enhetstestprojekt med Catch2. Enhetstester låter dig kontrollera att koden är användbar och att det inte finns några regressioner.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -55599,7 +55599,7 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="+4" />
             <source>Define Item Model Class</source>
-            <translation>Definiera postmodellklass</translation>
+            <translation>Ange klass för postmodell</translation>
         </message>
         <message>
             <location line="+4" />
@@ -55659,7 +55659,7 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="+8" />
             <source>Creates a C++ header and a source file for a new class that you can add to a C++ project.</source>
-            <translation>Skapar en C++-header och en källkodsfil för en ny klass som du kan lägga till ett C++-projekt.</translation>
+            <translation>Skapar en C++-huvudfil och en källfil för en ny klass som du kan lägga till i ett C++-projekt.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projectexplorer.cpp" line="+3" />
@@ -55682,7 +55682,7 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="-273" />
             <source>Creates a CMake-based test project for which a code snippet can be entered.</source>
-            <translation>Skapar ett CMake-baserat testprojekt för vilket en kodsnutt kan anges.</translation>
+            <translation>Skapar ett CMake-baserat testprojekt där en kodsnutt kan anges.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -55702,7 +55702,7 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="+1" />
             <source>Application bundle (macOS)</source>
-            <translation>Programbundle (macOS)</translation>
+            <translation>Programpaket (macOS)</translation>
         </message>
         <message>
             <location line="+1" />
