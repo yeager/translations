@@ -34895,7 +34895,7 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location line="+1" />
             <source>Base path for external debug information and debug sources. If empty, $SYSROOT/usr/lib/debug will be chosen.</source>
-            <translation>Bassökväg för extern felsökningsinformation och felsökningskällor. Om tom, väljes $SYSROOT/usr/lib/debug.</translation>
+            <translation>Bassökväg för extern felsökningsinformation och felsökningskällor. Om den är tom väljs $SYSROOT/usr/lib/debug.</translation>
         </message>
         <message>
             <location line="+13" />
@@ -34905,7 +34905,7 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location line="+2" />
             <source>Local &amp;executable:</source>
-            <translation>Lokal &amp;executable:</translation>
+            <translation>Lokal körbar &amp;fil:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -34930,7 +34930,7 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location line="+1" />
             <source>Use target extended-remote to connect:</source>
-            <translation>Använd mål med förlängd avstånd för att ansluta:</translation>
+            <translation>Använd target extended-remote för att ansluta:</translation>
         </message>
         <message>
             <location line="+4" />
@@ -34945,12 +34945,12 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location line="+112" />
             <source>Cannot Debug</source>
-            <translation>Kan inte felsökning</translation>
+            <translation>Kan inte felsöka</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Cannot debug application: Kit has no device.</source>
-            <translation>Kan inte felsöka program: Kit har ingen enhet.</translation>
+            <translation>Kan inte felsöka programmet: Kitet har ingen enhet.</translation>
         </message>
         <message>
             <source>Cannot debug</source>
@@ -34960,12 +34960,12 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
             <location line="+35" />
             <location filename="../../../src/plugins/debugger/remotedebuggerdebugsupport.cpp" line="+49" />
             <source>Attach to %1</source>
-            <translation>Fäst till %1</translation>
+            <translation>Anslut till %1</translation>
         </message>
         <message>
             <location line="+79" />
             <source>Attach to QML Port</source>
-            <translation>Anslut till QML- port</translation>
+            <translation>Anslut till QML-port</translation>
         </message>
         <message>
             <location line="+88" />
@@ -34975,7 +34975,7 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location filename="../../../src/plugins/debugger/debuggerkitaspect.cpp" line="+275" />
             <source>The debugger to use for this kit.</source>
-            <translation>Felsökaren att använda för detta kit.</translation>
+            <translation>Felsökaren som ska användas för det här kitet.</translation>
         </message>
         <message>
             <location line="-71" />
@@ -34991,12 +34991,12 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location line="+124" />
             <source>Debugger "%1" not found.</source>
-            <translation>Felsökaren "%1" hittades inte.</translation>
+            <translation>Felsökaren ”%1” hittades inte.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Debugger "%1" not executable.</source>
-            <translation>Felsökaren "%1" är inte körbar.</translation>
+            <translation>Felsökaren ”%1” är inte körbar.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -35006,7 +35006,7 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location line="+6" />
             <source>The ABI of the selected debugger does not match the toolchain ABI.</source>
-            <translation>ABIn för vald felsökare matchar inte verktygskedjans ABI.</translation>
+            <translation>ABI:t för den valda felsökaren stämmer inte överens med verktygskedjans ABI.</translation>
         </message>
         <message>
             <location line="+200" />
@@ -35026,7 +35026,7 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location line="+45" />
             <source>Debugger: "%1".</source>
-            <translation>Avlusare: %1.</translation>
+            <translation>Felsökare: ”%1”.</translation>
         </message>
         <message>
             <location line="-235" />
@@ -35036,12 +35036,12 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location line="+2" />
             <source>%1 Engine</source>
-            <translation>%1- motorName</translation>
+            <translation>%1-motor</translation>
         </message>
         <message>
             <location line="+1" />
             <source>%1 &lt;None&gt;</source>
-            <translation>%1 &lt;Ingen&gt;</translation>
+            <translation>%1 &lt;ingen&gt;</translation>
         </message>
         <message>
             <location line="+0" />
@@ -35080,29 +35080,29 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location line="+1" />
             <source>No executable to load symbols from specified core.</source>
-            <translation>Inget körbart för att ladda symboler från angiven kärna.</translation>
+            <translation>Ingen körbar fil att läsa in symboler från för den angivna kärnfilen.</translation>
         </message>
         <message>
             <location line="+90" />
             <source>Attaching to process %1.</source>
-            <translation>Fäster till process %1.</translation>
+            <translation>Ansluter till processen %1.</translation>
         </message>
         <message>
             <location line="+64" />
             <source>Attached to running application.</source>
-            <translation>Fäst till körande program.</translation>
+            <translation>Ansluten till körande program.</translation>
         </message>
         <message>
             <location line="+19" />
             <location line="+5" />
             <location line="+5" />
             <source>Failed to attach to application: %1</source>
-            <translation>Misslyckades bifoga till ansökan: %1</translation>
+            <translation>Det gick inte att ansluta till programmet: %1</translation>
         </message>
         <message>
             <location line="+109" />
             <source>Symbols found.</source>
-            <translation>Symboler hittade.</translation>
+            <translation>Symboler hittades.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -35112,12 +35112,12 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location line="+305" />
             <source>Attached to core.</source>
-            <translation>Bifogad till kärnan.</translation>
+            <translation>Ansluten till kärnfilen.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Attach to core "%1" failed:</source>
-            <translation>Anslut till kärnan "%1" misslyckades:</translation>
+            <translation>Det gick inte att ansluta till kärnfilen ”%1”:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/loadcoredialog.cpp" line="+32" />
@@ -35152,12 +35152,12 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location line="+1" />
             <source>Symbols Read</source>
-            <translation>Symboler lästa</translation>
+            <translation>Inlästa symboler</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Symbols Type</source>
-            <translation>Typ av symboler</translation>
+            <translation>Symboltyp</translation>
         </message>
         <message>
             <location line="+1" />
