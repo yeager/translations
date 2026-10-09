@@ -15347,7 +15347,7 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location filename="../../../src/plugins/baremetal/baremetaldevice.cpp" line="+136" />
             <source>Set up Debug Server or Hardware Debugger</source>
-            <translation>Ställ in felsökningsserver eller hårdvaruavlusare</translation>
+            <translation>Konfigurera felsökningsserver eller hårdvarufelsökare</translation>
         </message>
         <message>
             <location line="+9" />
@@ -15359,18 +15359,18 @@ Försök igen när den har avslutats.</translation>
             <location line="-69" />
             <location filename="../../../src/plugins/baremetal/debugserverproviderssettingspage.cpp" line="+434" />
             <source>Bare Metal</source>
-            <translation>Bare metal</translation>
+            <translation>Bare Metal</translation>
         </message>
         <message>
             <location line="+10" />
             <location line="+126" />
             <source>Bare Metal Device</source>
-            <translation>Bare metallenhet</translation>
+            <translation>Bare Metal-enhet</translation>
         </message>
         <message>
             <location line="-30" />
             <source>New Bare Metal Device Configuration Setup</source>
-            <translation>Ny inställning av en metallenhet med knappa metallenheter</translation>
+            <translation>Inställning av ny Bare Metal-enhetskonfiguration</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/baremetal/baremetalrunconfiguration.cpp" line="+31" />
@@ -15387,7 +15387,7 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location line="-44" />
             <source>The remote executable must be set in order to run a custom remote run configuration.</source>
-            <translation>Fjärrkörbar måste ställas in för att köra en egen fjärrkörinställning.</translation>
+            <translation>Den körbara fjärrfilen måste anges för att en anpassad fjärrkörningskonfiguration ska kunna köras.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/baremetal/baremetaldebugsupport.cpp" line="+48" />
@@ -15408,7 +15408,7 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location filename="../../../src/plugins/baremetal/baremetalrunconfiguration.cpp" line="+20" />
             <source>Deploy to BareMetal Device</source>
-            <translation>Utplacering till BareMetal- enhet</translation>
+            <translation>Distribuera till Bare Metal-enhet</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/baremetal/debugserverproviderchooser.cpp" line="+27" />
@@ -15447,8 +15447,8 @@ Försök igen när den har avslutats.</translation>
             <location line="+12" />
             <source>GDB compatible provider engine
 (used together with the GDB debuggers).</source>
-            <translation>GDB-kompatibel leverantörsmotor (används
-tillsammans med GDB-avlusarna).</translation>
+            <translation>GDB-kompatibel leverantörsmotor
+(används tillsammans med GDB-felsökarna).</translation>
         </message>
         <message>
             <location line="+3" />
@@ -15478,12 +15478,12 @@ tillsammans med GDB-avlusarna).</translation>
         <message>
             <location line="+61" />
             <source>Duplicate Providers Detected</source>
-            <translation>Detekterade duplicerade leverantörer</translation>
+            <translation>Dubbla leverantörer upptäcktes</translation>
         </message>
         <message>
             <location line="+1" />
             <source>The following providers were already configured:&lt;br&gt;&amp;nbsp;%1&lt;br&gt;They were not configured again.</source>
-            <translation>The following providers were already configured:&lt;br&gt;&amp;nbsp;%1&lt;br&gt;They were not configured again.</translation>
+            <translation>Följande leverantörer var redan konfigurerade:&lt;br&gt;&amp;nbsp;%1&lt;br&gt;De konfigurerades inte igen.</translation>
         </message>
         <message>
             <location line="+105" />
@@ -15543,13 +15543,13 @@ tillsammans med GDB-avlusarna).</translation>
         <message>
             <location line="+5" />
             <source>Specify the verbosity level (0 to 7).</source>
-            <translation>Ange verbositetsnivån (0 till 7).</translation>
+            <translation>Ange utförlighetsnivån (0 till 7).</translation>
         </message>
         <message>
             <location line="+1" />
             <location filename="../../../src/plugins/baremetal/debugservers/gdb/stlinkutilgdbserverprovider.cpp" line="+5" />
             <source>Verbosity level:</source>
-            <translation>Verbositetsnivå:</translation>
+            <translation>Utförlighetsnivå:</translation>
         </message>
         <message>
             <location line="+3" />
@@ -15587,7 +15587,7 @@ tillsammans med GDB-avlusarna).</translation>
         <message>
             <location line="+3" />
             <source>Do not use EBlink flash cache.</source>
-            <translation>Använd inte EBlink flash cache.</translation>
+            <translation>Använd inte EBlinks flash-cache.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -15620,7 +15620,7 @@ tillsammans med GDB-avlusarna).</translation>
             <location filename="../../../src/plugins/baremetal/debugservers/gdb/openocdgdbserverprovider.cpp" line="+3" />
             <location filename="../../../src/plugins/baremetal/debugservers/gdb/stlinkutilgdbserverprovider.cpp" line="+3" />
             <source>Reset commands:</source>
-            <translation>Återställ kommandon:</translation>
+            <translation>Återställningskommandon:</translation>
         </message>
         <message>
             <location line="+47" />
