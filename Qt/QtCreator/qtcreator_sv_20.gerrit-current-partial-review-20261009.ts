@@ -28927,7 +28927,7 @@ slå samman dem från flera platser (till exempel från byggsatsen och från pro
     </message>
     <message>
         <source>Use built-in preprocessor to show pre-processed files</source>
-        <translation>Använd inbyggd preprocessorn för att visa förprocessade filer</translation>
+        <translation>Använd den inbyggda preprocessorn för att visa förprocessade filer</translation>
     </message>
     <message>
         <source>Uncheck this to invoke the actual compiler to show a pre-processed source file in the editor.</source>
