@@ -2453,15 +2453,15 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Open Shader in Code Editor.</source>
-            <translation>Öppna shader i Kodredigerare.</translation>
+            <translation>Öppna shadern i kodredigeraren.</translation>
         </message>
         <message>
             <source>Add an effect node to start</source>
-            <translation>Lägg till en effektnod för att börja</translation>
+            <translation>Lägg till en effektnod för att komma igång</translation>
         </message>
         <message>
             <source>Effect Composer is disabled on MCU projects</source>
-            <translation>Effektkompositör är inaktivera för MCU-projekt</translation>
+            <translation>Effect Composer är inaktiverat i MCU-projekt</translation>
         </message>
     </context>
     <context>
@@ -2580,7 +2580,7 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Assign current composition to selected item</source>
-            <translation>Tilldela aktuell komposition till markerad post</translation>
+            <translation>Tilldela aktuell komposition till markerat objekt</translation>
         </message>
         <message>
             <source>Untitled</source>
@@ -2593,11 +2593,11 @@ Detta går inte att ångra.</translation>
 3. Change the order of the effects, if you like
 4. See the preview
 5. Save in the assets library, if you wish to reuse the effect later</source>
-            <translation>Hur man använder Effektkompositör:
-1. Klicka på "+ Lägg till effekt" för att lägga till effektnod
-2. Justera egenskaper för effektnoderna
-3. Ändra ordningen på effekterna, om du vill
-4. Titta på förhandsvisningen
+            <translation>Så här använder du Effect Composer:
+1. Klicka på ”+ Lägg till effekt” för att lägga till en effektnod
+2. Justera effektnodernas egenskaper
+3. Ändra effekternas ordning om du vill
+4. Visa förhandsgranskningen
 5. Spara i tillgångsbiblioteket om du vill återanvända effekten senare</translation>
         </message>
     </context>
@@ -2657,7 +2657,7 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Toggles the visibility of visual effects on the component.</source>
-            <translation>Växlar synligheten för visuella effekter på komponenten.</translation>
+            <translation>Anger om visuella effekter på komponenten visas.</translation>
         </message>
         <message>
             <source>Layer Blur</source>
@@ -2665,29 +2665,29 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Toggles the visibility of the &lt;b&gt;Layer Blur&lt;/b&gt; on the component.</source>
-            <translation>Växlar synligheten för &lt;b&gt;Lageroskärpa&lt;/b&gt; på komponenten.</translation>
+            <translation>Anger om &lt;b&gt;Lageroskärpa&lt;/b&gt; visas på komponenten.</translation>
         </message>
         <message>
             <source>Blur</source>
-            <translation>Oskarp</translation>
+            <translation>Oskärpa</translation>
         </message>
         <message>
             <source>Sets the intensity of the &lt;b&gt;Layer Blur&lt;/b&gt; on the component.</source>
-            <translation>Ställer in intensiteten för &lt;b&gt;Lageroskärpa&lt;/b&gt; på komponenten.</translation>
+            <translation>Anger intensiteten för &lt;b&gt;Lageroskärpa&lt;/b&gt; på komponenten.</translation>
         </message>
         <message>
             <source>Background Blur</source>
-            <translation>Oskarp bakgrund</translation>
+            <translation>Bakgrundsoskärpa</translation>
         </message>
         <message>
             <source>Toggles the visibility of blur on the selected background component.</source>
-            <translation>Växlar synligheten för oskärpan på vald bakgrundskomponent.</translation>
+            <translation>Anger om oskärpan visas på den valda bakgrundskomponenten.</translation>
         </message>
         <message>
             <source>Sets the intensity of blur on the selected background component.
 The foreground component should be transparent, and the background component should be opaque.</source>
-            <translation>Ställer in intensitet av oskärpa på vald bakgrundskomponent.
-Förgrundskomponenten bör vara transparent och bakgrundskomponenten bör vara opak.</translation>
+            <translation>Anger oskärpeintensiteten på den valda bakgrundskomponenten.
+Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskinlig.</translation>
         </message>
         <message>
             <source>Background</source>
@@ -2695,11 +2695,11 @@ Förgrundskomponenten bör vara transparent och bakgrundskomponenten bör vara o
         </message>
         <message>
             <source>Sets a component as the background of a transparent component.The &lt;b&gt;Background Blur&lt;/b&gt; works only on this component. The component should be solid.</source>
-            <translation>Ställer in en komponent som bakgrunden för en transparent komponent. &lt;b&gt;Oskarp bakgrund&lt;/b&gt; fungerar endast på denna komponent. Komponenten bör vara solid.</translation>
+            <translation>Anger en komponent som bakgrund för en genomskinlig komponent. &lt;b&gt;Bakgrundsoskärpa&lt;/b&gt; fungerar bara på denna komponent. Komponenten bör vara enfärgad.</translation>
         </message>
         <message>
             <source>Drop Shadow</source>
-            <translation>Skuggkastning</translation>
+            <translation>Slagskugga</translation>
         </message>
         <message>
             <source>Inner Shadow</source>
@@ -2707,11 +2707,11 @@ Förgrundskomponenten bör vara transparent och bakgrundskomponenten bör vara o
         </message>
         <message>
             <source>Toggles the visibility of the component shadow.</source>
-            <translation>Växlar synligheten för komponentens skugga.</translation>
+            <translation>Anger om komponentens skugga visas.</translation>
         </message>
         <message>
             <source>Sets the softness of the component shadow. A larger value causes the edges of the shadow to appear more blurry.</source>
-            <translation>Ställer in mjukheten för komponentskuggan. Ett större värde orsakar att kanterna för skuggan kan verkar mer oskarpa.</translation>
+            <translation>Anger mjukheten för komponentens skugga. Ett större värde gör skuggans kanter mer oskarpa.</translation>
         </message>
         <message>
             <source>Spread</source>
@@ -2719,7 +2719,7 @@ Förgrundskomponenten bör vara transparent och bakgrundskomponenten bör vara o
         </message>
         <message>
             <source>Resizes the base shadow of the component by pixels.</source>
-            <translation>Storleksändrar basskuggan för komponenten med bildpunkter.</translation>
+            <translation>Ändrar storleken på komponentens basskugga med pixlar.</translation>
         </message>
         <message>
             <source>Only supported for Rectangles.</source>
@@ -2731,15 +2731,15 @@ Förgrundskomponenten bör vara transparent och bakgrundskomponenten bör vara o
         </message>
         <message>
             <source>Sets the color of the shadow.</source>
-            <translation>Ange färgen på skuggan.</translation>
+            <translation>Anger skuggans färg.</translation>
         </message>
         <message>
             <source>Offset</source>
-            <translation>Offset</translation>
+            <translation>Förskjutning</translation>
         </message>
         <message>
             <source>Moves the shadow with respect to the component in X and Y coordinates by pixels.</source>
-            <translation>Flyttar skuggan med tanke på komponenten i X och Y-koordinater med bildpunkter.</translation>
+            <translation>Flyttar skuggan i förhållande till komponenten i X- och Y-koordinater med pixlar.</translation>
         </message>
         <message>
             <source>X-coordinate</source>
@@ -2755,7 +2755,7 @@ Förgrundskomponenten bör vara transparent och bakgrundskomponenten bör vara o
         </message>
         <message>
             <source>Toggles the visibility of the shadow behind a transparent component.</source>
-            <translation>Växlar synligheten för skuggan bakom en transparent komponent.</translation>
+            <translation>Anger om skuggan visas bakom en genomskinlig komponent.</translation>
         </message>
         <message>
             <source>Add Shadow Effect</source>
@@ -2763,7 +2763,7 @@ Förgrundskomponenten bör vara transparent och bakgrundskomponenten bör vara o
         </message>
         <message>
             <source>Adds &lt;b&gt;Drop Shadow&lt;/b&gt; or &lt;b&gt;Inner Shadow&lt;/b&gt; effects to a component.</source>
-            <translation>Lägger till effekterna &lt;b&gt;Skuggkastning&lt;/b&gt; eller &lt;b&gt;Innerskugga&lt;/b&gt; till en komponent.</translation>
+            <translation>Lägger till effekterna &lt;b&gt;Slagskugga&lt;/b&gt; eller &lt;b&gt;Innerskugga&lt;/b&gt; på en komponent.</translation>
         </message>
     </context>
     <context>
