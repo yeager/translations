@@ -4445,7 +4445,7 @@ som definieras i &lt;b&gt;Step size&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Toggles if the dial wraps around when it reaches the start or end.</source>
-        <translation>Anger om vredet slår runt när det når början eller slutet.</translation>
+        <translation>Anger om vredet går runt när det når start- eller slutläget.</translation>
     </message>
     <message>
         <source>Live</source>
@@ -71774,11 +71774,11 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     <name>RegularPolygonItemSpecifics</name>
     <message>
         <source>Regular Polygon Item</source>
-        <translation>Regelbundet polygonobjekt</translation>
+        <translation>Regelbunden polygon</translation>
     </message>
     <message>
         <source>Fill color</source>
-        <translation>Fyllnadsfärg</translation>
+        <translation>Fyllningsfärg</translation>
     </message>
     <message>
         <source>Sets the color to fill the enclosed Regular Polygon.</source>
@@ -71790,7 +71790,7 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Sets the stroke color of the boundary.</source>
-        <translation>Anger linjefärgen för gränsen.</translation>
+        <translation>Anger konturens linjefärg.</translation>
     </message>
     <message>
         <source>Stroke width</source>
@@ -71798,7 +71798,7 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Sets the stroke thickness of the boundary.</source>
-        <translation>Anger gränsens linjetjocklek.</translation>
+        <translation>Anger konturens linjetjocklek.</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -74123,7 +74123,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Fill color</source>
-        <translation>Fyllnadsfärg</translation>
+        <translation>Fyllningsfärg</translation>
     </message>
     <message>
         <source>Sets the color to fill the enclosed Star.</source>
@@ -74135,7 +74135,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Sets the stroke color of the boundary.</source>
-        <translation>Anger linjefärgen för gränsen.</translation>
+        <translation>Anger konturens linjefärg.</translation>
     </message>
     <message>
         <source>Stroke width</source>
@@ -74143,7 +74143,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Sets the stroke thickness of the boundary.</source>
-        <translation>Anger gränsens linjetjocklek.</translation>
+        <translation>Anger konturens linjetjocklek.</translation>
     </message>
     <message>
         <source>Hide</source>
