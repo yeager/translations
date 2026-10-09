@@ -11774,17 +11774,17 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
             <location filename="../../../src/plugins/android/androidmanifesteditor.cpp" line="+327" />
             <source>Open online documentation for %1.</source>
             <extracomment>%1 is an AndroidManifest keyword</extracomment>
-            <translation>Öppna online-dokumentation för %1.</translation>
+            <translation>Öppna dokumentationen på webben för %1.</translation>
         </message>
         <message>
             <location line="+157" />
             <source>Could not parse file: "%1".</source>
-            <translation>Kunde inte tolka filen: "%1".</translation>
+            <translation>Det gick inte att tolka filen ”%1”.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>%2: Could not parse file: "%1".</source>
-            <translation>%2: Kunde inte tolka filen: "%1".</translation>
+            <translation>%2: Det gick inte att tolka filen ”%1”.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -11798,12 +11798,12 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         <message>
             <location line="-49" />
             <source>The structure of the Android manifest file is corrupted. Expected a top level 'manifest' node.</source>
-            <translation>Strukturen i Android-manifestet fil är skadad. Förväntade en toppnivå "manifest" nod.</translation>
+            <translation>Strukturen i Android-manifestfilen är skadad. En manifest-nod på högsta nivån förväntades.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>The structure of the Android manifest file is corrupted. Expected an 'application' and 'activity' sub node.</source>
-            <translation>Strukturen på Android-manifestet fil är skadad. Förväntade en "applikation" och "aktivitet" sub nod.</translation>
+            <translation>Strukturen i Android-manifestfilen är skadad. Undernoderna ”application” och ”activity” förväntades.</translation>
         </message>
         <message>
             <source>API %1: %2</source>
@@ -11813,7 +11813,7 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
             <location filename="../../../src/plugins/android/androidtoolmenu.cpp" line="-180" />
             <location filename="../../../src/plugins/android/permissionscontainerwidget.cpp" line="-167" />
             <source>Permissions</source>
-            <translation>Rättigheter</translation>
+            <translation>Behörigheter</translation>
         </message>
         <message>
             <source>Goto error</source>
@@ -11832,12 +11832,12 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         <message>
             <location line="+294" />
             <source>Open package location after build</source>
-            <translation>Öppna paketplatsen efter byggnation</translation>
+            <translation>Öppna paketplatsen efter bygget</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Verbose output</source>
-            <translation>Utförligt utdata</translation>
+            <translation>Utförliga utdata</translation>
         </message>
         <message>
             <location line="-431" />
@@ -11847,12 +11847,12 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         <message>
             <location line="+224" />
             <source>Android build-tools version:</source>
-            <translation>Version av Android-byggverktyg:</translation>
+            <translation>Android Build Tools-version:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Android build platform SDK:</source>
-            <translation>Android byggplattform SDK:</translation>
+            <translation>Android-plattformens SDK för byggning:</translation>
         </message>
         <message>
             <location line="-11" />
@@ -11862,7 +11862,7 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         <message>
             <location line="+2" />
             <source>Create an Android package for Custom Java code, assets, and Gradle configurations.</source>
-            <translation>Skapa ett Android-paket för anpassade Java-kod, tillgångar och Gradle-konfigurationer.</translation>
+            <translation>Skapa ett Android-paket för anpassad Java-kod, resurser och Gradle-konfigurationer.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -11877,7 +11877,7 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         <message>
             <location line="-47" />
             <source>Select Keystore File</source>
-            <translation>Välj nyckellagringsfil</translation>
+            <translation>Välj nyckellagerfil</translation>
         </message>
         <message>
             <location line="+9" />
@@ -11892,7 +11892,7 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         <message>
             <location line="+2" />
             <source>Packages debug server with the APK to enable debugging. For the signed APK this option is unchecked by default.</source>
-            <translation>Paket Felsökningsservern med APK för att aktivera felsökning. För den signerade APK är alternativet normalt avmarkerat.</translation>
+            <translation>Paketerar felsökningsservern med APK:n för att aktivera felsökning. För signerade APK:er är alternativet avmarkerat som standard.</translation>
         </message>
         <message>
             <location line="+296" />
@@ -11907,7 +11907,7 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         <message>
             <location line="+12" />
             <source>List of extra libraries to include in Android package and load on startup.</source>
-            <translation>Lista över extra bibliotek att inkludera i Android-paket och ladda vid start.</translation>
+            <translation>Lista över ytterligare bibliotek som ska inkluderas i Android-paketet och läsas in vid start.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -11923,17 +11923,17 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         <message>
             <location line="+13" />
             <source>Remove currently selected library from list.</source>
-            <translation>Ta bort bibliotek som för närvarande är markerat från listan.</translation>
+            <translation>Ta bort det markerade biblioteket från listan.</translation>
         </message>
         <message>
             <location line="+539" />
             <source>Product type is not an application, not building an APK.</source>
-            <translation>Produkttyp är inte ett program, inte bygga en APK.</translation>
+            <translation>Produkttypen är inte ett program. Ingen APK byggs.</translation>
         </message>
         <message>
             <location line="+209" />
             <source>Failed to run keytool.</source>
-            <translation>Misslyckades med att göra keytool.</translation>
+            <translation>Det gick inte att köra keytool.</translation>
         </message>
         <message>
             <location line="-757" />
@@ -11948,12 +11948,12 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         <message>
             <location filename="../../../src/plugins/android/manifestwizard.cpp" line="+84" />
             <source>No application build targets found in this project.</source>
-            <translation>Inga program byggmål hittades i detta projekt.</translation>
+            <translation>Inga programbyggmål hittades i projektet.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>No Application Build Target</source>
-            <translation>Inget program byggmål</translation>
+            <translation>Inget programbyggmål</translation>
         </message>
         <message>
             <location line="+22" />
@@ -11983,31 +11983,31 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         <message>
             <location line="+1" />
             <source>It is highly recommended if you are planning to extend the Java side of your Qt application.</source>
-            <translation>Det rekommenderas starkt om du planerar att förlänga Java-sidan av din Qt-applikation.</translation>
+            <translation>Det rekommenderas starkt om du planerar att utöka Java-delen i Qt-programmet.</translation>
         </message>
         <message>
             <location line="+35" />
             <source>Select the Android package source directory.
 
 The files in the Android package source directory will be copied to the Android build directory and the default templates will be overwritten.</source>
-            <translation>Välj Android-paketens källkodskatalog. Filerna i Android-paketets
-källkodskatalog kommer att kopieras till
-Android-byggkatalogen och standardmallarna kommer att skrivas över.</translation>
+            <translation>Välj källkodskatalogen för Android-paketet.
+
+Filerna i Android-paketets källkodskatalog kopieras till Android-byggkatalogen och standardmallarna skrivs över.</translation>
         </message>
         <message>
             <location line="+12" />
             <source>The Android template files will be created under the %1 path that is set in the project file.</source>
-            <translation>Android mallfiler kommer att skapas under %1 sökvägen som är inställd i projektfilen.</translation>
+            <translation>Android-mallfilerna skapas under sökvägen %1 som angetts i projektfilen.</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Create Android Template Files Wizard</source>
-            <translation>Skapa guide för Android-mallar</translation>
+            <translation>Guide för att skapa Android-mallfiler</translation>
         </message>
         <message>
             <location line="+30" />
             <source>Qt for Android Not Configured</source>
-            <translation>Qt för Android inte konfigurerad</translation>
+            <translation>Qt för Android är inte konfigurerat</translation>
         </message>
         <message>
             <location line="+1" />
@@ -12016,23 +12016,23 @@ Android-byggkatalogen och standardmallarna kommer att skrivas över.</translatio
 Install Qt for Android (for example, android_arm64_v8a) and configure your kit to use it.
 
 Expected templates at: %1</source>
-            <translation>Kan inte skapa Android-mallar eftersom Qt för
-Android inte är installerat eller konfigurerat.
-Installera Qt för Android (till exempel
-android_arm64_v8a) och konfigurera ditt kit för
-att använda det. Förväntade mallar på: %1</translation>
+            <translation>Det går inte att skapa Android-mallar eftersom Qt för Android inte är installerat eller konfigurerat.
+
+Installera Qt för Android (till exempel android_arm64_v8a) och konfigurera kitet så att det använder det.
+
+Förväntade mallar finns på: %1</translation>
         </message>
         <message>
             <location line="+45" />
             <source>Project File Update Failed</source>
-            <translation>Uppdatering av projektfil misslyckades</translation>
+            <translation>Det gick inte att uppdatera projektfilen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Cannot automatically update the project file "%1".
 Set the property "%2" manually.</source>
-            <translation>Kan inte automatiskt uppdatera projektfilen
-"%1". Ställ in egenskapen "%2" manuellt.</translation>
+            <translation>Det går inte att uppdatera projektfilen ”%1” automatiskt.
+Ange egenskapen ”%2” manuellt.</translation>
         </message>
         <message>
             <source>Could not update the project file %1.</source>
