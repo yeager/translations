@@ -7118,7 +7118,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Min Zoom</source>
-        <translation>Min. zoom</translation>
+        <translation>Minsta zoom</translation>
     </message>
     <message>
         <source>Camera minimum zoom</source>
@@ -7126,7 +7126,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Max Zoom</source>
-        <translation>Max. zoom</translation>
+        <translation>Största zoom</translation>
     </message>
     <message>
         <source>Camera maximum zoom</source>
@@ -7142,11 +7142,11 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Wrap X</source>
-        <translation>Slå runt X</translation>
+        <translation>Cirkulär X-rotation</translation>
     </message>
     <message>
         <source>Wrap camera X rotation</source>
-        <translation>Slå runt kamerans X-rotation</translation>
+        <translation>Använder cirkulär X-rotation för kameran</translation>
     </message>
     <message>
         <source>Y Rotation</source>
@@ -7158,11 +7158,11 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Wrap Y</source>
-        <translation>Slå runt Y</translation>
+        <translation>Cirkulär Y-rotation</translation>
     </message>
     <message>
         <source>Wrap camera Y rotation</source>
-        <translation>Slå runt kamerans Y-rotation</translation>
+        <translation>Använder cirkulär Y-rotation för kameran</translation>
     </message>
     <message>
         <source>Orthographic</source>
