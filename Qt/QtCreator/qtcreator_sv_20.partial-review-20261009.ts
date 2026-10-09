@@ -47641,7 +47641,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+1" />
             <source>An error occurred while replaying the macro, execution stopped.</source>
-            <translation>Ett fel inträffade vid uppspelning av makrot, körningen stoppad.</translation>
+            <translation>Ett fel inträffade vid uppspelning av makrot och körningen stoppades.</translation>
         </message>
         <message>
             <location line="+122" />
@@ -47682,7 +47682,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+5" />
             <source>Play Last Macro</source>
-            <translation>Spela upp sista makro</translation>
+            <translation>Spela upp senaste makrot</translation>
         </message>
         <message>
             <location line="+2" />
@@ -47697,12 +47697,12 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+6" />
             <source>Save Last Macro</source>
-            <translation>Spara sista makro</translation>
+            <translation>Spara senaste makrot</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/macros/macromanager.cpp" line="-3" />
             <source>Macro mode. Type "%1" to stop recording and "%2" to play the macro.</source>
-            <translation>Makroläge. Tryck "%1" för att stoppa inspelning och "%2" för att spela upp makrot.</translation>
+            <translation>Makroläge. Skriv ”%1” för att stoppa inspelningen och ”%2” för att spela upp makrot.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/macros/macrolocatorfilter.cpp" line="+24" />
@@ -47727,7 +47727,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         </message>
         <message>
             <source>&lt;p&gt;Could not fetch data from Qt Marketplace.&lt;/p&gt;&lt;p&gt;Try with your browser instead: &lt;a href='https://marketplace.qt.io'&gt;https://marketplace.qt.io&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;small&gt;&lt;i&gt;Error: %1&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Kunde inte hämta data från Qt Marketplace.&lt;/p&gt;&lt;p&gt;Prova med din webbläsare istället: &lt;a href='https://marketplace.qt.io'&gt;https://marketplace.qt.io&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;small&gt;&lt;i&gt;Fel: %1&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Kunde inte hämta data från Qt Marketplace.&lt;/p&gt;&lt;p&gt;Försök i stället med din webbläsare: &lt;a href='https://marketplace.qt.io'&gt;https://marketplace.qt.io&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;small&gt;&lt;i&gt;Fel: %1&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;</translation>
         </message>
     </context>
     <context>
