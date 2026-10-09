@@ -41025,7 +41025,7 @@ Orsak: %3</translation>
         <message>
             <location line="+1936" />
             <source>Stash Description</source>
-            <translation>Beskrivning av stativ</translation>
+            <translation>Stash-beskrivning</translation>
         </message>
         <message>
             <location line="+0" />
@@ -41035,33 +41035,33 @@ Orsak: %3</translation>
         <message>
             <location line="-1241" />
             <source>Cannot determine the repository for "%1".</source>
-            <translation>Kan inte bestämma förrådet för "%1".</translation>
+            <translation>Kan inte avgöra vilket arkiv ”%1” tillhör.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Cannot parse the file output.</source>
-            <translation>Kan inte tolka filutdata.</translation>
+            <translation>Kan inte tolka filens utdata.</translation>
         </message>
         <message>
             <location line="+345" />
             <location line="+69" />
             <source>Git Diff "%1"</source>
-            <translation>Lägg till "%1"</translation>
+            <translation>Git-diff för ”%1”</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Git Diff Branch "%1"</source>
-            <translation>Siffra ut grenen %1</translation>
+            <translation>Git-diff för grenen ”%1”</translation>
         </message>
         <message>
             <location line="+49" />
             <source>Git Log "%1"</source>
-            <translation>Git- logg "%1"</translation>
+            <translation>Git-logg för ”%1”</translation>
         </message>
         <message>
             <location line="+61" />
             <source>Git Reflog "%1"</source>
-            <translation>Ge upp "%1"</translation>
+            <translation>Git-referenslogg för ”%1”</translation>
         </message>
         <message>
             <location line="+29" />
@@ -41071,60 +41071,60 @@ Orsak: %3</translation>
         <message>
             <location line="+12" />
             <source>Git Show "%1"</source>
-            <translation>Git Visa "%1"</translation>
+            <translation>Git-visning av ”%1”</translation>
         </message>
         <message>
             <location line="+65" />
             <source>Git Blame "%1"</source>
-            <translation>-Skyldig att skylla på %1.</translation>
+            <translation>Git-blame för ”%1”</translation>
         </message>
         <message>
             <location line="+207" />
             <source>Cannot obtain log of "%1": %2</source>
-            <translation>Kan inte få tag på logg över "%1": %2</translation>
+            <translation>Kan inte hämta loggen för ”%1”: %2</translation>
         </message>
         <message>
             <location line="+143" />
             <source>Cannot checkout "%1" of %2 in "%3": %4</source>
             <extracomment>Meaning of the arguments: %1: revision, %2: files, %3: repository, %4: Error message</extracomment>
-            <translation>Kan inte checka ut "%1" för %2 i "%3": %4</translation>
+            <translation>Kan inte checka ut ”%1” från %2 i ”%3”: %4</translation>
         </message>
         <message>
             <location line="-1698" />
             <source>Cannot find parent revisions of "%1" in "%2": %3</source>
             <extracomment>Failed to find parent revisions of a hash for "annotate previous"</extracomment>
-            <translation>Kan inte hitta överliggande revideringar av "%1" i "%2": %3</translation>
+            <translation>Kan inte hitta överordnade revisioner till ”%1” i ”%2”: %3</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/branchmodel.cpp" line="+559" />
             <location filename="../../../src/plugins/git/gitclient.cpp" line="+726" />
             <source>Cannot run "%1" in "%2": %3</source>
-            <translation>Kan inte köra "%1" i "%2": %3</translation>
+            <translation>Kan inte köra ”%1” i ”%2”: %3</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gitclient.cpp" line="+1704" />
             <source>REBASING</source>
-            <translation>ÅTERKALLANDE</translation>
+            <translation>OMBASERAR</translation>
         </message>
         <message>
             <location line="+2" />
             <source>REVERTING</source>
-            <translation>DRIVNING</translation>
+            <translation>ÅTERSTÄLLER</translation>
         </message>
         <message>
             <location line="+2" />
             <source>CHERRY-PICKING</source>
-            <translation>KÄRNPLICKNING</translation>
+            <translation>CHERRY-PICKAR</translation>
         </message>
         <message>
             <location line="+2" />
             <source>MERGING</source>
-            <translation>MÖJLIGHET</translation>
+            <translation>SLÅR SAMMAN</translation>
         </message>
         <message>
             <location line="-532" />
             <source>Cannot describe revision "%1" in "%2": %3</source>
-            <translation>Kan inte beskriva revision "%1" i "%2": %3</translation>
+            <translation>Kan inte beskriva revisionen ”%1” i ”%2”: %3</translation>
         </message>
         <message>
             <location line="-1371" />
@@ -41139,7 +41139,7 @@ Orsak: %3</translation>
         <message>
             <location line="+2" />
             <source>Omit Author</source>
-            <translation>Upphovsman till ommit</translation>
+            <translation>Utelämna upphovsperson</translation>
         </message>
         <message>
             <location line="+1" />
@@ -41155,33 +41155,33 @@ Orsak: %3</translation>
         <message>
             <location line="+454" />
             <source>Git Diff Staged "%1"</source>
-            <translation>Git Diff-steget "%1"</translation>
+            <translation>Git-diff för indexerat ”%1”</translation>
         </message>
         <message>
             <location line="+16" />
             <source>Git Diff Staged Project Changes</source>
-            <translation>Ändra Git- diff- projekt i steg</translation>
+            <translation>Git-diff för indexerade projektändringar</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Git Diff Staged Repository Changes</source>
-            <translation>Git diff- iscensatta arkivändringar</translation>
+            <translation>Git-diff för indexerade arkivändringar</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Git Diff Incoming "%1" Changes</source>
-            <translation>Git Diff Inkommande ändringar av %1</translation>
+            <translation>Git-diff för inkommande ändringar i ”%1”</translation>
         </message>
         <message>
             <location line="+30" />
             <source>Git Diff Staged "%1" Changes</source>
-            <translation>Git diff- ändringar i steg "%1"</translation>
+            <translation>Git-diff för indexerade ändringar i ”%1”</translation>
         </message>
         <message>
             <location line="+883" />
             <source>Cannot resolve stash message "%1" in "%2".</source>
             <extracomment>Look-up of a stash via its descriptive message failed.</extracomment>
-            <translation>Kan inte lösa meddelandet "%1" i "%2".</translation>
+            <translation>Kan inte avgöra stash-meddelandet ”%1” i ”%2”.</translation>
         </message>
         <message>
             <location line="+91" />
@@ -41203,12 +41203,12 @@ Orsak: %3</translation>
             <location filename="../../../src/plugins/git/gitplugin.cpp" line="+818" />
             <source>Continue Rebase</source>
             <extracomment>Avoid translating "Rebase"</extracomment>
-            <translation>Fortsätt ombas</translation>
+            <translation>Fortsätt ombaseringen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Rebase is in progress. What do you want to do?</source>
-            <translation>- Vad vill du göra?</translation>
+            <translation>Ombasering pågår. Vad vill du göra?</translation>
         </message>
         <message>
             <location line="+1" />
@@ -41218,50 +41218,50 @@ Orsak: %3</translation>
         <message>
             <location line="+3" />
             <source>Continue Merge</source>
-            <translation>Fortsätt sammanfoga</translation>
+            <translation>Fortsätt sammanslagningen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>You need to commit changes to finish merge.
 Commit now?</source>
-            <translation>Du måste göra ändringar för
-att avsluta sammanslagningen.</translation>
+            <translation>Du måste checka in ändringarna för att slutföra sammanslagningen.
+Checka in nu?</translation>
         </message>
         <message>
             <location line="+4" />
             <location filename="../../../src/plugins/git/gitplugin.cpp" line="+20" />
             <source>Continue Revert</source>
             <extracomment>Avoid translating "Revert"</extracomment>
-            <translation>Fortsätt återställ</translation>
+            <translation>Fortsätt återställningen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>You need to commit changes to finish revert.
 Commit now?</source>
-            <translation>Du måste göra ändringar för
-att återgå till det färdiga.</translation>
+            <translation>Du måste checka in ändringarna för att slutföra återställningen.
+Checka in nu?</translation>
         </message>
         <message>
             <location line="+380" />
             <source>Cannot amend during merge, use git commit instead.</source>
-            <translation>Kan inte ändra under sammanfogning, använd git commit istället.</translation>
+            <translation>Kan inte ändra den senaste incheckningen under sammanslagning. Använd git commit i stället.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Cannot amend during cherry-pick, use git commit instead.</source>
-            <translation>Kan inte ändra under körsbärsplockning, använd git commit istället.</translation>
+            <translation>Kan inte ändra den senaste incheckningen under cherry-pick. Använd git commit i stället.</translation>
         </message>
         <message>
             <location line="+190" />
             <source>For the following files, the staged content will be overwritten with the unstaged version.
 Continue?</source>
-            <translation>För följande filer skrivs innehållet i iscensatt
-över med den ostadiga versionen. Fortsätt?</translation>
+            <translation>För följande filer skrivs det indexerade innehållet över med den oindexerade versionen.
+Fortsätt?</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Possible Data Loss</source>
-            <translation>Möjlig förlust av data</translation>
+            <translation>Möjlig dataförlust</translation>
         </message>
         <message numerus="yes">
             <location line="+44" />
