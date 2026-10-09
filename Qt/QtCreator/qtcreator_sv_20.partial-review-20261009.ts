@@ -35951,7 +35951,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+1" />
             <source>Local 8-Bit String</source>
-            <translation>Lokala 8 bitars sträng</translation>
+            <translation>Lokal 8-bitarssträng</translation>
         </message>
         <message>
             <location line="+1" />
@@ -35961,22 +35961,22 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+1" />
             <source>UCS-4 String</source>
-            <translation>UCS-4 sträng</translation>
+            <translation>UCS-4-sträng</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Plot in Separate Window</source>
-            <translation>Plotta i separat fönster</translation>
+            <translation>Rita upp i separat fönster</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Display Keys and Values Side by Side</source>
-            <translation>Visa nycklar och värderingar sida vid sida</translation>
+            <translation>Visa nycklar och värden sida vid sida</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Force Display as Direct Storage Form</source>
-            <translation>Tvinga visning som direkt lagringsformulär</translation>
+            <translation>Tvinga visning som direkt lagringsform</translation>
         </message>
         <message>
             <location line="+1" />
@@ -35991,7 +35991,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+1" />
             <source>Display Boolean Values as 1 or 0</source>
-            <translation>Visa Booleska värden som 1 eller 0</translation>
+            <translation>Visa booleska värden som 1 eller 0</translation>
         </message>
         <message>
             <location line="+2" />
@@ -36016,27 +36016,27 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+1" />
             <source>Char Code Integer</source>
-            <translation>Char kod Integer</translation>
+            <translation>Heltal med teckenkod</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Compact Float</source>
-            <translation>Kompakt flyt</translation>
+            <translation>Kompakt flyttal</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Scientific Float</source>
-            <translation>Vetenskaplig flytgödsel</translation>
+            <translation>Vetenskapligt flyttal</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Hexadecimal Float</source>
-            <translation>Hexadecimalt flytgödsel</translation>
+            <translation>Hexadecimalt flyttal</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Normalized, with Power-of-Two Exponent</source>
-            <translation>Normaliserad, med Power-of-Two Exponent</translation>
+            <translation>Normaliserat med exponent som är en tvåpotens</translation>
         </message>
         <message>
             <location line="+358" />
@@ -36051,22 +36051,22 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="-678" />
             <source>Open Memory View at Object's Address</source>
-            <translation>Öppna minnesvisare vid objektets adress</translation>
+            <translation>Öppna minnesvyn vid objektets adress</translation>
         </message>
         <message>
             <location line="+25" />
             <source>Open Memory Editor Showing Stack Layout</source>
-            <translation>Öppna minneseditorn som visar Stacklayout</translation>
+            <translation>Öppna minnesredigeraren som visar stacklayouten</translation>
         </message>
         <message>
             <location line="-129" />
             <source>Close Editor Tooltips</source>
-            <translation>Stäng editorverktygstips</translation>
+            <translation>Stäng redigerarens verktygstips</translation>
         </message>
         <message>
             <location line="+22" />
             <source>Locals &amp; Expressions</source>
-            <translation>Lokala uttryck</translation>
+            <translation>Lokala variabler och uttryck</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/shared/symbolpathsdialog.cpp" line="+21" />
@@ -36111,12 +36111,12 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+25" />
             <source>Debugger font size follows main editor</source>
-            <translation>Teckenstorlek för felsökning följer huvudeditorn</translation>
+            <translation>Felsökarens teckenstorlek följer huvudredigeraren</translation>
         </message>
         <message>
             <location line="+42" />
             <source>Switch to previous mode on debugger exit</source>
-            <translation>Byt till föregående läge vid avlusning</translation>
+            <translation>Byt till föregående läge när felsökaren avslutas</translation>
         </message>
         <message>
             <location line="-15" />
@@ -36131,7 +36131,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+17" />
             <source>Warn when debugging "Release" builds</source>
-            <translation>Varna när debugging "Release" bygger</translation>
+            <translation>Varna vid felsökning av ”Release”-byggen</translation>
         </message>
         <message>
             <location line="-42" />
@@ -36163,7 +36163,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+3" />
             <source>Use %1 for post-mortem debugging</source>
-            <translation>Använd %1 för avlusning efter slakt</translation>
+            <translation>Använd %1 för post mortem-felsökning</translation>
         </message>
         <message>
             <location line="+240" />
@@ -36173,7 +36173,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+3" />
             <source>The maximum length of string entries in the Locals and Expressions views. Longer than that are cut off and displayed with an ellipsis attached.</source>
-            <translation>Den maximala längden på strängposter i vyerna Lokaler och uttryck. Längre än de klipps av och visas med en ellips bifogad.</translation>
+            <translation>Den maximala längden för strängposter i vyerna Lokala variabler och uttryck. Längre strängar kortas av och visas med en ellips.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -36183,22 +36183,22 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location filename="../../../src/plugins/debugger/lldb/lldbengine.cpp" line="-40" />
             <source>Unable to start LLDB "%1": %2</source>
-            <translation>Kunde inte starta LLDB "%1": %2</translation>
+            <translation>Det gick inte att starta LLDB ”%1”: %2</translation>
         </message>
         <message>
             <location line="-439" />
             <source>Interrupt requested...</source>
-            <translation>Avbrott begärt…</translation>
+            <translation>Avbrott begärdes …</translation>
         </message>
         <message>
             <location line="-217" />
             <source>Adapter start failed.</source>
-            <translation>Adapterstart misslyckades.</translation>
+            <translation>Det gick inte att starta adaptern.</translation>
         </message>
         <message>
             <location line="+679" />
             <source>LLDB I/O Error</source>
-            <translation>Fel vid LLDB I/ O</translation>
+            <translation>LLDB-I/O-fel</translation>
         </message>
         <message>
             <location line="+9" />
