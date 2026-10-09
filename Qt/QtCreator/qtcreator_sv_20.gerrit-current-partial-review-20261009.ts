@@ -4507,7 +4507,7 @@ som definieras i &lt;b&gt;Step size&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Samples per pixel for blur calculation. A larger value produces better quality, but is slower to render.</source>
-        <translation>Prover per bildpunkt för oskärpeberäkningen. Ett högre värde ger bättre kvalitet, men återges långsammare.</translation>
+        <translation>Prover per bildpunkt för oskärpeberäkningen. Ett högre värde ger bättre kvalitet, men återgivningen går långsammare.</translation>
     </message>
     <message>
         <source>Length</source>
@@ -4523,7 +4523,7 @@ som definieras i &lt;b&gt;Step size&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
@@ -6847,7 +6847,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>A parameter to the gaussian function that is used when calculating neighboring pixel weights for the blurring.</source>
-        <translation>En parameter till den gaussiska funktionen som används vid beräkning av angränsande bildpunktsvikter för oskärpan.</translation>
+        <translation>En parameter i den gaussiska funktionen som används vid beräkning av angränsande bildpunktsvikter för oskärpan.</translation>
     </message>
     <message>
         <source>Samples</source>
@@ -6855,7 +6855,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Samples per pixel for blur calculation. A larger value produces better quality, but is slower to render.</source>
-        <translation>Prover per bildpunkt för oskärpeberäkningen. Ett högre värde ger bättre kvalitet, men återges långsammare.</translation>
+        <translation>Prover per bildpunkt för oskärpeberäkningen. Ett högre värde ger bättre kvalitet, men återgivningen går långsammare.</translation>
     </message>
     <message>
         <source>Caching and Border</source>
@@ -6863,7 +6863,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
@@ -9514,7 +9514,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Samples per pixel for blur calculation. A larger value produces better quality, but is slower to render.</source>
-        <translation>Prover per bildpunkt för oskärpeberäkningen. Ett högre värde ger bättre kvalitet, men återges långsammare.</translation>
+        <translation>Prover per bildpunkt för oskärpeberäkningen. Ett högre värde ger bättre kvalitet, men återgivningen går långsammare.</translation>
     </message>
     <message>
         <source>Mask source</source>
@@ -9530,7 +9530,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
@@ -71654,7 +71654,7 @@ som definieras av stegstorleken.</translation>
     </message>
     <message>
         <source>Loops</source>
-        <translation>Slingor</translation>
+        <translation>Iterationer</translation>
     </message>
     <message>
         <source>The amount of blur iterations that are going to be performed for the source.</source>
@@ -71666,7 +71666,7 @@ som definieras av stegstorleken.</translation>
     </message>
     <message>
         <source>The distance of the neighboring pixels which affect the blurring of an individual pixel. A larger radius increases the blur effect.</source>
-        <translation>Avståndet mellan angränsande bildpunkter som påverkar oskärpan för en enskild bildpunkt. En större radie ökar oskärpeeffekten.</translation>
+        <translation>Avståndet till angränsande bildpunkter som påverkar oskärpan för en enskild bildpunkt. En större radie ökar oskärpeeffekten.</translation>
     </message>
     <message>
         <source>Caching and Border</source>
@@ -71674,11 +71674,11 @@ som definieras av stegstorleken.</translation>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels  to improve the rendering performance.</source>
-        <translation>Cachar effektens utdatabildpunkter för att förbättra renderingsprestandan.</translation>
+        <translation>Cachelagrar effektens utdatapixlar för att förbättra återgivningsprestandan.</translation>
     </message>
     <message>
         <source>Transparent border</source>
@@ -75419,7 +75419,7 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Spread</source>
-        <translation>Sprid</translation>
+        <translation>Spridning</translation>
     </message>
     <message>
         <source>The smoothness of the mask edges near the threshold alpha value.</source>
@@ -75443,15 +75443,15 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Caching</source>
-        <translation>Cachning</translation>
+        <translation>Cachelagring</translation>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
-        <translation>Cachar effektens utdatabildpunkter för att förbättra renderingsprestandan.</translation>
+        <translation>Cachelagrar effektens utdatapixlar för att förbättra återgivningsprestandan.</translation>
     </message>
 </context>
 <context>
