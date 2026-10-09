@@ -73860,7 +73860,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Sets the blending mode used for rendering the particles.</source>
-        <translation>Anger blandningsläget som används för att rendera partiklarna.</translation>
+        <translation>Anger blandningsläget som används för att återge partiklarna.</translation>
     </message>
     <message>
         <source>Casts Reflections</source>
@@ -73868,7 +73868,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Enables reflection probes to reflect sprite particles.</source>
-        <translation>Aktiverar reflektionssonder för att reflektera sprite-partiklar.</translation>
+        <translation>Aktiverar reflektionsprober för att reflektera sprite-partiklar.</translation>
     </message>
     <message>
         <source>Sprite</source>
@@ -73900,7 +73900,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Sets the scale multiplier of the particles.</source>
-        <translation>Anger partikelskalans multiplikator.</translation>
+        <translation>Anger multiplikatorn för partikelskalan.</translation>
     </message>
     <message>
         <source>Color Table</source>
