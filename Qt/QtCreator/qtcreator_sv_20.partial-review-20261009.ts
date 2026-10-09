@@ -37394,7 +37394,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="-294" />
             <source>Switch to Unified Diff Editor</source>
-            <translation>Växla till enhetlig diff-redigerare</translation>
+            <translation>Växla till redigeraren för enhetlig diff</translation>
         </message>
         <message>
             <location line="+29" />
@@ -37410,17 +37410,17 @@ Det kan hjälpa att bygga om projektet.</translation>
             <location filename="../../../src/plugins/diffeditor/sidebysidediffeditorwidget.cpp" line="+57" />
             <location filename="../../../src/plugins/diffeditor/unifieddiffeditorwidget.cpp" line="+400" />
             <source>Retrieving data failed.</source>
-            <translation>Hämtning av data misslyckades.</translation>
+            <translation>Det gick inte att hämta data.</translation>
         </message>
         <message>
             <location line="-560" />
             <source>Switch to Side By Side Diff Editor</source>
-            <translation>Växla till diff-redigerare sida vid sida</translation>
+            <translation>Växla till diff-redigeraren sida vid sida</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Synchronize Horizontal Scroll Bars</source>
-            <translation>Synkronisera horisontella rullningslister</translation>
+            <translation>Synkronisera vågräta rullningslister</translation>
         </message>
         <message>
             <location line="+278" />
@@ -37431,12 +37431,12 @@ Det kan hjälpa att bygga om projektet.</translation>
             <location line="+14" />
             <location line="+200" />
             <source>Fold All</source>
-            <translation>Vik alla</translation>
+            <translation>Fäll in alla</translation>
         </message>
         <message>
             <location line="-193" />
             <source>Reload Diff</source>
-            <translation>Läs om diff</translation>
+            <translation>Läs in diff igen</translation>
         </message>
         <message>
             <location line="+119" />
@@ -37457,7 +37457,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+62" />
             <source>Unfold All</source>
-            <translation>Oviktigt alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <location line="+236" />
@@ -37486,22 +37486,22 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+98" />
             <source>Diff Files</source>
-            <translation>Diff för filer</translation>
+            <translation>Jämför filer</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Diff Modified Files</source>
-            <translation>Diff för ändrade filer</translation>
+            <translation>Jämför ändrade filer</translation>
         </message>
         <message>
             <location line="+41" />
             <source>&amp;Diff</source>
-            <translation>&amp;Diff</translation>
+            <translation>&amp;Jämför</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Diff Current File</source>
-            <translation>Diff aktuell fil</translation>
+            <translation>Jämför aktuell fil</translation>
         </message>
         <message>
             <location line="+2" />
@@ -37517,7 +37517,7 @@ Det kan hjälpa att bygga om projektet.</translation>
             <location line="+4" />
             <location line="+61" />
             <source>Diff Open Files</source>
-            <translation>Diff för öppna filer</translation>
+            <translation>Jämför öppna filer</translation>
         </message>
         <message>
             <location line="-59" />
@@ -37532,27 +37532,27 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+4" />
             <source>Diff External Files...</source>
-            <translation>Diff externa filer…</translation>
+            <translation>Jämför externa filer…</translation>
         </message>
         <message>
             <location line="+48" />
             <source>Diff "%1"</source>
-            <translation>Diff "%1"</translation>
+            <translation>Jämför ”%1”</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Select First File for Diff</source>
-            <translation>Välj första filen för diff</translation>
+            <translation>Välj första filen att jämföra</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Select Second File for Diff</source>
-            <translation>Välj andra filen för diff</translation>
+            <translation>Välj andra filen att jämföra</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Diff "%1", "%2"</source>
-            <translation>Diff "%1", "%2"</translation>
+            <translation>Jämför ”%1” och ”%2”</translation>
         </message>
         <message numerus="yes">
             <location filename="../../../src/plugins/diffeditor/sidebysidediffeditorwidget.cpp" line="-326" />
@@ -37570,7 +37570,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+1" />
             <source>Skipped unknown number of lines...</source>
-            <translation>Hoppade över okänt antal rader…</translation>
+            <translation>Ett okänt antal rader hoppades över…</translation>
         </message>
         <message>
             <location line="+35" />
@@ -37587,7 +37587,7 @@ Det kan hjälpa att bygga om projektet.</translation>
             <location line="+152" />
             <location filename="../../../src/plugins/diffeditor/unifieddiffeditorwidget.cpp" line="+75" />
             <source>Rendering diff</source>
-            <translation>Renderar diff</translation>
+            <translation>Återger diff</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/diffeditor/diffeditor.cpp" line="-248" />
@@ -37602,32 +37602,32 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location filename="../../../src/plugins/diffeditor/diffeditordocument.cpp" line="+281" />
             <source>Could not parse patch file "%1". The content is not of unified diff format.</source>
-            <translation>Kunde inte tolka patchfilen "%1". Innehållet är inte ett enhetligt diff-format.</translation>
+            <translation>Kunde inte tolka patchfilen ”%1”. Innehållet har inte formatet enhetlig diff.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/diffeditor/diffeditorwidgetcontroller.cpp" line="+211" />
             <source>File not found: "%1".</source>
-            <translation>Filen hittades inte: "%1".</translation>
+            <translation>Filen hittades inte: ”%1”.</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Send Chunk to CodePaster...</source>
-            <translation>Skicka Chunk till CodePaster…</translation>
+            <translation>Skicka ändringsstycke till CodePaster…</translation>
         </message>
         <message>
             <location line="+39" />
             <source>Apply Chunk...</source>
-            <translation>Använd Chunk…</translation>
+            <translation>Verkställ ändringsstycke…</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Revert Chunk...</source>
-            <translation>Vänd om, Chunk.</translation>
+            <translation>Återställ ändringsstycke…</translation>
         </message>
         <message>
             <location line="+43" />
             <source>&lt;b&gt;Error:&lt;/b&gt; Could not decode "%1" with "%2"-encoding.</source>
-            <translation>&lt;b&gt;Fel:&lt;/b&gt; Kunde inte avkoda "%1" med "%2"-kodning.</translation>
+            <translation>&lt;b&gt;Fel:&lt;/b&gt; Kunde inte avkoda ”%1” med kodningen ”%2”.</translation>
         </message>
         <message>
             <location line="+3" />
