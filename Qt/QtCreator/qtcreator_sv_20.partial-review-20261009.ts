@@ -46498,7 +46498,7 @@ Utgångsdatum: %3</translation>
         <message>
             <location filename="../../../src/plugins/languageclient/callandtypehierarchy.cpp" line="+74" />
             <source>Deprecated</source>
-            <translation>Avkortad</translation>
+            <translation>Föråldrad</translation>
         </message>
         <message>
             <location line="+84" />
@@ -46513,12 +46513,12 @@ Utgångsdatum: %3</translation>
         <message>
             <location line="+70" />
             <source>Bases</source>
-            <translation>Baser</translation>
+            <translation>Basklasser</translation>
         </message>
         <message>
             <location line="+23" />
             <source>Derived</source>
-            <translation>Härledd</translation>
+            <translation>Härledda klasser</translation>
         </message>
         <message>
             <location line="+35" />
@@ -46528,7 +46528,7 @@ Utgångsdatum: %3</translation>
         <message>
             <location line="+4" />
             <source>Open %1 Hierarchy</source>
-            <translation>Öppna %1 Hierarki</translation>
+            <translation>Öppna %1-hierarki</translation>
         </message>
         <message>
             <location line="+118" />
@@ -46583,24 +46583,24 @@ Utgångsdatum: %3</translation>
             <location line="+2" />
             <source>shutdown requested</source>
             <extracomment>language client state</extracomment>
-            <translation>stäng ner begärt</translation>
+            <translation>nedstängning begärd</translation>
         </message>
         <message>
             <location line="+2" />
             <source>shut down</source>
             <extracomment>language client state</extracomment>
-            <translation>stäng ner</translation>
+            <translation>nedstängd</translation>
         </message>
         <message>
             <location line="+4" />
             <source>failed to shutdown</source>
             <extracomment>language client state</extracomment>
-            <translation>misslyckades med att stänga av</translation>
+            <translation>kunde inte stänga ned</translation>
         </message>
         <message>
             <location line="+1656" />
             <source>Language Server "%1" Initialization Error</source>
-            <translation>Initieringsfel för språkserver "%1"</translation>
+            <translation>Initieringsfel för språkservern ”%1”</translation>
         </message>
         <message>
             <location line="+13" />
@@ -46629,17 +46629,17 @@ Utgångsdatum: %3</translation>
         <message>
             <location line="+237" />
             <source>Initialize result is invalid.</source>
-            <translation>Initiera resultatet är ogiltigt.</translation>
+            <translation>Initieringsresultatet är ogiltigt.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Server Info is invalid.</source>
-            <translation>Serverinfo är ogiltig.</translation>
+            <translation>Serverinformationen är ogiltig.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>No initialize result.</source>
-            <translation>Inget initialt resultat.</translation>
+            <translation>Inget initieringsresultat.</translation>
         </message>
         <message>
             <source>Copy to Clipboard</source>
@@ -46663,7 +46663,7 @@ Utgångsdatum: %3</translation>
         <message>
             <location line="+3" />
             <source>Symbols in Workspace</source>
-            <translation>Symboler i arbetsyta</translation>
+            <translation>Symboler i arbetsytan</translation>
         </message>
         <message>
             <location line="+2" />
@@ -46673,22 +46673,22 @@ Utgångsdatum: %3</translation>
         <message>
             <location line="+2" />
             <source>Classes and Structs in Workspace</source>
-            <translation>Klasser och structs i arbetsyta</translation>
+            <translation>Klasser och strukturer i arbetsytan</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Locates classes and structs in the language server workspace.</source>
-            <translation>Lokaliserar klasser och strukturer i språkserverns arbetsyta.</translation>
+            <translation>Hittar klasser och strukturer i språkserverns arbetsyta.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Functions and Methods in Workspace</source>
-            <translation>Funktioner och metoder i arbetsyta</translation>
+            <translation>Funktioner och metoder i arbetsytan</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Locates functions and methods in the language server workspace.</source>
-            <translation>Lokaliserar funktioner och metoder i språkserverns arbetsyta.</translation>
+            <translation>Hittar funktioner och metoder i språkserverns arbetsyta.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/languageclient/languageclientinterface.cpp" line="+77" />
@@ -46698,17 +46698,17 @@ Utgångsdatum: %3</translation>
         <message>
             <location line="+78" />
             <source>Cannot send data to unstarted server %1</source>
-            <translation>Kan inte skicka data till ostartad server %1</translation>
+            <translation>Kan inte skicka data till den ostartade servern %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/languageclient/languageclientmanager.cpp" line="+183" />
             <source>Unexpectedly finished. Restarting in %1 seconds.</source>
-            <translation>Oväntat klart. Startar om i %1 sekunder.</translation>
+            <translation>Avslutades oväntat. Startar om om %1 sekunder.</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Unexpectedly finished.</source>
-            <translation>Färdigställdes oväntat.</translation>
+            <translation>Avslutades oväntat.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/languageclient/languageclientsettings.cpp" line="+1195" />
@@ -46718,7 +46718,7 @@ Utgångsdatum: %3</translation>
         <message>
             <location filename="../../../src/plugins/languageclient/languageclientplugin.cpp" line="+61" />
             <source>Generic StdIO Language Server</source>
-            <translation>Generisk StdIO Language Server</translation>
+            <translation>Generisk StdIO-språkserver</translation>
         </message>
         <message>
             <location line="+4" />
@@ -46733,7 +46733,7 @@ Utgångsdatum: %3</translation>
         <message>
             <location line="+1" />
             <source>Issues provided by the Language Server in the current document.</source>
-            <translation>Frågor som tillhandahålls av språkservern i det aktuella dokumentet.</translation>
+            <translation>Problem som språkservern rapporterar i det aktuella dokumentet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/languageclient/languageclientsettings.cpp" line="-962" />
@@ -46815,7 +46815,7 @@ Exempel: *.cpp%1*.h</translation>
         <message>
             <location line="+7" />
             <source>Language server-specific JSON to pass via "initializationOptions" field of "initialize" request.</source>
-            <translation>Språkserverspecifik JSON att passera via "initializationOptions" fältet "initialize" begäran.</translation>
+            <translation>Språkserverspecifik JSON som skickas via fältet ”initializationOptions” i begäran ”initialize”.</translation>
         </message>
         <message>
             <location line="-45" />
@@ -46870,14 +46870,14 @@ Exempel: *.cpp%1*.h</translation>
         <message>
             <location line="+22" />
             <source>Workspace Configuration</source>
-            <translation>Konfigurera arbetsyta</translation>
+            <translation>Arbetsytekonfiguration</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Additional JSON configuration sent to all running language servers for this project.
 See the documentation of the specific language server for valid settings.</source>
-            <translation>Ytterligare JSON- inställning skickas till alla körande språkservrar för projektet.
-Se dokumentationen för den specifika språkservern för giltiga inställningar.</translation>
+            <translation>Ytterligare JSON-konfiguration som skickas till alla språkservrar som körs för projektet.
+Se dokumentationen för den aktuella språkservern för giltiga inställningar.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/languageclient/languageclientsymbolsupport.cpp" line="+42" />
@@ -46908,7 +46908,7 @@ Se dokumentationen för den specifika språkservern för giltiga inställningar.
         <message>
             <location line="-144" />
             <source>Renaming is not supported with %1</source>
-            <translation>Byte stöds inte med %1</translation>
+            <translation>Namnbyte stöds inte med %1</translation>
         </message>
         <message>
             <location line="+168" />
@@ -46923,7 +46923,7 @@ Se dokumentationen för den specifika språkservern för giltiga inställningar.
         <message>
             <location filename="../../../src/plugins/languageclient/languageclientutils.cpp" line="+155" />
             <source>Show available quick fixes</source>
-            <translation>Visa tillgängliga snabbfixar</translation>
+            <translation>Visa tillgängliga snabbkorrigeringar</translation>
         </message>
         <message>
             <location line="+126" />
@@ -46943,7 +46943,7 @@ Se dokumentationen för den specifika språkservern för giltiga inställningar.
         <message>
             <location line="+223" />
             <source>Set up %1 language server (%2).</source>
-            <translation>Ställ in %1 språkserver (%2).</translation>
+            <translation>Konfigurera %1-språkservern (%2).</translation>
         </message>
         <message>
             <location line="+4" />
@@ -46963,21 +46963,21 @@ Se dokumentationen för den specifika språkservern för giltiga inställningar.
         <message>
             <location line="+9" />
             <source>The installation of "%1" was canceled by timeout.</source>
-            <translation>Installationen av "%1" avbröts på grund av tidsgräns.</translation>
+            <translation>Installationen av ”%1” avbröts på grund av tidsgränsen.</translation>
         </message>
         <message>
             <source>The installation of "%1" was canceled by the user.</source>
-            <translation>Installationen av "%1" avbröts av användaren.</translation>
+            <translation>Installationen av ”%1” avbröts av användaren.</translation>
         </message>
         <message>
             <location line="-5" />
             <source>Installing "%1" failed with exit code %2.</source>
-            <translation>Installation av "%1" misslyckades med avslutskod %2.</translation>
+            <translation>Installationen av ”%1” misslyckades med avslutskod %2.</translation>
         </message>
         <message>
             <location line="-36" />
             <source>Install %1 language server via npm.</source>
-            <translation>Installera %1 språkserver via npm.</translation>
+            <translation>Installera %1-språkservern via npm.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -46991,7 +46991,7 @@ Se dokumentationen för den specifika språkservern för giltiga inställningar.
         <message>
             <location line="+10" />
             <source>%1 Language Server</source>
-            <translation>%1 språkserver</translation>
+            <translation>%1-språkserver</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/languageclient/callandtypehierarchy.cpp" line="-213" />
@@ -47009,12 +47009,12 @@ Se dokumentationen för den specifika språkservern för giltiga inställningar.
         <message>
             <location filename="../../../src/plugins/languageclient/lspinspector.cpp" line="+48" />
             <source>Capabilities:</source>
-            <translation>Förmågor:</translation>
+            <translation>Funktioner:</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Dynamic Capabilities:</source>
-            <translation>Dynamiska förmågor:</translation>
+            <translation>Dynamiska funktioner:</translation>
         </message>
         <message>
             <location line="+2" />
@@ -47029,7 +47029,7 @@ Se dokumentationen för den specifika språkservern för giltiga inställningar.
         <message>
             <location line="+20" />
             <source>Server Capabilities</source>
-            <translation>Serverförmågor</translation>
+            <translation>Serverfunktioner</translation>
         </message>
         <message>
             <location line="+54" />
@@ -47084,7 +47084,7 @@ Se dokumentationen för den specifika språkservern för giltiga inställningar.
         <message>
             <location line="+1" />
             <source>Capabilities</source>
-            <translation>Förmågor</translation>
+            <translation>Funktioner</translation>
         </message>
         <message>
             <location line="-45" />
