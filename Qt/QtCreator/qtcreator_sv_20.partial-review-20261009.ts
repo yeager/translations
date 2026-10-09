@@ -52879,7 +52879,7 @@ Vill du ignorera dem?</translation>
             <location line="-906" />
             <location line="+20" />
             <source>Project Editing Failed</source>
-            <translation>Projektredigering misslyckades</translation>
+            <translation>Kunde inte redigera projektet</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projectcommentssettings.cpp" line="+148" />
@@ -52909,7 +52909,7 @@ Vill du ignorera dem?</translation>
         <message>
             <location line="+168" />
             <source>Issues from a task list file (.tasks).</source>
-            <translation>Problem från en aktivitetslista fil (.tasks).</translation>
+            <translation>Problem från en uppgiftslistfil (.tasks).</translation>
         </message>
         <message>
             <location line="+5" />
@@ -52919,7 +52919,7 @@ Vill du ignorera dem?</translation>
         <message>
             <location line="+219" />
             <source>&lt;h3&gt;Project already open&lt;/h3&gt;</source>
-            <translation>&lt;h3&gt;Projektet är redan öppnat&lt;/h3&gt;</translation>
+            <translation>&lt;h3&gt;Projektet är redan öppet&lt;/h3&gt;</translation>
         </message>
         <message>
             <location line="+72" />
@@ -52928,11 +52928,11 @@ Vill du ignorera dem?</translation>
         </message>
         <message>
             <source>The following files could not be renamed: %1</source>
-            <translation>Följande filer kunde inte namnbytas: %1</translation>
+            <translation>Följande filer kunde inte döpas om: %1</translation>
         </message>
         <message>
             <source>The following files were renamed, but their project files could not be updated accordingly: %1</source>
-            <translation>Följande filer bytte namn men deras projektfiler kunde inte uppdateras enligt detta: %1</translation>
+            <translation>Följande filer döptes om, men deras projektfiler kunde inte uppdateras: %1</translation>
         </message>
         <message>
             <source>Renaming Did Not Fully Succeed</source>
@@ -52966,7 +52966,7 @@ Vill du ignorera dem?</translation>
         <message>
             <location line="+29" />
             <source>The file "%1" was renamed to "%2", but the following projects could not be automatically changed: %3</source>
-            <translation>Filen "%1" bytte namn till "%2" men följande projekt kunde inte automatiskt ändras: %3</translation>
+            <translation>Filen "%1" döptes om till "%2", men följande projekt kunde inte uppdateras automatiskt: %3</translation>
         </message>
         <message>
             <location line="+22" />
@@ -52981,7 +52981,7 @@ Vill du ignorera dem?</translation>
         <message>
             <location line="+41" />
             <source>A build is in progress.</source>
-            <translation>En byggnation pågår.</translation>
+            <translation>Ett bygge pågår.</translation>
         </message>
         <message>
             <location line="+19" />
@@ -52991,7 +52991,7 @@ Vill du ignorera dem?</translation>
         <message>
             <location line="+3" />
             <source>Do you want to cancel the build process and close %1 anyway?</source>
-            <translation>Vill du avbryta byggnationsprocessen och stänga %1 ändå?</translation>
+            <translation>Vill du avbryta byggprocessen och ändå stänga %1?</translation>
         </message>
         <message>
             <location line="+162" />
@@ -53016,7 +53016,7 @@ Vill du ignorera dem?</translation>
         <message>
             <location line="+3" />
             <source>A run action is already scheduled for the active project.</source>
-            <translation>En köråtgärd är redan schemalagt för det aktiva projektet.</translation>
+            <translation>En köråtgärd är redan schemalagd för det aktiva projektet.</translation>
         </message>
         <message>
             <location line="+332" />
@@ -53031,12 +53031,12 @@ Vill du ignorera dem?</translation>
         <message>
             <location line="+2" />
             <source>Adding Subproject Failed</source>
-            <translation>Tilläggning av underprojekt misslyckades</translation>
+            <translation>Kunde inte lägga till underprojekt</translation>
         </message>
         <message>
             <source>Failed opening terminal.
 %1</source>
-            <translation>Misslyckades med att öppna terminal.
+            <translation>Kunde inte öppna terminalen.
 %1</translation>
         </message>
         <message>
@@ -53055,7 +53055,7 @@ Vill du ignorera dem?</translation>
             <location line="+12" />
             <source>File "%1" was not removed, because the project has changed in the meantime.
 Please try again.</source>
-            <translation>Filen "%1" togs inte bort därför att projektet har ändrats under tiden.
+            <translation>Filen "%1" togs inte bort eftersom projektet har ändrats under tiden.
 Försök igen.</translation>
         </message>
         <message>
@@ -53082,7 +53082,7 @@ Försök igen.</translation>
             <location line="+11" />
             <location line="+9" />
             <source>Duplicating File Failed</source>
-            <translation>Misslyckades duplicera fil</translation>
+            <translation>Kunde inte duplicera filen</translation>
         </message>
         <message>
             <location line="-8" />
