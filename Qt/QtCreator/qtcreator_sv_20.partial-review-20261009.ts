@@ -49302,7 +49302,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+6" />
             <source>&amp;Delete</source>
-            <translation>&amp;Ta bort</translation>
+            <translation>&amp;Radera</translation>
         </message>
         <message>
             <location line="+8" />
@@ -49353,7 +49353,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
             <location line="+8" />
             <location line="+3" />
             <source>Synchronize Browser and Diagram</source>
-            <translation>Synkronisera bläddrare och diagram</translation>
+            <translation>Synkronisera bläddraren med diagrammet</translation>
         </message>
         <message>
             <location line="+1" />
@@ -49373,7 +49373,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+3" />
             <source>Edit Item on Diagram</source>
-            <translation>Redigera post på diagram</translation>
+            <translation>Redigera element i diagrammet</translation>
         </message>
         <message>
             <location line="+3" />
@@ -49413,7 +49413,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+28" />
             <source>Select File Target</source>
-            <translation>Välj filmål</translation>
+            <translation>Välj målfil</translation>
         </message>
         <message>
             <location line="+3" />
@@ -49464,17 +49464,17 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+126" />
             <source>Synchronize Structure with Diagram</source>
-            <translation>Synkronisera struktur med diagram</translation>
+            <translation>Synkronisera strukturen med diagrammet</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Synchronize Diagram with Structure</source>
-            <translation>Synkronisera diagram med struktur</translation>
+            <translation>Synkronisera diagrammet med strukturen</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Keep Synchronized</source>
-            <translation>Behåll synkroniserad</translation>
+            <translation>Håll synkroniserade</translation>
         </message>
         <message>
             <location line="+237" />
@@ -49499,17 +49499,17 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+24" />
             <source>Exporting Selected Elements Failed</source>
-            <translation>Export av valda element misslyckades</translation>
+            <translation>Exporten av markerade element misslyckades</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Exporting the selected elements of the current diagram into file&lt;br&gt;"%1"&lt;br&gt;failed.</source>
-            <translation>Export av valda element för aktuella diagrammet till filen&lt;br&gt;"%1"&lt;br&gt;misslyckades.</translation>
+            <translation>Exporten av det aktuella diagrammets markerade element till filen&lt;br&gt;"%1"&lt;br&gt;misslyckades.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Exporting Diagram Failed</source>
-            <translation>Export av diagram misslyckades</translation>
+            <translation>Exporten av diagrammet misslyckades</translation>
         </message>
         <message>
             <location line="+1" />
@@ -49579,7 +49579,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+4" />
             <source>Swimlane</source>
-            <translation>Swimlane Ordförande</translation>
+            <translation>Simbana</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/modeleditor/modelsmanager.cpp" line="+101" />
