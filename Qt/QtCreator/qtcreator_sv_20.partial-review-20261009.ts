@@ -24863,8 +24863,8 @@ förutsatt att de var oförändrade före åtgärden.</translation>
             <location filename="../../../src/plugins/coreplugin/locator/directoryfilter.cpp" line="+14" />
             <source>Specify a short word/abbreviation that can be used to restrict completions to files from this directory tree.
 To do this, you type this shortcut and a space in the Locator entry field, and then the word to search for.</source>
-            <translation>Ange ett kort ord/förkortning som kan användas för att begränsa kompletteringar till filer från katalogträdet. För
-att göra det skriver du in genvägen och ett utrymme i fältet för att söka efter och sedan ordet att söka efter.</translation>
+            <translation>Ange ett kort ord eller en förkortning som kan användas för att begränsa kompletteringar till filer i det här katalogträdet.
+Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökrutan och sedan ordet som ska sökas efter.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/dialogs/externaltoolconfig.cpp" line="-2" />
@@ -24896,7 +24896,7 @@ att göra det skriver du in genvägen och ett utrymme i fältet för att söka e
         <message>
             <location line="+1" />
             <source>Opens a file given by a relative path to the current document, or absolute path. "~" refers to your home directory. You have the option to create a file if it does not exist yet.</source>
-            <translation>Öppnar en fil som anges av en relativ sökväg till det aktuella dokumentet, eller den absoluta sökvägen. "~" hänvisar till hemkatalogen. Du har möjlighet att skapa en fil om den inte finns ännu.</translation>
+            <translation>Öppnar en fil som anges med en relativ sökväg till det aktuella dokumentet eller med en absolut sökväg. ”~” syftar på hemkatalogen. Du kan skapa filen om den inte redan finns.</translation>
         </message>
         <message>
             <location line="-64" />
@@ -24906,7 +24906,7 @@ att göra det skriver du in genvägen och ett utrymme i fältet för att söka e
         <message>
             <location line="-13" />
             <source>Create "%1"?</source>
-            <translation>Skapa "%1"?</translation>
+            <translation>Skapa ”%1”?</translation>
         </message>
         <message>
             <location line="+6" />
@@ -24926,7 +24926,7 @@ att göra det skriver du in genvägen och ett utrymme i fältet för att söka e
         <message>
             <location line="+1" />
             <source>Cannot create file "%1".</source>
-            <translation>Kan inte skapa filen "%1".</translation>
+            <translation>Det går inte att skapa filen ”%1”.</translation>
         </message>
         <message>
             <location line="+15" />
@@ -24936,12 +24936,12 @@ att göra det skriver du in genvägen och ett utrymme i fältet för att söka e
         <message>
             <location line="+180" />
             <source>Create and Open File "%1"</source>
-            <translation>Skapa och öppna filen "%1"</translation>
+            <translation>Skapa och öppna filen ”%1”</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Create Directory "%1"</source>
-            <translation>Skapa katalogen "%1"</translation>
+            <translation>Skapa katalogen ”%1”</translation>
         </message>
         <message>
             <location line="+55" />
@@ -24993,12 +24993,12 @@ att göra det skriver du in genvägen och ett utrymme i fältet för att söka e
         <message>
             <location line="+6" />
             <source>Triggers a web search with the selected search engine.</source>
-            <translation>Utlöser en webbsökning med markerade sökmotorn.</translation>
+            <translation>Utlöser en webbsökning med den valda sökmotorn.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Triggers a search in the Qt bug tracker.</source>
-            <translation>Utlöser en sökning i Qt-felhanteraren.</translation>
+            <translation>Utlöser en sökning i Qt:s felhanterare.</translation>
         </message>
         <message>
             <location line="+31" />
@@ -25023,12 +25023,12 @@ att göra det skriver du in genvägen och ett utrymme i fältet för att söka e
         <message>
             <location line="+79" />
             <source>Updating Locator Caches</source>
-            <translation>Uppdatera lokaliseringshål</translation>
+            <translation>Uppdaterar sökrutans cache</translation>
         </message>
         <message>
             <location line="-352" />
             <source>Open as Centered Popup</source>
-            <translation>Öppna som centrerad popupruta</translation>
+            <translation>Öppna som centrerad dialogruta</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/locator/locatorwidget.cpp" line="+681" />
@@ -25075,7 +25075,7 @@ att göra det skriver du in genvägen och ett utrymme i fältet för att söka e
         <message>
             <location line="+2" />
             <source>Locator filters that do not update their cached data immediately, such as the custom directory filters, update it after this time interval.</source>
-            <translation>Sökfilter som inte uppdaterar sina cachade data omedelbart, såsom anpassade katalogfilter, uppdatera det efter detta tidsintervall.</translation>
+            <translation>Sökfilter som inte uppdaterar sina cachelagrade data omedelbart, till exempel egna katalogfilter, uppdaterar dem efter detta tidsintervall.</translation>
         </message>
         <message>
             <location line="-16" />
