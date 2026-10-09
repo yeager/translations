@@ -6099,7 +6099,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Enable Depth Prepass</source>
-        <translation>Aktivera djupförpassning</translation>
+        <translation>Aktivera separat djupåtergivningspass</translation>
     </message>
     <message>
         <source>Enables draw depth buffer as a separate pass. Disable to optimize render speed for layers with low depth complexity.</source>
@@ -72715,7 +72715,7 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Enable Depth Prepass</source>
-        <translation>Aktivera djupförpassning</translation>
+        <translation>Aktivera separat djupåtergivningspass</translation>
     </message>
     <message>
         <source>Enables draw depth buffer as a separate pass. Disable to optimize render speed for layers with low depth complexity.</source>
@@ -72727,7 +72727,7 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Additional render settings for debugging scenes.</source>
-        <translation>Ytterligare renderingsinställningar för felsökning av scener.</translation>
+        <translation>Ytterligare återgivningsinställningar för felsökning av scener.</translation>
     </message>
     <message>
         <source>Light Mapper</source>
@@ -72961,7 +72961,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
     <name>ShaderSection</name>
     <message>
         <source>Shader</source>
-        <translation>Skuggprogram</translation>
+        <translation>Shaderprogram</translation>
     </message>
     <message>
         <source>Source</source>
@@ -72969,7 +72969,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
     </message>
     <message>
         <source>Sets the shader source code.</source>
-        <translation>Anger skuggprogrammets källkod.</translation>
+        <translation>Anger shaderprogrammets källkod.</translation>
     </message>
     <message>
         <source>Stage</source>
@@ -72977,7 +72977,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
     </message>
     <message>
         <source>Sets the shader stage.</source>
-        <translation>Anger skuggprogrammets steg.</translation>
+        <translation>Anger shaderprogrammets steg.</translation>
     </message>
 </context>
 <context>
@@ -73039,7 +73039,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
     <name>SkinSection</name>
     <message>
         <source>Skin</source>
-        <translation>Hud</translation>
+        <translation>Skin</translation>
     </message>
 </context>
 <context>
@@ -73536,7 +73536,7 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     </message>
     <message>
         <source>Sets the minimum number of samples used for performing Parallax Occlusion Mapping using the heightMap.</source>
-        <translation>Anger minsta antal samplingar som används för parallaxocklusionsmappning med heightMap.</translation>
+        <translation>Anger minsta antal prover som används för parallaxocklusionsmappning med heightMap.</translation>
     </message>
     <message>
         <source>Max Map Samples</source>
@@ -73544,7 +73544,7 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     </message>
     <message>
         <source>Sets the maximum number of samples used for performing Parallax Occlusion Mapping using the heightMap.</source>
-        <translation>Anger största antal samplingar som används för parallaxocklusionsmappning med heightMap.</translation>
+        <translation>Anger största antal prover som används för parallaxocklusionsmappning med heightMap.</translation>
     </message>
     <message>
         <source>Clearcoat</source>
@@ -73600,7 +73600,7 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     </message>
     <message>
         <source>Transmission Factor</source>
-        <translation>Transmissionsfaktor</translation>
+        <translation>Genomsläppsfaktor</translation>
     </message>
     <message>
         <source>Sets the base percentage of light that is transmitted through the surface.</source>
@@ -73608,19 +73608,19 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     </message>
     <message>
         <source>Transmission Map</source>
-        <translation>Transmissionskarta</translation>
+        <translation>Genomsläppskarta</translation>
     </message>
     <message>
         <source>Sets a texture that contains the transmission percentage of a the surface.</source>
-        <translation>Anger en textur som innehåller ytans transmissionsprocent.</translation>
+        <translation>Anger en textur som innehåller ytans genomsläppsprocent.</translation>
     </message>
     <message>
         <source>Transmission Channel</source>
-        <translation>Transmissionskanal</translation>
+        <translation>Genomsläppskanal</translation>
     </message>
     <message>
         <source>Sets the texture channel used to read the transmission percentage from transmissionMap.</source>
-        <translation>Anger texturkanalen som används för att läsa transmissionsprocenten från transmissionMap.</translation>
+        <translation>Anger texturkanalen som används för att läsa genomsläppsprocenten från transmissionMap.</translation>
     </message>
     <message>
         <source>Thickness Factor</source>
@@ -73703,7 +73703,7 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     <name>SphereShapeSection</name>
     <message>
         <source>Sphere Shape</source>
-        <translation>Sferisk form</translation>
+        <translation>Sfärisk form</translation>
     </message>
     <message>
         <source>Diameter</source>
@@ -73841,7 +73841,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Platform ID</source>
-        <translation>Plattforms-id</translation>
+        <translation>Plattforms-ID</translation>
     </message>
     <message>
         <source>Depth</source>
