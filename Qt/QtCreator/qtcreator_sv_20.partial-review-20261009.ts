@@ -73430,7 +73430,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="-37" />
             <source>Move Line Up</source>
-            <translation>Flytta rad upp</translation>
+            <translation>Flytta rad uppåt</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73440,7 +73440,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+2" />
             <source>Move Line Down</source>
-            <translation>Flytta rad ner</translation>
+            <translation>Flytta rad nedåt</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73450,7 +73450,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+2" />
             <source>Copy Line Up</source>
-            <translation>Kopiera rad upp</translation>
+            <translation>Kopiera rad uppåt</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73460,7 +73460,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+2" />
             <source>Copy Line Down</source>
-            <translation>Kopiera rad ner</translation>
+            <translation>Kopiera rad nedåt</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73476,8 +73476,8 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
             <location line="+1" />
             <source>Generic text and punctuation tokens.
 Applied to text that matched no other rule.</source>
-            <translation>Generell text och punkteringstecken. Tillämpas
-på text som inte matchade någon annan regel.</translation>
+            <translation>Generell text och skiljetecken.
+Tillämpas på text som inte matchar någon annan regel.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -73487,7 +73487,7 @@ på text som inte matchade någon annan regel.</translation>
         <message>
             <location line="+1" />
             <source>Links that follow symbol under cursor.</source>
-            <translation>Länkar som följer symbol under markör.</translation>
+            <translation>Länkar som följer symbolen under markören.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73517,7 +73517,7 @@ på text som inte matchade någon annan regel.</translation>
         <message>
             <location line="+1" />
             <source>Highlighted search results inside the editor.</source>
-            <translation>Markerade sökresultat inuti redaktören.</translation>
+            <translation>Markerade sökresultat i redigeraren.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -73528,8 +73528,8 @@ på text som inte matchade någon annan regel.</translation>
             <location line="+1" />
             <source>Highlighted search results inside the editor.
 Used to mark read accesses to C++ symbols.</source>
-            <translation>Markerade sökresultat inuti editorn. Används
-för att markera läsåtkomst till C++-symboler.</translation>
+            <translation>Markerade sökresultat i redigeraren.
+Används för att markera läsåtkomst till C++-symboler.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -73540,30 +73540,30 @@ för att markera läsåtkomst till C++-symboler.</translation>
             <location line="+1" />
             <source>Highlighted search results inside the editor.
 Used to mark write accesses to C++ symbols.</source>
-            <translation>Markerade sökresultat inuti editorn. Används
-för att markera skrivåtkomst till C++-symboler.</translation>
+            <translation>Markerade sökresultat i redigeraren.
+Används för att markera skrivåtkomst till C++-symboler.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Search Result Containing function</source>
-            <translation>Sökresultat innehåller funktion</translation>
+            <translation>Sökresultat för omgivande funktion</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Highlighted search results inside the editor.
 Used to mark containing function of the symbol usage.</source>
-            <translation>Markerade sökresultat inuti editorn. Används för
-att markera med funktionen för symbolanvändning.</translation>
+            <translation>Markerade sökresultat i redigeraren.
+Används för att markera den funktion som omsluter symbolanvändningen.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Search Scope</source>
-            <translation>Sökintervall</translation>
+            <translation>Sökområde</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Section where the pattern is searched in.</source>
-            <translation>Avsnitt där mönstret söks in.</translation>
+            <translation>Området där mönstret söks.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -73573,17 +73573,17 @@ att markera med funktionen för symbolanvändning.</translation>
         <message>
             <location line="+1" />
             <source>Displayed when matching parentheses, square brackets or curly brackets are found.</source>
-            <translation>Visar när matchande parenteser, hakparenteser eller lockiga parenteser hittas.</translation>
+            <translation>Visas när matchande parenteser, hakparenteser eller klammerparenteser hittas.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Mismatched Parentheses</source>
-            <translation>Paranteser stämmer inte</translation>
+            <translation>Omaka parenteser</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Displayed when mismatched parentheses, square brackets, or curly brackets are found.</source>
-            <translation>Visas när missmatchade parenteser, hakparenteser eller lockiga parenteser hittas.</translation>
+            <translation>Visas när omaka parenteser, hakparenteser eller klammerparenteser hittas.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -73593,7 +73593,7 @@ att markera med funktionen för symbolanvändning.</translation>
         <message>
             <location line="+1" />
             <source>Displayed when a character is automatically inserted like brackets or quotes.</source>
-            <translation>Visas när ett tecken automatiskt infogas som parenteser eller citationstecken.</translation>
+            <translation>Visas när ett tecken, till exempel en parentes eller ett citattecken, infogas automatiskt.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -73603,7 +73603,7 @@ att markera med funktionen för symbolanvändning.</translation>
         <message>
             <location line="+1" />
             <source>Line where the cursor is placed in.</source>
-            <translation>Rad där markören placeras i.</translation>
+            <translation>Raden där markören finns.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -73613,7 +73613,7 @@ att markera med funktionen för symbolanvändning.</translation>
         <message>
             <location line="+1" />
             <source>Line number located on the left side of the editor where the cursor is placed in.</source>
-            <translation>Radnummer som finns på vänster sida av editorn där markören placeras.</translation>
+            <translation>Radnumret på redigerarens vänstra sida där markören finns.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -73624,8 +73624,8 @@ att markera med funktionen för symbolanvändning.</translation>
             <location line="+1" />
             <source>Occurrences of the symbol under the cursor.
 (Only the background will be applied.)</source>
-            <translation>Förekomsten av symbolen under markören.
-(Endast bakgrunden tillämpas.)</translation>
+            <translation>Förekomster av symbolen under markören.
+(Endast bakgrunden används.)</translation>
         </message>
         <message>
             <location line="+4" />
