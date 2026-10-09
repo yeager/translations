@@ -74644,7 +74644,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
             <location line="-30" />
             <source>Indentation settings: %1 (%2)</source>
             <extracomment>%1=policy, %2=size</extracomment>
-            <translation>Indenteringsinställningar: %1 (%2)</translation>
+            <translation>Indragsinställningar: %1 (%2)</translation>
         </message>
         <message>
             <location line="+10" />
@@ -74654,17 +74654,17 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+16" />
             <source>Tab Settings</source>
-            <translation>Fliken Inställningar</translation>
+            <translation>Flikinställningar</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Indent Size</source>
-            <translation>Indent storlek</translation>
+            <translation>Indragsstorlek</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Tab Size</source>
-            <translation>Flikens storlek</translation>
+            <translation>Tabbstorlek</translation>
         </message>
         <message>
             <location line="+19" />
@@ -74674,12 +74674,12 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+935" />
             <source>Unix Line Endings (LF)</source>
-            <translation>Unix radslut (LF)</translation>
+            <translation>Unix-radslut (LF)</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Windows Line Endings (CRLF)</source>
-            <translation>Windows radslut (CRLF)</translation>
+            <translation>Windows-radslut (CRLF)</translation>
         </message>
         <message>
             <location line="+70" />
@@ -74709,7 +74709,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+48" />
             <source>&lt;b&gt;Error:&lt;/b&gt; Could not decode "%1" with "%2"-encoding. Editing not possible.</source>
-            <translation>&lt;b&gt;Fel:&lt;/b&gt; Kunde inte avkoda "%1" med "%2"-kodning. Redigering inte möjlig.</translation>
+            <translation>&lt;b&gt;Fel:&lt;/b&gt; Kunde inte avkoda ”%1” med kodningen ”%2”. Det går inte att redigera.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -74719,17 +74719,17 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1295" />
             <source>Snippet Parse Error</source>
-            <translation>Inklistringsfel för kodsnutt</translation>
+            <translation>Fel vid tolkning av kodsnutt</translation>
         </message>
         <message>
             <location line="+549" />
             <source>A highlight definition was not found for this file. Would you like to download additional highlight definition files?</source>
-            <translation>markeringsdefinition hittades inte för filen. Vill du ladda ner ytterligare markeringsdefinitionsfiler?</translation>
+            <translation>Ingen syntaxmarkeringsdefinition hittades för filen. Vill du hämta ytterligare syntaxmarkeringsdefinitionsfiler?</translation>
         </message>
         <message>
             <location line="+19" />
             <source>More than one highlight definition was found for this file. Which one should be used to highlight this file?</source>
-            <translation>Mer än en markeringsdefinition hittades för filen. Vilken ska användas för att markera filen?</translation>
+            <translation>Fler än en syntaxmarkeringsdefinition hittades för filen. Vilken ska användas för att syntaxmarkera filen?</translation>
         </message>
         <message>
             <location line="+8" />
@@ -74739,49 +74739,49 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+726" />
             <source>Apply</source>
-            <translation>Tillämpa</translation>
+            <translation>Verkställ</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Apply the current suggestion.</source>
-            <translation>Tillämpa det aktuella förslaget.</translation>
+            <translation>Verkställ det aktuella förslaget.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Apply one Word</source>
-            <translation>Tillämpa ett ord</translation>
+            <translation>Verkställ ett ord</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Apply one word of the current suggestion.</source>
-            <translation>Använd ett ord av det aktuella förslaget.</translation>
+            <translation>Verkställ ett ord från det aktuella förslaget.</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Apply one line of the current suggestion.</source>
-            <translation>Använd en rad av det aktuella förslaget.</translation>
+            <translation>Verkställ en rad från det aktuella förslaget.</translation>
         </message>
         <message>
             <location line="+2894" />
             <location filename="../../../src/plugins/texteditor/texteditorplugin.cpp" line="+422" />
             <source>Fold Recursively</source>
-            <translation>Vik upp och ner</translation>
+            <translation>Fäll in rekursivt</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Fold All</source>
-            <translation>Vik alla</translation>
+            <translation>Fäll in alla</translation>
         </message>
         <message>
             <location line="+2" />
             <location filename="../../../src/plugins/texteditor/texteditorplugin.cpp" line="+3" />
             <source>Unfold Recursively</source>
-            <translation>Ouppklarade rekursivt</translation>
+            <translation>Fäll ut rekursivt</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Unfold All</source>
-            <translation>Oviktigt alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <location line="+472" />
@@ -74791,12 +74791,12 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1874" />
             <source>Delete UTF-8 BOM on Save</source>
-            <translation>Ta bort UTF-8 BOM vid spara</translation>
+            <translation>Ta bort UTF-8-BOM vid sparande</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Add UTF-8 BOM on Save</source>
-            <translation>Lägg till UTF-8 BOM vid Spara</translation>
+            <translation>Lägg till UTF-8-BOM vid sparande</translation>
         </message>
         <message>
             <location line="+638" />
@@ -74824,12 +74824,12 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+2" />
             <source>Trigger Variant</source>
-            <translation>Utlösare Variant</translation>
+            <translation>Utlösarvariant</translation>
         </message>
         <message>
             <location line="+53" />
             <source>Error reverting snippet.</source>
-            <translation>Fel vid återställning av snippet.</translation>
+            <translation>Fel när kodsnutten återställdes.</translation>
         </message>
         <message>
             <location line="+111" />
@@ -74844,7 +74844,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="-153" />
             <source>Error While Saving Snippet Collection</source>
-            <translation>Fel när Snippet- samling skulle sparas</translation>
+            <translation>Fel när kodsnuttssamlingen skulle sparas</translation>
         </message>
         <message>
             <location line="+69" />
@@ -74860,7 +74860,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location filename="../../../src/plugins/texteditor/snippets/snippetscollection.cpp" line="+285" />
             <source>Cannot create user snippet directory %1</source>
-            <translation>Kan inte skapa användarslippet- katalog %1</translation>
+            <translation>Kan inte skapa användarkatalogen för kodsnuttar %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/codestyleselectorwidget.cpp" line="+11" />
