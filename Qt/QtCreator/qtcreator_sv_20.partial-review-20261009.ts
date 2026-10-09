@@ -18965,17 +18965,17 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+29" />
             <source>Miscellaneous</source>
-            <translation>Diverse</translation>
+            <translation>Övrigt</translation>
         </message>
         <message>
             <location line="-19" />
             <source>When checked, all files touched by a commit will be displayed when clicking on a revision number in the annotation view (retrieved via commit ID). Otherwise, only the respective file will be displayed.</source>
-            <translation>Om markerad, visas alla filer som berörs av ett åtagande när du klickar på ett revisionsnummer i kommentarsvyn (återsänd via åtagande-ID). Annars visas bara respektive fil.</translation>
+            <translation>När rutan är markerad visas alla filer som berörs av en incheckning när du klickar på ett revisionsnummer i annoteringsvyn (hämtas via inchecknings-id). Annars visas bara respektive fil.</translation>
         </message>
         <message>
             <location line="-1" />
             <source>Describe all files matching commit id</source>
-            <translation>Beskriv alla filer som matchar id- id</translation>
+            <translation>Beskriv alla filer som matchar inchecknings-id</translation>
         </message>
         <message>
             <source>CVS Checkout</source>
@@ -19004,17 +19004,17 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="-10" />
             <source>Diff Current File</source>
-            <translation>Diff aktuell fil</translation>
+            <translation>Jämför aktuell fil</translation>
         </message>
         <message>
             <location line="-36" />
             <source>Triggers a CVS version control operation.</source>
-            <translation>Utlöser en CVS version kontroll.</translation>
+            <translation>Utlöser en versionshanteringsåtgärd i CVS.</translation>
         </message>
         <message>
             <location line="+36" />
             <source>Diff "%1"</source>
-            <translation>Diff "%1"</translation>
+            <translation>Jämför ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
@@ -19024,17 +19024,17 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+53" />
             <source>Commit All Files</source>
-            <translation>Kom igång med alla filer</translation>
+            <translation>Checka in alla filer</translation>
         </message>
         <message>
             <location line="-44" />
             <source>Commit Current File</source>
-            <translation>Komma med aktuell fil</translation>
+            <translation>Checka in aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Commit "%1"</source>
-            <translation>Kommit med "%1"</translation>
+            <translation>Checka in ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
@@ -19044,27 +19044,27 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="-10" />
             <source>Filelog Current File</source>
-            <translation>Fillogg nuvarande fil</translation>
+            <translation>Fillogg för aktuell fil</translation>
         </message>
         <message>
             <location line="-313" />
             <source>CVS Command Log Editor</source>
-            <translation>CVS- loggeditor för kommandot</translation>
+            <translation>CVS-kommandologgredigerare</translation>
         </message>
         <message>
             <location line="+8" />
             <source>CVS File Log Editor</source>
-            <translation>CVS- filloggeditorName</translation>
+            <translation>CVS-filloggredigerare</translation>
         </message>
         <message>
             <location line="+8" />
             <source>CVS Annotation Editor</source>
-            <translation>CVS- kommentarseditorn</translation>
+            <translation>CVS-annoteringsredigerare</translation>
         </message>
         <message>
             <location line="+8" />
             <source>CVS Diff Editor</source>
-            <translation>CVS jämförelseeditor</translation>
+            <translation>CVS-jämförelseredigerare</translation>
         </message>
         <message>
             <location line="+196" />
@@ -19074,7 +19074,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+44" />
             <source>CVS Commit Editor</source>
-            <translation>CVS Commit Editor</translation>
+            <translation>CVS-incheckningsredigerare</translation>
         </message>
         <message>
             <location line="+48" />
@@ -19084,17 +19084,17 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+1" />
             <source>Filelog "%1"</source>
-            <translation>Fillogg "%1"</translation>
+            <translation>Fillogg för ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Annotate Current File</source>
-            <translation>Anteckna aktuell fil</translation>
+            <translation>Annotera aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Annotate "%1"</source>
-            <translation>Anteckna "%1"</translation>
+            <translation>Annotera ”%1”</translation>
         </message>
         <message>
             <location line="+5" />
@@ -19124,7 +19124,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+0" />
             <source>Revert "%1"...</source>
-            <translation>Återställ %1…</translation>
+            <translation>Återställ ”%1”…</translation>
         </message>
         <message>
             <location line="+5" />
@@ -19134,23 +19134,23 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+0" />
             <source>Edit "%1"</source>
-            <translation>Redigera "%1"</translation>
+            <translation>Redigera ”%1”</translation>
         </message>
         <message>
             <location line="-2" />
             <location line="+434" />
             <source>Unedit</source>
-            <translation>Oredigera</translation>
+            <translation>Avsluta redigering</translation>
         </message>
         <message>
             <location line="-434" />
             <source>Unedit "%1"</source>
-            <translation>Unedit "%1"</translation>
+            <translation>Avsluta redigering av ”%1”</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Unedit Repository</source>
-            <translation>Oredigera arkiv</translation>
+            <translation>Avsluta redigering av arkiv</translation>
         </message>
         <message>
             <source>Project Status</source>
@@ -19177,17 +19177,17 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+2" />
             <source>Commit Directory</source>
-            <translation>Kommit med katalog</translation>
+            <translation>Checka in katalog</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Commit Directory "%1"</source>
-            <translation>Kommit med katalog "%1"</translation>
+            <translation>Checka in katalogen ”%1”</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Diff Repository</source>
-            <translation>Jämförelsearkiv</translation>
+            <translation>Jämför arkiv</translation>
         </message>
         <message>
             <location line="+2" />
