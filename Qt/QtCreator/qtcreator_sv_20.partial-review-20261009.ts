@@ -62713,8 +62713,8 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
             <location line="+3" />
             <source>Links to a library that is located in your build tree.
 Adds the library and include paths to the .pro file.</source>
-            <translation>Länkar till ett bibliotek som finns i byggträdet. Lägger
-till biblioteket och inkluderar sökvägar till .pro-filen.</translation>
+            <translation>Länkar till ett bibliotek som finns i byggträdet.
+Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.</translation>
         </message>
         <message>
             <location line="+124" />
@@ -62744,7 +62744,7 @@ till biblioteket och inkluderar sökvägar till .pro-filen.</translation>
         <message>
             <location line="+1" />
             <source>Specify the library to link to and the includes path</source>
-            <translation>Ange biblioteket att länka till och inkluderar sökväg</translation>
+            <translation>Ange biblioteket att länka till och sökvägen till inkluderingsfilerna</translation>
         </message>
         <message>
             <location line="-7" />
@@ -62784,12 +62784,12 @@ till biblioteket och inkluderar sökvägar till .pro-filen.</translation>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/wizards/subdirsprojectwizard.cpp" line="+27" />
             <source>Subdirs Project</source>
-            <translation>Projekt för underleverantörer</translation>
+            <translation>Underkatalogprojekt</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Creates a qmake-based subdirs project. This allows you to group your projects in a tree structure.</source>
-            <translation>Skapar ett qmake-baserat subdirs-projekt. Detta låter dig gruppera dina projekt i en trädstruktur.</translation>
+            <translation>Skapar ett qmake-baserat underkatalogprojekt. Det gör att du kan gruppera dina projekt i en trädstruktur.</translation>
         </message>
         <message>
             <location line="+12" />
@@ -62815,7 +62815,7 @@ till biblioteket och inkluderar sökvägar till .pro-filen.</translation>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/qmakenodetreebuilder.cpp" line="+44" />
             <source>Headers</source>
-            <translation>Huvuden</translation>
+            <translation>Huvudfiler</translation>
         </message>
         <message>
             <location line="+2" />
@@ -62894,7 +62894,7 @@ till biblioteket och inkluderar sökvägar till .pro-filen.</translation>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/qmakekitaspect.cpp" line="+118" />
             <source>The mkspec to use when building the project with qmake.&lt;br&gt;This setting is ignored when using other build systems.</source>
-            <translation>Den mkspec som används vid byggnation av projektet med qmake.&lt;br&gt;Denna inställning ignoreras när andra byggsystem används.</translation>
+            <translation>Den mkspec som används när projektet byggs med qmake.&lt;br&gt;Den här inställningen ignoreras när andra byggsystem används.</translation>
         </message>
         <message>
             <location line="-1" />
@@ -62904,17 +62904,17 @@ till biblioteket och inkluderar sökvägar till .pro-filen.</translation>
         <message>
             <location line="+13" />
             <source>No Qt version set, so mkspec is ignored.</source>
-            <translation>Ingen Qt-version inställd så mkspec ignoreras.</translation>
+            <translation>Ingen Qt-version har angetts, så mkspec ignoreras.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Mkspec not found for Qt version.</source>
-            <translation>Mkspec hittades inte för Qt-version.</translation>
+            <translation>mkspec hittades inte för Qt-versionen.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>qmake not found for Qt version.</source>
-            <translation>qvake hittades inte för Qt-version.</translation>
+            <translation>qmake hittades inte för Qt-versionen.</translation>
         </message>
         <message>
             <location line="+12" />
@@ -62924,42 +62924,42 @@ till biblioteket och inkluderar sökvägar till .pro-filen.</translation>
         <message>
             <location line="+5" />
             <source>Mkspec configured for qmake by the kit.</source>
-            <translation>Mkspec konfigurerad för qmake av kitet.</translation>
+            <translation>mkspec som har konfigurerats för qmake av kitet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/qmakesettings.cpp" line="+31" />
             <source>Warn if a project's source and build directories are not at the same level</source>
-            <translation>Varna om ett projekts källa och byggkataloger inte är på samma nivå</translation>
+            <translation>Varna om ett projekts käll- och byggkataloger inte ligger på samma nivå</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Qmake has subtle bugs that can be triggered if source and build directory are not at the same level.</source>
-            <translation>Qmake har subtila buggar som kan utlösas om källa och byggkatalog inte är på samma nivå.</translation>
+            <translation>qmake har svårupptäckta fel som kan utlösas om käll- och byggkatalogen inte ligger på samma nivå.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Run qmake on every build</source>
-            <translation>Kör qmake för varje byggnation</translation>
+            <translation>Kör qmake vid varje bygge</translation>
         </message>
         <message>
             <location line="+1" />
             <source>This option can help to prevent failures on incremental builds, but might slow them down unnecessarily in the general case.</source>
-            <translation>Detta alternativ kan hjälpa att förhindra fel vid inkrementella byggnationer men kan göra dem långsamma vilket är onödigt i vanliga fall.</translation>
+            <translation>Det här alternativet kan förhindra fel vid inkrementella byggen, men kan göra dem onödigt långsamma.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Ignore qmake's system() function when parsing a project</source>
-            <translation>Ignorera qmakes system()-funktion vid tolkning av ett projekt</translation>
+            <translation>Ignorera system()-funktionen i qmake när ett projekt tolkas</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Checking this option avoids unwanted side effects, but may result in inexact parsing results.</source>
-            <translation>Kontrollerar om detta alternativ undviker oönskade sidoeffekter men kan resultera i inexakta tolkningsresultat.</translation>
+            <translation>Om du markerar det här alternativet undviks oönskade sidoeffekter, men tolkningen kan bli inexakt.</translation>
         </message>
         <message>
             <location line="+22" />
             <source>Qmake</source>
-            <translation>Qmake</translation>
+            <translation>qmake</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/wizards/qtwizard.cpp" line="+143" />
@@ -62969,22 +62969,22 @@ till biblioteket och inkluderar sökvägar till .pro-filen.</translation>
         <message>
             <location line="+6" />
             <source>Qt version does not target the expected platform.</source>
-            <translation>Qt-versionen har inte förväntad plattform som mål.</translation>
+            <translation>Qt-versionen riktar sig inte mot den förväntade plattformen.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Qt version does not provide all features.</source>
-            <translation>Qt-versionen tillhandahåller inte alla funktioner.</translation>
+            <translation>Qt-versionen har inte alla funktioner.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/wizards/subdirsprojectwizarddialog.cpp" line="+24" />
             <source>This wizard generates a Qt Subdirs project. Add subprojects to it later on by using the other wizards.</source>
-            <translation>Denna guide genererar ett Qt Subdirs-projekt. Lägg till underprojekt till det senare genom att använda andra guider.</translation>
+            <translation>Den här guiden genererar ett Qt-underkatalogprojekt. Lägg till underprojekt senare med de andra guiderna.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/profileeditor.cpp" line="+257" />
             <source>.pro File Editor</source>
-            <translation>.pro- fileditorName</translation>
+            <translation>.pro-fileditor</translation>
         </message>
     </context>
     <context>
