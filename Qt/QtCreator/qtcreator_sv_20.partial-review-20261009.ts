@@ -63087,12 +63087,12 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
         <message>
             <location filename="../../../src/libs/qmleditorwidgets/contextpanewidgetimage.cpp" line="+80" />
             <source>Stretch vertically. Scales the image to fit to the available area.</source>
-            <translation>Sträck vertikalt. Skalar bilden så att den passar till det tillgängliga området.</translation>
+            <translation>Sträck ut vertikalt. Skalar bilden så att den fyller det tillgängliga området.</translation>
         </message>
         <message>
             <location line="-2" />
             <source>Repeat vertically. Tiles the image until there is no more space. May crop the last image.</source>
-            <translation>Upprepa vertikalt. Lutar bilden tills det inte finns mer utrymme. Kan beskära den sista bilden.</translation>
+            <translation>Upprepa vertikalt. Upprepar bilden tills det inte finns mer utrymme. Den sista bilden kan beskäras.</translation>
         </message>
         <message>
             <location line="-10" />
@@ -63103,47 +63103,47 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
             <location line="+14" />
             <location line="+11" />
             <source>Round. Like Repeat, but scales the images down to ensure that the last image is not cropped.</source>
-            <translation>Runda. Som Upprepa, men skala bilderna ner för att säkerställa att den sista bilden inte beskärs.</translation>
+            <translation>Runda. Som Upprepa, men skalar ned bilderna så att den sista bilden inte beskärs.</translation>
         </message>
         <message>
             <location line="-4" />
             <source>Repeat horizontally. Tiles the image until there is no more space. May crop the last image.</source>
-            <translation>Upprepa horisontellt. Lutar bilden tills det inte finns mer utrymme. Kan beskära den sista bilden.</translation>
+            <translation>Upprepa horisontellt. Upprepar bilden tills det inte finns mer utrymme. Den sista bilden kan beskäras.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Stretch horizontally. Scales the image to fit to the available area.</source>
-            <translation>Stretch horisontellt. Skalar bilden så att den passar till det tillgängliga området.</translation>
+            <translation>Sträck ut horisontellt. Skalar bilden så att den fyller det tillgängliga området.</translation>
         </message>
         <message>
             <location line="+44" />
             <source>The image is scaled to fit.</source>
-            <translation>Bilden är skalad till att passa.</translation>
+            <translation>Bilden skalas så att den passar.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The image is stretched horizontally and tiled vertically.</source>
-            <translation>Bilden sträcks horisontellt och kaklas vertikalt.</translation>
+            <translation>Bilden sträcks horisontellt och upprepas vertikalt.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The image is stretched vertically and tiled horizontally.</source>
-            <translation>Bilden sträcks vertikalt och kaklas horisontellt.</translation>
+            <translation>Bilden sträcks vertikalt och upprepas horisontellt.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>The image is duplicated horizontally and vertically.</source>
-            <translation>Bilden dupliceras horisontellt och vertikalt.</translation>
+            <translation>Bilden upprepas horisontellt och vertikalt.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The image is scaled uniformly to fit without cropping.</source>
-            <translation>Bilden är skalad enhetligt för att passa utan beskärning.</translation>
+            <translation>Bilden skalas likformigt så att den passar utan beskärning.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The image is scaled uniformly to fill, cropping if necessary.</source>
-            <translation>Bilden är skalad enhetligt för att fylla ut, beskärs om nödvändigt.</translation>
+            <translation>Bilden skalas likformigt för att fylla området och beskärs vid behov.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/qmleditorwidgets/contextpanewidgetrectangle.cpp" line="+43" />
@@ -63163,7 +63163,7 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
         <message>
             <location filename="../../../src/libs/qmleditorwidgets/easingpane/easingcontextpane.cpp" line="+153" />
             <source>Easing</source>
-            <translation>Lättnader</translation>
+            <translation>Utjämning</translation>
         </message>
         <message>
             <location line="+5" />
@@ -63183,12 +63183,12 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
         <message>
             <location line="+5" />
             <source>Type of easing curve.</source>
-            <translation>Typ av avlastande kurv.</translation>
+            <translation>Typ av utjämningskurva.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Acceleration or deceleration of easing curve.</source>
-            <translation>Acceleration eller retardation av lättande kurv.</translation>
+            <translation>Utjämningskurvans acceleration eller inbromsning.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -63203,32 +63203,32 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
         <message>
             <location line="+4" />
             <source>Amplitude of elastic and bounce easing curves.</source>
-            <translation>Amplitude av elastisk och studsar lätta kurvor.</translation>
+            <translation>Amplitud för elastiska utjämningskurvor och studskurvor.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Easing period of an elastic curve.</source>
-            <translation>Lättare period av en elastisk kurva.</translation>
+            <translation>Utjämningsperioden för en elastisk kurva.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Easing overshoot for a back curve.</source>
-            <translation>Lättar på överskott för en bakåtkurva.</translation>
+            <translation>Överskjutning för en bakåtkurva.</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Amplitude</source>
-            <translation>Omfång</translation>
+            <translation>Amplitud</translation>
         </message>
         <message>
             <location line="-4" />
             <source>Period</source>
-            <translation>Period för vilken det inte fanns några uppgifter</translation>
+            <translation>Period</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Overshoot</source>
-            <translation>Överskridande</translation>
+            <translation>Överskjutning</translation>
         </message>
         <message>
             <location filename="../../../src/libs/qmleditorwidgets/contextpanewidget.cpp" line="+129" />
@@ -63238,7 +63238,7 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
         <message>
             <location line="+20" />
             <source>Pin Toolbar</source>
-            <translation>Pin- verktygsrad</translation>
+            <translation>Fäst verktygsrad</translation>
         </message>
         <message>
             <location line="+5" />
@@ -63248,7 +63248,7 @@ Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.
         <message>
             <location line="+295" />
             <source>Unpins the toolbar and moves it to the default position.</source>
-            <translation>Ta bort verktygsraden och flytta den till förvald position.</translation>
+            <translation>Lösgör verktygsraden och flyttar den till standardpositionen.</translation>
         </message>
         <message>
             <location line="+14" />
