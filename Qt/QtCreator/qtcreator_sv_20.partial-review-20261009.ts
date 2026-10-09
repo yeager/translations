@@ -76242,7 +76242,7 @@ Påverkar indraget för fortsättningsrader.
         <message>
             <location line="+9" />
             <source>Show zoom slider.</source>
-            <translation>Visa zoomdraglisten.</translation>
+            <translation>Visa zoomreglaget.</translation>
         </message>
         <message>
             <location line="+11" />
@@ -76253,7 +76253,7 @@ Påverkar indraget för fortsättningsrader.
             <location line="+11" />
             <location filename="../../../src/libs/tracing/qml/RangeDetails.qml" line="+100" />
             <source>View event information on mouseover.</source>
-            <translation>Visa händelseinformation vid mushovring.</translation>
+            <translation>Visa händelseinformation när muspekaren hålls över något.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/tracing/qml/CategoryLabel.qml" line="+168" />
@@ -76278,7 +76278,7 @@ Påverkar indraget för fortsättningsrader.
         <message>
             <location line="+38" />
             <source>No data available</source>
-            <translation>Inget data tillgängligt</translation>
+            <translation>Inga data tillgängliga</translation>
         </message>
         <message>
             <location filename="../../../src/libs/tracing/qml/RangeDetails.qml" line="-10" />
@@ -76314,8 +76314,8 @@ Påverkar indraget för fortsättningsrader.
             <location line="+122" />
             <source>Could not re-read events from temporary trace file: %1
 The trace data is lost.</source>
-            <translation>Kunde inte läsa om händelser från tillfällig
-spårfil: %1 Spårdatan är förlorad.</translation>
+            <translation>Det gick inte att läsa in händelserna på nytt från den tillfälliga spårfilen: %1
+Spårdata har gått förlorade.</translation>
         </message>
     </context>
     <context>
