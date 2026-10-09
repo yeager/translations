@@ -55977,7 +55977,7 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="+86" />
             <source>Creates a QML file with boilerplate code, starting with "import QtQuick".</source>
-            <translation>Skapar en QML-fil med standardformuleringskod, börjar med "import QtQuick".</translation>
+            <translation>Skapar en QML-fil med standardkod som börjar med "import QtQuick".</translation>
         </message>
         <message>
             <location line="+2" />
@@ -56022,12 +56022,12 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="-170" />
             <source>Qt Quick 2 Extension Plugin</source>
-            <translation>Insticksprogram för Qt Snabb 2- förlängning</translation>
+            <translation>Qt Quick 2-tillägg</translation>
         </message>
         <message>
             <location line="+171" />
             <source>Qt Creator build:</source>
-            <translation>Qt skapare bygga:</translation>
+            <translation>Qt Creator-bygge:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/customwizard/customwizardpage.cpp" line="+412" />
@@ -56046,7 +56046,7 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location filename="../../../src/plugins/projectexplorer/dependenciespanel.cpp" line="-160" />
             <source>&lt;No other projects in this session&gt;</source>
-            <translation>&lt;Inga andra projekt i denna session&gt;</translation>
+            <translation>&lt;Inga andra projekt i den här sessionen&gt;</translation>
         </message>
         <message>
             <location line="+166" />
@@ -56111,7 +56111,7 @@ Display name of the build build step list. Used as part of the labels in the pro
         <message>
             <location line="+6" />
             <source>The name of the kit.</source>
-            <translation>Namnet för kitet.</translation>
+            <translation>Namnet på kitet.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -56121,7 +56121,7 @@ Display name of the build build step list. Used as part of the labels in the pro
         <message>
             <location line="+4" />
             <source>The ID of the kit.</source>
-            <translation>ID för kitet.</translation>
+            <translation>Kitets ID.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/devicesupport/devicekitaspects.cpp" line="+137" />
@@ -56157,22 +56157,22 @@ Display name of the build build step list. Used as part of the labels in the pro
         <message>
             <location line="+11" />
             <source>&lt;style type=text/css&gt;a:link {color: rgb(128, 128, 255);}&lt;/style&gt;The project &lt;b&gt;%1&lt;/b&gt; is not yet configured&lt;br/&gt;&lt;br/&gt;You can configure it in the &lt;a href="projectmode"&gt;Projects mode&lt;/a&gt;&lt;br/&gt;</source>
-            <translation>&lt;style type=text/css&gt;a:link {color: rgb(128, 128, 255);}&lt;/style&gt;Projektet &lt;b&gt;%1&lt;/b&gt; är ännu inte konfigurerat&lt;br/&gt;&lt;br/&gt;Du kan konfigurera det i &lt;a href="projectmode"&gt;Projekt-läget&lt;/a&gt;&lt;br/&gt;</translation>
+            <translation>&lt;style type=text/css&gt;a:link {color: rgb(128, 128, 255);}&lt;/style&gt;Projektet &lt;b&gt;%1&lt;/b&gt; är ännu inte konfigurerat&lt;br/&gt;&lt;br/&gt;Du kan konfigurera det i &lt;a href="projectmode"&gt;läget Projekt&lt;/a&gt;&lt;br/&gt;</translation>
         </message>
         <message>
             <location line="-37" />
             <source>&lt;b&gt;Build:&lt;/b&gt; %1</source>
-            <translation>&lt;b&gt;Bygg:&lt;/b&gt; %1</translation>
+            <translation>&lt;b&gt;Bygge:&lt;/b&gt; %1</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&lt;b&gt;Deploy:&lt;/b&gt; %1</source>
-            <translation>&lt;b&gt;Distribuera:&lt;/b&gt; %1</translation>
+            <translation>&lt;b&gt;Distribution:&lt;/b&gt; %1</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&lt;b&gt;Run:&lt;/b&gt; %1</source>
-            <translation>&lt;b&gt;Kör:&lt;/b&gt; %1</translation>
+            <translation>&lt;b&gt;Körning:&lt;/b&gt; %1</translation>
         </message>
         <message>
             <location line="+19" />
@@ -56182,17 +56182,17 @@ Display name of the build build step list. Used as part of the labels in the pro
         <message>
             <location line="+5" />
             <source>Build: &lt;b&gt;%1&lt;/b&gt;&lt;br/&gt;</source>
-            <translation>Bygg: &lt;b&gt;%1&lt;/b&gt;&lt;br/&gt;</translation>
+            <translation>Bygge: &lt;b&gt;%1&lt;/b&gt;&lt;br/&gt;</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Deploy: &lt;b&gt;%1&lt;/b&gt;&lt;br/&gt;</source>
-            <translation>Distribuera: &lt;b&gt;%1&lt;/b&gt;&lt;br/&gt;</translation>
+            <translation>Distribution: &lt;b&gt;%1&lt;/b&gt;&lt;br/&gt;</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Run: &lt;b&gt;%1&lt;/b&gt;&lt;br/&gt;</source>
-            <translation>Kör: &lt;b&gt;%1&lt;/b&gt;&lt;br/&gt;</translation>
+            <translation>Körning: &lt;b&gt;%1&lt;/b&gt;&lt;br/&gt;</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/kit.cpp" line="+118" />
@@ -56227,11 +56227,11 @@ Display name of the build build step list. Used as part of the labels in the pro
         <message>
             <location filename="../../../src/plugins/coreplugin/sessiondialog.cpp" line="-59" />
             <source>Enter the name of the session:</source>
-            <translation>Ange namnet för sessionen:</translation>
+            <translation>Ange sessionsnamnet:</translation>
         </message>
         <message>
             <source>No kit defined in this project.</source>
-            <translation>Inga kit definierade i detta projekt.</translation>
+            <translation>Det finns inga kit definierade i projektet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/project.cpp" line="+1" />
@@ -56242,7 +56242,7 @@ Display name of the build build step list. Used as part of the labels in the pro
             <location line="+482" />
             <location filename="../../../src/plugins/projectexplorer/targetsetuppage.cpp" line="+45" />
             <source>Kit is not valid.</source>
-            <translation>Kit är inte giltigt.</translation>
+            <translation>Kitet är inte giltigt.</translation>
         </message>
         <message>
             <location line="+12" />
