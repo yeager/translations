@@ -73062,7 +73062,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
     </message>
     <message>
         <source>Whether the slider provides live value updates.</source>
-        <translation>Om reglaget ger direkta värdeuppdateringar.</translation>
+        <translation>Anger om reglaget ger direkta värdeuppdateringar.</translation>
     </message>
     <message>
         <source>From</source>
@@ -73086,7 +73086,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
     </message>
     <message>
         <source>The step size of the slider.</source>
-        <translation>Skjutreglagets steglängd.</translation>
+        <translation>Skjutreglagets stegstorlek.</translation>
     </message>
     <message>
         <source>Drag threshold</source>
@@ -73114,7 +73114,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
     </message>
     <message>
         <source>Current value of the Slider. The default value is 0.0.</source>
-        <translation>Skjutreglagets aktuella värde. Standardvärdet är 0,0.</translation>
+        <translation>Skjutreglagets aktuella värde. Standardvärdet är 0.0.</translation>
     </message>
     <message>
         <source>Maximum value</source>
@@ -73122,7 +73122,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
     </message>
     <message>
         <source>Maximum value of the slider. The default value is 1.0.</source>
-        <translation>Skjutreglagets högsta värde. Standardvärdet är 1,0.</translation>
+        <translation>Skjutreglagets högsta värde. Standardvärdet är 1.0.</translation>
     </message>
     <message>
         <source>Minimum value</source>
@@ -73130,7 +73130,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
     </message>
     <message>
         <source>Minimum value of the slider. The default value is 0.0.</source>
-        <translation>Skjutreglagets lägsta värde. Standardvärdet är 0,0.</translation>
+        <translation>Skjutreglagets lägsta värde. Standardvärdet är 0.0.</translation>
     </message>
     <message>
         <source>Layout orientation of the slider.</source>
@@ -73150,11 +73150,11 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
     </message>
     <message>
         <source>Tick marks enabled</source>
-        <translation>Graderingsmarkeringar aktiverade</translation>
+        <translation>Skalstreck aktiverade</translation>
     </message>
     <message>
         <source>Indicates whether the slider should display tick marks at step intervals.</source>
-        <translation>Anger om reglaget ska visa graderingsmarkeringar vid stegintervall.</translation>
+        <translation>Anger om reglaget ska visa skalstreck vid stegintervall.</translation>
     </message>
     <message>
         <source>Update value while dragging</source>
@@ -74545,7 +74545,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Sets the stroke color of the boundary.</source>
-        <translation>Anger linjefärgen för gränsen.</translation>
+        <translation>Anger konturens linjefärg.</translation>
     </message>
     <message>
         <source>Stroke width</source>
@@ -74553,7 +74553,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Sets the stroke thickness of the boundary.</source>
-        <translation>Anger gränsens linjetjocklek.</translation>
+        <translation>Anger konturens linjetjocklek.</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -75481,7 +75481,7 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     <name>TiltShiftSection</name>
     <message>
         <source>Tilt Shift</source>
-        <translation>Tilt shift</translation>
+        <translation>Tilt-shift</translation>
     </message>
     <message>
         <source>Focus Position</source>
