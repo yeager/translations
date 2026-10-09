@@ -32260,22 +32260,22 @@ får en signal som SIGSEGV vid felsökning.</translation>
         <message>
             <location line="+6" />
             <source>Enable heap debugging</source>
-            <translation>Aktivera felsökning av hög</translation>
+            <translation>Aktivera felsökning av heapen</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Allocate memory using the debug heap rather than the normal heap. The debug heap enables additional checks to help diagnose heap related bugs. However it comes at a performance cost when allocating memory in the debugged process.</source>
-            <translation>Tilldela minne med felsökningshögen istället för den normala. Felsökningshögen möjliggör ytterligare kontroller för att hjälpa till att diagnostisera felhögar. Det kommer dock till en prestandakostnad vid tilldelning av minne i felsökningsprocessen.</translation>
+            <translation>Allokera minne med felsökningsheapen i stället för den vanliga heapen. Felsökningsheapen gör ytterligare kontroller för att hjälpa till att diagnostisera heaprelaterade fel. Detta påverkar dock prestandan när minne allokeras i den felsökta processen.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="+210" />
             <source>Show "std::" namespace in types</source>
-            <translation>Visa "std::" namnrymd i typer</translation>
+            <translation>Visa namnrymden ”std::” i typer</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Shows "std::" prefix for types from the standard library.</source>
-            <translation>Visar "std:" prefix för typer från standardbiblioteket.</translation>
+            <translation>Visar prefixet ”std::” för typer från standardbiblioteket.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -32285,22 +32285,22 @@ får en signal som SIGSEGV vid felsökning.</translation>
         <message>
             <location line="+2" />
             <source>Shows Qt namespace prefix for Qt types. This is only relevant if Qt was configured with "-qtnamespace".</source>
-            <translation>Visar förfix för Qt- namnrymd för Qt- typer. Det är bara relevant om Qt var konfigurerad med "- qtnamespace".</translation>
+            <translation>Visar Qt-namnprefixet för Qt-typer. Det är endast relevant om Qt konfigurerades med ”-qtnamespace”.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Show QObject names if available</source>
-            <translation>Visa QObject namn om tillgängligt</translation>
+            <translation>Visa QObject-namn om de är tillgängliga</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Displays the objectName property of QObject based items. Note that this can negatively impact debugger performance even if no QObjects are present.</source>
-            <translation>Visar objektets namn egenskap hos QObject-baserade objekt. Observera att detta kan påverka felsökningsprestandan negativt även om inga QObjects finns.</translation>
+            <translation>Visar egenskapen objectName för QObject-baserade objekt. Observera att detta kan påverka felsökarens prestanda negativt även om inga QObject-objekt finns.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggeractions.cpp" line="+8" />
             <source>Sort members of classes and structs alphabetically</source>
-            <translation>Sortera medlemmar i klasser och structs alfabetiskt</translation>
+            <translation>Sortera medlemmar i klasser och strukturer alfabetiskt</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/gdb/gdbsettings.cpp" line="+15" />
@@ -32314,21 +32314,21 @@ was generated. In such situations the breakpoint is shifted to the
 next source code line for which code was actually generated.
 This option reflects such temporary change by moving the breakpoint
 markers in the source code editor.</source>
-            <translation>GDB tillåter inställning av brytpunkter på källkodsrader för
-vilka ingen kod skapades. I sådana situationer flyttas
-brytpunkten till nästa källkodsrad för vilken koden faktiskt
-skapades. Alternativet återspeglar en sådan tillfällig ändring
-genom att flytta brytpunktens markörer i källkodseditorn.</translation>
+            <translation>GDB kan sätta brytpunkter på källkodsrader som inte
+genererar kod. I sådana fall flyttas brytpunkten till nästa
+källkodsrad som faktiskt genererar kod.
+Det här alternativet speglar den tillfälliga ändringen genom att flytta
+brytpunktsmarkörerna i källkodsredigeraren.</translation>
         </message>
         <message>
             <location line="+39" />
             <source>Uses the default GDB pretty printers installed in your system or linked to the libraries your application uses.</source>
-            <translation>Använder standard GDB- snygga skrivare installerade i ditt system eller länkade till biblioteken som programmet använder.</translation>
+            <translation>Använder de vanliga GDB-objektformaterarna som är installerade i systemet eller kopplade till biblioteken programmet använder.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;Adds common paths to locations of debug information such as &lt;i&gt;/usr/src/debug&lt;/i&gt; when starting GDB.&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;Adds common paths to locations of debug information such as &lt;i&gt;/usr/src/debug&lt;/i&gt; when starting GDB.&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;Lägger till vanliga sökvägar till felsökningsinformation, till exempel &lt;i&gt;/usr/src/debug&lt;/i&gt;, när GDB startar.&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location line="+8" />
@@ -32344,18 +32344,18 @@ genom att flytta brytpunktens markörer i källkodseditorn.</translation>
             <location line="-24" />
             <source>Allows or inhibits reading the user's default
 .gdbinit file on debugger startup.</source>
-            <translation>Tillåter eller hämmar läsning av användarens
-standard .gdbinit- fil vid start av felsökning.</translation>
+            <translation>Tillåter eller förhindrar läsning av användarens standardfil
+.gdbinit när felsökaren startar.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Load system GDB pretty printers</source>
-            <translation>Ladda system GDB- snygga skrivare</translation>
+            <translation>Läs in systemets GDB-objektformaterare</translation>
         </message>
         <message>
             <location line="+59" />
             <source>Use Intel style disassembly</source>
-            <translation>Använd Intel stil demontering</translation>
+            <translation>Använd demontering i Intel-stil</translation>
         </message>
         <message>
             <location line="+58" />
@@ -32365,12 +32365,12 @@ standard .gdbinit- fil vid start av felsökning.</translation>
         <message>
             <location line="+44" />
             <source>Additional Attach Commands</source>
-            <translation>Ytterligare bihangskommandon</translation>
+            <translation>Ytterligare anslutningskommandon</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="+71" />
             <source>Debugging Helper Customization</source>
-            <translation>Anpassning av felsökning av hjälpprogram</translation>
+            <translation>Anpassning av felsökningshjälpare</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/gdb/gdbsettings.cpp" line="-20" />
@@ -32390,7 +32390,7 @@ standard .gdbinit- fil vid start av felsökning.</translation>
         <message>
             <location line="+17" />
             <source>Use asynchronous mode to control the debugged process</source>
-            <translation>Använd asynkront läge för att styra felsökningsprocessen</translation>
+            <translation>Använd asynkront läge för att styra den felsökta processen</translation>
         </message>
         <message>
             <location line="+3" />
@@ -32430,17 +32430,17 @@ standard .gdbinit- fil vid start av felsökning.</translation>
         <message>
             <location filename="../../../src/plugins/debugger/outputcollector.cpp" line="+61" />
             <source>Cannot create temporary file: %1</source>
-            <translation>Kan inte skapa temporärfilen: %1</translation>
+            <translation>Kan inte skapa tillfällig fil: %1</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Cannot create FiFo %1: %2</source>
-            <translation>Kan inte skapa FiFo %1: %2</translation>
+            <translation>Kan inte skapa FIFO %1: %2</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Cannot open FiFo %1: %2</source>
-            <translation>Kan inte öppna FiFo %1: %2</translation>
+            <translation>Kan inte öppna FIFO %1: %2</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="-1088" />
@@ -32449,7 +32449,7 @@ standard .gdbinit- fil vid start av felsökning.</translation>
             <location line="+905" />
             <location filename="../../../src/plugins/debugger/gdb/gdbengine.cpp" line="-1492" />
             <source>Stopped.</source>
-            <translation>Stoppad.</translation>
+            <translation>Stannade.</translation>
         </message>
         <message>
             <location line="-1628" />
@@ -32487,7 +32487,7 @@ standard .gdbinit- fil vid start av felsökning.</translation>
         <message>
             <location line="+48" />
             <source>JS-Function:</source>
-            <translation>JS-Function:</translation>
+            <translation>JS-funktion:</translation>
         </message>
         <message>
             <location line="+9" />
@@ -32502,7 +32502,7 @@ standard .gdbinit- fil vid start av felsökning.</translation>
         <message>
             <location line="+3" />
             <source>Sources for this frame are available.&lt;br&gt;Double-click on the file name to open an editor.</source>
-            <translation>Källor för denna ram är tillgängliga.&lt;br&gt;Dubbelklicka på filnamnet för att öppna en editor.</translation>
+            <translation>Källor för den här stackramen är tillgängliga.&lt;br&gt;Dubbelklicka på filnamnet för att öppna en redigerare.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -32512,7 +32512,7 @@ standard .gdbinit- fil vid start av felsökning.</translation>
         <message>
             <location line="+6" />
             <source>Binary debug information is accessible for this frame. However, matching sources have not been found.</source>
-            <translation>Binära felsökningsinformation är tillgänglig för den här ramen. Dock har matchande källor inte hittats.</translation>
+            <translation>Binär felsökningsinformation är tillgänglig för den här stackramen, men motsvarande källor hittades inte.</translation>
         </message>
         <message>
             <location line="+5" />
