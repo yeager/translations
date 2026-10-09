@@ -7009,7 +7009,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         </message>
         <message>
             <source>Preview icon generated for non-existent asset: %1</source>
-            <translation>Förhandsvisningsikon genererad för icke-existerande tillgång. %1</translation>
+            <translation>Förhandsvisningsikon genererad för en obefintlig tillgång: %1</translation>
         </message>
         <message>
             <source>Preview generation process crashed.</source>
@@ -10142,7 +10142,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location filename="../../../src/plugins/acpclient/sessionpickerwidget.cpp" line="+36" />
             <source>just now</source>
-            <translation>- Jag är ledsen.</translation>
+            <translation>just nu</translation>
         </message>
         <message numerus="yes">
             <location line="+2" />
@@ -10654,10 +10654,13 @@ from %1,
 and extracted to the selected path.
 After the SDK Tools are properly set up, you are prompted to install any essential
 packages required for Qt to build for Android.</source>
-            <translation>Ladda automatiskt ner Android SDK Tools till den valda platsen.
+            <translation>Hämta automatiskt Android SDK Tools till den valda platsen.
 
-Om den valda sökvägen inte innehåller några giltiga SDK Tools laddas SDK Tools-paketet ner från %1 och extraheras till den valda sökvägen.
-När SDK Tools har ställts in korrekt uppmanas du att installera alla paket som krävs för att Qt ska kunna bygga för Android.</translation>
+Om den valda sökvägen inte innehåller några giltiga SDK Tools hämtas SDK Tools-paketet
+från %1
+och extraheras till den valda sökvägen.
+När SDK Tools har konfigurerats korrekt uppmanas du att installera nödvändiga
+paket som krävs för att Qt ska kunna bygga för Android.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -14544,7 +14547,7 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <message>
             <location line="+10" />
             <source>Path globbing</source>
-            <translation>Stigen glimmar</translation>
+            <translation>Sökvägsmönster</translation>
         </message>
         <message>
             <location line="+44" />
@@ -14552,7 +14555,7 @@ Warning: this is an experimental feature and might lead to failing to execute th
             <location line="+60" />
             <location line="+39" />
             <source>Total rows:</source>
-            <translation>Totalt rader:</translation>
+            <translation>Totalt antal rader:</translation>
         </message>
         <message>
             <location line="-371" />
@@ -14566,7 +14569,7 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <message>
             <location line="+724" />
             <source>No Data</source>
-            <translation>Inget data</translation>
+            <translation>Inga data</translation>
         </message>
         <message>
             <location line="+509" />
@@ -14586,7 +14589,7 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <message>
             <location line="+15" />
             <source>Show Issue Annotations Inline</source>
-            <translation>Visa nummeranteckningar på plats</translation>
+            <translation>Visa problemkommentarer i texten</translation>
         </message>
         <message>
             <location line="-1312" />
@@ -14601,7 +14604,7 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <message>
             <location line="+7" />
             <source>Local Dashboard</source>
-            <translation>Lokalt skrivbord</translation>
+            <translation>Lokal instrumentpanel</translation>
         </message>
         <message>
             <location line="+38" />
@@ -14611,12 +14614,12 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <message>
             <location line="+0" />
             <source>Locally changed issues</source>
-            <translation>Lokalt förändrade frågor</translation>
+            <translation>Lokalt ändrade problem</translation>
         </message>
         <message>
             <location line="+1" />
             <source>All local issues</source>
-            <translation>Alla lokala frågor</translation>
+            <translation>Alla lokala problem</translation>
         </message>
         <message>
             <location line="+43" />
@@ -14636,7 +14639,7 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <message>
             <location line="+6" />
             <source>No Dashboard</source>
-            <translation>Inget skrivbord</translation>
+            <translation>Ingen instrumentpanel</translation>
         </message>
         <message>
             <location line="+857" />
@@ -14671,22 +14674,22 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <message>
             <location line="+62" />
             <source>Open Issue in Dashboard</source>
-            <translation>Öppna nummer i Dashboard</translation>
+            <translation>Öppna problem i instrumentpanelen</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Open Table in Dashboard</source>
-            <translation>Öppna tabell i Dashboard</translation>
+            <translation>Öppna tabell i instrumentpanelen</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Copy Dashboard Link to Clipboard</source>
-            <translation>Kopiera länk till klippbordet</translation>
+            <translation>Kopiera länk till instrumentpanelen</translation>
         </message>
         <message>
             <location line="+27" />
             <source>Cancel Local Build</source>
-            <translation>Avbryt lokal uppbyggnad</translation>
+            <translation>Avbryt lokalt bygge</translation>
         </message>
         <message>
             <location line="+8" />
@@ -14714,7 +14717,7 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <message>
             <location filename="../../../src/plugins/axivion/axiviontextmarks.cpp" line="+52" />
             <source>Show Issue Properties</source>
-            <translation>Visa egenskaper för utfärdande</translation>
+            <translation>Visa problemets egenskaper</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/axivion/axivionplugin.cpp" line="-922" />
@@ -14727,28 +14730,28 @@ Warning: this is an experimental feature and might lead to failing to execute th
 Do you want to disable SSL verification for this server?
 Note: This can expose you to man-in-the-middle attack.</source>
             <translation>Servercertifikatet för %1 kan inte autentiseras.
-Vill du inaktivera SSL-verifiering för denna server?
-Observera: Detta kan utsätta dig för ett attack.</translation>
+Vill du inaktivera SSL-verifiering för den här servern?
+Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         </message>
         <message>
             <location line="+258" />
             <source>Unknown Dto structure deserialization error.</source>
-            <translation>Okänt Dto- strukturdeserialiseringsfel.</translation>
+            <translation>Okänt fel vid deserialisering av DTO-struktur.</translation>
         </message>
         <message>
             <location line="+16" />
             <source>The ApiToken cannot be read in a secure way.</source>
-            <translation>ApiToken kan inte läsas på ett säkert sätt.</translation>
+            <translation>API-token kan inte läsas på ett säkert sätt.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The ApiToken cannot be stored in a secure way.</source>
-            <translation>ApiToken kan inte lagras på ett säkert sätt.</translation>
+            <translation>API-token kan inte lagras på ett säkert sätt.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The ApiToken cannot be deleted in a secure way.</source>
-            <translation>ApiToken kan inte raderas på ett säkert sätt.</translation>
+            <translation>API-token kan inte tas bort på ett säkert sätt.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -14758,22 +14761,22 @@ Observera: Detta kan utsätta dig för ett attack.</translation>
         <message>
             <location line="+65" />
             <source>Unauthenticated access failed (wrong user), using authenticated access...</source>
-            <translation>Oautentiserad åtkomst misslyckades (felanvändare), med autentiserad åtkomst…</translation>
+            <translation>Oautentiserad åtkomst misslyckades (fel användare); provar autentiserad åtkomst …</translation>
         </message>
         <message>
             <location line="+34" />
             <source>Dashboard server "%1" does not support unauthenticated access.
 Change its configuration in the preferences.</source>
-            <translation>Dashboard- servern "%1" stöder inte oautentiserad
-åtkomst. Ändra dess inställning i inställningarna.</translation>
+            <translation>Instrumentpanelsservern ”%1” stöder inte oautentiserad åtkomst.
+Ändra dess inställningar under Inställningar.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Enter the password for:
 Dashboard: %1
 User: %2</source>
-            <translation>Ange lösenordet
-för: Dashboard: %1
+            <translation>Ange lösenordet för:
+Instrumentpanel: %1
 Användare: %2</translation>
         </message>
         <message>
@@ -14784,17 +14787,17 @@ Användare: %2</translation>
         <message>
             <location line="+66" />
             <source>The stored ApiToken is not valid anymore, removing it.</source>
-            <translation>Den lagrade ApiToken är inte giltig längre, ta bort den.</translation>
+            <translation>Den lagrade API-token är inte längre giltig och tas bort.</translation>
         </message>
         <message>
             <location line="+144" />
             <source>Fetching DashboardInfo error.</source>
-            <translation>Hämtar DashboardInfo fel.</translation>
+            <translation>Fel vid hämtning av DashboardInfo.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Fetching local DashboardInfo error.</source>
-            <translation>Hämtar lokalt DashboardInfo fel.</translation>
+            <translation>Fel vid hämtning av lokal DashboardInfo.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/axivion/axivionperspective.cpp" line="+147" />
@@ -14811,12 +14814,12 @@ Vill du öppna "%1" med dess standardprogram?</translation>
         <message>
             <location line="-218" />
             <source>Search for issues inside the Axivion dashboard or request issue details for Axivion inline annotations to see them here.</source>
-            <translation>Sök efter problem inuti Axivion instrumentpanelen eller be om probleminformation för Axivion inline kommentarer för att se dem här.</translation>
+            <translation>Sök efter problem i Axivion-instrumentpanelen eller begär problemdetaljer för Axivion-kommentarer i texten för att se dem här.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/axivion/axivionsettings.cpp" line="-599" />
             <source>Dashboard URL:</source>
-            <translation>Webbadress för skrivbord:</translation>
+            <translation>Instrumentpanelens webbadress:</translation>
         </message>
         <message>
             <location line="-248" />
@@ -14826,7 +14829,7 @@ Vill du öppna "%1" med dess standardprogram?</translation>
         <message>
             <location line="-180" />
             <source>Analysis path must be local.</source>
-            <translation>Analysväg måste vara lokal.</translation>
+            <translation>Analyssökvägen måste vara lokal.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -14852,13 +14855,13 @@ Vill du öppna "%1" med dess standardprogram?</translation>
             <location line="+6" />
             <source>Path to python executable.
 Set it to overwrite global environment or if Axivion fails to find python in PATH.</source>
-            <translation>Sökväg till python körbar. Ställ in den för att skriva över
-global miljö eller om Axivion inte hittar python i PATH.</translation>
+            <translation>Sökväg till Python-körbar fil.
+Ange den för att åsidosätta den globala miljön eller om Axivion inte hittar Python i PATH.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Set it to overwrite global environment or if Axivion fails to find java in PATH.</source>
-            <translation>Ställ in den på att skriva över global miljö eller om Axivion inte hittar java i PATH.</translation>
+            <translation>Ange den för att åsidosätta den globala miljön eller om Axivion inte hittar Java i PATH.</translation>
         </message>
         <message>
             <location line="+99" />
@@ -56791,7 +56794,8 @@ misslyckas eftersom Clang inte förstår målarkitekturen.</translation>
 One for the native x86_64 target, and one for a plain x86 target.
 Enable this if you plan to create 32-bit x86 binaries without using a dedicated cross compiler.</source>
             <translation>Om alternativet är markerat konfigurerar %1 två instanser av varje x86_64-kompilator:
-En för det inbyggda x86_64-målet och en för ett vanligt x86-mål. Aktivera detta om du vill skapa 32-bitars x86-binärfiler utan att använda en särskild korskompilator.</translation>
+En för det inbyggda x86_64-målet och en för ett vanligt x86-mål.
+Aktivera detta om du vill skapa 32-bitars x86-binärfiler utan att använda en särskild korskompilator.</translation>
         </message>
         <message>
             <location line="+102" />
@@ -72427,7 +72431,8 @@ ett utrymningstecken på markörens position och flyttar resten av strängen til
 By default, "@" is used if the surrounding comment starts with "/**" or "///", and "\" is used
 if the comment starts with "/*!" or "//!".</source>
             <translation>Doxygen tillåter att ”@” och ”\” inleder kommandon.
-Som standard används ”@” om den omgivande kommentaren börjar med ”/**” eller ”///” och ”\” om kommentaren börjar med ”/*!" eller ”//!”.</translation>
+Som standard används ”@” om den omgivande kommentaren börjar med ”/**” eller ”///” och ”\” används
+om kommentaren börjar med ”/*!" eller ”//!”.</translation>
         </message>
         <message>
             <location line="+65" />
