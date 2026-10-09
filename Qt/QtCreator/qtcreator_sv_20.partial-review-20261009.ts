@@ -58370,7 +58370,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+3" />
             <source>Type of current build</source>
-            <translation>Typ av aktuell byggnation</translation>
+            <translation>Typ av aktuellt bygge</translation>
         </message>
         <message>
             <location line="+3" />
@@ -58519,7 +58519,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/customparserconfigdialog.cpp" line="+253" />
             <source>Not applicable:</source>
-            <translation>Inte tillämpningsbar:</translation>
+            <translation>Inte tillämpligt:</translation>
         </message>
         <message>
             <location line="+2" />
@@ -58539,7 +58539,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+3" />
             <source>Device test failed.</source>
-            <translation>Enhetstest misslyckades.</translation>
+            <translation>Enhetstestet misslyckades.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/customtoolchain.cpp" line="-115" />
@@ -58551,17 +58551,17 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/devicesupport/desktopdevice.cpp" line="-236" />
             <source>Cannot kill process with pid %1: %2</source>
-            <translation>Kan inte döda process med pid %1: %2</translation>
+            <translation>Kan inte avsluta processen med PID %1: %2</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Cannot interrupt process with pid %1: %2</source>
-            <translation>Kan inte avbryta process med pid %1: %2</translation>
+            <translation>Kan inte avbryta processen med PID %1: %2</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Cannot open process.</source>
-            <translation>Kan inte öppna process.</translation>
+            <translation>Kan inte öppna processen.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -58572,7 +58572,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="-47" />
             <source>Cannot open process: %1</source>
-            <translation>Kan inte öppna process: %1</translation>
+            <translation>Kan inte öppna processen: %1</translation>
         </message>
         <message>
             <location line="+10" />
@@ -58592,11 +58592,11 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+3" />
             <source>Device "%1" is not ready to use.</source>
-            <translation>heten "%1" är inte klar att användas.</translation>
+            <translation>Enheten "%1" är inte klar att användas.</translation>
         </message>
         <message>
             <source>%1 does not exist. If you built %2 yourself, check out https://code.qt.io/cgit/qt-creator/binary-artifacts.git/.</source>
-            <translation>%1 finns inte. Om du byggt %2 själv så checka ut https://code.qt.io/cgit/qt-creator/binary-artifacts.git/.</translation>
+            <translation>%1 finns inte. Om du har byggt %2 själv, se https://code.qt.io/cgit/qt-creator/binary-artifacts.git/.</translation>
         </message>
         <message>
             <location line="-245" />
@@ -58606,7 +58606,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+7" />
             <source>could not break the process.</source>
-            <translation>kunde inte bryta processen.</translation>
+            <translation>Kunde inte avbryta processen.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/importwidget.cpp" line="+28" />
