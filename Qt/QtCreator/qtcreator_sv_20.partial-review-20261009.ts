@@ -33600,23 +33600,23 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+127" />
             <source>GDB server executable:</source>
-            <translation>Körbar GDB- server:</translation>
+            <translation>GDB-serverns körbara fil:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>The GDB server executable to use on the device.</source>
-            <translation>GDB- servern körbar att använda på enheten.</translation>
+            <translation>Den körbara GDB-serverfil som ska användas på enheten.</translation>
         </message>
         <message>
             <location line="+49" />
             <source>%1:%2 %3() hit</source>
             <extracomment>Message tracepoint: %1 file, %2 line %3 function hit.</extracomment>
-            <translation>%1:%2 %3() träff</translation>
+            <translation>%1:%2 %3() träffades</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Add Message Tracepoint</source>
-            <translation>Lägg till brevspårningspunkt</translation>
+            <translation>Lägg till meddelandespårpunkt</translation>
         </message>
         <message>
             <location line="+517" />
@@ -33636,12 +33636,12 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+66" />
             <source>Only one executable allowed.</source>
-            <translation>dast en körbar körbar.</translation>
+            <translation>Endast en körbar fil tillåts.</translation>
         </message>
         <message>
             <location line="+50" />
             <source>Executable file "%1"</source>
-            <translation>Körbara filen "%1"</translation>
+            <translation>Körbar fil ”%1”</translation>
         </message>
         <message>
             <location line="+1" />
@@ -33671,17 +33671,17 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+34" />
             <source>Reload debugging helpers skipped as no engine is running.</source>
-            <translation>Ladda om felsökningshjälpare hoppade över eftersom ingen motor körs.</translation>
+            <translation>Omläsning av felsökningshjälpare hoppades över eftersom ingen motor körs.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerruncontrol.cpp" line="+139" />
             <source>&amp;Attach to Process</source>
-            <translation>&amp;Fäst till process</translation>
+            <translation>&amp;Anslut till process</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="+77" />
             <source>Cannot attach to process with PID 0</source>
-            <translation>Kan inte fästa till process med PID 0</translation>
+            <translation>Kan inte ansluta till processen med PID 0</translation>
         </message>
         <message>
             <location line="+95" />
@@ -33691,7 +33691,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+10" />
             <source>Set Message Tracepoint at 0x%1...</source>
-            <translation>Ställ in meddelande spårpunkt vid 0x%1…</translation>
+            <translation>Ställ in meddelandespårpunkt vid 0x%1 …</translation>
         </message>
         <message>
             <location line="+107" />
@@ -33701,7 +33701,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="-2155" />
             <source>Debugger finished.</source>
-            <translation>Felsökare slutförde.</translation>
+            <translation>Felsökaren är klar.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="-116" />
@@ -33711,12 +33711,12 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+10" />
             <source>Set Message Tracepoint at Line %1...</source>
-            <translation>Ställ in meddelande spårpunkt vid linje %1…</translation>
+            <translation>Ställ in meddelandespårpunkt på rad %1 …</translation>
         </message>
         <message>
             <location line="+36" />
             <source>Disassemble Function "%1"</source>
-            <translation>Installera funktion "%1"</translation>
+            <translation>Demontera funktionen ”%1”</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerruncontrol.cpp" line="-331" />
@@ -33763,7 +33763,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+2" />
             <source>Record Information to Allow Reversal of Direction</source>
-            <translation>Rekordinformation för att tillåta reversering av riktning</translation>
+            <translation>Registrera information för att tillåta körning bakåt</translation>
         </message>
         <message>
             <location line="+2" />
@@ -33778,12 +33778,12 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+1" />
             <source>Launching %1 Debugger</source>
-            <translation>Startar %1- felsökning</translation>
+            <translation>Startar felsökaren %1</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Switches the debugger to instruction-wise operation mode. In this mode, stepping operates on single instructions and the source location view also shows the disassembled instructions.</source>
-            <translation>Byter avlusaren till driftsläge med instruktionsvis. I det här läget fungerar stegtagning på enstaka instruktioner och källplatsvyn visar också de isärtagna instruktionerna.</translation>
+            <translation>Växlar felsökaren till instruktionsvis läge. I det här läget stegar felsökaren en instruktion i taget och vyn för källplats visar också de demonterade instruktionerna.</translation>
         </message>
         <message>
             <location line="+39" />
@@ -33798,7 +33798,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+12" />
             <source>Peripheral Reg&amp;isters</source>
-            <translation>Perifert reg&amp;isters</translation>
+            <translation>Perifera reg&amp;ister</translation>
         </message>
         <message>
             <location line="+9" />
@@ -33833,7 +33833,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+2199" />
             <source>Failed to setup remote debugger helper files: %1</source>
-            <translation>Misslyckades ställa in fjärravlusningshjälpfiler: %1</translation>
+            <translation>Det gick inte att konfigurera filer för fjärrfelsökningshjälpare: %1</translation>
         </message>
         <message>
             <location line="-2428" />
@@ -33845,7 +33845,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
             <location line="-369" />
             <location filename="../../../src/plugins/debugger/sourceagent.cpp" line="+120" />
             <source>Debugger Location</source>
-            <translation>Avlusningsplats</translation>
+            <translation>Felsökarplats</translation>
         </message>
         <message>
             <location line="+194" />
