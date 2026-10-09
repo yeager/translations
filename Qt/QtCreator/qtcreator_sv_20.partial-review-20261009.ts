@@ -22441,22 +22441,22 @@ Koden har kopierats till ditt urklipp.</translation>
         <message>
             <location line="+3" />
             <source>The proxy server to use for connections.</source>
-            <translation>Proxyservern att använda för anslutningar.</translation>
+            <translation>Proxyserver som ska användas för anslutningar.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Reject Unauthorized</source>
-            <translation>Neka icke-auktoriserade</translation>
+            <translation>Avvisa obehöriga</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Reject unauthorized</source>
-            <translation>Neka icke-auktoriserade</translation>
+            <translation>Avvisa obehöriga</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Reject unauthorized certificates from the proxy server. Turning this off is a security risk.</source>
-            <translation>Neka icke-auktoriserade certifikat från proxyservern. Stänga av detta är en säkerhetsrisk.</translation>
+            <translation>Avvisa obehöriga certifikat från proxyservern. Att stänga av detta innebär en säkerhetsrisk.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -22471,12 +22471,12 @@ Koden har kopierats till ditt urklipp.</translation>
         <message>
             <location line="+2" />
             <source>The URL of your GitHub Enterprise server.</source>
-            <translation>Webbadressen till din GitHub Enterprise- server.</translation>
+            <translation>URL till din GitHub Enterprise-server.</translation>
         </message>
         <message>
             <location line="+25" />
             <source>Enabling %1 is subject to your agreement and abidance with your applicable %1 terms. It is your responsibility to know and accept the requirements and parameters of using tools like %1. This may include, but is not limited to, ensuring you have the rights to allow %1 access to your code, as well as understanding any implications of your use of %1 and suggestions produced (like copyright, accuracy, etc.).</source>
-            <translation>Aktivering av %1 är föremål för ditt samtycke och efterlevnad av dina tillämpliga villkor för %1. Det är ditt ansvar att veta och godkänna kraven samt parametrar för hur man använder verktyg som %1. Det kan inkludera, men inte begränsat till. försäkra dig om att du har behörighet att tillåta att %1 kommer åt din kod, så väl som att förstå konsekvenser av din användning av %1 och förslag som skapas (som upphovsrätt, noggrannhet, etc.).</translation>
+            <translation>Aktivering av %1 förutsätter att du godkänner och följer de tillämpliga villkoren för %1. Du ansvarar själv för att känna till och godta kraven och villkoren för att använda verktyg som %1. Detta kan bland annat innebära att säkerställa att du har rätt att ge %1 åtkomst till koden och att förstå konsekvenserna av din användning av %1 och de förslag som genereras, exempelvis i fråga om upphovsrätt och korrekthet.</translation>
         </message>
         <message>
             <location line="+16" />
@@ -22484,14 +22484,14 @@ Koden har kopierats till ditt urklipp.</translation>
 
 Otherwise you need to specify the path to the %2 file from the Copilot neovim plugin.</source>
             <comment>Markdown text for the copilot instruction label</comment>
-            <translation>Copilot-insticksmodulen kräver node.js och Copilots neovim-insticksmodule. Om du installerar neovim-insticksmodulen som beskrivs i %1 så kommer insticksmodulen att hitta %3-filen automatiskt.
+            <translation>Copilot-insticksprogrammet kräver node.js och Neovim-insticksprogrammet för Copilot. Om du installerar Neovim-insticksprogrammet enligt beskrivningen i %1 hittar insticksprogrammet filen %3 automatiskt.
 
-Annars måste du ange sökvägen till %2-filen från Copilots neovim-insticksmodul.</translation>
+Annars måste du ange sökvägen till filen %2 från Neovim-insticksprogrammet för Copilot.</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Note</source>
-            <translation>Anteckning</translation>
+            <translation>Obs</translation>
         </message>
     </context>
     <context>
