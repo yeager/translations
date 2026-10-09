@@ -8017,7 +8017,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Spread</source>
-        <translation>Sprid</translation>
+        <translation>Spridning</translation>
     </message>
     <message>
         <source>The part of the shadow color that is strengthened near the source edges.</source>
@@ -8065,7 +8065,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
