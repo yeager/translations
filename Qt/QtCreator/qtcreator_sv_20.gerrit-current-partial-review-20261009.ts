@@ -1123,11 +1123,11 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
     </message>
     <message>
         <source>Toggles the &lt;b&gt;Full outline&lt;/b&gt; to have rounded edges.</source>
-        <translation>Växlar &lt;b&gt;Fullständig kontur&lt;/b&gt; så att den får rundade kanter.</translation>
+        <translation>Växlar &lt;b&gt;Fullständig kontur&lt;/b&gt; så att konturen får rundade kanter.</translation>
     </message>
     <message>
         <source>Round start</source>
-        <translation>Rund början</translation>
+        <translation>Avrundad start</translation>
     </message>
     <message>
         <source>Toggles the starting edge of the &lt;b&gt;Full outline&lt;/b&gt; to be rounded.</source>
@@ -1135,7 +1135,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
     </message>
     <message>
         <source>Round end</source>
-        <translation>Rund avslutning</translation>
+        <translation>Avrundat slut</translation>
     </message>
     <message>
         <source>Toggles the end edge of the &lt;b&gt;Full outline&lt;/b&gt; to be rounded.</source>
