@@ -71372,11 +71372,11 @@ om ett arkiv kräver SSH-autentisering (se dokumentationen om SSH och miljövari
     </message>
     <message>
         <source>Samples</source>
-        <translation>Samplingar</translation>
+        <translation>Prover</translation>
     </message>
     <message>
         <source>Samples per pixel for blur calculation. A larger value produces better quality, but is slower to render. This property is not intended to be animated. Changing this property may cause the underlying OpenGL shaders to be recompiled.</source>
-        <translation>Samplingar per bildpunkt för oskärpeberäkning. Ett större värde ger bättre kvalitet men är långsammare att rendera. Egenskapen är inte avsedd att animeras. Om den ändras kan de underliggande OpenGL-skuggprogrammen kompileras om.</translation>
+        <translation>Prover per bildpunkt för oskärpeberäkning. Ett större värde ger bättre kvalitet, men återgivningen går långsammare. Egenskapen är inte avsedd att animeras. Om den ändras kan de underliggande OpenGL-skuggprogrammen kompileras om.</translation>
     </message>
     <message>
         <source>Offsets</source>
@@ -71412,11 +71412,11 @@ om ett arkiv kräver SSH-autentisering (se dokumentationen om SSH och miljövari
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
-        <translation>Cachar effektens utdatabildpunkter för att förbättra renderingsprestandan.</translation>
+        <translation>Cachelagrar effektens utdatapixlar för att förbättra återgivningsprestandan.</translation>
     </message>
     <message>
         <source>Transparent border</source>
@@ -76438,11 +76438,11 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Samples</source>
-        <translation>Samplingar</translation>
+        <translation>Prover</translation>
     </message>
     <message>
         <source>Samples per pixel to calculate blur. A larger value produces better quality, but is slower to render.</source>
-        <translation>Samplingar per bildpunkt för att beräkna oskärpa. Ett större värde ger bättre kvalitet men är långsammare att rendera.</translation>
+        <translation>Prover per bildpunkt för att beräkna oskärpa. Ett större värde ger bättre kvalitet, men återgivningen går långsammare.</translation>
     </message>
     <message>
         <source>Offsets</source>
@@ -76478,11 +76478,11 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
-        <translation>Cachar effektens utdatabildpunkter för att förbättra renderingsprestandan.</translation>
+        <translation>Cachelagrar effektens utdatapixlar för att förbättra återgivningsprestandan.</translation>
     </message>
     <message>
         <source>Transparent border</source>
