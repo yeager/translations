@@ -10812,7 +10812,7 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets a list of EmitBurst3D elements to declaratively define bursts.</source>
-        <translation>Ställer in en lista med EmitBurst3D-element för att deklarativt definiera stötar.</translation>
+        <translation>Ställer in en lista med EmitBurst3D-element för att deklarativt definiera utsläppsstötar.</translation>
     </message>
     <message>
         <source>Velocity</source>
@@ -10828,7 +10828,7 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the logical particle which this emitter emits.</source>
-        <translation>Ställer in den logiska partikel som emitteraren sänder ut.</translation>
+        <translation>Ställer in den logiska partikeln som emitteraren sänder ut.</translation>
     </message>
     <message>
         <source>Enabled</source>
