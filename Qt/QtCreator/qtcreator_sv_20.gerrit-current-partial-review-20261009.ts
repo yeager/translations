@@ -9850,7 +9850,7 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Enables reflection probes to reflect this model.</source>
-        <translation>Aktiverar att reflektionsprober reflekterar den här modellen.</translation>
+        <translation>Aktiverar reflektionsprober för att reflektera den här modellen.</translation>
     </message>
     <message>
         <source>Receives Reflections</source>
