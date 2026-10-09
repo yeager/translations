@@ -56298,7 +56298,7 @@ Vill du redigera effekten?</translation>
     </message>
     <message>
         <source>Toggle the visibility of the helper grid.</source>
-        <translation>Växla synlighet för hjälprutnätet.</translation>
+        <translation>Växla visningen av hjälprutnätet.</translation>
     </message>
     <message>
         <source>Show Look-at</source>
@@ -56306,7 +56306,7 @@ Vill du redigera effekten?</translation>
     </message>
     <message>
         <source>Toggle the visibility of the edit camera look-at indicator.</source>
-        <translation>Växla synlighet för redigeringskamerans blickpunktsindikator.</translation>
+        <translation>Växla visningen av redigeringskamerans blickpunktsindikator.</translation>
     </message>
     <message>
         <source>Show Selection Boxes</source>
@@ -56314,7 +56314,7 @@ Vill du redigera effekten?</translation>
     </message>
     <message>
         <source>Toggle the visibility of selection boxes.</source>
-        <translation>Växla synlighet för markeringsrutor.</translation>
+        <translation>Växla visningen av markeringsrutor.</translation>
     </message>
     <message>
         <source>Show Icon Gizmos</source>
@@ -56322,7 +56322,7 @@ Vill du redigera effekten?</translation>
     </message>
     <message>
         <source>Toggle the visibility of icon gizmos, such as light and camera icons.</source>
-        <translation>Växla synlighet för ikongizmon, exempelvis ljus- och kameraikoner.</translation>
+        <translation>Växla visningen av ikongizmon, till exempel ljus- och kameraikoner.</translation>
     </message>
     <message>
         <source>Always Show Camera Frustums</source>
@@ -56346,7 +56346,7 @@ Vill du redigera effekten?</translation>
     </message>
     <message>
         <source>Play Particles</source>
-        <translation>Spela partiklar</translation>
+        <translation>Spela upp partiklar</translation>
     </message>
     <message>
         <source>Restart Particles</source>
@@ -56354,7 +56354,7 @@ Vill du redigera effekten?</translation>
     </message>
     <message>
         <source>Reset View</source>
-        <translation>Återställ vy</translation>
+        <translation>Återställ vyn</translation>
     </message>
     <message>
         <source>Visibility Toggles</source>
@@ -56434,7 +56434,7 @@ Vill du redigera effekten?</translation>
     </message>
     <message>
         <source>Show Bounds</source>
-        <translation>Visa gränser</translation>
+        <translation>Visa begränsningsrutor</translation>
     </message>
     <message>
         <source>Override Width</source>
