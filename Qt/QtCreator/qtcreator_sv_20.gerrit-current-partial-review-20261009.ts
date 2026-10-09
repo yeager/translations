@@ -1619,7 +1619,7 @@ I stället förväntas användaren ställa in egenskaper för ljusberäkning man
     <message>
         <source>When false, the lightmap generated for the model is not stored during lightmap baking,
 even if the key is set to a non-empty value.</source>
-        <translation>När värdet är false lagras inte ljuskartan som genereras för modellen under ljuskarteberäkningen,
+        <translation>När värdet är false lagras inte ljuskartan som genereras för modellen under ljusberäkningen,
 även om nyckeln har ett värde som inte är tomt.</translation>
     </message>
     <message>
@@ -1630,7 +1630,7 @@ even if the key is set to a non-empty value.</source>
         <source>Sets the filename base for baked lightmap files for the model.
 No other Model in the scene can use the same key.</source>
         <translation>Ställer in filnamnsbasen för beräknade ljuskartfiler för modellen.
-Inget annat Model i scenen kan använda samma nyckel.</translation>
+Ingen annan Model i scenen kan använda samma nyckel.</translation>
     </message>
     <message>
         <source>Load Prefix</source>
@@ -2161,7 +2161,7 @@ Det ska vara en relativ sökväg.</translation>
     </message>
     <message>
         <source>Sets input buffer for a pass.</source>
-        <translation>Ställer in indatabufferten för en passering.</translation>
+        <translation>Ställer in indatabufferten för ett återgivningspass.</translation>
     </message>
     <message>
         <source>Parameter</source>
