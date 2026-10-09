@@ -2397,7 +2397,7 @@ Det ska vara en relativ sökväg.</translation>
         <source>&lt;p&gt;You only have partial control in fly mode. For full control, please
                                enable the &lt;span style=&quot;text-decoration: underline&quot;&gt;Accessibility settings&lt;/span&gt;&lt;/p&gt;</source>
         <translation>&lt;p&gt;Du har bara delvis kontroll i flygläge. Aktivera
-                               &lt;span style=&quot;text-decoration: underline&quot;&gt;tillgänglighetsinställningarna&lt;/span&gt; för fullständig kontroll.&lt;/p&gt;</translation>
+                               &lt;span style=&quot;text-decoration: underline&quot;&gt;tillgänglighetsinställningarna&lt;/span&gt; för fullständig kontroll&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -16307,7 +16307,7 @@ Om den automatiska hämtningen misslyckas föreslår Qt Creator att hämtningswe
     </message>
     <message>
         <source>The selected path has an invalid NDK. This might mean that the path contains space characters, or that it does not have a &quot;toolchains&quot; sub-directory, or that the NDK version could not be retrieved because of a missing &quot;source.properties&quot; or &quot;RELEASE.TXT&quot; file</source>
-        <translation>Den valda sökvägen innehåller en ogiltig NDK. Det kan bero på att sökvägen innehåller blanksteg, saknar underkatalogen "toolchains" eller att NDK-versionen inte kunde hämtas eftersom filen "source.properties" eller "RELEASE.TXT" saknas.</translation>
+        <translation>Den valda sökvägen innehåller en ogiltig NDK. Det kan bero på att sökvägen innehåller blanksteg, saknar underkatalogen "toolchains" eller att NDK-versionen inte kunde hämtas eftersom filen "source.properties" eller "RELEASE.TXT" saknas</translation>
     </message>
     <message>
         <source>OpenSSL Cloning</source>
@@ -16647,7 +16647,7 @@ Byggsatsen stöder ”%2”, men enheten använder ”%3”.</translation>
     </message>
     <message>
         <source>Install failed</source>
-        <translation>Installationen misslyckades.</translation>
+        <translation>Installationen misslyckades</translation>
     </message>
     <message>
         <source>The deployment AVD &quot;%1&quot; cannot be started.</source>
