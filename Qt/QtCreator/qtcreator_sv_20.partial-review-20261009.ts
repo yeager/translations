@@ -42625,12 +42625,12 @@ Checka in nu?</translation>
         <message>
             <location filename="../../../src/plugins/git/gitplugin.cpp" line="-281" />
             <source>Another submit is currently being executed.</source>
-            <translation>annan underkastelse håller för närvarande på att verkställas.</translation>
+            <translation>En annan inlämning körs redan.</translation>
         </message>
         <message>
             <location line="+55" />
             <source>Git Commit</source>
-            <translation>Git-kommitté</translation>
+            <translation>Git-incheckning</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="-250" />
@@ -42640,12 +42640,12 @@ Checka in nu?</translation>
         <message>
             <location line="+2" />
             <source>Repository:</source>
-            <translation>Förråd:</translation>
+            <translation>Arkiv:</translation>
         </message>
         <message>
             <location line="-38" />
             <source>repository</source>
-            <translation>Förråd</translation>
+            <translation>arkiv</translation>
         </message>
         <message>
             <location line="+39" />
@@ -42656,7 +42656,7 @@ Checka in nu?</translation>
         <message>
             <location line="-37" />
             <source>branch</source>
-            <translation>filial</translation>
+            <translation>gren</translation>
         </message>
         <message>
             <location line="+1" />
@@ -42666,12 +42666,12 @@ Checka in nu?</translation>
         <message>
             <location line="+20" />
             <source>Sign off</source>
-            <translation>Skriv av</translation>
+            <translation>Sign-off</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Commit Information</source>
-            <translation>Uppgifter från kommittén</translation>
+            <translation>Incheckningsinformation</translation>
         </message>
         <message>
             <location line="+2" />
@@ -42686,17 +42686,17 @@ Checka in nu?</translation>
         <message>
             <location line="-9" />
             <source>By&amp;pass hooks</source>
-            <translation>By&amp;pass krokar</translation>
+            <translation>Kring&amp;gå hooks</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gitsettings.cpp" line="-72" />
             <source>Note that huge amount of commits might take some time.</source>
-            <translation>Lägg märke till att det kan ta tid att göra stora åtaganden.</translation>
+            <translation>Observera att ett stort antal incheckningar kan ta en stund.</translation>
         </message>
         <message>
             <location line="+114" />
             <source>Ignore whitespace changes</source>
-            <translation>Ignorera förändringar i blanktecken</translation>
+            <translation>Ignorera blankstegsändringar</translation>
         </message>
         <message>
             <location line="+5" />
@@ -42721,7 +42721,7 @@ Checka in nu?</translation>
         <message>
             <location line="-113" />
             <source>Pull with rebase</source>
-            <translation>Dra med rebase</translation>
+            <translation>Hämta med ombasering</translation>
         </message>
         <message>
             <location line="-6" />
@@ -42731,31 +42731,31 @@ Checka in nu?</translation>
         <message>
             <location line="+10" />
             <source>Allow rebasing merges</source>
-            <translation>Tillåt sammanslagningar av rebasering</translation>
+            <translation>Tillåt ombasering av sammanslagningar</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Allow rebasing merges in interactive rebase.
 Requires Git %1.</source>
-            <translation>Tillåt att rebasing sammanfogas i
-interaktiv rebase. Kräver Git %1.</translation>
+            <translation>Tillåt ombasering av sammanslagningar vid interaktiv ombasering.
+Kräver Git %1.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Allow updating references</source>
-            <translation>Tillåt uppdateringsreferenser</translation>
+            <translation>Tillåt uppdatering av referenser</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Allow updating references in interactive rebase.
 Requires Git %1.</source>
-            <translation>Tillåt uppdateringsreferenser i
-interaktiv rebase. Kräver Git %1.</translation>
+            <translation>Tillåt uppdatering av referenser vid interaktiv ombasering.
+Kräver Git %1.</translation>
         </message>
         <message>
             <location line="+22" />
             <source>Set "HOME" environment variable</source>
-            <translation>Ange miljövariabeln "HOME"</translation>
+            <translation>Ange miljövariabeln ”HOME”</translation>
         </message>
         <message>
             <location line="+4" />
@@ -42763,50 +42763,50 @@ interaktiv rebase. Kräver Git %1.</translation>
 (%2).
 This causes Git to look for the SSH-keys in that location
 instead of its installation directory when run outside git bash.</source>
-            <translation>Ställ in miljövariabeln HEM till "%1" (%2).
-Det gör att Git letar efter SSH-nycklarna
-på den platsen istället för installationskatalogen
-när den körs utanför git bash.</translation>
+            <translation>Ange miljövariabeln HOME till ”%1”
+(%2).
+Då söker Git efter SSH-nycklar i den platsen
+i stället för i installationskatalogen när det körs utanför Git Bash.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>currently set to "%1"</source>
-            <translation>för närvarande inställd på "%1"</translation>
+            <translation>är för närvarande angiven till ”%1”</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Add instant blame annotations to editor</source>
-            <translation>Lägg till direktanmärkning av skulden till editorn</translation>
+            <translation>Lägg till direkta Git-blame-annoteringar i redigeraren</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Finds the commit that introduced the last real code changes to the line.</source>
-            <translation>Hittar det åtagande som introducerade de senaste riktiga kodändringarna till raden.</translation>
+            <translation>Hittar incheckningen som introducerade den senaste faktiska kodändringen på raden.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Finds the commit that introduced the line before it was moved.</source>
-            <translation>Hittar det åtagande som introducerade linjen innan den flyttades.</translation>
+            <translation>Hittar incheckningen som introducerade raden innan den flyttades.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Show commit subject</source>
-            <translation>Visa ärende för att komma åt</translation>
+            <translation>Visa incheckningsrubrik</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Adds the commit subject directly to the annotation.</source>
-            <translation>Lägger till åtagande ämne direkt till noten.</translation>
+            <translation>Lägger till incheckningsrubriken direkt i annoteringen.</translation>
         </message>
         <message>
             <location line="+79" />
             <source>The binary "%1" could not be located in the path "%2"</source>
-            <translation>Binären "%1" kunde inte hittas i sökvägen "%2"</translation>
+            <translation>Programfilen ”%1” kunde inte hittas i sökvägen ”%2”</translation>
         </message>
         <message>
             <location line="-29" />
             <source>Instant Blame</source>
-            <translation>Direkt skuld</translation>
+            <translation>Omedelbar Git-blame</translation>
         </message>
         <message>
             <location line="-80" />
@@ -42816,7 +42816,7 @@ när den körs utanför git bash.</translation>
         <message>
             <location line="+15" />
             <source>Annotate the current line in the editor with Git "blame" output.</source>
-            <translation>Anteckna nuvarande rad i editorn med Git "blame" utdata.</translation>
+            <translation>Annotera den aktuella raden i redigeraren med utdata från Git ”blame”.</translation>
         </message>
         <message>
             <location line="+38" />
@@ -42826,7 +42826,7 @@ när den körs utanför git bash.</translation>
         <message>
             <location line="-113" />
             <source>Prepend to PATH:</source>
-            <translation>Förebådad för PATH:</translation>
+            <translation>Lägg först i PATH:</translation>
         </message>
         <message>
             <location line="+69" />
@@ -42836,7 +42836,7 @@ när den körs utanför git bash.</translation>
         <message>
             <location filename="../../../src/plugins/git/stashdialog.cpp" line="-215" />
             <source>Stashes</source>
-            <translation>Stjälkgrönsaker</translation>
+            <translation>Stashar</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/remotemodel.cpp" line="+122" />
@@ -42847,7 +42847,7 @@ när den körs utanför git bash.</translation>
         <message>
             <location filename="../../../src/plugins/git/stashdialog.cpp" line="+0" />
             <source>Branch</source>
-            <translation>Avdelningskontoret</translation>
+            <translation>Gren</translation>
         </message>
         <message>
             <location line="+0" />
@@ -42858,17 +42858,17 @@ när den körs utanför git bash.</translation>
             <location filename="../../../src/plugins/git/branchview.cpp" line="-142" />
             <location filename="../../../src/plugins/git/gitplugin.cpp" line="+37" />
             <source>&lt;No repository&gt;</source>
-            <translation>&lt;inget förråd&gt;</translation>
+            <translation>&lt;Inget arkiv&gt;</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gitplugin.cpp" line="+1" />
             <source>Repository: %1</source>
-            <translation>Förråd: %1</translation>
+            <translation>Arkiv: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/stashdialog.cpp" line="+118" />
             <source>Do you want to delete all stashes?</source>
-            <translation>Vill du radera alla förråd?</translation>
+            <translation>Vill du ta bort alla stashar?</translation>
         </message>
         <message numerus="yes">
             <location line="+14" />
