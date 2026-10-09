@@ -82800,7 +82800,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         <name>StudioWelcome::Internal::UsageStatisticPluginModel</name>
         <message>
             <source>The change will take effect after restart.</source>
-            <translation>Ändringen blir aktiverad efter omstart.</translation>
+            <translation>Ändringen får effekt efter omstart.</translation>
         </message>
     </context>
     <context>
@@ -82814,7 +82814,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         <name>StudioWelcome::PresetModel</name>
         <message>
             <source>Recents</source>
-            <translation>Tidigare</translation>
+            <translation>Senaste</translation>
         </message>
         <message>
             <source>Custom</source>
@@ -82837,11 +82837,11 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Save Preset</source>
-            <translation>Spara förval</translation>
+            <translation>Spara förinställning</translation>
         </message>
         <message>
             <source>A preset with this name already exists.</source>
-            <translation>Ett förval med detta namn finns redan.</translation>
+            <translation>Det finns redan en förinställning med det här namnet.</translation>
         </message>
     </context>
     <context>
@@ -82867,7 +82867,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         <name>SubComponentManager::parseDirectory</name>
         <message>
             <source>Invalid meta info</source>
-            <translation>Ogiltig metainfo</translation>
+            <translation>Ogiltig metainformation</translation>
         </message>
     </context>
     <context>
@@ -82901,7 +82901,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Sets the 3D view to use the Scene Environment color or skybox as background color.</source>
-            <translation>Ställer in 3D-vyn att använda Scenmiljö-färgen eller skybox som bakgrundsfärg.</translation>
+            <translation>Ställer in 3D-vyn så att den använder färgen eller skyboxen från Scene Environment som bakgrundsfärg.</translation>
         </message>
     </context>
     <context>
@@ -82988,7 +82988,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>dark</source>
-            <translation>Mörk</translation>
+            <translation>mörk</translation>
         </message>
         <message>
             <source>Basic</source>
@@ -83035,7 +83035,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Text shown on the text area.</source>
-            <translation>Text som visas på textytan.</translation>
+            <translation>Text som visas i textytan.</translation>
         </message>
         <message>
             <source>Margins of the text area.</source>
@@ -83043,7 +83043,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Width of the frame.</source>
-            <translation>Bredd på ramen.</translation>
+            <translation>Ramens bredd.</translation>
         </message>
         <message>
             <source>Contents frame</source>
