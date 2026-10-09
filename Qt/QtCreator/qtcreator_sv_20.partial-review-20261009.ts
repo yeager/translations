@@ -58901,18 +58901,18 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/customparser.cpp" line="+150" />
             <source>Failed to read custom output parsers from "%1": %2</source>
-            <translation>Misslyckades läsa egna utmatningstolkar från "%1": %2</translation>
+            <translation>Kunde inte läsa in anpassade utdatatolkar från "%1": %2</translation>
         </message>
         <message>
             <location line="+94" />
             <source>Custom output parsers scan command line output for user-provided error patterns&lt;br&gt;to create entries in Issues.&lt;br&gt;The parsers can be configured &lt;a href="dummy"&gt;here&lt;/a&gt;.</source>
-            <translation>Anpassade utdatatolkare söker i kommandoradens utdata efter användarangivna felmönster &lt;br&gt;för att skapa poster i Problem.&lt;br&gt;Tolkarna kan konfigureras &lt;a href="dummy"&gt;här&lt;/a&gt;.</translation>
+            <translation>Anpassade utdatatolkare söker i kommandoradens utdata efter användarangivna felmönster&lt;br&gt;för att skapa poster i Problem.&lt;br&gt;Tolkarna kan konfigureras &lt;a href="dummy"&gt;här&lt;/a&gt;.</translation>
         </message>
         <message>
             <location line="+67" />
             <source>%1 (project default)</source>
             <extracomment>%1 = parser display name</extracomment>
-            <translation>%1 (förvalt projekt)</translation>
+            <translation>%1 (projektstandard)</translation>
         </message>
         <message>
             <location line="+53" />
@@ -58930,12 +58930,12 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/customparserssettingspage.cpp" line="-317" />
             <source>Build default</source>
-            <translation>Bygg standard</translation>
+            <translation>Byggstandard</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Run default</source>
-            <translation>Kör standard</translation>
+            <translation>Körstandard</translation>
         </message>
         <message>
             <location line="+7" />
@@ -58945,17 +58945,17 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+3" />
             <source>This custom parser is used by default for all build configurations of the project.</source>
-            <translation>Denna egen parser används som standard för alla byggkonfigurationer av projektet.</translation>
+            <translation>Den här anpassade tolkaren används som standard för alla byggkonfigurationer i projektet.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>This custom parser is used by default for all run configurations of the project.</source>
-            <translation>Den här egna tolken används som standard för alla projektkonfigurationer.</translation>
+            <translation>Den här anpassade tolkaren används som standard för alla körkonfigurationer i projektet.</translation>
         </message>
         <message>
             <location line="+74" />
             <source>Cannot modify parser because it was auto-imported.</source>
-            <translation>Kan inte ändra parser eftersom den importerades automatiskt.</translation>
+            <translation>Kan inte ändra tolkaren eftersom den importerades automatiskt.</translation>
         </message>
         <message>
             <location line="+109" />
@@ -58986,27 +58986,27 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+32" />
             <source>Save Parsers</source>
-            <translation>Spara parsrar</translation>
+            <translation>Spara tolkare</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Load Parsers</source>
-            <translation>Ladda parsrar</translation>
+            <translation>Läs in tolkare</translation>
         </message>
         <message>
             <location line="+0" />
             <source>*.json</source>
-            <translation>- Jag är inte här.</translation>
+            <translation>*.json</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Error Loading Parsers</source>
-            <translation>Fel vid laddning av tolk</translation>
+            <translation>Fel vid inläsning av tolkare</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Error loading parsers: %1</source>
-            <translation>Fel vid laddning av parsrar: %1</translation>
+            <translation>Fel vid inläsning av tolkare: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/deploymentdataview.cpp" line="-11" />
@@ -59060,7 +59060,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         </message>
         <message>
             <source>Remote error output was: %1</source>
-            <translation>Utdata från fjärrfelet var: %1</translation>
+            <translation>Fjärrfelets utdata var: %1</translation>
         </message>
         <message numerus="yes">
             <location filename="../../../src/plugins/projectexplorer/runcontrol.cpp" line="-314" />
@@ -59088,7 +59088,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+27" />
             <source>Missing transfer implementation.</source>
-            <translation>Saknar överföringsimplementation.</translation>
+            <translation>Överföringsimplementation saknas.</translation>
         </message>
         <message>
             <location line="+83" />
@@ -59123,12 +59123,12 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+5" />
             <source>Path to ssh executable:</source>
-            <translation>Sökväg till körbar ssh-fil:</translation>
+            <translation>Sökväg till körbar SSH-fil:</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Path to sftp executable:</source>
-            <translation>Sökväg till körbar sftp-fil:</translation>
+            <translation>Sökväg till körbar SFTP-fil:</translation>
         </message>
         <message>
             <location line="+3" />
