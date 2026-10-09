@@ -71693,23 +71693,23 @@ som definieras av stegstorleken.</translation>
     <name>ReflectionProbeSection</name>
     <message>
         <source>Reflection Probe</source>
-        <translation>Reflektionssond</translation>
+        <translation>Reflektionsprob</translation>
     </message>
     <message>
         <source>Box Size</source>
-        <translation>Rutstorlek</translation>
+        <translation>Lådstorlek</translation>
     </message>
     <message>
         <source>Sets the reflection probe box size.</source>
-        <translation>Anger reflektionssondens rutstorlek.</translation>
+        <translation>Anger reflektionsprobens lådstorlek.</translation>
     </message>
     <message>
         <source>Box Offset</source>
-        <translation>Rutförskjutning</translation>
+        <translation>Lådförskjutning</translation>
     </message>
     <message>
         <source>Sets the reflection probe box position relative to the probe position.</source>
-        <translation>Anger reflektionssondrutans position i förhållande till sondens position.</translation>
+        <translation>Anger reflektionsproblådans position i förhållande till probens position.</translation>
     </message>
     <message>
         <source>Parallax Correction</source>
@@ -71719,7 +71719,7 @@ som definieras av stegstorleken.</translation>
         <source>Reflection maps are considered to be at infinite distance by default. This is unsuitable for indoor area as it produces parallax issues.
 Setting this property to true corrects the cubemap by taking the camera position and the box&apos;s dimension into account.</source>
         <translation>Reflektionskartor anses som standard vara på oändligt avstånd. Det är olämpligt för inomhusområden eftersom det ger parallaxproblem.
-Om egenskapen sätts till sant korrigeras kubkartan genom att kamerans position och rutans dimension tas med i beräkningen.</translation>
+Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position och lådans dimension tas med i beräkningen.</translation>
     </message>
     <message>
         <source>Debug View</source>
@@ -71727,7 +71727,7 @@ Om egenskapen sätts till sant korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Enables rendering a wireframe to visualize the reflection probe box.</source>
-        <translation>Aktiverar rendering av ett trådraster för att visualisera reflektionssondrutan.</translation>
+        <translation>Aktiverar återgivning av ett trådraster för att visualisera reflektionsproblådan.</translation>
     </message>
     <message>
         <source>Clear Color</source>
@@ -71767,7 +71767,7 @@ Om egenskapen sätts till sant korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Sets an override texture to use for the reflection map instead of rendering the scene.</source>
-        <translation>Anger en åsidosättande textur som ska användas för reflektionskartan i stället för att rendera scenen.</translation>
+        <translation>Anger en ersättningstextur som används för reflektionskartan i stället för att återge scenen.</translation>
     </message>
 </context>
 <context>
