@@ -67922,7 +67922,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+261" />
             <source>Cannot send control signal to the %1 device. The device might have been disconnected.</source>
-            <translation>Kan inte skicka styrsignal till %1- enheten. Enheten kan ha kopplats bort.</translation>
+            <translation>Kan inte skicka en styrsignal till %1-enheten. Enheten kan ha kopplats från.</translation>
         </message>
         <message>
             <location line="+84" />
@@ -67943,7 +67943,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="-484" />
             <source>Source profile before executing commands.</source>
-            <translation>Källprofil innan kommandon utförs.</translation>
+            <translation>Läs in profil innan kommandon körs.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -67972,7 +67972,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+5" />
             <source>Deploy Public Key...</source>
-            <translation>Distribuera publik nyckel…</translation>
+            <translation>Distribuera offentlig nyckel …</translation>
         </message>
         <message>
             <location line="+5" />
@@ -67982,7 +67982,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+7" />
             <source>Connection failed: %1</source>
-            <translation>Anslutning misslyckades: %1</translation>
+            <translation>Anslutningen misslyckades: %1</translation>
         </message>
         <message>
             <location line="+11" />
@@ -68002,7 +68002,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+68" />
             <source>Signal operation canceled.</source>
-            <translation>Signalen är inställd.</translation>
+            <translation>Signalåtgärden avbröts.</translation>
         </message>
         <message>
             <location line="+171" />
@@ -68013,27 +68013,27 @@ Kunde inte starta kontrollprocessen.</translation>
             <location line="+5" />
             <location line="+229" />
             <source>Establishing a Connection</source>
-            <translation>Skapa en förbindelse</translation>
+            <translation>Upprättar en anslutning</translation>
         </message>
         <message>
             <location line="-217" />
             <source>Connection attempt to device "%1" finished.</source>
-            <translation>Anslutningsförsök till enheten "%1" klar.</translation>
+            <translation>Anslutningsförsöket till enheten ”%1” slutfördes.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Connection could not be established.</source>
-            <translation>Anslutning kunde inte fastställas.</translation>
+            <translation>Anslutningen kunde inte upprättas.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Connection in fast mode established.</source>
-            <translation>Anslutning i snabbt läge etablerad.</translation>
+            <translation>Anslutningen i snabbläge har upprättats.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Connection in fallback mode established.</source>
-            <translation>Anslutning i reservläge är etablerad.</translation>
+            <translation>Anslutningen i reservläge har upprättats.</translation>
         </message>
         <message>
             <location line="+11" />
@@ -68043,7 +68043,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+12" />
             <source>Device "%1" unexpectedly lost connection.</source>
-            <translation>heten "%1" förlorade oväntat anslutningen.</translation>
+            <translation>Enheten ”%1” tappade oväntat anslutningen.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -68058,17 +68058,17 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+2" />
             <source>Device Is Disconnected</source>
-            <translation>heten är urkopplad</translation>
+            <translation>Enheten är frånkopplad</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The device was not available when trying to connect previously.&lt;br&gt;No further connection attempts will be made until the device is manually reset by running a successful connection test via the &lt;a href="dummy"&gt;settings page&lt;/a&gt;.</source>
-            <translation>heten var inte tillgänglig när man försökte ansluta tidigare.&lt;br&gt;Inga ytterligare anslutningförsök kommer att göras tills enheten manuellt återställs genom att köra ett framgångsrikt anslutningstest via &lt;a href="dummy"&gt;settings sidan&lt;/a&gt;.</translation>
+            <translation>Enheten var inte tillgänglig vid ett tidigare anslutningsförsök.&lt;br&gt;Inga ytterligare anslutningsförsök görs förrän enheten återställs manuellt genom ett lyckat anslutningstest på &lt;a href="dummy"&gt;inställningssidan&lt;/a&gt;.</translation>
         </message>
         <message>
             <location line="+41" />
             <source>Device is considered unconnected. Re-connect to use it.</source>
-            <translation>heten anses vara okopplad. Anslut till den igen för att använda den.</translation>
+            <translation>Enheten anses vara oansluten. Anslut igen för att använda den.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -68078,7 +68078,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+2" />
             <source>Connected (fallback)</source>
-            <translation>Ansluten (tillbaka)</translation>
+            <translation>Ansluten (reservläge)</translation>
         </message>
         <message>
             <location line="+103" />
@@ -68131,7 +68131,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location filename="../../../src/plugins/remotelinux/sshdevicewizard.cpp" line="+11" />
             <source>Deploy Public Key</source>
-            <translation>Distribuera publik nyckel</translation>
+            <translation>Distribuera offentlig nyckel</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/publickeydeploymentdialog.cpp" line="-17" />
@@ -68141,7 +68141,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location filename="../../../src/plugins/remotelinux/linuxdevicetester.cpp" line="-76" />
             <source>Checking kernel version...</source>
-            <translation>Kontrollerar kernelversionen…</translation>
+            <translation>Kontrollerar kärnversionen …</translation>
         </message>
         <message>
             <location line="+10" />
