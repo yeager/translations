@@ -76594,11 +76594,11 @@ spårfil: %1 Spårdatan är förlorad.</translation>
         <message>
             <location filename="../../../src/libs/utils/terminalinterface.cpp" line="+23" />
             <source>Cannot set up communication channel: %1</source>
-            <translation>Kan inte ställa in kommunikationskanal: %1</translation>
+            <translation>Det går inte att upprätta kommunikationskanalen: %1</translation>
         </message>
         <message>
             <source>Press &lt;RETURN&gt; to close this window...</source>
-            <translation>Tryck &lt;RETURN&gt; för att stänga detta fönster…</translation>
+            <translation>Tryck på &lt;RETUR&gt; för att stänga fönstret …</translation>
         </message>
         <message>
             <location line="+5" />
@@ -76630,14 +76630,14 @@ spårfil: %1 Spårdatan är förlorad.</translation>
             <source>
 Process exited with code %1.
 Press Return to close this window...</source>
-            <translation>Process avslutas med
-koden %1. Tryck på Return to
-close this window…</translation>
+            <translation>
+Processen avslutades med koden %1.
+Tryck på Retur för att stänga fönstret …</translation>
         </message>
         <message>
             <location line="+112" />
             <source>Failed to start terminal process. The stub exited before the inferior was started.</source>
-            <translation>- Den gick inte ut innan den underlägsne startades.</translation>
+            <translation>Det gick inte att starta terminalprocessen. Stubben avslutades innan den underordnade processen startade.</translation>
         </message>
         <message>
             <location line="+59" />
@@ -76647,7 +76647,7 @@ close this window…</translation>
         <message>
             <location line="+8" />
             <source>Cannot create socket "%1": %2</source>
-            <translation>Kan inte skapa uttag "%1": %2</translation>
+            <translation>Kan inte skapa uttaget ”%1”: %2</translation>
         </message>
         <message>
             <location line="-195" />
@@ -76679,7 +76679,7 @@ close this window…</translation>
         <message>
             <location line="+8" />
             <source>Name matches MS Windows device (CON, AUX, PRN, NUL, COM1, COM2, ..., COM9, LPT1, LPT2, ..., LPT9)</source>
-            <translation>Namn matchar MS Windows-enhet (CON, AUX, PRN, NUL, COM1, COM2, …, KOM9, LPT1, LPT2, …, LPT9)</translation>
+            <translation>Namnet motsvarar en MS Windows-enhet (CON, AUX, PRN, NUL, COM1, COM2, …, COM9, LPT1, LPT2, …, LPT9)</translation>
         </message>
         <message>
             <location line="+34" />
@@ -76720,17 +76720,17 @@ close this window…</translation>
         <message>
             <location line="+5" />
             <source>List of comma separated wildcard filters.</source>
-            <translation>Lista över kommaseparerade jokerteckenfiler.</translation>
+            <translation>Lista över kommateckenavgränsade jokerteckensfilter.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Files with file name or full file path matching any filter are included.</source>
-            <translation>Filer med filnamn eller fullständig filsökväg som matchar alla filter är inkluderade.</translation>
+            <translation>Filer vars filnamn eller fullständiga sökväg matchar något filter tas med.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Files with file name or full file path matching any filter are excluded.</source>
-            <translation>Filer med filnamn eller fullständig filsökväg som matchar alla filter är exkluderade.</translation>
+            <translation>Filer vars filnamn eller fullständiga sökväg matchar något filter utesluts.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/pathchooser.cpp" line="+310" />
@@ -76773,46 +76773,46 @@ close this window…</translation>
         <message>
             <location line="+180" />
             <source>The path "%1" expanded to an empty string.</source>
-            <translation>Sökvägen "%1" expanderade till en tom sträng.</translation>
+            <translation>Sökvägen ”%1” expanderades till en tom sträng.</translation>
         </message>
         <message>
             <location line="-73" />
             <location line="+10" />
             <location line="+20" />
             <source>The path "%1" does not exist.</source>
-            <translation>Sökvägen "%1" finns inte.</translation>
+            <translation>Sökvägen ”%1” finns inte.</translation>
         </message>
         <message>
             <location line="-26" />
             <location line="+36" />
             <source>The path "%1" is not a directory.</source>
-            <translation>Sökvägen "%1" är inte en katalog.</translation>
+            <translation>Sökvägen ”%1” är inte en katalog.</translation>
         </message>
         <message>
             <location line="-26" />
             <location line="+10" />
             <source>The path "%1" is not a file.</source>
-            <translation>Sökvägen "%1" är inte en fil.</translation>
+            <translation>Sökvägen ”%1” är inte en fil.</translation>
         </message>
         <message>
             <location line="-4" />
             <source>The directory "%1" does not exist.</source>
-            <translation>Katalogen "%1" finns inte.</translation>
+            <translation>Katalogen ”%1” finns inte.</translation>
         </message>
         <message>
             <location line="+14" />
             <source>The path "%1" is not an executable file.</source>
-            <translation>Sökvägen "%1" är inte en körbar fil.</translation>
+            <translation>Sökvägen ”%1” är inte en körbar fil.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Invalid path "%1".</source>
-            <translation>Ogiltig sökväg "%1".</translation>
+            <translation>Ogiltig sökväg ”%1”.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Cannot execute "%1".</source>
-            <translation>Kan inte köra "%1".</translation>
+            <translation>Kan inte köra ”%1”.</translation>
         </message>
         <message>
             <location line="+143" />
