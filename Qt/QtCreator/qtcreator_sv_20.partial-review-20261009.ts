@@ -33885,7 +33885,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
             <location line="+6" />
             <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="+15" />
             <source>Immediately Return From Inner Function</source>
-            <translation>Omedelbart återvända från den inre funktionen</translation>
+            <translation>Återgå omedelbart från den inre funktionen</translation>
         </message>
         <message>
             <location line="-5" />
@@ -33902,18 +33902,18 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
             <location line="-11" />
             <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="+21" />
             <source>Move to Called Frame</source>
-            <translation>Flytta till kallad ram</translation>
+            <translation>Flytta till den anropade stackramen</translation>
         </message>
         <message>
             <location line="-1" />
             <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="-6" />
             <source>Move to Calling Frame</source>
-            <translation>Flytta till anropsram</translation>
+            <translation>Flytta till den anropande stackramen</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="+380" />
             <source>Error evaluating command line arguments: %1</source>
-            <translation>Fel vid evaluering av kommandoradsargument: %1</translation>
+            <translation>Fel vid utvärdering av kommandoradsargument: %1</translation>
         </message>
         <message>
             <source>Start Debugging</source>
@@ -33922,7 +33922,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="-800" />
             <source>Start Debugging Without Deployment</source>
-            <translation>Starta felsökning utan distribution</translation>
+            <translation>Starta felsökning utan driftsättning</translation>
         </message>
         <message>
             <location line="+1" />
@@ -33937,38 +33937,38 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="-3" />
             <source>Attach to QML Port...</source>
-            <translation>Fäst till QML-port…</translation>
+            <translation>Anslut till QML-port …</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Attach to Remote CDB Session...</source>
-            <translation>Anslut till fjärr- cdb- session…</translation>
+            <translation>Anslut till fjärrsession för CDB …</translation>
         </message>
         <message>
             <location line="+294" />
             <source>Detach Debugger</source>
-            <translation>Koppla loss felsökare</translation>
+            <translation>Koppla från felsökaren</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Interrupt Debugger</source>
-            <translation>Avbryt felsökare</translation>
+            <translation>Avbryt felsökaren</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="-9" />
             <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="+18" />
             <source>Stop Debugger</source>
-            <translation>Stoppa felsökare</translation>
+            <translation>Stoppa felsökaren</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="-167" />
             <source>Debugger Runtime</source>
-            <translation>Avlusningstid</translation>
+            <translation>Felsökarens körtid</translation>
         </message>
         <message>
             <location line="+883" />
             <source>Process Already Under Debugger Control</source>
-            <translation>Process redan under felsökningskontroll</translation>
+            <translation>Processen styrs redan av felsökaren</translation>
         </message>
         <message>
             <location line="-818" />
@@ -33983,17 +33983,17 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="-222" />
             <source>Attach to Running Application...</source>
-            <translation>Fäst till körande program…</translation>
+            <translation>Anslut till körande program …</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Attach to Unstarted Application...</source>
-            <translation>Fäst till ostartat program…</translation>
+            <translation>Anslut till ostartat program …</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Attach to Running Debug Server...</source>
-            <translation>Fäst till körande felsökningsserver…</translation>
+            <translation>Anslut till körande felsökarserver …</translation>
         </message>
         <message>
             <location line="+3" />
@@ -34003,7 +34003,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+3" />
             <source>Start and Break on Main</source>
-            <translation>Starta och bryt på Main</translation>
+            <translation>Starta och bryt vid main</translation>
         </message>
         <message>
             <location line="+19" />
@@ -34019,7 +34019,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+1" />
             <source>Issues that the Valgrind tools found when analyzing the code.</source>
-            <translation>Frågor som Valgrind verktygen hittade när man analyserade koden.</translation>
+            <translation>Problem som Valgrind-verktygen hittade när koden analyserades.</translation>
         </message>
         <message>
             <source>&amp;Analyze</source>
@@ -34033,18 +34033,18 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+5" />
             <source>Breakpoint Preset</source>
-            <translation>Brytpunktsförval</translation>
+            <translation>Förinställd brytpunkt</translation>
         </message>
         <message>
             <location line="+5" />
             <location line="+422" />
             <source>Running Debuggers</source>
-            <translation>Köra felsökningar</translation>
+            <translation>Körande felsökare</translation>
         </message>
         <message>
             <location line="-419" />
             <source>Debugger Perspectives</source>
-            <translation>Avlusningsperspektiv</translation>
+            <translation>Felsökarperspektiv</translation>
         </message>
         <message>
             <location line="+55" />
@@ -34054,12 +34054,12 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+6" />
             <source>Start Debugging the Current Project</source>
-            <translation>Börja felsöka det aktuella projektet</translation>
+            <translation>Starta felsökning av det aktuella projektet</translation>
         </message>
         <message>
             <location line="+25" />
             <source>Attach to Running Application</source>
-            <translation>Fäst till körande program</translation>
+            <translation>Anslut till körande program</translation>
         </message>
         <message>
             <location line="+5" />
@@ -34079,7 +34079,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+5" />
             <source>Reset Debugger</source>
-            <translation>Starta om felsökare</translation>
+            <translation>Återställ felsökaren</translation>
         </message>
         <message>
             <location line="+5" />
