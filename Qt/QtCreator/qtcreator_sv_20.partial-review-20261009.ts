@@ -44554,12 +44554,12 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+10" />
             <source>Namespace already registered:</source>
-            <translation>Namnrymden redan registrerad:</translation>
+            <translation>Namnrymden är redan registrerad:</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Registration Failed</source>
-            <translation>Registrering misslyckades</translation>
+            <translation>Registreringen misslyckades</translation>
         </message>
         <message>
             <location line="+1" />
@@ -44647,12 +44647,12 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location filename="../../../src/plugins/help/helpwidget.cpp" line="-734" />
             <source>Show Context Help Side-by-Side if Possible</source>
-            <translation>Visa kontexthjälp sida-vid-sida om möjligt</translation>
+            <translation>Visa kontexthjälp sida vid sida om möjligt</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Always Show Context Help Side-by-Side</source>
-            <translation>Visa alltid kontexthjälp sida-vid-sida</translation>
+            <translation>Visa alltid kontexthjälp sida vid sida</translation>
         </message>
         <message>
             <location line="+2" />
@@ -44672,7 +44672,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+8" />
             <source>Home</source>
-            <translation>Hem</translation>
+            <translation>Startsida</translation>
         </message>
         <message>
             <location line="+5" />
@@ -44707,7 +44707,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+136" />
             <source>Activate Help Bookmarks View</source>
-            <translation>Aktivera Hjälpbokmärken-vyn</translation>
+            <translation>Aktivera vyn Hjälpbokmärken</translation>
         </message>
         <message>
             <location line="+4" />
@@ -44717,7 +44717,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+5" />
             <source>Activate Help Search View</source>
-            <translation>Aktivera Hjälpsökning-vyn</translation>
+            <translation>Aktivera vyn Hjälpsökning</translation>
         </message>
         <message>
             <location line="+4" />
@@ -44747,7 +44747,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+16" />
             <source>Activate Open Help Pages View</source>
-            <translation>Aktivera Öppna hjälpsidor-vyn</translation>
+            <translation>Aktivera vyn Öppna hjälpsidor</translation>
         </message>
         <message>
             <location line="+5" />
@@ -44853,7 +44853,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+3" />
             <source>Use the following to provide more detailed information about your system to bug reports:</source>
-            <translation>Använd följande för att tillhandahålla mer detaljerad information om ditt system till felrapporter:</translation>
+            <translation>Använd följande för att ge mer detaljerad systeminformation i felrapporter:</translation>
         </message>
         <message>
             <source>Copy to Clipboard</source>
@@ -44875,7 +44875,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
             <location filename="../../../src/plugins/help/helpwidget.cpp" line="+49" />
             <location filename="../../../src/plugins/help/searchwidget.cpp" line="+2" />
             <source>Reload</source>
-            <translation>Uppdatera</translation>
+            <translation>Läs om</translation>
         </message>
         <message>
             <location filename="../../../src/shared/help/indexwindow.cpp" line="-89" />
@@ -44946,7 +44946,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+12" />
             <source>Note: The above setting takes effect only if the HTML file does not use a style sheet.</source>
-            <translation>Observera: Ovanstående inställning tar effekt endast om HTML-filen inte använder en stilmall.</translation>
+            <translation>Obs! Inställningen ovan får bara effekt om HTML-filen inte använder en stilmall.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -44961,12 +44961,12 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+4" />
             <source>Antialias</source>
-            <translation>Antialias</translation>
+            <translation>Kantutjämning</translation>
         </message>
         <message>
             <location line="+111" />
             <source>Startup</source>
-            <translation>Uppstart</translation>
+            <translation>Start</translation>
         </message>
         <message>
             <location line="-74" />
@@ -44981,7 +44981,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+1" />
             <source>On context help:</source>
-            <translation>Vid kontexthjälp:</translation>
+            <translation>När kontexthjälp visas:</translation>
         </message>
         <message>
             <location line="-35" />
@@ -45001,26 +45001,26 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+4" />
             <source>Viewer backend:</source>
-            <translation>Bakände för visare:</translation>
+            <translation>Visarens bakände:</translation>
         </message>
         <message>
             <source>Change takes effect after reloading help pages.</source>
-            <translation>Ändringen tar effekt efter att hjälpsidorna lästs om.</translation>
+            <translation>Ändringen får effekt när hjälpsidorna har lästs om.</translation>
         </message>
         <message>
             <location line="-107" />
             <source>Show Side-by-Side if Possible</source>
-            <translation>Visa sida-vid-sida om möjligt</translation>
+            <translation>Visa sida vid sida om möjligt</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Always Show Side-by-Side</source>
-            <translation>Visa alltid sida-vid-sida</translation>
+            <translation>Visa alltid sida vid sida</translation>
         </message>
         <message>
             <location line="-10" />
             <source>On help start:</source>
-            <translation>Vid hjälpstart:</translation>
+            <translation>När hjälpen startar:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -45035,7 +45035,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+1" />
             <source>Show My Tabs from Last Session</source>
-            <translation>Visa mina flikar från senaste session</translation>
+            <translation>Visa mina flikar från den senaste sessionen</translation>
         </message>
         <message>
             <location line="+103" />
@@ -45069,7 +45069,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="-123" />
             <source>Return to editor on closing the last page</source>
-            <translation>Återgå till redigeraren vid stängning av sista sidan</translation>
+            <translation>Återgå till redigeraren när den sista sidan stängs</translation>
         </message>
         <message>
             <location line="+141" />
@@ -45149,7 +45149,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location filename="../../../src/plugins/help/openpagesmanager.cpp" line="+203" />
             <source>Copy Full Path to Clipboard</source>
-            <translation>Kopiera fullständiga sökväg till urklipp</translation>
+            <translation>Kopiera hela sökvägen till urklipp</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/help/helpmanager.cpp" line="+154" />
@@ -45223,7 +45223,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+268" />
             <source>Deleting a folder also removes its content.&lt;br&gt;Do you want to continue?</source>
-            <translation>Borttagning av en mapp tar även bort dess innehåll.&lt;br&gt;Vill du fortsätta?</translation>
+            <translation>Om en mapp tas bort raderas även innehållet.&lt;br&gt;Vill du fortsätta?</translation>
         </message>
     </context>
     <context>
