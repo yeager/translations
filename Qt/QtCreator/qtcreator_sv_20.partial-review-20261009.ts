@@ -37022,12 +37022,12 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+77" />
             <source>Failed to locate corresponding symbol in ui header.</source>
-            <translation>Misslyckades med att hitta motsvarande symbol i ui-header.</translation>
+            <translation>Det gick inte att hitta motsvarande symbol i UI-huvudfilen.</translation>
         </message>
         <message>
             <location line="-154" />
             <source>Unable to add the method definition.</source>
-            <translation>Kunde inte lägga till method-definitionen.</translation>
+            <translation>Kunde inte lägga till metoddefinitionen.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/designer/formeditor.cpp" line="-103" />
@@ -37038,14 +37038,14 @@ Det kan hjälpa att bygga om projektet.</translation>
             <location filename="../../../src/plugins/designer/codemodelhelpers.cpp" line="+101" />
             <source>The generated header of the form "%1" could not be found.
 Rebuilding the project might help.</source>
-            <translation>Den genererade headern för formuläret "%1" kunde inte hittas.
+            <translation>Den genererade huvudfilen för formuläret ”%1” kunde inte hittas.
 Det kan hjälpa att bygga om projektet.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>The generated header "%1" could not be found in the code model.
 Rebuilding the project might help.</source>
-            <translation>Den genererade headern "%1" kunde inte hittas i kodmodellen.
+            <translation>Den genererade huvudfilen ”%1” kunde inte hittas i kodmodellen.
 Det kan hjälpa att bygga om projektet.</translation>
         </message>
         <message>
@@ -37056,7 +37056,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+1" />
             <source>&amp;Header file:</source>
-            <translation>&amp;Header-fil:</translation>
+            <translation>&amp;Huvudfil:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -37076,17 +37076,17 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+133" />
             <source>Invalid header file name: "%1"</source>
-            <translation>Ogiltigt header-filnamn: "%1"</translation>
+            <translation>Ogiltigt huvudfilnamn: ”%1”</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Invalid source file name: "%1"</source>
-            <translation>Ogiltigt källfilnamn: "%1"</translation>
+            <translation>Ogiltigt källfilnamn: ”%1”</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Invalid form file name: "%1"</source>
-            <translation>Ogiltigt formulärfilnamn: "%1"</translation>
+            <translation>Ogiltigt formulärfilnamn: ”%1”</translation>
         </message>
     </context>
     <context>
