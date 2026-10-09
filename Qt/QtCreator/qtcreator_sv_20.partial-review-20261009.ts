@@ -66775,17 +66775,17 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+3" />
             <source>The default mkspec symlink is broken.</source>
-            <translation>Standard- mkspec- sympec- länken är bruten.</translation>
+            <translation>Den symboliska standardlänken för mkspec är bruten.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>ABI detection failed: Make sure to use a matching compiler when building.</source>
-            <translation>ABI- upptäckt misslyckades: Se till att använda en matchande kompilator när du bygger.</translation>
+            <translation>ABI-detektering misslyckades. Kontrollera att en matchande kompilator används vid byggning.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Non-installed -prefix build - for internal development only.</source>
-            <translation>Ej installerat - prefix-bygge - endast för intern utveckling.</translation>
+            <translation>Icke-installerat bygge med -prefix, endast för intern utveckling.</translation>
         </message>
         <message>
             <source>No QML utility installed.</source>
@@ -66795,7 +66795,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
             <location filename="../../../src/plugins/qtsupport/qtversions.cpp" line="+29" />
             <source>Desktop</source>
             <comment>Qt Version is meant for the desktop</comment>
-            <translation>Skrivbordsenhet</translation>
+            <translation>Skrivbord</translation>
         </message>
         <message>
             <location line="+52" />
@@ -66851,7 +66851,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+2" />
             <source>The compiler "%1" (%2) may not produce code compatible with the Qt version "%3" (%4).</source>
-            <translation>Kompilatorn "%1" (%2) får inte producera kod kompatibel med Qt-versionen "%3" (%4).</translation>
+            <translation>Kompilatorn ”%1” (%2) kan eventuellt inte producera kod som är kompatibel med Qt-versionen ”%3” (%4).</translation>
         </message>
         <message>
             <location line="+6" />
@@ -66861,7 +66861,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+223" />
             <source>Qt version is not properly installed</source>
-            <translation>Qt- versionen är inte korrekt installerad</translation>
+            <translation>Qt-versionen är inte korrekt installerad</translation>
         </message>
         <message>
             <location line="+137" />
@@ -66876,7 +66876,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+3" />
             <source>Invalid Qt version:</source>
-            <translation>Ogiltig Qt version:</translation>
+            <translation>Ogiltig Qt-version:</translation>
         </message>
         <message>
             <location line="+3" />
@@ -66911,7 +66911,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+353" />
             <source>Cannot update Qt version information from %1: %2.</source>
-            <translation>Kan inte uppdatera Qt- versionsinformation från %1: %2.</translation>
+            <translation>Kan inte uppdatera Qt-versionsinformation från %1: %2.</translation>
         </message>
         <message>
             <location line="+207" />
@@ -66926,7 +66926,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+5" />
             <source>The mkspec of the current Qt version.</source>
-            <translation>Mkspec för den nuvarande Qt- versionen.</translation>
+            <translation>mkspec för den aktuella Qt-versionen.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -66941,17 +66941,17 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+5" />
             <source>The host location of the current Qt version.</source>
-            <translation>Värddatorn för den aktuella Qt- versionen.</translation>
+            <translation>Värdplatsen för den aktuella Qt-versionen.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>The installation location of the current Qt version's internal host executable files.</source>
-            <translation>Installationsplatsen för den nuvarande Qt-versionens interna körbara värdfiler.</translation>
+            <translation>Installationsplatsen för den aktuella Qt-versionens interna körbara filer på värden.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>The installation location of the current Qt version's header files.</source>
-            <translation>Installationsplatsen för nuvarande Qt-versionens huvudfiler.</translation>
+            <translation>Installationsplatsen för den aktuella Qt-versionens huvudfiler.</translation>
         </message>
         <message>
             <location line="+5" />
