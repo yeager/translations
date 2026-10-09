@@ -23272,13 +23272,13 @@ Om systemets markörer för storleksändring av vyer inte visas korrekt kan du a
         <message>
             <location line="+2" />
             <source>Uses the &lt;a href="%1"&gt;freedesktop.org D-Bus interface&lt;/a&gt; for &lt;i&gt;Open in File Manager&lt;/i&gt;, if available. Otherwise falls back to the "External file browser" above.</source>
-            <translation>Använder <a href="%1">D-Bus-gränssnittet från freedesktop.org</a> för <i>Öppna i filhanteraren</i>, om det är tillgängligt. Annars används ”Extern filbläddrare” ovan.</translation>
+            <translation>Använder &lt;a href="%1"&gt;D-Bus-gränssnittet från freedesktop.org&lt;/a&gt; för &lt;i&gt;Öppna i filhanteraren&lt;/i&gt;, om det är tillgängligt. Annars används ”Extern filbläddrare” ovan.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Command used for &lt;i&gt;Open in File Manager&lt;/i&gt; if the freedesktop.org D-Bus interface is not available. The command can contain the following variables:
 </source>
-            <translation>Kommando som används för <i>Öppna i filhanteraren</i> om D-Bus-gränssnittet från freedesktop.org inte är tillgängligt. Kommandot kan innehålla följande variabler:
+            <translation>Kommando som används för &lt;i&gt;Öppna i filhanteraren&lt;/i&gt; om D-Bus-gränssnittet från freedesktop.org inte är tillgängligt. Kommandot kan innehålla följande variabler:
 </translation>
         </message>
         <message>
