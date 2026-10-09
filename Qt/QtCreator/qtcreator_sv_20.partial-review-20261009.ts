@@ -40762,7 +40762,7 @@ Orsak: %3</translation>
         <message>
             <location line="+42" />
             <source>Create Git Repository...</source>
-            <translation>Skapa Git-förråd…</translation>
+            <translation>Skapa Git-arkiv...</translation>
         </message>
         <message>
             <location line="+5" />
@@ -40783,38 +40783,38 @@ Orsak: %3</translation>
         <message>
             <location line="+5" />
             <source>Remove &amp;Stale Branches</source>
-            <translation>Ta bort &amp;Stale-grenar</translation>
+            <translation>Ta bort &amp;inaktiva grenar</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Manage &amp;Remotes...</source>
-            <translation>Hantera &amp;Remotes…</translation>
+            <translation>Hantera &amp;fjärrarkiv...</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Rem&amp;ove...</source>
-            <translation>Ta &amp;bort…</translation>
+            <translation>Ta &amp;bort...</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Re&amp;name...</source>
-            <translation>Byt &amp;namn…</translation>
+            <translation>Byt &amp;namn...</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Reflo&amp;g</source>
-            <translation>Reflo&amp;g</translation>
+            <translation>Referens&amp;logg</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Re&amp;set</source>
-            <translation>Re&amp;set</translation>
+            <translation>Åter&amp;ställ</translation>
         </message>
         <message>
             <location line="+1" />
             <location filename="../../../src/plugins/git/gitclient.cpp" line="+3402" />
             <source>&amp;Hard</source>
-            <translation>&amp;Hard Ordförande</translation>
+            <translation>&amp;Hard</translation>
         </message>
         <message>
             <location line="+1" />
@@ -40826,47 +40826,47 @@ Orsak: %3</translation>
             <location line="+1" />
             <location filename="../../../src/plugins/git/gitclient.cpp" line="+1" />
             <source>&amp;Soft</source>
-            <translation>&amp;Soft Ordförande</translation>
+            <translation>&amp;Soft</translation>
         </message>
         <message>
             <location line="+8" />
             <source>&amp;Merge "%1" into "%2" (Fast-Forward)</source>
-            <translation>&amp;Merge "%1" till "%2" (snabbt framåt)</translation>
+            <translation>&amp;Sammanfoga ”%1” med ”%2” (Fast-forward)</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Merge "%1" into "%2" (No &amp;Fast-Forward)</source>
-            <translation>Sammanfoga "%1" till "%2" (ingen &amp;Fast-Framåt)</translation>
+            <translation>Sammanfoga ”%1” med ”%2” (ingen &amp;Fast-forward)</translation>
         </message>
         <message>
             <location line="-9" />
             <source>&amp;Merge "%1" into "%2"</source>
-            <translation>&amp;Merge "%1" till "%2"</translation>
+            <translation>&amp;Sammanfoga ”%1” med ”%2”</translation>
         </message>
         <message>
             <location line="+13" />
             <source>&amp;Rebase "%1" on "%2"</source>
-            <translation>&amp;Rebase "%1" på "%2"</translation>
+            <translation>&amp;Rebase ”%1” på ”%2”</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Cherry-&amp;Pick...</source>
-            <translation>Körsbärs-&amp;Pick…</translation>
+            <translation>&amp;Cherry-pick...</translation>
         </message>
         <message>
             <location line="+176" />
             <source>Would you like to delete the tag "%1"?</source>
-            <translation>Vill du ta bort taggen "%1"?</translation>
+            <translation>Vill du ta bort taggen ”%1”?</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Would you like to delete the branch "%1"?</source>
-            <translation>Vill du ta bort grenen "%1"?</translation>
+            <translation>Vill du ta bort grenen ”%1”?</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Would you like to delete the &lt;b&gt;unmerged&lt;/b&gt; branch "%1"?</source>
-            <translation>Vill du ta bort &lt;b&gt;unmerged&lt;/b&gt; grenen "%1"?</translation>
+            <translation>Vill du ta bort den &lt;b&gt;inte sammanslagna&lt;/b&gt; grenen ”%1”?</translation>
         </message>
         <message>
             <location line="+2" />
@@ -40881,17 +40881,17 @@ Orsak: %3</translation>
         <message>
             <location line="+52" />
             <source>Git Reset</source>
-            <translation>Git- återställ</translation>
+            <translation>Git-återställning</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Reset branch "%1" to "%2"?</source>
-            <translation>Återställ grenen "%1" till "%2"?</translation>
+            <translation>Återställ grenen ”%1” till ”%2”?</translation>
         </message>
         <message>
             <location line="+121" />
             <source>Git Branches</source>
-            <translation>Gitgrenar</translation>
+            <translation>Git-grenar</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/branchadddialog.cpp" line="+153" />
@@ -40918,22 +40918,22 @@ Orsak: %3</translation>
         <message>
             <location filename="../../../src/plugins/git/branchview.cpp" line="+24" />
             <source>&amp;Diff</source>
-            <translation>&amp;Diff</translation>
+            <translation>&amp;Jämför</translation>
         </message>
         <message>
             <location line="+5" />
             <source>&amp;Log</source>
-            <translation>&amp;Log</translation>
+            <translation>&amp;Logg</translation>
         </message>
         <message>
             <location line="+30" />
             <source>&amp;Track</source>
-            <translation>&amp;Track</translation>
+            <translation>Sp&amp;åra</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/changeselectiondialog.cpp" line="+58" />
             <source>Browse &amp;History...</source>
-            <translation>Bläddra &amp;historik…</translation>
+            <translation>Bläddra i &amp;historiken...</translation>
         </message>
         <message>
             <location line="+7" />
@@ -40945,7 +40945,7 @@ Orsak: %3</translation>
         <message>
             <location line="-2" />
             <source>&amp;Revert</source>
-            <translation>&amp;Revert Ordförande</translation>
+            <translation>Å&amp;terställ</translation>
         </message>
         <message>
             <location line="-1" />
@@ -40960,17 +40960,17 @@ Orsak: %3</translation>
         <message>
             <location line="-18" />
             <source>Select a Git Commit</source>
-            <translation>Välj en Git - kommitté</translation>
+            <translation>Välj en Git-incheckning</translation>
         </message>
         <message>
             <location line="+19" />
             <source>&amp;Archive...</source>
-            <translation>&amp;Archive…</translation>
+            <translation>&amp;Arkivera...</translation>
         </message>
         <message>
             <location line="+83" />
             <source>Select Commit</source>
-            <translation>Välj kommit</translation>
+            <translation>Välj incheckning</translation>
         </message>
         <message>
             <location line="-74" />
@@ -40995,7 +40995,7 @@ Orsak: %3</translation>
         <message>
             <location line="+76" />
             <source>Fetching commit data...</source>
-            <translation>Hämtar arkivdata…</translation>
+            <translation>Hämtar incheckningsdata...</translation>
         </message>
         <message>
             <location line="-184" />
