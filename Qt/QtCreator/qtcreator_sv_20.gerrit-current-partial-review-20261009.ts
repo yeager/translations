@@ -10674,7 +10674,7 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Max Amount</source>
-        <translation>Största mängd</translation>
+        <translation>Maximalt antal</translation>
     </message>
     <message>
         <source>Sets the maximum amount of particles that can exist at the same time.</source>
@@ -10718,7 +10718,7 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the fading effect used when the particles reach their lifeSpan and disappear.</source>
-        <translation>Ställer in toningseffekten som används när partiklarna når sin lifeSpan och försvinner.</translation>
+        <translation>Anger uttoningseffekten som används när partiklarna når sin lifeSpan och försvinner.</translation>
     </message>
     <message>
         <source>Fade In Duration</source>
@@ -10742,23 +10742,23 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the align mode used for the particles. Particle alignment means the direction that particles face.</source>
-        <translation>Ställer in justeringsläget som används för partiklarna. Partikeljustering innebär riktningen som partiklarna är vända mot.</translation>
+        <translation>Anger justeringsläget som används för partiklarna. Partikeljustering anger åt vilket håll partiklarna är vända.</translation>
     </message>
     <message>
         <source>Align Target Position</source>
-        <translation>Justera målposition</translation>
+        <translation>Målposition för justering</translation>
     </message>
     <message>
         <source>Sets the position particles are aligned to. This property has effect only when the alignMode is set to Particle3D.AlignTowardsTarget.</source>
-        <translation>Ställer in positionen som partiklarna justeras mot. Egenskapen har bara effekt när alignMode är inställt på Particle3D.AlignTowardsTarget.</translation>
+        <translation>Anger positionen som partiklarna riktas mot. Egenskapen har bara effekt när alignMode är inställt på Particle3D.AlignTowardsTarget.</translation>
     </message>
     <message>
         <source>Has Transparency</source>
-        <translation>Har genomskinlighet</translation>
+        <translation>Har transparens</translation>
     </message>
     <message>
         <source>Sets if the particle has any transparency and should be blended with the background.</source>
-        <translation>Ställer in om partikeln har genomskinlighet och ska blandas med bakgrunden.</translation>
+        <translation>Anger om partikeln har transparens och ska blandas med bakgrunden.</translation>
     </message>
     <message>
         <source>Sort Mode</source>
