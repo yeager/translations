@@ -10757,7 +10757,7 @@ i systemets webbläsare för manuell hämtning.</translation>
         <message>
             <location line="+1" />
             <source>CMake include project (CMakeLists.txt) exists.</source>
-            <translation>CMake include projekt (CMakeLists.txt) finns.</translation>
+            <translation>CMake-includeprojektet (CMakeLists.txt) finns.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -10782,12 +10782,12 @@ i systemets webbläsare för manuell hämtning.</translation>
         <message>
             <location line="+2" />
             <source>Select OpenSSL Include Project File</source>
-            <translation>Välj OpenSSL Inkludera projektfil</translation>
+            <translation>Välj OpenSSL-includeprojektfil</translation>
         </message>
         <message>
             <location line="-120" />
             <source>All changes on this page take effect immediately.</source>
-            <translation>Alla ändringar på denna sida tar effekt direkt.</translation>
+            <translation>Alla ändringar på den här sidan får effekt omedelbart.</translation>
         </message>
         <message>
             <location line="+135" />
@@ -10817,7 +10817,7 @@ i systemets webbläsare för manuell hämtning.</translation>
         <message>
             <location line="+420" />
             <source>Failed to create the SDK Tools path %1.</source>
-            <translation>Misslyckades med att skapa SDK Tools-sökväg: %1.</translation>
+            <translation>Det gick inte att skapa sökvägen för SDK Tools: %1.</translation>
         </message>
         <message>
             <location line="-284" />
@@ -10832,7 +10832,7 @@ i systemets webbläsare för manuell hämtning.</translation>
         <message>
             <location line="+1" />
             <source>The selected path has an invalid NDK. This might mean that the path contains space characters, or that it does not have a "toolchains" sub-directory, or that the NDK version could not be retrieved because of a missing "source.properties" or "RELEASE.TXT" file</source>
-            <translation>Valda sökvägen har en ogiltig NDK. Detta kan betyda att sökvägen innehåller blanksteg eller att den inte har en "toolchains"-underkatalog, eller att NDK-versionen inte kunde hämtas på grund av en saknad "source.properties" eller "RELEASE.TXT"-fil</translation>
+            <translation>Den valda sökvägen innehåller en ogiltig NDK. Det kan bero på att sökvägen innehåller blanksteg, saknar underkatalogen "toolchains" eller att NDK-versionen inte kunde hämtas eftersom filen "source.properties" eller "RELEASE.TXT" saknas.</translation>
         </message>
         <message>
             <location line="+137" />
@@ -10842,7 +10842,7 @@ i systemets webbläsare för manuell hämtning.</translation>
         <message>
             <location line="+5" />
             <source>OpenSSL prebuilt libraries repository is already configured.</source>
-            <translation>Förråd för förbyggda OpenSSL-bibliotek har redan konfigurerats.</translation>
+            <translation>Förrådet med förbyggda OpenSSL-bibliotek är redan konfigurerat.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -10862,7 +10862,7 @@ i systemets webbläsare för manuell hämtning.</translation>
         <message>
             <location line="+3" />
             <source>Opening OpenSSL URL for manual download.</source>
-            <translation>Öppnar OpenSSL URL för manuell nedladdning.</translation>
+            <translation>Öppnar OpenSSL-URL:en för manuell hämtning.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -10872,7 +10872,7 @@ i systemets webbläsare för manuell hämtning.</translation>
         <message>
             <location line="+12" />
             <source>The Git tool might not be installed properly on your system.</source>
-            <translation>Git-verktyget kanske inte är installerat ordentligt på ditt system.</translation>
+            <translation>Git-verktyget kanske inte är korrekt installerat på systemet.</translation>
         </message>
         <message>
             <location line="+29" />
@@ -10882,7 +10882,7 @@ i systemets webbläsare för manuell hämtning.</translation>
         <message>
             <location line="+21" />
             <source>Unset Default</source>
-            <translation>Avinställ standard</translation>
+            <translation>Ta bort som standard</translation>
         </message>
         <message>
             <location line="+1" />
@@ -10912,17 +10912,17 @@ i systemets webbläsare för manuell hämtning.</translation>
         <message>
             <location line="+40" />
             <source>No attributes</source>
-            <translation>Inga egenskaper</translation>
+            <translation>Inga attribut</translation>
         </message>
         <message>
             <location line="+51" />
             <source>Include default permissions for Qt modules</source>
-            <translation>Inkludera standardbehörigheter för Qt- moduler</translation>
+            <translation>Inkludera standardbehörigheter för Qt-moduler</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Include default features for Qt modules</source>
-            <translation>Inkludera standardfunktioner för Qt- moduler</translation>
+            <translation>Inkludera standardfunktioner för Qt-moduler</translation>
         </message>
         <message>
             <location line="+140" />
@@ -10965,12 +10965,12 @@ i systemets webbläsare för manuell hämtning.</translation>
         <message>
             <location filename="../../../src/plugins/android/androidsettingswidget.cpp" line="+40" />
             <source>Automatically create kits for Android tool chains</source>
-            <translation>Skapa automatiskt kit för Android verktygskedjor</translation>
+            <translation>Skapa automatiskt kit för Android-verktygskedjor</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Android SDK Command-line Tools runs.</source>
-            <translation>Android SDK Kommandorad Verktyg körs.</translation>
+            <translation>Android SDK Command-line Tools körs.</translation>
         </message>
         <message>
             <location line="+61" />
@@ -10994,12 +10994,12 @@ i systemets webbläsare för manuell hämtning.</translation>
         <message>
             <location filename="../../../src/plugins/android/keystorecertificatedialog.cpp" line="+95" />
             <source>Keystore password is too short.</source>
-            <translation>Lösenordet till nyckelbutiken är för kort.</translation>
+            <translation>Lösenordet till nyckellagret är för kort.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Keystore passwords do not match.</source>
-            <translation>Lösenord i nyckellager matchar inte.</translation>
+            <translation>Lösenorden i nyckellagret matchar inte.</translation>
         </message>
         <message>
             <location line="+15" />
