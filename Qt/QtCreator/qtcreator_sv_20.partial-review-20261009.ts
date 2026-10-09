@@ -25672,7 +25672,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location line="+1" />
             <source>Qt Quick 2 Preview (qmlscene)</source>
-            <translation>Qt Snabb 2 Förhandsgranska (qmlscen)</translation>
+            <translation>Förhandsgranskning av Qt Quick 2 (qmlscene)</translation>
         </message>
         <message>
             <location line="+1" />
@@ -25695,7 +25695,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location filename="../../../src/plugins/coreplugin/externaltoolmanager.cpp" line="+114" />
             <source>Error while parsing external tool %1: %2</source>
-            <translation>Fel vid tolkning av externa verktyget %1: %2</translation>
+            <translation>Fel vid tolkning av det externa verktyget %1: %2</translation>
         </message>
         <message>
             <location line="-48" />
@@ -25705,12 +25705,12 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location line="+59" />
             <source>Error: External tool in %1 has duplicate id</source>
-            <translation>Fel: Externt verktyg i %1 har ett dubblett-id</translation>
+            <translation>Fel: Det externa verktyget i %1 har ett dubblett-id</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/mimetypemagicdialog.cpp" line="+31" />
             <source>Add Magic Header</source>
-            <translation>Lägg till magisk huvud</translation>
+            <translation>Lägg till magiskt filhuvud</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/foldernavigationwidget.cpp" line="-221" />
@@ -25738,7 +25738,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location filename="../../../src/plugins/coreplugin/mimetypemagicdialog.cpp" line="-61" />
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MIME magic data is interpreted as defined by the Shared MIME-info Database specification from &lt;a href="https://www.freedesktop.org/wiki/Specifications/shared-mime-info-spec/"&gt;freedesktop.org&lt;/a&gt;.&lt;hr/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MIME magiska data tolkas enligt definitionen i den delade MIME-info databasspecifikationen från &lt;a href="https://www.freedesktop.org/wiki/Specifications/shared-mime-info-spec/"&gt;freedesktop.org&lt;/a&gt;.&lt;hr/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MIME-magicdata tolkas enligt Shared MIME-info-databasspecifikationen från &lt;a href="https://www.freedesktop.org/wiki/Specifications/shared-mime-info-spec/"&gt;freedesktop.org&lt;/a&gt;.&lt;hr/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location line="+9" />
@@ -25793,17 +25793,17 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location line="+3" />
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-style:italic;"&gt;Note: Wide range values might impact performance when opening files.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-style:italic;"&gt;Note: Wide range values might impact performance when opening files.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-style:italic;"&gt;Obs! Breda intervallvärden kan påverka prestandan när filer öppnas.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Range start:</source>
-            <translation>Avståndsstart:</translation>
+            <translation>Intervallstart:</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Range end:</source>
-            <translation>Avståndsslut:</translation>
+            <translation>Intervallslut:</translation>
         </message>
         <message>
             <location line="+31" />
@@ -25853,7 +25853,7 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location filename="../../../src/plugins/coreplugin/vcsmanager.cpp" line="+290" />
             <source>A directory under version control was detected that is supported by the %1 plugin.</source>
-            <translation>katalog under versionskontroll detekterades som stöds av %1- insticksprogrammet.</translation>
+            <translation>En katalog under versionskontroll upptäcktes som stöds av insticksmodulen %1.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -25868,12 +25868,12 @@ Det gör du genom att skriva den här genvägen följd av ett mellanslag i sökr
         <message>
             <location line="+13" />
             <source>The directory "%1" seems to be under version control that can be handled by the disabled %2 plugin.</source>
-            <translation>Katalogen "%1" verkar vara under versionskontroll som kan hanteras av det inaktiverade %2- insticksprogrammet.</translation>
+            <translation>Katalogen ”%1” verkar vara under versionskontroll som kan hanteras av den inaktiverade insticksmodulen %2.</translation>
         </message>
         <message>
             <location line="+95" />
             <source>%1 repository was detected but %1 is not configured.</source>
-            <translation>%1-förråd upptäcktes men %1 är inte konfigurerat.</translation>
+            <translation>Ett %1-förråd upptäcktes men %1 är inte konfigurerat.</translation>
         </message>
         <message>
             <location line="+72" />
