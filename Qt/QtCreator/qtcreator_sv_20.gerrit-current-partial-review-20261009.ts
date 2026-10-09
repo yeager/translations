@@ -17675,7 +17675,7 @@ Ange egenskapen ”%2” manuellt.</translation>
     </message>
     <message>
         <source>Restart if running:</source>
-        <translation>Starta om om programmet körs:</translation>
+        <translation>Starta om när programmet körs:</translation>
     </message>
     <message>
         <source>Restarts the application in case it is already running.</source>
