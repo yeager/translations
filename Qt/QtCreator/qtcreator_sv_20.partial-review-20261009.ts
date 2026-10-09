@@ -61958,7 +61958,7 @@ Berörda filer är:
         <message>
             <location line="+8" />
             <source>Unable to create server socket: %1</source>
-            <translation>Kunde inte skapa serveruttag: %1</translation>
+            <translation>Kunde inte skapa serversocket: %1</translation>
         </message>
         <message>
             <location line="+48" />
@@ -61968,7 +61968,7 @@ Berörda filer är:
         <message>
             <location line="-158" />
             <source>Could not load kits in a reasonable amount of time.</source>
-            <translation>Kunde inte ladda satser på en rimlig tid.</translation>
+            <translation>Kunde inte läsa in kit inom rimlig tid.</translation>
         </message>
         <message>
             <location line="+26" />
@@ -62013,7 +62013,7 @@ Berörda filer är:
         <message>
             <location line="-3" />
             <source>qmake system() behavior when parsing:</source>
-            <translation>qmakes system()-beteende vid tolkning:</translation>
+            <translation>system()-beteende i qmake vid tolkning:</translation>
         </message>
         <message>
             <location line="+106" />
@@ -62028,18 +62028,18 @@ Berörda filer är:
         <message>
             <location line="+15" />
             <source>The build directory contains a build for a different project, which will be overwritten.</source>
-            <translation>Byggkatalogen innehåller en byggnation för ett annat projekt som kommer att skrivas över.</translation>
+            <translation>Byggkatalogen innehåller ett bygge för ett annat projekt, som kommer att skrivas över.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>%1 The build will be overwritten.</source>
             <comment>%1 error message</comment>
-            <translation>%1 Byggnationen kommer att skrivas över.</translation>
+            <translation>%1 Bygget kommer att skrivas över.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Starting qmake failed with the following error: %1</source>
-            <translation>Start av qmake misslyckades med följande fel: %1</translation>
+            <translation>Kunde inte starta qmake: %1</translation>
         </message>
         <message>
             <location line="+67" />
@@ -62077,7 +62077,7 @@ Berörda filer är:
             <source>Release</source>
             <comment>Shadow build directory suffix</comment>
             <extracomment>Non-ASCII characters in directory suffix may cause build issues.</extracomment>
-            <translation>Frisläppande</translation>
+            <translation>Produktionsversion</translation>
         </message>
         <message>
             <location line="+8" />
@@ -62140,17 +62140,17 @@ Berörda filer är:
         <message>
             <location line="+10" />
             <source>Clean Subproject</source>
-            <translation>Töm underprojekt</translation>
+            <translation>Rensa underprojekt</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Build File</source>
-            <translation>Bygg fil</translation>
+            <translation>Byggfil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Build File "%1"</source>
-            <translation>Bygg filen "%1"</translation>
+            <translation>Byggfilen ”%1”</translation>
         </message>
         <message>
             <location line="+6" />
@@ -62171,7 +62171,7 @@ Berörda filer är:
         <message>
             <location line="+9" />
             <source>The build directory is not at the same level as the source directory, which could be the reason for the build failure.</source>
-            <translation>Byggkatalogen är inte på samma nivå som källkatalogen vilket kan vara anledningen för att byggnationen misslyckades.</translation>
+            <translation>Byggkatalogen ligger inte på samma nivå som källkatalogen, vilket kan vara orsaken till att bygget misslyckades.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/qmakestep.cpp" line="+683" />
@@ -62182,7 +62182,7 @@ Berörda filer är:
         <message>
             <location line="-410" />
             <source>Configuration unchanged, skipping qmake step.</source>
-            <translation>Konfigurationen inte ändrad, hoppar över qmake-steget.</translation>
+            <translation>Konfigurationen är oförändrad, hoppar över qmake-steget.</translation>
         </message>
         <message>
             <location line="-93" />
@@ -62192,7 +62192,7 @@ Berörda filer är:
         <message>
             <location line="+34" />
             <source>Could not determine which "make" command to run. Check the "make" step in the build configuration.</source>
-            <translation>Kunde inte bestämma vilket "make"-kommando att köra. Kontrollera "make"-steget i byggkonfigurationen.</translation>
+            <translation>Kunde inte avgöra vilket ”make”-kommando som ska köras. Kontrollera ”make”-steget i byggkonfigurationen.</translation>
         </message>
         <message>
             <location line="+147" />
