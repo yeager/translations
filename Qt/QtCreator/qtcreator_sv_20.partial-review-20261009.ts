@@ -50844,12 +50844,12 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+6" />
             <source>Log Project</source>
-            <translation>Loggprojekt</translation>
+            <translation>Logg för projekt</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Log Project "%1"</source>
-            <translation>Loggprojekt "%1"</translation>
+            <translation>Logg för projektet "%1"</translation>
         </message>
         <message>
             <location line="+7" />
@@ -50899,7 +50899,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+402" />
             <source>p4 changelists %1</source>
-            <translation>P4 förändringslistor %1</translation>
+            <translation>p4-ändringslistor %1</translation>
         </message>
         <message>
             <location line="+603" />
@@ -50911,7 +50911,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
             <location line="-927" />
             <location line="+52" />
             <source>p4 revert</source>
-            <translation>p4 återställ</translation>
+            <translation>p4 revert</translation>
         </message>
         <message>
             <location line="-51" />
@@ -50921,12 +50921,12 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+50" />
             <source>Do you want to revert all changes to the project "%1"?</source>
-            <translation>Vill du återställa alla ändringar till projektet "%1"?</translation>
+            <translation>Vill du återställa alla ändringar i projektet "%1"?</translation>
         </message>
         <message>
             <location line="+74" />
             <source>Another submit is currently executed.</source>
-            <translation>annan inlämning utförs för närvarande.</translation>
+            <translation>En annan inskickning pågår.</translation>
         </message>
         <message>
             <location line="+49" />
@@ -50936,32 +50936,32 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+51" />
             <source>p4 annotate</source>
-            <translation>p4 anteckna</translation>
+            <translation>p4 annotate</translation>
         </message>
         <message>
             <location line="+26" />
             <source>p4 annotate %1</source>
-            <translation>p4 anteckna %1</translation>
+            <translation>p4 annotate %1</translation>
         </message>
         <message>
             <location line="+16" />
             <source>p4 filelog</source>
-            <translation>fillogg för p4</translation>
+            <translation>p4 filelog</translation>
         </message>
         <message>
             <location line="+35" />
             <source>p4 filelog %1</source>
-            <translation>p4- fillogg %1</translation>
+            <translation>p4 filelog %1</translation>
         </message>
         <message>
             <location line="+446" />
             <source>Close Submit Editor</source>
-            <translation>Stäng skicka editor</translation>
+            <translation>Stäng redigeraren för inskickning</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Closing this editor will abort the submit.</source>
-            <translation>Att stänga den här editorn avbryter inlämningen.</translation>
+            <translation>Om du stänger redigeraren avbryts inskickningen.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -50971,17 +50971,17 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+1" />
             <source>Cannot submit: %1.</source>
-            <translation>Kan inte skicka: %1.</translation>
+            <translation>Kan inte skicka in: %1.</translation>
         </message>
         <message>
             <location line="+183" />
             <source>Perforce repository: %1</source>
-            <translation>Perforce-förråd: %1</translation>
+            <translation>Perforce-arkiv: %1</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Perforce: Unable to determine the repository: %1</source>
-            <translation>Perforce: Kunde inte bestämma förrådet: %1</translation>
+            <translation>Perforce: Kunde inte fastställa arkivet: %1</translation>
         </message>
         <message>
             <location line="-300" />
@@ -51004,7 +51004,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+24" />
             <source>p4 describe %1</source>
-            <translation>p4 beskriv %1</translation>
+            <translation>p4 describe %1</translation>
         </message>
         <message>
             <location line="+46" />
@@ -51014,12 +51014,12 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+0" />
             <source>Could not submit the change, because your workspace was out of date. Created a pending submit instead.</source>
-            <translation>Kunde inte skicka in ändringen, eftersom arbetsytan var föråldrad. Skapade en väntande inlämning istället.</translation>
+            <translation>Kunde inte skicka in ändringen eftersom arbetsytan inte var uppdaterad. Skapade i stället en väntande inskickning.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/perforce/perforcesubmiteditor.cpp" line="+24" />
             <source>Perforce Submit</source>
-            <translation>Perforce Skicka</translation>
+            <translation>Perforce-incheckning</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/perforce/perforcesettings.cpp" line="+87" />
@@ -51039,7 +51039,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="-67" />
             <source>P4 command:</source>
-            <translation>P4 kommando:</translation>
+            <translation>P4-kommando:</translation>
         </message>
         <message>
             <location line="+72" />
@@ -51049,22 +51049,22 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="-64" />
             <source>P4 client:</source>
-            <translation>P4 klient:</translation>
+            <translation>P4-klient:</translation>
         </message>
         <message>
             <location line="+4" />
             <source>P4 user:</source>
-            <translation>P4 användare:</translation>
+            <translation>P4-användare:</translation>
         </message>
         <message>
             <location line="-8" />
             <source>P4 port:</source>
-            <translation>P4 port:</translation>
+            <translation>P4-port:</translation>
         </message>
         <message>
             <location line="+74" />
             <source>Miscellaneous</source>
-            <translation>Diverse</translation>
+            <translation>Övrigt</translation>
         </message>
         <message>
             <location line="-54" />
@@ -51079,7 +51079,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="-8" />
             <source>Log count:</source>
-            <translation>Loggantal:</translation>
+            <translation>Antal loggposter:</translation>
         </message>
         <message>
             <location line="+12" />
