@@ -23543,7 +23543,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+69" />
             <source>Return to Editor</source>
-            <translation>Återgå till redigerare</translation>
+            <translation>Återgå till redigeraren</translation>
         </message>
         <message>
             <location line="+6" />
@@ -23691,12 +23691,12 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+8" />
             <source>Contact...</source>
-            <translation>Kontakta oss…</translation>
+            <translation>Kontakta…</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/modemanager.cpp" line="+237" />
             <source>Cycle Mode Selector Styles</source>
-            <translation>Cykellägesväljarstilar</translation>
+            <translation>Växla stil för lägesväljaren</translation>
         </message>
         <message>
             <location line="-100" />
@@ -23748,7 +23748,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+1" />
             <source>&lt;p&gt;Qt Creator developers can be reached at the Qt Creator mailing list:&lt;/p&gt;%1&lt;p&gt;or the #qt-creator channel on Libera.Chat IRC:&lt;/p&gt;%2&lt;p&gt;Our bug tracker is located at %3.&lt;/p&gt;&lt;p&gt;Please use %4 for bigger chunks of text.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Utvecklarna för Qt Creator kan nås via Qt Creators e-postlista:&lt;/p&gt;%1&lt;p&gt;eller irc-kanalen #qt-creator på Libera.Chat:&lt;/p&gt;%2&lt;p&gt;Vår felhanterare finns på %3.&lt;/p&gt;&lt;p&gt;Använd gärna %4 för större textdelningar.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Qt Creators utvecklare kan nås via e-postlistan för Qt Creator:&lt;/p&gt;%1&lt;p&gt;eller kanalen #qt-creator på Libera.Chat IRC:&lt;/p&gt;%2&lt;p&gt;Vår felhanterare finns på %3.&lt;/p&gt;&lt;p&gt;Använd gärna %4 för större textmängder.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="-714" />
@@ -23780,16 +23780,16 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="-1352" />
             <source>Could not find %1 executable in %2</source>
-            <translation>Kunde inte hitta körbara filen %1 i %2</translation>
+            <translation>Kunde inte hitta den körbara filen %1 i %2</translation>
         </message>
         <message>
             <source>The Qt logo, axivion stopping software erosion logo, Qt Group logo, as well as Qt®, Axivion®, avixion stopping software erosion®, Boot to Qt®, Built with Qt®, Coco®, froglogic®, Qt Cloud Services®, Qt Developer Days®, Qt Embedded®, Qt Enterprise®, Qt Group®, Qt Mobile®, Qt Quick®, Qt Quick Compiler®, Squish® are registered trademarks of The Qt Company Ltd. or its subsidiaries.</source>
-            <translation>Qt-logotypen, axivion stopping software erosion logo, Qt Group-logotypen, såväl som Qt®, Axivion®, avixion stopping software erosion®, Boot to Qt®, Built with Qt®, Coco®, froglogic®, Qt Cloud Services®, Qt Developer Days®, Qt Embedded®, Qt Enterprise®, Qt Group®, Qt Mobile®, Qt Quick®, Qt Quick Compiler®, Squish® är registrerade varumärken för The Qt Company Ltd. eller dess dotterbolag.</translation>
+            <translation>Qt-logotypen, logotypen för axivion stopping software erosion och Qt Group-logotypen samt Qt®, Axivion®, avixion stopping software erosion®, Boot to Qt®, Built with Qt®, Coco®, froglogic®, Qt Cloud Services®, Qt Developer Days®, Qt Embedded®, Qt Enterprise®, Qt Group®, Qt Mobile®, Qt Quick®, Qt Quick Compiler® och Squish® är registrerade varumärken som tillhör The Qt Company Ltd. eller dess dotterbolag.</translation>
         </message>
         <message>
             <location line="+659" />
             <source>%1 is free software, and you are welcome to redistribute it under &lt;a href="%2"&gt;certain conditions&lt;/a&gt;. For some components, different conditions might apply though.</source>
-            <translation>%1 är fri programvara och du är välkommen att distribuera den vidare under &lt;a href="%2"&gt;särskilda villkor&lt;/a&gt;. För vissa komponenter så kan även andra villkor gälla.</translation>
+            <translation>%1 är fri programvara och får distribueras vidare enligt &lt;a href="%2"&gt;vissa villkor&lt;/a&gt;. För vissa komponenter kan dock andra villkor gälla.</translation>
         </message>
         <message>
             <location line="+624" />
