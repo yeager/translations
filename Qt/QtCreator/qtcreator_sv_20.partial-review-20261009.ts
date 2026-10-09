@@ -64950,7 +64950,7 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+19" />
             <source>Select an externally started QML-debug enabled application.&lt;p&gt;Commonly used command-line arguments are:</source>
-            <translation>Välj ett externt startat QML-felsökningsaktiverat program.&lt;p&gt;Ofta vanligt använda kommandoradsargument är:</translation>
+            <translation>Välj ett externt startat program med QML-felsökning aktiverad.&lt;p&gt;Vanliga kommandoradsargument är:</translation>
         </message>
         <message>
             <location line="+6" />
@@ -64990,7 +64990,7 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+17" />
             <source>others</source>
-            <translation>övriga</translation>
+            <translation>Övriga</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmlprofiler/qmlprofilertool.cpp" line="-578" />
@@ -65006,30 +65006,30 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
             <location line="-21" />
             <location line="+347" />
             <source>Load QML Trace</source>
-            <translation>Läs in QML-spårning</translation>
+            <translation>Läs in QML-spår</translation>
         </message>
         <message>
             <location line="-352" />
             <source>QML Profiler (Attach to Waiting Application)</source>
-            <translation>QML-profilerare (Fäst till väntande program)</translation>
+            <translation>QML-profilerare (anslut till väntande program)</translation>
         </message>
         <message>
             <location line="+9" />
             <location line="+321" />
             <source>Save QML Trace</source>
-            <translation>Spara QML-spårning</translation>
+            <translation>Spara QML-spår</translation>
         </message>
         <message>
             <location line="+86" />
             <source>Application finished before loading profiled data.
 Please use the stop button instead.</source>
-            <translation>Programmet är klart innan profilerad data
-laddas. Använd stoppknappen istället.</translation>
+            <translation>Programmet avslutades innan profileringsdata hann läsas in.
+Använd stoppknappen i stället.</translation>
         </message>
         <message>
             <location line="-512" />
             <source>Search timeline event notes.</source>
-            <translation>Sök tidslinje händelse anteckningar.</translation>
+            <translation>Sök bland anteckningar till tidslinjehändelser.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -65069,12 +65069,12 @@ laddas. Använd stoppknappen istället.</translation>
         <message>
             <location line="+37" />
             <source>The application finished before a connection could be established. No data was loaded.</source>
-            <translation>Programmet färdigställdes innan en anslutning kunde etableras. Inget data lästes in.</translation>
+            <translation>Programmet avslutades innan en anslutning kunde upprättas. Inga data lästes in.</translation>
         </message>
         <message>
             <source>Could not connect to the in-process QML profiler within %1 s.
 Do you want to retry and wait %2 s?</source>
-            <translation>Kunde inte ansluta till in-process QML-profileraren inom %1 s.
+            <translation>Kunde inte ansluta till QML-profileraren i processen inom %1 s.
 Vill du försöka igen och vänta %2 s?</translation>
         </message>
         <message>
@@ -65089,7 +65089,7 @@ Vill du försöka igen och vänta %2 s?</translation>
         <message>
             <location line="+1" />
             <source>Elapsed: %1</source>
-            <translation>Förflutet: %1</translation>
+            <translation>Förfluten tid: %1</translation>
         </message>
         <message>
             <location line="+150" />
@@ -65115,8 +65115,8 @@ Vill du försöka igen och vänta %2 s?</translation>
             <location line="+163" />
             <source>Starting a new profiling session will discard the previous data, including unsaved notes.
 Do you want to save the data first?</source>
-            <translation>Starta en ny profileringssession kommer att förkasta tidigare data, inklusive osparade noteringar.
-Vill du spara datat först?</translation>
+            <translation>Om du startar en ny profileringssession förkastas tidigare data, inklusive osparade anteckningar.
+Vill du spara data först?</translation>
         </message>
         <message>
             <location line="-671" />
@@ -65126,7 +65126,7 @@ Vill du spara datat först?</translation>
         <message>
             <location filename="../../../src/plugins/qmlprofiler/qmlprofilermodelmanager.cpp" line="+28" />
             <source>Pixmap Cache</source>
-            <translation>Pixmap- cacheName</translation>
+            <translation>Pixmap-cache</translation>
         </message>
         <message>
             <location line="+1" />
@@ -65143,19 +65143,19 @@ Vill du spara datat först?</translation>
             <location line="+1" />
             <location filename="../../../src/plugins/qmlprofiler/qmlprofilerstatisticsmodel.cpp" line="+1" />
             <source>Compiling</source>
-            <translation>Kompilerar</translation>
+            <translation>Kompilering</translation>
         </message>
         <message>
             <location line="+1" />
             <location filename="../../../src/plugins/qmlprofiler/qmlprofilerstatisticsmodel.cpp" line="+1" />
             <source>Creating</source>
-            <translation>Skapar</translation>
+            <translation>Skapande</translation>
         </message>
         <message>
             <location line="+2" />
             <location filename="../../../src/plugins/qmlprofiler/qmlprofilerstatisticsmodel.cpp" line="+2" />
             <source>Handling Signal</source>
-            <translation>Hanteringssignal</translation>
+            <translation>Signalhantering</translation>
         </message>
         <message>
             <location line="+1" />
@@ -65175,7 +65175,7 @@ Vill du spara datat först?</translation>
         <message>
             <location line="+136" />
             <source>Failed to replay QML events from stash file.</source>
-            <translation>Misslyckades återspela QML- händelser från gömfilen.</translation>
+            <translation>Kunde inte spela upp QML-händelser från stashfilen.</translation>
         </message>
         <message>
             <location line="+43" />
@@ -65185,17 +65185,17 @@ Vill du spara datat först?</translation>
         <message>
             <location line="+264" />
             <source>Cannot open temporary trace file to store events.</source>
-            <translation>Kan inte öppna temporär spårningsfil för att lagra händelser.</translation>
+            <translation>Kan inte öppna en tillfällig spårfil för att lagra händelser.</translation>
         </message>
         <message>
             <location line="+20" />
             <source>Failed to reset temporary trace file.</source>
-            <translation>Misslyckades med att nollställa temporär spårningsfil.</translation>
+            <translation>Kunde inte nollställa den tillfälliga spårfilen.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Failed to flush temporary trace file.</source>
-            <translation>Misslyckades spola temporär spårfil.</translation>
+            <translation>Kunde inte tömma den tillfälliga spårfilen.</translation>
         </message>
         <message>
             <location line="+22" />
