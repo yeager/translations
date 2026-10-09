@@ -68171,7 +68171,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+14" />
             <source>Device replied to echo with unexpected contents: "%1"</source>
-            <translation>heten svarade att eko med oväntat innehåll: "%1"</translation>
+            <translation>Enheten svarade på echo med oväntat innehåll: ”%1”</translation>
         </message>
         <message>
             <location line="+3" />
@@ -68197,7 +68197,7 @@ Kunde inte starta kontrollprocessen.</translation>
             <location line="-7" />
             <source>Some tools will not work out of the box.
 </source>
-            <translation>Några verktyg kommer inte fungera på direkten.
+            <translation>Vissa verktyg fungerar inte direkt.
 </translation>
         </message>
         <message>
@@ -68209,7 +68209,7 @@ Kunde inte starta kontrollprocessen.</translation>
             <location line="+8" />
             <source>"%1" is functional.
 </source>
-            <translation>"%1" är funktionell.
+            <translation>”%1” fungerar.
 </translation>
         </message>
         <message>
@@ -68225,12 +68225,12 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+19" />
             <source>"%1" will be used for deployment, because "%2" and "%3" are not available.</source>
-            <translation>"%1" kommer att användas för distribution därför att "%2" och "%3" inte är tillgängliga.</translation>
+            <translation>”%1” används för distribuering eftersom ”%2” och ”%3” inte är tillgängliga.</translation>
         </message>
         <message>
             <location line="+17" />
             <source>Deployment to this device will not work out of the box.</source>
-            <translation>Utplacering till denna enhet kommer inte att fungera ur lådan.</translation>
+            <translation>Distribuering till den här enheten fungerar inte direkt.</translation>
         </message>
         <message>
             <location line="+12" />
@@ -68245,7 +68245,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+4" />
             <source>An error occurred while checking for %1.</source>
-            <translation>En fel inträffade vid sökning efter %1.</translation>
+            <translation>Ett fel inträffade vid kontroll av %1.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -68265,7 +68265,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+5" />
             <source>Connected. Now doing extended checks.</source>
-            <translation>Ansluten. Genomför utökade kontroller.</translation>
+            <translation>Ansluten. Genomför nu utökade kontroller.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -68290,17 +68290,17 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+26" />
             <source>Remote process finished with exit code %1.</source>
-            <translation>Fjärrprocessen färdigställdes med avslutskod %1.</translation>
+            <translation>Fjärrprocessen avslutades med avslutskoden %1.</translation>
         </message>
         <message>
             <location line="-5" />
             <source>Remote command finished successfully.</source>
-            <translation>Fjärrkommandot färdigställdes.</translation>
+            <translation>Fjärrkommandot slutfördes.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/remotelinuxdeploysupport.cpp" line="+29" />
             <source>Deploy to Remote Linux Host</source>
-            <translation>Distribuera till Linux-fjärrvärd</translation>
+            <translation>Distribuera till Remote Linux-värd</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/tarpackagecreationstep.cpp" line="+50" />
@@ -68315,7 +68315,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="-14" />
             <source>Creating tarball...</source>
-            <translation>Skapar tarboll…</translation>
+            <translation>Skapar tar-arkiv …</translation>
         </message>
         <message>
             <location line="-44" />
@@ -68325,7 +68325,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+46" />
             <source>Tarball up to date, skipping packaging.</source>
-            <translation>Tarbollen redan uppdaterad, hoppar över paketering.</translation>
+            <translation>Tar-arkivet är aktuellt, hoppar över paketeringen.</translation>
         </message>
         <message>
             <location line="+124" />
@@ -68335,7 +68335,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+8" />
             <source>No remote path specified for file "%1", skipping.</source>
-            <translation>Ingen fjärrsökväg angiven för filen "%1", hoppar över.</translation>
+            <translation>Ingen fjärrsökväg har angetts för filen ”%1”, hoppar över.</translation>
         </message>
         <message>
             <location line="+15" />
@@ -68362,22 +68362,22 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="-11" />
             <source>Adding file "%1" to tarball...</source>
-            <translation>Lägger till filen "%1" till tarboll…</translation>
+            <translation>Lägger till filen ”%1” i tar-arkivet …</translation>
         </message>
         <message>
             <location line="+33" />
             <source>Create tarball</source>
-            <translation>Skapa tarboll</translation>
+            <translation>Skapa tar-arkiv</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/tarpackagedeploystep.cpp" line="-58" />
             <source>No tarball creation step found.</source>
-            <translation>Inget steg för skapande av tarboll hittades.</translation>
+            <translation>Inget steg för att skapa tar-arkiv hittades.</translation>
         </message>
         <message>
             <location line="+86" />
             <source>Deploy tarball via SFTP upload</source>
-            <translation>Dela ut tarball via SFTP-uppladdning</translation>
+            <translation>Distribuera tar-arkiv via SFTP-uppladdning</translation>
         </message>
         <message>
             <source>Authentication type:</source>
@@ -68401,7 +68401,7 @@ Kunde inte starta kontrollprocessen.</translation>
         </message>
         <message>
             <source>&amp;Check host key</source>
-            <translation>Kontrollera vä&amp;rdnyckel</translation>
+            <translation>&amp;Kontrollera värdnyckel</translation>
         </message>
         <message>
             <source>You can enter lists and ranges like this: '1024,1026-1028,1030'.</source>
