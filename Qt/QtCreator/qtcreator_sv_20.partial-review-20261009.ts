@@ -54902,7 +54902,7 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+1" />
             <source>XR Features</source>
-            <translation>XR- funktioner</translation>
+            <translation>XR-funktioner</translation>
         </message>
         <message>
             <location line="+1" />
@@ -54912,17 +54912,17 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+1" />
             <source>Kit Selection: For Apple Vision Pro, select any kit.</source>
-            <translation>Paketval: För Apple Vision Pro, välj vilken sats som helst.</translation>
+            <translation>Kitval: För Apple Vision Pro väljer du valfritt kit.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Creates a Qt Quick 3D XR application with QML and C++ code. You can build and deploy the application to desktop VR and standalone XR platforms. For the Apple Vision Pro, you can develop in Qt Creator but must deploy the CMake project with XCode.</source>
-            <translation>Skapar en Qt Quick 3D XR-applikation med QML och C++-kod. Du kan bygga och distribuera programmet till stationära VR- och fristående XR-plattformar. För Apple Vision Pro kan du utvecklas i Qt Creator men måste distribuera CMake-projektet med XCode.</translation>
+            <translation>Skapar ett Qt Quick 3D XR-program med QML- och C++-kod. Du kan bygga och distribuera programmet till VR-plattformar för skrivbordet och fristående XR-plattformar. För Apple Vision Pro kan du utveckla i Qt Creator, men måste distribuera CMake-projektet med Xcode.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>XR Application</source>
-            <translation>XR- program</translation>
+            <translation>XR-program</translation>
         </message>
         <message>
             <location line="+59" />
@@ -54943,7 +54943,7 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+1" />
             <source>Make the new branch depend on the availability of the source branch.</source>
-            <translation>Gör den nya filialen beroende av tillgången på källfilialen.</translation>
+            <translation>Gör den nya grenen beroende av tillgängligheten för källgrenen.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -54958,12 +54958,12 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+1" />
             <source>Bind new branch to source location</source>
-            <translation>Bind ny filial till källplats</translation>
+            <translation>Koppla den nya grenen till källplatsen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Bind the new branch to the source location.</source>
-            <translation>Bind den nya grenen till källan.</translation>
+            <translation>Koppla den nya grenen till källplatsen.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -54973,7 +54973,7 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+1" />
             <source>Switch the checkout in the current directory to the new branch.</source>
-            <translation>Byt ut kassan i den nuvarande katalogen till den nya grenen.</translation>
+            <translation>Byt utcheckning i aktuell katalog till den nya grenen.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -55005,42 +55005,42 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
             <location line="+43" />
             <location line="+19" />
             <source>Specify repository URL, checkout directory, and path.</source>
-            <translation>Ange förråds-URL, utcheckningskatalog och sökväg.</translation>
+            <translation>Ange arkivets URL, utcheckningskatalog och sökväg.</translation>
         </message>
         <message>
             <location line="-61" />
             <source>Running Bazaar branch...</source>
-            <translation>Kör Bazaar branch…</translation>
+            <translation>Bazaar branch körs…</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Clones a Bazaar branch and tries to load the contained project.</source>
-            <translation>Klonar en Bazaar branch och försöker att läsa in det innehållande projektet.</translation>
+            <translation>Klonar en Bazaar-gren och försöker läsa in projektet den innehåller.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Bazaar Clone (Or Branch)</source>
-            <translation>Bazaar-klon (eller Branch)</translation>
+            <translation>Bazaar-kloning (eller gren)</translation>
         </message>
         <message>
             <location line="+57" />
             <source>Running Mercurial clone...</source>
-            <translation>Kör Mercurial clone…</translation>
+            <translation>Mercurial clone körs…</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Clones a Mercurial repository and tries to load the contained project.</source>
-            <translation>Klonar ett Mercurial-förråd och försöker att läsa in dess innehållande projekt.</translation>
+            <translation>Klonar ett Mercurial-arkiv och försöker läsa in projektet det innehåller.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Mercurial Clone</source>
-            <translation>Mercurial Clone</translation>
+            <translation>Mercurial-kloning</translation>
         </message>
         <message>
             <location line="+46" />
             <source>Qt Creator C++ Plugin</source>
-            <translation>Qt- skaparen C++ insticksprogramName</translation>
+            <translation>Qt Creator C++-tillägg</translation>
         </message>
         <message>
             <location line="-74" />
@@ -55050,17 +55050,17 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+4" />
             <source>Running Subversion checkout...</source>
-            <translation>Kör Subversion checkout…</translation>
+            <translation>Subversion checkout körs…</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Checks out a Subversion repository and tries to load the contained project.</source>
-            <translation>Checkar ut ett Subversion-förråd och försöker att läsa in det innehållande projektet.</translation>
+            <translation>Checkar ut ett Subversion-arkiv och försöker läsa in projektet det innehåller.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Subversion Checkout</source>
-            <translation>Subversion Checkout</translation>
+            <translation>Utcheckning från Subversion</translation>
         </message>
         <message>
             <location line="-89" />
@@ -55075,17 +55075,17 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+1" />
             <source>Running CVS checkout...</source>
-            <translation>Kör CVS checkout…</translation>
+            <translation>CVS checkout körs…</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Checks out a CVS repository and tries to load the contained project.</source>
-            <translation>Checkar ut ett CVS-förråd och försöker att läsa in dess innehållande projekt.</translation>
+            <translation>Checkar ut ett CVS-arkiv och försöker läsa in projektet det innehåller.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>CVS Checkout</source>
-            <translation>CVS Checkout</translation>
+            <translation>Utcheckning från CVS</translation>
         </message>
         <message>
             <location line="-263" />
@@ -55100,7 +55100,7 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+74" />
             <source>This wizard generates a Qt Widgets Application project. The application derives by default from QApplication and includes an empty widget.</source>
-            <translation>Denna guide genererar ett Qt Widgets-programprojekt. Programmet härleder som standard från QApplication och inkluderar en tom widget.</translation>
+            <translation>Den här guiden skapar ett Qt Widgets-programprojekt. Programmet ärver som standard från QApplication och innehåller en tom widget.</translation>
         </message>
         <message>
             <location line="+16" />
