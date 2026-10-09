@@ -43140,33 +43140,33 @@ Du kan välja mellan att stasha ändringarna eller förkasta dem.</translation>
             <location line="+42" />
             <location line="+35" />
             <source>Remotes</source>
-            <translation>Fjärrenheter</translation>
+            <translation>Fjärrarkiv</translation>
         </message>
         <message>
             <location line="-15" />
             <source>F&amp;etch</source>
-            <translation>F&amp;etch Ordförande</translation>
+            <translation>&amp;Hämta</translation>
         </message>
         <message>
             <location line="+79" />
             <source>Delete Remote</source>
-            <translation>Ta bort fjärr</translation>
+            <translation>Ta bort fjärrarkiv</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Would you like to delete the remote "%1"?</source>
-            <translation>Vill du ta bort fjärren "%1"?</translation>
+            <translation>Vill du ta bort fjärrarkivet ”%1”?</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/branchview.cpp" line="+148" />
             <location filename="../../../src/plugins/git/remotedialog.cpp" line="-78" />
             <source>&amp;Push</source>
-            <translation>&amp;Push</translation>
+            <translation>&amp;Skicka</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/branchmodel.cpp" line="-235" />
             <source>Local Branches</source>
-            <translation>Lokala avdelningskontor</translation>
+            <translation>Lokala grenar</translation>
         </message>
         <message>
             <location line="+1" />
@@ -43186,27 +43186,27 @@ Du kan välja mellan att stasha ändringarna eller förkasta dem.</translation>
         <message>
             <location line="+3" />
             <source>staged + </source>
-            <translation>iscensatt +</translation>
+            <translation>indexerad + </translation>
         </message>
         <message>
             <location line="+2" />
             <source>modified</source>
-            <translation>ändrades</translation>
+            <translation>ändrad</translation>
         </message>
         <message>
             <location line="+2" />
             <source>added</source>
-            <translation>lades till</translation>
+            <translation>tillagd</translation>
         </message>
         <message>
             <location line="+2" />
             <source>deleted</source>
-            <translation>Borttagen</translation>
+            <translation>borttagen</translation>
         </message>
         <message>
             <location line="+2" />
             <source>renamed</source>
-            <translation>bytte namn</translation>
+            <translation>omdöpt</translation>
         </message>
         <message>
             <location line="+2" />
@@ -43246,7 +43246,7 @@ Du kan välja mellan att stasha ändringarna eller förkasta dem.</translation>
         <message>
             <location line="+1" />
             <source>Show textual graph log.</source>
-            <translation>Visa textgrafiklogg.</translation>
+            <translation>Visa textbaserad graflogg.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gerrit/gerritdialog.cpp" line="-50" />
@@ -43256,12 +43256,12 @@ Du kan välja mellan att stasha ändringarna eller förkasta dem.</translation>
         <message>
             <location line="+5" />
             <source>Change #, hash, tr:id, owner:email or reviewer:email</source>
-            <translation>Ändra #, hash, tr:id, ägare:email eller granskare:email</translation>
+            <translation>Ändring #, hash, tr:id, owner:email eller reviewer:email</translation>
         </message>
         <message>
             <location line="+25" />
             <source>&amp;Query:</source>
-            <translation>&amp;Query:</translation>
+            <translation>&amp;Fråga:</translation>
         </message>
         <message>
             <location line="-8" />
@@ -43287,7 +43287,7 @@ Du kan välja mellan att stasha ändringarna eller förkasta dem.</translation>
             <location filename="../../../src/plugins/git/changeselectiondialog.cpp" line="+16" />
             <location filename="../../../src/plugins/git/gerrit/gerritdialog.cpp" line="-28" />
             <source>Cherry &amp;Pick</source>
-            <translation>Körsbär &amp;Pick</translation>
+            <translation>&amp;Cherry-pick</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/branchview.cpp" line="-43" />
@@ -43304,16 +43304,16 @@ Du kan välja mellan att stasha ändringarna eller förkasta dem.</translation>
             <source>The gerrit process has not responded within %1 s.
 Most likely this is caused by problems with SSH authentication.
 Would you like to terminate it?</source>
-            <translation>Gerritprocessen har inte svarat inom %1 s.
-Troligtvis orsakas detta av problem med SSH-
-behörighetskontroll. Vill du avsluta den?</translation>
+            <translation>Gerrit-processen har inte svarat inom %1 s.
+Det beror troligen på problem med SSH-autentisering.
+Vill du avsluta den?</translation>
         </message>
         <message>
             <location line="+20" />
             <location line="+45" />
             <location filename="../../../src/plugins/git/logchangedialog.cpp" line="+69" />
             <source>Subject</source>
-            <translation>Syfte</translation>
+            <translation>Ämne</translation>
         </message>
         <message>
             <location line="-45" />
@@ -43345,7 +43345,7 @@ behörighetskontroll. Vill du avsluta den?</translation>
         <message>
             <location line="+4" />
             <source>Patch set</source>
-            <translation>Programfixuppsättning</translation>
+            <translation>Patchuppsättning</translation>
         </message>
         <message>
             <location line="+1" />
@@ -43356,7 +43356,7 @@ behörighetskontroll. Vill du avsluta den?</translation>
         <message>
             <location line="+1" />
             <source>Depends on</source>
-            <translation>Beroende av</translation>
+            <translation>Beror på</translation>
         </message>
         <message>
             <location line="+1" />
@@ -43366,18 +43366,18 @@ behörighetskontroll. Vill du avsluta den?</translation>
         <message>
             <location line="+359" />
             <source>Parse error: "%1" -&gt; %2</source>
-            <translation>Tolkningsfel: "%1" -&gt; %2</translation>
+            <translation>Tolkningsfel: ”%1” → %2</translation>
         </message>
         <message>
             <location line="+24" />
             <source>Parse error: "%1"</source>
-            <translation>Tolkningsfel: "%1"</translation>
+            <translation>Tolkningsfel: ”%1”</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gerrit/gerritdialog.cpp" line="-287" />
             <location filename="../../../src/plugins/git/gerrit/gerritoptionspage.cpp" line="+106" />
             <source>Gerrit</source>
-            <translation>Ordförande</translation>
+            <translation>Gerrit</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gerrit/gerritmodel.cpp" line="-580" />
@@ -43387,7 +43387,7 @@ behörighetskontroll. Vill du avsluta den?</translation>
         <message>
             <location line="+92" />
             <source>Querying Gerrit</source>
-            <translation>Fråga Gerrit</translation>
+            <translation>Söker i Gerrit</translation>
         </message>
         <message>
             <location line="+31" />
