@@ -11009,7 +11009,7 @@ i systemets webbläsare för manuell hämtning.</translation>
         <message>
             <location line="+5" />
             <source>Certificate passwords do not match.</source>
-            <translation>Certifikatets lösenord stämmer inte överens.</translation>
+            <translation>Certifikatlösenorden matchar inte.</translation>
         </message>
         <message>
             <location line="+12" />
@@ -11047,17 +11047,17 @@ i systemets webbläsare för manuell hämtning.</translation>
             <location line="-623" />
             <location filename="../../../src/plugins/android/androidpackageinstallationstep.cpp" line="+72" />
             <source>"%1" step failed initialization.</source>
-            <translation>Steget %1 misslyckades med initiering.</translation>
+            <translation>Initieringen av steget ”%1” misslyckades.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Keystore/Certificate password verification failed.</source>
-            <translation>Verifiering av lösenord misslyckades.</translation>
+            <translation>Verifieringen av lösenordet för nyckellager/certifikat misslyckades.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Warning: Signing a debug or profile package.</source>
-            <translation>Varning: Signerar ett felsökning- eller profilpaket.</translation>
+            <translation>Varning: Signerar ett felsöknings- eller profileringspaket.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -11070,8 +11070,8 @@ i systemets webbläsare för manuell hämtning.</translation>
             <location line="-186" />
             <source>The API level set for the APK is less than the minimum required by the kit.
 The minimum API level required by the kit is %1.</source>
-            <translation>API-nivån för APK är mindre än det minimum som krävs av
-satsen. Den lägsta API-nivån som krävs av satsen är %1.</translation>
+            <translation>API-nivån som angetts för APK:n är lägre än den lägsta nivå som krävs av kitet.
+Den lägsta API-nivå som krävs av kitet är %1.</translation>
         </message>
         <message>
             <location line="+19" />
@@ -11081,12 +11081,12 @@ satsen. Den lägsta API-nivån som krävs av satsen är %1.</translation>
         <message>
             <location line="+7" />
             <source>Android build SDK version is not defined. Check Android settings.</source>
-            <translation>Android-bygg SDK-versionen är inte definierad. Kontrollera Android-inställningar.</translation>
+            <translation>Android SDK-versionen för byggning är inte angiven. Kontrollera Android-inställningarna.</translation>
         </message>
         <message>
             <location line="+94" />
             <source>Cannot sign the package. Invalid keystore path (%1).</source>
-            <translation>Kan inte signera paketet. Ogiltig nyckellagringssökväg (%1).</translation>
+            <translation>Det går inte att signera paketet. Ogiltig nyckellagersökväg (%1).</translation>
         </message>
         <message>
             <location line="+19" />
@@ -11096,12 +11096,12 @@ satsen. Den lägsta API-nivån som krävs av satsen är %1.</translation>
         <message>
             <location line="+179" />
             <source>Android deploy settings file not found, not building an APK.</source>
-            <translation>Android distribuera inställningar fil hittades inte, inte bygga en APK.</translation>
+            <translation>Filen för Android-distributionsinställningar hittades inte. Ingen APK byggs.</translation>
         </message>
         <message>
             <location line="-118" />
             <source>The Android build folder "%1" was not found and could not be created.</source>
-            <translation>Androids byggmapp "%1" hittades inte och kunde inte skapas.</translation>
+            <translation>Android-byggmappen ”%1” hittades inte och kunde inte skapas.</translation>
         </message>
         <message>
             <location line="-677" />
@@ -11111,23 +11111,23 @@ satsen. Den lägsta API-nivån som krävs av satsen är %1.</translation>
         <message>
             <location line="+156" />
             <source>No valid Android Qt version configured for kit "%1". Configure a Qt version in Projects &gt; Manage Kits.</source>
-            <translation>Ingen giltig version av Android Qt konfigurerad för "%1". Anpassa en Qt-version i projekt &gt; Hantera kit.</translation>
+            <translation>Ingen giltig Android Qt-version är konfigurerad för kitet ”%1”. Konfigurera en Qt-version i Projekt &gt; Hantera kit.</translation>
         </message>
         <message>
             <location line="+538" />
             <source>Cannot copy the target's lib file "%1" to the Android build folder "%2".</source>
-            <translation>Kan inte kopiera målfilens lib-fil "%1" till Android-byggmappen "%2".</translation>
+            <translation>Det går inte att kopiera målets bibliotekfil ”%1” till Android-byggmappen ”%2”.</translation>
         </message>
         <message>
             <location line="+30" />
             <location line="+25" />
             <source>Cannot copy file "%1" to Android build libs folder "%2".</source>
-            <translation>Kan inte kopiera filen "%1" till Android build libs-mappen "%2".</translation>
+            <translation>Det går inte att kopiera filen ”%1” till bibliotekskatalogen ”%2” i Android-byggmappen.</translation>
         </message>
         <message>
             <location line="+33" />
             <source>Cannot open androiddeployqt input file "%1" for writing.</source>
-            <translation>Kan inte öppna indatafilen "%1" för Androiddeployqt för skrivning.</translation>
+            <translation>Det går inte att öppna androiddeployqt-indatafilen ”%1” för skrivning.</translation>
         </message>
         <message>
             <location line="+23" />
@@ -11137,7 +11137,7 @@ satsen. Den lägsta API-nivån som krävs av satsen är %1.</translation>
         <message>
             <location line="+5" />
             <source>Cannot set up "%1", not building an APK.</source>
-            <translation>Kan inte ställa in "%1", inte bygga en APK.</translation>
+            <translation>Det går inte att konfigurera ”%1”. Ingen APK byggs.</translation>
         </message>
         <message>
             <location line="+199" />
@@ -11148,7 +11148,7 @@ satsen. Den lägsta API-nivån som krävs av satsen är %1.</translation>
         <message>
             <location line="+44" />
             <source>Enter keystore password</source>
-            <translation>Ange lösenord för nyckellager</translation>
+            <translation>Ange nyckellagerlösenord</translation>
         </message>
         <message>
             <location line="+2" />
@@ -11168,7 +11168,7 @@ satsen. Den lägsta API-nivån som krävs av satsen är %1.</translation>
         <message>
             <location line="+5" />
             <source>Initializing deployment to Android device/simulator</source>
-            <translation>Starta distribution till Android-enhet/simulator</translation>
+            <translation>Initierar distribution till Android-enhet/simulator</translation>
         </message>
         <message>
             <location line="+4" />
@@ -11189,18 +11189,18 @@ satsen. Den lägsta API-nivån som krävs av satsen är %1.</translation>
             <location line="+6" />
             <source>The deployment device "%1" does not support the architectures used by the kit.
 The kit supports "%2", but the device uses "%3".</source>
-            <translation>Installationsenheten "%1" stöder inte arkitekturerna som används
-av satsen. Satsen stöder "%2", men enheten använder "%3".</translation>
+            <translation>Distributionsenheten ”%1” stöder inte arkitekturerna som används av kitet.
+Kitet stöder ”%2”, men enheten använder ”%3”.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>The deployment device "%1" is disconnected.</source>
-            <translation>Installationsenheten "%1" är bortkopplad.</translation>
+            <translation>Distributionsenheten ”%1” är frånkopplad.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Android: The main ABI of the deployment device (%1) is not selected. The app execution or debugging might not work properly. Add it from Projects &gt; Build &gt; Build Steps &gt; qmake &gt; ABIs.</source>
-            <translation>Android: Den huvudsakliga ABI- enheten för distribution (%1) är inte vald. Appens utförande eller felsökning kanske inte fungerar som den ska. Lägg till den från Projekt &gt; Bygg &gt; Bygg steg &gt; MaMake &gt; ABI.</translation>
+            <translation>Android: Huvud-ABI:n för distributionsenheten (%1) är inte vald. Programkörning eller felsökning kanske inte fungerar korrekt. Lägg till den från Projekt &gt; Bygg &gt; Byggsteg &gt; qmake &gt; ABI:er.</translation>
         </message>
         <message>
             <location line="+14" />
@@ -11210,12 +11210,12 @@ av satsen. Satsen stöder "%2", men enheten använder "%3".</translation>
         <message>
             <location line="+6" />
             <source>The deployment step's project node is invalid.</source>
-            <translation>Utplaceringsstegets projektnod är ogiltig.</translation>
+            <translation>Distributionsstegets projektnod är ogiltig.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Cannot find the androiddeployqt input JSON file.</source>
-            <translation>Kan inte hitta Androiddeployqt- indatafilen JSON.</translation>
+            <translation>Det går inte att hitta androiddeployqt-indata-JSON-filen.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -11250,22 +11250,22 @@ av satsen. Satsen stöder "%2", men enheten använder "%3".</translation>
         <message>
             <location line="+7" />
             <source>Installing the app failed even after uninstalling the previous one.</source>
-            <translation>Installera appen misslyckades även efter att avinstallera den föregående.</translation>
+            <translation>Installationen av appen misslyckades även efter att det föregående paketet hade avinstallerats.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Installing the app failed with an unknown error.</source>
-            <translation>Installera appen misslyckades med ett okänt fel.</translation>
+            <translation>Installationen av appen misslyckades med ett okänt fel.</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Uninstalling the installed package may solve the issue.</source>
-            <translation>Avinstallera det installerade paketet kan lösa problemet.</translation>
+            <translation>Det kan lösa problemet att avinstallera det installerade paketet.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Do you want to uninstall the existing package?</source>
-            <translation>Vill du avinstallera befintligt paket?</translation>
+            <translation>Vill du avinstallera det befintliga paketet?</translation>
         </message>
         <message>
             <location line="+2" />
