@@ -33089,7 +33089,7 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="+10" />
             <source>There is no CDB executable specified.</source>
-            <translation>Det finns ingen CDB körbar angiven.</translation>
+            <translation>Ingen körbar CDB-fil har angetts.</translation>
         </message>
         <message>
             <location line="+16" />
@@ -33103,17 +33103,17 @@ en CDB körbar med en annan bithet än din %2- uppbyggnad, måste du bygga en se
         <message>
             <location line="+1298" />
             <source>Trace point %1 in thread %2 triggered.</source>
-            <translation>Spårpunkt %1 i tråd %2 utlöst.</translation>
+            <translation>Spårpunkt %1 i tråd %2 utlöstes.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Conditional breakpoint %1 in thread %2 triggered, examining expression "%3".</source>
-            <translation>Villkorlig brytpunkt %1 i tråd %2 utlöste, undersökande uttrycket "%3".</translation>
+            <translation>Villkorlig brytpunkt %1 i tråd %2 utlöstes, utvärderar uttrycket ”%3”.</translation>
         </message>
         <message>
             <location line="+17" />
             <source>Malformed stop response received.</source>
-            <translation>Missbildad stoppreaktion mottagen.</translation>
+            <translation>Felaktigt formaterat stoppsvar togs emot.</translation>
         </message>
         <message>
             <location line="+144" />
@@ -33139,17 +33139,17 @@ Qt- installationen för att få alla relevanta symboler för felsökningen.</tra
         <message>
             <location line="+8" />
             <source>Missing Qt Debug Information</source>
-            <translation>Saknar information om Qt felsökning</translation>
+            <translation>Qt-felsökningsinformation saknas</translation>
         </message>
         <message>
             <location line="+24" />
             <source>Debugger Start Failed</source>
-            <translation>Misslyckades med avlusning</translation>
+            <translation>Det gick inte att starta felsökaren</translation>
         </message>
         <message>
             <location line="+1" />
             <source>The system prevents loading of "%1", which is required for debugging. Make sure that your antivirus solution is up to date and if that does not work consider adding an exception for "%1".</source>
-            <translation>Systemet förhindrar laddning av "%1", som krävs för felsökning. Se till att din antiviruslösning är uppdaterad och om det inte fungerar överväga att lägga till ett undantag för "%1".</translation>
+            <translation>Systemet förhindrar inläsning av ”%1”, som krävs för felsökning. Kontrollera att antiviruslösningen är uppdaterad och överväg att lägga till ett undantag för ”%1” om det inte hjälper.</translation>
         </message>
         <message>
             <location line="+108" />
@@ -33166,43 +33166,43 @@ Qt- installationen för att få alla relevanta symboler för felsökningen.</tra
         <message>
             <location line="+81" />
             <source>Value %1 obtained from evaluating the condition of breakpoint %2, stopping.</source>
-            <translation>Värde %1 som erhållits från utvärdering av brytpunkten %2, stopp.</translation>
+            <translation>Värdet %1 erhölls vid utvärdering av villkoret för brytpunkt %2, stannar.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Value 0 obtained from evaluating the condition of breakpoint %1, continuing.</source>
-            <translation>Värde 0 som erhålls från utvärdering av brytpunkten %1, fortsätter.</translation>
+            <translation>Värdet 0 erhölls vid utvärdering av villkoret för brytpunkt %1, fortsätter.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="-977" />
             <location line="+33" />
             <source>Attempting to interrupt.</source>
-            <translation>- Försöker avbryta.</translation>
+            <translation>Försöker avbryta.</translation>
         </message>
         <message>
             <location line="+215" />
             <source>This debugger cannot handle user input.</source>
-            <translation>Den här felsökningen kan inte hantera användarinmatning.</translation>
+            <translation>Den här felsökaren kan inte hantera användarinmatning.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/breakhandler.cpp" line="+1675" />
             <source>Internal data breakpoint %1 at %2 triggered.</source>
-            <translation>Interna databrytpunkter %1 vid %2 utlösta.</translation>
+            <translation>Intern databrytpunkt %1 på %2 utlöstes.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Internal data breakpoint %1 at %2 in thread %3 triggered.</source>
-            <translation>Interna databrytpunkter %1 vid %2 i tråd %3 utlöst.</translation>
+            <translation>Intern databrytpunkt %1 på %2 i tråd %3 utlöstes.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Internal data breakpoint %1 at 0x%2 triggered.</source>
-            <translation>Interna databrytpunkter %1 vid 0x%2 utlösta.</translation>
+            <translation>Intern databrytpunkt %1 på 0x%2 utlöstes.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Internal data breakpoint %1 at 0x%2 in thread %3 triggered.</source>
-            <translation>Interna databrytpunkter %1 vid 0x%2 i tråd %3 utlöst.</translation>
+            <translation>Intern databrytpunkt %1 på 0x%2 i tråd %3 utlöstes.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="+36" />
@@ -33234,7 +33234,7 @@ Qt- installationen för att få alla relevanta symboler för felsökningen.</tra
         <message>
             <location line="+10" />
             <source>The debugged process stopped because it triggered an exception.</source>
-            <translation>Den felsökningsprocessen stoppades eftersom den utlöste ett undantag.</translation>
+            <translation>Den felsökta processen stannade eftersom den utlöste ett undantag.</translation>
         </message>
         <message>
             <location line="+455" />
@@ -33253,18 +33253,18 @@ brytpunkter enligt filnamn och radnummer kan misslyckas.</translation>
         <message>
             <location line="-1650" />
             <source>Loading finished.</source>
-            <translation>Inläsning färdig.</translation>
+            <translation>Inläsningen är klar.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Run failed.</source>
-            <translation>Körning misslyckades.</translation>
+            <translation>Körningen misslyckades.</translation>
         </message>
         <message>
             <location line="+11" />
             <location line="+29" />
             <source>Running.</source>
-            <translation>Kör.</translation>
+            <translation>Körs.</translation>
         </message>
         <message>
             <location line="-11" />
@@ -33274,12 +33274,12 @@ brytpunkter enligt filnamn och radnummer kan misslyckas.</translation>
         <message>
             <location line="+969" />
             <source>Stopped: %1 (Signal %2).</source>
-            <translation>Stoppad: %1 (Signal %2).</translation>
+            <translation>Stannade: %1 (signal %2).</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Stopped in thread %1 by: %2.</source>
-            <translation>Stoppad i tråd %1 av: %2.</translation>
+            <translation>Stannade i tråd %1 av: %2.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -33289,14 +33289,14 @@ brytpunkter enligt filnamn och radnummer kan misslyckas.</translation>
         <message>
             <location line="+34" />
             <source>Exception Triggered</source>
-            <translation>Undantag</translation>
+            <translation>Undantag utlöstes</translation>
         </message>
         <message>
             <location line="+484" />
             <source>The inferior is in the ELF format.
 Selecting GDB or LLDB as debugger would improve the debugging experience for this binary format.</source>
-            <translation>Det sämre är i ELF-format. Väljer GDB eller LLDB som felsökning
-skulle förbättra felsökningsupplevelsen för detta binära format.</translation>
+            <translation>Den underordnade processen har ELF-format.
+Att välja GDB eller LLDB som felsökare skulle förbättra felsökningen för det här binära formatet.</translation>
         </message>
         <message>
             <location line="+93" />
@@ -33311,7 +33311,7 @@ skulle förbättra felsökningsupplevelsen för detta binära format.</translati
         <message>
             <location line="-933" />
             <source>Taking notice of pid %1</source>
-            <translation>Att ta del av Pid %1</translation>
+            <translation>Registrerar process-ID %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="+722" />
