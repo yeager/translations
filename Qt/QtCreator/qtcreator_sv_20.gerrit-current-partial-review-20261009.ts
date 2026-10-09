@@ -10393,7 +10393,7 @@ Detta åsidosätter scenens ljusprob.</translation>
     <name>OrbitCameraControllerSection</name>
     <message>
         <source>Orbit Camera Controller</source>
-        <translation>Orbitkamerakontroll</translation>
+        <translation>Orbitkamerastyrning</translation>
     </message>
     <message>
         <source>Origin</source>
@@ -10413,11 +10413,11 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Mouse/Touch</source>
-        <translation>Mus/tryck</translation>
+        <translation>Mus/beröring</translation>
     </message>
     <message>
         <source>Enables interaction via mouse and touch.</source>
-        <translation>Aktiverar interaktion med mus och tryck.</translation>
+        <translation>Aktiverar interaktion med mus och beröring.</translation>
     </message>
     <message>
         <source>Pan Controls</source>
@@ -10433,7 +10433,7 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Enables inverting X-axis controls.</source>
-        <translation>Aktiverar invertering av X-axelns kontroller.</translation>
+        <translation>Aktiverar invertering av kontrollerna för X-axeln.</translation>
     </message>
     <message>
         <source>X Speed</source>
@@ -10449,7 +10449,7 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Enables inverting Y-axis controls.</source>
-        <translation>Aktiverar invertering av Y-axelns kontroller.</translation>
+        <translation>Aktiverar invertering av kontrollerna för Y-axeln.</translation>
     </message>
     <message>
         <source>Y Speed</source>
