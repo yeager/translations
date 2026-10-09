@@ -19611,13 +19611,13 @@ skapa kompileringsdatabas: %1</translation>
         <message>
             <location filename="../../../src/plugins/clangformat/clangformatcodestylepreferencesfactory.cpp" line="+133" />
             <source>Import Code Format</source>
-            <translation>Format för importkod</translation>
+            <translation>Importera kodformat</translation>
         </message>
         <message>
             <location line="+0" />
             <location line="+36" />
             <source>ClangFormat (*clang-format*);;All files (*)</source>
-            <translation>ClangFormat (* clang-format*);;Alla filer (*)</translation>
+            <translation>ClangFormat (*clang-format*);;Alla filer (*)</translation>
         </message>
         <message>
             <location line="-30" />
@@ -19648,7 +19648,7 @@ skapa kompileringsdatabas: %1</translation>
         <message>
             <location filename="../../../src/plugins/clangformat/clangformatconfigwidget.cpp" line="+169" />
             <source>Current ClangFormat version: %1.</source>
-            <translation>Nuvarande ClangFormat version: %1.</translation>
+            <translation>Aktuell ClangFormat-version: %1.</translation>
         </message>
         <message>
             <location line="+16" />
@@ -19659,8 +19659,8 @@ skapa kompileringsdatabas: %1</translation>
             <location filename="../../../src/plugins/clangformat/clangformatglobalconfigwidget.cpp" line="+39" />
             <source>Files greater than this will not be indented by ClangFormat.
 The built-in code indenter will handle indentation.</source>
-            <translation>Filer större än detta kommer inte att indenteras av
-ClangFormat. Den inbyggda kodindragaren hanterar indentering.</translation>
+            <translation>Filer som är större än detta får inget indrag av ClangFormat.
+Den inbyggda kodindenteraren hanterar indragningen.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -19675,12 +19675,12 @@ ClangFormat. Den inbyggda kodindragaren hanterar indentering.</translation>
         <message>
             <location line="+5" />
             <source>Format while typing</source>
-            <translation>Format vid skrivande</translation>
+            <translation>Formatera medan du skriver</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Format edited code on file save</source>
-            <translation>Format redigerad kod vid filspara</translation>
+            <translation>Formatera redigerad kod när filen sparas</translation>
         </message>
         <message>
             <location line="+1" />
@@ -19695,17 +19695,17 @@ ClangFormat. Den inbyggda kodindragaren hanterar indentering.</translation>
         <message>
             <location line="+5" />
             <source>Please note that the current project includes a .clang-format file, which will be used for code indenting and formatting.</source>
-            <translation>Observera att det aktuella projektet innehåller en .clang-formatfil, som kommer att användas för kodindrag och formatering.</translation>
+            <translation>Observera att det aktuella projektet innehåller en .clang-format-fil som används för kodindragning och formatering.</translation>
         </message>
         <message>
             <location line="+12" />
             <source>ClangFormat Settings</source>
-            <translation>Inställningar av ClangFormat</translation>
+            <translation>ClangFormat-inställningar</translation>
         </message>
         <message>
             <location line="+64" />
             <source>Indenting only</source>
-            <translation>dast indentering</translation>
+            <translation>Endast indragning</translation>
         </message>
         <message>
             <location line="+2" />
@@ -19715,22 +19715,22 @@ ClangFormat. Den inbyggda kodindragaren hanterar indentering.</translation>
         <message>
             <location line="+2" />
             <source>Use built-in indenter</source>
-            <translation>Använd inbyggd indenter</translation>
+            <translation>Använd den inbyggda kodindenteraren</translation>
         </message>
         <message>
             <location line="+111" />
             <source>The current project has its own .clang-format file which can be overridden by the settings below.</source>
-            <translation>Det aktuella projektet har en egen .clang-formatfil som kan överskridas av inställningarna nedan.</translation>
+            <translation>Det aktuella projektet har en egen .clang-format-fil som kan åsidosättas av inställningarna nedan.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>When this option is enabled, ClangFormat will use a user-specified configuration from the widget below, instead of the project .clang-format file. You can customize the formatting options for your code by adjusting the settings in the widget. Note that any changes made there will only affect the current configuration, and will not modify the project .clang-format file.</source>
-            <translation>När alternativet är aktiverat, använder ClangFormat en användarspecifik inställning från komponenten nedan, istället för filen . clang- format. Du kan anpassa formateringsalternativen för din kod genom att justera inställningarna i komponenten. Observera att alla ändringar som görs där bara påverkar den nuvarande inställningen, och inte ändrar filen . clang- format.</translation>
+            <translation>När det här alternativet är aktiverat använder ClangFormat en användarvald konfiguration från komponenten nedan i stället för projektets .clang-format-fil. Du kan anpassa formateringsalternativen för koden genom att justera inställningarna i komponenten. Observera att ändringar där endast påverkar den aktuella konfigurationen och inte ändrar projektets .clang-format-fil.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/clangformat/clangformatplugin.cpp" line="+43" />
             <source>Open Used .clang-format Configuration File</source>
-            <translation>Öppna använd inställningsfil för .clang-format</translation>
+            <translation>Öppna den använda .clang-format-konfigurationsfilen</translation>
         </message>
     </context>
     <context>
