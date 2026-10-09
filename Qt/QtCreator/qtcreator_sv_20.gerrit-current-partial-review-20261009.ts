@@ -71376,7 +71376,7 @@ om ett arkiv kräver SSH-autentisering (se dokumentationen om SSH och miljövari
     </message>
     <message>
         <source>Samples per pixel for blur calculation. A larger value produces better quality, but is slower to render. This property is not intended to be animated. Changing this property may cause the underlying OpenGL shaders to be recompiled.</source>
-        <translation>Prover per bildpunkt för oskärpeberäkning. Ett större värde ger bättre kvalitet, men återgivningen går långsammare. Egenskapen är inte avsedd att animeras. Om den ändras kan de underliggande OpenGL-skuggprogrammen kompileras om.</translation>
+        <translation>Prover per bildpunkt för oskärpeberäkning. Ett större värde ger bättre kvalitet, men återgivningen går långsammare. Egenskapen är inte avsedd att animeras. Om den ändras kan de underliggande OpenGL-shaderprogrammen kompileras om.</translation>
     </message>
     <message>
         <source>Offsets</source>
@@ -72053,7 +72053,7 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     <name>RuntimeLoaderSection</name>
     <message>
         <source>Runtime Loader</source>
-        <translation>Körningsinläsare</translation>
+        <translation>Inläsare vid körning</translation>
     </message>
     <message>
         <source>Source</source>
@@ -72061,7 +72061,7 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Sets the URL of the 3D asset to import at runtime.</source>
-        <translation>Anger URL:en för 3D-tillgången som ska importeras under körning.</translation>
+        <translation>Anger URL:en för 3D-resursen som ska importeras under körning.</translation>
     </message>
     <message>
         <source>Instancing</source>
