@@ -72432,7 +72432,7 @@ By default, "@" is used if the surrounding comment starts with "/**" or "///", a
 if the comment starts with "/*!" or "//!".</source>
             <translation>Doxygen tillåter att ”@” och ”\” inleder kommandon.
 Som standard används ”@” om den omgivande kommentaren börjar med ”/**” eller ”///”, och ”\” används
-om kommentaren börjar med ”/*! ” eller ”//!”.</translation>
+om kommentaren börjar med ”/*!” eller ”//!”.</translation>
         </message>
         <message>
             <location line="+65" />
