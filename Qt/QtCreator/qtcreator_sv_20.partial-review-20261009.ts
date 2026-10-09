@@ -30189,27 +30189,27 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location filename="../../../src/plugins/cppeditor/cppincludesfilter.cpp" line="+57" />
             <source>Locates files that are included by C++ files of any open project. Append "+&lt;number&gt;" or ":&lt;number&gt;" to jump to the given line number. Append another "+&lt;number&gt;" or ":&lt;number&gt;" to jump to the column number as well.</source>
-            <translation>Lokaliserar filer som ingår i C++-filer i alla öppna projekt. Lägg till "+&lt;number&gt;" eller ":&lt;number&gt;" för att hoppa till det givna radnumret. Lägg till ett annat "+&lt;number&gt;" eller "&lt;number&gt;" för att hoppa till kolumnnumret också.</translation>
+            <translation>Hittar filer som inkluderas av C++-filer i alla öppna projekt. Lägg till ”+&lt;number&gt;” eller ”:&lt;number&gt;” för att hoppa till det angivna radnumret. Lägg till ytterligare ”+&lt;number&gt;” eller ”:&lt;number&gt;” för att även hoppa till kolumnnumret.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppvirtualfunctionassistprovider.cpp" line="+98" />
             <source>collecting overrides...</source>
-            <translation>samlar in åsidosättningar…</translation>
+            <translation>samlar in överskrivningar…</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/converttometamethodcall.cpp" line="+31" />
             <source>Convert Function Call to Qt Meta-Method Invocation</source>
-            <translation>Konvertera funktionssamtal till Qt Meta- Metod Upprop</translation>
+            <translation>Konvertera funktionsanrop till Qt-metametodanrop</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/moveclasstoownfile.cpp" line="+55" />
             <source>Move Class to a Dedicated Set of Source Files</source>
-            <translation>Flytta klass till en dedicerad uppsättning källfiler</translation>
+            <translation>Flytta klass till en separat uppsättning källfiler</translation>
         </message>
         <message>
             <location line="+83" />
             <source>Header file only</source>
-            <translation>Endast header-fil</translation>
+            <translation>Endast headerfil</translation>
         </message>
         <message>
             <location line="+20" />
@@ -30219,7 +30219,7 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="+2" />
             <source>Header file:</source>
-            <translation>Header-fil:</translation>
+            <translation>Headerfil:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -30230,18 +30230,18 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
             <location line="+205" />
             <source>Refusing to overwrite the following files: %1
 </source>
-            <translation>Vägrar att skriva över följande filer: %1
+            <translation>Skriver inte över följande filer: %1
 </translation>
         </message>
         <message>
             <location line="+90" />
             <source>Failed to add to project file "%1": %2</source>
-            <translation>Misslyckades med att lägga till i projektfilen "%1": %2</translation>
+            <translation>Det gick inte att lägga till i projektfilen ”%1”: %2</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/synchronizememberfunctionorder.cpp" line="+43" />
             <source>Re-order Member Function Definitions According to Declaration Order</source>
-            <translation>Ombeställa medlemsbefattningar enligt deklarationsorder</translation>
+            <translation>Ordna om medlemsfunktionsdefinitioner enligt deklarationsordningen</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/compilationdb.cpp" line="+160" />
@@ -30251,7 +30251,7 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="+7" />
             <source>Could not create "%1": %2</source>
-            <translation>Kunde inte skapa "%1": %2</translation>
+            <translation>Det gick inte att skapa ”%1”: %2</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/addmodulefrominclude.cpp" line="+39" />
