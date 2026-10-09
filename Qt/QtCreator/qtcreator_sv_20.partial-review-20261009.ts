@@ -39294,7 +39294,7 @@ Orsak: %3</translation>
         <name>QtC::FakeVim</name>
         <message>
             <source>Use Vim-style Editing</source>
-            <translation>Använd redigering med Vim-stil</translation>
+            <translation>Använd redigering i Vim-stil</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/fakevim/fakevimhandler.cpp" line="+3844" />
@@ -39309,7 +39309,7 @@ Orsak: %3</translation>
         <message>
             <location filename="../../../src/plugins/fakevim/fakevimplugin.cpp" line="+1975" />
             <source>"%1" %2 %3L, %4C written</source>
-            <translation>"%1" %2 %3L, %4C skrevs</translation>
+            <translation>”%1” %2 %3L, %4C skrevs</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/fakevim/fakevimhandler.cpp" line="+2565" />
@@ -39319,22 +39319,22 @@ Orsak: %3</translation>
         <message>
             <location line="-2551" />
             <source>Not implemented in FakeVim.</source>
-            <translation>Inte implementerat i FakeVim.</translation>
+            <translation>Funktionen är inte implementerad i FakeVim.</translation>
         </message>
         <message>
             <location line="-2851" />
             <source>Mark "%1" not set.</source>
-            <translation>Markera "%1" inte inställd.</translation>
+            <translation>Märket ”%1” är inte angivet.</translation>
         </message>
         <message>
             <location line="+3536" />
             <source>Type Control-Shift-Y, Control-Shift-Y to quit FakeVim mode.</source>
-            <translation>Skriv Control-Shift-Y, Control-Shift-Y för att avsluta FakeVim-läget.</translation>
+            <translation>Tryck på Control-Shift-Y, Control-Shift-Y för att avsluta FakeVim-läget.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Type Alt-Y, Alt-Y to quit FakeVim mode.</source>
-            <translation>Tryck Alt-Y, Alt-Y för att avsluta FakeVim-läget.</translation>
+            <translation>Tryck på Alt-Y, Alt-Y för att avsluta FakeVim-läget.</translation>
         </message>
         <message>
             <location line="+1608" />
@@ -39344,17 +39344,17 @@ Orsak: %3</translation>
         <message>
             <location line="+10" />
             <source>Invalid argument:</source>
-            <translation>Ogiltig argument:</translation>
+            <translation>Ogiltigt argument:</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Trailing characters:</source>
-            <translation>Spårtecken:</translation>
+            <translation>Efterföljande tecken:</translation>
         </message>
         <message>
             <location line="+82" />
             <source>Move lines into themselves.</source>
-            <translation>Flytta rader in i sig själva.</translation>
+            <translation>Kan inte flytta rader till sig själva.</translation>
         </message>
         <message numerus="yes">
             <location line="+42" />
@@ -39367,22 +39367,22 @@ Orsak: %3</translation>
         <message>
             <location line="+61" />
             <source>File "%1" exists (add ! to override)</source>
-            <translation>Filen "%1" finns (lägg till ! för att åsidosätta)</translation>
+            <translation>Filen ”%1” finns redan (lägg till ! för att åsidosätta)</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Cannot open file "%1" for writing</source>
-            <translation>Kan inte öppna filen "%1" för skrivning</translation>
+            <translation>Kan inte öppna filen ”%1” för skrivning</translation>
         </message>
         <message>
             <location line="+7" />
             <source>"%1" %2 %3L, %4C written.</source>
-            <translation>"%1" %2 %3L, %4C skrevs.</translation>
+            <translation>”%1” %2 %3L, %4C skrevs.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Cannot open file "%1" for reading</source>
-            <translation>Kan inte öppna filen "%1" för läsning</translation>
+            <translation>Kan inte öppna filen ”%1” för läsning</translation>
         </message>
         <message numerus="yes">
             <location line="+57" />
@@ -39395,22 +39395,22 @@ Orsak: %3</translation>
         <message>
             <location line="+387" />
             <source>Search hit BOTTOM, continuing at TOP.</source>
-            <translation>Sökningen träffade BOTTEN, fortsätter på TOPPEN.</translation>
+            <translation>Sökningen nådde SLUTET och fortsätter från BÖRJAN.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Search hit TOP, continuing at BOTTOM.</source>
-            <translation>Sökningen träffade TOPPEN, fortsätter vid BOTTEN.</translation>
+            <translation>Sökningen nådde BÖRJAN och fortsätter från SLUTET.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Search hit BOTTOM without match for: %1</source>
-            <translation>Sökningen träffade BOTTEN utan matchning för: %1</translation>
+            <translation>Sökningen nådde SLUTET utan träff för: %1</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Search hit TOP without match for: %1</source>
-            <translation>Sökningen träffade TOPPEN utan matchning för: %1</translation>
+            <translation>Sökningen nådde BÖRJAN utan träff för: %1</translation>
         </message>
         <message numerus="yes">
             <location line="+107" />
@@ -39439,12 +39439,12 @@ Orsak: %3</translation>
         <message>
             <location line="+929" />
             <source>Already at oldest change.</source>
-            <translation>Redan vid äldsta ändring.</translation>
+            <translation>Redan vid den äldsta ändringen.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Already at newest change.</source>
-            <translation>Redan vid nyaste ändring.</translation>
+            <translation>Redan vid den nyaste ändringen.</translation>
         </message>
         <message>
             <location line="-1853" />
@@ -39504,12 +39504,12 @@ Orsak: %3</translation>
         <message>
             <location line="-6" />
             <source>Start of line</source>
-            <translation>Radbörjan</translation>
+            <translation>Början av raden</translation>
         </message>
         <message>
             <location line="-4" />
             <source>Pass control keys</source>
-            <translation>Styrnycklar för passerkontroll</translation>
+            <translation>Skicka vidare Ctrl-tangenter</translation>
         </message>
         <message>
             <location line="+11" />
@@ -39524,7 +39524,7 @@ Orsak: %3</translation>
         <message>
             <location line="-4" />
             <source>Expand tabulators</source>
-            <translation>Expandera tabulatorer</translation>
+            <translation>Expandera tabbtecken</translation>
         </message>
         <message>
             <location line="-10" />
@@ -39539,22 +39539,22 @@ Orsak: %3</translation>
         <message>
             <location line="+1" />
             <source>Highlight search results</source>
-            <translation>Framhäv sökresultat</translation>
+            <translation>Markera sökresultat</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Incremental search</source>
-            <translation>Inkrementell sökning</translation>
+            <translation>Stegvis sökning</translation>
         </message>
         <message>
             <location line="-4" />
             <source>Shift width:</source>
-            <translation>Skiftbredd:</translation>
+            <translation>Indragsbredd:</translation>
         </message>
         <message>
             <location line="-3" />
             <source>Tabulator size:</source>
-            <translation>Tabulatorstorlek:</translation>
+            <translation>Tabbstorlek:</translation>
         </message>
         <message>
             <location line="+12" />
@@ -39564,7 +39564,7 @@ Orsak: %3</translation>
         <message>
             <location line="+2" />
             <source>Show line numbers relative to cursor</source>
-            <translation>Visa radnummer relativt till markör</translation>
+            <translation>Visa radnummer relativt markören</translation>
         </message>
         <message>
             <location line="+1" />
@@ -39574,7 +39574,7 @@ Orsak: %3</translation>
         <message>
             <location line="+1" />
             <source>Use system encoding for :source</source>
-            <translation>Använd systemkoding för :source</translation>
+            <translation>Använd systemkodning för :source</translation>
         </message>
         <message>
             <location line="+3" />
@@ -39589,7 +39589,7 @@ Orsak: %3</translation>
         <message>
             <location line="+12" />
             <source>Use Vim-Style Editing</source>
-            <translation>Använd vim- stilredigering</translation>
+            <translation>Använd redigering i Vim-stil</translation>
         </message>
         <message>
             <location line="+91" />
@@ -39609,7 +39609,7 @@ Orsak: %3</translation>
         <message>
             <location line="-40" />
             <source>Plugin Emulation</source>
-            <translation>Insticksemulering</translation>
+            <translation>Insticksmodulsemulering</translation>
         </message>
         <message>
             <location line="-103" />
@@ -39624,27 +39624,27 @@ Orsak: %3</translation>
         <message>
             <location line="-1" />
             <source>Use ignorecase</source>
-            <translation>Använd ignorerat fall</translation>
+            <translation>Använd ignorecase</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Show partial command</source>
-            <translation>Visa partiellt kommando</translation>
+            <translation>Visa delkommando</translation>
         </message>
         <message>
             <location line="-17" />
             <source>Pass keys in insert mode</source>
-            <translation>Skicka tangenter i infogat läge</translation>
+            <translation>Skicka vidare tangenter i infogningsläge</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Scroll offset:</source>
-            <translation>Rullförskjutning:</translation>
+            <translation>Rullningsförskjutning:</translation>
         </message>
         <message>
             <location line="-25" />
             <source>Read .vimrc from location:</source>
-            <translation>Läs .vimrc från plats:</translation>
+            <translation>Läs .vimrc från:</translation>
         </message>
         <message>
             <location line="+43" />
@@ -39654,37 +39654,37 @@ Orsak: %3</translation>
         <message>
             <location line="+3" />
             <source>Does not interpret key sequences like Ctrl-S in FakeVim but handles them as regular shortcuts. This gives easier access to core functionality at the price of losing some features of FakeVim.</source>
-            <translation>Inte tolka nyckelsekvenser som Ctrl-S i FakeVim utan hanterar dem som vanliga genvägar. Det ger lättare tillgång till kärnfunktioner till priset av att förlora vissa funktioner i FakeVim.</translation>
+            <translation>Tolkar inte tangentsekvenser som Ctrl-S i FakeVim, utan hanterar dem som vanliga kortkommandon. Det ger enklare åtkomst till kärnfunktioner men innebär att vissa funktioner i FakeVim går förlorade.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Does not interpret some key presses in insert mode so that code can be properly completed and expanded.</source>
-            <translation>Uttolkar inte vissa tangentpressar i infogat läge så att koden kan fyllas i och utökas på rätt sätt.</translation>
+            <translation>Tolkar inte vissa tangenttryckningar i infogningsläge, så att kod kan kompletteras och expanderas korrekt.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Vim tabstop option.</source>
-            <translation>Alternativet Vim tabstop.</translation>
+            <translation>Vim-alternativet tabstop.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Keep empty to use the default path, i.e. %USERPROFILE%\_vimrc on Windows, ~/.vimrc otherwise.</source>
-            <translation>Behåll tom för att använda standardsökvägen, dvs.% USERPROFIL%\_vimrc på Windows, ~/.vimrc annars.</translation>
+            <translation>Lämna tomt för att använda standardsökvägen, det vill säga %USERPROFILE%\_vimrc i Windows och annars ~/.vimrc.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/fakevim/fakevimplugin.cpp" line="+30" />
             <source>Execute User Action #%1</source>
-            <translation>Kör användaråtgärd # %1</translation>
+            <translation>Kör användaråtgärd #%1</translation>
         </message>
         <message>
             <location line="+835" />
             <source>File not saved</source>
-            <translation>Fil inte sparad</translation>
+            <translation>Filen sparades inte</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Saving succeeded</source>
-            <translation>Sparning lyckades</translation>
+            <translation>Sparandet lyckades</translation>
         </message>
         <message numerus="yes">
             <location line="+2" />
@@ -39713,12 +39713,12 @@ Orsak: %3</translation>
             <location filename="../../../src/plugins/fakevim/fakevimplugin.cpp" line="-1485" />
             <location line="+217" />
             <source>Ex Command Mapping</source>
-            <translation>Ex- kommandokartläggning</translation>
+            <translation>Mappning av Ex-kommandon</translation>
         </message>
         <message>
             <location line="-216" />
             <source>Ex Trigger Expression</source>
-            <translation>Ex-uttryck av trigger</translation>
+            <translation>Utlösaruttryck för Ex-kommandon</translation>
         </message>
         <message>
             <location line="+61" />
@@ -39743,7 +39743,7 @@ Orsak: %3</translation>
         <message>
             <location line="+19" />
             <source>The pattern "%1" is no valid regular expression.</source>
-            <translation>Mönstret "%1" är inget giltigt reguljärt uttryck.</translation>
+            <translation>Mönstret ”%1” är inte ett giltigt reguljärt uttryck.</translation>
         </message>
         <message>
             <location line="+619" />
@@ -39768,7 +39768,7 @@ Orsak: %3</translation>
         <message>
             <location line="-641" />
             <source>Ex Command</source>
-            <translation>Ex- kommando</translation>
+            <translation>Ex-kommando</translation>
         </message>
         <message>
             <location line="+249" />
@@ -39788,7 +39788,7 @@ Orsak: %3</translation>
         <message>
             <location line="-169" />
             <source>User Command Mapping</source>
-            <translation>Mappning av användarkommando</translation>
+            <translation>Mappning av användarkommandon</translation>
         </message>
     </context>
     <context>
