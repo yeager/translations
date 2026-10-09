@@ -48986,7 +48986,7 @@ för mål %1</translation>
         <message>
             <location line="+1" />
             <source>Annotate &amp;parent revision %1</source>
-            <translation>Annotera &amp;överordnad revision %1</translation>
+            <translation>Annotera över&amp;ordnad revision %1</translation>
         </message>
     </context>
     <context>
