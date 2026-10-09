@@ -28530,17 +28530,17 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/rewritecontrolstatements.cpp" line="+73" />
             <source>Optimize for-Loop</source>
-            <translation>Optimera för-loop</translation>
+            <translation>Optimera for-loop</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/convertstringliteral.cpp" line="-228" />
             <source>Escape String Literal as UTF-8</source>
-            <translation>Flyktsträng som UTF-8</translation>
+            <translation>Koda strängliteral med escape-sekvenser som UTF-8</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Unescape String Literal as UTF-8</source>
-            <translation>Unescape String Literal som UTF-8</translation>
+            <translation>Avkoda strängliteral med escape-sekvenser som UTF-8</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/convertqt4connect.cpp" line="+31" />
@@ -28550,12 +28550,12 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/removeusingnamespace.cpp" line="+394" />
             <source>Remove All Occurrences of "using namespace %1" in Global Scope and Adjust Type Names Accordingly</source>
-            <translation>Ta bort alla förekomster av "använder namnrymd %1" i global omfattning och justera typnamn följaktligen</translation>
+            <translation>Ta bort alla förekomster av ”using namespace %1” i global räckvidd och justera typnamnen därefter</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Remove "using namespace %1" and Adjust Type Names Accordingly</source>
-            <translation>Ta bort "använder namnrymd %1" och justera typnamn följaktligen</translation>
+            <translation>Ta bort ”using namespace %1” och justera typnamnen därefter</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/cppcodegenerationquickfixes.cpp" line="-385" />
@@ -28580,12 +28580,12 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
         <message>
             <location line="+269" />
             <source>Base Class Constructors</source>
-            <translation>Basklasskonstruatorer</translation>
+            <translation>Basklasskonstruktorer</translation>
         </message>
         <message>
             <location line="+27" />
             <source>Constructor</source>
-            <translation>Konstruerande</translation>
+            <translation>Konstruktor</translation>
         </message>
         <message>
             <location line="+32" />
@@ -28601,8 +28601,8 @@ hanteras av samma clangd-process lägger du till dem här.</translation>
             <location line="+44" />
             <source>Select the members to be initialized in the constructor.
 Use drag and drop to change the order of the parameters.</source>
-            <translation>Välj medlemmarna som ska initieras i konstruktören. Använd
-dra och släpp för att ändra ordningen på parametrarna.</translation>
+            <translation>Välj de medlemmar som ska initieras i konstruktorn.
+Dra och släpp för att ändra parameternas ordning.</translation>
         </message>
         <message>
             <location line="+40" />
@@ -28647,22 +28647,22 @@ dra och släpp för att ändra ordningen på parametrarna.</translation>
         <message>
             <location line="+2" />
             <source>Add Definition Inside Class</source>
-            <translation>Lägg till definition innanför klass</translation>
+            <translation>Lägg till definition i klassen</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Add Definition Outside Class</source>
-            <translation>Lägg till definition utanför klass</translation>
+            <translation>Lägg till definition utanför klassen</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cpptypehierarchy.cpp" line="+327" />
             <source>No type hierarchy available</source>
-            <translation>Ingen type-hierarki tillgänglig</translation>
+            <translation>Ingen typhierarki är tillgänglig</translation>
         </message>
         <message>
             <location line="-39" />
             <source>Bases</source>
-            <translation>Baser</translation>
+            <translation>Basklasser</translation>
         </message>
         <message>
             <location line="-151" />
@@ -28673,12 +28673,12 @@ dra och släpp för att ändra ordningen på parametrarna.</translation>
             <location line="+107" />
             <location line="+18" />
             <source>Evaluating Type Hierarchy</source>
-            <translation>Evaluerar Type-hierarki</translation>
+            <translation>Utvärderar typhierarki</translation>
         </message>
         <message>
             <location line="+29" />
             <source>Derived</source>
-            <translation>Härledd</translation>
+            <translation>Härledda</translation>
         </message>
         <message>
             <location line="+47" />
@@ -28711,7 +28711,7 @@ dra och släpp för att ändra ordningen på parametrarna.</translation>
             <location line="-29" />
             <location line="+32" />
             <source>Enums</source>
-            <translation>Innehåll</translation>
+            <translation>Uppräkningar</translation>
         </message>
         <message>
             <location line="-27" />
@@ -28736,9 +28736,9 @@ dra och släpp för att ändra ordningen på parametrarna.</translation>
             <source>Scope: %1
 Types: %2
 Flags: %3</source>
-            <translation>Tillämpningsområde:
-%1 Typer:
-%2 Flaggor: %3</translation>
+            <translation>Räckvidd: %1
+Typer: %2
+Flaggor: %3</translation>
         </message>
         <message>
             <source>All</source>
@@ -28761,26 +28761,26 @@ Flags: %3</source>
         </message>
         <message>
             <source>See tool tip for more information</source>
-            <translation>Se verktygstips för mer information</translation>
+            <translation>Se verktygstipset för mer information</translation>
         </message>
         <message>
             <location line="+216" />
             <source>For example, [[nodiscard]]</source>
-            <translation>Till exempel, [[nodiscard]]</translation>
+            <translation>Till exempel [[nodiscard]]</translation>
         </message>
         <message>
             <source>For example, new&lt;Name&gt;</source>
-            <translation>Till exempel, new&lt;Namn&gt;</translation>
+            <translation>Till exempel new&lt;Name&gt;</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Setters should be slots</source>
-            <translation>Ställare bör vara slots</translation>
+            <translation>Setterfunktioner bör vara slots</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Generate signals with the new value as parameter</source>
-            <translation>Generera signaler med nya värdet som parameter</translation>
+            <translation>Generera signaler med det nya värdet som parameter</translation>
         </message>
         <message>
             <source>For example, m_&lt;name&gt;</source>
