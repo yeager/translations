@@ -31176,7 +31176,7 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
         <message>
             <location line="+47" />
             <source>&lt;p&gt;Determines how the path is specified when setting breakpoints:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Use Engine Default&lt;/i&gt;: Preferred setting of the debugger engine.&lt;/li&gt;&lt;li&gt;&lt;i&gt;Use Full Path&lt;/i&gt;: Pass full path, avoiding ambiguities should files of the same name exist in several modules. This is the engine default for CDB and LLDB.&lt;/li&gt;&lt;li&gt;&lt;i&gt;Use File Name&lt;/i&gt;: Pass the file name only. This is useful when using a source tree whose location does not match the one used when building the modules. It is the engine default for GDB as using full paths can be slow with this engine.&lt;/li&gt;&lt;/ul&gt;</source>
-            <translation>&lt;p&gt;Determines how the path is specified when setting breakpoints:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Use Engine Default&lt;/i&gt;: Preferred setting of the debugger engine.&lt;/li&gt;&lt;li&gt;&lt;i&gt;Use Full Path&lt;/i&gt;: Pass full path, avoiding ambiguities should files of the same name exist in several modules. This is the engine default for CDB and LLDB.&lt;/li&gt;&lt;li&gt;&lt;i&gt;Use File Name&lt;/i&gt;: Pass the file name only. This is useful when using a source tree whose location does not match the one used when building the modules. It is the engine default for GDB as using full paths can be slow with this engine.&lt;/li&gt;&lt;/ul&gt;</translation>
+            <translation>&lt;p&gt;Anger hur sökvägen anges när brytpunkter sätts:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Använd felsökarens standard&lt;/i&gt;: Felsökarmotorns föredragna inställning.&lt;/li&gt;&lt;li&gt;&lt;i&gt;Använd fullständig sökväg&lt;/i&gt;: Skickar hela sökvägen och undviker tvetydighet om filer med samma namn finns i flera moduler. Detta är standard för CDB och LLDB.&lt;/li&gt;&lt;li&gt;&lt;i&gt;Använd filnamn&lt;/i&gt;: Skickar endast filnamnet. Det är användbart när källträdets plats skiljer sig från platsen som användes när modulerna byggdes. Detta är standard för GDB eftersom fullständiga sökvägar kan vara långsamma i den motorn.&lt;/li&gt;&lt;/ul&gt;</translation>
         </message>
         <message>
             <location line="+22" />
@@ -31708,7 +31708,7 @@ Du kan välja att vänta längre eller avbryta felsökningen.</numerusform>
         <message>
             <location line="+1" />
             <source>No remote executable could be determined from your build system files.&lt;p&gt;In case you use qmake, consider adding&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;target.path = /tmp/your_executable # path on device&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;INSTALLS += target&lt;/p&gt;to your .pro file.</source>
-            <translation>No remote executable could be determined from your build system files.&lt;p&gt;In case you use qmake, consider adding&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;target.path = /tmp/your_executable # path on device&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;INSTALLS += target&lt;/p&gt;to your .pro file.</translation>
+            <translation>Det gick inte att avgöra någon körbar fjärrfil från byggsystemets filer.&lt;p&gt;Om du använder qmake kan du överväga att lägga till&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;target.path = /tmp/your_executable # sökväg på enheten&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;INSTALLS += target&lt;/p&gt;i .pro-filen.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -32395,7 +32395,7 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="+3" />
             <source>&lt;p&gt;To execute simple Python commands, prefix them with "python".&lt;/p&gt;&lt;p&gt;To execute sequences of Python commands spanning multiple lines prepend the block with "python" on a separate line, and append "end" on a separate line.&lt;/p&gt;&lt;p&gt;To execute arbitrary Python scripts, use &lt;i&gt;source /path/to/script.py&lt;/i&gt;.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;To execute simple Python commands, prefix them with "python".&lt;/p&gt;&lt;p&gt;To execute sequences of Python commands spanning multiple lines prepend the block with "python" on a separate line, and append "end" on a separate line.&lt;/p&gt;&lt;p&gt;To execute arbitrary Python scripts, use &lt;i&gt;source /path/to/script.py&lt;/i&gt;.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Inled enkla Python-kommandon med ”python” för att köra dem.&lt;/p&gt;&lt;p&gt;För att köra sekvenser av Python-kommandon över flera rader inleder du blocket med ”python” på en egen rad och avslutar med ”end” på en egen rad.&lt;/p&gt;&lt;p&gt;Använd &lt;i&gt;source /sökväg/till/skript.py&lt;/i&gt; för att köra godtyckliga Python-skript.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+48" />
@@ -33042,7 +33042,7 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="+9" />
             <source>C&amp;ondition:</source>
-            <translation>C&amp;ondition:</translation>
+            <translation>&amp;Villkor:</translation>
         </message>
         <message>
             <location line="+6" />
@@ -34370,7 +34370,7 @@ Det kan misslyckas att undersöka symboler och att sätta brytpunkter efter filn
         <message>
             <location line="+6" />
             <source>&lt;p&gt;Mappings of source file folders to be used in the debugger can be entered here.&lt;/p&gt;&lt;p&gt;This is useful when using a copy of the source tree at a location different from the one at which the modules where built, for example, while doing remote debugging.&lt;/p&gt;&lt;p&gt;If source is specified as a regular expression by starting it with an open parenthesis, the paths in the ELF are matched with the regular expression to automatically determine the source path.&lt;/p&gt;&lt;p&gt;Example: &lt;b&gt;(/home/.*/Project)/KnownSubDir -&gt; D:\Project&lt;/b&gt; will substitute ELF built by any user to your local project directory.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Mappings of source file folders to be used in the debugger can be entered here.&lt;/p&gt;&lt;p&gt;This is useful when using a copy of the source tree at a location different from the one at which the modules where built, for example, while doing remote debugging.&lt;/p&gt;&lt;p&gt;If source is specified as a regular expression by starting it with an open parenthesis, the paths in the ELF are matched with the regular expression to automatically determine the source path.&lt;/p&gt;&lt;p&gt;Example: &lt;b&gt;(/home/.*/Project)/KnownSubDir -&gt; D:\Project&lt;/b&gt; will substitute ELF built by any user to your local project directory.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Här kan du ange mappningar av källfilsmappar som ska användas i felsökaren.&lt;/p&gt;&lt;p&gt;Det är användbart när en kopia av källträdet finns på en annan plats än den där modulerna byggdes, exempelvis vid fjärrfelsökning.&lt;/p&gt;&lt;p&gt;Om källan anges som ett reguljärt uttryck genom att börja med en inledande parentes matchas sökvägarna i ELF-filen mot uttrycket för att automatiskt avgöra källsökvägen.&lt;/p&gt;&lt;p&gt;Exempel: &lt;b&gt;(/home/.*/Project)/KnownSubDir -&gt; D:\Project&lt;/b&gt; ersätter ELF-sökvägen som byggts av en användare med din lokala projektkatalog.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+25" />
@@ -34970,7 +34970,7 @@ Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutn
         <message>
             <location line="+88" />
             <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;The remote CDB needs to load the matching %1 CDB extension (&lt;code&gt;%2&lt;/code&gt; or &lt;code&gt;%3&lt;/code&gt;, respectively).&lt;/p&gt;&lt;p&gt;Copy it onto the remote machine and set the environment variable &lt;code&gt;%4&lt;/code&gt; to point to its folder.&lt;/p&gt;&lt;p&gt;Launch the remote CDB as &lt;code&gt;%5 &amp;lt;executable&amp;gt;&lt;/code&gt; to use TCP/IP as communication protocol.&lt;/p&gt;&lt;p&gt;Enter the connection parameters as:&lt;/p&gt;&lt;pre&gt;%6&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;The remote CDB needs to load the matching %1 CDB extension (&lt;code&gt;%2&lt;/code&gt; or &lt;code&gt;%3&lt;/code&gt;, respectively).&lt;/p&gt;&lt;p&gt;Copy it onto the remote machine and set the environment variable &lt;code&gt;%4&lt;/code&gt; to point to its folder.&lt;/p&gt;&lt;p&gt;Launch the remote CDB as &lt;code&gt;%5 &amp;lt;executable&amp;gt;&lt;/code&gt; to use TCP/IP as communication protocol.&lt;/p&gt;&lt;p&gt;Enter the connection parameters as:&lt;/p&gt;&lt;pre&gt;%6&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Fjärr-CDB måste läsa in motsvarande %1-CDB-tillägg (&lt;code&gt;%2&lt;/code&gt; respektive &lt;code&gt;%3&lt;/code&gt;).&lt;/p&gt;&lt;p&gt;Kopiera det till fjärrdatorn och ange miljövariabeln &lt;code&gt;%4&lt;/code&gt; så att den pekar på dess mapp.&lt;/p&gt;&lt;p&gt;Starta fjärr-CDB som &lt;code&gt;%5 &amp;lt;körbar-fil&amp;gt;&lt;/code&gt; för att använda TCP/IP som kommunikationsprotokoll.&lt;/p&gt;&lt;p&gt;Ange anslutningsparametrarna så här:&lt;/p&gt;&lt;pre&gt;%6&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerkitaspect.cpp" line="+275" />
@@ -36076,7 +36076,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+10" />
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The debugger is not configured to use the public Microsoft Symbol Server.&lt;br/&gt;This is recommended for retrieval of the symbols of the operating system libraries.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-style:italic;"&gt;Note:&lt;/span&gt; It is recommended, that if you use the Microsoft Symbol Server, to also use a local symbol cache.&lt;br/&gt;A fast internet connection is required for this to work smoothly,&lt;br/&gt;and a delay might occur when connecting for the first time and caching the symbols.&lt;/p&gt;&lt;p&gt;What would you like to set up?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The debugger is not configured to use the public Microsoft Symbol Server.&lt;br/&gt;This is recommended for retrieval of the symbols of the operating system libraries.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-style:italic;"&gt;Note:&lt;/span&gt; It is recommended, that if you use the Microsoft Symbol Server, to also use a local symbol cache.&lt;br/&gt;A fast internet connection is required for this to work smoothly,&lt;br/&gt;and a delay might occur when connecting for the first time and caching the symbols.&lt;/p&gt;&lt;p&gt;What would you like to set up?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Felsökaren är inte konfigurerad för att använda den publika Microsoft Symbol Server.&lt;br/&gt;Det rekommenderas för att hämta symboler för operativsystemets bibliotek.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-style:italic;"&gt;Obs:&lt;/span&gt; Om du använder Microsoft Symbol Server rekommenderas även en lokal symbolcache.&lt;br/&gt;Det krävs en snabb internetanslutning för att detta ska fungera smidigt,&lt;br/&gt;och det kan uppstå en fördröjning första gången du ansluter och mellanlagrar symbolerna.&lt;/p&gt;&lt;p&gt;Vad vill du konfigurera?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location line="+12" />
@@ -36153,7 +36153,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location filename="../../../src/plugins/debugger/gdb/gdbsettings.cpp" line="-85" />
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables stepping backwards.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; This feature is very slow and unstable on the GDB side. It exhibits unpredictable behavior when going backwards over system calls and is very likely to destroy your debugging session.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables stepping backwards.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; This feature is very slow and unstable on the GDB side. It exhibits unpredictable behavior when going backwards over system calls and is very likely to destroy your debugging session.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Aktiverar stegning bakåt.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Obs:&lt;/b&gt; Funktionen är mycket långsam och instabil i GDB. Den beter sig oförutsägbart när systemanrop passeras bakåt och kan med stor sannolikhet förstöra felsökningssessionen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="-252" />
@@ -36703,12 +36703,12 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location filename="../../../src/plugins/debugger/remotedebuggerconfiguration.cpp" line="-13" />
             <source>Script or command that will set up the gdb server connection.</source>
-            <translation>Skript eller kommando som ställer in anslutning till gdb- servern.</translation>
+            <translation>Skript eller kommando som upprättar anslutningen till GDB-servern.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Symbol file (local executable):</source>
-            <translation>Symbolfil (lokal körbar):</translation>
+            <translation>Symbolfil (lokal körbar fil):</translation>
         </message>
         <message>
             <location line="+4" />
@@ -36718,7 +36718,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+7" />
             <source>Break at "&amp;main"</source>
-            <translation>Bryt på &amp;main</translation>
+            <translation>Bryt vid ”&amp;main”</translation>
         </message>
         <message>
             <location line="+7" />
@@ -36730,27 +36730,27 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
             <location line="+9" />
             <location line="+21" />
             <source>Remote Debugger</source>
-            <translation>Fjärravlusning</translation>
+            <translation>Fjärrfelsökare</translation>
         </message>
         <message>
             <location line="-20" />
             <source>Remote Debugger: %1</source>
-            <translation>Fjärravlusare: %1</translation>
+            <translation>Fjärrfelsökare: %1</translation>
         </message>
         <message>
             <location line="+7" />
             <source>The command must be set in order to debug.</source>
-            <translation>Kommandot måste ställas in för att felsöka.</translation>
+            <translation>Kommandot måste anges för att det ska gå att felsöka.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The symbol file must be set in order to debug.</source>
-            <translation>Symbolfilen måste ställas in för att felsöka.</translation>
+            <translation>Symbolfilen måste anges för att det ska gå att felsöka.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The GDB server channel must be set in order to debug.</source>
-            <translation>GDB- serverns kanal måste ställas in för att felsöka.</translation>
+            <translation>GDB-serverkanalen måste anges för att det ska gå att felsöka.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/remotedebuggerdebugsupport.cpp" line="+28" />
