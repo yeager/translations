@@ -70300,12 +70300,12 @@ Rad: %4, kolumn: %5
         <message>
             <location line="+4" />
             <source>Adjust references to the removed symbolic name to point to:</source>
-            <translation>Justera hänvisningar till det borttagna symboliska namnet till:</translation>
+            <translation>Ändra referenser till det borttagna symboliska namnet så att de pekar på:</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Remove the symbolic name (invalidates names referencing it)</source>
-            <translation>Ta bort det symboliska namnet (ogiltiga namn som hänvisar till det)</translation>
+            <translation>Ta bort det symboliska namnet (ogiltigförklarar namn som refererar till det)</translation>
         </message>
         <message>
             <location line="+3" />
@@ -70315,7 +70315,7 @@ Rad: %4, kolumn: %5
         <message>
             <location line="+59" />
             <source>The Symbolic Name &lt;span style='white-space: nowrap'&gt;"%1"&lt;/span&gt; you want to remove is used in Multi Property Names. Select the action to apply to references in these Multi Property Names.</source>
-            <translation>Symbolnamnet &lt;span style='white-space: nowrap'&gt;"%1"&lt;/span&gt; du vill ta bort används i flera fastighetsnamn. Välj åtgärden för att tillämpa på referenser i dessa Multi Property Namn.</translation>
+            <translation>Det symboliska namnet &lt;span style='white-space: nowrap'&gt;”%1”&lt;/span&gt; som du vill ta bort används i namn med flera egenskaper. Välj åtgärden som ska tillämpas på referenser i dessa namn.</translation>
         </message>
         <message>
             <source>Failed to write "%1"</source>
@@ -70339,7 +70339,7 @@ Rad: %4, kolumn: %5
         <message>
             <location line="+5" />
             <source>objectmaptool not found.</source>
-            <translation>objektavbildningsverktyg hittades inte.</translation>
+            <translation>objectmaptool hittades inte.</translation>
         </message>
         <message>
             <location line="+12" />
@@ -70349,7 +70349,7 @@ Rad: %4, kolumn: %5
         <message>
             <location filename="../../../src/plugins/squish/objectsmapeditor.cpp" line="+42" />
             <source>Squish Object Map Editor</source>
-            <translation>Redigera objektkarta</translation>
+            <translation>Objektmappsredigerare för Squish</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/squish/objectsmapeditorwidget.cpp" line="+60" />
@@ -70402,7 +70402,7 @@ Rad: %4, kolumn: %5
         <message>
             <location line="-25" />
             <source>Copy Real Name</source>
-            <translation>Kopiera riktigt namn</translation>
+            <translation>Kopiera verkligt namn</translation>
         </message>
         <message>
             <location line="+40" />
@@ -70412,12 +70412,12 @@ Rad: %4, kolumn: %5
         <message>
             <location line="+1" />
             <source>The properties of the Multi Property Name associated with the selected Symbolic Name. (use \\ for a literal \ in the value)</source>
-            <translation>Egenskaperna för det multiobjektnamn som hör ihop med det markerade symbolnamnet. (använd\\ för ett bokstavligt\ i värdet)</translation>
+            <translation>Egenskaperna för Multi Property Name som hör till det markerade Symbolic Name. (använd \\ för ett bokstavligt \ i värdet)</translation>
         </message>
         <message>
             <location line="+3" />
             <source>The Hierarchical Name associated with the selected Symbolic Name.</source>
-            <translation>Det hierarkiska namnet associerat med det markerade symbolnamnet.</translation>
+            <translation>Det hierarkiska namnet som hör till det markerade symboliska namnet.</translation>
         </message>
         <message>
             <location line="+200" />
@@ -70432,12 +70432,12 @@ Rad: %4, kolumn: %5
         <message>
             <location line="+142" />
             <source>Ambiguous Property Name</source>
-            <translation>Ojämn egendomsnamn</translation>
+            <translation>Tvetydigt egenskapsnamn</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Ambiguous Symbolic Name</source>
-            <translation>Ojämn symboliskt namn</translation>
+            <translation>Tvetydigt symboliskt namn</translation>
         </message>
         <message>
             <location line="+2" />
@@ -70463,7 +70463,7 @@ Rad: %4, kolumn: %5
         <message>
             <location filename="../../../src/plugins/squish/opensquishsuitesdialog.cpp" line="+26" />
             <source>Open Squish Test Suites</source>
-            <translation>Öppna testsviter för quish</translation>
+            <translation>Öppna Squish-testsviter</translation>
         </message>
         <message>
             <location line="+9" />
@@ -70534,8 +70534,8 @@ Rad: %4, kolumn: %5
             <location line="+36" />
             <source>A test suite with the name "%1" is already open.
 Close the opened test suite and replace it with the new one?</source>
-            <translation>En testsvit med namnet "%1" är redan öppnat.
-Stäng den öppnade testsviten och ersätt den med denna?</translation>
+            <translation>En testsvit med namnet ”%1” är redan öppen.
+Stäng den öppna testsviten och ersätt den med den nya?</translation>
         </message>
         <message>
             <location line="+50" />
@@ -70545,19 +70545,19 @@ Stäng den öppnade testsviten och ersätt den med denna?</translation>
         <message>
             <location line="+1" />
             <source>Are you sure you want to delete Test Case "%1" from the file system?</source>
-            <translation>Är du säker på att du vill ta bort Test Case "%1" från filsystemet?</translation>
+            <translation>Är du säker på att du vill ta bort testfallet ”%1” från filsystemet?</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Deletion of Test Case failed.</source>
-            <translation>Borttagning av testfall misslyckades.</translation>
+            <translation>Det gick inte att ta bort testfallet.</translation>
         </message>
         <message>
             <location line="+31" />
             <source>The path "%1" does not exist or is not accessible.
 Refusing to run test case "%2".</source>
-            <translation>Sökvägen "%1" finns inte eller är inte
-tillgänglig. Vägrar köra testfall "%2".</translation>
+            <translation>Sökvägen ”%1” finns inte eller är inte tillgänglig.
+Vägrar köra testfallet ”%2”.</translation>
         </message>
         <message>
             <location line="+3" />
