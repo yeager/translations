@@ -78460,7 +78460,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location filename="../../../src/plugins/valgrind/xmlprotocol/parser.cpp" line="+195" />
             <source>Could not parse hex number from "%1" (%2)</source>
-            <translation>Kunde inte tolka hex- nummer från "%1" (%2)</translation>
+            <translation>Det gick inte att tolka hexadecimalt tal från ”%1” (%2)</translation>
         </message>
         <message>
             <location line="-65" />
@@ -78470,37 +78470,37 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+4" />
             <source>Premature end of XML document.</source>
-            <translation>Förtida slut på XML-dokument.</translation>
+            <translation>XML-dokumentet avslutades i förtid.</translation>
         </message>
         <message>
             <location line="+70" />
             <source>Could not parse hex number from "%1" (%2).</source>
-            <translation>Kunde inte tolka hex-nummer från "%1" (%2).</translation>
+            <translation>Det gick inte att tolka hexadecimalt tal från ”%1” (%2).</translation>
         </message>
         <message>
             <location line="+63" />
             <source>Trying to read element text although current position is not start of element.</source>
-            <translation>Försöker läsa elementtext även om nuvarande position inte är start av element.</translation>
+            <translation>Försöker läsa elementtext trots att den aktuella positionen inte är början av elementet.</translation>
         </message>
         <message>
             <location line="+17" />
             <source>Unexpected child element while reading element text</source>
-            <translation>Oväntat barnelement när elementets text läses</translation>
+            <translation>Oväntat underordnat element vid läsning av elementtext</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Unexpected token type %1</source>
-            <translation>Oväntad teckentyp %1</translation>
+            <translation>Oväntad token-typ %1</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Could not parse protocol version from "%1"</source>
-            <translation>Kunde inte tolka protokollversion från "%1"</translation>
+            <translation>Det gick inte att tolka protokollversion från ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
             <source>XmlProtocol version %1 not supported (supported versions: %2-%3)</source>
-            <translation>XmlProtocol version %1 stöds inte (stötta versioner: %2-%3)</translation>
+            <translation>XML-protokollversion %1 stöds inte (versioner som stöds: %2–%3)</translation>
         </message>
         <message>
             <location line="+7" />
@@ -78510,12 +78510,12 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+57" />
             <source>Unknown %1 kind "%2"</source>
-            <translation>Okänd %1- typ "%2"</translation>
+            <translation>Okänd %1-typ ”%2”</translation>
         </message>
         <message>
             <location line="+17" />
             <source>Could not parse error kind, tool not yet set.</source>
-            <translation>Kunde inte tolka feltyp, verktyget ännu inte inställt.</translation>
+            <translation>Det gick inte att tolka feltyp eftersom verktyget ännu inte är inställt.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -78525,7 +78525,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+309" />
             <source>Unexpected exception caught during parsing.</source>
-            <translation>Oväntat undantag som fångats under tolkning.</translation>
+            <translation>Oväntat undantag fångades vid tolkning.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/valgrind/xmlprotocol/stackmodel.cpp" line="+131" />
@@ -78560,7 +78560,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location filename="../../../src/plugins/valgrind/memcheckerrorview.cpp" line="+199" />
             <source>Suppression File:</source>
-            <translation>Undertrycksfil:</translation>
+            <translation>Undertryckningsfil:</translation>
         </message>
         <message>
             <location line="+2" />
@@ -78570,27 +78570,27 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+24" />
             <source>Select Suppression File</source>
-            <translation>Välj undertrycksfil</translation>
+            <translation>Välj undertryckningsfil</translation>
         </message>
         <message>
             <location line="-28" />
             <source>Save Suppression</source>
-            <translation>Spara tryckundertryck</translation>
+            <translation>Spara undertryckning</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/valgrind/valgrindsettings.cpp" line="+218" />
             <source>Valgrind executable:</source>
-            <translation>Körbar Valgrind-fil:</translation>
+            <translation>Körbar fil för Valgrind:</translation>
         </message>
         <message>
             <location line="+53" />
             <source>Backtrace frame count:</source>
-            <translation>Räkna bakåtspår:</translation>
+            <translation>Antal ramar i stackspår:</translation>
         </message>
         <message>
             <location line="-124" />
             <source>Suppression files:</source>
-            <translation>Undertrycksfiler:</translation>
+            <translation>Undertryckningsfiler:</translation>
         </message>
         <message>
             <location line="-14" />
@@ -78610,17 +78610,17 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+26" />
             <source>Track origins of uninitialized memory</source>
-            <translation>Spårets ursprung för oinvigt minne</translation>
+            <translation>Spåra ursprunget för oinitierat minne</translation>
         </message>
         <message>
             <location line="+80" />
             <source>Limits the amount of results the profiler gives you. A lower limit will likely increase performance.</source>
-            <translation>Begränsar mängden resultat profilatorn ger dig. En lägre gräns kommer sannolikt att öka prestandan.</translation>
+            <translation>Begränsar antalet resultat som profileraren ger. En lägre gräns förbättrar sannolikt prestandan.</translation>
         </message>
         <message>
             <location line="-1" />
             <source>Result view: Minimum event cost:</source>
-            <translation>Resultatvy: Minsta händelsekostnad:</translation>
+            <translation>Resultatvy: lägsta händelsekostnad:</translation>
         </message>
         <message>
             <location line="-1" />
@@ -78636,17 +78636,17 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="-230" />
             <source>Valgrind Suppression File (*.supp)</source>
-            <translation>Valgrinds tryckfil (*. supp)</translation>
+            <translation>Valgrind-undertryckningsfil (*.supp)</translation>
         </message>
         <message>
             <location line="+179" />
             <source>Extra Memcheck arguments:</source>
-            <translation>Extra Memcheck- argument:</translation>
+            <translation>Ytterligare Memcheck-argument:</translation>
         </message>
         <message>
             <location line="+46" />
             <source>Extra Callgrind arguments:</source>
-            <translation>Extra argument för Callgrind:</translation>
+            <translation>Ytterligare Callgrind-argument:</translation>
         </message>
         <message>
             <location line="+9" />
@@ -78656,22 +78656,22 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+13" />
             <source>Enable branch prediction simulation</source>
-            <translation>Aktivera simulering av simulering av förgrenade prognoser</translation>
+            <translation>Aktivera simulering av grengissning</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Collect system call time</source>
-            <translation>Upphämtning av systemets anropstid</translation>
+            <translation>Samla in tidsåtgång för systemanrop</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Collect the number of global bus events that are executed. The event type "Ge" is used for these events.</source>
-            <translation>Samla in antalet globala bussevenemang som utförs. Händelsetypen "Ge" används för dessa evenemang.</translation>
+            <translation>Samla in antalet globala buss-händelser som körs. Händelsetypen ”Ge” används för dessa händelser.</translation>
         </message>
         <message>
             <location line="+81" />
             <source>Memcheck Memory Analysis Options</source>
-            <translation>Memcheck alternativ för minnesanalys</translation>
+            <translation>Alternativ för Memcheck-minnesanalys</translation>
         </message>
         <message>
             <location line="+1" />
@@ -78681,7 +78681,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="-83" />
             <source>Collect global bus events</source>
-            <translation>Samla globala bussevenemang</translation>
+            <translation>Samla in globala buss-händelser</translation>
         </message>
         <message>
             <location line="-110" />
@@ -78691,7 +78691,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="-155" />
             <source>Valgrind Suppression Files</source>
-            <translation>Valgrindstryckfiler</translation>
+            <translation>Valgrind-undertryckningsfiler</translation>
         </message>
         <message>
             <location line="+221" />
