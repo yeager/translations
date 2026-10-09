@@ -14824,7 +14824,7 @@ Vill du öppna ”%1” med standardprogrammet?</translation>
         <message>
             <location line="-248" />
             <source>Highlight marks</source>
-            <translation>Markera markeringar</translation>
+            <translation>Framhäv markeringar</translation>
         </message>
         <message>
             <location line="-180" />
@@ -14839,7 +14839,7 @@ Vill du öppna ”%1” med standardprogrammet?</translation>
         <message>
             <location line="+177" />
             <source>Marks issues on the scroll bar.</source>
-            <translation>Markerar problem på rullningsfältet.</translation>
+            <translation>Markerar problem i rullningslisten.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -14855,7 +14855,7 @@ Vill du öppna ”%1” med standardprogrammet?</translation>
             <location line="+6" />
             <source>Path to python executable.
 Set it to overwrite global environment or if Axivion fails to find python in PATH.</source>
-            <translation>Sökväg till Python-körbar fil.
+            <translation>Sökväg till det körbara Python-programmet.
 Ange den för att åsidosätta den globala miljön eller om Axivion inte hittar Python i PATH.</translation>
         </message>
         <message>
@@ -14866,7 +14866,7 @@ Ange den för att åsidosätta den globala miljön eller om Axivion inte hittar 
         <message>
             <location line="+99" />
             <source>Axivion: Deleting API token for %1 as respective dashboard server was removed.</source>
-            <translation>Axivion: Ta bort API-tecknet för %1 som respektive instrumentbrädan server togs bort.</translation>
+            <translation>Axivion: API-token för %1 tas bort eftersom motsvarande instrumentpanelsserver har tagits bort.</translation>
         </message>
         <message>
             <location line="+134" />
@@ -14881,12 +14881,12 @@ Ange den för att åsidosätta den globala miljön eller om Axivion inte hittar 
         <message>
             <location line="+2" />
             <source>Anonymous authentication</source>
-            <translation>Anonym behörighetskontroll</translation>
+            <translation>Anonym autentisering</translation>
         </message>
         <message>
             <location line="+65" />
             <source>Project name must be non-empty.</source>
-            <translation>Projektnamnet måste vara icke-tomma.</translation>
+            <translation>Projektnamnet får inte vara tomt.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -14897,13 +14897,13 @@ Ange den för att åsidosätta den globala miljön eller om Axivion inte hittar 
             <location line="+11" />
             <source>Root path of the analyzed project relative to the usedproject path inside the dashboard.
 Leave empty if the analyzed project refers to the basepath of the analyzed project.</source>
-            <translation>Rotvägen till det analyserade projektet i förhållande till den använda projektvägen inne i instrumentpanelen.
-Lämna tom om det analyserade projektet hänvisar till grundvägen för det analyserade projektet.</translation>
+            <translation>Rotkatalogen för det analyserade projektet relativt sökvägen till det använda projektet i instrumentpanelen.
+Lämna fältet tomt om det analyserade projektet motsvarar det analyserade projektets bassökväg.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Local directory path corresponding to the analyis path.</source>
-            <translation>Lokal katalogsökväg som motsvarar sökvägen analyis.</translation>
+            <translation>Lokal katalogsökväg som motsvarar analyssökvägen.</translation>
         </message>
         <message>
             <location line="+76" />
@@ -14923,7 +14923,7 @@ Lämna tom om det analyserade projektet hänvisar till grundvägen för det anal
         <message>
             <location line="+22" />
             <source>Dashboard Servers</source>
-            <translation>Dashboard- servrar</translation>
+            <translation>Instrumentpanelsservrar</translation>
         </message>
         <message>
             <location line="+2" />
@@ -14953,12 +14953,12 @@ Lämna tom om det analyserade projektet hänvisar till grundvägen för det anal
         <message>
             <location line="+9" />
             <source>Misc Options</source>
-            <translation>Diverse alternativ</translation>
+            <translation>Övriga alternativ</translation>
         </message>
         <message>
             <location line="+9" />
             <source>unset</source>
-            <translation>inte inställd</translation>
+            <translation>inte angiven</translation>
         </message>
         <message>
             <location line="+105" />
@@ -14973,23 +14973,23 @@ Lämna tom om det analyserade projektet hänvisar till grundvägen för det anal
         <message>
             <location line="+13" />
             <source>Add Dashboard Configuration</source>
-            <translation>Lägg till inställning av skrivbord</translation>
+            <translation>Lägg till instrumentpanelskonfiguration</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Edit Dashboard Configuration</source>
-            <translation>Redigera Dashboard- inställning</translation>
+            <translation>Redigera instrumentpanelskonfiguration</translation>
         </message>
         <message>
             <location line="+109" />
             <location line="+57" />
             <source>Missing Path Mapping</source>
-            <translation>Missande sökvägskartläggning</translation>
+            <translation>Sökvägsmappning saknas</translation>
         </message>
         <message>
             <location line="-56" />
             <source>Configure a valid path mapping for "%1" to open files for this project.</source>
-            <translation>Anpassa en giltig sökvägskartläggning för "%1" för att öppna filer för det här projektet.</translation>
+            <translation>Konfigurera en giltig sökvägsmappning för ”%1” för att öppna filer för projektet.</translation>
         </message>
         <message>
             <location line="+36" />
@@ -14999,24 +14999,24 @@ Lämna tom om det analyserade projektet hänvisar till grundvägen för det anal
         <message>
             <location line="+22" />
             <source>No matching path mapping for "%1" configured.</source>
-            <translation>Ingen matchande sökvägskartläggning för "%1" konfigurerad.</translation>
+            <translation>Ingen matchande sökvägsmappning för ”%1” har konfigurerats.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>To open this file, you need to change the existing or add another valid path mapping.
 This may include changing the order of mappings.</source>
-            <translation>För att öppna filen måste du ändra befintlig eller lägga till en annan
-giltig sökvägskartläggning. Det kan inkludera att ändra ordning på kartor.</translation>
+            <translation>För att öppna filen måste du ändra den befintliga eller lägga till en annan giltig sökvägsmappning.
+Det kan innebära att du ändrar mappningarnas ordning.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>No path mapping for "%1" configured.</source>
-            <translation>Ingen sökvägskartläggning för "%1" inställd.</translation>
+            <translation>Ingen sökvägsmappning för ”%1” har konfigurerats.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>To open files for this project, specify a valid path mapping or select a matching local file.</source>
-            <translation>För att öppna filer för det här projektet, ange en giltig sökvägskartering eller välj en matchande lokal fil.</translation>
+            <translation>För att öppna filer för projektet anger du en giltig sökvägsmappning eller väljer en matchande lokal fil.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -15026,7 +15026,7 @@ giltig sökvägskartläggning. Det kan inkludera att ändra ordning på kartor.<
         <message>
             <location line="+3" />
             <source>Change Existing...</source>
-            <translation>Ändra existerande…</translation>
+            <translation>Ändra befintlig…</translation>
         </message>
         <message>
             <location line="+1" />
