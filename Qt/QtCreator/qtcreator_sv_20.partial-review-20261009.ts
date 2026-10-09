@@ -54371,7 +54371,7 @@ Display name of the clean build step list. Used as part of the labels in the pro
             <location line="+337" />
             <location line="+92" />
             <source>Header file:</source>
-            <translation>Header-fil:</translation>
+            <translation>Huvudfil:</translation>
         </message>
         <message>
             <location line="-590" />
@@ -54463,7 +54463,7 @@ Display name of the clean build step list. Used as part of the labels in the pro
         <message>
             <location line="+2" />
             <source>com.mycompany.qmlcomponents</source>
-            <translation>com.mittbolag.qmlcomponents</translation>
+            <translation>com.mycompany.qmlcomponents</translation>
         </message>
         <message>
             <location line="+2" />
@@ -54478,7 +54478,7 @@ Display name of the clean build step list. Used as part of the labels in the pro
         <message>
             <location line="+6" />
             <source>Creates a C++ plugin to load Qt Quick extensions dynamically into applications using the QQmlEngine class.</source>
-            <translation>Skapar en C++-insticksmodul för att läsa in Qt Quick-utökningar dynamiskt till program med QQmlEngine-klassen.</translation>
+            <translation>Skapar ett C++-tillägg som läser in Qt Quick-utökningar dynamiskt i program med klassen QQmlEngine.</translation>
         </message>
         <message>
             <location line="-183" />
@@ -54504,14 +54504,14 @@ Display name of the clean build step list. Used as part of the labels in the pro
         <message>
             <location line="-908" />
             <source>Creates a CMake-based test project where you can enter a code snippet to compile and check it.</source>
-            <translation>Skapar ett CMake-baserat testprojekt där du kan ange en kodsnutt för att kompilera och testa det.</translation>
+            <translation>Skapar ett CMake-baserat testprojekt där du kan ange en kodsnutt för att kompilera och kontrollera den.</translation>
         </message>
         <message>
             <location line="+96" />
             <source>You must tell Qt Creator which test framework is used inside the project.
 
 You should not mix multiple test frameworks in a project.</source>
-            <translation>Du måste säga till Qt Creator vilket testramverk som används inne i projektet.
+            <translation>Du måste ange för Qt Creator vilket testramverk som används i projektet.
 
 Du bör inte blanda flera testramverk i ett projekt.</translation>
         </message>
@@ -54523,7 +54523,7 @@ Du bör inte blanda flera testramverk i ett projekt.</translation>
         <message>
             <location line="+4" />
             <source>Creates a source file that you can add to an existing test project.</source>
-            <translation>Skapar en källfil som du kan lägga till ett befintligt testprojekt.</translation>
+            <translation>Skapar en källfil som du kan lägga till i ett befintligt testprojekt.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -54534,7 +54534,7 @@ Du bör inte blanda flera testramverk i ett projekt.</translation>
         <message>
             <location line="-26" />
             <source>Creates a markdown file.</source>
-            <translation>Skapar en markdown-fil.</translation>
+            <translation>Skapar en Markdown-fil.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -54548,7 +54548,7 @@ Du bör inte blanda flera testramverk i ett projekt.</translation>
 Preselects a desktop Qt for building the application if available.</source>
             <translation>Skapar ett projekt som innehåller en enda main.cpp-fil med en stubbimplementation och utan grafiskt gränssnitt.
 
-Förväljer en skrivbordsbaserad Qt för byggnation av programmet om tillgängligt.</translation>
+Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan finns.</translation>
         </message>
         <message>
             <location line="-334" />
@@ -54560,26 +54560,26 @@ Förväljer en skrivbordsbaserad Qt för byggnation av programmet om tillgängli
         <message>
             <location line="-54" />
             <source>Define Python Interpreter</source>
-            <translation>Definiera Python-tolk</translation>
+            <translation>Ange Python-tolk</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Creates a Qt for Python application that includes a Qt Widgets Designer-based widget (ui file). Requires .ui to Python conversion.</source>
-            <translation>Skapar ett Qt for Python-program som inkluderar en Qt Widgets Designer-baserad widget (gränssnittsfil). Kräver .ui till Python-konvertering.</translation>
+            <translation>Skapar ett Qt for Python-program som innehåller en widget baserad på Qt Widgets Designer (UI-fil). Kräver konvertering från .ui till Python.</translation>
         </message>
         <message>
             <location line="-21" />
             <source>Creates a Qt Quick UI project for previewing and prototyping designs.
 
 To develop a full application, create a Qt Quick Application project instead.</source>
-            <translation>Skapar ett Qt Quick UI-projekt för förhandsvisning och prototypdesigner.
+            <translation>Skapar ett Qt Quick-gränssnittsprojekt för förhandsvisning och prototypning av utformningar.
 
-Om du vill utveckla ett fullständigt program, skapa ett Qt Quick Application-projekt istället.</translation>
+Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullständigt program.</translation>
         </message>
         <message>
             <location line="+297" />
             <source>Creates a C++ library. You can create:&lt;ul&gt;&lt;li&gt;a shared C++ library for use with &lt;tt&gt;QPluginLoader&lt;/tt&gt; and runtime (Plugins)&lt;/li&gt;&lt;li&gt;a shared or static C++ library for use with another project at linktime&lt;/li&gt;&lt;/ul&gt;</source>
-            <translation>Skapar ett C++-bibliotek. Du kan skapa:&lt;ul&gt;&lt;li&gt;ett delat C++-bibliotek för användning med &lt;tt&gt;QPluginLoader&lt;/tt&gt; och körtid (Insticksmoduler)&lt;/li&gt;&lt;li&gt;ett delat eller statiskt C++-bibliotek för användning med andra projekt vid länktid&lt;/li&gt;&lt;/ul&gt;</translation>
+            <translation>Skapar ett C++-bibliotek. Du kan skapa:&lt;ul&gt;&lt;li&gt;ett delat C++-bibliotek för användning med &lt;tt&gt;QPluginLoader&lt;/tt&gt; vid körning (tillägg)&lt;/li&gt;&lt;li&gt;ett delat eller statiskt C++-bibliotek för användning med ett annat projekt vid länktid&lt;/li&gt;&lt;/ul&gt;</translation>
         </message>
         <message>
             <location line="-148" />
