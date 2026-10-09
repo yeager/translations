@@ -22068,12 +22068,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+23" />
             <source>Change backend URL.</source>
-            <translation>Ändra URL för bakände.</translation>
+            <translation>Ändra serverdelens URL.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Set Compiler Explorer URL</source>
-            <translation>Ange webbadress för jämförelseutforskare</translation>
+            <translation>Ange URL till Compiler Explorer</translation>
         </message>
         <message>
             <location line="+1" />
@@ -22083,17 +22083,17 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+150" />
             <source>Compiler Explorer Editor</source>
-            <translation>Redigerare för compiler Explorer</translation>
+            <translation>Compiler Explorer-redigerare</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/compilerexplorer/compilerexplorerplugin.cpp" line="+44" />
             <source>Open Compiler Explorer</source>
-            <translation>Öppna jämförelseutforskare</translation>
+            <translation>Öppna Compiler Explorer</translation>
         </message>
         <message>
             <location line="-4" />
             <source>Compiler Explorer</source>
-            <translation>Kompileringsutforskare</translation>
+            <translation>Compiler Explorer</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/compilerexplorer/compilerexplorersettings.cpp" line="+73" />
@@ -22138,7 +22138,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+4" />
             <source>Demangle identifiers</source>
-            <translation>Avgränsningsidentifierare</translation>
+            <translation>Avmangla identifierare</translation>
         </message>
         <message>
             <location line="+64" />
@@ -22158,12 +22158,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+13" />
             <source>Compiler Explorer URL:</source>
-            <translation>Webbadress till compiler Explorer:</translation>
+            <translation>Compiler Explorer-URL:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>URL of the Compiler Explorer instance to use.</source>
-            <translation>Webbadress till Compiler Explorer- instansen att använda.</translation>
+            <translation>URL till den Compiler Explorer-instans som ska användas.</translation>
         </message>
     </context>
     <context>
