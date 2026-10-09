@@ -6739,7 +6739,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Auto kerning</source>
-        <translation>Auto-kerning</translation>
+        <translation>Automatisk kerning</translation>
     </message>
     <message>
         <source>Prefer shaping</source>
