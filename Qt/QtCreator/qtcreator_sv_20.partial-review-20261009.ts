@@ -64706,12 +64706,12 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location filename="../../../src/plugins/qmljstools/qmljstoolsplugin.cpp" line="+41" />
             <source>QML runtime executable:</source>
-            <translation>Körbar QML- körning:</translation>
+            <translation>Körbar fil för QML-körmiljön:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>The QML runtime executable to use on the device.</source>
-            <translation>Körbar QML- körtid att använda på enheten.</translation>
+            <translation>Den körbara fil för QML-körmiljön som ska användas på enheten.</translation>
         </message>
         <message>
             <location line="+24" />
@@ -64721,13 +64721,13 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="-13" />
             <source>Reset Code Model</source>
-            <translation>Nollställ kodmodell</translation>
+            <translation>Återställ kodmodell</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmljstools/qmljstoolssettings.cpp" line="+270" />
             <source>Global</source>
             <comment>Settings</comment>
-            <translation>Global</translation>
+            <translation>Globalt</translation>
         </message>
         <message>
             <location line="+9" />
@@ -64742,7 +64742,7 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         </message>
         <message>
             <source>Other</source>
-            <translation>Annan</translation>
+            <translation>Övrigt</translation>
         </message>
         <message>
             <source>&amp;Line length:</source>
@@ -64757,12 +64757,12 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+45" />
             <source>Failed to generate qmlformat.ini file.</source>
-            <translation>Misslyckades generera qmlformat.ini- fil.</translation>
+            <translation>Kunde inte skapa filen qmlformat.ini.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmljstools/qmlformatsettingswidget.cpp" line="+166" />
             <source>This option was found in the INI file but is not a standard qmlformat option.</source>
-            <translation>Alternativet hittades i INI- filen, men är inte ett standardalternativ för qmlformat.</translation>
+            <translation>Det här alternativet hittades i INI-filen, men är inte ett standardalternativ för qmlformat.</translation>
         </message>
         <message>
             <location line="+12" />
@@ -64777,27 +64777,27 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+261" />
             <source>Deploy INI File to Current Project</source>
-            <translation>Skicka INI- fil till aktuellt projekt</translation>
+            <translation>Distribuera INI-fil till aktuellt projekt</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Reset to Defaults</source>
-            <translation>Återställ till förval</translation>
+            <translation>Återställ till standardvärden</translation>
         </message>
         <message>
             <location line="+25" />
             <source>Global qmlformat Configuration</source>
-            <translation>Global inställning av qmlformat</translation>
+            <translation>Global qmlformat-konfiguration</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Open latest documentation</source>
-            <translation>Öppna senaste dokumentation</translation>
+            <translation>Öppna den senaste dokumentationen</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Global formatting options are ignored by projects having their own deployed .qmlformat.ini files.</source>
-            <translation>Globala formateringsalternativ ignoreras av projekt som har sina egna utplacerade .qmlformat.ini-filer.</translation>
+            <translation>Globala formateringsalternativ ignoreras av projekt som har egna distribuerade .qmlformat.ini-filer.</translation>
         </message>
         <message>
             <location line="+94" />
@@ -64818,28 +64818,28 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+14" />
             <source>QmlFormat not found. Using fallback output options.</source>
-            <translation>QmlFormat hittades inte. Använda reservutmatningsalternativ.</translation>
+            <translation>QmlFormat hittades inte. Använder reservalternativ för utdata.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Cannot run "%1" or some other error occurred. Using fallback output options.</source>
-            <translation>Kan inte köra "%1" eller något annat fel uppstod. Använda reservutmatningsalternativ.</translation>
+            <translation>Kan inte köra ”%1” eller så inträffade ett annat fel. Använder reservalternativ för utdata.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>"%1": %2. Using fallback output options.</source>
             <extracomment>%1=exceutable, %2=error</extracomment>
-            <translation>"%1": %2. Använda reservutmatningsalternativ.</translation>
+            <translation>”%1”: %2. Använder reservalternativ för utdata.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Invalid JSON response from qmlformat. Using fallback output options.</source>
-            <translation>Ogiltigt JSON- svar från qmlformat. Använda reservutmatningsalternativ.</translation>
+            <translation>Ogiltigt JSON-svar från qmlformat. Använder reservalternativ för utdata.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmljstools/qmljscodestylepreferenceswidget.cpp" line="+31" />
             <source>Built-in Formatter Settings</source>
-            <translation>Inbyggda formmatterinställningar</translation>
+            <translation>Inställningar för inbyggd formaterare</translation>
         </message>
         <message>
             <location line="+4" />
@@ -64859,7 +64859,7 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+4" />
             <source>Edit preview contents to see how the current settings are applied to custom code snippets. Changes in the preview do not affect the current settings.</source>
-            <translation>Redigera förhandsgranskningsinnehåll för att se hur de nuvarande inställningarna tillämpas på anpassade kodslippar. Ändringar i förhandsgranskningen påverkar inte de nuvarande inställningarna.</translation>
+            <translation>Redigera förhandsgranskningsinnehållet för att se hur de aktuella inställningarna tillämpas på anpassade kodavsnitt. Ändringar i förhandsgranskningen påverkar inte de aktuella inställningarna.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -64884,12 +64884,12 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+7" />
             <source>Custom Formatter Configuration</source>
-            <translation>Anpassad formgivare</translation>
+            <translation>Konfiguration av anpassad formaterare</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmljstools/qmljsformatterselectionwidget.cpp" line="+21" />
             <source>Built-In Formatter [Deprecated]</source>
-            <translation>Inbyggd formgivare [försvann]</translation>
+            <translation>Inbyggd formaterare [föråldrad]</translation>
         </message>
         <message>
             <location line="+1" />
@@ -64899,17 +64899,17 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+1" />
             <source>Custom Formatter [Must be qmlformat compatible]</source>
-            <translation>Anpassad Formerate [Måste vara kompatibel med qmlformat]</translation>
+            <translation>Anpassad formaterare [måste vara kompatibel med qmlformat]</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Formatter</source>
-            <translation>Formatter</translation>
+            <translation>Formaterare</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Formatter Selection</source>
-            <translation>Urval</translation>
+            <translation>Val av formaterare</translation>
         </message>
     </context>
     <context>
