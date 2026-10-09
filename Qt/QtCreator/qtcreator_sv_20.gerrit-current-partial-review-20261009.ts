@@ -9890,7 +9890,7 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Sets the size a model needs to be when rendered before the automatic level of detail meshes are used</source>
-        <translation>Anger hur stor modellen måste vara vid återgivning innan automatiska detaljnivåmesher används.</translation>
+        <translation>Anger hur stor modellen måste vara vid återgivning innan automatiska detaljnivåmesher används</translation>
     </message>
     <message>
         <source>Instancing</source>
