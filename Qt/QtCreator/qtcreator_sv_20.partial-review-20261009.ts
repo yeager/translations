@@ -3846,23 +3846,23 @@ Idn måste börja med en gemen bokstav.</translation>
         </message>
         <message>
             <source>Toggles if the component is layered.</source>
-            <translation>Växlar om komponenten är i lager.</translation>
+            <translation>Anger om komponenten har ett lager.</translation>
         </message>
         <message>
             <source>Sets the name of the effect's source texture property.</source>
-            <translation>Ställer in namnet för effektens källtexturegenskap.</translation>
+            <translation>Anger namnet på effektens källtexturegenskap.</translation>
         </message>
         <message>
             <source>Sets which effect is applied.</source>
-            <translation>Ställer in vilken effekt som tillämpas.</translation>
+            <translation>Anger vilken effekt som tillämpas.</translation>
         </message>
         <message>
             <source>Sets the internal OpenGL format for the texture.</source>
-            <translation>Ställer in internt OpenGL-format för texturen.</translation>
+            <translation>Anger det interna OpenGL-formatet för texturen.</translation>
         </message>
         <message>
             <source>Sets the requested pixel size of the layer's texture.</source>
-            <translation>Ställer in begärd bildpunktsstorlek för lagrets textur.</translation>
+            <translation>Anger den begärda pixelstorleken för lagrets textur.</translation>
         </message>
         <message>
             <source>W</source>
@@ -3882,7 +3882,7 @@ Idn måste börja med en gemen bokstav.</translation>
         </message>
         <message>
             <source>Height.</source>
-            <translation>Height.</translation>
+            <translation>Höjd.</translation>
         </message>
         <message>
             <source>Texture mirroring</source>
@@ -3890,21 +3890,21 @@ Idn måste börja med en gemen bokstav.</translation>
         </message>
         <message>
             <source>Sets how the generated OpenGL texture should be mirrored.</source>
-            <translation>Ställer in hur genererad OpenGL-textur ska speglas.</translation>
+            <translation>Anger hur den genererade OpenGL-texturen ska speglas.</translation>
         </message>
         <message>
             <source>Toggles if mipmaps are generated for the texture.</source>
-            <translation>Växlar om mipmaps genereras för texturen.</translation>
+            <translation>Anger om mipmaps genereras för texturen.</translation>
         </message>
         <message>
             <source>Toggles if the layer transforms smoothly.</source>
-            <translation>Växlar om lagret transformerar mjukt.</translation>
+            <translation>Anger om lagret transformeras mjukt.</translation>
         </message>
         <message>
             <source>Sets the rectangular area of the component that should
 be rendered into the texture.</source>
-            <translation>Ställer in den rektangulära ytan av komponenten
-som ska renderas till texturen.</translation>
+            <translation>Anger det rektangulära område av komponenten som
+ska återges i texturen.</translation>
         </message>
         <message>
             <source>Mipmap</source>
@@ -3927,7 +3927,7 @@ som ska renderas till texturen.</translation>
         </message>
         <message>
             <source>Alignment of a component within the cells it occupies.</source>
-            <translation>Justering för en komponent inom cellerna den ockuperar.</translation>
+            <translation>Justering av en komponent i de celler den upptar.</translation>
         </message>
         <message>
             <source>Width</source>
@@ -3955,19 +3955,19 @@ som ska renderas till texturen.</translation>
         </message>
         <message>
             <source>Minimum size</source>
-            <translation>Minimal storlek</translation>
+            <translation>Minimistorlek</translation>
         </message>
         <message>
             <source>Minimum size of a component in a layout.</source>
-            <translation>Minsta storlek för en komponent i en layout.</translation>
+            <translation>Minimistorlek för en komponent i en layout.</translation>
         </message>
         <message>
             <source>Maximum size</source>
-            <translation>Maximal storlek</translation>
+            <translation>Maximistorlek</translation>
         </message>
         <message>
             <source>Maximum size of a component in a layout.</source>
-            <translation>Maximal storlek för en komponent i en layout.</translation>
+            <translation>Maximistorlek för en komponent i en layout.</translation>
         </message>
     </context>
     <context>
