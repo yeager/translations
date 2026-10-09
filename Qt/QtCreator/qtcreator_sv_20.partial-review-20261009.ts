@@ -10005,7 +10005,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+2" />
             <source>The executable to launch the ACP server process.</source>
-            <translation>Det körbara för att starta AVS-serverprocessen.</translation>
+            <translation>Den körbara filen som startar ACP-serverprocessen.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -10015,17 +10015,17 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+3" />
             <source>The arguments to launch the ACP server process.</source>
-            <translation>Argumenten för att inleda AVS-serverprocessen.</translation>
+            <translation>Argumenten för att starta ACP-serverprocessen.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Environment changes:</source>
-            <translation>Miljöförändringar:</translation>
+            <translation>Miljöändringar:</translation>
         </message>
         <message>
             <location line="+11" />
             <source>The command that will spawn the ACP server.</source>
-            <translation>Kommandot som kommer att ge upphov till AVS- servern.</translation>
+            <translation>Kommandot som startar ACP-servern.</translation>
         </message>
         <message>
             <location line="+24" />
@@ -10045,12 +10045,12 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+206" />
             <source>ACP Servers</source>
-            <translation>AVS-servrar</translation>
+            <translation>ACP-servrar</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/acpclient/acpstdiotransport.cpp" line="+59" />
             <source>No command configured for ACP server.</source>
-            <translation>Inget kommando konfigurerat för AVS- server.</translation>
+            <translation>Inget kommando är konfigurerat för ACP-servern.</translation>
         </message>
         <message>
             <location line="+12" />
@@ -10070,17 +10070,17 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+4" />
             <source>Cannot send data: process "%1" is not running (exit code %2).</source>
-            <translation>Kan inte skicka data: process "%1" kör inte (avgångskod %2).</translation>
+            <translation>Kan inte skicka data: processen ”%1” körs inte (slutkod %2).</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/acpclient/acptransport.cpp" line="+46" />
             <source>JSON parse error: %1</source>
-            <translation>Fel vid JSON- tolkning: %1</translation>
+            <translation>JSON-tolkningsfel: %1</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Expected JSON object.</source>
-            <translation>Förväntade JSON objekt.</translation>
+            <translation>Ett JSON-objekt förväntades.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/acpclient/chatinputedit.cpp" line="+34" />
@@ -10090,12 +10090,12 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location filename="../../../src/plugins/acpclient/chatpanel.cpp" line="-240" />
             <source>Remove Context</source>
-            <translation>Ta bort sammanhang</translation>
+            <translation>Ta bort kontext</translation>
         </message>
         <message>
             <location line="+43" />
             <source>Configuration Options</source>
-            <translation>Inställningsalternativ</translation>
+            <translation>Konfigurationsalternativ</translation>
         </message>
         <message>
             <location line="+40" />
@@ -10105,7 +10105,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+46" />
             <source>Add Context</source>
-            <translation>Lägg till sammanhang</translation>
+            <translation>Lägg till kontext</translation>
         </message>
         <message>
             <location line="+7" />
@@ -10116,7 +10116,7 @@ Kontrollera utdatapanelen för mer information.</translation>
             <location line="+3" />
             <location line="+11" />
             <source>Add Context File</source>
-            <translation>Lägg till sammanhangsfil</translation>
+            <translation>Lägg till kontextfil</translation>
         </message>
         <message>
             <location line="-3" />
@@ -10126,7 +10126,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+14" />
             <source>Current Editor</source>
-            <translation>Nuvarande editor</translation>
+            <translation>Aktuell redigerare</translation>
         </message>
         <message>
             <location line="+14" />
@@ -10142,7 +10142,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location filename="../../../src/plugins/acpclient/sessionpickerwidget.cpp" line="+36" />
             <source>just now</source>
-            <translation>just nu</translation>
+            <translation>nyss</translation>
         </message>
         <message numerus="yes">
             <location line="+2" />
@@ -10201,12 +10201,12 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+2" />
             <source>(No Working Directory)</source>
-            <translation>(Inget arbetsregister)</translation>
+            <translation>(Ingen arbetskatalog)</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/acpclient/toolcalldetailwidget.cpp" line="+380" />
             <source>Raw Input</source>
-            <translation>Rå insats</translation>
+            <translation>Råindata</translation>
         </message>
     </context>
     <context>
