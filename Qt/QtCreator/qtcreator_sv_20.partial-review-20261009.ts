@@ -27722,17 +27722,17 @@ dem från flera platser, till exempel från kitet och från projektet.</translat
         <message>
             <location line="+2" />
             <source>Enable Qt Documentation MCP Server</source>
-            <translation>Aktivera Qt- dokumentation MCP- server</translation>
+            <translation>Aktivera MCP-servern för Qt-dokumentation</translation>
         </message>
         <message>
             <location line="+2" />
             <source>When enabled, the Qt documentation MCP server from https://qt-docs-mcp.qt.io/mcp will be used.</source>
-            <translation>När aktiverad, kommer Qt- dokumentations- MCP- servern från https://qt-docs-mcp.qt.io/mcp att användas.</translation>
+            <translation>När den är aktiverad används MCP-servern för Qt-dokumentation från https://qt-docs-mcp.qt.io/mcp.</translation>
         </message>
         <message>
             <location line="+72" />
             <source>MCP Servers</source>
-            <translation>MCP- servrar</translation>
+            <translation>MCP-servrar</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/perspective.cpp" line="-651" />
