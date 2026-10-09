@@ -16589,22 +16589,22 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+5" />
             <source>Annotate Current File</source>
-            <translation>Anteckna aktuell fil</translation>
+            <translation>Annotera aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Annotate "%1"</source>
-            <translation>Anteckna "%1"</translation>
+            <translation>Annotera ”%1”</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Diff Current File</source>
-            <translation>Diff aktuell fil</translation>
+            <translation>Jämför aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Diff "%1"</source>
-            <translation>Diff "%1"</translation>
+            <translation>Jämför ”%1”</translation>
         </message>
         <message>
             <location line="+4" />
@@ -16634,27 +16634,27 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="-116" />
             <source>Log Current File</source>
-            <translation>Log aktuell fil</translation>
+            <translation>Logg över aktuell fil</translation>
         </message>
         <message>
             <location line="-130" />
             <source>Bazaar File Log Editor</source>
-            <translation>DatabasfilloggeditorName</translation>
+            <translation>Bazaar-filloggredigerare</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Bazaar Annotation Editor</source>
-            <translation>Redigerare för Bazaar- kommentar</translation>
+            <translation>Bazaar-annoteringsredigerare</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Bazaar Diff Editor</source>
-            <translation>Redigerare för jämförelse av basar</translation>
+            <translation>Bazaar-jämförelseredigerare</translation>
         </message>
         <message>
             <location line="+114" />
             <source>Log "%1"</source>
-            <translation>Logga "%1"</translation>
+            <translation>Logg över ”%1”</translation>
         </message>
         <message>
             <location line="+4" />
@@ -16664,12 +16664,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+6" />
             <source>Status Current File</source>
-            <translation>Status aktuell fil</translation>
+            <translation>Status för aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Status "%1"</source>
-            <translation>Status "%1"</translation>
+            <translation>Status för ”%1”</translation>
         </message>
         <message>
             <location line="+4" />
@@ -16704,7 +16704,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+0" />
             <source>Revert "%1"...</source>
-            <translation>Återställ %1…</translation>
+            <translation>Återställ ”%1”…</translation>
         </message>
         <message>
             <location line="+13" />
@@ -16729,12 +16729,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+12" />
             <source>Pull...</source>
-            <translation>Dra…</translation>
+            <translation>Hämta…</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Push...</source>
-            <translation>Tryck…</translation>
+            <translation>Skicka…</translation>
         </message>
         <message>
             <location line="+8" />
@@ -16744,7 +16744,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+8" />
             <source>Commit...</source>
-            <translation>- Jag är ledsen.</translation>
+            <translation>Checka in…</translation>
         </message>
         <message>
             <location line="+3" />
@@ -16754,7 +16754,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+6" />
             <source>Uncommit...</source>
-            <translation>Ta bort…</translation>
+            <translation>Ångra incheckning…</translation>
         </message>
         <message>
             <location line="+8" />
@@ -16764,7 +16764,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+17" />
             <source>Bazaar Commit Log Editor</source>
-            <translation>Basar Kommit loggeditor</translation>
+            <translation>Bazaar-incheckningsloggredigerare</translation>
         </message>
         <message>
             <location line="+136" />
@@ -16774,27 +16774,27 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+32" />
             <source>There are no changes to commit.</source>
-            <translation>Det finns inga förändringar att göra.</translation>
+            <translation>Det finns inga ändringar att checka in.</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Unable to create an editor for the commit.</source>
-            <translation>Kunde inte skapa en editor för att begå.</translation>
+            <translation>Kunde inte skapa en redigerare för incheckningen.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Unable to create a commit editor.</source>
-            <translation>Kunde inte skapa en arkiveditor.</translation>
+            <translation>Kunde inte skapa en incheckningsredigerare.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Commit changes for "%1".</source>
-            <translation>Komma med ändringar för "%1".</translation>
+            <translation>Checka in ändringar för ”%1”.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/bazaar/commiteditor.cpp" line="+21" />
             <source>Commit Editor</source>
-            <translation>Kommit med redaktör</translation>
+            <translation>Incheckningsredigerare</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/bazaar/bazaarsettings.cpp" line="-68" />
