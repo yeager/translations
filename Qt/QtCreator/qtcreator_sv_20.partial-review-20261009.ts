@@ -1990,11 +1990,11 @@ Detta går inte att ångra.</translation>
         <name>ContentLibraryMaterial</name>
         <message>
             <source>Material is imported to project</source>
-            <translation>Material är importerade till projekt</translation>
+            <translation>Materialet är importerat till projektet</translation>
         </message>
         <message>
             <source>Add an instance to project</source>
-            <translation>Lägg till en instans till projektet</translation>
+            <translation>Lägg till en instans i projektet</translation>
         </message>
         <message>
             <source>Click to download material</source>
@@ -2017,15 +2017,15 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>&lt;b&gt;Content Library&lt;/b&gt; is disabled inside a non-visual component.</source>
-            <translation>&lt;b&gt;Innehållsbibliotek&lt;/b&gt; är inaktiverad för en icke-visuell komponent.</translation>
+            <translation>&lt;b&gt;Innehållsbibliotek&lt;/b&gt; är inaktiverat i en icke-visuell komponent.</translation>
         </message>
         <message>
             <source>No materials available. Make sure you have an internet connection.</source>
-            <translation>Inga material tillgängliga. Försäkra dig om att du har en internetanslutning.</translation>
+            <translation>Inga material är tillgängliga. Kontrollera att du har en internetanslutning.</translation>
         </message>
         <message>
             <source>No match found.</source>
-            <translation>Ingen matchning hittades.</translation>
+            <translation>Ingen träff hittades.</translation>
         </message>
     </context>
     <context>
@@ -2039,15 +2039,15 @@ Detta går inte att ångra.</translation>
         <name>ContentLibraryTexture</name>
         <message>
             <source>Texture was already downloaded.</source>
-            <translation>Texturen har redan hämtad.</translation>
+            <translation>Texturen har redan hämtats.</translation>
         </message>
         <message>
             <source>Network/Texture unavailable or broken Link.</source>
-            <translation>Nätverk/Textur inte tillgänglig eller trasig länk.</translation>
+            <translation>Nätverket eller texturen är inte tillgänglig, eller så är länken trasig.</translation>
         </message>
         <message>
             <source>Could not download texture.</source>
-            <translation>Kunde inte hämta textur.</translation>
+            <translation>Det gick inte att hämta texturen.</translation>
         </message>
         <message>
             <source>Click to download the texture.</source>
@@ -2097,18 +2097,18 @@ Detta går inte att ångra.</translation>
         <name>ContentLibraryTexturesView</name>
         <message>
             <source>No textures available. Make sure you have an internet connection.</source>
-            <translation>Inga texturer tillgängliga. Försäkra dig om att du har en internetanslutning.</translation>
+            <translation>Inga texturer är tillgängliga. Kontrollera att du har en internetanslutning.</translation>
         </message>
         <message>
             <source>No match found.</source>
-            <translation>Ingen matchning hittades.</translation>
+            <translation>Ingen träff hittades.</translation>
         </message>
     </context>
     <context>
         <name>ContentLibraryUserView</name>
         <message>
             <source>No match found.</source>
-            <translation>Ingen matchning hittades.</translation>
+            <translation>Ingen träff hittades.</translation>
         </message>
         <message>
             <source>&lt;b&gt;Content Library&lt;/b&gt; is not supported in Qt5 projects.</source>
@@ -2120,7 +2120,7 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>&lt;b&gt;Content Library&lt;/b&gt; is disabled inside a non-visual component.</source>
-            <translation>&lt;b&gt;Innehållsbibliotek&lt;/b&gt; är inaktiverad för en icke-visuell komponent.</translation>
+            <translation>&lt;b&gt;Innehållsbibliotek&lt;/b&gt; är inaktiverat i en icke-visuell komponent.</translation>
         </message>
         <message>
             <source>There are no user assets in the &lt;b&gt;Content Library&lt;/b&gt;.</source>
