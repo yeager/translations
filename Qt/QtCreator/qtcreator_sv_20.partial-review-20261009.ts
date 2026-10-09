@@ -44451,12 +44451,12 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location filename="../../../src/plugins/glsleditor/glsleditor.cpp" line="+428" />
             <source>Vulkan support is enabled.</source>
-            <translation>Vulkan- support är aktiverad.</translation>
+            <translation>Vulkan-stöd är aktiverat.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Vulkan support is disabled.</source>
-            <translation>Vulkan- supporten är inaktiverad.</translation>
+            <translation>Vulkan-stöd är inaktiverat.</translation>
         </message>
         <message>
             <location line="+240" />
