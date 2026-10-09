@@ -34633,7 +34633,7 @@ Vill du försöka igen?</translation>
         <message>
             <location line="-6" />
             <source>Debugger Settings</source>
-            <translation>Avlusningsinställningar</translation>
+            <translation>Felsökarinställningar</translation>
         </message>
         <message>
             <location line="+31" />
@@ -34651,7 +34651,7 @@ Vill du försöka igen?</translation>
             <location line="+3" />
             <source>Try to determine need for %1 debugger.</source>
             <extracomment>%1 is C++, QML, or Python</extracomment>
-            <translation>Försök att bestämma behov av %1-felsökare.</translation>
+            <translation>Försök att avgöra om en %1-felsökare behövs.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -34692,7 +34692,7 @@ Vill du försöka igen?</translation>
             <location filename="../../../src/plugins/debugger/console/console.cpp" line="+87" />
             <location line="+1" />
             <source>Show debug, log, and info messages.</source>
-            <translation>Visa meddelanden för felsök, logg och info.</translation>
+            <translation>Visa felsöknings-, logg- och informationsmeddelanden.</translation>
         </message>
         <message>
             <location line="+11" />
@@ -34709,12 +34709,12 @@ Vill du försöka igen?</translation>
         <message>
             <location line="-71" />
             <source>QML Debugger Console</source>
-            <translation>QML-felsökningskonsoll</translation>
+            <translation>QML-felsökarkonsol</translation>
         </message>
         <message>
             <location line="+207" />
             <source>Can only evaluate during a debug session.</source>
-            <translation>Kan endast evaluera under en felsökningssession.</translation>
+            <translation>Kan endast utvärdera under en felsökningssession.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/breakhandler.cpp" line="-758" />
@@ -34726,7 +34726,7 @@ Vill du försöka igen?</translation>
             <location line="-1010" />
             <location line="+1026" />
             <source>Delete Breakpoints of "%1"</source>
-            <translation>Ta bort brytpunkt för "%1"</translation>
+            <translation>Ta bort brytpunkter för ”%1”</translation>
         </message>
         <message>
             <location line="-1025" />
@@ -34779,12 +34779,12 @@ Vill du försöka igen?</translation>
         <message>
             <location line="-704" />
             <source>pending</source>
-            <translation>väntar</translation>
+            <translation>väntande</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Hit Count:</source>
-            <translation>Tryckräkning:</translation>
+            <translation>Träffantal:</translation>
         </message>
         <message>
             <location line="+9" />
@@ -34794,12 +34794,12 @@ Vill du försöka igen?</translation>
         <message>
             <location line="+422" />
             <source>Unclaimed Breakpoint</source>
-            <translation>Oankrävd brytpunkt</translation>
+            <translation>Ohanterad brytpunkt</translation>
         </message>
         <message>
             <location line="+48" />
             <source>Debuggee</source>
-            <translation>Felsökning</translation>
+            <translation>Felsökt program</translation>
         </message>
         <message>
             <location line="+313" />
@@ -34809,7 +34809,7 @@ Vill du försöka igen?</translation>
         <message>
             <location line="+1" />
             <source>Are you sure you want to remove all breakpoints from all files in the current session?</source>
-            <translation>Är du säker på att du vill ta bort alla brytpunkter från alla filer i aktuella sessionen?</translation>
+            <translation>Är du säker på att du vill ta bort alla brytpunkter från alla filer i den aktuella sessionen?</translation>
         </message>
         <message>
             <location line="-173" />
@@ -34835,37 +34835,37 @@ Vill du försöka igen?</translation>
             <location line="-22" />
             <source>Normally, the running server is identified by the IP of the device in the kit and the server port selected above.
 You can choose another communication channel here, such as a serial line or custom ip:port.</source>
-            <translation>Normalt identifieras den löpande servern av enhetens IP-adress i satsen och serverporten som valts
-ovan. Du kan välja en annan kommunikationskanal här, som en serielinje eller anpassad ip:port.</translation>
+            <translation>Normalt identifieras den körande servern med enhetens IP-adress i kitet och den serverport som valts ovan.
+Här kan du välja en annan kommunikationskanal, till exempel en seriell anslutning eller en anpassad IP:port.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Override server channel:</source>
-            <translation>Överskrid serverkanal:</translation>
+            <translation>Åsidosätt serverkanal:</translation>
         </message>
         <message>
             <location line="+4" />
             <location filename="../../../src/plugins/debugger/remotedebuggerconfiguration.cpp" line="+18" />
             <source>For example, %1</source>
             <extracomment>"For example, /dev/ttyS0, COM1, 127.0.0.1:1234"</extracomment>
-            <translation>Till exempel, %1</translation>
+            <translation>Exempel: %1</translation>
         </message>
         <message>
             <location line="+26" />
             <location filename="../../../src/plugins/debugger/loadcoredialog.cpp" line="-15" />
             <source>Select SysRoot Directory</source>
-            <translation>Välj SysRoot- katalog</translation>
+            <translation>Välj SysRoot-katalog</translation>
         </message>
         <message>
             <location line="+1" />
             <source>This option can be used to override the kit's SysRoot setting.</source>
-            <translation>Det här alternativet kan användas för att åsidosätta inställningen SysRoot i satsen.</translation>
+            <translation>Det här alternativet kan användas för att åsidosätta kitets SysRoot-inställning.</translation>
         </message>
         <message>
             <location line="+2" />
             <location filename="../../../src/plugins/debugger/loadcoredialog.cpp" line="+19" />
             <source>Override S&amp;ysRoot:</source>
-            <translation>Överskrid S&amp;ysRoot:</translation>
+            <translation>Åsidosätt S&amp;ysRoot:</translation>
         </message>
         <message>
             <location line="+5" />
@@ -34875,7 +34875,7 @@ ovan. Du kan välja en annan kommunikationskanal här, som en serielinje eller a
         <message>
             <location line="+3" />
             <source>&amp;Init commands:</source>
-            <translation>&amp;Init- kommandon:</translation>
+            <translation>&amp;Initieringskommandon:</translation>
         </message>
         <message>
             <location line="+5" />
@@ -34885,7 +34885,7 @@ ovan. Du kan välja en annan kommunikationskanal här, som en serielinje eller a
         <message>
             <location line="+3" />
             <source>&amp;Reset commands:</source>
-            <translation>&amp;Reset- kommandon:</translation>
+            <translation>Återställnings&amp;kommandon:</translation>
         </message>
         <message>
             <location line="+5" />
