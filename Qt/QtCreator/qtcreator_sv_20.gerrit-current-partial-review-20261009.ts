@@ -29709,7 +29709,7 @@ Flaggor: %3</translation>
     </message>
     <message>
         <source>Normally arguments get passed by const reference. If the Type is one of the following ones, the argument gets passed by value. Namespaces and template arguments are removed. The real Type must contain the given Type. For example, &quot;int&quot; matches &quot;int32_t&quot; but not &quot;vector&lt;int&gt;&quot;. &quot;vector&quot; matches &quot;std::pmr::vector&lt;int&gt;&quot; but not &quot;std::optional&lt;vector&lt;int&gt;&gt;&quot;</source>
-        <translation>Normalt skickas argument som const-referens. Om typen är en av följande skickas argumentet efter värde. Namnrymder och mallargument tas bort. Den verkliga typen måste innehålla den angivna typen. Exempelvis matchar ”int” ”int32_t” men inte ”vector&lt;int&gt;”. ”vector” matchar ”std::pmr::vector&lt;int&gt;” men inte ”std::optional&lt;vector&lt;int&gt;&gt;”.</translation>
+        <translation>Normalt skickas argument som const-referens. Om typen är en av följande skickas argumentet efter värde. Namnrymder och mallargument tas bort. Den verkliga typen måste innehålla den angivna typen. Exempelvis matchar ”int” ”int32_t” men inte ”vector&lt;int&gt;”. ”vector” matchar ”std::pmr::vector&lt;int&gt;” men inte ”std::optional&lt;vector&lt;int&gt;&gt;”</translation>
     </message>
     <message>
         <source>Return non-value types by const reference</source>
@@ -30260,7 +30260,7 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla huvudfil/källfi
     </message>
     <message>
         <source>Target file was changed, could not apply changes</source>
-        <translation>Målfilen ändrades. Det gick inte att tillämpa ändringarna.</translation>
+        <translation>Målfilen ändrades. Det gick inte att tillämpa ändringarna</translation>
     </message>
     <message>
         <source>Apply changes to definition</source>
@@ -37436,7 +37436,7 @@ Det kan hjälpa att bygga om projektet.</translation>
     </message>
     <message>
         <source>No extension found!</source>
-        <translation>Inga tillägg hittades.</translation>
+        <translation>Inga tillägg hittades!</translation>
     </message>
     <message>
         <source>Manage Extensions</source>
@@ -38933,7 +38933,7 @@ Orsak: %3</translation>
     </message>
     <message>
         <source>For example: &quot;https://[user[:pass]@]host[:port]/[path]&quot;.</source>
-        <translation>Till exempel: &quot;https://[användare[:lösenord]@]värd[:port]/[sökväg]&quot;.</translation>
+        <translation>Till exempel: &quot;https://[user[:pass]@]host[:port]/[path]&quot;.</translation>
     </message>
     <message>
         <source>Remember specified location as default</source>
@@ -43586,7 +43586,7 @@ Utgångsdatum: %3</translation>
     </message>
     <message>
         <source>Simulator device is not available. (%1)</source>
-        <translation>Simulatorenheten är inte tillgänglig (%1).</translation>
+        <translation>Simulatorenheten är inte tillgänglig (%1)</translation>
     </message>
     <message>
         <source>Simulator start was canceled.</source>
@@ -45155,11 +45155,11 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
     </message>
     <message>
         <source>Parsing error: the type entry in JSON kit files must be a string, defaulting to &quot;path&quot;</source>
-        <translation>Tolkningsfel: posten type i JSON-kitfiler måste vara en sträng. Använder ”path” som standard.</translation>
+        <translation>Tolkningsfel: posten type i JSON-kitfiler måste vara en sträng. Använder ”path” som standard</translation>
     </message>
     <message>
         <source>Parsing error: the type entry &quot;%2&quot; in JSON kit files is not supported, defaulting to &quot;path&quot;</source>
-        <translation>Tolkningsfel: posten type ”%2” i JSON-kitfiler stöds inte. Använder ”path” som standard.</translation>
+        <translation>Tolkningsfel: posten type ”%2” i JSON-kitfiler stöds inte. Använder ”path” som standard</translation>
     </message>
     <message>
         <source>Qt for MCUs SDK version %1 detected, only supported by Qt Creator version %2. This version of Qt Creator requires Qt for MCUs %3 or greater.</source>
