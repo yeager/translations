@@ -80799,7 +80799,7 @@ köra %1: %2</translation>
         </message>
         <message>
             <source>Explore more</source>
-            <translation>UTFORSKA MER</translation>
+            <translation>Utforska mer</translation>
         </message>
         <message>
             <source>Get Started</source>
@@ -80846,12 +80846,12 @@ köra %1: %2</translation>
         </message>
         <message>
             <source>Would you like to take a quick UI tour? This tour highlights important user interface elements and shows how they are used. To take the tour later, select Help &gt; UI Tour.</source>
-            <translation>Vill du ta en snabb rundtur i gränssnittet? Denna guide visar viktiga element i användargränssnittet och beskriver hur de används. För att ta rundturen senare, välj Hjälp &gt; Gränssnittsguide.</translation>
+            <translation>Vill du göra en snabb rundtur i gränssnittet? Den visar viktiga gränssnittselement och hur de används. Gör rundturen senare genom att välja Hjälp &gt; Gränssnittsguide.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/welcome/introductionwidget.cpp" line="+435" />
             <source>Take UI Tour</source>
-            <translation>Besök gränssnittsguide</translation>
+            <translation>Gör en rundtur i gränssnittet</translation>
         </message>
         <message>
             <location line="-322" />
@@ -80861,12 +80861,12 @@ köra %1: %2</translation>
         <message>
             <location line="+1" />
             <source>Select different modes depending on the task at hand.</source>
-            <translation>Välj olika lägen beroende på vad du vill skapa.</translation>
+            <translation>Välj läge utifrån uppgiften.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>&lt;p style="margin-top: 30px"&gt;&lt;table&gt;&lt;tr&gt;&lt;td style="padding-right: 20px"&gt;Welcome:&lt;/td&gt;&lt;td&gt;Open examples, tutorials, and recent sessions and projects.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Edit:&lt;/td&gt;&lt;td&gt;Work with code and navigate your project.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Design:&lt;/td&gt;&lt;td&gt;Visually edit Widget-based user interfaces, state charts and UML models.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Debug:&lt;/td&gt;&lt;td&gt;Analyze your application with a debugger or other analyzers.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Projects:&lt;/td&gt;&lt;td&gt;Manage project settings.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Help:&lt;/td&gt;&lt;td&gt;Browse the help database.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;</source>
-            <translation>&lt;p style="margin-top: 30px"&gt;&lt;table&gt;&lt;tr&gt;&lt;td style="padding-right: 20px"&gt;Välkommen:&lt;/td&gt;&lt;td&gt;Öppna exempel, handledningar och tidigare sessioner och projekt.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Redigera:&lt;/td&gt;&lt;td&gt;Arbeta med kod och navigera i ditt projekt.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Design:&lt;/td&gt;&lt;td&gt;Visuell redigering av widgetbaserade användargränssnitt, tillståndsdiagram och UML-modeller.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Felsök:&lt;/td&gt;&lt;td&gt;Analysera ditt program med en felsökare eller andra analysverktyg.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Projekt:&lt;/td&gt;&lt;td&gt;Hantera projektinställningar.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Hjälp:&lt;/td&gt;&lt;td&gt;Bläddra i hjälpdatabasen.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;</translation>
+            <translation>&lt;p style="margin-top: 30px"&gt;&lt;table&gt;&lt;tr&gt;&lt;td style="padding-right: 20px"&gt;Välkommen:&lt;/td&gt;&lt;td&gt;Öppna exempel, handledningar samt senaste sessioner och projekt.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Redigera:&lt;/td&gt;&lt;td&gt;Arbeta med kod och navigera i projektet.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Design:&lt;/td&gt;&lt;td&gt;Redigera widgetbaserade användargränssnitt, tillståndsdiagram och UML-modeller visuellt.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Felsök:&lt;/td&gt;&lt;td&gt;Analysera programmet med en felsökare eller andra analysverktyg.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Projekt:&lt;/td&gt;&lt;td&gt;Hantera projektinställningar.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Hjälp:&lt;/td&gt;&lt;td&gt;Bläddra i hjälpdatabasen.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+11" />
@@ -80886,7 +80886,7 @@ köra %1: %2</translation>
         <message>
             <location line="+1" />
             <source>Run the active project. By default this builds the project first.</source>
-            <translation>Kör det aktiva projektet. Som standard så byggs projektet först.</translation>
+            <translation>Kör det aktiva projektet. Som standard byggs projektet först.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -80931,7 +80931,7 @@ köra %1: %2</translation>
         <message>
             <location line="+1" />
             <source>Find compile and application output here, as well as a list of configuration and build issues, and the panel for global searches.</source>
-            <translation>Hitta utdata från kompilatorer och program här, såväl som en lista över konfiguration- och byggproblem samt panelen för globala sökningar.</translation>
+            <translation>Här finns utdata från kompilatorer och program, en lista över konfigurations- och byggproblem samt panelen för globala sökningar.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -80941,7 +80941,7 @@ köra %1: %2</translation>
         <message>
             <location line="+1" />
             <source>Progress information about running tasks is shown here.</source>
-            <translation>Förloppsinformation om körning av åtgärder visas här.</translation>
+            <translation>Förloppsinformation om pågående uppgifter visas här.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -80951,7 +80951,7 @@ köra %1: %2</translation>
         <message>
             <location line="+1" />
             <source>Pressing the Escape key brings you back to the editor. Press it multiple times to also hide context help and output, giving the editor more space.</source>
-            <translation>Tryck på Escape-tangenten för att återgå till redigeraren. Tryck på den flera gånger döljer även kontexthjälp och utdata, vilket ger redigeraren mer utrymme.</translation>
+            <translation>Tryck på Esc-tangenten för att återgå till redigeraren. Om du trycker på den flera gånger döljs även kontexthjälp och utdata, vilket ger redigeraren mer utrymme.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -80961,7 +80961,7 @@ köra %1: %2</translation>
         <message>
             <location line="+1" />
             <source>You have now completed the UI tour. To learn more about the highlighted controls, see &lt;a style="color: #41CD52" href="qthelp://org.qt-project.qtcreator/doc/creator-quick-tour.html"&gt;User Interface&lt;/a&gt;.</source>
-            <translation>Du har nu genomfört rundturen för gränssnittet. För att lära dig mer om nämnda kontroller, se &lt;a style="color: #41CD52" href="qthelp://org.qt-project.qtcreator/doc/creator-quick-tour.html"&gt;Användargränssnitt&lt;/a&gt;.</translation>
+            <translation>Du har nu slutfört rundturen i gränssnittet. Mer information om de markerade gränssnittselementen finns i &lt;a style="color: #41CD52" href="qthelp://org.qt-project.qtcreator/doc/creator-quick-tour.html"&gt;Användargränssnitt&lt;/a&gt;.</translation>
         </message>
         <message>
             <location line="+222" />
@@ -80971,12 +80971,12 @@ köra %1: %2</translation>
         <message>
             <location line="+41" />
             <source>See where the important UI elements are and how they are used. To take the tour later, select Help &gt; UI Tour.</source>
-            <translation>Se var viktiga element i användargränssnittet finns och hur de används. För att ta turen senare, välj Hjälp &gt; UI Tour.</translation>
+            <translation>Se var viktiga gränssnittselement finns och hur de används. Gör rundturen senare genom att välja Hjälp &gt; Gränssnittsguide.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Take a UI Tour?</source>
-            <translation>- Ta en UI-turné?</translation>
+            <translation>Göra en rundtur i gränssnittet?</translation>
         </message>
     </context>
     <context>
