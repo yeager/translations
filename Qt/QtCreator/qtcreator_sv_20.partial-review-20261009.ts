@@ -70564,31 +70564,31 @@ Vägrar köra testfallet ”%2”.</translation>
             <location line="+20" />
             <location line="+28" />
             <source>Test Suite Path Not Accessible</source>
-            <translation>Sökväg till testsviten är inte tillgänglig</translation>
+            <translation>Det går inte att komma åt testsvitens sökväg</translation>
         </message>
         <message>
             <location line="-30" />
             <source>The path "%1" does not exist or is not accessible.
 Refusing to run test cases.</source>
-            <translation>Sökvägen "%1" finns inte eller är inte
-tillgänglig. Vägrar att köra testfall.</translation>
+            <translation>Sökvägen ”%1” finns inte eller är inte tillgänglig.
+Vägrar köra testfall.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>No Test Cases Defined</source>
-            <translation>Inga testfall definierade</translation>
+            <translation>Inga testfall har definierats</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Test suite "%1" does not contain any test cases.</source>
-            <translation>Testsviten "%1" innehåller inga testfall.</translation>
+            <translation>Testsviten ”%1” innehåller inga testfall.</translation>
         </message>
         <message>
             <location line="+17" />
             <source>The path "%1" does not exist or is not accessible.
 Refusing to record test case "%2".</source>
-            <translation>Sökvägen "%1" finns inte eller är inte
-tillgänglig. Vägrar att registrera testfall "%2".</translation>
+            <translation>Sökvägen ”%1” finns inte eller är inte tillgänglig.
+Vägrar spela in testfallet ”%2”.</translation>
         </message>
         <message>
             <location line="+46" />
@@ -70598,7 +70598,7 @@ tillgänglig. Vägrar att registrera testfall "%2".</translation>
         <message>
             <location line="+64" />
             <source>Failed to open objects.map file at "%1".</source>
-            <translation>Misslyckades med att öppna objects.map-filen i "%1".</translation>
+            <translation>Det gick inte att öppna filen objects.map i ”%1”.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/squish/squishmessages.cpp" line="+19" />
@@ -70608,7 +70608,7 @@ tillgänglig. Vägrar att registrera testfall "%2".</translation>
         <message>
             <location line="+5" />
             <source>Squish Tools in unexpected state (%1).</source>
-            <translation>Squish Tools i oväntat tillstånd (%1).</translation>
+            <translation>Squish-verktygen är i ett oväntat tillstånd (%1).</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/squish/squishnavigationwidget.cpp" line="-283" />
@@ -70664,7 +70664,7 @@ tillgänglig. Vägrar att registrera testfall "%2".</translation>
         <message>
             <location line="-171" />
             <source>Open Squish Suites...</source>
-            <translation>Öppna Squish Suites…</translation>
+            <translation>Öppna Squish-testsviter…</translation>
         </message>
         <message>
             <location line="+2" />
@@ -70705,7 +70705,7 @@ tillgänglig. Vägrar att registrera testfall "%2".</translation>
         <message>
             <location line="+40" />
             <source>Do you really want to delete "%1" permanently?</source>
-            <translation>Vill du verkligen ta bort "%1" permanent?</translation>
+            <translation>Vill du verkligen ta bort ”%1” permanent?</translation>
         </message>
         <message>
             <location line="+3" />
@@ -70720,12 +70720,12 @@ tillgänglig. Vägrar att registrera testfall "%2".</translation>
         <message>
             <location line="+11" />
             <source>Failed to remove "%1".</source>
-            <translation>Misslyckades med att ta bort "%1".</translation>
+            <translation>Det gick inte att ta bort ”%1”.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Remove "%1" from the list of shared folders?</source>
-            <translation>Ta bort "%1" från listan med delade mappar?</translation>
+            <translation>Ta bort ”%1” från listan över delade mappar?</translation>
         </message>
         <message>
             <location line="+13" />
@@ -70741,7 +70741,7 @@ tillgänglig. Vägrar att registrera testfall "%2".</translation>
         <message>
             <location line="+1" />
             <source>Do you want to record over the test case "%1"? The existing content will be overwritten by the recorded script.</source>
-            <translation>Vill du spela in över testfallet "%1"? Det befintliga innehållet skrivs över av det inspelade skriptet.</translation>
+            <translation>Vill du spela in över testfallet ”%1”? Det befintliga innehållet skrivs över av det inspelade skriptet.</translation>
         </message>
         <message>
             <location line="+13" />
@@ -70758,7 +70758,7 @@ ett nytt testfall. (Redigera &gt; Inställningar &gt; Squish)</translation>
         <message>
             <location line="+1" />
             <source>Runner/Server Log</source>
-            <translation>Logg för löpare/ server</translation>
+            <translation>Testkörar-/serverlogg</translation>
         </message>
         <message>
             <location line="+188" />
@@ -70768,7 +70768,7 @@ ett nytt testfall. (Redigera &gt; Inställningar &gt; Squish)</translation>
         <message>
             <location line="+25" />
             <source>Expand All</source>
-            <translation>Expandera alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <location line="+5" />
@@ -70783,22 +70783,22 @@ ett nytt testfall. (Redigera &gt; Inställningar &gt; Squish)</translation>
         <message>
             <location line="+16" />
             <source>Pass</source>
-            <translation>Lyckades</translation>
+            <translation>Godkänd</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Fail</source>
-            <translation>Fel</translation>
+            <translation>Misslyckad</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Expected Fail</source>
-            <translation>Förväntade fel</translation>
+            <translation>Förväntat fel</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Unexpected Pass</source>
-            <translation>Oväntat pass</translation>
+            <translation>Oväntat godkänt</translation>
         </message>
         <message>
             <location line="+1" />
