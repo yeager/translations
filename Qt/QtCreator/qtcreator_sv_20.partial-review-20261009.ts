@@ -50352,7 +50352,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+69" />
             <source>Failed to replay Perf events from stash file.</source>
-            <translation>Misslyckades återspela Perf- händelser från gömfilen.</translation>
+            <translation>Kunde inte spela upp Perf-händelser från stashfilen.</translation>
         </message>
         <message>
             <location line="+309" />
@@ -50373,17 +50373,17 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location filename="../../../src/plugins/perfprofiler/perfsettings.cpp" line="-117" />
             <source>Sample period:</source>
-            <translation>Provperiod:</translation>
+            <translation>Samplingsperiod:</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Stack snapshot size (kB):</source>
-            <translation>Snapshotstorlek i stack (kB):</translation>
+            <translation>Storlek på stackögonblicksbild (kB):</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Sample mode:</source>
-            <translation>Provläge:</translation>
+            <translation>Samplingsläge:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -50398,7 +50398,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+5" />
             <source>Call graph mode:</source>
-            <translation>Anropskurvaläge:</translation>
+            <translation>Anropsgrafläge:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -50413,7 +50413,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+1" />
             <source>last branch record</source>
-            <translation>Senaste grenpost</translation>
+            <translation>senaste grenpost</translation>
         </message>
         <message>
             <location line="+8" />
@@ -50423,7 +50423,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location filename="../../../src/plugins/perfprofiler/perftimelinemodel.cpp" line="-138" />
             <source>sample collected</source>
-            <translation>Urval som samlats in</translation>
+            <translation>insamlad sampling</translation>
         </message>
         <message>
             <location line="+83" />
@@ -50447,7 +50447,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="-35" />
             <source>Guessed</source>
-            <translation>Gissat</translation>
+            <translation>Uppskattad</translation>
         </message>
         <message numerus="yes">
             <location line="+0" />
@@ -50481,22 +50481,22 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="-42" />
             <source>thread started</source>
-            <translation>tråd startad</translation>
+            <translation>Tråd startad</translation>
         </message>
         <message>
             <location line="+4" />
             <source>thread ended</source>
-            <translation>tråd slutade</translation>
+            <translation>Tråd avslutad</translation>
         </message>
         <message>
             <location line="+4" />
             <source>lost sample</source>
-            <translation>Förlorat prov</translation>
+            <translation>förlorad sampling</translation>
         </message>
         <message>
             <location line="+4" />
             <source>context switch</source>
-            <translation>sammanhangsbrytare</translation>
+            <translation>kontextväxling</translation>
         </message>
         <message>
             <location line="+7" />
@@ -50506,27 +50506,27 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+8" />
             <source> (guessed from context)</source>
-            <translation>(utgå från sammanhanget)</translation>
+            <translation> (uppskattat utifrån sammanhanget)</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Total Samples</source>
-            <translation>Totalt antal prover</translation>
+            <translation>Totalt antal samplingar</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Total Unique Samples</source>
-            <translation>Totalt unika prov</translation>
+            <translation>Totalt antal unika samplingar</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Resource Peak</source>
-            <translation>Maximal resurs</translation>
+            <translation>Maximal resursanvändning</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Resource Guesses</source>
-            <translation>Gissar resurs</translation>
+            <translation>Resursuppskattningar</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/perfprofiler/perftracepointdialog.cpp" line="+37" />
@@ -50536,7 +50536,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+11" />
             <source>Elevate privileges using:</source>
-            <translation>Höj privilegierna med hjälp av:</translation>
+            <translation>Höj behörighet med:</translation>
         </message>
         <message>
             <source>Error: No device available for active target.</source>
@@ -50545,12 +50545,12 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+8" />
             <source>Error: No device available for active kit.</source>
-            <translation>Fel: Ingen enhet tillgänglig för aktiv sats.</translation>
+            <translation>Fel: Ingen enhet tillgänglig för aktivt kit.</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Error: Failed to load trace point script %1: %2.</source>
-            <translation>Fel: Misslyckades ladda spårpunktsskript %1: %2.</translation>
+            <translation>Fel: Kunde inte läsa in spårpunktsskriptet %1: %2.</translation>
         </message>
         <message>
             <location line="+16" />
@@ -50560,12 +50560,12 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+24" />
             <source>Failed to run trace point script: %1</source>
-            <translation>Misslyckades köra spårpunktsskript: %1</translation>
+            <translation>Kunde inte köra spårpunktsskriptet: %1</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Failed to create trace points.</source>
-            <translation>Misslyckades med att skapa spårningspunkter.</translation>
+            <translation>Kunde inte skapa spårpunkter.</translation>
         </message>
         <message>
             <location line="+2" />
