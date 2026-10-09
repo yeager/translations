@@ -2442,7 +2442,7 @@ Detta går inte att ångra.</translation>
         <name>EditLightToggleAction</name>
         <message>
             <source>Toggle Edit Light On/Off</source>
-            <translation>Växla redigera ljus på/av</translation>
+            <translation>Växla redigeringsljus av/på</translation>
         </message>
     </context>
     <context>
@@ -3057,7 +3057,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
         </message>
         <message>
             <source>Sets the font of the text.</source>
-            <translation>Ställer in typsnittet för texten.</translation>
+            <translation>Anger textens teckensnitt.</translation>
         </message>
         <message>
             <source>Size</source>
@@ -3065,55 +3065,55 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
         </message>
         <message>
             <source>Sets the font size in pixels or points.</source>
-            <translation>Ställer in typsnittsstorleken i bildpunkter eller punkter.</translation>
+            <translation>Anger teckensnittets storlek i pixlar eller punkter.</translation>
         </message>
         <message>
             <source>Emphasis</source>
-            <translation>Förtydliga</translation>
+            <translation>Betoning</translation>
         </message>
         <message>
             <source>Sets the text to bold, italic, underlined, or strikethrough.</source>
-            <translation>Ställer in texten till fet, kursiv, understruken eller genomstruken.</translation>
+            <translation>Anger fetstil, kursiv stil, understrykning eller genomstrykning för texten.</translation>
         </message>
         <message>
             <source>Capitalization</source>
-            <translation>Versalisering</translation>
+            <translation>Skiftläge</translation>
         </message>
         <message>
             <source>Sets capitalization rules for the text.</source>
-            <translation>Ställer in versaliseringsregler för texten.</translation>
+            <translation>Anger reglerna för textens skiftläge.</translation>
         </message>
         <message>
             <source>Sets the overall thickness of the font.</source>
-            <translation>Ställer in övergripande tjocklek för typsnittet.</translation>
+            <translation>Anger teckensnittets övergripande tjocklek.</translation>
         </message>
         <message>
             <source>Sets the style of the selected font. This is prioritized over &lt;b&gt;Weight&lt;/b&gt; and &lt;b&gt;Emphasis&lt;/b&gt;.</source>
-            <translation>Ställer in stilen för markerat typsnitt. Detta är prioriterat över &lt;b&gt;Vikt&lt;/b&gt; och &lt;b&gt;Förtydliga&lt;/b&gt;.</translation>
+            <translation>Anger stilen för det valda teckensnittet. Den prioriteras framför &lt;b&gt;Vikt&lt;/b&gt; och &lt;b&gt;Betoning&lt;/b&gt;.</translation>
         </message>
         <message>
             <source>Sets the font style.</source>
-            <translation>Ställer in typsnittsstilen.</translation>
+            <translation>Anger teckensnittsstilen.</translation>
         </message>
         <message>
             <source>Sets how to interpolate the text to render it more clearly when scaled.</source>
-            <translation>Ställer in hur interpolering av texten för att rendera den mer rent när skalad.</translation>
+            <translation>Anger hur texten interpoleras för att visas tydligare när den skalas.</translation>
         </message>
         <message>
             <source>Sets the letter spacing for the text.</source>
-            <translation>Ställer in bokstavsavstånd för texten.</translation>
+            <translation>Anger textens teckenavstånd.</translation>
         </message>
         <message>
             <source>Sets the word spacing for the text.</source>
-            <translation>Ställer in ordavstånd för texten.</translation>
+            <translation>Anger textens ordavstånd.</translation>
         </message>
         <message>
             <source>Resolves the gap between texts if turned true.</source>
-            <translation>Löser avståndet mellan texter om växlad till sant.</translation>
+            <translation>Justerar avståndet mellan texter om alternativet är aktiverat.</translation>
         </message>
         <message>
             <source>Toggles the disables font-specific special features.</source>
-            <translation>Växlar inaktivering av typsnittsspecifika specialfunktioner.</translation>
+            <translation>Anger om typsnittsspecifika specialfunktioner inaktiveras.</translation>
         </message>
         <message>
             <source>Weight</source>
@@ -3129,11 +3129,11 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
         </message>
         <message>
             <source>Sets the color for the font style.</source>
-            <translation>Ställer in färgen för typsnittsstilen.</translation>
+            <translation>Anger färgen för teckensnittsstilen.</translation>
         </message>
         <message>
             <source>Letter spacing</source>
-            <translation>Bokstavsavstånd</translation>
+            <translation>Teckenavstånd</translation>
         </message>
         <message>
             <source>Word spacing</source>
