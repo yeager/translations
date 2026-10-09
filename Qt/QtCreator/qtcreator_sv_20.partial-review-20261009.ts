@@ -28784,7 +28784,7 @@ Flaggor: %3</translation>
         </message>
         <message>
             <source>For example, m_&lt;name&gt;</source>
-            <translation>Till exempel, m_&lt;name&gt;</translation>
+            <translation>Till exempel m_&lt;name&gt;</translation>
         </message>
         <message>
             <location line="+65" />
@@ -28794,7 +28794,7 @@ Flaggor: %3</translation>
         <message>
             <location line="+1" />
             <source>Add "using namespace ..."</source>
-            <translation>Lägg till "using namespace …"</translation>
+            <translation>Lägg till ”using namespace …”</translation>
         </message>
         <message>
             <location line="+2" />
@@ -28804,12 +28804,12 @@ Flaggor: %3</translation>
         <message>
             <location line="+3" />
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uncheck this to make Qt Creator try to derive the type of expression in the &amp;quot;Assign to Local Variable&amp;quot; quickfix.&lt;/p&gt;&lt;p&gt;Note that this might fail for more complex types.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uncheck this to make Qt Creator try to derive the type of expression in the &amp;quot;Assign to Local Variable&amp;quot; quickfix.&lt;/p&gt;&lt;p&gt;Note that this might fail for more complex types.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Avmarkera detta om du vill att Qt Creator ska försöka härleda uttryckets typ i snabbkorrigeringen ”Tilldela till lokal variabel”.&lt;/p&gt;&lt;p&gt;Observera att detta kan misslyckas för mer komplexa typer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Use type "auto" when creating new variables</source>
-            <translation>Använd type "auto" när nya variabler skapas</translation>
+            <translation>Använd typen ”auto” när nya variabler skapas</translation>
         </message>
         <message>
             <location line="+2" />
@@ -28835,22 +28835,22 @@ Flaggor: %3</translation>
         <message>
             <location line="-7" />
             <source>Normally arguments get passed by const reference. If the Type is one of the following ones, the argument gets passed by value. Namespaces and template arguments are removed. The real Type must contain the given Type. For example, "int" matches "int32_t" but not "vector&lt;int&gt;". "vector" matches "std::pmr::vector&lt;int&gt;" but not "std::optional&lt;vector&lt;int&gt;&gt;"</source>
-            <translation>Normalt skickas argument med const- referens. Om typen är en av följande, skickas argumentet med värde. Namnrymder och mallargument tas bort. Den verkliga typen måste innehålla angiven typ. Till exempel, "int" matchar "int32_t" men inte "vector&lt;int&gt;". "vektor" matchar "std:: pmr::vector&lt;int&gt;" men inte "std: fakultativt&lt;vector&lt;int&gt;&gt;"</translation>
+            <translation>Normalt skickas argument som const-referens. Om typen är en av följande skickas argumentet med värde. Namnrymder och mallargument tas bort. Den faktiska typen måste innehålla den angivna typen. Till exempel matchar ”int” ”int32_t” men inte ”vector&lt;int&gt;”. ”vector” matchar ”std::pmr::vector&lt;int&gt;” men inte ”std::optional&lt;vector&lt;int&gt;&gt;”.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Return non-value types by const reference</source>
-            <translation>Returnera icke-värdestyper enligt const-referens</translation>
+            <translation>Returnera andra typer än värdetyper som const-referens</translation>
         </message>
         <message>
             <location line="+35" />
             <source>Generate Setters</source>
-            <translation>Generera aggregat</translation>
+            <translation>Generera setters</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Generate Getters</source>
-            <translation>Generera Getters</translation>
+            <translation>Generera getters</translation>
         </message>
         <message>
             <location line="+1" />
@@ -28867,21 +28867,21 @@ Flaggor: %3</translation>
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/cppquickfixsettings.cpp" line="-186" />
             <source>A JavaScript expression acting as the return value of a function with two parameters &lt;b&gt;name&lt;/b&gt; and &lt;b&gt;memberName&lt;/b&gt;, where&lt;ul&gt;&lt;li&gt;&lt;b&gt;name&lt;/b&gt; is the "semantic name" as it would be used for a Qt property&lt;/li&gt;&lt;li&gt;&lt;b&gt;memberName&lt;/b&gt; is the name of the member variable.&lt;/li&gt;&lt;/ul&gt;</source>
-            <translation>A JavaScript expression acting as the return value of a function with two parameters &lt;b&gt;name&lt;/b&gt; and &lt;b&gt;memberName&lt;/b&gt;, where&lt;ul&gt;&lt;li&gt;&lt;b&gt;name&lt;/b&gt; is the "semantic name" as it would be used for a Qt property&lt;/li&gt;&lt;li&gt;&lt;b&gt;memberName&lt;/b&gt; is the name of the member variable.&lt;/li&gt;&lt;/ul&gt;</translation>
+            <translation>Ett JavaScript-uttryck som fungerar som returvärde för en funktion med två parametrar, &lt;b&gt;name&lt;/b&gt; och &lt;b&gt;memberName&lt;/b&gt;, där&lt;ul&gt;&lt;li&gt;&lt;b&gt;name&lt;/b&gt; är det ”semantiska namnet” såsom det används för en Qt-egenskap&lt;/li&gt;&lt;li&gt;&lt;b&gt;memberName&lt;/b&gt; är namnet på medlemsvariabeln.&lt;/li&gt;&lt;/ul&gt;</translation>
         </message>
         <message>
             <location line="+6" />
             <source>A JavaScript expression acting as the return value of a function with a parameter &lt;b&gt;name&lt;/b&gt;, which is the "semantic name" as it would be used for a Qt property.</source>
-            <translation>Ett JavaScript-uttryck som fungerar som returvärdet för en funktion med en parameter &lt;b&gt;name&lt;/b&gt;, som är det "semantiska namnet" som det skulle användas för en Qt- egenskap.</translation>
+            <translation>Ett JavaScript-uttryck som fungerar som returvärde för en funktion med parametern &lt;b&gt;name&lt;/b&gt;, som är det ”semantiska namnet” såsom det används för en Qt-egenskap.</translation>
         </message>
         <message>
             <location line="+38" />
             <source>How to get from the member variable to the semantic name.
 This is the reverse of the operation above.
 Leave empty to apply heuristics.</source>
-            <translation>Hur man tar sig från variabeln för medlemmar till
-det semantiska namnet. Det här är motsatsen till
-åtgärden ovan. Lämna tomt för att tillämpa heuristik.</translation>
+            <translation>Hur man kommer från medlemsvariabeln till det semantiska namnet.
+Detta är motsatsen till åtgärden ovan.
+Lämna tomt för att använda heuristik.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -28896,12 +28896,12 @@ det semantiska namnet. Det här är motsatsen till
         <message>
             <location line="+3" />
             <source>The content of the &lt;b&gt;name&lt;/b&gt; parameter in the fields above, that is, the "semantic name" without any prefix or suffix.</source>
-            <translation>Innehållet i &lt;b&gt;name&lt;/b&gt; parametern i fälten ovan, det vill säga det "semantiska namnet" utan prefix eller suffix.</translation>
+            <translation>Innehållet i parametern &lt;b&gt;name&lt;/b&gt; i fälten ovan, det vill säga det ”semantiska namnet” utan prefix eller suffix.</translation>
         </message>
         <message>
             <location line="+134" />
             <source>Outside class:</source>
-            <translation>Utanför klass:</translation>
+            <translation>Utanför klassen:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -28937,27 +28937,27 @@ det semantiska namnet. Det här är motsatsen till
         <message>
             <location line="+6" />
             <source>Generated Function Locations</source>
-            <translation>Genererade funktionsplatser</translation>
+            <translation>Platser för genererade funktioner</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Getter Setter Generation Properties</source>
-            <translation>Egenskaper för Getter- etter- generering</translation>
+            <translation>Egenskaper för generering av getters och setters</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Getter attributes:</source>
-            <translation>Getter- attribut:</translation>
+            <translation>Getter-attribut:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Getter name:</source>
-            <translation>Namn på Getter:</translation>
+            <translation>Getter-namn:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Setter name:</source>
-            <translation>Namn på förvaltaren:</translation>
+            <translation>Setter-namn:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -28967,7 +28967,7 @@ det semantiska namnet. Det här är motsatsen till
         <message>
             <location line="+2" />
             <source>Reset name:</source>
-            <translation>Nollställ namn:</translation>
+            <translation>Reset-namn:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -28992,12 +28992,12 @@ det semantiska namnet. Det här är motsatsen till
         <message>
             <location line="+4" />
             <source>Missing Namespace Handling</source>
-            <translation>Hantering av namnrymd saknas</translation>
+            <translation>Hantering av saknade namnrymder</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Custom Getter Setter Templates</source>
-            <translation>Mallar för egna Getter- inställningsinställningar</translation>
+            <translation>Anpassade mallar för getters och setters</translation>
         </message>
         <message>
             <location line="+10" />
@@ -29023,23 +29023,23 @@ det semantiska namnet. Det här är motsatsen till
             <location filename="../../../src/plugins/cppeditor/cppeditorwidget.cpp" line="+769" />
             <source>You are trying to rename a symbol declared in the generated file "%1".
 This is normally not a good idea, as the file will likely get overwritten during the build process.</source>
-            <translation>Du försöker byta namn på en symbol som deklarerats i den genererade filen "%1". Det är normalt
-inte en bra idé, eftersom filen troligen kommer att bli överskriven under byggprocessen.</translation>
+            <translation>Du försöker byta namn på en symbol som deklarerats i den genererade filen ”%1”.
+Det är normalt ingen bra idé, eftersom filen sannolikt skrivs över under byggprocessen.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Do you want to edit "%1" instead?</source>
-            <translation>Vill du redigera "%1" istället?</translation>
+            <translation>Vill du redigera ”%1” i stället?</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Renamed Symbol Will Be Overwritten</source>
-            <translation>Namngiven symbol skrivs över</translation>
+            <translation>Den omdöpta symbolen kommer att skrivas över</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Open "%1"</source>
-            <translation>Öppna "%1"</translation>
+            <translation>Öppna ”%1”</translation>
         </message>
         <message>
             <location line="+335" />
