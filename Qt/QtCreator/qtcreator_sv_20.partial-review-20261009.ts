@@ -71367,7 +71367,7 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="-10" />
             <source>Ignore whitespace changes in annotation</source>
-            <translation>Ignorera blankteckensförändringar i kommentar</translation>
+            <translation>Ignorera blankstegsändringar i annotering</translation>
         </message>
         <message>
             <location line="+7" />
@@ -71392,7 +71392,7 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="+0" />
             <source>Add "%1"</source>
-            <translation>Lägg till "%1"</translation>
+            <translation>Lägg till ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
@@ -71402,12 +71402,12 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="-10" />
             <source>Diff Current File</source>
-            <translation>Diff aktuell fil</translation>
+            <translation>Jämför aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Diff "%1"</source>
-            <translation>Diff "%1"</translation>
+            <translation>Jämför ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
@@ -71417,17 +71417,17 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="+41" />
             <source>Commit All Files</source>
-            <translation>Kom igång med alla filer</translation>
+            <translation>Checka in alla filer</translation>
         </message>
         <message>
             <location line="-32" />
             <source>Commit Current File</source>
-            <translation>Komma med aktuell fil</translation>
+            <translation>Checka in aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Commit "%1"</source>
-            <translation>Kommit med "%1"</translation>
+            <translation>Checka in ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
@@ -71437,22 +71437,22 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="-10" />
             <source>Filelog Current File</source>
-            <translation>Fillogg nuvarande fil</translation>
+            <translation>Fillogg för aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Filelog "%1"</source>
-            <translation>Fillogg "%1"</translation>
+            <translation>Fillogg för ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Annotate Current File</source>
-            <translation>Anteckna aktuell fil</translation>
+            <translation>Annotera aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Annotate "%1"</source>
-            <translation>Anteckna "%1"</translation>
+            <translation>Annotera ”%1”</translation>
         </message>
         <message>
             <location line="+40" />
@@ -71462,7 +71462,7 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="-83" />
             <source>Triggers a Subversion version control operation.</source>
-            <translation>Utlöser en Subversion version kontroll.</translation>
+            <translation>Startar en versionshanteringsåtgärd för Subversion.</translation>
         </message>
         <message>
             <location line="+40" />
@@ -71487,7 +71487,7 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="+0" />
             <source>Delete "%1"...</source>
-            <translation>Ta bort "%1"…</translation>
+            <translation>Ta bort ”%1”…</translation>
         </message>
         <message>
             <location line="+2" />
@@ -71497,27 +71497,27 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="+0" />
             <source>Revert "%1"...</source>
-            <translation>Återställ %1…</translation>
+            <translation>Återställ ”%1”…</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Diff Repository</source>
-            <translation>Jämförelsearkiv</translation>
+            <translation>Jämför arkiv</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Repository Status</source>
-            <translation>Förrådsstatus</translation>
+            <translation>Arkivstatus</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Log Repository</source>
-            <translation>Loggarkiv</translation>
+            <translation>Arkivlogg</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Update Repository</source>
-            <translation>Uppdatera förråd</translation>
+            <translation>Uppdatera arkiv</translation>
         </message>
         <message>
             <location line="+6" />
@@ -71527,7 +71527,7 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="+470" />
             <source>No subversion executable specified.</source>
-            <translation>Ingen körbar subversion-fil angiven.</translation>
+            <translation>Ingen körbar Subversion-fil har angetts.</translation>
         </message>
         <message>
             <location line="-314" />
@@ -71537,37 +71537,37 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="-413" />
             <source>Subversion File Log Editor</source>
-            <translation>Redigerare för subversion av fillogg</translation>
+            <translation>Redigerare för Subversion-fillogg</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Subversion Annotation Editor</source>
-            <translation>Subversionseditor för kommentar</translation>
+            <translation>Redigerare för Subversion-annotering</translation>
         </message>
         <message>
             <location line="+221" />
             <source>Diff Project Directory</source>
-            <translation>Diff projektkatalog</translation>
+            <translation>Jämför projektkatalog</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Diff Directory of Project "%1"</source>
-            <translation>Diff-katalog för projekt "%1"</translation>
+            <translation>Jämför katalogen för projektet ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Project Directory Status</source>
-            <translation>Status för projektkatalogen</translation>
+            <translation>Status för projektkatalog</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Status of Directory of Project "%1"</source>
-            <translation>Status för katalog över projekt "%1"</translation>
+            <translation>Status för katalogen i projektet ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Log Project Directory</source>
-            <translation>Loggprojektkatalog</translation>
+            <translation>Logg för projektkatalog</translation>
         </message>
         <message>
             <location line="+1" />
