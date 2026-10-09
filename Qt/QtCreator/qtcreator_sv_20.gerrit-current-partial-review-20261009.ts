@@ -73301,11 +73301,11 @@ Om lyssnaren är närmare ljudobjektet än storleken förblir volymen konstant.<
     </message>
     <message>
         <source>Distance Cutoff</source>
-        <translation>Avståndsavskärning</translation>
+        <translation>Avståndsgräns</translation>
     </message>
     <message>
         <source>Set the distance beyond which sound coming from the source will cutoff.</source>
-        <translation>Ange avståndet bortom vilket ljud från källan skärs av.</translation>
+        <translation>Ange avståndet bortom vilket ljud från källan stängs av.</translation>
     </message>
     <message>
         <source>Manual Attenuation</source>
