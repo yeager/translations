@@ -1543,7 +1543,7 @@ Ett positivt värde ökar efterklangen för högre frekvenser och dämpar lägre
     </message>
     <message>
         <source>Baking Disabled</source>
-        <translation>Ljusberäkning av</translation>
+        <translation>Ljusberäkning inaktiverad</translation>
     </message>
     <message>
         <source>Bake Indirect</source>
@@ -1591,7 +1591,7 @@ till exempel genom att kasta skuggor eller ge indirekt ljus.</translation>
         <source>If checked, baking settings above are not applied on close or bake.
 Instead, user is expected to set baking properties manually.</source>
         <translation>Om rutan är markerad tillämpas inte ljusberäkningsinställningarna ovan vid stängning eller beräkning.
-I stället förväntas användaren ställa in ljusberäkningsegenskaperna manuellt.</translation>
+I stället förväntas användaren ställa in egenskaper för ljusberäkning manuellt.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -72281,7 +72281,7 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>fillColor</source>
-        <translation>fyllnadsfärg</translation>
+        <translation>fillColor</translation>
     </message>
     <message>
         <source>Opacity</source>
@@ -73169,7 +73169,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
     <name>SnapConfigurationDialog</name>
     <message>
         <source>Snap Configuration</source>
-        <translation>Fästkonfiguration</translation>
+        <translation>Fästinställningar</translation>
     </message>
     <message>
         <source>Interval</source>
@@ -73217,7 +73217,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
     </message>
     <message>
         <source>Toggles if the position snaps to absolute values or relative to object position.</source>
-        <translation>Växlar om positionen fäster vid absoluta värden eller relativt objektets position.</translation>
+        <translation>Anger om positionen fäster vid absoluta värden eller relativt objektets position.</translation>
     </message>
     <message>
         <source>deg</source>
