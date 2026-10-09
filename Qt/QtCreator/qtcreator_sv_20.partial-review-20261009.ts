@@ -24334,12 +24334,12 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="-253" />
             <source>Click and type the new key sequence.</source>
-            <translation>Klicka och skriv nya tangentsekvensen.</translation>
+            <translation>Klicka och ange den nya tangentsekvensen.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Stop Recording</source>
-            <translation>Stoppa inspelning</translation>
+            <translation>Avsluta inspelningen</translation>
         </message>
         <message>
             <location line="+1" />
@@ -24354,7 +24354,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+4" />
             <source>Key sequence will not work in editor.</source>
-            <translation>Nyckelsekvens kommer inte fungera i redigerare.</translation>
+            <translation>Tangentsekvensen fungerar inte i redigeraren.</translation>
         </message>
         <message>
             <location line="+159" />
@@ -24364,22 +24364,22 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+4" />
             <source>Use "Cmd", "Opt", "Ctrl", and "Shift" for modifier keys. Use "Escape", "Backspace", "Delete", "Insert", "Home", and so on, for special keys. Combine individual keys with "+", and combine multiple shortcuts to a shortcut sequence with ",". For example, if the user must hold the Ctrl and Shift modifier keys while pressing Escape, and then release and press A, enter "Ctrl+Shift+Escape,A".</source>
-            <translation>Använd ”Cmd”, ”Opt”, ”Ctrl” och ”Shift” för modifieringstangenter. Använd ”Escape”, ”Backspace”, ”Ta bort”, ”Insert”, ”Home” och så vidare för specialtangenter. Kombinera enskilda tangenter med ”+” och kombinera flera genvägar till en genvägssekvens med ”,”. Om användaren till exempel måste hålla nere modifieringstangenterna Ctrl och Shift medan hen trycker på Escape, sedan släppa dem och trycka på A, skriver du ”Ctrl+Shift+Escape,A”.</translation>
+            <translation>Använd ”Cmd”, ”Opt”, ”Ctrl” och ”Shift” för modifierartangenter. Använd ”Escape”, ”Backspace”, ”Delete”, ”Insert”, ”Home” och så vidare för specialtangenter. Kombinera enskilda tangenter med ”+” och flera genvägar till en genvägssekvens med ”,”. Om användaren till exempel måste hålla nere modifierartangenterna Ctrl och Shift medan hen trycker på Escape, sedan släppa dem och trycka på A, anger du ”Ctrl+Shift+Escape,A”.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Use "Ctrl", "Alt", "Meta", and "Shift" for modifier keys. Use "Escape", "Backspace", "Delete", "Insert", "Home", and so on, for special keys. Combine individual keys with "+", and combine multiple shortcuts to a shortcut sequence with ",". For example, if the user must hold the Ctrl and Shift modifier keys while pressing Escape, and then release and press A, enter "Ctrl+Shift+Escape,A".</source>
-            <translation>Använd ”Ctrl”, ”Alt”, ”Meta” och ”Shift” för modifieringstangenter. Använd ”Escape”, ”Backspace”, ”Ta bort”, ”Insert”, ”Home” och så vidare för specialtangenter. Kombinera enskilda tangenter med ”+” och kombinera flera genvägar till en genvägssekvens med ”,”. Om användaren till exempel måste hålla nere modifieringstangenterna Ctrl och Shift medan hen trycker på Escape, sedan släppa dem och trycka på A, skriver du ”Ctrl+Shift+Escape,A”.</translation>
+            <translation>Använd ”Ctrl”, ”Alt”, ”Meta” och ”Shift” för modifierartangenter. Använd ”Escape”, ”Backspace”, ”Delete”, ”Insert”, ”Home” och så vidare för specialtangenter. Kombinera enskilda tangenter med ”+” och flera genvägar till en genvägssekvens med ”,”. Om användaren till exempel måste hålla nere modifierartangenterna Ctrl och Shift medan hen trycker på Escape, sedan släppa dem och trycka på A, anger du ”Ctrl+Shift+Escape,A”.</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Enter key sequence as text</source>
-            <translation>Ange nyckelsekvens som text</translation>
+            <translation>Ange tangentsekvens som text</translation>
         </message>
         <message>
             <location line="+24" />
             <source>Key sequence has potential conflicts. &lt;a href="#conflicts"&gt;Show.&lt;/a&gt;</source>
-            <translation>Tangentsekvensen har potentiella konflikter. &lt;a href="#conflicts"&gt;Visa.&lt;/a&gt;</translation>
+            <translation>Tangentsekvensen har möjliga konflikter. &lt;a href="#conflicts"&gt;Visa.&lt;/a&gt;</translation>
         </message>
         <message>
             <location line="+79" />
@@ -24390,7 +24390,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+175" />
             <source>Import Keyboard Mapping Scheme</source>
-            <translation>Importera mappningsschema för tangentbord</translation>
+            <translation>Importera tangentbordsmappningsschema</translation>
         </message>
         <message>
             <location line="+2" />
@@ -24401,7 +24401,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="-2" />
             <source>Export Keyboard Mapping Scheme</source>
-            <translation>Exportera mappningsschema för tangentbord</translation>
+            <translation>Exportera tangentbordsmappningsschema</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/modemanager.cpp" line="-27" />
@@ -24461,7 +24461,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="-30" />
             <source>Search &amp;&amp; &amp;Replace</source>
-            <translation>Sök &amp;&amp; &amp;ersätt</translation>
+            <translation>Sök &amp;&amp; &amp;Ersätt</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/find/findtoolbar.cpp" line="-314" />
@@ -24503,7 +24503,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+85" />
             <source>Find Next (Selected)</source>
-            <translation>Hitta nästa (markerade)</translation>
+            <translation>Sök nästa bland markerade</translation>
         </message>
         <message>
             <location line="+2" />
@@ -24513,7 +24513,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+5" />
             <source>Find Previous (Selected)</source>
-            <translation>Hitta föregående (markerade)</translation>
+            <translation>Sök föregående bland markerade</translation>
         </message>
         <message>
             <location line="+2" />
@@ -24530,7 +24530,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
             <location line="-222" />
             <location line="+237" />
             <source>Replace &amp;&amp; Find</source>
-            <translation>Ersätt &amp;&amp; sök</translation>
+            <translation>Ersätt &amp;&amp; Sök</translation>
         </message>
         <message>
             <location line="+2" />
@@ -24540,7 +24540,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+14" />
             <source>Replace &amp;&amp; Find Previous</source>
-            <translation>Ersätt &amp;&amp; sök föregående</translation>
+            <translation>Ersätt &amp;&amp; Sök föregående</translation>
         </message>
         <message>
             <location line="-248" />
