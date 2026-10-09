@@ -52403,22 +52403,22 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+44" />
             <source>Edit Active Build Configuration</source>
-            <translation>Redigera inställning av aktivt bygg</translation>
+            <translation>Redigera aktiv byggkonfiguration</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Ctrl+E, Ctrl+B</source>
-            <translation>Ctrl + E, Ctrl + B</translation>
+            <translation>Ctrl+E, Ctrl+B</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Edit Active Run Configuration</source>
-            <translation>Redigera inställning av aktiv körning</translation>
+            <translation>Redigera aktiv körkonfiguration</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Ctrl+E, Ctrl+R</source>
-            <translation>Ctrl + E, Ctrl + R</translation>
+            <translation>Ctrl+E, Ctrl+R</translation>
         </message>
         <message>
             <location line="+280" />
@@ -52428,12 +52428,12 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+66" />
             <source>Cancel Build &amp;&amp; Unload</source>
-            <translation>Avbryt bygg &amp; &amp; &amp; ladda ur</translation>
+            <translation>Avbryt bygge och läs ur</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Do Not Unload</source>
-            <translation>Läs inte ur</translation>
+            <translation>Läs inte ur projektet</translation>
         </message>
         <message>
             <location line="+2" />
@@ -52448,22 +52448,22 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+1" />
             <source>Do you want to cancel the build process and unload the project anyway?</source>
-            <translation>Vill du avbryta byggprocessen och läsa ur projektet ändå?</translation>
+            <translation>Vill du avbryta byggprocessen och ändå läsa ur projektet?</translation>
         </message>
         <message>
             <location line="+71" />
             <source>Issues not covered by a more specialized category.</source>
-            <translation>Frågor som inte omfattas av en mer specialiserad kategori.</translation>
+            <translation>Problem som inte omfattas av en mer specialiserad kategori.</translation>
         </message>
         <message>
             <location line="+289" />
             <source>Cannot open project "%1": Plugin is not loaded.</source>
-            <translation>Kan inte öppna projekt "%1": Insticksprogram laddas inte.</translation>
+            <translation>Kan inte öppna projektet "%1": Tillägget är inte inläst.</translation>
         </message>
         <message>
             <location line="+239" />
             <source>The following files could not be renamed in the file system:%1</source>
-            <translation>Följande filer kunde inte byta namn i filsystemet:%1</translation>
+            <translation>Följande filer kunde inte döpas om i filsystemet:%1</translation>
         </message>
         <message>
             <location line="+6" />
@@ -52473,12 +52473,12 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+8" />
             <source>These files were renamed in the file system, but the project structure was not updated (context lost or not supported):%1</source>
-            <translation>Filerna döptes om i filsystemet, men projektstrukturen uppdaterades inte (text förlorade eller stöds inte):%1</translation>
+            <translation>Filerna döptes om i filsystemet, men projektstrukturen uppdaterades inte (kontext saknas eller stöds inte):%1</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Renaming Issues</source>
-            <translation>Att ta upp frågor på nytt</translation>
+            <translation>Problem vid namnbyte</translation>
         </message>
         <message>
             <location line="+293" />
@@ -52488,7 +52488,7 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+407" />
             <source>A build is still in progress.</source>
-            <translation>En byggnation pågår fortfarande.</translation>
+            <translation>Ett bygge pågår fortfarande.</translation>
         </message>
         <message>
             <location line="-2164" />
@@ -52569,13 +52569,13 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
             <location line="+578" />
             <source>Found some build errors in current task.
 Do you want to ignore them?</source>
-            <translation>Hittade några byggfel i nuvarande
-uppgift. Vill du ignorera dem?</translation>
+            <translation>Hittade några byggfel i den aktuella uppgiften.
+Vill du ignorera dem?</translation>
         </message>
         <message>
             <location line="+166" />
             <source>Always save files before build</source>
-            <translation>Spara alltid filer innan byggnation</translation>
+            <translation>Spara alltid filer före bygge</translation>
         </message>
         <message>
             <location line="-1686" />
