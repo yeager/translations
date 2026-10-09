@@ -77845,7 +77845,7 @@ i ”%2”.
         <message>
             <location line="+52" />
             <source>Failed to expand macros in process arguments: %1</source>
-            <translation>Misslyckades utöka makron i processargument: %1</translation>
+            <translation>Det gick inte att expandera makron i processargumenten: %1</translation>
         </message>
         <message>
             <location line="+108" />
@@ -77880,7 +77880,7 @@ i ”%2”.
         <message>
             <location line="+6" />
             <source>%1: File name of the parent directory.</source>
-            <translation>%1: Filnamn på överliggande katalog.</translation>
+            <translation>%1: Filnamnet på den överordnade katalogen.</translation>
         </message>
         <message>
             <location line="+104" />
@@ -77890,7 +77890,7 @@ i ”%2”.
         <message>
             <location line="+4" />
             <source>Access environment variables.</source>
-            <translation>Åtkomstvariabler för miljö.</translation>
+            <translation>Åtkomst till miljövariabler.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/minimizableinfobars.cpp" line="+124" />
@@ -77951,7 +77951,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+128" />
             <source>&amp;OK</source>
-            <translation>&amp;Ok</translation>
+            <translation>&amp;OK</translation>
         </message>
         <message>
             <location line="+1" />
@@ -77991,18 +77991,18 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location filename="../../../src/libs/utils/settingsaccessor.cpp" line="+107" />
             <source>Failed to Read File</source>
-            <translation>Misslyckades med att läsa filen</translation>
+            <translation>Det gick inte att läsa filen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Could not open "%1".</source>
-            <translation>Kunde inte öppna "%1".</translation>
+            <translation>Kunde inte öppna ”%1”.</translation>
         </message>
         <message>
             <location line="+23" />
             <location line="+10" />
             <source>Failed to Write File</source>
-            <translation>Misslyckades med att skriva filen</translation>
+            <translation>Det gick inte att skriva filen</translation>
         </message>
         <message>
             <location line="-9" />
@@ -78018,12 +78018,12 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="-260" />
             <source>&lt;p&gt;No valid settings file could be found.&lt;/p&gt;&lt;p&gt;All settings files found in directory "%1" were unsuitable for the current version of %2, for instance because they were written by an incompatible version of %2, or because a different settings path was used.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Ingen giltig inställningsfil kunde hittas.&lt;/p&gt;&lt;p&gt;Alla inställningar som hittades i katalogen "%1" var olämpliga för den aktuella versionen av %2, till exempel eftersom de skrevs av en inkompatibel version av %2, eller eftersom en annan inställningssökväg användes.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Ingen giltig inställningsfil kunde hittas.&lt;/p&gt;&lt;p&gt;Alla inställningsfiler i katalogen ”%1” var olämpliga för den aktuella versionen av %2, exempelvis eftersom de skrevs av en inkompatibel version av %2 eller eftersom en annan inställningssökväg användes.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+261" />
             <source>&lt;p&gt;No valid settings file could be found.&lt;/p&gt;&lt;p&gt;All settings files found in directory "%1" were either too new or too old to be read.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Ingen giltig inställningsfil kunde hittas.&lt;/p&gt;&lt;p&gt;Alla inställningar som hittades i katalogen "%1" var antingen för nya eller för gamla för att läsas.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Ingen giltig inställningsfil kunde hittas.&lt;/p&gt;&lt;p&gt;Alla inställningsfiler i katalogen ”%1” var antingen för nya eller för gamla för att kunna läsas.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+11" />
@@ -78033,7 +78033,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+1" />
             <source>&lt;p&gt;The versioned backup "%1" of the settings file is used, because the non-versioned file was created by an incompatible version of %2.&lt;/p&gt;&lt;p&gt;Settings changes made since the last time this version of %2 was used are ignored, and changes made now will &lt;b&gt;not&lt;/b&gt; be propagated to the newer version.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;The versioned backup "%1" of the settings file is used, because the non-versioned file was created by an incompatible version of %2.&lt;/p&gt;&lt;p&gt;Settings changes made since the last time this version of %2 was used are ignored, and changes made now will &lt;b&gt;not&lt;/b&gt; be propagated to the newer version.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Den versionshanterade säkerhetskopian ”%1” av inställningsfilen används eftersom den icke-versionshanterade filen skapades av en inkompatibel version av %2.&lt;/p&gt;&lt;p&gt;Inställningsändringar sedan den här versionen av %2 användes senast ignoreras, och ändringar som görs nu kommer &lt;b&gt;inte&lt;/b&gt; att föras över till den nyare versionen.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+15" />
@@ -78043,17 +78043,17 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+2" />
             <source>&lt;p&gt;No settings file created by this instance of %1 was found.&lt;/p&gt;&lt;p&gt;Did you work with this project on another machine or using a different settings path before?&lt;/p&gt;&lt;p&gt;Do you still want to load the settings file "%2"?&lt;/p&gt;</source>
-            <translation>&lt;p&gt;No settings file created by this instance of %1 was found.&lt;/p&gt;&lt;p&gt;Did you work with this project on another machine or using a different settings path before?&lt;/p&gt;&lt;p&gt;Do you still want to load the settings file "%2"?&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Ingen inställningsfil som skapats av denna instans av %1 hittades.&lt;/p&gt;&lt;p&gt;Har du tidigare arbetat med projektet på en annan dator eller med en annan inställningssökväg?&lt;/p&gt;&lt;p&gt;Vill du ändå läsa in inställningsfilen ”%2”?&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+54" />
             <source>Unsupported Merge Settings File</source>
-            <translation>Fil för sammanfogning som inte stöds</translation>
+            <translation>Inställningsfil för sammanfogning stöds inte</translation>
         </message>
         <message>
             <location line="+1" />
             <source>"%1" is not supported by %2. Do you want to try loading it anyway?</source>
-            <translation>"%1" stöds inte av %2. Vill du försöka läsa in den ändå?</translation>
+            <translation>”%1” stöds inte av %2. Vill du ändå försöka läsa in den?</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/stringutils.cpp" line="+439" />
@@ -78072,7 +78072,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+118" />
             <source>Current Value of %{%1}: %2</source>
-            <translation>Nuvarande värde för %{%1}: %2</translation>
+            <translation>Aktuellt värde för %{%1}: %2</translation>
         </message>
         <message>
             <location line="+25" />
@@ -78108,23 +78108,23 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location filename="../../../src/libs/utils/externalterminalprocessimpl.cpp" line="+124" />
             <source>Failed to open temporary script file.</source>
-            <translation>Misslyckades med att öppna temporär skriptfil.</translation>
+            <translation>Det gick inte att öppna den tillfälliga skriptfilen.</translation>
         </message>
         <message>
             <location line="+28" />
             <location line="+48" />
             <source>Failed to start terminal process: "%1".</source>
-            <translation>Misslyckades med att starta terminalprocess: "%1".</translation>
+            <translation>Det gick inte att starta terminalprocessen: ”%1”.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/filestreamermanager.cpp" line="+129" />
             <source>Failed copying file.</source>
-            <translation>Misslyckades att kopiera fil.</translation>
+            <translation>Det gick inte att kopiera filen.</translation>
         </message>
         <message>
             <location line="+17" />
             <source>Failed reading file.</source>
-            <translation>Misslyckades att läsa fil.</translation>
+            <translation>Det gick inte att läsa filen.</translation>
         </message>
         <message>
             <location line="+20" />
