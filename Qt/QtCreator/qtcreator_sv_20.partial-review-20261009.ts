@@ -12307,7 +12307,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+69" />
             <source>Downloading Android SDK Tools from URL %1 has failed: %2.</source>
-            <translation>Hämtning av Android SDK-verktyg från URL:en %1 har misslyckades: %2.</translation>
+            <translation>Hämtningen av Android SDK Tools från URL:en %1 misslyckades: %2.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -12317,7 +12317,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+37" />
             <source>Unarchiving error: %1</source>
-            <translation>Oarkiverande fel: %1</translation>
+            <translation>Uppackningsfel: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androidsdkmanager.cpp" line="-341" />
@@ -12358,12 +12358,12 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+4" />
             <source>Java Language Server:</source>
-            <translation>Språkserver för Java:</translation>
+            <translation>Java-språkserver:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Path to equinox launcher jar</source>
-            <translation>Sökväg till bärraketen för dagjämning</translation>
+            <translation>Sökväg till equinox-launcher-JAR-filen</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/splashscreencontainerwidget.cpp" line="-123" />
@@ -12401,7 +12401,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+46" />
             <source>Sticky splash screen:</source>
-            <translation>Klisterskärm:</translation>
+            <translation>Beständig startskärm:</translation>
         </message>
         <message>
             <location line="-2" />
@@ -12445,17 +12445,17 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="-80" />
             <source>Master</source>
-            <translation>Mästare</translation>
+            <translation>Huvudbild</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Portrait</source>
-            <translation>Porträtt</translation>
+            <translation>Stående</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Landscape</source>
-            <translation>Landskap</translation>
+            <translation>Liggande</translation>
         </message>
         <message>
             <location line="+9" />
@@ -12465,17 +12465,17 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+29" />
             <source>Place the object in the center of the screen in both the vertical and horizontal axis, not changing its size.</source>
-            <translation>Placera objektet i mitten av skärmen i både vertikal och horisontell axel, inte ändra sin storlek.</translation>
+            <translation>Placera objektet mitt på skärmen längs både den vertikala och horisontella axeln utan att ändra dess storlek.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Grow the horizontal and vertical size of the image if needed so it completely fills its screen.</source>
-            <translation>Öka bildens horisontella och vertikala storlek om det behövs så att den helt fyller sin skärm.</translation>
+            <translation>Öka bildens bredd och höjd vid behov så att den fyller skärmen helt.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>A non-sticky splash screen is hidden automatically when an activity is drawn. To hide a sticky splash screen, invoke QtAndroid::hideSplashScreen().</source>
-            <translation>icke-klisterig stänkskärm döljs automatiskt när en aktivitet ritas. För att dölja en klibbig stänkskärm, åberopa QtAndroid::hideSplashScreen().</translation>
+            <translation>En startskärm som inte är beständig döljs automatiskt när en aktivitet har ritats. Anropa QtAndroid::hideSplashScreen() för att dölja en beständig startskärm.</translation>
         </message>
         <message>
             <location line="+12" />
