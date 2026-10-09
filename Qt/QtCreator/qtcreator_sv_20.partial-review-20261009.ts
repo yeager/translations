@@ -29044,13 +29044,13 @@ Det är normalt ingen bra idé, eftersom filen sannolikt skrivs över under bygg
         <message>
             <location line="+335" />
             <source>&amp;Refactor</source>
-            <translation>&amp;R-faktor</translation>
+            <translation>&amp;Omstrukturera</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppoutline.cpp" line="+50" />
             <location filename="../../../src/plugins/cppeditor/cpptypehierarchy.cpp" line="-190" />
             <source>Expand All</source>
-            <translation>Expandera alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <location line="+2" />
@@ -29072,53 +29072,53 @@ Det är normalt ingen bra idé, eftersom filen sannolikt skrivs över under bygg
         <message>
             <location line="-84" />
             <source>Indent</source>
-            <translation>Dra in</translation>
+            <translation>Indrag</translation>
         </message>
         <message>
             <location line="-89" />
             <source>"public", "protected" and
 "private" within class body</source>
-            <translation>"offentlig", "skyddad" och
-"privat" inom klassorganisationen</translation>
+            <translation>”public”, ”protected” och
+”private” i klasskroppen</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Declarations relative to "public",
 "protected" and "private"</source>
-            <translation>Förklaringar om "offentlig",
-"skyddad" och "privat"</translation>
+            <translation>Deklarationer i förhållande till
+”public”, ”protected” och ”private”</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Statements within blocks</source>
-            <translation>Förklaringar inom block</translation>
+            <translation>Satser i block</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Declarations within
 "namespace" definition</source>
-            <translation>Förklaringar inom
-definitionen av namnrymd</translation>
+            <translation>Deklarationer i
+”namespace”-definitionen</translation>
         </message>
         <message>
             <location line="+144" />
             <source>Macros that can be used as statements without a trailing semicolon.</source>
-            <translation>Makro som kan användas som påståenden utan en avslutande semikolon.</translation>
+            <translation>Makron som kan användas som satser utan avslutande semikolon.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Statement Macros</source>
-            <translation>Förklaringsmakro</translation>
+            <translation>Satsmakron</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Braces</source>
-            <translation>Fjädrar</translation>
+            <translation>Klamrar</translation>
         </message>
         <message>
             <location line="-72" />
             <source>Indent Braces</source>
-            <translation>Indenterade fläckar</translation>
+            <translation>Dra in klamrar</translation>
         </message>
         <message>
             <location line="-93" />
@@ -29133,7 +29133,7 @@ definitionen av namnrymd</translation>
         <message>
             <location line="+1" />
             <source>Enum declarations</source>
-            <translation>Uppfyllandedeklarationer</translation>
+            <translation>Uppräkningsdeklarationer</translation>
         </message>
         <message>
             <location line="+2" />
@@ -29143,38 +29143,38 @@ definitionen av namnrymd</translation>
         <message>
             <location line="+162" />
             <source>"switch"</source>
-            <translation>"Switch"</translation>
+            <translation>”switch”</translation>
         </message>
         <message>
             <location line="-60" />
             <source>Indent within "switch"</source>
-            <translation>Indenterad inom "strömbrytare"</translation>
+            <translation>Dra in i ”switch”</translation>
         </message>
         <message>
             <location line="-101" />
             <source>"case" or "default"</source>
-            <translation>"fall" eller "förval"</translation>
+            <translation>”case” eller ”default”</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Statements relative to
 "case" or "default"</source>
-            <translation>Förklaringar avseende
-"fall" eller "förval"</translation>
+            <translation>Satser i förhållande till
+”case” eller ”default”</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Blocks relative to
 "case" or "default"</source>
             <translation>Block i förhållande till
-"fall" eller "standard"</translation>
+”case” eller ”default”</translation>
         </message>
         <message>
             <location line="+2" />
             <source>"break" statement relative to
 "case" or "default"</source>
-            <translation>"Knapp" i förhållande till
-"fall" eller "förval"</translation>
+            <translation>”break”-sats i förhållande till
+”case” eller ”default”</translation>
         </message>
         <message>
             <location line="+157" />
@@ -29203,14 +29203,14 @@ a = a +
 &lt;/pre&gt;
 &lt;/body&gt;&lt;/html&gt;</source>
             <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;
-Enables alignment to tokens after =, += etc. When the option is disabled, regular continuation line indentation will be used.&lt;br&gt;
+Aktiverar justering mot symboler efter =, += och så vidare. När alternativet är inaktiverat används vanligt indrag för fortsättningsrader.&lt;br&gt;
 &lt;br&gt;
-With alignment:
+Med justering:
 &lt;pre&gt;
 a = a +
     b
 &lt;/pre&gt;
-Without alignment:
+Utan justering:
 &lt;pre&gt;
 a = a +
         b
@@ -29220,14 +29220,14 @@ a = a +
         <message>
             <location line="-1" />
             <source>Align after assignments</source>
-            <translation>Anpassa efter uppdrag</translation>
+            <translation>Justera efter tilldelningar</translation>
         </message>
         <message>
             <location line="+17" />
             <source>Add extra padding to conditions
 if they would align to the next line</source>
-            <translation>Lägg till extra stoppning till förhållanden
-om de skulle anpassa sig till nästa linje</translation>
+            <translation>Lägg till extra indrag i villkor
+om de annars skulle justeras mot nästa rad</translation>
         </message>
         <message>
             <location line="+2" />
@@ -29248,15 +29248,15 @@ if (a &amp;&amp;
 &lt;/pre&gt;
 &lt;/body&gt;&lt;/html&gt;</source>
             <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;
-Adds an extra level of indentation to multiline conditions in the switch, if, while and foreach statements if they would otherwise have the same or less indentation than a nested statement.
+Lägger till en extra indragsnivå i flerradiga villkor i satserna switch, if, while och foreach om de annars skulle ha samma eller mindre indrag än en nästlad sats.
 
-For four-spaces indentation only if statement conditions are affected. Without extra padding:
+Vid indrag med fyra blanksteg påverkas endast villkor i if-satser. Utan extra indrag:
 &lt;pre&gt;
 if (a &amp;&amp;
     b)
     c;
 &lt;/pre&gt;
-With extra padding:
+Med extra indrag:
 &lt;pre&gt;
 if (a &amp;&amp;
         b)
@@ -29272,7 +29272,7 @@ if (a &amp;&amp;
         <message>
             <location line="-40" />
             <source>Bind '*' and '&amp;&amp;' in types/declarations to</source>
-            <translation>Bindning "*" och "&amp;&amp;" i typer/deklarationer till</translation>
+            <translation>Bind ”*” och ”&amp;&amp;” i typer/deklarationer till</translation>
         </message>
         <message>
             <location line="-75" />
@@ -29284,19 +29284,19 @@ if (a &amp;&amp;
    int (*pa)[2] = ...;
 
 &lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;Detta gäller
-inte stjärnan och
-referenssymbolen i pekaren/referensen
-till funktioner och matriser,
-t.ex.: &lt;pre&gt; int (&amp;rf)) =
-…; int (*pf) = …; int (&amp;ra)[2]
-= …; int (*pa)[2] = …;
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;Detta gäller inte stjärn- och referenssymbolen i pekare/referenser till funktioner och fält, till exempel:
+&lt;pre&gt;   int (&amp;rf)() = ...;
+   int (*pf)() = ...;
+
+   int (&amp;ra)[2] = ...;
+   int (*pa)[2] = ...;
+
 &lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location line="-1" />
             <source>Identifier</source>
-            <translation>Identifieringskod</translation>
+            <translation>Identifierare</translation>
         </message>
         <message>
             <location line="+10" />
@@ -29306,22 +29306,22 @@ t.ex.: &lt;pre&gt; int (&amp;rf)) =
         <message>
             <location line="+1" />
             <source>Left const/volatile</source>
-            <translation>Vänster const/volatila</translation>
+            <translation>const/volatile till vänster</translation>
         </message>
         <message>
             <location line="+2" />
             <source>This does not apply to references.</source>
-            <translation>Detta gäller inte hänvisningar.</translation>
+            <translation>Detta gäller inte referenser.</translation>
         </message>
         <message>
             <location line="-1" />
             <source>Right const/volatile</source>
-            <translation>Höger const/volatila</translation>
+            <translation>const/volatile till höger</translation>
         </message>
         <message>
             <location line="-68" />
             <source>Statements within function body</source>
-            <translation>Uttalanden inom tjänsteorgan</translation>
+            <translation>Satser i funktionskroppen</translation>
         </message>
         <message>
             <location line="+7" />
@@ -29352,7 +29352,7 @@ t.ex.: &lt;pre&gt; int (&amp;rf)) =
         <message>
             <location line="+6" />
             <source>S&amp;earch paths:</source>
-            <translation>Sökvägar till S&amp;earch:</translation>
+            <translation>&amp;Sökvägar:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -29361,16 +29361,16 @@ t.ex.: &lt;pre&gt; int (&amp;rf)) =
 Paths can be absolute or relative to the directory of the current open document.
 
 These paths are used in addition to current directory on Switch Header/Source.</source>
-            <translation>Lista med huvudsökvägar åtskilda med kommatecken.
-Sökvägar kan vara absoluta eller i
-förhållande till katalogen för det aktuella
-öppna dokumentet. Sökvägarna används förutom
-nuvarande katalog på Växla huvud/källa.</translation>
+            <translation>Kommaseparerad lista över headerfilsökvägar.
+
+Sökvägar kan vara absoluta eller relativa till katalogen för det aktuella öppna dokumentet.
+
+Dessa sökvägar används utöver den aktuella katalogen vid Växla mellan header och källfil.</translation>
         </message>
         <message>
             <location line="-105" />
             <source>Header File Variables</source>
-            <translation>Variabler i huvudfilen</translation>
+            <translation>Headerfilsvariabler</translation>
         </message>
         <message>
             <location line="+1" />
@@ -29380,12 +29380,12 @@ nuvarande katalog på Växla huvud/källa.</translation>
         <message>
             <location line="+147" />
             <source>Use "#pragma once" instead</source>
-            <translation>Använd "#pragma en gång" istället</translation>
+            <translation>Använd ”#pragma once” i stället</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Include guard template:</source>
-            <translation>Inkludera skyddsmall:</translation>
+            <translation>Mall för include-skydd:</translation>
         </message>
         <message>
             <location line="-49" />
