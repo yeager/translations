@@ -36203,17 +36203,17 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+9" />
             <source>The LLDB process failed to start. Either the invoked program "%1" is missing, or you may have insufficient permissions to invoke the program.</source>
-            <translation>LLDB- processen misslyckades med att starta. Antingen saknas programmet "%1" eller så har du inte tillräckligt med behörigheter för att åberopa programmet.</translation>
+            <translation>LLDB-processen kunde inte startas. Antingen saknas det anropade programmet ”%1” eller så saknar du behörighet att starta det.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>The LLDB process crashed some time after starting successfully.</source>
-            <translation>LLDB- processen kraschade en tid efter att den startats framgångsrikt.</translation>
+            <translation>LLDB-processen kraschade en stund efter att den startats.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>An error occurred when attempting to write to the LLDB process. For example, the process may not be running, or it may have closed its input channel.</source>
-            <translation>Ett fel uppstod när man försökte skriva till LLDB- processen. Till exempel kanske processen inte körs, eller så kan den ha stängt sin inmatningskanal.</translation>
+            <translation>Ett fel uppstod när skrivning till LLDB-processen försöktes. Processen kanske inte körs eller kan ha stängt sin inmatningskanal.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -36224,12 +36224,12 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
             <location filename="../../../src/plugins/debugger/dap/dapengine.cpp" line="-83" />
             <location filename="../../../src/plugins/debugger/pdb/pdbengine.cpp" line="+9" />
             <source>Adapter start failed</source>
-            <translation>Adapterstart misslyckades</translation>
+            <translation>Det gick inte att starta adaptern</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/lldb/lldbengine.cpp" line="-3" />
             <source>An error occurred when attempting to read from the Lldb process. For example, the process may not be running.</source>
-            <translation>Ett fel uppstod när man försökte läsa från Lldb- processen. Till exempel kanske processen inte körs.</translation>
+            <translation>Ett fel uppstod när läsning från LLDB-processen försöktes. Processen kanske inte körs.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggeritem.cpp" line="-121" />
@@ -36239,7 +36239,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+72" />
             <source>Could not determine debugger type</source>
-            <translation>Kunde inte bestämma felsökningstyp</translation>
+            <translation>Det gick inte att avgöra felsökartypen</translation>
         </message>
         <message>
             <location line="+2" />
@@ -36255,7 +36255,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
             <location line="+38" />
             <location filename="../../../src/plugins/debugger/debuggerkitaspect.cpp" line="-24" />
             <source>Type of Debugger Backend</source>
-            <translation>Typ av felsökningsgränssnitt</translation>
+            <translation>Typ av felsökarserverdel</translation>
         </message>
         <message>
             <location line="+5" />
@@ -36267,7 +36267,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
             <location line="+4" />
             <location filename="../../../src/plugins/debugger/debuggerkitaspect.cpp" line="+8" />
             <source>Unknown debugger ABI</source>
-            <translation>Okänd felsökning ABI</translation>
+            <translation>Okänd ABI för felsökaren</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggeritemmanager.cpp" line="+244" />
@@ -36294,7 +36294,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
             <location line="+144" />
             <source>Specify the path to the &lt;a href="%1"&gt;Windows Console Debugger executable&lt;/a&gt; (%2) here.</source>
             <extracomment>Label text for path configuration. %2 is "x-bit version".</extracomment>
-            <translation>Ange sökvägen till &lt;a href="%1"&gt;Windows Console Debugger executable&lt;/a&gt; (%2) här.</translation>
+            <translation>Ange sökvägen till den körbara filen för &lt;a href="%1"&gt;Windows Console Debugger&lt;/a&gt; (%2) här.</translation>
         </message>
         <message>
             <source>Clone</source>
@@ -36321,7 +36321,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="-720" />
             <source>Searching debuggers...</source>
-            <translation>Letar efter felsökare…</translation>
+            <translation>Söker efter felsökare …</translation>
         </message>
         <message>
             <location line="-290" />
@@ -36331,15 +36331,15 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+1" />
             <source>Detected %1 at %2</source>
-            <translation>Upptäckte %1 vid %2</translation>
+            <translation>Identifierade %1 vid %2</translation>
         </message>
         <message>
             <source>Found: "%1"</source>
-            <translation>Hittade: "%1"</translation>
+            <translation>Hittade: ”%1”</translation>
         </message>
         <message>
             <source>Removed "%1"</source>
-            <translation>Tog bort "%1"</translation>
+            <translation>Tog bort ”%1”</translation>
         </message>
         <message>
             <source>Debuggers:</source>
@@ -36360,52 +36360,52 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+116" />
             <source>Auto-detected CDB at "%1"</source>
-            <translation>Automatisk upptäckt CDB vid "%1"</translation>
+            <translation>Identifierade CDB automatiskt vid ”%1”</translation>
         </message>
         <message>
             <location line="+139" />
             <source>Added a surrogate GDB DAP item for existing entry "%1".</source>
-            <translation>Lägger till en surrogat GDB DAP objekt för befintlig post "%1".</translation>
+            <translation>Lade till en ersättande GDB-DAP-post för den befintliga posten ”%1”.</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Found: "%1".</source>
-            <translation>Hittade: "%1".</translation>
+            <translation>Hittade: ”%1”.</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Added a surrogate GDB DAP item for "%1".</source>
-            <translation>Tillagd en surrogat GDB DAP objekt för "%1".</translation>
+            <translation>Lade till en ersättande GDB-DAP-post för ”%1”.</translation>
         </message>
         <message>
             <location line="+42" />
             <source>Auto-detected uVision at "%1"</source>
-            <translation>Automatisk upptäckt av uVision vid "%1"</translation>
+            <translation>Identifierade uVision automatiskt vid ”%1”</translation>
         </message>
         <message>
             <location line="+198" />
             <source>Found debugger: "%1".</source>
-            <translation>Hittade felsökningssignalen: "%1".</translation>
+            <translation>Hittade felsökaren: ”%1”.</translation>
         </message>
         <message>
             <location line="+20" />
             <source>Removing debugger: "%1".</source>
-            <translation>Ta bort felsökning: "%1".</translation>
+            <translation>Tar bort felsökaren: ”%1”.</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Invalid JSON value for debugger: "%1".</source>
-            <translation>Ogiltigt JSON-värde för felsökning: "%1".</translation>
+            <translation>Ogiltigt JSON-värde för felsökaren: ”%1”.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Empty command for debugger.</source>
-            <translation>Tom kommando för felsökning.</translation>
+            <translation>Tomt kommando för felsökaren.</translation>
         </message>
         <message>
             <location line="+16" />
             <source>Failed to create debugger from JSON: %1</source>
-            <translation>Misslyckades skapa felsökning från JSON: %1</translation>
+            <translation>Det gick inte att skapa felsökaren från JSON: %1</translation>
         </message>
         <message>
             <location line="+121" />
@@ -36416,7 +36416,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+3" />
             <source>ABIs:</source>
-            <translation>ABIer:</translation>
+            <translation>ABI:er:</translation>
         </message>
         <message>
             <location line="+7" />
@@ -36441,12 +36441,12 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location filename="../../../src/plugins/debugger/gdb/gdbengine.cpp" line="+337" />
             <source>Starting executable failed:</source>
-            <translation>Körbar körning misslyckades:</translation>
+            <translation>Det gick inte att starta den körbara filen:</translation>
         </message>
         <message>
             <location line="-914" />
             <source>Cannot set up communication with child process: %1</source>
-            <translation>Kan inte ställa in kommunikation med barnprocess: %1</translation>
+            <translation>Det går inte att upprätta kommunikation med underprocessen: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="-188" />
