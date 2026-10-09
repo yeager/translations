@@ -12044,7 +12044,7 @@ en markeringskomponent.</translation>
     <name>ProceduralSkyTextureDataSection</name>
     <message>
         <source>Procedural Sky Texture Data</source>
-        <translation>Procedurella himmeltexturdata</translation>
+        <translation>Procedurdata för himmeltextur</translation>
     </message>
     <message>
         <source>Quality</source>
@@ -12088,7 +12088,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Modifies the curve (n^x) of the sky gradient from the horizon to the top.</source>
-        <translation>Ändrar kurvan (n^x) för himmelsövertoningen från horisonten till toppen.</translation>
+        <translation>Ändrar kurvan (n^x) för himmelsfärgövergången från horisonten till toppen.</translation>
     </message>
     <message>
         <source>Ground</source>
@@ -12124,7 +12124,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Specifies the color at the sun on the skybox.</source>
-        <translation>Anger färgen vid solen i skyboxen.</translation>
+        <translation>Anger solens färg i skyboxen.</translation>
     </message>
     <message>
         <source>Specifies the HDR color intensity of sun on the skybox.</source>
@@ -12148,7 +12148,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Modifies the curve (n^x) of the gradient from the sky color and the sun.</source>
-        <translation>Ändrar kurvan (n^x) för övertoningen från himmelsfärgen och solen.</translation>
+        <translation>Ändrar kurvan (n^x) för färgövergången mellan himmelsfärgen och solen.</translation>
     </message>
     <message>
         <source>Latitude</source>
