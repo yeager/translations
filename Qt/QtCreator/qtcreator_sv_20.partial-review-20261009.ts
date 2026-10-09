@@ -58661,7 +58661,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+1" />
             <source>Add a kit in the &lt;a href="buildandrun"&gt;options&lt;/a&gt; or via the maintenance tool of the SDK.</source>
-            <translation>Lägg till ett kit i &lt;a href="buildandrun"&gt;alternativen&lt;/a&gt; eller via underhållsverktyget för SDK.</translation>
+            <translation>Lägg till ett kit i &lt;a href="buildandrun"&gt;inställningarna&lt;/a&gt; eller med SDK:ns underhållsverktyg.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -58676,7 +58676,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+2" />
             <source>Hide unsuitable kits</source>
-            <translation>Göm olämpliga satser</translation>
+            <translation>Dölj olämpliga kit</translation>
         </message>
         <message>
             <location line="-305" />
@@ -58715,7 +58715,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
             <location line="+132" />
             <location line="+28" />
             <source>Kit Selection</source>
-            <translation>Kitväljare</translation>
+            <translation>Välj kit</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/targetsetupwidget.cpp" line="+411" />
@@ -58737,7 +58737,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/waitforstopdialog.cpp" line="+22" />
             <source>Waiting for Applications to Stop</source>
-            <translation>Väntar på att program ska stoppa</translation>
+            <translation>Väntar på att program ska avslutas</translation>
         </message>
         <message>
             <location line="+8" />
@@ -58750,7 +58750,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+20" />
             <source>Waiting for applications to stop.</source>
-            <translation>Väntar på att program ska stoppa.</translation>
+            <translation>Väntar på att program ska avslutas.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/appoutputpane.cpp" line="-2" />
@@ -58762,11 +58762,11 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
             <location filename="../../../src/plugins/compilationdatabaseprojectmanager/compilationdatabaseproject.cpp" line="+39" />
             <location filename="../../../src/plugins/projectexplorer/buildconfiguration.cpp" line="+5" />
             <source>Release</source>
-            <translation>Frisläppande</translation>
+            <translation>Utgåva</translation>
         </message>
         <message>
             <source>"data" for a "Form" page needs to be unset or an empty object.</source>
-            <translation>"data" för en "Form"-sida behöver avinställas eller vara ett tomt objekt.</translation>
+            <translation>"data" för en "Form"-sida måste vara ej angivet eller ett tomt objekt.</translation>
         </message>
         <message>
             <source>The process failed to start.</source>
@@ -58774,7 +58774,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         </message>
         <message>
             <source>Start removing auto-detected items associated with this docker image.</source>
-            <translation>Startar borttagning av automatiskt identifierade poster associerade med denna docker-avbild.</translation>
+            <translation>Startar borttagning av automatiskt identifierade poster kopplade till den här Docker-avbildningen.</translation>
         </message>
         <message>
             <source>Removing kits...</source>
@@ -58794,11 +58794,11 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         </message>
         <message>
             <source>Removal of previously auto-detected kit items finished.</source>
-            <translation>Borttagning av tidigare automatiskt identifierade kitposter är färdig.</translation>
+            <translation>Borttagningen av tidigare automatiskt identifierade kitposter är klar.</translation>
         </message>
         <message>
             <source>Start listing auto-detected items associated with this docker image.</source>
-            <translation>Startar listning av automatiskt identifierade poster associerade med denna docker-avbild.</translation>
+            <translation>Börjar lista automatiskt identifierade poster kopplade till den här Docker-avbildningen.</translation>
         </message>
         <message>
             <source>Kits:</source>
@@ -58814,7 +58814,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         </message>
         <message>
             <source>Listing of previously auto-detected kit items finished.</source>
-            <translation>Listning av tidigare automatiskt identifierade kitposter är färdig.</translation>
+            <translation>Listningen av tidigare automatiskt identifierade kitposter är klar.</translation>
         </message>
         <message>
             <source>Found "%1"</source>
@@ -58846,11 +58846,11 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         </message>
         <message>
             <source>Starting auto-detection. This will take a while...</source>
-            <translation>Startar automatisk upptäckt. Detta kan ta en stund…</translation>
+            <translation>Startar automatisk identifiering. Det kan ta en stund…</translation>
         </message>
         <message>
             <source>Registered kit %1</source>
-            <translation>Registrerat kit %1</translation>
+            <translation>Registrerade kitet %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/buildaspects.cpp" line="+48" />
@@ -58870,18 +58870,18 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+119" />
             <source>Build directory contains potentially problematic character "%1".</source>
-            <translation>Byggkatalogen innehåller potentiellt problematiska tecknet "%1".</translation>
+            <translation>Byggkatalogen innehåller det potentiellt problematiska tecknet "%1".</translation>
         </message>
         <message>
             <location line="+5" />
             <source>This warning can be suppressed &lt;a href="dummy"&gt;here&lt;/a&gt;.</source>
-            <translation>Denna varning kan tystas &lt;a href="dummy"&gt;här&lt;/a&gt;.</translation>
+            <translation>Den här varningen kan undertryckas &lt;a href="dummy"&gt;här&lt;/a&gt;.</translation>
         </message>
         <message>
             <location line="+30" />
             <location filename="../../../src/plugins/projectexplorer/buildpropertiessettings.cpp" line="+51" />
             <source>Separate debug info:</source>
-            <translation>Separat felsökningsinfo:</translation>
+            <translation>Separat felsökningsinformation:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/buildsystem.cpp" line="+403" />
