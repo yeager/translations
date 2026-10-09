@@ -77592,7 +77592,7 @@ Tryck på Retur för att stänga fönstret …</translation>
         </message>
         <message>
             <source>Failed to write output file.</source>
-            <translation>Misslyckades med att skriva utdatafil.</translation>
+            <translation>Det gick inte att skriva utdatafilen.</translation>
         </message>
         <message>
             <source>Command failed.</source>
@@ -77605,7 +77605,7 @@ in "%2".
 </source>
             <comment>Running &lt;cmd&gt; in &lt;workingdirectory&gt;</comment>
             <translation>Kör %1
-i "%2".
+i ”%2”.
 
 </translation>
         </message>
@@ -77629,7 +77629,7 @@ i "%2".
         <message>
             <location line="+7" />
             <source>Press and hold to reset to default.</source>
-            <translation>Tryck och håll för att återställa till standard.</translation>
+            <translation>Håll nedtryckt för att återställa standardvärdet.</translation>
         </message>
         <message>
             <location line="+945" />
@@ -77654,7 +77654,7 @@ i "%2".
         <message>
             <location filename="../../../src/libs/utils/basetreeview.cpp" line="+542" />
             <source>Show %1 Column</source>
-            <translation>Visa %1 kolumn</translation>
+            <translation>Visa kolumnen %1</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/clangutils.cpp" line="+55" />
@@ -77664,7 +77664,7 @@ i "%2".
         <message>
             <location line="+7" />
             <source>Failed to retrieve clangd version: Unexpected clangd output.</source>
-            <translation>Misslyckades hämta cangd- version: Oväntad cangd- utmatning.</translation>
+            <translation>Det gick inte att hämta clangd-versionen: oväntad utdata från clangd.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -77679,12 +77679,12 @@ i "%2".
         <message>
             <location filename="../../../src/libs/utils/filepath.cpp" line="+453" />
             <source>Internal DeviceFileAccess error: watch() did not return a result.</source>
-            <translation>Fel vid åtkomst till intern enhet: klockan () returnerade inget resultat.</translation>
+            <translation>Internt DeviceFileAccess-fel: watch() gav inget resultat.</translation>
         </message>
         <message>
             <location line="+446" />
             <source>Could not find temporary directory on device %1</source>
-            <translation>Kunde inte hitta tillfällig katalog på enheten %1</translation>
+            <translation>Kunde inte hitta en tillfällig katalog på enheten %1</translation>
         </message>
         <message>
             <location line="+20" />
@@ -77699,12 +77699,12 @@ i "%2".
         <message>
             <location line="+161" />
             <source>No device hook set.</source>
-            <translation>Ingen enhet krok uppsättning.</translation>
+            <translation>Ingen enhetskrok har angetts.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Cannot reach remote path "%1".</source>
-            <translation>Kan inte nå fjärrsökvägen "%1".</translation>
+            <translation>Kan inte nå fjärrsökvägen ”%1”.</translation>
         </message>
         <message>
             <location line="+556" />
@@ -77731,12 +77731,12 @@ i "%2".
         <message>
             <location line="+5" />
             <source>Could not set permissions on "%1"</source>
-            <translation>Kunde inte ställa in rättigheter på "%1"</translation>
+            <translation>Kunde inte ställa in behörigheter för ”%1”</translation>
         </message>
         <message>
             <location line="+23" />
             <source>Cannot create symbolic link to "%1" at "%2": Paths do not refer to the same device.</source>
-            <translation>Kan inte skapa symbolisk länk till "%1" vid "%2": Sökvägar hänvisar inte till samma enhet.</translation>
+            <translation>Kan inte skapa en symbolisk länk till ”%1” vid ”%2”: Sökvägarna avser inte samma enhet.</translation>
         </message>
         <message>
             <location line="+44" />
@@ -77746,7 +77746,7 @@ i "%2".
         <message>
             <location line="+398" />
             <source>No "localSource" device hook set.</source>
-            <translation>Ingen "lokal källa" enhetskrok.</translation>
+            <translation>Ingen enhetskrok för ”localSource” har angetts.</translation>
         </message>
         <message>
             <source>My Computer</source>
@@ -77780,12 +77780,12 @@ i "%2".
         <message>
             <location filename="../../../src/libs/utils/jsontreeitem.cpp" line="+22" />
             <source>Null</source>
-            <translation>Nötkött</translation>
+            <translation>Null</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Bool</source>
-            <translation>Bomull</translation>
+            <translation>Bool</translation>
         </message>
         <message>
             <location line="+2" />
@@ -77800,7 +77800,7 @@ i "%2".
         <message>
             <location line="+2" />
             <source>Array</source>
-            <translation>Ordförande</translation>
+            <translation>Fält</translation>
         </message>
         <message>
             <location line="+2" />
@@ -77823,11 +77823,11 @@ i "%2".
         </message>
         <message>
             <source>Internal socket error: %1</source>
-            <translation>Internt uttagsfel: %1</translation>
+            <translation>Internt socketfel: %1</translation>
         </message>
         <message>
             <source>Socket error: %1</source>
-            <translation>Uttagsfel: %1</translation>
+            <translation>Socketfel: %1</translation>
         </message>
         <message>
             <source>Internal protocol error: invalid packet size %1.</source>
@@ -77840,7 +77840,7 @@ i "%2".
         <message>
             <location filename="../../../src/libs/utils/macroexpander.cpp" line="+382" />
             <source>Infinite recursion error</source>
-            <translation>Obegränsat rekursionsproblem</translation>
+            <translation>Fel: oändlig rekursion</translation>
         </message>
         <message>
             <location line="+52" />
