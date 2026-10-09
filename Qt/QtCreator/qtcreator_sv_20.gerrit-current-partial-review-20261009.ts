@@ -2204,11 +2204,11 @@ Det ska vara en relativ sökväg.</translation>
     </message>
     <message>
         <source>Coordinate Operation</source>
-        <translation>Koordinatåtgärd</translation>
+        <translation>Koordinatoperation</translation>
     </message>
     <message>
         <source>Sets the texture coordinate operation for the buffer.</source>
-        <translation>Ställer in texturkoordinatåtgärden för bufferten.</translation>
+        <translation>Ställer in texturkoordinatoperationen för bufferten.</translation>
     </message>
     <message>
         <source>Allocation Flags</source>
@@ -3868,7 +3868,7 @@ Oskuggade material påverkas inte av miljön (till exempel ljus).</translation>
     </message>
     <message>
         <source>Sets the width of the lines when the geometry is using a primitive type of lines or line strips.</source>
-        <translation>Ställer in linjernas bredd när geometrin använder den primitiva typen linjer eller linjeremsor.</translation>
+        <translation>Ställer in linjebredden när geometrin använder linjer eller linjeremsor som primitivtyp.</translation>
     </message>
 </context>
 <context>
@@ -73016,7 +73016,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
     </message>
     <message>
         <source>Sets the quality of the shadow map created for shadow rendering.</source>
-        <translation>Anger kvaliteten på skuggkartan som skapas för skuggrendering.</translation>
+        <translation>Anger kvaliteten på skuggkartan som skapas för skuggåtergivning.</translation>
     </message>
     <message>
         <source>Bias</source>
