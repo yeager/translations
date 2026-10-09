@@ -47107,17 +47107,17 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location filename="../../../src/libs/languageserverprotocol/basemessage.cpp" line="+75" />
             <source>Cannot decode content with "%1". Falling back to "%2".</source>
-            <translation>Kan inte avkoda innehåll med "%1". Faller tillbaka på "%2".</translation>
+            <translation>Kan inte avkoda innehåll med ”%1”. Återgår till ”%2”.</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Expected an integer in "%1", but got "%2".</source>
-            <translation>Förväntade ett heltal i "%1", men fick "%2".</translation>
+            <translation>Förväntade ett heltal i ”%1”, men fick ”%2”.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/languageserverprotocol/jsonrpcmessages.cpp" line="+78" />
             <source>Could not parse JSON message: "%1".</source>
-            <translation>Kunde inte tolka JSON-meddelande: "%1".</translation>
+            <translation>Kunde inte tolka JSON-meddelandet ”%1”.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -47127,12 +47127,12 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location filename="../../../src/libs/languageserverprotocol/jsonrpcmessages.h" line="-79" />
             <source>No parameters in "%1".</source>
-            <translation>Inga parametrar i "%1".</translation>
+            <translation>Inga parametrar är angivna i ”%1”.</translation>
         </message>
         <message>
             <location line="+201" />
             <source>No ID set in "%1".</source>
-            <translation>Inget ID inställt i "%1".</translation>
+            <translation>Inget ID är angivet i ”%1”.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/languageserverprotocol/lsptypes.cpp" line="+449" />
@@ -47207,7 +47207,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+1" />
             <source>Qt for MCUs</source>
-            <translation>Qt for MCUer</translation>
+            <translation>Qt for MCUs</translation>
         </message>
         <message>
             <location line="+59" />
@@ -47227,7 +47227,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+1" />
             <source>Course</source>
-            <translation>Naturligtvis</translation>
+            <translation>Kurs</translation>
         </message>
         <message>
             <location line="+1" />
@@ -47268,7 +47268,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+16" />
             <source>Highlights</source>
-            <translation>Huvudpunkter</translation>
+            <translation>Höjdpunkter</translation>
         </message>
         <message>
             <location line="+19" />
@@ -47285,7 +47285,7 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
             <location line="+4" />
             <source>h</source>
             <comment>hours</comment>
-            <translation>Var är han?</translation>
+            <translation>t</translation>
         </message>
         <message>
             <location line="-2" />
@@ -47312,12 +47312,12 @@ Se dokumentationen för den aktuella språkservern för giltiga inställningar.<
         <message>
             <location line="+10" />
             <source>Objectives</source>
-            <translation>Syfte</translation>
+            <translation>Mål</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Search for Qt Academy courses...</source>
-            <translation>Sök efter Qt Academy kurser…</translation>
+            <translation>Sök efter Qt Academy-kurser...</translation>
         </message>
         <message>
             <location line="+237" />
