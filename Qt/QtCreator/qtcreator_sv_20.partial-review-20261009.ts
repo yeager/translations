@@ -68440,7 +68440,7 @@ Kunde inte starta kontrollprocessen.</translation>
             <location filename="../../../src/plugins/remotelinux/sshdevicewizard.cpp" line="+16" />
             <location filename="../../../src/plugins/remotelinux/sshkeycreationdialog.cpp" line="+62" />
             <source>Private key file:</source>
-            <translation>Privat nyckelfil:</translation>
+            <translation>Fil med privat nyckel:</translation>
         </message>
         <message>
             <source>Access via:</source>
@@ -68473,12 +68473,12 @@ Kunde inte starta kontrollprocessen.</translation>
         </message>
         <message>
             <source>Leave empty to look up executable in $PATH</source>
-            <translation>Lämna tom för att slå upp körbar fil i $PATH</translation>
+            <translation>Lämna tomt för att söka efter den körbara filen i $PATH</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/sshdevicewizard.cpp" line="-91" />
             <source>WizardPage</source>
-            <translation>GuidePage</translation>
+            <translation>Guidesida</translation>
         </message>
         <message>
             <location line="+15" />
@@ -68498,7 +68498,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+1" />
             <source>Cannot open remote terminal: Current kit has no device.</source>
-            <translation>Kan inte öppna fjärrterminal: Aktuellt kit har ingen enhet.</translation>
+            <translation>Kan inte öppna fjärrterminalen: Det aktuella kitet har ingen enhet.</translation>
         </message>
         <message>
             <location line="+22" />
@@ -68517,7 +68517,7 @@ Kunde inte starta kontrollprocessen.</translation>
         </message>
         <message>
             <source>Exit code is %1. stderr:</source>
-            <translation>Avslutskod är %1. stderr:</translation>
+            <translation>Avslutskoden är %1. stderr:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/linuxdevice.cpp" line="+1137" />
@@ -68532,21 +68532,21 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+10" />
             <source>Trying to kill "%1" on remote device...</source>
-            <translation>Försöker att döda "%1" på fjärrenheten…</translation>
+            <translation>Försöker avsluta ”%1” på fjärrenheten …</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Remote application killed.</source>
-            <translation>Fjärrprogrammet dödades.</translation>
+            <translation>Fjärrprogrammet avslutades.</translation>
         </message>
         <message>
             <source>Failed to kill remote application. Assuming it was not running.</source>
-            <translation>Misslyckades med att döda fjärrprogram. Antar att den inte körde.</translation>
+            <translation>Kunde inte avsluta fjärrprogrammet. Antar att det inte kördes.</translation>
         </message>
         <message>
             <location line="+20" />
             <source>Kill current application instance</source>
-            <translation>Döda aktuell programinstans</translation>
+            <translation>Avsluta aktuell programinstans</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/makeinstallstep.cpp" line="+89" />
@@ -68576,12 +68576,12 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+2" />
             <source>Use custom command line instead:</source>
-            <translation>Använd anpassad kommandorad istället:</translation>
+            <translation>Använd i stället en anpassad kommandorad:</translation>
         </message>
         <message>
             <location line="+168" />
             <source>Install into temporary host directory</source>
-            <translation>Installera till temporärkatalog på värden</translation>
+            <translation>Installera i en tillfällig värdkatalog</translation>
         </message>
         <message>
             <location line="-129" />
@@ -68601,22 +68601,22 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+6" />
             <source>The "make install" step should probably not be last in the list of deploy steps. Consider moving it up.</source>
-            <translation>Steget "make install" bör förmodligen inte vara sist i listan över utplaceringssteg. Överväg att flytta upp det.</translation>
+            <translation>Steget ”make install” bör troligen inte ligga sist i listan över distribueringssteg. Överväg att flytta upp det.</translation>
         </message>
         <message>
             <location line="+31" />
             <source>You need to add an install statement to your CMakeLists.txt file for deployment to work.</source>
-            <translation>Du behöver lägga till ett install-villkor till din CMakeLists.txt-fil för att distribution ska fungera.</translation>
+            <translation>Du måste lägga till en install-sats i CMakeLists.txt för att distribueringen ska fungera.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/remotelinuxcustomrunconfiguration.cpp" line="+47" />
             <source>Remote executable:</source>
-            <translation>Körbar fjärrfil:</translation>
+            <translation>Körbar fil på fjärren:</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Local executable:</source>
-            <translation>Lokalt körbar fil:</translation>
+            <translation>Lokal körbar fil:</translation>
         </message>
         <message>
             <location line="+21" />
@@ -68632,7 +68632,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+8" />
             <source>The remote executable must be set in order to run a custom remote run configuration.</source>
-            <translation>Fjärrkörbar måste ställas in för att köra en egen fjärrkörinställning.</translation>
+            <translation>Den körbara filen på fjärren måste anges för att en anpassad fjärrkörningskonfiguration ska kunna köras.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/genericdeploystep.cpp" line="+42" />
@@ -68647,7 +68647,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+3" />
             <source>Use sftp if available. Otherwise use default transfer.</source>
-            <translation>Använd sftp om möjligt. Annars använd standardöverföring.</translation>
+            <translation>Använd sftp om det är tillgängligt. Använd annars standardöverföringen.</translation>
         </message>
         <message>
             <location line="+1" />
