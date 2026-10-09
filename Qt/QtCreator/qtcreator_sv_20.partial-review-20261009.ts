@@ -68896,12 +68896,12 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+28" />
             <source>File Removal Failed</source>
-            <translation>Filborttagning misslyckades</translation>
+            <translation>Det gick inte att ta bort filen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Removing file %1 from the project failed.</source>
-            <translation>Borttagning av filen %1 från projektet misslyckades.</translation>
+            <translation>Det gick inte att ta bort filen %1 från projektet.</translation>
         </message>
         <message>
             <location line="+27" />
@@ -68984,7 +68984,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+3" />
             <source>The file %1 is not in a subdirectory of the resource file. You now have the option to copy this file to a valid location.</source>
-            <translation>Filen %1 är inte i en underkatalog av resursfilen. Du har nu valet att kopiera denna fil till en giltig plats.</translation>
+            <translation>Filen %1 ligger inte i en underkatalog till resursfilen. Du kan nu välja att kopiera filen till en giltig plats.</translation>
         </message>
         <message>
             <location line="+11" />
@@ -68994,7 +68994,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+25" />
             <source>Overwriting Failed</source>
-            <translation>Överskrivning misslyckades</translation>
+            <translation>Överskrivningen misslyckades</translation>
         </message>
         <message>
             <location line="+1" />
@@ -69004,7 +69004,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+6" />
             <source>Copying Failed</source>
-            <translation>Kopiering misslyckades</translation>
+            <translation>Kopieringen misslyckades</translation>
         </message>
         <message>
             <location line="+1" />
