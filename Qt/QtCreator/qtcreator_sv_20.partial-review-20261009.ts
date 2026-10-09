@@ -4005,31 +4005,31 @@ ska återges i texturen.</translation>
         </message>
         <message>
             <source>Move velocity</source>
-            <translation>Flyttningshastighet</translation>
+            <translation>Rörelsehastighet</translation>
         </message>
         <message>
             <source>Resize velocity</source>
-            <translation>Hastighet för storleksändring</translation>
+            <translation>Storleksändringshastighet</translation>
         </message>
         <message>
             <source>Sets the orientation of the list.</source>
-            <translation>Ställer in orienteringen för listan.</translation>
+            <translation>Anger listans orientering.</translation>
         </message>
         <message>
             <source>Sets the direction that the cells flow inside a list.</source>
-            <translation>Ställer in riktningen som celler flödar inne i en lista.</translation>
+            <translation>Anger flödesriktningen för cellerna i en lista.</translation>
         </message>
         <message>
             <source>Sets the spacing between components.</source>
-            <translation>Ställer in avståndet mellan komponenter.</translation>
+            <translation>Anger avståndet mellan komponenterna.</translation>
         </message>
         <message>
             <source>Sets in pixels how far the components are kept loaded outside the view's visible area.</source>
-            <translation>Ställer in i bildpunkter hur långt bort komponenterna hålls inlästa utanför vyns synliga område.</translation>
+            <translation>Anger i pixlar hur långt utanför vyns synliga område komponenterna hålls inlästa.</translation>
         </message>
         <message>
             <source>Toggles if the view manages the highlight.</source>
-            <translation>Växlar om vyn hanterar framhävningen.</translation>
+            <translation>Anger om vyn hanterar markeringen.</translation>
         </message>
         <message>
             <source>Preferred begin</source>
@@ -4056,7 +4056,7 @@ ska återges i texturen.</translation>
         </message>
         <message>
             <source>Whether the loader is currently active.</source>
-            <translation>Huruvida inläsaren är aktiv för närvarande.</translation>
+            <translation>Om inläsaren för närvarande är aktiv.</translation>
         </message>
         <message>
             <source>Source</source>
@@ -4064,7 +4064,7 @@ ska återges i texturen.</translation>
         </message>
         <message>
             <source>URL of the component to instantiate.</source>
-            <translation>URLen för komponenten att instansiera.</translation>
+            <translation>URL:en för komponenten som ska instansieras.</translation>
         </message>
         <message>
             <source>Source component</source>
@@ -4080,7 +4080,7 @@ ska återges i texturen.</translation>
         </message>
         <message>
             <source>Whether the component will be instantiated asynchronously.</source>
-            <translation>Huruvida komponenten kommer att instansieras asynkront.</translation>
+            <translation>Om komponenten instansieras asynkront.</translation>
         </message>
     </context>
     <context>
