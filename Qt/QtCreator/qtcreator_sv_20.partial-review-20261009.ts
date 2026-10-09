@@ -14326,17 +14326,17 @@ Det kan orsaka problem vid körning.
         <message>
             <location line="+5" />
             <source>Use a timeout while executing test cases.</source>
-            <translation>Använd en timeout när du utför testfall.</translation>
+            <translation>Använd en tidsgräns vid körning av testfall.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Timeout used when executing test cases. This will apply for each test case on its own, not the whole project. Overrides test framework or build system defaults.</source>
-            <translation>Tidsgräns som används vid körning av testfall. Det gäller för varje testfall på egen hand, inte hela projektet. Överskrider testramverk eller bygger systeminställningar.</translation>
+            <translation>Tidsgräns som används vid körning av testfall. Den gäller för varje enskilt testfall, inte för hela projektet. Åsidosätter standardinställningar i testramverket eller byggsystemet.</translation>
         </message>
         <message>
             <location line="+31" />
             <source>Automatically scrolls down when new items are added and scrollbar is at bottom.</source>
-            <translation>Rullar automatiskt ner när nya objekt läggs till och rullningslisten är längst ner.</translation>
+            <translation>Rullar automatiskt nedåt när nya objekt läggs till och rullningslisten är längst ned.</translation>
         </message>
         <message>
             <location line="+11" />
@@ -14352,13 +14352,13 @@ Det kan orsaka problem vid körning.
             <location line="+2" />
             <source>Allow passing arguments specified on the respective run configuration.
 Warning: this is an experimental feature and might lead to failing to execute the test executable.</source>
-            <translation>Tillåt att förbigångsargument anges för respektive körinställning. Varning: Det här
-är en experimentell funktion och kan leda till att körbar testkörning misslyckas.</translation>
+            <translation>Tillåt att argumenten från respektive körkonfiguration skickas vidare.
+Varning: Det här är en experimentell funktion och kan leda till att den körbara testfilen inte kan köras.</translation>
         </message>
         <message>
             <location line="+29" />
             <source>Runs chosen tests automatically if a build succeeded.</source>
-            <translation>Kör valda tester automatiskt om en byggnation lyckas.</translation>
+            <translation>Kör automatiskt de valda testerna om bygget lyckas.</translation>
         </message>
         <message>
             <location line="-74" />
@@ -14373,13 +14373,13 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <message>
             <location line="+74" />
             <source>Scan threads:</source>
-            <translation>Sök igenom trådar:</translation>
+            <translation>Skanningstrådar:</translation>
         </message>
         <message>
             <location line="-185" />
             <location line="+4" />
             <source>Selects the test frameworks to be handled by the AutoTest plugin.</source>
-            <translation>Väljer de testramar som ska hanteras av insticksprogrammet Autotest.</translation>
+            <translation>Väljer de testramverk som ska hanteras av AutoTest-insticksprogrammet.</translation>
         </message>
         <message>
             <location line="-1" />
@@ -14399,12 +14399,12 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <message>
             <location line="+185" />
             <source>Reset Cached Choices</source>
-            <translation>Återställ cached val</translation>
+            <translation>Återställ cachade val</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Clear all cached choices of run configurations for tests where the executable could not be deduced.</source>
-            <translation>Rensa alla cacheade val av körkonfigurationer för tester där körbar inte kunde härledas.</translation>
+            <translation>Rensa alla cachade val av körkonfigurationer för tester där den körbara filen inte kunde härledas.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -14415,7 +14415,7 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <message>
             <location line="-42" />
             <source>Automatically run</source>
-            <translation>Automatisk körning</translation>
+            <translation>Kör automatiskt</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/projectsettingswidget.cpp" line="-15" />
@@ -14426,12 +14426,12 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <message>
             <location filename="../../../src/plugins/autotest/testsettings.cpp" line="-181" />
             <source>Enable or disable test frameworks to be handled by the AutoTest plugin.</source>
-            <translation>Aktivera eller inaktivera testramar som ska hanteras av Autotest-insticksprogrammet.</translation>
+            <translation>Aktivera eller inaktivera testramverk som ska hanteras av AutoTest-insticksprogrammet.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Enable or disable grouping of test cases by folder.</source>
-            <translation>Aktivera eller inaktivera gruppering av testfall efter mapp.</translation>
+            <translation>Aktivera eller inaktivera gruppering av testfall per mapp.</translation>
         </message>
         <message>
             <location line="+37" />
@@ -14441,17 +14441,17 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <message>
             <location line="+1" />
             <source>You will not be able to use the AutoTest plugin without having at least one active test framework.</source>
-            <translation>Du kommer inte att kunna använda AutoTest plugin utan att ha minst en aktiv testram.</translation>
+            <translation>Du kan inte använda AutoTest-insticksprogrammet utan minst ett aktivt testramverk.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Mixing test frameworks and test tools.</source>
-            <translation>Blanda testramar och testverktyg.</translation>
+            <translation>Blanda testramverk och testverktyg.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Mixing test frameworks and test tools can lead to duplicating run information when using "Run All Tests", for example.</source>
-            <translation>Blanda testramar och testverktyg kan leda till dubblering körinformation när du använder "Run All Tests", till exempel.</translation>
+            <translation>Att blanda testramverk och testverktyg kan till exempel leda till dubblerad körinformation när ”Kör alla tester” används.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/testtreeitem.cpp" line="+50" />
@@ -14461,32 +14461,32 @@ Warning: this is an experimental feature and might lead to failing to execute th
         <message>
             <location filename="../../../src/plugins/autotest/ctest/ctestoutputreader.cpp" line="-85" />
             <source>Running tests for "%1".</source>
-            <translation>Kör tester för "%1".</translation>
+            <translation>Kör tester för ”%1”.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/ctest/ctesttreeitem.cpp" line="+104" />
             <source>Build and run device mismatch - skipping run of ctest.</source>
-            <translation>Bygg och kör enhet missmatchning - hoppa över körning av ctest.</translation>
+            <translation>Bygg- och körningsenheten skiljer sig åt. Körningen av ctest hoppas över.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Build or run device does not exist - skipping run of ctest.</source>
-            <translation>Bygg eller köra enhet finns inte - hoppa över körning av Ctest.</translation>
+            <translation>Bygg- eller körningsenheten finns inte. Körningen av ctest hoppas över.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/qtest/datataglocatorfilter.cpp" line="+73" />
             <source>Qt Test Data Tags</source>
-            <translation>Qt- datataggar för testdata</translation>
+            <translation>Qt Test-datataggar</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Locates Qt Test data tags inside the active project.</source>
-            <translation>Hittar Qt Test- datataggar inuti det aktiva projektet.</translation>
+            <translation>Hittar Qt Test-datataggar i det aktiva projektet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/testtreemodel.cpp" line="+289" />
             <source>Test run requests from the build system get processed only if there is no running build or test run.</source>
-            <translation>Test kör förfrågningar från byggsystemet behandlas endast om det inte finns någon kör bygg- eller testkörning.</translation>
+            <translation>Begäranden om testkörning från byggsystemet behandlas endast om inget bygge eller ingen testkörning pågår.</translation>
         </message>
     </context>
     <context>
