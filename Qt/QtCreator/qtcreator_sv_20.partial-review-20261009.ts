@@ -31728,17 +31728,17 @@ Du kan välja att vänta längre eller avbryta felsökningen.</numerusform>
         <message>
             <location line="+190" />
             <source>Process failed to start.</source>
-            <translation>Processen misslyckades att starta.</translation>
+            <translation>Processen kunde inte startas.</translation>
         </message>
         <message>
             <location line="+62" />
             <source>Executable failed: %1</source>
-            <translation>Körbar misslyckades: %1</translation>
+            <translation>Den körbara filen misslyckades: %1</translation>
         </message>
         <message>
             <location line="+543" />
             <source>Cannot Execute Python Code</source>
-            <translation>Kan inte köra Python- kod</translation>
+            <translation>Kan inte köra Python-kod</translation>
         </message>
         <message>
             <location line="+1" />
@@ -31748,53 +31748,53 @@ Du kan välja att vänta längre eller avbryta felsökningen.</numerusform>
         <message>
             <location line="+19" />
             <source>The selected build of GDB supports Python scripting, but the used version %1.%2 is not sufficient for %3. Python %4 or later is required.</source>
-            <translation>Den valda byggningen av GDB stöder skripthantering av Python, men den använda versionen %1.%2 räcker inte för %3. Python %4 eller senare krävs.</translation>
+            <translation>Den valda GDB-versionen stöder Python-skript, men den använda versionen %1.%2 räcker inte för %3. Python %4 eller senare krävs.</translation>
         </message>
         <message>
             <location line="+281" />
             <source>Step requested...</source>
-            <translation>Steg begärd…</translation>
+            <translation>Stegning begärdes …</translation>
         </message>
         <message>
             <location line="+65" />
             <source>Finish function requested...</source>
-            <translation>Slutför funktion begärd…</translation>
+            <translation>Avslutning av funktionen begärdes …</translation>
         </message>
         <message>
             <location line="+17" />
             <source>Step next requested...</source>
-            <translation>Stega nästa begärd…</translation>
+            <translation>Stega till nästa begärdes …</translation>
         </message>
         <message>
             <location line="+64" />
             <source>Run to line %1 requested...</source>
-            <translation>Kör till rad %1 begärd…</translation>
+            <translation>Körning till rad %1 begärdes …</translation>
         </message>
         <message>
             <location line="+23" />
             <source>Run to function %1 requested...</source>
-            <translation>Kör till funktion %1 begärd…</translation>
+            <translation>Körning till funktionen %1 begärdes …</translation>
         </message>
         <message>
             <location line="+29" />
             <source>Immediate return from function requested...</source>
-            <translation>Omedelbar återkomst från funktion begärd…</translation>
+            <translation>Omedelbar återgång från funktionen begärdes …</translation>
         </message>
         <message>
             <location line="+1681" />
             <source>Disassembler failed: %1</source>
-            <translation>Misslyckades med demontering: %1</translation>
+            <translation>Demonteraren misslyckades: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/cdb/cdbengine.cpp" line="+2755" />
             <location filename="../../../src/plugins/debugger/gdb/gdbengine.cpp" line="+300" />
             <source>Cannot Find Debugger Initialization Script</source>
-            <translation>Kan inte hitta avlusar initialiseringsskript</translation>
+            <translation>Kan inte hitta felsökarens initieringsskript</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/gdb/gdbengine.cpp" line="+1" />
             <source>The debugger settings point to a script file at "%1", which is not accessible. If a script file is not needed, consider clearing that entry to avoid this warning.</source>
-            <translation>Avlusarens inställningar pekar på en skriptfil vid "%1", som inte är tillgänglig. Om en skriptfil inte behövs, överväga att rensa den posten för att undvika denna varning.</translation>
+            <translation>Felsökarens inställningar pekar på skriptfilen ”%1”, som inte är åtkomlig. Om skriptfilen inte behövs kan du rensa posten för att undvika varningen.</translation>
         </message>
         <message>
             <location line="+57" />
@@ -31804,24 +31804,24 @@ Du kan välja att vänta längre eller avbryta felsökningen.</numerusform>
         <message>
             <location line="+20" />
             <source>GDB I/O Error</source>
-            <translation>Fel vid GDB I/ O</translation>
+            <translation>GDB-I/O-fel</translation>
         </message>
         <message>
             <location line="+28" />
             <source>Adapter Start Failed</source>
-            <translation>Adapterstart misslyckades</translation>
+            <translation>Det gick inte att starta adaptern</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/dap/dapengine.cpp" line="+697" />
             <location filename="../../../src/plugins/debugger/gdb/gdbengine.cpp" line="+36" />
             <source>Failed to Start Application</source>
-            <translation>Misslyckades med att starta program</translation>
+            <translation>Det gick inte att starta programmet</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/gdb/gdbengine.cpp" line="-3937" />
             <location filename="../../../src/plugins/debugger/uvsc/uvscengine.cpp" line="-16" />
             <source>Application started.</source>
-            <translation>Programmet startat.</translation>
+            <translation>Programmet startades.</translation>
         </message>
         <message>
             <source>Application running.</source>
@@ -31830,7 +31830,7 @@ Du kan välja att vänta längre eller avbryta felsökningen.</numerusform>
         <message>
             <location line="+5" />
             <source>Attached to stopped application.</source>
-            <translation>Fäst till stoppat program.</translation>
+            <translation>Ansluten till stoppat program.</translation>
         </message>
         <message>
             <location line="+4061" />
@@ -31843,18 +31843,18 @@ Du kan välja att vänta längre eller avbryta felsökningen.</numerusform>
         <message>
             <location filename="../../../src/plugins/debugger/breakhandler.cpp" line="-125" />
             <source>Stopped at breakpoint %1 in thread %2.</source>
-            <translation>Stoppad på brytpunkt %1 i tråd %2.</translation>
+            <translation>Stannade vid brytpunkt %1 i tråd %2.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/gdb/gdbengine.cpp" line="-1035" />
             <location line="+11" />
             <source>Snapshot Creation Error</source>
-            <translation>Fel vid ögonblicksbild av skapande</translation>
+            <translation>Fel när ögonblicksbild skapades</translation>
         </message>
         <message>
             <location line="-10" />
             <source>Cannot create snapshot file.</source>
-            <translation>Kan inte skapa ögonblicksfil.</translation>
+            <translation>Kan inte skapa fil för ögonblicksbild.</translation>
         </message>
         <message>
             <location line="-1834" />
@@ -31880,8 +31880,8 @@ Du kan välja att vänta längre eller avbryta felsökningen.</numerusform>
             <location line="-3941" />
             <source>The gdb process could not be stopped:
 %1</source>
-            <translation>Gdb-processen kunde
-inte stoppas: %1</translation>
+            <translation>GDB-processen kunde inte stoppas:
+%1</translation>
         </message>
         <message>
             <location line="+5" />
@@ -31894,8 +31894,8 @@ inte stoppas: %1</translation>
             <location line="+15" />
             <source>Connecting to remote server failed:
 %1</source>
-            <translation>Anslutning till fjärrserver
-misslyckades: %1</translation>
+            <translation>Det gick inte att ansluta till fjärrservern:
+%1</translation>
         </message>
         <message>
             <location line="+699" />
@@ -31906,12 +31906,12 @@ misslyckades: %1</translation>
         <message>
             <location line="+237" />
             <source>Application exited with exit code %1</source>
-            <translation>Ansökan avslutas med exitkod %1</translation>
+            <translation>Programmet avslutades med avslutskoden %1</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Application exited after receiving signal %1</source>
-            <translation>Ansökan avslutades efter att signal %1 tagits emot</translation>
+            <translation>Programmet avslutades efter att ha tagit emot signalen %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/watchhandler.cpp" line="+2124" />
@@ -31936,12 +31936,12 @@ misslyckades: %1</translation>
         <message>
             <location line="+7" />
             <source>Internal error: No uVision executable specified.</source>
-            <translation>Internt fel: Inget körbart UVision-program angivet.</translation>
+            <translation>Internt fel: Ingen körbar uVision-fil angavs.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Internal error: The specified uVision executable does not exist.</source>
-            <translation>Internt fel: Det angivna uVision- körbart programmet finns inte.</translation>
+            <translation>Internt fel: Den angivna körbara uVision-filen finns inte.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -31966,32 +31966,32 @@ misslyckades: %1</translation>
         <message>
             <location line="+116" />
             <source>UVSC: Starting execution failed.</source>
-            <translation>UVSC: Start av körning misslyckades.</translation>
+            <translation>UVSC: Det gick inte att starta körningen.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>UVSC: Stopping execution failed.</source>
-            <translation>UVSC: Avbryter körning misslyckades.</translation>
+            <translation>UVSC: Det gick inte att stoppa körningen.</translation>
         </message>
         <message>
             <location line="+14" />
             <source>UVSC: Setting local value failed.</source>
-            <translation>UVSC: Inställning av lokalt värde misslyckades.</translation>
+            <translation>UVSC: Det gick inte att ange lokalt värde.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>UVSC: Setting watcher value failed.</source>
-            <translation>UVSC: Inställning av bevakningsvärde misslyckades.</translation>
+            <translation>UVSC: Det gick inte att ange bevakningsvärde.</translation>
         </message>
         <message>
             <location line="+99" />
             <source>UVSC: Disassembling by address failed.</source>
-            <translation>UVSC: Inmontering av adress misslyckades.</translation>
+            <translation>UVSC: Det gick inte att demontera efter adress.</translation>
         </message>
         <message>
             <location line="+53" />
             <source>UVSC: Changing memory at address 0x%1 failed.</source>
-            <translation>UVSC: Misslyckades ändra minne vid adress 0x%1.</translation>
+            <translation>UVSC: Det gick inte att ändra minnet på adressen 0x%1.</translation>
         </message>
         <message>
             <location line="+9" />
