@@ -12592,13 +12592,13 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location filename="../../../src/plugins/qtapplicationmanager/appmanagercmakepackagestep.cpp" line="+58" />
             <source>Create Application Manager package with CMake</source>
-            <translation>Skapa Programhanterare-paket med CMake</translation>
+            <translation>Skapa Application Manager-paket med CMake</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qtapplicationmanager/appmanagercreatepackagestep.cpp" line="+40" />
             <location line="+59" />
             <source>Create Application Manager package</source>
-            <translation>Skapa Programhanterare-paket</translation>
+            <translation>Skapa Application Manager-paket</translation>
         </message>
         <message>
             <location line="-48" />
@@ -12615,13 +12615,13 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location filename="../../../src/plugins/qtapplicationmanager/appmanagerdeployconfigurationfactory.cpp" line="+37" />
             <source>Automatic Application Manager Deploy Configuration</source>
-            <translation>Automatisk inställning av programhanterarens distribution</translation>
+            <translation>Automatisk distributionskonfiguration för Application Manager</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qtapplicationmanager/appmanagerdeploypackagestep.cpp" line="-3" />
             <location line="+81" />
             <source>Deploy Application Manager package</source>
-            <translation>Paket för programhanterare för distribution</translation>
+            <translation>Distribuera Application Manager-paket</translation>
         </message>
         <message>
             <location line="-74" />
@@ -12631,7 +12631,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+54" />
             <source>Uploading finished.</source>
-            <translation>Laddar upp klart.</translation>
+            <translation>Uppladdningen är klar.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -12642,7 +12642,7 @@ Ange egenskapen ”%2” manuellt.</translation>
             <location filename="../../../src/plugins/qtapplicationmanager/appmanagerinstallpackagestep.cpp" line="-11" />
             <location line="+100" />
             <source>Install Application Manager package</source>
-            <translation>Installera programhanterare- paket</translation>
+            <translation>Installera Application Manager-paket</translation>
         </message>
         <message>
             <location line="-38" />
@@ -12652,27 +12652,27 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+15" />
             <source>Command finished successfully.</source>
-            <translation>Kommandot är klart.</translation>
+            <translation>Kommandot slutfördes utan fel.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Process failed: %1</source>
-            <translation>Process misslyckades: %1</translation>
+            <translation>Processen misslyckades: %1</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Process finished with exit code %1.</source>
-            <translation>Processen färdigställdes med avslutskod %1.</translation>
+            <translation>Processen avslutades med slutkod %1.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qtapplicationmanager/appmanagerrunconfiguration.cpp" line="+37" />
             <source>Run an Application Manager Package</source>
-            <translation>Kör ett programhanteringspaket</translation>
+            <translation>Kör ett Application Manager-paket</translation>
         </message>
         <message>
             <location line="+31" />
             <source>Run and Debug an Application Manager Package</source>
-            <translation>Kör och felsök ett Programhanterare-paket</translation>
+            <translation>Kör och felsök ett Application Manager-paket</translation>
         </message>
         <message>
             <location line="+1" />
@@ -12686,27 +12686,27 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location filename="../../../src/plugins/qtapplicationmanager/appmanagerruncontrol.cpp" line="+99" />
             <source>Starting Application Manager debugging...</source>
-            <translation>Startar felsökning av programhanteraren…</translation>
+            <translation>Startar felsökning av Application Manager…</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Using: %1.</source>
-            <translation>Användning: %1.</translation>
+            <translation>Använder: %1.</translation>
         </message>
         <message>
             <location line="+66" />
             <source>Cannot debug: Invalid target information.</source>
-            <translation>Kan inte felsöka: Ogiltig målinformation.</translation>
+            <translation>Kan inte felsöka: ogiltig målinformation.</translation>
         </message>
         <message>
             <location line="+16" />
             <source>Cannot debug: Only QML and native applications are supported.</source>
-            <translation>Kan inte felsöka: Bara QML och infödda program stöds.</translation>
+            <translation>Kan inte felsöka: endast QML- och inbyggda program stöds.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Cannot debug: Local executable is not set.</source>
-            <translation>Kan inte felsöka: Lokal körbar är inte inställd.</translation>
+            <translation>Kan inte felsöka: den lokala körbara filen är inte angiven.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qtapplicationmanager/appmanagerstringaspect.cpp" line="+27" />
@@ -12741,12 +12741,12 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+8" />
             <source>Restart if running:</source>
-            <translation>Starta om om kör:</translation>
+            <translation>Starta om om programmet körs:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Restarts the application in case it is already running.</source>
-            <translation>Startar om programmet i det fall att den redan kör.</translation>
+            <translation>Startar om programmet om det redan körs.</translation>
         </message>
         <message>
             <location line="+8" />
