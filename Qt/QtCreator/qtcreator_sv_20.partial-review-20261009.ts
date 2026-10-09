@@ -34136,22 +34136,22 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+166" />
             <source>CMake Preset</source>
-            <translation>CMake förinställd</translation>
+            <translation>CMake-förinställning</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Python Preset</source>
-            <translation>Python förinställd</translation>
+            <translation>Python-förinställning</translation>
         </message>
         <message>
             <location line="+18" />
             <source>DAP Breakpoint Preset</source>
-            <translation>DAP- brytpunkt förinställd</translation>
+            <translation>DAP-förinställning för brytpunkter</translation>
         </message>
         <message>
             <location line="+8" />
             <source>DAP Debugger Perspectives</source>
-            <translation>DAP- felsökningsperspektiv</translation>
+            <translation>DAP-felsökarperspektiv</translation>
         </message>
         <message>
             <location line="+4" />
@@ -34225,12 +34225,12 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+305" />
             <source>Current debugger location of %1</source>
-            <translation>Nuvarande felsökningsplats för %1</translation>
+            <translation>Aktuell felsökarplats för %1</translation>
         </message>
         <message>
             <location line="+129" />
             <source>Debugging has failed.</source>
-            <translation>Felsökning har misslyckats.</translation>
+            <translation>Felsökningen misslyckades.</translation>
         </message>
         <message>
             <location line="+150" />
@@ -34240,17 +34240,17 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+1" />
             <source>Note: </source>
-            <translation>Anmärkning:</translation>
+            <translation>Obs: </translation>
         </message>
         <message>
             <location line="+1" />
             <source>This feature is very slow and unstable on the GDB side. It exhibits unpredictable behavior when going backwards over system calls and is very likely to destroy your debugging session.</source>
-            <translation>Denna funktion är mycket långsam och instabil på GDB-sidan. Den uppvisar oförutsägbart beteende när man går bakåt över systemsamtal och är mycket sannolikt att förstöra din felsökning session.</translation>
+            <translation>Den här funktionen är mycket långsam och instabil i GDB. Den beter sig oförutsägbart när systemanrop passeras bakåt och kan med stor sannolikhet förstöra felsökningssessionen.</translation>
         </message>
         <message>
             <location line="+206" />
             <source>Operate in Reverse Direction</source>
-            <translation>Operera i omvänd riktning</translation>
+            <translation>Arbeta bakåt</translation>
         </message>
         <message>
             <location line="+224" />
@@ -34260,22 +34260,22 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+1" />
             <source>The %2 process terminated unexpectedly (exit code %1).</source>
-            <translation>%2-processen avslutades oväntat (avgångskod %1).</translation>
+            <translation>Processen %2 avslutades oväntat (avslutskod %1).</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Unexpected %1 Exit</source>
-            <translation>Oväntat %1-utgång</translation>
+            <translation>Oväntad avslutning av %1</translation>
         </message>
         <message>
             <location line="+161" />
             <source>Reverse-execution history exhausted. Going forward again.</source>
-            <translation>Omvänd avrättningshistoria är slut.</translation>
+            <translation>Historiken för bakåtkörning är slut. Fortsätter framåt igen.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Reverse-execution recording failed.</source>
-            <translation>Inspelning av omvänd körning misslyckades.</translation>
+            <translation>Inspelning för bakåtkörning misslyckades.</translation>
         </message>
         <message>
             <location line="+212" />
@@ -34286,7 +34286,7 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
         <message>
             <location line="+66" />
             <source>Stopped: "%1".</source>
-            <translation>Stoppad: "%1".</translation>
+            <translation>Stannade: ”%1”.</translation>
         </message>
         <message>
             <location line="+42" />
@@ -34313,9 +34313,9 @@ andra insticksprogram som du kan använda. Du kan bli ombedd att dela innehålle
             <source>The selected debugger may be inappropriate for the inferior.
 Examining symbols and setting breakpoints by file name and line number may fail.
 </source>
-            <translation>Den markerade felsökningen kan vara olämplig för den
-underlägsne. Att undersöka symboler och ställa in
-brytpunkter med filnamn och radnummer kan misslyckas.</translation>
+            <translation>Den valda felsökaren kanske inte lämpar sig för den underordnade processen.
+Det kan misslyckas att undersöka symboler och att sätta brytpunkter efter filnamn och radnummer.
+</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/breakhandler.cpp" line="+24" />
@@ -34365,7 +34365,7 @@ brytpunkter med filnamn och radnummer kan misslyckas.</translation>
         <message>
             <location line="+89" />
             <source>Add Qt sources...</source>
-            <translation>Lägg till Qt-källor…</translation>
+            <translation>Lägg till Qt-källor …</translation>
         </message>
         <message>
             <location line="+6" />
@@ -34375,7 +34375,7 @@ brytpunkter med filnamn och radnummer kan misslyckas.</translation>
         <message>
             <location line="+25" />
             <source>&lt;p&gt;Add a mapping for Qt's source folders when using an unpatched version of Qt.</source>
-            <translation>&lt;p&gt; Lägg till en mappning för Qts källkataloger när du använder en opaterad version av Qt.</translation>
+            <translation>&lt;p&gt;Lägg till en mappning för Qts källmappar när en opatchad version av Qt används.</translation>
         </message>
         <message>
             <location line="+24" />
