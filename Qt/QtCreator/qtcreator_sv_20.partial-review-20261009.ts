@@ -27476,7 +27476,7 @@ Dubbelklicka för att redigera posten.</translation>
         <message>
             <location filename="../../../src/plugins/coreplugin/themechooser.cpp" line="+43" />
             <source>unnamed</source>
-            <translation>ingetnamn</translation>
+            <translation>namnlös</translation>
         </message>
         <message>
             <location line="+74" />
@@ -27487,7 +27487,7 @@ Dubbelklicka för att redigera posten.</translation>
             <location filename="../../../src/plugins/coreplugin/generalsettings.cpp" line="+63" />
             <location filename="../../../src/plugins/coreplugin/themechooser.cpp" line="+38" />
             <source>The theme change will take effect after restart.</source>
-            <translation>Temaändringen blir aktiverad efter omstart.</translation>
+            <translation>Temaändringen träder i kraft efter omstart.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/versiondialog.cpp" line="+46" />
@@ -27553,21 +27553,21 @@ Dubbelklicka för att redigera posten.</translation>
         <message>
             <location filename="../../../src/plugins/coreplugin/coreconstants.h" line="+101" />
             <source>Cycle to Next Editor</source>
-            <translation>Cykel till nästa editor</translation>
+            <translation>Växla till nästa redigerare</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/editormanager/editorview.cpp" line="-1" />
             <source>Unpin</source>
-            <translation>Unpin</translation>
+            <translation>Lossa</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/envvarseparatoraspect.cpp" line="-99" />
             <source>For environment variables with list semantics that do not use the standard path list
 separator, you need to configure the respective separators here if you plan to
 aggregate them from several places (for instance from the kit and from the project).</source>
-            <translation>För miljövariabler med listasemantik som inte använder standardsökvägseparatorn
-måste du konfigurera respektive avskiljare här om du planerar att aggregera
-dem från flera platser (till exempel från satsen och från projektet).</translation>
+            <translation>För miljövariabler med listsemantik som inte använder den vanliga avgränsaren för sökvägslistor
+måste du ange respektive avgränsare här om du planerar att sammanställa
+dem från flera platser, till exempel från kitet och från projektet.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -27582,12 +27582,12 @@ dem från flera platser (till exempel från satsen och från projektet).</transl
         <message>
             <location filename="../../../src/plugins/coreplugin/mcp/mcpmanager.cpp" line="-270" />
             <source>Add MCP Server From Registry</source>
-            <translation>Lägg till MCP- server från registret</translation>
+            <translation>Lägg till MCP-server från registret</translation>
         </message>
         <message>
             <location line="+26" />
             <source>Filter servers...</source>
-            <translation>Filterservrar…</translation>
+            <translation>Filtrera servrar…</translation>
         </message>
         <message>
             <location line="+5" />
@@ -27597,7 +27597,7 @@ dem från flera platser (till exempel från satsen och från projektet).</transl
         <message>
             <location line="+1" />
             <source>npm</source>
-            <translation>Antal</translation>
+            <translation>npm</translation>
         </message>
         <message>
             <location line="+1" />
@@ -27607,7 +27607,7 @@ dem från flera platser (till exempel från satsen och från projektet).</transl
         <message>
             <location line="+1" />
             <source>NuGet</source>
-            <translation>Hämta</translation>
+            <translation>NuGet</translation>
         </message>
         <message>
             <location line="+1" />
@@ -27637,32 +27637,32 @@ dem från flera platser (till exempel från satsen och från projektet).</transl
         <message>
             <location line="+15" />
             <source>Remotes:</source>
-            <translation>Fjärr:</translation>
+            <translation>Fjärranslutningar:</translation>
         </message>
         <message>
             <location line="+43" />
             <source>The display name.</source>
-            <translation>Visandets namn.</translation>
+            <translation>Visningsnamnet.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&lt;New Server&gt;</source>
-            <translation>&lt;New Server&gt; Ordförande</translation>
+            <translation>&lt;Ny server&gt;</translation>
         </message>
         <message>
             <location line="+7" />
             <source>The command to launch the MCP server process. Only used for standard IO connection type.</source>
-            <translation>Kommandot för att starta MCP- serverprocessen. Används endast för standard IO- anslutningstyp.</translation>
+            <translation>Kommandot som startar MCP-serverprocessen. Används endast för standard-I/O-anslutningstypen.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>The arguments to launch the MCP server process. Only used for standard IO connection type.</source>
-            <translation>Argumenten för att starta MCP- serverprocessen. Används endast för standard IO- anslutningstyp.</translation>
+            <translation>Argumenten som startar MCP-serverprocessen. Används endast för standard-I/O-anslutningstypen.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>The URL to connect to the MCP server. Not used for standard IO connection type.</source>
-            <translation>Webbadressen som ska anslutas till MCP- servern. Används inte för standard IO- anslutningstyp.</translation>
+            <translation>URL:en för anslutning till MCP-servern. Används inte för standard-I/O-anslutningstypen.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -27672,12 +27672,12 @@ dem från flera platser (till exempel från satsen och från projektet).</transl
         <message>
             <location line="+2" />
             <source>The type of connection to use for the MCP server.</source>
-            <translation>Typ av anslutning som ska användas för MCP-servern.</translation>
+            <translation>Anslutningstypen som ska användas för MCP-servern.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Standard IO</source>
-            <translation>Standardavtal</translation>
+            <translation>Standard-I/O</translation>
         </message>
         <message>
             <location line="+3" />
@@ -27687,22 +27687,22 @@ dem från flera platser (till exempel från satsen och från projektet).</transl
         <message>
             <location line="+3" />
             <source>Streamable HTTP</source>
-            <translation>Strömmbar HTTP</translation>
+            <translation>Strömmande HTTP</translation>
         </message>
         <message>
             <location line="+6" />
             <source>HTTP headers:</source>
-            <translation>HTTP- huvuden:</translation>
+            <translation>HTTP-huvuden:</translation>
         </message>
         <message>
             <location line="+3" />
             <source>HTTP headers to include when connecting to the MCP server. Only used for HTTP connection types.</source>
-            <translation>HTTP- headers att inkludera vid anslutning till MCP- servern. Används bara för HTTP- anslutningstyper.</translation>
+            <translation>HTTP-huvuden som ska inkluderas vid anslutning till MCP-servern. Används endast för HTTP-anslutningstyper.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Environment variable changes applied when launching the MCP server process. Only used for standard IO connection type.</source>
-            <translation>Miljövariabelförändringar som tillämpas vid start av MCP- servern. Används endast för standard IO- anslutningstyp.</translation>
+            <translation>Miljövariabeländringar som tillämpas när MCP-serverprocessen startas. Används endast för standard-I/O-anslutningstypen.</translation>
         </message>
         <message>
             <location line="+277" />
