@@ -11540,7 +11540,7 @@ Detta kan inte ångras.</translation>
         <message>
             <location line="+51" />
             <source>Product type is not an application, not running the Make install step.</source>
-            <translation>Produkttyp är inte ett program, inte köra Make installation steg.</translation>
+            <translation>Produkttypen är inte ett program. Steget Make install körs inte.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -11551,8 +11551,8 @@ Detta kan inte ångras.</translation>
             <location line="+4" />
             <source>Failed to clean "%1" from the previous build, with error:
 %2</source>
-            <translation>Misslyckades rensa "%1" från
-föregående bygge, med fel: %2</translation>
+            <translation>Det gick inte att rensa ”%1” från föregående bygge. Fel:
+%2</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androiddevice.cpp" line="-850" />
@@ -11566,48 +11566,48 @@ föregående bygge, med fel: %2</translation>
         <message>
             <location filename="../../../src/plugins/android/androidrunner.cpp" line="+100" />
             <source>No free ports available on host for QML debugging.</source>
-            <translation>Inga gratisportar tillgängliga på värddatorn för QML-avlusning.</translation>
+            <translation>Inga lediga portar är tillgängliga på värddatorn för QML-felsökning.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androidrunnerworker.cpp" line="+289" />
             <source>Failed to forward %1 debugging ports.</source>
             <extracomment>%1 = QML/JDB/C++</extracomment>
-            <translation>Misslyckades vidarebefordra %1 felsökningsportar.</translation>
+            <translation>Det gick inte att vidarebefordra %1 felsökningsportar.</translation>
         </message>
         <message>
             <location line="+233" />
             <source>Activity Manager error: %1</source>
-            <translation>Fel vid aktivitetshanterare: %1</translation>
+            <translation>Fel i aktivitetshanteraren: %1</translation>
         </message>
         <message>
             <location line="+33" />
             <source>Android target "%1" terminated.</source>
-            <translation>Android mål "%1" avslutades.</translation>
+            <translation>Android-målet ”%1” avslutades.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Android target "%1" died.</source>
-            <translation>Android mål "%1" dog.</translation>
+            <translation>Android-målet ”%1” avslutades oväntat.</translation>
         </message>
         <message>
             <location line="+107" />
             <source>Failed to find application directory.</source>
-            <translation>Misslyckades med att hitta programkatalog.</translation>
+            <translation>Det gick inte att hitta programkatalogen.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Cannot find C++ debug server in NDK installation.</source>
-            <translation>Kan inte hitta C++ felsökningsserver i NDK-installation.</translation>
+            <translation>Det går inte att hitta C++-felsökningsservern i NDK-installationen.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>The lldb-server binary has not been found.</source>
-            <translation>Den lldb- server binären har inte hittats.</translation>
+            <translation>lldb-serverbinären hittades inte.</translation>
         </message>
         <message>
             <location line="+16" />
             <source>Cannot copy C++ debug server.</source>
-            <translation>Kan inte kopiera C++ felsökningsserver.</translation>
+            <translation>Det går inte att kopiera C++-felsökningsservern.</translation>
         </message>
         <message>
             <location line="+79" />
@@ -11622,12 +11622,12 @@ föregående bygge, med fel: %2</translation>
         <message>
             <location line="+10" />
             <source>Art: Compiled App Profiles.</source>
-            <translation>Art: Sammanställda appprofiler.</translation>
+            <translation>Art: Appprofilerna kompilerades.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Art: Compiling App Profiles failed.</source>
-            <translation>Art: Misslyckades kompilera app-profiler.</translation>
+            <translation>Art: Det gick inte att kompilera appprofiler.</translation>
         </message>
         <message>
             <source>General</source>
@@ -11637,7 +11637,7 @@ föregående bygge, med fel: %2</translation>
             <location filename="../../../src/plugins/android/androidtoolmenu.cpp" line="-302" />
             <location line="+15" />
             <source>Select Android Manifest Directory</source>
-            <translation>Välj Android Manifest katalog</translation>
+            <translation>Välj Android-manifestkatalog</translation>
         </message>
         <message>
             <location line="+2" />
@@ -11659,7 +11659,7 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         <message>
             <location line="+48" />
             <source>Operation Failed</source>
-            <translation>Operation misslyckades</translation>
+            <translation>Åtgärden misslyckades</translation>
         </message>
         <message>
             <location line="+1" />
@@ -11684,7 +11684,7 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         <message>
             <location line="+25" />
             <source>Android Manifest editor</source>
-            <translation>Android Manifest-redigerare</translation>
+            <translation>Android-manifestredigerare</translation>
         </message>
         <message>
             <location line="+15" />
@@ -11704,12 +11704,12 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         <message>
             <location line="+28" />
             <source>Manifest XML Source</source>
-            <translation>Manifest XML- källa</translation>
+            <translation>Manifestets XML-källa</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Icon Editor</source>
-            <translation>IkoneditorName</translation>
+            <translation>Ikonredigerare</translation>
         </message>
         <message>
             <location line="+6" />
@@ -11719,7 +11719,7 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         <message>
             <location line="+6" />
             <source>Splashscreen Editor</source>
-            <translation>SplashscreeneditorName</translation>
+            <translation>Startskärmsredigerare</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androidsdkmanagerdialog.cpp" line="-282" />
@@ -11748,7 +11748,7 @@ Välj den manuellt eller skapa den med hjälp av guiden.</translation>
         </message>
         <message>
             <source>Minimum required SDK:</source>
-            <translation>Minimum krav på SDK:</translation>
+            <translation>Minsta nödvändiga SDK:</translation>
         </message>
         <message>
             <source>Activity name:</source>
