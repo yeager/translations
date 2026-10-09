@@ -80496,27 +80496,27 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+110" />
             <source>Warning: The commit subject is very short.</source>
-            <translation>Varning: Det som är föremål för engagemang är mycket kort.</translation>
+            <translation>Varning: Incheckningsrubriken är mycket kort.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Warning: The commit subject is too long.</source>
-            <translation>Varning: Det är för länge kvar tills du har tagit ditt liv.</translation>
+            <translation>Varning: Incheckningsrubriken är för lång.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Hint: Aim for a shorter commit subject.</source>
-            <translation>Tips: Sikta på ett kortare ärende.</translation>
+            <translation>Tips: Försök skriva en kortare incheckningsrubrik.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Hint: The second line of a commit message should be empty.</source>
-            <translation>Tips: Den andra raden i ett meddelande om att göra ett åtagande bör vara tom.</translation>
+            <translation>Tips: Den andra raden i ett incheckningsmeddelande bör vara tom.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>&lt;p&gt;Writing good commit messages&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Avoid very short commit messages.&lt;/li&gt;&lt;li&gt;Consider the first line as a subject (like in emails) and keep it shorter than 72 characters.&lt;/li&gt;&lt;li&gt;After an empty second line, a longer description can be added.&lt;/li&gt;&lt;li&gt;Describe why the change was done, not how it was done.&lt;/li&gt;&lt;/ul&gt;</source>
-            <translation>&lt;p&gt;Writing good commit messages&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Avoid very short commit messages.&lt;/li&gt;&lt;li&gt;Consider the first line as a subject (like in emails) and keep it shorter than 72 characters.&lt;/li&gt;&lt;li&gt;After an empty second line, a longer description can be added.&lt;/li&gt;&lt;li&gt;Describe why the change was done, not how it was done.&lt;/li&gt;&lt;/ul&gt;</translation>
+            <translation>&lt;p&gt;Att skriva bra incheckningsmeddelanden&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Undvik mycket korta incheckningsmeddelanden.&lt;/li&gt;&lt;li&gt;Betrakta första raden som en rubrik, som i e-post, och håll den kortare än 72 tecken.&lt;/li&gt;&lt;li&gt;Efter en tom andra rad kan en längre beskrivning läggas till.&lt;/li&gt;&lt;li&gt;Beskriv varför ändringen gjordes, inte hur den gjordes.&lt;/li&gt;&lt;/ul&gt;</translation>
         </message>
         <message>
             <location line="+36" />
@@ -80536,13 +80536,13 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+39" />
             <source>&amp;Commit</source>
-            <translation>&amp;Commit Ordförande</translation>
+            <translation>&amp;Checka in</translation>
         </message>
         <message>
             <location line="+79" />
             <source>Check All</source>
             <extracomment>Check all for submit</extracomment>
-            <translation>Kontrollera alla</translation>
+            <translation>Markera alla</translation>
         </message>
         <message>
             <location line="+2" />
@@ -80554,13 +80554,13 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
             <location line="+3" />
             <source>Check Selected</source>
             <extracomment>Check selected for submit</extracomment>
-            <translation>Markera markerad</translation>
+            <translation>Markera valda</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Uncheck Selected</source>
             <extracomment>Uncheck selected for submit</extracomment>
-            <translation>Avmarkera markerad</translation>
+            <translation>Avmarkera valda</translation>
         </message>
         <message>
             <source>Unselect All</source>
@@ -80580,7 +80580,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+13" />
             <source>Diff &amp;Selected Files</source>
-            <translation>Diff &amp;S valda filer</translation>
+            <translation>Jämför &amp;valda filer</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/vcsbase/vcsbaseclientsettings.cpp" line="+26" />
@@ -80600,17 +80600,17 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location filename="../../../src/plugins/vcsbase/vcsbaseeditorconfig.cpp" line="+120" />
             <source>Reload</source>
-            <translation>Uppdatera</translation>
+            <translation>Läs in igen</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/vcsbase/vcsoutputformatter.cpp" line="+77" />
             <source>&amp;Open "%1"</source>
-            <translation>Ö&amp;ppna "%1"</translation>
+            <translation>&amp;Öppna ”%1”</translation>
         </message>
         <message>
             <location line="+3" />
             <source>&amp;Copy to clipboard: "%1"</source>
-            <translation>&amp;Kopiera till urklipp: "%1"</translation>
+            <translation>&amp;Kopiera till urklipp: ”%1”</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/vcsbase/vcsplugin.cpp" line="+7" />
@@ -80620,12 +80620,12 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+8" />
             <source>The current version control topic (branch or tag) identification of the current project.</source>
-            <translation>Det aktuella versionskontrollämnet (gren eller tagg) identifiering av det aktuella projektet.</translation>
+            <translation>Identifiering av den aktuella versionshanteringsgrenen eller taggen för det aktuella projektet.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>The top level path to the repository the current project is in.</source>
-            <translation>Den översta sökvägen till arkivet som det aktuella projektet är i.</translation>
+            <translation>Den översta sökvägen till det förråd där det aktuella projektet finns.</translation>
         </message>
     </context>
     <context>
