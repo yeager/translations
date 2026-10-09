@@ -79756,12 +79756,12 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
         <message>
             <location filename="../../../src/plugins/valgrind/valgrindprocess.cpp" line="+116" />
             <source>XmlServer on %1:</source>
-            <translation>XmlServer på %1:</translation>
+            <translation>XML-servern på %1:</translation>
         </message>
         <message>
             <location line="+17" />
             <source>LogServer on %1:</source>
-            <translation>LogServer på %1:</translation>
+            <translation>Loggservern på %1:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/valgrind/callgrindtool.cpp" line="-111" />
@@ -79776,8 +79776,8 @@ När ett problem identifieras avbryts programmet och kan felsökas.</translation
             <location filename="../../../src/plugins/valgrind/valgrindutils.cpp" line="+49" />
             <source>Valgrind executable "%1" not found or not executable.
 Check settings or ensure Valgrind is installed and available in PATH.</source>
-            <translation>Valgrind körbar "%1" hittades inte eller kan inte köras. Kontrollera
-inställningar eller försäkra dig om att Valgrind är installerat och finns i PATH.</translation>
+            <translation>Den körbara Valgrind-filen ”%1” hittades inte eller är inte körbar.
+Kontrollera inställningarna eller se till att Valgrind är installerat och finns i PATH.</translation>
         </message>
         <message>
             <location line="+88" />
@@ -79792,28 +79792,28 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location line="+3" />
             <source>The tool is designed to be used in Release mode.</source>
-            <translation>Verktyget är utformat för att användas i Release-läge.</translation>
+            <translation>Verktyget är avsett att användas i Release-läge.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>The tool is designed to be used with debug symbols (Debug or Profile mode).</source>
-            <translation>Verktyget är utformat för att användas med felsökningssymboler (Debug eller Profilläge).</translation>
+            <translation>Verktyget är avsett att användas med felsökningssymboler (Debug- eller Profile-läge).</translation>
         </message>
         <message>
             <location line="+4" />
             <source>The tool is designed to be used on optimized code (Profile or Release mode).</source>
-            <translation>Verktyget är utformat för att användas på optimerad kod (Profil eller Release-läge).</translation>
+            <translation>Verktyget är avsett att användas med optimerad kod (Profile- eller Release-läge).</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Run %1 in %2 Mode?</source>
             <extracomment>%1 = tool name, %2 = debug/release/profile</extracomment>
-            <translation>Kör %1 i %2-läget?</translation>
+            <translation>Köra %1 i %2-läge?</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&lt;p&gt;You are trying to run the tool "%1" on an application in %2 mode. %3&lt;/p&gt;&lt;p&gt;Run-time characteristics differ significantly between optimized and non-optimized binaries. Analytical findings for one mode may or may not be relevant for the other.&lt;/p&gt;&lt;p&gt;Running tools that need debug symbols on binaries that don't provide any may lead to missing function names or otherwise insufficient output.&lt;/p&gt;&lt;p&gt;Do you want to continue and run the tool in %2 mode?&lt;/p&gt;</source>
-            <translation>&lt;p&gt;You are trying to run the tool "%1" on an application in %2 mode. %3&lt;/p&gt;&lt;p&gt;Run-time characteristics differ significantly between optimized and non-optimized binaries. Analytical findings for one mode may or may not be relevant for the other.&lt;/p&gt;&lt;p&gt;Running tools that need debug symbols on binaries that don't provide any may lead to missing function names or otherwise insufficient output.&lt;/p&gt;&lt;p&gt;Do you want to continue and run the tool in %2 mode?&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Du försöker köra verktyget ”%1” för ett program i %2-läge. %3&lt;/p&gt;&lt;p&gt;Körningsegenskaperna skiljer sig avsevärt mellan optimerade och ooptimerade binärfiler. Analysresultat för ett läge kan vara relevanta eller irrelevanta för det andra.&lt;/p&gt;&lt;p&gt;Om verktyg som kräver felsökningssymboler körs på binärfiler som saknar sådana kan funktionsnamn saknas eller utdata bli otillräckliga.&lt;/p&gt;&lt;p&gt;Vill du fortsätta och köra verktyget i %2-läge?&lt;/p&gt;</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/valgrind/callgrindtool.cpp" line="-670" />
@@ -79834,12 +79834,12 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location filename="../../../src/plugins/valgrind/memchecktool.cpp" line="-601" />
             <source>Valgrind Memory Analyzer</source>
-            <translation>Valgrind minnesanalyserare</translation>
+            <translation>Valgrind-minnesanalysator</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/valgrind/callgrindtool.cpp" line="+213" />
             <source>Profile Costs of This Function and Its Callees</source>
-            <translation>Profilkostnader för denna funktion och dess Callees</translation>
+            <translation>Profilera kostnader för den här funktionen och dess anropade funktioner</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/valgrind/valgrindplugin.cpp" line="+35" />
@@ -79855,7 +79855,7 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location line="+6" />
             <source>%1 (Called: %2; Incl. Cost: %3)</source>
-            <translation>%1 (Ringd: %2; inkl. kostnad: %3)</translation>
+            <translation>%1 (Anropad: %2; inkluderande kostnad: %3)</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/valgrind/startremotedialog.cpp" line="+60" />
