@@ -49033,14 +49033,14 @@ för mål %1</translation>
         <message>
             <location line="+4" />
             <source>Wipe Project</source>
-            <translation>Städa projekt</translation>
+            <translation>Rensa projekt</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Wipes build directory and reconfigures using previous command line options.
 Useful if build directory is corrupted or when rebuilding with a newer version of Meson.</source>
-            <translation>Wipes bygga katalog och konfigurerar om med hjälp av tidigare kommandoradsalternativ.
-Användbar om byggkatalogen är skadad eller när den byggs om med en nyare version av Meson.</translation>
+            <translation>Rensar byggkatalogen och konfigurerar om med tidigare kommandoradsalternativ.
+Användbart om byggkatalogen är skadad eller om du bygger om med en nyare version av Meson.</translation>
         </message>
         <message>
             <location line="+25" />
@@ -49050,7 +49050,7 @@ Användbar om byggkatalogen är skadad eller när den byggs om med en nyare vers
         <message>
             <location filename="../../../src/plugins/mesonprojectmanager/mesonbuildsystem.cpp" line="+270" />
             <source>Meson build: Parsing failed</source>
-            <translation>Meson build: Misslyckades tolka</translation>
+            <translation>Meson-bygge: Tolkningen misslyckades</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/mesonprojectmanager/mesonprojectparser.cpp" line="+102" />
@@ -49070,17 +49070,17 @@ Användbar om byggkatalogen är skadad eller när den byggs om med en nyare vers
         <message>
             <location line="+7" />
             <source>Qt Designer Files</source>
-            <translation>Qt- designfiler</translation>
+            <translation>Qt Designer-filer</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Qt Resource Files</source>
-            <translation>Qt- resursfiler</translation>
+            <translation>Qt-resursfiler</translation>
         </message>
         <message>
             <location line="+7" />
             <source>QML Files</source>
-            <translation>QML- filer</translation>
+            <translation>QML-filer</translation>
         </message>
         <message>
             <location line="+7" />
@@ -49100,7 +49100,7 @@ Användbar om byggkatalogen är skadad eller när den byggs om med en nyare vers
         <message>
             <location line="+9" />
             <source>Executable does not exist: %1</source>
-            <translation>Körbara filen finns inte: %1</translation>
+            <translation>Den körbara filen finns inte: %1</translation>
         </message>
         <message>
             <location line="+5" />
@@ -49110,12 +49110,12 @@ Användbar om byggkatalogen är skadad eller när den byggs om med en nyare vers
         <message>
             <location filename="../../../src/plugins/mesonprojectmanager/mesonproject.cpp" line="+44" />
             <source>No Meson tool set.</source>
-            <translation>Ingen Meson verktygsuppsättning.</translation>
+            <translation>Inget Meson-verktyg är angivet.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>No compilers set in kit.</source>
-            <translation>Inga kompilatorer inställda i kit.</translation>
+            <translation>Inga kompilatorer är angivna i kitet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/mesonprojectmanager/toolkitaspectwidget.cpp" line="-124" />
@@ -49135,7 +49135,7 @@ Användbar om byggkatalogen är skadad eller när den byggs om med en nyare vers
         <message>
             <location line="+10" />
             <source>Cannot validate this meson executable.</source>
-            <translation>Kan inte validera denna körbara meson-fil.</translation>
+            <translation>Kan inte verifiera den här körbara Meson-filen.</translation>
         </message>
         <message>
             <location line="+37" />
@@ -49161,7 +49161,7 @@ Användbar om byggkatalogen är skadad eller när den byggs om med en nyare vers
         <message>
             <location line="+139" />
             <source>Meson Build</source>
-            <translation>Meson Bygga</translation>
+            <translation>Meson-bygge</translation>
         </message>
         <message>
             <source>Ninja Tool</source>
@@ -49169,7 +49169,7 @@ Användbar om byggkatalogen är skadad eller när den byggs om med en nyare vers
         </message>
         <message>
             <source>Cannot validate this Ninja executable.</source>
-            <translation>Kan inte validera denna körbara Ninja-fil.</translation>
+            <translation>Kan inte verifiera den här körbara Ninja-filen.</translation>
         </message>
         <message>
             <source>Ninja</source>
@@ -49178,7 +49178,7 @@ Användbar om byggkatalogen är skadad eller när den byggs om med en nyare vers
         <message>
             <location filename="../../../src/plugins/mesonprojectmanager/settings.cpp" line="+28" />
             <source>Autorun Meson</source>
-            <translation>Autorun Meson</translation>
+            <translation>Kör Meson automatiskt</translation>
         </message>
         <message>
             <location line="+1" />
@@ -49188,12 +49188,12 @@ Användbar om byggkatalogen är skadad eller när den byggs om med en nyare vers
         <message>
             <location line="+3" />
             <source>Meson verbose mode</source>
-            <translation>Meson verbose- läge</translation>
+            <translation>Utförligt läge för Meson</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Enables verbose mode by default when invoking Meson.</source>
-            <translation>Aktiverar verbose- läge som standard vid anrop av Meson.</translation>
+            <translation>Aktiverar utförligt läge som standard när Meson anropas.</translation>
         </message>
         <message>
             <location line="+20" />
@@ -49249,7 +49249,7 @@ Användbar om byggkatalogen är skadad eller när den byggs om med en nyare vers
         <message>
             <location line="+2" />
             <source>Set as the default Meson executable to use when creating a new kit or when no value is set.</source>
-            <translation>Ange som standard körbar Meson att använda när du skapar ett nytt kit eller när inget värde är inställt.</translation>
+            <translation>Ange som standard den körbara Meson-fil som används när ett nytt kit skapas eller när inget värde har angetts.</translation>
         </message>
         <message>
             <location line="-147" />
@@ -49264,17 +49264,17 @@ Användbar om byggkatalogen är skadad eller när den byggs om med en nyare vers
         <message>
             <location line="+20" />
             <source>Meson executable path does not exist.</source>
-            <translation>Meson körbar väg finns inte.</translation>
+            <translation>Sökvägen till den körbara Meson-filen finns inte.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Meson executable path is not a file.</source>
-            <translation>Meson körbar sökväg är inte en fil.</translation>
+            <translation>Sökvägen till den körbara Meson-filen är inte en fil.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Meson executable path is not executable.</source>
-            <translation>Meson körbar sökväg är inte körbar.</translation>
+            <translation>Sökvägen till den körbara Meson-filen är inte körbar.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -49284,12 +49284,12 @@ Användbar om byggkatalogen är skadad eller när den byggs om med en nyare vers
         <message>
             <location line="+49" />
             <source>New Meson</source>
-            <translation>Nya Meson</translation>
+            <translation>Nytt Meson</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/mesonprojectmanager/mesonprojectplugin.cpp" line="-17" />
             <source>Meson executable:</source>
-            <translation>Meson körbar:</translation>
+            <translation>Körbar Meson-fil:</translation>
         </message>
     </context>
     <context>
