@@ -79893,7 +79893,7 @@ Kontrollera inställningarna eller se till att Valgrind är installerat och finn
         <message>
             <location filename="../../../src/plugins/vcpkg/vcpkgmanifesteditor.cpp" line="+85" />
             <source>Copy paste the required lines into your CMakeLists.txt:</source>
-            <translation>Kopiera och klistra in nödvändiga rader till din CMakeLists.txt:</translation>
+            <translation>Kopiera och klistra in de nödvändiga raderna i din CMakeLists.txt:</translation>
         </message>
         <message>
             <location line="+16" />
@@ -79908,7 +79908,7 @@ Kontrollera inställningarna eller se till att Valgrind är installerat och finn
         <message>
             <location line="+60" />
             <source>Vcpkg Manifest Editor</source>
-            <translation>Manifestredigerare för Vcpkg</translation>
+            <translation>vcpkg-manifestredigerare</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/vcpkg/vcpkgsearch.cpp" line="+88" />
@@ -79918,7 +79918,7 @@ Kontrollera inställningarna eller se till att Valgrind är installerat och finn
         <message>
             <location line="+22" />
             <source>This package is already a project dependency.</source>
-            <translation>Detta paket är redan ett projektberoende.</translation>
+            <translation>Det här paketet är redan ett beroende för projektet.</translation>
         </message>
         <message>
             <location line="+12" />
@@ -79953,12 +79953,12 @@ Kontrollera inställningarna eller se till att Valgrind är installerat och finn
         <message>
             <location line="+1" />
             <source>Homepage:</source>
-            <translation>Webbsida:</translation>
+            <translation>Hemsida:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/vcpkg/vcpkgsettings.cpp" line="+88" />
             <source>Vcpkg installation</source>
-            <translation>Vcpkg-installation</translation>
+            <translation>vcpkg-installation</translation>
         </message>
     </context>
     <context>
