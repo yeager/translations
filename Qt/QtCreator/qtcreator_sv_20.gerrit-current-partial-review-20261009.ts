@@ -1687,7 +1687,7 @@ Det ska vara en relativ sökväg.</translation>
     </message>
     <message>
         <source>Set bar spacing relative to thickness</source>
-        <translation>Ange stapelmellanrummet relativt till tjockleken</translation>
+        <translation>Ställ in stapelmellanrummet i förhållande till tjockleken.</translation>
     </message>
     <message>
         <source>Series Margin</source>
