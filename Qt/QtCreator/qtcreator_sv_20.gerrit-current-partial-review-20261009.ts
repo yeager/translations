@@ -27418,7 +27418,7 @@ För att göra detta skriver du den här genvägen och ett blanksteg i Locator-i
     </message>
     <message>
         <source>Internal error: Type is invalid</source>
-        <translation>Internt fel. Typen är ogiltig</translation>
+        <translation>Internt fel: Typen är ogiltig</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -54201,7 +54201,7 @@ Välj en annan sökväg.</translation>
     </message>
     <message>
         <source>Unable to read &quot;%1&quot;: The file is empty.</source>
-        <translation>Kunde inte läsa &quot;%1&quot;. Filen är tom.</translation>
+        <translation>Kunde inte läsa &quot;%1&quot;: Filen är tom.</translation>
     </message>
     <message>
         <source>Unable to parse &quot;%1&quot;:%2: %3</source>
