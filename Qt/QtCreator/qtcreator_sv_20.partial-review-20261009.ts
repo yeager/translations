@@ -54667,7 +54667,7 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+1" />
             <source>Javascript</source>
-            <translation>Javascript</translation>
+            <translation>JavaScript</translation>
         </message>
         <message>
             <location line="+1" />
@@ -54687,7 +54687,7 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+1" />
             <source>Define Project Configuration</source>
-            <translation>Definiera projektkonfiguration</translation>
+            <translation>Ange projektkonfiguration</translation>
         </message>
         <message>
             <location line="+1" />
@@ -54739,7 +54739,7 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
             <location line="+23" />
             <location line="+20" />
             <source>Repository:</source>
-            <translation>Förråd:</translation>
+            <translation>Arkiv:</translation>
         </message>
         <message>
             <location line="-94" />
@@ -54748,12 +54748,12 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
             <location line="+23" />
             <location line="+20" />
             <source>Repository URL is not valid</source>
-            <translation>Förråds-URLen är inte giltig</translation>
+            <translation>Arkiv-URL:en är inte giltig</translation>
         </message>
         <message>
             <location line="-42" />
             <source>&lt;default branch&gt;</source>
-            <translation>&lt;default branch&gt; Ordförande</translation>
+            <translation>&lt;standardgren&gt;</translation>
         </message>
         <message>
             <location line="+1" />
@@ -54790,12 +54790,12 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+3" />
             <source>Specify repository URL, branch, checkout directory, and path.</source>
-            <translation>Ange förråds-URL, branch, utcheckningskatalog och sökväg.</translation>
+            <translation>Ange arkivets URL, gren, utcheckningskatalog och sökväg.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Running Git clone...</source>
-            <translation>Kör Git clone…</translation>
+            <translation>Git clone körs…</translation>
         </message>
         <message>
             <location line="-56" />
@@ -54837,12 +54837,12 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+730" />
             <source>Clones a Git repository and tries to load the contained project.</source>
-            <translation>Klonar ett Git-förråd och försöker att läsa in dess innehållande projekt.</translation>
+            <translation>Klonar ett Git-arkiv och försöker läsa in projektet det innehåller.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Git Clone</source>
-            <translation>Git Clone</translation>
+            <translation>Git-kloning</translation>
         </message>
         <message>
             <location line="-46" />
@@ -54857,12 +54857,12 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+1" />
             <source>Creates a project with a structure that is compatible both with Qt Design Studio and with Qt Creator. It contains a .ui.qml form that you can visually edit in Qt Design Studio.</source>
-            <translation>Skapar ett projekt med en struktur som är kompatibel både med Qt Design Studio och Qt Creator. Den innehåller en .ui.qml form som du kan visuellt redigera i Qt Design Studio.</translation>
+            <translation>Skapar ett projekt med en struktur som är kompatibel med både Qt Design Studio och Qt Creator. Det innehåller ett .ui.qml-formulär som du kan redigera visuellt i Qt Design Studio.</translation>
         </message>
         <message>
             <location line="+94" />
             <source>Qt 6.8</source>
-            <translation>Antal anställda</translation>
+            <translation>Qt 6.8</translation>
         </message>
         <message>
             <location line="+8" />
@@ -54872,12 +54872,12 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+18" />
             <source>Request passthrough</source>
-            <translation>Begäran om genomgång</translation>
+            <translation>Begär genomsläpp</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Request permissions for passthrough mode.</source>
-            <translation>Begär behörighet för genomgångsläge.</translation>
+            <translation>Begär behörighet för genomsläppsläge.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -54897,7 +54897,7 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+1" />
             <source>Request permissions for anchors API.</source>
-            <translation>Begär tillstånd för ankare API.</translation>
+            <translation>Begär behörighet för ankars-API:t.</translation>
         </message>
         <message>
             <location line="+1" />
