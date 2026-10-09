@@ -60578,12 +60578,12 @@ Välj en annan sökväg.</translation>
         <message>
             <location filename="../../../src/plugins/python/pipsupport.cpp" line="+65" />
             <source>Update Requirements</source>
-            <translation>Uppdatera krav</translation>
+            <translation>Uppdatera beroenden</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Install Requirements</source>
-            <translation>Installera krav</translation>
+            <translation>Installera beroenden</translation>
         </message>
         <message>
             <location line="+3" />
@@ -60614,12 +60614,12 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+19" />
             <source>Installing "%1" failed: %2</source>
-            <translation>Misslyckades installera "%1": %2</translation>
+            <translation>Installationen av "%1" misslyckades: %2</translation>
         </message>
         <message>
             <location line="+6" />
             <source>The installation of "%1" was canceled by timeout.</source>
-            <translation>Installationen av "%1" avbröts av överstigen tidsgräns.</translation>
+            <translation>Installationen av "%1" avbröts på grund av tidsgränsen.</translation>
         </message>
         <message>
             <source>The installation of "%1" was canceled by the user.</source>
@@ -60627,12 +60627,12 @@ Välj en annan sökväg.</translation>
         </message>
         <message>
             <source>Installing "%1" failed with exit code %2.</source>
-            <translation>Installation av "%1" misslyckades med avslutskod %2.</translation>
+            <translation>Installationen av "%1" misslyckades med slutkod %2.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/python/pyside.cpp" line="+136" />
             <source>Missing PySide6 Installation</source>
-            <translation>Saknar PySide6 installation</translation>
+            <translation>PySide6-installation saknas</translation>
         </message>
         <message>
             <location line="+1" />
@@ -60657,7 +60657,7 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+8" />
             <source>Select which version to install:</source>
-            <translation>Välj vilken version att installera:</translation>
+            <translation>Välj vilken version som ska installeras:</translation>
         </message>
         <message>
             <location line="+2" />
@@ -60667,7 +60667,7 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+4" />
             <source>PySide %1 Wheel (%2)</source>
-            <translation>PySide %1 hjul (%2)</translation>
+            <translation>PySide %1-wheel (%2)</translation>
         </message>
         <message>
             <location line="+37" />
@@ -60693,12 +60693,12 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="-195" />
             <source>PySide project tool:</source>
-            <translation>Projektverktyget PySide:</translation>
+            <translation>Projektverktyget PySide6:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Enter location of PySide project tool.</source>
-            <translation>Ange var projektet PySides verktyg finns.</translation>
+            <translation>Ange sökvägen till projektverktyget för PySide.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -60708,12 +60708,12 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+1" />
             <source>Enter location of PySide uic tool.</source>
-            <translation>Ange var PySides användarverktyg finns.</translation>
+            <translation>Ange sökvägen till PySide-verktyget uic.</translation>
         </message>
         <message>
             <location line="+165" />
             <source>Effective venv:</source>
-            <translation>Effektiv venv:</translation>
+            <translation>Aktiv venv:</translation>
         </message>
         <message>
             <location line="+72" />
@@ -60729,7 +60729,7 @@ Välj en annan sökväg.</translation>
             <location line="+16" />
             <source>%1 Virtual Environment</source>
             <extracomment>%1 = name of this Python as registered in QtC</extracomment>
-            <translation>%1 virtuell miljö</translation>
+            <translation>%1-virtuell miljö</translation>
         </message>
         <message>
             <source> Virtual Environment</source>
@@ -60749,7 +60749,7 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+3" />
             <source>REPL Import File</source>
-            <translation>REPL Importfil</translation>
+            <translation>Importfil för REPL</translation>
         </message>
         <message>
             <location line="+1" />
@@ -60759,7 +60759,7 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+3" />
             <source>REPL Import *</source>
-            <translation>Import av REPL *</translation>
+            <translation>Importera * i REPL</translation>
         </message>
         <message>
             <location line="+1" />
@@ -60769,7 +60769,7 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+40" />
             <source>Open interactive Python. Either importing nothing, importing the current file, or importing everything (*) from the current file.</source>
-            <translation>Öppna interaktiv Python. Antingen importera ingenting, importera aktuella filen eller importera allting (*) från aktuella filen.</translation>
+            <translation>Öppna interaktiv Python, antingen utan import, med import av den aktuella filen eller med import av allt (*) från den aktuella filen.</translation>
         </message>
         <message>
             <location line="+141" />
@@ -60799,7 +60799,7 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+260" />
             <source>Install Python language server (PyLS) for %1 (%2). The language server provides Python specific completion and annotation.</source>
-            <translation>Installera Python-språkserver (PyLS) för %1 (%2). Språkservern tillhandahåller Python-specifik komplettering och anteckningsfunktioner.</translation>
+            <translation>Installera Python-språkservern (PyLS) för %1 (%2). Språkservern ger Python-specifik komplettering och annotering.</translation>
         </message>
         <message>
             <location line="+11" />
