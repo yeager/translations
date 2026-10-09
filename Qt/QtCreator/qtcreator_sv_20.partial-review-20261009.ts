@@ -24058,7 +24058,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+56" />
             <source>Filter categories by regular expression</source>
-            <translation>Filtrera kategorier efter reguljärt uttryck</translation>
+            <translation>Filtrera kategorier med reguljära uttryck</translation>
         </message>
         <message>
             <location line="+10" />
@@ -24098,12 +24098,12 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+31" />
             <source>Save Enabled as Preset...</source>
-            <translation>Spara aktiverade som förval…</translation>
+            <translation>Spara aktiverade som förinställning…</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Update from Preset...</source>
-            <translation>Uppdatera från förval…</translation>
+            <translation>Uppdatera från förinställning…</translation>
         </message>
         <message>
             <location line="-70" />
@@ -24118,12 +24118,12 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+14" />
             <source>Failed to write logs to "%1".</source>
-            <translation>Misslyckades med att skriva loggar till "%1".</translation>
+            <translation>Det gick inte att skriva loggar till ”%1”.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Failed to open file "%1" for writing logs.</source>
-            <translation>Misslyckades med att öppna filen "%1" för skrivning av loggar.</translation>
+            <translation>Det gick inte att öppna filen ”%1” för att skriva loggar.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -24133,12 +24133,12 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+48" />
             <source>Failed to open preset file "%1" for reading.</source>
-            <translation>Misslyckades med att öppna förvalsfilen "%1" för läsning.</translation>
+            <translation>Det gick inte att öppna förinställningsfilen ”%1” för läsning.</translation>
         </message>
         <message>
             <location line="-13" />
             <source>Failed to write preset file "%1".</source>
-            <translation>Misslyckades med att skriva förvalsfilen "%1".</translation>
+            <translation>Det gick inte att skriva förinställningsfilen ”%1”.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -24148,29 +24148,29 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+17" />
             <source>Failed to read preset file "%1": %2</source>
-            <translation>Misslyckades med att läsa förvalsfilen "%1": %2</translation>
+            <translation>Det gick inte att läsa förinställningsfilen ”%1”: %2</translation>
         </message>
         <message>
             <location line="+29" />
             <source>Unexpected preset file format.</source>
-            <translation>Oväntat format för förvalsfilen.</translation>
+            <translation>Oväntat filformat för förinställningen.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/outputpanemanager.cpp" line="-273" />
             <source>Show Non-matching Lines</source>
-            <translation>Visa icke-matchande rader</translation>
+            <translation>Visa rader som inte matchar</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Show {} &amp;preceding lines</source>
             <extracomment>The placeholder "{}" is replaced by a spin box for selecting a number.</extracomment>
-            <translation>Visa linjer med &amp;precedering {}</translation>
+            <translation>Visa {} &föregående rader</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Show {} &amp;subsequent lines</source>
             <extracomment>The placeholder "{}" is replaced by a spin box for selecting a number.</extracomment>
-            <translation>Visa linjer för &amp;subsequent</translation>
+            <translation>Visa {} &efterföljande rader</translation>
         </message>
         <message>
             <location line="+12" />
@@ -24249,7 +24249,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location filename="../../../src/plugins/coreplugin/plugininstallwizard.cpp" line="+70" />
             <source>Plugin changes will take effect after restart.</source>
-            <translation>Insticksmoduländringar tar effekt efter omstart.</translation>
+            <translation>Ändringar av insticksmoduler träder i kraft efter omstart.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/plugindialog.cpp" line="+70" />
@@ -24284,7 +24284,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+2" />
             <source>Automatically save all files before building</source>
-            <translation>Spara automatiskt alla filer innan byggnation</translation>
+            <translation>Spara automatiskt alla filer innan programmet byggs</translation>
         </message>
         <message>
             <location line="+19" />
@@ -24299,7 +24299,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+63" />
             <source>&amp;Diff &amp;&amp; Cancel</source>
-            <translation>&amp;Diff och avbryt</translation>
+            <translation>&amp;Diff &amp;&amp; Avbryt</translation>
         </message>
         <message>
             <location line="+2" />
@@ -24309,7 +24309,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+1" />
             <source>&amp;Diff All &amp;&amp; Cancel</source>
-            <translation>&amp;Diff Alla &amp; &amp; Avbryt</translation>
+            <translation>Diff &amp;alla &amp;&amp; Avbryt</translation>
         </message>
         <message>
             <location line="+4" />
