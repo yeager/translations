@@ -78396,7 +78396,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+1" />
             <source>"%1" arguments:</source>
-            <translation>"%1" argument:</translation>
+            <translation>Argument för ”%1”:</translation>
         </message>
         <message>
             <location line="+5" />
@@ -78406,7 +78406,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+1" />
             <source>"Run in Terminal" arguments:</source>
-            <translation>"Kör i terminal" argument:</translation>
+            <translation>Argument för ”Kör i terminal”:</translation>
         </message>
         <message>
             <location line="+17" />
@@ -78421,7 +78421,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+3" />
             <source>Presets</source>
-            <translation>Förval</translation>
+            <translation>Förinställningar</translation>
         </message>
         <message>
             <location line="+29" />
@@ -78436,7 +78436,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+68" />
             <source>Canceled.</source>
-            <translation>Avbruten.</translation>
+            <translation>Avbröts.</translation>
         </message>
     </context>
     <context>
