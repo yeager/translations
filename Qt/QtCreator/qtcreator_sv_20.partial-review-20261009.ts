@@ -79994,7 +79994,7 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location line="+0" />
             <source>Alias email</source>
-            <translation>Alias e- post</translation>
+            <translation>Alias-e-post</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/vcsbase/submitfilemodel.cpp" line="+94" />
@@ -80009,7 +80009,7 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location filename="../../../src/plugins/vcsbase/vcsbasesubmiteditor.cpp" line="+181" />
             <source>Check Message</source>
-            <translation>Kontrollera brev</translation>
+            <translation>Kontrollera meddelande</translation>
         </message>
         <message>
             <location line="+7" />
@@ -80034,7 +80034,7 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location line="+36" />
             <source>Submit Message Check Failed</source>
-            <translation>Misslyckades skicka brevkontroll</translation>
+            <translation>Kontroll av incheckningsmeddelandet misslyckades</translation>
         </message>
         <message>
             <location line="+25" />
@@ -80049,7 +80049,7 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location filename="../../../src/plugins/vcsbase/wizard/vcscommandpage.cpp" line="+89" />
             <source>"data" is no JSON object in "VcsCommand" page.</source>
-            <translation>"data" är inget JSON-objekt på sidan "VcsCommand".</translation>
+            <translation>”data” är inte ett JSON-objekt på sidan ”VcsCommand”.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -80058,12 +80058,12 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
             <location line="+5" />
             <location line="+6" />
             <source>"%1" not set in "data" section of "VcsCommand" page.</source>
-            <translation>"%1" inte inställd på "data" på sidan "VcsCommand".</translation>
+            <translation>”%1” är inte angiven i avsnittet ”data” på sidan ”VcsCommand”.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>"%1" in "data" section of "VcsCommand" page has unexpected type (unset, String or List).</source>
-            <translation>"%1" i "data" på sidan "VcsCommand" har en oväntad typ (urkopplat, sträng eller lista).</translation>
+            <translation>”%1” i avsnittet ”data” på sidan ”VcsCommand” har en oväntad typ (ej angiven, String eller List).</translation>
         </message>
         <message>
             <location line="+25" />
@@ -80078,32 +80078,32 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location line="+40" />
             <source>"%1" (%2) not found.</source>
-            <translation>"%1" (%2) hittades inte.</translation>
+            <translation>”%1” (%2) hittades inte.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Version control "%1" is not configured.</source>
-            <translation>Versionskontroll "%1" är inte konfigurerad.</translation>
+            <translation>Versionshanteringen ”%1” är inte konfigurerad.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Version control "%1" does not support initial checkouts.</source>
-            <translation>Versionskontroll "%1" stöder inte inledande utcheckningar.</translation>
+            <translation>Versionshanteringen ”%1” har inte stöd för inledande utcheckningar.</translation>
         </message>
         <message>
             <location line="+7" />
             <location line="+14" />
             <source>"%1" is empty when trying to run checkout.</source>
-            <translation>"%1" är tomt när man försöker köra kassan.</translation>
+            <translation>”%1” är tom när utcheckning ska köras.</translation>
         </message>
         <message>
             <location line="-7" />
             <source>"%1" (%2) does not exist.</source>
-            <translation>"%1" (%2) finns inte.</translation>
+            <translation>”%1” (%2) finns inte.</translation>
         </message>
         <message>
             <source>No job running, please abort.</source>
-            <translation>Inget jobb körs, avbryt gärna.</translation>
+            <translation>Inget jobb körs. Avbryter.</translation>
         </message>
         <message>
             <location line="+54" />
@@ -80118,7 +80118,7 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location filename="../../../src/plugins/vcsbase/vcsoutputwindow.cpp" line="-82" />
             <source>Open "%1"</source>
-            <translation>Öppna "%1"</translation>
+            <translation>Öppna ”%1”</translation>
         </message>
         <message>
             <location line="+246" />
@@ -80128,7 +80128,7 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location line="+1" />
             <source>Running in "%1": %2</source>
-            <translation>Kör i "%1": %2</translation>
+            <translation>Kör i ”%1”: %2</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/vcsbase/cleandialog.cpp" line="-83" />
@@ -80166,7 +80166,7 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location line="+40" />
             <source>Cleaning "%1"</source>
-            <translation>Rensar "%1"</translation>
+            <translation>Rensar ”%1”</translation>
         </message>
         <message>
             <location line="-8" />
@@ -80191,32 +80191,32 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
             <source>Commit</source>
             <comment>name of "commit" action of the VCS.</comment>
             <extracomment>Name of the "commit" action of the VCS</extracomment>
-            <translation>Kommittéförfarande</translation>
+            <translation>Checka in</translation>
         </message>
         <message>
             <location line="-27" />
             <source>Initial checkout task not implemented.</source>
-            <translation>Inledande utcheckning aktivitet inte implementerad.</translation>
+            <translation>Uppgiften för inledande utcheckning är inte implementerad.</translation>
         </message>
         <message>
             <location line="+32" />
             <source>Close Commit Editor</source>
-            <translation>Stäng kommit- editor</translation>
+            <translation>Stäng incheckningsredigeraren</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Closing this editor will abort the commit.</source>
-            <translation>Att stänga den här editorn avbryter engagemanget.</translation>
+            <translation>Om du stänger den här redigeraren avbryts incheckningen.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Cannot commit.</source>
-            <translation>Kan inte binda sig.</translation>
+            <translation>Det går inte att checka in.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Cannot commit: %1.</source>
-            <translation>Kan inte utföra: %1.</translation>
+            <translation>Det går inte att checka in: %1.</translation>
         </message>
         <message>
             <location line="+11" />
@@ -80226,7 +80226,7 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location line="+11" />
             <source>The file "%1" could not be deleted.</source>
-            <translation>Filen "%1" kunde inte tas bort.</translation>
+            <translation>Filen ”%1” kunde inte tas bort.</translation>
         </message>
         <message>
             <location line="+28" />
