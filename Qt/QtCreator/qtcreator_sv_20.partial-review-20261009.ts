@@ -39115,32 +39115,32 @@ Orsak: %3</translation>
         <message>
             <location line="+24" />
             <source>"%1" is missing</source>
-            <translation>"%1" saknas</translation>
+            <translation>”%1” saknas</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Value for key "%1" is not a string</source>
-            <translation>Värde för nyckeln "%1" är inte en sträng</translation>
+            <translation>Värdet för nyckeln ”%1” är inte en sträng</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Value for key "%1" is not a bool</source>
-            <translation>Värde för nyckeln "%1" är inte en bool</translation>
+            <translation>Värdet för nyckeln ”%1” är inte ett booleskt värde</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Value for key "%1" is not an array of objects</source>
-            <translation>Värde för nyckel "%1" är inte en rad objekt</translation>
+            <translation>Värdet för nyckeln ”%1” är inte en array med objekt</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Value for key "%1" is not a string and not an array of strings</source>
-            <translation>Värde för nyckeln "%1" är inte en sträng och inte en rad strängar</translation>
+            <translation>Värdet för nyckeln ”%1” är varken en sträng eller en array med strängar</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Value "%2" for key "%1" has invalid format</source>
-            <translation>Värdet "%2" för nyckeln "%1" har ett ogiltigt format</translation>
+            <translation>Värdet ”%2” för nyckeln ”%1” har ett ogiltigt format</translation>
         </message>
         <message>
             <location line="+21" />
@@ -39150,7 +39150,7 @@ Orsak: %3</translation>
         <message>
             <location line="+3" />
             <source>Expected IID "%1", but found "%2"</source>
-            <translation>Förväntade IID "%1", men fick "%2"</translation>
+            <translation>Förväntade IID ”%1” men fick ”%2”</translation>
         </message>
         <message>
             <location line="+6" />
@@ -39160,7 +39160,7 @@ Orsak: %3</translation>
         <message>
             <location line="+89" />
             <source>Plugin id "%1" must be lowercase</source>
-            <translation>Insticksprogram id "%1" måste vara smått</translation>
+            <translation>Insticksmodul-id:t ”%1” måste vara gemener</translation>
         </message>
         <message>
             <location line="+82" />
@@ -39180,12 +39180,12 @@ Orsak: %3</translation>
             <location line="+6" />
             <location line="+7" />
             <source>Dependency: %1</source>
-            <translation>Beroenden: %1</translation>
+            <translation>Beroende: %1</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Dependency: "%1" must be "%2" or "%3" (is "%4").</source>
-            <translation>Beroenden: "%1" måste vara "%2" eller "%3" (är "%4").</translation>
+            <translation>Beroendet ”%1” måste vara ”%2” eller ”%3” (är ”%4”).</translation>
         </message>
         <message>
             <location line="+25" />
@@ -39198,47 +39198,47 @@ Orsak: %3</translation>
         <message>
             <location line="-13" />
             <source>Argument: "%1" is empty</source>
-            <translation>Argument: "%1" är tom</translation>
+            <translation>Argumentet ”%1” är tomt</translation>
         </message>
         <message>
             <location line="+89" />
             <source>Could not resolve the dependency on plugin "%1(%2)"</source>
-            <translation>Kunde inte lösa beroendet av insticksprogrammet "%1(%2)"</translation>
+            <translation>Kunde inte lösa beroendet till insticksmodulen ”%1(%2)”.</translation>
         </message>
         <message>
             <location line="+93" />
             <source>Plugin is not valid (does not derive from IPlugin)</source>
-            <translation>Insticksprogram är inte giltigt (härleder inte från IP- insticksprogram)</translation>
+            <translation>Insticksmodulen är inte giltig (ärver inte från IPlugin)</translation>
         </message>
         <message>
             <location line="+27" />
             <source>Internal error: have no plugin instance to initialize</source>
-            <translation>Internt fel: har ingen insticksinstans att initiera</translation>
+            <translation>Internt fel: Det finns ingen insticksmodulinstans att initiera</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Plugin initialization failed: %1</source>
-            <translation>Initiering av insticksmodul misslyckades: %1</translation>
+            <translation>Det gick inte att initiera insticksmodulen: %1</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Plugin initialization threw an exception: %1</source>
-            <translation>Insticksprogram initialisering kastade ett undantag: %1</translation>
+            <translation>Initieringen av insticksmodulen utlöste ett undantag: %1</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Plugin initialization threw an unknown exception</source>
-            <translation>Insticksprogramets initialisering kastade ett okänt undantag</translation>
+            <translation>Initieringen av insticksmodulen utlöste ett okänt undantag</translation>
         </message>
         <message>
             <location line="+24" />
             <source>Internal error: have no plugin instance to perform extensionsInitialized</source>
-            <translation>Internt fel: har ingen insticksinstans för att genomföra extensionsInitialized</translation>
+            <translation>Internt fel: Det finns ingen insticksmodulinstans för att utföra extensionsInitialized</translation>
         </message>
         <message>
             <location line="+20" />
             <source>Internal error: have no plugin instance to perform delayedInitialize</source>
-            <translation>Internt fel: har ingen insticksinstans för att genomföra delayedInitialize</translation>
+            <translation>Internt fel: Det finns ingen insticksmodulinstans för att utföra delayedInitialize</translation>
         </message>
         <message>
             <location line="+97" />
@@ -39248,7 +39248,7 @@ Orsak: %3</translation>
         <message>
             <location line="+9" />
             <source>Could not determine root folder.</source>
-            <translation>Kunde inte bestämma rotkatalog.</translation>
+            <translation>Kunde inte fastställa rotkatalogen.</translation>
         </message>
         <message>
             <source>None</source>
