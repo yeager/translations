@@ -48418,7 +48418,7 @@ för mål %1</translation>
         <message>
             <location filename="../../../src/plugins/mcusupport/mcusupportplugin.cpp" line="-5" />
             <source>Create Kits for Qt for MCUs? To do it later, select Edit &gt; Preferences &gt; SDKs &gt; MCU.</source>
-            <translation>Skapa paket för Qt för MCU:er? För att göra det senare, välj Redigera &gt; Inställningar &gt; SDK:er &gt; MCU.</translation>
+            <translation>Skapa kit för Qt for MCUs? Välj Redigera &gt; Inställningar &gt; SDK:er &gt; MCU för att göra det senare.</translation>
         </message>
         <message numerus="yes">
             <location line="+24" />
@@ -48441,12 +48441,12 @@ för mål %1</translation>
         <message>
             <location filename="../../../src/plugins/mcusupport/mcusupportrunconfiguration.cpp" line="+42" />
             <source>Flash and run CMake parameters:</source>
-            <translation>Flash och kör CMake parametrar:</translation>
+            <translation>CMake-parametrar för flashning och körning:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/mcusupport/mcusupportsdk.cpp" line="-642" />
             <source>MSVC Binary directory</source>
-            <translation>MSVC Binärkatalog</translation>
+            <translation>MSVC-binärkatalog</translation>
         </message>
         <message>
             <location line="+26" />
@@ -48456,37 +48456,37 @@ för mål %1</translation>
         <message>
             <location line="+423" />
             <source>Parsing error: the type entry in JSON kit files must be a string, defaulting to "path"</source>
-            <translation>Tolkningsfel: type-posten i JSON-kitfiler måste vara en sträng, faller tillbaka på "path"</translation>
+            <translation>Tolkningsfel: posten type i JSON-kitfiler måste vara en sträng. Använder ”path” som standard.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Parsing error: the type entry "%2" in JSON kit files is not supported, defaulting to "path"</source>
-            <translation>Tolkningsfel: type-posten "%2" i JSON-kitfiler stöds inte, faller tillbaka på "path"</translation>
+            <translation>Tolkningsfel: posten type ”%2” i JSON-kitfiler stöds inte. Använder ”path” som standard.</translation>
         </message>
         <message>
             <location line="+121" />
             <source>Qt for MCUs SDK version %1 detected, only supported by Qt Creator version %2. This version of Qt Creator requires Qt for MCUs %3 or greater.</source>
-            <translation>Qt for MCUer SDK-version %1 upptäcktes, stöds endast av Qt Creator version %2. Denna version av Qt Creator kräver Qt for MCUs %3 eller senare.</translation>
+            <translation>Qt for MCUs SDK-version %1 har upptäckts och stöds endast av Qt Creator-version %2. Den här versionen av Qt Creator kräver Qt for MCUs %3 eller senare.</translation>
         </message>
         <message>
             <location line="+29" />
             <source>Skipped %1. Unsupported version "%2".</source>
-            <translation>Hoppade över %1. Versionen "%2" stöds inte.</translation>
+            <translation>Hoppade över %1. Versionen ”%2” stöds inte.</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Detected version "%1", only supported by Qt Creator %2.</source>
-            <translation>Upptäckte version "%1", stöds endast av Qt Creator %2.</translation>
+            <translation>Upptäckte version ”%1”, som endast stöds av Qt Creator %2.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Unsupported version "%1".</source>
-            <translation>Version "%1" stöds inte.</translation>
+            <translation>Versionen ”%1” stöds inte.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Skipped %1. %2 Qt for MCUs version &gt;= %3 required.</source>
-            <translation>Hoppade över %1. %2 Qt for MCUer version &gt;= %3 krävs.</translation>
+            <translation>Hoppade över %1. %2 Qt for MCUs version &gt;= %3 krävs.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/mcusupport/mcutarget.cpp" line="+92" />
@@ -48496,7 +48496,7 @@ för mål %1</translation>
         <message>
             <location line="+11" />
             <source>Warning creating kit for target %1, package %2: %3</source>
-            <translation>Varning skapar kit för målet %1, paket %2: %3</translation>
+            <translation>Varning vid skapandet av kit för målet %1, paket %2: %3</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/mcusupport/mcutargetfactory.cpp" line="+183" />
@@ -48521,12 +48521,12 @@ för mål %1</translation>
         <message>
             <location line="+7" />
             <source>Toolchain is invalid because %2 in file "%3".</source>
-            <translation>Verktygskedjan är ogiltig därför att %2 i filen "%3".</translation>
+            <translation>Verktygskedjan är ogiltig på grund av %2 i filen ”%3”.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Toolchain description for "%1" is invalid because %2 in file "%3".</source>
-            <translation>Verktygskedjans beskrivning för "%1" är ogiltig därför att %2 i filen "%3".</translation>
+            <translation>Verktygskedjans beskrivning för ”%1” är ogiltig på grund av %2 i filen ”%3”.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/mcusupport/mcubuildstep.cpp" line="+51" />
@@ -48556,22 +48556,22 @@ för mål %1</translation>
         <message>
             <location line="+120" />
             <source>The Selected Kit Is Not Supported</source>
-            <translation>Markerat kit stöds inte</translation>
+            <translation>Det valda kitet stöds inte</translation>
         </message>
         <message>
             <location line="+1" />
             <source>You cannot use the selected kit to preview Qt for MCUs applications.</source>
-            <translation>Du kan inte använda valt kit för att förhandsvisa Qt for MCUer-program.</translation>
+            <translation>Du kan inte använda det valda kitet för att förhandsvisa Qt for MCUs-program.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Cannot find a valid Qt for MCUs kit.</source>
-            <translation>Kan inte hitta en giltig Qt for MCUer-kit.</translation>
+            <translation>Kan inte hitta ett giltigt kit för Qt for MCUs.</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Qt for MCUs Deploy Step</source>
-            <translation>Qt för MCU:s utplaceringssteg</translation>
+            <translation>Distributionssteg för Qt for MCUs</translation>
         </message>
     </context>
     <context>
