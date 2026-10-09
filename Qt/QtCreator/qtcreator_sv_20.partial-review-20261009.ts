@@ -9697,7 +9697,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+8" />
             <source>Cannot save workspace while in mode change state.</source>
-            <translation>Kan inte spara arbetsyta när läget ändras.</translation>
+            <translation>Kan inte spara arbetsytan medan läget ändras.</translation>
         </message>
         <message>
             <location line="+32" />
