@@ -42891,7 +42891,7 @@ i stället för i installationskatalogen när det körs utanför Git Bash.</tran
         <message>
             <location line="+2" />
             <source>R&amp;estore...</source>
-            <translation>Återst&amp;äll...</translation>
+            <translation>Å&amp;terställ...</translation>
         </message>
         <message>
             <location line="+2" />
