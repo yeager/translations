@@ -61176,7 +61176,7 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+6" />
             <source>Keep going when errors occur (if at all possible).</source>
-            <translation>Fortsätt när fel inträffar (om det är möjligt).</translation>
+            <translation>Fortsätt när fel uppstår, om det alls är möjligt.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -61206,14 +61206,14 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+4" />
             <source>Force probes</source>
-            <translation>Kraftsonder</translation>
+            <translation>Tvinga sonderingar</translation>
         </message>
         <message>
             <location line="+173" />
             <location filename="../../../src/plugins/qbsprojectmanager/qbscleanstep.cpp" line="+69" />
             <location filename="../../../src/plugins/qbsprojectmanager/qbsinstallstep.cpp" line="+62" />
             <source>No qbs session exists for this target.</source>
-            <translation>Ingen qbs- session finns för detta mål.</translation>
+            <translation>Det finns ingen qbs-session för detta mål.</translation>
         </message>
         <message>
             <location line="+120" />
@@ -61238,7 +61238,7 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+185" />
             <source>Property "%1" cannot be set here. Please use the dedicated UI element.</source>
-            <translation>Egenskapen "%1" kan inte ställas in här. Använd det dedikerade elementet i användargränssnittet.</translation>
+            <translation>Egenskapen ”%1” kan inte ställas in här. Använd det avsedda gränssnittselementet.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -61301,13 +61301,13 @@ Välj en annan sökväg.</translation>
             <location filename="../../../src/plugins/qbsprojectmanager/qbsbuildstep.cpp" line="-50" />
             <location line="+532" />
             <source>Qbs Build</source>
-            <translation>QBs- bygg</translation>
+            <translation>Bygg med Qbs</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qbsprojectmanager/qbscleanstep.cpp" line="-9" />
             <location line="+75" />
             <source>Qbs Clean</source>
-            <translation>QBs Rengör</translation>
+            <translation>Rensa med Qbs</translation>
         </message>
         <message>
             <location line="-72" />
@@ -61323,29 +61323,29 @@ Välj en annan sökväg.</translation>
             <location filename="../../../src/plugins/qbsprojectmanager/qbsinstallstep.cpp" line="-11" />
             <location line="+119" />
             <source>Qbs Install</source>
-            <translation>Qbs Installera</translation>
+            <translation>Installera med Qbs</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qbsprojectmanager/qbsprojectmanagerplugin.cpp" line="-197" />
             <source>Qbs executable:</source>
-            <translation>Körbar Qb:</translation>
+            <translation>Körbar Qbs-fil:</translation>
         </message>
         <message>
             <location line="+114" />
             <location line="+7" />
             <source>Reparse Qbs</source>
-            <translation>Reparera QBs</translation>
+            <translation>Analysera om Qbs</translation>
         </message>
         <message>
             <location line="+7" />
             <location line="+7" />
             <source>Build File</source>
-            <translation>Bygg fil</translation>
+            <translation>Byggfil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Build File "%1"</source>
-            <translation>Bygg filen "%1"</translation>
+            <translation>Byggfilen ”%1”</translation>
         </message>
         <message>
             <location line="+6" />
@@ -61426,7 +61426,7 @@ Välj en annan sökväg.</translation>
         <message>
             <location filename="../../../src/plugins/qbsprojectmanager/defaultpropertyprovider.cpp" line="+348" />
             <source>C and C++ compiler paths differ. C compiler may not work.</source>
-            <translation>C och C++ kompilatorvägar skiljer sig åt. C kompilatorn kanske inte fungerar.</translation>
+            <translation>Sökvägarna till C- och C++-kompilatorn skiljer sig. C-kompilatorn kanske inte fungerar.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qbsprojectmanager/qbsbuildconfiguration.cpp" line="+93" />
@@ -61436,12 +61436,12 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+22" />
             <source>The qbs project build root</source>
-            <translation>qbs- projektet bygger rot</translation>
+            <translation>qbs-projektets byggrot</translation>
         </message>
         <message>
             <location line="+98" />
             <source>&lt;No build device&gt;</source>
-            <translation>&lt;No build device&gt; Ordförande</translation>
+            <translation>&lt;Ingen byggenhet&gt;</translation>
         </message>
         <message>
             <source>Debug</source>
@@ -61469,8 +61469,8 @@ Välj en annan sökväg.</translation>
             <location line="+1" />
             <source>Additional module properties to set in the Qbs profile corresponding to this kit.
 You will rarely need to do this.</source>
-            <translation>Ytterligare modulegenskaper att ställa in i Qbs-profilen
-som motsvarar detta kit. Du behöver sällan göra detta.</translation>
+            <translation>Ytterligare modulegenskaper att ställa in i Qbs-profilen för detta kit.
+Du behöver sällan göra detta.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qbsprojectmanager/qbsnodetreebuilder.cpp" line="+128" />
@@ -61486,7 +61486,7 @@ som motsvarar detta kit. Du behöver sällan göra detta.</translation>
             <location filename="../../../src/plugins/qbsprojectmanager/qbsprofilemanager.cpp" line="+245" />
             <location line="+3" />
             <source>Failed to run qbs config: %1</source>
-            <translation>Misslyckades köra inställning av qbs: %1</translation>
+            <translation>Det gick inte att köra qbs config: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qbsprojectmanager/qbsprofilessettingspage.cpp" line="+70" />
@@ -61511,12 +61511,12 @@ som motsvarar detta kit. Du behöver sällan göra detta.</translation>
         <message>
             <location line="+5" />
             <source>E&amp;xpand All</source>
-            <translation>Fäll ut al&amp;la</translation>
+            <translation>Fäll ut &amp;alla</translation>
         </message>
         <message>
             <location line="+4" />
             <source>&amp;Collapse All</source>
-            <translation>Fäll i&amp;n alla</translation>
+            <translation>Fäll i&amp;hop alla</translation>
         </message>
         <message>
             <source>Failed</source>
@@ -61544,12 +61544,12 @@ som motsvarar detta kit. Du behöver sällan göra detta.</translation>
         <message>
             <location line="+18" />
             <source>Cannot update Qbs project file.</source>
-            <translation>Kan inte uppdatera Qbs projektfil.</translation>
+            <translation>Kan inte uppdatera Qbs-projektfilen.</translation>
         </message>
         <message>
             <location line="+826" />
             <source>Error retrieving run environment: %1</source>
-            <translation>Fel vid hämtande av körmiljö: %1</translation>
+            <translation>Fel när körmiljön hämtades: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qbsprojectmanager/qbsprojectmanagerconstants.h" line="+71" />
@@ -61564,12 +61564,12 @@ som motsvarar detta kit. Du behöver sällan göra detta.</translation>
         <message>
             <location line="+87" />
             <source>No qbs executable was found, please set the path in the settings.</source>
-            <translation>Inga körbara qbs hittades, ställ in sökvägen i inställningarna.</translation>
+            <translation>Ingen körbar qbs-fil hittades. Ange sökvägen i inställningarna.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>No qbs executable was found at "%1".</source>
-            <translation>Inga körbara QBs hittades på "%1".</translation>
+            <translation>Ingen körbar qbs-fil hittades på ”%1”.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -61579,22 +61579,22 @@ som motsvarar detta kit. Du behöver sällan göra detta.</translation>
         <message>
             <location line="+32" />
             <source>The qbs process "%1" sent unexpected data.</source>
-            <translation>QBs-processen "%1" skickade oväntade data.</translation>
+            <translation>qbs-processen ”%1” skickade oväntade data.</translation>
         </message>
         <message>
             <location line="+200" />
             <source>Failed to load qbs build graph: %1</source>
-            <translation>Misslyckades ladda qbs byggkurva: %1</translation>
+            <translation>Det gick inte att läsa in qbs-bygggrafen: %1</translation>
         </message>
         <message>
             <location line="+42" />
             <source>Version mismatch: qbs at "%1" has API compatibility level %2, but we can handle at most %3.</source>
-            <translation>Versionsfel: qbs på "%1" har API kompatibilitetsnivå %2, men vi kan hantera på de flesta %3.</translation>
+            <translation>Versionskonflikt: qbs på ”%1” har API-kompatibilitetsnivå %2, men högst %3 kan hanteras.</translation>
         </message>
         <message>
             <location line="+173" />
             <source>Failed to update files in Qbs project: %1.</source>
-            <translation>Misslyckades uppdatera filer i Qbs- projekt: %1.</translation>
+            <translation>Det gick inte att uppdatera filer i Qbs-projektet: %1.</translation>
         </message>
         <message>
             <location line="-296" />
@@ -61606,7 +61606,7 @@ som motsvarar detta kit. Du behöver sällan göra detta.</translation>
             <location line="-121" />
             <location line="+297" />
             <source>The qbs session is not in a valid state.</source>
-            <translation>Qbs-sessionen är inte i ett giltigt tillstånd.</translation>
+            <translation>qbs-sessionen är inte i ett giltigt tillstånd.</translation>
         </message>
         <message>
             <source>Failed to update files in Qbs project: %1.
@@ -61645,7 +61645,7 @@ Berörda filer är:
         <message>
             <location line="+10" />
             <source>Failed to retrieve version.</source>
-            <translation>Misslyckades med att få version.</translation>
+            <translation>Det gick inte att hämta versionen.</translation>
         </message>
         <message>
             <location line="+10" />
