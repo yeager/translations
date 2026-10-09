@@ -58092,7 +58092,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         </message>
         <message>
             <source>Auto-detected</source>
-            <translation>Automatiskt identifierade</translation>
+            <translation>Identifieras automatiskt</translation>
         </message>
         <message>
             <source>%1 (default)</source>
@@ -58142,7 +58142,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+1" />
             <source>Choose which settings to display for this kit.</source>
-            <translation>Välj vilka inställningar att visa för detta kit.</translation>
+            <translation>Välj vilka inställningar som ska visas för det här kitet.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -58152,7 +58152,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+1" />
             <source>Choose which kit settings to display by default.</source>
-            <translation>Välj vilka kitinställningar att visa som standard.</translation>
+            <translation>Välj vilka kitinställningar som ska visas som standard.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/customtoolchain.cpp" line="-278" />
@@ -58187,17 +58187,17 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+2" />
             <source>Each line adds a global header lookup path.</source>
-            <translation>Varje rad lägger till en global sökväg för header-uppslag.</translation>
+            <translation>Varje rad lägger till en global sökväg för uppslag av huvudfiler.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Comma-separated list of flags that turn on C++11 support.</source>
-            <translation>Kommaseparerad lista över flaggor som aktiverar C++ 11-stöd.</translation>
+            <translation>Kommaseparerad lista över flaggor som aktiverar C++11-stöd.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Comma-separated list of mkspecs.</source>
-            <translation>Kommaseparerad lista för mkspecs.</translation>
+            <translation>Kommaseparerad lista med mkspecs.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -58219,7 +58219,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+1" />
             <source>&amp;Header paths:</source>
-            <translation>&amp;Header-sökvägar:</translation>
+            <translation>&amp;Sökvägar till huvudfiler:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -58229,7 +58229,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+1" />
             <source>&amp;Qt mkspecs:</source>
-            <translation>&amp;Qt mkspecs:</translation>
+            <translation>&amp;Qt-mkspecs:</translation>
         </message>
         <message>
             <location line="+2" />
@@ -58251,7 +58251,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+1" />
             <source>There is no device set up for this kit. Do you want to add a device?</source>
-            <translation>Det finns ingen enhet inställd för detta kit. Vill du lägga till en enhet?</translation>
+            <translation>Det finns ingen enhet konfigurerad för det här kitet. Vill du lägga till en enhet?</translation>
         </message>
         <message>
             <location line="+31" />
@@ -58289,7 +58289,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+1" />
             <source>Makes output parsers look for diagnostics on stdout rather than stderr.</source>
-            <translation>Gör att utdatatolkare letar efter diagnostik på stdout istället för stderr.</translation>
+            <translation>Gör att utdatatolkarna söker efter diagnostik på stdout i stället för stderr.</translation>
         </message>
         <message>
             <location line="+75" />
@@ -58326,7 +58326,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+1" />
             <source>Appears as a tooltip when hovering the build configuration</source>
-            <translation>Verkar som ett verktygstips vid mushovring över byggkonfigurationen</translation>
+            <translation>Visas som ett verktygstips när du håller pekaren över byggkonfigurationen</translation>
         </message>
         <message>
             <location line="+842" />
