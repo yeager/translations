@@ -11957,7 +11957,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Sets the color that white lights turn into due to absorption when reaching the attenuation distance.</source>
-        <translation>Ställer in färgen som vita ljus övergår till på grund av absorption när de når dämpningsavståndet.</translation>
+        <translation>Anger den färg som vitt ljus får genom absorption när det når dämpningsavståndet.</translation>
     </message>
     <message>
         <source>Attenuation Distance</source>
@@ -11965,7 +11965,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Sets the average distance in world space that light travels in the medium before interacting with a particle.</source>
-        <translation>Ställer in det genomsnittliga avstånd i världsrymden som ljuset färdas i mediet innan det interagerar med en partikel.</translation>
+        <translation>Anger det genomsnittliga avståndet i världsrymden som ljuset färdas i mediet innan det interagerar med en partikel.</translation>
     </message>
     <message>
         <source>Advanced</source>
