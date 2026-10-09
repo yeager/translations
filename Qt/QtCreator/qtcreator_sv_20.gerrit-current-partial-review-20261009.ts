@@ -12347,7 +12347,7 @@ En förloppsindikator i obestämt läge visar att en
     </message>
     <message>
         <source>The specified item could not be found in the keychain</source>
-        <translation>Det angivna objektet kunde inte hittas i nyckelringen</translation>
+        <translation>Det angivna objektet hittades inte i nyckelringen</translation>
     </message>
     <message>
         <source>User canceled the operation</source>
@@ -12363,11 +12363,11 @@ En förloppsindikator i obestämt läge visar att en
     </message>
     <message>
         <source>The user name or passphrase you entered is not correct</source>
-        <translation>Användarnamnet eller lösenfrasen du angav är felaktig</translation>
+        <translation>Användarnamnet eller lösenfrasen du angav stämmer inte</translation>
     </message>
     <message>
         <source>A cryptographic verification failure has occurred</source>
-        <translation>Ett fel vid kryptografisk verifiering inträffade</translation>
+        <translation>Den kryptografiska verifieringen misslyckades</translation>
     </message>
     <message>
         <source>Function or operation not implemented</source>
