@@ -706,11 +706,11 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
     </message>
     <message>
         <source>Frame duration</source>
-        <translation>Bildrutans längd</translation>
+        <translation>Bildrutetid</translation>
     </message>
     <message>
         <source>Duration of each frame of the animation in milliseconds</source>
-        <translation>Längden för varje bildruta i animeringen, i millisekunder</translation>
+        <translation>Varaktigheten för varje bildruta i animeringen, i millisekunder</translation>
     </message>
     <message>
         <source>Loops</source>
@@ -1465,7 +1465,7 @@ Ett positivt värde ökar efterklangen för högre frekvenser och dämpar lägre
     </message>
     <message>
         <source>Show colored axis indicator lines.</source>
-        <translation>Visa färgade indikatorlinjer för axlar.</translation>
+        <translation>Visa färgade indikatorlinjer för axlarna.</translation>
     </message>
     <message>
         <source>Enabled</source>
@@ -11115,7 +11115,7 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the rate by which a flick action slows down after performing.</source>
-        <translation>Ställer in hastigheten med vilken en snärtåtgärd saktar ned efter utförande.</translation>
+        <translation>Ställer in hastigheten med vilken en snärtåtgärd saktar ned efter att den har utförts.</translation>
     </message>
     <message>
         <source>Offset</source>
@@ -11127,12 +11127,12 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the highlight range mode.</source>
-        <translation>Ställer in läget för markeringsintervall.</translation>
+        <translation>Ställer in läget för markeringsintervallet.</translation>
     </message>
     <message>
         <source>Sets the animation duration of the highlight delegate when
 it is moved.</source>
-        <translation>Ställer in markeringsdelegatens animeringslängd när
+        <translation>Ställer in markeringsdelegatens animeringstid när
 den flyttas.</translation>
     </message>
     <message>
@@ -11153,11 +11153,11 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Item count</source>
-        <translation>Postantal</translation>
+        <translation>Antal objekt</translation>
     </message>
     <message>
         <source>Sets the number of items visible at once along the path.</source>
-        <translation>Ställer in antalet poster synliga samtidigt längs sökvägen.</translation>
+        <translation>Anger hur många objekt som är synliga samtidigt längs sökvägen.</translation>
     </message>
     <message>
         <source>Path View Highlight</source>
@@ -11165,7 +11165,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Move duration</source>
-        <translation>Förflyttningslängd</translation>
+        <translation>Förflyttningstid</translation>
     </message>
     <message>
         <source>Preferred begin</source>
@@ -71501,15 +71501,15 @@ om ett arkiv kräver SSH-autentisering (se dokumentationen om SSH och miljövari
     </message>
     <message>
         <source>Sets the value of the first range slider handle.</source>
-        <translation>Anger värdet för det första intervallreglagehandtaget.</translation>
+        <translation>Anger värdet för det första handtaget på intervallreglaget.</translation>
     </message>
     <message>
         <source>Toggles if the range slider provides live value updates.</source>
-        <translation>Växlar om intervallreglaget ger direkta värdeuppdateringar.</translation>
+        <translation>Anger om intervallreglaget ger direkta värdeuppdateringar.</translation>
     </message>
     <message>
         <source>Sets the value of the second range slider handle.</source>
-        <translation>Anger värdet för det andra intervallreglagehandtaget.</translation>
+        <translation>Anger värdet för det andra handtaget på intervallreglaget.</translation>
     </message>
     <message>
         <source>Sets the minimum value of the range slider.</source>
