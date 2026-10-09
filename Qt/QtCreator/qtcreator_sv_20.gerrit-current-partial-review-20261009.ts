@@ -72531,7 +72531,7 @@ Om egenskapen sätts till sant korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Skybox Blur</source>
-        <translation>Skybox-oskarphet</translation>
+        <translation>Oskärpa i skyboxen</translation>
     </message>
     <message>
         <source>Sets how much to blur the skybox when using SceneEnvironment.SkyBox for the backgroundMode property.</source>
@@ -72559,11 +72559,11 @@ Om egenskapen sätts till sant korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Settings for Fog applied to the scene.</source>
-        <translation>Inställningar för dimma som tillämpas på scenen.</translation>
+        <translation>Inställningar för dimman som används i scenen.</translation>
     </message>
     <message>
         <source>Antialiasing</source>
-        <translation>Antialiasing</translation>
+        <translation>Kantutjämning</translation>
     </message>
     <message>
         <source>Antialiasing Mode</source>
@@ -72591,19 +72591,19 @@ Om egenskapen sätts till sant korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Temporal AA</source>
-        <translation>Temporal kantutjämning</translation>
+        <translation>Tidsmässig kantutjämning</translation>
     </message>
     <message>
         <source>Enables temporal antialiasing using camera jittering and frame blending.</source>
-        <translation>Aktiverar temporal kantutjämning med kameradarrning och bildrutesammanslagning.</translation>
+        <translation>Aktiverar tidsmässig kantutjämning med kamerajitter och bildruteblandning.</translation>
     </message>
     <message>
         <source>Temporal AA Strength</source>
-        <translation>Temporal kantutjämningsstyrka</translation>
+        <translation>Styrka för tidsmässig kantutjämning</translation>
     </message>
     <message>
         <source>Sets the amount of temporal antialiasing applied.</source>
-        <translation>Anger mängden temporal kantutjämning som tillämpas.</translation>
+        <translation>Anger mängden tidsmässig kantutjämning som tillämpas.</translation>
     </message>
     <message>
         <source>Ambient Occlusion</source>
@@ -72683,7 +72683,7 @@ Om egenskapen sätts till sant korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Sets the amount of light emitted by the light probe.</source>
-        <translation>Anger mängden ljus som ljussonden avger.</translation>
+        <translation>Anger mängden ljus som ljusproben avger.</translation>
     </message>
     <message>
         <source>Horizon</source>
@@ -72691,7 +72691,7 @@ Om egenskapen sätts till sant korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Sets the light probe horizon. When set, adds darkness (black) to the bottom of the environment, forcing the lighting to come predominantly from the top of the image.</source>
-        <translation>Anger ljussondens horisont. När den är angiven läggs mörker (svart) till längst ned i miljön, så att belysningen huvudsakligen kommer från bildens övre del.</translation>
+        <translation>Anger ljusprobens horisont. När den är angiven läggs mörker (svart) till längst ned i miljön, så att belysningen huvudsakligen kommer från bildens övre del.</translation>
     </message>
     <message>
         <source>Orientation</source>
@@ -72699,7 +72699,7 @@ Om egenskapen sätts till sant korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Sets the orientation of the light probe.</source>
-        <translation>Anger ljussondens orientering.</translation>
+        <translation>Anger ljusprobens orientering.</translation>
     </message>
     <message>
         <source>Advanced</source>
