@@ -45251,7 +45251,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+3" />
             <source>Use the current settings for background, outline, and fitting to screen as the default for new image viewers. Current default:</source>
-            <translation>Använd aktuella inställningar för bakgrund, översikt och anpassning till skärm som standard för nya bildvisare. Aktuell standard:</translation>
+            <translation>Använd de aktuella inställningarna för bakgrund, kontur och anpassning till skärmen som standard för nya bildvisare. Aktuell standard:</translation>
         </message>
         <message>
             <location line="+2" />
@@ -45261,12 +45261,12 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+1" />
             <source>Outline: %1</source>
-            <translation>Översikt: %1</translation>
+            <translation>Kontur: %1</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Fit to Screen: %1</source>
-            <translation>Anpassa till skärm: %1</translation>
+            <translation>Anpassa till skärmen: %1</translation>
         </message>
         <message>
             <location line="+208" />
@@ -45281,7 +45281,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+36" />
             <source>Fit to Screen</source>
-            <translation>Anpassa till skärm</translation>
+            <translation>Anpassa till skärmen</translation>
         </message>
         <message>
             <location line="+0" />
@@ -45296,7 +45296,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+3" />
             <source>Switch Outline</source>
-            <translation>Växla översikt</translation>
+            <translation>Växla kontur</translation>
         </message>
         <message>
             <location line="+3" />
@@ -45360,12 +45360,12 @@ Vill du skriva över den?</translation>
         <message>
             <location filename="../../../src/plugins/imageviewer/imageview.cpp" line="+161" />
             <source>Exported "%1", %2x%3, %4 bytes</source>
-            <translation>Exporterade "%1", %2x%3, %4 bytes</translation>
+            <translation>Exporterade ”%1”, %2x%3, %4 byte</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Could not write file "%1".</source>
-            <translation>Kunde inte skriva filen "%1".</translation>
+            <translation>Kunde inte skriva filen ”%1”.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -45381,7 +45381,7 @@ Vill du skriva över den?</translation>
         <message>
             <location line="+15" />
             <source>Export a Series of Images from %1 (%2x%3)</source>
-            <translation>Exportera en serie bilder från %1 (%2x%3)</translation>
+            <translation>Exportera en bildserie från %1 (%2x%3)</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/imageviewer/imageviewerfile.cpp" line="+80" />
@@ -45407,7 +45407,7 @@ Vill du skriva över den?</translation>
         <message>
             <location filename="../../../src/plugins/imageviewer/multiexportdialog.cpp" line="-4" />
             <source>Enter a file name containing place holders %1 which will be replaced by the width and height of the image, respectively.</source>
-            <translation>Ange ett filnamn som innehåll platshållarna %1 som ska ersättas med bredd och höjden för bilden, respektive.</translation>
+            <translation>Ange ett filnamn med platshållarna %1, som ersätts med bildens bredd respektive höjd.</translation>
         </message>
         <message>
             <location line="+12" />
@@ -45417,7 +45417,7 @@ Vill du skriva över den?</translation>
         <message>
             <location line="+2" />
             <source>Set Standard Icon Sizes</source>
-            <translation>Ställ in standardstorlek för ikoner</translation>
+            <translation>Ange standardstorlekar för ikoner</translation>
         </message>
         <message>
             <location line="+2" />
@@ -45427,7 +45427,7 @@ Vill du skriva över den?</translation>
         <message>
             <location line="+6" />
             <source>A comma-separated list of size specifications of the form "&lt;width&gt;x&lt;height&gt;".</source>
-            <translation>En kommaseparerad lista för storleksspecifikationer i formatet "&lt;width&gt;x&lt;height&gt;".</translation>
+            <translation>En lista med storleksspecifikationer av formen ”&lt;width&gt;x&lt;height&gt;”, avgränsade med kommatecken.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -45437,7 +45437,7 @@ Vill du skriva över den?</translation>
         <message>
             <location line="+76" />
             <source>Please specify some sizes.</source>
-            <translation>Ange några storlekar.</translation>
+            <translation>Ange minst en storlek.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -45447,7 +45447,7 @@ Vill du skriva över den?</translation>
         <message>
             <location line="+5" />
             <source>The file name must contain one of the placeholders %1, %2.</source>
-            <translation>Filnamnet måste innehålla en av platshållarna %1, %2.</translation>
+            <translation>Filnamnet måste innehålla en av platshållarna %1 eller %2.</translation>
         </message>
         <message>
             <location line="+14" />
