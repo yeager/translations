@@ -18397,12 +18397,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakeprojectnodes.cpp" line="+58" />
             <source>CMake Modules</source>
-            <translation>CMake- moduler</translation>
+            <translation>CMake-moduler</translation>
         </message>
         <message>
             <location line="+9" />
             <source>CMake Presets</source>
-            <translation>CMake förinställningar</translation>
+            <translation>CMake-förinställningar</translation>
         </message>
         <message>
             <location line="+228" />
@@ -18412,12 +18412,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+2" />
             <source>No build artifacts</source>
-            <translation>Inga bygg artefakter</translation>
+            <translation>Inga byggartefakter</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Build artifacts:</source>
-            <translation>Bygg artefakter:</translation>
+            <translation>Byggartefakter:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakeprojectplugin.cpp" line="+8" />
@@ -18445,7 +18445,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
             <location line="+1" />
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakesettingspage.cpp" line="+2" />
             <source>Supports fileApi: %1</source>
-            <translation>Stöder fileApi: %1</translation>
+            <translation>Stöder file API: %1</translation>
         </message>
         <message>
             <location line="+1" />
@@ -18477,22 +18477,22 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakesettingspage.cpp" line="+33" />
             <source>CMake executable path does not exist.</source>
-            <translation>CMake körbar sökväg finns inte.</translation>
+            <translation>Sökvägen till den körbara CMake-filen finns inte.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>CMake executable path is not a file.</source>
-            <translation>CMake körbar sökväg är inte en fil.</translation>
+            <translation>Sökvägen till den körbara CMake-filen är inte en fil.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>CMake executable path is not executable.</source>
-            <translation>CMake körbar sökväg är inte körbar.</translation>
+            <translation>Sökvägen till den körbara CMake-filen är inte körbar.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>CMake executable does not provide required IDE integration features.</source>
-            <translation>CMake körbar tillhandahåller inte nödvändiga IDE-integrationsfunktioner.</translation>
+            <translation>Den körbara CMake-filen tillhandahåller inte de IDE-integrationsfunktioner som krävs.</translation>
         </message>
         <message>
             <location line="+23" />
@@ -18559,7 +18559,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+45" />
             <source>Set as the default CMake Tool to use when creating a new kit or when no value is set.</source>
-            <translation>Ställ in som standard för CMake-verktyg att använda när ett nytt kit skapas eller när inget värde är inställt.</translation>
+            <translation>Ange som CMake-standardverktyg vid skapande av ett nytt kit eller när inget värde är angivet.</translation>
         </message>
         <message>
             <location line="-133" />
@@ -18574,7 +18574,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+147" />
             <source>New CMake</source>
-            <translation>Ny CMake</translation>
+            <translation>Nytt CMake-verktyg</translation>
         </message>
         <message>
             <location line="+69" />
@@ -18600,12 +18600,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
             <location line="+3" />
             <source>Enables %1 to install dependencies from the conanfile.txt, conanfile.py, or vcpkg.json file from the project source directory.</source>
             <extracomment>%1 = applicationDisplayName</extracomment>
-            <translation>Aktiverar %1 för att installera beroenden från conanfile.txt, conanfile.py eller vcpkg.json- filen från projektkällakatalogen.</translation>
+            <translation>Aktiverar %1 för att installera beroenden från filen conanfile.txt, conanfile.py eller vcpkg.json i projektets källkatalog.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Qt Online Installer dependency provider</source>
-            <translation>Qt Online Installer beroende leverantör</translation>
+            <translation>Qt Online Installer-beroendeleverantör</translation>
         </message>
         <message>
             <location line="+2" />
@@ -18615,17 +18615,17 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+4" />
             <source>Ask before re-configuring with initial parameters</source>
-            <translation>Fråga innan omkonfigurering med initiala parametrar</translation>
+            <translation>Fråga innan omkonfiguration med ursprungliga parametrar</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Ask before reloading CMake Presets</source>
-            <translation>Fråga innan ominläsning av CMake-förval</translation>
+            <translation>Fråga innan CMake-förinställningar läses in på nytt</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Show subfolders inside source group folders</source>
-            <translation>Visa undermappar inne i källans gruppmappar</translation>
+            <translation>Visa undermappar i källgruppsmappar</translation>
         </message>
         <message>
             <location line="+5" />
@@ -18635,17 +18635,17 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+5" />
             <source>Use junctions for CMake configuration and build operations</source>
-            <translation>Använd korsningar för CMake-konfiguration och byggoperationer</translation>
+            <translation>Använd kopplingspunkter för CMake-konfiguration och byggåtgärder</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Create and use junctions for the source and build directories to overcome issues with long paths on Windows.&lt;br&gt;&lt;br&gt;Junctions are stored under &lt;tt&gt;C:\ProgramData\QtCreator\Links&lt;/tt&gt; (overridable via the &lt;tt&gt;QTC_CMAKE_JUNCTIONS_DIR&lt;/tt&gt; environment variable).&lt;br&gt;&lt;br&gt;With &lt;tt&gt;QTC_CMAKE_JUNCTIONS_HASH_LENGTH&lt;/tt&gt;, you can shorten the MD5 hash key length to a value smaller than the default length value of 32.&lt;br&gt;&lt;br&gt;Junctions are used for CMake configure, build and install operations.</source>
-            <translation>Create and use junctions for the source and build directories to overcome issues with long paths on Windows.&lt;br&gt;&lt;br&gt;Junctions are stored under &lt;tt&gt;C:\ProgramData\QtCreator\Links&lt;/tt&gt; (overridable via the &lt;tt&gt;QTC_CMAKE_JUNCTIONS_DIR&lt;/tt&gt; environment variable).&lt;br&gt;&lt;br&gt;With &lt;tt&gt;QTC_CMAKE_JUNCTIONS_HASH_LENGTH&lt;/tt&gt;, you can shorten the MD5 hash key length to a value smaller than the default length value of 32.&lt;br&gt;&lt;br&gt;Junctions are used for CMake configure, build and install operations.</translation>
+            <translation>Skapa och använd kopplingspunkter för käll- och byggkatalogerna för att kringgå problem med långa sökvägar i Windows.&lt;br&gt;&lt;br&gt;Kopplingspunkter lagras under &lt;tt&gt;C:\ProgramData\QtCreator\Links&lt;/tt&gt; (kan åsidosättas med miljövariabeln &lt;tt&gt;QTC_CMAKE_JUNCTIONS_DIR&lt;/tt&gt;).&lt;br&gt;&lt;br&gt;Med &lt;tt&gt;QTC_CMAKE_JUNCTIONS_HASH_LENGTH&lt;/tt&gt; kan du förkorta längden på MD5-hashnyckeln till ett värde som är mindre än standardvärdet 32.&lt;br&gt;&lt;br&gt;Kopplingspunkter används för CMake-konfiguration, bygg- och installationsåtgärder.</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Clear old CMake output on a new run</source>
-            <translation>Rensa gammal CMake- utmatning på en ny körning</translation>
+            <translation>Rensa gammal CMake-utdata vid en ny körning</translation>
         </message>
         <message>
             <location line="+55" />
