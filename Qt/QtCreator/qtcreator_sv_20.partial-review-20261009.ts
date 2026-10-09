@@ -51124,7 +51124,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+28" />
             <source>"%1" timed out after %2 ms.</source>
-            <translation>"%1" översteg tidsgräns efter %2 ms.</translation>
+            <translation>"%1" överskred tidsgränsen efter %2 ms.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -51139,7 +51139,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+5" />
             <source>"%1" terminated with exit code %2: %3</source>
-            <translation>"%1" avslutades med avslutskod %2: %3</translation>
+            <translation>"%1" avslutades med slutkod %2: %3</translation>
         </message>
         <message>
             <location line="+43" />
@@ -51155,12 +51155,12 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+7" />
             <source>The repository "%1" does not exist.</source>
-            <translation>Förrådet "%1" finns inte.</translation>
+            <translation>Arkivet "%1" finns inte.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/perforce/perforceeditor.cpp" line="+39" />
             <source>Annotate change list "%1"</source>
-            <translation>Anteckna ändringslista "%1"</translation>
+            <translation>Annotera ändringslista "%1"</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/perforce/perforceplugin.cpp" line="-141" />
@@ -51175,7 +51175,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+5" />
             <source>&amp;Hijack</source>
-            <translation>&amp;Hijack Ordförande</translation>
+            <translation>&amp;Hijack</translation>
         </message>
     </context>
     <context>
