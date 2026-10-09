@@ -55727,7 +55727,7 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="+35" />
             <source>Creates a scratch model using a temporary file.</source>
-            <translation>Skapar en skissmodell med en temporärfil.</translation>
+            <translation>Skapar en tillfällig modell med en temporärfil.</translation>
         </message>
         <message>
             <location line="-4" />
@@ -55739,7 +55739,7 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="-71" />
             <source>Scratch Model</source>
-            <translation>Skissmodell</translation>
+            <translation>Tillfällig modell</translation>
         </message>
         <message>
             <location line="-14" />
@@ -55777,27 +55777,27 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="+137" />
             <source>Creates a scratch buffer using a temporary file.</source>
-            <translation>Skapar en repbuffert med en tillfällig fil.</translation>
+            <translation>Skapar en temporärbuffert med en temporärfil.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Scratch Buffer</source>
-            <translation>Skrapa buffer</translation>
+            <translation>Temporärbuffert</translation>
         </message>
         <message>
             <location line="-71" />
             <source>State chart name:</source>
-            <translation>Tillståndsdiagramnamn:</translation>
+            <translation>Namn på tillståndsdiagram:</translation>
         </message>
         <message>
             <location line="+3" />
             <source>State Chart Name and Location</source>
-            <translation>Stat Diagram Namn och plats</translation>
+            <translation>Namn och plats för tillståndsdiagram</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Creates a new empty state chart.</source>
-            <translation>Skapar ett nytt tomt tillståndsschema.</translation>
+            <translation>Skapar ett nytt tomt tillståndsdiagram.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -55863,12 +55863,12 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="+5" />
             <source>Creates a Qt Widgets Designer form that you can add to a Qt Widget Project. This is useful if you already have an existing class for the UI business logic.</source>
-            <translation>Skapar ett Qt Widgets Designer-formulär som du kan lägga till i ett Qt Widget-projekt. Detta är användbart om du redan har en befintlig klass för UI-businesslogik.</translation>
+            <translation>Skapar ett Qt Widgets Designer-formulär som du kan lägga till i ett Qt Widget-projekt. Det är användbart om du redan har en klass för användargränssnittets affärslogik.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Qt Widgets Designer Form</source>
-            <translation>Formulär för Qt- grafiska komponenter</translation>
+            <translation>Qt Widgets Designer-formulär</translation>
         </message>
         <message>
             <location line="+75" />
@@ -55883,12 +55883,12 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="-90" />
             <source>Creates a header file that you can add to a C/C++ project.</source>
-            <translation>Skapar en header-fil som du kan lägga till i ett C/C++-projekt.</translation>
+            <translation>Skapar en huvudfil som du kan lägga till i ett C/C++-projekt.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>C/C++ Header File</source>
-            <translation>C/C++ header-fil</translation>
+            <translation>C/C++-huvudfil</translation>
         </message>
         <message>
             <location line="+105" />
@@ -55927,7 +55927,7 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="-17" />
             <source>Vertex Shader (Desktop OpenGL)</source>
-            <translation>Vertex Shader (Desktop OpenGL)</translation>
+            <translation>Vertexskuggare (Desktop OpenGL)</translation>
         </message>
         <message>
             <location line="-11" />
@@ -55937,7 +55937,7 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="+2" />
             <source>Fragment Shader (Desktop OpenGL)</source>
-            <translation>Fragmentskugga (Desktop OpenGL)</translation>
+            <translation>Fragmentskuggare (Desktop OpenGL)</translation>
         </message>
         <message>
             <location line="+25" />
@@ -55947,7 +55947,7 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="+2" />
             <source>Vertex Shader (OpenGL/ES 2.0)</source>
-            <translation>Vertex Shader (OpenGL/ES 2.0)</translation>
+            <translation>Vertexskuggare (OpenGL/ES 2.0)</translation>
         </message>
         <message>
             <location line="-11" />
@@ -55957,12 +55957,12 @@ Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan fi
         <message>
             <location line="+2" />
             <source>Fragment Shader (OpenGL/ES 2.0)</source>
-            <translation>Fragmentskugga (OpenGL/ES 2.0)</translation>
+            <translation>Fragmentskuggare (OpenGL/ES 2.0)</translation>
         </message>
         <message>
             <location line="-168" />
             <source>Creates a Java file with boilerplate code.</source>
-            <translation>Skapar en Java-fil med standardformuleringskod.</translation>
+            <translation>Skapar en Java-fil med standardkod.</translation>
         </message>
         <message>
             <location line="+1" />
