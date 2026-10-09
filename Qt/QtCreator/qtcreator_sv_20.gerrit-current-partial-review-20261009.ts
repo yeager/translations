@@ -1381,17 +1381,17 @@ Större värden ger längre efterklangstider och får rummet att låta större.<
     </message>
     <message>
         <source>Reverb Brightness</source>
-        <translation>Efterklangsljusstyrka</translation>
+        <translation>Efterklangens ljushet</translation>
     </message>
     <message>
         <source>Sets the brightness factor to be applied to the generated reverb.
 A positive value will increase reverb for higher frequencies and dampen lower frequencies, a negative value does the reverse.</source>
-        <translation>Ställer in ljusstyrkefaktorn som ska tillämpas på den genererade efterklangen.
+        <translation>Anger ljushetsfaktorn som ska tillämpas på den genererade efterklangen.
 Ett positivt värde ökar efterklangen för högre frekvenser och dämpar lägre frekvenser. Ett negativt värde gör tvärtom.</translation>
     </message>
     <message>
         <source>Left Material</source>
-        <translation>Vänster material</translation>
+        <translation>Material för vänster sida</translation>
     </message>
     <message>
         <source>Sets the material to use for the left (negative x) side of the room.</source>
@@ -1399,7 +1399,7 @@ Ett positivt värde ökar efterklangen för högre frekvenser och dämpar lägre
     </message>
     <message>
         <source>Right Material</source>
-        <translation>Höger material</translation>
+        <translation>Material för höger sida</translation>
     </message>
     <message>
         <source>Sets the material to use for the right (positive x) side of the room.</source>
@@ -1423,7 +1423,7 @@ Ett positivt värde ökar efterklangen för högre frekvenser och dämpar lägre
     </message>
     <message>
         <source>Back Material</source>
-        <translation>Bakre material</translation>
+        <translation>Material för baksidan</translation>
     </message>
     <message>
         <source>Sets the material to use for the back (negative z) side of the room.</source>
@@ -1431,7 +1431,7 @@ Ett positivt värde ökar efterklangen för högre frekvenser och dämpar lägre
     </message>
     <message>
         <source>Front Material</source>
-        <translation>Främre material</translation>
+        <translation>Material för framsidan</translation>
     </message>
     <message>
         <source>Sets the material to use for the front (positive z) side of the room.</source>
