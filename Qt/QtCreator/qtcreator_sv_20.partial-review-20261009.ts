@@ -35426,7 +35426,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
             <location line="+24" />
             <location filename="../../../src/plugins/debugger/stackhandler.cpp" line="+14" />
             <source>Open Disassembler</source>
-            <translation>Öppna isärtagning</translation>
+            <translation>Öppna demonteraren</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/peripheralregisterhandler.cpp" line="-389" />
@@ -35436,7 +35436,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+2" />
             <source>WO</source>
-            <translation>KVÄLL</translation>
+            <translation>WO</translation>
         </message>
         <message>
             <location line="+2" />
@@ -35500,7 +35500,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location filename="../../../src/plugins/debugger/enginemanager.cpp" line="+237" />
             <source>Perspective</source>
-            <translation>Översikt</translation>
+            <translation>Perspektiv</translation>
         </message>
         <message>
             <location line="+0" />
@@ -35510,7 +35510,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="-501" />
             <source>Debugger Preset</source>
-            <translation>Förinställning av felsökning</translation>
+            <translation>Felsökarförinställning</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/enginemanager.cpp" line="+171" />
@@ -35520,12 +35520,12 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+4" />
             <source>Abort Debugger</source>
-            <translation>Avbryt felsökare</translation>
+            <translation>Avbryt felsökaren</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/sourcefileshandler.cpp" line="-6" />
             <source>Reload Data</source>
-            <translation>Läs om data</translation>
+            <translation>Läs in data igen</translation>
         </message>
         <message>
             <location line="+4" />
@@ -35542,7 +35542,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location filename="../../../src/plugins/debugger/stackhandler.cpp" line="+1" />
             <source>Disassemble Function</source>
-            <translation>Installera funktion</translation>
+            <translation>Demontera funktionen</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggertooltipmanager.cpp" line="-460" />
@@ -35552,12 +35552,12 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location filename="../../../src/plugins/debugger/stackhandler.cpp" line="+84" />
             <source>Open Disassembler at Address...</source>
-            <translation>Öppna isärtagning vid adress…</translation>
+            <translation>Öppna demonteraren vid adress …</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Disassemble Function...</source>
-            <translation>Ta bort funktionen…</translation>
+            <translation>Demontera funktionen …</translation>
         </message>
         <message>
             <location line="+9" />
@@ -35591,7 +35591,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+6" />
             <source>Load QML Stack</source>
-            <translation>Ladda QML- stack</translation>
+            <translation>Läs in QML-stacken</translation>
         </message>
         <message>
             <location line="+12" />
@@ -35613,17 +35613,17 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+17" />
             <source>Press Ctrl to select widget at (%1, %2). Press any other keyboard modifier to stop selection.</source>
-            <translation>Tryck på Ctrl för att välja widget vid (%1, %2). Tryck på någon annan tangentbordsmodifierare för att stoppa markeringen.</translation>
+            <translation>Tryck på Ctrl för att välja en komponent vid (%1, %2). Tryck på någon annan modifieringstangent för att avbryta valet.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Selecting widget at (%1, %2).</source>
-            <translation>Väljer widget vid (%1, %2).</translation>
+            <translation>Väljer komponent vid (%1, %2).</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Selection aborted.</source>
-            <translation>Val avbruten.</translation>
+            <translation>Valet avbröts.</translation>
         </message>
         <message>
             <location line="+115" />
@@ -35633,17 +35633,17 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+76" />
             <source>Memory at Pointer's Address "%1" (0x%2)</source>
-            <translation>Minne vid Pointers adress "%1" (0x%2)</translation>
+            <translation>Minne på pekarens adress ”%1” (0x%2)</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Memory at Object's Address "%1" (0x%2)</source>
-            <translation>Minne vid objektets adress "%1" (0x%2)</translation>
+            <translation>Minne på objektets adress ”%1” (0x%2)</translation>
         </message>
         <message>
             <location line="+33" />
             <source>Cannot Display Stack Layout</source>
-            <translation>Kan inte visa stacklayout</translation>
+            <translation>Kan inte visa stacklayouten</translation>
         </message>
         <message>
             <location line="+1" />
@@ -35653,7 +35653,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+21" />
             <source>Memory Layout of Local Variables at 0x%1</source>
-            <translation>Minneslayout av lokala variabler vid 0x%1</translation>
+            <translation>Minneslayout för lokala variabler vid 0x%1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="-2406" />
@@ -35680,12 +35680,12 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+272" />
             <source>Treat All Characters as Printable</source>
-            <translation>Behandla alla tecken som utskrivbara</translation>
+            <translation>Behandla alla tecken som skrivbara</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Show Unprintable Characters as Escape Sequences</source>
-            <translation>Visa otryckta tecken som escape- sekvenser</translation>
+            <translation>Visa icke-skrivbara tecken som escape-sekvenser</translation>
         </message>
         <message>
             <location line="+1" />
