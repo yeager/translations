@@ -62227,7 +62227,7 @@ Berörda filer är:
         <message>
             <location line="+87" />
             <source>The option will only take effect if the project is recompiled. Do you want to recompile now?</source>
-            <translation>Alternativet kommer endast ta effekt om projektet kompileras om. Vill du kompilera om det nu?</translation>
+            <translation>Alternativet får bara effekt om projektet kompileras om. Vill du kompilera om det nu?</translation>
         </message>
         <message>
             <location line="-518" />
@@ -62242,7 +62242,7 @@ Berörda filer är:
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/qmakeprojectmanagerplugin.cpp" line="+110" />
             <source>QMake</source>
-            <translation>Qmake</translation>
+            <translation>qmake</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/customwidgetwizard/classdefinition.cpp" line="+61" />
@@ -62257,37 +62257,37 @@ Berörda filer är:
         <message>
             <location line="+2" />
             <source>Widget project &amp;file:</source>
-            <translation>Widget-projektet &amp;file:</translation>
+            <translation>Widget-projekt&amp;fil:</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Widget h&amp;eader file:</source>
-            <translation>Widget h&amp;eader- fil:</translation>
+            <translation>Widget-&amp;huvudfil:</translation>
         </message>
         <message>
             <location line="-16" />
             <source>Widge&amp;t source file:</source>
-            <translation>Widge&amp;t källkodsfil:</translation>
+            <translation>Widget-&amp;källkodsfil:</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Widget &amp;base class:</source>
-            <translation>Widget &amp;base klass:</translation>
+            <translation>Widget-&amp;basklass:</translation>
         </message>
         <message>
             <location line="+17" />
             <source>Plugin class &amp;name:</source>
-            <translation>Insticksprogram klass &amp;name:</translation>
+            <translation>Insticksprogrammets klass&amp;namn:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Plugin &amp;header file:</source>
-            <translation>Insticksprogram &amp;header- fil:</translation>
+            <translation>Insticksprogrammets &amp;huvudfil:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Plugin sou&amp;rce file:</source>
-            <translation>Insticksprogram för sou&amp;rce- fil:</translation>
+            <translation>Insticksprogrammets käll&amp;fil:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -62297,7 +62297,7 @@ Berörda filer är:
         <message>
             <location line="-31" />
             <source>&amp;Link library</source>
-            <translation>&amp;Link bibliotek</translation>
+            <translation>Länka mot &amp;bibliotek</translation>
         </message>
         <message>
             <location line="+3" />
@@ -62307,7 +62307,7 @@ Berörda filer är:
         <message>
             <location line="-2" />
             <source>Include pro&amp;ject</source>
-            <translation>Inkludera pro&amp;ject</translation>
+            <translation>Inkludera &amp;projekt</translation>
         </message>
         <message>
             <location line="+46" />
@@ -62317,7 +62317,7 @@ Berörda filer är:
         <message>
             <location line="-5" />
             <source>G&amp;roup:</source>
-            <translation>G&amp;roup:</translation>
+            <translation>Gr&amp;upp:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -62332,17 +62332,17 @@ Berörda filer är:
         <message>
             <location line="-4" />
             <source>The widget is a &amp;container</source>
-            <translation>Widgeten är en &amp;container</translation>
+            <translation>Widgeten är en &amp;behållare</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Property defa&amp;ults</source>
-            <translation>Egenskap defa&amp;ults</translation>
+            <translation>Egenskaps&amp;standardvärden</translation>
         </message>
         <message>
             <location line="-7" />
             <source>dom&amp;XML:</source>
-            <translation>dom&amp;XML:</translation>
+            <translation>DOM-&amp;XML:</translation>
         </message>
         <message>
             <location line="-32" />
@@ -62377,7 +62377,7 @@ Berörda filer är:
         <message>
             <location line="+13" />
             <source>Plugin name:</source>
-            <translation>Insticksmodulnamn:</translation>
+            <translation>Insticksprogrammets namn:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -62417,27 +62417,27 @@ Berörda filer är:
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/customwidgetwizard/customwidgetwizard.cpp" line="+25" />
             <source>Qt Custom Designer Widget</source>
-            <translation>Qt egen designkomponent</translation>
+            <translation>Egen Qt Designer-widget</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Creates a Qt Custom Designer Widget or a Custom Widget Collection.</source>
-            <translation>Skapar en Qt Custom Designer Widget eller en Custom Widget Collection.</translation>
+            <translation>Skapar en egen Qt Designer-widget eller en samling med egna widgetar.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/customwidgetwizard/customwidgetwizarddialog.cpp" line="+29" />
             <source>This wizard generates a Qt Widgets Designer Custom Widget or a Qt Widgets Designer Custom Widget Collection project.</source>
-            <translation>Denna guide genererar ett Qt Widgets Designer Custom Widget eller Qt Widgets Designer Custom Widget Collection-projekt.</translation>
+            <translation>Den här guiden genererar ett projekt med en egen widget eller en samling med egna widgetar för Qt Widgets Designer.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/customwidgetwizard/customwidgetwidgetswizardpage.cpp" line="+22" />
             <source>Custom Widgets</source>
-            <translation>Anpassade widgetar</translation>
+            <translation>Egna widgetar</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/customwidgetwizard/customwidgetpluginwizardpage.cpp" line="+29" />
             <source>Plugin Details</source>
-            <translation>Insticksprogramdetaljer</translation>
+            <translation>Information om insticksprogrammet</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/customwidgetwizard/plugingenerator.cpp" line="+205" />
