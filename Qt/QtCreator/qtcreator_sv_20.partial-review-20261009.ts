@@ -3560,7 +3560,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
         </message>
         <message>
             <source>Adds an image from the local file system.</source>
-            <translation>Lägger till en bild från lokala filsystemet.</translation>
+            <translation>Lägger till en bild från det lokala filsystemet.</translation>
         </message>
         <message>
             <source>Fill mode</source>
@@ -3568,7 +3568,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
         </message>
         <message>
             <source>Sets how the image fits in the content box.</source>
-            <translation>Anger hur bilder passar i innehållsrutan.</translation>
+            <translation>Anger hur bilden passar i innehållsrutan.</translation>
         </message>
         <message>
             <source>Source size</source>
@@ -3596,23 +3596,23 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
         </message>
         <message>
             <source>Height.</source>
-            <translation>Height.</translation>
+            <translation>Höjd.</translation>
         </message>
         <message>
             <source>Alignment H</source>
-            <translation>Justering H</translation>
+            <translation>Horisontell justering</translation>
         </message>
         <message>
             <source>Sets the horizontal alignment of the image.</source>
-            <translation>Ställer in horisontell justering för bilden.</translation>
+            <translation>Anger bildens horisontella justering.</translation>
         </message>
         <message>
             <source>Alignment V</source>
-            <translation>Justering V</translation>
+            <translation>Vertikal justering</translation>
         </message>
         <message>
             <source>Sets the vertical alignment of the image.</source>
-            <translation>Ställer in vertikal justering för bilden.</translation>
+            <translation>Anger bildens vertikala justering.</translation>
         </message>
         <message>
             <source>Asynchronous</source>
@@ -3620,7 +3620,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
         </message>
         <message>
             <source>Loads images on the local filesystem asynchronously in a separate thread.</source>
-            <translation>Läser in bilder på lokala filsystemet asynkront i en separat tråd.</translation>
+            <translation>Läser in bilder från det lokala filsystemet asynkront i en separat tråd.</translation>
         </message>
         <message>
             <source>Auto transform</source>
@@ -3628,7 +3628,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
         </message>
         <message>
             <source>Automatically applies image transformation metadata such as EXIF orientation.</source>
-            <translation>Tillämpar automatiskt metadata för bildtransformation såsom EXIF-orientering.</translation>
+            <translation>Tillämpar automatiskt metadata för bildtransformation, till exempel EXIF-orientering.</translation>
         </message>
         <message>
             <source>Cache</source>
@@ -3636,7 +3636,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
         </message>
         <message>
             <source>Caches the image.</source>
-            <translation>Mellanlagrar bilden.</translation>
+            <translation>Lagrar bilden i cachen.</translation>
         </message>
         <message>
             <source>Mipmap</source>
@@ -3648,11 +3648,11 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
         </message>
         <message>
             <source>Mirror</source>
-            <translation>Spegla</translation>
+            <translation>Spegelvänd</translation>
         </message>
         <message>
             <source>Inverts the image horizontally.</source>
-            <translation>Inverterar bilden horisontellt.</translation>
+            <translation>Spegelvänder bilden horisontellt.</translation>
         </message>
     </context>
     <context>
