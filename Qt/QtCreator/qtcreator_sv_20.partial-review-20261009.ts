@@ -57832,7 +57832,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+1" />
             <source>The device's private key file.</source>
-            <translation>hetens privata nyckelfil.</translation>
+            <translation>Enhetens privata nyckelfil.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -57847,7 +57847,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+1" />
             <source>The device's SSH connection timeout.</source>
-            <translation>hetens SSH-anslutningstidsgräns.</translation>
+            <translation>Enhetens tidsgräns för SSH-anslutning.</translation>
         </message>
         <message>
             <source>Device name</source>
@@ -57896,12 +57896,12 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/environmentkitaspect.cpp" line="-213" />
             <source>Edit Build Environment...</source>
-            <translation>Redigera Bygg miljö…</translation>
+            <translation>Redigera byggmiljö…</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Edit Run Environment...</source>
-            <translation>Redigera Kör miljö…</translation>
+            <translation>Redigera körmiljö…</translation>
         </message>
         <message>
             <location line="+81" />
@@ -57911,12 +57911,12 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+31" />
             <source>Edit Run Environment</source>
-            <translation>Redigera Kör miljö</translation>
+            <translation>Redigera körmiljö</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Force UTF-8 MSVC output</source>
-            <translation>Tvinga UTF-8 MSVC- utmatning</translation>
+            <translation>Tvinga MSVC-utdata i UTF-8</translation>
         </message>
         <message>
             <location line="+1" />
@@ -57941,7 +57941,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/toolchainkitaspect.cpp" line="+158" />
             <source>No compiler set in kit.</source>
-            <translation>Ingen kompilator inställd i kit.</translation>
+            <translation>Ingen kompilator inställd i kitet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/devicesupport/devicekitaspects.cpp" line="-50" />
@@ -58008,27 +58008,27 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+27" />
             <source>Auto detecting kits for device: %1</source>
-            <translation>Automatisk identifieringssats för enhet: %1</translation>
+            <translation>Identifierar automatiskt kit för enhet: %1</translation>
         </message>
         <message>
             <location line="+42" />
             <source>Found kit: %1.</source>
-            <translation>Hittade kit: %1.</translation>
+            <translation>Hittade ett kit: %1.</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Removing kits for device: %1.</source>
-            <translation>Ta bort kit för enhet: %1.</translation>
+            <translation>Tar bort kit för enhet: %1.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Removing kit: %1.</source>
-            <translation>Ta bort sats: %1.</translation>
+            <translation>Tar bort kit: %1.</translation>
         </message>
         <message>
             <location line="+22" />
             <source>Kit: %1.</source>
-            <translation>- %1.</translation>
+            <translation>Kit: %1.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/kitoptionspage.cpp" line="+150" />
@@ -58038,12 +58038,12 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/kitaspect.cpp" line="-441" />
             <source>Mark as Mutable</source>
-            <translation>Markera som mutabel</translation>
+            <translation>Markera som ändringsbar</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/kitoptionspage.cpp" line="+3" />
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The name of the kit suitable for generating directory names. This value is used for the variable &lt;i&gt;%1&lt;/i&gt;, which for example determines the name of the shadow build directory.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Namnet på det kit som är lämpligt för att generera katalognamn. Detta värde används för variabeln &lt;i&gt;%1&lt;/i&gt;, som till exempel bestämmer namnet för skuggbyggkatalogen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Namnet på kitet som passar för att skapa katalognamn. Värdet används för variabeln &lt;i&gt;%1&lt;/i&gt;, som till exempel bestämmer namnet på skuggbyggkatalogen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location line="+11" />
@@ -58073,7 +58073,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+303" />
             <source>Set as the default kit to use when creating a new project.</source>
-            <translation>Ange som standardsats att använda när ett nytt projekt skapas.</translation>
+            <translation>Ange som standardkit när ett nytt projekt skapas.</translation>
         </message>
         <message>
             <location line="+233" />
