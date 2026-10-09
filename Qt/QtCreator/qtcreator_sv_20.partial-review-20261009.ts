@@ -31233,13 +31233,13 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
             <location line="-1397" />
             <location line="+1173" />
             <source>Breakpoint will only be hit if this condition is met.</source>
-            <translation>Brytpunkten kommer endast att träffa om detta villkor uppfylls.</translation>
+            <translation>Brytpunkten träffas endast om det här villkoret uppfylls.</translation>
         </message>
         <message>
             <location line="-1163" />
             <location line="+1173" />
             <source>Breakpoint will only be hit after being ignored so many times.</source>
-            <translation>Brytpunkten kommer bara att slå efter att ignoreras så många gånger.</translation>
+            <translation>Brytpunkten träffas först efter att den har ignorerats så många gånger.</translation>
         </message>
         <message>
             <location line="-1281" />
@@ -31250,7 +31250,7 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
             <location line="+116" />
             <location line="+1173" />
             <source>Breakpoint will only be hit in the specified thread(s).</source>
-            <translation>Brytpunkten kommer endast att träffa i den angivna tråden/trådarna.</translation>
+            <translation>Brytpunkten träffas endast i den angivna tråden eller de angivna trådarna.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/cdb/cdboptionspage.cpp" line="+178" />
@@ -31280,7 +31280,7 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
         <message>
             <location filename="../../../src/plugins/debugger/shared/cdbsymbolpathlisteditor.cpp" line="+121" />
             <source>Uses a directory to cache symbols used by the debugger.</source>
-            <translation>Använder en katalog för att cache symboler som används av felsökningen.</translation>
+            <translation>Använder en katalog för att mellanlagra symboler som används av felsökaren.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggeractions.cpp" line="-61" />
@@ -31291,17 +31291,17 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
             <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="+14" />
             <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="+500" />
             <source>Operate by Instruction</source>
-            <translation>Utföra övningen</translation>
+            <translation>Arbeta på instruktionsnivå</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggeractions.cpp" line="+3" />
             <source>Dereference Pointers Automatically</source>
-            <translation>Avreferenspunkter automatiskt</translation>
+            <translation>Avreferera pekare automatiskt</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/gdb/gdbsettings.cpp" line="-136" />
             <source>Break on "abort"</source>
-            <translation>Bryt på "avbryt"</translation>
+            <translation>Bryt vid ”abort”</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="-269" />
@@ -31316,12 +31316,12 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
         <message>
             <location line="+8" />
             <source>GDB commands entered here will be executed after GDB has successfully attached to remote targets.&lt;/p&gt;&lt;p&gt;You can add commands to further set up the target here, such as "monitor reset" or "load".</source>
-            <translation>GDB- kommandon som matas in här kommer att köras efter GDB har framgångsrikt anslutits till fjärrmål.&lt;/p&gt;&lt;p&gt;Du kan lägga till kommandon för att ytterligare ställa in målet här, som "monitoråterställning" eller "load".</translation>
+            <translation>GDB-kommandon som anges här körs efter att GDB har anslutit till fjärrmålen.&lt;/p&gt;&lt;p&gt;Här kan du lägga till kommandon för att ytterligare konfigurera målet, till exempel ”monitor reset” eller ”load”.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="+169" />
             <source>Python commands entered here will be executed after built-in debugging helpers have been loaded and fully initialized. You can load additional debugging helpers or modify existing ones here.</source>
-            <translation>Pythonkommandon som matas in här kommer att köras efter att inbyggda felsökningshjälpare har laddats och helt initierats. Du kan ladda ytterligare felsökningshjälpare eller ändra befintliga här.</translation>
+            <translation>Python-kommandon som anges här körs efter att de inbyggda felsökningshjälparna har lästs in och initierats helt. Här kan du läsa in ytterligare felsökningshjälpare eller ändra befintliga.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -31331,17 +31331,17 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
         <message>
             <location line="+2" />
             <source>Path to a Python file containing additional data dumpers.</source>
-            <translation>Sökväg till en Python- fil som innehåller ytterligare datadumpers.</translation>
+            <translation>Sökväg till en Python-fil som innehåller ytterligare datadumprar.</translation>
         </message>
         <message>
             <location line="-212" />
             <source>Stopping and stepping in the debugger will automatically open views associated with the current location.</source>
-            <translation>Stoppa och kliva in i felsökningen öppnar automatiskt vyer som hör ihop med den aktuella platsen.</translation>
+            <translation>När felsökaren stoppas eller stegar öppnas vyer som hör till den aktuella platsen automatiskt.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Close temporary source views on debugger exit</source>
-            <translation>Stäng temporära källvyer vid avlusning</translation>
+            <translation>Stäng tillfälliga källvyer när felsökaren avslutas</translation>
         </message>
         <message>
             <location line="+1" />
@@ -31351,7 +31351,7 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
         <message>
             <location line="+4" />
             <source>Close temporary memory views on debugger exit</source>
-            <translation>Stäng temporära minnesvyer vid avlusareavgång</translation>
+            <translation>Stäng tillfälliga minnesvyer när felsökaren avslutas</translation>
         </message>
         <message>
             <location line="+1" />
@@ -31371,22 +31371,22 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
         <message>
             <location filename="../../../src/plugins/debugger/gdb/gdbsettings.cpp" line="+8" />
             <source>Debug all child processes</source>
-            <translation>Felsök alla barnprocesser</translation>
+            <translation>Felsök alla underordnade processer</translation>
         </message>
         <message>
             <location line="+1" />
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;Keeps debugging all children after a fork.&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;Keeps debugging all children after a fork.&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;Fortsätter att felsöka alla underordnade processer efter en förgrening.&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location line="+6" />
             <source>GDB shows by default AT&amp;&amp;T style disassembly.</source>
-            <translation>GDB visar som standard AT&amp;&amp;T stil demontering.</translation>
+            <translation>GDB visar som standard demontering i AT&amp;&amp;T-stil.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="+4" />
             <source>Use annotations in main editor when debugging</source>
-            <translation>Använd anteckningar i huvudeditorn när felsökning</translation>
+            <translation>Använd anteckningar i huvudredigeraren vid felsökning</translation>
         </message>
         <message>
             <location line="+3" />
@@ -31426,17 +31426,17 @@ Mer information finns i /etc/sysctl.d/10-ptrace.conf
         <message>
             <location line="+4" />
             <source>Use Tooltips in Breakpoints View when Debugging</source>
-            <translation>Använd verktygstips i brytpunkter Visa när du felsöker</translation>
+            <translation>Använd verktygstips i brytpunktsvyn vid felsökning</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Enables tooltips in the breakpoints view during debugging.</source>
-            <translation>Aktiverar verktygstips i brytpunkternas vy vid felsökning.</translation>
+            <translation>Aktiverar verktygstips i brytpunktsvyn vid felsökning.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Use Tooltips in Stack View when Debugging</source>
-            <translation>Använd verktygstips i Stackvyn när du avlusar</translation>
+            <translation>Använd verktygstips i stackvyn vid felsökning</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="+206" />
@@ -31450,21 +31450,21 @@ The default value of 20 seconds should be sufficient for most
 applications, but there are situations when loading big libraries or
 listing source files takes much longer than that on slow machines.
 In this case, the value should be increased.</source>
-            <translation>Antalet sekunder innan en icke- responsiv GDB- process avslutas.
-Standardvärdet på 20 sekunder bör vara tillräckligt för de
-flesta program, men det finns situationer när det tar mycket
-längre tid att ladda stora bibliotek eller lista källfiler än
-det på långsamma maskiner. I detta fall bör värdet ökas.</translation>
+            <translation>Antalet sekunder innan en GDB-process som inte svarar avslutas.
+Standardvärdet 20 sekunder bör räcka för de flesta
+program, men på långsamma datorer kan det ta betydligt längre tid att läsa in stora bibliotek eller
+lista källfiler.
+I så fall bör värdet höjas.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/commonoptionspage.cpp" line="-238" />
             <source>Shows QML object tree in Locals and Expressions when connected and not stepping.</source>
-            <translation>Visar QML- objektträd i lokala uttryck och uttryck när det är kopplat och inte kliver.</translation>
+            <translation>Visar QML-objektträdet i Lokala variabler och uttryck när anslutningen är upprättad och felsökaren inte stegar.</translation>
         </message>
         <message>
             <location line="+182" />
             <source>Show "std::" Namespace in Types</source>
-            <translation>Visa "std::" Namnrymd i typer</translation>
+            <translation>Visa namnrymden ”std::” i typer</translation>
         </message>
         <message>
             <location line="+7" />
