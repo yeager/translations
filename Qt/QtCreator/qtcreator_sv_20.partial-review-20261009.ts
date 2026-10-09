@@ -23257,7 +23257,7 @@ Om systemets markörer för storleksändring av vyer inte visas korrekt kan du a
         <message>
             <location line="-124" />
             <source>&lt;table border=1 cellspacing=0 cellpadding=3&gt;&lt;tr&gt;&lt;th&gt;Variable&lt;/th&gt;&lt;th&gt;Expands to&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%d&lt;/td&gt;&lt;td&gt;directory of current file&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%f&lt;/td&gt;&lt;td&gt;file name (with full path)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%n&lt;/td&gt;&lt;td&gt;file name (without path)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%%&lt;/td&gt;&lt;td&gt;%&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</source>
-            <translation><table border=1 cellspacing=0 cellpadding=3><tr><th>Variabel</th><th>Expanderas till</th></tr><tr><td>%d</td><td>katalogen för den aktuella filen</td></tr><tr><td>%f</td><td>filnamn (med fullständig sökväg)</td></tr><tr><td>%n</td><td>filnamn (utan sökväg)</td></tr><tr><td>%%</td><td>%</td></tr></table></translation>
+            <translation>&lt;table border=1 cellspacing=0 cellpadding=3&gt;&lt;tr&gt;&lt;th&gt;Variabel&lt;/th&gt;&lt;th&gt;Expanderas till&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%d&lt;/td&gt;&lt;td&gt;katalogen för den aktuella filen&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%f&lt;/td&gt;&lt;td&gt;filnamn (med fullständig sökväg)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%n&lt;/td&gt;&lt;td&gt;filnamn (utan sökväg)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%%&lt;/td&gt;&lt;td&gt;%&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</translation>
         </message>
         <message>
             <location line="+66" />
