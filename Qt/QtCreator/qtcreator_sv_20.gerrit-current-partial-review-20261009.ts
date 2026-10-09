@@ -56186,19 +56186,19 @@ Vill du redigera effekten?</translation>
     </message>
     <message>
         <source>Design Tokens</source>
-        <translation>Designsymboler</translation>
+        <translation>Designtoken</translation>
     </message>
     <message>
         <source>Design Tokens view</source>
-        <translation>Vyn Designsymboler</translation>
+        <translation>Vyn Designtoken</translation>
     </message>
     <message>
         <source>Bake Lights</source>
-        <translation>Baka ljus</translation>
+        <translation>Beräkna ljus</translation>
     </message>
     <message>
         <source>Bake lights for the current 3D scene.</source>
-        <translation>Baka ljus för den aktuella 3D-scenen.</translation>
+        <translation>Beräkna ljus för den aktuella 3D-scenen.</translation>
     </message>
     <message>
         <source>Select Background Color</source>
@@ -56226,7 +56226,7 @@ Vill du redigera effekten?</translation>
     </message>
     <message>
         <source>Use Scene Environment</source>
-        <translation>Använd scenmiljö</translation>
+        <translation>Använd scenmiljön</translation>
     </message>
     <message>
         <source>Sets the 3D view to use the Scene Environment color or skybox as background color.</source>
@@ -56282,7 +56282,7 @@ Vill du redigera effekten?</translation>
     </message>
     <message>
         <source>Toggle Perspective/Orthographic Camera Mode</source>
-        <translation>Växla perspektiviskt/ortografiskt kameraläge</translation>
+        <translation>Växla mellan perspektiviskt och ortografiskt kameraläge</translation>
     </message>
     <message>
         <source>Toggle Global/Local Orientation</source>
