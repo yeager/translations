@@ -72793,7 +72793,7 @@ Om egenskapen sätts till sant korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Sets the component and its property to which the copied value is assigned.</source>
-        <translation>Anger komponenten och dess egenskap som det kopierade värdet tilldelas till.</translation>
+        <translation>Anger komponenten och dess egenskap som det kopierade värdet tilldelas.</translation>
     </message>
     <message>
         <source>Sets a logical condition for the selected action.</source>
