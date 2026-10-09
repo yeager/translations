@@ -78975,12 +78975,12 @@ Med cache-simulering aktiveras fler händelseräknare:
         <message>
             <location line="+457" />
             <source>A Valgrind Callgrind analysis is still in progress.</source>
-            <translation>analys av Valgrind Callgrind pågår fortfarande.</translation>
+            <translation>En Valgrind Callgrind-analys pågår fortfarande.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Start a Valgrind Callgrind analysis.</source>
-            <translation>Börja med en Valgrind Callgrind-analys.</translation>
+            <translation>Starta en Valgrind Callgrind-analys.</translation>
         </message>
         <message>
             <location line="+29" />
@@ -78990,12 +78990,12 @@ Med cache-simulering aktiveras fler händelseräknare:
         <message>
             <location line="+11" />
             <source>Parsing finished, no data.</source>
-            <translation>Tolkning färdig, inget data.</translation>
+            <translation>Tolkningen är klar, men inga data hittades.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Parsing finished, total cost of %1 reported.</source>
-            <translation>Utdelning klar, total kostnad för %1 rapporteras.</translation>
+            <translation>Tolkningen är klar, total kostnad för %1 rapporterad.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -79005,12 +79005,12 @@ Med cache-simulering aktiveras fler händelseräknare:
         <message>
             <location line="+93" />
             <source>Populating...</source>
-            <translation>- Jag är upptagen.</translation>
+            <translation>Fyller i …</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/valgrind/callgrindvisualisation.cpp" line="+349" />
             <source>All functions with an inclusive cost ratio higher than %1 (%2 are hidden)</source>
-            <translation>Alla funktioner med en inkluderande kostnadskvot högre än %1 (%2 är dolda)</translation>
+            <translation>Alla funktioner med en inkluderande kostnadskvot större än %1 (%2 är dolda)</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/valgrind/xmlprotocol/errorlistmodel.cpp" line="+0" />
@@ -79035,7 +79035,7 @@ Med cache-simulering aktiveras fler händelseräknare:
         <message>
             <location filename="../../../src/plugins/valgrind/memcheckerrorview.cpp" line="-135" />
             <source>Suppress Error</source>
-            <translation>Tryck på fel</translation>
+            <translation>Undertryck fel</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/valgrind/memchecktool.cpp" line="-165" />
@@ -79050,22 +79050,22 @@ Med cache-simulering aktiveras fler händelseräknare:
         <message>
             <location line="+2" />
             <source>Show issues originating outside currently opened projects.</source>
-            <translation>Visa frågor som härrör från projekt som för närvarande är öppna utanför.</translation>
+            <translation>Visa problem som härrör från projekt utanför de projekt som för närvarande är öppna.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Suppressions</source>
-            <translation>Undertryck</translation>
+            <translation>Undertryckningar</translation>
         </message>
         <message>
             <location line="+3" />
             <source>These suppression files were used in the last memory analyzer run.</source>
-            <translation>Dessa dämpningsfiler användes i den senaste minnesanalysatorn.</translation>
+            <translation>Dessa undertryckningsfiler användes vid den senaste körningen av minnesanalysatorn.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Definite Memory Leaks</source>
-            <translation>Definitiv minneslucka</translation>
+            <translation>Definitiva minnesläckor</translation>
         </message>
         <message>
             <location line="+4" />
@@ -79075,7 +79075,7 @@ Med cache-simulering aktiveras fler händelseräknare:
         <message>
             <location line="+4" />
             <source>Use of Uninitialized Memory</source>
-            <translation>Användning av ett oinvigt minne</translation>
+            <translation>Användning av oinitierat minne</translation>
         </message>
         <message>
             <location line="+6" />
@@ -79085,17 +79085,17 @@ Med cache-simulering aktiveras fler händelseräknare:
         <message>
             <location line="+4" />
             <source>Size and Alignment Errors</source>
-            <translation>Fel i storlek och inställning</translation>
+            <translation>Storleks- och justeringsfel</translation>
         </message>
         <message>
             <location line="+6" />
             <source>File Descriptor Issues</source>
-            <translation>Fildeskriptorfrågor</translation>
+            <translation>Problem med filbeskrivare</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Other</source>
-            <translation>Annan</translation>
+            <translation>Övrigt</translation>
         </message>
         <message>
             <location line="+20" />
@@ -79120,19 +79120,19 @@ Med cache-simulering aktiveras fler händelseräknare:
         <message>
             <location line="+14" />
             <source>Valgrind Analyze Memory uses the Memcheck tool to find memory leaks.</source>
-            <translation>Valgrind minnesanalyserare använder Memcheck-verktyget för att hitta minnesläckor.</translation>
+            <translation>Valgrind-minnesanalysatorn använder Memcheck-verktyget för att hitta minnesläckor.</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Valgrind Memory Analyzer with GDB</source>
-            <translation>Valgrind minnesanalyserare med GDB</translation>
+            <translation>Valgrind-minnesanalysator med GDB</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Valgrind Analyze Memory with GDB uses the Memcheck tool to find memory leaks.
 When a problem is detected, the application is interrupted and can be debugged.</source>
-            <translation>Valgrind minnesanalyserare med GDB använder Memcheck-verktyget för att hitta minnesläckor.
-När ett problem upptäcks kommer programmet att avbrytas och kan felsökas.</translation>
+            <translation>Valgrind-minnesanalysatorn med GDB använder Memcheck-verktyget för att hitta minnesläckor.
+När ett problem identifieras avbryts programmet och kan felsökas.</translation>
         </message>
         <message>
             <location line="+17" />
@@ -79150,7 +79150,7 @@ När ett problem upptäcks kommer programmet att avbrytas och kan felsökas.</tr
         <message>
             <location line="+9" />
             <source>Valgrind Memory Analyzer (External Application)</source>
-            <translation>Valgrind minnesanalyserare (externt program)</translation>
+            <translation>Valgrind-minnesanalysator (externt program)</translation>
         </message>
         <message>
             <location line="+43" />
@@ -79175,17 +79175,17 @@ När ett problem upptäcks kommer programmet att avbrytas och kan felsökas.</tr
         <message>
             <location line="+26" />
             <source>The %1 executables must be in the appropriate location.</source>
-            <translation>Körbara %1 måste vara på lämplig plats.</translation>
+            <translation>%1:s körbara filer måste finnas på rätt plats.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Heob used with MinGW projects needs the %1 DLLs for proper stacktrace resolution.</source>
-            <translation>Heob används med MinGW-projekt behöver %1 DLL-filer för korrekt stacktrace upplösning.</translation>
+            <translation>Heob som används med MinGW-projekt behöver %1-DLL:er för korrekt upplösning av stackspår.</translation>
         </message>
         <message>
             <location line="+58" />
             <source>Heob: Cannot create %1 process (%2).</source>
-            <translation>Heob: Kan inte skapa %1 process (%2).</translation>
+            <translation>Heob: Det går inte att skapa processen %1 (%2).</translation>
         </message>
         <message>
             <location line="+28" />
@@ -79201,22 +79201,22 @@ När ett problem upptäcks kommer programmet att avbrytas och kan felsökas.</tr
         <message>
             <location line="+6" />
             <source>Start a Valgrind Memcheck with GDB analysis.</source>
-            <translation>Starta en Valgrind Memcheck med GDB-analys.</translation>
+            <translation>Starta en Valgrind Memcheck-analys med GDB.</translation>
         </message>
         <message>
             <location line="+83" />
             <source>Starting Memory Analyzer...</source>
-            <translation>Börjar minnesanalysatorn…</translation>
+            <translation>Startar minnesanalysatorn …</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Memory Analyzer running...</source>
-            <translation>Minnesanalysatorn kör…</translation>
+            <translation>Minnesanalysatorn körs …</translation>
         </message>
         <message>
             <location line="+39" />
             <source>Open Memcheck XML Log File</source>
-            <translation>Öppna Memcheck XML- loggfil</translation>
+            <translation>Öppna Memcheck XML-loggfil</translation>
         </message>
         <message>
             <source>XML Files (*.xml);;All Files (*)</source>
