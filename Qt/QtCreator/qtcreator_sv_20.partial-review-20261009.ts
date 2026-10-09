@@ -53412,7 +53412,7 @@ Försök igen.</translation>
         <message>
             <location line="+3" />
             <source>The amount of seconds to wait between a "soft kill" and a "hard kill" of a running application.</source>
-            <translation>Mängden sekunder att vänta mellan en "mjuk döda" och en "hård döda" av en körande program.</translation>
+            <translation>Antalet sekunder att vänta mellan en "mjuk" och en "hård" avslutning av ett program som körs.</translation>
         </message>
         <message>
             <location line="-126" />
@@ -53427,12 +53427,12 @@ Försök igen.</translation>
         <message>
             <location line="+4" />
             <source>Save all files before build</source>
-            <translation>Spara alla filer innan byggnation</translation>
+            <translation>Spara alla filer före bygge</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Add linker library search paths to run environment</source>
-            <translation>Lägg till sökvägar för länkbibliotek för att köra miljö</translation>
+            <translation>Lägg till sökvägar till länkbibliotek i körmiljön</translation>
         </message>
         <message>
             <location line="+9" />
@@ -53442,12 +53442,12 @@ Försök igen.</translation>
         <message>
             <location line="+4" />
             <source>Keep run configurations in sync:</source>
-            <translation>Håll körinställningarna synkade:</translation>
+            <translation>Håll körkonfigurationerna synkroniserade:</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Whether adding, removing or editing a run configuration in one build configuration should update other build configurations accordingly.</source>
-            <translation>Oavsett om du lägger till, tar bort eller redigerar en körkonfiguration i en byggkonfiguration bör du uppdatera andra byggkonfigurationer i enlighet med detta.</translation>
+            <translation>Anger om tillägg, borttagning eller redigering av en körkonfiguration i en byggkonfiguration ska uppdatera de andra byggkonfigurationerna.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -53462,17 +53462,17 @@ Försök igen.</translation>
         <message>
             <location line="+3" />
             <source>Sync Within One Kit</source>
-            <translation>Synkronisera inom en sats</translation>
+            <translation>Synkronisera inom ett kit</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Build configurations in the same kit keep their run configurations in sync.</source>
-            <translation>Bygg konfigurationer i samma kit hålla sina kör konfigurationer i synk.</translation>
+            <translation>Byggkonfigurationer i samma kit håller sina körkonfigurationer synkroniserade.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Sync Across All Kits</source>
-            <translation>Synkronisera över alla uppsättningar</translation>
+            <translation>Synkronisera mellan alla kit</translation>
         </message>
         <message>
             <location line="+1" />
@@ -53497,12 +53497,12 @@ Försök igen.</translation>
         <message>
             <location line="+6" />
             <source>Warn against build directories with spaces or non-ASCII characters</source>
-            <translation>Varna för byggkataloger med blanksteg eller icke-ASCII-tecken</translation>
+            <translation>Varna för byggkataloger med mellanslag eller icke-ASCII-tecken</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Some legacy build tools do not deal well with paths that contain "special" characters such as spaces, potentially resulting in spurious build errors.&lt;p&gt;Uncheck this option if you do not work with such tools.</source>
-            <translation>Vissa äldre byggverktyg hanterar inte sökvägar som innehåller "special" tecken som mellanslag, vilket kan resultera i falska byggfel.&lt;p&gt;Avmarkera alternativet om du inte arbetar med sådana verktyg.</translation>
+            <translation>Vissa äldre byggverktyg hanterar inte sökvägar som innehåller specialtecken, till exempel mellanslag, särskilt väl, vilket kan orsaka felaktiga byggfel.&lt;p&gt;Avmarkera alternativet om du inte arbetar med sådana verktyg.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -53517,7 +53517,7 @@ Försök igen.</translation>
         <message>
             <location line="+1" />
             <source>Kits listed in "Projects" mode:</source>
-            <translation>Paket listade i "Projekt"-läge:</translation>
+            <translation>Kit som visas i läget "Projekt":</translation>
         </message>
         <message>
             <location line="+7" />
@@ -53538,7 +53538,7 @@ Försök igen.</translation>
             <location line="+244" />
             <location line="+46" />
             <source>Building and Running</source>
-            <translation>Byggande och drift</translation>
+            <translation>Bygga och köra</translation>
         </message>
         <message>
             <source>All</source>
