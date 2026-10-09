@@ -206,7 +206,7 @@
         </message>
         <message>
             <source>Align horizontal centers.</source>
-            <translation>Justera horisontella centrum.</translation>
+            <translation>Justera horisontella mittpunkter.</translation>
         </message>
         <message>
             <source>Align right edges.</source>
@@ -218,7 +218,7 @@
         </message>
         <message>
             <source>Align vertical centers.</source>
-            <translation>Justera vertikala centrum.</translation>
+            <translation>Justera vertikala mittpunkter.</translation>
         </message>
         <message>
             <source>Align bottom edges.</source>
@@ -226,67 +226,67 @@
         </message>
         <message>
             <source>Distribute objects</source>
-            <translation>Distribuera objekt</translation>
+            <translation>Fördela objekt</translation>
         </message>
         <message>
             <source>Distribute left edges.</source>
-            <translation>Distribuera vänstra kanter.</translation>
+            <translation>Fördela vänsterkanter.</translation>
         </message>
         <message>
             <source>Distribute horizontal centers.</source>
-            <translation>Distribuera horisontella centrum.</translation>
+            <translation>Fördela horisontella mittpunkter.</translation>
         </message>
         <message>
             <source>Distribute right edges.</source>
-            <translation>Distribuera högra kanter.</translation>
+            <translation>Fördela högerkanter.</translation>
         </message>
         <message>
             <source>Distribute top edges.</source>
-            <translation>Distribuera övre kanter.</translation>
+            <translation>Fördela överkanter.</translation>
         </message>
         <message>
             <source>Distribute vertical centers.</source>
-            <translation>Distribuera vertikala centrum.</translation>
+            <translation>Fördela vertikala mittpunkter.</translation>
         </message>
         <message>
             <source>Distribute bottom edges.</source>
-            <translation>Distribuera nedre kanter.</translation>
+            <translation>Fördela underkanter.</translation>
         </message>
         <message>
             <source>Distribute spacing</source>
-            <translation>Distribuera mellanrum</translation>
+            <translation>Fördela avstånd</translation>
         </message>
         <message>
             <source>Distribute spacing horizontally.</source>
-            <translation>Distribuera mellanrum horisontellt.</translation>
+            <translation>Fördela avstånd horisontellt.</translation>
         </message>
         <message>
             <source>Distribute spacing vertically.</source>
-            <translation>Distribuera mellanrum vertikalt.</translation>
+            <translation>Fördela avstånd vertikalt.</translation>
         </message>
         <message>
             <source>Disables the distribution of spacing in pixels.</source>
-            <translation>Inaktiverar distributionen av mellanrum i bildpunkter.</translation>
+            <translation>Inaktiverar fördelning av avstånd i pixlar.</translation>
         </message>
         <message>
             <source>Sets the left or top border of the target area or item as the starting point, depending on the distribution orientation.</source>
-            <translation>Ställer in vänster eller övre ram för målytan eller post som startpunkt, beroende på distributionsorienteringen.</translation>
+            <translation>Anger målytan eller objektets vänster- eller överkant som startpunkt, beroende på fördelningsriktning.</translation>
         </message>
         <message>
             <source>Sets the horizontal or vertical center of the target area or item as the starting point, depending on the distribution orientation.</source>
-            <translation>Ställer in horisontellt eller vertikalt centrum för målytan eller post som startpunkt, beroende på distributionsorienteringen.</translation>
+            <translation>Anger målytan eller objektets horisontella eller vertikala mittpunkt som startpunkt, beroende på fördelningsriktning.</translation>
         </message>
         <message>
             <source>Sets the bottom or right border of the target area or item as the starting point, depending on the distribution orientation.</source>
-            <translation>Ställer in nedre eller höger ram för målytan eller post som startpunkt, beroende på distributionsorienteringen.</translation>
+            <translation>Anger målytan eller objektets under- eller högerkant som startpunkt, beroende på fördelningsriktning.</translation>
         </message>
         <message>
             <source>Pixel spacing</source>
-            <translation>Bildpunktsmellanrum</translation>
+            <translation>Pixelavstånd</translation>
         </message>
         <message>
             <source>Align to</source>
-            <translation>Justera till</translation>
+            <translation>Justera mot</translation>
         </message>
         <message>
             <source>Key object</source>
