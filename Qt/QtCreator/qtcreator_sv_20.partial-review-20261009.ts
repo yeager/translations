@@ -80231,7 +80231,7 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location line="+28" />
             <source>The directory "%1" is already managed by a version control system (%2). Would you like to specify another directory?</source>
-            <translation>Katalogen "%1" är redan hanterad av ett versionskontrollsystem (%2). Vill du ange en annan katalog?</translation>
+            <translation>Katalogen ”%1” hanteras redan av ett versionskontrollsystem (%2). Vill du ange en annan katalog?</translation>
         </message>
         <message>
             <location line="+4" />
@@ -80241,22 +80241,22 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location line="+9" />
             <source>Repository Created</source>
-            <translation>Förråd skapades</translation>
+            <translation>Förrådet skapades</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Repository Creation Failed</source>
-            <translation>Skapandet av förråd misslyckades</translation>
+            <translation>Det gick inte att skapa förrådet</translation>
         </message>
         <message>
             <location line="-3" />
             <source>A version control repository has been created in %1.</source>
-            <translation>Ett versionskontrollerat förråd har skapats i %1.</translation>
+            <translation>Ett förråd för versionshantering har skapats i %1.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>A version control repository could not be created in %1.</source>
-            <translation>Ett versionskontrollerat förråd kunde inte skapas i %1.</translation>
+            <translation>Det gick inte att skapa ett förråd för versionshantering i %1.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/vcsbase/vcsbaseclient.cpp" line="+211" />
@@ -80266,12 +80266,12 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location filename="../../../src/plugins/vcsbase/vcsbaseeditor.cpp" line="+588" />
             <source>Annotate "%1"</source>
-            <translation>Anteckna "%1"</translation>
+            <translation>Annotera ”%1”</translation>
         </message>
         <message>
             <location line="-241" />
             <source>Copy "%1"</source>
-            <translation>Kopiera "%1"</translation>
+            <translation>Kopiera ”%1”</translation>
         </message>
         <message>
             <location line="-23" />
@@ -80286,29 +80286,29 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location line="+13" />
             <source>Apply Chunk...</source>
-            <translation>Använd Chunk…</translation>
+            <translation>Verkställ ändringsstycke…</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Revert Chunk...</source>
-            <translation>Vänd om, Chunk.</translation>
+            <translation>Återställ ändringsstycke…</translation>
         </message>
         <message>
             <location line="+398" />
             <source>Failed to retrieve data.</source>
-            <translation>Misslyckades med att hämta data.</translation>
+            <translation>Det gick inte att hämta data.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/vcsbase/wizard/vcsconfigurationpage.cpp" line="+60" />
             <source>"data" must be a JSON object for "VcsConfiguration" pages.</source>
             <extracomment>Do not translate "VcsConfiguration", because it is the id of a page.</extracomment>
-            <translation>"data" måste vara ett JSON-objekt för "VcsConfiguration"-sidor.</translation>
+            <translation>”data” måste vara ett JSON-objekt för sidor av typen ”VcsConfiguration”.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>"VcsConfiguration" page requires a "vcsId" set.</source>
             <extracomment>Do not translate "VcsConfiguration", because it is the id of a page.</extracomment>
-            <translation>"VcsConfiguration" sidan kräver en "vcsId" uppsättning.</translation>
+            <translation>Sidan ”VcsConfiguration” kräver att ”vcsId” är angivet.</translation>
         </message>
         <message>
             <location line="+18" />
@@ -80319,13 +80319,13 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
             <location line="+43" />
             <source>No version control set on "VcsConfiguration" page.</source>
             <extracomment>Do not translate "VcsConfiguration", because it is the id of a page.</extracomment>
-            <translation>Ingen versionskontroll inställd på "VcsConfiguration" sidan.</translation>
+            <translation>Ingen versionshantering är angiven på sidan ”VcsConfiguration”.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>"vcsId" ("%1") is invalid for "VcsConfiguration" page. Possible values are: %2.</source>
             <extracomment>Do not translate "VcsConfiguration", because it is the id of a page.</extracomment>
-            <translation>"vcsId" ("%1") är ogiltigt för "VcsConfiguration" sida. Möjliga värden är: %2.</translation>
+            <translation>”vcsId” (”%1”) är ogiltigt för sidan ”VcsConfiguration”. Möjliga värden är: %2.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -80355,34 +80355,34 @@ inställningar eller försäkra dig om att Valgrind är installerat och finns i 
         <message>
             <location line="-18" />
             <source>An executable which is called with the submit message in a temporary file as first argument. It should return with an exit != 0 and a message on standard error to indicate failure.</source>
-            <translation>Ett körbart program som anropas med meddelandet i en tillfällig fil som första argument. Det ska returnera med en utgång! = 0 och ett meddelande om standardfel för att indikera fel.</translation>
+            <translation>En körbar fil som anropas med incheckningsmeddelandet i en temporär fil som första argument. Den ska avslutas med en kod != 0 och ett meddelande på standardfel för att signalera fel.</translation>
         </message>
         <message>
             <location line="-14" />
             <source>A file listing nicknames in a 4-column mailmap format:
 'name &lt;email&gt; alias &lt;email&gt;'.</source>
-            <translation>fil lista smeknamn i ett 4-kolumn e-postkarta
-format: 'namn &lt;email&gt; alias &lt;email&gt;'.</translation>
+            <translation>En fil som listar smeknamn i ett fyrkolumnigt mailmap-format:
+'name &lt;email&gt; alias &lt;email&gt;'.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Submit message &amp;check script:</source>
-            <translation>Skicka meddelande &amp;check skript:</translation>
+            <translation>Skript för &amp;kontroll av incheckningsmeddelande:</translation>
         </message>
         <message>
             <location line="+16" />
             <source>Wrap submit message at</source>
-            <translation>Wrap skicka meddelande vid</translation>
+            <translation>Radbryt incheckningsmeddelandet vid</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Show VCS file status with refresh interval</source>
-            <translation>Visa VCS- filstatus med uppdateringsintervall</translation>
+            <translation>Visa VCS-filstatus med uppdateringsintervall</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Request file status updates from files and reflect them on the project tree.</source>
-            <translation>Begär filstatusuppdateringar från filer och reflektera dem på projektträdet.</translation>
+            <translation>Begär filstatusuppdateringar och återspegla dem i projektträdet.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -80392,17 +80392,17 @@ format: 'namn &lt;email&gt; alias &lt;email&gt;'.</translation>
         <message>
             <location line="+3" />
             <source>Specifies the file status update refresh interval.</source>
-            <translation>Anger uppdateringsintervall för uppdatering av filstatus.</translation>
+            <translation>Anger uppdateringsintervallet för filstatus.</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Reset VCS Cache</source>
-            <translation>Nollställ VCS-cache</translation>
+            <translation>Återställ VCS-cachen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Reset information about which version control system handles which directory.</source>
-            <translation>Återställ information om vilken version kontrollsystem hanterar vilken katalog.</translation>
+            <translation>Återställ information om vilket versionskontrollsystem som hanterar respektive katalog.</translation>
         </message>
         <message>
             <location line="-60" />
@@ -80412,24 +80412,23 @@ format: 'namn &lt;email&gt; alias &lt;email&gt;'.</translation>
         <message>
             <location line="+8" />
             <source>A simple file containing lines with field names like "Reviewed-By:" which will be added below the submit editor.</source>
-            <translation>enkel fil med rader med fältnamn som "Reviewed-by:" som läggs till under editorn.</translation>
+            <translation>En enkel fil med rader som innehåller fältnamn, till exempel ”Reviewed-By:”, som läggs till under incheckningsredigeraren.</translation>
         </message>
         <message>
             <location line="-1" />
             <source>User &amp;fields configuration file:</source>
-            <translation>Användaren &amp;fields inställningsfil:</translation>
+            <translation>Inställningsfil för användar&amp;fält:</translation>
         </message>
         <message>
             <location line="+16" />
             <source>&amp;SSH prompt command:</source>
-            <translation>Kommando för &amp;SSH- kommando:</translation>
+            <translation>Kommando för &amp;SSH-prompt:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Specifies a command that is executed to graphically prompt for a password,
 should a repository require SSH-authentication (see documentation on SSH and the environment variable SSH_ASKPASS).</source>
-            <translation>Anger ett kommando som körs grafiskt för att fråga efter ett lösenord, om ett arkiv
-kräver SSH-autentiering (se dokumentation om SSH och miljövariabeln SSH_ASKPASS).</translation>
+            <translation>Anger ett kommando som körs för att grafiskt be om ett lösenord om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljövariabeln SSH_ASKPASS).</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/vcsbase/vcsbaseeditor.cpp" line="-955" />
@@ -80439,7 +80438,7 @@ kräver SSH-autentiering (se dokumentation om SSH och miljövariabeln SSH_ASKPAS
         <message>
             <location line="+1" />
             <source>Copy URL Location</source>
-            <translation>Kopiera URL-plats</translation>
+            <translation>Kopiera URL-adress</translation>
         </message>
         <message>
             <location line="+66" />
@@ -80468,12 +80467,12 @@ kräver SSH-autentiering (se dokumentation om SSH och miljövariabeln SSH_ASKPAS
         <message>
             <location line="+4" />
             <source>Check a&amp;ll</source>
-            <translation>Kontrollera A&amp;ll</translation>
+            <translation>Markera a&amp;lla</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Check selected</source>
-            <translation>Markera markerad</translation>
+            <translation>Markera valda</translation>
         </message>
         <message>
             <location line="+5" />
@@ -80483,7 +80482,7 @@ kräver SSH-autentiering (se dokumentation om SSH och miljövariabeln SSH_ASKPAS
         <message>
             <location line="+115" />
             <source>Cannot commit: %1</source>
-            <translation>Kan inte utföra: %1</translation>
+            <translation>Det går inte att checka in: %1</translation>
         </message>
         <message numerus="yes">
             <location line="+243" />
