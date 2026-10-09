@@ -1371,7 +1371,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         <name>ColorEditorPopup</name>
         <message>
             <source>Solid</source>
-            <translation>Solid</translation>
+            <translation>Enfärgad</translation>
         </message>
         <message>
             <source>Linear</source>
@@ -1387,11 +1387,11 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Open Color Dialog</source>
-            <translation>Öppna färgdialog</translation>
+            <translation>Öppna färgdialogrutan</translation>
         </message>
         <message>
             <source>Fill type can only be changed in base state.</source>
-            <translation>Fyllnadstypen kan endast ändras i grundtillstånd.</translation>
+            <translation>Fyllningstypen kan bara ändras i basläget.</translation>
         </message>
         <message>
             <source>Transparent</source>
@@ -1399,7 +1399,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Gradient Picker</source>
-            <translation>Gradientväljare</translation>
+            <translation>Toningsväljare</translation>
         </message>
         <message>
             <source>Eye Dropper</source>
@@ -1407,7 +1407,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Original</source>
-            <translation>Original</translation>
+            <translation>Ursprunglig</translation>
         </message>
         <message>
             <source>New</source>
@@ -1419,7 +1419,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Color Details</source>
-            <translation>Färgdetaljer</translation>
+            <translation>Färginformation</translation>
         </message>
         <message>
             <source>Palette</source>
@@ -1427,7 +1427,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Gradient Controls</source>
-            <translation>Gradientkontroller</translation>
+            <translation>Toningskontroller</translation>
         </message>
         <message>
             <source>Vertical</source>
@@ -1439,35 +1439,35 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Defines the direction of the gradient.</source>
-            <translation>Definierar riktningen för gradienten.</translation>
+            <translation>Anger toningens riktning.</translation>
         </message>
         <message>
             <source>Defines the start point for color interpolation.</source>
-            <translation>Definierar startpunkten för färginterpolation.</translation>
+            <translation>Anger startpunkten för färginterpoleringen.</translation>
         </message>
         <message>
             <source>Defines the end point for color interpolation.</source>
-            <translation>Definierar slutpunkten för färginterpolation.</translation>
+            <translation>Anger slutpunkten för färginterpoleringen.</translation>
         </message>
         <message>
             <source>Defines the center point.</source>
-            <translation>Definierar centrumpunkten.</translation>
+            <translation>Anger mittpunkten.</translation>
         </message>
         <message>
             <source>Defines the focal point.</source>
-            <translation>Definierar fokalpunkten.</translation>
+            <translation>Anger fokuspunkten.</translation>
         </message>
         <message>
             <source>Defines the center radius.</source>
-            <translation>Definierar centrumradie.</translation>
+            <translation>Anger radien för mittpunkten.</translation>
         </message>
         <message>
             <source>Defines the focal radius. Set to 0 for simple radial gradients.</source>
-            <translation>Definierar fokalradie. Ställ in till 0 för enkla radiala gradienter.</translation>
+            <translation>Anger fokusradien. Ange 0 för enkla radiella toningar.</translation>
         </message>
         <message>
             <source>Defines the start angle for the conical gradient. The value is in degrees (0-360).</source>
-            <translation>Definierar startvinkeln för den koniska gradienten. Värdet är i grader (0-360).</translation>
+            <translation>Anger startvinkeln för den koniska toningen. Värdet anges i grader (0–360).</translation>
         </message>
     </context>
     <context>
