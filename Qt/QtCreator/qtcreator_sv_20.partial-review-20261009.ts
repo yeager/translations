@@ -30678,32 +30678,32 @@ Do you want to display them anyway?</source>
         <message>
             <location line="+84" />
             <source>Allow inferior calls in debugging helper</source>
-            <translation>Tillåt underlägsna samtal i felsökningshjälp</translation>
+            <translation>Tillåt anrop till inferior i felsökningshjälparen</translation>
         </message>
         <message>
             <location line="+32" />
             <source>Show QObject Names if Available</source>
-            <translation>Visa QObjektnamn om tillgängliga</translation>
+            <translation>Visa QObject-namn om de är tillgängliga</translation>
         </message>
         <message>
             <location line="+48" />
             <source>Default array size:</source>
-            <translation>Förvald arraystorlek:</translation>
+            <translation>Förvald fältstorlek:</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The number of array elements requested when expanding entries in the Locals and Expressions views.</source>
-            <translation>Antalet arrayelement som begärs vid utökning av poster i vyerna Lokaler och uttryck.</translation>
+            <translation>Antalet fältelement som begärs när poster expanderas i vyerna Lokala variabler och uttryck.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>The debugging helpers are used to produce a nice display of objects of certain types like QString or std::map in the &amp;quot;Locals&amp;quot; and &amp;quot;Expressions&amp;quot; views.</source>
-            <translation>De felsökningshjälpare används för att producera en fin visning av objekt av vissa typer som QString eller std:karta i &amp;quot;Locals&amp;quot; och &amp;quot;Uttryck&amp;quot; vyer.</translation>
+            <translation>Felsökningshjälparna används för att visa objekt av vissa typer, exempelvis QString och std::map, på ett bra sätt i vyerna &amp;quot;Lokala variabler&amp;quot; och &amp;quot;Uttryck&amp;quot;.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Extra Debugging Helper</source>
-            <translation>Extra felsökningshjälp</translation>
+            <translation>Extra felsökningshjälpare</translation>
         </message>
         <message>
             <location line="+43" />
@@ -30725,13 +30725,13 @@ Check the settings of
 /proc/sys/kernel/yama/ptrace_scope
 For more details, see /etc/sysctl.d/10-ptrace.conf
 </source>
-            <translation>ptrace: Operation inte tillåten. Kunde
-inte ansluta till processen. Försäkra
-dig om att ingen annan felsökare
-spårar processen. Kontrollera
-inställningarna för /proc/sys/ kernel/yama/ptrace_
-scope För mer information,
-se /etc/sysctl.d/10-ptrace.conf</translation>
+            <translation>ptrace: Åtgärden är inte tillåten.
+
+Det gick inte att ansluta till processen. Kontrollera att ingen annan felsökare spårar processen.
+Kontrollera inställningarna i
+/proc/sys/kernel/yama/ptrace_scope
+Mer information finns i /etc/sysctl.d/10-ptrace.conf
+</translation>
         </message>
         <message>
             <location line="+8" />
@@ -30743,14 +30743,14 @@ of the target process, check the settings of
 /proc/sys/kernel/yama/ptrace_scope
 For more details, see /etc/sysctl.d/10-ptrace.conf
 </source>
-            <translation>ptrace: Operation inte tillåten. Kunde
-inte ansluta till processen. Försäkra dig
-om att ingen annan felsökning spårar
-processen. Om ditt användargränssnitt matchar
-målprocessens användargränssnitt,
-kontrollera inställningarna för /proc/sys/
-kernel/yama/ptrace_ scope För mer information,
-se /etc/sysctl.d/10-ptrace.conf</translation>
+            <translation>ptrace: Åtgärden är inte tillåten.
+
+Det gick inte att ansluta till processen. Kontrollera att ingen annan felsökare spårar processen.
+Om ditt UID överensstämmer med målprocessens UID
+kontrollerar du inställningarna i
+/proc/sys/kernel/yama/ptrace_scope
+Mer information finns i /etc/sysctl.d/10-ptrace.conf
+</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/loadcoredialog.cpp" line="+110" />
@@ -30765,12 +30765,12 @@ se /etc/sysctl.d/10-ptrace.conf</translation>
         <message>
             <location line="+3" />
             <source>Select a file containing debug information corresponding to the core file. Typically, this is the executable or a *.debug file if the debug information is stored separately from the executable.</source>
-            <translation>Välj en fil som innehåller felsökningsinformation som motsvarar kärnfilen. Normalt är det körbar fil eller *. felsökningsfil om felsökningsinformationen lagras separat från körbar fil.</translation>
+            <translation>Välj en fil med felsökningsinformation som motsvarar kärnfilen. Vanligtvis är det den körbara filen eller en *.debug-fil om felsökningsinformationen lagras separat.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>This option can be used to override the kit's SysRoot setting</source>
-            <translation>Det här alternativet kan användas för att åsidosätta kitets SysRoot- inställning</translation>
+            <translation>Det här alternativet kan användas för att åsidosätta kitets SysRoot-inställning</translation>
         </message>
         <message>
             <location line="+16" />
@@ -30780,22 +30780,22 @@ se /etc/sysctl.d/10-ptrace.conf</translation>
         <message>
             <location line="+35" />
             <source>Failed to copy core file to device: %1</source>
-            <translation>Misslyckades kopiera kärnfilen till enheten: %1</translation>
+            <translation>Det gick inte att kopiera kärnfilen till enheten: %1</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Failed to copy symbol file to device: %1</source>
-            <translation>Misslyckades med att kopiera symbolfil till enhet: %1</translation>
+            <translation>Det gick inte att kopiera symbolfilen till enheten: %1</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Copying files to device... %1/%2</source>
-            <translation>Kopierar filer till enhet… %1/%2</translation>
+            <translation>Kopierar filer till enheten … %1/%2</translation>
         </message>
         <message>
             <location line="+70" />
             <source>Copying files to device...</source>
-            <translation>Kopierar filer till enhet…</translation>
+            <translation>Kopierar filer till enheten …</translation>
         </message>
         <message>
             <location line="-122" />
@@ -30815,7 +30815,7 @@ se /etc/sysctl.d/10-ptrace.conf</translation>
         <message>
             <location line="+23" />
             <source>Override &amp;start script:</source>
-            <translation>Överskrid &amp;start- skript:</translation>
+            <translation>Åsidosätt &amp;startskript:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerdialogs.cpp" line="+752" />
@@ -30895,13 +30895,13 @@ se /etc/sysctl.d/10-ptrace.conf</translation>
             <location line="+814" />
             <location line="+1175" />
             <source>Data at 0x%1</source>
-            <translation>Uppgifter vid 0x%1</translation>
+            <translation>Data vid 0x%1</translation>
         </message>
         <message>
             <location line="-1172" />
             <location line="+1174" />
             <source>Data at %1</source>
-            <translation>Uppgifter från %1</translation>
+            <translation>Data vid %1</translation>
         </message>
         <message>
             <location line="-588" />
