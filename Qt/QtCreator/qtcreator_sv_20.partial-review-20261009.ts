@@ -43700,7 +43700,7 @@ verifierades inte bland fjärrarkiven i %3. Vill du välja en annan mapp?</trans
         <message>
             <location filename="../../../src/plugins/git/gerrit/gerritpushdialog.cpp" line="+148" />
             <source>&amp;Topic:</source>
-            <translation>&amp;Ämne:</translation>
+            <translation>Ä&amp;mne:</translation>
         </message>
         <message>
             <location line="-32" />
