@@ -11304,7 +11304,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>The node to which the debug geometry of the physics world is added.</source>
-        <translation>Noden som felsökningsgeometrin för fysikvärlden läggs till i.</translation>
+        <translation>Noden som ska innehålla fysikvärldens felsökningsgeometri.</translation>
     </message>
     <message>
         <source>Running</source>
@@ -11368,7 +11368,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Defines the minimum simulation timestep in milliseconds.</source>
-        <translation>Definierar det minsta simuleringstidssteget i millisekunder.</translation>
+        <translation>Anger det minsta simuleringstidssteget i millisekunder.</translation>
     </message>
     <message>
         <source>Max Timestep</source>
@@ -11376,7 +11376,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Defines the maximum simulation timestep in milliseconds.</source>
-        <translation>Definierar det största simuleringstidssteget i millisekunder.</translation>
+        <translation>Anger det största simuleringstidssteget i millisekunder.</translation>
     </message>
 </context>
 <context>
