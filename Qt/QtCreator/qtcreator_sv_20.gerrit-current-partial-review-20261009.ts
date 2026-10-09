@@ -75264,7 +75264,7 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the location of an image file containing the data used by the texture.</source>
-        <translation>Anger platsen för en bildfil som innehåller data som används av texturen.</translation>
+        <translation>Anger sökvägen till en bildfil som innehåller data som används av texturen.</translation>
     </message>
     <message>
         <source>Source Item</source>
@@ -75288,11 +75288,11 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets how to scale the U texture coordinate when mapping to UV coordinates of a mesh.</source>
-        <translation>Anger hur U-texturkoordinaten ska skalas vid mappning till UV-koordinater för ett nät.</translation>
+        <translation>Anger hur U-texturkoordinaten ska skalas vid mappning till UV-koordinater för en mesh.</translation>
     </message>
     <message>
         <source>Sets how to scale the V texture coordinate when mapping to UV coordinates of a mesh.</source>
-        <translation>Anger hur V-texturkoordinaten ska skalas vid mappning till UV-koordinater för ett nät.</translation>
+        <translation>Anger hur V-texturkoordinaten ska skalas vid mappning till UV-koordinater för en mesh.</translation>
     </message>
     <message>
         <source>Flip V</source>
@@ -75300,7 +75300,7 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the use of the vertically flipped coordinates.</source>
-        <translation>Anger användningen av vertikalt vända koordinater.</translation>
+        <translation>Anger användningen av vertikalt spegelvända koordinater.</translation>
     </message>
     <message>
         <source>Flip U</source>
@@ -75308,7 +75308,7 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the use of the horizontally flipped texture coordinates.</source>
-        <translation>Anger användningen av horisontellt vända texturkoordinater.</translation>
+        <translation>Anger användningen av horisontellt spegelvända texturkoordinater.</translation>
     </message>
     <message>
         <source>Auto Orientation</source>
@@ -75316,7 +75316,7 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets if a texture transformation, such as flipping the V texture coordinate, is applied automatically for textures where this is typically relevant.</source>
-        <translation>Anger om en texturtransformation, till exempel vändning av V-texturkoordinaten, tillämpas automatiskt för texturer där detta normalt är relevant.</translation>
+        <translation>Anger om en texturtransformation, till exempel spegelvändning av V-texturkoordinaten, tillämpas automatiskt för texturer där detta normalt är relevant.</translation>
     </message>
     <message>
         <source>Texture Mapping</source>
