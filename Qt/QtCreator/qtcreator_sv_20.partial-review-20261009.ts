@@ -16869,12 +16869,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location filename="../../../src/plugins/bazaar/bazaareditor.cpp" line="+23" />
             <source>&amp;Annotate %1</source>
-            <translation>&amp;Anteckna %1</translation>
+            <translation>&amp;Annotera %1</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Annotate &amp;parent revision %1</source>
-            <translation>Annotera &amp;parent-revisionen %1</translation>
+            <translation>Annotera &amp;överordnade revisionen %1</translation>
         </message>
     </context>
     <context>
