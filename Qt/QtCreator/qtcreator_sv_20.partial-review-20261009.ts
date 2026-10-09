@@ -52054,7 +52054,7 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         </message>
         <message>
             <source>No build system active</source>
-            <translation>Inget byggsystem aktivt</translation>
+            <translation>Inget aktivt byggsystem</translation>
         </message>
         <message>
             <location line="+292" />
@@ -52093,7 +52093,7 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+36" />
             <source>Remove Run Configurations?</source>
-            <translation>Ta bort körkonfiguration?</translation>
+            <translation>Ta bort körkonfigurationer?</translation>
         </message>
         <message>
             <location line="+1" />
@@ -52108,27 +52108,27 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="-426" />
             <source>Cancel Build &amp;&amp; Remove Deploy Configuration</source>
-            <translation>Avbryt byggnation och ta bort distributionskonfiguration</translation>
+            <translation>Avbryt bygge och ta bort distributionskonfiguration</translation>
         </message>
         <message>
             <location line="-325" />
             <source>Clone From Run Configuration</source>
-            <translation>Klon från körinställning</translation>
+            <translation>Klona från körkonfiguration</translation>
         </message>
         <message>
             <location line="+42" />
             <source>There are no other run configurations.</source>
-            <translation>Det finns inga andra körinställningar.</translation>
+            <translation>Det finns inga andra körkonfigurationer.</translation>
         </message>
         <message>
             <location line="+194" />
             <source>Deploy Settings</source>
-            <translation>Inställningar av utplacering</translation>
+            <translation>Distributionsinställningar</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Active deployment configuration:</source>
-            <translation>Konfiguration för aktiv installation:</translation>
+            <translation>Aktiv distributionskonfiguration:</translation>
         </message>
         <message>
             <location line="+81" />
@@ -52163,17 +52163,17 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+172" />
             <source>Bulk Remove...</source>
-            <translation>Bulk ta bort…</translation>
+            <translation>Ta bort flera…</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Clone into This...</source>
-            <translation>- Jag vet inte.</translation>
+            <translation>Klona till den här…</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Active run configuration:</source>
-            <translation>Inställning av aktiv körning:</translation>
+            <translation>Aktiv körkonfiguration:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/taskwindow.cpp" line="+125" />
@@ -52183,7 +52183,7 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+42" />
             <source>Create Issues From External Build Output...</source>
-            <translation>Skapa problem från extern byggutmatning…</translation>
+            <translation>Skapa problem från extern byggutdata…</translation>
         </message>
         <message>
             <location line="+5" />
@@ -52198,7 +52198,7 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projectwizardpage.cpp" line="-274" />
             <source>Add to &amp;version control:</source>
-            <translation>Lägg till &amp;versionskontroll:</translation>
+            <translation>Lägg till i &amp;versionshanteringen:</translation>
         </message>
         <message>
             <location filename="../../../../creator-current_build/share/qtcreator/translations/jsonwizards_tr.h" line="-920" />
@@ -52310,17 +52310,17 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="-883" />
             <source>SSH executable:</source>
-            <translation>SSH körbar:</translation>
+            <translation>Körbar SSH-fil:</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Ninja executable:</source>
-            <translation>Körbar i Ninja:</translation>
+            <translation>Körbar Ninja-fil:</translation>
         </message>
         <message>
             <location line="+386" />
             <source>SDKs</source>
-            <translation>SDK-ämnen</translation>
+            <translation>SDK:er</translation>
         </message>
         <message>
             <location line="+218" />
