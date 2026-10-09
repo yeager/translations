@@ -9068,7 +9068,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Specifies the thresholds when the detail level changes. The first number is the distance when the first node changes to the second one, etc.</source>
-        <translation>Anger tröskelvärdena när detaljnivån ändras. Det första talet är avståndet när den första noden ändras till den andra, och så vidare.</translation>
+        <translation>Anger tröskelvärdena när detaljnivån ändras. Det första talet är avståndet när den första noden ändras till den andra och så vidare.</translation>
     </message>
     <message>
         <source>Currently only editable in QML.</source>
@@ -21851,7 +21851,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
     </message>
     <message>
         <source>There is a CMakeCache.txt file in &quot;%1&quot;, which suggest an in-source build was done before. You are now building in &quot;%2&quot;, and the CMakeCache.txt file might confuse CMake.</source>
-        <translation>Det finns en CMakeCache.txt-fil i ”%1”, vilket tyder på att ett bygge i källkatalogen har gjorts tidigare. Du bygger nu i ”%2”, och CMakeCache.txt-filen kan förvirra CMake.</translation>
+        <translation>Det finns en CMakeCache.txt-fil i ”%1”, vilket tyder på att ett bygge i källkatalogen har gjorts tidigare. Du bygger nu i ”%2” och CMakeCache.txt-filen kan förvirra CMake.</translation>
     </message>
     <message>
         <source>The kit needs to define a CMake tool to parse this project.</source>
@@ -26372,11 +26372,11 @@ förutsatt att de inte ändrades före omstruktureringen.</translation>
     </message>
     <message>
         <source>Use &quot;Cmd&quot;, &quot;Opt&quot;, &quot;Ctrl&quot;, and &quot;Shift&quot; for modifier keys. Use &quot;Escape&quot;, &quot;Backspace&quot;, &quot;Delete&quot;, &quot;Insert&quot;, &quot;Home&quot;, and so on, for special keys. Combine individual keys with &quot;+&quot;, and combine multiple shortcuts to a shortcut sequence with &quot;,&quot;. For example, if the user must hold the Ctrl and Shift modifier keys while pressing Escape, and then release and press A, enter &quot;Ctrl+Shift+Escape,A&quot;.</source>
-        <translation>Använd ”Cmd”, ”Opt”, ”Ctrl” och ”Shift” för modifierartangenter. Använd ”Escape”, ”Backspace”, ”Delete”, ”Insert”, ”Home” och så vidare för specialtangenter. Kombinera enskilda tangenter med ”+” och kombinera flera genvägar till en genvägssekvens med ”,”. Om användaren till exempel måste hålla ned modifierartangenterna Ctrl och Shift medan Escape trycks ned, och sedan släppa och trycka på A, anger du ”Ctrl+Shift+Escape,A”.</translation>
+        <translation>Använd ”Cmd”, ”Opt”, ”Ctrl” och ”Shift” för modifierartangenter. Använd ”Escape”, ”Backspace”, ”Delete”, ”Insert”, ”Home” och så vidare för specialtangenter. Kombinera enskilda tangenter med ”+” och kombinera flera genvägar till en genvägssekvens med ”,”. Om användaren till exempel måste hålla ned modifierartangenterna Ctrl och Shift medan Escape trycks ned och sedan släppa och trycka på A, anger du ”Ctrl+Shift+Escape,A”.</translation>
     </message>
     <message>
         <source>Use &quot;Ctrl&quot;, &quot;Alt&quot;, &quot;Meta&quot;, and &quot;Shift&quot; for modifier keys. Use &quot;Escape&quot;, &quot;Backspace&quot;, &quot;Delete&quot;, &quot;Insert&quot;, &quot;Home&quot;, and so on, for special keys. Combine individual keys with &quot;+&quot;, and combine multiple shortcuts to a shortcut sequence with &quot;,&quot;. For example, if the user must hold the Ctrl and Shift modifier keys while pressing Escape, and then release and press A, enter &quot;Ctrl+Shift+Escape,A&quot;.</source>
-        <translation>Använd ”Ctrl”, ”Alt”, ”Meta” och ”Shift” för modifierartangenter. Använd ”Escape”, ”Backspace”, ”Delete”, ”Insert”, ”Home” och så vidare för specialtangenter. Kombinera enskilda tangenter med ”+” och kombinera flera genvägar till en genvägssekvens med ”,”. Om användaren till exempel måste hålla ned modifierartangenterna Ctrl och Shift medan Escape trycks ned, och sedan släppa och trycka på A, anger du ”Ctrl+Shift+Escape,A”.</translation>
+        <translation>Använd ”Ctrl”, ”Alt”, ”Meta” och ”Shift” för modifierartangenter. Använd ”Escape”, ”Backspace”, ”Delete”, ”Insert”, ”Home” och så vidare för specialtangenter. Kombinera enskilda tangenter med ”+” och kombinera flera genvägar till en genvägssekvens med ”,”. Om användaren till exempel måste hålla ned modifierartangenterna Ctrl och Shift medan Escape trycks ned och sedan släppa och trycka på A, anger du ”Ctrl+Shift+Escape,A”.</translation>
     </message>
     <message>
         <source>Enter key sequence as text</source>
@@ -32342,7 +32342,7 @@ counting code is skipped, and a single &lt;i&gt;Step Into&lt;/i&gt; for a signal
 emission ends up directly in the slot connected to it.</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Gör att &lt;i&gt;Stega in&lt;/i&gt; kan komprimera flera steg till ett
 för mindre störande felsökning. Exempelvis hoppas koden för atomär
-referensräkning över, och ett enda &lt;i&gt;Stega in&lt;/i&gt; för utsändning
+referensräkning över och ett enda &lt;i&gt;Stega in&lt;/i&gt; för utsändning
 av en signal hamnar direkt i den anslutna sloten.</translation>
     </message>
     <message>
@@ -49765,7 +49765,7 @@ Använd detta när projektet riktar sig mot Qt 6 eller senare.</translation>
     </message>
     <message>
         <source>If no functioning backend is selected, the sample code of the frontend UI will not work and may even throw errors.</source>
-        <translation>Om ingen fungerande bakände väljs fungerar inte exempelkoden för användargränssnittet i framänden, och den kan även ge fel.</translation>
+        <translation>Om ingen fungerande bakände väljs fungerar inte exempelkoden för användargränssnittet i framänden och den kan även ge fel.</translation>
     </message>
     <message>
         <source>Configure Interface</source>
@@ -64112,7 +64112,7 @@ Dessutom infogar Skift+Retur ett escape-tecken vid markörpositionen och flyttar
     </message>
     <message>
         <source>Adds leading asterisks when continuing C/C++ &quot;/*&quot;, Qt &quot;/*!&quot; and Java &quot;/**&quot; style comments on new lines.</source>
-        <translation>Lägger till inledande asterisker när kommentarer i C/C++-formatet ”/*”, Qt-formatet ”/*!”, och Java-formatet ”/**” fortsätter på nya rader.</translation>
+        <translation>Lägger till inledande asterisker när kommentarer i C/C++-formatet ”/*”, Qt-formatet ”/*!” och Java-formatet ”/**” fortsätter på nya rader.</translation>
     </message>
     <message>
         <source>Doxygen command prefix:</source>
@@ -64123,7 +64123,7 @@ Dessutom infogar Skift+Retur ett escape-tecken vid markörpositionen och flyttar
 By default, &quot;@&quot; is used if the surrounding comment starts with &quot;/**&quot; or &quot;///&quot;, and &quot;\&quot; is used
 if the comment starts with &quot;/*!&quot; or &quot;//!&quot;.</source>
         <translation>Doxygen tillåter ”@” och ”\” för att starta kommandon.
-Som standard används ”@” om den omgivande kommentaren börjar med ”/**” eller ”///”, och ”\” används
+Som standard används ”@” om den omgivande kommentaren börjar med ”/**” eller ”///” och ”\” används
 om kommentaren börjar med ”/*!” eller ”//!”.</translation>
     </message>
     <message>
@@ -68394,7 +68394,7 @@ Rader som börjar med ”##” behandlas som kommentarer.
     </message>
     <message>
         <source>&lt;p&gt;The versioned backup &quot;%1&quot; of the settings file is used, because the non-versioned file was created by an incompatible version of %2.&lt;/p&gt;&lt;p&gt;Settings changes made since the last time this version of %2 was used are ignored, and changes made now will &lt;b&gt;not&lt;/b&gt; be propagated to the newer version.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Den versionshanterade säkerhetskopian ”%1” av inställningsfilen används, eftersom den icke-versionshanterade filen skapades av en inkompatibel version av %2.&lt;/p&gt;&lt;p&gt;Inställningsändringar sedan den här versionen av %2 användes senast ignoreras, och ändringar som görs nu sprids &lt;b&gt;inte&lt;/b&gt; till den nyare versionen.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Den versionshanterade säkerhetskopian ”%1” av inställningsfilen används, eftersom den icke-versionshanterade filen skapades av en inkompatibel version av %2.&lt;/p&gt;&lt;p&gt;Inställningsändringar sedan den här versionen av %2 användes senast ignoreras och ändringar som görs nu sprids &lt;b&gt;inte&lt;/b&gt; till den nyare versionen.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Settings File for &quot;%1&quot; from a Different Environment?</source>
