@@ -4030,7 +4030,7 @@ Vertexfärger multipliceras med alla andra färger för materialet.</translation
     </message>
     <message>
         <source>Map</source>
-        <translation>Karta</translation>
+        <translation>Texturkarta</translation>
     </message>
     <message>
         <source>Sets a texture to apply to the material.</source>
@@ -4136,7 +4136,7 @@ minskar reflektioner rakt framifrån (vid direkt blick mot ytan) men behåller r
     </message>
     <message>
         <source>Sets the size of the specular highlight generated from lights and the clarity of reflections in general.</source>
-        <translation>Ställer in storleken på den spekulära högdager som genereras av ljus och skärpan hos reflektioner i allmänhet.</translation>
+        <translation>Anger storleken på den spekulära högdagern som genereras av ljus och reflektionsskärpan i allmänhet.</translation>
     </message>
     <message>
         <source>Roughness Map</source>
@@ -4152,7 +4152,7 @@ minskar reflektioner rakt framifrån (vid direkt blick mot ytan) men behåller r
     </message>
     <message>
         <source>Sets the texture channel to read the roughness value from roughnessMap.</source>
-        <translation>Ställer in texturkanalen som råhetsvärdet läses från i roughnessMap.</translation>
+        <translation>Anger texturkanalen som används för att läsa råhetsvärdet från roughnessMap.</translation>
     </message>
     <message>
         <source>Opacity</source>
@@ -4172,7 +4172,7 @@ minskar reflektioner rakt framifrån (vid direkt blick mot ytan) men behåller r
     </message>
     <message>
         <source>Sets the texture channel to read the opacity value from the opacity map.</source>
-        <translation>Ställer in texturkanalen som opacitetsvärdet läses från i opacitetskartan.</translation>
+        <translation>Anger texturkanalen som används för att läsa opacitetsvärdet från opacitetskartan.</translation>
     </message>
     <message>
         <source>Bump/Normal</source>
@@ -4230,7 +4230,7 @@ Ett värde på 0 omsluter inte ljuset alls, medan ett värde på 1 omsluter ljus
     </message>
     <message>
         <source>Sets the texture channel to read the translucency value from translucencyMap.</source>
-        <translation>Ställer in texturkanalen som translucensvärdet läses från i translucencyMap.</translation>
+        <translation>Anger texturkanalen som används för att läsa translucensvärdet från translucencyMap.</translation>
     </message>
 </context>
 <context>
