@@ -63543,7 +63543,7 @@ QML-redigeraren känner till en trolig URI.</translation>
         <message>
             <location line="+2" />
             <source>Id expected.</source>
-            <translation>Id förväntades.</translation>
+            <translation>id förväntas.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -63553,17 +63553,17 @@ QML-redigeraren känner till en trolig URI.</translation>
         <message>
             <location line="+2" />
             <source>Duplicate id.</source>
-            <translation>Duplicerad ID.</translation>
+            <translation>Dubblett-id.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Assignment in condition.</source>
-            <translation>Uppdrag i skick.</translation>
+            <translation>Tilldelning i villkor.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Unterminated non-empty case block.</source>
-            <translation>Oavslutat fallblock för icke-tomma fall.</translation>
+            <translation>Icke-tomt case-block avslutades inte.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -63573,7 +63573,7 @@ QML-redigeraren känner till en trolig URI.</translation>
         <message>
             <location line="+2" />
             <source>Unreachable.</source>
-            <translation>Inte nåbar.</translation>
+            <translation>Kan inte nås.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -63588,12 +63588,12 @@ QML-redigeraren känner till en trolig URI.</translation>
         <message>
             <location line="+4" />
             <source>Unnecessary message suppression.</source>
-            <translation>Onödigt meddelande undertryck.</translation>
+            <translation>Onödig undertryckning av meddelanden.</translation>
         </message>
         <message>
             <location line="+22" />
             <source>The 'function' keyword and the opening parenthesis should be separated by a single space.</source>
-            <translation>Nyckelordet "funktion" och den inledande parentesen bör separeras med ett enda utrymme.</translation>
+            <translation>Nyckelordet 'function' och den inledande parentesen ska avgränsas med ett enda blanksteg.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -63603,7 +63603,7 @@ QML-redigeraren känner till en trolig URI.</translation>
         <message>
             <location line="+2" />
             <source>Do not use void expressions.</source>
-            <translation>Använd inte ogiltiga uttryck.</translation>
+            <translation>Använd inte void-uttryck.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -63618,17 +63618,17 @@ QML-redigeraren känner till en trolig URI.</translation>
         <message>
             <location line="+2" />
             <source>Declare all function vars on a single line.</source>
-            <translation>Redovisa alla funktioner vars på en enda linje.</translation>
+            <translation>Deklarera alla var i en funktion på en rad.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Unnecessary parentheses.</source>
-            <translation>Onödiga föräldraskap.</translation>
+            <translation>Onödiga parenteser.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>== and != may perform type coercion, use === or !== to avoid it.</source>
-            <translation>== och == kan utföra typ tvång, använda === eller !== för att undvika det.</translation>
+            <translation>== och != kan utföra typkonvertering. Använd === eller !== för att undvika det.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -63653,31 +63653,31 @@ QML-redigeraren känner till en trolig URI.</translation>
         <message>
             <location line="+2" />
             <source>== and != perform type coercion, use === or !== to avoid it.</source>
-            <translation>== och = = utföra typ tvång, använda === eller !== för att undvika det.</translation>
+            <translation>== och != utför typkonvertering. Använd === eller !== för att undvika det.</translation>
         </message>
         <message>
             <location line="+39" />
             <source>JavaScript can break the visual tooling in Qt Design Studio.</source>
-            <translation>JavaScript kan bryta det visuella verktyget i Qt Design Studio.</translation>
+            <translation>JavaScript kan störa de visuella verktygen i Qt Design Studio.</translation>
         </message>
         <message>
             <location line="+50" />
             <source>A when condition cannot contain an object.</source>
-            <translation>A när tillståndet inte kan innehålla ett objekt.</translation>
+            <translation>Ett when-villkor kan inte innehålla ett objekt.</translation>
         </message>
         <message>
             <location line="-105" />
             <source>Expression statements should be assignments, calls or delete expressions only.</source>
-            <translation>Uttrycksuttalande bör endast vara uppdrag, samtal eller radering av uttryck.</translation>
+            <translation>Uttryckssatser ska bara vara tilldelningar, anrop eller delete-uttryck.</translation>
         </message>
         <message>
             <location line="-95" />
             <source>Do not use "%1" as a constructor.
 
 For more information, see the "Checking Code Syntax" documentation.</source>
-            <translation>Använd inte "%1" som konstruktör.
-För mer information, se dokumentationen
-"Checking Code Syntax".</translation>
+            <translation>Använd inte ”%1” som konstruktor.
+
+Mer information finns i dokumentationen ”Checking Code Syntax”.</translation>
         </message>
         <message>
             <location line="+37" />
@@ -63697,7 +63697,7 @@ För mer information, se dokumentationen
         <message>
             <location line="+14" />
             <source>"%1" already is a formal parameter.</source>
-            <translation>"%1" är redan en formal-parameter.</translation>
+            <translation>”%1” är redan en formell parameter.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -63707,7 +63707,7 @@ För mer information, se dokumentationen
         <message>
             <location line="+2" />
             <source>var "%1" is used before its declaration.</source>
-            <translation>Var "%1" används innan dess deklaration.</translation>
+            <translation>var ”%1” används före sin deklaration.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -63732,7 +63732,7 @@ För mer information, se dokumentationen
         <message>
             <location line="+2" />
             <source>Use only one statement per line.</source>
-            <translation>Använd bara ett uttalande per rad.</translation>
+            <translation>Använd bara en sats per rad.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -63742,7 +63742,7 @@ För mer information, se dokumentationen
         <message>
             <location line="+24" />
             <source>Missing property "%1".</source>
-            <translation>Saknar egenskap "%1".</translation>
+            <translation>Egenskapen ”%1” saknas.</translation>
         </message>
         <message>
             <location line="+27" />
@@ -63782,17 +63782,17 @@ För mer information, se dokumentationen
         <message>
             <location line="+2" />
             <source>This type (%1) is not supported in a UI file (.ui.qml).</source>
-            <translation>Den här typen (%1) stöds inte i en UI- fil (.ui.qml).</translation>
+            <translation>Den här typen (%1) stöds inte i en UI-fil (.ui.qml).</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Arbitrary functions and function calls outside of a Connections or ScriptAction objects are not supported in a UI file (.ui.qml).</source>
-            <translation>Skiljeteckensfunktioner och funktionssamtal utanför en anslutning eller skriptåtgärdsobjekt stöds inte i en UI-fil (.ui.qml).</translation>
+            <translation>Godtyckliga funktioner och funktionsanrop utanför Connections- eller ScriptAction-objekt stöds inte i en UI-fil (.ui.qml).</translation>
         </message>
         <message>
             <location line="+3" />
             <source>JavaScript blocks are not supported in a UI file (.ui.qml).</source>
-            <translation>JavaScript- block stöds inte i en UI- fil (.ui.qml).</translation>
+            <translation>JavaScript-block stöds inte i en UI-fil (.ui.qml).</translation>
         </message>
         <message>
             <location line="+2" />
