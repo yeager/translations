@@ -5995,7 +5995,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Apply Dirt</source>
-        <translation>Använd smuts</translation>
+        <translation>Använd smutstextur</translation>
     </message>
     <message>
         <source>Set whether to apply a dirt texture to the lens flare.</source>
@@ -6011,7 +6011,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Apply Starburst</source>
-        <translation>Använd stjärnstråle</translation>
+        <translation>Använd stjärnstråltextur</translation>
     </message>
     <message>
         <source>Set whether to apply a starburst texture to the lens flare.</source>
@@ -6043,7 +6043,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Sets an image to use to light the scene, either instead of, or in addition to standard lights.</source>
-        <translation>Ställer in en bild som används för att belysa scenen, antingen i stället för eller utöver vanliga ljus.</translation>
+        <translation>Anger en bild som används för att belysa scenen, antingen i stället för eller utöver standardljus.</translation>
     </message>
     <message>
         <source>Sets the amount of light emitted by the light probe.</source>
@@ -6083,7 +6083,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Settings for Fog applied to the scene.</source>
-        <translation>Inställningar för dimma som tillämpas på scenen.</translation>
+        <translation>Inställningar för dimman som används i scenen.</translation>
     </message>
     <message>
         <source>Advanced</source>
