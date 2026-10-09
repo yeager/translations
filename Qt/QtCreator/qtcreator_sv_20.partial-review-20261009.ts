@@ -16874,7 +16874,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+1" />
             <source>Annotate &amp;parent revision %1</source>
-            <translation>Annotera &amp;överordnade revisionen %1</translation>
+            <translation>Annotera ö&amp;verordnade revisionen %1</translation>
         </message>
     </context>
     <context>
