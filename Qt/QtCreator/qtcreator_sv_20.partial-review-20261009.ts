@@ -52712,7 +52712,7 @@ Vill du ignorera dem?</translation>
         <message>
             <location line="+9" />
             <source>Clean Active Project</source>
-            <translation>Rengör aktivt projekt</translation>
+            <translation>Rensa aktivt projekt</translation>
         </message>
         <message>
             <location line="+8" />
@@ -52737,12 +52737,12 @@ Vill du ignorera dem?</translation>
         <message>
             <location line="+93" />
             <source>Add Existing Projects...</source>
-            <translation>Lägg till existerande projekt…</translation>
+            <translation>Lägg till befintliga projekt…</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Add Existing Directory...</source>
-            <translation>Lägg till existerande katalog…</translation>
+            <translation>Lägg till befintlig katalog…</translation>
         </message>
         <message>
             <location line="+16" />
@@ -52777,7 +52777,7 @@ Vill du ignorera dem?</translation>
         <message>
             <location line="+30" />
             <source>Create Header File</source>
-            <translation>Skapa header-fil</translation>
+            <translation>Skapa huvudfil</translation>
         </message>
         <message>
             <location line="+6" />
@@ -52792,32 +52792,32 @@ Vill du ignorera dem?</translation>
         <message>
             <location line="+11" />
             <source>Expand</source>
-            <translation>Expandera</translation>
+            <translation>Fäll ut</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Expand All</source>
-            <translation>Expandera alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <location line="+24" />
             <source>Open Build and Run Kit Selector...</source>
-            <translation>Öpppna kitväljare för Bygg och kör…</translation>
+            <translation>Öppna kitväljaren för Bygg och kör…</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Quick Switch Kit Selector</source>
-            <translation>Välj snabbbytessats</translation>
+            <translation>Snabbväljare för kit</translation>
         </message>
         <message>
             <location line="+2643" />
             <source>Enable %1 Plugin</source>
-            <translation>Aktivera insticksprogram för %1</translation>
+            <translation>Aktivera tillägget %1</translation>
         </message>
         <message>
             <location line="+1" />
             <source>The plugin "%1" is required to open projects of type "%2" Do you want to enable it now?</source>
-            <translation>Insticksprogrammet "%1" krävs för att öppna projekt av typen "%2" Vill du aktivera det nu?</translation>
+            <translation>Tillägget "%1" krävs för att öppna projekt av typen "%2". Vill du aktivera det nu?</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/session.cpp" line="+13" />
@@ -52827,12 +52827,12 @@ Vill du ignorera dem?</translation>
         <message>
             <location line="+5" />
             <source>Name of current session.</source>
-            <translation>Namn för aktuell session.</translation>
+            <translation>Namn på aktuell session.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projectexplorer.cpp" line="-1985" />
             <source>Failed to Open Project</source>
-            <translation>Misslyckades med att öppna projekt</translation>
+            <translation>Kunde inte öppna projekt</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projecttree.cpp" line="+307" />
