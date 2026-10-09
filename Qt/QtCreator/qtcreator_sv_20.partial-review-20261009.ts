@@ -15108,15 +15108,15 @@ a matches issues where the value contains the letter 'a'
 (ab | cd) &amp; !ef matches issues with values containing 'ab' or 'cd' but not 'ef'
 "" matches issues having an empty value in this column
 !"" matches issues having any non-empty value in this column</source>
-            <translation>Tillåter filter kombinerade med &amp; som logiska &amp;,  med samma
-logiska eller! som logiska INTE. Filtren kan innehålla * för att
-matcha sekvenser av godtyckliga tecken. Om ett enda filter citeras
-med dubbla citat, matchas det på den fullständiga strängen.
-Vissa filtertecken kräver citat av filteruttrycket med dubbla
-citat. Om du behöver fly inuti dubbla citationstecken, och \ med
-en bakåtblick. Några exempel: en matchningsfråga där värdet
-innehåller bokstaven 'a' "abc" matchar problem där värdet är exakt
-'abc'!abc matchar problem vars värde inte innehåller '</translation>
+            <translation>Tillåter filter kombinerade med &amp; som logiskt OCH, | som logiskt ELLER och ! som logiskt INTE. Filtren kan innehålla * som matchar följder av godtyckliga tecken. Om ett enskilt filter omges av dubbla citattecken matchas hela strängen. Vissa filtertecken kräver att filteruttrycket omges av dubbla citattecken. Om du behöver skriva " eller \ inom dubbla citattecken ska de föregås av ett omvänt snedstreck.
+Några exempel:
+
+a matchar problem där värdet innehåller bokstaven ”a”
+"abc" matchar problem där värdet är exakt ”abc”
+!abc matchar problem vars värde inte innehåller ”abc”
+(ab | cd) &amp; !ef matchar problem vars värden innehåller ”ab” eller ”cd”, men inte ”ef”
+"" matchar problem med ett tomt värde i den här kolumnen
+!"" matchar problem med valfritt icke-tomt värde i den här kolumnen</translation>
         </message>
         <message>
             <location line="+48" />
@@ -15137,38 +15137,38 @@ innehåller bokstaven 'a' "abc" matchar problem där värdet är exakt
             <location line="+2" />
             <source>Clean Build: Set environment variable AXIVION_CLEAN_BUILD=1
 Incremental Build: Set environment variable AXIVION_INCREMENTAL_BUILD=1</source>
-            <translation>Ren byggning: Ställ in miljövariabeln AXIVION_CLEAN_BUILD=1
-Incremental Build: Ställ in miljövariabeln AXIVION_INCREMENTAL_BUILD=1</translation>
+            <translation>Rent bygge: Ange miljövariabeln AXIVION_CLEAN_BUILD=1
+Inkrementellt bygge: Ange miljövariabeln AXIVION_INCREMENTAL_BUILD=1</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Clean Build</source>
-            <translation>Ren byggning</translation>
+            <translation>Rent bygge</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Incremental Build</source>
-            <translation>Inkrementell uppbyggnad</translation>
+            <translation>Inkrementellt bygge</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Warning: Modifying source files during the local build may produce unexpected warnings, errors, or wrong results.</source>
-            <translation>Varning: Ändra källfiler under den lokala bygget kan ge oväntade varningar, fel eller felaktiga resultat.</translation>
+            <translation>Varning: Att ändra källfiler under det lokala bygget kan ge oväntade varningar, fel eller felaktiga resultat.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Warning: If your build is not configured for local build, you may overwrite output files of your native compiler when starting a local build.</source>
-            <translation>Varning: Om din bygg inte är konfigurerad för lokal byggning, kan du skriva över utdatafiler från din egen kompilator när du startar en lokal bygg.</translation>
+            <translation>Varning: Om bygget inte är konfigurerat för lokalt bygge kan utdatafiler från den inbyggda kompilatorn skrivas över när ett lokalt bygge startas.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Start Local Build</source>
-            <translation>Starta lokal uppbyggnad</translation>
+            <translation>Starta lokalt bygge</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Choose the same Axivion Suite version as your CI build uses or the results may differ.</source>
-            <translation>Välj samma Axivion Suite-version som din CI-bygge använder eller så kan resultaten skilja sig åt.</translation>
+            <translation>Välj samma version av Axivion Suite som används i ditt CI-bygge, annars kan resultaten skilja sig.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -15188,13 +15188,13 @@ Incremental Build: Ställ in miljövariabeln AXIVION_INCREMENTAL_BUILD=1</transl
         <message>
             <location line="+22" />
             <source>Started</source>
-            <translation>Börjad</translation>
+            <translation>Startad</translation>
         </message>
         <message>
             <location line="+10" />
             <location filename="../../../src/plugins/axivion/singlefileanalysis.cpp" line="-39" />
             <source>Building</source>
-            <translation>Byggnad</translation>
+            <translation>Bygger</translation>
         </message>
         <message>
             <location line="+10" />
@@ -15204,12 +15204,12 @@ Incremental Build: Ställ in miljövariabeln AXIVION_INCREMENTAL_BUILD=1</transl
         <message>
             <location line="+10" />
             <source>Updating Dashboard</source>
-            <translation>Uppdaterar tavla</translation>
+            <translation>Uppdaterar instrumentpanelen</translation>
         </message>
         <message>
             <location line="+102" />
             <source>Local build finished successfully.</source>
-            <translation>Lokal uppbyggnad klar med lyckat resultat.</translation>
+            <translation>Det lokala bygget slutfördes utan fel.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -15220,7 +15220,7 @@ Incremental Build: Ställ in miljövariabeln AXIVION_INCREMENTAL_BUILD=1</transl
         <message>
             <location line="+1" />
             <source>Local build was canceled.</source>
-            <translation>Lokal uppbyggnaden avbröts.</translation>
+            <translation>Det lokala bygget avbröts.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -15232,12 +15232,12 @@ Incremental Build: Ställ in miljövariabeln AXIVION_INCREMENTAL_BUILD=1</transl
         <message>
             <location line="+1" />
             <source>Local build failed.</source>
-            <translation>Lokal uppbyggnad misslyckades.</translation>
+            <translation>Det lokala bygget misslyckades.</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Starting local build (%1)</source>
-            <translation>Starta lokal byggnad (%1)</translation>
+            <translation>Startar lokalt bygge (%1)</translation>
         </message>
         <message>
             <location line="+3" />
@@ -15247,7 +15247,7 @@ Incremental Build: Ställ in miljövariabeln AXIVION_INCREMENTAL_BUILD=1</transl
         <message>
             <location filename="../../../src/plugins/axivion/pluginarserver.cpp" line="+110" />
             <source>Cannot parse JSON data "%1": %2</source>
-            <translation>Kan inte tolka JSON- data "%1": %2</translation>
+            <translation>Kan inte tolka JSON-data ”%1”: %2</translation>
         </message>
         <message>
             <location line="+4" />
@@ -15262,12 +15262,12 @@ Incremental Build: Ställ in miljövariabeln AXIVION_INCREMENTAL_BUILD=1</transl
         <message>
             <location line="+15" />
             <source>Unexpected response for HTTP server start request.</source>
-            <translation>Oväntat svar för HTTP- serverns startbegäran.</translation>
+            <translation>Oväntat svar på begäran om att starta HTTP-servern.</translation>
         </message>
         <message>
             <location line="+93" />
             <source>PluginArServer stopped with unknown error.</source>
-            <translation>InsticksprogramArServer stoppades med okänt fel.</translation>
+            <translation>PluginArServer stoppades med ett okänt fel.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/axivion/singlefileanalysis.cpp" line="-211" />
@@ -15278,13 +15278,13 @@ Incremental Build: Ställ in miljövariabeln AXIVION_INCREMENTAL_BUILD=1</transl
             <location line="+4" />
             <source>No active project. Referring to %1 will fail.</source>
             <extracomment>%1 is a Qt Creator variable string</extracomment>
-            <translation>Inget aktivt projekt. Om du hänvisar till %1 kommer det att misslyckas.</translation>
+            <translation>Inget aktivt projekt. Att hänvisa till %1 kommer att misslyckas.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>or some shell/batch script holding cafeCC / axivion_analysis commands to execute.</source>
             <extracomment>the text is preceded by a command to execute</extracomment>
-            <translation>eller några kommandon för skal/batch-skript som innehåller kommandon för cafeCC/ axivion_ analys att köra.</translation>
+            <translation>eller något skal- eller batchskript som innehåller cafeCC- eller axivion_analysis-kommandon att köra.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -15305,41 +15305,41 @@ Incremental Build: Ställ in miljövariabeln AXIVION_INCREMENTAL_BUILD=1</transl
             <location line="+91" />
             <source>Axivion Suite path is neither configured nor in PATH.
 Set it up in Preferences &gt; Analyzers &gt; Axivion to start a single file analysis.</source>
-            <translation>Axivion Suite sökväg är varken konfigurerad eller i PATH. Ställ in den
-i Inställningar &gt; Analyser &gt; Axivion för att starta en enda filanalys.</translation>
+            <translation>Sökvägen till Axivion Suite är varken konfigurerad eller i PATH.
+Ange den under Inställningar &gt; Analyser &gt; Axivion för att starta en analys av en fil.</translation>
         </message>
         <message>
             <location line="+23" />
             <location line="+9" />
             <source>Preparing</source>
-            <translation>Förberedelse</translation>
+            <translation>Förbereder</translation>
         </message>
         <message>
             <location line="+49" />
             <source>Single file analysis finished successfully.</source>
-            <translation>enda filanalys klar med lyckat resultat.</translation>
+            <translation>Analysen av en fil slutfördes utan fel.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Single file analysis was canceled.</source>
-            <translation>enda filanalys avbröts.</translation>
+            <translation>Analysen av en fil avbröts.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Single file analysis failed.</source>
-            <translation>enda filanalys misslyckades.</translation>
+            <translation>Analysen av en fil misslyckades.</translation>
         </message>
         <message>
             <location line="+20" />
             <source>Starting single file analysis (%1)</source>
-            <translation>Inledande enkelfilanalys (%1)</translation>
+            <translation>Startar analys av en fil (%1)</translation>
         </message>
         <message>
             <location line="+46" />
             <source>There already is a single file analysis running for "%1".
 Try again when it has finished.</source>
-            <translation>Det finns redan en enda filanalys som körs
-för "%1". Försök igen när den är klar.</translation>
+            <translation>Det körs redan en analys av en fil för ”%1”.
+Försök igen när den har avslutats.</translation>
         </message>
     </context>
     <context>
