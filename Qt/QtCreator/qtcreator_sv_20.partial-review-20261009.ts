@@ -19380,7 +19380,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location filename="../../../src/plugins/clangcodemodel/clangcodemodelplugin.cpp" line="+148" />
             <source>Generating Compilation DB</source>
-            <translation>Skapar kompilering DB</translation>
+            <translation>Skapar kompileringsdatabas</translation>
         </message>
         <message>
             <location line="-76" />
@@ -19390,12 +19390,12 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+1" />
             <source>C++ code issues that Clangd found in the current document.</source>
-            <translation>C++ kodfrågor som Clangd hittade i det aktuella dokumentet.</translation>
+            <translation>C++-kodproblem som clangd hittade i det aktuella dokumentet.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Update Potentially Stale Clangd Index Entries</source>
-            <translation>Uppdatera potentiellt Stale Clangd Index poster</translation>
+            <translation>Uppdatera eventuellt inaktuella poster i clangd-indexet</translation>
         </message>
         <message>
             <location line="+82" />
@@ -19415,7 +19415,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+9" />
             <source>Cannot generate compilation database.</source>
-            <translation>Kan inte skapa databas för sammanställning.</translation>
+            <translation>Kan inte generera kompileringsdatabas.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -19430,7 +19430,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+3" />
             <source>Project has no C/C++ project parts.</source>
-            <translation>Projektet har inga C/C++ projektdelar.</translation>
+            <translation>Projektet har inga C/C++-projektdelar.</translation>
         </message>
         <message>
             <location line="-45" />
@@ -19444,12 +19444,12 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="-7" />
             <source>Clang compilation database generated at "%1".</source>
-            <translation>Clang sammanställning databas genererad på "%1".</translation>
+            <translation>Clangs kompileringsdatabas skapades i ”%1”.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Generating Clang compilation database failed: %1</source>
-            <translation>Misslyckades skapa Clang- sammanställningsdatabas: %1</translation>
+            <translation>Det gick inte att skapa Clangs kompileringsdatabas: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/clangcodemodel/clangdclient.cpp" line="+394" />
@@ -19464,7 +19464,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+1" />
             <source>Indexing session with clangd</source>
-            <translation>Indexerar session med clangd</translation>
+            <translation>Indexeringssession med clangd</translation>
         </message>
         <message>
             <location line="+245" />
@@ -19480,7 +19480,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location filename="../../../src/plugins/clangcodemodel/clangdfindreferences.cpp" line="+139" />
             <source>C++ Usages:</source>
-            <translation>Användningar:</translation>
+            <translation>C++-användningar:</translation>
         </message>
         <message numerus="yes">
             <location line="+245" />
@@ -19505,7 +19505,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+18" />
             <source>&lt;base declaration&gt;</source>
-            <translation>&lt;base declaration&gt; Ordförande</translation>
+            <translation>&lt;basdeklaration&gt;</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/clangcodemodel/clangdiagnostictooltipwidget.cpp" line="+135" />
@@ -19530,17 +19530,17 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location filename="../../../src/plugins/clangcodemodel/clangmodelmanagersupport.cpp" line="+169" />
             <source>The use of clangd for the C/C++ code model was disabled, because it is likely that its memory requirements would be higher than what your system can handle.</source>
-            <translation>Användningen av cangd för C/C++-kodmodellen var inaktiverad, eftersom det är troligt att dess minneskrav skulle vara högre än vad ditt system kan hantera.</translation>
+            <translation>Användningen av clangd för C/C++-kodmodellen inaktiverades eftersom dess minneskrav sannolikt är större än vad systemet klarar av.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Clangd Disabled</source>
-            <translation>Klangen är inaktiverad</translation>
+            <translation>clangd är inaktiverad</translation>
         </message>
         <message>
             <location line="+3" />
             <source>With clangd enabled, Qt Creator fully supports modern C++ when highlighting code, completing symbols and so on.&lt;br&gt;This comes at a higher cost in terms of CPU load and memory usage compared to the built-in code model, which therefore might be the better choice on older machines and/or with legacy code.&lt;br&gt;You can enable/disable and fine-tune clangd &lt;a href="dummy"&gt;here&lt;/a&gt;.</source>
-            <translation>Med cangd aktiverat, Qt Creator stöder fullt modern C++ när du markerar kod, kompletterar symboler och så vidare.&lt;br&gt;Detta kommer till en högre kostnad när det gäller CPU-belastning och minnesanvändning jämfört med den inbyggda kodmodellen, vilket därför kan vara det bättre valet på äldre maskiner och / eller med äldre kod.&lt;br&gt;Du kan aktivera / inaktivera och finjustera cangd &lt;a href="dummy"&gt;here&lt;/a&gt;.</translation>
+            <translation>Med clangd aktiverat har Qt Creator fullt stöd för modern C++ vid kodmarkering, komplettering av symboler och så vidare.&lt;br&gt;Det medför högre CPU-belastning och minnesanvändning än den inbyggda kodmodellen, som därför kan vara ett bättre val på äldre datorer och/eller med äldre kod.&lt;br&gt;Du kan aktivera, inaktivera och finjustera clangd &lt;a href="dummy"&gt;här&lt;/a&gt;.</translation>
         </message>
         <message>
             <location line="+14" />
@@ -19550,19 +19550,19 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+399" />
             <source>Cannot use clangd: Generating compilation database canceled.</source>
-            <translation>Kan inte använda cangd: Skapar sammanställningsdatabas avbruten.</translation>
+            <translation>Kan inte använda clangd: skapandet av kompileringsdatabasen avbröts.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Cannot use clangd: Failed to generate compilation database:
 %1</source>
-            <translation>Kan inte använda cangd: Misslyckades
-skapa kompileringsdatabas: %1</translation>
+            <translation>Kan inte använda clangd: det gick inte att skapa kompileringsdatabasen:
+%1</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Cannot use clangd: No compilation database in "%1".</source>
-            <translation>Kan inte använda cangd: Ingen databas för sammanställning i "%1".</translation>
+            <translation>Kan inte använda clangd: ingen kompileringsdatabas i ”%1”.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/clangcodemodel/clangtextmark.cpp" line="+87" />
@@ -19572,17 +19572,17 @@ skapa kompileringsdatabas: %1</translation>
         <message>
             <location line="+17" />
             <source>Changes applied to diagnostic configuration "%1".</source>
-            <translation>Ändringar som tillämpas på diagnostisk konfiguration "%1".</translation>
+            <translation>Ändringarna tillämpades på diagnostikkonfigurationen ”%1”.</translation>
         </message>
         <message>
             <location line="+116" />
             <source>Code Model Error</source>
-            <translation>Fel i kodmodell</translation>
+            <translation>Kodmodellfel</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Code Model Warning</source>
-            <translation>Varning för kodmodell</translation>
+            <translation>Kodmodellvarning</translation>
         </message>
         <message>
             <location line="+15" />
@@ -19598,12 +19598,12 @@ skapa kompileringsdatabas: %1</translation>
         <message>
             <location filename="../../../src/plugins/clangcodemodel/clangutils.cpp" line="+142" />
             <source>Clazy Issue</source>
-            <translation>Clazy-frågan</translation>
+            <translation>Clazy-problem</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Clang-Tidy Issue</source>
-            <translation>Clang-Tidy fråga</translation>
+            <translation>Clang-Tidy-problem</translation>
         </message>
     </context>
     <context>
