@@ -59689,12 +59689,12 @@ till projektet "%2".</translation>
         <message>
             <location line="+44" />
             <source>"data" for a "File" page needs to be unset or an empty object.</source>
-            <translation>"data" för en "File"-sida behöver avinställas eller ett tomt objekt.</translation>
+            <translation>"data" för en "File"-sida måste vara ej angivet eller ett tomt objekt.</translation>
         </message>
         <message>
             <location line="+48" />
             <source>Error parsing "%1" in "Kits" page: %2</source>
-            <translation>Fel vid tolkning av "%1" i "Kit"-sida: %2</translation>
+            <translation>Fel vid tolkning av "%1" på sidan "Kits": %2</translation>
         </message>
         <message>
             <location line="+11" />
@@ -59704,7 +59704,7 @@ till projektet "%2".</translation>
         <message>
             <location line="+4" />
             <source>"Kits" page requires a "%1" set.</source>
-            <translation>"Kittar" sidan kräver en "%1" uppsättning.</translation>
+            <translation>"Kits"-sidan kräver att "%1" är angivet.</translation>
         </message>
         <message>
             <location line="+62" />
@@ -59719,12 +59719,12 @@ till projektet "%2".</translation>
         <message>
             <location line="+47" />
             <source>"data" for a "Summary" page can be unset or needs to be an object.</source>
-            <translation>"data" för en "Summary"-sida behöver avinställas eller behöver vara ett objekt.</translation>
+            <translation>"data" för en "Summary"-sida kan vara ej angivet eller måste vara ett objekt.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/jsonwizard/jsonwizardscannergenerator.cpp" line="+48" />
             <source>Key is not an object.</source>
-            <translation>Key är inte ett object.</translation>
+            <translation>Nyckeln är inte ett objekt.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -59734,7 +59734,7 @@ till projektet "%2".</translation>
         <message>
             <location line="+21" />
             <source>ScannerGenerator: Binary pattern "%1" not valid.</source>
-            <translation>ScannerGenerator: Binärmönstret "%1" inte giltigt.</translation>
+            <translation>ScannerGenerator: Binärmönstret "%1" är inte giltigt.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/kitchooser.cpp" line="+93" />
@@ -59746,7 +59746,7 @@ till projektet "%2".</translation>
             <source>The process cannot access the file because it is being used by another process.
 Please close all running instances of your application before starting a build.</source>
             <translation>Processen kan inte komma åt filen eftersom den används av en annan process.
-Stäng alla körda instanser av programmet innan du startar en byggprocess.</translation>
+Stäng alla instanser av programmet som körs innan du startar ett bygge.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/parseissuesdialog.cpp" line="+49" />
@@ -59796,7 +59796,7 @@ Stäng alla körda instanser av programmet innan du startar en byggprocess.</tra
         <message>
             <location line="+6" />
             <source>Use parsers from kit:</source>
-            <translation>Använd tolkare från kit:</translation>
+            <translation>Använd tolkare från kitet:</translation>
         </message>
         <message>
             <location line="+12" />
@@ -59806,17 +59806,17 @@ Stäng alla körda instanser av programmet innan du startar en byggprocess.</tra
         <message>
             <location line="+0" />
             <source>Cannot parse: The chosen kit does not provide an output parser.</source>
-            <translation>Kan inte tolka: Valt kit tillhandahåller inte en utdatatolkare.</translation>
+            <translation>Kan inte tolka: Det valda kitet tillhandahåller inte en utdatatolkare.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projectmodels.cpp" line="+255" />
             <source>No kits are enabled for this project. Enable kits in the "Projects" mode.</source>
-            <translation>Inga kit är aktiverade för detta projekt. Aktivera kit i "Projekt"-läget.</translation>
+            <translation>Inga kit är aktiverade för det här projektet. Aktivera kit i läget "Projekt".</translation>
         </message>
         <message>
             <location line="+115" />
             <source>Rename More Files?</source>
-            <translation>Byta namn på fler filer?</translation>
+            <translation>Vill du byta namn på fler filer?</translation>
         </message>
         <message>
             <location line="+2" />
@@ -59875,7 +59875,7 @@ Vad ska %1 göra nu?</translation>
         <message>
             <location line="+202" />
             <source>Not all operations finished successfully.</source>
-            <translation>Inte alla operationer lyckades.</translation>
+            <translation>Inte alla åtgärder slutfördes.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -59890,7 +59890,7 @@ Vad ska %1 göra nu?</translation>
         <message>
             <location line="+5" />
             <source>The following files could not be added to the project file:</source>
-            <translation>Följande filer kunde inte läggas till projektfilen:</translation>
+            <translation>Följande filer kunde inte läggas till i projektfilen:</translation>
         </message>
         <message>
             <location line="+5" />
@@ -59900,12 +59900,12 @@ Vad ska %1 göra nu?</translation>
         <message>
             <location line="+4" />
             <source>A version control operation failed for the following files. Please check your repository.</source>
-            <translation>En versionskontrollåtgärd misslyckades för följande filer. Kontrollera ditt förråd.</translation>
+            <translation>En versionshanteringsåtgärd misslyckades för följande filer. Kontrollera ditt arkiv.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Failure Updating Project</source>
-            <translation>Misslyckades att uppdatera projekt</translation>
+            <translation>Kunde inte uppdatera projektet</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/runconfigurationaspects.cpp" line="-875" />
