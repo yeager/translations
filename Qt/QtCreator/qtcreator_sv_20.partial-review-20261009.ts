@@ -53092,7 +53092,7 @@ Försök igen.</translation>
         <message>
             <location line="+9" />
             <source>Failed to add new file "%1" to the project.</source>
-            <translation>Misslyckades med att lägga till nya filen "%1" till projektet.</translation>
+            <translation>Kunde inte lägga till den nya filen "%1" i projektet.</translation>
         </message>
         <message>
             <source>%1 Log Directory</source>
@@ -53101,7 +53101,7 @@ Försök igen.</translation>
         <message>
             <location line="+256" />
             <source>Locates files from all project directories. Append "+&lt;number&gt;" or ":&lt;number&gt;" to jump to the given line number. Append another "+&lt;number&gt;" or ":&lt;number&gt;" to jump to the column number as well.</source>
-            <translation>Hittar filer från alla projektkataloger. Lägg till "+&lt;number&gt;" eller ":&lt;number&gt;" för att hoppa till det givna linjenumret. Lägg till ett annat "+&lt;number&gt;" eller "&lt;number&gt;" för att hoppa till kolumnnumret också.</translation>
+            <translation>Hittar filer i alla projektkataloger. Lägg till "+&lt;number&gt;" eller ":&lt;number&gt;" för att hoppa till angivet radnummer. Lägg till ytterligare "+&lt;number&gt;" eller ":&lt;number&gt;" för att också hoppa till angivet kolumnnummer.</translation>
         </message>
         <message>
             <location line="+99" />
@@ -53121,7 +53121,7 @@ Försök igen.</translation>
         <message>
             <location line="+1" />
             <source>Starts debugging a run configuration of the active project.</source>
-            <translation>Startar felsökning av en körkonfiguration för aktiva projektet.</translation>
+            <translation>Startar felsökning av en körkonfiguration för det aktiva projektet.</translation>
         </message>
         <message>
             <location line="+26" />
@@ -53131,7 +53131,7 @@ Försök igen.</translation>
         <message>
             <location line="+1" />
             <source>Switches the active run configuration of the active project.</source>
-            <translation>Växlar den aktiva körkonfigurationen för aktiva projektet.</translation>
+            <translation>Växlar den aktiva körkonfigurationen för det aktiva projektet.</translation>
         </message>
         <message>
             <location line="-10" />
@@ -53155,13 +53155,13 @@ Försök igen.</translation>
         <message>
             <location line="+7" />
             <source>No executable configured in the custom run configuration.</source>
-            <translation>Ingen körbar inställning inställd i den anpassade körinställningen.</translation>
+            <translation>Ingen körbar fil har angetts i den anpassade körkonfigurationen.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Go to the %1 run configuration and set up an executable.</source>
             <extracomment>%1 = display name of the run configuration</extracomment>
-            <translation>Gå till %1 körinställning och konfigurera en körbar.</translation>
+            <translation>Gå till körkonfigurationen %1 och konfigurera en körbar fil.</translation>
         </message>
         <message>
             <source>You need to set an executable in the custom run configuration.</source>
@@ -53170,7 +53170,7 @@ Försök igen.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projectexplorer.cpp" line="-394" />
             <source>Cancel Build &amp;&amp; Close</source>
-            <translation>Avbryt byggnation och stäng</translation>
+            <translation>Avbryt bygge och stäng</translation>
         </message>
         <message>
             <location line="+1" />
@@ -53202,22 +53202,22 @@ Försök igen.</translation>
         <message>
             <location line="+35" />
             <source>Adding Files to Project Failed</source>
-            <translation>Tilläggning av filer till projekt misslyckades</translation>
+            <translation>Kunde inte lägga till filer i projektet</translation>
         </message>
         <message>
             <location line="+79" />
             <source>Failed to open terminal.</source>
-            <translation>Misslyckades öppna terminal.</translation>
+            <translation>Kunde inte öppna terminalen.</translation>
         </message>
         <message>
             <location line="+41" />
             <source>Removing File Failed</source>
-            <translation>Borttagning av fil misslyckades</translation>
+            <translation>Kunde inte ta bort filen från projektet</translation>
         </message>
         <message>
             <location line="+107" />
             <source>Deleting File Failed</source>
-            <translation>Borttagning av fil misslyckades</translation>
+            <translation>Kunde inte radera filen</translation>
         </message>
         <message>
             <location line="-18" />
@@ -53227,7 +53227,7 @@ Försök igen.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/buildmanager.cpp" line="-442" />
             <source>The project %1 is not configured, skipping it.</source>
-            <translation>Projektet %1 är inte konfigurerat, hoppar över det.</translation>
+            <translation>Projektet %1 är inte konfigurerat och hoppas över.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projectexplorer.cpp" line="+1" />
@@ -53247,7 +53247,7 @@ Försök igen.</translation>
         <message>
             <location line="+1" />
             <source>Could not restore session %1</source>
-            <translation>Kunde inte återskapa sessionen %1</translation>
+            <translation>Kunde inte återställa sessionen %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projectmanager.cpp" line="+685" />
@@ -53257,7 +53257,7 @@ Försök igen.</translation>
         <message>
             <location filename="../../../src/plugins/coreplugin/session.cpp" line="+86" />
             <source>Could not save session %1</source>
-            <translation>Kunde inte spara session %1</translation>
+            <translation>Kunde inte spara sessionen %1</translation>
         </message>
         <message>
             <location line="-420" />
@@ -53289,7 +53289,7 @@ Försök igen.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projectmanager.cpp" line="-611" />
             <source>Failed to load settings from "%1": %2</source>
-            <translation>Misslyckades ladda inställningar från "%1": %2</translation>
+            <translation>Kunde inte läsa in inställningar från "%1": %2</translation>
         </message>
         <message>
             <location line="+6" />
@@ -53309,12 +53309,12 @@ Försök igen.</translation>
         <message>
             <location line="+2" />
             <source>Keep projects in Session</source>
-            <translation>Behåll projekten i session</translation>
+            <translation>Behåll projekt i sessionen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Remove projects from Session</source>
-            <translation>Ta bort projekt från session</translation>
+            <translation>Ta bort projekt från sessionen</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/session.cpp" line="-88" />
