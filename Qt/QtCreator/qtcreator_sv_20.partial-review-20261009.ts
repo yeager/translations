@@ -14058,14 +14058,14 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
             <source>Failed to write "%1".
 
 %2</source>
-            <translation>Misslyckades med att skriva "%1".
+            <translation>Det gick inte att skriva ”%1”.
 
 %2</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/testrunconfiguration.h" line="+28" />
             <source>AutoTest Debug</source>
-            <translation>Felsökning för automatisk test</translation>
+            <translation>AutoTest-felsökning</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/testrunner.cpp" line="+166" />
@@ -14076,20 +14076,20 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
             <location line="-28" />
             <source>
 Run configuration: deduced from "%1"</source>
-            <translation>Kör konfiguration:
-härledd från "%1"</translation>
+            <translation>
+Körkonfiguration: härledd från ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
             <source>
 Run configuration: "%1"</source>
             <translation>
-Kör konfiguration: "%1"</translation>
+Körkonfiguration: ”%1”</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Omitted the following arguments specified on the run configuration page for "%1":</source>
-            <translation>Utelämnade följande argument som anges på körinställningssidan för "%1":</translation>
+            <translation>Följande argument angivna på körkonfigurationssidan för ”%1” utelämnades:</translation>
         </message>
         <message>
             <location line="+9" />
@@ -14099,7 +14099,7 @@ Kör konfiguration: "%1"</translation>
         <message>
             <location line="+227" />
             <source>Executable path is empty. (%1)</source>
-            <translation>Sökväg för körbar fil är tom. (%1)</translation>
+            <translation>Sökvägen till den körbara filen är tom. (%1)</translation>
         </message>
         <message>
             <location line="-220" />
@@ -14110,8 +14110,8 @@ Kör konfiguration: "%1"</translation>
             <location line="+2" />
             <source>Test case canceled due to timeout.
 Maybe raise the timeout?</source>
-            <translation>Testfallet är inställt
-på grund av timeout.</translation>
+            <translation>Testfallet avbröts på grund av tidsgränsen.
+Försök att öka tidsgränsen.</translation>
         </message>
         <message>
             <location line="+280" />
@@ -14137,8 +14137,8 @@ på grund av timeout.</translation>
             <location line="+8" />
             <source>Project is null. Canceling test run.
 Only desktop kits are supported. Make sure the currently active kit is a desktop kit.</source>
-            <translation>Projektet är null. Avbryter testkörning.
-Endast skrivbordskit stöds. Försäkra dig om att aktuellt aktiva kitet är ett skrivbordskit.</translation>
+            <translation>Projektet är null. Testkörningen avbryts.
+Endast skrivbordskit stöds. Kontrollera att det aktiva kitet är ett skrivbordskit.</translation>
         </message>
         <message>
             <location line="+22" />
@@ -14150,17 +14150,17 @@ Endast skrivbordskit stöds. Försäkra dig om att aktuellt aktiva kitet är ett
             <location line="+19" />
             <source>Project is null for "%1". Removing from test run.
 Check the test environment.</source>
-            <translation>Projektet är ogiltigt för "%1". Ta bort från
-testkörningen. Kontrollera testmiljön.</translation>
+            <translation>Projektet är null för ”%1”. Tar bort från testkörningen.
+Kontrollera testmiljön.</translation>
         </message>
         <message>
             <location line="-9" />
             <source>Project's run configuration was deduced for "%1".
 This might cause trouble during execution.
 (deduced from "%2")</source>
-            <translation>Projektets körinställning har härletts
-för "%1". Detta kan orsaka problem
-under körning. (betecknas från "%2")</translation>
+            <translation>Projektets körkonfiguration härleddes för ”%1”.
+Det kan orsaka problem vid körning.
+(härledd från ”%2”)</translation>
         </message>
         <message>
             <location line="+56" />
@@ -14171,7 +14171,7 @@ under körning. (betecknas från "%2")</translation>
         <message>
             <location line="-187" />
             <source>No test cases left for execution. Canceling test run.</source>
-            <translation>Inga testfall kvar för avrättning.</translation>
+            <translation>Inga testfall återstår att köra. Testkörningen avbryts.</translation>
         </message>
         <message>
             <location line="+128" />
@@ -14196,22 +14196,22 @@ under körning. (betecknas från "%2")</translation>
         <message>
             <location line="+91" />
             <source>Build failed. Canceling test run.</source>
-            <translation>Byggnation misslyckades. Avbryter testkörning.</translation>
+            <translation>Bygget misslyckades. Testkörningen avbryts.</translation>
         </message>
         <message>
             <location line="+32" />
             <source>Deploy failed. Canceling test run.</source>
-            <translation>Utplacering misslyckades. Avbryter testkörning.</translation>
+            <translation>Distributionen misslyckades. Testkörningen avbryts.</translation>
         </message>
         <message>
             <location line="+30" />
             <source>Device connection failed. Canceling test run.</source>
-            <translation>hetsanslutning misslyckades. Avbryter testkörning.</translation>
+            <translation>Enhetsanslutningen misslyckades. Testkörningen avbryts.</translation>
         </message>
         <message>
             <location line="+67" />
             <source>Select Run Configuration</source>
-            <translation>Välj Kör konfiguration</translation>
+            <translation>Välj körkonfiguration</translation>
         </message>
         <message>
             <location line="+2" />
@@ -14221,12 +14221,12 @@ under körning. (betecknas från "%2")</translation>
         <message>
             <location line="+5" />
             <source>Remember choice. Cached choices can be reset by switching projects or using the option to clear the cache.</source>
-            <translation>Kom ihåg val. Kaklade val kan återställas genom att byta projekt eller använda alternativet för att rensa cache.</translation>
+            <translation>Kom ihåg valet. Cachade val kan återställas genom att byta projekt eller använda alternativet för att rensa cachen.</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Run Configuration:</source>
-            <translation>Kör konfiguration:</translation>
+            <translation>Körkonfiguration:</translation>
         </message>
         <message>
             <location line="+3" />
@@ -14251,12 +14251,12 @@ under körning. (betecknas från "%2")</translation>
         <message>
             <location line="+1" />
             <source>Hides internal messages by default. You can still enable them by using the test results filter.</source>
-            <translation>Döljer normalt interna brev. Du kan fortfarande aktivera dem genom att använda testresultatfiltret.</translation>
+            <translation>Döljer interna meddelanden som standard. Du kan fortfarande aktivera dem med testresultatfiltret.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Omit run configuration warnings</source>
-            <translation>Varning för omkörningsinställning</translation>
+            <translation>Utelämna varningar för körkonfiguration</translation>
         </message>
         <message>
             <location line="+1" />
@@ -14271,17 +14271,17 @@ under körning. (betecknas från "%2")</translation>
         <message>
             <location line="+1" />
             <source>Limits result output to 100000 characters.</source>
-            <translation>Begränsar resultatutmatning till 100000 tecken.</translation>
+            <translation>Begränsar resultatets utdata till 100000 tecken.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Limit result description:</source>
-            <translation>Gränsresultatbeskrivning:</translation>
+            <translation>Begränsa resultatbeskrivning:</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Limit number of lines shown in test result tooltip and description.</source>
-            <translation>Begränsa antalet linjer som visas i testresultatverktygstips och beskrivning.</translation>
+            <translation>Begränsa antalet rader som visas i testresultatets verktygstips och beskrivning.</translation>
         </message>
         <message>
             <location line="+23" />
@@ -14296,7 +14296,7 @@ under körning. (betecknas från "%2")</translation>
         <message>
             <location line="+4" />
             <source>Open results when tests finish</source>
-            <translation>Öppna resultat när tester färdigställts</translation>
+            <translation>Öppna resultat när tester är klara</translation>
         </message>
         <message>
             <location line="+2" />
@@ -14306,17 +14306,17 @@ under körning. (betecknas från "%2")</translation>
         <message>
             <location line="+3" />
             <source>Only for unsuccessful test runs</source>
-            <translation>dast för provkörningar utan framgång</translation>
+            <translation>Endast för misslyckade testkörningar</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Displays test results only if the test run contains failed, fatal or unexpectedly passed tests.</source>
-            <translation>Visar testresultat endast om testkörningen innehåller misslyckade, dödliga eller oväntat godkända test.</translation>
+            <translation>Visar testresultat endast om testkörningen innehåller misslyckade, allvarliga eller oväntat godkända tester.</translation>
         </message>
         <message>
             <location line="-27" />
             <source>Automatically scroll results</source>
-            <translation>Rulla automatiskt resultat</translation>
+            <translation>Rulla resultat automatiskt</translation>
         </message>
         <message>
             <location line="-42" />
