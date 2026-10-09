@@ -57064,8 +57064,8 @@ Aktivera detta om du vill skapa 32-bitars x86-binärfiler utan att använda en s
             <location line="+1" />
             <source>Customize background color of the application output.
 Note: existing output will not get recolored.</source>
-            <translation>Anpassa bakgrundsfärgen för programmets utmatning.
-Observera: befintlig utmatning får inte omfärgas.</translation>
+            <translation>Anpassa bakgrundsfärgen för programutdata.
+Obs! Befintlig utdata färgas inte om.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -57179,7 +57179,7 @@ Observera: befintlig utmatning får inte omfärgas.</translation>
             <location line="+182" />
             <source>session</source>
             <comment>Appears in "Open session &lt;name&gt;"</comment>
-            <translation>Session</translation>
+            <translation>session</translation>
         </message>
         <message>
             <location line="-6" />
@@ -57190,7 +57190,7 @@ Observera: befintlig utmatning får inte omfärgas.</translation>
             <location line="+240" />
             <source>project</source>
             <comment>Appears in "Open project &lt;name&gt;"</comment>
-            <translation>Projekt</translation>
+            <translation>projekt</translation>
         </message>
         <message>
             <location line="+23" />
@@ -57220,7 +57220,7 @@ Observera: befintlig utmatning får inte omfärgas.</translation>
         <message>
             <location line="+2" />
             <source>Auto-detected:</source>
-            <translation>Automatiskt identifierade:</translation>
+            <translation>Identifieras automatiskt:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -57230,7 +57230,7 @@ Observera: befintlig utmatning får inte omfärgas.</translation>
         <message>
             <location line="-61" />
             <source>Type Specific</source>
-            <translation>Typspecifik</translation>
+            <translation>Typspecifikt</translation>
         </message>
         <message>
             <location line="+5" />
@@ -57262,12 +57262,12 @@ Observera: befintlig utmatning får inte omfärgas.</translation>
         <message>
             <location line="+135" />
             <source>&amp;Restore</source>
-            <translation>&amp;Restore</translation>
+            <translation>Å&amp;terställ</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Yes (id is "%1")</source>
-            <translation>Ja (id är "%1")</translation>
+            <translation>Ja (ID är "%1")</translation>
         </message>
         <message>
             <location line="+0" />
@@ -57290,7 +57290,7 @@ Observera: befintlig utmatning får inte omfärgas.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/devicesupport/desktopdevice.cpp" line="+301" />
             <source>Local PC</source>
-            <translation>Lokal PC</translation>
+            <translation>Lokal dator</translation>
         </message>
         <message>
             <location line="+1" />
