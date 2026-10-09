@@ -36780,7 +36780,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location filename="../../../src/plugins/designer/formtemplatewizardpage.cpp" line="+52" />
             <source>"data" for a "Form" page needs to be unset or an empty object.</source>
-            <translation>"data" för en "Form"-sida behöver avinställas eller vara ett tomt objekt.</translation>
+            <translation>”data” för en ”Form”-sida måste vara avinställt eller ett tomt objekt.</translation>
         </message>
         <message>
             <location line="+23" />
@@ -36811,7 +36811,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location filename="../../../src/plugins/designer/designerplugin.cpp" line="+3" />
             <source>Creates a Qt Widgets Designer form along with a matching class (C++ header and source file) for implementation purposes. You can add the form and class to an existing Qt Widget Project.</source>
-            <translation>Skapar ett Qt Widgets Designer-formulär tillsammans med en matchande klass (C++-header och källfil) för implementationssyften. Du kan lägga till formuläret och klassen till ett befintligt Qt Widget-projekt.</translation>
+            <translation>Skapar ett Qt Widgets Designer-formulär med en motsvarande klass (C++-huvudfil och källfil) för implementeringen. Du kan lägga till formuläret och klassen i ett befintligt Qt Widget-projekt.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/designer/formeditor.cpp" line="-292" />
@@ -36869,7 +36869,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+11" />
             <source>Edit Buddies</source>
-            <translation>Redigera kompisar</translation>
+            <translation>Redigera kompisrelationer</translation>
         </message>
         <message>
             <location line="+10" />
@@ -36929,7 +36929,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location filename="../../../src/plugins/designer/designerplugin.cpp" line="-64" />
             <source>Switch Source/Form</source>
-            <translation>Växla källa/formulär</translation>
+            <translation>Växla mellan källa och formulär</translation>
         </message>
         <message>
             <location line="+71" />
@@ -36981,7 +36981,7 @@ Verifiera #include-direktiven.</translation>
         <message>
             <location line="+406" />
             <source>Error finding/adding a slot.</source>
-            <translation>Fel vid sökning/lägga till en slot.</translation>
+            <translation>Fel vid sökning efter eller tillägg av en slot.</translation>
         </message>
         <message>
             <location line="+94" />
@@ -37007,17 +37007,17 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+3" />
             <source>Failed to find the ui header.</source>
-            <translation>Misslyckades med att hitta ui-headern.</translation>
+            <translation>Det gick inte att hitta UI-huvudfilen.</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Renaming via the property editor cannot be synced with C++ code; see QTCREATORBUG-19141. This message will not be repeated.</source>
-            <translation>Byta namn via egenskapsredigeraren kan inte synkas med C++-koden; se QTCREATORBUG-19141. Detta meddelande kommer inte upprepas.</translation>
+            <translation>Namnbyte via egenskapsredigeraren kan inte synkroniseras med C++-koden. Se QTCREATORBUG-19141. Meddelandet visas inte igen.</translation>
         </message>
         <message>
             <location line="+35" />
             <source>Failed to retrieve ui header contents.</source>
-            <translation>Misslyckades med att hämta ui-headerinnehåll.</translation>
+            <translation>Det gick inte att hämta innehållet i UI-huvudfilen.</translation>
         </message>
         <message>
             <location line="+77" />
