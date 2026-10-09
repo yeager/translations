@@ -53606,12 +53606,12 @@ Försök igen.</translation>
         <message>
             <location line="-83" />
             <source>Build before deploying:</source>
-            <translation>Bygg innan distribution:</translation>
+            <translation>Bygg före distribution:</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Stop applications before building:</source>
-            <translation>Stoppa program innan byggnation:</translation>
+            <translation>Stoppa program före bygge:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -53627,17 +53627,17 @@ Försök igen.</translation>
         <message>
             <location line="+10" />
             <source>Time to wait before force-stopping applications:</source>
-            <translation>Tid att vänta innan program tvingas stoppa:</translation>
+            <translation>Väntetid innan program tvångsavslutas:</translation>
         </message>
         <message>
             <location line="-107" />
             <source>Always deploy project before running it</source>
-            <translation>Distribuera alltid projekt innan de körs</translation>
+            <translation>Distribuera alltid projektet innan det körs</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Always ask before stopping applications</source>
-            <translation>Fråga alltid före program stoppas</translation>
+            <translation>Fråga alltid innan program stoppas</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/appoutputpane.cpp" line="+1303" />
@@ -53664,7 +53664,7 @@ Försök igen.</translation>
         <message>
             <location line="+2" />
             <source>Template used to construct the default build directory.&lt;br&gt;&lt;br&gt;The default value can be set using the environment variable &lt;tt&gt;%1&lt;/tt&gt;.</source>
-            <translation>Template used to construct the default build directory.&lt;br&gt;&lt;br&gt;The default value can be set using the environment variable &lt;tt&gt;%1&lt;/tt&gt;.</translation>
+            <translation>Mall som används för att skapa standardbyggkatalogen.&lt;br&gt;&lt;br&gt;Standardvärdet kan ställas in med miljövariabeln &lt;tt&gt;%1&lt;/tt&gt;.</translation>
         </message>
         <message>
             <location line="+11" />
@@ -53674,7 +53674,7 @@ Försök igen.</translation>
         <message>
             <location line="+2" />
             <source>Template used to construct the default working directory of a run configuration.&lt;br&gt;&lt;br&gt;The default value can be set using the environment variable &lt;tt&gt;%1&lt;/tt&gt;.</source>
-            <translation>Mall som används för att konstruera standardarbetskatalogen för en körkonfiguration.&lt;br&gt;&lt;br&gt;Förvalt värde kan ställas in med miljövariabeln &lt;tt&gt;%1&lt;/tt&gt;XXMARK4QX.</translation>
+            <translation>Mall som används för att skapa standardarbetskatalogen för en körkonfiguration.&lt;br&gt;&lt;br&gt;Standardvärdet kan ställas in med miljövariabeln &lt;tt&gt;%1&lt;/tt&gt;.</translation>
         </message>
         <message>
             <location line="+14" />
@@ -53694,25 +53694,25 @@ Försök igen.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/runcontrol.cpp" line="+815" />
             <source>Force &amp;Quit</source>
-            <translation>&amp;Tvinga avslut</translation>
+            <translation>Avsluta med &amp;tvång</translation>
         </message>
         <message>
             <location line="+0" />
             <source>&amp;Keep Running</source>
-            <translation>&amp;Fortsätt kör</translation>
+            <translation>&amp;Fortsätt köra</translation>
         </message>
         <message>
             <source>Requesting process to stop ....</source>
-            <translation>Begär process att stoppa ….</translation>
+            <translation>Begär att processen ska stoppas …</translation>
         </message>
         <message>
             <source>Stopping process forcefully ....</source>
-            <translation>Stoppar process med tvång …</translation>
+            <translation>Stoppar processen med tvång …</translation>
         </message>
         <message>
             <location line="+296" />
             <source>Process unexpectedly did not finish.</source>
-            <translation>Processen färdigställdes inte vilket var oväntat.</translation>
+            <translation>Processen avslutades inte som väntat.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -53732,12 +53732,12 @@ Försök igen.</translation>
         <message>
             <location line="+203" />
             <source>Cannot use ports gatherer. No device is set.</source>
-            <translation>Kan inte använda portsamlare. Ingen enhet är inställd.</translation>
+            <translation>Kan inte använda portinsamlaren. Ingen enhet är inställd.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>No free ports found.</source>
-            <translation>Inga gratis hamnar hittades.</translation>
+            <translation>Inga lediga portar hittades.</translation>
         </message>
         <message>
             <location line="+490" />
@@ -53747,12 +53747,12 @@ Försök igen.</translation>
         <message>
             <location line="+38" />
             <source>Stopping process forcefully...</source>
-            <translation>Stoppar processen med kraft…</translation>
+            <translation>Stoppar processen med tvång…</translation>
         </message>
         <message>
             <location line="+84" />
             <source>Requesting process to stop...</source>
-            <translation>Begär process för att stoppa…</translation>
+            <translation>Begär att processen ska stoppas…</translation>
         </message>
         <message>
             <source>The process was ended forcefully.</source>
@@ -53791,7 +53791,7 @@ Försök igen.</translation>
         </message>
         <message>
             <source>%1 exited with code %2</source>
-            <translation>%1 avslutades med kod %2</translation>
+            <translation>%1 avslutades med slutkod %2</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projectexplorer.cpp" line="+1638" />
@@ -53822,12 +53822,12 @@ Försök igen.</translation>
         <message>
             <location line="+3" />
             <source>Create a new kit with the same name for the same device type, with the original build, deploy, and run steps. Other kit settings are not restored.</source>
-            <translation>Skapa ett nytt kit med samma namn för samma enhetstyp, med ursprungliga stegen för bygga, distribuera och köra. Andra kitinställningar återställs inte.</translation>
+            <translation>Skapa ett nytt kit med samma namn för samma enhetstyp, med de ursprungliga bygg-, distributions- och körstegen. Andra kitinställningar återställs inte.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Copy the build, deploy, and run steps to another kit.</source>
-            <translation>Kopiera byggnation-, distribution- och körstegen till ett annat kit.</translation>
+            <translation>Kopiera bygg-, distributions- och körstegen till ett annat kit.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -53848,7 +53848,7 @@ Försök igen.</translation>
         <message>
             <location line="+12" />
             <source>Remove Vanished Target "%1"</source>
-            <translation>Ta bort försvunna målet "%1"</translation>
+            <translation>Ta bort det försvunna målet "%1"</translation>
         </message>
         <message>
             <location line="+4" />
