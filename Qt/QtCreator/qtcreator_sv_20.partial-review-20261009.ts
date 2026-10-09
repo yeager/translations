@@ -14501,7 +14501,7 @@ Varning: Det här är en experimentell funktion och kan leda till att den körba
         <message>
             <location line="+38" />
             <source>Configuration unchanged, skipping autogen step.</source>
-            <translation>Konfigurationen inte ändrad, hoppar över autogen-steget.</translation>
+            <translation>Konfigurationen har inte ändrats, autogen-steget hoppas över.</translation>
         </message>
         <message>
             <location line="+28" />
@@ -14512,7 +14512,7 @@ Varning: Det här är en experimentell funktion och kan leda till att den körba
         <message>
             <location filename="../../../src/plugins/autotoolsprojectmanager/autoreconfstep.cpp" line="+34" />
             <source>Configuration unchanged, skipping autoreconf step.</source>
-            <translation>Konfigurationen inte ändrad, hoppar över autoreconf-steget.</translation>
+            <translation>Konfigurationen har inte ändrats, autoreconf-steget hoppas över.</translation>
         </message>
         <message>
             <location line="+34" />
@@ -14528,7 +14528,7 @@ Varning: Det här är en experimentell funktion och kan leda till att den körba
         <message>
             <location filename="../../../src/plugins/autotoolsprojectmanager/configurestep.cpp" line="+41" />
             <source>Configuration unchanged, skipping configure step.</source>
-            <translation>Konfigurationen inte ändrad, hoppar över configure-steget.</translation>
+            <translation>Konfigurationen har inte ändrats, configure-steget hoppas över.</translation>
         </message>
         <message>
             <location line="+33" />
