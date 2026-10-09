@@ -32585,7 +32585,7 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="+12" />
             <source>Stopped&amp;nbsp;at:</source>
-            <translation>Stoppad &amp;nbsp;at:</translation>
+            <translation>Stannade&amp;nbsp;vid:</translation>
         </message>
         <message>
             <location line="+113" />
@@ -32607,7 +32607,7 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
             <location filename="../../../src/plugins/debugger/watchdata.cpp" line="+177" />
             <source>%1 &lt;shadowed %2&gt;</source>
             <extracomment>Display of variables shadowed by variables of the same name in nested scopes: Variable %1 is the variable name, %2 is a simple count.</extracomment>
-            <translation>%1 &lt;shadowed %2&gt;</translation>
+            <translation>%1 &lt;skuggas av %2&gt;</translation>
         </message>
         <message>
             <location line="+306" />
@@ -32622,12 +32622,12 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="+22" />
             <source>Array Index</source>
-            <translation>Förordn.</translation>
+            <translation>Fältindex</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Creation Time in ms</source>
-            <translation>Skapande Tid i ms</translation>
+            <translation>Skapandetid i ms</translation>
         </message>
         <message>
             <location line="+1" />
@@ -32637,7 +32637,7 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="-14" />
             <source>... &lt;cut off&gt;</source>
-            <translation>… &lt;cut off&gt;</translation>
+            <translation>… &lt;avkortad&gt;</translation>
         </message>
         <message>
             <location line="+5" />
@@ -32678,37 +32678,37 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="+10" />
             <source>&lt;optimized out&gt;</source>
-            <translation>&lt;optimized out&gt; Ordförande</translation>
+            <translation>&lt;optimerad bort&gt;</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&lt;null reference&gt;</source>
-            <translation>&lt;null reference&gt; Ordförande</translation>
+            <translation>&lt;nullreferens&gt;</translation>
         </message>
         <message>
             <location line="+4" />
             <source>&lt;uninitialized&gt;</source>
-            <translation>&lt;uninitialized&gt; Ordförande</translation>
+            <translation>&lt;oinitierad&gt;</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&lt;invalid&gt;</source>
-            <translation>&lt;invalid&gt; Ordförande</translation>
+            <translation>&lt;ogiltig&gt;</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&lt;not callable&gt;</source>
-            <translation>&lt;not callable&gt; Ordförande</translation>
+            <translation>&lt;kan inte anropas&gt;</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&lt;out of scope&gt;</source>
-            <translation>&lt;out of scope&gt; Ordförande</translation>
+            <translation>&lt;utanför omfattning&gt;</translation>
         </message>
         <message>
             <location line="-14" />
             <source>&lt;not accessible&gt;</source>
-            <translation>&lt;not accessible&gt; Ordförande</translation>
+            <translation>&lt;inte åtkomlig&gt;</translation>
         </message>
         <message numerus="yes">
             <location line="-2" />
@@ -32726,7 +32726,7 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="+1" />
             <source>%1 Object at Unknown Address</source>
-            <translation>%1 objekt på okänd adress</translation>
+            <translation>%1-objekt på okänd adress</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/watchdata.cpp" line="+1" />
@@ -32744,7 +32744,7 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
             <location line="+7" />
             <location filename="../../../src/plugins/debugger/watchhandler.cpp" line="-315" />
             <source>Locals</source>
-            <translation>Lokala</translation>
+            <translation>Lokala variabler</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/watchhandler.cpp" line="+3" />
@@ -32792,7 +32792,7 @@ brytpunktsmarkörerna i källkodsredigeraren.</translation>
         <message>
             <location line="+367" />
             <source>Expression %1 in function %2 from line %3 to %4</source>
-            <translation>Uttryck %1 i funktion %2 från linje %3 till %4</translation>
+            <translation>Uttryck %1 i funktionen %2 från rad %3 till %4</translation>
         </message>
         <message>
             <location line="+278" />
