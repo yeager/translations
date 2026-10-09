@@ -49673,19 +49673,19 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location filename="../../../src/plugins/nim/project/nimblebuildstep.cpp" line="+78" />
             <source>Nimble Build</source>
-            <translation>Nimble bygg</translation>
+            <translation>Nimble-bygge</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/nim/project/nimblerunconfiguration.cpp" line="+66" />
             <location line="+1" />
             <source>Nimble Test</source>
-            <translation>Tryckprov</translation>
+            <translation>Nimble-test</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/nim/project/nimbletaskstep.cpp" line="+60" />
             <location line="+168" />
             <source>Nimble Task</source>
-            <translation>Nimble- uppgift</translation>
+            <translation>Nimble-uppgift</translation>
         </message>
         <message>
             <location line="-153" />
@@ -49700,13 +49700,13 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+126" />
             <source>Nimble task %1 not found.</source>
-            <translation>Nimble- uppgift %1 hittades inte.</translation>
+            <translation>Nimble-uppgiften %1 hittades inte.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/nim/project/nimcompilerbuildstep.cpp" line="+55" />
             <location line="+1" />
             <source>Nim build step</source>
-            <translation>Nim byggsteg</translation>
+            <translation>Nim-byggsteg</translation>
         </message>
         <message>
             <source>None</source>
@@ -49731,7 +49731,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+1" />
             <source>Extra arguments:</source>
-            <translation>Extra argument:</translation>
+            <translation>Ytterligare argument:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -49741,7 +49741,7 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+139" />
             <source>Nim Compiler Build Step</source>
-            <translation>Nim Compiler bygg steg</translation>
+            <translation>Byggsteg för Nim-kompilator</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/nim/project/nimcompilercleanstep.cpp" line="+32" />
@@ -49756,32 +49756,32 @@ Användbart om byggkatalogen är skadad eller om du bygger om med en nyare versi
         <message>
             <location line="+5" />
             <source>Failed to delete the cache directory.</source>
-            <translation>Misslyckades ta bort cachekatalogen.</translation>
+            <translation>Kunde inte ta bort cachekatalogen.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Failed to delete the out file.</source>
-            <translation>Misslyckades ta bort ut- filen.</translation>
+            <translation>Kunde inte ta bort utdatafilen.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Clean step completed successfully.</source>
-            <translation>Rensa steg slutförda med lyckat resultat.</translation>
+            <translation>Rensningssteget slutfördes.</translation>
         </message>
         <message>
             <location line="+38" />
             <source>Nim Clean Step</source>
-            <translation>Nim rent steg</translation>
+            <translation>Nim-rensningssteg</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/nim/project/nimproject.cpp" line="+103" />
             <source>No Nim compiler set.</source>
-            <translation>Ingen Nim-kompilator inställd.</translation>
+            <translation>Ingen Nim-kompilator är inställd.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Nim compiler does not exist.</source>
-            <translation>Nim kompilator finns inte.</translation>
+            <translation>Nim-kompilatorn finns inte.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/nim/project/nimrunconfiguration.cpp" line="+34" />
