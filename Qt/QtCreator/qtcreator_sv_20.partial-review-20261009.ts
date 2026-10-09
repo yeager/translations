@@ -43670,52 +43670,52 @@ verifierades inte bland fjärrarkiven i %3. Vill du välja en annan mapp?</trans
         <message>
             <location line="-6" />
             <source>Checkout branch "%1"</source>
-            <translation>Kassagrenen "%1"</translation>
+            <translation>Checka ut grenen ”%1”</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Move Local Changes to "%1"</source>
-            <translation>Flytta lokala ändringar till "%1"</translation>
+            <translation>Flytta lokala ändringar till ”%1”</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Pop Stash of "%1"</source>
-            <translation>Pop Stash av "%1"</translation>
+            <translation>Poppa stash för ”%1”</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Create Branch Stash for "%1"</source>
-            <translation>Skapa greninlägg för "%1"</translation>
+            <translation>Skapa stash för grenen ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Create Branch Stash for Current Branch</source>
-            <translation>Skapa avdelningskontor för nuvarande avdelningskontor</translation>
+            <translation>Skapa stash för aktuell gren</translation>
         </message>
         <message>
             <location line="+5" />
             <source>&amp;Diff &amp;&amp; Cancel</source>
-            <translation>&amp;Diff och avbryt</translation>
+            <translation>&amp;Jämför &amp;&amp; avbryt</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gerrit/gerritpushdialog.cpp" line="+148" />
             <source>&amp;Topic:</source>
-            <translation>&amp;Topic:</translation>
+            <translation>&amp;Ämne:</translation>
         </message>
         <message>
             <location line="-32" />
             <source>Number of commits</source>
-            <translation>Antal åtaganden</translation>
+            <translation>Antal incheckningar</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&amp;Draft/private</source>
-            <translation>&amp;Draft/privat</translation>
+            <translation>&amp;Utkast/privat</translation>
         </message>
         <message>
             <location line="+1" />
             <source>&amp;Work-in-progress</source>
-            <translation>&amp;Work-in-progress</translation>
+            <translation>&amp;Pågående arbete</translation>
         </message>
         <message>
             <location line="+5" />
@@ -43723,14 +43723,14 @@ verifierades inte bland fjärrarkiven i %3. Vill du välja en annan mapp?</trans
             <source>Checked - Mark change as private.
 Unchecked - Remove mark.
 Partially checked - Do not change current state.</source>
-            <translation>Markerat - Markera ändring som privat.
-Avmarkerat - Ta bort markering. Delvis
-markerat - Ändra inte aktuellt tillstånd.</translation>
+            <translation>Markerat – markera ändringen som privat.
+Avmarkerat – ta bort markeringen.
+Delvis markerat – ändra inte aktuellt tillstånd.</translation>
         </message>
         <message>
             <location line="-139" />
             <source>Pushes the selected commit and all commits it depends on.</source>
-            <translation>Trycker på det valda engagemanget och alla gör det beror på.</translation>
+            <translation>Skickar den valda incheckningen och alla incheckningar som den beror på.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -43739,16 +43739,16 @@ markerat - Ändra inte aktuellt tillstånd.</translation>
 Reviewers can be specified by nickname or email address. Spaces not allowed.
 
 Partial names can be used if they are unambiguous.</source>
-            <translation>Komma- separerad lista över granskare.
-Granskare kan anges med smeknamn
-eller e- postadress. Utrymmen är
-inte tillåtna. Partiella namn kan
-användas om de är otvetydiga.</translation>
+            <translation>Lista med granskare, avgränsad med kommatecken.
+
+Granskare kan anges med smeknamn eller e-postadress. Mellanslag är inte tillåtna.
+
+Delvisa namn kan användas om de är entydiga.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Push:</source>
-            <translation>Tryck:</translation>
+            <translation>Skicka:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -43758,22 +43758,22 @@ användas om de är otvetydiga.</translation>
         <message>
             <location line="+1" />
             <source>Commits:</source>
-            <translation>Beslut:</translation>
+            <translation>Incheckningar:</translation>
         </message>
         <message>
             <location line="+5" />
             <source>&amp;Reviewers:</source>
-            <translation>&amp;Reviewers:</translation>
+            <translation>&amp;Granskare:</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Cannot find a Gerrit remote. Add one and try again.</source>
-            <translation>Kan inte hitta en Gerrit- fjärrkontroll. Lägg till en och försök igen.</translation>
+            <translation>Kan inte hitta något Gerrit-fjärrarkiv. Lägg till ett och försök igen.</translation>
         </message>
         <message>
             <location line="+61" />
             <source>Number of commits between %1 and %2: %3</source>
-            <translation>Antal åtaganden mellan %1 och %2: %3</translation>
+            <translation>Antal incheckningar mellan %1 och %2: %3</translation>
         </message>
         <message>
             <location line="+7" />
@@ -43785,9 +43785,9 @@ användas om de är otvetydiga.</translation>
             <source>Checked - Mark change as WIP.
 Unchecked - Mark change as ready for review.
 Partially checked - Do not change current state.</source>
-            <translation>Markerat - Markera ändras som WIP. Avmarkerat -
-Markera ändras som redo för granskning. Delvis
-kontrollerat - Ändra inte aktuellt tillstånd.</translation>
+            <translation>Markerat – markera ändringen som pågående arbete.
+Avmarkerat – markera ändringen som klar för granskning.
+Delvis markerat – ändra inte aktuellt tillstånd.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -43798,18 +43798,18 @@ kontrollerat - Ändra inte aktuellt tillstånd.</translation>
             <location line="+4" />
             <source>Checked - The change is a draft.
 Unchecked - The change is not a draft.</source>
-            <translation>Kontrollerad - Förändringen är ett utkast.
-Okontrollerad - Förändringen är inte ett utkast.</translation>
+            <translation>Markerat – ändringen är ett utkast.
+Avmarkerat – ändringen är inte ett utkast.</translation>
         </message>
         <message>
             <location line="+69" />
             <source>No remote branches found. This is probably the initial commit.</source>
-            <translation>Inga fjärrgrenar hittades.</translation>
+            <translation>Inga fjärrgrenar hittades. Detta är troligen den första incheckningen.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Branch name</source>
-            <translation>Avdelningskontorets namn</translation>
+            <translation>Grennamn</translation>
         </message>
         <message>
             <location line="+20" />
@@ -43819,7 +43819,7 @@ Okontrollerad - Förändringen är inte ett utkast.</translation>
         <message>
             <location filename="../../../src/plugins/git/logchangedialog.cpp" line="+197" />
             <source>Reset to:</source>
-            <translation>Nollställ till:</translation>
+            <translation>Återställ till:</translation>
         </message>
         <message>
             <location line="+0" />
@@ -43829,22 +43829,22 @@ Okontrollerad - Förändringen är inte ett utkast.</translation>
         <message>
             <location line="+2" />
             <source>Hint: Select or deselect a single commit with a mouse click and multiple commits by dragging the mouse over them.</source>
-            <translation>Tips: Välj eller avmarkera ett enda åtagande med ett musklick och flera gör åtaganden genom att dra musen över dem.</translation>
+            <translation>Tips: Välj eller avmarkera en enskild incheckning med ett musklick, och flera incheckningar genom att dra musen över dem.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Reset type:</source>
-            <translation>Återställ typ:</translation>
+            <translation>Återställningstyp:</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Mixed</source>
-            <translation>Blandad</translation>
+            <translation>Mixed</translation>
         </message>
         <message>
             <location line="-1" />
             <source>Hard</source>
-            <translation>Hård</translation>
+            <translation>Hard</translation>
         </message>
         <message>
             <location line="-208" />
@@ -43854,7 +43854,7 @@ Okontrollerad - Förändringen är inte ett utkast.</translation>
         <message>
             <location line="+210" />
             <source>Soft</source>
-            <translation>Mjuk</translation>
+            <translation>Soft</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/mergetool.cpp" line="-99" />
@@ -43890,7 +43890,7 @@ Okontrollerad - Förändringen är inte ett utkast.</translation>
         <message>
             <location line="+2" />
             <source>Submodule commit %1</source>
-            <translation>Undermodulen begår %1</translation>
+            <translation>Undermodulens incheckning %1</translation>
         </message>
         <message>
             <location line="+1" />
@@ -43900,16 +43900,16 @@ Okontrollerad - Förändringen är inte ett utkast.</translation>
         <message>
             <location line="+11" />
             <source>Merge Conflict</source>
-            <translation>Sammanfoga konflikter</translation>
+            <translation>Sammanslagningskonflikt</translation>
         </message>
         <message>
             <location line="+3" />
             <source>%1 merge conflict for "%2"
 Local: %3
 Remote: %4</source>
-            <translation>%1 sammanfogar
-konflikt för "%2" Lokalt:
-%3 Remote: %4</translation>
+            <translation>%1-sammanslagningskonflikt för ”%2”
+Lokal: %3
+Fjärr: %4</translation>
         </message>
         <message>
             <location line="+72" />
@@ -43919,7 +43919,7 @@ konflikt för "%2" Lokalt:
         <message>
             <location line="+1" />
             <source>Run git config --global merge.tool &amp;lt;tool&amp;gt; to configure it, then try again.</source>
-            <translation>Kör git config – global sammanfogning.tool &amp;lt;tool&amp;gt; för att konfigurera den, försök igen.</translation>
+            <translation>Kör git config --global merge.tool &amp;lt;tool&amp;gt; för att konfigurera det och försök sedan igen.</translation>
         </message>
         <message>
             <location line="-66" />
