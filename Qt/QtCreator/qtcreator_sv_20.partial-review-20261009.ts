@@ -72135,7 +72135,7 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location line="+1" />
             <source>Are you sure you want to remove all bookmarks from all files in the current session?</source>
-            <translation>Är du säker på att du vill ta bort alla bokmärken från alla filer i aktuella sessionen?</translation>
+            <translation>Är du säker på att du vill ta bort alla bokmärken från alla filer i den aktuella sessionen?</translation>
         </message>
         <message>
             <location line="+29" />
@@ -72258,7 +72258,7 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location filename="../../../src/plugins/texteditor/completionsettings.cpp" line="+84" />
             <source>Autocomplete common &amp;prefix</source>
-            <translation>Komplettera automatiskt vanliga &amp;prefix</translation>
+            <translation>Komplettera automatiskt gemensamt &amp;prefix</translation>
         </message>
         <message>
             <location line="-45" />
@@ -72288,7 +72288,7 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
         <message>
             <location line="+28" />
             <source>Inserts the common prefix of available completion items.</source>
-            <translation>Infogar vanligt prefix för tillgängliga kompletteringsposter.</translation>
+            <translation>Infogar det gemensamma prefixet för tillgängliga kompletteringsförslag.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -72300,14 +72300,14 @@ resultat. xml. Misslyckades öppna filen "%1".</translation>
             <source>Splits a string into two lines by adding an end quote at the cursor position when you press Enter and a start quote to the next line, before the rest of the string.
 
 In addition, Shift+Enter inserts an escape character at the cursor position and moves the rest of the string to the next line.</source>
-            <translation>Delar en sträng i två rader genom att lägga till en slutcitat på markörens position när du trycker
-på Enter och en startcitat till nästa rad, innan resten av strängen. Dessutom infogar Shift+Enter
-ett utrymningstecken på markörens position och flyttar resten av strängen till nästa rad.</translation>
+            <translation>Delar en sträng i två rader genom att lägga till ett avslutande citattecken vid markörens position när du trycker på Enter och ett inledande citattecken på nästa rad före återstoden av strängen.
+
+Dessutom infogar Shift+Enter ett escape-tecken vid markörens position och flyttar återstoden av strängen till nästa rad.</translation>
         </message>
         <message>
             <location line="-35" />
             <source>Insert opening or closing brackets</source>
-            <translation>Infoga öppnings- eller stängningsfästen</translation>
+            <translation>Infoga inledande eller avslutande parenteser</translation>
         </message>
         <message>
             <location line="+11" />
@@ -72317,12 +72317,12 @@ ett utrymningstecken på markörens position och flyttar resten av strängen til
         <message>
             <location line="-7" />
             <source>Surround text selection with brackets</source>
-            <translation>Omgivningstextval med parentes</translation>
+            <translation>Omge textmarkering med parenteser</translation>
         </message>
         <message>
             <location line="+2" />
             <source>When typing a matching bracket and there is a text selection, instead of removing the selection, surrounds it with the corresponding characters.</source>
-            <translation>När du skriver in ett matchande fäste och det finns ett textval, omger det i stället för att ta bort markeringen med motsvarande tecken.</translation>
+            <translation>När du skriver en matchande parentes och det finns en textmarkering, omges den av motsvarande tecken i stället för att tas bort.</translation>
         </message>
         <message>
             <location line="+22" />
@@ -72332,7 +72332,7 @@ ett utrymningstecken på markörens position och flyttar resten av strängen til
         <message>
             <location line="-13" />
             <source>Surround text selection with quotes</source>
-            <translation>Omslut textmarkering med citattecken</translation>
+            <translation>Omge textmarkering med citattecken</translation>
         </message>
         <message>
             <location line="-41" />
@@ -72343,7 +72343,7 @@ ett utrymningstecken på markörens position och flyttar resten av strängen til
         <message>
             <location line="+43" />
             <source>When typing a matching quote and there is a text selection, instead of removing the selection, surrounds it with the corresponding characters.</source>
-            <translation>När du skriver en matchande offert och det finns ett textval, omger det i stället för att ta bort markeringen med motsvarande tecken.</translation>
+            <translation>När du skriver ett matchande citattecken och det finns en textmarkering, omges den av motsvarande tecken i stället för att tas bort.</translation>
         </message>
         <message>
             <location line="+26" />
