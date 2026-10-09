@@ -2348,11 +2348,11 @@ Det ska vara en relativ sökväg.</translation>
     </message>
     <message>
         <source>Frustum Culling</source>
-        <translation>Gallring utanför synfält</translation>
+        <translation>Synfältsgallring</translation>
     </message>
     <message>
         <source>When this property is true, objects outside the camera frustum will be culled, meaning they will not be passed to the renderer.</source>
-        <translation>När den här egenskapen är true gallras objekt utanför kamerans synfält bort, vilket betyder att de inte skickas till återgivaren.</translation>
+        <translation>När den här egenskapen är true tas objekt utanför kamerans synfält bort vid gallring och skickas inte till återgivaren.</translation>
     </message>
     <message>
         <source>LOD Bias</source>
@@ -10468,19 +10468,19 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Clip Near</source>
-        <translation>Klipp nära</translation>
+        <translation>Närgräns</translation>
     </message>
     <message>
         <source>Sets the near value of the camera view frustum.</source>
-        <translation>Ställer in det nära värdet för kamerans synfält.</translation>
+        <translation>Ställer in kamerans närgräns.</translation>
     </message>
     <message>
         <source>Clip Far</source>
-        <translation>Klipp långt bort</translation>
+        <translation>Fjärrgräns</translation>
     </message>
     <message>
         <source>Sets the far value of the camera view frustum.</source>
-        <translation>Ställer in det avlägsna värdet för kamerans synfält.</translation>
+        <translation>Ställer in kamerans fjärrgräns.</translation>
     </message>
     <message>
         <source>Horizontal Magnification</source>
@@ -11192,19 +11192,19 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Clip Near</source>
-        <translation>Klipp nära</translation>
+        <translation>Närgräns</translation>
     </message>
     <message>
         <source>Sets the near value of the view frustum of the camera.</source>
-        <translation>Ställer in det nära värdet för kamerans synfält.</translation>
+        <translation>Ställer in kamerans närgräns.</translation>
     </message>
     <message>
         <source>Clip Far</source>
-        <translation>Klipp långt bort</translation>
+        <translation>Fjärrgräns</translation>
     </message>
     <message>
         <source>Sets the far value of the view frustum of the camera.</source>
-        <translation>Ställer in det avlägsna värdet för kamerans synfält.</translation>
+        <translation>Ställer in kamerans fjärrgräns.</translation>
     </message>
     <message>
         <source>Field of View</source>
