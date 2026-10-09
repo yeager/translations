@@ -14547,7 +14547,7 @@ Varning: Det här är en experimentell funktion och kan leda till att den körba
         <message>
             <location line="+10" />
             <source>Path globbing</source>
-            <translation>Sökvägsmönster</translation>
+            <translation>Sökvägsmatchning med jokertecken</translation>
         </message>
         <message>
             <location line="+44" />
@@ -14569,7 +14569,7 @@ Varning: Det här är en experimentell funktion och kan leda till att den körba
         <message>
             <location line="+724" />
             <source>No Data</source>
-            <translation>Inga data</translation>
+            <translation>Ingen data</translation>
         </message>
         <message>
             <location line="+509" />
@@ -14594,7 +14594,7 @@ Varning: Det här är en experimentell funktion och kan leda till att den körba
         <message>
             <location line="-1312" />
             <source>Show Online Filter Help</source>
-            <translation>Visa onlinefilterhjälp</translation>
+            <translation>Visa hjälp om onlinefilter</translation>
         </message>
         <message>
             <location line="-99" />
@@ -14634,7 +14634,7 @@ Varning: Det här är en experimentell funktion och kan leda till att den körba
         <message>
             <location line="+27" />
             <source>Configure dashboards in Preferences &gt; Analyzer &gt; Axivion.</source>
-            <translation>Anpassa instrumentpaneler i Inställningar &gt; Analyser &gt; Axivion.</translation>
+            <translation>Konfigurera instrumentpaneler under Inställningar &gt; Analyser &gt; Axivion.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -14646,12 +14646,12 @@ Varning: Det här är en experimentell funktion och kan leda till att den körba
             <location filename="../../../src/plugins/axivion/localbuild.cpp" line="+588" />
             <location filename="../../../src/plugins/axivion/singlefileanalysis.cpp" line="+255" />
             <source>Finished</source>
-            <translation>Färdig</translation>
+            <translation>Slutförd</translation>
         </message>
         <message>
             <location line="+209" />
             <source>Local Analyses Progress</source>
-            <translation>Framsteg i lokala analyser</translation>
+            <translation>Förlopp för lokala analyser</translation>
         </message>
         <message>
             <location line="+4" />
@@ -14661,7 +14661,7 @@ Varning: Det här är en experimentell funktion och kan leda till att den körba
         <message>
             <location line="+12" />
             <source>Show Issues in Editor</source>
-            <translation>Visa problem i editorn</translation>
+            <translation>Visa problem i redigeraren</translation>
         </message>
         <message>
             <location line="+49" />
@@ -14694,7 +14694,7 @@ Varning: Det här är en experimentell funktion och kan leda till att den körba
         <message>
             <location line="+8" />
             <source>Cancel Single File Analysis</source>
-            <translation>Avbryt analys av enstaka filer</translation>
+            <translation>Avbryt analys av en enda fil</translation>
         </message>
         <message>
             <location line="+7" />
@@ -14756,12 +14756,12 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         <message>
             <location line="+8" />
             <source>Key chain message: "%1".</source>
-            <translation>Nyckelkedjemeddelande: "%1".</translation>
+            <translation>Nyckelringsmeddelande: ”%1”.</translation>
         </message>
         <message>
             <location line="+65" />
             <source>Unauthenticated access failed (wrong user), using authenticated access...</source>
-            <translation>Oautentiserad åtkomst misslyckades (fel användare); provar autentiserad åtkomst …</translation>
+            <translation>Oautentiserad åtkomst misslyckades (fel användare). Försöker med autentiserad åtkomst…</translation>
         </message>
         <message>
             <location line="+34" />
@@ -14804,7 +14804,7 @@ Användare: %2</translation>
             <source>The activated link appears to be external.
 Do you want to open "%1" with its default application?</source>
             <translation>Den aktiverade länken verkar vara extern.
-Vill du öppna "%1" med dess standardprogram?</translation>
+Vill du öppna ”%1” med standardprogrammet?</translation>
         </message>
         <message>
             <location line="+4" />
