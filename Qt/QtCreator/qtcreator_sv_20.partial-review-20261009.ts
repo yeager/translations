@@ -77092,17 +77092,17 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+2" />
             <source>The command "%1" terminated abnormally.</source>
-            <translation>Kommandot "%1" avslutades onormalt.</translation>
+            <translation>Kommandot ”%1” avslutades onormalt.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The command "%1" could not be started.</source>
-            <translation>Kommandot "%1" kunde inte startas.</translation>
+            <translation>Kommandot ”%1” kunde inte startas.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>The command "%1" was canceled after %2 ms.</source>
-            <translation>Kommandot "%1" avbröts efter %2 ms.</translation>
+            <translation>Kommandot ”%1” avbröts efter %2 ms.</translation>
         </message>
         <message>
             <location line="+19" />
@@ -77117,12 +77117,12 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+368" />
             <source>Either the invoked program is missing, or you may have insufficient permissions to invoke the program.</source>
-            <translation>Antingen saknas det uppropade programmet, eller så har du inte tillräckligt med behörigheter för att åberopa programmet.</translation>
+            <translation>Antingen saknas det anropade programmet eller så saknar du behörighet att starta det.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/environmentmodel.cpp" line="+38" />
             <source>&lt;UNSET&gt;</source>
-            <translation>&lt;AVINSTÄLL&gt;</translation>
+            <translation>&lt;EJ ANGIVEN&gt;</translation>
         </message>
         <message>
             <location line="+191" />
@@ -77152,17 +77152,17 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location filename="../../../src/libs/utils/qtcprocess.cpp" line="-1733" />
             <source>Error in command line.</source>
-            <translation>Fel i kommandorad.</translation>
+            <translation>Fel på kommandoraden.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/devicefileaccess.cpp" line="+273" />
             <source>Failed to copy recursively from "%1" to "%2" while trying to create tar archive from source: %3</source>
-            <translation>Misslyckades kopiera rekursivt från "%1" till "%2" när du försökte skapa tararkiv från källkod: %3</translation>
+            <translation>Det gick inte att kopiera rekursivt från ”%1” till ”%2” när ett tar-arkiv skulle skapas från källan: %3</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Failed to copy recursively from "%1" to "%2" while trying to extract tar archive to target: %3</source>
-            <translation>Misslyckades kopiera rekursivt från "%1" till "%2" när du försökte extrahera tararkiv till mål: %3</translation>
+            <translation>Det gick inte att kopiera rekursivt från ”%1” till ”%2” när tar-arkivet skulle extraheras till målet: %3</translation>
         </message>
         <message>
             <location line="-95" />
@@ -77212,12 +77212,12 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+334" />
             <source>Failed to watch "%1".</source>
-            <translation>Misslyckades titta på "%1".</translation>
+            <translation>Det gick inte att bevaka ”%1”.</translation>
         </message>
         <message>
             <location line="-4" />
             <source>Failed to watch "%1", it does not exist.</source>
-            <translation>Misslyckades titta på "%1", det finns inte.</translation>
+            <translation>Det gick inte att bevaka ”%1” eftersom den inte finns.</translation>
         </message>
         <message>
             <location line="-573" />
@@ -77232,29 +77232,29 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+453" />
             <source>Failed to remove watcher for "%1", it was not found.</source>
-            <translation>Misslyckades ta bort urtavla för "%1", hittades den inte.</translation>
+            <translation>Det gick inte att ta bort bevakningen för ”%1” eftersom den inte hittades.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Failed to remove watcher for "%1".</source>
-            <translation>Misslyckades ta bort urtavla för "%1".</translation>
+            <translation>Det gick inte att ta bort bevakningen för ”%1”.</translation>
         </message>
         <message>
             <location line="+202" />
             <location line="+583" />
             <source>Could not create file "%1".</source>
-            <translation>Kunde inte skapa filen "%1".</translation>
+            <translation>Kunde inte skapa filen ”%1”.</translation>
         </message>
         <message>
             <location line="-576" />
             <location line="+588" />
             <source>Could not create directory "%1".</source>
-            <translation>Kunde inte skapa katalog "%1".</translation>
+            <translation>Kunde inte skapa katalogen ”%1”.</translation>
         </message>
         <message>
             <location line="-568" />
             <source>Refusing to remove the standard directory "%1".</source>
-            <translation>Vägrar ta bort standardkatalogen "%1".</translation>
+            <translation>Vägrar ta bort standardkatalogen ”%1”.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -77269,28 +77269,28 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+35" />
             <source>Failed to remove directory "%1".</source>
-            <translation>Misslyckades med att ta bort katalogen "%1".</translation>
+            <translation>Det gick inte att ta bort katalogen ”%1”.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Failed to remove file "%1".</source>
-            <translation>Misslyckades med att ta bort filen "%1".</translation>
+            <translation>Det gick inte att ta bort filen ”%1”.</translation>
         </message>
         <message>
             <location line="+42" />
             <source>createSymlinkWindows() called unexpectedly on a non-Windows platform.</source>
-            <translation>skapaSymlinkWindows () som oväntat kallas på en icke-Windows plattform.</translation>
+            <translation>createSymlinkWindows() anropades oväntat på en plattform som inte är Windows.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Failed to create symbolic link to "%1" at "%2": %3</source>
-            <translation>Misslyckades skapa symbolisk länk till "%1" på "%2": %3</translation>
+            <translation>Det gick inte att skapa en symbolisk länk till ”%1” vid ”%2”: %3</translation>
         </message>
         <message>
             <location line="+12" />
             <location line="+530" />
             <source>Failed to rename file "%1" to "%2": %3</source>
-            <translation>Misslyckades med att byta namn på filen "%1" till "%2": %3</translation>
+            <translation>Det gick inte att byta namn på filen ”%1” till ”%2”: %3</translation>
         </message>
         <message numerus="yes">
             <location line="-428" />
@@ -77303,12 +77303,12 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+549" />
             <source>Failed creating temporary directory "%1" (too many tries).</source>
-            <translation>Misslyckades skapa tillfällig katalog "%1" (för många försök).</translation>
+            <translation>Det gick inte att skapa den tillfälliga katalogen ”%1” (för många försök).</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Failed creating temporary files "%1" (too many tries).</source>
-            <translation>Misslyckades skapa tillfälliga filer "%1" (för många försök).</translation>
+            <translation>Det gick inte att skapa de tillfälliga filerna ”%1” (för många försök).</translation>
         </message>
         <message>
             <source>Device is not connected</source>
@@ -77316,28 +77316,28 @@ Tryck på Retur för att stänga fönstret …</translation>
         </message>
         <message>
             <source>Failed creating temporary file "%1" (too many tries).</source>
-            <translation>Misslyckades med att skapa temporärfilen "%1" (för många försök).</translation>
+            <translation>Det gick inte att skapa den tillfälliga filen ”%1” (för många försök).</translation>
         </message>
         <message>
             <location line="-568" />
             <source>Cannot read "%1": %2</source>
-            <translation>Kan inte läsa "%1": %2</translation>
+            <translation>Kan inte läsa ”%1”: %2</translation>
         </message>
         <message>
             <location line="-139" />
             <location line="+555" />
             <source>Failed to copy file "%1" to "%2": %3</source>
-            <translation>Misslyckades med att kopiera filen "%1" till "%2": %3</translation>
+            <translation>Det gick inte att kopiera filen ”%1” till ”%2”: %3</translation>
         </message>
         <message>
             <location line="-430" />
             <source>File "%1" does not exist.</source>
-            <translation>Filen "%1" finns inte.</translation>
+            <translation>Filen ”%1” finns inte.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Could not open file "%1".</source>
-            <translation>Kunde inte öppna filen "%1".</translation>
+            <translation>Kunde inte öppna filen ”%1”.</translation>
         </message>
         <message>
             <location line="+24" />
