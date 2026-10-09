@@ -854,11 +854,11 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Sets the source image for the border.</source>
-            <translation>Ställer in källbilden för ramen.</translation>
+            <translation>Anger ramens källbild.</translation>
         </message>
         <message>
             <source>Sets the dimension of the border image.</source>
-            <translation>Ställer in dimensionen för rambilden.</translation>
+            <translation>Anger rambildens dimensioner.</translation>
         </message>
         <message>
             <source>W</source>
@@ -882,51 +882,51 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Tile mode H</source>
-            <translation>Brickläge H</translation>
+            <translation>Plattläge H</translation>
         </message>
         <message>
             <source>Sets the horizontal tiling mode.</source>
-            <translation>Ställer in horisontellt brickläge.</translation>
+            <translation>Anger det horisontella plattläget.</translation>
         </message>
         <message>
             <source>Tile mode V</source>
-            <translation>Brickläge V</translation>
+            <translation>Plattläge V</translation>
         </message>
         <message>
             <source>Sets the vertical tiling mode.</source>
-            <translation>Ställer in vertikalt brickläge.</translation>
+            <translation>Anger det vertikala plattläget.</translation>
         </message>
         <message>
             <source>Border left</source>
-            <translation>Ram vänster</translation>
+            <translation>Vänsterkant</translation>
         </message>
         <message>
             <source>Sets the left border.</source>
-            <translation>Ställer in vänster ram.</translation>
+            <translation>Anger vänsterkanten.</translation>
         </message>
         <message>
             <source>Border right</source>
-            <translation>Ram höger</translation>
+            <translation>Högerkant</translation>
         </message>
         <message>
             <source>Sets the right border.</source>
-            <translation>Ställer in höger ram.</translation>
+            <translation>Anger högerkanten.</translation>
         </message>
         <message>
             <source>Border top</source>
-            <translation>Ram övre</translation>
+            <translation>Överkant</translation>
         </message>
         <message>
             <source>Sets the top border.</source>
-            <translation>Ställer in övre ram.</translation>
+            <translation>Anger överkanten.</translation>
         </message>
         <message>
             <source>Border bottom</source>
-            <translation>Ram nedre</translation>
+            <translation>Underkant</translation>
         </message>
         <message>
             <source>Sets the bottom border.</source>
-            <translation>Ställer in nedre ram.</translation>
+            <translation>Anger underkanten.</translation>
         </message>
         <message>
             <source>Mirror</source>
@@ -934,15 +934,15 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Toggles if the image should be inverted horizontally.</source>
-            <translation>Växlar om bilden ska inverteras horisontellt.</translation>
+            <translation>Anger om bilden ska spegelvändas horisontellt.</translation>
         </message>
         <message>
             <source>Toggles if the image is saved to the cache memory.</source>
-            <translation>Växlar om bilden är sparad till cacheminnet.</translation>
+            <translation>Anger om bilden sparas i cacheminnet.</translation>
         </message>
         <message>
             <source>Toggles if the image is loaded after all the components in the design.</source>
-            <translation>Växlar om bilden läses in efter alla komponenterna i designen.</translation>
+            <translation>Anger om bilden läses in efter alla komponenter i designen.</translation>
         </message>
         <message>
             <source>Cache</source>
@@ -1015,7 +1015,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Toggles if the button is flat or highlighted.</source>
-            <translation>Växlar om knappen är platt eller framhävd.</translation>
+            <translation>Anger om knappen är platt eller framhävd.</translation>
         </message>
         <message>
             <source>Flat</source>
@@ -1023,7 +1023,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Highlight</source>
-            <translation>Framhäv</translation>
+            <translation>Framhävning</translation>
         </message>
     </context>
     <context>
@@ -1054,7 +1054,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Determines whether the button is checkable or not.</source>
-            <translation>Bestämmer huruvida knappen är markerbar eller inte.</translation>
+            <translation>Anger om knappen kan markeras.</translation>
         </message>
         <message>
             <source>Enabled</source>
@@ -1062,7 +1062,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Determines whether the button is enabled or not.</source>
-            <translation>Bestämmer huruvida knappen är aktiverad eller inte.</translation>
+            <translation>Anger om knappen är aktiverad.</translation>
         </message>
         <message>
             <source>Default button</source>
@@ -1070,7 +1070,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Sets the button as the default button in a dialog.</source>
-            <translation>Ställer in knappen som standardknappen i en dialog.</translation>
+            <translation>Anger knappen som standardknapp i en dialog.</translation>
         </message>
         <message>
             <source>Tool tip</source>
@@ -1078,7 +1078,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>The tool tip shown for the button.</source>
-            <translation>Verktygstips som visas för knappen.</translation>
+            <translation>Verktygstipset som visas för knappen.</translation>
         </message>
         <message>
             <source>Focus on press</source>
@@ -1086,7 +1086,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Determines whether the button gets focus if pressed.</source>
-            <translation>Bestämmer huruvida knappen får fokus om tryckt.</translation>
+            <translation>Anger om knappen får fokus när den trycks ned.</translation>
         </message>
         <message>
             <source>Icon source</source>
@@ -1094,7 +1094,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>The URL of an icon resource.</source>
-            <translation>URLen för en ikonresurs.</translation>
+            <translation>URL:en för en ikonresurs.</translation>
         </message>
     </context>
     <context>
