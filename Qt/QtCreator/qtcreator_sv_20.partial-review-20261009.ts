@@ -51727,12 +51727,12 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
             <location filename="../../../src/plugins/projectexplorer/editorsettingspropertiespage.cpp" line="+54" />
             <location filename="../../../src/plugins/projectexplorer/runconfiguration.cpp" line="+149" />
             <source>Restore Global</source>
-            <translation>Återställ global</translation>
+            <translation>Återställ globalt</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Display Settings</source>
-            <translation>Skärminställningar</translation>
+            <translation>Visningsinställningar</translation>
         </message>
         <message>
             <source>Display right &amp;margin at column:</source>
@@ -51744,7 +51744,7 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         </message>
         <message>
             <source>If available, use a different margin. For example, the ColumnLimit from the ClangFormat plugin.</source>
-            <translation>Om tillgänglig, använd en annan marginal. Till exempel ColumnLimit från insticksmodulen ClangFormat.</translation>
+            <translation>Om den är tillgänglig, använd en annan marginal, till exempel ColumnLimit från tillägget ClangFormat.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/sessiondialog.cpp" line="+141" />
@@ -51829,7 +51829,7 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projectwizardpage.cpp" line="+216" />
             <source>&lt;Implicitly Add&gt;</source>
-            <translation>&lt;Implicitly Add&gt; Ordförande</translation>
+            <translation>&lt;Lägg till implicit&gt;</translation>
         </message>
         <message>
             <location line="-67" />
@@ -51855,7 +51855,7 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projecttreewidget.cpp" line="+248" />
             <source>Simplify Tree</source>
-            <translation>Förenkla träd</translation>
+            <translation>Förenkla trädet</translation>
         </message>
         <message>
             <location line="+5" />
@@ -51870,7 +51870,7 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+8" />
             <source>Focus Document in Project Tree</source>
-            <translation>Fokusera dokument i projektträd</translation>
+            <translation>Fokusera dokumentet i projektträdet</translation>
         </message>
         <message>
             <location line="+3" />
@@ -51890,12 +51890,12 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+6" />
             <source>Hide Source and Header Groups</source>
-            <translation>Dölj käll- och huvudgrupper</translation>
+            <translation>Dölj grupper för käll- och huvudfiler</translation>
         </message>
         <message>
             <location line="+26" />
             <source>Synchronize with Editor</source>
-            <translation>Synkronisera med redigerare</translation>
+            <translation>Synkronisera med redigeraren</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/project.cpp" line="+1098" />
@@ -51922,7 +51922,7 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="-194" />
             <source>Filter Tree</source>
-            <translation>Filtrera träd</translation>
+            <translation>Filtrera trädet</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/projectwizardpage.cpp" line="-86" />
@@ -51978,7 +51978,7 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+61" />
             <source>Add as a subproject to project:</source>
-            <translation>Lägg till som ett underprojekt till projektet:</translation>
+            <translation>Lägg till som underprojekt i projektet:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -51988,12 +51988,12 @@ Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <message>
             <location line="+75" />
             <source>A version control system repository could not be created in "%1".</source>
-            <translation>Ett förråd för versionskontrollsystemet kunde inte skapas i "%1".</translation>
+            <translation>Ett versionshanteringsarkiv kunde inte skapas i "%1".</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Failed to add "%1" to the version control system.</source>
-            <translation>Misslyckades med att lägga till "%1" till versionskontrollsystemet.</translation>
+            <translation>Kunde inte lägga till "%1" i versionshanteringen.</translation>
         </message>
         <message>
             <location line="+101" />
