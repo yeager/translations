@@ -26469,52 +26469,52 @@ Vill du avsluta det?</translation>
         <message>
             <location line="+120" />
             <source>Diff "%1"</source>
-            <translation>Diff "%1"</translation>
+            <translation>Jämför ”%1”</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Log "%1"</source>
-            <translation>Logga "%1"</translation>
+            <translation>Logg ”%1”</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Annotate "%1"</source>
-            <translation>Anteckna "%1"</translation>
+            <translation>Annotera ”%1”</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/vcsmanager.cpp" line="-10" />
             <source>Version control state: added.</source>
-            <translation>Tillstånd för versionskontroll: tillagd.</translation>
+            <translation>Versionshanteringstillstånd: tillagd.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Version control state: modified.</source>
-            <translation>Tillstånd för versionskontroll: ändrad.</translation>
+            <translation>Versionshanteringstillstånd: ändrad.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Version control state: deleted.</source>
-            <translation>Tillstånd för versionskontroll: borttagen.</translation>
+            <translation>Versionshanteringstillstånd: borttagen.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Version control state: renamed.</source>
-            <translation>Tillstånd för versionskontroll: namnbytt.</translation>
+            <translation>Versionshanteringstillstånd: omdöpt.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Version control state: untracked.</source>
-            <translation>Tillstånd för versionskontroll: spåras inte.</translation>
+            <translation>Versionshanteringstillstånd: ospårad.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/dialogs/readonlyfilesdialog.cpp" line="-7" />
             <source>Files Without Write Permissions</source>
-            <translation>Filer utan skrivrättigheter</translation>
+            <translation>Filer utan skrivbehörighet</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The following files have no write permissions. Do you want to change the permissions?</source>
-            <translation>Följande filer har inga skrivrättigheter. Vill du ändra rättigheterna?</translation>
+            <translation>Följande filer saknar skrivbehörighet. Vill du ändra behörigheterna?</translation>
         </message>
         <message>
             <location line="-293" />
@@ -26531,7 +26531,7 @@ Vill du avsluta det?</translation>
         <message>
             <location line="-147" />
             <source>See details for a complete list of files.</source>
-            <translation>Se detaljer för en komplett lista över filer.</translation>
+            <translation>Se detaljerna för en fullständig fillista.</translation>
         </message>
         <message>
             <location line="+148" />
@@ -26562,7 +26562,7 @@ Vill du avsluta det?</translation>
         <message>
             <location filename="../../../src/plugins/coreplugin/dialogs/readonlyfilesdialog.cpp" line="+117" />
             <source>Failed to %1 File</source>
-            <translation>Misslyckades med att %1 fil</translation>
+            <translation>Det gick inte att %1 filen</translation>
         </message>
         <message>
             <location line="+8" />
@@ -26582,7 +26582,7 @@ Vill du avsluta det?</translation>
         <message>
             <location line="-24" />
             <source>%1 file %2 from version control system %3 failed.</source>
-            <translation>%1 filen %2 från versionskontrollsystem %3 misslyckades.</translation>
+            <translation>Åtgärden %1 för filen %2 från versionskontrollsystemet %3 misslyckades.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -26594,7 +26594,7 @@ Inget versionskontrollsystem hittades.</translation>
         <message>
             <location line="+10" />
             <source>Cannot set permissions for %1 to writable.</source>
-            <translation>Kan inte ställa in rättigheter för %1 till skrivbar.</translation>
+            <translation>Det går inte att ge %1 skrivbehörighet.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -26604,12 +26604,12 @@ Inget versionskontrollsystem hittades.</translation>
         <message>
             <location line="+5" />
             <source>Canceled Changing Permissions</source>
-            <translation>Avbröt rättighetsändringen</translation>
+            <translation>Avbröt ändringen av behörigheter</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Could Not Change Permissions on Some Files</source>
-            <translation>Kunde inte ändra rättigheter på några filer</translation>
+            <translation>Det gick inte att ändra behörigheterna för vissa filer</translation>
         </message>
         <message>
             <location line="+257" />
@@ -26627,12 +26627,12 @@ Vill du checka ut dem nu?</translation>
         <message>
             <source>Open Preferences dialog.</source>
             <comment>msgShowOptionsDialogToolTip (mac version)</comment>
-            <translation>Öppna Inställningar-dialogen.</translation>
+            <translation>Öppna dialogrutan Inställningar.</translation>
         </message>
         <message>
             <source>Open Options dialog.</source>
             <comment>msgShowOptionsDialogToolTip (non-mac version)</comment>
-            <translation>Öppna Alternativ-dialogen.</translation>
+            <translation>Öppna dialogrutan Alternativ.</translation>
         </message>
         <message>
             <location line="+796" />
@@ -26700,7 +26700,7 @@ Vill du checka ut dem nu?</translation>
         <message>
             <location line="+1" />
             <source>Triggers an action. If it is from the menu it matches any part of a menu hierarchy, separated by "&gt;". For example "sess def" matches "File &gt; Sessions &gt; Default".</source>
-            <translation>Utlöser en åtgärd. Om den är från menyn matchar den någon del av en menyhierarki, separerad med "&gt;". Till exempel "sess def" matchar "File &gt; Sessions &gt; Standard".</translation>
+            <translation>Utlöser en åtgärd. Om den kommer från menyn matchar den valfri del av en menyhierarki, avgränsad med ”&gt;”. Till exempel matchar ”sess def” ”Arkiv &gt; Sessioner &gt; Standard”.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/coreplugin.cpp" line="-150" />
