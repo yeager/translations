@@ -25916,7 +25916,7 @@ till versionskontroll (%2)?</translation>
         <message>
             <location line="+6" />
             <source>Adding to Version Control Failed</source>
-            <translation>Misslyckades lägga till versionskontroll</translation>
+            <translation>Det gick inte att lägga till i versionshanteringen</translation>
         </message>
         <message numerus="yes">
             <location line="+11" />
@@ -25954,12 +25954,12 @@ till versionskontroll (%2)?</translation>
         <message>
             <location line="+1" />
             <source>deleted</source>
-            <translation>Borttagen</translation>
+            <translation>borttagen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>renamed</source>
-            <translation>bytte namn</translation>
+            <translation>omdöpt</translation>
         </message>
         <message>
             <location line="+1" />
@@ -25969,7 +25969,7 @@ till versionskontroll (%2)?</translation>
         <message>
             <location line="+1" />
             <source>unmerged</source>
-            <translation>osmält</translation>
+            <translation>osammanslagen</translation>
         </message>
         <message>
             <location line="+1" />
@@ -25979,7 +25979,7 @@ till versionskontroll (%2)?</translation>
         <message>
             <location line="+18" />
             <source>Version control state: unmerged.</source>
-            <translation>Versionskontrolltillstånd: osammanbundet.</translation>
+            <translation>Versionshanteringstillstånd: ej sammanslagen.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/welcomepagehelper.cpp" line="+487" />
@@ -25999,7 +25999,7 @@ till versionskontroll (%2)?</translation>
         <message>
             <location filename="../../../src/plugins/coreplugin/dialogs/promptoverwritedialog.cpp" line="+59" />
             <source>Overwrite Existing Files</source>
-            <translation>Skriv över existerande filer</translation>
+            <translation>Skriv över befintliga filer</translation>
         </message>
         <message>
             <location line="+33" />
@@ -26013,7 +26013,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location filename="../../../src/plugins/coreplugin/fileutils.cpp" line="+101" />
             <source>Launching a file browser failed</source>
-            <translation>Start av en filbläddrare misslyckades</translation>
+            <translation>Det gick inte att starta filbläddraren</translation>
         </message>
         <message>
             <location line="+1" />
@@ -26033,19 +26033,19 @@ Vill du skriva över dem?</translation>
             <source>"%1" returned the following error:
 
 %2</source>
-            <translation>"%1" returnerade följande fel:
+            <translation>”%1” returnerade följande fel:
 
 %2</translation>
         </message>
         <message>
             <location line="+64" />
             <source>The command for file browser is not set.</source>
-            <translation>Kommandot för filbläddrare är inte inställt.</translation>
+            <translation>Kommandot för filhanteraren är inte angivet.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Error while starting file browser.</source>
-            <translation>Fel vid start av filbläddrare.</translation>
+            <translation>Fel när filhanteraren startades.</translation>
         </message>
         <message>
             <location line="+23" />
@@ -26055,12 +26055,12 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+5" />
             <source>Show in File System View</source>
-            <translation>Visa i Filsystem-vyn</translation>
+            <translation>Visa i filsystemvyn</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Show in Explorer</source>
-            <translation>Visa i utforskaren</translation>
+            <translation>Visa i Utforskaren</translation>
         </message>
         <message>
             <location line="+2" />
@@ -26075,7 +26075,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+2" />
             <source>Show Containing Folder</source>
-            <translation>Visa innehållande mapp</translation>
+            <translation>Visa överordnad mapp</translation>
         </message>
         <message>
             <location line="+7" />
@@ -26102,7 +26102,7 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+19" />
             <source>Failed to remove file "%1": %2</source>
-            <translation>Misslyckades ta bort filen "%1": %2</translation>
+            <translation>Det gick inte att ta bort filen ”%1”: %2</translation>
         </message>
         <message>
             <location line="+28" />
@@ -26112,21 +26112,21 @@ Vill du skriva över dem?</translation>
         <message>
             <location line="+149" />
             <source>Failed to rename the include guard in file "%1": %2</source>
-            <translation>Misslyckades byta namn på medföljande skydd i filen "%1": %2</translation>
+            <translation>Det gick inte att byta namn på inkluderingsskyddet i filen ”%1”: %2</translation>
         </message>
         <message>
             <source>Failed to remove file "%1".</source>
-            <translation>Misslyckades med att ta bort filen "%1".</translation>
+            <translation>Det gick inte att ta bort filen ”%1”.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/generatedfile.cpp" line="+173" />
             <source>Failed to set permissions.</source>
-            <translation>Misslyckades med att ställa in rättigheter.</translation>
+            <translation>Det gick inte att ändra behörigheterna.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Unable to create the directory %1.</source>
-            <translation>Kunde inte skapa katalogen %1.</translation>
+            <translation>Det gick inte att skapa katalogen %1.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/find/ifindfilter.cpp" line="+365" />
