@@ -10518,7 +10518,7 @@ Installera dem manuellt efter att den aktuella åtgärden är klar.
         <message>
             <location line="+9" />
             <source>Certificate Distinguished Names</source>
-            <translation>Certifikatutdelade namn</translation>
+            <translation>Certifikatets distinkta namn</translation>
         </message>
         <message>
             <location line="+2" />
@@ -10528,7 +10528,7 @@ Installera dem manuellt efter att den aktuella åtgärden är klar.
         <message>
             <location line="+1" />
             <source>Organizational unit (e.g. Necessitas):</source>
-            <translation>Organisatorisk enhet (t.ex. necessitas):</translation>
+            <translation>Organisatorisk enhet (t.ex. Necessitas):</translation>
         </message>
         <message>
             <location line="+1" />
@@ -10548,17 +10548,17 @@ Installera dem manuellt efter att den aktuella åtgärden är klar.
         <message>
             <location line="+1" />
             <source>Two-letter country code for this unit (e.g. RO):</source>
-            <translation>Landskod med två bokstäver (t.ex. SE):</translation>
+            <translation>Landskod med två bokstäver för enheten (t.ex. RO):</translation>
         </message>
         <message>
             <location line="+120" />
             <source>Keystore Filename</source>
-            <translation>Filnamn i nyckellager</translation>
+            <translation>Nyckellagerfilnamn</translation>
         </message>
         <message>
             <location line="-170" />
             <source>Use Keystore password</source>
-            <translation>Använd lösenord för nyckellagring</translation>
+            <translation>Använd lösenordet för nyckellagret</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androidbuildapkstep.cpp" line="-828" />
@@ -10593,12 +10593,12 @@ Installera dem manuellt efter att den aktuella åtgärden är klar.
         <message>
             <location line="+8" />
             <source>Could not find "%1" in the selected path.</source>
-            <translation>Kunde inte hitta "%1" i vald sökväg.</translation>
+            <translation>Det gick inte att hitta ”%1” i den valda sökvägen.</translation>
         </message>
         <message>
             <location line="+15" />
             <source>The selected path does not contain a valid JDK. (%1 failed: %2)</source>
-            <translation>Angiven sökväg innehåller inte en giltig JDK. %1 misslyckades: %2)</translation>
+            <translation>Den valda sökvägen innehåller inte en giltig JDK. (%1 misslyckades: %2)</translation>
         </message>
         <message>
             <location line="+6" />
@@ -10608,7 +10608,7 @@ Installera dem manuellt efter att den aktuella åtgärden är klar.
         <message>
             <location line="+6" />
             <source>Unsupported JDK version (needs to be %1): %2 (parsed: %3)</source>
-            <translation>JDK-versionen stöds inte (behöver vara %1): %2 (tolkat: %3)</translation>
+            <translation>JDK-versionen stöds inte (måste vara %1): %2 (tolkat: %3)</translation>
         </message>
         <message>
             <location line="+10" />
@@ -10623,7 +10623,7 @@ Installera dem manuellt efter att den aktuella åtgärden är klar.
         <message>
             <location line="+3" />
             <source>Add the selected custom NDK. The toolchains and debuggers will be created automatically.</source>
-            <translation>Lägg till vald anpassad NDK. Verktygskedjor och felsökare kommer att skapas automatiskt.</translation>
+            <translation>Lägg till den valda anpassade NDK:n. Verktygskedjor och felsökare skapas automatiskt.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -10633,7 +10633,7 @@ Installera dem manuellt efter att den aktuella åtgärden är klar.
         <message>
             <location line="+3" />
             <source>Force a specific NDK installation to be used by all Android kits.&lt;br/&gt;Note that the forced NDK might not be compatible with all registered Qt versions.</source>
-            <translation>Tvinga en specifik NDK-installation att användas av alla Android-kit.&lt;br/&gt;Notera att den påtvingade NDK kanske inte är kompatibel med alla registrerade Qt-versioner.</translation>
+            <translation>Tvinga alla Android-kit att använda en viss NDK-installation.&lt;br/&gt;Observera att den framtvingade NDK:n kanske inte är kompatibel med alla registrerade Qt-versioner.</translation>
         </message>
         <message>
             <location line="+18" />
@@ -10691,13 +10691,13 @@ are performed. Find the checkbox under "Projects &gt; Build &gt; Build Steps &gt
 Build Android APK &gt; Additional Libraries".
 If the automatic download fails, Qt Creator proposes to open the download URL
 in the system's browser for manual download.</source>
-            <translation>Ladda ner OpenSSL förbyggda bibliotek automatiskt.
-Dessa bibliotek kan levereras med din applikation om
-någon SSL-verksamhet utförs. Hitta kryssrutan under "Projekt
-&gt; Bygg &gt; Bygg steg &gt; Bygg Android APK &gt; Ytterligare
-bibliotek". Om automatisk nedladdning misslyckas, Qt
-Creator föreslår att öppna nedladdningswebbadressen
-i systemets webbläsare för manuell nedladdning.</translation>
+            <translation>Hämta automatiskt förbyggda OpenSSL-bibliotek.
+
+Dessa bibliotek kan distribueras med programmet om SSL-åtgärder
+utförs. Kryssrutan finns under ”Projekt &gt; Bygg &gt; Byggsteg &gt;
+Bygg Android APK &gt; Ytterligare bibliotek”.
+Om den automatiska hämtningen misslyckas erbjuder Qt Creator sig att öppna hämtnings-URL:en
+i systemets webbläsare för manuell hämtning.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -10712,27 +10712,27 @@ i systemets webbläsare för manuell nedladdning.</translation>
         <message>
             <location line="+1" />
             <source>Android SDK Command-line Tools installed.</source>
-            <translation>Android SDK Kommandoline Verktyg installerade.</translation>
+            <translation>Android SDK Command-line Tools är installerade.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Android SDK Platform-Tools installed.</source>
-            <translation>Android SDK Platform-verktyg installerade.</translation>
+            <translation>Android SDK Platform-Tools är installerade.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>All essential packages installed for all installed Qt versions.</source>
-            <translation>Alla nödvändiga paket installerade för alla installerade Qt-versioner.</translation>
+            <translation>Alla nödvändiga paket är installerade för samtliga installerade Qt-versioner.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Android SDK Build-Tools installed.</source>
-            <translation>Android SDK Build-Tools installerat.</translation>
+            <translation>Android SDK Build-Tools är installerade.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Android Platform SDK (version) installed.</source>
-            <translation>Android Platform SDK (version) installerad.</translation>
+            <translation>Android Platform SDK (version) är installerad.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -10752,7 +10752,7 @@ i systemets webbläsare för manuell nedladdning.</translation>
         <message>
             <location line="+1" />
             <source>QMake include project (openssl.pri) exists.</source>
-            <translation>QMake include-projektet (openssl.pri) finns.</translation>
+            <translation>QMake-includeprojektet (openssl.pri) finns.</translation>
         </message>
         <message>
             <location line="+1" />
