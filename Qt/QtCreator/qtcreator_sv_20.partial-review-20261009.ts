@@ -76323,7 +76323,7 @@ spårfil: %1 Spårdatan är förlorad.</translation>
         <message>
             <location filename="../../../src/plugins/updateinfo/updateinfoplugin.cpp" line="+99" />
             <source>Installing Packages</source>
-            <translation>Installera paket</translation>
+            <translation>Installerar paket</translation>
         </message>
         <message>
             <location line="+5" />
@@ -76358,17 +76358,17 @@ spårfil: %1 Spårdatan är förlorad.</translation>
         <message>
             <location line="+19" />
             <source>The Maintenance Tool is already running and has locked its cache. Please close the Maintenance Tool and try again.</source>
-            <translation>Underhållsverktyget kör redan och har låst sin cache. Stäng underhållsverktyget och försök igen.</translation>
+            <translation>Underhållsverktyget körs redan och har låst sin cache. Stäng underhållsverktyget och försök igen.</translation>
         </message>
         <message>
             <location line="+49" />
             <source>An error occurred. Check the output of the installer below.</source>
-            <translation>Ett fel uppstod. Kontrollera utmatningen från installationsprogrammet nedan.</translation>
+            <translation>Ett fel uppstod. Kontrollera installationsprogrammets utdata nedan.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Done.</source>
-            <translation>Färdig.</translation>
+            <translation>Klart.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -76393,27 +76393,27 @@ spårfil: %1 Spårdatan är förlorad.</translation>
             <location line="+22" />
             <source>Failed to get update information (%1): %2</source>
             <extracomment>%1=command, %2=error</extracomment>
-            <translation>Misslyckades få uppdateringsinformation (%1): %2</translation>
+            <translation>Det gick inte att hämta uppdateringsinformationen (%1): %2</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Process finished with exit code %1.</source>
-            <translation>Processen färdigställdes med avslutskod %1.</translation>
+            <translation>Processen avslutades med avslutskoden %1.</translation>
         </message>
         <message>
             <location line="+42" />
             <source>%1 and other updates are available. Check the &lt;a %2&gt;Qt blog&lt;/a&gt; for details.</source>
-            <translation>%1 och andra uppdateringar finns tillgängliga. Ta en titt på &lt;a %2&gt;Qt-bloggen&lt;/a&gt; för mer information.</translation>
+            <translation>%1 och andra uppdateringar finns tillgängliga. Mer information finns på &lt;a %2&gt;Qt-bloggen&lt;/a&gt;.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>%1 is available. Check the &lt;a %2&gt;Qt blog&lt;/a&gt; for details.</source>
-            <translation>%1 finns tillgänglig. Ta en titt på &lt;a %2&gt;Qt-bloggen&lt;/a&gt; för mer information.</translation>
+            <translation>%1 finns tillgänglig. Mer information finns på &lt;a %2&gt;Qt-bloggen&lt;/a&gt;.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>New updates are available. Start the update?</source>
-            <translation>Nya uppdatering finns tillgängliga. Starta uppdateringen?</translation>
+            <translation>Nya uppdateringar finns tillgängliga. Vill du starta uppdateringen?</translation>
         </message>
         <message>
             <location line="+9" />
@@ -76450,7 +76450,7 @@ spårfil: %1 Spårdatan är förlorad.</translation>
             <location line="+10" />
             <source>Update Details</source>
             <extracomment>in the sense "details of the update"</extracomment>
-            <translation>Uppdatera detaljer</translation>
+            <translation>Uppdateringsdetaljer</translation>
         </message>
         <message>
             <location line="+44" />
@@ -76460,12 +76460,12 @@ spårfil: %1 Spårdatan är förlorad.</translation>
         <message>
             <location line="+32" />
             <source>Could not determine location of maintenance tool. Please check your installation if you did not enable this plugin manually.</source>
-            <translation>Kunde inte bestämma platsen för Underhållsverktyg. Kontrollera din installation om du inte har aktiverat denna insticksmodul manuellt.</translation>
+            <translation>Kunde inte fastställa var underhållsverktyget finns. Kontrollera installationen om du inte aktiverade den här insticksmodulen manuellt.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>The maintenance tool at "%1" is not an executable. Check your installation.</source>
-            <translation>Underhållsverktyget på "%1" är inte en körbar fil. Kontrollera din installation.</translation>
+            <translation>Underhållsverktyget på ”%1” är inte en körbar fil. Kontrollera installationen.</translation>
         </message>
         <message>
             <location line="+12" />
@@ -76490,7 +76490,7 @@ spårfil: %1 Spårdatan är förlorad.</translation>
         <message>
             <location line="+4" />
             <source>Automatically runs a scheduled check for updates on a time interval basis. The automatic check for updates will be performed at the scheduled date, or the next startup following it.</source>
-            <translation>Kör automatiskt en schemalagd kontroll efter uppdateringar baserat på tidsintervall. Den automatiska kontrollen efter uppdateringar kommer att genomföras på den schemalagda dagen eller vid en efterföljande uppstart.</translation>
+            <translation>Kör automatiskt en schemalagd uppdateringskontroll med angivet tidsintervall. Den automatiska uppdateringskontrollen genomförs på det schemalagda datumet eller vid nästa programstart efter det.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -76521,7 +76521,7 @@ spårfil: %1 Spårdatan är förlorad.</translation>
             <location line="+14" />
             <location line="+104" />
             <source>Not checked yet</source>
-            <translation>Inte kontrollerad ännu</translation>
+            <translation>Har inte kontrollerats ännu</translation>
         </message>
         <message>
             <location line="-102" />
