@@ -67513,19 +67513,19 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
             <location filename="../../../src/plugins/qtsupport/examplesparser.cpp" line="+362" />
             <source>Featured</source>
             <comment>Category for highlighted examples</comment>
-            <translation>I blickfånget</translation>
+            <translation>Utvalt</translation>
         </message>
         <message>
             <location line="-30" />
             <source>Other</source>
             <comment>Category for all other examples</comment>
-            <translation>Annan</translation>
+            <translation>Övrigt</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qtsupport/profilereader.cpp" line="+31" />
             <source>[Inexact] </source>
             <extracomment>Prefix used for output from the cumulative evaluation of project files.</extracomment>
-            <translation>[ouppenbara]</translation>
+            <translation>[Ungefärlig] </translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qtsupport/qtbuildaspects.cpp" line="+30" />
@@ -67550,7 +67550,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location filename="../../../src/plugins/qtsupport/qtsupportplugin.cpp" line="-7" />
             <source>Link with a Qt installation to automatically register Qt versions and kits? To do this later, select Edit &gt; Preferences &gt; Kits &gt; Qt Versions &gt; Link with Qt.</source>
-            <translation>Länka till en Qt-installation för att automatiskt registrera Qt-versioner och -satser? För att göra det senare, välj Redigera &gt; Inställningar &gt; Paket &gt; Qt-versioner &gt; Länka till Qt.</translation>
+            <translation>Länka till en Qt-installation för att automatiskt registrera Qt-versioner och kit? Om du vill göra det senare väljer du Redigera &gt; Inställningar &gt; Kit &gt; Qt-versioner &gt; Länka till Qt.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -67560,32 +67560,32 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+23" />
             <source>Full path to the host bin directory of the Qt version in the active kit of the project containing the current document.</source>
-            <translation>Fullständig sökväg till värddatorkorgens katalog för Qt-versionen i projektets aktiva kit som innehåller det aktuella dokumentet.</translation>
+            <translation>Fullständig sökväg till värdens bin-katalog för Qt-versionen i det aktiva kitet för projektet som innehåller det aktuella dokumentet.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Full path to the target bin directory of the Qt version in the active kit of the project containing the current document.&lt;br&gt;You probably want %1 instead.</source>
-            <translation>Fullständig sökväg till målkorgens katalog för Qt-versionen i projektets aktiva kit som innehåller det aktuella dokumentet.&lt;br&gt;Du vill förmodligen istället ha %1.</translation>
+            <translation>Fullständig sökväg till målets bin-katalog för Qt-versionen i det aktiva kitet för projektet som innehåller det aktuella dokumentet.&lt;br&gt;Du vill troligen ha %1 i stället.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Full path to the host libexec directory of the Qt version in the active kit of the project containing the current document.</source>
-            <translation>Fullständig sökväg till värdkatalogen libexec för Qt-versionen i projektets aktiva kit som innehåller det aktuella dokumentet.</translation>
+            <translation>Fullständig sökväg till värdens libexec-katalog för Qt-versionen i det aktiva kitet för projektet som innehåller det aktuella dokumentet.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Full path to the host bin directory of the Qt version in the active kit of the active project.</source>
-            <translation>Fullständig sökväg till värddatorkorgens katalog för Qt-versionen i det aktiva projektets aktiva kit.</translation>
+            <translation>Fullständig sökväg till värdens bin-katalog för Qt-versionen i det aktiva kitet för det aktiva projektet.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Full path to the target bin directory of the Qt version in the active kit of the active project.&lt;br&gt;You probably want %1 instead.</source>
-            <translation>Fullständig sökväg till målkorgens katalog för Qt-versionen i det aktiva paketet i det aktiva projektet.&lt;br&gt;Du vill säkert istället ha %1.</translation>
+            <translation>Fullständig sökväg till målets bin-katalog för Qt-versionen i det aktiva kitet för det aktiva projektet.&lt;br&gt;Du vill troligen ha %1 i stället.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Full path to the libexec directory of the Qt version in the active kit of the active project.</source>
-            <translation>Fullständig sökväg till libexec- katalogen för Qt-versionen i det aktiva projektets aktiva kit.</translation>
+            <translation>Fullständig sökväg till libexec-katalogen för Qt-versionen i det aktiva kitet för det aktiva projektet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qtsupport/translationwizardpage.cpp" line="+60" />
@@ -67617,7 +67617,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
             <location filename="../../../src/plugins/qtsupport/qtabiextractor.cpp" line="+66" />
             <location line="+26" />
             <source>Could not determine target OS</source>
-            <translation>Kunde inte bestämma mål OS</translation>
+            <translation>Kunde inte fastställa måloperativsystemet</translation>
         </message>
         <message>
             <location line="-24" />
@@ -67629,17 +67629,17 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
             <location line="-21" />
             <location line="+25" />
             <source>Could not determine OS sub-type</source>
-            <translation>Kunde inte bestämma OS- subtyp</translation>
+            <translation>Kunde inte fastställa operativsystemets undertyp</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Error reading "%1": %2</source>
-            <translation>Fel vid läsning av "%1": %2</translation>
+            <translation>Fel vid läsning av ”%1”: %2</translation>
         </message>
         <message>
             <location line="+158" />
             <source>Core.json not found for Qt at "%1"</source>
-            <translation>Core.json hittades inte för Qt på "%1"</translation>
+            <translation>Core.json hittades inte för Qt på ”%1”</translation>
         </message>
     </context>
     <context>
