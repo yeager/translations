@@ -67666,10 +67666,10 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
 If your device is already set up for this, you do not have to do anything here.
 Otherwise, please deploy the public key for the private key with which to connect in the future.
 If you do not have a private key yet, you can also create one here.</source>
-            <translation>Vi rekommenderar att du loggar in på din enhet med publik nyckelautentisering.
-Om din enhet redan är konfigurerad för detta så behöver du inte göra någonting här.
-Om inte, så distribuera den publika nyckeln för den privata nyckeln med vilken ska anslutas
-med i framtiden. Om du inte har en privat nyckel ännu så kan du skapa en här.</translation>
+            <translation>Vi rekommenderar att du loggar in på enheten med autentisering med offentlig nyckel.
+Om enheten redan är konfigurerad för detta behöver du inte göra något här.
+Annars distribuerar du den offentliga nyckeln för den privata nyckel som du ska använda för anslutningar framöver.
+Om du ännu inte har en privat nyckel kan du även skapa en här.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -67684,14 +67684,14 @@ med i framtiden. Om du inte har en privat nyckel ännu så kan du skapa en här.
         <message>
             <location line="+66" />
             <source>Summary</source>
-            <translation>Sammandrag</translation>
+            <translation>Sammanfattning</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The new device configuration will now be created.
 In addition, device connectivity will be tested.</source>
-            <translation>Den nya enhetskonfigurationen kommer nu skapas.
-I tillägg kommer enhetsanslutningen att testas.</translation>
+            <translation>Den nya enhetskonfigurationen skapas nu.
+Dessutom testas anslutningen till enheten.</translation>
         </message>
         <message>
             <location line="-85" />
@@ -67701,7 +67701,7 @@ I tillägg kommer enhetsanslutningen att testas.</translation>
         <message>
             <location filename="../../../src/plugins/remotelinux/publickeydeploymentdialog.cpp" line="+67" />
             <source>Public key error: %1</source>
-            <translation>Publik nyckelfel: %1</translation>
+            <translation>Fel med offentlig nyckel: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/tarpackagedeploystep.cpp" line="+107" />
@@ -67721,11 +67721,11 @@ I tillägg kommer enhetsanslutningen att testas.</translation>
         <message>
             <location filename="../../../src/plugins/remotelinux/publickeydeploymentdialog.cpp" line="+58" />
             <source>Choose Public Key File</source>
-            <translation>Välj publik nyckelfil</translation>
+            <translation>Välj fil med offentlig nyckel</translation>
         </message>
         <message>
             <source>Public Key Files (*.pub);;All Files (*)</source>
-            <translation>Publika nyckelfiler (*.pub);;Alla filer (*)</translation>
+            <translation>Filer med offentliga nycklar (*.pub);;Alla filer (*)</translation>
         </message>
         <message>
             <location line="-76" />
@@ -67745,7 +67745,7 @@ I tillägg kommer enhetsanslutningen att testas.</translation>
         <message>
             <location line="+22" />
             <source>Public Key Files (*.pub)</source>
-            <translation>Allmänna nyckelfiler (*.pub)</translation>
+            <translation>Filer med offentliga nycklar (*.pub)</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/remotelinuxrunconfiguration.cpp" line="+55" />
@@ -67755,12 +67755,12 @@ I tillägg kommer enhetsanslutningen att testas.</translation>
         <message>
             <location line="-6" />
             <source>Executable on device:</source>
-            <translation>Körbar fil på enhet:</translation>
+            <translation>Körbar fil på enheten:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Remote path not set</source>
-            <translation>Fjärrsökvägen inte inställd</translation>
+            <translation>Ingen fjärrsökväg har angetts</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/genericdirectuploadstep.cpp" line="+52" />
@@ -67771,22 +67771,22 @@ I tillägg kommer enhetsanslutningen att testas.</translation>
         <message>
             <location filename="../../../src/plugins/remotelinux/tarpackagecreationstep.cpp" line="+6" />
             <source>Tarball creation not possible.</source>
-            <translation>Skapandet av tarboll inte möjlig.</translation>
+            <translation>Det går inte att skapa tar-arkiv.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Create tarball:</source>
-            <translation>Skapa tarboll:</translation>
+            <translation>Skapa tar-arkiv:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/abstractremotelinuxdeploystep.cpp" line="+138" />
             <source>No deployment action necessary. Skipping.</source>
-            <translation>Ingen distributionsåtgärd nödvändig. Hoppar över.</translation>
+            <translation>Ingen distribuering krävs. Hoppar över.</translation>
         </message>
         <message>
             <location line="-64" />
             <source>No device configuration set.</source>
-            <translation>Ingen enhetskonfiguration inställd.</translation>
+            <translation>Ingen enhetskonfiguration har angetts.</translation>
         </message>
         <message>
             <location line="+29" />
@@ -67801,12 +67801,12 @@ I tillägg kommer enhetsanslutningen att testas.</translation>
         <message>
             <location line="-2" />
             <source>Deploy step finished.</source>
-            <translation>Distributionssteg färdigställt.</translation>
+            <translation>Distribueringssteget slutfördes.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/tarpackagedeploystep.cpp" line="-32" />
             <source>Uploading package to device...</source>
-            <translation>Skickar upp paket till enhet…</translation>
+            <translation>Skickar upp paketet till enheten …</translation>
         </message>
         <message>
             <location line="+4" />
@@ -67841,12 +67841,12 @@ I tillägg kommer enhetsanslutningen att testas.</translation>
         <message>
             <location line="+6" />
             <source>Failed to retrieve remote timestamp for file "%1". Incremental deployment will not work. Error message was: %2</source>
-            <translation>Misslyckades hämta tidsstämpel för fjärrfilen "%1". Inkrementell installation fungerar inte. Felmeddelandet var: %2</translation>
+            <translation>Kunde inte hämta fjärrtidsstämpeln för filen ”%1”. Inkrementell distribuering fungerar inte. Felmeddelandet var: %2</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Unexpected stat output for remote file "%1": %2</source>
-            <translation>Oväntad statutmatning för fjärrfilen "%1": %2</translation>
+            <translation>Oväntade utdata från stat för fjärrfilen ”%1”: %2</translation>
         </message>
         <message>
             <location line="+57" />
@@ -67858,14 +67858,14 @@ I tillägg kommer enhetsanslutningen att testas.</translation>
             <location line="-20" />
             <source>%n file(s) need to be uploaded.</source>
             <translation>
-                <numerusform>%n fil behöver skickas upp.</numerusform>
-                <numerusform>%n filer behöver skickas upp.</numerusform>
+                <numerusform>%n fil måste laddas upp.</numerusform>
+                <numerusform>%n filer måste laddas upp.</numerusform>
             </translation>
         </message>
         <message>
             <location line="+5" />
             <source>Local file "%1" does not exist.</source>
-            <translation>Lokala filen "%1" finns inte.</translation>
+            <translation>Den lokala filen ”%1” finns inte.</translation>
         </message>
         <message>
             <location line="+76" />
@@ -67875,7 +67875,7 @@ I tillägg kommer enhetsanslutningen att testas.</translation>
         <message>
             <location line="-208" />
             <source>Incremental deployment</source>
-            <translation>Ingressiv användning</translation>
+            <translation>Inkrementell distribuering</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/remotelinux/customcommanddeploystep.cpp" line="-42" />
@@ -67895,14 +67895,14 @@ I tillägg kommer enhetsanslutningen att testas.</translation>
         <message>
             <location line="+8" />
             <source>Cannot establish SSH connection: Failed to create temporary directory for control socket: %1</source>
-            <translation>Kan inte etablera SSH-anslutning: Misslyckades med att skapa temporärkatalog för kontrolluttag: %1</translation>
+            <translation>Kan inte upprätta SSH-anslutning: Kunde inte skapa en tillfällig katalog för kontrollsocket: %1</translation>
         </message>
         <message>
             <location line="+24" />
             <source>Cannot establish SSH connection.
 Control process failed to start.</source>
-            <translation>Kan inte etablera SSH-anslutning.
-Kontrollprocessen misslyckades att starta.</translation>
+            <translation>Kan inte upprätta SSH-anslutning.
+Kunde inte starta kontrollprocessen.</translation>
         </message>
         <message>
             <location line="+62" />
