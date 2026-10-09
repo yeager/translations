@@ -71615,7 +71615,7 @@ som definieras av stegstorleken.</translation>
     </message>
     <message>
         <source>Fill color</source>
-        <translation>Fyllnadsfärg</translation>
+        <translation>Fyllningsfärg</translation>
     </message>
     <message>
         <source>Sets the color for the background.</source>
@@ -72195,7 +72195,7 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>fillColor</source>
-        <translation>fyllnadsfärg</translation>
+        <translation>fillColor</translation>
     </message>
     <message>
         <source>Opacity</source>
