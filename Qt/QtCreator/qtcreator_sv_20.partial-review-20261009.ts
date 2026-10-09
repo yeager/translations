@@ -38330,12 +38330,12 @@ Det kan hjälpa att bygga om projektet.</translation>
             <location filename="../../../src/plugins/extensionmanager/extensionmanagerplugin.cpp" line="+38" />
             <location line="+26" />
             <source>Extensions</source>
-            <translation>Utökningar</translation>
+            <translation>Tillägg</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/extensionmanager/extensionmanagerwidget.cpp" line="+676" />
             <source>Extension details</source>
-            <translation>Utökningsdetaljer</translation>
+            <translation>Tilläggsinformation</translation>
         </message>
         <message>
             <location line="-247" />
@@ -38371,7 +38371,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+73" />
             <source>Cannot install extension: %1</source>
-            <translation>Kan inte installera tillägg: %1</translation>
+            <translation>Det går inte att installera tillägget: %1</translation>
         </message>
         <message>
             <location line="+148" />
@@ -38396,7 +38396,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+3" />
             <source>Select an extension to see more information about it.</source>
-            <translation>Välj en utökning för att se mer information om den.</translation>
+            <translation>Välj ett tillägg om du vill ha mer information om det.</translation>
         </message>
         <message>
             <location line="+42" />
@@ -38421,12 +38421,12 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+8" />
             <source>Extensions in pack</source>
-            <translation>Utökningar i paket</translation>
+            <translation>Tillägg i paketet</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Toggle Secondary Details</source>
-            <translation>Växla Sekundärdetaljer</translation>
+            <translation>Visa eller dölj sekundär information</translation>
         </message>
         <message>
             <location line="+198" />
@@ -38441,7 +38441,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+16" />
             <source>Downloaded extension has an invalid hash.</source>
-            <translation>Laddat tillägg har en ogiltig hash.</translation>
+            <translation>Det hämtade tillägget har en ogiltig kontrollsumma.</translation>
         </message>
         <message>
             <source>Cancel</source>
@@ -38450,7 +38450,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="-42" />
             <source>Download Extension</source>
-            <translation>Hämta utökning</translation>
+            <translation>Hämta tillägg</translation>
         </message>
         <message>
             <location line="+24" />
@@ -38461,7 +38461,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="-16" />
             <source>Cannot download extension</source>
-            <translation>Kan inte hämta utökning</translation>
+            <translation>Det går inte att hämta tillägget</translation>
         </message>
         <message>
             <source>Code: %1.</source>
@@ -38495,22 +38495,22 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+4" />
             <source>Extension packs</source>
-            <translation>Utökningspaket</translation>
+            <translation>Tilläggspaket</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Individual extensions</source>
-            <translation>Individuella utökningar</translation>
+            <translation>Enskilda tillägg</translation>
         </message>
         <message>
             <location line="+51" />
             <source>No extension found!</source>
-            <translation>Ingen utökning hittades!</translation>
+            <translation>Inga tillägg hittades.</translation>
         </message>
         <message>
             <location line="+24" />
             <source>Manage Extensions</source>
-            <translation>Hantera utökningar</translation>
+            <translation>Hantera tillägg</translation>
         </message>
         <message>
             <location line="+11" />
@@ -38535,7 +38535,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location filename="../../../src/plugins/extensionmanager/extensionmanagersettings.cpp" line="+38" />
             <source>Use external repository</source>
-            <translation>Använd externt förråd</translation>
+            <translation>Använd externt arkiv</translation>
         </message>
         <message>
             <source>Server URL:</source>
@@ -38548,7 +38548,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         </message>
         <message>
             <source>%1 does not check extensions from external vendors for security flaws or malicious intent, so be careful when installing them, as it might leave your computer vulnerable to attacks such as hacking, malware, and phishing.</source>
-            <translation>%1 kontrollerar inte utökningar från externa tillverkare efter säkerhetshål eller skadliga syften så var försiktig när du installerar dem då det kan göra din dator sårbar för attacker såsom hacking, skadlig kod och phishing.</translation>
+            <translation>%1 kontrollerar inte tillägg från externa leverantörer efter säkerhetsbrister eller skadlig avsikt. Var därför försiktig när du installerar dem, eftersom datorn kan bli sårbar för angrepp som dataintrång, skadlig kod och nätfiske.</translation>
         </message>
         <message>
             <location line="-22" />
@@ -38558,7 +38558,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+2" />
             <source>Repositories to query for extensions. You can specify local paths or HTTP(S) URLs that should be merged with the main repository.</source>
-            <translation>Arkiv för att fråga efter tillägg. Du kan ange lokala sökvägar eller HTTP(S) webbadresser som ska slås ihop med huvudarkivet.</translation>
+            <translation>Arkiv att söka efter tillägg i. Du kan ange lokala sökvägar eller HTTP(S)-webbadresser som ska slås ihop med huvudarkivet.</translation>
         </message>
         <message>
             <location line="+14" />
@@ -38568,26 +38568,26 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+15" />
             <source>Use External Repository</source>
-            <translation>Använd externt förråd</translation>
+            <translation>Använd externt arkiv</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Install Extension...</source>
-            <translation>Installera utökning…</translation>
+            <translation>Installera tillägg…</translation>
         </message>
         <message>
             <location line="+35" />
             <source>If you choose to link or connect an external repository, you are acting at your own discretion and risk. The Qt Company does not control, endorse, or maintain any external repositories that you connect. Any changes, unavailability or security issues in external repositories are beyond The Qt Company's control and responsibility. By linking or connecting external repositories, you acknowledge these conditions and accept responsibility for managing associated risks appropriately.</source>
-            <translation>Om du väljer att länka eller ansluta ett externt arkiv agerar du på eget gottfinnande och med risk. Qt-företaget kontrollerar, godkänner eller upprätthåller inte några externa databaser som du ansluter. Eventuella ändringar, otillgänglighet eller säkerhetsproblem i externa databaser ligger utanför Qt-företagets kontroll och ansvar. Genom att länka eller ansluta externa databaser bekräftar du dessa villkor och tar på dig ansvaret för att hantera tillhörande risker på lämpligt sätt.</translation>
+            <translation>Om du väljer att länka till eller ansluta ett externt arkiv gör du det efter eget omdöme och på egen risk. The Qt Company kontrollerar, rekommenderar eller underhåller inte externa arkiv som du ansluter. Ändringar, otillgänglighet och säkerhetsproblem i externa arkiv ligger utanför The Qt Companys kontroll och ansvar. Genom att länka till eller ansluta externa arkiv bekräftar du dessa villkor och ansvarar för att hantera riskerna på lämpligt sätt.</translation>
         </message>
         <message>
             <source>Plugin changes will take effect after restart.</source>
-            <translation>Ändringar i insticksmoduler tar effekt efter omstart.</translation>
+            <translation>Ändringar i insticksmoduler börjar gälla efter omstart.</translation>
         </message>
         <message>
             <location line="-11" />
             <source>Browser</source>
-            <translation>Bläddrare</translation>
+            <translation>Webbläsare</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/extensionmanager/extensionsmodel.cpp" line="+77" />
@@ -38602,7 +38602,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+54" />
             <source>Platform agnostic</source>
-            <translation>Plattformsagnostiker</translation>
+            <translation>Plattformsoberoende</translation>
         </message>
         <message>
             <location line="+105" />
@@ -38621,11 +38621,11 @@ Det kan hjälpa att bygga om projektet.</translation>
 You acknowledge that you download, install, or use Extensions from the Qt Creator Extensions Store at your own discretion and risk. All Qt Creator Extensions are provided "as is" without warranties of any kind, and may be subject to additional license terms imposed by their owners or licensors.
 
 You can manage the use of Extensions in Preferences &gt; Extensions.</source>
-            <translation>Qt Creator Extensions är tillgängliga från konfigurerade onlinekällor, såsom Qt Creator Extensions Store som
-tillhandahålls av Qt Group, men även tredjepartsbaserade källor. Extensions för Qt Creator kan skapas och ägas av
-tredje part. Du bekräftar att du hämtar, installerar eller använder Extensions från Qt Creator Extensions
-Store på eget gottfinnande och risk. Alla Qt Creator Extensions tillhandahålls "som det är" utan garantier av något
-slag, och kan omfattas av ytterligare licensvillkor som införs av deras ägare eller licensgivare. Du kan</translation>
+            <translation>Qt Creator-tillägg är tillgängliga från konfigurerade onlinekällor, till exempel Qt Creator Extensions Store som tillhandahålls av Qt Group, samt från tredjepartskällor. Qt Creator-tillägg kan skapas och ägas av tredje part.
+
+Du bekräftar att du hämtar, installerar eller använder tillägg från Qt Creator Extensions Store efter eget omdöme och på egen risk. Alla Qt Creator-tillägg tillhandahålls i befintligt skick utan några garantier och kan omfattas av ytterligare licensvillkor från sina ägare eller licensgivare.
+
+Du kan hantera användningen av tillägg under Inställningar &gt; Tillägg.</translation>
         </message>
         <message>
             <location line="+15" />
@@ -38635,7 +38635,7 @@ slag, och kan omfattas av ytterligare licensvillkor som införs av deras ägare 
         <message>
             <location line="+3" />
             <source>Use</source>
-            <translation>Användning</translation>
+            <translation>Använd</translation>
         </message>
         <message>
             <location line="+5" />
