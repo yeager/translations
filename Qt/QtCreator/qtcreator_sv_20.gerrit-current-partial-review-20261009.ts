@@ -9182,7 +9182,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>You can share your project to Qt Design Viewer web service.&lt;br&gt;&lt;br&gt;To be able to use the sharing service, you need to sign in with your Qt Account details.</source>
-        <translation>Du kan dela ditt projekt med webbtjänsten Qt Design Viewer.&lt;br&gt;&lt;br&gt;För att kunna använda delningstjänsten måste du logga in med dina uppgifter för Qt Account.</translation>
+        <translation>Du kan dela ditt projekt med webbtjänsten Qt Design Viewer.&lt;br&gt;&lt;br&gt;För att kunna använda delningstjänsten måste du logga in med dina Qt Account-uppgifter.</translation>
     </message>
     <message>
         <source>Sign in</source>
@@ -9318,7 +9318,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Nollställ</translation>
+        <translation>Återställ</translation>
     </message>
     <message>
         <source>Set Binding</source>
@@ -9350,7 +9350,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>No name found, please enter a valid name.</source>
-        <translation>Inget namn hittades. Ange ett giltigt namn.</translation>
+        <translation>Inget namn har angetts. Ange ett giltigt namn.</translation>
     </message>
     <message>
         <source>This name is already in use, please use a different name.</source>
