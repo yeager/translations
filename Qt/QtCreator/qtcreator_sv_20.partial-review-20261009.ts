@@ -66986,7 +66986,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+5" />
             <source>The installation location of the current Qt version's imports.</source>
-            <translation>Installationsplatsen för den nuvarande Qt-versionens import.</translation>
+            <translation>Installationsplatsen för den aktuella Qt-versionens importer.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -67007,22 +67007,22 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+5" />
             <source>The current Qt version's default mkspecs (Qt 4).</source>
-            <translation>Aktuella Qt-versionens standard-mkspecs (Qt 4).</translation>
+            <translation>Den aktuella Qt-versionens standard-mkspecs (Qt 4).</translation>
         </message>
         <message>
             <location line="+7" />
             <source>The current Qt version's default mkspec (Qt 5; host system).</source>
-            <translation>Aktuella Qt-versionens standard-mkspec (Qt 5; värdsystem).</translation>
+            <translation>Den aktuella Qt-versionens standard-mkspec (Qt 5, värdsystem).</translation>
         </message>
         <message>
             <location line="+7" />
             <source>The current Qt version's default mkspec (Qt 5; target system).</source>
-            <translation>Aktuella Qt-versionens standard-mkspec (Qt 5; målsystem).</translation>
+            <translation>Den aktuella Qt-versionens standard-mkspec (Qt 5, målsystem).</translation>
         </message>
         <message>
             <location line="+7" />
             <source>The current Qt's qmake version.</source>
-            <translation>Aktuella versionen för Qt:s qmake.</translation>
+            <translation>qmake-versionen för den aktuella Qt-versionen.</translation>
         </message>
         <message>
             <location line="+217" />
@@ -67074,7 +67074,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+312" />
             <source>No factory found for qmake: "%1"</source>
-            <translation>Ingen fabrik hittades för micake: "%1"</translation>
+            <translation>Ingen fabrik hittades för qmake: ”%1”</translation>
         </message>
         <message>
             <source>&lt;specify a name&gt;</source>
@@ -67088,7 +67088,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+48" />
             <source>Qt version %1 for %2</source>
-            <translation>Qt version %1 för %2</translation>
+            <translation>Qt-version %1 för %2</translation>
         </message>
         <message>
             <source>Qt Version</source>
@@ -67143,12 +67143,12 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+40" />
             <source>No compiler can produce code for this Qt version. Please define one or more compilers for: %1</source>
-            <translation>Ingen kompilator kan producera kod för den här Qt- versionen. Definiera en eller flera kompilatorer för: %1</translation>
+            <translation>Ingen kompilator kan producera kod för den här Qt-versionen. Definiera en eller flera kompilatorer för: %1</translation>
         </message>
         <message>
             <location line="+4" />
             <source>The following ABIs are currently not supported: %1</source>
-            <translation>Följande ABI stöds för närvarande inte: %1</translation>
+            <translation>Följande ABI:er stöds för närvarande inte: %1</translation>
         </message>
         <message>
             <location line="+67" />
@@ -67208,7 +67208,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+1" />
             <source>The qmake executable %1 could not be added: %2</source>
-            <translation>Den körbara qMake %1 kunde inte läggas till: %2</translation>
+            <translation>Den körbara qmake-filen %1 kunde inte läggas till: %2</translation>
         </message>
         <message>
             <location line="+184" />
@@ -67218,12 +67218,12 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+16" />
             <source>This functionality is only available for the Desktop device.</source>
-            <translation>Denna funktionalitet är endast tillgänglig för Desktop-enheten.</translation>
+            <translation>Den här funktionen är bara tillgänglig för skrivbordsenheten.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>%1's resource directory is not writable.</source>
-            <translation>%1's resurskatalog är inte skrivbar.</translation>
+            <translation>Resurskatalogen för %1 är inte skrivbar.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -67233,7 +67233,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+92" />
             <source>Qt installation information was not found in "%1". Choose a directory that contains one of the files %2</source>
-            <translation>Qt- installationsinformation hittades inte i "%1". Välj en katalog som innehåller en av filerna %2</translation>
+            <translation>Qt-installationsinformation hittades inte i ”%1”. Välj en katalog som innehåller en av filerna %2</translation>
         </message>
         <message>
             <location line="+17" />
