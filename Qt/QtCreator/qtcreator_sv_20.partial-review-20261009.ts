@@ -67338,7 +67338,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+7" />
             <source>&lt;p&gt;The project you are about to open is located in the write-protected location:&lt;/p&gt;&lt;blockquote&gt;%1&lt;/blockquote&gt;&lt;p&gt;Please select a writable location below and click "Copy Project and Open" to open a modifiable copy of the project or click "Keep Project and Open" to open the project in location.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; You will not be able to alter or compile your project in the current location.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;The project you are about to open is located in the write-protected location:&lt;/p&gt;&lt;blockquote&gt;%1&lt;/blockquote&gt;&lt;p&gt;Please select a writable location below and click "Copy Project and Open" to open a modifiable copy of the project or click "Keep Project and Open" to open the project in location.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; You will not be able to alter or compile your project in the current location.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Projektet du ska öppna finns på den skrivskyddade platsen:&lt;/p&gt;&lt;blockquote&gt;%1&lt;/blockquote&gt;&lt;p&gt;Välj en skrivbar plats nedan och klicka på ”Kopiera projekt och öppna” för att öppna en ändringsbar kopia av projektet, eller på ”Behåll projekt och öppna” för att öppna projektet på dess nuvarande plats.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Obs!&lt;/b&gt; Du kan inte ändra eller kompilera projektet på den nuvarande platsen.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+8" />
@@ -67374,12 +67374,12 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location filename="../../../src/plugins/qtsupport/qtkitaspect.cpp" line="+117" />
             <source>Mkspec:</source>
-            <translation>- Det är inte sant.</translation>
+            <translation>Mkspec:</translation>
         </message>
         <message>
             <location line="+67" />
             <source>The Qt library to use for all projects using this kit.&lt;br&gt;A Qt version is required for qmake-based projects and optional when using other build systems.</source>
-            <translation>Qt-biblioteket att använda för alla projekt som använder detta kit.&lt;br&gt;A Qt-version krävs för qake-baserade projekt och valfritt när andra byggsystem används.</translation>
+            <translation>Qt-biblioteket som ska användas för alla projekt som använder det här kitet.&lt;br&gt;En Qt-version krävs för qmake-baserade projekt och är valfri för andra byggsystem.</translation>
         </message>
         <message>
             <location line="+155" />
@@ -67406,17 +67406,17 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+138" />
             <source>Found Qt version: %1.</source>
-            <translation>Hittade den andra versionen: %1.</translation>
+            <translation>Qt-version hittades: %1.</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Removing Qt: %1.</source>
-            <translation>Ta bort Qt: %1.</translation>
+            <translation>Tar bort Qt: %1.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Qt: %1.</source>
-            <translation>- %1.</translation>
+            <translation>Qt: %1.</translation>
         </message>
         <message>
             <location line="+14" />
@@ -67426,12 +67426,12 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+5" />
             <source>Expected non-empty qmake path.</source>
-            <translation>Förväntad qake-väg utan tomhet.</translation>
+            <translation>Förväntade en icke-tom qmake-sökväg.</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Cannot create Qt version from qmake path "%1": %2</source>
-            <translation>Kan inte skapa Qt- version från sökvägen "%1": %2</translation>
+            <translation>Kan inte skapa en Qt-version från qmake-sökvägen ”%1”: %2</translation>
         </message>
         <message>
             <location line="+21" />
@@ -67441,7 +67441,7 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+4" />
             <source>Adding Qt version: %1</source>
-            <translation>Lägga till Qt-version: %1</translation>
+            <translation>Lägger till Qt-version: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qtsupport/baseqtversion.cpp" line="-944" />
@@ -67467,17 +67467,17 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location filename="../../../src/plugins/qtsupport/codegensettings.cpp" line="+29" />
             <source>Aggregation as a pointer member</source>
-            <translation>Sammanläggning som pekskärmsmedlem</translation>
+            <translation>Aggregation som pekarmedlem</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Aggregation</source>
-            <translation>Sammanläggning</translation>
+            <translation>Aggregation</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Multiple inheritance</source>
-            <translation>Flera arv</translation>
+            <translation>Multipelt arv</translation>
         </message>
         <message>
             <location line="+4" />
@@ -67487,12 +67487,12 @@ Distribuering till den katalogen tar bort alla filer som redan finns.
         <message>
             <location line="+3" />
             <source>Use Qt module name in #include-directive</source>
-            <translation>Använd Qt- modulnamn i #include- Directive</translation>
+            <translation>Använd Qt-modulnamnet i #include-direktivet</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Add Qt version #ifdef for module names</source>
-            <translation>Lägg till Qt- version # ifdef för modulnamn</translation>
+            <translation>Lägg till Qt-versions-#ifdef för modulnamn</translation>
         </message>
         <message>
             <location line="+6" />
