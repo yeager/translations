@@ -57348,7 +57348,7 @@ Obs! Befintlig utdata färgas inte om.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/devicesupport/processlist.cpp" line="+74" />
             <source>Process ID</source>
-            <translation>Process-id</translation>
+            <translation>Process-ID</translation>
         </message>
         <message>
             <location line="+0" />
@@ -57363,7 +57363,7 @@ Obs! Befintlig utdata färgas inte om.</translation>
         <message>
             <location line="+24" />
             <source>Failed to fetch process list.</source>
-            <translation>Misslyckades hämta processlista.</translation>
+            <translation>Kunde inte hämta processlistan.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/devicesupport/devicesettingspage.cpp" line="+48" />
@@ -57379,7 +57379,7 @@ Obs! Befintlig utdata färgas inte om.</translation>
         <message>
             <location line="+5" />
             <source>Search in Qt installation</source>
-            <translation>Sök i Qt- installationen</translation>
+            <translation>Sök i Qt-installationen</translation>
         </message>
         <message>
             <location line="+11" />
@@ -57404,12 +57404,12 @@ Obs! Befintlig utdata färgas inte om.</translation>
         <message>
             <location line="+1" />
             <source>Set up kits for this device's toolchains.</source>
-            <translation>Ställ in kit för denna enhet verktygskedjor.</translation>
+            <translation>Ställ in kit för verktygskedjorna på den här enheten.</translation>
         </message>
         <message>
             <location line="+158" />
             <source>Device is not connected.</source>
-            <translation>heten är inte ansluten.</translation>
+            <translation>Enheten är inte ansluten.</translation>
         </message>
         <message>
             <location line="+112" />
@@ -57419,16 +57419,16 @@ Obs! Befintlig utdata färgas inte om.</translation>
         <message>
             <location line="+77" />
             <source>Use SSH port forwarding for debugging</source>
-            <translation>Använd SSH- ports vidarebefordring för felsökning</translation>
+            <translation>Använd SSH-portvidarebefordran för felsökning</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Enable debugging on remote targets that cannot expose GDB server ports.
 The SSH tunneling is used to map the remote GDB server port to localhost.
 The local and remote ports are determined automatically.</source>
-            <translation>Aktivera felsökning på fjärrmål som inte kan exponera GDB- serverportar.
-SSH- tunnelläggningen används för att kartlägga fjärrporten till GDB-
-servern till localhost. Lokala och fjärrportar bestäms automatiskt.</translation>
+            <translation>Aktivera felsökning på fjärrmål som inte kan exponera GDB-serverportar.
+SSH-tunneln används för att mappa fjärrporten för GDB-servern till localhost.
+Lokala och fjärrportar avgörs automatiskt.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -57438,7 +57438,7 @@ servern till localhost. Lokala och fjärrportar bestäms automatiskt.</translati
         <message>
             <location line="+1" />
             <source>Select the device to connect through.</source>
-            <translation>Välj enheten att ansluta genom.</translation>
+            <translation>Välj den enhet som anslutningen ska gå via.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -57458,12 +57458,12 @@ servern till localhost. Lokala och fjärrportar bestäms automatiskt.</translati
         <message>
             <location line="+22" />
             <source>Enter lists and ranges like this: "1024,1026-1028,1030".</source>
-            <translation>Ange listor och intervall som denna: "1024,1026-1028,1030".</translation>
+            <translation>Ange listor och intervall så här: "1024,1026-1028,1030".</translation>
         </message>
         <message>
             <location line="+39" />
             <source>Opening a terminal is not supported.</source>
-            <translation>Öppna en terminal stöds inte.</translation>
+            <translation>Det går inte att öppna en terminal.</translation>
         </message>
         <message>
             <location line="+42" />
@@ -57473,7 +57473,7 @@ servern till localhost. Lokala och fjärrportar bestäms automatiskt.</translati
         <message>
             <location line="+57" />
             <source>Sourcing a script is not supported on this platform.</source>
-            <translation>Att köpa ett skript stöds inte på den här plattformen.</translation>
+            <translation>Att läsa in ett skript stöds inte på den här plattformen.</translation>
         </message>
         <message>
             <location line="+33" />
@@ -57483,12 +57483,12 @@ servern till localhost. Lokala och fjärrportar bestäms automatiskt.</translati
         <message>
             <location line="+122" />
             <source>No signal operation recipe is available for this device.</source>
-            <translation>Inget signalrecept för denna enhet finns tillgängligt.</translation>
+            <translation>Ingen åtgärdsregel för signaler finns tillgänglig för enheten.</translation>
         </message>
         <message>
             <location line="+179" />
             <source>Ready to use</source>
-            <translation>Redo att användas</translation>
+            <translation>Klar att använda</translation>
         </message>
         <message>
             <location line="+1" />
@@ -57513,17 +57513,17 @@ servern till localhost. Lokala och fjärrportar bestäms automatiskt.</translati
         <message>
             <location line="+6" />
             <source>Source and Build Tools on This Device</source>
-            <translation>Källa och bygg verktyg på enheten</translation>
+            <translation>Käll- och byggverktyg på enheten</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Auto-Detection</source>
-            <translation>Automatisk upptäckt</translation>
+            <translation>Automatisk identifiering</translation>
         </message>
         <message>
             <location line="+59" />
             <source>localSource() not implemented for this device type.</source>
-            <translation>localSource() är inte implementerat för denna enhetstypen.</translation>
+            <translation>localSource() är inte implementerat för den här enhetstypen.</translation>
         </message>
         <message>
             <location line="+19" />
@@ -57533,7 +57533,7 @@ servern till localhost. Lokala och fjärrportar bestäms automatiskt.</translati
         <message>
             <location line="+5" />
             <source>No valid PID specified for SignalOperationData.</source>
-            <translation>Inget giltigt PID specificerat för SignalOperationData.</translation>
+            <translation>Inget giltigt PID har angetts för SignalOperationData.</translation>
         </message>
         <message>
             <source>No device for given path: "%1".</source>
@@ -57553,7 +57553,7 @@ servern till localhost. Lokala och fjärrportar bestäms automatiskt.</translati
         <message>
             <location filename="../../../src/plugins/projectexplorer/task.cpp" line="+123" />
             <source>%1 needs a compiler set up to build. Configure a compiler in the kit options.</source>
-            <translation>%1 behöver en konfigurerad kompilator för att byggas. Konfigurera en kompilator i kit-alternativen.</translation>
+            <translation>%1 behöver en konfigurerad kompilator för att byggas. Konfigurera en kompilator i kitinställningarna.</translation>
         </message>
         <message>
             <location line="+196" />
@@ -57573,7 +57573,7 @@ servern till localhost. Lokala och fjärrportar bestäms automatiskt.</translati
         <message>
             <location line="+18" />
             <source>Sys Root "%1" does not exist in the file system.</source>
-            <translation>Sys Root "%1" finns inte på filsystemet.</translation>
+            <translation>Sysroot "%1" finns inte i filsystemet.</translation>
         </message>
         <message>
             <location line="+3" />
