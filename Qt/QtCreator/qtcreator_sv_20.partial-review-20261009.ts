@@ -12851,12 +12851,12 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+6" />
             <source>Run Tests for &amp;Current File</source>
-            <translation>Kör tester för a&amp;ktuell fil</translation>
+            <translation>Kör tester för &amp;aktuell fil</translation>
         </message>
         <message>
             <location line="+344" />
             <source>Run Test Under Cursor</source>
-            <translation>Kör test under markör</translation>
+            <translation>Kör testet under markören</translation>
         </message>
         <message>
             <location line="+6" />
@@ -12876,7 +12876,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+7" />
             <source>Debug Test Without Deployment</source>
-            <translation>Felsökningstest utan distribution</translation>
+            <translation>Felsök test utan distribution</translation>
         </message>
         <message>
             <location line="-414" />
@@ -12916,17 +12916,17 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+6" />
             <source>Disable Temporarily</source>
-            <translation>Inaktivera temporärt</translation>
+            <translation>Inaktivera tillfälligt</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Disable scanning and other actions until explicitly rescanning, re-enabling, or restarting Qt Creator.</source>
-            <translation>Inaktivera skanning och andra åtgärder tills uttryckligen omscanna, återaktivera, eller starta Qt Creator.</translation>
+            <translation>Inaktivera skanning och andra åtgärder tills du skannar om, återaktiverar eller startar om Qt Creator.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Re&amp;scan Tests</source>
-            <translation>Sök i&amp;genom tester igen</translation>
+            <translation>Skanna &amp;om tester</translation>
         </message>
         <message>
             <location line="+1" />
@@ -12946,7 +12946,7 @@ Ange egenskapen ”%2” manuellt.</translation>
         <message>
             <location line="+7" />
             <source>Selected test was not found (%1).</source>
-            <translation>Valt test hittades inte (%1).</translation>
+            <translation>Det markerade testet hittades inte (%1).</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/boost/boosttestconstants.h" line="+13" />
@@ -12957,18 +12957,18 @@ Ange egenskapen ”%2” manuellt.</translation>
             <location filename="../../../src/plugins/autotest/boost/boosttestoutputreader.cpp" line="+129" />
             <location filename="../../../src/plugins/autotest/qtest/qttestoutputreader.cpp" line="+503" />
             <source>Executing test case %1</source>
-            <translation>Kör testfall %1</translation>
+            <translation>Kör testfallet %1</translation>
         </message>
         <message>
             <location line="+7" />
             <location filename="../../../src/plugins/autotest/gtest/gtestoutputreader.cpp" line="+93" />
             <source>Executing test suite %1</source>
-            <translation>Kör testsvit %1</translation>
+            <translation>Kör testsviten %1</translation>
         </message>
         <message>
             <location line="+101" />
             <source>Executing test module %1</source>
-            <translation>Kör testmodul %1</translation>
+            <translation>Kör testmodulen %1</translation>
         </message>
         <message>
             <location line="-93" />
@@ -12999,7 +12999,7 @@ Ange egenskapen ”%2” manuellt.</translation>
             <location line="+3" />
             <location line="+18" />
             <source>%1 tests passed.</source>
-            <translation>%1 tester lyckades.</translation>
+            <translation>%1 tester godkändes.</translation>
         </message>
         <message>
             <location line="-2" />
@@ -13012,7 +13012,7 @@ Ange egenskapen ”%2” manuellt.</translation>
             <location line="+5" />
             <location line="+4" />
             <source>Running tests exited with %1.</source>
-            <translation>Körproven avslutades med %1.</translation>
+            <translation>Testkörningen avslutades med %1.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -13024,9 +13024,9 @@ Ange egenskapen ”%2” manuellt.</translation>
             <source>Running tests failed.
 %1
 Executable: %2</source>
-            <translation>Körprov
-misslyckades. %1
-körbar: %2</translation>
+            <translation>Testkörningen misslyckades.
+%1
+Körbar fil: %2</translation>
         </message>
         <message>
             <location line="+9" />
