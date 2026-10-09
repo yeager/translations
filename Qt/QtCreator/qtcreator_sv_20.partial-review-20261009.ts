@@ -76839,7 +76839,7 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+95" />
             <source>The default suffix if you do not explicitly specify a file extension is ".%1".</source>
-            <translation>Standardfiländelsen om du inte uttryckligen anger en filändelse är "%1".</translation>
+            <translation>Standardfiländelsen om du inte uttryckligen anger en filändelse är ”.%1”.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/pathlisteditor.cpp" line="+106" />
@@ -76879,7 +76879,7 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+94" />
             <source>Chosen project wizard does not support the build system.</source>
-            <translation>Vald projektguide har inte stöds för byggsystemet.</translation>
+            <translation>Den valda projektguiden stöder inte byggsystemet.</translation>
         </message>
         <message>
             <location line="+25" />
@@ -76894,7 +76894,7 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+8" />
             <source>Invalid character ".".</source>
-            <translation>Ogiltigt tecken ".".</translation>
+            <translation>Ogiltigt tecken ”.”.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -76919,7 +76919,7 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="-16" />
             <source>Introduction and Project Location</source>
-            <translation>Intriduktion och projektplats</translation>
+            <translation>Introduktion och projektplats</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/filewizardpage.cpp" line="-107" />
@@ -76939,7 +76939,7 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location filename="../../../src/libs/utils/fancymainwindow.cpp" line="+291" />
             <source>Central Widget</source>
-            <translation>Central widget</translation>
+            <translation>Central komponent</translation>
         </message>
         <message>
             <location line="+2" />
@@ -76955,7 +76955,7 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location filename="../../../src/libs/utils/fancylineedit.cpp" line="+454" />
             <source>Filter</source>
-            <translation>Filtrera</translation>
+            <translation>Filter</translation>
         </message>
         <message>
             <location line="+1" />
@@ -76965,12 +76965,12 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location filename="../../../src/libs/utils/reloadpromptutils.cpp" line="+4" />
             <source>The unsaved file &lt;i&gt;%1&lt;/i&gt; has been changed on disk. Do you want to reload it and discard your changes?</source>
-            <translation>Osparade filen &lt;i&gt;%1&lt;/i&gt; har ändrats på disk. Vill du läsa in den igen och förkasta dina ändringar?</translation>
+            <translation>Den osparade filen &lt;i&gt;%1&lt;/i&gt; har ändrats på disken. Vill du läsa in den igen och kasta dina ändringar?</translation>
         </message>
         <message>
             <location line="+3" />
             <source>The file &lt;i&gt;%1&lt;/i&gt; has been changed on disk. Do you want to reload it?</source>
-            <translation>Filen &lt;i&gt;%1&lt;/i&gt; har ändrats på disk. Vill du läsa in den igen?</translation>
+            <translation>Filen &lt;i&gt;%1&lt;/i&gt; har ändrats på disken. Vill du läsa in den igen?</translation>
         </message>
         <message>
             <location line="+4" />
@@ -76992,7 +76992,7 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="-30" />
             <source>No to All &amp;&amp; &amp;Diff</source>
-            <translation>Nej till alla &amp; &amp; &amp;Diff</translation>
+            <translation>Nej till alla &amp;&amp; &amp;Jämför</translation>
         </message>
         <message>
             <location line="+24" />
@@ -77042,12 +77042,12 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location filename="../../../src/libs/utils/qtcprocess.cpp" line="+309" />
             <source>The program "%1" does not exist or is not executable.</source>
-            <translation>Programmet "%1" finns inte eller är inte körbart.</translation>
+            <translation>Programmet ”%1” finns inte eller är inte körbart.</translation>
         </message>
         <message>
             <location line="+52" />
             <source>The program "%1" could not be found.</source>
-            <translation>Programmet "%1" kunde inte hittas.</translation>
+            <translation>Programmet ”%1” kunde inte hittas.</translation>
         </message>
         <message>
             <location line="+806" />
@@ -77057,7 +77057,7 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+19" />
             <source>Failed to create process interface for "%1".</source>
-            <translation>Misslyckades med att skapa processgränssnitt för "%1".</translation>
+            <translation>Det gick inte att skapa processgränssnittet för ”%1”.</translation>
         </message>
         <message>
             <location line="+179" />
@@ -77077,17 +77077,17 @@ Tryck på Retur för att stänga fönstret …</translation>
         <message>
             <location line="+3" />
             <source>Terminate the process?</source>
-            <translation>Terminera processen?</translation>
+            <translation>Avsluta processen?</translation>
         </message>
         <message>
             <location line="+238" />
             <source>The command "%1" finished successfully.</source>
-            <translation>Kommandot "%1" färdigställdes utan problem.</translation>
+            <translation>Kommandot ”%1” slutfördes utan fel.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The command "%1" terminated with exit code %2.</source>
-            <translation>Kommandot "%1" avslutades med avslutskod %2.</translation>
+            <translation>Kommandot ”%1” avslutades med avslutskoden %2.</translation>
         </message>
         <message>
             <location line="+2" />
