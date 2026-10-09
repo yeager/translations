@@ -81126,7 +81126,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
             <location filename="../../../src/libs/modelinglib/qmt/model_widgets_ui/propertiesviewmview.cpp" line="+642" />
             <location line="+545" />
             <source>Inheritance</source>
-            <translation>Arvsrätt</translation>
+            <translation>Arv</translation>
         </message>
         <message>
             <location line="+4" />
@@ -81135,7 +81135,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
             <location line="+65" />
             <location line="+428" />
             <source>Association</source>
-            <translation>Förening</translation>
+            <translation>Association</translation>
         </message>
         <message>
             <location filename="../../../src/libs/modelinglib/qmt/diagram_scene/items/objectitem.cpp" line="-264" />
@@ -81183,7 +81183,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+2" />
             <source>Align Top</source>
-            <translation>Justera överst</translation>
+            <translation>Justera överkant</translation>
         </message>
         <message>
             <location line="-4" />
@@ -81199,7 +81199,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+20" />
             <source>Align Bottom</source>
-            <translation>Justera nederst</translation>
+            <translation>Justera underkant</translation>
         </message>
         <message>
             <location line="+2" />
@@ -81264,7 +81264,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location filename="../../../src/libs/modelinglib/qmt/infrastructure/exceptions.cpp" line="+16" />
             <source>Unacceptable null object.</source>
-            <translation>Oacceptabelt nollobjekt.</translation>
+            <translation>Otillåtet nullobjekt.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/modelinglib/qmt/infrastructure/ioexceptions.cpp" line="+27" />
@@ -81335,7 +81335,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location filename="../../../src/libs/modelinglib/qmt/model_ui/treemodel.cpp" line="+786" />
             <source>[unnamed]</source>
-            <translation>[ingetnamn]</translation>
+            <translation>[namnlös]</translation>
         </message>
         <message>
             <location filename="../../../src/libs/modelinglib/qmt/model_widgets_ui/modeltreefilter.cpp" line="+40" />
