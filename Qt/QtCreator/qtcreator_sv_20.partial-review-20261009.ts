@@ -82217,8 +82217,8 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <source>Sets the width and height of the view.
 This is used for calculating the total implicit size.</source>
-            <translation>Ställer in bredd och höjd för vyn.
-Detta används för att beräkna total implicit storlek.</translation>
+            <translation>Anger vyens bredd och höjd.
+Detta används för att beräkna den sammanlagda implicita storleken.</translation>
         </message>
         <message>
             <source>W</source>
@@ -82228,7 +82228,7 @@ Detta används för att beräkna total implicit storlek.</translation>
         </message>
         <message>
             <source>Content width used for calculating the total implicit width.</source>
-            <translation>Innehållsbredd som används för beräkning av total implicit bredd.</translation>
+            <translation>Innehållsbredd som används för att beräkna den sammanlagda implicita bredden.</translation>
         </message>
         <message>
             <source>H</source>
@@ -82238,7 +82238,7 @@ Detta används för att beräkna total implicit storlek.</translation>
         </message>
         <message>
             <source>Content height used for calculating the total implicit height.</source>
-            <translation>Innehållshöjd som används för beräkning av total implicit höjd.</translation>
+            <translation>Innehållshöjd som används för att beräkna den sammanlagda implicita höjden.</translation>
         </message>
         <message>
             <source>Font</source>
@@ -82256,7 +82256,7 @@ Detta används för att beräkna total implicit storlek.</translation>
         <name>Section</name>
         <message>
             <source>Expand All</source>
-            <translation>Expandera alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <source>Collapse All</source>
@@ -82300,7 +82300,7 @@ Detta används för att beräkna total implicit storlek.</translation>
         </message>
         <message>
             <source>Toggle between always showing the camera frustum visualization and only showing it when the camera is selected.</source>
-            <translation>Växla mellan att alltid visa visualisering av kamerafrustum och alltid visa den när kameran väljs.</translation>
+            <translation>Växla mellan att alltid visa kamerafrustumvisualiseringen och att bara visa den när kameran är markerad.</translation>
         </message>
     </context>
     <context>
@@ -82318,22 +82318,22 @@ Detta används för att beräkna total implicit storlek.</translation>
         <name>ShowIconGizmoAction</name>
         <message>
             <source>Show Icon Gizmos</source>
-            <translation>Visa ikongizmos</translation>
+            <translation>Visa ikongizmon</translation>
         </message>
         <message>
             <source>Toggle the visibility of icon gizmos, such as light and camera icons.</source>
-            <translation>Växla synligheten för ikongizmos, såsom ljus- och kameraikoner.</translation>
+            <translation>Växla synligheten för ikongizmon, till exempel lamp- och kameraikoner.</translation>
         </message>
     </context>
     <context>
         <name>ShowLookAtAction</name>
         <message>
             <source>Show Look-at</source>
-            <translation>Visa Titta på</translation>
+            <translation>Visa blickpunkt</translation>
         </message>
         <message>
             <source>Toggle the visibility of the edit camera look-at indicator.</source>
-            <translation>Växla synligheten för redigeringskamerans titta-på-indikator.</translation>
+            <translation>Växla synligheten för redigeringskamerans blickpunktsindikator.</translation>
         </message>
     </context>
     <context>
@@ -82351,7 +82351,7 @@ Detta används för att beräkna total implicit storlek.</translation>
         <name>SliderSpecifics</name>
         <message>
             <source>Slider</source>
-            <translation>Draglist</translation>
+            <translation>Skjutreglage</translation>
         </message>
         <message>
             <source>Value</source>
@@ -82359,7 +82359,7 @@ Detta används för att beräkna total implicit storlek.</translation>
         </message>
         <message>
             <source>The current value of the slider.</source>
-            <translation>Aktuellt värde för draglisten.</translation>
+            <translation>Skjutreglagets aktuella värde.</translation>
         </message>
         <message>
             <source>From</source>
@@ -82367,7 +82367,7 @@ Detta används för att beräkna total implicit storlek.</translation>
         </message>
         <message>
             <source>The starting value of the slider range.</source>
-            <translation>Startvärde för draglistens intervall.</translation>
+            <translation>Startvärdet för skjutreglagets intervall.</translation>
         </message>
         <message>
             <source>To</source>
@@ -82379,7 +82379,7 @@ Detta används för att beräkna total implicit storlek.</translation>
         </message>
         <message>
             <source>The step size of the slider.</source>
-            <translation>Stegstorleken för draglisten.</translation>
+            <translation>Skjutreglagets steglängd.</translation>
         </message>
         <message>
             <source>Orientation</source>
@@ -82387,11 +82387,11 @@ Detta används för att beräkna total implicit storlek.</translation>
         </message>
         <message>
             <source>The orientation of the slider.</source>
-            <translation>Orientering för draglisten.</translation>
+            <translation>Skjutreglagets orientering.</translation>
         </message>
         <message>
             <source>Current value of the Slider. The default value is 0.0.</source>
-            <translation>Aktuellt värde för draglisten. Standardvärdet är 0.0.</translation>
+            <translation>Skjutreglagets aktuella värde. Standardvärdet är 0,0.</translation>
         </message>
         <message>
             <source>Maximum value</source>
@@ -82399,7 +82399,7 @@ Detta används för att beräkna total implicit storlek.</translation>
         </message>
         <message>
             <source>Maximum value of the slider. The default value is 1.0.</source>
-            <translation>Maximalt värde för draglisten. Standardvärdet är 1.0.</translation>
+            <translation>Skjutreglagets högsta värde. Standardvärdet är 1,0.</translation>
         </message>
         <message>
             <source>Minimum value</source>
@@ -82407,19 +82407,19 @@ Detta används för att beräkna total implicit storlek.</translation>
         </message>
         <message>
             <source>Minimum value of the slider. The default value is 0.0.</source>
-            <translation>Minimalt värde för draglisten. Standardvärdet är 1.0.</translation>
+            <translation>Skjutreglagets lägsta värde. Standardvärdet är 0,0.</translation>
         </message>
         <message>
             <source>Indicates the slider step size.</source>
-            <translation>Indikerar draglistens stegstorlek.</translation>
+            <translation>Anger skjutreglagets steglängd.</translation>
         </message>
         <message>
             <source>Active focus on press</source>
-            <translation>Aktivera fokus vid tryck</translation>
+            <translation>Aktivt fokus vid tryck</translation>
         </message>
         <message>
             <source>Indicates whether the slider should receive active focus when pressed.</source>
-            <translation>Indikerar huruvida draglisten ska ta emot aktivt fokus när tryckt.</translation>
+            <translation>Anger om skjutreglaget ska få aktivt fokus när det trycks ned.</translation>
         </message>
         <message>
             <source>Update value while dragging</source>
