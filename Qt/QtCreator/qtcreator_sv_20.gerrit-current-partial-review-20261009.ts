@@ -11669,7 +11669,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Alpha Cutoff</source>
-        <translation>Alfagräns</translation>
+        <translation>Alfagränsvärde</translation>
     </message>
     <message>
         <source>Sets the cutoff value when using the Mask alphaMode.</source>
@@ -11701,7 +11701,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Map</source>
-        <translation>Karta</translation>
+        <translation>Texturkarta</translation>
     </message>
     <message>
         <source>Sets a texture used to set the base color of the material.</source>
@@ -11829,7 +11829,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Min Map Samples</source>
-        <translation>Min. kartprover</translation>
+        <translation>Minsta antal kartprover</translation>
     </message>
     <message>
         <source>Sets the minimum number of samples used for performing Parallex Occlusion Mapping using the heightMap.</source>
@@ -11837,7 +11837,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Max Map Samples</source>
-        <translation>Max. kartprover</translation>
+        <translation>Största antal kartprover</translation>
     </message>
     <message>
         <source>Sets the maximum number of samples used for performing Parallex Occlusion Mapping using the heightMap.</source>
