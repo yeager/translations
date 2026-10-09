@@ -2942,7 +2942,7 @@ Det ska vara en relativ sökväg.</translation>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
@@ -4333,7 +4333,7 @@ Ett värde på 0 omsluter inte ljuset alls, medan ett värde på 1 omsluter ljus
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
@@ -6820,7 +6820,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
