@@ -82464,7 +82464,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         <name>SpatialSoundSection</name>
         <message>
             <source>Spatial Sound</source>
-            <translation>Spatialt ljud</translation>
+            <translation>Rumsligt ljud</translation>
         </message>
         <message>
             <source>Source</source>
@@ -82495,19 +82495,19 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Sets the current value of the spin box.</source>
-            <translation>Ställer in aktuellt värde för snurrutan.</translation>
+            <translation>Anger snurrutans aktuella värde.</translation>
         </message>
         <message>
             <source>Sets the lowest value of the spin box range.</source>
-            <translation>Ställer in lägsta värdet för snurrutans intervall.</translation>
+            <translation>Anger det lägsta värdet i snurrutans intervall.</translation>
         </message>
         <message>
             <source>Sets the highest value of the spin box range.</source>
-            <translation>Ställer in högsta värdet för snurrutans intervall.</translation>
+            <translation>Anger det högsta värdet i snurrutans intervall.</translation>
         </message>
         <message>
             <source>Sets the number by which the spin box value changes.</source>
-            <translation>Ställer in antalet med vilket snurrutans värde ändras.</translation>
+            <translation>Anger steglängden för snurrutans värde.</translation>
         </message>
         <message>
             <source>Toggles if the spin box is editable.</source>
@@ -82542,7 +82542,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Orientation of the split view.</source>
-            <translation>Orientering för delad vy.</translation>
+            <translation>Orienteringen för den delade vyn.</translation>
         </message>
     </context>
     <context>
@@ -82578,11 +82578,11 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Max line count</source>
-            <translation>Max radantal</translation>
+            <translation>Maximalt radantal</translation>
         </message>
         <message>
             <source>Sets the max number of lines that the text component shows.</source>
-            <translation>Anger max antal rader som textkomponenten visar.</translation>
+            <translation>Anger det högsta antal rader som textkomponenten visar.</translation>
         </message>
         <message>
             <source>Sets how the font size is determined.</source>
@@ -82590,11 +82590,11 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Alignment H</source>
-            <translation>Justering H</translation>
+            <translation>Horisontell justering</translation>
         </message>
         <message>
             <source>Alignment V</source>
-            <translation>Justering V</translation>
+            <translation>Vertikal justering</translation>
         </message>
         <message>
             <source>Format</source>
@@ -82653,7 +82653,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Reset when Condition</source>
-            <translation>Nollställ när villkor</translation>
+            <translation>Återställ vid villkor</translation>
         </message>
         <message>
             <source>Edit Annotation</source>
@@ -82696,7 +82696,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>The state that this state extends.</source>
-            <translation>Tillståndet som detta tillstånd utökar.</translation>
+            <translation>Tillståndet som detta tillstånd bygger vidare på.</translation>
         </message>
     </context>
     <context>
@@ -82707,7 +82707,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Set State as default</source>
-            <translation>Ställ in tillstånd som standard</translation>
+            <translation>Ange tillstånd som standard</translation>
         </message>
         <message>
             <source>State Name</source>
@@ -82735,14 +82735,14 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>When Condition</source>
-            <translation>När villkor</translation>
+            <translation>Villkor för när</translation>
         </message>
     </context>
     <context>
         <name>StatementEditor</name>
         <message>
             <source>Item</source>
-            <translation>Post</translation>
+            <translation>Objekt</translation>
         </message>
         <message>
             <source>Method</source>
@@ -82781,11 +82781,11 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         <name>StudioWelcome::Internal::ProjectModel</name>
         <message>
             <source>Created with Qt Design Studio version: %1</source>
-            <translation>Skapad med Qt Design Studio version: %1</translation>
+            <translation>Skapad med Qt Design Studio version %1</translation>
         </message>
         <message>
             <source>Resolution: %1x%2</source>
-            <translation>Upplösning: %1x%2</translation>
+            <translation>Upplösning: %1×%2</translation>
         </message>
         <message>
             <source>Created: %1</source>
