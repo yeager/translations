@@ -63802,12 +63802,12 @@ Mer information finns i dokumentationen ”Checking Code Syntax”.</translation
         <message>
             <location line="+2" />
             <source>States are only supported in the root item in a UI file (.ui.qml).</source>
-            <translation>Stater stöds bara i rotobjektet i en UI-fil (.ui.qml).</translation>
+            <translation>Tillstånd stöds bara i rotobjektet i en UI-fil (.ui.qml).</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Referencing the parent of the root item is not supported in a UI file (.ui.qml).</source>
-            <translation>Instruktioner för huvudalternativet för rotobjektet stöds inte i en UI-fil (.ui.qml).</translation>
+            <translation>Det går inte att referera till rotobjektets förälder i en UI-fil (.ui.qml).</translation>
         </message>
         <message>
             <location line="+3" />
@@ -63817,52 +63817,52 @@ Mer information finns i dokumentationen ”Checking Code Syntax”.</translation
         <message>
             <location line="+2" />
             <source>A State cannot have a child item (%1).</source>
-            <translation>stat kan inte ha en barnpost (%1).</translation>
+            <translation>Ett State kan inte ha ett underordnat objekt (%1).</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Duplicate import (%1).</source>
-            <translation>Duplicera import (%1).</translation>
+            <translation>Dubblettimport (%1).</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Hit maximum recursion limit when visiting AST.</source>
-            <translation>Träffa maximal rekursion gräns när du besöker AST.</translation>
+            <translation>Den högsta rekursionsgränsen uppnåddes vid genomgång av AST.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Type cannot be instantiated recursively (%1).</source>
-            <translation>Typen kan inte inhaleras rekursivt (%1).</translation>
+            <translation>Typen kan inte instansieras rekursivt (%1).</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Components are only allowed to have a single child element.</source>
-            <translation>Komponenter får endast ha ett enda barnelement.</translation>
+            <translation>Komponenter får bara ha ett enda underordnat element.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Components require a child element.</source>
-            <translation>Komponenter kräver ett barnelement.</translation>
+            <translation>Komponenter måste ha ett underordnat element.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Do not reference the root item as alias.</source>
-            <translation>Ange inte rotobjektet som alias.</translation>
+            <translation>Referera inte till rotobjektet som alias.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Avoid referencing the root item in a hierarchy.</source>
-            <translation>Undvik att hänvisa rotobjektet i en hierarki.</translation>
+            <translation>Undvik att referera till rotobjektet i en hierarki.</translation>
         </message>
         <message>
             <location line="-86" />
             <source>Calls of functions that start with an uppercase letter should use 'new'.</source>
-            <translation>Anrop av funktioner som börjar med en stor bokstav bör använda "ny".</translation>
+            <translation>Anrop av funktioner som börjar med stor bokstav ska använda 'new'.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Use 'new' only with functions that start with an uppercase letter.</source>
-            <translation>Använd "nytt" endast med funktioner som börjar med en stor bokstav.</translation>
+            <translation>Använd bara 'new' med funktioner som börjar med stor bokstav.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -63872,47 +63872,47 @@ Mer information finns i dokumentationen ”Checking Code Syntax”.</translation
         <message>
             <location line="+2" />
             <source>Unintentional empty block, use ({}) for empty object literal.</source>
-            <translation>Oavsiktligt tomt block, använd ( {}) för tomt objekt bokstavligt.</translation>
+            <translation>Oavsiktligt tomt block. Använd ({}) för en tom objektliteral.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Use %1 instead of 'var' or 'variant' to improve performance.</source>
-            <translation>Använd %1 istället för "var" eller "variant" för att förbättra prestandan.</translation>
+            <translation>Använd %1 i stället för 'var' eller 'variant' för bättre prestanda.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Object value expected.</source>
-            <translation>Objektvärde förväntades.</translation>
+            <translation>Förväntade ett objektvärde.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Array value expected.</source>
-            <translation>- Arrayvärde förväntas.</translation>
+            <translation>Förväntade ett matrisvärde.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>%1 value expected.</source>
-            <translation>%1 värde förväntades.</translation>
+            <translation>Förväntade ett %1-värde.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Maximum number value is %1.</source>
-            <translation>Maximalt nummervärde är %1.</translation>
+            <translation>Högsta talvärde är %1.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Minimum number value is %1.</source>
-            <translation>Minimalt nummervärde är %1.</translation>
+            <translation>Lägsta talvärde är %1.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Maximum number value is exclusive.</source>
-            <translation>Maximalt talvärde är exklusivt.</translation>
+            <translation>Högsta talvärde är exklusivt.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Minimum number value is exclusive.</source>
-            <translation>Minsta talvärde är exklusivt.</translation>
+            <translation>Lägsta talvärde är exklusivt.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -63952,17 +63952,17 @@ For qmlproject projects, use the importPaths property to add import paths.
 For CMake projects, make sure QML_IMPORT_PATH variable is in CMakeCache.txt.
 For qmlRegister... calls, make sure that you define the Module URI as a string literal.
 </source>
-            <translation>QML modul hittades inte (%1). Importvägar:
-%2 För qvake-projekt, använd
-QML_IMPORT_PATH variabeln för att lägga
-till importvägar. För Qbs-projekt,
-deklarera och ange en m2lImportPaths
-egenskap i din produkt för att lägga till
-importvägar. För m2kprojektprojektprojekt,
-använd egenskapen importPaths
-för att lägga till importvägar. För
-CMake-projekt, se till att QML_IMPORT_PATH
-variabeln finns i CMakeC</translation>
+            <translation>QML-modulen hittades inte (%1).
+
+Importsökvägar:
+%2
+
+För qmake-projekt använder du variabeln QML_IMPORT_PATH för att lägga till importsökvägar.
+För Qbs-projekt deklarerar och anger du egenskapen qmlImportPaths i produkten för att lägga till importsökvägar.
+För qmlproject-projekt använder du egenskapen importPaths för att lägga till importsökvägar.
+För CMake-projekt kontrollerar du att variabeln QML_IMPORT_PATH finns i CMakeCache.txt.
+För qmlRegister...-anrop kontrollerar du att modulens URI definieras som en strängliteral.
+</translation>
         </message>
         <message>
             <location line="+76" />
@@ -63976,21 +63976,21 @@ For Qbs projects, declare and set a qmlImportPaths property in your product to a
 For qmlproject projects, use the importPaths property to add import paths.
 For CMake projects, make sure QML_IMPORT_PATH variable is in CMakeCache.txt.
 </source>
-            <translation>Implicit import '%1' av QML modulen '%2'
-hittades inte. Importvägar: %3 För
-qvake-projekt, använd QML_IMPORT_PATH
-variabeln för att lägga till importvägar.
-För Qbs-projekt, deklarera och ange en
-m2ImportPaths egenskap i din produkt för
-att lägga till importvägar. För
-qmlprojektprojekt, använd egenskapen importPaths
-för att lägga till importvägar. För
-CMake-projekt, se till att QML_</translation>
+            <translation>Den implicita importen '%1' av QML-modulen '%2' hittades inte.
+
+Importsökvägar:
+%3
+
+För qmake-projekt använder du variabeln QML_IMPORT_PATH för att lägga till importsökvägar.
+För Qbs-projekt deklarerar och anger du egenskapen qmlImportPaths i produkten för att lägga till importsökvägar.
+För qmlproject-projekt använder du egenskapen importPaths för att lägga till importsökvägar.
+För CMake-projekt kontrollerar du att variabeln QML_IMPORT_PATH finns i CMakeCache.txt.
+</translation>
         </message>
         <message>
             <location line="+40" />
             <source>QML module contains C++ plugins, currently reading type information... %1</source>
-            <translation>QML modulen innehåller C++ plugins, för närvarande läser typ information… %1</translation>
+            <translation>QML-modulen innehåller C++-insticksprogram. Läser typinformation … %1</translation>
         </message>
         <message>
             <location filename="../../../src/libs/qmljs/qmljsmodelmanagerinterface.cpp" line="+388" />
@@ -64008,19 +64008,19 @@ CMake-projekt, se till att QML_</translation>
 
 Module path: %1
 See "Using QML Modules with Plugins" in the documentation.</source>
-            <translation>QML- modulen innehåller inte information
-om komponenter som finns i insticksprogram.
-Modulsökväg: %1 Se "Använda QML- moduler
-med insticksprogram" i dokumentationen.</translation>
+            <translation>QML-modulen innehåller ingen information om komponenter i insticksprogram.
+
+Modulsökväg: %1
+Se ”Using QML Modules with Plugins” i dokumentationen.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Automatic type dump of QML module failed.
 Errors:
 %1</source>
-            <translation>Automatisk typdumpning
-av QML- modulen
-misslyckades. Fel: %1</translation>
+            <translation>Automatisk typdumpning av QML-modulen misslyckades.
+Fel:
+%1</translation>
         </message>
         <message>
             <location line="+8" />
@@ -64029,43 +64029,43 @@ First 10 lines or errors:
 
 %1
 Check General Messages for details.</source>
-            <translation>Automatisk typ dump för QML-
-modulen misslyckades. De
-första 10 raderna eller felen:
-%1 Kontrollera Allmänna
-meddelanden för detaljer.</translation>
+            <translation>Automatisk typdumpning av QML-modulen misslyckades.
+De första 10 raderna med fel:
+
+%1
+Se Allmänna meddelanden för detaljer.</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Warnings while parsing QML type information of %1:
 %2</source>
-            <translation>Varningar vid tolkning av QML-
-typinformation för %1: %2</translation>
+            <translation>Varningar vid tolkning av QML-typinformationen för %1:
+%2</translation>
         </message>
         <message>
             <location line="+10" />
             <source>"%1" failed to start: %2</source>
-            <translation>"%1" misslyckades att starta: %2</translation>
+            <translation>Kunde inte starta ”%1”: %2</translation>
         </message>
         <message>
             <location line="+3" />
             <source>"%1" crashed.</source>
-            <translation>"%1" kraschade.</translation>
+            <translation>”%1” kraschade.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>"%1" timed out.</source>
-            <translation>"%1" tidsgräns överstegs.</translation>
+            <translation>Tidsgränsen överskreds för ”%1”.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>I/O error running "%1".</source>
-            <translation>I/O-fel som kör "%1".</translation>
+            <translation>I/O-fel vid körning av ”%1”.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>"%1" returned exit code %2.</source>
-            <translation>"%1" returnerade avslutskod %2.</translation>
+            <translation>”%1” returnerade avslutskoden %2.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -64076,7 +64076,7 @@ typinformation för %1: %2</translation>
             <location line="+45" />
             <source>Failed to parse "%1".
 Error: %2</source>
-            <translation>Misslyckades med att tolka "%1".
+            <translation>Kunde inte tolka ”%1”.
 Fel: %2</translation>
         </message>
         <message>
@@ -64088,8 +64088,8 @@ Fel: %2</translation>
             <location line="+234" />
             <source>Could not locate the helper application for dumping type information from C++ plugins.
 Please build the qmldump application on the Qt version options page.</source>
-            <translation>Kunde inte hitta hjälpprogrammet för information om dumpningstyp från C++-
-insticksprogram. Bygg qmldump- programmet på sidan med alternativ för Qt- version.</translation>
+            <translation>Kunde inte hitta hjälpprogrammet för att dumpa typinformation från C++-insticksprogram.
+Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/qrcparser.cpp" line="+370" />
