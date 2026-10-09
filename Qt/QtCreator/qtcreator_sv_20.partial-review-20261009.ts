@@ -68662,7 +68662,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+62" />
             <source>Transfer method was downgraded from "%1" to "%2". If this is unexpected, please re-test device "%3".</source>
-            <translation>Överföringsmetoden nergraderades från "%1" till "%2". Om detta är oväntat, testa enheten "%3" igen.</translation>
+            <translation>Överföringsmetoden sänktes från ”%1” till ”%2”. Om detta är oväntat testar du enheten ”%3” igen.</translation>
         </message>
         <message>
             <location line="+17" />
@@ -68692,7 +68692,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+6" />
             <source>Use rsync or sftp if available, but prefer rsync. Otherwise use default transfer.</source>
-            <translation>Använd rsync eller sftp om möjligt men föredra rsync. Använd annars standardöverföring.</translation>
+            <translation>Använd rsync eller sftp om de är tillgängliga, men föredra rsync. Använd annars standardöverföringen.</translation>
         </message>
         <message>
             <source>rsync is only supported for transfers between different devices.</source>
@@ -68736,7 +68736,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+2" />
             <source>Public key file:</source>
-            <translation>Publik nyckelfil:</translation>
+            <translation>Fil med offentlig nyckel:</translation>
         </message>
         <message>
             <location line="+39" />
@@ -68746,7 +68746,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+4" />
             <source>Refusing to overwrite existing private key file "%1".</source>
-            <translation>Vägrar att skriva över befintliga privata nyckelfilen "%1".</translation>
+            <translation>Vägrar att skriva över den befintliga filen med privat nyckel ”%1”.</translation>
         </message>
         <message>
             <location line="+13" />
@@ -68756,7 +68756,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+4" />
             <source>The ssh-keygen tool at "%1" failed: %2</source>
-            <translation>Verktyget ssh-keygen på "%1" misslyckades: %2</translation>
+            <translation>Verktyget ssh-keygen på ”%1” misslyckades: %2</translation>
         </message>
         <message>
             <location line="+9" />
@@ -68781,7 +68781,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+6" />
             <source>Device connected.</source>
-            <translation>heten ansluten.</translation>
+            <translation>Enheten är ansluten.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -68796,7 +68796,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location filename="../../../src/plugins/remotelinux/remotelinuxplugin.cpp" line="+39" />
             <source>Rsync executable:</source>
-            <translation>Körbar Rsync:</translation>
+            <translation>Körbar rsync-fil:</translation>
         </message>
     </context>
     <context>
