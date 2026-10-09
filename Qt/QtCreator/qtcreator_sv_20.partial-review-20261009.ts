@@ -57578,18 +57578,18 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+3" />
             <source>Sys Root "%1" is not a directory.</source>
-            <translation>Sys Root "%1" är inte en katalog.</translation>
+            <translation>Sysroot "%1" är inte en katalog.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Sys Root "%1" is empty.</source>
-            <translation>Sys Root "%1" är tom.</translation>
+            <translation>Sysroot "%1" är tom.</translation>
         </message>
         <message>
             <location line="+14" />
             <location line="+7" />
             <source>Sys Root</source>
-            <translation>Sys Root</translation>
+            <translation>Sysroot</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/toolchainkitaspect.cpp" line="+203" />
@@ -57601,7 +57601,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="-183" />
             <source>Compilers produce code for different ABIs: %1</source>
-            <translation>Compilers producerar kod för olika ABI: %1</translation>
+            <translation>Kompilatorer genererar kod för olika ABI:er: %1</translation>
         </message>
         <message>
             <location line="+168" />
@@ -57619,22 +57619,22 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+8" />
             <source>Compiler for different languages</source>
-            <translation>Kompilator för olika språk</translation>
+            <translation>Kompilatorer för olika språk</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Compiler executable for different languages</source>
-            <translation>Körbar kompilatorfil för andra språk</translation>
+            <translation>Körbara kompilatorfiler för olika språk</translation>
         </message>
         <message>
             <location line="+81" />
             <source>Found toolchain: %1.</source>
-            <translation>Hittade verktygskedja: %1.</translation>
+            <translation>Hittade en verktygskedja: %1.</translation>
         </message>
         <message>
             <location line="+25" />
             <source>Removing toolchain: %1.</source>
-            <translation>Ta bort verktygskedja: %1.</translation>
+            <translation>Tar bort verktygskedjan: %1.</translation>
         </message>
         <message>
             <location line="+11" />
@@ -57644,17 +57644,17 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+15" />
             <source>Expected a JSON object for toolchain detection, got: %1.</source>
-            <translation>Förväntade ett JSON-objekt för verktygskedja-detektion, fick: %1.</translation>
+            <translation>Förväntade ett JSON-objekt för identifiering av verktygskedja, fick: %1.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>No toolchains found in JSON object for detection.</source>
-            <translation>Inga verktygskedjor hittades i JSON- objekt för upptäckt.</translation>
+            <translation>Inga verktygskedjor hittades i JSON-objektet för identifiering.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Unknown language in toolchain detection: %1.</source>
-            <translation>Okänt språk i verktygskedja upptäckt: %1.</translation>
+            <translation>Okänt språk vid identifiering av verktygskedja: %1.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/devicesupport/devicekitaspects.cpp" line="-135" />
@@ -57675,7 +57675,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+2" />
             <source>Run device is incompatible with this kit.</source>
-            <translation>Kör enheten är inte kompatibel med detta kit.</translation>
+            <translation>Körenheten är inte kompatibel med det här kitet.</translation>
         </message>
         <message>
             <location line="+54" />
@@ -57700,12 +57700,12 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+5" />
             <source>Device name (%1)</source>
-            <translation>hetsnamn (%1)</translation>
+            <translation>Enhetsnamn (%1)</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Device root directory (%1)</source>
-            <translation>hetsrotkatalog (%1)</translation>
+            <translation>Enhetens rotkatalog (%1)</translation>
         </message>
         <message>
             <location line="+43" />
@@ -57720,7 +57720,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+59" />
             <source>Build device type</source>
-            <translation>Bygg enhetstyp</translation>
+            <translation>Byggenhetstyp</translation>
         </message>
         <message>
             <location line="+1" />
@@ -57742,7 +57742,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/devicesupport/sshparameters.cpp" line="+256" />
             <source>Enable to specify a private key file to use for authentication, otherwise the default mechanism is used for authentication (password, .sshconfig and the default private key).</source>
-            <translation>Aktivera för att ange en privat nyckelfil att använda för autentisering, annars används standardmekanismen för autentisering (lösenord, .sshconfig och standard privat nyckel).</translation>
+            <translation>Aktivera för att ange en privat nyckelfil för autentisering. Annars används standardmekanismen (lösenord, .sshconfig och standardnyckeln).</translation>
         </message>
         <message>
             <location line="+3" />
@@ -57752,7 +57752,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+2" />
             <source>The device's SSH host key checking mode.</source>
-            <translation>hetens SSH-värddatorkontrollläge.</translation>
+            <translation>Enhetens kontrolläge för SSH-värdnyckel.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -57762,7 +57762,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+2" />
             <source>No host key checking.</source>
-            <translation>Ingen värdnyckelkontroll.</translation>
+            <translation>Ingen kontroll av värdnyckel.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -57792,7 +57792,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+1" />
             <source>The device's host name or IP address.</source>
-            <translation>hetens värdnamn eller IP-adress.</translation>
+            <translation>Enhetens värdnamn eller IP-adress.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -57807,7 +57807,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+1" />
             <source>The device's SSH user name.</source>
-            <translation>hetens SSH-användarnamn.</translation>
+            <translation>Enhetens SSH-användarnamn.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -57817,12 +57817,12 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+4" />
             <source>The device's SSH port number.</source>
-            <translation>hetens SSH-portnummer.</translation>
+            <translation>Enhetens SSH-portnummer.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>SSH port:</source>
-            <translation>SSH- port:</translation>
+            <translation>SSH-port:</translation>
         </message>
         <message>
             <location line="+2" />
