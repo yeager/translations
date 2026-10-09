@@ -108,15 +108,15 @@
     </message>
     <message>
         <source>Sets a Node in the scene to be the scope of this light. Only that node and it&apos;s children are affected by this light.</source>
-        <translation>Ställer in en nod i scenen som den här ljuskällans omfattning. Endast den noden och dess underordnade noder påverkas av den här ljuskällan.</translation>
+        <translation>Ställer in en nod i scenen som ljuskällans verkningsområde. Endast den noden och dess underordnade noder påverkas av ljuskällan.</translation>
     </message>
     <message>
         <source>Bake Mode</source>
-        <translation>Bakningsläge</translation>
+        <translation>Ljusberäkningsläge</translation>
     </message>
     <message>
         <source>Controls if the light is active in baked lighting, such as when generating lightmaps.</source>
-        <translation>Styr om ljuskällan är aktiv i förbakad belysning, till exempel när ljuskartor genereras.</translation>
+        <translation>Styr om ljuskällan är aktiv vid ljusberäkning, till exempel när ljuskartor genereras.</translation>
     </message>
 </context>
 <context>
@@ -72386,7 +72386,7 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Sets the scaling type of the affector.</source>
-        <translation>Anger påverkans skalningstyp.</translation>
+        <translation>Anger påverkarens skalningstyp.</translation>
     </message>
     <message>
         <source>Minimum Size</source>
@@ -72406,7 +72406,7 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Duration</source>
-        <translation>Speltid</translation>
+        <translation>Varaktighet</translation>
     </message>
     <message>
         <source>Sets the duration of scaling period.</source>
@@ -72414,7 +72414,7 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Easing curve</source>
-        <translation>Mjukhetskurva</translation>
+        <translation>Utjämningskurva</translation>
     </message>
     <message>
         <source>Sets a custom scaling curve.</source>
@@ -73790,7 +73790,7 @@ det når början eller slutet.</translation>
     <name>SpotLightSection</name>
     <message>
         <source>Spot Light</source>
-        <translation>Punktljus</translation>
+        <translation>Spotljus</translation>
     </message>
     <message>
         <source>Constant Fade</source>
