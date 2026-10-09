@@ -81930,7 +81930,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         </message>
         <message>
             <source>Determines whether the radio button gets focus if pressed.</source>
-            <translation>Bestämmer huruvida radioknappen får fokus om tryckt.</translation>
+            <translation>Bestämmer om radioknappen får fokus när den trycks ned.</translation>
         </message>
         <message>
             <source>Checked</source>
@@ -81999,11 +81999,11 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         </message>
         <message>
             <source>Could not rename folder. Make sure no folder with the same name exists.</source>
-            <translation>Kunde inte byta namn på mappen. Försäkra dig om att ingen mapp med samma namn finns.</translation>
+            <translation>Det gick inte att byta namn på mappen. Se till att det inte finns någon mapp med samma namn.</translation>
         </message>
         <message>
             <source>If the folder has assets in use, renaming it might cause the project to not work correctly.</source>
-            <translation>Om mappen har tillgångar i användning så kan namnbyte på den orsaka att projektet inte fungerar korrekt.</translation>
+            <translation>Om mappen innehåller resurser som används kan ett namnbyte göra att projektet inte fungerar korrekt.</translation>
         </message>
         <message>
             <source>Rename</source>
@@ -82093,7 +82093,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         </message>
         <message>
             <source>Sets the space between the items in pixels in the &lt;b&gt;Row Layout&lt;/b&gt;.</source>
-            <translation>Ställer in avståndet mellan poster i bildpunkter i &lt;b&gt;Radlayout&lt;/b&gt;.</translation>
+            <translation>Anger avståndet mellan elementen i bildpunkter i &lt;b&gt;Radlayout&lt;/b&gt;.</translation>
         </message>
         <message>
             <source>Layout direction</source>
@@ -82101,7 +82101,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         </message>
         <message>
             <source>Sets the direction of the item flow in the &lt;b&gt;Row Layout&lt;/b&gt;.</source>
-            <translation>Ställer in riktningen för postflödet i &lt;b&gt;Radlayout&lt;/b&gt;.</translation>
+            <translation>Anger elementens flödesriktning i &lt;b&gt;Radlayout&lt;/b&gt;.</translation>
         </message>
         <message>
             <source>Uniform cell sizes</source>
@@ -82120,7 +82120,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         </message>
         <message>
             <source>Sets the spacing between items in the row.</source>
-            <translation>Ställer in avståndet mellan poster i raden.</translation>
+            <translation>Anger avståndet mellan elementen i raden.</translation>
         </message>
         <message>
             <source>Layout direction</source>
@@ -82128,7 +82128,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         </message>
         <message>
             <source>Sets in which direction items in the row are placed.</source>
-            <translation>Ställer in vilken riktning som poster i raden placeras.</translation>
+            <translation>Anger i vilken riktning elementen i raden placeras.</translation>
         </message>
         <message>
             <source>Spacing</source>
@@ -82151,7 +82151,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         </message>
         <message>
             <source>Name must start with a capital letter.</source>
-            <translation>Namnet måste börja med en versal bokstav.</translation>
+            <translation>Namnet måste börja med en stor bokstav.</translation>
         </message>
         <message>
             <source>Name must have at least 3 characters.</source>
@@ -82159,7 +82159,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         </message>
         <message>
             <source>Name cannot contain white space.</source>
-            <translation>Namnet får inte innehåll blanksteg.</translation>
+            <translation>Namnet får inte innehålla blanksteg.</translation>
         </message>
         <message>
             <source>Name is already taken.</source>
