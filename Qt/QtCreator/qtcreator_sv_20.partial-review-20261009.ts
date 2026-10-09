@@ -64916,7 +64916,7 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <name>QtC::QmlPreview</name>
         <message>
             <source>Preview changes to QML code live in your application.</source>
-            <translation>Förhandsvisa ändringar till QML-koden direkt i ditt program.</translation>
+            <translation>Förhandsvisa ändringar i QML-koden direkt i programmet.</translation>
         </message>
         <message>
             <source>Preview File</source>
