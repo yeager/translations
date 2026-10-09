@@ -74412,7 +74412,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Toggles the corners to adapt the radius of the component.</source>
-        <translation>Växlar hörnen för att anpassa komponentens radie.</translation>
+        <translation>Växlar om hörnen ska anpassa komponentens radie.</translation>
     </message>
     <message>
         <source>Adjust border radius</source>
@@ -74424,7 +74424,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Sets the style of the stroke. Selecting &lt;b&gt;None&lt;/b&gt; would make it without a stroke.</source>
-        <translation>Anger linjens stil. Om &lt;b&gt;Ingen&lt;/b&gt; väljs saknar den linje.</translation>
+        <translation>Anger linjens stil. Om &lt;b&gt;Ingen&lt;/b&gt; väljs ritas ingen linje.</translation>
     </message>
     <message>
         <source>Join style</source>
@@ -74432,7 +74432,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Sets the style of the connecting points of the edges.</source>
-        <translation>Anger stilen för kanternas sammanfogade punkter.</translation>
+        <translation>Anger stilen för kanternas sammanfogningspunkter.</translation>
     </message>
     <message>
         <source>Cap style</source>
@@ -74440,7 +74440,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Sets the line ends as square or rounded.</source>
-        <translation>Anger linjeändarna som fyrkantiga eller rundade.</translation>
+        <translation>Gör linjeändarna fyrkantiga eller rundade.</translation>
     </message>
     <message>
         <source>Dash pattern</source>
