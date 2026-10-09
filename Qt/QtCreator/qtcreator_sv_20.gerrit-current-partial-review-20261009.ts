@@ -73564,27 +73564,27 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     </message>
     <message>
         <source>Roughness Amount</source>
-        <translation>Grovhetsmängd</translation>
+        <translation>Råhetsmängd</translation>
     </message>
     <message>
         <source>Sets the roughness of the clearcoat layer.</source>
-        <translation>Anger klarlackslagrets grovhet.</translation>
+        <translation>Anger klarlackslagrets råhet.</translation>
     </message>
     <message>
         <source>Roughness Map</source>
-        <translation>Grovhetskarta</translation>
+        <translation>Råhetskarta</translation>
     </message>
     <message>
         <source>Sets a texture used to determine the roughness of the clearcoat layer.</source>
-        <translation>Anger en textur som används för att avgöra klarlackslagrets grovhet.</translation>
+        <translation>Anger en textur som används för att avgöra klarlackslagrets råhet.</translation>
     </message>
     <message>
         <source>Roughness Channel</source>
-        <translation>Grovhetskanal</translation>
+        <translation>Råhetskanal</translation>
     </message>
     <message>
         <source>Sets the texture channel used to read the roughness from clearcoatRoughnessMap.</source>
-        <translation>Anger texturkanalen som används för att läsa grovheten från clearcoatRoughnessMap.</translation>
+        <translation>Anger texturkanalen som används för att läsa råheten från clearcoatRoughnessMap.</translation>
     </message>
     <message>
         <source>Normal Map</source>
@@ -73652,7 +73652,7 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     </message>
     <message>
         <source>Sets the color that white lights turn into due to absorption when reaching the attenuation distance.</source>
-        <translation>Anger färgen som vitt ljus blir genom absorption vid dämpningsavståndet.</translation>
+        <translation>Anger den färg som vitt ljus får genom absorption när det når dämpningsavståndet.</translation>
     </message>
     <message>
         <source>Attenuation Distance</source>
@@ -73660,7 +73660,7 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     </message>
     <message>
         <source>Sets the average distance in world space that light travels in the medium before interacting with a particle.</source>
-        <translation>Anger det genomsnittliga avståndet i världsrymden som ljus färdas i mediet före interaktion med en partikel.</translation>
+        <translation>Anger det genomsnittliga avståndet i världsrymden som ljuset färdas i mediet innan det interagerar med en partikel.</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -73692,7 +73692,7 @@ En närfältsförstärkning på 1 höjer ljudsignalens volym med cirka 20 dB vid
     </message>
     <message>
         <source>Line Width</source>
-        <translation>Linjevidd</translation>
+        <translation>Linjebredd</translation>
     </message>
     <message>
         <source>Sets the width of the lines rendered, when the geometry is using a primitive type of lines or line strips.</source>
