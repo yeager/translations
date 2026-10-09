@@ -161,7 +161,7 @@
     </message>
     <message>
         <source>Float</source>
-        <translation>Flytande</translation>
+        <translation>Flyttal</translation>
     </message>
     <message>
         <source>Boolean</source>
