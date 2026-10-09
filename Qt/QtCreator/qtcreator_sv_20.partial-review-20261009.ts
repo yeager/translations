@@ -43959,12 +43959,12 @@ Fjärr: %4</translation>
         <message>
             <location line="+2" />
             <source>Continue Merging</source>
-            <translation>Fortsätt slå samman</translation>
+            <translation>Fortsätt sammanslagningen</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Continue merging other unresolved paths?</source>
-            <translation>Fortsätta slå samman andra olösta vägar?</translation>
+            <translation>Fortsätta sammanslagningen av andra olösta sökvägar?</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gerrit/gerritremotechooser.cpp" line="+37" />
@@ -43974,7 +43974,7 @@ Fjärr: %4</translation>
         <message>
             <location line="+53" />
             <source>Fallback</source>
-            <translation>Tillbaka</translation>
+            <translation>Reserv</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gerrit/gerritserver.cpp" line="+281" />
@@ -43987,8 +43987,8 @@ Fjärr: %4</translation>
 Do you want to disable SSL verification for this server?
 Note: This can expose you to man-in-the-middle attack.</source>
             <translation>Servercertifikatet för %1 kan inte autentiseras.
-Vill du inaktivera SSL-verifiering för denna server?
-Observera: Detta kan utsätta dig för ett attack.</translation>
+Vill du inaktivera SSL-verifiering för den här servern?
+Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gitgrep.cpp" line="+172" />
@@ -43999,18 +43999,18 @@ Observera: Detta kan utsätta dig för ett attack.</translation>
             <location line="+1" />
             <source>Can be HEAD, tag, local or remote branch, or a commit hash.
 Leave empty to search through the file system.</source>
-            <translation>Kan vara HEAD, tagg, lokal eller fjärrgren, eller en
-commit hash. Lämna tom för att söka genom filsystemet.</translation>
+            <translation>Kan vara HEAD, en tagg, en lokal eller fjärrgren eller en incheckningshash.
+Lämna tomt för att söka igenom filsystemet.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Recurse submodules</source>
-            <translation>Återkommande delmoduler</translation>
+            <translation>Genomsök undermoduler rekursivt</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Git Grep</source>
-            <translation>Glidfrö</translation>
+            <translation>Git Grep</translation>
         </message>
         <message>
             <location line="+7" />
@@ -44022,37 +44022,37 @@ commit hash. Lämna tom för att söka genom filsystemet.</translation>
         <message>
             <location filename="../../../src/plugins/git/gitsubmiteditor.cpp" line="+253" />
             <source>Refreshing Commit Data</source>
-            <translation>Uppdaterar kommittédata</translation>
+            <translation>Uppdaterar incheckningsdata</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/instantblame.cpp" line="+46" />
             <source>Git Blame</source>
-            <translation>Git-klagliga</translation>
+            <translation>Git-blame</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Copy Hash to Clipboard</source>
-            <translation>Kopiera kontrollsumma till urklipp</translation>
+            <translation>Kopiera hash till urklipp</translation>
         </message>
         <message>
             <location line="+32" />
             <source>Revert Commit?</source>
-            <translation>Återupprätta beslut?</translation>
+            <translation>Återställa incheckning?</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Revert the commit %1?</source>
-            <translation>Återkalla %1-åtgången?</translation>
+            <translation>Återställa incheckningen %1?</translation>
         </message>
         <message>
             <location line="+41" />
             <source>Blame %1</source>
-            <translation>Skyll %1</translation>
+            <translation>Git-blame för %1</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Blame Parent</source>
-            <translation>Att skylla på föräldern</translation>
+            <translation>Git-blame för överordnad</translation>
         </message>
         <message>
             <location line="+1" />
@@ -44073,17 +44073,17 @@ commit hash. Lämna tom för att söka genom filsystemet.</translation>
             <location line="+55" />
             <source>&lt;b&gt;Note:&lt;/b&gt; "%1" or "%2" is enabled in the instant blame settings.</source>
             <extracomment>%1 and %2 are the "ignore whitespace changes" and "ignore line moves" options</extracomment>
-            <translation>&lt;b&gt;Note:&lt;/b&gt; "%1" eller "%2" är aktiverat i de omedelbara skuldinställningarna.</translation>
+            <translation>&lt;b&gt;Obs!&lt;/b&gt; ”%1” eller ”%2” är aktiverat i inställningarna för omedelbar Git-blame.</translation>
         </message>
         <message>
             <location line="+125" />
             <source>Not Committed Yet</source>
-            <translation>Inte än</translation>
+            <translation>Inte incheckad ännu</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Modified line in %1</source>
-            <translation>Ändrad linje i %1</translation>
+            <translation>Ändrad rad i %1</translation>
         </message>
         <message>
             <location line="+7" />
