@@ -23042,7 +23042,7 @@ Fortsätta?</translation>
         <message>
             <location line="+505" />
             <source>You will lose your current changes if you proceed reverting %1.</source>
-            <translation>Du kommer att förlora dina aktuella ändringar om du fortsätter att återskapa %1.</translation>
+            <translation>Du förlorar dina aktuella ändringar om du fortsätter med återställningen av %1.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -23078,7 +23078,7 @@ Fortsätta?</translation>
         <message>
             <location line="+2" />
             <source>Re-enable warnings that were suppressed by selecting "Do Not Show Again" (for example, missing highlighter).</source>
-            <translation>Återaktiva varningar som tidigare tystades genom att välja "Visa inte igen" (till exempel, saknad framhävare).</translation>
+            <translation>Återaktivera varningar som har dolts genom att välja ”Visa inte igen” (t.ex. saknad framhävning).</translation>
         </message>
         <message>
             <location line="+161" />
@@ -23088,7 +23088,7 @@ Fortsätta?</translation>
         <message>
             <location line="-17" />
             <source>Toolbar style:</source>
-            <translation>Stil för verktygsrad:</translation>
+            <translation>Verktygsradens stil:</translation>
         </message>
         <message>
             <location line="-61" />
@@ -23119,18 +23119,18 @@ Fortsätta?</translation>
             <location line="+2" />
             <source>Provide cursors for resizing views.
 If the system cursors for resizing views are not displayed properly, you can use the cursors provided by %1.</source>
-            <translation>Ange markörer för att ändra storlek på vyer. Om systemmarkörer för att ändra storlek
-på vyer inte visas korrekt, kan du använda markörerna som tillhandahålls av %1.</translation>
+            <translation>Tillhandahåll markörer för storleksändring av vyer.
+Om systemets markörer för storleksändring av vyer inte visas korrekt kan du använda markörerna från %1.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Prefer banner style info bars over pop-ups</source>
-            <translation>Föredrar banner stil info barer över popup-fönster</translation>
+            <translation>Föredra informationsrader i banderollstil framför dialogrutor</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Use tabbed editors</source>
-            <translation>Använd flikeditor</translation>
+            <translation>Använd redigerare med flikar</translation>
         </message>
         <message>
             <location line="+4" />
@@ -23165,17 +23165,17 @@ på vyer inte visas korrekt, kan du använda markörerna som tillhandahålls av 
         <message>
             <location line="+4" />
             <source>DPI rounding policy:</source>
-            <translation>Avrundningspolitik för DPI:</translation>
+            <translation>DPI-avrundningsprincip:</translation>
         </message>
         <message>
             <location line="-93" />
             <source>The following environment variables are set and can influence the UI scaling behavior of %1:</source>
-            <translation>Följande miljövariabler är inställda och kan influera beteendet för gränssnittsskalning för %1:</translation>
+            <translation>Följande miljövariabler är angivna och kan påverka hur %1 skalar användargränssnittet:</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Environment influences UI scaling behavior.</source>
-            <translation>Miljön influerar gränssnittets skalningsbeteende.</translation>
+            <translation>Miljön påverkar användargränssnittets skalning.</translation>
         </message>
         <message>
             <location line="-138" />
@@ -23185,7 +23185,7 @@ på vyer inte visas korrekt, kan du använda markörerna som tillhandahålls av 
         <message>
             <location line="+203" />
             <source>The language change will take effect after restart.</source>
-            <translation>Språkändringen kommer bli aktiverad efter omstart.</translation>
+            <translation>Språkändringen träder i kraft efter omstart.</translation>
         </message>
         <message>
             <location line="+37" />
@@ -23252,34 +23252,34 @@ på vyer inte visas korrekt, kan du använda markörerna som tillhandahålls av 
         <message>
             <location line="-33" />
             <source>Auto-suspend unmodified files</source>
-            <translation>Omblanda omintetgjorda filer automatiskt</translation>
+            <translation>Försätt automatiskt oförändrade filer i viloläge</translation>
         </message>
         <message>
             <location line="-124" />
             <source>&lt;table border=1 cellspacing=0 cellpadding=3&gt;&lt;tr&gt;&lt;th&gt;Variable&lt;/th&gt;&lt;th&gt;Expands to&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%d&lt;/td&gt;&lt;td&gt;directory of current file&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%f&lt;/td&gt;&lt;td&gt;file name (with full path)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%n&lt;/td&gt;&lt;td&gt;file name (without path)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%%&lt;/td&gt;&lt;td&gt;%&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</source>
-            <translation>&lt;table border=1 cellspacing=0 cellpadding=3&gt;&lt;tr&gt;&lt;th&gt;Variable&lt;/th&gt;&lt;th&gt;Expands to&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%d&lt;/td&gt;&lt;td&gt;directory of current file&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%f&lt;/td&gt;&lt;td&gt;file name (with full path)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%n&lt;/td&gt;&lt;td&gt;file name (without path)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;%%&lt;/td&gt;&lt;td&gt;%&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</translation>
+            <translation><table border=1 cellspacing=0 cellpadding=3><tr><th>Variabel</th><th>Expanderas till</th></tr><tr><td>%d</td><td>katalogen för den aktuella filen</td></tr><tr><td>%f</td><td>filnamn (med fullständig sökväg)</td></tr><tr><td>%n</td><td>filnamn (utan sökväg)</td></tr><tr><td>%%</td><td>%</td></tr></table></translation>
         </message>
         <message>
             <location line="+66" />
             <source>Variable separators:</source>
-            <translation>Variabla avskiljare:</translation>
+            <translation>Variabelavgränsare:</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Use freedesktop.org file manager D-Bus interface</source>
-            <translation>Använd freedesktop.org filhanterare D-Bus gränssnitt</translation>
+            <translation>Använd filhanterargränssnittet D-Bus från freedesktop.org</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Uses the &lt;a href="%1"&gt;freedesktop.org D-Bus interface&lt;/a&gt; for &lt;i&gt;Open in File Manager&lt;/i&gt;, if available. Otherwise falls back to the "External file browser" above.</source>
-            <translation>Använder &lt;a href="%1"&gt;freedesktop.org D-Bus-gränssnittet&lt;/a&gt; för &lt;i&gt;Öppnas i File Manager&lt;/i&gt;, om tillgängligt. Annars faller tillbaka till "Externa filbläddraren" ovan.</translation>
+            <translation>Använder <a href="%1">D-Bus-gränssnittet från freedesktop.org</a> för <i>Öppna i filhanteraren</i>, om det är tillgängligt. Annars används ”Extern filbläddrare” ovan.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Command used for &lt;i&gt;Open in File Manager&lt;/i&gt; if the freedesktop.org D-Bus interface is not available. The command can contain the following variables:
 </source>
-            <translation>Kommandot används för &lt;i&gt;Öppna i File Manager&lt;/i&gt; om gränssnittet freedesktop.org
-D- Bus inte är tillgängligt. Kommandot kan innehålla följande variabler:</translation>
+            <translation>Kommando som används för <i>Öppna i filhanteraren</i> om D-Bus-gränssnittet från freedesktop.org inte är tillgängligt. Kommandot kan innehålla följande variabler:
+</translation>
         </message>
         <message>
             <location line="+46" />
@@ -23289,12 +23289,12 @@ D- Bus inte är tillgängligt. Kommandot kan innehålla följande variabler:</tr
         <message>
             <location line="+22" />
             <source>Warn before opening text files greater than</source>
-            <translation>Varna innan textfiler större än öppnas</translation>
+            <translation>Varna innan textfiler som är större än följande öppnas</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Number of "Recent Files":</source>
-            <translation>Antal "Recent Files":</translation>
+            <translation>Antal ”senaste filer”:</translation>
         </message>
         <message>
             <location line="+11" />
