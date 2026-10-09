@@ -53858,7 +53858,7 @@ Försök igen.</translation>
         <message>
             <location line="+469" />
             <source>Click to enable target, click again to make active</source>
-            <translation>Klicka för att aktivera mål, klicka igen för att göra aktiv</translation>
+            <translation>Klicka för att aktivera målet och klicka igen för att göra det aktivt</translation>
         </message>
         <message>
             <location line="+555" />
@@ -53981,7 +53981,7 @@ Försök igen.</translation>
             <location filename="../../../src/plugins/projectexplorer/jsonwizard/jsonprojectpage.cpp" line="+99" />
             <source>untitled</source>
             <extracomment>File path suggestion for a new project. If you choose to translate it, make sure it is a valid path name without blanks and using only ascii chars.</extracomment>
-            <translation>ingetnamn</translation>
+            <translation>namnlös</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/buildmanager.cpp" line="+299" />
@@ -54000,7 +54000,7 @@ Display name of the clean build step list. Used as part of the labels in the pro
         <message>
             <location filename="../../../src/plugins/projectexplorer/buildconfiguration.cpp" line="+78" />
             <source>Clear system environment</source>
-            <translation>Rensa systemmiljö</translation>
+            <translation>Rensa systemmiljön</translation>
         </message>
         <message>
             <location line="-2" />
@@ -54068,7 +54068,7 @@ Display name of the clean build step list. Used as part of the labels in the pro
         <message>
             <location line="+2" />
             <source>Copyright:</source>
-            <translation>Copyright:</translation>
+            <translation>Upphovsrätt:</translation>
         </message>
         <message>
             <location line="-331" />
@@ -54112,7 +54112,7 @@ Display name of the clean build step list. Used as part of the labels in the pro
         <message>
             <location line="-350" />
             <source>Creates a qmake-based project without any files. This allows you to create an application without any default classes.</source>
-            <translation>Skapar ett qmake-baserat projekt utan några filer. Detta låter dig skapa ett program utan några standardklasser.</translation>
+            <translation>Skapar ett qmake-baserat projekt utan några filer. Det gör att du kan skapa ett program utan några standardklasser.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -54124,7 +54124,7 @@ Display name of the clean build step list. Used as part of the labels in the pro
             <location line="+90" />
             <location line="+143" />
             <source>Use Qt Virtual Keyboard</source>
-            <translation>Använd Qt virtuellt tangentbord</translation>
+            <translation>Använd virtuellt tangentbord för Qt</translation>
         </message>
         <message>
             <location line="-232" />
@@ -54136,7 +54136,7 @@ Display name of the clean build step list. Used as part of the labels in the pro
             <location line="+62" />
             <location line="+211" />
             <source>Define Project Details</source>
-            <translation>Definiera projektdetaljer</translation>
+            <translation>Ange projektdetaljer</translation>
         </message>
         <message>
             <location line="-799" />
@@ -54166,7 +54166,7 @@ Display name of the clean build step list. Used as part of the labels in the pro
         <message>
             <location line="-499" />
             <source>Qt Quick UI Prototype</source>
-            <translation>Qt snabbgränssnittsprototyp</translation>
+            <translation>Qt Quick-gränssnittsprototyp</translation>
         </message>
         <message>
             <location line="+256" />
@@ -54271,7 +54271,7 @@ Display name of the clean build step list. Used as part of the labels in the pro
             <location line="-283" />
             <location line="+76" />
             <source>Specify basic information about the classes for which you want to generate skeleton source code files.</source>
-            <translation>Ange grundläggande information om klasserna för vilka du vill generera skelettfiler för källkoden.</translation>
+            <translation>Ange grundläggande information om klasserna för vilka du vill skapa stomfiler för källkoden.</translation>
         </message>
         <message>
             <location line="+1" />
