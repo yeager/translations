@@ -2996,7 +2996,7 @@ Det ska vara en relativ sökväg.</translation>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
@@ -6420,7 +6420,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Sets the rotation along with the x-axis or y-axis.</source>
-        <translation>Ställer in rotation längs X- eller Y-axeln.</translation>
+        <translation>Ställer in rotationen längs X- eller Y-axeln.</translation>
     </message>
     <message>
         <source>Flip angle</source>
@@ -6444,7 +6444,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Back</source>
-        <translation>Bakåt</translation>
+        <translation>Baksida</translation>
     </message>
     <message>
         <source>Sets the visibility percentage of the back side component within the Flipable component.</source>
@@ -7754,7 +7754,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
@@ -74498,7 +74498,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Flip horizontal grid</source>
-        <translation>Vänd horisontellt rutnät</translation>
+        <translation>Vänd det horisontella rutnätet</translation>
     </message>
     <message>
         <source>Polar Coordinates</source>
@@ -76072,7 +76072,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Sets which camera is used to render the scene.</source>
-        <translation>Anger vilken kamera som används för att rendera scenen.</translation>
+        <translation>Anger vilken kamera som används för att återge scenen.</translation>
     </message>
     <message>
         <source>Environment</source>
@@ -76080,7 +76080,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Sets the scene environment used to render the scene.</source>
-        <translation>Anger scenmiljön som används för att rendera scenen.</translation>
+        <translation>Anger scenmiljön som används för att återge scenen.</translation>
     </message>
     <message>
         <source>Import Scene</source>
@@ -76092,7 +76092,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Render Format</source>
-        <translation>Renderingsformat</translation>
+        <translation>Återgivningsformat</translation>
     </message>
     <message>
         <source>Sets the format of the backing texture.</source>
