@@ -66372,22 +66372,22 @@ Qt Design Studio kräver ett .qmlproject-baserat projekt för att öppna .ui.qml
         <message>
             <location line="+31" />
             <source>QNX sdpenv.sh:</source>
-            <translation>Det är en av de två första stegen.</translation>
+            <translation>QNX sdpenv.sh:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>QNX Software Development Platform environment file.</source>
-            <translation>QNX Software Development Platform miljöfil.</translation>
+            <translation>QNX Software Development Platform-miljöfil.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>File suffix does not match OS type.</source>
-            <translation>Fil suffix matchar inte OS-typ.</translation>
+            <translation>Filändelsen matchar inte operativsystemstypen.</translation>
         </message>
         <message>
             <location line="+42" />
             <source>Attach to remote QNX application...</source>
-            <translation>Fäst till QNX-fjärrprogram…</translation>
+            <translation>Anslut till fjärranslutet QNX-program …</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qnx/qnxdevice.cpp" line="+78" />
@@ -66508,7 +66508,7 @@ Qt Design Studio kräver ett .qmlproject-baserat projekt för att öppna .ui.qml
         <message>
             <location line="-476" />
             <source>Cannot Set Up QNX Configuration</source>
-            <translation>Kan inte ställa in QNX-konfiguration</translation>
+            <translation>Kan inte konfigurera QNX</translation>
         </message>
         <message>
             <location line="+63" />
@@ -66570,7 +66570,7 @@ Qt Design Studio kräver ett .qmlproject-baserat projekt för att öppna .ui.qml
         <message>
             <location line="+26" />
             <source>Cannot show slog2info output. Error: %1</source>
-            <translation>Kan inte visa utmatning av slog2info. Fel: %1</translation>
+            <translation>Kan inte visa utdata från slog2info. Fel: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qnx/qnxdebugsupport.cpp" line="-96" />
@@ -66598,16 +66598,16 @@ Qt Design Studio kräver ett .qmlproject-baserat projekt för att öppna .ui.qml
 Deploying to that directory will remove any files already present.
 
 Are you sure you want to continue?</source>
-            <translation>Fjärrkatalogen "%1" finns redan.
-Att flytta till den katalogen tar bort
-alla filer som redan finns. Är du
-säker på att du vill fortsätta?</translation>
+            <translation>Fjärrkatalogen ”%1” finns redan.
+Distribuering till den katalogen tar bort alla filer som redan finns.
+
+Är du säker på att du vill fortsätta?</translation>
         </message>
         <message>
             <location line="-9" />
             <location line="+29" />
             <source>Connection failed: %1</source>
-            <translation>Anslutning misslyckades: %1</translation>
+            <translation>Anslutningen misslyckades: %1</translation>
         </message>
         <message>
             <location line="-6" />
@@ -66624,24 +66624,24 @@ säker på att du vill fortsätta?</translation>
             <location line="-16" />
             <source>%n file(s) need to be uploaded.</source>
             <translation>
-                <numerusform>%n fil behöver skickas upp.</numerusform>
-                <numerusform>%n filer behöver skickas upp.</numerusform>
+                <numerusform>%n fil måste laddas upp.</numerusform>
+                <numerusform>%n filer måste laddas upp.</numerusform>
             </translation>
         </message>
         <message>
             <location line="+5" />
             <source>Local file "%1" does not exist.</source>
-            <translation>Lokala filen "%1" finns inte.</translation>
+            <translation>Den lokala filen ”%1” finns inte.</translation>
         </message>
         <message>
             <location line="+29" />
             <source>No device configuration set.</source>
-            <translation>Ingen enhetskonfiguration inställd.</translation>
+            <translation>Ingen enhetskonfiguration har angetts.</translation>
         </message>
         <message>
             <location line="+12" />
             <source>No deployment action necessary. Skipping.</source>
-            <translation>Ingen distributionsåtgärd nödvändig. Hoppar över.</translation>
+            <translation>Ingen distribuering krävs. Hoppar över.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -66681,7 +66681,7 @@ säker på att du vill fortsätta?</translation>
         <message>
             <location line="+18" />
             <source>Closing the dialog will stop the deployment. Are you sure you want to do this?</source>
-            <translation>Att stänga dialogrutan stoppar distributionen. Är du säker på att du vill göra det här?</translation>
+            <translation>Om dialogrutan stängs avbryts distribueringen. Är du säker på att du vill göra detta?</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qnx/qnxdevicetester.cpp" line="+47" />
@@ -66691,12 +66691,12 @@ säker på att du vill fortsätta?</translation>
         <message>
             <location line="+9" />
             <source>Files can be created in /var/run.</source>
-            <translation>Filer kan inte skapas i /var/run.</translation>
+            <translation>Filer kan skapas i /var/run.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>An error occurred while checking that files can be created in %1.</source>
-            <translation>Ett fel inträffade vid kontroll att filer kan skapas i %1.</translation>
+            <translation>Ett fel inträffade när det kontrollerades att filer kan skapas i %1.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -66706,17 +66706,17 @@ säker på att du vill fortsätta?</translation>
         <message>
             <location filename="../../../src/plugins/qnx/qnxrunconfiguration.cpp" line="+35" />
             <source>Executable on device:</source>
-            <translation>Körbar fil på enhet:</translation>
+            <translation>Körbar fil på enheten:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Remote path not set</source>
-            <translation>Fjärrsökvägen inte inställd</translation>
+            <translation>Ingen fjärrsökväg har angetts</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Executable on host:</source>
-            <translation>Körbar fil på värd:</translation>
+            <translation>Körbar fil på värden:</translation>
         </message>
         <message>
             <location line="+7" />
