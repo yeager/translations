@@ -21214,7 +21214,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location filename="../../../src/libs/gocmdbridge/client/bridgedfileaccess.cpp" line="+70" />
             <source>Command "%1" failed with exit code %2: %3</source>
-            <translation>Kommandot "%1" misslyckades med utgångskoden %2: %3</translation>
+            <translation>Kommandot ”%1” misslyckades med slutkod %2: %3</translation>
         </message>
         <message>
             <location line="+23" />
@@ -21224,12 +21224,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+19" />
             <source>The remote root path is empty.</source>
-            <translation>Fjärrsökvägen till roten är tom.</translation>
+            <translation>Fjärrrotens sökväg är tom.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The remote root path is not absolute.</source>
-            <translation>Den avlägsna rotvägen är inte absolut.</translation>
+            <translation>Fjärrrotens sökväg är inte absolut.</translation>
         </message>
         <message>
             <location line="+13" />
@@ -21269,17 +21269,17 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+233" />
             <source>Could not get the file ID of "%1": %2</source>
-            <translation>Kunde inte få fil-ID för "%1": %2</translation>
+            <translation>Kunde inte hämta fil-id:t för ”%1”: %2</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Could not check if "%1" and "%2" are the same file: %3</source>
-            <translation>Kunde inte kontrollera om %1 och %2 är samma fil: %3</translation>
+            <translation>Kunde inte kontrollera om ”%1” och ”%2” är samma fil: %3</translation>
         </message>
         <message>
             <location line="+30" />
             <source>Could not get the file path info of "%1": %2</source>
-            <translation>Kunde inte få filsökvägsinformation för "%1": %2</translation>
+            <translation>Kunde inte hämta sökvägsinformation för ”%1”: %2</translation>
         </message>
         <message>
             <location line="+12" />
@@ -21291,13 +21291,13 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="-140" />
             <source>The path "%1" is not a symlink.</source>
-            <translation>Stigen "%1" är inte en symlänk.</translation>
+            <translation>Sökvägen ”%1” är inte en symbolisk länk.</translation>
         </message>
         <message>
             <location line="+3" />
             <location line="+3" />
             <source>Could not get the symlink target for "%1": %2</source>
-            <translation>Kunde inte få symlänkmålet för "%1": %2</translation>
+            <translation>Kunde inte hämta målet för den symboliska länken ”%1”: %2</translation>
         </message>
         <message>
             <location line="+29" />
@@ -21317,12 +21317,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+12" />
             <source>Could not get the file group of "%1": %2</source>
-            <translation>Kunde inte få filgruppen "%1": %2</translation>
+            <translation>Kunde inte hämta filgruppen för ”%1”: %2</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Could not get the file group ID of "%1": %2</source>
-            <translation>Kunde inte få filgrupps- ID för "%1": %2</translation>
+            <translation>Kunde inte hämta filgrupps-id:t för ”%1”: %2</translation>
         </message>
         <message>
             <location line="+22" />
@@ -21333,7 +21333,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+12" />
             <source>Could not write file "%1": %2</source>
-            <translation>Kunde inte skriva fil "%1": %2</translation>
+            <translation>Kunde inte skriva till filen ”%1”: %2</translation>
         </message>
         <message>
             <location line="+14" />
@@ -21384,27 +21384,27 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+318" />
             <source>The bridge is not initialized.</source>
-            <translation>Bron är inte initialiserad.</translation>
+            <translation>Bryggan är inte initierad.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/gocmdbridge/client/cmdbridgeclient.cpp" line="+463" />
             <source>Cannot start bridge process.</source>
-            <translation>Kan inte starta broprocessen.</translation>
+            <translation>Kan inte starta bryggprocessen.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Cannot start bridge process: %1</source>
-            <translation>Kan inte starta broprocessen: %1</translation>
+            <translation>Kan inte starta bryggprocessen: %1</translation>
         </message>
         <message>
             <location line="+22" />
             <source>The bridge process is not running.</source>
-            <translation>Bron är inte igång.</translation>
+            <translation>Bryggprocessen körs inte.</translation>
         </message>
         <message>
             <location line="+96" />
             <source>FollowSymlinks is not supported.</source>
-            <translation>FöljSymlänkar stöds inte.</translation>
+            <translation>FollowSymlinks stöds inte.</translation>
         </message>
         <message>
             <location line="+340" />
@@ -21414,12 +21414,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+2" />
             <source>The CloseWriteChannel signal is not supported.</source>
-            <translation>NärmWriteChannel-signalen stöds inte.</translation>
+            <translation>Signalen CloseWriteChannel stöds inte.</translation>
         </message>
         <message>
             <location line="+235" />
             <source>No command bridge available for architecture "%1-%2".</source>
-            <translation>Ingen kommandobrygga tillgänglig för arkitektur "%1-%2".</translation>
+            <translation>Ingen kommandobrygga är tillgänglig för arkitekturen ”%1-%2”.</translation>
         </message>
     </context>
     <context>
