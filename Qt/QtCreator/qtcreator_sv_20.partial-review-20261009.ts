@@ -191,7 +191,7 @@
         <name>AlignCamerasToViewAction</name>
         <message>
             <source>Align Cameras to View</source>
-            <translation>Justera kameror till vy</translation>
+            <translation>Rikta kamerorna efter vyn</translation>
         </message>
     </context>
     <context>
@@ -313,7 +313,7 @@
         <name>AlignViewToCameraAction</name>
         <message>
             <source>Align View to Camera</source>
-            <translation>Justera vy till kamera</translation>
+            <translation>Rikta vyn efter kameran</translation>
         </message>
     </context>
     <context>
@@ -337,8 +337,8 @@
         <message>
             <source>Set the overall volume for this sound source.
 Values between 0 and 1 will attenuate the sound, while values above 1 provide an additional gain boost.</source>
-            <translation>Ställer in övergripande volym för denna ljudkälla.
-Värden mellan 0 och 1 kommer att dämpa ljudet medans värden över 1 ger en ytterligare förstärkning.</translation>
+            <translation>Anger den övergripande volymen för ljudkällan.
+Värden mellan 0 och 1 dämpar ljudet, medan värden över 1 ger extra förstärkning.</translation>
         </message>
         <message>
             <source>Loops</source>
@@ -347,8 +347,8 @@ Värden mellan 0 och 1 kommer att dämpa ljudet medans värden över 1 ger en yt
         <message>
             <source>Sets how often the sound is played before the player stops.
 Bind to AmbientSound.Infinite to loop the current sound forever.</source>
-            <translation>Ställer in hur ofta ljudet spelas upp innan uppspelaren stoppar.
-Bind till AmbientSound.Infinite för att spela upp ljudet utan stopp.</translation>
+            <translation>Anger hur många gånger ljudet spelas upp innan spelaren stannar.
+Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oändlig slinga.</translation>
         </message>
         <message>
             <source>Auto Play</source>
@@ -356,18 +356,18 @@ Bind till AmbientSound.Infinite för att spela upp ljudet utan stopp.</translati
         </message>
         <message>
             <source>Sets whether the sound should automatically start playing when a source gets specified.</source>
-            <translation>Ställer in huruvida ljudet ska börja spelas upp automatiskt när en källa blir angiven.</translation>
+            <translation>Anger om ljudet ska börja spelas upp automatiskt när en källa anges.</translation>
         </message>
     </context>
     <context>
         <name>AnchorButtons</name>
         <message>
             <source>Anchors can only be applied to child items.</source>
-            <translation>Ankare kan endast tillämpas på barnposter.</translation>
+            <translation>Ankare kan bara tillämpas på underordnade objekt.</translation>
         </message>
         <message>
             <source>Anchors can only be applied to the base state.</source>
-            <translation>Ankare kan endast tillämpas till grundtillståndet.</translation>
+            <translation>Ankare kan bara tillämpas på basläget.</translation>
         </message>
         <message>
             <source>Anchor component to the top.</source>
@@ -387,7 +387,7 @@ Bind till AmbientSound.Infinite för att spela upp ljudet utan stopp.</translati
         </message>
         <message>
             <source>Fill parent component.</source>
-            <translation>Fyll föräldrakomponent.</translation>
+            <translation>Fyll den överordnade komponenten.</translation>
         </message>
         <message>
             <source>Anchor component vertically.</source>
@@ -410,27 +410,27 @@ Bind till AmbientSound.Infinite för att spela upp ljudet utan stopp.</translati
         </message>
         <message>
             <source>Anchor to the top of the target.</source>
-            <translation>Förankra överst av målet.</translation>
+            <translation>Förankra vid målets överkant.</translation>
         </message>
         <message>
             <source>Anchor to the left of the target.</source>
-            <translation>Förankra till vänster av målet.</translation>
+            <translation>Förankra vid målets vänsterkant.</translation>
         </message>
         <message>
             <source>Anchor to the vertical center of the target.</source>
-            <translation>Förankra till vertikalt centrum av målet.</translation>
+            <translation>Förankra vid målets vertikala mittpunkt.</translation>
         </message>
         <message>
             <source>Anchor to the horizontal center of the target.</source>
-            <translation>Förankra till horisontellt centrum av målet.</translation>
+            <translation>Förankra vid målets horisontella mittpunkt.</translation>
         </message>
         <message>
             <source>Anchor to the bottom of the target.</source>
-            <translation>Förankra nederst av målet.</translation>
+            <translation>Förankra vid målets underkant.</translation>
         </message>
         <message>
             <source>Anchor to the right of the target.</source>
-            <translation>Förankra till höger av målet.</translation>
+            <translation>Förankra vid målets högerkant.</translation>
         </message>
     </context>
     <context>
@@ -457,7 +457,7 @@ Bind till AmbientSound.Infinite för att spela upp ljudet utan stopp.</translati
         </message>
         <message>
             <source>Toggles if the animation is playing.</source>
-            <translation>Växlar om animeringen spelas upp.</translation>
+            <translation>Anger om animeringen spelas upp.</translation>
         </message>
     </context>
     <context>
