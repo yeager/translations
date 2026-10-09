@@ -9377,12 +9377,12 @@ Kontrollera utdatapanelen för mer information.</translation>
             <location line="-86" />
             <location line="+71" />
             <source>Pin Group</source>
-            <translation>Pin- grupp</translation>
+            <translation>Fäst grupp</translation>
         </message>
         <message>
             <location line="-62" />
             <source>Pin Group To...</source>
-            <translation>Pin grupp till…</translation>
+            <translation>Fäst grupp på …</translation>
         </message>
         <message>
             <location line="+12" />
@@ -9398,7 +9398,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+30" />
             <source>Pin Active Tab (Press Ctrl to Pin Group)</source>
-            <translation>Pin Active Tab (Pressa Ctrl till Pin Group)</translation>
+            <translation>Fäst aktiv flik (tryck på Ctrl för att fästa grupp)</translation>
         </message>
         <message>
             <location filename="../../../src/libs/advanceddockingsystem/dockwidgettab.cpp" line="+212" />
@@ -9408,7 +9408,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+278" />
             <source>Pin</source>
-            <translation>Stift</translation>
+            <translation>Fäst</translation>
         </message>
         <message>
             <location filename="../../../src/libs/advanceddockingsystem/autohidetab.cpp" line="+332" />
@@ -9456,7 +9456,7 @@ Kontrollera utdatapanelen för mer information.</translation>
             <location filename="../../../src/libs/advanceddockingsystem/dockareatitlebar.cpp" line="-15" />
             <location line="+69" />
             <source>Unpin (Dock)</source>
-            <translation>Unpin (Dock)</translation>
+            <translation>Lossa (docka)</translation>
         </message>
         <message>
             <location line="+3" />
@@ -9540,7 +9540,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+5" />
             <source>&lt;a href="qthelp://org.qt-project.qtcreator/doc/creator-project-managing-workspaces.html"&gt;What is a Workspace?&lt;/a&gt;</source>
-            <translation>&lt;a href="qthelp://org.qt-project.qtcreator/doc/creator-project-managing-workspaces.html"&gt;Vad är en Arbetsyta?&lt;/a&gt;</translation>
+            <translation>&lt;a href="qthelp://org.qt-project.qtcreator/doc/creator-project-managing-workspaces.html"&gt;Vad är en arbetsyta?&lt;/a&gt;</translation>
         </message>
         <message>
             <location filename="../../../src/libs/advanceddockingsystem/workspacemodel.cpp" line="+46" />
@@ -9616,7 +9616,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+21" />
             <source>Cannot Switch Workspace</source>
-            <translation>Kan inte växla arbetsyta</translation>
+            <translation>Kan inte växla till arbetsyta</translation>
         </message>
         <message>
             <location line="+16" />
