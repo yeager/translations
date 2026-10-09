@@ -41274,7 +41274,7 @@ Fortsätt?</translation>
         <message>
             <location line="+216" />
             <source>Conflicts detected with commit %1.</source>
-            <translation>Konflikter som upptäckts med %1.</translation>
+            <translation>Konflikter upptäcktes med incheckningen %1.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -41291,17 +41291,17 @@ Fortsätt?</translation>
         <message>
             <location line="+9" />
             <source>Only graphical merge tools are supported. Please configure merge.tool.</source>
-            <translation>dast grafiska sammanfogningsverktyg stöds. Anpassa sammanfoga. tool.</translation>
+            <translation>Endast grafiska sammanslagningsverktyg stöds. Konfigurera merge.tool.</translation>
         </message>
         <message>
             <location line="+94" />
             <source>Force Push</source>
-            <translation>Krafttryck</translation>
+            <translation>Tvinga push</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Push failed. Would you like to force-push &lt;span style="color:#%1"&gt;(rewrites remote history)&lt;/span&gt;?</source>
-            <translation>Tryck misslyckades. Vill du force- push &lt;span style="color:#%1"&gt; (skriver om fjärrhistorik) &lt;/span&gt;?</translation>
+            <translation>Push misslyckades. Vill du tvinga push &lt;span style="color:#%1"&gt;(skriver om fjärrhistoriken)&lt;/span&gt;?</translation>
         </message>
         <message>
             <location line="+19" />
@@ -41313,19 +41313,19 @@ Fortsätt?</translation>
             <source>Push failed because the local branch "%1" does not have an upstream branch on the remote.
 
 Would you like to create the branch "%1" on the remote and set it as upstream?</source>
-            <translation>Tryck misslyckades eftersom den lokala grenen "%1" inte har
-en uppströmsgren på fjärrkontrollen. Vill du skapa grenen
-"%1" på fjärrkontrollen och ställa in den som uppströms?</translation>
+            <translation>Push misslyckades eftersom den lokala grenen ”%1” inte har någon uppströmsgren i fjärrarkivet.
+
+Vill du skapa grenen ”%1” i fjärrarkivet och ange den som uppströmsgren?</translation>
         </message>
         <message>
             <location line="+321" />
             <source>Stash &amp;&amp; &amp;Pop</source>
-            <translation>Stash &amp; &amp; &amp;Pop</translation>
+            <translation>Stasha &amp;&amp; &amp;pop</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Stash local changes and execute %1.</source>
-            <translation>Sätt fast lokala ändringar och kör %1.</translation>
+            <translation>Stasha lokala ändringar och kör %1.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -41352,7 +41352,7 @@ en uppströmsgren på fjärrkontrollen. Vill du skapa grenen
             <location line="+5" />
             <location line="+5" />
             <source>Commit</source>
-            <translation>Kommittéförfarande</translation>
+            <translation>Checka in</translation>
         </message>
         <message>
             <location line="-2191" />
@@ -41367,42 +41367,42 @@ en uppströmsgren på fjärrkontrollen. Vill du skapa grenen
         <message>
             <location line="+119" />
             <source>No Move Detection</source>
-            <translation>Ingen flyttning upptäcktes</translation>
+            <translation>Ingen flyttidentifiering</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Detect Moves Within File</source>
-            <translation>Upptäck flyttningar inom fil</translation>
+            <translation>Identifiera flyttar inom filen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Detect Moves Between Files</source>
-            <translation>Upptäck flyttningar mellan filer</translation>
+            <translation>Identifiera flyttar mellan filer</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Detect Moves and Copies Between Files</source>
-            <translation>Upptäck flyttningar och kopieringar mellan filer</translation>
+            <translation>Identifiera flyttar och kopior mellan filer</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Move detection</source>
-            <translation>Flyttupptäckter</translation>
+            <translation>Flyttidentifiering</translation>
         </message>
         <message>
             <location line="+29" />
             <source>Filter commits by message or content.</source>
-            <translation>Filter begår via meddelande eller innehåll.</translation>
+            <translation>Filtrera incheckningar efter meddelande eller innehåll.</translation>
         </message>
         <message>
             <location line="+20" />
             <source>First Parent</source>
-            <translation>Första föräldern</translation>
+            <translation>Första överordnade</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Follow only the first parent on merge commits.</source>
-            <translation>Följ bara den första föräldern vid sammanslagningen.</translation>
+            <translation>Följ endast den första överordnade för sammanslagna incheckningar.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -41412,7 +41412,7 @@ en uppströmsgren på fjärrkontrollen. Vill du skapa grenen
         <message>
             <location line="+0" />
             <source>Use colors in log.</source>
-            <translation>Använd färger i logg.</translation>
+            <translation>Använd färger i loggen.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -41422,7 +41422,7 @@ en uppströmsgren på fjärrkontrollen. Vill du skapa grenen
         <message>
             <location line="+1" />
             <source>Show log also for previous names of the file.</source>
-            <translation>Visa logg även för tidigare namn för filen.</translation>
+            <translation>Visa även loggen för filens tidigare namn.</translation>
         </message>
         <message>
             <location line="+30" />
@@ -41432,38 +41432,38 @@ en uppströmsgren på fjärrkontrollen. Vill du skapa grenen
         <message>
             <location line="+1" />
             <source>Show date instead of sequence.</source>
-            <translation>Visa datum istället för sekvens.</translation>
+            <translation>Visa datum i stället för sekvens.</translation>
         </message>
         <message>
             <location line="-558" />
             <source>Stage Chunk</source>
-            <translation>Steg Chunk</translation>
+            <translation>Indexera block</translation>
         </message>
         <message numerus="yes">
             <location line="+4" />
             <source>Stage Selection (%n Lines)</source>
             <translation>
-                <numerusform>Staga markeringen (%n rad)</numerusform>
-                <numerusform>Staga markeringen (%n rader)</numerusform>
+                <numerusform>Indexera markeringen (%n rad)</numerusform>
+                <numerusform>Indexera markeringen (%n rader)</numerusform>
             </translation>
         </message>
         <message>
             <location line="+5" />
             <source>Unstage Chunk</source>
-            <translation>Uppställningslucka</translation>
+            <translation>Ta bort block från index</translation>
         </message>
         <message numerus="yes">
             <location line="+4" />
             <source>Unstage Selection (%n Lines)</source>
             <translation>
-                <numerusform>Avstaga markeringen (%n rad)</numerusform>
-                <numerusform>Avstaga markeringen (%n rader)</numerusform>
+                <numerusform>Ta bort markeringen från index (%n rad)</numerusform>
+                <numerusform>Ta bort markeringen från index (%n rader)</numerusform>
             </translation>
         </message>
         <message>
             <location line="-56" />
             <source>Chunk successfully unstaged</source>
-            <translation>Chunk lyckades inte iscensätta</translation>
+            <translation>Blocket har tagits bort från index</translation>
         </message>
         <message>
             <source>All</source>
@@ -41477,22 +41477,22 @@ en uppströmsgren på fjärrkontrollen. Vill du skapa grenen
         <message>
             <location line="+436" />
             <source>Git Diff Files</source>
-            <translation>Lägg till jämförelsefiler</translation>
+            <translation>Git-diff för filer</translation>
         </message>
         <message>
             <location line="+34" />
             <source>Git Diff Project</source>
-            <translation>Git diff- projekt</translation>
+            <translation>Git-diff för projekt</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Git Diff Repository</source>
-            <translation>Git diff arkiv</translation>
+            <translation>Git-diff för arkiv</translation>
         </message>
         <message>
             <location line="+240" />
             <source>Generate %1 archive</source>
-            <translation>Skapa %1- arkiv</translation>
+            <translation>Skapa %1-arkiv</translation>
         </message>
         <message>
             <location line="+13" />
@@ -41502,17 +41502,17 @@ en uppströmsgren på fjärrkontrollen. Vill du skapa grenen
         <message>
             <location line="+1" />
             <source>An item named "%1" already exists at this location. Do you want to overwrite it?</source>
-            <translation>En post med namnet "%1" finns redan på denna plats. Vill du skriva över den?</translation>
+            <translation>Det finns redan ett objekt med namnet ”%1” på den här platsen. Vill du skriva över det?</translation>
         </message>
         <message>
             <location line="+76" />
             <source>Create Local Branch</source>
-            <translation>Skapa lokal avdelning</translation>
+            <translation>Skapa lokal gren</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Would you like to create a local branch?</source>
-            <translation>Vill du skapa en lokal avdelning?</translation>
+            <translation>Vill du skapa en lokal gren?</translation>
         </message>
         <message>
             <location line="+81" />
@@ -41527,7 +41527,7 @@ en uppströmsgren på fjärrkontrollen. Vill du skapa grenen
         <message>
             <location line="+33" />
             <source>Nothing to recover</source>
-            <translation>Inget att återhämta sig</translation>
+            <translation>Inget att återställa</translation>
         </message>
         <message>
             <location line="+5" />
