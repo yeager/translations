@@ -80644,22 +80644,22 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+23" />
             <source>Set up WebAssembly?</source>
-            <translation>-Ska du sätta upp WebAssembly?</translation>
+            <translation>Konfigurera WebAssembly?</translation>
         </message>
         <message>
             <location line="+16" />
             <source>WebAssembly Runtime</source>
-            <translation>Webbuppställningskörning</translation>
+            <translation>WebAssembly-körmiljö</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/webassembly/webassemblysettings.cpp" line="+105" />
             <source>Emscripten SDK path:</source>
-            <translation>Sökväg för Emscripten SDK:</translation>
+            <translation>Sökväg till Emscripten SDK:</translation>
         </message>
         <message>
             <location line="-37" />
             <source>Select the root directory of an installed %1. Ensure that the activated SDK version is compatible with the %2 or %3 version that you plan to develop against.</source>
-            <translation>Välj rotkatalogen för en installerad %1. Se till att den aktiverade SDK-versionen är kompatibel med %2 eller %3-versionen som du planerar att utveckla mot.</translation>
+            <translation>Välj rotkatalogen för en installerad %1. Se till att den aktiverade SDK-versionen är kompatibel med den %2- eller %3-version som du avser att utveckla mot.</translation>
         </message>
         <message>
             <location line="+49" />
@@ -80669,22 +80669,22 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="-23" />
             <source>Note: %1 supports Qt %2 for WebAssembly and higher. Your installed lower Qt version(s) are not supported.</source>
-            <translation>Observera: %1 stöder Qt %2 för WebAssembly och högre. Din installerade lägre Qt-versioner stöds inte.</translation>
+            <translation>Observera: %1 stöder Qt %2 för WebAssembly och senare. Dina installerade äldre Qt-versioner stöds inte.</translation>
         </message>
         <message>
             <location line="-49" />
             <source>Adding directories to PATH:</source>
-            <translation>Lägger till kataloger till PATH:</translation>
+            <translation>Lägger till kataloger i PATH:</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Setting environment variables:</source>
-            <translation>Ställa in miljövariabler:</translation>
+            <translation>Ställer in miljövariabler:</translation>
         </message>
         <message>
             <location line="+30" />
             <source>The chosen directory is an emsdk location.</source>
-            <translation>Den valda katalogen är en emsdk- plats.</translation>
+            <translation>Den valda katalogen är en emsdk-plats.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -80730,12 +80730,12 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+19" />
             <source>%1 does not support Qt for WebAssembly below version %2.</source>
-            <translation>%1 har inte stöd för Qt for WebAssembly lägre än version %2.</translation>
+            <translation>%1 har inte stöd för Qt för WebAssembly före version %2.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/webassembly/webassemblyrunconfiguration.cpp" line="+55" />
             <source>Effective emrun call:</source>
-            <translation>Effektiv emulsionssignal:</translation>
+            <translation>Faktiskt emrun-anrop:</translation>
         </message>
         <message>
             <location line="-85" />
@@ -80750,12 +80750,12 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location filename="../../../src/plugins/webassembly/webassemblytoolchain.cpp" line="+75" />
             <source>Emscripten Compiler</source>
-            <translation>Emscripten Compiler Ordförande</translation>
+            <translation>Emscripten-kompilator</translation>
         </message>
         <message>
             <location line="+63" />
             <source>Emscripten Compiler %1</source>
-            <translation>Emscripten Compiler %1</translation>
+            <translation>Emscripten-kompilator %1</translation>
         </message>
         <message>
             <location line="+46" />
@@ -80765,29 +80765,29 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location filename="../../../src/plugins/webassembly/webassemblyemsdk.cpp" line="+104" />
             <source>"%1" config file does not exist in "%2".</source>
-            <translation>"%1" inställningsfil finns inte i "%2".</translation>
+            <translation>Inställningsfilen ”%1” finns inte i ”%2”.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Cached emsdk version is invalid.</source>
-            <translation>Cached emsdk version är ogiltig.</translation>
+            <translation>Den cachade emsdk-versionen är ogiltig.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Failed to locate "%1".</source>
-            <translation>Misslyckades hitta "%1".</translation>
+            <translation>Det gick inte att hitta ”%1”.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Failed to run %1:
 %2</source>
-            <translation>Misslyckades
-köra %1: %2</translation>
+            <translation>Det gick inte att köra %1:
+%2</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Failed to parse emsdk version from output: "%1".</source>
-            <translation>Misslyckades tolka emsdk- version från utmatning: "%1".</translation>
+            <translation>Det gick inte att tolka emsdk-version från utdata: ”%1”.</translation>
         </message>
     </context>
     <context>
