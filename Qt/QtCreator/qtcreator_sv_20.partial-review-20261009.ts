@@ -64610,12 +64610,12 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+235" />
             <source>QMLJS Editor</source>
-            <translation>QMLJS-redigerare</translation>
+            <translation>QML/JS-redigerare</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmljseditor/qmljsoutlinetreeview.cpp" line="+39" />
             <source>Expand All</source>
-            <translation>Expandera alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <location line="+2" />
@@ -64625,31 +64625,31 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location filename="../../../src/plugins/qmljseditor/qmljsquickfixes.cpp" line="+75" />
             <source>Add a Comment to Suppress This Message</source>
-            <translation>Lägg till en kommentar för att undertrycka detta brev</translation>
+            <translation>Lägg till en kommentar för att undertrycka det här meddelandet</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmljseditor/qmljswrapinloader.cpp" line="+74" />
             <source>Wrap Component in Loader</source>
-            <translation>Radera komponent i laddning</translation>
+            <translation>Omslut komponenten med Loader</translation>
         </message>
         <message>
             <location line="+41" />
             <source>// TODO: Move position bindings from the component to the Loader.
 //       Check all uses of 'parent' inside the root element of the component.</source>
-            <translation>// TODO: Flytta positionsbindningar från komponenten till Loader. //
-Kontrollera alla användningar av "föräldra" inuti komponentens rotelement.</translation>
+            <translation>// TODO: Flytta positionskopplingar från komponenten till Loader.
+//       Kontrollera alla användningar av 'parent' i komponentens rotelement.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>//       Rename all outer uses of the id "%1" to "%2.item".</source>
-            <translation>/ / Byt namn på alla yttre användningsområden för id "%1" till "%2.item".</translation>
+            <translation>//       Byt namn på alla externa användningar av id:t "%1" till "%2.item".</translation>
         </message>
         <message>
             <location line="+8" />
             <source>//       Rename all outer uses of the id "%1" to "%2.item.%1".
 </source>
-            <translation>/ / Byt namn på alla yttre användningsområden
-för id "%1" till "%2.item.%1".</translation>
+            <translation>//       Byt namn på alla externa användningar av id:t "%1" till "%2.item.%1".
+</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmljseditor/qmljseditordocument.cpp" line="+815" />
@@ -64669,21 +64669,21 @@ för id "%1" till "%2.item.%1".</translation>
         <message>
             <location line="+1" />
             <source>Code Model Error</source>
-            <translation>Fel i kodmodell</translation>
+            <translation>Kodmodellfel</translation>
         </message>
         <message>
             <source>Qmlls (%1)</source>
-            <translation>Qmlls (%1)</translation>
+            <translation>qmlls (%1)</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmljseditor/qmljsfilecomponentrenamehandler.cpp" line="+94" />
             <source>Rename Usages in Files?</source>
-            <translation>Byt namn på användningsområden i filer?</translation>
+            <translation>Byt namn på användningar i filer?</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Rename "%1" to "%2" in these files as well?</source>
-            <translation>Byt namn på "%1" till "%2" i dessa filer också?</translation>
+            <translation>Byt namn på ”%1” till ”%2” även i de här filerna?</translation>
         </message>
     </context>
     <context>
