@@ -1825,7 +1825,7 @@ Det ska vara en relativ sökväg.</translation>
     </message>
     <message>
         <source>The mode which is used when foreground source is blended over source.</source>
-        <translation>Läget som används när förgrundskällan blandas över källan.</translation>
+        <translation>Läget som används när förgrundskällan blandas ovanpå källan.</translation>
     </message>
     <message>
         <source>Foreground source</source>
@@ -1833,7 +1833,7 @@ Det ska vara en relativ sökväg.</translation>
     </message>
     <message>
         <source>The component that is going to be blended over the source.</source>
-        <translation>Komponenten som ska blandas över källan.</translation>
+        <translation>Komponenten som ska blandas ovanpå källan.</translation>
     </message>
     <message>
         <source>Caching</source>
@@ -1841,7 +1841,7 @@ Det ska vara en relativ sökväg.</translation>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
@@ -2095,7 +2095,7 @@ Det ska vara en relativ sökväg.</translation>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
@@ -4566,7 +4566,7 @@ som definieras i &lt;b&gt;Step size&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
@@ -6134,7 +6134,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
@@ -10363,7 +10363,7 @@ Detta åsidosätter scenens ljusprob.</translation>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
