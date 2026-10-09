@@ -39796,30 +39796,30 @@ Orsak: %3</translation>
         <message>
             <location filename="../../../src/plugins/fossil/commiteditor.cpp" line="+22" />
             <source>Commit Editor</source>
-            <translation>Kommit med redaktör</translation>
+            <translation>Incheckningsredigerare</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/fossil/configuredialog.cpp" line="+47" />
             <source>Configure Repository</source>
-            <translation>Konfigurera förråd</translation>
+            <translation>Konfigurera arkiv</translation>
         </message>
         <message>
             <location line="+5" />
             <location filename="../../../src/plugins/fossil/fossilsettings.cpp" line="+46" />
             <source>Existing user to become an author of changes made to the repository.</source>
-            <translation>Befintlig användare blir upphovsman för ändringar gjorda i förrådet.</translation>
+            <translation>Befintlig användare som ska bli upphovsperson till ändringar i arkivet.</translation>
         </message>
         <message>
             <location line="+4" />
             <location filename="../../../src/plugins/fossil/fossilsettings.cpp" line="+4" />
             <source>SSL/TLS Identity Key</source>
-            <translation>SSL/TLS identitetsnyckel</translation>
+            <translation>SSL/TLS-identitetsnyckel</translation>
         </message>
         <message>
             <location line="+2" />
             <location filename="../../../src/plugins/fossil/fossilsettings.cpp" line="+2" />
             <source>SSL/TLS client identity key to use if requested by the server.</source>
-            <translation>SSL/TLS klientens identitetsnyckel att använda om servern begär det.</translation>
+            <translation>SSL/TLS-klientens identitetsnyckel att använda om servern begär den.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -39831,12 +39831,12 @@ Orsak: %3</translation>
             <location line="+2" />
             <location filename="../../../src/plugins/fossil/fossilsettings.cpp" line="+1" />
             <source>Disable automatic pull prior to commit or update and automatic push after commit or tag or branch creation.</source>
-            <translation>Inaktivera automatisk dragning innan du gör eller uppdaterar och automatisk push efter att du har gjort ett åtagande eller tagg eller en gren.</translation>
+            <translation>Inaktivera automatisk pull före incheckning eller uppdatering och automatisk push efter att en incheckning, tagg eller gren har skapats.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Repository User</source>
-            <translation>Förrådsanvändare</translation>
+            <translation>Arkivanvändare</translation>
         </message>
         <message>
             <location line="+1" />
@@ -39846,7 +39846,7 @@ Orsak: %3</translation>
         <message>
             <location line="+3" />
             <source>Repository Settings</source>
-            <translation>Förrådsinställningar</translation>
+            <translation>Arkivinställningar</translation>
         </message>
         <message>
             <location line="+2" />
@@ -39862,12 +39862,12 @@ Orsak: %3</translation>
         <message>
             <location line="+2" />
             <source>Strip Trailing CR</source>
-            <translation>Spårningsreplikering</translation>
+            <translation>Ta bort avslutande CR</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Show Committers</source>
-            <translation>Visa kommittéer</translation>
+            <translation>Visa incheckare</translation>
         </message>
         <message>
             <location line="+8" />
@@ -39877,12 +39877,12 @@ Orsak: %3</translation>
         <message>
             <location line="+38" />
             <source>Ancestors</source>
-            <translation>Förfäder</translation>
+            <translation>Föregångare</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Descendants</source>
-            <translation>Avslappnande ämnen</translation>
+            <translation>Efterföljare</translation>
         </message>
         <message>
             <location line="+1" />
@@ -39892,7 +39892,7 @@ Orsak: %3</translation>
         <message>
             <location line="+2" />
             <source>Lineage</source>
-            <translation>Radning</translation>
+            <translation>Härkomst</translation>
         </message>
         <message>
             <location line="+7" />
@@ -39912,7 +39912,7 @@ Orsak: %3</translation>
         <message>
             <location line="+1" />
             <source>File Commits</source>
-            <translation>Filen kommer att komma igång</translation>
+            <translation>Filincheckningar</translation>
         </message>
         <message>
             <location line="+1" />
@@ -39927,12 +39927,12 @@ Orsak: %3</translation>
         <message>
             <location line="+1" />
             <source>Tickets</source>
-            <translation>Biljetter</translation>
+            <translation>Ärenden</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Wiki Commits</source>
-            <translation>Wiki-kommittéer</translation>
+            <translation>Wiki-incheckningar</translation>
         </message>
         <message>
             <location line="+7" />
@@ -39947,12 +39947,12 @@ Orsak: %3</translation>
         <message>
             <location line="+1" />
             <source>Create a private check-in that is never synced. Children of private check-ins are automatically private. Private check-ins are not pushed to the remote repository by default.</source>
-            <translation>Skapa en privat incheckning som aldrig synkroniseras. Barn till privata incheckningar är automatiskt privata. Privata incheckningar trycks normalt inte till fjärrarkivet.</translation>
+            <translation>Skapa en privat incheckning som aldrig synkroniseras. Underordnade privata incheckningar blir automatiskt privata. Privata incheckningar pushas inte till fjärrarkivet som standard.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Tag names to apply; comma-separated.</source>
-            <translation>Tag namn att ansöka om; komma- separerade.</translation>
+            <translation>Taggnamn som ska tillämpas, avgränsade med kommatecken.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -39978,12 +39978,12 @@ Orsak: %3</translation>
         <message>
             <location line="-3" />
             <source>Commit Information</source>
-            <translation>Uppgifter från kommittén</translation>
+            <translation>Incheckningsinformation</translation>
         </message>
         <message>
             <location line="+2" />
             <source>New branch:</source>
-            <translation>Ny avdelning:</translation>
+            <translation>Ny gren:</translation>
         </message>
         <message>
             <location line="+2" />
@@ -39998,12 +39998,12 @@ Orsak: %3</translation>
         <message>
             <location filename="../../../src/plugins/fossil/fossileditor.cpp" line="+27" />
             <source>&amp;Annotate %1</source>
-            <translation>&amp;Anteckna %1</translation>
+            <translation>&amp;Annotera %1</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Annotate &amp;Parent Revision %1</source>
-            <translation>Annotera &amp;Parent revision %1</translation>
+            <translation>&amp;Annotera överordnad revision %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/fossil/fossilplugin.cpp" line="+240" />
@@ -40013,22 +40013,22 @@ Orsak: %3</translation>
         <message>
             <location line="+19" />
             <source>Annotate Current File</source>
-            <translation>Anteckna aktuell fil</translation>
+            <translation>Annotera aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Annotate "%1"</source>
-            <translation>Anteckna "%1"</translation>
+            <translation>Annotera ”%1”</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Diff Current File</source>
-            <translation>Diff för aktuell fil</translation>
+            <translation>Jämför aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Diff "%1"</source>
-            <translation>Diff för "%1"</translation>
+            <translation>Jämför ”%1”</translation>
         </message>
         <message>
             <location line="+4" />
@@ -40043,7 +40043,7 @@ Orsak: %3</translation>
         <message>
             <location line="+0" />
             <source>Timeline "%1"</source>
-            <translation>Tidslinje "%1"</translation>
+            <translation>Tidslinje för ”%1”</translation>
         </message>
         <message>
             <location line="+4" />
@@ -40053,12 +40053,12 @@ Orsak: %3</translation>
         <message>
             <location line="+6" />
             <source>Status Current File</source>
-            <translation>Status aktuell fil</translation>
+            <translation>Status för aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Status "%1"</source>
-            <translation>Status "%1"</translation>
+            <translation>Status för ”%1”</translation>
         </message>
         <message>
             <location line="+4" />
@@ -40073,7 +40073,7 @@ Orsak: %3</translation>
         <message>
             <location line="+0" />
             <source>Add "%1"</source>
-            <translation>Lägg till "%1"</translation>
+            <translation>Lägg till ”%1”</translation>
         </message>
         <message>
             <location line="+8" />
@@ -40083,7 +40083,7 @@ Orsak: %3</translation>
         <message>
             <location line="+0" />
             <source>Delete "%1"...</source>
-            <translation>Ta bort "%1"…</translation>
+            <translation>Ta bort ”%1”…</translation>
         </message>
         <message>
             <location line="+8" />
@@ -40093,7 +40093,7 @@ Orsak: %3</translation>
         <message>
             <location line="+0" />
             <source>Revert "%1"...</source>
-            <translation>Återställ %1…</translation>
+            <translation>Återställ ”%1”…</translation>
         </message>
         <message>
             <location line="+78" />
@@ -40129,7 +40129,7 @@ Orsak: %3</translation>
         <message>
             <location line="-234" />
             <source>Triggers a Fossil version control operation.</source>
-            <translation>Utlöser en Fossil version kontroll.</translation>
+            <translation>Utlöser en Fossil-versionshanteringsåtgärd.</translation>
         </message>
         <message>
             <location line="+55" />
@@ -40154,12 +40154,12 @@ Orsak: %3</translation>
         <message>
             <location line="+64" />
             <source>Pull...</source>
-            <translation>Dra…</translation>
+            <translation>Hämta...</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Push...</source>
-            <translation>Tryck…</translation>
+            <translation>Skicka...</translation>
         </message>
         <message>
             <location line="+7" />
@@ -40174,7 +40174,7 @@ Orsak: %3</translation>
         <message>
             <location line="+6" />
             <source>Commit...</source>
-            <translation>- Jag är ledsen.</translation>
+            <translation>Checka in...</translation>
         </message>
         <message>
             <location line="+3" />
@@ -40189,22 +40189,22 @@ Orsak: %3</translation>
         <message>
             <location line="-341" />
             <source>Fossil File Log Editor</source>
-            <translation>Redigerare för Fossilfillogg</translation>
+            <translation>Redigerare för Fossil-fillogg</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Fossil Annotation Editor</source>
-            <translation>Fossilt kommentarseditorName</translation>
+            <translation>Redigerare för Fossil-annoteringar</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Fossil Diff Editor</source>
-            <translation>Redigerare för Fossil jämförelse</translation>
+            <translation>Redigerare för Fossil-jämförelser</translation>
         </message>
         <message>
             <location line="+69" />
             <source>Fossil Commit Log Editor</source>
-            <translation>Fossil Commit loggeditor</translation>
+            <translation>Redigerare för Fossil-incheckningslogg</translation>
         </message>
         <message>
             <location line="+265" />
@@ -40219,12 +40219,12 @@ Orsak: %3</translation>
         <message>
             <location line="+9" />
             <source>Create Repository...</source>
-            <translation>Skapa förråd…</translation>
+            <translation>Skapa arkiv...</translation>
         </message>
         <message>
             <location line="+20" />
             <source>Remote repository is not defined.</source>
-            <translation>Fjärrförråd är inte definierat.</translation>
+            <translation>Fjärrarkiv har inte definierats.</translation>
         </message>
         <message>
             <location line="+29" />
@@ -40234,22 +40234,22 @@ Orsak: %3</translation>
         <message>
             <location line="+46" />
             <source>There are no changes to commit.</source>
-            <translation>Det finns inga förändringar att göra.</translation>
+            <translation>Det finns inga ändringar att checka in.</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Unable to create an editor for the commit.</source>
-            <translation>Kunde inte skapa en editor för att begå.</translation>
+            <translation>Kunde inte skapa en redigerare för incheckningen.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Unable to create a commit editor.</source>
-            <translation>Kunde inte skapa en arkiveditor.</translation>
+            <translation>Kunde inte skapa en incheckningsredigerare.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Commit changes for "%1".</source>
-            <translation>Komma med ändringar för "%1".</translation>
+            <translation>Checka in ändringar för ”%1”.</translation>
         </message>
         <message>
             <location line="+39" />
@@ -40264,27 +40264,27 @@ Orsak: %3</translation>
         <message>
             <location line="+3" />
             <source>Repository already under version control</source>
-            <translation>Förrådet är redan under versionskontroll</translation>
+            <translation>Arkivet är redan versionshanterat</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Repository Created</source>
-            <translation>Förråd skapades</translation>
+            <translation>Arkiv skapat</translation>
         </message>
         <message>
             <location line="+1" />
             <source>A version control repository has been created in %1.</source>
-            <translation>Ett versionskontrollerat förråd har skapats i %1.</translation>
+            <translation>Ett versionshanteringsarkiv har skapats i %1.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Repository Creation Failed</source>
-            <translation>Skapandet av förråd misslyckades</translation>
+            <translation>Det gick inte att skapa arkivet</translation>
         </message>
         <message>
             <location line="+1" />
             <source>A version control repository could not be created in %1.</source>
-            <translation>Ett versionskontrollerat förråd kunde inte skapas i %1.</translation>
+            <translation>Ett versionshanteringsarkiv kunde inte skapas i %1.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/fossil/fossilsettings.cpp" line="+79" />
@@ -40294,12 +40294,12 @@ Orsak: %3</translation>
         <message>
             <location filename="../../../src/plugins/fossil/fossilplugin.cpp" line="+301" />
             <source>Specify a revision other than the default?</source>
-            <translation>Ange en revision annan än standard?</translation>
+            <translation>Vill du ange en annan revision än standardrevisionen?</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Checkout revision, can also be a branch or a tag name.</source>
-            <translation>Utcheckning revision, kan också vara en gren eller ett taggnamn.</translation>
+            <translation>Revision att checka ut; kan även vara namnet på en gren eller tagg.</translation>
         </message>
         <message>
             <location line="+11" />
@@ -40319,7 +40319,7 @@ Orsak: %3</translation>
         <message>
             <location line="+4" />
             <source>Fossil Repositories</source>
-            <translation>Fossilarkiv</translation>
+            <translation>Fossil-arkiv</translation>
         </message>
         <message>
             <location line="+1" />
@@ -40329,7 +40329,7 @@ Orsak: %3</translation>
         <message>
             <location line="+1" />
             <source>Directory to store local repositories by default.</source>
-            <translation>Katalog att lagra lokala förråd i som standard.</translation>
+            <translation>Katalog där lokala arkiv lagras som standard.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -40344,7 +40344,7 @@ Orsak: %3</translation>
         <message>
             <location line="+1" />
             <source>The width of log entry line (&gt;20). Choose 0 to see a single line per entry.</source>
-            <translation>Bredden på log ingångsrad (&gt;20). Välj 0 för att se en enda rad per post.</translation>
+            <translation>Bredden på en loggrad (&gt;20). Välj 0 för att se en rad per post.</translation>
         </message>
         <message>
             <location line="+16" />
@@ -40364,7 +40364,7 @@ Orsak: %3</translation>
         <message>
             <location line="+1" />
             <source>The number of recent commit log entries to show. Choose 0 to see all entries.</source>
-            <translation>Antalet senaste loggposter som ska visas. Välj 0 för att se alla poster.</translation>
+            <translation>Antalet senaste poster i incheckningsloggen som ska visas. Välj 0 för att se alla poster.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -40374,7 +40374,7 @@ Orsak: %3</translation>
         <message>
             <location line="+5" />
             <source>Local Repositories</source>
-            <translation>Lokala förråd</translation>
+            <translation>Lokala arkiv</translation>
         </message>
         <message>
             <location line="+5" />
@@ -40389,12 +40389,12 @@ Orsak: %3</translation>
         <message>
             <location filename="../../../src/plugins/fossil/pullorpushdialog.cpp" line="+23" />
             <source>Pull Source</source>
-            <translation>Dra i källa</translation>
+            <translation>Hämtningskälla</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Push Destination</source>
-            <translation>Tryck på mål</translation>
+            <translation>Överföringsmål</translation>
         </message>
         <message>
             <location line="+3" />
@@ -40424,12 +40424,12 @@ Orsak: %3</translation>
         <message>
             <location line="+3" />
             <source>Include private branches</source>
-            <translation>Inkludera privata filialer</translation>
+            <translation>Inkludera privata grenar</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Allow transfer of private branches.</source>
-            <translation>Tillåt överföring av privata filialer.</translation>
+            <translation>Tillåt överföring av privata grenar.</translation>
         </message>
         <message>
             <location line="+10" />
