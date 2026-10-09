@@ -28,27 +28,27 @@
         </message>
         <message>
             <source>Toggles if the button is checkable.</source>
-            <translation>Växlar om knappen är markerbar.</translation>
+            <translation>Anger om knappen kan markeras.</translation>
         </message>
         <message>
             <source>Toggles if the button is checked.</source>
-            <translation>Växlar om knappen är markerad.</translation>
+            <translation>Anger om knappen är markerad.</translation>
         </message>
         <message>
             <source>Toggles if the button is exclusive. Non-exclusive checkable buttons that belong to the same parent behave as if they are part of the same button group; only one button can be checked at any time.</source>
-            <translation>Växlar om knappen är exklusiv. Icke-exklusiva markerbara knappar som tillhör samma förälder beter sig som de är en del av samma knappgrupp; endast en knapp kan markeras samtidigt.</translation>
+            <translation>Anger om knappen är exklusiv. Markerbara knappar som inte är exklusiva och har samma förälder beter sig som om de ingår i samma knappgrupp. Endast en knapp kan vara markerad åt gången.</translation>
         </message>
         <message>
             <source>Toggles if pressed, released, and clicked actions are repeated while the button is pressed and held down.</source>
-            <translation>Växlar om tryckt, släppt och klickade åtgärder repeteras när knappen trycks ner och hålls nere.</translation>
+            <translation>Anger om åtgärderna för tryckning, frigöring och klick upprepas när knappen hålls nedtryckt.</translation>
         </message>
         <message>
             <source>Sets the initial delay of auto-repetition in milliseconds.</source>
-            <translation>Ställer in initial fördröjning för automatisk repetition i millisekunder.</translation>
+            <translation>Anger den inledande fördröjningen för automatisk upprepning i millisekunder.</translation>
         </message>
         <message>
             <source>Sets the interval between auto-repetitions in milliseconds.</source>
-            <translation>Ställer in intervall mellan automatisk repetition i millisekunder.</translation>
+            <translation>Anger intervallet mellan automatiska upprepningar i millisekunder.</translation>
         </message>
         <message>
             <source>Checked</source>
@@ -60,7 +60,7 @@
         </message>
         <message>
             <source>Auto-repeat</source>
-            <translation>Repetera automatiskt</translation>
+            <translation>Automatisk upprepning</translation>
         </message>
         <message>
             <source>Repeat delay</source>
