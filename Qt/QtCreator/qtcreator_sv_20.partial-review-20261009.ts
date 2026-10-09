@@ -2286,7 +2286,7 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Use Qt Virtual Keyboard</source>
-            <translation>Använd Qt virtuellt tangentbord</translation>
+            <translation>Använd Qt-virtuellt tangentbord</translation>
         </message>
         <message>
             <source>Target Qt Version:</source>
@@ -2294,19 +2294,19 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Save Custom Preset</source>
-            <translation>Spara anpassat förval</translation>
+            <translation>Spara anpassad förinställning</translation>
         </message>
         <message>
             <source>Save Preset</source>
-            <translation>Spara förval</translation>
+            <translation>Spara förinställning</translation>
         </message>
         <message>
             <source>Preset name</source>
-            <translation>Förvalsnamn</translation>
+            <translation>Förinställningens namn</translation>
         </message>
         <message>
             <source>MyPreset</source>
-            <translation>MittFörval</translation>
+            <translation>MyPreset</translation>
         </message>
     </context>
     <context>
@@ -2363,11 +2363,11 @@ Detta går inte att ångra.</translation>
         </message>
         <message>
             <source>Network or example is not available or the link is broken.</source>
-            <translation>Nätverk eller exemplet finns inte tillgängligt eller så är länken trasig.</translation>
+            <translation>Nätverket eller exemplet är inte tillgängligt, eller så är länken trasig.</translation>
         </message>
         <message>
             <source>Download the example.</source>
-            <translation>Hämta ner exemplet.</translation>
+            <translation>Hämta exemplet.</translation>
         </message>
     </context>
     <context>
