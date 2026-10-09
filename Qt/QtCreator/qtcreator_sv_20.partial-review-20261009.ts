@@ -51198,7 +51198,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+1" />
             <source>Synchronize active kit, build, and deploy configuration between projects.</source>
-            <translation>Synkronisera aktiv konfiguration för kit, byggnation och distribution mellan projekt.</translation>
+            <translation>Synkronisera aktivt kit samt bygg- och distributionskonfiguration mellan projekten.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/makestep.cpp" line="+83" />
@@ -51228,7 +51228,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+1" />
             <source>Runs this step only for a top-level build.</source>
-            <translation>Kör detta steg endast för en toppnivåbyggnation.</translation>
+            <translation>Kör detta steg endast för bygge på toppnivå.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -51273,7 +51273,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+2" />
             <source>&lt;code&gt;MAKEFLAGS&lt;/code&gt; specifies a conflicting job count.</source>
-            <translation>&lt;code&gt;MAKEFLAGS&lt;/code&gt; anger ett motstridiga jobbantal.</translation>
+            <translation>&lt;code&gt;MAKEFLAGS&lt;/code&gt; anger ett motstridigt jobbantal.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -51283,7 +51283,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/abstractprocessstep.cpp" line="+95" />
             <source>Configuration is faulty. Check the Issues view for details.</source>
-            <translation>Konfigurationen är felaktig. Kontrollera Problem-vyn för detaljer.</translation>
+            <translation>Konfigurationen är felaktig. Kontrollera vyn Problem för detaljer.</translation>
         </message>
         <message>
             <location line="+78" />
@@ -51306,7 +51306,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         </message>
         <message>
             <source>The process "%1" exited with code %2.</source>
-            <translation>Processen "%1" avslutades med kod %2.</translation>
+            <translation>Processen "%1" avslutades med slutkod %2.</translation>
         </message>
         <message>
             <source>The process "%1" crashed.</source>
@@ -51332,12 +51332,12 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+1" />
             <source>Stop these applications before building?</source>
-            <translation>Stoppa dessa program innan byggnation?</translation>
+            <translation>Stoppa dessa program före bygget?</translation>
         </message>
         <message>
             <location line="+37" />
             <source>The build device failed to prepare for the build of %1 (%2).</source>
-            <translation>Byggenheten misslyckades med att förbereda för byggnation av %1 (%2).</translation>
+            <translation>Byggenheten kunde inte förbereda bygget av %1 (%2).</translation>
         </message>
         <message>
             <location line="+113" />
@@ -51348,7 +51348,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+1" />
             <source>Issues parsed from the compile output.</source>
-            <translation>Problem tolkade från kompilatorns utdata.</translation>
+            <translation>Problem tolkade från kompileringsutdata.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -51359,7 +51359,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
         <message>
             <location line="+1" />
             <source>Issues from the build system, such as CMake or qmake.</source>
-            <translation>Problem från byggsystemet, såsom CMake eller qmake.</translation>
+            <translation>Problem från byggsystemet, till exempel CMake eller qmake.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -51386,17 +51386,17 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
             <location line="+5" />
             <location line="+128" />
             <source>When executing step "%1"</source>
-            <translation>Vid körning av steget "%1"</translation>
+            <translation>När steget "%1" körs</translation>
         </message>
         <message>
             <location line="-261" />
             <source>Build/Deployment canceled</source>
-            <translation>Byggnation/distribution avbröts</translation>
+            <translation>Bygge/distribution avbröts</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Canceled build/deployment.</source>
-            <translation>Avbröt byggnation/distribution.</translation>
+            <translation>Avbröt bygget/distributionen.</translation>
         </message>
         <message>
             <location line="-210" />
@@ -51408,7 +51408,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
             <location line="+328" />
             <location line="+136" />
             <source>Error while building/deploying project %1 (kit: %2)</source>
-            <translation>Fel vid byggnation/distribution av projektet %1 (kit: %2)</translation>
+            <translation>Fel vid bygge/distribution av projektet %1 (kit: %2)</translation>
         </message>
         <message>
             <location line="-171" />
