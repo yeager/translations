@@ -29953,7 +29953,7 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="+50" />
             <source>Option "%1" is invalid.</source>
-            <translation>Alternativet "%1" är ogiltigt.</translation>
+            <translation>Alternativet ”%1” är ogiltigt.</translation>
         </message>
         <message>
             <location line="+63" />
@@ -29963,17 +29963,17 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="+26" />
             <source>Configuration passes sanity checks.</source>
-            <translation>Inställningen klarar sundhetskontroller.</translation>
+            <translation>Konfigurationen klarar rimlighetskontrollerna.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppbuiltinmodelmanagersupport.cpp" line="+132" />
             <source>Follow Symbol to Type is only available when using clangd</source>
-            <translation>Följa Symbol till Type är endast tillgänglig när clangd används</translation>
+            <translation>Följ symbol till typ kan bara användas med clangd</translation>
         </message>
         <message>
             <location line="+129" />
             <source>Folding inactive code is only available with clangd.</source>
-            <translation>Vik inaktiv kod är endast tillgänglig med cangd.</translation>
+            <translation>Det går bara att fälla inaktiv kod med clangd.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppcodemodelinspectordialog.cpp" line="+1449" />
@@ -30003,12 +30003,12 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="+8" />
             <source>Use Built-in Only</source>
-            <translation>Använd inbyggd endast</translation>
+            <translation>Använd endast inbyggd</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Use Clangd Only</source>
-            <translation>Använd Clangd endast</translation>
+            <translation>Använd endast clangd</translation>
         </message>
         <message>
             <location line="+1" />
@@ -30018,7 +30018,7 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="+19" />
             <source>Decision Forest</source>
-            <translation>Beslut skog</translation>
+            <translation>Beslutsskog</translation>
         </message>
         <message>
             <location line="+1" />
@@ -30043,7 +30043,7 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="+521" />
             <source>Note: Multiple parse contexts are available for this file. Choose the preferred one from the editor toolbar.</source>
-            <translation>Observera: Flera parskontexter är tillgängliga för filen. Välj den som föredras i editorns verktygsrad.</translation>
+            <translation>Observera: Flera tolkningskontexter finns för den här filen. Välj önskad kontext i redigerarens verktygsrad.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppcodemodelsettings.cpp" line="+239" />
@@ -30059,28 +30059,28 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location filename="../../../src/plugins/cppeditor/cppmodelmanager.cpp" line="-210" />
             <source>Cannot show preprocessed file: %1</source>
-            <translation>Kan inte visa förbehandlad fil: %1</translation>
+            <translation>Det går inte att visa förbehandlad fil: %1</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Falling back to built-in preprocessor: %1</source>
-            <translation>Faller tillbaka till inbyggd förprocessor: %1</translation>
+            <translation>Återgår till den inbyggda förprocessorn: %1</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Failed to open output file "%1".</source>
-            <translation>Misslyckades med att öppna utdatafilen "%1".</translation>
+            <translation>Det gick inte att öppna utdatafilen ”%1”.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Failed to write output file "%1".</source>
-            <translation>Misslyckades med att skriva utdatafilen "%1".</translation>
+            <translation>Det gick inte att skriva utdatafilen ”%1”.</translation>
         </message>
         <message>
             <location line="+31" />
             <location line="+12" />
             <source>Could not determine which compiler to invoke.</source>
-            <translation>Kunde inte bestämma vilken kompilator att anropa.</translation>
+            <translation>Det gick inte att avgöra vilken kompilator som ska anropas.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -30104,27 +30104,27 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="+653" />
             <source>C++ Indexer: Skipping file "%1" because its path matches the ignore pattern.</source>
-            <translation>C++ Indexer: Hoppar över filen "%1" eftersom dess sökväg matchar ignorera mönstret.</translation>
+            <translation>C++-indexeraren: Hoppar över filen ”%1” eftersom dess sökväg matchar ignoreringsmönstret.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppparsecontext.cpp" line="+34" />
             <source>&lt;p&gt;&lt;b&gt;Active Parse Context&lt;/b&gt;:&lt;br/&gt;%1&lt;/p&gt;&lt;p&gt;Multiple parse contexts (set of defines, include paths, and so on) are available for this file.&lt;/p&gt;&lt;p&gt;Choose a parse context to set it as the preferred one. Clear the preference from the context menu.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;&lt;b&gt;Active Parse Context&lt;/b&gt;:&lt;br/&gt;%1&lt;/p&gt;&lt;p&gt;Multiple parse contexts (set of defines, include paths, and so on) are available for this file.&lt;/p&gt;&lt;p&gt;Choose a parse context to set it as the preferred one. Clear the preference from the context menu.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;&lt;b&gt;Aktiv tolkningskontext&lt;/b&gt;:&lt;br/&gt;%1&lt;/p&gt;&lt;p&gt;Flera tolkningskontexter (uppsättningar av define-satser, include-sökvägar och så vidare) finns för den här filen.&lt;/p&gt;&lt;p&gt;Välj en tolkningskontext för att ange den som önskad. Rensa inställningen från snabbmenyn.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+90" />
             <source>Clear Preferred Parse Context</source>
-            <translation>Rensa föredragen parstext</translation>
+            <translation>Rensa föredragen tolkningskontext</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppprojectinfogenerator.cpp" line="+46" />
             <source>The project contains C source files, but the currently active kit has no C compiler. The code model will not be fully functional.</source>
-            <translation>Projektet innehåller C- källfiler, men det för närvarande aktiva kitet har ingen C- kompilator. Kodmodellen kommer inte att vara fullt fungerande.</translation>
+            <translation>Projektet innehåller C-källfiler, men det aktiva kitet har ingen C-kompilator. Kodmodellen fungerar inte fullt ut.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>The project contains C++ source files, but the currently active kit has no C++ compiler. The code model will not be fully functional.</source>
-            <translation>Projektet innehåller C++ källfiler, men det för närvarande aktiva kitet har ingen C++ kompilator. Kodmodellen kommer inte att vara fullt fungerande.</translation>
+            <translation>Projektet innehåller C++-källfiler, men det aktiva kitet har ingen C++-kompilator. Kodmodellen fungerar inte fullt ut.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cppprojectupdater.cpp" line="+104" />
@@ -30134,7 +30134,7 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location filename="../../../src/plugins/cppeditor/quickfixes/cppquickfixsettings.cpp" line="-433" />
             <source>Quick Fix settings are saved in a file. Existing settings file "%1" found. Should this file be used or a new one be created?</source>
-            <translation>Inställningar för snabbfix sparas i en fil. Befintliga inställningar "%1" hittades. Ska filen användas eller en ny skapas?</translation>
+            <translation>Inställningar för snabbkorrigeringar sparas i en fil. Den befintliga inställningsfilen ”%1” hittades. Ska den filen användas eller ska en ny skapas?</translation>
         </message>
         <message>
             <location line="+5" />
@@ -30144,7 +30144,7 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="+1" />
             <source>Use Existing</source>
-            <translation>Använd befintliga</translation>
+            <translation>Använd befintlig</translation>
         </message>
         <message>
             <location line="+2" />
@@ -30159,27 +30159,27 @@ Dessa prefix används utöver det aktuella filnamnet vid Växla mellan header oc
         <message>
             <location line="+2" />
             <source>Delete Custom Settings File</source>
-            <translation>Ta bort anpassad inställningsfil</translation>
+            <translation>Ta bort fil med anpassade inställningar</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Resets all settings to the global settings.</source>
-            <translation>Återställer alla inställningar till globala inställningar.</translation>
+            <translation>Återställer alla inställningar till de globala inställningarna.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Reset to Global</source>
-            <translation>Återställ till global</translation>
+            <translation>Återställ till globala inställningar</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/cpptoolsreuse.cpp" line="+330" />
             <source>C++ Indexer: Skipping file "%1" because it is too big.</source>
-            <translation>C++ Indexer: Hoppar över filen "%1" eftersom den är för stor.</translation>
+            <translation>C++-indexeraren: Hoppar över filen ”%1” eftersom den är för stor.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cppeditor/clangdiagnosticconfigsmodel.cpp" line="+98" />
             <source>Checks for questionable constructs</source>
-            <translation>Kontroller av tvivelaktiga konstruktioner</translation>
+            <translation>Kontroller av tveksamma konstruktioner</translation>
         </message>
         <message>
             <location line="+13" />
