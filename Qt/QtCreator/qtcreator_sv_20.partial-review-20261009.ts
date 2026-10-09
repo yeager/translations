@@ -24164,13 +24164,13 @@ förutsatt att de var oförändrade före åtgärden.</translation>
             <location line="+9" />
             <source>Show {} &amp;preceding lines</source>
             <extracomment>The placeholder "{}" is replaced by a spin box for selecting a number.</extracomment>
-            <translation>Visa {} &föregående rader</translation>
+            <translation>Visa {} &amp;föregående rader</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Show {} &amp;subsequent lines</source>
             <extracomment>The placeholder "{}" is replaced by a spin box for selecting a number.</extracomment>
-            <translation>Visa {} &efterföljande rader</translation>
+            <translation>Visa {} &amp;efterföljande rader</translation>
         </message>
         <message>
             <location line="+12" />
