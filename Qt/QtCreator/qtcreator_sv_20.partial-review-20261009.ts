@@ -22871,22 +22871,22 @@ Annars måste du ange sökvägen till %2-filen från Copilots neovim-insticksmod
         <message>
             <location line="+2387" />
             <source>Unpin "%1"</source>
-            <translation>Ta bort "%1"</translation>
+            <translation>Lossa ”%1”</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Pin "%1"</source>
-            <translation>Sätt på "%1"</translation>
+            <translation>Fäst ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Pin Editor</source>
-            <translation>Pin- editorName</translation>
+            <translation>Fäst redigeraren</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Diff Against Current File</source>
-            <translation>Diff mot aktuell fil</translation>
+            <translation>Jämför med aktuell fil</translation>
         </message>
         <message>
             <location line="+56" />
@@ -22896,65 +22896,65 @@ Annars måste du ange sökvägen till %2-filen från Copilots neovim-insticksmod
         <message>
             <location line="-2458" />
             <source>X-coordinate of the current editor's upper left corner, relative to screen.</source>
-            <translation>X-koordinaten för aktuella redigerarens övre vänstra hörn, relativt till skärmen.</translation>
+            <translation>X-koordinaten för den aktuella redigerarens övre vänstra hörn, relativt skärmen.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Y-coordinate of the current editor's upper left corner, relative to screen.</source>
-            <translation>Y-koordinaten för aktuella redigerarens övre vänstra hörn, relativt till skärmen.</translation>
+            <translation>Y-koordinaten för den aktuella redigerarens övre vänstra hörn, relativt skärmen.</translation>
         </message>
         <message>
             <location line="+53" />
             <source>Continue Opening Huge Text File?</source>
-            <translation>Fortsätta öppna mycket stor textfil?</translation>
+            <translation>Fortsätt öppna den mycket stora textfilen?</translation>
         </message>
         <message>
             <location line="+1" />
             <source>The text file "%1" has the size %2MB and might take more memory to open and process than available.
 
 Continue?</source>
-            <translation>Textfilen "%1" har storleken %2MB och kan ta mer minne att öppna och behandla än vad som är tillgängligt.
+            <translation>Textfilen ”%1” är %2 MB stor och kan kräva mer minne för att öppnas och behandlas än vad som är tillgängligt.
 
 Fortsätta?</translation>
         </message>
         <message>
             <location line="+64" />
             <source>Could not open "%1": Cannot open files of type "%2".</source>
-            <translation>Kunde inte öppna "%1". Kan inte öppna filer av typen "%2".</translation>
+            <translation>Kunde inte öppna ”%1”: Det går inte att öppna filer av typen ”%2”.</translation>
         </message>
         <message>
             <source>Could not open "%1" for reading. Either the file does not exist or you do not have the permissions to open it.</source>
-            <translation>Kunde inte öppna "%1" för läsning. Antingen finns filen inte eller så har du inte rättighet att öppna den.</translation>
+            <translation>Kunde inte öppna ”%1” för läsning. Antingen finns filen inte eller så saknar du behörighet att öppna den.</translation>
         </message>
         <message>
             <location line="+46" />
             <source>Could not open "%1": Unknown error.</source>
-            <translation>Kunde inte öppna "%1": Okänt fel.</translation>
+            <translation>Kunde inte öppna ”%1”: Okänt fel.</translation>
         </message>
         <message>
             <location line="+1252" />
             <source>Reload %1</source>
-            <translation>Läs om %1</translation>
+            <translation>Läs in %1 igen</translation>
         </message>
         <message>
             <location line="+548" />
             <source>Cancel &amp;&amp; &amp;Diff</source>
-            <translation>Avbryt och &amp;diff</translation>
+            <translation>Avbryt &amp;&amp; &amp;Jämför</translation>
         </message>
         <message>
             <location line="+346" />
             <source>Close "%1"</source>
-            <translation>Stäng "%1"</translation>
+            <translation>Stäng ”%1”</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Close Editor</source>
-            <translation>Stäng redigerare</translation>
+            <translation>Stäng redigeraren</translation>
         </message>
         <message>
             <location line="+22" />
             <source>Close All Except "%1"</source>
-            <translation>Stäng alla förutom "%1"</translation>
+            <translation>Stäng alla utom ”%1”</translation>
         </message>
         <message>
             <location line="+1" />
@@ -23027,7 +23027,7 @@ Fortsätta?</translation>
         <message>
             <location line="+2" />
             <source>Revert %1 to Saved</source>
-            <translation>Återskapa %1 till sparad</translation>
+            <translation>Återställ %1 till sparad version</translation>
         </message>
         <message>
             <location line="+31" />
@@ -23037,7 +23037,7 @@ Fortsätta?</translation>
         <message>
             <location line="+3" />
             <source>Close All Except %1</source>
-            <translation>Stäng alla förutom %1</translation>
+            <translation>Stäng alla utom %1</translation>
         </message>
         <message>
             <location line="+505" />
