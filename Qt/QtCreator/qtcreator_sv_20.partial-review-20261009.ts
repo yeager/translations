@@ -55231,7 +55231,7 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+35" />
             <source>Creates a Qt for Python application that contains only the main code for a QApplication.</source>
-            <translation>Skapar ett Qt for Python-program som innehåller endast huvudkoden för ett QApplication.</translation>
+            <translation>Skapar ett Qt for Python-program som endast innehåller huvudkoden för en QApplication.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -55241,7 +55241,7 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <message>
             <location line="+253" />
             <source>This wizard creates a simple Qt-based console application.</source>
-            <translation>Denna guide skapar ett enkelt Qt-baserat konsollprogram.</translation>
+            <translation>Den här guiden skapar ett enkelt Qt-baserat konsolprogram.</translation>
         </message>
         <message>
             <location line="+19" />
@@ -55313,7 +55313,7 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
             <location line="+205" />
             <location line="+22" />
             <source>Generate initialization and cleanup code</source>
-            <translation>Skapa initialisering och rensning kod</translation>
+            <translation>Skapa kod för initiering och rensning</translation>
         </message>
         <message>
             <source>Creates a project that you can open in Qt Design Studio</source>
@@ -55334,15 +55334,15 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         </message>
         <message>
             <source>The minimum version of Qt you want to build the application for</source>
-            <translation>Minsta versionen av Qt som du vill bygga programmet för</translation>
+            <translation>Den minsta Qt-version som du vill bygga programmet för</translation>
         </message>
         <message>
             <source>Creates a Qt Quick application that can have both QML and C++ code. You can build the application and deploy it to desktop, embedded, and mobile target platforms.
 
 You can select an option to create a project that you can open in Qt Design Studio, which has a visual editor for Qt Quick UIs.</source>
-            <translation>Skapar ett Qt Quick-program som kan ha både QML och C++-kod. Du kan bygga programmet och distribuera det till skrivbord, inbäddade och mobila målplattformar.
+            <translation>Skapar ett Qt Quick-program som kan ha både QML- och C++-kod. Du kan bygga programmet och distribuera det till skrivbords-, inbyggda och mobila målplattformar.
 
-Du kan välja ett alternativ för att skapa ett projekt som du kan öppna i Qt Design Studio, som har en visuell redigerare för Qt Quick-gränssnitt.</translation>
+Du kan välja att skapa ett projekt som går att öppna i Qt Design Studio, som har en visuell redigerare för Qt Quick-gränssnitt.</translation>
         </message>
         <message>
             <location line="+150" />
@@ -55351,21 +55351,21 @@ Du kan välja ett alternativ för att skapa ett projekt som du kan öppna i Qt D
 Use this "compat" version if you want to use other build systems than CMake or Qt versions lower than 6.</source>
             <translation>Skapar ett Qt Quick-program som innehåller ett tomt fönster.
 
-Använd denna "compat"-version om du vill använda andra byggsystem än CMake eller Qt-versioner lägre än 6.</translation>
+Använd den här kompatibilitetsversionen om du vill använda andra byggsystem än CMake eller Qt-versioner äldre än 6.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Qt Quick Application (compat)</source>
-            <translation>Qt Quick-program (compat)</translation>
+            <translation>Qt Quick-program (kompatibilitet)</translation>
         </message>
         <message>
             <location line="-30" />
             <source>Creates a widget-based Qt application that contains a Qt Widgets Designer-based main window and C++ source and header files to implement the application logic.
 
 Preselects a desktop Qt for building the application if available.</source>
-            <translation>Skapar ett widget-baserat Qt-program som innehåller ett Qt Widgets Designer-baserat huvudfönster och C++-källkod och header-filer för att implementera programlogiken.
+            <translation>Skapar ett widgetbaserat Qt-program som innehåller ett huvudfönster baserat på Qt Widgets Designer samt C++-käll- och huvudfiler för programlogiken.
 
-Förväljer en skrivbordsbaserad Qt för att bygga programmet om tillgängligt.</translation>
+Förväljer en skrivbordsversion av Qt för att bygga programmet om en sådan finns.</translation>
         </message>
         <message>
             <location line="-290" />
@@ -55375,7 +55375,7 @@ Förväljer en skrivbordsbaserad Qt för att bygga programmet om tillgängligt.<
         <message>
             <location line="+17" />
             <source>Creates a new unit test project using Qt Test. Unit tests allow you to verify that the code is fit for use and that there are no regressions.</source>
-            <translation>Skapar ett nytt enhetstestprojekt med Qt Test. Enhetstester låter dig verifiera att koden passar för användning och att det inte finns några regressioner.</translation>
+            <translation>Skapar ett nytt enhetstestprojekt med Qt Test. Enhetstester låter dig kontrollera att koden är användbar och att det inte finns några regressioner.</translation>
         </message>
         <message>
             <location line="-42" />
@@ -55399,7 +55399,7 @@ Förväljer en skrivbordsbaserad Qt för att bygga programmet om tillgängligt.<
         <message>
             <location line="+16" />
             <source>Creates a new unit test project using Qt Quick Test. Unit tests allow you to verify that the code is fit for use and that there are no regressions.</source>
-            <translation>Skapar ett nytt enhetstestprojekt med Qt Quick Test. Enhetstester låter dig verifiera att koden passar för användning och att det inte finns några regressioner.</translation>
+            <translation>Skapar ett nytt enhetstestprojekt med Qt Quick Test. Enhetstester låter dig kontrollera att koden är användbar och att det inte finns några regressioner.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -55414,7 +55414,7 @@ Förväljer en skrivbordsbaserad Qt för att bygga programmet om tillgängligt.<
         <message>
             <location line="+3" />
             <source>Google Test (header only)</source>
-            <translation>Google Test (endast header)</translation>
+            <translation>Google Test (endast huvudfil)</translation>
         </message>
         <message>
             <location line="+1" />
@@ -55429,7 +55429,7 @@ Förväljer en skrivbordsbaserad Qt för att bygga programmet om tillgängligt.<
         <message>
             <location line="+11" />
             <source>Creates a new unit test project using Google Test. Unit tests allow you to verify that the code is fit for use and that there are no regressions.</source>
-            <translation>Skapar ett nytt enhetstestprojekt med Google Test. Enhetstester låter dig att verifiera att koden passar för användning och att det inte finns några regressioner.</translation>
+            <translation>Skapar ett nytt enhetstestprojekt med Google Test. Enhetstester låter dig kontrollera att koden är användbar och att det inte finns några regressioner.</translation>
         </message>
         <message>
             <location line="+2" />
