@@ -771,7 +771,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the animated sprite frame</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Width.</source>
@@ -1881,7 +1881,7 @@ Det ska vara en relativ sökväg.</translation>
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the object</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Width</source>
@@ -6935,7 +6935,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the object</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Width</source>
@@ -7795,7 +7795,7 @@ en markeringskomponent.</translation>
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the object</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Width</source>
@@ -7873,7 +7873,7 @@ en markeringskomponent.</translation>
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the object</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Width.</source>
@@ -10605,7 +10605,7 @@ beräkna den totala implicita storleken.</translation>
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the object</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Content width used for calculating the total implicit width.</source>
@@ -10642,7 +10642,7 @@ den totala implicita storleken.</translation>
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the object</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Content width used for calculating the total implicit width.</source>
@@ -37205,7 +37205,7 @@ Det kan hjälpa att bygga om projektet.</translation>
     <message>
         <source>W</source>
         <extracomment>W-coordinate</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>%1 Item</source>
@@ -46721,7 +46721,7 @@ Ytterligare förklaringar kan finnas i vyn Programutdata.</translation>
     </message>
     <message>
         <source>Duration</source>
-        <translation>Speltid</translation>
+        <translation>Varaktighet</translation>
     </message>
     <message>
         <source> (guessed from context)</source>
@@ -58561,7 +58561,7 @@ Bygg programmet qmldump på sidan med alternativ för Qt-version.</translation>
     </message>
     <message>
         <source>Duration</source>
-        <translation>Speltid</translation>
+        <translation>Varaktighet</translation>
     </message>
     <message>
         <source>File</source>
@@ -67153,7 +67153,7 @@ Påverkar indraget för fortsättningsrader.
     </message>
     <message>
         <source>Duration</source>
-        <translation>Speltid</translation>
+        <translation>Varaktighet</translation>
     </message>
     <message>
         <source>Close</source>
@@ -72895,7 +72895,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the object</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Content width used for calculating the total implicit width.</source>
@@ -74627,7 +74627,7 @@ Detta används för att beräkna den totala implicita storleken.</translation>
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the object</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Content width used for calculating the total implicit width.</source>
@@ -76369,7 +76369,7 @@ Are you sure you want to remove it?</source>
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the object</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>H</source>
