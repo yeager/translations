@@ -56554,7 +56554,7 @@ Fel:
     </message>
     <message>
         <source>Not Supported for MCUs</source>
-        <translation>Stöds inte för mikrokontroller</translation>
+        <translation>Stöds inte på mikrokontroller</translation>
     </message>
     <message>
         <source>Timeline Settings</source>
@@ -56606,7 +56606,7 @@ Fel:
     </message>
     <message>
         <source>Failed to generate QSB file for: %1.</source>
-        <translation>Kunde inte generera QSB-fil för: %1.</translation>
+        <translation>Kunde inte generera QSB-fil för %1.</translation>
     </message>
     <message>
         <source>Puppet is starting...</source>
@@ -56614,7 +56614,7 @@ Fel:
     </message>
     <message>
         <source>You can now attach your debugger to the %1(%2) QML Puppet with process id: %3.</source>
-        <translation>Du kan nu ansluta felsökaren till QML Puppet %1(%2) med process-ID: %3.</translation>
+        <translation>Du kan nu ansluta din felsökare till QML Puppet %1 (%2) med process-ID:t %3.</translation>
     </message>
     <message>
         <source>Missing type %1 name.</source>
@@ -56630,7 +56630,7 @@ Fel:
     </message>
     <message>
         <source>Not existing Qml Document %1 for type %2.</source>
-        <translation>Qml-dokumentet %1 finns inte för typen %2.</translation>
+        <translation>QML-dokumentet %1 finns inte för typen %2.</translation>
     </message>
     <message>
         <source>Not existing Qmltypes File %1.</source>
@@ -56646,7 +56646,7 @@ Fel:
     </message>
     <message>
         <source>Exported name %1 is duplicate in module %2.</source>
-        <translation>Det exporterade namnet %1 finns flera gånger i modulen %2.</translation>
+        <translation>Det exporterade namnet %1 förekommer flera gånger i modulen %2.</translation>
     </message>
     <message>
         <source>Exported type %1 is in a different directory than the module %2.</source>
@@ -56662,7 +56662,7 @@ Fel:
     </message>
     <message>
         <source>The QML file is not currently opened in a QML Editor.</source>
-        <translation>QML-filen är för närvarande inte öppnad i en QML-redigerare.</translation>
+        <translation>QML-filen är inte öppnad i en QML-redigerare.</translation>
     </message>
     <message>
         <source>Sibling component spacing:</source>
@@ -56686,7 +56686,7 @@ Fel:
     </message>
     <message>
         <source>Warns about QML features that are not properly supported by the Qt Design Studio.</source>
-        <translation>Varna för QML-funktioner som inte stöds korrekt av Qt Design Studio.</translation>
+        <translation>Varnar för QML-funktioner som inte stöds korrekt av Qt Design Studio.</translation>
     </message>
     <message>
         <source>Warn about using .qml files instead of .ui.qml files</source>
