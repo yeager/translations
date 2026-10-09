@@ -26741,7 +26741,7 @@ Vill du checka ut dem nu?</translation>
         <message>
             <location line="+27" />
             <source>AI</source>
-            <translation>Andra slag</translation>
+            <translation>AI</translation>
         </message>
         <message>
             <location line="+5" />
@@ -26771,12 +26771,12 @@ Vill du checka ut dem nu?</translation>
         <message>
             <location line="+2" />
             <source>The current date (Locale).</source>
-            <translation>Aktuellt datum (Locale).</translation>
+            <translation>Aktuellt datum (lokalt format).</translation>
         </message>
         <message>
             <location line="+3" />
             <source>The current time (Locale).</source>
-            <translation>Aktuell tid (Locale).</translation>
+            <translation>Aktuell tid (lokalt format).</translation>
         </message>
         <message>
             <location line="+3" />
@@ -26788,7 +26788,7 @@ Vill du checka ut dem nu?</translation>
             <location line="+2" />
             <location line="+2" />
             <source>The directory last visited in a file dialog.</source>
-            <translation>Katalogen senast besökt i en fildialogruta.</translation>
+            <translation>Den katalog som senast besöktes i en fildialogruta.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -26808,12 +26808,12 @@ Vill du checka ut dem nu?</translation>
         <message>
             <location line="+4" />
             <source>Is %1 running on any unix-based platform?</source>
-            <translation>Körs %1 på någon unix-baserad plattform?</translation>
+            <translation>Körs %1 på någon Unix-baserad plattform?</translation>
         </message>
         <message>
             <location line="+6" />
             <source>The path list separator for the platform.</source>
-            <translation>Sökväglistans avgränsare för plattformen.</translation>
+            <translation>Avgränsaren i plattformens sökvägslista.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -26823,12 +26823,12 @@ Vill du checka ut dem nu?</translation>
         <message>
             <location line="+3" />
             <source>.bat on windows, empty on all other platforms.</source>
-            <translation>.bat på fönster, tom på alla andra plattformar.</translation>
+            <translation>.bat på Windows, tom på alla andra plattformar.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>The path to the running %1 itself.</source>
-            <translation>Sökvägen till själva körande %1.</translation>
+            <translation>Sökvägen till den körande instansen av %1.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -26845,12 +26845,12 @@ Vill du checka ut dem nu?</translation>
         <message>
             <location line="+6" />
             <source>The current date (QDate formatstring).</source>
-            <translation>Aktuellt datum (QDate formatstring).</translation>
+            <translation>Aktuellt datum (formatsträng för QDate).</translation>
         </message>
         <message>
             <location line="+5" />
             <source>The current time (QTime formatstring).</source>
-            <translation>Aktuell tid (QTime formatstring).</translation>
+            <translation>Aktuell tid (formatsträng för QTime).</translation>
         </message>
         <message>
             <location line="+2" />
@@ -26875,17 +26875,17 @@ Vill du checka ut dem nu?</translation>
         <message>
             <location line="+8" />
             <source>The terminal configured in Environment &gt; Sytem.</source>
-            <translation>Terminalen konfigurerad i Miljö &gt; Sytem.</translation>
+            <translation>Terminalen som är inställd under Miljö &gt; System.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>The arguments passed to the terminal command to run in terminal configured in Environment &gt; System.</source>
-            <translation>Argumenten skickades till terminalkommandot för att köra i terminalen konfigurerad i Miljö &gt; System.</translation>
+            <translation>Argumenten som skickas till terminalkommandot för att köra i terminalen som är inställd under Miljö &gt; System.</translation>
         </message>
         <message>
             <location line="+68" />
             <source>%1 &gt; %2 Preferences...</source>
-            <translation>%1 &gt; %2 inställningar…</translation>
+            <translation>%1 &gt; %2 Inställningar…</translation>
         </message>
         <message>
             <location line="-305" />
@@ -26900,7 +26900,7 @@ Vill du checka ut dem nu?</translation>
         <message>
             <location line="+42" />
             <source>QStandardPaths::%1 location on the local filesystem.</source>
-            <translation>QStandardPaths::%1 plats på det lokala filsystemet.</translation>
+            <translation>Platsen för QStandardPaths::%1 i det lokala filsystemet.</translation>
         </message>
         <message>
             <location line="+343" />
@@ -26911,8 +26911,8 @@ Vill du checka ut dem nu?</translation>
             <location line="+12" />
             <source>The settings file "%1" is not writable.
 You will not be able to store any %2 settings.</source>
-            <translation>Inställningsfilen "%1" är inte skrivbar.
-Du kommer inte kunna lagra några %2-inställningar.</translation>
+            <translation>Inställningsfilen ”%1” är inte skrivbar.
+Du kan inte lagra några inställningar för %2.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -26928,18 +26928,18 @@ Du kommer inte kunna lagra några %2-inställningar.</translation>
             <location line="+4" />
             <source>Error reading settings file "%1": %2
 You will likely experience further problems using this instance of %3.</source>
-            <translation>Fel vid läsning av inställningsfilen "%1": %2 Du kommer sannolikt
-att uppleva ytterligare problem med denna instans av %3.</translation>
+            <translation>Fel när inställningsfilen ”%1” lästes: %2
+Du kommer sannolikt att få ytterligare problem med den här instansen av %3.</translation>
         </message>
         <message>
             <location line="-349" />
             <source>%1 collects crash reports for the sole purpose of fixing bugs. To disable this feature go to %2.</source>
-            <translation>%1 samlar kraschrapporter enbart för att rätta fel. För att inaktivera funktionen, gå till %2.</translation>
+            <translation>%1 samlar in kraschrapporter enbart för att åtgärda fel. Gå till %2 för att inaktivera funktionen.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>%1 can collect crash reports for the sole purpose of fixing bugs. To enable this feature go to %2.</source>
-            <translation>%1 kan samla in kraschrapporter av den enkla anledningen att rätta till fel. För att aktivera funktionen, gå till %2.</translation>
+            <translation>%1 kan samla in kraschrapporter enbart för att åtgärda fel. Gå till %2 för att aktivera funktionen.</translation>
         </message>
         <message>
             <location line="+8" />
