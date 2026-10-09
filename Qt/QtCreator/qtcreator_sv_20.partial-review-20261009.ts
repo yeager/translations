@@ -40928,7 +40928,7 @@ Orsak: %3</translation>
         <message>
             <location line="+30" />
             <source>&amp;Track</source>
-            <translation>Sp&amp;åra</translation>
+            <translation>S&amp;påra</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/changeselectiondialog.cpp" line="+58" />
