@@ -38168,12 +38168,12 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location filename="../../../src/plugins/dotnet/dotnetplugin.cpp" line="+85" />
             <source>Install C# language server via dotnet.</source>
-            <translation>Installera C# språkserver via dotnet.</translation>
+            <translation>Installera C#-språkservern via dotnet.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Set up C# language server (%1).</source>
-            <translation>Ställ in C# språkserver (%1).</translation>
+            <translation>Konfigurera C#-språkservern (%1).</translation>
         </message>
         <message>
             <location line="+2" />
@@ -38183,17 +38183,17 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+0" />
             <source>Set Up</source>
-            <translation>Ställ in</translation>
+            <translation>Konfigurera</translation>
         </message>
         <message>
             <location line="+9" />
             <source>C# Language Server</source>
-            <translation>C# Språkserver</translation>
+            <translation>C#-språkserver</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Install C# Language Server</source>
-            <translation>Installera C# språkserver</translation>
+            <translation>Installera C#-språkservern</translation>
         </message>
         <message>
             <location line="+1" />
@@ -38203,7 +38203,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+12" />
             <source>Installing "%1" failed. Expected language server (%2) is either not found or not executable.</source>
-            <translation>Installera "%1" misslyckades. Förväntad språkserver (%2) är antingen inte hittad eller inte körbar.</translation>
+            <translation>Installationen av ”%1” misslyckades. Den förväntade språkservern (%2) hittades inte eller är inte körbar.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -38213,7 +38213,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+8" />
             <source>The installation of "%1" was canceled by timeout.</source>
-            <translation>Installationen av "%1" avbröts på grund av tidsgräns.</translation>
+            <translation>Installationen av ”%1” avbröts på grund av tidsgränsen.</translation>
         </message>
     </context>
     <context>
@@ -38226,12 +38226,12 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+2" />
             <source>Kill Word</source>
-            <translation>Döda ord</translation>
+            <translation>Klipp ut ord</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Kill Line</source>
-            <translation>Döda rad</translation>
+            <translation>Klipp ut rad</translation>
         </message>
         <message>
             <location line="+2" />
@@ -38241,22 +38241,22 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+3" />
             <source>Go to File Start</source>
-            <translation>Gå till filstart</translation>
+            <translation>Gå till början av filen</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Go to File End</source>
-            <translation>Gå till filslut</translation>
+            <translation>Gå till slutet av filen</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Go to Line Start</source>
-            <translation>Gå till radstart</translation>
+            <translation>Gå till början av raden</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Go to Line End</source>
-            <translation>Gå till radslut</translation>
+            <translation>Gå till slutet av raden</translation>
         </message>
         <message>
             <location line="+2" />
@@ -38296,7 +38296,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+2" />
             <source>Exchange Cursor and Mark</source>
-            <translation>Bytescursor och märke</translation>
+            <translation>Växla markör och markering</translation>
         </message>
         <message>
             <location line="+2" />
@@ -38311,17 +38311,17 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+2" />
             <source>Yank</source>
-            <translation>Yank</translation>
+            <translation>Klistra in</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Scroll Half Screen Down</source>
-            <translation>Rulla halva skärmen ner</translation>
+            <translation>Rulla ned en halv skärm</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Scroll Half Screen Up</source>
-            <translation>Rulla halva skärmen upp</translation>
+            <translation>Rulla upp en halv skärm</translation>
         </message>
     </context>
     <context>
