@@ -16917,12 +16917,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location filename="../../../src/plugins/beautifier/artisticstyle/artisticstyle.cpp" line="+253" />
             <source>&amp;Artistic Style</source>
-            <translation>&amp;Artistic stil</translation>
+            <translation>&amp;Artistic Style</translation>
         </message>
         <message>
             <location line="-201" />
             <source>Artistic Style</source>
-            <translation>Konstnärlig stil</translation>
+            <translation>Artistic Style</translation>
         </message>
         <message>
             <location line="+159" />
@@ -16949,7 +16949,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+3" />
             <source>Use file .astylerc or astylerc in HOME</source>
-            <translation>Använd file.astylerc eller astylerc i HEM</translation>
+            <translation>Använd filen .astylerc eller astylerc i HOME</translation>
         </message>
         <message>
             <location line="+4" />
@@ -16968,7 +16968,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="-141" />
             <source>Artistic Style command:</source>
-            <translation>Kommando för konstnärlig stil:</translation>
+            <translation>Artistic Style-kommando:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/beautifier/beautifiertool.cpp" line="-259" />
@@ -16984,12 +16984,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location filename="../../../src/plugins/beautifier/beautifiertool.cpp" line="-113" />
             <source>Error in Beautifier: %1</source>
-            <translation>Fel i förskönare: %1</translation>
+            <translation>Fel i Beautifier: %1</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Cannot get configuration file for %1.</source>
-            <translation>Kan inte få konfigurationsfilen för %1.</translation>
+            <translation>Kan inte hämta konfigurationsfilen för %1.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -17007,7 +17007,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
             <location line="+6" />
             <source>&amp;Format at Cursor</source>
             <extracomment>Menu entry</extracomment>
-            <translation>&amp;Format vid förbannelsen</translation>
+            <translation>&amp;Formatera vid markören</translation>
         </message>
         <message>
             <location line="+6" />
@@ -17040,7 +17040,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+194" />
             <source>Fallback style:</source>
-            <translation>Bakgrundsstil:</translation>
+            <translation>Reservstil:</translation>
         </message>
         <message>
             <location line="-199" />
@@ -17105,7 +17105,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location filename="../../../src/plugins/beautifier/generalsettings.cpp" line="-13" />
             <source>Enable auto format on file save</source>
-            <translation>Automatisk formatering vid filsparning</translation>
+            <translation>Aktivera automatisk formatering när filen sparas</translation>
         </message>
         <message>
             <location line="+7" />
@@ -17130,17 +17130,17 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location filename="../../../src/plugins/beautifier/beautifierplugin.cpp" line="-4" />
             <source>Beautifier</source>
-            <translation>Förskönare</translation>
+            <translation>Beautifier</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/beautifier/uncrustify/uncrustify.cpp" line="+46" />
             <source>&amp;Uncrustify</source>
-            <translation>&amp;Uncrustifiera</translation>
+            <translation>&amp;Uncrustify</translation>
         </message>
         <message>
             <location line="-190" />
             <source>Uncrustify</source>
-            <translation>Orusta</translation>
+            <translation>Uncrustify</translation>
         </message>
         <message>
             <location line="+16" />
@@ -17155,7 +17155,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+11" />
             <source>Uncrustify file (*.cfg)</source>
-            <translation>Avrusta filen (*.cfg)</translation>
+            <translation>Uncrustify-fil (*.cfg)</translation>
         </message>
         <message>
             <location line="-18" />
@@ -17170,12 +17170,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+1" />
             <source>For action Format Selected Text</source>
-            <translation>För åtgärdsformat markerad text</translation>
+            <translation>För åtgärden Formatera markerad text</translation>
         </message>
         <message>
             <location line="-22" />
             <source>Uncrustify command:</source>
-            <translation>Kommandot Uncrustifiera:</translation>
+            <translation>Uncrustify-kommando:</translation>
         </message>
     </context>
     <context>
