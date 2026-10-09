@@ -627,15 +627,15 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>No match found.</source>
-            <translation>Ingen matchning hittades.</translation>
+            <translation>Ingen träff hittades.</translation>
         </message>
         <message>
             <source>Looks like you don't have any assets yet.</source>
-            <translation>Ser ut som om du inte har några tillgångar ännu.</translation>
+            <translation>Det verkar som att du inte har några tillgångar ännu.</translation>
         </message>
         <message>
             <source>Drag-and-drop your assets here or click the '+' button to browse assets from the file system.</source>
-            <translation>Dra och släpp dina tillgångar här eller klicka på "+"-knappen för att bläddra efter tillgångar från filsystemet.</translation>
+            <translation>Dra och släpp dina tillgångar här eller klicka på knappen ”+” för att bläddra bland tillgångar i filsystemet.</translation>
         </message>
     </context>
     <context>
@@ -658,7 +658,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Expand All</source>
-            <translation>Expandera alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <source>Collapse All</source>
@@ -666,7 +666,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Edit in Effect Composer</source>
-            <translation>Redigera i Effektkompositör</translation>
+            <translation>Redigera i Effect Composer</translation>
         </message>
         <message>
             <source>Rename Folder</source>
@@ -757,11 +757,11 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         <name>BakeLights</name>
         <message>
             <source>Bake Lights</source>
-            <translation>Bakade lampor</translation>
+            <translation>Beräkna ljus</translation>
         </message>
         <message>
             <source>Bake lights for the current 3D scene.</source>
-            <translation>Bakade lampor för aktuella 3D-scenen.</translation>
+            <translation>Beräkna ljus för den aktuella 3D-scenen.</translation>
         </message>
     </context>
     <context>
