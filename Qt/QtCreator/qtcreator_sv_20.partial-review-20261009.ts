@@ -9751,27 +9751,27 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+108" />
             <source>Prompt error: %1</source>
-            <translation>Snabbt fel: %1</translation>
+            <translation>Fel i prompten: %1</translation>
         </message>
         <message>
             <location line="+53" />
             <source>Failed to set config option: %1</source>
-            <translation>Misslyckades ställa in inställningsalternativ: %1</translation>
+            <translation>Det gick inte att ställa in konfigurationsflaggan: %1</translation>
         </message>
         <message>
             <location line="+116" />
             <source>Failed to list sessions: %1</source>
-            <translation>Misslyckades lista sessioner: %1</translation>
+            <translation>Det gick inte att lista sessioner: %1</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Failed to list sessions: invalid response.</source>
-            <translation>Misslyckades lista sessioner: ogiltigt svar.</translation>
+            <translation>Det gick inte att lista sessioner: ogiltigt svar.</translation>
         </message>
         <message>
             <location line="+22" />
             <source>Failed to load session: %1</source>
-            <translation>Misslyckades ladda session: %1</translation>
+            <translation>Det gick inte att läsa in sessionen: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/acpclient/acpchattab.cpp" line="+46" />
@@ -9782,7 +9782,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="-489" />
             <source>No ACP servers configured. Add a server in the settings to get started.</source>
-            <translation>Inga AVS- servrar inställda. Lägg till en server i inställningarna för att komma igång.</translation>
+            <translation>Inga ACP-servrar är konfigurerade. Lägg till en server i inställningarna för att komma igång.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -9794,17 +9794,17 @@ Kontrollera utdatapanelen för mer information.</translation>
             <location line="-45" />
             <location line="+47" />
             <source>Open ACP server settings.</source>
-            <translation>Öppna AVS- serverinställningar.</translation>
+            <translation>Öppna inställningarna för ACP-servern.</translation>
         </message>
         <message>
             <location line="-25" />
             <source>Choose AI Agent</source>
-            <translation>Välj AI- agent</translation>
+            <translation>Välj AI-agent</translation>
         </message>
         <message>
             <location line="+60" />
             <source>Authentication Required</source>
-            <translation>Behörighetskrav</translation>
+            <translation>Autentisering krävs</translation>
         </message>
         <message>
             <location line="+11" />
@@ -9822,12 +9822,12 @@ Kontrollera utdatapanelen för mer information.</translation>
             <location line="-54" />
             <location filename="../../../src/plugins/acpclient/acpmessageview.cpp" line="+692" />
             <source>Authenticate</source>
-            <translation>Behörighetskontroll</translation>
+            <translation>Autentisera</translation>
         </message>
         <message>
             <location line="+139" />
             <source>Authentication failed: %1</source>
-            <translation>Behörighetskontroll misslyckades: %1</translation>
+            <translation>Autentisering misslyckades: %1</translation>
         </message>
         <message>
             <location line="+211" />
@@ -9847,23 +9847,23 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location filename="../../../src/plugins/acpclient/acpclientplugin.cpp" line="+59" />
             <source>ACP Client</source>
-            <translation>AVS-kund</translation>
+            <translation>ACP-klient</translation>
         </message>
         <message>
             <location line="+5" />
             <location line="+12" />
             <source>Show Agentic AI Chat in Side Panel</source>
-            <translation>Visa agentisk AI-chatt i sidopanelen</translation>
+            <translation>Visa AI-chatt med agentfunktioner i sidopanelen</translation>
         </message>
         <message>
             <location line="+29" />
             <source>Inspect ACP Client...</source>
-            <translation>Inspektera AVS-klienten…</translation>
+            <translation>Inspektera ACP-klienten…</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/acpclient/acpinspector.cpp" line="+71" />
             <source>Expand All</source>
-            <translation>Expandera alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <location line="+60" />
@@ -9888,7 +9888,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+67" />
             <source>ACP Inspector</source>
-            <translation>AVS-inspektör</translation>
+            <translation>ACP-inspektör</translation>
         </message>
         <message>
             <location line="+6" />
@@ -9903,7 +9903,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+10" />
             <source>ACP Client:</source>
-            <translation>AVS-kund:</translation>
+            <translation>ACP-klient:</translation>
         </message>
         <message>
             <location line="+69" />
@@ -9933,12 +9933,12 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+23" />
             <source>Permission Request</source>
-            <translation>Begäran om tillstånd</translation>
+            <translation>Behörighetsbegäran</translation>
         </message>
         <message>
             <location line="+203" />
             <source>Authenticated</source>
-            <translation>Behörighetskontroll</translation>
+            <translation>Autentiserad</translation>
         </message>
         <message>
             <location line="+513" />
@@ -9948,7 +9948,7 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+2" />
             <source>Denied</source>
-            <translation>Förnekad</translation>
+            <translation>Nekad</translation>
         </message>
         <message>
             <location line="+138" />
@@ -9990,12 +9990,12 @@ Kontrollera utdatapanelen för mer information.</translation>
         <message>
             <location line="+2" />
             <source>The display name.</source>
-            <translation>Visandets namn.</translation>
+            <translation>Visningsnamnet.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&lt;New Server&gt;</source>
-            <translation>&lt;New Server&gt; Ordförande</translation>
+            <translation>&lt;Ny server&gt;</translation>
         </message>
         <message>
             <location line="+2" />
