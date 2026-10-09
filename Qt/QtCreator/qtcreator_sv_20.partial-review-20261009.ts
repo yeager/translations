@@ -21445,12 +21445,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+2" />
             <source>CSMes file:</source>
-            <translation>CSMes- fil:</translation>
+            <translation>CSMes-fil:</translation>
         </message>
         <message>
             <location line="+16" />
             <source>No valid CoverageScanner found.</source>
-            <translation>Ingen giltig täckningskanner hittades.</translation>
+            <translation>Ingen giltig CoverageScanner hittades.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -21461,7 +21461,7 @@ Ange först en giltig körbar fil.</translation>
             <location line="+48" />
             <location filename="../../../src/plugins/coco/globalsettings.cpp" line="+215" />
             <source>Coco</source>
-            <translation>Ordförande</translation>
+            <translation>Coco</translation>
         </message>
         <message>
             <source>CSMes:</source>
@@ -21470,7 +21470,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location filename="../../../src/plugins/coco/buildsettings.cpp" line="+127" />
             <source>Save &amp;&amp; Re-configure</source>
-            <translation>Spara &amp; &amp; &amp; &amp; &amp; Anpassa</translation>
+            <translation>Spara &amp;&amp; konfigurera om</translation>
         </message>
         <message>
             <location line="+6" />
@@ -21501,7 +21501,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+7" />
             <source>Additional qmake arguments:</source>
-            <translation>Ytterligare argument för qake:</translation>
+            <translation>Ytterligare qmake-argument:</translation>
         </message>
         <message>
             <location line="+3" />
@@ -21511,27 +21511,27 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+2" />
             <source>Feature file:</source>
-            <translation>Featurefil:</translation>
+            <translation>Funktionsfil:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coco/cocobuildstep.cpp" line="+84" />
             <source>Coco Code Coverage: Reconfiguring...</source>
-            <translation>Coco- kodtäckning: Ändra inställning…</translation>
+            <translation>Coco-kodtäckning: konfigurerar om…</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Coco Code Coverage: No working Coco installation.</source>
-            <translation>Coco Code Täckning: Ingen fungerande Coco installation.</translation>
+            <translation>Coco-kodtäckning: ingen fungerande Coco-installation.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Coco Code Coverage: Enabled.</source>
-            <translation>Coco- kodtäckning: Aktiverad.</translation>
+            <translation>Coco-kodtäckning: aktiverad.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Disable Coverage</source>
-            <translation>Inaktivera täckning</translation>
+            <translation>Inaktivera kodtäckning</translation>
         </message>
         <message>
             <location line="+2" />
@@ -21541,7 +21541,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+1" />
             <source>Enable Coverage</source>
-            <translation>Aktivera täckning</translation>
+            <translation>Aktivera kodtäckning</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coco/cocoprojectwidget.cpp" line="-243" />
@@ -21556,7 +21556,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+8" />
             <source>CoverageScanner options:</source>
-            <translation>Täckningskanneralternativ:</translation>
+            <translation>CoverageScanner-alternativ:</translation>
         </message>
         <message>
             <location line="+4" />
@@ -21586,7 +21586,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+24" />
             <source>Enable code coverage for build configuration "%1"</source>
-            <translation>Aktivera kodtäckning för bygginställning "%1"</translation>
+            <translation>Aktivera kodtäckning för byggkonfigurationen ”%1”</translation>
         </message>
         <message>
             <location line="+12" />
@@ -21596,37 +21596,37 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+16" />
             <source>Build Configuration changed to "%1".</source>
-            <translation>Bygginställningen ändrad till "%1".</translation>
+            <translation>Byggkonfigurationen ändrades till ”%1”.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Re-configuring stopped by user.</source>
-            <translation>Omkonfigurera stoppas av användaren.</translation>
+            <translation>Omkonfigurationen stoppades av användaren.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Error when configuring with "%1". Check General Messages for more information.</source>
-            <translation>Fel vid anpassning med "%1". Kontrollera Allmänna meddelanden för mer information.</translation>
+            <translation>Fel vid konfiguration med ”%1”. Kontrollera Allmänna meddelanden för mer information.</translation>
         </message>
         <message>
             <location line="+23" />
             <source>Stop Re-configuring</source>
-            <translation>Stoppa ominställning</translation>
+            <translation>Stoppa omkonfiguration</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Re-configure</source>
-            <translation>Ändra inställning</translation>
+            <translation>Konfigurera om</translation>
         </message>
         <message>
             <location line="+30" />
             <source>Override &lt;&lt;</source>
-            <translation>Överskrid &lt; &lt; &lt;</translation>
+            <translation>Åsidosätt &lt;&lt;</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Override &gt;&gt;</source>
-            <translation>Överskridning &gt;&gt;</translation>
+            <translation>Åsidosätt &gt;&gt;</translation>
         </message>
         <message>
             <location line="+35" />
@@ -21641,12 +21641,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+16" />
             <source>Stop re-configuring.</source>
-            <translation>Sluta konfigurera om.</translation>
+            <translation>Stoppa omkonfiguration.</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Re-configure.</source>
-            <translation>- Konfigurera om.</translation>
+            <translation>Konfigurera om.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -21676,7 +21676,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+8" />
             <source>Coco Directory</source>
-            <translation>Coco- katalog</translation>
+            <translation>Coco-katalog</translation>
         </message>
         <message>
             <location line="+38" />
@@ -21686,32 +21686,32 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+54" />
             <source>Error: CoverageScanner at "%1" did not start.</source>
-            <translation>Fel: TäckningSkanner vid "%1" startade inte.</translation>
+            <translation>Fel: CoverageScanner på ”%1” startade inte.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Error: CoverageScanner at "%1" did not finish.</source>
-            <translation>Fel: TäckningSkanner vid "%1" slutade inte.</translation>
+            <translation>Fel: CoverageScanner på ”%1” avslutades inte.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Valid CoverageScanner found at "%1":</source>
-            <translation>Giltig täckningScanner finns på "%1":</translation>
+            <translation>Giltig CoverageScanner hittades på ”%1”:</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Error: CoverageScanner at "%1" did not run correctly.</source>
-            <translation>Fel: TäckningSkanner vid "%1" körde inte korrekt.</translation>
+            <translation>Fel: CoverageScanner på ”%1” kördes inte korrekt.</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Found Coco directory "%1".</source>
-            <translation>Hittade Coco-katalogen "%1".</translation>
+            <translation>Hittade Coco-katalogen ”%1”.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Checked Coco directory "%1".</source>
-            <translation>Kontrollerad Coco-katalog "%1".</translation>
+            <translation>Coco-katalogen ”%1” kontrollerades.</translation>
         </message>
     </context>
     <context>
