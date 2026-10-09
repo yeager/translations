@@ -20263,7 +20263,7 @@ Utdata:
         <message>
             <location line="+85" />
             <source>Default Clang-Tidy and Clazy checks</source>
-            <translation>Standardkontroller av Clang- Tidy och Clazy</translation>
+            <translation>Standardkontroller för Clang-Tidy och Clazy</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/clangtools/diagnosticconfigswidget.cpp" line="-375" />
@@ -20271,14 +20271,14 @@ Utdata:
             <location line="+945" />
             <location line="+35" />
             <source>Edit Checks as String...</source>
-            <translation>Redigera Kontrollerar som sträng…</translation>
+            <translation>Redigera kontroller som sträng…</translation>
         </message>
         <message>
             <location line="-1050" />
             <source>Could not query the supported checks from the clang-tidy executable.
 Set a valid executable first.</source>
-            <translation>Kunde inte fråga de kontrollerade kontrollerna som stöds från
-körbar körbar cang- tidy. Ange ett giltigt körbart först.</translation>
+            <translation>Kunde inte hämta de kontroller som stöds från den körbara clang-tidy-filen.
+Ange först en giltig körbar fil.</translation>
         </message>
         <message>
             <location line="+48" />
@@ -20309,14 +20309,14 @@ körbar körbar cang- tidy. Ange ett giltigt körbart först.</translation>
         <message>
             <location line="+1" />
             <source>When enabling a level explicitly, also enable lower levels (Clazy semantic).</source>
-            <translation>När en nivå uttryckligen möjliggörs, även lägre nivåer (Clazy semantic).</translation>
+            <translation>När en nivå aktiveras uttryckligen aktiveras även lägre nivåer (Clazy-semantik).</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Could not query the supported checks from the clazy-standalone executable.
 Set a valid executable first.</source>
-            <translation>Kunde inte fråga de kontrollerade kontrollerna som stöds från körbar
-körbar clazy- fristående. Ange först ett giltigt körbart program.</translation>
+            <translation>Kunde inte hämta de kontroller som stöds från den körbara clazy-standalone-filen.
+Ange först en giltig körbar fil.</translation>
         </message>
         <message>
             <location line="+46" />
@@ -20356,22 +20356,22 @@ körbar clazy- fristående. Ange först ett giltigt körbart program.</translati
         <message>
             <location line="+190" />
             <source>Manual Level: Very few false positives</source>
-            <translation>Manuell nivå: Mycket få falska positiva</translation>
+            <translation>Manuell nivå: mycket få falska positiva resultat</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Level 0: No false positives</source>
-            <translation>Nivå 0: Inga falska positiva värden</translation>
+            <translation>Nivå 0: inga falska positiva resultat</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Level 1: Very few false positives</source>
-            <translation>Nivå 1: Mycket få falska positiva</translation>
+            <translation>Nivå 1: mycket få falska positiva resultat</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Level 2: More false positives</source>
-            <translation>Nivå 2: Fler falska positiva</translation>
+            <translation>Nivå 2: fler falska positiva resultat</translation>
         </message>
         <message>
             <location line="+2" />
@@ -20386,7 +20386,7 @@ körbar clazy- fristående. Ange först ett giltigt körbart program.</translati
         <message>
             <location line="+256" />
             <source>Clang-Tidy Checks</source>
-            <translation>Kontroller av Clang-Tidy</translation>
+            <translation>Clang-Tidy-kontroller</translation>
         </message>
         <message>
             <location line="+1" />
@@ -20397,7 +20397,7 @@ körbar clazy- fristående. Ange först ett giltigt körbart program.</translati
             <location line="+32" />
             <location line="+35" />
             <source>View Checks as String...</source>
-            <translation>Visa Kontrollerar som sträng…</translation>
+            <translation>Visa kontroller som sträng…</translation>
         </message>
         <message numerus="yes">
             <location line="+115" />
@@ -20442,7 +20442,7 @@ körbar clazy- fristående. Ange först ett giltigt körbart program.</translati
         <message>
             <location line="+1" />
             <source>Select All with Fixits</source>
-            <translation>Välj alla med rätta</translation>
+            <translation>Markera alla med korrigeringar</translation>
         </message>
         <message>
             <location line="+1" />
@@ -20452,17 +20452,17 @@ körbar clazy- fristående. Ange först ett giltigt körbart program.</translati
         <message>
             <location line="+18" />
             <source>Select the diagnostics to display.</source>
-            <translation>Välj den diagnostik att visa.</translation>
+            <translation>Välj vilka diagnostiska meddelanden som ska visas.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/clangtools/runsettingswidget.cpp" line="-107" />
             <source>Prefer .clang-tidy file, if present</source>
-            <translation>Föredra .clang-tidy-fil, om den finns</translation>
+            <translation>Föredra filen .clang-tidy om den finns</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Build the project before analysis</source>
-            <translation>Bygg projektet innan analys</translation>
+            <translation>Bygg projektet före analys</translation>
         </message>
         <message>
             <location line="+1" />
@@ -20482,12 +20482,12 @@ körbar clazy- fristående. Ange först ett giltigt körbart program.</translati
         <message>
             <location line="-86" />
             <source>Clang-Tidy Executable</source>
-            <translation>Körbar Clang-Tidy-fil</translation>
+            <translation>Körbar fil för Clang-Tidy</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Clazy Executable</source>
-            <translation>Körbar Clazy-fil</translation>
+            <translation>Körbar fil för Clazy</translation>
         </message>
         <message>
             <location line="+19" />
@@ -20507,7 +20507,7 @@ körbar clazy- fristående. Ange först ett giltigt körbart program.</translati
         <message>
             <location filename="../../../src/plugins/clangtools/clangtoolscompilationdb.cpp" line="+157" />
             <source>Compilation database for %1 successfully generated at "%2".</source>
-            <translation>Kompileringsdatabas för %1 genererades vid "%2".</translation>
+            <translation>Kompileringsdatabasen för %1 genererades utan fel i ”%2”.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -20517,7 +20517,7 @@ körbar clazy- fristående. Ange först ett giltigt körbart program.</translati
         <message>
             <location line="-60" />
             <source>Generating compilation database for %1 at "%2" ...</source>
-            <translation>Genererar kompileringsdatabas för %1 vid "%2" …</translation>
+            <translation>Genererar kompileringsdatabasen för %1 i ”%2”…</translation>
         </message>
     </context>
     <context>
