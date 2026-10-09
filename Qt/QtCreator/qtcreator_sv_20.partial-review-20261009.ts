@@ -69583,7 +69583,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+48" />
             <source>Expand All</source>
-            <translation>Expandera alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <location line="+1" />
@@ -69594,12 +69594,12 @@ Kunde inte starta kontrollprocessen.</translation>
             <location line="+26" />
             <location filename="../../../src/plugins/scxmleditor/plugin_interface/baseitem.cpp" line="+190" />
             <source>Add child</source>
-            <translation>Lägg till barn</translation>
+            <translation>Lägg till underordnad</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/scxmleditor/common/structuremodel.cpp" line="+206" />
             <source>Change parent</source>
-            <translation>Ändra förälder</translation>
+            <translation>Ändra överordnad</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/scxmleditor/outputpane/errorwidget.cpp" line="-48" />
@@ -69630,7 +69630,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+4" />
             <source>Reason</source>
-            <translation>Anledning</translation>
+            <translation>Orsak</translation>
         </message>
         <message>
             <location line="+2" />
@@ -69665,10 +69665,10 @@ Kunde inte starta kontrollprocessen.</translation>
 Type:     	%2
 Reason: 	%3
 Description:	%4</source>
-            <translation>Allvarlighet:	  %1
-Typ:     	  %2
-Anledning: 	  %3
-Beskrivning:	  %4</translation>
+            <translation>Allvarlighetsgrad:	%1
+Typ:	%2
+Orsak:	%3
+Beskrivning:	%4</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/scxmleditor/plugin_interface/actionhandler.cpp" line="-7" />
@@ -69678,7 +69678,7 @@ Beskrivning:	  %4</translation>
         <message>
             <location line="+0" />
             <source>Zoom In (Ctrl + + / Ctrl + Wheel)</source>
-            <translation>Zooma in (Ctrl + + / Ctrl + hjul)</translation>
+            <translation>Zooma in (Ctrl + + / Ctrl + mushjul)</translation>
         </message>
         <message>
             <location line="+1" />
@@ -69688,7 +69688,7 @@ Beskrivning:	  %4</translation>
         <message>
             <location line="+0" />
             <source>Zoom Out (Ctrl + - / Ctrl + Wheel)</source>
-            <translation>Zooma ut (Ctrl + - / Ctrl + hjul)</translation>
+            <translation>Zooma ut (Ctrl + - / Ctrl + mushjul)</translation>
         </message>
         <message>
             <location line="+1" />
@@ -69703,12 +69703,12 @@ Beskrivning:	  %4</translation>
         <message>
             <location line="+1" />
             <source>Panning</source>
-            <translation>Panorering</translation>
+            <translation>Panorera</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Panning (Shift)</source>
-            <translation>Panning (Shift)</translation>
+            <translation>Panorera (Skift)</translation>
         </message>
         <message>
             <location line="+2" />
@@ -69774,42 +69774,42 @@ Beskrivning:	  %4</translation>
         <message>
             <location line="+1" />
             <source>Toggle Full Namespace</source>
-            <translation>Växla fullständig namnrymd</translation>
+            <translation>Visa eller dölj fullständig namnrymd</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Align Left (Ctrl+L,1)</source>
-            <translation>Justera vänster (Ctrl+L,1)</translation>
+            <translation>Justera åt vänster (Ctrl+L,1)</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Align Right</source>
-            <translation>Justera höger</translation>
+            <translation>Justera åt höger</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Align Right (Ctrl+L,2)</source>
-            <translation>Justera höger (Ctrl+L,2)</translation>
+            <translation>Justera åt höger (Ctrl+L,2)</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Align Top</source>
-            <translation>Justera överst</translation>
+            <translation>Justera överkant</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Align Top (Ctrl+L,3)</source>
-            <translation>Justera överst (Ctrl+L,3)</translation>
+            <translation>Justera överkant (Ctrl+L,3)</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Align Bottom</source>
-            <translation>Justera nederst</translation>
+            <translation>Justera underkant</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Align Bottom (Ctrl+L,4)</source>
-            <translation>Justera nederst (Ctrl+L,4)</translation>
+            <translation>Justera underkant (Ctrl+L,4)</translation>
         </message>
         <message>
             <location line="+1" />
@@ -69834,7 +69834,7 @@ Beskrivning:	  %4</translation>
         <message>
             <location line="+1" />
             <source>Adjust Width (Ctrl+L,7)</source>
-            <translation>Justera bredd (Ctrl+L,7)</translation>
+            <translation>Anpassa bredd (Ctrl+L,7)</translation>
         </message>
         <message>
             <location line="+1" />
