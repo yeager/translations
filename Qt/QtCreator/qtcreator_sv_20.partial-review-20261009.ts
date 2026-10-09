@@ -21042,7 +21042,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+8" />
             <source>ClearCase Diff Editor</source>
-            <translation>Rensa falls jämförelseeditorName</translation>
+            <translation>ClearCase-jämförelseredigerare</translation>
         </message>
         <message>
             <location line="+873" />
@@ -21063,12 +21063,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+99" />
             <source>Check In Activity</source>
-            <translation>Incheckning</translation>
+            <translation>Checka in aktivitet</translation>
         </message>
         <message>
             <location line="+34" />
             <source>Another check in is currently being executed.</source>
-            <translation>annan check in genomförs för närvarande.</translation>
+            <translation>En annan incheckning körs just nu.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -21079,12 +21079,12 @@ Ange först en giltig körbar fil.</translation>
             <location line="+215" />
             <location line="+19" />
             <source>No ClearCase executable specified.</source>
-            <translation>Inget körbart ClearCase- program angivet.</translation>
+            <translation>Ingen körbar ClearCase-fil är angiven.</translation>
         </message>
         <message>
             <location line="+70" />
             <source>ClearCase Checkout</source>
-            <translation>ClearCase Checkout (klargör fallutcheckning)</translation>
+            <translation>ClearCase-utcheckning</translation>
         </message>
         <message>
             <location line="+1" />
@@ -21094,37 +21094,37 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+95" />
             <source>Set current activity failed: %1</source>
-            <translation>Misslyckades ställa in aktuell aktivitet: %1</translation>
+            <translation>Det gick inte att ange aktuell aktivitet: %1</translation>
         </message>
         <message>
             <location line="+75" />
             <source>Enter &amp;comment:</source>
-            <translation>Ange &amp;comment:</translation>
+            <translation>Ange &amp;kommentar:</translation>
         </message>
         <message>
             <location line="+70" />
             <source>ClearCase Add File %1</source>
-            <translation>Rensa fall Lägg till fil %1</translation>
+            <translation>ClearCase: Lägg till fil %1</translation>
         </message>
         <message>
             <location line="+6" />
             <source>ClearCase Remove Element %1</source>
-            <translation>Rensa fall ta bort element %1</translation>
+            <translation>ClearCase: Ta bort element %1</translation>
         </message>
         <message>
             <location line="+1" />
             <source>This operation is irreversible. Are you sure?</source>
-            <translation>- Operationen är oåterkallelig.</translation>
+            <translation>Åtgärden kan inte ångras. Är du säker?</translation>
         </message>
         <message>
             <location line="+4" />
             <source>ClearCase Remove File %1</source>
-            <translation>Rensa fall ta bort fil %1</translation>
+            <translation>ClearCase: Ta bort fil %1</translation>
         </message>
         <message>
             <location line="+6" />
             <source>ClearCase Rename File %1 -&gt; %2</source>
-            <translation>Rensa fall Byt namn på fil %1 -&gt; %2</translation>
+            <translation>ClearCase: Byt namn på fil %1 → %2</translation>
         </message>
         <message>
             <location line="+98" />
@@ -21139,17 +21139,17 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location filename="../../../src/plugins/clearcase/clearcasesubmiteditor.cpp" line="+18" />
             <source>ClearCase Check In</source>
-            <translation>Incheckning av klartecken</translation>
+            <translation>ClearCase-incheckning</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/clearcase/clearcasesubmiteditorwidget.cpp" line="-3" />
             <source>Chec&amp;k in even if identical to previous version</source>
-            <translation>Chec&amp;k i även om identisk med tidigare version</translation>
+            <translation>Checka i&amp;n även om den är identisk med föregående version</translation>
         </message>
         <message>
             <location line="+54" />
             <source>&amp;Check In</source>
-            <translation>&amp;Incheckning</translation>
+            <translation>&amp;Checka in</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/clearcase/settingspage.cpp" line="-152" />
