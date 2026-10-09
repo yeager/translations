@@ -13551,12 +13551,12 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+2" />
             <source>Apply path filters before scanning for tests.</source>
-            <translation>Använd sökvägfilter innan du söker efter tester.</translation>
+            <translation>Tillämpa sökvägsfilter innan tester skannas.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Wildcard expressions for filtering:</source>
-            <translation>Wildcard- uttryck för filtrering:</translation>
+            <translation>Jokerteckensuttryck för filtrering:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -13576,7 +13576,7 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location filename="../../../src/plugins/autotest/qtest/qttestconstants.h" line="+13" />
             <source>Qt Test</source>
-            <translation>Qt- provning</translation>
+            <translation>Qt Test</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/qtest/qttestoutputreader.cpp" line="-396" />
@@ -13606,12 +13606,12 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+184" />
             <source>Entering test function %1::%2</source>
-            <translation>Matar in testfunktion %1::%2</translation>
+            <translation>Påbörjar testfunktionen %1::%2</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Executing test function %1</source>
-            <translation>Körande av testfunktion %1</translation>
+            <translation>Kör testfunktionen %1</translation>
         </message>
         <message>
             <location line="+18" />
@@ -13621,7 +13621,7 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+1" />
             <source>Test execution took %1 ms.</source>
-            <translation>Testkörning tog %1 ms.</translation>
+            <translation>Testkörningen tog %1 ms.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -13631,27 +13631,27 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+1" />
             <source>Test finished.</source>
-            <translation>Test färdigt.</translation>
+            <translation>Testet är klart.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/qtest/qttestframework.cpp" line="+55" />
             <source>Walltime</source>
-            <translation>Walltime</translation>
+            <translation>Väggtid</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Uses walltime metrics for executing benchmarks (default).</source>
-            <translation>Använder väggmätvärden för att utföra riktmärken (standard).</translation>
+            <translation>Använder väggtidsmått vid prestandamätning (standard).</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Tick counter</source>
-            <translation>Tick-räknare</translation>
+            <translation>Tickräknare</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Uses tick counter when executing benchmarks.</source>
-            <translation>Använder kryssräknare när referensvärden utförs.</translation>
+            <translation>Använder tickräknare vid prestandamätning.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -13661,7 +13661,7 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+0" />
             <source>Uses event counter when executing benchmarks.</source>
-            <translation>Använder händelseräknare vid körning av referensvärden.</translation>
+            <translation>Använder händelseräknare vid prestandamätning.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -13671,7 +13671,7 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+1" />
             <source>Uses Valgrind Callgrind when executing benchmarks (it must be installed).</source>
-            <translation>Använder Valgrind Callgrind vid körning av riktmärken (den måste installeras).</translation>
+            <translation>Använder Valgrind Callgrind vid prestandamätning (det måste vara installerat).</translation>
         </message>
         <message>
             <location line="+4" />
@@ -13681,7 +13681,7 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+1" />
             <source>Uses Perf when executing benchmarks (it must be installed).</source>
-            <translation>Använder Perf vid körning av riktmärken (den måste installeras).</translation>
+            <translation>Använder Perf vid prestandamätning (det måste vara installerat).</translation>
         </message>
         <message>
             <location line="+6" />
@@ -13691,7 +13691,7 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+1" />
             <source>Enables interrupting tests on assertions.</source>
-            <translation>Aktiverar avbrytande tester av påståenden.</translation>
+            <translation>Möjliggör att tester avbryts vid assertioner.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -13701,22 +13701,22 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+2" />
             <source>XML output is recommended, because it avoids parsing issues, while plain text is more human readable.&lt;p&gt;Warning: Plain text misses some information, such as duration.</source>
-            <translation>XML-utmatning rekommenderas, eftersom den undviker tolkningsproblem, medan vanlig text är mer läsbar för människor.&lt;p&gt;Varning: Enkel text missar viss information, såsom varaktighet.</translation>
+            <translation>XML-utdata rekommenderas eftersom de undviker tolkningsproblem, medan oformaterad text är mer lättläst.&lt;p&gt;Varning: Oformaterad text saknar viss information, till exempel varaktighet.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Verbose benchmarks</source>
-            <translation>Verbose-riktmärken</translation>
+            <translation>Utförliga prestandamätningar</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Log signals and slots</source>
-            <translation>Logga signaler och slots</translation>
+            <translation>Logga signaler och slottar</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Log every signal emission and resulting slot invocations.</source>
-            <translation>Logga varje signalemission och resulterande slot anrop.</translation>
+            <translation>Logga varje utsänd signal och de slotanrop den leder till.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -13726,7 +13726,7 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+1" />
             <source>Set the maximum number of warnings. 0 means that the number is not limited.</source>
-            <translation>Ställ in maximalt antal varningar. 0 betyder att antalet inte är begränsat.</translation>
+            <translation>Ange det högsta antalet varningar. 0 innebär att antalet inte begränsas.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -13736,12 +13736,12 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+4" />
             <source>Check for derived Qt Quick tests</source>
-            <translation>Kontrollera härledda Qt Snabbtest</translation>
+            <translation>Kontrollera härledda Qt Quick-tester</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Search for Qt Quick tests that are derived from TestCase.&lt;p&gt;Warning: Enabling this feature significantly increases scan time.</source>
-            <translation>Sök efter Qt Snabbtest som härleds från TestCase.&lt;p&gt;Varning: Aktivera denna funktion avsevärt ökar scan tid.</translation>
+            <translation>Sök efter Qt Quick-tester som härleds från TestCase.&lt;p&gt;Varning: Om den här funktionen aktiveras ökar skanningstiden avsevärt.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -13751,17 +13751,17 @@ Se Google Test-dokumentationen för mer information om GTest-filter.</translatio
         <message>
             <location line="+3" />
             <source>Parse messages for the following pattern and use it as location information:&lt;pre&gt;file://filepath:line&lt;/pre&gt;where ":line" is optional.&lt;p&gt;Warning: If the patterns are used in code, the location information for debug messages and other messages might improve,at the risk of some incorrect locations and lower performance.</source>
-            <translation>Parsera meddelanden för följande mönster och använd det som platsinformation:&lt;pre&gt;file://filepath:line&lt;/pre&gt;where ":line" is fakultative.&lt;p&gt;Varning: Om mönstren används i kod kan platsinformationen för felsökningsmeddelanden och andra meddelanden förbättras, med risk för vissa felaktiga platser och lägre prestanda.</translation>
+            <translation>Tolka meddelanden efter följande mönster och använd det som platsinformation:&lt;pre&gt;file://filepath:line&lt;/pre&gt;där ":line" är valfritt.&lt;p&gt;Varning: Om mönstren används i koden kan platsinformationen för felsökningsmeddelanden och andra meddelanden förbättras, med risk för felaktiga platser och lägre prestanda.</translation>
         </message>
         <message>
             <location line="-68" />
             <source>Benchmark Metrics</source>
-            <translation>Riktmärkesmätare</translation>
+            <translation>Mätvärden för prestandamätning</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/qtest/qttesttreeitem.cpp" line="+53" />
             <source>Multiple testcases inside a single executable are not officially supported. Depending on the implementation they might get executed or not, but never will be explicitly selectable.</source>
-            <translation>Flera testfall inuti ett enda körbart program stöds inte officiellt. Beroende på genomförandet kan de bli körda eller inte, men aldrig kommer att vara uttryckligen valbara.</translation>
+            <translation>Flera testfall i en och samma körbara fil stöds inte officiellt. Beroende på implementation kan de köras eller inte, men de kan aldrig väljas explicit.</translation>
         </message>
         <message>
             <location line="+465" />
