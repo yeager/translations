@@ -1279,7 +1279,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
     </message>
     <message>
         <source>Hide At End</source>
-        <translation>Dölj vid slutet</translation>
+        <translation>Dölj vid slut</translation>
     </message>
     <message>
         <source>Sets if the particle should disappear when it reaches the attractor.</source>
