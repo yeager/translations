@@ -16583,7 +16583,7 @@ Minsta API-nivå som krävs av byggsatsen är %1.</translation>
         <source>The deployment device &quot;%1&quot; does not support the architectures used by the kit.
 The kit supports &quot;%2&quot;, but the device uses &quot;%3&quot;.</source>
         <translation>Distributionsenheten ”%1” stöder inte de arkitekturer som används av byggsatsen.
-Byggsatsen stöder ”%2”, men enheten använder ”%3”.</translation>
+Den stöder ”%2”, men enheten använder ”%3”.</translation>
     </message>
     <message>
         <source>The deployment device &quot;%1&quot; is disconnected.</source>
@@ -20522,7 +20522,7 @@ Lokala incheckningar skickas inte till huvudgrenen förrän en vanlig inchecknin
     </message>
     <message>
         <source>For example: &quot;https://[user[:pass]@]host[:port]/[path]&quot;.</source>
-        <translation>Till exempel: &quot;https://[användare[:lösen]@]värd[:port]/[sökväg]&quot;.</translation>
+        <translation>Till exempel: &quot;https://[user[:pass]@]host[:port]/[path]&quot;.</translation>
     </message>
     <message>
         <source>Ignores differences between branches and overwrites
@@ -21190,7 +21190,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
     </message>
     <message>
         <source>Zoom: %1%</source>
-        <translation>Zoom: %1%</translation>
+        <translation>Zoom: %1 %</translation>
     </message>
     <message>
         <source>Copying Failed</source>
@@ -42622,7 +42622,7 @@ Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
     </message>
     <message>
         <source>Zoom: %1%</source>
-        <translation>Zoom: %1%</translation>
+        <translation>Zoom: %1 %</translation>
     </message>
     <message>
         <source>Get Help Online</source>
@@ -45979,7 +45979,7 @@ Användbart om byggkatalogen är skadad eller vid ombygge med en nyare version a
     </message>
     <message>
         <source>Zoom: %1%</source>
-        <translation>Zoom: %1%</translation>
+        <translation>Zoom: %1 %</translation>
     </message>
     <message>
         <source>New %1</source>
@@ -65971,7 +65971,7 @@ Tillämpas inte på blanksteg i kommentarer och strängar.</translation>
     </message>
     <message>
         <source>Zoom: %1%</source>
-        <translation>Zoom: %1%</translation>
+        <translation>Zoom: %1 %</translation>
     </message>
     <message>
         <source>Delete UTF-8 BOM on Save</source>
