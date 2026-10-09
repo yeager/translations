@@ -42084,38 +42084,38 @@ Checka in nu?</translation>
             <location line="+1" />
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="+1" />
             <source>&lt;p&gt;Resolve all conflicts to the file "%1" with &lt;b&gt;our&lt;/b&gt; version?&lt;/p&gt;&lt;p&gt;Note: The other changes will be discarded.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Resolve all conflicts to the file "%1" with &lt;b&gt;our&lt;/b&gt; version?&lt;/p&gt;&lt;p&gt;Note: The other changes will be discarded.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Lös alla konflikter i filen ”%1” med &lt;b&gt;vår&lt;/b&gt; version?&lt;/p&gt;&lt;p&gt;Obs! De andra ändringarna kommer att förkastas.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+2" />
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="+2" />
             <source>Resolve Conflicts in "%1" with Theirs...</source>
-            <translation>Lös konflikter i %1 med deras…</translation>
+            <translation>Lös konflikter i ”%1” med deras version...</translation>
         </message>
         <message>
             <location line="+1" />
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="+1" />
             <source>&lt;p&gt;Resolve all conflicts to the file "%1" with &lt;b&gt;their&lt;/b&gt; version?&lt;/p&gt;&lt;p&gt;Note: Our changes will be discarded.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Resolve all conflicts to the file "%1" with &lt;b&gt;their&lt;/b&gt; version?&lt;/p&gt;&lt;p&gt;Note: Our changes will be discarded.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Lös alla konflikter i filen ”%1” med &lt;b&gt;deras&lt;/b&gt; version?&lt;/p&gt;&lt;p&gt;Obs! Våra ändringar kommer att förkastas.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+38" />
             <source>File "%1" recovered.
 </source>
-            <translation>Filen "%1"
-återfanns.</translation>
+            <translation>Filen ”%1” har återställts.
+</translation>
         </message>
         <message>
             <location line="+1" />
             <source>File "%1" reverted.
 </source>
-            <translation>Filen "%1"
-återgick.</translation>
+            <translation>Filen ”%1” har återställts.
+</translation>
         </message>
         <message>
             <location line="+20" />
             <source>Error removing file: "%1": %2</source>
-            <translation>Fel vid borttagning av fil: "%1": %2</translation>
+            <translation>Fel vid borttagning av filen ”%1”: %2</translation>
         </message>
         <message>
             <location line="-1410" />
@@ -42125,27 +42125,27 @@ Checka in nu?</translation>
         <message>
             <location filename="../../../src/plugins/git/stashdialog.cpp" line="-1" />
             <source>Stash</source>
-            <translation>Sträckning</translation>
+            <translation>Stash</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gitplugin.cpp" line="+159" />
             <source>Saves the current state of your work.</source>
-            <translation>Sparar det aktuella tillståndet för ditt arbete.</translation>
+            <translation>Sparar det aktuella arbetstillståndet.</translation>
         </message>
         <message>
             <location line="-33" />
             <source>Apply "%1"</source>
-            <translation>Tillämpa "%1"</translation>
+            <translation>Tillämpa ”%1”</translation>
         </message>
         <message>
             <location line="+155" />
             <source>Create Repository...</source>
-            <translation>Skapa förråd…</translation>
+            <translation>Skapa Git-arkiv...</translation>
         </message>
         <message>
             <location line="-133" />
             <source>Saves the current state of your work and resets the repository.</source>
-            <translation>Sparar det aktuella tillståndet för ditt arbete och nollställer förrådet.</translation>
+            <translation>Sparar det aktuella arbetstillståndet och återställer arkivet.</translation>
         </message>
         <message>
             <location line="-155" />
@@ -42155,7 +42155,7 @@ Checka in nu?</translation>
         <message>
             <location line="+173" />
             <source>Restores changes saved to the stash list using "Stash".</source>
-            <translation>Återställer ändringar sparade i listan med gömma med "Stash".</translation>
+            <translation>Återställer ändringar som har sparats i stash-listan med ”Stash”.</translation>
         </message>
         <message>
             <location line="-144" />
@@ -42171,7 +42171,7 @@ Checka in nu?</translation>
             <location line="+39" />
             <source>Continue Cherry Pick</source>
             <extracomment>Avoid translating "Cherry Pick"</extracomment>
-            <translation>Fortsätt med Cherry Pick</translation>
+            <translation>Fortsätt med cherry-pick</translation>
         </message>
         <message>
             <location line="+22" />
@@ -42182,97 +42182,97 @@ Checka in nu?</translation>
             <location filename="../../../src/plugins/git/gitclient.cpp" line="+194" />
             <location filename="../../../src/plugins/git/gitplugin.cpp" line="+22" />
             <source>&amp;Stash</source>
-            <translation>&amp;Stash Ordförande</translation>
+            <translation>&amp;Stash</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gitplugin.cpp" line="+37" />
             <source>&amp;Remote Repository</source>
-            <translation>&amp;Fjärrförråd</translation>
+            <translation>&amp;Fjärrarkiv</translation>
         </message>
         <message>
             <location line="-67" />
             <source>Branches...</source>
-            <translation>- Grenarna…</translation>
+            <translation>Grenar...</translation>
         </message>
         <message>
             <location line="-95" />
             <source>Status (Include All Untracked)</source>
             <extracomment>Avoid translating "Status"</extracomment>
-            <translation>Status (Inkludera alla ospårade)</translation>
+            <translation>Status (inkludera alla ospårade filer)</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Amend Last Commit...</source>
             <extracomment>Avoid translating "Commit"</extracomment>
-            <translation>Ändra senaste kommitté…</translation>
+            <translation>Ändra den senaste incheckningen...</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Fixup Previous Commit...</source>
             <extracomment>Avoid translating "Commit"</extracomment>
-            <translation>Fixa föregående utskott…</translation>
+            <translation>Rätta föregående incheckning...</translation>
         </message>
         <message>
             <location line="+16" />
             <source>Interactive Rebase...</source>
             <extracomment>Avoid translating "Rebase"</extracomment>
-            <translation>Interaktiv rebase…</translation>
+            <translation>Interaktiv ombasering...</translation>
         </message>
         <message>
             <location line="+25" />
             <source>Abort Merge</source>
             <extracomment>Avoid translating "Merge"</extracomment>
-            <translation>Avbryt sammanfogning</translation>
+            <translation>Avbryt sammanslagningen</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Abort Rebase</source>
             <extracomment>Avoid translating "Rebase"</extracomment>
-            <translation>Avbryt ombas</translation>
+            <translation>Avbryt ombaseringen</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Abort Cherry Pick</source>
             <extracomment>Avoid translating "Cherry Pick"</extracomment>
-            <translation>Avbryt Cherry Pick</translation>
+            <translation>Avbryt cherry-pick</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Abort Revert</source>
             <extracomment>Avoid translating "Revert"</extracomment>
-            <translation>Avbryt omkoppling</translation>
+            <translation>Avbryt återställningen</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Create from Commits...</source>
-            <translation>Skapa från kommittéer…</translation>
+            <translation>Skapa från incheckningar...</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Apply from Clipboard</source>
-            <translation>Applicera från klippbordet</translation>
+            <translation>Tillämpa från urklipp</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Stash Unstaged Files</source>
             <extracomment>Avoid translating "Stash"</extracomment>
-            <translation>Stash ostadiga filer</translation>
+            <translation>Stasha oindexerade filer</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Stash Pop</source>
             <extracomment>Avoid translating "Stash"</extracomment>
-            <translation>Stash Pop</translation>
+            <translation>Stash pop</translation>
         </message>
         <message>
             <location line="+142" />
             <source>Git Submit Editor</source>
-            <translation>Git skicka editor</translation>
+            <translation>Redigerare för Git-inlämning</translation>
         </message>
         <message>
             <location line="+265" />
             <source>Cannot create reword commit for %1.</source>
-            <translation>Kan inte skapa omordskommando för %1.</translation>
+            <translation>Kan inte skapa en omformulerad incheckning för %1.</translation>
         </message>
         <message>
             <location line="+294" />
@@ -42282,12 +42282,12 @@ Checka in nu?</translation>
         <message>
             <location line="+25" />
             <source>Select Commits for Patch Creation</source>
-            <translation>Välj Kommit med för att skapa programfix</translation>
+            <translation>Välj incheckningar för att skapa patchar</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Select Commits to Cherry-Pick</source>
-            <translation>Välj Commits to Cherry- Pick</translation>
+            <translation>Välj incheckningar för cherry-pick</translation>
         </message>
         <message>
             <location line="+55" />
@@ -42297,7 +42297,7 @@ Checka in nu?</translation>
         <message>
             <location line="+12" />
             <source>Patch %1 successfully applied to %2</source>
-            <translation>Patch %1 applicerades med lyckat resultat på %2</translation>
+            <translation>Patchen %1 har tillämpats på %2.</translation>
         </message>
         <message>
             <location line="-1055" />
@@ -42312,7 +42312,7 @@ Checka in nu?</translation>
         <message>
             <location line="-430" />
             <source>&amp;Copy "%1"</source>
-            <translation>&amp;Kopiera "%1"</translation>
+            <translation>&amp;Kopiera ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
@@ -42322,7 +42322,7 @@ Checka in nu?</translation>
         <message>
             <location line="+405" />
             <source>Triggers a Git version control operation.</source>
-            <translation>Utlöser en Git-versionskontroll.</translation>
+            <translation>Utlöser en Git-versionshanteringsåtgärd.</translation>
         </message>
         <message>
             <source>Diff of "%1"</source>
