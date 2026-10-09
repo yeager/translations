@@ -20831,12 +20831,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+6" />
             <source>Undo Hijack</source>
-            <translation>Ångra kapning</translation>
+            <translation>Ångra övertagning</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Undo Hi&amp;jack "%1"</source>
-            <translation>Undo Hi&amp;jack "%1"</translation>
+            <translation>Ångra ö&amp;vertagning av ”%1”</translation>
         </message>
         <message>
             <location line="+5" />
@@ -20851,12 +20851,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+8" />
             <source>Diff Current File</source>
-            <translation>Diff aktuell fil</translation>
+            <translation>Jämför aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>&amp;Diff "%1"</source>
-            <translation>&amp;Diff "%1"</translation>
+            <translation>&amp;Jämför ”%1”</translation>
         </message>
         <message>
             <location line="+5" />
@@ -20871,12 +20871,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+6" />
             <source>History Current File</source>
-            <translation>Historik nuvarande fil</translation>
+            <translation>Historik för aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>&amp;History "%1"</source>
-            <translation>&amp;History "%1"</translation>
+            <translation>&amp;Historik för ”%1”</translation>
         </message>
         <message>
             <location line="+5" />
@@ -20891,12 +20891,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+6" />
             <source>Annotate Current File</source>
-            <translation>Anteckna aktuell fil</translation>
+            <translation>Annotera aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>&amp;Annotate "%1"</source>
-            <translation>&amp;Anteckna "%1"</translation>
+            <translation>&amp;Annotera ”%1”</translation>
         </message>
         <message>
             <location line="+5" />
@@ -20921,17 +20921,17 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+11" />
             <source>Diff A&amp;ctivity...</source>
-            <translation>Diff A&amp;ctivitet…</translation>
+            <translation>Jämför a&amp;ktivitet…</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Ch&amp;eck In Activity</source>
-            <translation>Ch&amp;eck In Activity</translation>
+            <translation>Checka i&amp;n aktivitet</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Chec&amp;k In Activity "%1"...</source>
-            <translation>Chec&amp;k i aktivitet "%1"…</translation>
+            <translation>Checka i&amp;n aktivitet ”%1”…</translation>
         </message>
         <message>
             <location line="+13" />
@@ -20981,7 +20981,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+9" />
             <source>ClearCase Check In Editor</source>
-            <translation>Rensa fall checka in editor</translation>
+            <translation>ClearCase-incheckningsredigerare</translation>
         </message>
         <message>
             <location line="+234" />
@@ -20992,12 +20992,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+5" />
             <source>Close Check In Editor</source>
-            <translation>Stäng incheckning i editor</translation>
+            <translation>Stäng incheckningsredigeraren</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Closing this editor will abort the check in.</source>
-            <translation>Att stänga den här editorn avbryter incheckningen.</translation>
+            <translation>Att stänga redigeraren avbryter incheckningen.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -21012,12 +21012,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+87" />
             <source>Do you want to undo the check out of "%1"?</source>
-            <translation>Vill du ångra checken från %1?</translation>
+            <translation>Vill du ångra utcheckningen av ”%1”?</translation>
         </message>
         <message>
             <location line="+83" />
             <source>Do you want to undo hijack of "%1"?</source>
-            <translation>Vill du ta bort kapningen av %1?</translation>
+            <translation>Vill du ångra övertagningen av ”%1”?</translation>
         </message>
         <message>
             <location line="+1008" />
@@ -21027,17 +21027,17 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="-1009" />
             <source>Undo Hijack File</source>
-            <translation>Ångra sökfil</translation>
+            <translation>Ångra övertagning av fil</translation>
         </message>
         <message>
             <location line="-852" />
             <source>ClearCase File Log Editor</source>
-            <translation>Redigerare för ClearCase- fillogg</translation>
+            <translation>ClearCase-filloggredigerare</translation>
         </message>
         <message>
             <location line="+8" />
             <source>ClearCase Annotation Editor</source>
-            <translation>Redaktör för rensningsfallsanmärkning</translation>
+            <translation>ClearCase-annoteringsredigerare</translation>
         </message>
         <message>
             <location line="+8" />
