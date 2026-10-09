@@ -35690,12 +35690,12 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+1" />
             <source>Show Unprintable Characters as Octal</source>
-            <translation>Visa otryckta tecken som oktal</translation>
+            <translation>Visa icke-skrivbara tecken oktalt</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Show Unprintable Characters as Hexadecimal</source>
-            <translation>Visa otryckta tecken som Hexadecimal</translation>
+            <translation>Visa icke-skrivbara tecken hexadecimalt</translation>
         </message>
         <message>
             <location line="+11" />
@@ -35705,7 +35705,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+17" />
             <source>Change Display for Object Named "%1":</source>
-            <translation>Ändra visning av objekt som heter "%1":</translation>
+            <translation>Ändra visning för objektet ”%1”:</translation>
         </message>
         <message>
             <location line="+3" />
@@ -35721,7 +35721,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="-62" />
             <source>Change Display for Type "%1":</source>
-            <translation>Ändra visning för typ "%1":</translation>
+            <translation>Ändra visning för typen ”%1”:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerrunconfigurationaspect.cpp" line="-25" />
@@ -35781,7 +35781,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="-122" />
             <source>Select Widget to Add into Expression Evaluator</source>
-            <translation>Välj widget att lägga till in i uttrycksutvärderare</translation>
+            <translation>Välj komponent att lägga till i uttrycksutvärderaren</translation>
         </message>
         <message>
             <location line="-4" />
@@ -35792,7 +35792,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="-648" />
             <source>Open Memory Editor...</source>
-            <translation>Öppna minnesredigerare…</translation>
+            <translation>Öppna minnesredigeraren …</translation>
         </message>
         <message>
             <location line="-14" />
@@ -35802,7 +35802,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="-1607" />
             <source>Debugger - %1</source>
-            <translation>Felsökare - %1</translation>
+            <translation>Felsökare – %1</translation>
         </message>
         <message>
             <location line="+278" />
@@ -35813,7 +35813,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
             <location line="+373" />
             <source>%1 of length %2</source>
             <extracomment>&lt;type&gt; of length &lt;number&gt;, e.g. for strings and byte arrays</extracomment>
-            <translation>%1 längd %2</translation>
+            <translation>%1 med längden %2</translation>
         </message>
         <message>
             <location line="+726" />
@@ -35823,7 +35823,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+3" />
             <source>Note: Evaluators will be re-evaluated after each step. For details, see the &lt;a href="qthelp://org.qt-project.qtcreator/doc/creator-debug-mode.html#locals-and-expressions"&gt;documentation&lt;/a&gt;.</source>
-            <translation>Observera: Utvärderare kommer att återutvärderas efter varje steg. För detaljer, se &lt;a href="qthelp://org.qt-project.qtcreator/doc/creator-debug-mode.html#locals-and-expressions"&gt;dokumentationen&lt;/a&gt;.</translation>
+            <translation>Obs: Utvärderare utvärderas på nytt efter varje steg. Mer information finns i &lt;a href="qthelp://org.qt-project.qtcreator/doc/creator-debug-mode.html#locals-and-expressions"&gt;dokumentationen&lt;/a&gt;.</translation>
         </message>
         <message>
             <location line="+19" />
@@ -35838,12 +35838,12 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+37" />
             <source>Expand All Children</source>
-            <translation>Fäll ut alla barn</translation>
+            <translation>Fäll ut alla underordnade objekt</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Collapse All Children</source>
-            <translation>Fäll in alla barn</translation>
+            <translation>Fäll in alla underordnade objekt</translation>
         </message>
         <message>
             <location line="+12" />
@@ -35858,12 +35858,12 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+11" />
             <source>Open View Contents in Editor</source>
-            <translation>Öppna vyns innehåll i redigerare</translation>
+            <translation>Öppna vyinnehållet i redigeraren</translation>
         </message>
         <message>
             <location line="+48" />
             <source>Stop the program when the data at the address is modified.</source>
-            <translation>Stoppa programmet när datat vid adressen ändras.</translation>
+            <translation>Stoppa programmet när data på adressen ändras.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -35873,7 +35873,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+14" />
             <source>Stop the program when the data at the address given by the expression is modified.</source>
-            <translation>Stoppa programmet när datat vid adressen angiven av uttrycket ändras.</translation>
+            <translation>Stoppa programmet när data på den adress som ges av uttrycket ändras.</translation>
         </message>
         <message>
             <location line="+18" />
@@ -35883,12 +35883,12 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+10" />
             <source>Open Memory View Showing Stack Layout</source>
-            <translation>Öppna minnesvy som visar Stacklayout</translation>
+            <translation>Öppna minnesvy som visar stacklayouten</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Open Memory Editor at Object's Address</source>
-            <translation>Öppna minneseditorn på objektets adress</translation>
+            <translation>Öppna minnesredigeraren på objektets adress</translation>
         </message>
         <message>
             <location line="+89" />
@@ -35908,7 +35908,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+19" />
             <source>Change Display for Objects</source>
-            <translation>Ändra skärm för objekt</translation>
+            <translation>Ändra visning för objekt</translation>
         </message>
         <message numerus="yes">
             <location line="+28" />
@@ -35931,12 +35931,12 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+3" />
             <source>Latin1 String</source>
-            <translation>Latin1 sträng</translation>
+            <translation>Latin1-sträng</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Latin1 String in Separate Window</source>
-            <translation>Latin1 sträng i separat fönster</translation>
+            <translation>Latin1-sträng i separat fönster</translation>
         </message>
         <message>
             <location line="+1" />
@@ -35946,7 +35946,7 @@ Det bör fungera att stega in i modulen eller sätta brytpunkter efter fil och r
         <message>
             <location line="+1" />
             <source>UTF-8 String in Separate Window</source>
-            <translation>UTF-8 Sträng i separat fönster</translation>
+            <translation>UTF-8-sträng i separat fönster</translation>
         </message>
         <message>
             <location line="+1" />
