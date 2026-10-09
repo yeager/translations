@@ -65200,12 +65200,12 @@ Vill du spara data först?</translation>
         <message>
             <location line="+22" />
             <source>Could not re-open temporary trace file.</source>
-            <translation>Kunde inte återöppna temporär spårningsfil.</translation>
+            <translation>Kunde inte öppna den tillfälliga spårfilen igen.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Read past end in temporary trace file.</source>
-            <translation>Läs det förflutna i tillfällig spårfil.</translation>
+            <translation>Läste förbi slutet i den tillfälliga spårfilen.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmlprofiler/qmlprofilerstatisticsview.cpp" line="+50" />
@@ -65250,12 +65250,12 @@ Vill du spara data först?</translation>
         <message>
             <location line="+22" />
             <source>Memory Allocated</source>
-            <translation>Minne allokerat</translation>
+            <translation>Allokerat minne</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Memory Freed</source>
-            <translation>Minne frigjort</translation>
+            <translation>Frigjort minne</translation>
         </message>
         <message>
             <location line="+2" />
@@ -65269,7 +65269,7 @@ Vill du spara data först?</translation>
             <source>%n byte(s)</source>
             <translation>
                 <numerusform>%n byte</numerusform>
-                <numerusform>%n bytes</numerusform>
+                <numerusform>%n byte</numerusform>
             </translation>
         </message>
         <message>
@@ -65280,12 +65280,12 @@ Vill du spara data först?</translation>
         <message>
             <location line="+4" />
             <source>Deallocated</source>
-            <translation>Överlåtelse</translation>
+            <translation>Frigjord</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Deallocations</source>
-            <translation>Fördelning</translation>
+            <translation>Frigöringar</translation>
         </message>
         <message>
             <location line="+4" />
@@ -65295,12 +65295,12 @@ Vill du spara data först?</translation>
         <message>
             <location line="+1" />
             <source>Large Item Allocation</source>
-            <translation>Fördelning av stora poster</translation>
+            <translation>Allokering av stora objekt</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Heap Usage</source>
-            <translation>Användning av Heap</translation>
+            <translation>Heap-användning</translation>
         </message>
         <message>
             <location line="+3" />
@@ -65378,7 +65378,7 @@ Vill du spara data först?</translation>
             <location filename="../../../src/plugins/qmlprofiler/flamegraphmodel.cpp" line="-56" />
             <location filename="../../../src/plugins/qmlprofiler/qmlprofilerstatisticsmodel.cpp" line="-259" />
             <source>Could not re-read events from temporary trace file: %1</source>
-            <translation>`Kunde inte läsa om händelser från temporär spårningsfil: %1</translation>
+            <translation>Kunde inte läsa om händelser från den tillfälliga spårfilen: %1</translation>
         </message>
         <message>
             <location line="+12" />
@@ -65400,22 +65400,22 @@ Vill du spara data först?</translation>
         <message>
             <location filename="../../../src/plugins/qmlprofiler/qmlprofilerstatisticsmodel.cpp" line="+622" />
             <source>Callee</source>
-            <translation>Callee Ordförande</translation>
+            <translation>Anropad funktion</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Caller</source>
-            <translation>Anropare</translation>
+            <translation>Anropande funktion</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Callee Description</source>
-            <translation>Beskrivning av Callee</translation>
+            <translation>Beskrivning av anropad funktion</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Caller Description</source>
-            <translation>Beskrivning av anropsmottagaren</translation>
+            <translation>Beskrivning av anropande funktion</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmlprofiler/qmlprofilermodelmanager.cpp" line="+167" />
@@ -65433,14 +65433,14 @@ Vill du spara data först?</translation>
             <location filename="../../../src/plugins/qmlprofiler/qmlprofilerstatewidget.cpp" line="+117" />
             <source>Profiling application: %n events</source>
             <translation>
-                <numerusform>Profileringsprogram: %n händelser</numerusform>
-                <numerusform>: Profilering ansökan: %n händelser</numerusform>
+                <numerusform>Profilerar programmet: %n händelse</numerusform>
+                <numerusform>Profilerar programmet: %n händelser</numerusform>
             </translation>
         </message>
         <message>
             <location line="+1" />
             <source>Profiling application</source>
-            <translation>Profileringsprogram</translation>
+            <translation>Profilerar programmet</translation>
         </message>
         <message>
             <location line="+3" />
@@ -65451,16 +65451,16 @@ Vill du spara data först?</translation>
             <location line="+5" />
             <source>Loading buffered data: %n events</source>
             <translation>
-                <numerusform>Laddar buffrad data: %n händelser</numerusform>
-                <numerusform>: Laddar buffrad data: %n händelser</numerusform>
+                <numerusform>Läser in buffrade data: %n händelse</numerusform>
+                <numerusform>Läser in buffrade data: %n händelser</numerusform>
             </translation>
         </message>
         <message numerus="yes">
             <location line="+4" />
             <source>Loading offline data: %n events</source>
             <translation>
-                <numerusform>Laddar offlinedata: %n händelser</numerusform>
-                <numerusform>: Laddar offline data: %n händelser</numerusform>
+                <numerusform>Läser in offlinedata: %n händelse</numerusform>
+                <numerusform>Läser in offlinedata: %n händelser</numerusform>
             </translation>
         </message>
         <message>
