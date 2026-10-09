@@ -11270,17 +11270,17 @@ Kitet stöder ”%2”, men enheten använder ”%3”.</translation>
         <message>
             <location line="+2" />
             <source>Install failed</source>
-            <translation>Installation misslyckades</translation>
+            <translation>Installationen misslyckades.</translation>
         </message>
         <message>
             <location line="-136" />
             <source>The deployment AVD "%1" cannot be started.</source>
-            <translation>Utplaceringen AVD "%1" kan inte startas.</translation>
+            <translation>Distributions-AVD:n ”%1” kan inte startas.</translation>
         </message>
         <message>
             <location line="+45" />
             <source>Package deploy: Running command "%1".</source>
-            <translation>Paketdistribution: Kör kommandot "%1".</translation>
+            <translation>Paketdistribution: kör kommandot ”%1”.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androidtoolmenu.cpp" line="+395" />
@@ -11290,7 +11290,7 @@ Kitet stöder ”%2”, men enheten använder ”%3”.</translation>
         <message>
             <location line="-111" />
             <source>Qt Android Installer</source>
-            <translation>Qt Android- installationsprogramName</translation>
+            <translation>Qt Android-installationsprogram</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androiddeployqtstep.cpp" line="+172" />
@@ -11305,7 +11305,7 @@ Kitet stöder ”%2”, men enheten använder ”%3”.</translation>
         <message>
             <location line="+88" />
             <source>Deployment failed with the following errors:</source>
-            <translation>Distribution misslyckades med följande fel:</translation>
+            <translation>Distributionen misslyckades med följande fel:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androidtoolmenu.cpp" line="+2" />
@@ -11358,17 +11358,17 @@ Kitet stöder ”%2”, men enheten använder ”%3”.</translation>
         <message>
             <location line="+1" />
             <source>Authorized:</source>
-            <translation>Tillåten:</translation>
+            <translation>Auktoriserad:</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Android target flavor:</source>
-            <translation>Android målsmak:</translation>
+            <translation>Android-målvariant:</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Skin type:</source>
-            <translation>Hudtyp:</translation>
+            <translation>Skin-typ:</translation>
         </message>
         <message>
             <location line="+2" />
@@ -11378,7 +11378,7 @@ Kitet stöder ”%2”, men enheten använder ”%3”.</translation>
         <message>
             <location line="+17" />
             <source>Android Device Manager</source>
-            <translation>Android enhetshanterare</translation>
+            <translation>Android-enhetshanterare</translation>
         </message>
         <message>
             <location line="+45" />
@@ -11408,7 +11408,7 @@ Kitet stöder ”%2”, men enheten använder ”%3”.</translation>
         <message>
             <location line="+1" />
             <source>Set up Wi-Fi</source>
-            <translation>Konfigurera wi-fi</translation>
+            <translation>Konfigurera Wi-Fi</translation>
         </message>
         <message>
             <location line="+173" />
@@ -11428,33 +11428,33 @@ Kitet stöder ”%2”, men enheten använder ”%3”.</translation>
             <location line="+522" />
             <source>Erase the Android AVD "%1"?
 This cannot be undone.</source>
-            <translation>Radera Android AVD "%1"?
-Detta kan inte göras ogjort.</translation>
+            <translation>Radera Android-AVD:n ”%1”?
+Detta kan inte ångras.</translation>
         </message>
         <message>
             <location line="-872" />
             <source>The device has to be connected with ADB debugging enabled to use this feature.</source>
-            <translation>heten måste anslutas till ADB-avlusning aktiverad för att använda denna funktion.</translation>
+            <translation>Enheten måste vara ansluten med ADB-felsökning aktiverad för att den här funktionen ska kunna användas.</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Opening connection port %1 failed.</source>
-            <translation>Öppning av anslutningsport %1 misslyckades.</translation>
+            <translation>Det gick inte att öppna anslutningsporten %1.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Retrieving the device IP address failed.</source>
-            <translation>Misslyckades hämta enhetens IP- adress.</translation>
+            <translation>Det gick inte att hämta enhetens IP-adress.</translation>
         </message>
         <message>
             <location line="+14" />
             <source>The retrieved IP address is invalid.</source>
-            <translation>Erhållen IP-adress är ogiltig.</translation>
+            <translation>Den hämtade IP-adressen är ogiltig.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Connecting to the device IP "%1" failed.</source>
-            <translation>Anslutning till enhetens IP "%1" misslyckades.</translation>
+            <translation>Det gick inte att ansluta till enhetens IP-adress ”%1”.</translation>
         </message>
         <message>
             <location line="+310" />
@@ -11475,7 +11475,7 @@ Detta kan inte göras ogjort.</translation>
         <message>
             <location line="+1" />
             <source>Emulator command-line startup options (&lt;a href="%1"&gt;Help Web Page&lt;/a&gt;):</source>
-            <translation>Emulator kommandorad startalternativ (&lt;a href="%1"&gt;Hjälp Webbsida&lt;/a&gt;):</translation>
+            <translation>Emulatorns kommandoradsstartalternativ (&lt;a href="%1"&gt;Hjälpsida på webben&lt;/a&gt;):</translation>
         </message>
         <message>
             <location line="+1068" />
@@ -11490,7 +11490,7 @@ Detta kan inte göras ogjort.</translation>
         <message>
             <location line="+16" />
             <source>The device info returned from AvdDialog is invalid.</source>
-            <translation>hetsinformationen som returneras från AvdDialog är ogiltig.</translation>
+            <translation>Enhetsinformationen som returneras från AvdDialog är ogiltig.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androidutils.cpp" line="+550" />
@@ -11510,12 +11510,12 @@ Detta kan inte göras ogjort.</translation>
         <message>
             <location filename="../../../src/plugins/android/androidtoolmenu.cpp" line="+46" />
             <source>Android package installation finished with success.</source>
-            <translation>Installation av Android-paket lyckades.</translation>
+            <translation>Installationen av Android-paketet slutfördes.</translation>
         </message>
         <message>
             <location line="-15" />
             <source>Starting Android virtual device failed.</source>
-            <translation>Starta Android virtuella enhet misslyckades.</translation>
+            <translation>Det gick inte att starta den virtuella Android-enheten.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/android/androidpackageinstallationstep.cpp" line="+125" />
