@@ -40670,7 +40670,7 @@ Orsak: %3</translation>
         <message>
             <location filename="../../../src/plugins/genericprojectmanager/genericproject.cpp" line="+141" />
             <source>Generic Manager</source>
-            <translation>Allmän hanterare</translation>
+            <translation>Allmän projekthanterare</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/genericprojectmanager/genericprojectwizard.cpp" line="+103" />
@@ -40696,12 +40696,12 @@ Orsak: %3</translation>
         <message>
             <location line="+5" />
             <source>File Selection</source>
-            <translation>Filväljare</translation>
+            <translation>Filval</translation>
         </message>
         <message>
             <location line="+49" />
             <source>Imports existing projects that do not use qmake, CMake, Qbs, Meson, or Autotools. This allows you to use %1 as a code editor.</source>
-            <translation>Importerar befintliga projekt som inte använder qmake, CMake, Qbs, Meson eller Autotools. Detta låter dig använda %1 som en kodredigerare.</translation>
+            <translation>Importerar befintliga projekt som inte använder qmake, CMake, Qbs, Meson eller Autotools. Då kan du använda %1 som kodredigerare.</translation>
         </message>
         <message>
             <location line="-104" />
@@ -40731,7 +40731,7 @@ Orsak: %3</translation>
         <message>
             <location filename="../../../src/plugins/genericprojectmanager/genericprojectfileseditor.cpp" line="+23" />
             <source>.files Editor</source>
-            <translation>.files Editor</translation>
+            <translation>.files-redigerare</translation>
         </message>
     </context>
     <context>
