@@ -74146,17 +74146,17 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+27" />
             <source>QML item id within a QML file.</source>
-            <translation>QML-post-id inom en QML-fil.</translation>
+            <translation>QML-objekt-id i en QML-fil.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>QML property of a parent item.</source>
-            <translation>QML-egenskap för en föräldrapost.</translation>
+            <translation>QML-egenskap för ett överordnat objekt.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Property of the same QML item.</source>
-            <translation>Egenskap för samma QML-post.</translation>
+            <translation>Egenskap för samma QML-objekt.</translation>
         </message>
         <message>
             <location line="+61" />
@@ -74166,7 +74166,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+18" />
             <source>Location in the files where the difference is (in diff editor).</source>
-            <translation>Plats i filerna där skillnaden är (i jämförelseeditorn).</translation>
+            <translation>Platsen i filerna där skillnaden finns, i diff-redigeraren.</translation>
         </message>
         <message>
             <location line="-93" />
@@ -74176,22 +74176,22 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1" />
             <source>QML item property, that allows a binding to another property.</source>
-            <translation>QML-postegenskap, som tillåter en bindning till en annan egenskap.</translation>
+            <translation>QML-objektegenskap som tillåter bindning till en annan egenskap.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>QML Local Id</source>
-            <translation>QML Lokalt ID</translation>
+            <translation>Lokalt QML-id</translation>
         </message>
         <message>
             <location line="+3" />
             <source>QML Root Object Property</source>
-            <translation>QML- objektets objektobjekt</translation>
+            <translation>Egenskap för QML-rotobjekt</translation>
         </message>
         <message>
             <location line="+3" />
             <source>QML Scope Object Property</source>
-            <translation>QML- objektobjektsobjekt</translation>
+            <translation>Egenskap för QML-omfångsobjekt</translation>
         </message>
         <message>
             <location line="+2" />
@@ -74216,32 +74216,32 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+4" />
             <source>QML External Id</source>
-            <translation>QML Extern Id</translation>
+            <translation>Externt QML-id</translation>
         </message>
         <message>
             <location line="+1" />
             <source>QML id defined in another QML file.</source>
-            <translation>QML- id definieras i en annan QML- fil.</translation>
+            <translation>QML-id som definieras i en annan QML-fil.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>QML External Object Property</source>
-            <translation>QML Externa objekts egendom</translation>
+            <translation>Extern QML-objektegenskap</translation>
         </message>
         <message>
             <location line="+1" />
             <source>QML property defined in another QML file.</source>
-            <translation>QML egenskap definieras i en annan QML-fil.</translation>
+            <translation>QML-egenskap som definieras i en annan QML-fil.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>JavaScript Scope Var</source>
-            <translation>JavaScript- omfattningsvar</translation>
+            <translation>JavaScript-variabel i omfånget</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Variables defined inside the JavaScript file.</source>
-            <translation>Variabler definierade inuti JavaScript- filen.</translation>
+            <translation>Variabler som definieras i JavaScript-filen.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -74256,7 +74256,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+2" />
             <source>JavaScript Global Variable</source>
-            <translation>JavaScript Global variabel</translation>
+            <translation>Global JavaScript-variabel</translation>
         </message>
         <message>
             <location line="+1" />
@@ -74281,7 +74281,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1" />
             <source>Preprocessor directives.</source>
-            <translation>Direktiv om förbearbetning.</translation>
+            <translation>Förbehandlardirektiv.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -74291,7 +74291,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+0" />
             <source>Labels for goto statements.</source>
-            <translation>Etiketter för att gå till uttalanden.</translation>
+            <translation>Etiketter för goto-satser.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -74301,7 +74301,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1" />
             <source>All style of comments except Doxygen comments.</source>
-            <translation>Alla stilar av kommentarer utom Doxygen kommentarer.</translation>
+            <translation>Alla typer av kommentarer utom Doxygen-kommentarer.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -74321,7 +74321,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+2" />
             <source>Visual Whitespace</source>
-            <translation>Synfält</translation>
+            <translation>Synliga blanktecken</translation>
         </message>
         <message>
             <location line="+3" />
@@ -74331,7 +74331,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1" />
             <source>Code disabled by preprocessor directives.</source>
-            <translation>Kod inaktiverad genom preprocessordirektiv.</translation>
+            <translation>Kod som inaktiveras av förbehandlardirektiv.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -74341,7 +74341,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1" />
             <source>Applied to added lines in differences (in diff editor).</source>
-            <translation>Tillämpas på nya rader i skillnader (i jämförelseeditorn).</translation>
+            <translation>Tillämpas på tillagda rader i diffar, i diff-redigeraren.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -74351,22 +74351,22 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+1" />
             <source>Applied to removed lines in differences (in diff editor).</source>
-            <translation>Tillämpas på borttagna rader i skillnader (i jämförelseeditorn).</translation>
+            <translation>Tillämpas på borttagna rader i diffar, i diff-redigeraren.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Diff File</source>
-            <translation>Jämförelsefil</translation>
+            <translation>Diff-fil</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Compared files (in diff editor).</source>
-            <translation>Jämförde filer (i jämförelseeditorn).</translation>
+            <translation>Jämförda filer i diff-redigeraren.</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Diff Location</source>
-            <translation>Diff- plats</translation>
+            <translation>Diff-plats</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/behaviorsettingspage.cpp" line="+70" />
