@@ -19638,7 +19638,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
         <message>
             <location line="+12" />
             <source>Export Code Format</source>
-            <translation>Format för exportkod</translation>
+            <translation>Exportera kodformat</translation>
         </message>
         <message>
             <location line="+170" />
@@ -19659,7 +19659,7 @@ Kontrollera att variabeln CMAKE_BUILD_TYPE stämmer överens med fältet ”Buil
             <location filename="../../../src/plugins/clangformat/clangformatglobalconfigwidget.cpp" line="+39" />
             <source>Files greater than this will not be indented by ClangFormat.
 The built-in code indenter will handle indentation.</source>
-            <translation>Filer som är större än detta får inget indrag av ClangFormat.
+            <translation>Filer som är större än den här storleken formateras inte med ClangFormat.
 Den inbyggda kodindenteraren hanterar indragningen.</translation>
         </message>
         <message>
