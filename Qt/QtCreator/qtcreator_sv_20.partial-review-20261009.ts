@@ -75199,17 +75199,17 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="-1" />
             <source>Cleanups Upon Saving</source>
-            <translation>Rengöring vid sparande</translation>
+            <translation>Rensning vid sparande</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/storagesettings.cpp" line="-6" />
             <source>Removes trailing whitespace upon saving.</source>
-            <translation>Tar bort den avslutande blanktecken vid spara.</translation>
+            <translation>Tar bort avslutande blanktecken vid sparande.</translation>
         </message>
         <message>
             <location line="-1" />
             <source>&amp;Clean whitespace</source>
-            <translation>&amp;Clean blanktecken</translation>
+            <translation>&amp;Rensa blanktecken</translation>
         </message>
         <message>
             <location line="+6" />
@@ -75219,12 +75219,12 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="+11" />
             <source>Clean indentation</source>
-            <translation>Ren indentering</translation>
+            <translation>Rensa indrag</translation>
         </message>
         <message>
             <location line="-6" />
             <source>&amp;Ensure newline at end of file</source>
-            <translation>&amp;Enure ny rad i slutet av filen</translation>
+            <translation>Säkerställ &amp;nyradstecken i slutet av filen</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/behaviorsettingswidget.cpp" line="+14" />
@@ -75239,12 +75239,12 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="+5" />
             <source>Add If Encoding Is UTF-8</source>
-            <translation>Lägg till om kodning är UTF-8</translation>
+            <translation>Lägg till om kodningen är UTF-8</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Keep If Already Present</source>
-            <translation>Behåll om redan närvarande</translation>
+            <translation>Behåll om den redan finns</translation>
         </message>
         <message>
             <location line="+1" />
@@ -75254,7 +75254,7 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="+2" />
             <source>UTF-8 BOM:</source>
-            <translation>UTF-8 BOM:</translation>
+            <translation>UTF-8-BOM:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/behaviorsettingswidget.cpp" line="+11" />
@@ -75269,38 +75269,38 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="+5" />
             <source>Enable scroll &amp;wheel zooming</source>
-            <translation>Aktivera zoomning av rullen &amp;wheel</translation>
+            <translation>Aktivera zoomning med mush&amp;julet</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Enable built-in camel case &amp;navigation</source>
-            <translation>Aktivera inbyggt kamelfall &amp;navigation</translation>
+            <translation>Aktivera inbyggd &amp;navigering med kamelfall</translation>
         </message>
         <message>
             <location line="-14" />
             <source>On Mouseover</source>
-            <translation>På musövergång</translation>
+            <translation>När muspekaren hålls över något</translation>
         </message>
         <message>
             <location line="+5" />
             <source>On Shift+Mouseover</source>
-            <translation>Vid Skift + Övergång</translation>
+            <translation>När Skift hålls nedtryckt och muspekaren hålls över något</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Show help tooltips using keyboard shortcut (Alt)</source>
-            <translation>Visa verktygstips med hjälp av kortkommando (Alt)</translation>
+            <translation>Visa hjälpverktygstips med kortkommandot Alt</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/extraencodingsettings.cpp" line="+16" />
             <source>Default line endings:</source>
-            <translation>Radslut som standard:</translation>
+            <translation>Standardradslut:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/behaviorsettings.cpp" line="-21" />
             <location line="+11" />
             <source>Show help tooltips using the mouse:</source>
-            <translation>Visa verktygstips med musen:</translation>
+            <translation>Visa hjälpverktygstips med musen:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/codestyleselectorwidget.cpp" line="-263" />
@@ -75311,12 +75311,12 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="+2" />
             <source>Export...</source>
-            <translation>Exportera…</translation>
+            <translation>Exportera …</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Import...</source>
-            <translation>Importera…</translation>
+            <translation>Importera …</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/displaysettings.cpp" line="-242" />
@@ -75331,7 +75331,7 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="-4" />
             <source>Display &amp;folding markers</source>
-            <translation>Visa &amp;folding- markörer</translation>
+            <translation>Visa &amp;vikningsmarkörer</translation>
         </message>
         <message>
             <location line="+8" />
@@ -75346,27 +75346,27 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="-29" />
             <source>&amp;Visualize whitespace</source>
-            <translation>&amp;Visualize blanktecken</translation>
+            <translation>&amp;Visa blanktecken</translation>
         </message>
         <message>
             <location line="+21" />
             <source>&amp;Animate matching parentheses</source>
-            <translation>&amp;Animera matchande paranteser</translation>
+            <translation>&amp;Animera matchande parenteser</translation>
         </message>
         <message>
             <location line="+82" />
             <source>&lt;i&gt;Set &lt;a href="font zoom"&gt;font line spacing&lt;/a&gt; to 100% to enable text wrapping option.&lt;/i&gt;</source>
-            <translation>&lt;i&gt;Set &lt;a href="font zoom"&gt;font radavstånd&lt;/a&gt; till 100% för att aktivera textomslagsalternativ.&lt;/i&gt;</translation>
+            <translation>&lt;i&gt;Ställ in &lt;a href="font zoom"&gt;radavstånd för teckensnittet&lt;/a&gt; på 100 % för att aktivera radbrytning.&lt;/i&gt;</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/marginsettings.cpp" line="+28" />
             <source>Display right &amp;margin after column:</source>
-            <translation>Visa höger &amp;margin efter kolumn:</translation>
+            <translation>Visa höger&amp;marginal efter kolumn:</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Tint whole margin area</source>
-            <translation>Tint hela marginalyta</translation>
+            <translation>Färga hela marginalområdet</translation>
         </message>
         <message>
             <location line="+4" />
@@ -75376,22 +75376,22 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="+1" />
             <source>If available, use a different margin. For example, the ColumnLimit from the ClangFormat plugin.</source>
-            <translation>Om tillgänglig, använd en annan marginal. Till exempel ColumnLimit från insticksmodulen ClangFormat.</translation>
+            <translation>Använd en annan marginal om den är tillgänglig, till exempel ColumnLimit från insticksmodulen ClangFormat.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Editor content width:</source>
-            <translation>Redaktörens innehållsbredd:</translation>
+            <translation>Redigerarens innehållsbredd:</translation>
         </message>
         <message>
             <location line="+2" />
             <source>100% means that whole width of editor window is used to display text content (default).&lt;br&gt;50% means that half of editor width is used to display text content.&lt;br&gt;Remaining 50% is divided as left and right margins while centering the content.</source>
-            <translation>100% innebär att hela bredden på editorfönstret används för att visa textinnehåll (standard).&lt;br&gt;50% innebär att hälften av editorbredden används för att visa textinnehåll.&lt;br&gt;Remaining 50% delas som vänster och höger marginaler medan innehållet centreras.</translation>
+            <translation>100 % innebär att hela redigerarfönstrets bredd används för att visa textinnehåll (standard).&lt;br&gt;50 % innebär att hälften av redigerarens bredd används för att visa textinnehåll.&lt;br&gt;Resterande 50 % delas upp som vänster och höger marginal medan innehållet centreras.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/displaysettings.cpp" line="-44" />
             <source>Highlight search results on the scrollbar</source>
-            <translation>Markera sökresultat på rullningslisten</translation>
+            <translation>Framhäv sökresultat på rullningslisten</translation>
         </message>
         <message>
             <location line="+4" />
@@ -75401,17 +75401,17 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="-30" />
             <source>Auto-fold first &amp;comment</source>
-            <translation>Automatiskt vik första &amp;comment</translation>
+            <translation>Fäll automatiskt ihop första &amp;kommentaren</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Center &amp;cursor on scroll</source>
-            <translation>Center &amp;cursor på rullen</translation>
+            <translation>Centrera &amp;markören vid rullning</translation>
         </message>
         <message>
             <location line="-36" />
             <source>Shows tabs and spaces.</source>
-            <translation>Visa tabbar och blanksteg.</translation>
+            <translation>Visar tabbar och blanksteg.</translation>
         </message>
         <message>
             <location line="+54" />
@@ -75421,17 +75421,17 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="+12" />
             <source>&amp;Highlight selection</source>
-            <translation>&amp;Highlight- val</translation>
+            <translation>Framhäv &amp;markering</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Adds a colored background and a marker to the scrollbar to occurrences of the selected text.</source>
-            <translation>Lägger till en färgad bakgrund och en markering i rullningslisten till förekomster av den markerade texten.</translation>
+            <translation>Lägger till en färgad bakgrund och en markering på rullningslisten vid förekomster av den markerade texten.</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Next to editor content</source>
-            <translation>Bredvid redigerarinnehåll</translation>
+            <translation>Bredvid redigerarinnehållet</translation>
         </message>
         <message>
             <location line="+1" />
@@ -75441,7 +75441,7 @@ Anger hur backstegstangenten samverkar med indrag.
         <message>
             <location line="+1" />
             <source>Aligned at right side</source>
-            <translation>Justerat på höger sida</translation>
+            <translation>Högerjusterad</translation>
         </message>
         <message>
             <location line="+1" />
