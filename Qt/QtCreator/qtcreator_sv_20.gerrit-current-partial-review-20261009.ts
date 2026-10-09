@@ -5357,7 +5357,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Sets the stroke color of the boundary.</source>
-        <translation>Ställer in gränsens streckfärg.</translation>
+        <translation>Anger konturens streckfärg.</translation>
     </message>
     <message>
         <source>Stroke width</source>
@@ -5365,7 +5365,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Sets the stroke thickness of the boundary.</source>
-        <translation>Ställer in gränsens strecktjocklek.</translation>
+        <translation>Anger konturens strecktjocklek.</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -6233,7 +6233,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the object</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Content width used for calculating the total implicit width.</source>
@@ -9056,7 +9056,7 @@ en markeringskomponent.</translation>
     </message>
     <message>
         <source>Fade Distance</source>
-        <translation>Toningens avstånd</translation>
+        <translation>Övertoningsavstånd</translation>
     </message>
     <message>
         <source>Specifies the distance at which the cross-fade between the detail levels starts.</source>
@@ -71592,7 +71592,7 @@ som definieras av stegstorleken.</translation>
     </message>
     <message>
         <source>Sets the stroke color of the boundary.</source>
-        <translation>Anger linjefärgen för gränsen.</translation>
+        <translation>Anger konturens streckfärg.</translation>
     </message>
     <message>
         <source>Stroke width</source>
@@ -71600,7 +71600,7 @@ som definieras av stegstorleken.</translation>
     </message>
     <message>
         <source>Sets the stroke thickness of the boundary.</source>
-        <translation>Anger gränsens linjetjocklek.</translation>
+        <translation>Anger konturens strecktjocklek.</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -71945,11 +71945,11 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Mesh Sources</source>
-        <translation>Nätkällor</translation>
+        <translation>Meshkällor</translation>
     </message>
     <message>
         <source>A list of mesh assets to be loaded and cached.</source>
-        <translation>En lista över nättillgångar som ska läsas in och cachas.</translation>
+        <translation>En lista över meshresurser som ska läsas in och cachas.</translation>
     </message>
     <message>
         <source>Currently only editable in QML.</source>
