@@ -42891,41 +42891,41 @@ i stället för i installationskatalogen när det körs utanför Git Bash.</tran
         <message>
             <location line="+2" />
             <source>R&amp;estore...</source>
-            <translation>R&amp;e-butiken…</translation>
+            <translation>Återst&amp;äll...</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Restore to &amp;Branch...</source>
             <extracomment>Restore a git stash to new branch to be created</extracomment>
-            <translation>Återställ till &amp;Branch…</translation>
+            <translation>Återställ till &amp;gren...</translation>
         </message>
         <message>
             <location line="+96" />
             <location line="+14" />
             <source>Delete Stashes</source>
-            <translation>Ta bort stashes</translation>
+            <translation>Ta bort stashar</translation>
         </message>
         <message>
             <location line="+54" />
             <source>Repository Modified</source>
-            <translation>Förrådet ändrat</translation>
+            <translation>Arkivet har ändrats</translation>
         </message>
         <message>
             <location line="+1" />
             <source>%1 cannot be restored since the repository is modified.
 You can choose between stashing the changes or discarding them.</source>
-            <translation>%1 kan inte återställas eftersom arkivet är modifierat. Du
-kan välja mellan att gömma ändringarna eller kasta dem.</translation>
+            <translation>%1 kan inte återställas eftersom arkivet har ändrats.
+Du kan välja mellan att stasha ändringarna eller förkasta dem.</translation>
         </message>
         <message>
             <location line="+54" />
             <source>Restore Stash to Branch</source>
-            <translation>Återställa Stash till avdelningskontor</translation>
+            <translation>Återställ stash till gren</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Stash Restore</source>
-            <translation>Återställa stash</translation>
+            <translation>Återställ stash</translation>
         </message>
         <message>
             <location line="+0" />
@@ -42941,7 +42941,7 @@ kan välja mellan att gömma ändringarna eller kasta dem.</translation>
             <location filename="../../../src/plugins/git/gitclient.cpp" line="-3144" />
             <location filename="../../../src/plugins/git/giteditor.cpp" line="+214" />
             <source>Chunk successfully staged</source>
-            <translation>Chunk lyckades iscensätta</translation>
+            <translation>Blocket har indexerats</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/giteditor.cpp" line="-155" />
@@ -42951,7 +42951,7 @@ kan välja mellan att gömma ändringarna eller kasta dem.</translation>
         <message>
             <location line="+1" />
             <source>Filter log entries by text in the commit message.</source>
-            <translation>Filtrera loggposter efter text i meddelandet att skicka.</translation>
+            <translation>Filtrera loggposter efter text i incheckningsmeddelandet.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -42961,7 +42961,7 @@ kan välja mellan att gömma ändringarna eller kasta dem.</translation>
         <message>
             <location line="+1" />
             <source>Filter log entries by added or removed string.</source>
-            <translation>Filtrera loggposter genom att lägga till eller ta bort sträng.</translation>
+            <translation>Filtrera loggposter efter en sträng som har lagts till eller tagits bort.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -42991,17 +42991,17 @@ kan välja mellan att gömma ändringarna eller kasta dem.</translation>
         <message>
             <location line="+1" />
             <source>Blame &amp;Parent Revision %1</source>
-            <translation>Skulder &amp;Parent revision %1</translation>
+            <translation>Git-blame för över&amp;ordnad revision %1</translation>
         </message>
         <message>
             <location line="+141" />
             <source>Stage Chunk...</source>
-            <translation>Scenen Chunk…</translation>
+            <translation>Indexera block...</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Unstage Chunk...</source>
-            <translation>- Öppna scenen, Chunk.</translation>
+            <translation>Ta bort block från index...</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gitsettings.cpp" line="-18" />
@@ -43011,7 +43011,7 @@ kan välja mellan att gömma ändringarna eller kasta dem.</translation>
         <message>
             <location line="+17" />
             <source>Git Repository Browser Command</source>
-            <translation>Kommando för Git- arkivbläddrare</translation>
+            <translation>Kommando för Git-arkivbläddraren</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gitclient.cpp" line="+519" />
@@ -43021,13 +43021,13 @@ kan välja mellan att gömma ändringarna eller kasta dem.</translation>
         <message>
             <location line="-1" />
             <source>Patience</source>
-            <translation>Tålamod</translation>
+            <translation>Patience</translation>
         </message>
         <message>
             <location line="-22" />
             <location line="+26" />
             <source>Ignore whitespace only changes.</source>
-            <translation>Ignorera blanktecken bara förändras.</translation>
+            <translation>Ignorera ändringar som bara gäller blanksteg.</translation>
         </message>
         <message>
             <location line="-27" />
@@ -43043,47 +43043,47 @@ kan välja mellan att gömma ändringarna eller kasta dem.</translation>
         <message>
             <location line="-1" />
             <source>Omit Date</source>
-            <translation>Datum för utfärdande av tillstånd</translation>
+            <translation>Utelämna datum</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/branchadddialog.cpp" line="-96" />
             <source>References must not end with ".lock".</source>
-            <translation>Hänvisningarna får inte sluta med ".lock".</translation>
+            <translation>Referenser får inte sluta med ”.lock”.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>References must not end with ".".</source>
-            <translation>Hänvisningar får inte sluta med "..</translation>
+            <translation>Referenser får inte sluta med ”.”.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>References must not end with "/".</source>
-            <translation>Hänvisningarna får inte sluta med "/".</translation>
+            <translation>Referenser får inte sluta med ”/”.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Reference "%1" already exists.</source>
-            <translation>Referensen "%1" finns redan.</translation>
+            <translation>Referensen ”%1” finns redan.</translation>
         </message>
         <message>
             <location line="+47" />
             <source>Branch Name:</source>
-            <translation>Namn på filialen:</translation>
+            <translation>Grennamn:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Annotation:</source>
-            <translation>Anmärkning:</translation>
+            <translation>Annotering:</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Checkout new branch</source>
-            <translation>Utcheckning ny gren</translation>
+            <translation>Checka ut ny gren</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Annotation (Optional)</source>
-            <translation>Anmärkning (frivillig uppgift)</translation>
+            <translation>Annotering (valfritt)</translation>
         </message>
         <message>
             <location line="+11" />
@@ -43104,7 +43104,7 @@ kan välja mellan att gömma ändringarna eller kasta dem.</translation>
             <location line="+1" />
             <location line="+6" />
             <source>Tag name:</source>
-            <translation>Etikettnamn:</translation>
+            <translation>Taggnamn:</translation>
         </message>
         <message>
             <location line="+44" />
@@ -43119,12 +43119,12 @@ kan välja mellan att gömma ändringarna eller kasta dem.</translation>
         <message>
             <location filename="../../../src/plugins/git/remotedialog.cpp" line="-94" />
             <source>A remote with the name "%1" already exists.</source>
-            <translation>fjärrkontroll med namnet "%1" finns redan.</translation>
+            <translation>Ett fjärrarkiv med namnet ”%1” finns redan.</translation>
         </message>
         <message>
             <location line="+17" />
             <source>The URL may not be valid.</source>
-            <translation>URLen kanske inte är giltig.</translation>
+            <translation>URL:en kanske inte är giltig.</translation>
         </message>
         <message>
             <location line="+10" />
