@@ -38939,7 +38939,7 @@ inaktiveras även följande insticksmoduler:
         <message>
             <location line="+4" />
             <source>Running</source>
-            <translation>Kör</translation>
+            <translation>Körs</translation>
         </message>
         <message>
             <location line="+4" />
@@ -38975,8 +38975,8 @@ inaktiveras även följande insticksmoduler:
             <location line="+21" />
             <source>Cannot load plugin because dependency failed to load: %1 (%2)
 Reason: %3</source>
-            <translation>Kan inte ladda insticksprogram eftersom
-beroendet inte laddat: %1 (%2) Orsak: %3</translation>
+            <translation>Kan inte läsa in insticksmodulen eftersom beroendet inte kunde läsas in: %1 (%2)
+Orsak: %3</translation>
         </message>
         <message>
             <location line="+73" />
@@ -38991,7 +38991,7 @@ beroendet inte laddat: %1 (%2) Orsak: %3</translation>
         <message>
             <location line="+2" />
             <source>If you temporarily disable %1, the following plugins that depend on it are also disabled: %2.</source>
-            <translation>Om du tillfälligt inaktiverar %1, är följande insticksprogram som beror på det också inaktiverade: %2.</translation>
+            <translation>Om du tillfälligt inaktiverar %1 inaktiveras även följande insticksmoduler som är beroende av den: %2.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -39001,7 +39001,7 @@ beroendet inte laddat: %1 (%2) Orsak: %3</translation>
         <message>
             <location line="+1" />
             <source>The last time you started %1, it seems to have closed because of a problem with the "%2" plugin. Temporarily disable the plugin?</source>
-            <translation>Senast du startade %1 verkar det ha stängt på grund av ett problem med insticksprogrammet "%2". Insticksprogrammet inaktiveras tillfälligt?</translation>
+            <translation>Senast du startade %1 verkar programmet ha avslutats på grund av ett problem med insticksmodulen ”%2”. Vill du tillfälligt inaktivera den?</translation>
         </message>
         <message>
             <location line="+8" />
@@ -39016,7 +39016,7 @@ beroendet inte laddat: %1 (%2) Orsak: %3</translation>
         <message>
             <location line="+5" />
             <source>Accept</source>
-            <translation>Acceptera</translation>
+            <translation>Godkänn</translation>
         </message>
         <message>
             <location line="+2" />
@@ -39031,7 +39031,7 @@ beroendet inte laddat: %1 (%2) Orsak: %3</translation>
         <message>
             <location line="+201" />
             <source>Plugin not found.</source>
-            <translation>Insticksprogram hittades inte.</translation>
+            <translation>Insticksmodulen hittades inte.</translation>
         </message>
         <message>
             <location line="+54" />
@@ -39048,13 +39048,13 @@ beroendet inte laddat: %1 (%2) Orsak: %3</translation>
             <location line="+39" />
             <source>Cannot load plugin because dependency failed to load: %1(%2)
 Reason: %3</source>
-            <translation>Kan inte ladda insticksprogram eftersom
-beroendet inte laddat: %1(%2) Orsak: %3</translation>
+            <translation>Kan inte läsa in insticksmodulen eftersom beroendet inte kunde läsas in: %1(%2)
+Orsak: %3</translation>
         </message>
         <message>
             <location filename="../../../src/libs/extensionsystem/optionsparser.cpp" line="+107" />
             <source>The plugin "%1" is specified twice for testing.</source>
-            <translation>Insticksmodulen "%1" är angiven två gånger för testning.</translation>
+            <translation>Insticksmodulen ”%1” anges två gånger för testning.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -39062,12 +39062,12 @@ beroendet inte laddat: %1(%2) Orsak: %3</translation>
             <location line="+21" />
             <location line="+23" />
             <source>The plugin "%1" does not exist.</source>
-            <translation>Insticksmodulen "%1" finns inte.</translation>
+            <translation>Insticksmodulen ”%1” finns inte.</translation>
         </message>
         <message>
             <location line="-49" />
             <source>The plugin "%1" is not tested.</source>
-            <translation>Insticksmodulen "%1" är inte testad.</translation>
+            <translation>Insticksmodulen ”%1” har inte testats.</translation>
         </message>
         <message>
             <source>Cannot request scenario "%1" as it was already requested.</source>
@@ -39086,26 +39086,26 @@ beroendet inte laddat: %1(%2) Orsak: %3</translation>
         <message>
             <location filename="../../../src/libs/extensionsystem/pluginspec.cpp" line="+1275" />
             <source>Resolving dependencies failed because state != Read</source>
-            <translation>Lösning av beroenden misslyckades eftersom tillstånd != Läs</translation>
+            <translation>Det gick inte att lösa beroendena eftersom state != Read</translation>
         </message>
         <message>
             <location line="+94" />
             <source>Loading the library failed because state != Resolved</source>
-            <translation>Laddar biblioteket misslyckades eftersom tillstånd != Löst</translation>
+            <translation>Det gick inte att läsa in biblioteket eftersom state != Resolved</translation>
         </message>
         <message>
             <location line="+32" />
             <source>Initializing the plugin failed because state != Loaded</source>
-            <translation>Insticksprogrammets initiering misslyckades eftersom tillstånd != Laddat</translation>
+            <translation>Det gick inte att initiera insticksmodulen eftersom state != Loaded</translation>
         </message>
         <message>
             <location line="+37" />
             <source>Cannot perform extensionsInitialized because state != Initialized</source>
-            <translation>Kan inte utföra förlängningarInitialiserad eftersom tillstånd != Initierad</translation>
+            <translation>Kan inte utföra extensionsInitialized eftersom state != Initialized</translation>
         </message>
         <message>
             <source>Could not resolve dependency '%1(%2)'</source>
-            <translation>Kunde inte slå upp beroendet '%1(%2)'</translation>
+            <translation>Kunde inte lösa beroendet '%1(%2)'</translation>
         </message>
         <message>
             <location line="-601" />
