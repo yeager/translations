@@ -16335,19 +16335,19 @@ Försök igen när den har avslutats.</translation>
         <message>
             <location line="-14" />
             <source>Local commit</source>
-            <translation>Lokalt åtagande</translation>
+            <translation>Lokal incheckning</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Performs a local commit in a bound branch.
 Local commits are not pushed to the master branch until a normal commit is performed.</source>
-            <translation>Utför ett lokalt åtagande i en bunden gren. Lokala åtaganden
-skjuts inte till huvudgrenen förrän ett normalt åtagande utförs.</translation>
+            <translation>Utför en lokal incheckning i en bunden gren.
+Lokala incheckningar pushas inte till huvudgrenen förrän en vanlig incheckning utförs.</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Commit Information</source>
-            <translation>Uppgifter från kommittén</translation>
+            <translation>Incheckningsinformation</translation>
         </message>
         <message>
             <location line="+2" />
@@ -16362,7 +16362,7 @@ skjuts inte till huvudgrenen förrän ett normalt åtagande utförs.</translatio
         <message>
             <location line="+1" />
             <source>Fixed bugs:</source>
-            <translation>Fasta fel:</translation>
+            <translation>Åtgärdade fel:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/bazaar/bazaarsettings.cpp" line="+70" />
@@ -16382,7 +16382,7 @@ skjuts inte till huvudgrenen förrän ett normalt åtagande utförs.</translatio
         <message>
             <location line="-22" />
             <source>Username to use by default on commit.</source>
-            <translation>Användarnamn att använda som standard på commit.</translation>
+            <translation>Användarnamn som används som standard vid incheckning.</translation>
         </message>
         <message>
             <location line="-1" />
@@ -16392,7 +16392,7 @@ skjuts inte till huvudgrenen förrän ett normalt åtagande utförs.</translatio
         <message>
             <location line="+5" />
             <source>Email to use by default on commit.</source>
-            <translation>E-post att använda som standard på commit.</translation>
+            <translation>E-postadress som används som standard vid incheckning.</translation>
         </message>
         <message>
             <location line="-1" />
@@ -16402,7 +16402,7 @@ skjuts inte till huvudgrenen förrän ett normalt åtagande utförs.</translatio
         <message>
             <location line="+27" />
             <source>Miscellaneous</source>
-            <translation>Diverse</translation>
+            <translation>Övrigt</translation>
         </message>
         <message>
             <location line="-24" />
@@ -16422,7 +16422,7 @@ skjuts inte till huvudgrenen förrän ett normalt åtagande utförs.</translatio
         <message>
             <location line="-3" />
             <source>The number of recent commit logs to show. Choose 0 to see all entries.</source>
-            <translation>Antalet senaste loggningar som ska visas. Välj 0 för att se alla poster.</translation>
+            <translation>Antalet senaste incheckningsloggar som ska visas. Välj 0 för att se alla poster.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/bazaar/pullorpushdialog.cpp" line="+24" />
@@ -16439,8 +16439,8 @@ skjuts inte till huvudgrenen förrän ett normalt åtagande utförs.</translatio
             <location line="+6" />
             <source>Ignores differences between branches and overwrites
 unconditionally.</source>
-            <translation>Ignorerar skillnader mellan filialer
-och överskrivningar villkorslöst.</translation>
+            <translation>Ignorerar skillnader mellan grenar och skriver över
+utan villkor.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -16451,13 +16451,13 @@ och överskrivningar villkorslöst.</translation>
             <location line="+6" />
             <source>Performs a local pull in a bound branch.
 Local pulls are not applied to the master branch.</source>
-            <translation>Utför en lokal dragning i en bunden gren. Lokala
-dragningar tillämpas inte på huvudgrenen.</translation>
+            <translation>Utför en lokal hämtning i en bunden gren.
+Lokala hämtningar tillämpas inte på huvudgrenen.</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Branch Location</source>
-            <translation>Avdelningskontorets plats</translation>
+            <translation>Grenplats</translation>
         </message>
         <message>
             <location line="-52" />
@@ -16507,19 +16507,19 @@ dragningar tillämpas inte på huvudgrenen.</translation>
         <message>
             <location line="+8" />
             <source>Pull Source</source>
-            <translation>Dra i källa</translation>
+            <translation>Hämtningskälla</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Push Destination</source>
-            <translation>Tryck på mål</translation>
+            <translation>Pushmål</translation>
         </message>
         <message>
             <location line="-22" />
             <source>By default, push will fail if the target directory exists, but does not already have a control directory.
 This flag will allow push to proceed.</source>
-            <translation>Normalt misslyckas tryck om målkatalogen finns, men har inte redan
-en kontrollkatalog. Flaggningen tillåter tryck att fortsätta.</translation>
+            <translation>Som standard misslyckas push om målkatalogen finns men ännu inte har en kontrollkatalog.
+Den här flaggan tillåter att push fortsätter.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/bazaar/bazaarplugin.cpp" line="+100" />
@@ -16541,7 +16541,7 @@ en kontrollkatalog. Flaggningen tillåter tryck att fortsätta.</translation>
         <message>
             <location line="-23" />
             <source>Uncommit</source>
-            <translation>Ej godkänt</translation>
+            <translation>Ångra incheckning</translation>
         </message>
         <message>
             <location line="+2" />
@@ -16551,19 +16551,19 @@ en kontrollkatalog. Flaggningen tillåter tryck att fortsätta.</translation>
         <message>
             <location line="+2" />
             <source>Only remove the commits from the local branch when in a checkout</source>
-            <translation>Ta bara bort de åtaganden från den lokala avdelningskontoret när i en kassan</translation>
+            <translation>Ta endast bort incheckningarna från den lokala grenen vid utcheckning</translation>
         </message>
         <message>
             <location line="+3" />
             <source>If a revision is specified, uncommits revisions to leave the branch at the specified revision.
 For example, "Revision: 15" will leave the branch at revision 15.</source>
-            <translation>Om en revidering specificeras, kommer inte rekommendationer att ändras för att lämna filialen vid
-den angivna revideringen. Till exempel kommer "Revision: 15" att lämna filialen vid revision 15.</translation>
+            <translation>Om en revision anges ångras incheckningar så att grenen lämnas vid den angivna revisionen.
+Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Last committed</source>
-            <translation>Senast utfäst</translation>
+            <translation>Senast incheckad</translation>
         </message>
         <message>
             <location line="+4" />
@@ -16573,12 +16573,12 @@ den angivna revideringen. Till exempel kommer "Revision: 15" att lämna filialen
         <message>
             <location line="+1" />
             <source>Test the outcome of removing the last committed revision, without actually removing anything.</source>
-            <translation>Testa resultatet av att ta bort den senaste genomförda översynen, utan att faktiskt ta bort något.</translation>
+            <translation>Testa resultatet av att ta bort den senast incheckade revisionen utan att faktiskt ta bort något.</translation>
         </message>
         <message>
             <location line="+55" />
             <source>Triggers a Bazaar version control operation.</source>
-            <translation>Utlöser en Bazaar version kontroll.</translation>
+            <translation>Utlöser en versionshanteringsåtgärd i Bazaar.</translation>
         </message>
         <message>
             <location line="+7" />
