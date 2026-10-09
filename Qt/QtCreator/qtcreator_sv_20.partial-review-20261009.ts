@@ -64128,17 +64128,17 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+8" />
             <source>Ctrl+Shift+;</source>
-            <translation>Ctrl + Skift +;</translation>
+            <translation>Ctrl+Skift+;</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Reformat Document</source>
-            <translation>Reformera dokumentet</translation>
+            <translation>Formatera om dokumentet</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Inspect API for Element Under Cursor</source>
-            <translation>Inspektera API för element under förbannelse</translation>
+            <translation>Inspektera API för element under markören</translation>
         </message>
         <message>
             <location line="+73" />
@@ -64148,7 +64148,7 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+113" />
             <source>Custom formatter path not found.</source>
-            <translation>Anpassad formerteringsväg hittades inte.</translation>
+            <translation>Sökvägen till det anpassade formateringsverktyget hittades inte.</translation>
         </message>
         <message>
             <location line="+27" />
@@ -64158,7 +64158,7 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+12" />
             <source>Error: Formatting failed with the selected formatter.</source>
-            <translation>Fel: Formatering misslyckades med den markerade egenskapen.</translation>
+            <translation>Fel: Formateringen misslyckades med det valda formateringsverktyget.</translation>
         </message>
         <message>
             <location line="+122" />
@@ -64168,7 +64168,7 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+1" />
             <source>Issues that the QML code parser found.</source>
-            <translation>Frågor som QML-kodtolken hittade.</translation>
+            <translation>Problem som QML-kodtolken hittade.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -64178,12 +64178,12 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+1" />
             <source>Issues that the QML static analyzer found.</source>
-            <translation>Frågor som QML statiska analysatorn hittade.</translation>
+            <translation>Problem som den statiska QML-analysatorn hittade.</translation>
         </message>
         <message>
             <location line="-343" />
             <source>Show Qt Quick Toolbar</source>
-            <translation>Visa Qt- snabbverktygsrad</translation>
+            <translation>Visa verktygsfältet Qt Quick</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmljseditor/qmljshoverhandler.cpp" line="+402" />
@@ -64193,12 +64193,12 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+4" />
             <source>Dumped plugins successfully.</source>
-            <translation>Dumpade insticksprogram framgångsrikt.</translation>
+            <translation>Insticksprogrammen dumpades.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Read typeinfo files successfully.</source>
-            <translation>Läs typinfofiler med lyckat resultat.</translation>
+            <translation>Typeinfofilerna lästes in.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmljseditor/qmljseditorsettings.cpp" line="+125" />
@@ -64212,7 +64212,7 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         </message>
         <message>
             <source>Use custom command instead of built-in formatter</source>
-            <translation>Använd anpassat kommando istället för inbyggd formatter</translation>
+            <translation>Använd ett anpassat kommando i stället för den inbyggda formateraren</translation>
         </message>
         <message>
             <location line="+25" />
@@ -64226,7 +64226,7 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="-21" />
             <source>Auto-fold auxiliary data</source>
-            <translation>Automatiskt vecklade hjälpdata</translation>
+            <translation>Fäll automatiskt ihop hjälpdata</translation>
         </message>
         <message>
             <location line="+6" />
@@ -64247,7 +64247,7 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+100" />
             <source>Only for Qt Quick UI</source>
-            <translation>dast för Qt snabbgränssnitt</translation>
+            <translation>Endast för Qt Quick UI</translation>
         </message>
         <message>
             <location line="+25" />
@@ -64257,7 +64257,7 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+19" />
             <source>Set the path to the Qt Design Studio application to enable the "Open in Qt Design Studio" feature. If you have Qt Design Studio installed alongside Qt Creator with the Qt Online Installer, it is used as the default. Use &lt;a href="linwithqt"&gt;"Link with Qt"&lt;/a&gt; to link an offline installation of Qt Creator to a Qt Online Installer.</source>
-            <translation>Ställ in sökvägen till Qt Design Studio-programmet för att aktivera funktionen "Open in Qt Design Studio". Om du har Qt Design Studio installerad tillsammans med Qt Creator med Qt Online Installer, används den som standard. Använd &lt;a href="linwithqt"&gt;"Länk med Qt"&lt;/a&gt; för att länka en offline installation av Qt Creator till en Qt Online Installer.</translation>
+            <translation>Ange sökvägen till programmet Qt Design Studio för att aktivera funktionen ”Open in Qt Design Studio”. Om Qt Design Studio har installerats tillsammans med Qt Creator med Qt Online Installer används den som standard. Använd &lt;a href="linwithqt"&gt;”Länka till Qt”&lt;/a&gt; för att länka en offlineinstallation av Qt Creator till Qt Online Installer.</translation>
         </message>
         <message>
             <location line="+17" />
@@ -64267,7 +64267,7 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+14" />
             <source>QML Language Server</source>
-            <translation>QML språkserver</translation>
+            <translation>QML-språkserver</translation>
         </message>
         <message>
             <location line="-172" />
@@ -64281,22 +64281,22 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location filename="../../../src/plugins/qmljseditor/qmllsclientsettings.cpp" line="+168" />
             <source>Use qmlls from latest Qt</source>
-            <translation>Använd qmls från senaste Qt</translation>
+            <translation>Använd qmlls från den senaste Qt-versionen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Use qmlls from latest Qt (located at "%1")</source>
-            <translation>Använd qmls från senaste Qt (tilldelad till "%1")</translation>
+            <translation>Använd qmlls från den senaste Qt-versionen (finns på ”%1”)</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Use qmlls from project Qt kit</source>
-            <translation>Använd qmls från projekt Qt-kit</translation>
+            <translation>Använd qmlls från projektets Qt-kit</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Use custom qmlls executable</source>
-            <translation>Använd körbar qmalls</translation>
+            <translation>Använd en anpassad körbar qmlls-fil</translation>
         </message>
         <message>
             <location line="+17" />
@@ -64306,12 +64306,12 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+5" />
             <source>Enable qmlls semantic highlighting</source>
-            <translation>Aktivera qmls semantisk markering</translation>
+            <translation>Aktivera semantisk markering med qmlls</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Use advanced features (Document Outline)</source>
-            <translation>Använd avancerade funktioner (dokumentutdrag)</translation>
+            <translation>Använd avancerade funktioner (dokumentöversikt)</translation>
         </message>
         <message>
             <location line="+4" />
@@ -64321,30 +64321,30 @@ Bygg programmet qmldump på alternativsidan för Qt-versioner.</translation>
         <message>
             <location line="+4" />
             <source>Enable qmlls's CMake integration</source>
-            <translation>Aktivera integrering av qmlls CMake</translation>
+            <translation>Aktivera CMake-integrering för qmlls</translation>
         </message>
         <message>
             <location line="+8" />
             <location line="+83" />
             <source>Extra arguments:</source>
-            <translation>Extra argument:</translation>
+            <translation>Ytterligare argument:</translation>
         </message>
         <message>
             <location line="-71" />
             <source>Custom qmlls executable "%1" does not exist and was disabled.</source>
-            <translation>Anpassade qmls körbara "%1" finns inte och var inaktiverad.</translation>
+            <translation>Den anpassade körbara qmlls-filen ”%1” finns inte och har inaktiverats.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Custom qmlls executable "%1" exited abnormally and was disabled. The custom executable output was:
 %2</source>
-            <translation>Anpassade qmls körbara "%1" avslutades onormalt och
-var inaktiverad. Den egna körbara utmatningen var: %2</translation>
+            <translation>Den anpassade körbara qmlls-filen ”%1” avslutades onormalt och har inaktiverats. Utdata från den anpassade körbara filen var:
+%2</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Custom qmlls executable "%1" does not seem to be a qmlls executable and was disabled.</source>
-            <translation>Anpassade qmls körbara "%1" verkar inte vara en qmlls körbara och var inaktiverad.</translation>
+            <translation>Den anpassade körbara filen ”%1” verkar inte vara en qmlls-fil och har inaktiverats.</translation>
         </message>
         <message>
             <location line="+54" />
@@ -64354,7 +64354,7 @@ var inaktiverad. Den egna körbara utmatningen var: %2</translation>
         <message>
             <location line="+1" />
             <source>Override Global Settings</source>
-            <translation>Överskrid globala inställningar</translation>
+            <translation>Åsidosätt globala inställningar</translation>
         </message>
         <message>
             <location line="+1" />
