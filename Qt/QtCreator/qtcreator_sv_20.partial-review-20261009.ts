@@ -23373,7 +23373,8 @@ Om systemets markörer för storleksändring av vyer inte visas korrekt kan du a
             <location line="+16" />
             <source>Automatically saves all open files affected by a refactoring operation,
 provided they were unmodified before the refactoring.</source>
-            <translation>Sparar automatiskt alla öppna filer som påverkas av en refaktoreringsåtgärd, förutsatt att de var oförändrade före åtgärden.</translation>
+            <translation>Sparar automatiskt alla öppna filer som påverkas av en refaktoreringsåtgärd,
+förutsatt att de var oförändrade före åtgärden.</translation>
         </message>
         <message>
             <location line="+20" />
