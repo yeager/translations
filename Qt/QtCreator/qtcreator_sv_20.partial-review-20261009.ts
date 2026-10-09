@@ -59174,12 +59174,12 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/jsonwizard/jsonfieldpage.cpp" line="+107" />
             <source>Line Edit Validator Expander</source>
-            <translation>Radredigering av valideringsutökning</translation>
+            <translation>Utökare för validerare i LineEdit</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The text edit input to fix up.</source>
-            <translation>Textredigeringsinmatningen för att rätta till.</translation>
+            <translation>Textinmatningen som ska rättas till.</translation>
         </message>
         <message>
             <location line="+63" />
@@ -59199,12 +59199,12 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+4" />
             <source>Field "%1" has unsupported type "%2".</source>
-            <translation>Field "%1" har en type som inte stöds "%2".</translation>
+            <translation>Fältet "%1" har typen "%2", som inte stöds.</translation>
         </message>
         <message>
             <location line="+18" />
             <source>When parsing Field "%1": %2</source>
-            <translation>Vid tolkning av Field "%1": %2</translation>
+            <translation>Vid tolkning av fältet "%1": %2</translation>
         </message>
         <message>
             <location line="+206" />
@@ -59254,7 +59254,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+25" />
             <source>kind "%1" is not one of the supported "existingDirectory", "directory", "file", "saveFile", "existingCommand", "command", "any".</source>
-            <translation>kind "%1" är inte en av de som stöds "existingDirectory", "directory", "file", "saveFile", "existingCommand", "command", "any".</translation>
+            <translation>kind "%1" är inte någon av de typer som stöds: "existingDirectory", "directory", "file", "saveFile", "existingCommand", "command", "any".</translation>
         </message>
         <message>
             <location line="+79" />
@@ -59319,22 +59319,22 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
         <message>
             <location line="+85" />
             <source>Feature list is set and not of type list.</source>
-            <translation>Feature-lista är inställd och inte av type-lista.</translation>
+            <translation>Funktionslistan är angiven men är inte av listtyp.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>No "%1" key found in feature list object.</source>
-            <translation>Ingen "%1-nyckel hittades i feature list-objekt.</translation>
+            <translation>Ingen "%1"-nyckel hittades i funktionslisteobjektet.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Feature list element is not a string or object.</source>
-            <translation>Feature list-element är inte en string eller object.</translation>
+            <translation>Element i funktionslistan är inte en sträng eller ett objekt.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/jsonwizard/jsonsummarypage.cpp" line="+193" />
             <source>Failed to Commit to Version Control</source>
-            <translation>Misslyckades med att ta itu med versionskontroll</translation>
+            <translation>Kunde inte checka in i versionshanteringen</translation>
         </message>
         <message>
             <location line="+1" />
@@ -59345,7 +59345,7 @@ Lokala och fjärrportar avgörs automatiskt.</translation>
             <location line="+16" />
             <location line="+12" />
             <source>Failed to Add to Project</source>
-            <translation>Misslyckades med att lägga till i projekt</translation>
+            <translation>Kunde inte lägga till i projektet</translation>
         </message>
         <message>
             <location line="-11" />
@@ -59407,7 +59407,7 @@ till projektet "%2".</translation>
         <message>
             <location line="+63" />
             <source>No 'key' in options object.</source>
-            <translation>Ingen 'key' i options object.</translation>
+            <translation>Ingen 'key' i alternativobjektet.</translation>
         </message>
         <message>
             <location line="+84" />
