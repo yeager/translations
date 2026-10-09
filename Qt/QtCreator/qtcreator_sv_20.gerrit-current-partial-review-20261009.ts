@@ -6103,7 +6103,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Enables draw depth buffer as a separate pass. Disable to optimize render speed for layers with low depth complexity.</source>
-        <translation>Ritar djupbufferten i en separat passering. Inaktivera för att optimera återgivningshastigheten för lager med låg djupkomplexitet.</translation>
+        <translation>Ritar djupbufferten i ett separat återgivningspass. Inaktivera för att optimera återgivningshastigheten för lager med låg djupkomplexitet.</translation>
     </message>
     <message>
         <source>Debug Settings</source>
@@ -72719,7 +72719,7 @@ Om egenskapen sätts till true korrigeras kubkartan genom att kamerans position 
     </message>
     <message>
         <source>Enables draw depth buffer as a separate pass. Disable to optimize render speed for layers with low depth complexity.</source>
-        <translation>Ritar djupbufferten i en separat passering. Inaktivera för att optimera återgivningshastigheten för lager med låg djupkomplexitet.</translation>
+        <translation>Ritar djupbufferten i ett separat återgivningspass. Inaktivera för att optimera återgivningshastigheten för lager med låg djupkomplexitet.</translation>
     </message>
     <message>
         <source>Debug Settings</source>
