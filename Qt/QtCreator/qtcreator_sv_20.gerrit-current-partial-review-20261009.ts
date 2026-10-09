@@ -4436,7 +4436,7 @@ Ett värde på 0 omsluter inte ljuset alls, medan ett värde på 1 omsluter ljus
     <message>
         <source>Sets how the dial&apos;s handle snaps to the steps
 defined in &lt;b&gt;Step size&lt;/b&gt;.</source>
-        <translation>Ställer in hur vredets handtag snäpper till stegen
+        <translation>Ställer in hur vredets handtag fäster vid stegen
 som definieras i &lt;b&gt;Step size&lt;/b&gt;.</translation>
     </message>
     <message>
