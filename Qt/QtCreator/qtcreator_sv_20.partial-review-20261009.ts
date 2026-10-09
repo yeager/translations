@@ -13308,12 +13308,12 @@ Körbar fil: %2</translation>
         <message>
             <location line="+2" />
             <source>Until Fail</source>
-            <translation>Tills misslyckas</translation>
+            <translation>Tills ett test misslyckas</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Until Pass</source>
-            <translation>Tills lyckas</translation>
+            <translation>Tills ett test godkänns</translation>
         </message>
         <message>
             <location line="+1" />
@@ -13353,12 +13353,12 @@ Körbar fil: %2</translation>
         <message>
             <location line="+5" />
             <source>Test load</source>
-            <translation>Provningsbelastning</translation>
+            <translation>Testbelastning</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Try not to start tests when they may cause CPU load to pass a threshold.</source>
-            <translation>Försök att inte starta tester när de kan orsaka CPU belastning för att passera en tröskel.</translation>
+            <translation>Försök att inte starta tester när de kan få CPU-belastningen att överskrida ett tröskelvärde.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -13390,27 +13390,27 @@ Körbar fil: %2</translation>
             <location filename="../../../src/plugins/autotest/gtest/gtestframework.cpp" line="+76" />
             <source>Enable or disable grouping of test cases by folder or GTest filter.
 See also Google Test settings.</source>
-            <translation>Aktivera eller inaktivera gruppering av testfall per mapp
-eller GTest-filter. Se även Google Test-inställningar.</translation>
+            <translation>Aktivera eller inaktivera gruppering av testfall per mapp eller GTest-filter.
+Se även Google Test-inställningarna.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/gtest/gtestoutputreader.cpp" line="+115" />
             <source>Running tests failed.
  %1
 Executable: %2</source>
-            <translation>Körprov
-misslyckades. %1
-körbar: %2</translation>
+            <translation>Testkörningen misslyckades.
+%1
+Körbar fil: %2</translation>
         </message>
         <message>
             <location line="-104" />
             <source>Repeating test suite %1 (iteration %2)</source>
-            <translation>Upprepande testsvit %1 (ritning %2)</translation>
+            <translation>Upprepar testsvit %1 (iteration %2)</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Entering test case %1</source>
-            <translation>Anger testfall %1</translation>
+            <translation>Påbörjar testfall %1</translation>
         </message>
         <message>
             <location line="+12" />
@@ -13447,22 +13447,22 @@ körbar: %2</translation>
         <message>
             <location line="+2" />
             <source>Shuffles tests automatically on every iteration by the given seed.</source>
-            <translation>Blandar tester automatiskt på varje iteration av det givna utsädet.</translation>
+            <translation>Blandar automatiskt tester vid varje iteration med det angivna fröet.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Repeats a test run (you might be required to increase the timeout to avoid canceling the tests).</source>
-            <translation>Upprepar en testkörning (du kan behöva öka tiden för att undvika att avbryta testerna).</translation>
+            <translation>Upprepar en testkörning (du kan behöva öka tidsgränsen för att undvika att testerna avbryts).</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Throw on failure</source>
-            <translation>Släng på fel</translation>
+            <translation>Kasta undantag vid fel</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Turns assertion failures into C++ exceptions.</source>
-            <translation>Gör påståendena till C++ undantag.</translation>
+            <translation>Omvandlar assertion-fel till C++-undantag.</translation>
         </message>
         <message>
             <location line="+11" />
@@ -13472,7 +13472,7 @@ körbar: %2</translation>
         <message>
             <location line="+1" />
             <source>GTest Filter</source>
-            <translation>GTest- filterName</translation>
+            <translation>GTest-filter</translation>
         </message>
         <message>
             <location line="+2" />
@@ -13482,7 +13482,7 @@ körbar: %2</translation>
         <message>
             <location line="+1" />
             <source>Select on what grouping the tests should be based.</source>
-            <translation>Välj vilken gruppering testerna ska baseras på.</translation>
+            <translation>Välj vilken gruppering som testerna ska baseras på.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -13493,23 +13493,23 @@ körbar: %2</translation>
             <location line="+1" />
             <source>Set the GTest filter to be used for grouping.
 See Google Test documentation for further information on GTest filters.</source>
-            <translation>Ställ in GTest-filtret som ska användas för gruppering. Se Google
-Test-dokumentation för ytterligare information om GTest-filter.</translation>
+            <translation>Ställ in GTest-filtret som ska användas för gruppering.
+Se Google Test-dokumentationen för mer information om GTest-filter.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/autotest/gtest/gtesttreeitem.cpp" line="-446" />
             <source>&lt;matching&gt;</source>
-            <translation>&lt;matchande&gt;</translation>
+            <translation>&lt;matchar&gt;</translation>
         </message>
         <message>
             <location line="+5" />
             <source>&lt;not matching&gt;</source>
-            <translation>&lt;inte matchande&gt;</translation>
+            <translation>&lt;matchar inte&gt;</translation>
         </message>
         <message>
             <location line="+75" />
             <source>Change GTest filter in use inside the settings.</source>
-            <translation>Ändra GTest-filter som används inuti inställningarna.</translation>
+            <translation>Ändra GTest-filtret som används i inställningarna.</translation>
         </message>
         <message>
             <location line="+366" />
@@ -13519,7 +13519,7 @@ Test-dokumentation för ytterligare information om GTest-filter.</translation>
         <message>
             <location filename="../../../src/plugins/autotest/projectsettingswidget.cpp" line="-162" />
             <source>Automatically run tests after build</source>
-            <translation>Kör automatiskt tester efter byggnation</translation>
+            <translation>Kör automatiskt tester efter bygge</translation>
         </message>
         <message>
             <source>None</source>
