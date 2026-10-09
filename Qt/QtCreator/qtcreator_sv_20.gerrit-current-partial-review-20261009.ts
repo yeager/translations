@@ -76225,7 +76225,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Enables inverting X-axis controls.</source>
-        <translation>Aktiverar invertering av X-axelns kontroller.</translation>
+        <translation>Aktiverar invertering av styrningen för X-axeln.</translation>
     </message>
     <message>
         <source>Enabled</source>
@@ -76237,7 +76237,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Enables inverting Y-axis controls.</source>
-        <translation>Aktiverar invertering av Y-axelns kontroller.</translation>
+        <translation>Aktiverar invertering av styrningen för Y-axeln.</translation>
     </message>
     <message>
         <source>Mouse Control</source>
@@ -76245,7 +76245,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Enables using mouse to control the target node.</source>
-        <translation>Aktiverar användning av mus för att styra målnoden.</translation>
+        <translation>Aktiverar styrning av målnoden med mus.</translation>
     </message>
     <message>
         <source>Keyboard Control</source>
@@ -76253,7 +76253,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Enables using keyboard to control the target node.</source>
-        <translation>Aktiverar användning av tangentbord för att styra målnoden.</translation>
+        <translation>Aktiverar styrning av målnoden med tangentbord.</translation>
     </message>
     <message>
         <source>Speeds</source>
@@ -76277,7 +76277,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Forward Speed</source>
-        <translation>Framåthastighet</translation>
+        <translation>Hastighet framåt</translation>
     </message>
     <message>
         <source>Sets the navigation speed when forward key is pressed.</source>
@@ -76285,7 +76285,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Back Speed</source>
-        <translation>Bakåthastighet</translation>
+        <translation>Hastighet bakåt</translation>
     </message>
     <message>
         <source>Sets the navigation speed when back key is pressed.</source>
@@ -76293,7 +76293,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Right Speed</source>
-        <translation>Högerhastighet</translation>
+        <translation>Hastighet åt höger</translation>
     </message>
     <message>
         <source>Sets the navigation speed when right key is pressed.</source>
@@ -76301,7 +76301,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Left Speed</source>
-        <translation>Vänsterhastighet</translation>
+        <translation>Hastighet åt vänster</translation>
     </message>
     <message>
         <source>Sets the navigation speed when left key is pressed.</source>
@@ -76309,7 +76309,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Up Speed</source>
-        <translation>Upphastighet</translation>
+        <translation>Hastighet uppåt</translation>
     </message>
     <message>
         <source>Sets the navigation speed when up key is pressed.</source>
@@ -76317,7 +76317,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Down Speed</source>
-        <translation>Nedhastighet</translation>
+        <translation>Hastighet nedåt</translation>
     </message>
     <message>
         <source>Sets the navigation speed when down key is pressed.</source>
