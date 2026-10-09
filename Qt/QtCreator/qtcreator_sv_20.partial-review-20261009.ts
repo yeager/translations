@@ -60460,22 +60460,22 @@ i systemwebbläsaren för manuell nedladdning.</translation>
         <message>
             <location line="+2" />
             <source>Download location:</source>
-            <translation>Ladda ner plats:</translation>
+            <translation>Nedladdningsplats:</translation>
         </message>
         <message>
             <location line="+8" />
             <source>NuGet</source>
-            <translation>Hämta</translation>
+            <translation>NuGet</translation>
         </message>
         <message>
             <location line="+2" />
             <source>NuGet location:</source>
-            <translation>NuGet plats:</translation>
+            <translation>NuGet-sökväg:</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Windows App SDK Settings</source>
-            <translation>Inställningar av Windows App SDK</translation>
+            <translation>Inställningar för Windows App SDK</translation>
         </message>
         <message>
             <location line="+2" />
@@ -60485,18 +60485,18 @@ i systemwebbläsaren för manuell nedladdning.</translation>
         <message>
             <location line="+75" />
             <source>NuGet download failed.</source>
-            <translation>Nerladdning av NuGet misslyckades.</translation>
+            <translation>Nedladdningen av NuGet misslyckades.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Open NuGet URL for manual download?</source>
-            <translation>Öppna NuGet URL för manuell nedladdning?</translation>
+            <translation>Öppna NuGet-adressen för manuell nedladdning?</translation>
         </message>
         <message>
             <location line="+4" />
             <location line="+188" />
             <source>Open Download URL</source>
-            <translation>Öppna hämtnings-URL</translation>
+            <translation>Öppna nedladdningsadressen</translation>
         </message>
         <message>
             <location line="-176" />
@@ -60512,17 +60512,17 @@ i systemwebbläsaren för manuell nedladdning.</translation>
         <message>
             <location line="+10" />
             <source>The SDK Tools download URL is empty.</source>
-            <translation>SDK Tools Hämta URL är tom.</translation>
+            <translation>Nedladdningsadressen för SDK Tools är tom.</translation>
         </message>
         <message>
             <location line="+21" />
             <source>Encountered SSL errors, download is aborted.</source>
-            <translation>Påträffade SSL-fel. Hämtning avbruten.</translation>
+            <translation>SSL-fel uppstod och nedladdningen avbryts.</translation>
         </message>
         <message>
             <location line="+16" />
             <source>Downloading NuGet from URL %1 has failed: %2.</source>
-            <translation>Nedladdning NuGet från URL %1 har misslyckats: %2.</translation>
+            <translation>Nedladdningen av NuGet från adressen %1 misslyckades: %2.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -60533,14 +60533,14 @@ i systemwebbläsaren för manuell nedladdning.</translation>
             <location line="+36" />
             <source>The selected download path (%1) for NuGet already exists.
 Select a different path.</source>
-            <translation>Den valda nedladdningsvägen (%1) för
-NuGet finns redan. Välj en annan sökväg.</translation>
+            <translation>Den valda nedladdningssökvägen (%1) för NuGet finns redan.
+Välj en annan sökväg.</translation>
         </message>
         <message>
             <location line="+16" />
             <location line="+37" />
             <source>Download path is not configured.</source>
-            <translation>Ladda ner sökväg är inte konfigurerad.</translation>
+            <translation>Nedladdningssökvägen är inte konfigurerad.</translation>
         </message>
         <message>
             <location line="-18" />
@@ -60570,7 +60570,7 @@ NuGet finns redan. Välj en annan sökväg.</translation>
         <message>
             <location line="+64" />
             <source>Windows App SDK</source>
-            <translation>Windows-app SDK</translation>
+            <translation>Windows App SDK</translation>
         </message>
     </context>
     <context>
