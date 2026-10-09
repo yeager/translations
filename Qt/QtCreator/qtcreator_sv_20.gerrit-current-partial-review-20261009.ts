@@ -7201,7 +7201,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Optimization hint</source>
-        <translation>Optimeringshint</translation>
+        <translation>Optimeringsanvisning</translation>
     </message>
     <message>
         <source>MSAA</source>
@@ -7217,7 +7217,7 @@ Beröm, kritik eller förslag – all återkoppling är välkommen!</translation
     </message>
     <message>
         <source>Horizontal to vertical aspect ratio</source>
-        <translation>Horisontellt till vertikalt bildförhållande</translation>
+        <translation>Förhållandet mellan horisontell och vertikal</translation>
     </message>
     <message>
         <source>Horizontal AR</source>
