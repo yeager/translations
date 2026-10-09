@@ -44096,17 +44096,17 @@ Lämna tomt för att söka igenom filsystemet.</translation>
         <message>
             <location filename="../../../src/plugins/gitlab/gitlabclonedialog.cpp" line="+52" />
             <source>Clone Repository</source>
-            <translation>Klona förråd</translation>
+            <translation>Klona arkiv</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Specify repository URL, checkout path and directory.</source>
-            <translation>Ange förråds-URL, sökväg och katalog för utcheckning.</translation>
+            <translation>Ange arkivets URL, utcheckningssökväg och katalog.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Repository</source>
-            <translation>Förråd</translation>
+            <translation>Arkiv</translation>
         </message>
         <message>
             <location line="+3" />
@@ -44116,7 +44116,7 @@ Lämna tomt för att söka igenom filsystemet.</translation>
         <message>
             <location line="+5" />
             <source>Path "%1" already exists.</source>
-            <translation>Sökvägen "%1" finns redan.</translation>
+            <translation>Sökvägen ”%1” finns redan.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -44151,7 +44151,7 @@ Lämna tomt för att söka igenom filsystemet.</translation>
         <message>
             <location line="+1" />
             <source>Cloned project does not have a project file that can be opened. Try importing the project as a generic project.</source>
-            <translation>Klonade projekt har inte en projektfil som kan öppnas. Prova att importera projektet som ett allmänt projekt.</translation>
+            <translation>Det klonade projektet har ingen projektfil som kan öppnas. Försök importera projektet som ett allmänt projekt.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -44211,18 +44211,18 @@ Lämna tomt för att söka igenom filsystemet.</translation>
         <message>
             <location line="-25" />
             <source>Insufficient access token.</source>
-            <translation>Otillräckligt åtkomsttoken.</translation>
+            <translation>Åtkomsttoken saknar behörighet.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Permission scope read_api or api needed.</source>
-            <translation>Rättighetsomfång read_api eller api behövs.</translation>
+            <translation>Behörighetsomfånget read_api eller api krävs.</translation>
         </message>
         <message>
             <location line="+2" />
             <location filename="../../../src/plugins/gitlab/gitlabprojectsettings.cpp" line="-97" />
             <source>Check settings for misconfiguration.</source>
-            <translation>Kontrollera inställningar för felkonfigurationer.</translation>
+            <translation>Kontrollera om inställningarna är felkonfigurerade.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -44259,7 +44259,7 @@ Lämna tomt för att söka igenom filsystemet.</translation>
         <message>
             <location line="+4" />
             <source>Access token:</source>
-            <translation>Accesstoken:</translation>
+            <translation>Åtkomsttoken:</translation>
         </message>
         <message>
             <location line="+5" />
@@ -44289,7 +44289,7 @@ Lämna tomt för att söka igenom filsystemet.</translation>
         <message>
             <location line="+1" />
             <source>Edit current selected GitLab server configuration.</source>
-            <translation>Redigera aktuellt vald GitLab-serverkonfiguration.</translation>
+            <translation>Redigera den valda GitLab-serverkonfigurationen.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -44299,7 +44299,7 @@ Lämna tomt för att söka igenom filsystemet.</translation>
         <message>
             <location line="+1" />
             <source>Remove current selected GitLab server configuration.</source>
-            <translation>Ta bort aktuellt vald GitLab-serverkonfiguration.</translation>
+            <translation>Ta bort den valda GitLab-serverkonfigurationen.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -44309,7 +44309,7 @@ Lämna tomt för att söka igenom filsystemet.</translation>
         <message>
             <location line="+1" />
             <source>Add new GitLab server configuration.</source>
-            <translation>Lägg till ny GitLab-serverkonfiguration.</translation>
+            <translation>Lägg till en ny GitLab-serverkonfiguration.</translation>
         </message>
         <message>
             <location line="+58" />
@@ -44344,7 +44344,7 @@ Lämna tomt för att söka igenom filsystemet.</translation>
         <message>
             <location line="+1" />
             <source>Invalid GitLab configuration. For a fully functional configuration, you need to set up host name or address and an access token. Providing the path to curl is mandatory.</source>
-            <translation>Ogiltig GitLab-konfiguration. För fullständigt funktionell konfiguration så behöver du konfigurera värdnamn eller adress samt en accesstoken. Tillhandahålla sökvägen till curl är obligatoriskt.</translation>
+            <translation>Ogiltig GitLab-konfiguration. För en helt fungerande konfiguration måste du ange värdnamn eller adress samt en åtkomsttoken. Sökvägen till curl krävs.</translation>
         </message>
         <message>
             <location line="+174" />
@@ -44357,8 +44357,8 @@ Lämna tomt för att söka igenom filsystemet.</translation>
 Do you want to disable SSL verification for this server?
 Note: This can expose you to man-in-the-middle attack.</source>
             <translation>Servercertifikatet för %1 kan inte autentiseras.
-Vill du inaktivera SSL-verifiering för denna server?
-Observera: Detta kan utsätta dig för ett attack.</translation>
+Vill du inaktivera SSL-verifiering för den här servern?
+Obs! Det kan utsätta dig för en man-in-the-middle-attack.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/gitlab/gitlabprojectsettings.cpp" line="-122" />
@@ -44387,17 +44387,17 @@ Observera: Detta kan utsätta dig för ett attack.</translation>
         </message>
         <message>
             <source>Linked GitLab Configuration:</source>
-            <translation>Länkad GitLab-konfiguration:</translation>
+            <translation>Kopplad GitLab-konfiguration:</translation>
         </message>
         <message>
             <location line="+107" />
             <source>Link with GitLab</source>
-            <translation>Länka med GitLab</translation>
+            <translation>Koppla till GitLab</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Unlink from GitLab</source>
-            <translation>Avlänka från GitLab</translation>
+            <translation>Koppla från GitLab</translation>
         </message>
         <message>
             <location line="+2" />
@@ -44407,17 +44407,17 @@ Observera: Detta kan utsätta dig för ett attack.</translation>
         <message>
             <location line="+9" />
             <source>Linked GitLab Configuration</source>
-            <translation>Inställning av länkat GitLab</translation>
+            <translation>Kopplad GitLab-konfiguration</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Projects linked with GitLab receive event notifications in the Version Control output pane.</source>
-            <translation>Projekt länkade med GitLab tar emot händelseaviseringar i utdatapanelen för Versionskontroll.</translation>
+            <translation>Projekt som är kopplade till GitLab får händelseaviseringar i utdatapanelen Versionshantering.</translation>
         </message>
         <message>
             <location line="+41" />
             <source>Remote host does not match chosen GitLab configuration.</source>
-            <translation>Fjärrvärden matchar inte vald GitLab-konfiguration.</translation>
+            <translation>Fjärrvärden stämmer inte med den valda GitLab-konfigurationen.</translation>
         </message>
         <message>
             <location line="+37" />
@@ -44432,12 +44432,12 @@ Observera: Detta kan utsätta dig för ett attack.</translation>
         <message>
             <location line="+73" />
             <source>Not a git repository.</source>
-            <translation>Inte ett git-förråd.</translation>
+            <translation>Inte ett Git-arkiv.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Local git repository without remotes.</source>
-            <translation>Lokalt git-arkiv utan fjärrkontroller.</translation>
+            <translation>Lokalt Git-arkiv utan fjärrarkiv.</translation>
         </message>
     </context>
     <context>
