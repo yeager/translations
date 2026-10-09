@@ -4786,7 +4786,7 @@ som definieras i &lt;b&gt;Step size&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Spread</source>
-        <translation>Sprid</translation>
+        <translation>Spridning</translation>
     </message>
     <message>
         <source>The part of the shadow color that is strengthened near the source edges.</source>
@@ -4826,7 +4826,7 @@ som definieras i &lt;b&gt;Step size&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Cached</source>
-        <translation>Cachad</translation>
+        <translation>Cachelagrad</translation>
     </message>
     <message>
         <source>Caches the effect output pixels to improve the rendering performance.</source>
@@ -4838,7 +4838,7 @@ som definieras i &lt;b&gt;Step size&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Pads the exterior of the component with a transparent edge, making sampling outside the source texture use transparency instead of the edge pixels.</source>
-        <translation>Fyller komponentens utsida med en genomskinlig kant, så att sampling utanför källtexturen använder genomskinlighet i stället för kantpixlarna.</translation>
+        <translation>Lägger till en genomskinlig kant utanför komponenten, så att sampling utanför källtexturen använder genomskinlighet i stället för kantpixlar.</translation>
     </message>
 </context>
 <context>
