@@ -69414,7 +69414,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+1" />
             <source>Font Color</source>
-            <translation>Typsnittsfärg</translation>
+            <translation>Teckenfärg</translation>
         </message>
         <message>
             <location line="+1" />
@@ -69426,7 +69426,7 @@ Kunde inte starta kontrollprocessen.</translation>
             <location line="+1" />
             <location filename="../../../src/plugins/scxmleditor/plugin_interface/actionhandler.cpp" line="+6" />
             <source>Adjust Width</source>
-            <translation>Justera bredd</translation>
+            <translation>Anpassa bredd</translation>
         </message>
         <message>
             <location line="+32" />
@@ -69436,7 +69436,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+5" />
             <source>Adjustment</source>
-            <translation>Justering</translation>
+            <translation>Anpassning</translation>
         </message>
         <message>
             <location line="+34" />
@@ -69451,13 +69451,13 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+10" />
             <source>Export Canvas to Image</source>
-            <translation>Exportera kanvas till bild</translation>
+            <translation>Exportera arbetsytan som bild</translation>
         </message>
         <message>
             <location line="+14" />
             <location filename="../../../src/plugins/scxmleditor/outputpane/errorwidget.cpp" line="+195" />
             <source>Export Failed</source>
-            <translation>Export misslyckades</translation>
+            <translation>Exporten misslyckades</translation>
         </message>
         <message>
             <location line="+0" />
@@ -69472,7 +69472,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+9" />
             <source>Saving Failed</source>
-            <translation>Sparning misslyckades</translation>
+            <translation>Sparandet misslyckades</translation>
         </message>
         <message>
             <location line="+0" />
@@ -69540,7 +69540,7 @@ Kunde inte starta kontrollprocessen.</translation>
         <message>
             <location line="+1" />
             <source>Max. levels</source>
-            <translation>Max. nivåer</translation>
+            <translation>Max. antal nivåer</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/scxmleditor/common/statisticsdialog.cpp" line="+19" />
