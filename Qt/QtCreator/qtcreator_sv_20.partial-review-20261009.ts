@@ -71572,7 +71572,7 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="+1" />
             <source>Log Directory of Project "%1"</source>
-            <translation>Loggkatalog för projektet "%1"</translation>
+            <translation>Logg för katalogen i projektet ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
@@ -71582,32 +71582,32 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="+1" />
             <source>Update Directory of Project "%1"</source>
-            <translation>Uppdatera katalog för projektet "%1"</translation>
+            <translation>Uppdatera katalogen i projektet ”%1”</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Commit Project Directory</source>
-            <translation>Komma över projektkatalog</translation>
+            <translation>Checka in projektkatalog</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Commit Directory of Project "%1"</source>
-            <translation>Kommittékatalog för projekt "%1"</translation>
+            <translation>Checka in katalogen i projektet ”%1”</translation>
         </message>
         <message>
             <location line="+25" />
             <source>Subversion Commit Editor</source>
-            <translation>Subversion Kommit ut redigerare</translation>
+            <translation>Redigerare för Subversion-incheckning</translation>
         </message>
         <message>
             <location line="+148" />
             <source>Revert all pending changes to the repository?</source>
-            <translation>Återställ alla pågående ändringar i arkivet?</translation>
+            <translation>Återställ alla väntande ändringar i arkivet?</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Revert failed: %1</source>
-            <translation>Misslyckades återställa: %1</translation>
+            <translation>Det gick inte att återställa: %1</translation>
         </message>
         <message>
             <location line="+20" />
@@ -71622,7 +71622,7 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="+65" />
             <source>Another commit is currently being executed.</source>
-            <translation>Ett annat åtagande håller för närvarande på att genomföras.</translation>
+            <translation>En annan incheckning pågår.</translation>
         </message>
         <message>
             <location line="+11" />
@@ -71642,12 +71642,12 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location filename="../../../src/plugins/subversion/subversionsubmiteditor.cpp" line="+19" />
             <source>Subversion Submit</source>
-            <translation>Subversion Skicka</translation>
+            <translation>Skicka in till Subversion</translation>
         </message>
         <message>
             <location line="+31" />
             <source>conflicted</source>
-            <translation>konfliktfyllda</translation>
+            <translation>i konflikt</translation>
         </message>
         <message>
             <location line="+2" />
@@ -71657,27 +71657,27 @@ Det gick inte att öppna filen ”%1”.</translation>
         <message>
             <location line="+2" />
             <source>added</source>
-            <translation>lades till</translation>
+            <translation>tillagd</translation>
         </message>
         <message>
             <location line="+2" />
             <source>modified</source>
-            <translation>ändrades</translation>
+            <translation>ändrad</translation>
         </message>
         <message>
             <location line="+2" />
             <source>deleted</source>
-            <translation>Borttagen</translation>
+            <translation>borttagen</translation>
         </message>
         <message>
             <location line="+2" />
             <source>unknown</source>
-            <translation>Okänd</translation>
+            <translation>okänd</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/subversion/subversioneditor.cpp" line="+39" />
             <source>Annotate revision "%1"</source>
-            <translation>Anteckna revision "%1"</translation>
+            <translation>Annotera revision ”%1”</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/subversion/subversionclient.cpp" line="+45" />
