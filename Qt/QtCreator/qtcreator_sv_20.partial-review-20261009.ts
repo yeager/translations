@@ -65481,7 +65481,7 @@ Vill du spara data först?</translation>
         <message>
             <location line="+6" />
             <source>Reset Zoom</source>
-            <translation>Nollställ zoom</translation>
+            <translation>Återställ zoom</translation>
         </message>
         <message>
             <location line="-176" />
@@ -65511,7 +65511,7 @@ Vill du spara data först?</translation>
             <location line="+72" />
             <location filename="../../../src/plugins/qmlprofiler/scenegraphtimelinemodel.cpp" line="-9" />
             <source>GUI Thread</source>
-            <translation>GUI- tråd</translation>
+            <translation>GUI-tråd</translation>
         </message>
         <message>
             <location line="-16" />
@@ -65520,7 +65520,7 @@ Vill du spara data först?</translation>
             <location line="+72" />
             <location filename="../../../src/plugins/qmlprofiler/scenegraphtimelinemodel.cpp" line="+1" />
             <source>Render Thread</source>
-            <translation>Återge tråd</translation>
+            <translation>Renderingstråd</translation>
         </message>
         <message>
             <location line="-3" />
@@ -65540,7 +65540,7 @@ Vill du spara data först?</translation>
         <message>
             <location line="+13" />
             <source>Invalid magic: %1</source>
-            <translation>Ogiltig magic: %1</translation>
+            <translation>Ogiltigt magiskt tal: %1</translation>
         </message>
         <message>
             <location line="+8" />
@@ -65560,7 +65560,7 @@ Vill du spara data först?</translation>
         <message>
             <location line="+9" />
             <source>Corrupt data before position %1.</source>
-            <translation>Korrupt data före position %1.</translation>
+            <translation>Skadade data före position %1.</translation>
         </message>
         <message>
             <location line="+510" />
@@ -65572,8 +65572,8 @@ Vill du spara data först?</translation>
             <location line="+68" />
             <source>Could not re-read events from temporary trace file: %1
 Saving failed.</source>
-            <translation>Kunde inte läsa om händelser från
-tillfällig spårfil: %1 Saving misslyckades.</translation>
+            <translation>Kunde inte läsa om händelser från den tillfälliga spårfilen: %1
+Sparandet misslyckades.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmlprofiler/flamegraphmodel.cpp" line="-4" />
@@ -65598,7 +65598,7 @@ tillfällig spårfil: %1 Saving misslyckades.</translation>
         <message>
             <location line="+1" />
             <source>Fatal Message</source>
-            <translation>Ödesdigert meddelande</translation>
+            <translation>Fatalt meddelande</translation>
         </message>
         <message>
             <location line="+1" />
@@ -65657,17 +65657,17 @@ tillfällig spårfil: %1 Saving misslyckades.</translation>
         <message>
             <location line="+4" />
             <source>Key Release</source>
-            <translation>Tangent släppt</translation>
+            <translation>Tangent släpptes</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Key</source>
-            <translation>Nyckel</translation>
+            <translation>Tangent</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Modifiers</source>
-            <translation>Modifierare</translation>
+            <translation>Modifierartangenter</translation>
         </message>
         <message>
             <location line="+5" />
@@ -65677,12 +65677,12 @@ tillfällig spårfil: %1 Saving misslyckades.</translation>
         <message>
             <location line="+4" />
             <source>Mouse Press</source>
-            <translation>Musknapp tryckt</translation>
+            <translation>Musknapp nedtryckt</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Mouse Release</source>
-            <translation>Musknapp släppt</translation>
+            <translation>Musknapp släpptes</translation>
         </message>
         <message>
             <location line="+1" />
@@ -65713,7 +65713,7 @@ tillfällig spårfil: %1 Saving misslyckades.</translation>
         <message>
             <location line="+3" />
             <source>Mouse Wheel</source>
-            <translation>Mushjul används</translation>
+            <translation>Mushjul</translation>
         </message>
         <message>
             <location line="+1" />
@@ -65749,7 +65749,7 @@ tillfällig spårfil: %1 Saving misslyckades.</translation>
         <message>
             <location line="-1" />
             <source>Image Cached</source>
-            <translation>Bildkaklad</translation>
+            <translation>Bild cachad</translation>
         </message>
         <message>
             <location line="+3" />
