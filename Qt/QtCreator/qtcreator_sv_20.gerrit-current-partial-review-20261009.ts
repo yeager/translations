@@ -76584,7 +76584,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Pause</source>
-        <translation>Pause</translation>
+        <translation>Paus</translation>
     </message>
     <message>
         <source>Sequential</source>
@@ -76636,7 +76636,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Control</source>
-        <translation>Control</translation>
+        <translation>Kontroll</translation>
     </message>
     <message>
         <source>Delay Button</source>
@@ -76720,11 +76720,11 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Switch</source>
-        <translation>Växel</translation>
+        <translation>Växlare</translation>
     </message>
     <message>
         <source>Switch Delegate</source>
-        <translation>Växeldelegat</translation>
+        <translation>Växlardelegat</translation>
     </message>
     <message>
         <source>Tab Bar</source>
