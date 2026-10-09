@@ -73635,12 +73635,12 @@ Används för att markera den funktion som omsluter symbolanvändningen.</transl
         <message>
             <location line="+1" />
             <source>Occurrences of unused variables.</source>
-            <translation>Förekomst av oanvända variabler.</translation>
+            <translation>Förekomster av oanvända variabler.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Renaming Occurrence</source>
-            <translation>Byt namn på förekomst</translation>
+            <translation>Förekomst vid namnbyte</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73655,7 +73655,7 @@ Används för att markera den funktion som omsluter symbolanvändningen.</transl
         <message>
             <location line="+0" />
             <source>Number literal.</source>
-            <translation>Nummer bokstavligt.</translation>
+            <translation>Numerisk literal.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -73665,7 +73665,7 @@ Används för att markera den funktion som omsluter symbolanvändningen.</transl
         <message>
             <location line="+1" />
             <source>Character and string literals.</source>
-            <translation>Karaktär och sträng ordal.</translation>
+            <translation>Tecken- och stränglitteraler.</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73690,12 +73690,12 @@ Används för att markera den funktion som omsluter symbolanvändningen.</transl
         <message>
             <location line="+2" />
             <source>Concept</source>
-            <translation>Begreppet</translation>
+            <translation>Koncept</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Name of a concept.</source>
-            <translation>Ett koncepts namn.</translation>
+            <translation>Namn på ett koncept.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -73750,12 +73750,12 @@ Används för att markera den funktion som omsluter symbolanvändningen.</transl
         <message>
             <location line="+1" />
             <source>Enumeration</source>
-            <translation>Enumerering</translation>
+            <translation>Uppräkning</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Applied to enumeration items.</source>
-            <translation>Tillämpas på enumeration-poster.</translation>
+            <translation>Tillämpas på uppräkningsobjekt.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -73765,7 +73765,7 @@ Används för att markera den funktion som omsluter symbolanvändningen.</transl
         <message>
             <location line="+1" />
             <source>Style adjustments to declarations.</source>
-            <translation>Stil justeringar av deklarationer.</translation>
+            <translation>Stiljusteringar för deklarationer.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -73800,14 +73800,14 @@ Används för att markera den funktion som omsluter symbolanvändningen.</transl
         <message>
             <location line="+1" />
             <source>Punctuation excluding operators.</source>
-            <translation>Punktering utom operatörer.</translation>
+            <translation>Skiljetecken utom operatorer.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Non user-defined language operators.
 To style user-defined operators, use Overloaded Operator.</source>
-            <translation>Icke användardefinierade språkoperatörer. För att stillägga
-användardefinierade operatörer, använd Överladdad Operatör.</translation>
+            <translation>Icke-användardefinierade språkoperatorer.
+Använd Överlagrad operator för att formatera användardefinierade operatorer.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -73843,43 +73843,43 @@ användardefinierade operatörer, använd Överladdad Operatör.</translation>
             <location line="+10" />
             <source>Whitespace.
 Will not be applied to whitespace in comments and strings.</source>
-            <translation>Whitespace. Kommer inte att appliceras på
-blanktecken i kommentarer och strängar.</translation>
+            <translation>Blanktecken.
+Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Diff File Line</source>
-            <translation>Differenteringsfilraden</translation>
+            <translation>Diff-filrad</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Applied to lines with file information in differences (in side-by-side diff editor).</source>
-            <translation>Tillämpas på rader med filinformation i skillnader (i sid-vid-sida-diff-editorn).</translation>
+            <translation>Tillämpas på rader med filinformation i diffar, i diff-redigeraren sida vid sida.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Diff Context Line</source>
-            <translation>Diff- sammanhangsrad</translation>
+            <translation>Diff-kontextrad</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Applied to lines describing hidden context in differences (in side-by-side diff editor).</source>
-            <translation>Tillämpas på rader som beskriver dolda sammanhang i skillnader (i sid-vid-sida diff editor).</translation>
+            <translation>Tillämpas på rader som beskriver dold kontext i diffar, i diff-redigeraren sida vid sida.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Diff Source Line</source>
-            <translation>Diff- källkodsrad</translation>
+            <translation>Diff-källrad</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Applied to source lines with changes in differences (in side-by-side diff editor).</source>
-            <translation>Tillämpas på källrader med ändringar i skillnader (i sido-by-side diff editor).</translation>
+            <translation>Tillämpas på källrader med ändringar i diffar, i diff-redigeraren sida vid sida.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Diff Source Character</source>
-            <translation>Diff- källkodstecken</translation>
+            <translation>Diff-källkodstecken</translation>
         </message>
         <message>
             <location line="+1" />
