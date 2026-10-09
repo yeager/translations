@@ -74912,7 +74912,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="-11" />
             <source>Cannot import code style from "%1".</source>
-            <translation>Kan inte importera kodstil från "%1".</translation>
+            <translation>Det går inte att importera kodstil från ”%1”.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -74942,12 +74942,12 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+15" />
             <source>Edit preview contents to see how the current settings are applied to custom code snippets. Changes in the preview do not affect the current settings.</source>
-            <translation>Redigera förhandsgranskningsinnehåll för att se hur de nuvarande inställningarna tillämpas på anpassade kodslippar. Ändringar i förhandsgranskningen påverkar inte de nuvarande inställningarna.</translation>
+            <translation>Redigera förhandsgranskningens innehåll för att se hur de aktuella inställningarna tillämpas på anpassade kodsnuttar. Ändringar i förhandsgranskningen påverkar inte de aktuella inställningarna.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/findinfiles.cpp" line="+48" />
             <source>Files in File System</source>
-            <translation>Filer på filsystem</translation>
+            <translation>Filer i filsystemet</translation>
         </message>
         <message>
             <location line="+19" />
@@ -74974,17 +74974,17 @@ Exkluderar: %3
         <message>
             <location line="+16" />
             <source>Director&amp;y:</source>
-            <translation>Kata&amp;log:</translation>
+            <translation>&amp;Katalog:</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Directory to Search</source>
-            <translation>Katalog att söka i</translation>
+            <translation>Katalog att söka igenom</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/behaviorsettingswidget.cpp" line="+33" />
             <source>Typing</source>
-            <translation>Skriva</translation>
+            <translation>Skrivning</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/typingsettings.cpp" line="+24" />
@@ -75000,7 +75000,7 @@ Exkluderar: %3
         <message>
             <location line="+4" />
             <source>Backspace indentation:</source>
-            <translation>Indentering av bakre rymden:</translation>
+            <translation>Indrag med backstegstangenten:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -75019,16 +75019,16 @@ Specifies how backspace interacts with indentation.
 &lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </source>
             <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;
-Specifies how backspace interacts with indentation.
+Anger hur backstegstangenten samverkar med indrag.
 
 &lt;ul&gt;
-&lt;li&gt;None: No interaction at all. Regular plain backspace behavior.
+&lt;li&gt;Ingen: Ingen påverkan alls. Vanligt beteende för backstegstangenten.
 &lt;/li&gt;
 
-&lt;li&gt;Follows Previous Indents: In leading white space it will take the cursor back to the nearest indentation level used in previous lines.
+&lt;li&gt;Följer föregående indrag: I inledande blanktecken flyttas markören tillbaka till närmaste indragsnivå som används på föregående rader.
 &lt;/li&gt;
 
-&lt;li&gt;Unindents: If the character behind the cursor is a space it behaves as a backtab.
+&lt;li&gt;Minskar indrag: Om tecknet före markören är ett blanksteg fungerar tangenten som Skift+Tabb.
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
@@ -75040,12 +75040,12 @@ Specifies how backspace interacts with indentation.
         <message>
             <location line="-4" />
             <source>Follows Previous Indents</source>
-            <translation>Följer tidigare indenter</translation>
+            <translation>Följer föregående indrag</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Unindents</source>
-            <translation>Oinndentering</translation>
+            <translation>Minskar indrag</translation>
         </message>
         <message>
             <location line="+21" />
@@ -75071,12 +75071,12 @@ Specifies how backspace interacts with indentation.
         <message>
             <location line="+2" />
             <source>Specifies where single line comments should be positioned.</source>
-            <translation>Anger var kommentarer på en rad ska placeras.</translation>
+            <translation>Anger var enradskommentarer ska placeras.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>%1: The highlight definition for the file determines the position. If no highlight definition is available, the comment is placed after leading whitespaces.</source>
-            <translation>%1: Höjdmarkeringsdefinitionen för filen avgör positionen. Om ingen färgläggningsdefinition är tillgänglig, placeras kommentaren efter inledande blanktecken.</translation>
+            <translation>%1: Syntaxmarkeringsdefinitionen för filen avgör positionen. Om ingen syntaxmarkeringsdefinition är tillgänglig placeras kommentaren efter inledande blanktecken.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -75091,37 +75091,37 @@ Specifies how backspace interacts with indentation.
         <message>
             <location line="+7" />
             <source>Preferred comment position:</source>
-            <translation>Föredragen kommentar:</translation>
+            <translation>Föredragen placering av kommentar:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/storagesettings.cpp" line="+68" />
             <source>Skip clean whitespace for file types:</source>
-            <translation>Hoppa över ren blanktecken för filtyper:</translation>
+            <translation>Hoppa över rensning av blanktecken för filtyper:</translation>
         </message>
         <message>
             <location line="+1" />
             <source>For the file patterns listed, do not trim trailing whitespace.</source>
-            <translation>För de angivna filmönstren, trimma inte den avslutande blankytan.</translation>
+            <translation>Trimmar inte avslutande blanktecken för de angivna filmönstren.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>List of wildcard-aware file patterns, separated by commas or semicolons.</source>
-            <translation>Lista över wildcard-medvetna filmönster, åtskilda av kommatecken eller semikolon.</translation>
+            <translation>Lista med filmönster som kan innehålla jokertecken, åtskilda med kommatecken eller semikolon.</translation>
         </message>
         <message>
             <location line="-18" />
             <source>Always writes a newline character at the end of the file.</source>
-            <translation>Skriv alltid en nyradstecken i slutet av filen.</translation>
+            <translation>Skriver alltid ett nyradstecken i slutet av filen.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Corrects leading whitespace according to tab settings.</source>
-            <translation>Rättar till att leda blanktecken enligt tabulatorinställningar.</translation>
+            <translation>Rättar inledande blanktecken enligt flikinställningarna.</translation>
         </message>
         <message>
             <location line="-11" />
             <source>Cleans whitespace in entire document instead of only for changed parts.</source>
-            <translation>Rengör blanktecken i hela dokumentet istället för bara för ändrade delar.</translation>
+            <translation>Rensar blanktecken i hela dokumentet i stället för endast i ändrade delar.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/extraencodingsettings.cpp" line="+65" />
@@ -75133,47 +75133,47 @@ Specifies how backspace interacts with indentation.
 &lt;p&gt;Note that UTF-8 BOMs are uncommon and treated incorrectly by some editors, so it usually makes little sense to add any.&lt;/p&gt;
 &lt;p&gt;This setting does &lt;b&gt;not&lt;/b&gt; influence the use of UTF-16 and UTF-32 BOMs.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
             <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;
-&lt;p&gt;How text editors should deal with UTF-8 Byte Order Marks. The options are:&lt;/p&gt;
-&lt;ul &gt;&lt;li&gt;&lt;i&gt;Add If Encoding Is UTF-8:&lt;/i&gt; always add a BOM when saving a file in UTF-8 encoding. Note that this will not work if the encoding is &lt;i&gt;System&lt;/i&gt;, as the text editor does not know what it actually is.&lt;/li&gt;
-&lt;li&gt;&lt;i&gt;Keep If Already Present: &lt;/i&gt;save the file with a BOM if it already had one when it was loaded.&lt;/li&gt;
-&lt;li&gt;&lt;i&gt;Always Delete:&lt;/i&gt; never write an UTF-8 BOM, possibly deleting a pre-existing one.&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;Note that UTF-8 BOMs are uncommon and treated incorrectly by some editors, so it usually makes little sense to add any.&lt;/p&gt;
-&lt;p&gt;This setting does &lt;b&gt;not&lt;/b&gt; influence the use of UTF-16 and UTF-32 BOMs.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;p&gt;Hur textredigerare ska hantera UTF-8-byteordningsmärken. Alternativen är:&lt;/p&gt;
+&lt;ul &gt;&lt;li&gt;&lt;i&gt;Lägg till om kodningen är UTF-8:&lt;/i&gt; lägg alltid till en BOM när en fil sparas med UTF-8-kodning. Observera att detta inte fungerar om kodningen är &lt;i&gt;System&lt;/i&gt;, eftersom textredigeraren inte vet vad den faktiskt är.&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Behåll om den redan finns: &lt;/i&gt;spara filen med en BOM om den redan hade en när den lästes in.&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Ta alltid bort:&lt;/i&gt; skriv aldrig en UTF-8-BOM, vilket eventuellt tar bort en befintlig.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;UTF-8-BOM är ovanliga och hanteras felaktigt av vissa redigerare, så det är sällan meningsfullt att lägga till dem.&lt;/p&gt;
+&lt;p&gt;Den här inställningen påverkar &lt;b&gt;inte&lt;/b&gt; användningen av UTF-16- och UTF-32-BOM.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/behaviorsettings.cpp" line="+24" />
             <source>Hide mouse cursor while typing</source>
-            <translation>Dölj muspekare vid skrivning</translation>
+            <translation>Dölj muspekaren när du skriver</translation>
         </message>
         <message>
             <location line="+42" />
             <source>Enable smart selection changing</source>
-            <translation>Aktivera smart markeringsändring</translation>
+            <translation>Aktivera intelligent ändring av markering</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Using Select Block Up / Down actions will now provide smarter selections.</source>
-            <translation>Genom att använda Select Block Up / Down-åtgärder kommer nu smartare val att ges.</translation>
+            <translation>Åtgärderna Markera block uppåt/nedåt ger då smartare markeringar.</translation>
         </message>
         <message>
             <location line="-6" />
             <source>Pressing Alt displays context-sensitive help or type information as tooltips.</source>
-            <translation>Trycka på Alt visar sammanhangskänslig hjälp eller skriv information som verktygstips.</translation>
+            <translation>När du trycker på Alt visas sammanhangskänslig hjälp eller typinformation som verktygstips.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/typingsettings.cpp" line="-50" />
             <source>Tab key performs auto-indent:</source>
-            <translation>Tab- tangenten utför automatisk indentering:</translation>
+            <translation>Tabbtangenten utför automatisk indragning:</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/behaviorsettings.cpp" line="-19" />
             <source>Displays context-sensitive help or type information on mouseover.</source>
-            <translation>Visar sammanhangskänslig hjälp eller skriv information om musöverföring.</translation>
+            <translation>Visar sammanhangskänslig hjälp eller typinformation när muspekaren hålls över något.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Displays context-sensitive help or type information on Shift+Mouseover.</source>
-            <translation>Visar sammanhangskänslig hjälp eller skriv information om Shift+Mouseover.</translation>
+            <translation>Visar sammanhangskänslig hjälp eller typinformation när muspekaren hålls över något med Skift nedtryckt.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/typingsettings.cpp" line="-4" />
@@ -75189,12 +75189,12 @@ Specifies how backspace interacts with indentation.
         <message>
             <location filename="../../../src/plugins/texteditor/typingsettings.cpp" line="+1" />
             <source>In Leading White Space</source>
-            <translation>I ledande vitt utrymme</translation>
+            <translation>I inledande blanktecken</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/behaviorsettingswidget.cpp" line="+14" />
             <source>Cleanup actions which are automatically performed right before the file is saved to disk.</source>
-            <translation>Rengöringsåtgärder som utförs automatiskt precis innan filen sparas på disk.</translation>
+            <translation>Rensningsåtgärder som genomförs automatiskt precis innan filen sparas på disk.</translation>
         </message>
         <message>
             <location line="-1" />
