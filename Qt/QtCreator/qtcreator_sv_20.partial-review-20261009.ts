@@ -1132,18 +1132,18 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         <name>CameraSpeedConfigAction</name>
         <message>
             <source>Open camera speed configuration dialog</source>
-            <translation>Öppna konfiguration för kamerahastighet</translation>
+            <translation>Öppna dialogrutan för kamerahastighetsinställningar</translation>
         </message>
     </context>
     <context>
         <name>CameraSpeedConfigurationDialog</name>
         <message>
             <source>Camera Speed Configuration</source>
-            <translation>Konfigurera kamerahastighet</translation>
+            <translation>Inställningar för kamerahastighet</translation>
         </message>
         <message>
             <source>The speed camera moves when controlled by keyboard.</source>
-            <translation>Hastigheten som kameran rörs sig vid styrning med tangentbord.</translation>
+            <translation>Hastigheten som kameran rör sig med när den styrs med tangentbordet.</translation>
         </message>
         <message>
             <source>Reset</source>
@@ -1154,7 +1154,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         <name>CameraToggleAction</name>
         <message>
             <source>Toggle Perspective/Orthographic Camera Mode</source>
-            <translation>Växla kameraläge perspektiv/ortografisk</translation>
+            <translation>Växla mellan perspektiviskt och ortografiskt kameraläge</translation>
         </message>
     </context>
     <context>
