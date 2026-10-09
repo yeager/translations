@@ -19782,7 +19782,7 @@ Den inbyggda kodindenteraren hanterar indragningen.</translation>
         <message>
             <location line="+17" />
             <source>Expand All</source>
-            <translation>Expandera alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <location line="-3" />
@@ -19803,7 +19803,7 @@ Den inbyggda kodindenteraren hanterar indragningen.</translation>
         <message>
             <location line="+40" />
             <source>Clang-Tidy and Clazy use a customized Clang executable from the Clang project to search for diagnostics.</source>
-            <translation>Clang-Tidy och Clazy använder en anpassad körbar Clang-fil från Clang-projektet för att söka efter diagnostik.</translation>
+            <translation>Clang-Tidy och Clazy använder en anpassad körbar Clang-fil från Clang-projektet för att söka efter diagnostiska meddelanden.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -19823,17 +19823,17 @@ Den inbyggda kodindenteraren hanterar indragningen.</translation>
         <message>
             <location line="+2" />
             <source>You are trying to run the tool "%1" on an application in %2 mode. The tool is designed to be used in Debug mode since enabled assertions can reduce the number of false positives.</source>
-            <translation>Du försöker köra verktyget "%1" på ett program i %2-läge. Verktyget är utformat för att användas i felsökningsläge eftersom aktiverade påståenden kan minska antalet falska positiva.</translation>
+            <translation>Du försöker köra verktyget ”%1” på ett program i %2-läge. Verktyget är utformat för att användas i felsökningsläge eftersom aktiverade kontroller kan minska antalet falska positiva resultat.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Do you want to continue and run the tool in %1 mode?</source>
-            <translation>Vill du fortsätta och kör verktyget i %1-läget?</translation>
+            <translation>Vill du fortsätta och köra verktyget i %1-läge?</translation>
         </message>
         <message>
             <location line="+242" />
             <source>%1 tool stopped by user.</source>
-            <translation>%1 verktyg stoppat av användaren.</translation>
+            <translation>Verktyget %1 stoppades av användaren.</translation>
         </message>
         <message>
             <location line="+35" />
@@ -19888,7 +19888,7 @@ Den inbyggda kodindenteraren hanterar indragningen.</translation>
         <message>
             <location line="+260" />
             <source>YAML Files (*.yml *.yaml)</source>
-            <translation>YAML- filer (*.yml *.yaml)</translation>
+            <translation>YAML-filer (*.yml *.yaml)</translation>
         </message>
         <message>
             <location line="+92" />
@@ -19934,7 +19934,7 @@ Den inbyggda kodindenteraren hanterar indragningen.</translation>
         <message>
             <location line="+11" />
             <source>Analysis stopped by user.</source>
-            <translation>Analysen stoppad av användaren.</translation>
+            <translation>Analysen stoppades av användaren.</translation>
         </message>
         <message numerus="yes">
             <location line="+3" />
@@ -19952,7 +19952,7 @@ Den inbyggda kodindenteraren hanterar indragningen.</translation>
         <message>
             <location line="+10" />
             <source>%1 diagnostics. %2 fixits, %3 selected.</source>
-            <translation>%1 diagnostik. %2 fixits, %3 vald.</translation>
+            <translation>%1 diagnostiska meddelanden. %2 korrigeringar, %3 valda.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -19974,7 +19974,7 @@ Den inbyggda kodindenteraren hanterar indragningen.</translation>
         <message>
             <location line="-671" />
             <source>No code model data available for project.</source>
-            <translation>Inget kodmodelldata tillgängligt för projektet.</translation>
+            <translation>Ingen kodmodelldata är tillgänglig för projektet.</translation>
         </message>
         <message>
             <location line="+13" />
@@ -19989,12 +19989,12 @@ Den inbyggda kodindenteraren hanterar indragningen.</translation>
         <message>
             <location line="+66" />
             <source>Running %1 on %2 with configuration "%3".</source>
-            <translation>Kör %1 på %2 med konfigurationen "%3".</translation>
+            <translation>Kör %1 på %2 med konfigurationen ”%3”.</translation>
         </message>
         <message>
             <location line="+22" />
             <source>Analyzing "%1" [%2].</source>
-            <translation>Analyserar "%1" [%2].</translation>
+            <translation>Analyserar ”%1” [%2].</translation>
         </message>
         <message>
             <location line="-56" />
