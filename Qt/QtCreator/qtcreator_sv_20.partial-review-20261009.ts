@@ -34415,7 +34415,7 @@ Det kan misslyckas att undersöka symboler och att sätta brytpunkter efter filn
         <message>
             <location filename="../../../src/plugins/debugger/debuggerengine.cpp" line="-2707" />
             <source>Debugging complex command lines is currently not supported on Windows.</source>
-            <translation>Avlusning komplexa kommandorader stöds för närvarande inte på Windows.</translation>
+            <translation>Felsökning av komplexa kommandorader stöds för närvarande inte i Windows.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/memoryagent.cpp" line="+135" />
@@ -34425,7 +34425,7 @@ Det kan misslyckas att undersöka symboler och att sätta brytpunkter efter filn
         <message>
             <location line="+5" />
             <source>Register "%1"</source>
-            <translation>Registrera "%1"</translation>
+            <translation>Registret ”%1”</translation>
         </message>
         <message>
             <location line="+52" />
@@ -34440,19 +34440,19 @@ Det kan misslyckas att undersöka symboler och att sätta brytpunkter efter filn
         <message>
             <location line="+1" />
             <source>The memory contents cannot be shown as no viewer plugin for binary data has been loaded.</source>
-            <translation>Minnesinnehållet kan inte visas eftersom ingen visningsinsticksprogram för binär data har laddats.</translation>
+            <translation>Minnesinnehållet kan inte visas eftersom ingen visningsinsticksmodul för binärdata har lästs in.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/qml/qmlengine.cpp" line="+331" />
             <source>No application output received in time</source>
-            <translation>Ingen ansökan inkommer i tid</translation>
+            <translation>Ingen programutdata togs emot i tid</translation>
         </message>
         <message>
             <location line="+71" />
             <source>Could not connect to the in-process QML debugger.
 Do you want to retry?</source>
-            <translation>Kunde inte ansluta till QML- felsökningen
-under processen. Vill du försöka igen?</translation>
+            <translation>Det gick inte att ansluta till QML-felsökaren i processen.
+Vill du försöka igen?</translation>
         </message>
         <message>
             <location line="+63" />
@@ -34463,7 +34463,7 @@ under processen. Vill du försöka igen?</translation>
         <message>
             <location line="-673" />
             <source>Could not connect to the in-process QML debugger. %1</source>
-            <translation>Kunde inte ansluta till QML- felsökaren under processen. %1</translation>
+            <translation>Det gick inte att ansluta till QML-felsökaren i processen. %1</translation>
         </message>
         <message>
             <location line="+87" />
@@ -34473,7 +34473,7 @@ under processen. Vill du försöka igen?</translation>
         <message>
             <location line="+86" />
             <source>Waiting for JavaScript engine to interrupt on next statement.</source>
-            <translation>Väntar på JavaScript-motorn att avbryta på nästa uttalande.</translation>
+            <translation>Väntar på att JavaScript-motorn ska avbryta vid nästa sats.</translation>
         </message>
         <message>
             <location line="+30" />
@@ -34498,12 +34498,12 @@ under processen. Vill du försöka igen?</translation>
         <message>
             <location line="+109" />
             <source>QML Debugger: Connection failed.</source>
-            <translation>QML- felsökning: Anslutning misslyckades.</translation>
+            <translation>QML-felsökare: anslutningen misslyckades.</translation>
         </message>
         <message>
             <location line="-147" />
             <source>QML Debugger disconnected.</source>
-            <translation>QML- felsökare avstängd.</translation>
+            <translation>QML-felsökaren kopplades från.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/cdb/cdboptionspage.cpp" line="-201" />
@@ -34518,7 +34518,7 @@ under processen. Vill du försöka igen?</translation>
         <message>
             <location line="+1" />
             <source>Thread exit</source>
-            <translation>Trådutgång</translation>
+            <translation>Tråd avslutas</translation>
         </message>
         <message>
             <location line="+1" />
@@ -34528,7 +34528,7 @@ under processen. Vill du försöka igen?</translation>
         <message>
             <location line="+1" />
             <source>Unload module:</source>
-            <translation>Avlasta modul:</translation>
+            <translation>Läs ur modul:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -34538,7 +34538,7 @@ under processen. Vill du försöka igen?</translation>
         <message>
             <location line="+160" />
             <source>Break On</source>
-            <translation>Bryt på</translation>
+            <translation>Bryt vid</translation>
         </message>
         <message>
             <location line="+5" />
@@ -34593,7 +34593,7 @@ under processen. Vill du försöka igen?</translation>
         </message>
         <message>
             <source>&amp;Username:</source>
-            <translation>A&amp;nvändarnamn:</translation>
+            <translation>&amp;Användarnamn:</translation>
         </message>
         <message>
             <source>&amp;Password:</source>
@@ -34618,7 +34618,7 @@ under processen. Vill du försöka igen?</translation>
         </message>
         <message>
             <source>Misc Types</source>
-            <translation>Diverse typer</translation>
+            <translation>Övriga typer</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/debugger/debuggerrunconfigurationaspect.cpp" line="+149" />
