@@ -2014,7 +2014,7 @@ Det ska vara en relativ sökväg.</translation>
     </message>
     <message>
         <source>Toggles the top or bottom edges of the border.</source>
-        <translation>Växlar kantens övre eller nedre kanter.</translation>
+        <translation>Aktiverar eller inaktiverar kantens övre eller nedre kanter.</translation>
     </message>
     <message>
         <source>Horizontal</source>
@@ -2022,7 +2022,7 @@ Det ska vara en relativ sökväg.</translation>
     </message>
     <message>
         <source>Toggles the left or right edges of the border.</source>
-        <translation>Växlar kantens vänstra eller högra kanter.</translation>
+        <translation>Aktiverar eller inaktiverar kantens vänstra eller högra kanter.</translation>
     </message>
 </context>
 <context>
@@ -4613,7 +4613,7 @@ som definieras i &lt;b&gt;Step size&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation>Centrera</translation>
+        <translation>Centrum</translation>
     </message>
     <message>
         <source>Center of the distortion.</source>
@@ -74052,7 +74052,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Sets the rendering type for this component.</source>
-        <translation>Anger renderingstypen för komponenten.</translation>
+        <translation>Anger återgivningstypen för komponenten.</translation>
     </message>
     <message>
         <source>Sets how the font size is determined.</source>
@@ -74080,7 +74080,7 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Render type</source>
-        <translation>Renderingstyp</translation>
+        <translation>Återgivningstyp</translation>
     </message>
     <message>
         <source>Size mode</source>
@@ -74096,11 +74096,11 @@ det når början eller slutet.</translation>
     </message>
     <message>
         <source>Minimum font pixel size of scaled text.</source>
-        <translation>Minsta teckenbildpunktsstorlek för skalad text.</translation>
+        <translation>Minsta teckenstorlek i bildpunkter för skalad text.</translation>
     </message>
     <message>
         <source>Minimum font point size of scaled text.</source>
-        <translation>Minsta teckenpunktsstorlek för skalad text.</translation>
+        <translation>Minsta teckenstorlek i punkter för skalad text.</translation>
     </message>
     <message>
         <source>Line height</source>
@@ -75148,7 +75148,7 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the stroke color of the boundary.</source>
-        <translation>Anger linjefärgen för gränsen.</translation>
+        <translation>Anger konturens linjefärg.</translation>
     </message>
     <message>
         <source>Stroke width</source>
@@ -75156,7 +75156,7 @@ Detta används för att beräkna den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the stroke thickness of the boundary.</source>
-        <translation>Anger gränsens linjetjocklek.</translation>
+        <translation>Anger konturens linjetjocklek.</translation>
     </message>
     <message>
         <source>Hide</source>
