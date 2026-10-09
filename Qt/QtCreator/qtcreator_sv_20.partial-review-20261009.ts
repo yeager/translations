@@ -74398,7 +74398,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="-38" />
             <source>Unset</source>
-            <translation>Avinställ</translation>
+            <translation>Inte angiven</translation>
         </message>
         <message>
             <location line="+27" />
@@ -74413,13 +74413,13 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+2" />
             <source>Unset foreground.</source>
-            <translation>Avinställ förgrund.</translation>
+            <translation>Ingen förgrundsfärg angiven.</translation>
         </message>
         <message>
             <location line="+3" />
             <location line="+21" />
             <source>Unset background.</source>
-            <translation>Avinställ bakgrund.</translation>
+            <translation>Ingen bakgrundsfärg angiven.</translation>
         </message>
         <message>
             <location line="-19" />
@@ -74446,7 +74446,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+10" />
             <source>Underline</source>
-            <translation>Understruken</translation>
+            <translation>Understrykning</translation>
         </message>
         <message>
             <location line="+1" />
@@ -74461,37 +74461,37 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+2" />
             <source>Single Underline</source>
-            <translation>kla understreck</translation>
+            <translation>Enkel understrykning</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Wave Underline</source>
-            <translation>Vågunderrad</translation>
+            <translation>Vågunderstrykning</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Dot Underline</source>
-            <translation>Understrykning</translation>
+            <translation>Punktunderstrykning</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Dash Underline</source>
-            <translation>Dash- underläge</translation>
+            <translation>Streckunderstrykning</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Dash-Dot Underline</source>
-            <translation>Understreck för punktpunkt</translation>
+            <translation>Streck-punkt-understrykning</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Dash-Dot-Dot Underline</source>
-            <translation>Understreck för punktpunkt</translation>
+            <translation>Streck-punkt-punkt-understrykning</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/colorscheme.cpp" line="+254" />
             <source>Not a color scheme file.</source>
-            <translation>Inte en färgschemafil.</translation>
+            <translation>Inte en fil med färgschema.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/texteditorplugin.cpp" line="-279" />
@@ -74506,42 +74506,42 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+7" />
             <source>Skip syntax highlighting for files matching:</source>
-            <translation>Hoppa över syntax- färgläggning för filer som matchar:</translation>
+            <translation>Hoppa över syntaxfärgläggning för filer som matchar:</translation>
         </message>
         <message>
             <location line="+17" />
             <source>Highlight definitions are provided by the %1 engine.</source>
-            <translation>Höjdmarkeringsdefinitioner tillhandahålls av %1-motorn.</translation>
+            <translation>Definitioner för syntaxmarkering tillhandahålls av %1-motorn.</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Download missing and update existing syntax definition files.</source>
-            <translation>Ladda ner saknade och uppdatera befintliga syntax definitionsfiler.</translation>
+            <translation>Hämta saknade och uppdatera befintliga syntaxdefinitionsfiler.</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Reload Definitions</source>
-            <translation>Läs om definitioner</translation>
+            <translation>Läs in definitioner igen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Reload externally modified definition files.</source>
-            <translation>Ladda om externt modifierade definitionsfiler.</translation>
+            <translation>Läs in externt ändrade definitionsfiler igen.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Reset Remembered Definitions</source>
-            <translation>Nollställ ihågkomna definitioner</translation>
+            <translation>Återställ sparade definitioner</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Reset definitions remembered for files that can be associated with more than one highlighter definition.</source>
-            <translation>Återställ definitioner som kommer ihåg för filer som kan associeras med mer än en highlighter definition.</translation>
+            <translation>Återställ de definitioner som har sparats för filer som kan kopplas till fler än en syntaxmarkeringsdefinition.</translation>
         </message>
         <message>
             <location line="-12" />
             <source>User Highlight Definition Files</source>
-            <translation>Användarfärgläggning Definitionsfiler</translation>
+            <translation>Användardefinitionsfiler för syntaxmarkering</translation>
         </message>
         <message>
             <source>Download finished</source>
@@ -74550,7 +74550,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+58" />
             <source>Generic Highlighter</source>
-            <translation>Generell färgläggning</translation>
+            <translation>Allmän syntaxmarkering</translation>
         </message>
         <message>
             <location line="-68" />
@@ -74566,12 +74566,12 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+13" />
             <source>Synchronize with Editor</source>
-            <translation>Synkronisera med redigerare</translation>
+            <translation>Synkronisera med redigeraren</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Filter tree</source>
-            <translation>Filterträd</translation>
+            <translation>Filtrera träd</translation>
         </message>
         <message>
             <location line="+136" />
@@ -74591,7 +74591,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
         <message>
             <location line="+7" />
             <source>(Sel: %1)</source>
-            <translation>(Mark: %1)</translation>
+            <translation>(Markering: %1)</translation>
         </message>
         <message>
             <location line="+18" />
@@ -74632,7 +74632,7 @@ Tillämpas inte på blanktecken i kommentarer och strängar.</translation>
             <location line="+49" />
             <location line="+35" />
             <source>Spaces</source>
-            <translation>Utrymmen</translation>
+            <translation>Blanksteg</translation>
         </message>
         <message>
             <location line="-32" />
