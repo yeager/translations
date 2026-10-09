@@ -26967,7 +26967,7 @@ Du kommer sannolikt att få ytterligare problem med den här instansen av %3.</t
         <message>
             <location line="+4" />
             <source>The following encodings are likely to fit:</source>
-            <translation>Följande kodningar passar antagligen:</translation>
+            <translation>Följande kodningar verkar passa:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -27012,22 +27012,22 @@ Du kommer sannolikt att få ytterligare problem med den här instansen av %3.</t
         <message>
             <location filename="../../../src/plugins/coreplugin/externaltool.cpp" line="+546" />
             <source>Could not find executable for "%1" (expanded "%2")</source>
-            <translation>Kunde inte hitta körbar fil för "%1" (expanderat "%2")</translation>
+            <translation>Kunde inte hitta den körbara filen för ”%1” (expanderat ”%2”)</translation>
         </message>
         <message>
             <location line="+88" />
             <source>Starting external tool "%1"</source>
-            <translation>Startar externt verktyg "%1"</translation>
+            <translation>Startar det externa verktyget ”%1”</translation>
         </message>
         <message>
             <location line="+12" />
             <source>"%1" finished</source>
-            <translation>"%1" färdigställdes</translation>
+            <translation>”%1” har slutförts</translation>
         </message>
         <message>
             <location line="+1" />
             <source>"%1" finished with error</source>
-            <translation>"%1" färdigställdes med fel</translation>
+            <translation>”%1” har avslutats med fel</translation>
         </message>
         <message numerus="yes">
             <location filename="../../../src/plugins/coreplugin/find/currentdocumentfind.cpp" line="+132" />
@@ -27040,17 +27040,17 @@ Du kommer sannolikt att få ytterligare problem med den här instansen av %3.</t
         <message>
             <location filename="../../../src/plugins/coreplugin/iwizardfactory.cpp" line="-304" />
             <source>Factory with id="%1" already registered. Deleting.</source>
-            <translation>Fabrik med id="%1" redan registrerad. Radering.</translation>
+            <translation>Fabrik med id="%1" är redan registrerad. Tar bort den.</translation>
         </message>
         <message>
             <location line="+231" />
             <source>Reload All Wizards</source>
-            <translation>Ladda om alla guider</translation>
+            <translation>Läs in alla guider igen</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Inspect Wizard State</source>
-            <translation>Inspektera trollkarlstillstånd</translation>
+            <translation>Inspektera guidens tillstånd</translation>
         </message>
         <message>
             <location line="+66" />
@@ -27060,17 +27060,17 @@ Du kommer sannolikt att få ytterligare problem med den här instansen av %3.</t
         <message>
             <location filename="../../../src/plugins/coreplugin/jsexpander.cpp" line="+49" />
             <source>Error in "%1": %2</source>
-            <translation>Fel i "%1": %2</translation>
+            <translation>Fel i ”%1”: %2</translation>
         </message>
         <message>
             <location line="+12" />
             <source>Cannot convert result of "%1" to string.</source>
-            <translation>Kan inte konvertera resultatet av "%1" till sträng.</translation>
+            <translation>Kan inte konvertera resultatet från ”%1” till en sträng.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Evaluate simple JavaScript statements.&lt;br&gt;Literal '}' characters must be escaped as "\}", '\' characters must be escaped as "\\", and "%{" must be escaped as "%\{".</source>
-            <translation>Utvärdera enkla JavaScript-satser.&lt;br&gt;Tecknet ”}” måste avgränsas som ”\}”, tecknet ”\” måste avgränsas som ”\\” och ”%{” måste avgränsas som ”%\{”.</translation>
+            <translation>Utvärdera enkla JavaScript-satser.&lt;br&gt;Tecknet '}' måste maskeras som "\}", tecknet '\' måste maskeras som "\\", och "%{" måste maskeras som "%\{".</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/locator/externaltoolsfilter.cpp" line="+21" />
@@ -27085,17 +27085,17 @@ Du kommer sannolikt att få ytterligare problem med den här instansen av %3.</t
         <message>
             <location filename="../../../src/plugins/coreplugin/locator/javascriptfilter.cpp" line="+354" />
             <source>Evaluate JavaScript</source>
-            <translation>Evaluera JavaScript</translation>
+            <translation>Utvärdera JavaScript</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Evaluates arbitrary JavaScript expressions and copies the result.</source>
-            <translation>Evaluerar godtyckliga JavaScript-uttryck och kopierar resultatet.</translation>
+            <translation>Utvärderar godtyckliga JavaScript-uttryck och kopierar resultatet.</translation>
         </message>
         <message>
             <location line="+18" />
             <source>Reset Engine</source>
-            <translation>Nollställ motor</translation>
+            <translation>Återställ motorn</translation>
         </message>
         <message>
             <location line="-50" />
@@ -27105,7 +27105,7 @@ Du kommer sannolikt att få ytterligare problem med den här instansen av %3.</t
         <message>
             <location line="-190" />
             <source>The evaluation was interrupted.</source>
-            <translation>Evalueringen avbröts.</translation>
+            <translation>Utvärderingen avbröts.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -27126,27 +27126,27 @@ Du kommer sannolikt att få ytterligare problem med den här instansen av %3.</t
         <message>
             <location filename="../../../src/plugins/coreplugin/locator/spotlightlocatorfilter.cpp" line="-69" />
             <source>Locator: Error occurred when running "%1".</source>
-            <translation>Sökare: Fel uppstod när "%1" kördes.</translation>
+            <translation>Sökrutan: Det uppstod ett fel när ”%1” kördes.</translation>
         </message>
         <message>
             <location line="-71" />
             <source>Locator query string.</source>
-            <translation>Sökarsöksträng.</translation>
+            <translation>Söksträng för sökrutan.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Locator query string with quotes escaped with backslash.</source>
-            <translation>Sökare frågesträng med citat flydde med bakslag.</translation>
+            <translation>Söksträng för sökrutan med citattecken maskerade med omvänt snedstreck.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Locator query string with quotes escaped with backslash and spaces replaced with "*" wildcards.</source>
-            <translation>Sökare frågesträng med citat lyckades fly med bakstreck och mellanslag ersatta med "*" jokertecken.</translation>
+            <translation>Söksträng för sökrutan med citattecken maskerade med omvänt snedstreck och mellanslag ersatta med jokertecknet ”*”.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Locator query string as regular expression.</source>
-            <translation>Sökares frågesträng som reguljärt uttryck.</translation>
+            <translation>Söksträng för sökrutan som reguljärt uttryck.</translation>
         </message>
         <message>
             <location line="+14" />
@@ -27156,7 +27156,7 @@ Du kommer sannolikt att få ytterligare problem med den här instansen av %3.</t
         <message>
             <location line="+1" />
             <source>Locates files from a global file system index (Spotlight, Locate, Everything). Append "+&lt;number&gt;" or ":&lt;number&gt;" to jump to the given line number. Append another "+&lt;number&gt;" or ":&lt;number&gt;" to jump to the column number as well.</source>
-            <translation>Hittar filer från ett globalt filsystemindex (Spotlight, Locat, Everything). Lägg till "+&lt;number&gt;" eller ":&lt;number&gt;" för att hoppa till det givna radnumret. Lägg till ett annat "+&lt;number&gt;" eller "&lt;number&gt;" för att hoppa till kolumnnumret också.</translation>
+            <translation>Hittar filer från ett globalt filsystemindex (Spotlight, Locate, Everything). Lägg till "+&lt;number&gt;" eller ":&lt;number&gt;" för att hoppa till angivet radnummer. Lägg till ytterligare "+&lt;number&gt;" eller ":&lt;number&gt;" för att även hoppa till kolumnnumret.</translation>
         </message>
         <message>
             <location line="+109" />
@@ -27210,12 +27210,12 @@ Dubbelklicka för att redigera posten.</translation>
         <message>
             <location line="+13" />
             <source>Copy Contents to Scratch Buffer</source>
-            <translation>Kopiera innehåll till Scratch Buffert</translation>
+            <translation>Kopiera innehåll till temporär buffert</translation>
         </message>
         <message>
             <location line="+14" />
             <source>Failed to open editor for "%1".</source>
-            <translation>Misslyckades med att öppna redigerare för "%1".</translation>
+            <translation>Det gick inte att öppna redigeraren för ”%1”.</translation>
         </message>
         <message numerus="yes">
             <location line="+217" />
