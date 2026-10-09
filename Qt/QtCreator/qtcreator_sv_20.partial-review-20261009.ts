@@ -23814,7 +23814,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+35" />
             <source>Close Window</source>
-            <translation>Stäng fönster</translation>
+            <translation>Stäng fönstret</translation>
         </message>
         <message>
             <location line="+2" />
@@ -23836,7 +23836,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
             <location line="-1512" />
             <source>Open Preferences.</source>
             <comment>msgShowOptionsDialogToolTip</comment>
-            <translation>Öppna Inställningar.</translation>
+            <translation>Öppna inställningar.</translation>
         </message>
         <message>
             <location line="+774" />
@@ -23847,7 +23847,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+35" />
             <source>The Qt logo, axivion stopping software erosion logo, Qt Group logo, as well as Qt®, Axivion®, axivion stopping software erosion®, Boot to Qt®, Built with Qt®, Coco®, froglogic®, Qt Cloud Services®, Qt Developer Days®, Qt Embedded®, Qt Enterprise®, Qt Group®, Qt Mobile®, Qt Quick®, Qt Quick Compiler®, Squish® are registered trademarks of The Qt Company Ltd. or its subsidiaries.</source>
-            <translation>Qt-logotypen, erosionslogotypen för axivion, erosion av programvara från Qt-gruppen, Qt®, Axivion®, erosion av axivion, uppstart till Qt®, byggd med Qt®, Coco®, grodlogic®, Qt Cloud Services®, Qt Developer Days®, Qt Embedded®, Qt Enterprise®, Qt Group®, Qt Mobile®, Qt Quick®, Qt Quick Compiler®, Squish®</translation>
+            <translation>Qt-logotypen, logotypen för axivion stopping software erosion och Qt Group-logotypen samt Qt®, Axivion®, axivion stopping software erosion®, Boot to Qt®, Built with Qt®, Coco®, froglogic®, Qt Cloud Services®, Qt Developer Days®, Qt Embedded®, Qt Enterprise®, Qt Group®, Qt Mobile®, Qt Quick®, Qt Quick Compiler® och Squish® är registrerade varumärken som tillhör The Qt Company Ltd. eller dess dotterbolag.</translation>
         </message>
         <message>
             <location line="+511" />
@@ -23867,7 +23867,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+75" />
             <source>This will hide the menu bar completely. You can show it again by typing %1.&lt;br&gt;&lt;br&gt;Or, trigger the "%2" action from the "%3" locator filter (%4).</source>
-            <translation>Det här döljer menyraden helt. Du kan visa den igen genom att skriva %1.&lt;br&gt;&lt;br&gt;Eller starta åtgärden "%2" från filtret "%3" (%4).</translation>
+            <translation>Det här döljer menyraden helt. Du kan visa den igen genom att skriva %1.&lt;br&gt;&lt;br&gt;Du kan också utlösa åtgärden ”%2” från lokaliseringsfiltret ”%3” (%4).</translation>
         </message>
         <message>
             <location line="+17" />
@@ -23960,7 +23960,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+170" />
             <source>Logging Category Viewer</source>
-            <translation>Visare för loggningskategori</translation>
+            <translation>Visare för loggningskategorier</translation>
         </message>
         <message>
             <location line="+3" />
@@ -23978,12 +23978,12 @@ förutsatt att de var oförändrade före åtgärden.</translation>
             <location line="+4" />
             <location line="+160" />
             <source>Stop Logging</source>
-            <translation>Stoppa loggning</translation>
+            <translation>Avsluta loggning</translation>
         </message>
         <message>
             <location line="-150" />
             <source>Auto Scroll</source>
-            <translation>Automatisk rullning</translation>
+            <translation>Rulla automatiskt</translation>
         </message>
         <message>
             <location line="+8" />
@@ -24018,7 +24018,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+270" />
             <source>This logging category uses discouraged non-static approach and cannot get handled by the logging viewer.</source>
-            <translation>Denna loggningskategori använder avskräckt icke-statiskt tillvägagångssätt och kan inte hanteras av loggningsvisningen.</translation>
+            <translation>Den här loggningskategorin använder den avrådda icke-statiska metoden och kan inte hanteras av loggningsvisaren.</translation>
         </message>
         <message>
             <location line="+89" />
@@ -24038,7 +24038,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+2" />
             <source>Fatal</source>
-            <translation>Ödesdiger</translation>
+            <translation>Dödlig</translation>
         </message>
         <message>
             <location line="+2" />
@@ -24053,7 +24053,7 @@ förutsatt att de var oförändrade före åtgärden.</translation>
         <message>
             <location line="+100" />
             <source>Filter Qt Internal Log Categories</source>
-            <translation>Filter för interna loggkategorier för Qt</translation>
+            <translation>Filtrera interna loggningskategorier i Qt</translation>
         </message>
         <message>
             <location line="+56" />
