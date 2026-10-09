@@ -13020,7 +13020,7 @@ En förloppsindikator i obestämt läge visar att en
     </message>
     <message>
         <source>Rendering occurs as normal.</source>
-        <translation>Rendering fungerar som normalt.</translation>
+        <translation>Återgivningen fungerar som normalt.</translation>
     </message>
     <message>
         <source>Base Color</source>
@@ -59014,7 +59014,7 @@ Sparandet misslyckades.</translation>
     </message>
     <message>
         <source>Render Frame</source>
-        <translation>Rendera bildruta</translation>
+        <translation>Återge bildruta</translation>
     </message>
     <message>
         <source>Synchronize Frame</source>
@@ -59050,11 +59050,11 @@ Sparandet misslyckades.</translation>
     </message>
     <message>
         <source>Render Call</source>
-        <translation>Renderingsanrop</translation>
+        <translation>Återgivningsanrop</translation>
     </message>
     <message>
         <source>Render Pass</source>
-        <translation>Renderingspass</translation>
+        <translation>Återgivningspass</translation>
     </message>
     <message>
         <source>Event Data</source>
@@ -59098,7 +59098,7 @@ Sparandet misslyckades.</translation>
     </message>
     <message>
         <source>Render Passes</source>
-        <translation>Renderingspass</translation>
+        <translation>Återgivningspass</translation>
     </message>
     <message>
         <source>Total Memory Usage</source>
@@ -59114,7 +59114,7 @@ Sparandet misslyckades.</translation>
     </message>
     <message>
         <source>Render Thread Details</source>
-        <translation>Information om renderingstråd</translation>
+        <translation>Information om återgivningstråden</translation>
     </message>
     <message>
         <source>Polish</source>
@@ -59130,11 +59130,11 @@ Sparandet misslyckades.</translation>
     </message>
     <message>
         <source>Render Thread Sync</source>
-        <translation>Synkronisering av renderingstråd</translation>
+        <translation>Synkronisering av återgivningstråden</translation>
     </message>
     <message>
         <source>Render</source>
-        <translation>Rendering</translation>
+        <translation>Återgivning</translation>
     </message>
     <message>
         <source>Swap</source>
@@ -59142,15 +59142,15 @@ Sparandet misslyckades.</translation>
     </message>
     <message>
         <source>Render Preprocess</source>
-        <translation>Förbearbeta rendering</translation>
+        <translation>Förbearbeta återgivning</translation>
     </message>
     <message>
         <source>Render Update</source>
-        <translation>Uppdatera rendering</translation>
+        <translation>Uppdatera återgivning</translation>
     </message>
     <message>
         <source>Render Bind</source>
-        <translation>Bind rendering</translation>
+        <translation>Bind återgivning</translation>
     </message>
     <message>
         <source>Render Render</source>
@@ -59162,7 +59162,7 @@ Sparandet misslyckades.</translation>
     </message>
     <message>
         <source>Glyph Render</source>
-        <translation>Rendera glyf</translation>
+        <translation>Återge glyf</translation>
     </message>
     <message>
         <source>Glyph Upload</source>
