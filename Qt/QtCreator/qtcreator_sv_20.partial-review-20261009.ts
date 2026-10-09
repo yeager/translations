@@ -20004,7 +20004,7 @@ Den inbyggda kodindenteraren hanterar indragningen.</translation>
         <message>
             <location line="+66" />
             <source>Failed to analyze "%1": %2</source>
-            <translation>Misslyckades med att analysera "%1": %2</translation>
+            <translation>Det gick inte att analysera ”%1”: %2</translation>
         </message>
         <message numerus="yes">
             <location line="+35" />
@@ -20017,17 +20017,17 @@ Den inbyggda kodindenteraren hanterar indragningen.</translation>
         <message>
             <location line="+6" />
             <source>Note: You might need to build the project to generate or update source files. To build automatically, enable "Build the project before analysis".</source>
-            <translation>Observera: Du kan behöva bygga projektet för att generera eller uppdatera källfiler. Aktivera automatiskt "Bygga projektet innan analys" för att bygga automatiskt.</translation>
+            <translation>Observera: Du kan behöva bygga projektet för att generera eller uppdatera källfiler. Aktivera ”Bygg projektet före analys” för att bygga automatiskt.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>%1 finished: Processed %2 files successfully, %3 failed.</source>
-            <translation>%1 färdig: Behandlade %2 filer, %3 misslyckades.</translation>
+            <translation>%1 slutfördes: %2 filer bearbetades utan fel, %3 misslyckades.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/clangtools/clangtoolrunner.cpp" line="+172" />
             <source>%1 produced stderr output:</source>
-            <translation>%1 producerade stderr-utdata:</translation>
+            <translation>%1 skrev till stderr:</translation>
         </message>
         <message>
             <location line="-75" />
@@ -20043,7 +20043,7 @@ Utdata:
         <message>
             <location line="-15" />
             <source>output truncated</source>
-            <translation>uteffekt trunkerad</translation>
+            <translation>utdata trunkerad</translation>
         </message>
         <message>
             <location line="+97" />
@@ -20084,12 +20084,12 @@ Utdata:
         <message>
             <location line="+4" />
             <source>Filter for This Diagnostic Kind</source>
-            <translation>Filtrera för denna diagnostiska sort</translation>
+            <translation>Filtrera efter den här typen av diagnostik</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Filter out This Diagnostic Kind</source>
-            <translation>Filtrera ut denna diagnostiska sort</translation>
+            <translation>Filtrera bort den här typen av diagnostik</translation>
         </message>
         <message>
             <location line="+11" />
@@ -20100,22 +20100,22 @@ Utdata:
         <message>
             <location line="+290" />
             <source>Suppress Selected Diagnostics</source>
-            <translation>Undertryck utvalda diagnoser</translation>
+            <translation>Undertryck markerade diagnostiska meddelanden</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Suppress This Diagnostic</source>
-            <translation>Undertryck denna diagnos</translation>
+            <translation>Undertryck det här diagnostiska meddelandet</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Suppress Selected Diagnostics Inline</source>
-            <translation>Tryck på markerad diagnos inline</translation>
+            <translation>Undertryck markerade diagnostiska meddelanden i koden</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Suppress This Diagnostic Inline</source>
-            <translation>Tryck på denna diagnostiska inline</translation>
+            <translation>Undertryck det här diagnostiska meddelandet i koden</translation>
         </message>
         <message>
             <location line="+2" />
@@ -20178,7 +20178,7 @@ Utdata:
         <message>
             <location line="+9" />
             <source>Suppressed diagnostics</source>
-            <translation>Undertryckt diagnostik</translation>
+            <translation>Undertryckta diagnostiska meddelanden</translation>
         </message>
         <message>
             <location line="+125" />
@@ -20203,7 +20203,7 @@ Utdata:
         <message>
             <location line="+2" />
             <source>Invalidated</source>
-            <translation>Ogiltig</translation>
+            <translation>Ogiltigförklarad</translation>
         </message>
         <message>
             <location line="+2" />
@@ -20238,7 +20238,7 @@ Utdata:
         <message>
             <location line="+8" />
             <source>Fixit status:</source>
-            <translation>Fastställandestatus:</translation>
+            <translation>Korrigeringsstatus:</translation>
         </message>
         <message>
             <location line="+6" />
@@ -20253,12 +20253,12 @@ Utdata:
         <message>
             <location line="+30" />
             <source>In general, the project should be built before starting the analysis to ensure that the code to analyze is valid.&lt;br/&gt;&lt;br/&gt;Building the project might also run code generators that update the source files as necessary.</source>
-            <translation>I allmänhet bör projektet byggas innan analysen påbörjas för att säkerställa att koden för att analysera är giltig.&lt;br/&gt;&lt;br/&gt;Byggande projektet kan också köra kodgeneratorer som uppdaterar källfilerna vid behov.</translation>
+            <translation>I allmänhet bör projektet byggas innan analysen påbörjas för att säkerställa att koden som ska analyseras är giltig.&lt;br/&gt;&lt;br/&gt;Att bygga projektet kan också köra kodgeneratorer som uppdaterar källfilerna vid behov.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Info About Build the Project Before Analysis</source>
-            <translation>Information om Bygg projektet innan analys</translation>
+            <translation>Information om Bygg projektet före analys</translation>
         </message>
         <message>
             <location line="+85" />
