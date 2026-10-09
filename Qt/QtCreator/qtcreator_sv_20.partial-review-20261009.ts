@@ -61678,7 +61678,7 @@ Berörda filer är:
         <message>
             <location filename="../../../src/plugins/boot2qt/device-detection/qdbdevicetracker.cpp" line="+38" />
             <source>Shutting down device discovery due to unexpected response: %1</source>
-            <translation>Stänga av enhetsfyndighet på grund av oväntat svar: %1</translation>
+            <translation>Stänger av enhetsidentifieringen på grund av ett oväntat svar: %1</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/boot2qt/device-detection/qdbmessagetracker.cpp" line="+42" />
@@ -61708,7 +61708,7 @@ Berörda filer är:
         <message>
             <location line="+12" />
             <source>Could not find QDB host server executable. You can set the location with environment variable %1.</source>
-            <translation>Kunde inte hitta QDB- värdservern körbar. Du kan ställa in platsen med miljövariabeln %1.</translation>
+            <translation>Kunde inte hitta den körbara filen för QDB-värdservern. Du kan ange platsen med miljövariabeln %1.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -61718,11 +61718,11 @@ Berörda filer är:
         <message>
             <location line="+3" />
             <source>Could not start QDB host server in "%1".</source>
-            <translation>Kunde inte starta QDB- värddatorservern i "%1".</translation>
+            <translation>Kunde inte starta QDB-värdservern i ”%1”.</translation>
         </message>
         <message>
             <source>Could not start QDB host server in %1</source>
-            <translation>Kunde inte starta QDB-värdserver i %1</translation>
+            <translation>Kunde inte starta QDB-värdservern i %1</translation>
         </message>
         <message>
             <location line="+10" />
@@ -61747,7 +61747,7 @@ Berörda filer är:
         <message>
             <location line="+8" />
             <source>Commands on device "%1" finished successfully.</source>
-            <translation>Kommandon på enheten "%1" avslutade framgångsrikt.</translation>
+            <translation>Kommandona på enheten ”%1” slutfördes.</translation>
         </message>
         <message>
             <location line="-4" />
@@ -61768,7 +61768,7 @@ Berörda filer är:
         <message>
             <location line="-119" />
             <source>Reboot Device</source>
-            <translation>Starta om enhet</translation>
+            <translation>Starta om enheten</translation>
         </message>
         <message>
             <location line="+4" />
@@ -61778,7 +61778,7 @@ Berörda filer är:
         <message>
             <location line="+36" />
             <source>WizardPage</source>
-            <translation>GuidePage</translation>
+            <translation>Guidesida</translation>
         </message>
         <message>
             <location line="+1" />
@@ -61788,7 +61788,7 @@ Berörda filer är:
         <message>
             <location line="+3" />
             <source>A short, free-text description.</source>
-            <translation>kort, fritextbeskrivning.</translation>
+            <translation>En kort fritextbeskrivning.</translation>
         </message>
         <message>
             <source>A short, free-text description</source>
@@ -61812,12 +61812,12 @@ Berörda filer är:
         <message>
             <location line="+26" />
             <source>Boot to Qt Network Device Setup</source>
-            <translation>Starta till Qt- nätverksenhetsinställning</translation>
+            <translation>Konfigurera Boot to Qt-nätverksenhet</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/boot2qt/qdbmakedefaultappstep.cpp" line="+32" />
             <source>Set This Application to Start by Default</source>
-            <translation>Ställ in programmet att starta som standard</translation>
+            <translation>Ange att programmet ska starta som standard</translation>
         </message>
         <message>
             <location line="+1" />
@@ -61827,17 +61827,17 @@ Berörda filer är:
         <message>
             <location line="+29" />
             <source>Application set as the default one.</source>
-            <translation>Programmet inställt som standard.</translation>
+            <translation>Programmet har angetts som standard.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Reset the default application.</source>
-            <translation>Nollställ standardprogrammet.</translation>
+            <translation>Återställ standardprogrammet.</translation>
         </message>
         <message>
             <location line="-4" />
             <source>Remote process failed: %1</source>
-            <translation>Fjärrprocess misslyckades: %1</translation>
+            <translation>Fjärrprocessen misslyckades: %1</translation>
         </message>
         <message>
             <source>Set this application to start by default</source>
@@ -61855,22 +61855,22 @@ Berörda filer är:
         <message>
             <location filename="../../../src/plugins/boot2qt/qdbplugin.cpp" line="+54" />
             <source>Flash wizard "%1" failed to start.</source>
-            <translation>Flash-guiden "%1" misslyckades med att starta.</translation>
+            <translation>Guiden ”%1” för att skriva avbilden kunde inte startas.</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Flash wizard executable "%1" not found.</source>
-            <translation>Flash guide körbar "%1" hittades inte.</translation>
+            <translation>Den körbara filen för Flash-guiden ”%1” hittades inte.</translation>
         </message>
         <message>
             <location line="+13" />
             <source>Flash Boot to Qt Device</source>
-            <translation>Flash- start till Qt- enhet</translation>
+            <translation>Installera avbild på Boot to Qt-enhet</translation>
         </message>
         <message>
             <location line="+23" />
             <source>Deploy to Boot to Qt target</source>
-            <translation>Distribuera till Boot to Qt-mål</translation>
+            <translation>Distribuera till Boot to Qt-målet</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/boot2qt/qdbrunconfiguration.cpp" line="+53" />
@@ -61880,7 +61880,7 @@ Berörda filer är:
         <message>
             <location line="-12" />
             <source>Executable on device:</source>
-            <translation>Körbar fil på enhet:</translation>
+            <translation>Körbar fil på enheten:</translation>
         </message>
         <message>
             <location line="-4" />
@@ -61890,17 +61890,17 @@ Berörda filer är:
         <message>
             <location line="+5" />
             <source>Remote path not set</source>
-            <translation>Fjärrsökvägen inte inställd</translation>
+            <translation>Ingen fjärrsökväg angiven</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Executable on host:</source>
-            <translation>Körbar fil på värd:</translation>
+            <translation>Körbar fil på värden:</translation>
         </message>
         <message>
             <location line="+37" />
             <source>The remote executable must be set to run on a Boot to Qt device.</source>
-            <translation>Fjärrkörbar måste vara inställd på att köra på en start-till-Qt-enhet.</translation>
+            <translation>Den körbara filen på fjärren måste anges för att kunna köra på en Boot to Qt-enhet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/boot2qt/qdbstopapplicationstep.cpp" line="+45" />
@@ -61910,17 +61910,17 @@ Berörda filer är:
         <message>
             <location line="+14" />
             <source>Stopped the running application.</source>
-            <translation>Stoppade körande programmet.</translation>
+            <translation>Det körande programmet stoppades.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Could not check and possibly stop running application.</source>
-            <translation>Kunde inte kontrollera och eventuellt stoppa programkörning.</translation>
+            <translation>Kunde inte kontrollera och eventuellt stoppa det körande programmet.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Checked that there is no running application.</source>
-            <translation>Kontrollerade att det inte finns något körprogram.</translation>
+            <translation>Kontrollerade att inget program körs.</translation>
         </message>
         <message>
             <location line="+14" />
@@ -61935,7 +61935,7 @@ Berörda filer är:
         <message>
             <location filename="../../../src/plugins/boot2qt/qdbqtversion.cpp" line="+19" />
             <source>Qt version is used for Boot2Qt development</source>
-            <translation>Qt- versionen används för Boot2Qt- utveckling</translation>
+            <translation>Qt-versionen används för Boot2Qt-utveckling</translation>
         </message>
     </context>
     <context>
