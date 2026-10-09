@@ -3304,7 +3304,7 @@ Detta går inte att ångra.</translation>
     </message>
     <message>
         <source>Sets an interaction method that connects to the &lt;b&gt;Target&lt;/b&gt; component.</source>
-        <translation>Anger en interaktionsmetod som ansluter till &lt;b&gt;mål&lt;/b&gt;komponenten.</translation>
+        <translation>Anger en interaktionsmetod som ansluter till &lt;b&gt;Target&lt;/b&gt;-komponenten.</translation>
     </message>
     <message>
         <source>Action</source>
@@ -3312,7 +3312,7 @@ Detta går inte att ångra.</translation>
     </message>
     <message>
         <source>Sets an action that is associated with the selected &lt;b&gt;Target&lt;/b&gt; component&apos;s &lt;b&gt;Signal&lt;/b&gt;.</source>
-        <translation>Anger en åtgärd som är kopplad till den valda &lt;b&gt;mål&lt;/b&gt;komponentens &lt;b&gt;signal&lt;/b&gt;.</translation>
+        <translation>Anger en åtgärd som är kopplad till den valda &lt;b&gt;Target&lt;/b&gt;-komponentens &lt;b&gt;signal&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Sets the component that is affected by the action of the &lt;b&gt;Target&lt;/b&gt; component&apos;s &lt;b&gt;Signal&lt;/b&gt;.</source>
@@ -3352,11 +3352,11 @@ Detta går inte att ångra.</translation>
     </message>
     <message>
         <source>Sets a logical condition for the selected &lt;b&gt;Signal&lt;/b&gt;. It works with the properties of the &lt;b&gt;Target&lt;/b&gt; component.</source>
-        <translation>Anger ett logiskt villkor för den valda &lt;b&gt;signalen&lt;/b&gt;. Villkoret fungerar med egenskaperna hos &lt;b&gt;mål&lt;/b&gt;komponenten.</translation>
+        <translation>Anger ett logiskt villkor för den valda &lt;b&gt;Signal&lt;/b&gt;. Villkoret fungerar med egenskaperna hos &lt;b&gt;Target&lt;/b&gt;-komponenten.</translation>
     </message>
     <message>
         <source>Removes the logical condition for the &lt;b&gt;Target&lt;/b&gt; component.</source>
-        <translation>Tar bort det logiska villkoret för &lt;b&gt;mål&lt;/b&gt;komponenten.</translation>
+        <translation>Tar bort det logiska villkoret för &lt;b&gt;Target&lt;/b&gt;-komponenten.</translation>
     </message>
 </context>
 <context>
@@ -4644,7 +4644,7 @@ som definieras i &lt;b&gt;Step size&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation>Centrera</translation>
+        <translation>Centrum</translation>
     </message>
     <message>
         <source>Center of the distortion.</source>
@@ -4675,7 +4675,7 @@ som definieras i &lt;b&gt;Step size&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation>Centrera</translation>
+        <translation>Centrum</translation>
     </message>
     <message>
         <source>Center of the distortion.</source>
@@ -8537,7 +8537,7 @@ ska återges i texturen.</translation>
     </message>
     <message>
         <source>Fill layout</source>
-        <translation>Fyll layout</translation>
+        <translation>Fyll layouten</translation>
     </message>
     <message>
         <source>Expands the component as much as possible within the given constraints.</source>
@@ -8563,7 +8563,7 @@ ska återges i texturen.</translation>
         <source>W</source>
         <comment>width</comment>
         <extracomment>The width of the object</extracomment>
-        <translation>W</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>H</source>
