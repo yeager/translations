@@ -22502,7 +22502,7 @@ Annars måste du ange sökvägen till %2-filen från Copilots neovim-insticksmod
             <location line="+17" />
             <location line="+17" />
             <source>File Generation Failure</source>
-            <translation>Misslyckades att generera fil</translation>
+            <translation>Det gick inte att generera filen</translation>
         </message>
         <message>
             <location line="-63" />
@@ -22512,7 +22512,7 @@ Annars måste du ange sökvägen till %2-filen från Copilots neovim-insticksmod
         <message>
             <location filename="../../../src/plugins/coreplugin/basefilewizardfactory.cpp" line="+163" />
             <source>Failed to open an editor for "%1".</source>
-            <translation>Misslyckades med att öppna en redigerare för "%1".</translation>
+            <translation>Det gick inte att öppna en redigerare för ”%1”.</translation>
         </message>
         <message>
             <location line="+26" />
@@ -22541,7 +22541,7 @@ Annars måste du ange sökvägen till %2-filen från Copilots neovim-insticksmod
             <location line="+1739" />
             <location line="+532" />
             <source>Revert to Saved</source>
-            <translation>Återgå till sparad</translation>
+            <translation>Återställ till sparad version</translation>
         </message>
         <message>
             <location line="-2227" />
@@ -22591,7 +22591,7 @@ Annars måste du ange sökvägen till %2-filen från Copilots neovim-insticksmod
         <message>
             <location line="-167" />
             <source>Revert File to Saved</source>
-            <translation>Återskapa filen till sparad</translation>
+            <translation>Återställ filen till sparad version</translation>
         </message>
         <message>
             <location line="-10" />
@@ -22648,7 +22648,7 @@ Annars måste du ange sökvägen till %2-filen från Copilots neovim-insticksmod
         <message>
             <location line="-39" />
             <source>Ctrl+Meta+Left</source>
-            <translation>Ctrl + Meta + Vänster</translation>
+            <translation>Ctrl+Meta+Vänster</translation>
         </message>
         <message>
             <location line="+6" />
@@ -22658,7 +22658,7 @@ Annars måste du ange sökvägen till %2-filen från Copilots neovim-insticksmod
         <message>
             <location line="+5" />
             <source>Ctrl+Meta+Right</source>
-            <translation>Ctrl + Meta + Höger</translation>
+            <translation>Ctrl+Meta+Höger</translation>
         </message>
         <message>
             <location line="+6" />
@@ -22691,7 +22691,7 @@ Annars måste du ange sökvägen till %2-filen från Copilots neovim-insticksmod
         <message>
             <location line="-105" />
             <source>Close All Except Visible</source>
-            <translation>Stäng alla förutom synliga</translation>
+            <translation>Stäng alla utom synliga</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/dialogs/saveitemsdialog.cpp" line="+113" />
@@ -22724,7 +22724,7 @@ Annars måste du ange sökvägen till %2-filen från Copilots neovim-insticksmod
             <location line="-826" />
             <location filename="../../../src/plugins/coreplugin/icore.cpp" line="+10" />
             <source>Save &amp;As...</source>
-            <translation>Spara so&amp;m…</translation>
+            <translation>Spara so&amp;m …</translation>
         </message>
         <message>
             <location line="+1027" />
@@ -22744,7 +22744,7 @@ Annars måste du ange sökvägen till %2-filen från Copilots neovim-insticksmod
         <message>
             <location line="+8" />
             <source>Reopen Last Closed Document</source>
-            <translation>Återöppna senaste stängda dokument</translation>
+            <translation>Öppna senast stängda dokument igen</translation>
         </message>
         <message>
             <location line="+15" />
