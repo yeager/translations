@@ -47735,22 +47735,22 @@ följande webbadress:</translation>
         <message>
             <location filename="../../../src/plugins/mcpserver/mcpcommands.cpp" line="+1197" />
             <source>No action found with ID "%1".</source>
-            <translation>Ingen åtgärd hittades med ID "%1".</translation>
+            <translation>Ingen åtgärd med id ”%1” hittades.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Command "%1" has no associated action.</source>
-            <translation>Kommandot "%1" har ingen tillhörande åtgärd.</translation>
+            <translation>Kommandot ”%1” har ingen kopplad åtgärd.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Action "%1" is disabled.</source>
-            <translation>Åtgärd "%1" är inaktiverad.</translation>
+            <translation>Åtgärden ”%1” är inaktiverad.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/mcpserver/mcpserverinspector.cpp" line="+77" />
             <source>Expand All</source>
-            <translation>Expandera alla</translation>
+            <translation>Fäll ut alla</translation>
         </message>
         <message>
             <location line="+61" />
@@ -47775,7 +47775,7 @@ följande webbadress:</translation>
         <message>
             <location line="+65" />
             <source>MCP Server Inspector</source>
-            <translation>MCP- serverinspektör</translation>
+            <translation>MCP-serverinspektör</translation>
         </message>
         <message>
             <location line="+6" />
@@ -47790,7 +47790,7 @@ följande webbadress:</translation>
         <message>
             <location line="+10" />
             <source>Session:</source>
-            <translation>Sessionen:</translation>
+            <translation>Session:</translation>
         </message>
         <message>
             <location line="+73" />
@@ -47805,7 +47805,7 @@ följande webbadress:</translation>
         <message>
             <location filename="../../../src/plugins/mcpserver/mcpserverplugin.cpp" line="+61" />
             <source>Localhost (127.0.0.1)</source>
-            <translation>Lokalt värdskap (127.0.0.1)</translation>
+            <translation>Lokal värd (127.0.0.1)</translation>
         </message>
         <message>
             <location line="+1" />
@@ -47820,17 +47820,17 @@ följande webbadress:</translation>
         <message>
             <location line="+13" />
             <source>Invalid IP address.</source>
-            <translation>Ogiltig IP- adress.</translation>
+            <translation>Ogiltig IP-adress.</translation>
         </message>
         <message>
             <location line="+79" />
             <source>Inspect MCP Server...</source>
-            <translation>Inspektera MCP- server…</translation>
+            <translation>Inspektera MCP-server…</translation>
         </message>
         <message>
             <location line="+41" />
             <source>Failed to start MCP server on "%1:%2".</source>
-            <translation>Misslyckades starta MCP- servern på "%1:%2".</translation>
+            <translation>Det gick inte att starta MCP-servern på ”%1:%2”.</translation>
         </message>
         <message>
             <location line="+8" />
@@ -47840,12 +47840,12 @@ följande webbadress:</translation>
         <message>
             <location line="+59" />
             <source>Enable MCP Server</source>
-            <translation>Aktivera MCP- server</translation>
+            <translation>Aktivera MCP-server</translation>
         </message>
         <message>
             <location line="+6" />
             <source>The address the MCP Server should listen on for incoming connections.</source>
-            <translation>Adressen MCP Server bör lyssna på för inkommande anslutningar.</translation>
+            <translation>Adressen som MCP-servern ska lyssna på för inkommande anslutningar.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -47860,32 +47860,32 @@ följande webbadress:</translation>
         <message>
             <location line="+3" />
             <source>The port for the MCP Server to listen on. Leave on 0 to auto-select a free port.</source>
-            <translation>Porten för MCP-servern att lyssna på. Lämna på 0 för att automatiskt välja en fri port.</translation>
+            <translation>Porten som MCP-servern ska lyssna på. Lämna den på 0 för att automatiskt välja en ledig port.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Enable Cross Origin access:</source>
-            <translation>Aktivera åtkomst till korsorigin:</translation>
+            <translation>Aktivera åtkomst mellan olika ursprung:</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Enable Cross-Origin Resource Sharing (CORS) for the MCP Server. This is necessary if you want to connect to the server from a web application.</source>
-            <translation>Aktivera resursdelning mellan Ursprung (CORS) för MCP- servern. Det är nödvändigt om du vill ansluta till servern från ett webbprogram.</translation>
+            <translation>Aktivera resursdelning mellan olika ursprung (CORS) för MCP-servern. Det krävs om du vill ansluta till servern från ett webbprogram.</translation>
         </message>
         <message>
             <location line="+20" />
             <source>Address copied to clipboard.</source>
-            <translation>Adress kopierad till klippbordet.</translation>
+            <translation>Adressen kopierades till urklipp.</translation>
         </message>
         <message>
             <location line="+16" />
             <source>The MCP Server is running, listening on: %1.</source>
-            <translation>MCP-servern kör och lyssnar på: %1.</translation>
+            <translation>MCP-servern körs och lyssnar på: %1.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>The MCP Server is not running.</source>
-            <translation>MCP- servern kör inte.</translation>
+            <translation>MCP-servern körs inte.</translation>
         </message>
         <message>
             <location line="+10" />
