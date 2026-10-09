@@ -75760,13 +75760,13 @@ Påverkar indraget för fortsättningsrader.
             <location line="-26" />
             <source>QuickTest Test Case</source>
             <comment>group:'QML' trigger:'TestCase'</comment>
-            <translation>Snabbtesttest</translation>
+            <translation>QuickTest-testfall</translation>
         </message>
         <message>
             <location line="+1" />
             <source>GTest Function</source>
             <comment>group:'C++' trigger:'TEST'</comment>
-            <translation>GTest- funktion</translation>
+            <translation>GTest-funktion</translation>
         </message>
         <message>
             <location line="+1" />
@@ -75778,7 +75778,7 @@ Påverkar indraget för fortsättningsrader.
             <location line="+1" />
             <source>GTest Parameterized</source>
             <comment>group:'C++' trigger:'TEST_P'</comment>
-            <translation>GTest-parameteriserad</translation>
+            <translation>Parametriserat GTest</translation>
         </message>
         <message>
             <location line="+1" />
@@ -75796,13 +75796,13 @@ Påverkar indraget för fortsättningsrader.
             <location line="+1" />
             <source>Catch Test Case</source>
             <comment>group:'C++' trigger:'TEST_CASE'</comment>
-            <translation>Fångsttest</translation>
+            <translation>Catch-testfall</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Catch Scenario</source>
             <comment>group:'C++' trigger:'SCENARIO'</comment>
-            <translation>Fångstscenario</translation>
+            <translation>Catch-scenario</translation>
         </message>
         <message>
             <location line="+20" />
@@ -75826,7 +75826,7 @@ Påverkar indraget för fortsättningsrader.
             <location line="-6" />
             <source>(type name READ name WRITE setName NOTIFY nameChanged FINAL)</source>
             <comment>group:'C++' trigger:'Q_PROPERTY'</comment>
-            <translation>(typnamn LÄS namn SKRIFTSATSSETNÄMNE NOTIFFY namnChanged SLUTLIG)</translation>
+            <translation>(type name READ name WRITE setName NOTIFY nameChanged FINAL)</translation>
         </message>
         <message>
             <location line="-13" />
@@ -75879,7 +75879,7 @@ Påverkar indraget för fortsättningsrader.
         <message>
             <location line="+16" />
             <source>Cannot call %1 or some other error occurred. Timeout reached while formatting file %2.</source>
-            <translation>Kan inte ringa %1 eller något annat fel. Tidsgräns nåddes när filen %2 formaterades.</translation>
+            <translation>Kan inte anropa %1 eller ett annat fel inträffade. Tidsgränsen nåddes när filen %2 formaterades.</translation>
         </message>
         <message>
             <location line="-26" />
@@ -75909,51 +75909,51 @@ Påverkar indraget för fortsättningsrader.
         <message>
             <location filename="../../../src/plugins/texteditor/highlighterhelper.cpp" line="+214" />
             <source>Highlighter updates: done</source>
-            <translation>Uppdateringar av highlighter: gjort</translation>
+            <translation>Syntaxmarkeringsuppdateringar: klara</translation>
         </message>
         <message>
             <location line="+10" />
             <source>Highlighter updates:</source>
-            <translation>Uppdateringar av highlighter:</translation>
+            <translation>Syntaxmarkeringsuppdateringar:</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Highlighter updates: starting</source>
-            <translation>Uppdatering av färgläggning: start</translation>
+            <translation>Syntaxmarkeringsuppdateringar: startar</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/snippets/snippet.cpp" line="+225" />
             <source>Expected delimiter after mangler ID.</source>
-            <translation>Förväntad avgränsning efter mangler-ID.</translation>
+            <translation>Förväntade avgränsare efter mangler-ID.</translation>
         </message>
         <message>
             <location line="+15" />
             <source>Expected mangler ID "l" (lowercase), "u" (uppercase), or "c" (titlecase) after colon.</source>
-            <translation>Förväntade mangler ID "l" (låga), "u" (övre) eller "c" (titlecase) efter kolon.</translation>
+            <translation>Förväntade mangler-ID:t ”l” (gemener), ”u” (versaler) eller ”c” (inledande versal) efter kolon.</translation>
         </message>
         <message>
             <location line="+23" />
             <source>Missing closing variable delimiter for:</source>
-            <translation>Saknar avgränsning av stängningsvariabel för:</translation>
+            <translation>Saknar avslutande variabelavgränsare för:</translation>
         </message>
         <message>
             <source>Diff Against Current File</source>
-            <translation>Diff mot aktuell fil</translation>
+            <translation>Jämför mot aktuell fil</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/textdocument.cpp" line="+797" />
             <source>Opening File</source>
-            <translation>Öppnar filen</translation>
+            <translation>Öppnar fil</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/texteditor/textmark.cpp" line="+306" />
             <source>Show inline annotations for %1</source>
-            <translation>Visa inline- anteckningar för %1</translation>
+            <translation>Visa inbäddade anteckningar för %1</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Temporarily hide inline annotations for %1</source>
-            <translation>Dölj tillfälligt inline-anteckningar för %1</translation>
+            <translation>Dölj inbäddade anteckningar för %1 tillfälligt</translation>
         </message>
         <message>
             <location line="+15" />
@@ -75978,12 +75978,12 @@ Påverkar indraget för fortsättningsrader.
         <message>
             <location line="+9" />
             <source>Emphasis</source>
-            <translation>Förtydliga</translation>
+            <translation>Betoning</translation>
         </message>
         <message>
             <location line="+20" />
             <source>Inline Code</source>
-            <translation>Kod på rad</translation>
+            <translation>Inbäddad kod</translation>
         </message>
         <message>
             <location line="+10" />
@@ -76041,7 +76041,7 @@ Påverkar indraget för fortsättningsrader.
         <message>
             <location filename="../../../src/plugins/texteditor/plaintexteditorfactory.cpp" line="+39" />
             <source>Plain Text Editor</source>
-            <translation>Vanlig textredigerare</translation>
+            <translation>Textredigerare för oformaterad text</translation>
         </message>
     </context>
     <context>
