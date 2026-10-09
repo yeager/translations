@@ -59432,7 +59432,7 @@ till projektet "%2".</translation>
         <message>
             <location line="+5" />
             <source>Failed to Polish Files</source>
-            <translation>Misslyckades med polska filer</translation>
+            <translation>Kunde inte finjustera filer</translation>
         </message>
         <message>
             <location line="+5" />
@@ -59479,17 +59479,17 @@ till projektet "%2".</translation>
         <message>
             <location filename="../../../src/plugins/projectexplorer/jsonwizard/jsonwizardfactory.cpp" line="+157" />
             <source>Generator is not a object.</source>
-            <translation>Generator är inte ett objekt.</translation>
+            <translation>Generatorn är inte ett objekt.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Generator has no typeId set.</source>
-            <translation>Generator har ingen typeId inställd.</translation>
+            <translation>Generatorn har inget typeId angett.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>TypeId "%1" of generator is unknown. Supported typeIds are: "%2".</source>
-            <translation>TypeId "%1" för generator är okänd. TypeIds som stöds är: "%2".</translation>
+            <translation>typeId "%1" för generatorn är okänt. Typ-ID som stöds: "%2".</translation>
         </message>
         <message>
             <location line="+57" />
@@ -59500,7 +59500,7 @@ till projektet "%2".</translation>
         <message>
             <location line="-227" />
             <source>Checking "%1" for %2.</source>
-            <translation>Kontrollerar "%1" efter %2.</translation>
+            <translation>Kontrollerar om "%1" innehåller %2.</translation>
         </message>
         <message>
             <location line="+24" />
@@ -59533,12 +59533,12 @@ till projektet "%2".</translation>
         <message>
             <location line="+10" />
             <source>Page has no typeId set.</source>
-            <translation>Sidan har ingen typeId inställd.</translation>
+            <translation>Sidan har inget typeId angett.</translation>
         </message>
         <message>
             <location line="+7" />
             <source>TypeId "%1" of page is unknown. Supported typeIds are: "%2".</source>
-            <translation>TypeId "%1" för sidan är okänd. TypeIds som stöds är: "%2".</translation>
+            <translation>typeId "%1" för sidan är okänt. Typ-ID som stöds: "%2".</translation>
         </message>
         <message>
             <location line="+13" />
@@ -59558,7 +59558,7 @@ till projektet "%2".</translation>
         <message>
             <location line="+232" />
             <source>key not found.</source>
-            <translation>nyckeln hittades inte.</translation>
+            <translation>Nyckeln hittades inte.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -59568,17 +59568,17 @@ till projektet "%2".</translation>
         <message>
             <location line="+28" />
             <source>The platform selected for the wizard.</source>
-            <translation>Plattformen vald för denna guide.</translation>
+            <translation>Plattformen som har valts för guiden.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The features available to this wizard.</source>
-            <translation>Funktionerna tillgängliga för denna guide.</translation>
+            <translation>De funktioner som är tillgängliga för guiden.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>The plugins loaded.</source>
-            <translation>Insticksmodulerna inlästa.</translation>
+            <translation>De inlästa tilläggen.</translation>
         </message>
         <message>
             <location line="+32" />
@@ -59593,12 +59593,12 @@ till projektet "%2".</translation>
         <message>
             <location line="+10" />
             <source>No id set.</source>
-            <translation>Inget id inställt.</translation>
+            <translation>Inget ID angett.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>No category is set.</source>
-            <translation>Ingen category är inställd.</translation>
+            <translation>Ingen kategori angiven.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -59613,12 +59613,12 @@ till projektet "%2".</translation>
         <message>
             <location line="+15" />
             <source>No displayName set.</source>
-            <translation>Inget displayName inställt.</translation>
+            <translation>Inget displayName angett.</translation>
         </message>
         <message>
             <location line="+6" />
             <source>No displayCategory set.</source>
-            <translation>Inget displayCategory inställt.</translation>
+            <translation>Inget displayCategory angett.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -59633,7 +59633,7 @@ till projektet "%2".</translation>
         <message>
             <location line="+19" />
             <source>No valid typeId.</source>
-            <translation>Ingen giltig typbeteckning.</translation>
+            <translation>Ingen giltig typeId.</translation>
         </message>
         <message>
             <source>When parsing "pages": %1</source>
@@ -59652,7 +59652,7 @@ till projektet "%2".</translation>
         <message>
             <location line="+53" />
             <source>When processing "%1":&lt;br&gt;%2</source>
-            <translation>Vid processning av "%1":&lt;br&gt;%2</translation>
+            <translation>Vid bearbetning av "%1":&lt;br&gt;%2</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/projectexplorer/jsonwizard/jsonwizardgeneratorfactory.cpp" line="+158" />
