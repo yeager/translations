@@ -78129,16 +78129,16 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+20" />
             <source>Failed writing file.</source>
-            <translation>Misslyckades att skriva fil.</translation>
+            <translation>Det gick inte att skriva filen.</translation>
         </message>
         <message>
             <source>The process failed to start.</source>
-            <translation>Processen misslyckades att starta.</translation>
+            <translation>Processen kunde inte startas.</translation>
         </message>
         <message>
             <source>Failed to install shell script: %1
 %2</source>
-            <translation>Misslyckades med att installera skalskript: %1
+            <translation>Det gick inte att installera skalskriptet: %1
 %2</translation>
         </message>
         <message>
@@ -78147,11 +78147,11 @@ den. Linjer som börjar med "##" behandlas</translation>
         </message>
         <message>
             <source>Command "%1" was not found.</source>
-            <translation>Kommandot "%1" hittades inte.</translation>
+            <translation>Kommandot ”%1” hittades inte.</translation>
         </message>
         <message>
             <source>Failed to install shell script: %1</source>
-            <translation>Misslyckades med att installera skalskript: %1</translation>
+            <translation>Det gick inte att installera skalskriptet: %1</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/passworddialog.cpp" line="+26" />
@@ -78176,13 +78176,13 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location filename="../../../src/libs/utils/lua.cpp" line="+25" />
             <source>No Lua interface set</source>
-            <translation>Inget Lua-gränssnitt inställt</translation>
+            <translation>Inget Lua-gränssnitt har angetts</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/crashreporting.cpp" line="+113" />
             <source>%1 uses %2 for collecting crashes and sending them to Sentry for processing. %2 may capture arbitrary contents from crashed process’ memory, including user sensitive information, URLs, and whatever other content users have trusted %1 with. The collected crash reports are however only used for the sole purpose of fixing bugs.</source>
             <extracomment>%1 = application name, %2 crash backend name (Google Crashpad or Google Breakpad)</extracomment>
-            <translation>%1 använder %2 för att samla in krascher och skicka dem till Sentry för bearbetning. %2 kan fånga godtyckligt innehåll från kraschade process . minne, inklusive användarkänslig information, webbadresser, och vad andra innehållsanvändare har litat %1 med. De insamlade kraschrapporter används dock bara för det enda syftet att fixa fel.</translation>
+            <translation>%1 använder %2 för att samla in krascher och skicka dem till Sentry för bearbetning. %2 kan samla in godtyckligt innehåll från den kraschade processens minne, bland annat känsliga användaruppgifter, URL:er och annat innehåll som användarna har anförtrott %1. De insamlade kraschrapporterna används dock endast för att åtgärda fel.</translation>
         </message>
         <message>
             <location line="+7" />
@@ -78197,7 +78197,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+3" />
             <source>%1 security policy</source>
-            <translation>%1 säkerhetspolicy</translation>
+            <translation>Säkerhetspolicy för %1</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/environment.cpp" line="+817" />
@@ -78209,27 +78209,27 @@ den. Linjer som börjar med "##" behandlas</translation>
             <location line="+50" />
             <source>Failed to get environment variables from device: %1</source>
             <extracomment>%1 = error message</extracomment>
-            <translation>Misslyckades få miljövariabler från enheten: %1</translation>
+            <translation>Det gick inte att hämta miljövariabler från enheten: %1</translation>
         </message>
         <message>
             <location line="+20" />
             <location line="+18" />
             <source>Failed to get environment variables from "%1": %2</source>
             <extracomment>%1 = batch file path, %2 = error message</extracomment>
-            <translation>Misslyckades få miljövariabler från "%1": %2</translation>
+            <translation>Det gick inte att hämta miljövariabler från ”%1”: %2</translation>
         </message>
         <message>
             <location line="+11" />
             <location line="+8" />
             <source>Failed to get environment variables from "%1": Unexpected output</source>
             <extracomment>%1 = batch file path</extracomment>
-            <translation>Misslyckades få miljövariabler från "%1": Oväntad utmatning</translation>
+            <translation>Det gick inte att hämta miljövariabler från ”%1”: oväntad utdata</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/groupedmodel.cpp" line="-386" />
             <source>%1 (Default)</source>
             <extracomment>%1 = some list item's name</extracomment>
-            <translation>%1 (förval)</translation>
+            <translation>%1 (standard)</translation>
         </message>
         <message>
             <location line="+335" />
@@ -78269,7 +78269,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+8" />
             <source>Copy &amp;Link Location</source>
-            <translation>Kopiera &amp;Link- plats</translation>
+            <translation>Kopiera &amp;länkplats</translation>
         </message>
         <message>
             <location line="+8" />
@@ -78284,7 +78284,7 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location line="+1011" />
             <source>Insert Unicode Control Character</source>
-            <translation>Infoga tecken för Unicode- kontroll</translation>
+            <translation>Infoga styrtecken för Unicode</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/portlist.cpp" line="+229" />
@@ -78294,12 +78294,12 @@ den. Linjer som börjar med "##" behandlas</translation>
         <message>
             <location filename="../../../src/libs/utils/processinfo.cpp" line="+41" />
             <source>"%1" does not exist.</source>
-            <translation>"%1" finns inte.</translation>
+            <translation>”%1” finns inte.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>"find" is not an existing executable</source>
-            <translation>"Find" är inte ett befintligt körbart program</translation>
+            <translation>”find” är inte ett befintligt körbart program</translation>
         </message>
         <message>
             <location line="+21" />
@@ -78307,41 +78307,41 @@ den. Linjer som börjar med "##" behandlas</translation>
             <location line="+4" />
             <location line="+64" />
             <source>Failed to run %1: %2</source>
-            <translation>Misslyckades köra %1: %2</translation>
+            <translation>Det gick inte att köra %1: %2</translation>
         </message>
         <message>
             <location line="-41" />
             <source>"ps" is not an existing executable.</source>
-            <translation>"ps" är inte ett befintligt körbart program.</translation>
+            <translation>”ps” är inte ett befintligt körbart program.</translation>
         </message>
         <message>
             <location line="+34" />
             <source>"pidin" is not an existing executable.</source>
-            <translation>"pidin" är inte ett befintligt körbart verk.</translation>
+            <translation>”pidin” är inte ett befintligt körbart program.</translation>
         </message>
         <message>
             <location line="+44" />
             <source>Failed to run ps: %1</source>
-            <translation>Misslyckades köra ps: %1</translation>
+            <translation>Det gick inte att köra ps: %1</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Failed to run pidin: %1
 %2</source>
-            <translation>Misslyckades köra
-pidin: %1 %2</translation>
+            <translation>Det gick inte att köra pidin: %1
+%2</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Failed to check /proc: %1
 %2</source>
-            <translation>Misslyckades
-kontrollera /proc: %1 %2</translation>
+            <translation>Det gick inte att kontrollera /proc: %1
+%2</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Failed to create snapshot: %1</source>
-            <translation>Misslyckades skapa ögonblicksbild: %1</translation>
+            <translation>Det gick inte att skapa ögonblicksbilden: %1</translation>
         </message>
         <message>
             <location filename="../../../src/libs/utils/progressdialog.cpp" line="+14" />
@@ -78356,7 +78356,7 @@ kontrollera /proc: %1 %2</translation>
         <message>
             <location line="+2" />
             <source>Not implemented error: %1.</source>
-            <translation>Ej implementerat fel: %1.</translation>
+            <translation>Fel: inte implementerat: %1.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -78371,7 +78371,7 @@ kontrollera /proc: %1 %2</translation>
         <message>
             <location filename="../../../src/libs/utils/terminalcommand.cpp" line="+146" />
             <source>Open Command Prompt Here</source>
-            <translation>Öppna kommandoprompt här</translation>
+            <translation>Öppna kommandotolken här</translation>
         </message>
         <message>
             <location line="+1" />
