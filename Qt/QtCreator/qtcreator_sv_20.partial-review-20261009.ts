@@ -42377,7 +42377,7 @@ Checka in nu?</translation>
         <message>
             <location line="+0" />
             <source>Undo All Changes for "%1"</source>
-            <translation>Ångra alla ändringar för "%1"</translation>
+            <translation>Ångra alla ändringar i ”%1”</translation>
         </message>
         <message>
             <location line="+3" />
@@ -42388,37 +42388,37 @@ Checka in nu?</translation>
             <location line="+10" />
             <source>Diff Project Directory</source>
             <extracomment>Avoid translating "Diff"</extracomment>
-            <translation>Diff projektkatalog</translation>
+            <translation>Jämför projektkatalog</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Diff Directory of Project "%1"</source>
             <extracomment>Avoid translating "Diff"</extracomment>
-            <translation>Diff-katalog för projekt "%1"</translation>
+            <translation>Jämför projektkatalogen för ”%1”</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Diff Staged Project Directory Changes</source>
             <extracomment>Avoid translating "Diff"</extracomment>
-            <translation>Ändringar i diff- etapp av projektkatalogen</translation>
+            <translation>Jämför indexerade ändringar i projektkatalogen</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Diff Staged Directory of Project "%1" Changes</source>
             <extracomment>Avoid translating "Diff"</extracomment>
-            <translation>Diff- stegvis katalog för ändringar av projektet "%1"</translation>
+            <translation>Jämför indexerade katalogändringar i projektet ”%1”</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Log Project Directory</source>
             <extracomment>Avoid translating "Log"</extracomment>
-            <translation>Loggprojektkatalog</translation>
+            <translation>Logg för projektkatalogen</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Log Directory of Project "%1"</source>
             <extracomment>Avoid translating "Log"</extracomment>
-            <translation>Loggkatalog för projektet "%1"</translation>
+            <translation>Logg för projektkatalogen i ”%1”</translation>
         </message>
         <message>
             <location line="+7" />
@@ -42430,7 +42430,7 @@ Checka in nu?</translation>
             <location line="+2" />
             <source>Clean Directory of Project "%1"...</source>
             <extracomment>Avoid translating "Clean"</extracomment>
-            <translation>Ren katalog för projekt "%1"…</translation>
+            <translation>Rensa projektkatalogen i ”%1”...</translation>
         </message>
         <message>
             <location line="+13" />
@@ -42445,23 +42445,23 @@ Checka in nu?</translation>
         <message>
             <location line="-12" />
             <source>&amp;Local Repository</source>
-            <translation>&amp;Lokalt förråd</translation>
+            <translation>&amp;Lokalt Git-arkiv</translation>
         </message>
         <message>
             <location line="+55" />
             <source>Recover Deleted Files</source>
-            <translation>Återskapa borttagna filer</translation>
+            <translation>Återställ raderade filer</translation>
         </message>
         <message>
             <location line="+43" />
             <source>Skip Rebase</source>
             <extracomment>Avoid translating "Rebase"</extracomment>
-            <translation>Hoppa över ombas</translation>
+            <translation>Hoppa över ombaseringen</translation>
         </message>
         <message>
             <location line="+133" />
             <source>Archive...</source>
-            <translation>Arkiv…</translation>
+            <translation>Arkivera...</translation>
         </message>
         <message>
             <location line="+641" />
@@ -42471,7 +42471,7 @@ Checka in nu?</translation>
         <message>
             <location filename="../../../src/plugins/git/gitclient.cpp" line="-3202" />
             <source>Diff</source>
-            <translation>Diff</translation>
+            <translation>Jämför</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/git/gerrit/gerritmodel.cpp" line="+339" />
@@ -42492,7 +42492,7 @@ Checka in nu?</translation>
         <message>
             <location line="+21" />
             <source>Saves the current state of your unstaged files and resets the repository to its staged state.</source>
-            <translation>Sparar det aktuella tillståndet för dina ostadiga filer och återställer arkivet till dess iscensatta tillstånd.</translation>
+            <translation>Sparar det aktuella tillståndet för dina oindexerade filer och återställer arkivet till dess indexerade tillstånd.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -42527,17 +42527,17 @@ Checka in nu?</translation>
         <message>
             <location line="+9" />
             <source>DCommit</source>
-            <translation>DKänd</translation>
+            <translation>DCommit</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Manage Remotes...</source>
-            <translation>Hantera fjärrkontroller…</translation>
+            <translation>Hantera fjärrarkiv...</translation>
         </message>
         <message>
             <location line="+24" />
             <source>Git &amp;Tools</source>
-            <translation>Göt &amp;Tools</translation>
+            <translation>Git-&amp;verktyg</translation>
         </message>
         <message>
             <location line="+3" />
@@ -42548,17 +42548,17 @@ Checka in nu?</translation>
         <message>
             <location line="+3" />
             <source>Gitk Current File</source>
-            <translation>Ge upphov till aktuell fil</translation>
+            <translation>Gitk för aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Gitk of "%1"</source>
-            <translation>Gitk från %1</translation>
+            <translation>Gitk för ”%1”</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Gitk for folder of Current File</source>
-            <translation>Gitk för korg med aktuell fil</translation>
+            <translation>Gitk för mappen med aktuell fil</translation>
         </message>
         <message>
             <location line="+0" />
@@ -42568,13 +42568,13 @@ Checka in nu?</translation>
         <message>
             <location line="+6" />
             <source>Git Gui</source>
-            <translation>Git Gui Ordförande</translation>
+            <translation>Git GUI</translation>
         </message>
         <message>
             <location line="+8" />
             <location filename="../../../src/plugins/git/gitsettings.cpp" line="+5" />
             <source>Repository Browser</source>
-            <translation>Förrådsbläddrare</translation>
+            <translation>Arkivbläddrare</translation>
         </message>
         <message>
             <location line="+4" />
@@ -42585,17 +42585,17 @@ Checka in nu?</translation>
         <message>
             <location line="+7" />
             <source>Git Bash</source>
-            <translation>Knäppkäft</translation>
+            <translation>Git Bash</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Actions on Commits...</source>
-            <translation>Åtgärder på kommittéer…</translation>
+            <translation>Åtgärder för incheckningar...</translation>
         </message>
         <message>
             <location line="+278" />
             <source>Interactive Rebase</source>
-            <translation>Interaktiv rebase</translation>
+            <translation>Interaktiv ombasering</translation>
         </message>
         <message>
             <location line="+177" />
@@ -42605,12 +42605,12 @@ Checka in nu?</translation>
         <message>
             <location line="+3" />
             <source>Git Fixup Commit</source>
-            <translation>Gitfixningskommission</translation>
+            <translation>Git-fixupincheckning</translation>
         </message>
         <message>
             <location line="+132" />
             <source>Repository Clean</source>
-            <translation>Ren förvaring</translation>
+            <translation>Arkivet är rent</translation>
         </message>
         <message>
             <location line="+97" />
