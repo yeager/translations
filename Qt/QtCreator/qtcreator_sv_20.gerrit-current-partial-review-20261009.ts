@@ -10876,7 +10876,7 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the scale multiplier of the particles at the beginning</source>
-        <translation>Ställer in partiklarnas skalmultiplikator vid början</translation>
+        <translation>Ställer in partiklarnas skalmultiplikator i början</translation>
     </message>
     <message>
         <source>Particle End Scale</source>
@@ -10884,7 +10884,7 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the scale multiplier of the particles at the end of particle lifeSpan.</source>
-        <translation>Ställer in partiklarnas skalmultiplikator vid partikelns lifeSpan-slut.</translation>
+        <translation>Ställer in partiklarnas skalmultiplikator när partikelns lifeSpan är slut.</translation>
     </message>
     <message>
         <source>Scale Variation</source>
@@ -10900,7 +10900,7 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the scale variation of the particles in the end.</source>
-        <translation>Ställer in partiklarnas skalvariation vid slutet.</translation>
+        <translation>Ställer in partiklarnas skalvariation i slutet.</translation>
     </message>
     <message>
         <source>Depth Bias</source>
@@ -10920,7 +10920,7 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the rotation of the particles in the beginning. Rotation is defined as degrees in euler angles.</source>
-        <translation>Ställer in partiklarnas rotation vid början. Rotation definieras som grader i Euler-vinklar.</translation>
+        <translation>Ställer in partiklarnas rotation i början. Rotation definieras som grader i Euler-vinklar.</translation>
     </message>
     <message>
         <source>Variation</source>
@@ -10928,11 +10928,11 @@ den totala implicita storleken.</translation>
     </message>
     <message>
         <source>Sets the rotation variation of the particles in the beginning. Rotation variation is defined as degrees in euler angles.</source>
-        <translation>Ställer in partiklarnas rotationsvariation vid början. Rotationsvariation definieras som grader i Euler-vinklar.</translation>
+        <translation>Ställer in partiklarnas rotationsvariation i början. Rotationsvariation definieras som grader i Euler-vinklar.</translation>
     </message>
     <message>
         <source>Sets the rotation velocity of the particles in the beginning. Rotation velocity is defined as degrees per second in euler angles.</source>
-        <translation>Ställer in partiklarnas rotationshastighet vid början. Rotationshastighet definieras som grader per sekund i Euler-vinklar.</translation>
+        <translation>Ställer in partiklarnas rotationshastighet i början. Rotationshastighet definieras som grader per sekund i Euler-vinklar.</translation>
     </message>
     <message>
         <source>Velocity Variation</source>
