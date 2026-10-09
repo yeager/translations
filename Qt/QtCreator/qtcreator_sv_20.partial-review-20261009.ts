@@ -1180,7 +1180,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Sets the text to display.</source>
-            <translation>Ställer in texten att visa.</translation>
+            <translation>Anger texten som ska visas.</translation>
         </message>
         <message>
             <source>Font</source>
@@ -1188,7 +1188,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Sets the font of the text.</source>
-            <translation>Ställer in typsnittet för texten.</translation>
+            <translation>Anger textens teckensnitt.</translation>
         </message>
         <message>
             <source>Style name</source>
@@ -1196,23 +1196,23 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Sets the style of the selected font. This is prioritized over &lt;b&gt;Weight&lt;/b&gt; and &lt;b&gt;Emphasis&lt;/b&gt;.</source>
-            <translation>Ställer in stilen för markerat typsnitt. Detta är prioriterat över &lt;b&gt;Vikt&lt;/b&gt; och &lt;b&gt;Förtydliga&lt;/b&gt;.</translation>
+            <translation>Anger stilen för det valda teckensnittet. Den prioriteras framför &lt;b&gt;Vikt&lt;/b&gt; och &lt;b&gt;Betoning&lt;/b&gt;.</translation>
         </message>
         <message>
             <source>Sets the overall thickness of the font.</source>
-            <translation>Ställer in övergripande tjocklek för typsnittet.</translation>
+            <translation>Anger teckensnittets övergripande tjocklek.</translation>
         </message>
         <message>
             <source>Sets the letter spacing for the text.</source>
-            <translation>Ställer in bokstavsavstånd för texten.</translation>
+            <translation>Anger textens teckenavstånd.</translation>
         </message>
         <message>
             <source>Sets the word spacing for the text.</source>
-            <translation>Ställer in ordavstånd för texten.</translation>
+            <translation>Anger textens ordavstånd.</translation>
         </message>
         <message>
             <source>Sets the line height for the text.</source>
-            <translation>Ställer in radhöjden för texten.</translation>
+            <translation>Anger textens radhöjd.</translation>
         </message>
         <message>
             <source>Size</source>
@@ -1220,7 +1220,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Sets the font size in pixels or points.</source>
-            <translation>Ställer in typsnittsstorleken i pixlar eller punkter.</translation>
+            <translation>Anger teckensnittets storlek i pixlar eller punkter.</translation>
         </message>
         <message>
             <source>Text color</source>
@@ -1228,7 +1228,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Sets the text color.</source>
-            <translation>Ställer in textfärgen.</translation>
+            <translation>Anger textfärgen.</translation>
         </message>
         <message>
             <source>Weight</source>
@@ -1236,31 +1236,31 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Emphasis</source>
-            <translation>Förtydliga</translation>
+            <translation>Betoning</translation>
         </message>
         <message>
             <source>Sets the text to bold, italic, underlined, or strikethrough.</source>
-            <translation>Ställer in texten till fet, kursiv, understruken eller genomstruken.</translation>
+            <translation>Anger fetstil, kursiv stil, understrykning eller genomstrykning för texten.</translation>
         </message>
         <message>
             <source>Alignment H</source>
-            <translation>Justering H</translation>
+            <translation>Horisontell justering</translation>
         </message>
         <message>
             <source>Sets the horizontal alignment position.</source>
-            <translation>Ställer in horisontell justeringsposition.</translation>
+            <translation>Anger den horisontella justeringen.</translation>
         </message>
         <message>
             <source>Alignment V</source>
-            <translation>Justering V</translation>
+            <translation>Vertikal justering</translation>
         </message>
         <message>
             <source>Sets the vertical alignment position.</source>
-            <translation>Ställer in vertikal justeringsposition.</translation>
+            <translation>Anger den vertikala justeringen.</translation>
         </message>
         <message>
             <source>Letter spacing</source>
-            <translation>Bokstavsavstånd</translation>
+            <translation>Teckenavstånd</translation>
         </message>
         <message>
             <source>Word spacing</source>
