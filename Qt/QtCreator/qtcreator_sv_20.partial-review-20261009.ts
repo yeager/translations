@@ -61098,7 +61098,7 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+14" />
             <source>No Python set up.</source>
-            <translation>Ingen Python-anläggning.</translation>
+            <translation>Ingen Python-konfiguration.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -61113,7 +61113,7 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+10" />
             <source>Python "%1" does not contain a usable pip. pip is needed to install Python packages from the Python Package Index, like PySide and the Python language server. To use any of that functionality ensure that pip is installed for that Python.</source>
-            <translation>Python "%1" innehåller inte en användbar pip. pip behövs för att installera Python- paket från Python- paketindexet, som PySide och Python- språkservern. För att använda någon av dessa funktioner, se till att pip installeras för den Python.</translation>
+            <translation>Python "%1" innehåller inte en användbar pip. pip behövs för att installera Python-paket från Python Package Index, till exempel PySide och Python-språkservern. För att använda dessa funktioner måste pip vara installerat för den här Python-installationen.</translation>
         </message>
         <message>
             <location line="+10" />
@@ -61148,7 +61148,7 @@ Välj en annan sökväg.</translation>
         <message>
             <location line="+12" />
             <source>Missing node error: "%1" table must contain a "%2" node.</source>
-            <translation>Fel vid fel på nod: Tabellen "%1" måste innehålla en "%2"-nod.</translation>
+            <translation>Fel: nod saknas: Tabellen "%1" måste innehålla en "%2"-nod.</translation>
         </message>
         <message>
             <location line="+10" />
