@@ -83095,15 +83095,15 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Sets the rendering type for this component.</source>
-            <translation>Ställer in renderingstypen för denna komponent.</translation>
+            <translation>Anger renderingstypen för den här komponenten.</translation>
         </message>
         <message>
             <source>Sets the quality of the render. This only has an effect when &lt;b&gt;Render type&lt;/b&gt; is set to QtRendering.</source>
-            <translation>Ställer in kvaliteten för renderingen. Detta har endast effekt när &lt;b&gt;Renderingstyp&lt;/b&gt; är inställd till QtRendering.</translation>
+            <translation>Anger renderingens kvalitet. Detta har bara effekt när &lt;b&gt;Renderingstyp&lt;/b&gt; är inställd på QtRendering.</translation>
         </message>
         <message>
             <source>Sets how to calculate the line height based on the &lt;b&gt;Line height&lt;/b&gt; value.</source>
-            <translation>Ställer in hur beräkningen av radhöjd baserat på &lt;b&gt;Radhöjd&lt;/b&gt;-värdet.</translation>
+            <translation>Anger hur radhöjden ska beräknas utifrån värdet &lt;b&gt;Radhöjd&lt;/b&gt;.</translation>
         </message>
         <message>
             <source>Sets how the font size is determined.</source>
@@ -83111,7 +83111,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Sets the max number of lines that the text component shows.</source>
-            <translation>Ställer in max antal rader som textkomponenten visar.</translation>
+            <translation>Anger det maximala antalet rader som textkomponenten visar.</translation>
         </message>
         <message>
             <source>Render type quality</source>
@@ -83127,11 +83127,11 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Sets the minimum font size to use. This has no effect when &lt;b&gt;Size&lt;/b&gt; mode is set to Fixed.</source>
-            <translation>Ställer in minsta typsnittsstorlek att använda. Detta har inget effekt när &lt;b&gt;Storlek&lt;/b&gt;-läget är inställt till Fast.</translation>
+            <translation>Anger minsta typsnittsstorlek som ska användas. Detta har ingen effekt när läget &lt;b&gt;Storlek&lt;/b&gt; är inställt på Fast.</translation>
         </message>
         <message>
             <source>Max line count</source>
-            <translation>Max radantal</translation>
+            <translation>Maximalt radantal</translation>
         </message>
     </context>
     <context>
@@ -83154,7 +83154,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Determines whether the text field is read only.</source>
-            <translation>Bestämmer huruvida textfältet är skrivskyddat.</translation>
+            <translation>Anger om textfältet är skrivskyddat.</translation>
         </message>
         <message>
             <source>Text shown on the text field.</source>
@@ -83170,7 +83170,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Restricts the valid text in the text field.</source>
-            <translation>Begränsar giltiga texten i textfältet.</translation>
+            <translation>Begränsar vilken text som är giltig i textfältet.</translation>
         </message>
         <message>
             <source>Echo mode</source>
@@ -83209,7 +83209,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Sets the way text is selected with the mouse.</source>
-            <translation>Ställer in sättet som text markeras med musen.</translation>
+            <translation>Anger hur text markeras med musen.</translation>
         </message>
         <message>
             <source>Input mask</source>
@@ -83225,7 +83225,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Sets the visibility mode.</source>
-            <translation>Ställer in synlighetsläget.</translation>
+            <translation>Anger synlighetsläget.</translation>
         </message>
         <message>
             <source>Password character</source>
@@ -83233,7 +83233,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Sets which character to display when passwords are entered.</source>
-            <translation>Ställer in vilket tecken att visa när lösenord matas in.</translation>
+            <translation>Anger vilket tecken som visas när lösenord matas in.</translation>
         </message>
         <message>
             <source>Tab stop distance</source>
@@ -83241,7 +83241,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Default distance between tab stops in device units.</source>
-            <translation>Standardavstånd mellan tabulatorstopp i enheter.</translation>
+            <translation>Standardavståndet mellan tabbstopp i enhetsmått.</translation>
         </message>
         <message>
             <source>Text margin</source>
@@ -83249,7 +83249,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Margin around the text in the Text Edit in pixels.</source>
-            <translation>Marginal runt texten i Textredigering i pixlar.</translation>
+            <translation>Marginal runt texten i Text Edit, i bildpunkter.</translation>
         </message>
         <message>
             <source>Maximum length</source>
@@ -83257,7 +83257,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Sets the maximum length of the text.</source>
-            <translation>Ställer in maximal längd för texten.</translation>
+            <translation>Anger textens maximala längd.</translation>
         </message>
         <message>
             <source>Focus on press</source>
@@ -83265,11 +83265,11 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Toggles if the text is focused on mouse click.</source>
-            <translation>Växlar om texten är fokuserad vid musklick.</translation>
+            <translation>Växlar om textfältet får fokus vid musklick.</translation>
         </message>
         <message>
             <source>Toggles if the text scrolls when it exceeds its boundary.</source>
-            <translation>Växlar om texten rullar när den överstiger sin gräns.</translation>
+            <translation>Växlar om texten rullas när den överskrider sin gräns.</translation>
         </message>
         <message>
             <source>Overwrite mode</source>
@@ -83285,7 +83285,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Toggles if the text should remain selected after moving the focus elsewhere.</source>
-            <translation>Växlar om texten ska kvarstå som markerad efter fokus har flyttats någon annanstans.</translation>
+            <translation>Växlar om texten ska förbli markerad efter att fokus har flyttats till någon annan plats.</translation>
         </message>
         <message>
             <source>Select by mouse</source>
@@ -83328,7 +83328,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Placeholder text</source>
-            <translation>Text för platshållare</translation>
+            <translation>Platshållartext</translation>
         </message>
         <message>
             <source>Placeholder text displayed when the editor is empty.</source>
@@ -83336,7 +83336,7 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Placeholder color</source>
-            <translation>Färg för platshållare</translation>
+            <translation>Platshållarfärg</translation>
         </message>
         <message>
             <source>Placeholder text color.</source>
@@ -83344,11 +83344,11 @@ Detta används för att beräkna den sammanlagda implicita storleken.</translati
         </message>
         <message>
             <source>Hover</source>
-            <translation>Hovra</translation>
+            <translation>Hovring</translation>
         </message>
         <message>
             <source>Whether text area accepts hover events.</source>
-            <translation>Huruvida textytan accepterar hovringshändelser.</translation>
+            <translation>Anger om textytan accepterar hovringshändelser.</translation>
         </message>
     </context>
     <context>
