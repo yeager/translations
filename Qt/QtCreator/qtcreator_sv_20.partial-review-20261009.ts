@@ -41815,42 +41815,42 @@ Checka in nu?</translation>
         <message>
             <location line="-14" />
             <source>Stage File for Commit</source>
-            <translation>Stegfil för att komma åt</translation>
+            <translation>Indexera fil för incheckning</translation>
         </message>
         <message>
             <location line="-308" />
             <source>Git SVN Log Editor</source>
-            <translation>Git SVN loggeditorName</translation>
+            <translation>Redigerare för Git SVN-logg</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Git Log Editor</source>
-            <translation>Redigera Git- logg</translation>
+            <translation>Redigerare för Git-logg</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Git Reflog Editor</source>
-            <translation>Git Reflog- editorName</translation>
+            <translation>Redigerare för Git-referenslogg</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Git Annotation Editor</source>
-            <translation>Redaktör för Git- kommentar</translation>
+            <translation>Redigerare för Git-annoteringar</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Git Commit Editor</source>
-            <translation>Git Commit Editor</translation>
+            <translation>Redigerare för Git-incheckningar</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Git Rebase Editor</source>
-            <translation>Git- rebase- editorName</translation>
+            <translation>Redigerare för Git-ombasering</translation>
         </message>
         <message>
             <location line="+179" />
             <source>Access git config variables.</source>
-            <translation>Åtkomst till git- inställningsvariabler.</translation>
+            <translation>Åtkomst till konfigurationsvariabler för git.</translation>
         </message>
         <message>
             <location line="+35" />
@@ -41861,78 +41861,78 @@ Checka in nu?</translation>
             <location line="+5" />
             <source>Diff Current File</source>
             <extracomment>Avoid translating "Diff"</extracomment>
-            <translation>Diff aktuell fil</translation>
+            <translation>Jämför aktuell fil</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Diff of "%1"</source>
             <extracomment>Avoid translating "Diff"</extracomment>
-            <translation>Diff för "%1"</translation>
+            <translation>Jämför ”%1”</translation>
         </message>
         <message>
             <location line="+7" />
             <source>Diff Staged Current File Changes</source>
             <extracomment>Avoid translating "Diff"</extracomment>
-            <translation>Diff- iscensatt nuvarande filändringar</translation>
+            <translation>Jämför indexerade ändringar i aktuell fil</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Diff Staged Changes in "%1"</source>
             <extracomment>Avoid translating "Diff"</extracomment>
-            <translation>Diff- iscensatta ändringar i "%1"</translation>
+            <translation>Jämför indexerade ändringar i ”%1”</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Log Current File</source>
             <extracomment>Avoid translating "Log"</extracomment>
-            <translation>Log aktuell fil</translation>
+            <translation>Logg för aktuell fil</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Log of "%1"</source>
             <extracomment>Avoid translating "Log"</extracomment>
-            <translation>Log för "%1"</translation>
+            <translation>Logg för ”%1”</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Log Current Selection</source>
             <extracomment>Avoid translating "Log"</extracomment>
-            <translation>Logg nuvarande markering</translation>
+            <translation>Logg för aktuell markering</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Log of "%1" Selection</source>
             <extracomment>Avoid translating "Log"</extracomment>
-            <translation>Loggning av markeringen "%1"</translation>
+            <translation>Logg för markeringen ”%1”</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Blame Current File</source>
             <extracomment>Avoid translating "Blame"</extracomment>
-            <translation>Blame aktuell fil</translation>
+            <translation>Git-blame för aktuell fil</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Blame for "%1"</source>
             <extracomment>Avoid translating "Blame"</extracomment>
-            <translation>Blame för "%1"</translation>
+            <translation>Git-blame för ”%1”</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Instant Blame Current Line</source>
             <extracomment>Avoid translating "Blame"</extracomment>
-            <translation>Direkt klander nuvarande linje</translation>
+            <translation>Omedelbar Git-blame för aktuell rad</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Instant Blame for "%1"</source>
             <extracomment>Avoid translating "Blame"</extracomment>
-            <translation>Direkta skuld för "%1"</translation>
+            <translation>Omedelbar Git-blame för ”%1”</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Stage "%1" for Commit</source>
-            <translation>Steg "%1" för utskott</translation>
+            <translation>Indexera ”%1” för incheckning</translation>
         </message>
         <message>
             <location line="+2" />
@@ -41942,22 +41942,22 @@ Checka in nu?</translation>
         <message>
             <location line="+2" />
             <source>Unstage File from Commit</source>
-            <translation>Avstage fil från utskott</translation>
+            <translation>Ta bort fil från index</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Unstage "%1" from Commit</source>
-            <translation>Öppna scenen "%1" från utskott</translation>
+            <translation>Ta bort ”%1” från index</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Undo Unstaged Changes</source>
-            <translation>Ångra ändringar som inte är i steg</translation>
+            <translation>Ångra oindexerade ändringar</translation>
         </message>
         <message>
             <location line="+0" />
             <source>Undo Unstaged Changes for "%1"</source>
-            <translation>Ångra ändringar i "%1"</translation>
+            <translation>Ångra oindexerade ändringar i ”%1”</translation>
         </message>
         <message>
             <location line="+1300" />
@@ -41967,17 +41967,17 @@ Checka in nu?</translation>
         <message>
             <location line="+2" />
             <source>File "%1" not found. Create an empty or templated .gitignore?</source>
-            <translation>Filen "%1" hittades inte. Skapa en tom eller mallad . gitignorre?</translation>
+            <translation>Filen ”%1” hittades inte. Vill du skapa en tom eller mallbaserad .gitignore?</translation>
         </message>
         <message>
             <location line="+2" />
             <source>&amp;Empty</source>
-            <translation>&amp;Empty Ordförande</translation>
+            <translation>&amp;Tom</translation>
         </message>
         <message>
             <location line="+1" />
             <source>&amp;Template</source>
-            <translation>&amp;Template</translation>
+            <translation>&amp;Mall</translation>
         </message>
         <message>
             <location line="+1" />
@@ -41987,12 +41987,12 @@ Checka in nu?</translation>
         <message>
             <location line="+17" />
             <source>Cannot read "%1", reason %2.</source>
-            <translation>Kan inte läsa "%1", resonera %2.</translation>
+            <translation>Kan inte läsa ”%1”, orsak: %2.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Cannot write "%1", reason %2.</source>
-            <translation>Kan inte skriva "%1", resonera %2.</translation>
+            <translation>Kan inte skriva ”%1”, orsak: %2.</translation>
         </message>
         <message>
             <location line="+19" />
@@ -42004,7 +42004,7 @@ Checka in nu?</translation>
             <location line="+11" />
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="+67" />
             <source>Add "%1"</source>
-            <translation>Lägg till "%1"</translation>
+            <translation>Lägg till ”%1”</translation>
         </message>
         <message>
             <location line="+1" />
@@ -42014,21 +42014,21 @@ Checka in nu?</translation>
             <location line="+15" />
             <location line="+9" />
             <source>Stage "%1"</source>
-            <translation>Steg %1</translation>
+            <translation>Indexera ”%1”</translation>
         </message>
         <message>
             <location line="-33" />
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="-22" />
             <location line="+24" />
             <source>Remove "%1"...</source>
-            <translation>Ta bort "%1"…</translation>
+            <translation>Ta bort ”%1”...</translation>
         </message>
         <message>
             <location line="+1" />
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="-23" />
             <location line="+24" />
             <source>&lt;p&gt;Permanently remove the file "%1"?&lt;/p&gt;&lt;p&gt;Note: The deletion cannot be undone.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Permanent ta bort filen "%1"?&lt;/p&gt;&lt;p&gt;Note: Raderingen kan inte göras oone.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Ta bort filen ”%1” permanent?&lt;/p&gt;&lt;p&gt;Obs! Borttagningen kan inte ångras.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+28" />
@@ -42036,25 +42036,25 @@ Checka in nu?</translation>
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="-29" />
             <location line="+9" />
             <source>Unstage "%1"</source>
-            <translation>Öppna scenen "%1"</translation>
+            <translation>Ta bort ”%1” från index</translation>
         </message>
         <message>
             <location line="-4" />
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="-6" />
             <source>Mark Untracked "%1"</source>
-            <translation>Markera ospårad "%1"</translation>
+            <translation>Markera ”%1” som ospårad</translation>
         </message>
         <message>
             <location line="+6" />
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="+9" />
             <source>Revert All Changes to "%1"...</source>
-            <translation>Återställ alla ändringar i "%1"…</translation>
+            <translation>Återställ alla ändringar i ”%1”...</translation>
         </message>
         <message>
             <location line="+1" />
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="+2" />
             <source>&lt;p&gt;Undo &lt;b&gt;all&lt;/b&gt; changes to the file "%1"?&lt;/p&gt;&lt;p&gt;Note: These changes will be lost.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;Undo &lt;b&gt;all&lt;/b&gt; changes to the file "%1"?&lt;/p&gt;&lt;p&gt;Note: These changes will be lost.&lt;/p&gt;</translation>
+            <translation>&lt;p&gt;Ångra &lt;b&gt;alla&lt;/b&gt; ändringar i filen ”%1”?&lt;/p&gt;&lt;p&gt;Obs! Ändringarna kommer att gå förlorade.&lt;/p&gt;</translation>
         </message>
         <message>
             <location line="+4" />
@@ -42066,19 +42066,19 @@ Checka in nu?</translation>
             <location line="+1" />
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="+1" />
             <source>Diff Incoming Changes for "%1"</source>
-            <translation>Diff Inkommande ändringar för "%1"</translation>
+            <translation>Jämför inkommande ändringar för ”%1”</translation>
         </message>
         <message>
             <location line="+1" />
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="+8" />
             <source>Mark Conflicts Resolved for "%1"</source>
-            <translation>Markkonflikter lösta för "%1"</translation>
+            <translation>Markera konflikter som lösta för ”%1”</translation>
         </message>
         <message>
             <location line="+1" />
             <location filename="../../../src/plugins/git/gitsubmiteditorwidget.cpp" line="+1" />
             <source>Resolve Conflicts in "%1" with Ours...</source>
-            <translation>Lös konflikter i %1 med våra…</translation>
+            <translation>Lös konflikter i ”%1” med vår version...</translation>
         </message>
         <message>
             <location line="+1" />
@@ -42327,17 +42327,17 @@ Checka in nu?</translation>
         <message>
             <source>Diff of "%1"</source>
             <comment>Avoid translating "Diff"</comment>
-            <translation>Diff för "%1"</translation>
+            <translation>Jämför ”%1”</translation>
         </message>
         <message>
             <source>Log Current File</source>
             <comment>Avoid translating "Log"</comment>
-            <translation>Log aktuell fil</translation>
+            <translation>Logg för aktuell fil</translation>
         </message>
         <message>
             <source>Log of "%1"</source>
             <comment>Avoid translating "Log"</comment>
-            <translation>Log för "%1"</translation>
+            <translation>Logg för ”%1”</translation>
         </message>
         <message>
             <location line="+39" />
@@ -42347,12 +42347,12 @@ Checka in nu?</translation>
         <message>
             <source>Blame Current File</source>
             <comment>Avoid translating "Blame"</comment>
-            <translation>Blame aktuell fil</translation>
+            <translation>Git-blame för aktuell fil</translation>
         </message>
         <message>
             <source>Blame for "%1"</source>
             <comment>Avoid translating "Blame"</comment>
-            <translation>Blame för "%1"</translation>
+            <translation>Git-blame för ”%1”</translation>
         </message>
         <message>
             <location line="+24" />
