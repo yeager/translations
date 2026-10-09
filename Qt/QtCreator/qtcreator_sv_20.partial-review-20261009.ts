@@ -17373,7 +17373,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+6" />
             <source>Build the executable used in the active run configuration. Currently: %1</source>
-            <translation>Bygg körbart program som används i inställningen för aktiv körning. För närvarande: %1</translation>
+            <translation>Bygg den körbara fil som används i den aktiva körkonfigurationen. För närvarande: %1</translation>
         </message>
         <message>
             <location line="+4" />
@@ -17400,7 +17400,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
             <location line="+6" />
             <source>Implies the %1 target, but sets the %2 variable to install into the specified directory instead of into the default system directories. This does not affect the target location for deployment configurations.</source>
             <extracomment>%1 = the "install" CMake target, %2 = the DESTDIR environment variable</extracomment>
-            <translation>Implicerar %1- målet, men ställer in variabeln %2 att installera i den angivna katalogen istället för i standardkatalogerna för system. Det påverkar inte målplatsen för installationsinställningar.</translation>
+            <translation>Innebär målet %1, men ställer in variabeln %2 för installation i den angivna katalogen i stället för i systemets standardkataloger. Det påverkar inte målplatsen för distributionskonfigurationer.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -17410,12 +17410,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+16" />
             <source>Enable automatic provisioning updates:</source>
-            <translation>Aktivera automatiska uppdateringar av avsättning:</translation>
+            <translation>Aktivera automatiska uppdateringar av provisionering:</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Tells xcodebuild to create and download a provisioning profile if a valid one does not exist.</source>
-            <translation>Berättar för xcodebuild att skapa och ladda ner en avsättningsprofil om en giltig sådan inte finns.</translation>
+            <translation>Ber xcodebuild att skapa och hämta en provisioneringsprofil om det inte finns någon giltig.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -17425,12 +17425,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+67" />
             <source>You asked to build the current Run Configuration's build target only, but it is not associated with a build target. Update the Make Step in your build settings.</source>
-            <translation>Du bad att bara bygga det aktuella byggmålet för Run Configuration, men det är inte kopplat till ett byggmål. Uppdatera Make Step i dina bygginställningar.</translation>
+            <translation>Du bad om att bara bygga den aktuella körkonfigurationens byggmål, men det är inte kopplat till något byggmål. Uppdatera Make-steget i bygginställningarna.</translation>
         </message>
         <message>
             <location line="+46" />
             <source>Persisting CMake state...</source>
-            <translation>- Jag håller i CMake-tillståndet.</translation>
+            <translation>Sparar CMake-tillstånd…</translation>
         </message>
         <message>
             <location line="+2" />
@@ -17446,7 +17446,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
             <location line="+275" />
             <source>Stage at %2 for %3</source>
             <extracomment>Stage (for installation) at &lt;staging_dir&gt; for &lt;installation_dir&gt;</extracomment>
-            <translation>Steg i %2 för %3</translation>
+            <translation>Mellanlagra i %2 för %3</translation>
         </message>
         <message>
             <location line="+21" />
@@ -17463,7 +17463,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
             <location line="+248" />
             <source>CMake Build</source>
             <comment>Display name for CMakeProjectManager::CMakeBuildStep id.</comment>
-            <translation>CMake Bygga upp</translation>
+            <translation>CMake-bygge</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cmakeprojectmanager/cmakebuildconfiguration.cpp" line="+273" />
@@ -17478,7 +17478,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+6" />
             <source>Kit Configuration</source>
-            <translation>Konfigurera kit</translation>
+            <translation>Kitkonfiguration</translation>
         </message>
         <message>
             <location line="+1" />
@@ -17518,7 +17518,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+2" />
             <source>&amp;File</source>
-            <translation>&amp;Arkiv</translation>
+            <translation>&amp;Fil</translation>
         </message>
         <message>
             <location line="+4" />
@@ -17543,12 +17543,12 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+2" />
             <source>&amp;Unset</source>
-            <translation>Avi&amp;nställ</translation>
+            <translation>Ta &amp;bort inställning</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Unset a value in the CMake configuration.</source>
-            <translation>Avinställ ett värde i CMake-konfigurationen.</translation>
+            <translation>Ta bort ett värde från CMake-konfigurationen.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -17581,7 +17581,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
             <location line="+3" />
             <location filename="../../../src/plugins/cmakeprojectmanager/configmodel.cpp" line="+591" />
             <source>&lt;UNSET&gt;</source>
-            <translation>&lt;AVINSTÄLL&gt;</translation>
+            <translation>&lt;UNSET&gt;</translation>
         </message>
         <message>
             <location line="+60" />
@@ -17592,7 +17592,7 @@ Till exempel lämnar ”Revision: 15” grenen vid revision 15.</translation>
         <message>
             <location line="+7" />
             <source>Enter one CMake &lt;a href="variable"&gt;variable&lt;/a&gt; per line.&lt;br/&gt;To set or change a variable, use -D&amp;lt;variable&amp;gt;:&amp;lt;type&amp;gt;=&amp;lt;value&amp;gt;.&lt;br/&gt;&amp;lt;type&amp;gt; can have one of the following values: FILEPATH, PATH, BOOL, INTERNAL, or STRING.&lt;br/&gt;To unset a variable, use -U&amp;lt;variable&amp;gt;.&lt;br/&gt;</source>
-            <translation>Ange en CMake-&lt;a href="variable"&gt;variabel&lt;/a&gt; per rad.&lt;br/&gt;För att ställa in eller ändra en variabel, använd -D&amp;lt;variabel&amp;gt;:&amp;lt;typ&amp;gt;=&amp;lt;värde&amp;gt;.&lt;br/&gt;&amp;lt;typ&amp;gt; kan ha ett av följande värden: FILEPATH, PATH, BOOL, INTERNAL eller STRING.&lt;br/&gt;För att avinställa en variabel, använd -U&amp;lt;variabel&amp;gt;.&lt;br/&gt;</translation>
+            <translation>Ange en CMake-&lt;a href="variable"&gt;variabel&lt;/a&gt; per rad.&lt;br/&gt;För att ange eller ändra en variabel använder du -D&amp;lt;variable&amp;gt;:&amp;lt;type&amp;gt;=&amp;lt;value&amp;gt;.&lt;br/&gt;&amp;lt;type&amp;gt; kan ha ett av följande värden: FILEPATH, PATH, BOOL, INTERNAL eller STRING.&lt;br/&gt;För att ta bort en variabel använder du -U&amp;lt;variable&amp;gt;.&lt;br/&gt;</translation>
         </message>
         <message>
             <location line="+49" />
