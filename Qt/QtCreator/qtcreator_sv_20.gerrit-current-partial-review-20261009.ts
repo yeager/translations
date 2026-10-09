@@ -8701,7 +8701,7 @@ ska återges i texturen.</translation>
     </message>
     <message>
         <source>Bounces against materials with opacity values below this threshold are ignored when calculating lighting via raytracing.</source>
-        <translation>Studsar mot material med opacitetsvärden under denna tröskel ignoreras när belysning beräknas med raytracing.</translation>
+        <translation>Studsar mot material med opacitetsvärden under denna tröskel ignoreras när belysningen beräknas med strålspårning.</translation>
     </message>
     <message>
         <source>Samples</source>
