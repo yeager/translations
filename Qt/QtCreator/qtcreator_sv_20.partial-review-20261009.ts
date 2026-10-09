@@ -70179,7 +70179,7 @@ Rad: %4, kolumn: %5
         <message>
             <location line="+11" />
             <source>Session resumed.</source>
-            <translation>Sessionen återupptagen.</translation>
+            <translation>Sessionen återupptogs.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -70189,12 +70189,12 @@ Rad: %4, kolumn: %5
         <message>
             <location line="+25" />
             <source>Session finished on %1.</source>
-            <translation>Sessionen färdig på %1.</translation>
+            <translation>Sessionen på %1 avslutades.</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Session paused...</source>
-            <translation>Sessionen pausad…</translation>
+            <translation>Sessionen pausades …</translation>
         </message>
         <message>
             <location line="+16" />
@@ -70204,7 +70204,7 @@ Rad: %4, kolumn: %5
         <message>
             <location line="+85" />
             <source>Serial port error: %1 (%2)</source>
-            <translation>Serieportsfel: %1 (%2)</translation>
+            <translation>Fel på serieporten: %1 (%2)</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/serialterminal/serialoutputpane.cpp" line="+88" />
@@ -70229,7 +70229,7 @@ Rad: %4, kolumn: %5
         <message>
             <location line="+142" />
             <source>Serial Terminal Window</source>
-            <translation>Seriell terminal-fönster</translation>
+            <translation>Fönster för seriell terminal</translation>
         </message>
         <message>
             <location line="+36" />
@@ -70244,7 +70244,7 @@ Rad: %4, kolumn: %5
         <message>
             <location line="+9" />
             <source>Reset Board</source>
-            <translation>Nollställ bräda</translation>
+            <translation>Återställ kort</translation>
         </message>
         <message>
             <location line="+9" />
