@@ -76134,19 +76134,19 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Fade In Duration</source>
-        <translation>Toning in-varaktighet</translation>
+        <translation>Intoningsvaraktighet</translation>
     </message>
     <message>
         <source>Sets the duration in milliseconds for fading in the affector.</source>
-        <translation>Anger varaktigheten i millisekunder för toning in av påverkaren.</translation>
+        <translation>Anger varaktigheten i millisekunder för intoning av påverkaren.</translation>
     </message>
     <message>
         <source>Fade Out Duration</source>
-        <translation>Toning ut-varaktighet</translation>
+        <translation>Uttoningsvaraktighet</translation>
     </message>
     <message>
         <source>Sets the duration in milliseconds for fading out the affector.</source>
-        <translation>Anger varaktigheten i millisekunder för toning ut av påverkaren.</translation>
+        <translation>Anger varaktigheten i millisekunder för uttoning av påverkaren.</translation>
     </message>
     <message>
         <source>Global</source>
@@ -76190,11 +76190,11 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Sets the variation for uniqueAmount between 0.0 and 1.0.</source>
-        <translation>Anger variationen för uniqueAmount mellan 0,0 och 1,0.</translation>
+        <translation>Anger variationen för uniqueAmount mellan 0.0 och 1.0.</translation>
     </message>
     <message>
         <source>Sets the unique pace (frequency) each particle wanders in curves per second.</source>
-        <translation>Anger den unika takt (frekvens) med vilken varje partikel vandrar i kurvor per sekund.</translation>
+        <translation>Anger den unika takten (frekvensen) med vilken varje partikel vandrar i kurvor per sekund.</translation>
     </message>
     <message>
         <source>Pace Variation</source>
@@ -76202,7 +76202,7 @@ Are you sure you want to remove it?</source>
     </message>
     <message>
         <source>Sets the unique pace (frequency) variation for each particle between 0.0 and 1.0.</source>
-        <translation>Anger den unika taktsvariationen (frekvens) för varje partikel mellan 0,0 och 1,0.</translation>
+        <translation>Anger den unika taktvariationen (frekvensen) för varje partikel mellan 0.0 och 1.0.</translation>
     </message>
 </context>
 <context>
