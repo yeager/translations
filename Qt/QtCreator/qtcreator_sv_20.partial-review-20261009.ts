@@ -23299,7 +23299,7 @@ Om systemets markörer för storleksändring av vyer inte visas korrekt kan du a
         <message>
             <location line="+11" />
             <source>Ask for confirmation before exiting</source>
-            <translation>Fråga efter bekräftelse innan avslutning</translation>
+            <translation>Be om bekräftelse innan programmet avslutas</translation>
         </message>
         <message>
             <source>Clear Local Crash Reports</source>
@@ -23313,16 +23313,16 @@ Om systemets markörer för storleksändring av vyer inte visas korrekt kan du a
         <message>
             <location line="+10" />
             <source>Automatically free resources of old documents that are not visible and not modified. They stay visible in the list of open documents.</source>
-            <translation>Automatiskt fria resurser av gamla dokument som inte är synliga och inte ändras. De förblir synliga i listan över öppna dokument.</translation>
+            <translation>Frigör automatiskt resurser för gamla dokument som inte är synliga eller ändrade. De visas fortfarande i listan över öppna dokument.</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Allow crashes to be automatically reported. Collected reports are used for the sole purpose of fixing bugs.</source>
-            <translation>Tillåter att krascher automatiskt rapporteras. Insamlade rapporter används av den enkla anledningen att rätta till problem.</translation>
+            <translation>Tillåt att krascher rapporteras automatiskt. De insamlade rapporterna används enbart för att åtgärda fel.</translation>
         </message>
         <message>
             <source>Command line arguments used for "Run in terminal".</source>
-            <translation>Kommandoradsargument som används för "Kör i terminal".</translation>
+            <translation>Kommandoradsargument som används för ”Kör i terminal”.</translation>
         </message>
         <message>
             <location line="+33" />
@@ -23332,7 +23332,7 @@ Om systemets markörer för storleksändring av vyer inte visas korrekt kan du a
         <message>
             <location line="+1" />
             <source>Reload All Unchanged Editors</source>
-            <translation>Läs om alla oförändrade redigerare</translation>
+            <translation>Läs in alla oförändrade redigerare igen</translation>
         </message>
         <message>
             <location line="+1" />
@@ -23341,12 +23341,12 @@ Om systemets markörer för storleksändring av vyer inte visas korrekt kan du a
         </message>
         <message>
             <source>Maximum number of entries in "Recent Files":</source>
-            <translation>Maximalt antal poster i "Tidigare filer":</translation>
+            <translation>Största antal poster i ”Senaste filer”:</translation>
         </message>
         <message>
             <location line="-74" />
             <source>Command used for reverting diff chunks.</source>
-            <translation>Kommandot används för att återställa diff- bitar.</translation>
+            <translation>Kommando som används för att återställa diff-delar.</translation>
         </message>
         <message>
             <source>KiB</source>
@@ -23367,19 +23367,18 @@ Om systemets markörer för storleksändring av vyer inte visas korrekt kan du a
         <message>
             <location line="+7" />
             <source>Automatically creates temporary copies of modified files. If %1 is restarted after a crash or power failure, it asks whether to recover the auto-saved content.</source>
-            <translation>Skapar automatiskt temporära kopior av ändrade filer. Om %1 startas om efter en krasch eller strömavbrott så kommer den att fråga huruvida automatiskt sparat innehåll ska återskapas.</translation>
+            <translation>Skapar automatiskt tillfälliga kopior av ändrade filer. Om %1 startas om efter en krasch eller ett strömavbrott frågar programmet om det automatiskt sparade innehållet ska återställas.</translation>
         </message>
         <message>
             <location line="+16" />
             <source>Automatically saves all open files affected by a refactoring operation,
 provided they were unmodified before the refactoring.</source>
-            <translation>Sparar automatiskt alla öppna filer som påverkas av en refaktoring
-åtgärd, förutsatt att de inte ändrades innan refaktorn.</translation>
+            <translation>Sparar automatiskt alla öppna filer som påverkas av en refaktoreringsåtgärd, förutsatt att de var oförändrade före åtgärden.</translation>
         </message>
         <message>
             <location line="+20" />
             <source>Crash reports are saved in "%1".</source>
-            <translation>Kraschrapporter sparas i "%1".</translation>
+            <translation>Kraschrapporter sparas i ”%1”.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/coreplugin.cpp" line="+304" />
@@ -23401,7 +23400,7 @@ provided they were unmodified before the refactoring.</source>
         </message>
         <message>
             <source>The file system case sensitivity change will take effect after restart.</source>
-            <translation>Skiftlägeskänslighet för filsystemet kommer att ta effekt efter omstart.</translation>
+            <translation>Ändringen av filsystemets skiftlägeskänslighet träder i kraft efter omstart.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/coreplugin/actionmanager/commandmappings.cpp" line="+47" />
@@ -23440,7 +23439,7 @@ provided they were unmodified before the refactoring.</source>
         <message>
             <location line="+2" />
             <source>Minimum number of open documents that should be kept in memory. Increasing this number will lead to greater resource usage when not manually closing documents.</source>
-            <translation>Minsta antal öppna dokument som ska behållas i minnet. Att öka antalet leder till större resursanvändning när dokument inte stängs manuellt.</translation>
+            <translation>Det minsta antal öppna dokument som ska behållas i minnet. Ett högre antal ökar resursanvändningen om dokumenten inte stängs manuellt.</translation>
         </message>
         <message>
             <location line="-53" />
