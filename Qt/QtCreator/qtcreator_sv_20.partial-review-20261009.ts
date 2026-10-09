@@ -73133,7 +73133,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+2" />
             <source>Move the View a Page Up and Keep the Cursor Position</source>
-            <translation>Flytta vyn en sida upp och behåll markörposition</translation>
+            <translation>Flytta vyn en sida upp och behåll markörens position</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73143,7 +73143,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+2" />
             <source>Move the View a Page Down and Keep the Cursor Position</source>
-            <translation>Flytta vyn en sida ner och behåll markörposition</translation>
+            <translation>Flytta vyn en sida ned och behåll markörens position</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73183,7 +73183,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+9" />
             <source>Auto-&amp;format Selection</source>
-            <translation>Formatera markering a&amp;utomatiskt</translation>
+            <translation>&amp;Formatera markering automatiskt</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73208,7 +73208,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+3" />
             <source>Add Next Occurrence to Selection</source>
-            <translation>Lägg till nästa förekomst till markering</translation>
+            <translation>Lägg till nästa förekomst i markeringen</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73228,7 +73228,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+3" />
             <source>Uppercase Selection</source>
-            <translation>Versal markering</translation>
+            <translation>Gör markeringen till versaler</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73243,7 +73243,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+3" />
             <source>Lowercase Selection</source>
-            <translation>Gemen markering</translation>
+            <translation>Gör markeringen till gemener</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73258,22 +73258,22 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+54" />
             <source>Go to Previous Word (Camel Case)</source>
-            <translation>Gå till föregående ord (kamelnotation)</translation>
+            <translation>Gå till föregående ord (CamelCase)</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Go to Next Word (Camel Case)</source>
-            <translation>Gå till nästa ord (kamelnotation)</translation>
+            <translation>Gå till nästa ord (CamelCase)</translation>
         </message>
         <message>
             <location line="+19" />
             <source>Go to Previous Word (Camel Case) with Selection</source>
-            <translation>Gå till föregående ord (kamelnotation) med markering</translation>
+            <translation>Gå till föregående ord (CamelCase) med markering</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Go to Next Word (Camel Case) with Selection</source>
-            <translation>Gå till nästa ord (kamelnotation) med markering</translation>
+            <translation>Gå till nästa ord (CamelCase) med markering</translation>
         </message>
         <message>
             <location line="-39" />
@@ -73283,7 +73283,7 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+2" />
             <source>Select Word Under Cursor</source>
-            <translation>Markera ord under markör</translation>
+            <translation>Markera ordet under markören</translation>
         </message>
         <message>
             <location line="+4" />
@@ -73313,17 +73313,17 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+1" />
             <source>Unindent</source>
-            <translation>Dra inte in</translation>
+            <translation>Minska indrag</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Follow Symbol Under Cursor</source>
-            <translation>Följ symbol under markör</translation>
+            <translation>Följ symbolen under markören</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Follow Symbol Under Cursor in Next Split</source>
-            <translation>Följ symbol under markör i nästa delning</translation>
+            <translation>Följ symbolen under markören i nästa delning</translation>
         </message>
         <message>
             <location line="+1" />
@@ -73340,12 +73340,12 @@ Ett värde under 100 % kan leda till överlappande och feljusterad grafik.</tran
         <message>
             <location line="+137" />
             <source>Go to Line Start</source>
-            <translation>Gå till radstart</translation>
+            <translation>Gå till radens början</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Go to Line End</source>
-            <translation>Gå till radslut</translation>
+            <translation>Gå till radens slut</translation>
         </message>
         <message>
             <location line="+1" />
