@@ -62456,17 +62456,17 @@ Berörda filer är:
         <message>
             <location line="+13" />
             <source>Cannot parse project "%1": The currently selected kit "%2" does not have a valid Qt.</source>
-            <translation>Kan inte tolka projektet "%1": Det aktuellt valda kitet "%2" har inte en giltig Qt.</translation>
+            <translation>Kan inte tolka projektet ”%1”: Det valda kitet ”%2” har ingen giltig Qt-version.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Cannot parse project "%1": No kit selected.</source>
-            <translation>Kan inte tolka projektet "%1": Inget kit valt.</translation>
+            <translation>Kan inte tolka projektet ”%1”: Inget kit har valts.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/qmakeprojectmanagerplugin.cpp" line="-262" />
             <source>No Qt version set in kit.</source>
-            <translation>Ingen Qt-version inställd i kit.</translation>
+            <translation>Ingen Qt-version har angetts i kitet.</translation>
         </message>
         <message>
             <location line="+3" />
@@ -62476,19 +62476,19 @@ Berörda filer är:
         <message>
             <location line="+4" />
             <source>No C++ compiler set in kit.</source>
-            <translation>Ingen C++-kompilator inställd i kit.</translation>
+            <translation>Ingen C++-kompilator har angetts i kitet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/qmakeprojectmanager/qmakeproject.cpp" line="+66" />
             <source>Project is part of Qt sources that do not match the Qt defined in the kit.</source>
-            <translation>Projektet är en del av Qt-källor som inte matchar Qt-värdet som definieras i satsen.</translation>
+            <translation>Projektet är en del av Qt-källkoden som inte motsvarar den Qt-version som anges i kitet.</translation>
         </message>
         <message>
             <location line="+630" />
             <source>"%1" is used by qmake, but "%2" is configured in the kit.
 Please update your kit (%3) or choose a mkspec for qmake that matches your target environment better.</source>
-            <translation>"%1" används av micake, men "%2" är konfigurerad i satsen. Uppdatera din
-sats (%3) eller välj en mkspect för micake som passar din målmiljö bättre.</translation>
+            <translation>qmake använder ”%1”, men ”%2” är konfigurerad i kitet.
+Uppdatera ditt kit (%3) eller välj en mkspec för qmake som passar målmiljön bättre.</translation>
         </message>
         <message>
             <source>Generate Xcode project (via qmake)</source>
@@ -62505,22 +62505,22 @@ sats (%3) eller välj en mkspect för micake som passar din målmiljö bättre.<
         <message>
             <location line="+96" />
             <source>Xcode Project (via qmake)</source>
-            <translation>Xcode- projekt (via micake)</translation>
+            <translation>Xcode-projekt (via qmake)</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Visual Studio Project (via qmake)</source>
-            <translation>Visuellt Studio-projekt (via micake)</translation>
+            <translation>Visual Studio-projekt (via qmake)</translation>
         </message>
         <message>
             <location line="+11" />
             <source>qmake generator failed.</source>
-            <translation>Mekanisk generator misslyckades.</translation>
+            <translation>qmake-generatorn misslyckades.</translation>
         </message>
         <message>
             <location line="+5" />
             <source>No Qt in kit</source>
-            <translation>Inget Qt i kit</translation>
+            <translation>Ingen Qt-version i kitet</translation>
         </message>
         <message>
             <location line="+5" />
@@ -62576,7 +62576,7 @@ sats (%3) eller välj en mkspect för micake som passar din målmiljö bättre.<
             <location line="-15" />
             <location filename="../../../src/plugins/qmakeprojectmanager/librarydetailscontroller.cpp" line="+197" />
             <source>Linkage:</source>
-            <translation>Länk:</translation>
+            <translation>Länkning:</translation>
         </message>
         <message>
             <location line="+18" />
@@ -62627,17 +62627,17 @@ sats (%3) eller välj en mkspect för micake som passar din målmiljö bättre.<
         <message>
             <location line="+27" />
             <source>Library inside "debug" or "release" subfolder</source>
-            <translation>Bibliotek inuti underkatalogen "debug" eller "release"</translation>
+            <translation>Bibliotek i underkatalogen ”debug” eller ”release”</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Add "d" suffix for debug version</source>
-            <translation>Lägg till "d" suffix för felsökningsversion</translation>
+            <translation>Lägg till suffixet ”d” för felsökningsversionen</translation>
         </message>
         <message>
             <location line="+1" />
             <source>Remove "d" suffix for release version</source>
-            <translation>Ta bort "d" suffix för version av utgåvan</translation>
+            <translation>Ta bort suffixet ”d” för produktionsversionen</translation>
         </message>
         <message>
             <location line="+14" />
@@ -62658,7 +62658,7 @@ sats (%3) eller välj en mkspect för micake som passar din målmiljö bättre.<
             <location line="+190" />
             <location line="+20" />
             <source>Summary</source>
-            <translation>Sammandrag</translation>
+            <translation>Sammanfattning</translation>
         </message>
         <message>
             <location line="-179" />
@@ -62679,8 +62679,8 @@ sats (%3) eller välj en mkspect för micake som passar din målmiljö bättre.<
             <location line="+3" />
             <source>Links to a system library.
 Neither the path to the library nor the path to its includes is added to the .pro file.</source>
-            <translation>Länkar till ett systembibliotek. Varken sökvägen till biblioteket
-eller sökvägen till dess inklusive läggs till i .pro-filen.</translation>
+            <translation>Länkar till ett systembibliotek.
+Varken sökvägen till biblioteket eller sökvägen till dess inkluderingsfiler läggs till i .pro-filen.</translation>
         </message>
         <message>
             <location line="+9" />
@@ -62701,8 +62701,8 @@ eller sökvägen till dess inklusive läggs till i .pro-filen.</translation>
             <location line="+3" />
             <source>Links to a library that is not located in your build tree.
 Adds the library and include paths to the .pro file.</source>
-            <translation>Länkar till ett bibliotek som inte finns i byggträdet. Lägger
-till biblioteket och inkluderar sökvägar till .pro-filen.</translation>
+            <translation>Länkar till ett bibliotek som inte finns i byggträdet.
+Lägger till sökvägarna till biblioteket och inkluderingsfilerna i .pro-filen.</translation>
         </message>
         <message>
             <location line="-15" />
