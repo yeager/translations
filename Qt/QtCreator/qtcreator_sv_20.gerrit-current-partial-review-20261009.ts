@@ -59261,7 +59261,7 @@ Qt Design Studio är inte konfigurerat. Konfigurera det i Inställningar &gt; Qt
     </message>
     <message>
         <source>Clean Environment</source>
-        <translation>Rensa miljö</translation>
+        <translation>Rensa miljön</translation>
     </message>
     <message>
         <source>QML Utility</source>
@@ -59306,11 +59306,11 @@ Qt Design Studio är inte konfigurerat. Konfigurera det i Inställningar &gt; Qt
     </message>
     <message>
         <source>Qt Version - %1</source>
-        <translation>Qt-version – %1</translation>
+        <translation>Qt-version - %1</translation>
     </message>
     <message>
         <source>Qt Design Studio Version - %1</source>
-        <translation>Qt Design Studio-version – %1</translation>
+        <translation>Qt Design Studio-version - %1</translation>
     </message>
     <message>
         <source>No QML project file found - Would you like to create one?</source>
@@ -59410,14 +59410,14 @@ Are you sure?</source>
     </message>
     <message>
         <source>The project was created with a Qt Design Studio version earlier than Qt Design Studio 4.5. Due to limitations of the project structure in earlier Qt Design Studio versions, the resulting application might not display all the assets. Referring to assets between different QML modules does not work in the compiled application.&lt;br&gt;&lt;a href=&quot;https://doc.qt.io/qtdesignstudio/studio-designer-developer-workflow.html&quot;&gt;See the documentation for details.&lt;/a&gt;</source>
-        <translation>Projektet skapades med en Qt Design Studio-version som är äldre än Qt Design Studio 4.5. På grund av begränsningar i projektstrukturen i tidigare Qt Design Studio-versioner kanske det resulterande programmet inte visar alla resurser. Referenser till resurser mellan olika QML-moduler fungerar inte i det kompilerade programmet.&lt;br&gt;&lt;a href=&quot;https://doc.qt.io/qtdesignstudio/studio-designer-developer-workflow.html&quot;&gt;Se dokumentationen för detaljer.&lt;/a&gt;</translation>
+        <translation>Projektet skapades med en Qt Design Studio-version som är äldre än Qt Design Studio 4.5. På grund av begränsningar i projektstrukturen i tidigare Qt Design Studio-versioner kanske det resulterande programmet inte visar alla resurser. Referenser till resurser mellan olika QML-moduler fungerar inte i det kompilerade programmet.&lt;br&gt;&lt;a href="https://doc.qt.io/qtdesignstudio/studio-designer-developer-workflow.html"&gt;Mer information finns i dokumentationen.&lt;/a&gt;</translation>
     </message>
     <message>
         <source>The project structure has changed.
 Please clean the build folder before rebuilding.
 </source>
         <translation>Projektstrukturen har ändrats.
-Rensa byggmappen innan ombygge.
+Rensa byggmappen innan du bygger om.
 </translation>
     </message>
     <message>
@@ -59504,7 +59504,7 @@ Se utdatarutan för mer information.</translation>
     </message>
     <message>
         <source>A timeout occurred running &quot;%1&quot;.</source>
-        <translation>En tidsgräns uppnåddes vid körning av ”%1”.</translation>
+        <translation>Tidsgränsen överskreds när ”%1” kördes.</translation>
     </message>
     <message>
         <source>When parsing fields of page &quot;%1&quot;: %2</source>
