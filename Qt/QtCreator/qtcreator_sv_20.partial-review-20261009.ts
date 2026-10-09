@@ -21838,7 +21838,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location filename="../../../src/plugins/cpaster/protocol.cpp" line="+28" />
             <source>Fetching is not supported.</source>
-            <translation>Hämtar stöds inte.</translation>
+            <translation>Hämtning stöds inte.</translation>
         </message>
         <message>
             <location line="+6" />
@@ -21848,7 +21848,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+6" />
             <source>Pasting is not supported.</source>
-            <translation>Klistra in stöds inte.</translation>
+            <translation>Inklistring stöds inte.</translation>
         </message>
         <message>
             <location line="+29" />
@@ -21866,7 +21866,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location filename="../../../src/plugins/cpaster/fileshareprotocolsettingspage.cpp" line="-24" />
             <source>The fileshare-based paster protocol allows for sharing code snippets using simple files on a shared network drive. Files are never deleted.</source>
-            <translation>Fildelningsbaserat inklistringsprotokoll tillåter att kodsnuttar delas genom enkla filer på en delad nätverksenhet. Filer tas aldrig bort.</translation>
+            <translation>Det fildelningsbaserade inklistringsprotokollet gör det möjligt att dela kodsnuttar med enkla filer på en delad nätverksenhet. Filer tas aldrig bort.</translation>
         </message>
         <message>
             <location line="-10" />
@@ -21881,7 +21881,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="-1" />
             <source>entries</source>
-            <translation>objekt</translation>
+            <translation>poster</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cpaster/pasteselectdialog.cpp" line="-76" />
@@ -21892,7 +21892,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+1" />
             <source>Paste:</source>
-            <translation>Klistra in:</translation>
+            <translation>Inklistring:</translation>
         </message>
         <message>
             <location line="+52" />
@@ -21902,12 +21902,12 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+7" />
             <source>Error while retrieving items.</source>
-            <translation>Fel vid hämta objekt.</translation>
+            <translation>Fel vid hämtning av objekt.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/cpaster/pasteview.cpp" line="-62" />
             <source>Send to Codepaster</source>
-            <translation>Skicka till Kodinklistrare</translation>
+            <translation>Skicka till CodePaster</translation>
         </message>
         <message>
             <location line="+64" />
@@ -21932,7 +21932,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+18" />
             <source>Parts to Send to Server</source>
-            <translation>Delar till Skicka till server</translation>
+            <translation>Delar som ska skickas till servern</translation>
         </message>
         <message>
             <location line="+29" />
@@ -21958,7 +21958,7 @@ Ange först en giltig körbar fil.</translation>
         <message>
             <location line="+14" />
             <source>Display General Messages after sending a post</source>
-            <translation>Visa allmänna meddelanden efter en post skickats</translation>
+            <translation>Visa allmänna meddelanden efter att ett inlägg har skickats</translation>
         </message>
         <message>
             <source>%1: %2</source>
