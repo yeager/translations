@@ -105,7 +105,7 @@
         <name>AddSignalHandlerDialog</name>
         <message>
             <source>Implement Signal Handler</source>
-            <translation>Implementera signalhandtag</translation>
+            <translation>Implementera signalhanterare</translation>
         </message>
         <message>
             <source>Frequently used signals</source>
@@ -144,23 +144,23 @@
         </message>
         <message>
             <source>Toggles if the component is enabled to receive mouse and keyboard input.</source>
-            <translation>Växlar om komponenten är aktiverad för att ta emot mus- och tangentbordsinmatning.</translation>
+            <translation>Anger om komponenten är aktiverad för att ta emot mus- och tangentbordsinmatning.</translation>
         </message>
         <message>
             <source>Smooth</source>
-            <translation>Mjuk</translation>
+            <translation>Utjämning</translation>
         </message>
         <message>
             <source>Toggles if the smoothing is performed using linear interpolation method. Keeping it unchecked would follow non-smooth method using nearest neighbor. It is mostly applicable on image based items.</source>
-            <translation>Växlar om mjukheten genomförs med linjär interpolationsmetod. Hålla den avmarkerad skulle följa metoden för icke-mjuk med närmsta granne. Det är oftast aktuellt på bildbaserade poster.</translation>
+            <translation>Anger om utjämningen utförs med linjär interpolering. Avmarkera för att använda en metod utan utjämning med närmaste granne. Detta är främst relevant för bildbaserade objekt.</translation>
         </message>
         <message>
             <source>Antialiasing</source>
-            <translation>Antialiasing</translation>
+            <translation>Kantutjämning</translation>
         </message>
         <message>
             <source>Refines the edges of the image.</source>
-            <translation>Förfinar kanterna på bilden.</translation>
+            <translation>Förfinar bildens kanter.</translation>
         </message>
         <message>
             <source>Focus</source>
@@ -168,23 +168,23 @@
         </message>
         <message>
             <source>Sets focus on the component within the enclosing focus scope.</source>
-            <translation>Ställer in fokus på komponenten inom det omslutande fokusintervallet.</translation>
+            <translation>Anger fokus på komponenten inom det omslutande fokusomfånget.</translation>
         </message>
         <message>
             <source>Focus on tab</source>
-            <translation>Fokus på flik</translation>
+            <translation>Tabbfokus</translation>
         </message>
         <message>
             <source>Adds the component to the tab focus chain.</source>
-            <translation>Lägger till komponenten till flikfokuskedjan.</translation>
+            <translation>Lägger till komponenten i tabbfokuskedjan.</translation>
         </message>
         <message>
             <source>Baseline offset</source>
-            <translation>Standardpositionsjustering</translation>
+            <translation>Baslinjeförskjutning</translation>
         </message>
         <message>
             <source>Sets the position of the component's baseline in local coordinates.</source>
-            <translation>Ställer in positionen för komponentens standardvärde i lokala koordinater.</translation>
+            <translation>Anger komponentens baslinje i lokala koordinater.</translation>
         </message>
     </context>
     <context>
