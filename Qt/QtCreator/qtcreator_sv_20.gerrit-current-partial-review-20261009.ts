@@ -49551,7 +49551,7 @@ Skapa i stället ett Qt Quick Application-projekt om du vill utveckla ett fullst
         <source>Creates a vertex shader in Vulkan-compatible GLSL. Vertex shaders transform the positions, normals and texture coordinates of triangles, points and lines to be rendered.
 Use this when targeting Qt6 or later.</source>
         <translation>Skapar en vertexshader i Vulkan-kompatibel GLSL. Vertexshader omvandlar positioner, normaler och texturkoordinater för trianglar, punkter och linjer som ska återges.
-Använd detta vid mål för Qt 6 eller senare.</translation>
+Använd detta när projektet riktar sig mot Qt 6 eller senare.</translation>
     </message>
     <message>
         <source>Vertex Shader (Vulkan-compatible)</source>
@@ -49561,7 +49561,7 @@ Använd detta vid mål för Qt 6 eller senare.</translation>
         <source>Creates a fragment shader in Vulkan-compatible GLSL. Fragment shaders generate the final pixel colors for triangles, points and lines to be rendered.
 Use this when targeting Qt6 or later.</source>
         <translation>Skapar en fragmentshader i Vulkan-kompatibel GLSL. Fragmentshader skapar de slutliga pixelfärgerna för trianglar, punkter och linjer som ska återges.
-Använd detta vid mål för Qt 6 eller senare.</translation>
+Använd detta när projektet riktar sig mot Qt 6 eller senare.</translation>
     </message>
     <message>
         <source>Fragment Shader (Vulkan-compatible)</source>
@@ -49761,7 +49761,7 @@ Använd detta vid mål för Qt 6 eller senare.</translation>
     </message>
     <message>
         <source>Generates a natively implemented server that can be connected by the Qt Remote Objects backend.</source>
-        <translation>Genererar en inbyggt implementerad server som Qt Remote Objects-bakänden kan ansluta till.</translation>
+        <translation>Genererar en server med inbyggd implementation som Qt Remote Objects-bakänden kan ansluta till.</translation>
     </message>
     <message>
         <source>If no functioning backend is selected, the sample code of the frontend UI will not work and may even throw errors.</source>
