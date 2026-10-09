@@ -5495,7 +5495,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Sets if and how the background of the scene should be cleared.</source>
-        <translation>Ställer in om och hur scenens bakgrund ska rensas.</translation>
+        <translation>Anger om och hur scenens bakgrund ska rensas.</translation>
     </message>
     <message>
         <source>Clear Color</source>
@@ -5515,7 +5515,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Skybox Blur</source>
-        <translation>Skybox-oskärpa</translation>
+        <translation>Oskärpa i skyboxen</translation>
     </message>
     <message>
         <source>Sets how much to blur the skybox when using SceneEnvironment.SkyBox for the backgroundMode property.</source>
@@ -5523,7 +5523,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Antialiasing</source>
-        <translation>Antialiasing</translation>
+        <translation>Kantutjämning</translation>
     </message>
     <message>
         <source>Antialiasing Mode</source>
@@ -5659,7 +5659,7 @@ Förgrundskomponenten bör vara genomskinlig och bakgrundskomponenten ogenomskin
     </message>
     <message>
         <source>Enables color grading via look up table (LUT) textures.</source>
-        <translation>Aktiverar färggradering via uppslagstabelltexturer (LUT).</translation>
+        <translation>Aktiverar färggradering med texturer för uppslagstabeller (LUT).</translation>
     </message>
     <message>
         <source>Size</source>
