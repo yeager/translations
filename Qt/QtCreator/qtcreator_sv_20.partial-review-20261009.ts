@@ -38658,7 +38658,7 @@ slag, och kan omfattas av ytterligare licensvillkor som införs av deras ägare 
         <message>
             <location line="+2" />
             <source>Vendor Id:</source>
-            <translation>Tillverkarens id:</translation>
+            <translation>Leverantörs-id:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -38683,7 +38683,7 @@ slag, och kan omfattas av ytterligare licensvillkor som införs av deras ägare 
         <message>
             <location line="+1" />
             <source>Copyright:</source>
-            <translation>Copyright:</translation>
+            <translation>Upphovsrätt:</translation>
         </message>
         <message>
             <location line="+1" />
@@ -38735,7 +38735,7 @@ slag, och kan omfattas av ytterligare licensvillkor som införs av deras ägare 
         <message>
             <location line="+3" />
             <source>Compatibility version:</source>
-            <translation>Kompatibel version:</translation>
+            <translation>Kompatibilitetsversion:</translation>
         </message>
         <message>
             <location line="+4" />
@@ -38755,17 +38755,17 @@ slag, och kan omfattas av ytterligare licensvillkor som införs av deras ägare 
         <message>
             <location line="+40" />
             <source>Description file found, but error on read.</source>
-            <translation>Beskrivningsfil hittad men fel vid läsning.</translation>
+            <translation>Beskrivningsfilen hittades men det gick inte att läsa den.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Description successfully read.</source>
-            <translation>Beskrivningen inläst.</translation>
+            <translation>Beskrivningen lästes in.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Dependencies are successfully resolved.</source>
-            <translation>Beroenden är lösta.</translation>
+            <translation>Beroendena har lösts.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -38775,7 +38775,7 @@ slag, och kan omfattas av ytterligare licensvillkor som införs av deras ägare 
         <message>
             <location line="+4" />
             <source>Plugin's initialization function succeeded.</source>
-            <translation>Insticksmodulens initieringsfunktion lyckades.</translation>
+            <translation>Insticksmodulens initieringsfunktion slutfördes.</translation>
         </message>
         <message>
             <location line="+4" />
@@ -38785,12 +38785,12 @@ slag, och kan omfattas av ytterligare licensvillkor som införs av deras ägare 
         <message>
             <location line="+4" />
             <source>Plugin was shut down.</source>
-            <translation>Insticksmodulen stängdes ner.</translation>
+            <translation>Insticksmodulen stängdes av.</translation>
         </message>
         <message>
             <location line="+4" />
             <source>Plugin ended its life cycle and was deleted.</source>
-            <translation>Insticksmodulen har nått livsslutet och togs bort.</translation>
+            <translation>Insticksmodulens livscykel har avslutats och den har tagits bort.</translation>
         </message>
         <message>
             <location line="-67" />
@@ -38811,29 +38811,29 @@ slag, och kan omfattas av ytterligare licensvillkor som införs av deras ägare 
             <location line="+12" />
             <source>Path: %1
 Plugin is not available on this platform.</source>
-            <translation>Sökväg: %1 Plugin är inte
-tillgängligt på denna plattform.</translation>
+            <translation>Sökväg: %1
+Insticksmodulen är inte tillgänglig på den här plattformen.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Path: %1
 Plugin is enabled as dependency of an enabled plugin.</source>
-            <translation>Sökväg: %1 Plugin är aktiverat som
-beroende av ett aktiverat insticksprogram.</translation>
+            <translation>Sökväg: %1
+Insticksmodulen är aktiverad eftersom en aktiverad insticksmodul är beroende av den.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>Path: %1
 Plugin is enabled by command line argument.</source>
-            <translation>Sökväg: %1- insticksprogram är
-aktiverat med kommandoradsargument.</translation>
+            <translation>Sökväg: %1
+Insticksmodulen aktiveras av ett kommandoradsargument.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Path: %1
 Plugin is disabled by command line argument.</source>
-            <translation>Sökväg: %1- insticksprogram
-inaktiveras med kommandoradsargument.</translation>
+            <translation>Sökväg: %1
+Insticksmodulen inaktiveras av ett kommandoradsargument.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -38848,7 +38848,7 @@ inaktiveras med kommandoradsargument.</translation>
         <message>
             <location line="+5" />
             <source>Plugin is required.</source>
-            <translation>Insticksmodul krävs.</translation>
+            <translation>Insticksmodulen krävs.</translation>
         </message>
         <message>
             <location line="+5" />
@@ -38882,9 +38882,9 @@ inaktiveras med kommandoradsargument.</translation>
 will also enable the following plugins:
 
 %2</source>
-            <translation>Aktivering av
+            <translation>När du aktiverar
 %1
-kommer även aktivera följande insticksmoduler:
+aktiveras även följande insticksmoduler:
 
 %2</translation>
         </message>
@@ -38900,9 +38900,9 @@ kommer även aktivera följande insticksmoduler:
 will also disable the following plugins:
 
 %2</source>
-            <translation>Inaktivering av
+            <translation>När du inaktiverar
 %1
-kommer även inaktivera följande insticksmoduler:
+inaktiveras även följande insticksmoduler:
 
 %2</translation>
         </message>
