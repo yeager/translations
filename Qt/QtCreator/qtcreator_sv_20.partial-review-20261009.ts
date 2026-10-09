@@ -83793,7 +83793,7 @@ Are you sure you want to remove it?</source>
         <name>VisibilityTogglesAction</name>
         <message>
             <source>Visibility Toggles</source>
-            <translation>Synlighetsväxlingar</translation>
+            <translation>Växla synlighet</translation>
         </message>
     </context>
     <context>
@@ -83812,7 +83812,7 @@ Are you sure you want to remove it?</source>
         </message>
         <message>
             <source>Before we let you move on to your wonderful designs, help us make Qt Design Studio even better by letting us know how you're using it. To do this, we would like to turn on automatic collection of pseudonymized Analytics and Crash Report Data.</source>
-            <translation>Innan vi låter dig börja med dina underbar designer, hjälp oss göra Qt Design Studio ännu bättre genom att låta oss veta hur du använder det. Vi vill gärna att du aktiverar automatisk insamling av pseudonymiserat data för analyser och kraschrapporter.</translation>
+            <translation>Innan du går vidare till dina designer kan du hjälpa oss att göra Qt Design Studio bättre genom att berätta hur du använder programmet. Vi vill därför aktivera automatisk insamling av pseudonymiserade analys- och kraschrapportdata.</translation>
         </message>
         <message>
             <source>Turn Off</source>
@@ -83835,11 +83835,11 @@ Are you sure you want to remove it?</source>
         <name>WidgetPluginManager</name>
         <message>
             <source>Failed to create instance of file "%1": %2</source>
-            <translation>Misslyckades med att skapa instans av filen "%1": %2</translation>
+            <translation>Det gick inte att skapa en instans av filen ”%1”: %2</translation>
         </message>
         <message>
             <source>Failed to create instance of file "%1".</source>
-            <translation>Misslyckades med att skapa instans av filen "%1".</translation>
+            <translation>Det gick inte att skapa en instans av filen ”%1”.</translation>
         </message>
         <message>
             <source>File "%1" is not a Qt Quick Designer plugin.</source>
@@ -83878,19 +83878,19 @@ Are you sure you want to remove it?</source>
         </message>
         <message>
             <source>Minimum size</source>
-            <translation>Minimal storlek</translation>
+            <translation>Minsta storlek</translation>
         </message>
         <message>
             <source>Minimum size of the window.</source>
-            <translation>Minimum storlek för fönstret.</translation>
+            <translation>Fönstrets minsta storlek.</translation>
         </message>
         <message>
             <source>Maximum size</source>
-            <translation>Maximal storlek</translation>
+            <translation>Största storlek</translation>
         </message>
         <message>
             <source>Maximum size of the window.</source>
-            <translation>Maximal storlek för fönstret.</translation>
+            <translation>Fönstrets största storlek.</translation>
         </message>
         <message>
             <source>Color</source>
@@ -83960,11 +83960,11 @@ Are you sure you want to remove it?</source>
         </message>
         <message>
             <source>Finish</source>
-            <translation>Färdig</translation>
+            <translation>Slutför</translation>
         </message>
         <message>
             <source>Download failed</source>
-            <translation>Hämtning misslyckades</translation>
+            <translation>Hämtningen misslyckades</translation>
         </message>
     </context>
     <context>
