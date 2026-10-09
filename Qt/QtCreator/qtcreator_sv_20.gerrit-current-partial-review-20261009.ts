@@ -14827,7 +14827,7 @@ Låsta komponenter kan inte ändras eller väljas.</translation>
     </message>
     <message>
         <source>Fill Parent</source>
-        <translation>Fyll förälder</translation>
+        <translation>Fyll överordnad komponent</translation>
     </message>
     <message>
         <source>No Anchors</source>
@@ -14959,7 +14959,7 @@ Låsta komponenter kan inte ändras eller väljas.</translation>
     </message>
     <message>
         <source>Fill selected component to parent.</source>
-        <translation>Fyll föräldern med den markerade komponenten.</translation>
+        <translation>Anpassa den markerade komponenten så att den fyller den överordnade komponenten.</translation>
     </message>
     <message>
         <source>Reset anchors for selected component.</source>
@@ -14995,7 +14995,7 @@ Låsta komponenter kan inte ändras eller väljas.</translation>
     </message>
     <message>
         <source>Set Id</source>
-        <translation>Ange id</translation>
+        <translation>Ange ID</translation>
     </message>
     <message>
         <source>Edit Component</source>
@@ -15015,11 +15015,11 @@ Låsta komponenter kan inte ändras eller väljas.</translation>
     </message>
     <message>
         <source>Fill Width</source>
-        <translation>Fyll bredd</translation>
+        <translation>Fyll ut på bredden</translation>
     </message>
     <message>
         <source>Fill Height</source>
-        <translation>Fyll höjd</translation>
+        <translation>Fyll ut på höjden</translation>
     </message>
     <message>
         <source>Timeline</source>
