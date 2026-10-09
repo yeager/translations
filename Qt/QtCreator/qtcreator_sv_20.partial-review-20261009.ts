@@ -37094,32 +37094,32 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location filename="../../../src/libs/devcontainer/devcontainer.cpp" line="+419" />
             <source>Inspecting container: %1</source>
-            <translation>Kontrollbehållare: %1</translation>
+            <translation>Inspekterar containern: %1</translation>
         </message>
         <message>
             <location line="+150" />
             <source>Inspecting image: %1</source>
-            <translation>Inspekterar bild: %1</translation>
+            <translation>Inspekterar avbilden: %1</translation>
         </message>
         <message>
             <location line="+96" />
             <source>Create Container</source>
-            <translation>Skapa behållare</translation>
+            <translation>Skapa container</translation>
         </message>
         <message>
             <location line="+80" />
             <source>Creating container: %1</source>
-            <translation>Skapa behållare: %1</translation>
+            <translation>Skapar container: %1</translation>
         </message>
         <message>
             <location line="+26" />
             <source>Waiting for container to start: %1</source>
-            <translation>Väntar på att behållaren ska starta: %1</translation>
+            <translation>Väntar på att containern ska starta: %1</translation>
         </message>
         <message>
             <location line="+89" />
             <source>Executing in container: %1</source>
-            <translation>Körning i behållare: %1</translation>
+            <translation>Kör i containern: %1</translation>
         </message>
         <message>
             <location line="+60" />
@@ -37129,97 +37129,97 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+253" />
             <source>Checking if container exists: %1</source>
-            <translation>Kontrollera om behållare finns: %1</translation>
+            <translation>Kontrollerar om containern finns: %1</translation>
         </message>
         <message>
             <location line="+25" />
             <source>Container already exists: %1</source>
-            <translation>Container finns redan: %1</translation>
+            <translation>Containern finns redan: %1</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Container does not exist, proceeding to create: %1</source>
-            <translation>Containern finns inte. Skapar: %1</translation>
+            <translation>Containern finns inte. Skapar den: %1</translation>
         </message>
         <message>
             <location line="+61" />
             <source>Start Container</source>
-            <translation>Starta behållare</translation>
+            <translation>Starta container</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Starting container: %1</source>
-            <translation>Startbehållare: %1</translation>
+            <translation>Startar containern: %1</translation>
         </message>
         <message>
             <location line="+6" />
             <source>Resume Container</source>
-            <translation>Återuppta behållare</translation>
+            <translation>Återuppta container</translation>
         </message>
         <message>
             <location line="+9" />
             <source>Resuming container: %1</source>
-            <translation>Återanvändande behållare: %1</translation>
+            <translation>Återupptar containern: %1</translation>
         </message>
         <message>
             <location line="+58" />
             <source>Build Dockerfile</source>
-            <translation>Bygg dockerfil</translation>
+            <translation>Bygg Dockerfile</translation>
         </message>
         <message>
             <location line="+55" />
             <source>Building Dockerfile: %1</source>
-            <translation>Byggdockafil: %1</translation>
+            <translation>Bygger Dockerfile: %1</translation>
         </message>
         <message>
             <location line="+187" />
             <source>Remove Container</source>
-            <translation>Ta bort behållare</translation>
+            <translation>Ta bort container</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Removing container: %1</source>
-            <translation>Ta bort behållare: %1</translation>
+            <translation>Tar bort containern: %1</translation>
         </message>
         <message>
             <location line="+27" />
             <source>Remove Image</source>
-            <translation>Ta bort bild</translation>
+            <translation>Ta bort avbild</translation>
         </message>
         <message>
             <location line="+8" />
             <source>Removing image: %1</source>
-            <translation>Ta bort bild: %1</translation>
+            <translation>Tar bort avbilden: %1</translation>
         </message>
         <message>
             <location line="+82" />
             <source>Running instance cannot be null.</source>
-            <translation>Det kan inte vara noll.</translation>
+            <translation>Den körande instansen får inte vara null.</translation>
         </message>
         <message>
             <location filename="../../../src/libs/devcontainer/devcontainerfeature.cpp" line="+23" />
             <source>Failed to parse the development container feature file: %1</source>
-            <translation>Misslyckades tolka funktionen för utvecklingsbehållare: %1</translation>
+            <translation>Det gick inte att tolka funktionsfilen för utvecklingscontainern: %1</translation>
         </message>
         <message>
             <location line="+5" />
             <source>Invalid development container JSON file: expected an object.</source>
-            <translation>Ogiltig utvecklingsbehållare JSON fil: förväntade ett objekt.</translation>
+            <translation>Ogiltig JSON-fil för utvecklingscontainern: ett objekt förväntades.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/devcontainer/devcontainerdevice.cpp" line="+50" />
             <source>Development Container</source>
-            <translation>Utvecklingsbehållare</translation>
+            <translation>Utvecklingscontainer</translation>
         </message>
         <message>
             <location line="+116" />
             <source>Rebuild the development container?</source>
-            <translation>Bygga om utvecklingsbehållaren?</translation>
+            <translation>Vill du bygga om utvecklingscontainern?</translation>
         </message>
         <message>
             <location line="+3" />
             <source>The Development Container Configuration Changed</source>
-            <translation>Utvecklingscontainerinställningen ändrades</translation>
+            <translation>Konfigurationen för utvecklingscontainern har ändrats</translation>
         </message>
         <message>
             <location line="+4" />
@@ -37231,7 +37231,7 @@ Det kan hjälpa att bygga om projektet.</translation>
             <location filename="../../../src/plugins/devcontainer/devcontainerplugin.cpp" line="+439" />
             <location line="+55" />
             <source>Development Container Error</source>
-            <translation>Fel i utveckling av behållare</translation>
+            <translation>Fel i utvecklingscontainern</translation>
         </message>
         <message>
             <location line="+8" />
@@ -37241,7 +37241,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+57" />
             <source>The configuration does not contain a "build", "image" or "dockerComposeFile" entry.</source>
-            <translation>Konfigurationen innehåller inte en "bygg", "bild" eller "dockaComposeFile" post.</translation>
+            <translation>Konfigurationen innehåller ingen post för ”build”, ”image” eller ”dockerComposeFile”.</translation>
         </message>
         <message>
             <location line="+77" />
@@ -37251,7 +37251,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+53" />
             <source>Cannot set up Command Bridge: %1</source>
-            <translation>Kan inte ställa in kommandobrygga: %1</translation>
+            <translation>Kan inte konfigurera kommandobryggan: %1</translation>
         </message>
         <message>
             <location line="+11" />
@@ -37261,7 +37261,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+69" />
             <source>Unknown kit aspect factory: %1</source>
-            <translation>Okänd fabrik för satsaspekt: %1</translation>
+            <translation>Okänd fabrik för kitaspekter: %1</translation>
         </message>
         <message>
             <location line="+13" />
@@ -37277,7 +37277,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="-44" />
             <source>Starting the development container</source>
-            <translation>Starta utvecklingsbehållaren</translation>
+            <translation>Startar utvecklingscontainern</translation>
         </message>
         <message>
             <location line="+8" />
@@ -37288,7 +37288,7 @@ Det kan hjälpa att bygga om projektet.</translation>
             <location line="+9" />
             <location line="+15" />
             <source>Stopping the development container</source>
-            <translation>Stoppa utvecklingsbehållaren</translation>
+            <translation>Stoppar utvecklingscontainern</translation>
         </message>
         <message>
             <location line="-8" />
@@ -37298,7 +37298,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+37" />
             <source>Restarting the development container</source>
-            <translation>Starta om utvecklingsbehållaren</translation>
+            <translation>Startar om utvecklingscontainern</translation>
         </message>
         <message>
             <location line="+23" />
@@ -37328,7 +37328,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location filename="../../../src/plugins/devcontainer/devcontainerplugin.cpp" line="-437" />
             <source>Development Container Device</source>
-            <translation>Utveckling av behållare</translation>
+            <translation>Enhet för utvecklingscontainer</translation>
         </message>
         <message>
             <location line="+169" />
@@ -37339,7 +37339,7 @@ Det kan hjälpa att bygga om projektet.</translation>
             <location line="+5" />
             <location line="+48" />
             <source>Configure the development container?</source>
-            <translation>Anpassa utvecklingsbehållaren?</translation>
+            <translation>Konfigurera utvecklingscontainern?</translation>
         </message>
         <message>
             <location line="-45" />
@@ -37361,17 +37361,17 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+98" />
             <source>Failed to watch the configuration files for the development container for project %1: %2</source>
-            <translation>Misslyckades titta på konfigurationsfilerna för utvecklingsbehållaren för projekt %1: %2</translation>
+            <translation>Övervakningen av konfigurationsfilerna för utvecklingscontainern i projektet %1 misslyckades: %2</translation>
         </message>
         <message>
             <location line="+28" />
             <source>Development Containers</source>
-            <translation>Utvecklingsbehållare</translation>
+            <translation>Utvecklingscontainrar</translation>
         </message>
         <message>
             <location line="+55" />
             <source>Start or Restart Development Container</source>
-            <translation>Starta eller starta om utvecklingsbehållare</translation>
+            <translation>Starta eller starta om utvecklingscontainern</translation>
         </message>
         <message>
             <location line="+1" />
@@ -37381,7 +37381,7 @@ Det kan hjälpa att bygga om projektet.</translation>
         <message>
             <location line="+44" />
             <source>Development Container for %1</source>
-            <translation>Utvecklingsbehållare för %1</translation>
+            <translation>Utvecklingscontainer för %1</translation>
         </message>
     </context>
     <context>
