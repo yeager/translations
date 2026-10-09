@@ -81381,7 +81381,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location filename="../../../src/libs/modelinglib/qmt/model_widgets_ui/propertiesviewmview.cpp" line="+22" />
             <source>Reverse engineered:</source>
-            <translation>Omvänd konstruerad:</translation>
+            <translation>Omvändkonstruerad:</translation>
         </message>
         <message>
             <location line="+2" />
@@ -81502,7 +81502,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+0" />
             <source>Canvas Diagrams</source>
-            <translation>Canvas-diagram</translation>
+            <translation>Canvasdiagram</translation>
         </message>
         <message>
             <location line="+7" />
@@ -81519,17 +81519,17 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="-524" />
             <source>Variety:</source>
-            <translation>Variation:</translation>
+            <translation>Variant:</translation>
         </message>
         <message>
             <location line="+37" />
             <source>End A: %1</source>
-            <translation>Slut A: %1</translation>
+            <translation>Ände A: %1</translation>
         </message>
         <message>
             <location line="+3" />
             <source>End B: %1</source>
-            <translation>Slut B: %1</translation>
+            <translation>Ände B: %1</translation>
         </message>
         <message>
             <location line="+5" />
@@ -81596,7 +81596,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
             <location line="-169" />
             <location line="+65" />
             <source>Aggregation</source>
-            <translation>Sammanläggning</translation>
+            <translation>Aggregering</translation>
         </message>
         <message>
             <location line="-65" />
@@ -81630,7 +81630,7 @@ om ett förråd kräver SSH-autentisering (se dokumentationen om SSH och miljöv
         <message>
             <location line="+11" />
             <source>Auto sized</source>
-            <translation>Automatisk storlek</translation>
+            <translation>Anpassad automatiskt</translation>
         </message>
         <message>
             <location line="+19" />
