@@ -1291,7 +1291,7 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         </message>
         <message>
             <source>Determines whether the check box gets focus if pressed.</source>
-            <translation>Bestämmer huruvida kryssrutan får fokus om tryckt.</translation>
+            <translation>Anger om kryssrutan får fokus när den trycks ned.</translation>
         </message>
         <message>
             <source>Checked</source>
@@ -1306,23 +1306,23 @@ Bind till AmbientSound.Infinite för att spela upp det aktuella ljudet i en oän
         <name>CheckSection</name>
         <message>
             <source>Check Box</source>
-            <translation>Markeringsruta</translation>
+            <translation>Kryssruta</translation>
         </message>
         <message>
             <source>Check state</source>
-            <translation>Markeringstillstånd</translation>
+            <translation>Kryssrutans tillstånd</translation>
         </message>
         <message>
             <source>Sets the state of the check box.</source>
-            <translation>Ställer in tillståndet för markeringsrutan.</translation>
+            <translation>Anger kryssrutans tillstånd.</translation>
         </message>
         <message>
             <source>Toggles if the check box can have an intermediate state.</source>
-            <translation>Växlar om markeringsrutan kan ha ett mellanliggande tillstånd.</translation>
+            <translation>Anger om kryssrutan kan ha ett mellanläge.</translation>
         </message>
         <message>
             <source>Tri-state</source>
-            <translation>Trippeltillstånd</translation>
+            <translation>Tre tillstånd</translation>
         </message>
     </context>
     <context>
