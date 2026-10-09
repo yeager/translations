@@ -40466,17 +40466,17 @@ Orsak: %3</translation>
             <location line="+1" />
             <location filename="../../../src/plugins/gnprojectmanager/gnprojectplugin.cpp" line="+34" />
             <source>GN</source>
-            <translation>GN Ordförande</translation>
+            <translation>GN</translation>
         </message>
         <message>
             <location line="+75" />
             <source>Generate Project</source>
-            <translation>Skapa projekt</translation>
+            <translation>Generera projekt</translation>
         </message>
         <message>
             <location line="+2" />
             <source>Run "gn gen --ide=json" to (re)generate the project.</source>
-            <translation>Kör "gn gen --ide=json" för att (åter)skapa projektet.</translation>
+            <translation>Kör ”gn gen --ide=json” för att (åter)generera projektet.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -40491,7 +40491,7 @@ Orsak: %3</translation>
         <message>
             <location line="+5" />
             <source>Additional GN gen arguments (e.g. --args='is_debug=true').</source>
-            <translation>Ytterligare GN-gen argument (t.ex. --args='is_debug=true).</translation>
+            <translation>Ytterligare argument till gn gen (till exempel --args='is_debug=true').</translation>
         </message>
         <message>
             <location line="+6" />
@@ -40517,32 +40517,32 @@ Orsak: %3</translation>
         <message>
             <location line="+153" />
             <source>GN Build</source>
-            <translation>GN- uppbyggnad</translation>
+            <translation>GN-bygge</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/gnprojectmanager/gnbuildsystem.cpp" line="+98" />
             <source>GN build: Parsing failed.</source>
-            <translation>GN- uppbyggnad: Tolkning misslyckades.</translation>
+            <translation>GN-bygge: Tolkningen misslyckades.</translation>
         </message>
         <message>
             <location line="+23" />
             <source>No GN executable configured.</source>
-            <translation>Inget GN körbart program inställt.</translation>
+            <translation>Ingen körbar GN-fil har konfigurerats.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/gnprojectmanager/gnkitaspect.cpp" line="-48" />
             <source>GN Tool</source>
-            <translation>GN- verktyg</translation>
+            <translation>GN-verktyg</translation>
         </message>
         <message>
             <location line="+3" />
             <source>The GN tool to use when building a project with GN. This setting is ignored when using other build systems.</source>
-            <translation>GN- verktyget att använda när man bygger ett projekt med GN. Inställningen ignoreras när man använder andra byggsystem.</translation>
+            <translation>GN-verktyget som ska användas när ett projekt byggs med GN. Inställningen ignoreras när andra byggsystem används.</translation>
         </message>
         <message>
             <location line="+11" />
             <source>Cannot validate this GN executable.</source>
-            <translation>Kan inte validera GN- körbar.</translation>
+            <translation>Kan inte verifiera den här körbara GN-filen.</translation>
         </message>
         <message>
             <location line="+34" />
@@ -40552,12 +40552,12 @@ Orsak: %3</translation>
         <message>
             <location filename="../../../src/plugins/gnprojectmanager/gnproject.cpp" line="+55" />
             <source>No GN tool set in kit.</source>
-            <translation>Ingen GN verktygssats i kit.</translation>
+            <translation>Inget GN-verktyg är angivet i kitet.</translation>
         </message>
         <message>
             <location line="+3" />
             <source>No compilers set in kit.</source>
-            <translation>Inga kompilatorer inställda i kit.</translation>
+            <translation>Inga kompilatorer är angivna i kitet.</translation>
         </message>
         <message>
             <location filename="../../../src/plugins/gnprojectmanager/gnprojectparser.cpp" line="+120" />
@@ -40577,7 +40577,7 @@ Orsak: %3</translation>
         <message>
             <location line="+102" />
             <source>GN executable does not exist: %1</source>
-            <translation>GN körbar finns inte: %1</translation>
+            <translation>Den körbara GN-filen finns inte: %1</translation>
         </message>
         <message>
             <location line="+31" />
@@ -40602,17 +40602,17 @@ Orsak: %3</translation>
         <message>
             <location line="+20" />
             <source>GN executable path does not exist.</source>
-            <translation>GN körbar sökväg finns inte.</translation>
+            <translation>Sökvägen till den körbara GN-filen finns inte.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>GN executable path is not a file.</source>
-            <translation>GN körbar sökväg är inte en fil.</translation>
+            <translation>Sökvägen till den körbara GN-filen är inte en fil.</translation>
         </message>
         <message>
             <location line="+2" />
             <source>GN executable path is not executable.</source>
-            <translation>GN körbar sökväg är inte körbar.</translation>
+            <translation>Sökvägen till den körbara GN-filen är inte körbar.</translation>
         </message>
         <message>
             <location line="+2" />
@@ -40637,7 +40637,7 @@ Orsak: %3</translation>
         <message>
             <location line="+18" />
             <source>New GN</source>
-            <translation>Nytt GN</translation>
+            <translation>Nytt GN-verktyg</translation>
         </message>
         <message>
             <location line="+80" />
@@ -40657,7 +40657,7 @@ Orsak: %3</translation>
         <message>
             <location line="+2" />
             <source>Set as the default GN executable to use when creating a new kit or when no value is set.</source>
-            <translation>Ange som standard körbar GN att använda när du skapar ett nytt kit eller när inget värde är inställt.</translation>
+            <translation>Ange som standard-GN-program när ett nytt kit skapas eller när inget värde har angetts.</translation>
         </message>
         <message>
             <location line="+67" />
