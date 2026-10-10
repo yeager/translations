@@ -916,7 +916,7 @@ Fixes excessive shadow flickering and Z-fighting in some games.
 This is most obvious in some games where the Z prepass depth format is different from the rasterization depth format, a scenario that will never work out correctly on compliant desktop hardware.</source>
       <translation>Emulerar djupjämförelser där skrivbordsmaskinvarans beteende skiljer sig från PS3, vanligtvis jämförelseläget EQUAL.
 Åtgärdar kraftigt skuggflimmer och Z-fighting i vissa spel.
-Detta märks tydligast i spel där djupformatet i Z-förpasset skiljer sig från djupformatet vid rastrering – ett scenario som aldrig kan fungera korrekt på kompatibel skrivbordsmaskinvara.</translation>
+Detta märks tydligast i spel där djupformatet i Z-förpasset skiljer sig från djupformatet vid rastrering. Det är ett scenario som aldrig kan fungera korrekt på kompatibel skrivbordsmaskinvara.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="43" />
@@ -1947,8 +1947,8 @@ Krävs för Demon's Souls.</translation>
 Adaptive Mode - Prefers keeping up performance. It may skip frames or even tear to avoid reducing the game's framerate.
 Full Mode - No tearing allowed even if performance is reduced. This mode will by default limit your framerate to the display's refresh rate unless overriden in the driver control panel.</source>
       <translation>Aktiverar vertikal synkronisering för att eliminera bildrivning.
-Adaptivt läge – prioriterar prestanda. Det kan hoppa över bildrutor eller till och med ge bildrivning för att undvika att minska spelets bildfrekvens.
-Fullständigt läge – ingen bildrivning tillåts även om prestandan försämras. Läget begränsar som standard bildfrekvensen till bildskärmens uppdateringsfrekvens, om den inte åsidosätts i drivrutinens kontrollpanel.</translation>
+Adaptivt läge. Det prioriterar prestanda. Det kan hoppa över bildrutor eller till och med ge bildrivning för att undvika att minska spelets bildfrekvens.
+Fullständigt läge. Ingen bildrivning tillåts även om prestandan försämras. Läget begränsar som standard bildfrekvensen till bildskärmens uppdateringsfrekvens, om den inte åsidosätts i drivrutinens kontrollpanel.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="202" />
@@ -2701,22 +2701,22 @@ Det finns fortfarande många implementeringar att göra och optimeringar att gö
     <message>
       <location filename="./rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="153" />
       <source>Red-Green</source>
-      <translation>Röd–grön</translation>
+      <translation>Röd till grön</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="154" />
       <source>Red-Blue</source>
-      <translation>Röd–blå</translation>
+      <translation>Röd till blå</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="155" />
       <source>Red-Cyan</source>
-      <translation>Röd–cyan</translation>
+      <translation>Röd till cyan</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="156" />
       <source>Magenta-Cyan</source>
-      <translation>Magenta–cyan</translation>
+      <translation>Magenta till cyan</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="157" />
@@ -2726,7 +2726,7 @@ Det finns fortfarande många implementeringar att göra och optimeringar att gö
     <message>
       <location filename="./rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="158" />
       <source>Amber-Blue</source>
-      <translation>Bärnstensgul–blå</translation>
+      <translation>Bärnstensgul till blå</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="159" />
@@ -5799,7 +5799,7 @@ Info för %0:
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="171" />
       <source>%0 selected games - Disc: %1 | Other: %2
 </source>
-      <translation>%0 valda spel – skiva: %1 | Övrigt: %2
+      <translation>%0 valda spel. Skiva: %1 | Övrigt: %2
 </translation>
     </message>
     <message>
@@ -7237,7 +7237,7 @@ Faller tillbaka till lokal databas.
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="364" />
       <source>Game List (%0) - Disc: %1 | HDD: %2 | Other: %3</source>
-      <translation>Spellista (%0) – Skiva: %1 | HDD: %2 | Övrigt: %3</translation>
+      <translation>Spellista (%0). Skiva: %1 | HDD: %2 | Övrigt: %3</translation>
     </message>
   </context>
   <context>
