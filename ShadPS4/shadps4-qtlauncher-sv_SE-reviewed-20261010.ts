@@ -1294,7 +1294,7 @@ Ange dina nycklar och spara dem.</translation>
     </message>
     <message>
       <source>A trophy key is required to use the Trophy Viewer. This can be inputted by clicking Settings - Manage Cryptographic keys.</source>
-      <translation>En trofényckel krävs för att använda trofévisaren. Du kan ange den via Inställningar – Hantera kryptografiska nycklar.</translation>
+      <translation>En trofényckel krävs för att använda trofévisaren. Du kan ange den via Inställningar: Hantera kryptografiska nycklar.</translation>
     </message>
     <message>
       <source>User</source>
@@ -3060,7 +3060,7 @@ Installera Rosetta 2 via Terminal med 'softwareupdate --install-rosetta'.</trans
     </message>
     <message>
       <source>Log Filter:\nFilters the log to only print specific information.\nExamples: "Core:Debug" "Lib.Pad:Debug Common.Filesystem:Error" "*:Critical"\nLevels: trace, debug, info, warning, error, critical, off - in this order, a specific level silences all levels preceding it in the list and logs every level after it.</source>
-      <translation>Loggfilter:\nFiltrerar loggen så att bara specifik information skrivs ut.\nExempel: "Core:Debug" "Lib.Pad:Debug Common.Filesystem:Error" "*:Critical"\nNivåer: trace, debug, info, warning, error, critical, off – i den här ordningen. En specifik nivå tystar alla nivåer före den i listan och loggar alla nivåer efter den.</translation>
+      <translation>Loggfilter:\nFiltrerar loggen så att bara specifik information skrivs ut.\nExempel: "Core:Debug" "Lib.Pad:Debug Common.Filesystem:Error" "*:Critical"\nNivåer: trace, debug, info, warning, error, critical, off. I den här ordningen. En specifik nivå tystar alla nivåer före den i listan och loggar alla nivåer efter den.</translation>
     </message>
     <message>
       <source>Enable shadNet</source>
@@ -3248,7 +3248,7 @@ Installera Rosetta 2 via Terminal med 'softwareupdate --install-rosetta'.</trans
     </message>
     <message>
       <source>Username (3–16 chars, letters, numbers, _, -)</source>
-      <translation>Användarnamn (3–16 tecken, bokstäver, siffror, _, -)</translation>
+      <translation>Användarnamn (3 till 16 tecken, bokstäver, siffror, _, -)</translation>
     </message>
     <message>
       <source>Invalid Username</source>
@@ -3312,7 +3312,7 @@ Installera Rosetta 2 via Terminal med 'softwareupdate --install-rosetta'.</trans
     </message>
     <message>
       <source>ShadNet Settings - %1</source>
-      <translation>ShadNet-inställningar – %1</translation>
+      <translation>ShadNet-inställningar: %1</translation>
     </message>
     <message>
       <source>Enable ShadNet for this user</source>
