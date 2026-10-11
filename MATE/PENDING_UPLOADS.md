@@ -18,7 +18,7 @@ The latest server export still needs a local correction pass before it can be up
 - Weblate component: [MATE Control Center help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-control-center-help/sv/)
 - Current status: locked
 - Current export: 357 translated strings of 357
-- Upload state: corrections prepared locally but cannot be submitted
+- Upload state: corrections identified locally but cannot be submitted
 
 The next upload must correct these three items:
 
