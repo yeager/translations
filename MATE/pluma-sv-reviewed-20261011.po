@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: pluma 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma/issues\n"
 "POT-Creation-Date: 2022-10-29 15:35+0200\n"
-"PO-Revision-Date: 2026-10-11 10:29+0000\n"
+"PO-Revision-Date: 2026-10-11 10:31+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/mate-"
 "desktop/applications/pluma/sv/>\n"
@@ -81,7 +81,7 @@ msgid ""
 "If true, it enables the ability to switch tabs using [ctrl + tab] and [ctrl "
 "+ shift + tab]."
 msgstr ""
-"Om sant möjliggör det att byta flikar med [Ctrl+Tab] och [Ctrl+Shift+Tab]"
+"Om sant möjliggör det att byta flikar med [Ctrl+Tab] och [Ctrl+Shift+Tab]."
 
 #: data/org.mate.pluma.gschema.xml.in:30
 msgid "Show the first tab if there is only one tab"
@@ -346,10 +346,9 @@ msgstr ""
 "Stil på verktygsradsknapparna. Möjliga värden är \"PLUMA_TOOLBAR_SYSTEM\" "
 "för att använda systemets standardstil, \"PLUMA_TOOLBAR_ICONS\" för att "
 "endast visa ikoner, \"PLUMA_TOOLBAR_ICONS_AND_TEXT\" för att visa både "
-"ikoner och text, och \"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" för att visa "
-"prioriterad text bredvid ikoner. Observera att det görs skillnad på versaler"
-" och gemener i värdena, så försäkra dig om att de visas exakt som de visas "
-"här."
+"ikoner och text samt \"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" för att visa "
+"prioriterad text bredvid ikoner. Observera att det görs skillnad på versaler "
+"och gemener i värdena, så försäkra dig om att de visas exakt som här."
 
 #: data/org.mate.pluma.gschema.xml.in:155
 msgid "Status Bar is Visible"
@@ -596,7 +595,7 @@ msgstr ""
 
 #: data/org.mate.pluma.gschema.xml.in:250
 msgid "Show tabs"
-msgstr "Visa flikar "
+msgstr "Visa flikar"
 
 #: data/org.mate.pluma.gschema.xml.in:251
 msgid ""
@@ -636,7 +635,7 @@ msgstr "storlek"
 
 #: data/org.mate.pluma.gschema.xml.in:266
 msgid "The pluma window size"
-msgstr "pluma fönster storlek"
+msgstr "Plumas fönsterstorlek"
 
 #: data/org.mate.pluma.gschema.xml.in:270
 msgid "side-panel-size"
@@ -644,7 +643,7 @@ msgstr "sido-panel-storlek "
 
 #: data/org.mate.pluma.gschema.xml.in:271
 msgid "The pluma side-panel-size"
-msgstr "pluma sido-panel-storlek "
+msgstr "Storlek på Plumas sidopanel"
 
 #: data/org.mate.pluma.gschema.xml.in:275
 msgid "side-panel-active-page"
@@ -652,7 +651,7 @@ msgstr "sido-panel-aktiv-sida "
 
 #: data/org.mate.pluma.gschema.xml.in:276
 msgid "The pluma side-panel-active-page"
-msgstr "pluma sido-panel-aktiv-sida "
+msgstr "Aktiv sida i Plumas sidopanel"
 
 #: data/org.mate.pluma.gschema.xml.in:280
 msgid "bottom-panel-size"
@@ -660,7 +659,7 @@ msgstr "nedre-panel-storlek "
 
 #: data/org.mate.pluma.gschema.xml.in:281
 msgid "The pluma bottom-panel-size"
-msgstr "pluma nedre-panel-storlek"
+msgstr "Storlek på Plumas nederpanel"
 
 #: data/org.mate.pluma.gschema.xml.in:285
 msgid "bottom-panel-active-page"
@@ -668,7 +667,7 @@ msgstr "nedre-panel-aktiv-sida"
 
 #: data/org.mate.pluma.gschema.xml.in:286
 msgid "The pluma bottom-panel-active-page"
-msgstr "pluma nedre-panel-aktiv-sida"
+msgstr "Aktiv sida i Plumas nederpanel"
 
 #: data/org.mate.pluma.gschema.xml.in:290
 msgid "filter-id"
@@ -768,7 +767,7 @@ msgstr "_Spara"
 
 #: pluma/dialogs/pluma-close-confirmation-dialog.c:184
 msgid "Save _As"
-msgstr "Spara som"
+msgstr "Spara _som"
 
 #: pluma/dialogs/pluma-close-confirmation-dialog.c:217
 msgid "Question"
@@ -917,7 +916,7 @@ msgstr ""
 #: plugins/time/pluma-time-plugin.c:889
 #: plugins/time/pluma-time-setup-dialog.ui:71
 msgid "_OK"
-msgstr "Ok"
+msgstr "_OK"
 
 #: pluma/dialogs/pluma-encodings-dialog.c:331
 #: pluma/dialogs/pluma-encodings-dialog.ui:40
@@ -1181,7 +1180,7 @@ msgstr "Sök"
 #: pluma/dialogs/pluma-search-dialog.c:402
 #: pluma/dialogs/pluma-search-dialog.ui:106
 msgid "_Find"
-msgstr "Sök"
+msgstr "Sö_k"
 
 #: pluma/dialogs/pluma-search-dialog.c:405
 msgid "Replace _All"
@@ -1280,14 +1279,14 @@ msgstr ""
 #: pluma/pluma-commands-file.c:251
 #, c-format
 msgid "Loading file '%s'…"
-msgstr "Läser in filen \"%s\"..."
+msgstr "Läser in filen \"%s\"…"
 
 #: pluma/pluma-commands-file.c:260
 #, c-format
 msgid "Loading %d file…"
 msgid_plural "Loading %d files…"
-msgstr[0] "Läser in %d fil..."
-msgstr[1] "Läser in %d filer..."
+msgstr[0] "Läser in %d fil…"
+msgstr[1] "Läser in %d filer…"
 
 #. Translators: "Open Files" is the title of the file chooser window
 #: pluma/pluma-commands-file.c:462
@@ -1306,16 +1305,16 @@ msgstr "Vill du försöka ersätta den med den fil som du vill spara?"
 #: pluma/pluma-commands-file.c:648 pluma/pluma-commands-file.c:871
 #, c-format
 msgid "Saving file '%s'…"
-msgstr "Sparar filen \"%s\"..."
+msgstr "Sparar filen \"%s\"…"
 
 #: pluma/pluma-commands-file.c:756
 msgid "Save As…"
-msgstr "Spara som..."
+msgstr "Spara som…"
 
 #: pluma/pluma-commands-file.c:1085
 #, c-format
 msgid "Reverting the document '%s'…"
-msgstr "Återställer dokumentet \"%s\"..."
+msgstr "Återställer dokumentet \"%s\"…"
 
 #: pluma/pluma-commands-file.c:1130
 #, c-format
@@ -2333,7 +2332,7 @@ msgstr "Om detta program"
 
 #: pluma/pluma-ui.h:73
 msgid "_Leave Fullscreen"
-msgstr "Lämna helskärmsläget"
+msgstr "Lämna _helskärmsläge"
 
 #: pluma/pluma-ui.h:74
 msgid "Leave fullscreen mode"
@@ -3688,7 +3687,7 @@ msgstr "_Ta bort dubletter"
 
 #: plugins/sort/sort.ui:142
 msgid "_Ignore case"
-msgstr "_Gör ingen skillnad på gemener/VERSALER"
+msgstr "Ignorera _skiftläge"
 
 #: plugins/sort/sort.ui:167
 msgid "S_tart at column:"
@@ -3866,11 +3865,11 @@ msgstr "Språk"
 
 #: plugins/spell/pluma-spell-setup-dialog.ui:23
 msgid "_Configure Spell Checker plugin..."
-msgstr "_Konfigurera Stavningskontroll plugin"
+msgstr "Konfigurera _insticksmodulen Stavningskontroll…"
 
 #: plugins/spell/pluma-spell-setup-dialog.ui:103
 msgid "Autocheck spelling on document load..."
-msgstr "Kontrollerar stavning vid dokumentbelastning."
+msgstr "Kontrollera stavning när dokument läses in…"
 
 #: plugins/spell/pluma-spell-setup-dialog.ui:116
 msgid "_Never autocheck"
@@ -3882,7 +3881,7 @@ msgstr "Ko_m ihåg kontroll av dokument"
 
 #: plugins/spell/pluma-spell-setup-dialog.ui:151
 msgid "_Always autocheck"
-msgstr "_Alltid autocheck"
+msgstr "Kontrollera _alltid automatiskt"
 
 #: plugins/spell/spell.plugin.desktop.in.in:5
 msgid "Spell Checker"
