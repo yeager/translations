@@ -1,0 +1,1572 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-system-monitor package.
+# Patrik Nilsson <asavartzeth@gmail.com>, 2018
+# Daniel Gullbransen, 2018
+# cb445fb3dfd1fe3c2b9f58ac5638f478, 2018
+# efef6ec5b435a041fce803c7f8af77d2_2341d43, 2018
+# Tobias Lekare <lekare@linux.com>, 2018
+# Philip Andersen <renegadevi@codeofmagi.net>, 2018
+# Henrik Mattsson-Mårn <h@reglage.net>, 2019
+# Kristoffer Grundström <lovaren@gmail.com>, 2022
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Luna Jernberg <droidbittin@gmail.com>, 2024
+# Daniel Nylander <po@danielnylander.se>, 2025, 2026.
+#
+# Translators:
+# 6a42dd6e7ca9a813693714b0d9aa1ad8, 2018
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-system-monitor 1.27.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/"
+"issues\n"
+"POT-Creation-Date: 2023-09-04 20:48+0200\n"
+"PO-Revision-Date: 2026-10-11 11:12+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/mate-system-monitor/sv/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+
+#: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
+msgid "MATE System Monitor"
+msgstr "MATE:s systemövervakare"
+
+#: mate-system-monitor.appdata.xml.in:8
+msgid "A Process and resource monitor for MATE Desktop"
+msgstr "En process och resursövervakare för MATE:s skrivbordsmiljö"
+
+#: mate-system-monitor.appdata.xml.in:10
+msgid ""
+"MATE System Monitor allows to graphically view and manipulate the running "
+"processes on your system. It also provides an overview of available "
+"resources, such as CPU and memory."
+msgstr ""
+"MATE:s systemövervakare gör det möjligt att grafiskt visa och hantera de "
+"processer som körs i systemet. Den ger också en översikt över tillgängliga "
+"resurser, till exempel processor och minne."
+
+#: mate-system-monitor.appdata.xml.in:15
+msgid ""
+"MATE System Monitor is a fork of GNOME System Monitor and part of the MATE "
+"Desktop Environment. If you would like to know more about MATE and System "
+"Monitor, please visit the project's home page."
+msgstr ""
+"MATE:s systemövervakare är en avknoppning av GNOME Systemövervakare och "
+"ingår i MATE:s skrivbordsmiljö. Läs mer om MATE och systemövervakaren på "
+"projektets webbplats."
+
+#: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
+#: src/interface.ui:7
+msgid "System Monitor"
+msgstr "Systemövervakare"
+
+#: mate-system-monitor.desktop.in.in:5 src/callbacks.cpp:232
+msgid "View current processes and monitor system state"
+msgstr "Visa aktuella processer och övervaka systemtillståndet"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: mate-system-monitor.desktop.in.in:15
+msgid "MATE;system;monitor;process;list;view;current;resources;"
+msgstr "MATE;system;övervaka;process;lista;visa;aktuella;resurser;"
+
+#: org.mate.mate-system-monitor.policy.in.in:11
+msgid "Kill process"
+msgstr "Döda process"
+
+#: org.mate.mate-system-monitor.policy.in.in:12
+msgid "Privileges are required to control other users' processes"
+msgstr "Privilegier krävs för att kontrollera andra användares processer"
+
+#: org.mate.mate-system-monitor.policy.in.in:22
+msgid "Renice process"
+msgstr "Ändra processens prioritet"
+
+#: org.mate.mate-system-monitor.policy.in.in:23
+msgid "Privileges are required to change the priority of processes"
+msgstr "Privilegier krävs för att ändra processers prioritet"
+
+#: src/argv.cpp:21
+msgid "Show the System tab"
+msgstr "Visa fliken System"
+
+#: src/argv.cpp:26
+msgid "Show the Processes tab"
+msgstr "Visa fliken för processer"
+
+#: src/argv.cpp:31
+msgid "Show the Resources tab"
+msgstr "Visa fliken för resurser"
+
+#: src/argv.cpp:36
+msgid "Show the File Systems tab"
+msgstr "Visa fliken för filsystemen"
+
+#: src/callbacks.cpp:211
+msgid ""
+"System Monitor is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"System Monitor är fri programvara; du kan vidaredistribuera den och/eller "
+"modifiera den enligt villkoren i GNU General Public License som publiceras "
+"av Free Software Foundation; antingen version 2 av licensen eller (efter "
+"eget val) någon senare version."
+
+#: src/callbacks.cpp:215
+msgid ""
+"System Monitor is distributed in the hope that it will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
+" more details."
+msgstr ""
+"System Monitor distribueras i hopp om att det ska vara användbart, men UTAN "
+"NÅGON GARANTI; inte ens den underförstådda garantin om SÄLJBARHET eller "
+"LÄMPLIGHET FÖR ETT SÄRSKILT SYFTE.  Se GNU General Public License för mer "
+"information."
+
+#: src/callbacks.cpp:219
+msgid ""
+"You should have received a copy of the GNU General Public License along with"
+" System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
+msgstr ""
+"Du bör ha fått en kopia av GNU General Public License tillsammans med System"
+" Monitor; om inte, skriv till Free Software Foundation, Inc, 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301 USA"
+
+#: src/callbacks.cpp:231
+msgid "About System Monitor"
+msgstr "Om systemövervakare"
+
+#: src/callbacks.cpp:233
+msgid ""
+"Copyright © 2001-2004 Kevin Vandersloot\n"
+"Copyright © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2020 MATE developers"
+msgstr ""
+"Upphovsrätt © 2001-2004 Kevin Vandersloot\n"
+"Upphovsrätt © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2020 MATE-utvecklare"
+
+#: src/callbacks.cpp:240
+msgid "translator-credits"
+msgstr ""
+"Daniel Nylander <po@danielnylander.se>\n"
+"Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>"
+
+#: src/disks.cpp:404 src/memmaps.cpp:327
+msgid "Device"
+msgstr "Enhet"
+
+#: src/disks.cpp:405
+msgid "Directory"
+msgstr "Katalog"
+
+#: src/disks.cpp:406 src/gsm_color_button.c:179 src/openfiles.cpp:256
+msgid "Type"
+msgstr "Typ"
+
+#: src/disks.cpp:407
+msgid "SubVolume"
+msgstr "Undervolym"
+
+#: src/disks.cpp:408
+msgid "Total"
+msgstr "Totalt"
+
+#: src/disks.cpp:409
+msgid "Free"
+msgstr "Ledigt"
+
+#: src/disks.cpp:410
+msgid "Available"
+msgstr "Tillgängligt"
+
+#: src/disks.cpp:411
+msgid "Used"
+msgstr "Använt"
+
+#: src/gsm_color_button.c:155
+msgid "Fraction"
+msgstr "Del"
+
+#. TRANSLATORS: description of the pie color picker's (mem, swap) filled
+#. percentage property
+#: src/gsm_color_button.c:157
+msgid "Percentage full for pie color pickers"
+msgstr "Procentandel full för pajfärgväljare"
+
+#: src/gsm_color_button.c:164
+msgid "Title"
+msgstr "Titel"
+
+#: src/gsm_color_button.c:165
+msgid "The title of the color selection dialog"
+msgstr "Titel på dialogrutan för färgval"
+
+#: src/gsm_color_button.c:166 src/gsm_color_button.c:585
+msgid "Pick a Color"
+msgstr "Välj en färg"
+
+#: src/gsm_color_button.c:172
+msgid "Current Color"
+msgstr "Nuvarande färg"
+
+#: src/gsm_color_button.c:173
+msgid "The selected color"
+msgstr "Vald färg"
+
+#: src/gsm_color_button.c:180
+msgid "Type of color picker"
+msgstr "Typ av färgväljare"
+
+#: src/gsm_color_button.c:502
+msgid "Received invalid color data\n"
+msgstr "Tog emot ogiltig färgdata\n"
+
+#: src/gsm_color_button.c:608
+msgid "Click to set graph colors"
+msgstr "Klicka för att ange diagramfärger"
+
+#. xgettext: noun, top level menu.
+#. "File" did not make sense for system-monitor
+#: src/interface.cpp:52
+msgid "_Monitor"
+msgstr "_Bevaka"
+
+#: src/interface.cpp:53
+msgid "_Edit"
+msgstr "_Redigera"
+
+#: src/interface.cpp:54
+msgid "_View"
+msgstr "_Visa"
+
+#: src/interface.cpp:55
+msgid "_Help"
+msgstr "_Bevaka"
+
+#: src/interface.cpp:57
+msgid "Search for _Open Files"
+msgstr "Sök efter _filer som är öppna"
+
+#: src/interface.cpp:58
+msgid "Search for open files"
+msgstr "Sök efter öppna filer"
+
+#: src/interface.cpp:59
+msgid "_Quit"
+msgstr "_Avsluta"
+
+#: src/interface.cpp:60
+msgid "Quit the program"
+msgstr "Avsluta programmet"
+
+#: src/interface.cpp:63
+msgid "_Stop Process"
+msgstr "_Stoppa process"
+
+#: src/interface.cpp:64
+msgid "Stop process"
+msgstr "Stoppa process"
+
+#: src/interface.cpp:65
+msgid "_Continue Process"
+msgstr "_Fortsätt process"
+
+#: src/interface.cpp:66
+msgid "Continue process if stopped"
+msgstr "Fortsätt process om stoppad"
+
+#: src/interface.cpp:68 src/procdialogs.cpp:113
+msgid "_End Process"
+msgid_plural "_End Processes"
+msgstr[0] "_Avsluta process"
+msgstr[1] "_Avsluta processer"
+
+#: src/interface.cpp:69
+msgid "Force process to finish normally"
+msgstr "Tvinga process att avsluta normalt"
+
+#: src/interface.cpp:70 src/procdialogs.cpp:107
+msgid "_Kill Process"
+msgid_plural "_Kill Processes"
+msgstr[0] "_Döda process"
+msgstr[1] "_Döda processer"
+
+#: src/interface.cpp:71
+msgid "Force process to finish immediately"
+msgstr "Tvinga process att avsluta omedelbart"
+
+#: src/interface.cpp:72
+msgid "_Change Priority"
+msgstr "Ändra _prioritet"
+
+#: src/interface.cpp:73
+msgid "Change the order of priority of process"
+msgstr "Ändra prioritetsordningen för process"
+
+#: src/interface.cpp:74
+msgid "_Preferences"
+msgstr "_Inställningar"
+
+#: src/interface.cpp:75
+msgid "Configure the application"
+msgstr "Konfigurera programmet"
+
+#: src/interface.cpp:77
+msgid "_Refresh"
+msgstr "_Uppdatera"
+
+#: src/interface.cpp:78
+msgid "Refresh the process list"
+msgstr "Uppdatera processlistan"
+
+#: src/interface.cpp:80
+msgid "_Memory Maps"
+msgstr "_Minneskartor"
+
+#: src/interface.cpp:81
+msgid "Open the memory maps associated with a process"
+msgstr "Öppna minneskartorna som är associerade med en process"
+
+#. Translators: this means 'Files that are open' (open is no verb here
+#: src/interface.cpp:83
+msgid "Open _Files"
+msgstr "Öppna _filer"
+
+#: src/interface.cpp:84
+msgid "View the files opened by a process"
+msgstr "Visa de filer som öppnats av en process"
+
+#: src/interface.cpp:85
+msgid "_Properties"
+msgstr "_Egenskaper"
+
+#: src/interface.cpp:86
+msgid "View additional information about a process"
+msgstr "Visa extra information om en process"
+
+#: src/interface.cpp:89
+msgid "_Contents"
+msgstr "_Innehåll"
+
+#: src/interface.cpp:90
+msgid "Open the manual"
+msgstr "Öppna manualen"
+
+#: src/interface.cpp:91
+msgid "_About"
+msgstr "_Om"
+
+#: src/interface.cpp:92
+msgid "About this application"
+msgstr "Om detta program"
+
+#: src/interface.cpp:97
+msgid "_Dependencies"
+msgstr "_Beroenden"
+
+#: src/interface.cpp:98
+msgid "Show parent/child relationship between processes"
+msgstr "Visa förälder-/barnrelationer mellan processer"
+
+#: src/interface.cpp:105
+msgid "_Active Processes"
+msgstr "_Aktiva processer"
+
+#: src/interface.cpp:106
+msgid "Show active processes"
+msgstr "Visa aktiva processer"
+
+#: src/interface.cpp:107
+msgid "A_ll Processes"
+msgstr "A_lla processer"
+
+#: src/interface.cpp:108
+msgid "Show all processes"
+msgstr "Visa alla processer"
+
+#: src/interface.cpp:109
+msgid "M_y Processes"
+msgstr "M_ina processer"
+
+#: src/interface.cpp:110
+msgid "Show only user-owned processes"
+msgstr "Visa endast processer som ägs av en användare"
+
+#: src/interface.cpp:115 src/util.cpp:167
+msgid "Very High"
+msgstr "Mycket hög"
+
+#: src/interface.cpp:116
+msgid "Set process priority to very high"
+msgstr "Ställ in process-prioritet till mycket hög"
+
+#: src/interface.cpp:117 src/util.cpp:169
+msgid "High"
+msgstr "Hög"
+
+#: src/interface.cpp:118
+msgid "Set process priority to high"
+msgstr "Ställ in process-prioriteten till hög"
+
+#: src/interface.cpp:119 src/util.cpp:171
+msgid "Normal"
+msgstr "Normal"
+
+#: src/interface.cpp:120
+msgid "Set process priority to normal"
+msgstr "Ställ in process-prioritet till normal"
+
+#: src/interface.cpp:121 src/util.cpp:173
+msgid "Low"
+msgstr "Låg"
+
+#: src/interface.cpp:122
+msgid "Set process priority to low"
+msgstr "Ställ in process-prioriteten till låg"
+
+#: src/interface.cpp:123 src/util.cpp:175
+msgid "Very Low"
+msgstr "Mycket låg"
+
+#: src/interface.cpp:124
+msgid "Set process priority to very low"
+msgstr "Ställ in process-prioritet till mycket låg"
+
+#: src/interface.cpp:125
+msgid "Custom"
+msgstr "Anpassad"
+
+#: src/interface.cpp:126
+msgid "Set process priority manually"
+msgstr "Ställ in process-prioriteten manuellt"
+
+#. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
+#. Sending
+#: src/interface.cpp:259
+#, c-format
+msgid "Pick a Color for '%s'"
+msgstr "Välj en färg för '%s'"
+
+#: src/interface.cpp:287 src/procproperties.cpp:153
+msgid "CPU"
+msgstr "Processor"
+
+#: src/interface.cpp:289
+#, c-format
+msgid "CPU%d"
+msgstr "Processor%d"
+
+#: src/interface.cpp:324 src/interface.ui:257 src/proctable.cpp:268
+#: src/procproperties.cpp:143
+msgid "Memory"
+msgstr "Minne"
+
+#: src/interface.cpp:337 src/interface.ui:244
+msgid "Swap"
+msgstr "Växlingsutrymme"
+
+#: src/interface.cpp:365 src/interface.ui:351
+msgid "Receiving"
+msgstr "Mottaget"
+
+#: src/interface.cpp:384
+msgid "Sending"
+msgstr "Sänt"
+
+#: src/interface.ui:45
+msgid "System"
+msgstr "System"
+
+#: src/interface.ui:91
+msgid "End _Process"
+msgstr "Avsluta _process"
+
+#: src/interface.ui:114 src/preferences.ui:310
+msgid "Processes"
+msgstr "Processer"
+
+#: src/interface.ui:140
+msgid "CPU History"
+msgstr "Processorhistorik"
+
+#: src/interface.ui:206
+msgid "Memory and Swap History"
+msgstr "Historik över användning av minne och växlingsutrymme"
+
+#: src/interface.ui:315
+msgid "Network History"
+msgstr "Nätverkshistorik"
+
+#: src/interface.ui:364
+msgid "Total Received"
+msgstr "Totalt mottaget"
+
+#: src/interface.ui:377
+msgid "Sent"
+msgstr "Skickat"
+
+#: src/interface.ui:390
+msgid "Total Sent"
+msgstr "Totalt sänt"
+
+#: src/interface.ui:482 src/preferences.ui:437
+msgid "Resources"
+msgstr "Resurser"
+
+#: src/interface.ui:522 src/preferences.ui:649
+msgid "File Systems"
+msgstr "Filsystem"
+
+#: src/load-graph.cpp:176
+#, c-format
+msgid "%u second"
+msgid_plural "%u seconds"
+msgstr[0] "%u sekund"
+msgstr[1] "%u sekunder"
+
+#: src/load-graph.cpp:349
+msgid "not available"
+msgstr "inte tillgänglig"
+
+#. xgettext: 540MiB (53 %) of 1.0 GiB
+#: src/load-graph.cpp:352
+#, c-format
+msgid "%s (%.1f%%) of %s"
+msgstr "%s (%.1f%%) av %s"
+
+#: src/load-graph.cpp:603 src/load-graph.cpp:610 src/util.cpp:506
+#, c-format
+msgid "%s/s"
+msgstr "%s/s"
+
+#: src/lsof.cpp:123
+msgid "Error"
+msgstr "Fel"
+
+#: src/lsof.cpp:124
+#, c-format
+msgid "'%s' is not a valid Perl regular expression."
+msgstr "'%s' är inte ett giltigt reguljärt uttryck i Perl."
+
+#: src/lsof.cpp:270
+msgid "Process"
+msgstr "Process"
+
+#: src/lsof.cpp:282
+msgid "PID"
+msgstr "PID"
+
+#: src/lsof.cpp:292 src/memmaps.cpp:305
+msgid "Filename"
+msgstr "Filnamn"
+
+#. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
+#: src/lsof.cpp:309
+msgid "Search for Open Files"
+msgstr "Sök efter öppna filer"
+
+#: src/lsof.cpp:336
+msgid "_Name contains:"
+msgstr "_Namn innehåller:"
+
+#. The default accelerator collides with the default close accelerator.
+#: src/lsof.cpp:357
+msgid "C_lear"
+msgstr "R_ensa"
+
+#: src/lsof.cpp:361
+msgid "Case insensitive matching"
+msgstr "Matchning inte känslig för skiftläge"
+
+#: src/lsof.cpp:369
+msgid "S_earch results:"
+msgstr "S_ökresultat:"
+
+#. xgettext: virtual memory start
+#: src/memmaps.cpp:307
+msgid "VM Start"
+msgstr "VM-start"
+
+#. xgettext: virtual memory end
+#: src/memmaps.cpp:309
+msgid "VM End"
+msgstr "VM-slut"
+
+#. xgettext: virtual memory syze
+#: src/memmaps.cpp:311
+msgid "VM Size"
+msgstr "VM-storlek"
+
+#: src/memmaps.cpp:312
+msgid "Flags"
+msgstr "Flaggor"
+
+#. xgettext: virtual memory offset
+#: src/memmaps.cpp:314
+msgid "VM Offset"
+msgstr "VM-offset"
+
+#. xgettext: memory that has not been modified since
+#. it has been allocated
+#: src/memmaps.cpp:317
+msgid "Private clean"
+msgstr "Privat rent"
+
+#. xgettext: memory that has been modified since it
+#. has been allocated
+#: src/memmaps.cpp:320
+msgid "Private dirty"
+msgstr "Privat fult"
+
+#. xgettext: shared memory that has not been modified
+#. since it has been allocated
+#: src/memmaps.cpp:323
+msgid "Shared clean"
+msgstr "Delat rent"
+
+#. xgettext: shared memory that has been modified
+#. since it has been allocated
+#: src/memmaps.cpp:326
+msgid "Shared dirty"
+msgstr "Delat fult"
+
+#: src/memmaps.cpp:328
+msgid "Inode"
+msgstr "Inod"
+
+#: src/memmaps.cpp:432
+msgid "Memory Maps"
+msgstr "Minneskartor"
+
+#: src/memmaps.cpp:444
+#, c-format
+msgid "_Memory maps for process \"%s\" (PID %u):"
+msgstr "_Minneskartor för processen \"%s\" (PID %u):"
+
+#: src/openfiles.cpp:38
+msgid "file"
+msgstr "fil"
+
+#: src/openfiles.cpp:40
+msgid "pipe"
+msgstr "rör"
+
+#: src/openfiles.cpp:42
+msgid "IPv6 network connection"
+msgstr "IPv6-nätverksanslutning"
+
+#: src/openfiles.cpp:44
+msgid "IPv4 network connection"
+msgstr "IPv4-nätverksanslutning"
+
+#: src/openfiles.cpp:46
+msgid "local socket"
+msgstr "lokalt uttag"
+
+#: src/openfiles.cpp:48
+msgid "unknown type"
+msgstr "okänd typ"
+
+#. Translators: "FD" here means "File Descriptor". Please use
+#. a very short translation if possible, and at most
+#. 2-3 characters for it to be able to fit in the UI.
+#: src/openfiles.cpp:255
+msgid "FD"
+msgstr "FD"
+
+#: src/openfiles.cpp:257
+msgid "Object"
+msgstr "Objekt"
+
+#: src/openfiles.cpp:328
+msgid "Open Files"
+msgstr "Öppna filer"
+
+#: src/openfiles.cpp:349
+#, c-format
+msgid "_Files opened by process \"%s\" (PID %u):"
+msgstr "_Filer som öppnats av processen \"%s\" (PID %u):"
+
+#: src/org.mate.system-monitor.gschema.xml.in:6
+msgid "Main window size and position in the form (width, height, xpos, ypos)"
+msgstr "Huvudfönsterstorlek och position i formatet (bredd, höjd, XPOS, ypos)"
+
+#: src/org.mate.system-monitor.gschema.xml.in:10
+msgid ""
+"If TRUE, main window will open maximized, and saved size and position values"
+" are ignored."
+msgstr ""
+"Om SANT så kommer huvudfönstret att öppnas maximerat och sparade "
+"storleks-/positionsvärden kommer ignoreras."
+
+#: src/org.mate.system-monitor.gschema.xml.in:14
+msgid "Show process dependencies in tree form"
+msgstr "Visa processberoenden i trädform"
+
+#: src/org.mate.system-monitor.gschema.xml.in:18
+msgid "Solaris mode for CPU percentage"
+msgstr "Solaris-läge för procentandel för processor"
+
+#: src/org.mate.system-monitor.gschema.xml.in:19
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
+"is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
+"mode'."
+msgstr ""
+"Om TRUE kommer system-monitor att köra i \"Solaris-läge\" där en "
+"processoranvändningen för en process delas med det totala antalet "
+"processorer. Annars kommer det att köra i \"Irix-läge\"."
+
+#: src/org.mate.system-monitor.gschema.xml.in:23
+msgid "Enable/Disable smooth refresh"
+msgstr "Aktivera/Inaktivera mjuk uppdatering"
+
+#: src/org.mate.system-monitor.gschema.xml.in:27
+msgid "Show warning dialog when killing processes"
+msgstr "Visa varningsdialog då processer dödas"
+
+#: src/org.mate.system-monitor.gschema.xml.in:31
+msgid "Time in milliseconds between updates of the process view"
+msgstr "Tid i millisekunder mellan uppdateringar av processvyn"
+
+#: src/org.mate.system-monitor.gschema.xml.in:35
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "Tid i millisekunder mellan uppdateringar av diagrammen"
+
+#: src/org.mate.system-monitor.gschema.xml.in:39
+msgid "Whether information about all file systems should be displayed"
+msgstr "Huruvida information om alla filsystem ska visas"
+
+#: src/org.mate.system-monitor.gschema.xml.in:40
+msgid ""
+"Whether to display information about all file systems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"file systems."
+msgstr ""
+"Huruvida information om alla filsystem ska visas (inklusive filsystemstyper "
+"som \"autofs\" och \"procfs\"). Det kan vara användbart att få en lista över"
+" för tillfället monterade filsystem."
+
+#: src/org.mate.system-monitor.gschema.xml.in:44
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "Tid i millisekunder mellan uppdateringar av enhetslistan"
+
+#: src/org.mate.system-monitor.gschema.xml.in:48
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr ""
+"Bestämmer vilka processer som visas som standard. 0 är alla, 1 är användare,"
+" och 2 är aktiva"
+
+#: src/org.mate.system-monitor.gschema.xml.in:52
+msgid "Saves the currently viewed tab"
+msgstr "Sparar den för tillfället visade fliken"
+
+#: src/org.mate.system-monitor.gschema.xml.in:53
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr ""
+"0 för systeminformation, 1 för processlista, 2 för resurser och 3 för lista "
+"över diskar"
+
+#: src/org.mate.system-monitor.gschema.xml.in:57
+#: src/org.mate.system-monitor.gschema.xml.in:61
+#: src/org.mate.system-monitor.gschema.xml.in:65
+#: src/org.mate.system-monitor.gschema.xml.in:69
+#: src/org.mate.system-monitor.gschema.xml.in:73
+#: src/org.mate.system-monitor.gschema.xml.in:77
+#: src/org.mate.system-monitor.gschema.xml.in:85
+#: src/org.mate.system-monitor.gschema.xml.in:89
+#: src/org.mate.system-monitor.gschema.xml.in:93
+#: src/org.mate.system-monitor.gschema.xml.in:97
+#: src/org.mate.system-monitor.gschema.xml.in:101
+#: src/org.mate.system-monitor.gschema.xml.in:105
+#: src/org.mate.system-monitor.gschema.xml.in:109
+#: src/org.mate.system-monitor.gschema.xml.in:113
+#: src/org.mate.system-monitor.gschema.xml.in:117
+#: src/org.mate.system-monitor.gschema.xml.in:121
+#: src/org.mate.system-monitor.gschema.xml.in:125
+#: src/org.mate.system-monitor.gschema.xml.in:129
+#: src/org.mate.system-monitor.gschema.xml.in:133
+#: src/org.mate.system-monitor.gschema.xml.in:137
+#: src/org.mate.system-monitor.gschema.xml.in:141
+#: src/org.mate.system-monitor.gschema.xml.in:145
+#: src/org.mate.system-monitor.gschema.xml.in:149
+#: src/org.mate.system-monitor.gschema.xml.in:153
+#: src/org.mate.system-monitor.gschema.xml.in:157
+#: src/org.mate.system-monitor.gschema.xml.in:161
+#: src/org.mate.system-monitor.gschema.xml.in:165
+#: src/org.mate.system-monitor.gschema.xml.in:169
+#: src/org.mate.system-monitor.gschema.xml.in:173
+#: src/org.mate.system-monitor.gschema.xml.in:177
+#: src/org.mate.system-monitor.gschema.xml.in:181
+msgid "Default graph CPU color"
+msgstr "Standard graf CPU färg"
+
+#: src/org.mate.system-monitor.gschema.xml.in:81
+msgid "Default graph cpu color"
+msgstr "Färg på standarddiagram för processor"
+
+#: src/org.mate.system-monitor.gschema.xml.in:185
+msgid "Default graph memory color"
+msgstr "Standard graf minne färg"
+
+#: src/org.mate.system-monitor.gschema.xml.in:189
+msgid "Default graph swap color"
+msgstr "Färg på standarddiagram för växlingsutrymme"
+
+#: src/org.mate.system-monitor.gschema.xml.in:193
+msgid "Default graph incoming network traffic color"
+msgstr "Färg på standarddiagram för inkommande nätverkstrafik"
+
+#: src/org.mate.system-monitor.gschema.xml.in:197
+msgid "Default graph outgoing network traffic color"
+msgstr "Färg på standarddiagram för utgående nätverkstrafik"
+
+#: src/org.mate.system-monitor.gschema.xml.in:202
+msgid "Show network traffic in bits"
+msgstr "Visa nätverkstrafik i bits"
+
+#: src/org.mate.system-monitor.gschema.xml.in:212
+msgid "Process view sort column"
+msgstr "Sorteringskolumn för processvyn"
+
+#: src/org.mate.system-monitor.gschema.xml.in:216
+msgid "Process view columns order"
+msgstr "Kolumnordning för processvyn"
+
+#: src/org.mate.system-monitor.gschema.xml.in:220
+msgid "Process view sort order"
+msgstr "Sorteringsordning för processvyn"
+
+#: src/org.mate.system-monitor.gschema.xml.in:224
+msgid "Width of process 'Name' column"
+msgstr "Bredd på processkolumnen 'Namn'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:228
+msgid "Show process 'Name' column on startup"
+msgstr "Visa processkolumnen 'Namn' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:232
+msgid "Width of process 'User' column"
+msgstr "Bredd på processkolumnen 'Användare'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:236
+msgid "Show process 'User' column on startup"
+msgstr "Visa processkolumnen 'Användare' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:240
+msgid "Width of process 'Status' column"
+msgstr "Bredd på processkolumnen 'Status'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:244
+msgid "Show process 'Status' column on startup"
+msgstr "Visa processkolumnen 'Status' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:248
+msgid "Width of process 'Virtual Memory' column"
+msgstr "Bredd på processkolumnen 'Virtuellt minne'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:252
+msgid "Show process 'Virtual Memory' column on startup"
+msgstr "Visa processkolumnen 'Virtuellt minne' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:256
+msgid "Width of process 'Resident Memory' column"
+msgstr "Bredd på processkolumnen 'Fast minne'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:260
+msgid "Show process 'Resident Memory' column on startup"
+msgstr "Visa processkolumnen 'Fast minne' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:264
+msgid "Width of process 'Writable Memory' column"
+msgstr "Bredd på processkolumnen 'Skrivbart minne'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:268
+msgid "Show process 'Writable Memory' column on startup"
+msgstr "Visa processkolumnen 'Skrivbart minne' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:272
+msgid "Width of process 'Shared Memory' column"
+msgstr "Bredd på processkolumnen 'Delat minne'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:276
+msgid "Show process 'Shared Memory' column on startup"
+msgstr "Visa processkolumnen 'Delat minne' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:280
+msgid "Width of process 'X Server Memory' column"
+msgstr "Bredd på processkolumnen 'X-serverminne'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:284
+msgid "Show process 'X Server Memory' column on startup"
+msgstr "Visa processkolumnen 'X-serverminne' vid uppstart"
+
+#. makepot: remove comment
+#: src/org.mate.system-monitor.gschema.xml.in:289
+msgid "Width of process '% CPU' column"
+msgstr "Bredd på processkolumnen 'CPU %'"
+
+#. makepot: remove comment
+#: src/org.mate.system-monitor.gschema.xml.in:294
+msgid "Show process '% CPU' column on startup"
+msgstr "Visa processkolumnen \"CPU %\" vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:298
+msgid "Width of process 'CPU Time' column"
+msgstr "Bredd på processkolumnen \"Processortid\""
+
+#: src/org.mate.system-monitor.gschema.xml.in:302
+msgid "Show process 'CPU Time' column on startup"
+msgstr "Visa processkolumnen \"Processortid\" vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:306
+msgid "Width of process 'Started' column"
+msgstr "Bredd på processkolumnen 'Startad'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:310
+msgid "Show process 'Started' column on startup"
+msgstr "Visa processkolumnen 'Startad' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:314
+msgid "Width of process 'Nice' column"
+msgstr "Bredd på processkolumnen 'Fin'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:318
+msgid "Show process 'Nice' column on startup"
+msgstr "Visa processkolumnen 'Fin' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:322
+msgid "Width of process 'ID' column"
+msgstr "Bredd på processkolumnen \"ID\""
+
+#: src/org.mate.system-monitor.gschema.xml.in:326
+msgid "Show process 'ID' column on startup"
+msgstr "Visa processkolumnen \"ID\" vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:330
+msgid "Width of process 'Security Context' column"
+msgstr "Bredd på processkolumnen 'Säkerhetskontext'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:334
+msgid "Show process 'Security Context' column on startup"
+msgstr "Visa processkolumnen 'Säkerhetskontext' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:338
+msgid "Width of process 'Command Line' column"
+msgstr "Bredd på processkolumnen 'Kommandorad'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:342
+msgid "Show process 'Command Line' column on startup"
+msgstr "Visa processkolumnen 'Kommandorad' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:346
+msgid "Width of process 'Memory' column"
+msgstr "Bredd på processkolumnen 'Minne'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:350
+msgid "Show process 'Memory' column on startup"
+msgstr "Visa processkolumnen 'Minne' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:354
+msgid "Width of process 'Waiting Channel' column"
+msgstr "Bredd på processkolumnen \"Väntande kanal\""
+
+#: src/org.mate.system-monitor.gschema.xml.in:358
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "Visa processkolumnen \"Väntande kanal\" vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:362
+msgid "Width of process 'Control Group' column"
+msgstr "Bredd på processkolumnen 'Kontrollgrupp'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:366
+msgid "Show process 'Control Group' column on startup"
+msgstr "Visa processkolumnen 'Kontrollgrupp' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:370
+msgid "Width of process 'Unit' column"
+msgstr "Bredd på processkolumnen 'Enhet'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:374
+msgid "Show process 'Unit' column on startup"
+msgstr "Visa processkolumnen 'Enhet' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:378
+msgid "Width of process 'Session' column"
+msgstr "Bredd på processkolumnen 'Session'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:382
+msgid "Show process 'Session' column on startup"
+msgstr "Visa processkolumnen 'Session' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:386
+msgid "Width of process 'Seat' column"
+msgstr "Bredd på processkolumnen 'Sittplats'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:390
+msgid "Show process 'Seat' column on startup"
+msgstr "Visa processkolumnen 'Sittplats' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:394
+msgid "Width of process 'Owner' column"
+msgstr "Bredd på processkolumnen 'Ägare'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:398
+msgid "Show process 'Owner' column on startup"
+msgstr "Visa processkolumnen 'Ägare' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:402
+msgid "Width of process “Disk Write Total” column"
+msgstr "Bredd på processen \"Diskskrivning totalt\" kolumn"
+
+#: src/org.mate.system-monitor.gschema.xml.in:406
+msgid "Show process “Disk Write Total” column on startup"
+msgstr "Visa processens \"Diskskrivning totalt\"-kolumn vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:410
+msgid "Width of process “Disk Read Total” column"
+msgstr "Bredd på processens kolumn \"Disk Read Total\""
+
+#: src/org.mate.system-monitor.gschema.xml.in:414
+msgid "Show process “Disk Read Total” column on startup"
+msgstr "Visa processens \"Diskläsning totalt\"-kolumn vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:418
+msgid "Width of process “Disk Read” column"
+msgstr "Bredd på processens kolumn \"Disk Read\""
+
+#: src/org.mate.system-monitor.gschema.xml.in:422
+msgid "Show process “Disk Read” column on startup"
+msgstr "Visa processens \"Diskläsning\"-kolumn vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:426
+msgid "Width of process “Disk Write” column"
+msgstr "Bredd på processen \"Disk Write\" kolumn"
+
+#: src/org.mate.system-monitor.gschema.xml.in:430
+msgid "Show process “Disk Write” column on startup"
+msgstr "Visa processens \"Diskskrivning\"-kolumn vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:434
+msgid "Width of process “Priority” column"
+msgstr "Bredd på kolumnen \"Prioritet\" för processen"
+
+#: src/org.mate.system-monitor.gschema.xml.in:438
+msgid "Show process “Priority” column on startup"
+msgstr "Visa processens \"Prioritet\"-kolumn vid start"
+
+#: src/org.mate.system-monitor.gschema.xml.in:444
+msgid "Disk view sort column"
+msgstr "Kolumnsortering för diskvyn"
+
+#: src/org.mate.system-monitor.gschema.xml.in:448
+msgid "Disk view sort order"
+msgstr "Sorteringsordning för diskvy"
+
+#: src/org.mate.system-monitor.gschema.xml.in:452
+msgid "Disk view columns order"
+msgstr "Kolumnordning för diskvyn"
+
+#: src/org.mate.system-monitor.gschema.xml.in:456
+msgid "Width of disk view 'Device' column"
+msgstr "Bredd på diskvykolumen 'Enhet'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:460
+msgid "Show disk view 'Device' column on startup"
+msgstr "Visa diskvykolumnen 'Enhet' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:464
+msgid "Width of disk view 'Directory' column"
+msgstr "Bredd på diskvykolumen 'Katalog'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:468
+msgid "Show disk view 'Directory' column on startup"
+msgstr "Visa diskvykolumnen 'Katalog' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:472
+msgid "Width of disk view 'Type' column"
+msgstr "Bredd på diskvykolumen 'Typ'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:476
+msgid "Show disk view 'Type' column on startup"
+msgstr "Visa diskvykolumnen 'Typ' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:480
+msgid "Width of disk view 'SubVol' column"
+msgstr "Bredd på kolumnen \"SubVol\" för diskvy"
+
+#: src/org.mate.system-monitor.gschema.xml.in:484
+msgid "Show disk view 'SubVol' column on startup"
+msgstr "Visa kolumnen 'SubVol' i diskvyn vid start"
+
+#: src/org.mate.system-monitor.gschema.xml.in:488
+msgid "Width of disk view 'Total' column"
+msgstr "Bredd på diskvykolumen 'Total'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:492
+msgid "Show disk view 'Total' column on startup"
+msgstr "Visa diskvykolumnen 'Total' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:496
+msgid "Width of disk view 'Free' column"
+msgstr "Bredd på diskvykolumen 'Fri'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:500
+msgid "Show disk view 'Free' column on startup"
+msgstr "Visa diskvykolumnen 'Fri' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:504
+msgid "Width of disk view 'Available' column"
+msgstr "Bredd på diskvykolumen 'Tillgängligt'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:508
+msgid "Show disk view 'Available' column on startup"
+msgstr "Visa diskvykolumnen 'Tillgängligt' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:512
+msgid "Width of disk view 'Used' column"
+msgstr "Bredd på diskvykolumen 'Använt'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:516
+msgid "Show disk view 'Used' column on startup"
+msgstr "Visa diskvykolumnen 'Använt' vid uppstart"
+
+#: src/org.mate.system-monitor.gschema.xml.in:522
+msgid "Memory map sort column"
+msgstr "Sorteringskolumnen för Minneskarta"
+
+#: src/org.mate.system-monitor.gschema.xml.in:526
+msgid "Memory map sort order"
+msgstr "Sorteringsordning för Minneskarta"
+
+#: src/org.mate.system-monitor.gschema.xml.in:532
+msgid "Open files sort column"
+msgstr "Sorteringskolumnen för Öppna filer"
+
+#: src/org.mate.system-monitor.gschema.xml.in:536
+msgid "Open files sort order"
+msgstr "Sorteringsorder för Öppna filer"
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Inställningar för systemövervakaren"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Beteende"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Uppdateringsintervall i sekunder:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Aktivera _mjuk uppdatering"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Varna innan processer avslutas eller _dödas"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr "_Dividera CPU-användning med CPU-antal"
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Informationsfält"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "Processi_nformation visad i listan:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Diagram"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr "_Visa nätverkshastighet i bitar"
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Visa _alla filsystem"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "Filsystemsi_nformation visad i listan:"
+
+#: src/procactions.cpp:77
+#, c-format
+msgid ""
+"Cannot change the priority of process with PID %d to %d.\n"
+"%s"
+msgstr ""
+"Kan inte ändra prioriteten för processen med PID %d till %d.\n"
+"%s"
+
+#: src/procactions.cpp:157
+#, c-format
+msgid ""
+"Cannot kill process with PID %d with signal %d.\n"
+"%s"
+msgstr ""
+"Kan inte döda processen med PID %d med signal %d.\n"
+"%s"
+
+#. xgettext: primary alert message for killing single process
+#: src/procdialogs.cpp:80
+#, c-format
+msgid "Are you sure you want to kill the selected process “%s” (PID: %u)?"
+msgstr "Är du säker på att du vill döda den valda processen \"%s\" (PID: %u)?"
+
+#. xgettext: primary alert message for ending single process
+#: src/procdialogs.cpp:85
+#, c-format
+msgid "Are you sure you want to end the selected process “%s” (PID: %u)?"
+msgstr "Är du säker på att du vill avsluta den valda processen \"%s\" (PID: %u)?"
+
+#. xgettext: primary alert message for killing multiple processes
+#: src/procdialogs.cpp:92
+#, c-format
+msgid "Are you sure you want to kill the %d selected processes?"
+msgstr "Är du säker på att du vill döda de %d valda processerna?"
+
+#. xgettext: primary alert message for ending multiple processes
+#: src/procdialogs.cpp:96
+#, c-format
+msgid "Are you sure you want to end the %d selected processes?"
+msgstr "Är du säker på att du vill avsluta de %d valda processerna?"
+
+#. xgettext: secondary alert message
+#: src/procdialogs.cpp:104
+msgid ""
+"Killing a process may destroy data, break the session or introduce a "
+"security risk. Only unresponsive processes should be killed."
+msgstr ""
+"Att döda en process kan förstöra data, ha sönder sessionen eller skapa en "
+"säkerhetsrisk. Endast processer som inte svarar bör dödas."
+
+#. xgettext: secondary alert message
+#: src/procdialogs.cpp:110
+msgid ""
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponsive processes should be ended."
+msgstr ""
+"Att avsluta en process kan förstöra data, ha sönder sessionen eller skapa en"
+" säkerhetsrisk. Endast processer som inte svarar bör avslutas."
+
+#: src/procdialogs.cpp:148 src/procdialogs.cpp:247
+#, c-format
+msgid "(%s Priority)"
+msgstr "(%s prioritet)"
+
+#: src/procdialogs.cpp:197
+#, c-format
+msgid "Change Priority of Process “%s” (PID: %u)"
+msgstr "Ändra prioritet för processen ”%s” (PID: %u)"
+
+#: src/procdialogs.cpp:200
+#, c-format
+msgid "Change Priority of %d Selected Processes"
+msgstr "Ändra prioritet för %d valda processer"
+
+#: src/procdialogs.cpp:214
+msgid "Change _Priority"
+msgstr "Ändra _prioritet"
+
+#: src/procdialogs.cpp:237
+msgid "_Nice value:"
+msgstr "_Nice-värde:"
+
+#: src/procdialogs.cpp:252
+msgid "Note:"
+msgstr "Observera:"
+
+#: src/procdialogs.cpp:253
+msgid ""
+"The priority of a process is given by its nice value. A lower nice value "
+"corresponds to a higher priority."
+msgstr ""
+"Prioriteten hos en process ges av dess nice-värde. Ett lägre nice-värde "
+"motsvarar en högre prioritet."
+
+#: src/procdialogs.cpp:423
+msgid "Icon"
+msgstr "Ikon"
+
+#: src/proctable.cpp:253 src/procproperties.cpp:140
+msgid "Process Name"
+msgstr "Processnamn"
+
+#: src/proctable.cpp:254 src/procproperties.cpp:141
+msgid "User"
+msgstr "Användare"
+
+#: src/proctable.cpp:255 src/procproperties.cpp:142
+msgid "Status"
+msgstr "Status"
+
+#: src/proctable.cpp:256 src/procproperties.cpp:144
+msgid "Virtual Memory"
+msgstr "Virtuellt minne"
+
+#: src/proctable.cpp:257 src/procproperties.cpp:145
+msgid "Resident Memory"
+msgstr "Beständigt minne"
+
+#: src/proctable.cpp:258 src/procproperties.cpp:146
+msgid "Writable Memory"
+msgstr "Skrivbart minne"
+
+#: src/proctable.cpp:259 src/procproperties.cpp:147
+msgid "Shared Memory"
+msgstr "Delat minne"
+
+#: src/proctable.cpp:260 src/procproperties.cpp:149
+msgid "X Server Memory"
+msgstr "X-serverminne"
+
+#: src/proctable.cpp:261
+#, no-c-format
+msgid "% CPU"
+msgstr "Processor %"
+
+#: src/proctable.cpp:262 src/procproperties.cpp:154
+msgid "CPU Time"
+msgstr "Processortid"
+
+#: src/proctable.cpp:263 src/procproperties.cpp:155
+msgid "Started"
+msgstr "Startad"
+
+#: src/proctable.cpp:264 src/procproperties.cpp:156
+msgid "Nice"
+msgstr "Processprioritet"
+
+#: src/proctable.cpp:265 src/procproperties.cpp:158
+msgid "ID"
+msgstr "ID"
+
+#: src/proctable.cpp:266 src/procproperties.cpp:159
+msgid "Security Context"
+msgstr "Säkerhetskontext"
+
+#: src/proctable.cpp:267 src/procproperties.cpp:160
+msgid "Command Line"
+msgstr "Kommandorad"
+
+#. xgettext: combined noun, the function the process is waiting in, see wchan
+#. ps(1)
+#: src/proctable.cpp:270 src/procproperties.cpp:161
+msgid "Waiting Channel"
+msgstr "Väntande kanal"
+
+#: src/proctable.cpp:271 src/procproperties.cpp:162
+msgid "Control Group"
+msgstr "Kontrollgrupp"
+
+#: src/proctable.cpp:272
+msgid "Unit"
+msgstr "Enhet"
+
+#: src/proctable.cpp:273
+msgid "Session"
+msgstr "Session"
+
+#. TRANSLATORS: Seat = i.e. the physical seat the session of the process
+#. belongs to, only
+#. for multi-seat environments. See
+#. http://en.wikipedia.org/wiki/Multiseat_configuration
+#: src/proctable.cpp:276
+msgid "Seat"
+msgstr "Säte"
+
+#: src/proctable.cpp:277
+msgid "Owner"
+msgstr "Ägare"
+
+#: src/proctable.cpp:278 src/procproperties.cpp:151
+msgid "Disk Read Total"
+msgstr "Diskläsning Totalt"
+
+#: src/proctable.cpp:279 src/procproperties.cpp:152
+msgid "Disk Write Total"
+msgstr "Diskskrivning totalt"
+
+#: src/proctable.cpp:280
+msgid "Disk Read"
+msgstr "Diskläsning"
+
+#: src/proctable.cpp:281
+msgid "Disk Write"
+msgstr "Diskskrivning"
+
+#: src/proctable.cpp:282 src/procproperties.cpp:157
+msgid "Priority"
+msgstr "Prioritet"
+
+#: src/proctable.cpp:1180
+#, c-format
+msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
+msgstr ""
+"Belastningsgenomsnitt för de senaste 1, 5, 15 minuterna: %0.2f, %0.2f, %0.2f"
+
+#: src/procproperties.cpp:114 src/procproperties.cpp:123
+#: src/procproperties.cpp:159 src/procproperties.cpp:162 src/util.cpp:390
+#: src/util.cpp:462 src/util.cpp:500
+msgid "N/A"
+msgstr "N/A"
+
+#: src/procproperties.cpp:270
+msgid "Process Properties"
+msgstr "Processegenskaper"
+
+#: src/procproperties.cpp:290
+#, c-format
+msgid "Properties of process \"%s\" (PID %u):"
+msgstr "Egenskaper för process \"%s\" (PID %u):"
+
+#. Translators: The first string parameter is release version (codename),
+#. * the second one is the architecture, 32 or 64-bit
+#: src/sysinfo.cpp:82
+#, c-format
+msgid "Release %s %s"
+msgstr "Utgåva %s %s"
+
+#. Translators: The string parameter is the architecture, 32 or 64-bit
+#: src/sysinfo.cpp:89
+#, c-format
+msgid "%s Version"
+msgstr "%s Version"
+
+#. Translators: The string parameter is release version (codename)
+#: src/sysinfo.cpp:94
+#, c-format
+msgid "Release %s"
+msgstr "Utgåva %s"
+
+#. translators: This is the type of architecture, for example:
+#. * "64-bit" or "32-bit"
+#: src/sysinfo.cpp:137
+#, c-format
+msgid "%d-bit"
+msgstr "%d-bitar"
+
+#: src/sysinfo.cpp:298
+msgid "Unknown"
+msgstr "Okänt"
+
+#: src/sysinfo.cpp:979
+#, c-format
+msgid "Kernel %s"
+msgstr "Kärna %s"
+
+#: src/sysinfo.cpp:992
+#, c-format
+msgid "MATE %s"
+msgstr "MATE %s"
+
+#. hardware section
+#: src/sysinfo.cpp:1006
+msgid "Hardware"
+msgstr "Hårdvara"
+
+#: src/sysinfo.cpp:1011
+msgid "Memory:"
+msgstr "Minne:"
+
+#: src/sysinfo.cpp:1014
+msgid "Processor:"
+msgstr "Processor:"
+
+#: src/sysinfo.cpp:1016
+msgid "Graphics:"
+msgstr "Grafik:"
+
+#. disk space section
+#: src/sysinfo.cpp:1021
+msgid "System Status"
+msgstr "Systemstatus"
+
+#: src/sysinfo.cpp:1026
+msgid "Available disk space:"
+msgstr "Tillgängligt diskutrymme:"
+
+#: src/util.cpp:31
+msgid "Today %l:%M %p"
+msgstr "Idag %l:%M %p"
+
+#: src/util.cpp:33
+msgid "Yesterday %l:%M %p"
+msgstr "Igår %l:%M %p"
+
+#: src/util.cpp:35
+msgid "%a %l:%M %p"
+msgstr "%a %l:%M %p"
+
+#: src/util.cpp:37
+msgid "%b %d %l:%M %p"
+msgstr "%b %d %l:%M %p"
+
+#: src/util.cpp:39
+msgid "%b %d %Y"
+msgstr "%b %d %Y"
+
+#: src/util.cpp:57
+msgid "Running"
+msgstr "Kör"
+
+#: src/util.cpp:61
+msgid "Stopped"
+msgstr "Stoppad"
+
+#: src/util.cpp:65
+msgid "Zombie"
+msgstr "Zombie"
+
+#: src/util.cpp:69
+msgid "Uninterruptible"
+msgstr "Oavbrytbar"
+
+#: src/util.cpp:73
+msgid "Sleeping"
+msgstr "Sover"
+
+#. xgettext: weeks, days
+#: src/util.cpp:128
+#, c-format
+msgid "%uw%ud"
+msgstr "%uv%ud"
+
+#. xgettext: days, hours (0 -> 23)
+#: src/util.cpp:132
+#, c-format
+msgid "%ud%02uh"
+msgstr "%ud%02uh"
+
+#. xgettext: hours (0 -> 23), minutes, seconds
+#: src/util.cpp:136
+#, c-format
+msgid "%u:%02u:%02u"
+msgstr "%u.%02u.%02u"
+
+#. xgettext: minutes, seconds, centiseconds
+#: src/util.cpp:139
+#, c-format
+msgid "%u:%02u.%02u"
+msgstr "%u.%02u.%02u"
