@@ -1,0 +1,82 @@
+# MATE translation status
+
+Updated: 11 October 2026
+
+This inventory comes from the Fedora Weblate API. “Locked” means the component cannot currently receive uploads through Weblate.
+
+| Component | Weblate state | Swedish strings | Fuzzy |
+| --- | --- | ---: | ---: |
+| [atril](https://translate.fedoraproject.org/projects/mate-desktop/applications/atril/sv/) | available | 512 / 512 | 0 |
+| [atril-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/atril-help/sv/) | available | 517 / 517 | 0 |
+| [caja](https://translate.fedoraproject.org/projects/mate-desktop/applications/caja/sv/) | available | 1616 / 1616 | 0 |
+| [caja-actions](https://translate.fedoraproject.org/projects/mate-desktop/applications/caja-actions/sv/) | available | 739 / 739 | 0 |
+| [caja-actions-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/caja-actions-help/sv/) | available | 777 / 777 | 0 |
+| [caja-dropbox](https://translate.fedoraproject.org/projects/mate-desktop/applications/caja-dropbox/sv/) | available | 14 / 14 | 0 |
+| [caja-extensions](https://translate.fedoraproject.org/projects/mate-desktop/applications/caja-extensions/sv/) | available | 181 / 181 | 0 |
+| [engrampa](https://translate.fedoraproject.org/projects/mate-desktop/applications/engrampa/sv/) | available | 418 / 418 | 0 |
+| [engrampa-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/engrampa-help/sv/) | available | 465 / 465 | 0 |
+| [eom](https://translate.fedoraproject.org/projects/mate-desktop/applications/eom/sv/) | available | 341 / 341 | 0 |
+| [eom-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/eom-help/sv/) | available | 201 / 201 | 0 |
+| [glossary](https://translate.fedoraproject.org/projects/mate-desktop/glossary/sv/) | available | 0 / 0 | 0 |
+| [libmatekbd](https://translate.fedoraproject.org/projects/mate-desktop/applications/libmatekbd/sv/) | available | 91 / 91 | 0 |
+| [libmatemixer](https://translate.fedoraproject.org/projects/mate-desktop/applications/libmatemixer/sv/) | available | 126 / 126 | 0 |
+| [libmateweather](https://translate.fedoraproject.org/projects/mate-desktop/applications/libmateweather/sv/) | available | 184 / 184 | 0 |
+| [libmateweather-locations](https://translate.fedoraproject.org/projects/mate-desktop/applications/libmateweather-locations/sv/) | available | 4414 / 4414 | 0 |
+| [marco](https://translate.fedoraproject.org/projects/mate-desktop/applications/marco/sv/) | available | 433 / 433 | 0 |
+| [mate-applets](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-applets/sv/) | available | 630 / 630 | 0 |
+| [mate-applets-accessx-status](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-applets-accessx-status/sv/) | available | 67 / 67 | 0 |
+| [mate-applets-battstat](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-applets-battstat/sv/) | available | 104 / 104 | 0 |
+| [mate-applets-charpick](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-applets-charpick/sv/) | available | 90 / 90 | 0 |
+| [mate-applets-cpufreq](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-applets-cpufreq/sv/) | available | 91 / 91 | 0 |
+| [mate-applets-drivemount](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-applets-drivemount/sv/) | available | 67 / 67 | 0 |
+| [mate-applets-geyes](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-applets-geyes/sv/) | available | 53 / 53 | 0 |
+| [mate-applets-multiload](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-applets-multiload/sv/) | available | 139 / 139 | 0 |
+| [mate-applets-netspeed](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-applets-netspeed/sv/) | available | 82 / 82 | 0 |
+| [mate-applets-stickynotes](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-applets-stickynotes/sv/) | available | 124 / 124 | 0 |
+| [mate-applets-trash](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-applets-trash/sv/) | available | 48 / 48 | 0 |
+| [mate-applets-weather](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-applets-weather/sv/) | available | 160 / 160 | 0 |
+| [mate-backgrounds](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-backgrounds/sv/) | available | 29 / 29 | 0 |
+| [mate-calc](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-calc/sv/) | available | 486 / 486 | 0 |
+| [mate-calc-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-calc-help/sv/) | available | 265 / 265 | 0 |
+| [mate-control-center](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-control-center/sv/) | locked | 1159 / 1159 | 0 |
+| [mate-control-center-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-control-center-help/sv/) | locked | 357 / 357 | 0 |
+| [mate-desktop](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-desktop/sv/) | available | 303 / 303 | 0 |
+| [mate-icon-theme](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-icon-theme/sv/) | available | 2 / 2 | 0 |
+| [mate-indicator-applet](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-indicator-applet/sv/) | available | 20 / 20 | 0 |
+| [mate-media](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-media/sv/) | available | 100 / 100 | 0 |
+| [mate-menus](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-menus/sv/) | available | 39 / 39 | 0 |
+| [mate-netbook](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-netbook/sv/) | available | 25 / 25 | 0 |
+| [mate-notification-daemon](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-notification-daemon/sv/) | available | 53 / 53 | 0 |
+| [mate-panel](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-panel/sv/) | available | 652 / 652 | 0 |
+| [mate-panel-help-clock](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-panel-help-clock/sv/) | available | 106 / 106 | 0 |
+| [mate-panel-help-fish](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-panel-help-fish/sv/) | available | 62 / 62 | 0 |
+| [mate-polkit](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-polkit/sv/) | available | 21 / 21 | 0 |
+| [mate-power-manager](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-power-manager/sv/) | available | 412 / 412 | 0 |
+| [mate-power-manager-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-power-manager-help/sv/) | available | 140 / 140 | 0 |
+| [mate-screensaver](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-screensaver/sv/) | available | 176 / 176 | 0 |
+| [mate-sensors-applet](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-sensors-applet/sv/) | available | 109 / 109 | 0 |
+| [mate-sensors-applet-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-sensors-applet-help/sv/) | available | 117 / 117 | 0 |
+| [mate-session-manager](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-session-manager/sv/) | available | 133 / 133 | 0 |
+| [mate-settings-daemon](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-settings-daemon/sv/) | available | 319 / 319 | 0 |
+| [mate-system-monitor](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-system-monitor/sv/) | available | 332 / 332 | 0 |
+| [mate-system-monitor-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-system-monitor-help/sv/) | available | 329 / 329 | 0 |
+| [mate-terminal](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-terminal/sv/) | available | 545 / 545 | 0 |
+| [mate-terminal-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-terminal-help/sv/) | available | 220 / 220 | 0 |
+| [mate-themes](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-themes/sv/) | available | 23 / 23 | 0 |
+| [mate-user-guide](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-user-guide/sv/) | available | 3 / 3 | 0 |
+| [mate-user-guide-content](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-user-guide-content/sv/) | available | 3225 / 3225 | 0 |
+| [mate-user-share](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-user-share/sv/) | available | 47 / 47 | 0 |
+| [mate-user-share-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-user-share-help/sv/) | available | 56 / 56 | 0 |
+| [mate-utils](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-utils/sv/) | available | 649 / 649 | 0 |
+| [mate-utils-baobab](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-utils-baobab/sv/) | available | 93 / 93 | 0 |
+| [mate-utils-dictionnary](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-utils-dictionnary/sv/) | available | 106 / 106 | 0 |
+| [mate-utils-searchtool](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-utils-searchtool/sv/) | available | 149 / 149 | 0 |
+| [mate-utils-system-log](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-utils-system-log/sv/) | available | 74 / 74 | 0 |
+| [mate-wayland-session](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-wayland-session/sv/) | available | 3 / 3 | 0 |
+| [mozo](https://translate.fedoraproject.org/projects/mate-desktop/applications/mozo/sv/) | available | 24 / 24 | 0 |
+| [pluma](https://translate.fedoraproject.org/projects/mate-desktop/applications/pluma/sv/) | available | 1449 / 1449 | 0 |
+| [pluma-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/pluma-help/sv/) | available | 641 / 641 | 0 |
+| [pluma-plugins](https://translate.fedoraproject.org/projects/mate-desktop/applications/pluma-plugins/sv/) | available | 81 / 81 | 0 |
+| [pluma-plugins-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/pluma-plugins-help/sv/) | available | 64 / 64 | 0 |
+| [python-caja](https://translate.fedoraproject.org/projects/mate-desktop/applications/python-caja/sv/) | available | 2 / 2 | 0 |
+| [user-admin](https://translate.fedoraproject.org/projects/mate-desktop/applications/user-admin/sv/) | available | 126 / 126 | 0 |
