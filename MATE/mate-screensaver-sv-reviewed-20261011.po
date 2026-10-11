@@ -1,0 +1,869 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-screensaver package.
+# Kristoffer Grundström <lovaren@gmail.com>, 2018
+# 6a42dd6e7ca9a813693714b0d9aa1ad8, 2018
+# Henrik Mattsson-Mårn <h@reglage.net>, 2018
+# efef6ec5b435a041fce803c7f8af77d2_2341d43, 2018
+# Tobias Lekare <lekare@linux.com>, 2018
+# Philip Andersen <renegadevi@codeofmagi.net>, 2018
+# Patrik Nilsson <asavartzeth@gmail.com>, 2019
+# Elmer Blanksvärd <elmerblanksvard@gmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Luna Jernberg <droidbittin@gmail.com>, 2024
+# Daniel Nylander <po@danielnylander.se>, 2026.
+#
+# Translators:
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-screensaver 1.26.0\n"
+"Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
+"POT-Creation-Date: 2022-10-29 15:32+0200\n"
+"PO-Revision-Date: 2026-10-11 10:39+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/mate-screensaver/sv/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+
+#: data/mate-screensaver-preferences.desktop.in:3
+#: src/mate-screensaver.desktop.in.in:4
+msgid "Screensaver"
+msgstr "Skärmsläckare"
+
+#: data/mate-screensaver-preferences.desktop.in:4
+msgid "Set your screensaver preferences"
+msgstr "Ställ in dina skärmsläckarinställningar"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/mate-screensaver-preferences.desktop.in:12
+msgid "MATE;screensaver;preferences;"
+msgstr "MATE;skärmsläckare;inställningar;"
+
+#: data/mate-screensaver-preferences.ui:20
+msgid "Screensaver Preview"
+msgstr "Förhandsgranska skärmsläckare"
+
+#: data/mate-screensaver-preferences.ui:59
+msgid "<b>Screensaver preview</b>"
+msgstr "<b>Förhandsgranska skärmsläckare</b>"
+
+#: data/mate-screensaver-preferences.ui:168
+msgid "Screensaver Preferences"
+msgstr "Skärmsläckarinställningar"
+
+#: data/mate-screensaver-preferences.ui:203
+msgid "Power _Management"
+msgstr "Ström_hantering"
+
+#: data/mate-screensaver-preferences.ui:219
+msgid "_Preview"
+msgstr "_Förhandsgranska"
+
+#: data/mate-screensaver-preferences.ui:279
+msgid "_Screensaver theme:"
+msgstr "_Skärmsläckartema:"
+
+#: data/mate-screensaver-preferences.ui:397
+msgid "Regard the computer as _idle after:"
+msgstr "Anse datorn som _inaktiv efter:"
+
+#: data/mate-screensaver-preferences.ui:440
+msgid "_Activate screensaver when computer is idle"
+msgstr "_Aktivera skärmsläckaren när datorn är inaktiv"
+
+#: data/mate-screensaver-preferences.ui:455
+msgid "_Lock screen when screensaver is active"
+msgstr "_Lås skärmen när skärmsläckaren är aktiv"
+
+#: data/mate-screensaver-preferences.ui:477
+msgid "Background picture for lock screen:"
+msgstr "Bakgrundsbild för låsskärm:"
+
+#: data/mate-screensaver-preferences.ui:496
+msgid "Select Background Image"
+msgstr "Välj bakgrundsbild"
+
+#: data/mate-screensaver-preferences.ui:522
+msgid "<b>Warning: the screen will not be locked for the root user.</b>"
+msgstr "<b>Varning: skärmen kommer inte att låsas för root-användaren.</b>"
+
+#: data/mate-screensaver.directory.desktop.in:3
+msgid "Screensavers"
+msgstr "Skärmsläckare"
+
+#: data/mate-screensaver.directory.desktop.in:4
+#: data/org.mate.screensaver.gschema.xml.in:25
+msgid "Screensaver themes"
+msgstr "Skärmsläckarteman"
+
+#. Translators: This is the name of a desktop background image that shows
+#. outer space images.
+#. You might want to translate it into the equivalent words of your language
+#: data/images/cosmos/cosmos.xml.in.in:7
+#: savers/cosmos-slideshow.desktop.in.in:3
+msgid "Cosmos"
+msgstr "Kosmos"
+
+#: data/lock-dialog-default.ui:110
+msgid "<span size=\"small\">%U on %h</span>"
+msgstr "<span size=\"small\">%U på %h</span>"
+
+#: data/lock-dialog-default.ui:166 src/gs-lock-plug.c:2150
+msgid "Show password"
+msgstr "Visa lösenord"
+
+#: data/lock-dialog-default.ui:233
+msgid "_Leave Message"
+msgstr "_Lämna meddelande"
+
+#: data/lock-dialog-default.ui:249
+msgid "_Switch User"
+msgstr "_Byt användare"
+
+#: data/lock-dialog-default.ui:265
+msgid "_Log Out"
+msgstr "_Logga ut"
+
+#: data/lock-dialog-default.ui:281 data/lock-dialog-default.ui:375
+msgid "_Cancel"
+msgstr "_Avbryt"
+
+#: data/lock-dialog-default.ui:297 src/gs-lock-plug.c:1711
+msgid "_Unlock"
+msgstr "_Lås upp"
+
+#: data/lock-dialog-default.ui:339
+msgid "<b>Leave a message for %R:</b>"
+msgstr "<b>Lämna ett meddelande till %R:</b>"
+
+#: data/lock-dialog-default.ui:391
+msgid "_Save"
+msgstr "_Spara"
+
+#: data/org.mate.screensaver.gschema.xml.in:10
+msgid "Activate when idle"
+msgstr "Aktivera vid inaktivitet"
+
+#: data/org.mate.screensaver.gschema.xml.in:11
+msgid "Set this to TRUE to activate the screensaver when the session is idle."
+msgstr ""
+"Ställ in den här till TRUE för att aktivera skärmsläckaren när sessionen är "
+"inaktiv."
+
+#: data/org.mate.screensaver.gschema.xml.in:15
+msgid "Lock on activation"
+msgstr "Lås vid aktivering"
+
+#: data/org.mate.screensaver.gschema.xml.in:16
+msgid "Set this to TRUE to lock the screen when the screensaver goes active."
+msgstr ""
+"Ställ in den här till TRUE för att låsa skärmen när skärmsläckaren "
+"aktiveras."
+
+#: data/org.mate.screensaver.gschema.xml.in:20
+msgid "Screensaver theme selection mode"
+msgstr "Läge för val av skärmsläckartema"
+
+#: data/org.mate.screensaver.gschema.xml.in:21
+msgid ""
+"The selection mode used by screensaver. May be \"blank-only\" to enable the "
+"screensaver without using any theme on activation, \"single\" to enable "
+"screensaver using only one theme on activation (specified in \"themes\" "
+"key), and \"random\" to enable the screensaver using a random theme on "
+"activation."
+msgstr ""
+"Valläget som används av skärmsläckaren. Kan vara \"blank-only\" för att "
+"aktivera skärmsläckaren utan att använda något tema vid aktivering, "
+"\"single\" för att aktivera skärmsläckaren med endast ett tema vid "
+"aktivering (anges i nyckeln \"themes\" och \"random\" för att aktivera "
+"skärmsläckaren med ett slumpmässigt tema vid aktivering."
+
+#: data/org.mate.screensaver.gschema.xml.in:26
+msgid ""
+"This key specifies the list of themes to be used by the screensaver. It's "
+"ignored when \"mode\" key is \"blank-only\", should provide the theme name "
+"when \"mode\" is \"single\", and should provide a list of themes when "
+"\"mode\" is \"random\"."
+msgstr ""
+"Den här nyckeln anger temalistan som ska användas av skärmsläckaren. Den "
+"ignoreras när \"mode\"-nyckeln är \"blank-only\", ska ge temanamnet när "
+"\"mode\" är \"single\" och ska ge en temalista när \"mode\" är \"random\"."
+
+#: data/org.mate.screensaver.gschema.xml.in:30
+msgid "Time before power management baseline"
+msgstr "Tid innan strömhanteringsläge uppnås"
+
+#: data/org.mate.screensaver.gschema.xml.in:31
+msgid ""
+"The number of seconds of inactivity before signalling to power management. "
+"This key is set and maintained by the session power management agent."
+msgstr ""
+"Antalet sekunders inaktivitet innan signalering om strömhantering. Den här "
+"nyckeln är inställd och hanteras av sessionsagenten för strömhantering."
+
+#: data/org.mate.screensaver.gschema.xml.in:35
+msgid "Time before theme change"
+msgstr "Tid innan tema förändring"
+
+#: data/org.mate.screensaver.gschema.xml.in:36
+msgid "The number of minutes to run before changing the screensaver theme."
+msgstr "Antal minuter att köra innan skärmsläckartemat byts."
+
+#: data/org.mate.screensaver.gschema.xml.in:40
+msgid "Time before locking"
+msgstr "Tid före låsning"
+
+#: data/org.mate.screensaver.gschema.xml.in:41
+msgid ""
+"The number of minutes after screensaver activation before locking the "
+"screen."
+msgstr "Antalet minuter efter skärmsläckaraktivering innan skärmen låses."
+
+#: data/org.mate.screensaver.gschema.xml.in:45
+msgid "Allow embedding a keyboard into the window"
+msgstr "Tillåt inbäddning av ett tangentbord i fönstret"
+
+#: data/org.mate.screensaver.gschema.xml.in:46
+msgid ""
+"Set this to TRUE to allow embedding a keyboard into the window when trying "
+"to unlock. The \"keyboard_command\" key must be set with the appropriate "
+"command."
+msgstr ""
+"Ställ in detta till TRUE för att tillåta inbäddning av ett tangentbord i "
+"fönstret vid försök att låsa upp. Nyckeln \"keyboard_command\" måste ställas"
+" in med lämpligt kommando."
+
+#: data/org.mate.screensaver.gschema.xml.in:50
+msgid "Embedded keyboard command"
+msgstr "Kommando för inbäddat tangentbord"
+
+#: data/org.mate.screensaver.gschema.xml.in:51
+msgid ""
+"The command that will be run, if the \"embedded_keyboard_enabled\" key is "
+"set to TRUE, to embed a keyboard widget into the window. This command should"
+" implement an XEMBED plug interface and output a window XID on the standard "
+"output."
+msgstr ""
+"Kommandot som kommer att köras, om nyckeln \"embedded_keyboard_enabled\" är "
+"inställd till TRUE, för att inbädda en tangentbordswidget i fönstret. Detta "
+"kommando bör implementera en XEMBED-insticksgränssnitt och skriva ut ett "
+"fönster-xid på standard ut."
+
+#: data/org.mate.screensaver.gschema.xml.in:55
+msgid "Allow logout"
+msgstr "Tillåt utloggning"
+
+#: data/org.mate.screensaver.gschema.xml.in:56
+msgid ""
+"Set this to TRUE to offer an option in the unlock dialog to allow logging "
+"out after a delay. The delay is specified in the \"logout_delay\" key."
+msgstr ""
+"Ställ in den här till TRUE för att erbjuda ett alternativ i "
+"upplåsningsdialogen om att logga ut efter en viss fördröjning. Fördröjningen"
+" anges i nyckeln \"logout_delay\"."
+
+#: data/org.mate.screensaver.gschema.xml.in:60
+msgid "Time before logout option"
+msgstr "Tid före utloggningsalternativ"
+
+#: data/org.mate.screensaver.gschema.xml.in:61
+msgid ""
+"The number of minutes after the screensaver activation before a logout "
+"option will appear in the unlock dialog. This key has effect only if the "
+"\"logout_enable\" key is set to TRUE."
+msgstr ""
+"Antal minuter efter att skärmsläckaren aktiverats innan ett "
+"utloggningsalternativ visas i upplåsningsdialogen.  Den här nyckeln har "
+"endast effekt om nyckeln \"logout_enable\" är inställd till TRUE."
+
+#: data/org.mate.screensaver.gschema.xml.in:65
+msgid "Logout command"
+msgstr "Utloggningskommando"
+
+#: data/org.mate.screensaver.gschema.xml.in:66
+msgid ""
+"The command to invoke when the logout button is clicked. This command should"
+" simply log the user out without any interaction. This key has effect only "
+"if the \"logout_enable\" key is set to TRUE."
+msgstr ""
+"Kommandot att starta när logga ut-knappen används. Detta kommando borde helt"
+" enkelt logga ut användaren utan någon interaktion. Den här knappen träder "
+"endast i kraft om \"logout_enable\"-knappen är satt till SANT."
+
+#: data/org.mate.screensaver.gschema.xml.in:70
+msgid "Allow user switching"
+msgstr "Tillåt byte av användare"
+
+#: data/org.mate.screensaver.gschema.xml.in:71
+msgid ""
+"Set this to TRUE to offer an option in the unlock dialog to switch to a "
+"different user account."
+msgstr ""
+"Ställ in den här till TRUE för att erbjuda ett alternativ om att byta till "
+"ett annat användarkonto i upplåsningsdialogrutan."
+
+#: data/org.mate.screensaver.gschema.xml.in:75
+msgid "Theme for lock dialog"
+msgstr "Tema för låsdialog"
+
+#: data/org.mate.screensaver.gschema.xml.in:76
+msgid "Theme to use for the lock dialog"
+msgstr "Tema att använda för låsdialogen"
+
+#: data/org.mate.screensaver.gschema.xml.in:80
+msgid "Format for time on lock dialog"
+msgstr "Format för tid på lås dialogrutan"
+
+#: data/org.mate.screensaver.gschema.xml.in:81
+msgid ""
+"Format to display the time on lock dialog. Default is 'locale' which uses "
+"default format for current locale. Custom values should be set according to "
+"g-date-time-format. Try %R for 24H format."
+msgstr ""
+"Format för tid att visa på dialogrutan vid låsning. Standard är 'locale' som"
+" använder standardformat för aktuell lokal. Anpassade värden bör ställas in "
+"enligt g-datum-tids-format. Prova %R för 24T-format."
+
+#: data/org.mate.screensaver.gschema.xml.in:85
+msgid "Format for date on lock dialog"
+msgstr "Format för datum på lås dialogrutan"
+
+#: data/org.mate.screensaver.gschema.xml.in:86
+msgid ""
+"Format to display the date on lock dialog. Default is 'locale' which uses "
+"default format for current locale. Custom values should be set according to "
+"g-date-time-format. Try %F for ISO 8601 date format."
+msgstr ""
+"Format för datum att visa på dialogrutan vid låsning. Standard är 'locale' "
+"som använder standardformat för aktuell lokal. Anpassade värden bör ställas "
+"in enligt g-datum-tids-format. Prova %F för ISO 8601 datumformat."
+
+#: data/org.mate.screensaver.gschema.xml.in:90
+msgid "Allow the session status message to be displayed"
+msgstr "Tillåt att visa sessionens statusmeddelanden"
+
+#: data/org.mate.screensaver.gschema.xml.in:91
+msgid ""
+"Allow the session status message to be displayed when the screen is locked."
+msgstr "Tillåt att visa sessionens statusmeddelanden när skärmen är låst."
+
+#: data/org.mate.screensaver.gschema.xml.in:95
+msgid "Picture Filename"
+msgstr "Bildfilnamn"
+
+#: data/org.mate.screensaver.gschema.xml.in:96
+msgid "File to use for the background image."
+msgstr "Fil att använda som bakgrundsbild."
+
+#: savers/cosmos-slideshow.desktop.in.in:4
+msgid "Display a slideshow of pictures of the cosmos"
+msgstr "Visa ett bildspel med bilder på kosmos"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: savers/cosmos-slideshow.desktop.in.in:12
+msgid "MATE;screensaver;slideshow;cosmos;"
+msgstr "MATE;skärmsläckare;bildspel;kosmos;"
+
+#: savers/footlogo-floaters.desktop.in.in:3
+msgid "Floating MATE"
+msgstr "Flytande MATE"
+
+#: savers/footlogo-floaters.desktop.in.in:4
+msgid "Bubbles the MATE logo around the screen"
+msgstr "Bubblar runt MATE loggan på skärmen"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: savers/footlogo-floaters.desktop.in.in:12
+msgid "MATE;screensaver;logo;bubbles;"
+msgstr "MATE;skärmsläckare;logotyp;bubblor;"
+
+#: savers/gnomelogo-floaters.desktop.in.in:3
+msgid "Floating GNOME"
+msgstr "Flytande GNOME"
+
+#: savers/gnomelogo-floaters.desktop.in.in:4
+msgid "Bubbles the GNOME logo around the screen"
+msgstr "Bubblar runt GNOME loggan på skärmen"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: savers/gnomelogo-floaters.desktop.in.in:12
+msgid "MATE;screensaver;GNOME;logo;bubbles;"
+msgstr "MATE;skärmsläckare;GNOME;logotyp;bubblor;"
+
+#: savers/personal-slideshow.desktop.in.in:3
+msgid "Pictures folder"
+msgstr "Bildmapp"
+
+#: savers/personal-slideshow.desktop.in.in:4
+msgid "Display a slideshow from your Pictures folder"
+msgstr "Visa ett bildspel från din Bildmapp"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: savers/personal-slideshow.desktop.in.in:12
+msgid "MATE;screensaver;custom;slideshow;pictures;folder;"
+msgstr "MATE;skärmsläckare;anpassad;bildspel;bilder;mapp;"
+
+#: savers/popsquares.desktop.in.in:3
+msgid "Pop art squares"
+msgstr "Popart-rutor"
+
+#: savers/popsquares.desktop.in.in:4
+msgid "A pop-art-ish grid of pulsing colors."
+msgstr "En popartigt rutnät med pulserande färger."
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: savers/popsquares.desktop.in.in:12
+msgid "MATE;screensaver;grid;pulsing;colors;"
+msgstr "MATE;skärmsläckare;rutnät;pulserande;färger;"
+
+#: savers/popsquares.c:50 savers/floaters.c:1161
+#, c-format
+msgid "%s. See --help for usage information.\n"
+msgstr "%s. Se --help för information om användning.\n"
+
+#: savers/floaters.c:1134
+msgid "Show paths that images follow"
+msgstr "Visa vägar som bilder följer"
+
+#: savers/floaters.c:1136
+msgid "Occasionally rotate images as they move"
+msgstr "Rotera bilder då och då när de rör sig"
+
+#: savers/floaters.c:1138
+msgid "Print out frame rate and other statistics"
+msgstr "Skriv ut bildfrekvens och annan statistik"
+
+#: savers/floaters.c:1140
+msgid "The maximum number of images to keep on screen"
+msgstr "Maximalt antal bilder att hålla på skärmen"
+
+#: savers/floaters.c:1140
+msgid "MAX_IMAGES"
+msgstr "MAX_BILDER"
+
+#: savers/floaters.c:1142
+msgid "The initial size and position of window"
+msgstr "Den initiala storleken och positionen på fönstret"
+
+#: savers/floaters.c:1142
+msgid "WIDTHxHEIGHT+X+Y"
+msgstr "BREDDxHÖJD+X+Y"
+
+#: savers/floaters.c:1144
+msgid "The source image to use"
+msgstr "Källbilden att använda"
+
+#: savers/floaters.c:1156
+msgid "image - floats images around the screen"
+msgstr "image - flytande bilder på skärmen"
+
+#: savers/floaters.c:1170
+msgid "You must specify one image.  See --help for usage information.\n"
+msgstr "Du måste ange en bild.  Se --help för information om användning.\n"
+
+#: savers/slideshow.c:56
+msgid "Location to get images from"
+msgstr "Plats att hämta bilder från"
+
+#: savers/slideshow.c:56
+msgid "PATH"
+msgstr "SÖKVÄG"
+
+#: savers/slideshow.c:60
+msgid "Color to use for images background"
+msgstr "Färg att använda för bildbakgrund"
+
+#: savers/slideshow.c:60
+msgid "\"#rrggbb\""
+msgstr "\"#rrggbb\""
+
+#: savers/slideshow.c:64
+msgid "Do not randomize pictures from location"
+msgstr "Slumpa inte bilder från platsen"
+
+#: savers/slideshow.c:68
+msgid "Do not try to stretch images on screen"
+msgstr "Försök inte att sträcka ut bilder på skärmen"
+
+#: src/copy-theme-dialog.c:181
+msgid "Copying files"
+msgstr "Kopierar filer"
+
+#: src/copy-theme-dialog.c:200
+msgid "From:"
+msgstr "Från:"
+
+#: src/copy-theme-dialog.c:204
+msgid "To:"
+msgstr "Till:"
+
+#: src/copy-theme-dialog.c:225
+msgid "Copying themes"
+msgstr "Kopierar teman"
+
+#: src/copy-theme-dialog.c:268
+msgid "Invalid screensaver theme"
+msgstr "Ogiltigt skärmsläckartema"
+
+#: src/copy-theme-dialog.c:271
+#, c-format
+msgid "%s does not appear to be a valid screensaver theme."
+msgstr "%s verkar inte vara ett giltigt skärmsläckartema."
+
+#: src/copy-theme-dialog.c:449
+#, c-format
+msgid "Copying file: %u of %u"
+msgstr "Kopierar fil: %u av %u"
+
+#: src/mate-screensaver-command.c:61
+msgid "Causes the screensaver to exit gracefully"
+msgstr "Gör så att skärmsläckaren avslutas snällt"
+
+#: src/mate-screensaver-command.c:65
+msgid "Query the state of the screensaver"
+msgstr "Fråga om status för skärmsläckaren"
+
+#: src/mate-screensaver-command.c:69
+msgid "Query the length of time the screensaver has been active"
+msgstr "Fråga om tidsperioden som skärmsläckaren har varit aktiv"
+
+#: src/mate-screensaver-command.c:73
+msgid "Tells the running screensaver process to lock the screen immediately"
+msgstr ""
+"Berättar för den körande skärmsläckarprocessen att skärmen ska låsas "
+"omedelbart"
+
+#: src/mate-screensaver-command.c:77
+msgid "Tells the running screensaver process to unlock the screen immediately"
+msgstr ""
+"Berättar för den körande skärmsläckarprocessen att skärmen ska låsas "
+"omedelbart"
+
+#: src/mate-screensaver-command.c:81
+msgid "If the screensaver is active then switch to another graphics demo"
+msgstr "Om skärmsläckaren är aktiv, byt till en annan grafikdemonstration"
+
+#: src/mate-screensaver-command.c:85
+msgid "Turn the screensaver on (blank the screen)"
+msgstr "Slå på skärmsläckaren (töm skärmen)"
+
+#: src/mate-screensaver-command.c:89
+msgid "If the screensaver is active then deactivate it (un-blank the screen)"
+msgstr "Om skärmsläckaren är aktiv, inaktivera den (väck upp skärmen)"
+
+#: src/mate-screensaver-command.c:93
+msgid "Poke the running screensaver to simulate user activity"
+msgstr "Peta på den körande skärmsläckaren för att simulera användaraktivitet"
+
+#: src/mate-screensaver-command.c:97
+msgid ""
+"Inhibit the screensaver from activating.  Command blocks while inhibit is "
+"active."
+msgstr ""
+"Förhindra skärmsläckaren från att aktiveras. Kommandot blockeras när "
+"hindrandet är aktiv."
+
+#: src/mate-screensaver-command.c:101
+msgid "The calling application that is inhibiting the screensaver"
+msgstr "Det anropande programmet som hindrar skärmsläckaren"
+
+#: src/mate-screensaver-command.c:105
+msgid "The reason for inhibiting the screensaver"
+msgstr "Anledning till att hindra skärmsläckaren"
+
+#: src/mate-screensaver-command.c:109 src/mate-screensaver-dialog.c:59
+#: src/mate-screensaver.c:56
+msgid "Version of this application"
+msgstr "Detta programs versionsnummer"
+
+#: src/mate-screensaver-command.c:359
+#, c-format
+msgid "The screensaver is %s\n"
+msgstr "Skärmsläckaren är %s\n"
+
+#: src/mate-screensaver-command.c:359
+msgid "active"
+msgstr "aktiv"
+
+#: src/mate-screensaver-command.c:359
+msgid "inactive"
+msgstr "inaktiv"
+
+#: src/mate-screensaver-command.c:375
+msgid "The screensaver is not inhibited\n"
+msgstr "Skärmsläckaren förhindras inte\n"
+
+#: src/mate-screensaver-command.c:383
+msgid "The screensaver is being inhibited by:\n"
+msgstr "Skärmsläckaren förhindras av:\n"
+
+#: src/mate-screensaver-command.c:418
+#, c-format
+msgid "The screensaver has been active for %d seconds.\n"
+msgstr "Skärmsläckaren har varit aktiv i %d sekunder.\n"
+
+#: src/mate-screensaver-command.c:424
+msgid "The screensaver is not currently active.\n"
+msgstr "Skärmsläckaren är för närvarande inte aktiv.\n"
+
+#: src/mate-screensaver-dialog.c:58
+msgid "Show debugging output"
+msgstr "Visa utdata för felsökning"
+
+#: src/mate-screensaver-dialog.c:60
+msgid "Show the logout button"
+msgstr "Visa utloggningsknappen"
+
+#: src/mate-screensaver-dialog.c:61
+msgid "Command to invoke from the logout button"
+msgstr "Kommando att starta från utloggningsknappen"
+
+#: src/mate-screensaver-dialog.c:62
+msgid "Show the switch user button"
+msgstr "Visa knapp för byte av användare"
+
+#: src/mate-screensaver-dialog.c:63
+msgid "Message to show in the dialog"
+msgstr "Meddelande att visa i dialogrutan"
+
+#: src/mate-screensaver-dialog.c:63 src/mate-screensaver-dialog.c:64
+msgid "MESSAGE"
+msgstr "MEDDELANDE"
+
+#: src/mate-screensaver-dialog.c:64
+msgid "Not used"
+msgstr "Används inte"
+
+#: src/mate-screensaver-dialog.c:167 src/mate-screensaver-dialog.c:168
+#: src/mate-screensaver-dialog.c:169 src/gs-auth-pam.c:723
+msgid "Username:"
+msgstr "Användarnamn:"
+
+#: src/mate-screensaver-dialog.c:170 src/mate-screensaver-dialog.c:171
+#: src/gs-auth-pam.c:145
+msgid "Password:"
+msgstr "Lösenord:"
+
+#: src/mate-screensaver-dialog.c:172
+msgid "You are required to change your password immediately (password aged)"
+msgstr "Du måste ändra ditt lösenord omedelbart (lösenord för gammalt)"
+
+#: src/mate-screensaver-dialog.c:173
+msgid "You are required to change your password immediately (root enforced)"
+msgstr "Du måste ändra ditt lösenord omedelbart (root kräver det)"
+
+#: src/mate-screensaver-dialog.c:174
+msgid "Your account has expired; please contact your system administrator"
+msgstr "Ditt konto har gått ut; kontakta din systemadministratör"
+
+#: src/mate-screensaver-dialog.c:175
+msgid "No password supplied"
+msgstr "Inget lösenord angivet"
+
+#: src/mate-screensaver-dialog.c:176
+msgid "Password unchanged"
+msgstr "Lösenordet inte ändrat"
+
+#: src/mate-screensaver-dialog.c:177
+msgid "Can not get username"
+msgstr "Kan inte få tag på användarnamn"
+
+#: src/mate-screensaver-dialog.c:178
+msgid "Retype new UNIX password:"
+msgstr "Skriv in nytt UNIX-lösenord igen:"
+
+#: src/mate-screensaver-dialog.c:179
+msgid "Enter new UNIX password:"
+msgstr "Ange nytt UNIX-lösenord:"
+
+#: src/mate-screensaver-dialog.c:180
+msgid "(current) UNIX password:"
+msgstr "(nuvarande) UNIX-lösenord:"
+
+#: src/mate-screensaver-dialog.c:181
+msgid "Error while changing NIS password."
+msgstr "Fel vid ändring av NIS-lösenord."
+
+#: src/mate-screensaver-dialog.c:182
+msgid "You must choose a longer password"
+msgstr "Du måste välja ett längre lösenord"
+
+#: src/mate-screensaver-dialog.c:183
+msgid "Password has been already used. Choose another."
+msgstr "Lösenordet har redan använts tidigare. Välj ett annat."
+
+#: src/mate-screensaver-dialog.c:184
+msgid "You must wait longer to change your password"
+msgstr "Du måste vänta längre för att ändra ditt lösenord"
+
+#: src/mate-screensaver-dialog.c:185
+msgid "Sorry, passwords do not match"
+msgstr "Tyvärr, lösenorden stämmer inte överens"
+
+#: src/mate-screensaver-dialog.c:256
+msgid "Checking..."
+msgstr "Kontrollerar…"
+
+#: src/mate-screensaver-dialog.c:302 src/gs-auth-pam.c:458
+msgid "Authentication failed."
+msgstr "Autentiseringen misslyckades."
+
+#: src/mate-screensaver-preferences.c:455
+msgid "Blank screen"
+msgstr "Blank skärm"
+
+#: src/mate-screensaver-preferences.c:461
+msgid "Random"
+msgstr "Slumpmässigt"
+
+#: src/mate-screensaver-preferences.c:951
+#: src/mate-screensaver-preferences.c:961
+#, c-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d timme"
+msgstr[1] "%d timmar"
+
+#: src/mate-screensaver-preferences.c:954
+#: src/mate-screensaver-preferences.c:963
+#: src/mate-screensaver-preferences.c:975
+#: src/mate-screensaver-preferences.c:990
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minut"
+msgstr[1] "%d minuter"
+
+#: src/mate-screensaver-preferences.c:957
+#, c-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d sekund"
+msgstr[1] "%d sekunder"
+
+#: src/mate-screensaver-preferences.c:965
+#: src/mate-screensaver-preferences.c:1013
+#: src/mate-screensaver-preferences.c:1023
+#, c-format
+msgid "%s %s"
+msgstr "%s %s"
+
+#: src/mate-screensaver-preferences.c:1010
+#, c-format
+msgid "%s %s %s"
+msgstr "%s %s %s"
+
+#: src/mate-screensaver-preferences.c:1016
+#: src/mate-screensaver-preferences.c:1030
+#: src/mate-screensaver-preferences.c:1056
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: src/mate-screensaver-preferences.c:1071
+msgid "Never"
+msgstr "Aldrig"
+
+#: src/mate-screensaver-preferences.c:1632
+msgid "Could not load the main interface"
+msgstr "Kunde inte läsa in huvudgränssnittet"
+
+#: src/mate-screensaver-preferences.c:1634
+msgid "Please make sure that the screensaver is properly installed"
+msgstr "Försäkra dig om att skärmsläckaren är korrekt installerad"
+
+#: src/mate-screensaver.c:57
+msgid "Don't become a daemon"
+msgstr "Kör inte som en bakgrundsprocess"
+
+#: src/mate-screensaver.c:58
+msgid "Enable debugging code"
+msgstr "Aktivera felsökningskod"
+
+#: src/mate-screensaver.desktop.in.in:5
+msgid "Launch screensaver and locker program"
+msgstr "Starta skärmsläckaren och låsprogrammet"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: src/mate-screensaver.desktop.in.in:12
+msgid "MATE;screensaver;locker;"
+msgstr "MATE;skärmsläckare;låsskärm;"
+
+#: src/gs-auth-pam.c:388
+#, c-format
+msgid "Unable to establish service %s: %s\n"
+msgstr "Kunde inte etablera tjänsten %s: %s\n"
+
+#: src/gs-auth-pam.c:418
+#, c-format
+msgid "Can't set PAM_TTY=%s"
+msgstr "Kan inte ställa in PAM_TTY=%s"
+
+#: src/gs-auth-pam.c:454
+msgid "Incorrect password."
+msgstr "Felaktigt lösenord."
+
+#: src/gs-auth-pam.c:474
+msgid "Not permitted to gain access at this time."
+msgstr "Du har inte behörighet att få åtkomst för närvarande."
+
+#: src/gs-auth-pam.c:482
+msgid "No longer permitted to access the system."
+msgstr "Tillåts inte längre att komma åt systemet."
+
+#: src/gs-listener-dbus.c:2248
+msgid "failed to register with the message bus"
+msgstr "misslyckades att registrera med meddelandebussen"
+
+#: src/gs-listener-dbus.c:2259
+msgid "not connected to the message bus"
+msgstr "inte ansluten till meddelandebussen"
+
+#: src/gs-listener-dbus.c:2269 src/gs-listener-dbus.c:2301
+msgid "screensaver already running in this session"
+msgstr "skärmsläckaren körs redan i denna session"
+
+#: src/gs-lock-plug.c:328
+msgid "%A, %B %e"
+msgstr "%A %e %B"
+
+#: src/gs-lock-plug.c:442
+msgid "Time has expired."
+msgstr "Tiden har gått ut."
+
+#: src/gs-lock-plug.c:472
+msgid "You have the Caps Lock key on."
+msgstr "Du har capslock-tangenten på."
+
+#: src/gs-lock-plug.c:1691
+msgid "S_witch User..."
+msgstr "B_yt användare…"
+
+#: src/gs-lock-plug.c:1700
+msgid "Log _Out"
+msgstr "Logga _ut"
+
+#: src/gs-lock-plug.c:1913
+msgid "%U on %h"
+msgstr "%U på %h"
+
+#: src/gs-lock-plug.c:1928
+msgid "_Password:"
+msgstr "_Lösenord:"
+
+#: src/gs-lock-plug.c:2156
+msgid "Hide password"
+msgstr "Dölj lösenord"
