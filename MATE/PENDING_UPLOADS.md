@@ -9,18 +9,20 @@ Fedora Weblate currently locks the two components below. The API rejects updates
 - Weblate component: [MATE Control Center](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-control-center/sv/)
 - Current status: locked
 - Current export: 1,159 translated strings of 1,159
-- Upload state: not ready for upload
+- Upload state: validated local candidate is ready after Weblate unlock
+- Candidate file: mate-control-center-sv-pending-unlock-20261011.po
 
-The latest server export still needs a local correction pass before it can be uploaded. The outstanding issues are five Nordic keyboard accelerators, missing accelerators, punctuation, percent spacing and trailing whitespace. Command names and interface shortcuts must remain literal where applicable.
+The local candidate corrects five Nordic keyboard accelerators, missing accelerators, punctuation, percent spacing and trailing whitespace. Command names and interface shortcuts remain literal.
 
 ## MATE Control Center help
 
 - Weblate component: [MATE Control Center help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-control-center-help/sv/)
 - Current status: locked
 - Current export: 357 translated strings of 357
-- Upload state: corrections identified locally but cannot be submitted
+- Upload state: validated local candidate is ready after Weblate unlock
+- Candidate file: mate-control-center-help-sv-pending-unlock-20261011.po
 
-The next upload must correct these three items:
+The local candidate contains these three corrections:
 
 1. Remove the comma before “och” in the start tips paragraph.
 2. Retain the colon in the sentence beginning “Consequently:”.
