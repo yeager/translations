@@ -1,0 +1,72 @@
+[
+  {
+    "stringId": 1929522,
+    "source": "Global audio mixer volume (in dB). 0 dB is normal volume, and no gain is applied.",
+    "target": "Global ljudmixervolym (i dB). 0 dB är normal volym och ingen förstärkning tillämpas."
+  },
+  {
+    "stringId": 3094818,
+    "source": "Include 'experimental' cores in the Core Downloader list. These are typically for development/testing purposes only, and are not recommended for general use.",
+    "target": "Inkludera 'experimentella' kärnor i Hämta ner kärnor-listan. Dessa är vanligen endast för utveckling/teständamål och rekommenderas inte för allmän användning."
+  },
+  {
+    "stringId": 3222690,
+    "source": "Hide the overlay when a physical controller is connected in port 1, and show it again when the controller is disconnected.",
+    "target": "Dölj överlägg när en fysisk spelkontroll är ansluten till port 1 och visa igen när spelkontroll kopplas från."
+  },
+  {
+    "stringId": 3313381,
+    "source": "Show all content in a fixed size window of dimensions specified by 'Window Width' and 'Window Height', and save current window size and position upon closing RetroArch. When disabled, window size will be set dynamically based on 'Windowed Scale'.",
+    "target": "Visa allt innehåll i ett fönster i fast storlek av dimensioner som anges av 'Fönster Bredd' och 'Fönster Höjd' och spara aktuell fönsterstorlek och position vid stängning av RetroArch. Inaktiverad kommer fönsterstorleken att ställas in dynamiskt baserat på 'Fönsterskala'."
+  },
+  {
+    "stringId": 4758291,
+    "source": "Libretro uses a virtual gamepad abstraction known as the 'RetroPad' to communicate from frontends (like RetroArch) to cores and vice versa. This menu determines how the virtual RetroPad is mapped to the physical input devices and which virtual input ports these devices occupy.\\nIf a physical input device is recognized and autoconfigured correctly, users probably do not need to use this menu at all, and for core-specific input changes, should use the Quick Menu's 'Controls' submenu instead.",
+    "target": "Libretro använder en virtuell gamepad-abstraktion känd som \"RetroPad\" för att kommunicera från frontends (som RetroArch) till kärnor och vice versa. Den här menyn bestämmer hur den virtuella RetroPad mappas till de fysiska inmatningsenheterna och vilka virtuella ingångsportar dessa enheter upptar.\\nOm en fysisk inmatningsenhet känns igen och autokonfigureras korrekt, behöver användare förmodligen inte använda den här menyn alls och för kärnspecifika ändringar, använd 'Spelkontroller' i Snabbmenyn istället."
+  },
+  {
+    "stringId": 6187337,
+    "source": "Hand shaders to the graphics driver as SPIR-V instead of cross-compiling them to GLSL first, which can shorten shader preset loading times. This is only a hint: it requires the 'GL_ARB_gl_spirv' driver extension, and any shader or driver that cannot use it silently falls back to cross-compilation. Takes effect the next time a shader preset is loaded.",
+    "target": "Skicka shaders till grafikdrivrutinen som SPIR-V i stället för att först korskompilera dem till GLSL, vilket kan förkorta inläsningstiden för shader-förinställningar. Detta är endast en rekommendation: det kräver drivrutinstillägget ”GL_ARB_gl_spirv” och en shader eller drivrutin som inte kan använda det återgår tyst till korskompilering. Träder i kraft nästa gång en shader-förinställning läses in."
+  },
+  {
+    "stringId": 6189441,
+    "source": "Enable SMB network share access. Ethernet is strongly recommended over Wi-Fi for a more reliable connection. Note: changes take effect the next time a share is browsed, and content already running from a share keeps its current connection.",
+    "target": "Aktivera åtkomst till SMB-nätverksresurser. Ethernet rekommenderas starkt framför Wi-Fi för en tillförlitligare anslutning. Obs: Ändringarna träder i kraft nästa gång en resurs bläddras och innehåll som redan körs från en resurs behåller sin aktuella anslutning."
+  },
+  {
+    "stringId": 6194025,
+    "source": "Let the SDL window switch among the display modes it lists. 'Auto' uses it only when the native display server cannot switch modes. 'Always' overrides the native server: CRT SwitchRes then picks from the listed modes, including ones without known timings, and custom CRT timings are unavailable.",
+    "target": "Låt SDL-fönstret växla mellan bildskärmslägena som det listar. ”Automatiskt” använder detta endast när den inbyggda bildskärmsservern inte kan växla läge. ”Alltid” åsidosätter den inbyggda servern: CRT SwitchRes väljer då bland de listade lägena, även lägen utan kända tidsinställningar och anpassade CRT-tidsinställningar är inte tillgängliga."
+  },
+  {
+    "stringId": 6194237,
+    "source": "With Threaded Video, start each core frame as late as the next display refresh allows, from measured core and render times, instead of on a fixed timer. Lowers latency to what Frame Delay reaches on unthreaded video, and a frame that runs long is repeated rather than missed. Off: the timer paces, as before.",
+    "target": "Med trådad video startar varje bildruta från kärnan så sent som nästa bildskärmsuppdatering tillåter, utifrån uppmätta tider för kärna och rendering, i stället för med en fast timer. Det sänker latensen till samma nivå som bildrutefördröjning med entrådad video och en bildruta som tar för lång tid upprepas i stället för att missas. Av: timern styr takten som tidigare."
+  },
+  {
+    "stringId": 6194267,
+    "source": "Run the core and the video driver on separate threads, so the display keeps its cadence when the core stutters and the core overlaps with the shader chain and present. With 'Threaded Video Display Pacing' the core starts as late as the next refresh allows, matching the latency of Frame Delay. Cores that render on the GPU run threaded with the Vulkan, Direct3D 11, Direct3D 12 and gl drivers; with other drivers they run unthreaded whatever this is set to.",
+    "target": "Kör kärnan och videodrivrutinen i separata trådar så att bildskärmen behåller sin takt när kärnan hackar och så att kärnan överlappar shaderkedjan och presentationen. Med ”Trådad synkronisering av videovisning” startar kärnan så sent som nästa uppdatering tillåter, vilket ger samma latens som bildrutefördröjning. Kärnor som renderar på GPU:n körs trådat med drivrutinerna Vulkan, Direct3D 11, Direct3D 12 och gl; med andra drivrutiner körs de entrådat oavsett den här inställningen."
+  },
+  {
+    "stringId": 6195663,
+    "source": "Run the video driver on a thread of its own. The display keeps its cadence when the core stutters, and the core runs its next frame while the last one goes through the shader chain and present. With 'Threaded Video Display Pacing' the core starts as late as the next refresh allows, which keeps latency at what Frame Delay gives.",
+    "target": "Kör videodrivrutinen i en egen tråd. Bildskärmen behåller sin takt när kärnan hackar och kärnan kör nästa bildruta medan den föregående går genom shaderkedjan och presentationen. Med ”Trådad synkronisering av videovisning” startar kärnan så sent som nästa uppdatering tillåter, vilket håller latensen på samma nivå som bildrutefördröjning."
+  },
+  {
+    "stringId": 6204023,
+    "source": "Switches to a copy of the active Windows power plan that keeps the processor at full speed - minimum and maximum processor state at 100%, energy preference on performance - with no parked cores, re-evaluates performance states every 5 seconds instead of every 15 ms, and keeps PCI Express links and USB ports out of power saving, cutting kernel interrupt activity and wake-up delays. Only applies when plugged in. The original plan is restored on exit.",
+    "target": "Växlar till en kopia av det aktiva energischemat i Windows som håller processorn på full hastighet: lägsta och högsta processortillståndet är 100 %, energipreferensen är prestanda och inga kärnor parkeras. Prestandatillstånd utvärderas var femte sekund i stället för var 15:e ms och PCI Express-länkar och USB-portar hålls utanför energisparläget. Detta minskar kärnavbrott och fördröjningar vid väckning. Gäller endast när datorn är ansluten till nätström. Det ursprungliga schemat återställs när programmet avslutas."
+  },
+  {
+    "stringId": 6204203,
+    "source": "Leave the menu, notifications, on-screen messages and overlays out of GPU recordings, and leave out the time spent in the menu. When off, recordings capture exactly what is on screen.",
+    "target": "Uteslut menyn, aviseringar, skärmmeddelanden och överlägg från GPU-inspelningar och uteslut tiden i menyn. När funktionen är av spelar inspelningar in exakt vad som visas på skärmen."
+  },
+  {
+    "stringId": 6204207,
+    "source": "Encode H.264 with a hardware encoder when one is available, falling back to software (libx264). Applies to the built-in quality presets, not to custom configs.",
+    "target": "Koda H.264 med en maskinvaruaccelererad kodare när en sådan finns och använd annars programvara (libx264). Gäller de inbyggda kvalitetsförinställningarna, inte egna konfigurationer."
+  }
+]
