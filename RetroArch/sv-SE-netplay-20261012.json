@@ -1,0 +1,157 @@
+[
+  {
+    "stringId": 4604461,
+    "source": "Influences how input polling is done inside RetroArch.\\nEarly - Input polling is performed before the frame is processed.\\nNormal - Input polling is performed when polling is requested.\\nLate - Input polling is performed on first input state request per frame.\\nSetting it to 'Early' or 'Late' can result in less latency, depending on your configuration. Will be ignored when using netplay.",
+    "target": "Påverkar hur input polling utförs i RetroArch.\\nEarly - Input polling utförs innan ramen bearbetas.\\nNormal - Input polling utförs när polling begärs.\\nLate - Input polling utförs vid första begäran om inputstatus per ram.\\nAtt ställa in den på 'Early' eller 'Late' kan resultera i mindre latens, beroende på din konfiguration. Kommer att ignoreras när du använder nätspel."
+  },
+  {
+    "stringId": 4604567,
+    "source": "The frequency in frames with which netplay will verify that the host and client are in sync. With most cores, this value will have no visible effect and can be ignored. With nondeterminstic cores, this value determines how often the netplay peers will be brought into sync. With buggy cores, setting this to any non-zero value will cause severe performance issues. Set to zero to perform no checks. This value is only used on the netplay host.",
+    "target": "Frekvensen i bildrutor med vilken nätspel kommer att verifiera att värden och klienten är synkroniserade. Med de flesta kärnor har detta värde ingen synlig effekt och kan ignoreras. Med icke-bestämbara kärnor avgör detta värde hur ofta nätspelspartner kommer att synkroniseras. Med buggiga kärnor kommer det att orsaka allvarliga prestandaproblem om detta värde sätts till något annat än noll. Ställ in på noll för att inte utföra några kontroller. Detta värde används endast på nätspelsvärden."
+  },
+  {
+    "stringId": 1930750,
+    "source": "The number of frames of input latency for netplay to use to hide network latency. Reduces jitter and makes netplay less CPU-intensive, at the expense of noticeable input lag.",
+    "target": "Antalet bildrutor med inmatningslatens som nätspel ska använda för att dölja nätverkslatens. Minskar jitter och gör nätspel mindre CPU-krävande, men på bekostnad av märkbar fördröjning i inmatningen."
+  },
+  {
+    "stringId": 4604569,
+    "source": "The number of frames of input latency for netplay to use to hide network latency.\\nWhen in netplay, this option delays local input, so that the frame being run is closer to the frames being received from the network. This reduces jitter and makes netplay less CPU-intensive, but at the price of noticeable input lag.",
+    "target": "Antalet bildrutor med inmatningsfördröjning som nätspel ska använda för att dölja nätverksfördröjning.\\nNär det här alternativet används i nätspel fördröjer det lokal inmatning så att den bildruta som körs ligger närmare de bildrutor som tas emot från nätverket. Detta minskar jitter och gör nätspel mindre CPU-intensivt, men till priset av en märkbar fördröjning av inmatningen."
+  },
+  {
+    "stringId": 1930754,
+    "source": "The range of frames of input latency that may be used to hide network latency. Reduces jitter and makes netplay less CPU-intensive, at the expense of unpredictable input lag.",
+    "target": "Det intervall av bildrutor med inmatningslatens som kan användas för att dölja nätverkslatens. Minskar jitter och gör nätspel mindre CPU-krävande, men på bekostnad av oförutsägbar fördröjning i inmatningen."
+  },
+  {
+    "stringId": 4604571,
+    "source": "The range of frames of input latency that may be used by netplay to hide network latency.\\nIf set, netplay will adjust the number of frames of input latency dynamically to balance CPU time, input latency and network latency. This reduces jitter and makes netplay less CPU-intensive, but at the price of unpredictable input lag.",
+    "target": "Det intervall av bildrutor med inmatningslatens som kan användas av nätspel för att dölja nätverkslatens.\\nOm det är inställt kommer nätspel att justera antalet bildrutor med inmatningslatens dynamiskt för att balansera CPU-tid, inmatningslatens och nätverkslatens. Detta minskar jitter och gör nätspel mindre CPU-intensivt, men till priset av oförutsägbar inmatningsfördröjning."
+  },
+  {
+    "stringId": 3122824,
+    "source": "Refresh Netplay Host List",
+    "target": "Uppdatera Nätspelsvärdlistan"
+  },
+  {
+    "stringId": 3122826,
+    "source": "Scan for netplay hosts.",
+    "target": "Leta efter nätspelsvärdar."
+  },
+  {
+    "stringId": 3367127,
+    "source": "Refresh Netplay LAN List",
+    "target": "Uppdatera Nätspelslistan för LAN"
+  },
+  {
+    "stringId": 3367129,
+    "source": "Scan for netplay hosts on LAN.",
+    "target": "Leta efter nätspelsvärdar på LAN."
+  },
+  {
+    "stringId": 3223116,
+    "source": "Start netplay in host (server) mode.",
+    "target": "Starta nätspel i värdläge (server)."
+  },
+  {
+    "stringId": 3406004,
+    "source": "No netplay clients found.",
+    "target": "Inga nätspelsklienter hittades."
+  },
+  {
+    "stringId": 4491946,
+    "source": "Content must be loaded before starting netplay.",
+    "target": "Innehållet måste läsas in innan nätspel kan startas."
+  },
+  {
+    "stringId": 1933178,
+    "source": "Sorry, unimplemented: cores that don't demand content cannot participate in netplay.",
+    "target": "Tyvärr, inte implementerat: kärnor som inte efterfrågar innehåll kan inte delta i nätspel."
+  },
+  {
+    "stringId": 1933184,
+    "source": "Unknown netplay command received",
+    "target": "Okänt nätspelskommando togs emot"
+  },
+  {
+    "stringId": 1933214,
+    "source": "A netplay connection attempt failed because the peer is not running RetroArch, or is running an old version of RetroArch.",
+    "target": "Ett försök till nätspelsanslutning misslyckades eftersom motparten inte kör RetroArch eller kör en gammal version av RetroArch."
+  },
+  {
+    "stringId": 4497380,
+    "source": "A netplay peer is running an old version of RetroArch. Cannot connect.",
+    "target": "En nätspelspartner kör en gammal version av RetroArch. Det går inte att ansluta."
+  },
+  {
+    "stringId": 1933218,
+    "source": "WARNING: A netplay peer is running a different version of RetroArch. If problems occur, use the same version.",
+    "target": "VARNING: En nätspelspartner kör en annan version av RetroArch. Om problem uppstår, använd samma version."
+  },
+  {
+    "stringId": 1933220,
+    "source": "A netplay peer is running a different core. Cannot connect.",
+    "target": "En nätspelspartner kör en annan kärna. Det går inte att ansluta."
+  },
+  {
+    "stringId": 1933222,
+    "source": "WARNING: A netplay peer is running a different version of the core. If problems occur, use the same version.",
+    "target": "VARNING: En nätspelspartner kör en annan version av kärnan. Om problem uppstår ska du använda samma version."
+  },
+  {
+    "stringId": 4497382,
+    "source": "This core does not support netplay between these platforms",
+    "target": "Denna kärna stöder inte nätspel mellan dessa plattformar"
+  },
+  {
+    "stringId": 4497384,
+    "source": "This core does not support netplay between different platforms",
+    "target": "Denna kärna stöder inte nätspel mellan olika plattformar"
+  },
+  {
+    "stringId": 1933236,
+    "source": "A netplay client has disconnected",
+    "target": "En nätspelsklient har kopplat från"
+  },
+  {
+    "stringId": 1933248,
+    "source": "Netplay peer \"%s\" paused",
+    "target": "Nätspelspartner ”%s” pausad"
+  },
+  {
+    "stringId": 1933572,
+    "source": "Failed to initialize netplay.",
+    "target": "Misslyckades med att initiera nätspel."
+  },
+  {
+    "stringId": 3404040,
+    "source": "Core does not support netplay.",
+    "target": "Kärnan har inte stöd för nätspel."
+  },
+  {
+    "stringId": 1933732,
+    "source": "Scanning for netplay hosts...",
+    "target": "Letar efter nätspelsvärdar..."
+  },
+  {
+    "stringId": 5128028,
+    "source": "Netplay host full.",
+    "target": "Nätspelsvärden är full."
+  },
+  {
+    "stringId": 5759234,
+    "source": "Netplay host needs to be updated. Achievements Hardcore Mode disabled for current session.",
+    "target": "Nätspelsvärden behöver uppdateras. Hardcore-läget för prestationer inaktiverades för aktuell session."
+  },
+  {
+    "stringId": 1930702,
+    "source": "Whether to announce netplay games publicly. If unset, clients must manually connect rather than using the public lobby.",
+    "target": "Om nätspel ska annonseras offentligt. Om inställningen är avaktiverad måste klienter ansluta manuellt i stället för att använda den publika lobbyn."
+  },
+  {
+    "stringId": 3122766,
+    "source": "Start netplay in spectator mode.",
+    "target": "Starta nätspel i åskådarläge."
+  }
+]
