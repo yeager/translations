@@ -1,0 +1,52 @@
+[
+  {
+    "stringId": 6706817,
+    "source": "The models did not move together, so the operations&apos; points and heights were left where they were. Check them.",
+    "translation": "Modellerna flyttades inte tillsammans, så operationernas punkter och höjder lämnades där de var. Kontrollera dem."
+  },
+  {
+    "stringId": 6706811,
+    "source": "Flip binormal direction",
+    "translation": "Vänd binormalriktning"
+  },
+  {
+    "stringId": 6706807,
+    "source": "Start at selected shape",
+    "translation": "Börja vid markerad form"
+  },
+  {
+    "stringId": 6706813,
+    "source": "Relative to first",
+    "translation": "Relativt till den första"
+  },
+  {
+    "stringId": 6706809,
+    "source": "Binormal axis",
+    "translation": "Binormalaxel"
+  },
+  {
+    "stringId": 6706815,
+    "source": "Origin point index",
+    "translation": "Index för ursprungspunkt"
+  },
+  {
+    "stringId": 6706799,
+    "source": "The line that points the tool along a declared plane&apos;s normal. Empty is G53.1, which moves the rotaries alone and lets the tool tip swing: G53.1 P1 or P2 names which of the two poses, Q1 lets the table take part. G53.6 keeps the tool center point where it is instead.",
+    "translation": "Raden som riktar verktyget längs normalriktningen för ett angivet plan. Tomt betyder G53.1, som enbart flyttar rotationsaxlarna och låter verktygsspetsen svänga: G53.1 P1 eller P2 anger vilken av de två positionerna, Q1 låter bordet medverka. G53.6 behåller i stället verktygscentrumet där det är."
+  },
+  {
+    "stringId": 6706803,
+    "source": "A line emitted after the preamble when the job has an operation on a tilted work plane. G53.1 needs a kinematics type whose frames describe the machine; on a switchable module that starts in identity kinematics this is where G12.1 P1 goes.",
+    "translation": "En rad som genereras efter preambeln när jobbet har en operation på ett lutat arbetsplan. G53.1 behöver en kinematiktyp vars ramar beskriver maskinen. I en växlingsbar modul som börjar med identitetskinematik ska G12.1 P1 placeras här."
+  },
+  {
+    "stringId": 6706801,
+    "source": "Tilted work plane: kinematics select",
+    "translation": "Lutat arbetsplan: val av kinematik"
+  },
+  {
+    "stringId": 6706797,
+    "source": "G-code inserted before the rotary axes move, and before a tilted work plane is aligned to with G53.1. Put the moves that bring the tool clear of the part here, in machine coordinates: G53 G0 Z0 lifts the tool tip to machine Z zero; on the kinematics of LinuxCNC pull request #4374, G53.5 G0 Z0 parks the Z slide whatever the head is doing. Left empty, nothing clears the part before the table turns, and the sanity check says so.",
+    "translation": "G-kod som infogas innan rotationsaxlarna flyttas och innan ett lutat arbetsplan riktas in med G53.1. Lägg de förflyttningar som för verktyget fritt från detaljen här, i maskinkoordinater: G53 G0 Z0 lyfter verktygsspetsen till maskinens Z-nollpunkt; med kinematiken i ändringsförslag #4374 för LinuxCNC parkerar G53.5 G0 Z0 Z-axelns glid oavsett vad huvudet gör. Om fältet lämnas tomt frigörs inte detaljen innan bordet vrids och rimlighetskontrollen meddelar det."
+  }
+]
