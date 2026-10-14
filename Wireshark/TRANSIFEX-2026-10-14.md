@@ -15,8 +15,7 @@ Validation completed:
   technical terms
 - secret scan: Gitleaks found no leaks
 
-Three l10n-lint warnings remain. They are source syntax rather than Swedish
-prose defects: a time-format example and an intentional leading blank in a UI fragment.
+One l10n-lint warning remains. It concerns an intentional leading blank in a UI fragment and is not a Swedish prose defect.
 
 Upload this file to the Wireshark Swedish resource in Transifex. Read the
 resource back after import before treating the upload as accepted.
