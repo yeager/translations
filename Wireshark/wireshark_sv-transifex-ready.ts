@@ -15244,7 +15244,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     </message>
     <message>
         <source> (MA)</source>
-        <translation>(GM)</translation>
+        <translation> (GM)</translation>
     </message>
     <message>
         <source> (%1 Segment MA)</source>
