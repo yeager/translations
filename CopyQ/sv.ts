@@ -4189,7 +4189,7 @@ Ange 0 för att använda den globala inställningen.</translation>
     <message>
         <location filename="../src/gui/filterlineedit.cpp" line="383"/>
         <source>Case Insensitive</source>
-        <translation>Ej skiftlägeskänsligt</translation>
+        <translation>Inte skiftlägeskänsligt</translation>
     </message>
 </context>
 </TS>
