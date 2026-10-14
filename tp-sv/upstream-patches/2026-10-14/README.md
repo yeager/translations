@@ -12,6 +12,7 @@ Varje ändring ersätter ett svenskt tankstreck med kolon där motsvarande käll
 | e2fsprogs-1.47.3-rc1.sv.po | 11 | [e2fsprogs-1.47.3-rc1.sv.po.patch](e2fsprogs-1.47.3-rc1.sv.po.patch) |
 | gawk-5.4.0d.sv.po | 49 | [gawk-5.4.0d.sv.po.patch](gawk-5.4.0d.sv.po.patch) |
 | gcc-16.2.0.sv.po | 13 | [gcc-16.2.0.sv.po.patch](gcc-16.2.0.sv.po.patch) |
+| gas-2.46.90.sv.po | 1 | [gas-2.46.90.sv.po.patch](gas-2.46.90.sv.po.patch) |
 | gnulib-20241209.sv.po | 1 | [gnulib-20241209.sv.po.patch](gnulib-20241209.sv.po.patch) |
 | libc-2.43.9000.sv.po | 2 | [libc-2.43.9000.sv.po.patch](libc-2.43.9000.sv.po.patch) |
 | mailutils-3.20.93.sv.po | 1 | [mailutils-3.20.93.sv.po.patch](mailutils-3.20.93.sv.po.patch) |
