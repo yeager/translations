@@ -461,7 +461,7 @@ Du kan konfigurera kommandot i inställningar.</translation>
     <message>
         <location filename="../src/ui/commanddialog.ui" line="74"/>
         <source>Sa&amp;ve Selected…</source>
-        <translation>Spara markerade…</translation>
+        <translation>&amp;Spara markerade…</translation>
     </message>
     <message>
         <location filename="../src/ui/commanddialog.ui" line="84"/>
@@ -1371,7 +1371,7 @@ Använd objektförhandsvisning för att visa hela objekt.</translation>
     <message>
         <location filename="../src/ui/configtabhistory.ui" line="265"/>
         <source>S&amp;earch for numbers</source>
-        <translation>S&amp;ök efter nummer</translation>
+        <translation>Sök &amp;efter nummer</translation>
     </message>
     <message>
         <location filename="../src/ui/configtabhistory.ui" line="275"/>
@@ -3446,7 +3446,7 @@ vilket kan vara bokstäver, siffror, ”-” eller ”_”!</translation>
     <message>
         <location filename="../src/gui/encryptionpassword.cpp" line="445"/>
         <source>Change Password Successful</source>
-        <translation>Lösenordsbytet lyckades.</translation>
+        <translation>Lösenordsbytet lyckades</translation>
     </message>
     <message>
         <location filename="../src/gui/encryptionpassword.cpp" line="446"/>
