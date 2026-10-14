@@ -1,0 +1,315 @@
+--- a/binutils-2.46.90.sv.po
++++ b/binutils-2.46.90.sv.po
+@@ -2292,7 +2292,7 @@
+ #: dwarf.c:4053
+ #, c-format
+ msgid "CU @ %#<PRIx64> has has a negative loclists_base value of %#<PRIx64> - treating as zero\n"
+-msgstr "CU @ %#<PRIx64> har ett negativt loclists_base-värde på %#<PRIx64> — behandlas som noll\n"
++msgstr "CU @ %#<PRIx64> har ett negativt loclists_base-värde på %#<PRIx64> : behandlas som noll\n"
+ 
+ #: dwarf.c:4067
+ #, c-format
+@@ -2302,7 +2302,7 @@
+ #: dwarf.c:4074
+ #, c-format
+ msgid "CU @ %#<PRIx64> has has a negative stroffsets_base value of %#<PRIx64> - treating as zero\n"
+-msgstr "CU @ %#<PRIx64> har ett negativt str_offsets_base-värde på %#<PRIx64> — behandlas som noll\n"
++msgstr "CU @ %#<PRIx64> har ett negativt str_offsets_base-värde på %#<PRIx64> : behandlas som noll\n"
+ 
+ #: dwarf.c:4142
+ msgid "More location offset attributes than DW_AT_GNU_locview attributes\n"
+@@ -2657,7 +2657,7 @@
+ #: dwarf.c:5531
+ #, c-format
+ msgid "CU @ %#<PRIx64> has has a negative rnglists_base value of %#<PRIx64> - treating as zero\n"
+-msgstr "CU @ %#<PRIx64> har ett negativt rnglists_base-värde på %#<PRIx64> — behandlas som noll\n"
++msgstr "CU @ %#<PRIx64> har ett negativt rnglists_base-värde på %#<PRIx64> : behandlas som noll\n"
+ 
+ #: dwarf.c:5583
+ msgid "DIE has locviews without loclist\n"
+@@ -2676,7 +2676,7 @@
+ #: dwarf.c:5713
+ #, c-format
+ msgid "The length field (%#<PRIx64>) in the debug_line header is wrong - the section is too small\n"
+-msgstr "Längdfältet (%#<PRIx64>) i debug_line-huvudet är trasig — sektionen är för liten\n"
++msgstr "Längdfältet (%#<PRIx64>) i debug_line-huvudet är trasig : sektionen är för liten\n"
+ 
+ #: dwarf.c:5730
+ msgid "Only DWARF version 2, 3, 4 and 5 line info is currently supported.\n"
+@@ -3320,17 +3320,17 @@
+ #: dwarf.c:7445
+ #, c-format
+ msgid " DW_MACINFO_define - lineno : %d macro : %*s\n"
+-msgstr " DW_MACINFO_define — rad : %d makro : %*s\n"
++msgstr " DW_MACINFO_define : rad : %d makro : %*s\n"
+ 
+ #: dwarf.c:7455
+ #, c-format
+ msgid " DW_MACINFO_undef - lineno : %d macro : %*s\n"
+-msgstr " DW_MACINFO_undef — rad : %d makro : %*s\n"
++msgstr " DW_MACINFO_undef : rad : %d makro : %*s\n"
+ 
+ #: dwarf.c:7468
+ #, c-format
+ msgid " DW_MACINFO_vendor_ext - constant : %d string : %*s\n"
+-msgstr " DW_MACINFO_vendor_ext — konstant : %d sträng : %*s\n"
++msgstr " DW_MACINFO_vendor_ext : konstant : %d sträng : %*s\n"
+ 
+ #: dwarf.c:7619
+ #, c-format
+@@ -3384,12 +3384,12 @@
+ #: dwarf.c:7715
+ #, c-format
+ msgid " DW_MACRO_define - lineno : %d macro : %*s\n"
+-msgstr " DW_MACRO_define — radnr : %d makro : %*s\n"
++msgstr " DW_MACRO_define : radnr : %d makro : %*s\n"
+ 
+ #: dwarf.c:7726
+ #, c-format
+ msgid " DW_MACRO_undef - lineno : %d macro : %*s\n"
+-msgstr " DW_MACRO_undef — radnr : %d makro : %*s\n"
++msgstr " DW_MACRO_undef : radnr : %d makro : %*s\n"
+ 
+ #: dwarf.c:7741
+ msgid "DW_MACRO_start_file used, but no .debug_line offset provided.\n"
+@@ -3413,32 +3413,32 @@
+ #: dwarf.c:7768
+ #, c-format
+ msgid " DW_MACRO_define_strp - lineno : %d macro : %s\n"
+-msgstr " DW_MACRO_define_strp — radnr : %d makro : %s\n"
++msgstr " DW_MACRO_define_strp : radnr : %d makro : %s\n"
+ 
+ #: dwarf.c:7779
+ #, c-format
+ msgid " DW_MACRO_undef_strp - lineno : %d macro : %s\n"
+-msgstr " DW_MACRO_undef_strp — radnr : %d makro : %s\n"
++msgstr " DW_MACRO_undef_strp : radnr : %d makro : %s\n"
+ 
+ #: dwarf.c:7785
+ #, c-format
+ msgid " DW_MACRO_import - offset : %#<PRIx64>\n"
+-msgstr " DW_MACRO_import — avstånd : %#<PRIx64>\n"
++msgstr " DW_MACRO_import : avstånd : %#<PRIx64>\n"
+ 
+ #: dwarf.c:7792
+ #, c-format
+ msgid " DW_MACRO_define_sup - lineno : %d macro offset : %#<PRIx64>\n"
+-msgstr " DW_MACRO_define_sup — radnr : %d makroavstånd : %#<PRIx64>\n"
++msgstr " DW_MACRO_define_sup : radnr : %d makroavstånd : %#<PRIx64>\n"
+ 
+ #: dwarf.c:7800
+ #, c-format
+ msgid " DW_MACRO_undef_sup - lineno : %d macro offset : %#<PRIx64>\n"
+-msgstr " DW_MACRO_undef_sup — radnr : %d makroavstånd : %#<PRIx64>\n"
++msgstr " DW_MACRO_undef_sup : radnr : %d makroavstånd : %#<PRIx64>\n"
+ 
+ #: dwarf.c:7807
+ #, c-format
+ msgid " DW_MACRO_import_sup - offset : %#<PRIx64>\n"
+-msgstr " DW_MACRO_import_sup — avstånd : %#<PRIx64>\n"
++msgstr " DW_MACRO_import_sup : avstånd : %#<PRIx64>\n"
+ 
+ #: dwarf.c:7822
+ #, c-format
+@@ -3468,7 +3468,7 @@
+ #: dwarf.c:7850
+ #, c-format
+ msgid " DW_MACRO_%02x -"
+-msgstr " DW_MACRO_%02x —"
++msgstr " DW_MACRO_%02x :"
+ 
+ #: dwarf.c:7899
+ #, c-format
+@@ -3644,7 +3644,7 @@
+ " Warning: This section has relocations - addresses seen here may not be accurate.\n"
+ "\n"
+ msgstr ""
+-"Varning: denna sektion har omlokaliseringar — adresser som syns här är kanske inte korrekta.\n"
++"Varning: denna sektion har omlokaliseringar : adresser som syns här är kanske inte korrekta.\n"
+ "\n"
+ 
+ # Expression är en maskinkodsinstruktion
+@@ -4014,7 +4014,7 @@
+ #: dwarf.c:11084
+ #, c-format
+ msgid "Probably corrupt segment size: %d - using 4 instead\n"
+-msgstr "Troligen trasig segmentstorlek: %d — använder 4 istället\n"
++msgstr "Troligen trasig segmentstorlek: %d : använder 4 istället\n"
+ 
+ #. Ideally translate "invalid " to 8 chars, trailing space
+ #. is optional.
+@@ -4436,7 +4436,7 @@
+ #: dwarf.c:13189
+ #, c-format
+ msgid "Separate debug info file %s found, but CRC does not match - ignoring\n"
+-msgstr "Separat fil %s med felsökningsinformation hittad, men CRC:n stämmer inte — ignorerar\n"
++msgstr "Separat fil %s med felsökningsinformation hittad, men CRC:n stämmer inte : ignorerar\n"
+ 
+ #: dwarf.c:13369
+ #, c-format
+@@ -5980,11 +5980,11 @@
+ #: objcopy.c:3164
+ #, c-format
+ msgid "can't dump section '%s' - it does not exist"
+-msgstr "kan inte skriva sektion ”%s” — den finns inte"
++msgstr "kan inte skriva sektion ”%s” : den finns inte"
+ 
+ #: objcopy.c:3172
+ msgid "can't dump section - it has no contents"
+-msgstr "kan inte skriva sektionen — den har inget innehåll"
++msgstr "kan inte skriva sektionen : den har inget innehåll"
+ 
+ #: objcopy.c:3184
+ msgid "could not open section dump file"
+@@ -6241,7 +6241,7 @@
+ #: objcopy.c:6088
+ #, c-format
+ msgid "--file-alignment argument is not a power of two: %s - ignoring"
+-msgstr "argumentet till --file-alignment är inte en potens av två: %s — ignorerar"
++msgstr "argumentet till --file-alignment är inte en potens av två: %s : ignorerar"
+ 
+ #: objcopy.c:6099
+ #, c-format
+@@ -6256,7 +6256,7 @@
+ #: objcopy.c:6120
+ #, c-format
+ msgid "--section-alignment argument is not a power of two: %s - ignoring"
+-msgstr "argumentet till --section-alignment är inte en potens av två: %s — ignorerar"
++msgstr "argumentet till --section-alignment är inte en potens av två: %s : ignorerar"
+ 
+ #: objcopy.c:6135
+ #, c-format
+@@ -8524,7 +8524,7 @@
+ 
+ #: readelf.c:2200
+ msgid "Unusual RELR bitmap - no previous entry to set the base address\n"
+-msgstr "Ovanlig RELR-bitavbildning — ingen tidigare post satt till basadressen\n"
++msgstr "Ovanlig RELR-bitavbildning : ingen tidigare post satt till basadressen\n"
+ 
+ #: readelf.c:2217
+ #, c-format
+@@ -9227,15 +9227,15 @@
+ 
+ #: readelf.c:7219
+ msgid "This is a LLVM bitcode file - try using llvm-bcanalyzer\n"
+-msgstr "Detta är en LLVM-bitkodsfil — försök att använda llvm-bcanalyzer\n"
++msgstr "Detta är en LLVM-bitkodsfil : försök att använda llvm-bcanalyzer\n"
+ 
+ #: readelf.c:7220
+ msgid "This is a LLVM bitcode file - try extracting and then using llvm-bcanalyzer\n"
+-msgstr "Detta är en LLVM-bitkodsfil — försök extrahera och sedan använda llvm-bcanalyzer\n"
++msgstr "Detta är en LLVM-bitkodsfil : försök extrahera och sedan använda llvm-bcanalyzer\n"
+ 
+ #: readelf.c:7223
+ msgid "This is a GO binary file - try using 'go tool objdump' or 'go tool nm'\n"
+-msgstr "Detta är en GO-binärfil — försök att använda ”go tool objdump” eller ”go tool nm”\n"
++msgstr "Detta är en GO-binärfil : försök att använda ”go tool objdump” eller ”go tool nm”\n"
+ 
+ #: readelf.c:7247
+ msgid "Not an ELF file - it has the wrong magic bytes at the start\n"
+@@ -9405,7 +9405,7 @@
+ #: readelf.c:7480
+ #, c-format
+ msgid "Too many program headers - %#x - the file is not that big\n"
+-msgstr "För många programhuvuden — %#x — filen är inte så stor\n"
++msgstr "För många programhuvuden : %#x : filen är inte så stor\n"
+ 
+ #: readelf.c:7489
+ #, c-format
+@@ -9414,7 +9414,7 @@
+ 
+ #: readelf.c:7519
+ msgid "possibly corrupt ELF header - it has a non-zero program header offset, but no program headers\n"
+-msgstr "möjligen trasigt ELF-huvud — det har ett avstånd till programhuvuden som inte är noll, men inga programhuvuden\n"
++msgstr "möjligen trasigt ELF-huvud : det har ett avstånd till programhuvuden som inte är noll, men inga programhuvuden\n"
+ 
+ #: readelf.c:7524
+ #, c-format
+@@ -9636,7 +9636,7 @@
+ #: readelf.c:8220 readelf.c:8337
+ #, c-format
+ msgid "Index section %s has an sh_size of %#<PRIx64> - expected %#<PRIx64>\n"
+-msgstr "Indexsektionen %s har en sh_size på %#<PRIx64> — %#<PRIx64> förväntades\n"
++msgstr "Indexsektionen %s har en sh_size på %#<PRIx64> : %#<PRIx64> förväntades\n"
+ 
+ #: readelf.c:8232 readelf.c:8349
+ #, c-format
+@@ -10026,7 +10026,7 @@
+ "Image fixups for needed library #%<PRId64>: %s - ident: %<PRIx64>\n"
+ msgstr ""
+ "\n"
+-"Avbildsfixar behövs för bibliotek nr. %<PRId64>: %s — ident: %<PRIx64>\n"
++"Avbildsfixar behövs för bibliotek nr. %<PRId64>: %s : ident: %<PRIx64>\n"
+ 
+ #: readelf.c:9879
+ #, c-format
+@@ -11579,7 +11579,7 @@
+ #: readelf.c:18210
+ #, c-format
+ msgid "section '%s' has the NOBITS type - its contents are unreliable.\n"
+-msgstr "sektionen ”%s” har typen NOBITS — dess innehåll är opålitligt.\n"
++msgstr "sektionen ”%s” har typen NOBITS : dess innehåll är opålitligt.\n"
+ 
+ #: readelf.c:18263
+ #, c-format
+@@ -11594,12 +11594,12 @@
+ #: readelf.c:18356
+ #, c-format
+ msgid "Unable to display section %d - it has a NULL type\n"
+-msgstr "kan inte visa sektion %d — den har NULL-typ\n"
++msgstr "kan inte visa sektion %d : den har NULL-typ\n"
+ 
+ #: readelf.c:18360
+ #, c-format
+ msgid "Unable to display section %d - it has no contents\n"
+-msgstr "Kan inte visa sektion %d — den har inget innehåll\n"
++msgstr "Kan inte visa sektion %d : den har inget innehåll\n"
+ 
+ #. FIXME: Add Proc and OS specific section types ?
+ #: readelf.c:18371
+@@ -11999,7 +11999,7 @@
+ #: readelf.c:20007
+ #, c-format
+ msgid "Unknown attributes version '%c'(%d) - expecting 'A'\n"
+-msgstr "Okänd attributversion ”%c”(%d) — ”A” förväntades\n"
++msgstr "Okänd attributversion ”%c”(%d) : ”A” förväntades\n"
+ 
+ #: readelf.c:20024
+ msgid "Tag section ends prematurely\n"
+@@ -12133,7 +12133,7 @@
+ #: readelf.c:20474
+ #, c-format
+ msgid "Unknown attributes version '%c'(0x%02x) - expecting 'A'\n"
+-msgstr "Okänd attributversion ”%c”(0x%02x) — ”A” förväntades\n"
++msgstr "Okänd attributversion ”%c”(0x%02x) : ”A” förväntades\n"
+ 
+ #: readelf.c:20482
+ #, c-format
+@@ -12802,15 +12802,15 @@
+ 
+ #: readelf.c:22152
+ msgid "    Malformed note - too short for header\n"
+-msgstr "    Felformaterad notering — för kort för huvudet\n"
++msgstr "    Felformaterad notering : för kort för huvudet\n"
+ 
+ #: readelf.c:22161
+ msgid "    Malformed note - does not end with \\0\n"
+-msgstr "    Felformaterad notering — avslutas inte med \\0\n"
++msgstr "    Felformaterad notering : avslutas inte med \\0\n"
+ 
+ #: readelf.c:22174
+ msgid "    Malformed note - too short for supplied file count\n"
+-msgstr "    Felformaterad notering — för kort för det angivna filantalet\n"
++msgstr "    Felformaterad notering : för kort för det angivna filantalet\n"
+ 
+ #: readelf.c:22178
+ #, c-format
+@@ -12836,7 +12836,7 @@
+ 
+ #: readelf.c:22193
+ msgid "    Malformed note - filenames end too early\n"
+-msgstr "    Felformaterad notering — filnamn slutar för tidigt\n"
++msgstr "    Felformaterad notering : filnamn slutar för tidigt\n"
+ 
+ #: readelf.c:22225
+ msgid "NT_GNU_ABI_TAG (ABI version tag)"

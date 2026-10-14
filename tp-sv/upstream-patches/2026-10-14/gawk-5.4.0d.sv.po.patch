@@ -1,0 +1,269 @@
+--- a/gawk-5.4.0d.sv.po
++++ b/gawk-5.4.0d.sv.po
+@@ -890,7 +890,7 @@
+ #: command.y:296
+ #, c-format
+ msgid "info: invalid option - `%s'"
+-msgstr "info: ogiltig flagga — ”%s”"
++msgstr "info: ogiltig flagga : ”%s”"
+ 
+ #: command.y:322
+ #, c-format
+@@ -935,7 +935,7 @@
+ #: command.y:374
+ #, c-format
+ msgid "trace: invalid option - `%s'"
+-msgstr "trace: ogiltig flagga — ”%s”"
++msgstr "trace: ogiltig flagga : ”%s”"
+ 
+ #: command.y:388
+ msgid "condition: invalid breakpoint/watchpoint number"
+@@ -948,17 +948,17 @@
+ #: command.y:460 command.y:465
+ #, c-format
+ msgid "option: invalid parameter - `%s'"
+-msgstr "option: ogiltig parameter — ”%s”"
++msgstr "option: ogiltig parameter : ”%s”"
+ 
+ #: command.y:475
+ #, c-format
+ msgid "no such function - `%s'"
+-msgstr "ingen sådan funktion — ”%s”"
++msgstr "ingen sådan funktion : ”%s”"
+ 
+ #: command.y:532
+ #, c-format
+ msgid "enable: invalid option - `%s'"
+-msgstr "enable: ogiltig flagga — ”%s”"
++msgstr "enable: ogiltig flagga : ”%s”"
+ 
+ #: command.y:598
+ #, c-format
+@@ -979,175 +979,175 @@
+ 
+ #: command.y:818
+ msgid "backtrace [N] - print trace of all or N innermost (outermost if N < 0) frames"
+-msgstr "backtrace [N] — skriv ett spår över alla eller N innersta (yttersta om N < 0) ramar"
++msgstr "backtrace [N] : skriv ett spår över alla eller N innersta (yttersta om N < 0) ramar"
+ 
+ #: command.y:820
+ msgid "break [[filename:]N|function] - set breakpoint at the specified location"
+-msgstr "break [[filename:]N|function] — sätt brytpunkt på den angivna platsen"
++msgstr "break [[filename:]N|function] : sätt brytpunkt på den angivna platsen"
+ 
+ #: command.y:822
+ msgid "clear [[filename:]N|function] - delete breakpoints previously set"
+-msgstr "clear [[filnamn:]N|funktion] — radera tidigare satta brytpunkter"
++msgstr "clear [[filnamn:]N|funktion] : radera tidigare satta brytpunkter"
+ 
+ #: command.y:824
+ msgid "commands [num] - starts a list of commands to be executed at a breakpoint(watchpoint) hit"
+-msgstr "commands [num] — startar en lista av kommandon att köra när en brytpunkt(observationspunkt) träffas"
++msgstr "commands [num] : startar en lista av kommandon att köra när en brytpunkt(observationspunkt) träffas"
+ 
+ #: command.y:826
+ msgid "condition num [expr] - set or clear breakpoint or watchpoint condition"
+-msgstr "condition num [uttr] — sätt eller töm en brytpunkts eller observationspunkts villkor"
++msgstr "condition num [uttr] : sätt eller töm en brytpunkts eller observationspunkts villkor"
+ 
+ #: command.y:828
+ msgid "continue [COUNT] - continue program being debugged"
+-msgstr "continue [ANTAL] — fortsätt programmet som felsöks"
++msgstr "continue [ANTAL] : fortsätt programmet som felsöks"
+ 
+ #: command.y:830
+ msgid "delete [breakpoints] [range] - delete specified breakpoints"
+-msgstr "delete [brytpunkter] [intervall] — radera angivna brytpunkter"
++msgstr "delete [brytpunkter] [intervall] : radera angivna brytpunkter"
+ 
+ #: command.y:832
+ msgid "disable [breakpoints] [range] - disable specified breakpoints"
+-msgstr "disable [brytpunkter] [intervall] — avaktivera angivna brytpunkter"
++msgstr "disable [brytpunkter] [intervall] : avaktivera angivna brytpunkter"
+ 
+ #: command.y:834
+ msgid "display [var] - print value of variable each time the program stops"
+-msgstr "display [var] — skriv ut värdet på variabeln varje gång programmet stoppar"
++msgstr "display [var] : skriv ut värdet på variabeln varje gång programmet stoppar"
+ 
+ #: command.y:836
+ msgid "down [N] - move N frames down the stack"
+-msgstr "down [N] — flytta N ramar ner i stacken"
++msgstr "down [N] : flytta N ramar ner i stacken"
+ 
+ #: command.y:838
+ msgid "dump [filename] - dump instructions to file or stdout"
+-msgstr "dump [filnamn] — skriv instruktioner till filen eller standard ut"
++msgstr "dump [filnamn] : skriv instruktioner till filen eller standard ut"
+ 
+ #: command.y:840
+ msgid "enable [once|del] [breakpoints] [range] - enable specified breakpoints"
+-msgstr "enable [once|del] [brytpunkter] [intervall] — aktivera angivna brytpunkter"
++msgstr "enable [once|del] [brytpunkter] [intervall] : aktivera angivna brytpunkter"
+ 
+ #: command.y:842
+ msgid "end - end a list of commands or awk statements"
+-msgstr "end — avsluta en lista av kommandon eller awk-satser"
++msgstr "end : avsluta en lista av kommandon eller awk-satser"
+ 
+ #: command.y:844
+ msgid "eval stmt|[p1, p2, ...] - evaluate awk statement(s)"
+-msgstr "eval sats|[p1, p2, …] — utför awk-sats(er)"
++msgstr "eval sats|[p1, p2, …] : utför awk-sats(er)"
+ 
+ #: command.y:846
+ msgid "exit - (same as quit) exit debugger"
+-msgstr "exit — (samma som quit) avsluta felsökaren"
++msgstr "exit : (samma som quit) avsluta felsökaren"
+ 
+ #: command.y:848
+ msgid "finish - execute until selected stack frame returns"
+-msgstr "finish — kör tills den valda stackramen returnerar"
++msgstr "finish : kör tills den valda stackramen returnerar"
+ 
+ #: command.y:850
+ msgid "frame [N] - select and print stack frame number N"
+-msgstr "frame [N] — välj och skriv ut stackram nummer N"
++msgstr "frame [N] : välj och skriv ut stackram nummer N"
+ 
+ #: command.y:852
+ msgid "help [command] - print list of commands or explanation of command"
+-msgstr "help [kommando] — skriv listan av kommandon eller en förklaring av kommando"
++msgstr "help [kommando] : skriv listan av kommandon eller en förklaring av kommando"
+ 
+ #: command.y:854
+ msgid "ignore N COUNT - set ignore-count of breakpoint number N to COUNT"
+-msgstr "ignore N ANTAL — sätt ignoreringsantal på brytpunkt nummer N till ANTAL"
++msgstr "ignore N ANTAL : sätt ignoreringsantal på brytpunkt nummer N till ANTAL"
+ 
+ #: command.y:856
+ msgid "info topic - source|sources|variables|functions|break|frame|args|locals|display|watch"
+-msgstr "info topic — source|sources|variables|functions|break|frame|args|locals|display|watch"
++msgstr "info topic : source|sources|variables|functions|break|frame|args|locals|display|watch"
+ 
+ #: command.y:858
+ msgid "list [-|+|[filename:]lineno|function|range] - list specified line(s)"
+-msgstr "list [-|+|[filnamn:]radnr|funktion|intervall] — lista angivna rad(er)"
++msgstr "list [-|+|[filnamn:]radnr|funktion|intervall] : lista angivna rad(er)"
+ 
+ #: command.y:860
+ msgid "next [COUNT] - step program, proceeding through subroutine calls"
+-msgstr "next [ANTAL] — stega programmet, passera genom subrutinanrop"
++msgstr "next [ANTAL] : stega programmet, passera genom subrutinanrop"
+ 
+ #: command.y:862
+ msgid "nexti [COUNT] - step one instruction, but proceed through subroutine calls"
+-msgstr "nexti [ANTAL] — stega en instruktion, men passera genom subrutinanrop"
++msgstr "nexti [ANTAL] : stega en instruktion, men passera genom subrutinanrop"
+ 
+ #: command.y:864
+ msgid "option [name[=value]] - set or display debugger option(s)"
+-msgstr "option [namn[=värde]] — sätt eller visa felsökningsalternativ"
++msgstr "option [namn[=värde]] : sätt eller visa felsökningsalternativ"
+ 
+ #: command.y:866
+ msgid "print var [var] - print value of a variable or array"
+-msgstr "print var [var] — skriv värdet på en variabel eller vektor"
++msgstr "print var [var] : skriv värdet på en variabel eller vektor"
+ 
+ #: command.y:868
+ msgid "printf format, [arg], ... - formatted output"
+-msgstr "printf format, [arg], … — formaterad utskrift"
++msgstr "printf format, [arg], … : formaterad utskrift"
+ 
+ #: command.y:870
+ msgid "quit - exit debugger"
+-msgstr "quit — avsluta felsökaren"
++msgstr "quit : avsluta felsökaren"
+ 
+ #: command.y:872
+ msgid "return [value] - make selected stack frame return to its caller"
+-msgstr "return [värde] — låt den valda stackramen returnera till sin anropare"
++msgstr "return [värde] : låt den valda stackramen returnera till sin anropare"
+ 
+ #: command.y:874
+ msgid "run - start or restart executing program"
+-msgstr "run — starta eller starta om körningen av programmet"
++msgstr "run : starta eller starta om körningen av programmet"
+ 
+ #: command.y:877
+ msgid "save filename - save commands from the session to file"
+-msgstr "save filnamn — spara kommandon från sessionen i en fil"
++msgstr "save filnamn : spara kommandon från sessionen i en fil"
+ 
+ #: command.y:880
+ msgid "set var = value - assign value to a scalar variable"
+-msgstr "set var = värde — tilldela värde till en skalär variabel"
++msgstr "set var = värde : tilldela värde till en skalär variabel"
+ 
+ #: command.y:882
+ msgid "silent - suspends usual message when stopped at a breakpoint/watchpoint"
+-msgstr "silent — undertrycker normala meddelanden vid stopp på en brytpunkt/observationspunkt"
++msgstr "silent : undertrycker normala meddelanden vid stopp på en brytpunkt/observationspunkt"
+ 
+ #: command.y:884
+ msgid "source file - execute commands from file"
+-msgstr "source fil — kör kommandon från fil"
++msgstr "source fil : kör kommandon från fil"
+ 
+ #: command.y:886
+ msgid "step [COUNT] - step program until it reaches a different source line"
+-msgstr "step [ANTAL] — stega programmet tills det når en annan källkodsrad"
++msgstr "step [ANTAL] : stega programmet tills det når en annan källkodsrad"
+ 
+ #: command.y:888
+ msgid "stepi [COUNT] - step one instruction exactly"
+-msgstr "stepi [ANTAL] — stega exakt en instruktion"
++msgstr "stepi [ANTAL] : stega exakt en instruktion"
+ 
+ #: command.y:890
+ msgid "tbreak [[filename:]N|function] - set a temporary breakpoint"
+-msgstr "tbreak [[filnamn:]N|funktion] — sätt en tillfällig brytpunkt"
++msgstr "tbreak [[filnamn:]N|funktion] : sätt en tillfällig brytpunkt"
+ 
+ #: command.y:892
+ msgid "trace on|off - print instruction before executing"
+-msgstr "trace on|off — skriv ut instruktioner före de körs"
++msgstr "trace on|off : skriv ut instruktioner före de körs"
+ 
+ #: command.y:894
+ msgid "undisplay [N] - remove variable(s) from automatic display list"
+-msgstr "undisplay [N] — ta bort variabler från listan över automatiskt visade"
++msgstr "undisplay [N] : ta bort variabler från listan över automatiskt visade"
+ 
+ #: command.y:896
+ msgid "until [[filename:]N|function] - execute until program reaches a different line or line N within current frame"
+-msgstr "until [[filnamn:]N|funktion] — kör tills programmet når en annan rad eller rad N inom aktuell ram"
++msgstr "until [[filnamn:]N|funktion] : kör tills programmet når en annan rad eller rad N inom aktuell ram"
+ 
+ #: command.y:898
+ msgid "unwatch [N] - remove variable(s) from watch list"
+-msgstr "unwatch [N] — ta bort variabler från observationslistan"
++msgstr "unwatch [N] : ta bort variabler från observationslistan"
+ 
+ #: command.y:900
+ msgid "up [N] - move N frames up the stack"
+-msgstr "up [N] — flytta N ramar uppåt i stacken"
++msgstr "up [N] : flytta N ramar uppåt i stacken"
+ 
+ #: command.y:902
+ msgid "watch var - set a watchpoint for a variable"
+-msgstr "watch var — sätt en observationspunkt för en variabel"
++msgstr "watch var : sätt en observationspunkt för en variabel"
+ 
+ #: command.y:904
+ msgid "where [N] - (same as backtrace) print trace of all or N innermost (outermost if N < 0) frames"
+-msgstr "where [N] — (samma som backtrace) skriv ett spår över alla eller N innersta (yttersta om N < 0) ramar"
++msgstr "where [N] : (samma som backtrace) skriv ett spår över alla eller N innersta (yttersta om N < 0) ramar"
+ 
+ #: command.y:1015 debug.c:423 gawkapi.c:261 msg.c:141
+ #, c-format
+@@ -1171,7 +1171,7 @@
+ #: command.y:1160
+ #, c-format
+ msgid "unknown command - `%.*s', try help"
+-msgstr "okänt kommando — ”%.*s”, försök med help"
++msgstr "okänt kommando : ”%.*s”, försök med help"
+ 
+ #: command.y:1292
+ msgid "invalid character"
