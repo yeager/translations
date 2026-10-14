@@ -1403,7 +1403,7 @@ Av = endast loggpunkt (följer den historiska konventionen ”loggpunkter pausar
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You probably want to enable this. Usually a network card will only capture the traffic sent to its own network address. If you want to capture all traffic that the network card can &amp;quot;see&amp;quot;, mark this option. See the FAQ for some more details of capturing packets from a switched network.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Du vill troligen aktivera detta.  Vanligen kommer ett nätverkskort endast fånga trafiken som skickas till dess egen nätverksadress.  Om du vill fånga all trafik som nätverkskortet kan &amp;quot;se&amp;quot;, markera detta alternativ.  Se FAQ:n för lite fler detaljer om att fånga paket från ett switchat nätverk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Du vill troligen aktivera detta. Ett nätverkskort fångar vanligtvis bara trafik som skickas till dess egen nätverksadress. Markera detta alternativ om du vill fånga all trafik som nätverkskortet kan ”se”. Se vanliga frågor och svar för mer information om att fånga paket från ett switchat nätverk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Enable promiscuous mode on all interfaces</source>
@@ -1525,7 +1525,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Usually a wireless network card will only capture the traffic sent to and from its own network address, and only captures &lt;em&gt;user data&lt;/em&gt; traffic with &amp;quot;fake&amp;quot; Ethernet headers. If you want to capture all traffic that wireless network cards can &amp;quot;see&amp;quot;, or are interested in 802.11 management or control packets, or radio-layer information, mark this option. Monitor mode availability depends on the wireless card and driver. See the Wiki for some more details of capturing packets on WLAN networks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vanligen kommer ett trådlöst nätverkskort bara fånga trafiken som skickas till och från dess egen nätverksadress, och fångar endast &lt;em&gt;användardata&lt;/em&gt;trafik med &amp;quot;falska&amp;quot; Ethernethuvuden. Om du vill fånga all trafik som trådlösa nätverkskort kan &amp;quot;se&amp;quot;, eller är intresserad av 802.11:s hanterings- eller styrpaket, eller radionivåinformation, markera detta alternativ. Övervakningslägets tillgänglighet beror på det trådlösa kortet och drivrutinen. Se Wiki:n för några fler detaljer om att fånga paket på WLAN-nätverk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ett trådlöst nätverkskort fångar vanligtvis bara trafik som skickas till och från dess egen nätverksadress och fångar bara &lt;em&gt;användardata&lt;/em&gt; med ”falska” Ethernet-huvuden. Markera detta alternativ om du vill fånga all trafik som trådlösa nätverkskort kan ”se”, är intresserad av 802.11-hanterings- eller styrpaket eller vill ha information från radioskiktet. Om övervakningsläget är tillgängligt beror på det trådlösa kortet och drivrutinen. Se wikin för mer information om att fånga paket på WLAN-nätverk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Enable monitor mode on all 802.11 interfaces</source>
@@ -1557,7 +1557,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Date and time before the file index number. This causes files to sort in creation time order, and keeps files from the same batch closely ordered.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Datum och tid före filindexnummer. Detta gör att filer sorteras i den ordning de skapas, och håller filer från samma omgång ordnade nära varandra.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Datum och tid före filindexnumret. Det gör att filer sorteras efter när de skapades och att filer från samma omgång hålls nära varandra.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>NNNNN_YYYYmmDDHHMMSS</source>
@@ -1737,7 +1737,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Record which processes on this computer sent or received each packet, for the packets of TCP and UDP sockets. Which processes can be identified depends on your privileges, and the packets of very short-lived sockets can be missed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Registrera vilka processer på denna dator som skickade eller tog emot varje paket för paketen i TCP- och UDP-uttag. Vilka processer som kan identifieras beror på dina behörigheter, och paket från mycket kortlivade uttag kan missas.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Registrera vilka processer på denna dator som skickade eller tog emot varje paket för paketen i TCP- och UDP-uttag. Vilka processer som kan identifieras beror på dina behörigheter och paket från mycket kortlivade uttag kan missas.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1768,7 +1768,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You probably want to enable this. Usually a network card will only capture the traffic sent to its own network address. If you want to capture all traffic that the network card can &amp;quot;see&amp;quot;, mark this option. See the FAQ for some more details of capturing packets from a switched network.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Du vill troligen aktivera detta.  Vanligen kommer ett nätverkskort endast fånga trafiken som skickas till dess egen nätverksadress.  Om du vill fånga all trafik som nätverkskortet kan &amp;quot;se&amp;quot;, markera detta alternativ.  Se FAQ:n för lite fler detaljer om att fånga paket från ett switchat nätverk.&lt;/p&gt;&lt;/body&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Du vill troligen aktivera detta. Ett nätverkskort fångar vanligtvis bara trafik som skickas till dess egen nätverksadress. Markera detta alternativ om du vill fånga all trafik som nätverkskortet kan ”se”. Se vanliga frågor och svar för mer information om att fånga paket från ett switchat nätverk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Capture packets in promiscuous mode</source>
@@ -1776,7 +1776,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Usually a wireless network card will only capture the traffic sent to and from its own network address, and only captures &lt;em&gt;user data&lt;/em&gt; traffic with &amp;quot;fake&amp;quot; Ethernet headers. If you want to capture all traffic that wireless network cards can &amp;quot;see&amp;quot;, or are interested in 802.11 management or control packets, or radio-layer information, mark this option. Monitor mode availability depends on the wireless card and driver. See the Wiki for more details of capturing packets on WLAN networks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vanligen kommer ett trådlöst nätverkskort bara fånga trafiken som skickas till och från dess egen nätverksadress, och fångar endast &lt;em&gt;användardata&lt;/em&gt;trafik med &amp;quot;falska&amp;quot; Ethernethuvuden. Om du vill fånga all trafik som trådlösa nätverkskort kan &amp;quot;se&amp;quot;, eller är intresserad av 802.11:s hanterings- eller styrpaket, eller radionivåinformation, markera detta alternativ. Övervakningslägets tillgänglighet beror på det trådlösa kortet och drivrutinen. Se Wiki:n för fler detaljer om att fånga paket på WLAN-nätverk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ett trådlöst nätverkskort fångar vanligtvis bara trafik som skickas till och från dess egen nätverksadress och fångar bara &lt;em&gt;användardata&lt;/em&gt; med ”falska” Ethernet-huvuden. Markera detta alternativ om du vill fånga all trafik som trådlösa nätverkskort kan ”se”, är intresserad av 802.11-hanterings- eller styrpaket eller vill ha information från radioskiktet. Om övervakningsläget är tillgängligt beror på det trådlösa kortet och drivrutinen. Se wikin för mer information om att fånga paket på WLAN-nätverk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Capture packets in monitor mode on 802.11 devices</source>
@@ -2921,7 +2921,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     <message>
         <source>Filter Button Preferences…</source>
         <oldsource>Filter Button Preferences...</oldsource>
-        <translation>Inställningar för filterknapp...</translation>
+        <translation>Inställningar för filterknapp…</translation>
     </message>
 </context>
 <context>
@@ -2948,7 +2948,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     </message>
     <message>
         <source>Filter Button Preferences…</source>
-        <translation>Inställningar för filterknappar…</translation>
+        <translation>Inställningar för filterknapp…</translation>
     </message>
     <message>
         <source>Apply a display filter %1 &lt;%2/&gt;</source>
@@ -3326,7 +3326,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     </message>
     <message>
         <source>Save As…</source>
-        <translation>Spara som …</translation>
+        <translation>Spara som…</translation>
     </message>
     <message>
         <source>Map file error</source>
@@ -3948,7 +3948,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     </message>
     <message>
         <source>Filter Button Preferences…</source>
-        <translation>Inställningar för filterknapp …</translation>
+        <translation>Inställningar för filterknapp…</translation>
     </message>
     <message>
         <source>Manage saved filters</source>
@@ -4019,7 +4019,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     <message>
         <source>Filter Button Preferences…</source>
         <oldsource>Filter Button Preferences...</oldsource>
-        <translation>Filterknappinställningar …</translation>
+        <translation>Inställningar för filterknapp…</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -5173,7 +5173,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     </message>
     <message>
         <source>Save As…</source>
-        <translation>Spara som …</translation>
+        <translation>Spara som…</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -5373,7 +5373,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     </message>
     <message>
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
 </context>
 <context>
@@ -5572,7 +5572,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     </message>
     <message>
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
     <message>
         <source>Can't save in a file: Wrong length of captured packets.</source>
@@ -5844,19 +5844,19 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     </message>
     <message>
         <source>Prefix each frame with an Ethernet, IP and UDP header</source>
-        <translation>Föregå varje ram med ett Ethernet-, IP-, och UDP-huvud</translation>
+        <translation>Föregå varje ram med ett Ethernet-, IP- och UDP-huvud</translation>
     </message>
     <message>
         <source>Prefix each frame with an Ethernet, IP and TCP header</source>
-        <translation>Föregå varje ram med ett Ethernet-, IP-, och TCP-huvud</translation>
+        <translation>Föregå varje ram med ett Ethernet-, IP- och TCP-huvud</translation>
     </message>
     <message>
         <source>Prefix each frame with an Ethernet, IP and SCTP header</source>
-        <translation>Föregå varje ram med ett Ethernet-, IP-, och SCTP-huvud</translation>
+        <translation>Föregå varje ram med ett Ethernet-, IP- och SCTP-huvud</translation>
     </message>
     <message>
         <source>Prefix each frame with an Ethernet, IP and SCTP (DATA) header</source>
-        <translation>Föregå varje ram med ett Ethernet-, IP-, och SCTP (DATA)-huvud</translation>
+        <translation>Föregå varje ram med ett Ethernet-, IP- och SCTP (DATA)-huvud</translation>
     </message>
     <message>
         <source>Source address:</source>
@@ -7299,7 +7299,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     </message>
     <message>
         <source>75%</source>
-        <translation>75%</translation>
+        <translation>75 %</translation>
     </message>
     <message>
         <source>80%</source>
@@ -7307,7 +7307,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     </message>
     <message>
         <source>85%</source>
-        <translation>85%</translation>
+        <translation>85 %</translation>
     </message>
     <message>
         <source>90%</source>
@@ -7315,7 +7315,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     </message>
     <message>
         <source>95%</source>
-        <translation>95%</translation>
+        <translation>95 %</translation>
     </message>
     <message>
         <source>Separator style:</source>
@@ -7674,7 +7674,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     </message>
     <message>
         <source>Save As…</source>
-        <translation>Spara som …</translation>
+        <translation>Spara som…</translation>
     </message>
     <message>
         <source>%1 %2 (%3s seq %4 len %5)</source>
@@ -7718,7 +7718,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     </message>
     <message>
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
 </context>
 <context>
@@ -8549,22 +8549,22 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     <message>
         <source>From Zip File…</source>
         <oldsource>From Zip File...</oldsource>
-        <translation>Från zip-fil...</translation>
+        <translation>Från zip-fil…</translation>
     </message>
     <message>
         <source>From Directory…</source>
         <oldsource>From Directory...</oldsource>
-        <translation>Från katalog...</translation>
+        <translation>Från katalog…</translation>
     </message>
     <message>
         <source>Selected Personal Profile…</source>
         <oldsource>Selected Personal Profile...</oldsource>
-        <translation>Vald personlig profil...</translation>
+        <translation>Vald personlig profil…</translation>
     </message>
     <message>
         <source>All Personal Profiles…</source>
         <oldsource>All Personal Profiles...</oldsource>
-        <translation>Alla personliga profiler...</translation>
+        <translation>Alla personliga profiler…</translation>
     </message>
     <message>
         <source>Packets: %1</source>
@@ -9143,7 +9143,7 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     </message>
     <message>
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
 </context>
 <context>
@@ -9578,7 +9578,7 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     </message>
     <message>
         <source>%1 can only be sorted with %2 or fewer visible rows; increase cache size in Layout preferences</source>
-        <translation type="vanished">%1 kan bara sorteras med %2 eller färre synliga rader; öka cachestorleken i inställningarna av layout</translation>
+        <translation type="vanished">%1 kan bara sorteras med %2 eller färre synliga rader; öka cachestorleken i layoutinställningarna</translation>
     </message>
     <message>
         <source>Sorting "%1"…</source>
@@ -9613,7 +9613,7 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     </message>
     <message>
         <source>%1 can only be sorted with %2 or fewer visible rows; increase cache size in Layout preferences</source>
-        <translation>%1 kan bara sorteras med %2 eller färre synliga rader. Öka cachestorleken i layoutinställningarna.</translation>
+        <translation>%1 kan bara sorteras med %2 eller färre synliga rader; öka cachestorleken i layoutinställningarna</translation>
     </message>
     <message>
         <source>Sorting "%1"…</source>
@@ -10085,7 +10085,7 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     </message>
     <message>
         <source>Save As…</source>
-        <translation>Spara som...</translation>
+        <translation>Spara som…</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -10197,7 +10197,7 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     </message>
     <message>
         <source>Save Graph As…</source>
-        <translation>Spara graf som...</translation>
+        <translation>Spara grafen som…</translation>
     </message>
 </context>
 <context>
@@ -10456,12 +10456,12 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     <message>
         <source>From Zip File…</source>
         <oldsource>From Zip File...</oldsource>
-        <translation>Från zip-fil...</translation>
+        <translation>Från zip-fil…</translation>
     </message>
     <message>
         <source>From Directory…</source>
         <oldsource>From Directory...</oldsource>
-        <translation>Från katalog …</translation>
+        <translation>Från katalog…</translation>
     </message>
     <message numerus="yes">
         <source>%Ln Selected Personal Profile(s)…</source>
@@ -10474,7 +10474,7 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     <message>
         <source>All Personal Profiles…</source>
         <oldsource>All Personal Profiles...</oldsource>
-        <translation>Alla personliga profiler …</translation>
+        <translation>Alla personliga profiler…</translation>
     </message>
     <message>
         <source>New profile</source>
@@ -11903,7 +11903,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <name>ResizeHeaderView</name>
     <message>
         <source>Resize all %1 to contents</source>
-        <translation>Ändra storlek på allla %1 till innehållet</translation>
+        <translation>Ändra storlek på alla %1 till innehållet</translation>
     </message>
 </context>
 <context>
@@ -12231,7 +12231,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     </message>
     <message>
         <source>Key could not be added: %1</source>
-        <translation>Nyckeln kunde inte läggas till %1</translation>
+        <translation>Nyckeln kunde inte läggas till: %1</translation>
     </message>
     <message>
         <source>RSA private key (*.pem *.p12 *.pfx *.key);;All Files (</source>
@@ -12466,7 +12466,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     </message>
     <message>
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
     <message>
         <source> G: Go to packet, N: Next problem packet</source>
@@ -12921,7 +12921,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     </message>
     <message>
         <source>&amp;Add to playlist</source>
-        <translation>&amp;Lägg till till spellistan</translation>
+        <translation>&amp;Lägg till i spellistan</translation>
     </message>
     <message>
         <source>Add new set to existing playlist in RTP Player</source>
@@ -12942,7 +12942,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <source>Decoding streams…</source>
         <oldsource>Decoding streams...</oldsource>
-        <translation>Avkodar strömmar...</translation>
+        <translation>Avkodar strömmar…</translation>
     </message>
     <message>
         <source>Out of Sequence</source>
@@ -13166,7 +13166,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     </message>
     <message>
         <source>Open the analysis window for the selected streams and add it to it</source>
-        <translation>Öppna analysfönstret för de valda strömmarna och lägg till till det</translation>
+        <translation>Öppna analysfönstret för de valda strömmarna och lägg till det där</translation>
     </message>
     <message>
         <source>Find the reverse stream matching the selected forward stream.</source>
@@ -13762,7 +13762,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     </message>
     <message>
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
 </context>
 <context>
@@ -14014,7 +14014,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     </message>
     <message>
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
     <message>
         <source>Flow</source>
@@ -14756,7 +14756,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     </message>
     <message>
         <source>Rcv Win</source>
-        <translation>Mot.fnst.</translation>
+        <translation>Mottagningsfönster</translation>
     </message>
     <message>
         <source>Display graph of Outstanding Bytes vs Time</source>
@@ -15224,7 +15224,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     </message>
     <message>
         <source>Save As…</source>
-        <translation>Spara som …</translation>
+        <translation>Spara som…</translation>
     </message>
     <message>
         <source>No Capture Data</source>
@@ -15248,7 +15248,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     </message>
     <message>
         <source> (%1 Segment MA)</source>
-        <translation>(%1-segments GM)</translation>
+        <translation> (%1-segments GM)</translation>
     </message>
     <message>
         <source> [not enough data]</source>
@@ -15324,7 +15324,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     </message>
     <message>
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
 </context>
 <context>
@@ -18296,7 +18296,7 @@ Inställningar → Protokoll → TCP för att använda tabellen.</translation>
     </message>
     <message>
         <source>Year, Day of Year, and Time of Day (1970/001 01:02:03.123456)</source>
-        <translation>År, dag på året, och tid på dagen (1970/001 01:02:03.123456)</translation>
+        <translation>År, dag på året och tid på dagen (1970/001 01:02:03.123456)</translation>
     </message>
     <message>
         <source>Show packet times as the year, day of the year and time of day.</source>
@@ -18900,7 +18900,7 @@ Inställningar → Protokoll → TCP för att använda tabellen.</translation>
     </message>
     <message>
         <source>Unsaved packets…</source>
-        <translation>Osparade paket...</translation>
+        <translation>Osparade paket…</translation>
     </message>
     <message>
         <source>Do you want to stop the capture and save the captured packets%1?</source>
