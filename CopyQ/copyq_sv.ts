@@ -1159,7 +1159,7 @@ F2 för att redigera.</translation>
     <message>
         <location filename="../src/ui/configtabgeneral.ui" line="207"/>
         <source>Change Encryption &amp;Password...</source>
-        <translation>Ändra kry&amp;pteringslösenord...</translation>
+        <translation>Ändra kry&amp;pteringslösenord…</translation>
     </message>
     <message>
         <location filename="../src/ui/configtabgeneral.ui" line="234"/>
