@@ -929,7 +929,7 @@
     <message>
         <location filename="lua_debugger/lua_debugger_breakpoints.cpp" line="95" />
         <source>Lua expression — pause when truthy</source>
-        <translation>Lua-uttryck — pausa när resultatet är sant</translation>
+        <translation>Lua-uttryck: pausa när resultatet är sant</translation>
     </message>
     <message>
         <location filename="lua_debugger/lua_debugger_breakpoints.cpp" line="96" />
@@ -961,12 +961,12 @@ Körningsfel behandlas som falska (tyst) och visas som en varningsikon på raden
     <message>
         <location filename="lua_debugger/lua_debugger_breakpoints.cpp" line="114" />
         <source>Log message — supports {expr} and tags such as {filename}, {basename}, {line}, {function}, {hits}, {timestamp}, {delta}…</source>
-        <translation>Loggmeddelande — stöder {expr} och taggar som {filename}, {basename}, {line}, {function}, {hits}, {timestamp}, {delta}…</translation>
+        <translation>Loggmeddelande: stöder {expr} och taggar som {filename}, {basename}, {line}, {function}, {hits}, {timestamp}, {delta}…</translation>
     </message>
     <message>
         <location filename="lua_debugger/lua_debugger_breakpoints.cpp" line="117" />
         <source>Logpoints write a message to the Evaluate output (and Wireshark's info log) each time the line is reached. By default execution continues without pausing; tick the Pause box on this editor to also pause after emitting (useful for log-then-inspect without duplicating the breakpoint). The line is emitted verbatim — there is no automatic file:line prefix. Inside {} the text is evaluated as a Lua expression in this frame and converted to text the same way tostring() does; reserved tags below shadow any same-named Lua local / upvalue / global. Origin: {filename}, {basename}, {line}, {function}, {what}. Counters and scope: {hits}, {depth}, {thread}. Time: {timestamp}, {datetime}, {epoch}, {epoch_ms}, {elapsed}, {delta}. Use {{ and }} for literal { and }. Per-placeholder errors substitute '&lt;error: ...&gt;' without aborting the line.</source>
-        <translation>Loggpunkter skriver ett meddelande till utdata för Utvärdera (och Wiresharks informationslogg) varje gång raden nås. Som standard fortsätter körningen utan paus; markera rutan Pausa i denna redigerare för att också pausa efter utskrift (användbart för att logga och sedan inspektera utan att duplicera brytpunkten). Raden skrivs ut ordagrant — det finns inget automatiskt fil:rad-prefix. Inuti {} utvärderas texten som ett Lua-uttryck i denna ram och konverteras till text på samma sätt som tostring() gör; reserverade taggar nedan skuggar en lokal/upvalue/global Lua-variabel med samma namn. Ursprung: {filename}, {basename}, {line}, {function}, {what}. Räknare och omfång: {hits}, {depth}, {thread}. Tid: {timestamp}, {datetime}, {epoch}, {epoch_ms}, {elapsed}, {delta}. Använd {{ och }} för bokstavliga { och }. Fel per platshållare ersätts med '&lt;error: ...&gt;' utan att raden avbryts.</translation>
+        <translation>Loggpunkter skriver ett meddelande till utdata för Utvärdera (och Wiresharks informationslogg) varje gång raden nås. Som standard fortsätter körningen utan paus; markera rutan Pausa i denna redigerare för att också pausa efter utskrift (användbart för att logga och sedan inspektera utan att duplicera brytpunkten). Raden skrivs ut ordagrant: det finns inget automatiskt fil:rad-prefix. Inuti {} utvärderas texten som ett Lua-uttryck i denna ram och konverteras till text på samma sätt som tostring() gör; reserverade taggar nedan skuggar en lokal/upvalue/global Lua-variabel med samma namn. Ursprung: {filename}, {basename}, {line}, {function}, {what}. Räknare och omfång: {hits}, {depth}, {thread}. Tid: {timestamp}, {datetime}, {epoch}, {epoch_ms}, {elapsed}, {delta}. Använd {{ och }} för bokstavliga { och }. Fel per platshållare ersätts med '&lt;error: ...&gt;' utan att raden avbryts.</translation>
     </message>
     <message>
         <location filename="lua_debugger/lua_debugger_breakpoints.cpp" line="629" />
@@ -990,9 +990,9 @@ from — pause on every hit from N onwards.
 every — pause on hits N, 2N, 3N…
 once — pause once on the N-th hit and deactivate the breakpoint.</source>
         <translation>Jämförelseläge för träffantalet:
-från — pausa vid varje träff från N och framåt.
-varje — pausa vid träffarna N, 2N, 3N…
-en gång — pausa en gång vid den N:e träffen och inaktivera brytpunkten.</translation>
+från: pausa vid varje träff från N och framåt.
+varje: pausa vid träffarna N, 2N, 3N…
+en gång: pausa en gång vid den N:e träffen och inaktivera brytpunkten.</translation>
     </message>
     <message>
         <location filename="lua_debugger/lua_debugger_breakpoints.cpp" line="674" />
@@ -1733,7 +1733,7 @@ Av = endast loggpunkt (följer den historiska konventionen ”loggpunkter pausar
     <message>
         <location filename="capture_options_dialog.ui" line="102" />
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You probably want to enable this. Usually a network card will only capture the traffic sent to its own network address. If you want to capture all traffic that the network card can &amp;quot;see&amp;quot;, mark this option. See the FAQ for some more details of capturing packets from a switched network.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Du vill troligen aktivera detta.  Vanligen kommer ett nätverkskort endast fånga trafiken som skickas till dess egen nätverksadress.  Om du vill fånga all trafik som nätverkskortet kan &amp;quot;se&amp;quot;, markera detta alternativ.  Se FAQ:n för lite fler detaljer om att fånga paket från ett switchat nätverk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Du vill troligen aktivera detta. Vanligen fångar ett nätverkskort endast trafik som skickas till dess egen nätverksadress. Om du vill fånga all trafik som nätverkskortet kan &amp;quot;se&amp;quot; markerar du det här alternativet. Se vanliga frågor för mer information om att fånga paket från ett växlat nätverk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="capture_options_dialog.ui" line="105" />
@@ -1905,7 +1905,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     <message>
         <location filename="capture_options_dialog.ui" line="112" />
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Usually a wireless network card will only capture the traffic sent to and from its own network address, and only captures &lt;em&gt;user data&lt;/em&gt; traffic with &amp;quot;fake&amp;quot; Ethernet headers. If you want to capture all traffic that wireless network cards can &amp;quot;see&amp;quot;, or are interested in 802.11 management or control packets, or radio-layer information, mark this option. Monitor mode availability depends on the wireless card and driver. See the Wiki for some more details of capturing packets on WLAN networks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vanligen kommer ett trådlöst nätverkskort bara fånga trafiken som skickas till och från dess egen nätverksadress, och fångar endast &lt;em&gt;användardata&lt;/em&gt;trafik med &amp;quot;falska&amp;quot; Ethernethuvuden. Om du vill fånga all trafik som trådlösa nätverkskort kan &amp;quot;se&amp;quot;, eller är intresserad av 802.11:s hanterings- eller styrpaket, eller radionivåinformation, markera detta alternativ. Övervakningslägets tillgänglighet beror på det trådlösa kortet och drivrutinen. Se Wiki:n för några fler detaljer om att fånga paket på WLAN-nätverk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vanligen fångar ett trådlöst nätverkskort bara trafik som skickas till eller från dess egen nätverksadress. Det fångar endast &lt;em&gt;användardata&lt;/em&gt; med &amp;quot;falska&amp;quot; Ethernethuvuden. Om du vill fånga all trafik som trådlösa nätverkskort kan &amp;quot;se&amp;quot; eller är intresserad av 802.11-hanterings- eller styrpaket eller radiolagerinformation markerar du det här alternativet. Tillgången till övervakningsläge beror på det trådlösa kortet och drivrutinen. Se wikin för mer information om att fånga paket i trådlösa nätverk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="capture_options_dialog.ui" line="115" />
@@ -1945,7 +1945,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     <message>
         <location filename="capture_options_dialog.ui" line="602" />
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Date and time before the file index number. This causes files to sort in creation time order, and keeps files from the same batch closely ordered.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Datum och tid före filindexnummer. Detta gör att filer sorteras i den ordning de skapas, och håller filer från samma omgång ordnade nära varandra.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Datum och tid före filindexnumret. Filer sorteras då i skapelseordning och filer från samma omgång hålls nära varandra.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="capture_options_dialog.ui" line="618" />
@@ -2220,7 +2220,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     <message>
         <location filename="capture_preferences_frame.ui" line="63" />
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You probably want to enable this. Usually a network card will only capture the traffic sent to its own network address. If you want to capture all traffic that the network card can &amp;quot;see&amp;quot;, mark this option. See the FAQ for some more details of capturing packets from a switched network.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Du vill troligen aktivera detta.  Vanligen kommer ett nätverkskort endast fånga trafiken som skickas till dess egen nätverksadress.  Om du vill fånga all trafik som nätverkskortet kan &amp;quot;se&amp;quot;, markera detta alternativ.  Se FAQ:n för lite fler detaljer om att fånga paket från ett switchat nätverk.&lt;/p&gt;&lt;/body&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Du vill troligen aktivera detta. Vanligen fångar ett nätverkskort endast trafik som skickas till dess egen nätverksadress. Om du vill fånga all trafik som nätverkskortet kan &amp;quot;se&amp;quot; markerar du det här alternativet. Se vanliga frågor för mer information om att fånga paket från ett växlat nätverk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="capture_preferences_frame.ui" line="66" />
@@ -2230,7 +2230,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     <message>
         <location filename="capture_preferences_frame.ui" line="73" />
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Usually a wireless network card will only capture the traffic sent to and from its own network address, and only captures &lt;em&gt;user data&lt;/em&gt; traffic with &amp;quot;fake&amp;quot; Ethernet headers. If you want to capture all traffic that wireless network cards can &amp;quot;see&amp;quot;, or are interested in 802.11 management or control packets, or radio-layer information, mark this option. Monitor mode availability depends on the wireless card and driver. See the Wiki for more details of capturing packets on WLAN networks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vanligen kommer ett trådlöst nätverkskort bara fånga trafiken som skickas till och från dess egen nätverksadress, och fångar endast &lt;em&gt;användardata&lt;/em&gt;trafik med &amp;quot;falska&amp;quot; Ethernethuvuden. Om du vill fånga all trafik som trådlösa nätverkskort kan &amp;quot;se&amp;quot;, eller är intresserad av 802.11:s hanterings- eller styrpaket, eller radionivåinformation, markera detta alternativ. Övervakningslägets tillgänglighet beror på det trådlösa kortet och drivrutinen. Se Wiki:n för fler detaljer om att fånga paket på WLAN-nätverk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vanligen fångar ett trådlöst nätverkskort bara trafik som skickas till eller från dess egen nätverksadress. Det fångar endast &lt;em&gt;användardata&lt;/em&gt; med &amp;quot;falska&amp;quot; Ethernethuvuden. Om du vill fånga all trafik som trådlösa nätverkskort kan &amp;quot;se&amp;quot; eller är intresserad av 802.11-hanterings- eller styrpaket eller radiolagerinformation markerar du det här alternativet. Tillgången till övervakningsläge beror på det trådlösa kortet och drivrutinen. Se wikin för information om att fånga paket i trådlösa nätverk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="capture_preferences_frame.ui" line="76" />
@@ -3747,7 +3747,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Relations can be used to restrict fields to specific values. Each relation does the following:&lt;/p&gt;&lt;table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"&gt;&lt;tr&gt;&lt;td&gt;&lt;p align="center"&gt;&lt;span style=" font-weight:600;"&gt;is present&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Match any packet that contains this field&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p align="center"&gt;&lt;span style=" font-weight:600;"&gt;==, !=, etc.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Compare the field to a specific value.&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p align="center"&gt;&lt;span style=" font-weight:600;"&gt;contains, matches&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Check the field against a string (contains) or a regular expression (matches)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p align="center"&gt;&lt;span style=" font-weight:600;"&gt;in&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Compare the field to a specific set of values&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;
 
 </source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Relationer kan användas för att begränsa fält till specifika värden.  Varje relation gör följande:&lt;/p&gt;&lt;table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"&gt;&lt;tr&gt;&lt;td&gt;&lt;p align="center"&gt;&lt;span style=" font-weight:600;"&gt;is present&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Matcha alla paket som innehåller detta fält&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p align="center"&gt;&lt;span style=" font-weight:600;"&gt;==, !=, etc.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Jämför fältet med ett visst värde.&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p align="center"&gt;&lt;span style=" font-weight:600;"&gt;contains, matches&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Jämför fältet med en sträng (contains) eller reguljärt uttryck (matches)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p align="center"&gt;&lt;span style=" font-weight:600;"&gt;in&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Jämför fältet med en uppsättning värden&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Relationer kan användas för att begränsa fält till specifika värden.  Varje relation gör följande:&lt;/p&gt;&lt;table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"&gt;&lt;tr&gt;&lt;td&gt;&lt;p align="center"&gt;&lt;span style=" font-weight:600;"&gt;is present&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Matcha alla paket som innehåller detta fält&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p align="center"&gt;&lt;span style=" font-weight:600;"&gt;Operatorerna "==" och "!=" med flera&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Jämför fältet med ett visst värde.&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p align="center"&gt;&lt;span style=" font-weight:600;"&gt;contains, matches&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Jämför fältet med en sträng (contains) eller reguljärt uttryck (matches)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p align="center"&gt;&lt;span style=" font-weight:600;"&gt;in&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Jämför fältet med en uppsättning värden&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;
 
 </translation>
     </message>
@@ -4165,7 +4165,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     <message>
         <location filename="endpoint_dialog.cpp" line="94" />
         <source>Save As…</source>
-        <translation>Spara som …</translation>
+        <translation>Spara som…</translation>
     </message>
     <message>
         <location filename="endpoint_dialog.cpp" line="193" />
@@ -6448,7 +6448,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     <message>
         <location filename="io_graph_dialog.cpp" line="262" />
         <source>Save As…</source>
-        <translation>Spara som …</translation>
+        <translation>Spara som…</translation>
     </message>
     <message>
         <location filename="io_graph_dialog.cpp" line="264" />
@@ -6698,7 +6698,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     <message>
         <location filename="io_graph_dialog.cpp" line="1980" />
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
 </context>
 <context>
@@ -6947,7 +6947,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     <message>
         <location filename="iax2_analysis_dialog.cpp" line="570" />
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
     <message>
         <location filename="iax2_analysis_dialog.cpp" line="728" />
@@ -7291,22 +7291,22 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     <message>
         <location filename="import_text_dialog.ui" line="609" />
         <source>Prefix each frame with an Ethernet, IP and UDP header</source>
-        <translation>Föregå varje ram med ett Ethernet-, IP-, och UDP-huvud</translation>
+        <translation>Förse varje ram med huvuden för Ethernet, IP och UDP</translation>
     </message>
     <message>
         <location filename="import_text_dialog.ui" line="619" />
         <source>Prefix each frame with an Ethernet, IP and TCP header</source>
-        <translation>Föregå varje ram med ett Ethernet-, IP-, och TCP-huvud</translation>
+        <translation>Förse varje ram med huvuden för Ethernet, IP och TCP</translation>
     </message>
     <message>
         <location filename="import_text_dialog.ui" line="629" />
         <source>Prefix each frame with an Ethernet, IP and SCTP header</source>
-        <translation>Föregå varje ram med ett Ethernet-, IP-, och SCTP-huvud</translation>
+        <translation>Förse varje ram med huvuden för Ethernet, IP och SCTP</translation>
     </message>
     <message>
         <location filename="import_text_dialog.ui" line="639" />
         <source>Prefix each frame with an Ethernet, IP and SCTP (DATA) header</source>
-        <translation>Föregå varje ram med ett Ethernet-, IP-, och SCTP (DATA)-huvud</translation>
+        <translation>Förse varje ram med huvuden för Ethernet, IP och SCTP (DATA)</translation>
     </message>
     <message>
         <location filename="import_text_dialog.ui" line="670" />
@@ -9187,7 +9187,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     <message>
         <location filename="layout_preferences_frame.ui" line="527" />
         <source>75%</source>
-        <translation>75%</translation>
+        <translation>75 %</translation>
     </message>
     <message>
         <location filename="layout_preferences_frame.ui" line="532" />
@@ -9197,7 +9197,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     <message>
         <location filename="layout_preferences_frame.ui" line="537" />
         <source>85%</source>
-        <translation>85%</translation>
+        <translation>85 %</translation>
     </message>
     <message>
         <location filename="layout_preferences_frame.ui" line="542" />
@@ -9207,7 +9207,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     <message>
         <location filename="layout_preferences_frame.ui" line="547" />
         <source>95%</source>
-        <translation>95%</translation>
+        <translation>95 %</translation>
     </message>
     <message>
         <location filename="layout_preferences_frame.ui" line="572" />
@@ -9658,7 +9658,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     <message>
         <location filename="lte_rlc_graph_dialog.cpp" line="176" />
         <source>Save As…</source>
-        <translation>Spara som …</translation>
+        <translation>Spara som…</translation>
     </message>
     <message>
         <location filename="lte_rlc_graph_dialog.cpp" line="639" />
@@ -9713,7 +9713,7 @@ Relativt referensen: ej tillämpligt (utanför referensintervallet)</translation
     <message>
         <location filename="lte_rlc_graph_dialog.cpp" line="889" />
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
 </context>
 <context>
@@ -10029,12 +10029,12 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     <message>
         <location filename="lua_debugger/lua_debugger_breakpoints.cpp" line="2658" />
         <source>ON — Break on Lua errors</source>
-        <translation>PÅ — bryt vid Lua-fel</translation>
+        <translation>PÅ: bryt vid Lua-fel</translation>
     </message>
     <message>
         <location filename="lua_debugger/lua_debugger_breakpoints.cpp" line="2659" />
         <source>OFF — Break on Lua errors</source>
-        <translation>AV — bryt vid Lua-fel</translation>
+        <translation>AV: bryt vid Lua-fel</translation>
     </message>
     <message>
         <location filename="lua_debugger/lua_debugger_files.cpp" line="383" />
@@ -10504,7 +10504,7 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     <message>
         <location filename="lua_debugger/lua_debugger_watch.cpp" line="558" />
         <source>Expression — re-evaluated on every pause.</source>
-        <translation>Uttryck — utvärderas på nytt vid varje paus.</translation>
+        <translation>Uttryck: utvärderas på nytt vid varje paus.</translation>
     </message>
 </context>
 <context>
@@ -10724,25 +10724,25 @@ växla aktivt läge på en befintlig brytpunkt</translation>
         <location filename="main_status_bar.cpp" line="683" />
         <source>From Zip File…</source>
         <oldsource>From Zip File...</oldsource>
-        <translation>Från zip-fil...</translation>
+        <translation>Från zip-fil…</translation>
     </message>
     <message>
         <location filename="main_status_bar.cpp" line="685" />
         <source>From Directory…</source>
         <oldsource>From Directory...</oldsource>
-        <translation>Från katalog...</translation>
+        <translation>Från katalog…</translation>
     </message>
     <message>
         <location filename="main_status_bar.cpp" line="694" />
         <source>Selected Personal Profile…</source>
         <oldsource>Selected Personal Profile...</oldsource>
-        <translation>Vald personlig profil...</translation>
+        <translation>Vald personlig profil…</translation>
     </message>
     <message>
         <location filename="main_status_bar.cpp" line="698" />
         <source>All Personal Profiles…</source>
         <oldsource>All Personal Profiles...</oldsource>
-        <translation>Alla personliga profiler...</translation>
+        <translation>Alla personliga profiler…</translation>
     </message>
     <message>
         <location filename="main_status_bar.cpp" line="464" />
@@ -10782,7 +10782,7 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     <message>
         <location filename="main_window.cpp" line="397" />
         <source>…as %1</source>
-        <translation>... som %1</translation>
+        <translation>…som %1</translation>
     </message>
     <message>
         <location filename="main_window.cpp" line="498" />
@@ -11458,7 +11458,7 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     <message>
         <location filename="packet_diagram.cpp" line="781" />
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
 </context>
 <context>
@@ -11983,7 +11983,7 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     <message>
         <location filename="models/packet_list_proxy_model.cpp" line="385" />
         <source>%1 can only be sorted with %2 or fewer visible rows; increase cache size in Layout preferences</source>
-        <translation>%1 kan bara sorteras med %2 eller färre synliga rader. Öka cachestorleken i layoutinställningarna.</translation>
+        <translation>%1 kan bara sorteras med %2 eller färre synliga rader. Öka cachestorleken i layoutinställningarna</translation>
     </message>
     <message>
         <location filename="models/packet_list_proxy_model.cpp" line="421" />
@@ -12583,7 +12583,7 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     <message>
         <location filename="plot_dialog.cpp" line="143" />
         <source>Save As…</source>
-        <translation>Spara som...</translation>
+        <translation>Spara som…</translation>
     </message>
     <message>
         <location filename="plot_dialog.cpp" line="145" />
@@ -12723,7 +12723,7 @@ växla aktivt läge på en befintlig brytpunkt</translation>
     <message>
         <location filename="plot_dialog.cpp" line="1917" />
         <source>Save Graph As…</source>
-        <translation>Spara graf som...</translation>
+        <translation>Spara grafen som…</translation>
     </message>
 </context>
 <context>
@@ -13037,13 +13037,13 @@ växla aktivt läge på en befintlig brytpunkt</translation>
         <location filename="profile_dialog.cpp" line="82" />
         <source>From Zip File…</source>
         <oldsource>From Zip File...</oldsource>
-        <translation>Från zip-fil...</translation>
+        <translation>Från zip-fil…</translation>
     </message>
     <message>
         <location filename="profile_dialog.cpp" line="84" />
         <source>From Directory…</source>
         <oldsource>From Directory...</oldsource>
-        <translation>Från katalog …</translation>
+        <translation>Från katalog…</translation>
     </message>
     <message numerus="yes">
         <location filename="profile_dialog.cpp" line="89" />
@@ -13057,7 +13057,7 @@ växla aktivt läge på en befintlig brytpunkt</translation>
         <location filename="profile_dialog.cpp" line="92" />
         <source>All Personal Profiles…</source>
         <oldsource>All Personal Profiles...</oldsource>
-        <translation>Alla personliga profiler …</translation>
+        <translation>Alla personliga profiler…</translation>
     </message>
     <message>
         <location filename="profile_dialog.cpp" line="318" />
@@ -14658,17 +14658,17 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <location filename="lua_debugger/lua_debugger_breakpoints.cpp" line="1682" />
         <source>(logpoint — also pauses)</source>
-        <translation>(loggpunkt — pausar också)</translation>
+        <translation>(loggpunkt: pausar också)</translation>
     </message>
     <message>
         <location filename="lua_debugger/lua_debugger_breakpoints.cpp" line="1683" />
         <source>(logpoint — does not pause)</source>
-        <translation>(loggpunkt — pausar inte)</translation>
+        <translation>(loggpunkt: pausar inte)</translation>
     </message>
     <message>
         <location filename="lua_debugger/lua_debugger_breakpoints.cpp" line="1687" />
         <source>Condition error on last evaluation — treated as false (silent). Edit or reset the breakpoint to clear.</source>
-        <translation>Villkorsfel vid senaste utvärderingen — behandlas som falskt (tyst). Redigera eller återställ brytpunkten för att rensa.</translation>
+        <translation>Villkorsfel vid senaste utvärderingen: behandlas som falskt (tyst). Redigera eller återställ brytpunkten för att rensa.</translation>
     </message>
     <message>
         <location filename="lua_debugger/lua_debugger_breakpoints.cpp" line="1698" />
@@ -14711,7 +14711,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
         <location filename="lua_debugger/lua_debugger_breakpoints.cpp" line="2187" />
         <source>All breakpoints are inactive — click to activate all
 %1: add or remove on the current line in the editor</source>
-        <translation>Alla brytpunkter är inaktiva — klicka för att aktivera alla
+        <translation>Alla brytpunkter är inaktiva: klicka för att aktivera alla
 %1: lägg till eller ta bort på den aktuella raden i redigeraren</translation>
     </message>
     <message>
@@ -14855,7 +14855,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <location filename="widgets/resize_header_view.cpp" line="40" />
         <source>Resize all %1 to contents</source>
-        <translation>Ändra storlek på allla %1 till innehållet</translation>
+        <translation>Ändra storlek på alla %1 efter innehållet</translation>
     </message>
 </context>
 <context>
@@ -15263,7 +15263,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <location filename="rsa_keys_frame.cpp" line="151" />
         <source>Key could not be added: %1</source>
-        <translation>Nyckeln kunde inte läggas till %1</translation>
+        <translation>Det gick inte att lägga till nyckeln: %1</translation>
     </message>
     <message>
         <location filename="rsa_keys_frame.cpp" line="162" />
@@ -15555,7 +15555,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <location filename="rtp_analysis_dialog.cpp" line="647" />
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
     <message>
         <location filename="rtp_analysis_dialog.cpp" line="545" />
@@ -16131,7 +16131,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <location filename="rtp_player_dialog.cpp" line="369" />
         <source>&amp;Add to playlist</source>
-        <translation>&amp;Lägg till till spellistan</translation>
+        <translation>&amp;Lägg till i spellistan</translation>
     </message>
     <message>
         <location filename="rtp_player_dialog.cpp" line="370" />
@@ -16158,7 +16158,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
         <location filename="rtp_player_dialog.cpp" line="474" />
         <source>Decoding streams…</source>
         <oldsource>Decoding streams...</oldsource>
-        <translation>Avkodar strömmar...</translation>
+        <translation>Avkodar strömmar…</translation>
     </message>
     <message>
         <location filename="rtp_player_dialog.cpp" line="601" />
@@ -16453,7 +16453,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <location filename="rtp_stream_dialog.ui" line="330" />
         <source>Open the analysis window for the selected streams and add it to it</source>
-        <translation>Öppna analysfönstret för de valda strömmarna och lägg till till det</translation>
+        <translation>Öppna analysfönstret för de valda strömmarna och lägg till dem där</translation>
     </message>
     <message>
         <location filename="rtp_stream_dialog.ui" line="198" />
@@ -16671,7 +16671,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <location filename="sctp_all_assocs_dialog.ui" line="14" />
         <source>Wireshark - SCTP Associations</source>
-        <translation>Wireshark — SCTP-associationer</translation>
+        <translation>Wireshark: SCTP associationer</translation>
     </message>
     <message>
         <location filename="sctp_all_assocs_dialog.ui" line="59" />
@@ -16719,7 +16719,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <location filename="sctp_assoc_analyse_dialog.ui" line="20" />
         <source>Wireshark - Analyse Association</source>
-        <translation>Wireshark — analysera associationer</translation>
+        <translation>Wireshark: analysera association</translation>
     </message>
     <message>
         <location filename="sctp_assoc_analyse_dialog.ui" line="35" />
@@ -17232,7 +17232,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <location filename="sctp_graph_dialog.cpp" line="507" />
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
 </context>
 <context>
@@ -17547,7 +17547,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <location filename="sequence_dialog.cpp" line="541" />
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
     <message>
         <location filename="sequence_dialog.cpp" line="79" />
@@ -18457,7 +18457,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <location filename="tcp_stream_dialog.ui" line="314" />
         <source>Rcv Win</source>
-        <translation>Mot.fnst.</translation>
+        <translation>Mott.fnst</translation>
     </message>
     <message>
         <location filename="tcp_stream_dialog.ui" line="324" />
@@ -19046,7 +19046,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <location filename="tcp_stream_dialog.cpp" line="436" />
         <source>Save As…</source>
-        <translation>Spara som …</translation>
+        <translation>Spara som…</translation>
     </message>
     <message>
         <location filename="tcp_stream_dialog.cpp" line="706" />
@@ -19071,12 +19071,12 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <location filename="tcp_stream_dialog.cpp" line="1417" />
         <source> (MA)</source>
-        <translation>(GM)</translation>
+        <translation> (GM)</translation>
     </message>
     <message>
         <location filename="tcp_stream_dialog.cpp" line="1419" />
         <source> (%1 Segment MA)</source>
-        <translation>(%1-segments GM)</translation>
+        <translation> (%1 segment GM)</translation>
     </message>
     <message>
         <location filename="tcp_stream_dialog.cpp" line="1442" />
@@ -19171,7 +19171,7 @@ Detta startar om alla Lua-skript och kan påverka fångstanalysen.</translation>
     <message>
         <location filename="tcp_stream_dialog.cpp" line="2233" />
         <source>Save Graph As…</source>
-        <translation>Spara grafen som …</translation>
+        <translation>Spara grafen som…</translation>
     </message>
 </context>
 <context>
@@ -19676,7 +19676,7 @@ Inställningar → Protokoll → TCP för att använda tabellen.</translation>
     <message>
         <location filename="theme_debug_dialog.cpp" line="247" />
         <source>The inspector reports any widget in this application under the cursor — including child dialogs. Widgets that belong to this debug window are skipped so the last hovered target stays pinned. Hold Alt+Shift and click any widget to pin it: this turns off tracking and locks the readout onto that widget (re-check the box above to resume). Note: on macOS, tool windows are hidden whenever another application has focus, so tracking pauses until Wireshark is frontmost again.</source>
-        <translation>Inspektören rapporterar varje komponent i programmet under markören — även underordnade dialogrutor. Komponenter som hör till det här felsökningsfönstret hoppas över, så att det senast hovrade målet förblir fäst. Håll ned Alt+Skift och klicka på en komponent för att fästa den: detta stänger av följningen och låser utdata till komponenten (markera rutan ovan igen för att återuppta). Observera: på macOS döljs verktygsfönster när ett annat program har fokus, så följningen pausas tills Wireshark åter är längst fram.</translation>
+        <translation>Inspektören rapporterar varje komponent i programmet under markören, även underordnade dialogrutor. Komponenter som hör till det här felsökningsfönstret hoppas över, så att det senast hovrade målet förblir fäst. Håll ned Alt+Skift och klicka på en komponent för att fästa den: detta stänger av följningen och låser utdata till komponenten (markera rutan ovan igen för att återuppta). Observera: på macOS döljs verktygsfönster när ett annat program har fokus, så följningen pausas tills Wireshark åter är längst fram.</translation>
     </message>
     <message>
         <location filename="theme_debug_dialog.cpp" line="273" />
@@ -22899,7 +22899,7 @@ Inställningar → Protokoll → TCP för att använda tabellen.</translation>
     <message>
         <location filename="wireshark_main_window.ui" line="2418" />
         <source>Year, Day of Year, and Time of Day (1970/001 01:02:03.123456)</source>
-        <translation>År, dag på året, och tid på dagen (1970/001 01:02:03.123456)</translation>
+        <translation>År, dag på året och tid på dagen (1970/001 01:02:03.123456)</translation>
     </message>
     <message>
         <location filename="wireshark_main_window.ui" line="2421" />
@@ -23657,7 +23657,7 @@ Inställningar → Protokoll → TCP för att använda tabellen.</translation>
     <message>
         <location filename="wireshark_main_window.cpp" line="1920" />
         <source>Unsaved packets…</source>
-        <translation>Osparade paket...</translation>
+        <translation>Osparade paket…</translation>
     </message>
     <message>
         <location filename="wireshark_main_window.cpp" line="1925" />
