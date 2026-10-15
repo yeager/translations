@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.1" version="1.1">
+  <file original="NoName" source-language="en" datatype="plaintext" target-language="sv">
+    <body>
+      <trans-unit xml:space="preserve" approved="no" id="caaf2c6896b5491f">
+        <source>The slot identifies which sub-set of the Action is considered to be for this data-block, and its name is used to find the right slot when assigning an Action</source>
+        <target state="translated">Slotten anger vilken del av åtgärden som hör till datablocket och namnet används för att hitta rätt slot när en åtgärd tilldelas</target>
+        <note from="developer">:src: bpy.types.AnimData.action_slot</note>
+        <note from="translator">Suggested in Weblate: Spåret identifierar vilken delmängd av åtgärden som anses vara för detta datablock, och dess namn används för att hitta rätt spår när en åtgärd tilldelas</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="684e7c5af91ba3a1">
+        <source>The identifier of the most recently assigned action slot. The slot identifies which sub-set of the Action is considered to be for this data-block, and its identifier is used to find the right slot when assigning an Action.</source>
+        <target state="translated">Identifieraren för den senast tilldelade åtgärdsslotten. Slotten anger vilken del av åtgärden som hör till datablocket och identifieraren används för att hitta rätt slot när en åtgärd tilldelas.</target>
+        <note from="developer">:src: bpy.types.AnimData.last_slot_identifier</note>
+        <note from="translator">Suggested in Weblate: Identifieraren för den senast tilldelade handlingsluckan. Platsen identifierar vilken delmängd av åtgärden som anses vara för detta datablock, och dess identifierare används för att hitta rätt plats när en åtgärd tilldelas.</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="847e6ef2706b0b67">
+        <source>Rotate non-uniform parent scaling to align with the child, applying parent X scale to child X axis, and so forth</source>
+        <target state="translated">Rotera ojämn överordnad skalning så att den riktas mot underordnat ben och tillämpa överordnad X-skalning på underordnad X-axel och så vidare</target>
+        <note from="developer">:src: bpy.types.Bone.inherit_scale:'ALIGNED'
+:src: bpy.types.EditBone.inherit_scale:'ALIGNED'</note>
+        <note from="translator">Suggested in Weblate: Rotera icke-enhetlig föräldraskalning för att anpassa den till barnet, tillämpa förälderns X-skala på barnets X-axel osv</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="1e4d2e8d48a7cf19">
+        <source>The index of the Armature's active bone collection; -1 when there is no active collection. Note that this is indexing the underlying array of bone collections, which may not be in the order you expect. Root collections are listed first, and siblings are always sequential. Apart from that, bone collections can be in any order, and thus incrementing or decrementing this index can make the active bone collection jump around in unexpected ways. For a more predictable interface, use ``active`` or ``active_name``.</source>
+        <target state="translated">Index för armaturens aktiva bensamling; -1 när det inte finns någon aktiv samling. Observera att detta indexerar den underliggande matrisen av bensamlingar, som kanske inte är i den ordning du förväntar dig. Rotkollektioner listas först och syskon är alltid sekventiella. Bortsett från det kan bensamlingar vara i valfri ordning och därför kan ökning eller minskning av detta index få den aktiva bensamlingen att hoppa runt på oväntade sätt. För ett mer förutsägbart gränssnitt, använd ``active`` eller ``active_name``.</target>
+        <note from="developer">:src: bpy.types.BoneCollections.active_index</note>
+        <note from="translator">Suggested in Weblate: Indexet för armaturens aktiva bensamling; -1 när det inte finns någon aktiv samling. Observera att detta indexerar den underliggande matrisen med bensamlingar, som kanske inte är i den ordning du förväntar dig. Rotsamlingar listas först, och syskon är alltid sekventiella. Bortsett från det kan bensamlingar vara i vilken ordning som helst, och därför kan inkrementering eller dekrementering av detta index göra att den aktiva bensamlingen hoppar runt på oväntade sätt. För ett mer förutsägbart gränssnitt, använd ``active`` eller ``active_name``.</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="183c0f5663061925">
+        <source>The identifier of the most recently assigned action slot. The slot identifies which sub-set of the Action is considered to be for this constraint, and its identifier is used to find the right slot when assigning an Action.</source>
+        <target state="translated">Identifierare för den senast tilldelade åtgärdssloten. Sloten anger vilken delmängd av åtgärden som hör till begränsningen och dess identifierare används för att hitta rätt slot när en åtgärd tilldelas.</target>
+        <note from="developer">:src: bpy.types.ActionConstraint.last_slot_identifier</note>
+        <note from="translator">Suggested in Weblate: Identifieraren för den senast tilldelade handlingsluckan. Spåret identifierar vilken delmängd av åtgärden som anses vara för denna begränsning, och dess identifierare används för att hitta rätt spår när en åtgärd tilldelas.</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="78f9207c87675774">
+        <source>All object instances to display or render (Warning: Only use this as an iterator, never as a sequence, and do not keep any references to its items)</source>
+        <target state="translated">Alla objektinstanser att visa eller rendera (Varning: använd endast detta som iterator, aldrig som sekvens och behåll inga referenser till objekten)</target>
+        <note from="developer">:src: bpy.types.Depsgraph.object_instances</note>
+        <note from="translator">Suggested in Weblate: Alla objektinstanser som ska visas eller renderas (Varning: Använd endast detta som en iterator, aldrig som en sekvens, och behåll inte några referenser till dess objekt)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="db74895e55845f57">
+        <source>Show assets that are both hosted online (need downloading) and available on disk already</source>
+        <target state="translated">Visa tillgångar både online, som måste hämtas och redan tillgängliga på disken</target>
+        <note from="developer">:src: bpy.types.FileAssetSelectParams.asset_access:'ALL'
+:src: bpy.types.PreferencesView.asset_access:'ALL'</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="b987520e271a58ba">
+        <source>Strokes appear/disappear one after the other, but only a single one changes at a time</source>
+        <target state="translated">Streck visas eller försvinner ett i taget och endast ett ändras åt gången</target>
+        <note from="developer">:src: bpy.types.GreasePencilBuildModifier.mode:'SEQUENTIAL'</note>
+        <note from="translator">Suggested in Weblate: Strokes dyker upp/försvinner efter varandra, men bara en enda ändras åt gången</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="23a0f32190947db7">
+        <source>The identifier of the most recently assigned action slot. The slot identifies which sub-set of the Action is considered to be for this strip, and its identifier is used to find the right slot when assigning an Action.</source>
+        <target state="translated">Identifieraren för den senast tilldelade Action-platsen. Platsen identifierar vilken delmängd av Action som gäller för denna remsa och identifieraren används för att hitta rätt plats när en Action tilldelas.</target>
+        <note from="developer">:src: bpy.types.NlaStrip.last_slot_identifier</note>
+        <note from="translator">Suggested in Weblate: Identifieraren för den senast tilldelade handlingsluckan. Spåret identifierar vilken delmängd av åtgärden som anses vara för den här remsan, och dess identifierare används för att hitta rätt spår när en åtgärd tilldelas.</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="d1a3d3462616af1d">
+        <source>Create a new Action Slot for an ID.
+
+Note that _which_ ID should get this slot must be set in the 'animated_id' context pointer, using:
+
+&gt;&gt;&gt; layout.context_pointer_set("animated_id", animated_id)
+
+When the ID already has a slot assigned, the newly-created slot will be
+named after it (ensuring uniqueness with a numerical suffix) and any
+animation data of the assigned slot will be duplicated for the new slot.</source>
+        <target state="translated">Skapa en ny åtgärdsplats för ett ID.
+
+Observera att _vilket_ ID som ska få denna plats måste anges i kontextpekaren 'animated_id' med:
+
+&gt;&gt;&gt; layout.context_pointer_set("animated_id", animated_id)
+
+När ID:t redan har en tilldelad plats får den nya platsen
+samma namn (med ett numeriskt suffix för att säkerställa unikhet) och
+animationsdata från den tilldelade platsen dupliceras för den nya platsen.</target>
+        <note from="developer">:src: bpy.types.ANIM_OT_slot_new_for_id</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="419de1057f2d33a1">
+        <source>Duplicate selected nodes, but not their node trees, and move them</source>
+        <target state="translated">Duplicera valda noder, men inte deras nodträd och flytta dem</target>
+        <note from="developer">:src: bpy.types.NODE_OT_duplicate_move_linked</note>
+        <note from="translator">Suggested in Weblate: Duplicera markerade noder, men inte deras nodträd, och flytta dem</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="82ca3f747385f2a9">
+        <source>Duplicate object but not object data, linking to the original data</source>
+        <target state="translated">Duplicera objektet men inte objektdata och länka det till originaldata</target>
+        <note from="developer">:src: bpy.types.OBJECT_OT_add_named.linked
+:src: bpy.types.OBJECT_OT_duplicate.linked</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="1ae107bfee45cb27">
+        <source>Duplicate the selected objects, but not their object data, and move them</source>
+        <target state="translated">Duplicera de valda objekten, men inte deras objektdata och flytta dem</target>
+        <note from="developer">:src: bpy.types.OBJECT_OT_duplicate_move_linked</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="b04a23d0f78865c2">
+        <source>Rebuild the selected local overrides from their linked references, as well as their hierarchies of dependencies, enforcing these hierarchies to match the linked data (i.e. ignoring existing overrides on data-blocks pointer properties)</source>
+        <target state="translated">Återuppbygg de valda lokala överskrivningarna från deras länkade referenser, samt deras beroendehierarkier och se till att dessa hierarkier matchar de länkade data (dvs. ignorera befintliga överskrivningar på datablockens pekaregenskaper)</target>
+        <note from="developer">:src: bpy.types.OUTLINER_OT_liboverride_troubleshoot_operation.type:'OVERRIDE_LIBRARY_RESYNC_HIERARCHY_ENFORCE'</note>
+        <note from="translator">Suggested in Weblate: Återskapa de valda lokala åsidosättningarna från deras länkade referenser, liksom deras hierarkier av beroenden, och tvinga dessa hierarkier att matcha de länkade data (dvs. ignorera befintliga åsidosättningar på datablockens pekaregenskaper)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="d36c949a3f7eac63">
+        <source>Duplicate selected strips, but not their data, and move them</source>
+        <target state="translated">Duplicera valda remsor, men inte deras data och flytta dem</target>
+        <note from="developer">:src: bpy.types.SEQUENCER_OT_duplicate_move_linked
+:src: bpy.types.SEQUENCER_OT_preview_duplicate_move_linked</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="532537ce7d11aa9b">
+        <source>Indicate that this is a corrective action. Corrective actions will activate based on the activation of two other actions (using End Frame if both inputs are at their End Frame, and Start Frame if either is at Start Frame)</source>
+        <target state="translated">Ange att detta är en korrigerande åtgärd. Korrigerande åtgärder aktiveras när två andra åtgärder aktiveras (med slutbildruta om båda indata är vid sin slutbildruta och med startbildruta om någon indata är vid startbildruta)</target>
+        <note from="developer">:src: bpy.types.ActionSlot.is_corrective</note>
+        <note from="translator">Suggested in Weblate: Ange att detta är en korrigerande åtgärd. Korrigerande åtgärder aktiveras baserat på aktiveringen av två andra åtgärder (med hjälp av End Frame om båda ingångarna är vid sin End Frame, och Start Frame om någon av dem är vid Start Frame)</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="de8da0fc0e588caf">
+        <source>The last bone of the chain is directly controlled, like the hand in an IK arm, and the middle stretches to reach it</source>
+        <target state="translated">Det sista benet i kedjan styrs direkt, precis som handen i en IK-arm och mitten sträcker sig för att nå det</target>
+        <note from="developer">:src: bpy.types.RigifyParameters.sik_stretch_control:'DIRECT_TIP'</note>
+        <note from="translator">Suggested in Weblate: Det sista benet i kedjan styrs direkt, som handen i en IK-arm, och det mittersta sträcker sig för att nå det</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="4f4ec018c5c43ec8">
+        <source>Suffix to identify the cameras to use, and added to the render images for this view</source>
+        <target state="translated">Suffix för att identifiera vilka kameror som ska användas och läggs till i renderingsbilderna för denna vy</target>
+        <note from="developer">:src: bpy.types.SceneRenderView.camera_suffix</note>
+        <note from="translator">Suggested in Weblate: Suffix för att identifiera de kameror som ska användas och läggs till i renderbilderna för denna vy</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="43a1eba7c50b44b4">
+        <source>Merged %d IDs from '%s' Main into '%s' Main; %d IDs and %d Libraries already existed as part of the destination Main, and %d IDs missing from destination Main, were freed together with the source Main</source>
+        <target state="translated">Slog samman %d ID:n från ”%s” Main till ”%s” Main. %d ID:n och %d bibliotek fanns redan i mål-Main och %d ID:n som saknades där frigjordes tillsammans med käll-Main</target>
+        <context-group name="" purpose="location">
+          <context context-type="sourcefile">source/blender/blenkernel/intern/main.cc</context>
+          <context context-type="linenumber">546</context>
+        </context-group>
+        <note from="translator">Suggested in Weblate: Sammanfogade %d ID:n från '%s' Main till '%s' Main; %d ID:n och %d bibliotek fanns redan som en del av destinationshuvudsystemet, och %d ID:n som saknades i destinationshuvudsystemet frigjordes tillsammans med källhuvudsystemet</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="a7ea1c7b3e67186c">
+        <source>Bone collection %s is not editable, maybe add an override on the armature Data?</source>
+        <target state="translated">Bensamlingen %s kan inte redigeras. Vill du kanske lägga till en åsidosättning av armaturdatan?</target>
+        <context-group name="" purpose="location">
+          <context context-type="sourcefile">source/blender/editors/armature/bone_collections.cc</context>
+          <context context-type="linenumber">932</context>
+        </context-group>
+        <note from="translator">Suggested in Weblate: Bensamlingen %s är inte redigerbar, kanske lägga till en åsidosättning på armaturdata?</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="fd5c9bbbc3f2281a">
+        <source>USD Skeleton Import: bone matrices with negative determinants detected in prim %s. Such matrices may indicate negative scales, possibly due to mirroring operations, and cannot currently be converted to Blender's bone representation. The skeletal animation won't be imported</source>
+        <target state="translated">USD-skelettimport: Benmatriser med negativa determinanter upptäcktes i prim %s. Sådana matriser kan tyda på negativ skala, möjligen på grund av speglingsåtgärder och kan för närvarande inte konverteras till Blenders benrepresentation. Skelettanimeringen importeras inte</target>
+        <context-group name="" purpose="location">
+          <context context-type="sourcefile">source/blender/io/usd/intern/usd_skel_convert.cc</context>
+          <context context-type="linenumber">881</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="46802ce47bc0a824">
+        <source>The size of the glare relative to the image. 1 means the glare covers the entire image, 0.5 means the glare covers half the image, and so on</source>
+        <target state="translated">Storleken på bländningen i förhållande till bilden. 1 betyder att bländningen täcker hela bilden, 0,5 betyder att bländningen täcker halva bilden och så vidare</target>
+        <context-group name="" purpose="location">
+          <context context-type="sourcefile">source/blender/nodes/composite/nodes/node_composite_glare.cc</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="f4338cdb76c8a08a">
+        <source>Specifies if tone mapping operates on the entire image or per pixel, 0 means the entire image, 1 means it is per pixel, and values in between blends between both</source>
+        <target state="translated">Anger om tonmappningen arbetar på hela bilden eller per pixel. 0 betyder hela bilden, 1 per pixel och värden däremellan blandar båda</target>
+        <context-group name="" purpose="location">
+          <context context-type="sourcefile">source/blender/nodes/composite/nodes/node_composite_tone_map.cc</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+        <note from="translator">Suggested in Weblate: Anger om tonmappningen sker på hela bilden eller per pixel, 0 betyder hela bilden, 1 betyder per pixel och värden däremellan blandar mellan båda</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="9598761d3d2443d0">
+        <source>Specifies if tone mapping operates on the luminance or on each channel independently, 0 means it uses luminance, 1 means it is per channel, and values in between blends between both</source>
+        <target state="translated">Anger om tonmappningen arbetar på luminansen eller varje kanal separat. 0 använder luminans, 1 arbetar per kanal och värden däremellan blandar båda</target>
+        <context-group name="" purpose="location">
+          <context context-type="sourcefile">source/blender/nodes/composite/nodes/node_composite_tone_map.cc</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <note from="translator">Suggested in Weblate: Anger om tonmappning ska ske på luminansen eller på varje kanal för sig. 0 betyder att luminansen används, 1 betyder att det sker per kanal och värden däremellan blandar båda</note>
+      </trans-unit>
+      <trans-unit xml:space="preserve" approved="no" id="a6df9e7216017c51">
+        <source>Number of samples to process in the discrete fourier transformation at once. Higher values have higher frequency but lower time resolution and vice versa</source>
+        <target state="translated">Antal sampel som behandlas samtidigt i den diskreta Fouriertransformeringen. Högre värden ger högre frekvensupplösning men lägre tidsupplösning och tvärtom</target>
+        <context-group name="" purpose="location">
+          <context context-type="sourcefile">source/blender/nodes/geometry/nodes/node_geo_sample_sound_frequencies.cc</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      </body>
+  </file>
+</xliff>
