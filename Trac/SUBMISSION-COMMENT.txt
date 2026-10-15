@@ -1,0 +1,29 @@
+Subject: Updated Swedish Trac catalogs for review
+
+Hello,
+
+I have reviewed and updated the Swedish catalogs against current Trac trunk:
+
+- trac/locale/sv/LC_MESSAGES/messages.po
+- trac/locale/sv/LC_MESSAGES/messages-js.po
+- trac/locale/sv/LC_MESSAGES/tracini.po
+
+The attached patch was produced from Trac commit 5fbe3829fc72019f5fc59ca13e5231bae8a30bc6.
+
+Validation completed:
+- Babel check_catalog, check_catalog_js and check_catalog_tracini
+- Babel compile_catalog, compile_catalog_js and compile_catalog_tracini
+- msgfmt --check
+- git diff --check
+- Swedish terminology, spelling and localization review
+
+Patch SHA-256:
+2bef1f76070307be105c2fc3d4f2b2bf370e8b93bc18e33ab3cbc4a437b74b8b
+
+The patch is also available at:
+https://github.com/yeager/translations/tree/main/Trac
+
+Please synchronize or review these changes through the Swedish Transifex workflow before committing, so concurrent translations are preserved.
+
+Best regards,
+Daniel Nylander
