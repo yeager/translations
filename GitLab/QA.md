@@ -5,7 +5,7 @@ This copy is a reviewed working catalogue. It is not a direct export from CrowdI
 ## Verified 2026-10-16
 
 - 32,976 translated messages; `msgfmt --check --statistics` passes.
-- 820 translations differ from the saved upstream baseline; no active message keys were added or removed.
+- 825 translations differ from the saved upstream baseline; no active message keys were added or removed.
 - `l10n-lint` reports 0 errors and 190 warnings.
 - `svlang skrivregler` reports 45 signals. They come from URLs, version and percentage values, markup syntax, code examples, machine-formatted dots, or the literal source string `—`.
 - Gitleaks reports no secrets in the catalogue.
