@@ -6,10 +6,12 @@ This copy is a reviewed working catalogue. It is not a direct export from CrowdI
 
 - 32,976 translated messages; `msgfmt --check --statistics` passes.
 - `l10n-lint` reports 0 errors and 211 warnings.
+- `svlang skrivregler` reports 45 signals. They come from URLs, version and percentage values, markup syntax, code examples, machine-formatted dots, or the literal source string `—`.
 - Gitleaks reports no secrets in the catalogue.
 - No visible Crowdin context prefix has leaked into a translation. The remaining `|` characters are source syntax in notification text or regular expressions.
 - No en dash or em dash remains in a Swedish translation, except the literal source string `—`.
-- Direct Swedish imperatives are used in place of `Vänligen`.
+- Direct Swedish imperatives are used in place of `Vänligen`; `ej` does not occur; and no comma directly precedes `och`.
+- UI ellipses use `…` where they are prose rather than URLs, code patterns, or fixed-width formatting.
 
 ## Remaining lint warnings
 
