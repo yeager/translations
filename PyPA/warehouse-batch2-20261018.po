@@ -1,0 +1,299 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (pypa)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 20:18+0200\n"
+"PO-Revision-Date: 2026-10-18 00:00+0000\n"
+"Last-Translator: Daniel Nylander <yeagersthlm@gmail.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/pypa/warehouse/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#: warehouse/views.py:150
+msgid ""
+"You must verify your **primary** email address before you can perform this "
+"action."
+msgstr ""
+"Du måste verifiera din **primära** e-postadress innan du kan utföra den här "
+"åtgärden."
+
+#: warehouse/views.py:166
+msgid ""
+"Two-factor authentication must be enabled on your account to perform this "
+"action."
+msgstr ""
+"Tvåfaktorsautentisering måste vara aktiverad för ditt konto för att du ska "
+"kunna utföra den här åtgärden."
+
+#: warehouse/views.py:377
+msgid "Locale updated"
+msgstr "Språkinställningen har uppdaterats"
+
+#: warehouse/accounts/forms.py:51 warehouse/accounts/forms.py:350
+msgid "The email address isn't valid. Try again."
+msgstr "E-postadressen är inte giltig. Försök igen."
+
+#: warehouse/accounts/forms.py:52
+msgid "The password is invalid. Try again."
+msgstr "Lösenordet är ogiltigt. Försök igen."
+
+#: warehouse/accounts/forms.py:54
+msgid ""
+"The username is invalid. Usernames must be composed of letters, numbers, "
+"dots, hyphens and underscores. And must also start and finish with a letter "
+"or number. Choose a different username."
+msgstr ""
+"Användarnamnet är ogiltigt. Användarnamn får innehålla bokstäver, siffror, "
+"punkter, bindestreck och understreck. Det måste också börja och sluta med en"
+" bokstav eller siffra. Välj ett annat användarnamn."
+
+#: warehouse/accounts/forms.py:71
+msgid "Null bytes are not allowed."
+msgstr "Nollbyte är inte tillåtna."
+
+#: warehouse/accounts/forms.py:87
+msgid ""
+"Usernames are not the same as email addresses. Enter your username instead "
+"of your email address."
+msgstr ""
+"Användarnamn är inte samma sak som e-postadresser. Ange ditt användarnamn i "
+"stället för din e-postadress."
+
+#: warehouse/accounts/forms.py:99
+msgid "No user found with that username"
+msgstr "Ingen användare hittades med det användarnamnet"
+
+#: warehouse/accounts/forms.py:127
+#, python-brace-format
+msgid "TOTP code must be ${totp_length} digits."
+msgstr "TOTP-koden måste innehålla ${totp_length} siffror."
+
+#: warehouse/accounts/forms.py:150
+#, python-brace-format
+msgid "Recovery Codes must be ${recovery_code_length} characters."
+msgstr "Återställningskoder måste innehålla ${recovery_code_length} tecken."
+
+#: warehouse/accounts/forms.py:164
+msgid "Choose a username with 50 characters or less."
+msgstr "Välj ett användarnamn med högst 50 tecken."
+
+#: warehouse/accounts/forms.py:182
+msgid ""
+"This username is already being used by another account. Choose a different "
+"username."
+msgstr ""
+"Det här användarnamnet används redan av ett annat konto. Välj ett annat "
+"användarnamn."
+
+#: warehouse/accounts/forms.py:221 warehouse/accounts/forms.py:278
+#: warehouse/accounts/forms.py:291
+msgid "Password too long."
+msgstr "Lösenordet är för långt."
+
+#: warehouse/accounts/forms.py:261
+#, python-brace-format
+msgid ""
+"There have been too many unsuccessful login attempts. You have been locked "
+"out for ${time}. Please try again later."
+msgstr ""
+"Det har gjorts för många misslyckade inloggningsförsök. Du är spärrad i "
+"${time}. Försök igen senare."
+
+#: warehouse/accounts/forms.py:294
+msgid "Your passwords don't match. Try again."
+msgstr "Dina lösenord stämmer inte överens. Försök igen."
+
+#: warehouse/accounts/forms.py:328
+msgid "The email address is too long. Try again."
+msgstr "E-postadressen är för lång. Försök igen."
+
+#: warehouse/accounts/forms.py:410 warehouse/accounts/forms.py:532
+msgid ""
+"You can't use an email address from this domain. Use a different email."
+msgstr ""
+"Du kan inte använda en e-postadress från den här domänen. Använd en annan "
+"e-postadress."
+
+#: warehouse/accounts/forms.py:425
+msgid ""
+"This email address is already being used by this account. Use a different "
+"email."
+msgstr ""
+"Den här e-postadressen används redan av det här kontot. Använd en annan "
+"e-postadress."
+
+#: warehouse/accounts/forms.py:436
+msgid ""
+"This email address is already being used by another account. Use a different"
+" email."
+msgstr ""
+"Den här e-postadressen används redan av ett annat konto. Använd en annan "
+"e-postadress."
+
+#: warehouse/accounts/forms.py:468
+#, python-brace-format
+msgid "Too many email addresses checked. Try again in ${time}."
+msgstr "För många e-postadresser har kontrollerats. Försök igen om ${time}."
+
+#: warehouse/accounts/forms.py:475
+msgid "Too many email addresses checked. Try again later."
+msgstr "För många e-postadresser har kontrollerats. Försök igen senare."
+
+#: warehouse/accounts/forms.py:550
+msgid "You can't use a disposable email address. Use a different email."
+msgstr ""
+"Du kan inte använda en tillfällig e-postadress. Använd en annan "
+"e-postadress."
+
+#: warehouse/accounts/forms.py:585 warehouse/manage/forms.py:130
+msgid "The name is too long. Choose a name with 100 characters or less."
+msgstr "Namnet är för långt. Välj ett namn med högst 100 tecken."
+
+#: warehouse/accounts/forms.py:590
+msgid "URLs are not allowed in the name field."
+msgstr "Webbadresser är inte tillåtna i namnfältet."
+
+#: warehouse/accounts/forms.py:600
+msgid "You must agree to the Terms of Service and Acceptable Use Policy."
+msgstr ""
+"Du måste godkänna användarvillkoren och policyn för godtagbar användning."
+
+#: warehouse/accounts/forms.py:688
+msgid "Invalid TOTP code."
+msgstr "Ogiltig TOTP-kod."
+
+#: warehouse/accounts/forms.py:705
+msgid "Invalid WebAuthn assertion: Bad payload"
+msgstr "Ogiltig WebAuthn-försäkran: felaktig nyttolast"
+
+#: warehouse/accounts/forms.py:769
+msgid "Invalid recovery code."
+msgstr "Ogiltig återställningskod."
+
+#: warehouse/accounts/forms.py:778
+msgid "Recovery code has been previously used."
+msgstr "Återställningskoden har redan använts."
+
+#: warehouse/accounts/forms.py:807
+msgid "The username isn't valid. Try again."
+msgstr "Användarnamnet är inte giltigt. Försök igen."
+
+#: warehouse/accounts/views.py:121
+msgid ""
+"There have been too many unsuccessful login attempts. You have been locked "
+"out for Please try again later."
+msgstr ""
+"Det har gjorts för många misslyckade inloggningsförsök. Du är spärrad. "
+"Försök igen senare."
+
+#: warehouse/accounts/views.py:141
+#, python-brace-format
+msgid ""
+"Too many emails have been added to this account without verifying them. "
+"Check your inbox and follow the verification links. (IP: ${ip})"
+msgstr ""
+"För många e-postadresser har lagts till på det här kontot utan att "
+"verifieras. Kontrollera din inkorg och följ verifieringslänkarna. (IP: "
+"${ip})"
+
+#: warehouse/accounts/views.py:153
+#, python-brace-format
+msgid ""
+"Too many password resets have been requested for this account without "
+"completing them. Check your inbox and follow the verification links. (IP: "
+"${ip})"
+msgstr ""
+"För många lösenordsåterställningar har begärts för det här kontot utan att "
+"slutföras. Kontrollera din inkorg och följ verifieringslänkarna. (IP: ${ip})"
+
+#: warehouse/accounts/views.py:376 warehouse/accounts/views.py:444
+#: warehouse/accounts/views.py:446 warehouse/accounts/views.py:475
+#: warehouse/accounts/views.py:477 warehouse/accounts/views.py:593
+msgid "Invalid or expired two factor login."
+msgstr "Ogiltig eller utgången tvåfaktorsinloggning."
+
+#: warehouse/accounts/views.py:438
+msgid "Already authenticated"
+msgstr "Redan autentiserad"
+
+#: warehouse/accounts/views.py:512
+msgid "Successful WebAuthn assertion"
+msgstr "WebAuthn-försäkran lyckades"
+
+#: warehouse/accounts/views.py:623 warehouse/manage/views/__init__.py:977
+msgid "Recovery code accepted. The supplied code cannot be used again."
+msgstr ""
+"Återställningskoden godkändes. Den angivna koden kan inte användas igen."
+
+#: warehouse/accounts/views.py:730
+msgid ""
+"New user registration temporarily disabled. See https://pypi.org/help#admin-"
+"intervention for details."
+msgstr ""
+"Registrering av nya användare är tillfälligt avstängd. Mer information finns"
+" på https://pypi.org/help#admin-intervention."
+
+#: warehouse/accounts/views.py:783
+#, python-brace-format
+msgid ""
+"Too many registration attempts from your network. Please try again in "
+"${time}."
+msgstr ""
+"För många registreringsförsök har gjorts från ditt nätverk. Försök igen om "
+"${time}."
+
+#: warehouse/accounts/views.py:791
+msgid ""
+"Too many registration attempts from your network. Please try again later."
+msgstr ""
+"För många registreringsförsök har gjorts från ditt nätverk. Försök igen "
+"senare."
+
+#: warehouse/accounts/views.py:849
+msgid ""
+"Too many password reset requests from your network. Please try again later."
+msgstr ""
+"För många begäranden om lösenordsåterställning har gjorts från ditt nätverk."
+" Försök igen senare."
+
+#: warehouse/accounts/views.py:946
+msgid "Expired token: request a new password reset link"
+msgstr "Utgången token: begär en ny länk för lösenordsåterställning"
+
+#: warehouse/accounts/views.py:948
+msgid "Invalid token: request a new password reset link"
+msgstr "Ogiltig token: begär en ny länk för lösenordsåterställning"
+
+#: warehouse/accounts/views.py:950 warehouse/accounts/views.py:1063
+#: warehouse/accounts/views.py:1128 warehouse/accounts/views.py:1234
+#: warehouse/accounts/views.py:1412
+msgid "Invalid token: no token supplied"
+msgstr "Ogiltig token: ingen token angavs"
+
+#: warehouse/accounts/views.py:954
+msgid "Invalid token: not a password reset token"
+msgstr "Ogiltig token: inte en token för lösenordsåterställning"
+
+#: warehouse/accounts/views.py:959 warehouse/accounts/views.py:1072
+msgid "Invalid token: user not found"
+msgstr "Ogiltig token: användaren hittades inte"
+
+#: warehouse/accounts/views.py:970
+msgid "Invalid token: user has logged in since this token was requested"
+msgstr "Ogiltig token: användaren har loggat in sedan denna token begärdes"
+
+#: warehouse/accounts/views.py:988
+msgid ""
+"Invalid token: password has already been changed since this token was "
+"requested"
+msgstr ""
+"Ogiltig token: lösenordet har redan ändrats sedan denna token begärdes"
+
+#: warehouse/accounts/views.py:1019
+msgid "You have reset your password"
+msgstr "Du har återställt ditt lösenord"
