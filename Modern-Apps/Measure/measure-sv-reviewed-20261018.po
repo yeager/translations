@@ -1,0 +1,558 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (Modern Apps)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 21:36+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/modern-apps/measure/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#, java-printf-format
+msgctxt "app_name"
+msgid "Measure"
+msgstr "Mät"
+
+#.  Bottom navigation tab label and screen title for the compass tool.
+#, java-printf-format
+msgctxt "tool_compass"
+msgid "Compass"
+msgstr "Kompass"
+
+#.  Bottom navigation tab label and screen title for the spirit-level tool,
+#. which shows
+#.          whether a surface is horizontal. This is a builder's level (a
+#. bubble level), NOT a
+#.          level in a game and NOT a fill level. Noun.
+#, java-printf-format
+msgctxt "tool_level"
+msgid "Level"
+msgstr "Vattenpass"
+
+#.  Bottom navigation tab label and screen title for the on-screen ruler tool.
+#. Noun.
+#, java-printf-format
+msgctxt "tool_ruler"
+msgid "Ruler"
+msgstr "Linjal"
+
+#.  CompassContent: caption under the bearing, when the reading is corrected
+#. for magnetic
+#.          declination and so points at the geographic north pole.
+#, java-printf-format
+msgctxt "compass_true_north"
+msgid "True north"
+msgstr "Geografisk nord"
+
+#.  CompassContent: caption under the bearing, when the reading is uncorrected
+#. and so
+#.          points at the magnetic north pole.
+#, java-printf-format
+msgctxt "compass_magnetic_north"
+msgid "Magnetic north"
+msgstr "Magnetisk nord"
+
+#.  CompassContent: warning shown when the phone is tilted too far for the
+#. magnetometer
+#.          reading to be trusted.
+#, java-printf-format
+msgctxt "compass_tilt_warning"
+msgid "Hold the phone flat for an accurate bearing"
+msgstr "Håll telefonen plant för en exakt riktning"
+
+#.  CompassContent: magnetic declination readout. %1$s is a signed angle
+#. already formatted
+#.          with a degree sign, e.g. "-3.4°".
+#, java-printf-format
+msgctxt "compass_declination"
+msgid "Declination %1$s"
+msgstr "Deklination %1$s"
+
+#.  CompassContent: shown instead of the declination when there is no location
+#. fix, so the
+#.          declination correction cannot be computed.
+#, java-printf-format
+msgctxt "compass_no_location"
+msgid "No location — showing magnetic north only"
+msgstr "Ingen platsinformation. Visar bara magnetisk nord"
+
+#.  CompassContent: button that switches the readout from true north to
+#. magnetic north.
+#, java-printf-format
+msgctxt "compass_show_magnetic"
+msgid "Show magnetic"
+msgstr "Visa magnetisk nord"
+
+#.  CompassContent: button that switches the readout from magnetic north to
+#. true north.
+#, java-printf-format
+msgctxt "compass_show_true_north"
+msgid "Show true north"
+msgstr "Visa geografisk nord"
+
+#.  CompassContent: button that freezes a marker on the dial at the current
+#. bearing.
+#, java-printf-format
+msgctxt "compass_hold_bearing"
+msgid "Hold bearing"
+msgstr "Lås riktning"
+
+#.  CompassContent: button that removes the frozen bearing marker from the
+#. dial.
+#, java-printf-format
+msgctxt "compass_release_bearing"
+msgid "Release bearing"
+msgstr "Lås upp riktning"
+
+#.  LevelContent: caption shown when the phone is lying flat, so the level is
+#. reading the
+#.          tilt of the surface underneath it in two axes.
+#, java-printf-format
+msgctxt "level_surface_level"
+msgid "Surface level"
+msgstr "Ytans lutning"
+
+#.  LevelContent: caption naming how the phone is currently being held -
+#. upright.
+#, java-printf-format
+msgctxt "level_orientation_portrait"
+msgid "Portrait"
+msgstr "Stående"
+
+#.  LevelContent: caption naming how the phone is currently being held -
+#. upright but
+#.          rotated a half turn, so the top edge points at the ground.
+#, java-printf-format
+msgctxt "level_orientation_portrait_upside_down"
+msgid "Portrait, upside down"
+msgstr "Stående, upp och ned"
+
+#.  LevelContent: caption naming how the phone is currently being held -
+#. sideways, with
+#.          its left-hand edge resting on the ground.
+#, java-printf-format
+msgctxt "level_orientation_landscape_left"
+msgid "Landscape, left edge down"
+msgstr "Liggande, vänster sida nedåt"
+
+#.  LevelContent: caption naming how the phone is currently being held -
+#. sideways, with
+#.          its right-hand edge resting on the ground.
+#, java-printf-format
+msgctxt "level_orientation_landscape_right"
+msgid "Landscape, right edge down"
+msgstr "Liggande, höger sida nedåt"
+
+#.  LevelContent: caption naming how the phone is currently being held - lying
+#. flat on
+#.          its back.
+#, java-printf-format
+msgctxt "level_orientation_flat"
+msgid "Flat"
+msgstr "Plant"
+
+#.  LevelContent: button that discards the stored zero offset and returns the
+#. level to
+#.          the raw sensor reading.
+#, java-printf-format
+msgctxt "level_clear_calibration"
+msgid "Clear calibration"
+msgstr "Rensa kalibrering"
+
+#.  LevelContent: button that stores the current tilt as the new zero, so a
+#. surface known
+#.          to be flat reads as level.
+#, java-printf-format
+msgctxt "level_set_zero"
+msgid "Set zero here"
+msgstr "Ange nollpunkt här"
+
+#.  LevelContent caption and SettingsContent supporting text: the level has a
+#. stored zero
+#.          offset taken from a surface the user declared flat.
+#, java-printf-format
+msgctxt "level_zeroed"
+msgid "Zeroed against a reference surface"
+msgstr "Nollställt mot en referensyta"
+
+#.  RulerContent: instruction under the reading, explaining how to use the on-
+#. screen
+#.          ruler. "the line" is the draggable marker line across the screen.
+#, java-printf-format
+msgctxt "ruler_hint"
+msgid "Drag the line; read against either edge"
+msgstr "Dra i linjen och läs av mot valfri kant"
+
+#.  ArMeasureContent: button that joins the last placed point back to the
+#. first, turning
+#.          an open chain of points into a closed shape so its area can be
+#. measured.
+#, java-printf-format
+msgctxt "ar_close_shape"
+msgid "Close shape"
+msgstr "Slut figur"
+
+#.  ArMeasureContent: coaching banner while tracking starts up. The app
+#. genuinely cannot
+#.          work out real-world scale until the phone is physically moved, so
+#. this is an
+#.          instruction, not a progress message.
+#, java-printf-format
+msgctxt "ar_tracking_initialising"
+msgid "Move the phone sideways and turn it slightly to start tracking"
+msgstr "Flytta telefonen i sidled och vrid den lite för att starta spårningen"
+
+#.  ArMeasureContent: coaching banner when tracking is unreliable. "texture"
+#. means visible
+#.          detail or pattern on the surface, which the camera needs in order
+#. to track.
+#, java-printf-format
+msgctxt "ar_tracking_limited"
+msgid "Tracking is weak — move slowly and keep texture in view"
+msgstr "Spårningen är svag. Rör dig långsamt och håll ytan i bild"
+
+#.  ArMeasureContent: coaching banner when tracking has failed entirely.
+#, java-printf-format
+msgctxt "ar_tracking_lost"
+msgid "Tracking lost — point at a textured surface to recover"
+msgstr ""
+"Spårningen har gått förlorad. Rikta kameran mot en strukturerad yta för att "
+"återuppta den"
+
+#.  ArMeasureContent: coaching banner when tracking is good and a surface has
+#. been found,
+#.          so the user can start measuring.
+#, java-printf-format
+msgctxt "ar_tracking_ready"
+msgid "Ready — tap to place points"
+msgstr "Klar. Tryck för att placera punkter"
+
+#.  ArMeasureContent: coaching banner when tracking is good but no surface has
+#. been
+#.          detected yet to place points on.
+#, java-printf-format
+msgctxt "ar_tracking_ready_no_surface"
+msgid "Ready — no surface found yet"
+msgstr "Klar. Ingen yta har hittats ännu"
+
+#.  ArMeasureContent: area readout. %1$s is an already-formatted area with its
+#. unit,
+#.          e.g. "2.40 m²".
+#, java-printf-format
+msgctxt "ar_area"
+msgid "Area %1$s"
+msgstr "Area %1$s"
+
+#.  ArMeasureContent: perimeter readout for a closed shape. %1$s is an
+#. already-formatted
+#.          length with its unit, e.g. "6.20 m".
+#, java-printf-format
+msgctxt "ar_perimeter"
+msgid "Perimeter %1$s"
+msgstr "Omkrets %1$s"
+
+#.  ArMeasureContent: heading shown in place of the camera view when AR
+#. measuring cannot
+#.          run at all.
+#, java-printf-format
+msgctxt "ar_unavailable_title"
+msgid "AR measure unavailable"
+msgstr "AR-mätning är inte tillgänglig"
+
+#.  ArMeasureContent: reason shown under ar_unavailable_title when the device
+#. does not
+#.          ship the native tracking library.
+#, java-printf-format
+msgctxt "ar_unavailable_native"
+msgid ""
+"AR measuring needs the native tracking engine, which isn't available on this"
+" device."
+msgstr ""
+"AR-mätning kräver den inbyggda spårningsmotorn, som inte är tillgänglig på "
+"den här enheten."
+
+#.  ArMeasureContent: reason shown under ar_unavailable_title when the camera
+#. permission
+#.          has not been granted.
+#, java-printf-format
+msgctxt "ar_unavailable_camera"
+msgid "Camera access is needed to measure in AR."
+msgstr "Kameraåtkomst krävs för att mäta med AR."
+
+#.  SavedMeasurementsContent: heading of the empty state.
+#, java-printf-format
+msgctxt "saved_empty_title"
+msgid "No saved measurements"
+msgstr "Inga sparade mätningar"
+
+#.  SavedMeasurementsContent: body of the empty state, telling the user how to
+#. add one.
+#, java-printf-format
+msgctxt "saved_empty_body"
+msgid "Measure something in AR and tap save"
+msgstr "Mät något med AR och tryck på Spara"
+
+#.  MeasureViewModel: name given to a saved measurement when the user left the
+#. name
+#.          blank. Shown as the row title in the saved list. Noun.
+#, java-printf-format
+msgctxt "saved_default_label"
+msgid "Measurement"
+msgstr "Mätning"
+
+#.  SettingsContent: section heading over the unit-system options. Noun,
+#. plural - units of
+#.          measurement such as metres or feet.
+#, java-printf-format
+msgctxt "settings_section_units"
+msgid "Units"
+msgstr "Enheter"
+
+#.  SettingsContent: switch that shows lengths in feet and inches instead of
+#. metres.
+#, java-printf-format
+msgctxt "settings_imperial_units"
+msgid "Imperial units"
+msgstr "Brittiska enheter"
+
+#.  SettingsContent: supporting text under settings_imperial_units.
+#, java-printf-format
+msgctxt "settings_imperial_units_summary"
+msgid "Feet and inches instead of metres"
+msgstr "Fot och tum i stället för meter"
+
+#.  SettingsContent: switch that shows inches as tape-measure fractions rather
+#. than as a
+#.          decimal.
+#, java-printf-format
+msgctxt "settings_fractional_inches"
+msgid "Fractional inches"
+msgstr "Bråktum"
+
+#.  SettingsContent: supporting text under settings_fractional_inches. The two
+#. examples
+#.          are the same length written both ways; the straight quote is the
+#. inch symbol and
+#.          should be kept.
+#, java-printf-format
+msgctxt "settings_fractional_inches_summary"
+msgid "Show 3/16\" rather than 0.19\""
+msgstr "Visa 3/16 tum i stället för 0,19 tum"
+
+#.  SettingsContent: switch that corrects compass bearings for magnetic
+#. declination.
+#, java-printf-format
+msgctxt "settings_use_true_north"
+msgid "Use true north"
+msgstr "Använd geografisk nord"
+
+#.  SettingsContent: supporting text under settings_use_true_north.
+#, java-printf-format
+msgctxt "settings_use_true_north_summary"
+msgid "Corrects for magnetic declination at your location"
+msgstr "Korrigerar för magnetisk deklination på din plats"
+
+#.  SettingsContent: section heading over the level calibration row. Noun.
+#, java-printf-format
+msgctxt "settings_section_calibration"
+msgid "Calibration"
+msgstr "Kalibrering"
+
+#.  SettingsContent: supporting text on the level calibration row when no zero
+#. offset has
+#.          been stored, so the level shows the raw accelerometer reading.
+#, java-printf-format
+msgctxt "settings_level_uncalibrated_summary"
+msgid "Using raw gravity reading"
+msgstr "Använder den råa gravitationsavläsningen"
+
+#.  SettingsContent: section heading over the miscellaneous options.
+#, java-printf-format
+msgctxt "settings_section_general"
+msgid "General"
+msgstr "Allmänt"
+
+#.  SettingsContent: switch for vibration on interaction.
+#, java-printf-format
+msgctxt "settings_haptic_feedback"
+msgid "Haptic feedback"
+msgstr "Haptisk återkoppling"
+
+#.  SettingsContent: switch that stops the display sleeping.
+#, java-printf-format
+msgctxt "settings_keep_screen_on"
+msgid "Keep screen on"
+msgstr "Håll skärmen på"
+
+#.  SettingsContent: supporting text under settings_keep_screen_on.
+#, java-printf-format
+msgctxt "settings_keep_screen_on_summary"
+msgid "While a measuring tool is open"
+msgstr "Medan ett mätverktyg är öppet"
+
+#.  SettingsContent: row that opens the list of saved measurements.
+#, java-printf-format
+msgctxt "settings_saved_measurements"
+msgid "Saved measurements"
+msgstr "Sparade mätningar"
+
+#.  SettingsContent: section heading over the developer-facing options.
+#, java-printf-format
+msgctxt "settings_section_advanced"
+msgid "Advanced"
+msgstr "Avancerat"
+
+#.  SettingsContent: switch that reveals the AR tracking diagnostics screen.
+#, java-printf-format
+msgctxt "settings_tracking_diagnostics"
+msgid "Tracking diagnostics"
+msgstr "Spårningsdiagnostik"
+
+#.  SettingsContent: supporting text under settings_tracking_diagnostics.
+#. "IMU" is the
+#.          inertial measurement unit, the accelerometer and gyroscope; keep
+#. the abbreviation.
+#, java-printf-format
+msgctxt "settings_tracking_diagnostics_summary"
+msgid "Feature counts, IMU rate and clock skew"
+msgstr "Antal bilddetaljer, IMU-frekvens och klockförskjutning"
+
+#.  SettingsContent: row that opens the tracking diagnostics screen.
+#, java-printf-format
+msgctxt "settings_open_diagnostics"
+msgid "Open diagnostics"
+msgstr "Öppna diagnostik"
+
+#.  DiagnosticsContent: screen title. Technical readouts for the AR tracker.
+#, java-printf-format
+msgctxt "diagnostics_title"
+msgid "Diagnostics"
+msgstr "Diagnostik"
+
+#.  DiagnosticsContent: section heading over readouts from the native tracking
+#. engine.
+#, java-printf-format
+msgctxt "diagnostics_section_engine"
+msgid "Engine"
+msgstr "Motor"
+
+#.  DiagnosticsContent: row label for whether the native tracking library
+#. loaded.
+#, java-printf-format
+msgctxt "diagnostics_native_engine"
+msgid "Native engine"
+msgstr "Inbyggd motor"
+
+#.  DiagnosticsContent: value of the diagnostics_native_engine row when the
+#. native library
+#.          loaded successfully. Lowercase intentional - it sits in a value
+#. column.
+#, java-printf-format
+msgctxt "diagnostics_loaded"
+msgid "loaded"
+msgstr "inläst"
+
+#.  DiagnosticsContent: value of the diagnostics_native_engine row when the
+#. native library
+#.          is missing. Lowercase intentional - it sits in a value column.
+#, java-printf-format
+msgctxt "diagnostics_unavailable"
+msgid "unavailable"
+msgstr "inte tillgänglig"
+
+#.  DiagnosticsContent: row label for the number of 3D points the tracker is
+#. holding.
+#, java-printf-format
+msgctxt "diagnostics_landmarks"
+msgid "Landmarks"
+msgstr "Referenspunkter"
+
+#.  DiagnosticsContent: row label for how confident the tracker is in its
+#. real-world
+#.          scale estimate.
+#, java-printf-format
+msgctxt "diagnostics_scale_confidence"
+msgid "Scale confidence"
+msgstr "Skalans tillförlitlighet"
+
+#.  DiagnosticsContent: section heading over per-frame tracking readouts.
+#, java-printf-format
+msgctxt "diagnostics_section_tracking"
+msgid "Tracking"
+msgstr "Spårning"
+
+#.  DiagnosticsContent: row label for how many image features were found this
+#. frame.
+#, java-printf-format
+msgctxt "diagnostics_features_detected"
+msgid "Features detected"
+msgstr "Bilddetaljer upptäckta"
+
+#.  DiagnosticsContent: row label for how many of those features were matched
+#. to the
+#.          previous frame.
+#, java-printf-format
+msgctxt "diagnostics_features_tracked"
+msgid "Features tracked"
+msgstr "Bilddetaljer spårade"
+
+#.  DiagnosticsContent: row label for the camera frame rate.
+#, java-printf-format
+msgctxt "diagnostics_frame_rate"
+msgid "Frame rate"
+msgstr "Bildfrekvens"
+
+#.  DiagnosticsContent: section heading over readouts from the motion sensors.
+#, java-printf-format
+msgctxt "diagnostics_section_sensors"
+msgid "Sensors"
+msgstr "Sensorer"
+
+#.  DiagnosticsContent: row label for the sample rate of the inertial
+#. measurement unit.
+#.          Keep the "IMU" abbreviation.
+#, java-printf-format
+msgctxt "diagnostics_imu_rate"
+msgid "IMU rate"
+msgstr "IMU-frekvens"
+
+#.  DiagnosticsContent: row label for the timestamp gap between the camera and
+#. the
+#.          inertial measurement unit. Keep the "IMU" abbreviation.
+#, java-printf-format
+msgctxt "diagnostics_clock_skew"
+msgid "Camera/IMU clock skew"
+msgstr "Klockförskjutning mellan kamera och IMU"
+
+#.  DiagnosticsContent: section heading over the camera's calibration
+#. constants. Noun,
+#.          plural - the camera intrinsic parameters.
+#, java-printf-format
+msgctxt "diagnostics_section_intrinsics"
+msgid "Intrinsics"
+msgstr "Inre parametrar"
+
+#.  DiagnosticsContent: row label for the camera's focal length in pixels.
+#, java-printf-format
+msgctxt "diagnostics_focal_length"
+msgid "Focal length"
+msgstr "Brännvidd"
+
+#.  DiagnosticsContent: row label for the camera's optical centre, in pixels.
+#, java-printf-format
+msgctxt "diagnostics_principal_point"
+msgid "Principal point"
+msgstr "Huvudpunkt"
+
+#.  DiagnosticsContent: row that restarts the AR tracking session from
+#. scratch.
+#, java-printf-format
+msgctxt "diagnostics_reset_tracking"
+msgid "Reset tracking"
+msgstr "Återställ spårning"
