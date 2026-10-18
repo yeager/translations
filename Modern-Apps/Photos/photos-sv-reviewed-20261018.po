@@ -1,0 +1,1728 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (Modern Apps)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 22:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/modern-apps/photos/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#.  App name: launcher label and widget owner title
+#, java-printf-format
+msgctxt "app_name"
+msgid "Photos"
+msgstr "Bilder"
+
+#.  Badge on a gallery thumbnail marking an animated GIF. Keep as the
+#. uppercase file-format acronym
+#, java-printf-format
+msgctxt "gif_badge"
+msgid "GIF"
+msgstr "GIF"
+
+#.  Glance widget description shown in widget picker. Full sentence describing
+#. rotating photo widget
+#, java-printf-format
+msgctxt "photo_widget_description"
+msgid "A rotating photo from your gallery - tap to shuffle"
+msgstr "Ett roterande foto från galleriet – tryck för att blanda"
+
+#.  Permission prompt button to grant READ_MEDIA_IMAGES/VIDEO. Verb phrase
+#, java-printf-format
+msgctxt "grant_image_video_permissions"
+msgid "Grant Image/Video Permissions"
+msgstr "Ge behörighet till bilder och videor"
+
+#.  Button to request storage permission. Shown on Android versions below 13.
+#. Verb phrase
+#, java-printf-format
+msgctxt "grant_storage_permission"
+msgid "Grant Storage Permission"
+msgstr "Ge lagringsbehörighet"
+
+#.  Title when Media Management permission required to delete/move
+#, java-printf-format
+msgctxt "media_management_permission_required"
+msgid "Media Management Permission Required"
+msgstr "Behörighet att hantera media krävs"
+
+#.  Explanatory body when canManageMedia false, tells user to grant Allow
+#. media management in Settings
+#, java-printf-format
+msgctxt "this_app_needs_permission_to_manage_medi"
+msgid ""
+"This app needs permission to manage media files to function properly. Please"
+" grant 'Allow media management' permission in Settings."
+msgstr ""
+"Appen behöver behörighet att hantera mediefiler för att fungera. Ge "
+"behörigheten ”Tillåt mediehantering” i Inställningar."
+
+#.  Button to open system Settings from permission blocker screen. Verb phrase
+#, java-printf-format
+msgctxt "open_settings"
+msgid "Open Settings"
+msgstr "Öppna inställningar"
+
+#.  Navigation label: Gallery tab. Noun
+#, java-printf-format
+msgctxt "label_gallery"
+msgid "Gallery"
+msgstr "Galleri"
+
+#.  Navigation label: Map tab. Noun
+#, java-printf-format
+msgctxt "label_map"
+msgid "Map"
+msgstr "Karta"
+
+#.  Navigation label: People face-grouping tab. Noun plural
+#, java-printf-format
+msgctxt "label_people"
+msgid "People"
+msgstr "Personer"
+
+#.  Navigation label: Albums tab. Noun plural
+#, java-printf-format
+msgctxt "label_albums"
+msgid "Albums"
+msgstr "Album"
+
+#.  Navigation label: Trash tab. Noun
+#, java-printf-format
+msgctxt "label_trash"
+msgid "Trash"
+msgstr "Papperskorg"
+
+#.  Navigation label: Secure Folder tab. Noun phrase
+#, java-printf-format
+msgctxt "label_secure_folder"
+msgid "Secure Folder"
+msgstr "Säker mapp"
+
+#.  Empty state centered text when Secure Folder has no photos
+#, java-printf-format
+msgctxt "secure_folder_is_empty"
+msgid "Secure Folder is empty"
+msgstr "Den säkra mappen är tom"
+
+#.  Empty state centered text when Trash has no photos
+#, java-printf-format
+msgctxt "trash_is_empty"
+msgid "Trash is empty"
+msgstr "Papperskorgen är tom"
+
+#.  Empty state centered text when no albums exist yet (empty library).
+#. Sentence
+#, java-printf-format
+msgctxt "albums_empty"
+msgid "No albums yet. Albums appear here once your photos have been synced."
+msgstr "Inga album ännu. Album visas här när dina bilder har synkroniserats."
+
+#.  Fallback album name for photos with no MediaStore bucket (rows predating
+#. the album column, or bucket-less MediaStore rows). Noun
+#, java-printf-format
+msgctxt "albums_unknown"
+msgid "Unknown"
+msgstr "Okänd"
+
+#.  Subtitle per album grid cell showing photo count. %1$d = count
+#, java-printf-format, xml-text
+msgctxt "album_photo_count"
+msgid "<xliff:g id=\"count\" example=\"12\">%1$d</xliff:g> photo"
+msgid_plural "<xliff:g id=\"count\" example=\"12\">%1$d</xliff:g> photos"
+msgstr[0] "<xliff:g id=\"count\" example=\"12\">%1$d</xliff:g> bild"
+msgstr[1] "<xliff:g id=\"count\" example=\"12\">%1$d</xliff:g> bilder"
+
+#.  Title of the selection action / dialog to add the chosen photos to an
+#. album. Verb phrase
+#, java-printf-format
+msgctxt "label_add_to_album"
+msgid "Add to album"
+msgstr "Lägg till i album"
+
+#.  Text field label/hint for entering an album name. Noun
+#, java-printf-format
+msgctxt "album_name_hint"
+msgid "Album name"
+msgstr "Albumnamn"
+
+#.  Confirm button in the add-to-album dialog that creates a new album. Verb
+#, java-printf-format
+msgctxt "album_create"
+msgid "Create"
+msgstr "Skapa"
+
+#.  Overflow menu item / confirm button to rename the current album. Verb
+#, java-printf-format
+msgctxt "album_rename"
+msgid "Rename"
+msgstr "Byt namn"
+
+#.  Overflow menu item / confirm button to delete the current album. Verb
+#, java-printf-format
+msgctxt "album_delete"
+msgid "Delete album"
+msgstr "Ta bort album"
+
+#.  Delete-album confirmation body. Photos are kept; only the album grouping
+#. is removed. %1$s = album name
+#, java-printf-format, xml-text
+msgctxt "album_delete_confirm"
+msgid ""
+"Remove the album \"<xliff:g id=\"name\" example=\"Beach\">%1$s</xliff:g>\"? "
+"The photos will be kept and returned to your library."
+msgstr ""
+"Ta bort albumet ”<xliff:g id=\"name\" example=\"Beach\">%1$s</xliff:g>”? "
+"Bilderna behålls och återgår till biblioteket."
+
+#.  Generic cancel button in dialogs. Verb
+#, java-printf-format
+msgctxt "action_cancel"
+msgid "Cancel"
+msgstr "Avbryt"
+
+#.  Generic selection count badge in TopAppBar of Gallery, SecureFolder,
+#. Trash. %1$d = number selected
+#, java-printf-format, xml-text
+msgctxt "items_selected"
+msgid "<xliff:g id=\"count\" example=\"5\">%1$d</xliff:g> selected"
+msgstr "<xliff:g id=\"count\" example=\"5\">%1$d</xliff:g> valda"
+
+#.  Vault viewer error when the encrypted file cannot be decrypted to the
+#. cache. Sentence
+#, java-printf-format
+msgctxt "vault_viewer_decrypt_failed"
+msgid "Couldn't open this item"
+msgstr "Kunde inte öppna objektet"
+
+#.  Vault viewer message when the item no longer exists in the vault. Sentence
+#, java-printf-format
+msgctxt "vault_viewer_not_found"
+msgid "This item is no longer in the Secure Folder"
+msgstr "Objektet finns inte längre i den säkra mappen"
+
+#.  Gallery grouping header: month + year. %1$s = month name e.g. January,
+#. %2$d = year e.g. 2024
+#, java-printf-format, xml-text
+msgctxt "month_year_format"
+msgid ""
+"<xliff:g id=\"month\" example=\"January\">%1$s</xliff:g> <xliff:g "
+"id=\"year\" example=\"2024\">%2$d</xliff:g>"
+msgstr ""
+"<xliff:g id=\"month\" example=\"January\">%1$s</xliff:g> <xliff:g "
+"id=\"year\" example=\"2024\">%2$d</xliff:g>"
+
+#.  Search bar placeholder hint. Noun phrase with ellipsis
+#, java-printf-format
+msgctxt "search_placeholder"
+msgid "Search photos…"
+msgstr "Sök bilder…"
+
+#.  Gallery progress when query empty: percent of photos processed. %1$d =
+#. percent 0-100, %% literal percent sign
+#, java-printf-format, xml-text
+msgctxt "of_photos_processed"
+msgid "<xliff:g id=\"percent\" example=\"45\">%1$d</xliff:g>%% of photos processed"
+msgstr ""
+"<xliff:g id=\"percent\" example=\"45\">%1$d</xliff:g> %% av bilderna "
+"bearbetade"
+
+#.  Gallery progress: visual search embedding index progress. %1$d = done,
+#. %2$d = total
+#, java-printf-format, xml-text
+msgctxt "photos_indexed_for_visual_search"
+msgid ""
+"<xliff:g id=\"done\" example=\"120\">%1$d</xliff:g> / <xliff:g id=\"total\" "
+"example=\"500\">%2$d</xliff:g> photos indexed for visual search"
+msgstr ""
+"<xliff:g id=\"done\" example=\"120\">%1$d</xliff:g> / <xliff:g id=\"total\" "
+"example=\"500\">%2$d</xliff:g> bilder indexerade för visuell sökning"
+
+#.  Gallery progress: text search OCR index progress. %1$d = done, %2$d =
+#. total
+#, java-printf-format, xml-text
+msgctxt "photos_indexed_for_text_search"
+msgid ""
+"<xliff:g id=\"done\" example=\"120\">%1$d</xliff:g> / <xliff:g id=\"total\" "
+"example=\"500\">%2$d</xliff:g> photos indexed for text search"
+msgstr ""
+"<xliff:g id=\"done\" example=\"120\">%1$d</xliff:g> / <xliff:g id=\"total\" "
+"example=\"500\">%2$d</xliff:g> bilder indexerade för textsökning"
+
+#.  ListItem shown when the bundled AI search model could not be loaded
+#, java-printf-format
+msgctxt "semantic_search_unavailable"
+msgid ""
+"AI photo search is unavailable on this install. Text and filename search "
+"still work."
+msgstr ""
+"AI-bildsökning är inte tillgänglig i den här installationen. Sökning i text "
+"och filnamn fungerar ändå."
+
+#.  Empty state: no faces found yet, scanning happens in background background
+#. explanation
+#, java-printf-format
+msgctxt "people_empty"
+msgid ""
+"No people found yet. Scanning happens in the background — check back after "
+"your photos have been indexed."
+msgstr ""
+"Inga personer hittades ännu. Genomsökning sker i bakgrunden. Titta igen när "
+"bilderna har indexerats."
+
+#.  Subtitle while face grouping still running. Sentence with ellipsis
+#, java-printf-format
+msgctxt "people_scanning"
+msgid "Grouping faces… people will appear here as they are found."
+msgstr "Grupperar ansikten… personer visas här när de hittas."
+
+#.  Linear progress text for face indexing. %1$d = processed, %2$d = total
+#, java-printf-format, xml-text
+msgctxt "face_indexing_progress"
+msgid ""
+"Indexing <xliff:g id=\"processed\" example=\"20\">%1$d</xliff:g> / <xliff:g "
+"id=\"total\" example=\"100\">%2$d</xliff:g>"
+msgstr ""
+"Indexerar <xliff:g id=\"processed\" example=\"20\">%1$d</xliff:g> / <xliff:g"
+" id=\"total\" example=\"100\">%2$d</xliff:g>"
+
+#.  Error when mobilefacenet.tflite model missing, instructions to add asset
+#. with FaceRecognizer reference
+#, java-printf-format
+msgctxt "people_model_missing"
+msgid ""
+"Face grouping needs a MobileFaceNet model. Add a permissively-licensed "
+"mobilefacenet.tflite to photos/src/main/assets (see FaceRecognizer)."
+msgstr ""
+"Ansiktsgruppering kräver en MobileFaceNet-modell. Lägg till en tillåtande "
+"licensierad mobilefacenet.tflite i photos/src/main/assets (se "
+"FaceRecognizer)."
+
+#.  Subtitle per person grid cell showing photo count. %1$d = count
+#, java-printf-format, xml-text
+msgctxt "people_photo_count"
+msgid "<xliff:g id=\"count\" example=\"12\">%1$d</xliff:g> photo"
+msgid_plural "<xliff:g id=\"count\" example=\"12\">%1$d</xliff:g> photos"
+msgstr[0] "<xliff:g id=\"count\" example=\"12\">%1$d</xliff:g> bild"
+msgstr[1] "<xliff:g id=\"count\" example=\"12\">%1$d</xliff:g> bilder"
+
+#.  Label under a person grid cell with no name yet; tapping it opens the
+#. contact picker. Adjective
+#, java-printf-format
+msgctxt "people_unnamed"
+msgid "Unnamed"
+msgstr "Namnlös"
+
+#.  Photo detail badge: number of people in this photo. Plural handling. %1$d
+#. = count
+#, java-printf-format, xml-text
+msgctxt "people_in_photo"
+msgid "<xliff:g id=\"count\" example=\"1\">%1$d</xliff:g> person"
+msgid_plural "<xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> people"
+msgstr[0] "<xliff:g id=\"count\" example=\"1\">%1$d</xliff:g> person"
+msgstr[1] "<xliff:g id=\"count\" example=\"1\">%1$d</xliff:g> personer"
+
+#.  Metadata row: capture date label. %1$s = formatted date e.g. Jan 5 2024
+#, java-printf-format, xml-text
+msgctxt "taken_on"
+msgid "Taken on: <xliff:g id=\"date\" example=\"Jan 5, 2024\">%1$s</xliff:g>"
+msgstr "Tagen: <xliff:g id=\"date\" example=\"Jan 5, 2024\">%1$s</xliff:g>"
+
+#.  Metadata row: reverse geocoded location. %1$s = place name
+#, java-printf-format, xml-text
+msgctxt "location"
+msgid "Location: <xliff:g id=\"place\" example=\"Paris, France\">%1$s</xliff:g>"
+msgstr "Plats: <xliff:g id=\"place\" example=\"Paris, France\">%1$s</xliff:g>"
+
+#.  Metadata row: image resolution. %1$d = width e.g. 4000, %2$d = height e.g.
+#. 3000, keep 'x' separator
+#, java-printf-format, xml-text
+msgctxt "resolution"
+msgid ""
+"Resolution: <xliff:g id=\"width\" example=\"4000\">%1$d</xliff:g> x <xliff:g"
+" id=\"height\" example=\"3000\">%2$d</xliff:g>"
+msgstr ""
+"Upplösning: <xliff:g id=\"width\" example=\"4000\">%1$d</xliff:g> × <xliff:g"
+" id=\"height\" example=\"3000\">%2$d</xliff:g>"
+
+#.  Metadata row: file size on disk. %1$s = formatted size e.g. 2.5 MB
+#, java-printf-format, xml-text
+msgctxt "file_size"
+msgid "Size: <xliff:g id=\"size\" example=\"2.5 MB\">%1$s</xliff:g>"
+msgstr "Storlek: <xliff:g id=\"size\" example=\"2.5 MB\">%1$s</xliff:g>"
+
+#.  Metadata overlay placeholder while reverse geocoding pending. Verb present
+#. participle
+#, java-printf-format
+msgctxt "detecting"
+msgid "Detecting…"
+msgstr "Identifierar…"
+
+#.  Button to open 360 degree photo viewer. Verb phrase with degree symbol
+#, java-printf-format
+msgctxt "view_360"
+msgid "View 360°"
+msgstr "Visa 360°"
+
+#.  Button to open panorama viewer. Verb phrase
+#, java-printf-format
+msgctxt "view_panorama"
+msgid "View panorama"
+msgstr "Visa panorama"
+
+#.  Fallback label when panorama type detected but no specific kind
+#, java-printf-format
+msgctxt "panorama"
+msgid "Panorama"
+msgstr "Panorama"
+
+#.  Button to play the embedded clip of a motion photo, replacing the still.
+#. Verb phrase
+#, java-printf-format
+msgctxt "play_motion_photo"
+msgid "Play motion photo"
+msgstr "Spela upp rörligt foto"
+
+#.  Button to stop motion-photo playback and return to the still. Verb phrase
+#, java-printf-format
+msgctxt "stop_motion_photo"
+msgid "Stop motion"
+msgstr "Stoppa rörelse"
+
+#.  Viewer metadata badge marking a motion photo (a still with an embedded
+#. clip). Keep uppercase
+#, java-printf-format
+msgctxt "motion_badge"
+msgid "MOTION"
+msgstr "RÖRELSE"
+
+#.  Snackbar when the embedded motion-photo clip could not be extracted for
+#. playback. Sentence
+#, java-printf-format
+msgctxt "motion_photo_failed"
+msgid "Couldn't play the motion photo."
+msgstr "Kunde inte spela upp det rörliga fotot."
+
+#.  Secure Folder settings dialog title. Noun phrase
+#, java-printf-format
+msgctxt "secure_folder_relock_title"
+msgid "Secure Folder settings"
+msgstr "Inställningar för säker mapp"
+
+#.  Secure Folder settings row label for the re-lock-on-exit toggle. Verb
+#. phrase
+#, java-printf-format
+msgctxt "secure_folder_relock_label"
+msgid "Lock when leaving"
+msgstr "Lås när du lämnar"
+
+#.  Secure Folder settings row description explaining the re-lock toggle.
+#. Sentence
+#, java-printf-format
+msgctxt "secure_folder_relock_description"
+msgid ""
+"When on, the Secure Folder locks every time you leave it and asks for unlock"
+" on every open."
+msgstr ""
+"När detta är på låses den säkra mappen varje gång du lämnar den och ber om "
+"upplåsning vid varje öppning."
+
+#.  TopAppBar title for photo editor screen. Verb phrase
+#, java-printf-format
+msgctxt "title_edit_photo"
+msgid "Edit Photo"
+msgstr "Redigera bild"
+
+#.  Menu item: save, overwrites original. Verb
+#, java-printf-format
+msgctxt "action_save"
+msgid "Save"
+msgstr "Spara"
+
+#.  Menu item: save as copy, keeps original. Verb phrase
+#, java-printf-format
+msgctxt "action_save_as_copy"
+msgid "Save as Copy"
+msgstr "Spara som kopia"
+
+#.  Reset all adjustments to default. Verb phrase
+#, java-printf-format
+msgctxt "reset_all"
+msgid "Reset All"
+msgstr "Återställ allt"
+
+#.  Export menu: export current image as WebP format. Verb phrase
+#, java-printf-format
+msgctxt "export_as_webp"
+msgid "Export as WebP"
+msgstr "Exportera som WebP"
+
+#.  Export menu: export as PNG format. Verb phrase
+#, java-printf-format
+msgctxt "export_as_png"
+msgid "Export as PNG"
+msgstr "Exportera som PNG"
+
+#.  TopAppBar title for video editor screen. Verb phrase
+#, java-printf-format
+msgctxt "title_edit_video"
+msgid "Edit Video"
+msgstr "Redigera video"
+
+#.  Video editor tool: trim clip length. Verb
+#, java-printf-format
+msgctxt "video_trim"
+msgid "Trim"
+msgstr "Trimma"
+
+#.  Hint under crop/rotate tools: drag the corner handles on the preview to
+#. crop. Sentence instruction
+#, java-printf-format
+msgctxt "video_crop_hint"
+msgid "Drag the corners on the preview to crop."
+msgstr "Dra i hörnen på förhandsvisningen för att beskära."
+
+#.  Video editor tool: audio track. Noun
+#, java-printf-format
+msgctxt "video_audio"
+msgid "Audio"
+msgstr "Ljud"
+
+#.  Button label: audio is currently on (tap to mute). Adjective phrase
+#, java-printf-format
+msgctxt "video_audio_on"
+msgid "Audio on"
+msgstr "Ljud på"
+
+#.  Button label: audio is currently muted (tap to unmute). Adjective
+#, java-printf-format
+msgctxt "video_muted"
+msgid "Muted"
+msgstr "Avstängt ljud"
+
+#.  Filter preset: no filter. Noun
+#, java-printf-format
+msgctxt "video_filter_none"
+msgid "None"
+msgstr "Ingen"
+
+#.  Filter preset: black &amp; white. Noun
+#, java-printf-format
+msgctxt "video_filter_mono"
+msgid "Mono"
+msgstr "Mono"
+
+#.  Filter preset: warm tint. Adjective
+#, java-printf-format
+msgctxt "video_filter_warm"
+msgid "Warm"
+msgstr "Varm"
+
+#.  Filter preset: cool tint. Adjective
+#, java-printf-format
+msgctxt "video_filter_cool"
+msgid "Cool"
+msgstr "Kall"
+
+#.  Filter preset: vivid/saturated. Adjective
+#, java-printf-format
+msgctxt "video_filter_vivid"
+msgid "Vivid"
+msgstr "Livfull"
+
+#.  Save dialog body: ask whether to keep original or overwrite. Question
+#, java-printf-format
+msgctxt "video_save_prompt"
+msgid "Save the edited video as a new copy or overwrite the original?"
+msgstr ""
+"Spara den redigerade videon som en ny kopia eller skriv över originalet?"
+
+#.  Save dialog button: overwrite the original video. Verb
+#, java-printf-format
+msgctxt "video_overwrite"
+msgid "Overwrite"
+msgstr "Skriv över"
+
+#.  Progress dialog title while exporting the video. Verb
+#, java-printf-format
+msgctxt "video_exporting"
+msgid "Exporting…"
+msgstr "Exporterar…"
+
+#.  Toast/message when video export fails. Sentence
+#, java-printf-format
+msgctxt "video_export_failed"
+msgid "Video export failed."
+msgstr "Videoexporten misslyckades."
+
+#.  "Edit with" chooser label for the external video edit intent
+#, java-printf-format
+msgctxt "video_edit_with_label"
+msgid "Edit video with My App"
+msgstr "Redigera video med My App"
+
+#.  Slider label: opacity of brush stroke. Noun
+#, java-printf-format
+msgctxt "opacity"
+msgid "Opacity"
+msgstr "Opacitet"
+
+#.  Slider label: thickness of brush/line. Noun
+#, java-printf-format
+msgctxt "thickness"
+msgid "Thickness"
+msgstr "Tjocklek"
+
+#.  Section header: color picker. Noun
+#, java-printf-format
+msgctxt "color"
+msgid "Color"
+msgstr "Färg"
+
+#.  Recent colors section header. Adjective
+#, java-printf-format
+msgctxt "recent"
+msgid "Recent"
+msgstr "Senaste"
+
+#.  Label for aspect ratio lock dropdown. Noun phrase
+#, java-printf-format
+msgctxt "aspect_ratio"
+msgid "Aspect ratio"
+msgstr "Bildförhållande"
+
+#.  Tooltip: drag corners to distort free transform. Sentence instruction
+#, java-printf-format
+msgctxt "drag_corners_to_distort"
+msgid "Drag corners to distort."
+msgstr "Dra i hörnen för att förvränga."
+
+#.  Button: rotate image 90 degrees. Verb phrase with symbol
+#, java-printf-format
+msgctxt "rotate_90"
+msgid "Rotate 90°"
+msgstr "Rotera 90°"
+
+#.  Tool name: rotate / straighten. Verb
+#, java-printf-format
+msgctxt "rotate"
+msgid "Rotate"
+msgstr "Rotera"
+
+#.  Hint for selection combine mode: how to add points. %1$s = current mode
+#. e.g. New. Keep colon
+#, java-printf-format, xml-text
+msgctxt "tap_to_add_points"
+msgid "Tap to add points (<xliff:g id=\"mode\" example=\"New\">%1$s</xliff:g>)"
+msgstr ""
+"Tryck för att lägga till punkter (<xliff:g id=\"mode\" "
+"example=\"New\">%1$s</xliff:g>)"
+
+#.  Slider/tool: edge softness/feather of selection. Noun phrase
+#, java-printf-format
+msgctxt "edge_softness"
+msgid "Edge softness"
+msgstr "Kantmjukhet"
+
+#.  Combine mode for selections: boolean combination. Verb
+#, java-printf-format
+msgctxt "combine"
+msgid "Combine"
+msgstr "Kombinera"
+
+#.  Tool: fill flood with color. Noun/verb ambiguous, used as tool name noun
+#, java-printf-format
+msgctxt "tolerance"
+msgid "Tolerance"
+msgstr "Tolerans"
+
+#.  Dialog title: edit text content for text layer
+#, java-printf-format
+msgctxt "edit_text"
+msgid "Edit Text"
+msgstr "Redigera text"
+
+#.  Info text: instruction to tap image to pick color with eyedropper
+#, java-printf-format
+msgctxt "tap_the_image_to_pick_a_color"
+msgid "Tap the image to pick a color."
+msgstr "Tryck på bilden för att välja en färg."
+
+#.  Tool: font selection for text layer. Noun
+#, java-printf-format
+msgctxt "font"
+msgid "Font"
+msgstr "Teckensnitt"
+
+#.  Slider label: brush size for healing. Noun phrase
+#, java-printf-format
+msgctxt "brush_size"
+msgid "Brush Size"
+msgstr "Penselstorlek"
+
+#.  Switch label: set clone source point for healing/clone tool
+#, java-printf-format
+msgctxt "set_source_point"
+msgid "Set Source Point"
+msgstr "Ange källpunkt"
+
+#.  Toggle: show mask overlay. Verb phrase
+#, java-printf-format
+msgctxt "show_mask"
+msgid "Show Mask"
+msgstr "Visa mask"
+
+#.  Button: add new mask to active layer. Verb phrase
+#, java-printf-format
+msgctxt "add_mask"
+msgid "Add Mask"
+msgstr "Lägg till mask"
+
+#.  Explanatory text after inverting colors: how to undo via layer visibility
+#. toggle
+#, java-printf-format
+msgctxt "colors_inverted_toggle_the_layer_s_visib"
+msgid ""
+"Colors inverted. Toggle the layer's visibility or delete the Invert layer to"
+" undo."
+msgstr ""
+"Färgerna är inverterade. Växla lagrets synlighet eller ta bort lagret "
+"Invertera för att ångra."
+
+#.  Info hint for draw tools row: explains freehand, highlight, erase, tap for
+#. text, tap again to change color/size
+#, java-printf-format
+msgctxt "draw_freehand_highlight_erase_or_tap_to"
+msgid ""
+"Draw freehand, highlight, erase, or tap to add text. Tap a tool again to "
+"change its color and size."
+msgstr ""
+"Rita på fri hand, markera, sudda eller tryck för att lägga till text. Tryck "
+"på verktyget igen för att ändra färg och storlek."
+
+#.  Info hint for crop aspect ratio lock: explains Free vs fixed width:height
+#. shape
+#, java-printf-format
+msgctxt "locks_the_crop_to_a_fixed_width_height_s"
+msgid ""
+"Locks the crop to a fixed width:height shape. \"Free\" lets you crop to any "
+"size."
+msgstr ""
+"Låser beskärningen till ett fast förhållande mellan bredd och höjd. ”Fri” "
+"låter dig beskära i valfri storlek."
+
+#.  Info hint for crop rotate handle: drag round handle above crop box to tilt
+#. and straighten
+#, java-printf-format
+msgctxt "drag_the_round_handle_above_the_crop_box"
+msgid ""
+"Drag the round handle above the crop box to tilt and straighten the photo."
+msgstr ""
+"Dra i det runda handtaget ovanför beskärningsrutan för att luta och räta upp"
+" bilden."
+
+#.  Info hint for free transform: drag corner handles to
+#. scale/rotate/skew/distort active layer, Apply bakes it in
+#, java-printf-format
+msgctxt "drag_the_four_corner_handles_to_scale_ro"
+msgid ""
+"Drag the four corner handles to scale, rotate, skew, or distort the active "
+"layer. Apply bakes it in."
+msgstr ""
+"Dra i de fyra hörnhandtagen för att skala, rotera, skeva eller förvränga det"
+" aktiva lagret. Verkställ bakar in ändringen."
+
+#.  Info hint for selection combine mode: New replaces selection,
+#. Add/Subtract/Intersect combine next shape
+#, java-printf-format
+msgctxt "new_replaces_the_selection_add_subtract"
+msgid ""
+"New replaces the selection. Add/Subtract/Intersect combine the next shape "
+"with the current selection."
+msgstr ""
+"Ny ersätter markeringen. Lägg till, ta bort eller överlappa kombinerar nästa"
+" figur med den aktuella markeringen."
+
+#.  Info hint for magic wand tolerance: how close in color pixel must be to
+#. tapped spot, higher selects more
+#, java-printf-format
+msgctxt "how_close_in_color_a_pixel_must_be_to_th"
+msgid ""
+"How close in color a pixel must be to the tapped spot to be selected. Higher"
+" = selects more."
+msgstr ""
+"Anger hur nära en bildpunkt måste ligga den valda punkten i färg för att "
+"markeras. Högre värde markerar mer."
+
+#.  Info hint for edge softness/feather: blurs selection edge so edits fade
+#. gradually, 0 = hard crisp edge
+#, java-printf-format
+msgctxt "blurs_the_selection_s_edge_so_edits_fade"
+msgid ""
+"Blurs the selection's edge so edits fade in gradually. 0 = a hard, crisp "
+"edge."
+msgstr ""
+"Gör markeringens kant oskarp så att redigeringar tonar in gradvis. 0 ger en "
+"hård, skarp kant."
+
+#.  Info hint for healing tool: fills selected area from surrounding pixels to
+#. remove object, works best on simple backgrounds
+#, java-printf-format
+msgctxt "fills_the_selected_area_from_surrounding"
+msgid ""
+"Fills the selected area from surrounding pixels to remove an object. Works "
+"best on simple backgrounds."
+msgstr ""
+"Fyller det markerade området med omgivande bildpunkter för att ta bort ett "
+"objekt. Fungerar bäst på enkla bakgrunder."
+
+#.  Slider: strength/intensity of effect. Noun
+#, java-printf-format
+msgctxt "strength"
+msgid "Strength"
+msgstr "Styrka"
+
+#.  Slider: size generic. Noun
+#, java-printf-format
+msgctxt "size"
+msgid "Size"
+msgstr "Storlek"
+
+#.  Tool parameter: brush type. Noun
+#, java-printf-format
+msgctxt "brush"
+msgid "Brush"
+msgstr "Pensel"
+
+#.  LevelsPanel: black point in. Noun phrase
+#, java-printf-format
+msgctxt "in_black"
+msgid "In Black"
+msgstr "Ingångssvart"
+
+#.  LevelsPanel: white point in. Noun phrase
+#, java-printf-format
+msgctxt "in_white"
+msgid "In White"
+msgstr "Ingångsvitt"
+
+#.  LevelsPanel: gamma midtone. Noun
+#, java-printf-format
+msgctxt "gamma"
+msgid "Gamma"
+msgstr "Gamma"
+
+#.  LevelsPanel: black point out. Noun phrase
+#, java-printf-format
+msgctxt "out_black"
+msgid "Out Black"
+msgstr "Utgångssvart"
+
+#.  LevelsPanel: white point out. Noun phrase
+#, java-printf-format
+msgctxt "out_white"
+msgid "Out White"
+msgstr "Utgångsvitt"
+
+#.  ColorBalancePanel: red-cyan shift. Color pair
+#, java-printf-format
+msgctxt "red_cyan"
+msgid "Red-Cyan"
+msgstr "Röd-cyan"
+
+#.  ColorBalancePanel: green-magenta shift. Color pair, mag short for magenta
+#, java-printf-format
+msgctxt "green_mag"
+msgid "Green-Mag"
+msgstr "Grön-magenta"
+
+#.  ColorBalancePanel: blue-yellow shift. Color pair
+#, java-printf-format
+msgctxt "blue_yellow"
+msgid "Blue-Yellow"
+msgstr "Blå-gul"
+
+#.  BlackWhitePanel: reds preset. Noun plural color
+#, java-printf-format
+msgctxt "reds"
+msgid "Reds"
+msgstr "Röda"
+
+#.  BlackWhitePanel: yellows preset. Noun plural
+#, java-printf-format
+msgctxt "yellows"
+msgid "Yellows"
+msgstr "Gula"
+
+#.  BlackWhitePanel: greens preset. Noun plural
+#, java-printf-format
+msgctxt "greens"
+msgid "Greens"
+msgstr "Gröna"
+
+#.  BlackWhitePanel: cyans preset. Noun plural
+#, java-printf-format
+msgctxt "cyans"
+msgid "Cyans"
+msgstr "Cyana"
+
+#.  BlackWhitePanel: blues preset. Noun plural
+#, java-printf-format
+msgctxt "blues"
+msgid "Blues"
+msgstr "Blå"
+
+#.  BlackWhitePanel: magentas preset. Noun plural
+#, java-printf-format
+msgctxt "magentas"
+msgid "Magentas"
+msgstr "Magenta"
+
+#.  Filter/blur sliders: amount of effect. Noun
+#, java-printf-format
+msgctxt "amount"
+msgid "Amount"
+msgstr "Mängd"
+
+#.  Blur slider: radius of blur. Noun
+#, java-printf-format
+msgctxt "radius"
+msgid "Radius"
+msgstr "Radie"
+
+#.  Motion blur slider: length of blur. Noun
+#, java-printf-format
+msgctxt "length"
+msgid "Length"
+msgstr "Längd"
+
+#.  Angular control: angle of effect in degrees. Noun
+#, java-printf-format
+msgctxt "angle"
+msgid "Angle"
+msgstr "Vinkel"
+
+#.  Vibrance adjustment: boosts muted colors protecting skin. Noun
+#, java-printf-format
+msgctxt "vibrance"
+msgid "Vibrance"
+msgstr "Lyster"
+
+#.  Tool name: levels histogram adjustment. Noun plural
+#, java-printf-format
+msgctxt "levels"
+msgid "Levels"
+msgstr "Nivåer"
+
+#.  Curve/level single point label. Noun
+#, java-printf-format
+msgctxt "level"
+msgid "Level"
+msgstr "Nivå"
+
+#.  Filter grain density slider. Noun
+#, java-printf-format
+msgctxt "density"
+msgid "Density"
+msgstr "Täthet"
+
+#.  Color label: cyan. Noun/adjective color
+#, java-printf-format
+msgctxt "cyan"
+msgid "Cyan"
+msgstr "Cyan"
+
+#.  Color label: magenta. Noun color
+#, java-printf-format
+msgctxt "magenta"
+msgid "Magenta"
+msgstr "Magenta"
+
+#.  Color label: yellow. Noun color
+#, java-printf-format
+msgctxt "yellow"
+msgid "Yellow"
+msgstr "Gul"
+
+#.  HSL range: reds. Noun color
+#, java-printf-format
+msgctxt "color_red"
+msgid "Red"
+msgstr "Röd"
+
+#.  HSL range: orange. Noun color
+#, java-printf-format
+msgctxt "color_orange"
+msgid "Orange"
+msgstr "Orange"
+
+#.  HSL range: green. Noun color
+#, java-printf-format
+msgctxt "color_green"
+msgid "Green"
+msgstr "Grön"
+
+#.  HSL range: blue. Noun color
+#, java-printf-format
+msgctxt "color_blue"
+msgid "Blue"
+msgstr "Blå"
+
+#.  HSL range: purple. Noun color
+#, java-printf-format
+msgctxt "color_purple"
+msgid "Purple"
+msgstr "Lila"
+
+#.  Blend mode: normal (default). Adjective
+#, java-printf-format
+msgctxt "blend_normal"
+msgid "Normal"
+msgstr "Normal"
+
+#.  Blend mode: multiply darkens. Verb
+#, java-printf-format
+msgctxt "blend_multiply"
+msgid "Multiply"
+msgstr "Multiplicera"
+
+#.  Blend mode: screen lightens. Noun/verb
+#, java-printf-format
+msgctxt "blend_screen"
+msgid "Screen"
+msgstr "Raster"
+
+#.  Blend mode: overlay contrast. Noun/verb
+#, java-printf-format
+msgctxt "blend_overlay"
+msgid "Overlay"
+msgstr "Överlagring"
+
+#.  Blend mode: darken picks darker. Verb
+#, java-printf-format
+msgctxt "blend_darken"
+msgid "Darken"
+msgstr "Mörkare"
+
+#.  Blend mode: lighten picks lighter. Verb
+#, java-printf-format
+msgctxt "blend_lighten"
+msgid "Lighten"
+msgstr "Ljusare"
+
+#.  Blend mode: color dodge brightens. Noun phrase
+#, java-printf-format
+msgctxt "blend_color_dodge"
+msgid "Color Dodge"
+msgstr "Färgskugga"
+
+#.  Blend mode: color burn darkens. Noun phrase
+#, java-printf-format
+msgctxt "blend_color_burn"
+msgid "Color Burn"
+msgstr "Färgbränning"
+
+#.  Blend mode: hard light strong contrast. Noun phrase
+#, java-printf-format
+msgctxt "blend_hard_light"
+msgid "Hard Light"
+msgstr "Hårt ljus"
+
+#.  Blend mode: soft light gentle contrast. Noun phrase
+#, java-printf-format
+msgctxt "blend_soft_light"
+msgid "Soft Light"
+msgstr "Mjukt ljus"
+
+#.  Blend mode: difference inverts. Noun
+#, java-printf-format
+msgctxt "blend_difference"
+msgid "Difference"
+msgstr "Differens"
+
+#.  Blend mode: exclusion similar to difference. Noun
+#, java-printf-format
+msgctxt "blend_exclusion"
+msgid "Exclusion"
+msgstr "Uteslutning"
+
+#.  Blend mode: hue preserves hue of top layer. Noun
+#, java-printf-format
+msgctxt "blend_hue"
+msgid "Hue"
+msgstr "Nyans"
+
+#.  Blend mode: luminosity preserves brightness. Noun
+#, java-printf-format
+msgctxt "blend_luminosity"
+msgid "Luminosity"
+msgstr "Ljusstyrka"
+
+#.  Category: Adjust light &amp; color. Verb
+#, java-printf-format
+msgctxt "tool_cat_adjust"
+msgid "Adjust"
+msgstr "Justera"
+
+#.  Category: Retouch fix and clean up. Verb/noun
+#, java-printf-format
+msgctxt "tool_cat_retouch"
+msgid "Retouch"
+msgstr "Retuschera"
+
+#.  Category: Select area to limit edits. Verb
+#, java-printf-format
+msgctxt "tool_cat_select"
+msgid "Select"
+msgstr "Markera"
+
+#.  Category: Crop, straighten, rotate. Verb/noun but labeled Crop in UI
+#. currently
+#, java-printf-format
+msgctxt "tool_cat_transform"
+msgid "Crop"
+msgstr "Beskär"
+
+#.  Category: Draw, highlight, text. Verb
+#, java-printf-format
+msgctxt "tool_cat_draw"
+msgid "Draw"
+msgstr "Rita"
+
+#.  Category: Paint fill, gradients, shapes. Verb/noun
+#, java-printf-format
+msgctxt "tool_cat_paint"
+msgid "Paint"
+msgstr "Måla"
+
+#.  Category: Manage layers and masks. Noun plural
+#, java-printf-format
+msgctxt "tool_cat_layers"
+msgid "Layers"
+msgstr "Lager"
+
+#.  Category description: tune light and color, shown in ⓘ info popup
+#, java-printf-format
+msgctxt "tool_cat_desc_adjust"
+msgid "Tune light and color."
+msgstr "Justera ljus och färg."
+
+#.  Category description: effects, blur, and presets
+#, java-printf-format
+msgctxt "tool_cat_desc_filters"
+msgid "Effects, blur, and presets."
+msgstr "Effekter, oskärpa och förinställningar."
+
+#.  Category description: fix and clean up areas
+#, java-printf-format
+msgctxt "tool_cat_desc_retouch"
+msgid "Fix and clean up areas."
+msgstr "Rätta till och rensa områden."
+
+#.  Category description: pick an area to limit edits
+#, java-printf-format
+msgctxt "tool_cat_desc_select"
+msgid "Pick an area to limit edits."
+msgstr "Välj ett område för att begränsa redigeringar."
+
+#.  Category description: crop, straighten, and rotate
+#, java-printf-format
+msgctxt "tool_cat_desc_transform"
+msgid "Crop, straighten, and rotate."
+msgstr "Beskär, räta upp och rotera."
+
+#.  Category description: draw, highlight, and add text
+#, java-printf-format
+msgctxt "tool_cat_desc_draw"
+msgid "Draw, highlight, and add text."
+msgstr "Rita, markera och lägg till text."
+
+#.  Category description: fill, gradients, and shapes
+#, java-printf-format
+msgctxt "tool_cat_desc_paint"
+msgid "Fill, gradients, and shapes."
+msgstr "Fyllning, toningar och figurer."
+
+#.  Category description: manage layers and masks
+#, java-printf-format
+msgctxt "tool_cat_desc_layers"
+msgid "Manage layers and masks."
+msgstr "Hantera lager och masker."
+
+#.  Selection tool: Rectangle shape. Noun
+#, java-printf-format
+msgctxt "sel_tool_rectangle"
+msgid "Rectangle"
+msgstr "Rektangel"
+
+#.  Selection tool: Ellipse oval shape. Noun
+#, java-printf-format
+msgctxt "sel_tool_ellipse"
+msgid "Ellipse"
+msgstr "Ellips"
+
+#.  Selection tool: freehand lasso. Noun
+#, java-printf-format
+msgctxt "sel_tool_lasso"
+msgid "Lasso"
+msgstr "Lasso"
+
+#.  Selection tool: polygon multi-click. Noun
+#, java-printf-format
+msgctxt "sel_tool_polygon"
+msgid "Polygon"
+msgstr "Polygon"
+
+#.  Selection tool: magic wand color-based. Noun phrase
+#, java-printf-format
+msgctxt "sel_tool_wand"
+msgid "Magic Wand"
+msgstr "Trollstav"
+
+#.  Adjustment: brightness slider. Noun
+#, java-printf-format
+msgctxt "adj_brightness"
+msgid "Brightness"
+msgstr "Ljusstyrka"
+
+#.  Adjustment: contrast slider. Noun
+#, java-printf-format
+msgctxt "adj_contrast"
+msgid "Contrast"
+msgstr "Kontrast"
+
+#.  Adjustment: saturation color intensity. Noun
+#, java-printf-format
+msgctxt "adj_saturation"
+msgid "Saturation"
+msgstr "Mättnad"
+
+#.  Adjustment: warmth color temperature. Noun
+#, java-printf-format
+msgctxt "adj_warmth"
+msgid "Warmth"
+msgstr "Värme"
+
+#.  Adjustment: exposure light. Noun
+#, java-printf-format
+msgctxt "adj_exposure"
+msgid "Exposure"
+msgstr "Exponering"
+
+#.  Adjustment: highlights bright areas. Noun plural
+#, java-printf-format
+msgctxt "adj_highlights"
+msgid "Highlights"
+msgstr "Högdagrar"
+
+#.  Adjustment: shadows dark areas. Noun plural
+#, java-printf-format
+msgctxt "adj_shadows"
+msgid "Shadows"
+msgstr "Skuggor"
+
+#.  Adjustment: sharpness detail. Noun
+#, java-printf-format
+msgctxt "adj_sharpness"
+msgid "Sharpness"
+msgstr "Skärpa"
+
+#.  Adjustment: vignette dark corners. Noun
+#, java-printf-format
+msgctxt "adj_vignette"
+msgid "Vignette"
+msgstr "Vinjettering"
+
+#.  Adjustment: grain film grain. Noun
+#, java-printf-format
+msgctxt "adj_grain"
+msgid "Grain"
+msgstr "Kornighet"
+
+#.  Adjustment: fade washed-out look. Noun/verb
+#, java-printf-format
+msgctxt "adj_fade"
+msgid "Fade"
+msgstr "Tona ut"
+
+#.  Adjustment: tint hue shift. Noun
+#, java-printf-format
+msgctxt "adj_tint"
+msgid "Tint"
+msgstr "Färgton"
+
+#.  Tool: light adjustments summary (brightness/contrast etc). Noun
+#, java-printf-format
+msgctxt "tool_light"
+msgid "Light"
+msgstr "Ljus"
+
+#.  Tool: preset looks one-tap filter. Noun plural
+#, java-printf-format
+msgctxt "tool_presets"
+msgid "Presets"
+msgstr "Förinställningar"
+
+#.  Tool: curves brightness/contrast with curve graph. Noun plural
+#, java-printf-format
+msgctxt "tool_curves"
+msgid "Curves"
+msgstr "Kurvor"
+
+#.  Tool: HSL hue saturation lightness per color. Acronym
+#, java-printf-format
+msgctxt "tool_hsl"
+msgid "HSL"
+msgstr "HSL"
+
+#.  Tool: color balance shift in shadows/midtones/highlights. Noun
+#, java-printf-format
+msgctxt "tool_balance"
+msgid "Balance"
+msgstr "Balans"
+
+#.  Tool: channel mixer blend R/G/B channels. Noun
+#, java-printf-format
+msgctxt "tool_mixer"
+msgid "Mixer"
+msgstr "Mixer"
+
+#.  Tool: black &amp; white conversion. Abbreviation B&amp;W. Keep &amp;
+#, java-printf-format
+msgctxt "tool_bw"
+msgid "B&W"
+msgstr "S/V"
+
+#.  Tool: gradient map dark-to-light onto color gradient. Noun
+#, java-printf-format
+msgctxt "tool_gradient"
+msgid "Gradient"
+msgstr "Toning"
+
+#.  Tool: photo filter warming/cooling wash. Noun phrase
+#, java-printf-format
+msgctxt "tool_photo_filter"
+msgid "Photo Filter"
+msgstr "Fotofilter"
+
+#.  Tool: selective color tune CMYK within one color range. Noun phrase
+#, java-printf-format
+msgctxt "tool_selective_color"
+msgid "Selective Color"
+msgstr "Selektiv färg"
+
+#.  Tool: posterize reduce tonal levels. Verb
+#, java-printf-format
+msgctxt "tool_posterize"
+msgid "Posterize"
+msgstr "Posterisera"
+
+#.  Tool: threshold pure black and white at cutoff. Noun
+#, java-printf-format
+msgctxt "tool_threshold"
+msgid "Threshold"
+msgstr "Tröskel"
+
+#.  Tool: invert colors photo negative. Verb
+#, java-printf-format
+msgctxt "tool_invert"
+msgid "Invert"
+msgstr "Invertera"
+
+#.  Tool: lens blur background depth-of-field. Noun phrase
+#, java-printf-format
+msgctxt "tool_lens_blur"
+msgid "Lens Blur"
+msgstr "Linsoskärpa"
+
+#.  Tool: selective adjustment paint onto specific spots. Adjective
+#, java-printf-format
+msgctxt "tool_selective"
+msgid "Selective"
+msgstr "Selektiv"
+
+#.  Tool: filters category generic label. Noun plural
+#, java-printf-format
+msgctxt "tool_filters"
+msgid "Filters"
+msgstr "Filter"
+
+#.  Tool: liquify push and warp pixels. Verb, Photoshop-style name
+#, java-printf-format
+msgctxt "tool_liquify"
+msgid "Liquify"
+msgstr "Förvräng"
+
+#.  Tool: heal remove blemishes by copying nearby. Verb
+#, java-printf-format
+msgctxt "tool_heal"
+msgid "Heal"
+msgstr "Laga"
+
+#.  Tool: red-eye removal tap each eye. Noun phrase
+#, java-printf-format
+msgctxt "tool_red_eye"
+msgid "Red-Eye"
+msgstr "Röda ögon"
+
+#.  Tool: dodge (lighten) and burn (darken) brush. Noun phrase
+#, java-printf-format
+msgctxt "tool_dodge_burn"
+msgid "Dodge/Burn"
+msgstr "Skugga/bränn"
+
+#.  Tool: smudge drag to smear pixels like wet paint. Verb
+#, java-printf-format
+msgctxt "tool_smudge"
+msgid "Smudge"
+msgstr "Smeta ut"
+
+#.  Tool: marquee rectangular/elliptical selection (old name for rectangle).
+#. Noun
+#, java-printf-format
+msgctxt "tool_marquee"
+msgid "Marquee"
+msgstr "Markeringsram"
+
+#.  Tool: crop and rotate together. Noun phrase
+#, java-printf-format
+msgctxt "tool_crop_rotate"
+msgid "Crop & Rotate"
+msgstr "Beskär och rotera"
+
+#.  Tool: free transform scale/rotate/skew/distort layer. Noun
+#, java-printf-format
+msgctxt "tool_transform"
+msgid "Transform"
+msgstr "Omforma"
+
+#.  Tool: mask brush paint on layer mask hide/reveal. Noun phrase
+#, java-printf-format
+msgctxt "tool_mask_brush"
+msgid "Mask Brush"
+msgstr "Maskpensel"
+
+#.  Tool: flood fill area with color. Noun/verb
+#, java-printf-format
+msgctxt "tool_fill"
+msgid "Fill"
+msgstr "Fyll"
+
+#.  Tool: line shape draw. Noun
+#, java-printf-format
+msgctxt "tool_line"
+msgid "Line"
+msgstr "Linje"
+
+#.  Tool: eyedropper pick color from image. Noun
+#, java-printf-format
+msgctxt "tool_eyedropper"
+msgid "Eyedropper"
+msgstr "Pipett"
+
+#.  Wallpaper setting screen
+#.  Title for wallpaper crop/preview screen. Verb phrase
+#, java-printf-format
+msgctxt "set_as_wallpaper"
+msgid "Set as wallpaper"
+msgstr "Ange som bakgrund"
+
+#.  Segment: home screen wallpaper target. Noun
+#, java-printf-format
+msgctxt "wallpaper_home"
+msgid "Home"
+msgstr "Hemskärm"
+
+#.  Segment: lock screen wallpaper target. Noun phrase
+#, java-printf-format
+msgctxt "wallpaper_lock"
+msgid "Lock"
+msgstr "Låsskärm"
+
+#.  Segment: both home and lock screens. Noun phrase
+#, java-printf-format
+msgctxt "wallpaper_both"
+msgid "Both"
+msgstr "Båda"
+
+#.  Toggle label: scrollable (parallax) wallpaper mode. Adjective
+#, java-printf-format
+msgctxt "wallpaper_scrollable"
+msgid "Scrollable"
+msgstr "Rullbar"
+
+#.  Description for scrollable wallpaper: wider image that moves with home
+#. screens. Sentence
+#, java-printf-format
+msgctxt "wallpaper_scrollable_desc"
+msgid ""
+"Scrollable wallpapers are wider and move when you swipe between home screens"
+msgstr ""
+"Rullbara bakgrunder är bredare och rör sig när du sveper mellan hemskärmar."
+
+#.  Button: confirm and apply wallpaper. Verb phrase
+#, java-printf-format
+msgctxt "set_wallpaper"
+msgid "Set wallpaper"
+msgstr "Ange bakgrund"
+
+#.  Loading text while wallpaper is being applied. Verb phrase with gerund
+#, java-printf-format
+msgctxt "setting_wallpaper"
+msgid "Setting wallpaper…"
+msgstr "Anger bakgrund…"
+
+#.  Success snackbar after wallpaper applied. Exclamation
+#, java-printf-format
+msgctxt "wallpaper_set_success"
+msgid "Wallpaper applied!"
+msgstr "Bakgrunden har angetts!"
+
+#.  Failure snackbar when wallpaper setting failed. Sentence with error detail
+#. placeholder %1$s
+#, java-printf-format, xml-text
+msgctxt "wallpaper_set_failed"
+msgid ""
+"Failed to set wallpaper: <xliff:g id=\"error\" example=\"IO "
+"error\">%1$s</xliff:g>"
+msgstr ""
+"Kunde inte ange bakgrund: <xliff:g id=\"error\" example=\"IO "
+"error\">%1$s</xliff:g>"
+
+#.  Error when full-res image cannot be decoded for wallpaper. Sentence
+#, java-printf-format
+msgctxt "wallpaper_load_failed"
+msgid "Failed to load image"
+msgstr "Kunde inte läsa in bilden"
+
+#.  Empty description when no mode active
+#, java-printf-format
+msgctxt "editor_desc_none"
+msgid "Empty description when no mode active"
+msgstr "Ingen beskrivning när inget läge är aktivt"
+
+#.  Desc: fine-tune light and color with sliders
+#, java-printf-format
+msgctxt "editor_desc_adjust"
+msgid "Fine-tune light and color with sliders."
+msgstr "Finjustera ljus och färg med reglage."
+
+#.  Desc: apply a one-tap preset look
+#, java-printf-format
+msgctxt "editor_desc_filters"
+msgid "Apply a one-tap preset look."
+msgstr "Använd en förinställd stil med ett tryck."
+
+#.  Desc: reshape brightness and contrast with a curve
+#, java-printf-format
+msgctxt "editor_desc_curves"
+msgid "Reshape brightness and contrast with a curve."
+msgstr "Forma om ljusstyrka och kontrast med en kurva."
+
+#.  Desc: adjust hue, saturation, and lightness per color
+#, java-printf-format
+msgctxt "editor_desc_hsl"
+msgid "Adjust hue, saturation, and lightness per color."
+msgstr "Justera nyans, mättnad och ljushet per färg."
+
+#.  Desc: set black point, white point, and midtones (Levels tool)
+#, java-printf-format
+msgctxt "editor_desc_levels"
+msgid "Set the black point, white point, and midtones."
+msgstr "Ange svartpunkt, vitpunkt och mellantoner."
+
+#.  Desc: shift colors in shadows, midtones, and highlights (Color Balance)
+#, java-printf-format
+msgctxt "editor_desc_color_balance"
+msgid "Shift colors in shadows, midtones, and highlights."
+msgstr "Förskjut färger i skuggor, mellantoner och högdagrar."
+
+#.  Desc: blend the red, green, and blue channels (Channel Mixer)
+#, java-printf-format
+msgctxt "editor_desc_channel_mixer"
+msgid "Blend the red, green, and blue channels."
+msgstr "Blanda de röda, gröna och blå kanalerna."
+
+#.  Desc: convert to black &amp; white and control how colors map (B&amp;W)
+#, java-printf-format
+msgctxt "editor_desc_black_white"
+msgid "Convert to black & white and control how colors map."
+msgstr "Konvertera till svartvitt och styr hur färgerna mappas."
+
+#.  Desc: map dark-to-light tones onto a color gradient
+#, java-printf-format
+msgctxt "editor_desc_gradient_map"
+msgid "Map dark-to-light tones onto a color gradient."
+msgstr "Mappa mörka till ljusa toner på en färgtoning."
+
+#.  Desc: boost muted colors while protecting vivid and skin tones (Vibrance)
+#, java-printf-format
+msgctxt "editor_desc_vibrance"
+msgid "Boost muted colors while protecting already-vivid ones and skin tones."
+msgstr ""
+"Förstärk dämpade färger utan att påverka livfulla färger och hudtoner."
+
+#.  Desc: apply warming or cooling color wash (Photo Filter)
+#, java-printf-format
+msgctxt "editor_desc_photo_filter"
+msgid "Apply a warming or cooling color wash."
+msgstr "Använd en varm eller kall färgton."
+
+#.  Desc: fine-tune cyan/magenta/yellow within one color range (Selective
+#. Color)
+#, java-printf-format
+msgctxt "editor_desc_selective_color"
+msgid "Fine-tune cyan/magenta/yellow within one color range."
+msgstr "Finjustera cyan, magenta och gult inom ett färgområde."
+
+#.  Desc: reduce number of tonal levels for flat graphic look (Posterize)
+#, java-printf-format
+msgctxt "editor_desc_posterize"
+msgid "Reduce the number of tonal levels for a flat, graphic look."
+msgstr "Minska antalet tonnivåer för ett platt, grafiskt utseende."
+
+#.  Desc: convert to pure black and white at brightness cutoff (Threshold)
+#, java-printf-format
+msgctxt "editor_desc_threshold"
+msgid "Convert to pure black and white at a brightness cutoff."
+msgstr "Konvertera till rent svart och vitt vid en ljusstyrketröskel."
+
+#.  Desc: invert all colors photo negative (Invert)
+#, java-printf-format
+msgctxt "editor_desc_invert"
+msgid "Invert all colors (photo negative)."
+msgstr "Invertera alla färger (fotonegativ)."
+
+#.  Desc: blur background for depth-of-field look (Lens Blur)
+#, java-printf-format
+msgctxt "editor_desc_lens_blur"
+msgid "Blur the background for a depth-of-field look."
+msgstr "Gör bakgrunden oskarp för ett kort skärpedjup."
+
+#.  Desc: paint an adjustment onto specific spots (Selective)
+#, java-printf-format
+msgctxt "editor_desc_selective"
+msgid "Paint an adjustment onto specific spots."
+msgstr "Måla en justering på specifika områden."
+
+#.  Desc: apply baked-in photo filter to pixels (Filters FX)
+#, java-printf-format
+msgctxt "editor_desc_filter_fx"
+msgid "Apply a baked-in photo filter to the pixels."
+msgstr "Använd ett inbakat fotofilter på bildpunkterna."
+
+#.  Desc: push and warp pixels around (Liquify)
+#, java-printf-format
+msgctxt "editor_desc_liquify"
+msgid "Push and warp pixels around."
+msgstr "Flytta och förvräng bildpunkter."
+
+#.  Desc: remove blemishes by copying nearby pixels (Healing)
+#, java-printf-format
+msgctxt "editor_desc_healing"
+msgid "Remove blemishes by copying nearby pixels."
+msgstr "Ta bort skavanker genom att kopiera närliggande bildpunkter."
+
+#.  Desc: tap each eye to remove red-eye
+#, java-printf-format
+msgctxt "editor_desc_red_eye"
+msgid "Tap each eye to remove red-eye."
+msgstr "Tryck på varje öga för att ta bort röda ögon."
+
+#.  Desc: brush to lighten (dodge) or darken (burn)
+#, java-printf-format
+msgctxt "editor_desc_dodge_burn"
+msgid "Brush to lighten (dodge) or darken (burn)."
+msgstr "Använd penseln för att ljusa upp eller mörka ned."
+
+#.  Desc: drag to smear pixels like wet paint (Smudge)
+#, java-printf-format
+msgctxt "editor_desc_smudge"
+msgid "Drag to smear pixels like wet paint."
+msgstr "Dra för att smeta ut bildpunkter som våt färg."
+
+#.  Desc: draw an area, edits then apply only inside it (Selection)
+#, java-printf-format
+msgctxt "editor_desc_selection"
+msgid "Draw an area; edits then apply only inside it."
+msgstr "Rita ett område. Redigeringar används sedan bara i området."
+
+#.  Desc: crop, straighten, and rotate the photo
+#, java-printf-format
+msgctxt "editor_desc_crop"
+msgid "Crop, straighten, and rotate the photo."
+msgstr "Beskär, räta upp och rotera bilden."
+
+#.  Desc: scale, rotate, skew, or distort layer by dragging its corners; flip
+#. it (Free Transform)
+#, java-printf-format
+msgctxt "editor_desc_free_transform"
+msgid ""
+"Scale, rotate, skew, or distort the layer by dragging its corners; flip it."
+msgstr ""
+"Skala, rotera, skeva eller förvräng lagret genom att dra i hörnen. Vänd det."
+
+#.  Desc: stack, blend, and mask layers
+#, java-printf-format
+msgctxt "editor_desc_layers"
+msgid "Stack, blend, and mask layers."
+msgstr "Stapla, blanda och maskera lager."
+
+#.  Desc: brush on active layer mask to hide or reveal parts
+#, java-printf-format
+msgctxt "editor_desc_mask_paint"
+msgid "Brush on the active layer's mask: hide or reveal parts of it."
+msgstr ""
+"Måla på det aktiva lagrets mask för att dölja eller visa delar av det."
+
+#.  Desc: tap to flood-fill an area with chosen color
+#, java-printf-format
+msgctxt "editor_desc_fill"
+msgid "Tap to flood-fill an area with the chosen color."
+msgstr "Tryck för att fylla ett område med den valda färgen."
+
+#.  Desc: drag to draw a color-to-transparent gradient
+#, java-printf-format
+msgctxt "editor_desc_gradient_tool"
+msgid "Drag to draw a color-to-transparent gradient."
+msgstr "Dra för att rita en toning från färg till genomskinlighet."
+
+#.  Desc: drag to draw a filled rectangle (Shape tool)
+#, java-printf-format
+msgctxt "editor_desc_shape_rect"
+msgid "Drag to draw a filled rectangle."
+msgstr "Dra för att rita en fylld rektangel."
+
+#.  Desc: drag to draw a filled ellipse
+#, java-printf-format
+msgctxt "editor_desc_shape_ellipse"
+msgid "Drag to draw a filled ellipse."
+msgstr "Dra för att rita en fylld ellips."
+
+#.  Desc: drag to draw a line
+#, java-printf-format
+msgctxt "editor_desc_shape_line"
+msgid "Drag to draw a line."
+msgstr "Dra för att rita en linje."
+
+#, java-printf-format
+msgctxt "edit_with_label"
+msgid "Edit with My App"
+msgstr "Redigera med My App"
+
+#, java-printf-format
+msgctxt "live_wallpaper_description"
+msgid "Animated wallpaper from your photos"
+msgstr "Animerad bakgrund från dina bilder"
+
+#, java-printf-format
+msgctxt "live_wallpaper_unavailable"
+msgid "Live wallpapers are not supported on this device"
+msgstr "Levande bakgrunder stöds inte på den här enheten"
