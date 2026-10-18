@@ -1,0 +1,1921 @@
+diff --git a/apps/ymir-sdl3/CMakeLists.txt b/apps/ymir-sdl3/CMakeLists.txt
+index 06609a7..73c93c7 100644
+--- a/apps/ymir-sdl3/CMakeLists.txt
++++ b/apps/ymir-sdl3/CMakeLists.txt
+@@ -12,6 +12,8 @@ add_executable(ymir-sdl3
+     src/app/message.hpp
+     src/app/profile.cpp
+     src/app/profile.hpp
++    src/app/ui/i18n.cpp
++    src/app/ui/i18n.hpp
+     src/app/rewind_buffer.cpp
+     src/app/rewind_buffer.hpp
+     src/app/rom_manager.cpp
+diff --git a/apps/ymir-sdl3/src/app/app.cpp b/apps/ymir-sdl3/src/app/app.cpp
+index 38e290c..9aa0e8d 100644
+--- a/apps/ymir-sdl3/src/app/app.cpp
++++ b/apps/ymir-sdl3/src/app/app.cpp
+@@ -103,6 +103,7 @@
+ #include <app/input/input_utils.hpp>
+ 
+ #include <app/ui/fonts/IconsMaterialSymbols.h>
++#include <app/ui/i18n.hpp>
+ 
+ #include <app/ui/widgets/cartridge_widgets.hpp>
+ #include <app/ui/widgets/savestate_widgets.hpp>
+@@ -122,6 +123,8 @@
+ 
+ #include <imgui.h>
+ 
++#define TR(text) ui::i18n::tr(text)
++
+ #include <cmrc/cmrc.hpp>
+ 
+ #include <stb_image.h>
+@@ -2180,15 +2183,15 @@ void App::RunEmulator() {
+             ImGui::PushStyleVar(ImGuiStyleVar_WindowBorderSize, 0.0f);
+             if (ImGui::BeginMainMenuBar()) {
+                 ImGui::PopStyleVar();
+-                if (ImGui::BeginMenu("File")) {
++                if (ImGui::BeginMenu(TR("File"))) {
+                     // CD drive
+-                    if (ImGui::MenuItem("Load disc image",
++                    if (ImGui::MenuItem(TR("Load disc image"),
+                                         input::ToShortcut(inputContext, actions::cd_drive::LoadDisc).c_str())) {
+                         m_discService.OpenLoadDiscDialog();
+                     }
+-                    if (ImGui::BeginMenu("Recent disc images")) {
++                    if (ImGui::BeginMenu(TR("Recent disc images"))) {
+                         if (m_context.state.recentDiscs.empty()) {
+-                            ImGui::TextDisabled("(empty)");
++                            ImGui::TextDisabled(TR("(empty)"));
+                         } else {
+                             for (int i = 0; auto &path : m_context.state.recentDiscs) {
+                                 std::string fullPathStr = fmt::format("{}", path);
+@@ -2213,7 +2216,7 @@ void App::RunEmulator() {
+                                 ++i;
+                             }
+                             ImGui::Separator();
+-                            if (ImGui::MenuItem("Clear")) {
++                            if (ImGui::MenuItem(TR("Clear"))) {
+                                 m_context.state.recentDiscs.clear();
+                                 m_discService.SaveRecentDiscs();
+                             }
+@@ -2221,7 +2224,7 @@ void App::RunEmulator() {
+                         ImGui::EndMenu();
+                     }
+ #if Ymir_FF_HOST_CD_DRIVES
+-                    if (ImGui::BeginMenu("Load from drive")) {
++                    if (ImGui::BeginMenu(TR("Load from drive"))) {
+                         for (const media::host::HostDriveInfo &info : media::host::GetEnumeratedHostCDDrives()) {
+                             const std::string drivePath = info.GetDisplayPath();
+                             const char *stateStr;
+@@ -2238,18 +2241,18 @@ void App::RunEmulator() {
+                         }
+                         ImGui::Separator();
+                         ImGui::PushItemFlag(ImGuiItemFlags_AutoClosePopups, false);
+-                        if (ImGui::MenuItem("Reenumerate devices")) {
++                        if (ImGui::MenuItem(TR("Reenumerate devices"))) {
+                             media::host::EnumerateHostCDDrives();
+                         }
+                         ImGui::PopItemFlag();
+                         ImGui::EndMenu();
+                     }
+ #endif
+-                    if (ImGui::MenuItem("Open/close tray",
++                    if (ImGui::MenuItem(TR("Open/close tray"),
+                                         input::ToShortcut(inputContext, actions::cd_drive::OpenCloseTray).c_str())) {
+                         m_context.EnqueueEvent(events::emu::OpenCloseTray());
+                     }
+-                    if (ImGui::MenuItem("Eject disc",
++                    if (ImGui::MenuItem(TR("Eject disc"),
+                                         input::ToShortcut(inputContext, actions::cd_drive::EjectDisc).c_str())) {
+                         m_context.EnqueueEvent(events::emu::EjectDisc());
+                     }
+@@ -2295,19 +2298,19 @@ void App::RunEmulator() {
+                     };
+ 
+                     auto drawCommonSaveStatesSection = [&] {
+-                        if (ImGui::MenuItem("Clear all")) {
++                        if (ImGui::MenuItem(TR("Clear all"))) {
+                             m_windowManagerService.OpenGenericModal(
+                                 "Clear all save states",
+                                 [&] {
+                                     ImGui::TextUnformatted(
+                                         "Are you sure you wish to clear all save states for this game?");
+-                                    if (ImGui::Button("Yes", ImVec2(80 * m_imguiData.displayScale,
++                                    if (ImGui::Button(TR("Yes"), ImVec2(80 * m_imguiData.displayScale,
+                                                                     0 * m_imguiData.displayScale))) {
+                                         m_saveStateService.ClearSaveStates();
+                                         m_windowManagerService.CloseGenericModal();
+                                     }
+                                     ImGui::SameLine();
+-                                    if (ImGui::Button("No", ImVec2(80 * m_imguiData.displayScale,
++                                    if (ImGui::Button(TR("No"), ImVec2(80 * m_imguiData.displayScale,
+                                                                    0 * m_imguiData.displayScale))) {
+                                         m_windowManagerService.CloseGenericModal();
+                                     }
+@@ -2316,13 +2319,13 @@ void App::RunEmulator() {
+                         }
+                     };
+ 
+-                    if (ImGui::BeginMenu("Load state")) {
++                    if (ImGui::BeginMenu(TR("Load state"))) {
+                         drawSaveStatesList(false);
+                         ImGui::Separator();
+                         drawCommonSaveStatesSection();
+                         ImGui::EndMenu();
+                     }
+-                    if (ImGui::BeginMenu("Save state")) {
++                    if (ImGui::BeginMenu(TR("Save state"))) {
+                         drawSaveStatesList(true);
+                         ImGui::Separator();
+                         drawCommonSaveStatesSection();
+@@ -2331,58 +2334,58 @@ void App::RunEmulator() {
+                     {
+                         auto &saves = m_context.serviceLocator.GetRequired<services::SaveStateService>();
+                         if (ImGui::MenuItem(
+-                                "Undo save state",
++                                TR("Undo save state"),
+                                 input::ToShortcut(inputContext, actions::save_states::UndoSaveState).c_str(), false,
+                                 saves.GetCurrentSlotBackupStatesCount() > 0)) {
+                             m_context.EnqueueEvent(events::emu::UndoSaveState());
+                         }
+                         if (ImGui::MenuItem(
+-                                "Undo load state",
++                                TR("Undo load state"),
+                                 input::ToShortcut(inputContext, actions::save_states::UndoLoadState).c_str(), false,
+                                 saves.CanUndoLoadState())) {
+                             m_context.EnqueueEvent(events::emu::UndoLoadState());
+                         }
+                     }
+-                    if (ImGui::MenuItem("Open save states directory")) {
++                    if (ImGui::MenuItem(TR("Open save states directory"))) {
+                         auto path = m_context.profile.GetPath(ProfilePath::SaveStates) /
+                                     ToString(m_context.saturn.instance->GetDiscHash());
+ 
+                         SDL_OpenURL(fmt::format("file:///{}", path).c_str());
+                     }
+-                    if (ImGui::MenuItem("Reload save states from disk")) {
++                    if (ImGui::MenuItem(TR("Reload save states from disk"))) {
+                         m_saveStateService.LoadSaveStates();
+                     }
+ 
+                     ImGui::Separator();
+ 
+-                    if (ImGui::MenuItem("Take screenshot",
++                    if (ImGui::MenuItem(TR("Take screenshot"),
+                                         input::ToShortcut(inputContext, actions::general::TakeScreenshot).c_str())) {
+                         m_context.EnqueueEvent(events::gui::TakeScreenshot());
+                     }
+-                    if (ImGui::MenuItem("Open screenshots directory")) {
++                    if (ImGui::MenuItem(TR("Open screenshots directory"))) {
+                         SDL_OpenURL(
+                             fmt::format("file:///{}", m_context.profile.GetPath(ProfilePath::Screenshots)).c_str());
+                     }
+ 
+                     ImGui::Separator();
+ 
+-                    if (ImGui::MenuItem("Open profile directory")) {
++                    if (ImGui::MenuItem(TR("Open profile directory"))) {
+                         SDL_OpenURL(fmt::format("file:///{}", m_context.profile.GetPath(ProfilePath::Root)).c_str());
+                     }
+ 
+                     ImGui::Separator();
+ 
+-                    if (ImGui::MenuItem("Exit", "Alt+F4")) {
++                    if (ImGui::MenuItem(TR("Exit"), "Alt+F4")) {
+                         SDL_Event quitEvent{.type = SDL_EVENT_QUIT};
+                         SDL_PushEvent(&quitEvent);
+                     }
+                     ImGui::EndMenu();
+                 }
+-                if (ImGui::BeginMenu("View")) {
++                if (ImGui::BeginMenu(TR("View"))) {
+                     auto &videoSettings = settings.video;
+                     ImGui::PushItemFlag(ImGuiItemFlags_AutoClosePopups, false);
+-                    ImGui::MenuItem("Force integer scaling", nullptr, &videoSettings.forceIntegerScaling);
+-                    ImGui::MenuItem("Force aspect ratio", nullptr, &videoSettings.forceAspectRatio);
++                    ImGui::MenuItem(TR("Force integer scaling"), nullptr, &videoSettings.forceIntegerScaling);
++                    ImGui::MenuItem(TR("Force aspect ratio"), nullptr, &videoSettings.forceAspectRatio);
+                     ImGui::PopItemFlag();
+                     if (ImGui::SmallButton("4:3")) {
+                         videoSettings.forcedAspect = {4, 3};
+@@ -2407,7 +2410,7 @@ void App::RunEmulator() {
+                     ui::widgets::settings::video::DisplayRotation(m_context, true);
+ 
+                     bool fullScreen = settings.video.fullScreen.Get();
+-                    if (ImGui::MenuItem("Full screen",
++                    if (ImGui::MenuItem(TR("Full screen"),
+                                         input::ToShortcut(inputContext, actions::general::ToggleFullScreen).c_str(),
+                                         &fullScreen)) {
+                         videoSettings.fullScreen = fullScreen;
+@@ -2416,20 +2419,20 @@ void App::RunEmulator() {
+ 
+                     ImGui::Separator();
+ 
+-                    if (ImGui::MenuItem("Auto-fit window to screen", nullptr, &videoSettings.autoResizeWindow)) {
++                    if (ImGui::MenuItem(TR("Auto-fit window to screen"), nullptr, &videoSettings.autoResizeWindow)) {
+                         if (videoSettings.autoResizeWindow) {
+                             fitWindowToScreenNow = true;
+                         }
+                     }
+-                    if (ImGui::MenuItem("Fit window to screen", nullptr, nullptr,
++                    if (ImGui::MenuItem(TR("Fit window to screen"), nullptr, nullptr,
+                                         !videoSettings.displayVideoOutputInWindow)) {
+                         fitWindowToScreenNow = true;
+                     }
+-                    ImGui::MenuItem("Remember window geometry", nullptr, &settings.gui.rememberWindowGeometry);
++                    ImGui::MenuItem(TR("Remember window geometry"), nullptr, &settings.gui.rememberWindowGeometry);
+                     if (fullScreen) {
+                         ImGui::BeginDisabled();
+                     }
+-                    ImGui::TextUnformatted("Set view scale to");
++                    ImGui::TextUnformatted(TR("Set view scale to"));
+                     ImGui::SameLine();
+                     if (ImGui::SmallButton("1x")) {
+                         forceScreenScale = true;
+@@ -2461,7 +2464,7 @@ void App::RunEmulator() {
+                     ImGui::Separator();
+ 
+                     if (ImGui::MenuItem(
+-                            "Windowed video output",
++                            TR("Windowed video output"),
+                             input::ToShortcut(inputContext, actions::general::ToggleWindowedVideoOutput).c_str(),
+                             &videoSettings.displayVideoOutputInWindow)) {
+                         fitWindowToScreenNow = true;
+@@ -2469,25 +2472,25 @@ void App::RunEmulator() {
+                     }
+                     ImGui::EndMenu();
+                 }
+-                if (ImGui::BeginMenu("System")) {
+-                    ImGui::MenuItem("System state", nullptr, &m_windowManagerService.SystemStateWindow().Open);
+-                    if (ImGui::MenuItem("Copy disc hash")) {
++                if (ImGui::BeginMenu(TR("System"))) {
++                    ImGui::MenuItem(TR("System state"), nullptr, &m_windowManagerService.SystemStateWindow().Open);
++                    if (ImGui::MenuItem(TR("Copy disc hash"))) {
+                         std::unique_lock lock{m_context.locks.disc};
+                         std::string hash = ToString(m_context.saturn.instance->GetDiscHash());
+                         SDL_SetClipboardText(hash.c_str());
+                     }
+-                    ImGui::MenuItem("Backup memory manager", nullptr,
++                    ImGui::MenuItem(TR("Backup memory manager"), nullptr,
+                                     &m_windowManagerService.BackupMemoryManagerWindow().Open);
+ 
+                     ImGui::Separator();
+ 
+                     // Resets
+                     {
+-                        if (ImGui::MenuItem("Soft reset",
++                        if (ImGui::MenuItem(TR("Soft reset"),
+                                             input::ToShortcut(inputContext, actions::sys::SoftReset).c_str())) {
+                             m_context.EnqueueEvent(events::emu::SoftReset());
+                         }
+-                        if (ImGui::MenuItem("Hard reset",
++                        if (ImGui::MenuItem(TR("Hard reset"),
+                                             input::ToShortcut(inputContext, actions::sys::HardReset).c_str())) {
+                             m_context.EnqueueEvent(events::emu::HardReset());
+                         }
+@@ -2502,16 +2505,16 @@ void App::RunEmulator() {
+                     // Video standard and region
+                     {
+                         ImGui::AlignTextToFramePadding();
+-                        ImGui::TextUnformatted("Video standard:");
++                        ImGui::TextUnformatted(TR("Video standard:"));
+                         ImGui::SameLine();
+                         ui::widgets::VideoStandardSelector(m_context);
+ 
+                         ImGui::AlignTextToFramePadding();
+-                        ImGui::TextUnformatted("Region");
++                        ImGui::TextUnformatted(TR("Region"));
+                         ImGui::SameLine();
+                         ImGui::TextDisabled("(?)");
+                         if (ImGui::BeginItemTooltip()) {
+-                            ImGui::TextUnformatted("Changing this option will cause a hard reset");
++                            ImGui::TextUnformatted(TR("Changing this option will cause a hard reset"));
+                             ImGui::EndTooltip();
+                         }
+                         ImGui::SameLine();
+@@ -2523,28 +2526,28 @@ void App::RunEmulator() {
+                     // Cartridge slot
+                     {
+                         ImGui::BeginDisabled();
+-                        ImGui::TextUnformatted("Cartridge port: ");
++                        ImGui::TextUnformatted(TR("Cartridge port: "));
+                         ImGui::SameLine(0, 0);
+                         ui::widgets::CartridgeInfo(m_context);
+                         ImGui::EndDisabled();
+ 
+-                        if (ImGui::MenuItem("Insert backup RAM...")) {
++                        if (ImGui::MenuItem(TR("Insert backup RAM..."))) {
+                             m_romService.OpenBackupMemoryCartFileDialog();
+                         }
+-                        if (ImGui::MenuItem("Insert 8 Mbit DRAM")) {
++                        if (ImGui::MenuItem(TR("Insert 8 Mbit DRAM"))) {
+                             m_context.EnqueueEvent(events::emu::Insert8MbitDRAMCartridge());
+                         }
+-                        if (ImGui::MenuItem("Insert 32 Mbit DRAM")) {
++                        if (ImGui::MenuItem(TR("Insert 32 Mbit DRAM"))) {
+                             m_context.EnqueueEvent(events::emu::Insert32MbitDRAMCartridge());
+                         }
+-                        if (ImGui::MenuItem("Insert 48 Mbit DRAM (dev)")) {
++                        if (ImGui::MenuItem(TR("Insert 48 Mbit DRAM (dev)"))) {
+                             m_context.EnqueueEvent(events::emu::Insert48MbitDRAMCartridge());
+                         }
+-                        if (ImGui::MenuItem("Insert 16 Mbit ROM...")) {
++                        if (ImGui::MenuItem(TR("Insert 16 Mbit ROM..."))) {
+                             m_romService.OpenROMCartFileDialog();
+                         }
+ 
+-                        if (ImGui::MenuItem("Remove cartridge")) {
++                        if (ImGui::MenuItem(TR("Remove cartridge"))) {
+                             m_context.EnqueueEvent(events::emu::RemoveCartridge());
+                         }
+                     }
+@@ -2558,34 +2561,34 @@ void App::RunEmulator() {
+ 
+                     ImGui::EndMenu();
+                 }
+-                if (ImGui::BeginMenu("Emulation")) {
++                if (ImGui::BeginMenu(TR("Emulation"))) {
+                     bool rewindEnabled = settings.general.enableRewindBuffer;
+ 
+-                    if (ImGui::MenuItem("Pause/resume",
++                    if (ImGui::MenuItem(TR("Pause/resume"),
+                                         input::ToShortcut(inputContext, actions::emu::PauseResume).c_str())) {
+                         m_context.EnqueueEvent(events::emu::SetPaused(!m_context.paused));
+                     }
+-                    if (ImGui::MenuItem("Forward frame step",
++                    if (ImGui::MenuItem(TR("Forward frame step"),
+                                         input::ToShortcut(inputContext, actions::emu::ForwardFrameStep).c_str())) {
+                         m_context.EnqueueEvent(events::emu::ForwardFrameStep());
+                     }
+-                    if (ImGui::MenuItem("Reverse frame step",
++                    if (ImGui::MenuItem(TR("Reverse frame step"),
+                                         input::ToShortcut(inputContext, actions::emu::ReverseFrameStep).c_str(),
+                                         nullptr, rewindEnabled)) {
+                         if (rewindEnabled) {
+                             m_context.EnqueueEvent(events::emu::ReverseFrameStep());
+                         }
+                     }
+-                    if (ImGui::MenuItem("Rewind buffer",
++                    if (ImGui::MenuItem(TR("Rewind buffer"),
+                                         input::ToShortcut(inputContext, actions::emu::ToggleRewindBuffer).c_str(),
+                                         &rewindEnabled)) {
+                         ToggleRewindBuffer();
+                     }
+                     ImGui::EndMenu();
+                 }
+-                if (ImGui::BeginMenu("Settings")) {
++                if (ImGui::BeginMenu(TR("Settings"))) {
+                     auto &settingsWindow = m_windowManagerService.SettingsWindow();
+-                    if (ImGui::MenuItem("Settings",
++                    if (ImGui::MenuItem(TR("Settings"),
+                                         input::ToShortcut(inputContext, actions::general::OpenSettings).c_str(),
+                                         &settingsWindow.Open)) {
+                         if (settingsWindow.Open) {
+@@ -2593,61 +2596,61 @@ void App::RunEmulator() {
+                         }
+                     }
+                     ImGui::Separator();
+-                    if (ImGui::MenuItem("General")) {
++                    if (ImGui::MenuItem(TR("General"))) {
+                         settingsWindow.OpenTab(ui::SettingsTab::General);
+                     }
+-                    if (ImGui::MenuItem("GUI")) {
++                    if (ImGui::MenuItem(TR("GUI"))) {
+                         settingsWindow.OpenTab(ui::SettingsTab::GUI);
+                     }
+-                    if (ImGui::MenuItem("Hotkeys")) {
++                    if (ImGui::MenuItem(TR("Hotkeys"))) {
+                         settingsWindow.OpenTab(ui::SettingsTab::Hotkeys);
+                     }
+-                    if (ImGui::MenuItem("System")) {
++                    if (ImGui::MenuItem(TR("System"))) {
+                         settingsWindow.OpenTab(ui::SettingsTab::System);
+                     }
+-                    if (ImGui::MenuItem("IPL (BIOS)")) {
++                    if (ImGui::MenuItem(TR("IPL (BIOS)"))) {
+                         settingsWindow.OpenTab(ui::SettingsTab::IPL);
+                     }
+-                    if (ImGui::MenuItem("Input")) {
++                    if (ImGui::MenuItem(TR("Input"))) {
+                         settingsWindow.OpenTab(ui::SettingsTab::Input);
+                     }
+-                    if (ImGui::MenuItem("Video")) {
++                    if (ImGui::MenuItem(TR("Video"))) {
+                         settingsWindow.OpenTab(ui::SettingsTab::Video);
+                     }
+-                    if (ImGui::MenuItem("Audio")) {
++                    if (ImGui::MenuItem(TR("Audio"))) {
+                         settingsWindow.OpenTab(ui::SettingsTab::Audio);
+                     }
+-                    if (ImGui::MenuItem("Cartridge")) {
++                    if (ImGui::MenuItem(TR("Cartridge"))) {
+                         settingsWindow.OpenTab(ui::SettingsTab::Cartridge);
+                     }
+-                    if (ImGui::MenuItem("CD Block")) {
++                    if (ImGui::MenuItem(TR("CD Block"))) {
+                         settingsWindow.OpenTab(ui::SettingsTab::CDBlock);
+                     }
+-                    if (ImGui::MenuItem("Tweaks")) {
++                    if (ImGui::MenuItem(TR("Tweaks"))) {
+                         settingsWindow.OpenTab(ui::SettingsTab::Tweaks);
+                     }
+ 
+                     ImGui::EndMenu();
+                 }
+-                if (ImGui::BeginMenu("Debug")) {
++                if (ImGui::BeginMenu(TR("Debug"))) {
+                     bool debugTrace = m_context.saturn.instance->IsDebugTracingEnabled();
+-                    if (ImGui::MenuItem("Enable tracing",
++                    if (ImGui::MenuItem(TR("Enable tracing"),
+                                         input::ToShortcut(inputContext, actions::dbg::ToggleDebugTrace).c_str(),
+                                         &debugTrace)) {
+                         m_context.EnqueueEvent(events::emu::SetDebugTrace(debugTrace));
+                     }
+                     ImGui::Separator();
+-                    if (ImGui::MenuItem("Open memory viewer", nullptr)) {
++                    if (ImGui::MenuItem(TR("Open memory viewer"), nullptr)) {
+                         m_windowManagerService.OpenMemoryViewer();
+                     }
+-                    if (ImGui::BeginMenu("Memory viewers")) {
++                    if (ImGui::BeginMenu(TR("Memory viewers"))) {
+                         for (auto &memView : m_windowManagerService.MemoryViewerWindows()) {
+                             ImGui::MenuItem(fmt::format("Memory viewer #{}", memView.Index() + 1).c_str(), nullptr,
+                                             &memView.Open);
+                         }
+                         ImGui::EndMenu();
+                     }
+-                    if (ImGui::MenuItem("Dump all memory",
++                    if (ImGui::MenuItem(TR("Dump all memory"),
+                                         input::ToShortcut(inputContext, actions::dbg::DumpMemory).c_str())) {
+                         m_context.EnqueueEvent(events::emu::DumpMemory());
+                     }
+@@ -2655,48 +2658,48 @@ void App::RunEmulator() {
+ 
+                     auto sh2Menu = [&](const char *name, ui::SH2WindowSet &set) {
+                         if (ImGui::BeginMenu(name)) {
+-                            ImGui::MenuItem("Debugger", nullptr, &set.debugger.Open);
++                            ImGui::MenuItem(TR("Debugger"), nullptr, &set.debugger.Open);
+                             ImGui::Indent();
+                             {
+-                                ImGui::MenuItem("Breakpoints", nullptr, &set.breakpoints.Open);
+-                                ImGui::MenuItem("Watchpoints", nullptr, &set.watchpoints.Open);
++                                ImGui::MenuItem(TR("Breakpoints"), nullptr, &set.breakpoints.Open);
++                                ImGui::MenuItem(TR("Watchpoints"), nullptr, &set.watchpoints.Open);
+                             }
+                             ImGui::Unindent();
+-                            ImGui::MenuItem("Interrupts", nullptr, &set.interrupts.Open);
+-                            ImGui::MenuItem("Interrupt trace", nullptr, &set.interruptTrace.Open);
+-                            ImGui::MenuItem("Exception vectors", nullptr, &set.exceptionVectors.Open);
+-                            ImGui::MenuItem("Cache", nullptr, &set.cache.Open);
+-                            ImGui::MenuItem("Division unit (DIVU)", nullptr, &set.divisionUnit.Open);
+-                            ImGui::MenuItem("Timers (FRT and WDT)", nullptr, &set.timers.Open);
+-                            ImGui::MenuItem("Power module", nullptr, &set.power.Open);
+-                            ImGui::MenuItem("DMA Controller (DMAC)", nullptr, &set.dmaController.Open);
+-                            ImGui::MenuItem("DMA Controller trace", nullptr, &set.dmaControllerTrace.Open);
++                            ImGui::MenuItem(TR("Interrupts"), nullptr, &set.interrupts.Open);
++                            ImGui::MenuItem(TR("Interrupt trace"), nullptr, &set.interruptTrace.Open);
++                            ImGui::MenuItem(TR("Exception vectors"), nullptr, &set.exceptionVectors.Open);
++                            ImGui::MenuItem(TR("Cache"), nullptr, &set.cache.Open);
++                            ImGui::MenuItem(TR("Division unit (DIVU)"), nullptr, &set.divisionUnit.Open);
++                            ImGui::MenuItem(TR("Timers (FRT and WDT)"), nullptr, &set.timers.Open);
++                            ImGui::MenuItem(TR("Power module"), nullptr, &set.power.Open);
++                            ImGui::MenuItem(TR("DMA Controller (DMAC)"), nullptr, &set.dmaController.Open);
++                            ImGui::MenuItem(TR("DMA Controller trace"), nullptr, &set.dmaControllerTrace.Open);
+                             ImGui::EndMenu();
+                         }
+                     };
+                     sh2Menu("Master SH2", m_windowManagerService.MasterSH2WindowSet());
+                     sh2Menu("Slave SH2", m_windowManagerService.SlaveSH2WindowSet());
+ 
+-                    if (ImGui::BeginMenu("SCU")) {
++                    if (ImGui::BeginMenu(TR("SCU"))) {
+                         auto &windowSet = m_windowManagerService.SCUWindowSet();
+-                        ImGui::MenuItem("Registers", nullptr, &windowSet.regs.Open);
+-                        ImGui::MenuItem("DSP", nullptr, &windowSet.dsp.Open);
+-                        ImGui::MenuItem("DMA", nullptr, &windowSet.dma.Open);
+-                        ImGui::MenuItem("DMA trace", nullptr, &windowSet.dmaTrace.Open);
+-                        ImGui::MenuItem("Interrupt trace", nullptr, &windowSet.intrTrace.Open);
++                            ImGui::MenuItem(TR("Registers"), nullptr, &windowSet.regs.Open);
++                        ImGui::MenuItem(TR("DSP"), nullptr, &windowSet.dsp.Open);
++                        ImGui::MenuItem(TR("DMA"), nullptr, &windowSet.dma.Open);
++                        ImGui::MenuItem(TR("DMA trace"), nullptr, &windowSet.dmaTrace.Open);
++                        ImGui::MenuItem(TR("Interrupt trace"), nullptr, &windowSet.intrTrace.Open);
+                         ImGui::EndMenu();
+                     }
+ 
+-                    if (ImGui::BeginMenu("SCSP")) {
++                    if (ImGui::BeginMenu(TR("SCSP"))) {
+                         auto &windowSet = m_windowManagerService.SCSPWindowSet();
+-                        ImGui::MenuItem("Output", nullptr, &windowSet.output.Open);
+-                        ImGui::MenuItem("Slots", nullptr, &windowSet.slots.Open);
+-                        ImGui::MenuItem("KYONEX trace", nullptr, &windowSet.kyonexTrace.Open);
++                        ImGui::MenuItem(TR("Output"), nullptr, &windowSet.output.Open);
++                        ImGui::MenuItem(TR("Slots"), nullptr, &windowSet.slots.Open);
++                        ImGui::MenuItem(TR("KYONEX trace"), nullptr, &windowSet.kyonexTrace.Open);
+ 
+                         ImGui::EndMenu();
+                     }
+ 
+-                    if (ImGui::BeginMenu("VDP")) {
++                    if (ImGui::BeginMenu(TR("VDP"))) {
+                         auto &windowSet = m_windowManagerService.VDPWindowSet();
+                         auto layerMenuItem = [&](const char *name, vdp::Layer layer) {
+                             const bool enabled = vdp.IsLayerEnabled(layer);
+@@ -2707,7 +2710,7 @@ void App::RunEmulator() {
+                             ImGui::PopItemFlag();
+                         };
+ 
+-                        ImGui::MenuItem("Layer visibility", nullptr, &windowSet.vdp2LayerVisibility.Open);
++                    ImGui::MenuItem(TR("Layer visibility"), nullptr, &windowSet.vdp2LayerVisibility.Open);
+                         ImGui::Indent();
+                         layerMenuItem("Sprite", vdp::Layer::Sprite);
+                         layerMenuItem("RBG0", vdp::Layer::RBG0);
+@@ -2721,42 +2724,42 @@ void App::RunEmulator() {
+                         ImGui::BeginDisabled();
+                         ImGui::TextUnformatted("VDP1");
+                         ImGui::EndDisabled();
+-                        ImGui::MenuItem("Registers##vdp1", nullptr, &windowSet.vdp1Regs.Open);
++                        ImGui::MenuItem(TR("Registers##vdp1"), nullptr, &windowSet.vdp1Regs.Open);
+ 
+                         ImGui::Separator();
+                         ImGui::BeginDisabled();
+                         ImGui::TextUnformatted("VDP2");
+                         ImGui::EndDisabled();
+-                        ImGui::MenuItem("Registers##vdp2", nullptr, &windowSet.vdp2Regs.Open);
+-                        ImGui::MenuItem("Background layer parameters", nullptr, &windowSet.vdp2BGLayerParams.Open);
+-                        ImGui::MenuItem("Sprite layer parameters", nullptr, &windowSet.vdp2SpriteLayerParams.Open);
+-                        ImGui::MenuItem("Window parameters", nullptr, &windowSet.vdp2WindowParams.Open);
+-                        ImGui::MenuItem("Color calculation parameters", nullptr, &windowSet.vdp2ColorCalcParams.Open);
+-                        ImGui::MenuItem("Debug overlay", nullptr, &windowSet.vdp2DebugOverlay.Open);
+-                        ImGui::MenuItem("VRAM access patterns", nullptr, &windowSet.vdp2VRAMAccessPatterns.Open);
+-                        ImGui::MenuItem("Color RAM palette", nullptr, &windowSet.vdp2CRAM.Open);
++                        ImGui::MenuItem(TR("Registers##vdp2"), nullptr, &windowSet.vdp2Regs.Open);
++                        ImGui::MenuItem(TR("Background layer parameters"), nullptr, &windowSet.vdp2BGLayerParams.Open);
++                        ImGui::MenuItem(TR("Sprite layer parameters"), nullptr, &windowSet.vdp2SpriteLayerParams.Open);
++                        ImGui::MenuItem(TR("Window parameters"), nullptr, &windowSet.vdp2WindowParams.Open);
++                        ImGui::MenuItem(TR("Color calculation parameters"), nullptr, &windowSet.vdp2ColorCalcParams.Open);
++                        ImGui::MenuItem(TR("Debug overlay"), nullptr, &windowSet.vdp2DebugOverlay.Open);
++                        ImGui::MenuItem(TR("VRAM access patterns"), nullptr, &windowSet.vdp2VRAMAccessPatterns.Open);
++                        ImGui::MenuItem(TR("Color RAM palette"), nullptr, &windowSet.vdp2CRAM.Open);
+ 
+                         ImGui::EndMenu();
+                     }
+ 
+-                    if (ImGui::BeginMenu("CD Block")) {
++                    if (ImGui::BeginMenu(TR("CD Block"))) {
+                         auto &windowSet = m_windowManagerService.CDBlockWindowSet();
+                         ImGui::BeginDisabled();
+                         ImGui::TextUnformatted("HLE");
+                         ImGui::EndDisabled();
+-                        ImGui::MenuItem("Command trace", nullptr, &windowSet.cmdTrace.Open);
+-                        ImGui::MenuItem("Filters", nullptr, &windowSet.filters.Open);
+-                        ImGui::MenuItem("Partitions", nullptr, &windowSet.partitions.Open);
++                        ImGui::MenuItem(TR("Command trace"), nullptr, &windowSet.cmdTrace.Open);
++                        ImGui::MenuItem(TR("Filters"), nullptr, &windowSet.filters.Open);
++                        ImGui::MenuItem(TR("Partitions"), nullptr, &windowSet.partitions.Open);
+                         ImGui::Separator();
+                         ImGui::BeginDisabled();
+                         ImGui::TextUnformatted("LLE");
+                         ImGui::EndDisabled();
+-                        ImGui::MenuItem("CD drive state trace", nullptr, &windowSet.driveStateTrace.Open);
+-                        ImGui::MenuItem("YGR command trace", nullptr, &windowSet.ygrCmdTrace.Open);
++                        ImGui::MenuItem(TR("CD drive state trace"), nullptr, &windowSet.driveStateTrace.Open);
++                        ImGui::MenuItem(TR("YGR command trace"), nullptr, &windowSet.ygrCmdTrace.Open);
+                         ImGui::EndMenu();
+                     }
+ 
+-                    ImGui::MenuItem("Debug output", nullptr, &m_windowManagerService.DebugOutputWindow().Open);
++                    ImGui::MenuItem(TR("Debug output"), nullptr, &m_windowManagerService.DebugOutputWindow().Open);
+                     ImGui::Separator();
+                     if (ImGui::MenuItem(
+                             "Windowed video output",
+@@ -2767,24 +2770,24 @@ void App::RunEmulator() {
+                     }
+                     ImGui::EndMenu();
+                 }
+-                if (ImGui::BeginMenu("Help")) {
+-                    if (ImGui::MenuItem("Open welcome window", nullptr)) {
++                if (ImGui::BeginMenu(TR("Help"))) {
++                    if (ImGui::MenuItem(TR("Open welcome window"), nullptr)) {
+                         m_windowManagerService.OpenWelcomeModal(false);
+                     }
+-                    if (ImGui::MenuItem("Check for updates", nullptr)) {
++                    if (ImGui::MenuItem(TR("Check for updates"), nullptr)) {
+                         m_updateCheckerService.CheckForUpdates(true);
+                     }
+ 
+                     ImGui::Separator();
+-                    ImGui::MenuItem("Show message history",
++                    ImGui::MenuItem(TR("Show message history"),
+                                     input::ToShortcut(inputContext, actions::general::ShowMessageHistory).c_str(),
+                                     &m_windowManagerService.MessageHistoryWindow().Open);
+                     ImGui::Separator();
+ #if Ymir_ENABLE_IMGUI_DEMO
+-                    ImGui::MenuItem("ImGui demo window", nullptr, &showImGuiDemoWindow);
++                    ImGui::MenuItem(TR("ImGui demo window"), nullptr, &showImGuiDemoWindow);
+                     ImGui::Separator();
+ #endif
+-                    ImGui::MenuItem("About", nullptr, &m_windowManagerService.AboutWindow().Open);
++                    ImGui::MenuItem(TR("About"), nullptr, &m_windowManagerService.AboutWindow().Open);
+                     ImGui::EndMenu();
+                 }
+                 ImGui::EndMainMenuBar();
+diff --git a/apps/ymir-sdl3/src/app/services/window_manager_service.cpp b/apps/ymir-sdl3/src/app/services/window_manager_service.cpp
+index c8274f7..36dcabb 100644
+--- a/apps/ymir-sdl3/src/app/services/window_manager_service.cpp
++++ b/apps/ymir-sdl3/src/app/services/window_manager_service.cpp
+@@ -4,6 +4,8 @@
+ #include <app/services/graphics_service.hpp>
+ #include <app/services/rom_service.hpp>
+ 
++#include <app/ui/i18n.hpp>
++
+ #include <app/imgui_data.hpp>
+ 
+ #include <SDL3/SDL.h>
+@@ -16,6 +18,8 @@
+ 
+ namespace app::services {
+ 
++#define TR(text) ui::i18n::tr(text)
++
+ WindowManagerService::WindowManagerService(SharedContext &context, Settings &settings)
+     : m_context(context)
+     , m_settings(settings)
+@@ -105,7 +109,7 @@ void WindowManagerService::DrawGenericModal() {
+ 
+         bool close = m_closeGenericModal;
+         if (m_showOkButtonInGenericModal) {
+-            if (ImGui::Button("OK", ImVec2(80 * imguiData->displayScale, 0 * imguiData->displayScale))) {
++            if (ImGui::Button(TR("OK"), ImVec2(80 * imguiData->displayScale, 0 * imguiData->displayScale))) {
+                 close = true;
+             }
+         }
+@@ -120,7 +124,7 @@ void WindowManagerService::DrawGenericModal() {
+ }
+ 
+ void WindowManagerService::OpenSimpleErrorModal(std::string message) {
+-    OpenGenericModal("Error", [=] { ImGui::Text("%s", message.c_str()); });
++    OpenGenericModal(TR("Error"), [=] { ImGui::Text("%s", message.c_str()); });
+ }
+ 
+ void WindowManagerService::OpenGenericModal(std::string title, std::function<void()> fnContents, bool showOKButton) {
+@@ -149,7 +153,7 @@ void WindowManagerService::OpenWelcomeModal(bool scanIPLROMs) {
+         util::ROMLoadResult result;
+     };
+ 
+-    OpenGenericModal("Welcome", [=, this, nextScanDeadline = clk::now() + kScanInterval,
++    OpenGenericModal(TR("Welcome"), [=, this, nextScanDeadline = clk::now() + kScanInterval,
+                                  lastROMCount = m_context.romManager.GetIPLROMs().size(),
+                                  romSelectResult = ROMSelectResult{}]() mutable {
+         const YmirImGuiData *imguiData = GetYmirImGuiData();
+@@ -166,29 +170,29 @@ void WindowManagerService::OpenWelcomeModal(bool scanIPLROMs) {
+         ImGui::TextUnformatted("Ymir");
+         ImGui::PopFont();
+         ImGui::PushFont(imguiData->fonts.sansSerif.regular, imguiData->fontSizes.large);
+-        ImGui::TextUnformatted("Welcome to Ymir!");
++        ImGui::TextUnformatted(TR("Welcome to Ymir!"));
+         ImGui::PopFont();
+         ImGui::NewLine();
+         ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.medium);
+-        ImGui::TextColored(imguiData->colors.notice, "Ymir requires a valid IPL (BIOS) ROM to work.");
++        ImGui::TextColored(imguiData->colors.notice, TR("Ymir requires a valid IPL (BIOS) ROM to work."));
+         ImGui::PopFont();
+ 
+         ImGui::NewLine();
+-        ImGui::TextUnformatted("Ymir will automatically load IPL ROMs placed in ");
++        ImGui::TextUnformatted(TR("Ymir will automatically load IPL ROMs placed in "));
+         ImGui::SameLine(0, 0);
+         auto romPath = m_context.profile.GetPath(ProfilePath::IPLROMImages);
+         if (ImGui::TextLink(fmt::format("{}", romPath).c_str())) {
+             SDL_OpenURL(fmt::format("file:///{}", romPath).c_str());
+         }
+-        ImGui::TextUnformatted("Alternatively, you can ");
++        ImGui::TextUnformatted(TR("Alternatively, you can "));
+         ImGui::SameLine(0, 0);
+-        if (ImGui::TextLink("manually select an IPL ROM")) {
++        if (ImGui::TextLink(TR("manually select an IPL ROM"))) {
+             doSelectRom = true;
+         }
+         ImGui::SameLine(0, 0);
+-        ImGui::TextUnformatted(" or ");
++        ImGui::TextUnformatted(TR(" or "));
+         ImGui::SameLine(0, 0);
+-        if (ImGui::TextLink("manage the ROM settings in Settings > IPL")) {
++        if (ImGui::TextLink(TR("manage the ROM settings in Settings > IPL"))) {
+             doOpenSettings = true;
+         }
+         ImGui::SameLine(0, 0);
+@@ -196,9 +200,9 @@ void WindowManagerService::OpenWelcomeModal(bool scanIPLROMs) {
+ 
+         if (!activeScanning) {
+             ImGui::NewLine();
+-            ImGui::TextUnformatted("Ymir is not currently scanning for IPL ROMs.");
+-            ImGui::TextUnformatted("If you would like to actively scan for IPL ROMs, press the button below.");
+-            if (ImGui::Button("Start active scanning")) {
++            ImGui::TextUnformatted(TR("Ymir is not currently scanning for IPL ROMs."));
++            ImGui::TextUnformatted(TR("If you would like to actively scan for IPL ROMs, press the button below."));
++            if (ImGui::Button(TR("Start active scanning"))) {
+                 activeScanning = true;
+             }
+             ImGui::NewLine();
+@@ -206,22 +210,22 @@ void WindowManagerService::OpenWelcomeModal(bool scanIPLROMs) {
+ 
+         if (romSelectResult.hasResult && !romSelectResult.result.succeeded) {
+             ImGui::NewLine();
+-            ImGui::Text("The file %s does not contain a valid IPL ROM.",
++            ImGui::Text(TR("The file %s does not contain a valid IPL ROM."),
+                         fmt::format("{}", romSelectResult.path).c_str());
+-            ImGui::Text("Reason: %s.", romSelectResult.result.errorMessage.c_str());
++            ImGui::Text(TR("Reason: %s."), romSelectResult.result.errorMessage.c_str());
+         }
+ 
+         ImGui::Separator();
+ 
+-        if (ImGui::Button("Open IPL ROMs directory")) {
++        if (ImGui::Button(TR("Open IPL ROMs directory"))) {
+             SDL_OpenURL(fmt::format("file:///{}", m_context.profile.GetPath(ProfilePath::IPLROMImages)).c_str());
+         }
+         ImGui::SameLine();
+-        if (ImGui::Button("Select IPL ROM...")) {
++        if (ImGui::Button(TR("Select IPL ROM..."))) {
+             doSelectRom = true;
+         }
+         ImGui::SameLine();
+-        if (ImGui::Button("Open IPL settings")) {
++        if (ImGui::Button(TR("Open IPL settings"))) {
+             doOpenSettings = true;
+         }
+         ImGui::SameLine(); // this places the OK button next to these
+@@ -231,9 +235,9 @@ void WindowManagerService::OpenWelcomeModal(bool scanIPLROMs) {
+ 
+         if (doSelectRom && fileDialogService) {
+             FileDialogParams params{
+-                .dialogTitle = "Select IPL ROM",
++                .dialogTitle = TR("Select IPL ROM"),
+                 .defaultPath = m_context.profile.GetPath(ProfilePath::IPLROMImages),
+-                .filters = {{"ROM files (*.bin, *.rom)", "bin;rom"}, {"All files (*.*)", "*"}},
++                .filters = {{TR("ROM files (*.bin, *.rom)"), "bin;rom"}, {TR("All files (*.*)"), "*"}},
+                 .userdata = &romSelectResult,
+                 .callback =
+                     [](void *userdata, const char *const *filelist, int filter) {
+diff --git a/apps/ymir-sdl3/src/app/ui/views/settings/audio_settings_view.cpp b/apps/ymir-sdl3/src/app/ui/views/settings/audio_settings_view.cpp
+index b7abe98..661dceb 100644
+--- a/apps/ymir-sdl3/src/app/ui/views/settings/audio_settings_view.cpp
++++ b/apps/ymir-sdl3/src/app/ui/views/settings/audio_settings_view.cpp
+@@ -4,6 +4,7 @@
+ 
+ #include <app/events/emu_event_factory.hpp>
+ 
++#include <app/ui/i18n.hpp>
+ #include <app/ui/widgets/common_widgets.hpp>
+ #include <app/ui/widgets/settings_widgets.hpp>
+ 
+@@ -15,6 +16,8 @@ using namespace ymir;
+ 
+ namespace app::ui {
+ 
++#define TR(text) i18n::tr(text)
++
+ using MidiPortType = Settings::Audio::MidiPort::Type;
+ 
+ AudioSettingsView::AudioSettingsView(SharedContext &context)
+@@ -27,25 +30,25 @@ void AudioSettingsView::Display() {
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("General");
++    ImGui::SeparatorText(TR("General"));
+     ImGui::PopFont();
+ 
+     static constexpr float kMinVolume = 0.0f;
+     static constexpr float kMaxVolume = 100.0f;
+     float volumePct = settings.volume * 100.0f;
+-    if (MakeDirty(ImGui::SliderScalar("Volume", ImGuiDataType_Float, &volumePct, &kMinVolume, &kMaxVolume, "%.1lf%%",
++    if (MakeDirty(ImGui::SliderScalar(TR("Volume"), ImGuiDataType_Float, &volumePct, &kMinVolume, &kMaxVolume, "%.1lf%%",
+                                       ImGuiSliderFlags_AlwaysClamp))) {
+         settings.volume = volumePct * 0.01f;
+     }
+     bool mute = settings.mute;
+-    if (MakeDirty(ImGui::Checkbox("Mute", &mute))) {
++    if (MakeDirty(ImGui::Checkbox(TR("Mute"), &mute))) {
+         settings.mute = mute;
+     }
+ 
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Quality");
++    ImGui::SeparatorText(TR("Quality"));
+     ImGui::PopFont();
+ 
+     widgets::settings::audio::InterpolationMode(m_context);
+@@ -76,7 +79,7 @@ void AudioSettingsView::Display() {
+     auto inputPort = settings.midiInputPort.Get();
+ 
+     if (ImGui::BeginCombo(inputLabel.c_str(), inputPortName.c_str())) {
+-        if (MakeDirty(ImGui::Selectable("None", inputPort.type == MidiPortType::None))) {
++        if (MakeDirty(ImGui::Selectable(TR("None"), inputPort.type == MidiPortType::None))) {
+             settings.midiInputPort = Settings::Audio::MidiPort{.id = {}, .type = MidiPortType::None};
+         }
+ 
+@@ -110,7 +113,7 @@ void AudioSettingsView::Display() {
+     auto outputPort = settings.midiOutputPort.Get();
+ 
+     if (ImGui::BeginCombo(outputLabel.c_str(), outputPortName.c_str())) {
+-        if (MakeDirty(ImGui::Selectable("None", outputPort.type == MidiPortType::None))) {
++        if (MakeDirty(ImGui::Selectable(TR("None"), outputPort.type == MidiPortType::None))) {
+             settings.midiOutputPort = Settings::Audio::MidiPort{.id = {}, .type = MidiPortType::None};
+         }
+ 
+@@ -138,7 +141,7 @@ void AudioSettingsView::Display() {
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Accuracy");
++    ImGui::SeparatorText(TR("Accuracy"));
+     ImGui::PopFont();
+ 
+     widgets::settings::audio::StepGranularity(m_context);
+@@ -146,7 +149,7 @@ void AudioSettingsView::Display() {
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Performance");
++    ImGui::SeparatorText(TR("Performance"));
+     ImGui::PopFont();
+ 
+     widgets::settings::audio::ThreadedSCSP(m_context);
+diff --git a/apps/ymir-sdl3/src/app/ui/views/settings/cartridge_settings_view.cpp b/apps/ymir-sdl3/src/app/ui/views/settings/cartridge_settings_view.cpp
+index d817074..200102c 100644
+--- a/apps/ymir-sdl3/src/app/ui/views/settings/cartridge_settings_view.cpp
++++ b/apps/ymir-sdl3/src/app/ui/views/settings/cartridge_settings_view.cpp
+@@ -6,6 +6,7 @@
+ 
+ #include <ymir/db/game_db.hpp>
+ 
++#include <app/ui/i18n.hpp>
+ #include <app/ui/widgets/cartridge_widgets.hpp>
+ #include <app/ui/widgets/common_widgets.hpp>
+ 
+@@ -27,6 +28,8 @@ using namespace ymir;
+ 
+ namespace app::ui {
+ 
++#define TR(text) i18n::tr(text)
++
+ static const char *GetCartTypeName(Settings::Cartridge::Type type) {
+     switch (type) {
+     case Settings::Cartridge::Type::None: return "None";
+@@ -55,7 +58,7 @@ void CartridgeSettingsView::Display() {
+ 
+     ImGui::PushTextWrapPos(ImGui::GetCursorPosX() + ImGui::GetContentRegionAvail().x);
+ 
+-    ImGui::TextUnformatted("Current cartridge: ");
++    ImGui::TextUnformatted(TR("Current cartridge: "));
+     ImGui::SameLine(0, 0);
+     widgets::CartridgeInfo(m_context);
+     {
+@@ -67,7 +70,7 @@ void CartridgeSettingsView::Display() {
+         }
+     }
+ 
+-    MakeDirty(ImGui::Checkbox("Automatically switch to recommended cartridges", &settings.autoLoadGameCarts));
++    MakeDirty(ImGui::Checkbox(TR("Automatically switch to recommended cartridges"), &settings.autoLoadGameCarts));
+     widgets::ExplanationTooltip(
+         fmt::format("Certain games require specific cartridges to work:\n"
+                     "- The King of Fighters '95 and Ultraman need their respective ROM cartridges\n"
+@@ -80,14 +83,14 @@ void CartridgeSettingsView::Display() {
+                     m_context.profile.GetPath(ProfilePath::ROMCartImages))
+             .c_str());
+ 
+-    if (ImGui::Button("Open ROM cartridge images directory")) {
++    if (ImGui::Button(TR("Open ROM cartridge images directory"))) {
+         SDL_OpenURL(fmt::format("file:///{}", m_context.profile.GetPath(ProfilePath::ROMCartImages)).c_str());
+     }
+ 
+     ImGui::Separator();
+ 
+     ImGui::AlignTextToFramePadding();
+-    ImGui::TextUnformatted("Cartridge type:");
++    ImGui::TextUnformatted(TR("Cartridge type:"));
+     ImGui::SameLine();
+     if (ImGui::BeginCombo("##cart_type", GetCartTypeName(settings.type), ImGuiComboFlags_WidthFitPreview)) {
+         for (auto type : kCartTypes) {
+@@ -99,7 +102,7 @@ void CartridgeSettingsView::Display() {
+         ImGui::EndCombo();
+     }
+     ImGui::SameLine();
+-    if (ImGui::Button("Insert")) {
++    if (ImGui::Button(TR("Insert"))) {
+         m_context.EnqueueEvent(events::emu::InsertCartridgeFromSettings());
+     }
+ 
+diff --git a/apps/ymir-sdl3/src/app/ui/views/settings/cdblock_settings_view.cpp b/apps/ymir-sdl3/src/app/ui/views/settings/cdblock_settings_view.cpp
+index 143997d..64d09bd 100644
+--- a/apps/ymir-sdl3/src/app/ui/views/settings/cdblock_settings_view.cpp
++++ b/apps/ymir-sdl3/src/app/ui/views/settings/cdblock_settings_view.cpp
+@@ -2,6 +2,7 @@
+ 
+ #include <app/events/gui_event_factory.hpp>
+ 
++#include <app/ui/i18n.hpp>
+ #include <app/ui/widgets/settings_widgets.hpp>
+ 
+ #include <app/imgui_data.hpp>
+@@ -16,6 +17,8 @@ using namespace ymir;
+ 
+ namespace app::ui {
+ 
++#define TR(text) i18n::tr(text)
++
+ CDBlockSettingsView::CDBlockSettingsView(SharedContext &context)
+     : SettingsViewBase(context) {}
+ 
+@@ -30,7 +33,7 @@ void CDBlockSettingsView::Display() {
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Accuracy");
++    ImGui::SeparatorText(TR("Accuracy"));
+     ImGui::PopFont();
+ 
+     ImGui::TextUnformatted("NOTE: Changing any of these options will cause a hard reset");
+@@ -45,11 +48,11 @@ void CDBlockSettingsView::Display() {
+     ImGui::Text("CD block ROMs in %s", fmt::format("{}", cdbRomsPaths).c_str());
+     ImGui::PopTextWrapPos();
+ 
+-    if (ImGui::Button("Open directory")) {
++    if (ImGui::Button(TR("Open directory"))) {
+         SDL_OpenURL(fmt::format("file:///{}", cdbRomsPaths).c_str());
+     }
+     ImGui::SameLine();
+-    if (ImGui::Button("Rescan")) {
++    if (ImGui::Button(TR("Rescan"))) {
+         {
+             std::unique_lock lock{m_context.locks.romManager};
+             m_context.romManager.ScanCDBlockROMs(cdbRomsPaths);
+@@ -66,8 +69,8 @@ void CDBlockSettingsView::Display() {
+                           ImGuiTableFlags_ScrollY | ImGuiTableFlags_Sortable | ImGuiTableFlags_SortMulti |
+                               ImGuiTableFlags_SortTristate,
+                           ImVec2(0, 150 * imguiData->displayScale))) {
+-        ImGui::TableSetupColumn("Path", ImGuiTableColumnFlags_WidthStretch | ImGuiTableColumnFlags_DefaultSort, 0.0f);
+-        ImGui::TableSetupColumn("Version", ImGuiTableColumnFlags_WidthFixed, 60 * imguiData->displayScale);
++        ImGui::TableSetupColumn(TR("Path"), ImGuiTableColumnFlags_WidthStretch | ImGuiTableColumnFlags_DefaultSort, 0.0f);
++        ImGui::TableSetupColumn(TR("Version"), ImGuiTableColumnFlags_WidthFixed, 60 * imguiData->displayScale);
+         ImGui::TableSetupColumn("##use", ImGuiTableColumnFlags_WidthFixed | ImGuiTableColumnFlags_NoSort,
+                                 useButtonWidth);
+         ImGui::TableSetupScrollFreeze(0, 1);
+@@ -132,7 +135,7 @@ void CDBlockSettingsView::Display() {
+                 }
+             }
+             if (ImGui::TableNextColumn()) {
+-                if (ImGui::Button(fmt::format("Use##{}", index).c_str())) {
++                if (ImGui::Button(fmt::format("{}##{}", TR("Use"), index).c_str())) {
+                     settings.overrideROM = true;
+                     settings.romPath = cdbROM.path;
+                     if (!settings.romPath.empty()) {
+@@ -149,7 +152,7 @@ void CDBlockSettingsView::Display() {
+ 
+     ImGui::Separator();
+ 
+-    if (MakeDirty(ImGui::Checkbox("Override CD block ROM", &settings.overrideROM))) {
++    if (MakeDirty(ImGui::Checkbox(TR("Override CD block ROM"), &settings.overrideROM))) {
+         if (settings.overrideROM && !settings.romPath.empty()) {
+             m_context.EnqueueEvent(events::gui::ReloadCDBlockROM());
+             MakeDirty();
+@@ -160,7 +163,7 @@ void CDBlockSettingsView::Display() {
+         ImGui::BeginDisabled();
+     }
+     ImGui::AlignTextToFramePadding();
+-    ImGui::TextUnformatted("CD block ROM path");
++    ImGui::TextUnformatted(TR("CD block ROM path"));
+     ImGui::SameLine();
+     ImGui::SetNextItemWidth(-(fileSelectorButtonWidth + reloadButtonWidth + itemSpacingWidth * 2));
+     std::string cdbPath = fmt::format("{}", settings.romPath);
+diff --git a/apps/ymir-sdl3/src/app/ui/views/settings/general_settings_view.cpp b/apps/ymir-sdl3/src/app/ui/views/settings/general_settings_view.cpp
+index 547a480..8f6d3d0 100644
+--- a/apps/ymir-sdl3/src/app/ui/views/settings/general_settings_view.cpp
++++ b/apps/ymir-sdl3/src/app/ui/views/settings/general_settings_view.cpp
+@@ -3,6 +3,7 @@
+ #include <app/events/emu_event_factory.hpp>
+ #include <app/events/gui_event_factory.hpp>
+ 
++#include <app/ui/i18n.hpp>
+ #include <app/ui/widgets/common_widgets.hpp>
+ 
+ #include <app/imgui_data.hpp>
+@@ -18,6 +19,8 @@
+ 
+ namespace app::ui {
+ 
++#define TR(text) i18n::tr(text)
++
+ GeneralSettingsView::GeneralSettingsView(SharedContext &context)
+     : SettingsViewBase(context) {}
+ 
+@@ -29,41 +32,41 @@ void GeneralSettingsView::Display() {
+     const float paddingWidth = ImGui::GetStyle().FramePadding.x;
+     const float itemSpacingWidth = ImGui::GetStyle().ItemSpacing.x;
+     const float fileSelectorButtonWidth = ImGui::CalcTextSize("...").x + paddingWidth * 2;
+-    const float clearButtonWidth = ImGui::CalcTextSize("Clear").x + paddingWidth * 2;
+-    const float openButtonWidth = ImGui::CalcTextSize("Open").x + paddingWidth * 2;
++    const float clearButtonWidth = ImGui::CalcTextSize(TR("Clear")).x + paddingWidth * 2;
++    const float openButtonWidth = ImGui::CalcTextSize(TR("Open")).x + paddingWidth * 2;
+ 
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Performance");
++    ImGui::SeparatorText(TR("Performance"));
+     ImGui::PopFont();
+ 
+-    if (MakeDirty(ImGui::Checkbox("Boost process priority", &settings.boostProcessPriority))) {
++    if (MakeDirty(ImGui::Checkbox(TR("Boost process priority"), &settings.boostProcessPriority))) {
+         m_context.EnqueueEvent(events::gui::SetProcessPriority(settings.boostProcessPriority));
+     }
+     widgets::ExplanationTooltip("Increases the process's priority level, which may help reduce stuttering.");
+ 
+-    if (MakeDirty(ImGui::Checkbox("Boost emulator thread priority", &settings.boostEmuThreadPriority))) {
++    if (MakeDirty(ImGui::Checkbox(TR("Boost emulator thread priority"), &settings.boostEmuThreadPriority))) {
+         m_context.EnqueueEvent(events::emu::SetThreadPriority(settings.boostEmuThreadPriority));
+     }
+     widgets::ExplanationTooltip("Increases the emulator thread's priority, which may help reduce jitter.");
+ 
+-    MakeDirty(ImGui::Checkbox("Preload disc images to RAM", &settings.preloadDiscImagesToRAM));
++    MakeDirty(ImGui::Checkbox(TR("Preload disc images to RAM"), &settings.preloadDiscImagesToRAM));
+     widgets::ExplanationTooltip(
+         "Preloads the entire disc image to memory.\n"
+         "May help reduce stuttering if you're loading images from a slow disk or from the network.");
+ 
+-    MakeDirty(ImGui::Checkbox("Remember last loaded disc image", &settings.rememberLastLoadedDisc));
++    MakeDirty(ImGui::Checkbox(TR("Remember last loaded disc image"), &settings.rememberLastLoadedDisc));
+     widgets::ExplanationTooltip(
+         "When enabled, Ymir will automatically load the most recently loaded game disc on startup.");
+ 
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Behavior");
++    ImGui::SeparatorText(TR("Behavior"));
+     ImGui::PopFont();
+ 
+-    ImGui::TextUnformatted("Emulation speed");
++    ImGui::TextUnformatted(TR("Emulation speed"));
+     widgets::ExplanationTooltip(
+         "You can adjust and switch between the primary and alternate speeds at any time.\n"
+         "The primary speed is meant to be the default speed for normal usage while the alternate speed is used "
+@@ -73,7 +76,7 @@ void GeneralSettingsView::Display() {
+     if (ImGui::BeginTable("emu_speed", 3, ImGuiTableFlags_SizingFixedFit)) {
+         ImGui::TableNextRow();
+         if (ImGui::TableNextColumn()) {
+-            if (MakeDirty(ImGui::RadioButton("Primary##emu_speed", !settings.useAltSpeed))) {
++            if (MakeDirty(ImGui::RadioButton(TR("Primary##emu_speed"), !settings.useAltSpeed))) {
+                 settings.useAltSpeed = false;
+             }
+         }
+@@ -88,14 +91,14 @@ void GeneralSettingsView::Display() {
+             }
+         }
+         if (ImGui::TableNextColumn()) {
+-            if (MakeDirty(ImGui::Button("Reset##main_emu_speed"))) {
++            if (MakeDirty(ImGui::Button(TR("Reset##main_emu_speed")))) {
+                 settings.mainSpeedFactor = 1.0;
+             }
+         }
+ 
+         ImGui::TableNextRow();
+         if (ImGui::TableNextColumn()) {
+-            if (MakeDirty(ImGui::RadioButton("Alternate##emu_speed", settings.useAltSpeed))) {
++            if (MakeDirty(ImGui::RadioButton(TR("Alternate##emu_speed"), settings.useAltSpeed))) {
+                 settings.useAltSpeed = true;
+             }
+         }
+@@ -110,7 +113,7 @@ void GeneralSettingsView::Display() {
+             }
+         }
+         if (ImGui::TableNextColumn()) {
+-            if (MakeDirty(ImGui::Button("Reset##alt_emu_speed"))) {
++            if (MakeDirty(ImGui::Button(TR("Reset##alt_emu_speed")))) {
+                 settings.altSpeedFactor = 0.5;
+             }
+         }
+@@ -118,35 +121,35 @@ void GeneralSettingsView::Display() {
+         ImGui::EndTable();
+     }
+ 
+-    MakeDirty(ImGui::Checkbox("Pause when unfocused", &settings.pauseWhenUnfocused));
++    MakeDirty(ImGui::Checkbox(TR("Pause when unfocused"), &settings.pauseWhenUnfocused));
+     widgets::ExplanationTooltip(
+         "The emulator will pause when the window loses focus and resume when it regains focus.\n"
+         "Does not affect the behavior of manual pauses - they persist through focus changes.");
+ 
+-    MakeDirty(ImGui::Checkbox("Unpause after loading discs", &settings.unpauseOnDiscLoad));
++    MakeDirty(ImGui::Checkbox(TR("Unpause after loading discs"), &settings.unpauseOnDiscLoad));
+     widgets::ExplanationTooltip("The emulator will unpause when a game disc is loaded.");
+ 
+-    MakeDirty(ImGui::Checkbox("Start paused upon launch", &settings.startPaused));
++    MakeDirty(ImGui::Checkbox(TR("Start paused upon launch"), &settings.startPaused));
+     widgets::ExplanationTooltip("Ymir will launch with emulation paused when starting up.");
+ 
+-    MakeDirty(ImGui::Checkbox("Enable Discord Rich Presence", &settings.enableDiscordPresence));
++    MakeDirty(ImGui::Checkbox(TR("Enable Discord Rich Presence"), &settings.enableDiscordPresence));
+     widgets::ExplanationTooltip("Displays the current game on your Discord profile while Ymir is running.");
+ 
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Updates");
++    ImGui::SeparatorText(TR("Updates"));
+     ImGui::PopFont();
+ 
+ #if Ymir_ENABLE_UPDATE_CHECKS
+-    MakeDirty(ImGui::Checkbox("Check for updates on startup", &settings.checkForUpdates));
++    MakeDirty(ImGui::Checkbox(TR("Check for updates on startup"), &settings.checkForUpdates));
+ #endif
+-    MakeDirty(ImGui::Checkbox("Update to nightly builds", &settings.includeNightlyBuilds));
++    MakeDirty(ImGui::Checkbox(TR("Update to nightly builds"), &settings.includeNightlyBuilds));
+     widgets::ExplanationTooltip("When enabled, Ymir will also notify you when new nightly builds are available.");
+-    if (ImGui::Button("Check now")) {
++    if (ImGui::Button(TR("Check now"))) {
+         m_context.EnqueueEvent(events::gui::CheckForUpdates());
+     }
+-    ImGui::TextUnformatted("Latest versions:");
++    ImGui::TextUnformatted(TR("Latest versions:"));
+     if (ImGui::BeginTable("updates", 3, ImGuiTableFlags_SizingFixedFit)) {
+         std::unique_lock lock{m_context.locks.updates};
+         auto version = [&](const char *name, const std::optional<UpdateInfo> &ver) {
+@@ -159,13 +162,13 @@ void GeneralSettingsView::Display() {
+             ImGui::TableNextColumn();
+             if (ver) {
+                 if (m_context.updates.inProgress) {
+-                    ImGui::TextUnformatted("Checking...");
++                    ImGui::TextUnformatted(TR("Checking..."));
+                 } else {
+                     ImGui::Text("%s", ver->version.to_string().c_str());
+                 }
+                 ImGui::TableNextColumn();
+                 if (!ver->releaseNotesURL.empty()) {
+-                    if (ImGui::SmallButton("Release notes")) {
++                    if (ImGui::SmallButton(TR("Release notes"))) {
+                         SDL_OpenURL(ver->releaseNotesURL.c_str());
+                     }
+                 }
+@@ -173,12 +176,12 @@ void GeneralSettingsView::Display() {
+                     if (!ver->releaseNotesURL.empty()) {
+                         ImGui::SameLine();
+                     }
+-                    if (ImGui::SmallButton("Download")) {
++                    if (ImGui::SmallButton(TR("Download"))) {
+                         SDL_OpenURL(ver->downloadURL.c_str());
+                     }
+                 }
+             } else {
+-                ImGui::TextUnformatted("Not checked");
++                ImGui::TextUnformatted(TR("Not checked"));
+             }
+ 
+             ImGui::PopID();
+@@ -202,17 +205,17 @@ void GeneralSettingsView::Display() {
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Screenshots");
++    ImGui::SeparatorText(TR("Screenshots"));
+     ImGui::PopFont();
+ 
+     MakeDirty(
+-        ImGui::SliderInt("Screenshot scale", &settings.screenshotScale, 1, 4, "%u", ImGuiSliderFlags_AlwaysClamp));
++        ImGui::SliderInt(TR("Screenshot scale"), &settings.screenshotScale, 1, 4, "%u", ImGuiSliderFlags_AlwaysClamp));
+     widgets::ExplanationTooltip("Adjusts the scale at which screenshots are saved.\n"
+                                 "Screenshots taken by the emulator have no aspect ratio distortion and are scaled with "
+                                 "nearest neighbor interpolation to preserve the raw framebuffer data.");
+ 
+     const std::filesystem::path screenshotsPath = m_context.profile.GetPath(ProfilePath::Screenshots);
+-    ImGui::TextUnformatted("Screenshots are saved to ");
++    ImGui::TextUnformatted(TR("Screenshots are saved to "));
+     ImGui::SameLine(0, 0);
+     if (ImGui::TextLink(fmt::format("{}", screenshotsPath).c_str())) {
+         SDL_OpenURL(fmt::format("file:///{}", screenshotsPath).c_str());
+@@ -221,10 +224,10 @@ void GeneralSettingsView::Display() {
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Rewind buffer");
++    ImGui::SeparatorText(TR("Rewind buffer"));
+     ImGui::PopFont();
+ 
+-    if (MakeDirty(ImGui::Checkbox("Enable rewind buffer", &settings.enableRewindBuffer))) {
++    if (MakeDirty(ImGui::Checkbox(TR("Enable rewind buffer"), &settings.enableRewindBuffer))) {
+         m_context.EnqueueEvent(events::gui::EnableRewindBuffer(settings.enableRewindBuffer));
+     }
+     widgets::ExplanationTooltip("Allows you to step back in time.\n"
+@@ -232,7 +235,7 @@ void GeneralSettingsView::Display() {
+ 
+     // TODO: rewind buffer size
+ 
+-    if (MakeDirty(ImGui::SliderInt("Compression level", &settings.rewindCompressionLevel, 0, 16, "%d",
++    if (MakeDirty(ImGui::SliderInt(TR("Compression level"), &settings.rewindCompressionLevel, 0, 16, "%d",
+                                    ImGuiSliderFlags_AlwaysClamp))) {
+         m_context.rewindBuffer.LZ4Accel = 1 << (16 - settings.rewindCompressionLevel);
+     }
+@@ -243,7 +246,7 @@ void GeneralSettingsView::Display() {
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Profile paths");
++    ImGui::SeparatorText(TR("Profile paths"));
+     ImGui::PopFont();
+ 
+     const std::filesystem::path profileRoot = m_context.profile.GetPath(ProfilePath::Root);
+diff --git a/apps/ymir-sdl3/src/app/ui/views/settings/gui_settings_view.cpp b/apps/ymir-sdl3/src/app/ui/views/settings/gui_settings_view.cpp
+index 4c3b28b..e6c2236 100644
+--- a/apps/ymir-sdl3/src/app/ui/views/settings/gui_settings_view.cpp
++++ b/apps/ymir-sdl3/src/app/ui/views/settings/gui_settings_view.cpp
+@@ -1,5 +1,6 @@
+ #include "gui_settings_view.hpp"
+ 
++#include <app/ui/i18n.hpp>
+ #include <app/ui/widgets/common_widgets.hpp>
+ 
+ #include <app/imgui_data.hpp>
+@@ -8,6 +9,8 @@
+ 
+ namespace app::ui {
+ 
++#define TR(text) i18n::tr(text)
++
+ GUISettingsView::GUISettingsView(SharedContext &context)
+     : SettingsViewBase(context) {}
+ 
+@@ -19,18 +22,18 @@ void GUISettingsView::Display() {
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("General");
++    ImGui::SeparatorText(TR("General"));
+     ImGui::PopFont();
+ 
+-    MakeDirty(ImGui::Checkbox("Show game name on window title bar", &guiSettings.showGameNameOnTitleBar));
++    MakeDirty(ImGui::Checkbox(TR("Show game name on window title bar"), &guiSettings.showGameNameOnTitleBar));
+     MakeDirty(
+-        ImGui::Checkbox("Show performance indicator on window title bar", &guiSettings.showPerformanceOnTitleBar));
++        ImGui::Checkbox(TR("Show performance indicator on window title bar"), &guiSettings.showPerformanceOnTitleBar));
+     widgets::ExplanationTooltip("Display emulation speed, VDP2, VDP1 and GUI frame rates on title bar");
+ 
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("UI scaling");
++    ImGui::SeparatorText(TR("UI scaling"));
+     ImGui::PopFont();
+ 
+     // Round scale to steps of 25% and clamp to 100%-200% range
+@@ -39,7 +42,7 @@ void GUISettingsView::Display() {
+     uiScale = std::round(uiScale / 0.25) * 0.25;
+     uiScale = std::clamp(uiScale, 1.00, 2.00);
+ 
+-    if (MakeDirty(ImGui::Checkbox(fmt::format("Override UI scale (current: {:.0f}%)", uiScale * 100.0).c_str(),
++    if (MakeDirty(ImGui::Checkbox(fmt::format(TR("Override UI scale (current: {:.0f}%)"), uiScale * 100.0).c_str(),
+                                   &overrideUIScale))) {
+         guiSettings.overrideUIScale = overrideUIScale;
+         // Use current DPI setting when enabling the override
+@@ -79,26 +82,26 @@ void GUISettingsView::Display() {
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Behavior");
++    ImGui::SeparatorText(TR("Behavior"));
+     ImGui::PopFont();
+ 
+-    MakeDirty(ImGui::Checkbox("Remember window geometry", &guiSettings.rememberWindowGeometry));
++    MakeDirty(ImGui::Checkbox(TR("Remember window geometry"), &guiSettings.rememberWindowGeometry));
+     widgets::ExplanationTooltip("When enabled, the current window position and size will be restored the next time the "
+                                 "application is started.");
+ 
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("On-screen display");
++    ImGui::SeparatorText(TR("On-screen display"));
+     ImGui::PopFont();
+ 
+-    MakeDirty(ImGui::Checkbox("Show messages", &guiSettings.showMessages));
++    MakeDirty(ImGui::Checkbox(TR("Show messages"), &guiSettings.showMessages));
+     widgets::ExplanationTooltip(
+         "When enabled, notification messages are displayed on the top-left corner of the window.");
+ 
+     const bool isPAL = settings.system.videoStandard.Get() == ymir::core::config::sys::VideoStandard::PAL;
+ 
+-    MakeDirty(ImGui::Checkbox("Show frame rate", &guiSettings.showFrameRateOSD));
++    MakeDirty(ImGui::Checkbox(TR("Show frame rate"), &guiSettings.showFrameRateOSD));
+     widgets::ExplanationTooltip(
+         fmt::format(
+             "Displays a small overlay with the VDP2, VDP1 and GUI frame rates, and the target emulation speed.\n"
+@@ -120,17 +123,17 @@ void GUISettingsView::Display() {
+             guiSettings.frameRateOSDPosition = value;
+         }
+     };
+-    frameRateOSDOption("Top left##fps_osd", Settings::GUI::FrameRateOSDPosition::TopLeft);
++    frameRateOSDOption(TR("Top left##fps_osd"), Settings::GUI::FrameRateOSDPosition::TopLeft);
+     ImGui::SameLine();
+-    frameRateOSDOption("Top right##fps_osd", Settings::GUI::FrameRateOSDPosition::TopRight);
++    frameRateOSDOption(TR("Top right##fps_osd"), Settings::GUI::FrameRateOSDPosition::TopRight);
+     ImGui::SameLine();
+-    frameRateOSDOption("Bottom left##fps_osd", Settings::GUI::FrameRateOSDPosition::BottomLeft);
++    frameRateOSDOption(TR("Bottom left##fps_osd"), Settings::GUI::FrameRateOSDPosition::BottomLeft);
+     ImGui::SameLine();
+-    frameRateOSDOption("Bottom right##fps_osd", Settings::GUI::FrameRateOSDPosition::BottomRight);
++    frameRateOSDOption(TR("Bottom right##fps_osd"), Settings::GUI::FrameRateOSDPosition::BottomRight);
+     ImGui::Unindent();
+ 
+     MakeDirty(
+-        ImGui::Checkbox("Show speed indicators for modified speeds", &guiSettings.showSpeedIndicatorForAllSpeeds));
++        ImGui::Checkbox(TR("Show speed indicators for modified speeds"), &guiSettings.showSpeedIndicatorForAllSpeeds));
+     widgets::ExplanationTooltip(
+         "When enabled, the speed indicator will be displayed for any emulation speed other than 100%.\n"
+         "When disabled, the speed indicator is only displayed while running in turbo speed.\n"
+diff --git a/apps/ymir-sdl3/src/app/ui/views/settings/hotkeys_settings_view.cpp b/apps/ymir-sdl3/src/app/ui/views/settings/hotkeys_settings_view.cpp
+index 5f02cc5..27590a7 100644
+--- a/apps/ymir-sdl3/src/app/ui/views/settings/hotkeys_settings_view.cpp
++++ b/apps/ymir-sdl3/src/app/ui/views/settings/hotkeys_settings_view.cpp
+@@ -1,9 +1,12 @@
+ #include "hotkeys_settings_view.hpp"
+ 
+ #include <app/imgui_data.hpp>
++#include <app/ui/i18n.hpp>
+ 
+ namespace app::ui {
+ 
++#define TR(text) i18n::tr(text)
++
+ HotkeysSettingsView::HotkeysSettingsView(SharedContext &context)
+     : SettingsViewBase(context)
+     , m_inputCaptureWidget(context, m_unboundActionsWidget)
+@@ -13,19 +16,19 @@ void HotkeysSettingsView::Display() {
+     const YmirImGuiData *imguiData = GetYmirImGuiData();
+     auto &settings = GetSettings();
+ 
+-    if (ImGui::Button("Restore defaults")) {
++    if (ImGui::Button(TR("Restore defaults"))) {
+         m_unboundActionsWidget.Capture(settings.ResetHotkeys());
+         MakeDirty();
+     }
+ 
+-    ImGui::TextUnformatted("Left-click a button to assign a hotkey. Right-click to clear.");
++    ImGui::TextUnformatted(TR("Left-click a button to assign a hotkey. Right-click to clear."));
+     m_unboundActionsWidget.Display();
+     if (ImGui::BeginTable("hotkeys", 2 + input::kNumBindsPerInput,
+                           ImGuiTableFlags_SizingStretchProp | ImGuiTableFlags_ScrollY)) {
+-        ImGui::TableSetupColumn("Type", ImGuiTableColumnFlags_WidthFixed, 80.0f * imguiData->displayScale);
+-        ImGui::TableSetupColumn("Command", ImGuiTableColumnFlags_WidthFixed, 200.0f * imguiData->displayScale);
++        ImGui::TableSetupColumn(TR("Type"), ImGuiTableColumnFlags_WidthFixed, 80.0f * imguiData->displayScale);
++        ImGui::TableSetupColumn(TR("Command"), ImGuiTableColumnFlags_WidthFixed, 200.0f * imguiData->displayScale);
+         for (size_t i = 0; i < input::kNumBindsPerInput; i++) {
+-            ImGui::TableSetupColumn(fmt::format("Hotkey {}", i + 1).c_str(), ImGuiTableColumnFlags_WidthStretch, 1.0f);
++            ImGui::TableSetupColumn(fmt::format(TR("Hotkey {}"), i + 1).c_str(), ImGuiTableColumnFlags_WidthStretch, 1.0f);
+         }
+         ImGui::TableSetupScrollFreeze(0, 1);
+         ImGui::TableHeadersRow();
+diff --git a/apps/ymir-sdl3/src/app/ui/views/settings/input_settings_view.cpp b/apps/ymir-sdl3/src/app/ui/views/settings/input_settings_view.cpp
+index 4457268..49df8d3 100644
+--- a/apps/ymir-sdl3/src/app/ui/views/settings/input_settings_view.cpp
++++ b/apps/ymir-sdl3/src/app/ui/views/settings/input_settings_view.cpp
+@@ -2,6 +2,7 @@
+ 
+ #include <app/events/gui_event_factory.hpp>
+ 
++#include <app/ui/i18n.hpp>
+ #include <app/ui/widgets/common_widgets.hpp>
+ #include <app/ui/widgets/peripheral_widgets.hpp>
+ 
+@@ -15,6 +16,8 @@ using namespace ymir;
+ 
+ namespace app::ui {
+ 
++#define TR(text) i18n::tr(text)
++
+ InputSettingsView::InputSettingsView(SharedContext &context)
+     : SettingsViewBase(context) {}
+ 
+@@ -28,7 +31,7 @@ void InputSettingsView::Display() {
+         ImGui::TableNextRow();
+         if (ImGui::TableNextColumn()) {
+             ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-            ImGui::SeparatorText("Port 1");
++            ImGui::SeparatorText(TR("Port 1"));
+             ImGui::PopFont();
+ 
+             if (MakeDirty(widgets::Port1PeripheralSelector(m_context))) {
+@@ -37,7 +40,7 @@ void InputSettingsView::Display() {
+         }
+         if (ImGui::TableNextColumn()) {
+             ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-            ImGui::SeparatorText("Port 2");
++            ImGui::SeparatorText(TR("Port 2"));
+             ImGui::PopFont();
+ 
+             if (MakeDirty(widgets::Port2PeripheralSelector(m_context))) {
+@@ -50,7 +53,7 @@ void InputSettingsView::Display() {
+     // -------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Mouse");
++    ImGui::SeparatorText(TR("Mouse"));
+     ImGui::PopFont();
+ 
+     auto mouseCaptureModeRadio = [&](const char *name, Settings::Input::Mouse::CaptureMode value,
+@@ -62,10 +65,10 @@ void InputSettingsView::Display() {
+     };
+ 
+     ImGui::AlignTextToFramePadding();
+-    ImGui::TextUnformatted("Capture mode:");
++    ImGui::TextUnformatted(TR("Capture mode:"));
+     ImGui::SameLine();
+     mouseCaptureModeRadio(
+-        "System cursor", Settings::Input::Mouse::CaptureMode::SystemCursor,
++        TR("System cursor"), Settings::Input::Mouse::CaptureMode::SystemCursor,
+         "Binds the system mouse cursor to a single Virtua Gun controller.\n"
+         "\n"
+         "This mode gives the smoothest experience - you simply point the cursor at the display and click to shoot. "
+@@ -78,7 +81,7 @@ void InputSettingsView::Display() {
+         "selection is ignored and mouse capture behaves as if using the Physical mouse mode.");
+     ImGui::SameLine();
+     mouseCaptureModeRadio(
+-        "Physical mouse", Settings::Input::Mouse::CaptureMode::PhysicalMouse,
++        TR("Physical mouse"), Settings::Input::Mouse::CaptureMode::PhysicalMouse,
+         "Binds a physical mouse to a Virtua Gun controller.\n"
+         "\n"
+         "This mode allows you to simultaneously bind multiple mice to many controllers.\n"
+@@ -92,7 +95,7 @@ void InputSettingsView::Display() {
+         "The system cursor is reenabled if Ymir loses focus or a window is opened by other means, such as opening the "
+         "Settings window with the shortcut or triggering a debugger breakpoint.");
+ 
+-    MakeDirty(ImGui::Checkbox("Lock mouse cursor to window", &settings.mouse.lockToDisplay));
++    MakeDirty(ImGui::Checkbox(TR("Lock mouse cursor to window"), &settings.mouse.lockToDisplay));
+     widgets::ExplanationTooltip("When this option is enabled, if using system cursor capture mode, the mouse cursor "
+                                 "will be constrained to the window area.",
+                                 imguiData->displayScale);
+diff --git a/apps/ymir-sdl3/src/app/ui/views/settings/ipl_settings_view.cpp b/apps/ymir-sdl3/src/app/ui/views/settings/ipl_settings_view.cpp
+index 359fd1e..23a637b 100644
+--- a/apps/ymir-sdl3/src/app/ui/views/settings/ipl_settings_view.cpp
++++ b/apps/ymir-sdl3/src/app/ui/views/settings/ipl_settings_view.cpp
+@@ -2,6 +2,8 @@
+ 
+ #include <app/events/gui_event_factory.hpp>
+ 
++#include <app/ui/i18n.hpp>
++
+ #include <app/imgui_data.hpp>
+ 
+ #include <util/sdl_file_dialog.hpp>
+@@ -16,6 +18,8 @@ using namespace ymir;
+ 
+ namespace app::ui {
+ 
++#define TR(text) i18n::tr(text)
++
+ static const char *GetVariantName(db::SystemVariant variant) {
+     switch (variant) {
+     case db::SystemVariant::None: return "None";
+@@ -61,11 +65,11 @@ void IPLSettingsView::Display() {
+     ImGui::Text("IPL ROMs in %s", fmt::format("{}", iplRomsPath).c_str());
+     ImGui::PopTextWrapPos();
+ 
+-    if (ImGui::Button("Open directory")) {
++    if (ImGui::Button(TR("Open directory"))) {
+         SDL_OpenURL(fmt::format("file:///{}", iplRomsPath).c_str());
+     }
+     ImGui::SameLine();
+-    if (ImGui::Button("Rescan")) {
++    if (ImGui::Button(TR("Rescan"))) {
+         {
+             std::unique_lock lock{m_context.locks.romManager};
+             m_context.romManager.ScanIPLROMs(iplRomsPath);
+@@ -80,11 +84,11 @@ void IPLSettingsView::Display() {
+                           ImGuiTableFlags_ScrollY | ImGuiTableFlags_Sortable | ImGuiTableFlags_SortMulti |
+                               ImGuiTableFlags_SortTristate,
+                           ImVec2(0, 250 * imguiData->displayScale))) {
+-        ImGui::TableSetupColumn("Path", ImGuiTableColumnFlags_WidthStretch | ImGuiTableColumnFlags_DefaultSort, 0.0f);
+-        ImGui::TableSetupColumn("Version", ImGuiTableColumnFlags_WidthFixed, 50 * imguiData->displayScale);
+-        ImGui::TableSetupColumn("Date", ImGuiTableColumnFlags_WidthFixed, 75 * imguiData->displayScale);
+-        ImGui::TableSetupColumn("Variant", ImGuiTableColumnFlags_WidthFixed, 60 * imguiData->displayScale);
+-        ImGui::TableSetupColumn("Region", ImGuiTableColumnFlags_WidthFixed, 105 * imguiData->displayScale);
++        ImGui::TableSetupColumn(TR("Path"), ImGuiTableColumnFlags_WidthStretch | ImGuiTableColumnFlags_DefaultSort, 0.0f);
++        ImGui::TableSetupColumn(TR("Version"), ImGuiTableColumnFlags_WidthFixed, 50 * imguiData->displayScale);
++        ImGui::TableSetupColumn(TR("Date"), ImGuiTableColumnFlags_WidthFixed, 75 * imguiData->displayScale);
++        ImGui::TableSetupColumn(TR("Variant"), ImGuiTableColumnFlags_WidthFixed, 60 * imguiData->displayScale);
++        ImGui::TableSetupColumn(TR("Region"), ImGuiTableColumnFlags_WidthFixed, 105 * imguiData->displayScale);
+         ImGui::TableSetupColumn("##use", ImGuiTableColumnFlags_WidthFixed | ImGuiTableColumnFlags_NoSort,
+                                 useButtonWidth);
+         ImGui::TableSetupScrollFreeze(0, 1);
+diff --git a/apps/ymir-sdl3/src/app/ui/views/settings/system_settings_view.cpp b/apps/ymir-sdl3/src/app/ui/views/settings/system_settings_view.cpp
+index 347fd68..41e4e69 100644
+--- a/apps/ymir-sdl3/src/app/ui/views/settings/system_settings_view.cpp
++++ b/apps/ymir-sdl3/src/app/ui/views/settings/system_settings_view.cpp
+@@ -5,6 +5,7 @@
+ #include <app/events/emu_event_factory.hpp>
+ #include <app/events/gui_event_factory.hpp>
+ 
++#include <app/ui/i18n.hpp>
+ #include <app/ui/widgets/common_widgets.hpp>
+ #include <app/ui/widgets/datetime_widgets.hpp>
+ #include <app/ui/widgets/settings_widgets.hpp>
+@@ -30,6 +31,8 @@ using namespace ymir;
+ 
+ namespace app::ui {
+ 
++#define TR(text) i18n::tr(text)
++
+ SystemSettingsView::SystemSettingsView(SharedContext &context)
+     : SettingsViewBase(context) {}
+ 
+@@ -44,7 +47,7 @@ void SystemSettingsView::Display() {
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Region");
++    ImGui::SeparatorText(TR("Region"));
+     ImGui::PopFont();
+ 
+     if (ImGui::BeginTable("sys_region", 2, ImGuiTableFlags_SizingFixedFit)) {
+@@ -54,7 +57,7 @@ void SystemSettingsView::Display() {
+         ImGui::TableNextRow();
+         if (ImGui::TableNextColumn()) {
+             ImGui::AlignTextToFramePadding();
+-            ImGui::TextUnformatted("Video standard");
++            ImGui::TextUnformatted(TR("Video standard"));
+         }
+         if (ImGui::TableNextColumn()) {
+             MakeDirty(ui::widgets::VideoStandardSelector(m_context));
+@@ -63,7 +66,7 @@ void SystemSettingsView::Display() {
+         ImGui::TableNextRow();
+         if (ImGui::TableNextColumn()) {
+             ImGui::AlignTextToFramePadding();
+-            ImGui::TextUnformatted("Region");
++            ImGui::TextUnformatted(TR("Region"));
+             widgets::ExplanationTooltip("Changing this option will cause a hard reset");
+         }
+         if (ImGui::TableNextColumn()) {
+@@ -74,7 +77,7 @@ void SystemSettingsView::Display() {
+     }
+ 
+     bool autodetectRegion = settings.autodetectRegion.Get();
+-    if (MakeDirty(ImGui::Checkbox("Autodetect region from loaded discs", &autodetectRegion))) {
++    if (MakeDirty(ImGui::Checkbox(TR("Autodetect region from loaded discs"), &autodetectRegion))) {
+         settings.autodetectRegion = autodetectRegion;
+     }
+     widgets::ExplanationTooltip(
+@@ -83,8 +86,8 @@ void SystemSettingsView::Display() {
+         "preferred regions is supported by the game, the emulator will pick the first region listed on the disc.");
+ 
+     ImGui::AlignTextToFramePadding();
+-    ImGui::TextUnformatted("Preferred region order:");
+-    widgets::ExplanationTooltip("Drag items to reorder");
++    ImGui::TextUnformatted(TR("Preferred region order:"));
++    widgets::ExplanationTooltip(TR("Drag items to reorder"));
+ 
+     std::vector<core::config::sys::Region> prefRgnOrder{};
+     {
+diff --git a/apps/ymir-sdl3/src/app/ui/views/settings/video_settings_view.cpp b/apps/ymir-sdl3/src/app/ui/views/settings/video_settings_view.cpp
+index 6373f9b..459fe69 100644
+--- a/apps/ymir-sdl3/src/app/ui/views/settings/video_settings_view.cpp
++++ b/apps/ymir-sdl3/src/app/ui/views/settings/video_settings_view.cpp
+@@ -2,6 +2,7 @@
+ 
+ #include <app/events/gui_event_factory.hpp>
+ 
++#include <app/ui/i18n.hpp>
+ #include <app/ui/widgets/common_widgets.hpp>
+ #include <app/ui/widgets/settings_widgets.hpp>
+ 
+@@ -11,6 +12,8 @@
+ 
+ namespace app::ui {
+ 
++#define TR(text) i18n::tr(text)
++
+ VideoSettingsView::VideoSettingsView(SharedContext &context)
+     : SettingsViewBase(context) {}
+ 
+@@ -21,7 +24,7 @@ void VideoSettingsView::Display() {
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("General");
++    ImGui::SeparatorText(TR("General"));
+     ImGui::PopFont();
+ 
+     // TODO: don't apply these settings immediately:
+@@ -41,7 +44,7 @@ void VideoSettingsView::Display() {
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Software renderer");
++    ImGui::SeparatorText(TR("Software renderer"));
+     ImGui::PopFont();
+ 
+     widgets::settings::video::swrenderer::ThreadedVDP(m_context);
+@@ -49,7 +52,7 @@ void VideoSettingsView::Display() {
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Enhancements");
++    ImGui::SeparatorText(TR("Enhancements"));
+     ImGui::PopFont();
+ 
+     widgets::settings::video::enhancements::Deinterlace(m_context);
+@@ -58,11 +61,11 @@ void VideoSettingsView::Display() {
+     // -----------------------------------------------------------------------------------------------------------------
+ 
+     ImGui::PushFont(imguiData->fonts.sansSerif.bold, imguiData->fontSizes.large);
+-    ImGui::SeparatorText("Display");
++    ImGui::SeparatorText(TR("Display"));
+     ImGui::PopFont();
+ 
+-    MakeDirty(ImGui::Checkbox("Force integer scaling", &settings.forceIntegerScaling));
+-    MakeDirty(ImGui::Checkbox("Force aspect ratio", &settings.forceAspectRatio));
++    MakeDirty(ImGui::Checkbox(TR("Force integer scaling"), &settings.forceIntegerScaling));
++    MakeDirty(ImGui::Checkbox(TR("Force aspect ratio"), &settings.forceAspectRatio));
+     widgets::ExplanationTooltip("If disabled, forces square pixels.");
+     ImGui::SameLine();
+     if (MakeDirty(ImGui::Button("4:3"))) {
+@@ -86,21 +89,21 @@ void VideoSettingsView::Display() {
+ 
+     ImGui::Separator();
+ 
+-    MakeDirty(ImGui::Checkbox("Auto-fit window to screen", &settings.autoResizeWindow));
++    MakeDirty(ImGui::Checkbox(TR("Auto-fit window to screen"), &settings.autoResizeWindow));
+     widgets::ExplanationTooltip("If forced aspect ratio is disabled, adjusts and recenters the window whenever the "
+                                 "display resolution changes.");
+     ImGui::SameLine();
+     if (settings.displayVideoOutputInWindow) {
+         ImGui::BeginDisabled();
+     }
+-    if (MakeDirty(ImGui::Button("Fit now"))) {
++    if (MakeDirty(ImGui::Button(TR("Fit now")))) {
+         m_context.EnqueueEvent(events::gui::FitWindowToScreen());
+     }
+     if (settings.displayVideoOutputInWindow) {
+         ImGui::EndDisabled();
+     }
+ 
+-    if (MakeDirty(ImGui::Checkbox("Windowed video output", &settings.displayVideoOutputInWindow))) {
++    if (MakeDirty(ImGui::Checkbox(TR("Windowed video output"), &settings.displayVideoOutputInWindow))) {
+         m_context.EnqueueEvent(events::gui::FitWindowToScreen());
+     }
+     widgets::ExplanationTooltip("Moves the display into a dedicated window.\n"
+@@ -109,11 +112,11 @@ void VideoSettingsView::Display() {
+     ImGui::Separator();
+ 
+     bool fullScreen = settings.fullScreen.Get();
+-    if (MakeDirty(ImGui::Checkbox("Full screen", &fullScreen))) {
++    if (MakeDirty(ImGui::Checkbox(TR("Full screen"), &fullScreen))) {
+         settings.fullScreen = fullScreen;
+     }
+ 
+-    MakeDirty(ImGui::Checkbox("Double-click to toggle full screen", &settings.doubleClickToFullScreen));
++    MakeDirty(ImGui::Checkbox(TR("Double-click to toggle full screen"), &settings.doubleClickToFullScreen));
+     widgets::ExplanationTooltip("This option will not work if you are using a Virtua Gun or Shuttle Mouse.");
+ 
+     auto formatDisplay = [&](SDL_DisplayID id) -> std::string {
+@@ -141,7 +144,7 @@ void VideoSettingsView::Display() {
+                            pixelFormat->bits_per_pixel, desktopMode->refresh_rate);
+     };
+ 
+-    if (ImGui::BeginCombo("Full screen display", formatDisplay(m_context.display.id).c_str())) {
++    if (ImGui::BeginCombo(TR("Full screen display"), formatDisplay(m_context.display.id).c_str())) {
+         auto entry = [&](SDL_DisplayID id) {
+             if (MakeDirty(ImGui::Selectable(formatDisplay(id).c_str(), m_context.display.id == id))) {
+                 if (m_context.display.id != id) {
+@@ -180,8 +183,8 @@ void VideoSettingsView::Display() {
+         "\n"
+         "The \"Current display\" option causes Ymir to go full screen on the display where the window is located at.");
+ 
+-    if (ImGui::BeginCombo("Full screen resolution",
+-                          settings.borderlessFullScreen ? "Borderless full screen"
++    if (ImGui::BeginCombo(TR("Full screen resolution"),
++                          settings.borderlessFullScreen ? TR("Borderless full screen")
+                                                         : formatMode(settings.fullScreenMode).c_str(),
+                           ImGuiComboFlags_HeightLarge)) {
+         auto entry = [&](const display::DisplayMode &mode) {
+@@ -196,7 +199,7 @@ void VideoSettingsView::Display() {
+             }
+         };
+ 
+-        if (MakeDirty(ImGui::Selectable("Borderless full screen", settings.borderlessFullScreen))) {
++        if (MakeDirty(ImGui::Selectable(TR("Borderless full screen"), settings.borderlessFullScreen))) {
+             if (!settings.borderlessFullScreen) {
+                 settings.borderlessFullScreen = true;
+                 settings.fullScreenMode = {};
+diff --git a/apps/ymir-sdl3/src/app/ui/widgets/cartridge_widgets.cpp b/apps/ymir-sdl3/src/app/ui/widgets/cartridge_widgets.cpp
+index d27e76f..0b384fc 100644
+--- a/apps/ymir-sdl3/src/app/ui/widgets/cartridge_widgets.cpp
++++ b/apps/ymir-sdl3/src/app/ui/widgets/cartridge_widgets.cpp
+@@ -1,22 +1,26 @@
+ #include "cartridge_widgets.hpp"
+ 
++#include <app/ui/i18n.hpp>
++
+ #include <ymir/hw/cart/cart.hpp>
+ 
+ #include <imgui.h>
+ 
+ namespace app::ui::widgets {
+ 
++#define TR(text) i18n::tr(text)
++
+ void CartridgeInfo(SharedContext &ctx) {
+     using namespace ymir;
+ 
+     std::unique_lock lock{ctx.locks.cart};
+     auto &cart = ctx.saturn.GetCartridge();
+     switch (cart.GetType()) {
+-    case cart::CartType::None: ImGui::TextUnformatted("None"); break;
++    case cart::CartType::None: ImGui::TextUnformatted(TR("None")); break;
+     case cart::CartType::BackupMemory: //
+     {
+         auto &bupCart = *cart.As<cart::CartType::BackupMemory>();
+-        ImGui::Text("%u Mbit Backup RAM", bupCart.GetBackupMemory().Size() * 8u / 1024u / 1024u);
++        ImGui::Text(TR("%u Mbit Backup RAM"), bupCart.GetBackupMemory().Size() * 8u / 1024u / 1024u);
+         break;
+     }
+     case cart::CartType::DRAM8Mbit: ImGui::TextUnformatted("8 Mbit DRAM"); break;
+diff --git a/apps/ymir-sdl3/src/app/ui/widgets/input_widgets.cpp b/apps/ymir-sdl3/src/app/ui/widgets/input_widgets.cpp
+index 535b2c1..77944fb 100644
+--- a/apps/ymir-sdl3/src/app/ui/widgets/input_widgets.cpp
++++ b/apps/ymir-sdl3/src/app/ui/widgets/input_widgets.cpp
+@@ -2,6 +2,8 @@
+ 
+ #include <app/events/gui_event_factory.hpp>
+ 
++#include <app/ui/i18n.hpp>
++
+ #include <app/imgui_data.hpp>
+ #include <app/settings.hpp>
+ #include <app/settings_defaults.hpp>
+@@ -11,6 +13,8 @@
+ 
+ namespace app::ui::widgets {
+ 
++#define TR(text) i18n::tr(text)
++
+ InputCaptureWidget::InputCaptureWidget(SharedContext &context, UnboundActionsWidget &unboundActionsWidget)
+     : m_context(context)
+     , m_unboundActionsWidget(unboundActionsWidget) {}
+@@ -61,28 +65,28 @@ void InputCaptureWidget::DrawCapturePopup() {
+         case Trigger: [[fallthrough]];
+         case RepeatableTrigger: [[fallthrough]];
+         case Button:
+-            ImGui::TextUnformatted("Press any key or gamepad button to map it.\n\n"
+-                                   "Press Escape or click outside of this popup to cancel.");
++            ImGui::TextUnformatted(TR("Press any key or gamepad button to map it.\n\n"
++                                      "Press Escape or click outside of this popup to cancel."));
+             break;
+         case ComboTrigger:
+-            ImGui::TextUnformatted("Press any key combo with at least one modifier key to map it.\n\n"
+-                                   "Press Escape or click outside of this popup to cancel.");
++            ImGui::TextUnformatted(TR("Press any key combo with at least one modifier key to map it.\n\n"
++                                      "Press Escape or click outside of this popup to cancel."));
+             break;
+         case AbsoluteMonopolarAxis1D:
+-            ImGui::TextUnformatted("Move any one-dimensional monopolar axis such as analog triggers to map it.\n\n"
+-                                   "Press Escape or click outside of this popup to cancel.");
++            ImGui::TextUnformatted(TR("Move any one-dimensional monopolar axis such as analog triggers to map it.\n\n"
++                                      "Press Escape or click outside of this popup to cancel."));
+             break;
+         case AbsoluteBipolarAxis1D: [[fallthrough]];
+         case RelativeBipolarAxis1D:
+-            ImGui::TextUnformatted("Move any one-dimensional bipolar axis such as analog wheels or one direction of an "
+-                                   "analog stick to map it.\n\n"
+-                                   "Press Escape or click outside of this popup to cancel.");
++            ImGui::TextUnformatted(TR("Move any one-dimensional bipolar axis such as analog wheels or one direction of an "
++                                      "analog stick to map it.\n\n"
++                                      "Press Escape or click outside of this popup to cancel."));
+             break;
+         case AbsoluteBipolarAxis2D: [[fallthrough]];
+         case RelativeBipolarAxis2D:
+-            ImGui::TextUnformatted(
++            ImGui::TextUnformatted(TR(
+                 "Move any two-dimensional bipolar axis such as analog sticks or D-Pads to map it.\n\n"
+-                "Press Escape or click outside of this popup to cancel.");
++                "Press Escape or click outside of this popup to cancel."));
+             break;
+         }
+ 
+diff --git a/apps/ymir-sdl3/src/app/ui/widgets/peripheral_widgets.cpp b/apps/ymir-sdl3/src/app/ui/widgets/peripheral_widgets.cpp
+index 132ea15..6c5fd00 100644
+--- a/apps/ymir-sdl3/src/app/ui/widgets/peripheral_widgets.cpp
++++ b/apps/ymir-sdl3/src/app/ui/widgets/peripheral_widgets.cpp
+@@ -2,6 +2,8 @@
+ 
+ #include <app/events/gui_event_factory.hpp>
+ 
++#include <app/ui/i18n.hpp>
++
+ #include <app/settings.hpp>
+ 
+ #include <ymir/hw/smpc/smpc.hpp>
+@@ -10,6 +12,8 @@ using namespace ymir;
+ 
+ namespace app::ui::widgets {
+ 
++#define TR(text) i18n::tr(text)
++
+ bool PeripheralSelector(SharedContext &ctx, uint32 portIndex) {
+     std::unique_lock lock{ctx.locks.peripherals};
+ 
+@@ -32,7 +36,7 @@ bool PeripheralSelector(SharedContext &ctx, uint32 portIndex) {
+             if (ImGui::TableNextColumn()) {
+                 ImGui::AlignTextToFramePadding();
+                 // TODO: multitap -- ImGui::Text("Slot %u:", slotIndex);
+-                ImGui::TextUnformatted("Peripheral:");
++                ImGui::TextUnformatted(TR("Peripheral:"));
+             }
+             if (ImGui::TableNextColumn()) {
+                 ImGui::SetNextItemWidth(-1);
+@@ -51,7 +55,7 @@ bool PeripheralSelector(SharedContext &ctx, uint32 portIndex) {
+                 if (isNone) {
+                     ImGui::BeginDisabled();
+                 }
+-                if (ImGui::Button(fmt::format("Configure##{}_{}", portIndex, slotIndex).c_str())) {
++                if (ImGui::Button(fmt::format("{}##{}_{}", TR("Configure"), portIndex, slotIndex).c_str())) {
+                     ctx.EnqueueEvent(events::gui::OpenPeripheralBindsEditor(portIndex - 1, slotIndex));
+                 }
+                 if (isNone) {
+diff --git a/apps/ymir-sdl3/src/app/ui/windows/update_onboarding_window.cpp b/apps/ymir-sdl3/src/app/ui/windows/update_onboarding_window.cpp
+index eda1260..79db14c 100644
+--- a/apps/ymir-sdl3/src/app/ui/windows/update_onboarding_window.cpp
++++ b/apps/ymir-sdl3/src/app/ui/windows/update_onboarding_window.cpp
+@@ -2,6 +2,8 @@
+ 
+ #include <app/settings.hpp>
+ 
++#include <app/ui/i18n.hpp>
++
+ #include <app/ui/widgets/common_widgets.hpp>
+ 
+ #include <app/events/gui_event_factory.hpp>
+@@ -16,10 +18,12 @@
+ 
+ namespace app::ui {
+ 
++#define TR(text) i18n::tr(text)
++
+ UpdateOnboardingWindow::UpdateOnboardingWindow(SharedContext &context)
+     : WindowBase(context) {
+ 
+-    m_windowConfig.name = "Automatic update checks";
++    m_windowConfig.name = TR("Automatic update checks");
+     m_windowConfig.flags = ImGuiWindowFlags_AlwaysAutoResize | ImGuiWindowFlags_NoCollapse;
+ }
+ 
+@@ -33,24 +37,24 @@ void UpdateOnboardingWindow::DrawContents() {
+     const YmirImGuiData *imguiData = GetYmirImGuiData();
+     ImGui::PushTextWrapPos(450.0f * imguiData->displayScale);
+ 
+-    ImGui::TextUnformatted("Ymir can check for new versions automatically on startup.");
+-    ImGui::TextUnformatted("This requires an Internet connection and will reach github.com to check for new versions.");
+-    ImGui::TextUnformatted("Please make your choices below:");
+-    ImGui::Checkbox("Check for updates on startup", &m_checkForUpdates);
++    ImGui::TextUnformatted(TR("Ymir can check for new versions automatically on startup."));
++    ImGui::TextUnformatted(TR("This requires an Internet connection and will reach github.com to check for new versions."));
++    ImGui::TextUnformatted(TR("Please make your choices below:"));
++    ImGui::Checkbox(TR("Check for updates on startup"), &m_checkForUpdates);
+     widgets::ExplanationTooltip(
+-        "Ymir will check for updates whenever it is launched, and notify you if a new version is available.\n"
+-        "Upon accepting, Ymir will immediately check for updates if this option is enabled.");
+-    ImGui::Checkbox("Update to nightly builds", &m_includeNightlyBuilds);
++        TR("Ymir will check for updates whenever it is launched, and notify you if a new version is available.\n"
++           "Upon accepting, Ymir will immediately check for updates if this option is enabled."));
++    ImGui::Checkbox(TR("Update to nightly builds"), &m_includeNightlyBuilds);
+     widgets::ExplanationTooltip(
+-        "Whenever Ymir checks for updates, it will also consider nightly builds.\n"
+-        "Nightly builds include the latest features and bug fixes, but are work-in-progress and may contain bugs");
++        TR("Whenever Ymir checks for updates, it will also consider nightly builds.\n"
++           "Nightly builds include the latest features and bug fixes, but are work-in-progress and may contain bugs"));
+ 
+     ImGui::NewLine();
+-    ImGui::TextUnformatted("Choose Accept to apply these settings or Decide later to close this window now.\n"
+-                           "If you choose to decide later, this popup will appear again on next startup.");
++    ImGui::TextUnformatted(TR("Choose Accept to apply these settings or Decide later to close this window now.\n"
++                              "If you choose to decide later, this popup will appear again on next startup."));
+ 
+     ImGui::Separator();
+-    if (ImGui::Button("Accept")) {
++    if (ImGui::Button(TR("Accept"))) {
+         const auto updatesPath = m_context.profile.GetPath(ProfilePath::PersistentState) / "updates";
+         const auto onboardedPath = updatesPath / ".onboarded";
+         std::filesystem::create_directories(updatesPath);
+@@ -67,7 +71,7 @@ void UpdateOnboardingWindow::DrawContents() {
+         Open = false;
+     }
+     ImGui::SameLine();
+-    if (ImGui::Button("Decide later")) {
++    if (ImGui::Button(TR("Decide later"))) {
+         Open = false;
+     }
+ 
