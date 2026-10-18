@@ -1,0 +1,900 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (Modern Apps)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 22:27+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/modern-apps/youpipe/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#.  App name: launcher label. Proper noun YouPipe
+#, java-printf-format
+msgctxt "app_name"
+msgid "YouPipe"
+msgstr "YouPipe"
+
+#.  Search bar placeholder hint. Noun, also tab label for search
+#.  Video item + channel header: subscriber count. %1$s = formatted count e.g.
+#. 12K. Keep word subscribers lower case
+#, java-printf-format, xml-text
+msgctxt "subscribers_count"
+msgid "<xliff:g id=\"count\" example=\"12K\">%1$s</xliff:g> subscribers"
+msgstr "<xliff:g id=\"count\" example=\"12K\">%1$s</xliff:g> prenumeranter"
+
+#.  Empty state when recommendations empty, prompts user to watch videos to
+#. get personalized feed
+#, java-printf-format
+msgctxt "empty_recommendations"
+msgid "Watch some videos to get personalized recommendations"
+msgstr "Titta på några videor för att få personliga rekommendationer"
+
+#.  Video item details: channel | views | time. %1$s = channel name, %2$s =
+#. view count e.g. 1.2M views, %3$s = time ago e.g. 2 days ago. Keep pipe
+#. separators
+#, java-printf-format, xml-text
+msgctxt "video_info_format"
+msgid ""
+"<xliff:g id=\"channel\" example=\"Linus Tech Tips\">%1$s</xliff:g> | "
+"<xliff:g id=\"views\" example=\"1.2M\">%2$s</xliff:g> views | <xliff:g "
+"id=\"time\" example=\"2 days ago\">%3$s</xliff:g>"
+msgstr ""
+"<xliff:g id=\"channel\" example=\"Linus Tech Tips\">%1$s</xliff:g> | "
+"<xliff:g id=\"views\" example=\"1.2M\">%2$s</xliff:g> visningar | <xliff:g "
+"id=\"time\" example=\"2 days ago\">%3$s</xliff:g>"
+
+#.  Recommendation explanation line: why this video suggested. %1$s = reason
+#. e.g. watched similar
+#, java-printf-format, xml-text
+msgctxt "recommendation_reason"
+msgid "Why: <xliff:g id=\"reason\" example=\"watched similar\">%1$s</xliff:g>"
+msgstr "Varför: <xliff:g id=\"reason\" example=\"watched similar\">%1$s</xliff:g>"
+
+#.  Section header for recommendations feed. Noun plural
+#, java-printf-format
+msgctxt "label_recommendations"
+msgid "Recommendations"
+msgstr "Rekommendationer"
+
+#.  Time ago: just now (<1 minute). Phrase
+#, java-printf-format
+msgctxt "time_ago_just_now"
+msgid "Just now"
+msgstr "Just nu"
+
+#.  Time ago: minutes. %1$d = number of minutes
+#, java-printf-format, xml-text
+msgctxt "time_ago_minutes"
+msgid "<xliff:g id=\"minutes\" example=\"5\">%1$d</xliff:g> minutes ago"
+msgstr "för <xliff:g id=\"minutes\" example=\"5\">%1$d</xliff:g> minuter sedan"
+
+#.  Time ago: hours. %1$d = number of hours
+#, java-printf-format, xml-text
+msgctxt "time_ago_hours"
+msgid "<xliff:g id=\"hours\" example=\"3\">%1$d</xliff:g> hours ago"
+msgstr "för <xliff:g id=\"hours\" example=\"3\">%1$d</xliff:g> timmar sedan"
+
+#.  Time ago: days. %1$d = number of days
+#, java-printf-format, xml-text
+msgctxt "time_ago_days"
+msgid "<xliff:g id=\"days\" example=\"2\">%1$d</xliff:g> days ago"
+msgstr "för <xliff:g id=\"days\" example=\"2\">%1$d</xliff:g> dagar sedan"
+
+#.  Time ago: months. %1$d = number of months
+#, java-printf-format, xml-text
+msgctxt "time_ago_months"
+msgid "<xliff:g id=\"months\" example=\"6\">%1$d</xliff:g> months ago"
+msgstr "för <xliff:g id=\"months\" example=\"6\">%1$d</xliff:g> månader sedan"
+
+#.  Time ago: years. %1$d = number of years
+#, java-printf-format, xml-text
+msgctxt "time_ago_years"
+msgid "<xliff:g id=\"years\" example=\"1\">%1$d</xliff:g> years ago"
+msgstr "för <xliff:g id=\"years\" example=\"1\">%1$d</xliff:g> år sedan"
+
+#.  Short count: thousands. %1$s = number like 12.3, suffix K for thousand.
+#. Keep K uppercase
+#, java-printf-format, xml-text
+msgctxt "count_k_format"
+msgid "<xliff:g id=\"number\" example=\"12.3\">%1$s</xliff:g>K"
+msgstr "<xliff:g id=\"number\" example=\"12.3\">%1$s</xliff:g> t"
+
+#.  Short count: millions. %1$s = number, suffix M
+#, java-printf-format, xml-text
+msgctxt "count_m_format"
+msgid "<xliff:g id=\"number\" example=\"1.2\">%1$s</xliff:g>M"
+msgstr "<xliff:g id=\"number\" example=\"1.2\">%1$s</xliff:g> mn"
+
+#.  Short count: billions. %1$s = number, suffix B
+#, java-printf-format, xml-text
+msgctxt "count_b_format"
+msgid "<xliff:g id=\"number\" example=\"3.4\">%1$s</xliff:g>B"
+msgstr "<xliff:g id=\"number\" example=\"3.4\">%1$s</xliff:g> mdr"
+
+#.  Video load error dialog text explaining YouTube may have blocked anonymous
+#. watch from IP
+#, java-printf-format
+msgctxt "video_load_error"
+msgid ""
+"Video load error - Youtube may have blocked anonymous watch access from this"
+" IP"
+msgstr ""
+"Det gick inte att läsa in videon. YouTube kan ha blockerat anonym visning "
+"från den här IP-adressen"
+
+#.  Snackbar: playback stopped mid-video (e.g. the stream could not be
+#. fetched). Sentence
+#, java-printf-format
+msgctxt "playback_error"
+msgid "Playback stopped unexpectedly. Please try again."
+msgstr "Uppspelningen stoppades oväntat. Försök igen."
+
+#.  Snackbar: a subscription backup file is in an unsupported (e.g. encrypted)
+#. format. Sentence
+#, java-printf-format
+msgctxt "restore_unsupported_format"
+msgid "This backup file format is not supported."
+msgstr "Det här säkerhetskopieringsformatet stöds inte."
+
+#.  Button: go back from error dialog. Verb phrase
+#, java-printf-format
+msgctxt "action_go_back"
+msgid "Go Back"
+msgstr "Gå tillbaka"
+
+#.  Tab label: comments section under video. Noun plural
+#, java-printf-format
+msgctxt "label_comments"
+msgid "Comments"
+msgstr "Kommentarer"
+
+#.  Tab label: related videos pager tab. Noun phrase
+#, java-printf-format
+msgctxt "label_related_videos"
+msgid "Related Videos"
+msgstr "Relaterade videor"
+
+#.  Tab label: video description tab. Noun
+#, java-printf-format
+msgctxt "label_description"
+msgid "Description"
+msgstr "Beskrivning"
+
+#.  Download dialog: title for download options sheet. Noun phrase
+#, java-printf-format
+msgctxt "download_options"
+msgid "Download Options"
+msgstr "Hämtningsalternativ"
+
+#.  Button: start download. Verb
+#, java-printf-format
+msgctxt "download"
+msgid "Download"
+msgstr "Hämta"
+
+#.  Label: video resolution section in download dialog. Noun
+#, java-printf-format
+msgctxt "resolution"
+msgid "Resolution"
+msgstr "Upplösning"
+
+#.  Label: language selection for audio/captions. Noun
+#, java-printf-format
+msgctxt "language"
+msgid "Language"
+msgstr "Språk"
+
+#.  Menu item: captions off. Adjective/state
+#.  Menu label: chapter marker in video. Noun
+#, java-printf-format
+msgctxt "chapter"
+msgid "Chapter"
+msgstr "Kapitel"
+
+#.  Button: closed captions toggle. Abbreviation CC
+#, java-printf-format
+msgctxt "cc"
+msgid "CC"
+msgstr "CC"
+
+#.  Video stats format: views | time ago for channel list items. %1$s = views
+#. e.g. 1M, %2$s = time ago e.g. 3 days ago
+#, java-printf-format, xml-text
+msgctxt "video_stat_format"
+msgid ""
+"<xliff:g id=\"views\" example=\"1M\">%1$s</xliff:g> views | <xliff:g "
+"id=\"time\" example=\"3 days ago\">%2$s</xliff:g>"
+msgstr ""
+"<xliff:g id=\"views\" example=\"1M\">%1$s</xliff:g> visningar | <xliff:g "
+"id=\"time\" example=\"3 days ago\">%2$s</xliff:g>"
+
+#.  Video stats format for paid videos, which have no public view count. %1$s
+#. = time ago e.g. 3 days ago
+#, java-printf-format, xml-text
+msgctxt "video_stat_paid_format"
+msgid "Paid | <xliff:g id=\"time\" example=\"3 days ago\">%1$s</xliff:g>"
+msgstr "Betalvideo | <xliff:g id=\"time\" example=\"3 days ago\">%1$s</xliff:g>"
+
+#.  Video byline for paid videos, which have no public view count. %1$s =
+#. channel name, %2$s = time ago
+#, java-printf-format, xml-text
+msgctxt "video_info_paid_format"
+msgid ""
+"<xliff:g id=\"channel\" example=\"Linus Tech Tips\">%1$s</xliff:g> | Paid | "
+"<xliff:g id=\"time\" example=\"2 days ago\">%2$s</xliff:g>"
+msgstr ""
+"<xliff:g id=\"channel\" example=\"Linus Tech Tips\">%1$s</xliff:g> | "
+"Betalvideo | <xliff:g id=\"time\" example=\"2 days ago\">%2$s</xliff:g>"
+
+#.  Quality with fps and codec. %1$s = quality, %2$d = fps e.g. 60, %3$s =
+#. codec
+#, java-printf-format, xml-text
+msgctxt "video_quality_fps_codec"
+msgid ""
+"<xliff:g id=\"quality\" example=\"1080p\">%1$s</xliff:g> (<xliff:g "
+"id=\"fps\" example=\"60\">%2$d</xliff:g>fps) <xliff:g id=\"codec\" "
+"example=\"avc\">%3$s</xliff:g>"
+msgstr ""
+"<xliff:g id=\"quality\" example=\"1080p\">%1$s</xliff:g> (<xliff:g "
+"id=\"fps\" example=\"60\">%2$d</xliff:g> fps) <xliff:g id=\"codec\" "
+"example=\"avc\">%3$s</xliff:g>"
+
+#.  Button: subscribe to channel. Verb
+#, java-printf-format
+msgctxt "action_subscribe"
+msgid "Subscribe"
+msgstr "Prenumerera"
+
+#.  Button: unsubscribe from channel. Verb with prefix Un
+#, java-printf-format
+msgctxt "action_unsubscribe"
+msgid "Unsubscribe"
+msgstr "Avsluta prenumerationen"
+
+#.  TopAppBar title for subscriptions feed. Noun plural
+#, java-printf-format
+msgctxt "title_subscriptions"
+msgid "Subscriptions"
+msgstr "Prenumerationer"
+
+#.  Section header: groups of subscriptions created by user. Noun plural,
+#. Title Case
+#, java-printf-format
+msgctxt "label_groups"
+msgid "Groups:"
+msgstr "Grupper:"
+
+#.  Section header: all subscriptions feed. Noun phrase
+#, java-printf-format
+msgctxt "label_all_subscriptions"
+msgid "All Subscriptions"
+msgstr "Alla prenumerationer"
+
+#.  Section header: channels list in subscription groups. Noun plural
+#, java-printf-format
+msgctxt "label_channels"
+msgid "Channels:"
+msgstr "Kanaler:"
+
+#.  Loading row text when fetching recent subscriptions. Sentence present
+#. participle
+#, java-printf-format
+msgctxt "loading_recent_subscriptions"
+msgid "Loading recent subscriptions"
+msgstr "Läser in senaste prenumerationerna"
+
+#.  Dialog title: create new subscription category. Verb phrase Title Case
+#, java-printf-format
+msgctxt "title_create_subscription_category"
+msgid "Create subscription category"
+msgstr "Skapa prenumerationskategori"
+
+#.  Dialog title: update existing subscription category. Verb phrase
+#, java-printf-format
+msgctxt "title_update_subscription_category"
+msgid "Update subscription category"
+msgstr "Uppdatera prenumerationskategori"
+
+#.  Field label: category name input. Noun phrase
+#, java-printf-format
+msgctxt "label_category_name"
+msgid "Category name"
+msgstr "Kategorinamn"
+
+#.  Field label: multi-select subscriptions to include in category. Verb
+#. phrase with colon
+#, java-printf-format
+msgctxt "label_select_subscriptions"
+msgid "Select subscriptions:"
+msgstr "Välj prenumerationer:"
+
+#.  Button: update category. Verb
+#, java-printf-format
+msgctxt "action_update"
+msgid "Update"
+msgstr "Uppdatera"
+
+#.  Settings section header: general app options. Noun, Title Case
+#, java-printf-format
+msgctxt "label_general"
+msgid "General"
+msgstr "Allmänt"
+
+#.  Settings row: choose which screen the app opens to at launch. Verb phrase
+#, java-printf-format
+msgctxt "label_default_page"
+msgid "Open to"
+msgstr "Öppna på"
+
+#.  Default-page option: the home/search feed. Noun
+#.  TopAppBar title for the Saved playlists hub. Noun
+#.  TopAppBar title for the downloads detail page and the Saved row for it.
+#. Noun plural
+#, java-printf-format
+msgctxt "title_downloads"
+msgid "Downloads"
+msgstr "Hämtningar"
+
+#.  Name of the mandatory, non-deletable Watch later playlist. Noun phrase
+#, java-printf-format
+msgctxt "playlist_watch_later"
+msgid "Watch later"
+msgstr "Titta senare"
+
+#.  Dialog title: create a new playlist. Verb phrase Title Case
+#, java-printf-format
+msgctxt "title_create_playlist"
+msgid "Create playlist"
+msgstr "Skapa spellista"
+
+#.  Field label: playlist name input. Noun phrase
+#, java-printf-format
+msgctxt "label_playlist_name"
+msgid "Playlist name"
+msgstr "Spellistans namn"
+
+#.  Button: create playlist / category. Verb
+#.  Dialog title: add current video to playlists. Verb phrase
+#, java-printf-format
+msgctxt "add_to_playlist"
+msgid "Add to playlist"
+msgstr "Lägg till i spellista"
+
+#.  Inline field label/hint: create a new playlist. Noun phrase
+#, java-printf-format
+msgctxt "new_playlist"
+msgid "New playlist"
+msgstr "Ny spellista"
+
+#.  Action: delete this playlist. Verb phrase
+#, java-printf-format
+msgctxt "action_delete_playlist"
+msgid "Delete playlist"
+msgstr "Ta bort spellista"
+
+#.  Empty state when a playlist has no videos yet
+#, java-printf-format
+msgctxt "playlist_empty"
+msgid "No videos in this playlist yet"
+msgstr "Det finns inga videor i den här spellistan än"
+
+#.  Progress text shown while a shared video is being added to Watch later.
+#. Present participle
+#, java-printf-format
+msgctxt "adding_to_watch_later"
+msgid "Adding to Watch later…"
+msgstr "Lägger till i Titta senare …"
+
+#.  Supporting line under a playlist row: video count. %1$d = number of videos
+#, java-printf-format, xml-text
+msgctxt "playlist_video_count"
+msgid "<xliff:g id=\"count\" example=\"12\">%1$d</xliff:g> videos"
+msgstr "<xliff:g id=\"count\" example=\"12\">%1$d</xliff:g> videor"
+
+#.  Section header: watch history management in settings. Noun
+#, java-printf-format
+msgctxt "title_history"
+msgid "History"
+msgstr "Historik"
+
+#.  Selection mode badge: number selected (lowercase s in this variant). %1$s
+#. = count e.g. 3
+#, java-printf-format, xml-text
+msgctxt "selected_count"
+msgid "<xliff:g id=\"count\" example=\"3\">%1$s</xliff:g> selected"
+msgstr "<xliff:g id=\"count\" example=\"3\">%1$s</xliff:g> valda"
+
+#.  Dialog title: clear watch history confirmation. Verb phrase
+#, java-printf-format
+msgctxt "clear_history"
+msgid "Clear History"
+msgstr "Rensa historik"
+
+#.  Confirmation body text for clearing all watch history
+#, java-printf-format
+msgctxt "are_you_sure_you_want_to_clear_all_watch"
+msgid "Are you sure you want to clear all watch history?"
+msgstr "Vill du verkligen rensa hela visningshistoriken?"
+
+#.  TopAppBar title for settings screen. Noun plural
+#.  Section header: recommendation system settings. Noun plural
+#.  Slider label: Familiar vs Discovery trade-off for feed. Noun ↔ Noun with
+#. arrow symbol
+#, java-printf-format
+msgctxt "label_dial_discovery"
+msgid "Familiar ↔ Discovery"
+msgstr "Välbekant ↔ Upptäck"
+
+#.  Slider label: Evergreen vs Fresh content recency. Adjective ↔ Adjective
+#, java-printf-format
+msgctxt "label_dial_fresh"
+msgid "Evergreen ↔ Fresh"
+msgstr "Tidlöst ↔ Nytt"
+
+#.  Slider label: Focused vs Diverse topic spread. Adjective ↔ Adjective
+#, java-printf-format
+msgctxt "label_dial_diverse"
+msgid "Focused ↔ Diverse"
+msgstr "Fokuserat ↔ Varierat"
+
+#.  Section subheader: source toggles for recommendation feed
+#, java-printf-format
+msgctxt "label_rec_sources"
+msgid "Sources"
+msgstr "Källor"
+
+#.  Section subheader: content filter switches (hide shorts etc)
+#, java-printf-format
+msgctxt "label_rec_content_filters"
+msgid "Content filters"
+msgstr "Innehållsfilter"
+
+#.  Source toggle: related to watch history. Noun phrase
+#, java-printf-format
+msgctxt "label_source_related"
+msgid "Related to your history"
+msgstr "Kopplat till din historik"
+
+#.  Source toggle: trending videos. Noun
+#, java-printf-format
+msgctxt "label_source_trending"
+msgid "Trending"
+msgstr "Populärt just nu"
+
+#.  Source toggle: feed from user subscriptions. Phrase
+#, java-printf-format
+msgctxt "label_source_subscription"
+msgid "Your subscriptions"
+msgstr "Dina prenumerationer"
+
+#.  Source toggle: top videos from top inferred channels. Noun phrase
+#, java-printf-format
+msgctxt "label_source_top_channel"
+msgid "Top channels"
+msgstr "Toppkanaler"
+
+#.  Source toggle: search-based recommendations. Noun phrase
+#, java-printf-format
+msgctxt "label_source_search"
+msgid "Search-based"
+msgstr "Sökbaserat"
+
+#.  Filter toggle: hide YouTube Shorts short-form videos. Verb phrase
+#, java-printf-format
+msgctxt "label_hide_shorts"
+msgid "Hide Shorts"
+msgstr "Dölj Shorts"
+
+#.  Filter toggle: hide live or unknown duration videos. Verb phrase
+#, java-printf-format
+msgctxt "label_hide_live"
+msgid "Hide live/unknown length"
+msgstr "Dölj direktsänt/okänd längd"
+
+#.  Filter toggle: hide paid/paywalled videos from feeds. Verb phrase
+#, java-printf-format
+msgctxt "label_hide_paid"
+msgid "Hide paid videos"
+msgstr "Dölj betalvideor"
+
+#.  Field label: minimum video length in seconds filter input. Noun phrase
+#. with unit
+#, java-printf-format
+msgctxt "label_min_duration"
+msgid "Min length (seconds)"
+msgstr "Minsta längd (sekunder)"
+
+#.  Field label: maximum video length filter input
+#, java-printf-format
+msgctxt "label_max_duration"
+msgid "Max length (seconds)"
+msgstr "Största längd (sekunder)"
+
+#.  Button: reset recommendation algorithm history and learned interests. Verb
+#. phrase
+#, java-printf-format
+msgctxt "action_reset_algorithm"
+msgid "Reset algorithm"
+msgstr "Återställ algoritmen"
+
+#.  Preset: favor discovery of new content. Verb phrase
+#, java-printf-format
+msgctxt "preset_discover_more"
+msgid "Discover more"
+msgstr "Upptäck mer"
+
+#.  Preset: balanced feed. Adjective
+#, java-printf-format
+msgctxt "preset_balanced"
+msgid "Balanced"
+msgstr "Balanserat"
+
+#.  Preset: primarily subscription content. Noun phrase
+#, java-printf-format
+msgctxt "preset_mostly_subscriptions"
+msgid "Mostly subscriptions"
+msgstr "Mest prenumerationer"
+
+#.  Preset: deeper dives into single topics. Noun phrase
+#, java-printf-format
+msgctxt "preset_deep_dives"
+msgid "Deep dives"
+msgstr "Fördjupningar"
+
+#.  Action: not interested removes interest. Phrase negation
+#, java-printf-format
+msgctxt "action_not_interested"
+msgid "Not interested"
+msgstr "Inte intresserad"
+
+#.  Action: more like this boosts same channel/topic. Phrase
+#, java-printf-format
+msgctxt "action_more_like_this"
+msgid "More like this"
+msgstr "Mer som detta"
+
+#.  Action: pin channel to favorites. Verb phrase
+#, java-printf-format
+msgctxt "action_pin_channel"
+msgid "Pin channel"
+msgstr "Fäst kanal"
+
+#.  Action: block channel hide completely. Verb phrase
+#, java-printf-format
+msgctxt "action_block_channel"
+msgid "Block channel"
+msgstr "Blockera kanal"
+
+#.  TopAppBar title: manage inferred interests and blocks. Verb phrase
+#, java-printf-format
+msgctxt "title_manage_interests"
+msgid "Manage interests"
+msgstr "Hantera intressen"
+
+#.  Section header: channels inferred from watch history. Noun phrase
+#, java-printf-format
+msgctxt "label_your_channels"
+msgid "Your channels"
+msgstr "Dina kanaler"
+
+#.  Section header: topics inferred from history. Noun phrase
+#, java-printf-format
+msgctxt "label_your_topics"
+msgid "Your topics"
+msgstr "Dina ämnen"
+
+#.  Section header: blocked channels list. Noun phrase
+#, java-printf-format
+msgctxt "label_blocked_channels"
+msgid "Blocked channels"
+msgstr "Blockerade kanaler"
+
+#.  Section header: muted keywords list. Noun phrase
+#, java-printf-format
+msgctxt "label_muted_keywords"
+msgid "Muted keywords"
+msgstr "Tystade nyckelord"
+
+#.  Empty state when no channels inferred yet
+#, java-printf-format
+msgctxt "label_no_channels"
+msgid "No inferred channels yet"
+msgstr "Inga kanaler har identifierats än"
+
+#.  Empty state when no topics inferred yet
+#, java-printf-format
+msgctxt "label_no_topics"
+msgid "No inferred topics yet"
+msgstr "Inga ämnen har identifierats än"
+
+#.  Empty state when no blocked channels
+#, java-printf-format
+msgctxt "label_no_blocked_channels"
+msgid "No blocked channels"
+msgstr "Inga blockerade kanaler"
+
+#.  Empty state when no muted keywords
+#, java-printf-format
+msgctxt "label_no_muted_keywords"
+msgid "No muted keywords"
+msgstr "Inga tystade nyckelord"
+
+#.  Badge: pinned channel indicator. Verb past participle
+#, java-printf-format
+msgctxt "label_pinned"
+msgid "Pinned"
+msgstr "Fäst"
+
+#.  Button: pin channel/topic. Verb
+#, java-printf-format
+msgctxt "action_pin"
+msgid "Pin"
+msgstr "Fäst"
+
+#.  Button: unpin previously pinned. Verb with Un prefix
+#, java-printf-format
+msgctxt "action_unpin"
+msgid "Unpin"
+msgstr "Lossa"
+
+#.  Button: remove interest/channel. Verb
+#.  Button: unblock channel. Verb
+#, java-printf-format
+msgctxt "action_unblock"
+msgid "Unblock"
+msgstr "Häv blockering"
+
+#.  Button: unmute keyword. Verb
+#, java-printf-format
+msgctxt "action_unmute"
+msgid "Unmute"
+msgstr "Slå på ljudet"
+
+#.  Section header: SponsorBlock categories selection. Brand name + Categories
+#. proper noun
+#, java-printf-format
+msgctxt "label_sponsorblock"
+msgid "SponsorBlock Categories"
+msgstr "SponsorBlock-kategorier"
+
+#.  Toggle: enable DeArrow replacement of clickbait titles/thumbs. Brand name
+#. DeArrow, switch label
+#, java-printf-format
+msgctxt "label_dearrow"
+msgid "Enable DeArrow"
+msgstr "Aktivera DeArrow"
+
+#.  Description: replace clickbait titles and thumbnails with community-
+#. submitted alternatives
+#, java-printf-format
+msgctxt "label_dearrow_description"
+msgid ""
+"Replace clickbait titles and thumbnails with community-submitted "
+"alternatives"
+msgstr ""
+"Ersätt klickbetestitlar och miniatyrbilder med alternativ från "
+"användargemenskapen"
+
+#.  Section header: YouTube content preferences. Noun phrase
+#, java-printf-format
+msgctxt "label_youtube_content"
+msgid "YouTube Content"
+msgstr "YouTube-innehåll"
+
+#.  Label: content language selector for video titles, descriptions, comments,
+#. search. Noun phrase
+#, java-printf-format
+msgctxt "label_youtube_language"
+msgid "Content language"
+msgstr "Innehållsspråk"
+
+#.  Option: system default language entry in dropdown. Noun phrase
+#, java-printf-format
+msgctxt "label_system_default"
+msgid "System default"
+msgstr "Systemstandard"
+
+#.  Section header: backup and restore functionality. Noun phrase with
+#. ampersand
+#, java-printf-format
+msgctxt "label_backup_restore"
+msgid "Backup & Restore"
+msgstr "Säkerhetskopiering och återställning"
+
+#.  Button: restore subscriptions from YouPipe backup file. Verb phrase
+#, java-printf-format
+msgctxt "label_restore_youpipe"
+msgid "Restore from YouPipe"
+msgstr "Återställ från YouPipe"
+
+#.  Button: import subscriptions from NewPipe app export format. Verb phrase
+#, java-printf-format
+msgctxt "label_import_newpipe"
+msgid "Import NewPipe subscriptions"
+msgstr "Importera NewPipe-prenumerationer"
+
+#.  Button: import from YouTube Takeout zip. Verb phrase, Takeout is Google
+#. product name
+#, java-printf-format
+msgctxt "label_import_youtube"
+msgid "Import from YouTube (Takeout)"
+msgstr "Importera från YouTube (Takeout)"
+
+#.  Button: export current subscriptions to file. Verb phrase
+#, java-printf-format
+msgctxt "label_export_youpipe"
+msgid "Export Subscriptions"
+msgstr "Exportera prenumerationer"
+
+#.  Settings hub row: general and content preferences category. Noun phrase
+#. with ampersand
+#, java-printf-format
+msgctxt "settings_general_content"
+msgid "General & Content"
+msgstr "Allmänt och innehåll"
+
+#.  Settings hub row: SponsorBlock category. Brand name
+#, java-printf-format
+msgctxt "settings_sponsorblock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+#.  Settings hub row: data and backup category. Noun phrase with ampersand
+#, java-printf-format
+msgctxt "settings_data"
+msgid "Data & Backup"
+msgstr "Data och säkerhetskopiering"
+
+#.  Settings hub summary: how many SponsorBlock categories are blocked out of
+#. the total. %1$d = blocked count, %2$d = total
+#, java-printf-format
+msgctxt "settings_sponsorblock_summary"
+msgid "%1$d of %2$d blocked"
+msgstr "%1$d av %2$d blockerade"
+
+#.  Recommendation preset name when the user has manually adjusted the dials.
+#. Adjective
+#, java-printf-format
+msgctxt "preset_custom"
+msgid "Custom"
+msgstr "Anpassat"
+
+#.  Player controls: title of the playback tempo (speed) slider. Noun
+#, java-printf-format
+msgctxt "playback_tempo"
+msgid "Tempo"
+msgstr "Tempo"
+
+#.  Player controls: title of the playback pitch slider. Noun
+#, java-printf-format
+msgctxt "playback_pitch"
+msgid "Pitch"
+msgstr "Tonhöjd"
+
+#.  Player controls: tempo value as a multiplier. %1$s = value e.g. 1.5. Keep
+#. the x suffix
+#, java-printf-format, xml-text
+msgctxt "playback_tempo_value"
+msgid "<xliff:g id=\"value\" example=\"1.5\">%1$s</xliff:g>x"
+msgstr "<xliff:g id=\"value\" example=\"1.5\">%1$s</xliff:g>x"
+
+#.  Player controls: pitch value as a percentage. %1$d = value e.g. 100. Keep
+#. the percent sign
+#, java-printf-format, xml-text
+msgctxt "playback_pitch_value"
+msgid "<xliff:g id=\"value\" example=\"100\">%1$d</xliff:g>%%"
+msgstr "<xliff:g id=\"value\" example=\"100\">%1$d</xliff:g> %%"
+
+#.  Player controls: checkbox to control pitch independently of tempo (may
+#. distort audio). Phrase
+#, java-printf-format
+msgctxt "playback_unhook_pitch"
+msgid "Unhook pitch (may distort)"
+msgstr "Frikoppla tonhöjden (kan förvränga ljudet)"
+
+#.  Player controls: button that resets tempo and pitch to default. Verb
+#.  Player controls: content description for the lock-controls button shown in
+#. fullscreen. Verb phrase
+#, java-printf-format
+msgctxt "lock_controls"
+msgid "Lock controls"
+msgstr "Lås reglagen"
+
+#.  Player controls: content description for the unlock button shown while
+#. controls are locked. Verb phrase
+#, java-printf-format
+msgctxt "unlock_controls"
+msgid "Unlock controls"
+msgstr "Lås upp reglagen"
+
+#.  Player section header in general settings. Noun
+#, java-printf-format
+msgctxt "label_player"
+msgid "Player"
+msgstr "Spelare"
+
+#.  Toggle: keep video player controls always visible instead of auto-hiding.
+#. Verb phrase
+#, java-printf-format
+msgctxt "label_keep_controls_visible"
+msgid "Keep player controls visible"
+msgstr "Visa spelarreglagen hela tiden"
+
+#.  Description for keep-controls toggle: controls stay on screen rather than
+#. hiding after inactivity. Accessibility feature
+#, java-printf-format
+msgctxt "label_keep_controls_visible_description"
+msgid ""
+"Controls stay on screen instead of hiding after 2 seconds. Useful for "
+"accessibility."
+msgstr ""
+"Reglagen visas på skärmen i stället för att döljas efter två sekunder. "
+"Praktiskt för tillgängligheten."
+
+#.  Toggle: replace the player seek slider with a slim notification-style two-
+#. state (playing/paused) progress bar. Verb phrase
+#, java-printf-format
+msgctxt "label_notification_style_progress"
+msgid "Notification-style progress bar"
+msgstr "Förloppsindikator i aviseringsstil"
+
+#.  Description for notification-style progress toggle
+#, java-printf-format
+msgctxt "label_notification_style_progress_description"
+msgid ""
+"Replace the seek slider with a slim bar like the notification controls. It "
+"looks different when playing vs paused."
+msgstr ""
+"Ersätt sökreglaget med en smal indikator som reglagen i aviseringen. Den ser"
+" olika ut vid uppspelning och paus."
+
+#.  Casting the video to a TV through the MA Cast app.
+#.  Content description for the cast button in the player controls
+#, java-printf-format
+msgctxt "cast_to_tv"
+msgid "Cast to a television"
+msgstr "Casta till en tv"
+
+#.  Shown where the video was, once it is playing on the TV instead. %1$s is
+#. the TV's name
+#, java-printf-format
+msgctxt "cast_playing_on"
+msgid "Playing on %1$s"
+msgstr "Spelas upp på %1$s"
+
+#.  Button under the "playing on TV" panel
+#, java-printf-format
+msgctxt "cast_stop"
+msgid "Stop casting"
+msgstr "Stoppa castning"
+
+#.  Shown when the Cast app is not installed and the store listing is being
+#. opened
+#, java-printf-format
+msgctxt "cast_install_prompt"
+msgid "MA Cast is not installed. Opening its listing so you can install it."
+msgstr ""
+"MA Cast är inte installerat. Appens butikssida öppnas så att du kan "
+"installera den."
+
+#.  Shown when the installed Cast app is too old to stream app content
+#, java-printf-format
+msgctxt "cast_update_prompt"
+msgid ""
+"MA Cast is too old to play videos on your TV. Opening its listing so you can"
+" update it."
+msgstr ""
+"MA Cast är för gammal för att spela upp videor på din tv. Appens butikssida "
+"öppnas så att du kan uppdatera den."
+
+#.  Shown when the TV would not start a stream
+#, java-printf-format
+msgctxt "cast_failed"
+msgid "Could not start casting to your TV"
+msgstr "Det gick inte att börja casta till din tv"
