@@ -1,0 +1,208 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (Afinity - Yet Another Jellyfin Client)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 20:55+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/afinity-yet-another-jellyfin-client/afinity/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#, java-printf-format
+msgctxt "config_transcoding_title"
+msgid "Transcoding"
+msgstr "Omkodning"
+
+#, java-printf-format
+msgctxt "config_transcoding_summary"
+msgid "Hardware acceleration, quality and throttling"
+msgstr "Maskinvaruacceleration, kvalitet och begränsning"
+
+#, java-printf-format
+msgctxt "config_transcoding_note"
+msgid ""
+"Enabling hardware acceleration may cause instability in some environments. "
+"Ensure that your operating system and video drivers are fully up to date. If"
+" you have difficulty playing video after enabling this, you'll need to "
+"change the setting back to None."
+msgstr ""
+"Maskinvaruacceleration kan orsaka instabilitet i vissa miljöer. Kontrollera "
+"att operativsystemet och videodrivrutinerna är uppdaterade. Om "
+"videouppspelning inte fungerar efter aktivering måste inställningen ändras "
+"tillbaka till Ingen."
+
+#, java-printf-format
+msgctxt "config_section_hw_acceleration"
+msgid "Hardware Acceleration"
+msgstr "Maskinvaruacceleration"
+
+#, java-printf-format
+msgctxt "config_hw_acceleration"
+msgid "Hardware acceleration"
+msgstr "Maskinvaruacceleration"
+
+#, java-printf-format
+msgctxt "config_hw_acceleration_summary"
+msgid "Hardware acceleration requires additional configuration."
+msgstr "Maskinvaruacceleration kräver ytterligare konfigurering."
+
+#, java-printf-format
+msgctxt "config_vaapi_device"
+msgid "VA-API Device"
+msgstr "VA-API-enhet"
+
+#, java-printf-format
+msgctxt "config_vaapi_device_summary"
+msgid "This is the render node that is used for hardware acceleration."
+msgstr "Detta är renderingsnoden som används för maskinvaruacceleration."
+
+#, java-printf-format
+msgctxt "config_qsv_device"
+msgid "QSV Device"
+msgstr "QSV-enhet"
+
+#, java-printf-format
+msgctxt "config_qsv_device_summary"
+msgid ""
+"Specify the device for Intel QSV on a multi-GPU system. On Linux, this is "
+"the render node, e.g., /dev/dri/renderD128. On Windows, this is the device "
+"index starting from 0. Leave blank unless you know what you are doing."
+msgstr ""
+"Ange enheten för Intel QSV på ett system med flera GPU:er. På Linux är detta"
+" renderingsnoden, till exempel /dev/dri/renderD128. På Windows är detta "
+"enhetsindex från 0. Lämna tomt om du inte vet vad du gör."
+
+#, java-printf-format
+msgctxt "config_section_hw_decoding"
+msgid "Hardware decoding"
+msgstr "Maskinvaruavkodning"
+
+#, java-printf-format
+msgctxt "config_hw_decoding_codecs"
+msgid "Enable hardware decoding for"
+msgstr "Aktivera maskinvaruavkodning för"
+
+#, java-printf-format
+msgctxt "config_enhanced_nvdec"
+msgid "Enable enhanced NVDEC decoder"
+msgstr "Aktivera förbättrad NVDEC-avkodare"
+
+#, java-printf-format
+msgctxt "config_enhanced_nvdec_summary"
+msgid ""
+"Enhanced NVDEC implementation, disable this option to use CUVID if you "
+"encounter decoding errors."
+msgstr ""
+"Förbättrad NVDEC-implementering. Inaktivera alternativet för att använda "
+"CUVID om avkodningsfel uppstår."
+
+#, java-printf-format
+msgctxt "config_prefer_native_decoder"
+msgid "Prefer OS native DXVA or VA-API hardware decoders"
+msgstr ""
+"Föredra operativsystemets egna maskinvaruavkodare för DXVA eller VA-API"
+
+#, java-printf-format
+msgctxt "config_section_hw_encoding"
+msgid "Hardware encoding options"
+msgstr "Alternativ för maskinvarukodning"
+
+#, java-printf-format
+msgctxt "config_hw_encoding"
+msgid "Enable hardware encoding"
+msgstr "Aktivera maskinvarukodning"
+
+#, java-printf-format
+msgctxt "config_low_power_h264"
+msgid "Enable Intel Low-Power H.264 hardware encoder"
+msgstr "Aktivera Intels energisnåla H.264-maskinvarukodare"
+
+#, java-printf-format
+msgctxt "config_low_power_hevc"
+msgid "Enable Intel Low-Power HEVC hardware encoder"
+msgstr "Aktivera Intels energisnåla HEVC-maskinvarukodare"
+
+#, java-printf-format
+msgctxt "config_low_power_summary"
+msgid ""
+"Low-Power Encoding can keep unnecessary CPU-GPU sync. On Linux they must be "
+"disabled if the i915 HuC firmware is not configured."
+msgstr ""
+"Energisnål kodning kan undvika onödig CPU–GPU-synkronisering. På Linux måste"
+" den inaktiveras om i915 HuC-firmware inte är konfigurerad."
+
+#, java-printf-format
+msgctxt "config_section_encoding_formats"
+msgid "Encoding format options"
+msgstr "Alternativ för kodningsformat"
+
+#, java-printf-format
+msgctxt "config_encoding_formats_summary"
+msgid ""
+"Select the video encoding that Jellyfin should transcode to. Jellyfin will "
+"use software encoding when hardware acceleration for the selected format is "
+"not available. H264 encoding will always be enabled."
+msgstr ""
+"Välj den videokodning som Jellyfin ska omkoda till. Jellyfin använder "
+"programvarukodning när maskinvaruacceleration saknas för valt format. "
+"H.264-kodning är alltid aktiverad."
+
+#, java-printf-format
+msgctxt "config_allow_hevc_encoding"
+msgid "Allow encoding in HEVC format"
+msgstr "Tillåt kodning i HEVC-format"
+
+#, java-printf-format
+msgctxt "config_allow_av1_encoding"
+msgid "Allow encoding in AV1 format"
+msgstr "Tillåt kodning i AV1-format"
+
+#, java-printf-format
+msgctxt "config_section_quality"
+msgid "Quality"
+msgstr "Kvalitet"
+
+#, java-printf-format
+msgctxt "config_thread_count"
+msgid "Transcoding thread count"
+msgstr "Antal trådar för omkodning"
+
+#, java-printf-format
+msgctxt "config_thread_count_summary"
+msgid ""
+"Select the maximum number of threads to use when transcoding. Reducing the "
+"thread count will lower CPU usage but may not convert fast enough for a "
+"smooth playback experience."
+msgstr ""
+"Välj högsta antal trådar som används vid omkodning. Färre trådar minskar "
+"processoranvändningen men kan vara för långsamt för jämn uppspelning."
+
+#, java-printf-format
+msgctxt "config_encoder_preset"
+msgid "Encoding preset"
+msgstr "Kodningsförval"
+
+#, java-printf-format
+msgctxt "config_encoder_preset_summary"
+msgid ""
+"Pick a faster value to improve performance, or a slower value to improve "
+"quality."
+msgstr ""
+"Välj ett snabbare värde för bättre prestanda eller ett långsammare för "
+"bättre kvalitet."
+
+#, java-printf-format
+msgctxt "config_h265_crf"
+msgid "H.265 encoding CRF"
+msgstr "CRF för H.265-kodning"
+
+#, java-printf-format
+msgctxt "config_h264_crf"
+msgid "H.264 encoding CRF"
+msgstr "CRF för H.264-kodning"
