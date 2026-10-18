@@ -1,0 +1,39 @@
+From 0c1b0d45c584a5bc0bdaad7c28d77b6e6e2eb324 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <po@danielnylander.se>
+Date: Sun, 18 Oct 2026 21:26:44 +0200
+Subject: [PATCH] i18n: discover embedded language catalogs
+
+---
+ apps/ymir-sdl3/CMakeLists.txt | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+diff --git a/apps/ymir-sdl3/CMakeLists.txt b/apps/ymir-sdl3/CMakeLists.txt
+index d95e895..1f5c001 100644
+--- a/apps/ymir-sdl3/CMakeLists.txt
++++ b/apps/ymir-sdl3/CMakeLists.txt
+@@ -569,6 +569,13 @@ if (WIN32)
+ endif ()
+ target_compile_features(ymir-sdl3 PUBLIC cxx_std_20)
+ 
++## Embed every locale catalog placed in res/embed/i18n. CONFIGURE_DEPENDS
++## reruns CMake when translators add a language file.
++file(GLOB Ymir_sdl3_i18n_catalogs CONFIGURE_DEPENDS
++    RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}
++    res/embed/i18n/*.toml
++)
++
+ ## Create embedded resource library
+ cmrc_add_resource_library(ymir-sdl3-rc
+     ALIAS ymir-sdl3::rc
+@@ -579,7 +586,7 @@ cmrc_add_resource_library(ymir-sdl3-rc
+     res/embed/about/friends.txt
+     res/embed/about/patreon.txt
+ 
+-    res/embed/i18n/sv.toml
++    ${Ymir_sdl3_i18n_catalogs}
+ 
+     res/embed/fonts/MaterialSymbolsOutlined_Filled-Regular.ttf
+     res/embed/fonts/MPLUSU-Ymir-Bold.ttf
+-- 
+2.54.0 (Apple Git-157)
+
