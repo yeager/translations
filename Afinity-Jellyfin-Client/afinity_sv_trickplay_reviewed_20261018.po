@@ -1,0 +1,242 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (Afinity - Yet Another Jellyfin Client)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 20:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/afinity-yet-another-jellyfin-client/afinity/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#, java-printf-format
+msgctxt "config_trickplay_title"
+msgid "Trickplay"
+msgstr "Trickplay"
+
+#, java-printf-format
+msgctxt "config_trickplay_summary"
+msgid "Preview images for seeking"
+msgstr "Förhandsvisningsbilder vid sökning"
+
+#, java-printf-format
+msgctxt "config_section_trickplay_processing"
+msgid "Processing"
+msgstr "Bearbetning"
+
+#, java-printf-format
+msgctxt "config_trickplay_hw_decoding"
+msgid "Enable hardware decoding"
+msgstr "Aktivera maskinvaruavkodning"
+
+#, java-printf-format
+msgctxt "config_trickplay_hw_encoding"
+msgid "Enable hardware accelerated MJPEG encoding"
+msgstr "Aktivera maskinvaruaccelererad MJPEG-kodning"
+
+#, java-printf-format
+msgctxt "config_trickplay_hw_encoding_summary"
+msgid ""
+"Currently only available on QSV, VA-API, VideoToolbox and RKMPP, this option"
+" has no effect on other hardware acceleration methods."
+msgstr ""
+"För närvarande tillgängligt endast för QSV, VA-API, VideoToolbox och RKMPP. "
+"Alternativet påverkar inte andra metoder för maskinvaruacceleration."
+
+#, java-printf-format
+msgctxt "config_trickplay_key_frames"
+msgid "Only generate images from key frames"
+msgstr "Generera endast bilder från nyckelrutor"
+
+#, java-printf-format
+msgctxt "config_trickplay_key_frames_summary"
+msgid ""
+"Extract key frames only for significantly faster processing with less "
+"accurate timing. If the configured hardware decoder does not support this "
+"mode, will use the software decoder instead."
+msgstr ""
+"Extrahera endast nyckelrutor för betydligt snabbare bearbetning med mindre "
+"exakt tidsangivelse. Om den valda maskinvaruavkodaren inte stöder läget "
+"används programvaruavkodaren i stället."
+
+#, java-printf-format
+msgctxt "config_trickplay_scan_behavior"
+msgid "Scan Behavior"
+msgstr "Skanningsbeteende"
+
+#, java-printf-format
+msgctxt "config_trickplay_scan_behavior_summary"
+msgid ""
+"The default behavior is non blocking, which will add media to the library "
+"before trickplay generation is done. Blocking will ensure trickplay files "
+"are generated before media is added to the library, but will make scans "
+"significantly longer."
+msgstr ""
+"Standardbeteendet blockerar inte och lägger till media i biblioteket innan "
+"Trickplay-genereringen är klar. Blockering säkerställer att Trickplay-filer "
+"skapas innan media läggs till i biblioteket, men gör skanningar betydligt "
+"långsammare."
+
+#, java-printf-format
+msgctxt "config_scan_non_blocking"
+msgid "Non Blocking - queues generation, then returns"
+msgstr "Icke-blockerande – köar generering och återgår"
+
+#, java-printf-format
+msgctxt "config_scan_blocking"
+msgid "Blocking - queues generation, blocks scan until complete"
+msgstr ""
+"Blockerande – köar generering och blockerar skanningen tills den är klar"
+
+#, java-printf-format
+msgctxt "config_trickplay_priority"
+msgid "Process Priority"
+msgstr "Processprioritet"
+
+#, java-printf-format
+msgctxt "config_trickplay_priority_summary"
+msgid ""
+"Setting this lower or higher will determine how the CPU prioritizes the "
+"ffmpeg trickplay generation process in relation to other processes. If you "
+"notice slowdown while generating trickplay images but don't want to fully "
+"stop their generation, try lowering this as well as the thread count."
+msgstr ""
+"Ett lägre eller högre värde avgör hur processorn prioriterar ffmpegs "
+"Trickplay-generering i förhållande till andra processer. Om datorn blir "
+"långsam när Trickplay-bilder skapas men du inte vill stoppa genereringen "
+"helt kan du sänka detta och antalet trådar."
+
+#, java-printf-format
+msgctxt "config_priority_high"
+msgid "High"
+msgstr "Hög"
+
+#, java-printf-format
+msgctxt "config_priority_above_normal"
+msgid "Above normal"
+msgstr "Över normal"
+
+#, java-printf-format
+msgctxt "config_priority_normal"
+msgid "Normal"
+msgstr "Normal"
+
+#, java-printf-format
+msgctxt "config_priority_below_normal"
+msgid "Below normal"
+msgstr "Under normal"
+
+#, java-printf-format
+msgctxt "config_priority_idle"
+msgid "Idle"
+msgstr "Inaktiv"
+
+#, java-printf-format
+msgctxt "config_trickplay_threads"
+msgid "FFmpeg Threads"
+msgstr "FFmpeg-trådar"
+
+#, java-printf-format
+msgctxt "config_trickplay_threads_summary"
+msgid "The number of threads to pass to the '-threads' argument of ffmpeg."
+msgstr "Antalet trådar som skickas till ffmpegs argument ”-threads”."
+
+#, java-printf-format
+msgctxt "config_section_trickplay_images"
+msgid "Images"
+msgstr "Bilder"
+
+#, java-printf-format
+msgctxt "config_trickplay_interval"
+msgid "Image Interval"
+msgstr "Bildintervall"
+
+#, java-printf-format
+msgctxt "config_trickplay_interval_summary"
+msgid "Interval of time (ms) between each new trickplay image."
+msgstr "Tidsintervall i ms mellan varje ny Trickplay-bild."
+
+#, java-printf-format
+msgctxt "config_trickplay_widths"
+msgid "Width Resolutions"
+msgstr "Breddupplösningar"
+
+#, java-printf-format
+msgctxt "config_trickplay_widths_summary"
+msgid ""
+"Comma separated list of the widths (px) that trickplay images will be "
+"generated at. All images should generate proportionally to the source, so a "
+"width of 320 on a 16:9 video ends up around 320x180."
+msgstr ""
+"Kommaseparerad lista över bredder i pixlar som Trickplay-bilder skapas i. "
+"Alla bilder ska skalas proportionellt mot källan, så bredden 320 för en "
+"video i 16:9 blir ungefär 320×180."
+
+#, java-printf-format
+msgctxt "config_trickplay_tile_width"
+msgid "Tile Width"
+msgstr "Rutbredd"
+
+#, java-printf-format
+msgctxt "config_trickplay_tile_width_summary"
+msgid "Maximum number of images per tile in the X direction."
+msgstr "Högsta antal bilder per ruta i X-riktningen."
+
+#, java-printf-format
+msgctxt "config_trickplay_tile_height"
+msgid "Tile Height"
+msgstr "Ruthöjd"
+
+#, java-printf-format
+msgctxt "config_trickplay_tile_height_summary"
+msgid "Maximum number of images per tile in the Y direction."
+msgstr "Högsta antal bilder per ruta i Y-riktningen."
+
+#, java-printf-format
+msgctxt "config_trickplay_qscale"
+msgid "Qscale"
+msgstr "Qscale"
+
+#, java-printf-format
+msgctxt "config_trickplay_qscale_summary"
+msgid ""
+"The quality scale of images output by ffmpeg, with 2 being the highest "
+"quality and 31 being the lowest."
+msgstr ""
+"Kvalitetsskalan för bilder som ffmpeg skapar; 2 är högsta kvalitet och 31 "
+"lägsta."
+
+#, java-printf-format
+msgctxt "config_trickplay_jpeg_quality"
+msgid "JPEG Quality"
+msgstr "JPEG-kvalitet"
+
+#, java-printf-format
+msgctxt "config_trickplay_jpeg_quality_summary"
+msgid "The JPEG compression quality for trickplay images."
+msgstr "JPEG-komprimeringens kvalitet för Trickplay-bilder."
+
+#, java-printf-format
+msgctxt "config_show_advanced"
+msgid "Show advanced settings"
+msgstr "Visa avancerade inställningar"
+
+#, java-printf-format
+msgctxt "config_none"
+msgid "None"
+msgstr "Ingen"
+
+#, java-printf-format
+msgctxt "config_auto"
+msgid "Automatic"
+msgstr "Automatiskt"
+
+#, java-printf-format
+msgctxt "config_max"
+msgid "Maximum"
+msgstr "Maximalt"
