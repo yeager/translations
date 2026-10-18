@@ -1,0 +1,739 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-19 19:03+0000\n"
+"PO-Revision-Date: 2026-10-18 09:00+0200\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.5\n"
+"X-Launchpad-Export-Date: 2016-09-27 06:41+0000\n"
+
+#: src/Application.vala:54
+msgid "Connect to a Power Source"
+msgstr "Anslut till en strömkälla"
+
+#: src/Application.vala:55
+msgid "Installation will not succeed if this device loses power."
+msgstr ""
+"Installationen kommer inte att lyckas om den här enheten förlorar ström."
+
+#: src/Application.vala:68
+#, c-format
+msgid "Install %s"
+msgstr "Installera %s"
+
+#: src/Application.vala:76
+msgid "operating system is being installed"
+msgstr "operativsystemet håller på att installeras"
+
+#: src/Utils.vala:34
+msgid "Test mode shutdown"
+msgstr "Testläge, stäng av"
+
+#: src/Utils.vala:48
+msgid "Test mode reboot"
+msgstr "Testläge, starta om"
+
+#: src/Utils.vala:74
+msgid "Test mode switch user"
+msgstr "Testläge, växla användare"
+
+#: src/Helpers/LocaleHelper.vala:126 src/Views/KeyboardLayoutView.vala:200
+#, c-format
+msgid "%s…"
+msgstr "%s…"
+
+#: src/Objects/KeyboardVariant.vala:27
+msgid "Default"
+msgstr "Standard"
+
+#: src/Views/AbstractInstallerView.vala:55
+msgid "Test Mode"
+msgstr "Testläge"
+
+#: src/Views/AbstractInstallerView.vala:64
+msgid "Cancel Installation"
+msgstr "Avbryt installation"
+
+#: src/Views/CheckView.vala:48
+msgid "Before Installing"
+msgstr "Före installation"
+
+#: src/Views/CheckView.vala:55
+msgid "Pre-Release Version"
+msgstr "Förhandsversion"
+
+#: src/Views/CheckView.vala:56
+msgid ""
+"Only install on devices dedicated for development. <b>You will not be able "
+"to upgrade to a stable release</b>."
+msgstr ""
+"Installera endast på enheter som är avsedda för utveckling. <b>Du kommer "
+"inte att kunna uppgradera till en stabil version</b>."
+
+#: src/Views/CheckView.vala:61
+msgid "Virtual Machine"
+msgstr "Virtuell maskin"
+
+#: src/Views/CheckView.vala:62
+#, c-format
+msgid "Some parts of %s may run slowly, freeze, or not function properly."
+msgstr "Vissa delar av %s kan gå långsamt, frysa eller inte fungera korrekt."
+
+#: src/Views/CheckView.vala:67
+msgid "Your Device May Be Too Slow"
+msgstr "Din enhet kan vara för långsam"
+
+#: src/Views/CheckView.vala:68
+msgid "This may cause it to run slowly or freeze."
+msgstr "Detta kan leda till att den går långsamt eller fryser."
+
+#: src/Views/CheckView.vala:86
+msgid "Install Anyway"
+msgstr "Installera ändå"
+
+#: src/Views/CheckView.vala:230
+msgid "Recommended:"
+msgstr "Rekommenderat:"
+
+#: src/Views/CheckView.vala:236
+msgid "Your Device:"
+msgstr "Din enhet:"
+
+#: src/Views/CheckView.vala:242 src/Views/CheckView.vala:246
+msgid "Processor:"
+msgstr "Processor:"
+
+#: src/Views/CheckView.vala:258 src/Views/CheckView.vala:262
+msgid "Memory:"
+msgstr "Minne:"
+
+#: src/Views/DiskView.vala:46
+msgid "Select a Drive"
+msgstr "Välj en enhet"
+
+#: src/Views/DiskView.vala:51
+msgid ""
+"This will erase all data on the selected drive. If you have not backed your "
+"data up, you can cancel the installation and use Demo Mode."
+msgstr ""
+"Detta kommer radera all data från den valda enheten. Om du inte har "
+"säkerhetskopierat din data kan du avbryta installationen och använda "
+"demoläge."
+
+#: src/Views/DiskView.vala:71 src/Views/PartitioningView.vala:112
+msgid "Getting the current configuration…"
+msgstr "Hämtar aktuell konfiguration…"
+
+#: src/Views/DiskView.vala:96 src/Views/PartitioningView.vala:145
+#: src/Views/TryInstallView.vala:83
+msgid "Next"
+msgstr "Nästa"
+
+#: src/Views/DriversView.vala:24
+msgid "Additional Drivers"
+msgstr "Ytterligare drivrutiner"
+
+#: src/Views/DriversView.vala:28
+msgid ""
+"Broadcom® Wi-Fi adapters, NVIDIA® graphics, and some virtual machines may "
+"not function properly without additional drivers. Most devices do not "
+"require additional drivers."
+msgstr ""
+"Broadcom® Wi-Fi-adaptrar, NVIDIA®-grafik och vissa virtuella maskiner kanske"
+" inte fungerar korrekt utan ytterligare drivrutiner. De flesta enheter "
+"kräver inga ytterligare drivrutiner."
+
+#: src/Views/DriversView.vala:35
+msgid ""
+"Proprietary drivers contain private code that can't be reviewed. Security "
+"and other updates are dependent on the driver vendor."
+msgstr ""
+"Proprietära drivrutiner innehåller privat kod som inte kan granskas. "
+"Säkerhetsuppdateringar och andra uppdateringar är beroende av "
+"drivrutinsleverantören."
+
+#: src/Views/DriversView.vala:41
+msgid ""
+"An Internet connection is required to install NVIDIA® graphics drivers."
+msgstr ""
+"En internetanslutning krävs för att installera NVIDIA®-grafikdrivrutiner."
+
+#: src/Views/DriversView.vala:47
+msgid ""
+"Proprietary drivers can be installed later through System Settings → System,"
+" but an Internet connection will be required for all drivers."
+msgstr ""
+"Proprietära drivrutiner kan installeras senare via Systeminställningar → "
+"System, men en Internetanslutning krävs för alla drivrutiner."
+
+#: src/Views/DriversView.vala:52
+msgid ""
+"Include third-party proprietary drivers when installing. I agree to their "
+"respective licenses and terms of use."
+msgstr ""
+"Inkludera proprietära drivrutiner från tredje part när du installerar. Jag "
+"samtycker till deras respektive licenser och användarvillkor."
+
+#: src/Views/DriversView.vala:75 src/Views/KeyboardLayoutView.vala:54
+#: src/Views/PartitioningView.vala:141 src/Views/TryInstallView.vala:79
+msgid "Back"
+msgstr "Tillbaka"
+
+#: src/Views/DriversView.vala:79
+msgid "Erase and Install"
+msgstr "Radera och installera"
+
+#: src/Views/EncryptView.vala:27
+msgid "Don’t Encrypt"
+msgstr "Kryptera inte"
+
+#: src/Views/EncryptView.vala:53
+msgid "Enable Drive Encryption"
+msgstr "Aktivera diskkryptering"
+
+#: src/Views/EncryptView.vala:58
+msgid ""
+"Data will only be protected from others with physical access to this device "
+"when it is shut down."
+msgstr ""
+"Data kommer endast att skyddas från andra med fysisk tillgång till enheten "
+"när den är avstängd."
+
+#: src/Views/EncryptView.vala:64
+msgid ""
+"The encryption password will be required each time this device is turned on."
+" If you forget it, <b>you will not be able to recover data.</b>"
+msgstr ""
+"Krypteringslösenordet kommer att krävas varje gång enheten slås på. Om du "
+"glömmer det <b>kommer du inte att kunna återställa data.</b>"
+
+#: src/Views/EncryptView.vala:70
+msgid ""
+"A built-in or USB keyboard will be required to type the encryption password "
+"each time this device is turned on."
+msgstr ""
+"Ett inbyggt tangentbord eller ett USB-tangentbord krävs för att skriva in "
+"krypteringslösenordet varje gång enheten slås på."
+
+#: src/Views/EncryptView.vala:89
+msgid "Encryption Password"
+msgstr "Lösenord för kryptering"
+
+#: src/Views/EncryptView.vala:91
+msgid ""
+"A unique password for this device, not the password for your user account."
+msgstr ""
+"Ett unikt lösenord för den här enheten, inte lösenordet för ditt "
+"användarkonto."
+
+#: src/Views/EncryptView.vala:106
+msgid "Confirm Password"
+msgstr "Bekräfta lösenord"
+
+#: src/Views/EncryptView.vala:129
+msgid "Set Encryption Password"
+msgstr "Ange lösenord för kryptering"
+
+#: src/Views/EncryptView.vala:204
+msgid "Acceptable password"
+msgstr "Acceptabelt lösenord"
+
+#: src/Views/EncryptView.vala:206
+msgid "Good password"
+msgstr "Bra lösenord"
+
+#: src/Views/EncryptView.vala:208
+msgid "Great password"
+msgstr "Mycket bra lösenord"
+
+#: src/Views/EncryptView.vala:229
+msgid "Passwords do not match"
+msgstr "Lösenorden stämmer inte överens med varandra"
+
+#: src/Views/EncryptView.vala:235
+msgid "Passwords match"
+msgstr "Lösenorden stämmer överens"
+
+#: src/Views/ErrorView.vala:31
+msgid "Could Not Install"
+msgstr "Kunde inte installera"
+
+#: src/Views/ErrorView.vala:35
+#, c-format
+msgid ""
+"Installing %s failed, possibly due to a hardware error. The device may not "
+"restart properly. You can try the following:"
+msgstr ""
+"Installationen av %s misslyckades, möjligen på grund av ett maskinvarufel. "
+"Enheten kanske inte startar om ordentligt. Du kan försöka med följande:"
+
+#: src/Views/ErrorView.vala:45
+msgid "Try the installation again"
+msgstr "Försök att installera igen"
+
+#: src/Views/ErrorView.vala:55
+msgid "Use Demo Mode and try to manually recover"
+msgstr "Använd demoläge och försök att återställa manuellt"
+
+#: src/Views/ErrorView.vala:64
+msgid "Restart the device and boot from another drive"
+msgstr "Starta om enheten och starta från en annan hårddisk"
+
+#: src/Views/ErrorView.vala:69
+msgid "Details"
+msgstr "Information"
+
+#: src/Views/ErrorView.vala:114 src/Views/SuccessView.vala:61
+msgid "Restart Device"
+msgstr "Starta om enheten"
+
+#: src/Views/ErrorView.vala:116 src/Views/TryInstallView.vala:36
+msgid "Try Demo Mode"
+msgstr "Testa demoläge"
+
+#: src/Views/ErrorView.vala:118
+msgid "Try Installing Again"
+msgstr "Testa att installera på nytt"
+
+#: src/Views/KeyboardLayoutView.vala:30
+msgid "Input Language"
+msgstr "Inmatningsspråk"
+
+#: src/Views/KeyboardLayoutView.vala:32
+msgid "Select Keyboard Layout"
+msgstr "Välj tangentbordslayout"
+
+#: src/Views/KeyboardLayoutView.vala:39
+msgid "Type to test your layout"
+msgstr "Skriv för att testa din layout"
+
+#: src/Views/KeyboardLayoutView.vala:42
+msgid "Show keyboard layout"
+msgstr "Visa tangentbordslayout"
+
+#: src/Views/KeyboardLayoutView.vala:58 src/Views/LanguageView.vala:104
+msgid "Select"
+msgstr "Välj"
+
+#: src/Views/LanguageView.vala:67
+msgid "Languages"
+msgstr "Språk"
+
+#: src/Views/LanguageView.vala:272
+msgid "Select a Language"
+msgstr "Välj ett språk"
+
+#: src/Views/LanguageView.vala:295 src/Views/LanguageView.vala:355
+msgid "Currently active language"
+msgstr "Nuvarande aktivt språk"
+
+#: src/Views/PartitioningView.vala:51
+msgid "Select Partitions"
+msgstr "Välj partitioner"
+
+#: src/Views/PartitioningView.vala:56
+msgid ""
+"Selecting “Format” will erase <i>all</i> data on the selected partition."
+msgstr ""
+"Om du väljer \"Formatera\" raderas <i>alla</i> data på den valda "
+"partitionen."
+
+#. Device is in BIOS mode, so we just require a root partition
+#: src/Views/PartitioningView.vala:65
+msgid "You must at least select a <b>Root (/)</b> partition."
+msgstr "Du måste minst välja en <b>Rot (/)</b>-partition."
+
+#. Device is in EFI mode, so we also require a boot partition
+#: src/Views/PartitioningView.vala:69
+msgid ""
+"You must at least select a <b>Root (/)</b> partition and an optional <b>Boot"
+" (/boot/efi)</b> partition."
+msgstr ""
+"Du måste minst välja en <b>rotpartition (/)</b> och kan som tillval välja en"
+" <b>uppstartspartition (/boot/efi)</b>."
+
+#: src/Views/PartitioningView.vala:80
+msgid "It is also recommended to select a <b>Swap</b> partition."
+msgstr "Det är också rekommenderat att välja en <b>växling</b>-partition."
+
+#: src/Views/PartitioningView.vala:138
+msgid "Modify Partitions…"
+msgstr "Ändra partitioner…"
+
+#: src/Views/PartitioningView.vala:283
+msgid "EFI partition has the wrong file system"
+msgstr "EFI-partition har fel filsystem"
+
+#: src/Views/PartitioningView.vala:285
+msgid "EFI partition is too small"
+msgstr "EFI-partitionen är för liten"
+
+#: src/Views/PartitioningView.vala:288
+msgid "Invalid file system for root"
+msgstr "Ogiltigt filsystem för rot"
+
+#: src/Views/PartitioningView.vala:290
+msgid "Invalid file system for home"
+msgstr "Ogiltigt filsystem för hem"
+
+#: src/Views/ProgressView.vala:64 src/Views/ProgressView.vala:99
+msgid "Show log"
+msgstr "Visa logg"
+
+#: src/Views/ProgressView.vala:90
+msgid "Installing"
+msgstr "Installerar"
+
+#: src/Views/ProgressView.vala:95
+msgid "Hide log"
+msgstr "Dölj logg"
+
+#. /TRANSLATORS: The current step of the installer back-end
+#: src/Views/ProgressView.vala:224
+msgid "Partitioning Drive"
+msgstr "Partitionerar disk"
+
+#. /TRANSLATORS: The current step of the installer back-end
+#: src/Views/ProgressView.vala:229
+msgid "Extracting Files"
+msgstr "Extraherar filer"
+
+#. /TRANSLATORS: The current step of the installer back-end
+#: src/Views/ProgressView.vala:234
+msgid "Configuring the System"
+msgstr "Konfigurerar systemet"
+
+#. /TRANSLATORS: The current step of the installer back-end
+#: src/Views/ProgressView.vala:239
+msgid "Finishing the Installation"
+msgstr "Slutför installationen"
+
+#: src/Views/TryInstallView.vala:26
+msgid "Try or Install"
+msgstr "Prova eller installera"
+
+#: src/Views/TryInstallView.vala:38
+msgid ""
+"Changes will not be saved, and data from your previous OS will be unchanged."
+" Performance and features may not reflect the installed experience."
+msgstr ""
+"Ändringar sparas inte och data från ditt tidigare operativsystem kommer att "
+"vara oförändrade. Prestanda och funktioner kanske inte återspeglar den "
+"installerade upplevelsen."
+
+#: src/Views/TryInstallView.vala:44
+msgid "Erase Disk and Install"
+msgstr "Radera disk och installera"
+
+#: src/Views/TryInstallView.vala:46
+#, c-format
+msgid "Erase everything and install a fresh copy of %s."
+msgstr "Radera allt och installera en ny kopia av %s."
+
+#: src/Views/TryInstallView.vala:52
+msgid "Custom Install (Advanced)"
+msgstr "Anpassad installation (avancerad)"
+
+#: src/Views/TryInstallView.vala:54
+msgid ""
+"Create, resize, or otherwise manage partitions manually. This method may "
+"lead to data loss."
+msgstr ""
+"Skapa, ändra storlek på eller på annat sätt hantera partitioner manuellt. "
+"Denna metod kan leda till dataförlust."
+
+#: src/Views/TryInstallView.vala:107
+msgid "Custom Install"
+msgstr "Anpassad installation"
+
+#: src/Views/SuccessView.vala:28
+msgid "Continue Setting Up"
+msgstr "Fortsätt konfigurera"
+
+#: src/Views/SuccessView.vala:32
+#, c-format
+msgid "%s has been installed"
+msgstr "%s har installerats"
+
+#: src/Views/SuccessView.vala:58
+msgid "Shut Down"
+msgstr "Stäng av"
+
+#: src/Views/SuccessView.vala:89
+#, c-format
+msgid "Your device will automatically restart in %i second."
+msgid_plural "Your device will automatically restart in %i seconds."
+msgstr[0] "Din enhet kommer om %i sekund att automatiskt starta om."
+msgstr[1] "Din enhet kommer om %i sekunder att automatiskt starta om."
+
+#: src/Views/SuccessView.vala:93
+msgid ""
+"After restarting you can set up a new user, or you can shut down now and set"
+" up a new user later."
+msgstr ""
+"Efter omstart kan du skapa en ny användare, eller så kan du stänga av nu och"
+" skapa en ny användare senare."
+
+#: src/Widgets/DecryptMenu.vala:66
+msgid "Decrypt This Partition"
+msgstr "Avkryptera denna partition"
+
+#: src/Widgets/DecryptMenu.vala:70
+msgid ""
+"Enter the partition's encryption password and set a device name for the "
+"decrypted partition."
+msgstr ""
+"Ange partitionens krypteringslösenord och ange ett enhetsnamn för den "
+"avkrypterade partitionen."
+
+#: src/Widgets/DecryptMenu.vala:82
+msgid "Password:"
+msgstr "Lösenord:"
+
+#: src/Widgets/DecryptMenu.vala:95
+msgid "Device name:"
+msgstr "Enhetens namn:"
+
+#: src/Widgets/DecryptMenu.vala:108
+msgid "Decrypt"
+msgstr "Avkryptera"
+
+#: src/Widgets/DecryptMenu.vala:182
+msgid "LUKS volume was decrypted"
+msgstr "LUKS-volymen har avkrypterats"
+
+#: src/Widgets/DiskBar.vala:259
+#, c-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: src/Widgets/DiskBar.vala:260
+#, c-format
+msgid "%s (%s: <b>%s</b>)"
+msgstr "%s (%s: <b>%s</b>)"
+
+#: src/Widgets/PartitionMenu.vala:56
+msgid "Use Partition"
+msgstr "Använd partition"
+
+#: src/Widgets/PartitionMenu.vala:60
+msgid "Format"
+msgstr "Formatera"
+
+#: src/Widgets/PartitionMenu.vala:61
+msgid "Delete all data and set up a new file system"
+msgstr "Ta bort alla data och skapa ett nytt filsystem"
+
+#: src/Widgets/PartitionMenu.vala:64
+msgid "Use as:"
+msgstr "Använd som:"
+
+#: src/Widgets/PartitionMenu.vala:71
+msgid "Root (/)"
+msgstr "Rot (/)"
+
+#: src/Widgets/PartitionMenu.vala:72
+msgid "Home (/home)"
+msgstr "Hem (/home)"
+
+#: src/Widgets/PartitionMenu.vala:73
+#, c-format
+msgid "Boot (%s)"
+msgstr "Boot (%s)"
+
+#: src/Widgets/PartitionMenu.vala:74
+msgid "Swap"
+msgstr "Växling"
+
+#: src/Widgets/PartitionMenu.vala:75
+msgid "Custom"
+msgstr "Anpassad"
+
+#: src/Widgets/PartitionMenu.vala:79
+msgid "Custom:"
+msgstr "Anpassad:"
+
+#: src/Widgets/PartitionMenu.vala:86
+msgid "Filesystem:"
+msgstr "Filsystem:"
+
+#: src/Widgets/PartitionMenu.vala:98
+msgid "Default (ext4)"
+msgstr "Standard (etx4)"
+
+#: src/Widgets/PartitionMenu.vala:261
+msgid "Custom value must begin with /"
+msgstr "Anpassat värde måste börja med /"
+
+#~ msgid "Choose Encryption Password"
+#~ msgstr "Välj krypteringslösenord"
+
+#~ msgid ""
+#~ "Your device is running on battery power. It's recommended to be plugged in "
+#~ "while installing."
+#~ msgstr ""
+#~ "Din enhet går på batteridrift. Vi rekommenderar att ansluta den till en "
+#~ "strömkälla under installation."
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorera"
+
+#~ msgid "Not Enough Space"
+#~ msgstr "Inte tillräckligt med utrymme"
+
+#~ msgid ""
+#~ "There is not enough room on your device to install %s. We recommend a "
+#~ "minimum of %s of storage."
+#~ msgstr ""
+#~ "Det finns inte tillräckligt med utrymme på din enhet för att installera %s. "
+#~ "Vi rekommenderar ett minimum av %s utrymme."
+
+#~ msgid ""
+#~ "Your device doesn't meet the recommended hardware requirements. This may "
+#~ "cause it to run slowly or freeze."
+#~ msgstr ""
+#~ "Din enhet möter inte de rekommenderade hårdvarukraven. Detta kan leda till "
+#~ "att enheten går långsamt, eller fryser."
+
+#~ msgid ""
+#~ "You can install %s on this device now, or try Demo Mode without installing."
+#~ msgstr ""
+#~ "Du kan installera %s på denna enhet nu, eller testa Demoläge utan att "
+#~ "installera."
+
+#~ msgid "Clean Install"
+#~ msgstr "Ren installation"
+
+#, fuzzy
+#~ msgid "Read and write speeds may be minimally impacted during intense tasks."
+#~ msgstr ""
+#~ "Diskenhetskryptering kan ha en minimal påverkan på läs- och skrivhastigheter"
+#~ " vid tung belastning."
+
+#~ msgid "Unable to set the Distinst log callback"
+#~ msgstr "Kunde inte ställa in callback för Distinst-logg"
+
+#~ msgid "Starting installation"
+#~ msgstr "Påbörjar installation"
+
+#~ msgid "Are you sure you want to Shut Down?"
+#~ msgstr "Är du säker på att du vill stänga av?"
+
+#~ msgid "This will cancel installation and turn off this device."
+#~ msgstr "Detta avbryter installationen och stänger av enheten."
+
+#~ msgid "Restart"
+#~ msgstr "Starta om"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Operating System"
+#~ msgstr "Operativsystem"
+
+#~ msgid "Select a drive to use for installation"
+#~ msgstr "Välj en disk att använda för installation"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Maxwell Barvian https://launchpad.net/~mbarvian-deactivatedaccount\n"
+#~ "  Mikael Nyberg https://launchpad.net/~miknyb\n"
+#~ "  Tobias Ahlström https://launchpad.net/~tobias-ahlstrom\n"
+#~ "  Yunas https://launchpad.net/~yunas-manzoor\n"
+#~ "  komakino https://launchpad.net/~salem-sallnas"
+
+#~ msgid "Calculator"
+#~ msgstr "Kalkylator"
+
+#~ msgid "History"
+#~ msgstr "Historik"
+
+#~ msgid "Value to add:"
+#~ msgstr "Värde att lägga till:"
+
+#~ msgid "Result"
+#~ msgstr "Resultat"
+
+#~ msgid "Expression"
+#~ msgstr "Uttryck"
+
+#~ msgid "Close"
+#~ msgstr "Stäng"
+
+#~ msgid "Add"
+#~ msgstr "Lägg till"
+
+#~ msgid "Show extended functionality"
+#~ msgstr "Visa utökad funktionalitet"
+
+#~ msgid "Calculate Result"
+#~ msgstr "Beräkna resultat"
+
+#~ msgid "Add last result"
+#~ msgstr "Lägg till senaste resultat"
+
+#~ msgid "Clear entry"
+#~ msgstr "Rensa inmatning"
+
+#~ msgid "Subtract"
+#~ msgstr "Subtrahera"
+
+#~ msgid "Multiply"
+#~ msgstr "Multiplicera"
+
+#~ msgid "Divide"
+#~ msgstr "Dividera"
+
+#~ msgid "Percentage"
+#~ msgstr "Procent"
+
+#~ msgid "Start Group"
+#~ msgstr "Börja gruppering"
+
+#~ msgid "End Group"
+#~ msgstr "Avsluta gruppering"
+
+#~ msgid "Exponent"
+#~ msgstr "Exponent"
+
+#~ msgid "Sine"
+#~ msgstr "Sinus"
+
+#~ msgid "Hyperbolic Sine"
+#~ msgstr "Hyperbolisk sinus"
+
+#~ msgid "Cosine"
+#~ msgstr "Cosinus"
+
+#~ msgid "Hyperbolic Cosine"
+#~ msgstr "Hyperbolisk cosinus"
+
+#~ msgid "Tangent"
+#~ msgstr "Tangens"
+
+#~ msgid "Hyperbolic Tangent"
+#~ msgstr "Hyperbolisk tangens"
+
+#~ msgid "Pi"
+#~ msgstr "Pi"
+
+#~ msgid "Euler's Number"
+#~ msgstr "Eulers tal"
+
+#~ msgid "Hide extended functionality"
+#~ msgstr "Dölj utökad funktionalitet"
+
+#~ msgid "'%s' is invalid."
+#~ msgstr "'%s' är ogiltigt."
+
+#~ msgid "'%s' is unknown."
+#~ msgstr "'%s' är okänt."
