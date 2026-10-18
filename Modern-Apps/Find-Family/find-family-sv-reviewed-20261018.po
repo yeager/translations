@@ -1,0 +1,1241 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (Modern Apps)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 21:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/modern-apps/find-family/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#.  MainActivity / launcher: App name. Noun, proper name
+#, java-printf-format
+msgctxt "app_name"
+msgid "Find Family"
+msgstr "Hitta familj"
+
+#.  LocationTrackingService: Notification channel name for foreground location
+#. tracking. Noun
+#, java-printf-format
+msgctxt "notification_channel_location_tracking_name"
+msgid "Location Tracking"
+msgstr "Platsspårning"
+
+#.  LocationTrackingService: Notification channel description for location
+#. tracking. Explains background updates
+#, java-printf-format
+msgctxt "notification_channel_location_tracking_desc"
+msgid "Used for FindFamily background location updates"
+msgstr "Används för Find Familys platsuppdateringar i bakgrunden"
+
+#.  LocationTrackingService: Notification channel name for low-battery alerts.
+#. Noun
+#, java-printf-format
+msgctxt "notification_channel_battery_name"
+msgid "Battery Alerts"
+msgstr "Batterivarningar"
+
+#.  LocationTrackingService: Notification channel description for battery
+#. alerts. Sentence
+#, java-printf-format
+msgctxt "notification_channel_battery_desc"
+msgid "Alerts when a family member has low battery"
+msgstr "Varnar när en familjemedlem har låg batterinivå"
+
+#.  LocationTrackingService: Notification channel name for geofence
+#. entry/exit. Noun phrase
+#, java-printf-format
+msgctxt "notification_channel_entry_exit_name"
+msgid "Arrivals & Departures"
+msgstr "Ankomster och avresor"
+
+#.  LocationTrackingService: Notification channel description for waypoint
+#. entry/exit events
+#, java-printf-format
+msgctxt "notification_channel_entry_exit_desc"
+msgid "Notifications for when family members enter or leave waypoints"
+msgstr ""
+"Aviseringar när familjemedlemmar anländer till eller lämnar sparade platser"
+
+#.  Per-person arrival channel name. %1$s = person name, e.g. Alice
+#, java-printf-format, xml-text
+msgctxt "notification_channel_arrival_name"
+msgid "<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> · Arrivals"
+msgstr "<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> · Ankomster"
+
+#.  Per-person arrival channel description. %1$s = person name
+#, java-printf-format, xml-text
+msgctxt "notification_channel_arrival_desc"
+msgid ""
+"Notifications when <xliff:g id=\"person_name\" "
+"example=\"Alice\">%1$s</xliff:g> arrives at a place"
+msgstr ""
+"Aviseringar när <xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g>"
+" anländer till en plats"
+
+#.  Per-person departure channel name. %1$s = person name
+#, java-printf-format, xml-text
+msgctxt "notification_channel_departure_name"
+msgid "<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> · Departures"
+msgstr "<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> · Avresor"
+
+#.  Per-person departure channel description. %1$s = person name
+#, java-printf-format, xml-text
+msgctxt "notification_channel_departure_desc"
+msgid ""
+"Notifications when <xliff:g id=\"person_name\" "
+"example=\"Alice\">%1$s</xliff:g> leaves a place"
+msgstr ""
+"Aviseringar när <xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g>"
+" lämnar en plats"
+
+#.  Per-person no-show channel name. %1$s = person name, e.g. Alice
+#, java-printf-format, xml-text
+msgctxt "notification_channel_noshow_name"
+msgid "<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> · No-show alerts"
+msgstr ""
+"<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> · Varningar vid"
+" utebliven ankomst"
+
+#.  Per-person no-show channel description. %1$s = person name
+#, java-printf-format, xml-text
+msgctxt "notification_channel_noshow_desc"
+msgid ""
+"Notifications when <xliff:g id=\"person_name\" "
+"example=\"Alice\">%1$s</xliff:g> doesn't arrive at an expected place"
+msgstr ""
+"Aviseringar när <xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g>"
+" inte kommer till en förväntad plats"
+
+#.  PersonDetailSheet: button opening system settings for this person's
+#. arrival notifications
+#, java-printf-format
+msgctxt "notification_settings_arrival"
+msgid "Arrival alerts"
+msgstr "Ankomstvarningar"
+
+#.  PersonDetailSheet: button opening system settings for this person's
+#. departure notifications
+#, java-printf-format
+msgctxt "notification_settings_departure"
+msgid "Departure alerts"
+msgstr "Avresevarningar"
+
+#.  LocationTrackingService: Foreground service notification title when
+#. tracking is active. Noun phrase
+#, java-printf-format
+msgctxt "notification_tracking_title"
+msgid "FindFamily is active"
+msgstr "Find Family är aktiv"
+
+#.  LocationTrackingService: Foreground service notification body. Sentence
+#. explaining sharing state
+#, java-printf-format
+msgctxt "notification_tracking_text"
+msgid "Sharing location with your selected contacts"
+msgstr "Delar plats med dina valda kontakter"
+
+#.  LocationTrackingService: Dynamic notification body for low battery. %1$s =
+#. contact display name, e.g. Alice
+#, java-printf-format, xml-text
+msgctxt "notification_low_battery"
+msgid "<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> has low battery"
+msgstr ""
+"<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> har låg "
+"batterinivå"
+
+#.  LocationTrackingService: Dynamic notification when contact enters
+#. waypoint. %1$s = person name (Alice), %2$s = waypoint name (Home)
+#, java-printf-format, xml-text
+msgctxt "notification_entered_waypoint"
+msgid ""
+"<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> has entered "
+"<xliff:g id=\"waypoint_name\" example=\"Home\">%2$s</xliff:g>"
+msgstr ""
+"<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> har anlänt till"
+" <xliff:g id=\"waypoint_name\" example=\"Home\">%2$s</xliff:g>"
+
+#.  LocationTrackingService: Dynamic notification when contact exits waypoint.
+#. %1$s = person name, %2$s = waypoint name
+#, java-printf-format, xml-text
+msgctxt "notification_exited_waypoint"
+msgid ""
+"<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> has exited "
+"<xliff:g id=\"waypoint_name\" example=\"Home\">%2$s</xliff:g>"
+msgstr ""
+"<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> har lämnat "
+"<xliff:g id=\"waypoint_name\" example=\"Home\">%2$s</xliff:g>"
+
+#.  Permission screen: Shown after fine location granted. Status label with
+#. emoji
+#, java-printf-format
+msgctxt "permission_fine_location_granted"
+msgid "✅ Fine Location Granted"
+msgstr "✅ Exakt plats har beviljats"
+
+#.  Permission screen: Button to request ACCESS_FINE_LOCATION. Verb phrase,
+#. step 1
+#, java-printf-format
+msgctxt "permission_grant_fine_location"
+msgid "1. Grant Fine Location"
+msgstr "1. Bevilja exakt plats"
+
+#.  Permission screen: Status label after background location granted. Noun
+#. phrase
+#, java-printf-format
+msgctxt "permission_background_granted"
+msgid "✅ Background Granted"
+msgstr "✅ Bakgrundsbehörighet har beviljats"
+
+#.  Permission screen: Button to enable background 'Allow all the time'. Verb
+#. phrase, step 2
+#, java-printf-format
+msgctxt "permission_enable_all_the_time"
+msgid "2. Enable 'Allow all the time'"
+msgstr "2. Aktivera ”Tillåt alltid”"
+
+#.  Permission screen: Explanation for background permission rationale.
+#. Sentence
+#, java-printf-format
+msgctxt "permission_background_explanation"
+msgid ""
+"To enable background tracking, please select 'Allow all the time' in the "
+"next screen."
+msgstr ""
+"Välj ”Tillåt alltid” på nästa skärm för att aktivera spårning i bakgrunden."
+
+#.  Permission screen: Message when user granted only approximate location.
+#. Sentence, requires upgrade
+#, java-printf-format
+msgctxt "permission_approximate_only_explanation"
+msgid ""
+"FindFamily only works with precise (fine) location. You granted approximate "
+"location only — please upgrade to precise location to continue."
+msgstr ""
+"Find Family fungerar bara med exakt plats. Du har bara beviljat ungefärlig "
+"plats. Uppgradera till exakt plats för att fortsätta."
+
+#.  Permission screen: Button to reopen upgrade prompt for precise location.
+#. Verb phrase
+#, java-printf-format
+msgctxt "permission_reopen_upgrade_prompt"
+msgid "Upgrade to precise location"
+msgstr "Uppgradera till exakt plats"
+
+#.  Permission upgrade dialog: Title. Noun phrase
+#, java-printf-format
+msgctxt "permission_upgrade_dialog_title"
+msgid "Precise location required"
+msgstr "Exakt plats krävs"
+
+#.  Permission upgrade dialog: Body message explaining why precise location
+#. needed. Sentence
+#, java-printf-format
+msgctxt "permission_upgrade_dialog_message"
+msgid ""
+"FindFamily needs precise (fine) location to share your exact position. "
+"Please allow precise location."
+msgstr ""
+"Find Family behöver exakt plats för att dela din exakta position. Tillåt "
+"exakt plats."
+
+#.  Permission upgrade dialog: Confirm button. Verb phrase
+#, java-printf-format
+msgctxt "permission_upgrade_dialog_confirm"
+msgid "Allow precise location"
+msgstr "Tillåt exakt plats"
+
+#.  Permission upgrade dialog: Dismiss button. Verb phrase
+#, java-printf-format
+msgctxt "permission_upgrade_dialog_dismiss"
+msgid "Not now"
+msgstr "Inte nu"
+
+#.  MainPage FAB menu: Option to add a person/contact. Noun
+#, java-printf-format
+msgctxt "fab_person"
+msgid "Person"
+msgstr "Person"
+
+#.  MainPage FAB menu: Option to add a saved place/waypoint. Noun
+#, java-printf-format
+msgctxt "fab_location"
+msgid "Location"
+msgstr "Plats"
+
+#.  MainPage FAB menu: Option to create temporary share link. Noun
+#, java-printf-format
+msgctxt "fab_link"
+msgid "Link"
+msgstr "Länk"
+
+#.  MainPage FAB menu (dev builds only): bind a custom UWB tracker. Noun
+#, java-printf-format
+msgctxt "fab_tracker"
+msgid "Tracker"
+msgstr "Spårare"
+
+#.  Add Tracker dialog title
+#, java-printf-format
+msgctxt "add_tracker_title"
+msgid "Add tracker"
+msgstr "Lägg till spårare"
+
+#.  Add Tracker dialog: label for the tracker name text field
+#, java-printf-format
+msgctxt "add_tracker_name_label"
+msgid "Tracker name"
+msgstr "Spårarens namn"
+
+#.  Add Tracker dialog: hint explaining the tracker must be in pairing mode
+#, java-printf-format
+msgctxt "add_tracker_scan_hint"
+msgid "Put the tracker in pairing mode, then pick it below."
+msgstr "Sätt spåraren i parkopplingsläge och välj den sedan nedan."
+
+#.  Add Tracker dialog: shown while scanning for nearby trackers
+#, java-printf-format
+msgctxt "add_tracker_scanning"
+msgid "Scanning for trackers…"
+msgstr "Söker efter spårare…"
+
+#.  Add Tracker dialog: shown while binding to the selected tracker
+#, java-printf-format
+msgctxt "add_tracker_binding"
+msgid "Binding…"
+msgstr "Kopplar…"
+
+#.  Add Tracker dialog: shown when binding fails
+#, java-printf-format
+msgctxt "add_tracker_failed"
+msgid "Could not bind to that tracker. Try again."
+msgstr "Kunde inte koppla den spåraren. Försök igen."
+
+#.  MainPage: Section header for pending location-sharing requests list. Noun
+#. phrase
+#, java-printf-format
+msgctxt "section_location_sharing_requests"
+msgid "Location Sharing Requests"
+msgstr "Förfrågningar om platsdelning"
+
+#.  MainPage: Section header for temporary links grid. Noun phrase
+#, java-printf-format
+msgctxt "section_temporary_links"
+msgid "Temporary Links"
+msgstr "Tillfälliga länkar"
+
+#.  MainPage: Section header for saved waypoints/places. Noun phrase
+#, java-printf-format
+msgctxt "section_saved_places"
+msgid "Saved Places"
+msgstr "Sparade platser"
+
+#.  MainPage: AwaitingRequestCard header. %1$s = encoded sender ID in Base26,
+#. e.g. ABC123
+#, java-printf-format, xml-text
+msgctxt "request_from"
+msgid "Request from <xliff:g id=\"sender_id\" example=\"ABC123\">%1$s</xliff:g>"
+msgstr "Förfrågan från <xliff:g id=\"sender_id\" example=\"ABC123\">%1$s</xliff:g>"
+
+#.  MainPage: TemporaryLinkCard expiry label. %1$s = relative future time
+#. string, e.g. in 5 minutes / very soon
+#, java-printf-format, xml-text
+msgctxt "expires"
+msgid "Expires <xliff:g id=\"relative_time\" example=\"in 5 minutes\">%1$s</xliff:g>"
+msgstr "Upphör <xliff:g id=\"relative_time\" example=\"in 5 minutes\">%1$s</xliff:g>"
+
+#.  MainPage: WaypointCard empty state when no one is inside waypoint. Noun
+#. phrase, sentence fragment
+#, java-printf-format
+msgctxt "nobody_here"
+msgid "nobody is currently here"
+msgstr "ingen är här just nu"
+
+#.  MainPage: WaypointCard when single user inside. %1$s = person name, e.g.
+#. Alice. Sentence
+#, java-printf-format, xml-text
+msgctxt "user_is_here"
+msgid "<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> is currently here"
+msgstr "<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> är här just nu"
+
+#.  MainPage: WaypointCard when multiple users inside. %1$s = comma-separated
+#. names, e.g. Alice, Bob. Sentence
+#, java-printf-format, xml-text
+msgctxt "users_are_here"
+msgid ""
+"<xliff:g id=\"person_names\" example=\"Alice, Bob\">%1$s</xliff:g> are "
+"currently here"
+msgstr ""
+"<xliff:g id=\"person_names\" example=\"Alice, Bob\">%1$s</xliff:g> är här "
+"just nu"
+
+#.  MainPage: UserCard since label when last entry just happened (<60s).
+#. Adverbial phrase
+#, java-printf-format
+msgctxt "since_just_now"
+msgid "Since just now"
+msgstr "Sedan nyss"
+
+#.  MainPage: UserCard since label for minutes. %1$d = minutes count, e.g. 5
+#, java-printf-format, xml-text
+msgctxt "since_minutes_ago"
+msgid "Since <xliff:g id=\"minutes\" example=\"5\">%1$d</xliff:g> minutes ago"
+msgstr "Sedan <xliff:g id=\"minutes\" example=\"5\">%1$d</xliff:g> minuter"
+
+#.  MainPage: UserCard since label with formatted time and date. %1$s = time
+#. e.g. 3:45 PM, %2$s = date e.g. today/yesterday/Jun 4
+#, java-printf-format, xml-text
+msgctxt "since_time_date"
+msgid ""
+"Since <xliff:g id=\"time\" example=\"3:45 PM\">%1$s</xliff:g> <xliff:g "
+"id=\"date\" example=\"today\">%2$s</xliff:g>"
+msgstr ""
+"Sedan <xliff:g id=\"time\" example=\"3:45 PM\">%1$s</xliff:g> <xliff:g "
+"id=\"date\" example=\"today\">%2$s</xliff:g>"
+
+#.  MainPage: Date token for today. Noun, used inside since_time_date
+#, java-printf-format
+msgctxt "today"
+msgid "today"
+msgstr "i dag"
+
+#.  MainPage: Date token for yesterday. Noun, used inside since_time_date
+#, java-printf-format
+msgctxt "yesterday"
+msgid "yesterday"
+msgstr "i går"
+
+#.  MainPage: UserCard multiline status block. %1$s = last updated relative
+#. time (just now/minutes ago), %2$s = location name, %3$s = since string
+#, java-printf-format, xml-text
+msgctxt "user_card_status"
+msgid ""
+"Updated <xliff:g id=\"last_updated\" example=\"5 minutes ago\">%1$s</xliff:g>\n"
+"At <xliff:g id=\"location_name\" example=\"Home\">%2$s</xliff:g>\n"
+"<xliff:g id=\"since_text\" example=\"Since today\">%3$s</xliff:g>"
+msgstr ""
+"Uppdaterad <xliff:g id=\"last_updated\" example=\"5 minutes ago\">%1$s</xliff:g>\n"
+"Vid <xliff:g id=\"location_name\" example=\"Home\">%2$s</xliff:g>\n"
+"<xliff:g id=\"since_text\" example=\"Since today\">%3$s</xliff:g>"
+
+#.  MainPage: UserCard status block for a phone that sent its parting shutdown
+#. report. %1$s = shutdown age (just now/5 minutes ago), %2$s = fix age, %3$s
+#. = location name, %4$s = since string
+#, java-printf-format, xml-text
+msgctxt "user_card_shutdown"
+msgid ""
+"Phone switched off <xliff:g id=\"shutdown_age\" example=\"5 minutes ago\">%1$s</xliff:g>\n"
+"Last location <xliff:g id=\"last_updated\" example=\"20 minutes ago\">%2$s</xliff:g>\n"
+"At <xliff:g id=\"location_name\" example=\"Home\">%3$s</xliff:g>\n"
+"<xliff:g id=\"since_text\" example=\"Since today\">%4$s</xliff:g>"
+msgstr ""
+"Telefonen stängdes av <xliff:g id=\"shutdown_age\" example=\"5 minutes ago\">%1$s</xliff:g>\n"
+"Senaste plats <xliff:g id=\"last_updated\" example=\"20 minutes ago\">%2$s</xliff:g>\n"
+"Vid <xliff:g id=\"location_name\" example=\"Home\">%3$s</xliff:g>\n"
+"<xliff:g id=\"since_text\" example=\"Since today\">%4$s</xliff:g>"
+
+#.  MainPage: UserCard status block for a low-battery report (phone still
+#. alive, same stale-fix shape as shutdown). Same params as user_card_shutdown
+#, java-printf-format, xml-text
+msgctxt "user_card_battery_low"
+msgid ""
+"Low battery report <xliff:g id=\"report_age\" example=\"5 minutes ago\">%1$s</xliff:g>\n"
+"Last location <xliff:g id=\"last_updated\" example=\"20 minutes ago\">%2$s</xliff:g>\n"
+"At <xliff:g id=\"location_name\" example=\"Home\">%3$s</xliff:g>\n"
+"<xliff:g id=\"since_text\" example=\"Since today\">%4$s</xliff:g>"
+msgstr ""
+"Rapport om låg batterinivå <xliff:g id=\"report_age\" example=\"5 minutes ago\">%1$s</xliff:g>\n"
+"Senaste plats <xliff:g id=\"last_updated\" example=\"20 minutes ago\">%2$s</xliff:g>\n"
+"Vid <xliff:g id=\"location_name\" example=\"Home\">%3$s</xliff:g>\n"
+"<xliff:g id=\"since_text\" example=\"Since today\">%4$s</xliff:g>"
+
+#.  MainPage: BatteryBar percentage label. %1$d = battery level 0-100, e.g. 85
+#, java-printf-format, xml-text
+msgctxt "battery_percentage"
+msgid "<xliff:g id=\"battery_level\" example=\"85\">%1$d</xliff:g>%%"
+msgstr "<xliff:g id=\"battery_level\" example=\"85\">%1$d</xliff:g>%%"
+
+#.  MainPage: timestring helper for just now. Adverbial phrase, past
+#, java-printf-format
+msgctxt "time_just_now"
+msgid "just now"
+msgstr "nyss"
+
+#.  MainPage: timestring past minutes. %1$d = count, e.g. 5
+#, java-printf-format, xml-text
+msgctxt "time_minutes_ago"
+msgid "<xliff:g id=\"minutes\" example=\"5\">%1$d</xliff:g> minutes ago"
+msgstr "<xliff:g id=\"minutes\" example=\"5\">%1$d</xliff:g> minuter sedan"
+
+#.  MainPage: timestring past hours. %1$d = hours count, e.g. 2
+#, java-printf-format, xml-text
+msgctxt "time_hours_ago"
+msgid "<xliff:g id=\"hours\" example=\"2\">%1$d</xliff:g> hours ago"
+msgstr "<xliff:g id=\"hours\" example=\"2\">%1$d</xliff:g> timmar sedan"
+
+#.  MainPage: timestring past days. %1$d = days count, e.g. 3
+#, java-printf-format, xml-text
+msgctxt "time_days_ago"
+msgid "<xliff:g id=\"days\" example=\"3\">%1$d</xliff:g> days ago"
+msgstr "<xliff:g id=\"days\" example=\"3\">%1$d</xliff:g> dagar sedan"
+
+#.  MainPage: timestring future very soon. Adverb phrase for expiry
+#, java-printf-format
+msgctxt "time_very_soon"
+msgid "very soon"
+msgstr "mycket snart"
+
+#.  MainPage: timestring future minutes. %1$d = minutes, e.g. 5
+#, java-printf-format, xml-text
+msgctxt "time_in_minutes"
+msgid "in <xliff:g id=\"minutes\" example=\"5\">%1$d</xliff:g> minutes"
+msgstr "om <xliff:g id=\"minutes\" example=\"5\">%1$d</xliff:g> minuter"
+
+#.  MainPage: timestring future hours. %1$d = hours count
+#, java-printf-format, xml-text
+msgctxt "time_in_hours"
+msgid "in <xliff:g id=\"hours\" example=\"2\">%1$d</xliff:g> hours"
+msgstr "om <xliff:g id=\"hours\" example=\"2\">%1$d</xliff:g> timmar"
+
+#.  MainPage: timestring future days. %1$d = days count
+#, java-printf-format, xml-text
+msgctxt "time_in_days"
+msgid "in <xliff:g id=\"days\" example=\"3\">%1$d</xliff:g> days"
+msgstr "om <xliff:g id=\"days\" example=\"3\">%1$d</xliff:g> dagar"
+
+#.  UserPage: Toggle description to share location. Verb phrase
+#, java-printf-format
+msgctxt "share_your_location"
+msgid "Share your location with this person"
+msgstr "Dela din plats med den här personen"
+
+#.  UserPage: Button to change linked contact entry. Verb phrase
+#, java-printf-format
+msgctxt "change_connected_contact"
+msgid "Change connected contact"
+msgstr "Ändra ansluten kontakt"
+
+#.  UserPage: Auto-toggle dropdown label when sharing is ON — will disable
+#. after duration
+#, java-printf-format
+msgctxt "disable_after"
+msgid "Disable after"
+msgstr "Inaktivera efter"
+
+#.  UserPage: Auto-toggle dropdown label when sharing is OFF — will enable
+#. after duration
+#, java-printf-format
+msgctxt "enable_after"
+msgid "Enable after"
+msgstr "Aktivera efter"
+
+#.  UserPage: Auto-toggle dropdown option for never / disabled
+#, java-printf-format
+msgctxt "auto_toggle_never"
+msgid "Never"
+msgstr "Aldrig"
+
+#.  UserPage: Auto-toggle dropdown option that flips sharing when you arrive
+#. at a saved place. %1$s = place name, e.g. Home
+#, java-printf-format
+msgctxt "arrival_at"
+msgid "Arrival at %1$s"
+msgstr "Ankomst till %1$s"
+
+#.  MainPage map overlay: Title when in history mode. %1$s = selected user
+#. name, e.g. Alice
+#, java-printf-format, xml-text
+msgctxt "history_title"
+msgid "History: <xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g>"
+msgstr "Historik: <xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g>"
+
+#.  HistoryScrubber: Button label to step back 5 minutes. Verb with duration
+#, java-printf-format
+msgctxt "history_step_minus_5m"
+msgid "-5m"
+msgstr "-5m"
+
+#.  HistoryScrubber: Button label to step back 1 minute
+#, java-printf-format
+msgctxt "history_step_minus_1m"
+msgid "-1m"
+msgstr "-1m"
+
+#.  HistoryScrubber: Button label to step back 10 seconds
+#, java-printf-format
+msgctxt "history_step_minus_10s"
+msgid "-10s"
+msgstr "-10s"
+
+#.  HistoryScrubber: Button label to step forward 10 seconds
+#, java-printf-format
+msgctxt "history_step_plus_10s"
+msgid "+10s"
+msgstr "+10s"
+
+#.  HistoryScrubber: Button label to step forward 1 minute
+#, java-printf-format
+msgctxt "history_step_plus_1m"
+msgid "+1m"
+msgstr "+1m"
+
+#.  HistoryScrubber: Button label to step forward 5 minutes
+#, java-printf-format
+msgctxt "history_step_plus_5m"
+msgid "+5m"
+msgstr "+5m"
+
+#.  WaypointEditPage: Validation error when waypoint name empty. Sentence
+#, java-printf-format
+msgctxt "waypoint_name_blank_error"
+msgid "Name cannot be blank"
+msgstr "Namnet får inte vara tomt"
+
+#.  WaypointEditPage: Validation error when range not numeric. Sentence
+#, java-printf-format
+msgctxt "waypoint_range_error"
+msgid "Range must be a number"
+msgstr "Området måste vara ett tal"
+
+#.  WaypointEditPage: Unit suffix for geofence radius input. Noun, plural
+#, java-printf-format
+msgctxt "waypoint_range_suffix"
+msgid "meters"
+msgstr "meter"
+
+#.  AddLinkDialog: Title for share via link dialog. Noun phrase
+#, java-printf-format
+msgctxt "add_link_title"
+msgid "Share via link"
+msgstr "Dela via länk"
+
+#.  AddLinkDialog: Text field label for link label. Noun phrase
+#, java-printf-format
+msgctxt "add_link_label"
+msgid "Link Label (to differentiate links)"
+msgstr "Länketikett (för att skilja länkar åt)"
+
+#.  AddLinkDialog: Label for expiry dropdown. Noun phrase
+#, java-printf-format
+msgctxt "expiry_time_label"
+msgid "Expiry Time"
+msgstr "Giltighetstid"
+
+#.  AddLinkDialog: Primary button to create temporary link. Verb phrase
+#, java-printf-format
+msgctxt "create_temporary_link"
+msgid "Create Temporary Link"
+msgstr "Skapa tillfällig länk"
+
+#.  AddLinkDialog: Shown when the encryption keys for a new link can't be
+#. generated. Sentence
+#, java-printf-format
+msgctxt "link_pqc_unavailable"
+msgid "Couldn't create the link on this device."
+msgstr "Kunde inte skapa länken på den här enheten."
+
+#.  AddLinkDialog: Dropdown option for 15 minutes expiry. Duration noun
+#, java-printf-format
+msgctxt "expiry_15_minutes"
+msgid "15 minutes"
+msgstr "15 minuter"
+
+#.  AddLinkDialog: Dropdown option for 30 minutes
+#, java-printf-format
+msgctxt "expiry_30_minutes"
+msgid "30 minutes"
+msgstr "30 minuter"
+
+#.  AddLinkDialog: Dropdown option for 1 hour
+#, java-printf-format
+msgctxt "expiry_1_hour"
+msgid "1 hour"
+msgstr "1 timme"
+
+#.  AddLinkDialog: Dropdown option for 2 hours
+#, java-printf-format
+msgctxt "expiry_2_hours"
+msgid "2 hours"
+msgstr "2 timmar"
+
+#.  AddLinkDialog: Dropdown option for 4 hours
+#, java-printf-format
+msgctxt "expiry_4_hours"
+msgid "4 hours"
+msgstr "4 timmar"
+
+#.  AddLinkDialog: Dropdown option for 6 hours
+#, java-printf-format
+msgctxt "expiry_6_hours"
+msgid "6 hours"
+msgstr "6 timmar"
+
+#.  AddLinkDialog: Dropdown option for 12 hours
+#, java-printf-format
+msgctxt "expiry_12_hours"
+msgid "12 hours"
+msgstr "12 timmar"
+
+#.  AddLinkDialog: Dropdown option for 1 day
+#, java-printf-format
+msgctxt "expiry_1_day"
+msgid "1 day"
+msgstr "1 dag"
+
+#.  AddLinkDialog: Dropdown option for 2 days
+#, java-printf-format
+msgctxt "expiry_2_days"
+msgid "2 days"
+msgstr "2 dagar"
+
+#.  AddLinkDialog: Dropdown option for 1 week
+#, java-printf-format
+msgctxt "expiry_1_week"
+msgid "1 week"
+msgstr "1 vecka"
+
+#.  AddPersonDialog: Title to add person via FindFamily ID. Verb phrase
+#, java-printf-format
+msgctxt "add_person_title"
+msgid "Add Person"
+msgstr "Lägg till person"
+
+#.  AddPersonDialog: Label showing your own FindFamily ID. Noun phrase
+#, java-printf-format
+msgctxt "your_findfamily_id"
+msgid "Your FindFamily ID"
+msgstr "Ditt Find Family-ID"
+
+#.  AddPersonDialog: Input label for contact's FindFamily ID. Noun phrase
+#, java-printf-format
+msgctxt "contact_findfamily_id"
+msgid "Contact's FindFamily ID"
+msgstr "Kontaktens Find Family-ID"
+
+#.  AddPersonDialog: Status when someone requested your location. Sentence
+#, java-printf-format
+msgctxt "status_awaiting_request"
+msgid "This person has requested your location"
+msgstr "Den här personen har begärt din plats"
+
+#.  AddPersonDialog: Status error when trying to share with self. Sentence
+#, java-printf-format
+msgctxt "status_cannot_share_self"
+msgid "Cannot share your location with yourself"
+msgstr "Du kan inte dela din plats med dig själv"
+
+#.  AddPersonDialog: Status when already sharing location with this person.
+#. Sentence
+#, java-printf-format
+msgctxt "status_already_sharing"
+msgid "Already sharing location with this person"
+msgstr "Delar redan plats med den här personen"
+
+#.  AddPersonDialog: Status when request already sent. Sentence
+#, java-printf-format
+msgctxt "status_already_requested"
+msgid "Already requested to share with this person"
+msgstr "Har redan begärt plats från den här personen"
+
+#.  AddPersonDialog: Text field label for custom contact name. Noun phrase
+#, java-printf-format
+msgctxt "contact_name_label"
+msgid "Contact's Name"
+msgstr "Kontaktens namn"
+
+#.  AddPersonDialog: Button to accept incoming location request. Verb phrase
+#, java-printf-format
+msgctxt "accept_location_request"
+msgid "Accept Location Request"
+msgstr "Godkänn platsförfrågan"
+
+#.  AddPersonDialog: Button to send location sharing request. Verb phrase
+#, java-printf-format
+msgctxt "request_location"
+msgid "Request Location"
+msgstr "Begär plats"
+
+#.  AddPersonDialog: Button that opens the system share sheet with an invite
+#. link. Verb phrase
+#, java-printf-format
+msgctxt "share_invite_link"
+msgid "Share invite link"
+msgstr "Dela inbjudningslänk"
+
+#.  AddPersonDialog: Title of the system share chooser for the invite link.
+#. Noun phrase
+#, java-printf-format
+msgctxt "share_invite_link_chooser"
+msgid "Share FindFamily invite"
+msgstr "Dela Find Family-inbjudan"
+
+#.  Platform: Label for clipboard data when copying ID. Generic noun
+#, java-printf-format
+msgctxt "clipboard_label"
+msgid "text"
+msgstr "text"
+
+#.  MapView / ViewModel: Label for self user when no name set. Noun, pronoun
+#, java-printf-format
+msgctxt "me_label"
+msgid "Me"
+msgstr "Jag"
+
+#.  Missing features screen: Title when device lacks required features. Noun
+#. phrase
+#, java-printf-format
+msgctxt "missing_features_title"
+msgid "Required Features Disabled"
+msgstr "Obligatoriska funktioner är inaktiverade"
+
+#.  Missing features screen: Explanation that Network Location and Geocoder
+#. are required. Sentence
+#, java-printf-format
+msgctxt "missing_features_explanation"
+msgid ""
+"FindFamily requires Network Location and a Geocoder to function correctly. "
+"You must enable them to continue."
+msgstr ""
+"Find Family kräver nätverksplats och en geokodare för att fungera korrekt. "
+"Du måste aktivera dem för att fortsätta."
+
+#.  UWB Find Nearby: Notification channel name for UWB ranging requests. Noun
+#. phrase
+#, java-printf-format
+msgctxt "notification_channel_uwb_request_name"
+msgid "Find Nearby (UWB) Requests"
+msgstr "Förfrågningar om Hitta i närheten (UWB)"
+
+#.  UWB Find Nearby: Notification channel description for UWB. Sentence
+#, java-printf-format
+msgctxt "notification_channel_uwb_request_desc"
+msgid "Someone is using Find Nearby (UWB) to locate you"
+msgstr "Någon använder Hitta i närheten (UWB) för att hitta dig"
+
+#.  UWB Find Nearby: Notification title when someone is ranging you. Sentence
+#, java-printf-format
+msgctxt "notification_uwb_request_title"
+msgid "Someone is finding you"
+msgstr "Någon letar efter dig"
+
+#.  UWB Find Nearby: Notification body. %1$s = sender display name, e.g. Alice
+#. or fallback Someone
+#, java-printf-format, xml-text
+msgctxt "notification_uwb_request_text"
+msgid ""
+"<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> is using Find "
+"Nearby (UWB). Tap to see distance and direction."
+msgstr ""
+"<xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> använder Hitta "
+"i närheten (UWB). Tryck för att se avstånd och riktning."
+
+#.  UWB Find Nearby: Fallback name when peer unknown. Noun, generic
+#, java-printf-format
+msgctxt "uwb_unknown_peer_name"
+msgid "Someone"
+msgstr "Någon"
+
+#.  UwbRangingScreen: Status when UWB session initializing. Sentence,
+#. progressive
+#, java-printf-format
+msgctxt "uwb_status_starting"
+msgid "Setting up Find Nearby (UWB)…"
+msgstr "Startar Hitta i närheten (UWB)…"
+
+#.  UwbRangingScreen: Status when waiting for other device. Sentence
+#, java-printf-format
+msgctxt "uwb_status_waiting"
+msgid "Waiting for the other device…"
+msgstr "Väntar på den andra enheten…"
+
+#.  UwbRangingScreen: Status when peer disconnected. Instruction sentence
+#, java-printf-format
+msgctxt "uwb_status_peer_disconnected"
+msgid "Lost the other device. Move closer."
+msgstr "Den andra enheten försvann. Gå närmare."
+
+#.  UwbRangingScreen: Status when device lacks UWB hardware. Sentence
+#, java-printf-format
+msgctxt "uwb_status_unsupported"
+msgid "Find Nearby (UWB) isn't supported on this device."
+msgstr "Hitta i närheten (UWB) stöds inte på den här enheten."
+
+#.  UwbRangingScreen: Generic failure status. Sentence
+#, java-printf-format
+msgctxt "uwb_status_failed"
+msgid "Find Nearby (UWB) failed."
+msgstr "Hitta i närheten (UWB) misslyckades."
+
+#.  SecurityCodeDialog: Title. Noun phrase
+#, java-printf-format
+msgctxt "security_code"
+msgid "Security code"
+msgstr "Säkerhetskod"
+
+#.  SecurityCodeDialog: Instruction comparing safety number. %1$s = contact
+#. name, e.g. Bob. Sentence with E2E explanation
+#, java-printf-format, xml-text
+msgctxt "compare_this_code_with_on_their_device_i"
+msgid ""
+"Compare this code with <xliff:g id=\"person_name\" "
+"example=\"Bob\">%1$s</xliff:g> on their device. If the numbers match on both"
+" phones, your connection is verified end-to-end — no one is intercepting it."
+msgstr ""
+"Jämför den här koden med <xliff:g id=\"person_name\" "
+"example=\"Bob\">%1$s</xliff:g> på personens enhet. Om siffrorna matchar på "
+"båda telefonerna är anslutningen verifierad från ände till ände. Ingen "
+"avlyssnar den."
+
+#.  SecurityCodeDialog: Loading placeholder while computing safety number.
+#. Verb, progressive
+#, java-printf-format
+msgctxt "computing"
+msgid "Computing…"
+msgstr "Beräknar…"
+
+#.  SecurityCodeDialog: Error when other party key not available. %1$s =
+#. person name. Sentence
+#, java-printf-format, xml-text
+msgctxt "couldn_t_compute_yet_s_key_isn_t_availab"
+msgid ""
+"Couldn't compute yet — <xliff:g id=\"person_name\" "
+"example=\"Bob\">%1$s</xliff:g>'s key isn't available. Make sure you're both "
+"connected, then try again."
+msgstr ""
+"Kan inte beräkna ännu: nyckeln för <xliff:g id=\"person_name\" "
+"example=\"Bob\">%1$s</xliff:g> är inte tillgänglig. Kontrollera att ni båda "
+"är anslutna och försök sedan igen."
+
+#.  UwbRangingScreen: Debug overlay prefix for distance value. Abbreviation
+#. noun, keep short, includes trailing space
+#, java-printf-format
+msgctxt "dist"
+msgid "dist:"
+msgstr "avst:"
+
+#.  UwbRangingScreen: Debug overlay prefix for azimuth value. Abbreviation
+#. noun with leading spaces
+#, java-printf-format
+msgctxt "az"
+msgid "az:"
+msgstr "az:"
+
+#.  UwbRangingScreen: Debug overlay prefix for elevation value. Abbreviation
+#. noun with leading spaces
+#, java-printf-format
+msgctxt "el"
+msgid "el:"
+msgstr "el:"
+
+#.  UwbRangingScreen: Hint when azimuth null. Instruction sentence
+#, java-printf-format
+msgctxt "point_the_back_of_your_phone_toward_your"
+msgid "Point the back of your phone toward your contact"
+msgstr "Rikta telefonens baksida mot din kontakt"
+
+#.  MainPage: Content description for the GPS-only fallback warning icon in
+#. the map overlay. Noun phrase
+#, java-printf-format
+msgctxt "gps_fallback_warning_content_description"
+msgid "Network location unavailable"
+msgstr "Nätverksplats är inte tillgänglig"
+
+#.  MainPage: Content description for the overflow button on the map that
+#. opens the backup and restore actions. Noun phrase
+#, java-printf-format
+msgctxt "map_menu_content_description"
+msgid "More options"
+msgstr "Fler alternativ"
+
+#.  MainPage: Content description for the map overlay button that starts Find
+#. Nearby (UWB) for the selected person. Verb phrase
+#, java-printf-format
+msgctxt "find_nearby_content_description"
+msgid "Find nearby"
+msgstr "Hitta i närheten"
+
+#.  MainPage: Content description for the map overlay button that shows the
+#. end-to-end encryption security code for the selected person. Verb phrase
+#, java-printf-format
+msgctxt "verify_security_code_content_description"
+msgid "Verify security code"
+msgstr "Verifiera säkerhetskod"
+
+#.  MainPage: Content description for the map overlay button that removes the
+#. selected person. Verb phrase
+#, java-printf-format
+msgctxt "delete_person_content_description"
+msgid "Remove person"
+msgstr "Ta bort person"
+
+#.  MainPage: Content description for the map overlay button that deletes the
+#. selected saved place. Verb phrase
+#, java-printf-format
+msgctxt "delete_place_content_description"
+msgid "Delete saved place"
+msgstr "Ta bort sparad plats"
+
+#.  GpsFallbackWarningDialog: Title of the GPS-only fallback warning dialog.
+#. Noun phrase
+#, java-printf-format
+msgctxt "gps_fallback_warning_title"
+msgid "Using GPS only"
+msgstr "Använder endast GPS"
+
+#.  GpsFallbackWarningDialog: Body explaining network location is off and GPS
+#. drains battery. Sentence
+#, java-printf-format
+msgctxt "gps_fallback_warning_body"
+msgid ""
+"Network location isn't turned on for this device, so FindFamily is using GPS"
+" only to keep tracking your location. GPS is more accurate but may cause "
+"significant battery drain. To reduce battery use, turn on network (Wi-Fi & "
+"mobile) location in your device settings."
+msgstr ""
+"Nätverksplats är inte aktiverad på enheten, så Find Family använder endast "
+"GPS för att fortsätta spåra din plats. GPS är mer exakt men kan dra mycket "
+"batteri. Aktivera nätverksplats (Wi-Fi och mobilnät) i enhetens "
+"inställningar för att minska batterianvändningen."
+
+#.  OutdatedPeerDialog: Title shown when connecting to someone whose app is
+#. too old for post-quantum encryption. Noun phrase
+#, java-printf-format
+msgctxt "outdated_peer_title"
+msgid "Update needed"
+msgstr "Uppdatering krävs"
+
+#.  OutdatedPeerDialog: Body telling the user the other person must update
+#. their app before sharing can work. Sentence
+#, java-printf-format
+msgctxt "outdated_peer_body"
+msgid ""
+"This person is using an older version of FindFamily that doesn't support "
+"quantum-safe encryption. Ask them to update their app, then try connecting "
+"again."
+msgstr ""
+"Den här personen använder en äldre version av Find Family som inte stöder "
+"kvantsäker kryptering. Be personen uppdatera appen och försök sedan ansluta "
+"igen."
+
+#.  KeyMismatchDialog: Title shown when a peer's encryption key doesn't match
+#. the one their invite link vouched for. Noun phrase
+#, java-printf-format
+msgctxt "key_mismatch_title"
+msgid "Couldn't verify this person"
+msgstr "Kunde inte verifiera den här personen"
+
+#.  KeyMismatchDialog: Body explaining the key check failed and the connection
+#. was refused. Sentence
+#, java-printf-format
+msgctxt "key_mismatch_body"
+msgid ""
+"The encryption key for this person doesn't match the one their invite link "
+"listed, so they weren't added. Check that you opened the whole link, and ask"
+" them to send a new one."
+msgstr ""
+"Krypteringsnyckeln för den här personen stämmer inte med den som personens "
+"inbjudningslänk angav, så personen lades inte till. Kontrollera att du "
+"öppnade hela länken och be personen skicka en ny."
+
+#.  TrackingTileService: Quick Settings tile label. Short noun phrase
+#, java-printf-format
+msgctxt "tile_label"
+msgid "FindFamily tracking"
+msgstr "Find Family-spårning"
+
+#.  Quick Settings tile subtitle when the tile is on. Short status
+#, java-printf-format
+msgctxt "tile_subtitle_on"
+msgid "On"
+msgstr "På"
+
+#.  Quick Settings tile subtitle when the tile is off. Short status
+#, java-printf-format
+msgctxt "tile_subtitle_off"
+msgid "Off"
+msgstr "Av"
+
+#.  TrackingTileService: tile subtitle when location permission is missing.
+#. Short status
+#, java-printf-format
+msgctxt "tile_subtitle_no_permission"
+msgid "Tap to set up"
+msgstr "Tryck för att konfigurera"
+
+#.  SharingTileService: Quick Settings tile label for the pause-sharing tile.
+#. Short noun phrase
+#, java-printf-format
+msgctxt "sharing_tile_label"
+msgid "FindFamily sharing"
+msgstr "Find Family-delning"
+
+#.  UserPage: Note under the disabled sharing switch when the Quick Settings
+#. sharing tile is off. Sentence
+#, java-printf-format
+msgctxt "sharing_paused_note"
+msgid "Sharing is paused for everyone from the Quick Settings tile"
+msgstr "Delning är pausad för alla från snabbinställningsrutan"
+
+#.  UserCard: status line for a position that came from another phone spotting
+#. this device's beacon rather than from the device itself. Deliberately
+#. vaguer than the live wording. Two lines
+#, java-printf-format, xml-text
+msgctxt "user_card_network_sighting"
+msgid ""
+"Seen by a passing phone <xliff:g id=\"last_seen\" example=\"2 hours ago\">%1$s</xliff:g>\n"
+"Somewhere near <xliff:g id=\"location_name\" example=\"Home\">%2$s</xliff:g> — approximate"
+msgstr ""
+"Sedd av en passerande telefon <xliff:g id=\"last_seen\" example=\"2 hours ago\">%1$s</xliff:g>\n"
+"Någonstans nära <xliff:g id=\"location_name\" example=\"Home\">%2$s</xliff:g> (ungefärligt)"
+
+#.  PersonDetailSheet, own entry: the limit, shown under the explanation
+#. whether the switch is on or off. Must not be hidden behind the switch. Two
+#. sentences
+#, java-printf-format
+msgctxt "poweroff_finding_limit"
+msgid ""
+"This lasts about 3 days after you switch the phone off, then it stops. It is"
+" a limit of the Bluetooth chip, not a setting."
+msgstr ""
+"Detta fungerar i ungefär tre dagar efter att du har stängt av telefonen och "
+"upphör sedan. Det är en begränsning i Bluetooth-chippet, inte en "
+"inställning."
+
+#.  PersonDetailSheet, own entry: the capability the user cannot be shielded
+#. from. Must not be softened or hidden behind a tap: choosing someone also
+#. lets that person track the phone. Paragraph
+#, java-printf-format
+msgctxt "poweroff_grant_tracking_warning"
+msgid ""
+"Anyone you choose can also go looking for this phone themselves, whenever "
+"they like, for as long as they stay on this list. Reading where it was seen "
+"and looking for it use the same key, so there is no way to give one without "
+"the other. Only choose people you would be happy to have find this phone."
+msgstr ""
+"Vem som helst du väljer kan också själv söka efter den här telefonen när som"
+" helst, så länge de finns kvar på listan. Att läsa var telefonen har setts "
+"och att söka efter den använder samma nyckel, så det går inte att ge den ena"
+" rättigheten utan den andra. Välj endast personer som du är bekväm med att "
+"låta hitta den här telefonen."
+
+#.  PersonDetailSheet, own entry: what removing someone does and does not do.
+#. Must state plainly that revocation is forward-only. Paragraph
+#, java-printf-format
+msgctxt "poweroff_grant_revoke_warning"
+msgid ""
+"Taking someone off the list stops them seeing anywhere this phone goes from "
+"then on. It cannot take back places they have already collected, and it "
+"cannot make them forget. Anything this phone was seen at recently, but "
+"nobody has picked up yet, may be lost to you as well."
+msgstr ""
+"Att ta bort någon från listan hindrar personen från att se vart den här "
+"telefonen tar vägen från och med då. Det kan inte återta platser som "
+"personen redan har samlat in och det kan inte få personen att glömma. "
+"Platser där telefonen nyligen har setts, men som ingen ännu har hämtat, kan "
+"också gå förlorade för dig."
+
+#.  PersonDetailSheet, own entry: shown in place of the list when the user has
+#. no connected family members to choose from. Sentence
+#, java-printf-format
+msgctxt "poweroff_grant_no_peers"
+msgid "Once you are connected to someone, you can choose them here."
+msgstr "När du är ansluten till någon kan du välja personen här."
+
+#.  Initial permission screen, step 3: button label before BLUETOOTH_SCAN is
+#. granted
+#, java-printf-format
+msgctxt "permission_grant_bluetooth"
+msgid "Allow Bluetooth"
+msgstr "Tillåt Bluetooth"
+
+#.  Initial permission screen, step 3: button label once BLUETOOTH_SCAN is
+#. granted
+#, java-printf-format
+msgctxt "permission_bluetooth_granted"
+msgid "Bluetooth allowed"
+msgstr "Bluetooth är tillåtet"
+
+#.  Initial permission screen, step 3: why Bluetooth is needed. Kept to one
+#. sentence
+#, java-printf-format
+msgctxt "permission_bluetooth_explanation"
+msgid "Needed to find devices that are nearby."
+msgstr "Behövs för att hitta enheter i närheten."
+
+#.  PersonDetailSheet: button opening the no-show watch dialog for this
+#. person. Verb phrase
+#, java-printf-format
+msgctxt "noshow_watch_button"
+msgid "Watch for no-show"
+msgstr "Bevaka utebliven ankomst"
+
+#.  NoShowAlertDialog: title. %1$s = person name, e.g. Alice. Sentence
+#, java-printf-format, xml-text
+msgctxt "noshow_title"
+msgid ""
+"Watch for <xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> not "
+"arriving"
+msgstr ""
+"Bevaka att <xliff:g id=\"person_name\" example=\"Alice\">%1$s</xliff:g> inte"
+" anländer"
+
+#.  NoShowAlertDialog: label for the expected-place dropdown. Noun phrase
+#, java-printf-format
+msgctxt "noshow_place_label"
+msgid "Expected place"
+msgstr "Förväntad plats"
+
+#.  NoShowAlertDialog: dropdown option meaning any location update counts as
+#. arrival. Noun
+#, java-printf-format
+msgctxt "noshow_place_any"
+msgid "Anywhere"
+msgstr "Var som helst"
+
+#.  NoShowAlertDialog: placeholder on the date button before a date is picked.
+#. Verb phrase
+#, java-printf-format
+msgctxt "noshow_pick_date"
+msgid "Pick date"
+msgstr "Välj datum"
+
+#.  NoShowAlertDialog: placeholder on the time button before a time is picked.
+#. Verb phrase
+#, java-printf-format
+msgctxt "noshow_pick_time"
+msgid "Pick time"
+msgstr "Välj tid"
+
+#.  NoShowAlertDialog: label for the grace-period dropdown. Noun phrase
+#, java-printf-format
+msgctxt "noshow_grace_label"
+msgid "Wait extra"
+msgstr "Vänta extra"
+
+#.  NoShowAlertDialog: grace-period dropdown option. %1$d = minutes, e.g. 30.
+#. Duration noun, pluralized
+#, java-printf-format, xml-text
+msgctxt "noshow_grace_minutes"
+msgid "<xliff:g id=\"minutes\" example=\"1\">%1$d</xliff:g> minute"
+msgid_plural "<xliff:g id=\"minutes\" example=\"30\">%1$d</xliff:g> minutes"
+msgstr[0] "<xliff:g id=\"minutes\" example=\"1\">%1$d</xliff:g> minut"
+msgstr[1] "<xliff:g id=\"minutes\" example=\"30\">%1$d</xliff:g> minuter"
+
+#.  NoShowAlertDialog: primary button saving the watch. Verb phrase
+#, java-printf-format
+msgctxt "noshow_save"
+msgid "Watch"
+msgstr "Bevaka"
+
+#.  NoShowAlertDialog: snackbar confirmation after the watch is saved.
+#. Sentence
+#, java-printf-format
+msgctxt "noshow_scheduled"
+msgid "No-show watch set"
+msgstr "Bevakning av utebliven ankomst har ställts in"
