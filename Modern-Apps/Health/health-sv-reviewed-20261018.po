@@ -1,0 +1,1713 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (Modern Apps)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 22:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/modern-apps/health/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#.  TodayPage / launcher: App name. Noun, proper
+#, java-printf-format
+msgctxt "app_name"
+msgid "Health"
+msgstr "Hälsa"
+
+#.  MainActivity: Button text to request Health Connect permissions. Verb
+#. phrase
+#, java-printf-format
+msgctxt "grant_permissions"
+msgid "Grant Permissions"
+msgstr "Bevilja behörigheter"
+
+#.  Permission wall: explains why Health Connect access is needed. Sentence
+#, java-printf-format
+msgctxt "grant_permissions_rationale"
+msgid ""
+"This app reads and writes your health data through Health Connect. Nothing "
+"leaves your device."
+msgstr ""
+"Den här appen läser och skriver dina hälsodata via Health Connect. Inga data"
+" lämnar din enhet."
+
+#.  BarChartDetails: SecondaryTabRow tab for daily aggregation view. Noun
+#, java-printf-format
+msgctxt "tab_day"
+msgid "Day"
+msgstr "Dag"
+
+#.  BarChartDetails: Tab for weekly aggregation. Noun
+#, java-printf-format
+msgctxt "tab_week"
+msgid "Week"
+msgstr "Vecka"
+
+#.  BarChartDetails: Tab for monthly aggregation. Noun
+#, java-printf-format
+msgctxt "tab_month"
+msgid "Month"
+msgstr "Månad"
+
+#.  BarChartDetails: Tab for yearly aggregation. Noun
+#, java-printf-format
+msgctxt "tab_year"
+msgid "Year"
+msgstr "År"
+
+#.  BarChartDetails / SleepDetailsPage: Empty chart placeholder when no health
+#. data for period. Sentence
+#, java-printf-format
+msgctxt "no_data_available"
+msgid "No data available for this period"
+msgstr "Inga data är tillgängliga för den här perioden"
+
+#.  BarChartDetails: Unit shown when tab != Day and not line chart, displaying
+#. average per day. %1$s = unit string e.g. steps, kcal, km
+#, java-printf-format, xml-text
+msgctxt "unit_per_day_avg_format"
+msgid "<xliff:g id=\"unit\" example=\"steps\">%1$s</xliff:g> per day (avg)"
+msgstr "<xliff:g id=\"unit\" example=\"steps\">%1$s</xliff:g> per dag (genomsnitt)"
+
+#.  BarChartDetails: Unit-only format with leading non-breaking space. %1$s =
+#. unit string e.g. steps. Uses \u0020 NBSP
+#, java-printf-format, xml-text
+msgctxt "unit_only_format"
+msgid " <xliff:g id=\"unit\" example=\"steps\">%1$s</xliff:g>"
+msgstr " <xliff:g id=\"unit\" example=\"steps\">%1$s</xliff:g>"
+
+#.  BarChartDetails + HealthViewModel: Month year header format. %1$s = month
+#. name e.g. January or Jan, %2$d = year integer e.g. 2026
+#, java-printf-format, xml-text
+msgctxt "month_year_format"
+msgid ""
+"<xliff:g id=\"month\" example=\"January\">%1$s</xliff:g> <xliff:g "
+"id=\"year\" example=\"2026\">%2$d</xliff:g>"
+msgstr ""
+"<xliff:g id=\"month\" example=\"January\">%1$s</xliff:g> <xliff:g "
+"id=\"year\" example=\"2026\">%2$d</xliff:g>"
+
+#.  BarChartDetails: History row trailing value with space before unit. %1$s =
+#. formatted value e.g. 12,345, %2$s = unit e.g. steps
+#, java-printf-format, xml-text
+msgctxt "value_unit_space_format"
+msgid ""
+"<xliff:g id=\"value\" example=\"12,345\">%1$s</xliff:g> <xliff:g id=\"unit\""
+" example=\"steps\">%2$s</xliff:g>"
+msgstr ""
+"<xliff:g id=\"value\" example=\"12,345\">%1$s</xliff:g> <xliff:g id=\"unit\""
+" example=\"steps\">%2$s</xliff:g>"
+
+#.  BarChartDetails: Y-axis value formatter for >=10k, converting to k
+#. shorthand. %1$s = value divided by 1000 rounded e.g. 12
+#, java-printf-format, xml-text
+msgctxt "k_format"
+msgid "<xliff:g id=\"thousands\" example=\"12\">%1$s</xliff:g>k"
+msgstr "<xliff:g id=\"thousands\" example=\"12\">%1$s</xliff:g> t"
+
+#.  HealthMetricConfig titleRes: Display name for Energy Burned metric
+#. (calories). Noun phrase
+#, java-printf-format
+msgctxt "metric_energy_burned"
+msgid "Energy Burned"
+msgstr "Förbränd energi"
+
+#.  HealthMetricConfig: Active Calories title. Noun phrase
+#, java-printf-format
+msgctxt "metric_active_calories"
+msgid "Active Calories"
+msgstr "Aktiva kalorier"
+
+#.  HealthMetricConfig: Basal Metabolic Rate title. Noun phrase
+#, java-printf-format
+msgctxt "metric_basal_metabolic_rate"
+msgid "Basal Metabolic Rate"
+msgstr "Basalmetabolism"
+
+#.  HealthMetricConfig: Steps title. Noun
+#, java-printf-format
+msgctxt "metric_steps"
+msgid "Steps"
+msgstr "Steg"
+
+#.  HealthMetricConfig: Wheelchair Pushes title. Noun phrase
+#, java-printf-format
+msgctxt "metric_wheelchair_pushes"
+msgid "Wheelchair Pushes"
+msgstr "Rullstolstag"
+
+#.  HealthMetricConfig: Distance title. Noun
+#, java-printf-format
+msgctxt "metric_distance"
+msgid "Distance"
+msgstr "Distans"
+
+#.  HealthMetricConfig: Elevation Gained title. Noun phrase
+#, java-printf-format
+msgctxt "metric_elevation_gained"
+msgid "Elevation Gained"
+msgstr "Höjdmeter"
+
+#.  HealthMetricConfig: Floors Climbed title. Noun phrase
+#, java-printf-format
+msgctxt "metric_floors_climbed"
+msgid "Floors Climbed"
+msgstr "Våningar"
+
+#.  HealthMetricConfig: Hydration title. Noun
+#, java-printf-format
+msgctxt "metric_hydration"
+msgid "Hydration"
+msgstr "Vätskeintag"
+
+#.  HealthMetricConfig: Blood Pressure title. Noun phrase
+#, java-printf-format
+msgctxt "metric_blood_pressure"
+msgid "Blood Pressure"
+msgstr "Blodtryck"
+
+#.  HealthMetricConfig: Blood Glucose title. Noun phrase
+#, java-printf-format
+msgctxt "metric_blood_glucose"
+msgid "Blood Glucose"
+msgstr "Blodglukos"
+
+#.  HealthMetricConfig: VO2 Max title (max oxygen uptake). Noun abbreviation
+#, java-printf-format
+msgctxt "metric_vo2_max"
+msgid "VO2 Max"
+msgstr "VO₂ max"
+
+#.  HealthMetricConfig: Skin Temperature Variation title. Noun phrase
+#, java-printf-format
+msgctxt "metric_skin_temp_variation"
+msgid "Skin Temp Variation"
+msgstr "Variation i hudtemperatur"
+
+#.  HealthMetricConfig: Breathing Rate title. Noun phrase
+#, java-printf-format
+msgctxt "metric_breathing_rate"
+msgid "Breathing Rate"
+msgstr "Andningsfrekvens"
+
+#.  HealthMetricConfig: Resting Heart Rate title. Noun phrase
+#, java-printf-format
+msgctxt "metric_resting_heart_rate"
+msgid "Resting Heart Rate"
+msgstr "Vilopuls"
+
+#.  HealthMetricConfig: Oxygen Saturation title. Noun phrase
+#, java-printf-format
+msgctxt "metric_oxygen_saturation"
+msgid "Oxygen Saturation"
+msgstr "Syremättnad"
+
+#.  HealthMetricConfig: Heart Rate Variability title. Noun phrase
+#, java-printf-format
+msgctxt "metric_heart_rate_variability"
+msgid "Heart Rate Variability"
+msgstr "Hjärtfrekvensvariabilitet"
+
+#.  HealthMetricConfig: Heart Rate title. Noun phrase
+#, java-printf-format
+msgctxt "metric_heart_rate"
+msgid "Heart Rate"
+msgstr "Hjärtfrekvens"
+
+#.  HealthMetricConfig: Height title. Noun
+#, java-printf-format
+msgctxt "metric_height"
+msgid "Height"
+msgstr "Längd"
+
+#.  HealthMetricConfig: Weight title. Noun
+#, java-printf-format
+msgctxt "metric_weight"
+msgid "Weight"
+msgstr "Vikt"
+
+#.  HealthMetricConfig: Body Fat percentage title. Noun phrase
+#, java-printf-format
+msgctxt "metric_body_fat"
+msgid "Body Fat"
+msgstr "Kroppsfett"
+
+#.  HealthMetricConfig: Lean Body Mass title. Noun phrase
+#, java-printf-format
+msgctxt "metric_lean_body_mass"
+msgid "Lean Body Mass"
+msgstr "Fettfri kroppsmassa"
+
+#.  HealthMetricConfig: Bone Mass title. Noun phrase
+#, java-printf-format
+msgctxt "metric_bone_mass"
+msgid "Bone Mass"
+msgstr "Benmassa"
+
+#.  HealthMetricConfig: Body Water Mass title. Noun phrase
+#, java-printf-format
+msgctxt "metric_body_water_mass"
+msgid "Body Water Mass"
+msgstr "Kroppsvattenmassa"
+
+#.  HealthMetricConfig: Sleep duration title. Noun
+#, java-printf-format
+msgctxt "metric_sleep"
+msgid "Sleep"
+msgstr "Sömn"
+
+#.  HealthMetricConfig: Exercise duration title. Noun
+#, java-printf-format
+msgctxt "metric_exercise_duration"
+msgid "Exercise"
+msgstr "Träning"
+
+#.  SleepDetailsPage: Hypnogram Y-axis label for Awake stage. Adjective/noun
+#, java-printf-format
+msgctxt "label_awake"
+msgid "Awake"
+msgstr "Vaken"
+
+#.  SleepDetailsPage: Label for REM sleep stage. Noun abbreviation, keep REM
+#, java-printf-format
+msgctxt "label_rem"
+msgid "REM"
+msgstr "REM"
+
+#.  SleepDetailsPage: Label for Core sleep stage. Noun
+#, java-printf-format
+msgctxt "label_core"
+msgid "Core"
+msgstr "Kärnsömn"
+
+#.  SleepDetailsPage: Label for Deep sleep stage. Adjective
+#, java-printf-format
+msgctxt "label_deep"
+msgid "Deep"
+msgstr "Djupsömn"
+
+#.  BodyPage: Section header for body composition metrics. Noun phrase
+#, java-printf-format
+msgctxt "section_body_composition"
+msgid "Body Composition"
+msgstr "Kroppssammansättning"
+
+#.  TodayPage / ActivityPage: Mini-card legend for active calories ring.
+#. Adjective short label
+#, java-printf-format
+msgctxt "label_active"
+msgid "Active"
+msgstr "Aktiv"
+
+#.  BarChartDetails: Slash format for dual averages, e.g. active/basal or
+#. systolic/diastolic avg. %1$s = first avg string, %2$s = second avg string
+#, java-printf-format, xml-text
+msgctxt "slash_value_format"
+msgid ""
+"<xliff:g id=\"first\" example=\"120\">%1$s</xliff:g>/<xliff:g id=\"second\" "
+"example=\"80\">%2$s</xliff:g>"
+msgstr ""
+"<xliff:g id=\"first\" example=\"120\">%1$s</xliff:g>/<xliff:g id=\"second\" "
+"example=\"80\">%2$s</xliff:g>"
+
+#.  BarChartDetails: Dash format for range averages like heart-rate min-max.
+#. %1$s = min value string, %2$s = max value string
+#, java-printf-format, xml-text
+msgctxt "dash_value_format"
+msgid ""
+"<xliff:g id=\"min\" example=\"60\">%1$s</xliff:g> - <xliff:g id=\"max\" "
+"example=\"140\">%2$s</xliff:g>"
+msgstr ""
+"<xliff:g id=\"min\" example=\"60\">%1$s</xliff:g> – <xliff:g id=\"max\" "
+"example=\"140\">%2$s</xliff:g>"
+
+#.  HealthFormat: Sleep duration hours and minutes. %1$d = hours integer, %2$d
+#. = minutes integer e.g. 7h 30m
+#, java-printf-format, xml-text
+msgctxt "hours_minutes_format"
+msgid ""
+"<xliff:g id=\"hours\" example=\"7\">%1$d</xliff:g>h <xliff:g id=\"minutes\" "
+"example=\"30\">%2$d</xliff:g>m"
+msgstr ""
+"<xliff:g id=\"hours\" example=\"7\">%1$d</xliff:g> h <xliff:g id=\"minutes\""
+" example=\"30\">%2$d</xliff:g> min"
+
+#.  HealthFormat: Duration minutes only when hours zero. %1$d = minutes
+#. integer e.g. 25
+#, java-printf-format, xml-text
+msgctxt "minutes_format"
+msgid "<xliff:g id=\"minutes\" example=\"25\">%1$d</xliff:g>m"
+msgstr "<xliff:g id=\"minutes\" example=\"25\">%1$d</xliff:g> min"
+
+#.  TodayPage: Label for Mindfulness minutes row. Noun
+#, java-printf-format
+msgctxt "label_mindfulness"
+msgid "Mindfulness"
+msgstr "Medveten närvaro"
+
+#.  TodayPage: Label for Elevation gained row. Noun
+#, java-printf-format
+msgctxt "label_elevation"
+msgid "Elevation"
+msgstr "Höjd"
+
+#.  TodayPage: Label for Floors climbed row. Noun
+#, java-printf-format
+msgctxt "label_floors"
+msgid "Floors"
+msgstr "Våningar"
+
+#.  Units: Beats per minute. Abbreviation
+#, java-printf-format
+msgctxt "unit_bpm"
+msgid "bpm"
+msgstr "slag/min"
+
+#.  Units: Percent sign. Symbol
+#, java-printf-format
+msgctxt "unit_percent"
+msgid "%"
+msgstr "%"
+
+#.  Units: Centimeters for height. Abbreviation
+#, java-printf-format
+msgctxt "unit_cm"
+msgid "cm"
+msgstr "cm"
+
+#.  Units: Kilograms for weight. Abbreviation
+#, java-printf-format
+msgctxt "unit_kg"
+msgid "kg"
+msgstr "kg"
+
+#.  Units: Milliliters for hydration. Abbreviation
+#, java-printf-format
+msgctxt "unit_ml"
+msgid "mL"
+msgstr "ml"
+
+#.  Units: Fluid unit label for hydration (alternative). Abbreviation
+#, java-printf-format
+msgctxt "unit_fl"
+msgid "fl"
+msgstr "fl oz"
+
+#.  Units: Meters for distance/elevation. Abbreviation
+#, java-printf-format
+msgctxt "unit_m"
+msgid "m"
+msgstr "m"
+
+#.  Units: Kilometers for distance. Abbreviation
+#, java-printf-format
+msgctxt "unit_km"
+msgid "km"
+msgstr "km"
+
+#.  Units: Pushes unit suffix for wheelchair pushes. Noun
+#, java-printf-format
+msgctxt "unit_pushes"
+msgid "pushes"
+msgstr "tag"
+
+#.  Units: Minutes abbreviation. Short
+#, java-printf-format
+msgctxt "unit_min"
+msgid "min"
+msgstr "min"
+
+#.  Units: Calories abbreviation short. Keep short
+#, java-printf-format
+msgctxt "unit_cal"
+msgid "cal"
+msgstr "cal"
+
+#.  Units: Millimeters of mercury for blood pressure. Abbreviation
+#, java-printf-format
+msgctxt "label_blood_pressure_unit"
+msgid "mmHg"
+msgstr "mmHg"
+
+#.  NutritionDetailsPage: TopAppBar title for full breakdown screen. Noun
+#. phrase
+#, java-printf-format
+msgctxt "nutrition_breakdown"
+msgid "Nutrition breakdown"
+msgstr "Näringsfördelning"
+
+#.  RecipeManagementPage: Title Tabs - Recipes list tab. Noun
+#, java-printf-format
+msgctxt "recipes"
+msgid "Recipes"
+msgstr "Recept"
+
+#.  RecipeManagementPage: Tab for Ingredients list and section header in
+#. NutritionPage FAB. Noun
+#, java-printf-format
+msgctxt "ingredients"
+msgid "Ingredients"
+msgstr "Ingredienser"
+
+#.  RecipeManagementPage: Dialog title to rename ingredient custom name. Verb
+#. phrase
+#, java-printf-format
+msgctxt "rename_ingredient"
+msgid "Rename Ingredient"
+msgstr "Byt namn på ingrediens"
+
+#.  RecipeManagementPage: Label for custom name input field. Noun phrase
+#, java-printf-format
+msgctxt "custom_name"
+msgid "Custom Name"
+msgstr "Eget namn"
+
+#.  RecipeManagementPage: Input label for recipe name. Noun phrase
+#, java-printf-format
+msgctxt "recipe_name"
+msgid "Recipe Name"
+msgstr "Receptnamn"
+
+#.  RecipeManagementPage: Button to save recipe after ingredients added. Verb
+#. phrase
+#, java-printf-format
+msgctxt "save_recipe"
+msgid "Save Recipe"
+msgstr "Spara recept"
+
+#.  RecipeManagementPage: Dialog title to set quantity for ingredient. %1$s =
+#. ingredient display name e.g. Tomato
+#, java-printf-format, xml-text
+msgctxt "set_quantity_for_format"
+msgid "Set Quantity for <xliff:g id=\"ingredient\" example=\"Tomato\">%1$s</xliff:g>"
+msgstr "Ange mängd för <xliff:g id=\"ingredient\" example=\"Tomato\">%1$s</xliff:g>"
+
+#.  RecipeManagementPage: Input label for quantity in grams or factor. Noun
+#, java-printf-format
+msgctxt "quantity"
+msgid "Quantity"
+msgstr "Mängd"
+
+#.  RecipeManagementPage: Confirm button in quantity dialog. Verb
+#, java-printf-format
+msgctxt "confirm"
+msgid "Confirm"
+msgstr "Bekräfta"
+
+#.  RecipeManagementPage: Search field label for ingredient search
+#. (online+local). Noun phrase verb
+#, java-printf-format
+msgctxt "search_ingredient"
+msgid "Search Ingredient"
+msgstr "Sök ingrediens"
+
+#.  NutritionPage FAB / dialogs: Action to log hydration. Verb phrase
+#, java-printf-format
+msgctxt "log_hydration"
+msgid "Log Hydration"
+msgstr "Logga vätskeintag"
+
+#.  NutritionPage: Action to log a meal using recipe. Verb phrase
+#, java-printf-format
+msgctxt "log_meal"
+msgid "Log Meal"
+msgstr "Logga måltid"
+
+#.  BodyLoggingDialog: Title to log body metric. %1$s = metric title e.g.
+#. Weight, Body Fat. Verb phrase
+#, java-printf-format, xml-text
+msgctxt "log_body_metric"
+msgid "Log <xliff:g id=\"metric\" example=\"Weight\">%1$s</xliff:g>"
+msgstr "Logga <xliff:g id=\"metric\" example=\"Weight\">%1$s</xliff:g>"
+
+#.  MainActivity BottomNavBar: Today tab label. Noun
+#, java-printf-format
+msgctxt "nav_today"
+msgid "Today"
+msgstr "I dag"
+
+#.  MainActivity BottomNavBar: Nutrition tab label. Noun
+#, java-printf-format
+msgctxt "nav_nutrition"
+msgid "Nutrition"
+msgstr "Näring"
+
+#.  MainActivity BottomNavBar: Body tab label. Noun
+#, java-printf-format
+msgctxt "nav_body"
+msgid "Body"
+msgstr "Kropp"
+
+#.  TodayPage: Section header for latest vitals cards. Noun phrase
+#, java-printf-format
+msgctxt "section_latest_vitals"
+msgid "Latest vitals"
+msgstr "Senaste vitalvärdena"
+
+#.  TodayPage: Section header for last night sleep card. Noun phrase
+#, java-printf-format
+msgctxt "section_last_night"
+msgid "Last night"
+msgstr "I natt"
+
+#.  TodayPage: Section header for quick stats mini-cards. Noun phrase
+#, java-printf-format
+msgctxt "section_quick_stats"
+msgid "Quick stats"
+msgstr "Snabbstatistik"
+
+#.  ExerciseDetailsPage: Empty state when no workouts recorded. Sentence
+#, java-printf-format
+msgctxt "no_workouts"
+msgid "No workouts recorded"
+msgstr "Inga träningspass har registrerats"
+
+#.  NutritionPage: Link row supporting text to view full nutrition breakdown
+#. screen. Verb phrase
+#, java-printf-format
+msgctxt "view_full_breakdown"
+msgid "View full breakdown"
+msgstr "Visa fullständig fördelning"
+
+#.  RecipeManagementPage: Placeholder when ingredient search yields no
+#. results. Sentence
+#, java-printf-format
+msgctxt "no_results_found"
+msgid "No results found"
+msgstr "Inga resultat hittades"
+
+#.  Label showing original ingredient name. %1$s = original name e.g. Tomato.
+#. Keep same translation as original label
+#, java-printf-format, xml-text
+msgctxt "original_1"
+msgid "Original: <xliff:g id=\"original_name\" example=\"Tomato\">%1$s</xliff:g>"
+msgstr "Ursprungligt: <xliff:g id=\"original_name\" example=\"Tomato\">%1$s</xliff:g>"
+
+#.  RecipeManagementPage: Sub-header for locally saved ingredients. Noun
+#. phrase
+#, java-printf-format
+msgctxt "saved_locally"
+msgid "Saved Locally"
+msgstr "Sparat lokalt"
+
+#.  RecipeManagementPage: Title of the offline nutrition database card, and
+#. section header for its search results. Noun phrase
+#, java-printf-format
+msgctxt "food_database"
+msgid "Food Database"
+msgstr "Livsmedelsdatabas"
+
+#.  RecipeManagementPage: Shown while the bundled food database is still being
+#. built on first launch. Sentence
+#, java-printf-format
+msgctxt "food_database_absent"
+msgid ""
+"Getting the food database ready. Until it is, only ingredients you have "
+"already saved can be found."
+msgstr ""
+"Livsmedelsdatabasen förbereds. Tills dess går det bara att hitta "
+"ingredienser som du redan har sparat."
+
+#.  RecipeManagementPage: First-run build progress. %1$s = products written
+#. e.g. 120,000, %2$s = total e.g. 465,000
+#, java-printf-format, xml-text
+msgctxt "food_database_preparing"
+msgid ""
+"Preparing <xliff:g id=\"products_done\" example=\"120,000\">%1$s</xliff:g> "
+"of <xliff:g id=\"products_total\" example=\"465,000\">%2$s</xliff:g> "
+"products"
+msgstr ""
+"Förbereder <xliff:g id=\"products_done\" example=\"120,000\">%1$s</xliff:g> "
+"av <xliff:g id=\"products_total\" example=\"465,000\">%2$s</xliff:g> "
+"produkter"
+
+#.  RecipeManagementPage: Button shown after the food database failed to
+#. build. Verb
+#, java-printf-format
+msgctxt "food_database_retry"
+msgid "Retry"
+msgstr "Försök igen"
+
+#.  RecipeManagementPage: Required licence attribution for the nutrition data.
+#. Keep the project name and licence untranslated
+#, java-printf-format
+msgctxt "food_database_attribution"
+msgid "Nutrition data from Open Food Facts, ODbL v1.0"
+msgstr "Näringsdata från Open Food Facts, ODbL v1.0"
+
+#.  ExerciseDetailsPage: Section header for exercise segments. Noun
+#, java-printf-format
+msgctxt "segments"
+msgid "Segments"
+msgstr "Segment"
+
+#.  ExerciseDetailsPage: Section header for laps list in workout details. Noun
+#, java-printf-format
+msgctxt "laps"
+msgid "Laps"
+msgstr "Varv"
+
+#.  ExerciseDetailsPage: Lap entry label. %1$s = lap index string e.g. 1
+#, java-printf-format, xml-text
+msgctxt "lap"
+msgid "Lap <xliff:g id=\"lap_index\" example=\"1\">%1$s</xliff:g>"
+msgstr "Varv <xliff:g id=\"lap_index\" example=\"1\">%1$s</xliff:g>"
+
+#.  ExerciseDetailsPage: Repetitions display for workout activity. %1$s = reps
+#. count string e.g. 12
+#, java-printf-format, xml-text
+msgctxt "reps"
+msgid "<xliff:g id=\"reps_count\" example=\"12\">%1$s</xliff:g> reps"
+msgstr "<xliff:g id=\"reps_count\" example=\"12\">%1$s</xliff:g> repetitioner"
+
+#.  ExerciseDetailsPage: Chip/badge indicating GPS route was recorded for
+#. workout. Noun phrase
+#, java-printf-format
+msgctxt "route_recorded"
+msgid "Route recorded"
+msgstr "Rutt registrerad"
+
+#.  FoodLoggingDialogs: Badge indicating ingredient wrapper type in meal
+#. selector dropdown. Noun in parens
+#, java-printf-format
+msgctxt "ingredient"
+msgid "(Ingredient)"
+msgstr "(Ingrediens)"
+
+#.  NutritionPage: Header above calorie goal display. Noun
+#, java-printf-format
+msgctxt "calories"
+msgid "Calories"
+msgstr "Kalorier"
+
+#.  NutritionPage: Calorie goal progress. %1$s = current calories string e.g.
+#. 1,200, %2$s = goal string e.g. 2,000
+#, java-printf-format, xml-text
+msgctxt "kcal"
+msgid ""
+"<xliff:g id=\"current_cal\" example=\"1200\">%1$s</xliff:g> / <xliff:g "
+"id=\"goal_cal\" example=\"2000\">%2$s</xliff:g> kcal"
+msgstr ""
+"<xliff:g id=\"current_cal\" example=\"1200\">%1$s</xliff:g> / <xliff:g "
+"id=\"goal_cal\" example=\"2000\">%2$s</xliff:g> kcal"
+
+#.  RecipeManagementPage: Button to create first recipe when empty list. Verb
+#. phrase
+#, java-printf-format
+msgctxt "create_recipe"
+msgid "Create Recipe"
+msgstr "Skapa recept"
+
+#.  RecipeManagementPage: Empty empty state prompt to add first ingredient.
+#. Verb phrase
+#, java-printf-format
+msgctxt "add_your_first_ingredient"
+msgid "Add your first ingredient"
+msgstr "Lägg till din första ingrediens"
+
+#.  RecipeManagementPage: Empty state prompt to create first recipe. Verb
+#. phrase
+#, java-printf-format
+msgctxt "create_your_first_recipe"
+msgid "Create your first recipe"
+msgstr "Skapa ditt första recept"
+
+#.  RecipeManagementPage: Title when editing existing recipe. Verb phrase
+#, java-printf-format
+msgctxt "edit_recipe"
+msgid "Edit Recipe"
+msgstr "Redigera recept"
+
+#.  NutritionPage: Empty state when no meals logged today. Sentence
+#, java-printf-format
+msgctxt "no_meals_logged_today"
+msgid "No meals logged today"
+msgstr "Inga måltider har loggats i dag"
+
+#.  NutritionPage: Logged meals summary leading to full breakdown. %1$s = meal
+#. count as string e.g. 3, %2$s = total calories string e.g. 850
+#, java-printf-format, xml-text
+msgctxt "meals_cal"
+msgid ""
+"<xliff:g id=\"meal_count\" example=\"3\">%1$s</xliff:g> meals · <xliff:g "
+"id=\"total_cal\" example=\"850\">%2$s</xliff:g> cal"
+msgstr ""
+"<xliff:g id=\"meal_count\" example=\"3\">%1$s</xliff:g> måltider · <xliff:g "
+"id=\"total_cal\" example=\"850\">%2$s</xliff:g> cal"
+
+#.  FoodLoggingDialogs HydrationUnit: Liters option. Noun
+#, java-printf-format
+msgctxt "hydration_liters"
+msgid "Liters"
+msgstr "Liter"
+
+#.  FoodLoggingDialogs: Milliliters option. Noun
+#, java-printf-format
+msgctxt "hydration_milliliters"
+msgid "Milliliters"
+msgstr "Milliliter"
+
+#.  FoodLoggingDialogs: Ounces option for hydration. Noun
+#, java-printf-format
+msgctxt "hydration_ounces"
+msgid "Ounces"
+msgstr "Uns"
+
+#.  FoodLoggingDialogs: Cups option for hydration. Noun
+#, java-printf-format
+msgctxt "hydration_cups"
+msgid "Cups"
+msgstr "Koppar"
+
+#.  FoodLoggingDialogs: Placeholder when no recipe selected in Meal dropdown.
+#. Noun phrase verb
+#, java-printf-format
+msgctxt "select_recipe"
+msgid "Select Recipe"
+msgstr "Välj recept"
+
+#.  FoodLoggingDialogs: Label for quantity field when ingredient (x 100g
+#. factor). Noun phrase
+#, java-printf-format
+msgctxt "quantity_x_100g"
+msgid "Quantity (x 100g)"
+msgstr "Mängd (x 100 g)"
+
+#.  FoodLoggingDialogs: Label for servings count when recipe selected. Noun
+#, java-printf-format
+msgctxt "servings"
+msgid "Servings"
+msgstr "Portioner"
+
+#, java-printf-format
+msgctxt "kcal_2"
+msgid "kcal"
+msgstr "kcal"
+
+#.  BottomNavBar: Tab for the medical page, which contains all medical logs.
+#. Noun
+#, java-printf-format
+msgctxt "nav_medical"
+msgid "Medical"
+msgstr "Medicinskt"
+
+#.  MedicalPage: Nested row opening the past medications list. Noun phrase
+#, java-printf-format
+msgctxt "past_medications"
+msgid "Past medications"
+msgstr "Tidigare läkemedel"
+
+#.  MedicalPage: Row opening the vaccination log. Noun, plural
+#, java-printf-format
+msgctxt "vaccinations"
+msgid "Vaccinations"
+msgstr "Vaccinationer"
+
+#.  MedicalPage: Row opening the allergy list. Noun, plural
+#, java-printf-format
+msgctxt "allergies"
+msgid "Allergies"
+msgstr "Allergier"
+
+#.  MedicalPage: Row opening the diagnosis list. Noun, plural
+#, java-printf-format
+msgctxt "conditions"
+msgid "Conditions"
+msgstr "Tillstånd"
+
+#.  MedicalPage: Banner shown when the device cannot store FHIR records.
+#. Sentence
+#, java-printf-format
+msgctxt "phr_unavailable"
+msgid ""
+"Health Connect on this device cannot store medical records, so these are "
+"kept in the app only."
+msgstr ""
+"Health Connect på den här enheten kan inte lagra medicinska journaler, så de"
+" sparas bara i appen."
+
+#.  MedicalPage: FAB entry and add screen title. Verb phrase
+#, java-printf-format
+msgctxt "add_vaccination"
+msgid "Add vaccination"
+msgstr "Lägg till vaccination"
+
+#.  AddVaccinationPage: Title when changing an existing record. Verb phrase
+#, java-printf-format
+msgctxt "edit_vaccination"
+msgid "Edit vaccination"
+msgstr "Redigera vaccination"
+
+#.  MedicalPage: FAB entry and add screen title. Verb phrase
+#, java-printf-format
+msgctxt "add_medication"
+msgid "Add medication"
+msgstr "Lägg till läkemedel"
+
+#.  AddMedicationPage: Title when changing an existing record. Verb phrase
+#, java-printf-format
+msgctxt "edit_medication"
+msgid "Edit medication"
+msgstr "Redigera läkemedel"
+
+#.  AddMedicationPage: Status shown on a medication still being taken.
+#. Adjective
+#, java-printf-format
+msgctxt "medication_status_active"
+msgid "Taking"
+msgstr "Pågående"
+
+#.  AddMedicationPage: Status shown on a completed course. Adjective
+#, java-printf-format
+msgctxt "medication_status_completed"
+msgid "Finished"
+msgstr "Avslutad"
+
+#.  AddMedicationPage: Status shown on a medication that was stopped early.
+#. Adjective
+#, java-printf-format
+msgctxt "medication_status_stopped"
+msgid "Stopped"
+msgstr "Avslutad"
+
+#.  AddVaccinationPage / AddMedicationPage: Form section heading. Noun phrase
+#, java-printf-format
+msgctxt "section_what"
+msgid "What"
+msgstr "Vad"
+
+#.  AddVaccinationPage / AddMedicationPage: Form section heading. Noun
+#, java-printf-format
+msgctxt "section_when"
+msgid "When"
+msgstr "När"
+
+#.  AddVaccinationPage: Form section heading for optional clinical fields.
+#. Noun phrase
+#, java-printf-format
+msgctxt "section_details"
+msgid "Details"
+msgstr "Detaljer"
+
+#.  AddVaccinationPage: Form section heading for scanned cards. Noun, plural
+#, java-printf-format
+msgctxt "section_attachments"
+msgid "Attachments"
+msgstr "Bilagor"
+
+#.  AddVaccinationPage: Read-only field opening the vaccine picker. Noun
+#, java-printf-format
+msgctxt "field_vaccine"
+msgid "Vaccine"
+msgstr "Vaccin"
+
+#.  AddVaccinationPage: Placeholder in the vaccine field before one is chosen.
+#. Verb phrase
+#, java-printf-format
+msgctxt "choose_a_vaccine"
+msgid "Choose a vaccine"
+msgstr "Välj vaccin"
+
+#.  AddVaccinationPage: Date the vaccination was given. Noun phrase
+#, java-printf-format
+msgctxt "field_date_given"
+msgid "Date given"
+msgstr "Vaccinationsdatum"
+
+#.  AddVaccinationPage: Manufacturer lot number printed on the vaccination
+#. card. Noun phrase
+#, java-printf-format
+msgctxt "field_lot_number"
+msgid "Lot number"
+msgstr "Batchnummer"
+
+#.  AddVaccinationPage: Body site the injection was given in. Noun
+#, java-printf-format
+msgctxt "field_site"
+msgid "Site"
+msgstr "Injektionsställe"
+
+#.  AddVaccinationPage: Route of administration, for example intramuscular.
+#. Noun
+#, java-printf-format
+msgctxt "field_route"
+msgid "Route"
+msgstr "Administreringssätt"
+
+#.  AddVaccinationPage: Dose given, for example 0.5 mL. Noun
+#, java-printf-format
+msgctxt "field_dose"
+msgid "Dose"
+msgstr "Dos"
+
+#.  AddVaccinationPage: Clinic or clinician who gave the vaccination. Noun
+#, java-printf-format
+msgctxt "field_performer"
+msgid "Given by"
+msgstr "Givet av"
+
+#.  AddVaccinationPage / AddMedicationPage: Free-text note. Noun
+#, java-printf-format
+msgctxt "field_note"
+msgid "Note"
+msgstr "Anteckning"
+
+#.  AddVaccinationPage: Button adding a PDF or photo of a vaccination card.
+#. Verb phrase
+#, java-printf-format
+msgctxt "attach_file"
+msgid "Attach a PDF or photo"
+msgstr "Bifoga en PDF eller ett foto"
+
+#.  AddVaccinationPage: Name used when the file picker reports no name for a
+#. file. Noun
+#, java-printf-format
+msgctxt "attachment_untitled"
+msgid "Attachment"
+msgstr "Bilaga"
+
+#.  AddMedicationPage: Read-only field opening the ingredient picker. Noun
+#, java-printf-format
+msgctxt "field_medication"
+msgid "Medication"
+msgstr "Läkemedel"
+
+#.  AddMedicationPage: Placeholder in the medication field before one is
+#. chosen. Verb phrase
+#, java-printf-format
+msgctxt "choose_a_medication"
+msgid "Choose a medication"
+msgstr "Välj läkemedel"
+
+#.  AddMedicationPage: Read-only field opening the strength and form picker.
+#. Noun phrase
+#, java-printf-format
+msgctxt "field_strength_and_form"
+msgid "Strength and form"
+msgstr "Styrka och form"
+
+#.  AddMedicationPage: Placeholder before a strength is chosen. Verb phrase
+#, java-printf-format
+msgctxt "choose_a_strength"
+msgid "Choose a strength and form"
+msgstr "Välj styrka och form"
+
+#.  AddMedicationPage: Date the user started taking the medication. Noun
+#. phrase
+#, java-printf-format
+msgctxt "field_started"
+msgid "Started"
+msgstr "Påbörjad"
+
+#.  AddMedicationPage: Date the user stopped taking the medication. Noun
+#. phrase
+#, java-printf-format
+msgctxt "field_ended"
+msgid "Ended"
+msgstr "Avslutad"
+
+#.  AddMedicationPage: How much and how often, for example one tablet twice a
+#. day. Noun
+#, java-printf-format
+msgctxt "field_dosage"
+msgid "Dosage"
+msgstr "Dosering"
+
+#.  AddMedicationPage: Label above the taking/finished/stopped selector. Noun
+#, java-printf-format
+msgctxt "field_status"
+msgid "Status"
+msgstr "Status"
+
+#.  CatalogPickerPage: Search field placeholder, which doubles as the screen
+#. title. Verb phrase
+#, java-printf-format
+msgctxt "search_vaccines"
+msgid "Search vaccines"
+msgstr "Sök vacciner"
+
+#.  CatalogPickerPage: Search field placeholder when picking a medication.
+#. Verb phrase
+#, java-printf-format
+msgctxt "search_medications"
+msgid "Search medications"
+msgstr "Sök läkemedel"
+
+#.  CatalogPickerPage: Search field placeholder when picking a strength and
+#. dose form. Verb phrase
+#, java-printf-format
+msgctxt "search_strengths"
+msgid "Search strengths"
+msgstr "Sök styrkor"
+
+#.  CatalogPickerPage: Empty state when a search matches nothing. Sentence
+#, java-printf-format
+msgctxt "no_matches"
+msgid "Nothing matches that search"
+msgstr "Inget matchar sökningen"
+
+#.  CatalogPickerPage: Shown while the medication catalogue is being unpacked.
+#. Sentence
+#, java-printf-format
+msgctxt "preparing_medication_catalog"
+msgid "Preparing the medication list…"
+msgstr "Förbereder läkemedelslistan…"
+
+#.  CatalogPickerPage: Shown when the medication catalogue is not bundled in
+#. this build. Sentence
+#, java-printf-format
+msgctxt "medication_catalog_absent"
+msgid "This build has no medication list, so you can type a name instead."
+msgstr ""
+"Den här versionen har ingen läkemedelslista, så du kan skriva ett namn i "
+"stället."
+
+#.  CatalogPickerPage: Action accepting the typed text rather than a catalogue
+#. entry, %1$s is what was typed
+#, java-printf-format
+msgctxt "use_typed_name"
+msgid "Use “%1$s”"
+msgstr "Använd ”%1$s”"
+
+#.  CatalogPickerPage: Marks a vaccine code the CDC has retired. Adjective
+#, java-printf-format
+msgctxt "cvx_retired"
+msgid "Retired code"
+msgstr "Utgången kod"
+
+#.  Notification channel for the alert when a medication dose is due. Noun
+#. phrase
+#, java-printf-format
+msgctxt "channel_dose_reminder_name"
+msgid "Dose reminders"
+msgstr "Dospåminnelser"
+
+#.  Description of the dose reminder notification channel. Sentence
+#, java-printf-format
+msgctxt "channel_dose_reminder_description"
+msgid "Alerts you when a medication is due."
+msgstr "Meddelar när det är dags att ta ett läkemedel."
+
+#.  Notification channel for the ongoing notification while a reminder is
+#. sounding. Noun phrase
+#, java-printf-format
+msgctxt "channel_dose_ringing_name"
+msgid "Reminder sounding"
+msgstr "Påminnelse ljuder"
+
+#.  Description of the sounding notification channel. Sentence
+#, java-printf-format
+msgctxt "channel_dose_ringing_description"
+msgid "Shown while a dose reminder is going off."
+msgstr "Visas medan en dospåminnelse pågår."
+
+#.  DoseReminderScreen and its notification: heading when a dose is due.
+#. Sentence
+#, java-printf-format
+msgctxt "dose_due_title"
+msgid "Time to take"
+msgstr "Dags att ta"
+
+#.  DoseReminderScreen: button confirming the dose was taken. Verb
+#, java-printf-format
+msgctxt "dose_taken"
+msgid "Taken"
+msgstr "Tagen"
+
+#.  DoseReminderScreen: button postponing the reminder. Verb
+#, java-printf-format
+msgctxt "dose_snooze"
+msgid "Snooze"
+msgstr "Snooza"
+
+#.  AddMedicationPage: Form section heading for dose reminders. Noun, plural
+#, java-printf-format
+msgctxt "section_reminders"
+msgid "Reminders"
+msgstr "Påminnelser"
+
+#.  AddMedicationPage: Switch turning dose reminders on. Noun phrase
+#, java-printf-format
+msgctxt "remind_me"
+msgid "Remind me to take this"
+msgstr "Påminn mig om att ta detta"
+
+#.  AddMedicationPage: Label above the list of times of day a dose is due.
+#. Noun, plural
+#, java-printf-format
+msgctxt "dose_times"
+msgid "Times of day"
+msgstr "Tider på dagen"
+
+#.  AddMedicationPage: Label for how often the medication repeats. Noun
+#, java-printf-format
+msgctxt "repeat_every"
+msgid "Repeat every"
+msgstr "Upprepa var"
+
+#.  AddMedicationPage: Repeat unit, shown next to a number, for example "every
+#. 3 days". Noun, plural
+#, java-printf-format
+msgctxt "repeat_days"
+msgid "days"
+msgstr "dag"
+
+#.  AddMedicationPage: Repeat unit, shown next to a number, for example "every
+#. 2 weeks". Noun, plural
+#, java-printf-format
+msgctxt "repeat_weeks"
+msgid "weeks"
+msgstr "vecka"
+
+#.  AddMedicationPage: Label above the weekday selector. Noun, plural
+#, java-printf-format
+msgctxt "on_these_days"
+msgid "On these days"
+msgstr "På dessa dagar"
+
+#.  AddMedicationPage: Optional date the course of medication stops. Noun
+#. phrase
+#, java-printf-format
+msgctxt "reminders_until"
+msgid "Until"
+msgstr "Till"
+
+#.  AddMedicationPage: Shown in the Until field when no end date is set. Noun
+#, java-printf-format
+msgctxt "no_end_date"
+msgid "No end date"
+msgstr "Inget slutdatum"
+
+#.  AddMedicationPage: Warning that reminders cannot take over the screen
+#. without a permission. Sentence
+#, java-printf-format
+msgctxt "full_screen_intent_needed"
+msgid ""
+"Reminders can only take over the screen once you allow full-screen "
+"notifications."
+msgstr ""
+"Påminnelser kan bara visas över hela skärmen när du har tillåtit "
+"helskärmsnotiser."
+
+#.  AddMedicationPage: Button opening the system settings screen for that
+#. permission. Verb phrase
+#, java-printf-format
+msgctxt "dose_reminder_exact_alarm_settings"
+msgid "Open settings"
+msgstr "Öppna inställningar"
+
+#.  AddMedicationPage: Button opening the system full-screen intent settings.
+#. Verb
+#, java-printf-format
+msgctxt "grant_full_screen"
+msgid "Allow"
+msgstr "Tillåt"
+
+#.  Weekday initials for the reminder day selector. Single letters, Sunday
+#. first
+#, java-printf-format
+msgctxt "day_initial_sunday"
+msgid "S"
+msgstr "S"
+
+#, java-printf-format
+msgctxt "day_initial_monday"
+msgid "M"
+msgstr "M"
+
+#, java-printf-format
+msgctxt "day_initial_tuesday"
+msgid "T"
+msgstr "T"
+
+#, java-printf-format
+msgctxt "day_initial_wednesday"
+msgid "W"
+msgstr "O"
+
+#, java-printf-format
+msgctxt "day_initial_thursday"
+msgid "T"
+msgstr "T"
+
+#, java-printf-format
+msgctxt "day_initial_friday"
+msgid "F"
+msgstr "F"
+
+#, java-printf-format
+msgctxt "day_initial_saturday"
+msgid "S"
+msgstr "S"
+
+#.  MedicalPage: FAB entry and add screen title. Verb phrase
+#, java-printf-format
+msgctxt "add_allergy"
+msgid "Add allergy"
+msgstr "Lägg till allergi"
+
+#.  AddAllergyPage: Title when changing an existing record. Verb phrase
+#, java-printf-format
+msgctxt "edit_allergy"
+msgid "Edit allergy"
+msgstr "Redigera allergi"
+
+#.  AddAllergyPage: What kind of thing the allergen is. Noun
+#, java-printf-format
+msgctxt "field_allergy_category"
+msgid "Type"
+msgstr "Typ"
+
+#.  AddAllergyPage: The substance itself. Noun
+#, java-printf-format
+msgctxt "field_allergen"
+msgid "Allergen"
+msgstr "Allergen"
+
+#.  AddAllergyPage: Placeholder before an allergen is chosen. Verb phrase
+#, java-printf-format
+msgctxt "choose_an_allergen"
+msgid "Choose a medication"
+msgstr "Välj läkemedel"
+
+#.  AddAllergyPage: How severe the reaction is. Noun
+#, java-printf-format
+msgctxt "field_criticality"
+msgid "Severity"
+msgstr "Allvarlighetsgrad"
+
+#.  AddAllergyPage: What happens on exposure, for example hives. Noun
+#, java-printf-format
+msgctxt "field_reaction"
+msgid "Reaction"
+msgstr "Reaktion"
+
+#.  AddAllergyPage: When the allergy was first noticed. Noun phrase
+#, java-printf-format
+msgctxt "field_first_noticed"
+msgid "First noticed"
+msgstr "Först märkt"
+
+#.  AddAllergyPage and AddConditionPage: Shown in an optional date field left
+#. empty. Sentence
+#, java-printf-format
+msgctxt "not_recorded"
+msgid "Not recorded"
+msgstr "Inte registrerat"
+
+#.  Allergy type: a food allergy. Noun
+#, java-printf-format
+msgctxt "allergy_category_food"
+msgid "Food"
+msgstr "Mat"
+
+#.  Allergy type: pollen, dust and similar. Noun
+#, java-printf-format
+msgctxt "allergy_category_environment"
+msgid "Environmental"
+msgstr "Miljö"
+
+#.  Allergy type: vaccines, blood products and similar. Adjective
+#, java-printf-format
+msgctxt "allergy_category_biologic"
+msgid "Biologic"
+msgstr "Biologiskt"
+
+#.  Allergy severity: mild. Adjective
+#, java-printf-format
+msgctxt "allergy_criticality_low"
+msgid "Low"
+msgstr "Låg"
+
+#.  Allergy severity: could be life-threatening. Adjective
+#, java-printf-format
+msgctxt "allergy_criticality_high"
+msgid "High"
+msgstr "Hög"
+
+#.  Allergy severity when it has never been assessed. Adjective
+#, java-printf-format
+msgctxt "allergy_criticality_unknown"
+msgid "Unknown"
+msgstr "Okänd"
+
+#.  MedicalPage: FAB entry and add screen title. Verb phrase
+#, java-printf-format
+msgctxt "add_condition"
+msgid "Add condition"
+msgstr "Lägg till tillstånd"
+
+#.  AddConditionPage: Title when changing an existing record. Verb phrase
+#, java-printf-format
+msgctxt "edit_condition"
+msgid "Edit condition"
+msgstr "Redigera tillstånd"
+
+#.  AddConditionPage: The diagnosis itself. Noun
+#, java-printf-format
+msgctxt "field_condition"
+msgid "Condition"
+msgstr "Tillstånd"
+
+#.  AddConditionPage: Placeholder before a diagnosis is chosen. Verb phrase
+#, java-printf-format
+msgctxt "choose_a_condition"
+msgid "Choose a condition"
+msgstr "Välj tillstånd"
+
+#.  AddConditionPage: When the condition was diagnosed. Verb, past tense
+#, java-printf-format
+msgctxt "field_diagnosed"
+msgid "Diagnosed"
+msgstr "Diagnostiserad"
+
+#.  AddConditionPage: When the condition resolved. Verb, past tense
+#, java-printf-format
+msgctxt "field_resolved"
+msgid "Resolved"
+msgstr "Löst"
+
+#.  Condition status: came back after resolving. Noun
+#, java-printf-format
+msgctxt "condition_status_recurrence"
+msgid "Recurrence"
+msgstr "Återkomst"
+
+#.  Condition status: present but not currently causing symptoms. Noun
+#, java-printf-format
+msgctxt "condition_status_remission"
+msgid "In remission"
+msgstr "I remission"
+
+#.  Condition status: over. Adjective
+#, java-printf-format
+msgctxt "condition_status_resolved"
+msgid "Resolved"
+msgstr "Löst"
+
+#.  CatalogPickerPage: Search placeholder when picking an allergen. Verb
+#. phrase
+#, java-printf-format
+msgctxt "search_allergens"
+msgid "Search medications"
+msgstr "Sök läkemedel"
+
+#.  CatalogPickerPage: Search placeholder when picking a diagnosis. Verb
+#. phrase
+#, java-printf-format
+msgctxt "search_conditions"
+msgid "Search conditions"
+msgstr "Sök tillstånd"
+
+#.  CatalogPickerPage: Search placeholder when picking a lab test. Verb phrase
+#, java-printf-format
+msgctxt "search_lab_tests"
+msgid "Search lab tests"
+msgstr "Sök laboratorietester"
+
+#.  MedicalPage: The lab results log. Noun phrase, plural
+#, java-printf-format
+msgctxt "lab_results"
+msgid "Lab results"
+msgstr "Laboratorieresultat"
+
+#.  MedicalPage: FAB entry and add screen title. Verb phrase
+#, java-printf-format
+msgctxt "add_lab_result"
+msgid "Add lab result"
+msgstr "Lägg till laboratorieresultat"
+
+#.  AddLabResultPage: Title when changing an existing record. Verb phrase
+#, java-printf-format
+msgctxt "edit_lab_result"
+msgid "Edit lab result"
+msgstr "Redigera laboratorieresultat"
+
+#.  AddLabResultPage: The test that was run. Noun phrase
+#, java-printf-format
+msgctxt "field_lab_test"
+msgid "Test"
+msgstr "Test"
+
+#.  AddLabResultPage: Placeholder before a test is chosen. Verb phrase
+#, java-printf-format
+msgctxt "choose_a_lab_test"
+msgid "Choose a test"
+msgstr "Välj test"
+
+#.  AddLabResultPage: The measured value, which may be a number or a word.
+#. Noun
+#, java-printf-format
+msgctxt "field_result"
+msgid "Result"
+msgstr "Resultat"
+
+#.  AddLabResultPage: Unit of measurement, for example mg/dL. Noun
+#, java-printf-format
+msgctxt "field_unit"
+msgid "Unit"
+msgstr "Enhet"
+
+#.  AddLabResultPage: Bottom of the normal range for the test. Noun phrase
+#, java-printf-format
+msgctxt "field_reference_low"
+msgid "Normal from"
+msgstr "Normalt från"
+
+#.  AddLabResultPage: Top of the normal range for the test. Noun phrase
+#, java-printf-format
+msgctxt "field_reference_high"
+msgid "Normal to"
+msgstr "Normalt till"
+
+#.  AddLabResultPage: Date the sample was taken. Noun phrase
+#, java-printf-format
+msgctxt "field_taken_on"
+msgid "Taken on"
+msgstr "Tagen den"
+
+#.  AboutYouPage: Screen of standing facts about the user. Noun phrase
+#, java-printf-format
+msgctxt "about_you"
+msgid "About you"
+msgstr "Om dig"
+
+#.  MedicalPage: Trailing text on a category with no entries, so tapping it
+#. and seeing nothing change reads as an answer rather than a broken row.
+#. Adjective
+#, java-printf-format
+msgctxt "medical_empty"
+msgid "None"
+msgstr "Inga"
+
+#.  MedicalPage About you: The pregnancy question, shown as the row headline.
+#. Question
+#, java-printf-format
+msgctxt "about_you_pregnancy_question"
+msgid "Are you pregnant?"
+msgstr "Är du gravid?"
+
+#.  MedicalPage About you: The smoking question, shown as the row headline.
+#. Question
+#, java-printf-format
+msgctxt "about_you_smoking_question"
+msgid "Do you smoke?"
+msgstr "Röker du?"
+
+#.  MedicalPage About you: Estimated delivery date. Noun phrase
+#, java-printf-format
+msgctxt "field_due_date"
+msgid "Due date"
+msgstr "Beräknat förlossningsdatum"
+
+#.  Pregnancy status: currently pregnant. Adjective
+#, java-printf-format
+msgctxt "pregnancy_pregnant"
+msgid "Pregnant"
+msgstr "Gravid"
+
+#.  Pregnancy status: not currently pregnant. Adjective phrase
+#, java-printf-format
+msgctxt "pregnancy_not_pregnant"
+msgid "Not pregnant"
+msgstr "Inte gravid"
+
+#.  Smoking status: has never smoked. Adverb
+#, java-printf-format
+msgctxt "smoking_never"
+msgid "Never smoked"
+msgstr "Har aldrig rökt"
+
+#.  Smoking status: used to smoke. Adjective
+#, java-printf-format
+msgctxt "smoking_former"
+msgid "Former smoker"
+msgstr "Före detta rökare"
+
+#.  Smoking status: currently smokes. Verb phrase
+#, java-printf-format
+msgctxt "smoking_current"
+msgid "Currently smokes"
+msgstr "Röker för närvarande"
+
+#.  AboutYouPage: The alcohol question, worded as AUDIT-C asks it. Question
+#, java-printf-format
+msgctxt "social_alcohol"
+msgid "How often do you have a drink containing alcohol?"
+msgstr "Hur ofta dricker du något som innehåller alkohol?"
+
+#.  AboutYouPage: The drug use question, worded as the NIDA quick screen asks
+#. it. Question
+#, java-printf-format
+msgctxt "social_drugs"
+msgid ""
+"How many times in the past year have you used an illegal drug, or a "
+"prescription medication for non-medical reasons?"
+msgstr ""
+"Hur många gånger under det senaste året har du använt en olaglig drog eller "
+"receptbelagt läkemedel av andra skäl än medicinska?"
+
+#.  AboutYouPage: The housing question. Question
+#, java-printf-format
+msgctxt "social_housing"
+msgid "What is your housing situation today?"
+msgstr "Hur ser din boendesituation ut i dag?"
+
+#.  AboutYouPage: First Hunger Vital Sign statement, to be agreed with
+#, java-printf-format
+msgctxt "social_food_worried"
+msgid ""
+"Within the past 12 months, we worried whether our food would run out before "
+"we got money to buy more."
+msgstr ""
+"Under de senaste 12 månaderna har vi oroat oss för att maten skulle ta slut "
+"innan vi hade pengar att köpa mer."
+
+#.  AboutYouPage: Second Hunger Vital Sign statement, to be agreed with
+#, java-printf-format
+msgctxt "social_food_ran_out"
+msgid ""
+"Within the past 12 months, the food we bought just did not last and we did "
+"not have money to get more."
+msgstr ""
+"Under de senaste 12 månaderna tog maten vi köpte slut och vi hade inte "
+"pengar att skaffa mer."
+
+#.  AboutYouPage: The transport question. Question
+#, java-printf-format
+msgctxt "social_transport"
+msgid ""
+"Has a lack of transport kept you from medical appointments, work, or from "
+"getting things you need for daily living?"
+msgstr ""
+"Har brist på transport hindrat dig från vårdbesök, arbete eller att få tag "
+"på sådant du behöver i vardagen?"
+
+#.  AboutYouPage: Default option on every question the user has not answered.
+#. Adjective
+#, java-printf-format
+msgctxt "not_answered"
+msgid "Not answered"
+msgstr "Inte besvarat"
+
+#.  Answer to the drug use question: not at all. Adverb
+#, java-printf-format
+msgctxt "freq_never"
+msgid "Never"
+msgstr "Aldrig"
+
+#.  Answer to the drug use question: once or twice in the year. Adverb phrase
+#, java-printf-format
+msgctxt "freq_once_or_twice"
+msgid "Once or twice"
+msgstr "En eller två gånger"
+
+#.  Answer to the drug use question: about monthly. Adverb
+#, java-printf-format
+msgctxt "freq_monthly"
+msgid "Monthly"
+msgstr "Månadsvis"
+
+#.  Answer to the drug use question: about weekly. Adverb
+#, java-printf-format
+msgctxt "freq_weekly"
+msgid "Weekly"
+msgstr "Varje vecka"
+
+#.  Answer to the drug use question: every day or nearly. Adverb phrase
+#, java-printf-format
+msgctxt "freq_daily"
+msgid "Daily or almost daily"
+msgstr "Dagligen eller nästan dagligen"
+
+#.  Alcohol frequency answer: monthly at most. Adverb phrase
+#, java-printf-format
+msgctxt "audit_monthly_or_less"
+msgid "Monthly or less"
+msgstr "Månadsvis eller mer sällan"
+
+#.  Alcohol frequency answer. Adverb phrase
+#, java-printf-format
+msgctxt "audit_2_4_month"
+msgid "2 to 4 times a month"
+msgstr "2 till 4 gånger i månaden"
+
+#.  Alcohol frequency answer. Adverb phrase
+#, java-printf-format
+msgctxt "audit_2_3_week"
+msgid "2 to 3 times a week"
+msgstr "2 till 3 gånger i veckan"
+
+#.  Alcohol frequency answer. Adverb phrase
+#, java-printf-format
+msgctxt "audit_4_plus_week"
+msgid "4 or more times a week"
+msgstr "4 eller fler gånger i veckan"
+
+#.  Housing answer: stable housing. Sentence
+#, java-printf-format
+msgctxt "housing_steady"
+msgid "I have a steady place to live"
+msgstr "Jag har ett stadigvarande boende"
+
+#.  Housing answer: housed but at risk. Sentence
+#, java-printf-format
+msgctxt "housing_worried"
+msgid "I have a place today, but worry about losing it"
+msgstr "Jag har en bostad i dag, men oroar mig för att förlora den"
+
+#.  Housing answer: unstably housed. Sentence
+#, java-printf-format
+msgctxt "housing_none"
+msgid "I do not have a steady place to live"
+msgstr "Jag har inget stadigvarande boende"
+
+#.  Hunger Vital Sign answer: the statement was often true. Adjective phrase
+#, java-printf-format
+msgctxt "hvs_often_true"
+msgid "Often true"
+msgstr "Ofta sant"
+
+#.  Hunger Vital Sign answer: the statement was sometimes true. Adjective
+#. phrase
+#, java-printf-format
+msgctxt "hvs_sometimes_true"
+msgid "Sometimes true"
+msgstr "Ibland sant"
+
+#.  Hunger Vital Sign answer: the statement was never true. Adjective phrase
+#, java-printf-format
+msgctxt "hvs_never_true"
+msgid "Never true"
+msgstr "Aldrig sant"
+
+#.  Transport answer: has prevented medical care. Sentence
+#, java-printf-format
+msgctxt "transport_medical"
+msgid "Yes, from medical appointments or getting medication"
+msgstr "Ja, från vårdbesök eller från att hämta läkemedel"
+
+#.  Transport answer: has prevented other essentials. Sentence
+#, java-printf-format
+msgctxt "transport_non_medical"
+msgid "Yes, from work or other things I need"
+msgstr "Ja, från arbete eller andra saker jag behöver"
+
+#.  Transport answer: transport is not a problem. Adverb
+#, java-printf-format
+msgctxt "transport_no"
+msgid "No"
+msgstr "Nej"
+
+#.  Answer available on some questions when the user would rather not say.
+#. Sentence
+#, java-printf-format
+msgctxt "decline_to_answer"
+msgid "I choose not to answer"
+msgstr "Jag väljer att inte svara"
