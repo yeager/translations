@@ -1,0 +1,531 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (Modern Apps)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 21:33+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/modern-apps/files/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#.  App name displayed in launcher and system settings
+#, java-printf-format
+msgctxt "app_name"
+msgid "Files"
+msgstr "Filer"
+
+#.  HomeDirectoryPage: Dialog title asking user to grant notification
+#. permission
+#, java-printf-format
+msgctxt "enable_notifications"
+msgid "Enable Notifications?"
+msgstr "Aktivera aviseringar?"
+
+#.  HomeDirectoryPage: Dialog body explaining why notifications are needed.
+#. Noun, rationale
+#, java-printf-format
+msgctxt "notification_permission_rationale"
+msgid ""
+"Turning on notifications will allow you to see progress on background "
+"actions like zipping and unzipping files."
+msgstr ""
+"Om du aktiverar aviseringar kan du se förloppet för bakgrundsåtgärder som "
+"att komprimera och extrahera filer."
+
+#.  Generic verb. Button to enable notifications / grant permission
+#, java-printf-format
+msgctxt "enable"
+msgid "Enable"
+msgstr "Aktivera"
+
+#.  Generic verb. Button to skip notification opt-in
+#, java-printf-format
+msgctxt "skip"
+msgid "Skip"
+msgstr "Hoppa över"
+
+#.  HomeDirectoryPage: Button to open system settings to grant
+#. MANAGE_ALL_FILES permission
+#, java-printf-format
+msgctxt "grant_all_files_access"
+msgid "Grant All Files Access"
+msgstr "Ge åtkomst till alla filer"
+
+#.  Archive dialog title. Noun phrase, appears when user selects files to zip
+#, java-printf-format
+msgctxt "archive_selection"
+msgid "Archive Selection"
+msgstr "Arkivera markering"
+
+#.  Archive dialog: TextField label for output zip file name
+#, java-printf-format
+msgctxt "zip_file_name_label"
+msgid "Zip file name"
+msgstr "Namn på zip-fil"
+
+#.  Snackbar: archiving background work has started. Verb phrase
+#, java-printf-format
+msgctxt "archiving_started"
+msgid "Archiving started…"
+msgstr "Arkivering påbörjad…"
+
+#.  Generic verb. Confirm button in archive dialog to start zipping
+#, java-printf-format
+msgctxt "archive"
+msgid "Archive"
+msgstr "Arkivera"
+
+#.  Snackbar after unzip enqueued. %1$s = destination folder name
+#, java-printf-format, xml-text
+msgctxt "unzipping_started_to"
+msgid ""
+"Unzipping started to <xliff:g id=\"dest_name\" "
+"example=\"Downloads\">%1$s</xliff:g>"
+msgstr ""
+"Extrahering påbörjad till <xliff:g id=\"dest_name\" "
+"example=\"Downloads\">%1$s</xliff:g>"
+
+#.  Snackbar error when move/rename fails. %1$s = error message from exception
+#, java-printf-format, xml-text
+msgctxt "move_failed"
+msgid ""
+"Move failed: <xliff:g id=\"error\" example=\"Permission "
+"denied\">%1$s</xliff:g>"
+msgstr ""
+"Flytten misslyckades: <xliff:g id=\"error\" example=\"Permission "
+"denied\">%1$s</xliff:g>"
+
+#.  Snackbar error when zip file cannot be opened. %1$s = error details
+#, java-printf-format, xml-text
+msgctxt "could_not_open_zip"
+msgid ""
+"Could not open zip: <xliff:g id=\"error\" example=\"Invalid "
+"format\">%1$s</xliff:g>"
+msgstr ""
+"Det gick inte att öppna zip-filen: <xliff:g id=\"error\" example=\"Invalid "
+"format\">%1$s</xliff:g>"
+
+#.  Snackbar when an archive would not fit. %1$s = expanded size, %2$s = space
+#. available for it
+#, java-printf-format, xml-text
+msgctxt "zip_too_large_to_extract"
+msgid ""
+"Too large to extract: needs <xliff:g id=\"needed\" example=\"4.2 "
+"GB\">%1$s</xliff:g>, only <xliff:g id=\"available\" example=\"1.1 "
+"GB\">%2$s</xliff:g> usable"
+msgstr ""
+"För stor för att extrahera: behöver <xliff:g id=\"needed\" example=\"4.2 "
+"GB\">%1$s</xliff:g>, endast <xliff:g id=\"available\" example=\"1.1 "
+"GB\">%2$s</xliff:g> kan användas"
+
+#.  Snackbar when no app can handle ACTION_VIEW intent for a file
+#, java-printf-format
+msgctxt "no_app_found_to_open_file"
+msgid "No app found to open this file"
+msgstr "Ingen app hittades för att öppna filen"
+
+#.  Snackbar/info when user tries to open file while browsing inside zip
+#. (read-only mode)
+#, java-printf-format
+msgctxt "zip_browse_only"
+msgid "Viewing files inside zip is limited to browsing"
+msgstr "Filer i zip-filen kan bara bläddras i"
+
+#.  Snackbar shown when an APK is tapped but Files hasn't been granted
+#. permission to install apps
+#, java-printf-format
+msgctxt "install_permission_needed"
+msgid "Allow Files to install unknown apps, then tap the APK again"
+msgstr ""
+"Tillåt Filer att installera okända appar och tryck sedan på APK-filen igen"
+
+#.  Snackbar shown when the user returns from settings without granting
+#. install permission
+#, java-printf-format
+msgctxt "install_permission_denied"
+msgid "Permission to install apps was not granted"
+msgstr "Behörighet att installera appar beviljades inte"
+
+#.  Notification channel name for unzip foreground service
+#, java-printf-format
+msgctxt "unzip_channel_name"
+msgid "Unzip Operations"
+msgstr "Extraheringsåtgärder"
+
+#.  Foreground notification title while unzipping in progress
+#, java-printf-format
+msgctxt "unzipping"
+msgid "Unzipping…"
+msgstr "Extraherar…"
+
+#.  Notification channel name for zip foreground service
+#, java-printf-format
+msgctxt "zip_channel_name"
+msgid "Zip Operations"
+msgstr "Komprimeringsåtgärder"
+
+#.  Foreground notification title while archiving/zip in progress
+#, java-printf-format
+msgctxt "archiving"
+msgid "Archiving…"
+msgstr "Arkiverar…"
+
+#.  Snackbar: incoming shared files saved to current directory successfully
+#, java-printf-format
+msgctxt "files_saved"
+msgid "Files saved successfully"
+msgstr "Filerna sparades"
+
+#.  Placeholder shown in the search field
+#, java-printf-format
+msgctxt "search_files"
+msgid "Search files…"
+msgstr "Sök filer…"
+
+#.  Sort option: by file size
+#, java-printf-format
+msgctxt "sort_size"
+msgid "Size"
+msgstr "Storlek"
+
+#.  Sort option: by file type/extension
+#, java-printf-format
+msgctxt "sort_type"
+msgid "Type"
+msgstr "Typ"
+
+#.  Sort direction options
+#, java-printf-format
+msgctxt "sort_ascending"
+msgid "Ascending"
+msgstr "Stigande"
+
+#, java-printf-format
+msgctxt "sort_descending"
+msgid "Descending"
+msgstr "Fallande"
+
+#.  Menu item switching between grid and list layouts
+#, java-printf-format
+msgctxt "grid_view"
+msgid "Grid view"
+msgstr "Rutnätsvy"
+
+#, java-printf-format
+msgctxt "list_view"
+msgid "List view"
+msgstr "Listvy"
+
+#.  Menu item selecting every item in the current folder
+#, java-printf-format
+msgctxt "select_all"
+msgid "Select all"
+msgstr "Markera alla"
+
+#.  Selection action: cut (move) selected files to the clipboard
+#, java-printf-format
+msgctxt "cut"
+msgid "Cut"
+msgstr "Klipp ut"
+
+#.  Action: paste clipboard files into the current folder
+#, java-printf-format
+msgctxt "paste"
+msgid "Paste"
+msgstr "Klistra in"
+
+#.  Rename dialog: TextField label for the new name
+#, java-printf-format
+msgctxt "new_name_label"
+msgid "New name"
+msgstr "Nytt namn"
+
+#.  Snackbar after copying to clipboard. %1$d = item count
+#, java-printf-format, xml-text
+msgctxt "copied_n"
+msgid "Copied <xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> item(s)"
+msgstr "Kopierade <xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> objekt"
+
+#.  Snackbar after cutting to clipboard. %1$d = item count
+#, java-printf-format, xml-text
+msgctxt "cut_n"
+msgid "Cut <xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> item(s)"
+msgstr "Klippte ut <xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> objekt"
+
+#.  Paste bar label. %1$d = number of items on the clipboard
+#, java-printf-format, xml-text
+msgctxt "ready_to_paste"
+msgid "<xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> item(s) ready to paste"
+msgstr "<xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> objekt redo att klistra in"
+
+#.  Snackbar when creating a file/folder fails
+#, java-printf-format
+msgctxt "create_failed"
+msgid "Could not create item"
+msgstr "Det gick inte att skapa objektet"
+
+#.  Snackbar after bookmarking a folder
+#, java-printf-format
+msgctxt "bookmark_added"
+msgid "Bookmark added"
+msgstr "Bokmärket lades till"
+
+#.  Home screen: category shortcut labels
+#, java-printf-format
+msgctxt "cat_images"
+msgid "Images"
+msgstr "Bilder"
+
+#, java-printf-format
+msgctxt "cat_videos"
+msgid "Videos"
+msgstr "Videor"
+
+#, java-printf-format
+msgctxt "cat_audio"
+msgid "Audio"
+msgstr "Ljud"
+
+#, java-printf-format
+msgctxt "cat_documents"
+msgid "Documents"
+msgstr "Dokument"
+
+#, java-printf-format
+msgctxt "cat_downloads"
+msgid "Downloads"
+msgstr "Hämtade filer"
+
+#.  Home screen section headers
+#, java-printf-format
+msgctxt "internal_storage"
+msgid "Internal storage"
+msgstr "Intern lagring"
+
+#, java-printf-format
+msgctxt "categories"
+msgid "Categories"
+msgstr "Kategorier"
+
+#, java-printf-format
+msgctxt "bookmarks"
+msgid "Bookmarks"
+msgstr "Bokmärken"
+
+#, java-printf-format
+msgctxt "recent_files"
+msgid "Recent files"
+msgstr "Senaste filer"
+
+#.  Storage meter caption. %1$s = used size, %2$s = total size
+#, java-printf-format, xml-text
+msgctxt "storage_usage"
+msgid ""
+"<xliff:g id=\"used\" example=\"12 GB\">%1$s</xliff:g> used of <xliff:g "
+"id=\"total\" example=\"128 GB\">%2$s</xliff:g>"
+msgstr ""
+"<xliff:g id=\"used\" example=\"12 GB\">%1$s</xliff:g> använt av <xliff:g "
+"id=\"total\" example=\"128 GB\">%2$s</xliff:g>"
+
+#.  Create menu items and dialogs
+#, java-printf-format
+msgctxt "new_folder"
+msgid "New folder"
+msgstr "Ny mapp"
+
+#, java-printf-format
+msgctxt "new_file"
+msgid "New file"
+msgstr "Ny fil"
+
+#, java-printf-format
+msgctxt "folder_name_label"
+msgid "Folder name"
+msgstr "Mappnamn"
+
+#, java-printf-format
+msgctxt "file_name_label"
+msgid "File name"
+msgstr "Filnamn"
+
+#.  Selection actions
+#, java-printf-format
+msgctxt "open_with"
+msgid "Open with"
+msgstr "Öppna med"
+
+#, java-printf-format
+msgctxt "properties"
+msgid "Properties"
+msgstr "Egenskaper"
+
+#, java-printf-format
+msgctxt "add_bookmark"
+msgid "Add bookmark"
+msgstr "Lägg till bokmärke"
+
+#.  Overflow: show/hide dot-prefixed hidden files
+#, java-printf-format
+msgctxt "show_hidden"
+msgid "Show hidden files"
+msgstr "Visa dolda filer"
+
+#, java-printf-format
+msgctxt "hide_hidden"
+msgid "Hide hidden files"
+msgstr "Dölj dolda filer"
+
+#.  Empty folder placeholder
+#, java-printf-format
+msgctxt "no_files"
+msgid "Nothing here"
+msgstr "Det finns inget här"
+
+#.  Properties dialog rows
+#, java-printf-format
+msgctxt "prop_path"
+msgid "Path"
+msgstr "Sökväg"
+
+#, java-printf-format
+msgctxt "prop_modified"
+msgid "Modified"
+msgstr "Ändrad"
+
+#, java-printf-format
+msgctxt "prop_items"
+msgid "Contents"
+msgstr "Innehåll"
+
+#, java-printf-format
+msgctxt "type_folder"
+msgid "Folder"
+msgstr "Mapp"
+
+#, java-printf-format
+msgctxt "type_file"
+msgid "File"
+msgstr "Fil"
+
+#.  Folder contents count. %1$d = number of items
+#, java-printf-format, xml-text
+msgctxt "items_count"
+msgid "<xliff:g id=\"count\" example=\"12\">%1$d</xliff:g> item(s)"
+msgstr "<xliff:g id=\"count\" example=\"12\">%1$d</xliff:g> objekt"
+
+#.  SAF document picker (shown only when Files is the system documents UI)
+#.  Title when the caller is opening/selecting existing files
+#, java-printf-format
+msgctxt "saf_title_open"
+msgid "Select a file"
+msgstr "Välj en fil"
+
+#.  Title when the caller is creating/saving a new file
+#, java-printf-format
+msgctxt "saf_title_create"
+msgid "Save file"
+msgstr "Spara fil"
+
+#.  Title when the caller is picking a folder (grants access to the whole
+#. tree)
+#, java-printf-format
+msgctxt "saf_title_tree"
+msgid "Select a folder"
+msgstr "Välj en mapp"
+
+#.  Button confirming the current folder as the picked tree
+#, java-printf-format
+msgctxt "saf_use_this_folder"
+msgid "Use this folder"
+msgstr "Använd den här mappen"
+
+#.  Button confirming a multi-file selection. %1$d = number selected
+#, java-printf-format, xml-text
+msgctxt "saf_select_count"
+msgid "Select (<xliff:g id=\"count\" example=\"3\">%1$d</xliff:g>)"
+msgstr "Välj (<xliff:g id=\"count\" example=\"3\">%1$d</xliff:g>)"
+
+#.  Navigation drawer + Home entry for the system trash
+#, java-printf-format
+msgctxt "trash"
+msgid "Trash"
+msgstr "Papperskorg"
+
+#.  Trash screen: empty-state placeholder
+#, java-printf-format
+msgctxt "trash_empty"
+msgid "Trash is empty"
+msgstr "Papperskorgen är tom"
+
+#.  Trash screen: caption explaining the system trash auto-deletes. Noun
+#. phrase
+#, java-printf-format
+msgctxt "trash_auto_delete_note"
+msgid "Items are permanently deleted after 30 days"
+msgstr "Objekt raderas permanent efter 30 dagar"
+
+#.  Selection action: restore trashed items to their original location
+#, java-printf-format
+msgctxt "restore"
+msgid "Restore"
+msgstr "Återställ"
+
+#.  Selection action: permanently delete trashed items
+#, java-printf-format
+msgctxt "delete_forever"
+msgid "Delete forever"
+msgstr "Radera permanent"
+
+#.  Trash screen action: permanently delete everything in the trash
+#, java-printf-format
+msgctxt "empty_trash"
+msgid "Empty trash"
+msgstr "Töm papperskorgen"
+
+#.  Permanent-delete confirmation dialog title. %1$d = item count
+#, java-printf-format, xml-text
+msgctxt "delete_permanently_title"
+msgid "Delete <xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> item(s) permanently?"
+msgstr "Radera <xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> objekt permanent?"
+
+#.  Permanent-delete confirmation dialog body: folders cannot use the system
+#. trash
+#, java-printf-format
+msgctxt "delete_permanently_message"
+msgid ""
+"This cannot be undone. Folders and some files cannot be moved to the trash."
+msgstr ""
+"Detta kan inte ångras. Mappar och vissa filer kan inte flyttas till "
+"papperskorgen."
+
+#.  Snackbar after moving items to the system trash. %1$d = item count
+#, java-printf-format, xml-text
+msgctxt "moved_to_trash"
+msgid "<xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> item(s) moved to trash"
+msgstr ""
+"Flyttade <xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> objekt till "
+"papperskorgen"
+
+#.  Snackbar after restoring trashed items. %1$d = item count
+#, java-printf-format, xml-text
+msgctxt "restored_n"
+msgid "Restored <xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> item(s)"
+msgstr "Återställde <xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> objekt"
+
+#.  Snackbar after permanently deleting trashed items. %1$d = item count
+#, java-printf-format, xml-text
+msgctxt "deleted_forever_n"
+msgid "Deleted <xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> item(s) permanently"
+msgstr "Raderade <xliff:g id=\"count\" example=\"3\">%1$d</xliff:g> objekt permanent"
+
+#.  Snackbar when the system trash-consent dialog cannot be shown
+#, java-printf-format
+msgctxt "trash_request_failed"
+msgid "Could not open the trash request"
+msgstr "Kunde inte öppna begäran om papperskorgen"
