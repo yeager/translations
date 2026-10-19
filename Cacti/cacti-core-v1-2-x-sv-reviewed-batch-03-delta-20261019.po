@@ -1,0 +1,336 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2026-09-28 15:57-0400\n"
+"PO-Revision-Date: 2026-10-15 10:04+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: lib/installer.php
+msgid ""
+"The template selection was incomplete. Reload this installer step and select"
+" the templates again."
+msgstr ""
+"Mallvalet var ofullständigt. Läs in installationssteget igen och välj "
+"mallarna på nytt."
+
+#: lib/installer.php
+msgid "Unable to load the tables requiring conversion"
+msgstr "Det gick inte att läsa in tabellerna som kräver konvertering"
+
+#: lib/installer.php
+msgid ""
+"The table selection was incomplete. Reload this installer step and select "
+"the tables again."
+msgstr ""
+"Tabellvalet var ofullständigt. Läs in installationssteget igen och välj "
+"tabellerna på nytt."
+
+#: lib/installer.php
+#| msgid ""
+#| "The specificed value appears to be different in the running config versus "
+#| "the INI file."
+msgid ""
+"The specified value appears to be different in the running config versus the"
+" INI file."
+msgstr ""
+"Det angivna värdet verkar skilja sig mellan den aktiva konfigurationen och "
+"INI-filen."
+
+#: lib/installer.php
+#| msgid ""
+#| "The way that the Whitelisting works is that when you first import a Data "
+#| "Input Method, or you re-import a Data Input Method, and the script and or "
+#| "arguments change in any way, the Data Input Method, and all the "
+#| "corresponding Data Sources will be immediatly disabled until the "
+#| "administrator validates that the Data Input Method is valid."
+msgid ""
+"The way that the Whitelisting works is that when you first import a Data "
+"Input Method, or you re-import a Data Input Method, and the script and or "
+"arguments change in any way, the Data Input Method, and all the "
+"corresponding Data Sources will be immediately disabled until the "
+"administrator validates that the Data Input Method is valid."
+msgstr ""
+"Vitlistning fungerar så att när du importerar eller importerar om en "
+"datainmatningsmetod och skriptet eller argumenten ändras på något sätt, "
+"inaktiveras datainmatningsmetoden och alla motsvarande datakällor omedelbart"
+" tills administratören har bekräftat att datainmatningsmetoden är giltig."
+
+#: lib/installer.php
+msgid ""
+"ERROR: Unable to validate the installed database because cacti.sql could not"
+" be read"
+msgstr ""
+"FEL: Det gick inte att validera den installerade databasen eftersom "
+"cacti.sql inte kunde läsas"
+
+#: lib/installer.php
+msgid ""
+"ERROR: Unable to validate the installed database because cacti.sql contains "
+"no table definitions"
+msgstr ""
+"FEL: Det gick inte att validera den installerade databasen eftersom "
+"cacti.sql inte innehåller några tabelldefinitioner"
+
+#: lib/installer.php
+msgid "ERROR: Unable to query the installed database schema"
+msgstr "FEL: Det gick inte att fråga efter den installerade databasens schema"
+
+#: lib/installer.php
+#, php-format
+msgid "ERROR: Required core database tables are missing: %s"
+msgstr "FEL: Obligatoriska kärntabeller i databasen saknas: %s"
+
+#: lib/rrd.php
+#, php-format
+msgid "ERROR: Invalid CDEF %d for graph %d."
+msgstr "FEL: Ogiltig CDEF %d för graf %d."
+
+#: lib/rrd.php
+#, php-format
+#| msgid "ERROR: RRDfile %s not writeable"
+msgid "ERROR: RRD file does not exist: %s"
+msgstr "FEL: RRD-filen finns inte: %s"
+
+#: lib/rrd.php
+#| msgid "Enter a valid file path"
+msgid "ERROR: Invalid RRDfile path"
+msgstr "FEL: Ogiltig sökväg till RRD-fil"
+
+#: lib/snmp.php
+#, php-format
+msgid "SNMP command: %s (%d arguments; credentials redacted)"
+msgstr "SNMP-kommando: %s (%d argument; inloggningsuppgifter maskerade)"
+
+#: lib/utility.php
+#| msgid ""
+#| "This settings should remain ON unless your Cacti instances is running on "
+#| "either ZFS or FusionI/O which both have internal journaling to accomodate "
+#| "abrupt system crashes.  However, if you have very good power, and your "
+#| "systems rarely go down and you have backups, turning this setting to OFF can"
+#| " net you almost a 50% increase in database performance."
+msgid ""
+"This settings should remain ON unless your Cacti instances is running on "
+"either ZFS or FusionI/O which both have internal journaling to accommodate "
+"abrupt system crashes.  However, if you have very good power, and your "
+"systems rarely go down and you have backups, turning this setting to OFF can"
+" net you almost a 50% increase in database performance."
+msgstr ""
+"Den här inställningen bör förbli PÅ om inte dina Cacti-instanser körs på ZFS"
+" eller FusionI/O, som båda har intern journalföring för att hantera "
+"plötsliga systemkrascher. Om du har tillförlitlig strömförsörjning, systemen"
+" sällan stannar och du har säkerhetskopior, kan AV ge nästan 50 % högre "
+"databasprestanda."
+
+#: package_import.php
+msgid "Unable to create temporary package file."
+msgstr "Det gick inte att skapa den tillfälliga paketfilen."
+
+#: package_import.php
+msgid "The package signature could not be verified against a trusted author."
+msgstr "Paketets signatur kunde inte verifieras mot en betrodd upphovsperson."
+
+#: package_import.php
+#| msgid "Enter a valid file path"
+msgid "Error: Invalid file path."
+msgstr "Fel: Ogiltig filsökväg."
+
+#: sites.php
+#| msgid "File not found"
+msgid "Site not found."
+msgstr "Webbplatsen hittades inte."
+
+#: tree.php
+#| msgid ""
+#| "Permission Denied.  You do not have permission to the requested action."
+msgid "You do not have permission to modify this tree."
+msgstr "Du har inte behörighet att ändra det här trädet."
+
+#: user_admin.php
+#| msgid "File not found"
+msgid "User not found."
+msgstr "Användaren hittades inte."
+
+#: user_domains.php
+#| msgid ""
+#| "Mode which cacti will attempt to authenticate against the LDAP "
+#| "server.<blockquote><i>No Searching</i> - No Distinguished Name (DN) "
+#| "searching occurs, just attempt to bind with the provided Distinguished Name "
+#| "(DN) format.<br><br><i>Anonymous Searching</i> - Attempts to search for "
+#| "username against LDAP directory via anonymous binding to locate the user's "
+#| "Distinguished Name (DN).<br><br><i>Specific Searching</i> - Attempts search "
+#| "for username against LDAP directory via Specific Distinguished Name (DN) and"
+#| " Specific Password for binding to locate the user's Distinguished Name (DN)."
+msgid ""
+"Mode which cacti will attempt to authenticate against the LDAP "
+"server.<blockquote><i>No Searching</i> - No Distinguished Name (DN) "
+"searching occurs, just attempt to bind with the provided Distinguished Name "
+"(DN) format.<br><br><i>Anonymous Searching</i> - Attempts to search for "
+"username against LDAP directory via anonymous binding to locate the users "
+"Distinguished Name (DN).<br><br><i>Specific Searching</i> - Attempts search "
+"for username against LDAP directory via Specific Distinguished Name (DN) and"
+" Specific Password for binding to locate the users Distinguished Name "
+"(DN).<br><br><i>One-Time Passwords (OTP/MFA)</i> - Cacti binds the user's "
+"password only once, during final authentication.  <i>No Searching</i> "
+"performs no directory lookup and binds directly using the Distinguished Name"
+" (DN) template, so it is safe for OTP when the DN template alone identifies "
+"the user.  When a directory lookup is required to resolve the DN, use "
+"<i>Specific Searching</i> with a dedicated service account (or <i>Anonymous "
+"Searching</i> where the directory permits it) so the lookup never consumes "
+"the user's single-use code.  For resilient OTP deployments use a single DNS "
+"load balancer name in the Server(s) field rather than a space delimited "
+"multi-server list, which would re-attempt the bind with an already-consumed "
+"one-time password."
+msgstr ""
+"Läge som Cacti använder för att autentisera mot LDAP-"
+"servern.<blockquote><i>Ingen sökning</i>: ingen sökning efter Distinguished "
+"Name (DN) utförs, utan Cacti försöker binda med angivet Distinguished Name-"
+"format (DN).<br><br><i>Anonym sökning</i>: Cacti söker efter användarnamnet "
+"i LDAP-katalogen med anonym bindning för att hitta användarens Distinguished"
+" Name (DN).<br><br><i>Specifik sökning</i>: Cacti söker efter användarnamnet"
+" i LDAP-katalogen med ett specifikt Distinguished Name (DN) och ett "
+"specifikt lösenord för bindning för att hitta användarens Distinguished Name"
+" (DN).<br><br><i>Engångslösenord (OTP/MFA)</i>: Cacti binder användarens "
+"lösenord bara en gång vid slutlig autentisering. <i>Ingen sökning</i> gör "
+"ingen kataloguppslagning och binder direkt med mallen för Distinguished Name"
+" (DN), vilket är säkert för OTP när DN-mallen ensam identifierar användaren."
+" När en kataloguppslagning krävs för att fastställa DN använder du "
+"<i>Specifik sökning</i> med ett avsett tjänstkonto, eller <i>Anonym "
+"sökning</i> om katalogen tillåter det, så att uppslagningen aldrig förbrukar"
+" användarens engångskod. För robusta OTP-installationer anger du ett enda "
+"DNS-lastbalanserarnamn i fältet Server i stället för en blankstegsseparerad "
+"lista med flera servrar, eftersom listan skulle försöka binda igen med ett "
+"redan förbrukat engångslösenord."
+
+#: vdef.php
+#| msgid "File not found"
+msgid "VDEF not found."
+msgstr "VDEF hittades inte."
+
+#: vdef.php
+msgid "VDEF or VDEF Item not found."
+msgstr "VDEF eller VDEF-objekt hittades inte."
+
+#: plugins.php
+msgid ""
+"Plugin directory is missing.  Click to Force Uninstall and remove all of its"
+" entries from the Cacti plugin tables."
+msgstr ""
+"Insticksmodulens katalog saknas. Klicka på Tvinga avinstallation för att ta "
+"bort alla dess poster från Cactis tabeller för insticksmoduler."
+
+#: plugins.php
+#| msgid "Are you sure you want to Uninstall?"
+msgid "Are you sure you want to Force Uninstall the plugin"
+msgstr "Är du säker på att du vill tvinga avinstallationen av insticksmodulen"
+
+#: plugins.php
+#| msgid ""
+#| "Uninstalling this Plugin will remove all Plugin Data and Settings.  If you "
+#| "really want to Uninstall the Plugin, click 'Uninstall' below.  Otherwise "
+#| "click 'Cancel'"
+msgid ""
+"This permanently removes all of its entries from the Cacti plugin tables "
+"(configuration, hooks, permissions, and any tables or columns it created).  "
+"This can not be undone.  If you really want to Force Uninstall the Plugin, "
+"click 'Force Uninstall' below.  Otherwise click 'Cancel'."
+msgstr ""
+"Detta tar permanent bort alla dess poster från Cactis tabeller för "
+"insticksmoduler, inklusive konfiguration, kopplingar, behörigheter samt "
+"tabeller eller kolumner som modulen har skapat. Det går inte att ångra. "
+"Klicka på 'Tvinga avinstallation' nedan om du vill fortsätta. Klicka annars "
+"på 'Avbryt'."
+
+#: plugins.php
+#| msgid "Uninstall Plugin"
+msgid "Force Uninstall Plugin"
+msgstr "Tvinga avinstallation av insticksmodul"
+
+#: plugins.php
+#| msgid "Uninstall"
+msgid "Force Uninstall"
+msgstr "Tvinga avinstallation"
+
+#: plugins.php
+#| msgid "Unable to Uninstall.  This Plugin is required by: %s"
+msgid "Unable to Force Uninstall.  This Plugin is required by: %s"
+msgstr "Det gick inte att tvinga avinstallation. Insticksmodulen krävs av: %s"
+
+#: plugins.php
+msgid ""
+"Plugin '%s' can not be Force Uninstalled because its directory is still "
+"present.  Use the normal Uninstall action instead."
+msgstr ""
+"Insticksmodulen '%s' kan inte tvingas avinstalleras eftersom dess katalog "
+"fortfarande finns kvar. Använd den vanliga avinstallationsåtgärden i "
+"stället."
+
+#: plugins.php
+#| msgid "Unable to Uninstall.  This Plugin is required by: %s"
+msgid ""
+"Plugin '%s' can not be Force Uninstalled because it is still required by: "
+"'%s'"
+msgstr ""
+"Insticksmodulen '%s' kan inte tvingas avinstalleras eftersom den fortfarande"
+" krävs av: '%s'"
+
+#: include/global_settings.php:1330
+#| msgid "Enable Image Caching"
+msgid "Enable Credential Cache"
+msgstr "Aktivera cache för inloggningsuppgifter"
+
+#: include/global_settings.php:1331
+msgid ""
+"Pre-harden and cache SNMPv3 credential arguments once per credential change "
+"so each poller process reuses them instead of rebuilding them on every "
+"request.  This yields a marginal savings when collecting with SNMPv3 "
+"credentials through the Net-SNMP binaries.  The php-snmp extension handles "
+"most SNMPv3 gets in-process and bypasses this cache, but the Net-SNMP "
+"binaries (and therefore this cache) are still used for SNMP walks, hex "
+"output, requests that set a context or engine id, and protocol combinations "
+"that the running PHP version does not support.  Enable this if you collect "
+"any of those workloads with SNMPv3 credentials."
+msgstr ""
+"Förbered och cachelagra SNMPv3-argument för inloggningsuppgifter vid varje "
+"ändring, så att varje avsökarprocess återanvänder dem i stället för att "
+"bygga om dem för varje begäran. Det ger en mindre besparing vid insamling "
+"med SNMPv3-uppgifter genom Net-SNMP-binärfilerna. Tillägget php-snmp "
+"hanterar de flesta SNMPv3-hämtningar i processen och kringgår cachen, men "
+"Net-SNMP-binärfilerna och därmed cachen används fortfarande för SNMP-"
+"genomgångar, hexadecimala utdata, begäranden som anger kontext eller motor-"
+"ID samt protokollkombinationer som den aktiva PHP-versionen inte stöder. "
+"Aktivera detta om du samlar in någon av dessa arbetslaster med "
+"SNMPv3-uppgifter."
+
+#: include/global_settings.php:1302
+msgid "Enable MD5 and DES for SNMPv3"
+msgstr "Aktivera MD5 och DES för SNMPv3"
+
+#: include/global_settings.php:1303
+msgid ""
+"The MD5 authentication and DES privacy algorithms are legacy, weak, and "
+"unavailable on hardened (FIPS) PHP and Net-SNMP builds.  When disabled, MD5 "
+"and DES are removed from the SNMPv3 Authentication and Privacy Protocol "
+"dropdowns shown when editing a Device and in the Automation SNMP Options, "
+"leaving only the stronger SHA and AES algorithms."
+msgstr ""
+"Algoritmerna MD5 för autentisering och DES för sekretess är föråldrade, "
+"svaga och inte tillgängliga i härdade PHP- och Net-SNMP-byggen med FIPS. När"
+" alternativet är inaktiverat tas MD5 och DES bort från listrutorna för "
+"SNMPv3-autentisering och sekretessprotokoll vid redigering av en enhet och i"
+" SNMP-alternativen för automatisering. Då återstår endast de starkare "
+"algoritmerna SHA och AES."
+
+#~ msgid "Data Input Field not found."
+#~ msgstr "Datainmatningsfältet hittades inte."
+
+#~ msgid "Data Input Method not found."
+#~ msgstr "Datainmatningsmetoden hittades inte."
