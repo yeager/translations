@@ -93,5 +93,15 @@ Fedora Weblate och lästs tillbaka från respektive enhet via API.
 
 ## Manuell språkgranskning, grupp 16
 
-Sträng 701–745 har granskats i källordning. En rättning finns i deltafilen men
-är ännu inte inskriven i Fedora Weblate när denna notering skrivs.
+Sträng 701–745 har granskats i källordning. Rättningen har skrivits till
+Fedora Weblate och lästs tillbaka från enheten via API.
+
+## Slutkontroll
+
+Alla 745 aktiva strängar har granskats manuellt i grupper om 50 eller färre.
+En färsk nedladdning från Fedora Weblate innehåller samma 745 källsträngar och
+samma måltexter som den lokala granskningskopian. Den har 0 tomma och 0 luddiga
+poster. `msgfmt --check`, `l10n-lint` och `svlang skrivregler` passerar.
+Hunspell-sv gav 288 okända unika ord, men de är tekniska namn, protokoll,
+kommandoflaggor och giltiga facktermer, inte identifierade stavfel. Gitleaks
+hittade inga hemligheter i den färska exporten.
