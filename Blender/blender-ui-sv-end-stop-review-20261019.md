@@ -8,10 +8,10 @@
 ## Live status after review
 
 - 40,371 strings translated
-- 75 strings with remaining checks in other categories
+- 59 strings with remaining checks in other categories
 - 0 unmatched end-stop checks
 
-The remaining checks are 14 unchanged translations, 59 multiple-capital checks, and 2 reused-translation checks. They were outside this end-stop review scope.
+The remaining checks are 59 multiple-capital checks. Fourteen same-translation checks were verified as immutable color-space names and dismissed individually. Two reused-translation checks for “Corner” and “Corners” were verified against the glossary and dismissed individually.
 
 ## Review method
 
