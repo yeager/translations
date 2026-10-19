@@ -1,0 +1,233 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (pypa)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-19 07:46+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/pypa/warehouse/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#: warehouse/templates/email/account-deleted/body.html:5
+#, python-format
+msgid "Your PyPI account <strong>%(username)s</strong> has been deleted."
+msgstr "Ditt PyPI-konto <strong>%(username)s</strong> har tagits bort."
+
+#: warehouse/templates/email/added-as-collaborator/body.html:9
+#, python-format
+msgid ""
+"You have been added as <strong><a "
+"href=\"%(role_faq_url)s\">%(role)s</a></strong> to the %(site)s project <a "
+"href=\"%(project_url)s\">%(project_name)s</a> by <a "
+"href=\"%(initiator_url)s\">%(initiator_username)s</a>."
+msgstr ""
+"<a href=\"%(initiator_url)s\">%(initiator_username)s</a> har lagt till dig "
+"som <strong><a href=\"%(role_faq_url)s\">%(role)s</a></strong> i "
+"%(site)s-projektet <a href=\"%(project_url)s\">%(project_name)s</a>."
+
+#: warehouse/templates/email/added-as-collaborator/body.html:15
+#, python-format
+msgid ""
+"You are receiving this because you have been added by <a "
+"href=\"%(initiator_url)s\">%(initiator_username)s</a> to a project on "
+"%(site)s."
+msgstr ""
+"Du får detta eftersom <a "
+"href=\"%(initiator_url)s\">%(initiator_username)s</a> har lagt till dig i "
+"ett projekt på %(site)s."
+
+#: warehouse/templates/email/added-as-organization-member/body.html:6
+#, python-format
+msgid ""
+"You have been added as <strong>%(role)s</strong> of the %(site)s "
+"organization %(organization_name)s by <a "
+"href=\"%(submitter_profile)s\">%(submitter)s</a>."
+msgstr ""
+"<a href=\"%(submitter_profile)s\">%(submitter)s</a> har lagt till dig som "
+"<strong>%(role)s</strong> i %(site)s-organisationen %(organization_name)s."
+
+#: warehouse/templates/email/added-as-organization-member/body.html:10
+#: warehouse/templates/email/role-changed-as-organization-member/body.html:10
+msgid "You are receiving this because you are a member of this organization."
+msgstr "Du får detta eftersom du är medlem i organisationen."
+
+#: warehouse/templates/email/added-as-team-collaborator/body.html:6
+#, python-format
+msgid ""
+"Your team has been added with <strong>%(role)s</strong> permissions to the "
+"%(site)s project %(project)s by %(submitter)s."
+msgstr ""
+"%(submitter)s har lagt till ditt team med behörigheten "
+"<strong>%(role)s</strong> i %(site)s-projektet %(project)s."
+
+#: warehouse/templates/email/added-as-team-collaborator/body.html:10
+#, python-format
+msgid ""
+"You are receiving this because your team has been added by %(submitter)s to "
+"a project on %(site)s."
+msgstr ""
+"Du får detta eftersom %(submitter)s har lagt till ditt team i ett projekt på"
+" %(site)s."
+
+#: warehouse/templates/email/added-as-team-member/body.html:5
+#, python-format
+msgid ""
+"You have been added as a member of the \"%(team_name)s\" team in the "
+"\"%(organization_name)s\" organization by <a "
+"href=\"%(submitter_profile)s\">%(submitter)s</a>."
+msgstr ""
+"<a href=\"%(submitter_profile)s\">%(submitter)s</a> har lagt till dig som "
+"medlem i teamet ”%(team_name)s” i organisationen ”%(organization_name)s”."
+
+#: warehouse/templates/email/added-as-team-member/body.html:9
+msgid "You are receiving this because you are a member of this team."
+msgstr "Du får detta eftersom du är medlem i teamet."
+
+#: warehouse/templates/email/api-token-used-in-trusted-publisher-project/body.html:6
+#, python-format
+msgid ""
+"An API token belonging to user <a "
+"href=\"%(account_href)s\">%(token_owner_username)s</a> was used to upload "
+"files to the project <a href=\"%(project_href)s\">%(project_name)s</a>, even"
+" though the project has a Trusted Publisher configured. This may have been "
+"in error. We recommend removing the API token and only using the Trusted "
+"Publisher to publish."
+msgstr ""
+"En API-token som tillhör användaren <a "
+"href=\"%(account_href)s\">%(token_owner_username)s</a> användes för att "
+"ladda upp filer till projektet <a "
+"href=\"%(project_href)s\">%(project_name)s</a>, trots att projektet har en "
+"betrodd utgivare konfigurerad. Det kan ha skett av misstag. Vi rekommenderar"
+" att API-token tas bort och att endast den betrodda utgivaren används för "
+"publicering."
+
+#: warehouse/templates/email/api-token-used-in-trusted-publisher-project/body.html:19
+#, python-format
+msgid ""
+"If you are the owner of this token, you can delete it by going to your <a "
+"href=\"%(href)s#api-tokens\">API tokens configuration</a> and deleting the "
+"token named <strong>%(token_name)s</strong>."
+msgstr ""
+"Om du äger denna token kan du ta bort den under <a href=\"%(href)s#api-"
+"tokens\">konfigurationen av API-token</a> genom att ta bort token med namnet"
+" <strong>%(token_name)s</strong>."
+
+#: warehouse/templates/email/api-token-used-in-trusted-publisher-project/body.html:26
+#, python-format
+msgid ""
+"If you believe this was done in error, you can email <a "
+"href=\"%(href)s\">%(email_address)s</a> to communicate with the PyPI "
+"administrators."
+msgstr ""
+"Om du tror att detta har skett av misstag kan du skicka e-post till <a "
+"href=\"%(href)s\">%(email_address)s</a> för att kontakta PyPI:s "
+"administratörer."
+
+#: warehouse/templates/email/canceled-as-invited-organization-member/body.html:5
+#, python-format
+msgid ""
+"An invitation for you to join the \"%(organization_name)s\" organization has"
+" been canceled"
+msgstr ""
+"En inbjudan till dig att ansluta till organisationen ”%(organization_name)s”"
+" har avbrutits"
+
+#: warehouse/templates/email/canceled-as-invited-organization-member/body.html:9
+#: warehouse/templates/email/declined-as-invited-organization-member/body.html:9
+#: warehouse/templates/email/verify-organization-role/body.html:14
+msgid ""
+"You are receiving this because you were invited to join this organization."
+msgstr "Du får detta eftersom du bjöds in till organisationen."
+
+#: warehouse/templates/email/declined-as-invited-organization-member/body.html:5
+#, python-format
+msgid ""
+"You have declined an invitation to join the \"%(organization_name)s\" "
+"organization"
+msgstr ""
+"Du har tackat nej till en inbjudan att ansluta till organisationen "
+"”%(organization_name)s”."
+
+#: warehouse/templates/email/new-email-added/body.html:5
+#, python-format
+msgid ""
+"Hello, %(username)s. A new email '%(new_email_address)s' has been added to "
+"your account."
+msgstr ""
+"Hej %(username)s! En ny e-postadress, ”%(new_email_address)s”, har lagts "
+"till på ditt konto."
+
+#: warehouse/templates/email/new-email-added/body.html:8
+#, python-format
+msgid ""
+"If you did not make this change, you can email <a "
+"href=\"%(href)s\">%(new_email_address)s</a> to communicate with the PyPI "
+"administrators."
+msgstr ""
+"Om du inte gjorde den här ändringen kan du skicka e-post till <a "
+"href=\"%(href)s\">%(new_email_address)s</a> för att kontakta PyPI:s "
+"administratörer."
+
+#: warehouse/templates/email/new-organization-approved/body.html:6
+#, python-format
+msgid ""
+"Your new organization named '%(organization_name)s' has been approved and "
+"created."
+msgstr ""
+"Din nya organisation ”%(organization_name)s” har godkänts och skapats."
+
+#: warehouse/templates/email/new-organization-approved/body.html:8
+msgid ""
+"You are the owner of the new organization and can log in to manage "
+"organization projects, collaborators, teams, or settings."
+msgstr ""
+"Du är ägare till den nya organisationen och kan logga in för att hantera "
+"organisationens projekt, medarbetare, team och inställningar."
+
+#: warehouse/templates/email/new-organization-approved/body.html:10
+msgid "Manage organization"
+msgstr "Hantera organisation"
+
+#: warehouse/templates/email/new-organization-approved/body.html:14
+msgid ""
+"As this is a Company organization, you must purchase at least one (1) seat. "
+"Company organizations without an active subscription are deactivated after "
+"30 days. After deactivation, the organization name may be made available for"
+" others to claim through a new organization application."
+msgstr ""
+"Eftersom detta är en företagsorganisation måste du köpa minst en plats. "
+"Företagsorganisationer utan aktiv prenumeration inaktiveras efter 30 dagar. "
+"Efter inaktiveringen kan organisationsnamnet göras tillgängligt så att andra"
+" kan ansöka om det i en ny organisationsansökan."
+
+#: warehouse/templates/email/new-organization-approved/body.html:17
+msgid "Activate your subscription"
+msgstr "Aktivera prenumerationen"
+
+#: warehouse/templates/email/new-organization-approved/body.html:20
+#: warehouse/templates/email/organization-subscription-required/body.html:20
+msgid ""
+"Company organizations are for for-profit companies. Community organizations "
+"are for community-supported projects and teams. Non-profits, NGOs, schools, "
+"and other non-commercial groups belong here too; you do not need to be an "
+"informal project to qualify. Publishing open-source packages does not by "
+"itself qualify a company for a Community organization."
+msgstr ""
+"Företagsorganisationer är för vinstdrivande företag. "
+"Gemenskapsorganisationer är för projekt och team som stöds av en gemenskap. "
+"Ideella organisationer, icke-statliga organisationer, skolor och andra icke-"
+"kommersiella grupper hör också hemma här. Du behöver inte vara ett "
+"informellt projekt för att kvalificera dig. Att publicera paket med öppen "
+"källkod gör inte i sig ett företag kvalificerat för en "
+"gemenskapsorganisation."
+
+#: warehouse/templates/email/new-organization-approved/body.html:23
+#: warehouse/templates/includes/manage/company-org-survey-callout.html:14
+msgid "Interested in a PyPI service agreement?"
+msgstr "Intresserad av ett tjänsteavtal för PyPI?"
