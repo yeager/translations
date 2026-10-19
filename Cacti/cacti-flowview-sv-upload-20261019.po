@@ -1,0 +1,173 @@
+#
+msgid ""
+msgstr ""
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: setup.php
+msgid "Parallel Query Backend"
+msgstr "Bakände för parallella frågor"
+
+#: setup.php
+msgid ""
+"Choose how parallel FlowView queries are executed.  The Legacy PHP Runner "
+"forks the flowview_runner.php process per query and shard.  The FlowView "
+"Query Service dispatches the same map-reduce work to a long-running Go "
+"service over localhost, avoiding per-query process startup and database "
+"polling latency.  Requires the flowview-query service (see plugins/flowview/"
+"service/flowview-query) to be installed and running."
+msgstr ""
+"Välj hur parallella FlowView-frågor körs. Den äldre PHP-köraren startar "
+"processen flowview_runner.php för varje fråga och delning. FlowViews "
+"frågetjänst skickar samma map-reduce-arbete till en långvarig Go-tjänst via "
+"localhost. Därmed undviks start av en process för varje fråga och fördröjning vid "
+"databasavläsning. Kräver att tjänsten flowview-query (se plugins/flowview/"
+"service/flowview-query) är installerad och körs."
+
+#: setup.php
+msgid "Legacy PHP Runner"
+msgstr "Äldre PHP-körare"
+
+#: setup.php
+msgid "FlowView Query Service"
+msgstr "FlowViews frågetjänst"
+
+#: setup.php
+msgid "Query Service URL"
+msgstr "Webbadress till frågetjänsten"
+
+#: setup.php
+msgid ""
+"Base URL of the FlowView Query Service, for example http://127.0.0.1:8699.  "
+"Leave blank to auto-discover the ephemeral port from the service's port file."
+msgstr ""
+"Baswebbadress för FlowViews frågetjänst, till exempel http://127.0.0.1:8699. "
+"Lämna tomt för att automatiskt hitta den tillfälliga porten i tjänstens "
+"portfil."
+
+#: setup.php
+msgid "Query Service Port File"
+msgstr "Portfil för frågetjänsten"
+
+#: setup.php
+msgid ""
+"Path to the port file the FlowView Query Service writes its bound address "
+"to.  Used to discover the service endpoint when the Query Service URL above "
+"is blank."
+msgstr ""
+"Sökväg till den portfil där FlowViews frågetjänst skriver sin bundna adress. "
+"Används för att hitta tjänstens slutpunkt när webbadressen till "
+"frågetjänsten ovan är tom."
+
+#: setup.php
+msgid "Query Service Token"
+msgstr "Token för frågetjänsten"
+
+#: setup.php
+msgid ""
+"Optional shared secret.  When set, Cacti sends it to the FlowView Query "
+"Service as an \"Authorization: Bearer\" header and the service rejects any "
+"state-changing request that does not present the same token.  Set the "
+"matching value in the service's config file (auth_token) or the "
+"FLOWVIEW_QUERY_TOKEN environment variable.  Recommended whenever the service "
+"is reachable by anything other than trusted local processes."
+msgstr ""
+"Valfri delad hemlighet. När den är angiven skickar Cacti den till FlowViews "
+"frågetjänst som huvudet ”Authorization: Bearer”. Tjänsten avvisar varje "
+"tillståndsändrande begäran som inte har samma token. Ange motsvarande värde "
+"i tjänstens konfigurationsfil (auth_token) eller miljövariabeln "
+"FLOWVIEW_QUERY_TOKEN. Rekommenderas när tjänsten kan nås av något annat än "
+"betrodda lokala processer."
+
+#: setup.php
+msgid "NetFlow"
+msgstr "NetFlow"
+
+#: includes/arrays.php
+msgid ""
+"Show the post-NAT (translated) Source/Destination IP and DNS name in report "
+"output instead of the original, pre-NAT values."
+msgstr ""
+"Visa IP-/DNS-namnet för källa/destination efter NAT i rapportutdata i "
+"stället för de ursprungliga värdena före NAT."
+
+#: includes/arrays.php
+msgid ""
+"Filter on the translated (post-NAT) Source IP recorded in the Filter.  This "
+"can be a comma delimited list of IPv4 or IPv6 addresses, or a comma "
+"delimited list of IPv4 or IPv6 address ranges in CIDR format (eg. "
+"192.168.1.0/24)."
+msgstr ""
+"Filtrera på den översatta käll-IP-adressen efter NAT som har registrerats i "
+"filtret. Detta kan vara en kommaavgränsad lista över IPv4- eller IPv6-"
+"adresser eller en kommaavgränsad lista över IPv4- eller IPv6-adressintervall "
+"i CIDR-format (t.ex. 192.168.1.0/24)."
+
+#: includes/arrays.php
+msgid ""
+"Filter on the translated (post-NAT) Source Port for in the Filter.  This can "
+"be a comma delimited list of Ports."
+msgstr ""
+"Filtrera på den översatta källporten efter NAT i filtret. Detta kan vara en "
+"kommaavgränsad lista över portar."
+
+#: includes/arrays.php
+msgid ""
+"Filter on the translated (post-NAT) Destination IP recorded in the Filter.  "
+"This can be a comma delimited list of IPv4 or IPv6 addresses, or a comma "
+"delimited list of IPv4 or IPv6 address ranges in CIDR format (eg. "
+"192.168.1.0/24)."
+msgstr ""
+"Filtrera på den översatta mål-IP-adressen efter NAT som har registrerats i "
+"filtret. Detta kan vara en kommaavgränsad lista över IPv4- eller IPv6-"
+"adresser eller en kommaavgränsad lista över IPv4- eller IPv6-adressintervall "
+"i CIDR-format (t.ex. 192.168.1.0/24)."
+
+#: includes/arrays.php
+msgid ""
+"Filter on the translated (post-NAT) Destination Port for in the Filter.  "
+"This can be a comma delimited list of Ports."
+msgstr ""
+"Filtrera på den översatta målporten efter NAT i filtret. Detta kan vara en "
+"kommaavgränsad lista över portar."
+
+#: includes/arrays.php
+msgid "Bytes Panel"
+msgstr "Bytepanel"
+
+#: includes/arrays.php
+msgid "Packets Panel"
+msgstr "Paketpanel"
+
+#: includes/arrays.php
+msgid "Flows Panel"
+msgstr "Flödespanel"
+
+#: includes/arrays.php
+msgid "Source Ports"
+msgstr "Källportar"
+
+#: includes/arrays.php
+msgid "Dest Ports"
+msgstr "Målportar"
+
+#: includes/arrays.php
+msgid "Dest Interface"
+msgstr "Målgränssnitt"
+
+#: includes/arrays.php
+msgid "Destination AS"
+msgstr "Mål-AS"
+
+#: includes/arrays.php
+msgid "Filter Sets"
+msgstr "Filteruppsättningar"
+
+#: includes/arrays.php
+msgid "Internet Routers"
+msgstr "Internetroutrar"
+
+#: includes/arrays.php
+msgid "Autonomous Numbers"
+msgstr "Autonoma systemnummer"
