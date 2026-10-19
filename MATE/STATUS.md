@@ -4,6 +4,11 @@ Updated: 19 October 2026
 
 This inventory comes from the Fedora Weblate API. “Locked” means the component cannot currently receive uploads through Weblate.
 
+
+## Freshness check, 19 October 2026
+
+Fresh Fedora Weblate exports for the application components were compared with the reviewed copies. No new source strings were found. Existing target differences were either earlier corrections already present on Weblate, source-markup repairs, or one genuine location error: the French city **Nice** had been translated as *Prioritet*. It was corrected to **Nice**, submitted through the API and read back from unit `40805911`.
+
 | Component | Weblate state | Swedish strings | Fuzzy |
 | --- | --- | ---: | ---: |
 | [atril](https://translate.fedoraproject.org/projects/mate-desktop/applications/atril/sv/) | available | 512 / 512 | 0 |
