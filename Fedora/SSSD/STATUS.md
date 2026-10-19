@@ -78,5 +78,5 @@ Fedora Weblate och lästs tillbaka från respektive enhet via API.
 
 ## Manuell språkgranskning, grupp 13
 
-Sträng 551–600 har granskats i källordning. Åtta rättningar finns i deltafilen
-men är ännu inte inskrivna i Fedora Weblate när denna notering skrivs.
+Sträng 551–600 har granskats i källordning. Åtta rättningar har skrivits till
+Fedora Weblate och lästs tillbaka från respektive enhet via API.
