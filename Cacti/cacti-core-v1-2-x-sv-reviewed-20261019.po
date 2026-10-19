@@ -639,7 +639,7 @@ msgstr "Vilken som helst"
 #: settings.php templates_import.php user_admin.php user_group_admin.php
 #: utilities.php
 msgid "None"
-msgstr "inget"
+msgstr "Inget"
 
 #: aggregate_graphs.php
 msgid "The title for the Aggregate Graphs"
@@ -1372,7 +1372,7 @@ msgstr ""
 #: automation_networks.php
 #, php-format
 msgid "ERROR: You must specify the day of the week.  Disabling Network %s!."
-msgstr "FEL: Du måste ange veckodag. Inaktiverar Network %s !."
+msgstr "FEL: Du måste ange veckodag. Inaktiverar nätverket %s!."
 
 #: automation_networks.php
 #, php-format
@@ -5304,7 +5304,7 @@ msgstr "Redigera grafmall."
 #: graphs.php
 #, php-format
 msgid "Edit Data Source: '%s'."
-msgstr "Datakällor [ %s]"
+msgstr "Redigera datakälla: '%s'."
 
 #: graphs.php
 msgid "Unlock Graph."
@@ -12833,13 +12833,11 @@ msgid ""
 "'&lt;username&gt' is replaced with the username that was supplied at the "
 "login prompt. "
 msgstr ""
-"Sökfilter som ska användas för att hitta användaren i LDAP-katalogen, t.ex. "
-"för Windows: "
-"<i>'(&amp;(objectclass=user)(objectcategory=user)(userPrincipalName=&lt;username&gt;*)</i>"
-" )' eller för OpenLDAP: ' "
-"<i>(&amp;(objectClass=account)(uid=&lt;username&amp;gt</i>))'. "
-"\"&lt;username&amp;gt\" ersätts med det användarnamn som angavs vid "
-"inloggningsprompten. "
+"Sökfilter för att hitta användaren i LDAP-katalogen, till exempel för "
+"Windows: "
+"<i>'(&amp;(objectclass=user)(objectcategory=user)(userPrincipalName=&lt;username&gt;*))'</i>"
+" eller för OpenLDAP: <i>'(&(objectClass=account)(uid=&lt;username&gt))'</i>."
+" '&lt;username&gt' ersätts med användarnamnet som angavs vid inloggningen. "
 
 #: include/global_settings.php user_domains.php
 msgid "Search Distinguished Name (DN)"
@@ -14122,7 +14120,7 @@ msgid ""
 "You are now logged into <a href=\"%s\"><b>Cacti</b></a>. You can follow "
 "these basic steps to get started."
 msgstr ""
-"Du är nu inloggad i <a href=\"%s\"><b>Cacti</b></a> . Du kan följa dessa "
+"Du är nu inloggad i <a href=\"%s\"><b>Cacti</b></a>. Följ dessa "
 "grundläggande steg för att komma igång."
 
 #: index.php
@@ -14173,17 +14171,14 @@ msgid ""
 "Server are reachable.  Then it will dump it's Boost table output back to the"
 " Main Cacti Database for updating."
 msgstr ""
-"<strong>OBS!</strong> Du är inloggad i en fjärrdatasamlare. När "
-"<b>&quot;online&quot;</b> kommer du att kunna se och kontrollera mycket av "
-"Main Cacti webbplatsen som om du var inloggad. Det är också viktigt att "
-"notera att Remote Data Collectors är skyldiga att använda Cacti&#39;s "
-"Performance Boosting Services <b>&quot;On Demand Update&quot;</b> -funktion,"
-" och vi rekommenderar alltid att använda Spine. När fjärrdatasamlaren är "
-"<b>&quot;offline&quot;</b> , innehåller webbplatsen för Remote Data "
-"Collectors mycket mindre information. Det kommer dock att cache alla "
-"uppdateringar tills Main Cacti Database och Web Server är nåbara. Då kommer "
-"det att dumpa det Boost tabellutmatning tillbaka till Main Cacti Database "
-"för uppdatering."
+"<strong>OBS:</strong> Du är inloggad i en fjärrdatainsamlare. När den är "
+"<b>'online'</b> kan du visa och styra stora delar av Cactis huvudwebbplats "
+"som om du vore inloggad där. Fjärrdatainsamlare måste använda funktionen "
+"<b>'On Demand Updating'</b> i Cactis prestandatjänster och vi rekommenderar "
+"alltid Spine. När fjärrdatainsamlaren är <b>'offline'</b> innehåller dess "
+"webbplats mindre information. Den cachelagrar dock alla uppdateringar tills "
+"Cactis huvuddatabas och webbserver kan nås. Därefter skickas Boost-tabellens"
+" utdata tillbaka till Cactis huvuddatabas för uppdatering."
 
 #: index.php
 msgid ""
@@ -14193,12 +14188,11 @@ msgid ""
 "with Remote Data Collectors at this time.  However, plugins such as Thold "
 "will work so long as the Remote Data Collector is in <b>'online'</b> mode."
 msgstr ""
-"<strong>OBS!</strong> Ingen av Core Cacti Plugins, hittills, har omformats "
-"för att fungera med Remote Data Collectors. Därför kan plugins som MacTrack "
-"och HMIB, som kräver direkt åtkomst till enheter, inte fungera med Remote "
-"Data Collectors vid denna tidpunkt. Insticksprogram som Thold kommer dock "
-"att fungera så länge som Remote Data Collector är i "
-"<b>&quot;online&quot;</b> -läge."
+"<strong>OBS:</strong> Ingen av Cactis kärninsticksmoduler har hittills "
+"gjorts om för att fungera med fjärrdatainsamlare. Därför fungerar "
+"insticksmoduler som MacTrack och HMIB, som kräver direkt åtkomst till "
+"enheter, inte med fjärrdatainsamlare för närvarande. Insticksmoduler som "
+"Thold fungerar däremot så länge fjärrdatainsamlaren är <b>'online'</b>."
 
 #: install/functions.php
 #, php-format
@@ -14237,8 +14231,8 @@ msgid ""
 "Please wait while the installation system for Cacti Version %s initializes. "
 "You must have JavaScript enabled for this to work."
 msgstr ""
-"Vänta vänta medan installationssystemet för Cacti Version %s initialiseras. "
-"Du måste ha Javascript aktiverat för att detta ska fungera."
+"Vänta medan installationssystemet för Cacti version %s initieras. JavaScript"
+" måste vara aktiverat för att detta ska fungera."
 
 #: install/install.php
 msgid ""
@@ -15062,7 +15056,7 @@ msgstr "FEL: Datafrågan returnerade inga index."
 #: lib/data_query.php
 #, php-format
 msgid "Executing script for list of indexes '%s', Index Count: %s"
-msgstr "Utför script för lista över index &#39; %s&#39;, Index Count: %s"
+msgstr "Kör skript för indexlistan '%s', antal index: %s"
 
 #: lib/data_query.php
 msgid "Click to show Data Query output for 'index'"
@@ -15228,9 +15222,7 @@ msgstr "Exekvering av SNMP får för %s oids ( %s)"
 #: lib/data_query.php
 #, php-format
 msgid "Sort field returned no data for OID[%s], skipping."
-msgstr ""
-"Sorteringsfältet returnerade inte data. Kan inte fortsätta Reindexera för "
-"OID [ %s]"
+msgstr "Sorteringsfältet returnerade inga data för OID[%s], hoppar över."
 
 #: lib/data_query.php
 #, php-format
@@ -16942,7 +16934,7 @@ msgstr "Grafik [Mall: %s]"
 #: lib/import.php
 #, php-format
 msgid "New Data Query: %s"
-msgstr "Datafråga [ %s]"
+msgstr "Ny datafråga: %s"
 
 #: lib/import.php
 msgid "Unknown Field"
@@ -17279,8 +17271,8 @@ msgid ""
 "Also, if this is an upgrade, be sure to read the <a href=\"%s\">Upgrade</a> "
 "information file."
 msgstr ""
-"Om det här är en uppgradering, se till att du läser <a "
-"href=\"%s\">uppgraderingsinformationsfilen</a> ."
+"Om detta är en uppgradering bör du läsa informationsfilen om <a "
+"href=\"%s\">uppgradering</a>."
 
 #: lib/installer.php
 msgid ""
@@ -18740,7 +18732,7 @@ msgstr "%s Version %s eller högre krävs för %s. "
 #: lib/plugins.php
 #, php-format
 msgid "%s is required for %s, and it is not installed. "
-msgstr "%s krävs för %s, och det är inte installerat. "
+msgstr "%s krävs för %s och är inte installerat. "
 
 #: lib/plugins.php
 msgid "Plugin cannot be installed."
@@ -19403,8 +19395,8 @@ msgid ""
 "It is STRONGLY recommended that you enable InnoDB in any %s version greater "
 "than 5.5.3."
 msgstr ""
-"Vi rekommenderar att du aktiverar InnoDB i någon %s-version som är större än"
-" 5.1."
+"Vi rekommenderar starkt att du aktiverar InnoDB i en %s-version senare än "
+"5,5,3."
 
 #: lib/utility.php
 msgid ""
@@ -21206,7 +21198,7 @@ msgstr "Arkivera alla okända RRDfiles"
 
 #: settings.php
 msgid "NOTE: Path Settings on this Tab are only saved locally!"
-msgstr "OBS! Sökvägsinställningar på den här fliken sparas endast lokalt!"
+msgstr "OBS: Sökvägsinställningarna på den här fliken sparas endast lokalt!"
 
 #: settings.php
 #, php-format
@@ -21654,8 +21646,8 @@ msgid ""
 "Some CDEF Items will not import due to an export error! Contact Template "
 "provider for an updated export."
 msgstr ""
-"Vissa CDEF-objekt kommer inte att importeras på grund av ett exportfel! "
-"Kontakta mallleverantören för en uppdaterad export."
+"Vissa CDEF-objekt importeras inte på grund av ett exportfel. Kontakta "
+"leverantören av mallen för en uppdaterad export."
 
 #: templates_import.php
 msgid "Import Template"
@@ -22511,9 +22503,8 @@ msgid ""
 "<i>\"dc=win2kdomain,dc=local\"</i> or "
 "<i>\"ou=people,dc=domain,dc=local\"</i>."
 msgstr ""
-"Sök bas för att söka i LDAP-katalogen, till exempel <i>&quot;dc = "
-"win2kdomain, dc = local&quot;</i> eller <i>&quot;ou = people, dc = domain, "
-"dc = local&quot;</i> ."
+"Sökbas för LDAP-katalogen, till exempel <i>\"dc=win2kdomain,dc=local\"</i> "
+"eller <i>\"ou=people,dc=domain,dc=local\"</i>."
 
 #: user_domains.php
 msgid ""
@@ -22524,12 +22515,12 @@ msgid ""
 "  \"&lt;username&gt\" is replaced with the username that was supplied at the"
 " login prompt."
 msgstr ""
-"Sökfilter som ska användas för att lokalisera användaren i LDAP-katalogen, "
-"till exempel för Windows: <i>&quot;(&amp; (objectclass = user) "
-"(objektkategori = användare) (userPrincipalName = &lt;användarnamn&gt; "
-"*))&quot;</i> eller för OpenLDAP: <i>&quot; = konto) (uid = "
-"&lt;användarnamn&gt;)) &quot;</i> . &quot;&lt;användarnamn&gt;&quot; ersätts"
-" med användarnamnet som levererades vid inloggningsprompten."
+"Sökfilter som används för att hitta användaren i LDAP-katalogen, till "
+"exempel för Windows: "
+"<i>\"(&amp;(objectclass=user)(objectcategory=user)(userPrincipalName=&lt;username&gt;*))\"</i>"
+" eller för OpenLDAP: "
+"<i>\"(&(objectClass=account)(uid=&lt;username&gt))\"</i>. "
+"\"&lt;username&gt\" ersätts med användarnamnet som angavs vid inloggningen."
 
 #: user_domains.php
 msgid "eMail"

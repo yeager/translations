@@ -1,0 +1,164 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2026-09-28 15:57-0400\n"
+"PO-Revision-Date: 2026-10-15 10:04+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: aggregate_graphs.php automation_graph_rules.php automation_networks.php
+#: automation_tree_rules.php data_debug.php data_sources.php
+#: data_templates.php graph_templates_items.php graphs.php graphs_items.php
+#: host.php include/global_arrays.php include/global_form.php
+#: include/global_settings.php lib/api_automation.php lib/auth.php
+#: lib/html.php lib/html_form.php lib/html_reports.php package_import.php
+#: settings.php templates_import.php user_admin.php user_group_admin.php
+#: utilities.php
+msgid "None"
+msgstr "Inget"
+
+#: automation_networks.php
+#, php-format
+msgid "ERROR: You must specify the day of the week.  Disabling Network %s!."
+msgstr "FEL: Du måste ange veckodag. Inaktiverar nätverket %s!."
+
+#: graphs.php
+#, php-format
+msgid "Edit Data Source: '%s'."
+msgstr "Redigera datakälla: '%s'."
+
+#: index.php
+#, php-format
+msgid ""
+"You are now logged into <a href=\"%s\"><b>Cacti</b></a>. You can follow "
+"these basic steps to get started."
+msgstr ""
+"Du är nu inloggad i <a href=\"%s\"><b>Cacti</b></a>. Följ dessa "
+"grundläggande steg för att komma igång."
+
+#: install/install.php
+#, php-format
+msgid ""
+"Please wait while the installation system for Cacti Version %s initializes. "
+"You must have JavaScript enabled for this to work."
+msgstr ""
+"Vänta medan installationssystemet för Cacti version %s initieras. JavaScript"
+" måste vara aktiverat för att detta ska fungera."
+
+#: lib/data_query.php
+#, php-format
+msgid "Executing script for list of indexes '%s', Index Count: %s"
+msgstr "Kör skript för indexlistan '%s', antal index: %s"
+
+#: lib/data_query.php
+#, php-format
+msgid "Sort field returned no data for OID[%s], skipping."
+msgstr "Sorteringsfältet returnerade inga data för OID[%s], hoppar över."
+
+#: lib/import.php
+#, php-format
+msgid "New Data Query: %s"
+msgstr "Ny datafråga: %s"
+
+#: lib/installer.php
+#, php-format
+msgid ""
+"Also, if this is an upgrade, be sure to read the <a href=\"%s\">Upgrade</a> "
+"information file."
+msgstr ""
+"Om detta är en uppgradering bör du läsa informationsfilen om <a "
+"href=\"%s\">uppgradering</a>."
+
+#: lib/plugins.php
+#, php-format
+msgid "%s is required for %s, and it is not installed. "
+msgstr "%s krävs för %s och är inte installerat. "
+
+#: lib/utility.php
+#, php-format
+msgid ""
+"It is STRONGLY recommended that you enable InnoDB in any %s version greater "
+"than 5.5.3."
+msgstr ""
+"Vi rekommenderar starkt att du aktiverar InnoDB i en %s-version senare än "
+"5,5,3."
+
+#: settings.php
+msgid "NOTE: Path Settings on this Tab are only saved locally!"
+msgstr "OBS: Sökvägsinställningarna på den här fliken sparas endast lokalt!"
+
+#: templates_import.php
+msgid ""
+"Some CDEF Items will not import due to an export error! Contact Template "
+"provider for an updated export."
+msgstr ""
+"Vissa CDEF-objekt importeras inte på grund av ett exportfel. Kontakta "
+"leverantören av mallen för en uppdaterad export."
+
+#: user_domains.php
+msgid ""
+"Search base for searching the LDAP directory, such as "
+"<i>\"dc=win2kdomain,dc=local\"</i> or "
+"<i>\"ou=people,dc=domain,dc=local\"</i>."
+msgstr ""
+"Sökbas för LDAP-katalogen, till exempel <i>\"dc=win2kdomain,dc=local\"</i> "
+"eller <i>\"ou=people,dc=domain,dc=local\"</i>."
+
+#: include/global_settings.php
+msgid ""
+"Search filter to use to locate the user in the LDAP directory, such as for "
+"windows: "
+"<i>'(&amp;(objectclass=user)(objectcategory=user)(userPrincipalName=&lt;username&gt;*))'</i>"
+" or for OpenLDAP: <i>'(&(objectClass=account)(uid=&lt;username&gt))'</i>.  "
+"'&lt;username&gt' is replaced with the username that was supplied at the "
+"login prompt. "
+msgstr ""
+"Sökfilter för att hitta användaren i LDAP-katalogen, till exempel för "
+"Windows: "
+"<i>'(&amp;(objectclass=user)(objectcategory=user)(userPrincipalName=&lt;username&gt;*))'</i>"
+" eller för OpenLDAP: <i>'(&(objectClass=account)(uid=&lt;username&gt))'</i>."
+" '&lt;username&gt' ersätts med användarnamnet som angavs vid inloggningen. "
+
+#: index.php
+msgid ""
+"<strong>NOTE:</strong> You are logged into a Remote Data Collector.  When "
+"<b>'online'</b>, you will be able to view and control much of the Main Cacti"
+" Web Site just as if you were logged into it.  Also, it's important to note "
+"that Remote Data Collectors are required to use the Cacti's Performance "
+"Boosting Services <b>'On Demand Updating'</b> feature, and we always "
+"recommend using Spine.  When the Remote Data Collector is <b>'offline'</b>, "
+"the Remote Data Collectors Web Site will contain much less information.  "
+"However, it will cache all updates until the Main Cacti Database and Web "
+"Server are reachable.  Then it will dump it's Boost table output back to the"
+" Main Cacti Database for updating."
+msgstr ""
+"<strong>OBS:</strong> Du är inloggad i en fjärrdatainsamlare. När den är "
+"<b>'online'</b> kan du visa och styra stora delar av Cactis huvudwebbplats "
+"som om du vore inloggad där. Fjärrdatainsamlare måste använda funktionen "
+"<b>'On Demand Updating'</b> i Cactis prestandatjänster och vi rekommenderar "
+"alltid Spine. När fjärrdatainsamlaren är <b>'offline'</b> innehåller dess "
+"webbplats mindre information. Den cachelagrar dock alla uppdateringar tills "
+"Cactis huvuddatabas och webbserver kan nås. Därefter skickas Boost-tabellens"
+" utdata tillbaka till Cactis huvuddatabas för uppdatering."
+
+#: index.php
+msgid ""
+"<strong>NOTE:</strong> None of the Core Cacti Plugins, to date, have been "
+"re-designed to work with Remote Data Collectors.  Therefore, Plugins such as"
+" MacTrack, and HMIB, which require direct access to devices will not work "
+"with Remote Data Collectors at this time.  However, plugins such as Thold "
+"will work so long as the Remote Data Collector is in <b>'online'</b> mode."
+msgstr ""
+"<strong>OBS:</strong> Ingen av Cactis kärninsticksmoduler har hittills "
+"gjorts om för att fungera med fjärrdatainsamlare. Därför fungerar "
+"insticksmoduler som MacTrack och HMIB, som kräver direkt åtkomst till "
+"enheter, inte med fjärrdatainsamlare för närvarande. Insticksmoduler som "
+"Thold fungerar däremot så länge fjärrdatainsamlaren är <b>'online'</b>."
