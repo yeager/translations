@@ -20,3 +20,5 @@ Kontrollen är en språklig kvalitetskontroll av granskningskopian. Den är inte
 
 - 2026-10-19: `AAC` is `AKK` in Swedish. CrowdIn already contains Daniel Nylander's `AKK` suggestion for string 4384; batch 05 records it while it awaits proofreader approval.
 - 2026-10-19: The reviewed local reference now covers all 846 current source strings. Batch 06 records the 16 World Locations strings added after the first export.
+
+- 2026-10-19: CrowdIn reports 846 of 846 Swedish strings translated. The sole remaining QA entry is for `app.components.LanguageSelector.hindi`: it compares English title case (`Hindi`) with Swedish lower case. The correct Swedish language name is `hindi`, so this is a deliberate Swedish style choice and not a translation defect.
