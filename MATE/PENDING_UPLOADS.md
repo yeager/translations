@@ -29,3 +29,13 @@ The local candidate contains these three corrections:
 3. Remove the final semicolon from the GNU documentation licence text.
 
 Before either component is uploaded, download a fresh server export, reapply only still relevant corrections, then run l10n-lint, msgfmt --check and Gitleaks on the exact upload file.
+
+## MATE Terminal
+
+- Weblate component: [MATE Terminal](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-terminal/sv/)
+- Current status: locked, confirmed by the Weblate upload API on 19 October 2026
+- Current export: 545 translated strings of 545; no fuzzy strings
+- Upload state: reviewed candidate is ready, but Weblate returned HTTP 403 with `This translation is currently locked.`
+- Candidate file: `mate-terminal-sv-pending-unlock-20261019.po`
+
+The candidate corrects 15 Swedish strings: three spelling or grammar errors, one comma before “och”, an accidental trailing space, six plain-text ellipses, and punctuation mismatches. It passed `msgfmt --check`; l10n-lint reports no errors. Its only two warnings concern source-preserved copyright number ranges.

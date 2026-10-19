@@ -1,6 +1,6 @@
 # MATE translation status
 
-Updated: 11 October 2026
+Updated: 19 October 2026
 
 This inventory comes from the Fedora Weblate API. “Locked” means the component cannot currently receive uploads through Weblate.
 
@@ -60,7 +60,7 @@ This inventory comes from the Fedora Weblate API. “Locked” means the compone
 | [mate-settings-daemon](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-settings-daemon/sv/) | available | 319 / 319 | 0 |
 | [mate-system-monitor](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-system-monitor/sv/) | available | 332 / 332 | 0 |
 | [mate-system-monitor-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-system-monitor-help/sv/) | available | 329 / 329 | 0 |
-| [mate-terminal](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-terminal/sv/) | available | 545 / 545 | 0 |
+| [mate-terminal](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-terminal/sv/) | locked | 545 / 545 | 0 |
 | [mate-terminal-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-terminal-help/sv/) | available | 220 / 220 | 0 |
 | [mate-themes](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-themes/sv/) | available | 23 / 23 | 0 |
 | [mate-user-guide](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/mate-user-guide/sv/) | available | 3 / 3 | 0 |
