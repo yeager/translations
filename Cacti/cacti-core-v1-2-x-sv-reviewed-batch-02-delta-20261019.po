@@ -1,0 +1,394 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2026-09-28 15:57-0400\n"
+"PO-Revision-Date: 2026-10-15 10:04+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: graph_templates.php
+#| msgid "No Graph Templates Found"
+msgid "Graph Template not found."
+msgstr "Grafmallen hittades inte."
+
+#: graph_templates_inputs.php
+msgid "The selected Field Type is not a valid Graph Item field."
+msgstr "Den valda fälttypen är inte ett giltigt fält för ett grafobjekt."
+
+#: graph_templates_inputs.php
+msgid "The Graph Item Input relationship is invalid."
+msgstr "Relationen för grafobjektets inmatning är ogiltig."
+
+#: graph_xport.php
+#| msgid "Autocomplete Rows"
+msgid "Expected Rows"
+msgstr "Förväntade rader"
+
+#: graph_xport.php
+msgid "Missing Rows"
+msgstr "Saknade rader"
+
+#: graphs.php
+msgid "A Graph Item Input contains an invalid field or value."
+msgstr ""
+"En inmatning för ett grafobjekt innehåller ett ogiltigt fält eller värde."
+
+#: graphs.php
+msgid "Graph Item Input changes could not be saved."
+msgstr "Ändringarna för grafobjektets inmatning kunde inte sparas."
+
+#: graphs.php
+msgid "A Graph Item Input contains an invalid value."
+msgstr "En inmatning för ett grafobjekt innehåller ett ogiltigt värde."
+
+#: graphs.php
+#, php-format
+#| msgid "Add Graph Template to Device"
+msgid "Graph %s Moved to new Device"
+msgstr "Grafen %s flyttades till den nya enheten"
+
+#: graphs.php
+#, php-format
+msgid "Graph %s not Moved.  Device missing Data Query"
+msgstr "Grafen %s flyttades inte. Enheten saknar datafråga"
+
+#: graphs.php lib/api_aggregate.php
+#| msgid "The new Title of the aggregated Graph."
+msgid "Unable to start the aggregate graph update."
+msgstr "Det gick inte att starta uppdateringen av den sammanlagda grafen."
+
+#: graphs.php lib/api_aggregate.php
+#| msgid "The new Title of the aggregated Graph."
+msgid "Unable to commit the aggregate graph update."
+msgstr "Det gick inte att verkställa uppdateringen av den sammanlagda grafen."
+
+#: include/csrf.php
+msgid ""
+"The browser did not return the Cacti session cookie. Ensure cookies are "
+"enabled and verify the configured URL path and cookie domain."
+msgstr ""
+"Webbläsaren returnerade inte Cactis sessionskaka. Kontrollera att kakor är "
+"aktiverade och att den konfigurerade URL-sökvägen och kakdomänen är "
+"korrekta."
+
+#: include/csrf.php
+#, php-format
+#| msgid "Requires: Cacti >= %s"
+msgid "Return to Cacti: %s"
+msgstr "Återgå till Cacti: %s"
+
+#: include/global_arrays.php
+#| msgid ""
+#| "Unable to increase size of password field, pleas check permission of db user"
+msgid ""
+"Unable to increase size of password field, please check permission of db "
+"user"
+msgstr ""
+"Det gick inte att öka lösenordsfältets storlek. Kontrollera "
+"databasanvändarens behörighet"
+
+#: include/global_settings.php
+#| msgid "Remote Data Collector Status:"
+msgid "Allow Unsafe Remote Data Collector HTTPS"
+msgstr "Tillåt osäker HTTPS för fjärrdatainsamlare"
+
+#: include/global_settings.php
+msgid ""
+"Allow the use of Self Signed Certificates and allow the hostname of the "
+"Certificate to differ from that of the Remote Data Collector."
+msgstr ""
+"Tillåt självsignerade certifikat och att certifikatets värdnamn skiljer sig "
+"från fjärrdatainsamlarens."
+
+#: include/global_settings.php
+#| msgid "The name of this Data Input Method."
+msgid "Allow Unsafe Metacharacters in Data Input Methods"
+msgstr "Tillåt osäkra metatecken i datainmatningsmetoder"
+
+#: include/global_settings.php
+msgid ""
+"Historically, Cacti administrators created simple Data Input Methods that "
+"include commands like \"ps -ef | grep something | wc -l\" to represent a "
+"numeric value for use in Cacti Graphs.  In earlier versions of Cacti, this "
+"was permitted.  However, this is an unsafe practice as it is a gateway for "
+"third party users to publish insecure Data Templates.  In modern Cacti, "
+"these types of practices should be avoided.  However, we provide this option"
+" if you have older Data Input Methods that contain these unsafe Meta "
+"Characters and have not converted them to local scripts in the 'scripts' "
+"directory.  When this option is unchecked, Cacti restricts shell-style "
+"metacharacters such as quotation marks, curly brackets, vertical bars, "
+"backslashes, and backticks.  Cacti continues to allow greater-than and less-"
+"than signs for things like <path_cacti> and for input parameters, but if "
+"this option is unchecked, that is the limit of their permitted use."
+msgstr ""
+"Cacti-administratörer skapade tidigare enkla datainmatningsmetoder med "
+"kommandon som \"ps -ef | grep något | wc -l\" för att få fram ett numeriskt "
+"värde till Cacti-grafer. Detta var tillåtet i äldre Cacti-versioner, men är "
+"osäkert eftersom det kan låta tredje parter publicera osäkra datamallar. "
+"Undvik detta i moderna Cacti. Alternativet finns för äldre "
+"datainmatningsmetoder med osäkra metatecken som ännu inte har konverterats "
+"till lokala skript i katalogen 'scripts'. När alternativet är avmarkerat "
+"begränsar Cacti skalmetatecken som citattecken, klammerparenteser, lodräta "
+"streck, bakstreck och omvända citattecken. Cacti tillåter fortfarande större"
+" än- och mindre än-tecken för exempelvis <path_cacti> och indataparametrar, "
+"men när alternativet är avmarkerat är det gränsen för tillåten användning."
+
+#: include/global_settings.php
+#| msgid "Content-Security Alternate Sources"
+msgid "Content-Security Script Policy"
+msgstr "Säkerhetspolicy för innehållsskript"
+
+#: include/global_settings.php
+msgid ""
+"Controls the script-src CSP policy.  In Nonce Modes, Cacti Plugins that use "
+"inline JavaScript must include the nonce attribute from Cacti's builtin "
+"function 'CactiSecureHeaders::getNonceAttribute()'. Otherwise, those scripts"
+" will be blocked by the browser.  Currently, Cacti only allows reporting on "
+"Cacti Plugins that do not properly use Nonce Mode.  In the future, we will "
+"allow Administrators to block such plugins from using their inline "
+"JavaScript if they are not using Nonces."
+msgstr ""
+"Styr script-src-policyn för CSP. I nonce-lägen måste Cacti-insticksmoduler "
+"som använder infogad JavaScript inkludera nonce-attributet från Cactis "
+"inbyggda funktion 'CactiSecureHeaders::getNonceAttribute()'. Annars "
+"blockeras dessa skript av webbläsaren. För närvarande tillåter Cacti bara "
+"rapportering om Cacti-insticksmoduler som inte använder nonce-läge korrekt. "
+"I framtiden kan administratörer blockera sådana insticksmoduler från att "
+"använda infogad JavaScript om de inte använder nonce-värden."
+
+#: include/global_settings.php
+msgid "Allow Non-Nonced Inline JavaScript"
+msgstr "Tillåt infogad JavaScript utan nonce"
+
+#: include/global_settings.php
+msgid "Allow both unsafe-eval and Non-Nonced Inline JavaScript"
+msgstr "Tillåt både unsafe-eval och infogad JavaScript utan nonce"
+
+#: include/global_settings.php
+msgid "Nonce Mode - Reporting Only"
+msgstr "Nonce-läge, endast rapportering"
+
+#: include/global_settings.php
+#| msgid "Cacti Report"
+msgid "CSP Violation Report URI"
+msgstr "URI för CSP-överträdelse­rapport"
+
+#: include/global_settings.php
+msgid ""
+"URL where browsers POST CSP violation reports in nonce-report and nonce "
+"modes. Leave empty to use <url_path>/csp_report.php. Must contain only safe "
+"URL characters."
+msgstr ""
+"URL där webbläsare skickar CSP-överträdelse­rapporter med POST i nonce-"
+"report- och nonce-läge. Lämna tomt för att använda "
+"<url_path>/csp_report.php. Får endast innehålla säkra URL-tecken."
+
+#: include/global_settings.php
+msgid ""
+"URL where browsers POST CSP violation reports in nonce-report and nonce "
+"modes. Leave empty to use /cacti/csp_report.php at the installation root. "
+"Must contain only safe URL characters."
+msgstr ""
+"URL där webbläsare skickar CSP-överträdelse­rapporter med POST i nonce-"
+"report- och nonce-läge. Lämna tomt för att använda /cacti/csp_report.php i "
+"installationens rot. Får endast innehålla säkra URL-tecken."
+
+#: include/global_settings.php
+msgid "Select Search Minimum Rows"
+msgstr "Välj minsta antal rader för sökning"
+
+#: include/global_settings.php
+msgid ""
+"The minimum number of options a dropdown must have before Cacti shows a "
+"search box inside it.  Choose 'Always' to show the search box regardless of "
+"the number of options."
+msgstr ""
+"Minsta antal alternativ som en listruta måste innehålla innan Cacti visar en"
+" sökruta i den. Välj 'Alltid' för att visa sökrutan oavsett antal "
+"alternativ."
+
+#: include/global_settings.php
+#| msgid "Always On"
+msgid "Always"
+msgstr "Alltid"
+
+#: include/global_settings.php
+#| msgid "Graph Template Options"
+msgid "Site Graph Template Expansion"
+msgstr "Utökning av webbplatsens grafmallar"
+
+#: include/global_settings.php
+msgid ""
+"When viewing Site Trees, should the Graph Templates branch be included as a "
+"Site sub-branch?"
+msgstr ""
+"Ska grenen Grafmallar tas med som en undergren till webbplatsen när "
+"webbplatsträd visas?"
+
+#: include/global_settings.php
+#| msgid ""
+#| "When creating graphs, what Graph Type would you like pre-selected?"
+msgid "When creating graphs, what Graph Type would you like preselected?"
+msgstr "Vilken graftyp vill du ska vara förvald när du skapar grafer?"
+
+#: include/global_settings.php
+#| msgid "SNMP error"
+msgid "SNMP Behavior"
+msgstr "SNMP-beteende"
+
+#: include/global_settings.php
+#| msgid ""
+#| "Remember this number of old passwords and disallow re-using them."
+msgid "Remember this number of old passwords and disallow reusing them."
+msgstr ""
+"Kom ihåg detta antal tidigare lösenord och tillåt inte att de återanvänds."
+
+#: include/global_settings.php user_domains.php
+msgid ""
+"A space delimited list of DNS hostnames or IP addresses for valid LDAP "
+"servers.  Cacti will attempt to use the LDAP servers from left to right to "
+"authenticate a user.<br><br>For One-Time Password (OTP/MFA) logins, do not "
+"use a space delimited multi-server list.  On a failed bind Cacti advances to"
+" the next server and re-binds with the same credentials, and the already-"
+"consumed one-time code will be rejected.  Instead enter a single, resilient "
+"DNS name fronted by a DNS load balancer (VIP) so that server failover is "
+"handled below Cacti and only one authentication bind is ever performed."
+msgstr ""
+"En blankstegsseparerad lista med DNS-värdnamn eller IP-adresser för giltiga "
+"LDAP-servrar. Cacti försöker använda LDAP-servrarna från vänster till höger "
+"för att autentisera en användare.<br><br>Använd inte en blankstegsseparerad "
+"lista med flera servrar för inloggning med engångslösenord (OTP/MFA). Vid en"
+" misslyckad bindning fortsätter Cacti till nästa server och binder på nytt "
+"med samma inloggningsuppgifter. Den redan använda engångskoden avvisas då. "
+"Ange i stället ett enda robust DNS-namn framför en DNS-lastbalanserare "
+"(VIP), så hanteras serverväxling under Cacti och endast en "
+"autentiseringsbindning utförs."
+
+#: include/global_settings.php
+#| msgid ""
+#| "Mode which cacti will attempt to authenticate against the LDAP "
+#| "server.<blockquote><i>No Searching</i> - No Distinguished Name (DN) "
+#| "searching occurs, just attempt to bind with the provided Distinguished Name "
+#| "(DN) format.<br><br><i>Anonymous Searching</i> - Attempts to search for "
+#| "username against LDAP directory via anonymous binding to locate the user's "
+#| "Distinguished Name (DN).<br><br><i>Specific Searching</i> - Attempts search "
+#| "for username against LDAP directory via Specific Distinguished Name (DN) and"
+#| " Specific Password for binding to locate the user's Distinguished Name (DN)."
+msgid ""
+"Mode which cacti will attempt to authenticate against the LDAP "
+"server.<blockquote><i>No Searching</i> - No Distinguished Name (DN) "
+"searching occurs, just attempt to bind with the provided Distinguished Name "
+"(DN) format.<br><br><i>Anonymous Searching</i> - Attempts to search for "
+"username against LDAP directory via anonymous binding to locate the user's "
+"Distinguished Name (DN).<br><br><i>Specific Searching</i> - Attempts search "
+"for username against LDAP directory via Specific Distinguished Name (DN) and"
+" Specific Password for binding to locate the user's Distinguished Name "
+"(DN).<br><br><i>One-Time Passwords (OTP/MFA)</i> - Cacti binds the user's "
+"password only once, during final authentication.  <i>No Searching</i> "
+"performs no directory lookup and binds directly using the Distinguished Name"
+" (DN) template, so it is safe for OTP when the DN template alone identifies "
+"the user.  When a directory lookup is required to resolve the DN, use "
+"<i>Specific Searching</i> with a dedicated service account (or <i>Anonymous "
+"Searching</i> where the directory permits it) so the lookup never consumes "
+"the user's single-use code.  For resilient OTP deployments use a single DNS "
+"load balancer name in the Server(s) field rather than a space delimited "
+"multi-server list, which would re-attempt the bind with an already-consumed "
+"one-time password."
+msgstr ""
+"Läge som Cacti använder för att autentisera mot LDAP-"
+"servern.<blockquote><i>Ingen sökning</i>: ingen sökning efter Distinguished "
+"Name (DN) utförs, utan Cacti försöker binda med angivet Distinguished Name-"
+"format (DN).<br><br><i>Anonym sökning</i>: Cacti söker efter användarnamnet "
+"i LDAP-katalogen med anonym bindning för att hitta användarens Distinguished"
+" Name (DN).<br><br><i>Specifik sökning</i>: Cacti söker efter användarnamnet"
+" i LDAP-katalogen med ett specifikt Distinguished Name (DN) och ett "
+"specifikt lösenord för bindning för att hitta användarens Distinguished Name"
+" (DN).<br><br><i>Engångslösenord (OTP/MFA)</i>: Cacti binder användarens "
+"lösenord bara en gång vid slutlig autentisering. <i>Ingen sökning</i> gör "
+"ingen kataloguppslagning och binder direkt med mallen för Distinguished Name"
+" (DN), vilket är säkert för OTP när DN-mallen ensam identifierar användaren."
+" När en kataloguppslagning krävs för att fastställa DN använder du "
+"<i>Specifik sökning</i> med ett avsett tjänstkonto, eller <i>Anonym "
+"sökning</i> om katalogen tillåter det, så att uppslagningen aldrig förbrukar"
+" användarens engångskod. För robusta OTP-installationer anger du ett enda "
+"DNS-lastbalanserarnamn i fältet Server i stället för en blankstegsseparerad "
+"lista med flera servrar, eftersom listan skulle försöka binda igen med ett "
+"redan förbrukat engångslösenord."
+
+#: lib/api_aggregate.php
+msgid ""
+"Unable to create aggregate totals because a referenced CDEF is invalid or "
+"empty."
+msgstr ""
+"Det gick inte att skapa sammanlagda totaler eftersom en refererad CDEF är "
+"ogiltig eller tom."
+
+#: lib/auth.php
+#| msgid ""
+#| "Access Denied!  Template user id %s does not exist.  Please contact your "
+#| "Administrator."
+msgid ""
+"Access Denied!  Domain template is not configured.  Please contact your "
+"Administrator."
+msgstr ""
+"Åtkomst nekad! Domänmallen är inte konfigurerad. Kontakta administratören."
+
+#: lib/html_form_template.php
+#| msgid "Graph Template Input"
+msgid "Invalid Graph Template Input"
+msgstr "Ogiltig inmatning för grafmall"
+
+#: lib/html_form_template.php
+#| msgid "No Graph Templates Found"
+msgid "The graph template cannot be rendered"
+msgstr "Grafmallen kan inte återges"
+
+#: lib/html_form_template.php
+msgid "A Graph Item Input contains an invalid Field Type."
+msgstr "En inmatning för ett grafobjekt innehåller en ogiltig fälttyp."
+
+#: lib/html_utility.php
+#| msgid "Enter a regular expression"
+msgid "Invalid regular expression."
+msgstr "Ogiltigt reguljärt uttryck."
+
+#: lib/html_utility.php
+msgid ""
+"Cacti RLIKE filters do not support alternation or bounded-repeat characters."
+msgstr ""
+"Cacti RLIKE-filter stöder inte alternering eller tecken för begränsad "
+"upprepning."
+
+#: lib/import.php
+msgid "stream wrapper rejected"
+msgstr "Strömomslag avvisades"
+
+#: lib/import.php
+msgid "path traversal rejected"
+msgstr "Sökvägstraversering avvisades"
+
+#: lib/installer.php
+msgid "The external CSRF secret must be outside the Cacti document root"
+msgstr "Den externa CSRF-hemligheten måste ligga utanför Cactis dokumentrot"
+
+#: lib/installer.php
+#| msgid "Unable to retrieve table status"
+msgid "Unable to create the external CSRF secret"
+msgstr "Det gick inte att skapa den externa CSRF-hemligheten"
+
+#: lib/installer.php
+msgid "Unable to persist the CSRF secret"
+msgstr "Det gick inte att bevara CSRF-hemligheten"
+
+#: lib/installer.php
+#| msgid "Unable to retrieve table status"
+msgid "Unable to load the available templates"
+msgstr "Det gick inte att läsa in de tillgängliga mallarna"
