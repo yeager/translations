@@ -1,0 +1,172 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2026-10-16 14:29-0400\n"
+"PO-Revision-Date: 2026-10-15 10:04+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: syslog.php
+#| msgid "Oldest pending"
+msgid "Failed; retry pending"
+msgstr "Misslyckades, omförsök väntar"
+
+#: syslog.php
+msgid "Pending; next poller check"
+msgstr "Väntar, nästa kontroll av avsökaren"
+
+#: syslog.php
+#| msgid "Last Week"
+msgid "Last health check"
+msgstr "Senaste hälsokontroll"
+
+#: syslog.php
+#| msgid "Email Options"
+msgid "Email notifications"
+msgstr "E-postnotifieringar"
+
+#: syslog.php
+msgid "Not checked yet"
+msgstr "Har inte kontrollerats ännu"
+
+#: syslog.php
+#| msgid "Notification List"
+msgid "Last notification sent"
+msgstr "Senaste notifiering skickades"
+
+#: syslog.php
+#| msgid "Slowest phase"
+msgid "slowest"
+msgstr "långsammast"
+
+#: syslog.php
+msgid "Add a status card…"
+msgstr "Lägg till statuskort…"
+
+#: syslog.php
+msgid "Breach"
+msgstr "Överskridande"
+
+#: syslog.php
+#| msgid "Threshold"
+msgid "Threshold breached"
+msgstr "Tröskelvärdet överskrids"
+
+#: syslog_alerts.php
+msgid ""
+"Enter a whole number of minutes, hours, or days for the threshold window."
+msgstr "Ange ett helt antal minuter, timmar eller dagar för tröskelfönstret."
+
+#: syslog_alerts.php
+msgid ""
+"Enter a positive whole number of minutes, hours, or days for threshold "
+"recovery."
+msgstr ""
+"Ange ett positivt helt antal minuter, timmar eller dagar för återställning "
+"av tröskelvärdet."
+
+#: syslog_alerts.php
+#| msgid "Time Range"
+msgid "Time unit"
+msgstr "Tidsenhet"
+
+#: syslog_alerts.php
+#| msgid "%d Days"
+msgid "Days"
+msgstr "Dagar"
+
+#: syslog_alerts.php
+#| msgid "Hour"
+msgid "Hours"
+msgstr "Timmar"
+
+#: syslog_alerts.php
+#| msgid "Minute"
+msgid "Minutes"
+msgstr "Minuter"
+
+#: syslog_alerts.php
+#| msgid ""
+#| "For the 'Threshold' method, If the number seen is above this value an Alert "
+#| "will be triggered."
+msgid ""
+"For the 'Threshold' method, an Alert is triggered when the number seen "
+"reaches this value."
+msgstr ""
+"För metoden ”Tröskelvärde” utlöses ett larm när det observerade antalet når "
+"detta värde."
+
+#: syslog_alerts.php
+#| msgid "Threshold Logs"
+msgid "Threshold Window"
+msgstr "Tröskelfönster"
+
+#: syslog_alerts.php
+msgid ""
+"Count matches across collector cycles within this rolling window, using "
+"collector processing time. Enter 0 to count only the current cycle."
+msgstr ""
+"Räkna matchningar över insamlarcykler inom det här rullande fönstret med "
+"insamlarens bearbetningstid. Ange 0 för att bara räkna den aktuella cykeln."
+
+#: syslog_alerts.php
+msgid "Recover After Quiet Period"
+msgstr "Återställ efter väntetid"
+
+#: syslog_alerts.php
+msgid ""
+"Time with no matching messages before clearing the breach, resetting the "
+"count, and rearming this rule. Every matching message restarts this timer."
+msgstr ""
+"Tid utan matchande meddelanden innan överskridandet rensas, antalet "
+"återställs och regeln aktiveras på nytt. Varje matchande meddelande startar "
+"om timern."
+
+#: syslog_alerts.php
+#| msgid "Alert Handling"
+msgid "Alert command"
+msgstr "Larmkommando"
+
+#: syslog_alerts.php
+#| msgid "Recovery"
+msgid "Recovery command"
+msgstr "Återställningskommando"
+
+#: syslog_alerts.php
+msgid ""
+"Optional command to run when this threshold recovers after its quiet period."
+" Uses the same replacement variables as Alert command. SYSLOG_EVENT is "
+"clear; SYSLOG_BREACH_ID matches the breach command. Failed commands are "
+"retried. Leave blank to disable."
+msgstr ""
+"Valfritt kommando som körs när tröskelvärdet återhämtas efter väntetiden. "
+"Använder samma ersättningsvariabler som larmkommandot. SYSLOG_EVENT är "
+"clear; SYSLOG_BREACH_ID matchar överskridandekommandot. Misslyckade "
+"kommandon försöks igen. Lämna tomt för att inaktivera."
+
+#: includes/functions.php
+msgid ""
+"Automatic partition recovery deferred: dMaxValue size is unavailable; "
+"operator intervention required."
+msgstr ""
+"Automatisk partitionsåterställning skjuts upp: storleken på dMaxValue är "
+"inte tillgänglig och operatörsåtgärd krävs."
+
+#: includes/functions.php
+#, php-format
+msgid ""
+"Automatic partition recovery deferred: dMaxValue has an estimated %s rows "
+"and %s bytes; limits are 100000 rows and 134217728 bytes. Operator "
+"intervention required."
+msgstr ""
+"Automatisk partitionsåterställning skjuts upp: dMaxValue har "
+"uppskattningsvis %s rader och %s byte. Gränserna är 100000 rader och "
+"134217728 byte. Operatörsåtgärd krävs."
