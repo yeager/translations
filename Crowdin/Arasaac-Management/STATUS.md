@@ -19,3 +19,4 @@ En full kontroll omfattade 846 strängpar med CrowdIns aktuella engelska källst
 Kontrollen är en språklig kvalitetskontroll av granskningskopian. Den är inte en export av de aktiva CrowdIn-översättningarna, eftersom tokenen inte får bygga en export och de 42 nya rättningarna fortfarande väntar på korrekturläsargodkännande.
 
 - 2026-10-19: `AAC` is `AKK` in Swedish. CrowdIn already contains Daniel Nylander's `AKK` suggestion for string 4384; batch 05 records it while it awaits proofreader approval.
+- 2026-10-19: The reviewed local reference now covers all 846 current source strings. Batch 06 records the 16 World Locations strings added after the first export.
