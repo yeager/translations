@@ -3047,7 +3047,8 @@ msgstr "Skapar säkerhetskopia av lokala data …\n"
 #: src/tools/sssctl/sssctl_data.c:237
 msgid "Unable to create backup of local data, can not remove the cache.\n"
 msgstr ""
-"Kan inte skapa säkerhetskopia av lokala data, kan inte ta bort cachen.\n"
+"Kan inte skapa säkerhetskopia av lokala data och kan därför inte ta bort "
+"cachen.\n"
 
 #: src/tools/sssctl/sssctl_data.c:242
 msgid "Removing cache files...\n"
@@ -3122,7 +3123,7 @@ msgstr "Attributet %1$s är inte indexerat.\n"
 #: src/tools/sssctl/sssctl_data.c:475
 #, c-format
 msgid "Attribute %1$s already indexed.\n"
-msgstr "Attribut %1$s är redan indexerat.\n"
+msgstr "Attributet %1$s är redan indexerat.\n"
 
 #: src/tools/sssctl/sssctl_data.c:478
 #, c-format
@@ -3135,7 +3136,9 @@ msgstr "Glöm inte att även uppdatera indexen på fjärrleverantörerna.\n"
 
 #: src/tools/sssctl/sssctl_domains.c:82
 msgid "Show domain list including primary or trusted domain type"
-msgstr "Visa domänlistan med typ av primär eller betrodd domän"
+msgstr ""
+"Visa domänlistan med information om huruvida domänerna är primära eller "
+"betrodda"
 
 #: src/tools/sssctl/sssctl_domains.c:166
 msgid "Online"
@@ -3173,7 +3176,7 @@ msgstr "%s servrar upptäcktes:\n"
 
 #: src/tools/sssctl/sssctl_domains.c:284
 msgid "None so far.\n"
-msgstr "Inga ännu.\n"
+msgstr "Inga hittades ännu.\n"
 
 #: src/tools/sssctl/sssctl_domains.c:323
 msgid "Show online status"
@@ -3185,7 +3188,7 @@ msgstr "Visa information om aktiv server"
 
 #: src/tools/sssctl/sssctl_domains.c:325
 msgid "Show list of discovered servers"
-msgstr "Visa lista över upptäckta servrar"
+msgstr "Visa en lista över upptäckta servrar"
 
 #: src/tools/sssctl/sssctl_domains.c:331
 msgid "Specify domain name."
@@ -3216,15 +3219,15 @@ msgstr "%1$-25s Okänd domän\n"
 #: src/tools/sssctl/sssctl_logs.c:237
 #, c-format
 msgid "%1$-25s Unreachable service\n"
-msgstr "%1$-25s Onåbar tjänst\n"
+msgstr "%1$-25s Kan inte nå tjänsten\n"
 
 #: src/tools/sssctl/sssctl_logs.c:429
 msgid "Delete log files instead of truncating"
-msgstr "Ta bort loggfiler i stället för att trunkera dem"
+msgstr "Ta bort loggfiler i stället för att tömma dem"
 
 #: src/tools/sssctl/sssctl_logs.c:440
 msgid "Deleting log files...\n"
-msgstr "Raderar loggfiler …\n"
+msgstr "Tar bort loggfiler …\n"
 
 #: src/tools/sssctl/sssctl_logs.c:443
 msgid "Unable to remove log files\n"
@@ -3232,11 +3235,11 @@ msgstr "Kan inte ta bort loggfiler\n"
 
 #: src/tools/sssctl/sssctl_logs.c:460
 msgid "Truncating log files...\n"
-msgstr "Trunkerar loggfiler …\n"
+msgstr "Tömmer loggfiler …\n"
 
 #: src/tools/sssctl/sssctl_logs.c:464
 msgid "Unable to truncate log files\n"
-msgstr "Kan inte trunkera loggfiler\n"
+msgstr "Kan inte tömma loggfiler\n"
 
 #: src/tools/sssctl/sssctl_logs.c:498
 #, c-format
