@@ -17,3 +17,5 @@ En lokal export eller en filbyggnad via CrowdIn API kan inte skapas med den nuva
 En full kontroll omfattade 846 strängpar med CrowdIns aktuella engelska källsträngar. Den svenska granskningskopian bestod av den lokala granskade filen samt de 16 nyare World Locations-strängarna från CrowdIn. `msgfmt --check`, `l10n-lint` och `svlang skrivregler` gav inga fel. Gitleaks hittade inga hemligheter.
 
 Kontrollen är en språklig kvalitetskontroll av granskningskopian. Den är inte en export av de aktiva CrowdIn-översättningarna, eftersom tokenen inte får bygga en export och de 42 nya rättningarna fortfarande väntar på korrekturläsargodkännande.
+
+- 2026-10-19: `AAC` is `AKK` in Swedish. CrowdIn already contains Daniel Nylander's `AKK` suggestion for string 4384; batch 05 records it while it awaits proofreader approval.
