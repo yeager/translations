@@ -25,3 +25,8 @@ PAM-funktionsnamn som måste bevaras ordagrant.
 De första 50 aktiva strängarna har granskats i sin källordning. Sju
 formuleringar har förbättrats och skrivits till Fedora Weblate. Varje
 uppdaterad enhet lästes tillbaka via API efter ändringen.
+
+## Manuell språkgranskning, grupp 3
+
+Sträng 51–100 har granskats i källordning. Fem rättningar finns i deltafilen
+men är ännu inte inskrivna i Fedora Weblate när denna notering skrivs.
