@@ -1,0 +1,257 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2026-10-16 14:29-0400\n"
+"PO-Revision-Date: 2026-10-15 10:04+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: includes/functions.php
+#| msgid "Latest processing run"
+msgid "Waiting for a completed processing run."
+msgstr "Väntar på en slutförd bearbetningskörning."
+
+#: includes/functions.php
+msgid "Processing is completing within the allowed delay."
+msgstr "Bearbetningen slutförs inom den tillåtna fördröjningen."
+
+#: includes/functions.php
+#, php-format
+msgid "No processing run has completed for more than %d seconds."
+msgstr "Ingen bearbetningskörning har slutförts på mer än %d sekunder."
+
+#: includes/functions.php
+msgid "Incoming messages are within the configured limits."
+msgstr "Inkommande meddelanden ligger inom de konfigurerade gränserna."
+
+#: includes/functions.php
+msgid "Incoming queue metrics are unavailable."
+msgstr "Mätvärden för inkommande kö är inte tillgängliga."
+
+#: includes/functions.php
+#, php-format
+#| msgid "incoming backlog of %s messages"
+msgid "Incoming backlog of at least %s messages exceeds the limit of %s."
+msgstr "En inkommande kö med minst %s meddelanden överskrider gränsen %s."
+
+#: includes/functions.php
+msgid "The oldest incoming message timestamp is unavailable."
+msgstr ""
+"Tidsstämpeln för det äldsta inkommande meddelandet är inte tillgänglig."
+
+#: includes/functions.php
+#, php-format
+msgid "Unprocessed messages are older than %d seconds."
+msgstr "Obearbetade meddelanden är äldre än %d sekunder."
+
+#: includes/functions.php
+msgid "Synchronization is not enabled on this collector."
+msgstr "Synkronisering är inte aktiverad för den här insamlaren."
+
+#: includes/functions.php
+msgid "Synchronization is within the allowed delay."
+msgstr "Synkroniseringen ligger inom den tillåtna fördröjningen."
+
+#: includes/functions.php
+msgid "Synchronization queue metrics are unavailable."
+msgstr "Mätvärden för synkroniseringskön är inte tillgängliga."
+
+#: includes/functions.php
+msgid "The oldest synchronization record timestamp is unavailable."
+msgstr ""
+"Tidsstämpeln för den äldsta synkroniseringsposten är inte tillgänglig."
+
+#: includes/functions.php
+msgid "Synchronization has failed or queued records exceed the allowed delay."
+msgstr ""
+"Synkroniseringen har misslyckats eller så överskrider köade poster den "
+"tillåtna fördröjningen."
+
+#: includes/functions.php
+#| msgid "Partition maintenance blocked"
+msgid "Partition maintenance is not blocked."
+msgstr "Partitionsunderhållet är inte blockerat."
+
+#: includes/functions.php
+#, php-format
+#| msgid "Partition maintenance blocked"
+msgid "Partition maintenance is blocked: %s"
+msgstr "Partitionsunderhållet är blockerat: %s"
+
+#: includes/functions.php
+#, php-format
+msgid "Syslog pipeline health - collector %d"
+msgstr "Pipelinehälsa för Syslog, insamlare %d"
+
+#: includes/functions.php
+msgid "The Syslog pipeline has recovered."
+msgstr "Syslog-pipelinen har återhämtat sig."
+
+#: includes/settings.php
+#, php-format
+#| msgid "%d Minutes"
+msgid "%d minutes"
+msgstr "%d minuter"
+
+#: includes/settings.php
+#, php-format
+#| msgid "%d Hours"
+msgid "%d hours"
+msgstr "%d timmar"
+
+#: lib/syslog_dashboard.php syslog_dashboards.php
+#| msgid "Unable to save the dashboard. Please try again."
+msgid "Unable to save dashboard changes."
+msgstr "Det gick inte att spara ändringarna i kontrollpanelen."
+
+#: lib/syslog_dashboard.php
+#| msgid "Refresh Interval"
+msgid "Refresh Panel"
+msgstr "Uppdatera panel"
+
+#: lib/syslog_dashboard.php
+#| msgid "Copy message"
+msgid "Total messages"
+msgstr "Totalt antal meddelanden"
+
+#: lib/syslog_thresholds.php syslog.php
+#| msgid "Threshold"
+msgid "Breached Thresholds"
+msgstr "Överskridna tröskelvärden"
+
+#: lib/syslog_thresholds.php
+msgid "Breached Since"
+msgstr "Överskriden sedan"
+
+#: lib/syslog_thresholds.php
+#| msgid "Collector health"
+msgid "Collector"
+msgstr "Insamlare"
+
+#: lib/syslog_thresholds.php
+msgid "Last Matching Message"
+msgstr "Senaste matchande meddelandet"
+
+#: lib/syslog_thresholds.php
+#| msgid "Recovery worker"
+msgid "Recovers After"
+msgstr "Återställs efter"
+
+#: lib/syslog_thresholds.php
+#| msgid "Rules"
+msgid "Rule"
+msgstr "Regel"
+
+#: lib/syslog_thresholds.php
+msgid "All matching devices"
+msgstr "Alla matchande enheter"
+
+#: lib/syslog_thresholds.php
+msgid "No thresholds are currently breached."
+msgstr "Inga tröskelvärden är för närvarande överskridna."
+
+#: lib/syslog_thresholds.php
+msgid ""
+"Recovery requires no matching messages until the displayed time. Every match"
+" restarts the quiet period."
+msgstr ""
+"Återställning kräver att inga meddelanden matchar förrän vid den visade "
+"tidpunkten. Varje matchning startar om väntetiden."
+
+#: lib/syslog_thresholds.php
+msgid "Previous"
+msgstr "Föregående"
+
+#: lib/syslog_thresholds.php
+msgid "Next"
+msgstr "Nästa"
+
+#: setup.php
+msgid "Top 10 Hosts"
+msgstr "10 värdar med flest meddelanden"
+
+#: setup.php
+#| msgid "Syslog Message Match String"
+msgid "Syslog Messages - Past Hour"
+msgstr "Syslog-meddelanden den senaste timmen"
+
+#: setup.php
+#| msgid "Message String:"
+msgid "Messages by Severity"
+msgstr "Meddelanden efter allvarlighetsgrad"
+
+#: setup.php
+#| msgid "All Programs"
+msgid "Top 10 Programs"
+msgstr "10 program med flest meddelanden"
+
+#: setup.php
+#| msgid "Rule activity"
+msgid "Alert Activity"
+msgstr "Larmaktivitet"
+
+#: syslog.php
+#, php-format
+#| msgid "[ Unprocessed Messages: %s ]"
+msgid "unprocessed messages are %s old"
+msgstr "obearbetade meddelanden är %s gamla"
+
+#: syslog.php
+#| msgid "Partition health"
+msgid "Pipeline health"
+msgstr "Pipelinehälsa"
+
+#: syslog.php
+#| msgid "%d Worker Processes"
+msgid "Worker processes"
+msgstr "Arbetsprocesser"
+
+#: syslog.php
+#| msgid "Process"
+msgid "Processing"
+msgstr "Bearbetning"
+
+#: syslog.php
+#| msgid "Last synchronization error"
+msgid "Synchronization"
+msgstr "Synkronisering"
+
+#: syslog.php
+#| msgid "No action required."
+msgid "Attention required"
+msgstr "Kräver åtgärd"
+
+#: syslog.php
+msgid "Healthy"
+msgstr "Fungerar normalt"
+
+#: syslog.php
+#| msgid "Processing phases"
+msgid "Processing disabled"
+msgstr "Bearbetning är inaktiverad"
+
+#: syslog.php
+#| msgid "Report processing"
+msgid "Waiting for processing"
+msgstr "Väntar på bearbetning"
+
+#: syslog.php
+msgid "Health"
+msgstr "Status"
+
+#: syslog.php
+msgid "Ready"
+msgstr "Klar"
+
+#: syslog.php
+#| msgid "Last Sent"
+msgid "Sent"
+msgstr "Skickat"
