@@ -2857,7 +2857,7 @@ msgstr "Misslyckades med att radera GPO: %s\n"
 #: src/tools/sssctl/sssctl_cache.c:1211
 #, c-format
 msgid "%s removed from cache\n"
-msgstr "%s borttagen från cachen\n"
+msgstr "%s togs bort från cachen\n"
 
 #: src/tools/sssctl/sssctl_cert.c:50 src/tools/sssctl/sssctl_cert.c:108
 #: src/tools/sssctl/sssctl_cert.c:214
@@ -2977,12 +2977,12 @@ msgstr "Misslyckades att köra validerare\n"
 #: src/tools/sssctl/sssctl_config.c:146
 #, c-format
 msgid "Issues identified by validators: %zu\n"
-msgstr "Problem som identifierades av validerarna: %zu\n"
+msgstr "Problem som identifierades av valideringsverktygen: %zu\n"
 
 #: src/tools/sssctl/sssctl_config.c:157
 #, c-format
 msgid "Messages generated during configuration merging: %zu\n"
-msgstr "Meddelanden genererade under sammanslagning av konfigurationen: %zu\n"
+msgstr "Meddelanden som skapades under sammanslagning av konfigurationen: %zu\n"
 
 #: src/tools/sssctl/sssctl_config.c:170
 #, c-format
@@ -2996,7 +2996,8 @@ msgstr "Kan inte skapa säkerhetskopieringskatalogen [%d]: %s"
 
 #: src/tools/sssctl/sssctl_data.c:97
 msgid "SSSD backup of local data already exists, override?"
-msgstr "En SSSD-säkerhetskopia av lokala data finns redan, åsidosätt?"
+msgstr ""
+"En SSSD-säkerhetskopia av lokala data finns redan. Vill du skriva över den?"
 
 #: src/tools/sssctl/sssctl_data.c:113
 msgid "Unable to export user overrides\n"
