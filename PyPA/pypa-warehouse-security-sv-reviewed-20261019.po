@@ -1,0 +1,197 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (pypa)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-19 07:46+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/pypa/warehouse/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#: warehouse/templates/accounts/profile.html:4
+#, python-format
+msgid "Profile of %(username)s"
+msgstr "Profil för %(username)s"
+
+#: warehouse/templates/accounts/profile.html:20
+#: warehouse/templates/manage/account.html:233
+#: warehouse/templates/manage/organization/roles.html:211
+#: warehouse/templates/manage/organization/roles.html:301
+#: warehouse/templates/manage/project/roles.html:181
+#: warehouse/templates/manage/project/roles.html:260
+#: warehouse/templates/manage/team/roles.html:45
+#, python-brace-format
+msgid "Avatar for {user} from gravatar.com"
+msgstr "Avatar för {user} från gravatar.com"
+
+#: warehouse/templates/accounts/profile.html:42
+#: warehouse/templates/organizations/profile.html:25
+#, python-format
+msgid "Joined %(start_date)s"
+msgstr "Gick med %(start_date)s"
+
+#: warehouse/templates/accounts/profile.html:57
+#: warehouse/templates/organizations/profile.html:39
+#, python-format
+msgid "%(count)s project"
+msgid_plural "%(count)s projects"
+msgstr[0] "%(count)s projekt"
+msgstr[1] "%(count)s projekt"
+
+#: warehouse/templates/accounts/profile.html:63
+#: warehouse/templates/organizations/profile.html:45
+msgid "No projects"
+msgstr "Inga projekt"
+
+#: warehouse/templates/accounts/profile.html:73
+#: warehouse/templates/accounts/profile.html:105
+#: warehouse/templates/manage/organization/projects.html:36
+#: warehouse/templates/manage/projects.html:27
+#: warehouse/templates/manage/projects.html:80
+#: warehouse/templates/manage/team/projects.html:36
+#: warehouse/templates/organizations/profile.html:55
+#, python-format
+msgid "Last released %(release_date)s"
+msgstr "Senast utgiven %(release_date)s"
+
+#: warehouse/templates/accounts/profile.html:82
+#, python-format
+msgid "%(user)s has not uploaded any projects to PyPI, yet"
+msgstr "%(user)s har ännu inte laddat upp några projekt till PyPI"
+
+#: warehouse/templates/accounts/profile.html:90
+#, python-format
+msgid "%(count)s <a href=\"%(href)s#archived-project\">archived</a> project"
+msgid_plural ""
+"%(count)s <a href=\"%(href)s#archived-project\">archived</a> projects"
+msgstr[0] "%(count)s <a href=\"%(href)s#archived-project\">arkiverat</a> projekt"
+msgstr[1] "%(count)s <a href=\"%(href)s#archived-project\">arkiverade</a> projekt"
+
+#: warehouse/templates/accounts/recovery-code.html:12
+#: warehouse/templates/accounts/two-factor.html:132
+msgid "Login using recovery codes"
+msgstr "Logga in med återställningskoder"
+
+#: warehouse/templates/accounts/recovery-code.html:26
+#: warehouse/templates/manage/account/recovery_codes-burn.html:46
+msgid "Enter recovery code"
+msgstr "Ange återställningskod"
+
+#: warehouse/templates/accounts/recovery-code.html:45
+msgid ""
+"Recovery codes are 16 character hexadecimal strings comprised of lowercase "
+"<code>a-z</code> and digits <code>0-9</code> (e.g., "
+"<code>badc0ffee0ddf00d</code>)."
+msgstr ""
+"Återställningskoder är hexadecimala strängar med 16 tecken som består av "
+"gemenerna <code>a-z</code> och siffrorna <code>0-9</code>, till exempel "
+"<code>badc0ffee0ddf00d</code>."
+
+#: warehouse/templates/accounts/recovery-code.html:54
+msgid ""
+"PyPI allows for generating recovery codes to be stored securely offline in "
+"the event that your device or application is lost. Enter one of these codes "
+"in the form to verify your identity. Once used, the recovery code will no "
+"longer be valid."
+msgstr ""
+"PyPI kan skapa återställningskoder som kan lagras säkert offline om du "
+"förlorar enheten eller applikationen. Ange en av koderna i formuläret för "
+"att verifiera din identitet. När en kod har använts är den inte längre "
+"giltig."
+
+#: warehouse/templates/accounts/recovery-code.html:56
+#, python-format
+msgid "<p> Not working? <a href=\"%(href)s\">Get help</a>. </p>"
+msgstr "<p> Fungerar det inte? <a href=\"%(href)s\">Få hjälp</a>. </p>"
+
+#: warehouse/templates/accounts/register.html:19
+#, python-format
+msgid "Create an account on %(title)s"
+msgstr "Skapa ett konto på %(title)s"
+
+#: warehouse/templates/accounts/register.html:22
+#, python-format
+msgid ""
+"Before creating an account on %(title)s, familiarize yourself with the "
+"following guidelines:"
+msgstr ""
+"Innan du skapar ett konto på %(title)s ska du läsa följande riktlinjer:"
+
+#: warehouse/templates/accounts/register.html:26
+#, python-format
+msgid ""
+"Do not use %(title)s for <strong>security research of any kind</strong>, "
+"including bug bounties, pentesting, red teaming, or dependency confusion, "
+"without written authorization from the %(title)s team."
+msgstr ""
+"Använd inte %(title)s för <strong>säkerhetsforskning av något slag</strong>,"
+" inklusive bug bounty-program, penetrationstestning, red teaming eller "
+"dependency confusion, utan skriftligt tillstånd från %(title)s-teamet."
+
+#: warehouse/templates/accounts/register.html:28
+#, python-format
+msgid "Do not use %(title)s for any illegal or harmful activities."
+msgstr "Använd inte %(title)s för olagliga eller skadliga aktiviteter."
+
+#: warehouse/templates/accounts/register.html:29
+msgid ""
+"Do not impersonate others or post private information without their consent."
+msgstr ""
+"Utge dig inte för att vara någon annan och publicera inte privat information"
+" utan samtycke."
+
+#: warehouse/templates/accounts/register.html:30
+msgid ""
+"Be respectful of other users and avoid abusive or discriminatory language."
+msgstr ""
+"Visa respekt för andra användare och undvik kränkande eller diskriminerande "
+"språk."
+
+#: warehouse/templates/accounts/register.html:31
+msgid "Do not post spam or distribute malware."
+msgstr "Publicera inte skräppost och sprid inte skadlig programvara."
+
+#: warehouse/templates/accounts/register.html:32
+msgid "Do not upload deliberately obfuscated code."
+msgstr "Ladda inte upp kod som medvetet har fördunklats."
+
+#: warehouse/templates/accounts/register.html:33
+#, python-format
+msgid ""
+"Do not use %(title)s as a file host, or split large files across releases."
+msgstr ""
+"Använd inte %(title)s som filvärd och dela inte upp stora filer mellan "
+"utgåvor."
+
+#: warehouse/templates/accounts/register.html:36
+#, python-format
+msgid ""
+"For more information, please read the full <a href=\"%(aup)s\" "
+"title=\"%(external)s\" target=\"_blank\" rel=\"noopener\">Acceptable Use "
+"Policy</a>. If you are a security researcher, refer to our <a "
+"href=\"%(security_page)s\">published security policy</a> and coordinate "
+"through proper disclosure channels."
+msgstr ""
+"Läs hela <a href=\"%(aup)s\" title=\"%(external)s\" target=\"_blank\" "
+"rel=\"noopener\">policyn för godtagbar användning</a> för mer information. "
+"Säkerhetsforskare hänvisas till vår <a "
+"href=\"%(security_page)s\">publicerade säkerhetspolicy</a> och ska samordna "
+"sig genom lämpliga kanaler för ansvarsfull rapportering."
+
+#: warehouse/templates/accounts/register.html:49
+msgid ""
+"Please confirm that your email address is <strong data-email-confirmation-"
+"target=\"email\"></strong>."
+msgstr ""
+"Bekräfta att din e-postadress är <strong data-email-confirmation-"
+"target=\"email\"></strong>."
+
+#: warehouse/templates/accounts/register.html:113
+msgid "Confirm form"
+msgstr "Bekräfta formuläret"
