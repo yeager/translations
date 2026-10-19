@@ -1,0 +1,210 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (pypa)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-19 07:46+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/pypa/warehouse/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#: warehouse/templates/accounts/register.html:124
+msgid "Select a username"
+msgstr "Välj ett användarnamn"
+
+#: warehouse/templates/accounts/register.html:157
+msgid "Select a password"
+msgstr "Välj ett lösenord"
+
+#: warehouse/templates/accounts/register.html:209
+msgid ""
+"This password appears in a security breach or has been compromised and "
+"cannot be used. Please refer to the <a href=\"/help/#compromised-"
+"password\">FAQ</a> for more information."
+msgstr ""
+"Det här lösenordet förekommer i ett säkerhetsintrång eller har röjts och kan"
+" inte användas. Se <a href=\"/help/#compromised-password\">vanliga "
+"frågor</a> för mer information."
+
+#: warehouse/templates/accounts/register.html:217
+msgid ""
+"Violations of these policies will result in <strong>immediate account "
+"suspension</strong>, and may include removal of all associated projects and "
+"files."
+msgstr ""
+"Brott mot dessa policyer leder till <strong>omedelbar avstängning av "
+"kontot</strong> och kan innebära att alla tillhörande projekt och filer tas "
+"bort."
+
+#: warehouse/templates/accounts/register.html:222
+#, python-format
+msgid ""
+"I agree to the <a href=\"%(tos)s\" title=\"%(external)s\" target=\"_blank\" "
+"rel=\"noopener\">PyPI Terms of Service</a> and <a href=\"%(aup)s\" "
+"title=\"%(external)s\" target=\"_blank\" rel=\"noopener\">Acceptable Use "
+"Policy</a>."
+msgstr ""
+"Jag godkänner <a href=\"%(tos)s\" title=\"%(external)s\" target=\"_blank\" "
+"rel=\"noopener\">PyPI:s användarvillkor</a> och <a href=\"%(aup)s\" "
+"title=\"%(external)s\" target=\"_blank\" rel=\"noopener\">policyn för "
+"godtagbar användning</a>."
+
+#: warehouse/templates/accounts/request-password-reset.html:15
+msgid "To reset your password, enter your username or email."
+msgstr "Ange användarnamn eller e-postadress för att återställa lösenordet."
+
+#: warehouse/templates/accounts/request-password-reset.html:34
+msgid "Request password reset"
+msgstr "Begär återställning av lösenord"
+
+#: warehouse/templates/accounts/request-password-reset.html:39
+msgid "Reset email sent"
+msgstr "E-post om återställning har skickats"
+
+#: warehouse/templates/accounts/request-password-reset.html:41
+msgid ""
+"If you submitted a valid username or verified email address, an email has "
+"been sent to your registered email address."
+msgstr ""
+"Om du angav ett giltigt användarnamn eller en verifierad e-postadress har "
+"ett e-postmeddelande skickats till din registrerade e-postadress."
+
+#: warehouse/templates/accounts/request-password-reset.html:44
+#, python-format
+msgid ""
+"The email contains a link to reset your password. This link will expire in "
+"%(n_hours)s hours."
+msgstr ""
+"E-postmeddelandet innehåller en länk för att återställa lösenordet. Länken "
+"upphör att gälla om %(n_hours)s timmar."
+
+#: warehouse/templates/accounts/reset-password.html:42
+#: warehouse/templates/manage/account.html:419
+msgid "Select a new password"
+msgstr "Välj ett nytt lösenord"
+
+#: warehouse/templates/accounts/two-factor.html:21
+msgid "Authenticate with a security device (e.g. USB key)"
+msgstr "Autentisera med en säkerhetsenhet, till exempel en USB-nyckel"
+
+#: warehouse/templates/accounts/two-factor.html:22
+msgid ""
+"Connect your security device and click the \"Authenticate with device\" "
+"button."
+msgstr ""
+"Anslut säkerhetsenheten och klicka på knappen ”Autentisera med enhet”."
+
+#: warehouse/templates/accounts/two-factor.html:24
+msgid "Enable JavaScript to log in with a security device (e.g. USB key)"
+msgstr ""
+"Aktivera JavaScript för att logga in med en säkerhetsenhet, till exempel en "
+"USB-nyckel"
+
+#: warehouse/templates/accounts/two-factor.html:31
+msgid "Authenticate with device"
+msgstr "Autentisera med enhet"
+
+#: warehouse/templates/accounts/two-factor.html:35
+#, python-format
+msgid ""
+"<a href=\"%(href)s\" title=\"%(title)s\" target=\"%(target)s\" "
+"rel=\"%(rel)s\">Upgrade your browser</a> to log in with a security device "
+"(e.g. USB key)"
+msgstr ""
+"<a href=\"%(href)s\" title=\"%(title)s\" target=\"%(target)s\" "
+"rel=\"%(rel)s\">Uppgradera webbläsaren</a> för att logga in med en "
+"säkerhetsenhet, till exempel en USB-nyckel"
+
+#: warehouse/templates/accounts/two-factor.html:49
+#: warehouse/templates/accounts/two-factor.html:108
+#, python-format
+msgid "Remember this device for %(remember_device_days)s day"
+msgid_plural "Remember this device for %(remember_device_days)s days"
+msgstr[0] "Kom ihåg den här enheten i %(remember_device_days)s dag"
+msgstr[1] "Kom ihåg den här enheten i %(remember_device_days)s dagar"
+
+#: warehouse/templates/accounts/two-factor.html:57
+#, python-format
+msgid "Lost your device? Not working? <a href=\"%(href)s\">Get help</a>."
+msgstr ""
+"Har du tappat bort enheten eller fungerar det inte? <a href=\"%(href)s\">Få "
+"hjälp</a>."
+
+#: warehouse/templates/accounts/two-factor.html:68
+msgid "Authenticate with an app"
+msgstr "Autentisera med en app"
+
+#: warehouse/templates/accounts/two-factor.html:115
+#, python-format
+msgid ""
+"<p> Generate a code using the authentication application connected to your "
+"PyPI account. Enter this code in the form to verify your identity. </p> <p> "
+"Lost your application? Not working? <a href=\"%(href)s\">Get help</a>. </p>"
+msgstr ""
+"<p> Generera en kod med autentiseringsappen som är ansluten till ditt PyPI-"
+"konto. Ange koden i formuläret för att verifiera din identitet. </p> <p> Har"
+" du tappat bort appen eller fungerar det inte? <a href=\"%(href)s\">Få "
+"hjälp</a>. </p>"
+
+#: warehouse/templates/accounts/two-factor.html:130
+msgid "Lost your security key or application?"
+msgstr "Har du tappat bort säkerhetsnyckeln eller appen?"
+
+#: warehouse/templates/accounts/two-factor.html:134
+#, python-format
+msgid ""
+"<p> <strong>You have not generated account recovery codes.</strong> </p> <p>"
+" If you lose access to your two factor methods, you may lose access to your "
+"account. <a href=\"%(href)s\">Get help with recovery codes.</a> </p>"
+msgstr ""
+"<p> <strong>Du har inte skapat återställningskoder för kontot.</strong> </p>"
+" <p> Om du förlorar åtkomsten till dina tvåfaktorsmetoder kan du förlora "
+"åtkomsten till kontot. <a href=\"%(href)s\">Få hjälp med "
+"återställningskoder.</a> </p>"
+
+#: warehouse/templates/email/account-association-added/body.html:5
+#, python-format
+msgid ""
+"Someone, perhaps you, has connected the <strong>%(service)s</strong> account"
+" <strong>@%(external_username)s</strong> to your PyPI account "
+"<strong>%(username)s</strong>."
+msgstr ""
+"Någon, kanske du, har anslutit <strong>%(service)s</strong>-kontot "
+"<strong>@%(external_username)s</strong> till ditt PyPI-konto "
+"<strong>%(username)s</strong>."
+
+#: warehouse/templates/email/account-association-added/body.html:8
+#: warehouse/templates/email/account-association-removed/body.html:8
+#: warehouse/templates/email/account-deleted/body.html:8
+#: warehouse/templates/email/password-change/body.html:8
+#: warehouse/templates/email/primary-email-change/body.html:8
+#: warehouse/templates/email/recovery-code-used/body.html:10
+#: warehouse/templates/email/recovery-codes-generated/body.html:10
+#: warehouse/templates/email/two-factor-added/body.html:8
+#: warehouse/templates/email/two-factor-removed/body.html:8
+#, python-format
+msgid ""
+"If you did not make this change, you can email <a "
+"href=\"%(href)s\">%(email_address)s</a> to communicate with the PyPI "
+"administrators."
+msgstr ""
+"Om du inte gjorde den här ändringen kan du skicka e-post till <a "
+"href=\"%(href)s\">%(email_address)s</a> för att kontakta PyPI:s "
+"administratörer."
+
+#: warehouse/templates/email/account-association-removed/body.html:5
+#, python-format
+msgid ""
+"Someone, perhaps you, has disconnected the <strong>%(service)s</strong> "
+"account <strong>@%(external_username)s</strong> from your PyPI account "
+"<strong>%(username)s</strong>."
+msgstr ""
+"Någon, kanske du, har kopplat från <strong>%(service)s</strong>-kontot "
+"<strong>@%(external_username)s</strong> från ditt PyPI-konto "
+"<strong>%(username)s</strong>."
