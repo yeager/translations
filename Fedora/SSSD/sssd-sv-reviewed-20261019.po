@@ -1280,7 +1280,7 @@ msgstr "Standardbindnings-DN"
 
 #: src/config/SSSDConfig/sssdoptions.py:361
 msgid "The type of the authentication token of the default bind DN"
-msgstr "Typen av autentiseringstoken för standardbindnings-DN"
+msgstr "Typ av autentiseringstoken för standardbindnings-DN"
 
 #: src/config/SSSDConfig/sssdoptions.py:362
 msgid "The authentication token of the default bind DN"
@@ -1288,11 +1288,11 @@ msgstr "Autentiseringstoken för standardbindnings-DN"
 
 #: src/config/SSSDConfig/sssdoptions.py:363
 msgid "Length of time to attempt connection"
-msgstr "Hur länge anslutning ska försökas"
+msgstr "Tidsgräns för anslutningsförsök"
 
 #: src/config/SSSDConfig/sssdoptions.py:364
 msgid "Length of time to attempt synchronous LDAP operations"
-msgstr "Hur länge synkrona LDAP-åtgärder ska försökas"
+msgstr "Tidsgräns för synkrona LDAP-åtgärder"
 
 #: src/config/SSSDConfig/sssdoptions.py:365
 msgid "Length of time between attempts to reconnect while offline"
@@ -1352,7 +1352,7 @@ msgstr "Kerberostjänstens nyckeltabell"
 
 #: src/config/SSSDConfig/sssdoptions.py:379
 msgid "Use Kerberos auth for LDAP connection"
-msgstr "Använd Kerberosautentisering för LDAP-anslutningar"
+msgstr "Använd Kerberosautentisering för LDAP-anslutning"
 
 #: src/config/SSSDConfig/sssdoptions.py:380
 msgid "Follow LDAP referrals"
@@ -1360,7 +1360,7 @@ msgstr "Följ LDAP-hänvisningar"
 
 #: src/config/SSSDConfig/sssdoptions.py:381
 msgid "Lifetime of TGT for LDAP connection"
-msgstr "Livslängd på TGT för LDAP-anslutning"
+msgstr "Livslängd för TGT vid LDAP-anslutning"
 
 #: src/config/SSSDConfig/sssdoptions.py:382
 msgid "How to dereference aliases"
@@ -1412,7 +1412,8 @@ msgstr "lastUSN-attribut"
 msgid ""
 "How long to retain a connection to the LDAP server before disconnecting"
 msgstr ""
-"Hur länge en anslutning till LDAP-servern ska behållas innan den kopplas ned"
+"Hur länge en anslutning till LDAP-servern ska behållas innan den kopplas "
+"från"
 
 #: src/config/SSSDConfig/sssdoptions.py:398
 msgid "Disable the LDAP paging control"
@@ -1436,11 +1437,11 @@ msgstr ""
 
 #: src/config/SSSDConfig/sssdoptions.py:404
 msgid "Length of time to wait for a search request"
-msgstr "Hur länge en sökbegäran ska vänta"
+msgstr "Tidsgräns för sökbegäran"
 
 #: src/config/SSSDConfig/sssdoptions.py:405
 msgid "Length of time to wait for a enumeration request"
-msgstr "Hur länge en uppräkningsbegäran ska vänta"
+msgstr "Tidsgräns för uppräkningsbegäran"
 
 #: src/config/SSSDConfig/sssdoptions.py:406
 msgid "Length of time between enumeration updates"
@@ -1456,7 +1457,7 @@ msgstr "Tidsintervallet mellan cacherensningar"
 
 #: src/config/SSSDConfig/sssdoptions.py:409
 msgid "Maximum time deviation between cache cleanups"
-msgstr "Maximal tidsavvikelse mellan cache-rensningar"
+msgstr "Maximal tidsavvikelse mellan cacherensningar"
 
 #: src/config/SSSDConfig/sssdoptions.py:410
 msgid "Require TLS for ID lookups"
@@ -1472,7 +1473,7 @@ msgstr "Bas-DN för användaruppslagningar"
 
 #: src/config/SSSDConfig/sssdoptions.py:413
 msgid "Scope of user lookups"
-msgstr "Sökintervall för användaruppslagningar"
+msgstr "Omfattning för användaruppslagningar"
 
 #: src/config/SSSDConfig/sssdoptions.py:414
 msgid "Filter for user lookups"
