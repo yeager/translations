@@ -1,0 +1,154 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (pypa)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-19 07:42+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/pypa/warehouse/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#: warehouse/manage/views/organizations.py:878
+msgid ""
+"This organization has created too many new projects recently. Try again "
+"later."
+msgstr ""
+"Den här organisationen har nyligen skapat för många nya projekt. Försök igen"
+" senare."
+
+#: warehouse/manage/views/organizations.py:886
+#, python-brace-format
+msgid ""
+"This organization has created too many new projects recently. Try again in "
+"${time}."
+msgstr ""
+"Den här organisationen har nyligen skapat för många nya projekt. Försök igen"
+" om ${time}."
+
+#: warehouse/manage/views/organizations.py:935
+#, python-brace-format
+msgid "User '${username}' already has ${role_name} role for organization"
+msgstr ""
+"Användaren '${username}' har redan rollen ${role_name} i organisationen"
+
+#: warehouse/manage/views/organizations.py:946
+#, python-brace-format
+msgid ""
+"User '${username}' does not have a verified primary email address and cannot"
+" be added as a ${role_name} for organization"
+msgstr ""
+"Användaren '${username}' har ingen verifierad primär e-postadress och kan "
+"inte läggas till som ${role_name} i organisationen"
+
+#: warehouse/manage/views/organizations.py:975
+msgid "Cannot invite new member. Organization is not in good standing."
+msgstr ""
+"Det går inte att bjuda in en ny medlem. Organisationen har inte god status."
+
+#: warehouse/manage/views/organizations.py:1141
+#: warehouse/manage/views/organizations.py:1183
+msgid "Could not find organization invitation."
+msgstr "Det gick inte att hitta organisationsinbjudan."
+
+#: warehouse/manage/views/organizations.py:1151
+msgid "Organization invitation could not be re-sent."
+msgstr "Det gick inte att skicka om organisationsinbjudan."
+
+#: warehouse/manage/views/organizations.py:1199
+#, python-brace-format
+msgid "Expired invitation for '${username}' deleted."
+msgstr "Den utgångna inbjudan för '${username}' togs bort."
+
+#: warehouse/manage/views/organizations.py:1827
+msgid ""
+"This publisher has already been registered in your organization. See your "
+"existing pending publishers below."
+msgstr ""
+"Den här utgivaren har redan registrerats i organisationen. Se dina "
+"befintliga väntande utgivare nedan."
+
+#: warehouse/oidc/forms/_core.py:64
+#, python-brace-format
+msgid ""
+"This project already exists: use the project's publishing settings <a "
+"href='${url}'>here</a> to create a Trusted Publisher for it."
+msgstr ""
+"Det här projektet finns redan: använd projektets publiceringsinställningar "
+"<a href='${url}'>här</a> för att skapa en betrodd utgivare för det."
+
+#: warehouse/oidc/forms/_core.py:71
+msgid "This project already exists."
+msgstr "Det här projektet finns redan."
+
+#: warehouse/oidc/forms/_core.py:75
+msgid "This project name isn't allowed"
+msgstr "Det här projektnamnet är inte tillåtet"
+
+#: warehouse/oidc/forms/_core.py:79
+msgid "This project name is too similar to an existing project"
+msgstr "Det här projektnamnet liknar ett befintligt projekt för mycket"
+
+#: warehouse/oidc/forms/_core.py:84
+msgid ""
+"This project name isn't allowed (conflict with the Python standard library "
+"module name)"
+msgstr ""
+"Det här projektnamnet är inte tillåtet eftersom det kolliderar med namnet på"
+" en modul i Pythons standardbibliotek"
+
+#: warehouse/oidc/forms/_core.py:100 warehouse/oidc/forms/_core.py:111
+msgid "Specify a publisher ID"
+msgstr "Ange ett utgivar-ID"
+
+#: warehouse/oidc/forms/_core.py:101 warehouse/oidc/forms/_core.py:112
+msgid "Publisher must be specified by ID"
+msgstr "Utgivaren måste anges med ID"
+
+#: warehouse/oidc/forms/_core.py:117
+msgid "Specify an environment name"
+msgstr "Ange ett miljönamn"
+
+#: warehouse/oidc/forms/activestate.py:37
+msgid "Double dashes are not allowed in the name"
+msgstr "Dubbla bindestreck är inte tillåtna i namnet"
+
+#: warehouse/oidc/forms/activestate.py:44
+msgid "Leading or trailing dashes are not allowed in the name"
+msgstr "Inledande eller avslutande bindestreck är inte tillåtna i namnet"
+
+#: warehouse/oidc/forms/activestate.py:68
+#: warehouse/oidc/forms/activestate.py:81
+msgid "Unexpected error from ActiveState. Try again in a few minutes"
+msgstr "Oväntat fel från ActiveState. Försök igen om några minuter"
+
+#: warehouse/oidc/forms/activestate.py:76
+#: warehouse/oidc/forms/activestate.py:92
+#: warehouse/oidc/forms/activestate.py:101
+msgid "Unexpected error from ActiveState. Try again"
+msgstr "Oväntat fel från ActiveState. Försök igen"
+
+#: warehouse/oidc/forms/activestate.py:111
+msgid "Specify ActiveState organization name"
+msgstr "Ange organisationsnamnet i ActiveState"
+
+#: warehouse/oidc/forms/activestate.py:119
+msgid "Specify ActiveState project name"
+msgstr "Ange projektnamnet i ActiveState"
+
+#: warehouse/oidc/forms/activestate.py:123
+msgid "Invalid ActiveState project name"
+msgstr "Ogiltigt ActiveState-projektnamn"
+
+#: warehouse/oidc/forms/activestate.py:146
+msgid "ActiveState organization not found"
+msgstr "ActiveState-organisationen hittades inte"
+
+#: warehouse/oidc/forms/activestate.py:164
+msgid "ActiveState actor not found"
+msgstr "ActiveState-aktören hittades inte"
