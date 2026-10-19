@@ -23,5 +23,5 @@ PAM-funktionsnamn som måste bevaras ordagrant.
 ## Manuell språkgranskning, grupp 2
 
 De första 50 aktiva strängarna har granskats i sin källordning. Sju
-formuleringar har förbättrats i den lokala deltafilen. De är ännu inte
-inskrivna i Fedora Weblate när denna notering skrivs.
+formuleringar har förbättrats och skrivits till Fedora Weblate. Varje
+uppdaterad enhet lästes tillbaka via API efter ändringen.
