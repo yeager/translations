@@ -569,7 +569,7 @@ msgstr "Om domänen kan användas av operativsystemet eller av program"
 
 #: src/config/SSSDConfig/sssdoptions.py:170
 msgid "Enable or disable the domain"
-msgstr "Aktivera eller avaktivera domänen"
+msgstr "Aktivera eller inaktivera domänen"
 
 #: src/config/SSSDConfig/sssdoptions.py:171
 msgid "Minimum user ID"
@@ -581,7 +581,7 @@ msgstr "Största användar-ID"
 
 #: src/config/SSSDConfig/sssdoptions.py:173
 msgid "Enable enumerating all users/groups"
-msgstr "Aktivera uppräkning av alla användare/grupper"
+msgstr "Aktivera uppräkning av alla användare och grupper"
 
 #: src/config/SSSDConfig/sssdoptions.py:174
 msgid "Cache credentials for offline login"
@@ -589,7 +589,7 @@ msgstr "Cachelagra autentiseringsuppgifter för frånkopplad inloggning"
 
 #: src/config/SSSDConfig/sssdoptions.py:175
 msgid "Display users/groups in fully-qualified form"
-msgstr "Visa användare/grupper i fullständigt kvalificerat format"
+msgstr "Visa användare och grupper i fullständigt kvalificerat format"
 
 #: src/config/SSSDConfig/sssdoptions.py:176
 msgid "Don't include group members in group lookups"
@@ -614,8 +614,8 @@ msgstr "Begränsa eller föredra en specifik adressfamilj vid DNS-uppslagningar"
 #: src/config/SSSDConfig/sssdoptions.py:179
 msgid "How long to keep cached entries after last successful login (days)"
 msgstr ""
-"Hur länge cachade poster ska behållas efter den senaste lyckade inloggningen"
-" (dagar)"
+"Hur länge cachelagrade poster ska behållas efter den senaste lyckade "
+"inloggningen (dagar)"
 
 #: src/config/SSSDConfig/sssdoptions.py:180
 msgid ""
@@ -627,13 +627,13 @@ msgstr ""
 
 #: src/config/SSSDConfig/sssdoptions.py:182
 msgid "How long should keep trying to resolve single DNS query (seconds)"
-msgstr ""
-"Hur länge uppslagning av en enskild DNS-fråga ska fortsätta försökas "
-"(sekunder)"
+msgstr "Hur länge en enskild DNS-fråga ska fortsätta att slås upp (sekunder)"
 
 #: src/config/SSSDConfig/sssdoptions.py:183
 msgid "How long to wait for replies from DNS when resolving servers (seconds)"
-msgstr "Hur länge man väntar på svar från DNS när servrar slås upp (sekunder)"
+msgstr ""
+"Hur länge SSSD ska vänta på svar från DNS vid uppslagning av servrar "
+"(sekunder)"
 
 #: src/config/SSSDConfig/sssdoptions.py:184
 msgid "The domain part of service discovery DNS query"
@@ -747,7 +747,7 @@ msgstr "Lista över alternativ som ska ärvas till en underdomän"
 
 #: src/config/SSSDConfig/sssdoptions.py:217
 msgid "Default subdomain homedir value"
-msgstr "Standard hemkatalogvärde för underdomäner"
+msgstr "Standardvärde för underdomänens hemkatalog"
 
 #: src/config/SSSDConfig/sssdoptions.py:218
 msgid "How long can cached credentials be used for cached authentication"
