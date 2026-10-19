@@ -1,0 +1,192 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (pypa)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-19 07:48+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/pypa/warehouse/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#: warehouse/templates/email/password-reset/body.html:5
+#, python-format
+msgid ""
+"Someone, perhaps you, has made a password reset request for your PyPI "
+"account '%(username)s'."
+msgstr ""
+"Någon, kanske du, har begärt återställning av lösenordet för ditt PyPI-konto"
+" ”%(username)s”."
+
+#: warehouse/templates/email/password-reset/body.html:8
+#, python-format
+msgid ""
+"If you wish to proceed with this request, <a href=\"%(href)s\">click to "
+"reset your password</a>."
+msgstr ""
+"Om du vill fortsätta med begäran kan du <a href=\"%(href)s\">klicka för att "
+"återställa lösenordet</a>."
+
+#: warehouse/templates/email/password-reset/body.html:11
+#: warehouse/templates/email/verify-email/body.html:11
+#, python-format
+msgid "This link will expire in %(n_hours)s hour."
+msgid_plural "This link will expire in %(n_hours)s hours."
+msgstr[0] ""
+msgstr[1] ""
+
+#: warehouse/templates/email/password-reset-unverified/body.html:19
+#: warehouse/templates/email/password-reset/body.html:15
+#: warehouse/templates/email/verify-email/body.html:15
+msgid "If you did not make this request, you can safely ignore this email."
+msgstr ""
+"Om du inte gjorde denna begäran kan du utan risk ignorera e-postmeddelandet."
+
+#: warehouse/templates/email/password-reset-unverified/body.html:5
+msgid ""
+"Someone, perhaps you, has made a password reset request for a PyPI account "
+"associated with this email address."
+msgstr ""
+"Någon, kanske du, har begärt återställning av lösenordet för ett PyPI-konto "
+"som är kopplat till den här e-postadressen."
+
+#: warehouse/templates/email/password-reset-unverified/body.html:8
+msgid ""
+"However, the email used to make this request is not verified. Your email "
+"address must be verified before you can use it to reset your password."
+msgstr ""
+"E-postadressen som användes för denna begäran är dock inte verifierad. "
+"E-postadressen måste vara verifierad innan du kan använda den för att "
+"återställa lösenordet."
+
+#: warehouse/templates/email/password-reset-unverified/body.html:11
+msgid ""
+"If you have another verified email address associated with your PyPI "
+"account, try that instead."
+msgstr ""
+"Om du har en annan verifierad e-postadress kopplad till PyPI-kontot kan du "
+"använda den i stället."
+
+#: warehouse/templates/email/password-reset-unverified/body.html:14
+#, python-format
+msgid ""
+"If you cannot use another verified email, follow <a "
+"href=\"%(href)s\">account recovery steps</a> for your PyPI account."
+msgstr ""
+"Om du inte kan använda en annan verifierad e-postadress ska du följa <a "
+"href=\"%(href)s\">stegen för kontoåterställning</a> för PyPI-kontot."
+
+#: warehouse/templates/email/password-reset-unverified/body.html:17
+#, python-format
+msgid "<a href=\"%(href)s\">Read more about verified emails.</a>"
+msgstr "<a href=\"%(href)s\">Läs mer om verifierade e-postadresser.</a>"
+
+#: warehouse/templates/email/primary-email-change/body.html:5
+#, python-format
+msgid ""
+"The primary email for your PyPI account <strong>%(username)s</strong> has "
+"been changed from <code>%(old_email)s</code> to <code>%(new_email)s</code>"
+msgstr ""
+"Den primära e-postadressen för ditt PyPI-konto <strong>%(username)s</strong>"
+" har ändrats från <code>%(old_email)s</code> till <code>%(new_email)s</code>"
+
+#: warehouse/templates/email/recovery-code-reminder/body.html:5
+#, python-format
+msgid ""
+"We noticed you recently logged into your PyPI account "
+"<strong>%(username)s</strong>, which has two-factor authentication enabled, "
+"but haven't generated recovery codes for this account."
+msgstr ""
+"Vi har märkt att du nyligen loggade in på ditt PyPI-konto "
+"<strong>%(username)s</strong>, där tvåfaktorsautentisering är aktiverad, men"
+" ännu inte har skapat återställningskoder för kontot."
+
+#: warehouse/templates/email/recovery-code-reminder/body.html:12
+msgid ""
+"If you lose your authentication application or security key(s) and do not "
+"have access to these recovery codes, you may permanently lose access to your"
+" PyPI account!"
+msgstr ""
+"Om du förlorar autentiseringsappen eller säkerhetsnyckeln/-nycklarna och "
+"saknar åtkomst till återställningskoderna kan du förlora åtkomsten till "
+"PyPI-kontot permanent!"
+
+#: warehouse/templates/email/recovery-code-reminder/body.html:19
+#, python-format
+msgid ""
+"You can generate recovery codes for your account here: <a "
+"href=\"%(href)s\">%(href)s</a>"
+msgstr ""
+"Du kan skapa återställningskoder för kontot här: <a "
+"href=\"%(href)s\">%(href)s</a>"
+
+#: warehouse/templates/email/recovery-code-used/body.html:5
+#, python-format
+msgid ""
+"A recovery code for your PyPI account <strong>%(username)s</strong> has been"
+" used."
+msgstr ""
+"En återställningskod för ditt PyPI-konto <strong>%(username)s</strong> har "
+"använts."
+
+#: warehouse/templates/email/recovery-codes-generated/body.html:5
+#, python-format
+msgid ""
+"New recovery codes for your PyPI account <strong>%(username)s</strong> have "
+"been generated."
+msgstr ""
+"Nya återställningskoder för ditt PyPI-konto <strong>%(username)s</strong> "
+"har skapats."
+
+#: warehouse/templates/email/removed-as-organization-member/body.html:5
+#, python-format
+msgid "You have been removed from the \"%(organization_name)s\" organization"
+msgstr "Du har tagits bort från organisationen ”%(organization_name)s”"
+
+#: warehouse/templates/email/removed-as-organization-member/body.html:9
+msgid "You are receiving this because you were a member of this organization."
+msgstr "Du får detta eftersom du var medlem i organisationen."
+
+#: warehouse/templates/email/removed-as-team-collaborator/body.html:5
+#, python-format
+msgid ""
+"Your team was removed from the %(site)s project %(project)s by "
+"%(submitter)s."
+msgstr ""
+"%(submitter)s har tagit bort ditt team från %(site)s-projektet %(project)s."
+
+#: warehouse/templates/email/removed-as-team-collaborator/body.html:8
+#, python-format
+msgid ""
+"You are receiving this because your team was removed by %(submitter)s from a"
+" project on %(site)s."
+msgstr ""
+"Du får detta eftersom %(submitter)s har tagit bort ditt team från ett "
+"projekt på %(site)s."
+
+#: warehouse/templates/email/removed-as-team-member/body.html:5
+#, python-format
+msgid ""
+"You have been removed from the \"%(team_name)s\" team in the "
+"\"%(organization_name)s\" organization"
+msgstr ""
+"Du har tagits bort från teamet ”%(team_name)s” i organisationen "
+"”%(organization_name)s”"
+
+#: warehouse/templates/email/removed-as-team-member/body.html:9
+msgid "You are receiving this because you were a member of this team."
+msgstr "Du får detta eftersom du var medlem i teamet."
+
+#: warehouse/templates/email/role-changed-as-organization-member/body.html:6
+#, python-format
+msgid ""
+"Your role in the \"%(organization_name)s\" organization has been changed to "
+"<strong>%(role)s</strong> by %(submitter)s"
+msgstr ""
+"%(submitter)s har ändrat din roll i organisationen ”%(organization_name)s” "
+"till <strong>%(role)s</strong>"
