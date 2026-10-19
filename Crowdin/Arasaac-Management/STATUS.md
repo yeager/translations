@@ -11,3 +11,9 @@ CrowdIn rapporterar 100 % översatt och 85 % godkänt.
 - `arasaac-management-sv-review-batch-02-20261019.po` är en granskningslista med 27 föreslagna rättningar. Två av dem, `Login.invalidEmail` och `app.components.CategoryForm.key`, fanns redan som identiska förslag och kunde därför inte skickas in en gång till. Batch 03 innehåller ytterligare 17 inskickade förslag.
 
 En lokal export eller en filbyggnad via CrowdIn API kan inte skapas med den nuvarande tokenens behörigheter. Den här katalogen är därför en verifierbar arbetsbackup och inte en påstådd CrowdIn-export.
+
+## Kvalitetskontroll
+
+En full kontroll omfattade 846 strängpar med CrowdIns aktuella engelska källsträngar. Den svenska granskningskopian bestod av den lokala granskade filen samt de 16 nyare World Locations-strängarna från CrowdIn. `msgfmt --check`, `l10n-lint` och `svlang skrivregler` gav inga fel. Gitleaks hittade inga hemligheter.
+
+Kontrollen är en språklig kvalitetskontroll av granskningskopian. Den är inte en export av de aktiva CrowdIn-översättningarna, eftersom tokenen inte får bygga en export och de 42 nya rättningarna fortfarande väntar på korrekturläsargodkännande.
