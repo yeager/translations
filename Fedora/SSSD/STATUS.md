@@ -19,3 +19,9 @@ eller luddiga poster.
 `svlang skrivregler` ger inga skrivregelfel. Återstående l10n-lint-information
 är avsiktlig: svensk sifferskrift, platshållarens flyttade plats och
 PAM-funktionsnamn som måste bevaras ordagrant.
+
+## Manuell språkgranskning, grupp 2
+
+De första 50 aktiva strängarna har granskats i sin källordning. Sju
+formuleringar har förbättrats i den lokala deltafilen. De är ännu inte
+inskrivna i Fedora Weblate när denna notering skrivs.
