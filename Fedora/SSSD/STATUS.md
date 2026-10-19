@@ -65,3 +65,8 @@ Fedora Weblate och lästs tillbaka från respektive enhet via API.
 
 Sträng 401–450 har granskats i källordning. Sex rättningar har skrivits till
 Fedora Weblate och lästs tillbaka från respektive enhet via API.
+
+## Manuell språkgranskning, grupp 11
+
+Sträng 451–500 har granskats i källordning. Nio rättningar finns i deltafilen
+men är ännu inte inskrivna i Fedora Weblate när denna notering skrivs.
