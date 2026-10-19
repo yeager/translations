@@ -90,3 +90,8 @@ Fedora Weblate och lästs tillbaka från respektive enhet via API.
 
 Sträng 651–700 har granskats i källordning. Tio rättningar har skrivits till
 Fedora Weblate och lästs tillbaka från respektive enhet via API.
+
+## Manuell språkgranskning, grupp 16
+
+Sträng 701–745 har granskats i källordning. En rättning finns i deltafilen men
+är ännu inte inskriven i Fedora Weblate när denna notering skrivs.
