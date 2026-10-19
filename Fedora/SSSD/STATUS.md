@@ -10,8 +10,8 @@ eller luddiga poster.
   för svenska tankstreck.
 - `sssd-sv-reviewed-delta-20261019.po` innehåller endast den rättade strängen
   och kan importeras i Weblate.
-- Fullfilen är en lokal granskningskopia. Den är inte ett påstående om att
-  ändringen är inskickad eller godkänd i Fedora Weblate.
+- Ändringen skickades till Fedora Weblate och lästes tillbaka från enhet
+  `12331660` med tillståndet Översatt. Fullfilen är en lokal granskningskopia.
 
 ## Kontroll
 
