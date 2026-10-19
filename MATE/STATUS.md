@@ -75,6 +75,8 @@ This inventory comes from the Fedora Weblate API. “Locked” means the compone
 | [mate-wayland-session](https://translate.fedoraproject.org/projects/mate-desktop/applications/mate-wayland-session/sv/) | available | 3 / 3 | 0 |
 | [mozo](https://translate.fedoraproject.org/projects/mate-desktop/applications/mozo/sv/) | available | 24 / 24 | 0 |
 | [pluma](https://translate.fedoraproject.org/projects/mate-desktop/applications/pluma/sv/) | available | 1449 / 1449 | 0 |
+
+Pluma was reviewed against a fresh server export on 19 October 2026. Thirteen Swedish corrections were submitted individually through the Fedora Weblate API and read back from the server. The reviewed export and the API readback record are stored alongside this inventory.
 | [pluma-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/pluma-help/sv/) | available | 641 / 641 | 0 |
 | [pluma-plugins](https://translate.fedoraproject.org/projects/mate-desktop/applications/pluma-plugins/sv/) | available | 81 / 81 | 0 |
 | [pluma-plugins-help](https://translate.fedoraproject.org/projects/mate-desktop/help-documentation/pluma-plugins-help/sv/) | available | 64 / 64 | 0 |
