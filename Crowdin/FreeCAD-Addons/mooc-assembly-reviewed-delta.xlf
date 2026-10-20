@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2"><file original="32160-MOOC.ts" source-language="fr" target-language="sv"><body><trans-unit id="14"><source>&lt;h3&gt;Assemblage&lt;/h3&gt;
+            &lt;p&gt;
+            Vue d'ensemble :&lt;br&gt;
+            &lt;img src= %s width="300"/&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+            &lt;b&gt;Basculer&lt;/b&gt; dans l'atelier &lt;img src= %s width="25"&gt; &lt;b&gt;A2plus&lt;/b&gt;.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Créer un nouveau document et le sauvegarder sous le nom
+            &lt;b&gt;Tabouret - Assemblage&lt;/b&gt;.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Importer la première pièce en cliquant sur l'outil &lt;img src= %s width="25"&gt; "Add a part".&lt;br&gt;
+            Chercher le document Pied A et cliquer sur Ok.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Déplacer la pièce importée de façon à ce qu'elle soit orientée vers le haut (axe Z) :&lt;br&gt;
+            Faire un clic droit sur l'objet dans l’arborescence puis cliquer sur &lt;b&gt;Transformer&lt;/b&gt;.&lt;br&gt;
+            Dans la vue 3D il y a 3 vecteurs et 3 boules, les vecteurs permettent de
+            déplacer l'objet par translation et les boules par rotation.&lt;br&gt;
+            Cliquer et maintenir le clic sur la boule rouge et déplacer le curseur
+            pour faire pivoter l'objet jusqu'à ce qu'il soit verticale.&lt;br&gt;
+            On peut voir dans l'onglet tache que chaque incrémentation correspond à 15° de rotation.&lt;br&gt;
+            Une fois vertical on clic sur Ok.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Importer Pied B : &lt;img src= %s width="25"&gt; "Add a part".&lt;br&gt;
+            La pièce se retrouve sous le curseur et attend un clic quelque part dans
+            la vue 3d pour être positionné.&lt;br&gt;
+            La position de départ n'a pas d'importance.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Appliquer des contrainte mécanique pour positionner Pied B par rapport à Pied A :
+            Sélectionner la face inférieur de l'encoche, et avec la touche contrôle
+            enfoncée, ajouter à la sélection la face de Pied B.&lt;br&gt;
+            Cliquer sur &lt;img src= %s width="25"&gt; "Add a Plane Coincident constraint".&lt;br&gt;
+            Cliquer sur "Accept" pour ajouter la contrainte.&lt;br&gt;
+            Sélectionner les 2 faces antérieur des encoches de Pied A et Pied B.&lt;br&gt;
+            Ajouter une contrainte de plan coïncident &lt;img src= %s width="25"&gt;.&lt;br&gt;
+            Cliquer sur "Accept" pour valider.&lt;br&gt;
+            Sélectionner les 2 arêtes supérieures de Pied A et Pied B et ajouter
+            une contrainte d'axe coïncident en cliquant sur &lt;img src= %s width="25"&gt;
+            "Add an AxisCoincident constraint".&lt;br&gt;
+            Pour s'assurer que Pied B est entièrement contraint, cliquer sur &lt;img src= %s width="25"&gt; "Toggle Printing detailed DOF".&lt;br&gt;
+            &lt;b&gt;DOF:0&lt;/b&gt; signifie qu'il reste 0 degrés de liberté. DOF signifiant Degree of FreeDOM.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Importer Entretoise : &lt;img src= %s width="25"&gt; "Add a Part".&lt;br&gt;
+            Sélectionner 2 arêtes et ajouter une contrainte d'axe coïncident &lt;img src= %s width="25"&gt;.&lt;br&gt;
+            Sélectionner 2 faces et ajouter une contrainte de plan coïncident &lt;img src= %s width="25"&gt;.&lt;br&gt;
+            L'entretoise semble bien en place mais si on clique sur
+            Afficher les degré de liberté &lt;img src= %s width="25"&gt; on voit qu'il
+            reste 1 degré de liberté.&lt;br&gt;
+            En effet l'entretoise peut pivoter autour de l’arête contrainte tout en
+            restant coplanaire aux plans sélectionné précédemment.&lt;br&gt;
+            Déplacer l'entretoise le temps de faire une sélection:&lt;br&gt;
+            Sélectionner l'entretoise puis cliquer sur &lt;img src= %s width="25"&gt; "Move the selected Part".&lt;br&gt;
+            Sélectionner la face supérieur de l'entretoise et la face inférieure de l'encoche.&lt;br&gt;
+            Ajouter une contrainte de plan parallèle &lt;img src= %s width="25"&gt;.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Vérifier le nombre de degré de liberté restant en cliquant sur Print DOF &lt;img src= %s width="25"&gt;.&lt;br&gt;
+            On a bien DOF:0.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Importer Assise :&lt;img src= %s width="25"&gt; "Add a Part".&lt;br&gt;
+            Sélectionner 2 arêtes et appliquer une contrainte d'axe coïncident &lt;img src= %s width="25"&gt;.&lt;br&gt;
+            Recommencer avec 2 autres arêtes.
+            &lt;/p&gt;
+            &lt;p&gt;
+            &lt;b&gt;Sauvegarder le document.&lt;/b&gt;
+            &lt;/p&gt;</source><target>&lt;h3&gt;Montering&lt;/h3&gt;
+            &lt;p&gt;
+            Översikt:&lt;br&gt;
+            &lt;img src= %s width="300"/&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+            &lt;b&gt;Byt&lt;/b&gt; till arbetsbänken &lt;img src= %s width="25"&gt; &lt;b&gt;A2plus&lt;/b&gt;.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Skapa ett nytt dokument och spara det med namnet
+            &lt;b&gt;Tabouret - Assemblage&lt;/b&gt;.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Importera den första delen genom att klicka på verktyget &lt;img src= %s width="25"&gt; "Lägg till en del".&lt;br&gt;
+            Leta upp dokumentet Pied A och klicka på OK.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Flytta den importerade delen så att den pekar uppåt längs Z axeln:&lt;br&gt;
+            Högerklicka på objektet i trädet och klicka sedan på &lt;b&gt;Omforma&lt;/b&gt;.&lt;br&gt;
+            I 3D vyn finns tre pilar och tre klot. Pilarna används för att
+            flytta objektet och kloten för att rotera det.&lt;br&gt;
+            Håll musknappen nedtryckt på det röda klotet och flytta pekaren
+            tills objektet står lodrätt.&lt;br&gt;
+            På fliken Uppgifter motsvarar varje steg en rotation på 15°.&lt;br&gt;
+            När delen står lodrätt klickar du på OK.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Importera Pied B: &lt;img src= %s width="25"&gt; "Lägg till en del".&lt;br&gt;
+            Delen följer pekaren och väntar på att du klickar någonstans i
+            3D vyn för att placera den.&lt;br&gt;
+            Startpositionen saknar betydelse.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Lägg till mekaniska begränsningar för att placera Pied B i förhållande till Pied A:
+            Markera den nedre ytan i urtaget och lägg med Ctrl tangenten
+            nedtryckt till ytan på Pied B i markeringen.&lt;br&gt;
+            Klicka på &lt;img src= %s width="25"&gt; "Lägg till en sammanfallande planbegränsning".&lt;br&gt;
+            Klicka på "Godkänn" för att lägga till begränsningen.&lt;br&gt;
+            Markera de två främre ytorna i urtagen på Pied A och Pied B.&lt;br&gt;
+            Lägg till en sammanfallande planbegränsning &lt;img src= %s width="25"&gt;.&lt;br&gt;
+            Klicka på "Godkänn" för att bekräfta.&lt;br&gt;
+            Markera de två övre kanterna på Pied A och Pied B och lägg till
+            en sammanfallande axelbegränsning genom att klicka på &lt;img src= %s width="25"&gt;
+            "Lägg till en sammanfallande axelbegränsning".&lt;br&gt;
+            Kontrollera att Pied B är helt begränsad genom att klicka på &lt;img src= %s width="25"&gt; "Växla utskrift av detaljerade frihetsgrader".&lt;br&gt;
+            &lt;b&gt;DOF:0&lt;/b&gt; betyder att noll frihetsgrader återstår. DOF betyder frihetsgrad.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Importera Entretoise: &lt;img src= %s width="25"&gt; "Lägg till en del".&lt;br&gt;
+            Markera två kanter och lägg till en sammanfallande axelbegränsning &lt;img src= %s width="25"&gt;.&lt;br&gt;
+            Markera två ytor och lägg till en sammanfallande planbegränsning &lt;img src= %s width="25"&gt;.&lt;br&gt;
+            Entretoise verkar sitta rätt, men om du klickar på
+            Visa frihetsgrader &lt;img src= %s width="25"&gt; ser du att
+            en frihetsgrad återstår.&lt;br&gt;
+            Entretoise kan nämligen rotera runt den begränsade kanten och ändå
+            vara parallell med de plan som markerades tidigare.&lt;br&gt;
+            Flytta Entretoise medan du gör följande markering:&lt;br&gt;
+            Markera Entretoise och klicka på &lt;img src= %s width="25"&gt; "Flytta den markerade delen".&lt;br&gt;
+            Markera den övre ytan på Entretoise och den nedre ytan i urtaget.&lt;br&gt;
+            Lägg till en parallell planbegränsning &lt;img src= %s width="25"&gt;.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Kontrollera antalet återstående frihetsgrader genom att klicka på Print DOF &lt;img src= %s width="25"&gt;.&lt;br&gt;
+            Nu visas DOF:0.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Importera Assise:&lt;img src= %s width="25"&gt; "Lägg till en del".&lt;br&gt;
+            Markera två kanter och lägg till en sammanfallande axelbegränsning &lt;img src= %s width="25"&gt;.&lt;br&gt;
+            Upprepa med två andra kanter.
+            &lt;/p&gt;
+            &lt;p&gt;
+            &lt;b&gt;Spara dokumentet.&lt;/b&gt;
+            &lt;/p&gt;</target></trans-unit></body></file></xliff>
