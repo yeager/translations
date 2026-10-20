@@ -4526,8 +4526,8 @@ msgstr "Avatar för {username} från gravatar.com"
 #, python-format
 msgid "%(count)s maintainer"
 msgid_plural "%(count)s maintainers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s underhållare"
+msgstr[1] "%(count)s underhållare"
 
 #: warehouse/templates/includes/packaging/metadata/organization.html:3
 #: warehouse/templates/manage/account/publishing.html:37
@@ -5627,7 +5627,11 @@ msgid_plural ""
 "Your account is currently the <strong>sole owner</strong> of %(count)s "
 "projects."
 msgstr[0] ""
+"Ditt konto är för närvarande <strong>ensam ägare</strong> till %(count)s "
+"projekt."
 msgstr[1] ""
+"Ditt konto är för närvarande <strong>ensam ägare</strong> till %(count)s "
+"projekt."
 
 #: warehouse/templates/manage/account.html:979
 msgid ""
@@ -5637,7 +5641,11 @@ msgid_plural ""
 "You must transfer ownership or delete these projects before you can delete "
 "your account."
 msgstr[0] ""
+"Du måste överföra ägarskapet eller ta bort detta projekt innan du kan ta "
+"bort ditt konto."
 msgstr[1] ""
+"Du måste överföra ägarskapet eller ta bort dessa projekt innan du kan ta "
+"bort ditt konto."
 
 #: warehouse/templates/manage/account.html:989
 #, python-format
@@ -5657,7 +5665,11 @@ msgid_plural ""
 "Your account is currently the <strong>sole owner</strong> of %(count)s "
 "organizations."
 msgstr[0] ""
+"Ditt konto är för närvarande <strong>ensam ägare</strong> till %(count)s "
+"organisation."
 msgstr[1] ""
+"Ditt konto är för närvarande <strong>ensam ägare</strong> till %(count)s "
+"organisationer."
 
 #: warehouse/templates/manage/account.html:1005
 msgid ""
@@ -5667,7 +5679,11 @@ msgid_plural ""
 "You must add another owner or delete these organizations before you can "
 "delete your account."
 msgstr[0] ""
+"Du måste lägga till en annan ägare eller ta bort denna organisation innan du"
+" kan ta bort ditt konto."
 msgstr[1] ""
+"Du måste lägga till en annan ägare eller ta bort dessa organisationer innan "
+"du kan ta bort ditt konto."
 
 #: warehouse/templates/manage/account.html:1015
 #, python-format
@@ -7534,10 +7550,10 @@ msgstr ""
 "Organisationstypen har ändrats från %(old_orgtype)s till %(new_orgtype)s"
 
 #: warehouse/templates/manage/organization/history.html:27
-#, fuzzy, python-format
+#, python-format
 #| msgid "Changed by"
 msgid "Changed by: %(actor)s"
-msgstr "Ändrad av"
+msgstr "Ändrad av: %(actor)s"
 
 #: warehouse/templates/manage/organization/history.html:29
 #, python-format
@@ -8317,8 +8333,8 @@ msgstr "Det går inte att ta bort organisationen"
 #, python-format
 msgid "Your organization currently owns %(count)s project."
 msgid_plural "Your organization currently owns %(count)s projects."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Organisationen äger för närvarande %(count)s projekt."
+msgstr[1] "Organisationen äger för närvarande %(count)s projekt."
 
 #: warehouse/templates/manage/organization/settings.html:274
 msgid "For each project, you must either:"
@@ -8387,8 +8403,8 @@ msgstr "Hantera team i '%(organization_name)s'"
 #, python-format
 msgid "%(member_count)s member"
 msgid_plural "%(member_count)s members"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(member_count)s medlem"
+msgstr[1] "%(member_count)s medlemmar"
 
 #: warehouse/templates/manage/organization/teams.html:39
 msgid "Manage this team"
@@ -8880,6 +8896,9 @@ msgid ""
 "Learn how to upload files on the <a href=\"%(href)s\" title=\"%(title)s\" "
 "target=\"_blank\" rel=\"noopener\">Python Packaging User Guide</a>"
 msgstr ""
+"Läs hur du laddar upp filer i <a href=\"%(href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">användarhandboken för Python-"
+"paketering</a>"
 
 #: warehouse/templates/manage/project/release.html:156
 msgid "Release settings"
@@ -8889,6 +8908,7 @@ msgstr "Inställningar för utgåvan"
 msgid ""
 "Yank and delete actions are unavailable while this release is in quarantine."
 msgstr ""
+"Det går inte att dra tillbaka eller ta bort utgåvan medan den är i karantän."
 
 #: warehouse/templates/manage/project/release.html:164
 #: warehouse/templates/manage/project/release.html:198
@@ -8905,13 +8925,19 @@ msgid_plural ""
 "Yanking will mark this release (and %(count)s files within it) to be ignored"
 " when installing in most common scenarios."
 msgstr[0] ""
+"En tillbakadragning gör att utgåvan och %(count)s fil i den ignoreras vid "
+"installation i de flesta vanliga fall."
 msgstr[1] ""
+"En tillbakadragning gör att utgåvan och %(count)s filer i den ignoreras vid "
+"installation i de flesta vanliga fall."
 
 #: warehouse/templates/manage/project/release.html:173
 msgid ""
 "Yanking will mark this release to be ignored when installing in most common "
 "scenarios."
 msgstr ""
+"En tillbakadragning gör att denna utgåva ignoreras vid installation i de "
+"flesta vanliga fall."
 
 #: warehouse/templates/manage/project/release.html:177
 #, python-format
@@ -8919,6 +8945,8 @@ msgid ""
 "This release will still be installable for users pinning to this exact "
 "version, e.g. when using <code>%(project_name)s==%(version)s</code>."
 msgstr ""
+"Denna utgåva kan fortfarande installeras av användare som låser till just "
+"denna version, till exempel med <code>%(project_name)s==%(version)s</code>."
 
 #: warehouse/templates/manage/project/release.html:180
 #, python-format
@@ -8932,6 +8960,8 @@ msgid ""
 "You may provide a reason for yanking this release, which will be displayed "
 "by pip to users who install <code>%(project_name)s==%(version)s</code>."
 msgstr ""
+"Du kan ange en orsak till att utgåvan dras tillbaka. pip visar den för "
+"användare som installerar <code>%(project_name)s==%(version)s</code>."
 
 #: warehouse/templates/manage/project/release.html:190
 #: warehouse/templates/manage/project/releases.html:138
@@ -8959,8 +8989,8 @@ msgid ""
 "Deleting will irreversibly delete this release along with %(count)s file."
 msgid_plural ""
 "Deleting will irreversibly delete this release along with %(count)s files."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "När du tar bort utgåvan raderas även %(count)s fil permanent."
+msgstr[1] "När du tar bort utgåvan raderas även %(count)s filer permanent."
 
 #: warehouse/templates/manage/project/release.html:212
 msgid "Deleting will irreversibly delete this release."
@@ -8972,6 +9002,8 @@ msgid ""
 "You will not be able to re-upload a new distribution of the same type with "
 "the same version number."
 msgstr ""
+"Du kan inte ladda upp en ny distribution av samma typ med samma "
+"versionsnummer igen."
 
 #: warehouse/templates/manage/project/release.html:218
 #: warehouse/templates/manage/project/releases.html:154
@@ -8980,6 +9012,9 @@ msgid ""
 "this package. It is intended as a last resort to address legal issues or "
 "remove harmful releases."
 msgstr ""
+"En borttagning gör att projekt längre ned i beroendekedjan som förlitar sig "
+"på en låst version av paketet slutar fungera. Åtgärden är en sista utväg för"
+" juridiska problem eller för att ta bort skadliga utgåvor."
 
 #: warehouse/templates/manage/project/release.html:221
 #: warehouse/templates/manage/project/releases.html:157
@@ -8990,6 +9025,10 @@ msgid ""
 "href=\"%(post_href)s\" title=\"%(title)s\" target=\"_blank\" "
 "rel=\"noopener\">post release</a> instead."
 msgstr ""
+"Överväg i stället att <a href=\"%(yank_href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">dra tillbaka</a> utgåvan, skapa en ny "
+"utgåva eller en <a href=\"%(post_href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">efterföljande utgåva</a>."
 
 #: warehouse/templates/manage/project/releases.html:6
 #, python-format
@@ -9016,8 +9055,8 @@ msgstr "Hantera version"
 #, python-format
 msgid "%(count)s file"
 msgid_plural "%(count)s files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s fil"
+msgstr[1] "%(count)s filer"
 
 #: warehouse/templates/manage/project/releases.html:45
 msgid "No files"
@@ -9068,6 +9107,9 @@ msgid ""
 "title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">Python Packaging User"
 " Guide</a>"
 msgstr ""
+"Läs hur du skapar en ny utgåva i <a href=\"%(href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">användarhandboken för Python-"
+"paketering</a>"
 
 #: warehouse/templates/manage/project/roles.html:5
 #, python-format
@@ -9080,6 +9122,8 @@ msgid ""
 "Use this page to control which PyPI users can help you to manage "
 "%(project_name)s."
 msgstr ""
+"Använd denna sida för att styra vilka PyPI-användare som kan hjälpa dig att "
+"hantera %(project_name)s."
 
 #: warehouse/templates/manage/project/roles.html:40
 msgid "Project Roles"
@@ -9123,8 +9167,8 @@ msgstr "Medarbetare"
 #, python-format
 msgid "%(count)s organization owner"
 msgid_plural "%(count)s organization owners"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s organisationsägare"
+msgstr[1] "%(count)s organisationsägare"
 
 #: warehouse/templates/manage/project/roles.html:90
 msgid "Cannot remove organization owners"
@@ -9134,8 +9178,8 @@ msgstr "Det går inte att ta bort organisationsägare"
 #, python-format
 msgid "%(count)s team member"
 msgid_plural "%(count)s team members"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s teammedlem"
+msgstr[1] "%(count)s teammedlemmar"
 
 #: warehouse/templates/manage/project/roles.html:159
 msgid "Cannot remove your own team as Owner"
@@ -9401,7 +9445,11 @@ msgid_plural ""
 "Irreversibly delete the project along with <a href=\"%(href)s\">%(count)s "
 "releases</a>"
 msgstr[0] ""
+"Ta bort projektet permanent tillsammans med <a href=\"%(href)s\">%(count)s "
+"utgåva</a>"
 msgstr[1] ""
+"Ta bort projektet permanent tillsammans med <a href=\"%(href)s\">%(count)s "
+"utgåvor</a>"
 
 #: warehouse/templates/manage/project/settings.html:241
 msgid "Irreversibly delete the project"
@@ -11847,8 +11895,8 @@ msgstr "Projekt med anknytning till ”grafik” och OSI-godkända licenser"
 #, python-format
 msgid "<strong>%(count_display)s</strong> project&nbsp;"
 msgid_plural "<strong>%(count_display)s</strong> projects&nbsp;"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<strong>%(count_display)s</strong> projekt&nbsp;"
+msgstr[1] "<strong>%(count_display)s</strong> projekt&nbsp;"
 
 #: warehouse/templates/search/results.html:147
 #, python-format
@@ -11858,8 +11906,8 @@ msgstr "för ”%(term)s”"
 #: warehouse/templates/search/results.html:150
 msgid "with the selected classifier"
 msgid_plural "with the selected classifiers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "med den valda klassificeraren"
+msgstr[1] "med de valda klassificerarna"
 
 #: warehouse/templates/search/results.html:165
 msgid "Order by"
@@ -11890,5 +11938,5 @@ msgstr "Det fanns inga resultat för ”%(term)s”"
 #, python-format
 msgid "There were no results for '%(filters)s' filter"
 msgid_plural "There were no results for '%(filters)s' filters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Det fanns inga resultat för filtret ”%(filters)s”"
+msgstr[1] "Det fanns inga resultat för filtren ”%(filters)s”"
