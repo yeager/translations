@@ -10780,6 +10780,8 @@ msgstr ""
 msgid ""
 "As each code can be used only once, you might want to mark the code as used"
 msgstr ""
+"Eftersom varje kod bara kan användas en gång kan du vilja markera koden som "
+"använd"
 
 #: warehouse/templates/pages/help.html:822
 msgid ""
@@ -10787,12 +10789,16 @@ msgid ""
 "new set using the \"Regenerate recovery codes\" button in your account "
 "settings."
 msgstr ""
+"Om du har få återställningskoder kvar kan du också skapa en ny uppsättning "
+"med knappen ”Skapa nya återställningskoder” i kontoinställningarna."
 
 #: warehouse/templates/pages/help.html:827
 msgid ""
 "API tokens are used to authenticate when <strong>uploading packages</strong>"
 " to PyPI."
 msgstr ""
+"API-token används för att autentisera vid <strong>uppladdning av "
+"paket</strong> till PyPI."
 
 #: warehouse/templates/pages/help.html:832
 msgid ""
@@ -10800,12 +10806,17 @@ msgid ""
 "will work for all projects associated with that account. Alternatively, you "
 "can limit a token's scope to a specific project."
 msgstr ""
+"Du kan skapa en token för ett helt PyPI-konto. Då fungerar token för alla "
+"projekt som är kopplade till kontot. Du kan också begränsa en tokens "
+"omfattning till ett visst projekt."
 
 #: warehouse/templates/pages/help.html:839
 msgid ""
 "When using an API token from a CI provider, we recommend scoping the token "
 "down to the minimum necessary projects."
 msgstr ""
+"När du använder en API-token från en CI-leverantör rekommenderar vi att du "
+"begränsar token till minsta möjliga antal projekt."
 
 #: warehouse/templates/pages/help.html:846
 #, python-format
@@ -10814,6 +10825,9 @@ msgid ""
 "href=\"%(href)s\">Trusted Publishing</a>, we strongly recommend using "
 "Trusted Publishing instead."
 msgstr ""
+"Om du publicerar till PyPI från en CI-leverantör som stöder <a "
+"href=\"%(href)s\">betrodd publicering</a> rekommenderar vi starkt att du "
+"använder betrodd publicering i stället."
 
 #: warehouse/templates/pages/help.html:853
 msgid "To make an API token:"
@@ -10834,6 +10848,8 @@ msgid ""
 "In your <a href=\"%(href)s\">account settings</a>, go to the API tokens "
 "section and select \"Add API token\""
 msgstr ""
+"Gå till avsnittet för API-token i <a "
+"href=\"%(href)s\">kontoinställningarna</a> och välj ”Lägg till API-token”"
 
 #: warehouse/templates/pages/help.html:862
 msgid "To use an API token:"
@@ -10847,7 +10863,7 @@ msgstr "Ange ditt användarnamn som <code>__token__</code>"
 msgid ""
 "Set your password to the token value, including the <code>pypi-</code> "
 "prefix"
-msgstr ""
+msgstr "Ange tokenvärdet som lösenord, inklusive prefixet <code>pypi-</code>"
 
 #: warehouse/templates/pages/help.html:872
 #, python-format
@@ -10860,12 +10876,21 @@ msgid ""
 "target=\"_blank\" rel=\"noopener\"><code>.travis.yml</code> if you are using"
 " Travis</a>)."
 msgstr ""
+"Var du redigerar eller lägger till dessa värden beror på hur du använder "
+"dem. Vissa användare kan till exempel behöva redigera <a "
+"href=\"%(pypirc_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">filen <code>.pypirc</code></a>, medan andra kan behöva "
+"uppdatera sin CI-konfigurationsfil, till exempel <a href=\"%(travis_href)s\""
+" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\"><code>.travis.yml</code> om de använder Travis</a>."
 
 #: warehouse/templates/pages/help.html:883
 msgid ""
 "Advanced users may wish to inspect their token by decoding it with base64, "
 "and checking the output against the unique identifier displayed on PyPI."
 msgstr ""
+"Avancerade användare kan vilja granska token genom att avkoda den med base64"
+" och jämföra resultatet med den unika identifierare som visas på PyPI."
 
 #: warehouse/templates/pages/help.html:886
 msgid ""
@@ -10877,6 +10902,13 @@ msgid ""
 "it.</p> <p> <strong>We strongly recommend you only perform such actions on "
 "your personal, password-protected computer.</strong> </p>"
 msgstr ""
+"<p> PyPI ber dig bekräfta lösenordet innan du utför en <i>känslig "
+"åtgärd</i>. Känsliga åtgärder omfattar bland annat att lägga till eller ta "
+"bort underhållare, ta bort distributioner, skapa API-token och ställa in "
+"tvåfaktorsautentisering. </p> <p>Du behöver bara bekräfta lösenordet igen om"
+" det har gått mer än en timme sedan förra bekräftelsen.</p> <p> <strong>Vi "
+"rekommenderar starkt att du bara utför sådana åtgärder på din egen "
+"lösenordsskyddade dator.</strong> </p>"
 
 #: warehouse/templates/pages/help.html:896
 msgid "PyPI does not currently support changing a username."
@@ -10888,6 +10920,9 @@ msgid ""
 " account as a maintainer of all the projects your old account owns, and then"
 " delete the old account, which will have the same effect."
 msgstr ""
+"Du kan i stället skapa ett nytt konto med det önskade användarnamnet, lägga "
+"till det nya kontot som underhållare för alla projekt som det gamla kontot "
+"äger och sedan ta bort det gamla kontot. Det får samma effekt."
 
 #: warehouse/templates/pages/help.html:902
 #, python-format
@@ -10896,6 +10931,9 @@ msgid ""
 "to delegate publishing authority for a PyPI package to a trusted third party"
 " service, eliminating the need to use API tokens."
 msgstr ""
+"PyPI-användare och projekt kan använda <a href=\"%(docs)s\">betrodda "
+"utgivare</a> för att delegera behörigheten att publicera ett PyPI-paket till"
+" en betrodd tredjepartstjänst. Då behövs inga API-token."
 
 #: warehouse/templates/pages/help.html:913
 msgid "Yes, including RSS feeds of new packages and new releases."
@@ -10913,6 +10951,9 @@ msgid ""
 " that the storage requirements for a PyPI mirror would exceed 1 terabyte—and"
 " growing!"
 msgstr ""
+"Om du behöver köra en egen spegel av PyPI är <a href=\"%(href)s\">projektet "
+"bandersnatch</a> den rekommenderade lösningen. Observera att lagringskravet "
+"för en PyPI-spegel överstiger 1 terabyte och fortsätter att växa!"
 
 #: warehouse/templates/pages/help.html:924
 #, python-format
@@ -10924,6 +10965,12 @@ msgid ""
 "vulnerabilities listed as <a href=\"%(href)s\" title=\"%(title)s\" "
 "target=\"_blank\" rel=\"noopener\">GitHub apps</a>."
 msgstr ""
+"Du kan prenumerera på <a href=\"%(rss_href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">RSS-flödet för projektutgåvor</a>. Det "
+"finns också flera tredjepartstjänster som erbjuder omfattande övervakning "
+"och aviseringar om projektutgåvor och säkerhetsbrister. De finns listade som"
+" <a href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">GitHub-appar</a>."
 
 #: warehouse/templates/pages/help.html:931
 #, python-format
