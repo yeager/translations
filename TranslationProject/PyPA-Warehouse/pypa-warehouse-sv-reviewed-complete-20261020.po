@@ -9809,6 +9809,9 @@ msgid ""
 "factor authentication methods and provision <a "
 "href=\"#recoverycodes\">recovery codes</a>."
 msgstr ""
+"Vi rekommenderar att alla PyPI-användare ställer in <em>minst två</em> "
+"tvåfaktorsmetoder som stöds och skapar <a "
+"href=\"#recoverycodes\">återställningskoder</a>."
 
 #: warehouse/templates/pages/help.html:29
 msgid ""
@@ -9816,6 +9819,9 @@ msgid ""
 "have <a href=\"#recoverycodes\">recovery codes</a>, you can request help <a "
 "href=\"#account-recovery\">with account recovery</a>."
 msgstr ""
+"Om du har förlorat åtkomsten till alla tvåfaktorsmetoder för kontot och inte"
+" har några <a href=\"#recoverycodes\">återställningskoder</a> kan du begära "
+"hjälp <a href=\"#account-recovery\">med kontoåterställning</a>."
 
 #: warehouse/templates/pages/help.html:39
 msgid "What's a package, project, or release?"
@@ -9871,12 +9877,17 @@ msgid ""
 " title=\"time-based one-time password\">TOTP</abbr>) work? How do I set it "
 "up on PyPI?"
 msgstr ""
+"Hur fungerar tvåfaktorsautentisering med en autentiseringsapp (<abbr "
+"title=\"time-based one-time password\">TOTP</abbr>)? Hur ställer jag in den "
+"på PyPI?"
 
 #: warehouse/templates/pages/help.html:79
 msgid ""
 "How does two-factor authentication with a security device (e.g. USB key) "
 "work? How do I set it up on PyPI?"
 msgstr ""
+"Hur fungerar tvåfaktorsautentisering med en säkerhetsenhet, till exempel en "
+"USB-nyckel? Hur ställer jag in den på PyPI?"
 
 #: warehouse/templates/pages/help.html:82
 msgid "What devices (other than a USB key) can I use as a security device?"
@@ -9888,6 +9899,8 @@ msgid ""
 "How does two-factor authentication with a recovery code work? How do I set "
 "it up on PyPI?"
 msgstr ""
+"Hur fungerar tvåfaktorsautentisering med en återställningskod? Hur ställer "
+"jag in den på PyPI?"
 
 #: warehouse/templates/pages/help.html:88
 msgid "How can I use API tokens to authenticate with PyPI?"
@@ -9921,6 +9934,8 @@ msgstr "Hur får jag en avisering när en ny version av ett projekt släpps?"
 msgid ""
 "Where can I see statistics about PyPI, downloads, and project/package usage?"
 msgstr ""
+"Var kan jag se statistik om PyPI, nedladdningar och användning av projekt "
+"och paket?"
 
 #: warehouse/templates/pages/help.html:113
 msgid "What are the file hashes used for, and how can I verify them?"
@@ -9962,12 +9977,16 @@ msgid ""
 "How do I get a total project size limit exemption or increase for my "
 "project?"
 msgstr ""
+"Hur får jag undantag från eller en höjning av den totala storleksgränsen för"
+" mitt projekt?"
 
 #: warehouse/templates/pages/help.html:141
 msgid ""
 "Where does PyPI get its data on project vulnerabilities from, and how can I "
 "correct it?"
 msgstr ""
+"Varifrån får PyPI uppgifter om säkerhetsbrister i projekt och hur kan jag "
+"rätta dem?"
 
 #: warehouse/templates/pages/help.html:144
 msgid "How can I restore a deleted project, release or file?"
@@ -9981,6 +10000,8 @@ msgstr "Varför får jag felet ”det gick inte att rendera beskrivningen”?"
 msgid ""
 "Why can't I manually upload files to PyPI, through the browser interface?"
 msgstr ""
+"Varför kan jag inte ladda upp filer manuellt till PyPI via "
+"webbläsargränssnittet?"
 
 #: warehouse/templates/pages/help.html:154
 msgid "I forgot my PyPI password. Can you help me?"
@@ -9995,12 +10016,16 @@ msgid ""
 "Why am I getting an \"Invalid or non-existent authentication information.\" "
 "error when uploading files?"
 msgstr ""
+"Varför får jag felet ”Ogiltiga eller obefintliga autentiseringsuppgifter.” "
+"när jag laddar upp filer?"
 
 #: warehouse/templates/pages/help.html:163
 msgid ""
 "Why am I getting \"No matching distribution found\" or \"Could not fetch "
 "URL\" errors during <code>pip install</code>?"
 msgstr ""
+"Varför får jag felen ”No matching distribution found” eller ”Could not fetch"
+" URL” under <code>pip install</code>?"
 
 #: warehouse/templates/pages/help.html:166
 msgid "I am having trouble using the PyPI website. Can you help me?"
@@ -10015,6 +10040,8 @@ msgid ""
 "Why am I getting a \"Filename or contents already exists\" or \"Filename has"
 " been previously used\" error?"
 msgstr ""
+"Varför får jag felet ”Filename or contents already exists” eller ”Filename "
+"has been previously used”?"
 
 #: warehouse/templates/pages/help.html:175
 msgid "How do I request a new trove classifier?"
@@ -10030,6 +10057,9 @@ msgid ""
 "authentication application (<abbr title=\"time-based one-time "
 "password\">TOTP</abbr>). Can you help me?"
 msgstr ""
+"Jag har problem med att ställa in tvåfaktorsautentisering med en "
+"autentiseringsapp (<abbr title=\"time-based one-time "
+"password\">TOTP</abbr>). Kan ni hjälpa mig?"
 
 #: warehouse/templates/pages/help.html:184
 msgid "My project or release says it's in quarantine. What does that mean?"
@@ -10064,6 +10094,8 @@ msgid ""
 "What does the \"beta feature\" badge mean? What are Warehouse's current beta"
 " features?"
 msgstr ""
+"Vad betyder märket ”betafunktion”? Vilka betafunktioner har Warehouse just "
+"nu?"
 
 #: warehouse/templates/pages/help.html:209
 msgid "How do I pronounce \"PyPI\"?"
@@ -10121,6 +10153,20 @@ msgid ""
 "(packages), like an archive containing source code or a binary <a "
 "href=\"%(wheel_href)s\">wheel</a>. </p>"
 msgstr ""
+"<p> Vi använder flera termer för att beskriva programvara som finns på PyPI,"
+" till exempel ”projekt”, ”utgåva”, ”fil” och ”paket”. Ibland kan termerna "
+"vara förvirrande eftersom de används för olika saker i andra sammanhang. Så "
+"här använder vi dem på PyPI: </p> <p> Ett ”projekt” på PyPI är namnet på en "
+"samling utgåvor och filer samt information om dem. Projekt på PyPI skapas "
+"och delas av andra medlemmar i Python-gemenskapen så att du kan använda dem."
+" </p> <p> En ”utgåva” på PyPI är en viss version av ett projekt. Projektet "
+"<a href=\"%(requests_href)s\">requests</a> har till exempel många utgåvor, "
+"som ”requests 2.10” och ”requests 1.2.1”. En utgåva består av en eller flera"
+" ”filer”. </p> <p> En ”fil”, som också kallas ett ”paket”, på PyPI är något "
+"som du kan hämta och installera. På grund av olika maskinvara, "
+"operativsystem och filformat kan en utgåva ha flera filer, det vill säga "
+"paket, som ett arkiv med källkod eller ett binärt <a "
+"href=\"%(wheel_href)s\">wheel-paket</a>. </p>"
 
 #: warehouse/templates/pages/help.html:447
 #, python-format
