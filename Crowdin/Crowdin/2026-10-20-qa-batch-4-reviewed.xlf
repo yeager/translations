@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+  <file original="Crowdin QA batch 4" source-language="en" target-language="sv">
+    <body>
+      <trans-unit id="6908060">
+        <source>&lt;identifier&gt;</source>
+        <target>&lt;identifier&gt;</target>
+      </trans-unit>
+      <trans-unit id="6921788">
+        <source>Translation is approved on "{step}" step. Would you like to notify a proofreader about your translation?</source>
+        <target>Översättningen är godkänd i steget ”{step}”. Vill du meddela en korrekturläsare om översättningen?</target>
+      </trans-unit>
+      <trans-unit id="7037077">
+        <source>You've recently changed the email address associated with your {{ Branding::getAppName() }} account to &lt;a href="mailto:{{ $new_email }}" style="{{ $styles['link'] }}"&gt;{{ $new_email }}&lt;/a&gt;.</source>
+        <target>Du har nyligen ändrat e-postadressen som är kopplad till ditt konto hos {{ Branding::getAppName() }} till &lt;a href="mailto:{{ $new_email }}" style="{{ $styles['link'] }}"&gt;{{ $new_email }}&lt;/a&gt;.</target>
+      </trans-unit>
+      <trans-unit id="7037087">
+        <source>You've recently changed your {{ Branding::getAppName() }} account username from &lt;b&gt;{{ $old_login }}&lt;/b&gt; to &lt;b&gt;{{ $new_login }}&lt;/b&gt;.</source>
+        <target>Du har nyligen ändrat användarnamnet för ditt konto hos {{ Branding::getAppName() }} från &lt;b&gt;{{ $old_login }}&lt;/b&gt; till &lt;b&gt;{{ $new_login }}&lt;/b&gt;.</target>
+      </trans-unit>
+      <trans-unit id="7037313">
+        <source>Please, make sure to change the settings until {{ $date }}.</source>
+        <target>Se till att ändra inställningarna före {{ $date }}.</target>
+      </trans-unit>
+      <trans-unit id="7037503">
+        <source>To complete the login, use the following verification code: {{ $code }}</source>
+        <target>Använd följande verifieringskod för att slutföra inloggningen: {{ $code }}</target>
+      </trans-unit>
+      <trans-unit id="7037627">
+        <source>To complete this process, please use the following verification code: {{ $code }}</source>
+        <target>Använd följande verifieringskod för att slutföra processen: {{ $code }}</target>
+      </trans-unit>
+      <trans-unit id="7037715">
+        <source>Please, make sure to change the settings until {{ $date }}.</source>
+        <target>Se till att ändra inställningarna före {{ $date }}.</target>
+      </trans-unit>
+      <trans-unit id="7038335">
+        <source>New issues have been created in the &lt;strong&gt;{{project.name|escape}}&lt;/strong&gt; project{% if organizationDomain is not null %} within the {{organizationDomain}} organization{% else %} on {{branding.name}}{% endif %}.</source>
+        <target>Nya ärenden har skapats i projektet &lt;strong&gt;{{project.name|escape}}&lt;/strong&gt;{% if organizationDomain is not null %} inom organisationen {{organizationDomain}}{% else %} på {{branding.name}}{% endif %}.</target>
+      </trans-unit>
+      <trans-unit id="7038359">
+        <source>{% if notification.context %}{{notification.context|escape|nl2br}}{% else %}&lt;span style="color: #999"&gt;No context provided&lt;/span&gt;{% endif %}
+                {% if notification.file %} </source>
+        <target>{% if notification.context %}{{notification.context|escape|nl2br}}{% else %}&lt;span style="color: #999"&gt;Inget sammanhang har angetts&lt;/span&gt;{% endif %}
+                {% if notification.file %} </target>
+      </trans-unit>
+      <trans-unit id="7038397">
+        <source>Several incorrect translations were reported as suggestions in the &lt;strong&gt;{{project.name|escape}}&lt;/strong&gt; project.</source>
+        <target>Flera felaktiga översättningar rapporterades som förslag i projektet &lt;strong&gt;{{project.name|escape}}&lt;/strong&gt;.</target>
+      </trans-unit>
+      <trans-unit id="7039961">
+        <source>{% if group.type == 0 or group.type == 1 %}
+                Language: {{notification.language}}
+                 </source>
+        <target>{% if group.type == 0 or group.type == 1 %}
+                Språk: {{notification.language}}
+                 </target>
+      </trans-unit>
+      <trans-unit id="7039971">
+        <source>{% if group.type == 0 or group.type == 1 %}Language/{% endif %}
+                String/Issue Description </source>
+        <target>{% if group.type == 0 or group.type == 1 %}Språk/{% endif %}
+                Sträng/beskrivning av ärende </target>
+      </trans-unit>
+      <trans-unit id="7039977">
+        <source>{% if group.type == 0 or group.type == 1 %}
+        Language: {{notification.language}}
+        &lt;br&gt;&lt;br&gt;
+        {% endif %}
+        &lt;u&gt;&lt;i style="font-size: 13px;"&gt;String&lt;/i&gt;&lt;/u&gt; </source>
+        <target>{% if group.type == 0 or group.type == 1 %}
+        Språk: {{notification.language}}
+        &lt;br&gt;&lt;br&gt;
+        {% endif %}
+        &lt;u&gt;&lt;i style="font-size: 13px;"&gt;Sträng&lt;/i&gt;&lt;/u&gt; </target>
+      </trans-unit>
+      <trans-unit id="7042477">
+        <source>&lt;a href="{{owner.absoluteUrl}}" style="{{profile_link_style}}"&gt;{{owner.fullName|escape}}&lt;/a&gt; assigned the &lt;strong&gt;#{{task.id}} {{task.title}}&lt;/strong&gt; task to you: </source>
+        <target>&lt;a href="{{owner.absoluteUrl}}" style="{{profile_link_style}}"&gt;{{owner.fullName|escape}}&lt;/a&gt; tilldelade uppgiften &lt;strong&gt;#{{task.id}} {{task.title}}&lt;/strong&gt; till dig: </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
