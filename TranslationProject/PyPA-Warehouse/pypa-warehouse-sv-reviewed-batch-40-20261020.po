@@ -1,0 +1,193 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: admin@pypi.org\n"
+"POT-Creation-Date: 2026-10-18 15:42+0200\n"
+"PO-Revision-Date: 2026-10-15 10:04+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#: warehouse/templates/manage/account/totp-provision.html:21
+#, python-format
+msgid ""
+"Visit <a href=\"%(href)s\">PyPI's help page</a> for a list of compatible "
+"applications."
+msgstr ""
+"En lista över kompatibla appar finns på <a href=\"%(href)s\">PyPI:s "
+"hjälpsida</a>."
+
+#: warehouse/templates/manage/account/totp-provision.html:29
+msgid ""
+"For security reasons, you can only associate one authentication application "
+"per PyPI account."
+msgstr ""
+"Av säkerhetsskäl kan du bara koppla en autentiseringsapp till varje PyPI-"
+"konto."
+
+#: warehouse/templates/manage/account/totp-provision.html:40
+msgid ""
+"<strong>No QR scanner?</strong> Enter this code in your TOTP application "
+"instead:"
+msgstr ""
+"<strong>Ingen QR-skanner?</strong> Ange i stället denna kod i TOTP-appen:"
+
+#: warehouse/templates/manage/account/totp-provision.html:74
+msgid ""
+"To finalize the set-up process, enter the 6-digit code provided by your TOTP"
+" application."
+msgstr ""
+"Slutför konfigureringen genom att ange den 6-siffriga kod som TOTP-appen "
+"visar."
+
+#: warehouse/templates/manage/account/webauthn-provision.html:10
+#, python-format
+msgid ""
+"PyPI supports any device that adheres to the <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">FIDO standard</a>."
+msgstr ""
+"PyPI har stöd för alla enheter som följer <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">FIDO-standarden</a>."
+
+#: warehouse/templates/manage/account/webauthn-provision.html:12
+#, python-format
+msgid ""
+"Popular <em>USB keys</em> include <a href=\"%(yubico_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">Yubikey</a>, <a "
+"href=\"%(titan_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">Google Titan</a> and <a href=\"%(thetis_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">Thetis</a>."
+msgstr ""
+"Vanliga <em>USB-nycklar</em> är <a href=\"%(yubico_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">Yubikey</a>, <a "
+"href=\"%(titan_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">Google Titan</a> och <a href=\"%(thetis_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">Thetis</a>."
+
+#: warehouse/templates/manage/account/webauthn-provision.html:47
+msgid ""
+"Please give this device a name. 64 characters or fewer. All Unicode is "
+"valid, including spaces."
+msgstr ""
+"Ge enheten ett namn med högst 64 tecken. Alla Unicode-tecken är giltiga, "
+"även blanksteg."
+
+#: warehouse/templates/manage/account/webauthn-provision.html:68
+#, python-format
+msgid ""
+"<strong>Not working?</strong> Check you're using a device that follows the "
+"<a href=\"%(fido_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">FIDO specification</a> and a <a href=\"%(mozilla_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">compatible "
+"browser</a>."
+msgstr ""
+"<strong>Fungerar det inte?</strong> Kontrollera att du använder en enhet som"
+" följer <a href=\"%(fido_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">FIDO-specifikationen</a> och en <a "
+"href=\"%(mozilla_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">kompatibel webbläsare</a>."
+
+#: warehouse/templates/manage/account/webauthn-provision.html:79
+msgid ""
+"Note that some older USB keys do not adhere to the FIDO standard and will "
+"not work with PyPI."
+msgstr ""
+"Observera att vissa äldre USB-nycklar inte följer FIDO-standarden och inte "
+"fungerar med PyPI."
+
+#: warehouse/templates/manage/organization/activate_subscription.html:12
+msgid ""
+"Company accounts require an active subscription. Please enter up-to-date "
+"billing information to enable the account."
+msgstr ""
+"Företagskonton kräver en aktiv prenumeration. Ange aktuella "
+"faktureringsuppgifter för att aktivera kontot."
+
+#: warehouse/templates/manage/organization/activate_subscription.html:28
+#, python-format
+msgid ""
+"I agree to the PyPI <a href=\"%(tos_url)s\">Terms of Service</a> on behalf "
+"of the %(organization_name)s organization."
+msgstr ""
+"Jag godkänner PyPI:s <a href=\"%(tos_url)s\">användarvillkor</a> på "
+"organisationen %(organization_name)s vägnar."
+
+#: warehouse/templates/manage/organization/history.html:11
+msgid ""
+"Each time you (or your collaborators) perform a security action related to "
+"this organization, the action is recorded and displayed here."
+msgstr ""
+"Varje gång du eller dina medarbetare utför en säkerhetsåtgärd som rör denna "
+"organisation registreras åtgärden och visas här."
+
+#: warehouse/templates/manage/organization/history.html:24
+#, python-format
+msgid ""
+"%(previous_organization_name)s organization renamed to %(organization_name)s"
+msgstr ""
+"Organisationen %(previous_organization_name)s har bytt namn till "
+"%(organization_name)s"
+
+#: warehouse/templates/manage/organization/history.html:39
+#, python-format
+msgid ""
+"<a href=\"%(href)s\">%(project_name)s</a> project removed from organization"
+msgstr ""
+"Projektet <a href=\"%(href)s\">%(project_name)s</a> har tagits bort från "
+"organisationen"
+
+#: warehouse/templates/manage/organization/history.html:45
+#, python-format
+msgid "<a href=\"%(href)s\">%(username)s</a> added as organization %(role_name)s"
+msgstr ""
+"<a href=\"%(href)s\">%(username)s</a> har lagts till som %(role_name)s i "
+"organisationen"
+
+#: warehouse/templates/manage/organization/history.html:51
+#, python-format
+msgid ""
+"<a href=\"%(href)s\">%(username)s</a> removed as organization %(role_name)s"
+msgstr ""
+"<a href=\"%(href)s\">%(username)s</a> har tagits bort som %(role_name)s i "
+"organisationen"
+
+#: warehouse/templates/manage/organization/history.html:59
+#, python-format
+msgid ""
+"<a href=\"%(href)s\">%(username)s</a> changed to organization %(role_name)s"
+msgstr ""
+"<a href=\"%(href)s\">%(username)s</a> har ändrats till %(role_name)s i "
+"organisationen"
+
+#: warehouse/templates/manage/organization/history.html:64
+#, python-format
+msgid ""
+"<a href=\"%(href)s\">%(username)s</a> invited to join as organization "
+"%(role_name)s"
+msgstr ""
+"<a href=\"%(href)s\">%(username)s</a> har bjudits in som %(role_name)s i "
+"organisationen"
+
+#: warehouse/templates/manage/organization/history.html:69
+#, python-format
+msgid ""
+"<a href=\"%(href)s\">%(username)s</a> declined invitation to join as "
+"organization %(role_name)s"
+msgstr ""
+"<a href=\"%(href)s\">%(username)s</a> har avböjt inbjudan som %(role_name)s "
+"i organisationen"
+
+#: warehouse/templates/manage/organization/history.html:74
+#, python-format
+msgid ""
+"Revoked invitation for <a href=\"%(href)s\">%(username)s</a> to join as "
+"organization %(role_name)s"
+msgstr ""
+"Återkallade inbjudan för <a href=\"%(href)s\">%(username)s</a> att ansluta "
+"som %(role_name)s i organisationen"
