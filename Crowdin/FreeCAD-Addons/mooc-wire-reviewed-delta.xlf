@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2"><file original="32160-MOOC.ts" source-language="fr" target-language="sv"><body><trans-unit id="93"><source>&lt;h3&gt;Modéliser le Fil&lt;/h3&gt;
+            &lt;p&gt;
+            Modéliser le fil électrique à l'aide de l'outil Balayage qui permet de
+            générer du volume selon un ou plusieurs profils et le long d'un chemin.&lt;br&gt;
+            Commencer par créer un nouveau corps de pièce nommé "Fil".&lt;br&gt;
+            Créer une nouvelle esquisse dans le plan XY.&lt;br&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+            Dessiner une courbe Spline qui définira le chemin :&lt;br&gt;
+            Cliquer sur l'outil Spline &lt;img src= %s width="25"/&gt; puis cliquer plusieurs point de passage.&lt;br&gt;
+            Terminer en faisant un clic droit pour voir la courbe de type Spline.
+            On va faire en sorte que l'extrémité de la spline passe par le milieu du capuchon
+            Pour faire ça on va contraindre le point d'extrémité à 10mm en x de l'origine comme ceci. Et à 0mm en Y de l'origine.
+            De plus pour que l'extrémité soit tangent à l'axe X on va contraindre le 2eme point de passage sur l'axe x comme ceci.
+            On valide l'esquisse en cliquant sur Ok.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Maintenant il faut dessiner le profil du fil, c'est à dire un cercle de 5mm de diamètre, mais ce cercle doit être sur un plan normal à la spline et passant par un des points d'extrémité de celle ci.
+            On va donc créer un plan de référence normal à la spline.
+            On sélectionne la spline puis on clique sur Plan de référence juste ici.
+            On va cliquer sur le bouton Référence 2 puis sur le point d'extrémité de la spline comme ceci.
+            On dit lire Sketch:Sommet1
+            Ensuite dans le mode d'accrochage on sélectionne Normal à l'arête.
+            On valide en cliquant sur Ok.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Maintenant on va créer une nouvelle esquisse sur le plan de référence créé.
+            On clique sur le plan puis sur l'icone de création d'une nouvelle esquisse comme ceci.
+            Dans l'esquisse on dessine un cercle dont le centre passe par l'origine, on remarque que l'origine de l'esquisse est le point d'extrémité de la spline.
+            On contraint le raton à 2.5 mm. on valide l'esquisse en cliquant sur Fermer.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Maintenant on va générer notre balayage.
+            On sélectionne le cercle précédemment créé puis on clique sur l'outil Balayage &lt;img src= %s width="25"/&gt;.
+            Dans l'onglet tâche on clique sur Ajouter une arête, juste ici, puis on clique sur la spline.
+            On laisse les autre paramètres inchangés.
+            On valide en cliquant sur Ok.
+
+            Et voilà on vient de créer un volume qui à une forme circulaire et suit un chemin spécifique.
+            &lt;/p&gt;</source><target>&lt;h3&gt;Modellera kabeln&lt;/h3&gt;
+            &lt;p&gt;
+            Modellera elkabeln med verktyget Svep, som kan
+            skapa en volym utifrån en eller flera profiler längs en bana.&lt;br&gt;
+            Börja med att skapa en ny kropp med namnet "Fil".&lt;br&gt;
+            Skapa en ny skiss på XY planet.&lt;br&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+            Rita en splinekurva som definierar banan:&lt;br&gt;
+            Klicka på verktyget Spline &lt;img src= %s width="25"/&gt; och sedan på flera punkter längs banan.&lt;br&gt;
+            Avsluta med att högerklicka för att skapa splinekurvan.
+            Splinekurvans ändpunkt ska gå genom kåpans mitt.
+            Placera därför ändpunkten 10 mm i X led från origo och 0 mm i Y led från origo.
+            För att ändpunkten ska bli tangent mot X axeln placerar du dessutom den andra punkten på X axeln.
+            Bekräfta skissen genom att klicka på OK.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Rita nu kabelns profil: en cirkel med diametern 5 mm. Cirkeln måste ligga på ett plan som är normalt mot splinekurvan och gå genom en av dess ändpunkter.
+            Skapa därför ett referensplan som är normalt mot splinekurvan.
+            Markera splinekurvan och klicka här på Referensplan.
+            Klicka på knappen Referens 2 och sedan på splinekurvans ändpunkt.
+            Det ska stå Sketch:Vertex1.
+            Välj sedan Normalt mot kanten som fästläge.
+            Bekräfta genom att klicka på OK.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Skapa nu en ny skiss på referensplanet.
+            Klicka på planet och sedan på ikonen för att skapa en ny skiss.
+            Rita en cirkel vars centrum ligger i origo. Skissens origo är splinekurvans ändpunkt.
+            Ange radien 2,5 mm och bekräfta skissen genom att klicka på Stäng.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Skapa nu svepet.
+            Markera den tidigare skapade cirkeln och klicka på verktyget Svep &lt;img src= %s width="25"/&gt;.
+            Klicka på Lägg till kant på fliken Uppgifter och sedan på splinekurvan.
+            Låt de övriga parametrarna vara oförändrade.
+            Bekräfta genom att klicka på OK.
+
+            Nu har du skapat en volym med cirkulär form som följer en bestämd bana.
+            &lt;/p&gt;</target></trans-unit></body></file></xliff>
