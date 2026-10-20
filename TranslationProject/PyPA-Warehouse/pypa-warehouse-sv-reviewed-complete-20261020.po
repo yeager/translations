@@ -9147,12 +9147,17 @@ msgid ""
 "Has permissions to upload releases for the project. Can upload releases. "
 "Cannot invite collaborators. Cannot delete files, releases, or the project."
 msgstr ""
+"Har behörighet att ladda upp utgåvor för projektet. Kan ladda upp utgåvor. "
+"Kan inte bjuda in medarbetare. Kan inte ta bort filer, utgåvor eller "
+"projektet."
 
 #: warehouse/templates/manage/project/roles.html:50
 msgid ""
 "Has permissions to administer the project. Can upload releases. Can invite "
 "other collaborators. Can delete files, releases, or the entire project."
 msgstr ""
+"Har behörighet att administrera projektet. Kan ladda upp utgåvor. Kan bjuda "
+"in andra medarbetare. Kan ta bort filer, utgåvor eller hela projektet."
 
 #: warehouse/templates/manage/project/roles.html:55
 #, python-format
@@ -9251,6 +9256,8 @@ msgid ""
 "<a href=\"%(href)s\">Verify your primary email address</a> to add an API "
 "token for %(project_name)s."
 msgstr ""
+"<a href=\"%(href)s\">Verifiera din primära e-postadress</a> för att lägga "
+"till en API-token för %(project_name)s."
 
 #: warehouse/templates/manage/project/settings.html:48
 msgid "Project description and sidebar"
@@ -9268,6 +9275,14 @@ msgid ""
 "rel=\"noopener\" target=\"_blank\">the Python Packaging User Guide</a> for "
 "more help."
 msgstr ""
+"Om du vill ange beskrivning, upphovsperson, länkar, klassificerare och andra"
+" uppgifter för nästa utgåva av %(project_name)s använder du <a "
+"href=\"%(pyproject_args_href)s\" rel=\"noopener\" "
+"target=\"_blank\">metadatafälten <code>project</code> i filen "
+"<code>pyproject.toml</code></a>. Om du uppdaterar dessa fält ändras inte "
+"metadata för tidigare utgåvor. Mer hjälp finns i <a "
+"href=\"%(distribution_href)s\" rel=\"noopener\" target=\"_blank\">Python "
+"Packaging User Guide</a>."
 
 #: warehouse/templates/manage/project/settings.html:76
 msgid "Remove project from organization"
@@ -9290,6 +9305,8 @@ msgid ""
 "Revoke project permissions for teams in the '%(organization_name)s' "
 "organization."
 msgstr ""
+"Återkalla projektbehörigheter för team i organisationen "
+"%(organization_name)s."
 
 #: warehouse/templates/manage/project/settings.html:89
 #: warehouse/templates/manage/project/settings.html:94
@@ -9297,12 +9314,14 @@ msgid ""
 "Individual owners and maintainers of the project will retain their project "
 "permissions."
 msgstr ""
+"Enskilda ägare och underhållare av projektet behåller sina "
+"projektbehörigheter."
 
 #: warehouse/templates/manage/project/settings.html:93
 #, python-format
 msgid ""
 "This will remove the project from the '%(organization_name)s' organization."
-msgstr ""
+msgstr "Detta tar bort projektet från organisationen %(organization_name)s."
 
 #: warehouse/templates/manage/project/settings.html:97
 msgid "Remove project"
@@ -9318,6 +9337,9 @@ msgid ""
 "project. You must add an individual owner to the project before you can "
 "remove the project from your organization."
 msgstr ""
+"Din organisation är just nu <strong>projektets enda ägare</strong>. Du måste"
+" lägga till en enskild ägare för projektet innan du kan ta bort projektet "
+"från organisationen."
 
 #: warehouse/templates/manage/project/settings.html:117
 msgid "Transfer project to another organization"
@@ -9340,6 +9362,7 @@ msgid ""
 "You will retain Owner permissions on the project through your organization "
 "role."
 msgstr ""
+"Du behåller ägarbehörigheter för projektet genom din organisationsroll."
 
 #: warehouse/templates/manage/project/settings.html:140
 msgid "Add the project to another organization that you own."
@@ -9358,6 +9381,8 @@ msgid ""
 "All other individual owners and maintainers of the project will retain their"
 " project permissions."
 msgstr ""
+"Alla övriga enskilda ägare och underhållare av projektet behåller sina "
+"projektbehörigheter."
 
 #: warehouse/templates/manage/project/settings.html:170
 msgid "Transfer project"
@@ -9376,6 +9401,8 @@ msgid ""
 "Organization owners can transfer the project to organizations that they own "
 "or manage."
 msgstr ""
+"Organisationsägare kan överföra projektet till organisationer som de äger "
+"eller hanterar."
 
 #: warehouse/templates/manage/project/settings.html:184
 msgid "You are not an owner or manager of any other organizations."
@@ -9386,6 +9413,8 @@ msgid ""
 "Project owners can transfer the project to organizations that they own or "
 "manage."
 msgstr ""
+"Projektägare kan överföra projektet till organisationer som de äger eller "
+"hanterar."
 
 #: warehouse/templates/manage/project/settings.html:187
 msgid "You are not an owner or manager of any organizations."
@@ -9409,6 +9438,14 @@ msgid ""
 "target=\"_blank\">configured to do so</a>, you can update the project's "
 "description by editing the README file."
 msgstr ""
+"När du arkiverar ett projekt förhindras nya uppladdningar och projektet tas "
+"bort från PyPI:s sökresultat. Innan du gör det rekommenderar vi att du "
+"publicerar en slutlig utgåva och uppdaterar projektbeskrivningen för att "
+"varna användarna om att projektet inte får fler uppdateringar samt nämna "
+"eventuella alternativa projekt som kan ersätta det. Om projektet är <a "
+"href=\"%(readme_description_href)s\" rel=\"noopener\" "
+"target=\"_blank\">konfigurerat för detta</a> kan du uppdatera "
+"projektbeskrivningen genom att redigera README-filen."
 
 #: warehouse/templates/manage/project/settings.html:208
 #: warehouse/templates/manage/project/settings.html:211
@@ -9420,12 +9457,16 @@ msgid ""
 "Unarchiving a project will allow new file uploads and add the project to the"
 " search index."
 msgstr ""
+"När du återaktiverar ett arkiverat projekt tillåts nya filuppladdningar och "
+"projektet läggs till i sökindexet."
 
 #: warehouse/templates/manage/project/settings.html:222
 msgid ""
 "Archiving a project will block any new file uploads and remove the project "
 "from the search index."
 msgstr ""
+"När du arkiverar ett projekt blockeras nya filuppladdningar och projektet "
+"tas bort från sökindexet."
 
 #: warehouse/templates/manage/project/settings.html:227
 #: warehouse/templates/manage/project/settings.html:259
