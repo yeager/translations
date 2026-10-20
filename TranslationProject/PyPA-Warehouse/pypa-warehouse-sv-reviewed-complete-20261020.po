@@ -10177,6 +10177,11 @@ msgid ""
 "href=\"%(user_guide_href)s\" title=\"%(title)s\" target=\"_blank\" "
 "rel=\"noopener\">Python Packaging User Guide</a>."
 msgstr ""
+"Läs <a href=\"%(installation_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">installationshandledningen</a> i <a "
+"href=\"%(user_guide_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">Python Packaging User Guide</a> om du vill veta hur du "
+"installerar en fil från PyPI."
 
 #: warehouse/templates/pages/help.html:459
 #, python-format
@@ -10187,6 +10192,12 @@ msgid ""
 "tutorial</a> on the <a href=\"%(user_guide_href)s\" title=\"%(title)s\" "
 "target=\"_blank\" rel=\"noopener\">Python Packaging User Guide</a>."
 msgstr ""
+"Fullständiga anvisningar om hur du konfigurerar, paketerar och distribuerar "
+"ditt Python-projekt finns i <a href=\"%(packaging_tutorial_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">paketeringshandledningen</a> i <a "
+"href=\"%(user_guide_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">Python Packaging User Guide</a>."
 
 #: warehouse/templates/pages/help.html:471
 #, python-format
@@ -10195,6 +10206,9 @@ msgid ""
 "href=\"%(href)s\">the classifiers page</a> for more information, as well as "
 "a list of valid classifiers."
 msgstr ""
+"Klassificerare används för att kategorisera projekt på PyPI. Mer information"
+" och en lista över giltiga klassificerare finns på <a "
+"href=\"%(href)s\">sidan med klassificerare</a>."
 
 #: warehouse/templates/pages/help.html:477
 #, python-format
@@ -10205,6 +10219,11 @@ msgid ""
 "title=\"%(title)s\">the user documentation</a> for more information, "
 "including how to yank a release."
 msgstr ""
+"En tillbakadragen utgåva ignoreras alltid av ett installationsprogram, om "
+"den inte är den enda utgåvan som matchar en versionsangivelse med "
+"<code>==</code> eller <code>===</code>. Mer information, inklusive hur du "
+"drar tillbaka en utgåva, finns i <a href=\"%(href)s\" "
+"title=\"%(title)s\">användardokumentationen</a>."
 
 #: warehouse/templates/pages/help.html:487
 #, python-format
@@ -10216,6 +10235,13 @@ msgid ""
 "or <a href=\"%(href)s\">yanked</a> releases. An archived project cannot make"
 " new releases and will not appear in PyPI's search results."
 msgstr ""
+"Ett arkiverat projekt är ett projekt som inte längre får några "
+"uppdateringar. En projektunderhållare kan markera ett projekt som arkiverat "
+"för att visa användarna att de inte ska förvänta sig framtida uppdateringar."
+" Arkiverade projekt är offentligt synliga och kan fortfarande hittas via "
+"indexet som standard, till skillnad från borttagna eller <a "
+"href=\"%(href)s\">tillbakadragna</a> utgåvor. Ett arkiverat projekt kan inte"
+" skapa nya utgåvor och visas inte i PyPI:s sökresultat."
 
 #: warehouse/templates/pages/help.html:498
 msgid ""
@@ -10226,6 +10252,12 @@ msgid ""
 "default, installers such as pip will not install pre-release versions unless"
 " explicitly requested."
 msgstr ""
+"En förhandsutgåva är en paketversion som ännu inte anses vara stabil för "
+"allmän användning. Förhandsutgåvor märks vanligen med suffix som "
+"<code>a</code> för alfa, <code>b</code> för beta eller <code>rc</code> för "
+"utgåvekandidat — till exempel <code>1.0a1</code> eller <code>2.3rc2</code>. "
+"Som standard installerar installationsprogram som pip inte förhandsutgåvor "
+"om det inte uttryckligen begärs."
 
 #: warehouse/templates/pages/help.html:507
 msgid "My account"
@@ -10236,6 +10268,7 @@ msgid ""
 "Currently, PyPI requires a verified email address to perform the following "
 "operations:"
 msgstr ""
+"PyPI kräver för närvarande en verifierad e-postadress för följande åtgärder:"
 
 #: warehouse/templates/pages/help.html:511
 msgid "Register a new project."
@@ -10250,6 +10283,8 @@ msgid ""
 "The list of activities that require a verified email address is likely to "
 "grow over time."
 msgstr ""
+"Listan över åtgärder som kräver en verifierad e-postadress kommer troligen "
+"att växa med tiden."
 
 #: warehouse/templates/pages/help.html:518
 #, python-format
@@ -10260,6 +10295,11 @@ msgid ""
 " It also reduces the viability of spam attacks to create many accounts in an"
 " automated fashion."
 msgstr ""
+"Den här policyn gör att vi kan upprätthålla en central princip i <a "
+"href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\"><abbr title=\"Python enhancement proposal\">PEP</abbr> "
+"541</a> om att underhållare ska kunna kontaktas. Den minskar också "
+"möjligheten att automatiserat skapa många konton vid spamattacker."
 
 #: warehouse/templates/pages/help.html:521
 #, python-format
@@ -10269,6 +10309,10 @@ msgid ""
 "confirmation email for users who signed up in the past, before we began "
 "enforcing this policy."
 msgstr ""
+"Du kan hantera kontots e-postadresser i <a "
+"href=\"%(href)s\">kontoinställningarna</a>. Där kan du också skicka ett nytt"
+" bekräftelsemeddelande till användare som registrerade sig innan vi började "
+"tillämpa den här policyn."
 
 #: warehouse/templates/pages/help.html:524
 #, python-format
@@ -10294,6 +10338,26 @@ msgid ""
 "password has been reset, and you cannot log in to PyPI until you <a "
 "href=\"%(reset_pwd_href)s\">reset your password</a>. </p>"
 msgstr ""
+"<p> PyPI har inte utsatts för något intrång. Detta är en skyddsåtgärd som "
+"minskar risken för <a href=\"%(credential_stuffing_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">angrepp med "
+"återanvända inloggningsuppgifter</a> mot PyPI och dess användare. </p> <p> "
+"Varje gång en användare anger ett lösenord — vid registrering, autentisering"
+" eller lösenordsändring — kontrollerar PyPI på ett säkert sätt om lösenordet"
+" har förekommit i offentliga dataintrång. </p> <p> Vid varje sådan process "
+"skapar PyPI en SHA-1-hash av det angivna lösenordet och använder hashens fem"
+" första tecken för att kontrollera <a href=\"%(haveibeenpwned_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">Have I Been Pwned "
+"API</a> och avgöra om lösenordet tidigare har röjts. Lösenordet i klartext "
+"lagras aldrig av PyPI eller skickas till Have I Been Pwned API. </p> <p> "
+"PyPI tillåter inte att sådana lösenord används när du väljer ett lösenord "
+"vid registrering eller ändrar lösenordet. </p> <p> Om du får ett "
+"felmeddelande om att ”Det här lösenordet förekommer i ett dataintrång eller "
+"har röjts och kan inte användas” bör du byta det överallt där du använder "
+"det så snart som möjligt. </p> <p> Om du fick det här felet när du försökte "
+"logga in eller ladda upp till PyPI har lösenordet återställts och du kan "
+"inte logga in på PyPI förrän du <a href=\"%(reset_pwd_href)s\">återställer "
+"lösenordet</a>. </p>"
 
 #: warehouse/templates/pages/help.html:564
 #, python-format
@@ -10304,6 +10368,11 @@ msgid ""
 " </li> <li> Contact the PyPI admins about the event at <a "
 "href=\"mailto:%(admin_email)s\">%(admin_email)s</a> </li> </ul>"
 msgstr ""
+"<p> Alla användarhändelser på PyPI lagras under säkerhetshistoriken i "
+"kontoinställningarna. Gör följande om någon händelse verkar misstänkt: </p> "
+"<ul> <li> <a href=\"%(reset_pwd_href)s\">Återställ lösenordet</a> </li> <li>"
+" Kontakta PyPI-administratörerna om händelsen på <a "
+"href=\"mailto:%(admin_email)s\">%(admin_email)s</a> </li> </ul>"
 
 #: warehouse/templates/pages/help.html:579
 msgid ""
@@ -10313,6 +10382,11 @@ msgid ""
 "href=\"#suspicious-activity\">suspicious activity</a> section applies too. "
 "</p>"
 msgstr ""
+"<p> En PyPI-API-token som är kopplad till kontot har publicerats på en "
+"offentlig webbplats. Den har återkallats automatiskt, men innan du skapar en"
+" ny bör du läsa e-postmeddelandet du fick och försöka fastställa orsaken. "
+"Avsnittet om <a href=\"#suspicious-activity\">misstänkt aktivitet</a> gäller"
+" också. </p>"
 
 #: warehouse/templates/pages/help.html:588
 msgid ""
@@ -10326,6 +10400,14 @@ msgid ""
 " </p> <p> During the web login process, users will be asked to provide their"
 " second method of identity verification. </p>"
 msgstr ""
+"<p> Tvåfaktorsautentisering gör kontot säkrare genom att du måste ha två "
+"saker för att logga in: <em>något du vet</em> och <em>något du äger</em>. "
+"</p> <p> För PyPI är ”något du vet” ditt användarnamn och lösenord, medan "
+"”något du äger” kan vara <a href=\"#totp\">en app som genererar en "
+"tillfällig kod</a> eller en <a href=\"#utfkey\">säkerhetsenhet</a>, oftast "
+"en USB-nyckel. </p> <p> Tvåfaktorsautentisering <strong>krävs</strong> för "
+"PyPI-kontot. </p> <p> När du loggar in på webben ombeds du ange din andra "
+"metod för identitetskontroll. </p>"
 
 #: warehouse/templates/pages/help.html:610
 #, python-format
@@ -10335,6 +10417,10 @@ msgid ""
 "target=\"_blank\" rel=\"noopener\"><abbr title=\"time-based one-time "
 "password\">TOTP</abbr> standard</a>."
 msgstr ""
+"PyPI-användare kan ställa in tvåfaktorsautentisering med valfri "
+"autentiseringsapp som stöder <a href=\"%(href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\"><abbr title=\"time-based one-time "
+"password\">TOTP</abbr>-standarden</a>."
 
 #: warehouse/templates/pages/help.html:613
 msgid ""
