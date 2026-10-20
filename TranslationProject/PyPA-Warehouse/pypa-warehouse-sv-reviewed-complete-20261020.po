@@ -10979,6 +10979,10 @@ msgid ""
 "title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">download usage "
 "statistics</a> via our public dataset on Google BigQuery."
 msgstr ""
+"Du kan analysera metadata för PyPI-projekt och paket samt <a "
+"href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">hämta användningsstatistik</a> via vår offentliga datamängd"
+" på Google BigQuery."
 
 #: warehouse/templates/pages/help.html:934
 #, python-format
@@ -10994,6 +10998,16 @@ msgid ""
 "title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">other relevant "
 "factors</a>."
 msgstr ""
+"<a href=\"%(libs_io_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">Libraries.io tillhandahåller statistik för PyPI-"
+"projekt</a>, bland annat om GitHub-stjärnor och förgreningar, "
+"beroendespårning (<a href=\"%(in_progress_href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">pågår</a>) och <a "
+"href=\"%(other_factors_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">andra relevanta faktorer</a>. Se även <a "
+"href=\"%(libs_io_example_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">exempel</a> och <a href=\"%(libs_io_api_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">API</a>."
 
 #: warehouse/templates/pages/help.html:959
 #, python-format
@@ -11001,6 +11015,9 @@ msgid ""
 "For recent statistics on uptime and performance, see <a href=\"%(href)s\" "
 "title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">our status page</a>."
 msgstr ""
+"Aktuell statistik om tillgänglighet och prestanda finns på <a "
+"href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">vår"
+" statussida</a>."
 
 #: warehouse/templates/pages/help.html:963
 msgid ""
@@ -11011,6 +11028,11 @@ msgid ""
 "from the project page in the \"Download Files\" section or from the JSON "
 "API. Here is an example of generating the hashes:"
 msgstr ""
+"För varje paket som finns på PyPI finns motsvarande kontrollsummor för "
+"filen. De kan användas för att verifiera att filen du hämtar är samma fil "
+"som projektunderhållaren laddade upp. Det är särskilt användbart när paket "
+"hämtas från en spegel. Kontrollsummorna finns på projektsidan under ”Hämta "
+"filer” eller i JSON-API:t. Så här skapar du kontrollsummorna:"
 
 #: warehouse/templates/pages/help.html:972
 msgid ""
@@ -11018,6 +11040,10 @@ msgid ""
 "not recommended to use the MD5 hash because of known security issues with "
 "the MD5 algorithm. This hash is provided for backwards compatibility only."
 msgstr ""
+"I praktiken räcker det att kontrollera en av kontrollsummorna. Vi "
+"rekommenderar inte att du använder MD5-kontrollsumman på grund av kända "
+"säkerhetsproblem med MD5-algoritmen. Den tillhandahålls bara för "
+"bakåtkompatibilitet."
 
 #: warehouse/templates/pages/help.html:979
 #, python-format
@@ -11026,6 +11052,9 @@ msgid ""
 "your private package to a package index, the recommended solution is to run "
 "your own deployment of the <a href=\"%(href)s\">devpi project</a>."
 msgstr ""
+"PyPI stöder inte publicering av privata paket. Om du behöver publicera ett "
+"privat paket till ett paketindex rekommenderar vi att du kör en egen "
+"installation av <a href=\"%(href)s\">projektet devpi</a>."
 
 #: warehouse/templates/pages/help.html:983
 msgid ""
@@ -11034,6 +11063,10 @@ msgid ""
 "of the same name on PyPI. Currently, there are four primary reasons this may"
 " occur:"
 msgstr ""
+"Publiceringsverktyget kan ge ett fel om att det nya projektet inte kan "
+"skapas med önskat namn, trots att det inte finns något projekt eller någon "
+"utgåva med samma namn på PyPI. Det kan för närvarande ha fyra huvudsakliga "
+"orsaker:"
 
 #: warehouse/templates/pages/help.html:987
 #, python-format
@@ -11042,12 +11075,16 @@ msgid ""
 "target=\"_blank\" rel=\"noopener\">Python Standard Library</a> module from "
 "any major version from 2.5 to present."
 msgstr ""
+"Projektnamnet står i konflikt med en modul i <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">Python Standard "
+"Library</a> från någon huvudversion från 2.5 till i dag."
 
 #: warehouse/templates/pages/help.html:989
 msgid ""
 "The project name is too similar to an existing project and may be "
 "confusable."
 msgstr ""
+"Projektnamnet är för likt ett befintligt projekt och kan förväxlas med det."
 
 #: warehouse/templates/pages/help.html:991
 #, python-format
@@ -11057,12 +11094,18 @@ msgid ""
 "<code>%(correct_code)s</code>, and should not surprise the user with a "
 "malicious package."
 msgstr ""
+"Projektnamnet har uttryckligen förbjudits av PyPI-administratörerna. Till "
+"exempel är <code>%(incorrect_code)s</code> en vanlig felskrivning av "
+"<code>%(correct_code)s</code> och ska inte leda användaren till ett skadligt"
+" paket."
 
 #: warehouse/templates/pages/help.html:994
 msgid ""
 "The project name has been registered by another user, but no releases have "
 "been created."
 msgstr ""
+"Projektnamnet har registrerats av en annan användare, men inga utgåvor har "
+"skapats."
 
 #: warehouse/templates/pages/help.html:994
 #, python-format
@@ -11076,12 +11119,17 @@ msgid ""
 "rel=\"noopener\">\"How to request a name transfer\"</a> section of <abbr "
 "title=\"Python enhancement proposal\">PEP</abbr> 541."
 msgstr ""
+"Följ avsnittet <a href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">”How to request a name transfer”</a> i <abbr title=\"Python"
+" enhancement proposal\">PEP</abbr> 541."
 
 #: warehouse/templates/pages/help.html:1004
 msgid ""
 "Can upload releases for a package. Cannot add collaborators. Cannot delete "
 "files, releases, or the project."
 msgstr ""
+"Kan ladda upp utgåvor för ett paket. Kan inte lägga till medarbetare. Kan "
+"inte ta bort filer, utgåvor eller projektet."
 
 #: warehouse/templates/pages/help.html:1007
 msgid "Owner:"
@@ -11092,6 +11140,8 @@ msgid ""
 "Can upload releases. Can add other collaborators. Can delete files, "
 "releases, or the entire project."
 msgstr ""
+"Kan ladda upp utgåvor. Kan lägga till andra medarbetare. Kan ta bort filer, "
+"utgåvor eller hela projektet."
 
 #: warehouse/templates/pages/help.html:1011
 msgid ""
@@ -11101,6 +11151,10 @@ msgid ""
 "contact details in the 'Author' field of the 'Meta' details on the project "
 "page."
 msgstr ""
+"Det är bara de nuvarande ägarna av ett projekt som kan lägga till nya ägare "
+"eller underhållare. Om du behöver begära ägarskap bör du kontakta projektets"
+" nuvarande ägare direkt. Många projektägare anger sina kontaktuppgifter i "
+"fältet ”Author” under ”Meta” på projektsidan."
 
 #: warehouse/templates/pages/help.html:1014
 #, python-format

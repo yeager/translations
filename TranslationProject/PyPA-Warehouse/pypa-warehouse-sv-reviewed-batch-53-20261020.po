@@ -1,0 +1,190 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: admin@pypi.org\n"
+"POT-Creation-Date: 2026-10-18 15:42+0200\n"
+"PO-Revision-Date: 2026-10-15 10:04+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#: warehouse/templates/pages/help.html:931
+#, python-format
+msgid ""
+"You can analyze PyPI project/package metadata and <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">download usage "
+"statistics</a> via our public dataset on Google BigQuery."
+msgstr ""
+"Du kan analysera metadata för PyPI-projekt och paket samt <a "
+"href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">hämta användningsstatistik</a> via vår offentliga datamängd"
+" på Google BigQuery."
+
+#: warehouse/templates/pages/help.html:934
+#, python-format
+msgid ""
+"<a href=\"%(libs_io_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">Libraries.io provides statistics for PyPI projects</a> (<a "
+"href=\"%(libs_io_example_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">example</a>, <a href=\"%(libs_io_api_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">API</a>) including "
+"GitHub stars and forks, dependency tracking (<a "
+"href=\"%(in_progress_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">in progress</a>), and <a href=\"%(other_factors_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">other relevant "
+"factors</a>."
+msgstr ""
+"<a href=\"%(libs_io_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">Libraries.io tillhandahåller statistik för PyPI-"
+"projekt</a>, bland annat om GitHub-stjärnor och förgreningar, "
+"beroendespårning (<a href=\"%(in_progress_href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">pågår</a>) och <a "
+"href=\"%(other_factors_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">andra relevanta faktorer</a>. Se även <a "
+"href=\"%(libs_io_example_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">exempel</a> och <a href=\"%(libs_io_api_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">API</a>."
+
+#: warehouse/templates/pages/help.html:959
+#, python-format
+msgid ""
+"For recent statistics on uptime and performance, see <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">our status page</a>."
+msgstr ""
+"Aktuell statistik om tillgänglighet och prestanda finns på <a "
+"href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">vår"
+" statussida</a>."
+
+#: warehouse/templates/pages/help.html:963
+msgid ""
+"For each package hosted on PyPI, there are corresponding hashes for that "
+"file. These hashes can be used to verify that the file you are downloading "
+"is the same one that the project maintainer uploaded. This is especially "
+"useful if downloading packages from a mirror. The hashes can be obtained "
+"from the project page in the \"Download Files\" section or from the JSON "
+"API. Here is an example of generating the hashes:"
+msgstr ""
+"För varje paket som finns på PyPI finns motsvarande kontrollsummor för "
+"filen. De kan användas för att verifiera att filen du hämtar är samma fil "
+"som projektunderhållaren laddade upp. Det är särskilt användbart när paket "
+"hämtas från en spegel. Kontrollsummorna finns på projektsidan under ”Hämta "
+"filer” eller i JSON-API:t. Så här skapar du kontrollsummorna:"
+
+#: warehouse/templates/pages/help.html:972
+msgid ""
+"In practice, it would only be necessary to verify one of the hashes. It is "
+"not recommended to use the MD5 hash because of known security issues with "
+"the MD5 algorithm. This hash is provided for backwards compatibility only."
+msgstr ""
+"I praktiken räcker det att kontrollera en av kontrollsummorna. Vi "
+"rekommenderar inte att du använder MD5-kontrollsumman på grund av kända "
+"säkerhetsproblem med MD5-algoritmen. Den tillhandahålls bara för "
+"bakåtkompatibilitet."
+
+#: warehouse/templates/pages/help.html:979
+#, python-format
+msgid ""
+"PyPI does not support publishing private packages. If you need to publish "
+"your private package to a package index, the recommended solution is to run "
+"your own deployment of the <a href=\"%(href)s\">devpi project</a>."
+msgstr ""
+"PyPI stöder inte publicering av privata paket. Om du behöver publicera ett "
+"privat paket till ett paketindex rekommenderar vi att du kör en egen "
+"installation av <a href=\"%(href)s\">projektet devpi</a>."
+
+#: warehouse/templates/pages/help.html:983
+msgid ""
+"Your publishing tool may return an error that your new project can't be "
+"created with your desired name, despite no evidence of a project or release "
+"of the same name on PyPI. Currently, there are four primary reasons this may"
+" occur:"
+msgstr ""
+"Publiceringsverktyget kan ge ett fel om att det nya projektet inte kan "
+"skapas med önskat namn, trots att det inte finns något projekt eller någon "
+"utgåva med samma namn på PyPI. Det kan för närvarande ha fyra huvudsakliga "
+"orsaker:"
+
+#: warehouse/templates/pages/help.html:987
+#, python-format
+msgid ""
+"The project name conflicts with a <a href=\"%(href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">Python Standard Library</a> module from "
+"any major version from 2.5 to present."
+msgstr ""
+"Projektnamnet står i konflikt med en modul i <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">Python Standard "
+"Library</a> från någon huvudversion från 2.5 till i dag."
+
+#: warehouse/templates/pages/help.html:989
+msgid ""
+"The project name is too similar to an existing project and may be "
+"confusable."
+msgstr ""
+"Projektnamnet är för likt ett befintligt projekt och kan förväxlas med det."
+
+#: warehouse/templates/pages/help.html:991
+#, python-format
+msgid ""
+"The project name has been explicitly prohibited by the PyPI administrators. "
+"For example, <code>%(incorrect_code)s</code> is a common typo for "
+"<code>%(correct_code)s</code>, and should not surprise the user with a "
+"malicious package."
+msgstr ""
+"Projektnamnet har uttryckligen förbjudits av PyPI-administratörerna. Till "
+"exempel är <code>%(incorrect_code)s</code> en vanlig felskrivning av "
+"<code>%(correct_code)s</code> och ska inte leda användaren till ett skadligt"
+" paket."
+
+#: warehouse/templates/pages/help.html:994
+msgid ""
+"The project name has been registered by another user, but no releases have "
+"been created."
+msgstr ""
+"Projektnamnet har registrerats av en annan användare, men inga utgåvor har "
+"skapats."
+
+#: warehouse/templates/pages/help.html:999
+#, python-format
+msgid ""
+"Follow the <a href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">\"How to request a name transfer\"</a> section of <abbr "
+"title=\"Python enhancement proposal\">PEP</abbr> 541."
+msgstr ""
+"Följ avsnittet <a href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">”How to request a name transfer”</a> i <abbr title=\"Python"
+" enhancement proposal\">PEP</abbr> 541."
+
+#: warehouse/templates/pages/help.html:1004
+msgid ""
+"Can upload releases for a package. Cannot add collaborators. Cannot delete "
+"files, releases, or the project."
+msgstr ""
+"Kan ladda upp utgåvor för ett paket. Kan inte lägga till medarbetare. Kan "
+"inte ta bort filer, utgåvor eller projektet."
+
+#: warehouse/templates/pages/help.html:1007
+msgid ""
+"Can upload releases. Can add other collaborators. Can delete files, "
+"releases, or the entire project."
+msgstr ""
+"Kan ladda upp utgåvor. Kan lägga till andra medarbetare. Kan ta bort filer, "
+"utgåvor eller hela projektet."
+
+#: warehouse/templates/pages/help.html:1011
+msgid ""
+"Only the current owners of a project have the ability to add new owners or "
+"maintainers. If you need to request ownership, you should contact the "
+"current owner(s) of the project directly. Many project owners provide their "
+"contact details in the 'Author' field of the 'Meta' details on the project "
+"page."
+msgstr ""
+"Det är bara de nuvarande ägarna av ett projekt som kan lägga till nya ägare "
+"eller underhållare. Om du behöver begära ägarskap bör du kontakta projektets"
+" nuvarande ägare direkt. Många projektägare anger sina kontaktuppgifter i "
+"fältet ”Author” under ”Meta” på projektsidan."
