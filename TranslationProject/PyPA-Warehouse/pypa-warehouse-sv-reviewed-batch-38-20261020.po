@@ -1,0 +1,163 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: admin@pypi.org\n"
+"POT-Creation-Date: 2026-10-18 15:42+0200\n"
+"PO-Revision-Date: 2026-10-15 10:04+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#: warehouse/templates/manage/account/publishing.html:380
+msgid "Manage publishers"
+msgstr "Hantera utgivare"
+
+#: warehouse/templates/manage/account/publishing.html:404
+msgid ""
+"No publishers are currently configured. Publishers for existing projects can"
+" be added in the publishing configuration for each individual project."
+msgstr ""
+"Inga utgivare har konfigurerats ännu. Utgivare för befintliga projekt kan "
+"läggas till i publiceringskonfigurationen för varje enskilt projekt."
+
+#: warehouse/templates/manage/account/publishing.html:414
+#: warehouse/templates/manage/organization/publishing.html:414
+msgid "Pending project name"
+msgstr "Väntande projektnamn"
+
+#: warehouse/templates/manage/account/publishing.html:426
+#: warehouse/templates/manage/organization/publishing.html:426
+msgid ""
+"No pending publishers are currently configured. Publishers for projects that"
+" don't exist yet can be added below."
+msgstr ""
+"Inga väntande utgivare har konfigurerats ännu. Utgivare för projekt som ännu"
+" inte finns kan läggas till nedan."
+
+#: warehouse/templates/manage/account/publishing.html:433
+#: warehouse/templates/manage/organization/publishing.html:431
+msgid "Add a new pending publisher"
+msgstr "Lägg till en ny väntande utgivare"
+
+#: warehouse/templates/manage/account/publishing.html:435
+#: warehouse/templates/manage/organization/publishing.html:432
+msgid "You can use this page to register \"pending\" trusted publishers."
+msgstr ""
+"Du kan använda denna sida för att registrera ”väntande” betrodda utgivare."
+
+#: warehouse/templates/manage/account/publishing.html:440
+#: warehouse/templates/manage/organization/publishing.html:434
+#, python-format
+msgid ""
+"These publishers behave similarly to trusted publishers registered against "
+"specific projects, except that they allow users to <strong>create</strong> "
+"the project if it doesn't already exist. Once the project is created, the "
+"\"pending\" publisher becomes an ordinary trusted publisher. You can read "
+"more about \"pending\" and ordinary trusted publishers <a "
+"href=\"%(href)s\">here</a>."
+msgstr ""
+"Dessa utgivare fungerar på samma sätt som betrodda utgivare som registrerats"
+" för specifika projekt men de låter användare <strong>skapa</strong> "
+"projektet om det inte redan finns. När projektet har skapats blir den "
+"”väntande” utgivaren en vanlig betrodd utgivare. Läs mer om ”väntande” och "
+"vanliga betrodda utgivare <a href=\"%(href)s\">här</a>."
+
+#: warehouse/templates/manage/account/publishing.html:450
+#: warehouse/templates/manage/organization/publishing.html:444
+msgid ""
+"Configuring a \"pending\" publisher for a project name does "
+"<strong>not</strong> reserve that name. Until the project is created, any "
+"other user may create it, including via their own \"pending\" publisher."
+msgstr ""
+"Att konfigurera en ”väntande” utgivare för ett projektnamn reserverar "
+"<strong>inte</strong> namnet. Innan projektet har skapats kan vilken annan "
+"användare som helst skapa det, även genom sin egen ”väntande” utgivare."
+
+#: warehouse/templates/manage/account/publishing.html:485
+#: warehouse/templates/manage/project/publishing.html:407
+#, python-format
+msgid ""
+"You must first enable <a href=\"%(href)s\">two-factor authentication</a> on "
+"your account before adding a new publisher."
+msgstr ""
+"Du måste först aktivera <a href=\"%(href)s\">tvåfaktorsautentisering</a> på "
+"ditt konto innan du lägger till en ny utgivare."
+
+#: warehouse/templates/manage/account/recovery_codes-burn.html:16
+msgid ""
+"In order to verify that you have safely stored your recovery codes for use "
+"in the event of a lost 2FA device, submit one of your recovery codes here."
+msgstr ""
+"För att verifiera att du har sparat återställningskoderna säkert kan du ange"
+" en av dem här. Koden används om du förlorar din 2FA-enhet."
+
+#: warehouse/templates/manage/account/recovery_codes-burn.html:21
+msgid ""
+"The recovery code you choose will be considered used and no longer be "
+"available to bypass 2FA."
+msgstr ""
+"Återställningskoden du väljer räknas som använd och kan inte längre användas"
+" för att kringgå 2FA."
+
+#: warehouse/templates/manage/account/recovery_codes-burn.html:26
+msgid ""
+"<strong>Forgot to safely store your recovery codes?</strong> You'll need to "
+"generate them again."
+msgstr ""
+"<strong>Glömde du att spara återställningskoderna säkert?</strong> Du måste "
+"skapa dem igen."
+
+#: warehouse/templates/manage/account/recovery_codes-provision.html:4
+msgid "Account recovery codes"
+msgstr "Återställningskoder för kontot"
+
+#: warehouse/templates/manage/account/recovery_codes-provision.html:20
+msgid "Regenerate recovery codes"
+msgstr "Skapa nya återställningskoder"
+
+#: warehouse/templates/manage/account/recovery_codes-provision.html:28
+msgid ""
+"If you lose access to your authentication application or security key(s), "
+"you’ll need to use one of these recovery codes to log into your PyPI "
+"account. Each code can only be used <strong>once</strong>."
+msgstr ""
+"Om du förlorar åtkomsten till autentiseringsappen eller säkerhetsnycklarna "
+"måste du använda en av dessa återställningskoder för att logga in på ditt "
+"PyPI-konto. Varje kod kan bara användas <strong>en gång</strong>."
+
+#: warehouse/templates/manage/account/recovery_codes-provision.html:31
+msgid ""
+"These codes should <strong>only</strong> be used for account recovery, not "
+"for typical logins."
+msgstr ""
+"Dessa koder ska <strong>bara</strong> användas för kontoåterställning, inte "
+"för vanliga inloggningar."
+
+#: warehouse/templates/manage/account/recovery_codes-provision.html:34
+msgid ""
+"<strong>Keep these somewhere safe</strong>. If you lose your authentication "
+"application or security key(s) and do not have access to these recovery "
+"codes, you may permanently lose access to your PyPI account!"
+msgstr ""
+"<strong>Förvara dem på en säker plats</strong>. Om du förlorar "
+"autentiseringsappen eller säkerhetsnycklarna och inte har tillgång till "
+"återställningskoderna kan du förlora åtkomsten till ditt PyPI-konto "
+"permanent!"
+
+#: warehouse/templates/manage/account/recovery_codes-provision.html:38
+msgid "Save your recovery codes"
+msgstr "Spara återställningskoderna"
+
+#: warehouse/templates/manage/account/recovery_codes-provision.html:60
+msgid "Download as file"
+msgstr "Hämta som fil"
+
+#: warehouse/templates/manage/account/recovery_codes-provision.html:67
+msgid "These codes will not be visible again."
+msgstr "Dessa koder visas inte igen."
