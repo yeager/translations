@@ -10428,6 +10428,9 @@ msgid ""
 "applications generate a regularly changing authentication code to use when "
 "logging into your account."
 msgstr ""
+"Autentiseringsappar med <abbr title=\"time-based one-time "
+"password\">TOTP</abbr> skapar en autentiseringskod som ändras regelbundet "
+"och används när du loggar in på kontot."
 
 #: warehouse/templates/pages/help.html:616
 msgid ""
@@ -10435,6 +10438,9 @@ msgid ""
 "standard, there are many applications that are compatible with your PyPI "
 "account. Popular applications include:"
 msgstr ""
+"Eftersom <abbr title=\"time-based one-time password\">TOTP</abbr> är en "
+"öppen standard finns det många appar som fungerar med ditt PyPI-konto. Några"
+" populära appar är:"
 
 #: warehouse/templates/pages/help.html:620
 #, python-format
@@ -10443,6 +10449,10 @@ msgid ""
 "target=\"_blank\" rel=\"noopener\">Android</a> or <a href=\"%(ios_href)s\" "
 "title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">iOS</a>"
 msgstr ""
+"Google Authenticator för <a href=\"%(android_href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">Android</a> eller <a "
+"href=\"%(ios_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">iOS</a>"
 
 #: warehouse/templates/pages/help.html:629
 #: warehouse/templates/pages/help.html:635
@@ -10458,6 +10468,10 @@ msgid ""
 "target=\"_blank\" rel=\"noopener\">Android</a> or <a href=\"%(ios_href)s\" "
 "title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">iOS</a>"
 msgstr ""
+"Duo Mobile för <a href=\"%(android_href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">Android</a> eller <a "
+"href=\"%(ios_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">iOS</a>"
 
 #: warehouse/templates/pages/help.html:659
 #: warehouse/templates/pages/help.html:665
@@ -10472,18 +10486,26 @@ msgid ""
 "authentication codes. For security reasons, PyPI only allows you to set up "
 "one application per account."
 msgstr ""
+"Vissa lösenordshanterare, till exempel <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">1Password</a>, kan "
+"också skapa autentiseringskoder. Av säkerhetsskäl tillåter PyPI bara att du "
+"ställer in en app per konto."
 
 #: warehouse/templates/pages/help.html:677
 msgid ""
 "To set up <abbr title=\"two factor authentication\">2FA</abbr> with an "
 "authentication application:"
 msgstr ""
+"Så ställer du in <abbr title=\"two factor authentication\">2FA</abbr> med en"
+" autentiseringsapp:"
 
 #: warehouse/templates/pages/help.html:681
 msgid ""
 "Open an authentication (<abbr title=\"time-based one-time "
 "password\">TOTP</abbr>) application"
 msgstr ""
+"Öppna en autentiseringsapp med <abbr title=\"time-based one-time "
+"password\">TOTP</abbr>"
 
 #: warehouse/templates/pages/help.html:684
 msgid ""
@@ -10491,12 +10513,16 @@ msgid ""
 "<abbr title=\"two factor authentication\">2FA</abbr> with authentication "
 "application\""
 msgstr ""
+"Logga in på PyPI-kontot, öppna kontoinställningarna och välj ”Lägg till "
+"<abbr title=\"two factor authentication\">2FA</abbr> med autentiseringsapp”"
 
 #: warehouse/templates/pages/help.html:687
 msgid ""
 "PyPI will generate a secret key, specific to your account. This is displayed"
 " as a QR code, and as a text code."
 msgstr ""
+"PyPI skapar en hemlig nyckel för just ditt konto. Den visas både som en QR-"
+"kod och som en textkod."
 
 #: warehouse/templates/pages/help.html:690
 msgid ""
@@ -10504,12 +10530,16 @@ msgid ""
 "manually. The method of input will depend on the application you have "
 "chosen."
 msgstr ""
+"Läs in QR-koden med autentiseringsappen eller skriv in den manuellt. Hur du "
+"matar in den beror på vilken app du har valt."
 
 #: warehouse/templates/pages/help.html:693
 msgid ""
 "Your application will generate an authentication code - use this to verify "
 "your set-up on PyPI"
 msgstr ""
+"Appen skapar en autentiseringskod som du använder för att bekräfta "
+"inställningen på PyPI"
 
 #: warehouse/templates/pages/help.html:697
 msgid ""
@@ -10517,6 +10547,8 @@ msgid ""
 "allowing your application to generate valid authentication codes for your "
 "PyPI account."
 msgstr ""
+"PyPI-servern och appen delar nu din hemliga PyPI-nyckel, vilket gör att "
+"appen kan skapa giltiga autentiseringskoder för PyPI-kontot."
 
 #: warehouse/templates/pages/help.html:700
 #: warehouse/templates/pages/help.html:763
@@ -10543,11 +10575,17 @@ msgid ""
 "that generates a one-time password and sends that password to the browser. "
 "This password is then used by PyPI to authenticate you as a user."
 msgstr ""
+"En säkerhetsenhet är en USB-nyckel eller <a href=\"#utfdevices\">annan "
+"enhet</a> som skapar ett engångslösenord och skickar lösenordet till "
+"webbläsaren. PyPI använder sedan lösenordet för att autentisera dig som "
+"användare."
 
 #: warehouse/templates/pages/help.html:713
 msgid ""
 "To set up two-factor authentication with a <em>USB key</em>, you'll need:"
 msgstr ""
+"För att ställa in tvåfaktorsautentisering med en <em>USB-nyckel</em> behöver"
+" du:"
 
 #: warehouse/templates/pages/help.html:717
 #, python-format
@@ -10557,6 +10595,10 @@ msgid ""
 "authentication\">WebAuthn</abbr> and PublicKeyCredential</a>, as this is the"
 " standard implemented by PyPI."
 msgstr ""
+"En <a href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">webbläsare som stöder <abbr title=\"web "
+"authentication\">WebAuthn</abbr> och PublicKeyCredential</a>, eftersom det "
+"är standarden som används av PyPI."
 
 #: warehouse/templates/pages/help.html:719
 msgid "To be running JavaScript on your browser"
