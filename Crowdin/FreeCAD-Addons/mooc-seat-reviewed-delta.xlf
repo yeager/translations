@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2"><file original="32160-MOOC.ts" source-language="fr" target-language="sv"><body><trans-unit id="8"><source>&lt;h3&gt;Modélisation de l'Assise&lt;/h3&gt;
+            &lt;p&gt;
+            Plan et vue 3d de la pièce à modéliser :&lt;br&gt;
+            &lt;img src= %s width="360"/&gt;&lt;br&gt;
+            &lt;img src= %s width="360"/&gt;&lt;br&gt;
+            Voir la vidéo pour une meilleure résolution d'image.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Dans un nouveau document &lt;img src= %s width="25"&gt;, créer un nouveau corps de pièce.&lt;img src= %s width="25"&gt;&lt;br&gt;
+            Créer une nouvelle esquisse &lt;img src= %s width="25"&gt; dans le plan XY.&lt;br&gt;
+            Dessiner un carré avec l'outil rectangle.&lt;img src= %s width="25"&gt;&lt;br&gt;
+            Ensuite, créer des arrondis à chaque angle.&lt;img src= %s width="25"&gt;&lt;br&gt;
+            Sélectionner les 4 arc de cercle et appliquer une contrainte
+            d’égalité pour qu'ils aient tous le même rayon. &lt;img src= %s width="25"&gt;&lt;br&gt;
+            Ensuite, sélectionner 2 segment, un horizontal et un verticale et
+            appliquer une contrainte d'égalité car l'assise est carré.&lt;img src= %s width="25"&gt;&lt;br&gt;
+            Il reste à fixé le centre du carré par rapport à l'origine de l'esquisse,
+            on peut faire ça avec la contrainte de symétrie qui permet de fixé un
+            point au milieu de 2 autres. Sélectionner 2 centres d'arc de cercles
+            opposé en diagonal puis l'origine de l'esquisse et enfin cliquer sur
+            l'outil contrainte de symétrie.&lt;img src= %s width="25"&gt;&lt;br&gt;
+            Pour finir définir la longueur du carré et le rayon des arcs de cercle :&lt;br&gt;
+            Avec l'outil contrainte de dimension horizontale &lt;img src= %s width="25"&gt; définir la
+            distance entre ces 2 point à 368 mm. Et avec l'outil contrainte de rayon &lt;img src= %s width="25"&gt;,
+            définir le rayon d'un des arc de cercle à 30 mm.&lt;br&gt;
+            Mon esquisse est entièrement contrainte je peux donc la valider en
+            cliquant sur Fermer.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Créer du volume avec l'outil protrusion.&lt;img src= %s width="25"&gt;&lt;br&gt;
+            La protrusion mesure 16 mm de longueur.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Maintenant il faut enlever de la matière pour faire la croix au milieu de l'assise,
+            là où les pieds viendront s'insérer :&lt;br&gt;
+            Créer une nouvelle esquisse &lt;img src= %s width="25"&gt; sur le plan XY, vu qu'on est dans la
+            matière on ne voit pas notre esquisse alors on bascule en vue section
+            avec le bouton &lt;img src= %s width="25"&gt;.&lt;br&gt;
+            Dessiner un rectangle &lt;img src= %s width="25"&gt; qui mesure 75 mm par
+            29 mm et dont un des segments est centré par rapport à l'origine.&lt;br&gt;
+            Mon esquisse est entièrement contrainte je peux donc la valider en
+            cliquant sur Fermer.&lt;br&gt;
+            Réaliser une cavité &lt;img src= %s width="25"&gt; de type à travers tous, et inversé.&lt;br&gt;
+            Maintenant on va répéter cette cavité pour faire la croix.&lt;br&gt;
+            Cliquer sur répétition circulaire &lt;img src= %s width="25" alt="PartDesign_PolarPattern.svg"&gt; puis définir 4 occurrences et valider.&lt;br&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+            L' Assise est terminée, sauvegarder le document sous le nom &lt;b&gt;Assise&lt;/b&gt;.
+            &lt;/p&gt;</source><target>&lt;h3&gt;Modellera sitsen&lt;/h3&gt;
+            &lt;p&gt;
+            Planritning och 3D vy av delen som ska modelleras:&lt;br&gt;
+            &lt;img src= %s width="360"/&gt;&lt;br&gt;
+            &lt;img src= %s width="360"/&gt;&lt;br&gt;
+            Se videon för bilder med högre upplösning.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Skapa en ny kropp i ett nytt dokument &lt;img src= %s width="25"&gt;.&lt;img src= %s width="25"&gt;&lt;br&gt;
+            Skapa en ny skiss &lt;img src= %s width="25"&gt; på XY planet.&lt;br&gt;
+            Rita en kvadrat med verktyget Rektangel.&lt;img src= %s width="25"&gt;&lt;br&gt;
+            Skapa sedan avrundningar i varje hörn.&lt;img src= %s width="25"&gt;&lt;br&gt;
+            Markera de fyra cirkelbågarna och lägg till en
+            likhetsbegränsning så att de får samma radie. &lt;img src= %s width="25"&gt;&lt;br&gt;
+            Markera sedan två segment, ett horisontellt och ett vertikalt, och
+            lägg till en likhetsbegränsning eftersom sitsen är kvadratisk.&lt;img src= %s width="25"&gt;&lt;br&gt;
+            Nu ska kvadratens centrum låsas i förhållande till skissens origo.
+            Använd symmetribegränsningen för att låsa en
+            punkt mitt emellan två andra. Markera två motstående cirkelbågscentrum
+            diagonalt, sedan skissens origo och klicka till sist på
+            symmetribegränsningen.&lt;img src= %s width="25"&gt;&lt;br&gt;
+            Ange till sist kvadratens sidlängd och cirkelbågarnas radie:&lt;br&gt;
+            Använd den horisontella dimensionsbegränsningen &lt;img src= %s width="25"&gt; för att ange
+            avståndet mellan de två punkterna till 368 mm. Använd radiebegränsningen &lt;img src= %s width="25"&gt; för att
+            ange en av cirkelbågarnas radie till 30 mm.&lt;br&gt;
+            Skissen är nu helt begränsad och kan bekräftas genom att
+            klicka på Stäng.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Skapa en volym med verktyget Utskjutning.&lt;img src= %s width="25"&gt;&lt;br&gt;
+            Utskjutningen ska vara 16 mm lång.
+            &lt;/p&gt;
+            &lt;p&gt;
+            Ta nu bort material för att göra korset mitt på sitsen,
+            där benen ska sättas in:&lt;br&gt;
+            Skapa en ny skiss &lt;img src= %s width="25"&gt; på XY planet. Eftersom skissen ligger inne i
+            materialet syns den inte. Växla därför till sektionsvy
+            med knappen &lt;img src= %s width="25"&gt;.&lt;br&gt;
+            Rita en rektangel &lt;img src= %s width="25"&gt; som är 75 mm gånger
+            29 mm och har ett segment centrerat i förhållande till origo.&lt;br&gt;
+            Skissen är nu helt begränsad och kan bekräftas genom att
+            klicka på Stäng.&lt;br&gt;
+            Skapa en ficka &lt;img src= %s width="25"&gt; med inställningarna Genom alla och Omvänd.&lt;br&gt;
+            Upprepa nu fickan så att ett kors bildas.&lt;br&gt;
+            Klicka på cirkulär upprepning &lt;img src= %s width="25" alt="PartDesign_PolarPattern.svg"&gt; och ange fyra förekomster. Bekräfta sedan.&lt;br&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+            Sitsen är klar. Spara dokumentet med namnet &lt;b&gt;Assise&lt;/b&gt;.
+            &lt;/p&gt;</target></trans-unit></body></file></xliff>
