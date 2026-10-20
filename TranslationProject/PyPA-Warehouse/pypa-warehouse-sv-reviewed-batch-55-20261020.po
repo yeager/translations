@@ -1,0 +1,260 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: admin@pypi.org\n"
+"POT-Creation-Date: 2026-10-18 15:42+0200\n"
+"PO-Revision-Date: 2026-10-15 10:04+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#: warehouse/templates/pages/help.html:1128
+msgid ""
+"Lost two-factor authentication <a href=\"#totp\">application</a>, <a "
+"href=\"#utfkey\">device</a>, and <a href=\"#recoverycodes\">recovery "
+"codes</a>"
+msgstr ""
+"Har förlorat <a href=\"#totp\">appen</a> och <a href=\"#utfkey\">enheten</a>"
+" för tvåfaktorsautentisering samt <a "
+"href=\"#recoverycodes\">återställningskoderna</a>"
+
+#: warehouse/templates/pages/help.html:1132
+#, python-format
+msgid ""
+"You can proceed to <a href=\"%(href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">file an issue on our tracker</a> to "
+"request assistance with account recovery."
+msgstr ""
+"Du kan fortsätta till <a href=\"%(href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">ärendehanteraren</a> för att begära hjälp"
+" med kontoåterställning."
+
+#: warehouse/templates/pages/help.html:1141
+msgid ""
+"Ensure that your API Token is <a href=\"#apitoken\">properly formatted</a> "
+"and does not contain any trailing characters such as newlines."
+msgstr ""
+"Kontrollera att API-token är <a href=\"#apitoken\">korrekt formaterad</a> "
+"och inte innehåller avslutande tecken som radbrytningar."
+
+#: warehouse/templates/pages/help.html:1148
+msgid ""
+"Remember that PyPI and TestPyPI each require you to create an account, so "
+"your credentials may be different."
+msgstr ""
+"Kom ihåg att PyPI och TestPyPI båda kräver att du skapar ett konto, så "
+"inloggningsuppgifterna kan skilja sig åt."
+
+#: warehouse/templates/pages/help.html:1151
+#, python-format
+msgid ""
+"If you're using Windows and trying to paste your token in the Command Prompt"
+" or PowerShell, note that Ctrl-V and Shift+Insert won't work. Instead, you "
+"can use \"Edit > Paste\" from the window menu, or enable \"Use "
+"Ctrl+Shift+C/V as Copy/Paste\" in \"Properties\". This is a <a "
+"href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">known issue</a> with Python's <code>getpass</code> module."
+msgstr ""
+"Om du använder Windows och försöker klistra in token i Kommandotolken eller "
+"PowerShell fungerar inte Ctrl-V och Skift+Insert. Använd i stället ”Redigera"
+" > Klistra in” i fönstermenyn eller aktivera ”Use Ctrl+Shift+C/V as "
+"Copy/Paste” under ”Egenskaper”. Detta är ett <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">känt problem</a> med "
+"Pythons modul <code>getpass</code>."
+
+#: warehouse/templates/pages/help.html:1159
+#, python-format
+msgid ""
+"Transport Layer Security, or TLS, is part of how we make sure connections "
+"between your computer and PyPI are private and secure. It's a cryptographic "
+"protocol that's had several versions over time. PyPI <a "
+"href=\"%(announcement_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">turned off support for TLS versions 1.0 and 1.1</a> in "
+"April 2018. <a href=\"%(reason_href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">Learn why on the PSF blog</a>."
+msgstr ""
+"Transport Layer Security, TLS, är en del av hur vi ser till att anslutningar"
+" mellan din dator och PyPI är privata och säkra. Det är ett kryptografiskt "
+"protokoll som har haft flera versioner över tid. PyPI <a "
+"href=\"%(announcement_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">slutade stödja TLS version 1.0 och 1.1</a> i april 2018. <a"
+" href=\"%(reason_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">Läs varför i PSF:s blogg</a>."
+
+#: warehouse/templates/pages/help.html:1173
+#, python-format
+msgid ""
+"If you are having trouble with <code>%(command)s</code> and get a <code>No "
+"matching distribution found</code> or <code>Could not fetch URL</code> "
+"error, try adding <code>-v</code> to the command to get more information:"
+msgstr ""
+"Om du har problem med <code>%(command)s</code> och får felet <code>No "
+"matching distribution found</code> eller <code>Could not fetch URL</code> "
+"kan du lägga till <code>-v</code> i kommandot för att få mer information:"
+
+#: warehouse/templates/pages/help.html:1179
+msgid ""
+"If you see an error like <code>There was a problem confirming the ssl "
+"certificate</code> or <code>tlsv1 alert protocol version</code> or "
+"<code>TLSV1_ALERT_PROTOCOL_VERSION</code>, you need to be connecting to PyPI"
+" with a newer TLS support library."
+msgstr ""
+"Om du ser ett fel som <code>There was a problem confirming the ssl "
+"certificate</code>, <code>tlsv1 alert protocol version</code> eller "
+"<code>TLSV1_ALERT_PROTOCOL_VERSION</code> måste du ansluta till PyPI med ett"
+" nyare bibliotek för TLS-stöd."
+
+#: warehouse/templates/pages/help.html:1182
+msgid ""
+"The specific steps you need to take will depend on your operating system "
+"version, where your installation of Python originated (python.org, your OS "
+"vendor, or an intermediate distributor), and the installed versions of "
+"Python, <code>setuptools</code>, and <code>pip</code>."
+msgstr ""
+"Vilka steg du behöver ta beror på operativsystemets version, varifrån "
+"Python-installationen kommer, till exempel python.org, operativsystemets "
+"leverantör eller en mellanliggande distributör, samt vilka versioner av "
+"Python, <code>setuptools</code> och <code>pip</code> som är installerade."
+
+#: warehouse/templates/pages/help.html:1185
+#, python-format
+msgid ""
+"For help, go to <a href=\"%(irc_href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">the <code>#pypa</code> IRC channel on "
+"Libera</a>, file an issue at <a href=\"%(issue_tracker_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">pypa/packaging-"
+"problems/issues</a>, or <a href=\"%(discourse_href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">discuss on the Discourse</a>, including "
+"your OS and installation details and the output of <code>%(command)s</code>."
+msgstr ""
+"För hjälp kan du gå till <a href=\"%(irc_href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">IRC-kanalen <code>#pypa</code> på "
+"Libera</a>, skapa ett ärende på <a href=\"%(issue_tracker_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">pypa/packaging-"
+"problems/issues</a> eller <a href=\"%(discourse_href)s\" title=\"%(title)s\""
+" target=\"_blank\" rel=\"noopener\">diskutera på Discourse</a>. Ta med "
+"uppgifter om operativsystemet och installationen samt utdata från "
+"<code>%(command)s</code>."
+
+#: warehouse/templates/pages/help.html:1204
+#, python-format
+msgid ""
+"We take <a href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">accessibility</a> very seriously and want to make the "
+"website easy to use for everyone."
+msgstr ""
+"Vi ser mycket allvarligt på <a href=\"%(href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">tillgänglighet</a> och vill göra "
+"webbplatsen enkel att använda för alla."
+
+#: warehouse/templates/pages/help.html:1209
+#, python-format
+msgid ""
+"If you are experiencing an accessibility problem, <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">report it to us on "
+"GitHub</a>, so we can try to fix the problem, for you and others."
+msgstr ""
+"Om du stöter på ett tillgänglighetsproblem kan du <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">rapportera det på "
+"GitHub</a> så försöker vi lösa problemet för dig och andra."
+
+#: warehouse/templates/pages/help.html:1216
+#, python-format
+msgid ""
+"In a previous version of PyPI, it used to be possible for maintainers to "
+"upload releases to PyPI using a form in the web browser. This feature was "
+"deprecated with the new version of PyPI – we instead recommend that you <a "
+"href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">use"
+" twine to upload your project to PyPI</a>."
+msgstr ""
+"I en tidigare version av PyPI kunde underhållare ladda upp utgåvor till PyPI"
+" med ett formulär i webbläsaren. Funktionen har tagits bort i den nya "
+"versionen av PyPI. Vi rekommenderar i stället att du <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">använder twine för "
+"att ladda upp projektet till PyPI</a>."
+
+#: warehouse/templates/pages/help.html:1225
+msgid ""
+"Spammers return to PyPI with some regularity hoping to place their Search "
+"Engine Optimized phishing, scam, and click-farming content on the site. "
+"Since PyPI allows for indexing of the Long Description and other data "
+"related to projects and has a generally solid search reputation, it is a "
+"prime target."
+msgstr ""
+"Spammare återvänder regelbundet till PyPI i hopp om att publicera "
+"sökmotoroptimerat innehåll för nätfiske, bedrägerier och konstgjorda klick "
+"på webbplatsen. Eftersom PyPI tillåter indexering av den långa beskrivningen"
+" och andra projektuppgifter samt i allmänhet har gott anseende i sökresultat"
+" är det ett attraktivt mål."
+
+#: warehouse/templates/pages/help.html:1228
+#, python-format
+msgid ""
+"When the PyPI administrators are overwhelmed by spam <strong>or</strong> "
+"determine that there is some other threat to PyPI, new user registration "
+"and/or new project registration may be disabled. Check <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">our status page</a> "
+"for more details, as we'll likely have updated it with reasoning for the "
+"intervention."
+msgstr ""
+"När PyPI-administratörerna överväldigas av spam <strong>eller</strong> "
+"bedömer att det finns ett annat hot mot PyPI kan registrering av nya "
+"användare och/eller nya projekt inaktiveras. Mer information finns på <a "
+"href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">vår"
+" statussida</a>, där vi troligen har förklarat varför åtgärden behövdes."
+
+#: warehouse/templates/pages/help.html:1243
+msgid ""
+"PyPI does not allow for a filename to be reused, even once a project has "
+"been deleted and recreated."
+msgstr ""
+"PyPI tillåter inte att ett filnamn återanvänds, inte ens när ett projekt har"
+" tagits bort och skapats på nytt."
+
+#: warehouse/templates/pages/help.html:1249
+msgid ""
+"A distribution filename on PyPI consists of the combination of project name,"
+" version number, and distribution type."
+msgstr ""
+"Ett distributionsfilnamn på PyPI består av en kombination av projektnamn, "
+"versionsnummer och distributionstyp."
+
+#: warehouse/templates/pages/help.html:1255
+msgid ""
+"This ensures that a given distribution for a given release for a given "
+"project will always resolve to the same file, and cannot be surreptitiously "
+"changed one day by the projects maintainer or a malicious party (it can only"
+" be removed)."
+msgstr ""
+"Detta säkerställer att en viss distribution för en viss utgåva av ett visst "
+"projekt alltid pekar på samma fil och inte i smyg kan ändras av projektets "
+"underhållare eller någon med skadliga avsikter. Den kan bara tas bort."
+
+#: warehouse/templates/pages/help.html:1263
+msgid ""
+"To avoid this situation in most cases, you will need to change the version "
+"number to one that you haven't previously uploaded to PyPI, rebuild the "
+"distribution, and then upload the new distribution."
+msgstr ""
+"För att undvika denna situation behöver du i de flesta fall ändra "
+"versionsnumret till ett som du inte tidigare har laddat upp till PyPI, bygga"
+" om distributionen och sedan ladda upp den nya distributionen."
+
+#: warehouse/templates/pages/help.html:1271
+#, python-format
+msgid ""
+"If you would like to request a new trove classifier file a pull request on "
+"the <a href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\"><code>pypa/trove-classifiers</code> project</a>. Be sure to"
+" include a brief justification of why it is important."
+msgstr ""
+"Om du vill begära en ny Trove-klassificerare skapar du en pull request i <a "
+"href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">projektet <code>pypa/trove-classifiers</code></a>. Ta med "
+"en kort motivering till varför den är viktig."

@@ -11341,6 +11341,9 @@ msgid ""
 "href=\"#utfkey\">device</a>, and <a href=\"#recoverycodes\">recovery "
 "codes</a>"
 msgstr ""
+"Har förlorat <a href=\"#totp\">appen</a> och <a href=\"#utfkey\">enheten</a>"
+" för tvåfaktorsautentisering samt <a "
+"href=\"#recoverycodes\">återställningskoderna</a>"
 
 #: warehouse/templates/pages/help.html:1132
 #, python-format
@@ -11349,6 +11352,9 @@ msgid ""
 "target=\"_blank\" rel=\"noopener\">file an issue on our tracker</a> to "
 "request assistance with account recovery."
 msgstr ""
+"Du kan fortsätta till <a href=\"%(href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">ärendehanteraren</a> för att begära hjälp"
+" med kontoåterställning."
 
 #: warehouse/templates/pages/help.html:1139
 msgid "Ensure that your API Token is valid and has not been revoked."
@@ -11359,6 +11365,8 @@ msgid ""
 "Ensure that your API Token is <a href=\"#apitoken\">properly formatted</a> "
 "and does not contain any trailing characters such as newlines."
 msgstr ""
+"Kontrollera att API-token är <a href=\"#apitoken\">korrekt formaterad</a> "
+"och inte innehåller avslutande tecken som radbrytningar."
 
 #: warehouse/templates/pages/help.html:1144
 msgid "Ensure that the username you are using is <code>__token__</code>."
@@ -11369,6 +11377,8 @@ msgid ""
 "Remember that PyPI and TestPyPI each require you to create an account, so "
 "your credentials may be different."
 msgstr ""
+"Kom ihåg att PyPI och TestPyPI båda kräver att du skapar ett konto, så "
+"inloggningsuppgifterna kan skilja sig åt."
 
 #: warehouse/templates/pages/help.html:1151
 #, python-format
@@ -11380,6 +11390,12 @@ msgid ""
 "href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
 "rel=\"noopener\">known issue</a> with Python's <code>getpass</code> module."
 msgstr ""
+"Om du använder Windows och försöker klistra in token i Kommandotolken eller "
+"PowerShell fungerar inte Ctrl-V och Skift+Insert. Använd i stället ”Redigera"
+" > Klistra in” i fönstermenyn eller aktivera ”Use Ctrl+Shift+C/V as "
+"Copy/Paste” under ”Egenskaper”. Detta är ett <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">känt problem</a> med "
+"Pythons modul <code>getpass</code>."
 
 #: warehouse/templates/pages/help.html:1159
 #, python-format
@@ -11392,6 +11408,13 @@ msgid ""
 "April 2018. <a href=\"%(reason_href)s\" title=\"%(title)s\" "
 "target=\"_blank\" rel=\"noopener\">Learn why on the PSF blog</a>."
 msgstr ""
+"Transport Layer Security, TLS, är en del av hur vi ser till att anslutningar"
+" mellan din dator och PyPI är privata och säkra. Det är ett kryptografiskt "
+"protokoll som har haft flera versioner över tid. PyPI <a "
+"href=\"%(announcement_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">slutade stödja TLS version 1.0 och 1.1</a> i april 2018. <a"
+" href=\"%(reason_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">Läs varför i PSF:s blogg</a>."
 
 #: warehouse/templates/pages/help.html:1173
 #, python-format
@@ -11400,6 +11423,9 @@ msgid ""
 "matching distribution found</code> or <code>Could not fetch URL</code> "
 "error, try adding <code>-v</code> to the command to get more information:"
 msgstr ""
+"Om du har problem med <code>%(command)s</code> och får felet <code>No "
+"matching distribution found</code> eller <code>Could not fetch URL</code> "
+"kan du lägga till <code>-v</code> i kommandot för att få mer information:"
 
 #: warehouse/templates/pages/help.html:1179
 msgid ""
@@ -11408,6 +11434,10 @@ msgid ""
 "<code>TLSV1_ALERT_PROTOCOL_VERSION</code>, you need to be connecting to PyPI"
 " with a newer TLS support library."
 msgstr ""
+"Om du ser ett fel som <code>There was a problem confirming the ssl "
+"certificate</code>, <code>tlsv1 alert protocol version</code> eller "
+"<code>TLSV1_ALERT_PROTOCOL_VERSION</code> måste du ansluta till PyPI med ett"
+" nyare bibliotek för TLS-stöd."
 
 #: warehouse/templates/pages/help.html:1182
 msgid ""
@@ -11416,6 +11446,10 @@ msgid ""
 "vendor, or an intermediate distributor), and the installed versions of "
 "Python, <code>setuptools</code>, and <code>pip</code>."
 msgstr ""
+"Vilka steg du behöver ta beror på operativsystemets version, varifrån "
+"Python-installationen kommer, till exempel python.org, operativsystemets "
+"leverantör eller en mellanliggande distributör, samt vilka versioner av "
+"Python, <code>setuptools</code> och <code>pip</code> som är installerade."
 
 #: warehouse/templates/pages/help.html:1185
 #, python-format
@@ -11428,6 +11462,14 @@ msgid ""
 "target=\"_blank\" rel=\"noopener\">discuss on the Discourse</a>, including "
 "your OS and installation details and the output of <code>%(command)s</code>."
 msgstr ""
+"För hjälp kan du gå till <a href=\"%(irc_href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">IRC-kanalen <code>#pypa</code> på "
+"Libera</a>, skapa ett ärende på <a href=\"%(issue_tracker_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">pypa/packaging-"
+"problems/issues</a> eller <a href=\"%(discourse_href)s\" title=\"%(title)s\""
+" target=\"_blank\" rel=\"noopener\">diskutera på Discourse</a>. Ta med "
+"uppgifter om operativsystemet och installationen samt utdata från "
+"<code>%(command)s</code>."
 
 #: warehouse/templates/pages/help.html:1204
 #, python-format
@@ -11436,6 +11478,9 @@ msgid ""
 "rel=\"noopener\">accessibility</a> very seriously and want to make the "
 "website easy to use for everyone."
 msgstr ""
+"Vi ser mycket allvarligt på <a href=\"%(href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">tillgänglighet</a> och vill göra "
+"webbplatsen enkel att använda för alla."
 
 #: warehouse/templates/pages/help.html:1209
 #, python-format
@@ -11444,6 +11489,9 @@ msgid ""
 "title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">report it to us on "
 "GitHub</a>, so we can try to fix the problem, for you and others."
 msgstr ""
+"Om du stöter på ett tillgänglighetsproblem kan du <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">rapportera det på "
+"GitHub</a> så försöker vi lösa problemet för dig och andra."
 
 #: warehouse/templates/pages/help.html:1216
 #, python-format
@@ -11454,6 +11502,11 @@ msgid ""
 "href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">use"
 " twine to upload your project to PyPI</a>."
 msgstr ""
+"I en tidigare version av PyPI kunde underhållare ladda upp utgåvor till PyPI"
+" med ett formulär i webbläsaren. Funktionen har tagits bort i den nya "
+"versionen av PyPI. Vi rekommenderar i stället att du <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">använder twine för "
+"att ladda upp projektet till PyPI</a>."
 
 #: warehouse/templates/pages/help.html:1225
 msgid ""
@@ -11463,6 +11516,11 @@ msgid ""
 "related to projects and has a generally solid search reputation, it is a "
 "prime target."
 msgstr ""
+"Spammare återvänder regelbundet till PyPI i hopp om att publicera "
+"sökmotoroptimerat innehåll för nätfiske, bedrägerier och konstgjorda klick "
+"på webbplatsen. Eftersom PyPI tillåter indexering av den långa beskrivningen"
+" och andra projektuppgifter samt i allmänhet har gott anseende i sökresultat"
+" är det ett attraktivt mål."
 
 #: warehouse/templates/pages/help.html:1228
 #, python-format
@@ -11474,6 +11532,11 @@ msgid ""
 "for more details, as we'll likely have updated it with reasoning for the "
 "intervention."
 msgstr ""
+"När PyPI-administratörerna överväldigas av spam <strong>eller</strong> "
+"bedömer att det finns ett annat hot mot PyPI kan registrering av nya "
+"användare och/eller nya projekt inaktiveras. Mer information finns på <a "
+"href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">vår"
+" statussida</a>, där vi troligen har förklarat varför åtgärden behövdes."
 
 #: warehouse/templates/pages/help.html:1236
 msgid "PyPI will return these errors for one of these reasons:"
@@ -11496,12 +11559,16 @@ msgid ""
 "PyPI does not allow for a filename to be reused, even once a project has "
 "been deleted and recreated."
 msgstr ""
+"PyPI tillåter inte att ett filnamn återanvänds, inte ens när ett projekt har"
+" tagits bort och skapats på nytt."
 
 #: warehouse/templates/pages/help.html:1249
 msgid ""
 "A distribution filename on PyPI consists of the combination of project name,"
 " version number, and distribution type."
 msgstr ""
+"Ett distributionsfilnamn på PyPI består av en kombination av projektnamn, "
+"versionsnummer och distributionstyp."
 
 #: warehouse/templates/pages/help.html:1255
 msgid ""
@@ -11510,6 +11577,9 @@ msgid ""
 "changed one day by the projects maintainer or a malicious party (it can only"
 " be removed)."
 msgstr ""
+"Detta säkerställer att en viss distribution för en viss utgåva av ett visst "
+"projekt alltid pekar på samma fil och inte i smyg kan ändras av projektets "
+"underhållare eller någon med skadliga avsikter. Den kan bara tas bort."
 
 #: warehouse/templates/pages/help.html:1263
 msgid ""
@@ -11517,6 +11587,9 @@ msgid ""
 "number to one that you haven't previously uploaded to PyPI, rebuild the "
 "distribution, and then upload the new distribution."
 msgstr ""
+"För att undvika denna situation behöver du i de flesta fall ändra "
+"versionsnumret till ett som du inte tidigare har laddat upp till PyPI, bygga"
+" om distributionen och sedan ladda upp den nya distributionen."
 
 #: warehouse/templates/pages/help.html:1271
 #, python-format
@@ -11526,6 +11599,10 @@ msgid ""
 "rel=\"noopener\"><code>pypa/trove-classifiers</code> project</a>. Be sure to"
 " include a brief justification of why it is important."
 msgstr ""
+"Om du vill begära en ny Trove-klassificerare skapar du en pull request i <a "
+"href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">projektet <code>pypa/trove-classifiers</code></a>. Ta med "
+"en kort motivering till varför den är viktig."
 
 #: warehouse/templates/pages/help.html:1278
 #, python-format
