@@ -11159,7 +11159,7 @@ msgstr ""
 #: warehouse/templates/pages/help.html:1014
 #, python-format
 msgid "If the owner is unresponsive, see <a href=\"%(href)s\">%(anchor_text)s</a>"
-msgstr ""
+msgstr "Om ägaren inte svarar läser du <a href=\"%(href)s\">%(anchor_text)s</a>"
 
 #: warehouse/templates/pages/help.html:1018
 msgid ""
@@ -11167,6 +11167,9 @@ msgid ""
 " extension of the <code>readme</code> field value to control how PyPI "
 "renders your description."
 msgstr ""
+"När du använder <code>pyproject.toml</code> för projektmetadata kan du "
+"använda filändelsen i värdet för fältet <code>readme</code> för att styra "
+"hur PyPI återger beskrivningen."
 
 #: warehouse/templates/pages/help.html:1023
 #, python-format
@@ -11176,6 +11179,10 @@ msgid ""
 "<a href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
 "rel=\"noopener\">reStructuredText</a>"
 msgstr ""
+"<code>readme = \"README.md\"</code> återger till exempel beskrivningen som "
+"Markdown, medan <code>readme = \"README.rst\"</code> återger den som <a "
+"href=\"%(href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">reStructuredText</a>"
 
 #: warehouse/templates/pages/help.html:1030
 #, python-format
@@ -11184,6 +11191,9 @@ msgid ""
 "rel=\"noopener\">Python Packaging User Guide</a> for details on the "
 "available formats."
 msgstr ""
+"Information om tillgängliga format finns i <a href=\"%(href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">Python Packaging User"
+" Guide</a>."
 
 #: warehouse/templates/pages/help.html:1042
 #, python-format
@@ -11192,6 +11202,9 @@ msgid ""
 "the upload file size limit (%(max_file_size_mb)s MiB by default; individual "
 "projects may differ), we can sometimes increase your limit."
 msgstr ""
+"Om du inte kan ladda upp projektets utgåva till PyPI eftersom du har nått "
+"filstorleksgränsen för uppladdningar, %(max_file_size_mb)s MiB som standard,"
+" kan vi ibland höja gränsen. Enskilda projekt kan ha andra gränser."
 
 #: warehouse/templates/pages/help.html:1049
 #, python-format
@@ -11199,6 +11212,8 @@ msgid ""
 "See the <a href=\"%(href)s\">user documentation</a> for more information on "
 "requesting a file size limit increase."
 msgstr ""
+"Mer information om hur du begär en höjning av filstorleksgränsen finns i <a "
+"href=\"%(href)s\">användardokumentationen</a>."
 
 #: warehouse/templates/pages/help.html:1057
 #, python-format
@@ -11208,6 +11223,11 @@ msgid ""
 "projects may differ), first <a href=\"%(href)s\">remove any unnecessary "
 "releases or individual files</a> to lower your overall project size."
 msgstr ""
+"Om du inte kan ladda upp projektets utgåva till PyPI eftersom du har nått "
+"projektets storleksgräns, %(max_project_size_gb)s GiB som standard, bör du "
+"först <a href=\"%(href)s\">ta bort onödiga utgåvor eller enskilda filer</a> "
+"för att minska projektets totala storlek. Enskilda projekt kan ha andra "
+"gränser."
 
 #: warehouse/templates/pages/help.html:1066
 #, python-format
@@ -11216,6 +11236,9 @@ msgid ""
 "href=\"%(href)s\">user documentation</a> for more information on requesting "
 "a project size limit increase."
 msgstr ""
+"Om det inte är möjligt kan vi ibland höja gränsen. Mer information om hur du"
+" begär en höjning av projektets storleksgräns finns i <a "
+"href=\"%(href)s\">användardokumentationen</a>."
 
 #: warehouse/templates/pages/help.html:1074
 #, python-format
@@ -11227,6 +11250,12 @@ msgid ""
 "title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">Python Packaging "
 "Advisory Database</a>."
 msgstr ""
+"PyPI får rapporter om säkerhetsbrister i paketen som finns där från <a "
+"href=\"%(osv_href)s\" title=\"%(title)s\" target=\"_blank\" "
+"rel=\"noopener\">projektet Open Source Vulnerabilities</a>, som i sin tur "
+"hämtar information om säkerhetsbrister från <a href=\"%(vulns_href)s\" "
+"title=\"%(title)s\" target=\"_blank\" rel=\"noopener\">Python Packaging "
+"Advisory Database</a>."
 
 #: warehouse/templates/pages/help.html:1085
 #, python-format
@@ -11235,6 +11264,9 @@ msgid ""
 "<a href=\"%(file_issue_href)s\" title=\"%(title)s\" target=\"_blank\" "
 "rel=\"noopener\">file an issue</a> with details."
 msgstr ""
+"Om du anser att uppgifter om säkerhetsbrister för projektet är ogiltiga "
+"eller felaktiga kan du <a href=\"%(file_issue_href)s\" title=\"%(title)s\" "
+"target=\"_blank\" rel=\"noopener\">rapportera ett ärende</a> med detaljer."
 
 #: warehouse/templates/pages/help.html:1094
 msgid ""
@@ -11245,6 +11277,12 @@ msgid ""
 "Deleted projects, releases or files cannot be restored by PyPI "
 "administrators."
 msgstr ""
+"Borttagning av ett projekt, en utgåva eller en fil på PyPI är permanent och "
+"kan inte ångras. Borttagning av ett projekt gör att det inte längre kan "
+"installeras och frigör projektnamnet så att andra PyPI-användare kan använda"
+" det. Borttagna filer <a href=\"#file-name-reuse\">kan inte laddas upp "
+"igen</a>. PyPI-administratörerna kan inte återställa borttagna projekt, "
+"utgåvor eller filer."
 
 #: warehouse/templates/pages/help.html:1106
 #, python-format
@@ -11253,12 +11291,17 @@ msgid ""
 " <a href=\"%(href)s\" title=\"%(title)s\">use twine's check command</a> to "
 "locally check a description for validity."
 msgstr ""
+"PyPI avvisar uppladdningar om paketbeskrivningen inte kan återges. Du kan <a"
+" href=\"%(href)s\" title=\"%(title)s\">använda twines kommando check</a> för"
+" att lokalt kontrollera att en beskrivning är giltig."
 
 #: warehouse/templates/pages/help.html:1112
 msgid ""
 "If you've forgotten your PyPI password, but you remember your email address "
 "or username, follow these steps to reset your password:"
 msgstr ""
+"Följ dessa steg för att återställa PyPI-lösenordet om du har glömt det men "
+"kommer ihåg e-postadressen eller användarnamnet:"
 
 #: warehouse/templates/pages/help.html:1116
 #, python-format
@@ -11269,6 +11312,8 @@ msgstr "Gå till <a href=\"%(href)s\">återställ lösenordet</a>."
 msgid ""
 "Enter the email address or username you used for PyPI and submit the form."
 msgstr ""
+"Ange e-postadressen eller användarnamnet som du använde för PyPI och skicka "
+"formuläret."
 
 #: warehouse/templates/pages/help.html:1119
 msgid "You'll receive an email with a password reset link."
@@ -11279,6 +11324,8 @@ msgstr ""
 msgid ""
 "If you've lost access to your PyPI account or can't fully verify it due to:"
 msgstr ""
+"Om du har förlorat åtkomsten till PyPI-kontot eller inte kan verifiera det "
+"helt på grund av:"
 
 #: warehouse/templates/pages/help.html:1125
 msgid "Lost access to the email address associated with your account"
