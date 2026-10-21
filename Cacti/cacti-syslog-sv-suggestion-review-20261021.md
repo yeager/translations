@@ -23,3 +23,4 @@ Externförslag granskade i Weblate:
 - `Bar`: avvisat. Befintliga `Stapel` är korrekt diagramterminologi; förslaget lämnade källtexten oöversatt.
 - `Auto`: avvisat. Befintliga `Automatiskt` är korrekt; förslaget delade felaktigt ordet i `Auto matiskt`.
 - `Collector`: avvisat. Befintliga `Insamlare` är korrekt; förslaget innehöll felaktig segmentering (`Ins S amlare`).
+- `Unavailable`: avvisat. Befintliga `Inte tillgänglig` är korrekt; förslaget `Ej bokningsbar` ändrade betydelsen.
