@@ -1,0 +1,14 @@
+readlink-about = Visa värdet för en symbolisk länk eller ett kanoniskt filnamn.
+readlink-usage = readlink [FLAGGA]... [FIL]...
+
+readlink-help-canonicalize = kanonisera genom att följa varje symbolisk länk i varje komponent i det angivna namnet rekursivt; alla komponenter utom den sista måste finnas
+readlink-help-canonicalize-existing = kanonisera genom att följa varje symbolisk länk i varje komponent i det angivna namnet rekursivt, alla komponenter måste finnas
+readlink-help-canonicalize-missing = kanonisera genom att följa varje symbolisk länk i varje komponent i det angivna namnet rekursivt, utan krav på att komponenterna finns
+readlink-help-no-newline = skriv inte ut den avslutande avgränsaren
+readlink-help-quiet = undertryck de flesta felmeddelanden
+readlink-help-silent = undertryck de flesta felmeddelanden
+readlink-help-verbose = rapportera felmeddelanden
+readlink-help-zero = separera utdata med NUL i stället för nyrad
+
+readlink-error-ignoring-no-newline = ignorerar --no-newline när flera argument anges
+readlink-error-invalid-argument = { $path }: Ogiltigt argument
