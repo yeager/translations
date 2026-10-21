@@ -1,7 +1,7 @@
-join-about = Skriv ut en rad till standard ut för varje par av indatarader med identiska kopplingsfält.
+join-about = Skriv ut en rad till standardutdata för varje par av indatarader med identiska kopplingsfält.
   Standardkopplingsfältet är det första fältet, avgränsat med blanksteg.
 
-  Läs standard in om FIL1 eller FIL2, men inte båda, är -.
+  Läs standardindata om FIL1 eller FIL2, men inte båda, är -.
 join-usage = join [FLAGGA]... FIL1 FIL2
 join-help-a = skriv även ut rader som inte kan paras ihop från fil FILNUM,
   där FILNUM är 1 eller 2 och motsvarar FIL1 eller FIL2
@@ -18,16 +18,16 @@ join-help-nocheck-order = kontrollera inte att indata är korrekt sorterade
 join-help-header = behandla den första raden i varje fil som fältrubriker och skriv ut dem utan att försöka para ihop dem
 join-help-z = radavgränsaren är NUL, inte radbrytning
 join-error-io = fel vid inmatning eller utmatning: { $error }
-join-error-non-utf8-tab = flerbytesskiljetecken som inte är UTF-8
-join-error-unprintable-separators = fältavgränsare som inte går att skriva ut stöds bara på Unixliknande plattformar
-join-error-multi-character-tab = skiljetecken med flera tecken '{ $value }'
-join-error-both-files-stdin = båda filerna kan inte vara standard in
+join-error-non-utf8-tab = tabbtecken med flera byte som inte är UTF-8
+join-error-unprintable-separators = fältavgränsare som inte går att skriva ut stöds bara på Unix-liknande plattformar
+join-error-multi-character-tab = tabbtecken med flera tecken '{ $value }'
+join-error-both-files-stdin = båda filerna kan inte vara standardindata
 join-error-invalid-field-specifier = ogiltig fältspecifikation: { $spec }
 join-error-invalid-file-number = ogiltigt filnummer i fältspecifikationen: { $spec }
 join-error-invalid-file-number-simple = ogiltigt filnummer: { $value }
 join-error-missing-operand = operand saknas
 join-error-missing-operand-after = operand saknas efter { $file }
-join-error-extra-operand = extra operand { $operand }
+join-error-extra-operand = ytterligare operand { $operand }
 join-error-invalid-field-number = ogiltigt fältnummer: { $value }
 join-error-incompatible-fields = inkompatibla kopplingsfält { $field1 }, { $field2 }
 join-error-conflicting-empty-field = motstridiga ersättningssträngar för tomma fält

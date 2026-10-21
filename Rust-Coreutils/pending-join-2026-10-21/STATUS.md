@@ -1,5 +1,4 @@
-# Väntande uppladdning
+# Pending Hosted Weblate upload
 
-`join.ftl` är komplett granskat mot den aktuella engelska källfilen och har passerat Fluent-lint, Hunspell-granskning och Gitleaks.
-
-Hosted Weblate låste komponenten 2026-10-21 eftersom projektets arkiv inte gick att sammanfoga. Filen kan laddas upp när komponenten är upplåst igen.
+`join.ftl` was reviewed manually against the current English Fluent source.
+It passed Fluent-lint, Hunspell review and Gitleaks. Hosted Weblate returned HTTP 403 when updating the component on 2026-10-21.
