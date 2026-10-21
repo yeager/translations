@@ -1,0 +1,20 @@
+tee-about = Kopiera standardindata till varje FIL och även till standardutdata.
+tee-usage = tee [FLAGGA]... [FIL]...
+tee-after-help = Om en FIL är - avser den en fil med namnet -.
+
+# Help messages
+tee-help-help = visa denna hjälptext
+tee-help-append = lägg till i de angivna FILERNA, skriv inte över
+tee-help-ignore-interrupts = ignorera avbrottssignaler (ignoreras på plattformar som inte är Unix)
+tee-help-ignore-pipe-errors = ange hur skrivfel ska hanteras (ignoreras på plattformar som inte är Unix)
+tee-help-output-error = ange hur skrivfel ska hanteras
+tee-help-output-error-warn = visa varningar vid fel när någon utdata skrivs
+tee-help-output-error-warn-nopipe = visa varningar vid fel som inte är rörfel (ignoreras på plattformar som inte är Unix)
+tee-help-output-error-exit = avsluta vid skrivfel för någon utdata
+tee-help-output-error-exit-nopipe = avsluta vid skrivfel för någon utdata som inte är rörfel (motsvarar avslut på plattformar som inte är Unix)
+
+# Error messages
+tee-error-stdin = läsfel: { $error }
+
+# Other messages
+tee-standard-output = 'standardutdata'
