@@ -1,0 +1,9 @@
+mkfifo-about = Skapa en FIFO med angivet NAMN.
+mkfifo-usage = mkfifo [FLAGGA]... NAMN...
+mkfifo-help-mode = filbehörigheter för FIFO:n
+mkfifo-help-selinux = ange SELinux säkerhetskontext till standardtypen
+mkfifo-help-context = som -Z, eller ange SELinux- eller SMACK-säkerhetskontexten till CTX om den anges
+mkfifo-error-invalid-mode = ogiltigt läge: { $error }
+mkfifo-error-cannot-create-fifo = kan inte skapa FIFO { $path }: { $error }
+mkfifo-error-cannot-set-permissions = kan inte ange behörigheter för { $path }: { $error }
+mkfifo-error-non-file-permission = läget får endast ange filbehörighetsbitar
