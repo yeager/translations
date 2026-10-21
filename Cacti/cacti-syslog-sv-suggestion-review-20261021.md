@@ -14,3 +14,4 @@ Externförslag granskade i Weblate:
 - `%d Months`: avvisat. Förslaget ändrade `%d` till `% d`, vilket bryter PHP-formatsträngen.
 - `%d Year`: avvisat. Förslaget ändrade `%d` till `% d`, vilket bryter PHP-formatsträngen.
 - `%d Minute`: avvisat. Förslaget ändrade `%d` till `% d`, vilket bryter PHP-formatsträngen.
+- `Other`: avvisat. Befintliga `Övrigt` är korrekt i gränssnittskontexten; förslaget `Annat` är mindre precis.
