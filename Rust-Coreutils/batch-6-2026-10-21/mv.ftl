@@ -1,0 +1,11 @@
+mv-error-insufficient-arguments = Argumentet '<{ $arg_files }>...' kräver minst 2 värden, men endast 1 angavs
+mv-help-selinux = ange SELinux-säkerhetskontexten för målfilen till standardtypen
+mv-help-context = som -Z, eller ange SELinux-säkerhetskontexten till CTX om CTX anges
+mv-prompt-overwrite-mode = ersätt { $target } och åsidosätt läget { $mode_info }?
+mv-error-dest-appeared = målet { $path } ersattes medan det flyttades. Vägrar följa det
+mv-error-exchange-two-operands = --exchange kräver exakt två operander
+mv-error-exchange-not-supported = --exchange stöds inte på denna plattform
+mv-help-exchange = byt plats på källa och mål, växla dem atomärt
+mv-verbose-exchanged = växlade { $from } <-> { $to }
+mv-error-cannot-overwrite-non-empty-directory = kan inte skriva över { $target }
+mv-error-setting-attribute = anger attributet { $name }: { $err }
