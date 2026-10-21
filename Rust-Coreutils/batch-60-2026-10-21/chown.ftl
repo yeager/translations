@@ -4,7 +4,7 @@ chown-usage =
   chown [OPTION]... --reference=RFILE FILE...
 
 # Hjälpmeddelanden
-chown-help-print-help = Skriv ut hjälpinformation
+chown-help-print-help = Skriv ut hjälpinformation.
 chown-help-changes = som utförligt läge, men rapportera bara när en ändring görs
 chown-help-from =
   ändra ägaren och eller gruppen för varje fil endast om dess
