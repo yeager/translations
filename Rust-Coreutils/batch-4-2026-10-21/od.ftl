@@ -1,0 +1,16 @@
+od-help-strings = skriv ut strängar med minst BYTE grafiska tecken. 3 används om BYTE inte anges.
+od-help-o = oktala enheter om 2 byte
+od-help-capital-i = decimala enheter om 8 byte
+od-help-capital-l = decimala enheter om 8 byte
+od-help-i = decimala enheter om 4 byte
+od-help-l = decimala enheter om 8 byte
+od-help-x = hexadecimala enheter om 2 byte
+od-help-h = hexadecimala enheter om 2 byte
+od-help-capital-o = oktala enheter om 4 byte
+od-help-s = decimala enheter om 2 byte
+od-help-capital-x = hexadecimala enheter om 4 byte
+od-help-capital-h = hexadecimala enheter om 4 byte
+od-help-e = flyttalsenheter med dubbel precision, 64 bitar
+od-help-f = flyttalsenheter med enkel precision, 32 bitar
+od-help-capital-f = flyttalsenheter med dubbel precision, 64 bitar
+od-error-overflow = Numeriskt resultat utanför intervallet
