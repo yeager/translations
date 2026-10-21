@@ -4,4 +4,4 @@
 - Component: Blender UI/UI
 - Entries: 3
 - Upstream: submitted through Blender Translate.
-- Validation: XML parsed; svlang skrivregler clean; Gitleaks clean. Hunspell output is advisory for technical identifiers.
+- Validation: XML parsed; svlang skrivregler clean after normalizing the archive XML; Gitleaks clean. Hunspell output is advisory for technical identifiers.
