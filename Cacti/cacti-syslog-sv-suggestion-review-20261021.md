@@ -24,3 +24,4 @@ Externförslag granskade i Weblate:
 - `Auto`: avvisat. Befintliga `Automatiskt` är korrekt; förslaget delade felaktigt ordet i `Auto matiskt`.
 - `Collector`: avvisat. Befintliga `Insamlare` är korrekt; förslaget innehöll felaktig segmentering (`Ins S amlare`).
 - `Unavailable`: avvisat. Befintliga `Inte tillgänglig` är korrekt; förslaget `Ej bokningsbar` ändrade betydelsen.
+- `Started`: avvisat. Befintliga `Startad` är korrekt; förslaget var felaktigt segmenterat (`Starta d t`).
