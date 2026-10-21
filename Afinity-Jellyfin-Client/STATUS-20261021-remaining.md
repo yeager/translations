@@ -11,5 +11,5 @@
 - `msgfmt --check`: passed.
 - `l10n-lint`: passed.
 - `svlang skrivregler --enable-interpunktion`: passed.
-- `hunspell -d sv_SE`: passed.
+- `hunspell -d sv_SE`: reported `Sidindikator`; it is a correct Swedish UI compound and was reviewed manually.
 - `gitleaks detect --no-git`: passed.
