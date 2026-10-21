@@ -1,5 +1,5 @@
-fold-about = Skriv varje fil till standardutdata och bryt långa rader.
-  Om inga filer anges, läs standardindata.
+fold-about = Skriv varje fil till standardutdata och bryt långa rader
+  om inga filer anges, läs standardindata
 fold-usage = fold [FLAGGA]... [FIL]...
 fold-bytes-help = räkna byte i stället för kolumner (kontrolltecken som nyrad behandlas då inte särskilt)
 fold-characters-help = räkna teckenpositioner i stället för visningskolumner
