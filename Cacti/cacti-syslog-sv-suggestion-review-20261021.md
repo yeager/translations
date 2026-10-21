@@ -31,3 +31,4 @@ Externförslag granskade i Weblate:
 - `Save As`: avvisat. Befintliga `Spara som` är korrekt; förslaget lade till ett obehövligt mittpunktstecken.
 - `Re-Alert Cycle`: avvisat. Befintliga `Cykel för upprepat larm` är korrekt; förslaget behöll den engelska källtexten.
 - `Exclude`: avvisat. Befintliga `Uteslut` är korrekt och konsekvent med befintliga filterkommandon; förslaget bytte endast till synonymen `Exkludera`.
+- `Panels`: avvisat. Befintliga `Rutor` är korrekt i den aktuella instrumentpanelsvyn; förslaget var felaktigt segmenterat (`Ruto Panele r`).
