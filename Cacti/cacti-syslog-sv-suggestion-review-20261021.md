@@ -28,3 +28,4 @@ Externförslag granskade i Weblate:
 - `Complete`: avvisat. Befintliga `Slutförd` passar statusen; förslaget var felaktigt segmenterat (`Slut Genom förd`).
 - `Recovery`: avvisat. Befintliga `Återställning` är korrekt i sammanhanget; förslaget var felaktigt segmenterat och semantiskt oklart.
 - `Runtime`: avvisat. Befintliga `Körtid` är korrekt; förslaget blandade in `Speltid` och delade ord fel.
+- `Save As`: avvisat. Befintliga `Spara som` är korrekt; förslaget lade till ett obehövligt mittpunktstecken.
