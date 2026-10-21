@@ -26,3 +26,4 @@ Externförslag granskade i Weblate:
 - `Unavailable`: avvisat. Befintliga `Inte tillgänglig` är korrekt; förslaget `Ej bokningsbar` ändrade betydelsen.
 - `Started`: avvisat. Befintliga `Startad` är korrekt; förslaget var felaktigt segmenterat (`Starta d t`).
 - `Complete`: avvisat. Befintliga `Slutförd` passar statusen; förslaget var felaktigt segmenterat (`Slut Genom förd`).
+- `Recovery`: avvisat. Befintliga `Återställning` är korrekt i sammanhanget; förslaget var felaktigt segmenterat och semantiskt oklart.
