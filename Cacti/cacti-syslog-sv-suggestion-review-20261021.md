@@ -20,3 +20,4 @@ Externförslag granskade i Weblate:
 - `Last Day`: avvisat. Befintliga `Senaste dygnet` anger en avslutad tidsperiod korrekt; förslaget `Sista dagen` ändrar innebörden.
 - `Last Week`: avvisat. Befintliga `Senaste veckan` anger rätt löpande tidsintervall; `Förra veckan` syftar på föregående kalendervecka.
 - `Last Month`: avvisat. Befintliga `Senaste månaden` anger ett löpande tidsintervall; `Föregående månad` syftar på en kalenderperiod.
+- `Bar`: avvisat. Befintliga `Stapel` är korrekt diagramterminologi; förslaget lämnade källtexten oöversatt.
