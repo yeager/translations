@@ -25,3 +25,4 @@ Externförslag granskade i Weblate:
 - `Collector`: avvisat. Befintliga `Insamlare` är korrekt; förslaget innehöll felaktig segmentering (`Ins S amlare`).
 - `Unavailable`: avvisat. Befintliga `Inte tillgänglig` är korrekt; förslaget `Ej bokningsbar` ändrade betydelsen.
 - `Started`: avvisat. Befintliga `Startad` är korrekt; förslaget var felaktigt segmenterat (`Starta d t`).
+- `Complete`: avvisat. Befintliga `Slutförd` passar statusen; förslaget var felaktigt segmenterat (`Slut Genom förd`).
