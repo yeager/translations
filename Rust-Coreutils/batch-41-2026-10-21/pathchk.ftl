@@ -1,0 +1,17 @@
+pathchk-about = Kontrollera om filnamn är giltiga eller portabla
+pathchk-usage = pathchk [FLAGGA]... NAMN...
+
+# Help messages
+pathchk-help-posix = kontrollera för de flesta POSIX-system
+pathchk-help-posix-special = kontrollera tomma namn och inledande "-"
+pathchk-help-portability = kontrollera för alla POSIX-system (motsvarar -p -P)
+
+# Error messages
+pathchk-error-empty-file-name = tomt filnamn
+pathchk-error-posix-path-length-exceeded = gränsen { $limit } överskrids av längden { $length } för filnamnet { $path }
+pathchk-error-posix-name-length-exceeded = gränsen { $limit } överskrids av längden { $length } för filnamnskomponenten { $component }
+pathchk-error-leading-hyphen = inledande bindestreck i filnamnskomponenten { $component }
+pathchk-error-path-length-exceeded = gränsen { $limit } överskrids av längden { $length } för filnamnet { $path }
+pathchk-error-name-length-exceeded = gränsen { $limit } överskrids av längden { $length } för filnamnskomponenten { $component }
+pathchk-error-empty-path-not-found = '': Fil eller katalog saknas
+pathchk-error-nonportable-character = inte portabelt tecken '{ $character }' i filnamnskomponenten { $component }
