@@ -1,0 +1,3 @@
+yes-about = Skriv upprepade gånger ut en rad med STRÄNG, eller 'y'
+yes-usage = yes [STRÄNG]...
+yes-error-standard-output = standardutdata: { $error }
