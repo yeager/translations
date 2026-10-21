@@ -1,0 +1,10 @@
+cut-usage = cut FLAGGA... [FIL]...
+cut-help-no-partial = med -b ska inga partiella flerbytetecken skrivas ut
+cut-help-fields-merged = som -f, men slå ihop intilliggande avgränsare. Avgränsaren är som standard blanksteg och avgränsaren för utdata är ett blanksteg
+cut-error-invalid-range-no-endpoint = ogiltigt intervall utan slutpunkt: { $range }
+cut-error-invalid-field-value = ogiltigt fältvärde { $value }
+cut-error-invalid-position-value = ogiltig byte- eller teckenposition { $value }
+cut-error-field-number-too-large = fältnumret { $value } är för stort
+cut-error-position-too-large = byte- eller teckenförskjutningen { $value } är för stor
+cut-diag-label-zero-bound = räkningen börjar vid 1
+cut-diag-help-list-syntax = en lista är N, N-M, N- eller -M, separerade med kommatecken, som i -f1,4-6,9-
