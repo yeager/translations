@@ -9,3 +9,5 @@ Externförslag granskade i Weblate:
 - `%d Records`: avvisat. Förslaget ändrade `%d` till `% d`, vilket bryter PHP-formatsträngen.
 - `%d days`: avvisat. Befintliga `%d dagar` är konsekvent med komponentens terminologi.
 - `%d Week`: avvisat. Förslaget ändrade `%d` till `% d`, vilket bryter PHP-formatsträngen, och hade inkonsekvent versalisering.
+- `%d Weeks`: avvisat. Förslaget ändrade `%d` till `% d`, vilket bryter PHP-formatsträngen.
+- `%d Month`: avvisat. Förslaget ändrade `%d` till `% d`, vilket bryter PHP-formatsträngen.
