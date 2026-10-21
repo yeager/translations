@@ -12,3 +12,4 @@ Externförslag granskade i Weblate:
 - `%d Weeks`: avvisat. Förslaget ändrade `%d` till `% d`, vilket bryter PHP-formatsträngen.
 - `%d Month`: avvisat. Förslaget ändrade `%d` till `% d`, vilket bryter PHP-formatsträngen.
 - `%d Months`: avvisat. Förslaget ändrade `%d` till `% d`, vilket bryter PHP-formatsträngen.
+- `%d Year`: avvisat. Förslaget ändrade `%d` till `% d`, vilket bryter PHP-formatsträngen.
