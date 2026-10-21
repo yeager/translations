@@ -1,0 +1,17 @@
+sync-about = Synkronisera cachade skrivningar till varaktig lagring
+sync-usage = sync [FLAGGA]... FIL...
+
+sync-help-file-system = synkronisera filsystemen som innehåller filerna (endast Linux och Windows)
+sync-help-data = synkronisera endast fildata, utan onödiga metadata (endast Linux)
+
+sync-error-data-needs-argument = --data behöver minst ett argument
+sync-error-opening-file = fel när { $file } öppnades: { $err }
+sync-error-no-such-file = fel när { $file } öppnades: Filen eller katalogen finns inte
+sync-error-syncing-file = fel vid synkronisering av { $file }
+
+sync-warning-fcntl-failed = varning: kunde inte återställa flaggan O_NONBLOCK för { $file }: { $error }
+
+sync-error-flush-file-buffer = kunde inte tömma filbufferten
+sync-error-create-volume-handle = kunde inte skapa volymhandtaget
+sync-error-find-first-volume = kunde inte hitta den första volymen
+sync-error-find-next-volume = kunde inte hitta nästa volym
