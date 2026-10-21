@@ -29,3 +29,4 @@ Externförslag granskade i Weblate:
 - `Recovery`: avvisat. Befintliga `Återställning` är korrekt i sammanhanget; förslaget var felaktigt segmenterat och semantiskt oklart.
 - `Runtime`: avvisat. Befintliga `Körtid` är korrekt; förslaget blandade in `Speltid` och delade ord fel.
 - `Save As`: avvisat. Befintliga `Spara som` är korrekt; förslaget lade till ett obehövligt mittpunktstecken.
+- `Re-Alert Cycle`: avvisat. Befintliga `Cykel för upprepat larm` är korrekt; förslaget behöll den engelska källtexten.
