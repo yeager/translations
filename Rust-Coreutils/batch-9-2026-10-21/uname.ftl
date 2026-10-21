@@ -1,0 +1,9 @@
+uname-help-all-labeled = som -a, skriv ut all information men en post per rad med etikett.
+uname-label-kernel-name = Kärnans namn: { $value }
+uname-label-nodename = Nodnamn: { $value }
+uname-label-kernel-release = Kärnans utgåva: { $value }
+uname-label-kernel-version = Kärnans version: { $value }
+uname-label-machine = Maskin: { $value }
+uname-label-processor = Processor: { $value }
+uname-label-hardware-platform = Maskinvaruplattform: { $value }
+uname-label-os = Operativsystem: { $value }
