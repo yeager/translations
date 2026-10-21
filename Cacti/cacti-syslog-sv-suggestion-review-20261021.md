@@ -32,3 +32,5 @@ Externförslag granskade i Weblate:
 - `Re-Alert Cycle`: avvisat. Befintliga `Cykel för upprepat larm` är korrekt; förslaget behöll den engelska källtexten.
 - `Exclude`: avvisat. Befintliga `Uteslut` är korrekt och konsekvent med befintliga filterkommandon; förslaget bytte endast till synonymen `Exkludera`.
 - `Panels`: avvisat. Befintliga `Rutor` är korrekt i den aktuella instrumentpanelsvyn; förslaget var felaktigt segmenterat (`Ruto Panele r`).
+
+Kontroll efter granskningen: Syslog har 850/850 strängar översatta (100 %) och inga aktiva Weblate-kontroller. En avfärdad kontroll kvarstår från tidigare arbete.
