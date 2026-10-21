@@ -22,3 +22,4 @@ Externförslag granskade i Weblate:
 - `Last Month`: avvisat. Befintliga `Senaste månaden` anger ett löpande tidsintervall; `Föregående månad` syftar på en kalenderperiod.
 - `Bar`: avvisat. Befintliga `Stapel` är korrekt diagramterminologi; förslaget lämnade källtexten oöversatt.
 - `Auto`: avvisat. Befintliga `Automatiskt` är korrekt; förslaget delade felaktigt ordet i `Auto matiskt`.
+- `Collector`: avvisat. Befintliga `Insamlare` är korrekt; förslaget innehöll felaktig segmentering (`Ins S amlare`).
