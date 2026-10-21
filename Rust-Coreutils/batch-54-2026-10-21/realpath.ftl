@@ -1,0 +1,15 @@
+realpath-about = Skriv ut den upplösta sökvägen
+realpath-usage = realpath [FLAGGA]... FIL...
+
+realpath-help-quiet = skriv inte ut varningar för ogiltiga sökvägar
+realpath-help-strip = ta endast bort komponenterna ”.” och ”..”, men lös inte upp symboliska länkar
+realpath-help-zero = separera utdatafilnamn med \0 i stället för nyrad
+realpath-help-logical = lös komponenterna ”..” före symboliska länkar
+realpath-help-physical = lös symboliska länkar efterhand som de påträffas (standard)
+realpath-help-canonicalize = alla komponenter utom den sista måste finnas (standard)
+realpath-help-canonicalize-existing = kanonisera genom att följa varje symbolisk länk i varje komponent i det angivna namnet rekursivt, alla komponenter måste finnas
+realpath-help-canonicalize-missing = kanonisera genom att följa varje symbolisk länk i varje komponent i det angivna namnet rekursivt, utan krav på att komponenterna finns
+realpath-help-relative-to = skriv ut den upplösta sökvägen relativt till KATALOG
+realpath-help-relative-base = skriv ut absoluta sökvägar om inte sökvägarna ligger under KATALOG
+
+realpath-invalid-empty-operand = ogiltig operand: tom sträng
