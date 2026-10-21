@@ -2,7 +2,7 @@
 
 - Release freshness: `v0.12.05-beta`, published 2026-10-19.
 - Weblate component: `afinity-yet-another-jellyfin-client/afinity/sv`.
-- Submitted 22 previously empty strings through the Weblate API.
+- Submitted 22 previously empty strings through the Weblate API as finished translations.
 - Live follow-up query reports `0` empty strings.
 - Artifact: `afinity-sv-remaining-20261021.delta.po`.
 
