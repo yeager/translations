@@ -149,7 +149,9 @@ test-after-help = Avsluta med status som bestäms av EXPRESSION.
   OBS: Ditt skal kan ha en egen version av test och eller {"["}, som normalt har företräde framför versionen som beskrivs här.
   Se skalets dokumentation för information om flaggorna som stöds.
 
-  Fel rapporteras med uttrycket återgivet och en markör under felaktigt argument när standard fel är en terminal. All annan läsning av standard fel får det vanliga meddelandet på en rad.
+  Fel rapporteras med uttrycket återgivet och en markör under det
+  felaktiga argumentet när standard fel är en terminal. All annan läsning av
+  standard fel får det vanliga meddelandet på en rad.
 
 # Felmeddelanden
 test-error-missing-closing-bracket = '{"]"}' saknas
