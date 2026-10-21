@@ -1,0 +1,11 @@
+tac-about = Skriv varje fil till standardutdata med sista raden först.
+tac-usage = tac [FLAGGA]... [FIL]...
+tac-help-before = skriv avgränsaren före i stället för efter
+tac-help-regex = tolka sekvensen som ett reguljärt uttryck
+tac-help-separator = använd STRÄNG som avgränsare i stället för nyrad
+
+# Error messages
+tac-error-invalid-regex = ogiltigt reguljärt uttryck: { $error }
+tac-error-open-error = kunde inte öppna { $filename } för läsning: { $error }
+tac-error-read-error = { $filename }: läsfel: { $error }
+tac-error-write-error = kunde inte skriva till standardutdata: { $error }
