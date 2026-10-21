@@ -18,3 +18,4 @@ Externförslag granskade i Weblate:
 - `Dashboard`: avvisat. Befintliga `Instrumentpanel` är etablerad terminologi; förslaget delade felaktigt upp sammansättningen.
 - `Last %d Hours`: avvisat. Befintliga `Senaste %d timmarna` är korrekt böjning; förslaget saknade bestämd form.
 - `Last Day`: avvisat. Befintliga `Senaste dygnet` anger en avslutad tidsperiod korrekt; förslaget `Sista dagen` ändrar innebörden.
+- `Last Week`: avvisat. Befintliga `Senaste veckan` anger rätt löpande tidsintervall; `Förra veckan` syftar på föregående kalendervecka.
