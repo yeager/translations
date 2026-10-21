@@ -1,0 +1,12 @@
+hostname-about = Visa eller ange systemets värdnamn.
+hostname-usage = hostname [FLAGGA]... [VÄRDNAMN]
+hostname-help-domain = Visa DNS-domänens namn om möjligt
+hostname-help-ip-address = Visa värdens nätverksadress(er)
+hostname-help-fqdn = Visa FQDN, fullständigt kvalificerat domännamn, som är standard
+hostname-help-short = Visa det korta värdnamnet, delen före den första punkten, om möjligt
+hostname-error-permission = hostname: du måste vara root för att ändra värdnamnet
+hostname-error-invalid-name = hostname: ogiltigt värdnamn '{ $name }'
+hostname-error-resolve-failed = hostname: kunde inte slå upp värdnamnet '{ $name }'
+hostname-error-set-hostname = misslyckades med att ange värdnamnet
+hostname-error-get-hostname = misslyckades med att hämta värdnamnet
+hostname-error-resolve-socket = misslyckades med att slå upp socketadresser
