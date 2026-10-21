@@ -1,0 +1,9 @@
+dd-error-unrecognized-operand = okänd operand '{ $operand }'
+dd-error-multiple-format-table = kan inte kombinera två av { "{" }ascii,ebcdic,ibm{ "}" }
+dd-error-multiple-case = kan inte kombinera lcase och ucase
+dd-error-multiple-block = kan inte kombinera block och unblock
+dd-error-multiple-excl = kan inte kombinera excl och nocreat
+dd-error-invalid-flag = ogiltig indataflagga: '{ $flag }'
+dd-error-conv-flag-no-match = ogiltig konvertering: '{ $flag }'
+dd-error-status-not-recognized = ogiltig statusnivå: '{ $level }'
+dd-error-invalid-number = ogiltigt tal: '{ $input }'
