@@ -15,3 +15,4 @@ Externförslag granskade i Weblate:
 - `%d Year`: avvisat. Förslaget ändrade `%d` till `% d`, vilket bryter PHP-formatsträngen.
 - `%d Minute`: avvisat. Förslaget ändrade `%d` till `% d`, vilket bryter PHP-formatsträngen.
 - `Other`: avvisat. Befintliga `Övrigt` är korrekt i gränssnittskontexten; förslaget `Annat` är mindre precis.
+- `Dashboard`: avvisat. Befintliga `Instrumentpanel` är etablerad terminologi; förslaget delade felaktigt upp sammansättningen.
