@@ -30,3 +30,4 @@ Externförslag granskade i Weblate:
 - `Runtime`: avvisat. Befintliga `Körtid` är korrekt; förslaget blandade in `Speltid` och delade ord fel.
 - `Save As`: avvisat. Befintliga `Spara som` är korrekt; förslaget lade till ett obehövligt mittpunktstecken.
 - `Re-Alert Cycle`: avvisat. Befintliga `Cykel för upprepat larm` är korrekt; förslaget behöll den engelska källtexten.
+- `Exclude`: avvisat. Befintliga `Uteslut` är korrekt och konsekvent med befintliga filterkommandon; förslaget bytte endast till synonymen `Exkludera`.
