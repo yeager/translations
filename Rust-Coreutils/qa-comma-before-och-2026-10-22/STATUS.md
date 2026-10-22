@@ -7,3 +7,7 @@ Kontroller:
 - `moz-fluent-lint`: godkänd
 - `svlang`: inga kvarvarande relevanta träffar för komma före `och`, tankstreck, särskrivning, de/dem eller kända stavfel
 - Gitleaks: inga hemligheter hittades
+
+## Hosted Weblate-import
+
+2026-10-22 accepterade Hosted Weblate 9 uppdaterade enheter. De tio rättade kommatecknen förekom i nio enheter; båda ändringarna i `kill` finns i samma enhet. 275 oförändrade enheter hoppades över och inga enheter saknades.
