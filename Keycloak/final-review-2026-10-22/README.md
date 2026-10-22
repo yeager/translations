@@ -7,6 +7,7 @@ This archive contains final Hosted Weblate exports after full manual review of e
 | Admin backend | 121 | 121 |
 | Base E-mail templates | 73 | 73 |
 | Base Login theme | 525 | 525 |
+| Glossary | 41 | 41 |
 
 Validation completed on the archived exports:
 
