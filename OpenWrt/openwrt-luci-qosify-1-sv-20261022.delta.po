@@ -1,0 +1,228 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenWrt LuCI\n"
+"PO-Revision-Date: 2026-10-15 10:04+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "Custom feed file cleared, the maintainers feeds are used again."
+msgstr ""
+"Den anpassade filen för paketkällor har rensats. Underhållarnas paketkällor "
+"används igen."
+
+msgid "%d interface"
+msgid_plural "%d interfaces"
+msgstr[0] "%d gränssnitt"
+msgstr[1] "%d gränssnitt"
+
+msgid "%d rule"
+msgid_plural "%d rules"
+msgstr[0] "%d regel"
+msgstr[1] "%d regler"
+
+msgid "%d section"
+msgid_plural "%d sections"
+msgstr[0] "%d avsnitt"
+msgstr[1] "%d avsnitt"
+
+msgid "%s (current)"
+msgstr "%s (aktuell)"
+
+msgid "%s (from bandwidth)"
+msgstr "%s (från bandbredd)"
+
+msgid ""
+"%s and %s are replaced with the templates shipped by the qosify package, and"
+" shaping is left disabled."
+msgstr ""
+"%s och %s ersätts med mallarna som följer med qosify-paketet och "
+"trafikformning förblir inaktiverad."
+
+msgid ""
+"%s came back empty although it is %d bytes on disk — refusing to overwrite "
+"it"
+msgstr "%s blev tom trots att den är %d byte på disken. Den skrivs inte över"
+
+msgid "%s changed on disk — your unsaved edits are still in the editor."
+msgstr ""
+"%s har ändrats på disken. Dina osparade ändringar finns fortfarande i "
+"redigeraren."
+
+msgid ""
+"%s could not be read — the editor is left empty and will not be saved over "
+"it."
+msgstr ""
+"%s kunde inte läsas. Redigeraren lämnas tom och filen skrivs inte över."
+
+msgid ""
+"%s has changed since this editor was loaded. Saving now discards those "
+"changes."
+msgstr ""
+"%s har ändrats sedan redigeraren lästes in. Om du sparar nu förkastas "
+"ändringarna."
+
+msgid ""
+"%s is %d bytes on disk but was never loaded into the editor — refusing to "
+"truncate it. Reload the page first."
+msgstr ""
+"%s är %d byte på disken men har aldrig lästs in i redigeraren. Den trunkeras"
+" inte. Läs om sidan först."
+
+msgid "%s is a list in this section — edit %s directly"
+msgstr "%s är en lista i det här avsnittet. Redigera %s direkt"
+
+msgid ""
+"%s is not in the defaults list — qosify does not load it, so the Rules tab "
+"has no effect"
+msgstr ""
+"%s finns inte i listan med standardvärden. qosify läser inte in den, så "
+"fliken Regler har ingen effekt"
+
+msgid ""
+"%s is set to \"%s\" — qosify converts it with atoi(), so anything but a non-"
+"zero number means off"
+msgstr ""
+"%s är satt till ”%s”. qosify konverterar det med atoi(), så allt annat än "
+"ett tal som inte är noll innebär av"
+
+msgid "%s quick settings"
+msgstr "Snabbinställningar för %s"
+
+msgid "%s was not written: %s"
+msgstr "%s kunde inte skrivas: %s"
+
+msgid "%s was reset but %s was not written: %s"
+msgstr "%s återställdes men %s kunde inte skrivas: %s"
+
+msgid ""
+"%s, applied — qosify did not answer on ubus, so shaping could not be "
+"checked."
+msgstr ""
+"%s har tillämpats. qosify svarade inte på ubus, så trafikformningen kunde "
+"inte kontrolleras."
+
+msgid "%s: %s \"%s\" is not a class, codepoint or 0-63 — qosify ignores it"
+msgstr ""
+"%s: %s ”%s” är ingen klass, kodpunkt eller ett tal från 0 till 63. qosify "
+"ignorerar den"
+
+msgid ""
+"%s: %s \"%s\" is not a class, codepoint or 0-63 — qosify rejects the whole "
+"config and interface changes are not applied"
+msgstr ""
+"%s: %s ”%s” är ingen klass, kodpunkt eller ett tal från 0 till 63. qosify "
+"avvisar hela konfigurationen och gränssnittsändringar tillämpas inte"
+
+msgid ""
+"%s: %s \"%s\" is not a codepoint or 0-63 — qosify drops this class and the "
+"rules using it"
+msgstr ""
+"%s: %s ”%s” är ingen kodpunkt eller ett tal från 0 till 63. qosify tar bort "
+"klassen och reglerna som använder den"
+
+msgid ""
+"%s: %s cannot be checked — write it as one plain or fully quoted value, with"
+" no backslash"
+msgstr ""
+"%s: %s kan inte kontrolleras. Skriv det som ett vanligt eller helt citerat "
+"värde utan omvänt snedstreck"
+
+msgid ""
+"%s: %s contains shell metacharacters — qosify runs the tc command with sh -c"
+" as root, so they would break it or be executed"
+msgstr ""
+"%s: %s innehåller skalmetatecken. qosify kör tc-kommandot med sh -c som "
+"root, så de kan förstöra kommandot eller köras"
+
+msgid "(this qosify build has no NQB)"
+msgstr "(den här versionen av qosify saknar NQB)"
+
+msgid "A section name may only contain letters, digits and underscores."
+msgstr ""
+"Ett avsnittsnamn får bara innehålla bokstäver, siffror och understreck."
+
+msgid "Adds atm, noatm or ptm when overhead_type is manual"
+msgstr "Lägger till atm, noatm eller ptm när overhead_type är manual"
+
+msgid "Adds ether-vlan once per level (1 or 2)"
+msgstr "Lägger till ether-vlan en gång per nivå, 1 eller 2"
+
+msgid "Adds mpu <bytes>"
+msgstr "Lägger till mpu <byte>"
+
+msgid "Adds overhead <bytes> when overhead_type is manual"
+msgstr "Lägger till overhead <byte> när overhead_type är manual"
+
+msgid "An empty %s stops all shaping. Continue?"
+msgstr "Ett tomt %s stoppar all trafikformning. Fortsätt?"
+
+msgid "Automatic download rate"
+msgstr "Automatisk hämtningshastighet"
+
+msgid "Autostart state unknown — rpcd did not answer"
+msgstr "Status för automatisk start är okänd. rpcd svarade inte"
+
+msgid "Backup"
+msgstr "Säkerhetskopia"
+
+msgid ""
+"Bandwidth for both directions, where bandwidth_up or bandwidth_down is not "
+"set"
+msgstr ""
+"Bandbredd för båda riktningarna om bandwidth_up eller bandwidth_down inte "
+"har angetts"
+
+msgid "Basic"
+msgstr "Grundläggande"
+
+msgid "CAKE diffserv mode"
+msgstr "CAKE-diffservläge"
+
+msgid "CAKE egress options"
+msgstr "CAKE-flaggor för utgående trafik"
+
+msgid "CAKE egress options, space separated."
+msgstr "CAKE-flaggor för utgående trafik, separerade med mellanslag."
+
+msgid "CAKE ingress options"
+msgstr "CAKE-flaggor för ingående trafik"
+
+msgid "CAKE ingress options, space separated."
+msgstr "CAKE-flaggor för ingående trafik, separerade med mellanslag."
+
+msgid "CAKE options for ingress + egress"
+msgstr "CAKE-flaggor för ingående och utgående trafik"
+
+msgid ""
+"CAKE overhead keyword added to options; manual uses overhead and "
+"overhead_encap"
+msgstr ""
+"Nyckelordet overhead för CAKE läggs till i flaggorna. manual använder "
+"overhead och overhead_encap"
+
+msgid "CAKE overhead keyword. Use none if unsure."
+msgstr "Nyckelordet overhead för CAKE. Använd none om du är osäker."
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Check Devices"
+msgstr "Kontrollera enheter"
+
+msgid "Choose file…"
+msgstr "Välj fil…"
+
+msgid "Classes"
+msgstr "Klasser"
+
+msgid "Cleanup exited with code %d"
+msgstr "Rensningen avslutades med koden %d"
+
+msgid "Clear configuration"
+msgstr "Rensa konfiguration"
