@@ -1,0 +1,187 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenWrt LuCI\n"
+"PO-Revision-Date: 2026-10-15 10:04+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "Ingress CAKE options"
+msgstr "CAKE-flaggor för ingående trafik"
+
+msgid "Like dns:... but only matches cname entries"
+msgstr "Som dns:... men matchar bara cname-poster"
+
+msgid ""
+"Line %d is longer than 1023 characters — the rule loader reads fixed-size "
+"lines and would split it, comment included"
+msgstr ""
+"Rad %d är längre än 1 023 tecken. Regelinläsaren läser rader med fast "
+"storlek och skulle dela den, även kommentaren"
+
+msgid "List of files with port/IP/host mappings"
+msgstr "Lista med filer som innehåller mappningar för port, IP och värd"
+
+msgid "Loading..."
+msgstr "Läser in…"
+
+msgid "Maintenance"
+msgstr "Underhåll"
+
+msgid "Manual overhead"
+msgstr "Manuell overhead"
+
+msgid "Mapping file syntax"
+msgstr "Syntax för mappningsfil"
+
+msgid "Mapping files reloaded."
+msgstr "Mappningsfilerna har lästs in igen."
+
+msgid ""
+"Match not loaded by qosify on line %s — ports 1-65534, one IPv4/IPv6 address"
+" (no CIDR or %%zone), or dns:, dns_c:"
+msgstr ""
+"Matchning på rad %s läses inte in av qosify. Portar 1 till 65534, en IPv4- "
+"eller IPv6-adress utan CIDR eller %%zone, eller dns:, dns_c:"
+
+msgid "Maximum average packet length for marking a flow as priority"
+msgstr ""
+"Maximal genomsnittlig paketlängd för att märka ett flöde som prioriterat"
+
+msgid "Minimum packet unit (MPU)"
+msgstr "Minsta paketenhet, MPU"
+
+msgid "Modified"
+msgstr "Ändrad"
+
+msgid ""
+"More than two fields on line %s — qosify reads the rest of the line as the "
+"DSCP value and skips it"
+msgstr ""
+"När rad %s har fler än två fält läser qosify resten av raden som DSCP-värde "
+"och hoppar över den"
+
+msgid "NAT awareness"
+msgstr "NAT-kännedom"
+
+msgid "Netdev to enable QoS on. Required."
+msgstr "Nätverksenhet som QoS ska aktiveras på. Krävs."
+
+msgid "No CAKE tin statistics."
+msgstr "Ingen statistik för CAKE-tin."
+
+msgid "No DNS entries."
+msgstr "Inga DNS-poster."
+
+msgid "No DSCP target on line %s — qosify skips single-field lines"
+msgstr "Inget DSCP-mål på rad %s. qosify hoppar över rader med ett enda fält"
+
+msgid "No classes defined in %s"
+msgstr "Inga klasser har definierats i %s"
+
+msgid "No file selected"
+msgstr "Ingen fil har valts"
+
+msgid "No output."
+msgstr "Inga utdata."
+
+msgid "No per-class counters."
+msgstr "Inga räknare per klass."
+
+msgid "Number of packets per second to trigger bulk flow detection"
+msgstr "Antal paket per sekund som aktiverar identifiering av bulkflöde"
+
+msgid "Only override the DSCP value if it is zero"
+msgstr "Åsidosätt DSCP-värdet endast om det är noll"
+
+msgid ""
+"Only sent with host isolation on — add nat to common CAKE options to force "
+"it"
+msgstr ""
+"Skickas endast när värdisolering är aktiverad. Lägg till nat i vanliga CAKE-"
+"flaggor om du vill tvinga det"
+
+msgid "Overhead"
+msgstr "Overhead"
+
+msgid "Overhead preset"
+msgstr "Förinställd overhead"
+
+msgid "Overwrite"
+msgstr "Skriv över"
+
+msgid "Overwrite config files"
+msgstr "Skriv över konfigurationsfiler"
+
+msgid ""
+"POSIX.2 extended regular expression for matching hostnames. Only works if "
+"dns lookups are passed to qosify via the add_dns_host ubus call."
+msgstr ""
+"POSIX.2-utökat reguljärt uttryck för matchning av värdnamn. Fungerar endast "
+"om DNS-uppslag skickas till qosify via ubus-anropet add_dns_host."
+
+msgid "Port must be a number or a range (4500, 5060-5061)."
+msgstr "Porten måste vara ett tal eller ett intervall, 4500 eller 5060-5061."
+
+msgid "Queueing mode"
+msgstr "Köläge"
+
+msgid "Quick Add"
+msgstr "Snabbtillägg"
+
+msgid "Quick Add: %s"
+msgstr "Snabbtillägg: %s"
+
+msgid "Re-check devices"
+msgstr "Kontrollera enheter igen"
+
+msgid "Re-checking devices..."
+msgstr "Kontrollerar enheter igen…"
+
+msgid "Re-read the mapping files only"
+msgstr "Läs endast om mappningsfilerna"
+
+msgid "Re-reading the mapping files..."
+msgstr "Läser om mappningsfilerna…"
+
+msgid "Reading tc output..."
+msgstr "Läser tc-utdata…"
+
+msgid "Reference"
+msgstr "Referens"
+
+msgid "Reload Rules"
+msgstr "Läs in regler igen"
+
+msgid "Reload failed: %s"
+msgstr "Kunde inte läsa in igen: %s"
+
+msgid "Requires write access."
+msgstr "Kräver skrivåtkomst."
+
+msgid "Reset"
+msgstr "Återställ"
+
+msgid "Reset to defaults"
+msgstr "Återställ till standardvärden"
+
+msgid "Restore"
+msgstr "Återställ"
+
+msgid "Rules"
+msgstr "Regler"
+
+msgid "Running — Shaping Unknown"
+msgstr "Kör, trafikformning okänd"
+
+msgid ""
+"Section name is the class name that rules and dscp_* values refer to. "
+"qosify.init reads config alias the same way as config class."
+msgstr ""
+"Avsnittsnamnet är klassnamnet som regler och dscp_*-värden refererar till. "
+"qosify.init läser config alias på samma sätt som config class."
