@@ -1,0 +1,8 @@
+Kunde inte skicka inbjudan: {{error}}
+Den maximala åldern i sekunder som autentiseringsreferensvärdet är giltigt för i en SSO-session. När protokollmapparen AMR (Authentication Method Reference) används kommer AMR endast att betraktas som giltig och fyllas i tokenen om autentiseringen slutfördes inom den angivna maxåldern.
+Klientomfång saknas
+Policy för tillägg av mottagarsubjekt
+Styr vilka subjekt mottagaren får lägga till i sin egen ström via ändpunkten för att lägga till subjekt. AUTHENTICATED tillåter endast användare med en aktiv eller offlinesession eller ett beviljat samtycke för den här klienten. ANY låter mottagaren lägga till valfri användare eller organisation i realmen. NONE avvisar alla tillägg som initieras av mottagaren. Tillägg som görs på fliken Subjekt begränsas inte av denna policy och mottagaren kan aldrig lägga till ett subjekt som har ignorerats där.
+NONE (mottagaren kan inte lägga till subjekt)
+AUTHENTICATED (endast användare som har loggat in via den här klienten)
+ANY (valfri användare eller organisation i realmen)
