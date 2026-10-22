@@ -14,3 +14,7 @@ Kontroller före uppladdning:
 - Platshållare: kontrollerade mot engelsk källfil.
 - Hunspell: återstående träffar är produktnamn, protokollnamn och etablerade tekniska termer.
 - Gitleaks: inga hemligheter hittades.
+
+## Uppladdning
+
+Filen skickades till Hosted Weblate som granskad översättning den 22 oktober 2026. Weblate behandlade 4 274 strängar, hoppade över 3 753 och uppdaterade 520. Komponenten visar därefter 4 274 av 4 274 godkända strängar, alltså 100 %.
