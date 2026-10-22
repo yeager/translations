@@ -1,0 +1,189 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenWrt LuCI\n"
+"PO-Revision-Date: 2026-10-15 10:04+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "A legacy IPsec configuration was found."
+msgstr "En äldre IPsec-konfiguration hittades."
+
+msgid ""
+"Before migration, the file '/etc/config/ipsec' is moved to "
+"'/etc/config/ipsec_bak'."
+msgstr ""
+"Före migreringen flyttas filen ”/etc/config/ipsec” till "
+"”/etc/config/ipsec_bak”."
+
+msgid "Child mode"
+msgstr "Underordnat läge"
+
+msgid ""
+"Connections, Encryption Proposals, Children, Locals and Remotes may not "
+"share the same names."
+msgstr ""
+"Anslutningar, krypteringsförslag, underordnade anslutningar, lokala "
+"anslutningar och fjärranslutningar får inte ha samma namn."
+
+msgid "Custom proposal"
+msgstr "Eget förslag"
+
+msgid "Define Connection Children to be used in Remote Configurations."
+msgstr ""
+"Definiera underordnade anslutningar som ska användas i fjärrkonfigurationer."
+
+msgid "Define Connection IKE Configurations."
+msgstr "Definiera IKE-konfigurationer för anslutningar."
+
+msgid "Define local IKE authentication rounds referenced from connections."
+msgstr ""
+"Definiera lokala IKE-autentiseringsomgångar som refereras från anslutningar."
+
+msgid "Define remote IKE authentication rounds referenced from connections."
+msgstr ""
+"Definiera fjärranslutna IKE-autentiseringsomgångar som refereras från "
+"anslutningar."
+
+msgid "EAP ID"
+msgstr "EAP-ID"
+
+msgid "EAP identity to use with the remote peer"
+msgstr "EAP-identitet som ska användas med fjärrmotparten"
+
+msgid "Each section corresponds to one authentication round."
+msgstr "Varje avsnitt motsvarar en autentiseringsomgång."
+
+msgid ""
+"It must be migrated to the new swanctl uci schema in '/etc/config/ipsec' "
+"before it can be managed here."
+msgstr ""
+"Den måste migreras till det nya UCI-schemat för swanctl i "
+"”/etc/config/ipsec” innan den kan hanteras här."
+
+msgid "Local"
+msgstr "Lokal"
+
+msgid "Local Authentication"
+msgstr "Lokal autentisering"
+
+msgid "Local authentication sections used for this connection."
+msgstr "Lokala autentiseringsavsnitt som används för den här anslutningen."
+
+msgid ""
+"Manually defining a proposal can break compatibility with peers or cause "
+"connection failures."
+msgstr ""
+"Att definiera ett förslag manuellt kan bryta kompatibiliteten med motparter "
+"eller orsaka anslutningsfel."
+
+msgid "Migrate"
+msgstr "Migrera"
+
+msgid "Migrate IPsec configuration"
+msgstr "Migrera IPsec-konfiguration"
+
+msgid "Migrating IPsec configuration…"
+msgstr "Migrerar IPsec-konfiguration …"
+
+msgid "Migration failed: %s"
+msgstr "Migreringen misslyckades: %s"
+
+msgid "Please create a Children first"
+msgstr "Skapa först en underordnad anslutning"
+
+msgid "Please create a Local section first"
+msgstr "Skapa först ett lokalt avsnitt"
+
+msgid "Please create a Remote section first"
+msgstr "Skapa först ett fjärranslutet avsnitt"
+
+msgid "Remote"
+msgstr "Fjärransluten"
+
+msgid "Remote Authentication"
+msgstr "Fjärransluten autentisering"
+
+msgid "Remote authentication sections used for this connection."
+msgstr ""
+"Fjärranslutna autentiseringsavsnitt som används för den här anslutningen."
+
+msgid "The Children containing the ESP (phase 2) section"
+msgstr "De underordnade anslutningar som innehåller ESP-avsnittet, fas 2"
+
+msgid "The migration may require manual intervention."
+msgstr "Migreringen kan kräva manuella åtgärder."
+
+msgid "Therefore, the VPN is not restarted."
+msgstr "Därför startas VPN inte om."
+
+msgid "Transport"
+msgstr "Transport"
+
+msgid "Use combinations like child1_phase1."
+msgstr "Använd kombinationer som child1_phase1."
+
+msgid "Use custom proposal"
+msgstr "Använd eget förslag"
+
+msgid "Using this option only if you know exactly what you are doing."
+msgstr "Använd bara det här alternativet om du vet exakt vad du gör."
+
+msgid "Using this setting may prevent future updates or migrations."
+msgstr ""
+"Den här inställningen kan förhindra framtida uppdateringar eller "
+"migreringar."
+
+msgid "Warning: The migration will drop all IPsec VPN connections."
+msgstr "Varning: Migreringen tar bort alla IPsec VPN-anslutningar."
+
+msgid "When enabled, you can specify your own proposal string."
+msgstr "När det är aktiverat kan du ange en egen förslagssträng."
+
+msgid "You are responsible for maintaining compatibility!"
+msgstr "Du ansvarar för att behålla kompatibiliteten!"
+
+msgid "default"
+msgstr "standard"
+
+msgid "unknown error"
+msgstr "okänt fel"
+
+msgid "Certificate to use for authentication, relative to %s."
+msgstr "Certifikat som ska användas för autentisering, relativt till %s."
+
+msgid "ESP (phase 2)"
+msgstr "ESP, fas 2"
+
+msgid "IKE (phase 1)"
+msgstr "IKE, fas 1"
+
+msgid "IKEv1 is deprecated and may be removed in future updates."
+msgstr "IKEv1 är föråldrat och kan tas bort i framtida uppdateringar."
+
+msgid ""
+"If more than 7 are stored, those that exceed this limit will not be included"
+" in the swanctl configuration."
+msgstr ""
+"Om fler än 7 lagras tas de som överskrider gränsen inte med i swanctl-"
+"konfigurationen."
+
+msgid "Multiple Key Exchanges"
+msgstr "Flera nyckelutbyten"
+
+msgid "Please upgrade your connections to IKEv2."
+msgstr "Uppgradera anslutningarna till IKEv2."
+
+msgid "Pre-shared Key"
+msgstr "Delad nyckel"
+
+msgid "Private key to use with the certificate, relative to %s."
+msgstr "Privat nyckel som ska användas med certifikatet, relativt till %s."
+
+msgid "Public Key"
+msgstr "Offentlig nyckel"
