@@ -1,0 +1,963 @@
+# Translators:
+# Peter Magnusson <peter@birchroad.se>, 2026
+# Daniel Nylander <po@danielnylander.se>, 2026
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-10-15 10:04+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/components/AppTemplate.vue:60
+msgid "Loading actions"
+msgstr "Laddar åtgärder"
+
+#: src/components/AppTemplate.vue:64
+msgid "Clear selection"
+msgstr "Nullstill valg"
+
+#: src/components/AppTemplate.vue:66
+msgid "%{count} selected, clear selection"
+msgstr "%{count} markerade, rensa markeringen"
+
+#: src/components/AppTemplate.vue:78
+msgid "%{count} selected"
+msgstr "%{count} valda"
+
+#: src/components/AppTemplate.vue:174
+msgid "No items selected."
+msgstr "Inga artiklar valda."
+
+#: src/components/AppTemplate.vue:176
+msgid "%{ amount } item selected. Actions are available above the table."
+msgid_plural ""
+"%{ amount } items selected. Actions are available above the table."
+msgstr[0] ""
+"%{ belopp } objekt valt. Åtgärder finns tillgängliga ovanför tabellen."
+msgstr[1] ""
+"%{ antal } objekt valda. Åtgärder finns tillgängliga ovanför tabellen."
+
+#: src/components/Extensions/ExtensionsList.vue:8 src/views/Extensions.vue:24
+msgid "No apps found"
+msgstr "Inga appar hittades"
+
+#: src/components/Extensions/ExtensionsList.vue:11
+#: src/components/Groups/GroupsList.vue:11
+#: src/components/Spaces/SpacesList.vue:11 src/views/Users.vue:114
+msgid "Try refining the search term or filters to get results"
+msgstr "Försök att förfina söktermen eller filtren för att få resultat"
+
+#: src/components/Extensions/ExtensionsList.vue:57
+#: src/components/Extensions/ExtensionsList.vue:165
+msgid "Active"
+msgstr "Aktiv"
+
+#: src/components/Extensions/ExtensionsList.vue:69
+msgid "Incompatible OpenCloud version"
+msgstr "Inkompatibel OpenCloud-version"
+
+#: src/components/Extensions/ExtensionsList.vue:135
+msgid ""
+"This app version requires an OpenCloud version between %{min} and %{max}."
+msgstr ""
+"Den här appversionen kräver en OpenCloud-version mellan %{min} och %{max}."
+
+#: src/components/Extensions/ExtensionsList.vue:140
+msgid "This app version requires OpenCloud %{min} or higher."
+msgstr "Den här appversionen kräver OpenCloud %{min} eller senare."
+
+#: src/components/Extensions/ExtensionsList.vue:144
+msgid "This app version requires OpenCloud %{max} or lower."
+msgstr "Den här appversionen kräver OpenCloud %{max} eller äldre."
+
+#: src/components/Extensions/ExtensionsList.vue:152
+msgid "The current OpenCloud version is %{version}."
+msgstr "Den aktuella OpenCloud-versionen är %{version}."
+
+#: src/components/Extensions/ExtensionsList.vue:156
+msgid "The app could not be loaded, most likely because of this."
+msgstr "Appen kunde troligen inte läsas in på grund av detta."
+
+#: src/components/Extensions/ExtensionsList.vue:166
+msgid "Incompatible"
+msgstr "Inkompatibel"
+
+#: src/components/Extensions/ExtensionsList.vue:167
+msgid "Failed"
+msgstr "Misslyckades"
+
+#: src/components/Extensions/ExtensionsList.vue:189
+#: src/components/Spaces/SpacesList.vue:283
+msgid "Name"
+msgstr "Namn"
+
+#: src/components/Extensions/ExtensionsList.vue:198
+#: src/components/General/InfoSection.vue:14
+msgid "Version"
+msgstr "Version"
+
+#: src/components/Extensions/ExtensionsList.vue:203
+msgid "Min. OpenCloud"
+msgstr "Min. OpenCloud"
+
+#: src/components/Extensions/ExtensionsList.vue:210
+msgid "Max. OpenCloud"
+msgstr "Max. OpenCloud"
+
+#: src/components/Extensions/ExtensionsList.vue:217
+#: src/components/Spaces/SpacesList.vue:320
+msgid "Status"
+msgstr "Status"
+
+#: src/components/General/AnnouncementSection.vue:4
+msgid "Announcement banner"
+msgstr "Informationsbanner"
+
+#: src/components/General/AnnouncementSection.vue:6
+msgid ""
+"Shows a banner on top for all users. Do not include sensitive information."
+msgstr ""
+"Visar en banner högst upp för alla användare. Inkludera inte känslig "
+"information."
+
+#: src/components/General/AnnouncementSection.vue:10
+#: src/components/General/AnnouncementSection.vue:13
+#: src/components/General/AnnouncementSection.vue:15
+msgid "Banner"
+msgstr "Banner"
+
+#: src/components/General/AnnouncementSection.vue:17
+msgid ""
+"Displayed text in the banner. Clicking it opens the details dialog. Visible "
+"only when Show banner is enabled. Users can dismiss it until the page is "
+"reloaded."
+msgstr ""
+"Text som visas i bannern. När man klickar på den öppnas dialogrutan med "
+"detaljer. Syns bara när Visa banner är aktiverat. Användare kan avfärda den "
+"tills sidan laddas om."
+
+#: src/components/General/AnnouncementSection.vue:27
+#: src/components/General/AnnouncementSection.vue:29
+#: src/components/General/AnnouncementSection.vue:110
+msgid "Banner details"
+msgstr "Bannerdetaljer"
+
+#: src/components/General/AnnouncementSection.vue:31
+msgid ""
+"The details are shown in a dialog when users click the banner. They can be "
+"formatted using Markdown. Leave empty to make the banner non-clickable."
+msgstr ""
+"Detaljerna visas i en dialogruta när användarna klickar på bannern. De kan "
+"formateras med Markdown. Lämna tomt om bannern inte ska vara klickbar."
+
+#: src/components/General/AnnouncementSection.vue:49
+#: src/components/General/AnnouncementSection.vue:55
+msgid "Show banner"
+msgstr "Visa banner"
+
+#: src/components/General/AnnouncementSection.vue:57
+msgid ""
+"Show the banner to all users. It can only be enabled once a banner text has "
+"been saved."
+msgstr ""
+"Visa bannern för alla användare. Den kan bara aktiveras när en bannertext "
+"har sparats."
+
+#: src/components/General/AnnouncementSection.vue:65
+msgid "Preview"
+msgstr "Förhandsvisa"
+
+#: src/components/General/AnnouncementSection.vue:73
+msgid "Save"
+msgstr "Spara"
+
+#: src/components/General/AnnouncementSection.vue:151
+msgid "The announcement is too large. Please shorten the info text."
+msgstr "Meddelandet är för långt. Förkorta informationstexten."
+
+#: src/components/General/AnnouncementSection.vue:153
+msgid "You are not allowed to manage the announcement banner."
+msgstr "Du har inte behörighet att hantera informationsbannern."
+
+#: src/components/General/AnnouncementSection.vue:173
+msgid "Failed to load the announcement banner"
+msgstr "Det gick inte att läsa in informationsbannern"
+
+#: src/components/General/AnnouncementSection.vue:196
+msgid "Announcement banner updated"
+msgstr "Informationsbannern har uppdaterats"
+
+#: src/components/General/AnnouncementSection.vue:197
+msgid "Announcement banner removed"
+msgstr "Informationsbannern har tagits bort"
+
+#: src/components/General/AnnouncementSection.vue:200
+#: src/components/General/AnnouncementSection.vue:224
+msgid "Failed to update the announcement banner"
+msgstr "Det gick inte att uppdatera informationsbannern"
+
+#: src/components/General/AnnouncementSection.vue:219
+msgid "Announcement banner enabled"
+msgstr "Informationsbannern har aktiverats"
+
+#: src/components/General/AnnouncementSection.vue:220
+msgid "Announcement banner disabled"
+msgstr "Informationsbannern har inaktiverats"
+
+#: src/components/General/AnnouncementSection.vue:241
+msgid "Previewing in this session only, not saved"
+msgstr "Förhandsvisas endast i den här sessionen och sparas inte"
+
+#: src/components/General/InfoSection.vue:11
+msgid "Edition"
+msgstr "Utgåva"
+
+#: src/components/Groups/CreateGroupModal.vue:7
+#: src/components/Groups/GroupsList.vue:210
+#: src/components/Groups/SideBar/DetailsPanel.vue:29
+#: src/components/Groups/SideBar/EditPanel.vue:9
+msgid "Group name"
+msgstr "Gruppnamn"
+
+#: src/components/Groups/CreateGroupModal.vue:64
+#: src/components/Groups/SideBar/EditPanel.vue:77
+msgid "Group name cannot be empty"
+msgstr "Gruppnamnet får inte vara tomt"
+
+#: src/components/Groups/CreateGroupModal.vue:68
+#: src/components/Groups/SideBar/EditPanel.vue:82
+msgid "Group name cannot exceed 255 characters"
+msgstr "Gruppnamnet får inte innehålla fler än 255 tecken"
+
+#: src/components/Groups/CreateGroupModal.vue:82
+#: src/components/Groups/SideBar/EditPanel.vue:97
+msgid "Group \"%{groupName}\" already exists"
+msgstr "Gruppen \"%{groupName}\" finns redan"
+
+#: src/components/Groups/CreateGroupModal.vue:98
+msgid "Group was created successfully"
+msgstr "Gruppen skapades framgångsrikt"
+
+#: src/components/Groups/CreateGroupModal.vue:103
+msgid "Failed to create group"
+msgstr "Det gick inte att skapa gruppen"
+
+#: src/components/Groups/GroupsList.vue:8 src/views/Groups.vue:51
+msgid "No groups found"
+msgstr "Inga grupper hittades"
+
+#: src/components/Groups/GroupsList.vue:33
+msgid "Select all groups"
+msgstr "Välj alla grupper"
+
+#: src/components/Groups/GroupsList.vue:72
+#: src/components/Groups/GroupsList.vue:73
+#: src/components/Spaces/SpacesList.vue:444
+#: src/components/Users/UsersList.vue:80 src/components/Users/UsersList.vue:81
+msgid "Show details"
+msgstr "Visa detaljer"
+
+#: src/components/Groups/GroupsList.vue:82
+#: src/components/Groups/GroupsList.vue:83
+#: src/components/Users/UsersList.vue:89 src/components/Users/UsersList.vue:90
+#: src/composables/actions/groups/useGroupActionsEdit.ts:13
+#: src/composables/actions/users/useUserActionsEdit.ts:13
+msgid "Edit"
+msgstr "Redigera"
+
+#: src/components/Groups/GroupsList.vue:187
+msgid "This group is read-only and can't be edited"
+msgstr "Denna grupp är skrivskyddad och kan inte redigeras"
+
+#: src/components/Groups/GroupsList.vue:194
+msgid "%{groupCount} groups in total"
+msgstr "%{groupCount} grupper totalt"
+
+#: src/components/Groups/GroupsList.vue:197
+msgid "%{groupCount} matching groups"
+msgstr "%{groupCount} matchande grupper"
+
+#: src/components/Groups/GroupsList.vue:218
+#: src/components/Spaces/SpacesList.vue:337
+#: src/components/Users/UsersList.vue:268
+msgid "Actions"
+msgstr "Åtgärder"
+
+#: src/components/Groups/GroupsList.vue:251
+msgid "Select %{ group }"
+msgstr "Välj %{ grupp }"
+
+#: src/components/Groups/SideBar/DetailsPanel.vue:5
+msgid "Select a group to view details"
+msgstr "Välj en grupp för att visa detaljer"
+
+#: src/components/Groups/SideBar/DetailsPanel.vue:27
+msgid "Overview of the information about the selected group"
+msgstr "Översikt över informationen om den valda gruppen"
+
+#: src/components/Groups/SideBar/DetailsPanel.vue:50
+#: src/components/Users/SideBar/DetailsPanel.vue:113
+msgid "Items"
+msgstr "Objekt"
+
+#: src/components/Groups/SideBar/DetailsPanel.vue:51
+msgid "%{count} group"
+msgid_plural "%{count} groups"
+msgstr[0] "%{count} grupp"
+msgstr[1] "%{count} grupper"
+
+#: src/components/Groups/SideBar/DetailsPanel.vue:58
+msgid "%{count} groups selected"
+msgstr "%{count} grupper valda"
+
+#: src/components/Groups/SideBar/EditPanel.vue:5
+msgid "Group"
+msgstr "Grupp"
+
+#: src/components/Groups/SideBar/EditPanel.vue:67
+msgid "Failed to edit group"
+msgstr "Gruppredigering misslyckades"
+
+#: src/components/Groups/SideBar/MembersPanel.vue:7
+#: src/components/Spaces/SideBar/MembersPanel.vue:7
+msgid "Filter members"
+msgstr "Filtrera medlemmar"
+
+#: src/components/Groups/SideBar/MembersPanel.vue:8
+#: src/components/Spaces/SideBar/MembersPanel.vue:8
+msgid "Search for members"
+msgstr "Sök efter medlemmar"
+
+#: src/components/Groups/SideBar/MembersPanel.vue:14
+#: src/components/Spaces/SideBar/MembersPanel.vue:14
+msgid "No members found"
+msgstr "Inga medlemmar hittades"
+
+#: src/components/Groups/SideBar/MembersPanel.vue:17
+#: src/components/Spaces/SpacesList.vue:296 src/views/Groups.vue:158
+#: src/views/Spaces.vue:190
+msgid "Members"
+msgstr "Medlemmar"
+
+#: src/components/Groups/SideBar/MembersPanel.vue:23
+#: src/components/Spaces/SideBar/MembersPanel.vue:35
+msgid "Member list pagination"
+msgstr "Paginering av medlemslista"
+
+#: src/components/Groups/SideBar/MembersPanel.vue:29
+msgid "Loading members"
+msgstr "Laddar medlemmar"
+
+#: src/components/Groups/SideBar/MembersPanel.vue:92
+msgid "Failed to load group members"
+msgstr "Det gick inte att läsa in gruppmedlemmar"
+
+#: src/components/Spaces/SideBar/MembersPanel.vue:27
+msgid "Custom role"
+msgstr "Anpassad roll"
+
+#: src/components/Spaces/SpacesList.vue:8 src/views/Spaces.vue:40
+msgid "No spaces found"
+msgstr "Inga Spacen hittades"
+
+#: src/components/Spaces/SpacesList.vue:31
+msgid "Select spaces"
+msgstr "Välj arbetsytor"
+
+#: src/components/Spaces/SpacesList.vue:34
+msgid "Select all spaces"
+msgstr "Markera alla arbetsytor"
+
+#: src/components/Spaces/SpacesList.vue:197
+msgid "%{spaceCount} space in total"
+msgid_plural "%{spaceCount} spaces in total"
+msgstr[0] "%{spaceCount} arbetsyta totalt"
+msgstr[1] "%{spaceCount} arbetsytor totalt"
+
+#: src/components/Spaces/SpacesList.vue:207
+msgid ""
+"%{spaceCount} space in total (including %{disabledSpaceCount} disabled)"
+msgid_plural ""
+"%{spaceCount} spaces in total (including %{disabledSpaceCount} disabled)"
+msgstr[0] ""
+"%{spaceCount} arbetsyta totalt (inklusive %{disabledSpaceCount} inaktiverad)"
+msgstr[1] ""
+"%{spaceCount} arbetsytor totalt (inklusive %{disabledSpaceCount} "
+"inaktiverade)"
+
+#: src/components/Spaces/SpacesList.vue:218
+msgid "%{spaceCount} matching spaces"
+msgstr "%{spaceCount} matchande arbetsytor"
+
+#: src/components/Spaces/SpacesList.vue:291
+msgid "Manager"
+msgstr "Líder"
+
+#: src/components/Spaces/SpacesList.vue:302
+msgid "Total quota"
+msgstr "Total kvot"
+
+#: src/components/Spaces/SpacesList.vue:308
+msgid "Used quota"
+msgstr "Använd kvot"
+
+#: src/components/Spaces/SpacesList.vue:314
+msgid "Remaining quota"
+msgstr "Återstående kvot"
+
+#: src/components/Spaces/SpacesList.vue:330
+msgid "Modified"
+msgstr "Ändrad"
+
+#: src/components/Spaces/SpacesList.vue:368
+#: src/components/Spaces/SpacesList.vue:381
+msgid "Unrestricted"
+msgstr "Obegränsad"
+
+#: src/components/Spaces/SpacesList.vue:393
+msgid "Select %{ space }"
+msgstr "Välj %{ space }"
+
+#: src/components/Users/AddToGroupsModal.vue:80
+msgid "Group assignment already added"
+msgid_plural "Group assignments already added"
+msgstr[0] "Gruppuppgift redan tillagd"
+msgstr[1] "Gruppuppgifter redan tillagda"
+
+#: src/components/Users/AddToGroupsModal.vue:95
+msgid "Group assignment \"%{group}\" was added successfully"
+msgstr "Gruppuppgiften \"%{group}\" har lagts till"
+
+#: src/components/Users/AddToGroupsModal.vue:98
+msgid "%{groupAssignmentCount} group assignment was added successfully"
+msgid_plural ""
+"%{groupAssignmentCount} group assignments were added successfully"
+msgstr[0] "%{groupAssignmentCount} Gruppuppgiften har lagts till"
+msgstr[1] "%{groupAssignmentCount} Gruppuppdrag har lagts till utan problem"
+
+#: src/components/Users/AddToGroupsModal.vue:113
+msgid "Failed to add group assignment \"%{group}\""
+msgstr "Det gick inte att lägga till gruppuppgiften \"%{group}\""
+
+#: src/components/Users/AddToGroupsModal.vue:116
+msgid "Failed to add %{groupAssignmentCount} group assignment"
+msgid_plural "Failed to add %{groupAssignmentCount} group assignments"
+msgstr[0] ""
+"Det gick inte att lägga till %{groupAssignmentCount} grupptilldelning"
+msgstr[1] "Det gick inte att lägga till %{groupAssignmentCount} gruppuppdrag"
+
+#: src/components/Users/CreateUserModal.vue:7
+#: src/components/Users/SideBar/DetailsPanel.vue:25
+#: src/components/Users/SideBar/EditPanel.vue:9
+#: src/components/Users/UsersList.vue:232
+msgid "User name"
+msgstr "Användarnamn"
+
+#: src/components/Users/CreateUserModal.vue:17
+#: src/components/Users/SideBar/DetailsPanel.vue:27
+#: src/components/Users/SideBar/EditPanel.vue:19
+#: src/components/Users/UsersList.vue:240
+msgid "First and last name"
+msgstr "För- och efternamn"
+
+#: src/components/Users/CreateUserModal.vue:27
+#: src/components/Users/SideBar/DetailsPanel.vue:29
+#: src/components/Users/SideBar/EditPanel.vue:29
+#: src/components/Users/UsersList.vue:246
+msgid "Email"
+msgstr "E-post"
+
+#: src/components/Users/CreateUserModal.vue:40
+#: src/components/Users/SideBar/EditPanel.vue:44
+msgid "Password"
+msgstr "Lösenord"
+
+#: src/components/Users/CreateUserModal.vue:131
+#: src/components/Users/SideBar/EditPanel.vue:351
+msgid "User \"%{userName}\" already exists"
+msgstr "Användaren \"%{userName}\" finns redan"
+
+#: src/components/Users/CreateUserModal.vue:141
+#: src/components/Users/SideBar/EditPanel.vue:367
+msgid "First and last name cannot be empty"
+msgstr "För- och efternamn får inte vara tomma"
+
+#: src/components/Users/CreateUserModal.vue:147
+#: src/components/Users/SideBar/EditPanel.vue:372
+msgid "First and last name cannot exceed 255 characters"
+msgstr "För- och efternamn får inte överstiga 255 tecken"
+
+#: src/components/Users/CreateUserModal.vue:156
+#: src/components/Users/SideBar/EditPanel.vue:387
+msgid "Please enter a valid email"
+msgstr "Vänligen ange en giltig e-postadress"
+
+#: src/components/Users/CreateUserModal.vue:164
+#: src/components/Users/SideBar/EditPanel.vue:427
+msgid "Password cannot be empty"
+msgstr "Lösenord får inte vara tomt"
+
+#: src/components/Users/CreateUserModal.vue:184
+msgid "Failed to create user"
+msgstr "Kunde inte att skapa användare"
+
+#: src/components/Users/CreateUserModal.vue:190
+msgid "User was created successfully"
+msgstr "Användaren har skapats"
+
+#: src/components/Users/CreateUserModal.vue:198
+msgid "Failed to load user"
+msgstr "Det gick inte att läsa in användaren"
+
+#: src/components/Users/GroupSelect.vue:9
+#: src/components/Users/SideBar/DetailsPanel.vue:66
+#: src/components/Users/SideBar/DetailsPanel.vue:73 src/index.ts:86
+#: src/index.ts:143 src/views/Groups.vue:119 src/views/Users.vue:34
+msgid "Groups"
+msgstr "Grupper"
+
+#: src/components/Users/LoginModal.vue:5
+#: src/components/Users/SideBar/DetailsPanel.vue:32
+#: src/components/Users/UsersList.vue:261
+msgid "Login"
+msgstr "Logga in"
+
+#: src/components/Users/LoginModal.vue:7
+msgid "Select..."
+msgstr "Välj…"
+
+#: src/components/Users/LoginModal.vue:9
+msgid "Your own login status will remain unchanged."
+msgstr "Din egen inloggningsstatus förblir oförändrad."
+
+#: src/components/Users/LoginModal.vue:54
+#: src/components/Users/SideBar/DetailsPanel.vue:144
+#: src/components/Users/UsersList.vue:74
+msgid "Allowed"
+msgstr "Tillåten"
+
+#: src/components/Users/LoginModal.vue:55
+#: src/components/Users/SideBar/DetailsPanel.vue:144
+#: src/components/Users/UsersList.vue:69
+msgid "Forbidden"
+msgstr "Förbjuden"
+
+#: src/components/Users/LoginModal.vue:92
+msgid "Login for user \"%{user}\" was edited successfully"
+msgstr "Inloggningen för användaren \"%{user}\" har redigerats"
+
+#: src/components/Users/LoginModal.vue:95
+msgid "%{userCount} user login was edited successfully"
+msgid_plural "%{userCount} users logins edited successfully"
+msgstr[0] "%{userCount} användarinloggningen redigerades framgångsrikt"
+msgstr[1] "%{userCount} användarinloggningar redigerade framgångsrikt"
+
+#: src/components/Users/LoginModal.vue:110
+msgid "Failed edit login for user \"%{user}\""
+msgstr "Misslyckad redigeringsinloggning för användaren \"%{user}\""
+
+#: src/components/Users/LoginModal.vue:113
+msgid "Failed to edit %{userCount} user login"
+msgid_plural "Failed to edit %{userCount} user logins"
+msgstr[0] "Det gick inte att redigera %{userCount} användarinloggning"
+msgstr[1] "Det gick inte att redigera %{userCount} användarinloggningar"
+
+#: src/components/Users/RemoveFromGroupsModal.vue:76
+msgid "Group assignment already removed"
+msgid_plural "Group assignments already removed"
+msgstr[0] "Gruppuppgift redan borttagen"
+msgstr[1] "Gruppuppgifter redan borttagna"
+
+#: src/components/Users/RemoveFromGroupsModal.vue:91
+msgid "Group assignment \"%{group}\" was deleted successfully"
+msgstr "Gruppuppgiften \"%{group}\" har raderats"
+
+#: src/components/Users/RemoveFromGroupsModal.vue:94
+msgid "%{groupAssignmentCount} group assignment was deleted successfully"
+msgid_plural ""
+"%{groupAssignmentCount} group assignments were deleted successfully"
+msgstr[0] "%{groupAssignmentCount} Grupptilldelningen har raderats"
+msgstr[1] "%{groupAssignmentCount} Gruppuppdrag har raderats utan problem"
+
+#: src/components/Users/RemoveFromGroupsModal.vue:109
+msgid "Failed to delete group assignment \"%{group}\""
+msgstr "Det gick inte att ta bort grupptilldelningen \"%{group}\""
+
+#: src/components/Users/RemoveFromGroupsModal.vue:112
+msgid "Failed to delete %{groupAssignmentCount} group assignment"
+msgid_plural "Failed to delete %{groupAssignmentCount} group assignments"
+msgstr[0] "Det gick inte att ta bort %{groupAssignmentCount} grupptilldelning"
+msgstr[1] ""
+"Det gick inte att ta bort %{groupAssignmentCount} grupptilldelningar"
+
+#: src/components/Users/SideBar/DetailsPanel.vue:6
+msgid "Select a user to view details"
+msgstr "Välj en användare för att visa detaljer"
+
+#: src/components/Users/SideBar/DetailsPanel.vue:23
+msgid "Overview of the information about the selected user"
+msgstr "Översikt över informationen om den valda användaren"
+
+#: src/components/Users/SideBar/DetailsPanel.vue:35
+#: src/components/Users/SideBar/EditPanel.vue:64
+#: src/components/Users/UsersList.vue:252
+msgid "Role"
+msgstr "Roll"
+
+#: src/components/Users/SideBar/DetailsPanel.vue:42
+msgid ""
+"User roles become available once the user has logged in for the first time."
+msgstr ""
+"Användarrollerna blir tillgängliga när användaren har loggat in för första "
+"gången."
+
+#: src/components/Users/SideBar/DetailsPanel.vue:46
+msgid "User role"
+msgstr "Användarroller"
+
+#: src/components/Users/SideBar/DetailsPanel.vue:51
+#: src/components/Users/SideBar/DetailsPanel.vue:62
+#: src/components/Users/SideBar/EditPanel.vue:77
+msgid "Personal quota"
+msgstr "Personlig kvot"
+
+#: src/components/Users/SideBar/DetailsPanel.vue:58
+msgid ""
+"User quota becomes available once the user has logged in for the first time."
+msgstr ""
+"Användarkvoten blir tillgänglig när användaren har loggat in för första "
+"gången."
+
+#: src/components/Users/SideBar/DetailsPanel.vue:72
+msgid "No groups assigned."
+msgstr "Inga grupper tilldelade."
+
+#: src/components/Users/SideBar/DetailsPanel.vue:114
+msgid "%{count} user"
+msgid_plural "%{count} users"
+msgstr[0] "%{count} användare"
+msgstr[1] "%{count} användare"
+
+#: src/components/Users/SideBar/DetailsPanel.vue:122
+msgid "%{count} users selected"
+msgstr "%{count} användare valda"
+
+#: src/components/Users/SideBar/EditPanel.vue:5
+msgid "Profile"
+msgstr "Profil"
+
+#: src/components/Users/SideBar/EditPanel.vue:40
+msgid "Access"
+msgstr "Åtkomst"
+
+#: src/components/Users/SideBar/EditPanel.vue:57
+msgid "Login allowed"
+msgstr "Inloggning tillåten"
+
+#: src/components/Users/SideBar/EditPanel.vue:83
+msgid "To set an individual quota, the user needs to have logged in once."
+msgstr ""
+"För att ställa in en individuell kvot måste användaren ha loggat in en gång."
+
+#: src/components/Users/SideBar/EditPanel.vue:92
+msgid "Membership"
+msgstr "Medlemskap"
+
+#: src/components/Users/SideBar/EditPanel.vue:285
+msgid "Failed to edit user"
+msgstr "Det gick inte att redigera användaren"
+
+#: src/components/Users/UsersList.vue:23
+msgid "Select users"
+msgstr "Välj användare"
+
+#: src/components/Users/UsersList.vue:26
+msgid "Select all users"
+msgstr "Välj alla användare"
+
+#: src/components/Users/UsersList.vue:219
+msgid "%{userCount} users in total"
+msgstr "%{userCount} användare totalt"
+
+#: src/components/Users/UsersList.vue:301
+msgid "Select %{ user }"
+msgstr "Välj %{ användare }"
+
+#: src/composables/actions/groups/useGroupActionsCreateGroup.ts:15
+msgid "New group"
+msgstr "Ny grupp"
+
+#: src/composables/actions/groups/useGroupActionsCreateGroup.ts:19
+msgid "Create group"
+msgstr "Skapa grupp"
+
+#: src/composables/actions/groups/useGroupActionsDelete.ts:30
+msgid "Group \"%{group}\" was deleted successfully"
+msgstr "Gruppen \"%{group}\" har raderats"
+
+#: src/composables/actions/groups/useGroupActionsDelete.ts:31
+msgid "%{groupCount} group was deleted successfully"
+msgid_plural "%{groupCount} groups were deleted successfully"
+msgstr[0] "%{groupCount} gruppen har raderats"
+msgstr[1] "%{groupCount} grupper har raderats"
+
+#: src/composables/actions/groups/useGroupActionsDelete.ts:46
+msgid "Failed to delete group »%{group}«"
+msgstr "Det gick inte att ta bort gruppen »%{group}«"
+
+#: src/composables/actions/groups/useGroupActionsDelete.ts:47
+msgid "Failed to delete %{groupCount} group"
+msgid_plural "Failed to delete %{groupCount} groups"
+msgstr[0] "Det gick inte att ta bort %{groupCount} grupp"
+msgstr[1] "Det gick inte att ta bort %{groupCount} grupper"
+
+#: src/composables/actions/groups/useGroupActionsDelete.ts:69
+msgid "Delete group »%{group}«?"
+msgid_plural "Delete %{groupCount} groups?"
+msgstr[0] "Radera gruppen »%{group}«?"
+msgstr[1] "Radera %{groupCount} grupper?"
+
+#: src/composables/actions/groups/useGroupActionsDelete.ts:78
+#: src/composables/actions/groups/useGroupActionsDelete.ts:97
+#: src/composables/actions/users/useUserActionsDelete.ts:95
+#: src/composables/actions/users/useUserActionsDelete.ts:114
+msgid "Delete"
+msgstr "Ta bort"
+
+#: src/composables/actions/groups/useGroupActionsDelete.ts:79
+msgid "Are you sure you want to delete this group?"
+msgid_plural ""
+"Are you sure you want to delete the %{groupCount} selected groups?"
+msgstr[0] "Är du säker på att du vill ta bort denna grupp?"
+msgstr[1] ""
+"Är du säker på att du vill ta bort de %{groupCount} valda grupperna?"
+
+#: src/composables/actions/useActionsShowDetails.ts:13
+#: src/views/Groups.vue:136 src/views/Spaces.vue:159 src/views/Spaces.vue:168
+#: src/views/Spaces.vue:179 src/views/Users.vue:397
+msgid "Details"
+msgstr "Detaljer"
+
+#: src/composables/actions/users/useUserActionsAddToGroups.ts:14
+msgid "Add user \"%{user}\" to groups"
+msgid_plural "Add %{userCount} users to groups "
+msgstr[0] "Lägg till användaren \"%{user}\" till grupper"
+msgstr[1] "Lägg till %{userCount} användare till grupper"
+
+#: src/composables/actions/users/useUserActionsAddToGroups.ts:36
+msgid "Add to groups"
+msgstr "Lägg till i grupper"
+
+#: src/composables/actions/users/useUserActionsCreateUser.ts:17
+msgid "New user"
+msgstr "Ny användare"
+
+#: src/composables/actions/users/useUserActionsCreateUser.ts:21
+msgid "Create user"
+msgstr "Skapa användare"
+
+#: src/composables/actions/users/useUserActionsDelete.ts:46
+msgid "User \"%{user}\" was deleted successfully"
+msgstr "Användaren \"%{user}\" har raderats"
+
+#: src/composables/actions/users/useUserActionsDelete.ts:47
+msgid "%{userCount} user was deleted successfully"
+msgid_plural "%{userCount} users were deleted successfully"
+msgstr[0] "%{userCount} användaren har raderats"
+msgstr[1] "%{userCount} användare har raderats"
+
+#: src/composables/actions/users/useUserActionsDelete.ts:62
+msgid "Failed to delete user \"%{user}\""
+msgstr "Det gick inte att ta bort användaren \"%{user}\""
+
+#: src/composables/actions/users/useUserActionsDelete.ts:63
+msgid "Failed to delete %{userCount} user"
+msgid_plural "Failed to delete %{userCount} users"
+msgstr[0] "Det gick inte att ta bort %{userCount} användare"
+msgstr[1] "Det gick inte att ta bort %{userCount} användare"
+
+#: src/composables/actions/users/useUserActionsDelete.ts:91
+msgid "Delete user \"%{user}\"?"
+msgid_plural "Delete %{userCount} users?"
+msgstr[0] "Radera användaren \"%{user}\"?"
+msgstr[1] "Radera %{userCount} användare?"
+
+#: src/composables/actions/users/useUserActionsDelete.ts:96
+msgid "Are you sure you want to delete this user?"
+msgid_plural ""
+"Are you sure you want to delete the %{userCount} selected users?"
+msgstr[0] "Är du säker på att du vill ta bort den här användaren?"
+msgstr[1] ""
+"Är du säker på att du vill ta bort de %{userCount} valda användarna?"
+
+#: src/composables/actions/users/useUserActionsEditLogin.ts:13
+msgid "Edit login for \"%{user}\""
+msgid_plural "Edit login for %{userCount} users"
+msgstr[0] "Redigera inloggning för \"%{user}\""
+msgstr[1] "Redigera inloggning för %{userCount} användare"
+
+#: src/composables/actions/users/useUserActionsEditLogin.ts:34
+msgid "Edit login"
+msgstr "Redigera inloggning"
+
+#: src/composables/actions/users/useUserActionsEditQuota.ts:23
+msgid "Change quota for user »%{name}«"
+msgstr "Ändra kvot för användare »%{name}«"
+
+#: src/composables/actions/users/useUserActionsEditQuota.ts:27
+msgid "Change quota for %{count} users"
+msgstr "Ändra kvot för %{count} användare"
+
+#: src/composables/actions/users/useUserActionsEditQuota.ts:60
+msgid "Quota will only be applied to users who logged in at least once."
+msgstr "Kvoten gäller endast användare som har loggat in minst en gång."
+
+#: src/composables/actions/users/useUserActionsEditQuota.ts:64
+msgid "Unaffected users"
+msgstr "Oberoende användare"
+
+#: src/composables/actions/users/useUserActionsEditQuota.ts:80
+msgid "Edit quota"
+msgstr "Redigera kvot"
+
+#: src/composables/actions/users/useUserActionsRemoveFromGroups.ts:14
+msgid "Remove user \"%{user}\" from groups"
+msgid_plural "Remove %{userCount} users from groups "
+msgstr[0] "Ta bort användaren \"%{user}\" från grupper"
+msgstr[1] "Ta bort %{userCount} användare från grupper"
+
+#: src/composables/actions/users/useUserActionsRemoveFromGroups.ts:36
+msgid "Remove from groups"
+msgstr "Ta bort från grupper"
+
+#: src/composables/users/useUserNameValidation.ts:18
+msgid "User name cannot be empty"
+msgstr "Användarnamnet får inte vara tomt"
+
+#: src/composables/users/useUserNameValidation.ts:21
+msgid "User name cannot contain white spaces"
+msgstr "Användarnamnet får inte innehålla mellanslag"
+
+#: src/composables/users/useUserNameValidation.ts:24
+msgid "User name cannot exceed 255 characters"
+msgstr "Användarnamnet får inte överstiga 255 tecken"
+
+#: src/composables/users/useUserNameValidation.ts:27
+msgid "User name cannot start with a number"
+msgstr "Användarnamnet får inte börja med en siffra"
+
+#: src/composables/users/useUserNameValidation.ts:30
+msgid "User name cannot contain special characters"
+msgstr "Användarnamnet får inte innehålla specialtecken"
+
+#: src/index.ts:58 src/index.ts:121 src/views/General.vue:6
+msgid "General"
+msgstr "Allmänt"
+
+#: src/index.ts:72 src/index.ts:132 src/views/Users.vue:380
+msgid "Users"
+msgstr "Användare"
+
+#: src/index.ts:100 src/index.ts:154 src/views/Spaces.vue:126
+msgid "Spaces"
+msgstr "Arbetsytor"
+
+#: src/index.ts:114 src/index.ts:165 src/views/Extensions.vue:113
+msgid "Apps"
+msgstr "Appar"
+
+#: src/index.ts:196
+msgid "Admin Settings"
+msgstr "Administrationsinställningar"
+
+#: src/index.ts:231
+msgid "New"
+msgstr "Ny"
+
+#: src/index.ts:235
+msgid "To add apps, use the App Store"
+msgstr "Använd appbutiken för att lägga till appar"
+
+#: src/views/Extensions.vue:9 src/views/Groups.vue:34 src/views/Spaces.vue:23
+#: src/views/Users.vue:78
+msgid "Search"
+msgstr "Sök"
+
+#: src/views/Extensions.vue:10
+msgid "Search for apps"
+msgstr "Sök efter appar"
+
+#: src/views/Extensions.vue:27
+msgid "Install an app and it will show up here"
+msgstr "Installera en app så visas den här"
+
+#: src/views/Extensions.vue:39
+msgid ""
+"Compatibility information could not be loaded. Make sure %{url} is reachable"
+" and allowed by the content security policy."
+msgstr ""
+"Kompatibilitetsinformationen kunde inte läsas in. Kontrollera att %{url} går"
+" att nå och tillåts av innehållssäkerhetspolicyn."
+
+#: src/views/Groups.vue:35
+msgid "Search for groups"
+msgstr "Sök efter grupper"
+
+#: src/views/Groups.vue:54
+msgid "Create a new group and it will show up here"
+msgstr "Skapa en ny grupp så kommer den att dyka upp här"
+
+#: src/views/Groups.vue:148
+msgid "Edit group"
+msgstr "Ändra grupp"
+
+#: src/views/Spaces.vue:24
+msgid "Search for spaces"
+msgstr "Sök efter ytor"
+
+#: src/views/Spaces.vue:43
+msgid "Create a new space and it will show up here"
+msgstr "Skapa ett nytt Space så kommer det att dyka upp här"
+
+#: src/views/Users.vue:38
+msgid "Filter groups"
+msgstr "Filtrera grupper"
+
+#: src/views/Users.vue:55
+msgid "Roles"
+msgstr "Roller"
+
+#: src/views/Users.vue:58
+msgid "Filter roles"
+msgstr "Filtrera roller"
+
+#: src/views/Users.vue:79
+msgid "Search for users"
+msgstr "Sök efter användare"
+
+#: src/views/Users.vue:103 src/views/Users.vue:111
+msgid "No users found"
+msgstr "Inga användare hittades"
+
+#: src/views/Users.vue:106
+msgid "Please specify a filter to see results"
+msgstr "Ange ett filter för att se resultaten"
+
+#: src/views/Users.vue:265
+msgid "Failed to load users"
+msgstr "Det gick inte att läsa in användarna"
+
+#: src/views/Users.vue:347
+msgid "The user details could not be loaded"
+msgstr "Det gick inte att läsa in användaruppgifterna"
+
+#: src/views/Users.vue:411
+msgid "Edit user"
+msgstr "Redigera användare"
+
+#: src/views/Users.vue:446
+msgid "Failed to load user details"
+msgstr "Det gick inte att läsa in användaruppgifterna"
