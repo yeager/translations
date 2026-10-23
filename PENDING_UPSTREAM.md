@@ -1,12 +1,11 @@
 # Väntande upstream-importer
 
-Följande filer är granskade mot respektive senaste lokala export och pushade till
-`main`. De har ännu inte importerats under den här arbetsomgången.
+Det finns inga väntande importer i den här listan. Senast kontrollerades:
 
-| Projekt | Fil | Omfattning | Verifiering |
-| --- | --- | ---: | --- |
-| GitLab EE i Crowdin | `GitLab/gitlab-sv-current-strings-orbit-delta-20261023.xliff` | 53 Orbit-strängar | XML-parser, l10n-lint, svlang och Gitleaks |
+- Hosted Weblate Application: 40 granskade ändringar importerade och verifierade.
+- Hosted Weblate Website: 7 granskade ändringar importerade och verifierade.
+- GitLab EE i Crowdin: 53 Orbit-enheter importerade och verifierade mot Crowdins API.
 
-Varje fil är en deltafil: den innehåller bara aktuella enheter som skiljer sig
-från den export den granskades mot. Importresultatet behöver kontrolleras i
-tjänsten efter uppladdning innan arbetet kan räknas som inskickat.
+Arkivet innehåller deltafilerna och de aktuella Weblate-exporterna. Nya ändringar
+skapas som egna deltafiler och måste verifieras efter import innan de räknas som
+insända.
