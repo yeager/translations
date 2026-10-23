@@ -1,0 +1,56 @@
+{
+  "project": "RetroArch",
+  "crowdin_project_id": 380544,
+  "language": "sv-SE",
+  "date": "2026-10-23",
+  "scope": "QA spaces mismatch fixes",
+  "changes": [
+    {
+      "string_id": 6204267,
+      "source": "Removes the selected account from the account directory (saves/Cemu/mlc01/usr/save/system/act), as deleting a user on the console does, when this menu is exited. The option shows OFF again on return to the menu.\\n\\nThe active account cannot be removed, nor can the account the running game was started with until that game is closed.\\n\\nWARNING: removing an account also permanently deletes the saves made under it in every game. Back up any saves you want to keep before removing it.",
+      "old_translation": "Tar bort det valda kontot från kontokatalogen (saves/Cemu/mlc01/usr/save/system/act), på samma sätt som när en användare tas bort på konsolen, när den här menyn stängs. Alternativet visar AV igen när du återvänder till menyn.\n\nDet aktiva kontot kan inte tas bort. Inte heller kontot som det körande spelet startades med förrän spelet har stängts.\n\nVARNING: om du tar bort ett konto raderas även sparfilerna under det permanent i alla spel. Säkerhetskopiera sparfiler som du vill behålla innan du tar bort det.",
+      "translation": "Tar bort det valda kontot från kontokatalogen (saves/Cemu/mlc01/usr/save/system/act), på samma sätt som när en användare tas bort på konsolen, när den här menyn stängs. Alternativet visar AV igen när du återvänder till menyn.\\n\\nDet aktiva kontot kan inte tas bort. Inte heller kontot som det körande spelet startades med förrän spelet har stängts.\\n\\nVARNING: om du tar bort ett konto raderas även sparfilerna under det permanent i alla spel. Säkerhetskopiera sparfiler som du vill behålla innan du tar bort det.",
+      "reason": "Preserve literal \\n escape sequences required by the source resource.",
+      "crowdin_translation_id": 2971457
+    },
+    {
+      "string_id": 6204269,
+      "source": "Installs every game from the source directory (system/Cemu/titles), subfolders included, into the emulated Wii U's installed game directory (saves/Cemu/mlc01/usr/title/00050000), as the console installs a game from its disc. A game is a disc image (.wud, .wux, .iso) or a .wua; the title update and DLC a .wua holds are installed with it. An encrypted disc image (.wud, .wux) needs its disc key: in a file beside it with the same name and the extension .key (game.wux, game.key), or in system/Cemu/keys.txt. A game already installed in the same or a newer version is left alone.\\n\\nWhen this is ON, installing begins immediately, with its progress shown as a notification, and it turns OFF again when all games are installed and this menu is exited or another option is changed. An installed game is started by loading the .rpx in its code folder in the installed game directory; its disc image is not needed any more.",
+      "old_translation": "Installerar varje spel från källkatalogen (system/Cemu/titles), inklusive underkataloger, i den emulerade Wii U-konsolens katalog för installerade spel (saves/Cemu/mlc01/usr/title/00050000), på samma sätt som konsolen installerar ett spel från skivan. Ett spel är en skivavbild (.wud, .wux, .iso) eller en .wua. Titeluppdateringen och DLC:n som en .wua innehåller installeras tillsammans med den. En krypterad skivavbild (.wud, .wux) behöver sin skivnyckel: i en fil bredvid den med samma namn och filändelsen .key (game.wux, game.key), eller i system/Cemu/keys.txt. Ett spel som redan är installerat i samma eller en nyare version lämnas orört.\n\nNär detta är PÅ startar installationen genast, med framsteg som visas som en avisering. Alternativet återgår till AV när alla spel har installerats och menyn stängs eller ett annat alternativ ändras. Ett installerat spel startas genom att läsa in .rpx-filen i dess kodkatalog i katalogen för installerade spel. Skivavbilden behövs inte längre.",
+      "translation": "Installerar varje spel från källkatalogen (system/Cemu/titles), inklusive underkataloger, i den emulerade Wii U-konsolens katalog för installerade spel (saves/Cemu/mlc01/usr/title/00050000), på samma sätt som konsolen installerar ett spel från skivan. Ett spel är en skivavbild (.wud, .wux, .iso) eller en .wua. Titeluppdateringen och DLC:n som en .wua innehåller installeras tillsammans med den. En krypterad skivavbild (.wud, .wux) behöver sin skivnyckel: i en fil bredvid den med samma namn och filändelsen .key (game.wux, game.key), eller i system/Cemu/keys.txt. Ett spel som redan är installerat i samma eller en nyare version lämnas orört.\\n\\nNär detta är PÅ startar installationen genast, med framsteg som visas som en avisering. Alternativet återgår till AV när alla spel har installerats och menyn stängs eller ett annat alternativ ändras. Ett installerat spel startas genom att läsa in .rpx-filen i dess kodkatalog i katalogen för installerade spel. Skivavbilden behövs inte längre.",
+      "reason": "Preserve literal \\n escape sequences required by the source resource.",
+      "crowdin_translation_id": 2971459
+    },
+    {
+      "string_id": 6204273,
+      "source": "Installs every title update and DLC from the source directory (system/Cemu/titles), subfolders included, into the installed directory (saves/Cemu/mlc01/usr/title). Each one goes in a folder of its own in the source directory; a NUS download (.app files) needs its title.tmd and its title.tik, the decryption key, next to them. A version already installed that is the same or newer is left alone.\\n\\nWhen this is ON, installing begins immediately, with its progress shown as a notification, and it turns OFF again when all content is installed and this menu is exited or another option is changed. The game uses the installed content once it is restarted.\\n\\nContent from other locations can be installed with RetroArch's Main Menu > Load Content, by selecting the corresponding title.tmd, with its title.tik beside it.",
+      "old_translation": "Installerar varje titeluppdatering och DLC från källkatalogen (system/Cemu/titles), inklusive underkataloger, i den installerade katalogen (saves/Cemu/mlc01/usr/title). Varje objekt ska ligga i en egen katalog i källkatalogen. En NUS-hämtning (.app-filer) behöver title.tmd och title.tik, dekrypteringsnyckeln, bredvid dem. En redan installerad version som är samma eller nyare lämnas orörd.\n\nNär detta är PÅ startar installationen genast, med framsteg som visas som en avisering. Alternativet återgår till AV när allt innehåll har installerats och menyn stängs eller ett annat alternativ ändras. Spelet använder det installerade innehållet när det startas om.\n\nInnehåll från andra platser kan installeras via RetroArchs huvudmeny > Läs in innehåll genom att välja motsvarande title.tmd med title.tik bredvid.",
+      "translation": "Installerar varje titeluppdatering och DLC från källkatalogen (system/Cemu/titles), inklusive underkataloger, i den installerade katalogen (saves/Cemu/mlc01/usr/title). Varje objekt ska ligga i en egen katalog i källkatalogen. En NUS-hämtning (.app-filer) behöver title.tmd och title.tik, dekrypteringsnyckeln, bredvid dem. En redan installerad version som är samma eller nyare lämnas orörd.\\n\\nNär detta är PÅ startar installationen genast, med framsteg som visas som en avisering. Alternativet återgår till AV när allt innehåll har installerats och menyn stängs eller ett annat alternativ ändras. Spelet använder det installerade innehållet när det startas om.\\n\\nInnehåll från andra platser kan installeras via RetroArchs huvudmeny > Läs in innehåll genom att välja motsvarande title.tmd med title.tik bredvid.",
+      "reason": "Preserve literal \\n escape sequences required by the source resource.",
+      "crowdin_translation_id": 2971461
+    },
+    {
+      "string_id": 6204277,
+      "source": "Removes what Install Games and Install Content have installed from the source directory (system/Cemu/titles): a title update's or DLC's folder once it is installed, and a disc image (with its .key file) or .wua once everything it holds is installed. Files the running game uses are removed when it is closed or reset.\\n\\nWARNING: this permanently removes files from the source directory. That directory is for the core to manage; keep game data you want to archive elsewhere.",
+      "old_translation": "Tar bort det som Installera spel och Installera innehåll har installerat från källkatalogen (system/Cemu/titles): katalogen för en titeluppdatering eller DLC när den har installerats och en skivavbild med .key-filen eller en .wua när allt dess innehåll har installerats. Filer som det körande spelet använder tas bort när spelet stängs eller återställs.\n\nVARNING: Detta tar permanent bort filer från källkatalogen. Katalogen är avsedd att hanteras av kärnan. Spara speldata som du vill arkivera på en annan plats.",
+      "translation": "Tar bort det som Installera spel och Installera innehåll har installerat från källkatalogen (system/Cemu/titles): katalogen för en titeluppdatering eller DLC när den har installerats och en skivavbild med .key-filen eller en .wua när allt dess innehåll har installerats. Filer som det körande spelet använder tas bort när spelet stängs eller återställs.\\n\\nVARNING: Detta tar permanent bort filer från källkatalogen. Katalogen är avsedd att hanteras av kärnan. Spara speldata som du vill arkivera på en annan plats.",
+      "reason": "Preserve literal \\n escape sequences required by the source resource.",
+      "crowdin_translation_id": 2971463
+    },
+    {
+      "string_id": 6214019,
+      "source": "The Wii U account the game runs as, each with its own saves and Mii. The list is the accounts in the account directory.\\n\\nUntil the game is started again the running game keeps saving to the account it was started with.",
+      "old_translation": "Wii U-kontot som spelet körs som, med egna sparfiler och Mii för varje konto. Listan innehåller kontona i kontokatalogen.\n\nTills spelet startas om fortsätter spelet att spara till kontot som användes vid starten.",
+      "translation": "Wii U-kontot som spelet körs som, med egna sparfiler och Mii för varje konto. Listan innehåller kontona i kontokatalogen.\\n\\nTills spelet startas om fortsätter spelet att spara till kontot som användes vid starten.",
+      "reason": "Preserve literal \\n escape sequences required by the source resource.",
+      "crowdin_translation_id": 2971465
+    }
+  ],
+  "validation": {
+    "msgfmt": "passed",
+    "svlang": "passed",
+    "l10n_lint": "passed",
+    "hunspell": "manual triage passed; remaining hits are product names, paths and escape-sequence fragments"
+  },
+  "submission": "Crowdin API response verified for every change"
+}
