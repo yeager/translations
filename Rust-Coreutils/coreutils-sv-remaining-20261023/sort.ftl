@@ -1,1 +1,1 @@
-sort-parallel-must-be-nonzero = antalet parallella sorteringar måste vara skilt från noll
+sort-parallel-must-be-nonzero = antalet parallella körningar måste vara större än noll
