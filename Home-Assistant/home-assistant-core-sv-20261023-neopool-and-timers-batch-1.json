@@ -1,0 +1,289 @@
+[
+  {
+    "translation_id": 9864226019,
+    "key_id": 943419473,
+    "key_name": "component::fronius::config::step::reconfigure::data_description::auto_revert_power_limit",
+    "source": "The inverter drops the AC power limit an hour after it last received it, and returns to its own settings. Home Assistant sends the limit again every 15 minutes, so this only takes effect once it stops sending - because Home Assistant is down, or because the integration was removed. Battery setpoints are not affected - the inverter supports no timeout for them.",
+    "translation": "Växelriktaren tar bort AC-effektgränsen en timme efter att den senast tog emot den och återgår till sina egna inställningar. Home Assistant skickar gränsen igen var femtonde minut, så detta får bara effekt när systemet slutar skicka den eftersom Home Assistant är nere eller integreringen tagits bort. Batteriernas börvärden påverkas inte. Växelriktaren har ingen tidsgräns för dem."
+  },
+  {
+    "translation_id": 9864226083,
+    "key_id": 943419474,
+    "key_name": "component::fronius::config::step::user::data::auto_revert_power_limit",
+    "source": "Revert the AC power limit if Home Assistant stops",
+    "translation": "Återställ gränsen för AC-effekt om Home Assistant stoppas"
+  },
+  {
+    "translation_id": 9864226147,
+    "key_id": 943419475,
+    "key_name": "component::fronius::config::step::user::data_description::auto_revert_power_limit",
+    "source": "The inverter drops the AC power limit an hour after it last received it, and returns to its own settings. Home Assistant sends the limit again every 15 minutes, so this only takes effect once it stops sending - because Home Assistant is down, or because the integration was removed. Battery setpoints are not affected - the inverter supports no timeout for them.",
+    "translation": "Växelriktaren tar bort AC-effektgränsen en timme efter att den senast tog emot den och återgår till sina egna inställningar. Home Assistant skickar gränsen igen var femtonde minut, så detta får bara effekt när systemet slutar skicka den eftersom Home Assistant är nere eller integreringen tagits bort. Batteriernas börvärden påverkas inte. Växelriktaren har ingen tidsgräns för dem."
+  },
+  {
+    "translation_id": 9864728630,
+    "key_id": 943450102,
+    "key_name": "component::tuya::entity::sensor::water_once::name",
+    "source": "Session water usage",
+    "translation": "Vattenförbrukning för sessionen"
+  },
+  {
+    "translation_id": 9864728694,
+    "key_id": 943450103,
+    "key_name": "component::tuya::entity::sensor::water_total::name",
+    "source": "Total water usage",
+    "translation": "Total vattenförbrukning"
+  },
+  {
+    "translation_id": 9864758301,
+    "key_id": 943456372,
+    "key_name": "component::duco::entity::switch::identify::name",
+    "source": "Identify",
+    "translation": "Identifiera"
+  },
+  {
+    "translation_id": 9864758365,
+    "key_id": 943456373,
+    "key_name": "component::duco::exceptions::failed_to_set_identify::message",
+    "source": "Failed to set node identification.",
+    "translation": "Det gick inte att ange nodidentifiering."
+  },
+  {
+    "translation_id": 9864759279,
+    "key_id": 943456610,
+    "key_name": "component::neopool::exceptions::device_not_found::message",
+    "source": "No loaded NeoPool device found for device_id {device_id}",
+    "translation": "Ingen inläst NeoPool-enhet hittades för device_id {device_id}"
+  },
+  {
+    "translation_id": 9864759343,
+    "key_id": 943456611,
+    "key_name": "component::neopool::exceptions::device_time_read_failed::message",
+    "source": "Failed to read the device time: {error}",
+    "translation": "Det gick inte att läsa enhetens tid: {error}"
+  },
+  {
+    "translation_id": 9864759407,
+    "key_id": 943456612,
+    "key_name": "component::neopool::exceptions::device_time_write_failed::message",
+    "source": "Failed to write the device time: {error}",
+    "translation": "Det gick inte att skriva enhetens tid: {error}"
+  },
+  {
+    "translation_id": 9864759471,
+    "key_id": 943456613,
+    "key_name": "component::neopool::exceptions::multiple_entries_no_device::message",
+    "source": "Multiple NeoPool devices are configured. Specify the device to target.",
+    "translation": "Flera NeoPool-enheter är konfigurerade. Ange vilken enhet som ska användas."
+  },
+  {
+    "translation_id": 9864759535,
+    "key_id": 943456614,
+    "key_name": "component::neopool::exceptions::no_coordinator::message",
+    "source": "No NeoPool coordinator found for entry_id {entry_id}",
+    "translation": "Ingen NeoPool-samordnare hittades för entry_id {entry_id}"
+  },
+  {
+    "translation_id": 9864759599,
+    "key_id": 943456615,
+    "key_name": "component::neopool::exceptions::no_loaded_entry::message",
+    "source": "No loaded NeoPool config entry available",
+    "translation": "Ingen inläst NeoPool-konfigurationspost är tillgänglig"
+  },
+  {
+    "translation_id": 9864759663,
+    "key_id": 943456616,
+    "key_name": "component::neopool::services::get_device_time::description",
+    "source": "Read the current wall-clock time from the device RTC and report its drift from Home Assistant.",
+    "translation": "Läs den aktuella tiden från enhetens RTC och rapportera dess avvikelse från Home Assistant."
+  },
+  {
+    "translation_id": 9864759727,
+    "key_id": 943456617,
+    "key_name": "component::neopool::services::get_device_time::fields::device_id::description",
+    "source": "The NeoPool device to target. Optional when only one is configured.",
+    "translation": "NeoPool-enheten som ska användas. Valfritt när endast en är konfigurerad."
+  },
+  {
+    "translation_id": 9864759791,
+    "key_id": 943456618,
+    "key_name": "component::neopool::services::get_device_time::fields::device_id::name",
+    "source": "Device",
+    "translation": "Enhet"
+  },
+  {
+    "translation_id": 9864759855,
+    "key_id": 943456619,
+    "key_name": "component::neopool::services::get_device_time::name",
+    "source": "Get device time",
+    "translation": "Hämta enhetens tid"
+  },
+  {
+    "translation_id": 9864759919,
+    "key_id": 943456620,
+    "key_name": "component::neopool::services::set_device_time::description",
+    "source": "Write the current Home Assistant time to the device RTC.",
+    "translation": "Skriv den aktuella tiden från Home Assistant till enhetens RTC."
+  },
+  {
+    "translation_id": 9864759983,
+    "key_id": 943456621,
+    "key_name": "component::neopool::services::set_device_time::fields::device_id::description",
+    "source": "The NeoPool device to target. Optional when only one is configured.",
+    "translation": "NeoPool-enheten som ska användas. Valfritt när endast en är konfigurerad."
+  },
+  {
+    "translation_id": 9864760047,
+    "key_id": 943456622,
+    "key_name": "component::neopool::services::set_device_time::fields::device_id::name",
+    "source": "Device",
+    "translation": "Enhet"
+  },
+  {
+    "translation_id": 9864760111,
+    "key_id": 943456623,
+    "key_name": "component::neopool::services::set_device_time::name",
+    "source": "Set device time",
+    "translation": "Ange enhetens tid"
+  },
+  {
+    "translation_id": 9864777757,
+    "key_id": 943458088,
+    "key_name": "component::bosch_shc::entity::switch::smart_sensitivity_enabled::name",
+    "source": "Automatic sensitivity",
+    "translation": "Automatisk känslighet"
+  },
+  {
+    "translation_id": 9864777991,
+    "key_id": 943458101,
+    "key_name": "component::bosch_shc::entity::switch::intrusion_alarm::name",
+    "source": "Intrusion alarm",
+    "translation": "Intrångslarm"
+  },
+  {
+    "translation_id": 9864858498,
+    "key_id": 943471011,
+    "key_name": "component::besen::config::step::reauth_confirm::data::pin",
+    "source": "PIN code",
+    "translation": "PIN-kod"
+  },
+  {
+    "translation_id": 9864858562,
+    "key_id": 943471012,
+    "key_name": "component::besen::config::step::reauth_confirm::data_description::pin",
+    "source": "The 6-digit Bluetooth PIN configured on the charger.",
+    "translation": "Den sexsiffriga Bluetooth-PIN-kod som har konfigurerats på laddaren."
+  },
+  {
+    "translation_id": 9864858626,
+    "key_id": 943471013,
+    "key_name": "component::besen::config::step::reauth_confirm::description",
+    "source": "The charger rejected the saved Bluetooth PIN. Enter its current 6-digit PIN.",
+    "translation": "Laddaren avvisade den sparade Bluetooth-PIN-koden. Ange dess aktuella sexsiffriga PIN-kod."
+  },
+  {
+    "translation_id": 9864858690,
+    "key_id": 943471014,
+    "key_name": "component::besen::config::step::reauth_confirm::title",
+    "source": "Authentication expired for {name}",
+    "translation": "Autentiseringen för {name} har upphört att gälla"
+  },
+  {
+    "translation_id": 9864885304,
+    "key_id": 943472613,
+    "key_name": "component::neopool::entity::time::filtration_start::name",
+    "source": "Timer {number} - filtration start",
+    "translation": "Timer {number}: filtreringen startar"
+  },
+  {
+    "translation_id": 9864885368,
+    "key_id": 943472614,
+    "key_name": "component::neopool::entity::time::filtration_stop::name",
+    "source": "Timer {number} - filtration stop",
+    "translation": "Timer {number}: filtreringen avslutas"
+  },
+  {
+    "translation_id": 9864885432,
+    "key_id": 943472615,
+    "key_name": "component::neopool::entity::time::relay_aux_start::name",
+    "source": "Timer Aux {number} ({subtimer}) - start",
+    "translation": "Hjälptimer {number} ({subtimer}): start"
+  },
+  {
+    "translation_id": 9864885496,
+    "key_id": 943472616,
+    "key_name": "component::neopool::entity::time::relay_aux_stop::name",
+    "source": "Timer Aux {number} ({subtimer}) - stop",
+    "translation": "Hjälptimer {number} ({subtimer}): stopp"
+  },
+  {
+    "translation_id": 9864885560,
+    "key_id": 943472617,
+    "key_name": "component::neopool::entity::time::relay_light_start::name",
+    "source": "Light timer - start",
+    "translation": "Ljustimer: start"
+  },
+  {
+    "translation_id": 9864885624,
+    "key_id": 943472618,
+    "key_name": "component::neopool::entity::time::relay_light_stop::name",
+    "source": "Light timer - stop",
+    "translation": "Ljustimer: stopp"
+  },
+  {
+    "translation_id": 9865342719,
+    "key_id": 943526637,
+    "key_name": "component::my_pv::entity::number::ww1boost::name",
+    "source": "Boost target temperature",
+    "translation": "Måltemperatur för boost"
+  },
+  {
+    "translation_id": 9865342783,
+    "key_id": 943526638,
+    "key_name": "component::my_pv::entity::number::ww_boost_h::name",
+    "source": "Minimum hysteresis",
+    "translation": "Minsta hysteres"
+  },
+  {
+    "translation_id": 9865342847,
+    "key_id": 943526639,
+    "key_name": "component::my_pv::entity::number::ww_targ_h::name",
+    "source": "Maximum hysteresis",
+    "translation": "Största hysteres"
+  },
+  {
+    "translation_id": 9865365776,
+    "key_id": 943529128,
+    "key_name": "component::bosch_shc::entity::switch::silent_mode::name",
+    "source": "Whisper mode",
+    "translation": "Tyst läge"
+  },
+  {
+    "translation_id": 9865366059,
+    "key_id": 943529144,
+    "key_name": "component::bosch_shc::entity::switch::vibration_enabled::name",
+    "source": "Vibration detection",
+    "translation": "Vibrationsdetektering"
+  },
+  {
+    "translation_id": 9865591309,
+    "key_id": 943569047,
+    "key_name": "component::brother::entity::binary_sensor::door_open::name",
+    "source": "Door open",
+    "translation": "Dörr öppen"
+  },
+  {
+    "translation_id": 9865591373,
+    "key_id": 943569048,
+    "key_name": "component::brother::entity::binary_sensor::input_tray_empty::name",
+    "source": "Input tray empty",
+    "translation": "Inmatningsfacket är tomt"
+  },
+  {
+    "translation_id": 9865591437,
+    "key_id": 943569049,
+    "key_name": "component::brother::entity::binary_sensor::input_tray_missing::name",
+    "source": "Input tray missing",
+    "translation": "Inmatningsfacket saknas"
+  }
+]
