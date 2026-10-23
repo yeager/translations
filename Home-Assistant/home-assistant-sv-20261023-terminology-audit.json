@@ -46,6 +46,15 @@
     {
       "type": "manual_context",
       "result": "No conflicting canonical terminology found in the reviewed high-frequency technical terms."
+    },
+    {
+      "type": "pending_upload",
+      "count": 1,
+      "key": "template_preview_label",
+      "source": "Preview",
+      "previous": "Förhandsvisning",
+      "replacement": "Förhandsgranskning",
+      "reason": "Matches the Home Assistant Frontend terminology."
     }
   ],
   "upstream_status": "Lokalise update attempted but received HTTP 403; corrective delta is retained locally for upload once authorization is restored.",
@@ -94,6 +103,29 @@
       "entitet/Enhetsklass": "Established Home Assistant technical vocabulary.",
       "Pappersstopp/Friluftskläder": "Product-state and programme labels.",
       "API-nyckel/API-token/Åtkomsttoken": "Consistent technical credential terms."
+    },
+    "client_catalogues": {
+      "frontend": {
+        "translations": 133,
+        "source_mapped": 96,
+        "exact_termbank_comparisons": 28,
+        "contextual_candidates": 6,
+        "review": "All six were retained: Diagnostik, Rutor, Entiteter, Slå på, I dag and Matcha skiftläge match Home Assistant context."
+      },
+      "android": {
+        "translations": 47,
+        "source_mapped": 47,
+        "exact_termbank_comparisons": 8,
+        "contextual_candidates": 3,
+        "review": "One consistency correction identified: Preview is standardized as Förhandsgranskning, matching Frontend. Other candidates are contextual."
+      },
+      "ios": {
+        "translations": 148,
+        "source_mapped": 148,
+        "exact_termbank_comparisons": 28,
+        "contextual_candidates": 9,
+        "review": "All candidates were retained because they depend on app intent, Home Assistant cover terminology or UI context."
+      }
     }
   }
 }
