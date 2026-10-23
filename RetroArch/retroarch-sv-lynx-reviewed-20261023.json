@@ -1,0 +1,185 @@
+{
+  "project": "RetroArch",
+  "language": "sv-SE",
+  "component": "mednafen_lynx/mednafen_lynx.json",
+  "reviewedAt": "2026-10-23",
+  "status": "submitted-and-api-verified",
+  "entries": [
+    {
+      "stringId": 3358203,
+      "source": "Display Rotation",
+      "target": "Skärmrotation",
+      "translationId": 2971651,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358205,
+      "source": "Rotate the virtual console screen to achieve the correct layout of 'portrait' oriented games on a conventional (landscape) display.",
+      "target": "Rotera den virtuella konsolskärmen så att spel i stående format visas korrekt på en vanlig skärm i liggande format.",
+      "translationId": 2971653,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358215,
+      "source": "Specify number of colors to display on-screen. 24-bit significantly increases performance overheads and is not available on all platforms.",
+      "target": "Ange hur många färger som ska visas på skärmen. 24 bitar ökar prestandakraven avsevärt och stöds inte på alla plattformar.",
+      "translationId": 2971655,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358217,
+      "source": "Thousands (16-bit)",
+      "target": "Tusentals färger (16 bitar)",
+      "translationId": 2971657,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358219,
+      "source": "Millions (24-bit)",
+      "target": "Miljontals färger (24 bitar)",
+      "translationId": 2971659,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358223,
+      "source": "Skip frames to avoid audio buffer under-run (crackling). Improves performance at the expense of visual smoothness. 'Auto' skips frames when advised by the frontend. 'Manual' utilizes the 'Frameskip Threshold (%)' setting.",
+      "target": "Hoppa över bildrutor för att undvika underkörning av ljudbufferten med sprakande ljud. Det förbättrar prestandan men kan göra bilden mindre jämn. ”Automatiskt” hoppar över bildrutor när gränssnittet rekommenderar det. ”Manuell” använder inställningen ”Tröskelvärde för bildrutsöverhoppning (%)”.",
+      "translationId": 2971661,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358225,
+      "source": "Auto",
+      "target": "Automatiskt",
+      "translationId": 2971663,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358231,
+      "source": "When 'Frameskip' is set to 'Manual', specifies the audio buffer occupancy threshold (percentage) below which frames will be skipped. Higher values reduce the risk of crackling by causing frames to be dropped more frequently.",
+      "target": "När ”Bildrutsöverhoppning” är inställt på ”Manuell” anger detta tröskelvärdet i procent för ljudbuffertens fyllnadsgrad, under vilket bildrutor hoppas över. Högre värden minskar risken för sprakande ljud genom att bildrutor hoppas över oftare.",
+      "translationId": 2971665,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 4593043,
+      "source": "Video Refresh Rate",
+      "target": "Videouppdateringsfrekvens",
+      "translationId": 2971667,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 4593045,
+      "source": "Set video update frequency. Internally, the Lynx renders at a variable rate from 0 to 75Hz. Frames that occur between video update events will be dropped. Higher rates may increase video smoothness (depending on actual game frame rate) but can cause tearing on 60Hz displays.",
+      "target": "Ange videouppdateringsfrekvensen. Lynx renderar internt med en variabel frekvens på 0 till 75 Hz. Bildrutor som uppstår mellan videouppdateringar hoppas över. Högre frekvens kan göra bilden jämnare, beroende på spelets faktiska bildfrekvens, men kan orsaka bildslitning på skärmar med 60 Hz.",
+      "translationId": 2971669,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 4593047,
+      "source": "50Hz",
+      "target": "50 Hz",
+      "translationId": 2971671,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 4593049,
+      "source": "60Hz",
+      "target": "60 Hz",
+      "translationId": 2971673,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 4593051,
+      "source": "75Hz",
+      "target": "75 Hz",
+      "translationId": 2971675,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 4593053,
+      "source": "100Hz",
+      "target": "100 Hz",
+      "translationId": 2971677,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 4593055,
+      "source": "120Hz",
+      "target": "120 Hz",
+      "translationId": 2971679,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 4593057,
+      "source": "LCD Ghosting Filter",
+      "target": "LCD-filter för efterbilder",
+      "translationId": 2971681,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 4593059,
+      "source": "Apply an image 'ghosting' effect by blending multiple successive video frames. Mimics the display characteristics of the Lynx's LCD panel and helps to smooth the appearance of low frame rate games. Higher frame counts improve the effect at the expense of increased performance overheads.",
+      "target": "Använd en efterbildseffekt genom att blanda flera på varandra följande bildrutor. Den efterliknar visningsegenskaperna hos Lynx LCD-skärm och gör spel med låg bildfrekvens jämnare. Fler bildrutor förbättrar effekten men ökar prestandakraven.",
+      "translationId": 2971683,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 4593061,
+      "source": "2 Frames",
+      "target": "2 bildrutor",
+      "translationId": 2971685,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 4593063,
+      "source": "3 Frames",
+      "target": "3 bildrutor",
+      "translationId": 2971687,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 4593065,
+      "source": "4 Frames",
+      "target": "4 bildrutor",
+      "translationId": 2971689,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 4758943,
+      "source": "CPU Overclock Multiplier",
+      "target": "Multiplikator för CPU-överklockning",
+      "translationId": 2971691,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 4758945,
+      "source": "Higher values can reduce slowdowns in games. WARNING: Can cause glitches and crashes.",
+      "target": "Högre värden kan minska nedbromsningar i spel. VARNING: Kan orsaka grafikfel och krascher.",
+      "translationId": 2971693,
+      "submission": "created",
+      "apiVerified": true
+    }
+  ]
+}
