@@ -1,0 +1,32 @@
+{
+  "project": "RetroArch",
+  "crowdin_project_id": 380544,
+  "language": "sv-SE",
+  "date": "2026-10-23",
+  "scope": "Punctuation QA wording fixes",
+  "changes": [
+    {
+      "string_id": 3358781,
+      "source": "Reduce system load by optimizing so-called 'idle-loops' - sections in the code where nothing happens, but the CPU runs at full speed (like a car revving in neutral). Improves performance, and should be enabled on low-end hardware.",
+      "old_translation": "Minska systembelastningen genom att optimera s.k. \"Tomgångsloops\" - avsnitt i koden där ingenting händer, men CPU:n körs med full hastighet (som en bil som varvar i neutralt läge). Förbättrar prestanda och bör aktiveras på hårdvara med lägre kapacitet.",
+      "translation": "Minska systembelastningen genom att optimera så kallade tomgångsslingor, avsnitt i koden där ingenting händer men CPU:n ändå körs med full hastighet, som en bil som varvar i neutralt läge. Detta förbättrar prestandan och bör aktiveras på hårdvara med lägre kapacitet.",
+      "reason": "Replace unnatural anglified wording and remove unnecessary hyphenation.",
+      "crowdin_translation_id": 2971503
+    },
+    {
+      "string_id": 3359601,
+      "source": "Per-Game VMUs",
+      "old_translation": "Per-spel VMU:er",
+      "translation": "VMU:er per spel",
+      "reason": "Replace unnatural anglified wording and remove unnecessary hyphenation.",
+      "crowdin_translation_id": 2971505
+    }
+  ],
+  "validation": {
+    "msgfmt": "passed",
+    "svlang": "passed",
+    "l10n_lint": "passed",
+    "hunspell": "passed"
+  },
+  "submission": "Crowdin API response verified"
+}
