@@ -8,4 +8,4 @@ Komponenten `join` var låst i Hosted Weblate eftersom arkivet inte kunde slås 
 
 ## Aktuell Hosted Weblate-status
 
-Kontrollerad 2026-10-23: de nio ofärdiga posterna har förslag från Daniel Nylander. I `mkdir` har källsträngen ändrats och saknar nu `{ $error }`; den sparade svenska versionen i `mkdir.ftl` följer den nya källsträngen. De två `join`-posterna har korrekta förslag, men komponenten är låst tills Weblate har återställt arkivsammanfogningen.
+Kontrollerad 2026-10-23: de nio ofärdiga posterna har förslag från Daniel Nylander. De omfattar `chmod` (en tom post), `sort` (en tom post), `mkdir` (en post som behöver redigeras) och `join` (fem tomma poster samt en post som behöver redigeras). I `mkdir` har källsträngen ändrats och saknar nu `{ $error }`; den sparade svenska versionen i `mkdir.ftl` följer den nya källsträngen. Alla sex `join`-förslag är klara, men komponenten är låst tills Weblate har återställt arkivsammanfogningen.
