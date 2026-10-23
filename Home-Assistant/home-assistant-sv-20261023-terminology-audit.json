@@ -1,0 +1,81 @@
+{
+  "scope": "All saved Home Assistant Swedish deltas in yeager/translations/Home-Assistant, deduplicated by localization key with latest correction retained",
+  "entries_checked": 5463,
+  "term_inventory": {
+    "API-nyckel": 82,
+    "API-token": 10,
+    "token": 28,
+    "enhet": 270,
+    "entitet": 73,
+    "konfiguration": 81,
+    "inställning": 64,
+    "förhandsgranskning": 3,
+    "parkoppling": 7,
+    "autentisering": 170,
+    "uppdatering": 118,
+    "säkerhetskopia": 16,
+    "behörighet": 14
+  },
+  "canonical_choices": {
+    "API key": "API-nyckel",
+    "API token": "API-token",
+    "entity": "entitet",
+    "device": "enhet",
+    "configuration": "konfiguration",
+    "setting": "inställning",
+    "preview": "förhandsgranskning",
+    "pairing": "parkoppling",
+    "authentication": "autentisering"
+  },
+  "findings": [
+    {
+      "type": "fixed",
+      "count": 7,
+      "keys": [
+        "component::vicare::services::set_circulation_schedule::fields::friday::description",
+        "component::vicare::services::set_circulation_schedule::fields::monday::description",
+        "component::vicare::services::set_circulation_schedule::fields::saturday::description",
+        "component::vicare::services::set_circulation_schedule::fields::sunday::description",
+        "component::vicare::services::set_circulation_schedule::fields::thursday::description",
+        "component::vicare::services::set_circulation_schedule::fields::tuesday::description",
+        "component::vicare::services::set_circulation_schedule::fields::wednesday::description"
+      ],
+      "issue": "comma before och",
+      "replacement": "Cirkulationsintervall för denna dag. Varje intervall har en start- och sluttid i ett tiominutersrutnät, använd 00:00 eller 24:00 som sluttid för dagens slut och ett cirkulationsläge som stöds av enheten. Dagar som inte skickas behåller sitt nuvarande schema."
+    },
+    {
+      "type": "manual_context",
+      "result": "No conflicting canonical terminology found in the reviewed high-frequency technical terms."
+    }
+  ],
+  "upstream_status": "Lokalise update attempted but received HTTP 403; corrective delta is retained locally for upload once authorization is restored.",
+  "verification": {
+    "l10n_lint": {
+      "entries_checked": 5463,
+      "errors": 0,
+      "warnings": 2,
+      "review": "Both repeated-word warnings are intentional “slå av och på På/av-reglaget” wording."
+    },
+    "svlang_skrivregler": {
+      "issues": 8,
+      "review": "All eight findings are indentation in ICU plural-message syntax; no prose spacing or punctuation defect remains."
+    },
+    "hunspell_sv": {
+      "unknown_words": 0
+    },
+    "translation_memory": {
+      "exact_source_comparisons": 180,
+      "contextual_divergences": 27,
+      "review": "All divergences were reviewed by key and source context; none required a canonical replacement."
+    },
+    "swedish_foss_terminology": {
+      "exact_source_comparisons": 173,
+      "contextual_candidates": 47,
+      "review": "All candidates were reviewed by technical context; the terminology bank is advisory and no further change was appropriate."
+    },
+    "manual_style_checks": {
+      "comma_before_och": 0,
+      "placeholder_and_time_format": "Preserved in all seven corrective entries."
+    }
+  }
+}
