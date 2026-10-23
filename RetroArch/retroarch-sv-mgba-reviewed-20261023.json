@@ -1,0 +1,441 @@
+{
+  "project": "RetroArch",
+  "language": "sv-SE",
+  "component": "mgba/mgba.json",
+  "reviewedAt": "2026-10-23",
+  "status": "submitted-and-api-verified",
+  "entries": [
+    {
+      "stringId": 3358641,
+      "source": "Configure base hardware selection / BIOS parameters.",
+      "target": "Konfigurera val av grundläggande maskinvara och BIOS-parametrar.",
+      "translationId": 2971695,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358645,
+      "source": "Configure DMG palette / SGB borders / color correction / LCD ghosting effects.",
+      "target": "Konfigurera DMG-palett, SGB-ramar, färgkorrigering och LCD-efterbildseffekter.",
+      "translationId": 2971697,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358647,
+      "source": "Configure DMG palette / SGB borders.",
+      "target": "Konfigurera DMG-palett och SGB-ramar.",
+      "translationId": 2971699,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358655,
+      "source": "Configure controller / sensor input and controller rumble settings.",
+      "target": "Konfigurera inmatning från handkontroll och sensor samt handkontrollens vibrationsinställningar.",
+      "translationId": 2971701,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358659,
+      "source": "Configure idle loop removal / frameskipping parameters.",
+      "target": "Konfigurera borttagning av tomgångsloopar och parametrar för bildrutsöverhoppning.",
+      "translationId": 2971703,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358661,
+      "source": "Game Boy Model (Restart)",
+      "target": "Game Boy-modell (omstart krävs)",
+      "translationId": 2971705,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358663,
+      "source": "Runs loaded content with a specific Game Boy model. 'Autodetect' will select the most appropriate model for the current game.",
+      "target": "Kör laddat innehåll med en viss Game Boy-modell. ”Upptäck automatiskt” väljer den lämpligaste modellen för det aktuella spelet.",
+      "translationId": 2971707,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358665,
+      "source": "Autodetect",
+      "target": "Upptäck automatiskt",
+      "translationId": 2971709,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358675,
+      "source": "Use BIOS File if Found (Restart)",
+      "target": "Använd BIOS-filen om den hittas (omstart krävs)",
+      "translationId": 2971711,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358677,
+      "source": "Use official BIOS/bootloader for emulated hardware, if present in RetroArch's system directory.",
+      "target": "Använd officiell BIOS eller startladdare för den emulerade maskinvaran om den finns i systemkatalogen för RetroArch.",
+      "translationId": 2971713,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358679,
+      "source": "Skip BIOS Intro (Restart)",
+      "target": "Hoppa över BIOS-introt (omstart krävs)",
+      "translationId": 2971715,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358681,
+      "source": "When using an official BIOS/bootloader, skip the start-up logo animation. This setting is ignored when 'Use BIOS File if Found' is disabled.",
+      "target": "När en officiell BIOS eller startladdare används hoppas uppstartsloggans animering över. Inställningen ignoreras när ”Använd BIOS-filen om den hittas” är inaktiverad.",
+      "translationId": 2971717,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358683,
+      "source": "Default Game Boy Palette",
+      "target": "Standardpalett för Game Boy",
+      "translationId": 2971719,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358685,
+      "source": "Selects which palette is used for Game Boy games that are not Game Boy Color or Super Game Boy compatible, or if the model is forced to Game Boy.",
+      "target": "Väljer paletten för Game Boy-spel som inte är kompatibla med Game Boy Color eller Super Game Boy, eller när modellen är inställd på Game Boy.",
+      "translationId": 2971721,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358691,
+      "source": "Display Super Game Boy borders when running Super Game Boy enhanced games.",
+      "target": "Visa Super Game Boy-ramar när spel med stöd för Super Game Boy körs.",
+      "translationId": 2971723,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358695,
+      "source": "Adjusts output colors to match the display of real GBA/GBC hardware.",
+      "target": "Justerar färgerna så att de motsvarar visningen på verklig maskinvara för GBA eller GBC.",
+      "translationId": 2971725,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358697,
+      "source": "Auto",
+      "target": "Automatiskt",
+      "translationId": 2971727,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358701,
+      "source": "Simulates LCD ghosting effects. 'Simple' performs a 50:50 mix of the current and previous frames. 'Smart' attempts to detect screen flickering, and only performs a 50:50 mix on affected pixels. 'LCD Ghosting' mimics natural LCD response times by combining multiple buffered frames. 'Simple' or 'Smart' blending is required when playing games that aggressively exploit LCD ghosting for transparency effects (Wave Race, Chikyuu Kaihou Gun ZAS, F-Zero, the Boktai series...).",
+      "target": "Simulerar LCD-efterbildseffekter. ”Enkel” blandar den aktuella och föregående bildrutan i förhållandet 50:50. ”Smart” försöker upptäcka skärmflimmer och blandar endast berörda bildpunkter i förhållandet 50:50. ”LCD-efterbilder” efterliknar LCD-skärmens naturliga svarstider genom att kombinera flera buffrade bildrutor. Blandning med ”Enkel” eller ”Smart” krävs när du spelar spel som aktivt utnyttjar LCD-efterbilder för genomskinlighetseffekter (Wave Race, Chikyuu Kaihou Gun ZAS, F-Zero, Boktai-serien...).",
+      "translationId": 2971729,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358703,
+      "source": "Simple",
+      "target": "Enkel",
+      "translationId": 2971731,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358707,
+      "source": "LCD Ghosting (Accurate)",
+      "target": "LCD-efterbilder (noggrann)",
+      "translationId": 2971733,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358709,
+      "source": "LCD Ghosting (Fast)",
+      "target": "LCD-efterbilder (snabb)",
+      "translationId": 2971735,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358715,
+      "source": "Enables a low pass audio filter to reduce the 'harshness' of generated audio.",
+      "target": "Aktiverar ett lågpassfilter för ljud som minskar den upplevda skärpan i det genererade ljudet.",
+      "translationId": 2971737,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358717,
+      "source": "Audio Filter Level",
+      "target": "Nivå för ljudfilter",
+      "translationId": 2971739,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358721,
+      "source": "Specifies the cut-off frequency of the low pass audio filter. A higher value increases the perceived 'strength' of the filter, since a wider range of the high frequency spectrum is attenuated.",
+      "target": "Anger gränsfrekvensen för ljudets lågpassfilter. Ett högre värde ökar filtrets upplevda styrka eftersom ett större område av det högfrekventa spektrumet dämpas.",
+      "translationId": 2971741,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358727,
+      "source": "15%",
+      "target": "15 %",
+      "translationId": 2971743,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358729,
+      "source": "20%",
+      "target": "20 %",
+      "translationId": 2971745,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358733,
+      "source": "30%",
+      "target": "30 %",
+      "translationId": 2971747,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358735,
+      "source": "35%",
+      "target": "35 %",
+      "translationId": 2971749,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358737,
+      "source": "40%",
+      "target": "40 %",
+      "translationId": 2971751,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358741,
+      "source": "50%",
+      "target": "50 %",
+      "translationId": 2971753,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358743,
+      "source": "55%",
+      "target": "55 %",
+      "translationId": 2971755,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358745,
+      "source": "60%",
+      "target": "60 %",
+      "translationId": 2971757,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358747,
+      "source": "65%",
+      "target": "65 %",
+      "translationId": 2971759,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358749,
+      "source": "70%",
+      "target": "70 %",
+      "translationId": 2971761,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358751,
+      "source": "75%",
+      "target": "75 %",
+      "translationId": 2971763,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358753,
+      "source": "80%",
+      "target": "80 %",
+      "translationId": 2971765,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358755,
+      "source": "85%",
+      "target": "85 %",
+      "translationId": 2971767,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358757,
+      "source": "90%",
+      "target": "90 %",
+      "translationId": 2971769,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358759,
+      "source": "95%",
+      "target": "95 %",
+      "translationId": 2971771,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358761,
+      "source": "Allow Opposing Directional Input",
+      "target": "Tillåt motriktad riktningsinmatning",
+      "translationId": 2971773,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358763,
+      "source": "Enabling this will allow pressing / quickly alternating / holding both left and right (or up and down) directions at the same time. This may cause movement-based glitches.",
+      "target": "När detta aktiveras går det att trycka ned, växla snabbt mellan eller hålla ned både vänster och höger, eller upp och ned, samtidigt. Det kan orsaka rörelserelaterade fel.",
+      "translationId": 2971775,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358771,
+      "source": "Sets ambient sunlight intensity. Can be used by games that included a solar sensor in their cartridges, e.g: the Boktai series.",
+      "target": "Anger intensiteten för det omgivande solljuset. Kan användas av spel som har en solsensor i sin kassett, till exempel Boktai-serien.",
+      "translationId": 2971777,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358773,
+      "source": "Use device sensor if available",
+      "target": "Använd enhetens sensor om den finns",
+      "translationId": 2971779,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358777,
+      "source": "Enabling this will allow compatible games with the Game Boy Player boot logo to make the controller rumble. Due to how Nintendo decided this feature should work, it may cause glitches such as flickering or lag in some of these games.",
+      "target": "När detta aktiveras kan kompatibla spel med startlogotypen för Game Boy Player få handkontrollen att vibrera. Nintendos utformning av funktionen kan orsaka fel som flimmer eller fördröjning i vissa av spelen.",
+      "translationId": 2971781,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358779,
+      "source": "Idle Loop Removal",
+      "target": "Borttagning av tomgångsloopar",
+      "translationId": 2971783,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358781,
+      "source": "Reduce system load by optimizing so-called 'idle-loops' - sections in the code where nothing happens, but the CPU runs at full speed (like a car revving in neutral). Improves performance, and should be enabled on low-end hardware.",
+      "target": "Minska systembelastningen genom att optimera så kallade tomgångsloopar, avsnitt i koden där ingenting händer men CPU:n körs med full hastighet (som en bil som varvar i neutralt läge). Det förbättrar prestandan och bör aktiveras på maskinvara med låg kapacitet.",
+      "translationId": 2971785,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358783,
+      "source": "Remove Known",
+      "target": "Ta bort kända",
+      "translationId": 2971787,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358791,
+      "source": "Skip frames to avoid audio buffer under-run (crackling). Improves performance at the expense of visual smoothness. 'Auto' skips frames when advised by the frontend. 'Auto (Threshold)' utilises the 'Frameskip Threshold (%)' setting. 'Fixed Interval' utilises the 'Frameskip Interval' setting.",
+      "target": "Hoppa över bildrutor för att undvika underkörning av ljudbufferten med sprakande ljud. Det förbättrar prestandan men kan göra bilden mindre jämn. ”Automatiskt” hoppar över bildrutor när gränssnittet rekommenderar det. ”Automatiskt (tröskelvärde)” använder inställningen ”Tröskelvärde för bildrutsöverhoppning (%)”. ”Fast intervall” använder inställningen ”Intervall för bildrutsöverhoppning”.",
+      "translationId": 2971789,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358793,
+      "source": "Auto (Threshold)",
+      "target": "Automatiskt (tröskelvärde)",
+      "translationId": 2971791,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358795,
+      "source": "Fixed Interval",
+      "target": "Fast intervall",
+      "translationId": 2971793,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358799,
+      "source": "When 'Frameskip' is set to 'Auto (Threshold)', specifies the audio buffer occupancy threshold (percentage) below which frames will be skipped. Higher values reduce the risk of crackling by causing frames to be dropped more frequently.",
+      "target": "När ”Bildrutsöverhoppning” är inställt på ”Automatiskt (tröskelvärde)” anger detta tröskelvärdet i procent för ljudbuffertens fyllnadsgrad, under vilket bildrutor hoppas över. Högre värden minskar risken för sprakande ljud genom att bildrutor hoppas över oftare.",
+      "translationId": 2971795,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3358803,
+      "source": "When 'Frameskip' is set to 'Fixed Interval', the value set here is the number of frames omitted after a frame is rendered - i.e. '0' = 60fps, '1' = 30fps, '2' = 15fps, etc.",
+      "target": "När ”Bildrutsöverhoppning” är inställt på ”Fast intervall” anger värdet här hur många bildrutor som hoppas över efter en renderad bildruta. Exempel: ”0” = 60 bilder per sekund, ”1” = 30 bilder per sekund och ”2” = 15 bilder per sekund.",
+      "translationId": 2971797,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3365827,
+      "source": "Hardware Preset Game Boy Palettes (Restart)",
+      "target": "Maskinvarupaletter för Game Boy (omstart krävs)",
+      "translationId": 2971799,
+      "submission": "created",
+      "apiVerified": true
+    },
+    {
+      "stringId": 3365829,
+      "source": "Use the palettes for Game Boy games that have presets on the Game Boy Color or Super Game Boy.",
+      "target": "Använd paletterna för Game Boy-spel som har förinställningar för Game Boy Color eller Super Game Boy.",
+      "translationId": 2971801,
+      "submission": "created",
+      "apiVerified": true
+    }
+  ]
+}
