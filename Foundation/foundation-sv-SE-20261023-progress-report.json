@@ -226,5 +226,28 @@
   "limitations": [
     "Crowdin API-token saknar behörighet att bygga eller ladda ned en komplett export.",
     "QA-varningarna innehåller många falsklarm för svenska sammansättningar, ordningstal och namn."
-  ]
+  ],
+  "qa_triage": {
+    "sampled_checks": 894,
+    "by_category": {
+      "spellcheck": 757,
+      "punctuation": 55,
+      "variables": 31,
+      "numbers": 27,
+      "symbol_register": 12,
+      "special_symbols": 8,
+      "wrong_translation": 3,
+      "duplicate": 1
+    },
+    "known_non_actionable_patterns": [
+      "Svenska ordningstal som 1:a och 2:a tolkas felaktigt som platshållare.",
+      "Svenska månadsnamn ska ha liten begynnelsebokstav.",
+      "Svensk sifferformatering med mellanrum och utskrivna tal skiljer sig från engelskan.",
+      "Pluralnotationen (s) i engelska källor har ofta ingen svensk motsvarighet."
+    ],
+    "needs_follow_up": [
+      "QA-statusen räknar även äldre förslag, därför kan varningar kvarstå efter att ett nytt korrekt förslag skickats in.",
+      "Full export kan inte byggas med den aktuella API-behörigheten, vilket begränsar en komplett lokal katalogkontroll."
+    ]
+  }
 }
