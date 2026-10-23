@@ -1,0 +1,219 @@
+[
+  {
+    "translation_id": 9688865633,
+    "key_id": 930901371,
+    "key_name": "component::zwave_js::triggers::event::fields::config_entry_id::description",
+    "source": "The Z-Wave JS config entry to listen to. Required for controller and driver events.",
+    "translation": "Z-Wave JS-konfigurationsposten att lyssna på. Krävs för styrenhets- och drivrutinshändelser."
+  },
+  {
+    "translation_id": 9688865697,
+    "key_id": 930901372,
+    "key_name": "component::zwave_js::triggers::event::fields::config_entry_id::name",
+    "source": "Config entry",
+    "translation": "Konfigurationspost"
+  },
+  {
+    "translation_id": 9688865761,
+    "key_id": 930901373,
+    "key_name": "component::zwave_js::triggers::event::fields::device_id::description",
+    "source": "Devices whose node events to listen to. Node events need at least one device or entity, and controller or driver events must not have any.",
+    "translation": "Enheter vars nodhändelser ska bevakas. Nodhändelser behöver minst en enhet eller entitet och styrenhets- eller drivrutinshändelser får inte ha någon."
+  },
+  {
+    "translation_id": 9688865889,
+    "key_id": 930901375,
+    "key_name": "component::zwave_js::triggers::event::fields::entity_id::description",
+    "source": "Entities whose node events to listen to. Node events need at least one device or entity, and controller or driver events must not have any.",
+    "translation": "Entiteter vars nodhändelser ska bevakas. Nodhändelser behöver minst en enhet eller entitet och styrenhets- eller drivrutinshändelser får inte ha någon."
+  },
+  {
+    "translation_id": 9688866017,
+    "key_id": 930901377,
+    "key_name": "component::zwave_js::triggers::event::fields::event::description",
+    "source": "Name of the Z-Wave JS event, for example `value notification`.",
+    "translation": "Namnet på Z-Wave JS-händelsen, till exempel `value notification`."
+  },
+  {
+    "translation_id": 9688866145,
+    "key_id": 930901379,
+    "key_name": "component::zwave_js::triggers::event::fields::event_data::description",
+    "source": "Key-value pairs the event data must contain for the trigger to fire.",
+    "translation": "Nyckelvärdepar som händelsedatan måste innehålla för att utlösaren ska aktiveras."
+  },
+  {
+    "translation_id": 9688866273,
+    "key_id": 930901381,
+    "key_name": "component::zwave_js::triggers::event::fields::event_source::description",
+    "source": "Whether the event is emitted by the controller, the driver, or a node.",
+    "translation": "Om händelsen avges av styrenheten, drivrutinen eller en nod."
+  },
+  {
+    "translation_id": 9688866337,
+    "key_id": 930901382,
+    "key_name": "component::zwave_js::triggers::event::fields::event_source::name",
+    "source": "Event source",
+    "translation": "Händelsekälla"
+  },
+  {
+    "translation_id": 9688866401,
+    "key_id": 930901383,
+    "key_name": "component::zwave_js::triggers::event::fields::partial_dict_match::description",
+    "source": "Match nested dictionaries in the event data on the given keys only, instead of requiring an exact match.",
+    "translation": "Matcha kapslade ordböcker i händelsedatan endast mot de angivna nycklarna i stället för att kräva en exakt matchning."
+  },
+  {
+    "translation_id": 9688866465,
+    "key_id": 930901384,
+    "key_name": "component::zwave_js::triggers::event::fields::partial_dict_match::name",
+    "source": "Partial dictionary match",
+    "translation": "Delvis matchning av ordbok"
+  },
+  {
+    "translation_id": 9688866529,
+    "key_id": 930901385,
+    "key_name": "component::zwave_js::triggers::event::name",
+    "source": "Z-Wave JS event received",
+    "translation": "Z-Wave JS-händelse mottagen"
+  },
+  {
+    "translation_id": 9688866593,
+    "key_id": 930901386,
+    "key_name": "component::zwave_js::triggers::value_updated::description",
+    "source": "Triggers when a Z-Wave value on one or more nodes changes.",
+    "translation": "Utlöses när ett Z-Wave-värde på en eller flera noder ändras."
+  },
+  {
+    "translation_id": 9688866657,
+    "key_id": 930901387,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::command_class::description",
+    "source": "Command class of the value.",
+    "translation": "Kommandoklass för värdet."
+  },
+  {
+    "translation_id": 9688866721,
+    "key_id": 930901388,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::command_class::name",
+    "source": "Command class",
+    "translation": "Kommandoklass"
+  },
+  {
+    "translation_id": 9688866785,
+    "key_id": 930901389,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::device_id::description",
+    "source": "Devices whose values to watch. At least one device or entity is required.",
+    "translation": "Enheter vars värden ska bevakas. Minst en enhet eller entitet krävs."
+  },
+  {
+    "translation_id": 9688866849,
+    "key_id": 930901390,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::device_id::name",
+    "source": "Devices",
+    "translation": "Enheter"
+  },
+  {
+    "translation_id": 9688866913,
+    "key_id": 930901391,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::endpoint::description",
+    "source": "Endpoint of the value.",
+    "translation": "Slutpunkt för värdet."
+  },
+  {
+    "translation_id": 9688866977,
+    "key_id": 930901392,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::endpoint::name",
+    "source": "Endpoint",
+    "translation": "Slutpunkt"
+  },
+  {
+    "translation_id": 9688867041,
+    "key_id": 930901393,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::entity_id::description",
+    "source": "Entities whose values to watch. At least one device or entity is required.",
+    "translation": "Entiteter vars värden ska bevakas. Minst en enhet eller entitet krävs."
+  },
+  {
+    "translation_id": 9688867105,
+    "key_id": 930901394,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::entity_id::name",
+    "source": "Entities",
+    "translation": "Entiteter"
+  },
+  {
+    "translation_id": 9688867169,
+    "key_id": 930901395,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::from::description",
+    "source": "Only trigger when the value changes from this value, or from any value in this list.",
+    "translation": "Utlös endast när värdet ändras från detta värde eller från något värde i den här listan."
+  },
+  {
+    "translation_id": 9688867233,
+    "key_id": 930901396,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::from::name",
+    "source": "From",
+    "translation": "Från"
+  },
+  {
+    "translation_id": 9688867297,
+    "key_id": 930901397,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::property::description",
+    "source": "Property of the value.",
+    "translation": "Värdets egenskap."
+  },
+  {
+    "translation_id": 9688867361,
+    "key_id": 930901398,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::property::name",
+    "source": "Property",
+    "translation": "Egenskap"
+  },
+  {
+    "translation_id": 9688867425,
+    "key_id": 930901399,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::property_key::description",
+    "source": "Property key of the value.",
+    "translation": "Egenskapsnyckel för värdet."
+  },
+  {
+    "translation_id": 9688867489,
+    "key_id": 930901400,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::property_key::name",
+    "source": "Property key",
+    "translation": "Egenskapsnyckel"
+  },
+  {
+    "translation_id": 9688867553,
+    "key_id": 930901401,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::to::description",
+    "source": "Only trigger when the value changes to this value, or to any value in this list.",
+    "translation": "Utlös endast när värdet ändras till detta värde eller till något värde i den här listan."
+  },
+  {
+    "translation_id": 9688867617,
+    "key_id": 930901402,
+    "key_name": "component::zwave_js::triggers::value_updated::fields::to::name",
+    "source": "To",
+    "translation": "Till"
+  },
+  {
+    "translation_id": 9727222401,
+    "key_id": 933549555,
+    "key_name": "component::zwave_js::conditions::value::description",
+    "source": "Tests if a Z-Wave value on one or more nodes equals the given value.",
+    "translation": "Kontrollerar om ett Z-Wave-värde på en eller flera noder är lika med det angivna värdet."
+  },
+  {
+    "translation_id": 9727222465,
+    "key_id": 933549556,
+    "key_name": "component::zwave_js::conditions::value::fields::behavior::description",
+    "source": "Whether any or every targeted node must match.",
+    "translation": "Om någon eller alla valda noder måste matcha."
+  },
+  {
+    "translation_id": 9727222529,
+    "key_id": 933549557,
+    "key_name": "component::zwave_js::conditions::value::fields::behavior::name",
+    "source": "Condition passes if",
+    "translation": "Villkoret uppfylls om"
+  }
+]
