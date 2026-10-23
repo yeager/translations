@@ -1,0 +1,289 @@
+[
+  {
+    "translation_id": 9813014223,
+    "key_id": 939426337,
+    "key_name": "component::threema::config::error::invalid_gateway_id",
+    "source": "Gateway ID must start with * followed by 7 alphanumeric characters.",
+    "translation": "Gateway-ID måste börja med * följt av sju alfanumeriska tecken."
+  },
+  {
+    "translation_id": 9813014287,
+    "key_id": 939426338,
+    "key_name": "component::threema::config::error::invalid_key",
+    "source": "Key must be a 64-character hex string (32 bytes).",
+    "translation": "Nyckeln måste vara en hexsträng med 64 tecken (32 byte)."
+  },
+  {
+    "translation_id": 9813014351,
+    "key_id": 939426339,
+    "key_name": "component::threema::config::error::key_mismatch",
+    "source": "The public key does not match the private key.",
+    "translation": "Den offentliga nyckeln stämmer inte överens med den privata nyckeln."
+  },
+  {
+    "translation_id": 9813014415,
+    "key_id": 939426340,
+    "key_name": "component::threema::config::error::public_key_requires_private_key",
+    "source": "Enter the private key too to verify it against the public key.",
+    "translation": "Ange även den privata nyckeln för att kontrollera den mot den offentliga nyckeln."
+  },
+  {
+    "translation_id": 9813014543,
+    "key_id": 939426342,
+    "key_name": "component::threema::config::step::credentials::data::api_secret",
+    "source": "API secret",
+    "translation": "API-hemlighet"
+  },
+  {
+    "translation_id": 9813014607,
+    "key_id": 939426343,
+    "key_name": "component::threema::config::step::credentials::data::gateway_id",
+    "source": "Gateway ID",
+    "translation": "Gateway-ID"
+  },
+  {
+    "translation_id": 9813014671,
+    "key_id": 939426344,
+    "key_name": "component::threema::config::step::credentials::data::private_key",
+    "source": "Private key (optional, enables E2E encryption)",
+    "translation": "Privat nyckel (valfritt, aktiverar E2E-kryptering)"
+  },
+  {
+    "translation_id": 9813014735,
+    "key_id": 939426345,
+    "key_name": "component::threema::config::step::credentials::data::public_key",
+    "source": "Public key to verify against (optional)",
+    "translation": "Offentlig nyckel att kontrollera mot (valfritt)"
+  },
+  {
+    "translation_id": 9813014799,
+    "key_id": 939426346,
+    "key_name": "component::threema::config::step::credentials::data_description::api_secret",
+    "source": "Secret you received from Threema",
+    "translation": "Hemlighet som du fick från Threema"
+  },
+  {
+    "translation_id": 9813014863,
+    "key_id": 939426347,
+    "key_name": "component::threema::config::step::credentials::data_description::gateway_id",
+    "source": "ID of your Gateway, including '*', e.g.: *ABCD123",
+    "translation": "ID:t för din Gateway, inklusive '*', till exempel: *ABCD123"
+  },
+  {
+    "translation_id": 9813014927,
+    "key_id": 939426348,
+    "key_name": "component::threema::config::step::credentials::data_description::private_key",
+    "source": "Private key as hex string (64 characters). A 'private:' prefix, as used by Threema's key export tools, is accepted and stripped automatically. Leave empty for simple (non-E2E) mode.",
+    "translation": "Privat nyckel som hexsträng (64 tecken). Prefixet 'private:', som används av Threemas verktyg för nyckelexport, accepteras och tas bort automatiskt. Lämna tomt för enkelt läge utan E2E."
+  },
+  {
+    "translation_id": 9813014991,
+    "key_id": 939426349,
+    "key_name": "component::threema::config::step::credentials::data_description::public_key",
+    "source": "Never stored — only checked once against the private key above to catch copy-paste mistakes. Paste the public key you registered at gateway.threema.ch (a 'public:' prefix is accepted).",
+    "translation": "Lagras aldrig. Kontrolleras endast en gång mot den privata nyckeln ovan för att fånga kopierings- och inklistringsmisstag. Klistra in den offentliga nyckeln som du registrerade på gateway.threema.ch (prefixet 'public:' accepteras)."
+  },
+  {
+    "translation_id": 9813015055,
+    "key_id": 939426350,
+    "key_name": "component::threema::config::step::credentials::description",
+    "source": "Enter your Threema Gateway ID and secret obtained from gateway.threema.ch. Threema enables end-to-end mode for a Gateway ID manually after you register a public key, which can take a few days — so you may well be completing this step long after the keys were generated.",
+    "translation": "Ange ditt Threema Gateway-ID och den hemlighet som du fick från gateway.threema.ch. Threema aktiverar E2E-läget för ett Gateway-ID manuellt efter att du registrerat en offentlig nyckel. Det kan ta några dagar, så det är möjligt att du gör detta långt efter att nycklarna genererades."
+  },
+  {
+    "translation_id": 9813015119,
+    "key_id": 939426351,
+    "key_name": "component::threema::config::step::credentials::title",
+    "source": "Gateway credentials",
+    "translation": "Gateway-inloggningsuppgifter"
+  },
+  {
+    "translation_id": 9813015183,
+    "key_id": 939426352,
+    "key_name": "component::threema::config::step::setup_new::description",
+    "source": "Your keys have been generated. Save them now before continuing!\n\nPublic key: `{public_key}`\nPrivate key: `{private_key}`\n\nWhen registering at gateway.threema.ch, paste the public key as shown above. Store the private key securely — it cannot be recovered.",
+    "translation": "Nycklarna har genererats. Spara dem innan du fortsätter!\n\nOffentlig nyckel: `{public_key}`\nPrivat nyckel: `{private_key}`\n\nNär du registrerar på gateway.threema.ch klistrar du in den offentliga nyckeln enligt ovan. Förvara den privata nyckeln säkert. Den går inte att återställa."
+  },
+  {
+    "translation_id": 9813015247,
+    "key_id": 939426353,
+    "key_name": "component::threema::config::step::setup_new::title",
+    "source": "Keys generated",
+    "translation": "Nycklar genererade"
+  },
+  {
+    "translation_id": 9813015311,
+    "key_id": 939426354,
+    "key_name": "component::threema::config::step::user::menu_options::credentials",
+    "source": "Add existing Gateway ID",
+    "translation": "Lägg till befintligt Gateway-ID"
+  },
+  {
+    "translation_id": 9813015375,
+    "key_id": 939426355,
+    "key_name": "component::threema::config::step::user::menu_options::setup_new",
+    "source": "Generate new encryption keys",
+    "translation": "Generera nya krypteringsnycklar"
+  },
+  {
+    "translation_id": 9813015439,
+    "key_id": 939426356,
+    "key_name": "component::threema::config::step::user::title",
+    "source": "Threema setup",
+    "translation": "Konfigurera Threema"
+  },
+  {
+    "translation_id": 9813015503,
+    "key_id": 939426357,
+    "key_name": "component::threema::config_subentries::recipient::abort::already_configured",
+    "source": "This recipient is already configured.",
+    "translation": "Mottagaren är redan konfigurerad."
+  },
+  {
+    "translation_id": 9813015567,
+    "key_id": 939426358,
+    "key_name": "component::threema::config_subentries::recipient::entry_type",
+    "source": "Recipient",
+    "translation": "Mottagare"
+  },
+  {
+    "translation_id": 9813015631,
+    "key_id": 939426359,
+    "key_name": "component::threema::config_subentries::recipient::error::invalid_recipient_id",
+    "source": "Threema ID must be exactly 8 alphanumeric characters.",
+    "translation": "Threema-ID måste bestå av exakt åtta alfanumeriska tecken."
+  },
+  {
+    "translation_id": 9813015695,
+    "key_id": 939426360,
+    "key_name": "component::threema::config_subentries::recipient::initiate_flow::user",
+    "source": "Add recipient",
+    "translation": "Lägg till mottagare"
+  },
+  {
+    "translation_id": 9813015759,
+    "key_id": 939426361,
+    "key_name": "component::threema::config_subentries::recipient::step::user::data::name",
+    "source": "Display name",
+    "translation": "Visningsnamn"
+  },
+  {
+    "translation_id": 9813015823,
+    "key_id": 939426362,
+    "key_name": "component::threema::config_subentries::recipient::step::user::data::recipient",
+    "source": "Threema ID",
+    "translation": "Threema-ID"
+  },
+  {
+    "translation_id": 9813015887,
+    "key_id": 939426363,
+    "key_name": "component::threema::config_subentries::recipient::step::user::data_description::name",
+    "source": "Optional friendly name for this recipient (e.g. 'Dad').",
+    "translation": "Valfritt visningsnamn för mottagaren, till exempel 'Pappa'."
+  },
+  {
+    "translation_id": 9813015951,
+    "key_id": 939426364,
+    "key_name": "component::threema::config_subentries::recipient::step::user::data_description::recipient",
+    "source": "The 8-character Threema ID of the recipient.",
+    "translation": "Mottagarens åttateckens-Threema-ID."
+  },
+  {
+    "translation_id": 9813016015,
+    "key_id": 939426365,
+    "key_name": "component::threema::config_subentries::recipient::step::user::description",
+    "source": "Enter the Threema ID of the person you want to send messages to.",
+    "translation": "Ange Threema-ID:t för personen som du vill skicka meddelanden till."
+  },
+  {
+    "translation_id": 9813016079,
+    "key_id": 939426366,
+    "key_name": "component::threema::config_subentries::recipient::step::user::title",
+    "source": "Add recipient",
+    "translation": "Lägg till mottagare"
+  },
+  {
+    "translation_id": 9813016143,
+    "key_id": 939426367,
+    "key_name": "component::threema::exceptions::cannot_connect::message",
+    "source": "Failed to connect",
+    "translation": "Det gick inte att ansluta"
+  },
+  {
+    "translation_id": 9813016207,
+    "key_id": 939426368,
+    "key_name": "component::threema::exceptions::invalid_auth::message",
+    "source": "Invalid authentication",
+    "translation": "Ogiltig autentisering"
+  },
+  {
+    "translation_id": 9813016271,
+    "key_id": 939426369,
+    "key_name": "component::threema::exceptions::send_error::message",
+    "source": "Error sending message: {error}",
+    "translation": "Fel vid skickande av meddelande: {error}"
+  },
+  {
+    "translation_id": 9813016604,
+    "key_id": 939426374,
+    "key_name": "component::theben_conexa::config::error::cannot_connect",
+    "source": "Failed to connect",
+    "translation": "Det gick inte att ansluta"
+  },
+  {
+    "translation_id": 9813016988,
+    "key_id": 939426380,
+    "key_name": "component::theben_conexa::config::step::user::data_description::host",
+    "source": "The IP of your smartmeter gateway provided by your power grid operator",
+    "translation": "IP-adressen till smartmätargatewayen från nätägaren"
+  },
+  {
+    "translation_id": 9813017052,
+    "key_id": 939426381,
+    "key_name": "component::theben_conexa::config::step::user::data_description::password",
+    "source": "The password provided by your power grid operator",
+    "translation": "Lösenordet från nätägaren"
+  },
+  {
+    "translation_id": 9813017116,
+    "key_id": 939426382,
+    "key_name": "component::theben_conexa::config::step::user::data_description::username",
+    "source": "The username provided by your power grid operator",
+    "translation": "Användarnamnet från nätägaren"
+  },
+  {
+    "translation_id": 9813017180,
+    "key_id": 939426383,
+    "key_name": "component::theben_conexa::config::step::user::description",
+    "source": "As a prerequisite you must be able to log in to your smartmeter gateway from a web browser via `https://[IP of your gateway]`.",
+    "translation": "Du måste kunna logga in på smartmätargatewayen i en webbläsare via `https://[IP of your gateway]`."
+  },
+  {
+    "translation_id": 9813017244,
+    "key_id": 939426384,
+    "key_name": "component::theben_conexa::entity::sensor::energy_consumed::name",
+    "source": "Energy consumed",
+    "translation": "Förbrukad energi"
+  },
+  {
+    "translation_id": 9813017308,
+    "key_id": 939426385,
+    "key_name": "component::theben_conexa::entity::sensor::energy_supplied::name",
+    "source": "Energy supplied",
+    "translation": "Levererad energi"
+  },
+  {
+    "translation_id": 9813018286,
+    "key_id": 939426425,
+    "key_name": "component::monarch_money::config::abort::unique_id_mismatch",
+    "source": "The authenticated Monarch Money account does not match the configured account.",
+    "translation": "Det autentiserade Monarch Money-kontot stämmer inte överens med det konfigurerade kontot."
+  },
+  {
+    "translation_id": 9813018606,
+    "key_id": 939426430,
+    "key_name": "component::monarch_money::config::step::reauth_confirm::description",
+    "source": "Your Monarch Money credentials have expired. Enter your email and password to reconnect your existing account. If required, you will also be prompted for your MFA code.",
+    "translation": "Inloggningsuppgifterna för Monarch Money har upphört att gälla. Ange din e-postadress och ditt lösenord för att återansluta det befintliga kontot. Om det behövs uppmanas du även att ange din MFA-kod."
+  }
+]
