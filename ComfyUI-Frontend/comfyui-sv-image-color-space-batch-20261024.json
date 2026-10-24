@@ -1,0 +1,41 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "ImageColorSpace.display_name",
+      "source": "Convert Image Color Space",
+      "translation": "Konvertera bildens färgrymd"
+    },
+    {
+      "key": "ImageColorSpace.description",
+      "source": "Convert sRGB, linear Rec.709, HDR (Rec.2020 HLG), HDR PQ (Rec.2020 PQ), HDR LogC3, and HDR ACEScct. LogC3 uses the EI 800 curve with Rec.709 primaries and codes clamped to [0, 1]. ACEScct uses AP1 primaries and D60 white, with Bradford adaptation to D65. Convert LogC3 or ACEScct to linear for EXR saving. Linear 1.0 uses the same 203-nit reference white as sRGB; HLG uses a 1000-nit reference display. Linear and ACEScct outputs preserve extended values. Linear-to-HDR conversions preserve highlights without tone mapping; HLG and PQ outputs clip negative channels. SDR output and PQ-to-HLG conversion tone-map excess luminance across the batch and compress out-of-gamut colors. Conversions compute in float32 and return the intermediate device and dtype. Straight alpha is not color-transformed.",
+      "translation": "Konverterar sRGB, linjär Rec.709, HDR (Rec.2020 HLG), HDR PQ (Rec.2020 PQ), HDR LogC3 och HDR ACEScct. LogC3 använder kurvan EI 800 med primärerna i Rec.709 och koder begränsade till [0, 1]. ACEScct använder primärerna AP1 och vitpunkten D60 med Bradford-anpassning till D65. Konvertera LogC3 eller ACEScct till linjärt före du sparar EXR. Linjär 1.0 använder samma referensvita på 203 nit som sRGB. HLG använder en referensskärm på 1000 nit. Utdata i linjärt format och ACEScct-format bevarar utökade värden. Konverteringar från linjärt till HDR bevarar högdagrar utan tonmappning. Utdata för HLG och PQ klipper negativa kanaler. Utdata för SDR och konvertering från PQ till HLG tonmappar överskottsluminans över batchen och komprimerar färger utanför färgrymden. Konverteringar beräknas i float32 och returnerar mellanliggande enhet och datatyp. Rak alfa färgtransformeras inte."
+    },
+    {
+      "key": "ImageColorSpace.inputs.image.name",
+      "source": "image",
+      "translation": "bild"
+    },
+    {
+      "key": "ImageColorSpace.inputs.source.name",
+      "source": "source",
+      "translation": "källa"
+    },
+    {
+      "key": "ImageColorSpace.inputs.source.tooltip",
+      "source": "Color space of the input pixels.",
+      "translation": "Färgrymd för indatapixlarna."
+    },
+    {
+      "key": "ImageColorSpace.inputs.destination.name",
+      "source": "destination",
+      "translation": "mål"
+    },
+    {
+      "key": "ImageColorSpace.inputs.destination.tooltip",
+      "source": "Color space of the output pixels. Set the save node to this same color space. Convert LogC3 or ACEScct to linear before saving EXR, or to sRGB/HDR/HDR PQ before saving video.",
+      "translation": "Färgrymd för utdatapixlarna. Ställ in sparnoden på samma färgrymd. Konvertera LogC3 eller ACEScct till linjärt före du sparar EXR eller till sRGB, HDR eller HDR PQ före du sparar video."
+    }
+  ]
+}
