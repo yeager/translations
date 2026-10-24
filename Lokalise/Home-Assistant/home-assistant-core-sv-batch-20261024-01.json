@@ -1,0 +1,354 @@
+[
+  {
+    "translation_id": 10125968239,
+    "key_id": 963117666,
+    "key_name": "component::tts::exceptions::no_engine::message",
+    "source": "This audio stream has no text-to-speech provider to generate speech.",
+    "translation": "Den här ljudströmmen har ingen talsyntesleverantör som kan skapa tal.",
+    "uploaded_translation": "Den här ljudströmmen har ingen talsyntesleverantör som kan skapa tal."
+  },
+  {
+    "translation_id": 10125993709,
+    "key_id": 963122196,
+    "key_name": "component::nest::issues::legacy_pubsub_topic::description",
+    "source": "The Nest integration entry **{entry_title}** receives device events from a Google-hosted Pub/Sub topic. Google stops publishing events to Google-hosted topics on November 30, 2026. After that date, Home Assistant no longer receives realtime updates, camera events, or doorbell presses for this entry.\n\nTo fix this, go to **Settings > Devices & services > Nest**, open the entry menu, and select **Reconfigure**. Home Assistant will create a Pub/Sub topic in your Google Cloud project and guide you through updating the Device Access Console.",
+    "translation": "Nest-integreringsposten **{entry_title}** tar emot enhetshändelser från ett Pub/Sub-ämne som Google tillhandahåller. Google slutar publicera händelser i sådana ämnen den 30 november 2026. Efter detta datum tar Home Assistant inte längre emot realtidsuppdateringar, kamerahändelser eller dörrklocketryckningar för posten.\n\nÅtgärda detta genom att gå till **Inställningar > Enheter och tjänster > Nest**, öppna postens meny och välj **Konfigurera om**. Home Assistant skapar ett Pub/Sub-ämne i Google Cloud-projektet och vägleder dig genom uppdateringen av Device Access Console.",
+    "uploaded_translation": "Nest-integreringsposten **{entry_title}** tar emot enhetshändelser från ett Pub/Sub-ämne som Google tillhandahåller. Google slutar publicera händelser i sådana ämnen den 30 november 2026. Efter detta datum tar Home Assistant inte längre emot realtidsuppdateringar, kamerahändelser eller dörrklocketryckningar för posten.\n\nÅtgärda detta genom att gå till **Inställningar > Enheter och tjänster > Nest**, öppna postens meny och välj **Konfigurera om**. Home Assistant skapar ett Pub/Sub-ämne i Google Cloud-projektet och vägleder dig genom uppdateringen av Device Access Console."
+  },
+  {
+    "translation_id": 10125993773,
+    "key_id": 963122197,
+    "key_name": "component::nest::issues::legacy_pubsub_topic::title",
+    "source": "Nest Pub/Sub topic must be migrated",
+    "translation": "Nest Pub/Sub-ämne måste migreras",
+    "uploaded_translation": "Nest Pub/Sub-ämne måste migreras"
+  },
+  {
+    "translation_id": 10125993837,
+    "key_id": 963122198,
+    "key_name": "component::nest::issues::pubsub_subscription_not_found::description",
+    "source": "The Nest integration entry **{entry_title}** could not connect to its Pub/Sub subscription. The subscription or its topic may have been deleted or misconfigured.\n\nTo fix this, go to **Settings > Devices & services > Nest**, open the entry menu, and select **Reconfigure** to select or create a Pub/Sub topic and subscription.",
+    "translation": "Det gick inte att ansluta Nest-integreringsposten **{entry_title}** till dess Pub/Sub-prenumeration. Prenumerationen eller dess ämne kan ha tagits bort eller vara felkonfigurerat.\n\nÅtgärda detta genom att gå till **Inställningar > Enheter och tjänster > Nest**, öppna postens meny och välj **Konfigurera om** för att välja eller skapa ett Pub/Sub-ämne och en prenumeration.",
+    "uploaded_translation": "Det gick inte att ansluta Nest-integreringsposten **{entry_title}** till dess Pub/Sub-prenumeration. Prenumerationen eller dess ämne kan ha tagits bort eller vara felkonfigurerat.\n\nÅtgärda detta genom att gå till **Inställningar > Enheter och tjänster > Nest**, öppna postens meny och välj **Konfigurera om** för att välja eller skapa ett Pub/Sub-ämne och en prenumeration."
+  },
+  {
+    "translation_id": 10125993901,
+    "key_id": 963122199,
+    "key_name": "component::nest::issues::pubsub_subscription_not_found::title",
+    "source": "Nest Pub/Sub subscription not found",
+    "translation": "Nest Pub/Sub-prenumeration hittades inte",
+    "uploaded_translation": "Nest Pub/Sub-prenumeration hittades inte"
+  },
+  {
+    "translation_id": 10127748492,
+    "key_id": 964244959,
+    "key_name": "component::telegram::issues::integration_removed::description",
+    "source": "The Telegram integration has been removed from Home Assistant.\n\nIt only provided legacy notify actions, which were replaced by the notify entities of the [Telegram bot integration]({url}).\n\nTo resolve this issue, remove the Telegram notify configuration (`platform: telegram`) from your `configuration.yaml` file, add your chats to the Telegram bot integration, and restart Home Assistant. Then update your automations and scripts to use the `notify.send_message` action with the Telegram bot notify entities.\n\nOnce the configuration has been removed and Home Assistant has restarted, this issue will no longer be shown.",
+    "translation": "Telegram-integrationen har tagits bort från Home Assistant.\n\nDen tillhandahöll bara äldre notifieringsåtgärder, som ersattes av notifieringsentiteterna i [Telegrambotintegrationen]({url}).\n\nÅtgärda detta genom att ta bort Telegrams notifieringskonfiguration (`platform: telegram`) från filen `configuration.yaml`, lägga till dina chattar i Telegrambotintegrationen och starta om Home Assistant. Uppdatera sedan automatiseringar och skript så att de använder åtgärden `notify.send_message` med Telegrambotens notifieringsentiteter.\n\nNär konfigurationen har tagits bort och Home Assistant har startats om visas inte längre det här problemet.",
+    "uploaded_translation": "Telegram-integrationen har tagits bort från Home Assistant.\n\nDen tillhandahöll bara äldre notifieringsåtgärder, som ersattes av notifieringsentiteterna i [Telegrambotintegrationen]({url}).\n\nÅtgärda detta genom att ta bort Telegrams notifieringskonfiguration (`platform: telegram`) från filen `configuration.yaml`, lägga till dina chattar i Telegrambotintegrationen och starta om Home Assistant. Uppdatera sedan automatiseringar och skript så att de använder åtgärden `notify.send_message` med Telegrambotens notifieringsentiteter.\n\nNär konfigurationen har tagits bort och Home Assistant har startats om visas inte längre det här problemet."
+  },
+  {
+    "translation_id": 10127748556,
+    "key_id": 964244960,
+    "key_name": "component::telegram::issues::integration_removed::title",
+    "source": "The Telegram integration has been removed",
+    "translation": "Telegram-integrationen har tagits bort",
+    "uploaded_translation": "Telegram-integrationen har tagits bort"
+  },
+  {
+    "translation_id": 10127748797,
+    "key_id": 964244979,
+    "key_name": "component::tuya::entity::sensor::countdown_end::name",
+    "source": "Countdown end",
+    "translation": "Nedräkningens slut",
+    "uploaded_translation": "Nedräkningens slut"
+  },
+  {
+    "translation_id": 10127852784,
+    "key_id": 964246069,
+    "key_name": "component::unifiprotect::issues::doorbell_sensor_deprecated::description",
+    "source": "The binary sensor `{entity_id}` is deprecated and will be removed in a future release. Use the event entity `{replacement}` with the **Event received** trigger instead.\n\nUpdate the following automations and scripts:\n{items}",
+    "translation": "Binärsensorn `{entity_id}` är föråldrad och tas bort i en framtida version. Använd händelseentiteten `{replacement}` med utlösaren **Händelse mottagen** i stället.\n\nUppdatera följande automatiseringar och skript:\n{items}",
+    "uploaded_translation": "Binärsensorn `{entity_id}` är föråldrad och tas bort i en framtida version. Använd händelseentiteten `{replacement}` med utlösaren **Händelse mottagen** i stället.\n\nUppdatera följande automatiseringar och skript:\n{items}"
+  },
+  {
+    "translation_id": 10127852848,
+    "key_id": 964246070,
+    "key_name": "component::unifiprotect::issues::doorbell_sensor_deprecated::title",
+    "source": "Entity deprecated",
+    "translation": "Entitet föråldrad",
+    "uploaded_translation": "Entitet föråldrad"
+  },
+  {
+    "translation_id": 10127852912,
+    "key_id": 964246071,
+    "key_name": "component::unifiprotect::issues::last_event_sensor_deprecated::description",
+    "source": "The entity `{entity_id}` is deprecated and will be removed in a future release. Use the event entity `{replacement}` with the **Event received** trigger instead. The event entity's state is the time of the last event Home Assistant received.\n\nUpdate the following automations and scripts:\n{items}",
+    "translation": "Händelseentiteten `{entity_id}` är föråldrad och tas bort i en framtida version. Använd händelseentiteten `{replacement}` med utlösaren **Händelse mottagen** i stället. Händelseentitetens tillstånd är tidpunkten för den senaste händelse som Home Assistant tog emot.\n\nUppdatera följande automatiseringar och skript:\n{items}",
+    "uploaded_translation": "Händelseentiteten `{entity_id}` är föråldrad och tas bort i en framtida version. Använd händelseentiteten `{replacement}` med utlösaren **Händelse mottagen** i stället. Händelseentitetens tillstånd är tidpunkten för den senaste händelse som Home Assistant tog emot.\n\nUppdatera följande automatiseringar och skript:\n{items}"
+  },
+  {
+    "translation_id": 10127852976,
+    "key_id": 964246072,
+    "key_name": "component::unifiprotect::issues::last_event_sensor_deprecated::title",
+    "source": "Entity deprecated",
+    "translation": "Entitet föråldrad",
+    "uploaded_translation": "Entitet föråldrad"
+  },
+  {
+    "translation_id": 10128862292,
+    "key_id": 964619921,
+    "key_name": "component::led_infrared::entity::button::mode_down::name",
+    "source": "Mode down",
+    "translation": "Läge ned",
+    "uploaded_translation": "Läge ned"
+  },
+  {
+    "translation_id": 10128862356,
+    "key_id": 964619922,
+    "key_name": "component::led_infrared::entity::button::mode_up::name",
+    "source": "Mode up",
+    "translation": "Läge upp",
+    "uploaded_translation": "Läge upp"
+  },
+  {
+    "translation_id": 10128862420,
+    "key_id": 964619923,
+    "key_name": "component::led_infrared::entity::button::speed_down::name",
+    "source": "Speed down",
+    "translation": "Hastighet ned",
+    "uploaded_translation": "Hastighet ned"
+  },
+  {
+    "translation_id": 10128862484,
+    "key_id": 964619924,
+    "key_name": "component::led_infrared::entity::button::speed_up::name",
+    "source": "Speed up",
+    "translation": "Hastighet upp",
+    "uploaded_translation": "Hastighet upp"
+  },
+  {
+    "translation_id": 10128862548,
+    "key_id": 964619925,
+    "key_name": "component::led_infrared::entity::event::received_command::state_attributes::event_type::state::light_yellow",
+    "source": "Color: Light yellow",
+    "translation": "Färg: ljusgul",
+    "uploaded_translation": "Färg: ljusgul"
+  },
+  {
+    "translation_id": 10128862612,
+    "key_id": 964619926,
+    "key_name": "component::led_infrared::entity::event::received_command::state_attributes::event_type::state::moccasin",
+    "source": "Color: Moccasin",
+    "translation": "Färg: mockasin",
+    "uploaded_translation": "Färg: mockasin"
+  },
+  {
+    "translation_id": 10128862676,
+    "key_id": 964619927,
+    "key_name": "component::led_infrared::entity::event::received_command::state_attributes::event_type::state::mode_down",
+    "source": "Mode down",
+    "translation": "Läge ned",
+    "uploaded_translation": "Läge ned"
+  },
+  {
+    "translation_id": 10128862740,
+    "key_id": 964619928,
+    "key_name": "component::led_infrared::entity::event::received_command::state_attributes::event_type::state::mode_up",
+    "source": "Mode up",
+    "translation": "Läge upp",
+    "uploaded_translation": "Läge upp"
+  },
+  {
+    "translation_id": 10128862804,
+    "key_id": 964619929,
+    "key_name": "component::led_infrared::entity::event::received_command::state_attributes::event_type::state::speed_down",
+    "source": "Speed down",
+    "translation": "Hastighet ned",
+    "uploaded_translation": "Hastighet ned"
+  },
+  {
+    "translation_id": 10128862868,
+    "key_id": 964619930,
+    "key_name": "component::led_infrared::entity::event::received_command::state_attributes::event_type::state::speed_up",
+    "source": "Speed up",
+    "translation": "Hastighet upp",
+    "uploaded_translation": "Hastighet upp"
+  },
+  {
+    "translation_id": 10128862932,
+    "key_id": 964619931,
+    "key_name": "component::led_infrared::entity::light::light::state_attributes::effect::state::light_yellow",
+    "source": "Color: Light yellow",
+    "translation": "Färg: ljusgul",
+    "uploaded_translation": "Färg: ljusgul"
+  },
+  {
+    "translation_id": 10128862996,
+    "key_id": 964619932,
+    "key_name": "component::led_infrared::entity::light::light::state_attributes::effect::state::moccasin",
+    "source": "Color: Moccasin",
+    "translation": "Färg: mockasin",
+    "uploaded_translation": "Färg: mockasin"
+  },
+  {
+    "translation_id": 10128863060,
+    "key_id": 964619933,
+    "key_name": "component::led_infrared::selector::device_type::options::generic_21_key",
+    "source": "21-key remote control",
+    "translation": "Fjärrkontroll med 21 knappar",
+    "uploaded_translation": "Fjärrkontroll med 21 knappar"
+  },
+  {
+    "translation_id": 10129634191,
+    "key_id": 964961015,
+    "key_name": "component::gree_infrared::config::step::reconfigure::data::hvac_modes",
+    "source": "Supported modes",
+    "translation": "Lägen som stöds",
+    "uploaded_translation": "Lägen som stöds"
+  },
+  {
+    "translation_id": 10129634255,
+    "key_id": 964961016,
+    "key_name": "component::gree_infrared::config::step::reconfigure::data::infrared_emitter_entity_id",
+    "source": "Infrared emitter",
+    "translation": "Infrarödsändare",
+    "uploaded_translation": "Infrarödsändare"
+  },
+  {
+    "translation_id": 10129634319,
+    "key_id": 964961017,
+    "key_name": "component::gree_infrared::config::step::reconfigure::data::infrared_receiver_entity_id",
+    "source": "Infrared receiver",
+    "translation": "Infrarödmottagare",
+    "uploaded_translation": "Infrarödmottagare"
+  },
+  {
+    "translation_id": 10129634383,
+    "key_id": 964961018,
+    "key_name": "component::gree_infrared::config::step::reconfigure::data_description::hvac_modes",
+    "source": "Select the operating modes your AC unit supports. Heat is not available on all models.",
+    "translation": "Välj driftlägen som din luftkonditioneringsenhet stöder. Uppvärmning är inte tillgänglig på alla modeller.",
+    "uploaded_translation": "Välj driftlägen som din luftkonditioneringsenhet stöder. Uppvärmning är inte tillgänglig på alla modeller."
+  },
+  {
+    "translation_id": 10129634447,
+    "key_id": 964961019,
+    "key_name": "component::gree_infrared::config::step::reconfigure::data_description::infrared_emitter_entity_id",
+    "source": "The infrared emitter entity to use for sending commands.",
+    "translation": "Infrarödsändarentiteten som ska användas för att skicka kommandon.",
+    "uploaded_translation": "Infrarödsändarentiteten som ska användas för att skicka kommandon."
+  },
+  {
+    "translation_id": 10129634511,
+    "key_id": 964961020,
+    "key_name": "component::gree_infrared::config::step::reconfigure::data_description::infrared_receiver_entity_id",
+    "source": "Optional — allows the integration to update state when the physical remote is used.",
+    "translation": "Valfritt — gör att integrationen kan uppdatera tillståndet när den fysiska fjärrkontrollen används.",
+    "uploaded_translation": "Valfritt — gör att integrationen kan uppdatera tillståndet när den fysiska fjärrkontrollen används."
+  },
+  {
+    "translation_id": 10129634575,
+    "key_id": 964961021,
+    "key_name": "component::gree_infrared::config::step::reconfigure::description",
+    "source": "Change the infrared entities and the supported modes of your Gree AC.",
+    "translation": "Ändra infrarödsentiteterna och de lägen som stöds för din Gree luftkonditionering.",
+    "uploaded_translation": "Ändra infrarödsentiteterna och de lägen som stöds för din Gree luftkonditionering."
+  },
+  {
+    "translation_id": 10129634639,
+    "key_id": 964961022,
+    "key_name": "component::gree_infrared::config::step::reconfigure::title",
+    "source": "Reconfigure Gree AC",
+    "translation": "Konfigurera om Gree luftkonditionering",
+    "uploaded_translation": "Konfigurera om Gree luftkonditionering"
+  },
+  {
+    "translation_id": 10130688760,
+    "key_id": 964999293,
+    "key_name": "component::google_travel_time::exceptions::timeout::message",
+    "source": "Timed out getting travel times from the Google Routes API",
+    "translation": "Tidsgränsen överskreds vid hämtning av restider från Google Routes API",
+    "uploaded_translation": "Tidsgränsen överskreds vid hämtning av restider från Google Routes API"
+  },
+  {
+    "translation_id": 10130724664,
+    "key_id": 965006314,
+    "key_name": "component::aemet::config::step::user::data::location",
+    "source": "Location",
+    "translation": "Plats",
+    "uploaded_translation": "Plats"
+  },
+  {
+    "translation_id": 10130725437,
+    "key_id": 965006882,
+    "key_name": "component::icloud::entity::sensor::altitude::name",
+    "source": "Altitude",
+    "translation": "Höjd",
+    "uploaded_translation": "Höjd"
+  },
+  {
+    "translation_id": 10130725501,
+    "key_id": 965006883,
+    "key_name": "component::icloud::entity::sensor::battery_status::name",
+    "source": "Battery status",
+    "translation": "Batteristatus",
+    "uploaded_translation": "Batteristatus"
+  },
+  {
+    "translation_id": 10130725565,
+    "key_id": 965006884,
+    "key_name": "component::icloud::entity::sensor::battery_status::state::charging",
+    "source": "Charging",
+    "translation": "Laddar",
+    "uploaded_translation": "Laddar"
+  },
+  {
+    "translation_id": 10130725629,
+    "key_id": 965006885,
+    "key_name": "component::icloud::entity::sensor::battery_status::state::full",
+    "source": "Full",
+    "translation": "Fulladdad",
+    "uploaded_translation": "Fulladdad"
+  },
+  {
+    "translation_id": 10130725693,
+    "key_id": 965006886,
+    "key_name": "component::icloud::entity::sensor::battery_status::state::not_charging",
+    "source": "Not charging",
+    "translation": "Laddar inte",
+    "uploaded_translation": "Laddar inte"
+  },
+  {
+    "translation_id": 10130725757,
+    "key_id": 965006887,
+    "key_name": "component::icloud::entity::sensor::device_status::name",
+    "source": "Status",
+    "translation": "Status",
+    "uploaded_translation": "Status"
+  },
+  {
+    "translation_id": 10130725821,
+    "key_id": 965006888,
+    "key_name": "component::icloud::entity::sensor::device_status::state::error",
+    "source": "Error",
+    "translation": "Fel",
+    "uploaded_translation": "Fel"
+  },
+  {
+    "translation_id": 10130725885,
+    "key_id": 965006889,
+    "key_name": "component::icloud::entity::sensor::device_status::state::offline",
+    "source": "Offline",
+    "translation": "Frånkopplad",
+    "uploaded_translation": "Frånkopplad"
+  },
+  {
+    "translation_id": 10130725949,
+    "key_id": 965006890,
+    "key_name": "component::icloud::entity::sensor::device_status::state::online",
+    "source": "Online",
+    "translation": "Ansluten",
+    "uploaded_translation": "Ansluten"
+  }
+]
