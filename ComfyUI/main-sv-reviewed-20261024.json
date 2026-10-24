@@ -4411,8 +4411,8 @@
   },
   "errorCatalog": {
     "fallbacks": {
-      "nodeName": "This node",
-      "inputName": "unknown input"
+      "nodeName": "Den här noden",
+      "inputName": "okänd indata"
     },
     "missingErrors": {
       "missing_node": {
@@ -4428,177 +4428,177 @@
         "toastMessageManyOss": "{count} noder kräver saknade nodpaket."
       },
       "swap_nodes": {
-        "displayMessage": "Some nodes can be replaced with alternatives",
-        "toastTitleOne": "{nodeType} can be replaced",
-        "toastTitleMany": "Nodes can be replaced",
-        "toastMessageOne": "Replace it with {replacementNodeType} from the error panel.",
-        "toastMessageMany": "{count} node types can be replaced with compatible alternatives."
+        "displayMessage": "Vissa noder kan ersättas med alternativ",
+        "toastTitleOne": "{nodeType} kan ersättas",
+        "toastTitleMany": "Noder kan ersättas",
+        "toastMessageOne": "Ersätt den med {replacementNodeType} från felpanelen.",
+        "toastMessageMany": "{count} nodtyper kan ersättas med kompatibla alternativ."
       },
       "missing_model": {
-        "displayMessageCloud": "Import a model, or open the node to replace it.",
-        "displayMessageOss": "Download a model, or open the node to replace it.",
-        "toastTitleOneCloud": "{modelName} isn't available on Cloud",
-        "toastTitleOneOss": "{modelName} is missing",
-        "toastTitleMany": "Missing models",
-        "toastTitleManyCloud": "Models aren't available on Cloud",
-        "toastMessageOneCloud": "This model isn't supported. Choose a different one.",
-        "toastMessageOneOss": "{nodeName} is missing a required model file.",
-        "toastMessageManyCloud": "Some models aren't supported. Choose different ones.",
-        "toastMessageManyOss": "{count} model files are missing."
+        "displayMessageCloud": "Importera en modell eller öppna noden för att ersätta den.",
+        "displayMessageOss": "Hämta en modell eller öppna noden för att ersätta den.",
+        "toastTitleOneCloud": "{modelName} är inte tillgänglig i Cloud",
+        "toastTitleOneOss": "{modelName} saknas",
+        "toastTitleMany": "Modeller saknas",
+        "toastTitleManyCloud": "Modeller är inte tillgängliga i Cloud",
+        "toastMessageOneCloud": "Den här modellen stöds inte. Välj en annan.",
+        "toastMessageOneOss": "{nodeName} saknar en nödvändig modellfil.",
+        "toastMessageManyCloud": "Vissa modeller stöds inte. Välj andra.",
+        "toastMessageManyOss": "{count} modellfiler saknas."
       },
       "missing_media": {
-        "displayMessage": "A required media input has no file selected.",
-        "itemLabel": "{nodeName} - {inputName}",
-        "toastTitleOne": "Media input missing",
-        "toastTitleMany": "Missing media inputs",
-        "toastMessageWithNode": "{nodeName} is missing a required media file.",
-        "toastMessageMany": "Please select the missing media inputs before running this workflow."
+        "displayMessage": "En nödvändig medieindata saknar vald fil.",
+        "itemLabel": "{nodeName}: {inputName}",
+        "toastTitleOne": "Medieindata saknas",
+        "toastTitleMany": "Medieindata saknas",
+        "toastMessageWithNode": "{nodeName} saknar en nödvändig mediefil.",
+        "toastMessageMany": "Välj saknad medieindata innan du kör arbetsflödet."
       }
     },
     "validationErrors": {
       "required_input_missing": {
         "title": "Saknad anslutning",
-        "message": "Required input slots have no connection feeding them.",
-        "details": "{nodeName} is missing a required input: {inputName}",
-        "itemLabel": "{nodeName} - {inputName}",
-        "toastTitle": "Required input missing",
-        "toastMessage": "{nodeName} is missing a required input: {inputName}"
+        "message": "Nödvändiga indataplatser saknar anslutning.",
+        "details": "{nodeName} saknar nödvändig indata: {inputName}",
+        "itemLabel": "{nodeName}: {inputName}",
+        "toastTitle": "Nödvändig indata saknas",
+        "toastMessage": "{nodeName} saknar nödvändig indata: {inputName}"
       },
       "bad_linked_input": {
         "title": "Ogiltig anslutning",
-        "message": "A node connection could not be read correctly.",
-        "details": "{nodeName} has an invalid connection for {inputName}.",
-        "itemLabel": "{nodeName} - {inputName}",
+        "message": "En nodanslutning kunde inte läsas korrekt.",
+        "details": "{nodeName} har en ogiltig anslutning för {inputName}.",
+        "itemLabel": "{nodeName}: {inputName}",
         "toastTitle": "Ogiltig anslutning",
-        "toastMessage": "{nodeName} has an invalid connection for {inputName}."
+        "toastMessage": "{nodeName} har en ogiltig anslutning för {inputName}."
       },
       "return_type_mismatch": {
         "title": "Ogiltig anslutning",
-        "message": "Connected nodes are using incompatible input and output types.",
-        "details": "{nodeName} has an incompatible connection for {inputName}.",
-        "detailsWithTypes": "{nodeName}'s {inputName} input expects {expectedType}, but the connected output is {receivedType}.",
-        "itemLabel": "{nodeName} - {inputName}",
+        "message": "Anslutna noder använder inkompatibla indata- och utdatatyper.",
+        "details": "{nodeName} har en inkompatibel anslutning för {inputName}.",
+        "detailsWithTypes": "Indatan {inputName} i {nodeName} förväntar sig {expectedType}, men ansluten utdata är {receivedType}.",
+        "itemLabel": "{nodeName}: {inputName}",
         "toastTitle": "Ogiltig anslutning",
-        "toastMessage": "{nodeName} has an incompatible connection for {inputName}.",
-        "toastMessageWithTypes": "{nodeName}'s {inputName} input expects {expectedType}, but the connected output is {receivedType}."
+        "toastMessage": "{nodeName} har en inkompatibel anslutning för {inputName}.",
+        "toastMessageWithTypes": "Indatan {inputName} i {nodeName} förväntar sig {expectedType}, men ansluten utdata är {receivedType}."
       },
       "invalid_input_type": {
         "title": "Ogiltig indata",
-        "message": "An input value has the wrong type.",
-        "details": "{nodeName} couldn't convert {inputName} to the expected type.",
-        "detailsWithValue": "The value {receivedValue} for {nodeName}'s {inputName} couldn't be converted to {expectedType}.",
-        "itemLabel": "{nodeName} - {inputName}",
+        "message": "Ett indatavärde har fel typ.",
+        "details": "{nodeName} kunde inte omvandla {inputName} till den förväntade typen.",
+        "detailsWithValue": "Värdet {receivedValue} för {inputName} i {nodeName} kunde inte omvandlas till {expectedType}.",
+        "itemLabel": "{nodeName}: {inputName}",
         "toastTitle": "Ogiltig indata",
-        "toastMessage": "{nodeName} couldn't convert {inputName} to the expected type.",
-        "toastMessageWithValue": "The value {receivedValue} for {nodeName}'s {inputName} couldn't be converted to {expectedType}."
+        "toastMessage": "{nodeName} kunde inte omvandla {inputName} till den förväntade typen.",
+        "toastMessageWithValue": "Värdet {receivedValue} för {inputName} i {nodeName} kunde inte omvandlas till {expectedType}."
       },
       "value_smaller_than_min": {
-        "title": "Input out of range",
-        "message": "Some input values are outside the allowed range.",
-        "details": "{nodeName} has a value below the minimum for {inputName}.",
-        "detailsWithValue": "The value {receivedValue} for {nodeName}'s {inputName} is below the minimum {minValue}.",
-        "itemLabel": "{nodeName} - {inputName}",
-        "toastTitle": "Input out of range",
-        "toastMessage": "{nodeName} has a value below the minimum for {inputName}.",
-        "toastMessageWithValue": "The value {receivedValue} for {nodeName}'s {inputName} is below the minimum {minValue}."
+        "title": "Indata utanför intervallet",
+        "message": "Vissa indatavärden ligger utanför tillåtet intervall.",
+        "details": "{nodeName} har ett värde under miniminivån för {inputName}.",
+        "detailsWithValue": "Värdet {receivedValue} för {inputName} i {nodeName} är lägre än miniminivån {minValue}.",
+        "itemLabel": "{nodeName}: {inputName}",
+        "toastTitle": "Indata utanför intervallet",
+        "toastMessage": "{nodeName} har ett värde under miniminivån för {inputName}.",
+        "toastMessageWithValue": "Värdet {receivedValue} för {inputName} i {nodeName} är lägre än miniminivån {minValue}."
       },
       "value_bigger_than_max": {
-        "title": "Input out of range",
-        "message": "Some input values are outside the allowed range.",
-        "details": "{nodeName} has a value above the maximum for {inputName}.",
-        "detailsWithValue": "The value {receivedValue} for {nodeName}'s {inputName} is above the maximum {maxValue}.",
-        "itemLabel": "{nodeName} - {inputName}",
-        "toastTitle": "Input out of range",
-        "toastMessage": "{nodeName} has a value above the maximum for {inputName}.",
-        "toastMessageWithValue": "The value {receivedValue} for {nodeName}'s {inputName} is above the maximum {maxValue}."
+        "title": "Indata utanför intervallet",
+        "message": "Vissa indatavärden ligger utanför tillåtet intervall.",
+        "details": "{nodeName} har ett värde över maxnivån för {inputName}.",
+        "detailsWithValue": "Värdet {receivedValue} för {inputName} i {nodeName} är högre än maxnivån {maxValue}.",
+        "itemLabel": "{nodeName}: {inputName}",
+        "toastTitle": "Indata utanför intervallet",
+        "toastMessage": "{nodeName} har ett värde över maxnivån för {inputName}.",
+        "toastMessageWithValue": "Värdet {receivedValue} för {inputName} i {nodeName} är högre än maxnivån {maxValue}."
       },
       "value_not_in_list": {
         "title": "Ogiltig indata",
-        "message": "Some input values are not available for this node.",
-        "details": "{nodeName} has an unsupported value for {inputName}.",
-        "detailsWithValue": "The value {receivedValue} for {nodeName}'s {inputName} is not available.",
-        "itemLabel": "{nodeName} - {inputName}",
+        "message": "Vissa indatavärden är inte tillgängliga för den här noden.",
+        "details": "{nodeName} har ett värde som inte stöds för {inputName}.",
+        "detailsWithValue": "Värdet {receivedValue} för {inputName} i {nodeName} är inte tillgängligt.",
+        "itemLabel": "{nodeName}: {inputName}",
         "toastTitle": "Ogiltig indata",
-        "toastMessage": "{nodeName} has an unsupported value for {inputName}.",
-        "toastMessageWithValue": "The value {receivedValue} for {nodeName}'s {inputName} is not available."
+        "toastMessage": "{nodeName} har ett värde som inte stöds för {inputName}.",
+        "toastMessageWithValue": "Värdet {receivedValue} för {inputName} i {nodeName} är inte tillgängligt."
       },
       "custom_validation_failed": {
         "title": "Ogiltig indata",
-        "message": "A node rejected one or more input values.",
-        "details": "{nodeName} rejected the value for {inputName}.",
-        "detailsWithRawDetails": "{nodeName} failed custom validation: {rawDetails}",
-        "itemLabel": "{nodeName} - {inputName}",
+        "message": "En nod avvisade ett eller flera indatavärden.",
+        "details": "{nodeName} avvisade värdet för {inputName}.",
+        "detailsWithRawDetails": "{nodeName} misslyckades med anpassad validering: {rawDetails}",
+        "itemLabel": "{nodeName}: {inputName}",
         "toastTitle": "Ogiltig indata",
-        "toastMessage": "{nodeName} rejected the value for {inputName}."
+        "toastMessage": "{nodeName} avvisade värdet för {inputName}."
       },
       "unknown_validation_error": {
         "title": "Valideringen misslyckades",
-        "message": "A node returned a validation error ComfyUI does not recognize.",
-        "details": "{nodeName} returned an unrecognized validation error: {errorType}",
-        "detailsWithRawDetails": "{nodeName} returned an unrecognized validation error ({errorType}): {rawDetails}",
+        "message": "En nod returnerade ett valideringsfel som ComfyUI inte känner igen.",
+        "details": "{nodeName} returnerade ett okänt valideringsfel: {errorType}",
+        "detailsWithRawDetails": "{nodeName} returnerade ett okänt valideringsfel ({errorType}): {rawDetails}",
         "itemLabel": "{nodeName}",
         "toastTitle": "Valideringen misslyckades",
-        "toastMessage": "{nodeName} returned an unrecognized validation error."
+        "toastMessage": "{nodeName} returnerade ett okänt valideringsfel."
       },
       "PARTNER_NODE_DISABLED": {
-        "title": "Disabled node",
-        "message": "This node has been disabled by your workspace policy. Use a different node.",
+        "title": "Inaktiverad nod",
+        "message": "Den här noden har inaktiverats av arbetsytans policy. Använd en annan nod.",
         "itemLabel": "{nodeName}",
-        "toastTitle": "Partner nodes",
-        "toastMessage": "This node has been disabled by your workspace policy."
+        "toastTitle": "Partnernoder",
+        "toastMessage": "Den här noden har inaktiverats av arbetsytans policy."
       },
       "exception_during_inner_validation": {
         "title": "Valideringen misslyckades",
-        "message": "The workflow couldn't validate a connected node.",
-        "details": "{nodeName} couldn't validate {inputName}.",
-        "detailsWithRawDetails": "{nodeName} couldn't validate {inputName}: {rawDetails}",
-        "itemLabel": "{nodeName} - {inputName}",
+        "message": "Arbetsflödet kunde inte validera en ansluten nod.",
+        "details": "{nodeName} kunde inte validera {inputName}.",
+        "detailsWithRawDetails": "{nodeName} kunde inte validera {inputName}: {rawDetails}",
+        "itemLabel": "{nodeName}: {inputName}",
         "toastTitle": "Valideringen misslyckades",
-        "toastMessage": "{nodeName} couldn't validate {inputName}.",
-        "toastMessageWithRawDetails": "{nodeName} couldn't validate {inputName}: {rawDetails}"
+        "toastMessage": "{nodeName} kunde inte validera {inputName}.",
+        "toastMessageWithRawDetails": "{nodeName} kunde inte validera {inputName}: {rawDetails}"
       },
       "exception_during_validation": {
         "title": "Valideringen misslyckades",
-        "message": "The workflow could not be validated because a node validation check failed unexpectedly.",
-        "details": "{nodeName} failed during validation.",
-        "detailsWithRawDetails": "{nodeName} failed during validation: {rawDetails}",
+        "message": "Arbetsflödet kunde inte valideras eftersom en nodvalidering misslyckades oväntat.",
+        "details": "{nodeName} misslyckades under valideringen.",
+        "detailsWithRawDetails": "{nodeName} misslyckades under valideringen: {rawDetails}",
         "itemLabel": "{nodeName}",
         "toastTitle": "Valideringen misslyckades",
-        "toastMessage": "{nodeName} failed during validation.",
-        "toastMessageWithRawDetails": "{nodeName} failed during validation: {rawDetails}"
+        "toastMessage": "{nodeName} misslyckades under valideringen.",
+        "toastMessageWithRawDetails": "{nodeName} misslyckades under valideringen: {rawDetails}"
       },
       "dependency_cycle": {
         "title": "Ogiltigt arbetsflöde",
-        "message": "The workflow has a circular node connection.",
-        "details": "{nodeName} is part of a circular connection.",
-        "detailsWithRawDetails": "{nodeName} is part of a circular connection: {rawDetails}",
+        "message": "Arbetsflödet har en cirkulär nodanslutning.",
+        "details": "{nodeName} ingår i en cirkulär anslutning.",
+        "detailsWithRawDetails": "{nodeName} ingår i en cirkulär anslutning: {rawDetails}",
         "itemLabel": "{nodeName}",
         "toastTitle": "Ogiltigt arbetsflöde",
-        "toastMessage": "{nodeName} is part of a circular connection."
+        "toastMessage": "{nodeName} ingår i en cirkulär anslutning."
       },
       "image_not_loaded": {
         "title": "Bilden kunde inte läsas in",
-        "message": "The system couldn't load this image.",
-        "details": "The image for {nodeName} couldn't be loaded. Try adding it again.",
+        "message": "Systemet kunde inte läsa in den här bilden.",
+        "details": "Bilden för {nodeName} kunde inte läsas in. Försök lägga till den igen.",
         "itemLabel": "{nodeName}",
-        "toastTitle": "Input image couldn't be loaded",
-        "toastMessage": "The image for {nodeName} couldn't be loaded. Try adding it again."
+        "toastTitle": "Indatabilden kunde inte läsas in",
+        "toastMessage": "Bilden för {nodeName} kunde inte läsas in. Försök lägga till den igen."
       }
     },
     "runtimeErrors": {
       "execution_failed": {
         "title": "Körningen misslyckades",
-        "message": "Node threw an error during execution.",
+        "message": "Noden gav ett fel under körningen.",
         "itemLabel": "{nodeName}",
-        "toastTitle": "{nodeName} failed",
-        "toastMessage": "This node threw an error during execution. Check its inputs or try a different configuration."
+        "toastTitle": "{nodeName} misslyckades",
+        "toastMessage": "Den här noden gav ett fel under körningen. Kontrollera indatan eller prova en annan konfiguration."
       },
       "image_not_loaded": {
         "title": "Bilden kunde inte läsas in",
-        "message": "The system couldn't load this image.",
+        "message": "Systemet kunde inte läsa in den här bilden.",
         "itemLabel": "{nodeName}",
-        "toastTitle": "Input image couldn't be loaded",
-        "toastMessage": "The image for {nodeName} couldn't be loaded. Try adding it again."
+        "toastTitle": "Indatabilden kunde inte läsas in",
+        "toastMessage": "Bilden för {nodeName} kunde inte läsas in. Försök lägga till den igen."
       },
       "out_of_memory": {
         "title": "Genereringen misslyckades",
@@ -4623,95 +4623,95 @@
       },
       "model_access_error": {
         "title": "Modellåtkomst krävs",
-        "message": "One or more required models could not be accessed.",
+        "message": "En eller flera nödvändiga modeller kunde inte nås.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Modellåtkomst krävs",
-        "toastMessage": "One or more required models could not be accessed."
+        "toastMessage": "En eller flera nödvändiga modeller kunde inte nås."
       },
       "invalid_clip_input": {
         "title": "Ogiltig CLIP-indata",
-        "message": "The CLIP input is missing or invalid. Check the connected checkpoint or CLIP loader.",
+        "message": "CLIP-indatan saknas eller är ogiltig. Kontrollera den anslutna kontrollpunkten eller CLIP-inläsaren.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Ogiltig CLIP-indata",
-        "toastMessage": "{nodeName} has a missing or invalid CLIP input."
+        "toastMessage": "{nodeName} saknar CLIP-indata eller har ogiltig CLIP-indata."
       },
       "invalid_prompt": {
         "title": "Prompten är tom",
-        "message": "Enter a prompt before running this workflow.",
+        "message": "Ange en prompt innan du kör arbetsflödet.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Prompten är tom",
-        "toastMessage": "Enter a prompt before running this workflow."
+        "toastMessage": "Ange en prompt innan du kör arbetsflödet."
       },
       "invalid_workflow_request": {
         "title": "Ogiltig begäran om arbetsflöde",
-        "message": "The workflow request is invalid. Check the workflow and try again.",
+        "message": "Begäran om arbetsflöde är ogiltig. Kontrollera arbetsflödet och försök igen.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Ogiltig begäran om arbetsflöde",
-        "toastMessage": "The workflow request is invalid. Check the workflow and try again."
+        "toastMessage": "Begäran om arbetsflöde är ogiltig. Kontrollera arbetsflödet och försök igen."
       },
       "insufficient_credits": {
         "title": "Otillräckliga krediter",
-        "message": "Add credits to your account to use this node.",
+        "message": "Lägg till krediter på kontot för att använda den här noden.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Otillräckliga krediter",
-        "toastMessage": "Add credits to your account to use this node."
+        "toastMessage": "Lägg till krediter på kontot för att använda den här noden."
       },
       "workspace_insufficient_credits": {
         "title": "Otillräckliga krediter",
-        "message": "Add credits to your workspace to continue.",
+        "message": "Lägg till krediter i arbetsytan för att fortsätta.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Otillräckliga krediter",
-        "toastMessage": "Add credits to your workspace to continue."
+        "toastMessage": "Lägg till krediter i arbetsytan för att fortsätta."
       },
       "subscription_required": {
         "title": "Prenumeration krävs",
-        "message": "Subscribe to a plan to continue running this workflow.",
+        "message": "Prenumerera på en plan för att fortsätta köra arbetsflödet.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Prenumeration krävs",
-        "toastMessage": "Subscribe to a plan to continue running this workflow."
+        "toastMessage": "Prenumerera på en plan för att fortsätta köra arbetsflödet."
       },
       "subscription_upgrade_required": {
-        "title": "Subscription upgrade required",
-        "message": "Upgrade your subscription to use the private models in this workflow.",
-        "details": "Private models require a subscription upgrade: {modelNames}",
+        "title": "Prenumerationen måste uppgraderas",
+        "message": "Uppgradera prenumerationen för att använda privata modeller i arbetsflödet.",
+        "details": "Privata modeller kräver en uppgradering av prenumerationen: {modelNames}",
         "itemLabel": "{nodeName}",
-        "toastTitle": "Subscription upgrade required",
-        "toastMessage": "Upgrade your subscription to use these private models: {modelNames}."
+        "toastTitle": "Prenumerationen måste uppgraderas",
+        "toastMessage": "Uppgradera prenumerationen för att använda dessa privata modeller: {modelNames}."
       },
       "model_download_failed": {
         "title": "Modellhämtningen misslyckades",
-        "message": "A model could not be downloaded. Try again.",
+        "message": "En modell kunde inte hämtas. Försök igen.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Modellhämtningen misslyckades",
-        "toastMessage": "A model could not be downloaded. Try again."
+        "toastMessage": "En modell kunde inte hämtas. Försök igen."
       },
       "unexpected_service_error": {
         "title": "Tjänstefel",
-        "message": "The service encountered an unexpected error. Try again.",
+        "message": "Tjänsten råkade ut för ett oväntat fel. Försök igen.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Tjänstefel",
-        "toastMessage": "The service encountered an unexpected error. Try again."
+        "toastMessage": "Tjänsten råkade ut för ett oväntat fel. Försök igen."
       },
       "request_failed": {
         "title": "Begäran misslyckades",
-        "message": "The request failed before the run could complete. Try again.",
+        "message": "Begäran misslyckades innan körningen kunde slutföras. Försök igen.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Begäran misslyckades",
-        "toastMessage": "The request failed before the run could complete. Try again."
+        "toastMessage": "Begäran misslyckades innan körningen kunde slutföras. Försök igen."
       },
       "run_start_failed": {
         "title": "Körningen kunde inte starta",
-        "message": "The run could not be started. Try again.",
+        "message": "Körningen kunde inte startas. Försök igen.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Körningen kunde inte starta",
-        "toastMessage": "The run could not be started. Try again."
+        "toastMessage": "Körningen kunde inte startas. Försök igen."
       },
       "run_ended_unexpectedly": {
         "title": "Körningen avslutades oväntat",
-        "message": "The run ended unexpectedly. Try again.",
+        "message": "Körningen avslutades oväntat. Försök igen.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Körningen avslutades oväntat",
-        "toastMessage": "The run ended unexpectedly. Try again."
+        "toastMessage": "Körningen avslutades oväntat. Försök igen."
       },
       "sign_in_required": {
         "title": "Inloggning krävs",
@@ -4722,98 +4722,98 @@
       },
       "rate_limited": {
         "title": "Servrarna är upptagna",
-        "message": "High demand right now. Try again in a moment.",
+        "message": "Hög belastning just nu. Försök igen om en stund.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Servrarna är upptagna",
-        "toastMessage": "High demand right now. Try again in a moment."
+        "toastMessage": "Hög belastning just nu. Försök igen om en stund."
       },
       "timeout": {
         "title": "Genereringen tog för lång tid",
-        "message": "This workflow reached the maximum run time. Try reducing image resolution, batch size, or workflow length and run again.",
+        "message": "Arbetsflödet nådde högsta körtid. Minska bildupplösningen, batchstorleken eller arbetsflödets längd och kör igen.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Genereringen tog för lång tid",
-        "toastMessage": "This workflow reached the maximum run time. Try reducing image resolution, batch size, or workflow length and run again."
+        "toastMessage": "Arbetsflödet nådde högsta körtid. Minska bildupplösningen, batchstorleken eller arbetsflödets längd och kör igen."
       },
       "generation_stalled": {
         "title": "Genereringen stannade av",
-        "message": "This workflow stopped making progress. Try running it again.",
+        "message": "Arbetsflödet slutade göra framsteg. Försök köra det igen.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Genereringen stannade av",
-        "toastMessage": "This workflow stopped making progress. Try running it again."
+        "toastMessage": "Arbetsflödet slutade göra framsteg. Försök köra det igen."
       },
       "preprocessing_failed": {
         "title": "Förberedelsen misslyckades",
-        "message": "The workflow could not be prepared. Try running it again.",
+        "message": "Arbetsflödet kunde inte förberedas. Försök köra det igen.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Förberedelsen misslyckades",
-        "toastMessage": "The workflow could not be prepared. Try running it again."
+        "toastMessage": "Arbetsflödet kunde inte förberedas. Försök köra det igen."
       },
       "preprocessing_timeout": {
         "title": "Förberedelsen tog för lång tid",
-        "message": "The workflow took too long to prepare. Try running it again.",
+        "message": "Arbetsflödet tog för lång tid att förbereda. Försök köra det igen.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Förberedelsen tog för lång tid",
-        "toastMessage": "The workflow took too long to prepare. Try running it again."
+        "toastMessage": "Arbetsflödet tog för lång tid att förbereda. Försök köra det igen."
       },
       "server_crashed": {
         "title": "Servern kraschade",
-        "message": "The server stopped while running this workflow. Try again.",
+        "message": "Servern stannade medan arbetsflödet kördes. Försök igen.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Servern kraschade",
-        "toastMessage": "The server stopped while running this workflow. Try again."
+        "toastMessage": "Servern stannade medan arbetsflödet kördes. Försök igen."
       },
       "server_busy": {
         "title": "Servrarna är upptagna",
-        "message": "The servers are busy right now. Try again in a moment.",
+        "message": "Servrarna är upptagna just nu. Försök igen om en stund.",
         "itemLabel": "{nodeName}",
         "toastTitle": "Servrarna är upptagna",
-        "toastMessage": "The servers are busy right now. Try again in a moment."
+        "toastMessage": "Servrarna är upptagna just nu. Försök igen om en stund."
       }
     },
     "promptErrors": {
       "prompt_no_outputs": {
-        "title": "Prompt has no outputs",
-        "desc": "The workflow does not contain any output nodes (e.g. Save Image, Preview Image) to produce a result."
+        "title": "Prompten har ingen utdata",
+        "desc": "Arbetsflödet innehåller inga utdatanoder, till exempel Spara bild eller Förhandsgranska bild, som kan skapa ett resultat."
       },
       "no_prompt": {
-        "title": "Workflow data is empty",
-        "desc": "The workflow data sent to the server is empty. This may be an unexpected system error."
+        "title": "Arbetsflödesdata är tom",
+        "desc": "Arbetsflödesdata som skickades till servern är tom. Det kan vara ett oväntat systemfel."
       },
       "server_error_local": {
         "title": "Serverfel",
-        "desc": "The server encountered an unexpected error. Please check the server logs."
+        "desc": "Servern råkade ut för ett oväntat fel. Kontrollera serverloggarna."
       },
       "server_error_cloud": {
         "title": "Serverfel",
-        "desc": "The server encountered an unexpected error. Please try again later."
+        "desc": "Servern råkade ut för ett oväntat fel. Försök igen senare."
       },
       "missing_node_type": {
-        "title": "Missing node type",
-        "desc": "A node type is missing or unavailable. The workflow may be corrupted or require a custom node."
+        "title": "Nodtyp saknas",
+        "desc": "En nodtyp saknas eller är inte tillgänglig. Arbetsflödet kan vara skadat eller kräva en anpassad nod."
       },
       "prompt_outputs_failed_validation": {
-        "title": "Prompt validation failed",
-        "desc": "The workflow has invalid node inputs. Fix the highlighted nodes before running it again."
+        "title": "Promptvalideringen misslyckades",
+        "desc": "Arbetsflödet har ogiltig nodindata. Rätta de markerade noderna innan du kör det igen."
       },
       "op_rejected": {
         "title": "Agentredigering nekades",
         "desc": "Arbetsflödesdokumentet nekade en agentredigering. Arbetsytan och det delade dokumentet kan tillfälligt skilja sig åt till nästa uppdatering."
       },
       "prefix_abort": {
-        "title": "Agent edits partially applied",
-        "desc": "A batch of agent edits stopped partway. The remaining edits are retried automatically."
+        "title": "Agentändringar har bara delvis tillämpats",
+        "desc": "En omgång agentändringar avbröts halvvägs. Återstående ändringar prövas automatiskt igen."
       },
       "guard_trip": {
         "title": "Agentuppdatering blockerad",
         "desc": "En inkommande agentuppdatering motsvarade inte arbetsflödesdokumentets förväntade form och blockerades."
       },
       "apply_failed": {
-        "title": "Agent edit failed",
-        "desc": "An agent edit could not be applied to the workflow document."
+        "title": "Agentändringen misslyckades",
+        "desc": "En agentändring kunde inte tillämpas på arbetsflödesdokumentet."
       },
       "agent_api_failed": {
-        "title": "Comfy Agent error",
-        "desc": "Comfy Agent hit a server error."
+        "title": "Fel i Comfy Agent",
+        "desc": "Comfy Agent råkade ut för ett serverfel."
       }
     }
   },
