@@ -1,0 +1,71 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "CameraAngle.display_name",
+      "source": "Compose Camera Angle Prompt",
+      "translation": "Skapa prompt för kameravinkel"
+    },
+    {
+      "key": "CameraAngle.description",
+      "source": "Pick a camera angle around a subject with a 3D preview. Outputs a camera_info for 3D nodes and a plain-English shot description for prompts.",
+      "translation": "Välj en kameravinkel runt ett motiv med en 3D-förhandsvisning. Matar ut kamerainformation för 3D-noder och en enkel engelsk bildbeskrivning för prompter."
+    },
+    {
+      "key": "CameraAngle.inputs.horizontal_angle.name",
+      "source": "horizontal_angle",
+      "translation": "horisontell_vinkel"
+    },
+    {
+      "key": "CameraAngle.inputs.horizontal_angle.tooltip",
+      "source": "Azimuth around the subject in degrees. 0 is the front, 90 the right side, 180 the back.",
+      "translation": "Azimut runt motivet i grader. 0 är framifrån, 90 från höger sida och 180 bakifrån."
+    },
+    {
+      "key": "CameraAngle.inputs.vertical_angle.name",
+      "source": "vertical_angle",
+      "translation": "vertikal_vinkel"
+    },
+    {
+      "key": "CameraAngle.inputs.vertical_angle.tooltip",
+      "source": "Elevation in degrees. Negative looks up from below, positive looks down from above.",
+      "translation": "Höjdvinkel i grader. Negativa värden visar underifrån och positiva värden visar ovanifrån."
+    },
+    {
+      "key": "CameraAngle.inputs.zoom.name",
+      "source": "zoom",
+      "translation": "zoom"
+    },
+    {
+      "key": "CameraAngle.inputs.zoom.tooltip",
+      "source": "Lens zoom on the subject: 0 is a wide shot, 10 a close-up. Carried into camera_info.zoom.",
+      "translation": "Objektivets zoom på motivet: 0 är en vid bild och 10 en närbild. Värdet förs vidare till camera_info.zoom."
+    },
+    {
+      "key": "CameraAngle.inputs.image.name",
+      "source": "image",
+      "translation": "bild"
+    },
+    {
+      "key": "CameraAngle.inputs.image.tooltip",
+      "source": "Optional reference image shown on the front of the subject cube in the 3D preview.",
+      "translation": "Valfri referensbild som visas på framsidan av motivets kub i 3D-förhandsvisningen."
+    },
+    {
+      "key": "CameraAngle.inputs.view.name",
+      "source": "view",
+      "translation": "vy"
+    },
+    {
+      "key": "CameraAngle.outputs.0.name",
+      "source": "camera_info",
+      "translation": "kamerainformation"
+    },
+    {
+      "key": "CameraAngle.outputs.1.name",
+      "source": "prompt",
+      "translation": "prompt"
+    }
+  ]
+}
