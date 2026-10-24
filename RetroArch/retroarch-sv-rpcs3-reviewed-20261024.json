@@ -1,0 +1,302 @@
+[
+  {
+    "string_id": 6202731,
+    "source": "PPU (main CPU) decoder. LLVM Recompiler is fastest.",
+    "previous": "PPU-avkodare (huvudprocessorn). LLVM-omkompileraren är snabbast.",
+    "translation": "PPU-avkodare, huvudprocessorn. LLVM-omkompileraren är snabbast."
+  },
+  {
+    "string_id": 6202739,
+    "source": "SPU (co-processor) decoder. LLVM Recompiler is fastest.",
+    "previous": "SPU-avkodare (samprocessor). LLVM-omkompileraren är snabbast.",
+    "translation": "SPU-avkodare, samprocessorn. LLVM-omkompileraren är snabbast."
+  },
+  {
+    "string_id": 6202801,
+    "source": "Sleep timers accuracy level.",
+    "previous": "Vulkan är snabbast och rekommenderas.",
+    "translation": "Noggrannhetsnivå för väntetimrar."
+  },
+  {
+    "string_id": 6202867,
+    "source": "70%",
+    "previous": "70%",
+    "translation": "70 %"
+  },
+  {
+    "string_id": 6202869,
+    "source": "80%",
+    "previous": "80%",
+    "translation": "80 %"
+  },
+  {
+    "string_id": 6202873,
+    "source": "90%",
+    "previous": "90%",
+    "translation": "90 %"
+  },
+  {
+    "string_id": 6202877,
+    "source": "100% (Native)",
+    "previous": "100% (Inbyggd)",
+    "translation": "100 % (ursprunglig)"
+  },
+  {
+    "string_id": 6202899,
+    "source": "250%",
+    "previous": "250%",
+    "translation": "250 %"
+  },
+  {
+    "string_id": 6202919,
+    "source": "How shaders are compiled. Async compiles in the background but the frame that first needs a pipeline waits for it, which is what a long freeze on a new scene usually is. Async with Shader Interpreter draws that frame through the interpreter instead and swaps in the compiled shader when it is ready: no freeze, lower speed while it catches up.",
+    "previous": "Hur shaders kompileras. Asynkront kompilerar i bakgrunden, men bildrutan som först behöver en pipeline väntar på den, vilket ger en lång frysning i en ny scen.",
+    "translation": "Hur shaders kompileras. Asynkront läge kompilerar i bakgrunden, men bildrutan som först behöver en pipeline väntar på den. Det är vanligen orsaken till en lång frysning i en ny scen. Asynkront med shader-tolk ritar i stället den bildrutan med tolken och byter till den kompilerade shadern när den är klar: ingen frysning, men lägre hastighet medan den kommer i kapp."
+  },
+  {
+    "string_id": 6202941,
+    "source": "2x",
+    "previous": "2x",
+    "translation": "2×"
+  },
+  {
+    "string_id": 6202943,
+    "source": "4x",
+    "previous": "4x",
+    "translation": "4×"
+  },
+  {
+    "string_id": 6202945,
+    "source": "8x",
+    "previous": "8x",
+    "translation": "8×"
+  },
+  {
+    "string_id": 6202981,
+    "source": "Enable strict rendering for accuracy.",
+    "previous": "Aktivera strikt rendering för noggrannhet.",
+    "translation": "Aktivera strikt rendering för korrekthet."
+  },
+  {
+    "string_id": 6202987,
+    "source": "Multithreaded RSX",
+    "previous": "Mät fördröjning",
+    "translation": "Flertrådad RSX"
+  },
+  {
+    "string_id": 6203091,
+    "source": "Network Enabled",
+    "previous": "Nätverk aktiverat",
+    "translation": "Aktivera nätverk"
+  },
+  {
+    "string_id": 6203107,
+    "source": "Show RPCN Popups",
+    "previous": "RPCN-kommunikations-id",
+    "translation": "Visa RPCN-notiser"
+  },
+  {
+    "string_id": 6203109,
+    "source": "Show RPCN notification popups.",
+    "previous": "Kommunikations-id för RPCN.",
+    "translation": "Visa RPCN-kommunikationsnotiser."
+  },
+  {
+    "string_id": 6203205,
+    "source": "PS3 system language.",
+    "previous": "Aktivera noggrann hantering av SPU:s denormala tal.",
+    "translation": "PS3-systemspråk."
+  },
+  {
+    "string_id": 6203253,
+    "source": "Show Shader Compilation Hint",
+    "previous": "Visa tips om shaderkompilering",
+    "translation": "Visa meddelande om shaderkompilering"
+  },
+  {
+    "string_id": 6203255,
+    "source": "Show hint when shaders are being compiled.",
+    "previous": "Visa ett tips när shaders kompileras.",
+    "translation": "Visa ett meddelande när shaders kompileras."
+  },
+  {
+    "string_id": 6203263,
+    "source": "Show PPU Compilation Hint",
+    "previous": "Visa tips om PPU-kompilering",
+    "translation": "Visa meddelande om PPU-kompilering"
+  },
+  {
+    "string_id": 6203265,
+    "source": "Show hint when PPU modules are being compiled.",
+    "previous": "Visa ett tips när PPU-moduler kompileras.",
+    "translation": "Visa ett meddelande när PPU-moduler kompileras."
+  },
+  {
+    "string_id": 6203287,
+    "source": "Detects SPU loops that only wait and skips through them. Faster, but some games break with it; off by default, as in RPCS3. Worth turning on for speed on phones.",
+    "previous": "Identifierar SPU-loopar som bara väntar och hoppar över dem. Snabbare, men vissa spel fungerar inte med det; avstängt som standard, precis som i RPCS3. Värt att slå på för snabbhet i telefoner.",
+    "translation": "Identifierar SPU-loopar som endast väntar och hoppar över dem. Snabbare, men vissa spel fungerar inte med det. Funktionen är avstängd som standard, precis som i RPCS3. Värt att prova för bättre hastighet på telefoner."
+  },
+  {
+    "string_id": 6203289,
+    "source": "Double-precision fused multiply-add done exactly, as in RPCS3 (on by default there too). Costs little on CPUs with FMA; turning it off can help on a slow phone, and breaks some games.",
+    "previous": "Dubbelprecisions-fused multiply-add utförs exakt, precis som i RPCS3 (där det också är på som standard). Har liten kostnad på processorer med FMA; att stänga av det kan hjälpa på en långsam telefon, men gör att vissa spel slutar fungera.",
+    "translation": "Den sammanslagna multiplikations- och additionsberäkningen med dubbel precision utförs exakt, precis som i RPCS3 där den också är aktiverad som standard. Den kostar lite på processorer med FMA. Att stänga av den kan hjälpa på en långsam telefon men gör att vissa spel inte fungerar."
+  },
+  {
+    "string_id": 6203319,
+    "source": "Internal rendering resolution as a percentage of the game's own. 200% of a 720p game is 2560x1440, of a 1080p one 3840x2160.",
+    "previous": "Intern renderingsupplösning som en procentandel av spelets egen. 200 % av ett spel i 720p är 2560×1440; för ett i 1080p är det 3840×2160.",
+    "translation": "Intern renderingsupplösning som andel av spelets egen. 200 % av ett spel i 720p är 2560×1440 och av ett i 1080p är det 3840×2160."
+  },
+  {
+    "string_id": 6203367,
+    "source": "Anti-Aliasing",
+    "previous": "Kantutjämning med flera samplingar",
+    "translation": "Kantutjämning"
+  },
+  {
+    "string_id": 6203371,
+    "source": "Shader Quality",
+    "previous": "Skuggkvalitet",
+    "translation": "Shaderkvalitet"
+  },
+  {
+    "string_id": 6203373,
+    "source": "Precision of the shaders RPCS3 generates. Low is fastest, Ultra most accurate.",
+    "previous": "Precisionen hos skuggprogrammen som RPCS3 genererar. Låg är snabbast, Ultra är mest exakt.",
+    "translation": "Precisionen hos shaderprogrammen som RPCS3 genererar. Låg är snabbast och Ultra är mest exakt."
+  },
+  {
+    "string_id": 6203383,
+    "source": "How exactly occlusion queries are answered, as in RPCS3. Precise is correct and the default there; Approximate and Relaxed are faster, and can break effects such as lens flares. Relaxed is worth trying on phones.",
+    "previous": "Hur exakt ocklusionsfrågor besvaras, precis som i RPCS3. Exakt är korrekt och standard där. Ungefärlig och avslappnad är snabbare; men kan göra att effekter som linsreflexer slutar fungera. Avslappnad kan vara värt att prova i telefoner.",
+    "translation": "Hur exakt ocklusionsfrågor besvaras, precis som i RPCS3. Exakt är korrekt och standard där. Ungefärlig och Avslappnad är snabbare men kan göra att effekter som linsreflexer slutar fungera. Avslappnad kan vara värt att prova på telefoner."
+  },
+  {
+    "string_id": 6203389,
+    "source": "Driver wake-up delay in microseconds. 0 by default, as in RPCS3; raise it only when a game needs it.",
+    "previous": "Fördröjning för drivrutinens uppvakning i mikrosekunder. 0 som standard, precis som i RPCS3; höj den bara när ett spel behöver det.",
+    "translation": "Fördröjning för drivrutinens uppvakning i mikrosekunder. Standardvärdet är 0, precis som i RPCS3. Höj den bara när ett spel behöver det."
+  },
+  {
+    "string_id": 6203417,
+    "source": "Turn off the detection of SPU busy-wait loops on GETLLAR. A few games need it off.",
+    "previous": "Stänger av identifiering av SPU-upptagna vänte-loopar på GETLLAR. Ett fåtal spel behöver att den är avstängd.",
+    "translation": "Stänger av identifieringen av SPU-loopar med aktiv väntan på GETLLAR. Ett fåtal spel behöver att den är avstängd."
+  },
+  {
+    "string_id": 6203423,
+    "source": "VBlank NTSC Fixup",
+    "previous": "Korrigering för VBlank NTSC",
+    "translation": "Korrigering av VBlank för NTSC"
+  },
+  {
+    "string_id": 6203567,
+    "source": "RPCS3's own performance overlay, drawn over the game: the game's frame rate as RPCS3 counts it, and at higher detail levels frame times and CPU and GPU load.",
+    "previous": "RPCS3:s egna prestandaöverlägg, som ritas över spelet: spelets bildfrekvens såsom RPCS3 räknar den, samt vid högre detaljnivåer bildrutetider och CPU- och GPU-belastning.",
+    "translation": "RPCS3:s prestandaöverlägg ritas över spelet och visar spelets bildfrekvens enligt RPCS3. På högre detaljnivåer visas även bildrutetider samt CPU- och GPU-belastning."
+  },
+  {
+    "string_id": 6203571,
+    "source": "Medium",
+    "previous": "Medium",
+    "translation": "Medel"
+  },
+  {
+    "string_id": 6203707,
+    "source": "Highest frame rate the game may run at. Auto is the VBlank Frequency, as in RPCS3; PS3 Native paces flips the way the PS3 does; Off lets games that do not wait for the PS3's refresh themselves run too fast.",
+    "previous": "Högsta bildfrekvens som spelet får köras med. Auto är VBlank-frekvensen, som i RPCS3; PS3 Native styr bildväxlingarna som PS3 gör; Av låter spel som inte väntar på PS3:s uppdatering köras för snabbt.",
+    "translation": "Högsta bildfrekvens som spelet får köras med. Automatiskt använder VBlank-frekvensen, som i RPCS3. Inbyggd PS3 styr bildväxlingarna som PS3 gör. Av gör att spel som inte väntar på PS3:ans uppdateringar kan köras för snabbt."
+  },
+  {
+    "string_id": 6203711,
+    "source": "Turn off the cache of vertex data, as in RPCS3. Slower; only for games that show broken or stale geometry with it.",
+    "previous": "Stäng av cachen för vertexdata, som i RPCS3. Långsammare; endast för spel som visar trasig eller inaktuell geometri med den aktiverad.",
+    "translation": "Stänger av cachen för vertexdata, som i RPCS3. Långsammare och endast för spel som visar trasig eller inaktuell geometri med den aktiverad."
+  },
+  {
+    "string_id": 6203731,
+    "source": "Enter Button Assignment",
+    "previous": "Tilldelning av Enter-knappen",
+    "translation": "Tilldelning av bekräftelseknapp"
+  },
+  {
+    "string_id": 6203763,
+    "source": "Options from RPCS3's Debug tab: for diagnosing problems, rarely for playing.",
+    "previous": "Inställningar från RPCS3:s felsökningsflik: för att diagnostisera problem, sällan för spelande.",
+    "translation": "Inställningar från RPCS3:s felsökningsflik för att diagnostisera problem, sällan för spelande."
+  },
+  {
+    "string_id": 6203773,
+    "source": "Accurately processes SPU reservations, as in RPCS3 (on by default there too). Turning it off can make some games faster and break others.",
+    "previous": "Bearbetar SPU-reserveringar noggrant, som i RPCS3 (där också aktiverat som standard). Att stänga av det kan göra vissa spel snabbare och andra trasiga.",
+    "translation": "Bearbetar SPU-reserveringar noggrant, som i RPCS3 där funktionen också är aktiverad som standard. Att stänga av den kan göra vissa spel snabbare och göra att andra inte fungerar."
+  },
+  {
+    "string_id": 6203785,
+    "source": "Reads from the emulated hard disk at the speed of the PS3's, for games that break when loading is instant.",
+    "previous": "Läser från den emulerade hårddisken med PS3:ans hastighet, för spel som inte fungerar när inläsningen går omedelbart.",
+    "translation": "Läser från den emulerade hårddisken med PS3:ans hastighet för spel som inte fungerar när inläsningen sker omedelbart."
+  },
+  {
+    "string_id": 6203813,
+    "source": "Resolves anti-aliased surfaces on the GPU's own hardware instead of a shader. Faster, but some games show artifacts with it.",
+    "previous": "Löser upp kantutjämnade ytor med GPU:ns egen maskinvara i stället för med ett shader-program. Snabbare, men vissa spel visar artefakter med det.",
+    "translation": "Löser upp kantutjämnade ytor med GPU:ns egen maskinvara i stället för med ett shaderprogram. Snabbare, men vissa spel visar artefakter med det."
+  },
+  {
+    "string_id": 6203853,
+    "source": "Scales textures on the GPU instead of the CPU. For debugging; can break games.",
+    "previous": "Skalar texturer på GPU:n i stället för på CPU:n. För felsökning; kan göra spel trasiga.",
+    "translation": "Skalar texturer på GPU:n i stället för på CPU:n. För felsökning, kan göra att spel inte fungerar."
+  },
+  {
+    "string_id": 6203861,
+    "source": "Sets the denormals-are-zero and flush-to-zero CPU flags for the PPU. For debugging.",
+    "previous": "Anger CPU-flaggorna ”denormals are zero” och ”flush to zero” för PPU:n. För felsökning.",
+    "translation": "Anger CPU-flaggorna denormals are zero och flush to zero för PPU:n. För felsökning."
+  },
+  {
+    "string_id": 6203885,
+    "source": "What games see of the PlayStation Network. Simulated makes them believe they are signed in, which some need to get past their menus; RPCN connects to RPCS3's own server and needs Network Enabled and an RPCN account: the core cannot create one, so set it up in standalone RPCS3 and copy its rpcn.yml into system/rpcs3/ (system/rpcs3/config/ on Windows). Takes effect when content is loaded.",
+    "previous": "Vad spel ser av PlayStation Network. Simulerat får dem att tro att de är inloggade, vilket vissa behöver för att komma förbi sina menyer; RPCN ansluter till RPCS3:s egen server och kräver att Nätverk aktiverat är på samt ett RPCN-konto. Kärnan kan inte skapa ett konto, så konfigurera det i den fristående RPCS3 och kopiera dess rpcn.yml till system/rpcs3/ (system/rpcs3/config/ i Windows). Gäller när innehåll läses in.",
+    "translation": "Vad spel ser av PlayStation Network. Simulerat får dem att tro att de är inloggade, vilket vissa behöver för att komma förbi sina menyer. RPCN ansluter till RPCS3:s egen server och kräver att Aktivera nätverk är På samt ett RPCN-konto. Kärnan kan inte skapa ett konto, så konfigurera det i fristående RPCS3 och kopiera dess rpcn.yml till system/rpcs3/, eller system/rpcs3/config/ i Windows. Träder i kraft när innehåll läses in."
+  },
+  {
+    "string_id": 6204003,
+    "source": "Reads from the disc at the PS3 drive's 2x speed (9 MB/s), for games that stream movies from disc and show corrupted video when loading is instant. Loading takes longer.",
+    "previous": "Läser från skivan i PS3-enhetens 2x-hastighet (9 MB/s), för spel som strömmar filmer från skivan och visar skadad video när inläsningen sker direkt. Inläsningen tar längre tid.",
+    "translation": "Läser från skivan i PS3-enhetens 2×-hastighet, 9 MB/s, för spel som strömmar filmer från skivan och visar skadad video när inläsningen sker direkt. Inläsningen tar längre tid."
+  },
+  {
+    "string_id": 6204005,
+    "source": "How many threads compile PPU and SPU code with LLVM, as RPCS3's Max LLVM Compile Threads. Auto uses every core; fewer keeps a phone cooler and uses less memory while a game is compiled, and makes it take longer. On ARM CPUs with efficiency cores (most phones, some ARM laptops) the default leaves those out.",
+    "previous": "Hur många trådar som kompilerar PPU och SPU-kod med LLVM, som RPCS3:s Maximalt antal LLVM-kompileringstrådar. Automatisk använder varje kärna. Färre trådar håller en telefon svalare, använder mindre minne när ett spel kompileras och gör att det tar längre tid. På ARM-processorer med effektivitetskärnor (de flesta telefoner, vissa ARM-bärbara datorer) lämnar standardinställningen dem utanför.",
+    "translation": "Hur många trådar som kompilerar PPU- och SPU-kod med LLVM, som RPCS3:s Maximalt antal LLVM-kompileringstrådar. Automatiskt använder varje kärna. Färre trådar håller en telefon svalare, använder mindre minne när ett spel kompileras och gör att det tar längre tid. På ARM-processorer med effektivitetskärnor, de flesta telefoner och vissa ARM-bärbara datorer, lämnar standardinställningen dem utanför."
+  },
+  {
+    "string_id": 6204007,
+    "source": "How many threads compile shaders. Auto lets RPCS3 decide from the CPU it sees. On ARM CPUs with efficiency cores (most phones, some ARM laptops) the default leaves those out.",
+    "previous": "Hur många trådar som kompilerar shaderprogram. Automatisk låter RPCS3 avgöra utifrån den processor den ser. På ARM-processorer med effektivitetskärnor (de flesta telefoner, vissa ARM-bärbara datorer) lämnar standardinställningen dem utanför.",
+    "translation": "Hur många trådar som kompilerar shaderprogram. Automatiskt låter RPCS3 avgöra utifrån den processor den ser. På ARM-processorer med effektivitetskärnor, de flesta telefoner och vissa ARM-bärbara datorer, lämnar standardinställningen dem utanför."
+  },
+  {
+    "string_id": 6204029,
+    "source": "Stretch game output to fill the display, reported to RetroArch at this aspect ratio: pick the display's for games patched to a wider one (21:9, 32:9). Needs RetroArch's aspect ratio set to Core Provided.",
+    "previous": "Sträck ut spelutdata så att den fyller skärmen och rapportera den till RetroArch med detta bildförhållande. Välj skärmens bildförhållande för spel som har patchats till ett bredare (21:9, 32:9). Kräver att RetroArchs bildförhållande är inställt på Tillhandahålls av kärnan.",
+    "translation": "Sträck ut spelutdata så att den fyller skärmen och rapportera den till RetroArch med detta bildförhållande. Välj skärmens bildförhållande för spel som har patchats till ett bredare format, till exempel 21:9 eller 32:9. Kräver att RetroArchs bildförhållande är inställt på Tillhandahålls av kärnan."
+  },
+  {
+    "string_id": 6209067,
+    "source": "The speakers the PS3 tells games it has. Set it to RetroArch's Output Layout: a game picks its own stereo, 5.1 or 7.1 mix from what is offered, and a surround mix folded down by RetroArch does not always sound like the game's own stereo one. Needs a RetroArch with multi-channel audio; stereo otherwise. Takes effect when a game boots.",
+    "previous": "De högtalare som PS3:an anger att spelen har. Ställ in detta efter RetroArchs utdatalayout: ett spel väljer stereo, 5.1 eller 7.1 utifrån vad som erbjuds och en surroundmix som RetroArch fäller ned låter inte alltid som spelets egen stereomix. Kräver RetroArch med flerkanalsljud, annars används stereo. Börjar gälla när spelet startas.",
+    "translation": "De högtalare som PS3:an anger att spelen har. Ställ in detta efter RetroArchs utdatalayout: ett spel väljer stereo, 5.1 eller 7.1 utifrån vad som erbjuds. En surroundmix som RetroArch fäller ned låter inte alltid som spelets egen stereomix. Kräver RetroArch med flerkanalsljud, annars används stereo. Träder i kraft när spelet startas."
+  },
+  {
+    "string_id": 6210169,
+    "source": "What the game's frames are timed by. Emulator clock is RPCS3's own timer, as in standalone RPCS3. RetroArch gives the game one PS3 refresh per frame RetroArch shows, so fast-forward speeds the game up and the game runs at the VBlank Frequency when RetroArch shows that many frames a second.",
+    "previous": "Vad spelets bildrutor tidsstyrs av. Emulatorklockan är RPCS3:s egen timer, som i fristående RPCS3. RetroArch ger spelet en PS3-skärmuppdatering per bildruta som RetroArch visar, så snabbspolning gör spelet snabbare och spelet körs med VBlank-frekvensen när RetroArch visar så många bildrutor per sekund.",
+    "translation": "Vad spelets bildrutor tidsstyrs av. Emulatorklockan är RPCS3:s egen timer, som i fristående RPCS3. RetroArch ger spelet en PS3-skärmuppdatering per bildruta som RetroArch visar. Snabbspolning gör spelet snabbare och spelet körs med VBlank-frekvensen när RetroArch visar så många bildrutor per sekund."
+  }
+]
