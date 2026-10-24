@@ -1,0 +1,23 @@
+{
+  "project": "RetroArch",
+  "language": "sv-SE",
+  "file": "vita3k-libretro/vita3k-libretro.json",
+  "reviewed_at": "2026-10-24",
+  "entries": [
+    {
+      "identifier": "VITA3K_PKG_MODE_INFO_0",
+      "source": "How a title, its updates and downloadable content (DLC) run. Enables updates and DLC in a title's directory by default. They can also load from elsewhere, which installs them whatever the Run Method.\\n\\n\\\nDirect: Runs directly from the original media.\\n\\\nDirect with Cache: Same as Direct, but the core caches reads to local storage. This helps performance in certain cases, like when accessing media on a high-latency network share.\\n\\\nInstalled: Installs the original media when first loaded, and runs it from local storage.",
+      "target": "Anger hur en titel, dess uppdateringar och nedladdningsbart innehåll (DLC) körs. Uppdateringar och DLC i titelns katalog aktiveras som standard. De kan också läsas in från en annan plats, vilket installerar dem oavsett körmetod.\\n\\n\\\nDirekt: Körs direkt från originalmediet.\\n\\\nDirekt med cache: Samma som Direkt, men kärnan cachar lästa data på lokal lagring. Det kan förbättra prestandan i vissa fall, till exempel när ett medium nås via en nätverksresurs med hög svarstid.\\n\\\nInstallerat: Installerar originalmediet första gången det läses in och kör det från lokal lagring."
+    },
+    {
+      "identifier": "VITA3K_CONTENT_SUBDIRS_INFO_0",
+      "source": "ON: Loads updates and DLC in the title's directory and subdirectories.\\n\\\nOFF: Loads updates and DLC only in the title's directory.",
+      "target": "PÅ: Läser in uppdateringar och DLC i titelns katalog och underkataloger.\\n\\\nAV: Läser bara in uppdateringar och DLC i titelns katalog."
+    },
+    {
+      "identifier": "VITA3K_REMOVE_DATA_INFO_0",
+      "source": "ON: Deletes the title's installed data and caches when the title closes or resets. It does not remove original media, saves, or trophies.\\n\\\nOFF: Retains all installed data and caches when the title closes or resets.",
+      "target": "PÅ: Tar bort titelns installerade data och cache när titeln stängs eller återställs. Originalmediet, sparfiler och troféer tas inte bort.\\n\\\nAV: Behåller all installerad data och alla cacher när titeln stängs eller återställs."
+    }
+  ]
+}
