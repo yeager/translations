@@ -1,0 +1,252 @@
+[
+  {
+    "string_id": 6215329,
+    "source": "Hejl (Filmic)",
+    "translation": "Hejl (filmiskt)"
+  },
+  {
+    "string_id": 6215331,
+    "source": "Filmic ALU (Hejl 2015)",
+    "translation": "Filmic ALU (Hejl 2015)"
+  },
+  {
+    "string_id": 6215333,
+    "source": "Filmic (Sobotka)",
+    "translation": "Filmic (Sobotka)"
+  },
+  {
+    "string_id": 6215335,
+    "source": "Hable (Uncharted 2)",
+    "translation": "Hable (Uncharted 2)"
+  },
+  {
+    "string_id": 6215337,
+    "source": "Hable (2017 Piecewise)",
+    "translation": "Hable (2017, styckvis)"
+  },
+  {
+    "string_id": 6215339,
+    "source": "Lottes (AMD)",
+    "translation": "Lottes (AMD)"
+  },
+  {
+    "string_id": 6215341,
+    "source": "GT (Uchimura)",
+    "translation": "GT (Uchimura)"
+  },
+  {
+    "string_id": 6215343,
+    "source": "Unreal",
+    "translation": "Unreal"
+  },
+  {
+    "string_id": 6215345,
+    "source": "Khronos PBR Neutral",
+    "translation": "Khronos PBR Neutral"
+  },
+  {
+    "string_id": 6215347,
+    "source": "AgX",
+    "translation": "AgX"
+  },
+  {
+    "string_id": 6215349,
+    "source": "Drago (Logarithmic)",
+    "translation": "Drago (logaritmisk)"
+  },
+  {
+    "string_id": 6215351,
+    "source": "Exponential",
+    "translation": "Exponentiell"
+  },
+  {
+    "string_id": 6215353,
+    "source": "Tumblin-Rushmeier (Classic)",
+    "translation": "Tumblin-Rushmeier (klassisk)"
+  },
+  {
+    "string_id": 6215355,
+    "source": "Ward (Classic, Linear)",
+    "translation": "Ward (klassisk, linjär)"
+  },
+  {
+    "string_id": 6215357,
+    "source": "Schlick (Classic)",
+    "translation": "Schlick (klassisk)"
+  },
+  {
+    "string_id": 6215359,
+    "source": "HDR Display Peak Luminance",
+    "translation": "HDR-skärmens toppluminans"
+  },
+  {
+    "string_id": 6215361,
+    "source": "Overrides the peak brightness the frontend reports, which every Display Transform curve carries highlights up to. 'Display' takes the peak the panel itself reports, when the frontend knows it. ACES 2.0 (Full) is parameterised by this single number and re-solves its tables when it moves, so it retargets the whole transform rather than just scaling the output. Leave on Auto unless the frontend reports nothing or your display's real peak differs from what it claims. Only on the hardware renderers' HDR output ('Color Format' set to 30-bit or scRGB); no effect on the Software renderer or in 24-bit mode.",
+    "translation": "Åsidosätter den högsta ljusstyrka som gränssnittet rapporterar och som varje visningstransformkurva för högdagrar upp till. ”Skärm” använder det högsta värde som själva panelen rapporterar när gränssnittet känner till det. ACES 2.0 (full) styrs av detta enda tal och beräknar om sina tabeller när det ändras, så hela transformen anpassas i stället för att endast utdata skalas. Låt inställningen vara automatisk om gränssnittet inte rapporterar något eller om skärmens verkliga toppvärde skiljer sig från det rapporterade. Gäller endast HDR-utdata från maskinvarurenderarna när ”Färgformat” är inställt på 30 bitar eller scRGB. Saknar effekt med programvarurenderaren eller i 24-bitarsläge."
+  },
+  {
+    "string_id": 6215363,
+    "source": "Auto (ask the frontend)",
+    "translation": "Automatiskt (fråga gränssnittet)"
+  },
+  {
+    "string_id": 6215365,
+    "source": "Display (the panel's reported peak)",
+    "translation": "Skärm (panelens rapporterade toppvärde)"
+  },
+  {
+    "string_id": 6215367,
+    "source": "400 nits",
+    "translation": "400 nit"
+  },
+  {
+    "string_id": 6215369,
+    "source": "600 nits",
+    "translation": "600 nit"
+  },
+  {
+    "string_id": 6215371,
+    "source": "1000 nits",
+    "translation": "1 000 nit"
+  },
+  {
+    "string_id": 6215373,
+    "source": "1500 nits",
+    "translation": "1 500 nit"
+  },
+  {
+    "string_id": 6215375,
+    "source": "2000 nits",
+    "translation": "2 000 nit"
+  },
+  {
+    "string_id": 6215377,
+    "source": "4000 nits",
+    "translation": "4 000 nit"
+  },
+  {
+    "string_id": 6215379,
+    "source": "HDR Expansion",
+    "translation": "HDR-expansion"
+  },
+  {
+    "string_id": 6215381,
+    "source": "PlayStation content is standard range, so without expansion only additive blending ever rises above paper white. Expansion lifts the top of the range into the HDR headroom so bright areas read brighter than white; mid-tones below the knee never move. 'Inverse Tonemap' expands each channel on its own and over-saturates bright colours; 'Hue-Preserving' expands the brightest channel and scales the others with it, so a highlight brightens along its own colour. Applies with every Display Transform curve except the Soft and Exponential Knees. Only on the hardware renderers' HDR output ('Color Format' set to 30-bit or scRGB); no effect on the Software renderer or in 24-bit mode.",
+    "translation": "PlayStation-innehåll har standardomfång, så utan expansion stiger endast additiv blandning över pappersvitt. Expansion flyttar den övre delen av omfånget till HDR-utrymmet så att ljusa områden blir ljusare än vitt. Mellantoner under knäpunkten ändras inte. ”Invers tonmappning” expanderar varje kanal för sig och övermättar ljusa färger. ”Kulörbevarande” expanderar den ljusaste kanalen och skalar de andra med den, så en högdager ljusnar med sin egen kulör. Gäller med alla visningstransformkurvor utom Soft och Exponential Knees. Gäller endast HDR-utdata från maskinvarurenderarna när ”Färgformat” är inställt på 30 bitar eller scRGB. Saknar effekt med programvarurenderaren eller i 24-bitarsläge."
+  },
+  {
+    "string_id": 6215385,
+    "source": "Inverse Tonemap (Basic Expansion)",
+    "translation": "Invers tonmappning (grundläggande expansion)"
+  },
+  {
+    "string_id": 6215387,
+    "source": "Hue-Preserving Expansion",
+    "translation": "Kulörbevarande expansion"
+  },
+  {
+    "string_id": 6215389,
+    "source": "Highlight Hue Preservation",
+    "translation": "Bevarande av högdagrars kulör"
+  },
+  {
+    "string_id": 6215391,
+    "source": "Keeps the hue of saturated highlights under the per-channel Display Transform curves. Without it a bright colour clips one channel at a time and its hue slides toward whichever channel survives - a hot orange goes yellow, then white. With it the colour is mixed toward an achromatic peak by however much that peak was compressed, so it desaturates along its own hue. ACES 2.0 (Full), AgX and Khronos PBR Neutral already do this. Only on the hardware renderers' HDR output ('Color Format' set to 30-bit or scRGB); no effect on the Software renderer or in 24-bit mode.",
+    "translation": "Bevarar kulören hos mättade högdagrar med visningstransformkurvor per kanal. Utan detta klipper en ljus färg en kanal i taget och kulören glider mot den kanal som överlever. En het orange färg blir gul och sedan vit. Med inställningen blandas färgen mot en akromatisk topp i den grad som toppen har komprimerats, så den avmättas längs sin egen kulör. ACES 2.0 (full), AgX och Khronos PBR Neutral gör redan detta. Gäller endast HDR-utdata från maskinvarurenderarna när ”Färgformat” är inställt på 30 bitar eller scRGB. Saknar effekt med programvarurenderaren eller i 24-bitarsläge."
+  },
+  {
+    "string_id": 6215393,
+    "source": "ACES 2.0: Surround",
+    "translation": "ACES 2.0: omgivning"
+  },
+  {
+    "string_id": 6215395,
+    "source": "The viewing-environment compensation of the full ACES 2.0 transform: dim is the reference assumption, dark suits a lights-off room, average a bright one. Changing it re-solves the transform tables. Only affects 'ACES 2.0 (Full Output Transform)'.",
+    "translation": "Kompensation för visningsmiljön i den fullständiga ACES 2.0-transformen. Dämpad är referensantagandet, mörk passar ett rum med släckta lampor och genomsnittlig ett ljust rum. En ändring beräknar om transformtabellerna. Påverkar endast ”ACES 2.0 (fullständig utdatakurva)”."
+  },
+  {
+    "string_id": 6215397,
+    "source": "dark",
+    "translation": "mörk"
+  },
+  {
+    "string_id": 6215399,
+    "source": "dim",
+    "translation": "dämpad"
+  },
+  {
+    "string_id": 6215401,
+    "source": "average",
+    "translation": "genomsnittlig"
+  },
+  {
+    "string_id": 6215403,
+    "source": "ACES 2.0: Limiting Gamut",
+    "translation": "ACES 2.0: begränsad färgrymd"
+  },
+  {
+    "string_id": 6215405,
+    "source": "Which gamut the full ACES 2.0 transform compresses colour toward. Its gamut compression pulls out-of-range colour onto a boundary, so the boundary should be the one the display actually has. 'Auto' takes the display's own primaries when the frontend reports them, else P3-D65, which most HDR displays are close to. Leaving this at Rec.2020 on a P3 panel means the compression stops short and the panel clips the difference itself. Only affects 'ACES 2.0 (Full Output Transform)'.",
+    "translation": "Anger vilken färgrymd som den fullständiga ACES 2.0-transformen komprimerar färg mot. Komprimeringen flyttar färg utanför omfånget till en gräns, så gränsen bör vara den som skärmen faktiskt har. ”Automatiskt” använder skärmens egna primärfärger när gränssnittet rapporterar dem, annars P3-D65, som de flesta HDR-skärmar ligger nära. Om Rec.2020 används på en P3-panel stannar komprimeringen för tidigt och panelen klipper själv skillnaden. Påverkar endast ”ACES 2.0 (fullständig utdatakurva)”."
+  },
+  {
+    "string_id": 6215407,
+    "source": "Auto (the display's, else P3-D65)",
+    "translation": "Automatiskt (skärmens, annars P3-D65)"
+  },
+  {
+    "string_id": 6215409,
+    "source": "Rec.2020 (widest)",
+    "translation": "Rec.2020 (bredast)"
+  },
+  {
+    "string_id": 6215411,
+    "source": "P3-D65 (most HDR displays)",
+    "translation": "P3-D65 (de flesta HDR-skärmar)"
+  },
+  {
+    "string_id": 6215413,
+    "source": "Rec.709 (SDR gamut)",
+    "translation": "Rec.709 (SDR-färgrymd)"
+  },
+  {
+    "string_id": 6215415,
+    "source": "AgX: Look",
+    "translation": "AgX: utseende"
+  },
+  {
+    "string_id": 6215417,
+    "source": "A grade applied only under the AgX Display Transform. Punchy is the official higher-contrast, higher-saturation look - contrast 1.35 and saturation 1.4 - applied to the transform's output.",
+    "translation": "En gradning som endast används med AgX-visningstransformen. Punchy är det officiella utseendet med högre kontrast och mättnad, kontrast 1,35 och mättnad 1,4, som används på transformens utdata."
+  },
+  {
+    "string_id": 6215421,
+    "source": "punchy",
+    "translation": "kraftfull"
+  },
+  {
+    "string_id": 6215423,
+    "source": "GT: Toe",
+    "translation": "GT: tå"
+  },
+  {
+    "string_id": 6215425,
+    "source": "Where the GT (Uchimura) curve's linear section starts. Everything below is the toe, so a larger value gives a longer, softer approach out of black and slightly darker mid-tones. Only affects the GT Display Transform.",
+    "translation": "Anger var den linjära delen av GT-kurvan (Uchimura) börjar. Allt under den är tån, så ett större värde ger en längre och mjukare övergång från svart och något mörkare mellantoner. Påverkar endast GT-visningstransformen."
+  },
+  {
+    "string_id": 6215427,
+    "source": "0.10 (short toe)",
+    "translation": "0,10 (kort tå)"
+  },
+  {
+    "string_id": 6215429,
+    "source": "0.16",
+    "translation": "0,16"
+  },
+  {
+    "string_id": 6215431,
+    "source": "0.22 (default)",
+    "translation": "0,22 (standard)"
+  }
+]
