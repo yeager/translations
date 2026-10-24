@@ -1,0 +1,482 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "date": "2026-10-24",
+  "entries": [
+    {
+      "key": "TextGenerate.inputs.mtp.name",
+      "source": "mtp",
+      "translation": "mtp"
+    },
+    {
+      "key": "TextGenerate.inputs.mtp.tooltip",
+      "source": "Speculative decoding with the checkpoint's multi-token-prediction head. No effect without MTP weights. auto adapts the draft depth and breadth to observed token matches and execution cost; 2-5 pins a constant draft depth; tree modes pin both breadth and depth. Sampled output stays correctly distributed but differs from non-MTP output for the same seed.",
+      "translation": "Spekulativ avkodning med kontrollpunktens huvud för förutsägelse av flera token. Har ingen effekt utan MTP-vikter. auto anpassar utkastets djup och bredd efter observerade tokenmatchningar och körkostnad. 2–5 låser ett konstant utkastdjup. Trädlägen låser både bredd och djup. Samplad utdata förblir korrekt fördelad men skiljer sig från utdata utan MTP för samma slumptal."
+    },
+    {
+      "key": "TextGenerate.inputs.system_prompt.name",
+      "source": "system_prompt",
+      "translation": "system_prompt"
+    },
+    {
+      "key": "TextGenerate.inputs.system_prompt.tooltip",
+      "source": "Replaces the system prompt in the model's chat template. Ignored when the default template is not used.",
+      "translation": "Ersätter systemprompten i modellens chattmall. Ignoreras när standardmallen inte används."
+    },
+    {
+      "key": "TextGenerate.outputs.1.name",
+      "source": "thinking",
+      "translation": "resonemang"
+    },
+    {
+      "key": "TextGenerateLTX2Prompt.inputs.mtp.name",
+      "source": "mtp",
+      "translation": "mtp"
+    },
+    {
+      "key": "TextGenerateLTX2Prompt.inputs.mtp.tooltip",
+      "source": "Speculative decoding with the checkpoint's multi-token-prediction head. No effect without MTP weights. auto adapts the draft depth and breadth to observed token matches and execution cost; 2-5 pins a constant draft depth; tree modes pin both breadth and depth. Sampled output stays correctly distributed but differs from non-MTP output for the same seed.",
+      "translation": "Spekulativ avkodning med kontrollpunktens huvud för förutsägelse av flera token. Har ingen effekt utan MTP-vikter. auto anpassar utkastets djup och bredd efter observerade tokenmatchningar och körkostnad. 2–5 låser ett konstant utkastdjup. Trädlägen låser både bredd och djup. Samplad utdata förblir korrekt fördelad men skiljer sig från utdata utan MTP för samma slumptal."
+    },
+    {
+      "key": "TextGenerateLTX2Prompt.inputs.system_prompt.name",
+      "source": "system_prompt",
+      "translation": "system_prompt"
+    },
+    {
+      "key": "TextGenerateLTX2Prompt.inputs.system_prompt.tooltip",
+      "source": "Replaces the system prompt in the model's chat template. Ignored when the default template is not used.",
+      "translation": "Ersätter systemprompten i modellens chattmall. Ignoreras när standardmallen inte används."
+    },
+    {
+      "key": "TextGenerateLTX2Prompt.outputs.1.name",
+      "source": "thinking",
+      "translation": "resonemang"
+    },
+    {
+      "key": "TextEncodeMOSSImageEdit.display_name",
+      "source": "Text Encode MOSS-Image Edit",
+      "translation": "Textkoda MOSS-bildredigering"
+    },
+    {
+      "key": "TextEncodeMOSSImageEdit.description",
+      "source": "Encodes an edit instruction with reference images for a MOSS-Image edit LoRA, use it for the negative prompt too. The references are used at the size they come in, scale them first.",
+      "translation": "Kodar en redigeringsinstruktion med referensbilder för en MOSS-Image-redigerings-LoRA. Använd den även för den negativa prompten. Referenserna används i sin ursprungliga storlek, så skala dem först."
+    },
+    {
+      "key": "TextEncodeMOSSImageEdit.inputs.clip.name",
+      "source": "clip",
+      "translation": "CLIP"
+    },
+    {
+      "key": "TextEncodeMOSSImageEdit.inputs.prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "TextEncodeMOSSImageEdit.inputs.vae.name",
+      "source": "vae",
+      "translation": "VAE"
+    },
+    {
+      "key": "TextEncodeMOSSImageEdit.inputs.edit_format.name",
+      "source": "edit_format",
+      "translation": "redigeringsformat"
+    },
+    {
+      "key": "TextEncodeMOSSImageEdit.inputs.edit_format.tooltip",
+      "source": "The layout the edit LoRA was trained with: ai-toolkit's MOSS-Image Edit Training (its kv_cache option on or off) or Moss-Image-Edit. With kv_cache off the references also attend to the image being generated, so they are recomputed every step.",
+      "translation": "Layouten som redigerings-LoRA:n tränats med: ai-toolkits MOSS-Image Edit Training med kv_cache på eller av, eller Moss-Image-Edit. När kv_cache är avstängt uppmärksammar referenserna också bilden som genereras och beräknas därför om vid varje steg."
+    },
+    {
+      "key": "TextEncodeMOSSImageEdit.inputs.images.name",
+      "source": "images",
+      "translation": "bilder"
+    },
+    {
+      "key": "TextEncodeQwenImage21.display_name",
+      "source": "Text Encode Qwen Image 2.1",
+      "translation": "Textkoda Qwen Image 2.1"
+    },
+    {
+      "key": "TextEncodeQwenImage21.inputs.clip.name",
+      "source": "clip",
+      "translation": "CLIP"
+    },
+    {
+      "key": "TextEncodeQwenImage21.inputs.prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "TextEncodeQwenImage21.inputs.negative_prompt.name",
+      "source": "negative_prompt",
+      "translation": "negativ_prompt"
+    },
+    {
+      "key": "TextEncodeQwenImage21.inputs.resolution.name",
+      "source": "resolution",
+      "translation": "upplösning"
+    },
+    {
+      "key": "TextEncodeQwenImage21.inputs.resolution.tooltip",
+      "source": "Reference images are resized to about resolution x resolution pixels, at multiples of 32, preserving aspect ratio. 0 keeps each reference at its own size, rounded to a multiple of 32. ",
+      "translation": "Referensbilder storleksändras till ungefär upplösning × upplösning bildpunkter, i multiplar av 32 och med bibehållet bildförhållande. 0 behåller varje referens i dess egen storlek, avrundad till en multipel av 32."
+    },
+    {
+      "key": "TextEncodeQwenImage21.inputs.images.name",
+      "source": "images",
+      "translation": "bilder"
+    },
+    {
+      "key": "TextEncodeQwenImage21.inputs.images.tooltip",
+      "source": "Reference images, seen by the text encoder and spliced into the sequence as VAE latents.",
+      "translation": "Referensbilder som textkodaren ser och fogar in i sekvensen som VAE-latenter."
+    },
+    {
+      "key": "TextEncodeQwenImage21.inputs.vae.name",
+      "source": "vae",
+      "translation": "VAE"
+    },
+    {
+      "key": "TextEncodeQwenImage21.outputs.0.name",
+      "source": "positive",
+      "translation": "positiv"
+    },
+    {
+      "key": "TextEncodeQwenImage21.outputs.1.name",
+      "source": "negative",
+      "translation": "negativ"
+    },
+    {
+      "key": "TextEncodeQwenImage21.outputs.2.name",
+      "source": "latent",
+      "translation": "latent"
+    },
+    {
+      "key": "TextEncodeQwenImage21.outputs.2.tooltip",
+      "source": "Empty latent on the first reference image's size, to match with sampling as any other size shifts the edit.",
+      "translation": "Tom latent i den första referensbildens storlek för att matcha samplingen, eftersom varje annan storlek förskjuter redigeringen."
+    },
+    {
+      "key": "TripoImageToModelNodeV2.display_name",
+      "source": "Tripo: Image to Model",
+      "translation": "Tripo: Bild till modell"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.image.name",
+      "source": "image",
+      "translation": "bild"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.model_version.name",
+      "source": "model_version",
+      "translation": "modellversion"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.model_version.tooltip",
+      "source": "The model version to use for generation",
+      "translation": "Modellversion att använda för generering."
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.texture.name",
+      "source": "texture",
+      "translation": "textur"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.texture.tooltip",
+      "source": "Generate texture maps. Off returns bare geometry and ignores pbr.",
+      "translation": "Generera texturkartor. Av returnerar ren geometri och ignorerar pbr."
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.pbr.name",
+      "source": "pbr",
+      "translation": "pbr"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.pbr.tooltip",
+      "source": "PBR material maps (base color, metallic, roughness, normal). Requires texture.",
+      "translation": "PBR-materialkartor för basfärg, metallic, råhet och normal. Kräver textur."
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.model_seed.name",
+      "source": "model_seed",
+      "translation": "modellslumptal"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.orientation.name",
+      "source": "orientation",
+      "translation": "orientering"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.texture_seed.name",
+      "source": "texture_seed",
+      "translation": "texturslumptal"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.texture_quality.name",
+      "source": "texture_quality",
+      "translation": "texturkvalitet"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.texture_quality.tooltip",
+      "source": "detailed = HD textures, extreme = 8K Ultra textures.",
+      "translation": "detailed = HD-texturer. extreme = 8K Ultra-texturer."
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.texture_alignment.name",
+      "source": "texture_alignment",
+      "translation": "texturjustering"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.face_limit.name",
+      "source": "face_limit",
+      "translation": "gräns för ytor"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.face_limit.tooltip",
+      "source": "Maximum face count. -1 lets Tripo pick adaptively (about 1.4M faces on v3.x standard, 2M on detailed). Tripo clamps silently: v2.5 at 500,000, quad meshes at 150,000.",
+      "translation": "Högsta antal ytor. -1 låter Tripo välja dynamiskt, ungefär 1,4 miljoner ytor i v3.x standard och 2 miljoner i detailed. Tripo begränsar tyst: v2.5 till 500 000 och fyrkantsnät till 150 000."
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.quad.name",
+      "source": "quad",
+      "translation": "fyrhörning"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.quad.tooltip",
+      "source": "Quad mesh output. Tripo delivers quad meshes as FBX, so the result arrives on the FBX output and the GLB output stays empty.",
+      "translation": "Utdata som fyrkantsnät. Tripo levererar fyrkantsnät som FBX, så resultatet finns på FBX-utdata och GLB-utdata förblir tom."
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.geometry_quality.name",
+      "source": "geometry_quality",
+      "translation": "geometrikvalitet"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.smart_low_poly.name",
+      "source": "smart_low_poly",
+      "translation": "smart_low_poly"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.smart_low_poly.tooltip",
+      "source": "Low-poly mesh with clean, hand-crafted style topology (500-20,000 faces, quad 500-10,000). Best for simple subjects; complex ones may fail.",
+      "translation": "Lågpoly-nät med ren topologi i handgjord stil, 500–20 000 ytor och 500–10 000 fyrhörningar. Bäst för enkla motiv. Komplexa motiv kan misslyckas."
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.auto_size.name",
+      "source": "auto_size",
+      "translation": "auto_size"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.inputs.auto_size.tooltip",
+      "source": "Scale textured models to their real-world size in meters. Tripo stores the size as the model's scene transform and bakes it in when the model is converted, rigged or retargeted; ignored without texture.",
+      "translation": "Skalar texturerade modeller till sin verkliga storlek i meter. Tripo sparar storleken som modellens scenomvandling och bäddar in den när modellen konverteras, riggas eller återanpassas. Ignoreras utan textur."
+    },
+    {
+      "key": "TripoImageToModelNodeV2.outputs.0.name",
+      "source": "model task_id",
+      "translation": "modellens task_id"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.outputs.1.name",
+      "source": "GLB",
+      "translation": "GLB"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.outputs.1.tooltip",
+      "source": "Empty when quad is enabled.",
+      "translation": "Tom när fyrhörning är aktiverad."
+    },
+    {
+      "key": "TripoImageToModelNodeV2.outputs.2.name",
+      "source": "FBX",
+      "translation": "FBX"
+    },
+    {
+      "key": "TripoImageToModelNodeV2.outputs.2.tooltip",
+      "source": "Only populated when quad is enabled.",
+      "translation": "Fylls bara i när fyrhörning är aktiverad."
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.display_name",
+      "source": "Tripo P2: Image to Model",
+      "translation": "Tripo P2: Bild till modell"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.description",
+      "source": "Generates a low-poly 3D model with clean topology from an image, as a triangle mesh (GLB) or a quad-dominant mesh (FBX).",
+      "translation": "Genererar en lågpolig 3D-modell med ren topologi från en bild, som ett triangelnät (GLB) eller ett nät dominerat av fyrhörningar (FBX)."
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.model.name",
+      "source": "model",
+      "translation": "modell"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.model.tooltip",
+      "source": "Tripo P-series model.",
+      "translation": "Tripo-modell i P-serien."
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.model_auto_size.name",
+      "source": "auto_size",
+      "translation": "auto_size"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.model_compress_geometry.name",
+      "source": "compress_geometry",
+      "translation": "komprimera_geometri"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.model_enable_image_autofix.name",
+      "source": "enable_image_autofix",
+      "translation": "aktivera_bildautomatisk_rättning"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.model_export_uv.name",
+      "source": "export_uv",
+      "translation": "exportera_uv"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.model_face_limit.name",
+      "source": "face_limit",
+      "translation": "gräns_för_ytor"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.model_model_seed.name",
+      "source": "model_seed",
+      "translation": "modellslumptal"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.model_orientation.name",
+      "source": "orientation",
+      "translation": "orientering"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.model_pbr.name",
+      "source": "pbr",
+      "translation": "pbr"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.model_quad.name",
+      "source": "quad",
+      "translation": "fyrhörning"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.model_texture.name",
+      "source": "texture",
+      "translation": "textur"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.model_texture_alignment.name",
+      "source": "texture_alignment",
+      "translation": "texturjustering"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.inputs.model_texture_seed.name",
+      "source": "texture_seed",
+      "translation": "texturslumptal"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.outputs.0.name",
+      "source": "model task_id",
+      "translation": "modellens task_id"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.outputs.1.name",
+      "source": "GLB",
+      "translation": "GLB"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.outputs.1.tooltip",
+      "source": "Empty when quad is enabled.",
+      "translation": "Tom när fyrhörning är aktiverad."
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.outputs.2.name",
+      "source": "FBX",
+      "translation": "FBX"
+    },
+    {
+      "key": "TripoPSeriesImageToModelNode.outputs.2.tooltip",
+      "source": "Only populated when quad is enabled.",
+      "translation": "Fylls bara i när fyrhörning är aktiverad."
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.display_name",
+      "source": "Tripo P2: Multiview to Model",
+      "translation": "Tripo P2: Flervy till modell"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.description",
+      "source": "Generates a low-poly 3D model with clean topology from a front view plus one to three of the left, back and right views, as a triangle mesh (GLB) or a quad-dominant mesh (FBX).",
+      "translation": "Genererar en lågpolig 3D-modell med ren topologi från en framifrånvy och en till tre av vyerna från vänster, bakifrån och höger, som ett triangelnät (GLB) eller ett nät dominerat av fyrhörningar (FBX)."
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.inputs.model.name",
+      "source": "model",
+      "translation": "modell"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.inputs.model.tooltip",
+      "source": "Tripo P-series model.",
+      "translation": "Tripo-modell i P-serien."
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.inputs.model_auto_size.name",
+      "source": "auto_size",
+      "translation": "auto_size"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.inputs.model_compress_geometry.name",
+      "source": "compress_geometry",
+      "translation": "komprimera_geometri"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.inputs.model_export_uv.name",
+      "source": "export_uv",
+      "translation": "exportera_uv"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.inputs.model_face_limit.name",
+      "source": "face_limit",
+      "translation": "gräns_för_ytor"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.inputs.model_model_seed.name",
+      "source": "model_seed",
+      "translation": "modellslumptal"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.inputs.model_orientation.name",
+      "source": "orientation",
+      "translation": "orientering"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.inputs.model_pbr.name",
+      "source": "pbr",
+      "translation": "pbr"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.inputs.model_quad.name",
+      "source": "quad",
+      "translation": "fyrhörning"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.inputs.model_texture.name",
+      "source": "texture",
+      "translation": "textur"
+    }
+  ]
+}
