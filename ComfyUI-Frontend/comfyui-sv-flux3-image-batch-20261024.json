@@ -1,0 +1,101 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "Flux3ImageNode.display_name",
+      "source": "FLUX 3 Image",
+      "translation": "FLUX 3 Image"
+    },
+    {
+      "key": "Flux3ImageNode.description",
+      "source": "Generates an image with FLUX 3 Image from a prompt, or edits and combines up to 10 reference images. Refer to the references in the prompt as image 1, image 2, and so on.",
+      "translation": "Skapar en bild med FLUX 3 Image från en prompt, eller redigerar och kombinerar upp till tio referensbilder. Hänvisa till referenserna i prompten som bild 1, bild 2 och så vidare."
+    },
+    {
+      "key": "Flux3ImageNode.inputs.prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "Flux3ImageNode.inputs.prompt.tooltip",
+      "source": "What to generate, or the edit to make. The prompt is interpreted and expanded before generation.",
+      "translation": "Vad som ska skapas eller vilken redigering som ska göras. Prompten tolkas och utökas före genereringen."
+    },
+    {
+      "key": "Flux3ImageNode.inputs.images.name",
+      "source": "images",
+      "translation": "bilder"
+    },
+    {
+      "key": "Flux3ImageNode.inputs.images.tooltip",
+      "source": "Optional reference images, up to 10 in total, at least 256x256 pixels each.",
+      "translation": "Valfria referensbilder, högst tio totalt, med minst 256 × 256 pixlar vardera."
+    },
+    {
+      "key": "Flux3ImageNode.inputs.aspect_ratio.name",
+      "source": "aspect_ratio",
+      "translation": "bildförhållande"
+    },
+    {
+      "key": "Flux3ImageNode.inputs.aspect_ratio.tooltip",
+      "source": "'auto' follows the first reference image, or picks a ratio from the prompt.",
+      "translation": "auto följer den första referensbilden eller väljer ett förhållande från prompten."
+    },
+    {
+      "key": "Flux3ImageNode.inputs.resolution.name",
+      "source": "resolution",
+      "translation": "upplösning"
+    },
+    {
+      "key": "Flux3ImageNode.inputs.resolution.tooltip",
+      "source": "Output size at the chosen aspect ratio: 0.75K is about 0.6 megapixels, 1K 1 MP, 1.5K 2.4 MP, 2K 4.2 MP, 4K 16.8 MP.",
+      "translation": "Utdatastorlek med valt bildförhållande: 0,75 K är ungefär 0,6 megapixlar, 1 K 1 MP, 1,5 K 2,4 MP, 2 K 4,2 MP och 4 K 16,8 MP."
+    },
+    {
+      "key": "Flux3ImageNode.inputs.grounding.name",
+      "source": "grounding",
+      "translation": "förankring"
+    },
+    {
+      "key": "Flux3ImageNode.inputs.grounding.tooltip",
+      "source": "Let the model research the prompt with web and image search before generating.",
+      "translation": "Låt modellen undersöka prompten med webb- och bildsökning före generering."
+    },
+    {
+      "key": "Flux3ImageNode.inputs.safety_tolerance.name",
+      "source": "safety_tolerance",
+      "translation": "säkerhetstolerans"
+    },
+    {
+      "key": "Flux3ImageNode.inputs.safety_tolerance.tooltip",
+      "source": "Moderation tolerance, 0 is the strictest.",
+      "translation": "Tolerans för moderering. 0 är striktast."
+    },
+    {
+      "key": "Flux3ImageNode.inputs.seed.name",
+      "source": "seed",
+      "translation": "slumptal"
+    },
+    {
+      "key": "Flux3ImageNode.inputs.seed.tooltip",
+      "source": "Seed to determine if node should re-run; FLUX 3 picks its own seed, so actual results are nondeterministic regardless of this value.",
+      "translation": "Slumptal som avgör om noden ska köras igen. FLUX 3 väljer eget slumptal, så de faktiska resultaten är inte deterministiska oavsett detta värde."
+    },
+    {
+      "key": "Flux3ImageNode.inputs.bounding_boxes.name",
+      "source": "bounding_boxes",
+      "translation": "begränsningsrutor"
+    },
+    {
+      "key": "Flux3ImageNode.inputs.bounding_boxes.tooltip",
+      "source": "Optional boxes from Create Bounding Boxes that place objects or text in the output. Positions are relative to the canvas, so give it the output's aspect ratio.",
+      "translation": "Valfria rutor från Skapa begränsningsrutor som placerar objekt eller text i utdata. Positionerna är relativa till arbetsytan, så ange utdatas bildförhållande."
+    },
+    {
+      "key": "Flux3ImageNode.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    }
+  ]
+}
