@@ -1,0 +1,81 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.display_name",
+      "source": "LTXV Separate Generated Keyframes",
+      "translation": "LTXV separera genererade nyckelbilder"
+    },
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.description",
+      "source": "Split the generated keyframes added by LTXV Add Generated Keyframes back out of a sampled latent, and remove them from the conditioning. Separate them before spatially upscaling the video latent. Do not run LTXV Crop Guides first — it treats generated keyframes as disposable guides and drops them.",
+      "translation": "Separera genererade nyckelbilder som lades till av LTXV Add Generated Keyframes från en samplad latent och ta bort dem från konditioneringen. Separera dem före rumslig uppskalning av videolatenten. Kör inte LTXV Crop Guides först eftersom den behandlar genererade nyckelbilder som vägledningar som kan kastas bort."
+    },
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.inputs.positive.name",
+      "source": "positive",
+      "translation": "positiv"
+    },
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.inputs.negative.name",
+      "source": "negative",
+      "translation": "negativ"
+    },
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.inputs.latent.name",
+      "source": "latent",
+      "translation": "latent"
+    },
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.inputs.keyframes_to_batch.name",
+      "source": "keyframes_to_batch",
+      "translation": "nyckelbilder_till_batch"
+    },
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.inputs.keyframes_to_batch.tooltip",
+      "source": "Return the keyframes as a batch of single-frame latents. Leave off to get them as one multi-frame latent, which is what the latent upsampler and a later Add Generated Keyframes expect.",
+      "translation": "Returnera nyckelbilderna som en batch med latenter med en bildruta. Lämna avstängt för att få dem som en latent med flera bildrutor, vilket förväntas av latentuppskalaren och en senare Add Generated Keyframes."
+    },
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.outputs.0.name",
+      "source": "positive",
+      "translation": "positiv"
+    },
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.outputs.0.tooltip",
+      "source": "Positive conditioning with generated-keyframe metadata removed.",
+      "translation": "Positiv konditionering med metadata för genererade nyckelbilder borttagen."
+    },
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.outputs.1.name",
+      "source": "negative",
+      "translation": "negativ"
+    },
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.outputs.1.tooltip",
+      "source": "Negative conditioning with generated-keyframe metadata removed.",
+      "translation": "Negativ konditionering med metadata för genererade nyckelbilder borttagen."
+    },
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.outputs.2.name",
+      "source": "latent",
+      "translation": "latent"
+    },
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.outputs.2.tooltip",
+      "source": "Video latent with the generated keyframes stripped.",
+      "translation": "Videolatent där de genererade nyckelbilderna har tagits bort."
+    },
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.outputs.3.name",
+      "source": "keyframes",
+      "translation": "nyckelbilder"
+    },
+    {
+      "key": "LTXVSeparateGeneratedKeyframes.outputs.3.tooltip",
+      "source": "The peeled keyframes, labeled with generated_keyframe_indices and generated_keyframe_num_frames. Feed these to a later Add Generated Keyframes to initialize new slots, or to Generated Keyframes To Guides to pin them as frozen image guides (indices are remapped if the canvas length changed).",
+      "translation": "De utplockade nyckelbilderna, märkta med generated_keyframe_indices och generated_keyframe_num_frames. Skicka dem till en senare Add Generated Keyframes för att initiera nya platser, eller till Generated Keyframes To Guides för att fästa dem som frysta bildvägledningar. Index mappas om när arbetsytans längd har ändrats."
+    }
+  ]
+}
