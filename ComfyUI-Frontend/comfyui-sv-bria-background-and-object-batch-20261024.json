@@ -1,0 +1,198 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "source_revision": "origin/main",
+  "reviewed_batch": "2026-10-24",
+  "entries": [
+    {
+      "key": "BriaReplaceImageBackground.display_name",
+      "source": "Bria Replace Image Background",
+      "translation": "Bria byt bildbakgrund"
+    },
+    {
+      "key": "BriaReplaceImageBackground.description",
+      "source": "Replace the background of an image with Bria, described by a prompt or guided by reference images. The subject's pixels are preserved; the background is generated around them.",
+      "translation": "Byt bakgrunden i en bild med Bria. Den beskrivs av en prompt eller styrs med referensbilder. Motivets pixlar bevaras och bakgrunden genereras runt dem."
+    },
+    {
+      "key": "BriaReplaceImageBackground.inputs.image.name",
+      "source": "image",
+      "translation": "bild"
+    },
+    {
+      "key": "BriaReplaceImageBackground.inputs.background.name",
+      "source": "background",
+      "translation": "bakgrund"
+    },
+    {
+      "key": "BriaReplaceImageBackground.inputs.background.tooltip",
+      "source": "Describe the new background with a prompt, or guide it with reference images.",
+      "translation": "Beskriv den nya bakgrunden med en prompt eller styr den med referensbilder."
+    },
+    {
+      "key": "BriaReplaceImageBackground.inputs.original_quality.name",
+      "source": "original_quality",
+      "translation": "originalkvalitet"
+    },
+    {
+      "key": "BriaReplaceImageBackground.inputs.original_quality.tooltip",
+      "source": "Return the input's exact pixel size instead of scaling the result to about 1 megapixel. A large input then returns a large image.",
+      "translation": "Returnera indatans exakta pixelstorlek i stället för att skala resultatet till cirka 1 megapixel. En stor indata ger då en stor bild."
+    },
+    {
+      "key": "BriaReplaceImageBackground.inputs.seed.name",
+      "source": "seed",
+      "translation": "frö"
+    },
+    {
+      "key": "BriaReplaceImageBackground.inputs.seed.tooltip",
+      "source": "The same seed usually returns the same background; the automatic prompt refinement can still vary it.",
+      "translation": "Samma frö ger vanligtvis samma bakgrund, men den automatiska förfiningen av prompten kan ändå variera den."
+    },
+    {
+      "key": "BriaReplaceImageBackground.inputs.moderation.name",
+      "source": "moderation",
+      "translation": "moderering"
+    },
+    {
+      "key": "BriaReplaceImageBackground.inputs.moderation.tooltip",
+      "source": "Moderation settings",
+      "translation": "Inställningar för moderering"
+    },
+    {
+      "key": "BriaReplaceImageBackground.inputs.background_mode.name",
+      "source": "mode",
+      "translation": "läge"
+    },
+    {
+      "key": "BriaReplaceImageBackground.inputs.background_prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "BriaReplaceImageBackground.inputs.background_refine_prompt.name",
+      "source": "refine_prompt",
+      "translation": "refine_prompt"
+    },
+    {
+      "key": "BriaReplaceImageBackground.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "styr efter generering"
+    },
+    {
+      "key": "BriaReplaceImageBackground.outputs.1.name",
+      "source": "refined_prompt",
+      "translation": "refined_prompt"
+    },
+    {
+      "key": "BriaReplaceImageBackground.outputs.1.tooltip",
+      "source": "The prompt Bria generated from, empty on the reference-image path.",
+      "translation": "Prompten som Bria genererade från, tom när sökvägen med referensbild används."
+    },
+    {
+      "key": "BriaReplaceObject.display_name",
+      "source": "Bria Replace Object",
+      "translation": "Bria byt objekt"
+    },
+    {
+      "key": "BriaReplaceObject.description",
+      "source": "Swap an object in an image for another one described in plain text using Bria. Bria re-renders the whole frame at about 1 megapixel, so the result is not pixel-aligned with the input.",
+      "translation": "Byt ut ett objekt i en bild mot ett annat som beskrivs i klartext med Bria. Bria återrenderar hela bildytan med cirka 1 megapixel, så resultatet är inte pixeljusterat med indata."
+    },
+    {
+      "key": "BriaReplaceObject.inputs.image.name",
+      "source": "image",
+      "translation": "bild"
+    },
+    {
+      "key": "BriaReplaceObject.inputs.instruction.name",
+      "source": "instruction",
+      "translation": "instruktion"
+    },
+    {
+      "key": "BriaReplaceObject.inputs.instruction.tooltip",
+      "source": "What to replace with what, such as 'Replace the red apple with a green pear'.",
+      "translation": "Vad som ska bytas mot vad, till exempel 'Byt ut det röda äpplet mot ett grönt päron'."
+    },
+    {
+      "key": "BriaReplaceObject.inputs.seed.name",
+      "source": "seed",
+      "translation": "frö"
+    },
+    {
+      "key": "BriaReplaceObject.inputs.seed.tooltip",
+      "source": "Bria takes no seed here and re-imagines the edit on each call, so repeated runs can differ. The value is never sent: it only changes this node's cache key, so that an otherwise identical graph runs the edit again instead of returning the cached result.",
+      "translation": "Bria använder inget frö här utan föreställer sig redigeringen på nytt vid varje anrop, så upprepade körningar kan skilja sig åt. Värdet skickas aldrig. Det ändrar bara nodens cachenyckel så att en i övrigt identisk graf kör redigeringen igen i stället för att returnera det cachade resultatet."
+    },
+    {
+      "key": "BriaReplaceObject.inputs.moderation.name",
+      "source": "moderation",
+      "translation": "moderering"
+    },
+    {
+      "key": "BriaReplaceObject.inputs.moderation.tooltip",
+      "source": "Moderation settings",
+      "translation": "Inställningar för moderering"
+    },
+    {
+      "key": "BriaReplaceObject.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "styr efter generering"
+    },
+    {
+      "key": "BriaReplaceObject.outputs.1.name",
+      "source": "structured_prompt",
+      "translation": "structured_prompt"
+    },
+    {
+      "key": "BriaReplaceObject.outputs.1.tooltip",
+      "source": "Structured description of the edited image, for a follow-up edit with Bria FIBO 2.0 Image Edit.",
+      "translation": "Strukturerad beskrivning av den redigerade bilden, för en efterföljande redigering med Bria FIBO 2.0 Image Edit."
+    },
+    {
+      "key": "BriaReseason.display_name",
+      "source": "Bria Reseason",
+      "translation": "Bria byt årstid"
+    },
+    {
+      "key": "BriaReseason.description",
+      "source": "Move an image to another season with Bria. The whole scene is re-rendered, so scenery can change beyond the season itself. Bria re-renders the whole frame at about 1 megapixel, so the result is not pixel-aligned with the input.",
+      "translation": "Flytta en bild till en annan årstid med Bria. Hela scenen återrenderas, så landskapet kan ändras utöver själva årstiden. Bria återrenderar hela bildytan med cirka 1 megapixel, så resultatet är inte pixeljusterat med indata."
+    },
+    {
+      "key": "BriaReseason.inputs.image.name",
+      "source": "image",
+      "translation": "bild"
+    },
+    {
+      "key": "BriaReseason.inputs.season.name",
+      "source": "season",
+      "translation": "årstid"
+    },
+    {
+      "key": "BriaReseason.inputs.season.tooltip",
+      "source": "Season to apply.",
+      "translation": "Årstiden som ska tillämpas."
+    },
+    {
+      "key": "BriaReseason.inputs.moderation.name",
+      "source": "moderation",
+      "translation": "moderering"
+    },
+    {
+      "key": "BriaReseason.inputs.moderation.tooltip",
+      "source": "Moderation settings",
+      "translation": "Inställningar för moderering"
+    },
+    {
+      "key": "BriaReseason.outputs.1.name",
+      "source": "structured_prompt",
+      "translation": "structured_prompt"
+    },
+    {
+      "key": "BriaReseason.outputs.1.tooltip",
+      "source": "Structured description of the edited image, for a follow-up edit with Bria FIBO 2.0 Image Edit.",
+      "translation": "Strukturerad beskrivning av den redigerade bilden, för en efterföljande redigering med Bria FIBO 2.0 Image Edit."
+    }
+  ]
+}
