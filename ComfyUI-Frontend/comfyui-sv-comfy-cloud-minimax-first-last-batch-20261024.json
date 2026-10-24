@@ -1,0 +1,66 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "ComfyCloudMiniMaxH3FirstLastFrameToVideoNode.display_name",
+      "source": "Comfy Cloud MiniMax H3 First-Last Frame to Video [BETA]",
+      "translation": "Comfy Cloud MiniMax H3 första och sista bildruta till video [BETA]"
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3FirstLastFrameToVideoNode.description",
+      "source": "BETA. The Comfy Cloud node set is still changing: options may be added or removed, and a workflow may be retired. Generates the motion between two keyframes, with a matching soundtrack, using MiniMax H3. Give it the opening and closing frames and the model fills in the shot between them. The last frame is optional: leave it out and the motion runs away from the first frame instead. Runs on a Comfy Cloud GPU, billed by how long it runs at {'$'}0.001295/GPU-second (0.27 credits). Paid in credits, no Cloud subscription required.",
+      "translation": "BETA. Comfy Clouds noduppsättning förändras fortfarande: alternativ kan läggas till eller tas bort och ett arbetsflöde kan tas ur bruk. Skapar rörelsen mellan två nyckelbilder med ett passande ljudspår med hjälp av MiniMax H3. Ange den första och sista bildrutan så fyller modellen i scenen mellan dem. Den sista bildrutan är valfri. Utelämna den så fortsätter rörelsen från den första bildrutan. Körs på en GPU i Comfy Cloud och debiteras efter körtid med {'$'}0.001295 per GPU-sekund (0,27 krediter). Betalas med krediter och kräver ingen Cloud-prenumeration."
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3FirstLastFrameToVideoNode.inputs.first_frame.name",
+      "source": "first_frame",
+      "translation": "första_bildrutan"
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3FirstLastFrameToVideoNode.inputs.prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3FirstLastFrameToVideoNode.inputs.seed.name",
+      "source": "seed",
+      "translation": "slumptal"
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3FirstLastFrameToVideoNode.inputs.aspect_ratio.name",
+      "source": "aspect_ratio",
+      "translation": "bildförhållande"
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3FirstLastFrameToVideoNode.inputs.resolution.name",
+      "source": "resolution",
+      "translation": "upplösning"
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3FirstLastFrameToVideoNode.inputs.resolution.tooltip",
+      "source": "Frame size budget. 720p costs roughly twice the GPU-seconds of 480p.",
+      "translation": "Budget för bildrutestorlek. 720p kostar ungefär dubbelt så många GPU-sekunder som 480p."
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3FirstLastFrameToVideoNode.inputs.duration_seconds.name",
+      "source": "duration_seconds",
+      "translation": "längd_sekunder"
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3FirstLastFrameToVideoNode.inputs.duration_seconds.tooltip",
+      "source": "Length in seconds. The pipeline quantises to 17-frame steps at 24fps, so the clip lands within about two thirds of a second of this.",
+      "translation": "Längd i sekunder. Pipelinen kvantiserar till steg om 17 bildrutor vid 24 fps, så klippet hamnar inom ungefär två tredjedels sekund från detta."
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3FirstLastFrameToVideoNode.inputs.last_frame.name",
+      "source": "last_frame",
+      "translation": "sista_bildrutan"
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3FirstLastFrameToVideoNode.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    }
+  ]
+}
