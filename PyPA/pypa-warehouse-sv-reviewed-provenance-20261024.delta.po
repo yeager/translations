@@ -1,0 +1,438 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PyPA Warehouse\n"
+"PO-Revision-Date: 2026-10-24 12:00+0200\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: warehouse/templates/email/includes/account-help.html:3
+#, python-format
+msgid "If you have forgotten your password, you can <a href=\"%(reset_href)s\">reset your password</a>. If you have lost access to your two-factor authentication method and recovery codes, follow the <a href=\"%(recovery_href)s\">account recovery steps</a> to open an issue on our support tracker instead of emailing the PyPI administrators."
+msgstr "Om du har glömt lösenordet kan du <a href=\"%(reset_href)s\">återställa lösenordet</a>. Om du har förlorat åtkomsten till din tvåfaktorsautentiseringsmetod och dina återställningskoder ska du följa <a href=\"%(recovery_href)s\">stegen för kontoåterställning</a> och skapa ett ärende i vårt supportärendesystem i stället för att skicka e-post till PyPI-administratörerna."
+
+#: warehouse/templates/includes/packaging/file-provenance-status.html:3 warehouse/templates/includes/packaging/project-security.html:107 warehouse/templates/includes/packaging/project-security.html:218 warehouse/templates/includes/packaging/security/lost-provenance.html:31
+msgid "With provenance"
+msgstr "Med ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/file-provenance-status.html:5 warehouse/templates/includes/packaging/project-security.html:119 warehouse/templates/includes/packaging/project-security.html:222 warehouse/templates/includes/packaging/security/lost-provenance.html:49
+msgid "Without provenance"
+msgstr "Utan ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/project-navigation.html:69
+msgid "Release security. Focus will be moved to the security panel."
+msgstr "Utgåvesäkerhet. Fokus flyttas till säkerhetspanelen."
+
+#: warehouse/templates/includes/packaging/metadata/provenance.html:24 warehouse/templates/includes/packaging/project-release-history.html:117 warehouse/templates/includes/packaging/project-status.html:10 warehouse/templates/includes/packaging/security/lost-provenance.html:6 warehouse/templates/includes/packaging/security/warning-for-file-detail.html:9 warehouse/templates/includes/packaging/security/warning-for-file-list.html:14 warehouse/templates/includes/packaging/security/warning-for-file-list.html:31
+msgid "Loss of provenance"
+msgstr "Förlust av ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/metadata/provenance.html:32 warehouse/templates/includes/packaging/project-release-history.html:119 warehouse/templates/includes/packaging/project-status.html:22 warehouse/templates/includes/packaging/security/changed-provenance.html:9 warehouse/templates/includes/packaging/security/warning-for-file-detail.html:28 warehouse/templates/includes/packaging/security/warning-for-file-list.html:52 warehouse/templates/includes/packaging/security/warning-for-file-list.html:66
+msgid "Change of provenance"
+msgstr "Ändrade ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/metadata/provenance.html:40 warehouse/templates/includes/packaging/project-release-history.html:121 warehouse/templates/includes/packaging/project-status.html:34 warehouse/templates/includes/packaging/security/inconsistent-provenance.html:8 warehouse/templates/includes/packaging/security/warning-for-file-detail.html:47 warehouse/templates/includes/packaging/security/warning-for-file-list.html:88
+msgid "Inconsistent provenance"
+msgstr "Inkonsekventa ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/metadata/provenance.html:48 warehouse/templates/includes/packaging/project-release-history.html:123 warehouse/templates/includes/packaging/project-status.html:46 warehouse/templates/includes/packaging/security/partial-provenance.html:9 warehouse/templates/includes/packaging/security/warning-for-file-detail.html:66 warehouse/templates/includes/packaging/security/warning-for-file-list.html:118
+msgid "Incomplete provenance"
+msgstr "Ofullständiga ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/metadata/provenance.html:76 warehouse/templates/includes/packaging/project-release-history.html:125 warehouse/templates/includes/packaging/security/full-provenance.html:5
+msgid "Full provenance"
+msgstr "Fullständiga ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/project-release-history.html:127
+msgid "No provenance"
+msgstr "Inga ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/project-security.html:8
+#, python-format
+msgid "Security for %(name)s %(version)s"
+msgstr "Säkerhet för %(name)s %(version)s"
+
+#: warehouse/templates/includes/packaging/project-security.html:17
+msgid "Upload timing"
+msgstr "Tidpunkt för uppladdning"
+
+#: warehouse/templates/includes/packaging/project-security.html:64
+#, python-format
+msgid "Select from %(count)s file"
+msgid_plural "Select from %(count)s files"
+msgstr[0] "Välj bland %(count)s fil"
+msgstr[1] "Välj bland %(count)s filer"
+
+#: warehouse/templates/includes/packaging/project-security.html:82
+msgid "Filter files"
+msgstr "Filtrera filer"
+
+#: warehouse/templates/includes/packaging/project-security.html:124
+msgid "File type"
+msgstr "Filtyp"
+
+#: warehouse/templates/includes/packaging/project-security.html:135
+msgid "Source Distribution (sdist)"
+msgstr "Källdistribution (sdist)"
+
+#: warehouse/templates/includes/packaging/project-security.html:147
+msgid "Wheel"
+msgstr "Wheel"
+
+#: warehouse/templates/includes/packaging/project-security.html:197
+msgid "No files match the current filters."
+msgstr "Inga filer matchar de aktuella filtren."
+
+#: warehouse/templates/includes/packaging/project-security.html:199
+msgid "Reset filters"
+msgstr "Återställ filter"
+
+#: warehouse/templates/includes/packaging/project-security.html:233
+#, python-format
+msgid "%(count)s attestation"
+msgid_plural "%(count)s attestations"
+msgstr[0] "%(count)s intyg"
+msgstr[1] "%(count)s intyg"
+
+#: warehouse/templates/includes/packaging/project-security.html:256
+#, python-format
+msgid "Attestation for <a href=\"%(href)s\" data-project-tabs-target=\"tab\" data-action=\"project-tabs#onTabClick\">%(filename)s</a>"
+msgid_plural "Attestations for <a href=\"%(href)s\" data-project-tabs-target=\"tab\" data-action=\"project-tabs#onTabClick\">%(filename)s</a>"
+msgstr[0] "Intyg för <a href=\"%(href)s\" data-project-tabs-target=\"tab\" data-action=\"project-tabs#onTabClick\">%(filename)s</a>"
+msgstr[1] "Intyg för <a href=\"%(href)s\" data-project-tabs-target=\"tab\" data-action=\"project-tabs#onTabClick\">%(filename)s</a>"
+
+#: warehouse/templates/includes/packaging/project-security.html:276
+msgid "This file was uploaded without provenance metadata."
+msgstr "Den här filen laddades upp utan ursprungsmetadata."
+
+#: warehouse/templates/includes/packaging/project-security.html:284
+msgid "A note on package security"
+msgstr "Om paketsäkerhet"
+
+#: warehouse/templates/includes/packaging/project-security.html:286
+msgid "PyPI is a repository for distributing packages, not a service for auditing them. While third-party security researchers and our staff do their best to detect and remove malicious packages, PyPI cannot guarantee the quality, security or suitability of any given package."
+msgstr "PyPI är ett arkiv för distribution av paket, inte en tjänst för att granska dem. Även om externa säkerhetsforskare och vår personal gör sitt bästa för att upptäcka och ta bort skadliga paket kan PyPI inte garantera kvaliteten, säkerheten eller lämpligheten hos ett enskilt paket."
+
+#: warehouse/templates/includes/packaging/project-status.html:13
+#, python-format
+msgid "A previous release had provenance metadata, but this release does not. <a href=\"%(href)s\">View details</a>."
+msgstr "En tidigare utgåva hade ursprungsmetadata, men den här utgåvan saknar dem. <a href=\"%(href)s\">Visa detaljer</a>."
+
+#: warehouse/templates/includes/packaging/project-status.html:25
+#, python-format
+msgid "The repository or configuration that created this release differ from a previous release. <a href=\"%(href)s\">View details</a>."
+msgstr "Arkivet eller konfigurationen som skapade den här utgåvan skiljer sig från en tidigare utgåva. <a href=\"%(href)s\">Visa detaljer</a>."
+
+#: warehouse/templates/includes/packaging/project-status.html:37
+#, python-format
+msgid "Files in this release originate from inconsistent repositories or configurations. <a href=\"%(href)s\">View details</a>."
+msgstr "Filerna i den här utgåvan kommer från inkonsekventa arkiv eller konfigurationer. <a href=\"%(href)s\">Visa detaljer</a>."
+
+#: warehouse/templates/includes/packaging/project-status.html:49
+#, python-format
+msgid "%(without_count)s of %(total_count)s files were uploaded without provenance metadata. <a href=\"%(href)s\">View details</a>."
+msgstr "%(without_count)s av %(total_count)s filer laddades upp utan ursprungsmetadata. <a href=\"%(href)s\">Visa detaljer</a>."
+
+#: warehouse/templates/includes/packaging/metadata/provenance.html:16
+msgid "About provenance"
+msgstr "Om ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/metadata/provenance.html:27
+msgid "A previous release had provenance metadata, but this release does not."
+msgstr "En tidigare utgåva hade ursprungsmetadata, men den här utgåvan saknar dem."
+
+#: warehouse/templates/includes/packaging/metadata/provenance.html:35
+msgid "The repository or configuration that created this release differ from a previous release."
+msgstr "Arkivet eller konfigurationen som skapade den här utgåvan skiljer sig från en tidigare utgåva."
+
+#: warehouse/templates/includes/packaging/metadata/provenance.html:43
+msgid "Files in this release originate from inconsistent repositories or configurations."
+msgstr "Filerna i den här utgåvan kommer från inkonsekventa arkiv eller konfigurationer."
+
+#: warehouse/templates/includes/packaging/metadata/provenance.html:51 warehouse/templates/includes/packaging/security/partial-provenance.html:12 warehouse/templates/includes/packaging/security/warning-for-file-list.html:121
+#, python-format
+msgid "%(without_count)s of %(total_count)s files were uploaded without provenance metadata."
+msgstr "%(without_count)s av %(total_count)s filer laddades upp utan ursprungsmetadata."
+
+#: warehouse/templates/includes/packaging/metadata/provenance.html:63 warehouse/templates/includes/packaging/metadata/provenance.html:86
+msgid "View provenance details"
+msgstr "Visa uppgifter om ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/metadata/provenance.html:71
+msgid "Data provided by the project maintainers and verified by PyPI at the time of upload."
+msgstr "Data tillhandahålls av projektets underhållare och verifierades av PyPI vid uppladdningen."
+
+#: warehouse/templates/includes/packaging/metadata/provenance.html:79
+#, python-format
+msgid "All %(count)s file in this release has provenance metadata."
+msgid_plural "All %(count)s files in this release have provenance metadata."
+msgstr[0] "%(count)s fil i den här utgåvan har ursprungsmetadata."
+msgstr[1] "%(count)s filer i den här utgåvan har ursprungsmetadata."
+
+#: warehouse/templates/includes/packaging/security/changed-provenance.html:12
+msgid "The repository and configuration that created this release differ from a previous release."
+msgstr "Arkivet och konfigurationen som skapade den här utgåvan skiljer sig från en tidigare utgåva."
+
+#: warehouse/templates/includes/packaging/security/changed-provenance.html:14
+msgid "The repository that created this release differs from a previous release."
+msgstr "Arkivet som skapade den här utgåvan skiljer sig från en tidigare utgåva."
+
+#: warehouse/templates/includes/packaging/security/changed-provenance.html:16
+msgid "The configuration that created this release differs from a previous release."
+msgstr "Konfigurationen som skapade den här utgåvan skiljer sig från en tidigare utgåva."
+
+#: warehouse/templates/includes/packaging/security/changed-provenance.html:18 warehouse/templates/includes/packaging/security/lost-provenance.html:9
+msgid "While this could reflect a routine change by the project maintainers, it may also indicate that the release files have been compromised."
+msgstr "Även om detta kan återspegla en rutinmässig ändring från projektets underhållare kan det också betyda att utgåvans filer har komprometterats."
+
+#: warehouse/templates/includes/packaging/security/changed-provenance.html:32 warehouse/templates/includes/packaging/security/inconsistent-provenance.html:31
+msgid "Repository/Account"
+msgstr "Arkiv/konto"
+
+#: warehouse/templates/includes/packaging/security/changed-provenance.html:44 warehouse/templates/includes/packaging/security/changed-provenance.html:75 warehouse/templates/includes/packaging/security/lost-provenance.html:20
+msgid "Removed"
+msgstr "Borttagen"
+
+#: warehouse/templates/includes/packaging/security/changed-provenance.html:55 warehouse/templates/includes/packaging/security/changed-provenance.html:86 warehouse/templates/includes/packaging/security/lost-provenance.html:40
+msgid "Added"
+msgstr "Tillagd"
+
+#: warehouse/templates/includes/packaging/security/changed-provenance.html:68 warehouse/templates/includes/packaging/security/inconsistent-provenance.html:67
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: warehouse/templates/includes/packaging/security/changed-provenance.html:99
+#, python-format
+msgid "We recommend inspecting the repository and configuration before proceeding. <a href=\"%(href)s\">Learn more</a>."
+msgstr "Vi rekommenderar att du granskar arkivet och konfigurationen innan du fortsätter. <a href=\"%(href)s\">Läs mer</a>."
+
+#: warehouse/templates/includes/packaging/security/changed-provenance.html:101
+#, python-format
+msgid "We recommend inspecting the repository before proceeding. <a href=\"%(href)s\">Learn more</a>."
+msgstr "Vi rekommenderar att du granskar arkivet innan du fortsätter. <a href=\"%(href)s\">Läs mer</a>."
+
+#: warehouse/templates/includes/packaging/security/changed-provenance.html:103
+#, python-format
+msgid "We recommend inspecting the configuration before proceeding. <a href=\"%(href)s\">Learn more</a>."
+msgstr "Vi rekommenderar att du granskar konfigurationen innan du fortsätter. <a href=\"%(href)s\">Läs mer</a>."
+
+#: warehouse/templates/includes/packaging/security/full-provenance.html:8
+#, python-format
+msgid "All %(count)s file in this release has been uploaded with provenance metadata."
+msgid_plural "All %(count)s files in this release have been uploaded with provenance metadata."
+msgstr[0] "%(count)s fil i den här utgåvan laddades upp med ursprungsmetadata."
+msgstr[1] "%(count)s filer i den här utgåvan laddades upp med ursprungsmetadata."
+
+#: warehouse/templates/includes/packaging/security/inconsistent-provenance.html:11
+msgid "The release files originate from multiple, inconsistent repositories and configurations."
+msgstr "Utgåvans filer kommer från flera inkonsekventa arkiv och konfigurationer."
+
+#: warehouse/templates/includes/packaging/security/inconsistent-provenance.html:13
+msgid "The release files originate from multiple, inconsistent repositories."
+msgstr "Utgåvans filer kommer från flera inkonsekventa arkiv."
+
+#: warehouse/templates/includes/packaging/security/inconsistent-provenance.html:15
+msgid "The release files originate from multiple, inconsistent configurations."
+msgstr "Utgåvans filer kommer från flera inkonsekventa konfigurationer."
+
+#: warehouse/templates/includes/packaging/security/inconsistent-provenance.html:17
+msgid "While this could reflect a legitimate choice by the project maintainers, it may also indicate that the release has been compromised."
+msgstr "Även om detta kan återspegla ett legitimt val av projektets underhållare kan det också betyda att utgåvan har komprometterats."
+
+#: warehouse/templates/includes/packaging/security/inconsistent-provenance.html:56 warehouse/templates/includes/packaging/security/inconsistent-provenance.html:87
+msgid "Unknown"
+msgstr "Okänd"
+
+#: warehouse/templates/includes/packaging/security/inconsistent-provenance.html:96
+#, python-format
+msgid "We recommend inspecting each repository and configuration before proceeding. <a href=\"%(href)s\">Learn more</a>."
+msgstr "Vi rekommenderar att du granskar varje arkiv och konfiguration innan du fortsätter. <a href=\"%(href)s\">Läs mer</a>."
+
+#: warehouse/templates/includes/packaging/security/inconsistent-provenance.html:98
+#, python-format
+msgid "We recommend inspecting each repository before proceeding. <a href=\"%(href)s\">Learn more</a>."
+msgstr "Vi rekommenderar att du granskar varje arkiv innan du fortsätter. <a href=\"%(href)s\">Läs mer</a>."
+
+#: warehouse/templates/includes/packaging/security/inconsistent-provenance.html:100
+#, python-format
+msgid "We recommend inspecting each configuration before proceeding. <a href=\"%(href)s\">Learn more</a>."
+msgstr "Vi rekommenderar att du granskar varje konfiguration innan du fortsätter. <a href=\"%(href)s\">Läs mer</a>."
+
+#: warehouse/templates/includes/packaging/security/lost-provenance.html:8
+msgid "A previous release of these files had provenance metadata, but this release does not."
+msgstr "En tidigare utgåva av dessa filer hade ursprungsmetadata, men den här utgåvan saknar dem."
+
+#: warehouse/templates/includes/packaging/security/lost-provenance.html:14
+msgid "Release comparison"
+msgstr "Jämförelse av utgåvor"
+
+#: warehouse/templates/includes/packaging/security/lost-provenance.html:33
+msgid "Partial provenance"
+msgstr "Delvisa ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/security/lost-provenance.html:57 warehouse/templates/includes/packaging/security/partial-provenance.html:46
+#, python-format
+msgid "We recommend further investigation before installing files from this release. <a href=\"%(href)s\">Learn more</a>."
+msgstr "Vi rekommenderar vidare utredning innan du installerar filer från den här utgåvan. <a href=\"%(href)s\">Läs mer</a>."
+
+#: warehouse/templates/includes/packaging/security/no-provenance.html:5
+msgid "No provenance found"
+msgstr "Inga ursprungsmetadata hittades"
+
+#: warehouse/templates/includes/packaging/security/no-provenance.html:7
+msgid "None of the files in this release were uploaded with provenance metadata."
+msgstr "Inga av filerna i den här utgåvan laddades upp med ursprungsmetadata."
+
+#: warehouse/templates/includes/packaging/security/partial-provenance.html:18
+msgid "Files with provenance"
+msgstr "Filer med ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/security/partial-provenance.html:21
+#, python-format
+msgid "%(with_count)s of %(total_count)s files with provenance"
+msgstr "%(with_count)s av %(total_count)s filer med ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/security/partial-provenance.html:32
+msgid "Files without provenance"
+msgstr "Filer utan ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/security/partial-provenance.html:35
+#, python-format
+msgid "%(without_count)s of %(total_count)s files without provenance"
+msgstr "%(without_count)s av %(total_count)s filer utan ursprungsmetadata"
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:11 warehouse/templates/includes/packaging/security/warning-for-file-list.html:12
+msgid "Loss of provenance, with file added late"
+msgstr "Förlust av ursprungsmetadata med fil som lades till sent"
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:14 warehouse/templates/includes/packaging/security/warning-for-file-list.html:17
+msgid "This file belongs to a release without provenance metadata, despite a prior release including this data."
+msgstr "Den här filen hör till en utgåva utan ursprungsmetadata, trots att en tidigare utgåva innehöll sådana uppgifter."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:16 warehouse/templates/includes/packaging/security/warning-for-file-detail.html:35 warehouse/templates/includes/packaging/security/warning-for-file-detail.html:54 warehouse/templates/includes/packaging/security/warning-for-file-detail.html:77 warehouse/templates/includes/packaging/security/warning-for-file-list.html:19 warehouse/templates/includes/packaging/security/warning-for-file-list.html:57
+#, python-format
+msgid "The file was also added more than %(days)s days after the first file in this release."
+msgstr "Filen lades också till mer än %(days)s dagar efter den första filen i den här utgåvan."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:17 warehouse/templates/includes/packaging/security/warning-for-file-list.html:20
+msgid "These two factors together may indicate that the file has been compromised."
+msgstr "Dessa två faktorer tillsammans kan tyda på att filen har komprometterats."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:19 warehouse/templates/includes/packaging/security/warning-for-file-detail.html:80 warehouse/templates/includes/packaging/security/warning-for-file-list.html:22
+#, python-format
+msgid "We recommend further investigation before installing this file. <a href=\"%(href)s\" data-project-tabs-target=\"tab\" data-action=\"project-tabs#onTabClick\">View details</a>."
+msgstr "Vi rekommenderar vidare utredning innan du installerar den här filen. <a href=\"%(href)s\" data-project-tabs-target=\"tab\" data-action=\"project-tabs#onTabClick\">Visa detaljer</a>."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:30 warehouse/templates/includes/packaging/security/warning-for-file-list.html:50
+msgid "Change of provenance, with file added late"
+msgstr "Ändrade ursprungsmetadata med fil som lades till sent"
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:33 warehouse/templates/includes/packaging/security/warning-for-file-list.html:55
+msgid "This file belongs to a release with changed provenance: the repository or configuration that created the release files differ from that of a previous release."
+msgstr "Den här filen hör till en utgåva med ändrade ursprungsmetadata: arkivet eller konfigurationen som skapade utgåvans filer skiljer sig från en tidigare utgåva."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:36 warehouse/templates/includes/packaging/security/warning-for-file-detail.html:55 warehouse/templates/includes/packaging/security/warning-for-file-detail.html:78 warehouse/templates/includes/packaging/security/warning-for-file-list.html:58
+msgid "These two factors together may indicate that this file has been compromised."
+msgstr "Dessa två faktorer tillsammans kan tyda på att den här filen har komprometterats."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:38 warehouse/templates/includes/packaging/security/warning-for-file-list.html:75
+#, python-format
+msgid "We recommend inspecting the repository and configuration before proceeding. <a href=\"%(href)s\" data-project-tabs-target=\"tab\" data-action=\"project-tabs#onTabClick\">View details</a>."
+msgstr "Vi rekommenderar att du granskar arkivet och konfigurationen innan du fortsätter. <a href=\"%(href)s\" data-project-tabs-target=\"tab\" data-action=\"project-tabs#onTabClick\">Visa detaljer</a>."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:49 warehouse/templates/includes/packaging/security/warning-for-file-list.html:84
+msgid "Inconsistent provenance, with file added late"
+msgid_plural "Inconsistent provenance, with files added late"
+msgstr[0] "Inkonsekventa ursprungsmetadata med fil som lades till sent"
+msgstr[1] "Inkonsekventa ursprungsmetadata med filer som lades till sent"
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:52
+msgid "This file belongs to a release with inconsistent provenance: the files in this release originate from different repositories or configurations."
+msgstr "Den här filen hör till en utgåva med inkonsekventa ursprungsmetadata: filerna i den här utgåvan kommer från olika arkiv eller konfigurationer."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:57 warehouse/templates/includes/packaging/security/warning-for-file-list.html:103
+#, python-format
+msgid "We recommend inspecting each repository and configuration before proceeding. <a href=\"%(href)s\" data-project-tabs-target=\"tab\" data-action=\"project-tabs#onTabClick\">View details</a>."
+msgstr "Vi rekommenderar att du granskar varje arkiv och konfiguration innan du fortsätter. <a href=\"%(href)s\" data-project-tabs-target=\"tab\" data-action=\"project-tabs#onTabClick\">Visa detaljer</a>."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:68 warehouse/templates/includes/packaging/security/warning-for-file-list.html:114
+msgid "Incomplete provenance, with file added late"
+msgid_plural "Incomplete provenance, with files added late"
+msgstr[0] "Ofullständiga ursprungsmetadata med fil som lades till sent"
+msgstr[1] "Ofullständiga ursprungsmetadata med filer som lades till sent"
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:72
+msgid "This file belongs to a release with incomplete provenance: while this file has provenance metadata, other files in this release do not."
+msgstr "Den här filen hör till en utgåva med ofullständiga ursprungsmetadata: den här filen har ursprungsmetadata men andra filer i utgåvan saknar dem."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-detail.html:74
+msgid "This file belongs to a release with incomplete provenance: while other files in this release have provenance metadata, this file does not."
+msgstr "Den här filen hör till en utgåva med ofullständiga ursprungsmetadata: andra filer i utgåvan har ursprungsmetadata men den här filen saknar dem."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-list.html:29
+msgid "Loss of provenance, with files added late"
+msgstr "Förlust av ursprungsmetadata med filer som lades till sent"
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-list.html:34
+msgid "These files do not have provenance metadata, despite files in a prior release including this data."
+msgstr "Dessa filer saknar ursprungsmetadata, trots att filer i en tidigare utgåva innehöll sådana uppgifter."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-list.html:36 warehouse/templates/includes/packaging/security/warning-for-file-list.html:71
+#, python-format
+msgid "Some of these files were also added more than %(days)s days after the first file in this release."
+msgstr "Vissa av dessa filer lades också till mer än %(days)s dagar efter den första filen i den här utgåvan."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-list.html:37 warehouse/templates/includes/packaging/security/warning-for-file-list.html:99 warehouse/templates/includes/packaging/security/warning-for-file-list.html:129
+msgid "These two factors together may indicate that the files have been compromised."
+msgstr "Dessa två faktorer tillsammans kan tyda på att filerna har komprometterats."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-list.html:39 warehouse/templates/includes/packaging/security/warning-for-file-list.html:133
+#, python-format
+msgid "We recommend further investigation before installing these files. <a href=\"%(href)s\" data-project-tabs-target=\"tab\" data-action=\"project-tabs#onTabClick\">View details</a>."
+msgstr "Vi rekommenderar vidare utredning innan du installerar dessa filer. <a href=\"%(href)s\" data-project-tabs-target=\"tab\" data-action=\"project-tabs#onTabClick\">Visa detaljer</a>."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-list.html:64
+msgid "Change of provenance, with files added late"
+msgstr "Ändrade ursprungsmetadata med filer som lades till sent"
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-list.html:69
+msgid "The repository or configuration that created these release files differ from that of a previous release."
+msgstr "Arkivet eller konfigurationen som skapade dessa utgåvefiler skiljer sig från en tidigare utgåva."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-list.html:72
+msgid "These two factors together may indicate that these files have been compromised."
+msgstr "Dessa två faktorer tillsammans kan tyda på att dessa filer har komprometterats."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-list.html:91
+msgid "These files originate from different repositories or configurations."
+msgstr "Dessa filer kommer från olika arkiv eller konfigurationer."
+
+#: warehouse/templates/includes/packaging/security/warning-for-file-list.html:94 warehouse/templates/includes/packaging/security/warning-for-file-list.html:124
+#, python-format
+msgid "%(count)s file was also added more than %(days)s days after the first file in this release."
+msgid_plural "%(count)s files were also added more than %(days)s days after the first file in this release."
+msgstr[0] "%(count)s fil lades också till mer än %(days)s dagar efter den första filen i den här utgåvan."
+msgstr[1] "%(count)s filer lades också till mer än %(days)s dagar efter den första filen i den här utgåvan."
+
+#: warehouse/templates/manage/account/publishing.html:74 warehouse/templates/manage/organization/publishing.html:71 warehouse/templates/manage/project/publishing.html:67
+#, read-only
+msgid "workflow.yml"
+msgstr "workflow.yml"
+
+#: warehouse/templates/manage/project/history.html:287 warehouse/templates/manage/project/history.html:298 warehouse/templates/manage/project/history.html:309 warehouse/templates/manage/project/history.html:320
+#, read-only
+msgid "Url"
+msgstr "URL"
+
+#: warehouse/templates/pages/security.html:30
+msgid "Login to your PyPI account, then visit the project's page on PyPI. At the top of the <strong>Security</strong> tab, click <strong>Report project as malware</strong>. Supply the following details in the form:"
+msgstr "Logga in på ditt PyPI-konto och gå sedan till projektets sida på PyPI. Klicka högst upp på fliken <strong>Säkerhet</strong> på <strong>Rapportera projekt som skadlig programvara</strong>. Ange sedan följande uppgifter i formuläret:"
+
+#: warehouse/templates/pages/security.html:57
+msgid "This security policy was last updated in September 2026."
+msgstr "Denna säkerhetspolicy uppdaterades senast i september 2026."
