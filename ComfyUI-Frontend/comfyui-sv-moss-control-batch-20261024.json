@@ -1,0 +1,91 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "MOSSImageControl.display_name",
+      "source": "MOSS-Image Color/Depth Control",
+      "translation": "MOSS Image färg och djupkontroll"
+    },
+    {
+      "key": "MOSSImageControl.description",
+      "source": "Adds the color region and depth maps for a MOSS-Image color/depth control adapter loaded with a LoRA loader.",
+      "translation": "Lägger till färgregioner och djupkartor för en MOSS Image adapter för färg och djup som lästs in med en LoRA-läsare."
+    },
+    {
+      "key": "MOSSImageControl.inputs.positive.name",
+      "source": "positive",
+      "translation": "positiv"
+    },
+    {
+      "key": "MOSSImageControl.inputs.negative.name",
+      "source": "negative",
+      "translation": "negativ"
+    },
+    {
+      "key": "MOSSImageControl.inputs.vae.name",
+      "source": "vae",
+      "translation": "VAE"
+    },
+    {
+      "key": "MOSSImageControl.inputs.strength.name",
+      "source": "strength",
+      "translation": "styrka"
+    },
+    {
+      "key": "MOSSImageControl.inputs.strength.tooltip",
+      "source": "Scales the maps' contribution to the image tokens. 0.0 is the same as no maps, 1.0 is the trained strength.",
+      "translation": "Skalar kartornas bidrag till bildtoken. 0,0 är samma som inga kartor och 1,0 är den tränade styrkan."
+    },
+    {
+      "key": "MOSSImageControl.inputs.start_percent.name",
+      "source": "start_percent",
+      "translation": "startprocent"
+    },
+    {
+      "key": "MOSSImageControl.inputs.start_percent.tooltip",
+      "source": "Sampling percent at which the control starts.",
+      "translation": "Samplingsprocent då kontrollen startar."
+    },
+    {
+      "key": "MOSSImageControl.inputs.end_percent.name",
+      "source": "end_percent",
+      "translation": "slutprocent"
+    },
+    {
+      "key": "MOSSImageControl.inputs.end_percent.tooltip",
+      "source": "Sampling percent at which the control ends. Ending early keeps the layout and depth while the rest of the steps loosen the shapes.",
+      "translation": "Samplingsprocent då kontrollen slutar. Ett tidigt slut bevarar layout och djup medan resten av stegen gör formerna friare."
+    },
+    {
+      "key": "MOSSImageControl.inputs.color_map.name",
+      "source": "color_map",
+      "translation": "färgkarta"
+    },
+    {
+      "key": "MOSSImageControl.inputs.color_map.tooltip",
+      "source": "One flat color per region, at the output size. The colors are only region IDs.",
+      "translation": "En jämn färg per region i utdatastorlek. Färgerna är bara regionsidentifierare."
+    },
+    {
+      "key": "MOSSImageControl.inputs.depth_map.name",
+      "source": "depth_map",
+      "translation": "djupkarta"
+    },
+    {
+      "key": "MOSSImageControl.inputs.depth_map.tooltip",
+      "source": "Depth map at the output size, near is white.",
+      "translation": "Djupkarta i utdatastorlek. Nära är vitt."
+    },
+    {
+      "key": "MOSSImageControl.outputs.0.name",
+      "source": "positive",
+      "translation": "positiv"
+    },
+    {
+      "key": "MOSSImageControl.outputs.1.name",
+      "source": "negative",
+      "translation": "negativ"
+    }
+  ]
+}
