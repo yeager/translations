@@ -1,0 +1,387 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "date": "2026-10-24",
+  "entries": [
+    {
+      "key": "QwenImageDiffsynthControlnet.inputs.start_percent.name",
+      "source": "start_percent",
+      "translation": "start_percent"
+    },
+    {
+      "key": "QwenImageDiffsynthControlnet.inputs.end_percent.name",
+      "source": "end_percent",
+      "translation": "end_percent"
+    },
+    {
+      "key": "Save3DAdvanced.inputs.width.tooltip",
+      "source": "Render width of the viewport in pixels.",
+      "translation": "Återgivningsbredd för visningsytan i bildpunkter."
+    },
+    {
+      "key": "Save3DAdvanced.inputs.height.tooltip",
+      "source": "Render height of the viewport in pixels.",
+      "translation": "Återgivningshöjd för visningsytan i bildpunkter."
+    },
+    {
+      "key": "Save3DAdvanced.inputs.model_3d_info.tooltip",
+      "source": "Placement of each model in the scene: position, rotation, and scale (Y-up world space).",
+      "translation": "Placering av varje modell i scenen: position, rotation och skala i världsrymden med Y uppåt."
+    },
+    {
+      "key": "Save3DAdvanced.inputs.camera_info.tooltip",
+      "source": "Viewport camera information: position, look-at target, zoom, and type.",
+      "translation": "Kamerainformation för visningsytan: position, fokuspunkt, zoom och typ."
+    },
+    {
+      "key": "SeedNode.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    },
+    {
+      "key": "ReferenceMultiLatent.display_name",
+      "source": "Set Reference Multi Latent",
+      "translation": "Ange flerdubbel referenslatent"
+    },
+    {
+      "key": "ReferenceMultiLatent.description",
+      "source": "Encodes reference images and appends their latents to positive and optional negative conditioning for edit models.",
+      "translation": "Kodar referensbilder och lägger till deras latenter i positiv och valfri negativ konditionering för redigeringsmodeller."
+    },
+    {
+      "key": "ReferenceMultiLatent.inputs.positive.name",
+      "source": "positive",
+      "translation": "positiv"
+    },
+    {
+      "key": "ReferenceMultiLatent.inputs.resolution.name",
+      "source": "resolution",
+      "translation": "upplösning"
+    },
+    {
+      "key": "ReferenceMultiLatent.inputs.negative.name",
+      "source": "negative",
+      "translation": "negativ"
+    },
+    {
+      "key": "ReferenceMultiLatent.inputs.vae.name",
+      "source": "vae",
+      "translation": "VAE"
+    },
+    {
+      "key": "ReferenceMultiLatent.inputs.vae.tooltip",
+      "source": "Reference images are ignored when no VAE is connected.",
+      "translation": "Referensbilder ignoreras när ingen VAE är ansluten."
+    },
+    {
+      "key": "ReferenceMultiLatent.inputs.images.name",
+      "source": "images",
+      "translation": "bilder"
+    },
+    {
+      "key": "ReferenceMultiLatent.outputs.0.name",
+      "source": "positive",
+      "translation": "positiv"
+    },
+    {
+      "key": "ReferenceMultiLatent.outputs.1.name",
+      "source": "negative",
+      "translation": "negativ"
+    },
+    {
+      "key": "ReferenceMultiLatent.outputs.1.tooltip",
+      "source": "Returns the positive output when negative conditioning is not connected.",
+      "translation": "Returnerar den positiva utdata när negativ konditionering inte är ansluten."
+    },
+    {
+      "key": "ReferenceMultiLatent.outputs.2.name",
+      "source": "empty_latent",
+      "translation": "tom_latent"
+    },
+    {
+      "key": "ReferenceMultiLatent.outputs.2.tooltip",
+      "source": "First reference latent multiplied by 0.0, or a square empty latent at the selected resolution.",
+      "translation": "Första referenslatenten multiplicerad med 0,0 eller en kvadratisk tom latent med vald upplösning."
+    },
+    {
+      "key": "SaveConditioning.display_name",
+      "source": "Save Conditioning",
+      "translation": "Spara konditionering"
+    },
+    {
+      "key": "SaveConditioning.description",
+      "source": "Saves a conditioning to the output folder as safetensors; move the file to models/embeddings to load it with Load Conditioning, e.g. to skip the text encoder.",
+      "translation": "Sparar en konditionering i utmatningsmappen som safetensors. Flytta filen till models/embeddings för att läsa in den med Läs in konditionering, till exempel för att hoppa över textkodaren."
+    },
+    {
+      "key": "SaveConditioning.inputs.conditioning.name",
+      "source": "conditioning",
+      "translation": "konditionering"
+    },
+    {
+      "key": "SaveConditioning.inputs.filename_prefix.name",
+      "source": "filename_prefix",
+      "translation": "filnamnsprefix"
+    },
+    {
+      "key": "SaveConditioning.outputs.0.name",
+      "source": "conditioning",
+      "translation": "konditionering"
+    },
+    {
+      "key": "SheetSage2AudioToABC.display_name",
+      "source": "SheetSage2 Audio to ABC",
+      "translation": "SheetSage2 Ljud till ABC"
+    },
+    {
+      "key": "SheetSage2AudioToABC.description",
+      "source": "Transcribes vocal and instrumental melodies from music into ABC notation. Connect abc output to YuE2 Generate Music node and use the matching mode.",
+      "translation": "Transkriberar sång- och instrumentmelodier från musik till ABC-notation. Anslut abc-utdata till noden YuE2 Generera musik och använd matchande läge."
+    },
+    {
+      "key": "SheetSage2AudioToABC.inputs.audio_encoder.name",
+      "source": "audio_encoder",
+      "translation": "ljudkodare"
+    },
+    {
+      "key": "SheetSage2AudioToABC.inputs.audio.name",
+      "source": "audio",
+      "translation": "ljud"
+    },
+    {
+      "key": "SheetSage2AudioToABC.inputs.mode.name",
+      "source": "mode",
+      "translation": "läge"
+    },
+    {
+      "key": "SheetSage2AudioToABC.inputs.mode.tooltip",
+      "source": "full: generates melody and chords; melody: generates melody only, recommended for covers.",
+      "translation": "full: genererar melodi och ackord. melody: genererar bara melodi och rekommenderas för covers."
+    },
+    {
+      "key": "SheetSage2AudioToABC.outputs.0.name",
+      "source": "abc",
+      "translation": "abc"
+    },
+    {
+      "key": "StartLoop.display_name",
+      "source": "Start Loop",
+      "translation": "Starta slinga"
+    },
+    {
+      "key": "StartLoop.inputs.mode.name",
+      "source": "mode",
+      "translation": "läge"
+    },
+    {
+      "key": "StartLoop.inputs.mode.tooltip",
+      "source": "The loop iteration mode.",
+      "translation": "Slingans iterationsläge."
+    },
+    {
+      "key": "StartLoop.inputs.cache_iterations.name",
+      "source": "cache_iterations",
+      "translation": "cache_iterations"
+    },
+    {
+      "key": "StartLoop.inputs.cache_iterations.tooltip",
+      "source": "Reuse unchanged iteration results from previous executions. Disable to execute every iteration again.",
+      "translation": "Återanvänd oförändrade iterationsresultat från tidigare körningar. Inaktivera för att köra varje iteration igen."
+    },
+    {
+      "key": "StartLoop.inputs.parent_iteration.name",
+      "source": "parent_iteration",
+      "translation": "parent_iteration"
+    },
+    {
+      "key": "StartLoop.inputs.parent_iteration.tooltip",
+      "source": "Connect iteration_index from an outer Start Loop to nest this loop.",
+      "translation": "Anslut iteration_index från en yttre Starta slinga för att kapsla denna slinga."
+    },
+    {
+      "key": "StartLoop.inputs.initial_iteration_value.name",
+      "source": "initial_iteration_value",
+      "translation": "initial_iteration_value"
+    },
+    {
+      "key": "StartLoop.inputs.initial_iteration_value.tooltip",
+      "source": "Value exposed as current_iteration_value on the first iteration.",
+      "translation": "Värde som visas som current_iteration_value vid den första iterationen."
+    },
+    {
+      "key": "StartLoop.inputs.mode_num_iterations.name",
+      "source": "num_iterations",
+      "translation": "num_iterations"
+    },
+    {
+      "key": "StartLoop.outputs.0.name",
+      "source": "iteration_index",
+      "translation": "iteration_index"
+    },
+    {
+      "key": "StartLoop.outputs.0.tooltip",
+      "source": "Index of the current loop iteration.",
+      "translation": "Index för den aktuella slingiterationen."
+    },
+    {
+      "key": "StartLoop.outputs.1.name",
+      "source": "is_first",
+      "translation": "is_first"
+    },
+    {
+      "key": "StartLoop.outputs.1.tooltip",
+      "source": "True during the first iteration of the loop.",
+      "translation": "Sant under den första iterationen av slingan."
+    },
+    {
+      "key": "StartLoop.outputs.2.name",
+      "source": "is_last",
+      "translation": "is_last"
+    },
+    {
+      "key": "StartLoop.outputs.2.tooltip",
+      "source": "True during the last iteration of the loop.",
+      "translation": "Sant under den sista iterationen av slingan."
+    },
+    {
+      "key": "StartLoop.outputs.3.name",
+      "source": "list_item",
+      "translation": "list_item"
+    },
+    {
+      "key": "StartLoop.outputs.3.tooltip",
+      "source": "Current item from the list when using List mode. None in Simple and For modes.",
+      "translation": "Aktuellt objekt från listan vid användning av listläge. Inget i enkelt läge och for-läge."
+    },
+    {
+      "key": "StartLoop.outputs.4.name",
+      "source": "current_iteration_value",
+      "translation": "current_iteration_value"
+    },
+    {
+      "key": "StartLoop.outputs.4.tooltip",
+      "source": "Loop-carried value for the current iteration: initial_iteration_value on the first iteration, then next_iteration_value from End Loop on each subsequent iteration.",
+      "translation": "Värde som förs genom slingan för aktuell iteration: initial_iteration_value vid första iterationen och sedan next_iteration_value från Avsluta slinga vid varje efterföljande iteration."
+    },
+    {
+      "key": "TextEncodeFibo2.display_name",
+      "source": "TextEncodeFibo2",
+      "translation": "Textkoda Fibo2"
+    },
+    {
+      "key": "TextEncodeFibo2.description",
+      "source": "Encode a Fibo 2.0 prompt, a structured JSON caption or plain text. With images, the prompt is the edit instruction, or a JSON caption of the result with an edit_instruction key, and the images become reference latents of both outputs when a vae is connected. Sample the latent output, the result's size the images are cropped for.",
+      "translation": "Kodar en Fibo 2.0-prompt, en strukturerad JSON-beskrivning eller vanlig text. Med bilder är prompten redigeringsinstruktionen eller en JSON-beskrivning av resultatet med nyckeln edit_instruction. När en VAE är ansluten blir bilderna referenslatenter för båda utdata. Sampla latentutdata i storleken som bilderna beskärs till."
+    },
+    {
+      "key": "TextEncodeFibo2.inputs.clip.name",
+      "source": "clip",
+      "translation": "CLIP"
+    },
+    {
+      "key": "TextEncodeFibo2.inputs.prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "TextEncodeFibo2.inputs.negative_prompt.name",
+      "source": "negative_prompt",
+      "translation": "negativ_prompt"
+    },
+    {
+      "key": "TextEncodeFibo2.inputs.negative_prompt.tooltip",
+      "source": "Empty is the null caption Fibo 2.0 was trained with for CFG with edit workflows.",
+      "translation": "Tom är den null-beskrivning som Fibo 2.0 tränats med för CFG i redigeringsarbetsflöden."
+    },
+    {
+      "key": "TextEncodeFibo2.inputs.images.name",
+      "source": "images",
+      "translation": "bilder"
+    },
+    {
+      "key": "TextEncodeFibo2.inputs.images.tooltip",
+      "source": "Images to edit, referred to as <image_1>, <image_2> and so on in the instruction. A single image is scaled and center cropped to the result's size, since the edit lines up with it pixel for pixel; several images each to their own trained size.",
+      "translation": "Bilder att redigera, som kallas <image_1>, <image_2> och så vidare i instruktionen. En ensam bild skalas och beskärs i mitten till resultatets storlek eftersom redigeringen ligger exakt över den. Flera bilder skalas var och en till sin tränade storlek."
+    },
+    {
+      "key": "TextEncodeFibo2.inputs.width.name",
+      "source": "width",
+      "translation": "bredd"
+    },
+    {
+      "key": "TextEncodeFibo2.inputs.width.tooltip",
+      "source": "Width of the result. 0 = the size Fibo 2.0 was trained at for the first image's aspect ratio, about 1 megapixel, or 1024 without images.",
+      "translation": "Resultatets bredd. 0 = storleken Fibo 2.0 tränats med för den första bildens bildförhållande, omkring 1 megapixel, eller 1024 utan bilder."
+    },
+    {
+      "key": "TextEncodeFibo2.inputs.height.name",
+      "source": "height",
+      "translation": "höjd"
+    },
+    {
+      "key": "TextEncodeFibo2.inputs.height.tooltip",
+      "source": "Height of the result. 0 = the size Fibo 2.0 was trained at for the first image's aspect ratio, about 1 megapixel, or 1024 without images.",
+      "translation": "Resultatets höjd. 0 = storleken Fibo 2.0 tränats med för den första bildens bildförhållande, omkring 1 megapixel, eller 1024 utan bilder."
+    },
+    {
+      "key": "TextEncodeFibo2.inputs.batch_size.name",
+      "source": "batch_size",
+      "translation": "batch_size"
+    },
+    {
+      "key": "TextEncodeFibo2.inputs.vae.name",
+      "source": "vae",
+      "translation": "VAE"
+    },
+    {
+      "key": "TextEncodeFibo2.outputs.0.name",
+      "source": "positive",
+      "translation": "positiv"
+    },
+    {
+      "key": "TextEncodeFibo2.outputs.1.name",
+      "source": "negative",
+      "translation": "negativ"
+    },
+    {
+      "key": "TextEncodeFibo2.outputs.2.name",
+      "source": "latent",
+      "translation": "latent"
+    },
+    {
+      "key": "TextEncodeMingImageEdit.display_name",
+      "source": "Text Encode Ming Image Edit",
+      "translation": "Textkoda Ming bildredigering"
+    },
+    {
+      "key": "TextEncodeMingImageEdit.inputs.clip.name",
+      "source": "clip",
+      "translation": "CLIP"
+    },
+    {
+      "key": "TextEncodeMingImageEdit.inputs.prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "TextEncodeMingImageEdit.inputs.images.name",
+      "source": "images",
+      "translation": "bilder"
+    },
+    {
+      "key": "TextEncodeMingImageEdit.inputs.images.tooltip",
+      "source": "Optional reference images, seen by the text encoder and appended to the latent sequence as clean frames. Later images are resized to the first one, and the sampled latent should match its size.",
+      "translation": "Valfria referensbilder som textkodaren ser och lägger till i latentsekvensen som rena bildrutor. Senare bilder storleksändras till den första, och den samplade latenten ska ha samma storlek."
+    },
+    {
+      "key": "TextEncodeMingImageEdit.inputs.vae.name",
+      "source": "vae",
+      "translation": "VAE"
+    },
+    {
+      "key": "TextEncodeMingImageEdit.inputs.vae.tooltip",
+      "source": "Without a VAE the images only condition the text encoder through the vision tower.",
+      "translation": "Utan en VAE konditionerar bilderna bara textkodaren genom visionstornet."
+    }
+  ]
+}
