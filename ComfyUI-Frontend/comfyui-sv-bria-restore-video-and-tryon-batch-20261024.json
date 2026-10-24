@@ -1,0 +1,158 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "source_revision": "origin/main",
+  "reviewed_batch": "2026-10-24",
+  "entries": [
+    {
+      "key": "BriaRestorePhoto.display_name",
+      "source": "Bria Restore Photo",
+      "translation": "Bria restaurera foto"
+    },
+    {
+      "key": "BriaRestorePhoto.description",
+      "source": "Repair an old or damaged photograph with Bria: grain, scratches and blur go, and age-related color casts are neutralized. Card mounts and studio borders may be cropped away and faces are re-drawn. Bria re-renders the whole frame at about 1 megapixel, so the result is not pixel-aligned with the input. Use Bria Increase Resolution to enlarge instead.",
+      "translation": "Reparera ett gammalt eller skadat fotografi med Bria. Korn, repor och oskärpa tas bort och åldersrelaterade färgstick neutraliseras. Kartonginfattningar och studiokanterna kan beskäras bort och ansikten ritas om. Bria återrenderar hela bildytan med cirka 1 megapixel, så resultatet är inte pixeljusterat med indata. Använd Bria Increase Resolution för att förstora i stället."
+    },
+    {
+      "key": "BriaRestorePhoto.inputs.image.name",
+      "source": "image",
+      "translation": "bild"
+    },
+    {
+      "key": "BriaRestorePhoto.inputs.moderation.name",
+      "source": "moderation",
+      "translation": "moderering"
+    },
+    {
+      "key": "BriaRestorePhoto.inputs.moderation.tooltip",
+      "source": "Moderation settings",
+      "translation": "Inställningar för moderering"
+    },
+    {
+      "key": "BriaRestorePhoto.outputs.1.name",
+      "source": "structured_prompt",
+      "translation": "structured_prompt"
+    },
+    {
+      "key": "BriaRestorePhoto.outputs.1.tooltip",
+      "source": "Structured description of the edited image, for a follow-up edit with Bria FIBO 2.0 Image Edit.",
+      "translation": "Strukturerad beskrivning av den redigerade bilden, för en efterföljande redigering med Bria FIBO 2.0 Image Edit."
+    },
+    {
+      "key": "BriaVideoEraser.display_name",
+      "source": "Bria Video Eraser",
+      "translation": "Bria radera från video"
+    },
+    {
+      "key": "BriaVideoEraser.description",
+      "source": "Erase whatever a per-frame mask covers from a video with Bria and fill the gap in. The mask must be white on what should go and black elsewhere. Bria accepts clips of at most 5.1 seconds at 20 to 30 frames per second with even pixel dimensions; audio is kept by default. The returned clip can be a few frames shorter than the input.",
+      "translation": "Radera det som en bildrutemask täcker i en video med Bria och fyll igen hålet. Masken måste vara vit där innehållet ska tas bort och svart på övriga ytor. Bria accepterar klipp på högst 5,1 sekunder med 20 till 30 bildrutor per sekund och jämna pixelmått. Ljudet behålls som standard. Det returnerade klippet kan vara några bildrutor kortare än indata."
+    },
+    {
+      "key": "BriaVideoEraser.inputs.video.name",
+      "source": "video",
+      "translation": "video"
+    },
+    {
+      "key": "BriaVideoEraser.inputs.video.tooltip",
+      "source": "Clip to erase from.",
+      "translation": "Klipp att radera från."
+    },
+    {
+      "key": "BriaVideoEraser.inputs.preserve_audio.name",
+      "source": "preserve_audio",
+      "translation": "bevara_ljud"
+    },
+    {
+      "key": "BriaVideoEraser.inputs.preserve_audio.tooltip",
+      "source": "Keep the input's audio track.",
+      "translation": "Behåll indatans ljudspår."
+    },
+    {
+      "key": "BriaVideoEraser.inputs.mask.name",
+      "source": "mask",
+      "translation": "mask"
+    },
+    {
+      "key": "BriaVideoEraser.inputs.mask.tooltip",
+      "source": "One mask per frame of the video, white where the object to erase is. Provide either a mask or a mask video, not both.",
+      "translation": "En mask per bildruta i videon, vit där objektet som ska raderas finns. Ange antingen en mask eller en maskvideo, inte båda."
+    },
+    {
+      "key": "BriaVideoEraser.inputs.mask_video.name",
+      "source": "mask_video",
+      "translation": "mask_video"
+    },
+    {
+      "key": "BriaVideoEraser.inputs.mask_video.tooltip",
+      "source": "An already encoded mask video with the same dimensions and frame count as the video. Provide either a mask or a mask video, not both.",
+      "translation": "En redan kodad maskvideo med samma mått och antal bildrutor som videon. Ange antingen en mask eller en maskvideo, inte båda."
+    },
+    {
+      "key": "BriaVirtualTryOn.display_name",
+      "source": "Bria Virtual Try-On",
+      "translation": "Bria virtuell provning"
+    },
+    {
+      "key": "BriaVirtualTryOn.description",
+      "source": "Dress a person in garments or accessories with Bria. The person's identity, pose and background are kept and the scene is re-rendered at about 1 megapixel.",
+      "translation": "Klä en person i plagg eller accessoarer med Bria. Personens identitet, pose och bakgrund bevaras och scenen återrenderas med cirka 1 megapixel."
+    },
+    {
+      "key": "BriaVirtualTryOn.inputs.person_image.name",
+      "source": "person_image",
+      "translation": "personbild"
+    },
+    {
+      "key": "BriaVirtualTryOn.inputs.garment_images.name",
+      "source": "garment_images",
+      "translation": "plaggbilder"
+    },
+    {
+      "key": "BriaVirtualTryOn.inputs.garment_images.tooltip",
+      "source": "1-3 garments or accessories worn together, each replacing the matching item the person wears. A batched input counts once per image. Transparent areas are treated as white.",
+      "translation": "1 till 3 plagg eller accessoarer som bärs tillsammans, där varje plagg ersätter motsvarande plagg som personen bär. En batchad indata räknas en gång per bild. Genomskinliga områden behandlas som vita."
+    },
+    {
+      "key": "BriaVirtualTryOn.inputs.instruction.name",
+      "source": "instruction",
+      "translation": "instruktion"
+    },
+    {
+      "key": "BriaVirtualTryOn.inputs.instruction.tooltip",
+      "source": "Optional extra direction added to Bria's built-in instruction, such as which hand to use or which way the label faces.",
+      "translation": "Valfri ytterligare anvisning som läggs till i Brias inbyggda instruktion, till exempel vilken hand som ska användas eller åt vilket håll etiketten ska vändas."
+    },
+    {
+      "key": "BriaVirtualTryOn.inputs.aspect_ratio.name",
+      "source": "aspect_ratio",
+      "translation": "bildförhållande"
+    },
+    {
+      "key": "BriaVirtualTryOn.inputs.aspect_ratio.tooltip",
+      "source": "auto keeps the person photo's framing at about 1 megapixel. A fixed ratio returns 0.6 to 1 megapixel, for example 768x1024 for 3:4.",
+      "translation": "auto behåller beskärningen i personfotot vid cirka 1 megapixel. Ett fast förhållande returnerar 0,6 till 1 megapixel, till exempel 768x1024 för 3:4."
+    },
+    {
+      "key": "BriaVirtualTryOn.inputs.seed.name",
+      "source": "seed",
+      "translation": "frö"
+    },
+    {
+      "key": "BriaVirtualTryOn.inputs.moderation.name",
+      "source": "moderation",
+      "translation": "moderering"
+    },
+    {
+      "key": "BriaVirtualTryOn.inputs.moderation.tooltip",
+      "source": "Moderation settings",
+      "translation": "Inställningar för moderering"
+    },
+    {
+      "key": "BriaVirtualTryOn.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "styr efter generering"
+    }
+  ]
+}
