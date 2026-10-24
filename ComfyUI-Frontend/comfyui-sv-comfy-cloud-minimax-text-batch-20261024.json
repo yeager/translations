@@ -1,0 +1,56 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "ComfyCloudMiniMaxH3TextToVideoNode.display_name",
+      "source": "Comfy Cloud MiniMax H3 Text to Video [BETA]",
+      "translation": "Comfy Cloud MiniMax H3 text till video [BETA]"
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3TextToVideoNode.description",
+      "source": "BETA. The Comfy Cloud node set is still changing: options may be added or removed, and a workflow may be retired. Generates a video with a matching soundtrack from a text prompt, using MiniMax H3. Picture and audio come out of the same pass rather than being dubbed on afterwards. Runs on a Comfy Cloud GPU, billed by how long it runs at {'$'}0.001295/GPU-second (0.27 credits). Paid in credits, no Cloud subscription required.",
+      "translation": "BETA. Comfy Clouds noduppsättning förändras fortfarande: alternativ kan läggas till eller tas bort och ett arbetsflöde kan tas ur bruk. Skapar en video med ett passande ljudspår från en textprompt med hjälp av MiniMax H3. Bild och ljud skapas i samma körning och dubbas inte i efterhand. Körs på en GPU i Comfy Cloud och debiteras efter körtid med {'$'}0.001295 per GPU-sekund (0,27 krediter). Betalas med krediter och kräver ingen Cloud-prenumeration."
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3TextToVideoNode.inputs.prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3TextToVideoNode.inputs.seed.name",
+      "source": "seed",
+      "translation": "slumptal"
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3TextToVideoNode.inputs.aspect_ratio.name",
+      "source": "aspect_ratio",
+      "translation": "bildförhållande"
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3TextToVideoNode.inputs.resolution.name",
+      "source": "resolution",
+      "translation": "upplösning"
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3TextToVideoNode.inputs.resolution.tooltip",
+      "source": "Frame size budget. 720p costs roughly twice the GPU-seconds of 480p.",
+      "translation": "Budget för bildrutestorlek. 720p kostar ungefär dubbelt så många GPU-sekunder som 480p."
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3TextToVideoNode.inputs.duration_seconds.name",
+      "source": "duration_seconds",
+      "translation": "längd_sekunder"
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3TextToVideoNode.inputs.duration_seconds.tooltip",
+      "source": "Length in seconds. The pipeline quantises to 17-frame steps at 24fps, so the clip lands within about two thirds of a second of this.",
+      "translation": "Längd i sekunder. Pipelinen kvantiserar till steg om 17 bildrutor vid 24 fps, så klippet hamnar inom ungefär två tredjedels sekund från detta."
+    },
+    {
+      "key": "ComfyCloudMiniMaxH3TextToVideoNode.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    }
+  ]
+}
