@@ -1,0 +1,91 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "MeshyMultiImageToModelNode.inputs.ultra_mode.name",
+      "source": "ultra_mode",
+      "translation": "ultraläge"
+    },
+    {
+      "key": "MeshyMultiImageToModelNode.inputs.ultra_mode.tooltip",
+      "source": "Run an extra refinement pass at 2048³ for higher-fidelity geometry with finer surface detail.",
+      "translation": "Kör ett extra förfiningspass vid 2048³ för geometri med högre precision och finare ytdetaljer."
+    },
+    {
+      "key": "MeshyTextToModelNode.inputs.ultra_resolution.name",
+      "source": "ultra_resolution",
+      "translation": "ultraupplösning"
+    },
+    {
+      "key": "MeshyTextToModelNode.inputs.ultra_resolution.tooltip",
+      "source": "Resolution of the ultra pass: 2k runs it at 2048³, 4k at 4096³ for the finest surface detail. 4k requires meshy-7.1 or latest. Used only when ultra_mode is enabled.",
+      "translation": "Upplösning för ultrapasset. 2k kör det vid 2048³ och 4k vid 4096³ för finaste ytdetaljer. 4k kräver meshy-7.1 eller latest. Används bara när ultra_mode är aktiverat."
+    },
+    {
+      "key": "MeshyTextToModelSmartTopologyNode.display_name",
+      "source": "Meshy: Text to Model (Smart Topology)",
+      "translation": "Meshy: text till modell med smart topologi"
+    },
+    {
+      "key": "MeshyTextToModelSmartTopologyNode.description",
+      "source": "Generate a game-ready triangle mesh directly at a target face count.",
+      "translation": "Skapa ett spelklart triangelnät direkt med ett angivet antal ytor."
+    },
+    {
+      "key": "MeshyTextToModelSmartTopologyNode.inputs.model.name",
+      "source": "model",
+      "translation": "modell"
+    },
+    {
+      "key": "MeshyTextToModelSmartTopologyNode.inputs.prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "MeshyTextToModelSmartTopologyNode.inputs.target_polycount.name",
+      "source": "target_polycount",
+      "translation": "målpolygonantal"
+    },
+    {
+      "key": "MeshyTextToModelSmartTopologyNode.inputs.target_polycount.tooltip",
+      "source": "Approximate number of triangles in the generated mesh.",
+      "translation": "Ungefärligt antal trianglar i det skapade nätet."
+    },
+    {
+      "key": "MeshyTextToModelSmartTopologyNode.inputs.pose_mode.name",
+      "source": "pose_mode",
+      "translation": "poseläge"
+    },
+    {
+      "key": "MeshyTextToModelSmartTopologyNode.inputs.seed.name",
+      "source": "seed",
+      "translation": "slumptal"
+    },
+    {
+      "key": "MeshyTextToModelSmartTopologyNode.inputs.seed.tooltip",
+      "source": "Seed controls whether the node should re-run; results are non-deterministic regardless of seed.",
+      "translation": "Slumptalet styr om noden ska köras igen. Resultaten är inte deterministiska oavsett slumptal."
+    },
+    {
+      "key": "MeshyTextToModelSmartTopologyNode.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    },
+    {
+      "key": "MeshyTextToModelSmartTopologyNode.outputs.0.name",
+      "source": "meshy_task_id",
+      "translation": "Meshyuppgiftsidentifierare"
+    },
+    {
+      "key": "MeshyTextToModelSmartTopologyNode.outputs.1.name",
+      "source": "GLB",
+      "translation": "GLB"
+    },
+    {
+      "key": "MeshyTextToModelSmartTopologyNode.outputs.2.name",
+      "source": "FBX",
+      "translation": "FBX"
+    }
+  ]
+}
