@@ -1,0 +1,427 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "date": "2026-10-24",
+  "entries": [
+    {
+      "key": "WanImageToVideo.inputs.ref_pad_image.name",
+      "source": "ref_pad_image",
+      "translation": "ref_pad_image"
+    },
+    {
+      "key": "WanImageToVideo.inputs.ref_pad_image.tooltip",
+      "source": "Fills the padding frames of the image conditioning with this image instead of gray, anchoring identity without pinning frames (SVI-style anti-drift padding, used by models such as ID-V2V).",
+      "translation": "Fyller utfyllnadsbildrutorna i bildkonditioneringen med denna bild i stället för grått. Det förankrar identiteten utan att låsa bildrutorna, med SVI-liknande utfyllnad mot avdrift som används av modeller som ID-V2V."
+    },
+    {
+      "key": "ZImageFunControlnet.inputs.start_percent.name",
+      "source": "start_percent",
+      "translation": "start_percent"
+    },
+    {
+      "key": "ZImageFunControlnet.inputs.end_percent.name",
+      "source": "end_percent",
+      "translation": "end_percent"
+    },
+    {
+      "key": "ZImageFunControlnet.description",
+      "source": "Applies a Z-Image or Qwen Image 2.1 Fun ControlNet loaded with Load Model Patch.",
+      "translation": "Tillämpar en Z-Image eller Qwen Image 2.1 Fun ControlNet som lästs in med Läs in modellpatch."
+    },
+    {
+      "key": "VeedCleanVideoAudioNode.inputs.loudness_target_lufs.name",
+      "source": "target_lufs",
+      "translation": "mål_lufs"
+    },
+    {
+      "key": "VeedFabricNode.display_name",
+      "source": "VEED Fabric 1.0",
+      "translation": "VEED Fabric 1.0"
+    },
+    {
+      "key": "VeedFabricNode.description",
+      "source": "Turn a still image and a speech track into a talking, lip-synced video with VEED Fabric. Works with photos, illustrations and mascots; the video is as long as the audio.",
+      "translation": "Gör en stillbild och ett talspår till en talande, läppsynkad video med VEED Fabric. Fungerar med foton, illustrationer och maskotar. Videon blir lika lång som ljudet."
+    },
+    {
+      "key": "VeedFabricNode.inputs.model.name",
+      "source": "model",
+      "translation": "modell"
+    },
+    {
+      "key": "VeedFabricNode.inputs.model_resolution.name",
+      "source": "resolution",
+      "translation": "upplösning"
+    },
+    {
+      "key": "VeedLipsyncNode.display_name",
+      "source": "VEED Lipsync 2.0",
+      "translation": "VEED Läppsynk 2.0"
+    },
+    {
+      "key": "VeedLipsyncNode.description",
+      "source": "Re-sync a speaker's mouth in a video to a new speech track with VEED Lipsync. One speaker per video; the output keeps the video's resolution at 25 fps and is as long as the audio.",
+      "translation": "Synkroniserar om en talares mun i en video med ett nytt talspår med VEED Lipsync. En talare per video. Utdata behåller videons upplösning i 25 fps och blir lika lång som ljudet."
+    },
+    {
+      "key": "VeedLipsyncNode.inputs.model.name",
+      "source": "model",
+      "translation": "modell"
+    },
+    {
+      "key": "VeedLipsyncNode.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    },
+    {
+      "key": "VeedLipsyncNode.inputs.model_seed.name",
+      "source": "seed",
+      "translation": "slumptal"
+    },
+    {
+      "key": "VeedRemoveVideoBackgroundNode.display_name",
+      "source": "VEED Remove Video Background",
+      "translation": "VEED Ta bort videobakgrund"
+    },
+    {
+      "key": "VeedRemoveVideoBackgroundNode.description",
+      "source": "Cut the subject out of a video with VEED and return the frames plus an alpha mask. Use them for compositing, or combine them with Join Image with Alpha and Save WEBM to write a transparent video.",
+      "translation": "Frilägger motivet från en video med VEED och returnerar bildrutorna samt en alfamask. Använd dem för komposition eller kombinera dem med Sammanfoga bild med alfa och Spara WEBM för att skapa en transparent video."
+    },
+    {
+      "key": "VeedRemoveVideoBackgroundNode.inputs.model.name",
+      "source": "model",
+      "translation": "modell"
+    },
+    {
+      "key": "VeedRemoveVideoBackgroundNode.inputs.model.tooltip",
+      "source": "standard: any background, best edges, output up to 3840x2160. fast: quicker, output up to 1920x1080. green screen: keys out a green backdrop, output up to 3840x2160. Larger videos are downscaled.",
+      "translation": "standard: alla bakgrunder, bäst kanter, utdata upp till 3840 × 2160. fast: snabbare, utdata upp till 1920 × 1080. green screen: nycklar ut en grön bakgrund, utdata upp till 3840 × 2160. Större videor skalas ned."
+    },
+    {
+      "key": "VeedRemoveVideoBackgroundNode.inputs.model_refine_foreground_edges.name",
+      "source": "refine_foreground_edges",
+      "translation": "förfina_förgrundskanter"
+    },
+    {
+      "key": "VeedRemoveVideoBackgroundNode.inputs.model_subject_is_person.name",
+      "source": "subject_is_person",
+      "translation": "motivet_är_en_person"
+    },
+    {
+      "key": "VeedRemoveVideoBackgroundNode.outputs.0.name",
+      "source": "images",
+      "translation": "bilder"
+    },
+    {
+      "key": "VeedRemoveVideoBackgroundNode.outputs.1.name",
+      "source": "mask",
+      "translation": "mask"
+    },
+    {
+      "key": "VeedRemoveVideoBackgroundNode.outputs.1.tooltip",
+      "source": "1 where the background was removed. Use Join Image with Alpha and Save WEBM for a transparent video; add Invert Mask before Image Composite Masked.",
+      "translation": "1 där bakgrunden togs bort. Använd Sammanfoga bild med alfa och Spara WEBM för en transparent video. Lägg till Invertera mask före Bildkomposition maskerad."
+    },
+    {
+      "key": "Vidu4ImageToVideoNode.display_name",
+      "source": "Vidu Q4 Image-to-Video Generation",
+      "translation": "Vidu Q4 Generering från bild till video"
+    },
+    {
+      "key": "Vidu4ImageToVideoNode.description",
+      "source": "Generate a video from a start frame and an optional prompt. The output keeps the aspect ratio of the input image.",
+      "translation": "Genererar en video från en startbildruta och en valfri prompt. Utdata behåller inmatningsbildens bildförhållande."
+    },
+    {
+      "key": "Vidu4ImageToVideoNode.inputs.image.name",
+      "source": "image",
+      "translation": "bild"
+    },
+    {
+      "key": "Vidu4ImageToVideoNode.inputs.image.tooltip",
+      "source": "Start frame of the generated video. Aspect ratio must be between 1:5 and 5:1.",
+      "translation": "Startbildruta för den genererade videon. Bildförhållandet måste vara mellan 1:5 och 5:1."
+    },
+    {
+      "key": "Vidu4ImageToVideoNode.inputs.model.name",
+      "source": "model",
+      "translation": "modell"
+    },
+    {
+      "key": "Vidu4ImageToVideoNode.inputs.model.tooltip",
+      "source": "Model to use for video generation.",
+      "translation": "Modell att använda för videogenerering."
+    },
+    {
+      "key": "Vidu4ImageToVideoNode.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    },
+    {
+      "key": "Vidu4ImageToVideoNode.inputs.model_audio.name",
+      "source": "audio",
+      "translation": "ljud"
+    },
+    {
+      "key": "Vidu4ImageToVideoNode.inputs.model_duration.name",
+      "source": "duration",
+      "translation": "längd"
+    },
+    {
+      "key": "Vidu4ImageToVideoNode.inputs.model_prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "Vidu4ImageToVideoNode.inputs.model_resolution.name",
+      "source": "resolution",
+      "translation": "upplösning"
+    },
+    {
+      "key": "Vidu4ImageToVideoNode.inputs.model_seed.name",
+      "source": "seed",
+      "translation": "slumptal"
+    },
+    {
+      "key": "Vidu4ReferenceVideoNode.display_name",
+      "source": "Vidu Q4 Reference-to-Video Generation",
+      "translation": "Vidu Q4 Generering från referens till video"
+    },
+    {
+      "key": "Vidu4ReferenceVideoNode.description",
+      "source": "Generate a video from reference images, optional reference audio, and a prompt.",
+      "translation": "Genererar en video från referensbilder, valfritt referensljud och en prompt."
+    },
+    {
+      "key": "Vidu4ReferenceVideoNode.inputs.model.name",
+      "source": "model",
+      "translation": "modell"
+    },
+    {
+      "key": "Vidu4ReferenceVideoNode.inputs.model.tooltip",
+      "source": "Model to use for video generation.",
+      "translation": "Modell att använda för videogenerering."
+    },
+    {
+      "key": "Vidu4ReferenceVideoNode.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    },
+    {
+      "key": "Vidu4ReferenceVideoNode.inputs.model_aspect_ratio.name",
+      "source": "aspect_ratio",
+      "translation": "bildförhållande"
+    },
+    {
+      "key": "Vidu4ReferenceVideoNode.inputs.model_audio.name",
+      "source": "audio",
+      "translation": "ljud"
+    },
+    {
+      "key": "Vidu4ReferenceVideoNode.inputs.model_duration.name",
+      "source": "duration",
+      "translation": "längd"
+    },
+    {
+      "key": "Vidu4ReferenceVideoNode.inputs.model_prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "Vidu4ReferenceVideoNode.inputs.model_resolution.name",
+      "source": "resolution",
+      "translation": "upplösning"
+    },
+    {
+      "key": "Vidu4ReferenceVideoNode.inputs.model_seed.name",
+      "source": "seed",
+      "translation": "slumptal"
+    },
+    {
+      "key": "YuE2GenerateABC.display_name",
+      "source": "YuE2 Generate ABC",
+      "translation": "YuE2 Generera ABC"
+    },
+    {
+      "key": "YuE2GenerateABC.description",
+      "source": "Generates the ABC notation of a song from style and lyrics. Connect abc to YuE2 Generate Music node.",
+      "translation": "Genererar en låts ABC-notation från stil och sångtext. Anslut abc till noden YuE2 Generera musik."
+    },
+    {
+      "key": "YuE2GenerateABC.inputs.clip.name",
+      "source": "clip",
+      "translation": "CLIP"
+    },
+    {
+      "key": "YuE2GenerateABC.inputs.style.name",
+      "source": "style",
+      "translation": "stil"
+    },
+    {
+      "key": "YuE2GenerateABC.inputs.lyrics.name",
+      "source": "lyrics",
+      "translation": "sångtext"
+    },
+    {
+      "key": "YuE2GenerateABC.inputs.seed.name",
+      "source": "seed",
+      "translation": "slumptal"
+    },
+    {
+      "key": "YuE2GenerateABC.inputs.mode.name",
+      "source": "mode",
+      "translation": "läge"
+    },
+    {
+      "key": "YuE2GenerateABC.inputs.mode.tooltip",
+      "source": "full: generates melody and chords; melody: generates melody only, recommended for covers.",
+      "translation": "full: genererar melodi och ackord. melody: genererar bara melodi och rekommenderas för covers."
+    },
+    {
+      "key": "YuE2GenerateABC.inputs.max_abc_tokens.name",
+      "source": "max_abc_tokens",
+      "translation": "max_abc_token"
+    },
+    {
+      "key": "YuE2GenerateABC.inputs.temperature.name",
+      "source": "temperature",
+      "translation": "temperatur"
+    },
+    {
+      "key": "YuE2GenerateABC.inputs.top_p.name",
+      "source": "top_p",
+      "translation": "top_p"
+    },
+    {
+      "key": "YuE2GenerateABC.inputs.top_k.name",
+      "source": "top_k",
+      "translation": "top_k"
+    },
+    {
+      "key": "YuE2GenerateABC.inputs.repetition_penalty.name",
+      "source": "repetition_penalty",
+      "translation": "straff_för_upprepning"
+    },
+    {
+      "key": "YuE2GenerateABC.inputs.penalty_window.name",
+      "source": "penalty_window",
+      "translation": "strafffönster"
+    },
+    {
+      "key": "YuE2GenerateABC.inputs.penalty_window.tooltip",
+      "source": "Number of recent ABC tokens used to penalize repetition.",
+      "translation": "Antal senaste ABC-token som används för att straffa upprepning."
+    },
+    {
+      "key": "YuE2GenerateABC.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    },
+    {
+      "key": "YuE2GenerateABC.outputs.0.name",
+      "source": "abc",
+      "translation": "abc"
+    },
+    {
+      "key": "YuE2GenerateMusic.display_name",
+      "source": "YuE2 Generate Music",
+      "translation": "YuE2 Generera musik"
+    },
+    {
+      "key": "YuE2GenerateMusic.description",
+      "source": "Generates music tokens and acoustic conditioning from style, lyrics, and an ABC notation. Provide the generated seconds to the Empty YuE2 Latent Audio node. An empty ABC input ignores the selected mode.",
+      "translation": "Genererar musiktoken och akustisk konditionering från stil, sångtext och ABC-notation. Ange genererade sekunder för noden Tom YuE2-latentljud. En tom ABC-inmatning ignorerar valt läge."
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.clip.name",
+      "source": "clip",
+      "translation": "CLIP"
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.style.name",
+      "source": "style",
+      "translation": "stil"
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.lyrics.name",
+      "source": "lyrics",
+      "translation": "sångtext"
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.abc.name",
+      "source": "abc",
+      "translation": "abc"
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.abc.tooltip",
+      "source": "Connect the ABC generator or supply an edited score. Leave empty to use off mode automatically.",
+      "translation": "Anslut ABC-generatorn eller ange en redigerad notskrift. Lämna tomt för att använda av-läge automatiskt."
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.seed.name",
+      "source": "seed",
+      "translation": "slumptal"
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.mode.name",
+      "source": "mode",
+      "translation": "läge"
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.mode.tooltip",
+      "source": "full: generates melody and chords; melody: generates melody only, recommended for covers.",
+      "translation": "full: genererar melodi och ackord. melody: genererar bara melodi och rekommenderas för covers."
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.max_duration.name",
+      "source": "max_duration",
+      "translation": "max_längd"
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.max_duration.tooltip",
+      "source": "Maximum duration in seconds. Automatically reduced for long prompts; generation can stop earlier.",
+      "translation": "Högsta längd i sekunder. Minskas automatiskt för långa prompter. Genereringen kan avslutas tidigare."
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.temperature.name",
+      "source": "temperature",
+      "translation": "temperatur"
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.top_p.name",
+      "source": "top_p",
+      "translation": "top_p"
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.top_k.name",
+      "source": "top_k",
+      "translation": "top_k"
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.repetition_penalty.name",
+      "source": "repetition_penalty",
+      "translation": "straff_för_upprepning"
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.cfg_scale.name",
+      "source": "cfg_scale",
+      "translation": "cfg_skala"
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.cfg_scale.tooltip",
+      "source": "Autoregressive guidance for style and lyrics. 1.0 disables CFG, matching the ABC workflow. Use 1.01 to match the original off-mode guidance.",
+      "translation": "Autoregressiv vägledning för stil och sångtext. 1,0 inaktiverar CFG och matchar ABC-arbetsflödet. Använd 1,01 för att matcha den ursprungliga vägledningen i av-läge."
+    },
+    {
+      "key": "YuE2GenerateMusic.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    },
+    {
+      "key": "YuE2GenerateMusic.outputs.1.name",
+      "source": "seconds",
+      "translation": "sekunder"
+    }
+  ]
+}
