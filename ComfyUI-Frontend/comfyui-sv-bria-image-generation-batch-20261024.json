@@ -1,0 +1,188 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "source_revision": "origin/main",
+  "reviewed_batch": "2026-10-24",
+  "entries": [
+    {
+      "key": "BriaImageGenerate.inputs.structured_prompt.tooltip",
+      "source": "JSON structured prompt from a previous Bria FIBO result. With the same seed it recreates that image; change the JSON or add a prompt to refine it.",
+      "translation": "JSON med strukturerad prompt från ett tidigare Bria FIBO resultat. Med samma frö återskapas bilden. Ändra JSON eller lägg till en prompt för att förfina den."
+    },
+    {
+      "key": "BriaImageGenerate.inputs.aspect_ratio.name",
+      "source": "aspect_ratio",
+      "translation": "bildförhållande"
+    },
+    {
+      "key": "BriaImageGenerate.inputs.aspect_ratio.tooltip",
+      "source": "16:10 and the ratios after it need 1MP and exactly one of prompt or structured_prompt.",
+      "translation": "16:10 och följande förhållanden kräver 1 MP och exakt en av prompt eller structured_prompt."
+    },
+    {
+      "key": "BriaImageGenerate.inputs.resolution.name",
+      "source": "resolution",
+      "translation": "upplösning"
+    },
+    {
+      "key": "BriaImageGenerate.inputs.seed.name",
+      "source": "seed",
+      "translation": "frö"
+    },
+    {
+      "key": "BriaImageGenerate.inputs.moderation.name",
+      "source": "moderation",
+      "translation": "moderering"
+    },
+    {
+      "key": "BriaImageGenerate.inputs.moderation.tooltip",
+      "source": "Moderation settings",
+      "translation": "Inställningar för moderering"
+    },
+    {
+      "key": "BriaImageGenerate.inputs.image.name",
+      "source": "image",
+      "translation": "bild"
+    },
+    {
+      "key": "BriaImageGenerate.inputs.image.tooltip",
+      "source": "Reference image to draw on. The result is a new image at the selected aspect ratio, not an edit of this one.",
+      "translation": "Referensbild att utgå från. Resultatet är en ny bild med valt bildförhållande, inte en redigering av denna."
+    },
+    {
+      "key": "BriaImageGenerate.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "styr efter generering"
+    },
+    {
+      "key": "BriaImageGenerate.outputs.1.name",
+      "source": "structured_prompt",
+      "translation": "structured_prompt"
+    },
+    {
+      "key": "BriaImageGenerate.outputs.1.tooltip",
+      "source": "Structured description of the generated image, to recreate or refine it with this node.",
+      "translation": "Strukturerad beskrivning av den genererade bilden, för att återskapa eller förfina den med denna nod."
+    },
+    {
+      "key": "BriaProductHolding.display_name",
+      "source": "Bria Product Holding",
+      "translation": "Bria produkt i handen"
+    },
+    {
+      "key": "BriaProductHolding.description",
+      "source": "Put a product in a person's hands with Bria. The person's identity, pose and background are kept and the scene is re-rendered at about 1 megapixel.",
+      "translation": "Placera en produkt i en persons händer med Bria. Personens identitet, pose och bakgrund bevaras och scenen återrenderas med cirka 1 megapixel."
+    },
+    {
+      "key": "BriaProductHolding.inputs.person_image.name",
+      "source": "person_image",
+      "translation": "personbild"
+    },
+    {
+      "key": "BriaProductHolding.inputs.product_images.name",
+      "source": "product_images",
+      "translation": "produktbilder"
+    },
+    {
+      "key": "BriaProductHolding.inputs.product_images.tooltip",
+      "source": "1-3 images of one product: the product itself, its packaging, another angle or a companion item. A batched input counts once per image. Transparent areas are treated as white.",
+      "translation": "1 till 3 bilder av en produkt: själva produkten, förpackningen, en annan vinkel eller ett tillbehör. En batchad indata räknas en gång per bild. Genomskinliga områden behandlas som vita."
+    },
+    {
+      "key": "BriaProductHolding.inputs.instruction.name",
+      "source": "instruction",
+      "translation": "instruktion"
+    },
+    {
+      "key": "BriaProductHolding.inputs.instruction.tooltip",
+      "source": "Optional extra direction added to Bria's built-in instruction, such as which hand to use or which way the label faces.",
+      "translation": "Valfri ytterligare anvisning som läggs till i Brias inbyggda instruktion, till exempel vilken hand som ska användas eller åt vilket håll etiketten ska vändas."
+    },
+    {
+      "key": "BriaProductHolding.inputs.aspect_ratio.name",
+      "source": "aspect_ratio",
+      "translation": "bildförhållande"
+    },
+    {
+      "key": "BriaProductHolding.inputs.aspect_ratio.tooltip",
+      "source": "auto keeps the person photo's framing at about 1 megapixel. A fixed ratio returns 0.6 to 1 megapixel, for example 768x1024 for 3:4.",
+      "translation": "auto behåller beskärningen i personfotot vid cirka 1 megapixel. Ett fast förhållande returnerar 0,6 till 1 megapixel, till exempel 768x1024 för 3:4."
+    },
+    {
+      "key": "BriaProductHolding.inputs.seed.name",
+      "source": "seed",
+      "translation": "frö"
+    },
+    {
+      "key": "BriaProductHolding.inputs.moderation.name",
+      "source": "moderation",
+      "translation": "moderering"
+    },
+    {
+      "key": "BriaProductHolding.inputs.moderation.tooltip",
+      "source": "Moderation settings",
+      "translation": "Inställningar för moderering"
+    },
+    {
+      "key": "BriaProductHolding.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "styr efter generering"
+    },
+    {
+      "key": "BriaRelight.display_name",
+      "source": "Bria Relight",
+      "translation": "Bria ändra ljussättning"
+    },
+    {
+      "key": "BriaRelight.description",
+      "source": "Change the lighting atmosphere and direction of an image using Bria. Bria re-renders the whole frame at about 1 megapixel, so the result is not pixel-aligned with the input.",
+      "translation": "Ändra ljusets stämning och riktning i en bild med Bria. Bria återrenderar hela bildytan med cirka 1 megapixel, så resultatet är inte pixeljusterat med indata."
+    },
+    {
+      "key": "BriaRelight.inputs.image.name",
+      "source": "image",
+      "translation": "bild"
+    },
+    {
+      "key": "BriaRelight.inputs.light_type.name",
+      "source": "light_type",
+      "translation": "ljusets typ"
+    },
+    {
+      "key": "BriaRelight.inputs.light_type.tooltip",
+      "source": "Lighting atmosphere to apply.",
+      "translation": "Ljusets stämning som ska tillämpas."
+    },
+    {
+      "key": "BriaRelight.inputs.light_direction.name",
+      "source": "light_direction",
+      "translation": "ljusets riktning"
+    },
+    {
+      "key": "BriaRelight.inputs.light_direction.tooltip",
+      "source": "Where the light comes from. Hard-light atmospheres such as midday, spotlight on subject and harsh studio lighting react to it the most.",
+      "translation": "Varifrån ljuset kommer. Stämningar med hårt ljus, exempelvis middagssol, spotlight på motivet och hård studiobelysning, påverkas mest av detta."
+    },
+    {
+      "key": "BriaRelight.inputs.moderation.name",
+      "source": "moderation",
+      "translation": "moderering"
+    },
+    {
+      "key": "BriaRelight.inputs.moderation.tooltip",
+      "source": "Moderation settings",
+      "translation": "Inställningar för moderering"
+    },
+    {
+      "key": "BriaRelight.outputs.1.name",
+      "source": "structured_prompt",
+      "translation": "structured_prompt"
+    },
+    {
+      "key": "BriaRelight.outputs.1.tooltip",
+      "source": "Structured description of the edited image, for a follow-up edit with Bria FIBO 2.0 Image Edit.",
+      "translation": "Strukturerad beskrivning av den redigerade bilden, för en efterföljande redigering med Bria FIBO 2.0 Image Edit."
+    }
+  ]
+}
