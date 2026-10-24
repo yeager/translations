@@ -1,0 +1,368 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "upstream_pr": "https://github.com/Comfy-Org/ComfyUI_frontend/pull/17064",
+  "upstream_commit": "977698f6a10ac965fed2ed762d3010c08eac201f",
+  "entries": [
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.display_name",
+      "source": "Model Sparse Attention",
+      "target": "Modellens glesa blockuppmärksamhet"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.description",
+      "source": "Applies block-sparse attention to eligible model attention layers, reducing compute for long sequences. The speed gain grows with sequence length since short sequences are usually faster dense. Outside the start/end_percent, dense_blocks and under min_tokens, the model uses the dense model attention backend. Use the node Model Attention Backend to select that fallback.",
+      "target": "Tillämpar blockvis gles uppmärksamhet på lämpliga uppmärksamhetslager i modellen och minskar därmed beräkningen för långa sekvenser. Hastighetsvinsten ökar med sekvenslängden eftersom täta beräkningar vanligen går snabbare för korta sekvenser. Utanför start_percent och end_percent, för dense_blocks och under min_tokens använder modellen den täta beräkningsmotorn för modelluppmärksamhet. Använd noden Model Attention Backend för att välja den reserven."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.model.name",
+      "source": "model",
+      "target": "model"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.model.tooltip",
+      "source": "The model to patch.",
+      "target": "Modellen som ska korrigeras."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.selection.name",
+      "source": "selection",
+      "target": "selection"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.selection.tooltip",
+      "source": "Method used to choose key blocks for full token-level attention. sol-attn: Sparsifying Online Attention uses a training-free adaptive threshold for each attention head and query block. sla: Sparse-Linear Attention keeps a fixed percentage of the highest-scoring key blocks; use only with model weights trained for this pattern. vsa: Video Sparse Attention (FastVideo) uses 3D video-cube tiling and a learned coarse attention branch; requires FastH3 model weights.",
+      "target": "Metod för att välja nyckelblock för full uppmärksamhet på tokennivå. sol-attn: Sparsifying Online Attention använder en adaptiv tröskel utan träning för varje uppmärksamhetshuvud och frågeblock. sla: Sparse-Linear Attention behåller en fast andel av nyckelblocken med högst poäng. Använd endast med modellvikter som tränats för detta mönster. vsa: Video Sparse Attention (FastVideo) använder 3D-indelning i videokuber och en tränad gren för grov uppmärksamhet. Kräver FastH3-modellvikter."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.start_percent.name",
+      "source": "start_percent",
+      "target": "start_percent"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.start_percent.tooltip",
+      "source": "Percentage point when sparse attention begins. Before this point, attention stays dense.",
+      "target": "Procentpunkt då gles uppmärksamhet börjar. Före denna punkt förblir uppmärksamheten tät."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.end_percent.name",
+      "source": "end_percent",
+      "target": "end_percent"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.end_percent.tooltip",
+      "source": "Percentage point when sparse attention ends. After this point, attention returns to dense.",
+      "target": "Procentpunkt då gles uppmärksamhet slutar. Efter denna punkt återgår uppmärksamheten till att vara tät."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.dense_blocks.name",
+      "source": "dense_blocks",
+      "target": "dense_blocks"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.dense_blocks.tooltip",
+      "source": "Transformer blocks that always run dense, e.g. '0, 1, 47-49'.",
+      "target": "Transformerblock som alltid körs tätt, till exempel '0, 1, 47-49'."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.min_tokens.name",
+      "source": "min_tokens",
+      "target": "min_tokens"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.min_tokens.tooltip",
+      "source": "Sequences shorter than this stay dense.",
+      "target": "Sekvenser som är kortare än detta förblir täta."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.extra_tokens.name",
+      "source": "extra_tokens",
+      "target": "extra_tokens"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.extra_tokens.tooltip",
+      "source": "Extra top-scoring tokens each query block attends beyond its selected blocks. Closer to dense for more attention time; 256 recommended, 0 disables. Ignored for VSA.",
+      "target": "Ytterligare token med högst poäng som varje frågeblock uppmärksammar utöver sina valda block. Ett högre värde ger mer uppmärksamhetstid och närmar sig tät beräkning. 256 rekommenderas, 0 inaktiverar funktionen. Ignoreras för VSA."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.sink_conditioning.name",
+      "source": "sink_conditioning",
+      "target": "sink_conditioning"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.sink_conditioning.tooltip",
+      "source": "MiniMax-H3 only. exact_kv: every query attends the packed text/audio/reference rows exactly (~3% cost). exact_kv_and_rows: additionally runs the target-audio query rows dense (keeps generated audio intact).",
+      "target": "Endast MiniMax-H3. exact_kv: varje fråga uppmärksammar de packade raderna för text, ljud och referens exakt (cirka 3 % kostnad). exact_kv_and_rows: kör dessutom frågeraderna för målljud tätt och bevarar det genererade ljudet."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.verbose.name",
+      "source": "verbose",
+      "target": "verbose"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.verbose.tooltip",
+      "source": "Logs whether each attention shape used sparse attention or why it stayed dense.",
+      "target": "Loggar om varje uppmärksamhetsform använde gles uppmärksamhet eller varför den förblev tät."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.inputs.selection_tau.name",
+      "source": "tau",
+      "target": "tau"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.outputs.0.name",
+      "source": "model",
+      "target": "model"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BlockSparseAttention.outputs.0.tooltip",
+      "source": "The model with block-sparse attention applied.",
+      "target": "Modellen med blockvis gles uppmärksamhet tillämpad."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaAddObject.display_name",
+      "source": "Bria Add Object",
+      "target": "Bria Lägg till objekt"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaAddObject.description",
+      "source": "Insert an object described in plain text into an image using Bria. Bria re-renders the whole frame at about 1 megapixel, so the result is not pixel-aligned with the input.",
+      "target": "Infoga ett objekt som beskrivs i vanlig text i en bild med Bria. Bria renderar om hela bildrutan till ungefär 1 megapixel, så resultatet är inte pixeljusterat med indata."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaAddObject.inputs.image.name",
+      "source": "image",
+      "target": "bild"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaAddObject.inputs.instruction.name",
+      "source": "instruction",
+      "target": "instruktion"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaAddObject.inputs.instruction.tooltip",
+      "source": "What to add and where, such as 'Place a red vase with flowers on the table'.",
+      "target": "Vad som ska läggas till och var, till exempel 'Placera en röd vas med blommor på bordet'."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaAddObject.inputs.seed.name",
+      "source": "seed",
+      "target": "seed"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaAddObject.inputs.seed.tooltip",
+      "source": "Bria takes no seed here and re-imagines the edit on each call, so repeated runs can differ. The value is never sent: it only changes this node's cache key, so that an otherwise identical graph runs the edit again instead of returning the cached result.",
+      "target": "Bria använder inget seed här och tolkar redigeringen på nytt vid varje anrop. Upprepade körningar kan därför skilja sig. Värdet skickas aldrig utan ändrar bara nodens cache-nyckel, så att en i övrigt identisk graf utför redigeringen på nytt i stället för att returnera resultatet från cachen."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaAddObject.inputs.moderation.name",
+      "source": "moderation",
+      "target": "moderering"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaAddObject.inputs.moderation.tooltip",
+      "source": "Moderation settings",
+      "target": "Modereringsinställningar"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaAddObject.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "target": "kontroll efter generering"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaAddObject.outputs.1.name",
+      "source": "structured_prompt",
+      "target": "structured_prompt"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaAddObject.outputs.1.tooltip",
+      "source": "Structured description of the edited image, for a follow-up edit with Bria FIBO 2.0 Image Edit.",
+      "target": "Strukturerad beskrivning av den redigerade bilden för en uppföljande redigering med Bria FIBO 2.0 Image Edit."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaEraseByText.display_name",
+      "source": "Bria Erase by Text",
+      "target": "Bria Radera med text"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaEraseByText.description",
+      "source": "Remove an object named in plain text from an image using Bria. Bria re-renders the whole frame at about 1 megapixel, so the result is not pixel-aligned with the input.",
+      "target": "Ta bort ett objekt som anges i vanlig text från en bild med Bria. Bria renderar om hela bildrutan till ungefär 1 megapixel, så resultatet är inte pixeljusterat med indata."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaEraseByText.inputs.image.name",
+      "source": "image",
+      "target": "bild"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaEraseByText.inputs.object_name.name",
+      "source": "object_name",
+      "target": "object_name"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaEraseByText.inputs.object_name.tooltip",
+      "source": "Name of the object to remove, such as 'the lamp'. Several objects can be named at once, such as 'the phone and the pencils'. Naming something that is not in the picture still returns, and bills, a re-rendered image.",
+      "target": "Namnet på objektet som ska tas bort, till exempel 'lampan'. Flera objekt kan anges samtidigt, till exempel 'telefonen och pennorna'. Om något som inte finns i bilden anges returneras ändå en omrenderad bild, som också debiteras."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaEraseByText.inputs.moderation.name",
+      "source": "moderation",
+      "target": "moderering"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaEraseByText.inputs.moderation.tooltip",
+      "source": "Moderation settings",
+      "target": "Modereringsinställningar"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaEraseByText.outputs.1.name",
+      "source": "structured_prompt",
+      "target": "structured_prompt"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaEraseByText.outputs.1.tooltip",
+      "source": "Structured description of the edited image, for a follow-up edit with Bria FIBO 2.0 Image Edit.",
+      "target": "Strukturerad beskrivning av den redigerade bilden för en uppföljande redigering med Bria FIBO 2.0 Image Edit."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaEraseForeground.display_name",
+      "source": "Bria Erase Foreground",
+      "target": "Bria Radera förgrund"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaEraseForeground.description",
+      "source": "Remove the foreground of an image with Bria and generate a background in its place. Everything Bria reads as foreground goes, not only people. The untouched pixels are preserved, but the output is re-rendered at a standard size close to 1 megapixel.",
+      "target": "Ta bort förgrunden från en bild med Bria och generera en bakgrund i dess ställe. Allt som Bria uppfattar som förgrund tas bort, inte bara personer. Orörda bildpunkter bevaras, men utdata renderas om i en standardstorlek nära 1 megapixel."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaEraseForeground.inputs.image.name",
+      "source": "image",
+      "target": "bild"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaEraseForeground.inputs.moderation.name",
+      "source": "moderation",
+      "target": "moderering"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaEraseForeground.inputs.moderation.tooltip",
+      "source": "Moderation settings",
+      "target": "Modereringsinställningar"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaGuidedRemoveBackground.display_name",
+      "source": "Bria Guided Remove Background",
+      "target": "Bria Styrd borttagning av bakgrund"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaGuidedRemoveBackground.description",
+      "source": "Remove the background from an image with Bria, keeping what the prompt describes. The original pixels come back at full resolution with a new alpha channel. For a plain cutout, Bria Remove Image Background costs less.",
+      "target": "Ta bort bakgrunden från en bild med Bria och behåll det som prompten beskriver. De ursprungliga bildpunkterna kommer tillbaka i full upplösning med en ny alfakanal. För en enkel friläggning kostar Bria Remove Image Background mindre."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaGuidedRemoveBackground.inputs.image.name",
+      "source": "image",
+      "target": "bild"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaGuidedRemoveBackground.inputs.prompt.name",
+      "source": "prompt",
+      "target": "prompt"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaGuidedRemoveBackground.inputs.prompt.tooltip",
+      "source": "What to keep, drop or narrow to, such as 'the person with the mat and the plant', 'the woman at her desk without the lamp' or 'only the chair'. A prompt that matches nothing returns a fully transparent image.",
+      "target": "Vad som ska behållas, tas bort eller begränsas till, till exempel 'personen med mattan och växten', 'kvinnan vid skrivbordet utan lampan' eller 'bara stolen'. En prompt som inte matchar något returnerar en helt genomskinlig bild."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaGuidedRemoveBackground.inputs.moderation.name",
+      "source": "moderation",
+      "target": "moderering"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaGuidedRemoveBackground.inputs.moderation.tooltip",
+      "source": "Moderation settings",
+      "target": "Modereringsinställningar"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaImageGenerate.display_name",
+      "source": "Bria FIBO 2.0 Image Generate",
+      "target": "Bria FIBO 2.0 Bildgenerering"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaImageGenerate.description",
+      "source": "Generate an image from a text prompt, a reference image or a structured prompt using Bria FIBO 2.0.",
+      "target": "Generera en bild från en textprompt, en referensbild eller en strukturerad prompt med Bria FIBO 2.0."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaImageGenerate.inputs.prompt.name",
+      "source": "prompt",
+      "target": "prompt"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "BriaImageGenerate.inputs.structured_prompt.name",
+      "source": "structured_prompt",
+      "target": "structured_prompt"
+    }
+  ]
+}
