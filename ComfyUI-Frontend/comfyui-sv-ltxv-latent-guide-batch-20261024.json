@@ -1,0 +1,96 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "LTXVAddLatentGuide.display_name",
+      "source": "LTXV Add Latent Guide",
+      "translation": "LTXV lägg till latent vägledning"
+    },
+    {
+      "key": "LTXVAddLatentGuide.description",
+      "source": "Pins an already-encoded latent as a guide, for when the guide comes out of an earlier stage rather than an image. Same effect as LTXV Add Guide without the VAE decode/encode round trip. A guide that is spatially smaller than the target (an IC-LoRA or detailing reference) is dilated onto a sparse grid, and its RoPE end positions are expanded by the same ratio so it covers the target canvas instead of addressing only the top-left corner of it.",
+      "translation": "Fäster en redan kodad latent som vägledning när vägledningen kommer från ett tidigare steg i stället för en bild. Ger samma resultat som LTXV Add Guide utan att först avkoda och sedan koda med VAE. En vägledning som är rumsligt mindre än målet, till exempel en IC LoRA eller detaljreferens, utvidgas över ett glest rutnät. Dess slutpositioner för RoPE utökas med samma förhållande så att den täcker målets arbetsyta i stället för att bara ange dess övre vänstra hörn."
+    },
+    {
+      "key": "LTXVAddLatentGuide.inputs.positive.name",
+      "source": "positive",
+      "translation": "positiv"
+    },
+    {
+      "key": "LTXVAddLatentGuide.inputs.negative.name",
+      "source": "negative",
+      "translation": "negativ"
+    },
+    {
+      "key": "LTXVAddLatentGuide.inputs.vae.name",
+      "source": "vae",
+      "translation": "VAE"
+    },
+    {
+      "key": "LTXVAddLatentGuide.inputs.latent.name",
+      "source": "latent",
+      "translation": "latent"
+    },
+    {
+      "key": "LTXVAddLatentGuide.inputs.latent.tooltip",
+      "source": "Target video latent the guide is pinned onto.",
+      "translation": "Videolatent för målet som vägledningen fästs på."
+    },
+    {
+      "key": "LTXVAddLatentGuide.inputs.guiding_latent.name",
+      "source": "guiding_latent",
+      "translation": "vägledande_latent"
+    },
+    {
+      "key": "LTXVAddLatentGuide.inputs.guiding_latent.tooltip",
+      "source": "Guide latent. Its spatial size must divide the target's by the same whole number on both axes; equal size pins it as-is, half size is treated as an x2 IC-LoRA reference.",
+      "translation": "Latent för vägledningen. Dess rumsliga storlek måste dela målets storlek med samma heltal på båda axlarna. Samma storlek fäster den som den är och halv storlek behandlas som en IC LoRA referens med faktorn 2."
+    },
+    {
+      "key": "LTXVAddLatentGuide.inputs.latent_idx.name",
+      "source": "latent_idx",
+      "translation": "latentindex"
+    },
+    {
+      "key": "LTXVAddLatentGuide.inputs.latent_idx.tooltip",
+      "source": "Latent frame index to start the guide at, counted in latent frames rather than pixel frames. Negative values place the guide on frames before the start of the latent, not counted back from its end.",
+      "translation": "Index för latent bildruta där vägledningen ska börja, räknat i latenta bildrutor i stället för pixelbildrutor. Negativa värden placerar vägledningen på bildrutor före början av latenten, inte räknat bakåt från slutet."
+    },
+    {
+      "key": "LTXVAddLatentGuide.inputs.strength.name",
+      "source": "strength",
+      "translation": "styrka"
+    },
+    {
+      "key": "LTXVAddLatentGuide.inputs.strength.tooltip",
+      "source": "Capped at 1.0. A dilated guide marks its padding positions with a negative denoise mask so the model drops them; above 1.0 the kept positions would go negative too and the whole guide would be dropped. Amplify beyond 1.0 with attention_mask instead.",
+      "translation": "Begränsas till 1,0. En utvidgad vägledning markerar sina utfyllnadspositioner med en negativ brusreduceringsmask så att modellen utelämnar dem. Över 1,0 skulle även de behållna positionerna bli negativa och hela vägledningen skulle utelämnas. Förstärk över 1,0 med attention_mask i stället."
+    },
+    {
+      "key": "LTXVAddLatentGuide.inputs.attention_mask.name",
+      "source": "attention_mask",
+      "translation": "uppmärksamhetsmask"
+    },
+    {
+      "key": "LTXVAddLatentGuide.inputs.attention_mask.tooltip",
+      "source": "Optional pixel-space spatial mask. Controls per-region conditioning influence via self-attention, multiplied by strength.",
+      "translation": "Valfri rumslig mask i pixelutrymmet. Styr konditioneringens påverkan per region via självuppmärksamhet, multiplicerat med styrka."
+    },
+    {
+      "key": "LTXVAddLatentGuide.outputs.0.name",
+      "source": "positive",
+      "translation": "positiv"
+    },
+    {
+      "key": "LTXVAddLatentGuide.outputs.1.name",
+      "source": "negative",
+      "translation": "negativ"
+    },
+    {
+      "key": "LTXVAddLatentGuide.outputs.2.name",
+      "source": "latent",
+      "translation": "latent"
+    }
+  ]
+}
