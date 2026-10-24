@@ -1,0 +1,31 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "ModelAttentionBackend.inputs.model.tooltip",
+      "source": "The model to patch.",
+      "translation": "Modellen som ska ändras."
+    },
+    {
+      "key": "ModelAttentionBackend.inputs.attention.tooltip",
+      "source": "The dense attention backend. Comfy Kitchen attention uses quantized INT8 attention and is available only on Nvidia and AMD GPUs.",
+      "translation": "Bakände för tät uppmärksamhet. Comfy Kitchen attention använder kvantiserad INT8-uppmärksamhet och är bara tillgänglig på grafikprocessorer från NVIDIA och AMD."
+    },
+    {
+      "key": "ModelAttentionBackend.description",
+      "source": "Selects the dense attention implementation for the model. When used with Block Sparse Attention, this backend is used whenever sparse attention is inactive or unsupported.",
+      "translation": "Väljer implementeringen för tät uppmärksamhet för modellen. När den används med Block Sparse Attention används den här bakänden varje gång gles uppmärksamhet är inaktiv eller saknar stöd."
+    },
+    {
+      "key": "ModelAttentionBackend.outputs.0.name",
+      "source": "model",
+      "translation": "modell"
+    },
+    {
+      "key": "ModelAttentionBackend.outputs.0.tooltip",
+      "source": "The model with the selected attention backend.",
+      "translation": "Modellen med vald bakände för uppmärksamhet."
+    }
+  ]
+}
