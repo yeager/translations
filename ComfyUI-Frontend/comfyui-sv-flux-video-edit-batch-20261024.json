@@ -1,0 +1,71 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "FluxVideoEditNode.display_name",
+      "source": "Flux Video Edit",
+      "translation": "Redigera video med Flux"
+    },
+    {
+      "key": "FluxVideoEditNode.description",
+      "source": "Edits a clip from a written instruction: remove, add or replace objects, change the setting, restyle the footage, change on-screen text, or replace the spoken dialogue. Length, framing, camera motion and audio come from the source clip.",
+      "translation": "Redigerar ett klipp utifrån en skriven instruktion: ta bort, lägg till eller ersätt objekt, ändra miljön, ge materialet en annan stil, ändra text på skärmen eller ersätt talad dialog. Längd, inramning, kamerarörelse och ljud hämtas från källklippet."
+    },
+    {
+      "key": "FluxVideoEditNode.inputs.video.name",
+      "source": "video",
+      "translation": "video"
+    },
+    {
+      "key": "FluxVideoEditNode.inputs.video.tooltip",
+      "source": "Source clip of 0.7 to 15 seconds, at least 160x160 pixels. The output is rendered at 24 fps and capped at about 0.9 megapixels per frame, so a larger source comes back smaller.",
+      "translation": "Källklipp på 0,7 till 15 sekunder med minst 160 × 160 pixlar. Utdata renderas med 24 fps och begränsas till ungefär 0,9 megapixlar per bildruta, så ett större källmaterial returneras mindre."
+    },
+    {
+      "key": "FluxVideoEditNode.inputs.prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "FluxVideoEditNode.inputs.prompt.tooltip",
+      "source": "What to change, in plain language, up to 4096 characters. Anything you do not mention is meant to stay as it was. Replacement dialogue has to fit the time the original speech takes, and a silent clip stays silent.",
+      "translation": "Vad som ska ändras, med vanliga ord, upp till 4096 tecken. Allt som inte nämns ska behållas som det var. Ersättningsdialog måste få plats inom tiden för det ursprungliga talet och ett tyst klipp förblir tyst."
+    },
+    {
+      "key": "FluxVideoEditNode.inputs.auto_downscale.name",
+      "source": "auto_downscale",
+      "translation": "automatisk_nedskalning"
+    },
+    {
+      "key": "FluxVideoEditNode.inputs.auto_downscale.tooltip",
+      "source": "Automatically downscale sources larger than 1280x704 pixels in area before upload. Aspect ratio is preserved; smaller videos are untouched.",
+      "translation": "Skala automatiskt ned källor som är större än 1280 × 704 pixlar till ytan före uppladdning. Bildförhållandet bevaras och mindre videor lämnas orörda."
+    },
+    {
+      "key": "FluxVideoEditNode.inputs.safety_tolerance.name",
+      "source": "safety_tolerance",
+      "translation": "säkerhetstolerans"
+    },
+    {
+      "key": "FluxVideoEditNode.inputs.safety_tolerance.tooltip",
+      "source": "Moderation tolerance, 0 is the strictest.",
+      "translation": "Tolerans för moderering. 0 är striktast."
+    },
+    {
+      "key": "FluxVideoEditNode.inputs.seed.name",
+      "source": "seed",
+      "translation": "slumptal"
+    },
+    {
+      "key": "FluxVideoEditNode.inputs.seed.tooltip",
+      "source": "Seed to determine if node should re-run; FLUX picks its own seed, so actual results are nondeterministic regardless of this value.",
+      "translation": "Slumptal som avgör om noden ska köras igen. FLUX väljer eget slumptal, så de faktiska resultaten är inte deterministiska oavsett detta värde."
+    },
+    {
+      "key": "FluxVideoEditNode.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    }
+  ]
+}
