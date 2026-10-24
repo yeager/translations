@@ -11,4 +11,4 @@
 
 26 konkreta svenska korrigeringar gjordes i 13 komponenter: kommatecken före `och` togs bort och den dubblerade frasen `antalet antalet` i Caja rättades.
 
-De tre låsta komponenterna lämnades orörda: `mate-control-center`, `mate-control-center-help` och `mate-terminal`. Fedora Weblate gav HTTP 502 när en ny export skulle hämtas inför uppladdning, så dessa granskade filer har inte skickats upp i detta steg.
+Fyra komponenter är nu låsta och kan inte ta emot filer: `engrampa`, `mate-control-center`, `mate-control-center-help` och `mate-terminal`. Engrampas rättning sparas här och skickas upp när Fedora har löst arkivfelet. De övriga 25 rättningarna skickades upp till 12 öppna komponenter och Weblate bekräftade varje import.
