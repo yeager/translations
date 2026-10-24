@@ -1,0 +1,557 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "date": "2026-10-24",
+  "entries": [
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.inputs.model_texture_alignment.name",
+      "source": "texture_alignment",
+      "translation": "texturjustering"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.inputs.model_texture_seed.name",
+      "source": "texture_seed",
+      "translation": "texturslumptal"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.outputs.0.name",
+      "source": "model task_id",
+      "translation": "modellens task_id"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.outputs.1.name",
+      "source": "GLB",
+      "translation": "GLB"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.outputs.1.tooltip",
+      "source": "Empty when quad is enabled.",
+      "translation": "Tom när fyrhörning är aktiverad."
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.outputs.2.name",
+      "source": "FBX",
+      "translation": "FBX"
+    },
+    {
+      "key": "TripoPSeriesMultiviewToModelNode.outputs.2.tooltip",
+      "source": "Only populated when quad is enabled.",
+      "translation": "Fylls bara i när fyrhörning är aktiverad."
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.display_name",
+      "source": "Tripo P2: Text to Model",
+      "translation": "Tripo P2: Text till modell"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.description",
+      "source": "Generates a low-poly 3D model with clean topology from a text prompt, as a triangle mesh (GLB) or a quad-dominant mesh (FBX).",
+      "translation": "Genererar en lågpolig 3D-modell med ren topologi från en textprompt, som ett triangelnät (GLB) eller ett nät dominerat av fyrhörningar (FBX)."
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.model.name",
+      "source": "model",
+      "translation": "modell"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.model.tooltip",
+      "source": "Tripo P-series model.",
+      "translation": "Tripo-modell i P-serien."
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.model_auto_size.name",
+      "source": "auto_size",
+      "translation": "auto_size"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.model_compress_geometry.name",
+      "source": "compress_geometry",
+      "translation": "komprimera_geometri"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.model_export_uv.name",
+      "source": "export_uv",
+      "translation": "exportera_uv"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.model_face_limit.name",
+      "source": "face_limit",
+      "translation": "gräns_för_ytor"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.model_image_seed.name",
+      "source": "image_seed",
+      "translation": "bildslumptal"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.model_model_seed.name",
+      "source": "model_seed",
+      "translation": "modellslumptal"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.model_negative_prompt.name",
+      "source": "negative_prompt",
+      "translation": "negativ_prompt"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.model_pbr.name",
+      "source": "pbr",
+      "translation": "pbr"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.model_prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.model_quad.name",
+      "source": "quad",
+      "translation": "fyrhörning"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.model_texture.name",
+      "source": "texture",
+      "translation": "textur"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.inputs.model_texture_seed.name",
+      "source": "texture_seed",
+      "translation": "texturslumptal"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.outputs.0.name",
+      "source": "model task_id",
+      "translation": "modellens task_id"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.outputs.1.name",
+      "source": "GLB",
+      "translation": "GLB"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.outputs.1.tooltip",
+      "source": "Empty when quad is enabled.",
+      "translation": "Tom när fyrhörning är aktiverad."
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.outputs.2.name",
+      "source": "FBX",
+      "translation": "FBX"
+    },
+    {
+      "key": "TripoPSeriesTextToModelNode.outputs.2.tooltip",
+      "source": "Only populated when quad is enabled.",
+      "translation": "Fylls bara i när fyrhörning är aktiverad."
+    },
+    {
+      "key": "TripoSmartSegmentNode.display_name",
+      "source": "Tripo: Smart Segment",
+      "translation": "Tripo: Smart segmentering"
+    },
+    {
+      "key": "TripoSmartSegmentNode.description",
+      "source": "Splits a model into semantically meaningful parts and names them. From an image, Tripo first generates the model. The segment task_id feeds Tripo: Complete Mesh Parts, Tripo: Retopology, Tripo: Texture model and Tripo: Convert model like a Tripo: Segment Model result.",
+      "translation": "Delar upp en modell i semantiskt meningsfulla delar och namnger dem. Från en bild genererar Tripo först modellen. Segmentets task_id matar Tripo: Complete Mesh Parts, Tripo: Retopology, Tripo: Texture model och Tripo: Convert model som ett resultat från Tripo: Segment Model."
+    },
+    {
+      "key": "TripoSmartSegmentNode.inputs.source.name",
+      "source": "source",
+      "translation": "källa"
+    },
+    {
+      "key": "TripoSmartSegmentNode.inputs.source.tooltip",
+      "source": "Segment an existing model, or generate a model from an image and segment it.",
+      "translation": "Segmentera en befintlig modell eller generera en modell från en bild och segmentera den."
+    },
+    {
+      "key": "TripoSmartSegmentNode.inputs.source_granularity.name",
+      "source": "granularity",
+      "translation": "detaljnivå"
+    },
+    {
+      "key": "TripoSmartSegmentNode.inputs.source_hint.name",
+      "source": "hint",
+      "translation": "tips"
+    },
+    {
+      "key": "TripoSmartSegmentNode.outputs.0.name",
+      "source": "segment task_id",
+      "translation": "segmentets task_id"
+    },
+    {
+      "key": "TripoSmartSegmentNode.outputs.1.name",
+      "source": "model task_id",
+      "translation": "modellens task_id"
+    },
+    {
+      "key": "TripoSmartSegmentNode.outputs.1.tooltip",
+      "source": "The model that was segmented (generated from the image, or imported).",
+      "translation": "Modellen som segmenterades, genererad från bilden eller importerad."
+    },
+    {
+      "key": "TripoSmartSegmentNode.outputs.2.name",
+      "source": "GLB",
+      "translation": "GLB"
+    },
+    {
+      "key": "TripoSmartSegmentNode.outputs.3.name",
+      "source": "part_names",
+      "translation": "delnamn"
+    },
+    {
+      "key": "TripoSmartSegmentNode.outputs.3.tooltip",
+      "source": "Comma-separated names of the parts.",
+      "translation": "Kommaseparerade namn på delarna."
+    },
+    {
+      "key": "TripoSmartSegmentNode.outputs.4.name",
+      "source": "parts",
+      "translation": "delar"
+    },
+    {
+      "key": "TripoSmartSegmentNode.outputs.4.tooltip",
+      "source": "Tripo's description of the parts it found.",
+      "translation": "Tripos beskrivning av delarna som hittades."
+    },
+    {
+      "key": "TripoSmartSegmentNode.outputs.5.name",
+      "source": "mask",
+      "translation": "mask"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.display_name",
+      "source": "Tripo: Text to Model",
+      "translation": "Tripo: Text till modell"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.negative_prompt.name",
+      "source": "negative_prompt",
+      "translation": "negativ_prompt"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.negative_prompt.tooltip",
+      "source": "Up to 255 characters.",
+      "translation": "Högst 255 tecken."
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.model_version.name",
+      "source": "model_version",
+      "translation": "modellversion"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.texture.name",
+      "source": "texture",
+      "translation": "textur"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.texture.tooltip",
+      "source": "Generate texture maps. Off returns bare geometry and ignores pbr.",
+      "translation": "Generera texturkartor. Av returnerar ren geometri och ignorerar pbr."
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.pbr.name",
+      "source": "pbr",
+      "translation": "pbr"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.pbr.tooltip",
+      "source": "PBR material maps (base color, metallic, roughness, normal). Requires texture.",
+      "translation": "PBR-materialkartor för basfärg, metallic, råhet och normal. Kräver textur."
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.image_seed.name",
+      "source": "image_seed",
+      "translation": "bildslumptal"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.model_seed.name",
+      "source": "model_seed",
+      "translation": "modellslumptal"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.texture_seed.name",
+      "source": "texture_seed",
+      "translation": "texturslumptal"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.texture_quality.name",
+      "source": "texture_quality",
+      "translation": "texturkvalitet"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.texture_quality.tooltip",
+      "source": "detailed = HD textures, extreme = 8K Ultra textures.",
+      "translation": "detailed = HD-texturer. extreme = 8K Ultra-texturer."
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.face_limit.name",
+      "source": "face_limit",
+      "translation": "gräns för ytor"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.face_limit.tooltip",
+      "source": "Maximum face count. -1 lets Tripo pick adaptively (about 1.4M faces on v3.x standard, 2M on detailed). Tripo clamps silently: v2.5 at 500,000, quad meshes at 150,000.",
+      "translation": "Högsta antal ytor. -1 låter Tripo välja dynamiskt, ungefär 1,4 miljoner ytor i v3.x standard och 2 miljoner i detailed. Tripo begränsar tyst: v2.5 till 500 000 och fyrkantsnät till 150 000."
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.quad.name",
+      "source": "quad",
+      "translation": "fyrhörning"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.quad.tooltip",
+      "source": "Quad mesh output. Tripo delivers quad meshes as FBX, so the result arrives on the FBX output and the GLB output stays empty.",
+      "translation": "Utdata som fyrkantsnät. Tripo levererar fyrkantsnät som FBX, så resultatet finns på FBX-utdata och GLB-utdata förblir tom."
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.geometry_quality.name",
+      "source": "geometry_quality",
+      "translation": "geometrikvalitet"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.smart_low_poly.name",
+      "source": "smart_low_poly",
+      "translation": "smart_low_poly"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.smart_low_poly.tooltip",
+      "source": "Low-poly mesh with clean, hand-crafted style topology (500-20,000 faces, quad 500-10,000). Best for simple subjects; complex ones may fail.",
+      "translation": "Lågpoly-nät med ren topologi i handgjord stil, 500–20 000 ytor och 500–10 000 fyrhörningar. Bäst för enkla motiv. Komplexa motiv kan misslyckas."
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.auto_size.name",
+      "source": "auto_size",
+      "translation": "auto_size"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.inputs.auto_size.tooltip",
+      "source": "Scale textured models to their real-world size in meters. Tripo stores the size as the model's scene transform and bakes it in when the model is converted, rigged or retargeted; ignored without texture.",
+      "translation": "Skalar texturerade modeller till sin verkliga storlek i meter. Tripo sparar storleken som modellens scenomvandling och bäddar in den när modellen konverteras, riggas eller återanpassas. Ignoreras utan textur."
+    },
+    {
+      "key": "TripoTextToModelNodeV2.outputs.0.name",
+      "source": "model task_id",
+      "translation": "modellens task_id"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.outputs.1.name",
+      "source": "GLB",
+      "translation": "GLB"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.outputs.1.tooltip",
+      "source": "Empty when quad is enabled.",
+      "translation": "Tom när fyrhörning är aktiverad."
+    },
+    {
+      "key": "TripoTextToModelNodeV2.outputs.2.name",
+      "source": "FBX",
+      "translation": "FBX"
+    },
+    {
+      "key": "TripoTextToModelNodeV2.outputs.2.tooltip",
+      "source": "Only populated when quad is enabled.",
+      "translation": "Fylls bara i när fyrhörning är aktiverad."
+    },
+    {
+      "key": "TripoTextureNodeV2.display_name",
+      "source": "Tripo: Texture model",
+      "translation": "Tripo: Texturera modell"
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.model_task_id.name",
+      "source": "model_task_id",
+      "translation": "modellens_task_id"
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.pbr.name",
+      "source": "pbr",
+      "translation": "pbr"
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.pbr.tooltip",
+      "source": "PBR material maps (base color, metallic, roughness, normal); off gives a plain color texture.",
+      "translation": "PBR-materialkartor för basfärg, metallic, råhet och normal. Av ger en textur i enfärg."
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.texture_seed.name",
+      "source": "texture_seed",
+      "translation": "texturslumptal"
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.texture_quality.name",
+      "source": "texture_quality",
+      "translation": "texturkvalitet"
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.texture_quality.tooltip",
+      "source": "detailed = HD textures, extreme = 8K Ultra textures.",
+      "translation": "detailed = HD-texturer. extreme = 8K Ultra-texturer."
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.texture_alignment.name",
+      "source": "texture_alignment",
+      "translation": "texturjustering"
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.texture_prompt.name",
+      "source": "texture_prompt",
+      "translation": "texturprompt"
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.texture_prompt.tooltip",
+      "source": "Optional text guidance for texturing. Required in practice for imported models (Tripo: Import Model), which carry no source image to infer colors from. Cannot be combined with reference images.",
+      "translation": "Valfri textvägledning för texturering. Krävs i praktiken för importerade modeller (Tripo: Import Model), som saknar källbild att härleda färger från. Kan inte kombineras med referensbilder."
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.model_version.name",
+      "source": "model_version",
+      "translation": "modellversion"
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.model_version.tooltip",
+      "source": "Texture model: v3.0 for meshes generated with v3.x, v2.5 for meshes generated with v2.5.",
+      "translation": "Texturmodell: v3.0 för nät som genererats med v3.x, v2.5 för nät som genererats med v2.5."
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.style_image.name",
+      "source": "style_image",
+      "translation": "stilbild"
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.style_image.tooltip",
+      "source": "Reference image for the artistic style of the textures. Only used together with texture_prompt.",
+      "translation": "Referensbild för texturernas konstnärliga stil. Används bara tillsammans med texture_prompt."
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.reference.name",
+      "source": "reference",
+      "translation": "referens"
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.reference.tooltip",
+      "source": "Reference images guiding the textures. Cannot be combined with texture_prompt or style_image.",
+      "translation": "Referensbilder som vägleder texturerna. Kan inte kombineras med texture_prompt eller style_image."
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.part_names.name",
+      "source": "part_names",
+      "translation": "delnamn"
+    },
+    {
+      "key": "TripoTextureNodeV2.inputs.part_names.tooltip",
+      "source": "Comma-separated part names from Tripo: Segment Model to texture. Empty textures every part.",
+      "translation": "Kommaseparerade delnamn från Tripo: Segment Model att texturera. Tomt texturerar alla delar."
+    },
+    {
+      "key": "TripoTextureNodeV2.outputs.0.name",
+      "source": "model task_id",
+      "translation": "modellens task_id"
+    },
+    {
+      "key": "TripoTextureNodeV2.outputs.1.name",
+      "source": "GLB",
+      "translation": "GLB"
+    },
+    {
+      "key": "TripoTextureNodeV2.outputs.1.tooltip",
+      "source": "Empty when the source is a quad mesh or an FBX import.",
+      "translation": "Tom när källan är ett fyrkantsnät eller en FBX-import."
+    },
+    {
+      "key": "TripoTextureNodeV2.outputs.2.name",
+      "source": "FBX",
+      "translation": "FBX"
+    },
+    {
+      "key": "TripoTextureNodeV2.outputs.2.tooltip",
+      "source": "Tripo returns FBX for quad meshes and FBX imports; empty otherwise.",
+      "translation": "Tripo returnerar FBX för fyrkantsnät och FBX-importer, annars tom."
+    },
+    {
+      "key": "VeedCleanAudioNode.display_name",
+      "source": "VEED Clean Audio",
+      "translation": "VEED Rensa ljud"
+    },
+    {
+      "key": "VeedCleanAudioNode.description",
+      "source": "Remove background noise from speech with VEED. Built for speech in any language: music and sound effects are removed too. Returns 48 kHz mono audio.",
+      "translation": "Tar bort bakgrundsbrus från tal med VEED. Byggd för tal på alla språk. Musik och ljudeffekter tas också bort. Returnerar monoljud i 48 kHz."
+    },
+    {
+      "key": "VeedCleanAudioNode.inputs.audio.name",
+      "source": "audio",
+      "translation": "ljud"
+    },
+    {
+      "key": "VeedCleanAudioNode.inputs.audio.tooltip",
+      "source": "Speech recording, shorter than 30 minutes.",
+      "translation": "Talinspelning kortare än 30 minuter."
+    },
+    {
+      "key": "VeedCleanAudioNode.inputs.strength.name",
+      "source": "strength",
+      "translation": "styrka"
+    },
+    {
+      "key": "VeedCleanAudioNode.inputs.strength.tooltip",
+      "source": "How much noise is removed under speech. Lower keeps more room tone behind the voice; pauses between words are always fully cleaned, and values above the default change little.",
+      "translation": "Hur mycket brus som tas bort under talet. Ett lägre värde behåller mer rumsambiens bakom rösten. Pauser mellan ord rensas alltid helt, och värden över standardvärdet ändrar lite."
+    },
+    {
+      "key": "VeedCleanAudioNode.inputs.loudness.name",
+      "source": "loudness",
+      "translation": "ljudstyrka"
+    },
+    {
+      "key": "VeedCleanAudioNode.inputs.loudness_target_lufs.name",
+      "source": "target_lufs",
+      "translation": "mål_lufs"
+    },
+    {
+      "key": "VeedCleanVideoAudioNode.display_name",
+      "source": "VEED Clean Audio (in Video)",
+      "translation": "VEED Rensa ljud i video"
+    },
+    {
+      "key": "VeedCleanVideoAudioNode.description",
+      "source": "Remove background noise from the speech in a video with VEED. Only the soundtrack changes: it is replaced with the cleaned 48 kHz mono speech.",
+      "translation": "Tar bort bakgrundsbrus från talet i en video med VEED. Bara ljudspåret ändras och ersätts med det rensade monotalet i 48 kHz."
+    },
+    {
+      "key": "VeedCleanVideoAudioNode.inputs.video.name",
+      "source": "video",
+      "translation": "video"
+    },
+    {
+      "key": "VeedCleanVideoAudioNode.inputs.video.tooltip",
+      "source": "Video with a speech soundtrack, shorter than 30 minutes.",
+      "translation": "Video med tal på ljudspåret, kortare än 30 minuter."
+    },
+    {
+      "key": "VeedCleanVideoAudioNode.inputs.strength.name",
+      "source": "strength",
+      "translation": "styrka"
+    },
+    {
+      "key": "VeedCleanVideoAudioNode.inputs.strength.tooltip",
+      "source": "How much noise is removed under speech. Lower keeps more room tone behind the voice; pauses between words are always fully cleaned, and values above the default change little.",
+      "translation": "Hur mycket brus som tas bort under talet. Ett lägre värde behåller mer rumsambiens bakom rösten. Pauser mellan ord rensas alltid helt, och värden över standardvärdet ändrar lite."
+    },
+    {
+      "key": "VeedCleanVideoAudioNode.inputs.loudness.name",
+      "source": "loudness",
+      "translation": "ljudstyrka"
+    }
+  ]
+}
