@@ -1,0 +1,178 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "source_revision": "origin/main",
+  "reviewed_batch": "2026-10-24",
+  "entries": [
+    {
+      "key": "ByteDance2FirstLastFrameNode.outputs.1.name",
+      "source": "draft_task_id",
+      "translation": "draft_task_id"
+    },
+    {
+      "key": "ByteDance2FirstLastFrameNode.outputs.1.tooltip",
+      "source": "Task ID of a Seedance 2.5 Draft run. Connect it to the Seedance 2.5 Draft to Final Video node to render the 1080p final.",
+      "translation": "Uppgiftsidentifierare för en körning med Seedance 2.5 Draft. Anslut det till noden Seedance 2.5 utkast till färdig video för att rendera den färdiga videon i 1080p."
+    },
+    {
+      "key": "ByteDance2ReferenceNodeV2.outputs.1.name",
+      "source": "draft_task_id",
+      "translation": "draft_task_id"
+    },
+    {
+      "key": "ByteDance2ReferenceNodeV2.outputs.1.tooltip",
+      "source": "Task ID of a Seedance 2.5 Draft run. Connect it to the Seedance 2.5 Draft to Final Video node to render the 1080p final.",
+      "translation": "Uppgiftsidentifierare för en körning med Seedance 2.5 Draft. Anslut det till noden Seedance 2.5 utkast till färdig video för att rendera den färdiga videon i 1080p."
+    },
+    {
+      "key": "ByteDance2TextToVideoNode.outputs.1.name",
+      "source": "draft_task_id",
+      "translation": "draft_task_id"
+    },
+    {
+      "key": "ByteDance2TextToVideoNode.outputs.1.tooltip",
+      "source": "Task ID of a Seedance 2.5 Draft run. Connect it to the Seedance 2.5 Draft to Final Video node to render the 1080p final.",
+      "translation": "Uppgiftsidentifierare för en körning med Seedance 2.5 Draft. Anslut det till noden Seedance 2.5 utkast till färdig video för att rendera den färdiga videon i 1080p."
+    },
+    {
+      "key": "ByteDance2DraftToFinalVideoNode.display_name",
+      "source": "ByteDance Seedance 2.5 Draft to Final Video",
+      "translation": "ByteDance Seedance 2.5 utkast till färdig video"
+    },
+    {
+      "key": "ByteDance2DraftToFinalVideoNode.description",
+      "source": "Render the 1080p final video of a Seedance 2.5 Draft. The final keeps the draft's scene and motion, and reuses its prompt, references, duration, aspect ratio, and audio setting.",
+      "translation": "Rendera den färdiga 1080p videon från ett Seedance 2.5 utkast. Den färdiga videon behåller utkastets scen och rörelse samt återanvänder prompt, referenser, längd, bildförhållande och ljudinställning."
+    },
+    {
+      "key": "ByteDance2DraftToFinalVideoNode.inputs.draft_task_id.name",
+      "source": "draft_task_id",
+      "translation": "draft_task_id"
+    },
+    {
+      "key": "ByteDance2DraftToFinalVideoNode.inputs.draft_task_id.tooltip",
+      "source": "The draft_task_id output of a Seedance 2.5 node run with the Seedance 2.5 Draft model, or a pasted draft task ID. Set that node's seed control to fixed, otherwise the next run generates a new draft instead of reusing the one you reviewed. A draft can be rendered for 7 days after it was created.",
+      "translation": "Resultatet draft_task_id från en Seedance 2.5 nod som körs med modellen Seedance 2.5 Draft, eller ett inklistrat uppgiftsidentifierare för utkastet. Ställ frökontrollen i noden på fast, annars genererar nästa körning ett nytt utkast i stället för att återanvända det du granskade. Ett utkast kan renderas i 7 dagar efter att det skapades."
+    },
+    {
+      "key": "ByteDance2DraftToFinalVideoNode.inputs.watermark.name",
+      "source": "watermark",
+      "translation": "vattenstämpel"
+    },
+    {
+      "key": "ByteDance2DraftToFinalVideoNode.inputs.watermark.tooltip",
+      "source": "Whether to add a watermark to the video.",
+      "translation": "Om en vattenstämpel ska läggas till i videon."
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.display_name",
+      "source": "ByteDance Seedream 5.0 Layer Separation",
+      "translation": "ByteDance Seedream 5.0 lagerseparering"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.description",
+      "source": "Decompose an image into a background plate plus up to 16 repositionable transparent layers, each with stacking order, bounding box, name and description.",
+      "translation": "Dela upp en bild i en bakgrundsplatta och upp till 16 flyttbara genomskinliga lager, vart och ett med staplingsordning, begränsningsruta, namn och beskrivning."
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.inputs.model.name",
+      "source": "model",
+      "translation": "modell"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "styr efter generering"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.inputs.model_crop_layers.name",
+      "source": "crop_layers",
+      "translation": "crop_layers"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.inputs.model_prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.inputs.model_prompt_optimization.name",
+      "source": "prompt_optimization",
+      "translation": "prompt_optimization"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.inputs.model_seed.name",
+      "source": "seed",
+      "translation": "frö"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.inputs.model_size.name",
+      "source": "size",
+      "translation": "storlek"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.inputs.model_watermark.name",
+      "source": "watermark",
+      "translation": "vattenstämpel"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.outputs.0.name",
+      "source": "base_image",
+      "translation": "base_image"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.outputs.0.tooltip",
+      "source": "The base image (background plate) the layers stack onto.",
+      "translation": "Basbilden, alltså bakgrundsplattan, som lagren staplas på."
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.outputs.1.name",
+      "source": "base_mask",
+      "translation": "base_mask"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.outputs.1.tooltip",
+      "source": "Transparency of the base image (1 = transparent, LoadImage convention); currently always fully opaque.",
+      "translation": "Basbildens genomskinlighet (1 = genomskinlig enligt konventionen för LoadImage). Den är för närvarande alltid helt ogenomskinlig."
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.outputs.2.name",
+      "source": "layers",
+      "translation": "lager"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.outputs.2.tooltip",
+      "source": "Transparent layers ordered bottom to top. Full canvas mode: placed on a black base-sized canvas at their bounding-box position. Minimal size mode: cropped to their bounding box, anchored top-left, padded to the largest layer.",
+      "translation": "Genomskinliga lager ordnade från botten till toppen. I läget för hel arbetsyta placeras de på en svart arbetsyta i basbildens storlek vid begränsningsrutans position. I läget för minimal storlek beskärs de till begränsningsrutan, förankras uppe till vänster och fylls ut till storleken på det största lagret."
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.outputs.3.name",
+      "source": "masks",
+      "translation": "masker"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.outputs.3.tooltip",
+      "source": "Per-layer transparency, index-aligned with the layers batch (1 = transparent, LoadImage convention). For ImageCompositeMasked-style compositing, add InvertMask first.",
+      "translation": "Genomskinlighet per lager, indexjusterad med lagerbatchen (1 = genomskinlig enligt konventionen för LoadImage). Lägg först till InvertMask för kompositering i stil med ImageCompositeMasked."
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.outputs.4.name",
+      "source": "bboxes",
+      "translation": "bboxes"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.outputs.4.tooltip",
+      "source": "One placement box per layer, index-aligned with the layers batch (feed both, plus masks, into Layers From Bounding Boxes to rebuild per-layer placement): {x, y, width, height, metadata: {name, desc, z_index, native_size, content_rect, flags}}. content_rect = [left, top, width, height] is the layer's content region within its own frame; it lands on the canvas at the box position plus that offset.",
+      "translation": "En placeringsruta per lager, indexjusterad med lagerbatchen. Mata in båda, tillsammans med masker, i Layers From Bounding Boxes för att återskapa placeringen per lager: {x, y, width, height, metadata: {name, desc, z_index, native_size, content_rect, flags}}. content_rect = [left, top, width, height] är lagrets innehållsområde i dess egen bildruta. Det placeras på arbetsytan vid rutans position plus förskjutningen."
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.outputs.5.name",
+      "source": "layer_stack",
+      "translation": "layer_stack"
+    },
+    {
+      "key": "ByteDanceSeedreamLayerSeparationNodeV2.outputs.5.tooltip",
+      "source": "Ready-to-edit layer document for Create Layered Image: the base plate plus each element as its own named, tight-cropped layer at its true position and stacking order. Connect directly, or extend with Add Layer.",
+      "translation": "Färdigt redigerbart lagerdokument för Create Layered Image: bakgrundsplattan plus varje element som ett eget namngivet, tätt beskuret lager på rätt position och i rätt staplingsordning. Anslut direkt eller utöka med Add Layer."
+    }
+  ]
+}
