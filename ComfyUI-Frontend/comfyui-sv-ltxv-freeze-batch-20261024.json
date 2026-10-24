@@ -1,0 +1,31 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "LTXVFreezeLatent.display_name",
+      "source": "LTXV Freeze Latent",
+      "translation": "LTXV frys latent"
+    },
+    {
+      "key": "LTXVFreezeLatent.description",
+      "source": "Set noise_mask to 0 so this latent is kept clean during sampling. Works on video or audio. Typical uses: freeze audio before Concat AV so it only provides cross-attention, or freeze any latent that should not be denoised.",
+      "translation": "Sätt noise_mask till 0 så att den här latenten hålls ren under sampling. Fungerar för video och ljud. Vanliga användningar är att frysa ljud före Concat AV så att det bara ger korsuppmärksamhet, eller att frysa en latent som inte ska brusreduceras."
+    },
+    {
+      "key": "LTXVFreezeLatent.inputs.latent.name",
+      "source": "latent",
+      "translation": "latent"
+    },
+    {
+      "key": "LTXVFreezeLatent.inputs.latent.tooltip",
+      "source": "Video or audio latent to freeze. Audio is 4D; video is 5D.",
+      "translation": "Videolatent eller ljudlatent som ska frysas. Ljud är 4D och video är 5D."
+    },
+    {
+      "key": "LTXVFreezeLatent.outputs.0.name",
+      "source": "latent",
+      "translation": "latent"
+    }
+  ]
+}
