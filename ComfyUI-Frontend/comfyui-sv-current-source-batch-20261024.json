@@ -1,0 +1,920 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "upstream_pr": "https://github.com/Comfy-Org/ComfyUI_frontend/pull/17064",
+  "upstream_commit": "e350a2233608e2e8add1035179fe57c823323cfc",
+  "entries": [
+    {
+      "file": "commands.json",
+      "key": "Comfy_Canvas_DeleteSelectedLinks.label",
+      "source": "Delete Selected Links",
+      "target": "Ta bort valda länkar"
+    },
+    {
+      "file": "commands.json",
+      "key": "Comfy_Canvas_HideSelectedLinks.label",
+      "source": "Hide Selected Links",
+      "target": "Dölj valda länkar"
+    },
+    {
+      "file": "commands.json",
+      "key": "Comfy_Canvas_ShowSelectedLinks.label",
+      "source": "Show Selected Links",
+      "target": "Visa valda länkar"
+    },
+    {
+      "file": "commands.json",
+      "key": "Comfy_Onboarding_Replay.label",
+      "source": "Replay Onboarding",
+      "target": "Spela upp introduktionen igen"
+    },
+    {
+      "file": "main.json",
+      "key": "g.downloadImages",
+      "source": "Download images",
+      "target": "Hämta bilder"
+    },
+    {
+      "file": "main.json",
+      "key": "g.validate",
+      "source": "Validate",
+      "target": "Validera"
+    },
+    {
+      "file": "main.json",
+      "key": "g.removeFilter",
+      "source": "Remove {label} filter",
+      "target": "Ta bort filtret {label}"
+    },
+    {
+      "file": "main.json",
+      "key": "g.selected",
+      "source": "Selected",
+      "target": "Vald"
+    },
+    {
+      "file": "main.json",
+      "key": "g.galleryImagePosition",
+      "source": "Gallery image {index} of {total}",
+      "target": "Galleribild {index} av {total}"
+    },
+    {
+      "file": "main.json",
+      "key": "g.galleryThumbnailPosition",
+      "source": "Gallery thumbnail {index} of {total}",
+      "target": "Galleriminitatyr {index} av {total}"
+    },
+    {
+      "file": "main.json",
+      "key": "g.subgraphUnpackFailed",
+      "source": "Unable to unpack the selected subgraph.",
+      "target": "Det gick inte att packa upp den valda delgrafen."
+    },
+    {
+      "file": "main.json",
+      "key": "g.selectAll",
+      "source": "Select All",
+      "target": "Markera alla"
+    },
+    {
+      "file": "main.json",
+      "key": "g.expand",
+      "source": "Expand",
+      "target": "Expandera"
+    },
+    {
+      "file": "main.json",
+      "key": "g.collapse",
+      "source": "Collapse",
+      "target": "Fäll ihop"
+    },
+    {
+      "file": "main.json",
+      "key": "g.pageNumber",
+      "source": "Page {page}",
+      "target": "Sida {page}"
+    },
+    {
+      "file": "main.json",
+      "key": "g.itemsPerPage",
+      "source": "Items per page",
+      "target": "Objekt per sida"
+    },
+    {
+      "file": "main.json",
+      "key": "g.actions",
+      "source": "Actions",
+      "target": "Åtgärder"
+    },
+    {
+      "file": "main.json",
+      "key": "g.selectItem",
+      "source": "Select {name}",
+      "target": "Välj {name}"
+    },
+    {
+      "file": "main.json",
+      "key": "g.new",
+      "source": "NEW",
+      "target": "NY"
+    },
+    {
+      "file": "main.json",
+      "key": "g.uploadFileTooLarge",
+      "source": "File is too large to upload.",
+      "target": "Filen är för stor för att överföra."
+    },
+    {
+      "file": "main.json",
+      "key": "g.uploadFileTooLargeWithLimit",
+      "source": "File is too large to upload (limit: {limit} MB).",
+      "target": "Filen är för stor för att överföra (gräns: {limit} MB)."
+    },
+    {
+      "file": "main.json",
+      "key": "g.uploadFailed",
+      "source": "Upload failed: {reason}",
+      "target": "Överföringen misslyckades: {reason}"
+    },
+    {
+      "file": "main.json",
+      "key": "g.videoFilenameExtensionRequired",
+      "source": "The video filename must end with an extension such as .mp4. Rename the file and try again.",
+      "target": "Videofilnamnet måste sluta med ett filnamnstillägg som .mp4. Byt namn på filen och försök igen."
+    },
+    {
+      "file": "main.json",
+      "key": "g.jobs",
+      "source": "Jobs",
+      "target": "Jobb"
+    },
+    {
+      "file": "main.json",
+      "key": "g.versionMismatchUpdateInstructions",
+      "source": "{detail} Visit https://docs.comfy.org/installation/update_comfyui#common-update-issues for update instructions.",
+      "target": "{detail} Läs uppdateringsanvisningarna på https://docs.comfy.org/installation/update_comfyui#common-update-issues."
+    },
+    {
+      "file": "main.json",
+      "key": "g.recordingFailedToStart",
+      "source": "Could not start recording",
+      "target": "Det gick inte att starta inspelningen"
+    },
+    {
+      "file": "main.json",
+      "key": "g.retry",
+      "source": "Retry",
+      "target": "Försök igen"
+    },
+    {
+      "file": "main.json",
+      "key": "hdrViewer.checkerboard",
+      "source": "Show transparency",
+      "target": "Visa genomskinlighet"
+    },
+    {
+      "file": "main.json",
+      "key": "manager.queueWaitingToContinue",
+      "source": "Tasks are pending. Retry to continue.",
+      "target": "Uppgifter väntar. Försök igen för att fortsätta."
+    },
+    {
+      "file": "main.json",
+      "key": "manager.retryQueueStart",
+      "source": "Retry",
+      "target": "Försök igen"
+    },
+    {
+      "file": "main.json",
+      "key": "manager.versionLoadFailed",
+      "source": "Versions could not be loaded. Close this picker and try again.",
+      "target": "Det gick inte att läsa in versionerna. Stäng den här väljaren och försök igen."
+    },
+    {
+      "file": "main.json",
+      "key": "manager.noActiveVersions",
+      "source": "This pack has no Active releases.",
+      "target": "Det här paketet har inga Active-utgåvor."
+    },
+    {
+      "file": "main.json",
+      "key": "manager.noActiveVersionsFlagged",
+      "source": "This pack has no Active releases. Select a Flagged release to request installation, subject to Manager security settings.",
+      "target": "Det här paketet har inga Active-utgåvor. Välj en Flagged-utgåva för att begära installation. Manager-säkerhetsinställningarna gäller fortfarande."
+    },
+    {
+      "file": "main.json",
+      "key": "manager.updateOptions",
+      "source": "Update options",
+      "target": "Uppdateringsalternativ"
+    },
+    {
+      "file": "main.json",
+      "key": "manager.latestActive",
+      "source": "Latest Active",
+      "target": "Senaste Active"
+    },
+    {
+      "file": "main.json",
+      "key": "manager.latestInstallable",
+      "source": "Latest Installable",
+      "target": "Senaste installerbara"
+    },
+    {
+      "file": "main.json",
+      "key": "manager.updateLatestActiveTooltip",
+      "source": "Switch to the latest Active version (default).",
+      "target": "Byt till den senaste Active-versionen (standard)."
+    },
+    {
+      "file": "main.json",
+      "key": "manager.updateLatestInstallableTooltip",
+      "source": "Switch to the latest installable version, including Flagged and Pending releases. Manager security settings still apply.",
+      "target": "Byt till den senaste installerbara versionen, inklusive Flagged- och Pending-utgåvor. Manager-säkerhetsinställningarna gäller fortfarande."
+    },
+    {
+      "file": "main.json",
+      "key": "manager.noUpdateVersion",
+      "source": "No release is available for the selected update option.",
+      "target": "Ingen utgåva är tillgänglig för det valda uppdateringsalternativet."
+    },
+    {
+      "file": "main.json",
+      "key": "manager.updateVersionInstalled",
+      "source": "Version {version} is already installed.",
+      "target": "Version {version} är redan installerad."
+    },
+    {
+      "file": "main.json",
+      "key": "manager.updateFailed",
+      "source": "Could not change the package version. Please try again.",
+      "target": "Det gick inte att ändra paketversionen. Försök igen."
+    },
+    {
+      "file": "main.json",
+      "key": "manager.latestStableVersion",
+      "source": "Latest stable",
+      "target": "Senaste stabila"
+    },
+    {
+      "file": "main.json",
+      "key": "manager.loadMoreFailed",
+      "source": "Couldn't load more results.",
+      "target": "Det gick inte att läsa in fler resultat."
+    },
+    {
+      "file": "main.json",
+      "key": "contextMenu.Hide Link",
+      "source": "Hide Link",
+      "target": "Dölj länk"
+    },
+    {
+      "file": "main.json",
+      "key": "contextMenu.Show Link",
+      "source": "Show Link",
+      "target": "Visa länk"
+    },
+    {
+      "file": "main.json",
+      "key": "contextMenu.Show Links",
+      "source": "Show Links",
+      "target": "Visa länkar"
+    },
+    {
+      "file": "main.json",
+      "key": "contextMenu.Download Images",
+      "source": "Download Images",
+      "target": "Hämta bilder"
+    },
+    {
+      "file": "main.json",
+      "key": "sideToolbar.closeSidebar",
+      "source": "Close sidebar",
+      "target": "Stäng sidofältet"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.error.preparingMedia",
+      "source": "Some example media couldn't be prepared. The workflow will open; choose your own files for any missing inputs.",
+      "target": "Vissa exempelmedier kunde inte förberedas. Arbetsflödet öppnas ändå. Välj egna filer för saknade indata."
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.error.loading",
+      "source": "Couldn't open the template. Please try again.",
+      "target": "Det gick inte att öppna mallen. Försök igen."
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.preparingMedia",
+      "source": "Preparing example media...",
+      "target": "Förbereder exempelmedia…"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.cloudUpsellTitle",
+      "source": "Run this template in Comfy Cloud",
+      "target": "Kör den här mallen i Comfy Cloud"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.cloudUpsellDescription",
+      "source": "Run on Cloud GPUs without local setup or downloads.",
+      "target": "Kör på moln-GPU:er utan lokal konfiguration eller hämtningar."
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.partnerNodeTitle",
+      "source": "This workflow uses Partner Nodes",
+      "target": "Det här arbetsflödet använder partnernoder"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.partnerNodeDescription",
+      "source": "Choose whether to run this workflow locally or in Comfy Cloud.",
+      "target": "Välj om arbetsflödet ska köras lokalt eller i Comfy Cloud."
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.openInCloud",
+      "source": "Open in Cloud",
+      "target": "Öppna i Cloud"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.requirements",
+      "source": "Template requirements",
+      "target": "Mallkrav"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.models",
+      "source": "Models",
+      "target": "Modeller"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.inputAssets",
+      "source": "Input Assets",
+      "target": "Indataresurser"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.inputMediaTypes.image",
+      "source": "Image",
+      "target": "Bild"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.inputMediaTypes.video",
+      "source": "Video",
+      "target": "Video"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.inputMediaTypes.audio",
+      "source": "Audio",
+      "target": "Ljud"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.installed",
+      "source": "Installed",
+      "target": "Installerad"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.unavailable",
+      "source": "Unavailable",
+      "target": "Inte tillgänglig"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.unknown",
+      "source": "Unknown",
+      "target": "Okänd"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloadModel",
+      "source": "Download model",
+      "target": "Hämta modell"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloadModelNamed",
+      "source": "Download {model}",
+      "target": "Hämta {model}"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloadQueued",
+      "source": "Queued",
+      "target": "Köad"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloadStarting",
+      "source": "Starting",
+      "target": "Startar"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloading",
+      "source": "Downloading",
+      "target": "Hämtar"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloadingModel",
+      "source": "Downloading {model}",
+      "target": "Hämtar {model}"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloadPaused",
+      "source": "Paused",
+      "target": "Pausad"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloadPausedModel",
+      "source": "Paused download for {model}",
+      "target": "Hämtningen av {model} är pausad"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloadPausedProgress",
+      "source": "Paused · {progress}",
+      "target": "Pausad · {progress}"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloaded",
+      "source": "Downloaded",
+      "target": "Hämtad"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloadFailed",
+      "source": "Download failed",
+      "target": "Hämtningen misslyckades"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloadCancelled",
+      "source": "Download cancelled",
+      "target": "Hämtningen avbröts"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.retryDownload",
+      "source": "Retry",
+      "target": "Försök igen"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloadFailedHint",
+      "source": "The download couldn't be completed. Use Retry to try again.",
+      "target": "Hämtningen kunde inte slutföras. Välj Försök igen för att försöka på nytt."
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.retryDownloadNamed",
+      "source": "Retry download for {model}",
+      "target": "Försök hämta {model} igen"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.getItManually",
+      "source": "Get it manually",
+      "target": "Hämta den manuellt"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.usedBy",
+      "source": "Used by {nodes}",
+      "target": "Används av {nodes}"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloadModelsAndOpen",
+      "source": "Download models & open",
+      "target": "Hämta modeller och öppna"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.downloadModelsAndOpenWithSize",
+      "source": "Download models & open ({size})",
+      "target": "Hämta modeller och öppna ({size})"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.descriptionMore",
+      "source": "Show more",
+      "target": "Visa mer"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.descriptionLess",
+      "source": "Show less",
+      "target": "Visa mindre"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.openNow",
+      "source": "Open now",
+      "target": "Öppna nu"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.backToTemplates",
+      "source": "Back to {category}",
+      "target": "Tillbaka till {category}"
+    },
+    {
+      "file": "main.json",
+      "key": "templateWorkflows.detail.breadcrumbLabel",
+      "source": "Template navigation",
+      "target": "Mallnavigering"
+    },
+    {
+      "file": "main.json",
+      "key": "zoomControls.zoomPercentage",
+      "source": "Zoom percentage",
+      "target": "Zoomnivå i procent"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeTemplates.notLoaded",
+      "source": "Saved templates could not be loaded, so changes were not saved to avoid overwriting them. Reload the page and try again.",
+      "target": "Sparade mallar kunde inte läsas in. Ändringarna sparades därför inte för att undvika att de skrivs över. Läs in sidan på nytt och försök igen."
+    },
+    {
+      "file": "main.json",
+      "key": "maskEditor.brushShapeCircle",
+      "source": "Circle brush",
+      "target": "Rund pensel"
+    },
+    {
+      "file": "main.json",
+      "key": "maskEditor.brushShapeSquare",
+      "source": "Square brush",
+      "target": "Fyrkantig pensel"
+    },
+    {
+      "file": "main.json",
+      "key": "menuLabels.Delete Selected Links",
+      "source": "Delete Selected Links",
+      "target": "Ta bort valda länkar"
+    },
+    {
+      "file": "main.json",
+      "key": "menuLabels.Hide Selected Links",
+      "source": "Hide Selected Links",
+      "target": "Dölj valda länkar"
+    },
+    {
+      "file": "main.json",
+      "key": "menuLabels.Show Selected Links",
+      "source": "Show Selected Links",
+      "target": "Visa valda länkar"
+    },
+    {
+      "file": "main.json",
+      "key": "menuLabels.Replay Onboarding",
+      "source": "Replay Onboarding",
+      "target": "Spela upp introduktionen igen"
+    },
+    {
+      "file": "main.json",
+      "key": "settingsCategories.Billing",
+      "source": "Billing",
+      "target": "Fakturering"
+    },
+    {
+      "file": "main.json",
+      "key": "settingsCategories.SkillPacks",
+      "source": "Skill Packs",
+      "target": "Färdighetspaket"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeCategories.yue2",
+      "source": "yue2",
+      "target": "yue2"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeCategories.seedvr",
+      "source": "seedvr",
+      "target": "seedvr"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeCategories.ming image",
+      "source": "ming image",
+      "target": "ming image"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeCategories.moss_image",
+      "source": "moss_image",
+      "target": "moss_image"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeCategories.fibo",
+      "source": "fibo",
+      "target": "fibo"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeCategories.looping",
+      "source": "looping",
+      "target": "upprepning"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeCategories.sd",
+      "source": "sd",
+      "target": "sd"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeCategories.Clarity AI",
+      "source": "Clarity AI",
+      "target": "Clarity AI"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeCategories.comfy cloud",
+      "source": "comfy cloud",
+      "target": "comfy cloud"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeCategories.Higgsfield",
+      "source": "Higgsfield",
+      "target": "Higgsfield"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeCategories.Mirelo",
+      "source": "Mirelo",
+      "target": "Mirelo"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeCategories.Pruna",
+      "source": "Pruna",
+      "target": "Pruna"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeCategories.VEED",
+      "source": "VEED",
+      "target": "VEED"
+    },
+    {
+      "file": "main.json",
+      "key": "nodeCategories.testing",
+      "source": "testing",
+      "target": "testning"
+    },
+    {
+      "file": "main.json",
+      "key": "dataTypes.CAMERA_INFO_STATE",
+      "source": "CAMERA_INFO_STATE",
+      "target": "CAMERA_INFO_STATE"
+    },
+    {
+      "file": "main.json",
+      "key": "dataTypes.COMFY_DYNAMICGROUP_V3",
+      "source": "COMFY_DYNAMICGROUP_V3",
+      "target": "COMFY_DYNAMICGROUP_V3"
+    },
+    {
+      "file": "main.json",
+      "key": "errorDialog.executionFailedWhileDisconnected",
+      "source": "The job failed while the live connection was unavailable.",
+      "target": "Jobbet misslyckades när den direkta anslutningen inte var tillgänglig."
+    },
+    {
+      "file": "main.json",
+      "key": "imageCompare.afterAlt",
+      "source": "After image",
+      "target": "Bild efter"
+    },
+    {
+      "file": "main.json",
+      "key": "imageCompare.beforeAlt",
+      "source": "Before image",
+      "target": "Bild före"
+    },
+    {
+      "file": "main.json",
+      "key": "load3d.outputView",
+      "source": "Output view",
+      "target": "Utdatavy"
+    },
+    {
+      "file": "main.json",
+      "key": "load3d.lockCamera",
+      "source": "Lock camera",
+      "target": "Lås kamera"
+    },
+    {
+      "file": "main.json",
+      "key": "auth.errors.signupBlocked",
+      "source": "We couldn't create your account right now. Please try again later. If this keeps happening, email support{'@'}comfy.org.",
+      "target": "Det gick inte att skapa kontot just nu. Försök igen senare. Om problemet kvarstår, skicka e-post till support{'@'}comfy.org."
+    },
+    {
+      "file": "main.json",
+      "key": "credits.topUp.usdAmount",
+      "source": "${amount}",
+      "target": "${amount}"
+    },
+    {
+      "file": "main.json",
+      "key": "credits.topUp.minimumPurchase",
+      "source": "${amount} minimum ({credits} credits)",
+      "target": "minst ${amount} USD ({credits} krediter)"
+    },
+    {
+      "file": "main.json",
+      "key": "credits.topUp.maximumAmount",
+      "source": "${amount} max.",
+      "target": "högst ${amount} USD"
+    },
+    {
+      "file": "main.json",
+      "key": "subscription.perMonth",
+      "source": "/ month",
+      "target": "/ månad"
+    },
+    {
+      "file": "main.json",
+      "key": "workspacePanel.billingStatus.outOfCredits.memberBody",
+      "source": "Your team has used all its credits. Ask your workspace owner to add more credits or wait until credits refill on {date}.",
+      "target": "Ditt team har använt alla krediter. Be ägaren av arbetsytan att lägga till fler krediter eller vänta tills krediterna fylls på {date}."
+    },
+    {
+      "file": "main.json",
+      "key": "comfyHubProfile.usernamePlaceholder",
+      "source": "{'@'}",
+      "target": "{'@'}"
+    },
+    {
+      "file": "main.json",
+      "key": "agent.placeholder",
+      "source": "Describe what you want to create",
+      "target": "Beskriv vad du vill skapa"
+    },
+    {
+      "file": "main.json",
+      "key": "dynamicGroup.add",
+      "source": "Add {group}",
+      "target": "Lägg till {group}"
+    },
+    {
+      "file": "main.json",
+      "key": "dynamicGroup.remove",
+      "source": "Remove {row}",
+      "target": "Ta bort {row}"
+    },
+    {
+      "file": "main.json",
+      "key": "dynamicGroup.row",
+      "source": "{group} #{index}",
+      "target": "{group} nr {index}"
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Load3DAdvanced.outputs.0.tooltip",
+      "source": "Loaded 3D model file (glb/obj/stl/etc.).",
+      "target": "Inläst 3D-modellfil (glb/obj/stl osv.)."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Load3DAdvanced.outputs.1.tooltip",
+      "source": "Placement of each model in the scene: position, rotation, and scale (Y-up world space).",
+      "target": "Placering av varje modell i scenen: position, rotation och skala (världskoordinater med Y uppåt)."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Load3DAdvanced.outputs.2.tooltip",
+      "source": "Viewport camera information: position, look-at target, zoom, and type.",
+      "target": "Kamerainformation för visningsytan: position, målpunkten som kameran är riktad mot, zoom och typ."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Load3DAdvanced.outputs.3.tooltip",
+      "source": "Render width of the viewport in pixels.",
+      "target": "Renderingsbredd för visningsytan i bildpunkter."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Load3DAdvanced.outputs.4.tooltip",
+      "source": "Render height of the viewport in pixels.",
+      "target": "Renderingshöjd för visningsytan i bildpunkter."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Preview3DAdvanced.outputs.0.tooltip",
+      "source": "3D model file (glb/obj/stl/etc.) from an upstream 3D node.",
+      "target": "3D-modellfil (glb/obj/stl osv.) från en tidigare 3D-nod."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Preview3DAdvanced.outputs.1.tooltip",
+      "source": "Placement of each model in the scene: position, rotation, and scale (Y-up world space).",
+      "target": "Placering av varje modell i scenen: position, rotation och skala (världskoordinater med Y uppåt)."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Preview3DAdvanced.outputs.2.tooltip",
+      "source": "Viewport camera information: position, look-at target, zoom, and type.",
+      "target": "Kamerainformation för visningsytan: position, målpunkten som kameran är riktad mot, zoom och typ."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Preview3DAdvanced.outputs.3.tooltip",
+      "source": "Render width of the viewport in pixels.",
+      "target": "Renderingsbredd för visningsytan i bildpunkter."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Preview3DAdvanced.outputs.4.tooltip",
+      "source": "Render height of the viewport in pixels.",
+      "target": "Renderingshöjd för visningsytan i bildpunkter."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Save3DAdvanced.outputs.0.tooltip",
+      "source": "3D model file (glb/obj/stl/etc.) from an upstream 3D node.",
+      "target": "3D-modellfil (glb/obj/stl osv.) från en tidigare 3D-nod."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Save3DAdvanced.outputs.1.tooltip",
+      "source": "Placement of each model in the scene: position, rotation, and scale (Y-up world space).",
+      "target": "Placering av varje modell i scenen: position, rotation och skala (världskoordinater med Y uppåt)."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Save3DAdvanced.outputs.2.tooltip",
+      "source": "Viewport camera information: position, look-at target, zoom, and type.",
+      "target": "Kamerainformation för visningsytan: position, målpunkten som kameran är riktad mot, zoom och typ."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Save3DAdvanced.outputs.3.tooltip",
+      "source": "Render width of the viewport in pixels.",
+      "target": "Renderingsbredd för visningsytan i bildpunkter."
+    },
+    {
+      "file": "nodeDefs.json",
+      "key": "Save3DAdvanced.outputs.4.tooltip",
+      "source": "Render height of the viewport in pixels.",
+      "target": "Renderingshöjd för visningsytan i bildpunkter."
+    },
+    {
+      "file": "settings.json",
+      "key": "Comfy_ErrorSystem_ShowMissingModels.name",
+      "source": "Show missing models in the issues tab",
+      "target": "Visa saknade modeller på fliken Problem"
+    },
+    {
+      "file": "settings.json",
+      "key": "Comfy_ErrorSystem_ShowMissingModels.tooltip",
+      "source": "When disabled, model files that are not found are not listed in the issues tab and their nodes are not highlighted.",
+      "target": "När alternativet är inaktiverat listas inte modellfiler som inte hittas på fliken Problem och deras noder markeras inte."
+    },
+    {
+      "file": "settings.json",
+      "key": "Comfy_Workflow_ShowMissingMediaWarning.name",
+      "source": "Show missing media in the issues tab",
+      "target": "Visa saknade mediefiler på fliken Problem"
+    },
+    {
+      "file": "settings.json",
+      "key": "Comfy_Workflow_ShowMissingMediaWarning.tooltip",
+      "source": "When disabled, input images, videos and audio that are not found are not listed in the issues tab and their nodes are not highlighted.",
+      "target": "När alternativet är inaktiverat listas inte indatabilder, videor och ljudfiler som inte hittas på fliken Problem och deras noder markeras inte."
+    },
+    {
+      "file": "settings.json",
+      "key": "Comfy_Workflow_ShowMissingNodesWarning.name",
+      "source": "Show missing nodes in the issues tab",
+      "target": "Visa saknade noder på fliken Problem"
+    },
+    {
+      "file": "settings.json",
+      "key": "Comfy_Workflow_ShowMissingNodesWarning.tooltip",
+      "source": "When disabled, missing node packs are not listed in the issues tab and their nodes are not highlighted. The workflow still cannot run until they are installed.",
+      "target": "När alternativet är inaktiverat listas inte saknade nodpaket på fliken Problem och deras noder markeras inte. Arbetsflödet kan ändå inte köras förrän de är installerade."
+    }
+  ]
+}
