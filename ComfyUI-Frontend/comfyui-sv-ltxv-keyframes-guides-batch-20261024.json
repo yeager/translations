@@ -1,0 +1,101 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.display_name",
+      "source": "LTXV Generated Keyframes to Guides",
+      "translation": "LTXV genererade nyckelbilder till vägledningar"
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.description",
+      "source": "Pin generated keyframes from an earlier stage as frozen image guides on a later canvas. They are decoded as standalone frames, resized if needed, and written with noise_mask=0 so they are not denoised again. After a temporal upscale, recorded indices are scaled from the canvas they were generated on onto this one (same moments). Use override_frame_indices to set positions explicitly. To keep generating (and denoising) keyframes at new positions, use Add Generated Keyframes instead.",
+      "translation": "Fäst genererade nyckelbilder från ett tidigare steg som frysta bildvägledningar på en senare arbetsyta. De avkodas som fristående bildrutor, storleksändras vid behov och skrivs med noise_mask=0 så att de inte brusreduceras igen. Efter temporal uppskalning skalas registrerade index från arbetsytan där de skapades till den här arbetsytan så att tidpunkterna blir desamma. Använd override_frame_indices för att ange positioner uttryckligen. Använd Add Generated Keyframes i stället om du vill fortsätta generera och brusreducera nyckelbilder på nya positioner."
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.inputs.positive.name",
+      "source": "positive",
+      "translation": "positiv"
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.inputs.negative.name",
+      "source": "negative",
+      "translation": "negativ"
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.inputs.vae.name",
+      "source": "vae",
+      "translation": "VAE"
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.inputs.latent.name",
+      "source": "latent",
+      "translation": "latent"
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.inputs.latent.tooltip",
+      "source": "The target video latent to add the guides to, e.g. the temporally upscaled one.",
+      "translation": "Videolatent för målet som vägledningarna ska läggas till i, till exempel den temporalt uppskalade."
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.inputs.keyframes.name",
+      "source": "keyframes",
+      "translation": "nyckelbilder"
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.inputs.keyframes.tooltip",
+      "source": "The keyframes output of LTXV Separate Generated Keyframes, which carries the pixel frame index each keyframe was generated at.",
+      "translation": "Utdata med nyckelbilder från LTXV Separate Generated Keyframes som innehåller index för pixelbildruta där varje nyckelbild skapades."
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.inputs.strength.name",
+      "source": "strength",
+      "translation": "styrka"
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.inputs.strength.tooltip",
+      "source": "Guide strength. 1.0 is a hard pin; lower values relax it.",
+      "translation": "Vägledningens styrka. 1,0 är en fast fästning och lägre värden släpper den mer fri."
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.inputs.override_frame_indices.name",
+      "source": "override_frame_indices",
+      "translation": "åsidosätt_bildruteindex"
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.inputs.override_frame_indices.tooltip",
+      "source": "Optional — pin at these pixel frames instead of the recorded (or auto-scaled) positions. Provide one index per keyframe. Leave empty to reuse recorded positions, or to scale them when the target canvas is a different length (e.g. after temporal x2).",
+      "translation": "Valfritt. Fäst vid dessa pixelbildrutor i stället för registrerade eller automatiskt skalade positioner. Ange ett index per nyckelbild. Lämna tomt för att återanvända registrerade positioner eller skala dem när målarbetsytan har en annan längd, till exempel efter temporal uppskalning med faktor 2."
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.outputs.0.name",
+      "source": "positive",
+      "translation": "positiv"
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.outputs.0.tooltip",
+      "source": "Positive conditioning with the keyframes pinned as image guides.",
+      "translation": "Positiv konditionering med nyckelbilderna fästa som bildvägledningar."
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.outputs.1.name",
+      "source": "negative",
+      "translation": "negativ"
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.outputs.1.tooltip",
+      "source": "Negative conditioning with the keyframes pinned as image guides.",
+      "translation": "Negativ konditionering med nyckelbilderna fästa som bildvägledningar."
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.outputs.2.name",
+      "source": "latent",
+      "translation": "latent"
+    },
+    {
+      "key": "LTXVGeneratedKeyframesToGuides.outputs.2.tooltip",
+      "source": "Target video latent with the keyframes added as frozen guides.",
+      "translation": "Videolatent för målet med nyckelbilderna tillagda som frysta vägledningar."
+    }
+  ]
+}
