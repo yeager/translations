@@ -1,0 +1,173 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (Rust Coreutils)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-24 10:55+0200\n"
+"PO-Revision-Date: 2026-10-24 12:00+0200\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-about"
+msgid ""
+"Change the mode of each FILE to MODE.\n"
+"With --reference, change the mode of each FILE to that of RFILE."
+msgstr ""
+"Ändra behörigheter för varje FIL till LÄGE.\n"
+"Med --reference ändras behörigheter för varje FIL till dem för REFERENSFIL."
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-usage"
+msgid ""
+"chmod [OPTION]... MODE[,MODE]... FILE...\n"
+"chmod [OPTION]... OCTAL-MODE FILE...\n"
+"chmod [OPTION]... --reference=RFILE FILE..."
+msgstr ""
+"chmod [FLAGGA]... LÄGE[,LÄGE]... FIL...\n"
+"chmod [FLAGGA]... OKTALT-LÄGE FIL...\n"
+"chmod [FLAGGA]... --reference=REFERENSFIL FIL..."
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-after-help"
+msgid ""
+"Each MODE is of the form [ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=]?[0-7]+."
+msgstr "Varje LÄGE har formen [ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=]?[0-7]+."
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-error-dangling-symlink"
+msgid "cannot operate on dangling symlink { $file }"
+msgstr "kan inte arbeta med hängande symbolisk länk { $file }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-error-no-such-file"
+msgid "cannot access { $file }: No such file or directory"
+msgstr "kan inte komma åt { $file }: ingen sådan fil eller katalog"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-error-preserve-root"
+msgid ""
+"it is dangerous to operate recursively on { $file }\n"
+"chmod: use --no-preserve-root to override this failsafe"
+msgstr ""
+"det är farligt att arbeta rekursivt med { $file }\n"
+"chmod: använd --no-preserve-root för att åsidosätta denna säkerhetsåtgärd"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-error-preserve-root-same-as"
+msgid ""
+"it is dangerous to operate recursively on { $file } (same as '/')\n"
+"chmod: use --no-preserve-root to override this failsafe"
+msgstr ""
+"det är farligt att arbeta rekursivt med { $file }, samma som '/'\n"
+"chmod: använd --no-preserve-root för att åsidosätta denna säkerhetsåtgärd"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-error-permission-denied"
+msgid "cannot access { $file }: Permission denied"
+msgstr "kan inte komma åt { $file }: åtkomst nekad"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-error-new-permissions"
+msgid "{ $file }: new permissions are { $actual }, not { $expected }"
+msgstr "{ $file }: nya behörigheter är { $actual }, inte { $expected }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-error-changing-permissions"
+msgid "changing permissions of { $file }: { $err }"
+msgstr "ändrar behörigheter för { $file }: { $err }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-error-missing-operand"
+msgid "missing operand"
+msgstr "saknar operand"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-error-reference-stat"
+msgid "failed to get attributes of { $file }: { $error }"
+msgstr "det gick inte att hämta attribut för { $file }: { $error }"
+
+#. Help messages
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-help-print-help"
+msgid "Print help information."
+msgstr "Skriv ut hjälpinformation."
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-help-changes"
+msgid "like verbose but report only when a change is made"
+msgstr "som --verbose, men rapportera endast när en ändring görs"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-help-quiet"
+msgid "suppress most error messages"
+msgstr "undertryck de flesta felmeddelanden"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-help-verbose"
+msgid "output a diagnostic for every file processed"
+msgstr "skriv ut ett diagnostiskt meddelande för varje bearbetad fil"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-help-no-preserve-root"
+msgid "do not treat '/' specially (the default)"
+msgstr "behandla inte '/' särskilt, standardinställningen"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-help-preserve-root"
+msgid "fail to operate recursively on '/'"
+msgstr "utför inte rekursiva åtgärder på '/'"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-help-recursive"
+msgid "change files and directories recursively"
+msgstr "ändra filer och kataloger rekursivt"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-help-reference"
+msgid "use RFILE's mode instead of MODE values"
+msgstr "använd REFERENSFILENS läge i stället för angivna LÄGE-värden"
+
+#. Verbose messages
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-verbose-failed-dangling"
+msgid ""
+"failed to change mode of { $file } from 0000 (---------) to 1500 (r-x-----T)"
+msgstr ""
+"misslyckades med att ändra läge för { $file } från 0000 (---------) till "
+"1500 (r-x-----T)"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-verbose-neither-changed"
+msgid "neither symbolic link { $file } nor referent has been changed"
+msgstr ""
+"varken den symboliska länken { $file } eller dess referens har ändrats"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-verbose-mode-retained"
+msgid "mode of { $file } retained as { $mode_octal } ({ $mode_display })"
+msgstr "läget för { $file } behålls som { $mode_octal } ({ $mode_display })"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-verbose-failed-change"
+msgid ""
+"failed to change mode of file { $file } from { $old_mode } ({ "
+"$old_mode_display }) to { $new_mode } ({ $new_mode_display })"
+msgstr ""
+"misslyckades med att ändra läge för filen { $file } från { $old_mode } ({ "
+"$old_mode_display }) till { $new_mode } ({ $new_mode_display })"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "chmod-verbose-mode-changed"
+msgid ""
+"mode of { $file } changed from { $old_mode } ({ $old_mode_display }) to { "
+"$new_mode } ({ $new_mode_display })"
+msgstr ""
+"läget för { $file } har ändrats från { $old_mode } ({ $old_mode_display }) "
+"till { $new_mode } ({ $new_mode_display })"

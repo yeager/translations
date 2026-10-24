@@ -1,0 +1,564 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (Rust Coreutils)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-24 10:55+0200\n"
+"PO-Revision-Date: 2026-10-24 12:00+0200\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-about"
+msgid ""
+"Display sorted concatenation of all FILE(s). With no FILE, or when FILE is "
+"-, read standard input."
+msgstr ""
+"Visar sorterad sammanfogning av alla FILE(er). Utan FILE, eller när FILE är "
+"-, läs standard-in."
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-usage"
+msgid "sort [OPTION]... [FILE]..."
+msgstr "sort [FLAGGA]... [FIL]..."
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-after-help"
+msgid ""
+"The key format is FIELD[.CHAR][OPTIONS][,FIELD[.CHAR]][OPTIONS].\n"
+"\n"
+"Fields by default are separated by the first whitespace after a non-whitespace character. Use -t to specify a custom separator.\n"
+"In the default case, whitespace is appended at the beginning of each field. Custom separators however are not included in fields.\n"
+"\n"
+"FIELD and CHAR both start at 1 (i.e. they are 1-indexed). If there is no end specified after a comma, the end will be the end of the line.\n"
+"If CHAR is set 0, it means the end of the field. CHAR defaults to 1 for the start position and to 0 for the end position.\n"
+"\n"
+"Valid options are: MbdfhnRrV. They override the global options for this key."
+msgstr ""
+"Nyckelformatet är FIELD[.CHAR][OPTIONS][,FIELD[.CHAR]][OPTIONS].\n"
+"\n"
+"Fält separeras som standard med det första mellanslaget efter ett tecken som inte är mellanslag. Använd -t för att ange en anpassad avgränsare.\n"
+"I standardfallet läggs mellanslag till i början av varje fält. Anpassade avgränsare ingår dock inte i fält.\n"
+"\n"
+"FIELD och CHAR börjar båda på 1 (dvs. de är 1-indexerade). Om det inte anges något slut efter ett kommatecken kommer slutet att vara slutet på raden.\n"
+"Om CHAR är satt till 0 betyder det slutet på fältet. CHAR är som standard 1 för startpositionen och 0 för slutpositionen.\n"
+"\n"
+"Giltiga alternativ är: MbdfhnRrV. De har prioritet över de globala alternativen för denna nyckel."
+
+#. Error messages
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-open-failed"
+msgid "open failed: { $path }: { $error }"
+msgstr "öppnandet misslyckades: { $path }: { $error }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-truncate-failed"
+msgid "failed to truncate: { $path }: { $error }"
+msgstr "kunde inte trunkera: { $path }: { $error }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-parse-key-error"
+msgid "failed to parse key { $key }: { $msg }"
+msgstr "misslyckades med att läsa nyckeln { $key }: { $msg }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-cannot-read"
+msgid "cannot read: { $path }: { $error }"
+msgstr "kan inte läsa: { $path }: { $error }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-read-failed"
+msgid "read failed: { $error }"
+msgstr "läsning misslyckades: { $error }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-open-tmp-file-failed"
+msgid "failed to open temporary file: { $error }"
+msgstr "kunde inte öppna den tillfälliga filen: { $error }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-compress-prog-execution-failed"
+msgid "could not run compress program '{ $prog }': { $error }"
+msgstr "kunde inte köra komprimeringsprogrammet { $prog }: { $error }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-compress-prog-terminated-abnormally"
+msgid "{ $prog } terminated abnormally"
+msgstr "{ $prog } avslutades onormalt"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-cannot-create-tmp-file"
+msgid "cannot create temporary file in { $path }:"
+msgstr "kan inte skapa tillfällig fil i '{ $path }':"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-file-operands-combined"
+msgid ""
+"extra operand { $file }\n"
+"file operands cannot be combined with --files0-from\n"
+"Try '{ $help } --help' for more information."
+msgstr ""
+"ytterligare operand { $file }\n"
+"filoperander kan inte kombineras med --files0-from\n"
+"Kör { $help } --help för mer information."
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-multiple-output-files"
+msgid "multiple output files specified"
+msgstr "flera angivna utdatafiler"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-minus-in-stdin"
+msgid ""
+"when reading file names from standard input, no file name of '-' allowed"
+msgstr "när filnamn läses från standardindata är filnamnet \"-\" inte tillåtet"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-no-input-from"
+msgid "no input from { $file }"
+msgstr "ingen indata från '{ $file }'"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-random-source-end-of-file"
+msgid "{ $path }: end of file"
+msgstr "{ $path }: filslut"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-invalid-zero-length-filename"
+msgid "{ $file }:{ $line_num }: invalid zero-length file name"
+msgstr "{ $file }:{ $line_num }: ogiltigt filnamn med längden noll"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-options-incompatible"
+msgid "options '-{ $opt1 }{ $opt2 }' are incompatible"
+msgstr "alternativen '-{ $opt1 }{ $opt2 }' är inkompatibla"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-invalid-key"
+msgid "invalid key { $key }"
+msgstr "ogiltig nyckel { $key }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-failed-parse-field-index"
+msgid "failed to parse field index { $field } { $error }"
+msgstr "misslyckades med att analysera fältindex { $field } { $error }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-field-index-cannot-be-zero"
+msgid "field index can not be 0"
+msgstr "fältindex kan inte vara 0"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-failed-parse-char-index"
+msgid "failed to parse character index { $char }: { $error }"
+msgstr "misslyckades med att analysera teckenindex { $char }: { $error }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-invalid-option"
+msgid "invalid option: '{ $option }'"
+msgstr "ogiltigt alternativ: '{ $option }'"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-invalid-field-spec"
+msgid "{ $msg }: invalid field specification { $spec }"
+msgstr "{ $msg }: ogiltig fältspecifikation { $spec }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-invalid-count-at-start-of"
+msgid "invalid count at start of { $string }"
+msgstr "ogiltigt antal i början av { $string }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-invalid-number-at-field-start"
+msgid "invalid number at field start"
+msgstr "felaktigt nummer vid fältstart"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-invalid-number-after-dash"
+msgid "invalid number after '-'"
+msgstr "felaktigt nummer efter ”-”"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-invalid-number-after-dot"
+msgid "invalid number after '.'"
+msgstr "felaktigt nummer efter ”.”"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-invalid-number-after-comma"
+msgid "invalid number after ','"
+msgstr "felaktigt nummer efter ”,”"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-field-number-is-zero"
+msgid "field number is zero"
+msgstr "fältnummer är noll"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-character-offset-is-zero"
+msgid "character offset is zero"
+msgstr "teckenpositionen är noll"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-stray-character-field-spec"
+msgid "stray character in field spec"
+msgstr "extra tecken i fältspecifikation"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-diag-label-missing-count"
+msgid "expected a number here"
+msgstr "förväntade ett tal här"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-diag-label-zero-count"
+msgid "counting starts at 1"
+msgstr "räkningen börjar vid 1"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-diag-help-key-syntax"
+msgid "a key is FIELD[.CHAR][OPTS][,FIELD[.CHAR][OPTS]], as in -k2.3,4nr"
+msgstr ""
+"en nyckel är FÄLT[.TECKEN][FLAGGOR][,FÄLT[.TECKEN][FLAGGOR]], som i "
+"-k2.3,4nr"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-invalid-batch-size-arg"
+msgid "invalid --batch-size argument '{ $arg }'"
+msgstr "ogiltigt --batch-size argument '{ $arg }'"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-minimum-batch-size-two"
+msgid "minimum --batch-size argument is '2'"
+msgstr "minsta argumentet till --batch-size är '2'"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-batch-size-too-large"
+msgid "--batch-size argument { $arg } too large"
+msgstr "--batch-size argumentet { $arg } är för stort"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-maximum-batch-size-rlimit"
+msgid "maximum --batch-size argument with current rlimit is { $rlimit }"
+msgstr "maximal --batch-size argument med nuvarande rlimit är { $rlimit }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-extra-operand-not-allowed-with-c"
+msgid "extra operand { $operand } not allowed with -c"
+msgstr "extra operand { $operand } är inte tillåten med -c"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-separator-not-valid-unicode"
+msgid "separator is not valid unicode: { $arg }"
+msgstr "separatorn är inte giltig unicode: { $arg }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-separator-must-be-one-char"
+msgid "separator must be exactly one character long: { $separator }"
+msgstr "Avgränsaren måste vara exakt ett tecken långt: { $separator }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-only-one-file-allowed-with-c"
+msgid "only one file allowed with -c"
+msgstr "endast en fil tillåten med -c"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-failed-fetch-rlimit"
+msgid "Failed to fetch rlimit"
+msgstr "Misslyckades med att hämta rlimit"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-invalid-suffix-in-option-arg"
+msgid "invalid suffix in --{ $option } argument { $arg }"
+msgstr "ogiltigt suffix i --{ $option } argument { $arg }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-invalid-option-arg"
+msgid "invalid --{ $option } argument { $arg }"
+msgstr "ogiltigt --{ $option } argument { $arg }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-option-arg-too-large"
+msgid "--{ $option } argument { $arg } too large"
+msgstr "--{ $option } argumentet { $arg } är för stort"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-parallel-must-be-nonzero"
+msgid "number in parallel must be nonzero"
+msgstr "antalet parallella körningar måste vara större än noll"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-error-disorder"
+msgid "{ $file }:{ $line_number }: disorder: { $line }"
+msgstr "{ $file }:{ $line_number }: oordning: { $line }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-error-buffer-size-too-big"
+msgid "Buffer size { $size } does not fit in address space"
+msgstr "Buffertstorleken { $size } får inte plats i adressrymden"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-error-no-match-for-key"
+msgid "^ no match for key"
+msgstr "^ ingen matchning för nyckel"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-error-write-failed"
+msgid "write failed: { $output }"
+msgstr "skrivning misslyckades: { $output }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-failed-to-delete-temporary-directory"
+msgid "failed to delete temporary directory: { $error }"
+msgstr "misslyckades med att ta bort den tillfälliga katalogen: { $error }"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-failed-to-set-up-signal-handler"
+msgid "failed to set up signal handler: { $error }"
+msgstr "misslyckades med att konfigurera signalhanteraren: { $error }"
+
+#. Warning messages
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-failed-to-set-locale"
+msgid "failed to set locale"
+msgstr "misslyckades med att sätta lokal"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-simple-byte-comparison"
+msgid "text ordering performed using simple byte comparison"
+msgstr "textsortering utförs med användning av enkel bytejämförelse"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-sort-rule"
+msgid "text ordering performed using ‘{ $locale }’ sorting rules"
+msgstr "textsortering utfördes enligt sorteringsreglerna för '{ $locale }'"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-key-zero-width"
+msgid "key { $key } has zero width and will be ignored"
+msgstr "nyckeln { $key } har bredden noll och ignoreras"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-key-numeric-spans-fields"
+msgid "key { $key } is numeric and spans multiple fields"
+msgstr "nyckeln { $key } är numerisk och sträcker sig över flera fält"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-leading-blanks-significant"
+msgid ""
+"leading blanks are significant in key { $key }; consider also specifying 'b'"
+msgstr ""
+"inledande blanksteg är betydelsefulla i nyckeln { $key }. Överväg att också "
+"ange 'b'"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-numbers-use-decimal-point"
+msgid "numbers use '.' as a decimal point in this locale"
+msgstr "tal använder '.' som decimaltecken i denna språkinställning"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-options-ignored"
+msgid "options '-{ $options }' are ignored"
+msgstr "flaggorna '-{ $options }' ignoreras"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-option-ignored"
+msgid "option '-{ $option }' is ignored"
+msgstr "flaggan '-{ $option }' ignoreras"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-option-reverse-last-resort"
+msgid "option '-r' only applies to last-resort comparison"
+msgstr "flaggan ”-r” gäller bara jämförelsen som används som sista utväg"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-obsolescent-key"
+msgid ""
+"obsolescent key '{ $key }' used; consider '-k { $replacement }' instead"
+msgstr ""
+"föråldrad nyckel '{ $key }' används. Överväg '-k { $replacement }' i stället"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-separator-grouping"
+msgid "field separator '{ $sep }' is treated as a group separator in numbers"
+msgstr "fältavgränsaren '{ $sep }' behandlas som en gruppavgränsare i tal"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-separator-decimal"
+msgid "field separator '{ $sep }' is treated as a decimal point in numbers"
+msgstr "fältavgränsaren '{ $sep }' behandlas som decimaltecken i tal"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-separator-minus"
+msgid "field separator '{ $sep }' is treated as a minus sign in numbers"
+msgstr "fältavgränsaren '{ $sep }' behandlas som ett minustecken i tal"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-warning-separator-plus"
+msgid "field separator '{ $sep }' is treated as a plus sign in numbers"
+msgstr "fältavgränsaren '{ $sep }' behandlas som ett plustecken i tal"
+
+#. Help messages
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-help"
+msgid "Print help information."
+msgstr "Skriv ut hjälpinformation."
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-version"
+msgid "Print version information."
+msgstr "Skriv ut versionsinformation."
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-human-numeric"
+msgid "compare according to human readable sizes, eg 1M > 100k"
+msgstr "jämföra enligt mänskligt läsbara storlekar, t.ex. 1M > 100k"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-month"
+msgid "compare according to month name abbreviation"
+msgstr "jämför enligt månadens namnförkortning"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-numeric"
+msgid "compare according to string numerical value"
+msgstr "jämför enligt strängens numeriska värde"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-general-numeric"
+msgid "compare according to string general numerical value"
+msgstr "jämför enligt strängens allmänna numeriska värde"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-version-sort"
+msgid "Sort by SemVer version number, eg 1.12.2 > 1.1.2"
+msgstr "Sortera efter SemVer-versionsnummer, t.ex. 1.12.2 > 1.1.2"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-random"
+msgid "shuffle in random order"
+msgstr "sortera i slumpmässig ordning"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-random-source"
+msgid "use FILE as a source of random data"
+msgstr "använd FIL som källa till slumpdata"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-dictionary-order"
+msgid "consider only blanks and alphanumeric characters"
+msgstr "beakta endast mellanslag och alfanumeriska tecken"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-merge"
+msgid "merge already sorted files; do not sort"
+msgstr "sammanfoga redan sorterade filer; sortera inte"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-check"
+msgid "check for sorted input; do not sort"
+msgstr "kontrollera sorterad inmatning; sortera inte"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-check-silent"
+msgid ""
+"exit successfully if the given file is already sorted, and exit with status "
+"1 otherwise."
+msgstr ""
+"Avsluta korrekt om den angivna filen redan är sorterad och avsluta annars "
+"med status 1."
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-ignore-case"
+msgid "fold lower case to upper case characters"
+msgstr "konvertera gemener till versaler"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-ignore-nonprinting"
+msgid "ignore nonprinting characters"
+msgstr "ignorera tecken som inte kan skrivas ut"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-ignore-leading-blanks"
+msgid "ignore leading blanks when finding sort keys in each line"
+msgstr ""
+"ignorera inledande blanktecken vid sökning efter sorteringsnycklar på varje "
+"rad"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-output"
+msgid "write output to FILENAME instead of stdout"
+msgstr "skriv utdata till FILENAME istället för standard-ut"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-reverse"
+msgid "reverse the output"
+msgstr "reversera utskriften"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-stable"
+msgid "stabilize sort by disabling last-resort comparison"
+msgstr "stabilisera sorteringen genom att inaktivera sista-utväg jämförelsen"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-unique"
+msgid "output only the first of an equal run"
+msgstr "skriv enbart ut det första vid en sekvens av lika värden"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-key"
+msgid "sort by a key"
+msgstr "sortera efter en nyckel"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-separator"
+msgid "custom separator for -k"
+msgstr "anpassad separator för -k"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-zero-terminated"
+msgid "line delimiter is NUL, not newline"
+msgstr "radavgränsare är NUL, inte nyrad"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-parallel"
+msgid "change the number of threads running concurrently to NUM_THREADS"
+msgstr "ändra antalet trådar som körs samtidigt till NUM_THREADS"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-buf-size"
+msgid "sets the maximum SIZE of each segment in number of sorted items"
+msgstr "anger maximal SIZE för varje segment i antal sorterade objekt"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-tmp-dir"
+msgid "use DIR for temporaries, not $TMPDIR or /tmp"
+msgstr "använd DIR för temporära filer, inte $TMPDIR eller /tmp"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-compress-prog"
+msgid ""
+"compress temporary files with PROG, decompress with PROG -d; PROG has to "
+"take input from stdin and output to stdout"
+msgstr ""
+"komprimera temporära filer med PROG, dekomprimera med PROG -d; PROG måste ta"
+" indata från standard-in och utdata till standard-ut"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-batch-size"
+msgid "Merge at most N_MERGE inputs at once."
+msgstr "Sammanfoga högst N_MERGE inmatningar samtidigt."
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-files0-from"
+msgid "read input from the files specified by NUL-terminated NUL_FILE"
+msgstr "läs indata från filerna som anges av NUL-avslutad NUL_FILE"
+
+#, fluent-parts, fluent-references, fluent-source-inner-html, fluent-source-syntax, fluent-target-inner-html, fluent-target-syntax, fluent-type:Message, ignore-xml-invalid, ignore-xml-tags
+msgctxt "sort-help-debug"
+msgid "underline the parts of the line that are actually used for sorting"
+msgstr "understryk de delar av raden som faktiskt används för sortering"
