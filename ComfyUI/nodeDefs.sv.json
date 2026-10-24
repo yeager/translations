@@ -28641,5 +28641,36 @@
         "tooltip": null
       }
     }
-  }
+  },
+  "ComfyCloudMageFlowTurboTextToImageNode": {
+      "display_name": "Comfy Cloud Mage Flow Turbo Text till bild [BETA]",
+      "description": "BETA. Comfy Clouds noduppsättning förändras fortfarande: alternativ kan tillkomma eller tas bort och ett arbetsflöde kan avvecklas. Genererar en bild från en textuppmaning med destillerad Mage Flow i 4 steg vid CFG 1. Det använder ungefär en sjundedel av GPU-tiden för det fullständiga passet och lämpar sig därför för iteration. Körs på en Comfy Cloud GPU och debiteras per körtid med {'$'}0.001295 per GPU-sekund (0,27 krediter). Betalas med krediter och kräver inget Cloudabonnemang.",
+      "inputs": {
+        "prompt": {
+          "name": "uppmaning"
+        },
+        "negative_prompt": {
+          "name": "negativ uppmaning",
+          "tooltip": "Lämna tomt för att behålla den negativa uppmaning som denna pipeline har optimerats för."
+        },
+        "seed": {
+          "name": "slumptal"
+        },
+        "aspect_ratio": {
+          "name": "bildförhållande"
+        },
+        "megapixels": {
+          "name": "megapixlar",
+          "tooltip": "Total pixelbudget. 1,0 motsvarar ungefär 1024 × 1024 vid kvadratiskt bildförhållande."
+        },
+        "control_after_generate": {
+          "name": "styrning efter generering"
+        }
+      },
+      "outputs": {
+        "0": {
+          "tooltip": null
+        }
+      }
+    }
 }
