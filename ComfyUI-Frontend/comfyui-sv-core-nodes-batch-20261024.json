@@ -1,0 +1,106 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "CreateCameraInfo.inputs.camera_info_state.name",
+      "source": "camera_info_state",
+      "translation": "camera_info_tillstånd"
+    },
+    {
+      "key": "CreateVideo.inputs.codec.name",
+      "source": "codec",
+      "translation": "kodek"
+    },
+    {
+      "key": "CreateVideo.inputs.codec.tooltip",
+      "source": "Optionally encode the video immediately. None keeps the images in tensor form; Auto uses H.264.",
+      "translation": "Koda eventuellt videon direkt. Ingen behåller bilderna i tensorformat och Auto använder H.264."
+    },
+    {
+      "key": "ConditioningLoader.display_name",
+      "source": "Load Conditioning",
+      "translation": "Läs in konditionering"
+    },
+    {
+      "key": "ConditioningLoader.description",
+      "source": "Loads a conditioning saved with Save Conditioning, or any safetensors file with a 'conditioning' tensor, from the embeddings folder.",
+      "translation": "Läser in en konditionering som sparats med Spara konditionering, eller en safetensors-fil med en conditioning-tensor, från mappen embeddings."
+    },
+    {
+      "key": "ConditioningLoader.inputs.conditioning_name.name",
+      "source": "conditioning_name",
+      "translation": "konditioneringsnamn"
+    },
+    {
+      "key": "EmptyYuE2LatentAudio.display_name",
+      "source": "Empty YuE2 Latent Audio",
+      "translation": "Tomt latent YuE2-ljud"
+    },
+    {
+      "key": "EmptyYuE2LatentAudio.inputs.seconds.name",
+      "source": "seconds",
+      "translation": "sekunder"
+    },
+    {
+      "key": "EmptyYuE2LatentAudio.inputs.batch_size.name",
+      "source": "batch_size",
+      "translation": "batchstorlek"
+    },
+    {
+      "key": "EndLoop.display_name",
+      "source": "End Loop",
+      "translation": "Avsluta loop"
+    },
+    {
+      "key": "EndLoop.inputs.accumulate.name",
+      "source": "accumulate",
+      "translation": "samla"
+    },
+    {
+      "key": "EndLoop.inputs.accumulate.tooltip",
+      "source": "Return output_value from every iteration when enabled; otherwise return only the final iteration.",
+      "translation": "Returnera output_value från varje iteration när detta är aktiverat. Annars returneras bara den sista iterationen."
+    },
+    {
+      "key": "EndLoop.inputs.output_value.name",
+      "source": "output_value",
+      "translation": "output_value"
+    },
+    {
+      "key": "EndLoop.inputs.output_value.tooltip",
+      "source": "Value returned by End Loop. It returns the final iteration or all iterations according to accumulate.",
+      "translation": "Värde som returneras av Avsluta loop. Returnerar den sista iterationen eller alla iterationer enligt samla."
+    },
+    {
+      "key": "EndLoop.inputs.next_iteration_value.name",
+      "source": "next_iteration_value",
+      "translation": "nästa_iterationsvärde"
+    },
+    {
+      "key": "EndLoop.inputs.next_iteration_value.tooltip",
+      "source": "Value sent from End Loop back to Start Loop for the next iteration.",
+      "translation": "Värde som skickas från Avsluta loop tillbaka till Starta loop för nästa iteration."
+    },
+    {
+      "key": "EndLoop.inputs.terminations.name",
+      "source": "terminations",
+      "translation": "avslutningar"
+    },
+    {
+      "key": "EndLoop.inputs.terminations.tooltip",
+      "source": "Connect outputs that must execute on every iteration. Their values are not returned.",
+      "translation": "Anslut utdata som måste köras vid varje iteration. Deras värden returneras inte."
+    },
+    {
+      "key": "EndLoop.outputs.0.name",
+      "source": "outputs",
+      "translation": "utdata"
+    },
+    {
+      "key": "EndLoop.outputs.0.tooltip",
+      "source": "The final iteration's output_value, or values accumulated across iterations when accumulate is enabled.",
+      "translation": "Den sista iterationens output_value, eller värden som samlats över iterationer när samla är aktiverat."
+    }
+  ]
+}
