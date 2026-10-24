@@ -1,0 +1,56 @@
+{
+  "project": "ComfyUI_frontend",
+  "language": "sv",
+  "entries": [
+    {
+      "key": "ComfyCloudFlux2TextToImageNode.display_name",
+      "source": "Comfy Cloud Flux 2 Text to Image [BETA]",
+      "translation": "Comfy Cloud Flux 2 text till bild [BETA]"
+    },
+    {
+      "key": "ComfyCloudFlux2TextToImageNode.description",
+      "source": "BETA. The Comfy Cloud node set is still changing: options may be added or removed, and a workflow may be retired. Generates an image from a text prompt with Flux 2 dev. Turbo swaps in the chosen LoRA and a short schedule, trading a little fidelity for a much quicker run; switch it off for the full-length dev pass with no LoRA. Runs on a Comfy Cloud GPU, billed by how long it runs at {'$'}0.001295/GPU-second (0.27 credits). Paid in credits, no Cloud subscription required.",
+      "translation": "BETA. Comfy Clouds noduppsättning förändras fortfarande: alternativ kan läggas till eller tas bort och ett arbetsflöde kan tas ur bruk. Skapar en bild från en textprompt med Flux 2 dev. Turbo använder den valda LoRA:n och ett kort schema, vilket ger en mycket snabbare körning men något lägre precision. Stäng av den för hela dev-körningen utan LoRA. Körs på en GPU i Comfy Cloud och debiteras efter körtid med {'$'}0.001295 per GPU-sekund (0,27 krediter). Betalas med krediter och kräver ingen Cloud-prenumeration."
+    },
+    {
+      "key": "ComfyCloudFlux2TextToImageNode.inputs.prompt.name",
+      "source": "prompt",
+      "translation": "prompt"
+    },
+    {
+      "key": "ComfyCloudFlux2TextToImageNode.inputs.seed.name",
+      "source": "seed",
+      "translation": "slumptal"
+    },
+    {
+      "key": "ComfyCloudFlux2TextToImageNode.inputs.aspect_ratio.name",
+      "source": "aspect_ratio",
+      "translation": "bildförhållande"
+    },
+    {
+      "key": "ComfyCloudFlux2TextToImageNode.inputs.megapixels.name",
+      "source": "megapixels",
+      "translation": "megapixlar"
+    },
+    {
+      "key": "ComfyCloudFlux2TextToImageNode.inputs.megapixels.tooltip",
+      "source": "Total pixel budget. 1.0 is about 1024x1024 at a square ratio.",
+      "translation": "Total pixelbudget. 1,0 motsvarar ungefär 1024 × 1024 med kvadratiskt bildförhållande."
+    },
+    {
+      "key": "ComfyCloudFlux2TextToImageNode.inputs.turbo.name",
+      "source": "turbo",
+      "translation": "turbo"
+    },
+    {
+      "key": "ComfyCloudFlux2TextToImageNode.inputs.turbo.tooltip",
+      "source": "Run the Turbo LoRA on a short schedule, trading a little fidelity for a much quicker run. Off runs the full dev pass with no LoRA.",
+      "translation": "Kör Turbo LoRA med ett kort schema, vilket ger en mycket snabbare körning men något lägre precision. Av kör hela dev-körningen utan LoRA."
+    },
+    {
+      "key": "ComfyCloudFlux2TextToImageNode.inputs.control_after_generate.name",
+      "source": "control after generate",
+      "translation": "kontroll efter generering"
+    }
+  ]
+}
