@@ -13,3 +13,5 @@ du-after-help =
       - ? matchar exakt ett tecken
       - { "*" } matchar noll eller fler tecken
       - { "{" }a,b{ "}" } matchar a eller b
+
+du-help-print-help = Skriv ut hjälpinformation.
