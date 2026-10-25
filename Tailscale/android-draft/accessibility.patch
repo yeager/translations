@@ -90,6 +90,73 @@ index d45d5a4..e1529e9 100644
                      )
                    }
  
+diff --git a/android/src/main/java/com/tailscale/ipn/ui/view/PermissionsView.kt b/android/src/main/java/com/tailscale/ipn/ui/view/PermissionsView.kt
+index 079ff58..e23a28c 100644
+--- a/android/src/main/java/com/tailscale/ipn/ui/view/PermissionsView.kt
++++ b/android/src/main/java/com/tailscale/ipn/ui/view/PermissionsView.kt
+@@ -80,7 +80,7 @@ fun PermissionsView(
+               val displayPath =
+                   permissionsViewModel.currentDir.collectAsState().value?.let {
+                     friendlyDirName(it)
+-                  } ?: "No access"
++                  } ?: stringResource(R.string.no_access)
+ 
+               Text(displayPath)
+             },
+diff --git a/android/src/main/java/com/tailscale/ipn/ui/view/RunExitNodeView.kt b/android/src/main/java/com/tailscale/ipn/ui/view/RunExitNodeView.kt
+index b234a1b..19c592f 100644
+--- a/android/src/main/java/com/tailscale/ipn/ui/view/RunExitNodeView.kt
++++ b/android/src/main/java/com/tailscale/ipn/ui/view/RunExitNodeView.kt
+@@ -91,7 +91,7 @@ fun RunExitNodeGraphic() {
+   fun ArrowForward() {
+     Icon(
+         Icons.AutoMirrored.Outlined.ArrowForward,
+-        "Arrow Forward",
++        stringResource(R.string.accessibility_arrow_forward),
+         modifier = Modifier.size(24.dp),
+         tint = MaterialTheme.colorScheme.onSurfaceVariant,
+     )
+@@ -104,21 +104,21 @@ fun RunExitNodeGraphic() {
+   ) {
+     Icon(
+         painter = painterResource(id = R.drawable.computer),
+-        "Computer icon",
++        stringResource(R.string.accessibility_computer),
+         tint = MaterialTheme.colorScheme.onSurface,
+         modifier = Modifier.size(36.dp),
+     )
+     ArrowForward()
+     Icon(
+         painter = painterResource(id = R.drawable.android),
+-        "Android icon",
++        stringResource(R.string.accessibility_android),
+         tint = MaterialTheme.colorScheme.onSurface,
+         modifier = Modifier.size(36.dp),
+     )
+     ArrowForward()
+     Icon(
+         painter = painterResource(id = R.drawable.globe),
+-        "Globe icon",
++        stringResource(R.string.accessibility_globe),
+         tint = MaterialTheme.colorScheme.onSurface,
+         modifier = Modifier.size(36.dp),
+     )
+diff --git a/android/src/main/java/com/tailscale/ipn/ui/view/SearchView.kt b/android/src/main/java/com/tailscale/ipn/ui/view/SearchView.kt
+index ae0c2af..4070200 100644
+--- a/android/src/main/java/com/tailscale/ipn/ui/view/SearchView.kt
++++ b/android/src/main/java/com/tailscale/ipn/ui/view/SearchView.kt
+@@ -229,7 +229,10 @@ fun SearchView(
+                       supportingContent = {
+                         Column {
+                           Text(peerSet.sectionTitle())
+-                          Text(peer.Addresses?.firstOrNull()?.split("/")?.first() ?: "No IP")
++                          Text(
++                              peer.Addresses?.firstOrNull()?.split("/")?.first()
++                                  ?: stringResource(R.string.no_ip_address)
++                          )
+                         }
+                       },
+                       modifier =
 diff --git a/android/src/main/java/com/tailscale/ipn/ui/view/SharedViews.kt b/android/src/main/java/com/tailscale/ipn/ui/view/SharedViews.kt
 index ef71af6..1478159 100644
 --- a/android/src/main/java/com/tailscale/ipn/ui/view/SharedViews.kt
@@ -111,6 +178,20 @@ index ef71af6..1478159 100644
          modifier = iconModifier,
      )
    }
+diff --git a/android/src/main/java/com/tailscale/ipn/ui/view/TaildropDirView.kt b/android/src/main/java/com/tailscale/ipn/ui/view/TaildropDirView.kt
+index efe1dea..cbe0145 100644
+--- a/android/src/main/java/com/tailscale/ipn/ui/view/TaildropDirView.kt
++++ b/android/src/main/java/com/tailscale/ipn/ui/view/TaildropDirView.kt
+@@ -59,7 +59,8 @@ fun TaildropDirView(
+       item {
+         val currentDir by permissionsViewModel.currentDir.collectAsState()
+         TSLog.d("TaildropDirView", "currentDir in UI: $currentDir")
+-        val displayPath = currentDir?.let { friendlyDirName(it) } ?: "No access"
++        val displayPath =
++            currentDir?.let { friendlyDirName(it) } ?: stringResource(R.string.no_access)
+ 
+         ListItem(
+             headlineContent = {
 diff --git a/android/src/main/java/com/tailscale/ipn/ui/view/TaildropView.kt b/android/src/main/java/com/tailscale/ipn/ui/view/TaildropView.kt
 index 13798dc..4b1d7dc 100644
 --- a/android/src/main/java/com/tailscale/ipn/ui/view/TaildropView.kt
@@ -152,12 +233,18 @@ index 13798dc..4b1d7dc 100644
          )
    }
 diff --git a/android/src/main/res/values/strings.xml b/android/src/main/res/values/strings.xml
-index 27f4f9f..0011dd4 100644
+index 27f4f9f..d1b72ce 100644
 --- a/android/src/main/res/values/strings.xml
 +++ b/android/src/main/res/values/strings.xml
-@@ -1,5 +1,12 @@
+@@ -1,5 +1,18 @@
  <?xml version="1.0" encoding="utf-8"?>
  <resources>
++    <string name="no_access">No access</string>
++    <string name="no_ip_address">No IP address</string>
++    <string name="accessibility_arrow_forward">Arrow forward</string>
++    <string name="accessibility_computer">Computer icon</string>
++    <string name="accessibility_android">Android icon</string>
++    <string name="accessibility_globe">Globe icon</string>
 +    <string name="accessibility_ping_device">Ping device</string>
 +    <string name="accessibility_scan_login">Scan to log in</string>
 +    <string name="accessibility_green_checkmark">A green checkmark</string>
