@@ -7,7 +7,7 @@ more-error-cannot-open = kunde inte öppna {$path}: {$error}
 more-error-bad-usage = felaktig användning
 more-error-cannot-seek-to-line = kunde inte söka till radnummer {$line}
 more-error-pattern-not-found = mönstret hittades inte
-more-error-unknown-key = okänd tangent: '{$key}'. Tryck på 'h' för instruktioner. Inte implementerad.
+more-error-unknown-key = Okänd tangent: '{$key}'. Tryck på 'h' för instruktioner. (inte implementerat)
 
 # Help messages
 more-help-silent = visa hjälp i stället för att låta terminalklockan ljuda när en ogiltig tangent trycks ned
