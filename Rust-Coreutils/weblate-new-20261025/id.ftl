@@ -6,3 +6,9 @@ id-after-help =
     Om en användare anges (med inloggningsnamn eller användar-ID) visas användarens
     användar- och grupp-ID. I det fallet antas verkligt och effektivt ID
     vara samma.
+
+id-help-name =
+    Visa namnet för användar- eller grupp-ID:t med flaggorna -G, -g och -u
+    i stället för numret.
+    Om ett ID inte kan kopplas till ett namn visas
+    numret som vanligt.
