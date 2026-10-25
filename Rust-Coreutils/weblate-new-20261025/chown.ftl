@@ -3,3 +3,5 @@ chown-help-from =
     ägaren och/eller gruppen matchar de värden som anges här.
     Endera kan utelämnas; då krävs ingen matchning
     för det utelämnade attributet
+
+chown-help-print-help = Skriv ut hjälpinformation.
