@@ -1,0 +1,170 @@
+diff --git a/android/src/main/java/com/tailscale/ipn/ui/view/HealthView.kt b/android/src/main/java/com/tailscale/ipn/ui/view/HealthView.kt
+index fa84d4c..21f9126 100644
+--- a/android/src/main/java/com/tailscale/ipn/ui/view/HealthView.kt
++++ b/android/src/main/java/com/tailscale/ipn/ui/view/HealthView.kt
+@@ -63,7 +63,7 @@ fun HealthView(backToSettings: BackNavigation, model: HealthViewModel = viewMode
+             Icon(
+                 painter = painterResource(id = R.drawable.check_circle),
+                 modifier = Modifier.size(48.dp),
+-                contentDescription = "A green checkmark",
++                contentDescription = stringResource(R.string.accessibility_green_checkmark),
+                 tint = MaterialTheme.colorScheme.success,
+             )
+             Column(
+diff --git a/android/src/main/java/com/tailscale/ipn/ui/view/LoginQRView.kt b/android/src/main/java/com/tailscale/ipn/ui/view/LoginQRView.kt
+index e65b099..4c943cb 100644
+--- a/android/src/main/java/com/tailscale/ipn/ui/view/LoginQRView.kt
++++ b/android/src/main/java/com/tailscale/ipn/ui/view/LoginQRView.kt
+@@ -64,7 +64,7 @@ fun LoginQRView(onDismiss: () -> Unit = {}, model: LoginQRViewModel = viewModel(
+           image?.let {
+             Image(
+                 bitmap = it,
+-                contentDescription = "Scan to login",
++                contentDescription = stringResource(R.string.accessibility_scan_login),
+                 modifier = Modifier.fillMaxSize(),
+             )
+           }
+diff --git a/android/src/main/java/com/tailscale/ipn/ui/view/MainView.kt b/android/src/main/java/com/tailscale/ipn/ui/view/MainView.kt
+index ce2d994..45484df 100644
+--- a/android/src/main/java/com/tailscale/ipn/ui/view/MainView.kt
++++ b/android/src/main/java/com/tailscale/ipn/ui/view/MainView.kt
+@@ -452,7 +452,7 @@ private fun SettingsButton(action: () -> Unit) {
+   IconButton(modifier = Modifier.size(24.dp), onClick = { action() }) {
+     Icon(
+         Icons.Outlined.Settings,
+-        contentDescription = "Open settings",
++        contentDescription = stringResource(R.string.accessibility_open_settings),
+         tint = MaterialTheme.colorScheme.onSurfaceVariant,
+     )
+   }
+@@ -532,7 +532,8 @@ fun ConnectView(
+           Icon(
+               modifier = Modifier.size(40.dp),
+               imageVector = Icons.Outlined.Lock,
+-              contentDescription = "Device requires authentication",
++              contentDescription =
++                  stringResource(R.string.accessibility_device_requires_authentication),
+           )
+           Text(
+               text = stringResource(id = R.string.machine_auth_required),
+@@ -748,7 +749,10 @@ fun PeerList(
+               shape = MaterialTheme.shapes.extraLarge,
+               colors = MaterialTheme.colorScheme.searchBarColors,
+               leadingIcon = {
+-                Icon(imageVector = Icons.Outlined.Search, contentDescription = "search")
++                Icon(
++                    imageVector = Icons.Outlined.Search,
++                    contentDescription = stringResource(R.string.search),
++                )
+               },
+               trailingIcon = {
+                 if (isSearchFocussed) {
+@@ -762,7 +766,7 @@ fun PeerList(
+                         imageVector =
+                             if (searchTermStr.isEmpty()) Icons.Outlined.Close
+                             else Icons.Outlined.Clear,
+-                        contentDescription = "clear search",
++                        contentDescription = stringResource(R.string.clear_search),
+                         tint = MaterialTheme.colorScheme.onSurfaceVariant,
+                     )
+                   }
+@@ -1078,7 +1082,7 @@ fun Search(
+         // Leading Icon
+         Icon(
+             imageVector = Icons.Outlined.Search,
+-            contentDescription = "Search",
++            contentDescription = stringResource(R.string.search),
+             tint = MaterialTheme.colorScheme.onSurfaceVariant,
+             modifier = Modifier.padding(start = 0.dp), // Optional start padding for alignment
+         )
+diff --git a/android/src/main/java/com/tailscale/ipn/ui/view/PeerDetails.kt b/android/src/main/java/com/tailscale/ipn/ui/view/PeerDetails.kt
+index d45d5a4..e1529e9 100644
+--- a/android/src/main/java/com/tailscale/ipn/ui/view/PeerDetails.kt
++++ b/android/src/main/java/com/tailscale/ipn/ui/view/PeerDetails.kt
+@@ -92,7 +92,7 @@ fun PeerDetails(
+                   IconButton(onClick = { model.startPing() }) {
+                     Icon(
+                         painter = painterResource(R.drawable.sensors_24),
+-                        contentDescription = "Ping device",
++                        contentDescription = stringResource(R.string.accessibility_ping_device),
+                     )
+                   }
+ 
+diff --git a/android/src/main/java/com/tailscale/ipn/ui/view/SharedViews.kt b/android/src/main/java/com/tailscale/ipn/ui/view/SharedViews.kt
+index ef71af6..1478159 100644
+--- a/android/src/main/java/com/tailscale/ipn/ui/view/SharedViews.kt
++++ b/android/src/main/java/com/tailscale/ipn/ui/view/SharedViews.kt
+@@ -36,6 +36,7 @@ import androidx.compose.ui.focus.onFocusChanged
+ import androidx.compose.ui.graphics.Color
+ import androidx.compose.ui.res.stringResource
+ import androidx.compose.ui.unit.dp
++import com.tailscale.ipn.R
+ import com.tailscale.ipn.ui.theme.topAppBar
+ import com.tailscale.ipn.ui.theme.ts_color_light_blue
+ import com.tailscale.ipn.ui.util.AndroidTVUtil.isAndroidTV
+@@ -109,7 +110,7 @@ fun BackArrow(action: () -> Unit, focusRequester: FocusRequester) {
+   Box(modifier = boxModifier.padding(start = 8.dp, end = 8.dp)) {
+     Icon(
+         Icons.AutoMirrored.Filled.ArrowBack,
+-        contentDescription = "Go back to the previous screen",
++        contentDescription = stringResource(R.string.back),
+         modifier = iconModifier,
+     )
+   }
+diff --git a/android/src/main/java/com/tailscale/ipn/ui/view/TaildropView.kt b/android/src/main/java/com/tailscale/ipn/ui/view/TaildropView.kt
+index 13798dc..4b1d7dc 100644
+--- a/android/src/main/java/com/tailscale/ipn/ui/view/TaildropView.kt
++++ b/android/src/main/java/com/tailscale/ipn/ui/view/TaildropView.kt
+@@ -215,7 +215,7 @@ fun IconForTransfer(transfers: List<Ipn.OutgoingFile>) {
+     0 ->
+         Icon(
+             painter = painterResource(R.drawable.warning),
+-            contentDescription = "no files",
++            contentDescription = stringResource(R.string.no_files_to_share),
+             modifier = Modifier.size(32.dp),
+         )
+     1 -> {
+@@ -237,7 +237,7 @@ fun IconForTransfer(transfers: List<Ipn.OutgoingFile>) {
+         if (it.startsWith("image/")) {
+           AsyncImage(
+               model = only.uri,
+-              contentDescription = "one file",
++              contentDescription = stringResource(R.string.accessibility_single_file),
+               modifier = Modifier.size(40.dp),
+           )
+           return
+@@ -245,7 +245,7 @@ fun IconForTransfer(transfers: List<Ipn.OutgoingFile>) {
+ 
+         Icon(
+             painter = painterResource(R.drawable.single_file),
+-            contentDescription = "files",
++            contentDescription = stringResource(R.string.accessibility_single_file),
+             modifier = Modifier.size(40.dp),
+         )
+       }
+@@ -253,7 +253,7 @@ fun IconForTransfer(transfers: List<Ipn.OutgoingFile>) {
+     else ->
+         Icon(
+             painter = painterResource(R.drawable.single_file),
+-            contentDescription = "files",
++            contentDescription = stringResource(R.string.accessibility_files),
+             modifier = Modifier.size(40.dp),
+         )
+   }
+diff --git a/android/src/main/res/values/strings.xml b/android/src/main/res/values/strings.xml
+index 27f4f9f..0011dd4 100644
+--- a/android/src/main/res/values/strings.xml
++++ b/android/src/main/res/values/strings.xml
+@@ -1,5 +1,12 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
++    <string name="accessibility_ping_device">Ping device</string>
++    <string name="accessibility_scan_login">Scan to log in</string>
++    <string name="accessibility_green_checkmark">A green checkmark</string>
++    <string name="accessibility_open_settings">Open settings</string>
++    <string name="accessibility_device_requires_authentication">Device requires authentication</string>
++    <string name="accessibility_single_file">One file</string>
++    <string name="accessibility_files">Files</string>
+ 
+     <!-- Generic Strings -->
+     <string name="log_in">Log in</string>
