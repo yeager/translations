@@ -10,4 +10,6 @@ This folder contains an in-progress, unapproved Swedish manuscript candidate set
 - The audio files and sequence demo are in the local deliverable, not this repository branch. The complete sound pack, human script approval, listening review, full distribution builds, live FreeSWITCH test, and redistribution-rights review remain incomplete.
 - Local QA: `l10n-lint` checked 290 entries with no typo/terminology findings; `svlang skrivregler` reported no writing-rule findings; Hunspell flagged nine spoken names (`eff`, `ell`, `em`, `err`, `ji`, `ku`, `kå`, `pe`, `Qvintus`); they need pronunciation review.
 
+- `glossary.tsv` records the package terms used for linting: `voicemail` → `röstbrevlåda`, `extension` → `anknytning`, `inbox` → `inkorg`, and `email` → `e-post`.
+
 Related upstream FreeSWITCH changes remain open: [PR #3242](https://github.com/signalwire/freeswitch/pull/3242) and [PR #3243](https://github.com/signalwire/freeswitch/pull/3243).
