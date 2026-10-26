@@ -43,3 +43,5 @@ Kompletterande verktygskontroll 2026-10-26: den svenska Hunspell-ordlistan fanns
 2026-10-26: Sex kontroller avfärdades efter jämförelse: färgobjektets borttagningsdialog, problem i singular och plural, utdatafält i singular och plural samt datainmatningsfältets borttagningsdialog som kontrollerades i data_input.php. Debugging/Debug/Troubleshooting lämnades för ytterligare sammanhangskontroll. Inga översättningstexter ändrades; 103 kontroller återstod.
 
 2026-10-26: Sex ytterligare kontroller granskades och avfärdades. Källkoden visar felsökningssammanhanget för Debugging, samma dialog för borttagning av datainmatningsfält och användningen av datafrågor; övriga gäller likvärdiga uttryck för rader, år och insamlingsintervall. Inga svenska texter ändrades. Weblate visade 97 återstående kontroller.
+
+2026-10-26: Sex kontroller avfärdades efter jämförelse av datakällans namn, aggregat, mallar och GPRINT-förinställningar. Källkoden visar att GPRINTs används på sidan för GPRINT-förinställningar. Inga översättningstexter ändrades; Weblate visade 91 återstående kontroller.
