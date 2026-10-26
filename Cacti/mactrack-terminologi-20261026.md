@@ -15,3 +15,5 @@ Cycle undantogs från nytt arbete eftersom senaste release v4.1 publicerades 201
 2026-10-26: Syslog ”Alert Name” ändrades till ”Larmnamn”, medan Mactrack ”Watch Name” behåller ”Bevakningens namn”. Uppladdning i Weblate bekräftade en uppdaterad sträng. msgfmt och l10n-lint godkända.
 
 2026-10-26: Weblates aktuella vy visar MAC Addresses, Mac Addresses och MAC's som ”MAC-adresser” i Mactrack. Den äldre arkivfilen innehöll singular för Mac Addresses, men den aktuella översättningen är redan rättad. Weblate visar ändå en inkonsekvensvarning; orsaken är ännu inte verifierad och varningen har inte avfärdats.
+
+2026-10-26: Intropage: ”Disable panel move/enable copy text from panel” rättades så att kopiering aktiveras. Weblate bekräftade en uppdaterad sträng. msgfmt, l10n-lint och Hunspell kontrollerades. Senaste release v4.0.4: 2024-04-26.
