@@ -28,3 +28,7 @@ PS5-specifika gränssnittstexterna. Den svenska katalogen hade 60 av 78
 
 Ingen konsolkörning har utförts. Ändringen är avgränsad till PSP5:s egen
 språkresurs och dess generator.
+
+Upstreamstatus: skickad som [PR #8](https://github.com/tsuramatsu1/psp5/pull/8)
+mot den aktuella releasen. Den är öppen och väntar på underhållargranskning;
+ingen CI-körning syns ännu.
