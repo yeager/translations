@@ -1,0 +1,69 @@
+{
+  "status": "MODEL_ONLY_CALLER_ENCODING_UNVERIFIED",
+  "source_commit": "02857682b56626f06f72b91730415084b892bfee",
+  "model": "Unsigned byte values; ASCII lowercase conversion only, matching the defined C tolower result when char is unsigned.",
+  "limitation": "This does not run FreeSWITCH, observe the actual caller encoding, or model undefined behavior from signed high-bit char passed to tolower.",
+  "c_locale": "C.UTF-8",
+  "examples": [
+    {
+      "character": "ä",
+      "utf8_bytes_hex": "C3 A4",
+      "utf8_modeled_lookup_ids": [
+        195,
+        164
+      ],
+      "utf8_modeled_paths": [
+        "ascii/195.wav",
+        "ascii/164.wav"
+      ],
+      "cp437_byte_hex": "84",
+      "cp437_modeled_lookup_ids": [
+        132
+      ],
+      "cp437_modeled_paths": [
+        "ascii/132.wav"
+      ],
+      "expected_legacy_resource": "ascii/132.wav"
+    },
+    {
+      "character": "å",
+      "utf8_bytes_hex": "C3 A5",
+      "utf8_modeled_lookup_ids": [
+        195,
+        165
+      ],
+      "utf8_modeled_paths": [
+        "ascii/195.wav",
+        "ascii/165.wav"
+      ],
+      "cp437_byte_hex": "86",
+      "cp437_modeled_lookup_ids": [
+        134
+      ],
+      "cp437_modeled_paths": [
+        "ascii/134.wav"
+      ],
+      "expected_legacy_resource": "ascii/134.wav"
+    },
+    {
+      "character": "ö",
+      "utf8_bytes_hex": "C3 B6",
+      "utf8_modeled_lookup_ids": [
+        195,
+        182
+      ],
+      "utf8_modeled_paths": [
+        "ascii/195.wav",
+        "ascii/182.wav"
+      ],
+      "cp437_byte_hex": "94",
+      "cp437_modeled_lookup_ids": [
+        148
+      ],
+      "cp437_modeled_paths": [
+        "ascii/148.wav"
+      ],
+      "expected_legacy_resource": "ascii/148.wav"
+    }
+  ]
+}
