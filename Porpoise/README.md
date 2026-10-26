@@ -44,3 +44,7 @@ platsmarkörer jämfördes med den engelska källistan utan avvikelser.
 Ytterligare hjälprader för bredbild, ljudläge, rörelsekontroll, sandlådeläge
 och spelinställningar har skrivits om från engelska till konsekvent svenska.
 PR skapas först när samma radgranskning har täckt återstående hjälptexter.
+
+Vanliga återstående engelska etiketter har också granskats och översatts,
+däribland ljud, teckensnitt, enheter, kontrollbilder, MMU och
+GameCube-startanimation.
