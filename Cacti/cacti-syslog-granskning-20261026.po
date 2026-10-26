@@ -1,0 +1,109 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2026-10-16 14:29-0400\n"
+"PO-Revision-Date: 2026-10-26 11:54+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.cacti.net/projects/cacti/syslog/sv/>\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: includes/functions.php
+#, php-format
+msgid "Syslog pipeline health - collector %d"
+msgstr "Status för Syslog-pipelinen – insamlare %d"
+
+#: includes/functions.php
+#, php-format
+msgid "Cacti Syslog Threshold Alert '%s' for Host '%s'"
+msgstr "Cacti Syslog-tröskellarm '%s' för värden '%s'"
+
+#: includes/functions.php
+#, php-format
+msgid "Cacti Syslog Threshold Alert '%s'"
+msgstr "Cacti Syslog-tröskellarm '%s'"
+
+#: includes/functions.php
+#, php-format
+msgid "Cacti Syslog Alert '%s' for Host '%s'"
+msgstr "Cacti Syslog-larm '%s' för värden '%s'"
+
+#: includes/functions.php
+#, php-format
+msgid "Cacti Syslog Alert '%s'"
+msgstr "Cacti Syslog-larm '%s'"
+
+#: includes/functions.php
+#, php-format
+msgid "WARNING: A Syslog Threshold Alert has Been Triggered for Host '%s'"
+msgstr "VARNING: Ett Syslog-tröskellarm har utlösts för värden '%s'"
+
+#: includes/functions.php
+msgid "WARNING: A Syslog Threshold Alert has Been Triggered"
+msgstr "VARNING: Ett Syslog-tröskellarm har utlösts"
+
+#: includes/functions.php
+#, php-format
+msgid "Event Alert - %s"
+msgstr "Händelselarm – %s"
+
+#: includes/installer.php
+msgid "Background Upgrade"
+msgstr "Uppgradering i bakgrunden"
+
+#: includes/installer.php
+msgid ""
+"The upgrade of the 'main' syslog table can be a very time consuming process."
+"  As such, it is recommended that you either reduce the size of your syslog "
+"table prior to upgrading, or choose the background option</p> <p>If you "
+"choose the background option, your legacy syslog table will be renamed, and "
+"a new syslog table will be created.  Then, an upgrade process will be "
+"launched in the background.  Again, this background process can quite a bit "
+"of time to complete.  However, your data will be preserved</p> <p>Regardless"
+" of your choice, all existing removal and alert rules will be maintained "
+"during the upgrade process.</p> <p>Press <b>'Upgrade'</b> to proceed with "
+"the upgrade, or <b>'Cancel'</b> to return to the Plugins menu."
+msgstr ""
+"Uppgraderingen av den huvudsakliga syslog-tabellen kan ta mycket lång tid. "
+"Därför rekommenderas att du antingen minskar tabellens storlek före "
+"uppgraderingen eller väljer bakgrundsalternativet.</p> <p>Om du väljer "
+"bakgrundsalternativet byter den gamla syslog-tabellen namn och en ny skapas."
+" Därefter startas uppgraderingen i bakgrunden. Även den kan ta lång tid, men"
+" dina data bevaras.</p> <p>Alla befintliga borttagnings- och larmregler "
+"bevaras under uppgraderingen, oavsett vilket alternativ du väljer.</p> "
+"<p>Tryck på <b>'Uppgradera'</b> för att fortsätta eller <b>'Avbryt'</b> för "
+"att återgå till menyn för insticksmoduler."
+
+#: includes/installer.php
+msgid "Syslog Uninstall Preferences"
+msgstr "Inställningar för avinstallation av Syslog"
+
+#: includes/navigation.php
+msgid "Syslog Removals"
+msgstr "Borttagning av Syslog-poster"
+
+#: includes/navigation.php
+msgid "Syslog Alerts"
+msgstr "Syslog-larm"
+
+#: includes/settings.php
+msgid "Command for Opening Tickets"
+msgstr "Kommando för att öppna ärenden"
+
+#: includes/settings.php
+msgid ""
+"This command will be executed for opening Help Desk Tickets.  The command "
+"will be required to parse multiple input parameters as follows: <b>--alert-"
+"name</b>, <b>--severity</b>, <b>--hostlist</b>, <b>--message</b>.  The "
+"hostlist will be a comma delimited list of hosts impacted by the alert."
+msgstr ""
+"Det här kommandot körs för att öppna supportärenden. Kommandot måste kunna "
+"tolka följande parametrar: <b>--alert-name</b>, <b>--severity</b>, "
+"<b>--hostlist</b>, <b>--message</b>. Värdlistan är en kommaseparerad lista "
+"över värdar som berörs av larmet."
