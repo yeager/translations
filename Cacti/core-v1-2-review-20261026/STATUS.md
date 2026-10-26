@@ -19,3 +19,5 @@ Fyra cache- och loggtexter skickades via webbläsaren och Weblate bekräftade fy
 Två licenstexter och en knapphänvisning rättades och skickades via webbläsaren. Weblate bekräftade 3 uppdaterade, 0 överhoppade och 0 saknade. PO-filen klarade msgfmt --check --check-format. Granskningen av återanvändningsvarningar återstår.
 
 Fem rättelser av objekt- och prefixterminologi skickades via webbläsaren. Weblate bekräftade 5 uppdaterade, 0 överhoppade och 0 saknade. PO-filen klarade msgfmt --check --check-format. Återanvändningsvarningarna granskas vidare.
+
+Återanvändningskontrollen: sidorna 2–4 i bläddringsvyn har granskats översiktligt. Träffarna gäller bland annat singular och plural som har samma svenska form, likvärdiga engelska formuleringar och identiska knapptexter. Kontroll av respektive motsträng och sammanhang återstår för en fullständig bedömning; inga varningar har avfärdats.
