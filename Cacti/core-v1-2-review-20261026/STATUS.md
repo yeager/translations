@@ -25,3 +25,5 @@ Fem rättelser av objekt- och prefixterminologi skickades via webbläsaren. Webl
 Tre hjälptexter om resurscache, statistik och RRD-filer rättades. Weblate bekräftade 3 uppdaterade, 0 överhoppade och 0 saknade. PO-filen klarade msgfmt --check --check-format.
 
 De två kvarvarande pluralvarningarna för ”Avpublicera träd” och ”Lås upp träd” granskades och avfärdades i Weblate: träd har samma obestämda form i singular och plural. Sökningen efter identiska pluralformer visar därefter inga träffar.
+
+Fjorton rättelser av konfigurations- och databastekster skickades via webbläsaren. Weblate bekräftade 14 uppdaterade, 0 överhoppade och 0 saknade. PHP-variabelnamn återställdes och PO-filen klarade msgfmt --check --check-format. Granskningen fortsätter.
