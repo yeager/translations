@@ -130,3 +130,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Motsvarande bekräftelser för att aktivera och inaktivera aviseringsmottagare granskades i Core 1.2. De fyra kontrollerna för slutpunkt och identiska pluralformer avfärdades: de svenska meningarna är fullständiga och mottagare har samma obestämda form i singular och plural. Weblate visade båda kontrollerna som avfärdade för båda strängarna.
 
 2026-10-26: Granskning av graftexterna i Core 1.2 gav ett utkast med tre språkliga rättelser i cacti-core-v1-2-x-grafutkast-20261026.po. Källtext och aktuell svensk text jämfördes i Weblate; den äldre exportens felaktiga ”Empty Graph” var redan rättat. Utkastet är inte uppladdat och behöver ingå i den fortsatta komponentgranskningen. msgfmt och l10n-lint passerade, liksom Hunspell för de svenska orden.
+
+2026-10-26: Återanvändningskontrollen för Core 1.2 ”%s Hours” granskades mot ”%s Hrs”. Båda anger timmar och översättningen ”%s timmar” passar; kontrollen avfärdades i Weblate.
