@@ -13,3 +13,5 @@ Ytterligare granskning: Fyra varningar om återanvänd översättning avfärdade
 Kontroll av ”Pollers”: I core 1.2 använder automation_devices.php etiketten för en väljare med poller_id; pollers.php hämtar samma poller-tabell. script_server.php beskriver poller-id som id för en datainsamlare. ”Insamlare” fungerar både som singular och plural i detta sammanhang. Varningen om återanvänd översättning avfärdades i Weblate; ingen översättning ändrades.
 
 Fortsatt granskning av core 1.2: Sex varningar om återanvändning avfärdades efter jämförelse med källtexterna. Två gällde varianter av ”Item # %d” med samma betydelse; fyra gällde singular/plural-varianter för borttagning eller duplicering av data-, graf- och GPRINT-mallar/förinställningar. Inga översättningar ändrades.
+
+Ytterligare fem varningar om återanvändning avfärdades efter jämförelse av likvärdiga källsträngar: duplicera grafmallar och grafer, skapa aggregerad graf samt aktivera och inaktivera enheter. Inga översättningstexter ändrades.
