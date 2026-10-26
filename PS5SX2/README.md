@@ -17,8 +17,14 @@ Batch 003 kompletterar 120 icke-plurala gränssnittstexter, bland annat
 inställningar för skärmvisning, minneskort, OSD-teckensnitt och
 handkontroller. Katalogen är XML-validerad, platsmarkörerna i den nya
 batchen är kontrollerade och den ändrade patchen är kontrollerad med
-Gitleaks. Katalogen har fortfarande 108 oavslutade meddelanden, främst
-plurals och längre hjälptexter som kräver kontextuell granskning.
+Gitleaks.
+
+Batch 004 granskar och översätter de återstående 108 meddelandena, inklusive
+OSD-hjälptexter, RetroAchievements-flödet, minneskort, teckensnittsval och
+maskinvaruinställningar. Katalogen har nu noll oavslutade meddelanden.
+XML-struktur, ändringsdiff, berörda platsmarkörer och Gitleaks har
+kontrollerats. Den fullständiga katalogen har äldre lintlarm utanför denna
+batch som behöver hanteras separat innan en formell kvalitetsmarkering.
 
 Projektets `AGENTS.md` förbjuder
 att skapa pull requests, så den färdiga satsen ska endast arkiveras och
