@@ -11,3 +11,5 @@ På tredje sidan har tre nya Crowdin-förslag lagts för kompatibilitetsstatusen
 På fjärde sidan har fem förslag lämnats för tilldelning av kontroller, kryptonycklar och nyckelfiler. Ursprungliga översättningar är fortsatt godkända. [Kopia med källtext och kontext](shadps4-sv-review-20261026-page4.json). Svlang och Hunspell-sv gav inga träffar; l10n-lint gav en längdvarning för ”Fake Keyset” men inga fel. Gitleaks gav inga fynd i kopian.
 
 På femte sidan har fyra förslag om nyckelvalidering och spelkonfigurationer lämnats i Crowdin. Befintliga översättningar är fortfarande godkända. [Kopia med källtext och kontext](shadps4-sv-review-20261026-page5.json). L10n-lint, svlang, Hunspell-sv och Gitleaks gav inga fynd på satsen.
+
+På sjätte sidan har sju rättningsförslag lämnats för kompatibilitet, kopiering, trofévisning och sparade data. De äldre översättningarna är godkända i Crowdin; förslagen väntar på granskning. [Kopia med källtext och kontext](shadps4-sv-review-20261026-page6.json). L10n-lint, svlang, Hunspell-sv och Gitleaks gav inga fynd på satsen.
