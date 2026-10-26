@@ -17,3 +17,8 @@ att hela katalogen redan har språkgranskats rad för rad.
 `l10n-lint` upptäcker återstående kandidater i den stora katalogen, men flera
 är medvetet lika pluralformer, produktnamn eller kontrollens falska positiva
 träffar. Fortsatt radgranskning behövs för övriga språkval och hjälprader.
+
+Den 27 oktober 2026 skickades batchen som
+[PR #85](https://github.com/premohq/PS5-ECAM/pull/85). Pull requesten är
+öppen och markerades vid inskick som `UNSTABLE`; den har ännu varken
+underhållargranskning eller rapporterade CI-resultat.
