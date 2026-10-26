@@ -21,5 +21,5 @@ Kontroller:
 - `svlang` och `l10n-lint` saknar stöd för projektets egna `.lang`-format;
   deras filomfattande resultat är därför inte meningsfulla för denna katalog.
 
-Den lokala ändringen är förberedd för en uppströms-PR. Innan insändning ska
-projektets aktuella bidragskrav och behörighet kontrolleras.
+Ändringen är inskickad som uppströms-[PR #13](https://github.com/XeN-Made/Orion-Media-Center/pull/13).
+Vid arkiveringstillfället är den öppen och väntar på CI samt underhållargranskning.
