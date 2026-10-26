@@ -239,3 +239,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: Intropage: ytterligare tolv rättningar av larmtexter, databasråd och övervakning laddades upp; Weblate bekräftade tolv uppdateringar. msgfmt och l10n-lint passerade; Hunspell flaggade tekniska namn och sammansättningar.
 
 - 2026-10-26: Syslog: granskning av början av aktuell export gav 15 rättningar, inklusive kommandoflaggan --alert-name och HTML-taggar i uppgraderingsinformationen. Weblate bekräftade 15 uppdateringar. msgfmt och l10n-lint passerade; Hunspell flaggade tekniska namn och kommandoflaggor. Resterande rader återstår att granska.
+
+- 2026-10-26: Syslog: 15 ytterligare ändringar i inställningar och instrumentpaneler laddades upp och bekräftades av Weblate. Larm, lagringstid, rapportregler och Syslog-facilitet följer nu terminologin i dessa poster. msgfmt och l10n-lint passerade; Hunspell flaggade tekniska sammansättningar. Radgranskningen fortsätter.
