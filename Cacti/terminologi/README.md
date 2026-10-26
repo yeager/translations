@@ -100,3 +100,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Trettio texter i Tholds tröskelinställningar granskades och rättades, bland annat skillnaden mellan varning och larm, överträdelse och tidsintervall för rörligt medelvärde. Weblate bekräftade 30 uppdaterade strängar utan bortfall. msgfmt och l10n-lint passerade; Hunspell gav endast en tokeniseringsvarning för RRD-upplösningen.
 
 2026-10-26: Fem hjälptexter i Thold kompletterades med saknade villkor för bekräftelse och varning. HRULE-texternas alternativnamn följer komponentens ”Ingen”, ”Exakt värde” och ”Procent”. Weblate bekräftade fem uppdateringar utan bortfall; msgfmt, l10n-lint och Hunspell passerade.
+
+2026-10-26: Fjorton texter om aviseringar, RPN och skalkommandon rättades. Saknade ersättningstaggar och information om skriptmiljön återställdes, och taggarna jämfördes med källan. Weblate bekräftade 14 uppdateringar. msgfmt och l10n-lint passerade; Hunspell flaggade tekniska identifierare och sammansättningar.
