@@ -1,6 +1,11 @@
 # Väntande upstream-importer
 
-Det finns inga väntande importer i den här listan. Senast kontrollerades:
+Följande arbete är ännu inte fullt verifierat eller inskickat:
+
+- **sK1:** Det svenska utkastet är inte inskickat. Bekräfta att senaste utgåvan uppfyller 48-månaderskravet innan arbetet fortsätter. Se [sK1-status](sK1/STATUS.md).
+- **FreeCAD:** Fyra dolda strängar (194951, 176822, 177244 och 2593990) saknade de inskickade svenska förslagen vid API-kontrollen. Se [importkontrollen](FreeCAD/freecad-crowdin-import-20261026.md). Övriga inskickade förslag är inte nödvändigtvis valda eller godkända.
+
+Senast kontrollerades även:
 
 - Hosted Weblate Application: 40 granskade ändringar importerade och verifierade.
 - Hosted Weblate Website: 7 granskade ändringar importerade och verifierade.
