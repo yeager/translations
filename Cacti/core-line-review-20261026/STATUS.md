@@ -61,3 +61,5 @@ Kompletterande verktygskontroll 2026-10-26: den svenska Hunspell-ordlistan fanns
 2026-10-26: Avfärdade tre återanvändningskontroller efter granskning: Troubleshooting/Debugging, Change Log/ChangeLog och CDEF Item/Items. Översättningarna är lämpliga i sammanhangen och objekt har samma form i singular och plural. Weblate visar 60 återstående kontrollvarningar; ingen översättningstext ändrades.
 
 2026-10-26: Granskade och avfärdade fyra återanvändningskontroller för grafmallobjekt, VDEF-objekt och två likvärdiga Gbyte-formuleringar. Objekt har samma obestämda singular- och pluralform och formatmarkören %d behölls. Weblate visar 56 återstående kontrollvarningar. Ingen översättningstext ändrades.
+
+2026-10-26: De två återstående återanvändningskontrollerna för loggnivå granskades och avfärdades i Weblate. Källtexterna skiljer sig endast genom radbrytning och har samma innebörd; den svenska översättningen är densamma. Översikten visar därefter 5 198 översatta strängar och inga aktiva kontrollvarningar. Ingen översättningstext ändrades. Fortsatt jämförelse mot aktuella källtexter och synkronisering till källförrådet återstår.
