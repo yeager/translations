@@ -27,3 +27,7 @@ På elfte sidan har fem förslag lämnats för startmeddelanden och inställning
 På tolfte sidan har sex förslag lämnats för shaderdumpning, kompatibilitet, konsolspråk, titelmusik, troféer och muspekare. Tidigare översättningar är fortfarande godkända. [Kopia med kontext och radbrytningsmarkörer](shadps4-sv-review-20261026-page12.json). L10n-lint och svlang gav inga fynd; Hunspell markerade tekniska sammansättningar ”PS4-spelet” och ”shaderprogram”. Gitleaks gav inga fynd. Crowdin-varningar om apostrof och parenteser granskades mot den svenska formuleringen.
 
 På trettonde sidan har sju förslag lämnats för grafik och felsökning, inklusive en trasig radbrytningsmarkör. Tidigare översättningar är fortfarande godkända. [Kopia med kontext](shadps4-sv-review-20261026-page13.json). L10n-lint och svlang gav inga fynd; Hunspell markerade tekniska namn och sammansättningar. Gitleaks gav inga fynd. GPU-bufferttexten har också ett tidigare förslag i Crowdin; den arkiverade versionen förtydligar att det gäller kommandon.
+
+Den slutliga GPU-texten på sida tretton kontrollerades på nytt: l10n-lint och svlang gav inga fynd, och Hunspell markerade tekniska ord och sammansättningar.
+
+På fjortonde sidan har fem förslag lämnats. Bland annat ändras ”Present Mode” från ”Nuvarande läge” till ”Presentationsläge”. Tidigare översättningar är fortfarande godkända. [Kopia med kontext](shadps4-sv-review-20261026-page14.json). L10n-lint och svlang gav inga fynd; Hunspell markerade tekniska namn och Gitleaks gav inga fynd.
