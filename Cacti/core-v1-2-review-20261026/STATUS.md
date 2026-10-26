@@ -39,3 +39,5 @@ Sju texter om insamling och cache rättades och skickades via webbläsaren. Webl
 Sammanhanget för Run Limit visar att Tidsgräns är korrekt; återanvändningsvarningen har inte avfärdats. Fem närliggande upptäcktstexter rättades och skickades via webbläsaren: 5 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
 
 Fyra texter om autentisering, LDAP och filåtkomst rättades och skickades via webbläsaren. Weblate bekräftade 4 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
+
+Tre intervalltexter för sekunder, minuter och timmar rättades efter kontroll av värdena i include/global_arrays.php och include/global_settings.php. Weblate bekräftade 3 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
