@@ -1,0 +1,16 @@
+--- a/src/mod/say/mod_say_sv/mod_say_sv.c
++++ b/src/mod/say/mod_say_sv/mod_say_sv.c
+@@ -553 +553,12 @@
+-                int a = tolower((int) *p);
++                int a;
++                unsigned char byte = (unsigned char) *p;
++                /* Decode the Swedish UTF-8 letters to the sound package's legacy IDs. */
++                if (byte == 0xC3 && p[1]) {
++                        unsigned char next = (unsigned char) p[1];
++                        if (next == 0xA5 || next == 0x85) { a = 134; p++; }
++                        else if (next == 0xA4 || next == 0x84) { a = 132; p++; }
++                        else if (next == 0xB6 || next == 0x96) { a = 148; p++; }
++                        else { a = byte; }
++                } else {
++                        a = tolower(byte);
++                }
