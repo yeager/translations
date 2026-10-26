@@ -26,3 +26,9 @@ Användaren kan också välja svenska manuellt och lägga lokala rättelser i
 Detta är ett komplett tekniskt första utkast. De längre hjälpraderna behöver
 fortfarande en separat språklig rad-för-rad-granskning innan en uppströms-PR
 skapas.
+
+Den 27 oktober rättades de första bekräftade språkfelen: avtryckare,
+konfiguration, korrigeringsfiler, ljudlucka och Wii NAND-säkerhetskopior.
+Den genererade i18n-tabellen byggdes om och katalogkontrollen bekräftar
+fortfarande 1 803 av 1 803 strängar. Resterande längre hjälprader granskas
+separat innan en uppströms-PR skapas.
