@@ -227,3 +227,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: Thold: rättade skillnaden mellan varningar och larm samt återställde HTML-entiteter i en hjälptext. Weblate bekräftade två uppdaterade strängar; msgfmt, l10n-lint och Hunspell kontrollerade ändringarna.
 
 - 2026-10-26: Intropage: filen cacti-intropage-varningar-larm-20261026.po laddades upp. Weblate uppdaterade fem av sex strängar; ”Host alerts (up/down/recovering) in last 30 minutes” hittades inte och är därmed inte uppladdad. msgfmt och l10n-lint passerade; Hunspell flaggade Intropage och Ping-svarstider. Granskningen fortsätter.
+
+- 2026-10-26: Intropage: granskning av exportens inledande avsnitt gav 15 språk- och terminologirättningar i cacti-intropage-granskning-20261026.po. Weblate bekräftade 15 uppdateringar. msgfmt och l10n-lint passerade; Hunspell flaggade sammansättningen siduppdatering. Resten av komponenten återstår att granska.
