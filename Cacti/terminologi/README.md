@@ -7,6 +7,7 @@ Arbetslista för alla Cacti-komponenter. Tillämpa orden efter sammanhang och ä
 | device | enhet | Övervakad enhet. |
 | host | värd | En dator eller annan värd; skilj från enhet om källtexten gör det. |
 | data source | datakälla | |
+| data retention | lagringstid | När inställningen anger hur länge data behålls; skilj från allmän datalagring. |
 | data collector | datainsamlare | En värd eller tjänst som samlar in data. |
 | poller | datainsamlare, insamlingsprocess | Använd datainsamlare för en nod som tilldelas enheter, insamlingsprocess för den process som hämtar data. Cacti använder även remote poller om en fjärransluten datainsamlare. |
 | polling | datainsamling, insamling | Välj efter sammanhang; insamlingsintervall för polling interval. |
@@ -82,3 +83,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: En samlad exakt källtextssökning efter de övriga fyra avvisade posterna gav inga träffar i Core på Weblate. Tillsammans med importkvittot stöder det att de fem inte är tillgängliga för import i aktuell komponent, även om de finns i PO-exporten. Underlaget för jämförelsen mellan Core-versionerna innehåller därmed potentiellt fler sådana poster och måste verifieras mot Weblate före ändring.
 
 2026-10-26: Core ”Replacement Pattern” och Core 1.2 ”Replace Pattern” avser samma fält, replace_pattern, i inställningsformulär respektive regellista. ”Ersättningsmönster” är därför konsekvent; återanvändningskontrollen avfärdades i Weblate. Källkod: include/global_form.php och lib/api_automation.php.
+
+2026-10-26: Syslogs ”Data Retention Settings” ändrades till ”Inställningar för lagringstid” efter kontroll av inställningens innehåll. Weblate bekräftade en uppdatering utan bortfall; msgfmt, l10n-lint och Hunspell passerade.
