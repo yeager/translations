@@ -58,3 +58,9 @@ genererade C++-tabellen kompilerar med strikta varningar och Gitleaks är ren.
 objektbaserade språkkatalog och ger därför katalogfel som inte motsvarar
 projektets faktiska format. Ingen uppströms-PR är skapad: återstående längre
 hjälptexter ska fortfarande granskas rad för rad.
+
+Ett efterföljande häfte samma dag rättade sju återstående tydliga fel i
+återställningsmeddelanden, styrspaksalternativ och uppdateringstexter.
+Kontrollerna för JSON, alla nycklar, platsmarkörer, genererad C++-tabell,
+diff och Gitleaks passerade igen. Den aktuella granskningskopian är
+`porpoise-sv-review-20261027.json`.
