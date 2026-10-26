@@ -51,3 +51,5 @@ Fyra databas- och installationstexter rättades, inklusive variabelnamnet $rdata
 Fem texter om grafer, datakällor, loggning och installation rättades. Weblate bekräftade 5 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
 
 - Weblate: fem ändringar för fjärrinsamling och insticksmoduler uppladdade 2026-10-26; fem uppdaterade, inga saknades. Jämför gemensamma källsträngar och sammanhang med core innan ändringar återanvänds.
+
+Kalendernamn och två avsändarbeskrivningar granskades: 17 uppdaterade i Weblate, inga saknade eller överhoppade. msgfmt, svlang, Hunspell och Gitleaks kördes. l10n-lint gav 0 fel och 9 varningar om avsiktliga små bokstäver respektive meningsslut. Två övriga fälttexter hade redan uppdaterats i båda komponenterna.
