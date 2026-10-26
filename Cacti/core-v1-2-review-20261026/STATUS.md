@@ -33,3 +33,5 @@ Femton ytterligare rättelser av insticksmoduler, graftexter och databashjälp s
 Sju hjälptexter om aviseringar, cache och datainsamling rättades och skickades via webbläsaren. Weblate bekräftade 7 uppdaterade, 0 överhoppade och 0 saknade. PO-filen klarade msgfmt --check --check-format. Granskningen fortsätter.
 
 Efterkontroll av de tre senaste rättelsefilerna (config, plugin och settings): l10n-lint rapporterade 0 fel och 4 skiljeteckenvarningar, vilka bedömdes mot källtexten. Hunspell med yeager/hunspell-sv, svlang och terminologibanken användes; träffarna innehåller tekniska termer och möjliga falska positiva. Gitleaks skannade den lokala granskningskatalogen utan fynd.
+
+Sju texter om insamling och cache rättades och skickades via webbläsaren. Weblate bekräftade 7 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint rapporterade inga fel. Granskningen fortsätter.

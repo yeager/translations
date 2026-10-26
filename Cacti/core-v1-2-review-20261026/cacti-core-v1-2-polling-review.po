@@ -1,0 +1,79 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2026-10-11 16:07-0700\n"
+"PO-Revision-Date: 2026-10-26 08:24+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.cacti.net/projects/cacti/core-v1-2-x/sv/>\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: include/global_arrays.php
+msgid ""
+"Poller Resource Cache cleared.  Main Data Collector will rebuild at the next"
+" poller start, and Remote Data Collectors will sync afterwards."
+msgstr ""
+"Insamlarens resurscache har rensats. Den primära datainsamlaren bygger upp "
+"den vid nästa start och fjärrdatainsamlarna synkroniserar därefter."
+
+#: include/global_settings.php
+msgid ""
+"The method used to Clean RRDfiles from Cacti after their Data Sources are "
+"deleted."
+msgstr ""
+"Metoden som används för att ta bort RRD-filer från Cacti när deras "
+"datakällor har tagits bort."
+
+#: include/global_settings.php
+msgid ""
+"A comma delimited list of Device ID's that you wish to be in Debug mode "
+"during data collection.  This Debug level is only in place during the Cacti "
+"polling process."
+msgstr ""
+"En kommaseparerad lista med ID för de enheter som ska använda "
+"felsökningsläge vid datainsamling. Felsökningsnivån används endast under "
+"Cactis insamling."
+
+#: include/global_settings.php
+msgid ""
+"This setting is for a single poller systems only to rebuild the poller "
+"output table on each polling cycle to prevent the memory table from swapping"
+" on very large systems with large databases that could use swap."
+msgstr ""
+"Den här inställningen gäller endast system med en insamlare. Den bygger om "
+"insamlarens utdatatabell vid varje insamlingscykel för att förhindra att "
+"minnestabellen växlas ut på mycket stora system med stora databaser."
+
+#: include/global_settings.php
+msgid ""
+"Enables direct insert of records into poller output boost with results in a "
+"25% time reduction in each poll cycle."
+msgstr ""
+"Aktiverar direkt infogning av poster i Boost-tabellen för insamlarutdata, "
+"vilket förkortar varje insamlingscykel med 25 %."
+
+#: poller.php
+#, php-format
+msgid ""
+"WARNING: %s is out of sync with the Poller Interval for poller id %d!  The "
+"Poller Interval is %d seconds, with a maximum of a %d seconds, but %d "
+"seconds have passed since the last poll!"
+msgstr ""
+"VARNING: %s är inte synkroniserad med insamlingsintervallet för insamlar-ID "
+"%d! Insamlingsintervallet är %d sekunder, med högst %d sekunder, men %d "
+"sekunder har gått sedan den senaste insamlingen!"
+
+#: poller.php
+#, php-format
+msgid ""
+"WARNING: There are %d processes detected as overrunning a polling cycle for "
+"poller id %d, please investigate."
+msgstr ""
+"VARNING: %d processer har överskridit en insamlingscykel för insamlar-ID %d."
+" Undersök orsaken."
