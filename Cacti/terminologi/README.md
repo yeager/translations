@@ -1,0 +1,27 @@
+# Gemensam svensk terminologi för Cacti
+
+Arbetslista för alla Cacti-komponenter. Tillämpa orden efter sammanhang och ändra inte variabelnamn, protokollnamn eller etablerade produktnamn. En term kan behöva en annan böjning eller en förklarande formulering i en hel mening. Listan är påbörjad och hela komponentbeståndet är ännu inte kontrollerat mot den.
+
+| Engelska | Svenska | Användning och avgränsning |
+|---|---|---|
+| device | enhet | Övervakad enhet. |
+| host | värd | En dator eller annan värd; skilj från enhet om källtexten gör det. |
+| data source | datakälla | |
+| data collector | datainsamlare | En värd eller tjänst som samlar in data. |
+| poller | datainsamlare, insamlingsprocess | Använd datainsamlare för en nod som tilldelas enheter, insamlingsprocess för den process som hämtar data. Cacti använder även remote poller om en fjärransluten datainsamlare. |
+| polling | datainsamling, insamling | Välj efter sammanhang; insamlingsintervall för polling interval. |
+| graph | graf | I Cactis övervakningsgränssnitt; diagram kan vara naturligare för andra visualiseringar. |
+| aggregate graph | aggregerad graf | En graf som kombinerar flera grafer; grafaggregering beskriver processen. |
+| graph template | grafmall | |
+| aggregate template | aggregatmall | Mall för en aggregerad graf. |
+| threshold | tröskelvärde, tröskel | Välj tröskelvärde när ett gränsvärde avses; tröskel kan användas för funktionen. |
+| network | nätverk | |
+| tree | träd | För Cactis hierarkiska graf- eller enhetsträd. |
+| data query | datafråga | |
+| log | logg | |
+| uptime | drifttid | |
+| poller cache | insamlarens cache | Ändra vid behov till insamlingsprocessens cache om det tekniska sammanhanget kräver åtskillnad. |
+| enabled / disabled | aktiverad / inaktiverad | |
+| delete | ta bort | För gränssnittets åtgärd. |
+
+Underlag: Cactis [funktionsbeskrivning](https://docs.cacti.net/Principles-of-Operation.md) och [dokumentation om datainsamlare](https://docs.cacti.net/Data-Collectors.md), befintliga översättningar och källkod. En första inventering 2026-10-26 hittade lokala exporter för 18 komponenter. Bland fristående strängar förekommer både ”graf” och ”diagram” för graph samt ”insamlare” och ”poller” för poller. Dessa skillnader kräver kontroll mot aktuell Weblate-export och sammanhang innan de ändras. Övriga komponenter och alla sammansatta termer återstår att inventera.
