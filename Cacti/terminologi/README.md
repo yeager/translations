@@ -142,3 +142,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Weblate visar ”Data Sources [%s]” med samma kontext i båda Core-versionerna och en separat källvariant med blanksteg innanför hakparenteserna, också i båda versionerna. Den andra varianten lades till i Core 1.2-utkastet så båda får samma svenska format. De sex utkastsposterna är inte uppladdade. msgfmt och l10n-lint passerade.
 
 2026-10-26: Två texter om Aggregate Template i Core 1.2 har anpassats i utkastet till arbetslistans ”mall för aggregerad graf”. De aktuella översättningarna kontrollerades i Weblate före ändringen. Utkastet innehåller åtta poster och är inte uppladdat. msgfmt och l10n-lint passerade; Hunspell flaggade ”grafmallen.”.
+
+2026-10-26: Etiketten ”Aggregate Template” visar ”Aggregatmall” i båda Core-versionerna och är markerad för fortplantning. Utkastet kompletterades med ”Mall för aggregerad graf” enligt terminologilistan. Kontrollera fortplantningen när utkastet laddas upp. Utkastet innehåller nio poster; msgfmt, l10n-lint och Hunspell passerade.
