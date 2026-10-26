@@ -51,3 +51,5 @@ Kompletterande verktygskontroll 2026-10-26: den svenska Hunspell-ordlistan fanns
 2026-10-26: Ytterligare sex återanvändningskontroller avfärdades efter jämförelse av borttagningsmetoder, grafer, mallstatus och enheter. Inga svenska strängar ändrades. Weblate visade 79 återstående kontroller.
 
 2026-10-26: Sex återanvändningskontroller granskades och avfärdades för enhetsåtgärder, synkronisering, plats och insamlingstid. Källtexterna har samma innebörd i respektive par; inga översättningstexter ändrades. Weblate visade 73 återstående kontroller.
+
+2026-10-26: Fem återanvändningsvarningar avfärdades efter granskning. Källkoden visar att ”Every %d Day” används med värdet 1; ”Var %d:e dag” skulle därför ge ”Var 1:e dag”. Texten ändrades till ”Intervall: %d dygn” och Weblate bekräftade en uppdaterad sträng. PO-filen kontrollerades med msgfmt, l10n-lint, Hunspell och svlang.
