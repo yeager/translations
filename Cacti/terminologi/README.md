@@ -102,3 +102,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Fem hjälptexter i Thold kompletterades med saknade villkor för bekräftelse och varning. HRULE-texternas alternativnamn följer komponentens ”Ingen”, ”Exakt värde” och ”Procent”. Weblate bekräftade fem uppdateringar utan bortfall; msgfmt, l10n-lint och Hunspell passerade.
 
 2026-10-26: Fjorton texter om aviseringar, RPN och skalkommandon rättades. Saknade ersättningstaggar och information om skriptmiljön återställdes, och taggarna jämfördes med källan. Weblate bekräftade 14 uppdateringar. msgfmt och l10n-lint passerade; Hunspell flaggade tekniska identifierare och sammansättningar.
+
+2026-10-26: SNMP-hjälpen i Thold kompletterades med saknade enhets- och datafrågevariabler; samtliga variabelbindningar jämfördes med källan. Källkoden visar att ”Eternal ID” avser fältet external_id och etiketten External ID; översättningen är därför ”externt ID”. Weblate bekräftade tre uppdateringar. msgfmt och l10n-lint passerade; Hunspell flaggade den tekniska sammansättningen SNMP-aviseringar.
