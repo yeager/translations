@@ -15,3 +15,5 @@ Kontroll av ”Pollers”: I core 1.2 använder automation_devices.php etiketten
 Fortsatt granskning av core 1.2: Sex varningar om återanvändning avfärdades efter jämförelse med källtexterna. Två gällde varianter av ”Item # %d” med samma betydelse; fyra gällde singular/plural-varianter för borttagning eller duplicering av data-, graf- och GPRINT-mallar/förinställningar. Inga översättningar ändrades.
 
 Ytterligare fem varningar om återanvändning avfärdades efter jämförelse av likvärdiga källsträngar: duplicera grafmallar och grafer, skapa aggregerad graf samt aktivera och inaktivera enheter. Inga översättningstexter ändrades.
+
+Ytterligare fem varningar avfärdades efter jämförelse: rensa enheters statistik, synkronisera enheter, bekräfta borttagning av enhetsmallar samt ta bort respektive duplicera enhetsmallar. Källtexterna uttrycker samma åtgärder med alternativa pluralformer eller formuleringar. Inga översättningstexter ändrades.
