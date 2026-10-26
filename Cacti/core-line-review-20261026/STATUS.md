@@ -59,3 +59,5 @@ Kompletterande verktygskontroll 2026-10-26: den svenska Hunspell-ordlistan fanns
 2026-10-26: Granskade återanvändningskontrollen för Aggregate/Aggregates och avfärdade den i Weblate: aggregat har samma obestämda form i singular och plural. En annan varning om konvertering av aggregatgrafer lämnades för vidare kontroll av källornas olika antal. Ingen översättningstext ändrades.
 
 2026-10-26: Avfärdade tre återanvändningskontroller efter granskning: Troubleshooting/Debugging, Change Log/ChangeLog och CDEF Item/Items. Översättningarna är lämpliga i sammanhangen och objekt har samma form i singular och plural. Weblate visar 60 återstående kontrollvarningar; ingen översättningstext ändrades.
+
+2026-10-26: Granskade och avfärdade fyra återanvändningskontroller för grafmallobjekt, VDEF-objekt och två likvärdiga Gbyte-formuleringar. Objekt har samma obestämda singular- och pluralform och formatmarkören %d behölls. Weblate visar 56 återstående kontrollvarningar. Ingen översättningstext ändrades.
