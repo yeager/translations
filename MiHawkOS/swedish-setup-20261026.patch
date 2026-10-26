@@ -1,0 +1,130 @@
+diff --git a/ps5/assets/flags/SOURCE.json b/ps5/assets/flags/SOURCE.json
+index c9785bf..7f06195 100644
+--- a/ps5/assets/flags/SOURCE.json
++++ b/ps5/assets/flags/SOURCE.json
+@@ -22,6 +22,7 @@
+     "nl.svg": "8f691f17fe70894537af8e92f2ca47761d353639b0defc15cbe561eb503ab010",
+     "pl.svg": "06687a4b90fc00195d0795aea1c26a9f73f1b6ea6a76e358724b2f1f32b7c8f4",
+     "ru.svg": "7100aaae51ff3b6a2bf0ca932b3bc518bdc760814725e7cca31d821a26c3dd7c",
++    "se.svg": "b3b5071e6c1d4a0e3db828bab5c7dfd68d0e90fcf3b25b15e9a2c4f96c1f79c9",
+     "tr.svg": "256a1d6afbedb9f731566982331a1cd1ad14aba211b8a61d338855879505e74f",
+     "tw.svg": "931757f06b9ee751fd1a0cc8dd7cf862e21fdcaf894d10ed7bcc68dabcca59ad",
+     "us.svg": "e7be4240cf57987926673708f09233be1ab6bdf35acc7b86bd32a263f197a2a7",
+diff --git a/src/pw_setup.c b/src/pw_setup.c
+index d46dcd2..c33e032 100644
+--- a/src/pw_setup.c
++++ b/src/pw_setup.c
+@@ -114,6 +114,70 @@ static const char *const text_en[PW_TEXT_COUNT] = {
+     [PW_TEXT_DECIMAL] = ".",
+ };
+
++/* Svenska (Sverige). */
++static const char *const text_sv[PW_TEXT_COUNT] = {
++    [PW_TEXT_WELCOME_TITLE] = "Välkommen till MihawkOS",
++    [PW_TEXT_WELCOME_BODY] = "Vi gör din PS5 redo för Windows-spel. Det tar ungefär tio minuter.",
++    [PW_TEXT_GET_STARTED] = "Kom i gång",
++    [PW_TEXT_SKIP_SETUP] = "Hoppa över konfigurationen",
++    [PW_TEXT_LANGUAGE_TITLE] = "Välj språk",
++    [PW_TEXT_LANGUAGE_BODY] = "Dina Windows-spel använder också språket och dess tangentbordslayout. Mihawk OS-skrivbordet är på engelska.",
++    [PW_TEXT_METHOD_TITLE] = "Välj hur du vill installera",
++    [PW_TEXT_METHOD_BODY] = "MihawkOS behöver sin Windows-miljö, ungefär 1,2 GB.",
++    [PW_TEXT_METHOD_USB] = "USB-enhet",
++    [PW_TEXT_METHOD_USB_BODY] = "Kopiera filerna till en USB-enhet på valfri dator.",
++    [PW_TEXT_METHOD_INTERNET] = "Internet",
++    [PW_TEXT_METHOD_INTERNET_BODY] = "Hämta filerna direkt till PS5:an.",
++    [PW_TEXT_COMING_SOON] = "Kommer snart",
++    [PW_TEXT_METHOD_INSTALLED] = "Windows-miljön är redan installerad.",
++    [PW_TEXT_CONTINUE] = "Fortsätt",
++    [PW_TEXT_QR_CAPTION] = "Skanna för stegvisa instruktioner på telefonen.",
++    [PW_TEXT_USB_TITLE] = "Förbered en USB-enhet",
++    [PW_TEXT_USB_STEP1] = "Formatera en USB-enhet på en dator som exFAT med MBR-partitionstabell. Då raderas enheten.",
++    [PW_TEXT_USB_STEP2] = "Hämta MihawkOS och kopiera mappen mihawkos till enhetens rot.",
++    [PW_TEXT_USB_STEP3] = "Anslut enheten till en USB-port på PS5:an.",
++    [PW_TEXT_USB_STEP4] = "Välj Kontrollera enhet.",
++    [PW_TEXT_CHECK_DRIVE] = "Kontrollera enhet",
++    [PW_TEXT_FOUND] = "Enheten innehåller {1} som kan installeras.",
++    [PW_TEXT_INSTALL] = "Installera",
++    [PW_TEXT_RETRY] = "Försök igen",
++    [PW_TEXT_ERR_NO_STICK] = "Ingen USB-enhet hittades. Anslut den, vänta några sekunder och försök sedan igen. Om den redan är ansluten, formatera den som exFAT med MBR: PS5:an kan inte läsa GPT- eller NTFS-enheter.",
++    [PW_TEXT_ERR_NO_FOLDER] = "Enheten saknar mappen mihawkos i roten. Kopiera mappen till enheten och försök sedan igen.",
++    [PW_TEXT_ERR_PARTIAL] = "Mappen mihawkos är ofullständig: den innehåller {1} av {2} delar. Kopiera hela mappen igen och försök sedan igen.",
++    [PW_TEXT_ERR_NO_SPACE] = "PS5:an behöver {1} ledigt utrymme och har {2}. Ta bort något och försök sedan igen.",
++    [PW_TEXT_ERR_READ] = "Det gick inte att läsa USB-enheten. Kontrollera att den fortfarande är ansluten och försök igen. Det som redan är installerat behålls.",
++    [PW_TEXT_ERR_DAMAGED] = "En fil på enheten är skadad eller kommer från en annan version. Kopiera mappen mihawkos igen och försök sedan igen.",
++    [PW_TEXT_ERR_FULL] = "PS5:ans lagring är full. Ta bort något och försök sedan igen. Det som redan är installerat behålls.",
++    [PW_TEXT_ERR_WRITE] = "PS5:ans lagring kunde inte skriva data. Försök igen. Starta om PS5:an om det händer igen.",
++    [PW_TEXT_ERR_CANCELLED] = "Installationen stoppades. Det som redan är installerat behålls.",
++    [PW_TEXT_ERR_BUILD] = "Den här kopian av MihawkOS kan inte installera en Windows-miljö. Installera om MihawkOS.",
++    [PW_TEXT_INSTALLING_TITLE] = "Installerar Windows-miljön",
++    [PW_TEXT_INSTALLING_BODY] = "Låt enheten vara ansluten. Det tar ungefär en minut.",
++    [PW_TEXT_INSTALLING_CHECKING] = "Kontrollerar det som redan är installerat…",
++    [PW_TEXT_INSTALLING_STATS] = "{1} av {2} MB · {3} MB/s",
++    [PW_TEXT_INSTALLED] = "Installerat.",
++    [PW_TEXT_STOP] = "Stoppa",
++    [PW_TEXT_PREPARE_TITLE] = "Förbereder Mihawk OS",
++    [PW_TEXT_PREPARE_BODY] = "Första starten bygger din Windows-enhet. Det tar några minuter och skärmen kan stå still en stund. Programmet avslutas automatiskt och återgår hit.",
++    [PW_TEXT_PREPARE_NOTE] = "Handkontrollen fungerar inte i spel under den första starten, så MihawkOS avslutar den när enheten är klar.",
++    [PW_TEXT_PREPARE_START] = "Starta",
++    [PW_TEXT_PREPARE_FAILED] = "Första starten slutfördes inte. Försök igen; den fortsätter där den slutade.",
++    [PW_TEXT_BUILD_TITLE] = "Bygger din Windows-enhet",
++    [PW_TEXT_BUILD_BODY] = "Det tar ungefär en minut. När enheten är klar återgår MihawkOS automatiskt till konfigurationen.",
++    [PW_TEXT_BUILD_SETTINGS] = "Konfigurerar Windows",
++    [PW_TEXT_BUILD_DOTNET] = "Installerar .NET-stöd",
++    [PW_TEXT_BUILD_FINISHING] = "Slutför",
++    [PW_TEXT_DONE_TITLE] = "Allt är klart",
++    [PW_TEXT_DONE_BODY] = "Mihawk OS är redo. Du kan köra konfigurationen igen från Inställningar i biblioteket.",
++    [PW_TEXT_ENTER] = "Öppna Mihawk OS",
++    [PW_TEXT_HINT_SELECT] = "Välj",
++    [PW_TEXT_HINT_BACK] = "Tillbaka",
++    [PW_TEXT_HINT_MOVE] = "Flytta",
++    [PW_TEXT_STEP_OF] = "Steg {1} av {2}",
++    [PW_TEXT_GIGABYTES] = "{1} GB",
++    [PW_TEXT_DECIMAL] = ",",
++};
++
+ static const char *const text_fr[PW_TEXT_COUNT] = {
+     [PW_TEXT_WELCOME_TITLE] = "Bienvenue sur MihawkOS",
+     [PW_TEXT_WELCOME_BODY] = "Préparons votre PS5 pour les jeux Windows. Comptez une dizaine de minutes.",
+@@ -696,6 +760,7 @@ static const char *const text_pt[PW_TEXT_COUNT] = {
+  * launcher's. Each flag is in ps5/assets/flags. */
+ static const PwSetupLanguage languages[] = {
+     {"en-US", "English (US)", "us", "en_US.UTF-8", NULL, text_en},
++    {"sv-SE", "Svenska", "se", "sv_SE.UTF-8", NULL, text_sv},
+     {"fr-FR", "Français", "fr", "fr_FR.UTF-8", NULL, text_fr},
+     {"es-ES", "Español", "es", "es_ES.UTF-8", NULL, text_es},
+     {"de-DE", "Deutsch", "de", "de_DE.UTF-8", NULL, text_de},
+diff --git a/tests/test_pw_setup.c b/tests/test_pw_setup.c
+index bf699d6..b51a479 100644
+--- a/tests/test_pw_setup.c
++++ b/tests/test_pw_setup.c
+@@ -101,7 +101,7 @@ int main(int argc, char **argv)
+     size_t count = 0, shown = 0;
+     const PwSetupLanguage *all = pw_setup_languages(&count);
+     const PwSetupLanguage *english = pw_setup_default_language();
+-    assert(count == 9 && !strcmp(english->tag, "en-US") && english->text);
++    assert(count == 10 && !strcmp(english->tag, "en-US") && english->text);
+     for (size_t i = 0; i < count; ++i) {
+         assert(all[i].tag && all[i].name && all[i].flag && all[i].locale);
+         if (all[i].font) assert(!strcmp(all[i].font, "noto-sans-sc") || !strcmp(all[i].font, "noto-sans-jp"));
+@@ -129,9 +129,11 @@ int main(int argc, char **argv)
+             assert(placeholders(text) == placeholders(english->text[key]));
+         }
+     }
+-    assert(shown == 9 && pw_setup_language("ja-JP") && !pw_setup_language("en-GB") && !pw_setup_language(NULL));
++    assert(shown == 10 && pw_setup_language("sv-SE") && pw_setup_language("ja-JP") &&
++           !pw_setup_language("en-GB") && !pw_setup_language(NULL));
+     assert(!strcmp(pw_setup_text(NULL, PW_TEXT_CONTINUE), "Continue"));
+     assert(!strcmp(pw_setup_text(pw_setup_language("fr-FR"), PW_TEXT_CONTINUE), "Continuer"));
++    assert(!strcmp(pw_setup_text(pw_setup_language("sv-SE"), PW_TEXT_CONTINUE), "Fortsätt"));
+
+     /* Filling placeholders. */
+     char out[64];
+@@ -145,6 +147,8 @@ int main(int argc, char **argv)
+     assert(!strcmp(out, "1.19 GB"));
+     pw_setup_gigabytes(pw_setup_language("fr-FR"), 3000000000ull, out, sizeof(out));
+     assert(!strcmp(out, "3,00 Go"));
++    pw_setup_gigabytes(pw_setup_language("sv-SE"), 3000000000ull, out, sizeof(out));
++    assert(!strcmp(out, "3,00 GB"));
+
+     /* The record. */
+     char folder[] = "/tmp/proton-setup-XXXXXX", path[256];
