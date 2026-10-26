@@ -1,0 +1,183 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2026-10-13 09:23-0400\n"
+"PO-Revision-Date: 2026-10-26 11:10+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.cacti.net/projects/cacti/thold/sv/>\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: thold.php
+msgid "Enabled at Threshold Level"
+msgstr "Aktiverad på tröskelvärdesnivå"
+
+#: thold.php thold_templates.php
+msgid "Warning HRULE Color"
+msgstr "Färg på varningens HRULE"
+
+#: thold.php thold_templates.php
+msgid "Alert HRULE Color"
+msgstr "Färg på larmets HRULE"
+
+#: thold.php thold_templates.php
+msgid "Skip Scaling on HRULEs"
+msgstr "Utelämna HRULE från skalning"
+
+#: thold.php thold_templates.php
+msgid "Weekend Exemption"
+msgstr "Undanta helger"
+
+#: thold.php thold_templates.php
+msgid "If this is checked, this Threshold will not alert on weekends."
+msgstr "Om detta är markerat skickar tröskelvärdet inga larm på helger."
+
+#: thold.php thold_templates.php
+msgid "Disable Restoration Email"
+msgstr "Inaktivera e-post vid återställning"
+
+#: thold.php thold_templates.php
+msgid ""
+"If this is checked, Threshold will not send an alert when the Threshold has "
+"returned to normal status."
+msgstr ""
+"Om detta är markerat skickas inget larm när tröskelvärdet återgår till "
+"normal status."
+
+#: thold.php thold_templates.php
+msgid "Suspendible Notification"
+msgstr "Avisering som kan pausas"
+
+#: thold.php thold_templates.php
+msgid "Persistent Acknowledgment"
+msgstr "Bestående bekräftelse"
+
+#: thold.php thold_templates.php
+msgid "Threshold Type"
+msgstr "Typ av tröskelvärde"
+
+#: thold.php
+msgid ""
+"Repeat alert after this amount of time has passed since the last alert."
+msgstr "Upprepa larmet när den här tiden har gått sedan föregående larm."
+
+#: thold.php thold_templates.php
+msgid "Warning - High / Low Settings"
+msgstr "Inställningar för hög/låg varning"
+
+#: thold.php
+msgid "Breach Duration"
+msgstr "Överträdelsens varaktighet"
+
+#: thold.php thold_templates.php
+msgid "Warning - Time Based Settings"
+msgstr "Tidsbaserade varningsinställningar"
+
+#: thold.php thold_templates.php
+msgid "Alert - Time Based Settings"
+msgstr "Tidsbaserade larminställningar"
+
+#: thold.php
+msgid "Breach Count"
+msgstr "Antal överträdelser"
+
+#: thold.php
+msgid ""
+"The number of times the Data Source must be in breach of the Threshold."
+msgstr "Antalet gånger datakällans värde måste överträda tröskelvärdet."
+
+#: thold.php
+msgid "Breach Window"
+msgstr "Tidsfönster för överträdelser"
+
+#: thold.php thold_templates.php
+msgid "The amount of time in the past to check for Threshold breaches."
+msgstr ""
+"Hur långt tillbaka i tiden överträdelser av tröskelvärdet ska kontrolleras."
+
+#: thold.php
+msgid "Baseline Settings"
+msgstr "Baslinjeinställningar"
+
+#: thold.php thold_templates.php
+msgid "Deviation UP"
+msgstr "Avvikelse uppåt"
+
+#: thold.php thold_templates.php
+msgid "Deviation DOWN"
+msgstr "Avvikelse nedåt"
+
+#: thold.php
+msgid ""
+"The amount of time the Data Source must be in breach of the Threshold for an"
+" alert to be raised."
+msgstr ""
+"Den tid som datakällans värde måste överträda tröskelvärdet innan ett larm "
+"utlöses."
+
+#: thold.php thold_templates.php
+msgid ""
+"Specifies the point in the past (based on rrd resolution) that will be used "
+"as a reference or the duration to use for the Floating Average when using "
+"the Floating Average type Threshold"
+msgstr ""
+"Anger tidpunkten i det förflutna som ska användas som referens, baserat på "
+"RRD-upplösningen, eller tidsintervallet för det rörliga medelvärdet när den "
+"typen av tröskelvärde används"
+
+#: thold.php
+#, php-format
+msgid ""
+"Number of consecutive times the Data Source must be in breach of the "
+"baseline Threshold for an alert to be raised.<br>Leave empty to use default "
+"value (<b>Default: %s cycles</b>)"
+msgstr ""
+"Antalet gånger i följd som datakällans värde måste överträda baslinjens "
+"tröskelvärde innan ett larm utlöses.<br>Lämna tomt för att använda "
+"standardvärdet (<b>Standard: %s cykler</b>)"
+
+#: thold.php thold_templates.php
+msgid ""
+"If set and Data Source value goes above this number, warning will be "
+"triggered.  NOTE: This value must be a RAW number.  The value displayed on "
+"the Graph may be modified by a cdef."
+msgstr ""
+"Om ett värde anges utlöses en varning när datakällans värde överstiger det. "
+"OBS: Värdet måste vara ett råvärde. Värdet som visas i grafen kan ändras av "
+"en CDEF."
+
+#: thold.php thold_templates.php
+msgid ""
+"If set and Data Source value goes below this number, warning will be "
+"triggered.  NOTE: This value must be a RAW number.  The value displayed on "
+"the Graph may be modified by a cdef."
+msgstr ""
+"Om ett värde anges utlöses en varning när datakällans värde understiger det."
+" OBS: Värdet måste vara ett råvärde. Värdet som visas i grafen kan ändras av"
+" en CDEF."
+
+#: thold.php thold_templates.php
+msgid ""
+"If set and Data Source value goes above this number, alert will be "
+"triggered.  NOTE: This value must be a RAW number.  The value displayed on "
+"the Graph may be modified by a cdef."
+msgstr ""
+"Om ett värde anges utlöses ett larm när datakällans värde överstiger det. "
+"OBS: Värdet måste vara ett råvärde. Värdet som visas i grafen kan ändras av "
+"en CDEF."
+
+#: thold.php thold_templates.php
+msgid ""
+"If set and Data Source value goes below this number, alert will be "
+"triggered.  NOTE: This value must be a RAW number.  The value displayed on "
+"the Graph may be modified by a cdef."
+msgstr ""
+"Om ett värde anges utlöses ett larm när datakällans värde understiger det. "
+"OBS: Värdet måste vara ett råvärde. Värdet som visas i grafen kan ändras av "
+"en CDEF."
