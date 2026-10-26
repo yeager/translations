@@ -13,6 +13,13 @@ svenska katalog. Källtexter med kontextberoende eller motstridiga PCSX2-
 översättningar lämnades orörda. Katalogens återstående källidentiska och
 oöversatta meddelanden måste fortfarande bedömas rad för rad.
 
+Batch 003 kompletterar 120 icke-plurala gränssnittstexter, bland annat
+inställningar för skärmvisning, minneskort, OSD-teckensnitt och
+handkontroller. Katalogen är XML-validerad, platsmarkörerna i den nya
+batchen är kontrollerade och den ändrade patchen är kontrollerad med
+Gitleaks. Katalogen har fortfarande 108 oavslutade meddelanden, främst
+plurals och längre hjälptexter som kräver kontextuell granskning.
+
 Projektets `AGENTS.md` förbjuder
 att skapa pull requests, så den färdiga satsen ska endast arkiveras och
 lämnas för manuell upstreamhantering.
