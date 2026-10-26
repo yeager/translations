@@ -7,3 +7,5 @@ Filen kontrollerades med msgfmt, l10n-lint (0 fel, en bedömd skiljeteckenvarnin
 PHP-formatvarningen för strängen med 80 % av systemminnet avfärdades i Weblate 2026-10-26. Kontroll mot Cactis support.php visar att översättningen skrivs ut direkt med __() utan printf-formatering; procenttecknet är bokstavligt.
 
 Kalendergranskningen rättade 15 namn på veckodagar och månader till liten bokstav samt två fälttexter. Weblate bekräftade 17 uppdaterade, inga saknade eller överhoppade. msgfmt passerade, l10n-lint rapporterade inga fel och sju versalvarningar som är avsiktliga enligt svensk stavning; svlang, Hunspell och Gitleaks kördes, utan läckagefynd.
+
+Uppföljning 2026-10-26: aktuell core-export jämfördes med de 16 ändringarna för datafrågor i core 1.2. Samtliga 16 källsträngar och översättningar överensstämmer; ingen separat uppladdning gjordes. Fortsatt granskning samlas per komponent och laddas upp när komponentfilen är färdig.
