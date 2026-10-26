@@ -235,3 +235,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: Intropage, genomgång av exportens återstående poster 300–546 gav 24 rättningar, bland annat Spine, misslyckade insamlingar och databegrepp. Weblate bekräftade 24 uppdaterade. msgfmt och l10n-lint passerade; Hunspell flaggade produktnamn och tekniska beteckningar. Övriga fynd och kontrollvarningar kräver fortsatt granskning.
 
 - 2026-10-26: Intropage: ytterligare 14 ändringar laddades upp och bekräftades av Weblate. msgfmt och l10n-lint passerade; den numeriska noteringen för ”senaste dygnet” granskades, och Hunspell flaggade namn samt pingtid. Slutpunktskontrollen för rubriken om administratörspanelen avfärdades eftersom källan slutar med två punkter och den svenska rubriken med ”med mera”. Kontrollen för Warnings kvarstår.
+
+- 2026-10-26: Intropage: ytterligare tolv rättningar av larmtexter, databasråd och övervakning laddades upp; Weblate bekräftade tolv uppdateringar. msgfmt och l10n-lint passerade; Hunspell flaggade tekniska namn och sammansättningar.
