@@ -22,6 +22,8 @@ Arbetslista för alla Cacti-komponenter. Tillämpa orden efter sammanhang och ä
 | network | nätverk | |
 | tree | träd | För Cactis hierarkiska graf- eller enhetsträd. |
 | data query | datafråga | |
+| consolidation function | konsolideringsfunktion | Funktion som sammanfattar mätvärden. |
+| step / stepping | steglängd | När värdet anger avståndet mellan numeriska val. |
 | log | logg | |
 | uptime | drifttid | |
 | heartbeat | hjärtslag, hjärtslagsintervall | I RRD-datakällor avser det ett tidsintervall; för en insamlingsprocess kan det avse själva livstecknet. En gemensam källsträng kan användas i flera sammanhang och ska inte ändras mekaniskt. |
