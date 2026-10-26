@@ -1267,3 +1267,42 @@ msgstr "Ett namn för den här kopplade grafen."
 #: include/global_form.php:1901
 msgid "Disable SNMP Notification Receiver"
 msgstr "Inaktivera SNMP-aviseringsmottagare"
+
+#: include/global_settings.php:485
+msgid "Show only site specific locations"
+msgstr "Visa endast placeringar för vald plats"
+
+#: include/global_settings.php:486
+msgid "Show only locations that are available at a devices selected site."
+msgstr ""
+"Visa endast placeringar som är tillgängliga på den plats som valts för "
+"enheten."
+
+#: include/global_settings.php:674
+msgid ""
+"The TCP Port used for communicating with the Remote Data Collectors.  The "
+"protocol will match the Central Cacti web server (either HTTP or HTTPS).  "
+"Leave blank to use the default ports."
+msgstr ""
+"TCP-porten som används för kommunikation med de fjärranslutna "
+"datainsamlarna. Samma protokoll används som för den centrala Cacti-"
+"webbservern (HTTP eller HTTPS). Lämna fältet tomt för att använda "
+"standardportarna."
+
+#: include/global_settings.php:682 include/global_settings.php:1443
+msgid ""
+"The amount of time, in seconds, that the Central Cacti web server will wait "
+"for a response from the Remote Data Collector to obtain various Device "
+"information before abandoning the request.  On Devices that are associated "
+"with Data Collectors other than the Central Cacti Data Collector, the Remote"
+" Agent must be used to gather Device information."
+msgstr ""
+"Hur länge, i sekunder, den centrala Cacti-webbservern väntar på svar från "
+"den fjärranslutna datainsamlaren för att hämta enhetsinformation innan "
+"begäran avbryts. För enheter som är kopplade till andra datainsamlare än den"
+" centrala Cacti-datainsamlaren måste fjärragenten användas för att hämta "
+"enhetsinformation."
+
+#: include/global_settings.php:804
+msgid "The default Poller for all new Devices."
+msgstr "Standarddatainsamlaren för alla nya enheter."
