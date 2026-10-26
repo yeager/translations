@@ -16,6 +16,8 @@ Arbetslista för alla Cacti-komponenter. Tillämpa orden efter sammanhang och ä
 | aggregate template | aggregatmall | Mall för en aggregerad graf. |
 | alert | larm | En utlöst larmhändelse; alerts kan översättas med larm. |
 | warning | varning | Skilj från larm när källtexten gör det. |
+| criticality | kritikalitet | Enhetens prioritet eller betydelse för övervakningen. |
+| availability | tillgänglighet | Avser om enheten är nåbar. |
 | state | tillstånd | Använd för det aktuella tillståndet; status kan passa för en sammanfattande status. |
 | poller run / poller cycle | insamlingskörning / insamlingscykel | Avser en körning eller cykel, inte insamlaren som nod. |
 | threshold | tröskelvärde, tröskel | Välj tröskelvärde när ett gränsvärde avses; tröskel kan användas för funktionen. |
