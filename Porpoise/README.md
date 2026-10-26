@@ -93,3 +93,10 @@ sandlåda. Tekniska namn, filer och sökvägar behölls oförändrade. JSON,
 nycklar, platsmarkörer, tabellgenerering, C++-kompilering, diff och Gitleaks
 passerade. Den aktuella arkivkopian har SHA-256
 `b43eb04bf7f957b50fedb2399fda2a5e0fe07ba8d3697f453d69a160b9345413`.
+
+Ett åttonde häfte ersatte åtta engelska UI-termer med etablerad svensk
+terminologi: bland annat begränsningsruta, CPU-omkompilator, ljudsträckning,
+skanningslinjer och ryggar. Termbanken och översättningsminnet användes som
+underlag. JSON, nycklar, platsmarkörer, tabellgenerering, C++-kompilering,
+diff och Gitleaks passerade. Den aktuella arkivkopian har SHA-256
+`5343849d33fbab85a2f612e5b27c0ed5cb5ba694e4eb0617048c345d811f3c1a`.
