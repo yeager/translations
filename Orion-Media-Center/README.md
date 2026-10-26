@@ -5,18 +5,21 @@ Källa: `XeN-Made/Orion-Media-Center`, commit
 (2026-10-24).
 
 Projektet använder egna `.lang`-filer och har redan inbyggt säkert återfall
-till engelska för tomma texter. Den här första svenska satsen lägger till
-`assets/lang/sv.lang` med 285 av 542 strängar: bibliotek, omslagsbilder,
-grundläggande start- och uppdateringsflöden, kategorier, sortering, teman och
-relativa datum.
+till engelska för tomma texter. Det kompletta svenska språkpaketet
+`assets/lang/sv.lang` täcker nu samtliga 542 strängar: bibliotek,
+omslagsbilder, start- och uppdateringsflöden, kategorier, sortering, teman,
+relativa datum, inställningsguiden och speldetaljer.
 
 Kontroller:
 
-- Formatkontroll: 542 giltiga språkposter, inga syntaxfel.
-- Projektets `tools/gen-lang.py --check`: 257 saknade svenska översättningar
-  återstår; inga formatfel i de ifyllda posterna.
-- Hunspell gav endast förväntade produkt- och tekniknamn.
+- Formatkontroll: 542 giltiga språkposter, inga syntaxfel eller tomma måltexter.
+- Projektets `tools/gen-lang.py --check` godkänner katalogen.
+- Platshållarkontroll: alla käll- och målplatshållare är identiska.
+- Hunspell gav endast förväntade produkt- och tekniknamn, bland annat ORION,
+  RetroArch, SteamGridDB, konsolnamn och styrknappar.
 - Ändringen klarade `git diff --check` och en avgränsad Gitleaks-kontroll.
+- `svlang` och `l10n-lint` saknar stöd för projektets egna `.lang`-format;
+  deras filomfattande resultat är därför inte meningsfulla för denna katalog.
 
-Ingen uppströms-PR har skapats: filen är medvetet ofullständig och ska först
-fyllas och granskas helt.
+Den lokala ändringen är förberedd för en uppströms-PR. Innan insändning ska
+projektets aktuella bidragskrav och behörighet kontrolleras.
