@@ -8,7 +8,7 @@ Senaste arkivändring är datumet för den senaste Git-incheckningen som berör 
 
 | Projekt | Senaste arkivändring | Granskning och underlag | Status i arkivet | Att göra |
 | --- | --- | --- | --- | --- |
-| [0-AD](0-AD/) | 2026-10-25 | Ingen särskild granskningsrapport identifierad | [Aktuella granskningsfiler och status](FreeCAD/review-20261026/STATUS.md); två filer väntar på uppladdning | Ladda upp och verifiera 867 FreeCAD- och 12 addons-ändringar i Crowdin |
+| [0-AD](0-AD/) | 2026-10-25 | Granskade PO-filer i projektmappen | Lobbyändringar dokumenterade i [inskickade strängar](0-AD/0ad-lobby-sv-submitted-20261025.json); övrig upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus |
 | [0AD](0AD/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
 | [3D-Slicer](3D-Slicer/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
 | [Accrescent](Accrescent/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
@@ -141,7 +141,7 @@ Senaste arkivändring är datumet för den senaste Git-incheckningen som berör 
 | [Forgejo](Forgejo/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
 | [Fossify](Fossify/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
 | [Foundation](Foundation/) | 2026-10-23 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
-| [FreeCAD](FreeCAD/) | 2026-10-26 | [Granskningsunderlag](FreeCAD/QA-REVIEW-2026-10-14.md); [statusunderlag](FreeCAD/crowdin-status-20261021.md) | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
+| [FreeCAD](FreeCAD/) | 2026-10-26 | [Granskningsunderlag](FreeCAD/QA-REVIEW-2026-10-14.md); [aktuell status](FreeCAD/review-20261026/STATUS.md) | Två granskade filer arkiverade; uppladdning inte verifierad | Ladda upp och verifiera 867 FreeCAD- och 12 addons-ändringar i Crowdin |
 | [FreeCAD-Render](FreeCAD-Render/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
 | [freecore-webui](freecore-webui/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
 | [FreedomBox](FreedomBox/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
