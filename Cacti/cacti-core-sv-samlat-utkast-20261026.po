@@ -1367,3 +1367,75 @@ msgstr ""
 "Ska Boost aktivera RRD-uppdatering på begäran i Cacti? Om du inaktiverar "
 "detta träder ändringen i kraft först efter nästa insamlingscykel. "
 "Inställningen måste vara aktiverad om du har fjärranslutna datainsamlare."
+
+#: index.php:82
+msgid "Remote Data Collector Status:"
+msgstr "Status för fjärransluten datainsamlare:"
+
+#: index.php:89
+msgid ""
+"<strong>NOTE:</strong> You are logged into a Remote Data Collector.  When "
+"<b>'online'</b>, you will be able to view and control much of the Main Cacti"
+" Web Site just as if you were logged into it.  Also, it's important to note "
+"that Remote Data Collectors are required to use the Cacti's Performance "
+"Boosting Services <b>'On Demand Updating'</b> feature, and we always "
+"recommend using Spine.  When the Remote Data Collector is <b>'offline'</b>, "
+"the Remote Data Collectors Web Site will contain much less information.  "
+"However, it will cache all updates until the Main Cacti Database and Web "
+"Server are reachable.  Then it will dump it's Boost table output back to the"
+" Main Cacti Database for updating."
+msgstr ""
+"<strong>OBS!</strong> Du är inloggad i en fjärransluten datainsamlare. När "
+"den är <b>ansluten</b> kan du se och styra stora delar av Cactis "
+"huvudwebbplats som om du vore inloggad där. Fjärranslutna datainsamlare "
+"måste använda funktionen <b>uppdatering på begäran</b> i Cactis "
+"prestandatjänster och vi rekommenderar Spine. När den fjärranslutna "
+"datainsamlaren är <b>frånkopplad</b> innehåller dess webbplats betydligt "
+"mindre information. Den cachelagrar dock alla uppdateringar tills Cactis "
+"huvuddatabas och webbserver kan nås. Därefter skickas utdata från Boost-"
+"tabellen tillbaka till huvuddatabasen för uppdatering."
+
+#: index.php:94
+msgid ""
+"<strong>NOTE:</strong> None of the Core Cacti Plugins, to date, have been "
+"re-designed to work with Remote Data Collectors.  Therefore, Plugins such as"
+" MacTrack, and HMIB, which require direct access to devices will not work "
+"with Remote Data Collectors at this time.  However, plugins such as Thold "
+"will work so long as the Remote Data Collector is in <b>'online'</b> mode."
+msgstr ""
+"<strong>OBS!</strong> Cactis grundläggande insticksmoduler har ännu inte "
+"anpassats för fjärranslutna datainsamlare. Insticksmoduler som MacTrack och "
+"HMIB, som behöver direkt åtkomst till enheter, fungerar därför inte med "
+"fjärranslutna datainsamlare för närvarande. Insticksmoduler som Thold "
+"fungerar däremot så länge den fjärranslutna datainsamlaren är "
+"<b>ansluten</b>."
+
+#: install/functions.php:1199
+msgid "New Poller"
+msgstr "Ny datainsamlare"
+
+#: lib/api_device.php:138 lib/api_device.php:141 lib/api_device.php:326
+#: lib/api_device.php:330 lib/api_device.php:377 lib/api_device.php:381
+#: lib/api_device.php:422 lib/api_device.php:426 lib/api_device.php:493
+#: lib/api_device.php:497 lib/api_device.php:546 lib/api_device.php:550
+#: lib/api_device.php:610 lib/api_device.php:613 lib/api_device.php:669
+#: lib/api_device.php:672 lib/api_device.php:717 lib/api_device.php:720
+#: lib/api_device.php:756 lib/api_device.php:759 lib/api_device.php:1116
+#: lib/api_device.php:1129 lib/api_device.php:1133 lib/api_device.php:1166
+#: lib/api_device.php:1169 lib/api_device.php:1362 lib/api_device.php:1366
+#: lib/api_device.php:1393 lib/api_device.php:1397 lib/api_device.php:1429
+#: lib/api_device.php:1433 lib/api_device.php:1485 lib/api_device.php:1489
+#: lib/utility.php:638 lib/utility.php:642 lib/utility.php:719
+#: lib/utility.php:723 lib/utility.php:745 lib/utility.php:749
+#: lib/utility.php:772 lib/utility.php:775
+#, php-format
+msgid ""
+"Remote Poller %s is Down, you will need to perform a FullSync once it is up "
+"again"
+msgstr ""
+"Den fjärranslutna datainsamlaren %s är otillgänglig. Utför en fullständig "
+"synkronisering när den är tillgänglig igen."
+
+#: lib/api_device.php:1630
+msgid "ERROR: Failed to connect to remote collector."
+msgstr "FEL: Det gick inte att ansluta till den fjärranslutna datainsamlaren."
