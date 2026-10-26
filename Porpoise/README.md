@@ -70,3 +70,8 @@ Ett tredje häfte rättade nio synliga fel i minneskortsvarningar,
 texturpaket, appens sandlådemeddelanden och GameCube-kontrollportens hjälptext.
 Efteråt passerade JSON-tolkning, komplett nyckel- och platshållarjämförelse,
 generering och kompilering av C++-tabellen, diffkontroll och Gitleaks.
+
+Ett fjärde häfte rättade ytterligare tio UI-texter om minneskort,
+sparfiler, automatisk spelsökning, sandlådeläge och GameCube-menyn.
+Samma struktur- och säkerhetskontroller passerade igen, och den aktuella
+arkivkopian har SHA-256 `abe948e351bf0420ec22b63fd1cfe75feb9e21e0616b4a7dfa75104aa9312679`.
