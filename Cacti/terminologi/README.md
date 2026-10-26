@@ -24,6 +24,7 @@ Arbetslista för alla Cacti-komponenter. Tillämpa orden efter sammanhang och ä
 | data query | datafråga | |
 | log | logg | |
 | uptime | drifttid | |
+| heartbeat | hjärtslag, hjärtslagsintervall | I RRD-datakällor avser det ett tidsintervall; för en insamlingsprocess kan det avse själva livstecknet. En gemensam källsträng kan användas i flera sammanhang och ska inte ändras mekaniskt. |
 | poller cache | insamlarens cache | Ändra vid behov till insamlingsprocessens cache om det tekniska sammanhanget kräver åtskillnad. |
 | enabled / disabled | aktiverad / inaktiverad | |
 | delete | ta bort | För gränssnittets åtgärd. |
