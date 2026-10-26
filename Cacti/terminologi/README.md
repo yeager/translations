@@ -217,3 +217,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: `core-koppla-graf-sv.po` laddades upp till core; Weblate bekräftade fyra uppdateringar. Texterna om att koppla grafer anger nu ”aggregerad graf”. msgfmt, l10n-lint och Hunspell passerade.
 
 - 2026-10-26: `mactrack-skanning-sv.po` laddades upp; fyra strängar ändrades till skanning för enhetlighet inom komponenten. msgfmt och l10n-lint passerade; Hunspell flaggade den tekniska beteckningen 802.1X-skanning.
+
+- 2026-10-26: `mactrack-skanning-beskrivning-sv.po` laddades upp; Weblate bekräftade tre uppdaterade strängar. msgfmt och l10n-lint passerade; Hunspell flaggade tekniska beteckningar och switchar.
