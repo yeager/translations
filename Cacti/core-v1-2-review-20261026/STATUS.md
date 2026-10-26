@@ -59,3 +59,5 @@ Statussträngen Bypassed rättades till Överhoppad; Weblate bekräftade en uppd
 Korrigering: Efter kontroll av lib/functions.php, där texten följer ”Pingresultat:”, ändrades Bypassed till Överhoppat. Weblate bekräftade en uppdatering. Den tidigare formen Överhoppad är ersatt. Även ”hoppades över” är grammatiskt möjlig passivform; den tidigare formuleringen var inte i sig ett grammatiskt fel.
 
 Fem texter om aggregatgrafer, mallar och regler rättades efter kontroll av global_form.php och aggregate_graphs.php. Weblate bekräftade fem uppdateringar, inga saknade. msgfmt och l10n-lint gav inga fel; svlang, Hunspell och Gitleaks användes. Den otydliga engelska mallbeskrivningen återstår att utreda.
+
+Den tidigare otydliga mallbeskrivningen har utretts mot aggregate_graphs.php och api_aggregate.php: aktiv mallärvning gör att inställningar hämtas från mallen. Översättningen ”Ska grafen ärva inställningarna från mallen?” skickades; Weblate bekräftade en uppdatering. msgfmt, l10n-lint, svlang, Hunspell och Gitleaks passerade.
