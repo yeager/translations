@@ -65,3 +65,8 @@ Kontrollerna för JSON, alla nycklar, platsmarkörer, genererad C++-tabell,
 diff och Gitleaks passerade igen. Hunspell-SV för de sju rättade texterna gav
 bara avsiktliga produktnamn, filnamn och GitHub-adresser. Den aktuella granskningskopian är
 `porpoise-sv-review-20261027.json`.
+
+Ett tredje häfte rättade nio synliga fel i minneskortsvarningar,
+texturpaket, appens sandlådemeddelanden och GameCube-kontrollportens hjälptext.
+Efteråt passerade JSON-tolkning, komplett nyckel- och platshållarjämförelse,
+generering och kompilering av C++-tabellen, diffkontroll och Gitleaks.
