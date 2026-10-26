@@ -315,3 +315,5 @@ De 120 aktiva posterna jämfördes med källtexten och Weblates vy. Femton rätt
 ### Mikrotik, 26 oktober 2026
 
 Katalogens 241 strängar granskades mot källtexten, Weblates vy och tidigare arkiv. Ändringsfilen `Cacti/cacti-mikrotik-sv-granskning-20261026.po` innehåller 66 poster; Weblate rapporterade 65 uppdaterade, en överhoppad och inga saknade. Orsaken till den överhoppade posten är inte verifierad. Terminologi för insamlare, nätverk och produktnamn rättades. msgfmt passerade; l10n-lint rapporterade en skiljeteckensskillnad och svlang flaggade förkortningen PPPoE. De två skiljeteckenskontrollerna avfärdades eftersom källans fråga slutar med punkt. Senaste release v3.1 publicerades 2023-01-29: https://github.com/Cacti/plugin_mikrotik/releases/tag/v3.1. Synkronisering till källförrådet är inte verifierad.
+
+- Uppföljning: Weblates aktuella bläddringsvy på alla 13 sidor innehåller de granskade svenska formuleringarnas sökta textutdrag, inklusive de nio sist tillagda formuleringarna om behörigheter, minne och drifttid. Jämförelsen gjordes med textutdrag, inte en fullständig jämförelse av varje post och kontext; den identifierar inte den överhoppade importposten.
