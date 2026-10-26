@@ -584,3 +584,5 @@ Weblates 55 strängar granskades mot källtexterna och tidigare säkerhetskopior
 - 2026-10-26: Efter de två rättelserna för vidarebefordran granskades fyra återanvändningsvarningar individuellt. Källorna är singular- och pluralvarianter av samma aktiverings- respektive inaktiveringsåtgärd och svenska ”objekt” har samma obestämda form i båda numerusen. Varningarna avfärdades; Core-översikten visar därefter inga aktiva kontrollrader. I exportens poster 4510–4609 upptäcktes också en felaktig äldre text för `Automatically Trust Signer`, men exakt sökning gav ingen aktiv träff i vare sig Core eller Core 1.2. Ingen översättning av den posten skickades upp.
 
 2026-10-26: Fem varningar om datainsamlare i core granskades mot aktuell källkod och skickades upp till Weblate. Uppladdningen bekräftade fem uppdaterade strängar. Ändringarna finns i `cacti-core-datainsamlare-20261026.po`.
+
+2026-10-26: Fyra aktiva texter i cores tekniksupport anpassades till termen datainsamlare. Weblate bekräftade fyra uppdateringar; ändringarna finns i `cacti-core-support-datainsamlare-20261026.po`.
