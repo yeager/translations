@@ -15,3 +15,7 @@ En kontroll av alla 1 454 inskickade poster mot svenska förslag i Crowdin fann 
 ## Kompletterande import av identiska texter
 
 Den 26 oktober importerades de 12 tidigare saknade posterna med identisk käll- och måltext med alternativet ”Allow target translation to match source” aktiverat. Crowdin rapporterade 12 importerade, 0 godkända och 0 överhoppade. Underlaget finns i `freecad-identical-missing-20261026.xliff`. Fyra andra dolda poster återstår.
+
+## Röstningsprov
+
+För sträng 6679412 röstades den tidigare godkända översättningen ”Dimensionsdetaljer” ned från 0 till −1. Crowdin visade fortfarande den som godkänd och vald efter röstningen; förslaget ”Måttdetaljer” hade 0 poäng. Ett negativt röstetal räcker alltså inte för att ersätta en godkänd översättning i detta fall.
