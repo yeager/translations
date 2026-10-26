@@ -184,3 +184,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Efterkontroll av mactrack-filen med den lokala källkoden för l10n-lint gav inga anmärkningar. Svlang gav tre frekvensnoteringar för vanliga svenska ord, vilka granskades manuellt. Den lokala svenska termbanken använder också MAC-adress. Svterm har ännu inte körts på filen.
 
 2026-10-26: Mactrack-texten om att ta bort platser rättades från ”sajter” till ”platser” enligt terminologin. Weblate bekräftade en uppdatering. msgfmt och Hunspell passerade; l10n-lints två varningar om källans frågetecken bedömdes manuellt eftersom den svenska uppmaningen avslutas med punkt. De två tidigare MAC-rättningarna verifierades i Weblate-editorn. Svterm hittades inte lokalt; GitHub-repot yeager/svterm kunde inte hittas.
+
+2026-10-26: Mactracks fält ”Ticket Number” rättades från ”Biljettnummer” till ”Ärendenummer”, i enlighet med hjälptexten om ärendehanteringssystem och e-postmallen. Weblate bekräftade en uppdatering. msgfmt, l10n-lint och Hunspell passerade.
