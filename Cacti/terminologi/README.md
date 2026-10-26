@@ -210,3 +210,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: Projektets sökning och arkiverade PO-filer visade ”MAC-adresser” för de synliga förekomsterna av ”MAC Addresses”. Varningen i mactrack avfärdades; Weblate visade ingen avvikande översättning men angav inte den exakta orsaken till varningen.
 
 - 2026-10-26: `mactrack-auktorisering-sv.po` skickades upp; tre strängar uppdaterades. Texterna anger att det är auktoriseringen som återkallas. msgfmt, l10n-lint och Hunspell passerade.
+
+- 2026-10-26: Core 1.2: `core-12-graf-fargmall-sv.po` rättar båda pluralformerna till ”aggregerade grafer”. Weblate bekräftade en uppdaterad sträng; msgfmt, l10n-lint och Hunspell passerade. Äldre exportskillnader måste verifieras mot aktiva strängar eftersom fortplantning redan har rättat vissa.
