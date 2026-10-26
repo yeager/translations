@@ -29,3 +29,5 @@ De två kvarvarande pluralvarningarna för ”Avpublicera träd” och ”Lås u
 Fjorton rättelser av konfigurations- och databastekster skickades via webbläsaren. Weblate bekräftade 14 uppdaterade, 0 överhoppade och 0 saknade. PHP-variabelnamn återställdes och PO-filen klarade msgfmt --check --check-format. Granskningen fortsätter.
 
 Femton ytterligare rättelser av insticksmoduler, graftexter och databashjälp skickades via webbläsaren. Weblate bekräftade 15 uppdaterade, 0 överhoppade och 0 saknade. PO-filen klarade msgfmt --check --check-format. En ny varning om slutpunkt gäller en fullständig svensk mening vars källa saknar punkt. Granskningen fortsätter.
+
+Sju hjälptexter om aviseringar, cache och datainsamling rättades och skickades via webbläsaren. Weblate bekräftade 7 uppdaterade, 0 överhoppade och 0 saknade. PO-filen klarade msgfmt --check --check-format. Granskningen fortsätter.
