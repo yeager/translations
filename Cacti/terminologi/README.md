@@ -22,6 +22,7 @@ Arbetslista för alla Cacti-komponenter. Tillämpa orden efter sammanhang och ä
 | poller run / poller cycle | insamlingskörning / insamlingscykel | Avser en körning eller cykel, inte insamlaren som nod. |
 | threshold | tröskelvärde, tröskel | Välj tröskelvärde när ett gränsvärde avses; tröskel kan användas för funktionen. |
 | network | nätverk | |
+| site / location | plats / placering | I Monitor skiljs den tilldelade platsen från enhetens fysiska placering. |
 | tree | träd | För Cactis hierarkiska graf- eller enhetsträd. |
 | data query | datafråga | |
 | metric / measurand | mätstorhet | I Reportit avser båda en definierad mätstorhet; i andra komponenter kan metric syfta på ett mätvärde. |
