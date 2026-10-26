@@ -291,3 +291,7 @@ Den aktuella exporten med 173 strängar genomgicks mot engelskan. Fyra formuleri
 ### GPS Maps, 26 oktober 2026
 
 Den aktuella katalogens 37 strängar jämfördes med Weblates vy och granskades. Tjugo ändringar skickades in; Weblate bekräftade 20 uppdaterade, inga överhoppade och inga saknade. Fil: `Cacti/cacti-gpsmaps-sv-granskning-20261026.po`. Kontroller med msgfmt, svlang och hunspell-sv passerade; l10n-lint påvisade endast skillnaden mellan källans punkt och frågetecknet i den svenska frågan. Weblates två motsvarande kontroller avfärdades. Senaste release är v2.1, 2019-03-01, alltså äldre än 48 månader. Tidigare beslut att avstå på grund av åldern var en för snäv tolkning av instruktionen att kontrollera releaseåldern. Weblate visade ändringarna som väntande i arkivet; överföring till källförrådet har inte verifierats.
+
+### Gexport, 26 oktober 2026
+
+Samtliga 208 aktiva poster i exporten jämfördes med källan och tidigare arkiverade rättningar. Rubriken för borttagning av grafexportdefinitioner ändrades så att den följer rubrikerna för aktivering och inaktivering. Weblate bekräftade en uppdaterad sträng och inga saknade. Ändringsfil: `Cacti/cacti-gexport-sv-granskning-20261026.po`. msgfmt och svlang passerade; l10n-lint gav endast en informationsnotering om källans pluralparentes och Hunspell flaggade sammansättningen grafexportdefinitioner. Senaste release: v2.1, 2023-07-27 (https://github.com/Cacti/plugin_gexport/releases/tag/v2.1), inom 48 månader. Synkronisering till källförrådet är inte verifierad.
