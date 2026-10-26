@@ -13,3 +13,5 @@ Vid fortsatt kontroll avfärdades återanvändningsvarningen för ”Alert” oc
 Fem ytterligare paneltexter rättades och skickades upp, bland annat inläsning och instrumentpanel. Weblate rapporterade fem uppdaterade, inga överhoppade eller saknade. Filen passerade msgfmt och l10n-lint; tre kontrollvarningar om återanvändning kvarstår för granskning.
 
 Fem texter om paneler, trender och tidsintervall förbättrades. Weblate rapporterade fem uppdaterade och inga saknade eller överhoppade. Filen passerade msgfmt och l10n-lint. Kontrollvarningen för Current/Aktuell gäller återanvändning för Up to date och behöver fortsatt bedömas i sitt sammanhang.
+
+Fyra strängar uppdaterades, bland annat Ratio till andel där top5.php beräknar andelen misslyckade insamlingar. Weblate rapporterade fyra uppdaterade; msgfmt och l10n-lint passerade med en informationsnotering om 1/timmen. Current/Aktuell är en kolumnrubrik jämte Average enligt källkoden och behöver inte ändras mekaniskt.
