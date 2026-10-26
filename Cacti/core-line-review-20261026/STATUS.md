@@ -11,3 +11,5 @@ Kontroll 2026-10-26: Weblates enda återstående PHP-formatvarning gällde InnoD
 2026-10-26: de sex kontrollerna för oförändrad översättning granskades och avfärdades i Weblate. GNU General Public License är licensens namn, AutoM8, Boost och Spine är funktions- eller produktnamn, ”operation” är svenska och ”Community:” avser SNMP community (bekräftat i utilities.php). Övriga typer av kontrollvarningar kvarstår.
 
 2026-10-26: fyra återstående varningar om identiska pluralformer granskades och avfärdades i Weblate. ”Paket” och ”paketförråd” har samma form i singular och plural; uppmaningarna är därför korrekta i båda formerna. Andra kontrolltyper kvarstår.
+
+2026-10-26: Granskade samtliga sju varningar om omatchat frågetecken i core. De svenska frågorna har korrekt frågetecken trots punkt i källan, och en beskrivning har korrekt punkt trots frågetecken i källan. Avfärdade de sju frågeteckensvarningarna och sju motsvarande punktvarningarna i Weblate. Översättningarnas text ändrades inte. Översikten visade därefter 194 strängar med återstående kontroller, varav 52 med omatchad slutpunkt och 144 med återanvänd översättning; kategorierna kan överlappa.
