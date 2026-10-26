@@ -229,3 +229,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: Intropage: filen cacti-intropage-varningar-larm-20261026.po laddades upp. Weblate uppdaterade fem av sex strängar; ”Host alerts (up/down/recovering) in last 30 minutes” hittades inte och är därmed inte uppladdad. msgfmt och l10n-lint passerade; Hunspell flaggade Intropage och Ping-svarstider. Granskningen fortsätter.
 
 - 2026-10-26: Intropage: granskning av exportens inledande avsnitt gav 15 språk- och terminologirättningar i cacti-intropage-granskning-20261026.po. Weblate bekräftade 15 uppdateringar. msgfmt och l10n-lint passerade; Hunspell flaggade sammansättningen siduppdatering. Resten av komponenten återstår att granska.
+
+- 2026-10-26: Intropage, fortsatt radgranskning av exportens poster 140–299: 23 korrigeringar skickades upp och Weblate bekräftade 23 uppdaterade. msgfmt passerade; l10n-lints två skiljeteckenvarningar gäller en rubrik med ellips i källan. Hunspell flaggade tekniska sammansättningar med NTP och SNMP. Resten återstår att granska.
