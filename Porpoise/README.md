@@ -40,3 +40,7 @@ GameCube- och Wii-flödena. Kontrollkedjan omfattade JSON-tolkning,
 Nästa häfte normaliserade gränssnittets lägesnamn, bredbildsalternativ och
 Wii-fjärrkontrollens förinställningar. Katalogens nyckeluppsättning och alla
 platsmarkörer jämfördes med den engelska källistan utan avvikelser.
+
+Ytterligare hjälprader för bredbild, ljudläge, rörelsekontroll, sandlådeläge
+och spelinställningar har skrivits om från engelska till konsekvent svenska.
+PR skapas först när samma radgranskning har täckt återstående hjälptexter.
