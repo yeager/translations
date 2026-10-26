@@ -271,3 +271,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: Flowview: fyra granskningsförslag i `cacti-flowview-fyra-forslag-20261026.po`, inklusive kontakt-ID för ping enligt RFC 5943. Filen är lokalt kontrollerad med msgfmt, l10n-lint, svlang och hunspell-sv; Hunspell markerar fackordet ”ping”. Uppladdning är ännu inte bekräftad: filväljaren öppnades men inget importresultat har verifierats. Kontrollera aktuella värden och fortplantning innan import.
 
 - Uppdatering 2026-10-26: `cacti-flowview-fyra-forslag-20261026.po` laddades upp till Flowview via Weblate. Importresultat: 4 bearbetade, 4 uppdaterade, 0 överhoppade och 0 saknade. Synkronisering till projektets källförråd har inte verifierats.
+
+- 2026-10-26: Core 1.2: ”datasamlaren” ändrades till ”datainsamlaren” i beskrivningen av standardtrådar, enligt den gemensamma terminologin. Weblate bekräftade en uppdaterad sträng och noll saknade. msgfmt och l10n-lint passerade; svlang och hunspell-sv kontrollerade det ändrade ordet. Vidare synkronisering till källförrådet är inte verifierad.
