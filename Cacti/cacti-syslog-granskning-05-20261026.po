@@ -1,0 +1,140 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2026-10-16 14:29-0400\n"
+"PO-Revision-Date: 2026-10-26 11:54+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.cacti.net/projects/cacti/syslog/sv/>\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: syslog_alerts.php
+msgid ""
+"Please enter a comma delimited list of Email addresses to inform.  If you "
+"wish to send out Email to a recipient in SMS format, please prefix that "
+"recipient's Email address with <b>'sms@'</b>.  For example, if the "
+"recipients SMS address is <b>'2485551212@mycarrier.net'</b>, you would enter"
+" it as <b>'sms@2485551212@mycarrier.net'</b> and it will be formatted as an "
+"SMS message."
+msgstr ""
+"Ange en kommaseparerad lista över e-postadresser som ska meddelas. Om du "
+"vill skicka e-post till en mottagare i SMS-format, lägg till <b>'sms@'</b> "
+"före mottagarens e-postadress. Om mottagarens SMS-adress exempelvis är "
+"<b>'2485551212@mycarrier.net'</b> anger du "
+"<b>'sms@2485551212@mycarrier.net'</b>, så formateras meddelandet som SMS."
+
+#: syslog_alerts.php
+msgid ""
+"When an Alert is triggered, run the following command.  The following "
+"replacement variables are available <b>'&lt;HOSTNAME&gt;'</b>, "
+"<b>'&lt;ALERTID&gt;'</b>, <b>'&lt;MESSAGE&gt;'</b>, "
+"<b>'&lt;FACILITY&gt;'</b>, <b>'&lt;PRIORITY&gt;'</b>, "
+"<b>'&lt;SEVERITY&gt;'</b>.  Please note that <b>'&lt;HOSTNAME&gt;'</b> is "
+"only available on individual thresholds.  These replacement values can "
+"appear on the command line, or be gathered from the environment of the "
+"script.  When used from the environment, those variables will be prefixed "
+"with 'ALERT_'."
+msgstr ""
+"När ett larm utlöses körs följande kommando. Följande ersättningsvariabler "
+"finns tillgängliga: <b>'&lt;HOSTNAME&gt;'</b>, <b>'&lt;ALERTID&gt;'</b>, "
+"<b>'&lt;MESSAGE&gt;'</b>, <b>'&lt;FACILITY&gt;'</b>, "
+"<b>'&lt;PRIORITY&gt;'</b>, <b>'&lt;SEVERITY&gt;'</b>. Observera att "
+"<b>'&lt;HOSTNAME&gt;'</b> endast är tillgänglig för enskilda tröskelvärden. "
+"Värdena kan anges på kommandoraden eller hämtas från skriptets miljö. I "
+"miljön har variablerna prefixet 'ALERT_'."
+
+#: syslog_removal.php
+msgid "Reprocess"
+msgstr "Bearbeta på nytt"
+
+#: syslog_removal.php
+msgid "Click 'Continue' to Delete the following Syslog Removal Rule(s)."
+msgstr ""
+"Klicka på ”Fortsätt” för att ta bort följande Syslog-borttagningsregler."
+
+#: syslog_removal.php
+msgid "Click 'Continue' to Disable the following Syslog Removal Rule(s)."
+msgstr ""
+"Klicka på ”Fortsätt” för att inaktivera följande Syslog-borttagningsregler."
+
+#: syslog_removal.php
+msgid "Click 'Continue' to Enable the following Syslog Removal Rule(s)."
+msgstr ""
+"Klicka på ”Fortsätt” för att aktivera följande Syslog-borttagningsregler."
+
+#: syslog_removal.php
+msgid "Click 'Continue' to Re-process the following Syslog Removal Rule(s)."
+msgstr ""
+"Klicka på ”Fortsätt” för att bearbeta följande Syslog-borttagningsregler på "
+"nytt."
+
+#: syslog_removal.php
+msgid "Click 'Continue' to Export the following Syslog Removal Rule(s)."
+msgstr ""
+"Klicka på ”Fortsätt” för att exportera följande Syslog-borttagningsregler."
+
+#: syslog_removal.php
+#, php-format
+msgid "Removal Rule Edit [edit: %s]"
+msgstr "Redigera borttagningsregel [redigera: %s]"
+
+#: syslog_removal.php
+msgid "Removal Rule Edit [new]"
+msgstr "Redigera borttagningsregel [ny]"
+
+#: syslog_removal.php
+msgid "New Removal Record"
+msgstr "Ny borttagningspost"
+
+#: syslog_removal.php
+msgid "New Removal Rule"
+msgstr "Ny borttagningsregel"
+
+#: syslog_removal.php
+msgid "Please describe this Removal Rule."
+msgstr "Beskriv den här borttagningsregeln."
+
+#: syslog_removal.php syslog_reports.php
+msgid "String Match Type"
+msgstr "Typ av strängmatchning"
+
+#: syslog_removal.php
+msgid ""
+"Enter the matching component of the syslog message, the facility or host "
+"name, or the SQL where clause if using the SQL Expression Match Type."
+msgstr ""
+"Ange den del av Syslog-meddelandet som ska matchas, Syslog-faciliteten eller"
+" värdnamnet. Om matchningstypen SQL-uttryck används anger du SQL-satsens "
+"WHERE-villkor."
+
+#: syslog_removal.php
+msgid "Import Removal Rule"
+msgstr "Importera borttagningsregel"
+
+#: syslog_reports.php
+msgid "Click 'Continue' to Export the following Syslog Report Rule(s)."
+msgstr "Klicka på ”Fortsätt” för att exportera följande Syslog-rapportregler."
+
+#: syslog_reports.php
+#, php-format
+msgid "Report Edit [edit: %s]"
+msgstr "Redigera rapport [redigera: %s]"
+
+#: syslog_reports.php
+msgid "Report Edit [new]"
+msgstr "Redigera rapport [ny]"
+
+#: syslog_reports.php
+msgid "New Report Record"
+msgstr "Ny rapportpost"
+
+#: syslog_reports.php
+msgid "Comma delimited list of Email addresses to send the report to."
+msgstr ""
+"Kommaseparerad lista över e-postadresser som rapporten ska skickas till."
