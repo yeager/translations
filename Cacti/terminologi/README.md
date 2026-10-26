@@ -180,3 +180,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Kontrollen för ”%s MB” i hmib avfärdades: den återanvända översättningen motsvarar även ”%s MBytes”. Mactrack har en inkonsekvensvarning för ”MAC Addresses”; de jämförda svenska formerna i komponenten är ”MAC-adresser”, men varningens fulla orsak är ännu inte klarlagd.
 
 2026-10-26: Två texter i mactrack rättades från ”Mac-adresser” till ”MAC-adresser” och skickades till Weblate (2 uppdaterade). Filen kontrollerades med msgfmt och Hunspell; l10n-lint och svterm var inte tillgängliga i PATH vid denna kontroll.
+
+2026-10-26: Efterkontroll av mactrack-filen med den lokala källkoden för l10n-lint gav inga anmärkningar. Svlang gav tre frekvensnoteringar för vanliga svenska ord, vilka granskades manuellt. Den lokala svenska termbanken använder också MAC-adress. Svterm har ännu inte körts på filen.
