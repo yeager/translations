@@ -9,3 +9,5 @@ msgfmt --check --check-format och Gitleaks passerade. l10n-lint rapporterade 0 f
 Kontroll 2026-10-26: Weblates enda återstående PHP-formatvarning gällde InnoDB-texten med bokstavliga procenttal. Källkoden i lib/utility.php anropar __() utan formatargument, och global_languages.php returnerar i det fallet texten direkt. Weblate tolkade delar av vanlig text som formatmarkörer; kontrollen avfärdades. Översikt före åtgärden: 212 strängar med kontrollvarningar, inklusive denna PHP-varning, 59 om slutpunkt och 144 om återanvänd översättning (kategorier kan överlappa).
 
 2026-10-26: de sex kontrollerna för oförändrad översättning granskades och avfärdades i Weblate. GNU General Public License är licensens namn, AutoM8, Boost och Spine är funktions- eller produktnamn, ”operation” är svenska och ”Community:” avser SNMP community (bekräftat i utilities.php). Övriga typer av kontrollvarningar kvarstår.
+
+2026-10-26: fyra återstående varningar om identiska pluralformer granskades och avfärdades i Weblate. ”Paket” och ”paketförråd” har samma form i singular och plural; uppmaningarna är därför korrekta i båda formerna. Andra kontrolltyper kvarstår.
