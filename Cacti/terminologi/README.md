@@ -283,3 +283,7 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: GPS Maps: Weblate innehåller uppenbara språkfel, bland annat ”Starting Degree” → ”Startande examen”. GitHubs senaste publicerade release för Cacti/plugin_gpsmaps är dock v2.1 från 2019-03-01, äldre än den angivna gränsen på 48 månader. Ingen ny översättning har därför skickats in. Källa: https://github.com/Cacti/plugin_gpsmaps/releases/tag/v2.1. Projektöversiktens 100 % och noll kontroller innebär inte att texten är språkgranskad.
 
 - 2026-10-26: Audit: tidigare export med ”poller-cykel” och ”Batchstorlek för poller” är inaktuell; Weblate visar ”insamlingscykel” och ”Batchstorlek för insamling” och anger ändringarna som väntande. Senaste GitHub-release för Cacti/plugin_audit är v1.2 från 2024-03-17, inom 48 månader. Vidare synkronisering är inte verifierad.
+
+### Audit, 26 oktober 2026
+
+Den aktuella exporten med 173 strängar genomgicks mot engelskan. Fyra formuleringar om behandling av begäran, Syslog-status, autentiseringskontroller och privat nyckel förtydligades. Weblate bekräftade fyra uppdaterade strängar utan överhoppade eller saknade strängar. Ändringsfil: `Cacti/cacti-audit-sv-sprakgranskning-20261026.po`. `msgfmt --check`, l10n-lint och svlang passerade; Hunspell-resultatet granskades med hänsyn till tekniska termer och PO-metadata.
