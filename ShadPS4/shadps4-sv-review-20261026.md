@@ -21,3 +21,5 @@ På åttonde sidan har åtta förslag lämnats för snabbtangenter, kontroller o
 På nionde sidan har tre förslag lämnats för konsekventa knappbindningstexter och en saknad artikel. De tidigare översättningarna är godkända. [Kopia med kontext och radbrytningar](shadps4-sv-review-20261026-page9.json). L10n-lint, svlang, Hunspell-sv och Gitleaks gav inga fynd på satsen.
 
 På tionde sidan har fyra förslag lämnats för spelbibliotek och hämtning av fusk och patchar. Tidigare översättningar är fortfarande godkända. [Kopia med kontext](shadps4-sv-review-20261026-page10.json). L10n-lint, svlang, Hunspell-sv och Gitleaks gav inga fynd på satsen.
+
+På elfte sidan har fem förslag lämnats för startmeddelanden och inställningar, bland annat rättad stavning av ”konsolspråk”. Tidigare översättningar är fortfarande godkända. [Kopia med kontext](shadps4-sv-review-20261026-page11.json). L10n-lint, svlang, Hunspell-sv och Gitleaks gav inga fynd på satsen.
