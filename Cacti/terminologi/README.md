@@ -255,3 +255,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: Efterkontroll: Weblates komponentinformation visar arkivrevision b8134bfd, och en läsning av dess svenska PO-fil saknar de senaste ändringarna trots att de syns i Weblates bläddringsvy. De enskilda inskickade ändringsfilerna finns i arkivet här; Weblates Git-arkivering och vidare överföring upstream är ännu inte verifierad. Någon orsak har inte fastställts.
 
 - 2026-10-26: Syslog: tio rubriker och rapporttexter rättades; Weblate bekräftade tio uppdateringar. msgfmt passerade före uppladdning, l10n-lint gav endast informationsnoteringar om källans pluralparenteser och Hunspell flaggade Syslog-sammansättningar. Weblates Git-HEAD var fortfarande b8134bfd vid kontrollen; vidare upstream-överföring är inte verifierad.
+
+- 2026-10-26: Flowview: åtta texter om frågor, DNS och rutter rättades; Weblate bekräftade åtta uppdaterade. msgfmt och l10n-lint passerade, Hunspell flaggade tekniska namn. Hela komponentens fortsatta radgranskning återstår.
