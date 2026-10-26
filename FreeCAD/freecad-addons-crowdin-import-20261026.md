@@ -5,3 +5,7 @@ Filen `freecad-addons-sv-crowdin-submitted-20261026.xliff` är underlaget som sk
 ## API-kontroll av förslag
 
 En kontroll av alla 2 692 inskickade poster mot svenska förslag i Crowdin fann 2 655 exakta textmatchningar. De 37 poster som saknade exakt matchning har alla samma måltext som källtext. JSON-filen `freecad-addons-crowdin-presence-20261026.json` innehåller resultat per sträng-id. Förekomst betyder inte att översättningen är vald eller godkänd. Kontrollens resultat identifierar inte säkert varför enskilda poster hoppades över vid importen.
+
+## Kompletterande import av identiska texter
+
+Den 26 oktober importerades de 37 tidigare saknade posterna med identisk käll- och måltext med alternativet ”Allow target translation to match source” aktiverat. Crowdin rapporterade 37 importerade, 0 godkända och 0 överhoppade. Underlaget finns i `freecad-addons-identical-missing-20261026.xliff`.

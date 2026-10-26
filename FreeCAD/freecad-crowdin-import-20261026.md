@@ -11,3 +11,7 @@ Två stickprov i Crowdin visade att inskickade alternativ fanns trots att äldre
 ## API-kontroll av förslag
 
 En kontroll av alla 1 454 inskickade poster mot svenska förslag i Crowdin fann 1 438 exakta textmatchningar. Sexton poster saknade exakt matchning. Tolv av dem är oförändrade från källtexten; fyra har en annan måltext. Dessa fyra sträng-id (194951, 176822, 177244 och 2593990) var alla dolda enligt API:t vid kontrollen. Dold status är en sannolik förklaring till att de inte importerades, men importloggen var inte tillgänglig för att bekräfta orsaken. JSON-filen `freecad-crowdin-presence-20261026.json` innehåller resultat per sträng-id. Förekomst betyder inte att översättningen är vald eller godkänd.
+
+## Kompletterande import av identiska texter
+
+Den 26 oktober importerades de 12 tidigare saknade posterna med identisk käll- och måltext med alternativet ”Allow target translation to match source” aktiverat. Crowdin rapporterade 12 importerade, 0 godkända och 0 överhoppade. Underlaget finns i `freecad-identical-missing-20261026.xliff`. Fyra andra dolda poster återstår.
