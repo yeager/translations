@@ -275,3 +275,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: Core 1.2: ”datasamlaren” ändrades till ”datainsamlaren” i beskrivningen av standardtrådar, enligt den gemensamma terminologin. Weblate bekräftade en uppdaterad sträng och noll saknade. msgfmt och l10n-lint passerade; svlang och hunspell-sv kontrollerade det ändrade ordet. Vidare synkronisering till källförrådet är inte verifierad.
 
 - 2026-10-26: En uppföljande sökning i aktuell Weblate för Core efter ”datasamlare” gav inga träffar. Den tidigare skillnaden i `core-jamforelse-20261026.md` bygger på en äldre export och ska inte återinföras. Sökresultatet bevisar endast att den sökta formen saknas i Core, inte att hela komponentens terminologi är färdiggranskad.
+
+- 2026-10-26: Core: den återstående aktiva återanvändningskontrollen för ”Warnings” → ”Varningar” granskades och avfärdades i Weblate. Översättningen är korrekt även för förekomsterna i Core 1.2 och Intropage. Weblate visade därefter alternativet ”Återställ”; detta är en kontrollåtgärd, inte en översättningsändring.
