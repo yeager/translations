@@ -29,6 +29,7 @@ Arbetslista för alla Cacti-komponenter. Tillämpa orden efter sammanhang och ä
 | metric / measurand | mätstorhet | I Reportit avser båda en definierad mätstorhet; i andra komponenter kan metric syfta på ett mätvärde. |
 | consolidation function | konsolideringsfunktion | Funktion som sammanfattar mätvärden. |
 | step / stepping | steglängd | När värdet anger avståndet mellan numeriska val. |
+| filename / file name | filnamn | Samma betydelse trots olika engelsk stavning. |
 | log | logg | |
 | uptime | drifttid | |
 | heartbeat | hjärtslag, hjärtslagsintervall | I RRD-datakällor avser det ett tidsintervall; för en insamlingsprocess kan det avse själva livstecknet. En gemensam källsträng kan användas i flera sammanhang och ska inte ändras mekaniskt. |
@@ -67,3 +68,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: ”Polling Interval” avser datakällans insamlingsfrekvens och ”Poller Interval” den globala insamlarens intervall enligt global_form.php respektive global_settings.php. ”Insamlingsintervall” fungerar i båda inställningarnas sammanhang; återanvändningskontrollen avfärdades.
 
 2026-10-26: Återanvändningskontrollen för Core ”Prefix” och Reportit ”Prefixes” avfärdades i Weblate. Core använder prefix som fältbenämning och Reportit avser SI-prefix; svensk obestämd singular och plural har samma form.
+
+2026-10-26: Routerconfigs ”Filename” och Cactis båda Core-versioners ”File Name” använder ”filnamn”. Återanvändningskontrollen avfärdades efter jämförelse i Weblate. Varningen för ”Connection timeout” kvarstår tills sammanhanget har kontrollerats.
