@@ -13,3 +13,5 @@ På fjärde sidan har fem förslag lämnats för tilldelning av kontroller, kryp
 På femte sidan har fyra förslag om nyckelvalidering och spelkonfigurationer lämnats i Crowdin. Befintliga översättningar är fortfarande godkända. [Kopia med källtext och kontext](shadps4-sv-review-20261026-page5.json). L10n-lint, svlang, Hunspell-sv och Gitleaks gav inga fynd på satsen.
 
 På sjätte sidan har sju rättningsförslag lämnats för kompatibilitet, kopiering, trofévisning och sparade data. De äldre översättningarna är godkända i Crowdin; förslagen väntar på granskning. [Kopia med källtext och kontext](shadps4-sv-review-20261026-page6.json). L10n-lint, svlang, Hunspell-sv och Gitleaks gav inga fynd på satsen.
+
+På sjunde sidan har tre Crowdin-förslag lämnats för startmenyn, rapportkontroll och ikonkonvertering. Tidigare översättningar är fortfarande godkända. [Kopia med kontext](shadps4-sv-review-20261026-page7.json). L10n-lint, svlang, Hunspell-sv och Gitleaks gav inga fynd på satsen. Crowdin varnade för en apostrofentitet från engelskans sammandragning, som inte behövs i den svenska formuleringen.
