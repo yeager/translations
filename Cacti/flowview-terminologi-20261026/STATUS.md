@@ -3,3 +3,5 @@
 Två texter om flow collector samordnades till flödesinsamlare. Weblate rapporterade två uppdaterade, inga överhoppade och inga saknade. msgfmt och l10n-lint passerade; Hunspell flaggade endast CIDR-, en teknisk förkortning. Senaste release var v4.9 den 23 mars 2025. Fem kontrollvarningar om återanvändning kvarstod efter uppladdningen.
 
 Två återanvändningsvarningar granskades och avfärdades: Net Name/Network Name kan båda vara nätverksnamn och Trouble/Issue/Issues kan vara problem. Övriga varningar behöver granskas.
+
+Ytterligare två återanvändningsvarningar avfärdades efter granskning: Packets och Package/Packages kan översättas med paket; Lines och Rows kan översättas med rader i de aktuella sammanhangen.
