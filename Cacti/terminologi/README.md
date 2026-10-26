@@ -94,3 +94,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Tholds källkod visar att ”No [Thold]”, ”No [Template]” och ”No [Template:Thold]” visas i kolumnen för aktivering. De översattes med ”Nej” och motsvarande orsak inom hakparentes. Samma fil rättar ”Edit Threshold Template” och bevarar förkortningen ”ALo:” oförändrad. Weblate bekräftade fem uppdaterade strängar; msgfmt, l10n-lint och Hunspell passerade. Källor: plugin_thold develop, thold.php och thold_graph.php.
 
 2026-10-26: Tolv strängar i Tholds graf- och tröskelvy rättades, inklusive skilda varnings- och larmvärden, förkortningarnas versaler och text om borttaget tröskelvärde. Weblate bekräftade tolv uppdateringar. De tre återställda förkortningarna WHi, WLo och AHi ger kontroller för oförändrad översättning; de lämnas för granskning. msgfmt, l10n-lint och Hunspell passerade.
+
+2026-10-26: WHi, WLo och AHi kontrollerades mot etiketter i thold.php och deras kontroller för oförändrad översättning avfärdades i Weblate. Tre malltexter rättades och uppladdningen bekräftade tre uppdateringar; msgfmt, l10n-lint och Hunspell passerade.
