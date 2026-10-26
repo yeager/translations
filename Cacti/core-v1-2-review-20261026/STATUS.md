@@ -47,3 +47,5 @@ TLS-alternativen Hard och Demand rättades till Strikt och Kräv efter kontroll 
 Fem status- och inställningstexter rättades. Fail kontrollerades mot användningen i host.php och översattes till Misslyckades. Weblate bekräftade 5 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
 
 Fyra databas- och installationstexter rättades, inklusive variabelnamnet $rdatabase_username. Weblate bekräftade 4 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
+
+Fem texter om grafer, datakällor, loggning och installation rättades. Weblate bekräftade 5 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
