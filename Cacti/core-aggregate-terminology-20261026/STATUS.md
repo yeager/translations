@@ -7,3 +7,5 @@
 2026-10-26: Aktuell export av core v1.2.x visade att 19 gemensamma ändringar redan fanns där. Tolv versionsspecifika förekomster av ”aggregatgraf” ändrades till ”aggregerad graf” eller motsvarande böjning. Weblate bekräftade 12 uppdaterade, 0 överhoppade och 0 saknade strängar. msgfmt och l10n-lint passerade; Hunspell flaggade endast ”grafmallen”, som bedömts korrekt. Efter uppladdningen visar Weblate 90 kontrollvarningar i komponenten, jämfört med 86 före; dessa återstår att granska.
 
 Uppföljning: Varningen om återanvänd översättning för ”Click 'Continue' to delete the following Aggregate Graph(s).” jämfördes med en annan källsträng som har samma betydelse och avfärdades i Weblate. Övriga varningar är ännu inte granskade i denna uppföljning.
+
+Ytterligare granskning: Fyra varningar om återanvänd översättning avfärdades efter jämförelse av likvärdiga källtexter: borttagning av grafer, konvertering av aggregerade grafer, koppling av grafer och borttagning av aggregatmallar. En femte avfärdades för borttagning av enheter. Varningen för ”Pollers” jämfört med ”Poller” och ”Collector” lämnades kvar för kontextgranskning.
