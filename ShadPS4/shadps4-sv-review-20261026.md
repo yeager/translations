@@ -31,3 +31,5 @@ På trettonde sidan har sju förslag lämnats för grafik och felsökning, inklu
 Den slutliga GPU-texten på sida tretton kontrollerades på nytt: l10n-lint och svlang gav inga fynd, och Hunspell markerade tekniska ord och sammansättningar.
 
 På fjortonde sidan har fem förslag lämnats. Bland annat ändras ”Present Mode” från ”Nuvarande läge” till ”Presentationsläge”. Tidigare översättningar är fortfarande godkända. [Kopia med kontext](shadps4-sv-review-20261026-page14.json). L10n-lint och svlang gav inga fynd; Hunspell markerade tekniska namn och Gitleaks gav inga fynd.
+
+På femtonde sidan har tio förslag lämnats för systemmodulmapp, hemmapp och logginställningar. Tidigare översättningar är fortfarande godkända och förslagen väntar på granskning. [Kopia med kontext och radbrytningsmarkörer](shadps4-sv-review-20261026-page15.json). Radbrytningsmarkörerna jämfördes med källtexterna. Svlang gav inga skrivregelfel och Hunspell markerade den korrekta sammansättningen ”systemmodulmapp”. L10n-lint gav en längdvarning för ”Log Append” men inga fel; Gitleaks gav inga fynd i kopian.
