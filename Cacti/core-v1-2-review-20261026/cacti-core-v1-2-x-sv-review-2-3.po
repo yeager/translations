@@ -1,0 +1,1052 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2026-10-11 16:07-0700\n"
+"PO-Revision-Date: 2026-10-26 08:24+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.cacti.net/projects/cacti/core-v1-2-x/sv/>\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: lib/reports.php
+msgid "(Non Query Based)"
+msgstr "(inte frågebaserad)"
+
+#: lib/reports.php
+msgid "Graph Timespan:"
+msgstr "Grafens tidsintervall:"
+
+#: lib/reports.php
+#, php-format
+msgid "Created Report Graph Item '<i>%s</i>'"
+msgstr "Skapade rapportens grafobjekt ”<i>%s</i>”"
+
+#: lib/reports.php
+#, php-format
+msgid "Failed Adding Report Graph Item '<i>%s</i>' Already Exists"
+msgstr ""
+"Kunde inte lägga till rapportens grafobjekt ”<i>%s</i>” eftersom det redan "
+"finns"
+
+#: lib/reports.php
+#, php-format
+msgid "Skipped Report Graph Item '<i>%s</i>' Already Exists"
+msgstr ""
+"Hoppade över rapportens grafobjekt ”<i>%s</i>” eftersom det redan finns"
+
+#: lib/rrd.php
+#, php-format
+msgid "The XFF for Cacti RRA id is '%s' but should be '%s'"
+msgstr "XFF för Cacti-RRA är ”%s” men ska vara ”%s”"
+
+#: lib/rrd.php
+msgid "Data Source Items"
+msgstr "Datakällobjekt"
+
+#: lib/rrd.php
+msgid "Minimal Heartbeat"
+msgstr "Minsta hjärtslag"
+
+#: lib/rrd.php
+msgid "Unknown Sec"
+msgstr "Okända sekunder"
+
+#: lib/rrd.php
+msgid "CDP Prep Value (0)"
+msgstr "CDP-förberedelsevärde (0)"
+
+#: lib/rrd.php
+msgid "CDP Unknown Data points (0)"
+msgstr "Okända CDP-datapunkter (0)"
+
+#: lib/rrd.php
+msgid "Optional Tuning Recommendations"
+msgstr "Valfria rekommendationer för finjustering"
+
+#: lib/rrd.php
+msgid "Error while parsing the XML of rrdtool dump"
+msgstr "Fel vid tolkning av XML från rrdtool dump"
+
+#: lib/rrd.php
+#, php-format
+msgid "ERROR: RRDfile %s not writeable"
+msgstr "FEL: RRD-filen %s är inte skrivbar"
+
+#: lib/rrd.php
+msgid "Error while parsing the XML of RRDtool dump"
+msgstr "Fel vid tolkning av XML från RRDtool dump"
+
+#: lib/rrd.php
+#, php-format
+msgid ""
+"Website does not have write access to %s, may be unable to create/update "
+"RRDs"
+msgstr ""
+"Webbplatsen har inte skrivåtkomst till %s och kanske inte kan skapa eller "
+"uppdatera RRD-filer"
+
+#: lib/rrd.php
+msgid "Failed to open data file, poller may not have run yet"
+msgstr "Kunde inte öppna datafilen. Insamlaren kanske inte har körts ännu"
+
+#: lib/spikekill.php
+msgid ""
+"FATAL: The outlier-start and outlier-end arguments must be in the format of "
+"YYYY-MM-DD HH:MM or a unix timestamp."
+msgstr ""
+"ALLVARLIGT: Argumenten outlier-start och outlier-end måste anges i formatet "
+"ÅÅÅÅ-MM-DD HH:MM eller som en Unix-tidsstämpel."
+
+#: lib/spikekill.php
+msgid "FATAL: Number of spikes to remove must be a positive integer"
+msgstr ""
+"ALLVARLIGT: Antalet toppar som ska tas bort måste vara ett positivt heltal"
+
+#: lib/spikekill.php
+msgid ""
+"FATAL: Outlier time range requires outlier-start and outlier-end to be "
+"specified."
+msgstr ""
+"ALLVARLIGT: Tidsintervallet för avvikande värden kräver att outlier-start "
+"och outlier-end anges."
+
+#: lib/spikekill.php
+msgid ""
+"FATAL: Outlier time range requires outlier-start to be less than outlier-"
+"end."
+msgstr ""
+"ALLVARLIGT: För tidsintervallet för avvikande värden måste outlier-start "
+"vara mindre än outlier-end."
+
+#: lib/spikekill.php
+#, php-format
+msgid "Max Kills:     %s"
+msgstr "Max antal borttagna: %s"
+
+#: lib/spikekill.php
+msgid "Max Kills:     Unlimited"
+msgstr "Max antal borttagna: obegränsat"
+
+#: lib/spikekill.php
+#, php-format
+msgid "NOTE: Searching for Spikes in XML file '%s'"
+msgstr "OBS! Söker efter toppar i XML-filen ”%s”"
+
+#: lib/spikekill.php
+#, php-format
+msgid "NOTE: Limited to Time Window: %s through %s"
+msgstr "OBS! Begränsat till tidsfönstret %s till %s"
+
+#: lib/spikekill.php
+msgid "NOTE: Dryrun requested.  No updates performed"
+msgstr "OBS! Simulering begärdes. Inga uppdateringar utfördes"
+
+#: lib/spikekill.php
+#, php-format
+msgid "NOTE: No Window Spikes found in '%s'"
+msgstr "OBS! Inga toppar hittades i tidsfönstret för ”%s”"
+
+#: lib/spikekill.php
+#, php-format
+msgid "NOTE: No Spikes found in '%s'"
+msgstr "OBS! Inga toppar hittades i ”%s”"
+
+#: lib/spikekill.php
+#, php-format
+msgid "NOTE: Spikes Found and Remediated.  Total Spikes %s"
+msgstr "OBS! Toppar hittades och åtgärdades. Totalt antal toppar: %s"
+
+#: lib/spikekill.php
+msgid "NOTE: No Spikes Found."
+msgstr "OBS! Inga toppar hittades."
+
+#: lib/spikekill.php
+msgid "Samples"
+msgstr "Mätvärden"
+
+#: lib/template.php
+msgid "Attempting to Create Graph from Non-Template"
+msgstr "Försöker skapa en graf utan mall"
+
+#: lib/template.php
+msgid "Attempting to Create Graph from Removed Graph Template"
+msgstr "Försöker skapa en graf från en borttagen grafmall"
+
+#: lib/template.php
+#, php-format
+msgid ""
+"NOTE: Graph not added for Data Query %s and index %s due to Data Source "
+"verification failure"
+msgstr ""
+"OBS! Grafen lades inte till för datafrågan %s och index %s eftersom "
+"verifieringen av datakällan misslyckades"
+
+#: lib/utility.php
+msgid "Integer; default 151. Allow enough for the pollers plus user logins."
+msgstr ""
+"Heltal; standardvärdet är 151. Tillåt tillräckligt många för insamlare och "
+"användarinloggningar."
+
+#: lib/utility.php
+msgid "Bytes; keep at or above 16M for remote pollers."
+msgstr "Byte; använd minst 16 M för fjärrinsamlare."
+
+#: lib/utility.php
+msgid "Method used to flush data and log files to disk."
+msgstr "Metod för att skriva data och loggfiler till disk."
+
+#: lib/utility.php
+msgid ""
+"Controls how the redo log is written and flushed at transaction commit."
+msgstr ""
+"Styr hur redo-loggen skrivs och synkroniseras när en transaktion genomförs."
+
+#: lib/utility.php
+msgid "Write and flush the InnoDB redo log every N seconds."
+msgstr "Skriv och synkronisera InnoDB:s redo-logg var N:e sekund."
+
+#: lib/utility.php
+msgid "Maximum IOPS InnoDB may use when flushing falls behind."
+msgstr ""
+"Högsta antal IOPS som InnoDB får använda när skrivningen till disk hamnar "
+"efter."
+
+#: lib/utility.php
+msgid ""
+"Flush neighbouring dirty pages in the same extent when flushing a page."
+msgstr ""
+"Skriv även intilliggande ändrade sidor i samma lagringsområde till disk när "
+"en sida skrivs."
+
+#: lib/utility.php
+msgid ""
+"ON or OFF; back-ported to MariaDB 10.6.18+, 10.11.8+ and 11.4.2+. Set OFF "
+"for the Cacti poller."
+msgstr ""
+"ON eller OFF; bakåtporterat till MariaDB 10.6.18+, 10.11.8+ och 11.4.2+. "
+"Ange OFF för Cacti-insamlaren."
+
+#: lib/utility.php
+#, php-format
+msgid ""
+"Depending on the number of logins and use of spine data collector, %s will "
+"need many connections.  The calculation for spine is: total_connections = "
+"total_processes * (total_threads + script_servers + 1), then you must leave "
+"headroom for user connections, which will change depending on the number of "
+"concurrent login accounts."
+msgstr ""
+"Beroende på antalet inloggningar och användningen av Spine-datainsamlaren "
+"kan %s behöva många anslutningar. För Spine beräknas antalet som "
+"total_connections = total_processes * (total_threads + script_servers + 1). "
+"Lämna dessutom utrymme för användaranslutningar, vars antal beror på hur "
+"många konton som är inloggade samtidigt."
+
+#: lib/utility.php
+msgid ""
+"Keeping the table cache larger means less file open/close operations when "
+"using innodb_file_per_table."
+msgstr ""
+"En större tabellcache minskar antalet filöppningar och filstängningar när "
+"innodb_file_per_table används."
+
+#: lib/utility.php
+msgid ""
+"With Remote polling capabilities, large amounts of data will be synced from "
+"the main server to the remote pollers.  Therefore, keep this value at or "
+"above 16M."
+msgstr ""
+"Vid fjärrinsamling synkroniseras stora mängder data från huvudservern till "
+"fjärrinsamlarna. Använd därför värdet 16M eller högre."
+
+#: lib/utility.php
+msgid ""
+"When executing subqueries, having a larger temporary table size, keep those "
+"temporary tables in memory."
+msgstr ""
+"En större tillåten storlek för temporära tabeller gör att de kan behållas i "
+"minnet vid körning av underfrågor."
+
+#: lib/utility.php
+#, php-format
+msgid ""
+"When using InnoDB storage it is important to keep your table spaces "
+"separate.  This makes managing the tables simpler for long time users of %s."
+"  If you are running with this currently off, you can migrate to the per "
+"file storage by enabling the feature, and then running an alter statement on"
+" all InnoDB tables."
+msgstr ""
+"Med InnoDB-lagring är det viktigt att hålla tabellrymderna åtskilda. Det "
+"förenklar hanteringen för långvariga användare av %s. Om funktionen är "
+"avstängd kan du migrera till en fil per tabell genom att aktivera den och "
+"sedan köra ett ALTER-kommando på alla InnoDB-tabeller."
+
+#: lib/utility.php
+#, php-format
+msgid ""
+"InnoDB will hold as much tables and indexes in system memory as is possible."
+"  Therefore, you should make the innodb_buffer_pool large enough to hold as "
+"much of the tables and index in memory.  Checking the size of the "
+"/var/lib/mysql/cacti directory will help in determining this value.  We are "
+"recommending 25%% of your systems total memory, but your requirements will "
+"vary depending on your systems size."
+msgstr ""
+"InnoDB lagrar så mycket tabell- och indexdata som möjligt i systemminnet. "
+"Ange därför en tillräckligt stor innodb_buffer_pool. Storleken på katalogen "
+"/var/lib/mysql/cacti kan hjälpa dig att välja värde. Vi rekommenderar 25%% "
+"av systemets totala minne, men behovet varierar med systemets storlek."
+
+#: lib/utility.php
+msgid ""
+"This is where metadata is stored. If you had a lot of tables, it would be "
+"useful to increase this."
+msgstr ""
+"Här lagras metadata. Ett högre värde kan vara användbart om du har många "
+"tabeller."
+
+#: lib/utility.php
+msgid ""
+"Maximum I/O performance happens when you use the O_DIRECT method to flush "
+"pages."
+msgstr ""
+"Högsta I/O-prestanda uppnås när O_DIRECT används för att skriva sidor till "
+"disk."
+
+#: lib/utility.php
+#, php-format
+msgid ""
+"Setting this value to 2 means that you will flush all transactions every "
+"second rather than at commit.  This allows %s to perform writing less often."
+msgstr ""
+"Värdet 2 innebär att transaktioner skrivs till disk varje sekund i stället "
+"för vid varje commit. Det gör att %s kan skriva mer sällan."
+
+#: lib/utility.php
+msgid ""
+"With modern SSD type storage, having multiple io threads is advantageous for"
+" applications with high io characteristics."
+msgstr ""
+"Med modern SSD-lagring är flera I/O-trådar fördelaktiga för program med hög "
+"I/O-belastning."
+
+#: lib/utility.php
+msgid ""
+"With modern SSD type storage, having multiple read io threads is "
+"advantageous for applications with high io characteristics."
+msgstr ""
+"Med modern SSD-lagring är flera I/O-lästrådar fördelaktiga för program med "
+"hög I/O-belastning."
+
+#: lib/utility.php
+msgid ""
+"With modern SSD type storage, having multiple write io threads is "
+"advantageous for applications with high io characteristics."
+msgstr ""
+"Med modern SSD-lagring är flera I/O-skrivtrådar fördelaktiga för program med"
+" hög I/O-belastning."
+
+#: lib/utility.php
+#, php-format
+msgid "A minimum of %s memory limit"
+msgstr "En minnesgräns på minst %s"
+
+#: lib/utility.php
+#, php-format
+msgid "A minimum of %s m execution time"
+msgstr "En körtid på minst %s minuter"
+
+#: links.php
+msgid "Your contentfile is not a valid URL.  Please enter a value URL"
+msgstr "Innehållsfilens adress är inte en giltig URL. Ange en giltig URL"
+
+#: links.php user_admin.php user_group_admin.php
+msgid "Bottom Console"
+msgstr "Nederst i konsolen"
+
+#: links.php user_admin.php user_group_admin.php
+msgid "Top Console"
+msgstr "Överst i konsolen"
+
+#: links.php
+msgid "Sort for Ordering"
+msgstr "Sortera för att ändra ordningen"
+
+#: links.php
+msgid "Console Menu Section"
+msgstr "Avsnitt i konsolmenyn"
+
+#: links.php
+msgid "Tab/Menu Name"
+msgstr "Namn på flik eller meny"
+
+#: links.php
+msgid "Content File/URL"
+msgstr "Innehållsfil eller URL"
+
+#: links.php
+msgid ""
+"The file that contains the content for this page. This file needs to be in "
+"the Cacti 'include/content/' directory."
+msgstr ""
+"Filen som innehåller sidans innehåll. Den måste finnas i Cactis katalog "
+"”include/content/”."
+
+#: links.php
+msgid "Web URL Location"
+msgstr "Webbadress"
+
+#: links.php
+msgid "Automatic Page Refresh"
+msgstr "Automatisk siduppdatering"
+
+#: logout.php
+msgid "You have been logged out of Cacti due to a session timeout."
+msgstr ""
+"Du har loggats ut från Cacti eftersom sessionens tidsgräns överskreds."
+
+#: logout.php
+msgid "You have been logged out of Cacti due to an account suspension."
+msgstr "Du har loggats ut från Cacti eftersom kontot har stängts av."
+
+#: logout.php
+msgid ""
+"You have been logged out of Cacti due to a Remote Data Collector state "
+"change"
+msgstr ""
+"Du har loggats ut från Cacti eftersom en fjärrdatainsamlare ändrade "
+"tillstånd"
+
+#: logout.php
+#, php-format
+msgid "Please close your browser or %sLogin Again%s"
+msgstr "Stäng webbläsaren eller %slogga in igen%s"
+
+#: managers.php utilities.php
+msgid "SNMP Notification Receivers"
+msgstr "Mottagare av SNMP-aviseringar"
+
+#: managers.php
+msgid "No SNMP Notification Receivers"
+msgstr "Inga mottagare av SNMP-aviseringar"
+
+#: managers.php
+#, php-format
+msgid "SNMP Notification Receiver [edit: %s]"
+msgstr "Mottagare av SNMP-aviseringar [redigera: %s]"
+
+#: managers.php
+msgid "SNMP Notification Receiver [new]"
+msgstr "Mottagare av SNMP-aviseringar [ny]"
+
+#: managers.php
+msgid "No SNMP Notifications"
+msgstr "Inga SNMP-aviseringar"
+
+#: managers.php utilities.php
+msgid "Purge Notification Log"
+msgstr "Rensa aviseringsloggen"
+
+#: managers.php utilities.php
+msgid "Notification"
+msgstr "Avisering"
+
+#: managers.php utilities.php
+msgid "No SNMP Notification Log Entries"
+msgstr "Inga poster i loggen för SNMP-aviseringar"
+
+#: managers.php
+#, php-format
+msgid "%s Notification Receivers"
+msgstr "%s aviseringsmottagare"
+
+#: managers.php
+msgid "Disable Notification Objects"
+msgstr "Inaktivera aviseringsobjekt"
+
+#: managers.php
+msgid "You must select at least one notification object."
+msgstr "Du måste välja minst ett aviseringsobjekt."
+
+#: package_import.php
+msgid "Key Generation Required to Use Plugin"
+msgstr "Nycklar måste genereras för att använda insticksmodulen"
+
+#: package_import.php
+msgid "Error in Package"
+msgstr "Fel i paketet"
+
+#: package_import.php
+msgid ""
+"See the cacti.log for more information.  It could be that you had either an "
+"API Key error or the package was tamered with, or the location is not "
+"available."
+msgstr ""
+"Mer information finns i cacti.log. Felet kan bero på en felaktig API-nyckel,"
+" att paketet har manipulerats eller att platsen inte är tillgänglig."
+
+#: package_import.php
+msgid ""
+"See the cacti.log for more information.  It could be that you had either an "
+"API Key error or the package was tamered with, or the location is not "
+"available"
+msgstr ""
+"Mer information finns i cacti.log. Felet kan bero på en felaktig API-nyckel,"
+" att paketet har manipulerats eller att platsen inte är tillgänglig"
+
+#: package_import.php
+msgid "Packages Details"
+msgstr "Paketdetaljer"
+
+#: package_import.php
+msgid "Device class"
+msgstr "Enhetsklass"
+
+#: package_import.php
+msgid ""
+"Import Package Filenames [ None selected imports all, Check to import "
+"selectively ]"
+msgstr ""
+"Importera paketfiler [om ingen väljs importeras alla; markera för att välja "
+"filer]"
+
+#: package_import.php
+msgid "Package"
+msgstr "Paket"
+
+#: package_import.php templates_import.php
+msgid "Differences"
+msgstr "Skillnader"
+
+#: package_import.php
+msgid ""
+"Import Package Templates [ None selected imports all, Check to import "
+"selectively ]"
+msgstr ""
+"Importera paketmallar [om ingen väljs importeras alla; markera för att välja"
+" mallar]"
+
+#: package_import.php templates_import.php
+msgid "Template Type"
+msgstr "Malltyp"
+
+#: package_import.php templates_import.php
+msgid "Changes/Diffferences"
+msgstr "Ändringar och skillnader"
+
+#: package_import.php templates_import.php
+msgid "Orphans"
+msgstr "Övergivna objekt"
+
+#: package_import.php
+msgid "Local Package Import File"
+msgstr "Lokal paketfil för import"
+
+#: package_import.php
+msgid "The *.xml.gz file located on your Local machine to Upload and Import."
+msgstr "Filen *.xml.gz på din dator som ska laddas upp och importeras."
+
+#: package_import.php
+msgid "Package Import"
+msgstr "Paketimport"
+
+#: plugins.php
+msgid "Plugin Error"
+msgstr "Fel i insticksmodul"
+
+#: plugins.php
+msgid "Active/Installed"
+msgstr "Aktiv/installerad"
+
+#: plugins.php
+msgid "Plugin Name"
+msgstr "Insticksmodulens namn"
+
+#: plugins.php
+msgid ""
+"The name for this Plugin.  The name is controlled by the directory it "
+"resides in."
+msgstr "Insticksmodulens namn styrs av katalogen som den ligger i."
+
+#: plugins.php
+msgid "Plugin Description"
+msgstr "Beskrivning av insticksmodul"
+
+#: plugins.php
+msgid "A description that the Plugins author has given to the Plugin."
+msgstr "Beskrivningen som insticksmodulens upphovsperson har angett."
+
+#: plugins.php
+msgid "Main / Remote Status"
+msgstr "Status för huvudserver och fjärrserver"
+
+#: plugins.php
+msgid "The status of this Plugin."
+msgstr "Insticksmodulens status."
+
+#: plugins.php
+msgid "The author of this Plugin."
+msgstr "Insticksmodulens upphovsperson."
+
+#: plugins.php
+msgid "This Plugin requires the following Plugins be installed first."
+msgstr ""
+"Insticksmodulen kräver att följande insticksmoduler installeras först."
+
+#: plugins.php
+msgid "The version of this Plugin."
+msgstr "Insticksmodulens version."
+
+#: plugins.php
+msgid "Load Order"
+msgstr "Inläsningsordning"
+
+#: plugins.php
+msgid ""
+"The load order of the Plugin.  You can change the load order by first "
+"sorting by it, then moving a Plugin either up or down."
+msgstr ""
+"Insticksmodulens inläsningsordning. Ändra ordningen genom att först sortera "
+"efter den och sedan flytta en insticksmodul uppåt eller nedåt."
+
+#: plugins.php
+msgid "No Plugins Found"
+msgstr "Inga insticksmoduler hittades"
+
+#: plugins.php
+msgid "Order Before Previous Plugin"
+msgstr "Placera före föregående insticksmodul"
+
+#: plugins.php
+msgid "Order After Next Plugin"
+msgstr "Placera efter nästa insticksmodul"
+
+#: plugins.php
+#, php-format
+msgid ""
+"Unable to Install Plugin.  The following Plugins must be installed first: %s"
+msgstr ""
+"Kunde inte installera insticksmodulen. Följande insticksmoduler måste "
+"installeras först: %s"
+
+#: plugins.php
+msgid "Install Plugin"
+msgstr "Installera insticksmodul"
+
+#: plugins.php
+#, php-format
+msgid "Unable to Uninstall.  This Plugin is required by: %s"
+msgstr "Kunde inte avinstallera. Insticksmodulen krävs av: %s"
+
+#: plugins.php
+msgid "Uninstall Plugin"
+msgstr "Avinstallera insticksmodul"
+
+#: plugins.php
+msgid "Disable Plugin"
+msgstr "Inaktivera insticksmodul"
+
+#: plugins.php
+msgid "Enable Plugin"
+msgstr "Aktivera insticksmodul"
+
+#: plugins.php
+msgid "Enable Plugin Locally"
+msgstr "Aktivera insticksmodulen lokalt"
+
+#: poller.php
+#, php-format
+msgid ""
+"ERROR: The spine path: %s is invalid for poller id %d.  Poller can not "
+"continue!"
+msgstr ""
+"FEL: Spine-sökvägen %s är ogiltig för insamlare med ID %d. Insamlaren kan "
+"inte fortsätta!"
+
+#: poller.php
+#, php-format
+msgid "Maximum runtime of %d seconds exceeded for poller id %d. Exiting."
+msgstr ""
+"Den maximala körtiden på %d sekunder har överskridits för insamlare med ID "
+"%d. Avslutar."
+
+#: poller.php
+msgid "Cacti System Notification"
+msgstr "Systemavisering från Cacti"
+
+#: poller.php
+msgid ""
+"NOTE: A second Cacti data collector has been added.  Therefore, enabling "
+"boost automatically!"
+msgstr ""
+"OBS! En andra Cacti-datainsamlare har lagts till. Boost aktiveras därför "
+"automatiskt!"
+
+#: poller_automation.php
+msgid "Cacti Primary Admin"
+msgstr "Cactis primäradministratör"
+
+#: pollers.php
+msgid "New/Idle"
+msgstr "Ny/inaktiv"
+
+#: pollers.php
+msgid "New Data Collector"
+msgstr "Ny datainsamlare"
+
+#: pollers.php
+msgid "Data Collector Hostname"
+msgstr "Datainsamlarens värdnamn"
+
+#: pollers.php
+msgid ""
+"The hostname for Data Collector.  It may have to be a Fully Qualified Domain"
+" name for the remote Pollers to contact it for activities such as re-"
+"indexing, Real-time graphing, etc."
+msgstr ""
+"Datainsamlarens värdnamn. Det kan behöva vara ett fullständigt domännamn för"
+" att fjärrinsamlare ska kunna kontakta den för exempelvis återindexering och"
+" realtidsgrafer."
+
+#: pollers.php
+msgid "The TimeZone for the Data Collector."
+msgstr "Datainsamlarens tidszon."
+
+#: pollers.php
+msgid "Notes for this Data Collectors Database."
+msgstr "Anteckningar om datainsamlarens databas."
+
+#: pollers.php
+msgid "The number of Data Collector processes to use to spawn."
+msgstr "Antalet datainsamlarprocesser som ska startas."
+
+#: pollers.php
+msgid "The number of Spine Threads to use per Data Collector process."
+msgstr "Antalet Spine-trådar per datainsamlarprocess."
+
+#: pollers.php
+msgid ""
+"The polling sync interval in use.  This setting will affect how often this "
+"poller is checked and updated."
+msgstr ""
+"Synkroniseringsintervallet som används. Inställningen styr hur ofta "
+"insamlaren kontrolleras och uppdateras."
+
+#: pollers.php
+msgid "The hostname for the remote database server."
+msgstr "Fjärrdatabasserverns värdnamn."
+
+#: pollers.php
+msgid "Remote Database Retries"
+msgstr "Återförsök för fjärrdatabas"
+
+#: pollers.php
+msgid ""
+"The number of times to attempt to retry to connect to the remote database."
+msgstr "Antalet försök att återansluta till fjärrdatabasen."
+
+#: pollers.php
+msgid "The file holding the SSL Key to use to connect to the remote database."
+msgstr "Filen som innehåller SSL-nyckeln för anslutning till fjärrdatabasen."
+
+#: pollers.php
+msgid ""
+"The file holding the SSL Certificate Authority to use to connect to the "
+"remote database.  This is an optional parameter that can be required by the "
+"database provider if they have started SSL using the --ssl-mode=VERIFY_CA "
+"option."
+msgstr ""
+"Filen med certifikatutfärdaren för SSL-anslutningen till fjärrdatabasen. "
+"Denna valfria parameter kan krävas av databasleverantören om SSL har "
+"startats med alternativet --ssl-mode=VERIFY_CA."
+
+#: pollers.php
+#, php-format
+msgid ""
+"You have already used this database hostname '%s'.  Please enter a non-"
+"duplicate database hostname."
+msgstr ""
+"Du har redan använt databasvärdnamnet '%s'. Ange ett annat databasvärdnamn."
+
+#: pollers.php
+msgid ""
+"Remote Data Collectors must be able to communicate to the Main Data "
+"Collector, and vice versa.  Use this button to verify that the Main Data "
+"Collector can communicate to this Remote Data Collector."
+msgstr ""
+"Fjärrdatainsamlarna måste kunna kommunicera med huvuddatainsamlaren och "
+"omvänt. Använd knappen för att kontrollera att huvuddatainsamlaren kan "
+"kommunicera med den här fjärrdatainsamlaren."
+
+#: pollers.php
+msgid "Test Database Connection"
+msgstr "Testa databasanslutningen"
+
+#: pollers.php
+msgid "Collector Name"
+msgstr "Datainsamlarens namn"
+
+#: pollers.php
+msgid "The Hostname where the Data Collector is running."
+msgstr "Värdnamnet där datainsamlaren körs."
+
+#: pollers.php
+msgid "The Number of Poller Processes and Threads for this Data Collector."
+msgstr "Antalet insamlarprocesser och trådar för den här datainsamlaren."
+
+#: pollers.php
+msgid "The last data collection time for this Data Collector."
+msgstr "Tidpunkten för datainsamlarens senaste insamling."
+
+#: pollers.php
+msgid "The Average and Maximum Collector timings for this Data Collector."
+msgstr "Datainsamlarens genomsnittliga och maximala insamlingstid."
+
+#: pollers.php
+msgid "The number of SNMP gets associated with this Collector."
+msgstr "Antalet SNMP-hämtningar för den här datainsamlaren."
+
+#: pollers.php
+msgid "Scripts"
+msgstr "Skript"
+
+#: pollers.php
+msgid "The number of script calls associated with this Data Collector."
+msgstr "Antalet skriptanrop för den här datainsamlaren."
+
+#: pollers.php
+msgid "The number of script server calls associated with this Data Collector."
+msgstr "Antalet skriptserveranrop för den här datainsamlaren."
+
+#: pollers.php
+msgid "Last Finished"
+msgstr "Senast slutförd"
+
+#: pollers.php
+msgid "The last time this Data Collector completed."
+msgstr "Tidpunkten då datainsamlaren senast blev klar."
+
+#: pollers.php
+msgid "The last time this Data Collector checked in with the main Cacti site."
+msgstr "Tidpunkten då datainsamlaren senast kontaktade Cactis huvudinstans."
+
+#: pollers.php
+msgid ""
+"The last time this Data Collector was full synced with main Cacti site."
+msgstr ""
+"Tidpunkten då datainsamlaren senast synkroniserades fullständigt med Cactis "
+"huvudinstans."
+
+#: rrdcheck.php
+msgid "RRD check"
+msgstr "RRD-kontroll"
+
+#: rrdcheck.php
+msgid ""
+"RRD check is disabled, please enable in Configuration -> Settings -> Data"
+msgstr ""
+"RRD-kontroll är inaktiverad. Aktivera den under Konfiguration -> "
+"Inställningar -> Data."
+
+#: rrdcheck.php utilities.php
+msgid "RRDfile Checker"
+msgstr "RRD-filkontroll"
+
+#: rrdcheck.php
+msgid "RRDcheck Problems"
+msgstr "Problem med RRD-kontroll"
+
+#: rrdcheck.php
+msgid "Host Description"
+msgstr "Värdbeskrivning"
+
+#: rrdcheck.php
+msgid "Local Data ID"
+msgstr "Lokalt data-ID"
+
+#: rrdcheck.php
+msgid "No RRDcheck Problems Found"
+msgstr "Inga problem med RRD-kontroll hittades"
+
+#: rrdcheck.php
+msgid "Age"
+msgstr "Ålder"
+
+#: rrdcleaner.php
+msgid "Last Scan:"
+msgstr "Senaste genomsökning:"
+
+#: rrdcleaner.php
+msgid "Rescan"
+msgstr "Sök igen"
+
+#: rrdcleaner.php
+msgid "Delete All Unknown RRDfiles"
+msgstr "Ta bort alla okända RRD-filer"
+
+#: rrdcleaner.php
+msgid "Archive All Unknown RRDfiles"
+msgstr "Arkivera alla okända RRD-filer"
+
+#: settings.php
+msgid "Poller Interval must be less than Cron Interval"
+msgstr "Insamlingsintervallet måste vara kortare än Cron-intervallet"
+
+#: sites.php
+msgid "The state for the Site."
+msgstr "Delstaten eller regionen där platsen finns."
+
+#: sites.php
+msgid "Enter the state"
+msgstr "Ange delstat eller region"
+
+#: sites.php
+msgid "The postal or zip code for the Site."
+msgstr "Platsens postnummer."
+
+#: sites.php
+msgid "The Latitude for this Site."
+msgstr "Platsens latitud."
+
+#: sites.php
+msgid "The Longitude for this Site."
+msgstr "Platsens longitud."
+
+#: sites.php
+msgid ""
+"The default Map Zoom for this Site.  Values can be from 0 to 23. Note that "
+"some regions of the planet have a max Zoom of 15."
+msgstr ""
+"Kartans standardzoom för platsen. Värdet kan vara mellan 0 och 23. För vissa"
+" områden är den maximala zoomnivån 15."
+
+#: sites.php
+msgid "Additional area use for random notes related to this Site."
+msgstr "Utrymme för ytterligare anteckningar om platsen."
+
+#: sites.php
+msgid "Used for cases where a Site has an alternate named used to describe it"
+msgstr "Används när platsen har ett alternativt namn."
+
+#: sites.php
+msgid "If the Site is known by another name enter it here."
+msgstr "Ange här om platsen är känd under ett annat namn."
+
+#: sites.php
+msgid "Template Site was not found! Unable to duplicate."
+msgstr "Mallplatsen hittades inte. Det gick inte att duplicera."
+
+#: sites.php
+msgid "Site Name:"
+msgstr "Platsnamn:"
+
+#: sites.php
+msgid "Duplicate Site"
+msgid_plural "Duplicate Sites"
+msgstr[0] "Duplicera plats"
+msgstr[1] "Duplicera platser"
+
+#: sites.php
+msgid "The State associated with this Site."
+msgstr "Delstaten eller regionen där platsen finns."
+
+#: templates_export.php
+msgid "Select the Template type that you wish to export from Cacti."
+msgstr "Välj vilken typ av mall du vill exportera från Cacti."
+
+#: templates_export.php
+msgid ""
+"Some templates rely on other items in Cacti to function properly. It is "
+"highly recommended that you select this box or the resulting import may "
+"fail."
+msgstr ""
+"Vissa mallar är beroende av andra objekt i Cacti för att fungera. Vi "
+"rekommenderar starkt att du markerar rutan, annars kan importen misslyckas."
+
+#: templates_export.php
+#, php-format
+msgid "Available Templates [%s]"
+msgstr "Tillgängliga mallar [%s]"
+
+#: templates_import.php
+msgid "Error in Template"
+msgstr "Fel i mall"
+
+#: templates_import.php
+msgid "Import Files [ If Files are missing, locate and install before using ]"
+msgstr ""
+"Importfiler [ Leta upp och installera eventuella saknade filer före "
+"användning ]"
+
+#: templates_import.php
+msgid "File Name"
+msgstr "Filnamn"
+
+#: templates_import.php
+msgid "Not Readable"
+msgstr "Inte läsbar"
+
+#: templates_import.php
+msgid ""
+"Import Templates [ None selected imports all, Check to import selectively ]"
+msgstr ""
+"Importera mallar [ Om inga markeras importeras alla; markera för att välja "
+"mallar ]"
+
+#: templates_import.php
+msgid "Dependencies"
+msgstr "Beroenden"
+
+#: templates_import.php
+msgid "Damaged"
+msgstr "Skadad"
+
+#: templates_import.php
+#, php-format
+msgid "Met: %d"
+msgstr "Uppfyllda: %d"
+
+#: templates_import.php
+msgid "Import Template"
+msgstr "Importera mall"
+
+#: templates_import.php
+msgid "Failed to access temporary folder, import functionality is disabled"
+msgstr ""
+"Det gick inte att komma åt den tillfälliga mappen. Importfunktionen är "
+"inaktiverad."
+
+#: tree.php
+msgctxt "dropdown action"
+msgid "Un-Lock"
+msgstr "Lås upp"
+
+#: tree.php
+msgctxt "ordering of tree items"
+msgid "alpha"
+msgstr "alfabetisk"
+
+#: tree.php
+msgctxt "ordering of tree items"
+msgid "numeric"
+msgstr "numerisk"
+
+#: tree.php
+msgid "Un-publish Tree"
+msgid_plural "Un-publish Trees"
+msgstr[0] "Avpublicera träd"
+msgstr[1] "Avpublicera träd"
+
+#: tree.php
+msgid "Un-lock Tree"
+msgid_plural "Un-lock Trees"
+msgstr[0] "Lås upp träd"
+msgstr[1] "Lås upp träd"
+
+#: tree.php
+msgid "Add Root Branch"
+msgstr "Lägg till rotgren"
