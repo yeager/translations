@@ -204,3 +204,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - Mactrack: `mactrack-installningar-sv.po` laddades upp 2026-10-26; Weblate uppdaterade 11 strängar. Två lintvarningar gäller frågetecken i svenska frågor vars engelska källtext har punkt. Radgranskningen fortsätter.
 
 - Mactrack: `mactrack-snmp-sv.po` laddades upp 2026-10-26; sju strängar uppdaterades. Granskning av komponenten pågår.
+
+- 2026-10-26: Granskade mactracks kontrollvarningar och avfärdade sju varningar om skiljetecken och återanvändningen av ”Startdatum”, där översättningarna var korrekta. En varning om inkonsekvent översättning av ”MAC Addresses” återstår att undersöka över komponenterna.
