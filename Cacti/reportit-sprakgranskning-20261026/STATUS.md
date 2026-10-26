@@ -1,3 +1,5 @@
 # Reportit: språkgranskning
 
 2026-10-26: Fem översättningar av rapportinställningar rättade och uppladdade; Weblate bekräftade fem uppdateringar. Fyra varningar om återanvänd översättning granskades och avfärdades: Unlock/Un-Lock, Others/Second, Clear/Purge och Prefixes/Prefix har godtagbara svenska översättningar i respektive sammanhang. Weblate visar 590 översatta strängar och inga aktiva kontrollvarningar. msgfmt och l10n-lint passerade. Detta är en avgränsad granskning, inte en fullständig radgranskning.
+
+2026-10-26: Färsk export granskad delvis; 23 rättelser av matematiska termer, etiketter och tekniska markörer skickades via Weblate. Uppladdningen bekräftade 23 uppdaterade, inga överhoppade och inga saknade. E-postmarkören |title| och variabelnamnen $var1, $var2 och $var3 återställdes. msgfmt och l10n-lint gav inga fel eller varningar; svlangs två träffar gällde avsiktlig källsyntax med tre punkter, och Hunspells träffar tekniska identifierare. Gitleaks fann inga hemligheter i deltafilen. Fullständig radgranskning återstår.
