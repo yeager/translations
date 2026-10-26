@@ -43,3 +43,5 @@ Fyra texter om autentisering, LDAP och filåtkomst rättades och skickades via w
 Tre intervalltexter för sekunder, minuter och timmar rättades efter kontroll av värdena i include/global_arrays.php och include/global_settings.php. Weblate bekräftade 3 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
 
 TLS-alternativen Hard och Demand rättades till Strikt och Kräv efter kontroll av LDAP-konstanterna och inställningens sammanhang i källkoden. Weblate bekräftade 2 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
+
+Fem status- och inställningstexter rättades. Fail kontrollerades mot användningen i host.php och översattes till Misslyckades. Weblate bekräftade 5 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
