@@ -610,3 +610,5 @@ Weblates 55 strängar granskades mot källtexterna och tidigare säkerhetskopior
 2026-10-26: Två varningar om RRD-filer och insamlingsintervall i core anpassades till termen datainsamlare och ett överflödigt kommatecken togs bort. Weblate bekräftade två uppdateringar; ändringarna finns i `cacti-core-rrd-intervall-20261026.po`. L10n-lint markerade att källans kolon efter NOTE saknas i översättningen, som använder svenskans ”OBS!”.
 
 2026-10-26: Två hjälptexter om SNMP och synkronisering i core anpassades till termen datainsamlare. Weblate bekräftade två uppdateringar utan bortfall. Ändringsfilen `cacti-core-synk-snmp-20261026.po` klarade msgfmt, l10n-lint, svlang, hunspell-sv och Gitleaks.
+
+2026-10-26: Den gemensamma rubriken ”Poller” i core ändrades till ”Datainsamlare” efter kontroll av användningsplatserna. Weblate bekräftade en uppdatering. Sju andra kandidater var redan uppdaterade. Ändringsfilen `cacti-core-poller-rubrik-20261026.po` klarade msgfmt, l10n-lint, svlang, hunspell-sv och Gitleaks.
