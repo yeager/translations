@@ -36,3 +36,7 @@ separat innan en uppströms-PR skapas.
 Samma granskningsomgång rättade även ordval för sparfiler och spartillstånd i
 GameCube- och Wii-flödena. Kontrollkedjan omfattade JSON-tolkning,
 `make-i18n.py --check`, diffkontroll och Gitleaks.
+
+Nästa häfte normaliserade gränssnittets lägesnamn, bredbildsalternativ och
+Wii-fjärrkontrollens förinställningar. Katalogens nyckeluppsättning och alla
+platsmarkörer jämfördes med den engelska källistan utan avvikelser.
