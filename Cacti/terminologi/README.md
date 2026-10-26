@@ -277,3 +277,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: En uppföljande sökning i aktuell Weblate för Core efter ”datasamlare” gav inga träffar. Den tidigare skillnaden i `core-jamforelse-20261026.md` bygger på en äldre export och ska inte återinföras. Sökresultatet bevisar endast att den sökta formen saknas i Core, inte att hela komponentens terminologi är färdiggranskad.
 
 - 2026-10-26: Core: den återstående aktiva återanvändningskontrollen för ”Warnings” → ”Varningar” granskades och avfärdades i Weblate. Översättningen är korrekt även för förekomsterna i Core 1.2 och Intropage. Weblate visade därefter alternativet ”Återställ”; detta är en kontrollåtgärd, inte en översättningsändring.
+
+- 2026-10-26: Sökningen efter aktiva kontroller i Core 1.2 gav inga träffar vid kontrolltillfället. Flowviews återstående slutpunktsvarning för käll-AS-texten avfärdades: den svenska texten består av hela meningar med punkt, medan källtexten saknar avslutande punkt. Textens hänvisning till käll-AS har tidigare kontrollerats mot koden. Weblate visade ”Återställ” efter avfärdandet.
