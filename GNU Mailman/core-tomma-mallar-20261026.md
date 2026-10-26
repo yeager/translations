@@ -1,0 +1,3 @@
+# Mailman Core: tomma mallposter
+
+Kontroll i Hosted Weblate 2026-10-26: de tre svenska poster som visas som oöversatta har tom engelsk källtext och avser mallnycklarna `list:member:digest:header.txt`, `list:member:regular:header.txt` och `list:user:notice:goodbye.txt`. De ska inte fyllas med en översättning av nyckeln: Mailman använder nyckeln för en mallfil. En befintlig källkommentar för den första ber om att tomma strängar tas bort. Inga ändringar gjordes. Det innebär att Weblates procentsats kan förbli 99 % trots att det inte finns något källinnehåll för dessa tre poster att översätta. Ingen slutsats dras om övriga komponenters fullständiga språkgranskning.
