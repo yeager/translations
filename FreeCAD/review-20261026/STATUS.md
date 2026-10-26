@@ -45,3 +45,9 @@ och arkiverats i `approved-differences-sample-06-20261027.md`. Alla poster är
 godtagbara i sin kontext. Källkoden och översättningsminnet bekräftar särskilt
 ”snurrplatta” och ”rotationsstil” för FreeCADs navigeringslägen; inga nya
 Crowdin-förslag ska skapas från urvalet.
+
+2026-10-27: Ett sjunde läsande urval om 20 godkända avvikelser har granskats
+och arkiverats i `approved-differences-sample-07-20261027.md`. Alla poster är
+godtagbara i sin kontext. Den granskade FreeCAD-terminologin bekräftar att
+”beroende objekt” ska skrivas isär i dessa strängar; inga nya Crowdin-förslag
+ska skapas från urvalet.
