@@ -62,5 +62,6 @@ hjälptexter ska fortfarande granskas rad för rad.
 Ett efterföljande häfte samma dag rättade sju återstående tydliga fel i
 återställningsmeddelanden, styrspaksalternativ och uppdateringstexter.
 Kontrollerna för JSON, alla nycklar, platsmarkörer, genererad C++-tabell,
-diff och Gitleaks passerade igen. Den aktuella granskningskopian är
+diff och Gitleaks passerade igen. Hunspell-SV för de sju rättade texterna gav
+bara avsiktliga produktnamn, filnamn och GitHub-adresser. Den aktuella granskningskopian är
 `porpoise-sv-review-20261027.json`.
