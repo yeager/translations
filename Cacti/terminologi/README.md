@@ -208,3 +208,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: Granskade mactracks kontrollvarningar och avfärdade sju varningar om skiljetecken och återanvändningen av ”Startdatum”, där översättningarna var korrekta. En varning om inkonsekvent översättning av ”MAC Addresses” återstår att undersöka över komponenterna.
 
 - 2026-10-26: Projektets sökning och arkiverade PO-filer visade ”MAC-adresser” för de synliga förekomsterna av ”MAC Addresses”. Varningen i mactrack avfärdades; Weblate visade ingen avvikande översättning men angav inte den exakta orsaken till varningen.
+
+- 2026-10-26: `mactrack-auktorisering-sv.po` skickades upp; tre strängar uppdaterades. Texterna anger att det är auktoriseringen som återkallas. msgfmt, l10n-lint och Hunspell passerade.
