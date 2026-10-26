@@ -194,3 +194,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Mactrack platsfilter och IP-intervall samordnades med övriga platstermer. Weblate bekräftade två uppdateringar; msgfmt och l10n-lint passerade, medan Hunspell flaggade sammansättningar med produktnamnet Mactrack. Den tidigare uppmaningen om borttagning av platser har två kvarvarande skiljeteckenkontroller eftersom den engelska källan slutar med frågetecken och den svenska uppmaningen med punkt.
 
 2026-10-26: Mactracks kolumn ”Added/Modified” rättades från ”Inkom / Ändrad” till ”Tillagd/ändrad”. Weblate bekräftade en uppdatering; msgfmt, l10n-lint och Hunspell passerade.
+
+2026-10-26: Mactracks ”Title of SNMP Option Set” ändrades till ”Titel för uppsättningen SNMP-alternativ”, i linje med intilliggande texter. Weblate bekräftade en uppdatering. msgfmt och l10n-lint passerade; Hunspell flaggade den tekniska sammansättningen SNMP-alternativ.
