@@ -13,3 +13,5 @@ Cycle undantogs från nytt arbete eftersom senaste release v4.1 publicerades 201
 2026-10-26: Sex ytterligare återanvändningskontroller avfärdades efter jämförelse av likvärdiga varianter för verktyg, autentisering, antal IP-adresser och OID-gräns. Två strängar har kvarvarande varningar: Watch Name/Alert Name behöver kontextjämförelse, och MAC Addresses behöver jämföras mellan komponenter.
 
 2026-10-26: Syslog ”Alert Name” ändrades till ”Larmnamn”, medan Mactrack ”Watch Name” behåller ”Bevakningens namn”. Uppladdning i Weblate bekräftade en uppdaterad sträng. msgfmt och l10n-lint godkända.
+
+2026-10-26: Weblates aktuella vy visar MAC Addresses, Mac Addresses och MAC's som ”MAC-adresser” i Mactrack. Den äldre arkivfilen innehöll singular för Mac Addresses, men den aktuella översättningen är redan rättad. Weblate visar ändå en inkonsekvensvarning; orsaken är ännu inte verifierad och varningen har inte avfärdats.
