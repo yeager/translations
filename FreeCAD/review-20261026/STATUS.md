@@ -26,3 +26,10 @@ kandidat upptäcktes för sträng 6606469: måltexten beskriver en SVG-exportsti
 fast källan gäller ett objekt utan giltig begränsningsruta. Kandidaten får inte
 återanvändas; den föreslagna rättelsen ska först jämföras med den aktuellt
 valda Crowdin-översättningen. Övriga nitton poster är rimliga i sin kontext.
+
+2026-10-27: Ett fjärde läsande urval om 20 godkända avvikelser har granskats
+och arkiverats i `approved-differences-sample-04-20261027.md`. Sträng 6683762
+är felöversatt som ”Plats”: källkodskontexten visar att den är etikett i
+autentiseringsdialogen för en nätverkswebbplats och därför ska vara
+”Webbplats”. Övriga nitton poster är godtagbara eller avsiktligt oförändrade
+kodnamn. Rättelsen ska först kontrolleras mot Crowdins valda måltext.
