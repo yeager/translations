@@ -5,3 +5,5 @@
 Sex ytterligare varningar avfärdades efter granskning: förkortningarna M/A motsvarar Muted/Acked och Warn Ping motsvarar Warning Ping. Fyra varningar återstår att granska, inklusive Monitor/Monitoring.
 
 Vid fortsatt granskning avfärdades även From Name/Source Email Name: båda avser avsändarens e-postnamn. From Address/Source Address behöver jämföras mot det andra sammanhanget innan kontrollen avfärdas. Monitor/Monitoring behöver också kontextkontroll.
+
+2026-10-26: De tre återstående kontrollerna granskades mot källkoden. Monitor och Monitoring används som rubriker för samma övervakningsfunktion; From Address i Monitor och Source Address i Mactrack avser avsändarens e-postadress. Varningarna avfärdades. Weblate visar 311 översatta strängar och inga aktiva kontrollvarningar. Detta innebär inte att alla Cacti-komponenter är färdiggranskade.
