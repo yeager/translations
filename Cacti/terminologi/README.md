@@ -182,3 +182,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Två texter i mactrack rättades från ”Mac-adresser” till ”MAC-adresser” och skickades till Weblate (2 uppdaterade). Filen kontrollerades med msgfmt och Hunspell; l10n-lint och svterm var inte tillgängliga i PATH vid denna kontroll.
 
 2026-10-26: Efterkontroll av mactrack-filen med den lokala källkoden för l10n-lint gav inga anmärkningar. Svlang gav tre frekvensnoteringar för vanliga svenska ord, vilka granskades manuellt. Den lokala svenska termbanken använder också MAC-adress. Svterm har ännu inte körts på filen.
+
+2026-10-26: Mactrack-texten om att ta bort platser rättades från ”sajter” till ”platser” enligt terminologin. Weblate bekräftade en uppdatering. msgfmt och Hunspell passerade; l10n-lints två varningar om källans frågetecken bedömdes manuellt eftersom den svenska uppmaningen avslutas med punkt. De två tidigare MAC-rättningarna verifierades i Weblate-editorn. Svterm hittades inte lokalt; GitHub-repot yeager/svterm kunde inte hittas.
