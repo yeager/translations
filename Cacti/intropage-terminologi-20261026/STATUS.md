@@ -9,3 +9,5 @@ Ytterligare uppföljning: källkoden i `panellib/top5.php` beräknar polling rat
 Vid granskning av kontrollvarningarna avfärdades en legitim återanvändning: ”%s Hrs” och ”%s Hours” kan båda översättas med ”%s timmar”. Tre fel rättades och skickades upp: ”Alerts” till ”Larm”, ”State” till ”Tillstånd” och tidsangivelsen 20s/40s till 20 s/40 s. Weblate rapporterade tre uppdaterade. Filen passerade msgfmt och l10n-lint. Weblate visade fyra kvarvarande kontrollvarningar efter uppladdningen.
 
 Vid fortsatt kontroll avfärdades återanvändningsvarningen för ”Alert” och ”Alerts”, eftersom singular och plural båda heter ”larm” på svenska. Fem ytterligare ändringar skickades upp, bland annat rättad SNMP-community och åtskillnad mellan larm och varning. Weblate rapporterade fem uppdaterade; msgfmt och l10n-lint passerade. Tre kontrollvarningar återstod enligt Weblate.
+
+Fem ytterligare paneltexter rättades och skickades upp, bland annat inläsning och instrumentpanel. Weblate rapporterade fem uppdaterade, inga överhoppade eller saknade. Filen passerade msgfmt och l10n-lint; tre kontrollvarningar om återanvändning kvarstår för granskning.
