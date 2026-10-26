@@ -8,7 +8,11 @@ Batch 001 innehåller 13 korrigeringar av verkligt oöversatta
 gränssnittstexter, bland annat för handkontrollportar, snabbstart,
 utökat RAM-minne och videoinspelningar. XML-strukturen har validerats.
 
-Katalogen innehåller fortfarande 345 oöversatta eller källidentiska
-meddelanden som måste bedömas rad för rad. Projektets `AGENTS.md` förbjuder
+Batch 002 hämtar 134 entydiga svenska översättningar från PCSX2:s aktuella
+svenska katalog. Källtexter med kontextberoende eller motstridiga PCSX2-
+översättningar lämnades orörda. Katalogens återstående källidentiska och
+oöversatta meddelanden måste fortfarande bedömas rad för rad.
+
+Projektets `AGENTS.md` förbjuder
 att skapa pull requests, så den färdiga satsen ska endast arkiveras och
 lämnas för manuell upstreamhantering.

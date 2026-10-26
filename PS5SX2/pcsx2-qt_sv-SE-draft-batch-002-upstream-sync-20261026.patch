@@ -1,0 +1,1123 @@
+diff --git a/pcsx2-qt/Translations/pcsx2-qt_sv-SE.ts b/pcsx2-qt/Translations/pcsx2-qt_sv-SE.ts
+index f983589..65cf834 100644
+--- a/pcsx2-qt/Translations/pcsx2-qt_sv-SE.ts
++++ b/pcsx2-qt/Translations/pcsx2-qt_sv-SE.ts
+@@ -937,8 +937,8 @@ Topplisteposition: {1} av {2}</translation>
+       <location filename="../../pcsx2/Achievements.cpp" line="1918"/>
+       <source>Score: {0} pts (Casual: {1} pts)
+ Unread messages: {2}</source>
+-      <translation type="unfinished">Score: {0} pts (Casual: {1} pts)
+-Unread messages: {2}</translation>
++      <translation>Poäng: {0} p (Avslappnat läge: {1} p)
++Olästa meddelanden: {2}</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/Achievements.cpp" line="2899"/>
+@@ -953,7 +953,7 @@ Unread messages: {2}</translation>
+     <message>
+       <location filename="../../pcsx2/Achievements.cpp" line="2913"/>
+       <source>Win Condition</source>
+-      <translation type="unfinished">Win Condition</translation>
++      <translation>Vinstvillkor</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/Achievements.cpp" line="3293"/>
+@@ -1152,12 +1152,12 @@ Unread messages: {2}</translation>
+     <message>
+       <location filename="../Settings/AdvancedSettingsWidget.cpp" line="99"/>
+       <source>Enable Extended RAM (Dev Console)</source>
+-      <translation type="unfinished">Enable Extended RAM (Dev Console)</translation>
++      <translation>Aktivera utökat RAM-minne (utvecklarkonsol)</translation>
+     </message>
+     <message>
+       <location filename="../Settings/AdvancedSettingsWidget.cpp" line="100"/>
+       <source>Exposes additional memory to the virtual machine, expanding the EE and IOP memory to 128MB and 8MB respectively.</source>
+-      <translation type="unfinished">Exposes additional memory to the virtual machine, expanding the EE and IOP memory to 128MB and 8MB respectively.</translation>
++      <translation>Ger den virtuella maskinen mer minne och utökar EE- och IOP-minnet till 128 MB respektive 8 MB.</translation>
+     </message>
+     <message>
+       <location filename="../Settings/AdvancedSettingsWidget.cpp" line="102"/>
+@@ -2279,7 +2279,7 @@ Unread messages: {2}</translation>
+     <message>
+       <location filename="../Settings/BIOSSettingsWidget.ui" line="138"/>
+       <source>Fast Boot Options</source>
+-      <translation type="unfinished">Fast Boot Options</translation>
++      <translation>Alternativ för snabbstart</translation>
+     </message>
+     <message>
+       <location filename="../Settings/BIOSSettingsWidget.ui" line="146"/>
+@@ -2646,7 +2646,7 @@ Unread messages: {2}</translation>
+     <message>
+       <location filename="../Settings/ControllerBindingWidget.cpp" line="52"/>
+       <source>Controller Port %1%2</source>
+-      <translation type="unfinished">Controller Port %1%2</translation>
++      <translation>Handkontrollport %1%2</translation>
+     </message>
+     <message>
+       <location filename="../Settings/ControllerBindingWidget.cpp" line="56"/>
+@@ -3437,7 +3437,7 @@ Unread messages: {2}</translation>
+     <message>
+       <location filename="../Settings/ControllerBindingWidget.cpp" line="317"/>
+       <source>Controller Port %1%2 Macros</source>
+-      <translation type="unfinished">Controller Port %1%2 Macros</translation>
++      <translation>Makron för handkontrollport %1%2</translation>
+     </message>
+     <message>
+       <location filename="../Settings/ControllerBindingWidget.cpp" line="321"/>
+@@ -4464,7 +4464,7 @@ Vill du skriva över?</translation>
+     <message>
+       <location filename="../Settings/DebugGSSettingsTab.ui" line="98"/>
+       <source>Save HW Config</source>
+-      <translation type="unfinished">Save HW Config</translation>
++      <translation>Spara maskinvarukonfiguration</translation>
+     </message>
+     <message>
+       <location filename="../Settings/DebugGSSettingsTab.ui" line="107"/>
+@@ -5341,7 +5341,7 @@ Vill du skriva över?</translation>
+     <message>
+       <location filename="../Debugger/DebuggerWindow.ui" line="90"/>
+       <source>Navigation</source>
+-      <translation type="unfinished">Navigation</translation>
++      <translation>Navigering</translation>
+     </message>
+     <message>
+       <location filename="../Debugger/DebuggerWindow.ui" line="138"/>
+@@ -5463,7 +5463,7 @@ Vill du skriva över?</translation>
+       <location filename="../Debugger/DebuggerWindow.ui" line="354"/>
+       <location filename="../Debugger/DebuggerWindow.ui" line="357"/>
+       <source>Navigate Back</source>
+-      <translation type="unfinished">Navigate Back</translation>
++      <translation>Gå bakåt</translation>
+     </message>
+     <message>
+       <location filename="../Debugger/DebuggerWindow.ui" line="360"/>
+@@ -5473,7 +5473,7 @@ Vill du skriva över?</translation>
+     <message>
+       <location filename="../Debugger/DebuggerWindow.ui" line="371"/>
+       <source>Navigate Forward</source>
+-      <translation type="unfinished">Navigate Forward</translation>
++      <translation>Gå framåt</translation>
+     </message>
+     <message>
+       <location filename="../Debugger/DebuggerWindow.ui" line="374"/>
+@@ -5681,12 +5681,12 @@ Vill du skriva över?</translation>
+     <message>
+       <location filename="../Debugger/DisassemblyView.cpp" line="885"/>
+       <source> %1 %2 %3  %4</source>
+-      <translation> %1 %2 %3  %4</translation>
++      <translation>%1 %2 %3  %4</translation>
+     </message>
+     <message>
+       <location filename="../Debugger/DisassemblyView.cpp" line="889"/>
+       <source> %1 %2  %3</source>
+-      <translation> %1 %2  %3</translation>
++      <translation>%1 %2  %3</translation>
+     </message>
+     <message>
+       <location filename="../Debugger/DisassemblyView.cpp" line="897"/>
+@@ -5890,7 +5890,7 @@ Vill du skriva över?</translation>
+     <message>
+       <location filename="../QtHost.cpp" line="1040"/>
+       <source>Volume: Muted</source>
+-      <translation type="unfinished">Volume: Muted</translation>
++      <translation>Volym: avstängd</translation>
+     </message>
+     <message>
+       <location filename="../QtHost.cpp" line="1051"/>
+@@ -6600,7 +6600,7 @@ URLen var: %1</translation>
+       <location filename="../Settings/FolderSettingsWidget.ui" line="297"/>
+       <location filename="../Settings/FolderSettingsWidget.cpp" line="27"/>
+       <source>Save Video Recordings in Game-Specific Folders</source>
+-      <translation type="unfinished">Save Video Recordings in Game-Specific Folders</translation>
++      <translation>Spara videoinspelningar i spelunika mappar</translation>
+     </message>
+     <message>
+       <location filename="../Settings/FolderSettingsWidget.ui" line="109"/>
+@@ -8943,7 +8943,7 @@ Vill du läsa in detta tillstånd och fortsätta?</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI.cpp" line="4061"/>
+       <source>Region: </source>
+-      <translation>Region: </translation>
++      <translation>Region:</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI.cpp" line="4062"/>
+@@ -10282,67 +10282,67 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6396"/>
+       <source>13x Native (~4680px)</source>
+-      <translation type="unfinished">13x Native (~4680px)</translation>
++      <translation>13x inbyggd (~4680px)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6397"/>
+       <source>14x Native (~5040px)</source>
+-      <translation type="unfinished">14x Native (~5040px)</translation>
++      <translation>14x inbyggd (~5040px)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6398"/>
+       <source>15x Native (~5400px)</source>
+-      <translation type="unfinished">15x Native (~5400px)</translation>
++      <translation>15x inbyggd (~5400px)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6399"/>
+       <source>16x Native (~5760px)</source>
+-      <translation type="unfinished">16x Native (~5760px)</translation>
++      <translation>16x inbyggd (~5760px)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6400"/>
+       <source>17x Native (~6120px)</source>
+-      <translation type="unfinished">17x Native (~6120px)</translation>
++      <translation>17x inbyggd (~6120px)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6401"/>
+       <source>18x Native (~6480px/12K UHD)</source>
+-      <translation type="unfinished">18x Native (~6480px/12K UHD)</translation>
++      <translation>18x inbyggd (~6480px/12K UHD)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6402"/>
+       <source>19x Native (~6840px)</source>
+-      <translation type="unfinished">19x Native (~6840px)</translation>
++      <translation>19x inbyggd (~6840px)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6403"/>
+       <source>20x Native (~7200px)</source>
+-      <translation type="unfinished">20x Native (~7200px)</translation>
++      <translation>20x inbyggd (~7200px)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6404"/>
+       <source>21x Native (~7560px)</source>
+-      <translation type="unfinished">21x Native (~7560px)</translation>
++      <translation>21x inbyggd (~7560px)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6405"/>
+       <source>22x Native (~7920px)</source>
+-      <translation type="unfinished">22x Native (~7920px)</translation>
++      <translation>22x inbyggd (~7920px)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6406"/>
+       <source>23x Native (~8280px)</source>
+-      <translation type="unfinished">23x Native (~8280px)</translation>
++      <translation>23x inbyggd (~8280px)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6407"/>
+       <source>24x Native (~8640px/16K UHD)</source>
+-      <translation type="unfinished">24x Native (~8640px/16K UHD)</translation>
++      <translation>24x inbyggd (~8640px/16K UHD)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6408"/>
+       <source>25x Native (~9000px)</source>
+-      <translation type="unfinished">25x Native (~9000px)</translation>
++      <translation>25x inbyggd (~9000px)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6409"/>
+@@ -10492,7 +10492,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6510"/>
+       <source>Nearest (Default)</source>
+-      <translation type="unfinished">Nearest (Default)</translation>
++      <translation>Närmast (Standard)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6511"/>
+@@ -10522,7 +10522,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6566"/>
+       <source>Fast Forward Boot</source>
+-      <translation type="unfinished">Fast Forward Boot</translation>
++      <translation>Snabbspolad uppstart</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6593"/>
+@@ -10542,32 +10542,32 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6562"/>
+       <source>Start In Big Picture Mode</source>
+-      <translation type="unfinished">Start In Big Picture Mode</translation>
++      <translation>Starta i storbildsläge</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6568"/>
+       <source>Fast-Forward Speed</source>
+-      <translation type="unfinished">Fast-Forward Speed</translation>
++      <translation>Snabbspolningshastighet</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6569"/>
+       <source>Slow-Motion Speed</source>
+-      <translation type="unfinished">Slow-Motion Speed</translation>
++      <translation>Slowmotionhastighet</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6572"/>
+       <source>Enable Multithreaded VU1 (MTVU)</source>
+-      <translation type="unfinished">Enable Multithreaded VU1 (MTVU)</translation>
++      <translation>Aktivera flertrådad VU1 (MTVU)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6573"/>
+       <source>Enable Thread Pinning</source>
+-      <translation type="unfinished">Enable Thread Pinning</translation>
++      <translation>Aktivera trådbindning</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6578"/>
+       <source>Manually Set Real-Time Clock</source>
+-      <translation type="unfinished">Manually Set Real-Time Clock</translation>
++      <translation>Ställ manuellt in realtidsklockan</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6579"/>
+@@ -10602,27 +10602,27 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6594"/>
+       <source>Screenshot Resolution</source>
+-      <translation type="unfinished">Screenshot Resolution</translation>
++      <translation>Upplösning för skärmbild</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6599"/>
+       <source>Apply Widescreen Patches</source>
+-      <translation type="unfinished">Apply Widescreen Patches</translation>
++      <translation>Tillämpa bredbildspatchar</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6600"/>
+       <source>Apply No-Interlacing Patches</source>
+-      <translation type="unfinished">Apply No-Interlacing Patches</translation>
++      <translation>Tillämpa patchar för att inaktivera interlacing</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6602"/>
+       <source>Integer Scaling</source>
+-      <translation type="unfinished">Integer Scaling</translation>
++      <translation>Heltalsskalning</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6607"/>
+       <source>Texture Filtering</source>
+-      <translation type="unfinished">Texture Filtering</translation>
++      <translation>Texturfiltrering</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6612"/>
+@@ -10637,7 +10637,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6617"/>
+       <source>Auto Flush</source>
+-      <translation type="unfinished">Auto Flush</translation>
++      <translation>Automatisk spolning</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6618"/>
+@@ -10647,17 +10647,17 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6623"/>
+       <source>Skip Draw Range Start</source>
+-      <translation type="unfinished">Skip Draw Range Start</translation>
++      <translation>Hoppa över ritningsintervall (start)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6624"/>
+       <source>Skip Draw Range End</source>
+-      <translation type="unfinished">Skip Draw Range End</translation>
++      <translation>Hoppa över ritningsintervall (slut)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6625"/>
+       <source>Framebuffer Conversion</source>
+-      <translation type="unfinished">Framebuffer Conversion</translation>
++      <translation>Framebuffer-konvertering</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6630"/>
+@@ -10667,42 +10667,42 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6636"/>
+       <source>Limit Depth to 24 Bits</source>
+-      <translation type="unfinished">Limit Depth to 24 Bits</translation>
++      <translation>Begränsa djup till 24 bitar</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6641"/>
+       <source>Texture Offsets X</source>
+-      <translation type="unfinished">Texture Offsets X</translation>
++      <translation>Texturförskjutningar X</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6642"/>
+       <source>Texture Offsets Y</source>
+-      <translation type="unfinished">Texture Offsets Y</translation>
++      <translation>Texturförskjutningar Y</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6649"/>
+       <source>Precache Textures</source>
+-      <translation type="unfinished">Precache Textures</translation>
++      <translation>Förcachning av texturer</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6650"/>
+       <source>Search Directory</source>
+-      <translation type="unfinished">Search Directory</translation>
++      <translation>Sökkatalog</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6656"/>
+       <source>Sharpness</source>
+-      <translation type="unfinished">Sharpness</translation>
++      <translation>Skärpa</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6658"/>
+       <source>Brightness</source>
+-      <translation type="unfinished">Brightness</translation>
++      <translation>Ljusstyrka</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6659"/>
+       <source>Contrast</source>
+-      <translation type="unfinished">Contrast</translation>
++      <translation>Kontrast</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6660"/>
+@@ -10712,7 +10712,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6661"/>
+       <source>Saturation</source>
+-      <translation type="unfinished">Saturation</translation>
++      <translation>Färgmättnad</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6662"/>
+@@ -10722,7 +10722,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6665"/>
+       <source>Use Blit Swap Chain</source>
+-      <translation type="unfinished">Use Blit Swap Chain</translation>
++      <translation>Använd Blit Swap Chain</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6674"/>
+@@ -10737,7 +10737,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6676"/>
+       <source>Spin GPU During Readbacks</source>
+-      <translation type="unfinished">Spin GPU During Readbacks</translation>
++      <translation>Spin GPU under återläsningar</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6681"/>
+@@ -10752,12 +10752,12 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6686"/>
+       <source>Bold OSD Text</source>
+-      <translation type="unfinished">Bold OSD Text</translation>
++      <translation>Fet OSD-text</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6688"/>
+       <source>Show Speed Percentages</source>
+-      <translation type="unfinished">Show Speed Percentages</translation>
++      <translation>Visa hastighetsprocent</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6697"/>
+@@ -10777,37 +10777,37 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6711"/>
+       <source>Expansion Mode</source>
+-      <translation type="unfinished">Expansion Mode</translation>
++      <translation>Utökningsläge</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6719"/>
+       <source>Swap Memory Cards</source>
+-      <translation type="unfinished">Swap Memory Cards</translation>
++      <translation>Byt plats på minneskorten</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6747"/>
+       <source>Enable Spectator Mode</source>
+-      <translation type="unfinished">Enable Spectator Mode</translation>
++      <translation>Aktivera åskådarläget</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6748"/>
+       <source>Enable Encore Mode</source>
+-      <translation type="unfinished">Enable Encore Mode</translation>
++      <translation>Aktivera Encore-läget</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6750"/>
+       <source>Show Achievement Notifications</source>
+-      <translation type="unfinished">Show Achievement Notifications</translation>
++      <translation>Visa aviseringar om prestationer</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6751"/>
+       <source>Show Leaderboard Notifications</source>
+-      <translation type="unfinished">Show Leaderboard Notifications</translation>
++      <translation>Visa aviseringar om topplistor</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6752"/>
+       <source>Enable Sound Effects</source>
+-      <translation type="unfinished">Enable Sound Effects</translation>
++      <translation>Aktivera ljudeffekter</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6754"/>
+@@ -10822,7 +10822,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6764"/>
+       <source>Achievement Unlock Sound</source>
+-      <translation type="unfinished">Achievement Unlock Sound</translation>
++      <translation>Ljud för upplåsning av prestation</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6765"/>
+@@ -10832,37 +10832,37 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6772"/>
+       <source>DualShock 4 / DualSense Enhanced Mode</source>
+-      <translation type="unfinished">DualShock 4 / DualSense Enhanced Mode</translation>
++      <translation>DualShock 4 / DualSense förbättrat läge</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6773"/>
+       <source>Enable DualSense Player LED</source>
+-      <translation type="unfinished">Enable DualSense Player LED</translation>
++      <translation>Aktivera Player LED för DualSense</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6774"/>
+       <source>Enable SDL Raw Input</source>
+-      <translation type="unfinished">Enable SDL Raw Input</translation>
++      <translation>Aktivera SDL-råinmatning</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6776"/>
+       <source>Multitap on Console Port 1</source>
+-      <translation type="unfinished">Multitap on Console Port 1</translation>
++      <translation>Multitap på Konsolport 1</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6777"/>
+       <source>Multitap on Console Port 2</source>
+-      <translation type="unfinished">Multitap on Console Port 2</translation>
++      <translation>Multitap på Konsolport 2</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6806"/>
+       <source>Video Recording Directory</source>
+-      <translation type="unfinished">Video Recording Directory</translation>
++      <translation>Katalog för videoinspelning</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6807"/>
+       <source>Save Snapshots in Game-Specific Folders</source>
+-      <translation type="unfinished">Save Snapshots in Game-Specific Folders</translation>
++      <translation>Spara ögonblicksbilder i spelspecifika mappar</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6808"/>
+@@ -10872,12 +10872,12 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6820"/>
+       <source>Enable Recompiler</source>
+-      <translation type="unfinished">Enable Recompiler</translation>
++      <translation>Aktivera omkompilerare</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6821"/>
+       <source>Enable Cache (Slow)</source>
+-      <translation type="unfinished">Enable Cache (Slow)</translation>
++      <translation>Aktivera cache (långsam)</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6822"/>
+@@ -10887,12 +10887,12 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6823"/>
+       <source>Wait Loop Detection</source>
+-      <translation type="unfinished">Wait Loop Detection</translation>
++      <translation>Upptäck vänteloop</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6825"/>
+       <source>Pause On TLB Miss</source>
+-      <translation type="unfinished">Pause On TLB Miss</translation>
++      <translation>Pausa vid TLB-miss</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6826"/>
+@@ -10902,17 +10902,17 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6833"/>
+       <source>mVU Flag Hack</source>
+-      <translation type="unfinished">mVU Flag Hack</translation>
++      <translation>mVU Flag-hack</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6835"/>
+       <source>Enable Game Fixes</source>
+-      <translation type="unfinished">Enable Game Fixes</translation>
++      <translation>Aktivera spelfixar</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6836"/>
+       <source>Enable Compatibility Patches</source>
+-      <translation type="unfinished">Enable Compatibility Patches</translation>
++      <translation>Aktivera kompatibilitetspatcher</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6840"/>
+@@ -10932,12 +10932,12 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6843"/>
+       <source>Show Cheats For All CRCs</source>
+-      <translation type="unfinished">Show Cheats For All CRCs</translation>
++      <translation>Visa fusk för alla CRCs</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6844"/>
+       <source>Show Patches For All CRCs</source>
+-      <translation type="unfinished">Show Patches For All CRCs</translation>
++      <translation>Visa patchar för alla CRCs</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6863"/>
+@@ -11132,12 +11132,12 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="5942"/>
+       <source>Removes emulation speed throttle until the game starts to reduce startup time.</source>
+-      <translation type="unfinished">Removes emulation speed throttle until the game starts to reduce startup time.</translation>
++      <translation>Tar bort begränsningen för emuleringshastighet tills spelet startar för att minska starttiden.</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="5976"/>
+       <source>Disables interlacing offset which may reduce blurring in some situations.</source>
+-      <translation type="unfinished">Disables interlacing offset which may reduce blurring in some situations.</translation>
++      <translation>Inaktiverar interlacing offset som kan minska oskärpa i vissa situationer.</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6021"/>
+@@ -11152,7 +11152,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="5956"/>
+       <source>Real-Time Clock</source>
+-      <translation type="unfinished">Real-Time Clock</translation>
++      <translation>Realtidsklocka</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="5957"/>
+@@ -11192,7 +11192,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="5964"/>
+       <source>Frame Pacing / Latency Control</source>
+-      <translation type="unfinished">Frame Pacing / Latency Control</translation>
++      <translation>Frame Pacing / Latency-kontroll</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="5999"/>
+@@ -11202,12 +11202,12 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6022"/>
+       <source>Truncate 32-bit depth values to 24 bits. Helps games struggling with Z-fighting.</source>
+-      <translation type="unfinished">Truncate 32-bit depth values to 24 bits. Helps games struggling with Z-fighting.</translation>
++      <translation>Trunkera 32-bitars djupvärden till 24 bitar. Hjälper spel som kämpar med Z-strider.</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6056"/>
+       <source>Uses a blit presentation model instead of flipping when using the Direct3D 11 graphics API. This usually results in slower performance, but may be required for some streaming applications, or to uncap framerates on some systems.</source>
+-      <translation type="unfinished">Uses a blit presentation model instead of flipping when using the Direct3D 11 graphics API. This usually results in slower performance, but may be required for some streaming applications, or to uncap framerates on some systems.</translation>
++      <translation>Använder en blit-presentationsmodell istället för flipping när Direct3D 11-grafik-API används. Detta resulterar vanligtvis i långsammare prestanda, men kan vara nödvändigt för vissa strömmande applikationer eller för att ta bort begränsningar på bildfrekvensen på vissa system.</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6065"/>
+@@ -11222,7 +11222,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6067"/>
+       <source>Submits useless work to the GPU during readbacks to prevent it from going into powersave modes. May improve performance during readbacks but with a significant increase in power usage.</source>
+-      <translation type="unfinished">Submits useless work to the GPU during readbacks to prevent it from going into powersave modes. May improve performance during readbacks but with a significant increase in power usage.</translation>
++      <translation>Överlämnar värdelöst arbete till GPU:n under återläsningar för att förhindra att den går in i energisparläge. Kan förbättra prestandan under återläsningar men med en betydande ökning av strömförbrukningen.</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6078"/>
+@@ -11252,12 +11252,12 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6148"/>
+       <source>Game Info</source>
+-      <translation type="unfinished">Game Info</translation>
++      <translation>Spelinfo</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6155"/>
+       <source>Notifications</source>
+-      <translation type="unfinished">Notifications</translation>
++      <translation>Aviseringar</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6160"/>
+@@ -11272,7 +11272,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6162"/>
+       <source>Overlay Settings</source>
+-      <translation type="unfinished">Overlay Settings</translation>
++      <translation>Inställningar för överlägg</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6182"/>
+@@ -11287,12 +11287,12 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6189"/>
+       <source>Saves snapshots to per-game subfolders instead of a shared folder.</source>
+-      <translation type="unfinished">Saves snapshots to per-game subfolders instead of a shared folder.</translation>
++      <translation>Sparar ögonblicksbilder till undermappar per spel istället för en delad mapp.</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6190"/>
+       <source>Saves video recordings to per-game subfolders instead of a shared folder.</source>
+-      <translation type="unfinished">Saves video recordings to per-game subfolders instead of a shared folder.</translation>
++      <translation>Sparar videoinspelningar till undermappar per spel istället för en delad mapp.</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6209"/>
+@@ -11307,17 +11307,17 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6217"/>
+       <source>Compatibility</source>
+-      <translation type="unfinished">Compatibility</translation>
++      <translation>Kompatibilitet</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6218"/>
+       <source>Automatically loads and applies fixes to known problematic games on game start.</source>
+-      <translation type="unfinished">Automatically loads and applies fixes to known problematic games on game start.</translation>
++      <translation>Läser in och tillämpar automatiskt fixar för kända problemspel när de startas.</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6219"/>
+       <source>Automatically loads and applies compatibility patches to known problematic games.</source>
+-      <translation type="unfinished">Automatically loads and applies compatibility patches to known problematic games.</translation>
++      <translation>Läser in och tillämpar automatiskt kompatibilitetspatcher för kända problematiska spel när de startas.</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6225"/>
+@@ -11327,7 +11327,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6226"/>
+       <source>PINE Settings</source>
+-      <translation type="unfinished">PINE Settings</translation>
++      <translation>PINE-inställningar</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6227"/>
+@@ -11347,7 +11347,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6230"/>
+       <source>Toggles scanning patch files for all CRCs of the game. With this enabled available patches for the game serial with different CRCs will also be loaded.</source>
+-      <translation type="unfinished">Toggles scanning patch files for all CRCs of the game. With this enabled available patches for the game serial with different CRCs will also be loaded.</translation>
++      <translation>Växlar sökning efter patchfiler för alla CRCs för spelet. När aktiverad kommer tillgängliga patchar för spelets serienummer med olika CRCs också att läsas in.</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6283"/>
+@@ -11517,12 +11517,12 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6480"/>
+       <source>Prioritize Upper Bits</source>
+-      <translation type="unfinished">Prioritize Upper Bits</translation>
++      <translation>Prioritera övre bitar</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6481"/>
+       <source>Prioritize Lower Bits</source>
+-      <translation type="unfinished">Prioritize Lower Bits</translation>
++      <translation>Prioritera lägre bitar</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="6482"/>
+@@ -12268,7 +12268,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI.cpp" line="4032"/>
+       <source>Download Failed</source>
+-      <translation type="unfinished">Download Failed</translation>
++      <translation>Nedladdning misslyckades</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI_Settings.cpp" line="5878"/>
+@@ -12288,7 +12288,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI.cpp" line="4080"/>
+       <source>PCSX2 can automatically download covers for games which do not currently have a cover set. We do not host any cover images, the user must provide their own source for images.</source>
+-      <translation type="unfinished">PCSX2 can automatically download covers for games which do not currently have a cover set. We do not host any cover images, the user must provide their own source for images.</translation>
++      <translation>PCSX2 kan automatiskt hämta ner omslag för spel som för närvarande inte har ett valt omslag. Vi erbjuder ingen tjänst för att hämta omslagsbilder, användaren måste tillhandahålla sin egen källa för bilder.</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI.cpp" line="4081"/>
+@@ -12350,7 +12350,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI.cpp" line="4132"/>
+       <source>Refresh List</source>
+-      <translation type="unfinished">Refresh List</translation>
++      <translation>Uppdatera lista</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI.cpp" line="4159"/>
+@@ -12445,7 +12445,7 @@ Denna åtgärd går inte att ångra.</translation>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI.cpp" line="4177"/>
+       <source>Use Title File Names</source>
+-      <translation type="unfinished">Use Title File Names</translation>
++      <translation>Använd titel för filnamn</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/ImGui/FullscreenUI.cpp" line="4178"/>
+@@ -12986,7 +12986,7 @@ Se vår officiella dokumentation för mer information.</translation>
+     <message>
+       <location filename="../../pcsx2/GameDatabase.cpp" line="914"/>
+       <source>Minimum</source>
+-      <translation>Minimum</translation>
++      <translation>Minimal</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/GameDatabase.cpp" line="915"/>
+@@ -12996,7 +12996,7 @@ Se vår officiella dokumentation för mer information.</translation>
+     <message>
+       <location filename="../../pcsx2/GameDatabase.cpp" line="916"/>
+       <source>Medium</source>
+-      <translation>Medium</translation>
++      <translation>Medel</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/GameDatabase.cpp" line="917"/>
+@@ -15005,7 +15005,7 @@ Söka igenom den rekursivt tar längre tid men identifierar filer i underkatalog
+     <message>
+       <location filename="../Settings/GraphicsHardwareRenderingSettingsTab.ui" line="63"/>
+       <source>Mipmapping</source>
+-      <translation>Mipmapping</translation>
++      <translation>Mipmappning</translation>
+     </message>
+     <message>
+       <location filename="../Settings/GraphicsHardwareRenderingSettingsTab.ui" line="56"/>
+@@ -15060,7 +15060,7 @@ Söka igenom den rekursivt tar längre tid men identifierar filer i underkatalog
+     <message>
+       <location filename="../Settings/GraphicsHardwareRenderingSettingsTab.ui" line="154"/>
+       <source>Minimum</source>
+-      <translation>Minimum</translation>
++      <translation>Minimal</translation>
+     </message>
+     <message>
+       <location filename="../Settings/GraphicsHardwareRenderingSettingsTab.ui" line="159"/>
+@@ -15486,7 +15486,7 @@ Söka igenom den rekursivt tar längre tid men identifierar filer i underkatalog
+       <location filename="../Settings/GraphicsSettingsWidget.cpp" line="494"/>
+       <location filename="../Settings/GraphicsSettingsWidget.cpp" line="564"/>
+       <source>Mipmapping</source>
+-      <translation>Mipmapping</translation>
++      <translation>Mipmappning</translation>
+     </message>
+     <message>
+       <location filename="../Settings/GraphicsSettingsWidget.cpp" line="559"/>
+@@ -15588,7 +15588,7 @@ Söka igenom den rekursivt tar längre tid men identifierar filer i underkatalog
+     <message>
+       <location filename="../Settings/GraphicsSettingsWidget.cpp" line="653"/>
+       <source>Force Even Sprite Position</source>
+-      <translation>Force Even Sprite Position</translation>
++      <translation>Tvinga jämn sprite-position</translation>
+     </message>
+     <message>
+       <location filename="../Settings/GraphicsSettingsWidget.cpp" line="679"/>
+@@ -16429,7 +16429,7 @@ Swap chain: see Microsoft&apos;s Terminology Portal.</extracomment>
+     <message>
+       <location filename="../Settings/GraphicsSettingsWidget.cpp" line="418"/>
+       <source>Apply No-Interlacing Patches</source>
+-      <translation type="unfinished">Apply No-Interlacing Patches</translation>
++      <translation>Tillämpa patchar för att inaktivera interlacing</translation>
+     </message>
+     <message>
+       <location filename="../Settings/GraphicsSettingsWidget.cpp" line="454"/>
+@@ -16864,7 +16864,7 @@ Swap chain: see Microsoft&apos;s Terminology Portal.</extracomment>
+     <message>
+       <location filename="../Settings/GraphicsSoftwareRenderingSettingsTab.ui" line="42"/>
+       <source>Mipmapping</source>
+-      <translation>Mipmapping</translation>
++      <translation>Mipmappning</translation>
+     </message>
+     <message>
+       <location filename="../Settings/GraphicsSoftwareRenderingSettingsTab.ui" line="49"/>
+@@ -16996,7 +16996,7 @@ Swap chain: see Microsoft&apos;s Terminology Portal.</extracomment>
+     <message>
+       <location filename="../Settings/GraphicsUpscalingFixesSettingsTab.ui" line="68"/>
+       <source>Normal (Vertex)</source>
+-      <translation>Normal (Vertex)</translation>
++      <translation>Normal (vertex)</translation>
+     </message>
+     <message>
+       <location filename="../Settings/GraphicsUpscalingFixesSettingsTab.ui" line="73"/>
+@@ -17496,7 +17496,7 @@ Swap chain: see Microsoft&apos;s Terminology Portal.</extracomment>
+     <message>
+       <location filename="../../pcsx2/Hotkeys.cpp" line="243"/>
+       <source>Reload Patches</source>
+-      <translation type="unfinished">Reload Patches</translation>
++      <translation>Läs om patchar</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/Hotkeys.cpp" line="265"/>
+@@ -17660,7 +17660,7 @@ Swap chain: see Microsoft&apos;s Terminology Portal.</extracomment>
+     <message>
+       <location filename="../../pcsx2/GS/GS.cpp" line="1337"/>
+       <source>Minimum</source>
+-      <translation>Minimum</translation>
++      <translation>Minimal</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/GS/GS.cpp" line="1338"/>
+@@ -17719,7 +17719,7 @@ Swap chain: see Microsoft&apos;s Terminology Portal.</extracomment>
+     <message>
+       <location filename="../../pcsx2/Hotkeys.cpp" line="71"/>
+       <source>Minimum</source>
+-      <translation>Minimum</translation>
++      <translation>Minimal</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/Hotkeys.cpp" line="71"/>
+@@ -18250,7 +18250,7 @@ Högerklicka för att tömma bindning</translation>
+       <location filename="../Settings/InterfaceSettingsWidget.ui" line="56"/>
+       <location filename="../Settings/InterfaceSettingsWidget.cpp" line="210"/>
+       <source>Use Save State Selector</source>
+-      <translation type="unfinished">Use Save State Selector</translation>
++      <translation>Använd väljare för sparade tillstånd</translation>
+     </message>
+     <message>
+       <location filename="../Settings/InterfaceSettingsWidget.ui" line="91"/>
+@@ -18541,7 +18541,7 @@ Högerklicka för att tömma bindning</translation>
+     <message>
+       <location filename="../Settings/InterfaceSettingsWidget.cpp" line="211"/>
+       <source>Show a save state selector UI when switching slots instead of showing a notification bubble.</source>
+-      <translation type="unfinished">Show a save state selector UI when switching slots instead of showing a notification bubble.</translation>
++      <translation>Visa en väljare för sparade tillstånd vid växling av sparningsplatser istället för att visa en notifieringsbubbla.</translation>
+     </message>
+     <message>
+       <location filename="../Settings/InterfaceSettingsWidget.cpp" line="214"/>
+@@ -19528,13 +19528,13 @@ Högerklicka för att tömma bindning</translation>
+     <message>
+       <location filename="../MainWindow.cpp" line="329"/>
+       <source>Toggle Mute</source>
+-      <translation type="unfinished">Toggle Mute</translation>
++      <translation>Växla tyst ljud</translation>
+     </message>
+     <message>
+       <location filename="../MainWindow.cpp" line="353"/>
+       <location filename="../MainWindow.cpp" line="473"/>
+       <source>Volume: Muted</source>
+-      <translation type="unfinished">Volume: Muted</translation>
++      <translation>Volym: Tystad</translation>
+     </message>
+     <message>
+       <location filename="../MainWindow.cpp" line="353"/>
+@@ -19545,7 +19545,7 @@ Högerklicka för att tömma bindning</translation>
+     <message>
+       <location filename="../MainWindow.cpp" line="386"/>
+       <source>Unlimited</source>
+-      <translation type="unfinished">Unlimited</translation>
++      <translation>Obegränsat</translation>
+     </message>
+     <message>
+       <location filename="../MainWindow.cpp" line="387"/>
+@@ -20480,7 +20480,7 @@ Sparade tillstånd bör inte användas istället för sparade spel.</translation
+     <message>
+       <location filename="../Settings/MemoryCardSettingsWidget.cpp" line="121"/>
+       <source>Swap Memory Cards</source>
+-      <translation type="unfinished">Swap Memory Cards</translation>
++      <translation>Byt plats på minneskorten</translation>
+     </message>
+     <message>
+       <location filename="../Settings/MemoryCardSettingsWidget.cpp" line="133"/>
+@@ -20569,17 +20569,17 @@ This action cannot be reversed, and you will lose any saves on the card.</transl
+     <message>
+       <location filename="../Settings/MemoryCardSettingsWidget.cpp" line="327"/>
+       <source>Rename</source>
+-      <translation type="unfinished">Rename</translation>
++      <translation>Byt namn</translation>
+     </message>
+     <message>
+       <location filename="../Settings/MemoryCardSettingsWidget.cpp" line="328"/>
+       <source>Convert</source>
+-      <translation type="unfinished">Convert</translation>
++      <translation>Konvertera</translation>
+     </message>
+     <message>
+       <location filename="../Settings/MemoryCardSettingsWidget.cpp" line="329"/>
+       <source>Delete</source>
+-      <translation type="unfinished">Delete</translation>
++      <translation>Ta bort</translation>
+     </message>
+   </context>
+   <context>
+@@ -21702,7 +21702,7 @@ Target speed set to 120%.</translation>
+       <location filename="../Settings/OSDSettingsWidget.ui" line="20"/>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="37"/>
+       <source>On-Screen Display</source>
+-      <translation type="unfinished">On-Screen Display</translation>
++      <translation>Skärmöverlägg</translation>
+     </message>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.ui" line="26"/>
+@@ -21855,7 +21855,7 @@ Target speed set to 120%.</translation>
+       <location filename="../Settings/OSDSettingsWidget.ui" line="491"/>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="128"/>
+       <source>Show GPU Debug Info</source>
+-      <translation type="unfinished">Show GPU Debug Info</translation>
++      <translation>Visa felsökningsinformation för GPU</translation>
+     </message>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.ui" line="498"/>
+@@ -21997,7 +21997,7 @@ Target speed set to 120%.</translation>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="91"/>
+       <source>OSD Margin</source>
+-      <translation type="unfinished">OSD Margin</translation>
++      <translation>OSD-marginal</translation>
+     </message>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="91"/>
+@@ -22022,7 +22022,7 @@ Target speed set to 120%.</translation>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="97"/>
+       <source>OSD Messages Position</source>
+-      <translation type="unfinished">OSD Messages Position</translation>
++      <translation>Position för OSD-meddelanden</translation>
+     </message>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="97"/>
+@@ -22037,7 +22037,7 @@ Target speed set to 120%.</translation>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="101"/>
+       <source>OSD Performance Position</source>
+-      <translation type="unfinished">OSD Performance Position</translation>
++      <translation>Position för OSD-prestanda</translation>
+     </message>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="101"/>
+@@ -22072,27 +22072,27 @@ Target speed set to 120%.</translation>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="105"/>
+       <source>Shows the current emulation speed of the system as a percentage.</source>
+-      <translation type="unfinished">Shows the current emulation speed of the system as a percentage.</translation>
++      <translation>Visar den aktuella emuleringshastigheten i systemet i procent.</translation>
+     </message>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="108"/>
+       <source>Shows the number of internal video frames displayed per second by the system.</source>
+-      <translation type="unfinished">Shows the number of internal video frames displayed per second by the system.</translation>
++      <translation>Visar antalet interna videobilder som visas per sekund av systemet.</translation>
+     </message>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="111"/>
+       <source>Shows the number of Vsyncs performed per second by the system.</source>
+-      <translation type="unfinished">Shows the number of Vsyncs performed per second by the system.</translation>
++      <translation>Visar antalet Vsyncs som utförs per sekund av systemet.</translation>
+     </message>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="114"/>
+       <source>Shows the internal resolution of the game.</source>
+-      <translation type="unfinished">Shows the internal resolution of the game.</translation>
++      <translation>Visar den interna upplösningen för spelet.</translation>
+     </message>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="117"/>
+       <source>Shows statistics about the emulated GS such as primitives and draw calls.</source>
+-      <translation type="unfinished">Shows statistics about the emulated GS such as primitives and draw calls.</translation>
++      <translation>Visar statistik om emulerad GS så som primitiver och ritningsanrop.</translation>
+     </message>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="120"/>
+@@ -22136,12 +22136,12 @@ Target speed set to 120%.</translation>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="137"/>
+       <source>Shows the current system CPU and GPU information.</source>
+-      <translation type="unfinished">Shows the current system CPU and GPU information.</translation>
++      <translation>Visar aktuell system-CPU och GPU-information.</translation>
+     </message>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="140"/>
+       <source>Shows the current PCSX2 version.</source>
+-      <translation type="unfinished">Shows the current PCSX2 version.</translation>
++      <translation>Visar aktuell PCSX2-version.</translation>
+     </message>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="143"/>
+@@ -22161,7 +22161,7 @@ Target speed set to 120%.</translation>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="152"/>
+       <source>Shows the current controller state of the system in the bottom-left corner of the display.</source>
+-      <translation type="unfinished">Shows the current controller state of the system in the bottom-left corner of the display.</translation>
++      <translation>Visar den aktuella handkontrollens tillstånd i det nedre vänstra hörnet av skärmen.</translation>
+     </message>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="155"/>
+@@ -22181,7 +22181,7 @@ Target speed set to 120%.</translation>
+     <message>
+       <location filename="../Settings/OSDSettingsWidget.cpp" line="164"/>
+       <source>Displays warnings when settings are enabled which may break games.</source>
+-      <translation type="unfinished">Displays warnings when settings are enabled which may break games.</translation>
++      <translation>Visar varningar när inställningar är aktiverade som kan förstöra spel.</translation>
+     </message>
+   </context>
+   <context>
+@@ -22556,12 +22556,12 @@ Target speed set to 120%.</translation>
+     <message>
+       <location filename="../../pcsx2/SIO/Pad/PadGuitar.cpp" line="18"/>
+       <source>Strum Up</source>
+-      <translation>Strum Up</translation>
++      <translation>Spela uppåt</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/SIO/Pad/PadGuitar.cpp" line="19"/>
+       <source>Strum Down</source>
+-      <translation>Strum Down</translation>
++      <translation>Spela nedåt</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/SIO/Pad/PadGuitar.cpp" line="22"/>
+@@ -22591,7 +22591,7 @@ Target speed set to 120%.</translation>
+     <message>
+       <location filename="../../pcsx2/SIO/Pad/PadGuitar.cpp" line="27"/>
+       <source>Whammy Bar</source>
+-      <translation>Whammy Bar</translation>
++      <translation>Svajarm</translation>
+     </message>
+     <message>
+       <location filename="../../pcsx2/SIO/Pad/PadGuitar.cpp" line="28"/>
+@@ -23434,7 +23434,7 @@ Vill du skapa denna katalog?</translation>
+     <message>
+       <location filename="../Settings/SettingsWindow.cpp" line="161"/>
+       <source>On-Screen Display</source>
+-      <translation type="unfinished">On-Screen Display</translation>
++      <translation>Skärmöverlägg</translation>
+     </message>
+     <message>
+       <location filename="../Settings/SettingsWindow.cpp" line="163"/>
+@@ -23726,7 +23726,7 @@ Vill du fortsätta?</translation>
+     <message>
+       <location filename="../SetupWizardDialog.ui" line="755"/>
+       <source>RAIntegration is being used, built-in RetroAchievements support is disabled.</source>
+-      <translation type="unfinished">RAIntegration is being used, built-in RetroAchievements support is disabled.</translation>
++      <translation>RAIntegration används, inbyggt stöd för RetroAchievements är inaktiverat.</translation>
+     </message>
+     <message>
+       <location filename="../SetupWizardDialog.ui" line="789"/>
