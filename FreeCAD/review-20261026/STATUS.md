@@ -39,3 +39,9 @@ och arkiverats i `approved-differences-sample-05-20261027.md`. Alla poster är
 godtagbara i sin kontext. Särskilt kontrollerades att ”verktygsrad” är den
 etablerade termen i just dialogen för egna verktygsrader; ingen onödig
 Crowdin-ändring ska göras.
+
+2026-10-27: Ett sjätte läsande urval om 20 godkända avvikelser har granskats
+och arkiverats i `approved-differences-sample-06-20261027.md`. Alla poster är
+godtagbara i sin kontext. Källkoden och översättningsminnet bekräftar särskilt
+”snurrplatta” och ”rotationsstil” för FreeCADs navigeringslägen; inga nya
+Crowdin-förslag ska skapas från urvalet.
