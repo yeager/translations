@@ -21,3 +21,5 @@ Två licenstexter och en knapphänvisning rättades och skickades via webbläsar
 Fem rättelser av objekt- och prefixterminologi skickades via webbläsaren. Weblate bekräftade 5 uppdaterade, 0 överhoppade och 0 saknade. PO-filen klarade msgfmt --check --check-format. Återanvändningsvarningarna granskas vidare.
 
 Återanvändningskontrollen: sidorna 2–4 i bläddringsvyn har granskats översiktligt. Träffarna gäller bland annat singular och plural som har samma svenska form, likvärdiga engelska formuleringar och identiska knapptexter. Kontroll av respektive motsträng och sammanhang återstår för en fullständig bedömning; inga varningar har avfärdats.
+
+Tre hjälptexter om resurscache, statistik och RRD-filer rättades. Weblate bekräftade 3 uppdaterade, 0 överhoppade och 0 saknade. PO-filen klarade msgfmt --check --check-format.
