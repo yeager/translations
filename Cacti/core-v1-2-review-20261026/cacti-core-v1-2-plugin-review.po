@@ -1,0 +1,114 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2026-10-11 16:07-0700\n"
+"PO-Revision-Date: 2026-10-26 08:24+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.cacti.net/projects/cacti/core-v1-2-x/sv/>\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: include/global_arrays.php
+msgid "Synchronization does not include the Central Cacti Database server."
+msgstr "Synkroniseringen omfattar inte den centrala Cacti-databasservern."
+
+#: include/global_settings.php
+msgid ""
+"Select which Plugins you wish to place in Debug mode regardless of the "
+"Generic Log Level setting.  Any files used by this plugin will be treated as"
+" they are in Debug mode."
+msgstr ""
+"Välj vilka insticksmoduler som ska använda felsökningsläge oavsett den "
+"allmänna loggnivån. Alla filer som används av dessa insticksmoduler "
+"behandlas som om de är i felsökningsläge."
+
+#: include/global_settings.php
+msgid ""
+"In very large systems, select lists can slow the user interface "
+"significantly.  If this option is enabled, Cacti will use autocomplete "
+"callbacks to populate the select list systematically.  Note: autocomplete is"
+" forcibly disabled on the Classic theme."
+msgstr ""
+"I mycket stora system kan vallistor göra användargränssnittet betydligt "
+"långsammare. Om alternativet är aktiverat använder Cacti autokomplettering "
+"för att fylla vallistan efter hand. Observera att autokomplettering alltid "
+"är inaktiverad i temat Classic."
+
+#: include/global_settings.php
+msgid ""
+"The font to use for Graph Legends.  Enter either a valid True Type Font file"
+" or valid Pango font-config value."
+msgstr ""
+"Teckensnittet som ska användas för grafers teckenförklaringar. Ange antingen"
+" en giltig TrueType-typsnittsfil eller ett giltigt Pango fontconfig-värde."
+
+#: include/global_settings.php
+msgid ""
+"The font to use for Graph Axis items.  Enter either a valid True Type Font "
+"file or valid Pango font-config value."
+msgstr ""
+"Teckensnittet som ska användas för objekt på grafens axlar. Ange antingen en"
+" giltig TrueType-typsnittsfil eller ett giltigt Pango fontconfig-värde."
+
+#: include/global_settings.php
+msgid ""
+"The font to use for Graph Unit items.  Enter either a valid True Type Font "
+"file or valid Pango font-config value."
+msgstr ""
+"Teckensnittet som ska användas för grafens enheter. Ange antingen en giltig "
+"TrueType-typsnittsfil eller ett giltigt Pango fontconfig-värde."
+
+#: lib/utility.php
+msgid ""
+"Rogue queries should not for the database to go offline to others.  Kill "
+"these queries before they kill your system."
+msgstr ""
+"Felaktiga frågor bör inte göra databasen otillgänglig för andra. Avbryt "
+"dessa frågor innan de slår ut systemet."
+
+#: lib/utility.php
+#, php-format
+msgid ""
+"As of %s %s, the you can control how often %s flushes transactions to disk."
+"  The default is 1 second, but in high I/O systems setting to a value "
+"greater than 1 can allow disk I/O to be more sequential"
+msgstr ""
+"Från och med %s %s kan du styra hur ofta %s skriver transaktioner till disk."
+" Standardvärdet är 1 sekund, men i system med hög I/O-belastning kan ett "
+"högre värde göra diskskrivningarna mer sekventiella."
+
+#: plugins.php
+#, php-format
+msgid "Plugin directory '%s' is missing setup.php"
+msgstr "Insticksmodulens katalog '%s' saknar setup.php"
+
+#: plugins.php
+msgid "Plugin is not compatible (Pre-1.x)"
+msgstr "Insticksmodulen är inte kompatibel (före 1.x)"
+
+#: plugins.php
+msgid "Plugin directories can not include spaces"
+msgstr "Kataloger för insticksmoduler får inte innehålla blanksteg"
+
+#: plugins.php
+#, php-format
+msgid "Plugin directory is not correct.  Should be '%s' but is '%s'"
+msgstr "Insticksmodulens katalog är felaktig. Den ska vara '%s' men är '%s'"
+
+#: plugins.php
+msgid "Plugin is lacking an INFO file"
+msgstr "Insticksmodulen saknar en INFO-fil"
+
+#: plugins.php
+msgid "Plugin is integrated into Cacti core"
+msgstr "Insticksmodulen är integrerad i Cacti-kärnan"
+
+#: plugins.php
+msgid "Plugin is not compatible"
+msgstr "Insticksmodulen är inte kompatibel"
