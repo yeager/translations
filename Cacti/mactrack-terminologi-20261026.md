@@ -19,3 +19,5 @@ Cycle undantogs från nytt arbete eftersom senaste release v4.1 publicerades 201
 2026-10-26: Intropage: ”Disable panel move/enable copy text from panel” rättades så att kopiering aktiveras. Weblate bekräftade en uppdaterad sträng. msgfmt, l10n-lint och Hunspell kontrollerades. Senaste release v4.0.4: 2024-04-26.
 
 Senare kontroll 2026-10-26: Mactracks svenska översikt visar 758 översatta strängar och ingen kategori för aktiva felande kontroller; 50 strängar har avfärdade kontroller. Den tidigare MAC-varningen visas alltså inte längre som aktiv i översikten. Översikten visar inte varför den försvann och detta innebär inte en ny fullständig radgranskning.
+
+2026-10-26: De tio poster som Weblate märker som automatiskt översatta jämfördes med sina källtexter i bläddringsvyn: Errors/Fel, Unauthorized/Obehörig, Dashboard/Instrumentpanel, days/dagar, Duration/Varaktighet, Rows/Rader, Size/Storlek, Table/Tabell, Invalid request. Please try again./Ogiltig begäran. Försök igen. och Issues/Problem. Formuleringarna bedömdes fungera och inga ändringar eller etikettändringar gjordes. Detta gäller dessa tio poster, inte hela komponenten.
