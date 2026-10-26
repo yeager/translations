@@ -48,3 +48,13 @@ PR skapas först när samma radgranskning har täckt återstående hjälptexter.
 Vanliga återstående engelska etiketter har också granskats och översatts,
 däribland ljud, teckensnitt, enheter, kontrollbilder, MMU och
 GameCube-startanimation.
+
+Den 27 oktober granskades och rättades ytterligare fjorton längre hjälptexter
+om uppdateringar, återställning, Wii-kontroller, spartillstånd och
+bildgenerering. Katalogen innehåller fortsatt 1 803 av 1 803 svenska texter;
+nyckeluppsättning och platsmarkörer stämmer med projektets källista, den
+genererade C++-tabellen kompilerar med strikta varningar och Gitleaks är ren.
+`l10n-lint` kan ännu inte jämföra projektets lista av källposter med dess
+objektbaserade språkkatalog och ger därför katalogfel som inte motsvarar
+projektets faktiska format. Ingen uppströms-PR är skapad: återstående längre
+hjälptexter ska fortfarande granskas rad för rad.
