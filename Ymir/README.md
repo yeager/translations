@@ -1,9 +1,11 @@
 # Ymir SDL3 translations
 
-Ymir uses GNU gettext. `sv.po` is the Swedish catalog and builds to
+The unmerged [PR #959](https://github.com/ymir-emu/Ymir/pull/959) proposed GNU gettext support. It was closed without merging on 2026-10-25; the maintainer wants the core team to discuss an internationalization solution first. The files here are an archive of the proposal, not a description of current upstream functionality.
+
+In that proposal, `sv.po` is the Swedish catalog and builds to
 `locale/sv/LC_MESSAGES/ymir-sdl3.mo` next to the executable.
 
-When a source string changes, regenerate the template from the sources listed
+Within the proposed implementation, when a source string changes, regenerate the template from the sources listed
 in `apps/ymir-sdl3/CMakeLists.txt` and merge it into each catalog:
 
 ```sh
