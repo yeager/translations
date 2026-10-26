@@ -190,3 +190,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Mactrack-texten ”No Non Interface Graphs in Cacti” förtydligades till ”Det finns inga grafer som inte gäller gränssnitt i Cacti”, i linje med motsvarande visningskommando. Weblate bekräftade en uppdatering. msgfmt och l10n-lint passerade; Hunspell flaggade produktnamnet Cacti.
 
 2026-10-26: Tre mactrack-texter om standardplats och platsrapport rättades från ”webbplats” till ”plats”. Weblate bekräftade tre uppdateringar. msgfmt och l10n-lint passerade; Hunspell flaggade endast produktnamnen MacTrack och Cacti-loggen.
+
+2026-10-26: Mactrack platsfilter och IP-intervall samordnades med övriga platstermer. Weblate bekräftade två uppdateringar; msgfmt och l10n-lint passerade, medan Hunspell flaggade sammansättningar med produktnamnet Mactrack. Den tidigare uppmaningen om borttagning av platser har två kvarvarande skiljeteckenkontroller eftersom den engelska källan slutar med frågetecken och den svenska uppmaningen med punkt.
