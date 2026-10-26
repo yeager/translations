@@ -1,0 +1,35 @@
+From 86d695499569e471bab4d5e0936adbbfd185e72d Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <po@danielnylander.se>
+Date: Mon, 26 Oct 2026 16:51:19 +0100
+Subject: [PATCH] Make monitor confirmation actions translatable
+
+---
+ setup.php | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/setup.php b/setup.php
+index 7088d3b..5b42b3c 100644
+--- a/setup.php
++++ b/setup.php
+@@ -531,14 +531,14 @@ function monitor_device_action_prepare($save) {
+ 
+ 		if ($action == 'monitor_enable' || $action == 'monitor_disable') {
+ 			if ($action == 'monitor_enable') {
+-				$action_description = 'enable';
+-			} elseif ($action == 'monitor_disable') {
+-				$action_description = 'disable';
++				$action_description = __('Click \'Continue\' to enable monitoring on these Device(s)', 'monitor');
++			} else {
++				$action_description = __('Click \'Continue\' to disable monitoring on these Device(s)', 'monitor');
+ 			}
+ 
+ 			print "<tr>
+ 				<td colspan='2' class='even'>
+-					<p>" . __('Click \'Continue\' to %s monitoring on these Device(s)', $action_description, 'monitor') . "</p>
++					<p>" . $action_description . "</p>
+ 					<p><div class='itemlist'><ul>" . $save['host_list'] . '</ul></div></p>
+ 				</td>
+ 			</tr>';
+-- 
+2.54.0 (Apple Git-157)
+
