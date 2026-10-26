@@ -47,3 +47,5 @@ Kompletterande verktygskontroll 2026-10-26: den svenska Hunspell-ordlistan fanns
 2026-10-26: Sex kontroller avfärdades efter jämförelse av datakällans namn, aggregat, mallar och GPRINT-förinställningar. Källkoden visar att GPRINTs används på sidan för GPRINT-förinställningar. Inga översättningstexter ändrades; Weblate visade 91 återstående kontroller.
 
 2026-10-26: Sex ytterligare återanvändningskontroller avfärdades efter jämförelse av grafobjekt, grafmallar, grafer och GPRINT-förinställningar samt likvärdiga uttryck för att sakna mall. Inga översättningstexter ändrades; Weblate visade 85 återstående kontroller.
+
+2026-10-26: Ytterligare sex återanvändningskontroller avfärdades efter jämförelse av borttagningsmetoder, grafer, mallstatus och enheter. Inga svenska strängar ändrades. Weblate visade 79 återstående kontroller.
