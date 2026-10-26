@@ -1,0 +1,122 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cacti Flowview\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, php-format
+msgid ""
+"Materialization of %d Filter(s) was started in the background.  %d Filter(s)"
+" are already being materialized.  Its results are reported in the Cacti log."
+msgstr ""
+"Materialisering av %d filter startades i bakgrunden.  %d filter håller redan"
+" på att materialiseras.  Resultaten rapporteras i Cacti-loggen."
+
+#, php-format
+msgid ""
+"Materialization of %d Filter(s) was started in the background.  Its results "
+"are reported in the Cacti log."
+msgstr ""
+"Materialisering av %d filter startades i bakgrunden.  Resultaten rapporteras"
+" i Cacti-loggen."
+
+msgid ""
+"The selected Filter(s) are already being materialized.  Please try again "
+"once that has finished."
+msgstr ""
+"De valda filtren håller redan på att materialiseras.  Försök igen när det är"
+" klart."
+
+msgid ""
+"Click 'Continue' to Materialize the following Filter(s) in the background, "
+"with NAT on and off, for the entire range of flow data.  Partitions that are"
+" already materialized and accurate are skipped.  This can take a long time "
+"on large data sets.  A Filter that is already being materialized is skipped."
+msgstr ""
+"Klicka på ”Fortsätt” för att materialisera följande filter i bakgrunden, med"
+" och utan NAT, för hela intervallet med flödesdata.  Partitioner som redan "
+"är materialiserade och aktuella hoppas över.  Det kan ta lång tid för stora "
+"datamängder.  Filter som redan håller på att materialiseras hoppas över."
+
+msgid "Prune"
+msgstr "Rensa"
+
+msgid "Remove the cached shards that do not match any Filter"
+msgstr "Ta bort de cachade fragment som inte matchar något filter"
+
+msgid "Materialization"
+msgstr "Materialisering"
+
+msgid "NAT Shards"
+msgstr "NAT-fragment"
+
+msgid ""
+"The number of partitions of this Filter that are stored in the Parallel "
+"Query cache with NAT on."
+msgstr ""
+"Antalet partitioner för detta filter som lagras i cachen för parallella "
+"frågor med NAT aktiverat."
+
+msgid "Non-NAT Shards"
+msgstr "Fragment utan NAT"
+
+msgid ""
+"The number of partitions of this Filter that are stored in the Parallel "
+"Query cache with NAT off."
+msgstr ""
+"Antalet partitioner för detta filter som lagras i cachen för parallella "
+"frågor med NAT inaktiverat."
+
+msgid "Partitions"
+msgstr "Partitioner"
+
+msgid ""
+"The total number of flow partitions, which is the most shards a Filter can "
+"have cached with or without NAT."
+msgstr ""
+"Det totala antalet flödespartitioner, vilket är det högsta antal fragment "
+"ett filter kan ha i cachen med eller utan NAT."
+
+msgid ""
+"The cached shards of the Filters could not be told apart from the others, as"
+" the cache keys of a Filter could not be worked out."
+msgstr ""
+"Filtrens cachade fragment kunde inte skiljas från de andra eftersom "
+"cachenycklarna för ett filter inte kunde beräknas."
+
+msgid ""
+"The cache keys of the Filters could not be worked out, so nothing can be "
+"pruned right now.  Check that each Filter has a valid Report."
+msgstr ""
+"Filtrens cachenycklar kunde inte beräknas, så inget kan rensas just nu.  "
+"Kontrollera att varje filter har en giltig rapport."
+
+#, php-format
+msgid ""
+"Cached Shards: %s matching a Filter.  %s not matching any Filter, which "
+"Prune removes."
+msgstr ""
+"Cachade fragment: %s matchar ett filter.  %s matchar inget filter och tas "
+"bort vid rensning."
+
+#, php-format
+msgid ""
+"This removes %s cached shard(s) that do not match any Filter, for every "
+"Filter and every user.  They come from Filters that were changed or deleted,"
+" and from reports with settings changed on the report page.  The %s cached "
+"shard(s) of the Filters are kept.  This can not be undone."
+msgstr ""
+"Detta tar bort %s cachade fragment som inte matchar något filter, för alla "
+"filter och användare.  De kommer från filter som har ändrats eller tagits "
+"bort och från rapporter vars inställningar har ändrats på rapportsidan.  "
+"Filtrens %s cachade fragment behålls.  Detta kan inte ångras."
+
+msgid "Every cached shard matches a Filter.  There is nothing to prune."
+msgstr "Alla cachade fragment matchar ett filter.  Det finns inget att rensa."
+
+msgid "Prune Cached Shards"
+msgstr "Rensa cachade fragment"
