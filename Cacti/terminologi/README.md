@@ -188,3 +188,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Mactracks fält ”Ticket Number” rättades från ”Biljettnummer” till ”Ärendenummer”, i enlighet med hjälptexten om ärendehanteringssystem och e-postmallen. Weblate bekräftade en uppdatering. msgfmt, l10n-lint och Hunspell passerade.
 
 2026-10-26: Mactrack-texten ”No Non Interface Graphs in Cacti” förtydligades till ”Det finns inga grafer som inte gäller gränssnitt i Cacti”, i linje med motsvarande visningskommando. Weblate bekräftade en uppdatering. msgfmt och l10n-lint passerade; Hunspell flaggade produktnamnet Cacti.
+
+2026-10-26: Tre mactrack-texter om standardplats och platsrapport rättades från ”webbplats” till ”plats”. Weblate bekräftade tre uppdateringar. msgfmt och l10n-lint passerade; Hunspell flaggade endast produktnamnen MacTrack och Cacti-loggen.
