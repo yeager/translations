@@ -548,3 +548,5 @@ Weblates 55 strängar granskades mot källtexterna och tidigare säkerhetskopior
 - 2026-10-26: Core: efter ändringarna i Core 1.2 visade Weblate 44 återanvändningskontroller. Sex kontroller avfärdades efter jämförelse: aktivering och inaktivering av enheter i Core och Mactrack samt singular- och pluralvarianter av borttagning av aviseringsmottagare. ”Mottagare” har samma form i singular och plural. Översikten visar därefter 38 återanvändningskontroller kvar.
 
 - 2026-10-26: Core: åtta återanvändningskontroller för aktivering och inaktivering av aviseringsmottagare avfärdades efter jämförelse av singular- och pluraltexterna. Svenskans ”mottagare” har samma form i båda fallen. Weblate visar 30 återanvändningskontroller kvar.
+
+- 2026-10-26: Core: åtta återanvändningskontroller avfärdades efter jämförelse: fyra för vidarebefordran av ett eller flera aviseringsobjekt till en mottagare, två för visning av insticksmodulens ändringslogg och två för borttagning av en eller flera datainsamlare. Källkoden i `managers.php` och `plugins.php` kontrollerades; ”objekt” och ”datainsamlare” har samma form i singular och plural. Weblate visar 22 återanvändningskontroller kvar.
