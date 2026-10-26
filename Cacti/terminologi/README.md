@@ -223,3 +223,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: `mactrack-trafik-sv.po` skickades upp; två rubriker för inkommande och utgående trafik uppdaterades. Den befintliga svenska procentangivelsen bevarades. msgfmt, l10n-lint och Hunspell passerade.
 
 - 2026-10-26: Kontrollerna för ”Start Date” och ”Objects” avfärdades efter jämförelse: ”Startdatum” passar även ”Date Started”, och ”objekt” har samma form i singular och plural. Weblate visade ingen aktiv varning för dessa i core 1.2 efteråt. Varningen för ”Warnings” behöver ytterligare underlag eftersom Weblate inte visade de andra källsträngarna.
+
+- 2026-10-26: Thold: rättade skillnaden mellan varningar och larm samt återställde HTML-entiteter i en hjälptext. Weblate bekräftade två uppdaterade strängar; msgfmt, l10n-lint och Hunspell kontrollerade ändringarna.
