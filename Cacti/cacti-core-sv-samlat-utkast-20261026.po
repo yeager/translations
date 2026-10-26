@@ -568,3 +568,36 @@ msgstr ""
 "Klicka på ”Fortsätt” för att rensa användarloggen.<br><br><br>Obs: Om "
 "loggning är inställd på både Cacti och Syslog kommer logginformationen att "
 "finnas kvar i Syslog."
+
+#: utilities.php:1256
+msgid ""
+"When operating multiple Data Collectors in Cacti, Cacti will attempt to "
+"maintain state for key files on all Data Collectors.  This includes all "
+"core, non-install related website and plugin files.  When you force a "
+"Resource Cache rebuild, Cacti will clear the local Resource Cache, and then "
+"rebuild it at the next scheduled poller start.  This will trigger all Remote"
+" Data Collectors to recheck their website and plugin files for consistency."
+msgstr ""
+"När flera datainsamlare används försöker Cacti hålla reda på tillståndet för"
+" viktiga filer på alla datainsamlare. Detta gäller alla webbplatsens och "
+"insticksmodulernas kärnfiler som inte hör till installationen. När du "
+"tvingar fram en ombyggnad av resurscachen tömmer Cacti den lokala "
+"resurscachen och bygger om den nästa gång insamlingsprocessen startas enligt"
+" schemat. Då kontrollerar alla fjärranslutna datainsamlare på nytt att deras"
+" webbplats- och insticksmodulfiler är konsekventa."
+
+#: vdef.php:256
+msgid "Click 'Continue' to Delete the following VDEF."
+msgstr "Klicka på ”Fortsätt” för att ta bort följande VDEF."
+
+#: vdef.php:257
+msgid "Click 'Continue' to Delete following VDEFs."
+msgstr "Klicka på ”Fortsätt” för att ta bort följande VDEF:er."
+
+#: vdef.php:262
+msgid "Click 'Continue' to Duplicate the following VDEF."
+msgstr "Klicka på ”Fortsätt” för att duplicera följande VDEF."
+
+#: vdef.php:263
+msgid "Click 'Continue' to Duplicate following VDEFs."
+msgstr "Klicka på ”Fortsätt” för att duplicera följande VDEF:er."
