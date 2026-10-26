@@ -243,3 +243,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: Syslog: 15 ytterligare ändringar i inställningar och instrumentpaneler laddades upp och bekräftades av Weblate. Larm, lagringstid, rapportregler och Syslog-facilitet följer nu terminologin i dessa poster. msgfmt och l10n-lint passerade; Hunspell flaggade tekniska sammansättningar. Radgranskningen fortsätter.
 
 - 2026-10-26: Syslog: filen cacti-syslog-granskning-03-20261026.po innehöll 14 genomgångna poster; Weblate uppdaterade 12 och hoppade över två. msgfmt och l10n-lint passerade; Hunspell flaggade produktnamn och filnamn. Fortsatt radgranskning återstår.
+
+- 2026-10-26: Syslog: 29 ändringar i larmregler, sökning och aviseringar skickades upp; Weblate bekräftade samtliga. msgfmt och l10n-lint passerade utan fel eller varningar (fyra informationsnoteringar om engelsk pluralparentes); Hunspell flaggade Syslog-sammansättningar. Återstående rader och tekniska mallar behöver fortsatt granskning.
