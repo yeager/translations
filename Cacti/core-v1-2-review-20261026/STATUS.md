@@ -55,3 +55,5 @@ Fem texter om grafer, datakällor, loggning och installation rättades. Weblate 
 Kalendernamn och två avsändarbeskrivningar granskades: 17 uppdaterade i Weblate, inga saknade eller överhoppade. msgfmt, svlang, Hunspell och Gitleaks kördes. l10n-lint gav 0 fel och 9 varningar om avsiktliga små bokstäver respektive meningsslut. Två övriga fälttexter hade redan uppdaterats i båda komponenterna.
 
 Statussträngen Bypassed rättades till Överhoppad; Weblate bekräftade en uppdatering. msgfmt, l10n-lint, svlang, Hunspell och Gitleaks passerade. För DNS-varningen avfärdades två skiljeteckenkontroller: den svenska meningen är en fråga trots engelskt utropstecken.
+
+Korrigering: Efter kontroll av lib/functions.php, där texten följer ”Pingresultat:”, ändrades Bypassed till Överhoppat. Weblate bekräftade en uppdatering. Den tidigare formen Överhoppad är ersatt. Även ”hoppades över” är grammatiskt möjlig passivform; den tidigare formuleringen var inte i sig ett grammatiskt fel.
