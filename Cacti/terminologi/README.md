@@ -586,3 +586,5 @@ Weblates 55 strängar granskades mot källtexterna och tidigare säkerhetskopior
 2026-10-26: Fem varningar om datainsamlare i core granskades mot aktuell källkod och skickades upp till Weblate. Uppladdningen bekräftade fem uppdaterade strängar. Ändringarna finns i `cacti-core-datainsamlare-20261026.po`.
 
 2026-10-26: Fyra aktiva texter i cores tekniksupport anpassades till termen datainsamlare. Weblate bekräftade fyra uppdateringar; ändringarna finns i `cacti-core-support-datainsamlare-20261026.po`.
+
+2026-10-26: Rubriken ”Poller Information” i core ändrades till ”Information om datainsamlaren” efter kontroll av support.php. Weblate bekräftade uppdateringen; ändringen finns i `cacti-core-datainsamlare-information-20261026.po`.
