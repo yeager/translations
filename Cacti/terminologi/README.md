@@ -22,6 +22,7 @@ Arbetslista för alla Cacti-komponenter. Tillämpa orden efter sammanhang och ä
 | network | nätverk | |
 | tree | träd | För Cactis hierarkiska graf- eller enhetsträd. |
 | data query | datafråga | |
+| metric / measurand | mätstorhet | I Reportit avser båda en definierad mätstorhet; i andra komponenter kan metric syfta på ett mätvärde. |
 | consolidation function | konsolideringsfunktion | Funktion som sammanfattar mätvärden. |
 | step / stepping | steglängd | När värdet anger avståndet mellan numeriska val. |
 | log | logg | |
