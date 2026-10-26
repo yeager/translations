@@ -5,3 +5,5 @@ Två befintliga översättningar i CheatsPatches har granskats. Nya förslag fin
 Svlang skrivregler och Hunspell-sv gav inga träffar på de nya översättningarna. Crowdin varnade för att en apostrofentitet från engelskans sammandragning saknas i den svenska texten; den behövs inte på svenska. Detta är en begränsad granskning av två strängar, inte hela katalogen.
 
 Ytterligare tre förslag från nästa sida rättar upprepningar och grammatik i texter om fusk, patchar och förhandsutgåvor. De tidigare versionerna är fortfarande godkända i Crowdin; förslagen är sparade där och i [en separat kopia](shadps4-sv-review-20261026-page2.json). L10n-lint, svlang skrivregler och Hunspell-sv gav inga träffar på dessa tre översättningar; Gitleaks gav inga fynd i kopian.
+
+På tredje sidan har tre nya Crowdin-förslag lagts för kompatibilitetsstatusen ”Ingame”, otilldelade kontroller och meddelandet om dubbla knappbindningar. Ursprungliga översättningar är fortsatt godkända och förslagen väntar på granskning. [Kopia med kontext och radbrytningar](shadps4-sv-review-20261026-page3.json). L10n-lint, svlang och Hunspell-sv rapporterade inga fynd; Gitleaks hittade inga hemligheter i kopian.
