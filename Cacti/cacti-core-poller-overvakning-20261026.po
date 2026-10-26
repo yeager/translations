@@ -14,52 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.11.4\n"
 
-#: include/global_settings.php:1700
-msgid "1 hour guarded poller ratio run/max"
-msgstr ""
-"Bevakat förhållande mellan insamlarens körtid och maximal körtid under en "
-"timme"
-
-#: include/global_settings.php:1701
-msgid "Define guarded ratio poller run/max time (in percent)."
-msgstr ""
-"Ange det bevakade förhållandet mellan insamlarens körtid och maximala körtid"
-" i procent."
-
-#: include/global_settings.php:1713
-msgid "24 hours guarded poller ratio run/max"
-msgstr ""
-"Bevakat förhållande mellan insamlarens körtid och maximal körtid under 24 "
-"timmar"
-
-#: include/global_settings.php:1714
-msgid ""
-"Define guarded average ratio poller run/max time (in percent). When it is "
-"reached, warning will be written to log and email will be send. 0 = disable"
-msgstr ""
-"Ange det bevakade genomsnittliga förhållandet mellan insamlarens körtid och "
-"maximala körtid i procent. När gränsen nås skrivs en varning till loggen och"
-" ett e-postmeddelande skickas. 0 = inaktivera"
-
 #: poller.php:970
 #, php-format
 msgid "WARNING: PollerID:%s with Name:%s is in Heartbeat Status"
 msgstr "VARNING: Datainsamlaren med ID %s och namn %s är i hjärtslagsläge"
-
-#: poller.php:1253
-#, php-format
-msgid ""
-"WARNING: 24 hours Poller[%d] avg. run time is %f seconds (more than %d &#37;"
-" of time limit)"
-msgstr ""
-"VARNING: Datainsamlare [%d] har haft en genomsnittlig körtid på %f sekunder "
-"under 24 timmar (mer än %d &#37; av tidsgränsen)"
-
-#: poller.php:1269
-#, php-format
-msgid ""
-"WARNING: In last hour Poller[%d] run time %d times reached more than %d "
-"&#37; of time limit"
-msgstr ""
-"VARNING: Under den senaste timmen har körtiden för datainsamlare [%d] %d "
-"gånger nått mer än %d &#37; av tidsgränsen"
