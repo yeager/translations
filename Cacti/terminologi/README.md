@@ -305,3 +305,7 @@ Samtliga 134 aktiva strängar i exporten granskades mot källtexten och Weblates
 ### Cycle, 26 oktober 2026
 
 Alla 60 aktiva strängar jämfördes med källan och den aktuella Weblate-vyn. Tjugotvå korrigeringar förtydligar grafväxling och använder grafterminologi; även den felaktigt översatta instruktionen för reguljära uttryck rättades. Weblate bekräftade 22 uppdaterade, noll överhoppade och noll saknade. Ändringsfil: `Cacti/cacti-cycle-sv-granskning-20261026.po`. msgfmt, l10n-lint och svlang passerade; Hunspell flaggade sammansättningarna grafväxling och grafförklaring. Senaste GitHub-release är v4.1 från 2018-04-01 (https://github.com/Cacti/plugin_cycle/releases/tag/v4.1), äldre än 48 månader. Synkronisering till källförrådet har inte verifierats.
+
+### Maint, 26 oktober 2026
+
+De 120 aktiva posterna jämfördes med källtexten och Weblates vy. Femton rättningar av bland annat underhållsscheman, WebSeer och pluralparenteser skickades in; Weblate bekräftade 15 uppdateringar utan överhoppade eller saknade strängar. Ändringsfil: `Cacti/cacti-maint-sv-granskning-20261026.po`. msgfmt och svlang passerade; l10n-lint gav informationsnoteringar om källans pluralparenteser och hunspell-sv flaggade produktnamn och en förled. Två återanvändningskontroller för ”Device(s)” och ”Devices” kvarstår eftersom även ”View Devices” ingår i jämförelsen. Senaste release v1.3, 2026-01-28: https://github.com/Cacti/plugin_maint/releases/tag/v1.3. Överföring från Weblate till källförrådet är inte verifierad.
