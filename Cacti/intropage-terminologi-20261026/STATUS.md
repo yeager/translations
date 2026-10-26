@@ -17,3 +17,5 @@ Fem texter om paneler, trender och tidsintervall förbättrades. Weblate rapport
 Fyra strängar uppdaterades, bland annat Ratio till andel där top5.php beräknar andelen misslyckade insamlingar. Weblate rapporterade fyra uppdaterade; msgfmt och l10n-lint passerade med en informationsnotering om 1/timmen. Current/Aktuell är en kolumnrubrik jämte Average enligt källkoden och behöver inte ändras mekaniskt.
 
 Weblates återanvändningsvarning för Polling Time och Poll Time avfärdades: båda betecknar insamlingstid. De två övriga varningarna kvarstår.
+
+Kontrollen för Current avfärdades: Aktuell är en korrekt kolumnrubrik enligt top5.php. I tröskelpanelen rättades Breached från Intrång till Överskridet, verifierat mot thold.php; Weblate rapporterade en uppdaterad sträng. msgfmt och l10n-lint passerade. En återanvändningsvarning kvarstår.
