@@ -16,6 +16,12 @@ Kontroller: `bash -n build.sh`, `git diff --check` och avgränsad
 Gitleaks-kontroll godkända. Full lokal byggning kräver beroenden som inte
 finns i denna miljö; `clang-format` saknas också lokalt.
 
+2026-10-27: Uppströmskontrollen är arkiverad i
+`upstream-check-20261027.md`. PR:n är öppen utan CI eller underhållargranskning.
+De konkreta botanmärkningarna om numeriskt språkformat, katalogbygge,
+filväljarsträngar och popupetiketter är redan åtgärdade i den aktuella
+huvud-committen. Ingen överlappande ny fix skickades.
+
 NXEMU #489 granskades samtidigt. Underhållaren flyttar gränssnittet till
 RmlUi och vill därefter använda `.po`-filer med språkval; ingen ytterligare
 ändring är lämplig på den nuvarande PR:n.
