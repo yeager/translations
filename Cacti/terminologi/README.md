@@ -592,3 +592,5 @@ Weblates 55 strängar granskades mot källtexterna och tidigare säkerhetskopior
 2026-10-26: Sex cache- och ombyggnadstexter i core anpassades till termen datainsamlare. Weblate bekräftade sex uppdateringar; ändringarna finns i `cacti-core-cache-datainsamlare-20261026.po`.
 
 2026-10-26: Fyra texter om cacheadministration och minnesanvändning i core anpassades till termen datainsamlare. Weblate bekräftade fyra uppdateringar; ändringarna finns i `cacti-core-cache-administration-20261026.po`.
+
+2026-10-26: Åtta diagnostik- och cachetexter i core anpassades till termen datainsamlare. Weblate bekräftade åtta uppdateringar; ändringarna finns i `cacti-core-diagnostik-datainsamlare-20261026.po`.
