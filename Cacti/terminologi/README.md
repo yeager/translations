@@ -172,3 +172,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Tretton återanvändningskontroller i Core 1.2 granskades och avfärdades: användare, alfabetisk sortering, ändringslogg, upplåsning, rensning, garantivillkor, skript och datainsamlare. Weblate visar därefter fyra strängar med aktiva kontroller; de kräver fortsatt undersökning.
 
 2026-10-26: Båda domäntypkontrollerna i Core 1.2 avfärdades efter granskning av närliggande texter i user_domains.php: båda avser en domäns typ. Två kontroller återstår (Warnings och Objects).
+
+2026-10-26: Tolv återanvändningskontroller i Core avfärdades efter jämförelse av källtexterna: grafmallar, paket, inläsning och uppgradering av insticksmoduler samt användaråtgärder i singular och plural. Weblate visar fyra strängar med aktiva kontroller i Core.
