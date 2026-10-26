@@ -384,6 +384,7 @@ Senaste arkivändring är datumet för den senaste Git-incheckningen som berör 
 | [vim](vim/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
 | [Virtaal](Virtaal/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
 | [VirtualBox](VirtualBox/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
+| [Vocaluxe](Vocaluxe/) | 2026-10-26 | [Status och utkast](Vocaluxe/STATUS.md) | 99 saknade huvudsträngar har lokala utkast; inte inskickade | Hitta aktuell Transifex-resurs, jämför och skicka in; granska partylägen och webbapp |
 | [Vorssaint](Vorssaint/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
 | [Vorta](Vorta/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
 | [vorta](vorta/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
@@ -416,3 +417,4 @@ Följande översättningsfiler ligger direkt i arkivets rot och ingår därför 
 | [src_po_vim-sv.po](src_po_vim-sv.po) | Fil arkiverad; upstreamstatus behöver verifieras | Kontrollera projekt, granskning och eventuell uppladdning |
 
 Hemliga nycklar, autentiseringsuppgifter och API-svar med känslig information ingår inte.
+
