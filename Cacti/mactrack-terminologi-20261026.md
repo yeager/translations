@@ -17,3 +17,5 @@ Cycle undantogs från nytt arbete eftersom senaste release v4.1 publicerades 201
 2026-10-26: Weblates aktuella vy visar MAC Addresses, Mac Addresses och MAC's som ”MAC-adresser” i Mactrack. Den äldre arkivfilen innehöll singular för Mac Addresses, men den aktuella översättningen är redan rättad. Weblate visar ändå en inkonsekvensvarning; orsaken är ännu inte verifierad och varningen har inte avfärdats.
 
 2026-10-26: Intropage: ”Disable panel move/enable copy text from panel” rättades så att kopiering aktiveras. Weblate bekräftade en uppdaterad sträng. msgfmt, l10n-lint och Hunspell kontrollerades. Senaste release v4.0.4: 2024-04-26.
+
+Senare kontroll 2026-10-26: Mactracks svenska översikt visar 758 översatta strängar och ingen kategori för aktiva felande kontroller; 50 strängar har avfärdade kontroller. Den tidigare MAC-varningen visas alltså inte längre som aktiv i översikten. Översikten visar inte varför den försvann och detta innebär inte en ny fullständig radgranskning.
