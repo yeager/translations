@@ -9,3 +9,5 @@ Ytterligare tre förslag från nästa sida rättar upprepningar och grammatik i 
 På tredje sidan har tre nya Crowdin-förslag lagts för kompatibilitetsstatusen ”Ingame”, otilldelade kontroller och meddelandet om dubbla knappbindningar. Ursprungliga översättningar är fortsatt godkända och förslagen väntar på granskning. [Kopia med kontext och radbrytningar](shadps4-sv-review-20261026-page3.json). L10n-lint, svlang och Hunspell-sv rapporterade inga fynd; Gitleaks hittade inga hemligheter i kopian.
 
 På fjärde sidan har fem förslag lämnats för tilldelning av kontroller, kryptonycklar och nyckelfiler. Ursprungliga översättningar är fortsatt godkända. [Kopia med källtext och kontext](shadps4-sv-review-20261026-page4.json). Svlang och Hunspell-sv gav inga träffar; l10n-lint gav en längdvarning för ”Fake Keyset” men inga fel. Gitleaks gav inga fynd i kopian.
+
+På femte sidan har fyra förslag om nyckelvalidering och spelkonfigurationer lämnats i Crowdin. Befintliga översättningar är fortfarande godkända. [Kopia med källtext och kontext](shadps4-sv-review-20261026-page5.json). L10n-lint, svlang, Hunspell-sv och Gitleaks gav inga fynd på satsen.
