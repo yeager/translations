@@ -140,3 +140,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Weblates ”Andra förekomster” visar att ”Preferred Language Processor” har samma källa och kontext i Core och Core 1.2 och är markerad för fortplantning. Båda visar ännu ”Föredragen språkprocessor”; den föreslagna termen ”Föredragen språkhanterare” finns endast i det ej uppladdade Core 1.2-utkastet. Kontrollera båda versionerna efter uppladdning.
 
 2026-10-26: Weblate visar ”Data Sources [%s]” med samma kontext i båda Core-versionerna och en separat källvariant med blanksteg innanför hakparenteserna, också i båda versionerna. Den andra varianten lades till i Core 1.2-utkastet så båda får samma svenska format. De sex utkastsposterna är inte uppladdade. msgfmt och l10n-lint passerade.
+
+2026-10-26: Två texter om Aggregate Template i Core 1.2 har anpassats i utkastet till arbetslistans ”mall för aggregerad graf”. De aktuella översättningarna kontrollerades i Weblate före ändringen. Utkastet innehåller åtta poster och är inte uppladdat. msgfmt och l10n-lint passerade; Hunspell flaggade ”grafmallen.”.
