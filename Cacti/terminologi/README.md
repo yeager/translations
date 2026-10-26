@@ -257,3 +257,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: Syslog: tio rubriker och rapporttexter rättades; Weblate bekräftade tio uppdateringar. msgfmt passerade före uppladdning, l10n-lint gav endast informationsnoteringar om källans pluralparenteser och Hunspell flaggade Syslog-sammansättningar. Weblates Git-HEAD var fortfarande b8134bfd vid kontrollen; vidare upstream-överföring är inte verifierad.
 
 - 2026-10-26: Flowview: åtta texter om frågor, DNS och rutter rättades; Weblate bekräftade åtta uppdaterade. msgfmt och l10n-lint passerade, Hunspell flaggade tekniska namn. Hela komponentens fortsatta radgranskning återstår.
+
+2026-10-26: Flowview fick 12 korrigeringar för bland annat UDP-kö, aviseringslistor, in- och utgående gränssnitt och rapportfilter. Weblate bekräftade 12 uppdaterade och 0 saknade strängar. Delade strängar för graftyp och grafhöjd behölls. msgfmt, l10n-lint, svlangs skrivregler och Hunspell passerade. Weblates tidigare observerade fördröjning mellan redigeringsvyn och PO-exporten innebär att publicering till källförrådet behöver verifieras separat.
