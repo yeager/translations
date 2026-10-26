@@ -19,3 +19,10 @@ Tidigare granskning och kontrollresultat gäller de ursprungliga kandidatfilerna
 2026-10-26: Förslaget ”Aktivera sida vid sida-bakgrund” för ”Enable tiled background” (sträng 6497133, översättning 16183291) är språkligt svagt och bör inte röstas upp. API-kontroll visar att det bättre förslaget ”Aktivera upprepad bakgrundsbild” redan finns på samma sträng (översättning 16011787, yeagersthlm). Ingen ny översättning eller röst har skickats. Det vid kontrollen högst poängsatta förslaget är ”Aktivera staplad bakgrund”; det är inte verifierat att detta valts i den aktuella exporten. Historiska XLIFF-filer behålls som dokumentation av det som laddades upp.
 
 2026-10-26: Crowdins redigerare visade att ”Aktivera staplad bakgrund” var vald. Försök att spara det befintliga bättre förslaget stoppades av kontrollen för dubblett. Det missvisande förslaget har därefter röstats ned av yeagersthlm; API-kontroll bekräftar rösten och att både detta förslag och ”Aktivera upprepad bakgrundsbild” nu har poäng 0. Det är inte verifierat vilket förslag Crowdin väljer vid lika poäng. Under kontrollen gavs först en oavsiktlig uppåtröst till det tidigare valda förslaget; den togs bort innan nedåtrösten lades.
+
+2026-10-27: Ett tredje läsande urval om 20 godkända avvikelser har granskats
+och arkiverats i `approved-differences-sample-03-20261027.md`. En felkopplad
+kandidat upptäcktes för sträng 6606469: måltexten beskriver en SVG-exportstil
+fast källan gäller ett objekt utan giltig begränsningsruta. Kandidaten får inte
+återanvändas; den föreslagna rättelsen ska först jämföras med den aktuellt
+valda Crowdin-översättningen. Övriga nitton poster är rimliga i sin kontext.
