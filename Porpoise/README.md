@@ -87,3 +87,9 @@ av- och påknappar, sökstatus, layoutnamn, filvägsetikett och WiiConnect24.
 JSON, nycklar, platsmarkörer, C++-tabellen, diff och Gitleaks passerade igen.
 Den aktuella arkivkopian har SHA-256
 `bea368301ac7afe134259f264fb9e3912822c79fa1a06bdd5bc4506809ba8e5f`.
+
+Ett sjunde häfte skrev om tre längre instruktioner om jailbreak och appens
+sandlåda. Tekniska namn, filer och sökvägar behölls oförändrade. JSON,
+nycklar, platsmarkörer, tabellgenerering, C++-kompilering, diff och Gitleaks
+passerade. Den aktuella arkivkopian har SHA-256
+`b43eb04bf7f957b50fedb2399fda2a5e0fe07ba8d3697f453d69a160b9345413`.
