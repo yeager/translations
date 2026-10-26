@@ -11,3 +11,5 @@ Vid granskning av kontrollvarningarna avfärdades en legitim återanvändning: �
 Vid fortsatt kontroll avfärdades återanvändningsvarningen för ”Alert” och ”Alerts”, eftersom singular och plural båda heter ”larm” på svenska. Fem ytterligare ändringar skickades upp, bland annat rättad SNMP-community och åtskillnad mellan larm och varning. Weblate rapporterade fem uppdaterade; msgfmt och l10n-lint passerade. Tre kontrollvarningar återstod enligt Weblate.
 
 Fem ytterligare paneltexter rättades och skickades upp, bland annat inläsning och instrumentpanel. Weblate rapporterade fem uppdaterade, inga överhoppade eller saknade. Filen passerade msgfmt och l10n-lint; tre kontrollvarningar om återanvändning kvarstår för granskning.
+
+Fem texter om paneler, trender och tidsintervall förbättrades. Weblate rapporterade fem uppdaterade och inga saknade eller överhoppade. Filen passerade msgfmt och l10n-lint. Kontrollvarningen för Current/Aktuell gäller återanvändning för Up to date och behöver fortsatt bedömas i sitt sammanhang.
