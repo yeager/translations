@@ -136,3 +136,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Core 1.2-utkastet kompletterades med två granskade inställningstexter: ”språkhanterare” används konsekvent med den närliggande hjälptexten och spårningsalternativet beskrivs som avsett för utvecklare. Aktuella måltexter jämfördes i Weblate. Utkastet innehåller fem poster och är inte uppladdat. msgfmt, l10n-lint och Hunspell passerade.
 
 2026-10-26: Källsträngen ”Lock Graph.” finns i Core 1.2 men en direkt kontroll av samma checksumma i Core gav ”Inga strängar hittades”. Överför därför inte just den posten till Core utan ny verifiering; detta säger inget om de övriga fyra utkastsposterna.
+
+2026-10-26: Weblates ”Andra förekomster” visar att ”Preferred Language Processor” har samma källa och kontext i Core och Core 1.2 och är markerad för fortplantning. Båda visar ännu ”Föredragen språkprocessor”; den föreslagna termen ”Föredragen språkhanterare” finns endast i det ej uppladdade Core 1.2-utkastet. Kontrollera båda versionerna efter uppladdning.
