@@ -8,13 +8,15 @@ Arbetslista för alla Cacti-komponenter. Tillämpa orden efter sammanhang och ä
 | host | värd | En dator eller annan värd; skilj från enhet om källtexten gör det. |
 | data source | datakälla | |
 | data retention | lagringstid | När inställningen anger hur länge data behålls; skilj från allmän datalagring. |
-| data collector | datainsamlare | En värd eller tjänst som samlar in data. |
-| poller | datainsamlare, insamlingsprocess | Använd datainsamlare för en nod som tilldelas enheter, insamlingsprocess för den process som hämtar data. Cacti använder även remote poller om en fjärransluten datainsamlare. |
-| polling | datainsamling, insamling | Välj efter sammanhang; insamlingsintervall för polling interval. |
+| collector / data collector | insamlare / datainsamlare | En komponent eller nod som samlar in data. Använd datainsamlare när sammanhanget behöver förtydligas. |
+| poller | datainsamlare, insamlingsprocess | Använd datainsamlare för en nod som tilldelas enheter och insamlingsprocess när själva processen avses. En poller hämtar vanligtvis data genom återkommande förfrågningar. |
+| remote poller | fjärransluten datainsamlare | En datainsamlare på en annan värd. |
+| polling | datainsamling, insamling | Välj efter sammanhang; insamlingsintervall för polling interval. Använd avfrågning när det är själva förfrågan till en enhet som avses. |
+| aggregate (verb) / aggregation | aggregera / aggregering | Att sammanställa värden eller grafer till en helhet; grafaggregering för processen. |
 | graph | graf | I Cactis övervakningsgränssnitt; diagram kan vara naturligare för andra visualiseringar. |
 | aggregate graph | aggregerad graf | En graf som kombinerar flera grafer; grafaggregering beskriver processen. |
 | graph template | grafmall | |
-| aggregate template | aggregatmall | Mall för en aggregerad graf. |
+| aggregate template | mall för aggregerad graf | Använd en kortare form om utrymmet kräver det och sammanhanget är tydligt. |
 | alert | larm | En utlöst larmhändelse; alerts kan översättas med larm. |
 | warning | varning | Skilj från larm när källtexten gör det. |
 | criticality | kritikalitet | Enhetens prioritet eller betydelse för övervakningen. |
@@ -106,3 +108,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: SNMP-hjälpen i Thold kompletterades med saknade enhets- och datafrågevariabler; samtliga variabelbindningar jämfördes med källan. Källkoden visar att ”Eternal ID” avser fältet external_id och etiketten External ID; översättningen är därför ”externt ID”. Weblate bekräftade tre uppdateringar. msgfmt och l10n-lint passerade; Hunspell flaggade den tekniska sammansättningen SNMP-aviseringar.
 
 2026-10-26: Elva strängar om Tholds mallar och historik rättades; bekräftelserna för aktivering och inaktivering nämner nu både mallar och tröskelvärden, och överträdelser beskrivs utan att enbart anta överskridande. Weblate bekräftade 11 uppdateringar utan bortfall; msgfmt, l10n-lint och Hunspell passerade.
+
+2026-10-26: Ordlistan förtydligar att collector kan vara insamlare, medan poller som nod är datainsamlare och som körande process kan vara insamlingsprocess. Aggregering betecknar sammanställningen och aggregerad graf resultatet. Termval ska kontrolleras mot varje strängs sammanhang; ingen fullständig komponentgranskning följer av denna ordlisteändring.
