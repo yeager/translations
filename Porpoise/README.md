@@ -32,3 +32,7 @@ konfiguration, korrigeringsfiler, ljudlucka och Wii NAND-säkerhetskopior.
 Den genererade i18n-tabellen byggdes om och katalogkontrollen bekräftar
 fortfarande 1 803 av 1 803 strängar. Resterande längre hjälprader granskas
 separat innan en uppströms-PR skapas.
+
+Samma granskningsomgång rättade även ordval för sparfiler och spartillstånd i
+GameCube- och Wii-flödena. Kontrollkedjan omfattade JSON-tolkning,
+`make-i18n.py --check`, diffkontroll och Gitleaks.
