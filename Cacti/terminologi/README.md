@@ -166,3 +166,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Sju återanvändningskontroller i Core 1.2 avfärdades efter jämförelse: två likvärdiga meddelanden om slutförd automatisering, anslutningens tidsgräns, borttagningsmetod, ersättningsmönster, MB samt grafobjekt i singular och plural. Weblate visar därefter 27 strängar med aktiva kontrollvarningar.
 
 2026-10-26: Nio återanvändningskontroller i Core 1.2 granskades och avfärdades för motsvarande texter om mallborttagning, lyckad åtgärd, grafträd, misslyckad autentisering, paket, skript, platsens delstat eller region samt filnamn. Weblate visar därefter 18 strängar med aktiva kontroller.
+
+2026-10-26: RRD-filernas åtgärd ”Archive” rättades till ”Arkivera” i Core 1.2. Uppladdningen uppdaterade en sträng och ändringen fortplantades till Core; sammanhanget verifierades i rrdcleaner.php.
