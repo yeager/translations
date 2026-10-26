@@ -61,3 +61,5 @@ Korrigering: Efter kontroll av lib/functions.php, där texten följer ”Pingres
 Fem texter om aggregatgrafer, mallar och regler rättades efter kontroll av global_form.php och aggregate_graphs.php. Weblate bekräftade fem uppdateringar, inga saknade. msgfmt och l10n-lint gav inga fel; svlang, Hunspell och Gitleaks användes. Den otydliga engelska mallbeskrivningen återstår att utreda.
 
 Den tidigare otydliga mallbeskrivningen har utretts mot aggregate_graphs.php och api_aggregate.php: aktiv mallärvning gör att inställningar hämtas från mallen. Översättningen ”Ska grafen ärva inställningarna från mallen?” skickades; Weblate bekräftade en uppdatering. msgfmt, l10n-lint, svlang, Hunspell och Gitleaks passerade.
+
+Datafrågeterminologi granskad i aktuell export: 16 texter rättades och skickades; Weblate bekräftade 16 uppdateringar utan saknade. msgfmt och l10n-lint gav inga fel, med en avsiktlig slutpunktsvarning. svlang, Hunspell och Gitleaks kördes; tekniska termer och filnamn granskades.
