@@ -74,3 +74,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: ”Connection timeout” i Routerconfigs avser väntetiden vid nätverksanslutning till en enhet (includes/arrays.php). Core 1.2:s ”Connect Timeout” avser motsvarande tidsgräns för LDAP-anslutning (include/global_settings.php). ”Tidsgräns för anslutning” passar båda inställningarna; återanvändningskontrollen avfärdades i Weblate.
 
 2026-10-26: Aktuella Weblate-exporter av Routerconfigs och Core jämfördes per källtext och kontext. Samtliga 54 gemensamma poster med singularöversättning överensstämde; jämförelsen omfattade inga pluralposter och bevisar inte att unika eller sammansatta termer är enhetliga.
+
+2026-10-26: Ett försök att importera fem termändringar från Core 1.2 till Core gav 0 uppdaterade och 5 ej hittade strängar i Weblate. Förslaget sparas som cacti-core-termer-20261026-not-imported.po; strängarnas aktuella status måste utredas innan nytt importförsök. msgfmt, l10n-lint och Hunspell passerade.
