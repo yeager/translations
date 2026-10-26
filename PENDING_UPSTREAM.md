@@ -4,6 +4,7 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
 
 - **sK1:** Det svenska utkastet är inte inskickat. Bekräfta att senaste utgåvan uppfyller 48-månaderskravet innan arbetet fortsätter. Se [sK1-status](sK1/STATUS.md).
 - **FreeCAD:** Fyra dolda strängar (194951, 176822, 177244 och 2593990) saknade de inskickade svenska förslagen vid API-kontrollen. Se [importkontrollen](FreeCAD/freecad-crowdin-import-20261026.md). Övriga inskickade förslag är inte nödvändigtvis valda eller godkända.
+- **FreeCAD och FreeCAD-addons:** De senare granskningsfilerna med 867 respektive 12 förslag har ännu inte verifierats som uppladdade. Systemets filväljare kunde inte styras i den inbyggda webbläsaren. Se [status och filer](FreeCAD/review-20261026/STATUS.md). Dessa är separata från den tidigare FreeCAD-importen ovan.
 
 Senast kontrollerades även:
 
