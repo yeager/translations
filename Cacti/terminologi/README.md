@@ -36,6 +36,7 @@ Arbetslista för alla Cacti-komponenter. Tillämpa orden efter sammanhang och ä
 | heartbeat | hjärtslag, hjärtslagsintervall | I RRD-datakällor avser det ett tidsintervall; för en insamlingsprocess kan det avse själva livstecknet. En gemensam källsträng kan användas i flera sammanhang och ska inte ändras mekaniskt. |
 | poller cache | insamlarens cache | Ändra vid behov till insamlingsprocessens cache om det tekniska sammanhanget kräver åtskillnad. |
 | enabled / disabled | aktiverad / inaktiverad | |
+| utilities | verktyg | För menyn med verktygsfunktioner. |
 | delete | ta bort | För gränssnittets åtgärd. |
 
 Underlag: Cactis [funktionsbeskrivning](https://docs.cacti.net/Principles-of-Operation.md) och [dokumentation om datainsamlare](https://docs.cacti.net/Data-Collectors.md), befintliga översättningar och källkod. En första inventering 2026-10-26 hittade lokala exporter för 18 komponenter. Bland fristående strängar förekommer både ”graf” och ”diagram” för graph samt ”insamlare” och ”poller” för poller. Dessa skillnader kräver kontroll mot aktuell Weblate-export och sammanhang innan de ändras. Övriga komponenter och alla sammansatta termer återstår att inventera.
@@ -85,3 +86,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Core ”Replacement Pattern” och Core 1.2 ”Replace Pattern” avser samma fält, replace_pattern, i inställningsformulär respektive regellista. ”Ersättningsmönster” är därför konsekvent; återanvändningskontrollen avfärdades i Weblate. Källkod: include/global_form.php och lib/api_automation.php.
 
 2026-10-26: Syslogs ”Data Retention Settings” ändrades till ”Inställningar för lagringstid” efter kontroll av inställningens innehåll. Weblate bekräftade en uppdatering utan bortfall; msgfmt, l10n-lint och Hunspell passerade.
+
+2026-10-26: Den tidigare inventeringens skillnad för ”Utilities” är inaktuell: Weblate visar nu ”Verktyg” i Audit, Gexport, Routerconfigs, WMI och båda Core-versionerna. Den gemensamma termen har lagts till i listan. Tholds meddelande om systemets availability använder ”systemtillgänglighet”; detta bekräftar termen i meddelandet men inte samtliga förekomster i komponenten.
