@@ -19,3 +19,5 @@ På sjunde sidan har tre Crowdin-förslag lämnats för startmenyn, rapportkontr
 På åttonde sidan har åtta förslag lämnats för snabbtangenter, kontroller och skärmbilder. Tidigare översättningar är fortfarande godkända. [Kopia med kontext](shadps4-sv-review-20261026-page8.json). L10n-lint och svlang gav inga fynd. Hunspell markerade den giltiga sammansättningen ”emulatorinställningar”. Gitleaks gav inga fynd i kopian.
 
 På nionde sidan har tre förslag lämnats för konsekventa knappbindningstexter och en saknad artikel. De tidigare översättningarna är godkända. [Kopia med kontext och radbrytningar](shadps4-sv-review-20261026-page9.json). L10n-lint, svlang, Hunspell-sv och Gitleaks gav inga fynd på satsen.
+
+På tionde sidan har fyra förslag lämnats för spelbibliotek och hämtning av fusk och patchar. Tidigare översättningar är fortfarande godkända. [Kopia med kontext](shadps4-sv-review-20261026-page10.json). L10n-lint, svlang, Hunspell-sv och Gitleaks gav inga fynd på satsen.
