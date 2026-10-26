@@ -164,3 +164,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Fyra punktkontroller i Core 1.2 granskades och avfärdades: översättningarna om XML-filer, avinstallation, borttagning av användargrupper och rrdcheck är fullständiga svenska meningar med slutpunkt. Weblate visar därefter 34 strängar med aktiva kontrollvarningar, samtliga av typen återanvänd översättning.
 
 2026-10-26: Sju återanvändningskontroller i Core 1.2 avfärdades efter jämförelse: två likvärdiga meddelanden om slutförd automatisering, anslutningens tidsgräns, borttagningsmetod, ersättningsmönster, MB samt grafobjekt i singular och plural. Weblate visar därefter 27 strängar med aktiva kontrollvarningar.
+
+2026-10-26: Nio återanvändningskontroller i Core 1.2 granskades och avfärdades för motsvarande texter om mallborttagning, lyckad åtgärd, grafträd, misslyckad autentisering, paket, skript, platsens delstat eller region samt filnamn. Weblate visar därefter 18 strängar med aktiva kontroller.
