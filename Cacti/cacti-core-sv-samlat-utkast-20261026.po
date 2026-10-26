@@ -69,3 +69,67 @@ msgstr "Klicka på ”Fortsätt” för att skicka följande rapport nu."
 #: lib/html_reports.php:572
 msgid "Click 'Continue' to Send the following Reports now."
 msgstr "Klicka på ”Fortsätt” för att skicka följande rapporter nu."
+
+#: lib/installer.php:2264 lib/installer.php:2317
+msgid "New Remote Poller"
+msgstr "Ny fjärransluten datainsamlare"
+
+#: lib/installer.php:2264
+msgid ""
+"Remote Pollers are used to access networks that are not readily accessible "
+"to the Primary site."
+msgstr ""
+"Fjärranslutna datainsamlare används för att nå nätverk som den primära "
+"platsen inte har direkt åtkomst till."
+
+#: lib/installer.php:2351
+msgid ""
+"Your config.php file must be writable by the web server during install in "
+"order to configure the Remote poller.  Once installation is complete, you "
+"must set this file to Read Only to prevent possible security issues."
+msgstr ""
+"Webbservern måste kunna skriva till config.php under installationen för att "
+"konfigurera den fjärranslutna datainsamlaren. När installationen är klar "
+"måste du skrivskydda filen för att förhindra säkerhetsproblem."
+
+#: lib/installer.php:2356
+msgid ""
+"Your Remote Cacti Poller information has not been included in your "
+"config.php file.  Please review the config.php.dist, and set the variables: "
+"<i>$rdatabase_default, $rdatabase_username</i>, etc.  These variables must "
+"be set and point back to your Primary Cacti database server.  Correct this "
+"and try again."
+msgstr ""
+"Informationen om Cactis fjärranslutna datainsamlare saknas i config.php. "
+"Granska config.php.dist och ställ in variablerna <i>$rdatabase_default, "
+"$rdatabase_username</i> med flera. Variablerna måste vara inställda och peka"
+" på den primära Cacti-databasservern. Rätta detta och försök igen."
+
+#: lib/installer.php:2360
+msgid "Remote Poller Variables"
+msgstr "Variabler för fjärranslutna datainsamlare"
+
+#: lib/installer.php:2381
+msgid ""
+"It is essential that the Central Cacti server can communicate via MySQL to "
+"each remote Cacti database server.  Once the install is complete, you must "
+"edit the Remote Data Collector and ensure the settings are correct.  You can"
+" verify using the 'Test Connection' when editing the Remote Data Collector."
+msgstr ""
+"Det är viktigt att den centrala Cacti-servern kan kommunicera via MySQL med "
+"varje fjärransluten Cacti-databasserver. När installationen är klar måste du"
+" redigera den fjärranslutna datainsamlaren och kontrollera inställningarna. "
+"Du kan använda ”Testa anslutning” när du redigerar den fjärranslutna "
+"datainsamlaren."
+
+#: lib/installer.php:2494
+msgid ""
+"For remote pollers, it is critical that the paths that you will be updating "
+"frequently, including the plugins, scripts, and resources paths have "
+"read/write access as the data collector will have to update these paths from"
+" the main web server content."
+msgstr ""
+"För fjärranslutna datainsamlare är det viktigt att sökvägar som uppdateras "
+"ofta, inklusive sökvägarna för insticksmoduler, skript och resurser, har "
+"läs- och skrivbehörighet. Datainsamlaren behöver uppdatera innehållet från "
+"den primära webbservern."
