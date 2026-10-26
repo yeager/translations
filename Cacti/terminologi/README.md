@@ -612,3 +612,5 @@ Weblates 55 strängar granskades mot källtexterna och tidigare säkerhetskopior
 2026-10-26: Två hjälptexter om SNMP och synkronisering i core anpassades till termen datainsamlare. Weblate bekräftade två uppdateringar utan bortfall. Ändringsfilen `cacti-core-synk-snmp-20261026.po` klarade msgfmt, l10n-lint, svlang, hunspell-sv och Gitleaks.
 
 2026-10-26: Den gemensamma rubriken ”Poller” i core ändrades till ”Datainsamlare” efter kontroll av användningsplatserna. Weblate bekräftade en uppdatering. Sju andra kandidater var redan uppdaterade. Ändringsfilen `cacti-core-poller-rubrik-20261026.po` klarade msgfmt, l10n-lint, svlang, hunspell-sv och Gitleaks.
+
+2026-10-26: En ny Core-export jämfördes med den tidigare kandidaten på 732 poster efter ett uppladdningsförsök utan kvitto. 656 poster matchar kandidatens samtliga översättningsformer; 76 skiljer sig och inga saknas. Avvikelserna inkluderar senare terminologirättelser och får inte skrivas över utan ny bedömning. Detta visar aktuellt innehåll, men bevisar inte hur många poster som den tidigare uppladdningen ändrade. Underlag: `core-kontroll-20261026/core-aktuell.po` och `jamforelse.tsv`.
