@@ -49,3 +49,5 @@ Fem status- och inställningstexter rättades. Fail kontrollerades mot användni
 Fyra databas- och installationstexter rättades, inklusive variabelnamnet $rdatabase_username. Weblate bekräftade 4 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
 
 Fem texter om grafer, datakällor, loggning och installation rättades. Weblate bekräftade 5 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
+
+- Weblate: fem ändringar för fjärrinsamling och insticksmoduler uppladdade 2026-10-26; fem uppdaterade, inga saknades. Jämför gemensamma källsträngar och sammanhang med core innan ändringar återanvänds.
