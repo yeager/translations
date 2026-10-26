@@ -25,3 +25,5 @@ Kompletterande verktygskontroll 2026-10-26: den svenska Hunspell-ordlistan fanns
 2026-10-26: Granskade och avfärdade åtta punktvarningar, bland annat för loggdetaljer, XML-fel och en saknad inkluderingsfil. De svenska meningarna ska avslutas med punkt; tekniska identifierare och platshållare bevarades. Weblate visade därefter 161 strängar med kontroller: 19 punktvarningar och 142 återanvändningsvarningar. Ingen översättningstext ändrades vid denna granskning.
 
 2026-10-26: Granskade nio punktvarningar till och avfärdade dem. Svenska meningar avslutas korrekt med punkt även om källan saknar punkt; versions- och filnamnsplatshållare har kontrollerats mot källan. Weblate visade därefter 152 strängar med kontroller: 10 punktvarningar och 142 återanvändningsvarningar. Ingen översättningstext ändrades.
+
+2026-10-26: Granskade de tio återstående punktvarningarna och avfärdade dem. Svenska hela meningar har korrekt slutpunkt; policytexternas HTML och skillnaderna mellan behörighetsvillkor har kontrollerats mot källorna. Weblate visade därefter inga punktvarningar och 142 strängar med återanvändningsvarning. Ingen översättningstext ändrades.
