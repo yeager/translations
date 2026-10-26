@@ -15,3 +15,5 @@ Tio ytterligare terminologirättelser skickades via webbläsaren. Weblate bekrä
 Granskning av Weblates skiljeteckenskontroller: alla 21 träffar för slutpunkt och alla 5 för frågetecken undersöktes i bläddringsvyn. Avvikelserna gäller kompletta svenska meningar där källan saknar punkt eller frågor där källan har punkt/utropstecken. Svenska skiljetecken behålls; dessa kontrollvarningar behöver inte innebära översättningsfel. Övriga kontrollkategorier återstår.
 
 Fyra cache- och loggtexter skickades via webbläsaren och Weblate bekräftade fyra uppdaterade. En upprepning i cachetexten rättades sedan direkt i Weblate. Den senaste versionen finns i cachefilen. De fem varningarna om oförändrad översättning avser en logisk operation, funktionsnamnen AutoM8, Boost och Spine samt SNMP-community; de har bedömts i sitt sammanhang.
+
+Två licenstexter och en knapphänvisning rättades och skickades via webbläsaren. Weblate bekräftade 3 uppdaterade, 0 överhoppade och 0 saknade. PO-filen klarade msgfmt --check --check-format. Granskningen av återanvändningsvarningar återstår.
