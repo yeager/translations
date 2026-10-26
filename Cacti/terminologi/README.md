@@ -162,3 +162,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Fem pluralvarningar för att ta bort, aktivera och inaktivera datainsamlare i Core 1.2 granskades och avfärdades i Weblate. ”Datainsamlare” har samma obestämda form i singular och plural. Weblate visar därefter 38 strängar med aktiva kontrollvarningar, varav ingen gäller identiska pluralformer.
 
 2026-10-26: Fyra punktkontroller i Core 1.2 granskades och avfärdades: översättningarna om XML-filer, avinstallation, borttagning av användargrupper och rrdcheck är fullständiga svenska meningar med slutpunkt. Weblate visar därefter 34 strängar med aktiva kontrollvarningar, samtliga av typen återanvänd översättning.
+
+2026-10-26: Sju återanvändningskontroller i Core 1.2 avfärdades efter jämförelse: två likvärdiga meddelanden om slutförd automatisering, anslutningens tidsgräns, borttagningsmetod, ersättningsmönster, MB samt grafobjekt i singular och plural. Weblate visar därefter 27 strängar med aktiva kontrollvarningar.
