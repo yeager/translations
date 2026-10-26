@@ -114,3 +114,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Tre poster lades till i [Cactis gemensamma ordlista i Weblate](https://translate.cacti.net/browse/cacti/glossary/sv/) och kontrollerades efter omladdning: aggregate graph → aggregerad graf, collector → insamlare och poller → datainsamlare. Posterna innehåller även förklaringar om sammanhanget.
 
 2026-10-26: Ytterligare tre poster verifierades i Weblates ordlista: threshold → tröskelvärde (gränsvärde som utlöser en varning eller ett larm; tröskel kan användas om funktionen), data source → datakälla (källa till mätvärden som Cacti samlar in och lagrar) samt graph template → grafmall (mall som styr hur en graf skapas och presenteras). Övriga termer i arbetslistan har ännu inte lagts in i Weblates ordlista.
+
+2026-10-26: Weblates ordlista kompletterades med polling → datainsamling (avfrågning när själva förfrågan avses), availability → tillgänglighet (om en enhet eller tjänst är tillgänglig) och device → enhet (övervakad enhet). Samtliga tre kontrollerades i ordlistan efter inläsning.
