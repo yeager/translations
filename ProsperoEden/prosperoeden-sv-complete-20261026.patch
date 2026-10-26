@@ -1,0 +1,216 @@
+diff --git a/headless/prosperoeden/ui/lang/sv-SE.po b/headless/prosperoeden/ui/lang/sv-SE.po
+index 745dd07..a324976 100644
+--- a/headless/prosperoeden/ui/lang/sv-SE.po
++++ b/headless/prosperoeden/ui/lang/sv-SE.po
+@@ -298,7 +298,7 @@ msgstr "Välj språket som spelen använder"
+ msgid "Circle"
+ msgstr "Cirkel"
+ 
+-#: pe/ui/remote.cpp, pe/ui/update.cpp
++#: pe/ui/launcher.cpp, pe/ui/remote.cpp, pe/ui/update.cpp
+ msgid "Close"
+ msgstr "Stäng"
+ 
+@@ -344,7 +344,7 @@ msgstr "Anslutningen misslyckades"
+ msgid "Connection problem"
+ msgstr "Anslutningsproblem"
+ 
+-#: pe/ui/library.cpp
++#: pe/ui/home.cpp, pe/ui/library.cpp
+ msgid "Console mode"
+ msgstr "Konsolläge"
+ 
+@@ -400,7 +400,7 @@ msgstr "Kunde inte spara inställningarna. Försök igen."
+ msgid "Could not save the folder. Please try again."
+ msgstr "Kunde inte spara mappen. Försök igen."
+ 
+-#: pe/ui/browse.cpp, pe/ui/game_options.cpp, pe/ui/library.cpp, pe/ui/profiles.cpp
++#: pe/ui/browse.cpp, pe/ui/game_options.cpp, pe/ui/home.cpp, pe/ui/library.cpp, pe/ui/profiles.cpp
+ msgid "Could not save. Please try again."
+ msgstr "Kunde inte spara. Försök igen."
+ 
+@@ -416,6 +416,10 @@ msgstr "CPU"
+ msgid "CPU by core"
+ msgstr "CPU per kärna"
+ 
++#: pe/ui/settings.cpp
++msgid "Crash reports (FTP): {0}\nAttach crash-*.txt and its matching logs to your issue."
++msgstr "Kraschrapporter (FTP): {0}\nBifoga crash-*.txt och tillhörande loggar till din felrapport."
++
+ #. The DualSense button labelled CREATE: keep the label if the language's players do.
+ #: pe/ui/game_options.cpp
+ msgid "Create"
+@@ -490,7 +494,7 @@ msgid "Diagnostics"
+ msgstr "Diagnostik"
+ 
+ #. Console mode: the console as if connected to a TV. Keep it short (about 9 letters).
+-#: pe/ui/library.cpp, pe/ui/shell.cpp
++#: pe/ui/home.cpp, pe/ui/library.cpp, pe/ui/shell.cpp
+ msgid "Docked"
+ msgstr "Dockat"
+ 
+@@ -676,7 +680,7 @@ msgid "FOLDERS"
+ msgstr "MAPPAR"
+ 
+ #. A kind of setting that this game takes from the launcher's Settings menu.
+-#: pe/ui/library.cpp
++#: pe/ui/home.cpp, pe/ui/library.cpp
+ msgid "Follows Settings"
+ msgstr "Följer Inställningar"
+ 
+@@ -692,6 +696,10 @@ msgstr "FPS"
+ msgid "FPS overlay"
+ msgstr "FPS-räknare"
+ 
++#: pe/ui/game_options.cpp, pe/ui/settings.cpp
++msgid "Frame gen method"
++msgstr "Metod för bildgenerering"
++
+ #: pe/ui/game_options.cpp, pe/ui/settings.cpp
+ msgid "Frame gen multiplier"
+ msgstr "Multiplikator för bildgenerering"
+@@ -708,6 +716,10 @@ msgstr "Bildgenerering"
+ msgid "Frame generation needs Lossless.dll, from Lossless Scaling, in the lossless folder."
+ msgstr "Bildgenerering kräver Lossless.dll från Lossless Scaling i mappen lossless."
+ 
++#: pe/ui/settings.cpp
++msgid "Frame generation needs MihawkGen weights (network.fgw)."
++msgstr "Bildgenerering kräver MihawkGen-vikter (network.fgw)."
++
+ #: pe/ui/settings.cpp
+ msgid "Frame time"
+ msgstr "Bildtid"
+@@ -747,7 +759,7 @@ msgstr "Spelet kan inte starta nu."
+ msgid "Game could not start: {0} Details: {1}"
+ msgstr "Spelet kunde inte startas: {0} Detaljer: {1}"
+ 
+-#: pe/ui/library.cpp
++#: pe/ui/home.cpp, pe/ui/library.cpp
+ msgid "GAME DETAILS"
+ msgstr "SPELDETALJER"
+ 
+@@ -755,7 +767,7 @@ msgstr "SPELDETALJER"
+ msgid "Game files"
+ msgstr "Spelfiler"
+ 
+-#: pe/ui/home.cpp, pe/ui/library.cpp
++#: pe/ui/game_options.cpp, pe/ui/home.cpp, pe/ui/library.cpp
+ msgid "Game settings"
+ msgstr "Spelinställningar"
+ 
+@@ -812,7 +824,7 @@ msgid "Graphics backend initialization failed. Try another backend in Settings;
+ msgstr "Renderaren kunde inte initieras. Prova en annan i Inställningar; drivrutinsdetaljer finns i stderr.log och eden_log.txt."
+ 
+ #. Console mode: the console as if held in the hands. Keep it short (about 9 letters).
+-#: pe/ui/game_options.cpp, pe/ui/library.cpp, pe/ui/shell.cpp
++#: pe/ui/game_options.cpp, pe/ui/home.cpp, pe/ui/library.cpp, pe/ui/shell.cpp
+ msgid "Handheld"
+ msgstr "Bärbart"
+ 
+@@ -822,7 +834,7 @@ msgid "High contrast"
+ msgstr "Hög kontrast"
+ 
+ #. The menu's first section, its opening screen (not a house, and not the PS5's own home screen).
+-#: pe/ui/shell.cpp
++#: pe/ui/browse.cpp, pe/ui/library.cpp, pe/ui/multiplayer.cpp, pe/ui/settings.cpp, pe/ui/shell.cpp
+ msgid "Home"
+ msgstr "Hem"
+ 
+@@ -1051,7 +1063,7 @@ msgid "MODS"
+ msgstr "MODDAR"
+ 
+ #. Changes to a game that the player added: patches, replaced files, cheats. Keep the word 'mod' if the language uses it.
+-#: pe/ui/library.cpp
++#: pe/ui/home.cpp, pe/ui/library.cpp
+ msgid "Mods"
+ msgstr "Moddar"
+ 
+@@ -1136,7 +1148,7 @@ msgid "No folders here."
+ msgstr "Inga mappar här."
+ 
+ #. Shown on the Mods row of a game that has none.
+-#: pe/ui/library.cpp
++#: pe/ui/home.cpp, pe/ui/library.cpp
+ msgid "No mods"
+ msgstr "Inga moddar"
+ 
+@@ -1152,7 +1164,7 @@ msgstr "Inga offentliga rum är tillgängliga."
+ msgid "No ROM files found."
+ msgstr "Inga ROM-filer hittades."
+ 
+-#: pe/ui/library.cpp
++#: pe/ui/home.cpp, pe/ui/library.cpp
+ msgid "No ROM selected"
+ msgstr "Ingen ROM vald"
+ 
+@@ -1169,7 +1181,7 @@ msgid "Nobody approved the code in time."
+ msgstr "Ingen godkände koden i tid."
+ 
+ #. No add-ons (updates or DLC).
+-#: pe/ui/library.cpp
++#: pe/ui/library.cpp, pe/ui/settings.cpp
+ msgid "None"
+ msgstr "Inga"
+ 
+@@ -1207,7 +1219,7 @@ msgid "Nothing to import"
+ msgstr "Inget att importera"
+ 
+ #. A setting that is switched off.
+-#: pe/ui/game_options.cpp, pe/ui/library.cpp, pe/ui/settings.cpp
++#: eden_services.cpp, host/fake_services.cpp, pe/ui/game_options.cpp, pe/ui/home.cpp, pe/ui/library.cpp, pe/ui/settings.cpp
+ msgid "Off"
+ msgstr "Av"
+ 
+@@ -1626,7 +1638,7 @@ msgstr "save-sync.json kan inte läsas ({0}). Inget synkas förrän den har rät
+ msgid "save-sync.json cannot be read: correct it over FTP first."
+ msgstr "save-sync.json kan inte läsas: rätta den via FTP först."
+ 
+-#: pe/ui/game_options.cpp, pe/ui/library.cpp
++#: pe/ui/game_options.cpp, pe/ui/home.cpp, pe/ui/library.cpp
+ msgid "Saved for this game. Applies on next launch."
+ msgstr "Sparat för det här spelet. Gäller från nästa start."
+ 
+@@ -1647,7 +1659,7 @@ msgstr "Sparat. En skärm som inte klarar 120 Hz stannar på 60 Hz."
+ msgid "Saved. Applies the next time ProsperoEden opens."
+ msgstr "Sparat. Gäller nästa gång ProsperoEden öppnas."
+ 
+-#: pe/ui/browse.cpp, pe/ui/launcher.cpp
++#: pe/ui/browse.cpp, pe/ui/launcher.cpp, pe/ui/settings.cpp
+ msgid "Saved. Applies when a game starts."
+ msgstr "Sparat. Gäller när ett spel startar."
+ 
+@@ -2036,7 +2048,7 @@ msgstr "Slå på eller av"
+ msgid "UDP port"
+ msgstr "UDP-port"
+ 
+-#: pe/ui/game_options.cpp, pe/ui/library.cpp, pe/ui/settings.cpp
++#: pe/ui/game_options.cpp, pe/ui/home.cpp, pe/ui/library.cpp, pe/ui/settings.cpp
+ msgid "Unavailable"
+ msgstr "Inte tillgängligt"
+ 
+@@ -2240,7 +2252,7 @@ msgid "Your save data is checked against the server's."
+ msgstr "Dina sparade data jämförs med serverns."
+ 
+ #. How many settings of a kind this game has of its own; {0} is a number.
+-#: pe/ui/library.cpp
++#: pe/ui/home.cpp, pe/ui/library.cpp
+ msgid "{0} changed"
+ msgstr "{0} ändrade"
+ 
+@@ -2314,7 +2326,7 @@ msgid "{0} of {1} mods on"
+ msgstr "{0} av {1} moddar på"
+ 
+ #. How many of a game's mods are switched on: 2 of 3 on.
+-#: pe/ui/library.cpp, pe/ui/settings.cpp
++#: pe/ui/home.cpp, pe/ui/library.cpp, pe/ui/settings.cpp
+ msgid "{0} of {1} on"
+ msgstr "{0} av {1} på"
+ 
+@@ -2352,7 +2364,3 @@ msgstr "{0}/ (NSP eller XCI)"
+ #: pe/ui/browse.cpp
+ msgid "{0}/ (one folder per game ID)"
+ msgstr "{0}/ (en mapp per titel-ID)"
+-
+-#: pe/ui/settings.cpp
+-msgid "Crash reports (FTP): {0}\nAttach crash-*.txt and its matching logs to your issue."
+-msgstr "Kraschrapporter (FTP): {0}\nBifoga crash-*.txt och tillhörande loggar till din felrapport."
