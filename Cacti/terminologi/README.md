@@ -110,3 +110,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Elva strängar om Tholds mallar och historik rättades; bekräftelserna för aktivering och inaktivering nämner nu både mallar och tröskelvärden, och överträdelser beskrivs utan att enbart anta överskridande. Weblate bekräftade 11 uppdateringar utan bortfall; msgfmt, l10n-lint och Hunspell passerade.
 
 2026-10-26: Ordlistan förtydligar att collector kan vara insamlare, medan poller som nod är datainsamlare och som körande process kan vara insamlingsprocess. Aggregering betecknar sammanställningen och aggregerad graf resultatet. Termval ska kontrolleras mot varje strängs sammanhang; ingen fullständig komponentgranskning följer av denna ordlisteändring.
+
+2026-10-26: Tre poster lades till i [Cactis gemensamma ordlista i Weblate](https://translate.cacti.net/browse/cacti/glossary/sv/) och kontrollerades efter omladdning: aggregate graph → aggregerad graf, collector → insamlare och poller → datainsamlare. Posterna innehåller även förklaringar om sammanhanget. Övriga termer i arbetslistan har ännu inte lagts in i Weblates ordlista.
