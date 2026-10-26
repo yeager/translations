@@ -249,3 +249,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: Syslog: 21 rättningar för borttagnings- och rapportregler samt två hjälptexter med HTML och ersättningsvariabler skickades upp; Weblate bekräftade samtliga. msgfmt och l10n-lint passerade; Hunspell flaggade tekniska termer och variabler. Hela exporten har nu gåtts igenom, men ytterligare fynd och kontroll av aktuellt resultat återstår.
 
 - 2026-10-26: Syslog: fyra beskrivningar av fjärrdatainsamlare och larm rättades; Weblate bekräftade fyra uppdateringar. msgfmt och l10n-lint passerade, Hunspell flaggade tekniska namn. OBS: en ny PO-export visade äldre måltexter för tidigare uppladdningar, medan Weblates redigerings-/bläddringsvy visade de nya texterna. Utgå inte från exporten som bevis på aktuell Weblate-status utan jämför mot vyn.
+
+- 2026-10-26: Syslog: sju texter om larm, aviseringslistor och import rättades; Weblate bekräftade sju uppdateringar. msgfmt passerade, l10n-lint gav en granskad kommavarning mellan två huvudsatser och Hunspell flaggade produktnamnet Thold.

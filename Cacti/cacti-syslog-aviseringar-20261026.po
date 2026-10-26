@@ -1,0 +1,74 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2026-10-16 14:29-0400\n"
+"PO-Revision-Date: 2026-10-26 11:54+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.cacti.net/projects/cacti/syslog/sv/>\n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: includes/settings.php
+msgid ""
+"Pipeline health alerts warn when unprocessed messages, processing "
+"completion, or queued synchronization exceed this delay. The effective delay"
+" is at least three poller intervals and 300 seconds. Set to 0 to use 300 "
+"seconds."
+msgstr ""
+"Larm om pipeline-status visas när obearbetade meddelanden, tiden sedan "
+"bearbetningen slutfördes eller synkronisering i kö överskrider denna "
+"fördröjning. Den faktiska fördröjningen är minst tre insamlingsintervall och"
+" 300 sekunder. Ange 0 för att använda 300 sekunder."
+
+#: includes/settings.php
+msgid ""
+"Select an existing Thold notification list for pipeline health alerts. "
+"Enabled list recipients are combined with the email addresses below, "
+"preserving BCC recipients. Lists require the Thold notification-list table."
+msgstr ""
+"Välj en befintlig aviseringslista i Thold för larm om pipeline-status. "
+"Mottagare i aktiverade listor kombineras med e-postadresserna nedan, och "
+"mottagare av dolda kopior behålls. Listor kräver Tholds tabell för "
+"aviseringslistor."
+
+#: syslog_alerts.php
+msgid ""
+"Should a Help Desk Ticket be opened for this Alert.  NOTE: The Ticket "
+"command script will be populated with several 'ALERT_' environment variables"
+" for convenience."
+msgstr ""
+"Ange om ett supportärende ska öppnas för larmet. OBS: Skriptet för "
+"ärendekommandot får tillgång till flera miljövariabler med prefixet "
+"'ALERT_'."
+
+#: syslog_alerts.php
+msgid ""
+"If the XML file containing the Alert Rule definition data is located on your"
+" local machine, select it here."
+msgstr ""
+"Välj XML-filen med larmregelns definition här om den finns på din lokala "
+"dator."
+
+#: syslog_alerts.php
+msgid ""
+"If you have the XML file containing the Alert Ruledefinition data as text, "
+"you can paste it into this box to import it."
+msgstr ""
+"Om du har XML-filen med larmregelns definition som text kan du klistra in "
+"den här för att importera den."
+
+#: syslog_alerts.php
+#, php-format
+msgid "NOTE: Alert '%s' %s!"
+msgstr "OBS: Larm '%s' %s!"
+
+#: syslog_alerts.php
+#, php-format
+msgid "ERROR: Alert '%s' %s Failed!"
+msgstr "FEL: Larm '%s' %s misslyckades!"
