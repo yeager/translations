@@ -602,3 +602,5 @@ Weblates 55 strängar granskades mot källtexterna och tidigare säkerhetskopior
 2026-10-26: Fem hjälp- och feltexter i core anpassades till termen datainsamlare. Weblate bekräftade fem uppdateringar; ändringarna finns i `cacti-core-diagnostik-installningar-20261026.po`.
 
 2026-10-26: Fem DNS-, resurscache- och Boost-texter i core anpassades till termen datainsamlare. Weblate bekräftade fem uppdateringar; ändringarna finns i `cacti-core-dns-resurscache-20261026.po`. L10n-lint markerade två befintliga skillnader i slutskiljetecken; svensk punkt respektive frågetecken behölls eftersom formuleringarna är hela meningar och den sista är en fråga.
+
+2026-10-26: Fyra hjälptexter om säkerhet, minne och varningar i core anpassades till termen datainsamlare. Weblate bekräftade fyra uppdateringar; ändringarna finns i `cacti-core-sakerhet-minne-20261026.po`.
