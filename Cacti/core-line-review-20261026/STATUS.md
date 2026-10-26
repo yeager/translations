@@ -45,3 +45,5 @@ Kompletterande verktygskontroll 2026-10-26: den svenska Hunspell-ordlistan fanns
 2026-10-26: Sex ytterligare kontroller granskades och avfärdades. Källkoden visar felsökningssammanhanget för Debugging, samma dialog för borttagning av datainmatningsfält och användningen av datafrågor; övriga gäller likvärdiga uttryck för rader, år och insamlingsintervall. Inga svenska texter ändrades. Weblate visade 97 återstående kontroller.
 
 2026-10-26: Sex kontroller avfärdades efter jämförelse av datakällans namn, aggregat, mallar och GPRINT-förinställningar. Källkoden visar att GPRINTs används på sidan för GPRINT-förinställningar. Inga översättningstexter ändrades; Weblate visade 91 återstående kontroller.
+
+2026-10-26: Sex ytterligare återanvändningskontroller avfärdades efter jämförelse av grafobjekt, grafmallar, grafer och GPRINT-förinställningar samt likvärdiga uttryck för att sakna mall. Inga översättningstexter ändrades; Weblate visade 85 återstående kontroller.
