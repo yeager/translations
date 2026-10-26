@@ -118,3 +118,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Weblates ordlista kompletterades med polling → datainsamling (avfrågning när själva förfrågan avses), availability → tillgänglighet (om en enhet eller tjänst är tillgänglig) och device → enhet (övervakad enhet). Samtliga tre kontrollerades i ordlistan efter inläsning.
 
 2026-10-26: Sex hjälptexter för Tholds larm, varningar och återställning rättades. Dubbelkodade ersättningstaggar ersattes med källtextens exakta teckensekvenser. Weblate bekräftade sex uppdaterade strängar utan bortfall; msgfmt och l10n-lint passerade.
+
+2026-10-26: Två återanvändningskontroller i Thold granskades och avfärdades i Weblate. ”Debug” är en loggnivå enligt includes/arrays.php och kan översättas med ”Felsökning”, liksom ”Debugging” och ”Troubleshooting” i deras sammanhang. De två källtexterna om hur länge ett tröskelvärde måste överträdas för att utlösa ett larm har samma innebörd och samma svenska översättning.
