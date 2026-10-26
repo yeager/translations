@@ -231,3 +231,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: Intropage: granskning av exportens inledande avsnitt gav 15 språk- och terminologirättningar i cacti-intropage-granskning-20261026.po. Weblate bekräftade 15 uppdateringar. msgfmt och l10n-lint passerade; Hunspell flaggade sammansättningen siduppdatering. Resten av komponenten återstår att granska.
 
 - 2026-10-26: Intropage, fortsatt radgranskning av exportens poster 140–299: 23 korrigeringar skickades upp och Weblate bekräftade 23 uppdaterade. msgfmt passerade; l10n-lints två skiljeteckenvarningar gäller en rubrik med ellips i källan. Hunspell flaggade tekniska sammansättningar med NTP och SNMP. Resten återstår att granska.
+
+- 2026-10-26: Intropage, genomgång av exportens återstående poster 300–546 gav 24 rättningar, bland annat Spine, misslyckade insamlingar och databegrepp. Weblate bekräftade 24 uppdaterade. msgfmt och l10n-lint passerade; Hunspell flaggade produktnamn och tekniska beteckningar. Övriga fynd och kontrollvarningar kräver fortsatt granskning.
