@@ -45,3 +45,5 @@ Tre intervalltexter för sekunder, minuter och timmar rättades efter kontroll a
 TLS-alternativen Hard och Demand rättades till Strikt och Kräv efter kontroll av LDAP-konstanterna och inställningens sammanhang i källkoden. Weblate bekräftade 2 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
 
 Fem status- och inställningstexter rättades. Fail kontrollerades mot användningen i host.php och översattes till Misslyckades. Weblate bekräftade 5 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
+
+Fyra databas- och installationstexter rättades, inklusive variabelnamnet $rdatabase_username. Weblate bekräftade 4 uppdaterade, 0 överhoppade och 0 saknade. msgfmt och l10n-lint passerade.
