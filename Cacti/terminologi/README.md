@@ -26,6 +26,7 @@ Arbetslista för alla Cacti-komponenter. Tillämpa orden efter sammanhang och ä
 | threshold | tröskelvärde, tröskel | Välj tröskelvärde när ett gränsvärde avses; tröskel kan användas för funktionen. |
 | prefix / prefixes | prefix | Obestämd singular och plural har samma form; behåll tekniska prefix oförändrade. |
 | network | nätverk | |
+| scan / scanning | skanna / skanning | I Mactrack för undersökning av enheter och adresser; kontrollera sammanhang i andra komponenter. |
 | site / location | plats / placering | I Monitor skiljs den tilldelade platsen från enhetens fysiska placering. |
 | tree | träd | För Cactis hierarkiska graf- eller enhetsträd. |
 | data query | datafråga | |
@@ -214,3 +215,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 - 2026-10-26: Core 1.2: `core-12-graf-fargmall-sv.po` rättar båda pluralformerna till ”aggregerade grafer”. Weblate bekräftade en uppdaterad sträng; msgfmt, l10n-lint och Hunspell passerade. Äldre exportskillnader måste verifieras mot aktiva strängar eftersom fortplantning redan har rättat vissa.
 
 - 2026-10-26: `core-koppla-graf-sv.po` laddades upp till core; Weblate bekräftade fyra uppdateringar. Texterna om att koppla grafer anger nu ”aggregerad graf”. msgfmt, l10n-lint och Hunspell passerade.
+
+- 2026-10-26: `mactrack-skanning-sv.po` laddades upp; fyra strängar ändrades till skanning för enhetlighet inom komponenten. msgfmt och l10n-lint passerade; Hunspell flaggade den tekniska beteckningen 802.1X-skanning.
