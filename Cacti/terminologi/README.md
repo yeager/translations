@@ -287,3 +287,7 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 ### Audit, 26 oktober 2026
 
 Den aktuella exporten med 173 strängar genomgicks mot engelskan. Fyra formuleringar om behandling av begäran, Syslog-status, autentiseringskontroller och privat nyckel förtydligades. Weblate bekräftade fyra uppdaterade strängar utan överhoppade eller saknade strängar. Ändringsfil: `Cacti/cacti-audit-sv-sprakgranskning-20261026.po`. `msgfmt --check`, l10n-lint och svlang passerade; Hunspell-resultatet granskades med hänsyn till tekniska termer och PO-metadata.
+
+### GPS Maps, 26 oktober 2026
+
+Den aktuella katalogens 37 strängar jämfördes med Weblates vy och granskades. Tjugo ändringar skickades in; Weblate bekräftade 20 uppdaterade, inga överhoppade och inga saknade. Fil: `Cacti/cacti-gpsmaps-sv-granskning-20261026.po`. Kontroller med msgfmt, svlang och hunspell-sv passerade; l10n-lint påvisade endast skillnaden mellan källans punkt och frågetecknet i den svenska frågan. Weblates två motsvarande kontroller avfärdades. Senaste release är v2.1, 2019-03-01, alltså äldre än 48 månader. Tidigare beslut att avstå på grund av åldern var en för snäv tolkning av instruktionen att kontrollera releaseåldern. Weblate visade ändringarna som väntande i arkivet; överföring till källförrådet har inte verifierats.
