@@ -8,7 +8,7 @@ Senaste arkivändring är datumet för den senaste Git-incheckningen som berör 
 
 | Projekt | Senaste arkivändring | Granskning och underlag | Status i arkivet | Att göra |
 | --- | --- | --- | --- | --- |
-| [0-AD](0-AD/) | 2026-10-25 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
+| [0-AD](0-AD/) | 2026-10-25 | Ingen särskild granskningsrapport identifierad | [Aktuella granskningsfiler och status](FreeCAD/review-20261026/STATUS.md); två filer väntar på uppladdning | Ladda upp och verifiera 867 FreeCAD- och 12 addons-ändringar i Crowdin |
 | [0AD](0AD/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
 | [3D-Slicer](3D-Slicer/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
 | [Accrescent](Accrescent/) | 2026-10-18 | Ingen särskild granskningsrapport identifierad | Filer arkiverade; upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus och eventuella kvarvarande ändringar |
