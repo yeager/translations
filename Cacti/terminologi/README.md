@@ -80,3 +80,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Weblates exakta källtextssökning i Core gav inga träffar för ”Delete All Checks”, trots att posten finns i den nedladdade PO-filen utan obsolete-markering. Importfelet kan alltså inte lösas genom att enbart läsa PO-postens status; övriga avvisade poster behöver också kontrolleras mot Weblates aktiva strängar.
 
 2026-10-26: En samlad exakt källtextssökning efter de övriga fyra avvisade posterna gav inga träffar i Core på Weblate. Tillsammans med importkvittot stöder det att de fem inte är tillgängliga för import i aktuell komponent, även om de finns i PO-exporten. Underlaget för jämförelsen mellan Core-versionerna innehåller därmed potentiellt fler sådana poster och måste verifieras mot Weblate före ändring.
+
+2026-10-26: Core ”Replacement Pattern” och Core 1.2 ”Replace Pattern” avser samma fält, replace_pattern, i inställningsformulär respektive regellista. ”Ersättningsmönster” är därför konsekvent; återanvändningskontrollen avfärdades i Weblate. Källkod: include/global_form.php och lib/api_automation.php.
