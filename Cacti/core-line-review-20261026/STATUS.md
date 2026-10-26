@@ -55,3 +55,5 @@ Kompletterande verktygskontroll 2026-10-26: den svenska Hunspell-ordlistan fanns
 2026-10-26: Fem återanvändningsvarningar avfärdades efter granskning. Källkoden visar att ”Every %d Day” används med värdet 1; ”Var %d:e dag” skulle därför ge ”Var 1:e dag”. Texten ändrades till ”Intervall: %d dygn” och Weblate bekräftade en uppdaterad sträng. PO-filen kontrollerades med msgfmt, l10n-lint, Hunspell och svlang.
 
 2026-10-26: ”Every %d Weeks” används med värdena 2 och 4. Den gamla texten ”Var %d:e vecka” gav felaktigt ”2:e”; ändrad till ”Intervall: %d veckor”. Filen kontrollerades med msgfmt, l10n-lint, Hunspell och svlang och skickades upp till core; Weblate rapporterade en uppdaterad sträng.
+
+2026-10-26: Granskade återanvändningskontrollen för Aggregate/Aggregates och avfärdade den i Weblate: aggregat har samma obestämda form i singular och plural. En annan varning om konvertering av aggregatgrafer lämnades för vidare kontroll av källornas olika antal. Ingen översättningstext ändrades.
