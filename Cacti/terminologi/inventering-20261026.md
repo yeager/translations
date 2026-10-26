@@ -239,6 +239,8 @@ Kontext: filter: reset
 
 ### Delete Device(s)
 
+**Kontrollerat mot aktuell Routerconfigs-export 2026-10-26:** använder samma formulering som Core 1.2. Skillnaden nedan är inaktuell.
+
 - cacti-core-v1-2-x: Ta bort enheter
 - cacti-mikrotik: Ta bort enheter
 - cacti-routerconfigs: Ta bort enhet(er)
@@ -254,6 +256,8 @@ Kontext: filter: reset
 - cacti-core-v1-2-x: Enhetsbehörighet %s
 
 ### Disable Device(s)
+
+**Kontrollerat mot aktuell Routerconfigs-export 2026-10-26:** använder samma formulering som Core 1.2. Skillnaden nedan är inaktuell.
 
 - cacti-core-v1-2-x: Inaktivera enheter
 - cacti-routerconfigs: Inaktivera enhet(er)
@@ -310,6 +314,8 @@ Kontext: filter: reset
 - cacti-core-v1-2-x: Aktivera kodanpassning för särskild hantering av e-postklienter för Lotus Notes.
 
 ### Enable Device(s)
+
+**Kontrollerat mot aktuell Routerconfigs-export 2026-10-26:** använder samma formulering som Core 1.2. Skillnaden nedan är inaktuell.
 
 - cacti-core-v1-2-x: Aktivera enheter
 - cacti-routerconfigs: Aktivera enhet(er)
