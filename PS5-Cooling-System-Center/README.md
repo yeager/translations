@@ -16,7 +16,10 @@ svenska helt. Den första batchen lägger till:
 
 Kontrollerat med JSON-tolkning, projektets `check_lang.py`, JavaScript-
 syntaxkontroll, `git diff --check`, Hunspell och Gitleaks. Projektkontrollen
-rapporterar 0 formatfel och inga saknade strängar. Ingen
-uppströmsinsändning har skapats ännu.
+rapporterar 0 formatfel och inga saknade strängar. Den färdiga katalogen
+skickades den 27 oktober 2026 som
+[PR #1](https://github.com/strongt1me/ps5-cooling-system-center-pro/pull/1).
+Pull requesten är öppen och ren, men har ännu varken underhållargranskning
+eller rapporterade CI-resultat.
 
 `sv-work-in-progress-20261026.json` är den senaste granskade arbetskopian.
