@@ -1,0 +1,39 @@
+{
+  "project": "Forgejo Next",
+  "platform": "Codeberg Translate",
+  "language": "sv",
+  "reviewed_at": "2026-10-26",
+  "scope": "Fyra aktiva kontroller i komponenten forgejo-next.",
+  "actions": [
+    {
+      "key": "repo.pulls.poster_requires_approval",
+      "source": "Some workflows are <a href=\"%[1]s\">waiting to be reviewed</a>.",
+      "previous": "Några arbetsflöden <a href=\"%[1]s\">väntar på att bli undersökta.</a>.",
+      "suggestion": "Några arbetsflöden <a href=\"%[1]s\">väntar på granskning</a>.",
+      "status": "Förslag inskickat; väntar på granskare. XML-taggar och platshållare bevarade."
+    },
+    {
+      "key": "repo.pulls.poster_is_trusted",
+      "source": "The author of this pull request is <a href=\"%[1]s\">always trusted to run workflows</a>.",
+      "previous": "Författaren till denna ändringsbegäran är <a href=\"%[1]s\">alltid godkänd för att köra arbetsflöden.</a>.",
+      "suggestion": "Författaren till den här ändringsförfrågan är <a href=\"%[1]s\">alltid betrodd att köra arbetsflöden</a>.",
+      "status": "Förslag inskickat; väntar på granskare. XML-taggar och platshållare bevarade."
+    },
+    {
+      "key": "repo.pulls.title_desc",
+      "source_singular": "wants to merge %[1]d commit from <code>%[2]s</code> into <code id=\"%[4]s\">%[3]s</code>",
+      "source_plural": "wants to merge %[1]d commits from <code>%[2]s</code> into <code id=\"%[4]s\">%[3]s</code>",
+      "previous_plural": "vill sammanfoga %[1]d incheckningar från <code>s[2]s</code> in i <code id=\"%[4]s\">%[3]s</code>",
+      "suggestion_singular": "vill sammanfoga %[1]d incheckning från <code>%[2]s</code> i <code id=\"%[4]s\">%[3]s</code>",
+      "suggestion_plural": "vill sammanfoga %[1]d incheckningar från <code>%[2]s</code> i <code id=\"%[4]s\">%[3]s</code>",
+      "status": "Förslag inskickat; väntar på granskare. Den saknade procentmarkören i pluralformen är återställd."
+    },
+    {
+      "key": "packages.alpine.registry",
+      "text": "Konfigurera detta register genom att lägga till URL:en i din <code>/etc/apk/repositories</code>-fil:",
+      "check": "Flera versaler",
+      "status": "Avfärdad som falskt positiv: URL är en etablerad förkortning."
+    }
+  ],
+  "result": "Tre förslag inskickade och en falskt positiv kontroll avfärdad. Godkända översättningar kan endast ändras av projektets granskare."
+}
