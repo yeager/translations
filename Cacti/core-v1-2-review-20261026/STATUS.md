@@ -11,3 +11,5 @@ Stickprov efter uppladdningarna: ”Operation successful” från del 2-2 och �
 En kompletterande fil med åtta rättelser skickades via webbläsaren. Weblate bekräftade 8 uppdaterade, 0 överhoppade och 0 saknade. PO-filen klarade msgfmt --check --check-format.
 
 Tio ytterligare terminologirättelser skickades via webbläsaren. Weblate bekräftade 10 uppdaterade, 0 överhoppade och 0 saknade. PO-filen klarade msgfmt --check --check-format.
+
+Granskning av Weblates skiljeteckenskontroller: alla 21 träffar för slutpunkt och alla 5 för frågetecken undersöktes i bläddringsvyn. Avvikelserna gäller kompletta svenska meningar där källan saknar punkt eller frågor där källan har punkt/utropstecken. Svenska skiljetecken behålls; dessa kontrollvarningar behöver inte innebära översättningsfel. Övriga kontrollkategorier återstår.
