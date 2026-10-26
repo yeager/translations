@@ -100,3 +100,8 @@ skanningslinjer och ryggar. Termbanken och översättningsminnet användes som
 underlag. JSON, nycklar, platsmarkörer, tabellgenerering, C++-kompilering,
 diff och Gitleaks passerade. Den aktuella arkivkopian har SHA-256
 `5343849d33fbab85a2f612e5b27c0ed5cb5ba694e4eb0617048c345d811f3c1a`.
+
+Ett nionde häfte översatte tre kontrollrelaterade etiketter till styrkors,
+Nunchuk-spak och gyroskop. JSON, nycklar, platsmarkörer, tabellgenerering,
+C++-kompilering, diff och Gitleaks passerade. Den aktuella arkivkopian har
+SHA-256 `1907c9604155b9c4c048cdf47c6eb46b7bd716f407723a1eba5a5ac030626954`.
