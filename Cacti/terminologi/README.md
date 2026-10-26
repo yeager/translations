@@ -176,3 +176,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Tolv återanvändningskontroller i Core avfärdades efter jämförelse av källtexterna: grafmallar, paket, inläsning och uppgradering av insticksmoduler samt användaråtgärder i singular och plural. Weblate visar fyra strängar med aktiva kontroller i Core.
 
 2026-10-26: Kontroller för ”Collector” och ”Delete Report” avfärdades i Core. ”Insamlare” följer Cactis ordlista för collector och poller; båda rapporttexterna gäller borttagning. Källkoden för rapportåtgärden och behörighetsrubriken kontrollerades. Två aktiva kontroller återstår i Core.
+
+2026-10-26: Kontrollen för ”%s MB” i hmib avfärdades: den återanvända översättningen motsvarar även ”%s MBytes”. Mactrack har en inkonsekvensvarning för ”MAC Addresses”; de jämförda svenska formerna i komponenten är ”MAC-adresser”, men varningens fulla orsak är ännu inte klarlagd.
