@@ -186,3 +186,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Mactrack-texten om att ta bort platser rättades från ”sajter” till ”platser” enligt terminologin. Weblate bekräftade en uppdatering. msgfmt och Hunspell passerade; l10n-lints två varningar om källans frågetecken bedömdes manuellt eftersom den svenska uppmaningen avslutas med punkt. De två tidigare MAC-rättningarna verifierades i Weblate-editorn. Svterm hittades inte lokalt; GitHub-repot yeager/svterm kunde inte hittas.
 
 2026-10-26: Mactracks fält ”Ticket Number” rättades från ”Biljettnummer” till ”Ärendenummer”, i enlighet med hjälptexten om ärendehanteringssystem och e-postmallen. Weblate bekräftade en uppdatering. msgfmt, l10n-lint och Hunspell passerade.
+
+2026-10-26: Mactrack-texten ”No Non Interface Graphs in Cacti” förtydligades till ”Det finns inga grafer som inte gäller gränssnitt i Cacti”, i linje med motsvarande visningskommando. Weblate bekräftade en uppdatering. msgfmt och l10n-lint passerade; Hunspell flaggade produktnamnet Cacti.
