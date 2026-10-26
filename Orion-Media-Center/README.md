@@ -21,5 +21,6 @@ Kontroller:
 - `svlang` och `l10n-lint` saknar stöd för projektets egna `.lang`-format;
   deras filomfattande resultat är därför inte meningsfulla för denna katalog.
 
-Ändringen är inskickad som uppströms-[PR #13](https://github.com/XeN-Made/Orion-Media-Center/pull/13).
-Vid arkiveringstillfället är den öppen och väntar på CI samt underhållargranskning.
+Ändringen skickades upp som uppströms-[PR #13](https://github.com/XeN-Made/Orion-Media-Center/pull/13)
+och slogs ihop den 26 oktober 2026. Det svenska språkpaketet ingår därmed
+uppströms.
