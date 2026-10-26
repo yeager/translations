@@ -75,3 +75,9 @@ Ett fjärde häfte rättade ytterligare tio UI-texter om minneskort,
 sparfiler, automatisk spelsökning, sandlådeläge och GameCube-menyn.
 Samma struktur- och säkerhetskontroller passerade igen, och den aktuella
 arkivkopian har SHA-256 `abe948e351bf0420ec22b63fd1cfe75feb9e21e0616b4a7dfa75104aa9312679`.
+
+Ett femte häfte rättade tio instruktioner om egna filer, Wii-skivor,
+WiiConnect24, texturpaket och egen Wii-systemdata. JSON, nyckel- och
+platshållarjämförelse, tabellgenerering, C++-kompilering, diff och Gitleaks
+passerade. Den aktuella arkivkopian har SHA-256
+`70c05acfaee140e8bd7313d7c396ee759c7d7fc150e33f7e60a4cafebedb0fea`.
