@@ -37,7 +37,7 @@ Arbetslista för alla Cacti-komponenter. Tillämpa orden efter sammanhang och ä
 | log | logg | |
 | uptime | drifttid | |
 | heartbeat | hjärtslag, hjärtslagsintervall | I RRD-datakällor avser det ett tidsintervall; för en insamlingsprocess kan det avse själva livstecknet. En gemensam källsträng kan användas i flera sammanhang och ska inte ändras mekaniskt. |
-| poller cache | insamlarens cache | Ändra vid behov till insamlingsprocessens cache om det tekniska sammanhanget kräver åtskillnad. |
+| poller cache | datainsamlarens cache | Använd insamlingsprocessens cache om det tekniska sammanhanget kräver åtskillnad. |
 | enabled / disabled | aktiverad / inaktiverad | |
 | utilities | verktyg | För menyn med verktygsfunktioner. |
 | delete | ta bort | För gränssnittets åtgärd. |
@@ -594,3 +594,5 @@ Weblates 55 strängar granskades mot källtexterna och tidigare säkerhetskopior
 2026-10-26: Fyra texter om cacheadministration och minnesanvändning i core anpassades till termen datainsamlare. Weblate bekräftade fyra uppdateringar; ändringarna finns i `cacti-core-cache-administration-20261026.po`.
 
 2026-10-26: Åtta diagnostik- och cachetexter i core anpassades till termen datainsamlare. Weblate bekräftade åtta uppdateringar; ändringarna finns i `cacti-core-diagnostik-datainsamlare-20261026.po`.
+
+2026-10-26: Sex inställnings- och statustexter i core anpassades till termen datainsamlare. Weblate bekräftade sex uppdateringar; ändringarna finns i `cacti-core-installningar-datainsamlare-20261026.po`.
