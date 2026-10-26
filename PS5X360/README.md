@@ -22,5 +22,6 @@ Gitleaks hittade inga hemligheter i den svenska katalogen. Hunspell-träffarna
 består av produktnamn, filformat, speltermer och tekniska namn som Xenia,
 VSync, CAS och FSR.
 
-Upstreamstatus: redo att skickas som en separat pull request. Godkännande och
-publicering avgörs av projektets underhållare.
+Upstreamstatus: skickad som [PR #120](https://github.com/BrinooTk/PS5X360/pull/120).
+Den är öppen och väntar på underhållargranskning. Godkännande och publicering
+avgörs av projektets underhållare.
