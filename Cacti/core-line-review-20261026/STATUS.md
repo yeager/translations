@@ -27,3 +27,5 @@ Kompletterande verktygskontroll 2026-10-26: den svenska Hunspell-ordlistan fanns
 2026-10-26: Granskade nio punktvarningar till och avfärdade dem. Svenska meningar avslutas korrekt med punkt även om källan saknar punkt; versions- och filnamnsplatshållare har kontrollerats mot källan. Weblate visade därefter 152 strängar med kontroller: 10 punktvarningar och 142 återanvändningsvarningar. Ingen översättningstext ändrades.
 
 2026-10-26: Granskade de tio återstående punktvarningarna och avfärdade dem. Svenska hela meningar har korrekt slutpunkt; policytexternas HTML och skillnaderna mellan behörighetsvillkor har kontrollerats mot källorna. Weblate visade därefter inga punktvarningar och 142 strängar med återanvändningsvarning. Ingen översättningstext ändrades.
+
+2026-10-26: Ytterligare åtta varningar om återanvänd översättning granskades och avfärdades i Weblate. De gäller likvärdiga källtexter samt singular och plural av nätverk, som har samma obestämda form på svenska. Inga översättningstexter ändrades. Varningen för Poller/Pollers lämnades kvar för kontroll av pluralformen; 130 återanvändningsvarningar återstod enligt Weblates översikt.
