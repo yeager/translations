@@ -1,0 +1,109 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cacti Flowview\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid ""
+"Materialization pre-computes the results of a Filter for each flow "
+"partition, with NAT on and off, and stores them in the Parallel Query cache,"
+" so reports over older data open quickly.  New partitions are materialized "
+"automatically once they stop receiving flows.  Required means partitions "
+"that have rotated are not materialized yet, Running means a materialization "
+"is in progress, and Up to date means every rotated partition is "
+"materialized.  Running: N is how many queries of the Filter are working now."
+"  The partition still receiving flows is not materialized, so it does not "
+"count."
+msgstr ""
+"Materialisering beräknar i förväg resultaten av ett filter för varje "
+"flödespartition med och utan NAT och lagrar dem i cachen för parallella "
+"frågor. Då öppnas rapporter över äldre data snabbt.  Nya partitioner "
+"materialiseras automatiskt när de slutar ta emot flöden.  Krävs betyder att "
+"roterade partitioner ännu inte har materialiserats, Pågår betyder att "
+"materialisering pågår och Aktuell betyder att alla roterade partitioner har "
+"materialiserats.  Pågår: N anger hur många frågor för filtret som körs just "
+"nu.  Partitionen som fortfarande tar emot flöden materialiseras inte och "
+"räknas därför inte med."
+
+msgid "Close"
+msgstr "Stäng"
+
+msgid "All Protocols"
+msgstr "Alla protokoll"
+
+msgid "Cached Results Affected"
+msgstr "Cachade resultat påverkas"
+
+msgid ""
+"These changes affect the cached results of this Filter.  Once it is saved "
+"they no longer match it, and the Filter has to be materialized again.  Press"
+" 'Continue' to save the Filter, or 'Cancel' to keep editing it."
+msgstr ""
+"Ändringarna påverkar filtrets cachade resultat.  När filtret sparas matchar "
+"resultaten det inte längre och filtret måste materialiseras igen.  Klicka på"
+" ”Fortsätt” för att spara filtret eller på ”Avbryt” för att fortsätta "
+"redigera det."
+
+msgid ""
+"The changes to this Filter affect its cached results, so it has to be "
+"materialized again.  To start a materialization, select the Filter on the "
+"Filters page and choose the 'Materialize' action."
+msgstr ""
+"Ändringarna i filtret påverkar dess cachade resultat, så det måste "
+"materialiseras igen.  För att starta materialiseringen, välj filtret på "
+"sidan Filter och välj åtgärden ”Materialisera”."
+
+msgid "Save Succeeded"
+msgstr "Sparandet lyckades"
+
+msgid "Save Succeeded."
+msgstr "Sparandet lyckades."
+
+msgid "OK"
+msgstr "OK"
+
+msgid ""
+"Filter Settings Saved.  A forced re-materialization of this Filter is "
+"recommended, use the Materialize action on the Filters page."
+msgstr ""
+"Filterinställningarna har sparats.  En påtvingad ommaterialisering av "
+"filtret rekommenderas. Använd åtgärden Materialisera på sidan Filter."
+
+#, php-format
+msgid "Not materialized yet, with NAT: %s, without NAT: %s."
+msgstr "Ännu inte materialiserade, med NAT: %s, utan NAT: %s."
+
+msgid "Up to date"
+msgstr "Aktuell"
+
+msgid "Running"
+msgstr "Pågår"
+
+msgid "Required"
+msgstr "Krävs"
+
+msgid "The number of queries of this Filter that are running now."
+msgstr "Antalet frågor för detta filter som körs just nu."
+
+#, php-format
+msgid "With NAT: %d, without NAT: %d."
+msgstr "Med NAT: %d, utan NAT: %d."
+
+#, php-format
+msgid "Running: %s"
+msgstr "Pågår: %s"
+
+#, php-format
+msgid ""
+"ERROR: The Parallel Query did not finish within the Maximum Run Time of %d "
+"seconds.  Check the Maximum Run Time under the FlowView Settings, and that "
+"the database is not busy with another operation such as an ALTER TABLE."
+msgstr ""
+"FEL: Den parallella frågan slutfördes inte inom den maximala körtiden på %d "
+"sekunder.  Kontrollera den maximala körtiden i Flowview-inställningarna och "
+"att databasen inte är upptagen med en annan åtgärd, till exempel ALTER "
+"TABLE."
