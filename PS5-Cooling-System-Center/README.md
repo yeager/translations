@@ -16,7 +16,7 @@ svenska helt. Den första batchen lägger till:
 
 Kontrollerat med JSON-tolkning, projektets `check_lang.py`, JavaScript-
 syntaxkontroll, `git diff --check`, Hunspell och Gitleaks. Projektkontrollen
-rapporterar 0 formatfel men 59 ännu oöversatta källsträngar. Ingen
+rapporterar 0 formatfel men 41 ännu oöversatta källsträngar. Ingen
 uppströmsinsändning har därför skapats ännu.
 
 `sv-work-in-progress-20261026.json` är den senaste granskade arbetskopian.
