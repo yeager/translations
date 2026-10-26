@@ -120,3 +120,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Sex hjälptexter för Tholds larm, varningar och återställning rättades. Dubbelkodade ersättningstaggar ersattes med källtextens exakta teckensekvenser. Weblate bekräftade sex uppdaterade strängar utan bortfall; msgfmt och l10n-lint passerade.
 
 2026-10-26: Två återanvändningskontroller i Thold granskades och avfärdades i Weblate. ”Debug” är en loggnivå enligt includes/arrays.php och kan översättas med ”Felsökning”, liksom ”Debugging” och ”Troubleshooting” i deras sammanhang. De två källtexterna om hur länge ett tröskelvärde måste överträdas för att utlösa ett larm har samma innebörd och samma svenska översättning.
+
+2026-10-26: Core 1.2 ”Viewing Graph” används som rubrik framför grafens namn i graph.php och rättades till ”Visar graf”. Åtgärden ”View Graph” behåller ”Visa graf”. Weblate bekräftade en uppdatering; msgfmt, l10n-lint och Hunspell passerade.
