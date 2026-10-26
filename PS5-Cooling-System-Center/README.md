@@ -10,13 +10,13 @@ Projektet har ungefär 4 461 översättningsbara tyska källsträngar och saknad
 svenska helt. Den första batchen lägger till:
 
 - `sv-SE` som valbar locale och *Svenska* i språklistan;
-- en separat svensk JSON-katalog med 1 931 centrala gränssnittssträngar;
+- en separat svensk JSON-katalog med 1 991 centrala gränssnittssträngar;
 - översättningar för vanliga åtgärder, systemkontroller, kylning och
   bekräftelser.
 
 Kontrollerat med JSON-tolkning, projektets `check_lang.py`, JavaScript-
 syntaxkontroll, `git diff --check`, Hunspell och Gitleaks. Projektkontrollen
-rapporterar 0 formatfel men 2 527 ännu oöversatta källsträngar. Ingen
+rapporterar 0 formatfel men 2 467 ännu oöversatta källsträngar. Ingen
 uppströmsinsändning har därför skapats ännu.
 
 `sv-work-in-progress-20261026.json` är den senaste granskade arbetskopian.
