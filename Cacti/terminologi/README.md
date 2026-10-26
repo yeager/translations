@@ -196,3 +196,5 @@ I nätverks- och routningssammanhang översätts *peer* med **motpart** och *geo
 2026-10-26: Mactracks kolumn ”Added/Modified” rättades från ”Inkom / Ändrad” till ”Tillagd/ändrad”. Weblate bekräftade en uppdatering; msgfmt, l10n-lint och Hunspell passerade.
 
 2026-10-26: Mactracks ”Title of SNMP Option Set” ändrades till ”Titel för uppsättningen SNMP-alternativ”, i linje med intilliggande texter. Weblate bekräftade en uppdatering. msgfmt och l10n-lint passerade; Hunspell flaggade den tekniska sammansättningen SNMP-alternativ.
+
+- Mactrack: `mactrack-tidsuppgifter-sv.po` laddades upp 2026-10-26; Weblate bekräftade fyra uppdaterade strängar. Granskningen fortsätter.
