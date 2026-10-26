@@ -81,3 +81,9 @@ WiiConnect24, texturpaket och egen Wii-systemdata. JSON, nyckel- och
 platshållarjämförelse, tabellgenerering, C++-kompilering, diff och Gitleaks
 passerade. Den aktuella arkivkopian har SHA-256
 `70c05acfaee140e8bd7313d7c396ee759c7d7fc150e33f7e60a4cafebedb0fea`.
+
+Ett sjätte häfte rättade sju korta UI-etiketter och statusrader, bland annat
+av- och påknappar, sökstatus, layoutnamn, filvägsetikett och WiiConnect24.
+JSON, nycklar, platsmarkörer, C++-tabellen, diff och Gitleaks passerade igen.
+Den aktuella arkivkopian har SHA-256
+`bea368301ac7afe134259f264fb9e3912822c79fa1a06bdd5bc4506809ba8e5f`.
