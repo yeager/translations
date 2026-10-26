@@ -33,3 +33,9 @@ och arkiverats i `approved-differences-sample-04-20261027.md`. Sträng 6683762
 autentiseringsdialogen för en nätverkswebbplats och därför ska vara
 ”Webbplats”. Övriga nitton poster är godtagbara eller avsiktligt oförändrade
 kodnamn. Rättelsen ska först kontrolleras mot Crowdins valda måltext.
+
+2026-10-27: Ett femte läsande urval om 20 godkända avvikelser har granskats
+och arkiverats i `approved-differences-sample-05-20261027.md`. Alla poster är
+godtagbara i sin kontext. Särskilt kontrollerades att ”verktygsrad” är den
+etablerade termen i just dialogen för egna verktygsrader; ingen onödig
+Crowdin-ändring ska göras.
