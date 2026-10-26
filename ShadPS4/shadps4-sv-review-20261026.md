@@ -23,3 +23,5 @@ På nionde sidan har tre förslag lämnats för konsekventa knappbindningstexter
 På tionde sidan har fyra förslag lämnats för spelbibliotek och hämtning av fusk och patchar. Tidigare översättningar är fortfarande godkända. [Kopia med kontext](shadps4-sv-review-20261026-page10.json). L10n-lint, svlang, Hunspell-sv och Gitleaks gav inga fynd på satsen.
 
 På elfte sidan har fem förslag lämnats för startmeddelanden och inställningar, bland annat rättad stavning av ”konsolspråk”. Tidigare översättningar är fortfarande godkända. [Kopia med kontext](shadps4-sv-review-20261026-page11.json). L10n-lint, svlang, Hunspell-sv och Gitleaks gav inga fynd på satsen.
+
+På tolfte sidan har sex förslag lämnats för shaderdumpning, kompatibilitet, konsolspråk, titelmusik, troféer och muspekare. Tidigare översättningar är fortfarande godkända. [Kopia med kontext och radbrytningsmarkörer](shadps4-sv-review-20261026-page12.json). L10n-lint och svlang gav inga fynd; Hunspell markerade tekniska sammansättningar ”PS4-spelet” och ”shaderprogram”. Gitleaks gav inga fynd. Crowdin-varningar om apostrof och parenteser granskades mot den svenska formuleringen.
