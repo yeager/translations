@@ -4,7 +4,7 @@ Den aktuella engelska och svenska JSON-katalogen hämtades den 27 oktober
 2026. Den svenska katalogen hade 5 140 strängar: 1 238 översatta och 3 902
 tomma. Weblate-komponenten var låst och inga ändringar kunde skickas upp.
 
-De 145 komponentvisa JSON-filerna med datumet 2026-10-27 omfattar 1 766 unika
+De 146 komponentvisa JSON-filerna med datumet 2026-10-27 omfattar 1 782 unika
 källnycklar. Varje fil har kontrollerats mot den engelska katalogen före
 arkivering. För filer med formatmarkörer har motsvarande markörer jämförts.
 L10n-lint, svensk språkgranskning, Hunspell-genomgång, JSON-syntax och
@@ -44,7 +44,7 @@ sammanfogats lokalt och kontrollerats som en helhet: JSON, L10n-lint,
 Gitleaks och formatmarkörer är godkända. Arkivjämförelsen visar 73 av 73
 nycklar, utan saknade eller extra nycklar.
 
-Häftena 26–144 omfattar 1 349 av dessa nycklar. De är inte dubbletter av redan
+Häftena 26–145 omfattar 1 365 av dessa nycklar. De är inte dubbletter av redan
 arkiverade källnycklar, med undantag för Regndroppars ljusbrytning (häfte 29),
 som är en dokumenterad språklig kvalitetshöjning av en äldre lokal version.
 
@@ -62,6 +62,9 @@ Den enda aktuella nyckeln i `menu.features` är också granskad och arkiverad.
 Samtliga 247 aktuella nycklar i `menu.settings` finns nu i arkivet, utan
 saknade eller extra nycklar och utan avvikande formatmarkörer. De åtta nya
 häftena omfattar de 119 nycklar som saknades vid denna genomgång.
+
+För `feature.light_editor` har det första häftet granskats: 16 av 144 nycklar.
+De återstående 128 nycklarna behöver samma radvisa granskning.
 
 Open Shaders uppfyller färskhetskravet genom den officiella utgåvan `v2.19.0`
 från 18 oktober 2026. Nästa steg är att importera de komponentvisa filerna
