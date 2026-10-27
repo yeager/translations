@@ -106,3 +106,7 @@ granskats och arkiverats i `approved-differences-sample-15-20261027.md`. En
 kandidat ska rättas efter kontroll mot Crowdins valda måltext: `Meshing
 Tolerance` ska vara ”Nätgenereringstolerans”, inte ”Nättolerans”. Övriga 19
 kandidater är godtagbara. Inga nya Crowdin-förslag har skapats.
+
+2026-10-27: Ett sextonde läsande urval om 20 godkända avvikelser har
+granskats och arkiverats i `approved-differences-sample-16-20261027.md`. Alla
+poster är godtagbara i sin Part-kontext. Inga nya Crowdin-förslag har skapats.
