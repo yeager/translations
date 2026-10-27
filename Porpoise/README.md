@@ -105,3 +105,9 @@ Ett nionde häfte översatte tre kontrollrelaterade etiketter till styrkors,
 Nunchuk-spak och gyroskop. JSON, nycklar, platsmarkörer, tabellgenerering,
 C++-kompilering, diff och Gitleaks passerade. Den aktuella arkivkopian har
 SHA-256 `1907c9604155b9c4c048cdf47c6eb46b7bd716f407723a1eba5a5ac030626954`.
+
+Det tionde häftet rättar 31 säkra UI-texter om åtgärdsknappar, sparfiler,
+minneskort, bredbild och menyljud. Samtliga nycklar finns i den aktuella
+källistan och platsmarkörer är identiska med engelskan. JSON-tolkning,
+`l10n-lint`, `svlang`, Hunspell-granskning, termbankskontroll och Gitleaks
+passerar. Häftet är en lokal deltafil; ingen uppströms-PR har skapats.
