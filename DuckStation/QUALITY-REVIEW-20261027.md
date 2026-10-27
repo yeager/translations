@@ -22,6 +22,15 @@ Filen är lokal och ej uppladdad. Eftersom DuckStations katalog har fler än
 1 000 strängar ska en kommande Weblate-import även fortsatt ske med små
 deltafiler efter jämförelse mot aktuell måltext.
 
+## Upstreamjämförelse
+
+Den aktuella upstreamkatalogen i `master` hämtades 2026-10-27 och har
+SHA-256 `ff2fe70be8b7a160fa27f9619ef3577c77cb276b797a573c848bb31e6352f2c0`.
+Samtliga nio kontext- och källtextnycklar finns kvar och har en annan svensk
+måltext uppströms. Inget av kvalitetsdeltats meddelanden har alltså redan
+landat. En l10n-lint-informationsrad för den avsiktligt flyttade
+kortkommandobokstaven i ”Ändra instruktion” är inte en varning eller ett fel.
+
 ## Kontrollresultat
 
 XML-syntaxkontroll, l10n-lint och Gitleaks passerar utan fel eller varningar.
