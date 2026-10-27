@@ -905,9 +905,9 @@ av knapparna ovan</translation>
       <source>If this is selected, the working plane will be
 centered on the current view when pressing one
 of the buttons above</source>
-      <translation>Om detta väljs kommer arbetsplanet att centreras
-centreras på den aktuella vyn när du trycker på en av
-av knapparna ovanför</translation>
+      <translation>Om detta väljs centreras
+arbetsplanet på den aktuella vyn när du trycker på en
+av knapparna ovan</translation>
     </message>
     <message>
       <location filename="../ui/TaskSelectPlane.ui" line="110"/>
@@ -918,8 +918,8 @@ av knapparna ovanför</translation>
       <location filename="../ui/TaskSelectPlane.ui" line="117"/>
       <source>Centers the working plane on the current view when pressing one
 of the buttons above</source>
-      <translation>Centrerar arbetsplanet på den aktuella vyn när du trycker på en av
-av knapparna ovan</translation>
+      <translation>Centrerar arbetsplanet på den aktuella vyn när du trycker på
+någon av knapparna ovan</translation>
     </message>
     <message>
       <location filename="../ui/TaskSelectPlane.ui" line="133"/>
@@ -2002,10 +2002,10 @@ eller cm, lämna tomt för att använda den aktuella enheten som definieras i Fr
 value defines the gap between the ends of the extension lines and the measured
 points. A positive value defines the maximum length of the extension lines. Only
 used for linear dimensions.</source>
-      <translation>Standardlängden för anknytningslinjer. Använd 0 för fullständiga anknytningslinjer. Ett negativt
-värde definierar avståndet mellan förlängningslinjernas ändar och de uppmätta punkterna
-punkterna. Ett positivt värde definierar den maximala längden på förlängningslinjerna. Används endast
-används för linjära mått.</translation>
+      <translation>Standardlängden för anknytningslinjer. Använd 0 för anknytningslinjer i full längd. Ett negativt
+värde anger avståndet mellan anknytningslinjernas ändar och de uppmätta punkterna.
+Ett positivt värde anger anknytningslinjernas maximala längd. Används endast
+för linjära mått.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-drafttexts.ui" line="676"/>
@@ -2274,7 +2274,7 @@ en DXF-fil.</translation>
       <source>If checked, FreeCAD is allowed to download and update the Python libraries
 required by the legacy importer. This can also be done manually by installing
 the 'dxf_library' addon from the Addon Manager.</source>
-      <translation>Om det är markerat får FreeCAD ladda ner och uppdatera Python-biblioteken som
+      <translation>Om det är markerat får FreeCAD ladda ner och uppdatera Python-biblioteken
 som krävs av den äldre importören. Detta kan också göras manuellt genom att installera
 tillägget "dxf_library" från Tilläggshanterare.</translation>
     </message>
@@ -2289,10 +2289,10 @@ tillägget "dxf_library" från Tilläggshanterare.</translation>
 reusable objects (Part Compounds) and instances become `App::Link` objects,
 maintaining the block structure. Best for full integration with the Draft
 workbench. </source>
-      <translation>Skapar helt parametriska Draft-objekt. Blockdefinitioner importeras som återanvändbara
+      <translation>Skapar helt parametriska Draft-objekt. Blockdefinitioner importeras som
 återanvändbara objekt (Part Compounds) och instanser blir `App::Link`-objekt,
-bibehåller blockstrukturen. Bäst för fullständig integration med Draft
-arbetsbänk. </translation>
+vilket bevarar blockstrukturen. Bäst för fullständig integration med Draft-
+arbetsbänken. </translation>
     </message>
     <message>
       <location filename="../ui/preferences-dxf.ui" line="123"/>
@@ -2313,9 +2313,9 @@ arbetsbänk. </translation>
 definitions are imported as reusable objects (Part Compounds) and instances
 become `App::Link` objects, maintaining the block structure. Best for
 script-based post-processing and Part workbench integration.</source>
-      <translation>Skapar parametriska Part-objekt (t.ex. Part::Line, Part::Circle). Block
+      <translation>Skapar parametriska Part-objekt (t.ex. Part::Line, Part::Circle). Blockdefinitioner
 importeras som återanvändbara objekt (Part Compounds) och instanser blir
-blir `App::Link`-objekt, vilket bibehåller blockstrukturen. Bäst för
+`App::Link`-objekt, vilket bevarar blockstrukturen. Bäst för
 skriptbaserad efterbearbetning och integration med Part-arbetsbänken.</translation>
     </message>
     <message>
@@ -2328,9 +2328,9 @@ skriptbaserad efterbearbetning och integration med Part-arbetsbänken.</translat
       <source>Creates a non-parametric shape for each DXF entity. Block definitions are
 imported as reusable objects (Part Compounds) and instances become `App::Link`
 objects, maintaining the block structure. Good for referencing and measuring.</source>
-      <translation>Skapar en icke-parametrisk form för varje DXF-entitet. Blockdefinitioner importeras
-importeras som återanvändbara objekt (Part Compounds) och instanser blir `App::Link`-objekt
-objekt, vilket bibehåller blockstrukturen. Bra för referenstagning och mätning.</translation>
+      <translation>Skapar en icke-parametrisk form för varje DXF-entitet. Blockdefinitioner
+importeras som återanvändbara objekt (Part Compounds) och instanser blir
+`App::Link`-objekt, vilket bevarar blockstrukturen. Bra för referenstagning och mätning.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-dxf.ui" line="175"/>
