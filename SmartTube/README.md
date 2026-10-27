@@ -20,3 +20,7 @@ etiketten *Feedback* med **Återkoppling**. Detta omfattar även hjälptexter om
 `strings-sv-spel-20261027.xml` översätter kategorietiketten *Gaming* till
 **Spel**. Övriga identiska måltexter i samma kontroll är produktnamn,
 formatnamn eller etablerade facktermer.
+
+`strings-sv-felmeddelanden-20261027.xml` rättar sju rader om spelarfel och
+prestanda. Häftet återställer en felaktig Android-radbrytning, förtydligar
+nätverksfel och använder svensk teknisk terminologi för V-Sync.
