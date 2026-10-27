@@ -145,3 +145,9 @@ kandidater ska rättas efter kontroll mot Crowdins valda måltexter:
 förflyttningsvektorer, statusvärdet ”Inaktiv”, rotationssvep och ett explicit
 framtida återställande av areavärden. Övriga 15 kandidater är godtagbara. Inga
 nya Crowdin-förslag har skapats.
+
+2026-10-27: Ett tjugoandra läsande urval om 20 godkända avvikelser har
+granskats och arkiverats i `approved-differences-sample-22-20261027.md`. En
+kandidat ska rättas efter kontroll mot Crowdins valda måltext: Arch-egenskaperna
+`Width`, `Height` och `Align` ska behållas som modellidentifierare. Övriga 19
+kandidater är godtagbara. Inga nya Crowdin-förslag har skapats.
