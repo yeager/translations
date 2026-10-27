@@ -1,0 +1,14 @@
+{
+  "feature.grass_optimizations.enabled": "Aktiverad",
+  "feature.grass_optimizations.enabled_tooltip": "Använd GPU-styrd bortgallring av gräs och instansierade ritanrop. När funktionen är inaktiverad renderas gräset på den vanliga vägen och alla andra inställningar ignoreras.",
+  "feature.grass_optimizations.far_lod_pixel_size": "Bildpunktsstorlek för avlägsen LOD",
+  "feature.grass_optimizations.far_lod_pixel_size_tooltip": "Instanser vars radie på skärmen är mindre än detta men större än minsta bildpunktsstorlek byts mot _LOD1.nif-meshen. Värden över bildpunktsstorleken för mellan-LOD begränsas till den eftersom det avlägsna bandet alltid är längst bort av de två.",
+  "feature.grass_optimizations.full_detail_pixel_size": "Bildpunktsstorlek för full detaljnivå",
+  "feature.grass_optimizations.full_detail_pixel_size_tooltip": "Instanser vars radie på skärmen är större än detta renderas med full densitet. Under det här värdet glesas densiteten successivt ut till minsta densitet vid minsta bildpunktsstorlek. Om du höjer inställningen förbättras prestandan genom att gräs närmare kameran tas bort.",
+  "feature.grass_optimizations.invisible_fade_cull": "Bortgallring vid osynlig uttoning",
+  "feature.grass_optimizations.invisible_fade_cull_tooltip": "Hoppa över ritning av gräs vars genomskinlighet är lägre än detta tröskelvärde. Gräs med uttoningsvärdet noll är helt osynligt och tas därför bort tidigt av prestandaskäl.",
+  "feature.grass_optimizations.key_feature_1": "Samlar gräsritanrop per form till ett instansierat indirekt ritanrop per mesh-nivå och grästyp",
+  "feature.grass_optimizations.key_feature_2": "GPU-beräknad bortgallring av enskilda instanser efter synfält, avstånd och projicerad storlek",
+  "feature.grass_optimizations.key_feature_3": "Hi-Z-ocklusionsgallring hoppar över gräs som döljs bakom objekt innan hörnpunktsskuggaren körs",
+  "feature.grass_optimizations.key_feature_4": "Konfigurerbart renderingsavstånd bortom den vanliga INI-gränsen med densitetsskalning"
+}
