@@ -10,6 +10,12 @@ arkivering. För filer med formatmarkörer har motsvarande markörer jämförts.
 L10n-lint, svensk språkgranskning, Hunspell-genomgång, JSON-syntax och
 Gitleaks har körts för respektive häfte.
 
+Den 27 oktober jämfördes dessutom samtliga 367 aktuella nycklar i
+`feature.effects11` med Open Shaders-arkivet. Alla 367 finns arkiverade utan
+saknade eller extra nycklar. Denna kontroll säger endast att underlaget är
+helt; varje delta ska fortfarande jämföras med en ny Weblate-export före
+import efter upplåsningen.
+
 Häftena 26–67 omfattar 438 av dessa nycklar. De är inte dubbletter av redan
 arkiverade källnycklar, med undantag för Regndroppars ljusbrytning (häfte 29),
 som är en dokumenterad språklig kvalitetshöjning av en äldre lokal version.
