@@ -19,3 +19,12 @@ l10n-lint, svlang och Gitleaks passerar utan fel eller varningar. Hunspell-sv
 markerar endast sökprefixen `fi` och `fo` samt sammansättningen `mappnamn` i
 hjälptexten; de behålls av funktionsskäl. Deltat är inte uppladdat till
 Transifex och ingen visning i spelet har verifierats.
+
+En kompletterande tvåsträngarsfil,
+`sv-huvudfil-rapportdialog-20261027.delta.xml`, rättar felrapporteringsdialogens
+två texter. De tidigare texterna innehöll bland annat ”sätte på ett fel”,
+felaktigt verb efter ”för att” och en subjektväxling där loggen själv påstods
+skickas in. De nya texterna bevarar radbrytningarna från källan och använder
+en konsekvent du-form. XML, nycklar och radbrytningar, l10n-lint, svlang,
+Hunspell-sv och en avgränsad Gitleaks-kontroll passerar; Hunspell markerar
+endast projektnamnet Vocaluxe.
