@@ -1,0 +1,18 @@
+{
+  "feature.light_limit_fix.contact_shadow_length": "Längd",
+  "feature.light_limit_fix.contact_shadow_length_tooltip": "Strållängd mot varje ljuskälla nära kameran. Längre bort ökar den med djupet så att skuggan behåller sin storlek på skärmen. Längre värde ger större räckvidd i skärmutrymme med grövre detalj.",
+  "feature.light_limit_fix.contact_shadow_max_distance": "Maxavstånd",
+  "feature.light_limit_fix.contact_shadow_max_distance_tooltip": "Djup i vyutrymme där kontaktskuggor tonas ned till noll steg. Undviker kostnad för skuggor på avlägsna ytor där de inte märks.",
+  "feature.light_limit_fix.contact_shadow_max_steps": "Maxsteg",
+  "feature.light_limit_fix.contact_shadow_max_steps_tooltip": "Strålmarschsteg vid noll djup, fördelade mot den skuggade punkten. En stråle använder bara så många steg som längden på skärmen tillåter; över fyra steg avvisas strålar tidigt om de aldrig närmar sig en skymmande yta.",
+  "feature.light_limit_fix.contact_shadow_min_intensity": "Minsta ljusintensitet",
+  "feature.light_limit_fix.contact_shadow_min_intensity_tooltip": "Hoppa över kontaktskuggor för `CLUSTERED`-ljuskällor vars normaliserade avståndsfall `1 - (lightDist/radius)^2` vid bildpunkten ligger under detta tröskelvärde. Strikta ljuskällor strålmarscheras alltid oavsett tröskelvärdet. Högre värde ger större prestandavinst, men kan ta bort diskreta skuggor från svaga ljuskällor vid räckviddens gräns.",
+  "feature.light_limit_fix.contact_shadow_thickness": "Tjocklek",
+  "feature.light_limit_fix.contact_shadow_thickness_tooltip": "Antagen tjocklek för varje yta. En stråle som passerar längre bakom en yta än detta värde går runt den i stället för att skuggas. Högre värden behandlar ytor som tjockare och skuggar mer bakom dem.",
+  "feature.light_limit_fix.contact_shadow_tuning": "Inställning av kontaktskuggor",
+  "feature.light_limit_fix.contact_shadows_header": "Kontaktskuggor",
+  "feature.light_limit_fix.conv_reason_excess": "Orsak: överskott; rankad under skuggkastarbudgeten.",
+  "feature.light_limit_fix.conv_reason_frustum": "Orsak: synfälts- eller avståndsgallrad; utanför skärmen eller bortom gränsen för gallring av skuggor.",
+  "feature.light_limit_fix.conv_reason_lod": "Orsak: LOD-tonad bort; bortom ljuskällans avtoningsavstånd för LOD.",
+  "feature.light_limit_fix.conv_reason_misc": "Orsak: avvisad av motorns synlighetstest."
+}
