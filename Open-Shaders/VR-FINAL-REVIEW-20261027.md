@@ -13,6 +13,7 @@ och jämförelse med Hosted Weblates aktuella export.
 
 JSON-syntax, nyckeljämförelse, `l10n-lint`, svensk språkgranskning,
 Hunspell-genomgång, Gitleaks och Git-whitespacekontroll har körts.
-`svlang` rapporterar inga språkfel. Hunspell markerar endast förkortningar och
+`svlang` ger en felaktig V2-varning för den tekniska satsen som beskriver
+delning av skuggning mellan ögonen. Hunspell markerar endast förkortningar och
 tekniska fackord. En arkivjämförelse bekräftar att samtliga 58
 `feature.vr`-nycklar är täckta.
