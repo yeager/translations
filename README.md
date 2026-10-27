@@ -15,6 +15,7 @@ Senaste tillägg som ännu inte hunnit in i den alfabetiska projektöversikten:
 | [Open-Shaders](Open-Shaders/) | 2026-10-27 | [CS-redigerarens reglage, häfte 23](Open-Shaders/CS-EDITOR-CONTROLS-REVIEW-20261027.md) med sju strängar. Filen är arkiverad, men inte inskickad eftersom Weblate-komponenten är låst | För in uppgifterna i projektets huvudrad när nästa samlade statusuppdatering görs |
 | [Open-Shaders](Open-Shaders/) | 2026-10-27 | [Terrängblandning, häfte 26](Open-Shaders/TERRAIN-BLENDING-REVIEW-20261027.md) med nio strängar. Filen är arkiverad, men inte inskickad eftersom Weblate-komponenten är låst | För in uppgifterna i projektets huvudrad när nästa samlade statusuppdatering görs |
 | [Open-Shaders](Open-Shaders/) | 2026-10-27 | [Enhetligt vatten, häfte 27](Open-Shaders/UNIFIED-WATER-REVIEW-20261027.md) med elva strängar. Filen är arkiverad, men inte inskickad eftersom Weblate-komponenten är låst | För in uppgifterna i projektets huvudrad när nästa samlade statusuppdatering görs |
+| [Open-Shaders](Open-Shaders/) | 2026-10-27 | [VR-stereo, häfte 28](Open-Shaders/VR-STEREO-REVIEW-20261027.md) med arton strängar. Filen är arkiverad, men inte inskickad eftersom Weblate-komponenten är låst | För in uppgifterna i projektets huvudrad när nästa samlade statusuppdatering görs |
 
 | Projekt | Senaste arkivändring | Granskning och underlag | Status i arkivet | Att göra |
 | --- | --- | --- | --- | --- |

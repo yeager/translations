@@ -1,0 +1,20 @@
+{
+  "feature.vr_stereo.classify_with_depth_history": "Klassificera med djuphistorik",
+  "feature.vr_stereo.classify_with_depth_history_tooltip": "Funktionen klassificerar utifrån det närmaste av djupförpasset och föregående bildrutas slutliga djup, så att ytor som förpasset hoppar över, till exempel alfa-testade stenar och vägkanter, inte längre gallras bort i höger öga.\nEndast felsökning: om detta stängs av återkommer felet med saknad geometri.",
+  "feature.vr_stereo.debug": "Felsökning",
+  "feature.vr_stereo.directional_occlusion_ratio": "Riktningsberoende ocklusionsförhållande",
+  "feature.vr_stereo.directional_occlusion_ratio_tooltip": "Fångar silhuettkanter som en vanlig kontroll med djuputjämning missar.\nFunktionen utlöses när djupet för öga 0 är mindre än denna andel av djupet för öga 1 (t.ex. 0,9 innebär att öga 0 är mer än 10 % närmare).\nHögre värde ger aggressivare filtrering. 0 inaktiverar funktionen.",
+  "feature.vr_stereo.disocclusion_depth_threshold": "Djuptröskel för avtäckning",
+  "feature.vr_stereo.enable": "Aktivera",
+  "feature.vr_stereo.enable_stereo_reprojection": "Aktivera stereo-omprojektion",
+  "feature.vr_stereo.enable_stereo_reprojection_tooltip": "Funktionen omprojicerar pixlar från öga 0 (vänster) till öga 1 (höger) med hjälp av djup- och rörelsedata och hoppar över överflödig fullständig skuggning där vyerna överlappar.\nMinskar GPU-belastningen i VR genom att varje pixel skuggas färre gånger per bildruta.",
+  "feature.vr_stereo.full_blend_distance": "Avstånd för fullständig blandning",
+  "feature.vr_stereo.full_blend_distance_tooltip": "Geometri närmare än detta avstånd (spelenheter) undantas från gallring och återges normalt i båda ögonen. 0 = inaktiverad.",
+  "feature.vr_stereo.off": "Av",
+  "feature.vr_stereo.reclassify_after_repair": "Klassificera om efter reparation",
+  "feature.vr_stereo.reclassify_after_repair_tooltip": "Kör om pixelklassificeringen med det färdiga djupet så att omprojektionen för Screen Space GI ser de återställda objekten.\nDetta är endast för felsökning och körs bara när detta är aktiverat.",
+  "feature.vr_stereo.repair_from_eye0_depth": "Reparera utifrån vänster ögas djup",
+  "feature.vr_stereo.repair_from_eye0_depth_tooltip": "Funktionen återställer objekt som djupförpasset hoppar över, exempelvis alfa-testade stenar och vägkanter, i höger öga med hjälp av vänster ögas slutliga djup.\nEndast felsökning: om detta stängs av återkommer felet med saknad geometri.",
+  "feature.vr_stereo.skip_pixel_reprojection": "Hoppa över omprojektion av pixlar",
+  "feature.vr_stereo.stencil_swaps_this_frame": "Stencilväxlingar i den här bildrutan: %u"
+}
