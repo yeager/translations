@@ -115,3 +115,7 @@ passerar. Häftet är en lokal deltafil; ingen uppströms-PR har skapats.
 Det elfte häftet rättar elva UI-texter om spelbibliotek, bildåtergivning och
 menyljud. Det bevarar platshållare och tekniska produktnamn, men ersätter
 felaktiga böjningar och direkta engelskpåverkningar med naturlig svenska.
+
+Det tolfte häftet normaliserar 24 korta åtgärds- och statusrader från tre
+punkter till svenska ellipstecken. Inga betydelser eller tekniska termer har
+ändrats, och platshållaren `{n}` är bevarad.
