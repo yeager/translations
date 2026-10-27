@@ -34,10 +34,20 @@ Av de ursprungliga elva deltaenheterna matchar tre redan uppströmstexten,
 sju källtexter finns inte längre i katalogen och en sträng skiljer fortfarande.
 
 Den återstående radbrytningsrättningen för `mailman shell` ligger därför i den
-nya enpostersfilen `mailman-core-sv-live-jamford-20261027.delta.po`. Den är
-den enda av de elva ursprungliga enheterna som kan importeras utan att försöka
-återinföra föråldrade källtexter. Den är ännu inte uppladdad.
+nya enpostersfilen `mailman-core-sv-live-jamford-20261027.delta.po`. Den var
+den enda av de elva ursprungliga enheterna som kunde importeras utan att
+försöka återinföra föråldrade källtexter. Den sparades i Hosted Weblate
+2026-10-27 och kontrollvarningen för posten försvann.
 
 Den separata kontrollen av enpostersfilen passerar `msgfmt`, `l10n-lint`,
 `svlang` och Gitleaks. Hunspell träffar enbart de granskade fack- och
 kommandotermerna `anropbart`, `modulsökvägen`, `listspec` och `details`.
+
+## Avsiktligt tomma poster
+
+Weblate visar fortfarande tre poster som oöversatta. De har dock tom
+källtext och representerar endast kontexterna
+`list:member:digest:header.txt`, `list:member:regular:header.txt` och
+`list:user:notice:goodbye.txt`. Kommentarerna på samtliga tre uppmanar till
+att ta bort tomma strängar. De ska lämnas tomma och får inte ersättas med
+översatta filnamn eller importeras som deltakatalog.
