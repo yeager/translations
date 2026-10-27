@@ -4,7 +4,7 @@ Den aktuella engelska och svenska JSON-katalogen hämtades den 27 oktober
 2026. Den svenska katalogen hade 5 140 strängar: 1 238 översatta och 3 902
 tomma. Weblate-komponenten var låst och inga ändringar kunde skickas upp.
 
-De 91 komponentvisa JSON-filerna med datumet 2026-10-27 omfattar 1 081 unika
+De 92 komponentvisa JSON-filerna med datumet 2026-10-27 omfattar 1 084 unika
 källnycklar. Varje fil har kontrollerats mot den engelska katalogen före
 arkivering. För filer med formatmarkörer har motsvarande markörer jämförts.
 L10n-lint, svensk språkgranskning, Hunspell-genomgång, JSON-syntax och
@@ -29,8 +29,9 @@ Menyn `menu.performance` är också fullständig med 24 av 24 nycklar i två
 separata små häften. Inga nycklar saknas i arkivjämförelsen.
 
 `feature.grass_optimizations` är fullständig med 45 av 45 nycklar.
+`menu.home` är fullständig med 49 av 49 nycklar.
 
-Häftena 26–90 omfattar 664 av dessa nycklar. De är inte dubbletter av redan
+Häftena 26–91 omfattar 667 av dessa nycklar. De är inte dubbletter av redan
 arkiverade källnycklar, med undantag för Regndroppars ljusbrytning (häfte 29),
 som är en dokumenterad språklig kvalitetshöjning av en äldre lokal version.
 
