@@ -111,3 +111,7 @@ minneskort, bredbild och menyljud. Samtliga nycklar finns i den aktuella
 källistan och platsmarkörer är identiska med engelskan. JSON-tolkning,
 `l10n-lint`, `svlang`, Hunspell-granskning, termbankskontroll och Gitleaks
 passerar. Häftet är en lokal deltafil; ingen uppströms-PR har skapats.
+
+Det elfte häftet rättar elva UI-texter om spelbibliotek, bildåtergivning och
+menyljud. Det bevarar platshållare och tekniska produktnamn, men ersätter
+felaktiga böjningar och direkta engelskpåverkningar med naturlig svenska.
