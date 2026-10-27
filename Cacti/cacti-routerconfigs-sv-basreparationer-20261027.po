@@ -140,3 +140,242 @@ msgstr "E-postalternativ"
 #: includes/arrays.php
 msgid "From Address"
 msgstr "Avsändaradress"
+
+#: includes/functions.php
+#, php-format
+msgid "WARN: Backup already running since %s"
+msgstr "VARNING: Säkerhetskopiering pågår redan sedan %s"
+
+#: includes/functions.php
+#, php-format
+msgid "Cacti Device id %s was not found; not added to RouterConfigs."
+msgstr "Cacti-enheten med ID %s hittades inte och lades inte till i RouterConfigs."
+
+#: includes/functions.php
+#, php-format
+msgid "Device '%s' added to RouterConfigs (disabled until an account and device type are set)."
+msgstr "Enheten ”%s” lades till i RouterConfigs och är inaktiverad tills ett konto och en enhetstyp har angetts."
+
+#: includes/functions.php
+#, php-format
+msgid "ERROR: Failed to connect to Device '%s' using connection type: %s"
+msgstr "FEL: Det gick inte att ansluta till enheten ”%s” med anslutningstypen %s"
+
+#: includes/functions.php
+#, php-format
+msgid "ERROR: Failed to download '%s' to '%s' via '%s'"
+msgstr "FEL: Det gick inte att ladda ner ”%s” till ”%s” via ”%s”"
+
+#: router-backups.php
+msgid "Either an IP address, or hostname.  If a hostname, it must be resolvable by either DNS, or from your hosts file."
+msgstr "Antingen en IP-adress eller ett värdnamn. Om det är ett värdnamn måste det kunna lösas med DNS eller via din värdfil."
+
+#: router-backups.php
+msgid "Perform functions against this backup"
+msgstr "Utför åtgärder för den här säkerhetskopian"
+
+#: router-backups.php
+msgid "The last Backup time of the device"
+msgstr "Tidpunkten då enheten senast säkerhetskopierades"
+
+#: router-backups.php
+msgid "Last Change"
+msgstr "Senaste ändring"
+
+#: router-backups.php
+msgid "The last Change time of the device"
+msgstr "Tidpunkten för enhetens senaste ändring"
+
+#: router-backups.php
+msgid "Changed By"
+msgstr "Ändrad av"
+
+#: router-backups.php
+msgid "The last person to change the configuration of the device"
+msgstr "Den person som senast ändrade enhetens konfiguration"
+
+#: router-compare.php
+msgid "Router Backup Comparison"
+msgstr "Jämförelse av routerns säkerhetskopior"
+
+#: router-compare.php
+msgid "Compare Output"
+msgstr "Jämförelseresultat"
+
+#: router-devices.php
+#, php-format
+msgid "DEBUG: Executing manual backup using '%s' with arguments '%s'"
+msgstr "DEBUG: Utför manuell säkerhetskopiering med ”%s” och argumenten ”%s”"
+
+#: router-devices.php
+msgid "Click 'Continue' to clear the stored SSH host key for the following device(s). The next SSH connection will trust and record the key it receives."
+msgstr "Klicka på ”Fortsätt” för att rensa den sparade SSH-värdnyckeln för följande enhet(er). Nästa SSH-anslutning godtar och sparar nyckeln den får."
+
+#: router-devices.php
+msgid "The device type of the device"
+msgstr "Enhetstyp för den här enheten"
+
+#: router-devices.php
+msgid "Connect Type"
+msgstr "Anslutningstyp"
+
+#: router-devices.php
+msgid "Configs"
+msgstr "Konfigurationer"
+
+#: router-devices.php
+msgid "The per-device TFTP server, or Default when it uses the global TFTP Server setting"
+msgstr "TFTP-server för den här enheten eller standardservern när den globala inställningen för TFTP-server används"
+
+#: router-devices.php
+msgid "Next Backup"
+msgstr "Nästa säkerhetskopiering"
+
+#: router-devtypes.php
+msgid "Router Debug Info"
+msgstr "Felsökningsinformation för router"
+
+#: router-devtypes.php
+msgid "Pass Prompt"
+msgstr "Lösenordsprompt"
+
+#: router-devtypes.php
+msgid "Confirm Prompt"
+msgstr "Bekräftelseprompt"
+
+#: router-devtypes.php
+msgid "Check End In Config"
+msgstr "Kontrollera slutet i konfigurationen"
+
+#: router-devtypes.php
+#, php-format
+msgid "DEBUG: Executing '%s' with arguments '%s'"
+msgstr "DEBUG: Kör ”%s” med argumenten ”%s”"
+
+#: setup.php
+msgid "Utilities"
+msgstr "Verktyg"
+
+#: setup.php
+msgid "Router Devices"
+msgstr "Routerenheter"
+
+#: setup.php
+msgid "Router Accounts"
+msgstr "Routerkonton"
+
+#: setup.php
+msgid "Router Compare"
+msgstr "Jämför routrar"
+
+#: includes/arrays.php
+msgid "00:00 (12am)"
+msgstr "00:00"
+
+#: includes/arrays.php
+msgid "01:00 (1am)"
+msgstr "01:00"
+
+#: includes/arrays.php
+msgid "02:00 (2am)"
+msgstr "02:00"
+
+#: includes/arrays.php
+msgid "03:00 (3am)"
+msgstr "03:00"
+
+#: includes/arrays.php
+msgid "04:00 (4am)"
+msgstr "04:00"
+
+#: includes/arrays.php
+msgid "05:00 (5am)"
+msgstr "05:00"
+
+#: includes/arrays.php
+msgid "06:00 (6am)"
+msgstr "06:00"
+
+#: includes/arrays.php
+msgid "07:00 (7am)"
+msgstr "07:00"
+
+#: includes/arrays.php
+msgid "08:00 (8am)"
+msgstr "08:00"
+
+#: includes/arrays.php
+msgid "09:00 (9am)"
+msgstr "09:00"
+
+#: includes/arrays.php
+msgid "10:00 (12am)"
+msgstr "10:00"
+
+#: includes/arrays.php
+msgid "11:00 (11am)"
+msgstr "11:00"
+
+#: includes/arrays.php
+msgid "12:00 (12pm)"
+msgstr "12:00"
+
+#: includes/arrays.php
+msgid "13:00 (1pm)"
+msgstr "13:00"
+
+#: includes/arrays.php
+msgid "14:00 (2pm)"
+msgstr "14:00"
+
+#: includes/arrays.php
+msgid "15:00 (3pm)"
+msgstr "15:00"
+
+#: includes/arrays.php
+msgid "16:00 (4pm)"
+msgstr "16:00"
+
+#: includes/arrays.php
+msgid "17:00 (5pm)"
+msgstr "17:00"
+
+#: includes/arrays.php
+msgid "18:00 (6pm)"
+msgstr "18:00"
+
+#: includes/arrays.php
+msgid "19:00 (7pm)"
+msgstr "19:00"
+
+#: includes/arrays.php
+msgid "20:00 (8pm)"
+msgstr "20:00"
+
+#: includes/arrays.php
+msgid "21:00 (9pm)"
+msgstr "21:00"
+
+#: includes/arrays.php
+msgid "22:00 (10pm)"
+msgstr "22:00"
+
+#: includes/arrays.php
+msgid "23:00 (11pm)"
+msgstr "23:00"
+
+#: includes/arrays.php
+msgid "Uncheck this box to disabled this device from being backed up."
+msgstr "Avmarkera rutan om enheten inte ska säkerhetskopieras."
+
+#: includes/arrays.php
+msgid "Name of this device (will be used for config saving and SVN if no hostname is present in config)."
+msgstr "Namn på den här enheten. Det används för att spara konfigurationen och för SVN om det inte finns något värdnamn i konfigurationen."
+
+#: includes/arrays.php
+msgid "Connection Type"
+msgstr "Anslutningstyp"
+
+#: includes/arrays.php
+msgid "Choose an account to use to Login to the router"
+msgstr "Välj ett konto för att logga in på routern"
