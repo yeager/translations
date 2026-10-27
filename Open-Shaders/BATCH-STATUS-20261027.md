@@ -4,7 +4,7 @@ Den aktuella engelska och svenska JSON-katalogen hämtades den 27 oktober
 2026. Den svenska katalogen hade 5 140 strängar: 1 238 översatta och 3 902
 tomma. Weblate-komponenten var låst och inga ändringar kunde skickas upp.
 
-De 163 komponentvisa JSON-filerna med datumet 2026-10-27 omfattar 2 054 unika
+De 164 komponentvisa JSON-filerna med datumet 2026-10-27 omfattar 2 062 unika
 källnycklar. Varje fil har kontrollerats mot den engelska katalogen före
 arkivering. För filer med formatmarkörer har motsvarande markörer jämförts.
 L10n-lint, svensk språkgranskning, Hunspell-genomgång, JSON-syntax och
@@ -44,7 +44,7 @@ sammanfogats lokalt och kontrollerats som en helhet: JSON, L10n-lint,
 Gitleaks och formatmarkörer är godkända. Arkivjämförelsen visar 73 av 73
 nycklar, utan saknade eller extra nycklar.
 
-Häftena 26–162 omfattar 1 637 av dessa nycklar. De är inte dubbletter av redan
+Häftena 26–163 omfattar 1 645 av dessa nycklar. De är inte dubbletter av redan
 arkiverade källnycklar, med undantag för Regndroppars ljusbrytning (häfte 29),
 som är en dokumenterad språklig kvalitetshöjning av en äldre lokal version.
 
@@ -69,8 +69,9 @@ arkiverade. De nio häftena har sammanfogats och jämförts med källkatalogen:
 formatmarkörer eller radbrytningar. L10n-lint och Gitleaks är godkända för den
 sammanslagna komponenten.
 
-För `feature.perf_overlay` har de nio första häftena granskats: 144 av 152
-nycklar. De återstående 8 nycklarna behöver samma radvisa granskning.
+Samtliga 152 aktuella nycklar i `feature.perf_overlay` är granskade och
+arkiverade. De tio häftena behöver sammanfogas och jämföras med källkatalogen
+innan komponenten kan markeras som helt lokalt kontrollerad.
 
 Open Shaders uppfyller färskhetskravet genom den officiella utgåvan `v2.19.0`
 från 18 oktober 2026. Nästa steg är att importera de komponentvisa filerna
