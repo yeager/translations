@@ -118,3 +118,10 @@ kandidater ska rättas efter kontroll mot Crowdins valda måltexter:
 ”yta som inte kan återställas”, och `Datums` är ”Referensgeometri” i
 kommandogruppen. Övriga 17 kandidater är godtagbara. Inga nya Crowdin-förslag
 har skapats.
+
+2026-10-27: Ett artonde läsande urval om 20 godkända avvikelser har granskats
+och arkiverats i `approved-differences-sample-18-20261027.md`. Fyra kandidater
+ska rättas efter kontroll mot Crowdins valda måltexter: `plant` ska vara
+”planärt”, och tre Part Design-poster ska använda ”referensgeometri” i stället
+för ”referensobjekt”. Övriga 16 kandidater är godtagbara. Inga nya
+Crowdin-förslag har skapats.
