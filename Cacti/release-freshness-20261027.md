@@ -66,3 +66,12 @@ Den mindre komponentfilen
 `cacti-mikrotik-sv-live-jamford-20261027.po` innehåller de tio återstående
 rättningarna. Den är inte inskickad; jämför den med Cacti Translate en gång
 till om servern hinner synkas före en uppladdning.
+
+## MacTrack
+
+MacTracks senaste stabila release är `v4.8`, publicerad 2024-10-16, och
+uppfyller därmed 48-månadersregeln. Den komponentvisa deltafilen
+`cacti-mactrack-kontrollrattelser-20261027.po` innehåller sex rättelser.
+En radvis jämförelse mot den aktuella katalogen på `develop` 2026-10-27
+visade att alla sex fortfarande skiljer sig från uppströms måltexter; ingen
+post var redan rättad eller saknades. Filen är inte inskickad.
