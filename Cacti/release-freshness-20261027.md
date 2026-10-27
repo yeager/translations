@@ -35,3 +35,17 @@ Termbanken föreslår ibland ”varning” för *alert*, men Tholds källtexter
 skiljer uttryckligen på *alerts* och *warnings*. I den här komponenten är
 ”larm” respektive ”varning” därför avsiktliga och kontextkorrekta termer.
 Filen är inte inskickad och ska jämföras med aktuell måltext före uppladdning.
+
+## MikroTik
+
+Tholds syskonkomponent MikroTik har den senaste stabila releasen `v3.1`,
+publicerad 2023-01-29. Den ligger inom 48 månader från kontrollen.
+
+Den lokala filen `cacti-mikrotik-sv-lokala-tillagg-20261027.po` innehåller
+13 säkra rättningar och passerar `msgfmt`, `l10n-lint`, `svlang`, Hunspell
+och Gitleaks. Rättningarna innefattar bland annat den skadade måltexten
+”ChangelogLanguage”, som blir ”Ändringslogg”.
+
+Komponentens uppströmsarkiv synkroniserades via Weblate 2026-10-26. Den
+lokala filen måste därför jämföras rad för rad med den aktuella måltexten
+innan en komponentvis uppladdning; den är inte inskickad.
