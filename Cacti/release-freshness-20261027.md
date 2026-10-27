@@ -84,3 +84,11 @@ uppfyller 48-månadersregeln. Den komponentvisa filen
 radvis kontroll mot den aktuella katalogen på `develop` 2026-10-27 visade att
 alla tolv fortfarande skiljer sig från uppströms måltexter; ingen post var
 redan rättad eller saknades. Filen är inte inskickad.
+
+## WebSeer
+
+WebSeers senaste stabila release är `v3.2`, publicerad 2023-02-05, och ligger
+inom 48 månader från kontrollen. Den aktuella, komponentvisa filen
+`cacti-webseer-sv-live-jamford-20261027.po` innehåller 19 kvarvarande
+rättelser efter att tre av 22 tidigare rättelser konstaterats redan matcha
+uppströms. Filen är inte inskickad.
