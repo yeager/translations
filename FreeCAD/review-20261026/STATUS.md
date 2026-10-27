@@ -151,3 +151,9 @@ granskats och arkiverats i `approved-differences-sample-22-20261027.md`. En
 kandidat ska rättas efter kontroll mot Crowdins valda måltext: Arch-egenskaperna
 `Width`, `Height` och `Align` ska behållas som modellidentifierare. Övriga 19
 kandidater är godtagbara. Inga nya Crowdin-förslag har skapats.
+
+2026-10-27: Ett tjugotredje läsande urval om 20 godkända avvikelser har
+granskats och arkiverats i `approved-differences-sample-23-20261027.md`. Tre
+kandidater ska rättas efter kontroll mot Crowdins valda måltexter:
+”cellbindningar” samt totalmått uttryckta som ”i 2D” respektive ”i 3D”. Övriga
+17 kandidater är godtagbara. Inga nya Crowdin-förslag har skapats.
