@@ -13,3 +13,6 @@ förhandsvisningsinställningen. Filen är lokal och inte inskickad uppströms.
 live-streaming till **livesändning** och ersätter den engelskpåverkade
 etiketten *Feedback* med **Återkoppling**. Detta omfattar även hjälptexter om
 återspolning, buffring och enheter med låg prestanda.
+
+`strings-sv-spellista-20261027.xml` rättar en betydelseavvikelse: engelska
+*Shuffle any playlist* avser en valfri spellista, inte samtliga spellistor.
