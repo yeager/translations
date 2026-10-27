@@ -41,11 +41,16 @@ Filen är inte inskickad och ska jämföras med aktuell måltext före uppladdni
 Tholds syskonkomponent MikroTik har den senaste stabila releasen `v3.1`,
 publicerad 2023-01-29. Den ligger inom 48 månader från kontrollen.
 
-Den lokala filen `cacti-mikrotik-sv-lokala-tillagg-20261027.po` innehåller
-13 säkra rättningar och passerar `msgfmt`, `l10n-lint`, `svlang`, Hunspell
-och Gitleaks. Rättningarna innefattar bland annat den skadade måltexten
+Den ursprungliga lokala filen
+`cacti-mikrotik-sv-lokala-tillagg-20261027.po` innehåller 13 säkra
+rättningar och passerar `msgfmt`, `l10n-lint`, `svlang`, Hunspell och
+Gitleaks. Rättningarna innefattar bland annat den skadade måltexten
 ”ChangelogLanguage”, som blir ”Ändringslogg”.
 
-Komponentens uppströmsarkiv synkroniserades via Weblate 2026-10-26. Den
-lokala filen måste därför jämföras rad för rad med den aktuella måltexten
-innan en komponentvis uppladdning; den är inte inskickad.
+Komponentens uppströmsarkiv synkroniserades via Weblate 2026-10-26. En
+radvis jämförelse mot den aktuella uppströmsfilen 2026-10-27 visade att tre
+av strängarna redan matchar: `Total Out`, `No Users Found` och `ChangeLog`.
+Den mindre komponentfilen
+`cacti-mikrotik-sv-live-jamford-20261027.po` innehåller de tio återstående
+rättningarna. Den är inte inskickad; jämför den med Cacti Translate en gång
+till om servern hinner synkas före en uppladdning.
