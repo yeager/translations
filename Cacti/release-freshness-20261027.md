@@ -75,3 +75,12 @@ uppfyller därmed 48-månadersregeln. Den komponentvisa deltafilen
 En radvis jämförelse mot den aktuella katalogen på `develop` 2026-10-27
 visade att alla sex fortfarande skiljer sig från uppströms måltexter; ingen
 post var redan rättad eller saknades. Filen är inte inskickad.
+
+## Monitor
+
+Monitor har den senaste stabila releasen `v2.9`, publicerad 2026-07-09, och
+uppfyller 48-månadersregeln. Den komponentvisa filen
+`cacti-monitor-sv-granskning-20261026.po` innehåller tolv rättelser. En
+radvis kontroll mot den aktuella katalogen på `develop` 2026-10-27 visade att
+alla tolv fortfarande skiljer sig från uppströms måltexter; ingen post var
+redan rättad eller saknades. Filen är inte inskickad.
