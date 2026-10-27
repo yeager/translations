@@ -64,8 +64,10 @@ saknade eller extra nycklar och utan avvikande formatmarkörer. De åtta nya
 häftena omfattar de 119 nycklar som saknades vid denna genomgång.
 
 Samtliga 144 aktuella nycklar i `feature.light_editor` är granskade och
-arkiverade. De nio häftena behöver sammanfogas och jämföras med källkatalogen
-innan komponenten kan markeras som helt lokalt kontrollerad.
+arkiverade. De nio häftena har sammanfogats och jämförts med källkatalogen:
+144 av 144 nycklar finns, utan saknade eller extra nycklar och utan avvikande
+formatmarkörer eller radbrytningar. L10n-lint och Gitleaks är godkända för den
+sammanslagna komponenten.
 
 Open Shaders uppfyller färskhetskravet genom den officiella utgåvan `v2.19.0`
 från 18 oktober 2026. Nästa steg är att importera de komponentvisa filerna
