@@ -1,0 +1,18 @@
+{
+  "feature.light_limit_fix.tolerant_split_cache_tooltip": "Behåller en ljuskällas bakade statiska skugga när ljuset bara förskjuts några\nvärldsenheter eller några procent i radie (fladdrande låga), i stället för att baka om\nden varje gång. Tar bort den statiska omritningen för fladdrande ljus.",
+  "feature.light_limit_fix.type_focus": "Fokus",
+  "feature.light_limit_fix.type_focus_tooltip": "Motorägd fokusskuggplats.\nFocusShadowActors[%u] = högupplöst skugga för en spårad\naktör (spelare + NPC:er i dialog/strid). SCM reserverar\nplatsen så att motorns fokusrendering inte körs över\nav punkt- eller strålkastarljus.",
+  "feature.light_limit_fix.verdict_at_limits": "VID GRÄNSERNA",
+  "feature.light_limit_fix.verdict_at_limits_tip": "Både maximalt antal omritningar och Antal skuggljuskällor är fullt. Aktivera Konvertera till vanligt eller höj Antal skuggljuskällor.",
+  "feature.light_limit_fix.verdict_headroom": "SPELRUM",
+  "feature.light_limit_fix.verdict_headroom_tip": "Mindre än hälften av omritningsbudgeten används. Höj maximalt antal omritningar eller acceptera spelrummet.",
+  "feature.light_limit_fix.verdict_light_limited": "LJUSBEGRÄNSAD",
+  "feature.light_limit_fix.verdict_light_limited_tip": "Antal skuggljuskällor är fullt. Aktivera Konvertera till vanligt eller höj Antal skuggljuskällor.",
+  "feature.light_limit_fix.verdict_ok": "OK",
+  "feature.light_limit_fix.verdict_ok_tip": "Inom omritningsbudgeten; inga gränser har nåtts.",
+  "feature.light_limit_fix.verdict_over_budget": "ÖVER BUDGET",
+  "feature.light_limit_fix.verdict_over_budget_tip": "Skuggtiden överskrider omritningsbudgeten. Sänk maximalt antal omritningar eller höj omritningsbudgeten.",
+  "feature.light_limit_fix.verdict_redraw_limited": "OMRITNINGSBEGRÄNSAD",
+  "feature.light_limit_fix.verdict_redraw_limited_tip": "Maximalt antal omritningar per bildruta nås. Höj det för att använda den oanvända omritningsbudgeten.",
+  "feature.light_limit_fix.visualisation_tooltip_shadow_modes": "\nSkuggmask: R=riktad mjuk skugga, G=riktad detaljerad skugga.\n\nAntal skuggljuskällor: Värmekarta över punkt- och strålkastarljus som kastar skuggor per bildpunkt (blå=0, röd=8+).\nAnvänd den för att bedöma skuggtätheten; höga antal tyder på dyr skuggprovtagning.\n\nSkuggfaktor för punktljus: Ljusstyrkan visar det mörkaste skuggvärdet från ett punkt- eller strålkastarljus.\nVitt=helt belyst, svart=helt i skugga. Visar var PCF/PCSS-filtrering är aktiv.\n\nPunktljus utan skugga: Värmekarta över punkt- och strålkastarljus utan skuggkartor (blå=0, röd=8+).\nHöga värden där ljusen är ljusa visar var gränsen för skuggplatser försämrar kvaliteten.\n\nSkuggtäthet: Anpassade Turbo-intervall visar hur hårt skuggplatserna används.\n  Kall (Turbo 0,0–0,3): 1–4 skuggljuskällor per bildpunkt.\n  Varm (Turbo 0,3–0,8): 5 till ShadowMapSlots ljuskällor (dynamiskt omfång).\n  Klarröd: överskridning. Ett ljus behövde en skuggplats men ingen fanns tillgänglig.\n\nFärg efter skuggplatsindex: Ger varje skuggplats en unik färg med hög kontrast\n(följden för gyllene snittet), så att du kan se vilken plats som kastar huvudskuggan.\nDet första giltiga indexet för skuggljus per bildpunkt visas. Klarrött = platsöverskridning.\n\nVisualisering av ljustyp: RGB-kanaler kodar typen av skuggljus per bildpunkt.\n  R = strålkastarljus/frustum (ShadowParam.x == 0).\n  G = halvklotsljus (enkel kupolprojektion; ShadowParam.x == 1).\n  B = sfäriska ljus (full kupolprojektion; ShadowParam.x == 2).\n  Mörkgrå = endast ljus utan skugga (inga skuggkartor tilldelade).\n  Klarröd = överskridning (platskapaciteten överskriden).\nIntensiteten skalas med antal (upp till 4); kanaler blandas för bildpunkter med flera typer."
+}
