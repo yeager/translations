@@ -26,3 +26,9 @@ Kandidaten omfattar 5 656 meddelanden och får inte laddas upp som en enda
 Weblate-batch. Deltafilen `duckstation-qt_sv-lint-fixes-20261027.delta.ts`
 innehåller därför enbart de 14 berörda meddelandena. Vid inskickning ska den
 kontrolleras mot aktuell upstreamkatalog först.
+
+Upstreamkontroll 2026-10-27: den hämtade katalogen från DuckStations `master`
+hade SHA-256 `ff2fe70be8b7a160fa27f9619ef3577c77cb276b797a573c848bb31e6352f2c0`.
+Alla 14 nycklar finns kvar med samma källtext och samtliga har ännu en annan
+svensk måltext upstream. Deltat är alltså fortfarande aktuellt, men inte
+inskicks- eller mergeverifierat.
