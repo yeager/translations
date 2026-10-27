@@ -89,7 +89,7 @@ formatmarkörer, bokstavliga procenttecken eller radbrytningar. JSON-syntax,
 `l10n-lint` och Gitleaks är godkända. Se även
 [integrationsgranskningen](WETNESS-EFFECTS-INTEGRATION-REVIEW-20261027.md).
 
-För `feature.light_limit_fix` har det första häftet granskats: 16 av 649
+För `feature.light_limit_fix` har det första häftet granskats: 16 av 326
 nycklar. De återstående nycklarna behöver samma radvisa granskning.
 
 Samtliga 157 aktuella nycklar i `menu.advanced` är granskade och arkiverade.
