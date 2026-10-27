@@ -82,3 +82,9 @@ ska vara ”Kuggstångs- och pinjongled”, `revolute joints` ska vara
 ”rotationsleder” och den äldre Drawing-strängen ska använda
 ”Automatisk skala/position” utan blanksteg vid snedstrecket. Övriga 16
 kandidater är godtagbara. Inga nya Crowdin-förslag har skapats.
+
+2026-10-27: Ett tolfte läsande urval om 20 godkända avvikelser har granskats
+och arkiverats i `approved-differences-sample-12-20261027.md`. En kandidat ska
+rättas efter kontroll mot Crowdins valda måltext: `Plane Multi-Point Constraint`
+ska vara ”Flerpunktsvillkor för plan”, inte ”Plant flerpunktsvillkor”. Övriga
+19 kandidater är godtagbara. Inga nya Crowdin-förslag har skapats.
