@@ -20,6 +20,7 @@ Senaste tillägg som ännu inte hunnit in i den alfabetiska projektöversikten:
 | [Open-Shaders](Open-Shaders/) | 2026-10-27 | [Startinställningar för menyn, häfte 30](Open-Shaders/MENU-SETUP-REVIEW-20261027.md) med åtta strängar. Filen är arkiverad, men inte inskickad eftersom Weblate-komponenten är låst | För in uppgifterna i projektets huvudrad när nästa samlade statusuppdatering görs |
 | [Open-Shaders](Open-Shaders/) | 2026-10-27 | [Töm shader-cache, häfte 31](Open-Shaders/CLEAR-SHADER-CACHE-REVIEW-20261027.md) med fem strängar. Filen är arkiverad, men inte inskickad eftersom Weblate-komponenten är låst | För in uppgifterna i projektets huvudrad när nästa samlade statusuppdatering görs |
 | [Open-Shaders](Open-Shaders/) | 2026-10-27 | [Menyfot, häfte 32](Open-Shaders/MENU-FOOTER-REVIEW-20261027.md) med tre strängar. Filen är arkiverad, men inte inskickad eftersom Weblate-komponenten är låst | För in uppgifterna i projektets huvudrad när nästa samlade statusuppdatering görs |
+| [Open-Shaders](Open-Shaders/) | 2026-10-27 | [Grundläggande menyåtgärder, häfte 33](Open-Shaders/MENU-BASIC-ACTIONS-REVIEW-20261027.md) med sju strängar. Filen är arkiverad, men inte inskickad eftersom Weblate-komponenten är låst | För in uppgifterna i projektets huvudrad när nästa samlade statusuppdatering görs |
 
 | Projekt | Senaste arkivändring | Granskning och underlag | Status i arkivet | Att göra |
 | --- | --- | --- | --- | --- |
