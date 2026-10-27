@@ -6,4 +6,5 @@ statistisk kontext. `Median delta` blir `mediandelta`; det beskriver
 skillnaden mellan de två medianvärdena utan att förväxlas med medelvärde.
 
 `Shader` behålls som teknisk term och böjs som `shadern`. De sex inledande
-mellanrummen i värdeetiketterna är bevarade.
+mellanrummen i värdeetiketterna är bevarade. Indikatorernas värden uttrycks
+med V2-satser för att vara tydliga även utanför diagrammets sammanhang.
