@@ -94,3 +94,9 @@ granskats och arkiverats i `approved-differences-sample-13-20261027.md`. Alla
 poster är godtagbara i sin FEM- och bildvisningskontext. Den felaktiga
 ensamma avslutande parentesen finns redan i källsträngen och har bevarats för
 att inte skapa en formatavvikelse. Inga nya Crowdin-förslag har skapats.
+
+2026-10-27: Ett fjortonde läsande urval om 20 godkända avvikelser har
+granskats och arkiverats i `approved-differences-sample-14-20261027.md`. En
+kandidat ska rättas efter kontroll mot Crowdins valda måltext: `Section From
+Plane` ska vara ”Snitt med plan”, inte ”Snitt från plan”. Övriga 19 kandidater
+är godtagbara. Inga nya Crowdin-förslag har skapats.
