@@ -51,3 +51,11 @@ och arkiverats i `approved-differences-sample-07-20261027.md`. Alla poster är
 godtagbara i sin kontext. Den granskade FreeCAD-terminologin bekräftar att
 ”beroende objekt” ska skrivas isär i dessa strängar; inga nya Crowdin-förslag
 ska skapas från urvalet.
+
+2026-10-27: Ett åttonde läsande urval om 20 godkända avvikelser har granskats
+och arkiverats i `approved-differences-sample-08-20261027.md`. Två rättelser
+kräver kontroll mot Crowdins valda måltexter: kandidaten ”Växlar till
+perspektiviskt visningsläge” är bättre än den svagare lokala formuleringen
+”perspektivt visningsläge”, och sträng 6687710 ska vara
+”&Rektangelmarkering”, inte ”&Rutmarkering”, enligt FreeCAD-terminologin.
+Övriga arton kandidater är godtagbara. Inga nya Crowdin-förslag har skapats.
