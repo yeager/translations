@@ -11,6 +11,7 @@ Senaste tillägg som ännu inte hunnit in i den alfabetiska projektöversikten:
 | Projekt | Datum | Granskning och status | Att göra |
 | --- | --- | --- | --- |
 | [Open-Shaders](Open-Shaders/) | 2026-10-27 | [Utökade material, häfte 19](Open-Shaders/EXTENDED-MATERIALS-REVIEW-20261027.md) med 22 lokalt kontrollerade strängar och [funktionsöverskrivningar, häfte 20](Open-Shaders/FEATURE-OVERWRITES-REVIEW-20261027.md) med 23. Filerna är arkiverade, men inte inskickade eftersom Weblate-komponenten är låst | För in uppgifterna i projektets huvudrad när nästa samlade statusuppdatering görs |
+| [Open-Shaders](Open-Shaders/) | 2026-10-27 | [Gemensamt gränssnitt, häfte 21](Open-Shaders/COMMON-UI-REVIEW-20261027.md) med fyra strängar och [CS-redigerarens grunder, häfte 22](Open-Shaders/CS-EDITOR-BASICS-REVIEW-20261027.md) med tio. Filerna är arkiverade, men inte inskickade eftersom Weblate-komponenten är låst | För in uppgifterna i projektets huvudrad när nästa samlade statusuppdatering görs |
 
 | Projekt | Senaste arkivändring | Granskning och underlag | Status i arkivet | Att göra |
 | --- | --- | --- | --- | --- |
