@@ -164,3 +164,10 @@ kandidater ska rättas efter kontroll mot Crowdins valda måltexter: `inom
 parentes`, den fullständiga etiketten ”brittiska måttenheter” och ”bygg- och
 anläggningsteknik”. Övriga 17 kandidater är godtagbara. Inga nya
 Crowdin-förslag har skapats.
+
+2026-10-27: Ett tjugofemte läsande urval om 20 godkända avvikelser har
+granskats och arkiverats i `approved-differences-sample-25-20261027.md`. Fem
+kandidater ska rättas efter kontroll mot Crowdins valda måltexter: stegvis
+borrning, planfräsning av ämnets yta, markeringens kanter samt bestämda former
+för rätblocksämnets längd och bredd. Övriga 15 kandidater är godtagbara. Inga
+nya Crowdin-förslag har skapats.
