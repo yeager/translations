@@ -30,6 +30,9 @@ inom 48 månader från kontrollen och kan granskas vidare.
 Intropage har senaste stabila release `v4.0.4`, publicerad 2024-04-26. Även
 det tillägget uppfyller 48-månadersregeln.
 
+WMI saknar verifierbar officiell release och tagg. Nytt WMI-arbete är pausat
+tills en aktuell releasekanal kan beläggas.
+
 ## Thold
 
 Thold är ett separat Cacti-tillägg. Den senaste stabila releasen är `v1.8.2`,

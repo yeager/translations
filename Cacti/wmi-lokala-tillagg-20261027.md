@@ -8,3 +8,7 @@ den aktuella komponentkatalogen.
 Kontroller: `msgfmt`, `l10n-lint` och `svlang` utan fel eller varningar,
 Hunspell har granskats manuellt för facktermer och Gitleaks har inga träffar.
 Filen är arkiverad men ännu inte uppladdad till Cacti Translate.
+
+Efterföljande releasekontroll 2026-10-27 hittade inga officiella GitHub-
+releaser eller taggar för `Cacti/plugin_wmi`. Filen ska därför inte jämföras
+eller importeras vidare förrän projektet har en verifierbar aktuell release.
