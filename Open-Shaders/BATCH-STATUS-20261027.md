@@ -4,7 +4,7 @@ Den aktuella engelska och svenska JSON-katalogen hämtades den 27 oktober
 2026. Den svenska katalogen hade 5 140 strängar: 1 238 översatta och 3 902
 tomma. Weblate-komponenten var låst och inga ändringar kunde skickas upp.
 
-De 102 komponentvisa JSON-filerna med datumet 2026-10-27 omfattar 1 196 unika
+De 103 komponentvisa JSON-filerna med datumet 2026-10-27 omfattar 1 208 unika
 källnycklar. Varje fil har kontrollerats mot den engelska katalogen före
 arkivering. För filer med formatmarkörer har motsvarande markörer jämförts.
 L10n-lint, svensk språkgranskning, Hunspell-genomgång, JSON-syntax och
@@ -33,7 +33,7 @@ separata små häften. Inga nycklar saknas i arkivjämförelsen.
 `menu.features` är fullständig med 54 av 54 nycklar.
 `feature.vr` är fullständig med 58 av 58 nycklar.
 
-Häftena 26–101 omfattar 779 av dessa nycklar. De är inte dubbletter av redan
+Häftena 26–102 omfattar 791 av dessa nycklar. De är inte dubbletter av redan
 arkiverade källnycklar, med undantag för Regndroppars ljusbrytning (häfte 29),
 som är en dokumenterad språklig kvalitetshöjning av en äldre lokal version.
 
