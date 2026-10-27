@@ -17,7 +17,6 @@ skickades till Crowdin.
 
 - 6644244 och 6674862 `Array` ska vara `Matris`, inte `Mönster`.
 - 6681254 och 6674864 ska använda `matris` i stället för `mönster`.
-- 6644262 ska vara `Matriser kan endast skapas från verktygsbaneoperationer.`
 - 6690032 ska vara `Väljare för verktygsdefinitioner`, inte den imperativa
   formuleringen `Välj verktygsdefinition`.
 - 6690052 ska vara `Formval för verktygsdefinition`, inte `Välj
@@ -25,5 +24,9 @@ skickades till Crowdin.
 
 ## Slutsats
 
-De sju rättelserna ska först jämföras med Crowdins aktuellt valda måltexter.
+De sex rättelserna ska först jämföras med Crowdins aktuellt valda måltexter.
 Övriga 13 poster kräver inga nya Crowdin-förslag.
+
+Noteringen om sträng-id 6644262 har tagits bort: id:t gäller `Deburr` och
+inte en matrissträng. Det var en felaktig id-koppling i det tidigare
+granskningsunderlaget.
