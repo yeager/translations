@@ -4,13 +4,13 @@ Den aktuella engelska och svenska JSON-katalogen hämtades den 27 oktober
 2026. Den svenska katalogen hade 5 140 strängar: 1 238 översatta och 3 902
 tomma. Weblate-komponenten var låst och inga ändringar kunde skickas upp.
 
-De 46 komponentvisa JSON-filerna med datumet 2026-10-27 omfattar 614 unika
+De 47 komponentvisa JSON-filerna med datumet 2026-10-27 omfattar 626 unika
 källnycklar. Varje fil har kontrollerats mot den engelska katalogen före
 arkivering. För filer med formatmarkörer har motsvarande markörer jämförts.
 L10n-lint, svensk språkgranskning, Hunspell-genomgång, JSON-syntax och
 Gitleaks har körts för respektive häfte.
 
-Häftena 26–45 omfattar 197 av dessa nycklar. De är inte dubbletter av redan
+Häftena 26–46 omfattar 209 av dessa nycklar. De är inte dubbletter av redan
 arkiverade källnycklar, med undantag för Regndroppars ljusbrytning (häfte 29),
 som är en dokumenterad språklig kvalitetshöjning av en äldre lokal version.
 
