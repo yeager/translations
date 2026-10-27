@@ -1,0 +1,18 @@
+{
+  "menu.advanced.compile_trace_export_failed": "Exporten misslyckades. Kontrollera OpenShaders.log för mer information.",
+  "menu.advanced.compile_trace_exported": "Exporterad: %s",
+  "menu.advanced.compile_trace_header": "Export av kompileringsspår",
+  "menu.advanced.compile_trace_tooltip_1": "Skriver varje kompilerad uppgift från den aktuella byggningen till en JSON-fil i Chrome Trace Event Format, som kan importeras i ui.perfetto.dev eller chrome://tracing.",
+  "menu.advanced.compile_trace_tooltip_2": "En tidslinjevy kan skilja verklig shaderkompileringskostnad från extern CPU-konkurrens under byggningen, till exempel när en annan process tar kärnor. Sammanställd statistik kan inte lokalisera detta i tiden.",
+  "menu.advanced.compiler_threads": "Kompilatortrådar",
+  "menu.advanced.compiler_threads_tooltip": "Antal trådar som används för att kompilera shaders vid start. Standard är alla logiska kärnor utom en för reserverad OS-kapacitet, inklusive E-kärnor. Högre värden slutför kompileringen snabbare men kan göra systemet mindre responsivt.",
+  "menu.advanced.compute": "Beräkning",
+  "menu.advanced.compute_tooltip": "Ersätt beräkningsshaders. När alternativet är avmarkerat inaktiveras de egna beräkningsshaderna för typerna ovan. Det hjälper utvecklare att testa om egna shaders motsvarar standardbeteendet.",
+  "menu.advanced.content_store": "Beständigt shaderlager (utvecklare/testare)",
+  "menu.advanced.content_store_clear": "Rensa lagret",
+  "menu.advanced.content_store_clear_tooltip": "Tar bort alla lagrade shaders. Använd detta om en shader ser fel ut efter återställning; nästa kompilering bygger upp lagret från grunden. Shaders som redan finns i shadercachen behålls.",
+  "menu.advanced.content_store_hits": "Återställda denna session: {count}",
+  "menu.advanced.content_store_limit": "Storleksgräns för lagret",
+  "menu.advanced.content_store_limit_tooltip": "De shaders som användes minst nyligen tas bort när lagret överskrider denna gräns. En fullständig byggning lagrar cirka 120 MB, eller cirka 1,1 GB i utvecklarläge, så behåll plats för flera byggningar om du växlar mellan grenar.",
+  "menu.advanced.content_store_location": "Plats: {path}"
+}
