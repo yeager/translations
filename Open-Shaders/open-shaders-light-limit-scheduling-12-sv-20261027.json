@@ -1,0 +1,18 @@
+{
+  "feature.light_limit_fix.max_particles_per_emitter_tooltip": "Maximalt antal partiklar som samplas per emitter och bildruta.\nHögre värde ligger närmare det verkliga partikelsystemet men kräver mer CPU-arbete.\nLägre värde går snabbare, särskilt för mycket täta effekter.",
+  "feature.light_limit_fix.max_redraws_per_frame": "Maximalt antal omritningar per bildruta",
+  "feature.light_limit_fix.max_redraws_per_frame_tooltip": "Hård gräns för hur många skuggljuskällor som får rita om sina skuggkartor i en bildruta.\nFungerar som en säkerhetsventil oavsett budget -- budgeten styr tiden,\nden här inställningen styr antalet. Solens riktade ljus räknas alltid som en omritning.\nMinimivärdet är %d (lägre värden får skuggor att fladdra när omritningsrotationen går snabbare än TAA).\nÖvre gränsen motsvarar inställningen Antal skuggljuskällor (%d).",
+  "feature.light_limit_fix.min_interval_scale": "Minsta intervallskala",
+  "feature.light_limit_fix.min_interval_scale_tooltip": "Intervallmultiplikator för ljuskällor med HÖGST prioritet.\nLägre värden gör att högst rankade ljuskällor uppdaterar skuggor oftare.\nFörhållandet mellan max och min definierar schemaläggningens dynamiska omfång.\nStandard: 0,05 (40× omfång vid standardvärdet max=2,0)",
+  "feature.light_limit_fix.mode3_b_unused": "(B = används inte)",
+  "feature.light_limit_fix.mode3_g_channel": "G-kanal = detaljerad riktad skugga",
+  "feature.light_limit_fix.mode3_r_channel": "R-kanal = mjuk riktad skugga",
+  "feature.light_limit_fix.mode4_heatmap": "Värmekarta per bildpunkt: 0=blå  8+=röd",
+  "feature.light_limit_fix.mode5_lit_shadow": "Vitt = helt belyst, svart = helt i skugga",
+  "feature.light_limit_fix.mode6_heatmap": "Värmekarta per bildpunkt: 0=blå  8+=röd (ljus utan skuggkartor)",
+  "feature.light_limit_fix.mode7_cool": "Kall  Turbo[0,0–0,3] = 1–4 skuggor",
+  "feature.light_limit_fix.mode7_red": "Röd                  = överskridning",
+  "feature.light_limit_fix.mode7_warm": "Varm  Turbo[0,3–0,8] = 5–%u skuggor",
+  "feature.light_limit_fix.mode9_hemi": "G Halvklot: %u",
+  "feature.light_limit_fix.mode9_omni": "B Sfärisk (paraboloid): %u"
+}
