@@ -124,3 +124,7 @@ Det trettonde häftet rättar fem längre hjälptexter om emuleringshastighet,
 automatiska korrigeringar, menymusik och bildruteinterpolering. Det återställer
 betydelse som tidigare översättning förlorade och använder naturlig svensk
 fackterminologi.
+
+Det fjortonde häftet rättar sju hjälptexter om bredbild, Dolphin LLE och
+Wii-nätverk. Det gör gränssnittets effekter och nätverksval begripliga utan
+att förändra sökvägar, filformat eller tekniska protokollnamn.
