@@ -100,3 +100,12 @@ uppfyller 48-månadersregeln. En aktuell jämförelse visar att endast en av
 fjorton poster i den äldre slutgranskningsfilen fortfarande finns kvar och
 skiljer sig från uppströms. Den är sparad komponentvis i
 `cacti-flowview-sv-live-jamford-20261027.po` och är inte inskickad.
+
+## ServCheck
+
+ServCheck är ett separat Cacti-tillägg. Senaste officiella release är `v0.3`,
+publicerad 2026-01-03, och uppfyller 48-månadersregeln. Den lokala
+deltafilen `cacti-servcheck-sv-complete-review-20261026.po` innehåller 38
+översatta poster och passerar `msgfmt`, `l10n-lint` utan fel eller varningar
+och `svlang` utan anglicismer. De enda l10n-lint-noteringarna gäller avsiktlig
+pluralböjning av REST-API och är inte fel. Filen är inte inskickad.
