@@ -30,3 +30,18 @@ De sex rättelserna ska först jämföras med Crowdins aktuellt valda måltexter
 Noteringen om sträng-id 6644262 har tagits bort: id:t gäller `Deburr` och
 inte en matrissträng. Det var en felaktig id-koppling i det tidigare
 granskningsunderlaget.
+
+## Kontroll i Crowdin 27 oktober 2026
+
+Följande aktuellt godkända måltexter verifierades i CAM.ts och behöver
+ersättas när uppladdning eller redigering i Crowdin uttryckligen godkänns:
+
+- `CAM_Array['Array']`: `Array` → `Matris`.
+- `CAM_Array['Creates an array from selected toolpaths']`:
+  `Skapar en array från valda verktygsbanor` →
+  `Skapar en matris från valda verktygsbanor`.
+- `CAM_DressupArray['Creates an array from a selected toolpath']`:
+  `Skapar en array från en vald verktygsbana` →
+  `Skapar en matris från en vald verktygsbana`.
+
+Ändringarna är ännu inte sparade i Crowdin.
