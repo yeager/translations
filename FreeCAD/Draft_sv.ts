@@ -2367,7 +2367,7 @@ form. Bäst för att importera och visa mycket stora filer med maximal prestanda
 between the DXF file's unit and millimeters. Example: for files in
 millimeters: 1, in centimeters: 10, in meters: 1000, in inches: 25.4,
 in feet: 304.8</source>
-      <translation>Skalfaktor som ska tillämpas på DXF-filer vid import. Faktorn är omvandlingen mellan
+      <translation>Skalfaktor som ska tillämpas på DXF-filer vid import. Faktorn är omvandlingen
 mellan DXF-filens enhet och millimeter. Exempel: för filer i
 millimeter: 1, i centimeter: 10, i meter: 1000, i tum: 25.4,
 i fot: 304.8</translation>
@@ -2391,8 +2391,8 @@ i fot: 304.8</translation>
       <location filename="../ui/preferences-dxf.ui" line="323"/>
       <source>If checked, entities from the paper space will also be imported. By default,
 only model space is imported</source>
-      <translation>Om den är markerad kommer även enheter från pappersutrymmet att importeras. Som standard importeras
-importeras endast modellutrymme</translation>
+      <translation>Om den är markerad kommer även enheter från pappersutrymmet att importeras.
+Som standard importeras endast modellutrymme</translation>
     </message>
     <message>
       <location filename="../ui/preferences-dxf.ui" line="327"/>
@@ -3014,7 +3014,7 @@ om de matchar X-, Y- eller Z-axeln i det globala koordinatsystemet</translation>
     <message>
       <location filename="../ui/preferences-draftinterface.ui" line="715"/>
       <source>UI Options</source>
-      <translation>Alternativ för användargränssnitt</translation>
+      <translation>Gränssnittsalternativ</translation>
     </message>
     <message>
       <location filename="../ui/preferences-draftinterface.ui" line="721"/>
@@ -3253,7 +3253,7 @@ om de matchar X-, Y- eller Z-axeln i det globala koordinatsystemet</translation>
     <message>
       <location filename="../../DraftGui.py" line="1076"/>
       <source>Label Type</source>
-      <translation>Etiketttyp</translation>
+      <translation>Etikettyp</translation>
     </message>
     <message>
       <location filename="../../DraftGui.py" line="1126"/>
@@ -5908,7 +5908,7 @@ Den slutliga vinkeln kommer att vara basvinkeln plus detta belopp.</translation>
       <location filename="../../draftutils/params.py" line="256"/>
       <source>Do you want to update the SVG pattern options
 of existing objects in all opened documents?</source>
-      <translation>Vill du uppdatera SVG-mönsteralternativen för
+      <translation>Vill du uppdatera SVG-mönsteralternativen
 för befintliga objekt i alla öppnade dokument?</translation>
     </message>
     <message>
@@ -6857,7 +6857,7 @@ convert closed edges into filled faces and parametric polygons, and merge faces 
       <translation>Uppgraderar de valda objekten till mer komplexa former.
 Resultatet av operationen beror på typen av objekt, som kanske kan uppgraderas flera gånger i rad.
 Den kan t.ex. sammanfoga de markerade objekten till ett, konvertera enkla kanter till parametriska polylinjer,
-konvertera slutna kanter till fyllda ytor och parametriska polygoner, och sammanfoga ytor till en enda yta.</translation>
+konvertera slutna kanter till fyllda ytor och parametriska polygoner samt sammanfoga ytor till en enda yta.</translation>
     </message>
   </context>
   <context>
@@ -7149,8 +7149,8 @@ Denna punkt kan dekoreras med en pil eller annan symbol.</translation>
 as 'Text', depending on 'Label Type'.
 
 'Target' won't be used if 'Label Type' is set to 'Custom'.</source>
-      <translation>Objekt, och eventuellt underelement, vars egenskaper kommer att visas som
-som "Text", beroende på "Etikettyp".
+      <translation>Objekt och eventuellt underelement vars egenskaper kommer att visas som
+"Text", beroende på "Etikettyp".
 
 'Mål' kommer inte att användas om 'Etikettyp' är satt till 'Anpassad'.</translation>
     </message>
@@ -7167,12 +7167,12 @@ If 'Straight Direction' is set to 'Custom', the 'Points' property
 can be set as a list of arbitrary points.</source>
       <translation>Listan över punkter som definierar ledlinjen; normalt en lista med tre punkter.
 
-Den första punkten ska vara textens position, det vill säga "Placeringen",
+Den första punkten ska vara textens position, det vill säga "Placeringen"
 och den sista punkten ska vara linjens spets, det vill säga "Target Point".
 Mittpunkten beräknas automatiskt beroende på den valda
-"Rak riktning" och "Rakt avstånd"-värdet och -tecknet.
+"Rak riktning" samt "Rakt avstånd"-värdet och -tecknet.
 
-Om "Rak ritning" är inställd på "Anpassad" kan egenskapen "Punkter"
+Om "Rak riktning" är inställd på "Anpassad" kan egenskapen "Punkter"
 ställas in som en lista med godtyckliga punkter.</translation>
     </message>
     <message>
@@ -7184,7 +7184,7 @@ assigning a custom list to the 'Points' attribute.</source>
       <translation>Riktningen för det raka segmentet av ledlinjen.
 
 Om "Custom" väljs kan ledarens punkter specificeras genom att
-genom att tilldela attributet "Points" en anpassad lista.</translation>
+tilldela attributet "Points" en anpassad lista.</translation>
     </message>
     <message>
       <location filename="../../draftobjects/label.py" line="146"/>
@@ -7218,7 +7218,7 @@ and the object defined in 'Target'.
 The 'Custom Text' is displayed only if 'Label Type' is set to 'Custom'.</source>
       <translation>Den text som visas av denna etikett.
 
-Denna egenskap är skrivskyddad, eftersom den slutliga texten beror på "Etikettyp",
+Denna egenskap är skrivskyddad, eftersom den slutliga texten beror på "Etikettyp"
 och det objekt som definieras i 'Target'.
 Den "Anpassade texten" visas endast om "Etikettyp" är inställd på "Anpassad".</translation>
     </message>
@@ -7691,7 +7691,7 @@ There are various possibilities:
 - An object, and one of its edges.
 - An object, and two of its vertices.
 - An arc object, and its edge.</source>
-      <translation>Objektet, och specifika delelement av det,
+      <translation>Objektet och specifika delelement av det,
 som denna dimension mäter.
 
 Det finns flera olika möjligheter:
@@ -8380,7 +8380,7 @@ En enda skiss med avskurna spår konverteras dock till flera enskilda Draft-obje
       <source>Adds the selected objects to the construction group,
 and changes their appearance to the construction style.
 The construction group is created if it does not exist.</source>
-      <translation>Lägger till de markerade objekten i konstruktionsgruppen,
+      <translation>Lägger till de markerade objekten i konstruktionsgruppen
 och ändrar deras utseende till konstruktionsstilen.
 Konstruktionsgruppen skapas om den inte redan finns.</translation>
     </message>
@@ -8454,7 +8454,7 @@ straight Draft lines that are drawn on the XY-plane.</source>
       <translation>Ställer in lutningen på den valda linjen genom att ändra värdet på Z-värdet för en av dess punkter.
 Om en polylinje är markerad kommer den att tillämpa lutningstransformationen på vart och ett av dess segment.
 
-Lutningen ändrar alltid Z-värdet, och därför fungerar detta kommando bara bra för
+Lutningen ändrar alltid Z-värdet och därför fungerar detta kommando bara bra för
 raka draglinjer som ritas i XY-planet.</translation>
     </message>
   </context>
@@ -8730,7 +8730,7 @@ Den initiala projektionsriktningen är den motsatta till den aktuella aktiva vyr
     <message>
       <location filename="../../draftguitools/gui_snaps.py" line="219"/>
       <source>Snaps to the center point of faces and circular edges, and to the placement point of working plane proxies and building parts</source>
-      <translation>Snäpper till mittpunkten för ytor och cirkulära kanter, och till placeringspunkten för arbetsplansproxyer och byggnadsdelar</translation>
+      <translation>Snäpper till mittpunkten för ytor och cirkulära kanter och till placeringspunkten för arbetsplansproxyer och byggnadsdelar</translation>
     </message>
   </context>
   <context>
@@ -8920,10 +8920,10 @@ Den initiala projektionsriktningen är den motsatta till den aktuella aktiva vyr
 reusable objects (Part Compounds) and instances become `App::Link` objects,
 maintaining the block structure. Best for full integration with the Draft
 workbench.</source>
-      <translation>Skapar helt parametriska Draft-objekt. Blockdefinitioner importeras som återanvändbara
+      <translation>Skapar helt parametriska Draft-objekt. Blockdefinitioner importeras som
 återanvändbara objekt (Part Compounds) och instanser blir `App::Link`-objekt,
-bibehåller blockstrukturen. Bäst för fullständig integration med Draft
-arbetsbänk.</translation>
+vilket bevarar blockstrukturen. Bäst för fullständig integration med Draft-
+arbetsbänken.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-dxf-import.ui" line="32"/>
@@ -8936,9 +8936,9 @@ arbetsbänk.</translation>
 definitions are imported as reusable objects (Part Compounds) and instances
 become `App::Link` objects, maintaining the block structure. Best for
 script-based post-processing.</source>
-      <translation>Skapar parametriska Part-objekt (t.ex. Part::Line, Part::Circle). Block
+      <translation>Skapar parametriska Part-objekt (t.ex. Part::Line, Part::Circle). Blockdefinitioner
 importeras som återanvändbara objekt (Part Compounds) och instanser blir
-blir `App::Link`-objekt, vilket bibehåller blockstrukturen. Bäst för
+`App::Link`-objekt, vilket bevarar blockstrukturen. Bäst för
 skriptbaserad efterbearbetning.</translation>
     </message>
     <message>
@@ -8951,9 +8951,9 @@ skriptbaserad efterbearbetning.</translation>
       <source>Creates a non-parametric shape for each DXF entity. Block definitions are
 imported as reusable objects (Part Compounds) and instances become `App::Link`
 objects, maintaining the block structure. Good for referencing and measuring.</source>
-      <translation>Skapar en icke-parametrisk form för varje DXF-entitet. Blockdefinitioner importeras
-importeras som återanvändbara objekt (Part Compounds) och instanser blir `App::Link`-objekt
-objekt, vilket bibehåller blockstrukturen. Bra för referenstagning och mätning.</translation>
+      <translation>Skapar en icke-parametrisk form för varje DXF-entitet. Blockdefinitioner
+importeras som återanvändbara objekt (Part Compounds) och instanser blir
+`App::Link`-objekt, vilket bevarar blockstrukturen. Bra för referenstagning och mätning.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-dxf-import.ui" line="57"/>
