@@ -1,0 +1,18 @@
+{
+  "feature.light_limit_fix.billboard_brightness": "Billboard-ljusstyrka",
+  "feature.light_limit_fix.billboard_brightness_tooltip": "Intensitetsmultiplikator för billboard-sändare (en enkel fyrhörning), till exempel ljuslågor.",
+  "feature.light_limit_fix.billboard_radius": "Billboard-radie",
+  "feature.light_limit_fix.billboard_radius_tooltip": "Radiemultiplikator för billboard-sändare. Större värde innebär att ljuset når längre.",
+  "feature.light_limit_fix.budget_from_formula": "Budget enligt formel: %.2f ms",
+  "feature.light_limit_fix.budget_from_formula_tooltip": "Redigera formeln för omritningsbudget i avsnittet Avancerat nedan.",
+  "feature.light_limit_fix.budget_mode": "Budgetläge",
+  "feature.light_limit_fix.budget_mode_formula": "Formel",
+  "feature.light_limit_fix.budget_mode_formula_tooltip": "Formel: användarredigerbart matematiskt uttryck för budgeten per bildruta.\nStandarduttrycket motsvarar Intellightents ursprungliga beteende\n(1 ms utomhus, 2 ms inomhus). Redigera uttrycket i avsnittet\nAvancerat nedan.\n\nObservera: adaptiva uttryck som refererar till `frametime` tenderar att\npendla, eftersom rendering av skuggor ökar `frametime` och tar bort\ndet spelrum som tillät budgeten. Håll dig till statiska eller\nlångsamt varierande indata (`isinterior`, `frametarget`).",
+  "feature.light_limit_fix.budget_mode_manual": "Manuell",
+  "feature.light_limit_fix.budget_mode_manual_tooltip": "Manuell (standard): fast GPU-tidsbudget per bildruta för omritning av skuggor.\nFörutsägbar och utan svängningar. Justera reglaget för att byta FPS mot skuggkvalitet.",
+  "feature.light_limit_fix.budget_usage_label": "Budgetanvändning",
+  "feature.light_limit_fix.budget_usage_warming_up": "Budgetanvändning: (startar upp)",
+  "feature.light_limit_fix.caster_cull_angular": "Minsta skärmstorlek för skuggkastare",
+  "feature.light_limit_fix.caster_cull_angular_tooltip": "Hoppa över en skuggkastare när dess storlek på skärmen från din synvinkel\n(begränsningsradie / avstånd till kameran) understiger detta värde. En närliggande skuggkastare\nsom fyller synfältet behålls även om den är liten, medan en avlägsen i ett hörn\ntas bort även om den är stor. Ger stor prestandavinst i detaljrika interiörer.\n0 inaktiverar. Det användbara intervallet är litet: förinställningarna Balanserad/Prestanda\nanvänder 0,008/0,012. Ctrl+klicka på reglaget för att skriva ett exakt värde.\nSänk värdet om avlägsna skuggor ser ut att hoppa fram.",
+  "feature.light_limit_fix.changed_tooltip": "Tid sedan den här ljuskällan senast bytte roll (skugga/konverterad/ute).\nSortera kolumnen för att flytta nyligen ändrade ljuskällor högst upp."
+}
