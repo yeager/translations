@@ -27,6 +27,9 @@ Routerconfigs egen senaste stabila release är `v1.7`, publicerad 2026-02-03.
 Gexport har senaste stabila release `v2.1`, publicerad 2023-07-27. Den ligger
 inom 48 månader från kontrollen och kan granskas vidare.
 
+Intropage har senaste stabila release `v4.0.4`, publicerad 2024-04-26. Även
+det tillägget uppfyller 48-månadersregeln.
+
 ## Thold
 
 Thold är ett separat Cacti-tillägg. Den senaste stabila releasen är `v1.8.2`,
