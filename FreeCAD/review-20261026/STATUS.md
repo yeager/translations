@@ -59,3 +59,11 @@ perspektiviskt visningsläge” är bättre än den svagare lokala formuleringen
 ”perspektivt visningsläge”, och sträng 6687710 ska vara
 ”&Rektangelmarkering”, inte ”&Rutmarkering”, enligt FreeCAD-terminologin.
 Övriga arton kandidater är godtagbara. Inga nya Crowdin-förslag har skapats.
+
+2026-10-27: Ett nionde läsande urval om 20 godkända avvikelser har granskats
+och arkiverats i `approved-differences-sample-09-20261027.md`. Fyra kandidater
+använder den felaktiga termen ”rutmarkering” eller den ofullständiga
+översättningen ”Kugghjul och kuggstång” för `RackPinion`. De rekommenderade
+formerna är `rektangelmarkering`, `Rektangelmarkering av &element` och
+`Kuggstång och pinjong`. De ska först jämföras med Crowdins valda måltexter.
+Övriga 16 kandidater är godtagbara. Inga nya Crowdin-förslag har skapats.
