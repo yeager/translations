@@ -1,5 +1,7 @@
 # AIMSICD release freshness
 
-Checked 2026-10-21 against the upstream GitHub releases page.
+Checked again 2026-10-27 against the upstream GitHub releases and tags APIs.
 
-The latest listed release is `v0.1.43-alpha`, and the release history is older than 48 months. Per the Swedish localization workflow, no new translation work was started. The Hosted Weblate Swedish component currently has 298 translated strings, six suggestions, and five active checks.
+The latest listed release and tag are both `v0.1.43-alpha`, published 2016-05-01. It is older than 48 months. Per the Swedish localization workflow, do not start new review, translation, or upload work until an official current release (or a verifiable current release channel) exists.
+
+The archived Swedish review material remains useful as historical backup, but it must not be treated as ready for a new upload. The last recorded Hosted Weblate state was 298 translated strings, six suggestions, and five active checks.
