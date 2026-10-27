@@ -20,3 +20,18 @@ Terminologibanken stödjer bland annat ”säkerhetskopia” för *backup* och
 
 Filen är fortfarande inte inskickad. Kontrollera den aktuella komponentens
 käll- och målsträngar i Cacti Translate före en komponentvis import.
+
+## Thold
+
+Thold är ett separat Cacti-tillägg. Den senaste stabila releasen är `v1.8.2`,
+publicerad 2024-10-16, och uppfyller därmed också 48-månadersregeln.
+
+Den lokala filen `cacti-thold-meddelandemallar-20261027.po` innehåller åtta
+rättningar i status- och e-postmallar. Den passerar `msgfmt`, `l10n-lint`,
+`svlang`, Hunspell och Gitleaks. En separat kontroll bekräftar att varje
+HTML-tagg och platshållare är identisk med respektive källsträng.
+
+Termbanken föreslår ibland ”varning” för *alert*, men Tholds källtexter
+skiljer uttryckligen på *alerts* och *warnings*. I den här komponenten är
+”larm” respektive ”varning” därför avsiktliga och kontextkorrekta termer.
+Filen är inte inskickad och ska jämföras med aktuell måltext före uppladdning.
