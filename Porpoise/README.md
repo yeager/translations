@@ -128,3 +128,7 @@ fackterminologi.
 Det fjortonde häftet rättar sju hjälptexter om bredbild, Dolphin LLE och
 Wii-nätverk. Det gör gränssnittets effekter och nätverksval begripliga utan
 att förändra sökvägar, filformat eller tekniska protokollnamn.
+
+Det femtonde häftet rättar tre hjälptexter om spelkorrigeringar, Auto Boost
+och bildruteinterpolering. Det förtydligar rekommendationer och visar korrekt
+hur färgerna beskriver rörelse i de skapade bildrutorna.
