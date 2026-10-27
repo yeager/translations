@@ -1,0 +1,14 @@
+{
+  "feature.grass_optimizations.cost_bias_start_distance": "Startavstånd för mesh-kostnadsbias",
+  "feature.grass_optimizations.cost_bias_start_distance_tooltip": "Avståndet där mesh-kostnadsbias börjar gälla och sedan ökar till fullt värde över samma avstånd igen. Närmare än så behandlas alla grästyper identiskt, oavsett komplexitet. Noll tillämpar bias överallt, även precis framför spelaren.",
+  "feature.grass_optimizations.culling": "Bortgallring och LOD",
+  "feature.grass_optimizations.description": "Skriver om gräsrenderingen kring GPU-styrd bortgallring och instansiering, samlar tusentals av motorns ritanrop i ett fåtal indirekta ritanrop och tar bort dolt gräs innan det kostar något.",
+  "feature.grass_optimizations.edge_fade_start": "Start för kantintoning",
+  "feature.grass_optimizations.edge_fade_start_tooltip": "Andel av gräsets renderingsavstånd där gräset börjar tonas bort. Standardvärdet 0,85 tonar bort gräset under de sista 15 %. Ett lägre värde ger längre och mjukare uttoning, medan 1,0 inaktiverar uttoningen så att gräset försvinner abrupt vid renderingsavståndet.",
+  "feature.grass_optimizations.enable_far_lod": "Aktivera avlägsen LOD",
+  "feature.grass_optimizations.enable_far_lod_tooltip": "Byter det mest avlägsna gräset mot _LOD1.nif-meshen. Grästyper utan den filen återanvänder _LOD0.nif, så det avlägsna bandet får fortfarande egen ljusstyrka.",
+  "feature.grass_optimizations.enable_mesh_lod": "Aktivera mesh-LOD",
+  "feature.grass_optimizations.enable_mesh_lod_tooltip": "Förbättrar prestandan genom att byta avlägsna gräsinstanser mot enklare LOD-meshar i två band. Kräver en LOD-meshfil (.nif) per grästyp i meshes\\LOD\\Grass\\<source-mesh-name>_LOD0.nif, plus en valfri _LOD1.nif för det avlägsna bandet. Gräs utan LOD-mesh behåller sin fullständiga mesh.",
+  "feature.grass_optimizations.enable_mid_lod": "Aktivera LOD för mellanavstånd",
+  "feature.grass_optimizations.enable_mid_lod_tooltip": "Byter gräs på mellanavstånd mot _LOD0.nif-meshen. När detta är avstängt behåller gräset sin fullständiga mesh tills det avlägsna bandet tar över."
+}
