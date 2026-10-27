@@ -185,3 +185,9 @@ kandidater ska rättas efter kontroll mot Crowdins valda måltexter: den
 konsekventa CAM-termen ”matris”, en väljare för verktygsdefinitioner och ett
 formval. Övriga 13 kandidater är godtagbara. Inga nya Crowdin-förslag har
 skapats.
+
+2026-10-27: De två återstående godkända avvikelserna har granskats och
+arkiverats i `approved-differences-sample-28-20261027.md`. De ska rättas till
+”mätningsuppgiften” respektive ”en enstaka yta” efter kontroll mot Crowdins
+valda måltexter. Därmed är samtliga 542 godkända avvikelser i underlaget
+granskade rad för rad. Inga nya Crowdin-förslag har skapats.
