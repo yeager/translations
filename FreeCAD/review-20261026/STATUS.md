@@ -185,7 +185,7 @@ Efter en senare kontroll återstår endast fyra CAM-rättelser för den
 konsekventa termen ”matris”. Två tidigare föreslagna ändringar av `Toolbit`
 har strukits: ”verktygsbit” är den etablerade FreeCAD-termen och Crowdins
 aktuella värden ”Väljare för verktygsbit” och ”Formväljare för verktygsbit”
-är korrekta. Tre av de fyra matriskorrigeringarna har kontrollerats direkt i
+är korrekta. Alla fyra matriskorrigeringarna har kontrollerats direkt i
 Crowdin, men är ännu inte sparade. Övriga 16 poster är godtagbara.
 
 2026-10-27: De två återstående godkända avvikelserna har granskats och

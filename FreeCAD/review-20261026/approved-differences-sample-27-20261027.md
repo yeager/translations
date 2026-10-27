@@ -45,5 +45,6 @@ ersättas när uppladdning eller redigering i Crowdin uttryckligen godkänns:
 - `CAM_DressupArray['Creates an array from a selected toolpath']`:
   `Skapar en array från en vald verktygsbana` →
   `Skapar en matris från en vald verktygsbana`.
+- `CAM_DressupArray['Array']`: `Array` → `Matris`.
 
 Ändringarna är ännu inte sparade i Crowdin.
