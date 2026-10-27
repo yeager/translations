@@ -24,6 +24,9 @@ käll- och målsträngar i Cacti Translate före en komponentvis import.
 Routerconfigs egen senaste stabila release är `v1.7`, publicerad 2026-02-03.
 Även tillägget uppfyller alltså 48-månadersregeln.
 
+Gexport har senaste stabila release `v2.1`, publicerad 2023-07-27. Den ligger
+inom 48 månader från kontrollen och kan granskas vidare.
+
 ## Thold
 
 Thold är ett separat Cacti-tillägg. Den senaste stabila releasen är `v1.8.2`,
