@@ -20,3 +20,7 @@ passerar. Hunspell träffar endast `AMDGPU-kommandon`, `F10`, `RenderDoc`,
 accepterade sammansättningar i detta sammanhang. Detta är en lokal, ej
 uppladdad deltafil; jämför alltid med aktuell målsträng i Crowdin innan den
 skickas in.
+
+Kontrollen kördes på nytt 2026-10-27 med samma resultat: XML är välformat,
+`l10n-lint` rapporterar 0 fel och 0 varningar, `svlang` hittar inga
+anglicismer och Gitleaks hittar inga hemligheter.
