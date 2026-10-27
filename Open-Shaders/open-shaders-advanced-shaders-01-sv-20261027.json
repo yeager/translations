@@ -1,0 +1,18 @@
+{
+  "menu.advanced.active_shaders_tooltip": "Lista över shaders som har använts i de senaste bildrutorna. Aktivera shaderblockering ovanför för att använda kortkommandon till att växla mellan och blockera shaders vid felsökning. Shaders som inte används på ungefär en sekund tas bort från listan.",
+  "menu.advanced.active_shaders_used_recently": "Aktiva shaders (nyligen använda)",
+  "menu.advanced.addresses": "Adresser",
+  "menu.advanced.all_compiled_tasks": "Alla kompilerade uppgifter",
+  "menu.advanced.avg_parallelism_metric": "Genomsnittlig parallellism (W/S): %.2fx",
+  "menu.advanced.avg_parallelism_tooltip_1": "Genomsnittlig användbar samtidighet i denna arbetsbelastning.",
+  "menu.advanced.avg_parallelism_tooltip_2": "Ungefär det antal arbetare där fler kärnor ger avtagande nytta.",
+  "menu.advanced.avoid_flow_control": "Undvik flödesstyrning",
+  "menu.advanced.avoid_flow_control_tooltip": "Lägger till D3DCOMPILE_AVOID_FLOW_CONTROL i shaderkompilatorns flaggor.\nTvingar fxc att plana ut grenar till predikerade operationer i stället för att skapa dynamisk flödesstyrning. Det är ofta en vinst för korta grenar och grenar som väljs likformigt, men vanligen en förlust för långa divergerande grenar som den vanliga flödesstyrningen annars helt skulle hoppa över.\nÅterställs vid varje start. När alternativet växlas rensas shadercachen och en fullständig omkompilering startas.",
+  "menu.advanced.background_compiler_threads": "Bakgrundstrådar för kompilering",
+  "menu.advanced.background_compiler_threads_tooltip": "Antal trådar som används för att kompilera shaders under spel. Standard är hälften av prestandakärnorna för att inte påverka renderingstråden. Högre värden slutför kompileringen snabbare men kan orsaka hackningar.",
+  "menu.advanced.block_next": "Blockera nästa:",
+  "menu.advanced.block_previous": "Blockera föregående:",
+  "menu.advanced.blocked_shader": "Blockerad: %s",
+  "menu.advanced.cache_watcher_header": "Cache- och filövervakare",
+  "menu.advanced.change_shader_block_next": "Ändra##ShaderBlockNext"
+}
