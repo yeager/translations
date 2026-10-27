@@ -171,3 +171,10 @@ kandidater ska rättas efter kontroll mot Crowdins valda måltexter: stegvis
 borrning, planfräsning av ämnets yta, markeringens kanter samt bestämda former
 för rätblocksämnets längd och bredd. Övriga 15 kandidater är godtagbara. Inga
 nya Crowdin-förslag har skapats.
+
+2026-10-27: Ett tjugosjätte läsande urval om 20 godkända avvikelser har
+granskats och arkiverats i `approved-differences-sample-26-20261027.md`. Tre
+kandidater ska rättas efter kontroll mot Crowdins valda måltexter: bestämd form
+för rätblocksämnets höjd, markeringens kanter och matrisupprepade
+verktygsbanor. Övriga 17 kandidater är godtagbara. Inga nya Crowdin-förslag har
+skapats.
