@@ -4,7 +4,7 @@ Den aktuella engelska och svenska JSON-katalogen hämtades den 27 oktober
 2026. Den svenska katalogen hade 5 140 strängar: 1 238 översatta och 3 902
 tomma. Weblate-komponenten var låst och inga ändringar kunde skickas upp.
 
-De 193 komponentvisa JSON-filerna med datumet 2026-10-27 omfattar 2 517 unika
+De 194 komponentvisa JSON-filerna med datumet 2026-10-27 omfattar 2 533 unika
 källnycklar. Varje fil har kontrollerats mot den engelska katalogen före
 arkivering. För filer med formatmarkörer har motsvarande markörer jämförts.
 L10n-lint, svensk språkgranskning, Hunspell-genomgång, JSON-syntax och
@@ -44,7 +44,7 @@ sammanfogats lokalt och kontrollerats som en helhet: JSON, L10n-lint,
 Gitleaks och formatmarkörer är godkända. Arkivjämförelsen visar 73 av 73
 nycklar, utan saknade eller extra nycklar.
 
-Häftena 26–192 omfattar 2 100 av dessa nycklar. De är inte dubbletter av redan
+Häftena 26–193 omfattar 2 116 av dessa nycklar. De är inte dubbletter av redan
 arkiverade källnycklar, med undantag för Regndroppars ljusbrytning (häfte 29),
 som är en dokumenterad språklig kvalitetshöjning av en äldre lokal version.
 
@@ -82,8 +82,8 @@ formatmarkörer, bokstavliga procenttecken eller radbrytningar. `l10n-lint` och
 Gitleaks är godkända för den sammanslagna komponenten. Se även
 [integrationsgranskningen](SCENE-MANAGER-INTEGRATION-REVIEW-20261027.md).
 
-För `feature.wetness_effects` har de åtta första häftena granskats: 128 av 201
-nycklar. De återstående 73 nycklarna behöver samma radvisa granskning.
+För `feature.wetness_effects` har de nio första häftena granskats: 144 av 201
+nycklar. De återstående 57 nycklarna behöver samma radvisa granskning.
 
 Samtliga 157 aktuella nycklar i `menu.advanced` är granskade och arkiverade.
 De tio häftena har sammanfogats och jämförts med källkatalogen: 157 av 157
