@@ -1,0 +1,18 @@
+{
+  "feature.light_limit_fix.addr_click_to_copy": "Klicka för att kopiera: %s",
+  "feature.light_limit_fix.addr_focus": "fokus[%u]",
+  "feature.light_limit_fix.advanced": "Avancerat##ShadowScheduling",
+  "feature.light_limit_fix.allow_immediate_draw_new_lights": "Tillåt omedelbar rendering för nya ljuskällor",
+  "feature.light_limit_fix.allow_immediate_draw_new_lights_tooltip": "Tillåt att en ljuskälla som just har lagts till i den aktiva poolen renderar sin skuggkarta i denna bildruta.\nFörhindrar ett enbildsglapp i skuggkartan när nya ljuskällor kommer in i synfältet.",
+  "feature.light_limit_fix.atlas_full_capacity": "  Rymmer ~%u ljuskällor med full detaljnivå på %u px",
+  "feature.light_limit_fix.atlas_full_capacity_tooltip": "En ruta med full detaljnivå motsvarar en ursprunglig skuggkarta, med storlek enligt spelets\negna inställning för skuggupplösning. Ljuskällor utöver detta antal kastar\nfortfarande skuggor med lägre detaljnivå, ordnade efter prioritet. Öka atlasens\nupplösning för att behålla fler med full detaljnivå; om spelets skuggupplösning\nökar blir varje ruta skarpare, men färre får plats.",
+  "feature.light_limit_fix.atlas_reallocs": "Omfördelningar av rutor: %u sedan start",
+  "feature.light_limit_fix.atlas_reallocs_tooltip": "Varje omfördelning innebär att en ljuskälla byter upplösningsklass,\nvilket kastar den sparade skuggan och tvingar fram en omritning.\nEtt snabbt växande tal betyder att scenen motarbetar\nklasshysteresen; ett långsamt tal betyder att cachen håller.",
+  "feature.light_limit_fix.atlas_resolution": "Atlasupplösning (omstart krävs)",
+  "feature.light_limit_fix.atlas_resolution_tooltip": "Storleken på den delade skuggtexturen. Större storlekar behåller fler ljuskällor\nmed full skuggdetalj men använder mer grafikminne. Träder i kraft\nnär spelet startas om.",
+  "feature.light_limit_fix.atlas_usage": "Skuggatlas: %ux%u, %.0f %% används, %.0f MB",
+  "feature.light_limit_fix.available_variables": "Tillgängliga variabler##FormulaVars",
+  "feature.light_limit_fix.avg_light_cost": "Genomsnittlig kostnad per ljuskälla: %.2f ms",
+  "feature.light_limit_fix.avg_redraws_per_frame": "Genomsnittliga omritningar/bildruta: %.1f (gräns: %d)",
+  "feature.light_limit_fix.avg_redraws_tooltip": "Rullande medelvärde för de senaste %d bildrutorna."
+}
