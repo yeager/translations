@@ -1,0 +1,18 @@
+{
+  "feature.light_limit_fix.shadow_slots_active": "Skuggplatser: %u aktiva",
+  "feature.light_limit_fix.shadow_vram_label": "VRAM för skuggor",
+  "feature.light_limit_fix.shadow_vram_overlay": "%.0f / %.0f MB – skuggor %.0f MB (%u skikt)",
+  "feature.light_limit_fix.shadow_vram_remedy_array": "minska Antal skuggljuskällor eller spelets skuggupplösning.",
+  "feature.light_limit_fix.shadow_vram_remedy_atlas": "minska atlasupplösningen.",
+  "feature.light_limit_fix.shadow_vram_tooltip": "Stapelfyllnad = processens VRAM-användning / budget för grafikminne (samma\ninformation som prestandaöverlägget visar). Texten ovanpå stapeln visar\nskuggmatrisens bidrag till användningen.\n\nSkikt: %u (solen använder en egen skuggtextur)\nKostnad per skikt: %.2f MB (%u x %u @ %u B/bildpunkt)\nSkuggmatris: %.1f MB\nLedigt i budget: %.1f MB\n\nGrönt när ledigt VRAM och skuggandelen är betryggande.\nGult när ledigt < 512 MB eller skuggmatrisen > 25 %% av budgeten.\nRött när ledigt < 128 MB eller skuggmatrisen > 50 %% av budgeten:\n%s",
+  "feature.light_limit_fix.show_shadow_overlay": "Visa skuggöverlägg",
+  "feature.light_limit_fix.show_shadow_overlay_tooltip": "Öppnar ett alltid synligt överläggsfönster med tabellen över skuggkastare.\nUtan detta visas överlägget bara när en ljuskälla undertrycks\neller ett visualiseringsläge är aktivt. Aktivera för att när som helst komma åt\nfelsökningskontrollerna i tabellen (växlingsknapp, solo och pulsering vid hovring).",
+  "feature.light_limit_fix.skip_redundant_light_attach": "Hoppa över överflödiga ljusuppdateringar",
+  "feature.light_limit_fix.skip_redundant_light_attach_tooltip": "Spelet kontrollerar varje dynamisk ljuskällas närliggande geometri i varje bildruta, vilket kostar millisekunder i scener med hundratals ljus. Med detta på kontrolleras en ljuskälla som inte har flyttats eller ändrats bara igen med intervallet nedan.",
+  "feature.light_limit_fix.skip_zero_demand_redraw": "Hoppa över omritning av osynliga ljus",
+  "feature.light_limit_fix.skip_zero_demand_redraw_tooltip": "Hoppar över omritning av en skuggkarta helt medan GPU:n mäter att inget\npå skärmen lyses upp av ljuset under många på varandra följande prover. Tar bort\narbetet i stället för att ändra ordningen, så att budgeten kan frigöras för ljus\nsom faktiskt syns.\nEtt överhoppat ljus fortsätter visa sin senaste skuggkarta och ritas om igen när\nnågot det lyser upp kommer tillbaka i bild. Alla överhoppade\nljus ritas dessutom om med jämna mellanrum. Kräver skuggatlasen.",
+  "feature.light_limit_fix.solo_tip": "Visa bara det här ljuset\n(undertrycker alla andra ljus\ntills sololäget rensas)",
+  "feature.light_limit_fix.solo_tip_active": "Solo: det här ljuset visas ensamt\nKlicka: rensa solo",
+  "feature.light_limit_fix.spot_lights": "Strålkastarljus##SpotLights",
+  "feature.light_limit_fix.spot_lit_region": "Poängsätt strålkastarljus efter deras belysta yta"
+}
