@@ -25,3 +25,9 @@ Utgivningskontroll: projektets nedladdningssida anger fortfarande 2.0 RC5. Den a
 2026-10-26: Projektets byggverktyg använder PO-filnamnet som språkkod: po-sk1/sv.po ger sv/LC_MESSAGES/sk1.mo. Inställningsdialogen hittar installerade språkkataloger dynamiskt. En kompilerad MO-fil har lästs med Python gettext och gav ”Fil” för ”File”; detta är inte ett test av själva programmets gränssnitt. Arkivets releasepolicy kräver en bekräftat högst 48 månader gammal utgåva innan översättningsarbetet återupptas. Ingen inskickning har gjorts.
 
 2026-10-26: Förnyad kontroll: projektets officiella nedladdningssida anger 2.0 RC5 men inget publiceringsdatum. Fossies arkiv anger 2021-08-31 för källpaketet; Freshcode anger 2023-07-19 för RC5. Datumen kan inte förenas med säkerhet och 48-månadersvillkoret är därför fortsatt inte styrkt. Utan verifierat releasedatum fortsätter ingen ytterligare översättningsgranskning enligt `RELEASE-FRESHNESS-POLICY.md`. En identisk arbetskopia ligger lokalt i `work/sk1-wx/po-sk1/sv.po` och är inte inskickad. Den arkiverade filen jämfördes med aktuell mall: 890 aktiva poster, inga saknade eller tomma. msgfmt godkände den med två metadataförbehåll; l10n-lint rapporterade åtta varningar, svlang inga skrivregelfel och Gitleaks inga fynd i filen. Programkörning är inte verifierad.
+
+2026-10-27: En förnyad kontroll av den officiella sidan `sk1project.net`
+visar fortfarande en odaterad nedladdning för 2.0 RC5. Den senaste daterade
+officiella releaseposten som kunde verifieras är 2.0 RC4 från 2019-05-27.
+Det styrker inte en aktuell RC5-utgåva och uppfyller inte 48-månaderskravet.
+Utkastet lämnas därför arkiverat och oskickat.
