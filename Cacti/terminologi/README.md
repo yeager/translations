@@ -35,6 +35,8 @@ Arbetslista för alla Cacti-komponenter. Tillämpa orden efter sammanhang och ä
 | step / stepping | steglängd | När värdet anger avståndet mellan numeriska val. |
 | filename / file name | filnamn | Samma betydelse trots olika engelsk stavning. |
 | log | logg | |
+| Syslog facility | Syslog-facilitet | Etablerad Syslog-beteckning för den prioritetstyp som tillsammans med allvarlighetsgrad formar ett Syslog-pri-tal. Behåll termen; ersätt inte med den allmänspråkliga betydelsen av facilitet. |
+| Syslog transport | Syslog-transport | Protokoll eller överföringssätt för Syslog, till exempel UDP, TCP eller TLS. |
 | uptime | drifttid | |
 | heartbeat | hjärtslag, hjärtslagsintervall | I RRD-datakällor avser det ett tidsintervall; för en insamlingsprocess kan det avse själva livstecknet. En gemensam källsträng kan användas i flera sammanhang och ska inte ändras mekaniskt. |
 | poller cache | datainsamlarens cache | Använd insamlingsprocessens cache om det tekniska sammanhanget kräver åtskillnad. |
