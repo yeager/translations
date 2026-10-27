@@ -132,3 +132,9 @@ kandidater ska rättas efter kontroll mot Crowdins valda måltexter:
 ”Formelement för efterbearbetning” och två korta `Create Datum`-kommandon med
 ”Skapa referensgeometri”. Övriga 17 kandidater är godtagbara. Inga nya
 Crowdin-förslag har skapats.
+
+2026-10-27: Ett tjugonde läsande urval om 20 godkända avvikelser har
+granskats och arkiverats i `approved-differences-sample-20-20261027.md`. Två
+kandidater ska rättas efter kontroll mot Crowdins valda måltexter:
+”Förflytta geometrier” och ”Visuella hjälpmedel”. Övriga 18 kandidater är
+godtagbara. Inga nya Crowdin-förslag har skapats.
