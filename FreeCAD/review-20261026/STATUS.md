@@ -67,3 +67,10 @@ använder den felaktiga termen ”rutmarkering” eller den ofullständiga
 formerna är `rektangelmarkering`, `Rektangelmarkering av &element` och
 `Kuggstång och pinjong`. De ska först jämföras med Crowdins valda måltexter.
 Övriga 16 kandidater är godtagbara. Inga nya Crowdin-förslag har skapats.
+
+2026-10-27: Ett tionde läsande urval om 20 godkända avvikelser har granskats
+och arkiverats i `approved-differences-sample-10-20261027.md`. Fyra kandidater
+ska rättas efter kontroll mot Crowdins valda måltexter: `Malformed joints` ska
+vara ”Felaktigt definierade leder”, och `revolute joint` ska konsekvent vara
+”rotationsled” i både kommandon och instruktioner. Övriga 16 kandidater är
+godtagbara. Inga nya Crowdin-förslag har skapats.
