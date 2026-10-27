@@ -1,0 +1,18 @@
+{
+  "menu.advanced.export_compile_trace": "Exportera spår (Perfetto)",
+  "menu.advanced.frame_annotations": "Bildruteanteckningar",
+  "menu.advanced.frame_annotations_tooltip": "Aktivera detaljerade bildruteanteckningar för felsökning av renderingspass och ritanrop.",
+  "menu.advanced.half_precision": "Halvprecision (delprecision)",
+  "menu.advanced.half_precision_tooltip": "Lägger till D3DCOMPILE_PARTIAL_PRECISION i shaderkompilatorns flaggor.\nTillåter fxc att sänka omärkta flyttalsoperationer till FP16 där säkerheten kan bevisas, utöver befintliga min16float-typtips.\nPå GPU:er med stöd för FP16 (Pascal+ / GCN+ / Skylake+) kan detta halvera registertrycket och dubbla ALU-genomströmningen, men kan också ge mindre visuella skillnader i shaders som inte har granskats med avseende på precisionskänslighet.\nNär alternativet växlas rensas shadercachen och en fullständig omkompilering startas.",
+  "menu.advanced.hide_compilation_hud_vr": "Dölj kompilerings-HUD i VR",
+  "menu.advanced.hide_compilation_hud_vr_tooltip": "Döljer överlägget med förloppet för bakgrundskompilering för bättre inlevelse. Varningen för blockerande förgrundskompilering visas fortfarande, eftersom spelet faktiskt är pausat då.",
+  "menu.advanced.infinite_core_efficiency": "Effektivitet med oändligt många kärnor",
+  "menu.advanced.infinite_core_efficiency_metric": "Effektivitet med oändligt många kärnor (S/T_p): %.1f %%",
+  "menu.advanced.infinite_core_efficiency_tooltip_1": "Hur nära körtiden ligger den nedre gränsen med oändligt många kärnor.",
+  "menu.advanced.infinite_core_efficiency_tooltip_2": "100 % betyder att T_p == S.",
+  "menu.advanced.infinite_core_gap_metric": "Avstånd till oändligt många kärnor: %.1f %%",
+  "menu.advanced.infinite_core_gap_tooltip_1": "Avståndet till den ideala tiden med oändligt många kärnor.",
+  "menu.advanced.infinite_core_gap_tooltip_2": "Definieras som 100 * (1 - S / T_p). Lägre är bättre.",
+  "menu.advanced.last_smart_clear": "Senaste smarta rensning: {} shader(s) ({:.1f} ms)",
+  "menu.advanced.log_level": "Loggnivå"
+}
