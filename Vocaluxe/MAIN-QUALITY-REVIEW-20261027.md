@@ -20,11 +20,12 @@ markerar endast sökprefixen `fi` och `fo` samt sammansättningen `mappnamn` i
 hjälptexten; de behålls av funktionsskäl. Deltat är inte uppladdat till
 Transifex och ingen visning i spelet har verifierats.
 
-En kompletterande tvåsträngarsfil,
+En kompletterande tiosträngarsfil,
 `sv-huvudfil-rapportdialog-20261027.delta.xml`, rättar felrapporteringsdialogens
 två texter. De tidigare texterna innehöll bland annat ”sätte på ett fel”,
 felaktigt verb efter ”för att” och en subjektväxling där loggen själv påstods
 skickas in. De nya texterna bevarar radbrytningarna från källan och använder
-en konsekvent du-form. XML, nycklar och radbrytningar, l10n-lint, svlang,
+en konsekvent du-form. XML, nycklar och radbrytningar, l10n-lint,
 Hunspell-sv och en avgränsad Gitleaks-kontroll passerar; Hunspell markerar
-endast projektnamnet Vocaluxe.
+endast projektnamnet Vocaluxe. svlang ger två falska V2-varningar för de
+inledande uppmaningarna ”Ladda upp …”, inte för ett faktiskt ordföljdsfel.
