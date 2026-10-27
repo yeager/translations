@@ -25,6 +25,9 @@ Kontrollen omfattar också två mindre komponenter: `feature.reverse_z` är
 fullständig med 10 av 10 nycklar, och `feature.foliage_lighting` med 17 av
 17. Inga nycklar saknas i respektive arkivjämförelse.
 
+Menyn `menu.performance` är också fullständig med 24 av 24 nycklar i två
+separata små häften. Inga nycklar saknas i arkivjämförelsen.
+
 Häftena 26–82 omfattar 573 av dessa nycklar. De är inte dubbletter av redan
 arkiverade källnycklar, med undantag för Regndroppars ljusbrytning (häfte 29),
 som är en dokumenterad språklig kvalitetshöjning av en äldre lokal version.
