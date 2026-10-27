@@ -70,8 +70,10 @@ formatmarkörer eller radbrytningar. L10n-lint och Gitleaks är godkända för d
 sammanslagna komponenten.
 
 Samtliga 152 aktuella nycklar i `feature.perf_overlay` är granskade och
-arkiverade. De tio häftena behöver sammanfogas och jämföras med källkatalogen
-innan komponenten kan markeras som helt lokalt kontrollerad.
+arkiverade. De tio häftena har sammanfogats och jämförts med källkatalogen:
+152 av 152 nycklar finns, utan saknade eller extra nycklar och utan avvikande
+formatmarkörer, bokstavliga procenttecken eller radbrytningar. L10n-lint och
+Gitleaks är godkända för den sammanslagna komponenten.
 
 Open Shaders uppfyller färskhetskravet genom den officiella utgåvan `v2.19.0`
 från 18 oktober 2026. Nästa steg är att importera de komponentvisa filerna
