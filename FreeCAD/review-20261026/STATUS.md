@@ -125,3 +125,10 @@ ska rättas efter kontroll mot Crowdins valda måltexter: `plant` ska vara
 ”planärt”, och tre Part Design-poster ska använda ”referensgeometri” i stället
 för ”referensobjekt”. Övriga 16 kandidater är godtagbara. Inga nya
 Crowdin-förslag har skapats.
+
+2026-10-27: Ett nittonde läsande urval om 20 godkända avvikelser har
+granskats och arkiverats i `approved-differences-sample-19-20261027.md`. Tre
+kandidater ska rättas efter kontroll mot Crowdins valda måltexter:
+”Formelement för efterbearbetning” och två korta `Create Datum`-kommandon med
+”Skapa referensgeometri”. Övriga 17 kandidater är godtagbara. Inga nya
+Crowdin-förslag har skapats.
