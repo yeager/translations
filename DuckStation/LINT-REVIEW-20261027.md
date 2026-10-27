@@ -23,5 +23,6 @@ Kontroller: `xmllint`, `l10n-lint`, `svlang`, `hunspell-sv`, `gitleaks` och
 `git diff --check`. `l10n-lint` rapporterar 0 fel och 17 varningar.
 
 Kandidaten omfattar 5 656 meddelanden och får inte laddas upp som en enda
-Weblate-batch. Vid inskickning ska endast de berörda meddelandena exporteras
-som ett litet delunderlag och kontrolleras mot aktuell upstreamkatalog först.
+Weblate-batch. Deltafilen `duckstation-qt_sv-lint-fixes-20261027.delta.ts`
+innehåller därför enbart de 14 berörda meddelandena. Vid inskickning ska den
+kontrolleras mot aktuell upstreamkatalog först.
