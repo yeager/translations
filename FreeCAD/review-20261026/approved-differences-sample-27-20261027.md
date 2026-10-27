@@ -9,27 +9,29 @@ skickades till Crowdin.
 ## Bedömning
 
 - Tretton av 20 kandidater är godtagbara i sitt sammanhang.
-- `verktygsdefinition`, `verktygsbana`, `avgradning`, `planfräsning`,
-  `brotsch`, `V-fräs`, `hörnradiefräs` och `mätning` används korrekt.
+- `verktygsbit`, `verktygsbana`, `avgradning`, `planfräsning`, `brotsch`,
+  `V-fräs`, `hörnradiefräs` och `mätning` används korrekt.
 - Tankstrecket i bibliotekets rubrik är korrekt svenskt typografiskt tecken.
 
 ## Rättelser att kontrollera i Crowdin
 
 - 6644244 och 6674862 `Array` ska vara `Matris`, inte `Mönster`.
 - 6681254 och 6674864 ska använda `matris` i stället för `mönster`.
-- 6690032 ska vara `Väljare för verktygsdefinitioner`, inte den imperativa
-  formuleringen `Välj verktygsdefinition`.
-- 6690052 ska vara `Formval för verktygsdefinition`, inte `Välj
-  verktygsdefinitionens form`.
 
 ## Slutsats
 
-De sex rättelserna ska först jämföras med Crowdins aktuellt valda måltexter.
-Övriga 13 poster kräver inga nya Crowdin-förslag.
+De fyra matriskorrigeringarna ska först jämföras med Crowdins aktuellt valda
+måltexter. Övriga 16 poster kräver inga nya Crowdin-förslag.
 
 Noteringen om sträng-id 6644262 har tagits bort: id:t gäller `Deburr` och
 inte en matrissträng. Det var en felaktig id-koppling i det tidigare
 granskningsunderlaget.
+
+De tidigare föreslagna ändringarna av 6690032 och 6690052 har också tagits
+bort. Kontroll i Crowdin och jämförelse med övriga CAM-strängar visar att
+`Väljare för verktygsbit` respektive `Formväljare för verktygsbit` använder
+projektets etablerade term `verktygsbit`; `verktygsdefinition` vore mindre
+precist för källtermen `Toolbit`.
 
 ## Kontroll i Crowdin 27 oktober 2026
 
