@@ -16,6 +16,11 @@ saknade eller extra nycklar. Denna kontroll säger endast att underlaget är
 helt; varje delta ska fortfarande jämföras med en ny Weblate-export före
 import efter upplåsningen.
 
+Samma dag jämfördes även samtliga 96 aktuella nycklar i
+`feature.exp_height_fog` med arkivet. Alla 96 finns arkiverade utan saknade
+eller extra nycklar. Komponenten behöver på samma sätt en ny exportjämförelse
+före import efter upplåsningen.
+
 Häftena 26–76 omfattar 534 av dessa nycklar. De är inte dubbletter av redan
 arkiverade källnycklar, med undantag för Regndroppars ljusbrytning (häfte 29),
 som är en dokumenterad språklig kvalitetshöjning av en äldre lokal version.
