@@ -8,3 +8,5 @@ bevaras.
 
 JSON-syntax, nyckeljämförelse, `l10n-lint`, svensk språkgranskning,
 Hunspell-genomgång, Gitleaks och Git-whitespacekontroll har körts.
+`svlang` ger en felaktig V2-varning för den korrekta korrelativa konstruktionen
+"Ju mer … desto mer". Hunspell markerar endast tekniska fackord.
