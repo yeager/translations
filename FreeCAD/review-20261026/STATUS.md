@@ -194,3 +194,11 @@ godkända måltexter kontrollerades i den inloggade redigeraren och hade redan
 ”mätningsuppgiften” respektive ”en enstaka yta”. Därmed är samtliga 542
 godkända avvikelser i underlaget granskade rad för rad. Inga nya
 Crowdin-förslag har skapats.
+
+2026-10-27: Den lokala kontrollen av
+`freecad-sv-crowdin-ready-20261026.xliff` hittade en enda verklig
+radbrytningsavvikelse i sträng 6607303. Måltexten hade sju radbrytningar där
+källan har åtta; den saknade radbrytningen före ”Mellanpunkten” har återställts.
+XML-syntaxkontroll, l10n-lint (0 fel, 11 bedömda stilvarningar), svlang och
+Gitleaks passerar därefter. Filen är fortfarande ett lokalt arkivunderlag,
+inte bevis för att Crowdin har valt eller godkänt ändringen.
