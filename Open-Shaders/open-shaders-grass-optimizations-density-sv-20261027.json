@@ -1,0 +1,14 @@
+{
+  "feature.grass_optimizations.key_feature_5": "Valfri LOD med meshbyte och förenklad skuggning för avlägset gräs",
+  "feature.grass_optimizations.mesh_cost_bias": "Mesh-kostnadsbias",
+  "feature.grass_optimizations.mesh_cost_bias_tooltip": "Gallrar bort eller tar bort gräsmeshar utifrån deras komplexitet (prestandapåverkan). Vid 0 är borttagningen likadan mellan alla grästyper oavsett komplexitet. Vid 1 gallras tyngre och mer komplexa meshobjekt bort 2–6 gånger tidigare än enkla. Gäller endast bortom startavståndet för kostnadsbias, så närliggande gräs glesas aldrig ut.",
+  "feature.grass_optimizations.mesh_lod": "Mesh-LOD",
+  "feature.grass_optimizations.mesh_lod_band": "Övergångsband för mesh-LOD",
+  "feature.grass_optimizations.mesh_lod_band_tooltip": "Intervallet av storlekar på skärmen där ett slumpmässigt antal meshobjekt byts ut innan nästa LOD-nivå tar över helt. Gäller båda övergångarna. Ett bredare intervall ger mjukare övergång.",
+  "feature.grass_optimizations.mid_lod_pixel_size": "Bildpunktsstorlek för mellan-LOD",
+  "feature.grass_optimizations.mid_lod_pixel_size_tooltip": "Instanser vars radie på skärmen är mindre än detta men större än bildpunktsstorleken för avlägsen LOD byts mot _LOD0.nif-meshen.",
+  "feature.grass_optimizations.min_density": "Minsta densitet",
+  "feature.grass_optimizations.min_density_tooltip": "Den procentandel gräs som återstår vid den minsta LOD-nivån (minsta bildpunktsstorlek) före bortgallring.",
+  "feature.grass_optimizations.min_pixel_size": "Minsta bildpunktsstorlek",
+  "feature.grass_optimizations.min_pixel_size_tooltip": "Enskilda gräsinstanser som synligt tar mindre plats på skärmen än detta tas bort helt. Högre värden förbättrar prestandan genom att avlägsna gräsinstanser tas bort tidigare."
+}
