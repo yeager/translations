@@ -157,3 +157,10 @@ granskats och arkiverats i `approved-differences-sample-23-20261027.md`. Tre
 kandidater ska rättas efter kontroll mot Crowdins valda måltexter:
 ”cellbindningar” samt totalmått uttryckta som ”i 2D” respektive ”i 3D”. Övriga
 17 kandidater är godtagbara. Inga nya Crowdin-förslag har skapats.
+
+2026-10-27: Ett tjugofjärde läsande urval om 20 godkända avvikelser har
+granskats och arkiverats i `approved-differences-sample-24-20261027.md`. Tre
+kandidater ska rättas efter kontroll mot Crowdins valda måltexter: `inom
+parentes`, den fullständiga etiketten ”brittiska måttenheter” och ”bygg- och
+anläggningsteknik”. Övriga 17 kandidater är godtagbara. Inga nya
+Crowdin-förslag har skapats.
