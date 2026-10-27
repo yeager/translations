@@ -74,3 +74,11 @@ ska rättas efter kontroll mot Crowdins valda måltexter: `Malformed joints` ska
 vara ”Felaktigt definierade leder”, och `revolute joint` ska konsekvent vara
 ”rotationsled” i både kommandon och instruktioner. Övriga 16 kandidater är
 godtagbara. Inga nya Crowdin-förslag har skapats.
+
+2026-10-27: Ett elfte läsande urval om 20 godkända avvikelser har granskats
+och arkiverats i `approved-differences-sample-11-20261027.md`. Fyra kandidater
+ska rättas efter kontroll mot Crowdins valda måltexter: `Rack and Pinion Joint`
+ska vara ”Kuggstångs- och pinjongled”, `revolute joints` ska vara
+”rotationsleder” och den äldre Drawing-strängen ska använda
+”Automatisk skala/position” utan blanksteg vid snedstrecket. Övriga 16
+kandidater är godtagbara. Inga nya Crowdin-förslag har skapats.
