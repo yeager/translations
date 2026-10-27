@@ -180,11 +180,13 @@ verktygsbanor. Övriga 17 kandidater är godtagbara. Inga nya Crowdin-förslag h
 skapats.
 
 2026-10-27: Ett tjugosjunde läsande urval om 20 godkända avvikelser har
-granskats och arkiverats i `approved-differences-sample-27-20261027.md`. Sju
-kandidater ska rättas efter kontroll mot Crowdins valda måltexter: den
-konsekventa CAM-termen ”matris”, en väljare för verktygsdefinitioner och ett
-formval. Övriga 13 kandidater är godtagbara. Inga nya Crowdin-förslag har
-skapats.
+granskats och arkiverats i `approved-differences-sample-27-20261027.md`.
+Efter en senare kontroll återstår endast fyra CAM-rättelser för den
+konsekventa termen ”matris”. Två tidigare föreslagna ändringar av `Toolbit`
+har strukits: ”verktygsbit” är den etablerade FreeCAD-termen och Crowdins
+aktuella värden ”Väljare för verktygsbit” och ”Formväljare för verktygsbit”
+är korrekta. Tre av de fyra matriskorrigeringarna har kontrollerats direkt i
+Crowdin, men är ännu inte sparade. Övriga 16 poster är godtagbara.
 
 2026-10-27: De två återstående godkända avvikelserna har granskats och
 arkiverats i `approved-differences-sample-28-20261027.md`. Crowdins aktuella,
