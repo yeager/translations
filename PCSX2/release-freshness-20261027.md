@@ -14,3 +14,9 @@ De tio posterna i `pcsx2-new-menu-strings-20261026.ts` saknas i den aktuella
 Git-katalogen. De är Crowdin-specifika strängar och kan därför inte markeras
 som föråldrade på grundval av Git-jämförelsen; deras status ska följas i
 Crowdin.
+
+Crowdin-redigeraren kontrollerades därefter 2026-10-27. Sökningarna
+`Game Properties (Edit)` och `Default Boot` visade samtliga tio poster med
+exakt arkivets måltexter: två egenskapsmenyer, fyra varianter av
+standardstart och fyra motsvarande poster för de två användargränssnitten.
+Även dessa strängar är alltså redan införda och ska inte laddas upp igen.
