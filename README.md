@@ -6,6 +6,12 @@ Senaste arkivändring är datumet för den senaste Git-incheckningen som berör 
 
 Övergripande dokument: [statusjournal](STATUS.md), [väntande upstreamarbete](PENDING_UPSTREAM.md) och [policy för aktuell release](RELEASE-FRESHNESS-POLICY.md).
 
+Senaste tillägg som ännu inte hunnit in i den alfabetiska projektöversikten:
+
+| Projekt | Datum | Granskning och status | Att göra |
+| --- | --- | --- | --- |
+| [Open-Shaders](Open-Shaders/) | 2026-10-27 | [Utökade material, häfte 19](Open-Shaders/EXTENDED-MATERIALS-REVIEW-20261027.md) med 22 lokalt kontrollerade strängar och [funktionsöverskrivningar, häfte 20](Open-Shaders/FEATURE-OVERWRITES-REVIEW-20261027.md) med 23. Filerna är arkiverade, men inte inskickade eftersom Weblate-komponenten är låst | För in uppgifterna i projektets huvudrad när nästa samlade statusuppdatering görs |
+
 | Projekt | Senaste arkivändring | Granskning och underlag | Status i arkivet | Att göra |
 | --- | --- | --- | --- | --- |
 | [0-AD](0-AD/) | 2026-10-25 | Granskade PO-filer i projektmappen | Lobbyändringar dokumenterade i [inskickade strängar](0-AD/0ad-lobby-sv-submitted-20261025.json); övrig upstreamstatus behöver verifieras | Kontrollera aktuell upstreamstatus |
