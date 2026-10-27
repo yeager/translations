@@ -8,3 +8,8 @@ inga tomma måltexter.
 den radvisa språkgranskningen: två felskrivningar, felstavade *kommentarer*,
 en felaktig böjningsform och en mer begriplig översättning av *Carousel* i
 förhandsvisningsinställningen. Filen är lokal och inte inskickad uppströms.
+
+`strings-sv-livesandningar-20261027.xml` normaliserar tretton strängar om
+live-streaming till **livesändning** och ersätter den engelskpåverkade
+etiketten *Feedback* med **Återkoppling**. Detta omfattar även hjälptexter om
+återspolning, buffring och enheter med låg prestanda.
