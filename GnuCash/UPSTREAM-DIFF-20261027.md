@@ -17,9 +17,9 @@ Fem poster är medvetet utelämnade ur deltat:
 - `Date Opened`: den arkiverade lydelsen `Öppnad datum` är felaktig; upstreams
   `Öppningsdatum` behålls;
 - `Open`: upstreams `Öppna` är korrekt som åtgärd;
-- två fristående `Split`-poster och texten om en dold måldelpost: arkivets
-  `split` respektive `Destinations-spliten` är inte konsekvent svenska och
-  behöver en separat termgranskning.
+- två fristående `Split`-poster och texten om en dold måldelpost: de är
+  utelämnade ur deltat i avvaktan på den separata termgranskningen
+  `SPLIT-TERM-REVIEW-20261027.md`.
 
 Kontroller av 59-postersdeltat: `msgfmt --check --check-format`, l10n-lint,
 svlang med verktygets egen virtuella miljö, hunspell-sv, Gitleaks och
