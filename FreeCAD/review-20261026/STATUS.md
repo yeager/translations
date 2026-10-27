@@ -202,3 +202,10 @@ källan har åtta; den saknade radbrytningen före ”Mellanpunkten” har åter
 XML-syntaxkontroll, l10n-lint (0 fel, 11 bedömda stilvarningar), svlang och
 Gitleaks passerar därefter. Filen är fortfarande ett lokalt arkivunderlag,
 inte bevis för att Crowdin har valt eller godkänt ändringen.
+
+2026-10-27: De fyra återstående CAM-rättningarna har samlats i den separata,
+lilla XLIFF-filen `freecad-cam-matris-20261027.xliff`: två etiketter `Array`
+blir ”Matris” och två instruktioner använder ”matris” i stället för ”array”.
+Filen innehåller endast sträng-id 6644244, 6681254, 6674862 och 6674864.
+XML-syntax, l10n-lint, svlang, Hunspell och Gitleaks passerar. Filen är
+arkiverad men inte uppladdad till Crowdin.
