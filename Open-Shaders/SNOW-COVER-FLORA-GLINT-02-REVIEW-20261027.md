@@ -1,4 +1,4 @@
-# Open Shaders: Snow Cover, granskning 2 av 6
+# Open Shaders: Snow Cover, granskning 2 av 5
 
 Det andra häftet omfattar växtfärgning, glanspunkter och kartkoordinater.
 `Harvestable plants` återges med `skördebara växter`, medan `foliage` får den

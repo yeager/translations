@@ -1,4 +1,4 @@
-# Open Shaders: Snow Cover, granskning 3 av 6
+# Open Shaders: Snow Cover, granskning 3 av 5
 
 Det tredje häftet omfattar huvudreglaget, material och snö på rörliga objekt.
 `Snow Cover` återges genomgående med `snötäcke`. `Survival Mode` har här den

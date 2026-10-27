@@ -1,4 +1,4 @@
-# Open Shaders: Snow Cover, granskning 1 av 6
+# Open Shaders: Snow Cover, granskning 1 av 5
 
 Det första häftet omfattar tretton strängar för snötäcke, lutning och eld.
 `Specular` återges som `speglande glans`, i linje med tidigare Open Shaders-
