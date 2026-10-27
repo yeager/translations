@@ -88,3 +88,9 @@ och arkiverats i `approved-differences-sample-12-20261027.md`. En kandidat ska
 rättas efter kontroll mot Crowdins valda måltext: `Plane Multi-Point Constraint`
 ska vara ”Flerpunktsvillkor för plan”, inte ”Plant flerpunktsvillkor”. Övriga
 19 kandidater är godtagbara. Inga nya Crowdin-förslag har skapats.
+
+2026-10-27: Ett trettonde läsande urval om 20 godkända avvikelser har
+granskats och arkiverats i `approved-differences-sample-13-20261027.md`. Alla
+poster är godtagbara i sin FEM- och bildvisningskontext. Den felaktiga
+ensamma avslutande parentesen finns redan i källsträngen och har bevarats för
+att inte skapa en formatavvikelse. Inga nya Crowdin-förslag har skapats.
