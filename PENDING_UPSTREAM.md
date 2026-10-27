@@ -2,7 +2,7 @@
 
 Följande arbete är ännu inte fullt verifierat eller inskickat:
 
-- **Bitwarden:** Aktuella deltan för Web (180 poster), Browser (10) och Desktop
+- **Bitwarden:** Aktuella deltan för Web (192 poster), Browser (10) och Desktop
   (46) är arkiverade och lokalt validerade, men inte importerade. Filerna är
   nyckelbaserade granskningsdeltan och måste kopplas till aktuella
   plattforms-id:n före import. Se [komponentstatus](Bitwarden/CURRENT-COMPONENT-STATUS-20261027.md).
