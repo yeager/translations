@@ -92,3 +92,11 @@ inom 48 månader från kontrollen. Den aktuella, komponentvisa filen
 `cacti-webseer-sv-live-jamford-20261027.po` innehåller 19 kvarvarande
 rättelser efter att tre av 22 tidigare rättelser konstaterats redan matcha
 uppströms. Filen är inte inskickad.
+
+## Flowview
+
+Flowviews senaste stabila release är `v4.9`, publicerad 2025-03-23, och
+uppfyller 48-månadersregeln. En aktuell jämförelse visar att endast en av
+fjorton poster i den äldre slutgranskningsfilen fortfarande finns kvar och
+skiljer sig från uppströms. Den är sparad komponentvis i
+`cacti-flowview-sv-live-jamford-20261027.po` och är inte inskickad.
