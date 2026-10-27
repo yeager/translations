@@ -16,3 +16,7 @@ etiketten *Feedback* med **Återkoppling**. Detta omfattar även hjälptexter om
 
 `strings-sv-spellista-20261027.xml` rättar en betydelseavvikelse: engelska
 *Shuffle any playlist* avser en valfri spellista, inte samtliga spellistor.
+
+`strings-sv-spel-20261027.xml` översätter kategorietiketten *Gaming* till
+**Spel**. Övriga identiska måltexter i samma kontroll är produktnamn,
+formatnamn eller etablerade facktermer.
