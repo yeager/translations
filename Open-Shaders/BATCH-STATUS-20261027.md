@@ -96,6 +96,13 @@ avvikande formatmarkörer, bokstavliga procenttecken eller radbrytningar.
 JSON-syntax, `l10n-lint` och Gitleaks är godkända för komponenten. Se
 [integrationsgranskningen](LIGHT-LIMIT-FIX-INTEGRATION-REVIEW-20261027.md).
 
+Arbetet med `feature.wind` pågår. De första nio små häftena omfattar 144 av
+279 aktuella nycklar. Varje häfte har validerats med JSON-syntax,
+`l10n-lint`, `svlang`, Hunspell-genomgång, Gitleaks och kontroll av
+formatmarkörer, radbrytningar samt tre lika konsonanter i följd. `svlang` kan
+markera tekniska sammansättningar och fullständiga svenska satser som möjliga
+V2-avvikelser; dessa signaler har lästs och bedömts manuellt.
+
 Samtliga 157 aktuella nycklar i `menu.advanced` är granskade och arkiverade.
 De tio häftena har sammanfogats och jämförts med källkatalogen: 157 av 157
 nycklar finns, utan saknade eller extra nycklar och utan avvikande
