@@ -21,6 +21,10 @@ Samma dag jämfördes även samtliga 96 aktuella nycklar i
 eller extra nycklar. Komponenten behöver på samma sätt en ny exportjämförelse
 före import efter upplåsningen.
 
+Kontrollen omfattar också två mindre komponenter: `feature.reverse_z` är
+fullständig med 10 av 10 nycklar, och `feature.foliage_lighting` med 17 av
+17. Inga nycklar saknas i respektive arkivjämförelse.
+
 Häftena 26–78 omfattar 537 av dessa nycklar. De är inte dubbletter av redan
 arkiverade källnycklar, med undantag för Regndroppars ljusbrytning (häfte 29),
 som är en dokumenterad språklig kvalitetshöjning av en äldre lokal version.
