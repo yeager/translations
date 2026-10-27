@@ -1,0 +1,29 @@
+# FreeCAD: tjugosjunde urvalet av godkända avvikelser
+
+Den 27 oktober 2026 granskades 20 godkända avvikelser, sträng-id
+6690654–6691582, mot XLIFF-kontexten, den granskade FreeCAD-översättningen
+och etablerad CAM-terminologi. Platshållaren `{e}` och uttrycket
+`{current_name or self.library.label}` är bevarade. Inga ändringar eller röster
+skickades till Crowdin.
+
+## Bedömning
+
+- Tretton av 20 kandidater är godtagbara i sitt sammanhang.
+- `verktygsdefinition`, `verktygsbana`, `avgradning`, `planfräsning`,
+  `brotsch`, `V-fräs`, `hörnradiefräs` och `mätning` används korrekt.
+- Tankstrecket i bibliotekets rubrik är korrekt svenskt typografiskt tecken.
+
+## Rättelser att kontrollera i Crowdin
+
+- 6644244 och 6674862 `Array` ska vara `Matris`, inte `Mönster`.
+- 6681254 och 6674864 ska använda `matris` i stället för `mönster`.
+- 6644262 ska vara `Matriser kan endast skapas från verktygsbaneoperationer.`
+- 6690032 ska vara `Väljare för verktygsdefinitioner`, inte den imperativa
+  formuleringen `Välj verktygsdefinition`.
+- 6690052 ska vara `Formval för verktygsdefinition`, inte `Välj
+  verktygsdefinitionens form`.
+
+## Slutsats
+
+De sju rättelserna ska först jämföras med Crowdins aktuellt valda måltexter.
+Övriga 13 poster kräver inga nya Crowdin-förslag.

@@ -178,3 +178,10 @@ kandidater ska rättas efter kontroll mot Crowdins valda måltexter: bestämd fo
 för rätblocksämnets höjd, markeringens kanter och matrisupprepade
 verktygsbanor. Övriga 17 kandidater är godtagbara. Inga nya Crowdin-förslag har
 skapats.
+
+2026-10-27: Ett tjugosjunde läsande urval om 20 godkända avvikelser har
+granskats och arkiverats i `approved-differences-sample-27-20261027.md`. Sju
+kandidater ska rättas efter kontroll mot Crowdins valda måltexter: den
+konsekventa CAM-termen ”matris”, en väljare för verktygsdefinitioner och ett
+formval. Övriga 13 kandidater är godtagbara. Inga nya Crowdin-förslag har
+skapats.
