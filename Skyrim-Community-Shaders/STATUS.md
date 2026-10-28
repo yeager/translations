@@ -7,8 +7,8 @@ nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 3 216 översatta nycklar och
-utelämnar 1 021 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 3 217 översatta nycklar och
+utelämnar 1 020 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -237,3 +237,8 @@ produktnamn, grafiktermer och platshållare.
 sökväg, tekniktermer och radbrytning. Projektets kontroller och svlang
 passerar; Gitleaks gav inga fynd. Hunspell-träffarna är sökvägens tekniska
 komponenter och shadertermen.
+
+2026-10-28: Avancerade menyns testhjälptext är översatt. Spelkommandon,
+argument och platsnamnet Whiterun har bevarats exakt, medan deras
+användarförklaringar är svenska. Projektets kontroller och svlang passerar;
+Gitleaks gav inga fynd.
