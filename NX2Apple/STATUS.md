@@ -27,6 +27,7 @@ Datum: 2026-10-28
 
 Arbetsgrenen `l10n/swedish` rebasedes mot uppströms `main` och skickades som
 [PR #168](https://github.com/LNPANDY/NX2Apple/pull/168). PR-huvudet är
-`10ef7a292f1fd33a463db5d9f1f89528a01379d6`. GitHub har ännu inte slutfört sin
-mergebarhetsberäkning och visar därför `UNSTABLE`; den lokala rebasen och hela
-testsviten är verifierade mot samma huvudcommit.
+`10ef7a292f1fd33a463db5d9f1f89528a01379d6`. GitHubs API bekräftar att PR:en
+är mergebar och rebasebar. Den visar `UNSTABLE` som allmän granskningsstatus,
+inte som en konflikt. Den lokala rebasen och hela testsviten är verifierade mot
+samma huvudcommit.
