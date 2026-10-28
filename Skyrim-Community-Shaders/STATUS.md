@@ -7,8 +7,8 @@ nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 2 099 översatta nycklar och
-utelämnar 2 138 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 2 188 översatta nycklar och
+utelämnar 2 049 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -16,7 +16,8 @@ Kontroller 2026-10-28:
 
 - Projektets `extract-i18n.py --check` och `--orphans` passerar.
 - Projektets `sort-i18n.py --check` passerar.
-- Alla platshållare i de 2 081 svenska posterna matchar engelskan.
+- De 89 nytillagda TM-posterna har entydig svensk måltext, exakt samma aktuella
+  engelska källa och bevarade klammerplatshållare.
 - `l10n-lint` rapporterar inga fel och en avgränsad Gitleaks-körning rapporterar
   inga fynd.
 - svlangs enda skrivregelträff är den bevarade spelvariabeln
@@ -27,6 +28,12 @@ Efter den första porten jämfördes även de lokala Open Shaders-arkiven mot de
 aktuella engelska källan. Endast 18 poster hade både oförändrad källa och en
 entydig tidigare granskad svensk måltext; de lades till i PR:n. Hundra poster
 med ändrad engelsk källa lämnades avsiktligt för manuell granskning.
+
+Ytterligare 89 poster valdes ur `swedish-tm` efter exakt jämförelse med den
+aktuella engelska källan och manuell kontextkontroll. Tvetydiga, felkodade och
+oförändrade kandidater lämnades utanför. I samma genomgång återställdes `%s` i
+ett äldre Nsight Perf-felmeddelande, eftersom programkoden skickar ett dynamiskt
+byggtips till den strängen.
 
 Projektets senaste release, v1.9.1, publicerades 2026-09-24 och uppfyller
 48-månaderskravet. Den partiella filen skickades som
