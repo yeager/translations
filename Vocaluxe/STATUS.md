@@ -54,3 +54,10 @@ att ladda upp loggen.`, `Last error` = `Senaste felet` och `Not available` =
 `Inte tillgängligt`. Dessutom har valet att inte ladda upp något sparats med
 den granskat naturliga formuleringen `Ladda inte upp något (du kan fortfarande
 kopiera felmeddelandet ovan)`. Fem dialogrättningar återstår.
+
+2026-10-28: Alternativet för att ladda upp och skapa ett GitHub-ärende har
+sparats och återlästs från Transifex med kontot `yeager`. QA-kontrollen
+rapporterade först en saknad vänsterparentes; måltexten och arkivdeltat har
+justerats så att de nu bevarar både parenteserna och GitHub-kontokravet:
+`Ladda upp och skapa ett ärende (ärendet blir offentligt synligt och det krävs
+ett GitHub-konto)`. Fyra dialogrättningar återstår.
