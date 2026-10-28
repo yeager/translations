@@ -1,14 +1,14 @@
 # Skyrim Community Shaders: svensk port
 
-Den aktuella utvecklingsrevisionen `c124d807c99845dcfb38e7aaac021c59c9465f93`
+Den aktuella utvecklingsrevisionen `a019cf603721b676a0f56b7e49cd50e12da68437`
 har 4 237 engelska nycklar. Den tidigare arkiverade porten innehöll 2 132
 svenska nycklar från en äldre katalog. Av dessa matchar 2 081 fortfarande
 nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 3 997 översatta nycklar och
-utelämnar 240 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 4 046 översatta nycklar och
+utelämnar 191 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -415,3 +415,8 @@ Hunspell och Gitleaks passerar.
 briljans, kontrast, vitpunkt, bildskärm, HDR, nyans och renhet. De längre
 färgvetenskapliga förklaringarna granskas i en separat sats. Projektets
 kontroller, l10n-lint, svlang, Hunspell och Gitleaks passerar.
+
+2026-10-28: Skärpedjup har färdigställts med 49 strängar för bokeh,
+autofokus, CoC, sensor, fokusplan och oskärpa. Komponenten har inga
+återstående engelska nycklar. Projektets kontroller, l10n-lint, svlang,
+Hunspell och Gitleaks passerar.
