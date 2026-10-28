@@ -1,0 +1,117 @@
+From b473f064b9342afaec4a600a480dcdc40f24d0b4 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <po@danielnylander.se>
+Date: Thu, 29 Oct 2026 00:19:28 +0100
+Subject: [PATCH] i18n: translate complete membership role messages
+
+---
+ src/postorius/tests/test_list_view.py | 27 ++++++++++++++++++++++
+ src/postorius/views/list.py           | 32 +++++++++++++++++++--------
+ 2 files changed, 50 insertions(+), 9 deletions(-)
+
+diff --git a/src/postorius/tests/test_list_view.py b/src/postorius/tests/test_list_view.py
+index e3afd659..1f53a6f7 100644
+--- a/src/postorius/tests/test_list_view.py
++++ b/src/postorius/tests/test_list_view.py
+@@ -16,6 +16,9 @@
+ # Postorius.  If not, see <http://www.gnu.org/licenses/>.
+ 
+ 
++from types import SimpleNamespace
++from unittest.mock import patch
++
+ from django.contrib.auth.models import User
+ from django.contrib.messages.storage.base import BaseStorage, Message
+ from django.test import TestCase
+@@ -46,6 +49,30 @@ class TestListView(TestCase):
+     def setUp(self):
+         self.request_factory = RequestFactory()
+ 
++    def test_member_view_translates_complete_role_messages(self):
++        for role in ListMembersViews.allowed_roles:
++            for query in ('', 'alice'):
++                with self.subTest(role=role, query=query):
++                    request = self.request_factory.get('/', {'q': query})
++                    view = ListMembersViews(mailing_list=object())
++                    page = SimpleNamespace(
++                        object_list=SimpleNamespace(total_size=0)
++                    )
++                    with patch('postorius.views.list._',
++                               side_effect=lambda text: 'translated: ' + text), \
++                         patch('postorius.views.list.paginate', return_value=page), \
++                         patch('postorius.views.list.render',
++                               side_effect=lambda request, template, context: context):
++                        context = view.get(request, 'example.org', role)
++                    self.assertEqual(context['role'], role)
++                    self.assertEqual(context['page_title'],
++                                     'translated: List {}s'.format(role.capitalize()))
++                    self.assertEqual(context['form_action'],
++                                     'translated: Add {}'.format(role))
++                    expected = ('No {}s were found matching the search.'
++                                if query else 'List has no {}s').format(role)
++                    self.assertEqual(context['empty_error'], 'translated: ' + expected)
++
+     def test_error_message(self):
+         mailing_list_data = {'list_id': 'test_list.example.com'}
+         mailing_list = MailingList(None, None, data=mailing_list_data)
+diff --git a/src/postorius/views/list.py b/src/postorius/views/list.py
+index 54c65162..3c9ec0d1 100644
+--- a/src/postorius/views/list.py
++++ b/src/postorius/views/list.py
+@@ -120,6 +120,24 @@ class ListMembersViews(UserShowListMembersMixin, MailingListView):
+     # exact value Core's REST API expects.
+     allowed_roles = ['owner', 'moderator', 'member', 'nonmember']
+ 
++    @staticmethod
++    def _role_messages(role):
++        """Return complete messages so translators can adapt each role."""
++        return {
++            'owner': (_('List Owners'), _('Add owner'),
++                      _('No owners were found matching the search.'),
++                      _('List has no owners')),
++            'moderator': (_('List Moderators'), _('Add moderator'),
++                          _('No moderators were found matching the search.'),
++                          _('List has no moderators')),
++            'member': (_('List Members'), _('Add member'),
++                       _('No members were found matching the search.'),
++                       _('List has no members')),
++            'nonmember': (_('List Nonmembers'), _('Add nonmember'),
++                          _('No nonmembers were found matching the search.'),
++                          _('List has no nonmembers')),
++        }[role]
++
+     def _prepare_query(self, request):
+         """Prepare regex based query to search partial email addresses.
+ 
+@@ -146,10 +164,11 @@ class ListMembersViews(UserShowListMembersMixin, MailingListView):
+             return redirect('list_members', list_id, 'member')
+         context = dict()
+         context['list'] = self.mailing_list
+-        # Warning: role not translatable
++        # The role is also used as an identifier by the API and templates.
+         context['role'] = role
+         context['member_form'] = member_form
+-        context['page_title'] = _('List {}s'.format(role.capitalize()))
++        title, action, no_matches, empty_list = self._role_messages(role)
++        context['page_title'] = title
+         context['query'] = self._prepare_query(request)
+ 
+         def find_method(count, page):
+@@ -166,13 +185,8 @@ class ListMembersViews(UserShowListMembersMixin, MailingListView):
+         context['page_subtitle'] = '({})'.format(
+             context['members'].object_list.total_size
+         )
+-        context['form_action'] = _('Add {}'.format(role))
+-        if context['query']:
+-            context['empty_error'] = _(
+-                'No {}s were found matching the search.'.format(role)
+-            )
+-        else:
+-            context['empty_error'] = _('List has no {}s'.format(role))
++        context['form_action'] = action
++        context['empty_error'] = no_matches if context['query'] else empty_list
+ 
+         return render(request, 'postorius/lists/members.html', context)
+ 
+-- 
+2.54.0 (Apple Git-157)
+
