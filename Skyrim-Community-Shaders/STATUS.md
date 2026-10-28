@@ -7,8 +7,8 @@ nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 2 081 översatta nycklar och
-utelämnar 2 156 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 2 099 översatta nycklar och
+utelämnar 2 138 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -22,6 +22,11 @@ Kontroller 2026-10-28:
 - svlangs enda skrivregelträff är den bevarade spelvariabeln
   `fGrassStartFadeDistance`; Hunspell-träffarna är spel-, shader-, fil- och
   API-termer som har granskats i kontext.
+
+Efter den första porten jämfördes även de lokala Open Shaders-arkiven mot den
+aktuella engelska källan. Endast 18 poster hade både oförändrad källa och en
+entydig tidigare granskad svensk måltext; de lades till i PR:n. Hundra poster
+med ändrad engelsk källa lämnades avsiktligt för manuell granskning.
 
 Projektets senaste release, v1.9.1, publicerades 2026-09-24 och uppfyller
 48-månaderskravet. Den partiella filen skickades som
