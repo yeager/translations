@@ -7,8 +7,8 @@ nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 3 402 översatta nycklar och
-utelämnar 835 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 3 431 översatta nycklar och
+utelämnar 806 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -282,3 +282,10 @@ optiska vinjettering. Procent- och gradformat är bevarade. Projektets
 extraktions-, orphan- och sorteringskontroll samt svlang och l10n-lint
 passerar. Gitleaks gav inga fynd. Hunspell-träffarna är formatmarkörer och
 facktermerna anamorft och fjärdepotenslagen.
+
+2026-10-28: Histogramstyrd automatisk exponering har kompletterats med 29
+strängar för luminans, EV100, exponeringskompensation, anpassning och
+Purkinjeeffekten. Samtliga tal- och formatplatshållare är bevarade. Projektets
+extraktions-, orphan- och sorteringskontroll samt svlang och l10n-lint
+passerar. Gitleaks gav inga fynd. Hunspell-träffarna är EV-format och
+facktermerna Purkinjeeffekt och histogramstyrd.
