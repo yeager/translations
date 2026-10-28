@@ -30,3 +30,4 @@ Granskad svensk PO-katalog från Transifex-resursen `i18n/pcsx-redux.pot (main)`
 - Status: 1 078/1 078 översatta lokalt. Transifex-inskick återstår.
 - Kontroller: `msgfmt --check`, l10n-lint (0 fel), svlang, Hunspell SV och Gitleaks (0 fynd).
 - Arkiv: `Transifex/pcsx-redux/pcsx-redux-sv-reviewed-20261028.po`
+- Källsynk: Transifex visar en äldre resurs och erbjuder endast webbredigering av källsträngar med Growth-funktionen. Käll-POT:en måste därför synkas av projektets underhållare eller befintliga integration innan målfilen kan importeras utan bortfall.
