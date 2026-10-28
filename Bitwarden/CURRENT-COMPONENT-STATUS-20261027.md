@@ -7,9 +7,9 @@ webbklienttaggen är `web-v2026.9.1`; den uppfyller kravet på en release yngre
 
 | Komponent | Aktuell engelsk katalog | Saknade svenska måltexter i källträdet | Arkiverat 2026-10-27 | Upstreamstatus |
 | --- | ---: | ---: | ---: | --- |
-| Web | 4 952 | 263 | 263 | Skickat som [PR #24212](https://github.com/bitwarden/clients/pull/24212) 2026-10-28; väntar på upstreamgranskning och CI. |
-| Browser | 2 318 | 10 | 10 | Skickat som [PR #24212](https://github.com/bitwarden/clients/pull/24212) 2026-10-28; väntar på upstreamgranskning och CI. |
-| Desktop | 2 014 | 46 | 46 | Skickat som [PR #24212](https://github.com/bitwarden/clients/pull/24212) 2026-10-28; väntar på upstreamgranskning och CI. |
+| Web | 4 952 | 263 | 263 | [PR #24212](https://github.com/bitwarden/clients/pull/24212) stängdes 2026-10-28 utan merge. Underhållaren hänvisar till Bitwardens Crowdin-flöde; deltat är inte infört uppströms. |
+| Browser | 2 318 | 10 | 10 | [PR #24212](https://github.com/bitwarden/clients/pull/24212) stängdes 2026-10-28 utan merge. Underhållaren hänvisar till Bitwardens Crowdin-flöde; deltat är inte infört uppströms. |
+| Desktop | 2 014 | 46 | 46 | [PR #24212](https://github.com/bitwarden/clients/pull/24212) stängdes 2026-10-28 utan merge. Underhållaren hänvisar till Bitwardens Crowdin-flöde; deltat är inte infört uppströms. |
 | Mobile | 905 | 0 tomma; 42 engelska kandidater | 23 rättningar arkiverade och tillämpade i lokal branch | `bitwarden/mobile` är arkiverat och skrivskyddat på GitHub. Branch `yeager:codex/swedish-mobile-localization-20261028` innehåller validerade ändringar, men GitHub avvisade PR-skapande 2026-10-28. |
 | Authenticator iOS | 52 relevanta äldre nycklar i aktuell katalog | 0 tomma; två tydliga grammatikfel | 60 äldre rättningar arkiverade | Den arkiverade källan är ersatt av aktiva `bitwarden/ios`. Av 60 gamla poster finns 52 kvar; åtta har utgått eller döpts om. Två verifierade grammatikrättningar skickades som [PR #3159](https://github.com/bitwarden/ios/pull/3159) 2026-10-28; väntar på CI och upstreamgranskning. |
 | Authenticator Android | 152 i den äldre katalogen | 0 tomma; 49 engelska kandidater | 46 rättningar arkiverade | Mappat mot den aktiva efterföljaren `bitwarden/android` 2026-10-28: 43 nycklar finns redan med svenska måltexter, medan tre gamla nycklar har försvunnit eller döpts om. Ingen PR behövs för det gamla deltat. |
@@ -47,6 +47,13 @@ ett godkänt testresultat. Mobile och båda Authenticator-katalogerna återstår
 att koppla till aktuella plattforms-id:n inför en separat PR. Den samlade
 Gitleaks-körningen träffar två generiska mönster i den äldre Quartz-batchens
 JSON-fält `key`; träffarna innehåller inga hemligheter.
+
+2026-10-28 stängdes PR #24212 utan merge. Bitwardens underhållare bekräftade
+att Web-, Browser- och Desktop-översättningarna ska hanteras genom deras
+Crowdin-flöde och synkas därifrån till GitHub. De 319 arkiverade posterna ska
+alltså inte räknas som införda uppströms; innan en eventuell Crowdin-import
+måste deras aktuella måltexter jämföras med deltorna för att undvika
+dubbletter eller överskrivningar.
 
 2026-10-28 tillämpades Mobile-deltats 23 poster på den då aktuella
 `AppResources.sv.resx` i en lokal branch. Alla svenska måltexter och

@@ -4,8 +4,10 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
 
 - **Bitwarden:** Web (263), Browser (10) och Desktop (46) jämfördes på nytt
   mot aktuell `main`, validerades och skickades som [PR #24212](https://github.com/bitwarden/clients/pull/24212)
-  2026-10-28. PR:n är öppen; dess säkerhetskontroll är grön men GitHub visar
-  `BLOCKED` i väntan på underhållargranskning.
+  2026-10-28. PR:n stängdes samma dag utan merge; underhållaren hänvisade
+  till Bitwardens Crowdin-flöde, som synkar översättningar till GitHub.
+  Deltana är arkiverade men inte införda uppströms och måste jämföras med
+  aktuella Crowdin-måltexter innan import.
   Mobile-deltat (23) är validerat och pushat till en forkbranch, men
   `bitwarden/mobile` är arkiverat och GitHub avvisar PR:er. Authenticator
   Androids gamla repo är också arkiverat och har ersatts av `bitwarden/android`;
