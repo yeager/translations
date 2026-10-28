@@ -7,8 +7,8 @@ nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 2 954 översatta nycklar och
-utelämnar 1 283 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 2 985 översatta nycklar och
+utelämnar 1 252 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -198,3 +198,8 @@ sidofältet, felsökning, tid, vädervyer, verktygsdialoger, interna ID:n och
 återställning. Samtliga platshållare och radbrytningar är bevarade. Projektets
 kontroller och svlang passerar; Gitleaks gav inga fynd. Hunspell-träffarna är
 tekniska format, Light Placer och projektspecifika sammansättningar.
+
+2026-10-28: En sats om 31 strängar kompletterar inställningsmenyns färg-,
+typsnitts-, cache-, tangent- och utseendeinställningar. Platshållaren `{size}`
+har bevarats. Projektets kontroller och svlang passerar; Gitleaks gav inga
+fynd. Hunspell-träffarna är avsedda shader- och cachetermer.
