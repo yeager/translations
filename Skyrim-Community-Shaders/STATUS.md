@@ -7,8 +7,8 @@ nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 2 324 översatta nycklar och
-utelämnar 1 913 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 2 343 översatta nycklar och
+utelämnar 1 894 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -57,6 +57,10 @@ Ytterligare 42 generella diagnostikfält har översatts: tillstånd, tid, väder
 scendata, övergångar och resolverns status. Hunspell markerar endast de
 projektspecifika sammansättningarna `Resolverns` och `Scentypposter`; de är
 granskade i kod- och gränssnittskontext.
+
+Sparning och förinställningar i CS-redigeraren har kompletterats med 19
+strängar. Katalogen omfattar nu återställning, JSON-åsidosättningar,
+felhantering och lokala sparåtgärder med samtliga platshållare bevarade.
 
 Projektets senaste release, v1.9.1, publicerades 2026-09-24 och uppfyller
 48-månaderskravet. Den partiella filen skickades som
