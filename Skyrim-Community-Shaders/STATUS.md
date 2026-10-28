@@ -7,8 +7,8 @@ nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 2 846 översatta nycklar och
-utelämnar 1 391 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 2 878 översatta nycklar och
+utelämnar 1 359 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -180,3 +180,9 @@ markerar endast den tekniska sammansättningen `ImGui-avlyssningen`.
 väderkolumner, filter, redigeraråtgärder och felsökning. Projektets kontroller
 och svlang passerar; Gitleaks gav inga fynd. Hunspell markerar endast
 `CS-redigeraren` och vädertypen `norrskenssol`.
+
+2026-10-28: En sats om 32 strängar kompletterar väderdiagnostikens vind-,
+blixt-, nederbörds- och partikelfält. Samtliga formatplatshållare, enheter och
+värdeintervall är bevarade. Projektets kontroller och svlang passerar;
+Gitleaks gav inga fynd. Hunspell markerar endast format, `uint8` och den
+tekniska termen `himmelsystemet`.
