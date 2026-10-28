@@ -24,3 +24,8 @@ Crowdin importerade 262 svenska översättningar, godkände inga automatiskt och
 hoppade över en post. Språkstatusen ändrades från 95 % till 99 % översatt
 (18 % godkänd). Den överhoppade posten saknar närmare feluppgift i Crowdins
 detaljrapport och kräver ingen ytterligare uppladdning i denna omgång.
+
+Användaren har därefter bett Bitwarden om Reviewer-behörighet i Crowdin. Fram
+tills behörigheten eller ett maintainerbesked finns ska de återstående
+Browser- och Desktop-deltana inte importeras, eftersom de kan kräva manuell
+granskning och aktivering.
