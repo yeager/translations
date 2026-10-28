@@ -10,7 +10,7 @@ webbklienttaggen är `web-v2026.9.1`; den uppfyller kravet på en release yngre
 | Web | 4 952 | 263 | 263 | Skickat som [PR #24212](https://github.com/bitwarden/clients/pull/24212) 2026-10-28; väntar på upstreamgranskning och CI. |
 | Browser | 2 318 | 10 | 10 | Skickat som [PR #24212](https://github.com/bitwarden/clients/pull/24212) 2026-10-28; väntar på upstreamgranskning och CI. |
 | Desktop | 2 014 | 46 | 46 | Skickat som [PR #24212](https://github.com/bitwarden/clients/pull/24212) 2026-10-28; väntar på upstreamgranskning och CI. |
-| Mobile | 905 | 0 tomma; 42 engelska kandidater | 23 rättningar arkiverade | Jämförd mot `bitwarden/mobile` vid `b543459f8d71324aa11914da1e6f6ad3d7abce54`; 19 avsiktligt oförändrade produkt- och tekniknamn återstår. |
+| Mobile | 905 | 0 tomma; 42 engelska kandidater | 23 rättningar arkiverade och tillämpade i lokal branch | `bitwarden/mobile` är arkiverat och skrivskyddat på GitHub. Branch `yeager:codex/swedish-mobile-localization-20261028` innehåller validerade ändringar, men GitHub avvisade PR-skapande 2026-10-28. |
 | Authenticator iOS | 159 | 0 tomma; 66 engelska kandidater | 60 rättningar arkiverade | Jämförd mot `bitwarden/authenticator-ios` vid `9fbbceb1bd030a6360ba50e4c143ea5440e7428f`; sex avsiktligt oförändrade produkt- och tekniknamn återstår. |
 | Authenticator Android | 152 | 0 tomma; 49 engelska kandidater | 46 rättningar arkiverade | Jämförd mot `bitwarden/authenticator-android` vid `1fa1322827a4fefc1cac4666402e6ef3b4aceded`; tre avsiktligt engelska kandidater återstår: två produktnamn och den kontextberoende `Add Item Rotation`. |
 
@@ -47,3 +47,11 @@ ett godkänt testresultat. Mobile och båda Authenticator-katalogerna återstår
 att koppla till aktuella plattforms-id:n inför en separat PR. Den samlade
 Gitleaks-körningen träffar två generiska mönster i den äldre Quartz-batchens
 JSON-fält `key`; träffarna innehåller inga hemligheter.
+
+2026-10-28 tillämpades Mobile-deltats 23 poster på den då aktuella
+`AppResources.sv.resx` i en lokal branch. Alla svenska måltexter och
+platshållare matchar arkivdeltat; `xmllint`, `l10n-lint`, `git diff --check`
+och staged Gitleaks passerade. Efter push till forken avvisade GitHub en PR
+eftersom `bitwarden/mobile` är arkiverat. Ändringen är därför inte upstream-
+inskickad och måste vid behov portas till en efterföljande, skrivbar mobilkod-
+bas eller till projektets etablerade översättningsflöde.
