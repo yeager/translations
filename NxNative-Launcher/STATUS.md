@@ -8,7 +8,7 @@ Senast uppdaterad: 2026-10-28
 - Granskad revision: `2cca1871ac6348878c2ca808e7b89cb4860d27be`
 - Senaste upstreamändring: 2026-10-28. Projektet uppfyller därmed
   arkivets färskhetskrav på högst 48 månader.
-- Arbetsgren: `l10n/swedish`, commit `3c042ed69c01e65b3ec916edf45f6549cb9dbe98`.
+- Arbetsgren: `l10n/swedish`, commit `204b06fcd3e269d6808769f9215f308cfc33cf48`.
 - Upstream: [PR #3](https://github.com/rennan101/nxnative_Launcher/pull/3),
   skickad 2026-10-28 och väntar på underhållargranskning.
 
@@ -17,12 +17,13 @@ Senast uppdaterad: 2026-10-28
 Projektet hade ingen befintlig l10n-struktur. Leveransen lägger till
 SwiftPM-resurser, `L10n`, `L10nText` och `L10nLabel`, så att framtida språk
 enbart behöver få en egen `.lproj/Localizable.strings`-fil. Den svenska
-katalogen innehåller 129 kontrollerade nycklar för navigering, bibliotek,
+katalogen innehåller 139 kontrollerade nycklar för navigering, bibliotek,
 portningsflöde, kontroller, systemdialoger, loggar och personlig anpassning.
 Den senare etappen täcker förutsättningsbanners, målplattform och utdata,
 avancerade byggval samt porteringens resultatlägen. Bibliotekets sök- och
 katalogreglage samt centrala system-, nyckel- och lagringsinställningar ingår.
 Systemets byggverktyg och källarkivsvy är också lokaliserade.
+Informationsrutan och uppdateringsbannrarnas synliga texter är lokaliserade.
 
 `Localizable.strings`, hjälpkoden, en lokaliseringsguide och
 `check_localization.py` är arkiverade här som en exakt kopia av leveransen.
@@ -31,7 +32,7 @@ Systemets byggverktyg och källarkivsvy är också lokaliserade.
 
 - `swift build` – godkänd.
 - `plutil -lint` – godkänd.
-- `check_localization.py` – 129 använda nycklar finns i svenska katalogen.
+- `check_localization.py` – 139 använda nycklar finns i svenska katalogen.
 - `l10n-lint --language sv` – godkänd utan anmärkningar.
 - `svlang skrivregler` – godkänd utan anmärkningar.
 - Hunspell-träffar granskade: `NxNative`, `Launcher`, `.app`, `.ipa`, `Xbox`
@@ -41,5 +42,5 @@ Systemets byggverktyg och källarkivsvy är också lokaliserade.
 ## Återstår
 
 Fler hårdkodade texter finns i sekundära vyer. De kan flyttas successivt till
-samma katalog; de 129 berörda synliga texterna har svenska måltexter. Följ även
+samma katalog; de 139 berörda synliga texterna har svenska måltexter. Följ även
 PR #3:s CI och granskning.
