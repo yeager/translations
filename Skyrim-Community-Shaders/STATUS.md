@@ -7,8 +7,8 @@ nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 2 642 översatta nycklar och
-utelämnar 1 595 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 2 694 översatta nycklar och
+utelämnar 1 543 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -118,3 +118,10 @@ versionsgranskningsvarning. Den riktades om till projektets standardgren
 `dev`; diffen omfattar nu endast `sv.json`. GitHub väntar på att en
 underhållare godkänner arbetsflödeskörning för forken. Ingen lokalt eller
 upstream påvisad översättningskontroll har felat.
+
+2026-10-28: En ytterligare sats om 33 CS-redigerarsträngar omfattar
+statusbrickor, felsökningsfält, lager, tidsperioder, FormID-fält samt
+filter- och posträknare. Klammerplatshållarna `{count}`, `{shown}` och
+`{total}` är bevarade. Projektets extraktions-, orphan- och sorteringskontroll
+passerar. Den nya satsen har inga svlang-fynd; Hunspell-träffarna är
+`Bas-FormID`, `EditorID`, `Referens-FormID` och platshållarnamnen.
