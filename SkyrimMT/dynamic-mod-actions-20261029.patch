@@ -1,0 +1,61 @@
+From 6f9c8c72550358806c87f2bdfb3a7f1bf21fd754 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <po@danielnylander.se>
+Date: Thu, 29 Oct 2026 00:45:48 +0100
+Subject: [PATCH] l10n: localize dynamic mod actions
+
+---
+ app/ModsPage.swift | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/app/ModsPage.swift b/app/ModsPage.swift
+index 62aec82..2a7ad1c 100644
+--- a/app/ModsPage.swift
++++ b/app/ModsPage.swift
+@@ -249,7 +249,7 @@ struct ModsPage: View {
+                 .labelsHidden().frame(width: 150).help("Show only some mods")
+             let free = model.updatableByHand
+             if !free.isEmpty {
+-                Button { model.updateMods(free) } label: { Label("Update all (\(free.count))", systemImage: "arrow.up.circle") }
++                Button { model.updateMods(free) } label: { Label(localizedFormat("Update all (%ld)", free.count), systemImage: "arrow.up.circle") }
+                     .disabled(model.busy != nil)
+                     .help("Updates all mods you installed yourself, keeping their position and installer choices. Collection mods stay at their pinned versions.")
+             }
+@@ -370,7 +370,7 @@ struct ModsPage: View {
+             let seps = model.mods.filter { $0.separator && !ids.contains($0.id) }
+             if !seps.isEmpty {
+                 Divider()
+-                ForEach(seps) { s in Button("Group “\(s.name)”") { model.move(ids, before: model.mods.drop { $0.id != s.id }.dropFirst().first { $0.separator }?.id) } }
++                ForEach(seps) { s in Button(localizedFormat("Group “%@”", s.name)) { model.move(ids, before: model.mods.drop { $0.id != s.id }.dropFirst().first { $0.separator }?.id) } }
+             }
+         }
+         Menu("Colour") {
+@@ -384,7 +384,7 @@ struct ModsPage: View {
+         Divider()
+         let ups = model.mods.map(\.id).filter { ids.contains($0) && model.updates[$0] != nil }   // list order
+         if !ups.isEmpty {
+-            Button(ups.count == 1 ? "Update to \(model.updates[ups[0]]!.newVersion)" : "Update \(ups.count) mods") { model.updateMods(ups) }
++            Button(ups.count == 1 ? localizedFormat("Update %@", model.updates[ups[0]]!.newVersion) : localizedFormat("Update %ld mods", ups.count)) { model.updateMods(ups) }
+             Divider()
+         }
+         if !r.separator && ids.count == 1 {
+@@ -394,7 +394,7 @@ struct ModsPage: View {
+             Button("Show files in Finder") { model.openFolder(r.id) }
+             if let n = r.nexusID { Button("Open on Nexus Mods") { model.openNexus(n) } }
+         }
+-        Button(ids.count > 1 ? "Remove \(ids.count) mods…" : (r.separator ? "Remove separator" : "Remove…")) { model.removeSelected(ids) }
++        Button(ids.count > 1 ? localizedFormat("Remove %ld mods…", ids.count) : (r.separator ? "Remove separator" : "Remove…")) { model.removeSelected(ids) }
+     }
+ 
+     @ViewBuilder private var detail: some View {
+@@ -420,7 +420,7 @@ struct BulkPanel: View {
+             HStack { Button("Enable") { model.setEnabled(ids, true) }; Button("Disable") { model.setEnabled(ids, false) } }
+             HStack { Button("Move to top") { model.moveToTop(ids) }; Button("Move to bottom") { model.move(ids, before: nil) } }
+             Button("Set category…") { model.editCategory(ids) }
+-            Button("Remove \(ids.count) mods…", role: .destructive) { model.removeSelected(ids) }
++            Button(localizedFormat("Remove %ld mods…", ids.count), role: .destructive) { model.removeSelected(ids) }
+             Spacer()
+         }.padding(14).frame(maxWidth: .infinity, alignment: .leading)
+     }
+-- 
+2.54.0 (Apple Git-157)
+
