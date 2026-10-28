@@ -38,3 +38,13 @@ beskriver dagliga byggen som icke-stabila snapshots. Den senaste verifierbara
 officiella releaseposten är fortsatt RC4 från 2019-05-27. Kravet på en
 verifierat högst 48 månader gammal release är alltså inte uppfyllt; ingen
 fortsatt granskning eller uppladdning av det svenska utkastet görs.
+
+2026-10-28: Undantag från utgåvekravet godkändes uttryckligen. Katalogen är
+slutgranskad och komplett: 890 av 890 aktiva poster är översatta, utan osäkra
+eller tomma poster. `msgfmt --check` passerar. l10n-lint rapporterar inga fel;
+åtta varningar avser avsiktlig inmatningssyntax och filformatetiketter där
+formatnamnet medvetet upprepas. Hunspell-träffarna är filformat, produktnamn
+och etablerade facktermer. En avgränsad Gitleaks-kontroll hittade inga
+hemligheter. Filens översättar- och språkgruppsmetadata har kompletterats.
+Katalogen är färdig som lokalt och arkiverat svenskt underlag, men ännu inte
+inskickad till något uppströmsflöde.
