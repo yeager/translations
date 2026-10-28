@@ -7,8 +7,8 @@ nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 2 741 översatta nycklar och
-utelämnar 1 496 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 2 764 översatta nycklar och
+utelämnar 1 473 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -140,3 +140,9 @@ inspektörens tomma läge. Den flerradiga startomstartshjälpen har bevarade
 radbrytningar. Projektets egna kontroller och svlang passerar; Gitleaks gav
 inga fynd. Hunspell-träffarna är `COC`, produktnamnet `Effects 11` och
 projektspecifika sammansättningar.
+
+2026-10-28: En sats om 23 strängar för scenåsidosättningar täcker moddar,
+platslager, navigeringshjälp, prioritet, pausning och återställning. Den
+dynamiska platshållaren `{place}` är bevarad. Projektets egna kontroller och
+svlang passerar; Gitleaks gav inga fynd. Hunspell markerar endast
+platshållarnamnet.
