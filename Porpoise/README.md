@@ -132,3 +132,11 @@ att förändra sökvägar, filformat eller tekniska protokollnamn.
 Det femtonde häftet rättar tre hjälptexter om spelkorrigeringar, Auto Boost
 och bildruteinterpolering. Det förtydligar rekommendationer och visar korrekt
 hur färgerna beskriver rörelse i de skapade bildrutorna.
+
+2026-10-28 avslutades den kompletta svenska katalogen och skickades som
+[PR #34](https://github.com/elripalda/Porpoise-Dolphin-Emulator-for-PS5/pull/34).
+Den innehåller 1 803 av 1 803 texter, svensk system-språkmappning, språkval,
+korrektionsfilen `sv.txt`, svensk flagga och den genererade C++-tabellen.
+Se den separata [slutstatusen](complete-localization-20261028.md) för
+kontroller, SHA-256 och den uttryckliga begränsningen att PS5-körning inte har
+verifierats lokalt.
