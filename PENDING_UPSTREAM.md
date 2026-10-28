@@ -28,7 +28,7 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
 - **ShadPS4:** Två lokala, validerade rättningar för `SettingsDialog` har jämförts med de aktuella, godkända texterna och skickats som manuella Crowdin-förslag 2026-10-28. De väntar på att projektet väljer eller godkänner dem; den redan godkända svenska texten är ännu inte ersatt. Se [inställningsrättelserna](ShadPS4/inställningar-kvalitetsfix-20261027.md).
 - **Cacti:** Core och Routerconfigs kontrollerades i Cacti Translate 2026-10-27. Båda komponenterna är serverlåsta eftersom Weblate inte kan pusha respektive arkiv. De lokalt kontrollerade komponentdeltana ska inte laddas upp förrän låsningen är hävd och aktuella måltexter har jämförts på nytt.
 - **Open Shaders:** 4 400 unika nycklar från den aktuella källkatalogen finns i 297 syntaktiskt giltiga, lokala JSON-arkivfiler. Komponenten är låst i Hosted Weblate. Scenhanteraren är komplett med 170 av 170, våteffekter med 201 av 201, Wind med 279 av 279 och begränsning av ljuskällor med 326 av 326 nycklar; alla fyra har helkontrollerats. Se [batchstatus](Open-Shaders/BATCH-STATUS-20261027.md). Ladda inte upp förrän låsningen är hävd och komponentens aktuella export har jämförts.
-- **Skyrim Community Shaders:** En aktuell, partiell svensk port med 2 599 av
+- **Skyrim Community Shaders:** En aktuell, partiell svensk port med 2 615 av
   4 237 nycklar skickades som [PR #3051](https://github.com/community-shaders/skyrim-community-shaders/pull/3051)
   2026-10-28. Saknade nycklar använder projektets engelska reservtext. PR:n
   väntar på CI och uppströmsgranskning; resterande nycklar behöver delas upp
