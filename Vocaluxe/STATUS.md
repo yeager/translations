@@ -47,3 +47,10 @@ rättningarna för felrapporteringsdialogen är fortfarande lokala och osparade.
 2026-10-28: En första dialogrättning har sparats och återlästs från
 Transifex med kontot `yeager`: `The link to your report:` = `Länken till din
 rapport:`. Kolon och singularisdu bevaras. Nio dialogrättningar återstår.
+
+2026-10-28: Fyra ytterligare dialogrättningar har sparats och återlästs från
+Transifex med kontot `yeager`: `Error uploading the log.` = `Det gick inte
+att ladda upp loggen.`, `Last error` = `Senaste felet` och `Not available` =
+`Inte tillgängligt`. Dessutom har valet att inte ladda upp något sparats med
+den granskat naturliga formuleringen `Ladda inte upp något (du kan fortfarande
+kopiera felmeddelandet ovan)`. Fem dialogrättningar återstår.
