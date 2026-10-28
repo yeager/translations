@@ -28,12 +28,15 @@ träffar räknas därför inte som svenska språkfel. Ingen källkatalog har
 
 Webbdeltana är lokala granskningsunderlag och ändrar inte Bitwardens
 källkatalog. Den aktuella mobil- och autentiseringsjämförelsen fann inga tomma
-tomma svenska måltexter, men en efterföljande likhetssökning mot engelskan
-fann kandidater som kräver radvis bedömning. De senaste observerade releaserna
+svenska måltexter, men en efterföljande likhetssökning mot engelskan fann
+kandidater som har bedömts rad för rad. De senaste observerade releaserna
 är Mobile `v2024.10.0` (2024-10-17), Authenticator iOS `v2025.2.0`
 (2025-02-12) och Authenticator Android `v2025.1.0` (2025-02-11); samtliga
 uppfyller färskhetskravet.
 
-Nästa arbete är att koppla webbdeltana till aktuella plattforms-id:n inför
-import och att göra en separat radvis innehållsgranskning av Mobile och
-Authenticator, eftersom full täckning inte i sig bevisar språkkvalitet.
+Den lokala granskningen omfattar 448 unika arkiverade poster utan dubbletter:
+263 för Web, 10 för Browser, 46 för Desktop, 23 för Mobile, 46 för
+Authenticator Android och 60 för Authenticator iOS. Nästa arbete är att koppla
+deltana till aktuella plattforms-id:n inför import. Den samlade
+Gitleaks-körningen träffar två generiska mönster i den äldre Quartz-batchens
+JSON-fält `key`; träffarna innehåller inga hemligheter.
