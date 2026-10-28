@@ -10,8 +10,9 @@ webbklienttaggen är `web-v2026.9.1`; den uppfyller kravet på en release yngre
 | Web | 4 952 | 263 | 263 | Inte inskickat; arkivdeltan behöver kopplas till aktuella plattforms-id:n före import. |
 | Browser | 2 318 | 10 | 10 | Inte inskickat; se `bitwarden-browser-current-missing-sv-20261027.json`. |
 | Desktop | 2 014 | 46 | 46 | Inte inskickat; se `bitwarden-desktop-current-missing-sv-20261027.json`. |
-| Mobile | Ej del av den grunda klientklonen | Ej fastställt | Ingen ny ändring | Tidigare arkivfiler kräver ny källjämförelse. |
-| Authenticator Mobile | Ej del av den grunda klientklonen | Ej fastställt | Ingen ny ändring | Tidigare arkivfiler kräver ny källjämförelse. |
+| Mobile | 905 | 0 | Ingen ny ändring | Jämförd mot `bitwarden/mobile` vid `b543459f8d71324aa11914da1e6f6ad3d7abce54`; innehållsgranskning återstår. |
+| Authenticator iOS | 159 | 0 | Ingen ny ändring | Jämförd mot `bitwarden/authenticator-ios` vid `9fbbceb1bd030a6360ba50e4c143ea5440e7428f`; innehållsgranskning återstår. |
+| Authenticator Android | 152 | 0 | Ingen ny ändring | Jämförd mot `bitwarden/authenticator-android` vid `1fa1322827a4fefc1cac4666402e6ef3b4aceded`; innehållsgranskning återstår. |
 
 Webbdeltana 01–22 innehåller samtliga 263 poster som saknas i den aktuella
 svenska webbkatalogen, i den ordning de förekommer i den engelska katalogen.
@@ -26,6 +27,11 @@ träffar räknas därför inte som svenska språkfel. Ingen källkatalog har
 ändrats, och ingen post är därmed påstått uppladdad eller godkänd upstream.
 
 Webbdeltana är lokala granskningsunderlag och ändrar inte Bitwardens
-källkatalog. Nästa arbete är att koppla dem till aktuella plattforms-id:n inför
-import och att hämta aktuella Mobile- och Authenticator-källor innan fler
-mobilposter granskas.
+källkatalog. Den aktuella mobil- och autentiseringsjämförelsen fann inga tomma
+svenska måltexter. De senaste observerade releaserna är Mobile `v2024.10.0`
+(2024-10-17), Authenticator iOS `v2025.2.0` (2025-02-12) och Authenticator
+Android `v2025.1.0` (2025-02-11); samtliga uppfyller färskhetskravet.
+
+Nästa arbete är att koppla webbdeltana till aktuella plattforms-id:n inför
+import och att göra en separat radvis innehållsgranskning av Mobile och
+Authenticator, eftersom full täckning inte i sig bevisar språkkvalitet.
