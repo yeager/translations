@@ -2,8 +2,9 @@
 
 Följande arbete är ännu inte fullt verifierat eller inskickat:
 
-- **Bitwarden:** Aktuella deltan för Web (263 poster), Browser (10) och Desktop
-  (46) är arkiverade och lokalt validerade, men inte importerade. Filerna är
+- **Bitwarden:** 448 aktuella poster för Web (263), Browser (10), Desktop (46),
+  Mobile (23), Authenticator Android (46) och Authenticator iOS (60) är
+  arkiverade och lokalt validerade, men inte importerade. Filerna är
   nyckelbaserade granskningsdeltan och måste kopplas till aktuella
   plattforms-id:n före import. Se [komponentstatus](Bitwarden/CURRENT-COMPONENT-STATUS-20261027.md).
 - **sK1:** Det svenska utkastet är inte inskickat. Bekräfta att senaste utgåvan uppfyller 48-månaderskravet innan arbetet fortsätter. Se [sK1-status](sK1/STATUS.md).
