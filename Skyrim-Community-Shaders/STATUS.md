@@ -1,14 +1,14 @@
 # Skyrim Community Shaders: svensk port
 
-Den aktuella utvecklingsrevisionen `5c339e368aacda84c428aacf44760c9b752ea4b2`
+Den aktuella utvecklingsrevisionen `68065714c2e091be3a040a35dabcfbda45bf29d7`
 har 4 237 engelska nycklar. Den tidigare arkiverade porten innehöll 2 132
 svenska nycklar från en äldre katalog. Av dessa matchar 2 081 fortfarande
 nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 4 087 översatta nycklar och
-utelämnar 150 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 4 126 översatta nycklar och
+utelämnar 111 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -425,3 +425,9 @@ Hunspell och Gitleaks passerar.
 strängar för genvägar, återställning, shaderkompilering, begränsningar och
 diagnostik. Alla formatmarkörer har bevarats. Projektets kontroller,
 l10n-lint, svlang, Hunspell och Gitleaks passerar.
+
+2026-10-28: 39 ytterligare funktionstexter har översatts för gräs,
+kubkartor, IBL, RenderDoc, skärmbilder, väta, terrängskuggor och
+problemhantering. Svlangs enda träff kom från den redan befintliga
+spelvariabeln `fGrassStartFadeDistance`; övrig ny text passerar. l10n-lint,
+Hunspell och Gitleaks passerar.
