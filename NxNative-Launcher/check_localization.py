@@ -13,6 +13,7 @@ CATALOG = ROOT / "gui/Sources/Resources/sv.lproj/Localizable.strings"
 SOURCES = ROOT / "gui/Sources"
 KEY_PATTERNS = (
     re.compile(r'L10n\.string\("((?:[^"\\]|\\.)*)"\)'),
+    re.compile(r'L10n\.format\("((?:[^"\\]|\\.)*)"'),
     re.compile(r'L10nText\("((?:[^"\\]|\\.)*)"\)'),
     re.compile(r'L10nLabel\("((?:[^"\\]|\\.)*)"'),
 )
