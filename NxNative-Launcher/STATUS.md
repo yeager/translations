@@ -8,7 +8,7 @@ Senast uppdaterad: 2026-10-28
 - Granskad revision: `2cca1871ac6348878c2ca808e7b89cb4860d27be`
 - Senaste upstreamändring: 2026-10-28. Projektet uppfyller därmed
   arkivets färskhetskrav på högst 48 månader.
-- Arbetsgren: `l10n/swedish`, commit `b9c5a1f077f1c3ac4aa4d873cd9d8391836dd495`.
+- Arbetsgren: `l10n/swedish`, commit `538a4b2f3c1d6680583547e4b52cc59bc7ec667e`.
 - Upstream: [PR #3](https://github.com/rennan101/nxnative_Launcher/pull/3),
   skickad 2026-10-28 och väntar på underhållargranskning.
 
@@ -17,7 +17,7 @@ Senast uppdaterad: 2026-10-28
 Projektet hade ingen befintlig l10n-struktur. Leveransen lägger till
 SwiftPM-resurser, `L10n`, `L10nText` och `L10nLabel`, så att framtida språk
 enbart behöver få en egen `.lproj/Localizable.strings`-fil. Den svenska
-katalogen innehåller 357 kontrollerade nycklar för navigering, bibliotek,
+katalogen innehåller 366 kontrollerade nycklar för navigering, bibliotek,
 portningsflöde, kontroller, systemdialoger, loggar och personlig anpassning.
 Den senare etappen täcker förutsättningsbanners, målplattform och utdata,
 avancerade byggval samt porteringens resultatlägen. Bibliotekets sök- och
@@ -40,7 +40,7 @@ Utseende, systemkrediter, patchar och beroendeinstallation är lokaliserade.
 
 - `swift build` – godkänd.
 - `plutil -lint` – godkänd.
-- `check_localization.py` – 357 använda nycklar finns i svenska katalogen.
+- `check_localization.py` – 366 använda nycklar finns i svenska katalogen.
 - `l10n-lint --language sv` – godkänd utan anmärkningar.
 - `svlang skrivregler` – godkänd utan anmärkningar.
 - Hunspell-träffar granskade: `NxNative`, `Launcher`, `.app`, `.ipa`, `Xbox`
@@ -50,5 +50,5 @@ Utseende, systemkrediter, patchar och beroendeinstallation är lokaliserade.
 ## Återstår
 
 Fler hårdkodade texter finns i sekundära vyer. De kan flyttas successivt till
-samma katalog; de 357 berörda synliga texterna har svenska måltexter. Följ även
+samma katalog; de 366 berörda synliga texterna har svenska måltexter. Följ även
 PR #3:s CI och granskning.
