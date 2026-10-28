@@ -10,8 +10,10 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   Androids gamla repo är också arkiverat och har ersatts av `bitwarden/android`;
   43 av dess 46 deltaposter finns redan på svenska i efterföljaren och de
   tre övriga nycklarna finns inte längre, så ingen duplicerande PR behövs.
-  Authenticator iOS (60) är fortfarande ett lokalt arkiverat granskningsdelta
-  som måste kopplas till aktuella plattforms-id:n före en separat PR. Se
+  Authenticator iOS-deltat jämfördes med aktiva `bitwarden/ios`: 52 av 60
+  äldre nycklar finns kvar, åtta har utgått eller döpts om, och två verifierade
+  grammatikrättningar skickades som [PR #3159](https://github.com/bitwarden/ios/pull/3159)
+  2026-10-28. PR:n är öppen och väntar på CI samt underhållargranskning. Se
   [komponentstatus](Bitwarden/CURRENT-COMPONENT-STATUS-20261027.md).
 - **sK1:** Det svenska utkastet är inte inskickat. Bekräfta att senaste utgåvan uppfyller 48-månaderskravet innan arbetet fortsätter. Se [sK1-status](sK1/STATUS.md).
 - **DuckStation:** De två verifierade deltafilerna med sammanlagt 23 rättningar har sammanförts med aktuell `master` och skickats som [PR #3817](https://github.com/stenzek/duckstation/pull/3817) 2026-10-27. XML, `git diff --check` och Gitleaks passerar; l10n-lint rapporterar 0 fel och åtta tidigare helkatalogsvarningar. Samtliga Windows-, Linux-, macOS-, ARM- och översättningslintjobb passerar nu. PR:n är fortfarande öppen, med `mergeStateStatus` `BLOCKED` och utan underhållargranskning. Se [lintgranskningen](DuckStation/LINT-REVIEW-20261027.md) och [språkgranskningen](DuckStation/QUALITY-REVIEW-20261027.md).

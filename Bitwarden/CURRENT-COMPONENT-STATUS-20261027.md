@@ -11,7 +11,7 @@ webbklienttaggen är `web-v2026.9.1`; den uppfyller kravet på en release yngre
 | Browser | 2 318 | 10 | 10 | Skickat som [PR #24212](https://github.com/bitwarden/clients/pull/24212) 2026-10-28; väntar på upstreamgranskning och CI. |
 | Desktop | 2 014 | 46 | 46 | Skickat som [PR #24212](https://github.com/bitwarden/clients/pull/24212) 2026-10-28; väntar på upstreamgranskning och CI. |
 | Mobile | 905 | 0 tomma; 42 engelska kandidater | 23 rättningar arkiverade och tillämpade i lokal branch | `bitwarden/mobile` är arkiverat och skrivskyddat på GitHub. Branch `yeager:codex/swedish-mobile-localization-20261028` innehåller validerade ändringar, men GitHub avvisade PR-skapande 2026-10-28. |
-| Authenticator iOS | 159 | 0 tomma; 66 engelska kandidater | 60 rättningar arkiverade | Jämförd mot `bitwarden/authenticator-ios` vid `9fbbceb1bd030a6360ba50e4c143ea5440e7428f`; sex avsiktligt oförändrade produkt- och tekniknamn återstår. |
+| Authenticator iOS | 52 relevanta äldre nycklar i aktuell katalog | 0 tomma; två tydliga grammatikfel | 60 äldre rättningar arkiverade | Den arkiverade källan är ersatt av aktiva `bitwarden/ios`. Av 60 gamla poster finns 52 kvar; åtta har utgått eller döpts om. Två verifierade grammatikrättningar skickades som [PR #3159](https://github.com/bitwarden/ios/pull/3159) 2026-10-28; väntar på CI och upstreamgranskning. |
 | Authenticator Android | 152 i den äldre katalogen | 0 tomma; 49 engelska kandidater | 46 rättningar arkiverade | Mappat mot den aktiva efterföljaren `bitwarden/android` 2026-10-28: 43 nycklar finns redan med svenska måltexter, medan tre gamla nycklar har försvunnit eller döpts om. Ingen PR behövs för det gamla deltat. |
 
 Webbdeltana 01–22 innehåller samtliga 263 poster som saknas i den aktuella
@@ -68,3 +68,14 @@ med svenska måltexter och tre gamla nycklar (`enter_a_setup_key`,
 återfunna nycklarna har engelskan ändrats sedan arkivet skapades, och den
 aktuella svenska måltexten följer den nya källan. Ingen duplicerande PR är
 därför lämplig för Android-deltat.
+
+Den 2026-10-28 jämfördes Authenticator iOS-deltat med efterföljaren
+`bitwarden/ios`. Av de 60 äldre posterna återfinns 52 i den aktuella
+`Localizable.strings`-katalogen; åtta gamla nycklar saknas där. Flera av de
+befintliga svenska texterna är fullt rimliga alternativa formuleringar och
+skrevs därför inte över. Två aktuella bekräftelsetexter innehöll däremot
+grammatikfelet ”din standardalternativ”. De korrigerades, syntaxkontrollerades
+med `plutil`, kontrollerades med `git diff --check` och staged Gitleaks, och
+skickades som PR #3159. Den fullständiga l10n-lintkörningen har ett äldre,
+oavhängigt platshållarfel i `StepOfStep`; den nya tvåsträngarsdiffen innehåller
+inte kontrollfelet.
