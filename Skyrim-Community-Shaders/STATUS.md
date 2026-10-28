@@ -24,5 +24,7 @@ Kontroller 2026-10-28:
   API-termer som har granskats i kontext.
 
 Projektets senaste release, v1.9.1, publicerades 2026-09-24 och uppfyller
-48-månaderskravet. Nästa steg är en upstream-PR med den partiella svenska
-filen; den återstående katalogen behöver delas upp i granskningsbara satser.
+48-månaderskravet. Den partiella filen skickades som
+[PR #3051](https://github.com/community-shaders/skyrim-community-shaders/pull/3051)
+2026-10-28. PR:n är öppen och väntar på CI och uppströmsgranskning. Den
+återstående katalogen behöver delas upp i granskningsbara satser.
