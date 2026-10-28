@@ -7,8 +7,8 @@ nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 3 667 översatta nycklar och
-utelämnar 570 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 3 708 översatta nycklar och
+utelämnar 529 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -360,3 +360,9 @@ från ACES, AgX, Frostbite, Reinhard och fler. Namn, akademiska titlar och
 produktidentiteter är bevarade. Projektets extraktions-, orphan- och
 sorteringskontroll samt svlang och l10n-lint passerar. Gitleaks gav inga fynd.
 Hunspell-träffarna är endast egennamn, titlar och färgvetenskapliga termer.
+
+2026-10-28: Filmkamerans första 41 strängar täcker bländare, ISO,
+exponering, fokus, objektiv, FOV och sensoranpassning. Alla formatmarkörer är
+bevarade. Projektets extraktions-, orphan- och sorteringskontroll samt svlang
+och l10n-lint passerar. Gitleaks gav inga fynd. Hunspell-träffarna är avsedda
+kamera- och tekniktermer.
