@@ -35,3 +35,11 @@ Kontroller av de 99 tilläggen: alla nycklar finns och platshållarna `%s`, `%d`
 2026-10-27: Tio tydliga språkfel i felrapporteringsdialogen har isolerats i `sv-huvudfil-rapportdialog-20261027.delta.xml`. Rättningarna bevarar de två `\r\n`-brytningarna per sträng och ger en sammanhängande du-form. XML, nycklar, radbrytningar, l10n-lint och en avgränsad Gitleaks-kontroll passerar. Hunspell markerar endast projektnamnet Vocaluxe. svlang ger två falska V2-varningar för uppmaningarna ”Ladda upp …”, men inget faktiskt ordföljdsfel. Filen är ännu inte sparad i Transifex.
 
 2026-10-28: Två av huvudfilens kvalitetsrättningar har sparats och lästs tillbaka från Transifex-resursen `Game`: `Low` = `Låg` och `Medium` = `Medel`. Transifex visar kontot `yeager` som sparare för båda. Resterande fem poster i kvalitetsdeltat och de tio i rapportdialogdeltat är inte inskickade i detta steg. Sökning efter den arkiverade posten `High` gav ingen träff i den aktuella resursen och kräver ny jämförelse med den synkade källan innan ändring.
+
+2026-10-28: Tre ytterligare kvalitetsrättningar har jämförts mot den aktuella
+`Game`-resursen, sparats och återlästs från Transifex med kontot `yeager`:
+`Tags` = `Etiketter`, `No Tags` = `Inga etiketter` och sökhjälpen för
+artist-/titelsökning. I sökhjälpen bevaras samtliga sökprefix, intervallet
+`1980-1989` och specialtecknen; bara `t.ex.` och `etiketter` rättades.
+Kvalitetsdeltat har nu endast den saknade `High`-posten kvar. De tio
+rättningarna för felrapporteringsdialogen är fortfarande lokala och osparade.
