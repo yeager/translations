@@ -33,3 +33,9 @@ Projektets senaste release, v1.9.1, publicerades 2026-09-24 och uppfyller
 [PR #3051](https://github.com/community-shaders/skyrim-community-shaders/pull/3051)
 2026-10-28. PR:n är öppen och väntar på CI och uppströmsgranskning. Den
 återstående katalogen behöver delas upp i granskningsbara satser.
+
+PR:n riktades först felaktigt mot `main`, vilket gav en orelaterad
+versionsgranskningsvarning. Den riktades om till projektets standardgren
+`dev`; diffen omfattar nu endast `sv.json`. GitHub väntar på att en
+underhållare godkänner arbetsflödeskörning för forken. Ingen lokalt eller
+upstream påvisad översättningskontroll har felat.
