@@ -1,14 +1,14 @@
 # Skyrim Community Shaders: svensk port
 
-Den aktuella utvecklingsrevisionen `e852e5d0e50cd13f26899828f3e720632b36221c`
+Den aktuella utvecklingsrevisionen `a391e8a19bb39bd6652444dea36eee31a6c71547`
 har 4 237 engelska nycklar. Den tidigare arkiverade porten innehöll 2 132
 svenska nycklar från en äldre katalog. Av dessa matchar 2 081 fortfarande
 nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 3 842 översatta nycklar och
-utelämnar 395 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 3 884 översatta nycklar och
+utelämnar 353 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -400,3 +400,8 @@ Gitleaks passerar.
 för optiska parametrar, lins- och pupillmodeller, gitter, repor och
 partikelspridning. Projektets kontroller, l10n-lint, svlang, Hunspell och
 Gitleaks passerar.
+
+2026-10-28: Fysisk bländning har färdigställts med 42 ytterligare strängar för
+PSF, FFT, tårfilm, suturer, stjärnstrålar och tröskelvärden. Komponenten har
+inga återstående engelska nycklar. Projektets kontroller, l10n-lint, svlang,
+Hunspell och Gitleaks passerar.
