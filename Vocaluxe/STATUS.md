@@ -75,3 +75,10 @@ bevaras exakt, och mallen behåller platshållarna `{0}` och `{1}`. Därmed är
 samtliga tio arkiverade dialogrättningar inskickade och verifierade i
 huvudresursen. Endast den arkiverade `High`-posten återstår; den saknas i den
 aktuella synkade källan och ska inte läggas till utan ny källjämförelse.
+
+2026-10-28: Den lokala uppdateringen av Vocaluxes utvecklingsgren visar att
+`TR_CONFIG_TEXTURE_HIGH` fortfarande finns i `Output/Languages/en.xml`.
+Strängen hittades därefter i Transifex-resursen `Game`, rättades från `Högt`
+till `Hög` och återlästes med kontot `yeager`. Alla sex kvalitetsposter och
+samtliga tio dialogrättningar i de arkiverade deltorna är därmed inskickade
+och verifierade. Upstreamexport och programkörning återstår.
