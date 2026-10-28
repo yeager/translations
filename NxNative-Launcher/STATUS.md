@@ -8,7 +8,7 @@ Senast uppdaterad: 2026-10-28
 - Granskad revision: `2cca1871ac6348878c2ca808e7b89cb4860d27be`
 - Senaste upstreamändring: 2026-10-28. Projektet uppfyller därmed
   arkivets färskhetskrav på högst 48 månader.
-- Arbetsgren: `l10n/swedish`, commit `f31e5d1ab7f083b5d8d98fad580e3eaee9b59a3a`.
+- Arbetsgren: `l10n/swedish`, commit `42e3905bf64d877b8ba197601b8b034814d683e0`.
 - Upstream: [PR #3](https://github.com/rennan101/nxnative_Launcher/pull/3),
   skickad 2026-10-28 och väntar på underhållargranskning.
 
@@ -17,7 +17,7 @@ Senast uppdaterad: 2026-10-28
 Projektet hade ingen befintlig l10n-struktur. Leveransen lägger till
 SwiftPM-resurser, `L10n`, `L10nText` och `L10nLabel`, så att framtida språk
 enbart behöver få en egen `.lproj/Localizable.strings`-fil. Den svenska
-katalogen innehåller 188 kontrollerade nycklar för navigering, bibliotek,
+katalogen innehåller 194 kontrollerade nycklar för navigering, bibliotek,
 portningsflöde, kontroller, systemdialoger, loggar och personlig anpassning.
 Den senare etappen täcker förutsättningsbanners, målplattform och utdata,
 avancerade byggval samt porteringens resultatlägen. Bibliotekets sök- och
@@ -27,6 +27,7 @@ Informationsrutan och uppdateringsbannrarnas synliga texter är lokaliserade.
 Uppdateringsdialogens status- och åtgärdstexter är också lokaliserade.
 Spelinställningarnas bildfrekvens-, visnings- och upplösningsreglage ingår.
 Omslag, moddar och hantering av sparfiler är också lokaliserade.
+Kompatibilitetsvyns rubriker, filter och anteckningslänkar är lokaliserade.
 
 `Localizable.strings`, hjälpkoden, en lokaliseringsguide och
 `check_localization.py` är arkiverade här som en exakt kopia av leveransen.
@@ -35,7 +36,7 @@ Omslag, moddar och hantering av sparfiler är också lokaliserade.
 
 - `swift build` – godkänd.
 - `plutil -lint` – godkänd.
-- `check_localization.py` – 188 använda nycklar finns i svenska katalogen.
+- `check_localization.py` – 194 använda nycklar finns i svenska katalogen.
 - `l10n-lint --language sv` – godkänd utan anmärkningar.
 - `svlang skrivregler` – godkänd utan anmärkningar.
 - Hunspell-träffar granskade: `NxNative`, `Launcher`, `.app`, `.ipa`, `Xbox`
@@ -45,5 +46,5 @@ Omslag, moddar och hantering av sparfiler är också lokaliserade.
 ## Återstår
 
 Fler hårdkodade texter finns i sekundära vyer. De kan flyttas successivt till
-samma katalog; de 188 berörda synliga texterna har svenska måltexter. Följ även
+samma katalog; de 194 berörda synliga texterna har svenska måltexter. Följ även
 PR #3:s CI och granskning.
