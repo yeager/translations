@@ -24,3 +24,16 @@ skickas in.
 Kontrollen kördes på nytt 2026-10-27 med samma resultat: XML är välformat,
 `l10n-lint` rapporterar 0 fel och 0 varningar, `svlang` hittar inga
 anglicismer och Gitleaks hittar inga hemligheter.
+
+## Crowdin-inskick 2026-10-28
+
+Båda rättningarna har kontrollerats mot de då aktiva, godkända texterna i
+Crowdin och skickats som separata svenska förslag i `en_US.ts`:
+
+* `SettingsDialog['Collect Shaders:\\nYou need this enabled to edit shaders with the debug menu (Ctrl + F10).']`
+* `SettingsDialog['Host Debug Markers:\\nInserts emulator-side information like markers for specific AMDGPU commands around Vulkan commands, as well as giving resources debug names.\\nIf you have this enabled, you should enable Crash Diagnostics.\\nUseful for programs like RenderDoc.']`
+
+Crowdin visade kontot `Daniel Nylander (yeagersthlm)` som förslagsställare
+för båda. Kontrolltecknen `\\n` bevarades som bokstavliga sekvenser, och
+förslagen skickades utan att notifiera en granskare. De ersätter inte den
+befintligt godkända översättningen förrän projektet väljer eller godkänner dem.
