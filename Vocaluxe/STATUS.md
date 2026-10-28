@@ -61,3 +61,17 @@ rapporterade först en saknad vänsterparentes; måltexten och arkivdeltat har
 justerats så att de nu bevarar både parenteserna och GitHub-kontokravet:
 `Ladda upp och skapa ett ärende (ärendet blir offentligt synligt och det krävs
 ett GitHub-konto)`. Fyra dialogrättningar återstår.
+
+2026-10-28: Alternativet för att ladda upp en offentlig rapportlänk har
+sparats och återlästs från Transifex med kontot `yeager`:
+`Ladda upp och få en länk till din rapport (synlig offentligt)`. Båda
+parenteserna bevaras och Transifex visade ingen QA-varning. Tre
+dialogrättningar återstod vid detta steg.
+
+2026-10-28: De tre återstående dialogrättningarna har sparats och återlästs
+från Transifex med kontot `yeager`: båda flerradiga felrapporterna och
+ärendemallen. De bokstavliga radbrytningstecknen `\\r\\n` respektive `\\n`
+bevaras exakt, och mallen behåller platshållarna `{0}` och `{1}`. Därmed är
+samtliga tio arkiverade dialogrättningar inskickade och verifierade i
+huvudresursen. Endast den arkiverade `High`-posten återstår; den saknas i den
+aktuella synkade källan och ska inte läggas till utan ny källjämförelse.
