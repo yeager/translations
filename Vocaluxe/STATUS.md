@@ -82,3 +82,11 @@ Strängen hittades därefter i Transifex-resursen `Game`, rättades från `Högt
 till `Hög` och återlästes med kontot `yeager`. Alla sex kvalitetsposter och
 samtliga tio dialogrättningar i de arkiverade deltorna är därmed inskickade
 och verifierade. Upstreamexport och programkörning återstår.
+
+2026-10-28: Transifex-projektets aktuella översikt visar åter 0 svenska
+strängar att översätta och 875 att granska. Den lokala utvecklingsgrenen låg
+en commit efter `origin/develop`; den nya commiten gäller enbart ljudloopar,
+ljudfiler och eftertexter och ändrar inga lokaliseringsfiler. Arbetskopian
+uppdaterades därför inte, eftersom den har en befintlig oinscheckad svensk
+webbfil. Ingen lokal programkörning kan göras i den här miljön: `dotnet`,
+`mono` och `wine` saknas.
