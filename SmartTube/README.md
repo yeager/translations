@@ -30,3 +30,7 @@ De fem deltafilerna jämfördes med aktuell `master` och omfattade fortfarande
 [PR #6371](https://github.com/yuliskov/SmartTube/pull/6371) den 27 oktober
 2026. Se [insändningsunderlaget](upstream-pr-6371-20261027.md) för commit,
 kontroller och kvarvarande begränsning i den lokala Gradle-miljön.
+
+Upstreamstatus 2026-10-28: PR #6371 slogs ihop 2026-10-28 00:55 UTC.
+Rättningarna är därmed införlivade uppströms. Gradle-lint kunde inte köras
+lokalt eftersom Java-runtime saknades, men det ändrar inte mergebeviset.
