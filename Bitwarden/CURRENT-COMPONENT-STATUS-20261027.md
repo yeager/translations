@@ -12,7 +12,7 @@ webbklienttaggen är `web-v2026.9.1`; den uppfyller kravet på en release yngre
 | Desktop | 2 014 | 46 | 46 | Skickat som [PR #24212](https://github.com/bitwarden/clients/pull/24212) 2026-10-28; väntar på upstreamgranskning och CI. |
 | Mobile | 905 | 0 tomma; 42 engelska kandidater | 23 rättningar arkiverade och tillämpade i lokal branch | `bitwarden/mobile` är arkiverat och skrivskyddat på GitHub. Branch `yeager:codex/swedish-mobile-localization-20261028` innehåller validerade ändringar, men GitHub avvisade PR-skapande 2026-10-28. |
 | Authenticator iOS | 159 | 0 tomma; 66 engelska kandidater | 60 rättningar arkiverade | Jämförd mot `bitwarden/authenticator-ios` vid `9fbbceb1bd030a6360ba50e4c143ea5440e7428f`; sex avsiktligt oförändrade produkt- och tekniknamn återstår. |
-| Authenticator Android | 152 | 0 tomma; 49 engelska kandidater | 46 rättningar arkiverade | Jämförd mot `bitwarden/authenticator-android` vid `1fa1322827a4fefc1cac4666402e6ef3b4aceded`; tre avsiktligt engelska kandidater återstår: två produktnamn och den kontextberoende `Add Item Rotation`. |
+| Authenticator Android | 152 i den äldre katalogen | 0 tomma; 49 engelska kandidater | 46 rättningar arkiverade | Mappat mot den aktiva efterföljaren `bitwarden/android` 2026-10-28: 43 nycklar finns redan med svenska måltexter, medan tre gamla nycklar har försvunnit eller döpts om. Ingen PR behövs för det gamla deltat. |
 
 Webbdeltana 01–22 innehåller samtliga 263 poster som saknas i den aktuella
 svenska webbkatalogen, i den ordning de förekommer i den engelska katalogen.
@@ -55,3 +55,16 @@ och staged Gitleaks passerade. Efter push till forken avvisade GitHub en PR
 eftersom `bitwarden/mobile` är arkiverat. Ändringen är därför inte upstream-
 inskickad och måste vid behov portas till en efterföljande, skrivbar mobilkod-
 bas eller till projektets etablerade översättningsflöde.
+
+Den 2026-10-28 bekräftades att även `bitwarden/authenticator-android` är
+arkiverat och har ersatts av det aktiva `bitwarden/android`. Den gamla
+46-postersfilen får därför inte appliceras på den arkiverade källan. En
+källjämförelse visade också att `file_could_not_be_processed` i den äldre
+källan innehåller synliga dubbla citattecken; arkivdeltat rättades för att
+bevara dem. Deltat mappades samma dag mot efterföljarens
+`ui/src/main/res/values-sv-rSE/strings.xml`: 43 nycklar återfinns där redan
+med svenska måltexter och tre gamla nycklar (`enter_a_setup_key`,
+`move_to_bitwarden` och `add_code_to_bitwarden`) saknas. För fem av de
+återfunna nycklarna har engelskan ändrats sedan arkivet skapades, och den
+aktuella svenska måltexten följer den nya källan. Ingen duplicerande PR är
+därför lämplig för Android-deltat.

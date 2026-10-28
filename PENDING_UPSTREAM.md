@@ -7,9 +7,12 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   2026-10-28. PR:n är öppen och väntar på CI samt underhållargranskning.
   Mobile-deltat (23) är validerat och pushat till en forkbranch, men
   `bitwarden/mobile` är arkiverat och GitHub avvisar PR:er. Authenticator
-  Android (46) och Authenticator iOS (60) är fortfarande lokalt arkiverade
-  granskningsdeltan som måste kopplas till aktuella plattforms-id:n före
-  separata PR:er. Se [komponentstatus](Bitwarden/CURRENT-COMPONENT-STATUS-20261027.md).
+  Androids gamla repo är också arkiverat och har ersatts av `bitwarden/android`;
+  43 av dess 46 deltaposter finns redan på svenska i efterföljaren och de
+  tre övriga nycklarna finns inte längre, så ingen duplicerande PR behövs.
+  Authenticator iOS (60) är fortfarande ett lokalt arkiverat granskningsdelta
+  som måste kopplas till aktuella plattforms-id:n före en separat PR. Se
+  [komponentstatus](Bitwarden/CURRENT-COMPONENT-STATUS-20261027.md).
 - **sK1:** Det svenska utkastet är inte inskickat. Bekräfta att senaste utgåvan uppfyller 48-månaderskravet innan arbetet fortsätter. Se [sK1-status](sK1/STATUS.md).
 - **DuckStation:** De två verifierade deltafilerna med sammanlagt 23 rättningar har sammanförts med aktuell `master` och skickats som [PR #3817](https://github.com/stenzek/duckstation/pull/3817) 2026-10-27. XML, `git diff --check` och Gitleaks passerar; l10n-lint rapporterar 0 fel och åtta tidigare helkatalogsvarningar. Samtliga Windows-, Linux-, macOS-, ARM- och översättningslintjobb passerar nu. PR:n är fortfarande öppen, med `mergeStateStatus` `BLOCKED` och utan underhållargranskning. Se [lintgranskningen](DuckStation/LINT-REVIEW-20261027.md) och [språkgranskningen](DuckStation/QUALITY-REVIEW-20261027.md).
 - **FreeCAD:** Fyra tidigare saknade strängar (194951, 176822, 177244 och 2593990) är dolda från översättning och kräver ingen uppladdning. De senare granskningsfilerna laddades upp, men Crowdin hoppade över merparten och API-kontrollen visar att förslag i huvudsak inte är valda eller godkända. De fyra CAM-rättningarna för termen `matris` i `FreeCAD/review-20261026/freecad-cam-matris-20261027.xliff` försöktes importeras i Crowdin 2026-10-27; alla fyra hoppades över eftersom samma förslag redan finns. För minst strängen ”Creates an array from selected toolpaths” är den aktiva, godkända översättningen fortfarande ”Skapar en array från valda verktygsbanor”, medan ”Skapar en matris från valda verktygsbanor” redan finns som ett ogranskat förslag. Ändringen kräver därför val eller godkännande av befintliga förslag per sträng, inte en ny filuppladdning. Se [status och filer](FreeCAD/review-20261026/STATUS.md).
