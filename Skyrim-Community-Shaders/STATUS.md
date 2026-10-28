@@ -7,8 +7,8 @@ nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 3 459 översatta nycklar och
-utelämnar 778 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 3 483 översatta nycklar och
+utelämnar 754 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -295,3 +295,10 @@ basblandning, luminansanalys, högdagrar, skuggor och mellangrått.
 Projektets extraktions-, orphan- och sorteringskontroll samt svlang och
 l10n-lint passerar. Gitleaks gav inga fynd. Hunspell-träffarna är den
 bevarade tekniktermen Composite-passet och etablerade facktermer.
+
+2026-10-28: COD Bloom och Horizon Fix har kompletterats med 24 strängar för
+glödeffekt, mipnivåer, horisontband, vattenhorisont och HorizonFix.ini.
+Tekniska inställningsnamn och INI-nycklar är bevarade. Projektets
+extraktions-, orphan- och sorteringskontroll samt svlang och l10n-lint
+passerar. Gitleaks gav inga fynd. Hunspell-träffarna är enbart produktnamn,
+filnamn, parametrar och tekniska facktermer.
