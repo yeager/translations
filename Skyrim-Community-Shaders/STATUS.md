@@ -1,14 +1,14 @@
 # Skyrim Community Shaders: svensk port
 
-Den aktuella utvecklingsrevisionen `d3099b19f79f62d12bebbcaae4b3aa1ec1d3b28a`
+Den aktuella utvecklingsrevisionen `9185ca09e5fe5ecee281071194d23e26710fa9e1`
 har 4 237 engelska nycklar. Den tidigare arkiverade porten innehöll 2 132
 svenska nycklar från en äldre katalog. Av dessa matchar 2 081 fortfarande
 nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 3 767 översatta nycklar och
-utelämnar 470 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 3 776 översatta nycklar och
+utelämnar 461 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -383,3 +383,9 @@ facktermer och förkortningar.
 lövverk, baksidesgrovhet och ljus under ytan. En interpunktionsvarning från
 svlang rättades före inskick. Projektets kontroller, l10n-lint, svlang,
 Hunspell och Gitleaks passerar.
+
+2026-10-28: Prestandaöverlägget har kompletterats med 9 strängar för
+medelvärden, lägsta 1 %, bildgenerering, CS-renderingspass, väderväljare och
+uppdateringsintervall. En skrivregelträff för kommatecken före "och" rättades
+före inskick. Projektets kontroller, l10n-lint, svlang, Hunspell och Gitleaks
+passerar.
