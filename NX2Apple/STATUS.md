@@ -17,7 +17,8 @@ Datum: 2026-10-28
 ## Verifiering
 
 - `swift test --package-path frontend`: 251 tester passerade, 7 visuella capture-tester hoppades över eftersom deras explicita miljövariabler saknades.
-- `python3 frontend-qt/gen_localization.py` och `py_compile`: passerade.
+- Qt-testsviten: 132 tester passerade, 9 hoppades över.
+- Riktat test av språkcykeln kinesiska → engelska → svenska → kinesiska: passerade.
 - Platshållarjämförelse mot engelska: 0 avvikelser.
 - `l10n-lint` på den exporterade JSON-katalogen: inga anmärkningar.
 - `svlang skrivregler`: inga anmärkningar.
@@ -27,7 +28,7 @@ Datum: 2026-10-28
 
 Arbetsgrenen `l10n/swedish` rebasedes mot uppströms `main` och skickades som
 [PR #168](https://github.com/LNPANDY/NX2Apple/pull/168). PR-huvudet är
-`10ef7a292f1fd33a463db5d9f1f89528a01379d6`. GitHubs API bekräftar att PR:en
-är mergebar och rebasebar. Den visar `UNSTABLE` som allmän granskningsstatus,
-inte som en konflikt. Den lokala rebasen och hela testsviten är verifierade mot
-samma huvudcommit.
+`f1b8af3e3ccd46217f1886903deb7919fc7622cc`. GitHubs API bekräftar att PR:en
+är mergebar. GitHub-granskningen upptäckte att språkknappen inte kunde välja
+svenska. Det är rättat och skyddas nu av ett test. PR:en saknar CI-kontroller
+och väntar därför på underhållargranskning.
