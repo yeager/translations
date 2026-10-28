@@ -10,7 +10,7 @@ webbklienttaggen är `web-v2026.9.1`; den uppfyller kravet på en release yngre
 | Web | 4 952 | 263 | 263 | Inte inskickat; arkivdeltan behöver kopplas till aktuella plattforms-id:n före import. |
 | Browser | 2 318 | 10 | 10 | Inte inskickat; se `bitwarden-browser-current-missing-sv-20261027.json`. |
 | Desktop | 2 014 | 46 | 46 | Inte inskickat; se `bitwarden-desktop-current-missing-sv-20261027.json`. |
-| Mobile | 905 | 0 tomma; 42 engelska kandidater | 18 rättningar arkiverade | Jämförd mot `bitwarden/mobile` vid `b543459f8d71324aa11914da1e6f6ad3d7abce54`; radvis innehållsgranskning fortsätter. |
+| Mobile | 905 | 0 tomma; 42 engelska kandidater | 23 rättningar arkiverade | Jämförd mot `bitwarden/mobile` vid `b543459f8d71324aa11914da1e6f6ad3d7abce54`; 19 avsiktligt oförändrade produkt- och tekniknamn återstår. |
 | Authenticator iOS | 159 | 0 tomma; 66 engelska kandidater | 60 rättningar arkiverade | Jämförd mot `bitwarden/authenticator-ios` vid `9fbbceb1bd030a6360ba50e4c143ea5440e7428f`; sex avsiktligt oförändrade produkt- och tekniknamn återstår. |
 | Authenticator Android | 152 | 0 tomma; 49 engelska kandidater | 46 rättningar arkiverade | Jämförd mot `bitwarden/authenticator-android` vid `1fa1322827a4fefc1cac4666402e6ef3b4aceded`; tre avsiktligt engelska kandidater återstår: två produktnamn och den kontextberoende `Add Item Rotation`. |
 
