@@ -6,8 +6,10 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   mot aktuell `main`, validerades och skickades som [PR #24212](https://github.com/bitwarden/clients/pull/24212)
   2026-10-28. PR:n stängdes samma dag utan merge; underhållaren hänvisade
   till Bitwardens Crowdin-flöde, som synkar översättningar till GitHub.
-  Deltana är arkiverade men inte införda uppströms och måste jämföras med
-  aktuella Crowdin-måltexter innan import.
+  Web-deltat importerades sedan i Crowdin 2026-10-28: 262 svenska
+  översättningar lades till, en post hoppades över och inga godkändes
+  automatiskt. Browser- och Desktop-deltana är arkiverade men behöver
+  fortfarande jämföras med aktuella Crowdin-måltexter före import.
   Mobile-deltat (23) är validerat och pushat till en forkbranch, men
   `bitwarden/mobile` är arkiverat och GitHub avvisar PR:er. Authenticator
   Androids gamla repo är också arkiverat och har ersatts av `bitwarden/android`;
@@ -19,7 +21,7 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   2026-10-28. PR:n är öppen; dess säkerhetskontroll är grön men GitHub visar
   `BLOCKED` i väntan på underhållargranskning. Se
   [komponentstatus](Bitwarden/CURRENT-COMPONENT-STATUS-20261027.md).
-- **sK1:** Det svenska utkastet är inte inskickat. Bekräfta att senaste utgåvan uppfyller 48-månaderskravet innan arbetet fortsätter. Se [sK1-status](sK1/STATUS.md).
+- **sK1:** Den kompletta svenska katalogen är skickad som [PR #348](https://github.com/sk1-project/sk1-wx/pull/348) 2026-10-28. Den väntar på uppströmsgranskning och CI. Se [sK1-status](sK1/STATUS.md).
 - **FreeCAD:** Fyra tidigare saknade strängar (194951, 176822, 177244 och 2593990) är dolda från översättning och kräver ingen uppladdning. De senare granskningsfilerna laddades upp, men Crowdin hoppade över merparten och API-kontrollen visar att förslag i huvudsak inte är valda eller godkända. De fyra CAM-rättningarna för termen `matris` i `FreeCAD/review-20261026/freecad-cam-matris-20261027.xliff` försöktes importeras i Crowdin 2026-10-27; alla fyra hoppades över eftersom samma förslag redan finns. För minst strängen ”Creates an array from selected toolpaths” är den aktiva, godkända översättningen fortfarande ”Skapar en array från valda verktygsbanor”, medan ”Skapar en matris från valda verktygsbanor” redan finns som ett ogranskat förslag. Ändringen kräver därför val eller godkännande av befintliga förslag per sträng, inte en ny filuppladdning. Se [status och filer](FreeCAD/review-20261026/STATUS.md).
 - **FreeCAD-addons:** Den senare 12-strängarsfilen laddades upp; API-kontrollen visar att samtliga måltexter redan finns som förslag. Kontrollera vald översättning och granskningsstatus per sträng före ny ändring. Se [status och filer](FreeCAD/review-20261026/STATUS.md).
 - **Vocaluxe:** Huvudfilen, webbappen och alla sex partylägen är uppladdade i Transifex och visas som 100 % översatta, men 0 % granskade. Sex granskade huvudfilsrättningar (`Low`, `Medium`, `High`, `Tags`, `No Tags` och sökhjälpen) samt samtliga tio dialogrättningar har sparats och återlästs i Transifex 2026-10-28. Upstreamexport och programkörning återstår. Se [status](Vocaluxe/STATUS.md).
