@@ -49,6 +49,7 @@ Utseende, systemkrediter, patchar och beroendeinstallation är lokaliserade.
 
 ## Återstår
 
-Fler hårdkodade texter finns i sekundära vyer. De kan flyttas successivt till
-samma katalog; de 366 berörda synliga texterna har svenska måltexter. Följ även
-PR #3:s CI och granskning.
+Den statiska SwiftUI-granskningen är genomförd. Kvarvarande råa litteraler är
+produktnamn, titel- och versions-ID:n, sökvägar, loggrader eller tekniska
+värden och ska inte översättas. Följ PR #3:s CI och underhållargranskning;
+nya funktioner ska använda samma katalog och kontrollskript.
