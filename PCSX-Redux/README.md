@@ -21,3 +21,12 @@ Granskad svensk PO-katalog från Transifex-resursen `i18n/pcsx-redux.pot (main)`
 - Ändring: `Visa vertikalt intervall: %d - %d`
 - Verifiering: Transifex visar 0 oöversatta av 1 078 strängar; båda `%d`-platshållarna är bevarade.
 - Arkiv: `Transifex/pcsx-redux/pcsx-redux-sv-correction-20261028.json`
+
+## Uppdatering mot aktuell källkatalog
+
+- Granskad: 2026-10-28
+- Källrevision: `8cfca2a1e5595837efe639f1abbbccc4f16700ba`
+- Omfattning: 19 nya och 23 tidigare osäkra strängar, främst mjuk-GPU-felsökaren och minnesobservatören.
+- Status: 1 078/1 078 översatta lokalt. Transifex-inskick återstår.
+- Kontroller: `msgfmt --check`, l10n-lint (0 fel), svlang, Hunspell SV och Gitleaks (0 fynd).
+- Arkiv: `Transifex/pcsx-redux/pcsx-redux-sv-reviewed-20261028.po`
