@@ -2,6 +2,12 @@
 
 Följande arbete är ännu inte fullt verifierat eller inskickat:
 
+- **NxNative Launcher:** En första svensk GUI-etapp med 55 granskade nycklar
+  och ett återanvändbart SwiftPM-l10n-upplägg är byggd och validerad mot
+  upstreamrevisionen från 2026-10-28. [PR #3](https://github.com/rennan101/nxnative_Launcher/pull/3)
+  skickades 2026-10-28 och väntar på CI samt underhållargranskning. Se
+  [status](NxNative-Launcher/STATUS.md).
+
 - **Bitwarden:** Web (263), Browser (10) och Desktop (46) jämfördes på nytt
   mot aktuell `main`, validerades och skickades som [PR #24212](https://github.com/bitwarden/clients/pull/24212)
   2026-10-28. PR:n stängdes samma dag utan merge; underhållaren hänvisade
