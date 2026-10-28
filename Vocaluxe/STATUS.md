@@ -43,3 +43,7 @@ artist-/titelsökning. I sökhjälpen bevaras samtliga sökprefix, intervallet
 `1980-1989` och specialtecknen; bara `t.ex.` och `etiketter` rättades.
 Kvalitetsdeltat har nu endast den saknade `High`-posten kvar. De tio
 rättningarna för felrapporteringsdialogen är fortfarande lokala och osparade.
+
+2026-10-28: En första dialogrättning har sparats och återlästs från
+Transifex med kontot `yeager`: `The link to your report:` = `Länken till din
+rapport:`. Kolon och singularisdu bevaras. Nio dialogrättningar återstår.
