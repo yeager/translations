@@ -7,14 +7,15 @@ webbklienttaggen är `web-v2026.9.1`; den uppfyller kravet på en release yngre
 
 | Komponent | Aktuell engelsk katalog | Saknade svenska måltexter i källträdet | Arkiverat 2026-10-27 | Upstreamstatus |
 | --- | ---: | ---: | ---: | --- |
-| Web | 4 952 | 263 | 240 | Inte inskickat; arkivdeltan behöver kopplas till aktuella plattforms-id:n före import. |
+| Web | 4 952 | 263 | 263 | Inte inskickat; arkivdeltan behöver kopplas till aktuella plattforms-id:n före import. |
 | Browser | 2 318 | 10 | 10 | Inte inskickat; se `bitwarden-browser-current-missing-sv-20261027.json`. |
 | Desktop | 2 014 | 46 | 46 | Inte inskickat; se `bitwarden-desktop-current-missing-sv-20261027.json`. |
 | Mobile | Ej del av den grunda klientklonen | Ej fastställt | Ingen ny ändring | Tidigare arkivfiler kräver ny källjämförelse. |
 | Authenticator Mobile | Ej del av den grunda klientklonen | Ej fastställt | Ingen ny ändring | Tidigare arkivfiler kräver ny källjämförelse. |
 
-Webbdeltana 01–20 innehåller de första 240 saknade posterna i den ordning de
-förekommer i den aktuella engelska katalogen. Desktopfilen återanvänder 33
+Webbdeltana 01–22 innehåller samtliga 263 poster som saknas i den aktuella
+svenska webbkatalogen, i den ordning de förekommer i den engelska katalogen.
+Desktopfilen återanvänder 33
 tidigare API-verifierade arkivtexter och kompletterar 13 nya eller ändrade
 poster. Browserdeltat omfattar samtliga tio aktuellt saknade poster.
 
@@ -24,5 +25,7 @@ trippelidentiska konsonanter, `l10n-lint`, Hunspell, `svlang` och Gitleaks.
 träffar räknas därför inte som svenska språkfel. Ingen källkatalog har
 ändrats, och ingen post är därmed påstått uppladdad eller godkänd upstream.
 
-Nästa arbete är att fortsätta Web från batch 21 och därefter hämta aktuella
-Mobile- och Authenticator-källor innan fler mobilposter granskas.
+Webbdeltana är lokala granskningsunderlag och ändrar inte Bitwardens
+källkatalog. Nästa arbete är att koppla dem till aktuella plattforms-id:n inför
+import och att hämta aktuella Mobile- och Authenticator-källor innan fler
+mobilposter granskas.
