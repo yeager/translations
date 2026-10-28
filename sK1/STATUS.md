@@ -31,3 +31,10 @@ visar fortfarande en odaterad nedladdning för 2.0 RC5. Den senaste daterade
 officiella releaseposten som kunde verifieras är 2.0 RC4 från 2019-05-27.
 Det styrker inte en aktuell RC5-utgåva och uppfyller inte 48-månaderskravet.
 Utkastet lämnas därför arkiverat och oskickat.
+
+2026-10-28: Officiella sK1-sidan och utvecklarresurserna kontrollerades igen.
+De erbjuder fortfarande RC5 som nedladdning, men utan publiceringsdatum, och
+beskriver dagliga byggen som icke-stabila snapshots. Den senaste verifierbara
+officiella releaseposten är fortsatt RC4 från 2019-05-27. Kravet på en
+verifierat högst 48 månader gammal release är alltså inte uppfyllt; ingen
+fortsatt granskning eller uppladdning av det svenska utkastet görs.
