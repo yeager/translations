@@ -7,8 +7,8 @@ nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 3 215 översatta nycklar och
-utelämnar 1 022 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 3 216 översatta nycklar och
+utelämnar 1 021 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -232,3 +232,8 @@ shaders, kompilering, cache, loggnivåer, shadersteg och felsökning.
 Hörnpunkt används konsekvent i användartexten för Vertex. Projektets kontroller
 och svlang passerar; Gitleaks gav inga fynd. Hunspell-träffarna är filnamn,
 produktnamn, grafiktermer och platshållare.
+
+2026-10-28: Cachehjälptexten för ContentStore är översatt med bevarad
+sökväg, tekniktermer och radbrytning. Projektets kontroller och svlang
+passerar; Gitleaks gav inga fynd. Hunspell-träffarna är sökvägens tekniska
+komponenter och shadertermen.
