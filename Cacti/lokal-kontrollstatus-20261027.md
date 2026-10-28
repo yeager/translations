@@ -19,3 +19,12 @@ Cacti Translate. Den ska därför inte användas som bevis för upstreamstatus.
 Kontrollen har gjorts med `msgfmt`, `l10n-lint` och `svlang`. Nya
 översättningsdeltan granskas dessutom med Hunspell och Gitleaks innan de
 arkiveras.
+
+## Livekontroll 2026-10-28
+
+Den aktuella svenska komponentvyn i Cacti Translate kontrollerades direkt i
+webbläsaren. Både **Core** (5 198 av 5 198 strängar) och **Routerconfigs**
+(304 av 304 strängar) visas som 100 % översatta, men båda är tillfälligt
+stängda för bidrag. Weblate anger i båda fallen varningen *Kunde inte pusha
+arkivet*. De lokalt arkiverade deltana ska därför inte laddas upp förrän
+komponenterna har låsts upp och måltexterna kan jämföras på nytt.
