@@ -1,14 +1,14 @@
 # Skyrim Community Shaders: svensk port
 
-Den aktuella utvecklingsrevisionen `b19f42f271cb8dbbd346cfab3031411b78467c6e`
+Den aktuella utvecklingsrevisionen `a2a9ccf055313c4a752835bb11fd53d258265e3d`
 har 4 237 engelska nycklar. Den tidigare arkiverade porten innehöll 2 132
 svenska nycklar från en äldre katalog. Av dessa matchar 2 081 fortfarande
 nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller 4 160 översatta nycklar och
-utelämnar 77 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
+nyckelordnade svenska porten. Den innehåller 4 179 översatta nycklar och
+utelämnar 58 nya nycklar, vilka enligt projektets dokumenterade i18n-regel
 faller tillbaka till engelska. Den är därför en säker partiell första
 upstreaminsändning, inte en komplett svensk katalog.
 
@@ -435,3 +435,7 @@ Hunspell och Gitleaks passerar.
 2026-10-28: Ytterligare 34 OpenDRT-reglage har översatts för
 renhetsgränser, efterbriljans, renderingsrymd, tonkurva och omgivning.
 Projektets kontroller, l10n-lint, svlang, Hunspell och Gitleaks passerar.
+
+2026-10-28: OpenDRT:s första 19 längre förklaringar för kontrast, exponering,
+briljans, nyans och renhetskomprimering har granskats och översatts. Projektets
+kontroller, l10n-lint, svlang, Hunspell och Gitleaks passerar.
