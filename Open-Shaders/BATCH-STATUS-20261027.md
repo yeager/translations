@@ -225,3 +225,8 @@ färgkorrigeringens ton- och färgrymdskontroller. Filen
 `open-shaders-post-processing-color-controls-07-sv-20261029.json` är
 validerad mot den lokala engelska katalogen och kräver en ny exportjämförelse
 före import.
+
+Det åttonde efterbehandlingshäftet från samma datum innehåller 25 nycklar för
+färgkorrigeringens utdata, dynamikomfång och skuggkontroller. Filen
+`open-shaders-post-processing-output-08-sv-20261029.json` är validerad mot
+den lokala engelska katalogen och kräver en ny exportjämförelse före import.
