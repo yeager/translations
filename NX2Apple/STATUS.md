@@ -26,9 +26,10 @@ Datum: 2026-10-28
 
 ## Upstream
 
-Arbetsgrenen `l10n/swedish` rebasedes mot uppströms `main` och skickades som
-[PR #168](https://github.com/LNPANDY/NX2Apple/pull/168). PR-huvudet är
-`f1b8af3e3ccd46217f1886903deb7919fc7622cc`. GitHubs API bekräftar att PR:en
-är mergebar. GitHub-granskningen upptäckte att språkknappen inte kunde välja
-svenska. Det är rättat och skyddas nu av ett test. PR:en saknar CI-kontroller
-och väntar därför på underhållargranskning.
+Arbetsgrenen `l10n/swedish` är rebased mot uppströms `main` (`3384be8c`) och
+skickad som [PR #168](https://github.com/LNPANDY/NX2Apple/pull/168). PR-huvudet
+är `5a2a96780a791dac0c3bc7bb1fa11a6399100597`. GitHubs API bekräftade före
+rebasen att PR:en är mergebar. GitHub-granskningen upptäckte att språkknappen
+inte kunde välja svenska; rättningen är med och skyddas av ett test. Efter
+rebasen passerar Qt-sviten (132 tester, 9 avsiktliga hopp) och Swift-sviten.
+PR:en saknar CI-kontroller och väntar därför på underhållargranskning.
