@@ -213,3 +213,9 @@ Det femte efterbehandlingshäftet från samma datum innehåller 25 nycklar för
 COD Bloom och färgkorrigering. Filen
 `open-shaders-post-processing-color-05-sv-20261029.json` är validerad mot den
 lokala engelska katalogen och kräver en ny exportjämförelse före import.
+
+Det sjätte efterbehandlingshäftet från samma datum innehåller 25 nycklar för
+färgkorrigering, kurvförhandsvisning och tonmappning. Filen
+`open-shaders-post-processing-tonemapping-06-sv-20261029.json` är validerad
+mot den lokala engelska katalogen och kräver en ny exportjämförelse före
+import.
