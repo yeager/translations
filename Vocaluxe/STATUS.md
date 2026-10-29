@@ -94,7 +94,7 @@ webbfil. Ingen lokal programkörning kan göras i den här miljön: `dotnet`,
 2026-10-29: Den lokala svenska webbfilen `WebApp/src/locales/sv.json` har
 kontrollerats på nytt mot engelska `en.json`: båda har 225 nycklar, utan
 saknade, extra eller tomma svenska värden. JSON kan tolkas av Node.js utan
-fel. Vid just detta kontrollsteg kördes inget nytt webbbygge, eftersom
+fel. Vid just detta kontrollsteg kördes inget nytt webbygge, eftersom
 `WebApp/node_modules` saknas; beroenden installerades inte enbart för denna
 kontroll. Detta är en katalogkontroll, inte en ersättning för programkörning
 eller Transifex-granskning.
