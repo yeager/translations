@@ -1,7 +1,7 @@
 # Open Shaders: källtäckning 29 oktober 2026
 
 Den lokala engelska källkatalogen innehåller 5 136 aktuella nycklar.
-Arkivets 329 JSON-filer täcker 4 939 av dem. De återstående 197 nycklarna
+Arkivets 330 JSON-filer täcker 4 964 av dem. De återstående 172 nycklarna
 finns samtliga under `feature.post_processing`.
 
 Arkivet innehåller dessutom 226 historiska nycklar som inte längre finns i den
