@@ -19,3 +19,9 @@ Behåll den befintliga komponentfilen vid en eventuell import: Cacti Translate
 kan hoppa över de tre redan matchande posterna och behandla de 87 återstående.
 Senaste stabila Routerconfigs-release är `v1.7`, publicerad 2026-02-03, och
 uppfyller 48-månadersregeln.
+
+2026-10-29: Komponenten kontrollerades åter i den inloggade Cacti
+Translate-vyn. Import är fortfarande spärrad: Weblate visar att översättningen
+är tillfälligt stängd för bidrag eftersom den inte kan pusha arkivet.
+Komponenten har 304 av 304 strängar översatta. Den lokala 90-postersfilen ska
+därför behållas och jämföras på nytt när komponenten har låsts upp.
