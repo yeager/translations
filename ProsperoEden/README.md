@@ -14,6 +14,8 @@ katalogen. Tre längdvarningar från projektets kontroll är kvar för befintlig
 översättningar av säkerhetskopiering och synkning; de är inte nya och behöver
 visuell kontroll i den faktiska PS5-layouten.
 
-Upstreamstatus: ändringen är skickad som [PR #302](https://github.com/Swordpdf/ProsperoEden/pull/302).
-PR:n är öppen och väntar på underhållargranskning. Tre befintliga längdvarningar
-behöver visuell kontroll i PS5-layouten; de är inte fel i katalogformatet.
+Upstreamstatus: den tidigare repositoryadressen och länken till PR #302 gick
+inte längre att slå upp på GitHub vid kontroll 2026-10-29. Ändringen är
+arkiverad, men upstreamstatus kan inte längre verifieras förrän projektet
+publicerar en ny repositoryadress. Tre befintliga längdvarningar behöver
+visuell kontroll i PS5-layouten; de är inte fel i katalogformatet.
