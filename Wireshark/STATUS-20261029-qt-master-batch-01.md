@@ -11,6 +11,7 @@
   beskrivningen av användningen i paketlistan och detaljvyerna, varningen för
   felaktigt teckensnitt, hjälpinformationen om paketdetaljer samt
   teckensnittsvalen `Font`, `Family`, `Style` och `Size` med kortkommandon
-  samt filtret för teckensnittsfamiljer.
-- Live-status efter den bekräftade sparningen: 33 oöversatta strängar.
+  samt filtren för teckensnittsfamiljer och familjer, och etiketten för
+  teckensnittsstil.
+- Live-status efter den bekräftade sparningen: 31 oöversatta strängar.
 - Återstående poster i batchen är fortsatt arkiverade lokalt för nästa uppladdningspass.
