@@ -6,8 +6,8 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   som [PR #168](https://github.com/LNPANDY/NX2Apple/pull/168) 2026-10-28.
   Swift- och Qt-katalogerna är arkiverade tillsammans med kontrollunderlaget.
   En granskningspunkt om Qt:s språkväxling rättades med regressionsprov.
-  Den aktuella grenen är mergebar men har status `UNSTABLE` utan konfigurerade
-  CI-jobb och väntar på underhållargranskning. Se [status](NX2Apple/STATUS.md).
+  Den aktuella grenen har status `UNSTABLE` utan konfigurerade CI-jobb och
+  väntar på underhållargranskning. Se [status](NX2Apple/STATUS.md).
 
 - **Bitwarden:** Web (263), Browser (10) och Desktop (46) jämfördes på nytt
   mot aktuell `main`, validerades och skickades som [PR #24212](https://github.com/bitwarden/clients/pull/24212)
@@ -29,7 +29,7 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   översättningar i Crowdin. En svensk granskarroll är begärd; jämför de lokala
   deltorna med aktuella Crowdin-måltexter först när rollen har bekräftats. Se
   [komponentstatus](Bitwarden/CURRENT-COMPONENT-STATUS-20261027.md).
-- **sK1:** Den kompletta svenska katalogen är skickad som [PR #348](https://github.com/sk1-project/sk1-wx/pull/348) 2026-10-28. Den väntar på uppströmsgranskning och CI. Se [sK1-status](sK1/STATUS.md).
+- **sK1:** Den kompletta svenska katalogen är skickad som [PR #348](https://github.com/sk1-project/sk1-wx/pull/348) 2026-10-28. Den har status `CLEAN`, inga konfigurerade CI-jobb och väntar på uppströmsgranskning. Se [sK1-status](sK1/STATUS.md).
 - **FreeCAD:** Fyra tidigare saknade strängar (194951, 176822, 177244 och 2593990) är dolda från översättning och kräver ingen uppladdning. De senare granskningsfilerna laddades upp, men Crowdin hoppade över merparten och API-kontrollen visar att förslag i huvudsak inte är valda eller godkända. De fyra CAM-rättningarna för termen `matris` i `FreeCAD/review-20261026/freecad-cam-matris-20261027.xliff` försöktes importeras i Crowdin 2026-10-27; alla fyra hoppades över eftersom samma förslag redan finns. För minst strängen ”Creates an array from selected toolpaths” är den aktiva, godkända översättningen fortfarande ”Skapar en array från valda verktygsbanor”, medan ”Skapar en matris från valda verktygsbanor” redan finns som ett ogranskat förslag. Ändringen kräver därför val eller godkännande av befintliga förslag per sträng, inte en ny filuppladdning. Se [status och filer](FreeCAD/review-20261026/STATUS.md).
 - **FreeCAD-addons:** Den senare 12-strängarsfilen laddades upp; API-kontrollen visar att samtliga måltexter redan finns som förslag. Kontrollera vald översättning och granskningsstatus per sträng före ny ändring. Se [status och filer](FreeCAD/review-20261026/STATUS.md).
 - **Vocaluxe:** Huvudfilen, webbappen och alla sex partylägen är uppladdade i
@@ -51,11 +51,11 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   efterbehandling är nu komplett med 672 nycklar i 27 häften. Se
   [batchstatus](Open-Shaders/BATCH-STATUS-20261027.md). Ladda inte upp förrän
   låsningen är hävd och komponentens aktuella export har jämförts.
-- **SkyrimMT:** Svensk lokalisering med resursmekanism, 1 064 katalogposter och lokaliserade dynamiska statusrader har skickats som [PR #12](https://github.com/HorrorPills/skyrimmt/pull/12) den 2026-10-29. Full paketbyggning, `plutil`, nyckeltäckning, platsvariabelkontroll, `svlang`, Hunspell och avgränsad Gitleaks är verifierade. PR:n är öppen och mergebar, utan konfigurerade CI-jobb, och väntar på underhållargranskning. Se [status](SkyrimMT/STATUS-20261028.md).
+- **SkyrimMT:** Svensk lokalisering med resursmekanism, 1 064 katalogposter och lokaliserade dynamiska statusrader har skickats som [PR #12](https://github.com/HorrorPills/skyrimmt/pull/12) den 2026-10-29. Full paketbyggning, `plutil`, nyckeltäckning, platsvariabelkontroll, `svlang`, Hunspell och avgränsad Gitleaks är verifierade. PR:n är öppen med status `CLEAN`, utan konfigurerade CI-jobb, och väntar på underhållargranskning. Se [status](SkyrimMT/STATUS-20261028.md).
 - **Skyrim Community Shaders:** Komplett svensk katalog med 4 238 av 4 238
   nycklar skickades som [PR #3051](https://github.com/community-shaders/skyrim-community-shaders/pull/3051)
   2026-10-28. PR:en är squashad till en commit och dess aktuella
-  rubrikkontroll passerar. PR:n är mergebar men GitHub visar `BLOCKED` eftersom
+  rubrikkontroll passerar. GitHub visar `BLOCKED` eftersom
   underhållargranskning krävs; den enda körda kontrollen, rubrikkontrollen,
   är godkänd. Se
   [status](Skyrim-Community-Shaders/STATUS.md).
