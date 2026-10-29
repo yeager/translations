@@ -279,3 +279,8 @@ för LUT, rörelseoskärpa och OpenDRT. Filen
 `open-shaders-post-processing-motion-blur-17-sv-20261029.json` är validerad
 mot den lokala engelska katalogen och kräver en ny exportjämförelse före
 import.
+
+Det artonde efterbehandlingshäftet från samma datum innehåller 25 nycklar för
+OpenDRT:s färgrenhet, briljans och kontrast. Filen
+`open-shaders-post-processing-open-drt-18-sv-20261029.json` är validerad mot
+den lokala engelska katalogen och kräver en ny exportjämförelse före import.
