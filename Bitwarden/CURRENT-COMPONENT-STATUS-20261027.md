@@ -2,7 +2,7 @@
 
 Kontrollen utgår från Bitwardens klientkällkod vid commit
 `0866e906e341da366eb265f95ece5ecc6542ca75`. Den senaste observerade
-webbklienttaggen är `web-v2026.9.1`; den uppfyller kravet på en release yngre
+webbklienttaggen är `web-v2026.10.1` från 28 oktober 2026; den uppfyller kravet på en release yngre
 än 48 månader.
 
 | Komponent | Aktuell engelsk katalog | Saknade svenska måltexter i källträdet | Arkiverat 2026-10-27 | Upstreamstatus |
