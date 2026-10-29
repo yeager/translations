@@ -10,6 +10,7 @@ terminologi, där `item` konsekvent är **objekt** och `Controlled access` är
 ## Kontroller före insändning
 
 - `svlang skrivregler`: inga skrivregelfel.
+- `l10n-lint`: inga fel i måltextkatalogerna.
 - Hunspell-sv: endast den avsiktliga platshållaren `$COUNT$`.
 - Platshållarparitet: godkänd; `$COUNT$` bevarad exakt.
 - Scoped Gitleaks: inga fynd.
