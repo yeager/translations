@@ -590,7 +590,7 @@ export const svOverrides: TranslationOverrides = {
       introSplashTitle: 'Startbild',
       introSplashDesc: 'Ordmärket och prompten som visas i en tom chatt.',
       reactionsTitle: 'Meddelandereaktioner',
-      reactionsDesc: 'Emoji-reaktioner i iMessage-stil – reagera på meddelanden, och Hermes kan reagera på dina.',
+      reactionsDesc: 'Emoji-reaktioner i iMessage-stil: reagera på meddelanden och Hermes kan reagera på dina.',
       tipsTitle: 'Tips i appen',
       tipsDesc:
         'Tips från appen och Hermes som visas då och då. Varje tips visas en gång. Stängs av automatiskt efter de första 30 dagarna. Du kan aktivera dem igen.',
@@ -632,7 +632,7 @@ export const svOverrides: TranslationOverrides = {
         intro:
           'Adoptera en animerad husdjursmaskot från Petdex som svävar över appen och reagerar på vad Hermes gör – springer medan verktyg körs, firar vid lyckade resultat och surar vid fel.',
         restartHint:
-          'Husdjur kräver en snabb omstart – den aktuella appen startade innan funktionen lades till. Avsluta och öppna Hermes igen, och kom sedan tillbaka hit.',
+          'Husdjur kräver en snabb omstart eftersom den aktuella appen startade innan funktionen lades till. Avsluta och öppna Hermes igen och kom sedan tillbaka hit.',
         scaleTitle: 'Storlek',
         scaleDesc: 'Ändra storlek på den flytande maskoten. Gäller överallt direkt.',
         roamTitle: 'Vandra',
@@ -1595,7 +1595,7 @@ export const svOverrides: TranslationOverrides = {
       sources: {
         title: 'Lösenordshanterare',
         blurb:
-          'Installerade lösenordshanterare upptäcks automatiskt. Agenten ber dig låsa upp en hanterare första gången den behöver en inloggning därifrån (en gång per session). Endast en sessionstoken finns kvar i minnet, och agenten ser aldrig ditt huvudlösenord eller några inloggningsuppgifter.',
+          'Installerade lösenordshanterare upptäcks automatiskt. Agenten ber dig låsa upp en hanterare första gången den behöver en inloggning därifrån (en gång per session). Endast en sessionstoken finns kvar i minnet och agenten ser aldrig ditt huvudlösenord eller några inloggningsuppgifter.',
         toggleFailed: 'Det gick inte att uppdatera lösenordshanteraren',
         notInstalled: name =>
           `Hittades inte. Installera kommandoradsverktyget för ${name} och logga in i det. Hermes upptäcker det automatiskt.`,
@@ -3324,7 +3324,7 @@ export const svOverrides: TranslationOverrides = {
   },
   onboarding: {
     headerTitle: 'Kom igång med Hermes Agent',
-    headerDesc: 'Anslut en modellleverantör för att börja chatta. De flesta alternativ kräver ett klick.',
+    headerDesc: 'Anslut en leverantör av modeller för att börja chatta. De flesta alternativ kräver ett klick.',
     preparingInstall: 'Hermes slutför installationen. Vid första start tar det vanligen mindre än en minut.',
     starting: 'Startar Hermes…',
     lookingUpProviders: 'Söker efter leverantörer…',
