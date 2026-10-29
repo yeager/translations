@@ -140,3 +140,12 @@ korrektionsfilen `sv.txt`, svensk flagga och den genererade C++-tabellen.
 Se den separata [slutstatusen](complete-localization-20261028.md) för
 kontroller, SHA-256 och den uttryckliga begränsningen att PS5-körning inte har
 verifierats lokalt.
+
+2026-10-29 följdes PR:n upp med ett sextonde häfte med 20 säkra
+kommaterings- och tydlighetsrättningar. Samtliga 21 träffar för kommatecken
+före `och` är radgranskade, och endast text där satsgränsen eller meningen
+blev tydligare ändrades. Den kompletta uppdaterade katalogen är
+`porpoise-sv-comma-and-clarity-20261029.json`; se även
+[granskningsunderlaget](comma-and-clarity-review-20261029.md). Commit
+`efcc8ea` är pushad till samma öppna PR #34. Generator-, nyckel-,
+platsvariabel-, C++17-, svlang-, Hunspell- och Gitleaks-kontroller passerar.
