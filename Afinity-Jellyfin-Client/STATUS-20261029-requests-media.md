@@ -6,10 +6,9 @@ Datum: 2026-10-29
 
 - Officiell release `v0.12.05-beta` publicerades 2026-10-19 och uppfyller
   48-månaderskravet.
-- Hosted Weblate visade 3 069 av 3 115 översatta strängar och 46 tomma,
-  skrivbara poster. Arton produktnamn var skrivskyddade.
-- Två deltakataloger med 20 respektive 26 strängar har skapats för de 46
-  skrivbara, tomma posterna.
+- Hosted Weblate visar 3 115 av 3 115 översatta strängar (100 procent).
+  Arton produktnamn är skrivskyddade och ingår redan i den kompletta
+  översättningen.
 
 ## Granskning
 
@@ -26,9 +25,13 @@ Datum: 2026-10-29
 - Terminologiminnet bekräftar bland annat `spellista`, `speltid`, `poäng` och
   `recension` i etablerad användning.
 
-## Uppladdning
+## Uppladdning och slutkontroll
 
-Filerna är under 1 000 strängar och kan laddas upp var för sig när aktuell
-Weblate-måltext har jämförts igen. Likadana käll- och måltexter för tekniska
-beteckningar (till exempel `S01E01` och `%1$.1f%%`) ska sparas individuellt
-om Weblate avvisar dem vid filimport.
+- Två granskade deltahäften under 1 000 strängar laddades upp via Weblate med
+  läget att endast ändra oöversatta strängar. Det första uppdaterade 20 av 20
+  poster. Det andra uppdaterade 25 av 26; den återstående posten hade fått en
+  ändrad källsträng och sparades manuellt som `%1$d kanaler`.
+- Sökningen `has:check` är tom efter slutgranskningen.
+- Fyra giltiga kontroller avfärdades utan att ändra måltexten: två svenska
+  pluraler där `spår` respektive formuleringen med `ytterligare` korrekt har
+  samma form, samt produktnamnen `Tomatometer` och `Popcornmeter`.
