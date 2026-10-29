@@ -167,3 +167,9 @@ områdesöverlägg, återställning och validering av körmiljöversioner för N
 Rendering. Filen `open-shaders-upscaling-neural-runtime-09-sv-20261029.json`
 är validerad mot den lokala engelska katalogen och kräver en ny
 exportjämförelse före import.
+
+Det tionde uppskalningshäftet från samma datum innehåller 25 nycklar för
+mellanrumshantering, status, NGX-maskning och uppskalningsförinställningar.
+Filen `open-shaders-upscaling-neural-status-10-sv-20261029.json` är validerad
+mot den lokala engelska katalogen och kräver en ny exportjämförelse före
+import.
