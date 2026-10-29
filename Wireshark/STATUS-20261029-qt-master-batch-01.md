@@ -13,5 +13,5 @@
   teckensnittsvalen `Font`, `Family`, `Style` och `Size` med kortkommandon
   samt filtren för teckensnittsfamiljer och familjer, och etiketten för
   teckensnittsstil.
-- Live-status efter den bekräftade sparningen: 25 oöversatta strängar.
+- Live-status efter den bekräftade sparningen: 22 oöversatta strängar.
 - Återstående poster i batchen är fortsatt arkiverade lokalt för nästa uppladdningspass.
