@@ -21,6 +21,7 @@ hela diagnostiken på svenska och arabiska.
 - `python3 tools/check_conventions.py --base origin/main`: godkänd.
 - Diffkontroll mot `origin/main`: godkänd.
 - Scoped Gitleaks för ändrade filer: inga läckor.
+- GitHub Actions på huvudcommitten: `conventions` och `labels` godkända.
 - `pr_overlap.py`: körningen startades mot 1 402 öppna PR:er. Den är inte en
   förutsättning för den lokala rättningen och hade inte slutförts när grenen
   pushades.
