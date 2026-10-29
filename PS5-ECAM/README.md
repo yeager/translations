@@ -19,6 +19,7 @@ att hela katalogen redan har språkgranskats rad för rad.
 träffar. Fortsatt radgranskning behövs för övriga språkval och hjälprader.
 
 Den 27 oktober 2026 skickades batchen som
-[PR #85](https://github.com/premohq/PS5-ECAM/pull/85). Pull requesten är
-öppen och markerades vid inskick som `UNSTABLE`; den har ännu varken
-underhållargranskning eller rapporterade CI-resultat.
+[PR #85](https://github.com/premohq/PS5-ECAM/pull/85). Underhållaren slog
+samma dag ihop lokaliseringscommitten som `4ee7ff1` och lade därefter till
+en svensk kommateringsrättning i `f799176`, utan komma före *och* i de nya
+mapptexterna. PR #85 är därför stängd med ändringen uppströms.
