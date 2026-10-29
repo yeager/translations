@@ -34,6 +34,22 @@ msgstr "Aktiverar direkt infogning av poster i Boost-tabellen för insamlarutdat
 msgid "Content-Security Allow Unsafe JavaScript eval() calls"
 msgstr "Innehållssäkerhet: tillåt osäkra JavaScript-eval()-anrop"
 
+#: include/global_settings.php:49
+msgid "Mail/Reporting/DNS/Proxy"
+msgstr "E-post/rapportering/DNS/proxy"
+
+#: include/global_settings.php:129
+msgid "PHP Mail() Function"
+msgstr "PHP:s mail()-funktion"
+
+#: include/global_settings.php:2224
+msgid "Enable code tweak for specific handling of Lotus Notes Mail Clients."
+msgstr "Aktivera kodanpassning för särskild hantering av Lotus Notes-e-postklienter."
+
+#: include/global_settings.php:2234
+msgid "Primary DNS IP Address"
+msgstr "Primär DNS-serveradress"
+
 #: include/global_settings.php:2364
 msgid "The maximum amount of memory for the Cacti Poller and Boosts Poller"
 msgstr "Maximal minnesmängd för Cacti- och Boost-insamlarna"
@@ -62,9 +78,43 @@ msgstr "Intervallfrekvens"
 msgid "e.g. If the Report Interval is 'Month(s)', then '2' indicates Every '2 Month(s) from the next Mailtime.' Lastly, if using the Month(s) Report Intervals, the 'Day of Week' and the 'Day of Month' are both calculated based upon the Mailtime you specify above."
 msgstr "Om rapportintervallet är ”Månad(er)” betyder ”2” varannan månad från nästa e-posttidpunkt. Om månadsintervall används beräknas både ”Veckodag” och ”Månadsdag” från e-posttidpunkten som anges ovan."
 
+#: lib/installer.php:3665
+#, php-format
+msgid "The Add Default Device Command is: '%s'"
+msgstr "Kommandot för att lägga till standardenheten är: '%s'"
+
+#: lib/installer.php:3673
+msgid "WARNING: Default Device Failed to be Added error to follow."
+msgstr "VARNING: felet ”Det gick inte att lägga till standardenheten” följer."
+
+#: lib/installer.php:3700
+#, php-format
+msgid "Output: %s."
+msgstr "Utdata: %s."
+
 #: lib/installer.php:2521 lib/installer.php:2554 package_import.php:1133
 msgid "Not Writable"
 msgstr "Inte skrivbar"
+
+#: poller_automation.php:1189
+msgid "Cacti Automation Report requires an html based Email client"
+msgstr "Cacti-automationsrapporten kräver en HTML-baserad e-postklient"
+
+#: poller_boost.php:391
+msgid "WARNING: Detected Poller Boost Overrun, Possible Boost Poller Crash"
+msgstr "VARNING: Boost-insamlaren överskred körtiden, möjlig krasch för Boost-insamlaren"
+
+#: support.php:875
+msgid "Worst 20 Polling Time Devices"
+msgstr "De 20 enheter med längst insamlingstid"
+
+#: support.php:887
+msgid "Avg Polling Time"
+msgstr "Genomsnittlig insamlingstid"
+
+#: support.php:888
+msgid "Actual Polling Time"
+msgstr "Faktisk insamlingstid"
 
 #: user_domains.php:246
 msgid "Click 'Continue' to make the following the following User Domain the default one."
