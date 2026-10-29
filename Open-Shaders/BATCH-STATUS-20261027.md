@@ -179,3 +179,11 @@ Reflex, renderingsupplösning, Streamline-loggning och FPS-begränsning. Filen
 `open-shaders-upscaling-runtime-controls-11-sv-20261029.json` är validerad
 mot den lokala engelska katalogen och kräver en ny exportjämförelse före
 import.
+
+Det tolfte och sista uppskalningshäftet från samma datum innehåller nio
+nycklar för markörbaserad Reflex-optimering och VR-renderingsskala. Filen
+`open-shaders-upscaling-final-12-sv-20261029.json` är validerad mot den
+lokala engelska katalogen. Den komponentvisa nyckeluppsättningsjämförelsen
+visar nu att samtliga 286 av 286 aktuella nycklar i `feature.upscaling` finns
+i arkivet, utan saknade eller extra nycklar. Se
+[integrationsgranskningen](UPSCALING-INTEGRATION-REVIEW-20261029.md).
