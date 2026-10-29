@@ -34,3 +34,13 @@ Häftet är klart för inskick som ett separat Crowdin-häfte om 37 strängar.
 Det var inte möjligt att öppna Crowdins redigerare vid denna kontroll eftersom
 värddatorn var låst. Inga externa översättningar påstås därför vara sparade av
 den här granskningen.
+
+## Jämförelse med lokal klientkatalog
+
+Mot den lokala svenska webbkatalogen vid commit
+`6d2e3a182c257d8078e1bc1c1e99cd340ddc5a27` är en post identisk
+(`importNetwrixInstructions`) och 36 poster avviker. Det är väntat eftersom
+häftet bevarar exakta produktnamn och menyetiketter samt har en jämnare svensk
+meningsbyggnad. Jämförelsen bevisar inte vad som är valt i Crowdin; innan
+inskick ska varje föreslagen måltext fortfarande jämföras mot Crowdins aktuella
+måltext.
