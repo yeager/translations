@@ -57,9 +57,10 @@ Senast kontrollerades även:
   radbevarande uppdateringen skickades som
   [PR #2341](https://github.com/Gnucash/gnucash/pull/2341) 2026-10-29, men
   stängdes utan merge av underhållaren med hänvisning till projektets
-  Weblate-flöde. Förbered samma granskade delta för Weblate efter aktuell
-  exportjämförelse. De fem medvetet utelämnade avvikelserna, däribland tre
-  `split`-poster, kvarstår oförändrade.
+  Weblate-flöde. En färsk Weblate-export jämfördes samma dag: alla 59
+  granskade måltexter finns redan där och kräver ingen import. De fem
+  medvetet utelämnade avvikelserna, däribland tre `split`-poster, kvarstår
+  oförändrade. Se [Weblate-kontrollen](GnuCash/WEBLATE-STATUS-20261029.md).
 - GitLab EE i Crowdin: 53 tidigare Orbit-enheter samt 35 nya
   AI-governance-, Orbit-, säkerhets- och paketpolicysträngar är importerade
   och verifierade mot Crowdins API. Huvudfilen är 34 423 av 34 423 strängar
