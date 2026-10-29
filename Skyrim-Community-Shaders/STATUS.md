@@ -122,8 +122,9 @@ uppdaterades till `aa8a6858069c1310a4fbd0b2d36a490d805d11da`. Den enda
 ändrade filen är fortfarande `Translations/sv.json`. Katalogjämförelsen visar
 4 238 nycklar i både engelska och svenska, utan saknade, extra eller tomma
 svenska värden. JSON kan tolkas utan fel och den avgränsade Gitleaks-körningen
-hade inga fynd. GitHub har startat en ny kontroll av PR-rubriken; någon ny
-översättningskontroll eller underhållargranskning finns ännu inte.
+hade inga fynd. GitHubs nya kontroll av PR-rubriken slutfördes med godkänt
+resultat. PR:n är mergebar; den återstående spärren är enbart obligatorisk
+underhållargranskning.
 
 2026-10-28: En ytterligare sats om 33 CS-redigerarsträngar omfattar
 statusbrickor, felsökningsfält, lager, tidsperioder, FormID-fält samt
