@@ -48,3 +48,10 @@ och etablerade facktermer. En avgränsad Gitleaks-kontroll hittade inga
 hemligheter. Filens översättar- och språkgruppsmetadata har kompletterats.
 Katalogen är färdig som lokalt och arkiverat svenskt underlag, men ännu inte
 inskickad till något uppströmsflöde.
+
+2026-10-29: Den färdiga katalogen skickades som
+[PR #348](https://github.com/sk1-project/sk1-wx/pull/348) till `sk1-wx` den
+28 oktober. PR:en har huvudcommit
+`f3aee8b36f31aed68cbe46816d062c3b96334d23`, är mergebar och har inga öppna
+kommentarer eller konfigurerade CI-kontroller. Den väntar på
+underhållargranskning.
