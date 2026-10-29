@@ -98,3 +98,10 @@ fel. Någon ny webbbyggning kördes inte i detta steg, eftersom
 `WebApp/node_modules` saknas; beroenden installerades inte enbart för denna
 kontroll. Detta är en katalogkontroll, inte en ersättning för programkörning
 eller Transifex-granskning.
+
+2026-10-29: Webbappens låsfil användes för en reproducerbar byggning med
+`npm ci --ignore-scripts` och `npm run build`. `vue-tsc --noEmit` och Vites
+produktionsbygge passerade, med den oinscheckade svenska katalogen
+`WebApp/src/locales/sv.json` i trädet. Byggningen verifierar att katalogen
+kan typkontrolleras och paketeras i webbappen, men ersätter inte en
+runtimekontroll mot spelets server eller Transifex-granskning.
