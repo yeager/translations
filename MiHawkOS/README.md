@@ -14,6 +14,8 @@ värdtester för språkval, platshållare, skrivbara tecken och decimalformat.
 - `se.svg` och `flags_SOURCE.json` – Sveriges flagga från den redan pinnade
   flag-icons-källan, med kontrollsumma.
 - `swedish-setup-20261026.patch` – den begränsade uppströmsdiffen.
+- `webui-sv-review-20261029.md` – granskning av den fullständiga svenska
+  WebUI-katalogen och dess riktade tester.
 
 ## Granskning
 
@@ -23,6 +25,8 @@ värdtester för språkval, platshållare, skrivbara tecken och decimalformat.
   skrivbara tecken, platsmarkörer och korrekt svenskt decimalformat.
 - Hunspell-SV rapporterar bara etablerade produkt- och teknikord.
 - `git diff --check` och Gitleaks för samtliga ändrade filer är godkända.
+- WebUI:s `sv-SE` har 307 av 307 aktuella textnycklar, med korrekta
+  platshållare och flaggresurs; se granskningsrapporten från 29 oktober.
 - Projektets hela värdtestsvit kunde inte starta i denna fristående checkout,
   eftersom den förväntade syskonkatalogen `PS5_Vulkan` saknas. Ingen
   konsolkörning har utförts.
