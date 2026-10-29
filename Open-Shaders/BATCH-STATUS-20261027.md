@@ -120,3 +120,10 @@ bildgenerering. Det finns i
 `open-shaders-upscaling-basics-01-sv-20261029.json` och är validerat mot den
 lokala engelska katalogen. Det får importeras först efter en ny
 exportjämförelse, eftersom Weblate-komponenten fortfarande är låst.
+
+Samma dag tillkom andra uppskalningshäftet med 25 nycklar för foveerad
+uppskalning i VR. Filen
+`open-shaders-upscaling-foveated-02-sv-20261029.json` innehåller
+kantövergångar, DLSS-lägen och områdesmasker och är validerad mot den lokala
+engelska katalogen. Även detta häfte kräver en ny exportjämförelse före
+import.
