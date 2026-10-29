@@ -225,6 +225,7 @@ färgkorrigeringens ton- och färgrymdskontroller. Filen
 `open-shaders-post-processing-color-controls-07-sv-20261029.json` är
 validerad mot den lokala engelska katalogen och kräver en ny exportjämförelse
 före import.
+
 Det åttonde efterbehandlingshäftet från samma datum innehåller 25 nycklar för
 färgkorrigeringens utdata, dynamikomfång och skuggkontroller. Filen
 `open-shaders-post-processing-output-08-sv-20261029.json` är validerad mot
@@ -305,5 +306,11 @@ före import.
 Det tjugofjärde efterbehandlingshäftet från samma datum innehåller 25 nycklar
 för fysiskt baserat bländljus, objektiv och öga. Filen
 `open-shaders-post-processing-physical-glare-24-sv-20261029.json` är
+validerad mot den lokala engelska katalogen och kräver en ny exportjämförelse
+före import.
+
+Det tjugofemte efterbehandlingshäftet från samma datum innehåller 25 nycklar
+för fysiskt baserat bländljus. Filen
+`open-shaders-post-processing-physical-glare-25-sv-20261029.json` är
 validerad mot den lokala engelska katalogen och kräver en ny exportjämförelse
 före import.
