@@ -17,7 +17,8 @@ behöver redigeras med konflikthanteringen "ändra endast oöversatta strängar"
 Weblate bekräftade 34 bearbetade och 34 uppdaterade poster, utan överhoppade
 eller saknade poster.
 
-Fem redan översatta, avgränsade kvalitetsrättelser ligger i den separata filen
-`ada-zangemann-sv-batch03-fixes-20261029.po` och importeras med läget för att
-ändra översatta strängar. Kolofonen är inte med i häftet: den kvarstår som en
-egen, markup- och licenskänslig post för separat granskning.
+Fem redan översatta, avgränsade kvalitetsrättelser importerades därefter från
+den separata filen `ada-zangemann-sv-batch03-fixes-20261029.po` med läget för
+att ändra översatta strängar. Weblate bekräftade 5 bearbetade och 5 uppdaterade
+poster, utan överhoppade eller saknade poster. Kolofonen är inte med i häftet:
+den kvarstår som en egen, markup- och licenskänslig post för separat granskning.
