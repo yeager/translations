@@ -203,3 +203,8 @@ Det tredje efterbehandlingshäftet från samma datum innehåller 25 nycklar för
 fokus, synfält, bildfrekvens och ISO-gränser i den filmiska kameran. Filen
 `open-shaders-post-processing-focus-03-sv-20261029.json` är validerad mot den
 lokala engelska katalogen och kräver en ny exportjämförelse före import.
+
+Det fjärde efterbehandlingshäftet från samma datum innehåller 25 nycklar för
+objektiv, filmplan, sensorskalning och kamerastatus. Filen
+`open-shaders-post-processing-lens-04-sv-20261029.json` är validerad mot den
+lokala engelska katalogen och kräver en ny exportjämförelse före import.
