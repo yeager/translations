@@ -10,6 +10,7 @@ Senaste tillägg som ännu inte hunnit in i den alfabetiska projektöversikten:
 
 | Projekt | Datum | Granskning och status | Att göra |
 | --- | --- | --- | --- |
+| [Decky PS5 Bazzite Updater](Decky-PS5-Bazzite-Updater/) | 2026-10-29 | Svensk lokal i18n-katalog med 31 UI-texter och engelsk återfallstext; byggning, runtime-test, l10n-lint, svlang och Gitleaks är godkända. Se [status](Decky-PS5-Bazzite-Updater/STATUS-20261029.md). | Skicka en pull request. |
 | [PS5 Hardware Control](PS5-HWCon-plugin/) | 2026-10-29 | Projektet har fått en beroendefri i18n-grund med engelsk återfallstext och en granskad svensk katalog som täcker 114 av 114 UI-texter. [PR #3](https://github.com/NotHavocc/ps5-hwcon-plugin/pull/3) är öppen. Se [status och kontroller](PS5-HWCon-plugin/STATUS-20261029.md). | Invänta underhållargranskning och eventuell CI. |
 | [COSMIC Comp](COSMIC-Comp/) | 2026-10-29 | Alla 28 svenska FTL-nycklar är granskade rad för rad mot källkoden. Fjorton tydliga förbättringar är arkiverade med [status och kontroller](COSMIC-Comp/STATUS-20261029.md). | Skicka förslagen i Hosted Weblate; svensk granskare krävs för godkännande. |
 | [Decky Loader](Decky-Loader/) | 2026-10-29 | [Svensk JSON-katalog](Decky-Loader/sv-SE-20261029-reviewed.json) med 208 av 208 översättningsbara nycklar är granskad mot aktuell `main`, med l10n-lint, svlang, Hunspell, terminologi, API-jämförelse och Gitleaks. Elva förbättringsförslag är inskickade via Deckys Weblate-API. | Invänta granskning av förslagen och Weblate-synk av de 23 nya källnycklarna. |
