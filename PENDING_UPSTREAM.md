@@ -8,7 +8,15 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   till Bitwardens Crowdin-flöde, som synkar översättningar till GitHub.
   Web-deltat importerades sedan i Crowdin 2026-10-28: 262 svenska
   översättningar lades till, en post hoppades över och inga godkändes
-  automatiskt. Browser- och Desktop-deltana är arkiverade men behöver
+  automatiskt. Den 29 oktober jämfördes ytterligare 37 äldre Web-förslag rad
+  för rad med Crowdins aktuella måltexter. Sjutton kvarvarande rättningar och
+  49 då oöversatta grupp-, åtkomst- och PAM-strängar är nu uppdelade i fyra
+  kvalitetssäkrade, separata XLIFF-deltan:
+  [livegranskning](Bitwarden/Bitwarden-Web-live-reviewed-delta-20261029.xliff),
+  [grupper och åtkomst](Bitwarden/Bitwarden-Web-groups-access-delta-20261029.xliff),
+  [PAM](Bitwarden/Bitwarden-Web-pam-access-delta-20261029.xliff) och
+  [PAM-dialog](Bitwarden/Bitwarden-Web-pam-request-dialog-delta-20261029.xliff).
+  De är ännu inte sparade i Crowdin. Browser- och Desktop-deltana är arkiverade men behöver
   fortfarande jämföras med aktuella Crowdin-måltexter före import.
   Mobile-deltat (23) är validerat och pushat till en forkbranch, men
   `bitwarden/mobile` är arkiverat och GitHub avvisar PR:er. Authenticator
