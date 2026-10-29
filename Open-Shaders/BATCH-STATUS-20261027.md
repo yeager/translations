@@ -161,3 +161,9 @@ materialkartan, modellskala och begränsning till den spårade aktören. Filen
 `open-shaders-upscaling-neural-materials-08-sv-20261029.json` är validerad
 mot den lokala engelska katalogen och kräver en ny exportjämförelse före
 import.
+
+Det nionde uppskalningshäftet från samma datum innehåller 25 nycklar för
+områdesöverlägg, återställning och validering av körmiljöversioner för Neural
+Rendering. Filen `open-shaders-upscaling-neural-runtime-09-sv-20261029.json`
+är validerad mot den lokala engelska katalogen och kräver en ny
+exportjämförelse före import.
