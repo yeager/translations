@@ -138,3 +138,9 @@ bildgenerering, bildfrekvensgränser och FSR4-reservvägar. Filen
 `open-shaders-upscaling-frame-generation-04-sv-20261029.json` är validerad
 mot den lokala engelska katalogen och kräver en ny exportjämförelse före
 import.
+
+Det femte uppskalningshäftet från samma datum innehåller 25 nycklar för låg
+latens, uppskalningsmotorer och grundläggande materialkategorier i Neural
+Rendering. Filen `open-shaders-upscaling-neural-basics-05-sv-20261029.json`
+är validerad mot den lokala engelska katalogen och kräver en ny
+exportjämförelse före import.
