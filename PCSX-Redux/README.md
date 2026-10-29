@@ -31,3 +31,15 @@ Granskad svensk PO-katalog från Transifex-resursen `i18n/pcsx-redux.pot (main)`
 - Kontroller: `msgfmt --check`, l10n-lint (0 fel), svlang, Hunspell SV och Gitleaks (0 fynd).
 - Arkiv: `Transifex/pcsx-redux/pcsx-redux-sv-reviewed-20261028.po`
 - Källsynk: Transifex visar en äldre resurs och erbjuder endast webbredigering av källsträngar med Growth-funktionen. Käll-POT:en måste därför synkas av projektets underhållare eller befintliga integration innan målfilen kan importeras utan bortfall.
+
+## Releasekontroll 2026-10-29
+
+Det aktiva uppströmsförrådet är `pcsx-redux/pcsx-redux`, inte den äldre
+`grumpycoders`-adressen. `main` uppdaterades 2026-10-29 (commit
+`5d5bfc8d1b40f30903b2898c8ca6a37c2d0c0b86`), men förrådet har varken
+GitHub-releaser eller taggar. Det finns därmed ingen verifierbar officiell
+release inom den obligatoriska 48-månadersgränsen.
+
+Den lokala 1 078-posterskatalogen och dess kontroller ligger kvar i arkivet,
+men ytterligare Transifex-import ska pausas tills projektet publicerar en
+officiell release/tagg och synkar den aktuella POT-filen till Transifex.
