@@ -9,6 +9,7 @@
   förklaringen när kontrastinställningen inte kan läsas, meddelandet om valt tema
   och `Frame` → `Ram`, `Monospace font` → `Fastbreddsteckensnitt`,
   beskrivningen av användningen i paketlistan och detaljvyerna, varningen för
-  felaktigt teckensnitt samt hjälpinformationen om paketdetaljer.
-- Live-status efter den bekräftade sparningen: 38 oöversatta strängar.
+  felaktigt teckensnitt, hjälpinformationen om paketdetaljer samt
+  teckensnittsvalen `Font`, `Family` och `Style` med kortkommandon.
+- Live-status efter den bekräftade sparningen: 35 oöversatta strängar.
 - Återstående poster i batchen är fortsatt arkiverade lokalt för nästa uppladdningspass.
