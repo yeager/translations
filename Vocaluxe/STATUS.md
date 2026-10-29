@@ -94,12 +94,12 @@ webbfil. Ingen lokal programkörning kan göras i den här miljön: `dotnet`,
 2026-10-29: Den lokala svenska webbfilen `WebApp/src/locales/sv.json` har
 kontrollerats på nytt mot engelska `en.json`: båda har 225 nycklar, utan
 saknade, extra eller tomma svenska värden. JSON kan tolkas av Node.js utan
-fel. Någon ny webbbyggning kördes inte i detta steg, eftersom
+fel. Vid just detta kontrollsteg kördes inget nytt webbbygge, eftersom
 `WebApp/node_modules` saknas; beroenden installerades inte enbart för denna
 kontroll. Detta är en katalogkontroll, inte en ersättning för programkörning
 eller Transifex-granskning.
 
-2026-10-29: Webbappens låsfil användes för en reproducerbar byggning med
+2026-10-29: Webbappens låsfil användes för ett reproducerbart bygge med
 `npm ci --ignore-scripts` och `npm run build`. `vue-tsc --noEmit` och Vites
 produktionsbygge passerade, med den oinscheckade svenska katalogen
 `WebApp/src/locales/sv.json` i trädet. Byggningen verifierar att katalogen
