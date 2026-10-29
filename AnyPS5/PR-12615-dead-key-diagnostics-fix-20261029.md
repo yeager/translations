@@ -19,7 +19,7 @@ hela diagnostiken på svenska och arabiska.
 
 - `npm test --prefix tools/input-mapper`: 26 av 26 godkända.
 - `python3 tools/check_conventions.py --base origin/main`: godkänd.
-- `git diff --check origin/main...HEAD`: godkänd.
+- Diffkontroll mot `origin/main`: godkänd.
 - Scoped Gitleaks för ändrade filer: inga läckor.
 - `pr_overlap.py`: körningen startades mot 1 402 öppna PR:er. Den är inte en
   förutsättning för den lokala rättningen och hade inte slutförts när grenen
