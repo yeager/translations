@@ -314,3 +314,16 @@ för fysiskt baserat bländljus. Filen
 `open-shaders-post-processing-physical-glare-25-sv-20261029.json` är
 validerad mot den lokala engelska katalogen och kräver en ny exportjämförelse
 före import.
+
+Det tjugosjätte efterbehandlingshäftet från samma datum innehåller 25 nycklar
+för fysiskt baserat bländljus. Filen
+`open-shaders-post-processing-physical-glare-26-sv-20261029.json` är
+validerad mot den lokala engelska katalogen och kräver en ny exportjämförelse
+före import.
+
+Det sista, tjugosjunde efterbehandlingshäftet innehåller de 22 kvarvarande
+nycklarna för fysiskt bländljus, radiell oskärpa, tonmappning och
+vinjettering. Filen `open-shaders-post-processing-final-27-sv-20261029.json`
+är validerad mot den lokala engelska katalogen. Därmed täcker arkivet samtliga
+5 136 aktuella källnycklar. En ny exportjämförelse krävs fortfarande före
+import i den låsta Weblate-komponenten.
