@@ -28,6 +28,11 @@ Kontroller: `bash -n build.sh`, `msgfmt --check-format --check-domain`,
 `l10n-lint`, `svlang skrivregler`, diffkontroll och avgränsad
 Gitleaks-kontroll godkända. PR:n väntar på ny CI och underhållargranskning.
 
+Samma dag skapades CI-körningen för `fd9af4c93a`, men GitHub avslutade den
+innan några jobb startade med statusen `action_required`. En underhållare i
+`xemu-project/xemu` måste godkänna arbetsflödeskörning från forken innan den
+kan ge CI-resultat.
+
 NXEMU #489 granskades samtidigt. Underhållaren flyttar gränssnittet till
 RmlUi och vill därefter använda `.po`-filer med språkval; ingen ytterligare
 ändring är lämplig på den nuvarande PR:n.
