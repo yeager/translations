@@ -32,4 +32,6 @@ skickad som [PR #168](https://github.com/LNPANDY/NX2Apple/pull/168). PR-huvudet
 rebasen att PR:en är mergebar. GitHub-granskningen upptäckte att språkknappen
 inte kunde välja svenska; rättningen är med och skyddas av ett test. Efter
 rebasen passerar Qt-sviten (132 tester, 9 avsiktliga hopp) och Swift-sviten.
-PR:en saknar CI-kontroller och väntar därför på underhållargranskning.
+PR:en saknar CI-kontroller. Den godkändes och slogs ihop 2026-10-29 09:56 UTC
+som commit `8ee265683f89da279f37242d6a10863ba720154d`. Den svenska
+lokaliseringen finns därmed i uppströms `main`.

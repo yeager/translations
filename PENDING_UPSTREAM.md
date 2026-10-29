@@ -2,13 +2,6 @@
 
 Följande arbete är ännu inte fullt verifierat eller inskickat:
 
-- **NX2Apple:** Komplett svensk lokalisering med 616 av 616 poster är skickad
-  som [PR #168](https://github.com/LNPANDY/NX2Apple/pull/168) 2026-10-28.
-  Swift- och Qt-katalogerna är arkiverade tillsammans med kontrollunderlaget.
-  En granskningspunkt om Qt:s språkväxling rättades med regressionsprov.
-  Den aktuella grenen har status `UNSTABLE` utan konfigurerade CI-jobb och
-  väntar på underhållargranskning. Se [status](NX2Apple/STATUS.md).
-
 - **Bitwarden:** Web (263), Browser (10) och Desktop (46) jämfördes på nytt
   mot aktuell `main`, validerades och skickades som [PR #24212](https://github.com/bitwarden/clients/pull/24212)
   2026-10-28. PR:n stängdes samma dag utan merge; underhållaren hänvisade
