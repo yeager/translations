@@ -245,3 +245,8 @@ Det elfte efterbehandlingshäftet från samma datum innehåller 25 nycklar för
 bokeh och skärpedjupets fokus- och oskärpekontroller. Filen
 `open-shaders-post-processing-bokeh-11-sv-20261029.json` är validerad mot den
 lokala engelska katalogen och kräver en ny exportjämförelse före import.
+
+Det tolfte efterbehandlingshäftet från samma datum innehåller 25 nycklar för
+skärpedjup, HDR-värden och histogramstyrd autoexponering. Filen
+`open-shaders-post-processing-exposure-12-sv-20261029.json` är validerad mot
+den lokala engelska katalogen och kräver en ny exportjämförelse före import.
