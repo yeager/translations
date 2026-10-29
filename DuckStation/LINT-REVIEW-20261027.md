@@ -32,3 +32,7 @@ hade SHA-256 `ff2fe70be8b7a160fa27f9619ef3577c77cb276b797a573c848bb31e6352f2c0`.
 Alla 14 nycklar finns kvar med samma källtext och samtliga har ännu en annan
 svensk måltext upstream. Deltat är alltså fortfarande aktuellt, men inte
 inskicks- eller mergeverifierat.
+
+Uppföljning 2026-10-29: Deltat skickades därefter som en del av PR #3817.
+Den aktuella katalogen i `master` innehåller samtliga 14 måltexter exakt som
+i denna fil. Deltat är därför inskickat och mergeverifierat.

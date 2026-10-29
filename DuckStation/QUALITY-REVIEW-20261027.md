@@ -39,3 +39,9 @@ kortkommandobokstaven i `Ändra instruktion`. Svlangs enda träff är engelska
 källordet `performance` i TS-filens `<source>`; den svenska måltexten använder
 `prestandamässig`. Hunspell fångar inga svenska rättningskandidater efter att
 `renderare` har ersatts med `återgivare`.
+
+## Uppföljning 2026-10-29
+
+Deltat skickades därefter som en del av PR #3817. Den aktuella katalogen i
+`master` innehåller samtliga nio måltexter exakt som i denna fil. Deltat är
+därför inskickat och mergeverifierat.
