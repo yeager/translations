@@ -10,12 +10,13 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   översättningar lades till, en post hoppades över och inga godkändes
   automatiskt. Den 29 oktober jämfördes ytterligare 37 äldre Web-förslag rad
   för rad med Crowdins aktuella måltexter. Sjutton kvarvarande rättningar och
-  49 då oöversatta grupp-, åtkomst- och PAM-strängar är nu uppdelade i fyra
+  60 då oöversatta grupp-, åtkomst- och PAM-strängar är nu uppdelade i fem
   kvalitetssäkrade, separata XLIFF-deltan:
   [livegranskning](Bitwarden/Bitwarden-Web-live-reviewed-delta-20261029.xliff),
   [grupper och åtkomst](Bitwarden/Bitwarden-Web-groups-access-delta-20261029.xliff),
   [PAM](Bitwarden/Bitwarden-Web-pam-access-delta-20261029.xliff) och
-  [PAM-dialog](Bitwarden/Bitwarden-Web-pam-request-dialog-delta-20261029.xliff).
+  [PAM-dialog](Bitwarden/Bitwarden-Web-pam-request-dialog-delta-20261029.xliff)
+  samt [PAM-återkoppling](Bitwarden/Bitwarden-Web-pam-request-feedback-delta-20261029.xliff).
   De är ännu inte sparade i Crowdin. Browser- och Desktop-deltana är arkiverade men behöver
   fortfarande jämföras med aktuella Crowdin-måltexter före import.
   Mobile-deltat (23) är validerat och pushat till en forkbranch, men
