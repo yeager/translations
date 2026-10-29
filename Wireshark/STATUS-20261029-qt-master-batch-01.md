@@ -13,5 +13,9 @@
   teckensnittsvalen `Font`, `Family`, `Style` och `Size` med kortkommandon
   samt filtren för teckensnittsfamiljer och familjer, och etiketten för
   teckensnittsstil.
-- Live-status efter den bekräftade sparningen: 12 oöversatta strängar.
-- Återstående poster i batchen är fortsatt arkiverade lokalt för nästa uppladdningspass.
+- Skickat och bekräftat i Transifex i en andra granskningsrunda: färgläggningsregler,
+  `Status Bar` → `Statusfält`, `Appearance` → `Utseende`, `Advanced` → `Avancerat`,
+  `Theme` → `Tema`, `Fonts` → `Teckensnitt`, `Count` → `Antal`,
+  `Percent` → `Procent`, `General` → `Allmänt`, `Learn` → `Lär dig` samt de
+  oförändrade produktnamnen `Tips` och `Discord`.
+- Live-status efter den bekräftade sparningen: 0 oöversatta strängar.
