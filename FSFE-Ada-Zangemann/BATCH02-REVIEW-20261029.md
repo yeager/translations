@@ -20,7 +20,11 @@ Projektets egna riktlinjer är följda: Ada, Zangemann och Alan lämnas
 oförändrade, teknikorden är konsekventa och berättartexten är läst med
 högläsning för barn i åtanke.
 
-Häftet ska importeras i Hosted Weblate som "översättning som behöver
-redigeras". För de 47 nya berättelseposterna används "ändra endast oöversatta
-strängar". Rubrikrättelsen importeras som en separat, snäv kvalitetspost så att
-inga andra befintliga översättningar kan skrivas över.
+Häftet importerades i Hosted Weblate den 29 oktober som "översättning som
+behöver redigeras". Importen av de 47 berättelseposterna med "ändra endast
+oöversatta strängar" uppdaterade 46 poster och hoppade över en post som redan
+hade en svensk måltext. Den separata rubrikrättelsen importerades därefter med
+"ändra översatta strängar" och uppdaterade 1 av 1 post. Därmed skrevs inga
+andra befintliga svenska översättningar över.
+
+Efter importen återstår 35 oöversatta poster i den lokalt granskade katalogen.
