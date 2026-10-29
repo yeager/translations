@@ -7,6 +7,7 @@
   `Columns` → `Kolumner`, `Contrast:` → `Kontrast:`, `Standard` → `Standard`,
   `High` → `Hög`, systemets kontrastinställning för Qt 6.10 eller senare samt
   förklaringen när kontrastinställningen inte kan läsas, meddelandet om valt tema
-  och `Frame` → `Ram`.
-- Live-status efter den bekräftade sparningen: 42 oöversatta strängar.
+  och `Frame` → `Ram`, `Monospace font` → `Fastbreddsteckensnitt` samt
+  beskrivningen av användningen i paketlistan och detaljvyerna.
+- Live-status efter den bekräftade sparningen: 40 oöversatta strängar.
 - Återstående poster i batchen är fortsatt arkiverade lokalt för nästa uppladdningspass.
