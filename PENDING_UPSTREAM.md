@@ -38,8 +38,11 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
 - **SkyrimMT:** Svensk lokalisering med resursmekanism, 1 064 katalogposter och lokaliserade dynamiska statusrader har skickats som [PR #12](https://github.com/HorrorPills/skyrimmt/pull/12) den 2026-10-29. Full paketbyggning, `plutil`, nyckeltäckning, platsvariabelkontroll, `svlang`, Hunspell och avgränsad Gitleaks är verifierade. PR:n är öppen och mergebar, utan konfigurerade CI-jobb, och väntar på underhållargranskning. Se [status](SkyrimMT/STATUS-20261028.md).
 - **Skyrim Community Shaders:** Komplett svensk katalog med 4 237 av 4 237
   nycklar skickades som [PR #3051](https://github.com/community-shaders/skyrim-community-shaders/pull/3051)
-  2026-10-28. PR:en är squashad till en commit, rubrikkontrollen passerar och
-  den väntar på uppströmsgranskning. Se [status](Skyrim-Community-Shaders/STATUS.md).
+  2026-10-28. PR:en är squashad till en commit och dess aktuella
+  rubrikkontroll passerar. GitHubs versionskontroll blockerar dock PR:en på
+  grund av fyra versionsposter/INI-filer i baskoden, inte i den enda ändrade
+  svenska JSON-filen. PR:n kräver dessutom underhållargranskning. Se
+  [status](Skyrim-Community-Shaders/STATUS.md).
 - **Rust Coreutils/join:** Sex förslag finns redan i Hosted Weblate, men komponenten är låst eftersom arkivet inte kan sammanfogas. Se [status](Rust-Coreutils/STATUS-2026-10-22.md). Ingen filimport ska göras innan låsningen har hävts.
 - **MATE Control Center, hjälp och Terminal:** De tre granskade kandidaterna är kvar lokalt eftersom Fedora Weblate är låst. Se [väntande uppladdningar](MATE/PENDING_UPLOADS.md). Hämta en ny export och kör kontrollkedjan på nytt efter upplåsning.
 
@@ -50,11 +53,13 @@ Senast kontrollerades även:
 - GNU Mailman Core: den sista radbrytningsrättningen sparades i Weblate
   2026-10-27 och kontrollvarningen för posten försvann.
 - GnuCash Program: Den aktuella `stable`-katalogen har alla 59 granskade
-  nycklar kvar, men ingen av de förbättrade svenska måltexterna. En
-  radbevarande uppdatering skickades därför som
-  [PR #2341](https://github.com/Gnucash/gnucash/pull/2341) 2026-10-29.
-  De fem medvetet utelämnade avvikelserna, däribland tre `split`-poster,
-  kvarstår oförändrade.
+  nycklar kvar, men ingen av de förbättrade svenska måltexterna. Den
+  radbevarande uppdateringen skickades som
+  [PR #2341](https://github.com/Gnucash/gnucash/pull/2341) 2026-10-29, men
+  stängdes utan merge av underhållaren med hänvisning till projektets
+  Weblate-flöde. Förbered samma granskade delta för Weblate efter aktuell
+  exportjämförelse. De fem medvetet utelämnade avvikelserna, däribland tre
+  `split`-poster, kvarstår oförändrade.
 - GitLab EE i Crowdin: 53 tidigare Orbit-enheter samt 35 nya
   AI-governance-, Orbit-, säkerhets- och paketpolicysträngar är importerade
   och verifierade mot Crowdins API. Huvudfilen är 34 423 av 34 423 strängar
