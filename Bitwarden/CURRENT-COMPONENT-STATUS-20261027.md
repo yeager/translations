@@ -11,7 +11,7 @@ webbklienttaggen är `web-v2026.9.1`; den uppfyller kravet på en release yngre
 | Browser | 2 318 | 10 | 10 | [PR #24212](https://github.com/bitwarden/clients/pull/24212) stängdes 2026-10-28 utan merge. Underhållaren hänvisar till Bitwardens Crowdin-flöde; deltat är inte infört uppströms. |
 | Desktop | 2 014 | 46 | 46 | [PR #24212](https://github.com/bitwarden/clients/pull/24212) stängdes 2026-10-28 utan merge. Underhållaren hänvisar till Bitwardens Crowdin-flöde; deltat är inte infört uppströms. |
 | Mobile | 905 | 0 tomma; 42 engelska kandidater | 23 rättningar arkiverade och tillämpade i lokal branch | `bitwarden/mobile` är arkiverat och skrivskyddat på GitHub. Branch `yeager:codex/swedish-mobile-localization-20261028` innehåller validerade ändringar, men GitHub avvisade PR-skapande 2026-10-28. |
-| Authenticator iOS | 52 relevanta äldre nycklar i aktuell katalog | 0 tomma; två tydliga grammatikfel | 60 äldre rättningar arkiverade | Den arkiverade källan är ersatt av aktiva `bitwarden/ios`. Av 60 gamla poster finns 52 kvar; åtta har utgått eller döpts om. Två verifierade grammatikrättningar skickades som [PR #3159](https://github.com/bitwarden/ios/pull/3159) 2026-10-28; väntar på CI och upstreamgranskning. |
+| Authenticator iOS | 52 relevanta äldre nycklar i aktuell katalog | 0 tomma; två tydliga grammatikfel | 60 äldre rättningar arkiverade | Den arkiverade källan är ersatt av aktiva `bitwarden/ios`. Av 60 gamla poster finns 52 kvar; åtta har utgått eller döpts om. Två verifierade grammatikrättningar skickades som [PR #3159](https://github.com/bitwarden/ios/pull/3159) 2026-10-28. PR:n är stängd utan merge: Bitwarden hänvisar även iOS-översättningar till Crowdin. |
 | Authenticator Android | 152 i den äldre katalogen | 0 tomma; 49 engelska kandidater | 46 rättningar arkiverade | Mappat mot den aktiva efterföljaren `bitwarden/android` 2026-10-28: 43 nycklar finns redan med svenska måltexter, medan tre gamla nycklar har försvunnit eller döpts om. Ingen PR behövs för det gamla deltat. |
 
 Webbdeltana 01–22 innehåller samtliga 263 poster som saknas i den aktuella
@@ -83,6 +83,10 @@ befintliga svenska texterna är fullt rimliga alternativa formuleringar och
 skrevs därför inte över. Två aktuella bekräftelsetexter innehöll däremot
 grammatikfelet ”din standardalternativ”. De korrigerades, syntaxkontrollerades
 med `plutil`, kontrollerades med `git diff --check` och staged Gitleaks, och
-skickades som PR #3159. Den fullständiga l10n-lintkörningen har ett äldre,
-oavhängigt platshållarfel i `StepOfStep`; den nya tvåsträngarsdiffen innehåller
-inte kontrollfelet.
+skickades som PR #3159. PR:n stängdes samma dag utan merge sedan en
+underhållare bekräftat att iOS-översättningarna hanteras i Crowdin och annars
+skrivs över av den veckovisa synkroniseringen. De två rättningarna behöver
+därför jämföras med aktuella Crowdin-måltexter och väljas eller godkännas där,
+inte skickas som en ny GitHub-PR. Den fullständiga l10n-lintkörningen har ett
+äldre, oavhängigt platshållarfel i `StepOfStep`; den nya tvåsträngarsdiffen
+innehåller inte kontrollfelet.
