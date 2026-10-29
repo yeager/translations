@@ -132,3 +132,9 @@ Det tredje uppskalningshäftet från samma datum innehåller 25 nycklar för
 visning i periferin, områdesmasker och foveerad finjustering i VR. Filen
 `open-shaders-upscaling-foveated-03-sv-20261029.json` är validerad mot den
 lokala engelska katalogen och kräver också en ny exportjämförelse före import.
+
+Det fjärde uppskalningshäftet från samma datum innehåller 25 nycklar för
+bildgenerering, bildfrekvensgränser och FSR4-reservvägar. Filen
+`open-shaders-upscaling-frame-generation-04-sv-20261029.json` är validerad
+mot den lokala engelska katalogen och kräver en ny exportjämförelse före
+import.
