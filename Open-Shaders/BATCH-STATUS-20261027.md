@@ -225,7 +225,6 @@ färgkorrigeringens ton- och färgrymdskontroller. Filen
 `open-shaders-post-processing-color-controls-07-sv-20261029.json` är
 validerad mot den lokala engelska katalogen och kräver en ny exportjämförelse
 före import.
-
 Det åttonde efterbehandlingshäftet från samma datum innehåller 25 nycklar för
 färgkorrigeringens utdata, dynamikomfång och skuggkontroller. Filen
 `open-shaders-post-processing-output-08-sv-20261029.json` är validerad mot
@@ -290,7 +289,6 @@ OpenDRT:s skärm-, kontrast- och renhetskontroller. Filen
 `open-shaders-post-processing-open-drt-controls-19-sv-20261029.json` är
 validerad mot den lokala engelska katalogen och kräver en ny exportjämförelse
 före import.
-
 Det tjugonde efterbehandlingshäftet från samma datum innehåller 25 nycklar för
 OpenDRT:s nyanskontrast, nyansförskjutning och renhetskomprimering. Filen
 `open-shaders-post-processing-open-drt-hue-20-sv-20261029.json` är validerad
@@ -303,4 +301,9 @@ renhetsgränser, mjuk klippning och fysiskt bländljus. Filerna
 `open-shaders-post-processing-open-drt-softclip-22-sv-20261029.json` och
 `open-shaders-post-processing-open-drt-glare-23-sv-20261029.json` är
 validerade mot den lokala engelska katalogen och kräver en ny exportjämförelse
+före import.
+Det tjugofjärde efterbehandlingshäftet från samma datum innehåller 25 nycklar
+för fysiskt baserat bländljus, objektiv och öga. Filen
+`open-shaders-post-processing-physical-glare-24-sv-20261029.json` är
+validerad mot den lokala engelska katalogen och kräver en ny exportjämförelse
 före import.
