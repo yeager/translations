@@ -240,3 +240,8 @@ Det tionde efterbehandlingshäftet från samma datum innehåller 25 nycklar för
 tonmappning, sammansättning och skärpedjup. Filen
 `open-shaders-post-processing-dof-10-sv-20261029.json` är validerad mot den
 lokala engelska katalogen och kräver en ny exportjämförelse före import.
+
+Det elfte efterbehandlingshäftet från samma datum innehåller 25 nycklar för
+bokeh och skärpedjupets fokus- och oskärpekontroller. Filen
+`open-shaders-post-processing-bokeh-11-sv-20261029.json` är validerad mot den
+lokala engelska katalogen och kräver en ny exportjämförelse före import.
