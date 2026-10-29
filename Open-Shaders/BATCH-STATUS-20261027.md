@@ -192,3 +192,9 @@ Den 29 oktober påbörjades `feature.post_processing` med ett första häfte om
 25 nycklar för grundvärden, rameffekt och kameraeffekter. Filen
 `open-shaders-post-processing-camera-01-sv-20261029.json` är validerad mot
 den lokala engelska katalogen och kräver en ny exportjämförelse före import.
+
+Samma dag tillkom det andra efterbehandlingshäftet med 25 nycklar för
+bländare, ISO, exponering och optiska kameraregler. Filen
+`open-shaders-post-processing-cinematic-02-sv-20261029.json` är validerad
+mot den lokala engelska katalogen och kräver en ny exportjämförelse före
+import.
