@@ -25,3 +25,11 @@ auktoritativa, aktuella översättningskanalen.
 Den granskade programkatalogen är redan synkroniserad uppströms. De tre
 medvetet orörda `split`-posterna omfattas inte av denna verifiering och ska
 fortsätta invänta ett uttryckligt termbeslut.
+
+## Livekontroll i Weblate
+
+Den 29 oktober 2026 kontrollerades komponentens svenska översikt direkt i
+Hosted Weblate. Den visar 5 749 av 5 749 strängar översatta (100 %), utan
+ofärdiga poster. Detta bekräftar att den tidigare GitHub-PR:ens 59-poster inte
+ska laddas upp som en ny fil; de aktuella svenska måltexterna finns redan i
+den auktoritativa Weblate-komponenten.
