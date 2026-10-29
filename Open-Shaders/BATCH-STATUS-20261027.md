@@ -235,3 +235,8 @@ Det nionde efterbehandlingshäftet från samma datum innehåller 25 nycklar för
 tonmappningskurvor och deras implementeringar. Filen
 `open-shaders-post-processing-curves-09-sv-20261029.json` är validerad mot
 den lokala engelska katalogen och kräver en ny exportjämförelse före import.
+
+Det tionde efterbehandlingshäftet från samma datum innehåller 25 nycklar för
+tonmappning, sammansättning och skärpedjup. Filen
+`open-shaders-post-processing-dof-10-sv-20261029.json` är validerad mot den
+lokala engelska katalogen och kräver en ny exportjämförelse före import.
