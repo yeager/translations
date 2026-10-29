@@ -49,9 +49,12 @@ Senast kontrollerades även:
 - Hosted Weblate Website: 7 granskade ändringar importerade och verifierade.
 - GNU Mailman Core: den sista radbrytningsrättningen sparades i Weblate
   2026-10-27 och kontrollvarningen för posten försvann.
-- GnuCash Program: 59 granskade poster importerade i Weblate 2026-10-27; 58
-  var redan identiska och en uppdaterades. De fem medvetet utelämnade
-  avvikelserna, däribland tre `split`-poster, kvarstår oförändrade.
+- GnuCash Program: Den aktuella `stable`-katalogen har alla 59 granskade
+  nycklar kvar, men ingen av de förbättrade svenska måltexterna. En
+  radbevarande uppdatering skickades därför som
+  [PR #2341](https://github.com/Gnucash/gnucash/pull/2341) 2026-10-29.
+  De fem medvetet utelämnade avvikelserna, däribland tre `split`-poster,
+  kvarstår oförändrade.
 - GitLab EE i Crowdin: 53 tidigare Orbit-enheter samt 35 nya
   AI-governance-, Orbit-, säkerhets- och paketpolicysträngar är importerade
   och verifierade mot Crowdins API. Huvudfilen är 34 423 av 34 423 strängar
