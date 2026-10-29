@@ -21,6 +21,10 @@ Kontroller:
 Projektets egna riktlinjer är lästa: Ada, Zangemann och Alan behåller sina
 namn, och texten skrivs för att fungera vid högläsning för barn.
 
+Häftet importerades i Hosted Weblate den 29 oktober: 31 av 31 strängar
+uppdaterades, inga hoppades över och inga saknades. Uppladdningsläget var
+"översättning som behöver redigeras" och konflikthanteringen begränsades till
+tidigare oöversatta strängar. Weblate visar därefter 81 oöversatta strängar.
+
 Återstående arbete: 81 oöversatta strängar, huvudsakligen fortsatt
-berättartext samt kolofon och tacktext. Häftet ska importeras i Hosted Weblate
-efter en sista lokal genomläsning tillsammans med nästa häfte.
+berättartext samt kolofon och tacktext.
