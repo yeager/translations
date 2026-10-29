@@ -106,10 +106,9 @@ Tangentbordsgenvägarnas samtliga 15 menyposter är översatta, inklusive ångra
 gör om, sparning och sidnavigering. Klammerplatshållaren `{name}` är bevarad.
 
 Projektets senaste release, v1.9.1, publicerades 2026-09-24 och uppfyller
-48-månaderskravet. Den partiella filen skickades som
+48-månaderskravet. Den kompletta svenska katalogen skickades som
 [PR #3051](https://github.com/community-shaders/skyrim-community-shaders/pull/3051)
-2026-10-28. PR:n är öppen och väntar på CI och uppströmsgranskning. Den
-återstående katalogen behöver delas upp i granskningsbara satser.
+2026-10-28. PR:n är öppen och väntar på uppströmsgranskning.
 
 PR:n riktades först felaktigt mot `main`, vilket gav en orelaterad
 versionsgranskningsvarning. Den riktades om till projektets standardgren
