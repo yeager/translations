@@ -273,3 +273,9 @@ Det sextonde efterbehandlingshäftet från samma datum innehåller 25 nycklar f�
 lokal exponering och uppslagstabeller. Filen
 `open-shaders-post-processing-lut-16-sv-20261029.json` är validerad mot den
 lokala engelska katalogen och kräver en ny exportjämförelse före import.
+
+Det sjuttonde efterbehandlingshäftet från samma datum innehåller 25 nycklar
+för LUT, rörelseoskärpa och OpenDRT. Filen
+`open-shaders-post-processing-motion-blur-17-sv-20261029.json` är validerad
+mot den lokala engelska katalogen och kräver en ny exportjämförelse före
+import.
