@@ -8,8 +8,8 @@ Den svenska PO-exporten från Hosted Weblate för `baresip/store-metadata`
 validerar med `msgfmt --check --check-format` (endast standardvarningar om
 ofyllt revisionsdatum och översättarnamn).
 
-Changelog-posten `changelogs/576.txt:1` finns kvar i källan och har tom svensk
-måltext. Den är alltså inte redan inskickad eller synkroniserad.
+Changelog-posten `changelogs/576.txt:1` fanns kvar i källan med tom svensk
+måltext vid den första exportkontrollen.
 
 ## Förberedd rättning
 
@@ -26,7 +26,9 @@ Filen har redan kontrollerats med formatkontroll, l10n-lint, svlang och
 avgränsad Gitleaks-kontroll. Den innehåller en sträng och ligger långt under
 gränsen för uppdelad Weblate-import.
 
-## Nästa steg
+## Uppladdning och slutkontroll
 
-Spara den förberedda måltexten i Hosted Weblate och kontrollera därefter med
-en ny export att posten inte längre är tom.
+Den förberedda måltexten sparades i Hosted Weblate 2026-10-29. En ny sökning
+efter `state:<translated` är tom och komponentöversikten visar 428 av 428
+svenska strängar (100 procent). De fem avfärdade kontrollerna fanns redan
+före denna ändring; den sparade changelog-posten skapade ingen ny kontroll.
