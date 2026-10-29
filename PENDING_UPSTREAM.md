@@ -21,8 +21,12 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   två dubblettkontroller hoppades över eftersom samma måltext redan fanns, och en ny
   Crowdin-export bekräftar alla 77 arkiverade måltexter. Se
   [inskicksloggen](Bitwarden/Crowdin-submission-20261029-web-live-deltas.md).
-  Browser- och Desktop-deltana är arkiverade men behöver
-  fortfarande jämföras med aktuella Crowdin-måltexter före import.
+  Browser- och Desktop-deltana jämfördes senare med Crowdins aktuella
+  måltexter och importerades i små batcher den 29 oktober. API-återläsning
+  bekräftar 2 343 av 2 343 svenska Browser-strängar och 2 178 av 2 178
+  svenska Desktop-strängar; de är vanliga förslag som väntar på Crowdin-
+  granskning, inte automatiskt godkända texter. Se
+  [Browser- och Desktop-loggen](Bitwarden/Crowdin-submission-20261029-browser-desktop-api-batch37.md).
   Mobile-deltat (23) är validerat och pushat till en forkbranch, men
   `bitwarden/mobile` är arkiverat och GitHub avvisar PR:er. Authenticator
   Androids gamla repo är också arkiverat och har ersatts av `bitwarden/android`;
