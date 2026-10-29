@@ -117,6 +117,14 @@ versionsgranskningsvarning. Den riktades om till projektets standardgren
 underhållare godkänner arbetsflödeskörning för forken. Ingen lokalt eller
 upstream påvisad översättningskontroll har felat.
 
+2026-10-29: PR-grenen rebasedes mot aktuell `dev` vid `b57accd` och
+uppdaterades till `aa8a6858069c1310a4fbd0b2d36a490d805d11da`. Den enda
+ändrade filen är fortfarande `Translations/sv.json`. Katalogjämförelsen visar
+4 238 nycklar i både engelska och svenska, utan saknade, extra eller tomma
+svenska värden. JSON kan tolkas utan fel och den avgränsade Gitleaks-körningen
+hade inga fynd. GitHub har startat en ny kontroll av PR-rubriken; någon ny
+översättningskontroll eller underhållargranskning finns ännu inte.
+
 2026-10-28: En ytterligare sats om 33 CS-redigerarsträngar omfattar
 statusbrickor, felsökningsfält, lager, tidsperioder, FormID-fält samt
 filter- och posträknare. Klammerplatshållarna `{count}`, `{shown}` och
