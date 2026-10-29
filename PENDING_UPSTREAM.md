@@ -2,13 +2,6 @@
 
 Följande arbete är ännu inte fullt verifierat eller inskickat:
 
-- **NxNative Launcher:** En första svensk GUI-etapp med 366 granskade nycklar
-  och ett återanvändbart SwiftPM-l10n-upplägg är byggd och validerad mot
-  upstreamrevisionen från 2026-10-28. [PR #3](https://github.com/rennan101/nxnative_Launcher/pull/3)
-  stängdes 2026-10-28 utan merge. Kontrollera underhållaråterkoppling och
-  återanpassa bidraget mot aktuell upstream före ett nytt förslag. Se
-  [status](NxNative-Launcher/STATUS.md).
-
 - **NX2Apple:** Komplett svensk lokalisering med 616 av 616 poster är skickad
   som [PR #168](https://github.com/LNPANDY/NX2Apple/pull/168) 2026-10-28.
   Swift- och Qt-katalogerna är arkiverade tillsammans med kontrollunderlaget.
@@ -31,8 +24,9 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   Authenticator iOS-deltat jämfördes med aktiva `bitwarden/ios`: 52 av 60
   äldre nycklar finns kvar, åtta har utgått eller döpts om, och två verifierade
   grammatikrättningar skickades som [PR #3159](https://github.com/bitwarden/ios/pull/3159)
-  2026-10-28. PR:n stängdes samma dag utan merge. Kontrollera stängningsorsaken
-  och återanpassa mot iOS-projektets aktuella bidragsflöde. Se
+  2026-10-28. PR:n stängdes samma dag utan merge eftersom Bitwarden hanterar
+  översättningar i Crowdin. En svensk granskarroll är begärd; jämför de lokala
+  deltorna med aktuella Crowdin-måltexter först när rollen har bekräftats. Se
   [komponentstatus](Bitwarden/CURRENT-COMPONENT-STATUS-20261027.md).
 - **sK1:** Den kompletta svenska katalogen är skickad som [PR #348](https://github.com/sk1-project/sk1-wx/pull/348) 2026-10-28. Den väntar på uppströmsgranskning och CI. Se [sK1-status](sK1/STATUS.md).
 - **FreeCAD:** Fyra tidigare saknade strängar (194951, 176822, 177244 och 2593990) är dolda från översättning och kräver ingen uppladdning. De senare granskningsfilerna laddades upp, men Crowdin hoppade över merparten och API-kontrollen visar att förslag i huvudsak inte är valda eller godkända. De fyra CAM-rättningarna för termen `matris` i `FreeCAD/review-20261026/freecad-cam-matris-20261027.xliff` försöktes importeras i Crowdin 2026-10-27; alla fyra hoppades över eftersom samma förslag redan finns. För minst strängen ”Creates an array from selected toolpaths” är den aktiva, godkända översättningen fortfarande ”Skapar en array från valda verktygsbanor”, medan ”Skapar en matris från valda verktygsbanor” redan finns som ett ogranskat förslag. Ändringen kräver därför val eller godkännande av befintliga förslag per sträng, inte en ny filuppladdning. Se [status och filer](FreeCAD/review-20261026/STATUS.md).
