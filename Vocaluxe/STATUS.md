@@ -105,3 +105,13 @@ produktionsbygge passerade, med den oinscheckade svenska katalogen
 `WebApp/src/locales/sv.json` i trädet. Byggningen verifierar att katalogen
 kan typkontrolleras och paketeras i webbappen, men ersätter inte en
 runtimekontroll mot spelets server eller Transifex-granskning.
+
+2026-10-29: En ny kontroll av `origin/develop` visar att Vocaluxe nu har
+synkat de svenska katalogerna till källträdet. Commit `22ad04e` innehåller
+huvudkatalogens svenska kompletteringar och kvalitetsrättningar, medan
+`ff291ad` innehåller webbappens svenska katalog. Den aktuella grenen har 403
+av 403 XML-nycklar och 225 av 225 JSON-nycklar på svenska, med exakt samma
+nyckelmängder och platshållare som engelskan. XML-syntaxen samt
+`git diff --check` för de svenska filerna passerar. Den lokala, oinscheckade
+webbfilen lämnades orörd. Programkörning i den här miljön återstår, eftersom
+`dotnet`, `mono` och `wine` saknas.
