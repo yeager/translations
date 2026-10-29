@@ -256,3 +256,9 @@ för histogramstyrd autoexponering, Purkinjeeffekten och
 funktionssammanfattningar. Filen
 `open-shaders-post-processing-histogram-13-sv-20261029.json` är validerad mot
 den lokala engelska katalogen och kräver en ny exportjämförelse före import.
+
+Det fjortonde efterbehandlingshäftet från samma datum innehåller 25 nycklar
+för objektivreflexer, spökbilder, halo och bokeh. Filen
+`open-shaders-post-processing-lens-flare-14-sv-20261029.json` är validerad
+mot den lokala engelska katalogen och kräver en ny exportjämförelse före
+import.
