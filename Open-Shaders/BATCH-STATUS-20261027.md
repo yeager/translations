@@ -268,3 +268,8 @@ objektivreflexer och lokal exponering. Filen
 `open-shaders-post-processing-local-exposure-15-sv-20261029.json` är validerad
 mot den lokala engelska katalogen och kräver en ny exportjämförelse före
 import.
+
+Det sextonde efterbehandlingshäftet från samma datum innehåller 25 nycklar för
+lokal exponering och uppslagstabeller. Filen
+`open-shaders-post-processing-lut-16-sv-20261029.json` är validerad mot den
+lokala engelska katalogen och kräver en ny exportjämförelse före import.
