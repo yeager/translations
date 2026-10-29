@@ -22,7 +22,7 @@ eller extra nycklar. Komponenten behöver på samma sätt en ny exportjämförel
 före import efter upplåsningen.
 
 Kontrollen omfattar också två mindre komponenter: `feature.reverse_z` är
-fullständig med 10 av 10 nycklar, och `feature.foliage_lighting` med 17 av
+fullständig med 10 av 10 nycklar och `feature.foliage_lighting` med 17 av
 17. Inga nycklar saknas i respektive arkivjämförelse.
 
 Menyn `menu.performance` är också fullständig med 24 av 24 nycklar i två
@@ -113,3 +113,10 @@ Gitleaks är godkända för den sammanslagna komponenten.
 Open Shaders uppfyller färskhetskravet genom den officiella utgåvan `v2.19.0`
 från 18 oktober 2026. Nästa steg är att importera de komponentvisa filerna
 när Weblate-komponenten har låsts upp.
+
+Den 29 oktober tillkom första häftet för `feature.upscaling`, med 27
+grundläggande nycklar för DLSS-förinställningar, skärpning och
+bildgenerering. Det finns i
+`open-shaders-upscaling-basics-01-sv-20261029.json` och är validerat mot den
+lokala engelska katalogen. Det får importeras först efter en ny
+exportjämförelse, eftersom Weblate-komponenten fortfarande är låst.
