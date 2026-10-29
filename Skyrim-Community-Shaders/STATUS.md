@@ -1,14 +1,16 @@
 # Skyrim Community Shaders: svensk port
 
-Den aktuella utvecklingsrevisionen `030352c40ac30bde19d5c2c32f4f08fa97ebc4cb`
-har 4 237 engelska nycklar. Den tidigare arkiverade porten innehöll 2 132
+Vid den ursprungliga portningen hade utvecklingsrevisionen
+`030352c40ac30bde19d5c2c32f4f08fa97ebc4cb` 4 237 engelska nycklar. Den
+tidigare arkiverade porten innehöll 2 132
 svenska nycklar från en äldre katalog. Av dessa matchar 2 081 fortfarande
 nyckel för nyckel i den aktuella katalogen. De 308 utgångna eller omdöpta
 nycklarna är inte med i den nya språkfilen.
 
 `skyrim-community-shaders-sv-current-port-20261028.json` är den rena,
-nyckelordnade svenska porten. Den innehåller samtliga 4 237 översatta nycklar.
-Den är en komplett svensk katalog utan engelska reservtexter.
+nyckelordnade svenska porten. Efter rebasen 2026-10-29 har både den aktuella
+engelska och svenska katalogen 4 238 nycklar. Den är en komplett svensk
+katalog utan engelska reservtexter.
 
 Kontroller 2026-10-28:
 
