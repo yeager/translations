@@ -155,3 +155,9 @@ Det sjunde uppskalningshäftet från samma datum innehåller 25 nycklar för
 dialogomfattning, ögonlägen och materialval i Neural Rendering. Filen
 `open-shaders-upscaling-neural-eyes-07-sv-20261029.json` är validerad mot den
 lokala engelska katalogen och kräver en ny exportjämförelse före import.
+
+Det åttonde uppskalningshäftet från samma datum innehåller 25 nycklar för
+materialkartan, modellskala och begränsning till den spårade aktören. Filen
+`open-shaders-upscaling-neural-materials-08-sv-20261029.json` är validerad
+mot den lokala engelska katalogen och kräver en ny exportjämförelse före
+import.
