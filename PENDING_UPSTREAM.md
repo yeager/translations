@@ -44,7 +44,6 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   efterbehandling är nu komplett med 672 nycklar i 27 häften. Se
   [batchstatus](Open-Shaders/BATCH-STATUS-20261027.md). Ladda inte upp förrän
   låsningen är hävd och komponentens aktuella export har jämförts.
-- **SkyrimMT:** Svensk lokalisering med resursmekanism, 1 064 katalogposter och lokaliserade dynamiska statusrader har skickats som [PR #12](https://github.com/HorrorPills/skyrimmt/pull/12) den 2026-10-29. Full paketbyggning, `plutil`, nyckeltäckning, platsvariabelkontroll, `svlang`, Hunspell och avgränsad Gitleaks är verifierade. PR:n är öppen med status `CLEAN`, utan konfigurerade CI-jobb, och väntar på underhållargranskning. Se [status](SkyrimMT/STATUS-20261028.md).
 - **Rust Coreutils/join:** Sex förslag finns redan i Hosted Weblate, men komponenten är låst eftersom arkivet inte kan sammanfogas. Se [status](Rust-Coreutils/STATUS-2026-10-22.md). Ingen filimport ska göras innan låsningen har hävts.
 - **MATE Control Center, hjälp och Terminal:** De tre granskade kandidaterna är kvar lokalt eftersom Fedora Weblate är låst. De omvaliderades 2026-10-29 med `msgfmt` och l10n-lint; se [omkontrollen](MATE/REVALIDATION-20261029.md) och [väntande uppladdningar](MATE/PENDING_UPLOADS.md). Hämta en ny export och kör kontrollkedjan på nytt efter upplåsning.
 
