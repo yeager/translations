@@ -144,3 +144,9 @@ latens, uppskalningsmotorer och grundläggande materialkategorier i Neural
 Rendering. Filen `open-shaders-upscaling-neural-basics-05-sv-20261029.json`
 är validerad mot den lokala engelska katalogen och kräver en ny
 exportjämförelse före import.
+
+Det sjätte uppskalningshäftet från samma datum innehåller 25 nycklar för
+kalibrering, karaktärsbeskärning och dialogbegränsning i Neural Rendering.
+Filen `open-shaders-upscaling-neural-crop-06-sv-20261029.json` är validerad
+mot den lokala engelska katalogen och kräver en ny exportjämförelse före
+import.
