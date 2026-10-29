@@ -17,7 +17,11 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   [PAM](Bitwarden/Bitwarden-Web-pam-access-delta-20261029.xliff) och
   [PAM-dialog](Bitwarden/Bitwarden-Web-pam-request-dialog-delta-20261029.xliff)
   samt [PAM-återkoppling](Bitwarden/Bitwarden-Web-pam-request-feedback-delta-20261029.xliff).
-  De är ännu inte sparade i Crowdin. Browser- och Desktop-deltana är arkiverade men behöver
+  Samtliga fem importerades i Crowdin den 29 oktober. API:t importerade 75 måltexter;
+  två dubblettkontroller hoppades över eftersom samma måltext redan fanns, och en ny
+  Crowdin-export bekräftar alla 77 arkiverade måltexter. Se
+  [inskicksloggen](Bitwarden/Crowdin-submission-20261029-web-live-deltas.md).
+  Browser- och Desktop-deltana är arkiverade men behöver
   fortfarande jämföras med aktuella Crowdin-måltexter före import.
   Mobile-deltat (23) är validerat och pushat till en forkbranch, men
   `bitwarden/mobile` är arkiverat och GitHub avvisar PR:er. Authenticator

@@ -1,94 +1,183 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="main/src/locales/en/Bitwarden Web Vault - Strings to translate" source-language="en" target-language="sv" datatype="x-bitwarden-json">
+  <file id="58" original="/main/src/locales/en/messages.json" source-language="en" target-language="sv-SE" datatype="plaintext" project-id="308189" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1" />
+    </header>
     <body>
-      <trans-unit id="pamMyRequestsEmptyTitle" resname="pamMyRequestsEmptyTitle">
+      <trans-unit id="69209" resname="pamMyRequestsEmptyTitle">
         <source>You have no requests</source>
         <target state="translated">Du har inga förfrågningar</target>
+        <context-group purpose="information">
+          <context context-type="source">pamMyRequestsEmptyTitle</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamMyRequestsEmptyDescription" resname="pamMyRequestsEmptyDescription">
+      <trans-unit id="69211" resname="pamMyRequestsEmptyDescription">
         <source>You have no requests for access to sensitive credentials at the moment.</source>
         <target state="translated">Du har för närvarande inga förfrågningar om åtkomst till känsliga inloggningsuppgifter.</target>
+        <context-group purpose="information">
+          <context context-type="source">pamMyRequestsEmptyDescription</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamExtendLeaseSuccess" resname="pamExtendLeaseSuccess">
+      <trans-unit id="69217" resname="pamExtendLeaseSuccess">
         <source>Access extended.</source>
         <target state="translated">Åtkomsten har förlängts.</target>
+        <context-group purpose="information">
+          <context context-type="source">pamExtendLeaseSuccess</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamExtendLeaseError" resname="pamExtendLeaseError">
+      <trans-unit id="69219" resname="pamExtendLeaseError">
         <source>Couldn't extend access.</source>
         <target state="translated">Det gick inte att förlänga åtkomsten.</target>
+        <context-group purpose="information">
+          <context context-type="source">pamExtendLeaseError</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamExtendLeaseEnded" resname="pamExtendLeaseEnded">
+      <trans-unit id="69221" resname="pamExtendLeaseEnded">
         <source>Your access ended before it could be extended. The request is in your history.</source>
         <target state="translated">Din åtkomst upphörde innan den kunde förlängas. Förfrågan finns i historiken.</target>
+        <context-group purpose="information">
+          <context context-type="source">pamExtendLeaseEnded</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamSharedFolderPrivilegedControls" resname="pamSharedFolderPrivilegedControls">
+      <trans-unit id="69305" resname="pamSharedFolderPrivilegedControls">
         <source>Privileged controls: access requires a request</source>
         <target state="translated">Privileged Controls: åtkomst kräver en begäran</target>
+        <context-group purpose="information">
+          <context context-type="source">pamSharedFolderPrivilegedControls</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamControlledAccessFilterActive" resname="pamControlledAccessFilterActive">
+      <trans-unit id="69307" resname="pamControlledAccessFilterActive">
         <source>Active</source>
         <target state="translated">Aktiv</target>
+        <context-group purpose="information">
+          <context context-type="source">pamControlledAccessFilterActive
+
+Controlled access filter option in the vault table: items with an active access session.</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamActiveLeaseBannerTitle" resname="pamActiveLeaseBannerTitle">
+      <trans-unit id="69223" resname="pamActiveLeaseBannerTitle">
         <source>You have active access to this item — $DURATION$ remaining</source>
         <target state="translated">Du har aktiv åtkomst till det här objektet – $DURATION$ återstår</target>
+        <context-group purpose="information">
+          <context context-type="source">pamActiveLeaseBannerTitle
+
+A sample value for the variable $duration$: 23m</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamActiveLeaseBannerEndingSoonTitle" resname="pamActiveLeaseBannerEndingSoonTitle">
+      <trans-unit id="69225" resname="pamActiveLeaseBannerEndingSoonTitle">
         <source>Access to this item is ending soon — $DURATION$ remaining</source>
         <target state="translated">Åtkomsten till det här objektet upphör snart – $DURATION$ återstår</target>
+        <context-group purpose="information">
+          <context context-type="source">pamActiveLeaseBannerEndingSoonTitle
+
+A sample value for the variable $duration$: 4m</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamPendingRequestBannerHeading" resname="pamPendingRequestBannerHeading">
+      <trans-unit id="69227" resname="pamPendingRequestBannerHeading">
         <source>Access request pending approval</source>
         <target state="translated">Åtkomstbegäran väntar på godkännande</target>
+        <context-group purpose="information">
+          <context context-type="source">pamPendingRequestBannerHeading</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamApprovedRequestBannerHeading" resname="pamApprovedRequestBannerHeading">
+      <trans-unit id="69229" resname="pamApprovedRequestBannerHeading">
         <source>Access approved</source>
         <target state="translated">Åtkomst beviljad</target>
+        <context-group purpose="information">
+          <context context-type="source">pamApprovedRequestBannerHeading</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamApprovedRequestBannerDuration" resname="pamApprovedRequestBannerDuration">
+      <trans-unit id="69231" resname="pamApprovedRequestBannerDuration">
         <source>$DURATION$ of access</source>
         <target state="translated">Åtkomst i $DURATION$</target>
+        <context-group purpose="information">
+          <context context-type="source">pamApprovedRequestBannerDuration
+
+A sample value for the variable $duration$: 1 hour</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamRequestAccessBannerBody" resname="pamRequestAccessBannerBody">
+      <trans-unit id="69233" resname="pamRequestAccessBannerBody">
         <source>Credentials are masked until access is granted.</source>
         <target state="translated">Inloggningsuppgifterna är maskerade tills åtkomst har beviljats.</target>
+        <context-group purpose="information">
+          <context context-type="source">pamRequestAccessBannerBody</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamRequestAccessBannerHeading" resname="pamRequestAccessBannerHeading">
+      <trans-unit id="69235" resname="pamRequestAccessBannerHeading">
         <source>You can request access</source>
         <target state="translated">Du kan begära åtkomst</target>
+        <context-group purpose="information">
+          <context context-type="source">pamRequestAccessBannerHeading</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamUnlicensedBannerHeading" resname="pamUnlicensedBannerHeading">
+      <trans-unit id="69237" resname="pamUnlicensedBannerHeading">
         <source>Privileged Controls license required</source>
         <target state="translated">En licens för Privileged Controls krävs</target>
+        <context-group purpose="information">
+          <context context-type="source">pamUnlicensedBannerHeading
+
+Heading of the message shown on a privileged item to a member who has no Privileged Controls license. 'Privileged Controls' is a product name and should not be translated.</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamUnlicensedBannerBody" resname="pamUnlicensedBannerBody">
+      <trans-unit id="69239" resname="pamUnlicensedBannerBody">
         <source>You need a Privileged Controls license to view this item. Ask your admin to activate your license.</source>
         <target state="translated">Du behöver en licens för Privileged Controls för att visa det här objektet. Be administratören aktivera licensen.</target>
+        <context-group purpose="information">
+          <context context-type="source">pamUnlicensedBannerBody
+
+Body of the message shown on a privileged item to a member who has no Privileged Controls license. 'Privileged Controls' is a product name and should not be translated.</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamUnlicensedBannerRequestUnavailable" resname="pamUnlicensedBannerRequestUnavailable">
+      <trans-unit id="69241" resname="pamUnlicensedBannerRequestUnavailable">
         <source>Requesting access is not available while unlicensed.</source>
         <target state="translated">Det går inte att begära åtkomst utan licens.</target>
+        <context-group purpose="information">
+          <context context-type="source">pamUnlicensedBannerRequestUnavailable
+
+Explains to a member without a Privileged Controls license why no request button is offered on a privileged item.</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamRequestAccessBannerMaxDuration" resname="pamRequestAccessBannerMaxDuration">
+      <trans-unit id="69243" resname="pamRequestAccessBannerMaxDuration">
         <source>Access up to $DURATION$</source>
         <target state="translated">Åtkomst i högst $DURATION$</target>
+        <context-group purpose="information">
+          <context context-type="source">pamRequestAccessBannerMaxDuration
+
+A sample value for the variable $duration$: 1 day</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamRequestAccessBannerMaxDurationAutomatic" resname="pamRequestAccessBannerMaxDurationAutomatic">
+      <trans-unit id="69245" resname="pamRequestAccessBannerMaxDurationAutomatic">
         <source>Access up to $DURATION$, instant approval if you meet the conditions</source>
         <target state="translated">Åtkomst i högst $DURATION$ med omedelbart godkännande om du uppfyller villkoren</target>
+        <context-group purpose="information">
+          <context context-type="source">pamRequestAccessBannerMaxDurationAutomatic
+
+A sample value for the variable $duration$: 1 day</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamRequestAccessButton" resname="pamRequestAccessButton">
+      <trans-unit id="69247" resname="pamRequestAccessButton">
         <source>Request access</source>
         <target state="translated">Begär åtkomst</target>
+        <context-group purpose="information">
+          <context context-type="source">pamRequestAccessButton</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamRequestSlotTaken" resname="pamRequestSlotTaken">
+      <trans-unit id="69249" resname="pamRequestSlotTaken">
         <source>Someone else has access to this item right now. You can request access, but you won't be able to start it until they're done.</source>
         <target state="translated">Någon annan har åtkomst till det här objektet just nu. Du kan begära åtkomst men kan inte börja använda den förrän personen är klar.</target>
+        <context-group purpose="information">
+          <context context-type="source">pamRequestSlotTaken</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="pamRequestSlotTakenUntil" resname="pamRequestSlotTakenUntil">
+      <trans-unit id="69251" resname="pamRequestSlotTakenUntil">
         <source>Someone else has access to this item right now. You can request access, but you won't be able to start it until $TIME$.</source>
         <target state="translated">Någon annan har åtkomst till det här objektet just nu. Du kan begära åtkomst men kan inte börja använda den förrän $TIME$.</target>
+        <context-group purpose="information">
+          <context context-type="source">pamRequestSlotTakenUntil
+
+A sample value for the variable $time$: 8/31/26, 10:52 AM</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>

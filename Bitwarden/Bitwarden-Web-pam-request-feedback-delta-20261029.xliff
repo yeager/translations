@@ -1,50 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="main/src/locales/en/Bitwarden Web Vault - Strings to translate" source-language="en" target-language="sv" datatype="x-bitwarden-json">
+  <file id="58" original="/main/src/locales/en/messages.json" source-language="en" target-language="sv-SE" datatype="plaintext" project-id="308189" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1" />
+    </header>
     <body>
-      <trans-unit id="requestAccessModalWindowSummary" resname="requestAccessModalWindowSummary">
+      <trans-unit id="69283" resname="requestAccessModalWindowSummary">
         <source>Requesting $DURATION$ of access: $START$ – $END$</source>
         <target state="translated">Begär åtkomst i $DURATION$: $START$–$END$</target>
+        <context-group purpose="information">
+          <context context-type="source">requestAccessModalWindowSummary
+
+A sample value for the variable $duration$: 2 days, 22 hours
+A sample value for the variable $start$: Tue, Sep 29, 10:57 AM
+A sample value for the variable $end$: Thu, Oct 1, 9:00 AM</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="requestAccessModalWindowInPast" resname="requestAccessModalWindowInPast">
+      <trans-unit id="69285" resname="requestAccessModalWindowInPast">
         <source>The requested window has already ended. Pick a later date or time.</source>
         <target state="translated">Det begärda tidsfönstret har redan passerat. Välj ett senare datum eller en senare tid.</target>
+        <context-group purpose="information">
+          <context context-type="source">requestAccessModalWindowInPast</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="requestAccessModalWindowExceedsMax" resname="requestAccessModalWindowExceedsMax">
+      <trans-unit id="69287" resname="requestAccessModalWindowExceedsMax">
         <source>The window can't exceed $DURATION$.</source>
         <target state="translated">Tidsfönstret får inte vara längre än $DURATION$.</target>
+        <context-group purpose="information">
+          <context context-type="source">requestAccessModalWindowExceedsMax
+
+A sample value for the variable $duration$: 30 minutes</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="requestAccessModalReasonRequired" resname="requestAccessModalReasonRequired">
+      <trans-unit id="69289" resname="requestAccessModalReasonRequired">
         <source>Reason</source>
         <target state="translated">Motivering</target>
+        <context-group purpose="information">
+          <context context-type="source">requestAccessModalReasonRequired</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="requestAccessModalReasonOptional" resname="requestAccessModalReasonOptional">
+      <trans-unit id="69291" resname="requestAccessModalReasonOptional">
         <source>Reason (optional)</source>
         <target state="translated">Motivering (valfritt)</target>
+        <context-group purpose="information">
+          <context context-type="source">requestAccessModalReasonOptional</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="requestAccessModalReasonPlaceholder" resname="requestAccessModalReasonPlaceholder">
+      <trans-unit id="69293" resname="requestAccessModalReasonPlaceholder">
         <source>Why do you need this?</source>
         <target state="translated">Varför behöver du åtkomst?</target>
+        <context-group purpose="information">
+          <context context-type="source">requestAccessModalReasonPlaceholder</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="requestAccessModalAutomaticReasonHint" resname="requestAccessModalAutomaticReasonHint">
+      <trans-unit id="69295" resname="requestAccessModalAutomaticReasonHint">
         <source>This reason is saved with your access request.</source>
         <target state="translated">Den här motiveringen sparas med din åtkomstbegäran.</target>
+        <context-group purpose="information">
+          <context context-type="source">requestAccessModalAutomaticReasonHint</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="requestAccessModalHumanReasonHint" resname="requestAccessModalHumanReasonHint">
+      <trans-unit id="69297" resname="requestAccessModalHumanReasonHint">
         <source>Approvers will see this reason when reviewing your request.</source>
         <target state="translated">Godkännare ser den här motiveringen när de granskar din begäran.</target>
+        <context-group purpose="information">
+          <context context-type="source">requestAccessModalHumanReasonHint</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="requestAccessModalGenericError" resname="requestAccessModalGenericError">
+      <trans-unit id="69299" resname="requestAccessModalGenericError">
         <source>Could not request access. Try again.</source>
         <target state="translated">Det gick inte att begära åtkomst. Försök igen.</target>
+        <context-group purpose="information">
+          <context context-type="source">requestAccessModalGenericError</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="requestAccessModalApprovedSuccess" resname="requestAccessModalApprovedSuccess">
+      <trans-unit id="69301" resname="requestAccessModalApprovedSuccess">
         <source>Access approved — select Start access to begin.</source>
         <target state="translated">Åtkomsten har godkänts – välj Starta åtkomst för att börja.</target>
+        <context-group purpose="information">
+          <context context-type="source">requestAccessModalApprovedSuccess</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="requestAccessModalRequestCreatedSuccess" resname="requestAccessModalRequestCreatedSuccess">
+      <trans-unit id="69303" resname="requestAccessModalRequestCreatedSuccess">
         <source>Request submitted — awaiting approval.</source>
         <target state="translated">Begäran har skickats – väntar på godkännande.</target>
+        <context-group purpose="information">
+          <context context-type="source">requestAccessModalRequestCreatedSuccess</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>
