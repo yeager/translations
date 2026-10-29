@@ -16,3 +16,7 @@ Häftet importerades i Hosted Weblate den 29 oktober som en översättning som
 behöver redigeras med konflikthanteringen begränsad till oöversatta strängar.
 Weblate bekräftade 1 bearbetad och 1 uppdaterad post, utan överhoppade eller
 saknade poster.
+
+Efter importen visar Weblate 0 oöversatta strängar. 119 poster är markerade
+som översättningar som behöver redigeras och 7 poster har projektkontroller
+som behöver granskas i Weblate.
