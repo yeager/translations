@@ -6,6 +6,7 @@
 - Skickat och bekräftat i Transifex den 29 oktober 2026: `Capture` → `Fångst`,
   `Columns` → `Kolumner`, `Contrast:` → `Kontrast:`, `Standard` → `Standard`,
   `High` → `Hög`, systemets kontrastinställning för Qt 6.10 eller senare samt
-  förklaringen när kontrastinställningen inte kan läsas.
-- Live-status efter den bekräftade sparningen: 44 oöversatta strängar.
+  förklaringen när kontrastinställningen inte kan läsas, meddelandet om valt tema
+  och `Frame` → `Ram`.
+- Live-status efter den bekräftade sparningen: 42 oöversatta strängar.
 - Återstående poster i batchen är fortsatt arkiverade lokalt för nästa uppladdningspass.
