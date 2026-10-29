@@ -25,3 +25,14 @@ Kontroller av 59-postersdeltat: `msgfmt --check --check-format`, l10n-lint,
 svlang med verktygets egen virtuella miljö, hunspell-sv, Gitleaks och
 `git diff --check`. l10n-lint rapporterar 0 fel och 0 varningar. Filen är
 inte uppladdad eller mergeverifierad.
+
+## Ny jämförelse 2026-10-29
+
+Aktuell `stable`-revision `fec5643` har jämförts post för post med deltat.
+Alla 59 nycklar finns kvar i `po/sv.po`; ingen måltext är identisk med
+deltats förslag. Deltat är alltså fortfarande relevant i sin helhet.
+
+En direkt `msgcat`-sammanslagning ska inte användas för att skapa PR-filen:
+den normaliserar Weblate-huvudet och flyttar poster, vilket skulle ge onödig
+metadata- och formateringsdiff. Nästa steg är en radbevarande tillämpning av
+de 59 redan granskade posterna och därefter full kontrollkedja mot `stable`.
