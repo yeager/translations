@@ -230,3 +230,8 @@ Det åttonde efterbehandlingshäftet från samma datum innehåller 25 nycklar f�
 färgkorrigeringens utdata, dynamikomfång och skuggkontroller. Filen
 `open-shaders-post-processing-output-08-sv-20261029.json` är validerad mot
 den lokala engelska katalogen och kräver en ny exportjämförelse före import.
+
+Det nionde efterbehandlingshäftet från samma datum innehåller 25 nycklar för
+tonmappningskurvor och deras implementeringar. Filen
+`open-shaders-post-processing-curves-09-sv-20261029.json` är validerad mot
+den lokala engelska katalogen och kräver en ny exportjämförelse före import.
