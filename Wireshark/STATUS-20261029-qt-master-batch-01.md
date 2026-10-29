@@ -5,6 +5,7 @@
 - Arkiverad kandidat: `wireshark-qt-master-batch-01-20261029.json` (40 granskade strängar).
 - Skickat och bekräftat i Transifex den 29 oktober 2026: `Capture` → `Fångst`,
   `Columns` → `Kolumner`, `Contrast:` → `Kontrast:`, `Standard` → `Standard`,
-  `High` → `Hög` samt systemets kontrastinställning för Qt 6.10 eller senare.
-- Live-status efter den bekräftade sparningen: 45 oöversatta strängar.
+  `High` → `Hög`, systemets kontrastinställning för Qt 6.10 eller senare samt
+  förklaringen när kontrastinställningen inte kan läsas.
+- Live-status efter den bekräftade sparningen: 44 oöversatta strängar.
 - Återstående poster i batchen är fortsatt arkiverade lokalt för nästa uppladdningspass.
