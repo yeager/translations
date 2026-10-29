@@ -1,0 +1,84 @@
+From fd9af4c93a52b393bbc96f93587a8e7ce38029bf Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <1206564+yeager@users.noreply.github.com>
+Date: Thu, 29 Oct 2026 04:18:13 +0100
+Subject: [PATCH] build: ship XUI translation catalogs
+
+---
+ .github/workflows/build-macos.yml |  3 ++-
+ build.sh                          | 13 ++++++-------
+ debian/control                    |  1 +
+ 3 files changed, 9 insertions(+), 8 deletions(-)
+
+diff --git a/.github/workflows/build-macos.yml b/.github/workflows/build-macos.yml
+index 731453c6ae..2493986df8 100644
+--- a/.github/workflows/build-macos.yml
++++ b/.github/workflows/build-macos.yml
+@@ -37,7 +37,8 @@ jobs:
+         brew install \
+           ccache \
+           coreutils \
+-          dylibbundler
++          dylibbundler \
++          gettext
+         pip install pyyaml requests
+     - name: Initialize compiler, library cache
+       id: cache
+diff --git a/build.sh b/build.sh
+index 74de18190b..7da4809971 100755
+--- a/build.sh
++++ b/build.sh
+@@ -29,18 +29,16 @@ install_translation_catalogs() {
+ }
+ 
+ build_translation_catalogs() {
+-    if make -n qemu-gmo >/dev/null 2>&1; then
+-        make qemu-gmo
+-    fi
++    make qemu-gmo
+ }
+ 
+ package_windows() {
+     rm -rf dist
+     mkdir -p dist
+     cp build/qemu-system-i386w.exe dist/xemu.exe
+-    # The in-application updater in released Windows builds cannot yet unpack
+-    # directory trees. Keep its ZIP payload flat for this transition release;
+-    # the updater support lands here so catalogs can be enabled next release.
++    # update_internal() creates directory entries and parent directories before
++    # extracting files, so release archives may include gettext catalogs.
++    install_translation_catalogs dist
+     python3 "${project_source_dir}/get_deps.py" dist/xemu.exe dist
+ }
+ 
+@@ -48,7 +46,7 @@ package_wincross() {
+     rm -rf dist
+     mkdir -p dist
+     cp build/qemu-system-i386w.exe dist/xemu.exe
+-    # See package_windows(): old updaters reject directory entries.
++    install_translation_catalogs dist
+     python3 ./scripts/gen-license.py --platform windows > dist/LICENSE.txt
+ }
+ 
+@@ -295,6 +293,7 @@ configure="${project_source_dir}/configure"
+ set -x # Print commands from now on
+ 
+ "${configure}" \
++    --enable-gettext \
+     --extra-cflags="-DXBOX=1 ${build_cflags} ${sys_cflags} ${CFLAGS}" \
+     --extra-ldflags="${sys_ldflags}" \
+     --target-list=i386-softmmu \
+diff --git a/debian/control b/debian/control
+index 3f58074a74..d171051f8f 100644
+--- a/debian/control
++++ b/debian/control
+@@ -5,6 +5,7 @@ Maintainer: Matt Borgerson <contact@mborgerson.com>
+ Build-Depends: debhelper (>= 11),
+  cmake,
+  git,
++ gettext,
+  python3:any,
+  python3-pip,
+  python3-tomli,
+-- 
+2.54.0 (Apple Git-157)
+

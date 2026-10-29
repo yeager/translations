@@ -17,10 +17,16 @@ Gitleaks-kontroll godkända. Full lokal byggning kräver beroenden som inte
 finns i denna miljö; `clang-format` saknas också lokalt.
 
 2026-10-27: Uppströmskontrollen är arkiverad i
-`upstream-check-20261027.md`. PR:n är öppen utan CI eller underhållargranskning.
-De konkreta botanmärkningarna om numeriskt språkformat, katalogbygge,
-filväljarsträngar och popupetiketter är redan åtgärdade i den aktuella
-huvud-committen. Ingen överlappande ny fix skickades.
+`upstream-check-20261027.md`.
+
+2026-10-29: CI visade att Debianpaketeringen försökte installera `.mo`-filer
+utan att katalogmålet byggdes. Commit `fd9af4c93a` gör gettext till ett
+uttalat byggberoende, bygger katalogmålet via den valda byggbackendens
+Make-ingång och inkluderar katalogerna i Windows-, macOS- och Debianpaket.
+Exakt patch finns i `xemu-pr-2837-catalog-shipping-20261029.patch`.
+Kontroller: `bash -n build.sh`, `msgfmt --check-format --check-domain`,
+`l10n-lint`, `svlang skrivregler`, diffkontroll och avgränsad
+Gitleaks-kontroll godkända. PR:n väntar på ny CI och underhållargranskning.
 
 NXEMU #489 granskades samtidigt. Underhållaren flyttar gränssnittet till
 RmlUi och vill därefter använda `.po`-filer med språkval; ingen ytterligare
