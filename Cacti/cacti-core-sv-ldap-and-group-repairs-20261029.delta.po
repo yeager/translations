@@ -30,6 +30,18 @@ msgstr "Tidsdiagramvy"
 msgid "Enables direct insert of records into poller output boost table with results in a 25% time reduction in each poll cycle."
 msgstr "Aktiverar direkt infogning av poster i Boost-tabellen för insamlarutdata, vilket minskar tiden för varje insamlingscykel med 25 %."
 
+#: include/global_settings.php:650
+msgid "Content-Security Allow Unsafe JavaScript eval() calls"
+msgstr "Innehållssäkerhet: tillåt osäkra JavaScript-eval()-anrop"
+
+#: include/global_settings.php:2364
+msgid "The maximum amount of memory for the Cacti Poller and Boosts Poller"
+msgstr "Maximal minnesmängd för Cacti- och Boost-insamlarna"
+
+#: include/global_settings.php:2377
+msgid "Enable Direct Population of Boost Table"
+msgstr "Aktivera direkt ifyllnad av Boost-tabellen"
+
 #: lib/html_form_template.php:167
 msgid "There was a SQL Injection attempted on the page"
 msgstr "Någon försökte utföra en SQL-injektion på sidan"
@@ -45,6 +57,14 @@ msgstr "Starttid för [första|nästa] e-postutskick. Alla framtida utskickstide
 #: lib/html_reports.php:154
 msgid "Interval Frequency"
 msgstr "Intervallfrekvens"
+
+#: lib/html_reports.php:156
+msgid "e.g. If the Report Interval is 'Month(s)', then '2' indicates Every '2 Month(s) from the next Mailtime.' Lastly, if using the Month(s) Report Intervals, the 'Day of Week' and the 'Day of Month' are both calculated based upon the Mailtime you specify above."
+msgstr "Om rapportintervallet är ”Månad(er)” betyder ”2” varannan månad från nästa e-posttidpunkt. Om månadsintervall används beräknas både ”Veckodag” och ”Månadsdag” från e-posttidpunkten som anges ovan."
+
+#: lib/installer.php:2521 lib/installer.php:2554 package_import.php:1133
+msgid "Not Writable"
+msgstr "Inte skrivbar"
 
 #: user_domains.php:246
 msgid "Click 'Continue' to make the following the following User Domain the default one."
