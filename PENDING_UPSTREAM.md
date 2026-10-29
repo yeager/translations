@@ -5,8 +5,9 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
 - **NX2Apple:** Komplett svensk lokalisering med 616 av 616 poster är skickad
   som [PR #168](https://github.com/LNPANDY/NX2Apple/pull/168) 2026-10-28.
   Swift- och Qt-katalogerna är arkiverade tillsammans med kontrollunderlaget.
-  PR:n saknar för närvarande konfigurerade CI-jobb och väntar på
-  underhållargranskning. Se [status](NX2Apple/STATUS.md).
+  En granskningspunkt om Qt:s språkväxling rättades med regressionsprov.
+  Den aktuella grenen är mergebar men har status `UNSTABLE` utan konfigurerade
+  CI-jobb och väntar på underhållargranskning. Se [status](NX2Apple/STATUS.md).
 
 - **Bitwarden:** Web (263), Browser (10) och Desktop (46) jämfördes på nytt
   mot aktuell `main`, validerades och skickades som [PR #24212](https://github.com/bitwarden/clients/pull/24212)
@@ -54,9 +55,9 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
 - **Skyrim Community Shaders:** Komplett svensk katalog med 4 238 av 4 238
   nycklar skickades som [PR #3051](https://github.com/community-shaders/skyrim-community-shaders/pull/3051)
   2026-10-28. PR:en är squashad till en commit och dess aktuella
-  rubrikkontroll passerar. GitHubs versionskontroll blockerar dock PR:en på
-  grund av fyra versionsposter/INI-filer i baskoden, inte i den enda ändrade
-  svenska JSON-filen. PR:n kräver dessutom underhållargranskning. Se
+  rubrikkontroll passerar. PR:n är mergebar men GitHub visar `BLOCKED` eftersom
+  underhållargranskning krävs; den enda körda kontrollen, rubrikkontrollen,
+  är godkänd. Se
   [status](Skyrim-Community-Shaders/STATUS.md).
 - **Rust Coreutils/join:** Sex förslag finns redan i Hosted Weblate, men komponenten är låst eftersom arkivet inte kan sammanfogas. Se [status](Rust-Coreutils/STATUS-2026-10-22.md). Ingen filimport ska göras innan låsningen har hävts.
 - **MATE Control Center, hjälp och Terminal:** De tre granskade kandidaterna är kvar lokalt eftersom Fedora Weblate är låst. Se [väntande uppladdningar](MATE/PENDING_UPLOADS.md). Hämta en ny export och kör kontrollkedjan på nytt efter upplåsning.
