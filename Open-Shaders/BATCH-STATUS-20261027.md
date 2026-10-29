@@ -187,3 +187,8 @@ lokala engelska katalogen. Den komponentvisa nyckeluppsättningsjämförelsen
 visar nu att samtliga 286 av 286 aktuella nycklar i `feature.upscaling` finns
 i arkivet, utan saknade eller extra nycklar. Se
 [integrationsgranskningen](UPSCALING-INTEGRATION-REVIEW-20261029.md).
+
+Den 29 oktober påbörjades `feature.post_processing` med ett första häfte om
+25 nycklar för grundvärden, rameffekt och kameraeffekter. Filen
+`open-shaders-post-processing-camera-01-sv-20261029.json` är validerad mot
+den lokala engelska katalogen och kräver en ny exportjämförelse före import.
