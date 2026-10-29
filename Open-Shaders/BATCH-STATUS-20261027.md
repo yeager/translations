@@ -208,3 +208,8 @@ Det fjärde efterbehandlingshäftet från samma datum innehåller 25 nycklar fö
 objektiv, filmplan, sensorskalning och kamerastatus. Filen
 `open-shaders-post-processing-lens-04-sv-20261029.json` är validerad mot den
 lokala engelska katalogen och kräver en ny exportjämförelse före import.
+
+Det femte efterbehandlingshäftet från samma datum innehåller 25 nycklar för
+COD Bloom och färgkorrigering. Filen
+`open-shaders-post-processing-color-05-sv-20261029.json` är validerad mot den
+lokala engelska katalogen och kräver en ny exportjämförelse före import.
