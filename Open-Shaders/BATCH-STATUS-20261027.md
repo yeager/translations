@@ -173,3 +173,9 @@ mellanrumshantering, status, NGX-maskning och uppskalningsförinställningar.
 Filen `open-shaders-upscaling-neural-status-10-sv-20261029.json` är validerad
 mot den lokala engelska katalogen och kräver en ny exportjämförelse före
 import.
+
+Det elfte uppskalningshäftet från samma datum innehåller 25 nycklar för
+Reflex, renderingsupplösning, Streamline-loggning och FPS-begränsning. Filen
+`open-shaders-upscaling-runtime-controls-11-sv-20261029.json` är validerad
+mot den lokala engelska katalogen och kräver en ny exportjämförelse före
+import.
