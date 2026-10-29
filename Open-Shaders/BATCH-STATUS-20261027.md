@@ -296,3 +296,11 @@ OpenDRT:s nyanskontrast, nyansförskjutning och renhetskomprimering. Filen
 `open-shaders-post-processing-open-drt-hue-20-sv-20261029.json` är validerad
 mot den lokala engelska katalogen och kräver en ny exportjämförelse före
 import.
+
+Häfte 21 till 23 från samma datum innehåller vardera 25 nycklar för OpenDRT:s
+renhetsgränser, mjuk klippning och fysiskt bländljus. Filerna
+`open-shaders-post-processing-open-drt-purity-21-sv-20261029.json`,
+`open-shaders-post-processing-open-drt-softclip-22-sv-20261029.json` och
+`open-shaders-post-processing-open-drt-glare-23-sv-20261029.json` är
+validerade mot den lokala engelska katalogen och kräver en ny exportjämförelse
+före import.
