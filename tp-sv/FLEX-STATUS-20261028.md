@@ -15,3 +15,12 @@ uttryckligt önskemål. Den färdiga filen är arkiverad som
 `flex-2.6.5-rc1.sv.po`. Translation Project tillhandahåller ingen vanlig
 webbimport för denna PO-fil, så den väntar på inskickning via projektets
 etablerade flöde.
+
+## Inskickningsväg verifierad 2026-10-29
+
+Translation Projects svenska teamsida visar att `flex` är oassignerat och
+alltså fritt att översätta. TP-roboten tar emot filen som bilaga via
+`robot@translationproject.org` med ämnesraden
+`flex-2.6.5-rc1.sv.po`. Den kör själv `msgfmt` och återrapporterar resultatet.
+Den lokala filen passerar `msgfmt --check --check-format`; l10n-lint har inga
+fel och en enda korrekt svensk pluralvarning för `tillstånd`.
