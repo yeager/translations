@@ -57,6 +57,18 @@ utvecklarkontexten `CalendarList.vue:208`. Den granskades och arkiverades i
 `Delade kalendrar`. Den 30 oktober sparades båda formerna i Transifex av
 `yeager`; därefter visade filtret för oöversatta strängar 0 av 827.
 
+## Android Notes
+
+Android Notes `35.0.0` publicerades 2026-09-16 och uppfyller kravet på en
+officiell release inom 48 månader. De nio nya synkroniseringsfelen i
+`android-notes` granskades mot aktuell källkod och befintliga svenska
+appnamnstermer. Kandidaterna arkiverades i
+`nextcloud-android-notes-sv-20261030.json` och skickades som ogranskade
+översättningar med Transifex REST-API.
+
+API-svaret var HTTP 200 med nio poster. Efterkontrollen visar 403 av 403
+strängar och 1 771 av 1 771 ord översatta samt 0 oöversatta strängar.
+
 ## Contacts
 
 Contacts har 31 oöversatta UI-strängar i importflödet. De har granskats mot

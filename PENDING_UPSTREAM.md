@@ -72,6 +72,8 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   Calendar är sparad med 0 oöversatta strängar. Contacts 31-strängarsbatch är
   skickad via Transifex API och verifierad till 0 oöversatta strängar; se
   [sändningsbeviset](Nextcloud/contacts-submission-20261030.md).
+  Android Notes har fått nio granskade synkroniseringsfel via API och är
+  verifierad till 0 oöversatta strängar.
   Calendar är också klar: dess enda pluralpost sparades i Transifex och
   filtret visar 0 oöversatta strängar. Flera separata appar har egna nya köer,
   bland annat `agora.pot` (321), `contacts` (31) och `android-talk` (25);
