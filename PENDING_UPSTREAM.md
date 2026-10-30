@@ -55,6 +55,14 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   låsningen är hävd och komponentens aktuella export har jämförts.
 - **Rust Coreutils/join:** Sex förslag finns redan i Hosted Weblate, men komponenten är låst eftersom arkivet inte kan sammanfogas. Se [status](Rust-Coreutils/STATUS-2026-10-22.md). Ingen filimport ska göras innan låsningen har hävts.
 - **MATE Control Center, hjälp och Terminal:** De tre granskade kandidaterna är kvar lokalt eftersom Fedora Weblate är låst. De omvaliderades 2026-10-29 med `msgfmt` och l10n-lint; se [omkontrollen](MATE/REVALIDATION-20261029.md) och [väntande uppladdningar](MATE/PENDING_UPLOADS.md). Hämta en ny export och kör kontrollkedjan på nytt efter upplåsning.
+- **Nextcloud:** Server `v33.0.10` från 2026-10-15 är aktuell. Core har en
+  tvåformsplural för kontroll av signaturer som passerar skrivregel-,
+  l10n-lint-, Hunspell-, platshållar- och Gitleaks-kontroller; den är
+  arkiverad i [Transifex-statusen](Nextcloud/STATUS-20261030-transifex.md).
+  Båda formerna är förberedda i Transifex men saknar ännu verifierat sparande.
+  Flera separata appar har egna nya köer, bland annat `agora.pot` (321),
+  `contacts` (31) och `android-talk` (25); fortsätt med en komponent i taget
+  efter att Core har sparats.
 
 Senast kontrollerades även:
 
