@@ -175,6 +175,13 @@ root-hjälparen lämnades kvar till dokumentationspasset. Häftet passerar hela
 kontrollkedjan utan Hunspellträffar, skickades med HTTP 200 och återlästes
 exakt. Statusen är nu 360 av 476 översatta strängar, med 116 kvar.
 
+Sjätte häftet, `nextcloud-serverinfo-sv-20261030-batch06.json`, innehåller
+sju korta UI- och statusrader för root-hjälparen, omstarter, containrar och
+PHP-processer. Kontrollkedjan passerar; den enda Hunspellträffen är den
+avsiktliga tekniska komponentbenämningen `Root-hjälpare`. Alla sju poster
+skickades med HTTP 200 och återlästes exakt. Statusen är nu 367 av 476
+översatta strängar, med 109 kvar.
+
 ## Assistant
 
 Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
