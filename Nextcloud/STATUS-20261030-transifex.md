@@ -66,6 +66,7 @@ var sin svensk singular- och pluralform; alla `%n`, `%1$s` och namnplacerare
 är bevarade. `svlang skrivregler`, `l10n-lint`, Hunspell, en
 platshållarjämförelse och Gitleaks passerar.
 
-Batchen är förberedd men **inte skickad**: Transifex API-autentisering saknas
-i den lokala miljön. Den ska skickas som vanliga, ogranskade översättningar
-när API-token eller en auktoriserad API-klient finns tillgänglig.
+Batchen skickades den 30 oktober som vanliga, ogranskade översättningar genom
+Transifex REST-API. API:t bekräftade samtliga 31 poster med HTTP 200. Därefter
+visade både statistik- och översättningsändpunkten 0 oöversatta strängar.
+Detaljerat sändningsbevis finns i `contacts-submission-20261030.md`.

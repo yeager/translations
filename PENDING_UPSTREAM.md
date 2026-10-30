@@ -69,10 +69,9 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   arkiverad i [Transifex-statusen](Nextcloud/STATUS-20261030-transifex.md).
   Den aktuella Transifex-vyn verifierar att båda formerna redan finns och att
   Core har 0 oöversatta ord; ingen ny import krävs för den posten.
-  Calendar är sparad med 0 oöversatta strängar. Contacts har en granskad
-  31-strängarsimportbatch i
-  [arkivet](Nextcloud/nextcloud-contacts-sv-20261030.json), men den väntar på
-  Transifex API-autentisering innan den kan skickas.
+  Calendar är sparad med 0 oöversatta strängar. Contacts 31-strängarsbatch är
+  skickad via Transifex API och verifierad till 0 oöversatta strängar; se
+  [sändningsbeviset](Nextcloud/contacts-submission-20261030.md).
   Calendar är också klar: dess enda pluralpost sparades i Transifex och
   filtret visar 0 oöversatta strängar. Flera separata appar har egna nya köer,
   bland annat `agora.pot` (321), `contacts` (31) och `android-talk` (25);
