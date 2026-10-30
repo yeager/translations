@@ -81,10 +81,11 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   Analytics har 15 skickade och verifierade UI-rader; endast en omfattande
   Markdown-beskrivning är kvar och väntar enligt dokumentationsundantaget.
   Calendar är också klar: dess enda pluralpost sparades i Transifex och
-  filtret visar 0 oöversatta strängar. Agora har nu fått sin första
-  74-strängars UI-batch och den formbevarande pluralposten för väljare via
-  API; återläsning visar 165 oöversatta strängar. Nästa Agora-batch ska
-  fortsätta lokalt.
+  filtret visar 0 oöversatta strängar. Agora är också komplett för den
+  aktuella källan: dess tionde och sista UI-batch har API-verifierats och
+  filtret för oöversatta svenska poster returnerar 0. De enda kvarvarande
+  Nextcloud-posterna är uttryckligen uppskjuten dokumentation i Server Info,
+  Deck och Maps. Se [statusen](Nextcloud/STATUS-20261030-transifex.md).
 
 Senast kontrollerades även:
 
