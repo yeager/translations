@@ -322,6 +322,17 @@ förkontrollerades på nytt och 20 fortfarande aktuella poster skickades med
 HTTP 200; övriga poster hade redan ändrats i den aktuella kön. Statistik visar
 2 087 av 2 103 strängar översatta, alltså 16 kvar.
 
+## Resursinventering 2026-10-30
+
+En färsk Transifex API-kontroll av hela Nextcloud-projektet visar endast tre
+svenska resurser med oöversatta poster: Server Info (19), Deck (4) och Maps
+(1). Server Info- och Deck-posterna är sedan tidigare markerade som
+dokumentation eller installationsanvisningar och lämnas därför uppskjutna.
+Maps-posten är också dokumentation: en lång Markdown-beskrivning med länkar,
+punktlista och funktionsöversikt. Det finns alltså ingen oöversatt svensk
+UI-sträng kvar i den aktuella kön utanför den avsiktligt uppskjutna
+dokumentationen.
+
 ## Agora – slutkontroll
 
 Den arkiverade tionde batchen
