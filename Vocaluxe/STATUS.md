@@ -115,3 +115,12 @@ nyckelmängder och platshållare som engelskan. XML-syntaxen samt
 `git diff --check` för de svenska filerna passerar. Den lokala, oinscheckade
 webbfilen lämnades orörd. Programkörning i den här miljön återstår, eftersom
 `dotnet`, `mono` och `wine` saknas.
+
+2026-10-30: Transifex REST API bekräftar den aktuella offentliga platsen
+`darkice/vocaluxe`. Alla åtta svenska resurser är kompletta och inga nya
+översättningar behöver laddas upp: Game 403/403, webbappen 225/225, de fem
+XML-resurserna 32/32, 34/34, 81/81, 33/33 och 39/39 samt Challenge 28/28.
+Samtliga har 0 oöversatta strängar. Resursnamnen innehåller flera identiska
+XML-etiketter, så kontrollen baseras på deras stabila Transifex-resurs-ID:n
+och inte bara på visningsnamnen. Projektet är inte arkiverat; dess senaste
+uppströmsaktivitet är aktuell enligt Transifex och GitHub.
