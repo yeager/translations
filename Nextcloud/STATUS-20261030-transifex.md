@@ -144,6 +144,14 @@ Gitleaks passerar utan träffar. Alla 20 poster skickades som ogranskade
 Transifex-översättningar med HTTP 200 och återlästes exakt efteråt. Aktuell
 statistik visar 191 strängar kvar, som granskas i ytterligare små häften.
 
+Andra häftet, `nextcloud-serverinfo-sv-20261030-batch02.json`, innehåller 20
+ytterligare strängar för uppdateringskontroll, systemklocka, kärnor,
+bakgrundsjobb och Cron. Det omfattar fem pluralposter med svenska entals- och
+flertalsformer. Samma kontrollkedja passerar; Hunspellträffarna är enbart
+produktnamnet Nextcloud och tekniska termer. Samtliga 20 poster skickades med
+HTTP 200 och återlästes exakt. Aktuell statistik visar 305 av 476 strängar
+översatta och 171 kvar.
+
 ## Assistant
 
 Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
