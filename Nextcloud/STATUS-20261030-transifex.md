@@ -57,6 +57,13 @@ utvecklarkontexten `CalendarList.vue:208`. Den granskades och arkiverades i
 `Delade kalendrar`. Den 30 oktober sparades båda formerna i Transifex av
 `yeager`; därefter visade filtret för oöversatta strängar 0 av 827.
 
+## Deck
+
+Decks fyra oöversatta poster kontrollerades direkt via Transifex den 30
+oktober. De är nya, långa Markdown-introduktioner och hjälptexter för
+standardtavlor, med rubriker, checklistor och länkar; de är inte UI-strängar.
+De lämnas därför medvetet kvar enligt beslutet att vänta med dokumentation.
+
 ## Android Notes
 
 Android Notes `35.0.0` publicerades 2026-09-16 och uppfyller kravet på en
