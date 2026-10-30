@@ -1,8 +1,8 @@
 # RetroArch: svensk OpenXR-granskning 2026-10-30
 
 - Projekt: RetroArch i Crowdin, svenska (`sv-SE`)
-- Omfattning: 56 tidigare oöversatta OpenXR-strängar i `msg_hash_us.json`.
-- Resultat: samtliga 56 sparades direkt i Crowdin under `yeagersthlm`. Efter sparning visade filtret **Untranslated** inga strängar.
+- Omfattning: 56 tidigare oöversatta OpenXR-strängar i `msg_hash_us.json` samt 5 Vita3K-strängar som Crowdin visade efter den första sparningen.
+- Resultat: samtliga 61 strängar sparades direkt i Crowdin under `yeagersthlm`. OpenXR-delen visade inga återstående strängar efter sparning. Vita3K-tillägget omfattar borttagning av lokala data och troféer.
 - Terminologi: `skärm`, `handkontroll`, `redigeringsläge`, `fästa mot skärmar`, `fästa mot vinklar` och `gångjärnsspalt` används konsekvent. Enhetsvärdena `15°`, `30°`, `45°` och centimeterstegen är medvetet oförändrade.
 
 ## Kontroller
@@ -17,6 +17,8 @@ Crowdins egna QA-markeringar om inledande versal och vissa sammansatta tekniska 
 
 ## Arkiv
 
-Den exakta batchen finns i `retroarch-sv-openxr-reviewed-20261030.json`.
+De exakta batcherna finns i `retroarch-sv-openxr-reviewed-20261030.json` och `retroarch-sv-vita3k-cleanup-20261030.json`.
 
 SHA-256: `e3bd6bfb4ea4dcf1c30f79b96980a3927a1a1be6ea26295ba5cd0a64a6759a9e`
+
+SHA-256: `a6a41e98ee48cac2fd4b872ee7331c473bd26c60351349a2e9a2b5a9638bfbe3`
