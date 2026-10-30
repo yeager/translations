@@ -56,3 +56,16 @@ utvecklarkontexten `CalendarList.vue:208`. Den granskades och arkiverades i
 `nextcloud-calendar-sv-20261030.json` med formerna `Delad kalender` och
 `Delade kalendrar`. Den 30 oktober sparades båda formerna i Transifex av
 `yeager`; därefter visade filtret för oöversatta strängar 0 av 827.
+
+## Contacts
+
+Contacts har 31 oöversatta UI-strängar i importflödet. De har granskats mot
+den aktuella källkoden i `nextcloud/contacts` och är arkiverade i
+`nextcloud-contacts-sv-20261030.json`. Sex poster är pluraler och innehåller
+var sin svensk singular- och pluralform; alla `%n`, `%1$s` och namnplacerare
+är bevarade. `svlang skrivregler`, `l10n-lint`, Hunspell, en
+platshållarjämförelse och Gitleaks passerar.
+
+Batchen är förberedd men **inte skickad**: Transifex API-autentisering saknas
+i den lokala miljön. Den ska skickas som vanliga, ogranskade översättningar
+när API-token eller en auktoriserad API-klient finns tillgänglig.
