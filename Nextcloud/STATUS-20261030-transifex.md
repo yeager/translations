@@ -69,6 +69,18 @@ appnamnstermer. Kandidaterna arkiverades i
 API-svaret var HTTP 200 med nio poster. Efterkontrollen visar 403 av 403
 strängar och 1 771 av 1 771 ord översatta samt 0 oöversatta strängar.
 
+## Android Talk
+
+Android Talk `v25.0.2` publicerades 2026-10-02 och uppfyller kravet på en
+officiell release inom 48 månader. De 25 nya UI-raderna för ljuduppspelning,
+samtal, certifikat och HTTP-reservläge granskades mot Talk-resursens befintliga
+svenska terminologi. De arkiverades i
+`nextcloud-android-talk-sv-20261030.json` och skickades via Transifex
+REST-API med HTTP 200.
+
+Efterkontrollen visar 883 av 883 strängar och 3 397 av 3 397 ord översatta,
+med 0 oöversatta strängar kvar.
+
 ## Analytics
 
 Analytics `7.2.0` publicerades 2026-10-29 och uppfyller kravet på en

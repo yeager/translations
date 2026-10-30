@@ -74,6 +74,8 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   [sändningsbeviset](Nextcloud/contacts-submission-20261030.md).
   Android Notes har fått nio granskade synkroniseringsfel via API och är
   verifierad till 0 oöversatta strängar.
+  Android Talk har fått 25 granskade UI-rader via API och är verifierad till
+  0 oöversatta strängar.
   Analytics har 15 skickade och verifierade UI-rader; endast en omfattande
   Markdown-beskrivning är kvar och väntar enligt dokumentationsundantaget.
   Calendar är också klar: dess enda pluralpost sparades i Transifex och
