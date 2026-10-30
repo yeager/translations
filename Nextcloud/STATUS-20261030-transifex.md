@@ -160,6 +160,14 @@ hela kontrollkedjan; Hunspell träffar endast kommandon, platshållare och
 produktnamn. Alla 20 poster returnerade HTTP 200, matchar exakt vid
 återläsning och höjer statusen till 325 av 476 översatta strängar. 151 återstår.
 
+Fjärde häftet, `nextcloud-serverinfo-sv-20261030-batch04.json`, innehåller 20
+UI-strängar för omstart, systemtjänster, SELinux, AppArmor och NTP. En längre
+appbeskrivning i samma källa utelämnades medvetet eftersom dokumentation inte
+ska behandlas ännu. Häftet passerar hela kontrollkedjan; Hunspellträffarna är
+enbart produktnamn, Linux-komponenter och tekniska protokoll. Alla 20 poster
+skickades med HTTP 200 och återlästes exakt. Statusen är nu 345 av 476
+översatta strängar, med 131 kvar.
+
 ## Assistant
 
 Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
