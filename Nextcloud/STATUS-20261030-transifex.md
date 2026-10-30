@@ -134,4 +134,7 @@ pluralformer i en egen API-batch.
 passerar. Hunspell markerar enbart egennamn, metodnamn och tekniska
 platshållare. Batchen skickades som vanliga, ogranskade översättningar via
 Transifex REST-API med HTTP 200 och API:t returnerade 74 sparade måltexter.
-Efterkontrollen visar 1 856 av 2 103 strängar översatta, alltså 247 kvar.
+Den separata pluralposten för `%n voter`/`%n voters` arkiverades i
+`nextcloud-agora-sv-20261030-plural01.json` och skickades därefter med båda
+svenska formerna. API:t bekräftade även den med HTTP 200. Efterkontrollen
+visar 1 857 av 2 103 strängar översatta, alltså 246 kvar.
