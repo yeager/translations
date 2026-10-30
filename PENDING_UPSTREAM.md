@@ -18,9 +18,13 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   [PAM-dialog](Bitwarden/Bitwarden-Web-pam-request-dialog-delta-20261029.xliff)
   samt [PAM-återkoppling](Bitwarden/Bitwarden-Web-pam-request-feedback-delta-20261029.xliff).
 
-  Ett nytt, separat PAM-häfte med 100 förslag för åtkomstanslutningar och
-  målsystem har granskats mot huvudgrenen den 30 oktober men är inte
-  uppladdat: [status och kontroller](Bitwarden/Crowdin-pending-20261030-web-pam-batch38.md).
+  De två nya PAM-häftena med 156 förslag för åtkomstanslutningar och
+  målsystem granskades mot huvudgrenen den 30 oktober. 137 matchande
+  översättningar skickades därefter direkt i Crowdins redigerare; övriga
+  kandidater hade redan en översättning. Web-filens filter för oöversatta
+  strängar visade därefter 0 strängar. Se
+  [status och kontroller](Bitwarden/Crowdin-pending-20261030-web-pam-batch38.md)
+  och [inskicksloggen](Bitwarden/Crowdin-submission-20261030-web-pam-editor.md).
   Samtliga fem importerades i Crowdin den 29 oktober. API:t importerade 75 måltexter;
   två dubblettkontroller hoppades över eftersom samma måltext redan fanns, och en ny
   Crowdin-export bekräftar alla 77 arkiverade måltexter. Se

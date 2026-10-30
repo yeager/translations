@@ -28,7 +28,8 @@ Kontroller:
 
 Crowdin CLI 5.5.0 finns lokalt, men projektets konfiguration kräver
 `CROWDIN_API_TOKEN` och `CROWDIN_PROJECT_ID`; de är inte tillgängliga i den
-aktuella säkra CLI-sessionen. Häftet är därför **inte uppladdat**, och ingen
-uppgift om aktuell Crowdin-status eller dubbletter görs utan en färsk export.
-Importera det som oautogodkända förslag efter att en aktuell export har
-jämförts; använd aldrig automatisk godkänning.
+aktuella säkra CLI-sessionen. Den 30 oktober skickades därför de matchande
+posterna i små grupper direkt i Crowdins redigerare, som vanliga förslag utan
+automatisk godkänning. Statusfiltret för oöversatta strängar visade därefter
+0 strängar i den aktuella Web-filen. Se den separata
+[inskicksloggen](Crowdin-submission-20261030-web-pam-editor.md).

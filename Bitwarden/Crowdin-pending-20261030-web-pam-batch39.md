@@ -8,6 +8,7 @@ mot tidigare käll- och Crowdin-häften. Det innehåller 56 förslag för
 målsystemens konfiguration, lösenordsprinciper, sessionsavslut och mallar.
 
 Kontrollerna är desamma som för häfte 38: JSON-syntax, platshållarjämförelse,
-`l10n-lint`, `svlang skrivregler`, Hunspell och Gitleaks. Importen är
-avsiktligt uppskjuten tills en färsk Crowdin-export kan jämföras, eftersom
-den säkra CLI-sessionen saknar projektets autentiseringsvariabler.
+`l10n-lint`, `svlang skrivregler`, Hunspell och Gitleaks. Den 30 oktober
+skickades de matchande posterna direkt i Crowdins redigerare som vanliga,
+oautogodkända förslag. Se
+[inskicksloggen](Crowdin-submission-20261030-web-pam-editor.md).
