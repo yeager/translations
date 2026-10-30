@@ -168,6 +168,13 @@ enbart produktnamn, Linux-komponenter och tekniska protokoll. Alla 20 poster
 skickades med HTTP 200 och återlästes exakt. Statusen är nu 345 av 476
 översatta strängar, med 131 kvar.
 
+Femte häftet, `nextcloud-serverinfo-sv-20261030-batch05.json`, innehåller 15
+rena UI-statusrader om åtkomstkontroll, direktuppdateringar av kärnan och
+root-hjälparens rapport. Samtliga längre installationsanvisningar för
+root-hjälparen lämnades kvar till dokumentationspasset. Häftet passerar hela
+kontrollkedjan utan Hunspellträffar, skickades med HTTP 200 och återlästes
+exakt. Statusen är nu 360 av 476 översatta strängar, med 116 kvar.
+
 ## Assistant
 
 Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
