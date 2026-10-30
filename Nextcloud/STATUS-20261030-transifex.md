@@ -172,3 +172,8 @@ debattfunktioner finns i `nextcloud-agora-sv-20261030-batch08.json`. Den
 skickades efter en ny API-förkontroll och Transifex bekräftade alla 30 med
 HTTP 200. Statistikändpunkten visar 2 037 av 2 103 strängar översatta,
 alltså 66 kvar.
+
+Nionde batchen finns i `nextcloud-agora-sv-20261030-batch09.json`. Den
+förkontrollerades på nytt och 20 fortfarande aktuella poster skickades med
+HTTP 200; övriga poster hade redan ändrats i den aktuella kön. Statistik visar
+2 087 av 2 103 strängar översatta, alltså 16 kvar.
