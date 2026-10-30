@@ -218,6 +218,13 @@ Häftet passerar hela kontrollkedjan; Hunspellträffarna är avsiktliga tekniska
 benämningar och platshållare. Alla 25 poster skickades med HTTP 200 och
 återlästes exakt. Statusen är nu 448 av 476 strängar översatta, med 28 kvar.
 
+Tolfte häftet, `nextcloud-serverinfo-sv-20261030-batch12.json`, innehåller nio
+fel- och statusmeddelanden för root-hjälparens rapporter, systemklocka och
+filsäkerhet. Längre installationsanvisningar och dokumentation har lämnats
+utanför. Häftet passerar hela kontrollkedjan; Hunspellträffarna är tekniska
+namn och platshållare. Alla nio poster skickades med HTTP 200 och återlästes
+exakt. Statusen är nu 457 av 476 strängar översatta, med 19 kvar.
+
 ## Assistant
 
 Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
