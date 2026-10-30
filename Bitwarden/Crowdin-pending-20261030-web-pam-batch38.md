@@ -5,8 +5,10 @@ Den 30 oktober 2026 hämtades `bitwarden/clients` huvudgren vid
 `desktop-v2026.10.2`, publicerad den 29 oktober 2026, och uppfyller därmed
 färskhetskravet.
 
-`bitwarden-web-pam-connectors-target-systems-batch38-20261030.json` innehåller
-100 svenska förslag för nya PAM-gränssnitt: åtkomstanslutningar,
+`bitwarden-web-pam-connectors-target-systems-batch38-20261030.json` och den
+uppladdningsklara XLIFF-filen
+`Bitwarden-Web-pam-connectors-target-systems-batch38-20261030.xliff`
+innehåller 100 svenska förslag för nya PAM-gränssnitt: åtkomstanslutningar,
 granskningshändelser och de första åtgärderna för målsystem. De valdes genom
 att först avräkna 263 nycklar i den tidigare lokala Web-grenen och 204
 nycklar med exakta svenska måltexter i de redan arkiverade Crowdin-häftena.

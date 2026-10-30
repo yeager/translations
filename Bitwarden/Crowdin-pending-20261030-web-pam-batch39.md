@@ -1,6 +1,8 @@
 # Bitwarden Web – PAM-häfte 39
 
-`bitwarden-web-pam-target-systems-batch39-20261030.json` avslutar den lokala
+`bitwarden-web-pam-target-systems-batch39-20261030.json` och den
+uppladdningsklara XLIFF-filen
+`Bitwarden-Web-pam-target-systems-batch39-20261030.xliff` avslutar den lokala
 granskningen av de 156 nya svenska Web-nycklar som återstod efter avräkning
 mot tidigare käll- och Crowdin-häften. Det innehåller 56 förslag för
 målsystemens konfiguration, lösenordsprinciper, sessionsavslut och mallar.
