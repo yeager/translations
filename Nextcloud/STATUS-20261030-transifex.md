@@ -196,6 +196,13 @@ uppgraderingar. Det passerar hela kontrollkedjan utan avvikelser. Alla nio
 poster skickades med HTTP 200 och återlästes exakt. Statusen är nu 388 av 476
 översatta strängar, med 88 kvar.
 
+Nionde häftet, `nextcloud-serverinfo-sv-20261030-batch09.json`, innehåller
+15 inställnings- och statussträngar för säkerhetsuppdateringar, varningsgränser,
+omstarter, paketlistor och återställning av standardinställningar. Det passerar
+`l10n-lint`, `svlang skrivregler`, Hunspell, platshållarjämförelse och Gitleaks
+utan avvikelser. Alla 15 poster skickades med HTTP 200 och återlästes exakt.
+Statusen är nu 403 av 476 strängar översatta, med 73 kvar.
+
 ## Assistant
 
 Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
