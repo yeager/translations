@@ -177,3 +177,13 @@ Nionde batchen finns i `nextcloud-agora-sv-20261030-batch09.json`. Den
 förkontrollerades på nytt och 20 fortfarande aktuella poster skickades med
 HTTP 200; övriga poster hade redan ändrats i den aktuella kön. Statistik visar
 2 087 av 2 103 strängar översatta, alltså 16 kvar.
+
+## Agora – slutkontroll
+
+Den arkiverade tionde batchen
+`nextcloud-agora-sv-20261030-batch10.json` innehåller de återstående 16
+UI-strängarna. Den 30 oktober lästes varje sträng åter från Transifex med dess
+unika resursöversättnings-id; samtliga 16 måltexter är identiska med den
+arkiverade kandidaten. API-filtret `translated=false` för resursen `agora`
+och svenska (`l:sv`) returnerar dessutom 0 poster. Batchen behöver därför
+inte skickas igen, och Agora är komplett för den aktuella källan.
