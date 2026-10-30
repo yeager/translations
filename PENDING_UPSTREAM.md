@@ -83,7 +83,7 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   Calendar är också klar: dess enda pluralpost sparades i Transifex och
   filtret visar 0 oöversatta strängar. Agora har nu fått sin första
   74-strängars UI-batch och den formbevarande pluralposten för väljare via
-  API; återläsning visar 195 oöversatta strängar. Nästa Agora-batch ska
+  API; återläsning visar 165 oöversatta strängar. Nästa Agora-batch ska
   fortsätta lokalt.
 
 Senast kontrollerades även:

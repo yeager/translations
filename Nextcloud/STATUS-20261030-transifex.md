@@ -145,3 +145,8 @@ kontrollkedja passerade och Transifex bekräftade samtliga poster med HTTP 200.
 Måltexten för varje post återlästes via API innan statusen räknades som
 skickad. Statistikändpunkten visar nu 1 908 av 2 103 strängar översatta,
 alltså 195 kvar.
+
+Tredje batchen med 30 poster för familjer och alternativtyper är arkiverad i
+`nextcloud-agora-sv-20261030-batch03.json`. Kontrollkedjan passerade och
+Transifex API bekräftade alla 30 med HTTP 200. Statistikändpunkten visar
+1 938 av 2 103 strängar översatta, alltså 165 kvar.
