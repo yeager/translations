@@ -182,6 +182,14 @@ avsiktliga tekniska komponentbenämningen `Root-hjälpare`. Alla sju poster
 skickades med HTTP 200 och återlästes exakt. Statusen är nu 367 av 476
 översatta strängar, med 109 kvar.
 
+Sjunde häftet, `nextcloud-serverinfo-sv-20261030-batch07.json`, innehåller
+tolv korta statusrader om PHP-bibliotek, tjänsteomstarter och automatiska
+uppdateringar. Längre instruktioner om root-hjälparen, snap och containrar är
+fortsatt avgränsade som dokumentation. Häftet passerar hela kontrollkedjan;
+Hunspellträffarna är produktnamnet Nextcloud, tekniska kontot `root` och
+platshållaren `{tool}`. Alla tolv poster skickades med HTTP 200 och
+återlästes exakt. Statusen är nu 379 av 476 översatta strängar, med 97 kvar.
+
 ## Assistant
 
 Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
