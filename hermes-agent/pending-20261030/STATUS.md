@@ -24,3 +24,10 @@ strukturavvikelser i katalogen: faktureringsblocket `autoReload` har blivit ett
 underobjekt, abonnemangstexterna har flyttats till underblock och
 hjälpkommandona ligger nu under `help.commands`. Katalogen ska därför inte
 skickas in förrän den har synkats mot den aktuella engelska katalogstrukturen.
+
+Webbkatalogen är däremot kompatibel med den aktuella koden: `npm run
+typecheck --prefix web` passerar och `npm run test --prefix web` passerar med
+69 testfiler och 473 tester. Vites och jsdoms kända miljövarningar om
+`localStorage`, `window.open()` och canvas förekommer i testutskriften men
+testsviten godkändes. Detta bevisar typ- och testkompatibilitet, inte att
+webbens svenska text är radgranskad eller uppströmsinskickad.
