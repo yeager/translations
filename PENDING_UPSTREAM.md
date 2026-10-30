@@ -17,6 +17,10 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   [PAM](Bitwarden/Bitwarden-Web-pam-access-delta-20261029.xliff) och
   [PAM-dialog](Bitwarden/Bitwarden-Web-pam-request-dialog-delta-20261029.xliff)
   samt [PAM-återkoppling](Bitwarden/Bitwarden-Web-pam-request-feedback-delta-20261029.xliff).
+
+  Ett nytt, separat PAM-häfte med 100 förslag för åtkomstanslutningar och
+  målsystem har granskats mot huvudgrenen den 30 oktober men är inte
+  uppladdat: [status och kontroller](Bitwarden/Crowdin-pending-20261030-web-pam-batch38.md).
   Samtliga fem importerades i Crowdin den 29 oktober. API:t importerade 75 måltexter;
   två dubblettkontroller hoppades över eftersom samma måltext redan fanns, och en ny
   Crowdin-export bekräftar alla 77 arkiverade måltexter. Se
