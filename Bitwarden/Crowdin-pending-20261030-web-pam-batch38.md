@@ -11,6 +11,8 @@ granskningshändelser och de första åtgärderna för målsystem. De valdes gen
 att först avräkna 263 nycklar i den tidigare lokala Web-grenen och 204
 nycklar med exakta svenska måltexter i de redan arkiverade Crowdin-häftena.
 Kvar efter avräkningen var 156 nya nycklar; detta är det första av två häften.
+Det avslutande häftet finns i
+`bitwarden-web-pam-target-systems-batch39-20261030.json`.
 
 Kontroller:
 
