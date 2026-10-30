@@ -131,6 +131,19 @@ sammansättningen med produktnamnet `Nextcloud-server`. Varje post skickades
 som en ogranskad Transifex-översättning med HTTP 200. Alla nio måltexter har
 lästs tillbaka exakt och filtret för oöversatta svenska strängar visar 0.
 
+## Server Info
+
+Server Info följer den aktuella Nextcloud Server-källan `v33.0.10` från
+2026-10-15. Första häftet med 20 driftstatusrader för operativsystem,
+paketlistor, systemtjänster och omstarter har arkiverats i
+`nextcloud-serverinfo-sv-20261030-batch01.json`. Det innehåller även båda
+svenska formerna för antalet tjänster som behöver startas om.
+
+`l10n-lint`, `svlang skrivregler`, Hunspell, platshållarjämförelse och
+Gitleaks passerar utan träffar. Alla 20 poster skickades som ogranskade
+Transifex-översättningar med HTTP 200 och återlästes exakt efteråt. Aktuell
+statistik visar 191 strängar kvar, som granskas i ytterligare små häften.
+
 ## Assistant
 
 Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
