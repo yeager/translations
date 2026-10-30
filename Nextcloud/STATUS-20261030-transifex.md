@@ -69,6 +69,18 @@ appnamnstermer. Kandidaterna arkiverades i
 API-svaret var HTTP 200 med nio poster. Efterkontrollen visar 403 av 403
 strängar och 1 771 av 1 771 ord översatta samt 0 oöversatta strängar.
 
+## Analytics
+
+Analytics `7.2.0` publicerades 2026-10-29 och uppfyller kravet på en
+officiell release inom 48 månader. Femton UI- och hjälprader granskades mot
+den befintliga svenska Analytics-terminologin och arkiverades i
+`nextcloud-analytics-sv-20261030.json`. Batchen skickades via Transifex
+REST-API med HTTP 200.
+
+Efterkontrollen visar 754 av 755 strängar översatta. Den återstående posten
+är en 985-teckens Markdown-beskrivning av appen; den är dokumentation och
+väntar därför enligt instruktionen att inte behandla dokumentation ännu.
+
 ## Contacts
 
 Contacts har 31 oöversatta UI-strängar i importflödet. De har granskats mot
