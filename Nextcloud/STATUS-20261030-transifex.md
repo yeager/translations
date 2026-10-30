@@ -211,6 +211,13 @@ avsiktliga tekniska termerna `root` och `{tool}`. Alla 20 poster skickades med
 HTTP 200 och återlästes exakt. Statusen är nu 423 av 476 strängar översatta,
 med 53 kvar.
 
+Elfte häftet, `nextcloud-serverinfo-sv-20261030-batch11.json`, innehåller 25
+UI- och statussträngar för operativsystemets kontroll, diagnoser, maskintyp och
+resultatvisning. Två pluralposter har svenska entals- och flertalsformer.
+Häftet passerar hela kontrollkedjan; Hunspellträffarna är avsiktliga tekniska
+benämningar och platshållare. Alla 25 poster skickades med HTTP 200 och
+återlästes exakt. Statusen är nu 448 av 476 strängar översatta, med 28 kvar.
+
 ## Assistant
 
 Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
