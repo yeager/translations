@@ -4,7 +4,7 @@ Här samlas svenska översättningar och tillhörande granskningsunderlag. Tabel
 
 Senaste arkivändring är datumet för den senaste Git-incheckningen som berör mappen. Datumet kan avse underlag eller en del av projektet och är inte en kontroll av upstream. Länkarna till underlag visar historisk dokumentation, vars uppgifter kan ha ändrats. Uppdatera tabellen när arbete, granskning eller verifierad upstreamstatus ändras.
 
-Övergripande dokument: [statusjournal](STATUS.md), [väntande upstreamarbete](PENDING_UPSTREAM.md) och [policy för aktuell release](RELEASE-FRESHNESS-POLICY.md).
+Övergripande dokument: [statusjournal](STATUS.md), [väntande upstreamarbete](PENDING_UPSTREAM.md), [policy för aktuell release](RELEASE-FRESHNESS-POLICY.md) och [arkiverade projekt](PROJECTS-TOUCHED-20261030.md).
 
 Senaste tillägg som ännu inte hunnit in i den alfabetiska projektöversikten:
 
