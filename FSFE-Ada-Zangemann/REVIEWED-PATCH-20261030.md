@@ -36,3 +36,12 @@ terminologiförskjutningen och de semantiskt felaktiga bildbeskrivningarna.
 Denna bedömning är ett granskningsunderlag och ändrar inte den redan
 verifierade Weblate-katalogen förrän samma förslag har bedömts mot den aktuella
 källsträngen där.
+
+## Genomförande
+
+De fyra godkända ändringarna lades 2026-10-30 på den rena grenen
+`codex/ada-approved-review-20261030` i commit `233c1e1`. Diffen omfattar bara
+`docbook/po/text/sv.po`; `msgfmt --check`, `l10n-lint`, `svlang`, Hunspell och
+en avgränsad Gitleaks-körning har granskats. Push till FSFE:s Git-server kunde
+inte autentiseras i den här miljön, och Weblate-sessionen var samtidigt
+otillgänglig. Ingen extern inskickning påstås därför här.
