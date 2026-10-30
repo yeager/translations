@@ -16,3 +16,11 @@ Gitleaks-kontroll passerade. Den aktuella katalogkopian finns i
 `../pr-92-20261029/tail-sv.ftl` med SHA-256
 `8289193eaa8934cc4ccfa4241b9ec6e7aafb815816b5a2777eafccd6e33aa328`.
 PR:n är uppladdad men GitHub visar fortfarande inga statusjobb eller merge.
+
+2026-10-30: PR #92 kontrollerades på nytt via GitHub API. Den är öppen,
+mergebar och har fortsatt endast en historisk granskningskommentar: att
+sektionskommentarerna i `fmt` ska vara engelska. Huvudrevisionen
+`73f9e3e9685b0a450e2f0f42a63706fe35a811ca` har redan `# Help messages` och
+`# Error messages`, så kommentaren är åtgärdad. Det finns inga nya
+granskningar, radkommentarer eller check-körningar och ingen ytterligare
+katalogändring behövs före underhållarens återkoppling.
