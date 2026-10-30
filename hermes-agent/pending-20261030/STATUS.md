@@ -31,3 +31,12 @@ typecheck --prefix web` passerar och `npm run test --prefix web` passerar med
 `localStorage`, `window.open()` och canvas förekommer i testutskriften men
 testsviten godkändes. Detta bevisar typ- och testkompatibilitet, inte att
 webbens svenska text är radgranskad eller uppströmsinskickad.
+
+## Statisk YAML-paritet 2026-10-30
+
+En rekursiv jämförelse mot aktuell `locales/en.yaml` ger 3 510 engelska
+bladnycklar och 371 svenska. 3 140 engelska nycklar saknas; den enda extra
+svenska nyckeln är `gateway.status.free_tier`. Den statiska katalogen är
+alltså en äldre partiell katalog, inte ett säkert underlag för inkrementell
+insändning. Den behöver skapas om från den aktuella nyckelstrukturen och
+granskas i hanterbara batcher.
