@@ -103,6 +103,21 @@ REST-API med HTTP 200.
 Efterkontrollen visar 883 av 883 strängar och 3 397 av 3 397 ord översatta,
 med 0 oöversatta strängar kvar.
 
+## Talk
+
+Nextcloud Talk `v25.0.0` publicerades 2026-09-16 och uppfyller kravet på en
+officiell release inom 48 månader. De tretton nya UI-strängarna för enheter,
+konversationsåtgärder, omröstningar och end-to-end-kryptering granskades mot
+den befintliga svenska Talk-terminologin. Den pluraliserade raderingen av en
+inaktiv konversation har separata former för en och flera timmar.
+
+Kandidaten `nextcloud-talk-sv-20261030.json` passerar `l10n-lint`, `svlang
+skrivregler`, platshållarjämförelse och Gitleaks. Hunspell markerar endast den
+korrekta sammansättningen `Skickaalternativ` och bevarade platshållarnamn.
+Samtliga tretton poster skickades som ogranskade översättningar med enskilda
+PATCH-anrop till Transifex och returnerade HTTP 200. Efter återläsning matchar
+alla måltexter exakt, och filtret för oöversatta svenska strängar visar 0.
+
 ## Assistant
 
 Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
