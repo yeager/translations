@@ -118,3 +118,20 @@ Batchen skickades den 30 oktober som vanliga, ogranskade översättningar genom
 Transifex REST-API. API:t bekräftade samtliga 31 poster med HTTP 200. Därefter
 visade både statistik- och översättningsändpunkten 0 oöversatta strängar.
 Detaljerat sändningsbevis finns i `contacts-submission-20261030.md`.
+
+## Agora
+
+Agora är en aktiv Nextcloud-app: App Store visar version `1.7.12`, uppdaterad
+2026-09-21, och Transifex-resursen ändrades senast 2026-10-30. Den uppfyller
+därmed kravet på en aktuell officiell release inom 48 månader. Första
+UI-batchen med 74 strängar för grupper, förfrågningar, omröstningar och
+administration granskades och arkiverades i
+`nextcloud-agora-sv-20261030-batch01.json`. Den innehåller inte den separata
+pluralposten för antal väljare; den hanteras med svenska singular- och
+pluralformer i en egen API-batch.
+
+`l10n-lint`, `svlang skrivregler`, platshållarjämförelsen och Gitleaks
+passerar. Hunspell markerar enbart egennamn, metodnamn och tekniska
+platshållare. Batchen skickades som vanliga, ogranskade översättningar via
+Transifex REST-API med HTTP 200 och API:t returnerade 74 sparade måltexter.
+Efterkontrollen visar 1 856 av 2 103 strängar översatta, alltså 247 kvar.

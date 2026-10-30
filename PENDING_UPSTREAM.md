@@ -81,9 +81,10 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   Analytics har 15 skickade och verifierade UI-rader; endast en omfattande
   Markdown-beskrivning är kvar och väntar enligt dokumentationsundantaget.
   Calendar är också klar: dess enda pluralpost sparades i Transifex och
-  filtret visar 0 oöversatta strängar. Flera separata appar har egna nya köer,
-  bland annat `agora.pot` (321), `contacts` (31) och `android-talk` (25);
-  fortsätt med en komponent i taget.
+  filtret visar 0 oöversatta strängar. Agora har nu fått sin första
+  74-strängars UI-batch via API; återläsning visar 247 oöversatta strängar.
+  Nästa Agora-batch ska fortsätta lokalt och innehålla den separata,
+  formbevarande pluralposten för väljare.
 
 Senast kontrollerades även:
 
