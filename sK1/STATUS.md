@@ -55,3 +55,9 @@ inskickad till något uppströmsflöde.
 `f3aee8b36f31aed68cbe46816d062c3b96334d23`, är mergebar och har inga öppna
 kommentarer eller konfigurerade CI-kontroller. Den väntar på
 underhållargranskning.
+
+2026-10-30: GitHubs aktuella API-status bekräftar samma läge: PR #348 är
+öppen, inte ett utkast, `mergeable: true` och `mergeable_state: clean` mot
+`main`. Den har fortfarande inga granskningar, radkommentarer eller
+check-körningar. Ingen ändring av den granskade katalogen behövs innan
+underhållaren återkommer.
