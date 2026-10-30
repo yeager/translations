@@ -67,7 +67,8 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   tvåformsplural för kontroll av signaturer som passerar skrivregel-,
   l10n-lint-, Hunspell-, platshållar- och Gitleaks-kontroller; den är
   arkiverad i [Transifex-statusen](Nextcloud/STATUS-20261030-transifex.md).
-  Båda formerna är förberedda i Transifex men saknar ännu verifierat sparande.
+  Den aktuella Transifex-vyn verifierar att båda formerna redan finns och att
+  Core har 0 oöversatta ord; ingen ny import krävs för den posten.
   Flera separata appar har egna nya köer, bland annat `agora.pot` (321),
   `contacts` (31) och `android-talk` (25); fortsätt med en komponent i taget
   efter att Core har sparats.

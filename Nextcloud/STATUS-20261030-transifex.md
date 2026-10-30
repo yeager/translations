@@ -36,5 +36,15 @@ fel.
 
 `svlang skrivregler`, `l10n-lint` och Gitleaks passerar. Den lokala
 Hunspell-körningen ger inga okända ord. Platshållarna `%s` respektive `%n` och
-`%s` är bevarade. Båda pluralformerna är förberedda i Transifex-redigeraren,
-men har ännu inte sparats externt.
+`%s` är bevarade.
+
+Den 30 oktober verifierades den aktuella Transifex-resursen `core` i
+redigeraren. Resursen rapporterar 576 av 576 strängar översatta och 0
+oöversatta ord. Den exakta pluralposten visas med de arkiverade måltexterna:
+
+- `Signaturen för %s saknas eller är ogiltig och kan därför inte verifieras.`
+- `De %n signaturerna för %s saknas eller är ogiltiga och kan därför inte verifieras.`
+
+Det finns alltså ingen ny Core-översättning att spara externt. Statusen
+`inte granskad` i Transifex gäller granskningsflödet i stort och är inte ett
+bevis på att just den här texten saknas.
