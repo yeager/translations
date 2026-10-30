@@ -118,6 +118,19 @@ Samtliga tretton poster skickades som ogranskade översättningar med enskilda
 PATCH-anrop till Transifex och returnerade HTTP 200. Efter återläsning matchar
 alla måltexter exakt, och filtret för oöversatta svenska strängar visar 0.
 
+## Passman Android
+
+Passman Android `v1.6.1` publicerades 2026-09-18 och uppfyller kravet på en
+officiell release inom 48 månader. Nio nya inställnings- och behörighetstexter
+för lokal nätverksåtkomst, lösenord och teckenval granskades och arkiverades i
+`nextcloud-passman-android-sv-20261030.json`.
+
+Kandidaten passerar `l10n-lint`, `svlang skrivregler`,
+platshållarjämförelse och Gitleaks. Hunspell markerar bara den korrekta
+sammansättningen med produktnamnet `Nextcloud-server`. Varje post skickades
+som en ogranskad Transifex-översättning med HTTP 200. Alla nio måltexter har
+lästs tillbaka exakt och filtret för oöversatta svenska strängar visar 0.
+
 ## Assistant
 
 Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
