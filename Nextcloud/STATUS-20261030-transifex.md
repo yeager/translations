@@ -73,6 +73,21 @@ appnamnstermer. Kandidaterna arkiverades i
 `nextcloud-android-notes-sv-20261030.json` och skickades som ogranskade
 översättningar med Transifex REST-API.
 
+## iOS
+
+Nextcloud iOS `35.2.2` publicerades 2026-10-29 och uppfyller kravet på en
+officiell release inom 48 månader. Åtta nya UI-strängar för lösenkod och
+planerade överföringar granskades mot resursens befintliga svenska termer och
+arkiverades i `nextcloud-ios-sv-20261030.json`.
+
+Kandidaten passerar `l10n-lint`, `svlang skrivregler`,
+platshållarjämförelse och Gitleaks. Hunspell markerar enbart den korrekta
+böjningsformen `lösenkoden`. Transifex returnerade ett generiskt HTTP 500 för
+bulkändpunkten utan att spara något. Samma åtta poster skickades därför en och
+en med resursöversättningarnas PATCH-ändpunkt, som svarade HTTP 200 för varje
+post. En återläsning matchar samtliga åtta måltexter exakt och filtret för
+oöversatta strängar visar 0.
+
 API-svaret var HTTP 200 med nio poster. Efterkontrollen visar 403 av 403
 strängar och 1 771 av 1 771 ord översatta samt 0 oöversatta strängar.
 
