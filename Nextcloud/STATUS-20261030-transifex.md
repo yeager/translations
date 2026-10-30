@@ -190,6 +190,12 @@ Hunspellträffarna är produktnamnet Nextcloud, tekniska kontot `root` och
 platshållaren `{tool}`. Alla tolv poster skickades med HTTP 200 och
 återlästes exakt. Statusen är nu 379 av 476 översatta strängar, med 97 kvar.
 
+Åttonde häftet, `nextcloud-serverinfo-sv-20261030-batch08.json`, innehåller
+nio fältetiketter för distribution, kärna, säkerhetssupport, paketlistor och
+uppgraderingar. Det passerar hela kontrollkedjan utan avvikelser. Alla nio
+poster skickades med HTTP 200 och återlästes exakt. Statusen är nu 388 av 476
+översatta strängar, med 88 kvar.
+
 ## Assistant
 
 Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
