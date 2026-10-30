@@ -81,6 +81,18 @@ REST-API med HTTP 200.
 Efterkontrollen visar 883 av 883 strängar och 3 397 av 3 397 ord översatta,
 med 0 oöversatta strängar kvar.
 
+## Assistant
+
+Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
+kravet på en officiell version inom 48 månader. Sjutton UI-strängar för
+assistentens svar, agentinstruktioner, åtgärdsomfång och aviseringar
+granskades mot resursens befintliga svenska termer. De arkiverades i
+`nextcloud-assistant-sv-20261030.json` och skickades via Transifex REST-API
+med HTTP 200.
+
+Efterkontrollen visar 552 av 552 strängar och 3 201 av 3 201 ord översatta,
+med 0 oöversatta strängar kvar.
+
 ## Analytics
 
 Analytics `7.2.0` publicerades 2026-10-29 och uppfyller kravet på en
