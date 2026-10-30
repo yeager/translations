@@ -138,3 +138,10 @@ Den separata pluralposten för `%n voter`/`%n voters` arkiverades i
 `nextcloud-agora-sv-20261030-plural01.json` och skickades därefter med båda
 svenska formerna. API:t bekräftade även den med HTTP 200. Efterkontrollen
 visar 1 857 av 2 103 strängar översatta, alltså 246 kvar.
+
+Den andra UI-batchen med 51 poster för grupptyper, fält och åtgärdsinställningar
+arkiverades i `nextcloud-agora-sv-20261030-batch02.json`. Samma
+kontrollkedja passerade och Transifex bekräftade samtliga poster med HTTP 200.
+Måltexten för varje post återlästes via API innan statusen räknades som
+skickad. Statistikändpunkten visar nu 1 908 av 2 103 strängar översatta,
+alltså 195 kvar.
