@@ -47,9 +47,16 @@ Utseende, systemkrediter, patchar och beroendeinstallation är lokaliserade.
   och tekniska sammansättningar är avsiktliga.
 - Gitleaks på den nya resurskatalogen – inga hemligheter.
 
-## Återstår
+## Upstreamresultat
 
-Den statiska SwiftUI-granskningen är genomförd. Kvarvarande råa litteraler är
-produktnamn, titel- och versions-ID:n, sökvägar, loggrader eller tekniska
-värden och ska inte översättas. Följ PR #3:s CI och underhållargranskning;
-nya funktioner ska använda samma katalog och kontrollskript.
+PR #3 stängdes 2026-10-28 utan merge. Projektägaren förklarade i
+[slutkommentaren](https://github.com/rennan101/nxnative_Launcher/pull/3#issuecomment-6477884610)
+att projektet hade bytt till en reaktiv språkmotor med inbyggd språkväxlare.
+Hela den svenska katalogen importerades i den nya systemet som **Svenska**,
+med kreditering till bidraget, och ägaren uppgav att den är live i release
+`v1.6.3`.
+
+Det här är därför en faktisk uppströmsleverans, även om GitHub-PR:n inte
+mergades. Kvarvarande råa litteraler är produktnamn, titel- och versions-ID:n,
+sökvägar, loggrader eller tekniska värden och ska inte översättas. Följ endast
+nya källsträngar och senare releaser.
