@@ -1,0 +1,463 @@
+From 5c48ccd42d25d3e341c32e33948ac215e08aea9f Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <po@danielnylander.se>
+Date: Fri, 30 Oct 2026 19:55:39 +0100
+Subject: [PATCH] feat(i18n): add Swedish native UI locale
+
+---
+ native/include/shelf/localization.hpp |  15 ++++
+ native/include/shelf/model.hpp        |   2 +
+ native/src/graphics.cpp               |  40 ++++++---
+ native/src/localization.cpp           | 114 ++++++++++++++++++++++++++
+ native/src/settings.cpp               |  16 +++-
+ native/src/ui.cpp                     |   5 +-
+ native/tests/settings_tests.cpp       |   7 +-
+ tools/build-native-host.js            |   7 +-
+ tools/test-native.js                  |   6 +-
+ 9 files changed, 190 insertions(+), 22 deletions(-)
+ create mode 100644 native/include/shelf/localization.hpp
+ create mode 100644 native/src/localization.cpp
+
+diff --git a/native/include/shelf/localization.hpp b/native/include/shelf/localization.hpp
+new file mode 100644
+index 0000000..5f42e3e
+--- /dev/null
++++ b/native/include/shelf/localization.hpp
+@@ -0,0 +1,15 @@
++// SPDX-License-Identifier: GPL-3.0-only
++#pragma once
++#include <array>
++#include <string_view>
++
++namespace shelf {
++// Keep the stored value stable: it is part of the on-disk settings format.
++enum class Language { english, swedish, count };
++
++inline constexpr std::array<std::string_view, 2> language_labels = {"English", "Svenska"};
++
++// Returns a UI string in the requested language. English source text is the
++// fallback, which keeps new strings usable until a catalogue is completed.
++std::string_view localize(Language language, std::string_view source);
++} // namespace shelf
+diff --git a/native/include/shelf/model.hpp b/native/include/shelf/model.hpp
+index f3f7268..dc8036c 100644
+--- a/native/include/shelf/model.hpp
++++ b/native/include/shelf/model.hpp
+@@ -1,6 +1,7 @@
+ // SPDX-License-Identifier: GPL-3.0-only
+ #pragma once
+ #include "catalog.generated.hpp"
++#include "localization.hpp"
+ 
+ namespace shelf {
+ enum class Layout { grid, swipe, shelf };
+@@ -33,6 +34,7 @@ struct Availability {
+ using Inventory = std::array<Availability, system_count>;
+ 
+ struct Preferences {
++    Language language = Language::english;
+     Layout layout = Layout::grid;
+     GridLook grid_look = GridLook::icons;
+     Scope scope = Scope::all;
+diff --git a/native/src/graphics.cpp b/native/src/graphics.cpp
+index 4b8adef..700168d 100644
+--- a/native/src/graphics.cpp
++++ b/native/src/graphics.cpp
+@@ -62,6 +62,7 @@ int noise_width = 0, noise_height = 0;
+ std::size_t movie_selected = system_count;
+ bool movie_demo = false;
+ bool movie_bundled = false;
++Language display_language = Language::english;
+ void stop_movie() {
+     tv_movie.close();
+     if (movie_texture) SDL_DestroyTexture(movie_texture);
+@@ -265,6 +266,8 @@ unsigned codepoint(std::string_view text, std::size_t& at) {
+     return '?';
+ }
+ int text_width(std::string_view text, int size, bool bold = false) {
++    if (display_language == Language::swedish)
++        text = localize(display_language, text);
+     auto* f = font(size, bold);
+     if (!f)
+         return 0;
+@@ -278,6 +281,8 @@ int text_width(std::string_view text, int size, bool bold = false) {
+     return static_cast<int>(advance);
+ }
+ void text(std::string_view value, int x, int y, int size, SDL_Color tint = white, bool bold = false, int limit = 1800) {
++    if (display_language == Language::swedish)
++        value = localize(display_language, value);
+     auto* f = font(size, bold);
+     if (!f)
+         return;
+@@ -533,7 +538,8 @@ void splash(float opacity, unsigned time_ms, bool loading, float appearance = 1,
+                     {194, 177, 255, static_cast<Uint8>(ink / (distance + 1))});
+         }
+         char hint[80];
+-        std::snprintf(hint, sizeof(hint), "Hold Circle for %u seconds to close", close_hold_ms / 1000);
++        const auto format = localize(display_language, "Hold Circle for %u seconds to close");
++        std::snprintf(hint, sizeof(hint), format.data(), close_hold_ms / 1000);
+         centered(hint, 960, 984, 19, {140, 140, 165, alpha});
+     }
+ }
+@@ -770,9 +776,11 @@ void home(const UiState& state) {
+     icon(p.layout == Layout::grid ? 4 : 2, layout_x + 32, tool_y + 33);
+     text(layout_labels[static_cast<std::size_t>(next_layout(p.layout))], layout_x + 58, tool_y + 17, 24, white, true);
+     char summary[160];
+-    std::snprintf(summary, sizeof(summary), "%s  /  %.*s  /  %zu systems", layout_labels[static_cast<std::size_t>(p.layout)].data(),
+-                  static_cast<int>(sorts[static_cast<std::size_t>(p.sort)].size()),
+-                  sorts[static_cast<std::size_t>(p.sort)].data(), shown.count);
++    const auto layout = localize(display_language, layout_labels[static_cast<std::size_t>(p.layout)]);
++    const auto sort = localize(display_language, sorts[static_cast<std::size_t>(p.sort)]);
++    const auto summary_format = localize(display_language, "%.*s  /  %.*s  /  %zu systems");
++    std::snprintf(summary, sizeof(summary), summary_format.data(), static_cast<int>(layout.size()), layout.data(),
++                  static_cast<int>(sort.size()), sort.data(), shown.count);
+     text(summary, 84, summary_y, 20, room ? SDL_Color{190, 205, 196, 255} : muted);
+     if (!shown.count) {
+         centered("Your shelf is ready for your choices", 960, 620, 42, white, true);
+@@ -919,7 +927,8 @@ void detail(const UiState& state) {
+     }
+     text(availability(state, id), 84, 366, 29, purple, true);
+     char count[80];
+-    std::snprintf(count, sizeof(count), "%zu discovered games", state.inventory[id].game_count);
++    const auto count_format = localize(display_language, "%zu discovered games");
++    std::snprintf(count, sizeof(count), count_format.data(), state.inventory[id].game_count);
+     if (state.page != Page::library)
+         text(count, 84, 415, 24, muted);
+     if (state.page == Page::library) {
+@@ -963,7 +972,9 @@ void detail(const UiState& state) {
+             }
+         }
+         char actions[240];
+-        std::snprintf(actions, sizeof(actions), "Cross  %s    D-pad  Browse    Left / Right  Page    Triangle  Favourite    Circle  Back", caption.action);
++        const auto action_format = localize(display_language, "Cross  %.*s    D-pad  Browse    Left / Right  Page    Triangle  Favourite    Circle  Back");
++        const auto action = localize(display_language, caption.action);
++        std::snprintf(actions, sizeof(actions), action_format.data(), static_cast<int>(action.size()), action.data());
+         footer(actions);
+         return;
+     }
+@@ -999,16 +1010,17 @@ void settings(const UiState& state) {
+     const auto& p = state.settings.preferences;
+     if (state.tab == SettingsTab::appearance) {
+         text("Your shelf, your style", 394, 338, 34, white, true);
+-        text("Choose Grid, curved Swipe, or a lit display Shelf.", 394, 388, 24, muted);
+-        label(394, 429, "Layout", layout_labels[static_cast<std::size_t>(p.layout)], state.settings_focus == 0);
+-        label(394, 519, "Grid look", p.layout != Layout::grid ? "Available in Grid layout" :
++        text("Choose Grid, curved Swipe, or a lit display Shelf.", 394, 378, 24, muted);
++        label(394, 409, "Layout", layout_labels[static_cast<std::size_t>(p.layout)], state.settings_focus == 0);
++        label(394, 474, "Grid look", p.layout != Layout::grid ? "Available in Grid layout" :
+               p.grid_look == GridLook::icons ? "3D console icons" : "Classic cards",
+               state.settings_focus == 1);
+-        label(394, 609, "isShelf logo", icon_names[static_cast<std::size_t>(p.icon)], state.settings_focus == 2);
+-        label(394, 699, "Missing emulator artwork", p.monochrome_missing ? "Black & white" : "Full colour",
++        label(394, 539, "isShelf logo", icon_names[static_cast<std::size_t>(p.icon)], state.settings_focus == 2);
++        label(394, 604, "Missing emulator artwork", p.monochrome_missing ? "Black & white" : "Full colour",
+               state.settings_focus == 3);
+-        label(394, 789, "Motion", p.reduced_motion ? "Reduced: instant page changes" : "Smooth console transitions",
++        label(394, 669, "Motion", p.reduced_motion ? "Reduced: instant page changes" : "Smooth console transitions",
+               state.settings_focus == 4);
++        label(394, 734, "Language", language_labels[static_cast<std::size_t>(p.language)], state.settings_focus == 5);
+     } else if (state.tab == SettingsTab::browse) {
+         text("Find your next favourite", 394, 338, 34, white, true);
+         text("Choose an order and narrow down your collection.", 394, 388, 24, muted);
+@@ -1024,7 +1036,8 @@ void settings(const UiState& state) {
+         text("TV content sits behind the glass. Shelf layout only.", 394, 388, 24, muted);
+         label(394, 421, "TV display", tv_labels[static_cast<std::size_t>(p.tv_mode)], state.settings_focus == 0);
+         label(394, 505, "Personal message - Cross to edit", state.settings.tv_text, state.settings_focus == 1);
+-        char interval[64]; std::snprintf(interval, sizeof(interval), "Every %u seconds", tv_periods[p.tv_period]);
++        char interval[64]; const auto interval_format = localize(display_language, "Every %u seconds");
++        std::snprintf(interval, sizeof(interval), interval_format.data(), tv_periods[p.tv_period]);
+         label(394, 589, "Favourite game rotation", interval, state.settings_focus == 2);
+         label(394, 673, "Console intros", p.intro_all ? "All consoles" : "Installed emulators and built-in systems", state.settings_focus == 3);
+         label(394, 757, "TV static for missing content", noise_labels[static_cast<std::size_t>(p.tv_noise)], state.settings_focus == 4);
+@@ -1185,6 +1198,7 @@ bool graphics_init(SDL_Renderer* target, const char* asset_root, const char* dat
+     return background && shelf_background && halo && font(24, false) && font(27, true);
+ }
+ void graphics_render(const UiState& state, unsigned time_ms, bool animate) {
++    display_language = state.settings.preferences.language;
+     render_time = time_ms;
+     if (state.presentation.artwork) {
+         SDL_SetRenderDrawColor(renderer, 11, 13, 28, 255);
+diff --git a/native/src/localization.cpp b/native/src/localization.cpp
+new file mode 100644
+index 0000000..a811cc7
+--- /dev/null
++++ b/native/src/localization.cpp
+@@ -0,0 +1,114 @@
++// SPDX-License-Identifier: GPL-3.0-only
++#include "shelf/localization.hpp"
++
++namespace shelf {
++namespace {
++struct Entry { std::string_view source, swedish; };
++// Source strings are keys deliberately: a new language only needs another
++// catalogue, while the English UI remains a safe fallback during development.
++constexpr Entry swedish[] = {
++    {"Finding your emulators and games", "Söker efter dina emulatorer och spel"},
++    {"Your systems, together", "Alla dina system samlade"},
++    {"Hold Circle for %u seconds to close", "Håll inne Cirkel i %u sekunder för att stänga"},
++    {"Every %u seconds", "Var %u:e sekund"}, {"%zu discovered games", "%zu hittade spel"},
++    {"%.*s  /  %.*s  /  %zu systems", "%.*s  /  %.*s  /  %zu system"},
++    {"NATIVE DEVELOPMENT BUILD / PC", "NATIV UTVECKLINGSVERSION / PC"},
++    {"PS5 / DEVELOPMENT BUILD", "PS5 / UTVECKLINGSVERSION"},
++    {"Cross  %.*s    D-pad  Browse    Left / Right  Page    Triangle  Favourite    Circle  Back", "Kryss  %.*s    Styrkors  Bläddra    Vänster / Höger  Sida    Triangel  Favorit    Cirkel  Tillbaka"},
++    {"Library connection unavailable", "Biblioteksanslutningen är inte tillgänglig"},
++    {"Built-in system", "Inbyggt system"}, {"Direct game route", "Direktstart av spel"},
++    {"Opens emulator menu", "Öppnar emulatormenyn"}, {"Emulator detected", "Emulator hittades"},
++    {"No emulator detected", "Ingen emulator hittades"},
++    {"Your play room", "Ditt spelrum"}, {"Your favourite games", "Dina favoritspel"},
++    {"isShelf demo - add your own console intro", "isShelf-demo – lägg till en egen konsolintroduktion"},
++    {"Add your own intro in Play room", "Lägg till en egen introduktion i Spelrum"},
++    {"Intro set to installed consoles only", "Introduktioner visas bara för installerade konsoler"},
++    {"Add tv-image.png to your isShelf data folder", "Lägg tv-image.png i isShelfs datamapp"},
++    {"FROM YOUR FAVOURITES", "FRÅN DINA FAVORITER"},
++    {"Press Triangle on a game in isShelf's library", "Tryck på Triangel på ett spel i isShelfs bibliotek"},
++    {"ONE HOME FOR YOUR SYSTEMS", "ETT HEM FÖR DINA SYSTEM"}, {"Your console collection", "Din konsolsamling"},
++    {"What do you want", "Vad vill du"}, {"to play today?", "spela i dag?"},
++    {"Find a console, brand or core...", "Hitta en konsol, tillverkare eller kärna …"},
++    {"Your shelf is ready for your choices", "Din hylla är redo för dina val"},
++    {"Choose up to 8 consoles in Settings > Consoles.", "Välj upp till 8 konsoler i Inställningar > Konsoler."},
++    {"Add favourites with Triangle, or change the view in Settings.", "Lägg till favoriter med Triangel eller ändra vyn i Inställningar."},
++    {"Choose All consoles or enable systems in settings.", "Välj Alla konsoler eller aktivera system i Inställningar."},
++    {"Choose your 8 in Consoles. Grid and Swipe keep your full collection.", "Välj dina 8 i Konsoler. Rutnät och Svep behåller hela din samling."},
++    {"L1 / R1 changes pages in Shelf. Your filters apply to every page.", "L1 / R1 byter sida i Hylla. Dina filter gäller för varje sida."},
++    {"CONSOLE", "KONSOL"}, {"Favourite", "Favorit"}, {"YOUR SYSTEM COLLECTION", "DIN SYSTEMSAMLING"},
++    {"PS5 system", "PS5-system"}, {"Launch information", "Startinformation"},
++    {"Your library", "Ditt bibliotek"}, {"Connect a library to see your games here.", "Anslut ett bibliotek för att se dina spel här."},
++    {"No games found for this console yet.", "Inga spel har hittats för den här konsolen ännu."},
++    {"Preferred emulator", "Föredragen emulator"}, {"Open emulator library", "Öppna emulatorbibliotek"},
++    {"Show game library", "Visa spelbibliotek"}, {"Choose Show game library to see how each game will open.", "Välj Visa spelbibliotek för att se hur varje spel öppnas."},
++    {"MAKE IT YOURS", "GÖR DEN TILL DIN"},
++    {"isShelf settings", "isShelf-inställningar"}, {"Changes save automatically", "Ändringar sparas automatiskt"},
++    {"Appearance", "Utseende"}, {"Sort & filter", "Sortering och filter"}, {"Consoles", "Konsoler"}, {"Play room", "Spelrum"},
++    {"Your shelf, your style", "Din hylla, din stil"}, {"Choose Grid, curved Swipe, or a lit display Shelf.", "Välj Rutnät, den böjda vyn Svep eller den upplysta Hyllan."},
++    {"Grid", "Rutnät"}, {"Swipe", "Svep"}, {"Shelf", "Hylla"}, {"Grid look", "Rutnätsutseende"},
++    {"Available in Grid layout", "Tillgängligt i rutnätslayout"}, {"3D console icons", "3D-konsolikoner"}, {"Classic cards", "Klassiska kort"},
++    {"isShelf logo", "isShelf-logotyp"}, {"Gaming", "Spel"}, {"Classic mint", "Klassisk mint"}, {"Vector (default)", "Vektor (standard)"},
++    {"Missing emulator artwork", "Saknad emulatorgrafik"}, {"Black & white", "Svartvitt"}, {"Full colour", "Färg"},
++    {"Motion", "Rörelser"}, {"Reduced: instant page changes", "Minskade: omedelbara sidbyten"}, {"Smooth console transitions", "Mjuka konsolövergångar"},
++    {"Language", "Språk"}, {"Find your next favourite", "Hitta nästa favorit"},
++    {"Choose an order and narrow down your collection.", "Välj en ordning och begränsa din samling."},
++    {"Sort by", "Sortera efter"}, {"Brand", "Tillverkare"}, {"All brands", "Alla tillverkare"}, {"Availability", "Tillgänglighet"}, {"Shelf pages", "Hylla-sidor"},
++    {"Featured order", "Utvald ordning"}, {"Name: A to Z", "Namn: A till Ö"}, {"Name: Z to A", "Namn: Ö till A"},
++    {"Newest hardware", "Nyast hårdvara"}, {"Oldest hardware", "Äldst hårdvara"}, {"Brand, then name", "Tillverkare, sedan namn"},
++    {"Most games first", "Flest spel först"}, {"Favorites first", "Favoriter först"}, {"All systems", "Alla system"},
++    {"Games detected", "Spel hittades"}, {"Built-in systems", "Inbyggda system"}, {"No launch route", "Ingen startväg"},
++    {"One curated shelf: choose up to 8 consoles", "En anpassad hylla: välj upp till 8 konsoler"},
++    {"Browse collection: 8 consoles per page", "Bläddra i samlingen: 8 konsoler per sida"},
++    {"Your room, your screen", "Ditt rum, din skärm"}, {"TV content sits behind the glass. Shelf layout only.", "TV-innehållet ligger bakom glaset. Endast i hylllayout."},
++    {"TV display", "TV-visning"}, {"Personal message - Cross to edit", "Personligt meddelande – Kryss för att redigera"},
++    {"Favourite game rotation", "Växling mellan favoritspel"}, {"Console intros", "Konsolintroduktioner"}, {"All consoles", "Alla konsoler"},
++    {"Installed emulators and built-in systems", "Installerade emulatorer och inbyggda system"}, {"TV static for missing content", "TV-brus vid saknat innehåll"},
++    {"Off", "Av"}, {"No emulator installed", "Ingen emulator installerad"}, {"No games found", "Inga spel hittades"}, {"No emulator or no games", "Ingen emulator eller inga spel"},
++    {"Own intros: /data/console-shelf/intros/<console-id>.png or .mpg", "Egna introduktioner: /data/console-shelf/intros/<console-id>.png eller .mpg"},
++    {"isShelf originals included. Your personal PNG or MPEG-1 clip takes priority.", "isShelfs original ingår. Din egen PNG- eller MPEG-1-video har företräde."},
++    {"Show on my shelf", "Visa på min hylla"}, {"Emulator or games", "Emulator eller spel"}, {"Favourites only", "Endast favoriter"},
++    {"Find a console or brand...", "Hitta en konsol eller tillverkare …"}, {"display spaces filled", "visningsplatser fyllda"}, {"enabled", "aktiverade"},
++    {"Fill spaces", "Fyll platser"}, {"Clear selection", "Rensa markering"}, {"Show results", "Visa resultat"}, {"Show all", "Visa alla"}, {"Hide results", "Dölj resultat"}, {"Hide all", "Dölj alla"},
++    {"Cross: toggle brand", "Kryss: växla tillverkare"}, {"No consoles match this search", "Inga konsoler matchar sökningen"},
++    {"Your room message", "Ditt rumsmeddelande"}, {"Find a console", "Hitta en konsol"}, {"Del", "Radera"}, {"Space", "Mellanslag"}, {"Clear", "Rensa"}, {"Done", "Klar"},
++    {"Hold Circle to close isShelf", "Håll inne Cirkel för att stänga isShelf"}, {"Keep holding for 3 seconds", "Fortsätt hålla inne i 3 sekunder"},
++    {"Opening your selection", "Öppnar ditt val"}, {"Closing isShelf", "Stänger isShelf"},
++    {"Cross  Choose consoles    Options  Settings    Circle  Back", "Kryss  Välj konsoler    Options  Inställningar    Cirkel  Tillbaka"},
++    {"D-pad / Stick  Browse    Cross  Open    Triangle  Favourite    Square  Layout    Options  Settings    Circle  Back", "Styrkors / spak  Bläddra    Kryss  Öppna    Triangel  Favorit    Fyrkant  Layout    Options  Inställningar    Cirkel  Tillbaka"},
++    {"D-pad  Choose action    Cross  Select    Triangle  Favourite    Circle  Back    Options  Settings", "Styrkors  Välj åtgärd    Kryss  Välj    Triangel  Favorit    Cirkel  Tillbaka    Options  Inställningar"},
++    {"L1 / R1  Sections     D-pad  Choose     Cross / Left / Right  Change     Circle  Done", "L1 / R1  Avsnitt     Styrkors  Välj     Kryss / Vänster / Höger  Ändra     Cirkel  Klar"},
++    {"Cross  Type     Square  Delete     Triangle  Clear     Options / Circle  Done", "Kryss  Skriv     Fyrkant  Radera     Triangel  Rensa     Options / Cirkel  Klar"},
++    {"All 8 spaces are filled. Remove a console before adding another.", "Alla 8 platser är fyllda. Ta bort en konsol innan du lägger till en annan."},
++    {"Preparing the emulator...", "Förbereder emulatorn …"}, {"Launch adapter is not connected in this development build.", "Startadaptern är inte ansluten i den här utvecklingsversionen."},
++    {"No compatible emulator has been detected yet.", "Ingen kompatibel emulator har hittats ännu."},
++    {"Your 64 favourite game spaces are full.", "Dina 64 platser för favoritspel är fulla."},
++    {"This emulator opens its own library. Choose the game there.", "Den här emulatorn öppnar sitt eget bibliotek. Välj spelet där."},
++    {"Preparing your game...", "Förbereder ditt spel …"}, {"A direct launch route is not available for this game yet.", "En direktstartväg är inte tillgänglig för det här spelet ännu."},
++    {"An earlier launch is still pending. Wait a moment and try again.", "En tidigare start väntar fortfarande. Vänta en stund och försök igen."},
++    {"isShelf could not prepare its launch request.", "isShelf kunde inte förbereda startbegäran."},
++    {"The loader is unavailable. Open Payload Manager and try again.", "Inläsaren är inte tillgänglig. Öppna Payload Manager och försök igen."},
++    {"The launcher could not confirm isShelf is the active app. Diagnostic details were saved.", "Startaren kunde inte bekräfta att isShelf är den aktiva appen. Diagnostikinformation sparades."},
++    {"The launcher could not prepare the handoff. Diagnostic details were saved.", "Startaren kunde inte förbereda överlämningen. Diagnostikinformation sparades."},
++    {"The launcher did not answer. Keep Payload Manager available and try again.", "Startaren svarade inte. Låt Payload Manager vara tillgänglig och försök igen."},
++    {"Invalid launch request or bundled helper.", "Ogiltig startbegäran eller medföljande hjälpprogram."},
++    {"Invalid console launch destination.", "Ogiltigt startmål för konsolen."},
++    {"isShelf could not start its launcher task.", "isShelf kunde inte starta startuppgiften."},
++    {"The handoff is no longer ready. Please try again.", "Överlämningen är inte längre redo. Försök igen."},
++    {"Play game", "Spela"}, {"Open game", "Öppna spel"}, {"No launch available", "Ingen start är tillgänglig"},
++    {"LIBRARY ONLY", "ENDAST BIBLIOTEK"}, {"DIRECT PLAY", "SPELA DIREKT"}, {"UNAVAILABLE", "INTE TILLGÄNGLIG"},
++    {"Choose the game there. Circle returns to your emulator choices.", "Välj spelet där. Cirkel återgår till dina emulatorval."},
++    {"The selected game opens directly in your chosen emulator.", "Det valda spelet öppnas direkt i den valda emulatorn."},
++    {"The selected game opens directly on your PS5.", "Det valda spelet öppnas direkt på din PS5."},
++    {"Choose a compatible installed emulator to play this game.", "Välj en kompatibel installerad emulator för att spela det här spelet."},
++};
++}
++
++std::string_view localize(Language language, std::string_view source) {
++    if (language != Language::swedish)
++        return source;
++    for (const auto& entry : swedish)
++        if (entry.source == source)
++            return entry.swedish;
++    return source;
++}
++} // namespace shelf
+diff --git a/native/src/settings.cpp b/native/src/settings.cpp
+index 0013099..6a6607a 100644
+--- a/native/src/settings.cpp
++++ b/native/src/settings.cpp
+@@ -25,6 +25,7 @@ constexpr std::array<const char*, 5> filter_names = {"all", "emulators", "games"
+ constexpr std::array<const char*, 4> icon_names = {"gaming", "classic", "jade", "vector"};
+ constexpr std::array<const char*, 8> tv_names = {"console", "intro", "picture", "clock", "message", "favorites", "off", "video"};
+ constexpr std::array<const char*, 4> noise_names = {"off", "emulator", "games", "either"};
++constexpr std::array<const char*, 2> language_names = {"en", "sv"};
+ bool valid_text(const char* text, std::size_t capacity) {
+     if (!std::memchr(text, 0, capacity)) return false;
+     for (const unsigned char* at = reinterpret_cast<const unsigned char*>(text); *at; ++at)
+@@ -101,6 +102,7 @@ bool valid(const Settings& settings) {
+         static_cast<unsigned>(p.grid_look) >= look_names.size() ||
+         static_cast<unsigned>(p.scope) >= scope_names.size() || static_cast<unsigned>(p.sort) >= sort_names.size() ||
+         static_cast<unsigned>(p.filter) >= filter_names.size() || static_cast<unsigned>(p.icon) >= icon_names.size() ||
++        static_cast<unsigned>(p.language) >= language_names.size() ||
+         p.brand >= brands.size() || static_cast<unsigned>(p.tv_mode) >= tv_names.size() ||
+         p.tv_period >= tv_periods.size() || static_cast<unsigned>(p.tv_noise) >= noise_names.size() ||
+         !valid_text(settings.tv_text, sizeof(settings.tv_text)))
+@@ -130,7 +132,7 @@ bool read_file(const char* path, Settings& output) {
+     std::rewind(file);
+     Settings parsed;
+     constexpr std::size_t room_keys = 11 + system_count * 4;
+-    std::array<bool, room_keys + 5 + 64> seen{};
++    std::array<bool, room_keys + 6 + 64> seen{};
+     char line[256];
+     std::size_t bytes = 0;
+     bool okay = true;
+@@ -222,6 +224,13 @@ bool read_file(const char* path, Settings& output) {
+                 }
+             if (!found)
+                 okay = false;
++        } else if (std::strcmp(line, "language") == 0) {
++            key = static_cast<int>(room_keys + 69); // Optional in legacy settings.
++            const int n = choice(value, language_names);
++            if (n < 0)
++                okay = false;
++            else
++                parsed.preferences.language = static_cast<Language>(n);
+         } else if (std::strcmp(line, "tv_mode") == 0) {
+             key = static_cast<int>(room_keys);
+             const int n = choice(value, tv_names);
+@@ -377,11 +386,12 @@ bool save_settings(const char* path, const Settings& settings) {
+     bool okay = std::fprintf(
+                     file,
+                     "# isShelf settings; schema 1; console keys use stable "
+-                    "IDs\nversion=1\nlayout=%s\nlook=%s\nscope=%s\nsort=%s\nfilter=%s\nicon=%s\nbrand=%.*s\n",
++                    "IDs\nversion=1\nlayout=%s\nlook=%s\nscope=%s\nsort=%s\nfilter=%s\nicon=%s\nbrand=%.*s\nlanguage=%s\n",
+                     layout_names[static_cast<std::size_t>(p.layout)], look_names[static_cast<std::size_t>(p.grid_look)],
+                     scope_names[static_cast<std::size_t>(p.scope)], sort_names[static_cast<std::size_t>(p.sort)],
+                     filter_names[static_cast<std::size_t>(p.filter)], icon_names[static_cast<std::size_t>(p.icon)],
+-                    static_cast<int>(brands[p.brand].size()), brands[p.brand].data()) > 0;
++                    static_cast<int>(brands[p.brand].size()), brands[p.brand].data(),
++                    language_names[static_cast<std::size_t>(p.language)]) > 0;
+     if (okay)
+         okay = std::fprintf(file, "monochrome_missing=%d\nshelf_single=%d\nreduced_motion=%d\n",
+                             p.monochrome_missing ? 1 : 0, p.shelf_single ? 1 : 0, p.reduced_motion ? 1 : 0) > 0;
+diff --git a/native/src/ui.cpp b/native/src/ui.cpp
+index 48893a7..cad9046 100644
+--- a/native/src/ui.cpp
++++ b/native/src/ui.cpp
+@@ -62,6 +62,9 @@ void picker_set(UiState& state, std::size_t id, bool enabled) {
+ void cycle(UiState& state, int direction) {
+     auto& p = state.settings.preferences;
+     if (state.tab == SettingsTab::appearance) {
++        if (state.settings_focus == 5)
++            p.language = static_cast<Language>((static_cast<int>(p.language) + direction + static_cast<int>(Language::count)) %
++                                               static_cast<int>(Language::count));
+         if (state.settings_focus == 0)
+             p.layout = next_layout(p.layout, direction);
+         if (state.settings_focus == 1 && p.layout == Layout::grid)
+@@ -254,7 +257,7 @@ void input(UiState& state, Action action) {
+         }
+         const int max_focus =
+             state.tab == SettingsTab::consoles ? 3 + static_cast<int>(console_picker(state).count) :
+-            state.tab == SettingsTab::appearance || state.tab == SettingsTab::room ? 4 : 3;
++            state.tab == SettingsTab::appearance ? 5 : state.tab == SettingsTab::room ? 4 : 3;
+         if (action == Action::up)
+             state.settings_focus = clamp(state.settings_focus - 1, max_focus);
+         if (action == Action::down)
+diff --git a/native/tests/settings_tests.cpp b/native/tests/settings_tests.cpp
+index 30ec3cb..6caa555 100644
+--- a/native/tests/settings_tests.cpp
++++ b/native/tests/settings_tests.cpp
+@@ -25,6 +25,9 @@ void write(const char* path, const char* text) {
+ } // namespace
+ void test_settings() {
+     using namespace shelf;
++    check(localize(Language::swedish, "Language") == "Språk", "Swedish catalogue translates a UI key");
++    check(localize(Language::swedish, "Uncatalogued fallback") == "Uncatalogued fallback",
++          "new source text remains usable before its catalogue entry exists");
+     const auto stamp = std::chrono::steady_clock::now().time_since_epoch().count();
+     char directory[128], path[160];
+     std::snprintf(directory, sizeof(directory), "settings-test-%lld", static_cast<long long>(stamp));
+@@ -47,6 +50,7 @@ void test_settings() {
+     settings.preferences.hidden[find_system("ps2")] = true;
+     settings.preferences.favorite[find_system("n64")] = true;
+     settings.preferences.sort = Sort::favorites;
++    settings.preferences.language = Language::swedish;
+     settings.preferences.brand = 2;
+     std::strcpy(settings.preferred_emulator[find_system("ps2")].data(), "ps5sx2");
+     std::strcpy(settings.preferred_emulator[find_system("ps1")].data(), "retroarch:swanstation");
+@@ -56,7 +60,8 @@ void test_settings() {
+     check(load_settings(path, read) == SettingsLoad::loaded, "reload valid settings");
+     check(read.preferences.hidden[find_system("ps2")] && read.preferences.favorite[find_system("n64")],
+           "stable console IDs survive reload");
+-    check(read.preferences.sort == Sort::favorites && read.preferences.brand == 2, "sort and brand persist");
++    check(read.preferences.sort == Sort::favorites && read.preferences.brand == 2 && read.preferences.language == Language::swedish,
++          "sort, brand and language persist");
+     check(std::strcmp(read.preferred_emulator[find_system("ps2")].data(), "ps5sx2") == 0,
+           "preferred emulator persists");
+     check(std::strcmp(read.preferred_emulator[find_system("ps1")].data(), "retroarch:swanstation") == 0 &&
+diff --git a/tools/build-native-host.js b/tools/build-native-host.js
+index 020f27f..5edf6fc 100644
+--- a/tools/build-native-host.js
++++ b/tools/build-native-host.js
+@@ -6,7 +6,7 @@ const root = path.resolve(__dirname, '..');
+ const build = path.join(root, '.cache/native-host');
+ fs.mkdirSync(build, { recursive: true });
+ function run(command,args,options={}) { const result=spawnSync(command,args,{cwd:build,stdio:'inherit',windowsHide:true,...options});if(result.error)throw result.error;if(result.status!==0)throw new Error(`Build command failed (${result.status})`); }
+-const sources=['model.cpp','settings.cpp','ui.cpp','graphics.cpp','codecs.cpp','movie.cpp','library.cpp','filesystem.cpp','metadata.cpp','ftp.cpp','launch_client.cpp','json.c','host_main.cpp'].map(file=>path.join(root,'native/src',file));
++const sources=['model.cpp','localization.cpp','settings.cpp','ui.cpp','graphics.cpp','codecs.cpp','movie.cpp','library.cpp','filesystem.cpp','metadata.cpp','ftp.cpp','launch_client.cpp','json.c','host_main.cpp'].map(file=>path.join(root,'native/src',file));
+ const includes=[path.join(root,'native/include'),path.join(root,'native/third_party')];
+ if(process.platform==='win32'){
+   run(process.execPath,[path.join(root,'tools/fetch-native-deps.js')]);
+@@ -22,6 +22,9 @@ if(process.platform==='win32'){
+   fs.copyFileSync(path.join(sdl,'lib/x64/SDL2.dll'),path.join(build,'SDL2.dll'));
+ }else{
+   const flags=spawnSync('sdl2-config',['--cflags','--libs'],{encoding:'utf8'});if(flags.status!==0)throw new Error('An existing SDL2 development installation is required.');
+-  run('c++',['-std=c++17','-O2','-Wall','-Wextra','-Werror','-Wno-unused-function',...includes.flatMap(value=>['-I',value]),...sources,...flags.stdout.trim().split(/\s+/),'-o','shelf-host']);
++  // Apple clang diagnoses bundled third-party C headers more strictly than the
++  // project compiler settings on PS5/Linux. Keep our own warnings fatal.
++  const warningCompatibility=process.platform==='darwin'?['-Wno-error=deprecated','-Wno-error=missing-field-initializers']:[];
++  run('c++',['-std=c++17','-O2','-Wall','-Wextra','-Werror','-Wno-unused-function',...warningCompatibility,...includes.flatMap(value=>['-I',value]),...sources,...flags.stdout.trim().split(/\s+/),'-o','shelf-host']);
+ }
+ console.log('Built native host renderer in .cache/native-host.');
+diff --git a/tools/test-native.js b/tools/test-native.js
+index 94dde84..9a4e8a7 100644
+--- a/tools/test-native.js
++++ b/tools/test-native.js
+@@ -7,6 +7,7 @@ const root = path.resolve(__dirname, '..');
+ const build = path.join(root, '.cache/native-tests');
+ fs.mkdirSync(build, { recursive: true });
+ const source = path.join(root, 'native/src/model.cpp');
++const localization = path.join(root, 'native/src/localization.cpp');
+ const tests = path.join(root, 'native/tests/model_tests.cpp');
+ const settings = path.join(root, 'native/src/settings.cpp');
+ const settingsTests = path.join(root, 'native/tests/settings_tests.cpp');
+@@ -33,9 +34,10 @@ if (process.platform === 'win32') {
+     if (/["%\r\n]/.test(value)) throw new Error('Unsupported character in compiler input path.');
+     return `"${value}"`;
+   };
+-  const command = `call ${quoted(developerCommand)} -no_logo -arch=x64 -host_arch=x64 >nul && cl.exe /nologo /std:c++17 /EHsc /utf-8 /D_CRT_SECURE_NO_WARNINGS /W4 /WX /I${quoted(includes)} /I${quoted(path.join(root,'native/third_party'))} ${[source,settings,ui,tests,settingsTests,uiTests,navigationTests,launchTests,...librarySources,libraryTests].map(quoted).join(' ')} /Fe:model-tests.exe`;
++  const command = `call ${quoted(developerCommand)} -no_logo -arch=x64 -host_arch=x64 >nul && cl.exe /nologo /std:c++17 /EHsc /utf-8 /D_CRT_SECURE_NO_WARNINGS /W4 /WX /I${quoted(includes)} /I${quoted(path.join(root,'native/third_party'))} ${[source,localization,settings,ui,tests,settingsTests,uiTests,navigationTests,launchTests,...librarySources,libraryTests].map(quoted).join(' ')} /Fe:model-tests.exe`;
+   run(process.env.ComSpec || 'cmd.exe', ['/d', '/s', '/c', `"${command}"`], { windowsVerbatimArguments: true });
+ } else {
+-  run('c++', ['-std=c++17', '-Wall', '-Wextra', '-Werror', '-I', includes, '-I',path.join(root,'native/third_party'),source, settings, ui, tests, settingsTests, uiTests,navigationTests,launchTests,...librarySources,libraryTests,'-o', output]);
++  const warningCompatibility = process.platform === 'darwin' ? ['-Wno-error=deprecated'] : [];
++  run('c++', ['-std=c++17', '-Wall', '-Wextra', '-Werror', ...warningCompatibility, '-I', includes, '-I',path.join(root,'native/third_party'),source, localization, settings, ui, tests, settingsTests, uiTests,navigationTests,launchTests,...librarySources,libraryTests,'-o', output]);
+ }
+ run(output, []);
+-- 
+2.54.0 (Apple Git-157)
+
