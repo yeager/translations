@@ -1,4 +1,4 @@
-import type { Translations } from './en.js'
+import type { Translations } from './types.js'
 
 export const sv: Translations = {
   panels: {
