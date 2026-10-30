@@ -155,3 +155,8 @@ Fjärde batchen med 20 poster för alternativtyper arkiverades i
 `nextcloud-agora-sv-20261030-batch04.json`. Kontrollkedjan passerade och
 Transifex API bekräftade alla med HTTP 200. Efterkontrollen visar 1 958 av
 2 103 strängar översatta, alltså 145 kvar.
+
+Femte batchen med 32 poster för svarstyper och förfrågningstyper finns i
+`nextcloud-agora-sv-20261030-batch05.json`. Den passerade kontrollkedjan och
+skickades med HTTP 200. Statistikändpunkten visar 1 990 av 2 103 strängar
+översatta, alltså 113 kvar.
