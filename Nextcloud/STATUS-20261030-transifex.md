@@ -160,3 +160,9 @@ Femte batchen med 32 poster för svarstyper och förfrågningstyper finns i
 `nextcloud-agora-sv-20261030-batch05.json`. Den passerade kontrollkedjan och
 skickades med HTTP 200. Statistikändpunkten visar 1 990 av 2 103 strängar
 översatta, alltså 113 kvar.
+
+Sjätte batchen med 25 poster för förfrågningsinställningar och
+omröstningsmetoder finns i `nextcloud-agora-sv-20261030-batch06.json`.
+Den passerade kontrollkedjan och Transifex API bekräftade 25 sparade
+måltexter. Statistikändpunkten visar 2 015 av 2 103 strängar översatta,
+alltså 88 kvar.
