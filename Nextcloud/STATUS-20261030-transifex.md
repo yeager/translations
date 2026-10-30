@@ -152,6 +152,14 @@ produktnamnet Nextcloud och tekniska termer. Samtliga 20 poster skickades med
 HTTP 200 och återlästes exakt. Aktuell statistik visar 305 av 476 strängar
 översatta och 171 kvar.
 
+Tredje häftet, `nextcloud-serverinfo-sv-20261030-batch03.json`, omfattar 20
+poster om operativsystemets status, stödperioder, säkerhetsuppdateringar och
+bakgrundskontroller. Fem pluralposter har separata svenska former och
+kommandot `occ serverinfo:os-status --refresh` är bevarat. Häftet passerar
+hela kontrollkedjan; Hunspell träffar endast kommandon, platshållare och
+produktnamn. Alla 20 poster returnerade HTTP 200, matchar exakt vid
+återläsning och höjer statusen till 325 av 476 översatta strängar. 151 återstår.
+
 ## Assistant
 
 Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
