@@ -48,3 +48,11 @@ oöversatta ord. Den exakta pluralposten visas med de arkiverade måltexterna:
 Det finns alltså ingen ny Core-översättning att spara externt. Statusen
 `inte granskad` i Transifex gäller granskningsflödet i stort och är inte ett
 bevis på att just den här texten saknas.
+
+## Calendar
+
+Calendar hade en oöversatt pluralpost (Transifex-ID `640052248`) med
+utvecklarkontexten `CalendarList.vue:208`. Den granskades och arkiverades i
+`nextcloud-calendar-sv-20261030.json` med formerna `Delad kalender` och
+`Delade kalendrar`. Den 30 oktober sparades båda formerna i Transifex av
+`yeager`; därefter visade filtret för oöversatta strängar 0 av 827.

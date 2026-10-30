@@ -69,9 +69,10 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   arkiverad i [Transifex-statusen](Nextcloud/STATUS-20261030-transifex.md).
   Den aktuella Transifex-vyn verifierar att båda formerna redan finns och att
   Core har 0 oöversatta ord; ingen ny import krävs för den posten.
-  Flera separata appar har egna nya köer, bland annat `agora.pot` (321),
-  `contacts` (31) och `android-talk` (25); fortsätt med en komponent i taget
-  efter att Core har sparats.
+  Calendar är också klar: dess enda pluralpost sparades i Transifex och
+  filtret visar 0 oöversatta strängar. Flera separata appar har egna nya köer,
+  bland annat `agora.pot` (321), `contacts` (31) och `android-talk` (25);
+  fortsätt med en komponent i taget.
 
 Senast kontrollerades även:
 
