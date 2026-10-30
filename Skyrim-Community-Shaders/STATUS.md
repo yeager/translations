@@ -12,6 +12,13 @@ nyckelordnade svenska porten. Efter rebasen 2026-10-29 har både den aktuella
 engelska och svenska katalogen 4 238 nycklar. Den är en komplett svensk
 katalog utan engelska reservtexter.
 
+## Uppströmsstatus
+
+2026-10-30 kontrollerades GitHubs aktuella PR-status: den svenska katalogen i
+[PR #3051](https://github.com/community-shaders/skyrim-community-shaders/pull/3051)
+slogs ihop i projektets `dev`-gren 2026-10-29 10:14 UTC. Arbetet är därmed
+färdigt uppströms. De äldre avsnitten nedan beskriver läget före mergningen.
+
 Kontroller 2026-10-28:
 
 - Projektets `extract-i18n.py --check` och `--orphans` passerar.
