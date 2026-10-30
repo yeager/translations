@@ -203,6 +203,14 @@ omstarter, paketlistor och återställning av standardinställningar. Det passer
 utan avvikelser. Alla 15 poster skickades med HTTP 200 och återlästes exakt.
 Statusen är nu 403 av 476 strängar översatta, med 73 kvar.
 
+Tionde häftet, `nextcloud-serverinfo-sv-20261030-batch10.json`, innehåller
+20 korta status- och åtgärdssträngar för uppdateringsfilter, säkerhetsuppdateringar,
+paket och root-hjälparens rapport. Tre pluralposter har svenska entals- och
+flertalsformer. Häftet passerar hela kontrollkedjan; Hunspellträffarna är de
+avsiktliga tekniska termerna `root` och `{tool}`. Alla 20 poster skickades med
+HTTP 200 och återlästes exakt. Statusen är nu 423 av 476 strängar översatta,
+med 53 kvar.
+
 ## Assistant
 
 Assistant har den aktuella taggen `v4.1.0` från 2026-10-26 och uppfyller
