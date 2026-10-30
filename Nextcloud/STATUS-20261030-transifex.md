@@ -166,3 +166,9 @@ omröstningsmetoder finns i `nextcloud-agora-sv-20261030-batch06.json`.
 Den passerade kontrollkedjan och Transifex API bekräftade 25 sparade
 måltexter. Statistikändpunkten visar 2 015 av 2 103 strängar översatta,
 alltså 88 kvar.
+
+Åttonde batchen med 30 poster för ytterligare röstningsmetoder och
+debattfunktioner finns i `nextcloud-agora-sv-20261030-batch08.json`. Den
+skickades efter en ny API-förkontroll och Transifex bekräftade alla 30 med
+HTTP 200. Statistikändpunkten visar 2 037 av 2 103 strängar översatta,
+alltså 66 kvar.
