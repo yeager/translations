@@ -19,3 +19,17 @@ visar 1 943 av 1 943 svenska strängar översatta och 0 oöversatta.
 
 Färskhetskontroll: den lokala aktuella källan har taggen `build-51` från
 30 oktober 2026.
+
+## Android-resurs – uppföljning 31 oktober 2026
+
+Den aktuella Android-resursen `android-translations` hade sju svenska
+oöversatta strängar: en uppdaterad hjälptipsrad för bloom samt sex strängar
+för fuskkoder. De granskades och skickades via Transifex REST-API. Underlaget
+finns i
+[`eden-android-sv-batch-001-20261031.json`](../eden/eden-android-sv-batch-001-20261031.json).
+
+`l10n-lint` och svlangs skrivregelskontroll gav inga fynd. Hunspell-SV
+markerade endast den avsedda grafiktermen `bloom` och spelnamnet `Burnout`.
+Alla sju API-svar var HTTP 200 och varje måltext lästes tillbaka exakt.
+Resursstatistiken visar därefter 1 082 av 1 082 svenska Android-strängar
+översatta och 0 oöversatta.
