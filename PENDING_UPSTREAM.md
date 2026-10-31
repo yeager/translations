@@ -93,6 +93,10 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
 
 Senast kontrollerades även:
 
+- **Wireshark Qt 5.0:** 45 nya UI-rader skickades och återlästes via
+  Transifex API den 31 oktober. Resursen är verifierad till 4 488 av 4 488
+  översatta strängar; se
+  [sändningsbeviset](Wireshark/STATUS-20261031-qt-50-batch-01.md).
 - Hosted Weblate Application: 40 granskade ändringar importerade och verifierade.
 - Hosted Weblate Website: 7 granskade ändringar importerade och verifierade.
 - GNU Mailman Core: den sista radbrytningsrättningen sparades i Weblate
