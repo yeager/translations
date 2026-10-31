@@ -33,3 +33,14 @@ markerade endast den avsedda grafiktermen `bloom` och spelnamnet `Burnout`.
 Alla sju API-svar var HTTP 200 och varje måltext lästes tillbaka exakt.
 Resursstatistiken visar därefter 1 082 av 1 082 svenska Android-strängar
 översatta och 0 oöversatta.
+
+## Qt-resurs – Eglantine-uppföljning 31 oktober 2026
+
+Eglantine synkar sin svenska Qt-katalog från Edens `qt-translations`-resurs.
+En korrekturgranskning identifierade en oavsiktlig dubbelpunkt i
+Nintendo-friskrivningen för `AboutDialog`. Rättningen passerade HTML-,
+platshållar-, l10n-lint-, svlang-, Hunspell- och Gitleaks-kontroller innan
+den skickades med Transifex REST-API. API:t svarade HTTP 200 och måltexten
+återlästes exakt. Underlag och sändningsbevis finns i
+`eden-qt-sv-eglantine-punctuation-20261031.json` respektive
+`eden-qt-sv-eglantine-punctuation-submission-20261031.md`.
