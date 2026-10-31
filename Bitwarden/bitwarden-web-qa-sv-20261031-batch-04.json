@@ -1,0 +1,46 @@
+{
+  "project": "Bitwarden Web",
+  "component": "Bitwarden Web Vault - Strings to translate",
+  "platform": "Crowdin",
+  "language": "sv",
+  "reviewed_at": "2026-10-31",
+  "scope": "Fjärde avgränsade QA-häftet, sida 4 av 41.",
+  "translations": [
+    {
+      "key": "enterYourAccountEmailAddressAndYourPasswordHintWillBeSentToYou",
+      "source": "Enter your account email address and your password hint will be sent to you",
+      "previous_target": "Ange din e-postadress för kontot så skickas en lösenordshint till dig",
+      "target": "Ange din e-postadress för kontot så skickas en lösenordsledtråd till dig",
+      "reason": "Ersätter engelskt lånord med en svensk term."
+    },
+    {
+      "key": "noItemsInFolder",
+      "source": "No items in $FOLDER_NAME$",
+      "previous_target": "Det finns inga objekt i $FOLDER_NAME$.",
+      "target": "Det finns inga objekt i $FOLDER_NAME$",
+      "reason": "Matchar källans avslutande interpunktion."
+    },
+    {
+      "key": "addPlanDesc",
+      "source": "You can create a new shared vault with 1 other person for free. If you'd like to store, manage, and share items with more people, you will need to add a new plan first. Just know that some options may require a billing change.",
+      "previous_target": "Du kan kostnadsfritt skapa ett nytt delat valv med en annan person. Om du vill lagra, hantera och dela objekt med fler personer måste du först lägga till ett nytt abonnemang. Tänk på att vissa alternativ kan kräva en ändring av faktureringen.",
+      "target": "Du kan kostnadsfritt skapa ett nytt delat valv med 1 annan person. Om du vill lagra, hantera och dela objekt med fler personer måste du först lägga till ett nytt abonnemang. Tänk på att vissa alternativ kan kräva en ändring av faktureringen.",
+      "reason": "Återställer talet från källtexten."
+    },
+    {
+      "key": "moveSelectedItemsDesc",
+      "source": "Choose a folder that you would like to add the $COUNT$ selected item(s) to.",
+      "previous_target": "Välj en mapp som du vill lägga till de valda artiklarna $COUNT$ till.",
+      "target": "Välj en mapp som du vill lägga till de $COUNT$ valda objekten i.",
+      "reason": "Rättar ordföljden, ersätter artikel med objekt och placerar variabeln naturligt."
+    },
+    {
+      "key": "exportSecretsWarningDesc",
+      "source": "This export contains your secrets data in an unencrypted format. You should not store or send the exported file over unsecure channels (such as email). Delete it immediately after you are done using it.",
+      "previous_target": "Denna export innehåller ditt valv i ett okrypterat format. Du bör inte lagra eller skicka den exporterade filen över osäkra kanaler (t.ex. e-post). Radera den omedelbart när du är färdig med den.",
+      "target": "Den här exporten innehåller dina hemlighetsdata i okrypterat format. Du bör inte lagra eller skicka den exporterade filen via osäkra kanaler, till exempel e-post. Ta bort den direkt när du är klar med den.",
+      "reason": "Återger secrets data korrekt och gör varningen idiomatisk på svenska."
+    }
+  ],
+  "qa_assessment": "Sidan innehöll främst verktygsvarningar om termer och den engelska pluralnotationen (s). Fem sakliga rättelser skickades. Crowdin visade inga osparade översättningar efter inskickningen."
+}
