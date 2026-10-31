@@ -74,6 +74,8 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   [sändningsbeviset](Nextcloud/contacts-submission-20261030.md).
   Android Notes har fått nio granskade synkroniseringsfel via API och är
   verifierad till 0 oöversatta strängar.
+  Mail har fått tretton granskade UI-rader för kontoimport, certifikat och
+  textblock via API och är verifierad till 0 oöversatta strängar.
   Android Talk har fått 25 granskade UI-rader via API och är verifierad till
   0 oöversatta strängar.
   Assistant har fått 17 granskade UI-rader via API och är verifierad till

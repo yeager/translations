@@ -57,6 +57,20 @@ utvecklarkontexten `CalendarList.vue:208`. Den granskades och arkiverades i
 `Delade kalendrar`. Den 30 oktober sparades båda formerna i Transifex av
 `yeager`; därefter visade filtret för oöversatta strängar 0 av 827.
 
+## Mail
+
+Mail hade tretton nya UI-strängar för import av e-postkonton samt certifikat-
+och textblocksdialoger. De arkiverades i
+`nextcloud-mail-sv-20261031-batch01.json`. Satsen passerade
+platshållarjämförelse, `msgfmt --check`, `l10n-lint` och `svlang skrivregler`.
+Hunspell-träffarna begränsades till sammansättningen *e-postappens* och de
+bevarade platshållarna `{name}` och `{title}`.
+
+Samtliga 13 poster skickades som ogranskade översättningar med Transifex
+REST-API och svarade HTTP 200. Varje måltext lästes tillbaka exakt. Efteråt
+rapporterar Mail 1 046 av 1 046 strängar översatta och 0 oöversatta. Se även
+`mail-submission-20261031.md`.
+
 ## Deck
 
 Decks fyra oöversatta poster kontrollerades direkt via Transifex den 30
