@@ -132,6 +132,13 @@ Samtliga tretton poster skickades som ogranskade översättningar med enskilda
 PATCH-anrop till Transifex och returnerade HTTP 200. Efter återläsning matchar
 alla måltexter exakt, och filtret för oöversatta svenska strängar visar 0.
 
+Den 31 oktober tillkom två UI-rader för reaktioner i konversationsvyn. De
+arkiverades i `nextcloud-talk-sv-20261031-batch01.json`, passerade
+platshållarjämförelse, `msgfmt --check`, `l10n-lint`, `svlang skrivregler`,
+Hunspell-granskning och Gitleaks. Båda returnerade HTTP 200 och återlästes
+exakt via Transifex API. Aktuell resursstatistik visar 2 508 av 2 508
+översatta strängar; se `talk-submission-20261031.md`.
+
 ## Passman Android
 
 Passman Android `v1.6.1` publicerades 2026-09-18 och uppfyller kravet på en

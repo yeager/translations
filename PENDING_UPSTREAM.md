@@ -78,6 +78,8 @@ Följande arbete är ännu inte fullt verifierat eller inskickat:
   textblock via API och är verifierad till 0 oöversatta strängar.
   Android Talk har fått 25 granskade UI-rader via API och är verifierad till
   0 oöversatta strängar.
+  Talk har dessutom fått två granskade reaktionsnotiser via API och är
+  verifierad till 2 508 av 2 508 översatta strängar.
   Assistant har fått 17 granskade UI-rader via API och är verifierad till
   0 oöversatta strängar.
   Analytics har 15 skickade och verifierade UI-rader; endast en omfattande
