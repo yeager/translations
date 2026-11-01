@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: proxmox translations\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: 2026-09-16 14:18+0200\n"
-"PO-Revision-Date: 2026-11-01 12:25+0100\n"
+"PO-Revision-Date: 2026-11-01 12:28+0100\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: Swedish <support@proxmox.com>\n"
 "Language: sv\n"
@@ -15722,12 +15722,16 @@ msgid ""
 "Remove the empty source namespace directories after moving all groups. "
 "Uncheck to keep the namespace structure."
 msgstr ""
+"Ta bort de tomma källnamnrymdskatalogerna när alla grupper har flyttats. "
+"Avmarkera för att behålla namnrymdsstrukturen."
 
 #: proxmox-datacenter-manager/ui/src/configuration/subscription_keys.rs:314
 msgid ""
 "Remove the selected key from the pool. Disabled while the key is live on a "
 "remote node."
 msgstr ""
+"Ta bort den valda nyckeln från poolen. Inaktiverat medan nyckeln är aktiv "
+"på en fjärrnod."
 
 #: proxmox-yew-comp/src/auth_view.rs:535
 #: proxmox-yew-comp/src/auth_edit_ldap.rs:276
@@ -15762,14 +15766,18 @@ msgid ""
 "Clear Key on the Node Subscription Status panel first to release a live "
 "subscription on that node too."
 msgstr ""
+"Ta bort {key} från nyckelpoolen? Den är fortfarande tilldelad {remote}/{node}. "
+"Tilldelningen frigörs utan att någon prenumeration tas bort på fjärrvärden. "
+"Använd först Rensa nyckel i panelen Nodprenumerationsstatus för att även "
+"frigöra en aktiv prenumeration på noden."
 
 #: proxmox-datacenter-manager/ui/src/configuration/subscription_keys.rs:388
 msgid "Remove {key} from the key pool? This does not revoke the subscription."
-msgstr ""
+msgstr "Ta bort {key} från nyckelpoolen? Det återkallar inte prenumerationen."
 
 #: proxmox-datacenter-manager/ui/src/configuration/subscription_registry.rs:1112
 msgid "Remove {n} live subscription(s) from the remote nodes?"
-msgstr ""
+msgstr "Ta bort {n} aktiv(a) prenumeration(er) från fjärrnoderna?"
 
 #: proxmox-backup/www/config/GCView.js:217
 msgid "Removed Data"
@@ -15839,7 +15847,7 @@ msgstr "Arkiv för CLI och API"
 
 #: proxmox-datacenter-manager/ui/src/remotes/updates.rs:763
 msgid "Repository status unknown, could not fetch update data"
-msgstr ""
+msgstr "Repositoryts status är okänd. Det gick inte att hämta uppdateringsdata"
 
 #: pmg-gui/js/LoginView.js:187 pmg-gui/js/LoginView.js:206
 #: pmg-gui/js/LoginView.js:432
@@ -16000,6 +16008,9 @@ msgid ""
 "Restart only OSDs whose running version differs from the locally-installed "
 "ceph-osd binary on each node. Useful for post-upgrade rolling restarts."
 msgstr ""
+"Starta endast om OSD:er vars körande version skiljer sig från den lokalt "
+"installerade binärfilen ceph-osd på varje nod. Användbart för rullande "
+"omstarter efter uppgradering."
 
 #: pmg-gui/js/SpamDetectorCustom.js:96
 msgid "Restart pmg-smtp-filter to activate changes."
@@ -16168,6 +16179,10 @@ msgid ""
 "to that snapshot; changes made since are lost. A running guest is stopped "
 "during rollback (unless a QEMU snapshot includes its memory state)."
 msgstr ""
+"Återställ till ögonblicksbilden ”{0}”? Gästens disk och konfiguration "
+"återställs till den ögonblicksbilden och ändringar sedan dess går förlorade. "
+"En körande gäst stoppas under återställningen, om inte en QEMU-ögonblicksbild "
+"inkluderar dess minnestillstånd."
 
 #: pve-manager/www/manager6/Utils.js:2224
 #: pve-manager/www/manager6/Utils.js:2253
@@ -16284,7 +16299,7 @@ msgstr "Ta bort ACL-post"
 #. https://docs.frrouting.org/en/latest/routemap.html
 #: pve-manager/www/manager6/sdn/RouteMapPanel.js:769
 msgid "Route Map ID"
-msgstr ""
+msgstr "Route map-ID"
 
 #. TRANSLATORS: "Route map" refers to an FRR route map, some
 #. languages may prefer to keep it as-is:
@@ -16344,7 +16359,7 @@ msgstr "Kör nu"
 
 #: proxmox-backup/www/datastore/OptionView.js:244
 msgid "Run garbage collection before unmounting"
-msgstr ""
+msgstr "Kör skräpsamling innan frånmontering"
 
 #: pve-manager/www/manager6/form/AgentFeatureSelector.js:17
 #: proxmox-yew-comp/src/form/pve/qemu_property/qemu_agent_property.rs:83
@@ -16401,19 +16416,19 @@ msgstr "S.port"
 
 #: proxmox-backup/www/window/DataStoreEdit.js:64
 msgid "S3"
-msgstr ""
+msgstr "S3"
 
 #: proxmox-backup/www/datastore/Summary.js:400
 msgid "S3 API download/upload rate (bytes/second)"
-msgstr ""
+msgstr "Nedladdnings-/uppladdningshastighet för S3 API (byte/sekund)"
 
 #: proxmox-backup/www/datastore/Summary.js:367
 msgid "S3 API requests"
-msgstr ""
+msgstr "S3 API-begäranden"
 
 #: proxmox-backup/www/datastore/Summary.js:409
 msgid "S3 API total download/upload (bytes)"
-msgstr ""
+msgstr "Total nedladdning/uppladdning för S3 API (byte)"
 
 #: proxmox-backup/www/window/S3ClientEdit.js:10
 msgid "S3 Endpoint"
@@ -16740,7 +16755,7 @@ msgstr "Sökdomän"
 
 #: pve-manager/www/manager6/form/VMCPUFlagSelector.js:285
 msgid "Search name or description"
-msgstr ""
+msgstr "Sök efter namn eller beskrivning"
 
 #: pve-manager/www/manager6/node/NodeOptionsView.js:75
 msgid "Second"
@@ -16795,7 +16810,7 @@ msgstr "Säkerhetsgrupp"
 
 #: pmg-gui/js/SpamQuarantine.js:297 pmg-gui/js/SpamQuarantine.js:439
 msgid "Seen"
-msgstr ""
+msgstr "Läst"
 
 #: proxmox-datacenter-manager/ui/src/widget/view_filter_selector.rs:232
 msgid "Select"
@@ -16866,7 +16881,7 @@ msgstr "Välj typ först"
 
 #: pve-manager/www/manager6/sdn/fabrics/wireguard/InterfacePanel.js:310
 msgid "Select an interface to configure, or add a new one."
-msgstr ""
+msgstr "Välj ett gränssnitt att konfigurera eller lägg till ett nytt."
 
 #: pmg-gui/js/ClusterAdministration.js:202
 #: pve-manager/www/manager6/dc/ClusterEdit.js:316
@@ -17337,7 +17352,7 @@ msgstr "Visa endast installerade tjänster"
 #: pmg-gui/js/AttachmentQuarantine.js:120 pmg-gui/js/SpamQuarantine.js:390
 #: pmg-gui/js/VirusQuarantine.js:133
 msgid "Show the raw message source instead of the rendered mail"
-msgstr ""
+msgstr "Visa rå meddelandekällkod i stället för det återgivna brevet"
 
 #: proxmox-datacenter-manager/ui/src/remotes/firewall/tree.rs:339
 msgid "Show tree panel"
@@ -17354,11 +17369,11 @@ msgstr "Visa: {0} - {1}"
 
 #: pve-manager/www/manager6/form/VMCPUFlagSelector.js:405
 msgid "Showing flags for KVM"
-msgstr ""
+msgstr "Visar flaggor för KVM"
 
 #: pve-manager/www/manager6/form/VMCPUFlagSelector.js:121
 msgid "Showing flags for {0}"
-msgstr ""
+msgstr "Visar flaggor för {0}"
 
 #: pmg-gui/js/ServerStatus.js:74 pmg-gui/js/ServerStatus.js:76
 #: pve-manager/www/manager6/Utils.js:2198
@@ -17638,7 +17653,7 @@ msgstr "Uttag"
 
 #: proxmox-datacenter-manager/ui/src/configuration/subscription_registry.rs:667
 msgid "Sockets (node / key)"
-msgstr ""
+msgstr "Socketar (nod/nyckel)"
 
 #: proxmox-widget-toolkit/src/Schema.js:95
 msgid "Softlink"
