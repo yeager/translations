@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: proxmox translations\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: 2026-09-16 14:18+0200\n"
-"PO-Revision-Date: 2026-11-01 12:32+0100\n"
+"PO-Revision-Date: 2026-11-01 12:36+0100\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: Swedish <support@proxmox.com>\n"
 "Language: sv\n"
@@ -19672,6 +19672,11 @@ msgid ""
 "the system automatically associates the old key to protect it from "
 "accidental deletion, ensuring you can still decrypt older contents."
 msgstr ""
+"För att förhindra förtida borttagning behåller associerade nycklar en "
+"referens till en nyckel tills du uttryckligen kopplar från den. När du byter "
+"aktiv krypteringsnyckel associerar systemet automatiskt den gamla nyckeln för "
+"att skydda den mot oavsiktlig borttagning, så att du fortfarande kan "
+"dekryptera äldre innehåll."
 
 #: pve-manager/www/manager6/form/SpiceEnhancementSelector.js:33
 #: proxmox-yew-comp/src/form/pve/qemu_property/qemu_spice_enhancement_property.rs:33
@@ -19692,7 +19697,7 @@ msgstr "Idag"
 
 #: proxmox-backup/www/config/EncryptionKeysView.js:249
 msgid "Toggle Archived"
-msgstr ""
+msgstr "Växla arkiverade"
 
 #: pmg-gui/js/AttachmentQuarantine.js:119 pmg-gui/js/SpamQuarantine.js:388
 #: pmg-gui/js/VirusQuarantine.js:132
@@ -19702,11 +19707,11 @@ msgstr "Växla rå"
 #: pmg-gui/js/AttachmentQuarantine.js:122 pmg-gui/js/SpamQuarantine.js:393
 #: pmg-gui/js/VirusQuarantine.js:135
 msgid "Toggle raw message source"
-msgstr ""
+msgstr "Växla rå meddelandekällkod"
 
 #: pmg-gui/js/SpamQuarantine.js:441
 msgid "Toggle seen state"
-msgstr ""
+msgstr "Växla lässtatus"
 
 #: pve-manager/www/manager6/dc/MetricServerView.js:324
 #: pve-manager/www/manager6/dc/TokenEdit.js:6
@@ -19901,7 +19906,7 @@ msgstr "Transporter"
 
 #: proxmox-datacenter-manager/ui/src/guests.rs:422
 msgid "Tree"
-msgstr ""
+msgstr "Träd"
 
 #: pve-manager/www/manager6/window/TreeSettingsEdit.js:5
 msgid "Tree Settings"
@@ -19948,7 +19953,7 @@ msgstr "Tvåfaktorsautentisering"
 
 #: proxmox-datacenter-manager/ui/src/remotes/auto_installer/prepared_answer_form.rs:192
 msgid "Two-letter country code, e.g. at"
-msgstr ""
+msgstr "Landskod med två bokstäver, t.ex. at"
 
 #: proxmox-widget-toolkit/src/form/NetworkSelector.js:120
 #: proxmox-widget-toolkit/src/node/NetworkView.js:302
@@ -20302,11 +20307,11 @@ msgstr "Avmontering"
 
 #: pve-manager/www/manager6/ceph/Status.js:234
 msgid "Unmute"
-msgstr ""
+msgstr "Ta bort tystning"
 
 #: pve-manager/www/manager6/ceph/Status.js:88
 msgid "Unmute health check '{0}'?"
-msgstr ""
+msgstr "Ta bort tystning för hälsokontrollen ”{0}”?"
 
 #: pve-manager/www/manager6/form/USBSelector.js:185
 msgid "Unplugged"
@@ -20325,7 +20330,7 @@ msgstr "Oprivilegerad container"
 
 #: proxmox-datacenter-manager/ui/src/ceph/renderer.rs:74
 msgid "Unreachable"
-msgstr ""
+msgstr "Kan inte nås"
 
 #: proxmox-widget-toolkit/src/node/Tasks.js:342
 #: proxmox-widget-toolkit/src/panel/JournalView.js:496
@@ -20549,8 +20554,8 @@ msgstr "Användningshistorik"
 #: pve-yew-mobile-gui/src/pages/page_dashboard.rs:234
 msgid "Usage across one online node"
 msgid_plural "Usage across {n} online nodes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Användning över en ansluten nod"
+msgstr[1] "Användning över {n} anslutna noder"
 
 #: pve-manager/www/manager6/tree/ResourceTree.js:197
 msgid "Usage: {0}%"
@@ -20701,7 +20706,7 @@ msgstr "Använd nodproxy"
 
 #: proxmox-datacenter-manager/ui/src/widget/snapshot_window.rs:259
 msgid "Use only letters, digits, '_' and '-', starting with a letter."
-msgstr ""
+msgstr "Använd endast bokstäver, siffror, ”_” och ”-”, med en bokstav först."
 
 #: proxmox-backup/www/window/S3ClientEdit.js:71
 msgid "Use path style over vhost style bucket addressing."
@@ -20733,17 +20738,20 @@ msgstr "Använd ritplatta som pekare"
 
 #: pve-manager/www/manager6/ceph/Status.js:47
 msgid "Use the Cephx migration helper to migrate service daemon keys."
-msgstr ""
+msgstr "Använd Cephx-migreringshjälpen för att migrera tjänstdemonernas nycklar."
 
 #: pve-manager/www/manager6/ceph/Status.js:50
 msgid "Use the Cephx migration helper to switch service tickets to aes256k."
-msgstr ""
+msgstr "Använd Cephx-migreringshjälpen för att byta tjänstebiljetter till aes256k."
 
 #: pve-manager/www/manager6/ceph/Status.js:53
 msgid ""
 "Use the migration helper for cluster-owned keys and keys of compatible Ceph "
 "users. Leave user keys required by incompatible consumers unchanged."
 msgstr ""
+"Använd migreringshjälpen för klusterägda nycklar och nycklar för kompatibla "
+"Ceph-användare. Låt användarnycklar som krävs av inkompatibla konsumenter "
+"vara oförändrade."
 
 #: proxmox-backup/www/window/S3ClientEdit.js:152
 #, fuzzy
@@ -21236,7 +21244,7 @@ msgstr "Värdet matchar inte!"
 
 #: pve-manager/www/manager6/Utils.js:299
 msgid "Value must be a power of 2 between 512 and 16m"
-msgstr ""
+msgstr "Värdet måste vara en tvåpotens mellan 512 och 16m"
 
 #: pve-manager/www/manager6/ceph/OSDDetails.js:133
 msgid "Various information about the OSD"
@@ -21703,6 +21711,8 @@ msgid ""
 "Warning: the cluster runs Proxmox Mail Gateway {0}, but this node runs {1}. "
 "Joining across major versions is not supported."
 msgstr ""
+"Varning: klustret kör Proxmox Mail Gateway {0}, men den här noden kör {1}. "
+"Anslutning mellan huvudversioner stöds inte."
 
 #: pve-manager/www/manager6/window/GuestImport.js:646
 #: proxmox-yew-comp/src/task_status_selector.rs:160
@@ -21815,6 +21825,10 @@ msgid ""
 "locally. Snapshots without a matching key are stored as received; pull never "
 "encrypts snapshots."
 msgstr ""
+"Vid hämtning använder systemet de konfigurerade dekrypteringsnycklarna för "
+"att dekryptera källögonblicksbilder med ett matchande nyckelfingeravtryck "
+"och lagrar dem lokalt utan kryptering. Ögonblicksbilder utan en matchande "
+"nyckel lagras som de tas emot. Hämtning krypterar aldrig ögonblicksbilder."
 
 #: proxmox-backup/www/window/SyncJobEdit.js:609
 msgid ""
@@ -21822,12 +21836,17 @@ msgid ""
 "unencrypted sources snapshots. It leaves existing encrypted content as-is, "
 "and skips partially encrypted content."
 msgstr ""
+"Vid överföring använder systemet den aktiva krypteringsnyckeln för att "
+"kryptera okrypterade källögonblicksbilder. Befintligt krypterat innehåll "
+"lämnas oförändrat och delvis krypterat innehåll hoppas över."
 
 #: pve-manager/www/manager6/ha/Status.js:30
 msgid ""
 "While disarmed, HA does not protect your services. Failures during this "
 "period are not automatically recovered."
 msgstr ""
+"När HA är inaktiverat skyddar det inte dina tjänster. Fel under den här "
+"perioden återställs inte automatiskt."
 
 #: pmg-gui/js/NavigationTree.js:28 pmg-gui/js/Utils.js:54
 msgid "Who Objects"
@@ -21843,7 +21862,7 @@ msgstr "Hela året"
 
 #: proxmox-datacenter-manager/ui/src/remotes/cert_check_window.rs:665
 msgid "Will clear"
-msgstr ""
+msgstr "Rensas"
 
 #: proxmox-widget-toolkit/src/panel/DiskList.js:425
 #: pve-manager/www/manager6/Utils.js:2239 proxmox-backup/www/Utils.js:475
@@ -21862,7 +21881,7 @@ msgstr "Radera etiketter och andra rester"
 
 #: pve-manager/www/manager6/sdn/fabrics/wireguard/InterfacePanel.js:470
 msgid "WireGuard"
-msgstr ""
+msgstr "WireGuard"
 
 #: pve-manager/www/manager6/panel/BackupAdvancedOptions.js:175
 msgid "With 0, half of the available cores are used"
@@ -21897,6 +21916,9 @@ msgid ""
 "Without a duration the mute stays until it is lifted by hand. A custom "
 "duration combines amount and unit, for example 12h, 3d or 1d12h."
 msgstr ""
+"Utan en varaktighet kvarstår tystningen tills den tas bort manuellt. En "
+"anpassad varaktighet kombinerar antal och enhet, till exempel 12h, 3d eller "
+"1d12h."
 
 #: pve-manager/www/manager6/storage/Base.js:163
 msgid ""
@@ -22165,7 +22187,7 @@ msgstr "ZFS-lagring"
 msgid ""
 "ZFS is not compatible with hardware RAID controllers, for details see the "
 "documentation."
-msgstr ""
+msgstr "ZFS är inte kompatibelt med RAID-styrenheter i maskinvara. Mer information finns i dokumentationen."
 
 #: proxmox-widget-toolkit/src/Utils.js:819
 msgid "ZiB"
@@ -22195,11 +22217,11 @@ msgstr "Zoner"
 
 #: proxmox-yew-widget-toolkit/src/widget/charts/map/mod.rs:583
 msgid "Zoom in"
-msgstr ""
+msgstr "Zooma in"
 
 #: proxmox-yew-widget-toolkit/src/widget/charts/map/mod.rs:574
 msgid "Zoom out"
-msgstr ""
+msgstr "Zooma ut"
 
 #: pve-manager/www/manager6/panel/BackupAdvancedOptions.js:166
 msgid "Zstd Threads"
@@ -22220,7 +22242,7 @@ msgstr "alla"
 
 #: pve-manager/www/manager6/ceph/OSD.js:585
 msgid "all nodes (cluster-wide)"
-msgstr ""
+msgstr "alla noder (hela klustret)"
 
 #: proxmox-yew-comp/src/form/pve/qemu_property/mod.rs:209
 msgid "any"
@@ -22247,7 +22269,7 @@ msgstr "minst en EVPN-kontroller måste väljas"
 
 #: proxmox-yew-comp/src/key_value_list.rs:221
 msgid "at least one entry required!"
-msgstr ""
+msgstr "minst en post krävs!"
 
 #: proxmox-datacenter-manager/ui/src/sdn/evpn/add_zone.rs:193
 msgid "at least one remote needs to have an EVPN controller configured"
@@ -22268,7 +22290,7 @@ msgstr "Generera automatiskt"
 
 #: pve-manager/www/manager6/sdn/fabrics/wireguard/NodeEdit.js:50
 msgid "base64-encoded WireGuard public key"
-msgstr ""
+msgstr "base64-kodad offentlig WireGuard-nyckel"
 
 #: pve-manager/www/manager6/window/Migrate.js:442
 #: pve-manager/www/manager6/window/Migrate.js:537
@@ -22281,7 +22303,7 @@ msgstr "kan endast skapa zonen en gång per fjärrserver!"
 
 #: proxmox-backup/www/config/EncryptionKeysView.js:51
 msgid "cannot archive tape key"
-msgstr ""
+msgstr "kan inte arkivera bandnyckel"
 
 #: proxmox-yew-widget-toolkit/src/widget/form/number.rs:53
 msgid "cannot represent number as f64"
@@ -22378,7 +22400,7 @@ msgstr "Stäng ner"
 #: proxmox-widget-toolkit/src/panel/JournalView.js:606
 #: proxmox-yew-comp/src/journal_view.rs:833
 msgid "e.g. pve* or postfix/*"
-msgstr ""
+msgstr "t.ex. pve* eller postfix/*"
 
 #: proxmox-backup/www/window/S3ClientEdit.js:48
 msgid "e.g. {{bucket}}.s3.{{region}}.amazonaws.com"
@@ -22386,7 +22408,7 @@ msgstr "t.ex. {{bucket}}.s3.{{region}}.amazonaws.com"
 
 #: pve-manager/www/manager6/sdn/controllers/EvpnEdit.js:112
 msgid "eBGP"
-msgstr ""
+msgstr "eBGP"
 
 #: pve-manager/www/manager6/sdn/controllers/EvpnEdit.js:124
 msgid "eBGP Multihop"
