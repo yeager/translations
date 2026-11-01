@@ -1,0 +1,1540 @@
+From beffecfd81303ee12f833349ecc7b22376eeb846 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <yeager@users.noreply.github.com>
+Date: Sun, 1 Nov 2026 21:22:03 +0100
+Subject: [PATCH] feat(i18n): add Swedish locale
+
+---
+ electron-builder.json5                        |   2 +
+ .../tutorialHelpTranslations.test.ts          |   2 +
+ src/i18n/config.ts                            |   1 +
+ src/i18n/locales/sv/common.json               |  76 +++
+ src/i18n/locales/sv/dialogs.json              |  97 ++++
+ src/i18n/locales/sv/editor.json               | 453 +++++++++++++++++
+ src/i18n/locales/sv/launch.json               | 157 ++++++
+ src/i18n/locales/sv/settings.json             | 457 ++++++++++++++++++
+ src/i18n/locales/sv/shortcuts.json            |  43 ++
+ src/i18n/locales/sv/timeline.json             | 135 ++++++
+ 10 files changed, 1423 insertions(+)
+ create mode 100644 src/i18n/locales/sv/common.json
+ create mode 100644 src/i18n/locales/sv/dialogs.json
+ create mode 100644 src/i18n/locales/sv/editor.json
+ create mode 100644 src/i18n/locales/sv/launch.json
+ create mode 100644 src/i18n/locales/sv/settings.json
+ create mode 100644 src/i18n/locales/sv/shortcuts.json
+ create mode 100644 src/i18n/locales/sv/timeline.json
+
+diff --git a/electron-builder.json5 b/electron-builder.json5
+index 9b17919..7f1ae3d 100644
+--- a/electron-builder.json5
++++ b/electron-builder.json5
+@@ -79,6 +79,7 @@
+     "pt-BR",
+     "pt_BR",
+     "ru",
++	"sv",
+     "tr",
+     "vi",
+     "zh-CN",
+@@ -480,6 +481,7 @@
+       "ko-KR",
+       "pt-BR",
+       "ru",
++		"sv",
+       "tr",
+       "vi",
+       "zh-CN",
+diff --git a/src/i18n/__tests__/tutorialHelpTranslations.test.ts b/src/i18n/__tests__/tutorialHelpTranslations.test.ts
+index fe94103..f94df2a 100644
+--- a/src/i18n/__tests__/tutorialHelpTranslations.test.ts
++++ b/src/i18n/__tests__/tutorialHelpTranslations.test.ts
+@@ -11,6 +11,7 @@ import jaJPDialogs from "@/i18n/locales/ja-JP/dialogs.json";
+ import koKRDialogs from "@/i18n/locales/ko-KR/dialogs.json";
+ import ptBRDialogs from "@/i18n/locales/pt-BR/dialogs.json";
+ import ruDialogs from "@/i18n/locales/ru/dialogs.json";
++import svDialogs from "@/i18n/locales/sv/dialogs.json";
+ import trDialogs from "@/i18n/locales/tr/dialogs.json";
+ import viDialogs from "@/i18n/locales/vi/dialogs.json";
+ import zhCNDialogs from "@/i18n/locales/zh-CN/dialogs.json";
+@@ -52,6 +53,7 @@ const dialogsByLocale = {
+ 	"ja-JP": jaJPDialogs,
+ 	"ko-KR": koKRDialogs,
+ 	ru: ruDialogs,
++	sv: svDialogs,
+ 	tr: trDialogs,
+ 	vi: viDialogs,
+ 	"pt-BR": ptBRDialogs,
+diff --git a/src/i18n/config.ts b/src/i18n/config.ts
+index b11ec67..c56fab3 100644
+--- a/src/i18n/config.ts
++++ b/src/i18n/config.ts
+@@ -10,6 +10,7 @@ export const SUPPORTED_LOCALES = [
+ 	"ja-JP",
+ 	"ko-KR",
+ 	"ru",
++	"sv",
+ 	"tr",
+ 	"vi",
+ 	"pt-BR",
+diff --git a/src/i18n/locales/sv/common.json b/src/i18n/locales/sv/common.json
+new file mode 100644
+index 0000000..eb8911d
+--- /dev/null
++++ b/src/i18n/locales/sv/common.json
+@@ -0,0 +1,76 @@
++{
++	"actions": {
++		"cancel": "Avbryt",
++		"save": "Spara",
++		"delete": "Radera",
++		"close": "Stäng",
++		"resetToDefault": "Återställ till standard",
++		"share": "Dela",
++		"done": "Klar",
++		"open": "Öppna",
++		"checkForUpdates": "Sök efter uppdateringar",
++		"update": "Uppdatera",
++		"updateTo": "Uppdatera till {{version}}",
++		"usagePing": "Skicka anonym användningsräkning",
++		"viewRelease": "Visa release",
++		"downloadUpdate": "Ladda ner uppdatering",
++		"restartNow": "Starta om nu",
++		"upload": "Ladda upp",
++		"export": "Exportera",
++		"showInFolder": "Visa i mapp",
++		"file": "Fil",
++		"edit": "Redigera",
++		"view": "Visa",
++		"window": "Fönster",
++		"help": "Hjälp",
++		"quit": "Avsluta",
++		"stopRecording": "Stoppa inspelning",
++		"undo": "Ångra",
++		"redo": "Göra om",
++		"cut": "Klipp ut",
++		"copy": "Kopiera",
++		"paste": "Klistra in",
++		"selectAll": "Markera allt",
++		"minimize": "Minimera",
++		"reload": "Ladda om",
++		"forceReload": "Tvinga omladdning",
++		"toggleDevTools": "Växla utvecklarverktyg",
++		"actualSize": "Verklig storlek",
++		"zoomIn": "Zooma in",
++		"zoomOut": "Zooma ut",
++		"toggleFullScreen": "Växla helskärm",
++		"recordingStatus": "Inspelning: {{source}}",
++		"about": "Om OpenScreen",
++		"services": "Tjänster",
++		"hide": "Dölj OpenScreen",
++		"hideOthers": "Göm andra",
++		"unhide": "Visa alla",
++		"saveDiagnostics": "Spara diagnostik",
++		"starOnGithub": "Stjärna på GitHub",
++		"permissions": "Behörigheter...",
++		"closeNotification": "Stäng avisering"
++	},
++	"updates": {
++		"available": "OpenScreen {{latestVersion}} är tillgänglig. Du använder {{currentVersion}}.",
++		"current": "OpenScreen är uppdaterad ({{currentVersion}}).",
++		"readyToInstall": "OpenScreen {{latestVersion}} har laddats ner. Starta om för att slutföra installationen.",
++		"blockedRecording": "Avsluta inspelningen innan du installerar uppdateringen.",
++		"blockedLocation": "Flytta OpenScreen till mappen Applications innan du uppdaterar.",
++		"failed": "Det gick inte att söka efter uppdateringar.",
++		"downloadFailed": "Det gick inte att ladda ner uppdateringen."
++	},
++	"units": {
++		"pixelsPerSecond": "{{value}} px/s",
++		"pixels": "{{value}} px"
++	},
++	"locale": {
++		"name": "Svenska",
++		"short": "SV"
++	},
++	"recordingSource": {
++		"window": "Fönster",
++		"screen": "Skärm",
++		"virtual": "Virtuell visning",
++		"unknown": "Skärminspelning"
++	}
++}
+diff --git a/src/i18n/locales/sv/dialogs.json b/src/i18n/locales/sv/dialogs.json
+new file mode 100644
+index 0000000..5910f75
+--- /dev/null
++++ b/src/i18n/locales/sv/dialogs.json
+@@ -0,0 +1,97 @@
++{
++	"export": {
++		"complete": "Exporten är klar",
++		"yourFormatReady": "Din {{format}} är klar",
++		"showInFolder": "Visa i mapp",
++		"finalizingVideo": "Slutför videoexport...",
++		"compilingGifProgress": "Kompilerar GIF... {{progress}}%",
++		"compilingGifWait": "Kompilerar GIF... Detta kan ta ett tag",
++		"takeMoment": "Det här kan ta en stund...",
++		"failed": "Exporten misslyckades",
++		"tryAgain": "Försök igen",
++		"finalizingVideoTitle": "Slutför video",
++		"compilingGif": "Kompilerar GIF",
++		"exportingFormat": "Exporterar {{format}}",
++		"compiling": "Sammanställning",
++		"renderingFrames": "Renderar bildrutor",
++		"processing": "Bearbetar...",
++		"finalizing": "Slutför...",
++		"compilingStatus": "Sammanställer...",
++		"status": "Status",
++		"format": "Format",
++		"frames": "Ramar",
++		"cancelExport": "Avbryt export",
++		"savedSuccessfully": "{{format}} har sparats!"
++	},
++	"tutorial": {
++		"triggerLabel": "Hur trimning fungerar",
++		"title": "Hur trimning fungerar",
++		"description": "Förstå hur man klipper bort oönskade delar av din video.",
++		"explanationBefore": "Trimverktyget fungerar genom att definiera de segment du vill",
++		"remove": "ta bort",
++		"explanationMiddle": "– vad som helst",
++		"covered": "täckt",
++		"explanationAfter": "av ett rött trimsegment kommer att skäras ut när du exporterar.",
++		"visualExample": "Visuellt exempel",
++		"removed": "BORTTAGEN",
++		"kept": "Kvar",
++		"part1": "Del 1",
++		"part2": "Del 2",
++		"part3": "Del 3",
++		"finalVideo": "Färdig video",
++		"step1Title": "1. Lägg till Trim",
++		"step1DescriptionBefore": "Tryck på ",
++		"step1DescriptionAfter": "eller klicka på saxikonen för att markera en sektion som ska tas bort.",
++		"step2Title": "2. Justera",
++		"step2Description": "Dra i kanterna på det röda området för att täcka exakt det du vill klippa ut."
++	},
++	"unsavedChanges": {
++		"title": "Osparade ändringar",
++		"message": "Du har osparade ändringar.",
++		"detail": "Vill du spara ditt projekt innan du stänger?",
++		"saveAndClose": "Spara & Stäng",
++		"discardAndClose": "Förkasta och stäng",
++		"detailNewProject": "Vill du spara ditt projekt innan du skapar ett nytt?",
++		"saveAndNewProject": "Spara och nytt projekt",
++		"discardAndNewProject": "Förkasta och skapa nytt projekt",
++		"detailLoadProject": "Vill du spara ditt projekt innan du laddar ett nytt?",
++		"saveAndLoadProject": "Spara och ladda projekt",
++		"discardAndLoadProject": "Förkasta och läs in projekt",
++		"newProject": "Nytt projekt",
++		"importVideo": "Importera videofil...",
++		"loadProject": "Ladda projekt...",
++		"saveProject": "Spara projekt...",
++		"saveProjectAs": "Spara projekt som...",
++		"modal": {
++			"closeTitle": "Spara ändringar innan du stänger?",
++			"closeBody": "Ditt projekt har osparade ändringar. Spara dem nu, släng dem eller stanna kvar i redigeraren.",
++			"newTitle": "Spara ändringar innan du skapar ett nytt projekt?",
++			"openTitle": "Spara ändringar innan du öppnar ett annat projekt?",
++			"recordTitle": "Spara ändringar innan du startar en ny inspelning?",
++			"sharedBody": "Det aktuella projektet har osparade ändringar. Spara dem först, släng dem eller avbryt.",
++			"notSavedYet": "Det aktuella projektet har inte sparats på disk ännu.",
++			"discard": "Kassera",
++			"saveAndContinue": "Spara och fortsätt",
++			"saving": "Sparande…"
++		}
++	},
++	"fileDialogs": {
++		"saveGif": "Spara exporterad GIF",
++		"saveVideo": "Spara exporterad video",
++		"selectVideo": "Välj en videofil",
++		"selectAudio": "Välj en ljudfil",
++		"saveProject": "Spara OpenScreen-projektet",
++		"openProject": "Öppna OpenScreen-projektet",
++		"gifImage": "GIF-bild",
++		"mp4Video": "MP4-video",
++		"videoFiles": "Videofiler",
++		"audioFiles": "Ljudfiler",
++		"openscreenProject": "OpenScreen-projekt",
++		"allFiles": "Alla filer",
++		"selectRecordingsFolder": "Välj en inspelningsmapp"
++	},
++	"recording": {
++		"lowDiskSpace": "Inte tillräckligt med diskutrymme för att starta inspelningen (endast {{availableMb}} MB ledigt). Frigör utrymme eller välj en annan inspelningsmapp och försök sedan igen.",
++		"folderUnavailable": "Det går inte att nå inspelningsmappen {{path}}. Anslut enheten igen eller välj en annan mapp i inspelningsläge."
++	}
++}
+diff --git a/src/i18n/locales/sv/editor.json b/src/i18n/locales/sv/editor.json
+new file mode 100644
+index 0000000..cd2f6cb
+--- /dev/null
++++ b/src/i18n/locales/sv/editor.json
+@@ -0,0 +1,453 @@
++{
++	"newRecording": {
++		"title": "Återgå till inspelaren",
++		"description": "Din nuvarande session har sparats.",
++		"cancel": "Avbryt",
++		"confirm": "Bekräfta"
++	},
++	"loadingVideo": "Laddar video...",
++	"loadingEditor": "Laddar redigerare...",
++	"errors": {
++		"exportBackgroundLoadFailed": "Exporten misslyckades: kunde inte ladda bakgrundsbilden ({{url}})",
++		"exportFailed": "Exporten misslyckades",
++		"exportFailedWithError": "Export misslyckades: {{error}}",
++		"failedToRevealInFolder": "Fel som avslöjas i mappen: {{error}}",
++		"failedToSaveExport": "Det gick inte att spara exporten",
++		"failedToSaveExportedVideo": "Det gick inte att spara exporterad video",
++		"failedToSaveGif": "Det gick inte att spara GIF",
++		"failedToSaveVideo": "Det gick inte att spara videon",
++		"gifExportFailed": "GIF-export misslyckades",
++		"noVideoLoaded": "Ingen video laddad",
++		"previewCompositorUnavailable": "Förhandsgranskning är inte tillgänglig på den här maskinen",
++		"trimNoFilm": "Inget att klippa där — ingen film står under de orden.",
++		"unableToDetermineSourcePath": "Det gick inte att bestämma sökväg för källvideo",
++		"videoNotReady": "Videon är inte klar",
++		"wordEditFailed": "Kunde inte ändra det ordet",
++		"wordInsertFailed": "Kunde inte lägga till det ordet",
++		"wordRemoveFailed": "Det gick inte att ta bort det ordet"
++	},
++	"export": {
++		"canceled": "Exporten avbröts",
++		"exportedSuccessfully": "{{format}} har exporterats"
++	},
++	"project": {
++		"saveCanceled": "Projektsparningen avbröts",
++		"failedToSave": "Det gick inte att spara projektet",
++		"savedTo": "Projektet har sparats till {{path}}",
++		"failedToLoad": "Det gick inte att läsa in projektet",
++		"invalidFormat": "Ogiltigt projektfilformat",
++		"loadedFrom": "Projektet har laddats från {{path}}"
++	},
++	"recording": {
++		"failedCameraAccess": "Det gick inte att begära kameraåtkomst.",
++		"cameraBlocked": "Kameraåtkomst är blockerad. Aktivera det i systeminställningarna för att använda webbkameran.",
++		"systemAudioUnavailable": "Systemljud inte tillgängligt. Inspelning utan systemljud.",
++		"microphoneDenied": "Mikrofonåtkomst nekad. Inspelningen fortsätter utan ljud.",
++		"cameraDenied": "Kameraåtkomst nekad. Inspelningen fortsätter utan webbkamera.",
++		"cameraDisconnected": "Webbkamera frånkopplad.",
++		"cameraNotFound": "Kameran hittades inte.",
++		"cameraCaptureUnavailable": "Kameran kunde inte öppnas. Inspelning utan den.",
++		"microphoneDefaulted": "Den valda mikrofonen kunde inte identifieras. Spelar in standardinmatningen.",
++		"microphoneUnavailable": "Den här versionen av macOS kan inte spela in mikrofonen. Inspelning utan den.",
++		"restartFailed": "Den nya inspelningen kunde inte starta. Den föregående raderades.",
++		"permissionDenied": "Inspelningstillstånd nekad. Tillåt skärminspelning.",
++		"accessibilityAllowAndRetry": "Tillåt tillgänglighetsåtkomst för OpenScreen och tryck sedan på spela in igen för att starta nedräkningen.",
++		"cursorAccessibilityUnavailable": "Tillgängligheten är avstängd. Inspelningen fortsätter, men marköreffekterna kan vara begränsade. Aktivera det i Systeminställningar för fullständiga marköreffekter.",
++		"selectSource": "Välj en skärm eller ett fönster att spela in"
++	},
++	"emptyState": {
++		"title": "Börja med en inspelning",
++		"description": "Spela in din skärm eller importera en video för att börja redigera.",
++		"titleHasAsset": "Lägg till en video för att komma igång",
++		"descriptionHasAsset": "Importera en inspelning för att börja redigera.",
++		"recordButton": "Spela in din skärm",
++		"newProjectButton": "Importera en video",
++		"importVideoButton": "Importera video",
++		"loadProjectButton": "Öppet projekt",
++		"supportedFormats": "Format som stöds: MP4, MOV, WebM, MKV, AVI, M4V, WMV",
++		"dragDropHint": "eller släpp ett sparat projekt här",
++		"dropOverlay": "Släpp projektfilen för att öppna",
++		"dropErrors": {
++			"unsupportedFormatTitle": "Filen stöds inte",
++			"unsupportedFormatMessage": "Endast sparade projekt (.openscreen) kan släppas här. För att lägga till en video, använd importknappen på den här skärmen.",
++			"couldNotOpenTitle": "Det gick inte att öppna det här projektet",
++			"couldNotOpenMessage": "Projektfilen kunde inte öppnas. Videon den refererar till kan ha flyttats eller tagits bort."
++		}
++	},
++	"regionClipboard": {
++		"copied": "{{region}} attribut har kopierats",
++		"pasted": "{{region}} attribut klistrade in",
++		"nothingToCopy": "Välj en region för att kopiera dess attribut",
++		"nothingToPaste": "Inga attribut har kopierats ännu",
++		"pasteAssetMissing": "Det ljudspårets fil finns inte i det här projektet",
++		"pasteEffectOverlap": "En annan effekt spelar redan där: en effekt i taget",
++		"kinds": {
++			"zoom": "Zoom",
++			"speed": "Hastighet",
++			"annotation": "Text"
++		}
++	},
++	"topbar": {
++		"toggleChatPanel": "Chattpanel",
++		"openProject": "Öppet projekt",
++		"newProject": "Nytt projekt",
++		"saveProject": "Spara projekt",
++		"unsaved": "Ej sparad",
++		"saved": "Sparad",
++		"switchToLightTheme": "Byt till ljustema",
++		"switchToDarkTheme": "Byt till mörkt tema",
++		"toggleTheme": "Växla tema",
++		"export": "Exportera",
++		"renameProject": "Byt namn på projektet",
++		"noProject": "Inget projekt",
++		"changeLanguage": "Byt språk",
++		"editorMode": "Redaktörsläge",
++		"modes": {
++			"media": "Media",
++			"edit": "Redigera",
++			"rec": "Spela in"
++		}
++	},
++	"rec": {
++		"source": "Källa",
++		"selectSource": "Välj vad som ska spelas in",
++		"systemPicker": "Ditt system kommer att fråga vad som ska delas",
++		"systemAudio": "Systemljud",
++		"systemAudioTip": "Spelar in ljudet som din dator spelar",
++		"microphone": "Mikrofon",
++		"camera": "Kamera",
++		"editableCursor": "Redigerbar markör",
++		"editableCursorTip": "På: redigerbar markör med stiländring och automatisk zoomning. Av: systemmarkör, inspelad i videon.",
++		"autoZoom": "Automatisk zoomning efter inspelning",
++		"hideDesktopIcons": "Dölj skrivbordsikoner",
++		"hideDesktopIconsHintMac": "Lämnar skrivbordsikonerna utanför skärminspelningar. De stannar på ditt skrivbord.",
++		"hideDesktopIconsHintWindows": "Täcker skrivbordsikonerna medan du spelar in. De kommer tillbaka när det tar stopp.",
++		"on": "På",
++		"off": "Av",
++		"loading": "Belastning…",
++		"noCameraFound": "Ingen kamera hittades",
++		"cameraAccessError": "Det gick inte att komma åt den här kameran",
++		"noMicrophoneFound": "Ingen mikrofon hittades",
++		"microphoneUnavailable": "Det gick inte att komma åt mikrofonen",
++		"startingCamera": "Startar kamera...",
++		"turnOnCameraHint": "Slå på kameran för en liveförhandsvisning",
++		"entireScreen": "Hela skärmen",
++		"cancel": "Avbryt",
++		"startRecording": "Börja spela in",
++		"startRecordingHint": "Öppnar inspelningsfältet och stänger detta redigeringsfönster.",
++		"sourceModal": {
++			"screens": "Skärmar ({{count}})",
++			"windows": "Windows ({{count}})",
++			"loadingSources": "Laddar skärmar och fönster...",
++			"noScreensFound": "Inga skärmar hittades",
++			"noWindowsFound": "Inga fönster hittades",
++			"cancel": "Avbryt"
++		},
++		"recordingsFolder": "Inspelningsmapp",
++		"resetRecordingsFolder": "Återställ till standard",
++		"recordingsFolderFailed": "Det gick inte att byta till den mappen"
++	},
++	"mediaStage": {
++		"openProjectFirst": "Öppna ett projekt först",
++		"couldNotAddAsset": "Det gick inte att lägga till tillgång",
++		"searchPlaceholder": "Sök media...",
++		"dragHint": "Dra ett klipp till tidslinjen nedan för att lägga till det",
++		"emptyHint": "Inga media ännu – importera en inspelning för att komma igång.",
++		"importMedia": "Importera media",
++		"added": "Lade till {{label}}",
++		"addToTimeline": "Lägg till på tidslinjen",
++		"addedToTimeline": "Lade till {{label}} på tidslinjen",
++		"sourceTranscript": "Avskrift",
++		"close": "Stäng",
++		"transcriptReady": "Avskriften är klar",
++		"transcribing": "Transkribering",
++		"downloadingModel": "Ladda ner talmodell",
++		"initializingModel": "Startar talmodell",
++		"pendingTranscription": "Väntar på transkription",
++		"transcriptionFailed": "Transkriptionen misslyckades",
++		"cpuBackendHint": "Körs på CPU:n: cirka 2× långsammare än på GPU:n",
++		"noTranscript": "Ingen utskrift",
++		"regenerateAs": "Återskapa som",
++		"namesAndTerms": "Namn och termer",
++		"auto": "Bil",
++		"regenerate": "Regenerera",
++		"regenerateTip": "Återskapa: transkribera igen på det valda språket",
++		"transcriptEmpty": "Avskriften är tom.",
++		"notGeneratedHint": "Inte genererat ännu – välj ett språk och klicka på regenerera.",
++		"generationFailedHint": "Generering misslyckades – välj ett språk och återskapa.",
++		"detectedLanguage": "Upptäckt språk: {{language}}",
++		"noAudioTrack": "Inget ljudspår",
++		"noAudioTrackHint": "Det här mediet har inget ljudspår – det finns inget att transkribera.",
++		"mediaUnreadableHint": "Det gick inte att läsa detta medias ljud. Se till att OpenScreen kan komma åt mappen den finns i och generera sedan igen.",
++		"noSpeechDetected": "Inget tal upptäckt"
++	},
++	"exportDialog": {
++		"title": "Exportera",
++		"subtitle": "Spara din redigering som en video eller en GIF",
++		"addVideoBeforeExporting": "Lägg till en video innan du exporterar.",
++		"quality": "Kvalitet",
++		"qualityMatchRecording": "Matchinspelning",
++		"frameRate": "Bildhastighet",
++		"size": "Storlek",
++		"loopGif": "Slinga GIF",
++		"loopOn": "Slinga på",
++		"loopOff": "Slinga av",
++		"savedTo": "Sparad till",
++		"exportFailedGeneric": "Exporten misslyckades.",
++		"writingFile": "Skriver fil...",
++		"renderingFrames": "Exporterar din video",
++		"framesEta": "Ram {{current}} av {{total}} · ungefär {{eta}}s kvar",
++		"preparingEncoder": "Förbereder sig...",
++		"close": "Stäng",
++		"cancel": "Avbryt",
++		"rendering": "Tolkning…",
++		"saving": "Sparande…",
++		"starting": "Startande…",
++		"exportGif": "Exportera GIF",
++		"exportMp4": "Exportera MP4",
++		"exportedGif": "GIF exporteras",
++		"exportedVideo": "Video exporterad",
++		"exportedVideoOf": "av video som exporteras in",
++		"showInFolder": "Visa i mapp",
++		"starPrompt": "OpenScreen är gratis och MIT licensierad. En stjärna på GitHub hjälper andra människor att hitta den.",
++		"starPromptNoThanks": "Nej tack",
++		"rateOnStore": "Betygsätt i Microsoft Store",
++		"exportFailed": "Exporten misslyckades",
++		"failedToWriteFile": "Det gick inte att skriva filen",
++		"qualityUpscaleWarning": "Exklusivt",
++		"nothingToExport": "Inget att exportera – tidslinjen är tom.",
++		"validationFailed": "Den exporterade videon kunde inte valideras. Destinationen ersattes inte. Försök att exportera igen.",
++		"noReadableFrames": "Inga videorutor exporterades. Kontrollera att klippen innehåller läsbar video innan du exporterar igen.",
++		"cameraEnded": "Det går inte att exportera klippet {{clip}}: kameravideon slutar innan det här klippet startar. Spela in kameran igen eller ta bort dess spår innan du exporterar.",
++		"cameraUnreadable": "Det går inte att exportera klippet {{clip}}: kameravideon har ingen läsbar ram i början av klippet. Spela in kameran igen eller ta bort dess spår innan du exporterar.",
++		"screenUnreadable": "Det går inte att exportera klippet {{clip}}: skärmvideon kan inte läsas i början av klippet. Kontrollera inspelningen eller justera klippet innan du exporterar igen."
++	},
++	"inspector": {
++		"resetFocusPoint": "Återställ fokuspunkt",
++		"setColor": "Ställ in färg {{color}}",
++		"trimHiddenDuration": "{{duration}}s av källmedier dolda från den redigerade tidslinjen.",
++		"restoreDeleteTrim": "Ta tillbaka den här delen",
++		"collapseInspector": "Kollapsinspektör",
++		"editClipTip": "Redigera klipp: beskär, start och slut",
++		"captionsDescription": "Generera ordtidsanpassade bildtexter från transkriptionen och lägg dem på tidslinjen.",
++		"generateCaptions": "Skapa bildtexter",
++		"cropDescription": "Rama om inspelningen — välj ett bildförhållande och zooma in på den region du vill behålla.",
++		"openCrop": "Öppna beskärning...",
++		"deleteRegion": "Ta bort region",
++		"freehandRendersAsBox": "I exporten fyller oskärpan rektangeln runt din frihandsform, så den kan dölja lite mer än du ritade.",
++		"effectError": "Kompilerar inte på den här datorn",
++		"effectTarget": "Gäller",
++		"effectTargetImage": "Bild",
++		"effectTargetText": "Text",
++		"effectTargetBoth": "Både",
++		"effectCost": "Kosta",
++		"effectTierLight": "Ljus",
++		"effectTierMedium": "Medium",
++		"effectTierHeavy": "Tung",
++		"effectTierVeryHeavy": "Väldigt tung",
++		"effectCode": "Kod",
++		"copyEffectCode": "Kopiera kod"
++	},
++	"chat": {
++		"changeProvider": "Byt leverantör",
++		"back": "Tillbaka",
++		"currentModel": "Nuvarande modell:",
++		"notSelected": "Ej vald",
++		"loadingModels": "Laddar modeller...",
++		"searchModels": "Sök efter modeller...",
++		"fetchModelsFailed": "Det gick inte att hämta livemodeller ({{error}}); öppna leverantörsinställningarna för att skriva ett modell-id manuellt.",
++		"noModelsAvailable": "Inga modeller tillgängliga från denna leverantör.",
++		"noModelsMatch": "Inga modeller matchar denna sökning.",
++		"noProvidersConnected": "Inga anslutna leverantörer ännu.",
++		"selectModelFailed": "Kunde inte välja modell",
++		"providerSettings": "Leverantörsinställningar...",
++		"applyEditsFailed": "Det gick inte att tillämpa agentens redigeringar",
++		"agentEditConflict": "Agentredigeringar tillämpades inte eftersom projektet ändrades medan det arbetade.",
++		"applyAnyway": "Ansök ändå",
++		"chatFailed": "Chatten misslyckades",
++		"rewindFailed": "Det gick inte att spola tillbaka",
++		"rewoundSuccess": "Spola tillbaka till början av meddelandet",
++		"notEnoughHistory": "Inte tillräckligt med historia för att komprimera ännu.",
++		"compactedSuccess": "Komprimerade tidigare sammanhang",
++		"compactFailed": "Kompakten misslyckades",
++		"createSessionFailed": "Det gick inte att skapa konversation",
++		"deleteSessionFailed": "Det gick inte att ta bort konversationen",
++		"renameSessionFailed": "Det gick inte att byta namn på konversationen",
++		"reasoningEffortUpdateFailed": "Det gick inte att uppdatera resonemang",
++		"contextTooltip": "{{usedTokens}} / {{budgetTokens}} uppskattade tokens",
++		"contextPercent": "{{percent}}% kontext",
++		"compactContext": "Sammanfatta tidigare meddelanden för att använda mindre sammanhang",
++		"aiSettings": "AI-inställningar",
++		"history": "Konversationshistorik",
++		"newConversation": "Ny konversation",
++		"untitledConversation": "Konversation",
++		"clickToRename": "Klicka för att byta namn",
++		"renameConversation": "Byt namn på konversationen",
++		"deleteConversation": "Ta bort konversation",
++		"confirmDeleteConversation": "Ta bort \"{{title}}\"?",
++		"emptyState": "Inga meddelanden än. Be agenten att klippa tystnad, skärpa pauser eller lägga till bildtexter.",
++		"welcome": {
++			"title": "Ta med din egen AI",
++			"subtitle": "Chatten redigerar din video genom att prata med en språkmodell. Välj en leverantör du litar på och anslut en API-nyckel för att komma igång.",
++			"feature1": "Klipp tystnader, skärpa pauser, släpp utfyllnadsord",
++			"feature2": "Lägg till bildtexter, zooma på kameran, skapa en titel",
++			"feature3": "Skriv om ett avsnitt, omformulera eller ordna om klipp på begäran",
++			"cta": "Skapa en leverantör",
++			"disclaimer": "Din videos transkription kommer att skickas till den leverantör du väljer. Ingenting delas förrän du ansluter en."
++		},
++		"authorUser": "Du",
++		"authorAssistant": "Öppna skärm",
++		"rewindToMessage": "Spola tillbaka till detta meddelande",
++		"rewindTip": "Spola tillbaka till detta meddelande. Senare ändringar ångras.",
++		"copyMessage": "Kopiera meddelande",
++		"copiedToClipboard": "Kopierade till urklipp",
++		"copyFailed": "Det gick inte att kopiera",
++		"appliedPrefix": "tillämpad:",
++		"thinking": "Tänkande…",
++		"composerPlaceholder": "Beskriv den redigering du vill ha.",
++		"composerDisabledNoProvider": "Skapa en leverantör för att börja chatta.",
++		"modelLabel": "Modell",
++		"reasoningEffortLabel": "Resonerande ansträngning",
++		"send": "Skicka",
++		"rewindConfirmTitle": "Spola tillbaka här?",
++		"rewindConfirmBody": "Agentens redigeringar och uppföljningsvändningar efter denna punkt rullas tillbaka. Projekt, konversation och agentstatus kommer att återställas. Alla ändringar du gjort sedan dess ersätts också.",
++		"rewindConfirm": "Spola tillbaka",
++		"configureModel": "Konfigurera AI-modell",
++		"historyDialog": {
++			"title": "Konversationshistorik",
++			"subtitle": "Byt eller skapa sessioner",
++			"empty": "Inga konversationer än.",
++			"msgsCount": "{{count}} meddelanden · {{date}}"
++		},
++		"stop": "Stopp",
++		"stopping": "Stoppar...",
++		"stopped": "Stoppade av dig. Redigeringar som redan tillämpats har behållits.",
++		"stopFailed": "Kunde inte stoppa agentvändningen."
++	},
++	"newProjectDialog": {
++		"title": "Nytt projekt",
++		"subtitle": "Välj en utgångspunkt och ge den ett namn",
++		"nameLabel": "Projektnamn",
++		"startingPointLabel": "Utgångspunkt",
++		"create": "Skapa projekt",
++		"defaultTitle": "Namnlöst projekt",
++		"templates": {
++			"screenRecordingTitle": "Skärminspelning",
++			"screenRecordingDesc": "Starta systeminfångning",
++			"importMediaDesc": "Video, ljud, bilder från disk"
++		}
++	},
++	"openProjectDialog": {
++		"title": "Öppet projekt",
++		"subtitle": "Plocka upp ett befintligt projekt eller bläddra bland dina filer",
++		"searchPlaceholder": "Sök efter projekt...",
++		"noMatches": "Inga projekt matchar \"{{query}}\".",
++		"navigateHint": "att navigera ·",
++		"openHint": "att öppna",
++		"browseFiles": "Bläddra bland filer...",
++		"deleteProject": "Ta bort projekt",
++		"confirmDelete": "Vill du ta bort det här projektet? Dina inspelningar sparas."
++	},
++	"editClipDialog": {
++		"title": "Redigera klipp",
++		"adjustStart": "Justera klippstart",
++		"adjustEnd": "Justera klämmans ände",
++		"originalDuration": "Ursprunglig varaktighet",
++		"trimRange": "Trimområde",
++		"duration": "Slutlig varaktighet",
++		"reset": "Återställa",
++		"apply": "Tillämpas",
++		"pickClipTitle": "Välj ett klipp att redigera",
++		"clipLabel": "Klipp {{index}}"
++	},
++	"cropDialog": {
++		"subtitle": "Dra regionen eller dess handtag för att justera beskärningsområdet"
++	},
++	"transport": {
++		"playbackControls": "Uppspelningskontroller",
++		"play": "Spela",
++		"pause": "Paus",
++		"loop": "Slinga"
++	},
++	"shell": {
++		"aiEditor": "AI-redaktör",
++		"resizeChatPanel": "Ändra storlek på chattpanelen",
++		"previewStage": "Förhandsvisningsstadiet",
++		"resizeTimeline": "Ändra storlek på tidslinjen"
++	},
++	"preview": {
++		"videoPreview": "Förhandsvisning av video",
++		"webcamPreview": "Förhandsvisning av kamera",
++		"mediaError": {
++			"title": "Förhandsvisningen stoppades",
++			"description": "Videon kunde inte avkodas. Filen kan vara skadad, fortfarande skriven eller inte längre där projektet förväntar sig det - ditt projekt i sig är intakt.",
++			"retry": "Försök igen",
++			"detail": "Detaljer: {{detail}}"
++		}
++	},
++	"annotationOverlay": {
++		"imageAlt": "Anteckning",
++		"noImage": "Ingen bild",
++		"noArrowData": "Inga pildata"
++	},
++	"providerSettings": {
++		"title": "AI-inställningar",
++		"subtitle": "Välj en leverantör. Dina nycklar lagras säkert på den här datorn.",
++		"loadFailed": "Det gick inte att läsa in AI-inställningar",
++		"saved": "{{provider}} har sparats",
++		"connected": "{{provider}} ansluten",
++		"disconnected": "{{provider}} frånkopplad",
++		"pillConnected": "Ansluten",
++		"pillApiKey": "API-nyckel",
++		"notConnected": "Ej ansluten",
++		"back": "Tillbaka",
++		"modelLabel": "Modell",
++		"modelHintLive": "Modeller från ditt konto, hämtade live.",
++		"modelHintError": "Det gick inte att hämta livemodeller ({{error}}); skriv in ett modell-ID manuellt.",
++		"modelHintLoading": "Laddar livemodeller...",
++		"modelSavedOption": "{{model}} (sparad)",
++		"loadingModels": "Laddar modeller...",
++		"baseUrlLabel": "Bas-URL",
++		"baseUrlHint": "Lämna tomt för att använda leverantörens standard.",
++		"reasoningEffortLabel": "Resonerande ansträngning",
++		"apiKeyLabel": "API-nyckel",
++		"apiKeyHintStored": "Förvaras säkert på den här datorn. Lämna tomt för att behålla den aktuella nyckeln.",
++		"projectEditsLabel": "Agentredigeringar",
++		"projectEditsHint": "När avstängd måste agenten fråga innan tidslinjen ändras. Det går alltid att ångra redigeringar.",
++		"allowAgentEdits": "Tillåt agenten att redigera projektet",
++		"disconnect": "Koppla från",
++		"cancel": "Avbryt",
++		"save": "Spara",
++		"saveAndUse": "Spara & använd"
++	},
++	"mcpServer": {
++		"title": "MCP-server",
++		"description": "Låt MCP-klienter du kör själv, som Claude Code eller Codex, använda AI-redigeringsverktygen på något av dina projekt, inte bara det som är öppet i redigeraren. De loggar in med sina egna konton; OpenScreen ser dem aldrig.",
++		"enableLabel": "Server",
++		"enable": "Aktivera MCP-server",
++		"editsLabel": "MCP-redigeringar",
++		"allowEdits": "Tillåt MCP-klienter att redigera dina projekt, spela in och exportera",
++		"editsHint": "Av som standard: kunder kan läsa dina projekt, och varje redigering, inspelning eller export som de försöker avvisas. När på, sparas varje redigering när den landar; en redigering av projektet som är öppet i editorn kan ångras där.",
++		"statusRunning": "Spring",
++		"statusOff": "Av",
++		"statusError": "Springer inte",
++		"portLabel": "Hamn",
++		"portApply": "Tillämpas",
++		"tokenLabel": "Tillgångstoken",
++		"tokenHint": "Kunder måste skicka denna token. Om du återskapar den kopplar du bort alla klienter som konfigurerats med den gamla.",
++		"show": "Visa",
++		"hide": "Dölja",
++		"copy": "Kopiera",
++		"regenerate": "Regenerera",
++		"claudeCodeLabel": "Claude Code",
++		"codexLabel": "Kodex",
++		"codexHint": "Codex läser token från miljövariabeln {{env}}. Ställ in den i skalet du startar Codex från.",
++		"copied": "Kopierade till urklipp",
++		"copyFailed": "Kunde inte kopiera",
++		"updateFailed": "Det gick inte att uppdatera MCP-servern"
++	},
++	"cpuCompositor": {
++		"notice": "Körs utan en kompatibel GPU — rendering på CPU, så uppspelningen går långsammare.",
++		"exportWarning": "Ingen kompatibel GPU: denna export körs på CPU och kommer att ta mycket längre tid än vanligt."
++	}
++}
+diff --git a/src/i18n/locales/sv/launch.json b/src/i18n/locales/sv/launch.json
+new file mode 100644
+index 0000000..a9b5fd8
+--- /dev/null
++++ b/src/i18n/locales/sv/launch.json
+@@ -0,0 +1,157 @@
++{
++	"tooltips": {
++		"hideHUD": "Dölj inspelningsfältet",
++		"hideHUDTip": "Dölj inspelningsfältet. Visa det igen från ikonen i fältet.",
++		"closeApp": "Avsluta OpenScreen",
++		"restartRecording": "Radera den här inspelningen och starta en ny",
++		"cancelRecording": "Stoppa och radera denna inspelning",
++		"pauseRecording": "Pausa inspelningen",
++		"resumeRecording": "Återuppta inspelningen",
++		"useVerticalTray": "Byt till vertikal stapel",
++		"useHorizontalTray": "Växla till horisontell stapel",
++		"changeSource": "Välj en annan skärm eller ett annat fönster",
++		"systemAudio": "Systemljud: spelar in ljudet som din dator spelar upp",
++		"microphone": "Mikrofon: spelar in din röst",
++		"camera": "Kamera: spelar in dig som ett separat lager som du kan flytta i redigeraren",
++		"openStudio": "Öppna Studio: redigeraren för dina inspelningar",
++		"openNotes": "Öppna anteckningar: text att läsa medan du spelar in",
++		"openNotesPlaceholder": "Gör anteckningar här...",
++		"notesToolbar": {
++			"bold": "Djärv",
++			"italic": "Kursiv",
++			"strikethrough": "Genomstruken",
++			"bulletList": "Kullista",
++			"numberedList": "Numrerad lista",
++			"blockquote": "Blockcitat",
++			"codeBlock": "Kodblock",
++			"play": "Starta automatisk rullning",
++			"pause": "Pausa automatisk rullning",
++			"speed": "Scrollhastighet",
++			"decreaseSpeed": "Minska rullningshastigheten",
++			"increaseSpeed": "Öka rullningshastigheten",
++			"fontSize": "Fontstorlek",
++			"decreaseFontSize": "Minska teckenstorleken",
++			"increaseFontSize": "Öka teckenstorleken",
++			"mirror": "Spegel horisontellt",
++			"mirrorTip": "Vänd texten från vänster till höger för att läsa den i en spegel"
++		}
++	},
++	"audio": {
++		"systemAudio": "Systemljud",
++		"microphone": "Mikrofon",
++		"inputDevice": "Inmatningsenhet"
++	},
++	"webcam": {
++		"searching": "Sökande...",
++		"noneFound": "Ingen kamera hittades",
++		"unavailable": "Kameran är inte tillgänglig",
++		"camera": "Kamera",
++		"cameraDevice": "Kameraenhet",
++		"quality": "Kamerakvalitet",
++		"quality1080p": "1080p",
++		"quality1440p": "1440p",
++		"quality2160p": "4K"
++	},
++	"cursor": {
++		"name": "Redigerbar markör",
++		"editableTip": "Redigerbar markör: spelas in separat, så att du kan stila om den och autozooma i redigeraren",
++		"systemTip": "Systemmarkör: din riktiga markör, inspelad i videon. Ingen stiländring och ingen automatisk zoomning."
++	},
++	"sourceSelector": {
++		"loading": "Laddar skärmar och fönster...",
++		"screens": "Skärmar ({{count}})",
++		"windows": "Windows ({{count}})",
++		"emptyTitle": "Inga skärmar eller fönster hittades",
++		"emptyDescription": "Om du precis har beviljat skärminspelningsbehörighet, ladda om den här väljaren. På macOS kan du behöva öppna OpenScreen igen.",
++		"loadFailedDescription": "OpenScreen kunde inte ladda dina skärmar och fönster. Ladda om den här väljaren och försök igen.",
++		"defaultSourceName": "Skärm"
++	},
++	"recording": {
++		"selectSource": "Välj en skärm eller ett fönster att spela in",
++		"systemPicker": "Ditt system kommer att fråga vad som ska delas",
++		"start": "Börja spela in",
++		"stop": "Stoppa och spara inspelningen",
++		"saving": "Sparande..."
++	},
++	"language": "Språk",
++	"languageWithName": "Språk: {{language}}",
++	"systemLanguagePrompt": {
++		"title": "Använd ditt systemspråk?",
++		"description": "Vi har upptäckt {{language}} som ditt systemspråk. Vill du byta OpenScreen till {{language}}?",
++		"switch": "Byt till {{language}}",
++		"keepDefault": "Behåll aktuellt språk"
++	},
++	"softwareEncoderFallback": {
++		"title": "Bytte till en reservkodare",
++		"description": "Ditt grafikkorts kodare startade inte, så OpenScreen bytte till en säkerhetskopia. Din inspelning är bra, även om din dator kan arbeta lite hårdare.",
++		"dismiss": "Jag förstår",
++		"dontShowAgain": "Visa inte igen"
++	},
++	"deviceSettings": {
++		"title": "Enhetsinställningar",
++		"close": "Stäng",
++		"micLevel": "Ingångsnivå",
++		"micHint": "Tala för att kontrollera din mikrofon",
++		"noMicrophones": "Ingen mikrofon hittades",
++		"preview": "Förhandsvisning",
++		"previewUnavailable": "Förhandsgranskning inte tillgänglig",
++		"about": "Om",
++		"version": "Version {{version}}",
++		"checkingForUpdates": "Kontroll…"
++	},
++	"permissions": {
++		"title": "OpenScreen behöver några behörigheter",
++		"subtitle": "macOS ber dig godkänna varje behörighet en gång. Du kan ändra dem när som helst i Systeminställningar.",
++		"level": {
++			"required": "Nödvändig",
++			"recommended": "Rekommenderad",
++			"optional": "Frivillig"
++		},
++		"rows": {
++			"screen": {
++				"name": "Skärm och systemljud",
++				"description": "För att spela in din skärm och ljudet som din Mac spelar."
++			},
++			"systemAudio": {
++				"name": "Systemljud",
++				"description": "För att spela in ljudet som din Mac spelar. Att välja en skärm eller ett fönster kräver ingen tillåtelse."
++			},
++			"accessibility": {
++				"name": "Tillgänglighet",
++				"description": "För att visa rätt markör (pekare, text) i dina inspelningar."
++			},
++			"microphone": {
++				"name": "Mikrofon",
++				"description": "För att spela in din röst."
++			},
++			"camera": {
++				"name": "Kamera",
++				"description": "För att lägga till din webbkamera till dina inspelningar."
++			}
++		},
++		"status": {
++			"granted": "Tillåten",
++			"restricted": "Hanteras av din organisation"
++		},
++		"actions": {
++			"continue": "Fortsätta",
++			"allow": "Tillåta",
++			"openSettings": "Öppna Inställningar",
++			"restart": "Starta om OpenScreen",
++			"start": "Kom igång"
++		},
++		"help": {
++			"screenPrompt": "macOS kommer sedan att be dig att aktivera OpenScreen i systeminställningarna.",
++			"screenSettings": "Aktivera OpenScreen i Systeminställningar. Om macOS erbjuder sig att avsluta och öppna det igen, acceptera: det här fönstret kommer tillbaka.",
++			"screenNotListed": "Finns inte OpenScreen i listan? Klicka på + och välj sedan OpenScreen i applikationer.",
++			"screenRestart": "Tillåten. OpenScreen måste startas om innan den kan användas.",
++			"screenRecurring": "På din första inspelning kommer macOS att fråga om OpenScreen kan komma åt din skärm direkt, utan systemväljaren. Klicka på Tillåt. macOS frågar igen då och då; det är förväntat.",
++			"systemAudioPrompt": "macOS kommer att be dig att tillåta OpenScreen att spela in ljudet som din Mac spelar.",
++			"systemAudioRequested": "Om du sa nej, aktivera OpenScreen under \"Endast systemljudinspelning\" i Systeminställningar."
++		},
++		"footer": {
++			"screenRequired": "Skärminspelning behövs för att spela in.",
++			"ready": "Du är redo."
++		}
++	}
++}
+diff --git a/src/i18n/locales/sv/settings.json b/src/i18n/locales/sv/settings.json
+new file mode 100644
+index 0000000..f2afee1
+--- /dev/null
++++ b/src/i18n/locales/sv/settings.json
+@@ -0,0 +1,457 @@
++{
++	"background": {
++		"motion": "Animation",
++		"motionNone": "Ingen",
++		"motionDrift": "Drift",
++		"motionAurora": "Aurora",
++		"motionWaves": "Vågor",
++		"gradientLabel": "Gradient {{index}}",
++		"uploadCustom": "Ladda upp bild",
++		"unsupportedImage": "Bild som inte stöds. Använd en JPG- eller PNG-fil.",
++		"title": "Bakgrund",
++		"imageLabel": "Bakgrund {{index}}",
++		"custom": "Beställnings",
++		"customColor": "Anpassad färg",
++		"customGradient": "Gradient från en färg",
++		"help": "Välj vad som visas bakom inspelningen: en medföljande bakgrundsbild, en enfärgad, en gradient eller en anpassad bild från disk.",
++		"gradient": "Lutning",
++		"colorLabel": "Färg {{color}}",
++		"customWallpaper": "Anpassad tapet",
++		"colorPalette": "Färgpalett",
++		"imageReadFailed": "Kunde inte läsa den bildfilen.",
++		"image": "Bild",
++		"presets": "Förinställningar",
++		"color": "Färg",
++		"colorWheel": "Färghjul"
++	},
++	"customFont": {
++		"namePlaceholder": "Mitt anpassade teckensnitt",
++		"failedToAdd": "Det gick inte att lägga till teckensnitt",
++		"addingButton": "Lägger till...",
++		"errorInvalidUrl": "Ange en giltig webbadress för Google Fonts",
++		"urlHelp": "Hämta detta från Google Fonts: Välj ett teckensnitt → Klicka på \"Hämta teckensnitt\" → Kopiera @import-URL:n",
++		"urlLabel": "Google Fonts Import URL",
++		"successMessage": "Teckensnittet \"{{fontName}}\" har lagts till",
++		"nameLabel": "Visningsnamn",
++		"errorEmptyName": "Ange ett teckensnittsnamn",
++		"nameHelp": "Så här kommer typsnittet att se ut i teckensnittsväljaren",
++		"errorEmptyUrl": "Ange en URL för import av Google Fonts",
++		"errorExtractFailed": "Det gick inte att extrahera teckensnittsfamiljen från URL",
++		"urlPlaceholder": "https://fonts.googleapis.com/css2?family=Roboto&display=swap",
++		"dialogTitle": "Lägg till Google Font",
++		"errorTimeout": "Teckensnittet tog för lång tid att ladda. Kontrollera webbadressen och försök igen.",
++		"errorLoadFailed": "Teckensnittet kunde inte laddas. Kontrollera att webbadressen för Google Fonts är korrekt.",
++		"addButton": "Lägg till teckensnitt"
++	},
++	"imageUpload": {
++		"invalidFileType": "Ogiltig filtyp",
++		"failedToUpload": "Det gick inte att ladda upp bilden",
++		"jpgOnly": "Ladda upp en JPG-, JPEG- eller PNG-bildfil.",
++		"uploadSuccess": "Anpassad bild har laddats upp!",
++		"errorReading": "Det uppstod ett fel när filen lästes."
++	},
++	"annotation": {
++		"blurShapeRectangle": "Rektangel",
++		"size": "Storlek",
++		"customSize": "Anpassad storlek",
++		"tipShiftTabCycle": "Använd Skift+Tabb för att cykla bakåt.",
++		"clearBackground": "Rensa Bakgrund",
++		"colorPalette": "Färgpalett",
++		"invalidImageType": "Ogiltig filtyp",
++		"background": "Bakgrund",
++		"typeText": "Text",
++		"active": "Aktiv",
++		"color": "Färg",
++		"blurShapeFreehand": "Frihand",
++		"arrowDirection": "Pilriktning",
++		"blurTypeMosaic": "Mosaik",
++		"colorWheel": "Färghjul",
++		"textColor": "Text färg",
++		"title": "Anteckningsinställningar",
++		"blurType": "Oskärpa typ",
++		"typeBlur": "Fläck",
++		"blurIntensity": "Oskärpa intensitet",
++		"selectStyle": "Välj stil",
++		"textContent": "Text",
++		"typeArrow": "Pil",
++		"none": "Ingen",
++		"blurColor": "Oskärpa färg",
++		"customFonts": "Anpassade teckensnitt",
++		"imageUploadSuccess": "Bilden har laddats upp!",
++		"type": "Typ",
++		"arrowColor": "Pilfärg",
++		"textPlaceholder": "Skriv din text...",
++		"imageFormatsOnly": "Ladda upp en JPG-, PNG-, GIF- eller WebP-bildfil.",
++		"blurShape": "Oskarp form",
++		"uploadImage": "Ladda upp bild",
++		"blurTypeBlur": "Jämna",
++		"tipTabCycle": "Använd Tab för att bläddra genom överlappande objekt.",
++		"shortcutsAndTips": "Genvägar och tips",
++		"deleteAnnotation": "Ta bort anteckning",
++		"fontStyle": "Typsnittsstil",
++		"defaultText": "Hej",
++		"mosaicBlockSize": "Mosaikblockstorlek",
++		"blurColorBlack": "Svart",
++		"strokeWidth": "Tjocklek: {{width}}px",
++		"blurShapeOval": "Oval",
++		"blurColorWhite": "Vit",
++		"tipMovePlayhead": "Flytta spelhuvudet till överlappande anteckningssektion och välj ett objekt.",
++		"typeImage": "Bild"
++	},
++	"effects": {
++		"fitClipFew": "{{count}} klipp",
++		"title": "Sammansättning",
++		"shadow": "Skugga",
++		"off": "av",
++		"on": "på",
++		"blurBg": "Oskärpa bakgrund",
++		"help": "Ramutformning för inspelningen: bakgrundsoskärpa, skugga, rörelseoskärpa, hörnradie och utfyllnad runt videon.",
++		"fitClipOne": "{{count}} klipp",
++		"formatAuto": "Bil",
++		"formatAutoMixed": "Klipp skiljer sig åt",
++		"formatFill": "Inspelning",
++		"formatFillFit": "Hela",
++		"formatFillFollow": "Följ markören",
++		"formatOriginal": "Original",
++		"fitClipMany": "{{count}} klipp",
++		"frame": "Ram",
++		"motion": "Rörelse",
++		"padding": "Stoppning",
++		"format": "Format",
++		"motionBlur": "Rörelseoskärpa",
++		"depthOfField": "Skärpedjup",
++		"depthOfFieldTip": "Gör den bortre sidan av en lutad skärm suddig",
++		"roundness": "Rundhet",
++		"frameStyle": "Stil",
++		"windowNone": "Ingen",
++		"frameWindow": "Fönster",
++		"frameLaptop": "Laptop",
++		"framePhone": "Telefon",
++		"frameScreen": "Skärm",
++		"frameTheme": "Tema",
++		"frameThemeLight": "Ljus",
++		"frameThemeDark": "Mörk",
++		"roundnessFrameHelp": "Räckvidden beror på ramen. 100% är det rundaste som fortfarande ser bra ut.",
++		"shadowNone": "Ingen",
++		"shadowLight": "Ljus",
++		"shadowMedium": "Medium",
++		"shadowStrong": "Stark"
++	},
++	"stylePresets": {
++		"button": "Förinställningar",
++		"menuLabel": "Stilförinställningar",
++		"factoryName": "Öppna skärm",
++		"factoryBadge": "Inbyggt",
++		"empty": "Inga sparade förinställningar ännu",
++		"create": "Skapa ny förinställning...",
++		"namePlaceholder": "Förinställt namn",
++		"save": "Spara",
++		"moreActions": "Fler åtgärder för {{name}}",
++		"revealMac": "Visa i Finder",
++		"revealWindows": "Visa i Explorer",
++		"revealLinux": "Visa i mapp",
++		"rename": "Döpa om",
++		"update": "Uppdatering från aktuellt projekt",
++		"useForNewProjects": "Använd för nya projekt",
++		"stopForNewProjects": "Sluta använda för nya projekt",
++		"newProjectsBadge": "Nya projekt",
++		"delete": "Radera",
++		"confirmDelete": "Ta bort \"{{name}}\"?",
++		"applied": "Tillämpade \"{{name}}\"",
++		"saved": "Förinställning sparad",
++		"updated": "Förinställning uppdaterad",
++		"nameRequired": "Ange ett namn",
++		"nameTaken": "En förinställning med detta namn finns redan",
++		"loadFailed": "Det gick inte att ladda förinställningar",
++		"saveFailed": "Kunde inte spara förinställningen: {{error}}"
++	},
++	"transcript": {
++		"laneRecording": "Inspelning",
++		"noTranscript": "Ingen utskrift ännu",
++		"title": "Avskrift",
++		"restoreWord": "Återställ \"{{word}}\"",
++		"revertWord": "Återställ \"{{original}}\"",
++		"editingHint": "Dubbelklicka på ett ord för att korrigera det, Backsteg klipper det från filmen.",
++		"restoreSilence": "Återställ tystnad ({{duration}}s)",
++		"help": "Transkriptionen av varje klipp på tidslinjen. Backsteg / Radera ett ord eller markering för att klippa ut det från filmen (röd). Dubbelklicka på ett ord för att korrigera dess text. Håll muspekaren över ett markerat ord för att ångra det.",
++		"editWord": "Redigera \"{{word}}\"",
++		"laneFeedsCaptions": "Bildtexter är brända från detta körfält.",
++		"insertedWord": "Tillagt av dig. Det finns inget ljud för det.",
++		"whisperHint": "Transkribera använder lokal Whisper — körs på din dator, ingen data lämnar enheten.",
++		"insertAria": "Nytt ord",
++		"editorAria": "Transkription för {{filename}}",
++		"transcribeNow": "Transkribera nu",
++		"transcribing": "Transkriberar...",
++		"trimSilence": "Trimma tystnad ({{duration}}s)",
++		"removeInserted": "Ta bort \"{{word}}\"",
++		"laneLabel": "Läs utskriften från",
++		"noClips": "Inga klipp än",
++		"laneVoiceover": "Speakerpålägg",
++		"silence": "[tysta {{duration}}s]",
++		"clipLabel": "Klipp {{index}}",
++		"correctedWord": "Rättad. Transkriberaren hörde \"{{original}}\".",
++		"noClipTranscript": "Ingen utskrift för det här klippet – öppna tillgångskortet och generera på nytt.",
++		"editingHintDev": "Dubbelklicka på ett ord för att korrigera det, Backsteg klipper det från filmen, skriv mellan två ord för att lägga till ett.",
++		"noAudio": "Det här mediet har inget ljudspår",
++		"blankedWord": "tömda"
++	},
++	"exportFormat": {
++		"mp4": "MP4",
++		"mp4Description": "Högkvalitativ videofil",
++		"gifAnimation": "GIF-animering",
++		"mp4Video": "MP4 video",
++		"gifDescription": "Animerad bild för delning",
++		"gif": "GIF"
++	},
++	"captions": {
++		"showBackground": "Visa bakgrund",
++		"deleteTranslation": "Ta bort den här översättningen",
++		"legacyAnnotations": "Det här projektet innehåller fortfarande textningskommentarer från den gamla textningsfunktionen ({{count}}). De återges ovanpå bildtextlagret.",
++		"backgroundOpacity": "Opacitet",
++		"backgroundColor": "Bakgrundsfärg",
++		"translationIsNonDestructive": "Översättningar lagras bredvid avskriften, aldrig i den - originaltexten och dess tidpunkter förblir orörda.",
++		"distanceFromRight": "Avstånd från höger",
++		"language": "Språk",
++		"text": "Text",
++		"distanceFromTop": "Avstånd från toppen",
++		"translateFailed": "Översättning misslyckades.",
++		"distanceFromBottom": "Avstånd från botten",
++		"derivedFromTranscript": "{{count}} textrader, härledd live från transkriptionen.",
++		"translate": "Översätta",
++		"position": "Placera",
++		"fontSize": "Storlek",
++		"hiddenHint": "Bildtexter kommer från denna medias utskrift. Slå på dem för att se dem i förhandsgranskningen och i exporter.",
++		"noTranscript": "Bildtexter läses från mediautskriften. Transkribera den här videon för att aktivera dem.",
++		"distanceFromLeft": "Avstånd från vänster",
++		"transcribe": "Transkribera video",
++		"bold": "Djärv",
++		"minWords": "Minst ord per rad",
++		"translateHint": "Översätt transkriptet med den konfigurerade AI-leverantören",
++		"displayLanguage": "Visa",
++		"removeLegacyAnnotations": "Ta bort gamla textningskommentarer",
++		"background": "Bakgrund",
++		"lineLength": "Linjens längd",
++		"original": "Original (avskrift)",
++		"maxWords": "Max ord per rad",
++		"font": "Font",
++		"translating": "Översätter…",
++		"show": "Visa bildtexter",
++		"textColor": "Textfärg",
++		"style": "Stil",
++		"styles": {
++			"classic": "Klassisk",
++			"bold": "Djärv",
++			"minimal": "Minimal",
++			"light": "Ljus"
++		},
++		"customize": "Anpassa"
++	},
++	"panes": {
++		"help": "Hjälp"
++	},
++	"speed": {
++		"deleteRegion": "Ta bort hastighetsregion",
++		"maxSpeedError": "Hastigheten kan inte gå högre än {{max}}×",
++		"selectRegion": "Välj ett hastighetsområde att justera",
++		"playbackSpeed": "Uppspelningshastighet",
++		"customPlaybackSpeed": "Anpassad hastighet",
++		"previewFrameSteppingHint": "Över {{native}}× visas förhandsvisningen bildruta för bildruta utan ljud. Exporten påverkas inte."
++	},
++	"gifSettings": {
++		"frameRate": "GIF-bildhastighet",
++		"loop": "Slinga GIF",
++		"size": "GIF-storlek"
++	},
++	"exportQuality": {
++		"title": "Exportupplösning",
++		"low": "720p",
++		"high": "Källa",
++		"medium": "1080p"
++	},
++	"audioTrack": {
++		"defaultLabel": "Ljudspår",
++		"importFailed": "Det gick inte att lägga till ljud",
++		"fadeOut": "Tona ut",
++		"fadeIn": "Tona in",
++		"remove": "Ta bort spår",
++		"loop": "Slinga",
++		"slipHint": "Håll ned {{modifier}} och dra för att skjuta in ljudet i spåret",
++		"help": "Volym, tonar och looping för detta ljudspår. Det blandas över inspelningen i förhandsgranskningen och exporten. Ett musikspår faller av sig själv medan någon talar. Dra spåret på tidslinjen för att flytta eller ändra storlek på det, eller håll ned Alt och dra för att skjuta ljudet inuti det.",
++		"add": "Lägg till ljudspår",
++		"mute": "Stum"
++	},
++	"layout": {
++		"help": "Hur webbkameran är sammansatt med skärmen: bild-i-bild, vertikal stack, dubbel ram, form, rundhet, storlek, position och spegling.",
++		"mirrorWebcam": "Spegel webbkamera",
++		"webcamFraming": "Beskärning av webbkamera",
++		"webcamFramingDrag": "Dra ramen för att flytta den, eller ett hörn för att zooma.",
++		"shapes": {
++			"square": "Fyrkant",
++			"original": "Original"
++		},
++		"webcamPosition": "Placera",
++		"anchors": {
++			"topLeft": "Överst till vänster",
++			"top": "Bästa",
++			"topRight": "Överst till höger",
++			"left": "Vänster",
++			"right": "Rätt",
++			"bottomLeft": "Nederst till vänster",
++			"bottom": "Botten",
++			"bottomRight": "Nederst till höger"
++		},
++		"selectPreset": "Välj förinställning",
++		"bgModes": {
++			"custom": "Beställnings",
++			"none": "Original",
++			"blur": "Fläck",
++			"transparent": "Utklippsfigur"
++		},
++		"webcamBlurIntensity": "Oskärpa intensitet",
++		"preset": "Förval",
++		"webcamSize": "Webbkamera storlek",
++		"dualFrame": "Dubbel ram",
++		"verticalStack": "Vertikal stack",
++		"pictureInPicture": "Bild i bild",
++		"webcamShape": "Kameraform",
++		"reactiveWebcam": "Krympa vid zoom",
++		"reactiveWebcamTip": "Kameran blir mindre medan videon zoomas in",
++		"webcamBackground": "Kamerabakgrund",
++		"helpNoWebcam": "Det här projektet har ingen kamera, så layoutkontrollerna är avstängda och förinställningen läser \"Ingen webbkamera\". Din sparade layout behålls när en kamera läggs till.",
++		"title": "Kameralayout",
++		"noWebcam": "Ingen webbkamera"
++	},
++	"textAnimation": {
++		"slideLeft": "Skjut åt vänster",
++		"pulse": "Puls",
++		"typewriter": "Skrivmaskin",
++		"selectAnimation": "Välj animation",
++		"fade": "Blekna",
++		"title": "Textanimering",
++		"none": "Ingen",
++		"pop": "Pop",
++		"rise": "Stiga"
++	},
++	"facets": {
++		"transcript": "Avskrift",
++		"captions": "Bildtexter",
++		"tips": {
++			"effects": "Komposition: bakgrund, ram, skugga och stoppning",
++			"layout": "Kameralayout: kamerans position, form och storlek",
++			"audio": "Ljud: utgångsnivå för hela videon",
++			"cursor": "Markör: stil, storlek och effekter",
++			"transcript": "Transkription: redigera orden för att klippa videon"
++		}
++	},
++	"crop": {
++		"title": "Beskära",
++		"free": "Gratis",
++		"unlockAspectRatio": "Lås upp bildförhållande",
++		"dragInstruction": "Dra på varje sida för att justera beskärningsområdet",
++		"done": "Klar",
++		"ratio": "Förhållande",
++		"cropVideo": "Beskär video",
++		"lockAspectRatio": "Lås bildförhållande"
++	},
++	"zoom": {
++		"position": {
++			"y": "Y (%)",
++			"hint": "0 = längst till vänster / längst upp, 100 = längst till höger / längst ner",
++			"title": "Fokusposition",
++			"x": "X (%)"
++		},
++		"deleteZoom": "Ta bort zoom",
++		"focusMode": {
++			"lockedDisclaimer": "Ställs in av Autofokus-knappen på tidslinjen. Stäng av den för att välja fokusläge för varje zoom.",
++			"auto": "Bil",
++			"manual": "Manuell",
++			"title": "Fokusläge"
++		},
++		"camera": {
++			"title": "3D-kamera",
++			"off": "Av",
++			"preset": {
++				"left": "Skärmen vriden åt vänster",
++				"right": "Skärmen vriden åt höger",
++				"orbit": "3D-bana"
++			}
++		},
++		"level": "Zoomnivå",
++		"customScale": "Anpassad zoom",
++		"customScaleRange": "Zoomen går från {{min}}× till {{max}}×",
++		"selectRegion": "Välj en zoomregion att justera",
++		"cursor": {
++			"title": "Markör",
++			"show": "Synlig",
++			"hide": "Dold"
++		}
++	},
++	"audio": {
++		"outputGain": "Utgångsnivå",
++		"help": "Röster nivelleras automatiskt till en standardljudstyrka. Justera utgångsnivån därifrån; det gäller identiskt i förhandsgranskningen och exporten.",
++		"reset": "Återställ ljud",
++		"title": "Audio"
++	},
++	"language": {
++		"title": "Språk"
++	},
++	"project": {
++		"new": "Nytt projekt",
++		"load": "Ladda projekt",
++		"save": "Spara projekt"
++	},
++	"support": {
++		"starOnGithub": "Stjärna på GitHub",
++		"saveDiagnostics": "Spara diagnostik",
++		"reportBug": "Rapportera bugg"
++	},
++	"cursor": {
++		"smoothing": "Glättning",
++		"clickBounce": "Klicka på studs",
++		"model3d": "3D-markör",
++		"model3dTip": "Ritar standardmarkören som ett 3D-objekt med en skugga",
++		"clickImpact": "Klickpåverkan",
++		"clickImpactTip": "Skärmen rör sig lite för varje klick",
++		"clickSound": "Musklick",
++		"clickSoundTip": "Varje klick ljuder, i förhandsgranskningen och i exporten",
++		"clickSoundVolume": "Klicka på volym",
++		"help": "Hur den inspelade markören ritas: stil, storlek, utjämning, rörelseoskärpa och klickstuds.",
++		"size": "Storlek",
++		"title": "Markör",
++		"show": "Visa markören",
++		"themeDefault": "Standard",
++		"types": "Markörtyper",
++		"typeArrow": "Pil",
++		"typePointer": "Hand",
++		"typeText": "Text",
++		"typeGrab": "Hugg",
++		"typeResize": "Ändra storlek",
++		"typeBusy": "Upptagen",
++		"typeCrosshair": "Hårkors",
++		"typeNotAllowed": "Inte tillåtet",
++		"typeHelp": "Hjälp",
++		"typeUpArrow": "Alternativt val",
++		"typeAsArrow": "{{type}}: ersatt av pilen",
++		"motionBlur": "Rörelseoskärpa",
++		"theme": "Markör stil",
++		"autoHide": "Dölj automatiskt när den är inaktiv",
++		"autoHideTip": "Markören tonar ut när den slutar röra sig",
++		"bounceNone": "Ingen",
++		"bounceLight": "Ljus",
++		"bounceStrong": "Stark"
++	},
++	"export": {
++		"gifButton": "Exportera GIF",
++		"chooseSaveLocation": "Välj Spara plats",
++		"videoButton": "Exportera video"
++	},
++	"trim": {
++		"deleteRegion": "Ta bort Trim Region"
++	},
++	"textPlate": {
++		"none": "Ingen",
++		"dark": "Mörk",
++		"light": "Ljus",
++		"custom": "Beställnings"
++	}
++}
+diff --git a/src/i18n/locales/sv/shortcuts.json b/src/i18n/locales/sv/shortcuts.json
+new file mode 100644
+index 0000000..7f4d913
+--- /dev/null
++++ b/src/i18n/locales/sv/shortcuts.json
+@@ -0,0 +1,43 @@
++{
++	"title": "Kortkommandon",
++	"customize": "Anpassa",
++	"configurable": "Konfigurerbar",
++	"fixed": "Fast",
++	"pressKey": "Tryck på en tangent...",
++	"clickToChange": "Klicka för att ändra",
++	"pressEscToCancel": "Tryck på Esc för att avbryta",
++	"helpText": "Klicka på en genväg och tryck sedan på den nya tangentkombinationen. Tryck på Esc för att avbryta.",
++	"resetToDefaults": "Återställ till standardinställningar",
++	"alreadyUsedBy": "Används redan av {{action}}",
++	"swap": "Byta",
++	"reservedShortcut": "Den här genvägen är reserverad för \"{{label}}\" och kan inte tilldelas om.",
++	"savedToast": "Kortkommandon har sparats",
++	"resetToast": "Återställ till standardgenvägar — klicka på Spara för att tillämpa",
++	"registrationFailed": "Det gick inte att registrera genväg. Den kan användas av en annan app. Prova en annan nyckel.",
++	"actions": {
++		"openApp": "Öppna App",
++		"addZoom": "Lägg till zoom",
++		"addTrim": "Lägg till Trim",
++		"addSpeed": "Lägg till hastighet",
++		"addAnnotation": "Lägg till anteckning",
++		"addAudio": "Lägg till ljud",
++		"addVoiceover": "Spela in voiceover",
++		"addKeyframe": "Lägg till Keyframe",
++		"addCameraFullscreen": "Ändra layout här",
++		"deleteSelected": "Ta bort markerade",
++		"playPause": "Spela / Pausa",
++		"copySelected": "Kopiera valda",
++		"paste": "Klistra"
++	},
++	"fixedActions": {
++		"undo": "Ångra",
++		"redo": "Göra om",
++		"cycleAnnotationsForward": "Cykla kommentarer framåt",
++		"cycleAnnotationsBackward": "Cykla kommentarer bakåt",
++		"deleteSelectedAlt": "Ta bort markerade (alt)",
++		"panTimeline": "Panorera tidslinjen",
++		"zoomTimeline": "Zooma tidslinje",
++		"frameBack": "Ram tillbaka",
++		"frameForward": "Nästa bildruta"
++	}
++}
+diff --git a/src/i18n/locales/sv/timeline.json b/src/i18n/locales/sv/timeline.json
+new file mode 100644
+index 0000000..799c000
+--- /dev/null
++++ b/src/i18n/locales/sv/timeline.json
+@@ -0,0 +1,135 @@
++{
++	"buttons": {
++		"addZoom": "Lägg till en zoom vid den aktuella tiden",
++		"autoFocusAll": "Autofokus för alla zoomar",
++		"autoFocusAllTip": "Alla zoomningar följer markören. Av: du väljer fokus för varje zoom.",
++		"clearTimeline": "Ta bort alla zoomningar, trimningar, hastigheter, anteckningar och Full Camera. Klipp, ljud och bildtexter stannar.",
++		"addTrim": "Lägg till en trimning: tar bort en del av videon vid den aktuella tiden",
++		"addAnnotation": "Lägg till text, en pil, en bild eller en oskärpa vid den aktuella tidpunkten",
++		"addSpeed": "Lägg till en hastighetsändring vid den aktuella tiden",
++		"addCameraFullscreen": "Ändra layout här"
++	},
++	"hints": {
++		"pressZoom": "Tryck på {{key}} för att lägga till zoom",
++		"pressTrim": "Tryck på {{key}} för att lägga till trimning",
++		"pressAnnotation": "Tryck på {{key}} för att lägga till en kommentar",
++		"pressAudio": "Tryck på {{audioKey}} för att lägga till ljud, {{voiceoverKey}} för att spela in en voiceover",
++		"pressSpeed": "Tryck på {{key}} för att lägga till hastighet",
++		"pressCameraFullscreen": "Tryck på {{key}} för att lägga till ett helt kamerasegment"
++	},
++	"labels": {
++		"pan": "Panorera",
++		"panTip": "Bläddra i tidslinjen",
++		"zoom": "Zoom",
++		"zoomTip": "Zooma tidslinjen",
++		"trim": "Trim",
++		"speed": "Hastighet",
++		"zoomItem": "Zooma {{index}}",
++		"trimItem": "Trimma {{index}}",
++		"speedItem": "Hastighet {{index}}",
++		"annotationItem": "Anteckning",
++		"imageItem": "Bild",
++		"emptyText": "Tom text",
++		"cameraFullscreen": "Full kamera",
++		"cameraFullscreenItem": "Hel kamera {{index}}"
++	},
++	"trails": {
++		"zoomIn": "Zooma in: vyn flyttas in tills zoomningen startar",
++		"zoomOut": "Zooma ut: vyn flyttas ut igen efter att zoomningen är slut",
++		"zoomInCut": "En trim tar bort {{seconds}} s av zoomningen. Exporten hoppar på snittet.",
++		"zoomOutCut": "En trim tar bort {{seconds}} s av utzoomingen. Exporten hoppar på snittet.",
++		"zoomInJunction": "En klippkorsning tar bort {{seconds}} s av zoomningen. Exporten hoppar i korsningen.",
++		"zoomOutJunction": "En klippkorsning tar bort {{seconds}} s av zoomningen. Exporten hoppar i korsningen.",
++		"pan": "Panorera: vyn flyttas direkt till nästa zoom"
++	},
++	"emptyState": {
++		"noVideo": "Ingen video laddad",
++		"dragAndDrop": "Dra och släpp en video för att börja redigera"
++	},
++	"errors": {
++		"cannotPlaceZoom": "Kan inte placera zoom här",
++		"zoomExistsAtLocation": "Zoom finns redan på den här platsen eller inte tillräckligt med utrymme tillgängligt.",
++		"zoomSuggestionUnavailable": "Zoomförslagshanteraren är inte tillgänglig",
++		"noCursorTelemetry": "Inga markördata i denna inspelning",
++		"noCursorTelemetryDescription": "Spela in din skärm med OpenScreen för att få zoomningar som följer markören.",
++		"noUsableTelemetry": "Inte tillräckligt med markörrörelse",
++		"noUsableTelemetryDescription": "Inspelningen innehåller inte tillräckligt med markörrörelsedata.",
++		"noDwellMoments": "Inga tydliga marköruppehållsögonblick hittades",
++		"noDwellMomentsDescription": "Prova en inspelning med långsammare markörpauser på viktiga åtgärder.",
++		"noAutoZoomSlots": "Inget utrymme för automatiska zoomningar",
++		"noAutoZoomSlotsDescription": "De hittade ögonblicken har redan zoomningar på dem.",
++		"cannotPlaceTrim": "Kan inte placera trim här",
++		"trimExistsAtLocation": "Trim finns redan på den här platsen eller inte tillräckligt med utrymme tillgängligt.",
++		"cannotPlaceSpeed": "Kan inte placera hastighet här",
++		"speedExistsAtLocation": "Hastighetsregionen finns redan på den här platsen eller inte tillräckligt med utrymme.",
++		"cannotPlaceCameraFullscreen": "Kan inte placera hela kameran här",
++		"cameraFullscreenExistsAtLocation": "Ett komplett kamerasegment finns redan på den här platsen eller inte tillräckligt med utrymme."
++	},
++	"success": {
++		"addedZoomSuggestions": "Lade till {{count}} markörbaserat zoomförslag",
++		"addedZoomSuggestionsPlural": "Lade till {{count}} markörbaserade zoomförslag"
++	},
++	"toolbar": {
++		"autoEnhance": "Automatisk förbättring",
++		"automaticZooms": "Automatiska zoomar",
++		"automaticZoomsHint": "Från inspelade klick",
++		"smartZoomsAndCuts": "Smarta snitt",
++		"smartZoomsAndCutsHint": "Med AI",
++		"timelineTools": "Tidslinjeverktyg",
++		"arrangeClips": "Ordna klipp",
++		"arrangeClipsHint": "Dra klipp nedan för att ändra ordning eller släpp in nya",
++		"newAnnotation": "Anteckning",
++		"dragToReorderHint": "Dra för att ändra ordning. Dubbelklicka för att ändra start och slut.",
++		"editInOutPoints": "Redigera start och slut",
++		"deleteClip": "Ta bort klippet",
++		"dropToAdd": "Släpp för att lägga till på tidslinjen",
++		"importRecordingFirst": "Importera en inspelning först",
++		"noAutoZoomMoments": "Inga ögonblick för autozoom hittades",
++		"noAutoZoomMomentsDescription": "Den här inspelningen har inga registrerade klick, eller inga med plats för en zoom.",
++		"addedAutoZoom": "Lade till {{count}} automatisk zoom",
++		"addedAutoZoomPlural": "Lade till {{count}} automatiska zoomningar",
++		"autoZoomFailed": "Automatisk zoomning misslyckades",
++		"aiEnhanceRequested": "Bad AI-agenten att minska dödtiden",
++		"smartCutsWaiting": "Transkriberar... redo på ett ögonblick",
++		"smartCutsNeedsTranscript": "Behöver en utskrift",
++		"smartCutsNoAudio": "Det här mediet har inget ljud",
++		"smartCutsNoSpeech": "Inget tal upptäckt",
++		"smartCutsFailed": "Transkriptionen misslyckades – försök igen från Media",
++		"addAudioTooltip": "Lägg till ljud",
++		"addedWord": "Lade till ord: \"{{word}}\" — inget ljud bakom det"
++	},
++	"audio": {
++		"addVoiceover": "Lägg till voiceover",
++		"addVoiceoverHint": "Spela in berättarröst över din video",
++		"subtitle": "Placera en voiceover eller bakgrundsmusiklager på tidslinjen",
++		"record": "Spela in voiceover",
++		"importFile": "Importera ljudfil",
++		"importFileHint": "Ta in musik eller en ljudfil",
++		"recording": "Inspelning",
++		"recordingHint": "Berätta tillsammans med videon – den spelas upp medan du spelar in",
++		"stop": "Stopp",
++		"micDenied": "Mikrofonåtkomst nekades",
++		"recordingUnavailable": "Inspelning är inte tillgänglig här",
++		"saveFailed": "Det gick inte att spara inspelningen",
++		"importFailed": "Det gick inte att importera ljudfilen"
++	},
++	"tracks": {
++		"annotation": "Anteckningslager {{index}}",
++		"dragHint": "Dra åt vänster eller höger för att flytta i tiden. Dra uppåt eller nedåt för att byta lager; högre lager visas på toppen."
++	},
++	"layouts": {
++		"title": "Layouter",
++		"changeHere": "Ändra layout här",
++		"wholeVideo": "Hela videon",
++		"sharedSettings": "Webbkamerainställningar · hela videon",
++		"fromUntil": "Från {{start}} till {{end}}",
++		"noCamera": "Ingen webbkamera på den här filmen; endast skärmen visas.",
++		"removeChange": "Ta bort denna ändring",
++		"moveBoundary": "Flytta ändringen till {{time}}",
++		"picture-in-picture": "Bild i bild",
++		"dual-frame": "Sida vid sida",
++		"vertical-stack": "Topp/botten",
++		"camera-only": "Endast kamera",
++		"no-webcam": "Endast skärm"
++	}
++}
+-- 
+2.54.0 (Apple Git-157)
+
