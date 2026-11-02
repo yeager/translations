@@ -87,6 +87,7 @@ LibreELEC-katalogen har en känd l10n-lint-notis för URL:er inbäddade mellan
 | `script.sublissimo` | 214 av 214 översatta; granskning och korrigering av synkroniseringsflöden, tidskoder, grammatik och terminologi | `kodi-add-ons-scripts-script-sublissimo-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `script.embuary.helper` | 37 av 37 översatta; 14 språk- och terminologikorrigeringar | `kodi-add-ons-scripts-script-embuary-helper-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `script.embuary.info` | 62 av 62 översatta; 16 språk- och terminologikorrigeringar | `kodi-add-ons-scripts-script-embuary-info-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `script.module.python.twitch` | 2 av 2 översatta; 2 terminologi- och grammatikorrigeringar | `kodi-add-ons-scripts-script-module-python-twitch-sv-reviewed-20261102.po` | Klar för Weblate-import |
 
 För `script.skin.info.service` synkroniserades den tidigare granskade svenska
 katalogen mot aktuell Weblate-källa. De nya posterna och fyra inaktuella
