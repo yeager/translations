@@ -16,5 +16,7 @@ the files are prepared as separate component uploads rather than a bulk import.
 `hunspell-sv` flags command syntax (`-n`) and technical identifiers
 (`sträng2`, `tabbstopp`); these were reviewed in context and retained.
 
-The five `.ftl` files are ready for separate Weblate imports. They have not been
-imported by this environment.
+The five `.ftl` files were instead rebased onto current upstream and submitted
+directly as [uutils/coreutils-l10n PR #96](https://github.com/uutils/coreutils-l10n/pull/96)
+on 2026-11-02. The PR is the upstream submission; Weblate import remains
+unnecessary for this batch.
