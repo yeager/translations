@@ -218,3 +218,14 @@ inbyggda tal, inte för de nya översättningarna.
 Samtliga aktuella komponenter i Kodi Weblates projekt för ljudavkodare och
 ljudkodare är nu arkiverade som hela, lokalt granskade svenska filer. Filer
 som har ändringar är klara för separat Weblate-import.
+
+## Webbgränssnitt
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `tex` | 104 JSON-strängar granskade; bibliotek, filter, inställningar, WebSocket, notifieringar och språkform korrigerade | `kodi-web-interfaces-tex-sv-reviewed-20261102.json` | Klar för Weblate-import |
+
+TeX-katalogen levererades från Weblate med filändelsen `.po`, men innehållet
+är JSON. Den har därför validerats som JSON med `jq`; svlang kördes på de
+extraherade strängvärdena. PO-specifika kontroller används inte för den här
+komponenten.
