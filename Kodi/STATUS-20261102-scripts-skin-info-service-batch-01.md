@@ -17,3 +17,12 @@
 - SHA-256: `bf0c2d2f5e0a487cab2c2bbae580b6a10483e4d98e543f7816889f639cb44f1f`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## Batch 03
+
+- Reviewed and submitted: 2026-11-02
+- Scope: next 60 non-empty untranslated units; 440 remain.
+- Archive: `kodi-add-ons-scripts-script-skin-info-service-sv-reviewed-batch-03-20261102.po`
+- SHA-256: `9e4d0172b064994e619fbacc47bc078f4e04097e6b2d7c8be702a12d11e772ca`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
