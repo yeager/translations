@@ -42,3 +42,13 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `42ae617585228b0820dd077457393808f46b6677e5953c6cbf8b2e0387122758`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## Dinothawr
+
+- Component: `game-libretro-dinothawr`
+- Scope: 11 non-empty units: the frame-rate label and standardized numeric values.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-dinothawr-sv-reviewed-20261102.po`
+- SHA-256: `7f2bac8d6df83448835067b43bd28430dfe680ab19af12da022f526098a6b543`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
