@@ -344,3 +344,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-melonds-sv-reviewed-20261102.po`
 - SHA-256: `6d10f668dd20aafc9e02dfbcb49db829acbe0cc8133d7874acc90ff1d43ae825`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Gambatte
+
+- Component: `game-libretro-gambatte`; 19 Game Boy-färgpalett-, ljud- och
+  inmatningsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-gambatte-sv-reviewed-20261102.po`
+- SHA-256: `89570514867318eb82a38b7815fb16501a7110fd07c087d41cb57b78cab1a585`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
