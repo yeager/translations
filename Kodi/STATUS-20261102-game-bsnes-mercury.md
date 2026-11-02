@@ -139,3 +139,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `dc44bffaa97aef7b9a34a365b753cb1a002c3cdfda4faed7b5b168ad44369cab`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## O2EM
+
+- Component: `game-libretro-o2em`
+- Scope: 42 units: konsolmaskinvara, region, styrinmatning, CRT-filter,
+  ljudvolym och Videopac/Odyssey-specifika inställningar.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-o2em-sv-reviewed-20261102.po`
+- SHA-256: `45b41e01f536a97698cad14d3a30204ebb2823ee50cd5ae26335e1b94dd1758c`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
