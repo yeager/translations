@@ -694,3 +694,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-flycast-sv-reviewed-20261102.po`
 - SHA-256: `e5b238e7a460f6883629cdb6b8b62976b1208b4c43abb79f34af5e018f5ed357`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## PPSSPP
+
+- Component: `game-libretro-ppsspp`; 170 PSP-system-, video-, textur-,
+  inmatnings- och nätverksenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-ppsspp-sv-reviewed-20261102.po`
+- SHA-256: `cf47572ae8f1068f3e4ca4c97a494a2bc84e5baf4dec09f305ff99122e9aeaa5`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
