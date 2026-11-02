@@ -84,3 +84,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `83d2146e20f4ff2e349e8e26f37af3bf9951fb02c0a74a1d39115e43bc2032ea`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## SMS Plus GX
+
+- Component: `game-libretro-smsplus-gx`
+- Scope: 18 units: BIOS/startprogram, region- och videolägen, FM-ljud,
+  skärmfilter och standardiserade systemidentifierare.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-smsplus-gx-sv-reviewed-20261102.po`
+- SHA-256: `ef64d154453693ec6a6d22633f6be81fa372e90d265494e23478cb3fefd82b96`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
