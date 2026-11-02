@@ -721,3 +721,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-beetle-saturn-sv-reviewed-20261102.po`
 - SHA-256: `1245a4ebcb8c59e4353e59b83492c001ca6923e1f427ab253260deeae91b44a1`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Beetle PCE
+
+- Component: `game-libretro-beetle-pce`; 81 PC Engine/TurboGrafx-system-,
+  video-, CD- och processoralternativ, samt en rättad befintlig svensk sträng.
+- Upstream result: Weblate API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-beetle-pce-sv-reviewed-20261102.po`
+- SHA-256: `1f39995038bce777cea6ac99fbaeb42f2e776958f3e7e08d63a6b9cd110e6b61`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
