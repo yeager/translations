@@ -74,3 +74,13 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `afbeed88f261fe2ceedcee885e539b0eb400b4d80ab74d72903321e6a055e173`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## MeowPC98
+
+- Component: `game-libretro-meowpc98`
+- Scope: 16 units: PC-98 display, floppy-drive, GUI and sound-board settings.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-meowpc98-sv-reviewed-20261102.po`
+- SHA-256: `83d2146e20f4ff2e349e8e26f37af3bf9951fb02c0a74a1d39115e43bc2032ea`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
