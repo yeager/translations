@@ -74,3 +74,13 @@ LibreELEC-katalogen har en känd l10n-lint-notis för URL:er inbäddade mellan
 För `script.skin.info.service` synkroniserades den tidigare granskade svenska
 katalogen mot aktuell Weblate-källa. De nya posterna och fyra inaktuella
 fuzzy-översättningar har granskats i sitt sammanhang.
+
+## Fjärrappar
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `official-ios-remote-main` | 8 kompletterade strängar, 299 av 299 översatta | `kodi-remotes-official-ios-remote-main-sv-reviewed-20261102.strings` | Klar för Weblate-import |
+
+Apple `.strings`-filen är godkänd med `plutil -lint`. l10n-lint har endast
+informationsnotiser för den tekniska nyckeln `WIKI_LANG` och Scrubbing-nycklarnas
+inbyggda tal, inte för de nya översättningarna.
