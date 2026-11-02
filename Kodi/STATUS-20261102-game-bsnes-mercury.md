@@ -183,3 +183,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `0089b6a0b5c9c661469fbbe4ad64e5ffd1d0e0b4cc6ab80a67dfdc47ed57a7c5`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## Fuse
+
+- Component: `game-libretro-fuse`
+- Scope: 34 units: Spectrum-maskinvara, handkontroller, TurboSound,
+  ljudgränssnitt, ROM-beroenden och emuleringshastighet.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-fuse-sv-reviewed-20261102.po`
+- SHA-256: `a93617d42a71580978a45b59a7bf5e2b9e976dee03bfd57975616c1a995b04e6`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
