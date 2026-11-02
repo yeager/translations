@@ -416,3 +416,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-opera-sv-reviewed-20261102.po`
 - SHA-256: `a9816fc93c9a5e8a8c42744b05017813c8438b0fb6158303ba340bd5c13650e5`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Yabause
+
+- Component: `game-libretro-yabause`; 7 Sega Saturn-prestanda-, BIOS- och
+  RAM-expansionsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-yabause-sv-reviewed-20261102.po`
+- SHA-256: `6dd3c95c03df7e414729f7afe45fb0f76be4f619758983b6b736d38683e102b4`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
