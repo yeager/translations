@@ -703,3 +703,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-ppsspp-sv-reviewed-20261102.po`
 - SHA-256: `cf47572ae8f1068f3e4ca4c97a494a2bc84e5baf4dec09f305ff99122e9aeaa5`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Genplus GX Wide
+
+- Component: `game-libretro-genplus-wide`; 187 Mega Drive/Genesis-, Mega-CD-,
+  Master System-, ljud-, inmatnings- och bildalternativ.
+- Upstream result: Weblate API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-genplus-wide-sv-reviewed-20261102.po`
+- SHA-256: `f60ef630e8b2cd44d097c8d9a70e71bc01a8a78f5e48791ae0b64fb4cd65a4e5`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
