@@ -604,3 +604,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-freeintv-sv-reviewed-20261102.po`
 - SHA-256: `19aa35448867ce0c6c7c9012df3ac75962874381740af9a8e14e9a34cdf0359c`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Beetle Lynx
+
+- Component: `game-libretro-beetle-lynx`; 13 skärmrotations- och
+  uppdateringsfrekvensenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-beetle-lynx-sv-reviewed-20261102.po`
+- SHA-256: `c471b60e7e967e381608433081d8920f884d161a1d6557f6726b2d731b1d8d3a`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
