@@ -191,3 +191,13 @@ inbyggda tal, inte för de nya översättningarna.
 | `audiodecoder.snesapu` | 3 av 3 översatta; SNES-terminologi och sammansättningar granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-snesapu-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `audiodecoder.sidplay` | 2 av 2 översatta; C64- och SID-beskrivningen granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-sidplay-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `audiodecoder.qsf` | 2 av 2 översatta; QSound- och uppspelningsbeskrivningen granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-qsf-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+## Ljudavkodare – fjärde batchen
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `audiodecoder.dumb` | 4 av 4 översatta; modulformat och livscykeltexter granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-dumb-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.gme` | 2 av 2 översatta; GME-beskrivning, konsolformat och listtypografi granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-gme-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.asap` | 2 av 2 översatta; Atari- och Kodi-beskrivningen granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-asap-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.hvl` | 2 av 2 översatta; HivelyTracker-, AHX- och demoscensterminologi granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-hvl-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.timidity` | 8 av 8 översatta; konfigurations- och ljudfontstexter granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-timidity-sv-reviewed-20261102.po` | Klar för Weblate-import |
