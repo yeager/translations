@@ -299,3 +299,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-bluemsx-sv-reviewed-20261102.po`
 - SHA-256: `a8ee9cf13403d1781fab34acd9309f6c6035210b53d4c6e312baa9c499622ab1`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Beetle SuperGrafx
+
+- Component: `game-libretro-beetle-supergrafx`; 105 video-, CD- och
+  handkontrollenheter, inklusive numeriska och tekniska värden.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-beetle-supergrafx-sv-reviewed-20261102.po`
+- SHA-256: `dd39f3813004c747961ffd0a4641beb134950cda4b8f235e8630452a19e80b45`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
