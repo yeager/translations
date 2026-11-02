@@ -524,3 +524,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-mesen-s-sv-reviewed-20261102.po`
 - SHA-256: `4fa260794f83b8111caec95d1043c1cf378972e53abc952b3c90d4a2e951ccb2`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## PCSX-ReARMed
+
+- Component: `game-libretro-pcsx-rearmed`; 256 PlayStation-system-, GPU-,
+  ljud-, inmatnings- och kompatibilitetsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-pcsx-rearmed-sv-reviewed-20261102.po`
+- SHA-256: `d240f106b94a2f39f5732b04c83a05faa93a6a8f3d1d88ac90454e95cb0d8690`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
