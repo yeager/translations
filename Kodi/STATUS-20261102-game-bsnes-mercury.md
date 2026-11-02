@@ -353,3 +353,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-gambatte-sv-reviewed-20261102.po`
 - SHA-256: `89570514867318eb82a38b7815fb16501a7110fd07c087d41cb57b78cab1a585`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## MAME 2010
+
+- Component: `game-libretro-mame2010`; 62 video-, ljud-, automatelds- och
+  handkontrollenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-mame2010-sv-reviewed-20261102.po`
+- SHA-256: `df04f3bd946eefc2ec7abdbd39be69eb1725289318869f5d7b329e4d712dbf28`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
