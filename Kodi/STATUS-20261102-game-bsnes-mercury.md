@@ -476,3 +476,11 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-mame2016-sv-reviewed-20261102.po`
 - SHA-256: `7a57771d262021162669ea6a5ae0c114f976e72e6a260d0627d9dba93ceee86e`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## PCem
+
+- Component: `game-libretro-pcem`; 87 dator-, grafik- och ljudmaskinprofiler.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-pcem-sv-reviewed-20261102.po`
+- SHA-256: `51ee492956d3a519387fc8790759b371e7418acc5bb09549efd78c4358547ccb`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
