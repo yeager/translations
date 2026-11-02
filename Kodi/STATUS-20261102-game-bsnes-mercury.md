@@ -407,3 +407,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-snes9x-sv-reviewed-20261102.po`
 - SHA-256: `396f626e00f25fdc84843e70499dbd821eab5ef18d2e6218c618fb4aa9914b65`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Opera
+
+- Component: `game-libretro-opera`; 79 3DO-system-, CD-, video-, ljud- och
+  inmatningsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-opera-sv-reviewed-20261102.po`
+- SHA-256: `a9816fc93c9a5e8a8c42744b05017813c8438b0fb6158303ba340bd5c13650e5`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
