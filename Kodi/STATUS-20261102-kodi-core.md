@@ -50,6 +50,8 @@ sökträffsäkerheten avsevärt!`
 | `pvr.filmon` | 2 språk- och gränssnittskorrigeringar, 7 av 7 översatta | `kodi-add-ons-pvr-clients-pvr-filmon-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `pvr.stalker` | 10 språk-, gränssnitts- och terminologikorrigeringar, 47 av 47 översatta | `kodi-add-ons-pvr-clients-pvr-stalker-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `pvr.vdr.vnsi` | 25 språk-, gränssnitts- och terminologikorrigeringar, 76 av 76 översatta | `kodi-add-ons-pvr-clients-pvr-vdr-vnsi-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `pvr.octonet` | 6 språk-, produktnamns- och terminologikorrigeringar, 13 av 13 översatta | `kodi-add-ons-pvr-clients-pvr-octonet-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `pvr.plutotv` | 3 språk- och typografikorrigeringar, 16 av 16 översatta | `kodi-add-ons-pvr-clients-pvr-plutotv-sv-reviewed-20261102.po` | Klar för Weblate-import |
 
 `pvr.waipu` har en uppströmsgenererad PO-huvudvarning om saknat
 `Project-Id-Version`; katalogen är i övrigt syntaktiskt korrekt. l10n-lint,
