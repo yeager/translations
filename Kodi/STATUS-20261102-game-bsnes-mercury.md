@@ -326,3 +326,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-beetle-pce-fast-sv-reviewed-20261102.po`
 - SHA-256: `4c24a967c229c88dcb42497b20fde5437a8aff903b2466e2180ed5951a8ee33b`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Nestopia
+
+- Component: `game-libretro-nestopia`; 40 Famicom/NES-video-, ljud- och
+  handkontrollenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-nestopia-sv-reviewed-20261102.po`
+- SHA-256: `bd0d68a72e9eecff51ab8e5a049bd60085558566f0b4f4e6aff95cde1ac80d9f`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
