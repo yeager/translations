@@ -712,3 +712,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-genplus-wide-sv-reviewed-20261102.po`
 - SHA-256: `f60ef630e8b2cd44d097c8d9a70e71bc01a8a78f5e48791ae0b64fb4cd65a4e5`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Beetle Saturn
+
+- Component: `game-libretro-beetle-saturn`; 236 Saturn-system-, video-,
+  inmatnings-, minneskassett- och SH-2/SCU/SCSP-prestandaalternativ.
+- Upstream result: Weblate API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-beetle-saturn-sv-reviewed-20261102.po`
+- SHA-256: `1245a4ebcb8c59e4353e59b83492c001ca6923e1f427ab253260deeae91b44a1`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
