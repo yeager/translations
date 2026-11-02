@@ -225,6 +225,7 @@ som har ändringar är klara för separat Weblate-import.
 | Komponent | Omfattning | Arkivfil | Status |
 | --- | --- | --- | --- |
 | `tex` | 104 JSON-strängar granskade; bibliotek, filter, inställningar, WebSocket, notifieringar och språkform korrigerade | `kodi-web-interfaces-tex-sv-reviewed-20261102.json` | Klar för Weblate-import |
+| `chorus2` | 345 av 345 översatta; aktuell katalog granskad, dubblerad `mood`-post borttagen och WebSocket-, proxy- och statusformuleringar korrigerade | `kodi-web-interfaces-chorus2-sv-reviewed-20261102.po` | Klar för Weblate-import |
 
 TeX-katalogen levererades från Weblate med filändelsen `.po`, men innehållet
 är JSON. Den har därför validerats som JSON med `jq`; svlang kördes på de
