@@ -380,3 +380,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-supafaust-sv-reviewed-20261102.po`
 - SHA-256: `300d5a50a00d297247f9fa86a2dab0d8eb2a10ed3c886b46b166ca58ff828c7a`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Parallel N64
+
+- Component: `game-libretro-parallel_n64`; 15 N64-handkontroll-, bild- och
+  ljudenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-parallel-n64-sv-reviewed-20261102.po`
+- SHA-256: `a1aade459bcfe73046c94db2c317cf6ec985f1b5fa07dd72c0c16bddd0dab05c`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
