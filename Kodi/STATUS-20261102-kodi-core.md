@@ -161,3 +161,13 @@ inbyggda tal, inte för de nya översättningarna.
 | `audioencoder.lame` | 15 av 15 översatta; beskrivning och ID3-terminologi granskade | `kodi-add-ons-audio-decodersencoders-audioencoder-lame-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `audioencoder.vorbis` | 11 av 11 översatta; kodek- och bitfrekvensterminologi granskad | `kodi-add-ons-audio-decodersencoders-audioencoder-vorbis-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `audioencoder.wav` | 2 av 2 översatta; radgranskad utan nödvändiga ändringar | `kodi-add-ons-audio-decodersencoders-audioencoder-wav-sv-reviewed-20261102.po` | Granskad – ingen import behövs |
+
+## Ljudavkodare – första batchen
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `audiodecoder.2sf` | 25 av 25 översatta; Nintendo DS-, ROM- och tystnadshanteringstexter granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-2sf-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.ncsf` | 17 av 17 översatta; Nintendo DS-, PSF- och tystnadshanteringstexter granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-ncsf-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.organya` | 9 av 9 översatta; Cave Story-beskrivning och upprepningsinställningar granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-organya-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.sacd` | 33 av 33 översatta; ljudzoner, nedsampling, filter och decimaltypografi granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-sacd-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.ssf` | 23 av 23 översatta; Sega-format och ljudbehandlingsinställningar granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-ssf-sv-reviewed-20261102.po` | Klar för Weblate-import |
