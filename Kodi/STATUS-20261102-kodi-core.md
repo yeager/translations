@@ -25,6 +25,9 @@ innehåller endast ändringshäftet så att Weblate-importen är liten och spår
 | `metadata.universal` | 1 språklig korrigering, 87 av 87 översatta | `kodi-add-ons-information-providers-metadata-universal-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `metadata.themoviedb.org.python` | 25 av 25 översatta; TMDb-beskrivning, bildterminologi, tagglista och inställningstexter granskade | `kodi-add-ons-information-providers-metadata-themoviedb-org-python-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `metadata.tvdb.com.python` | 10 av 10 översatta; webbplatsbeskrivning, licens- och affischterminologi granskade | `kodi-add-ons-information-providers-metadata-tvdb-com-python-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `metadata.tvshows.themoviedb.org.python` | 34 av 34 översatta; trailer- och bildmaterialsterminologi granskad | `kodi-add-ons-information-providers-metadata-tvshows-themoviedb-org-python-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `metadata.album.universal` | 19 av 19 översatta; felaktig flerradsbeskrivning, källor och albumillustrationer granskade | `kodi-add-ons-information-providers-metadata-album-universal-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `metadata.artists.universal` | 34 av 34 översatta; beskrivning, bildmaterial, reservkällor och stavning granskade | `kodi-add-ons-information-providers-metadata-artists-universal-sv-reviewed-20261102.po` | Klar för Weblate-import |
 
 Båda katalogerna klarar `msgfmt --check`, l10n-lint och svlangs skrivregler.
 Hunspellträffarna är granskade projektnamn och tekniska termer, bland annat
