@@ -272,3 +272,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-parallext-sv-reviewed-20261102.po`
 - SHA-256: `cbb1ad3413656b21c2fc9711497514fc020c3fbaeaf01ac38ae8a4c3dc6d9fea`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## PrBoom
+
+- Component: `game-libretro-prboom`; 46 units: trådad återgivning, HDR,
+  WAD-inläsning, Doom-kompatibilitet, vibration och ljud.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-prboom-sv-reviewed-20261102.po`
+- SHA-256: `451ec36a234192d4aeb444348c4f15e0f14bb6bcdeb8eb02f1ff4f0ba8337b23`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
