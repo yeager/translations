@@ -166,6 +166,19 @@ inbyggda tal, inte för de nya översättningarna.
 | `imagedecoder.mpo` | 2 av 2 översatta; MPO-terminologi och beskrivning granskade | `kodi-add-ons-image-decoders-imagedecoder-mpo-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `imagedecoder.heif` | 2 av 2 översatta; HEIF-terminologi, standardreferens och typografi granskade | `kodi-add-ons-image-decoders-imagedecoder-heif-sv-reviewed-20261102.po` | Klar för Weblate-import |
 
+## Utseende och skärmsläckare
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `screensaver.pingpong` | 1 sammansättningskorrigering, 13 av 13 översatta | `kodi-add-ons-look-and-feel-screensaver-pingpong-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `screensaver.stars` | 2 språk- och sammansättningskorrigeringar, 9 av 9 översatta | `kodi-add-ons-look-and-feel-screensaver-stars-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `screensaver.digitalclock` | 20 språk-, format- och produktnamnskorrigeringar, 156 av 156 översatta | `kodi-add-ons-look-and-feel-screensaver-digitalclock-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `visualization.spectrum` | 8 språk-, funktions- och terminologikorrigeringar, 23 av 23 översatta | `kodi-add-ons-look-and-feel-visualization-spectrum-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+Digital Clock innehåller formatkoderna `ddd` och `mmm` i datumhjälpen.
+Svlangs två varningar om tre lika konsonanter avser enbart dessa funktionella
+formatkoder; övriga skrivregler passerar.
+
 ## Ljudkodare
 
 | Komponent | Omfattning | Arkivfil | Status |
