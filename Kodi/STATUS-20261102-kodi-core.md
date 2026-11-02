@@ -78,6 +78,7 @@ LibreELEC-katalogen har en känd l10n-lint-notis för URL:er inbäddade mellan
 | `script.speedfaninfo` | 26 av 26 översatta; 7 språk- och stavningskorrigeringar | `kodi-add-ons-scripts-script-speedfaninfo-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `script.globalsearch` | 31 av 31 översatta; 6 språk- och terminologikorrigeringar | `kodi-add-ons-scripts-script-globalsearch-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `script.audio.profiles` | 82 av 82 översatta; 18 språk- och terminologikorrigeringar | `kodi-add-ons-scripts-script-audio-profiles-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `script.harmony.control` | 18 av 18 översatta; 2 terminologikorrigeringar | `kodi-add-ons-scripts-script-harmony-control-sv-reviewed-20261102.po` | Klar för Weblate-import |
 
 För `script.skin.info.service` synkroniserades den tidigare granskade svenska
 katalogen mot aktuell Weblate-källa. De nya posterna och fyra inaktuella
