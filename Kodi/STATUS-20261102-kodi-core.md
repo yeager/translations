@@ -15,3 +15,14 @@
 
 Den fullständiga nedladdade katalogen finns lokalt under arbetskatalogen. Arkivet
 innehåller endast ändringshäftet så att Weblate-importen är liten och spårbar.
+
+## Informationsleverantörer
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `metadata.generic.albums` | 2 kompletterade strängar, 21 av 21 översatta | `kodi-add-ons-information-providers-metadata-generic-albums-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `metadata.generic.artists` | 2 kompletterade strängar, 26 av 26 översatta | `kodi-add-ons-information-providers-metadata-generic-artists-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+Båda katalogerna klarar `msgfmt --check`, l10n-lint och svlangs skrivregler.
+Hunspellträffarna är granskade projektnamn och tekniska termer, bland annat
+Discogs, MusicBrainz, AllMusic och `discogs.com`.
