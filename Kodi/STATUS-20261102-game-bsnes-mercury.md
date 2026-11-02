@@ -117,3 +117,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `e536d717ba8088fe30201b81c60dc720049f3408e16782b811a811dcdf3f38e5`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## RACE
+
+- Component: `game-libretro-race`
+- Scope: 21 units: realtidsklocka, ljudsyntes, samplingsfrekvens,
+  bildrutehopp, språk- och bildskärmsinställningar.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-race-sv-reviewed-20261102.po`
+- SHA-256: `2b9305675fd864ec8e9ca2ac9959549f6ecb440cb7284c9824622eb43265b7a6`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
