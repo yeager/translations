@@ -468,3 +468,11 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-picodrive-sv-reviewed-20261102.po`
 - SHA-256: `2e7815a8aa94458cb24ec26b0292beca22b544fe35891193000bfe93f81d0d89`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## MAME 2016
+
+- Component: `game-libretro-mame2016`; 4 tillstånds- och programvarulisteenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-mame2016-sv-reviewed-20261102.po`
+- SHA-256: `7a57771d262021162669ea6a5ae0c114f976e72e6a260d0627d9dba93ceee86e`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
