@@ -62,6 +62,10 @@ Korrigeringarna omfattar menyalternativens versaler och stavfelet
 | --- | --- | --- | --- |
 | `service.scrobbler.lastfm` | 2 kompletterade strängar, 18 av 18 översatta | `kodi-add-ons-services-service-scrobbler-lastfm-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `service.libreelec.settings` | 3 kompletterade strängar och 14 språk- och stavningskorrigeringar, 279 av 279 översatta | `kodi-add-ons-services-service-libreelec-settings-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `service.scrobbler.librefm` | 2 språk- och konsekvenskorrigeringar, 12 av 12 översatta | `kodi-add-ons-services-service-scrobbler-librefm-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `service.subsmangler` | 23 språk-, loggnivå- och gränssnittskorrigeringar, 111 av 111 översatta | `kodi-add-ons-services-service-subsmangler-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `service.pvr.channels.cleaner` | 6 språk- och gränssnittskorrigeringar, 25 av 25 översatta | `kodi-add-ons-services-service-pvr-channels-cleaner-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `service.argononecontrol` | 8 tekniska språk- och terminologikorrigeringar, 43 av 43 översatta | `kodi-add-ons-services-service-argononecontrol-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `weather.multi` | 15 kompletterade strängar och 1 URL-korrigering, 131 av 131 översatta | `kodi-add-ons-weather-weather-multi-sv-reviewed-20261102.po` | Klar för Weblate-import |
 
 LibreELEC-katalogen har en känd l10n-lint-notis för URL:er inbäddade mellan
