@@ -459,3 +459,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-desmume2015-sv-reviewed-20261102.po`
 - SHA-256: `dba7a2c15955eb60b0a447a37098e350d1362f488cf174cdaf72b65fc32bf8d3`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## PicoDrive
+
+- Component: `game-libretro-picodrive`; 82 Sega-system-, video-, ljud-,
+  inmatnings- och prestandaenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-picodrive-sv-reviewed-20261102.po`
+- SHA-256: `2e7815a8aa94458cb24ec26b0292beca22b544fe35891193000bfe93f81d0d89`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
