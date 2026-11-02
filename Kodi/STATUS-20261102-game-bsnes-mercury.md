@@ -560,3 +560,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-neocd-sv-reviewed-20261102.po`
 - SHA-256: `f742e3b1562e0cf98590f90e0eef549f8f058c2ebac505b867392f7c39223055`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Mesen
+
+- Component: `game-libretro-mesen`; 79 NES/Famicom-system-, video-, ljud- och
+  inmatningsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-mesen-sv-reviewed-20261102.po`
+- SHA-256: `aae3e2f3c35af9d18e587d548ef397a3b9059683a13e4612b1959e30a1fca884`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
