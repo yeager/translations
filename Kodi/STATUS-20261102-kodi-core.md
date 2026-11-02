@@ -207,3 +207,14 @@ inbyggda tal, inte för de nya översättningarna.
 | Komponent | Omfattning | Arkivfil | Status |
 | --- | --- | --- | --- |
 | `audiodecoder.fluidsynth` | 8 av 8 översatta; SoundFont-terminologi, konfiguration och PO-kommentarformat korrigerade | `kodi-add-ons-audio-decodersencoders-audiodecoder-fluidsynth-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+## Ljudavkodare – avslutande batch
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `audiodecoder.vgmstream` | 5 av 5 översatta; upprepning och vgmstream-beskrivning granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-vgmstream-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.usf` | 2 av 2 översatta; Nintendo Ultra 64-formatbeskrivning och typografi granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-usf-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+Samtliga aktuella komponenter i Kodi Weblates projekt för ljudavkodare och
+ljudkodare är nu arkiverade som hela, lokalt granskade svenska filer. Filer
+som har ändringar är klara för separat Weblate-import.
