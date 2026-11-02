@@ -18,3 +18,12 @@
 - SHA-256: `50ef1bd64280c3c4fb53731c12aeb4cea07bcb0d0a0edeca43478d9a843ba32b`.
 - Kontroll: msgfmt (endast standardvarningar i Weblate-huvudet), l10n-lint,
   svlang och Gitleaks passerar.
+
+## Sats 3
+
+- Omfattning: 20 strängar för tillgänglighet, Macintosh- och ljudalternativ
+  samt bestiariegränssnitt.
+- Arkiv: `scummvm-sv.batch-20261102-03.reviewed.delta.po`.
+- SHA-256: `988ad6b40dc52c2ffa3c17709d67af1f7eea53b231fc49f709f77bd958c19aa1`.
+- Kontroll: msgfmt (endast standardvarningar i Weblate-huvudet), l10n-lint,
+  svlang och Gitleaks passerar.
