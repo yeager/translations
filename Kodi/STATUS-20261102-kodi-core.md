@@ -236,3 +236,10 @@ TeX-katalogen levererades från Weblate med filändelsen `.po`, men innehållet
 är JSON. Den har därför validerats som JSON med `jq`; svlang kördes på de
 extraherade strängvärdena. PO-specifika kontroller används inte för den här
 komponenten.
+
+## Musiktillägg
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `plugin.audio.radio_de` | 38 av 38 översatta; funktionsbeskrivning, CR-markörer, antalformat och URL-terminologi granskade | `kodi-add-ons-music-plugin-audio-radio_de-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `plugin.audio.shoutcast` | 21 av 21 översatta; radiobeskrivning, tidsformat och bitfrekvensterminologi granskade | `kodi-add-ons-music-plugin-audio-shoutcast-sv-reviewed-20261102.po` | Klar för Weblate-import |
