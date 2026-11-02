@@ -578,3 +578,11 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-xmil-sv-reviewed-20261102.po`
 - SHA-256: `c73f738299b5038dd0ecf0e8cb3eee94428bcb159dc59d0910d481f8220de36f`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Lutro
+
+- Component: `game-libretro-lutro`; 4 musinmatningsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-lutro-sv-reviewed-20261102.po`
+- SHA-256: `3c06d1564e1fede5dcd149256fb82deb1067b18a76500c00a6fde095edcc8def`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
