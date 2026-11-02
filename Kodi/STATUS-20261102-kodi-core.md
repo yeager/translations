@@ -56,7 +56,7 @@ Korrigeringarna omfattar menyalternativens versaler och stavfelet
 | Komponent | Omfattning | Arkivfil | Status |
 | --- | --- | --- | --- |
 | `service.scrobbler.lastfm` | 2 kompletterade strängar, 18 av 18 översatta | `kodi-add-ons-services-service-scrobbler-lastfm-sv-reviewed-20261102.po` | Klar för Weblate-import |
-| `service.libreelec.settings` | 3 kompletterade strängar och 13 språk- och stavningskorrigeringar, 279 av 279 översatta | `kodi-add-ons-services-service-libreelec-settings-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `service.libreelec.settings` | 3 kompletterade strängar och 14 språk- och stavningskorrigeringar, 279 av 279 översatta | `kodi-add-ons-services-service-libreelec-settings-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `weather.multi` | 15 kompletterade strängar och 1 URL-korrigering, 131 av 131 översatta | `kodi-add-ons-weather-weather-multi-sv-reviewed-20261102.po` | Klar för Weblate-import |
 
 LibreELEC-katalogen har en känd l10n-lint-notis för URL:er inbäddade mellan
