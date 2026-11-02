@@ -255,3 +255,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-px68k-sv-reviewed-20261102.po`
 - SHA-256: `1daa803a326607cb1cb271f3efa6587be6da41f73af5af9280067b74263a7f95`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Genplus
+
+- Component: `game-libretro-genplus`; 102 units: Sega-hardware, ljudkanaler,
+  BIOS, bildformat, CD och prestandaalternativ.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-genplus-sv-reviewed-20261102.po`
+- SHA-256: `14fcd9c5f68dd1c71fa4d8c258f3a70e12fb80c02958d7f376195bf459f5f950`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
