@@ -640,3 +640,12 @@ intentionally retained as standardized technical identifiers.
   meddelandet att översättningen för närvarande är låst.
 - Åtgärd: ingen ändring eller export har gjorts; återuppta först när komponenten
   låses upp av projektet.
+
+## Potator
+
+- Component: `game-libretro-potator`; 46 Supervision-färgpalett-, LCD- och
+  bildrutetaktalternativ.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-potator-sv-reviewed-20261102.po`
+- SHA-256: `d50d4694ab143c04a36f4609ba0756d988aa83a0d38ab90983cbb4c952f6aff1`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
