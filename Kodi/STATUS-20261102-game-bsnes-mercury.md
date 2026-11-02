@@ -658,3 +658,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-same-cdi-sv-reviewed-20261102.po`
 - SHA-256: `e1106ab5d6524837bc8c5e711e5f5ffb782a08645a242d6c87eb2e474edd40d8`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Atari 5200
+
+- Component: `game-libretro-a5200`; 76 BIOS-, CRT-, POKEY-ljud- och
+  handkontrollsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-a5200-sv-reviewed-20261102.po`
+- SHA-256: `fbd21928cbbd6990e58d0b5686b90970bab25708fd2274940eb090d717786ca1`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
