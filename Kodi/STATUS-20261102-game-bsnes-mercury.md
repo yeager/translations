@@ -317,3 +317,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-beetle-pcfx-sv-reviewed-20261102.po`
 - SHA-256: `a07d00c2808b50fc5083c97ad335707660428bd464ac07eb265f241cec97f463`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Beetle PCE Fast
+
+- Component: `game-libretro-beetle-pce-fast`; 114 PC Engine-CD-, video- och
+  tekniska enheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-beetle-pce-fast-sv-reviewed-20261102.po`
+- SHA-256: `4c24a967c229c88dcb42497b20fde5437a8aff903b2466e2180ed5951a8ee33b`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
