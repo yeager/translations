@@ -68,3 +68,8 @@ LibreELEC-katalogen har en känd l10n-lint-notis för URL:er inbäddade mellan
 | --- | --- | --- | --- |
 | `script.service.hue` | 2 kompletterade strängar, 123 av 123 översatta | `kodi-add-ons-scripts-script-service-hue-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `script.kodi.android.update` | 1 kompletterad sträng, 29 av 29 översatta | `kodi-add-ons-scripts-script-kodi-android-update-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `script.skin.info.service` | 620 av 620 översatta; 611 tidigare granskade strängar återanvända och 9 nya eller ändrade strängar granskade | `kodi-add-ons-scripts-script-skin-info-service-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+För `script.skin.info.service` synkroniserades den tidigare granskade svenska
+katalogen mot aktuell Weblate-källa. De nya posterna och fyra inaktuella
+fuzzy-översättningar har granskats i sitt sammanhang.
