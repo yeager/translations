@@ -216,3 +216,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `8f90022345a526b4e0489f2b1074885ebdedb708c42f2633eb40b108ac1e8e4b`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## 81
+
+- Component: `game-libretro-81`
+- Scope: 46 units: ROM/RAM, dK'tronics-utbyggnad, visningslägen och
+  ZX81-tangentetiketter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-81-sv-reviewed-20261102.po`
+- SHA-256: `bf9b95c6970dcf52a89e872bef8835c3480beeaed4a43c0c0d09f77c43cf0503`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
