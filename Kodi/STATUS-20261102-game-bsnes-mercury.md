@@ -542,3 +542,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-mupen64plus-nx-sv-reviewed-20261102.po`
 - SHA-256: `28ee92cd12c7ae163dca0d60a493e30ab365d10dbf887fb38717c3b3c39f1d31`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Boom 3
+
+- Component: `game-libretro-boom3`; 249 Doom 3-spel-, HDR-, färgrymds-,
+  rendering-, ljud- och inmatningsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-boom3-sv-reviewed-20261102.po`
+- SHA-256: `d8142adb9834e9c9829e65f2096987f1f270b5a411775e5d7edd21e74e138f5b`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
