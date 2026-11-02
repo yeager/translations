@@ -586,3 +586,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-lutro-sv-reviewed-20261102.po`
 - SHA-256: `3c06d1564e1fede5dcd149256fb82deb1067b18a76500c00a6fde095edcc8def`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## XRick
+
+- Component: `game-libretro-xrick`; 6 skärm-, fuskläges- och spelkartelement.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-xrick-sv-reviewed-20261102.po`
+- SHA-256: `684d158d77bda74bcb34c34863b7c1aaead0d10eaaffb59a03c1e31a147030a4`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang, Hunspell (only
+  proper names/project names) and Gitleaks passed.
