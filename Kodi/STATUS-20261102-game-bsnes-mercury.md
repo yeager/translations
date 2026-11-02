@@ -172,3 +172,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `9bc26ebc726ea15d30cf9ceeaff52a47e5e59372fc36af32bd05021ff7246769`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## fMSX
+
+- Component: `game-libretro-fmsx`
+- Scope: 21 units: MSX-minnesmappning, DiskROM, MegaRAM, bildlägen,
+  minnesstorlekar och loggnivåer.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-fmsx-sv-reviewed-20261102.po`
+- SHA-256: `0089b6a0b5c9c661469fbbe4ad64e5ffd1d0e0b4cc6ab80a67dfdc47ed57a7c5`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
