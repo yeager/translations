@@ -139,3 +139,9 @@ inbyggda tal, inte för de nya översättningarna.
 | `inputstream.rtmp` | 2 av 2 översatta; protokollbeskrivningen språkgranskad | `kodi-add-ons-videoplayer-inputstream-rtmp-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `inputstream.ffmpegdirect` | 42 av 42 översatta; beskrivning, nätverksinställningar, tidsförskjutning, loggning och säkerhetstext granskade | `kodi-add-ons-videoplayer-inputstream-ffmpegdirect-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `inputstream.adaptive` | 76 av 76 översatta; DRM, strömval, bandbredd, felsökning och felmeddelanden granskade | `kodi-add-ons-videoplayer-inputstream-adaptive-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+## Kontextmenyer
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `context.item.extras` | 5 av 5 översatta; beskrivning och Kodi-terminologi för kontextmeny och bibliotek granskade | `kodi-add-ons-context-menus-context-item-extras-sv-reviewed-20261102.po` | Klar för Weblate-import |
