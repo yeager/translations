@@ -64,6 +64,10 @@ LibreELEC-katalogen har en känd l10n-lint-notis för URL:er inbäddade mellan
 
 ## Skripttillägg
 
+Alla 25 aktuella komponenter i Kodi Weblates skriptprojekt har nu en
+komplett, lokalt granskad svensk fil i arkivet. Av dem är 24 importklara;
+`script.audio.mixer` var redan korrekt och kräver ingen import.
+
 | Komponent | Omfattning | Arkivfil | Status |
 | --- | --- | --- | --- |
 | `script.service.hue` | 2 kompletterade strängar, 123 av 123 översatta | `kodi-add-ons-scripts-script-service-hue-sv-reviewed-20261102.po` | Klar för Weblate-import |
