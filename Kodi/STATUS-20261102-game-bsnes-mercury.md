@@ -281,3 +281,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-prboom-sv-reviewed-20261102.po`
 - SHA-256: `451ec36a234192d4aeb444348c4f15e0f14bb6bcdeb8eb02f1ff4f0ba8337b23`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## DeSmuME
+
+- Component: `game-libretro-desmume`; 111 Nintendo DS-system-, grafik-,
+  skärm- och inmatningsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-desmume-sv-reviewed-20261102.po`
+- SHA-256: `88a26004f4af4f8f704dd19c1a61dc64ede0aa910a15b110193acbfb52277cba`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
