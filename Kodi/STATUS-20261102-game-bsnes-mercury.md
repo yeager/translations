@@ -194,3 +194,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `a93617d42a71580978a45b59a7bf5e2b9e976dee03bfd57975616c1a995b04e6`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## Cannonball
+
+- Component: `game-libretro-cannonball`
+- Scope: 79 units: OutRun-meny, video, ljud, styrning, trafik, bana och
+  inställningar för den utökade spelmotorn.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-cannonball-sv-reviewed-20261102.po`
+- SHA-256: `db28da8192a3bcdfe8872cb1054c733f5d66f75a76348da8b494b17bf41a97cd`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
