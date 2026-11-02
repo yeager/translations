@@ -106,3 +106,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `1181cd2d360e7a02078c104319daac212424ea96b2671ee0050bd4506fd3e11e`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## gpSP
+
+- Component: `game-libretro-gpsp`
+- Scope: 35 reviewed units: BIOS, RTC, länkkabel, vibration, ljud,
+  bildrutehopp och Game Boy Advance-hårdvara.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-gpsp-sv-reviewed-20261102.po`
+- SHA-256: `e536d717ba8088fe30201b81c60dc720049f3408e16782b811a811dcdf3f38e5`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
