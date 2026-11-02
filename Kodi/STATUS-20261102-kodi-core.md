@@ -145,3 +145,10 @@ inbyggda tal, inte för de nya översättningarna.
 | Komponent | Omfattning | Arkivfil | Status |
 | --- | --- | --- | --- |
 | `context.item.extras` | 5 av 5 översatta; beskrivning och Kodi-terminologi för kontextmeny och bibliotek granskade | `kodi-add-ons-context-menus-context-item-extras-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+## Bildavkodare
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `imagedecoder.mpo` | 2 av 2 översatta; MPO-terminologi och beskrivning granskade | `kodi-add-ons-image-decoders-imagedecoder-mpo-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `imagedecoder.heif` | 2 av 2 översatta; HEIF-terminologi, standardreferens och typografi granskade | `kodi-add-ons-image-decoders-imagedecoder-heif-sv-reviewed-20261102.po` | Klar för Weblate-import |
