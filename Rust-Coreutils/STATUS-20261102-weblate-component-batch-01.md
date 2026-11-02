@@ -20,3 +20,7 @@ The five `.ftl` files were instead rebased onto current upstream and submitted
 directly as [uutils/coreutils-l10n PR #96](https://github.com/uutils/coreutils-l10n/pull/96)
 on 2026-11-02. The PR is the upstream submission; Weblate import remains
 unnecessary for this batch.
+
+As of 2026-11-02, GitHub reports that PR #96 is open and mergeable (`CLEAN`),
+with both `Pre-commit hooks` and `Fluent Syntax Check` successful. It has no
+review decision yet, so this is not an upstream approval or merge.
