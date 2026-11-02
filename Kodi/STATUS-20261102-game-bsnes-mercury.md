@@ -613,3 +613,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-beetle-lynx-sv-reviewed-20261102.po`
 - SHA-256: `c471b60e7e967e381608433081d8920f884d161a1d6557f6726b2d731b1d8d3a`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Snes9x 2002
+
+- Component: `game-libretro-snes9x2002`; 30 bildrutetakt-, ljudfilter- och
+  SNES-prestandaenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-snes9x2002-sv-reviewed-20261102.po`
+- SHA-256: `0233c61afa9b3e4f78c48f7cc86008d5efd9936bdecd9300667e945e25f7cc62`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
