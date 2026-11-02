@@ -95,3 +95,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `ef64d154453693ec6a6d22633f6be81fa372e90d265494e23478cb3fefd82b96`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## MAME 2000
+
+- Component: `game-libretro-mame2000`
+- Scope: 21 units: bildrutehopp, samplingsfrekvens, QSound-filter,
+  ljudutmatning och standardiserade numeriska värden.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-mame2000-sv-reviewed-20261102.po`
+- SHA-256: `1181cd2d360e7a02078c104319daac212424ea96b2671ee0050bd4506fd3e11e`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
