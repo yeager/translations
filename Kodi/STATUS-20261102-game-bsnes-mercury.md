@@ -52,3 +52,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `7f2bac8d6df83448835067b43bd28430dfe680ab19af12da022f526098a6b543`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## Cap32
+
+- Component: `game-libretro-cap32`
+- Scope: 35 non-empty units: video, controller, input, tape-loading and
+  light-gun settings plus technical identifiers.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-cap32-sv-reviewed-20261102.po`
+- SHA-256: `5f540e9a8b22fc05ecf7c2bf9227fc7e82246bd1c93e2693d211d5cbfad1c40e`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
