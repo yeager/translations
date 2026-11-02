@@ -667,3 +667,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-a5200-sv-reviewed-20261102.po`
 - SHA-256: `fbd21928cbbd6990e58d0b5686b90970bab25708fd2274940eb090d717786ca1`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Gearsystem
+
+- Component: `game-libretro-gearsystem`; 95 Sega-system-, video-, ljud-,
+  ljuspistol- och länk-kabelenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-gearsystem-sv-reviewed-20261102.po`
+- SHA-256: `8690063bff51b778d292e9000f895c83bbb13fa50831ef5879d4a7f45938033d`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
