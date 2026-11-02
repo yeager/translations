@@ -515,3 +515,12 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: Stella `2d3a2b8b1054b9a3dd7c4d4cab81f3f77c75211791d823564433124a490f04cd`;
   ProSystem `f935a064f41c45cea141f7708058e2d0baaa8530e36c131a3288aa9f1bdb38c4`.
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Mesen-S
+
+- Component: `game-libretro-mesen-s`; 24 SNES-video-, ljud-, RAM- och
+  samprocessorenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-mesen-s-sv-reviewed-20261102.po`
+- SHA-256: `4fa260794f83b8111caec95d1043c1cf378972e53abc952b3c90d4a2e951ccb2`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
