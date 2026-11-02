@@ -425,3 +425,19 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-yabause-sv-reviewed-20261102.po`
 - SHA-256: `6dd3c95c03df7e414729f7afe45fb0f76be4f619758983b6b736d38683e102b4`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## MAME 2015
+
+- Component: `game-libretro-mame2015`; 2 start- och varningsskärmsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-mame2015-sv-reviewed-20261102.po`
+- SHA-256: `236b76f2ea9f176b20e4757bf390b61f4784930df34e1901d0bc2a474d791d2c`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## MAME 2003 Midway
+
+- Component: `game-libretro-mame2003_midway`; 3 inmatningsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-mame2003-midway-sv-reviewed-20261102.po`
+- SHA-256: `b83424f2217b5383556c3462197009e4c395a1dd16c6522d443e1e7d32753b13`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
