@@ -22,7 +22,12 @@ innehåller endast ändringshäftet så att Weblate-importen är liten och spår
 | --- | --- | --- | --- |
 | `metadata.generic.albums` | 2 kompletterade strängar, 21 av 21 översatta | `kodi-add-ons-information-providers-metadata-generic-albums-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `metadata.generic.artists` | 2 kompletterade strängar, 26 av 26 översatta | `kodi-add-ons-information-providers-metadata-generic-artists-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `metadata.universal` | 1 språklig korrigering, 87 av 87 översatta | `kodi-add-ons-information-providers-metadata-universal-sv-reviewed-20261102.po` | Klar för Weblate-import |
 
 Båda katalogerna klarar `msgfmt --check`, l10n-lint och svlangs skrivregler.
 Hunspellträffarna är granskade projektnamn och tekniska termer, bland annat
 Discogs, MusicBrainz, AllMusic och `discogs.com`.
+
+I `metadata.universal` rättades den befintliga varningen med tre utropstecken
+och felaktig sammansättning: `Om alla filmkategorier inkluderas minskar
+sökträffsäkerheten avsevärt!`
