@@ -205,3 +205,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `db28da8192a3bcdfe8872cb1054c733f5d66f75a76348da8b494b17bf41a97cd`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## BK
+
+- Component: `game-libretro-bk`
+- Scope: 34 units: BK-modeller, ljudgränssnitt, inmatning,
+  tangentbordslayout och systemtangenter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-bk-sv-reviewed-20261102.po`
+- SHA-256: `8f90022345a526b4e0489f2b1074885ebdedb708c42f2633eb40b108ac1e8e4b`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
