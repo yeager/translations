@@ -622,3 +622,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-snes9x2002-sv-reviewed-20261102.po`
 - SHA-256: `0233c61afa9b3e4f78c48f7cc86008d5efd9936bdecd9300667e945e25f7cc62`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## ep128emu
+
+- Component: `game-libretro-ep128emu`; 45 Enterprise-system-, inmatnings-,
+  zoom-, minnes- och ljudenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-ep128emu-sv-reviewed-20261102.po`
+- SHA-256: `873b4582eca5396ac77e7d6d09c0ee6254ce1936a1a14a567f97ce73ce8d993e`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
