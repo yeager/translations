@@ -21,3 +21,13 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `897dda6bb7e7ac8f3519f541d6157c83a89276c35e843d3e390bdc3b965edaa8`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## Theodore
+
+- Component: `game-libretro-theodore`
+- Scope: 9 non-empty units containing standardized Thomson machine identifiers.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-theodore-sv-reviewed-20261102.po`
+- SHA-256: `4ce518d0457cb302300ae33a0b29a8b88831e0c7286c0857992965d5e666a8e5`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
