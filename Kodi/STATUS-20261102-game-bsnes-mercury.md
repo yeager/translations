@@ -31,3 +31,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `4ce518d0457cb302300ae33a0b29a8b88831e0c7286c0857992965d5e666a8e5`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## mGBA
+
+- Component: `game-libretro-mgba`
+- Scope: 7 reviewed units, including Game Boy hardware palette, RTC-adjacent
+  controls, rumble and frame-skip terminology.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-mgba-sv-reviewed-20261102.po`
+- SHA-256: `42ae617585228b0820dd077457393808f46b6677e5953c6cbf8b2e0387122758`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
