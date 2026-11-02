@@ -41,3 +41,12 @@ sökträffsäkerheten avsevärt!`
 `pvr.waipu` har en uppströmsgenererad PO-huvudvarning om saknat
 `Project-Id-Version`; katalogen är i övrigt syntaktiskt korrekt. l10n-lint,
 svlangs skrivregler och den manuella Hunspell-granskningen är godkända.
+
+## Videotillägg
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `plugin.video.retrospect` | 2 kompletterade strängar och 5 kvalitetskorrigeringar, 308 av 308 översatta | `kodi-add-ons-video-plugin-video-retrospect-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+Korrigeringarna omfattar menyalternativens versaler och stavfelet
+`Widevine-bibioteket` → `Widevine-biblioteket`.
