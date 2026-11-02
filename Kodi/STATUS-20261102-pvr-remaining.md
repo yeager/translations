@@ -15,5 +15,8 @@ The PVR client group is now covered by individual reviewed archive files.
 The default export header has no editor/date; that is normal for a newly exported
 Weblate PO and is intentionally left for Weblate to populate on import.
 
-All five files are separate Weblate import candidates. This environment has not
-performed the browser import.
+The reviewed changes in `pvr-dvblink`, `pvr-mythtv` and `pvr-vuplus` were
+submitted through the Kodi Weblate unit API on 2026-11-02 and read back
+successfully (unit IDs `6562059`, `9193922`, `6590142`, `6673736`). `pvr-hts`
+and `pvr-nextpvr` needed no wording change and therefore required no upstream
+write.

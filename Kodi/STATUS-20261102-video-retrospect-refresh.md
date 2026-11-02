@@ -6,4 +6,5 @@
 - Validation passed: `msgfmt --check`, `l10n-lint`, `svlang skrivregler`, Hunspell review and Gitleaks.
 - Archive: `kodi-add-ons-video-plugin-video-retrospect-sv-reviewed-20261102-refresh.po`
 - SHA-256: `6e807729f0db58676b215e8077f0a92a9e95255ee96e67cd09bdc3f827866822`
-- Upstream status: separate Weblate import candidate; not imported by this environment.
+- Upstream status: submitted through the Kodi Weblate unit API on 2026-11-02
+  and read back successfully (unit IDs `13581940`, `13581941`).
