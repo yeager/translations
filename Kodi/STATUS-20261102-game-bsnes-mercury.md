@@ -308,3 +308,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-beetle-supergrafx-sv-reviewed-20261102.po`
 - SHA-256: `dd39f3813004c747961ffd0a4641beb134950cda4b8f235e8630452a19e80b45`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Beetle PC-FX
+
+- Component: `game-libretro-beetle-pcfx`; 83 PC-FX-video-, CD- och
+  handkontrollenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-beetle-pcfx-sv-reviewed-20261102.po`
+- SHA-256: `a07d00c2808b50fc5083c97ad335707660428bd464ac07eb265f241cec97f463`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
