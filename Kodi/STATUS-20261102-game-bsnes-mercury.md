@@ -450,3 +450,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-dosbox-sv-reviewed-20261102.po`
 - SHA-256: `dc54980e29f1987bf6cc8ecc477862d501540b549795f82dc0c8006a099cc3ae`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## DeSmuME 2015
+
+- Component: `game-libretro-desmume2015`; 23 Nintendo DS-skärm-, penn-,
+  mikrofon- och firmwareenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-desmume2015-sv-reviewed-20261102.po`
+- SHA-256: `dba7a2c15955eb60b0a447a37098e350d1362f488cf174cdaf72b65fc32bf8d3`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
