@@ -237,3 +237,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `3db4d3013047a57e625e1248ec9d122a03b9de2f00b8b3bb51555c275ef210e6`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## Beetle WonderSwan
+
+- Component: `game-libretro-beetle-wswan`
+- Scope: 72 units: EEPROM-profil, skärmrotation, färgpaletter,
+  bildrutehantering samt ljud- och videoinställningar.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-beetle-wswan-sv-reviewed-20261102.po`
+- SHA-256: `b5a2a9aecede51c55766407a6b4cba5d5b7a274f4a59d3ea633108980535e65d`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
