@@ -109,3 +109,9 @@ fuzzy-översättningar har granskats i sitt sammanhang.
 Apple `.strings`-filen är godkänd med `plutil -lint`. l10n-lint har endast
 informationsnotiser för den tekniska nyckeln `WIKI_LANG` och Scrubbing-nycklarnas
 inbyggda tal, inte för de nya översättningarna.
+
+## Programtillägg
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `plugin.program.rtorrent` | 34 av 34 översatta; språk- och terminologigranskad, bland annat XML-RPC, fjärranslutning och hämtningsstatus | `kodi-add-ons-program-plugin-program-rtorrent-sv-reviewed-20261102.po` | Klar för Weblate-import |
