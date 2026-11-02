@@ -730,3 +730,10 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-beetle-pce-sv-reviewed-20261102.po`
 - SHA-256: `1f39995038bce777cea6ac99fbaeb42f2e776958f3e7e08d63a6b9cd110e6b61`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Låsta komponenter
+
+- `game-libretro-blastem` och `game-libretro-gearcoleco` returnerade båda
+  HTTP 403 från Weblate redan vid den första PATCH-begäran. Inga ändringar
+  hann sparas i någon av komponenterna.
+- Återuppta dem först när Kodi-projektet öppnar översättningarna igen.
