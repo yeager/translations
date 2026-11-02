@@ -484,3 +484,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-pcem-sv-reviewed-20261102.po`
 - SHA-256: `51ee492956d3a519387fc8790759b371e7418acc5bb09549efd78c4358547ccb`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## VisualBoyAdvance-M
+
+- Component: `game-libretro-vbam`; 76 Game Boy-system-, LCD-, ljud-, video- och
+  inmatningsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-vbam-sv-reviewed-20261102.po`
+- SHA-256: `f66fb77fb1121838dc35a0eb6508370e5fec03b4a6a1788ca689a06481193dae`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
