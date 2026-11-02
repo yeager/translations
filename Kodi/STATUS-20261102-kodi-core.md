@@ -181,3 +181,13 @@ inbyggda tal, inte för de nya översättningarna.
 | `audiodecoder.openmpt` | 2 av 2 översatta; modulformat och beskrivning granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-openmpt-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `audiodecoder.modplug` | 3 av 3 översatta; rekommendations- och livscykeltext granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-modplug-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `audiodecoder.wsr` | 2 av 2 översatta; WonderSwan- och PCM-terminologi granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-wsr-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+## Ljudavkodare – tredje batchen
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `audiodecoder.upse` | 2 av 2 översatta; PlayStation-terminologi granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-upse-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.stsound` | 2 av 2 översatta; YM- och chipbeskrivningen granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-stsound-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.snesapu` | 3 av 3 översatta; SNES-terminologi och sammansättningar granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-snesapu-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.sidplay` | 2 av 2 översatta; C64- och SID-beskrivningen granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-sidplay-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.qsf` | 2 av 2 översatta; QSound- och uppspelningsbeskrivningen granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-qsf-sv-reviewed-20261102.po` | Klar för Weblate-import |
