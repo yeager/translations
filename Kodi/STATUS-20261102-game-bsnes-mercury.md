@@ -595,3 +595,12 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `684d158d77bda74bcb34c34863b7c1aaead0d10eaaffb59a03c1e31a147030a4`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang, Hunspell (only
   proper names/project names) and Gitleaks passed.
+
+## FreeIntv
+
+- Component: `game-libretro-freeintv`; 11 Intellivision-inmatnings- och
+  visningsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-freeintv-sv-reviewed-20261102.po`
+- SHA-256: `19aa35448867ce0c6c7c9012df3ac75962874381740af9a8e14e9a34cdf0359c`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
