@@ -36,3 +36,12 @@
 - SHA-256: `0cd0fb022b8c68202d94c7ad15435ac698560909d272aed7597ecd4b7309013a`.
 - Kontroll: msgfmt (endast standardvarningar i Weblate-huvudet), l10n-lint,
   svlang och Gitleaks passerar.
+
+## Sats 5
+
+- Omfattning: 36 strängar för Rebel Assault II, svårighetsgrad, pilotprofiler
+  och PlayStation-resurser.
+- Arkiv: `scummvm-sv.batch-20261102-05.reviewed.delta.po`.
+- SHA-256: `bc2a9c41af38111b805533abf95afa1521eed0701c8f09b74742d1b0fa924a79`.
+- Kontroll: msgfmt (endast standardvarningar i Weblate-huvudet), l10n-lint,
+  svlang och Gitleaks passerar.
