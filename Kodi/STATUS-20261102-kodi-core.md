@@ -42,6 +42,10 @@ sökträffsäkerheten avsevärt!`
 | Komponent | Omfattning | Arkivfil | Status |
 | --- | --- | --- | --- |
 | `pvr.waipu` | 3 kompletterade strängar, 62 av 62 översatta | `kodi-add-ons-pvr-clients-pvr-waipu-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `pvr.demo` | 7 språk- och gränssnittskorrigeringar, 10 av 10 översatta | `kodi-add-ons-pvr-clients-pvr-demo-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `pvr.njoy` | 1 sammansättningskorrigering, 4 av 4 översatta | `kodi-add-ons-pvr-clients-pvr-njoy-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `pvr.hdhomerun` | 3 språk- och nätverksterminologikorrigeringar, 13 av 13 översatta | `kodi-add-ons-pvr-clients-pvr-hdhomerun-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `pvr.pctv` | 4 språk- och gränssnittskorrigeringar, 20 av 20 översatta | `kodi-add-ons-pvr-clients-pvr-pctv-sv-reviewed-20261102.po` | Klar för Weblate-import |
 
 `pvr.waipu` har en uppströmsgenererad PO-huvudvarning om saknat
 `Project-Id-Version`; katalogen är i övrigt syntaktiskt korrekt. l10n-lint,
