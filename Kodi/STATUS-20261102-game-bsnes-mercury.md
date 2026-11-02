@@ -398,3 +398,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-snes9x2010-sv-reviewed-20261102.po`
 - SHA-256: `1b63ab4369fdcc77d495e2bc82876a7be41c762875e4cd1f1c6b799837edba76`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Snes9x
+
+- Component: `game-libretro-snes9x`; 90 SNES-video-, ljud-, ljuspistol- och
+  emuleringsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-snes9x-sv-reviewed-20261102.po`
+- SHA-256: `396f626e00f25fdc84843e70499dbd821eab5ef18d2e6218c618fb4aa9914b65`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
