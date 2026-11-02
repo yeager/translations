@@ -248,3 +248,10 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `b5a2a9aecede51c55766407a6b4cba5d5b7a274f4a59d3ea633108980535e65d`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## PX68K
+
+- Component: `game-libretro-px68k`; 53 units, fully submitted and read back.
+- Archive: `kodi-add-ons-game-game-libretro-px68k-sv-reviewed-20261102.po`
+- SHA-256: `1daa803a326607cb1cb271f3efa6587be6da41f73af5af9280067b74263a7f95`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
