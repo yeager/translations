@@ -335,3 +335,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-nestopia-sv-reviewed-20261102.po`
 - SHA-256: `bd0d68a72e9eecff51ab8e5a049bd60085558566f0b4f4e6aff95cde1ac80d9f`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## melonDS
+
+- Component: `game-libretro-melonds`; 36 Nintendo DS-system-, firmware-,
+  video-, ljud- och inmatningsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-melonds-sv-reviewed-20261102.po`
+- SHA-256: `6d10f668dd20aafc9e02dfbcb49db829acbe0cc8133d7874acc90ff1d43ae825`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
