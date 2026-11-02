@@ -569,3 +569,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-mesen-sv-reviewed-20261102.po`
 - SHA-256: `aae3e2f3c35af9d18e587d548ef397a3b9059683a13e4612b1959e30a1fca884`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## XMIL
+
+- Component: `game-libretro-xmil`; 12 video-, styrspaks-, ljud- och
+  maskinvaruenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-xmil-sv-reviewed-20261102.po`
+- SHA-256: `c73f738299b5038dd0ecf0e8cb3eee94428bcb159dc59d0910d481f8220de36f`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
