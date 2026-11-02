@@ -152,3 +152,12 @@ inbyggda tal, inte för de nya översättningarna.
 | --- | --- | --- | --- |
 | `imagedecoder.mpo` | 2 av 2 översatta; MPO-terminologi och beskrivning granskade | `kodi-add-ons-image-decoders-imagedecoder-mpo-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `imagedecoder.heif` | 2 av 2 översatta; HEIF-terminologi, standardreferens och typografi granskade | `kodi-add-ons-image-decoders-imagedecoder-heif-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+## Ljudkodare
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `audioencoder.flac` | 4 av 4 översatta; radgranskad utan nödvändiga ändringar | `kodi-add-ons-audio-decodersencoders-audioencoder-flac-sv-reviewed-20261102.po` | Granskad – ingen import behövs |
+| `audioencoder.lame` | 15 av 15 översatta; beskrivning och ID3-terminologi granskade | `kodi-add-ons-audio-decodersencoders-audioencoder-lame-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audioencoder.vorbis` | 11 av 11 översatta; kodek- och bitfrekvensterminologi granskad | `kodi-add-ons-audio-decodersencoders-audioencoder-vorbis-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audioencoder.wav` | 2 av 2 översatta; radgranskad utan nödvändiga ändringar | `kodi-add-ons-audio-decodersencoders-audioencoder-wav-sv-reviewed-20261102.po` | Granskad – ingen import behövs |
