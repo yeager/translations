@@ -74,6 +74,7 @@ LibreELEC-katalogen har en känd l10n-lint-notis för URL:er inbäddade mellan
 | `script.trakt` | 186 av 186 översatta; 29 språk-, grammatik- och terminologikorrigeringar | `kodi-add-ons-scripts-script-trakt-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `script.artistslideshow` | 116 av 116 översatta; 16 språk- och konsekvenskorrigeringar | `kodi-add-ons-scripts-script-artistslideshow-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `script.xbmcbackup` | 160 av 160 översatta; 44 språk-, stavnings- och terminologikorrigeringar | `kodi-add-ons-scripts-script-xbmcbackup-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `script.favourites` | 6 av 6 översatta; 4 språk- och terminologikorrigeringar | `kodi-add-ons-scripts-script-favourites-sv-reviewed-20261102.po` | Klar för Weblate-import |
 
 För `script.skin.info.service` synkroniserades den tidigare granskade svenska
 katalogen mot aktuell Weblate-källa. De nya posterna och fyra inaktuella
