@@ -676,3 +676,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-gearsystem-sv-reviewed-20261102.po`
 - SHA-256: `8690063bff51b778d292e9000f895c83bbb13fa50831ef5879d4a7f45938033d`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## SameBoy
+
+- Component: `game-libretro-sameboy`; 121 Game Boy-, färgtemperatur-, ljud-,
+  rumble- och länkkabelenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-sameboy-sv-reviewed-20261102.po`
+- SHA-256: `b8a911d90c08ff39f4320e49a254c79634b8b9a459c47d9cd6a79ac2ab942cd7`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
