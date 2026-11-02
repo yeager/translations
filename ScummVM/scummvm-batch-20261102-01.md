@@ -45,3 +45,12 @@
 - SHA-256: `bc2a9c41af38111b805533abf95afa1521eed0701c8f09b74742d1b0fa924a79`.
 - Kontroll: msgfmt (endast standardvarningar i Weblate-huvudet), l10n-lint,
   svlang och Gitleaks passerar.
+
+## Sats 6
+
+- Omfattning: de två återstående posterna från den aktuella exporten:
+  Android-hjälptexten och informationen om saknade demofiler.
+- Arkiv: `scummvm-sv.batch-20261102-06.reviewed.delta.po`.
+- SHA-256: `e17598e1cb2dda09381de2cfc1de49ac572bd76b7233fa505aa1ce7bbedd08a1`.
+- Kontroll: msgfmt (endast standardvarningar i Weblate-huvudet), l10n-lint,
+  svlang och Gitleaks passerar.
