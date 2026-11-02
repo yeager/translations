@@ -733,7 +733,7 @@ intentionally retained as standardized technical identifiers.
 
 ## Låsta komponenter
 
-- `game-libretro-blastem` och `game-libretro-gearcoleco` returnerade båda
-  HTTP 403 från Weblate redan vid den första PATCH-begäran. Inga ändringar
-  hann sparas i någon av komponenterna.
+- `game-libretro-blastem`, `game-libretro-gearcoleco` och
+  `game-libretro-gearboy` returnerade alla HTTP 403 från Weblate redan vid den
+  första PATCH-begäran. Inga ändringar hann sparas i någon av komponenterna.
 - Återuppta dem först när Kodi-projektet öppnar översättningarna igen.
