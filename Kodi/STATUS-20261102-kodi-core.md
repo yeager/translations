@@ -123,3 +123,9 @@ inbyggda tal, inte för de nya översättningarna.
 | --- | --- | --- | --- |
 | `peripheral.joystick` | 11 av 11 översatta; språkgranskad och korrigerad, inklusive drivrutinsinställningar | `kodi-add-ons-peripherals-peripheral-joystick-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `peripheral.xarcade` | 2 av 2 översatta; radgranskad utan nödvändiga ändringar | `kodi-add-ons-peripherals-peripheral-xarcade-sv-reviewed-20261102.po` | Granskad – ingen import behövs |
+
+## Virtuella filsystem
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `vfs.libarchive` | 20 av 20 översatta; terminologi och felmeddelanden granskade för RAR, filhuvuden, CRC och arkivvolymer | `kodi-add-ons-virtual-filesystems-vfs-libarchive-sv-reviewed-20261102.po` | Klar för Weblate-import |
