@@ -505,3 +505,13 @@ intentionally retained as standardized technical identifiers.
   CPS2 `23ec1baa48f22b31f2536d4437e5797f1ccf3bfbbdda9fa91cf6a3b0d5ea1ea6`;
   CPS3 `da7dd70c9246ab0f1568baefce5d5229f3f1e256f597133da0c6a5d7eb26e28e`.
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Stella och ProSystem
+
+- Components: `game-libretro-stella` och `game-libretro-prosystem`; sammanlagt
+  55 Atari 2600/7800-video-, ljud- och inmatningsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archives: `kodi-add-ons-game-game-libretro-{stella,prosystem}-sv-reviewed-20261102.po`
+- SHA-256: Stella `2d3a2b8b1054b9a3dd7c4d4cab81f3f77c75211791d823564433124a490f04cd`;
+  ProSystem `f935a064f41c45cea141f7708058e2d0baaa8530e36c131a3288aa9f1bdb38c4`.
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
