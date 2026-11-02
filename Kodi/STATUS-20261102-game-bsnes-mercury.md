@@ -737,3 +737,11 @@ intentionally retained as standardized technical identifiers.
   `game-libretro-gearboy` returnerade alla HTTP 403 från Weblate redan vid den
   första PATCH-begäran. Inga ändringar hann sparas i någon av komponenterna.
 - Återuppta dem först när Kodi-projektet öppnar översättningarna igen.
+
+## Kodi Main
+
+- Component: `kodi-core/kodi-main`; två nya spelbibliotekssträngar.
+- Upstream result: Weblate API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-core-kodi-main-sv-reviewed-20261102.po`
+- SHA-256: `1742fd8da6042b5895aacb89d9377b4c6d473274dcb08a4b40bb4122172d95b0`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
