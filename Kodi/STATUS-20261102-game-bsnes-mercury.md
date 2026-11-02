@@ -161,3 +161,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `eb28a1f23e65745c8f1b0b08c0cf7136a9435a68243fec279af51003bb47b034`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## TyrQuake
+
+- Component: `game-libretro-tyrquake`
+- Scope: 57 units: programvaru- och Vulkan-återgivning, beräkningsskuggning,
+  upplösning, bildfrekvens, ljudsamplingsfrekvens och handkontroll.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-tyrquake-sv-reviewed-20261102.po`
+- SHA-256: `9bc26ebc726ea15d30cf9ceeaff52a47e5e59372fc36af32bd05021ff7246769`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.

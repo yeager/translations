@@ -1,0 +1,305 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (Kodi add-ons: game)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 18:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-"
+"game/game-libretro-tyrquake/sv_se/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Weblate 2026.10.1\n"
+"Language: sv_se\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, ignore-same
+msgctxt "Addon Summary"
+msgid "Quake (TyrQuake)"
+msgstr "Quake (TyrQuake)"
+
+msgctxt "Addon Description"
+msgid ""
+"Tyr-Quake is a branch of the Quake source code released by id Software. It "
+"is intended to support Quake and Quakeworld while fixing little bugs that "
+"have come up over the years."
+msgstr "Tyr-Quake är en gren av Quake-källkoden som släppts av id Software. Den är avsedd att stödja Quake och Quakeworld samtidigt som den fixar små buggar som har dykt upp genom åren."
+
+msgctxt "#30001"
+msgid "Internal resolution (restart)"
+msgstr "Intern upplösning (omstart)"
+
+msgctxt "#30002"
+msgid "Framerate (restart)"
+msgstr "Bildfrekvens (omstart)"
+
+msgctxt "#30004"
+msgid "Rumble"
+msgstr "Rumble"
+
+msgctxt "#30005"
+msgid "Invert Y Axis"
+msgstr "Invertera Y-axel"
+
+msgctxt "#30006"
+msgid "Analog Deadzone (percent)"
+msgstr "Analog dödzon (procent)"
+
+msgctxt "#30007"
+msgid "Renderer (restart)"
+msgstr "Återgivare (omstart)"
+
+msgctxt "#30008"
+msgid "Compute rendering (restart)"
+msgstr "Beräkningsbaserad återgivning (omstart)"
+
+msgctxt "#30009"
+msgid "Sound Samplerate (Hint)"
+msgstr "Ljudets samplingsfrekvens (råd)"
+
+msgctxt "#30010"
+msgid ""
+"Select the renderer backend. 'Auto' picks the best HW backend the frontend "
+"offers, falling back to software when no HW context is available. 'Software' "
+"forces the SW span rasterizer regardless of frontend video driver -- useful "
+"when the SW renderer's specific look (per-span affine texturing, palette + "
+"colormap output) is preferred. 'Vulkan' forces the Vulkan HW backend; falls "
+"back to software if the build was made without Vulkan support or the "
+"frontend won't grant a Vulkan context. Requires a restart."
+msgstr "Välj återgivarens bakände. ”Auto” väljer den bästa maskinvarubakände som gränssnittet erbjuder och återgår till programvara när ingen maskinvarukontext finns. ”Software” tvingar programvarans span-rasteriserare oavsett gränssnittets videodrivrutin – användbart när programvaruåtergivarens särskilda utseende (affin texturering per span, palett- och färgkartutmatning) föredras. ”Vulkan” tvingar Vulkan-bakänden för maskinvara och återgår till programvara om bygget saknar Vulkan-stöd eller gränssnittet inte tilldelar en Vulkan-kontext. Kräver omstart."
+
+msgctxt "#30011"
+msgid "Auto"
+msgstr "Automatiskt"
+
+msgctxt "#30012"
+msgid "Software"
+msgstr "Programvara"
+
+msgctxt "#30013"
+msgid "Vulkan"
+msgstr "Vulkan"
+
+msgctxt "#30014"
+msgid ""
+"On HW renderer backends that support compute shaders (Vulkan today, future "
+"D3D12 / GL 4.3+ / Metal), render the 3D view via a GPU port of Quake's "
+"software rasterizer (spans, affine textures, surface cache, alias edge "
+"stepping). Output is pixel-identical to the Software renderer but offloaded "
+"from CPU to GPU -- much faster at the higher 'Internal resolution' settings. "
+"When disabled, the HW backend uses traditional graphics pipelines with "
+"hardware rasterization, depth buffer and texture filtering (different "
+"visual: cleaner edges, filtered textures). Has no effect when the Software "
+"renderer is selected, or on HW backends that don't support compute. Requires "
+"a restart."
+msgstr "I maskinvarubaserade återgivare med stöd för beräkningsskuggningar (Vulkan i dag, framtida D3D12 / GL 4.3+ / Metal) återges 3D-vyn genom en GPU-portning av Quakes programvarurasteriserare (span, affina texturer, ytcache och alias-kantstegning). Utmatningen är pixelidentisk med programvaruåtergivaren men flyttas från CPU till GPU, vilket går mycket snabbare med högre inställningar av ”Internal resolution”. När alternativet är avstängt använder maskinvarubakänden traditionella grafikpipelines med maskinvarurasterisering, djupbuffert och texturfiltrering (annat visuellt resultat: renare kanter och filtrerade texturer). Påverkar inte vald programvaruåtergivare eller maskinvarubakändar utan beräkningsstöd. Kräver omstart."
+
+msgctxt "#30015"
+msgid "Enabled"
+msgstr "Aktiverad"
+
+msgctxt "#30016"
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+msgctxt "#30017"
+msgid "Configure the resolution. Requires a restart."
+msgstr "Konfigurera upplösningen. Kräver omstart."
+
+msgctxt "#30018"
+msgid ""
+"Modify framerate. Requires a restart. Values above 72 may cause various "
+"timing bugs."
+msgstr "Ändra bildfrekvens. Kräver omstart. Värden över 72 kan orsaka olika tidsfel."
+
+msgctxt "#30019"
+msgid "10fps"
+msgstr "10 fps"
+
+msgctxt "#30020"
+msgid "15fps"
+msgstr "15 fps"
+
+msgctxt "#30021"
+msgid "20fps"
+msgstr "20 fps"
+
+msgctxt "#30022"
+msgid "25fps"
+msgstr "25 fps"
+
+msgctxt "#30023"
+msgid "30fps"
+msgstr "30 fps"
+
+msgctxt "#30024"
+msgid "40fps"
+msgstr "40 fps"
+
+msgctxt "#30025"
+msgid "50fps"
+msgstr "50 fps"
+
+msgctxt "#30026"
+msgid "60fps"
+msgstr "60 fps"
+
+msgctxt "#30027"
+msgid "72fps"
+msgstr "72 fps"
+
+msgctxt "#30028"
+msgid "75fps"
+msgstr "75 fps"
+
+msgctxt "#30029"
+msgid "90fps"
+msgstr "90 fps"
+
+msgctxt "#30030"
+msgid "100fps"
+msgstr "100 fps"
+
+msgctxt "#30031"
+msgid "119fps"
+msgstr "119 fps"
+
+msgctxt "#30032"
+msgid "120fps"
+msgstr "120 fps"
+
+msgctxt "#30033"
+msgid "144fps"
+msgstr "144 fps"
+
+msgctxt "#30034"
+msgid "155fps"
+msgstr "155 fps"
+
+msgctxt "#30035"
+msgid "160fps"
+msgstr "160 fps"
+
+msgctxt "#30036"
+msgid "165fps"
+msgstr "165 fps"
+
+msgctxt "#30037"
+msgid "180fps"
+msgstr "180 fps"
+
+msgctxt "#30038"
+msgid "200fps"
+msgstr "200 fps"
+
+msgctxt "#30039"
+msgid "240fps"
+msgstr "240 fps"
+
+msgctxt "#30040"
+msgid "244fps"
+msgstr "244 fps"
+
+msgctxt "#30041"
+msgid "300fps"
+msgstr "300 fps"
+
+msgctxt "#30042"
+msgid "320fps"
+msgstr "320 fps"
+
+msgctxt "#30043"
+msgid "360fps"
+msgstr "360 fps"
+
+msgctxt "#30044"
+msgid "380 fps"
+msgstr "380 fps"
+
+msgctxt "#30045"
+msgid "400 fps"
+msgstr "400 fps"
+
+msgctxt "#30046"
+msgid "420 fps"
+msgstr "420 fps"
+
+msgctxt "#30047"
+msgid "440 fps"
+msgstr "440 fps"
+
+msgctxt "#30048"
+msgid "460 fps"
+msgstr "460 fps"
+
+msgctxt "#30049"
+msgid "480 fps"
+msgstr "480 fps"
+
+msgctxt "#30050"
+msgid "500 fps"
+msgstr "500 fps"
+
+msgctxt "#30051"
+msgid "520 fps"
+msgstr "520 fps"
+
+msgctxt "#30052"
+msgid "540 fps"
+msgstr "540 fps"
+
+msgctxt "#30053"
+msgid "560 fps"
+msgstr "560 fps"
+
+msgctxt "#30054"
+msgid "580 fps"
+msgstr "580 fps"
+
+msgctxt "#30055"
+msgid "600 fps"
+msgstr "600 fps"
+
+msgctxt "#30056"
+msgid ""
+"Audio output rate. Quake mixes its sound at the chosen output rate. 'Auto' "
+"matches the frontend's target rate, which avoids the frontend resampler's "
+"extra filtering and group delay -- that rate-matching, not a higher number, "
+"is what helps latency. Higher fixed rates give the music-stream resampler "
+"finer time resolution and reduce aliasing fold-back, but do little for "
+"Quake's own sound effects, which are low-rate and nearest-neighbour "
+"resampled (their artifacts sit at fixed low frequencies regardless of output "
+"rate). Falls back to the framerate-appropriate rate when the frontend can't "
+"report one. Takes effect on restart."
+msgstr "Ljudets utmatningsfrekvens. Quake mixar sitt ljud med den valda utmatningsfrekvensen. ”Auto” matchar gränssnittets målfrekvens, vilket undviker gränssnittets extra filtrering och gruppfördröjning vid omsampling – det är frekvensmatchningen, inte ett högre tal, som hjälper latensen. Högre fasta frekvenser ger musikströmmens omsampling bättre tidsupplösning och minskar vikningsdistorsion, men har liten effekt på Quakes ljudeffekter som har låg frekvens och omsamplas med närmaste granne. Om gränssnittet inte kan rapportera en frekvens används en frekvens som passar bildfrekvensen. Träder i kraft efter omstart."
+
+msgctxt "#30057"
+msgid "32 kHz"
+msgstr "32 kHz"
+
+msgctxt "#30058"
+msgid "44 kHz"
+msgstr "44 kHz"
+
+msgctxt "#30059"
+msgid "48 kHz"
+msgstr "48 kHz"
+
+msgctxt "#30060"
+msgid "96 kHz"
+msgstr "96 kHz"
+
+msgctxt "#30061"
+msgid "Enables joypad rumble."
+msgstr "Aktiverar vibration på handkontrollen."
+
+msgctxt "#30062"
+msgid "Invert the gamepad right analog stick's Y axis."
+msgstr "Invertera Y-axeln för handkontrollens högra analoga styrspak."
+
+msgctxt "#30063"
+msgid ""
+"Sets the deadzone of the Gamepad analog sticks when the input device type is "
+"set to 'Gamepad Classic' or 'Gamepad Modern'."
+msgstr "Ställer in dödzonen för handkontrollens analoga styrspakar när typen av inmatningsenhet är ”Gamepad Classic” eller ”Gamepad Modern”."
