@@ -131,3 +131,10 @@ inbyggda tal, inte för de nya översättningarna.
 | `vfs.libarchive` | 20 av 20 översatta; terminologi och felmeddelanden granskade för RAR, filhuvuden, CRC och arkivvolymer | `kodi-add-ons-virtual-filesystems-vfs-libarchive-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `vfs.rar` | 24 av 24 översatta; beskrivning, inställningar och RAR-terminologi granskade | `kodi-add-ons-virtual-filesystems-vfs-rar-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `vfs.sftp` | 2 av 2 översatta; protokollbeskrivningen språkgranskad | `kodi-add-ons-virtual-filesystems-vfs-sftp-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+## Videoströmsinmatning
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `inputstream.rtmp` | 2 av 2 översatta; protokollbeskrivningen språkgranskad | `kodi-add-ons-videoplayer-inputstream-rtmp-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `inputstream.ffmpegdirect` | 42 av 42 översatta; beskrivning, nätverksinställningar, tidsförskjutning, loggning och säkerhetstext granskade | `kodi-add-ons-videoplayer-inputstream-ffmpegdirect-sv-reviewed-20261102.po` | Klar för Weblate-import |
