@@ -649,3 +649,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-potator-sv-reviewed-20261102.po`
 - SHA-256: `d50d4694ab143c04a36f4609ba0756d988aa83a0d38ab90983cbb4c952f6aff1`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Same CDI
+
+- Component: `game-libretro-same_cdi`; 63 CD-i-system-, inmatnings-, video- och
+  bildrutetaktalternativ.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-same-cdi-sv-reviewed-20261102.po`
+- SHA-256: `e1106ab5d6524837bc8c5e711e5f5ffb782a08645a242d6c87eb2e474edd40d8`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
