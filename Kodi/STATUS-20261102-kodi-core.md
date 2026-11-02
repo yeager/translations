@@ -171,3 +171,13 @@ inbyggda tal, inte för de nya översättningarna.
 | `audiodecoder.organya` | 9 av 9 översatta; Cave Story-beskrivning och upprepningsinställningar granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-organya-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `audiodecoder.sacd` | 33 av 33 översatta; ljudzoner, nedsampling, filter och decimaltypografi granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-sacd-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `audiodecoder.ssf` | 23 av 23 översatta; Sega-format och ljudbehandlingsinställningar granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-ssf-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+## Ljudavkodare – andra batchen
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `audiodecoder.gsf` | 2 av 2 översatta; Game Boy Advance- och GSF-beskrivningen granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-gsf-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.nosefart` | 2 av 2 översatta; NES-ljudkanaler och NSF-beskrivningen granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-nosefart-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.openmpt` | 2 av 2 översatta; modulformat och beskrivning granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-openmpt-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.modplug` | 3 av 3 översatta; rekommendations- och livscykeltext granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-modplug-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `audiodecoder.wsr` | 2 av 2 översatta; WonderSwan- och PCM-terminologi granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-wsr-sv-reviewed-20261102.po` | Klar för Weblate-import |
