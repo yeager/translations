@@ -31,3 +31,13 @@ Discogs, MusicBrainz, AllMusic och `discogs.com`.
 I `metadata.universal` rättades den befintliga varningen med tre utropstecken
 och felaktig sammansättning: `Om alla filmkategorier inkluderas minskar
 sökträffsäkerheten avsevärt!`
+
+## PVR-klienter
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `pvr.waipu` | 3 kompletterade strängar, 62 av 62 översatta | `kodi-add-ons-pvr-clients-pvr-waipu-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+`pvr.waipu` har en uppströmsgenererad PO-huvudvarning om saknat
+`Project-Id-Version`; katalogen är i övrigt syntaktiskt korrekt. l10n-lint,
+svlangs skrivregler och den manuella Hunspell-granskningen är godkända.
