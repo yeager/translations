@@ -533,3 +533,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-pcsx-rearmed-sv-reviewed-20261102.po`
 - SHA-256: `d240f106b94a2f39f5732b04c83a05faa93a6a8f3d1d88ac90454e95cb0d8690`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Mupen64Plus-Next
+
+- Component: `game-libretro-mupen64plus-nx`; 227 Nintendo 64-, GLN64-,
+  ParaLLEl-RDP-, Angrylion-, video-, textur- och inmatningsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-mupen64plus-nx-sv-reviewed-20261102.po`
+- SHA-256: `28ee92cd12c7ae163dca0d60a493e30ab365d10dbf887fb38717c3b3c39f1d31`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
