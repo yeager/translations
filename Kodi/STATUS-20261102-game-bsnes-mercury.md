@@ -631,3 +631,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-ep128emu-sv-reviewed-20261102.po`
 - SHA-256: `873b4582eca5396ac77e7d6d09c0ee6254ce1936a1a14a567f97ce73ce8d993e`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Hatari (låst)
+
+- Component: `game-libretro-hatari`; 167 oöversatta Atari ST/STE/TT/Falcon-
+  enheter vid kontrollen.
+- Upstream result: Weblate API returnerade HTTP 403 med `permission_denied` och
+  meddelandet att översättningen för närvarande är låst.
+- Åtgärd: ingen ändring eller export har gjorts; återuppta först när komponenten
+  låses upp av projektet.
