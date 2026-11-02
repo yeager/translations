@@ -63,3 +63,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `5f540e9a8b22fc05ecf7c2bf9227fc7e82246bd1c93e2693d211d5cbfad1c40e`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## Handy
+
+- Component: `game-libretro-handy`
+- Scope: 17 non-empty units: refresh rate, rotation, LCD ghosting and
+  frame-skip performance settings.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-handy-sv-reviewed-20261102.po`
+- SHA-256: `afbeed88f261fe2ceedcee885e539b0eb400b4d80ab74d72903321e6a055e173`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
