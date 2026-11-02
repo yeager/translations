@@ -89,6 +89,7 @@ LibreELEC-katalogen har en känd l10n-lint-notis för URL:er inbäddade mellan
 | `script.embuary.info` | 62 av 62 översatta; 16 språk- och terminologikorrigeringar | `kodi-add-ons-scripts-script-embuary-info-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `script.module.python.twitch` | 2 av 2 översatta; 2 terminologi- och grammatikorrigeringar | `kodi-add-ons-scripts-script-module-python-twitch-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `script.tvmaze.integration` | 34 av 34 översatta; 14 språk- och terminologikorrigeringar | `kodi-add-ons-scripts-script-tvmaze-integration-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `script.audio.mixer` | 4 av 4 översatta; radgranskad utan nödvändiga ändringar | `kodi-add-ons-scripts-script-audio-mixer-sv-reviewed-20261102.po` | Granskad – ingen import behövs |
 
 För `script.skin.info.service` synkroniserades den tidigare granskade svenska
 katalogen mot aktuell Weblate-källa. De nya posterna och fyra inaktuella
