@@ -115,3 +115,4 @@ inbyggda tal, inte för de nya översättningarna.
 | Komponent | Omfattning | Arkivfil | Status |
 | --- | --- | --- | --- |
 | `plugin.program.rtorrent` | 34 av 34 översatta; språk- och terminologigranskad, bland annat XML-RPC, fjärranslutning och hämtningsstatus | `kodi-add-ons-program-plugin-program-rtorrent-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `plugin.library.node.editor` | 76 av 76 översatta; språk- och terminologigranskad, bland annat etiketter, sortering, samlingar och parametrar | `kodi-add-ons-program-plugin-library-node-editor-sv-reviewed-20261102.po` | Klar för Weblate-import |
