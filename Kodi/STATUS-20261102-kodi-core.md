@@ -84,6 +84,7 @@ LibreELEC-katalogen har en känd l10n-lint-notis för URL:er inbäddade mellan
 | `script.keymap` | 311 av 311 översatta; omfattande granskning av kommandon, PVR, uppspelningskontroller och Kodi-termer | `kodi-add-ons-scripts-script-keymap-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `script.kodi.windows.update` | 27 av 27 översatta; 11 språk- och terminologikorrigeringar | `kodi-add-ons-scripts-script-kodi-windows-update-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `script.tubecast` | 22 av 22 översatta; 8 språk- och terminologikorrigeringar | `kodi-add-ons-scripts-script-tubecast-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `script.sublissimo` | 214 av 214 översatta; granskning och korrigering av synkroniseringsflöden, tidskoder, grammatik och terminologi | `kodi-add-ons-scripts-script-sublissimo-sv-reviewed-20261102.po` | Klar för Weblate-import |
 
 För `script.skin.info.service` synkroniserades den tidigare granskade svenska
 katalogen mot aktuell Weblate-källa. De nya posterna och fyra inaktuella
