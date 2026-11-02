@@ -27,3 +27,12 @@
 - SHA-256: `988ad6b40dc52c2ffa3c17709d67af1f7eea53b231fc49f709f77bd958c19aa1`.
 - Kontroll: msgfmt (endast standardvarningar i Weblate-huvudet), l10n-lint,
   svlang och Gitleaks passerar.
+
+## Sats 4
+
+- Omfattning: 30 strängar för bestiarium, uppdrag, grafikskalning och
+  Rebel Assault II.
+- Arkiv: `scummvm-sv.batch-20261102-04.reviewed.delta.po`.
+- SHA-256: `0cd0fb022b8c68202d94c7ad15435ac698560909d272aed7597ecd4b7309013a`.
+- Kontroll: msgfmt (endast standardvarningar i Weblate-huvudet), l10n-lint,
+  svlang och Gitleaks passerar.
