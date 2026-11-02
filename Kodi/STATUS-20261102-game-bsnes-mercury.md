@@ -551,3 +551,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-boom3-sv-reviewed-20261102.po`
 - SHA-256: `d8142adb9834e9c9829e65f2096987f1f270b5a411775e5d7edd21e74e138f5b`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## NeoCD
+
+- Component: `game-libretro-neocd`; 28 Neo Geo CD-system-, video-, spar- och
+  bildförhållandeenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-neocd-sv-reviewed-20261102.po`
+- SHA-256: `f742e3b1562e0cf98590f90e0eef549f8f058c2ebac505b867392f7c39223055`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
