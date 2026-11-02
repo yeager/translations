@@ -128,3 +128,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `2b9305675fd864ec8e9ca2ac9959549f6ecb440cb7284c9824622eb43265b7a6`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## PokéMini
+
+- Component: `game-libretro-pokemini`
+- Scope: 37 units: skärmfilter, LCD-återgivning, ljud, vibration,
+  färgpaletter och bildrutehantering.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-pokemini-sv-reviewed-20261102.po`
+- SHA-256: `dc44bffaa97aef7b9a34a365b753cb1a002c3cdfda4faed7b5b168ad44369cab`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
