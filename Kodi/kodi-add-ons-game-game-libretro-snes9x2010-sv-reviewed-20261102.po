@@ -1,0 +1,349 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish (Kodi add-ons: game)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 19:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-"
+"game/game-libretro-snes9x2010/sv_se/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Weblate 2026.10.1\n"
+"Language: sv_se\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, ignore-same
+msgctxt "Addon Summary"
+msgid "Nintendo - SNES / SFC (Snes9x 2010)"
+msgstr "Nintendo - SNES / SFC (Snes9x 2010)"
+
+msgctxt "Addon Description"
+msgid ""
+"A port of Snes9x 1.52+ to Libretro. Rewritten in C with several "
+"optimizations and speedhacks."
+msgstr "En portning av Snes9x 1.52+ till Libretro. Omskriven i C med flera optimeringar och speedhacks."
+
+msgctxt "Addon Disclaimer"
+msgid "Icon credit: HarryBana (harrybana.deviantart.com)"
+msgstr "Ikonreferens: HarryBana (harrybana.deviantart.com)"
+
+msgctxt "#30001"
+msgid "Console Region (Restart)"
+msgstr "Konsollregion (omstart)"
+
+msgctxt "#30002"
+msgid "Preferred Aspect Ratio"
+msgstr "Föredraget bildförhållande"
+
+msgctxt "#30004"
+msgid "Blargg NTSC Filter"
+msgstr "Blargg NTSC-filter"
+
+msgctxt "#30005"
+msgid "Frameskip"
+msgstr "Hoppa över bildrutor"
+
+msgctxt "#30006"
+msgid "Frameskip Threshold (%)"
+msgstr "Tröskelvärde för bildöverhoppning (%)"
+
+msgctxt "#30007"
+msgid "SuperFX Overclock"
+msgstr "SuperFX-överklockning"
+
+msgctxt "#30008"
+msgid "Reduce Slowdown (Hack, Unsafe)"
+msgstr "Minska långsamhet (hack, osäkert)"
+
+msgctxt "#30009"
+msgid "Reduce Flickering (Hack, Unsafe)"
+msgstr "Minska flimmer (hack, osäkert)"
+
+msgctxt "#30010"
+msgid "Block Invalid VRAM Access (Restart)"
+msgstr "Blockera ogiltig VRAM-åtkomst (kräver omstart)"
+
+msgctxt "#30012"
+msgid "Mode 7 - Bilinear Filter"
+msgstr "Läge 7 – bilinjärt filter"
+
+msgctxt "#30013"
+msgid "Audio Interpolation (Inaccurate)"
+msgstr "Ljudinterpolering (felaktig)"
+
+msgctxt "#30014"
+msgid "MSU-1 Enhanced Audio"
+msgstr "MSU-1-förbättrat ljud"
+
+msgctxt "#30015"
+msgid "SuperFX Cycle Accuracy"
+msgstr "SuperFX-cykelnoggrannhet"
+
+msgctxt "#30016"
+msgid "Mode 7 - Hires"
+msgstr "Läge 7 – hög upplösning"
+
+msgctxt "#30017"
+msgid "Pseudo-Hires Blending"
+msgstr "Blandning i pseudo-hög upplösning"
+
+msgctxt "#30018"
+msgid "SuperFX Timing Model (Experimental)"
+msgstr "SuperFX-timingmodell (experimentell)"
+
+msgctxt "#30019"
+msgid ""
+"Specify which region the system is from. 'PAL' is 50hz, 'NTSC' is 60hz. "
+"Games will run faster or slower than normal if the incorrect region is "
+"selected."
+msgstr "Ange vilken region systemet kommer från. ”PAL” är 50 Hz, ”NTSC” är 60 Hz. Spel körs snabbare eller långsammare än normalt om fel region väljs."
+
+msgctxt "#30020"
+msgid "Auto"
+msgstr "Automatiskt"
+
+msgctxt "#30021"
+msgid "NTSC"
+msgstr "NTSC"
+
+msgctxt "#30022"
+msgid "PAL"
+msgstr "PAL"
+
+msgctxt "#30023"
+msgid ""
+"Choose how each SNES voice's pitch is interpolated. 'Gaussian' matches real "
+"hardware. 'Cubic' is brighter and less muffled, but does not match hardware "
+"and does not undo BRR sample compression. 'Sinc' is the sharpest/brightest "
+"(8-tap) and the most CPU-intensive."
+msgstr "Välj hur tonhöjden för varje SNES-röst interpoleras. ”Gaussisk” motsvarar verklig maskinvara. ”Kubisk” är ljusare och mindre dämpad, men motsvarar inte maskinvaran och upphäver inte BRR-samplingskomprimering. ”Sinc” är skarpast/ljusast (8-tapps) och mest CPU-krävande."
+
+msgctxt "#30024"
+msgid "Gaussian (Accurate)"
+msgstr "Gaussisk (noggrann)"
+
+msgctxt "#30025"
+msgid "Cubic (Brighter)"
+msgstr "Kubisk (ljusare)"
+
+msgctxt "#30026"
+msgid "Sinc (Sharpest)"
+msgstr "Sinc (skarpast)"
+
+msgctxt "#30027"
+msgid ""
+"Run the entire audio pipeline at 44.1 kHz for MSU-1 games. When disabled, "
+"MSU-1's 44.1 kHz PCM stream is decimated to the SNES's native ~32 kHz before "
+"output with no anti-alias filtering, folding the track's top octave into the "
+"audible band as slight hiss. When enabled, the SPC sound is resampled up to "
+"44.1 kHz and the MSU-1 stream passes through bit-exactly at its native rate. "
+"Has no effect on non-MSU-1 games. Changing this takes effect on the next "
+"content load."
+msgstr "Kör hela ljudkedjan vid 44,1 kHz för MSU-1-spel. När den är inaktiverad decimeras MSU-1:s PCM-ström på 44,1 kHz till SNES ursprungliga ~32 kHz före utmatning utan filter mot vikningsdistorsion, vilket lägger spårets högsta oktav som ett svagt brus i det hörbara området. När den är aktiverad omsamplas SPC-ljudet till 44,1 kHz och MSU-1-strömmen passerar bitexakt med sin ursprungliga frekvens. Påverkar inte spel utan MSU-1. Ändringen gäller vid nästa innehållsinläsning."
+
+msgctxt "#30028"
+msgid ""
+"Choose the preferred content aspect ratio. This will only apply when "
+"RetroArch's aspect ratio is set to 'Core provided' in the Video settings."
+msgstr "Välj önskat bildformat för innehållet. Detta gäller endast när RetroArchs bildformat är inställt på ”Från kärnan” i videoinställningarna."
+
+# Suggested in Weblate: Okorrigerad
+msgctxt "#30029"
+msgid "Uncorrected"
+msgstr "Okorrigerad"
+
+msgctxt "#30030"
+msgid "Apply a video filter to mimic various NTSC TV signals."
+msgstr "Tillämpa ett videofilter för att efterlikna olika NTSC-TV-signaler."
+
+# Suggested in Weblate: Monokrom
+msgctxt "#30031"
+msgid "Monochrome"
+msgstr "Monokrom"
+
+msgctxt "#30032"
+msgid "RF"
+msgstr "RF"
+
+msgctxt "#30033"
+msgid "Composite"
+msgstr "Komposit"
+
+msgctxt "#30034"
+msgid "S-Video"
+msgstr "S-video"
+
+msgctxt "#30035"
+msgid "RGB"
+msgstr "RGB"
+
+msgctxt "#30036"
+msgid ""
+"Skip frames to avoid audio buffer under-run (crackling). Improves "
+"performance at the expense of visual smoothness. 'Auto' skips frames when "
+"advised by the frontend. 'Manual' utilises the 'Frameskip Threshold (%)' "
+"setting."
+msgstr "Hoppa över bildrutor för att undvika underfyllning av ljudbufferten (knaster). Förbättrar prestandan på bekostnad av bildens jämnhet. ”Automatiskt” hoppar över bildrutor när gränssnittet rekommenderar det. ”Manuellt” använder inställningen ”Tröskelvärde för bildrutehoppning (%)”."
+
+msgctxt "#30037"
+msgid "Manual"
+msgstr "Manuellt"
+
+msgctxt "#30038"
+msgid ""
+"When 'Frameskip' is set to 'Manual', specifies the audio buffer occupancy "
+"threshold (percentage) below which frames will be skipped. Higher values "
+"reduce the risk of crackling by causing frames to be dropped more frequently."
+msgstr "När ”Bildrutehoppning” är inställt på ”Manuellt” anger detta tröskelvärdet för ljudbuffertens fyllnadsgrad (procent) under vilket bildrutor hoppas över. Högre värden minskar risken för knaster genom att bildrutor tappas oftare."
+
+msgctxt "#30039"
+msgid ""
+"Blends adjacent column pairs in pseudo-hires frames to reproduce the "
+"composite-video softening that some games rely on for fake transparency "
+"effects (waterfalls, glass, fog: Kirby's Dream Land 3, Jurassic Park). "
+"Applies a 2-tap horizontal average to the finished 512 px frame while "
+"keeping the full hires resolution; it does not reduce the image to 256 px. "
+"Affects only frames that actually use pseudo-hires; native and true Mode 5/6 "
+"hires output is unchanged. Ignored when the Blargg NTSC filter is active, "
+"since that already simulates the same softening. Default off."
+msgstr "Blandar intilliggande kolumnpar i bildrutor med pseudo-hög upplösning för att återskapa den utjämning i kompositvideo som vissa spel förlitar sig på för falska transparenseffekter (vattenfall, glas, dimma: Kirby’s Dream Land 3, Jurassic Park). Tillämpa ett horisontellt medelvärde med två tapp på den färdiga bildrutan på 512 bildpunkter medan full hög upplösning behålls; bilden minskas inte till 256 bildpunkter. Påverkar endast bildrutor som faktiskt använder pseudo-hög upplösning; ursprunglig och äkta hög upplösning i läge 5/6 är oförändrad. Ignoreras när Blargg NTSC-filtret är aktivt, eftersom det redan simulerar samma utjämning. Av som standard."
+
+# Suggested in Weblate: Emulatorhack
+msgctxt "#30040"
+msgid "Emulation Hacks"
+msgstr "Emuleringshack"
+
+msgctxt "#30041"
+msgid ""
+"Configure processor overclocking and emulation accuracy parameters affecting "
+"low-level performance and compatibility."
+msgstr "Konfigurera processoröverklockning och noggrannhetsparametrar för emulering som påverkar lågnivåprestanda och kompatibilitet."
+
+msgctxt "#30042"
+msgid ""
+"Overclock or underclock the SuperFX chip. This may improve the framerate and "
+"playability of games that use SuperFX."
+msgstr "Överklocka eller underklocka SuperFX-kretsen. Detta kan förbättra bildfrekvensen och spelbarheten för spel som använder SuperFX."
+
+msgctxt "#30043"
+msgid ""
+"Overclock SNES CPU. May cause games to crash! Use 'Light' for shorter "
+"loading times, 'Compatible' for most games exhibiting slowdown and 'Max' "
+"only if absolutely required (Gradius 3, Super R-type...)."
+msgstr "Överklocka SNES-CPU:n. Kan få spel att krascha! Använd ”Lätt” för kortare inläsningstider, ”Kompatibel” för de flesta spel med långsamhet och ”Max” endast om det är absolut nödvändigt (Gradius 3, Super R-Type …)."
+
+msgctxt "#30044"
+msgid "Light"
+msgstr "Lätt"
+
+msgctxt "#30045"
+msgid "Compatible"
+msgstr "Kompatibel"
+
+msgctxt "#30046"
+msgid "Max"
+msgstr "Max"
+
+msgctxt "#30047"
+msgid ""
+"'Legacy' keeps the shipped per-line budgets (including the cycle-accuracy "
+"toggle below). 'Hardware-derived' charges each instruction its approximate "
+"real GSU cycle cost (cache-aware fetches, 5-cycle memory accesses, amortized "
+"plot flushes), matching ares/MiSTer wait states; backported from mainline "
+"Snes9x. When set to 'Hardware-derived', the cycle-accuracy toggle is "
+"ignored. Works together with the SuperFX Overclock option."
+msgstr "”Äldre” behåller de medföljande budgetarna per rad (inklusive växeln för cykelnoggrannhet nedan). ”Maskinvarubaserad” debiterar varje instruktion dess ungefärliga verkliga GSU-cykelkostnad (cachemedvetna hämtningar, minnesåtkomst på fem cykler, amorterad tömning av plottar), vilket motsvarar ares/MiSTer-väntetillstånd; bakportat från huvudgrenen av Snes9x. När ”Maskinvarubaserad” är valt ignoreras växeln för cykelnoggrannhet. Fungerar tillsammans med SuperFX-överklockning."
+
+msgctxt "#30048"
+msgid "Legacy"
+msgstr "Äldre"
+
+msgctxt "#30049"
+msgid "Hardware-derived"
+msgstr "Maskinvarubaserad"
+
+msgctxt "#30050"
+msgid ""
+"Charge each SuperFX (GSU) instruction an approximate hardware cycle cost "
+"(multiplies, RAM/ROM access, plots) rather than a flat per-instruction "
+"budget, for more hardware-like GSU timing. Set to 'disabled' for the legacy "
+"instruction-count behaviour. Works together with the SuperFX overclock "
+"option."
+msgstr "Debiterar varje SuperFX-instruktion (GSU) en ungefärlig maskinvarucykelkostnad (multiplikationer, RAM/ROM-åtkomst, plottar) i stället för en fast budget per instruktion, för mer maskinvarulik GSU-timing. Ställ in på ”inaktiverad” för äldre beteende med instruktionsräkning. Fungerar tillsammans med SuperFX-överklockning."
+
+msgctxt "#30051"
+msgid "Increases number of sprites that can be drawn simultaneously on screen."
+msgstr "Ökar antalet sprites som kan ritas samtidigt på skärmen."
+
+msgctxt "#30052"
+msgid ""
+"Some homebrew/ROM hacks require this option to be disabled for correct "
+"operation."
+msgstr "Vissa homebrew- och ROM-hack kräver att detta alternativ är inaktiverat för korrekt funktion."
+
+msgctxt "#30053"
+msgid ""
+"Render Mode 7 backgrounds at higher resolution. 2x renders at 512 px "
+"(smoother diagonals); 4x renders at 1024 px (smoothest, more expensive). The "
+"2x_hv / 4x_hv variants additionally double the output vertically (448 rows) "
+"via an end-of-frame bilinear-Y average of adjacent rendered rows; HUD / "
+"sprites / non-M7 layers are row-duplicated. Smooths row-to-row transitions "
+"on Mode 7 ground textures but does not add per-line detail (the M7 plane "
+"still samples at 224 source rows). Affects only Mode 7 (driving / racing / "
+"overhead-rotation games). Other modes are unchanged. Default off."
+msgstr "Återge bakgrunder i läge 7 med högre upplösning. 2× återger med 512 bildpunkter (jämnare diagonaler); 4× återger med 1024 bildpunkter (jämnast, mer krävande). Varianterna 2x_hv/4x_hv dubblar dessutom utdata vertikalt (448 rader) genom ett bilinjärt Y-medelvärde av intilliggande återgivna rader i slutet av bildrutan; HUD, sprites och lager som inte använder läge 7 raddupliceras. Jämnar ut övergångar mellan rader i marktexturer för läge 7 men lägger inte till detalj per rad (M7-planet samplas fortfarande vid 224 källrader). Påverkar endast läge 7 (kör-, racing- och spel med rotation ovanifrån). Andra lägen är oförändrade. Av som standard."
+
+msgctxt "#30054"
+msgid ""
+"Apply bilinear filtering to Mode 7 backgrounds. Stable: blends along the X "
+"axis only with floor-Y sampling. Robust against high-contrast horizontal "
+"banding (rainbow rings, palette-rotation effects); recommended default. "
+"Smooth: 4-corner bilinear with a row-contrast guard that falls back to "
+"stable behaviour on high-contrast row pairs (avoids muddy seams on content "
+"like the Tiny Toons title screen). More aggressive smoothing along both "
+"axes; somewhat more expensive than stable. Independent of the Hires option; "
+"works at native, 2x and 4x."
+msgstr "Tillämpa bilinjär filtrering på bakgrunder i läge 7. Stabil: blandar endast längs X-axeln med golv-Y-sampling. Robust mot vågrät bandning med hög kontrast (regnbågsringar, palettrotationseffekter); rekommenderat standardläge. Mjuk: bilinjär filtrering med fyra hörn och ett skydd för radkontrast som återgår till stabilt beteende för radpar med hög kontrast (undviker grumliga skarvar i innehåll som titelskärmen i Tiny Toons). Mer aggressiv utjämning längs båda axlarna; något mer krävande än stabil. Oberoende av alternativet Hög upplösning; fungerar i ursprunglig upplösning, 2× och 4×."
+
+msgctxt "#30055"
+msgid "4:3"
+msgstr "4:3"
+
+msgctxt "#30056"
+msgid "2x"
+msgstr "2×"
+
+msgctxt "#30057"
+msgid "4x"
+msgstr "4×"
+
+msgctxt "#30058"
+msgid "2x_hv"
+msgstr "2x_hv"
+
+msgctxt "#30059"
+msgid "4x_hv"
+msgstr "4x_hv"
+
+msgctxt "#30060"
+msgid "stable"
+msgstr "stabil"
+
+msgctxt "#30061"
+msgid "smooth"
+msgstr "mjuk"
+
+# Suggested in Weblate: Trådad rendering
+msgctxt "#30062"
+msgid "Threaded Renderer"
+msgstr "Trådad återgivare"
+
+msgctxt "#30063"
+msgid ""
+"Draw the picture on a second thread, a scanline range at a time, while the "
+"CPU runs on. Output is identical either way. Worth it where there is a spare "
+"core to draw on; on a single-core machine it only adds the cost of handing "
+"work across. Changing this takes effect on the next content load."
+msgstr "Rita bilden på en andra tråd, en skanningsradsintervall i taget, medan CPU:n fortsätter köra. Utdata är identisk i båda fallen. Värt det när en ledig kärna finns att rita på; på en enkärnig maskin tillkommer endast kostnaden för att lämna över arbetet. Ändringen gäller vid nästa innehållsinläsning."

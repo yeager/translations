@@ -389,3 +389,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-parallel-n64-sv-reviewed-20261102.po`
 - SHA-256: `a1aade459bcfe73046c94db2c317cf6ec985f1b5fa07dd72c0c16bddd0dab05c`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Snes9x 2010
+
+- Component: `game-libretro-snes9x2010`; 56 SNES-video-, ljud-, SuperFX- och
+  emuleringsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-snes9x2010-sv-reviewed-20261102.po`
+- SHA-256: `1b63ab4369fdcc77d495e2bc82876a7be41c762875e4cd1f1c6b799837edba76`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
