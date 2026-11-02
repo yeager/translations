@@ -150,3 +150,14 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `45b41e01f536a97698cad14d3a30204ebb2823ee50cd5ae26335e1b94dd1758c`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## QuickNES
+
+- Component: `game-libretro-quicknes`
+- Scope: 41 units: NTSC-paletter, bildbeskärning, NES-ljudemulering,
+  samplingsfrekvens och turbolägen.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-quicknes-sv-reviewed-20261102.po`
+- SHA-256: `eb28a1f23e65745c8f1b0b08c0cf7136a9435a68243fec279af51003bb47b034`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
