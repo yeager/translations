@@ -685,3 +685,12 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-sameboy-sv-reviewed-20261102.po`
 - SHA-256: `b8a911d90c08ff39f4320e49a254c79634b8b9a459c47d9cd6a79ac2ab942cd7`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Flycast
+
+- Component: `game-libretro-flycast`; 145 Dreamcast-, VMU-, PowerVR2-, video-
+  och systemenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-flycast-sv-reviewed-20261102.po`
+- SHA-256: `e5b238e7a460f6883629cdb6b8b62976b1208b4c43abb79f34af5e018f5ed357`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
