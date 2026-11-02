@@ -493,3 +493,15 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-vbam-sv-reviewed-20261102.po`
 - SHA-256: `f66fb77fb1121838dc35a0eb6508370e5fec03b4a6a1788ca689a06481193dae`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## FinalBurn Alpha 2012 CPS 1–3
+
+- Components: `game-libretro-fbalpha2012-cps1`,
+  `game-libretro-fbalpha2012-cps2` och `game-libretro-fbalpha2012-cps3`;
+  sammanlagt 8 ljud-, bild-, samplings- och handkontrollenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archives: `kodi-add-ons-game-game-libretro-fbalpha2012-cps{1,2,3}-sv-reviewed-20261102.po`
+- SHA-256: CPS1 `0b583ed7977af08a8415ae7792ab7623700b25d195d87f6ba358f7ee459f9d91`;
+  CPS2 `23ec1baa48f22b31f2536d4437e5797f1ccf3bfbbdda9fa91cf6a3b0d5ea1ea6`;
+  CPS3 `da7dd70c9246ab0f1568baefce5d5229f3f1e256f597133da0c6a5d7eb26e28e`.
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
