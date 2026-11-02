@@ -55,6 +55,7 @@ sökträffsäkerheten avsevärt!`
 | `pvr.wmc` | 28 språk-, grammatik- och gränssnittskorrigeringar, 74 av 74 översatta | `kodi-add-ons-pvr-clients-pvr-wmc-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `pvr.dvbviewer` | 31 språk-, terminologi- och gränssnittskorrigeringar, 81 av 81 översatta | `kodi-add-ons-pvr-clients-pvr-dvbviewer-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `pvr.vbox` | 17 språk-, terminologi- och gränssnittskorrigeringar, 46 av 46 översatta | `kodi-add-ons-pvr-clients-pvr-vbox-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `pvr.mediaportal.tvserver` | 29 språk-, terminologi- och gränssnittskorrigeringar, 76 av 76 översatta | `kodi-add-ons-pvr-clients-pvr-mediaportal-tvserver-sv-reviewed-20261102.po` | Klar för Weblate-import |
 
 `pvr.waipu` har en uppströmsgenererad PO-huvudvarning om saknat
 `Project-Id-Version`; katalogen är i övrigt syntaktiskt korrekt. l10n-lint,
