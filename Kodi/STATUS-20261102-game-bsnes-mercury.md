@@ -227,3 +227,13 @@ intentionally retained as standardized technical identifiers.
 - SHA-256: `bf9b95c6970dcf52a89e872bef8835c3480beeaed4a43c0c0d09f77c43cf0503`
 - Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
   svlang and Gitleaks passed.
+
+## Beetle VB
+
+- Component: `game-libretro-beetle-vb`
+- Scope: 18 units: 3D-lägen, anaglyf, stereovisning, VR och inmatning.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-beetle-vb-sv-reviewed-20261102.po`
+- SHA-256: `3db4d3013047a57e625e1248ec9d122a03b9de2f00b8b3bb51555c275ef210e6`
+- Validation: `msgfmt` passed (only standard Weblate header warnings); l10n-lint,
+  svlang and Gitleaks passed.
