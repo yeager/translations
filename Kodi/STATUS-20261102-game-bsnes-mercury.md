@@ -264,3 +264,11 @@ intentionally retained as standardized technical identifiers.
 - Archive: `kodi-add-ons-game-game-libretro-genplus-sv-reviewed-20261102.po`
 - SHA-256: `14fcd9c5f68dd1c71fa4d8c258f3a70e12fb80c02958d7f376195bf459f5f950`
 - Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
+
+## Parallext
+
+- Component: `game-libretro-parallext`; 28 N64-grafik- och handkontrollsenheter.
+- Upstream result: API read-back confirms no units in `state:<translated`.
+- Archive: `kodi-add-ons-game-game-libretro-parallext-sv-reviewed-20261102.po`
+- SHA-256: `cbb1ad3413656b21c2fc9711497514fc020c3fbaeaf01ac38ae8a4c3dc6d9fea`
+- Validation: msgfmt (header warnings only), l10n-lint, svlang and Gitleaks passed.
