@@ -61,3 +61,10 @@ Korrigeringarna omfattar menyalternativens versaler och stavfelet
 
 LibreELEC-katalogen har en känd l10n-lint-notis för URL:er inbäddade mellan
 `[CR]`-markörer. De fyra URL:erna är manuellt verifierade som oförändrade.
+
+## Skripttillägg
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `script.service.hue` | 2 kompletterade strängar, 123 av 123 översatta | `kodi-add-ons-scripts-script-service-hue-sv-reviewed-20261102.po` | Klar för Weblate-import |
+| `script.kodi.android.update` | 1 kompletterad sträng, 29 av 29 översatta | `kodi-add-ons-scripts-script-kodi-android-update-sv-reviewed-20261102.po` | Klar för Weblate-import |
