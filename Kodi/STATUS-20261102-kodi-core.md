@@ -201,3 +201,9 @@ inbyggda tal, inte för de nya översättningarna.
 | `audiodecoder.asap` | 2 av 2 översatta; Atari- och Kodi-beskrivningen granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-asap-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `audiodecoder.hvl` | 2 av 2 översatta; HivelyTracker-, AHX- och demoscensterminologi granskad | `kodi-add-ons-audio-decodersencoders-audiodecoder-hvl-sv-reviewed-20261102.po` | Klar för Weblate-import |
 | `audiodecoder.timidity` | 8 av 8 översatta; konfigurations- och ljudfontstexter granskade | `kodi-add-ons-audio-decodersencoders-audiodecoder-timidity-sv-reviewed-20261102.po` | Klar för Weblate-import |
+
+## Ljudavkodare – FluidSynth
+
+| Komponent | Omfattning | Arkivfil | Status |
+| --- | --- | --- | --- |
+| `audiodecoder.fluidsynth` | 8 av 8 översatta; SoundFont-terminologi, konfiguration och PO-kommentarformat korrigerade | `kodi-add-ons-audio-decodersencoders-audiodecoder-fluidsynth-sv-reviewed-20261102.po` | Klar för Weblate-import |
