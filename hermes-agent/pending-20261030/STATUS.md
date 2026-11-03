@@ -95,6 +95,22 @@ liksom skrivregler och Gitleaks. ESLint rapporterar fortfarande en befintlig
 varning för den oförändrade `load()`-anropet i Models-sidans effekt, men inga
 fel.
 
+## Modellinställningar, uppdaterad 2026-11-03
+
+Models-sidans inställningspaneler och dialoger har kompletterats med svenska
+texter för hjälpuppgifter, automatiskt modellval, återställning, Mixture of
+Agents-förinställningar, referensmodeller och modellval. Modellnamn,
+leverantörsnamn och serverdata förblir oförändrade. Ändringen är pushad till
+[PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618) i
+commit `96362c47e7`.
+
+Den exakta svenska katalogen efter denna uppdatering är
+`../web.sv-20261103-models-settings.ts` med SHA-256
+`9d22fcf249c7ad6ecea7114da40b975d0d43043a659696cf8e05994ae41dd206`.
+Webbens typkontroll och hela testsviten (71 testfiler, 477 tester) passerade,
+liksom skrivregler och Gitleaks. ESLint har fortfarande en befintlig varning
+för den oförändrade `load()`-anropet i Models-sidans effekt, men inga fel.
+
 ## Typkontroll 2026-10-30
 
 Den första TUI-typkontrollen hittade en gammal import av `Translations`; den
