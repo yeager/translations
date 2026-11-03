@@ -54,3 +54,8 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Archive: `retroarch-sv-cemu-batch-04-20261103.json`.
 - Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, and scoped Gitleaks. Crowdin's numeric comparison cannot parse Swedish decimal commas and multiplication signs, so its number warnings are false positives; the numeric values themselves are preserved.
 - Submission: saved in Crowdin with **“Save Anyway”** for that false positive, then verified as **“No unsaved translations”**.
+
+## Cemu component review complete — 2026-11-03
+
+- All 153 strings in `cemu-libretro/cemu-libretro.json` were reviewed page by page in Crowdin.
+- The final page contains only the approved `50%`, `100%`, and `Normal` values; no further change was warranted.
