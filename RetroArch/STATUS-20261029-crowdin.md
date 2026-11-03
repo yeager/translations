@@ -73,3 +73,8 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Archive: `retroarch-sv-xenia-batch-02-20261103.json`.
 - Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, and scoped Gitleaks.
 - Submission: saved in Crowdin and verified as **“No unsaved translations”**.
+
+## Xenia component review complete — 2026-11-03
+
+- All 251 strings in `xenia-libretro/xenia-libretro.json` were reviewed page by page in Crowdin.
+- Pages 2–6 contained no further high-confidence changes. Their remaining QA flags are intended technical terms, punctuation or number-parser false positives, and already-approved shared values.
