@@ -19,3 +19,9 @@ De två lokalt granskade batcherna har skickats till Transifex för `Main app (m
 - Nio strängar om punktfiler, databasfel och öppning av mappar skickades efter granskning.
 - Antalet oöversatta strängar minskade från 198 till 189.
 - Platshållarna i databasfelen bevarades i rätt ordning.
+
+## Batch 5
+
+- Två säkerhetsrelaterade strängar om SHA2-256 och omdirigering till osäkra protokoll skickades.
+- Antalet oöversatta strängar minskade från 189 till 187.
+- Den tidigare etablerade formuleringen `är farligt` och projektets befintliga citationstecken återanvändes för omdirigeringen.
