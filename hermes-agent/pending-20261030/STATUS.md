@@ -159,6 +159,24 @@ Den exakta svenska katalogen efter denna uppdatering är
 Typkontroll, ESLint, hela testsviten (71 testfiler, 477 tester), skrivregler
 och Gitleaks passerade.
 
+## MCP-serverhantering, uppdaterad 2026-11-03
+
+MCP-sidan är nu radgranskad i sin helhet för statisk webbtext: serverlistan,
+OAuth, aktivering, anslutningsprov, borttagning och katalogen använder den
+typade engelska katalogen med svenska motsvarigheter. Servernamn, URL:er,
+protokollnamn, katalogbeskrivningar, diagnostik och andra data från servern
+lämnas avsiktligt oförändrade. Ändringen är pushad till
+[PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618) i
+commit `c4905a21e1`.
+
+Den exakta svenska katalogen efter denna uppdatering är
+`../web.sv-20261103-mcp-management.ts` med SHA-256
+`8952fc43932ad4e6c06fff0c9ceb60c2b3a9a471a091bedc542668257c719051`.
+Typkontroll, ESLint, hela testsviten (71 testfiler, 477 tester), skrivregler,
+l10n-lint och Gitleaks passerade. l10n-lint kördes på en strukturerad
+export av de nya MCP-texterna eftersom verktyget ännu inte tolkar
+TypeScript-kataloger direkt.
+
 ## Typkontroll 2026-10-30
 
 Den första TUI-typkontrollen hittade en gammal import av `Translations`; den
