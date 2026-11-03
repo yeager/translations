@@ -30,3 +30,8 @@ insändningar, arkiverade i `widelands-addons-massada-sv-20261103.json`.
 
 Delkomponenten `Mountains---Seas-wad` är komplett efter tre granskade
 insändningar, arkiverade i `widelands-addons-mountains-seas-sv-20261103.json`.
+
+Tre mindre kartkomponenter har också kompletterats med sex granskade
+översättningar: `Great-Lakes-wad`, `Escher-Goose-less-Fish-wad` och
+`Australia-v2-1-wad`. Underlaget är
+`widelands-addons-small-maps-sv-20261103.json`.
