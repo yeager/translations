@@ -196,6 +196,24 @@ Gitleaks passerade. ESLint har fortfarande en befintlig varning i
 Skills-sidans oförändrade förhandsgranskningskod om synkron state-uppdatering
 i en effekt, men inga fel.
 
+## Skills: katalog och säkerhetsgranskning, uppdaterad 2026-11-03
+
+Den externa färdighetskatalogens statiska gränssnitt är nu katalogiserat och
+översatt: sökning, uppdatering, körlogg, anslutna kataloger, träffar,
+förhandsvisning, installation och säkerhetsgranskning. Katalogernas
+färdighetsbeskrivningar, taggar, källnamn, diagnostik och skanningsfynd är
+server- eller källstyrda data och lämnas därför oförändrade. Ändringen är
+pushad till [PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618)
+i commit `f351820362`.
+
+Den exakta svenska katalogen efter denna uppdatering är
+`../web.sv-20261103-skills-hub.ts` med SHA-256
+`fd5974a71d0a9277f06a7480a0783f3a0b2086461f5f2523aeb815e1230032b0`.
+Typkontroll, hela testsviten (71 testfiler, 477 tester), skrivregler och
+Gitleaks passerade. ESLint har fortfarande en befintlig varning i
+Skills-sidans oförändrade förhandsgranskningskod om synkron state-uppdatering
+i en effekt, men inga fel.
+
 ## Typkontroll 2026-10-30
 
 Den första TUI-typkontrollen hittade en gammal import av `Translations`; den
