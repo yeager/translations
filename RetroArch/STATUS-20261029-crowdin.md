@@ -26,3 +26,10 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 
 - Corrected the two batch-01 labels whose English source deliberately lacks a terminal full stop.
 - Verification: Crowdin now shows the corrected translations and **“No unsaved translations”**.
+
+## Cemu review batch 01 — 2026-11-03
+
+- Corrected the PowerPC CPU-mode explanation: it now distinguishes the game profile's mode from the profile itself and consistently uses the established `omkompilerare` terminology.
+- Archive: `retroarch-sv-cemu-batch-01-20261103.json`.
+- Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, Hunspell review, and scoped Gitleaks. The remaining Hunspell flags are the Cemu product name and the established technical term `omkompileraren`.
+- Submission: saved in Crowdin and verified as **“No unsaved translations”**.
