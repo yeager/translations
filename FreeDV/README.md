@@ -8,9 +8,11 @@ Kontroller 2026-11-03:
 - 571 av 571 meddelanden är översatta.
 - `msgfmt --check` godkändes.
 - Kontroll av C-formatmarkörer och radbrytningar fann inga avvikelser.
+- FreeDV:s egna tekniska dokumentation och användarmanual användes för en
+  domängranskning av radio-, CAT-, PTT-, VOX-, lokator- och ljudtermer.
 - Gitleaks hittade inga hemligheter i arbetskatalogen.
 
-SHA-256: `fcc515f0d68aa5e02b4e9513a2c516f6e307c32dab3df115d6b2762d8afe9343`
+SHA-256: `1754382d688e761c2aa6516e02fcf55c1fa2a47b252ecdeba93c068584d7b876`
 
 Filen är avsedd att mejlas till Translation Project för granskning och
 integrering.

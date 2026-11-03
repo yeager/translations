@@ -1,6 +1,7 @@
 # FreeDV language translation template
 # Copyright (C) 2026 FreeDV Project
 # This file is distributed under the same license as the FreeDV package.
+# Daniel Nylander <po@danielnylander.se>, 2026.
 #
 msgid ""
 msgstr ""
@@ -9,7 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2026-10-31 14:25-0700\n"
 "PO-Revision-Date: 2026-11-03 00:00+0000\n"
 "Last-Translator: Daniel Nylander\n"
-"Language-Team: Swedish\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +39,7 @@ msgstr "Inspelningstyp:"
 
 #: src/gui/dialogs/begin_recording.cpp
 msgid "Off Air"
-msgstr "Off Air"
+msgstr "Från radio"
 
 #: src/gui/dialogs/begin_recording.cpp
 msgid "Decoded"
@@ -66,7 +67,7 @@ msgstr "TX brusreducering"
 
 #: src/gui/dialogs/dlg_filter.cpp
 msgid "Enable noise suppression, dereverberation, AGC of mic signal"
-msgstr "Aktivera brusreducering, dereverberation, AGC för mikrofonsignal"
+msgstr "Aktivera brusreducering, efterklangsreducering och AGC för mikrofonsignalen"
 
 #: src/gui/dialogs/dlg_filter.cpp
 msgid "AGC"
@@ -82,7 +83,7 @@ msgstr ""
 
 #: src/gui/dialogs/dlg_filter.cpp
 msgid "Speaker Audio Post-Processing"
-msgstr "Högtalarljud efterbearbetning"
+msgstr "Efterbearbetning av högtalarljud"
 
 #: src/gui/dialogs/dlg_filter.cpp
 msgid "BW Expander"
@@ -122,11 +123,11 @@ msgstr "Diskant"
 
 #: src/gui/dialogs/dlg_filter.cpp
 msgid "Microphone In Equaliser"
-msgstr "Mikrofon i Equalizer"
+msgstr "Equalizer för mikrofoningång"
 
 #: src/gui/dialogs/dlg_filter.cpp
 msgid "Speaker Out Equaliser"
-msgstr "Speaker Out Equalizer"
+msgstr "Equalizer för högtalarutgång"
 
 #: src/gui/dialogs/dlg_filter.cpp
 msgid "Freq"
@@ -142,7 +143,7 @@ msgstr "Q"
 
 #: src/gui/dialogs/dlg_filter.h src/gui/dialogs/freedv_reporter.cpp
 msgid "Filter"
-msgstr "Filtrera"
+msgstr "Filter"
 
 #: src/gui/dialogs/dlg_options.cpp
 #, c-format
@@ -257,7 +258,7 @@ msgstr "VOX PTT-inställningar"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Left Channel Vox Tone"
-msgstr "Vänster kanal Vox Tone"
+msgstr "VOX-ton i vänster kanal"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Hamlib Settings"
@@ -289,7 +290,7 @@ msgstr "PTT använder:"
 
 #: src/gui/dialogs/dlg_options.cpp src/gui/dialogs/dlg_setup_wizard.cpp
 msgid "PTT Serial Device:"
-msgstr "PTT seriell enhet:"
+msgstr "Seriell PTT-enhet:"
 
 #: src/gui/dialogs/dlg_options.cpp src/gui/dialogs/dlg_setup_wizard.cpp
 msgid "None"
@@ -304,7 +305,7 @@ msgid ""
 "Always assert RTS on the Hamlib serial port (e.g. to power a radio "
 "interface)"
 msgstr ""
-"Säkerställ alltid RTS på Hamlib serieporten (t.ex. för att driva ett "
+"Aktivera alltid RTS på Hamlibs serieport (t.ex. för att driva ett "
 "radiogränssnitt)"
 
 #: src/gui/dialogs/dlg_options.cpp
@@ -316,7 +317,7 @@ msgid ""
 "Always assert DTR on the Hamlib serial port (e.g. to power a radio "
 "interface)"
 msgstr ""
-"Säkerställ alltid DTR på Hamlib-serieporten (t.ex. för att driva ett "
+"Aktivera alltid DTR på Hamlibs serieport (t.ex. för att driva ett "
 "radiogränssnitt)"
 
 #: src/gui/dialogs/dlg_options.cpp
@@ -333,7 +334,7 @@ msgstr "PTT-port"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Use Serial Port PTT"
-msgstr "Använd seriell port PTT"
+msgstr "Använd PTT via serieport"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Serial Device:  "
@@ -345,7 +346,7 @@ msgstr "Använd DTR"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Toggle DTR line for PTT"
-msgstr "Växla DTR-linje för PTT"
+msgstr "Växla DTR-signalen för PTT"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Use RTS"
@@ -373,7 +374,7 @@ msgstr "Ställ in polariteten för RTS-linjen"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "PTT In"
-msgstr "PTT in"
+msgstr "PTT-ingång"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Enable PTT Input"
@@ -413,7 +414,7 @@ msgstr "Anropssignal:"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Grid Square/Locator:"
-msgstr "Grid Square/Locator:"
+msgstr "Rutlokator:"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Manual Frequency Reporting"
@@ -456,8 +457,8 @@ msgid ""
 "Broadcasts received callsign/frequency data as JSON UDP datagrams (e.g. to a"
 " multicast group or a local listener)."
 msgstr ""
-"Sändningar tog emot anropssignal/frekvensdata som JSON UDP-datagram (t.ex. "
-"till en multicast-grupp eller en lokal lyssnare)."
+"Sänder mottagna data om anropssignal och frekvens som JSON-UDP-datagram "
+"(t.ex. till en multicastgrupp eller en lokal lyssnare)."
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Stations Heard Log File:"
@@ -494,7 +495,7 @@ msgstr "Tvinga endast RX-rapportering"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Callsign List"
-msgstr "Callsign List"
+msgstr "Anropssignallista"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Use UTC Time"
@@ -506,7 +507,7 @@ msgstr "PTT-alternativ"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Enable key for PTT:"
-msgstr "Aktivera nyckel för PTT:"
+msgstr "Välj tangent för PTT:"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "The key currently assigned to PTT."
@@ -525,8 +526,8 @@ msgid ""
 "When enabled, you must hold the PTT button or key to keep transmitting. "
 "Releasing it returns to receive."
 msgstr ""
-"När den är aktiverad måste du hålla ned PTT-knappen eller -knappen för att "
-"fortsätta sända. Att släppa det återgår för att ta emot."
+"När funktionen är aktiverad måste du hålla ned PTT-knappen eller tangenten "
+"för att fortsätta sända. När du släpper den återgår programmet till mottagning."
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "TX/RX Delay (milliseconds): "
@@ -626,7 +627,7 @@ msgstr "Ange frekvens (MHz):"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Waterfall Style"
-msgstr "Vattenfall stil"
+msgstr "Vattenfallsstil"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Multicolor"
@@ -698,7 +699,7 @@ msgstr "Uppdatera enhetslistan"
 
 #: src/gui/dialogs/dlg_options.cpp src/gui/dialogs/dlg_setup_wizard.cpp
 msgid "Receive only (I will not be transmitting)"
-msgstr "Endast ta emot (jag kommer inte att sända)"
+msgstr "Endast mottagning (jag kommer inte att sända)"
 
 #: src/gui/dialogs/dlg_options.cpp src/gui/dialogs/dlg_setup_wizard.cpp
 msgid "Input From Microphone To Computer:"
@@ -714,7 +715,7 @@ msgstr "Filplats:"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Path to Voice Keyer audio files"
-msgstr "Sökväg till Voice Keyer-ljudfiler"
+msgstr "Sökväg till ljudfiler för röstnycklare"
 
 #: src/gui/dialogs/dlg_options.cpp
 msgid "Rx Pause:"
@@ -966,7 +967,7 @@ msgstr "Avsluta"
 
 #: src/gui/dialogs/dlg_setup_wizard.cpp
 msgid "Step 1 of 4: Receive Audio"
-msgstr "Steg 1 av 4: Ta emot ljud"
+msgstr "Steg 1 av 4: Ljud för mottagning"
 
 #: src/gui/dialogs/dlg_setup_wizard.cpp
 msgid "Select the audio devices used for receiving transmissions."
@@ -990,7 +991,7 @@ msgstr "Importera"
 
 #: src/gui/dialogs/dlg_setup_wizard.cpp
 msgid "Step 2 of 4: Transmit Audio"
-msgstr "Steg 2 av 4: Överför ljud"
+msgstr "Steg 2 av 4: Ljud för sändning"
 
 #: src/gui/dialogs/dlg_setup_wizard.cpp
 msgid ""
@@ -1014,7 +1015,7 @@ msgstr ""
 
 #: src/gui/dialogs/dlg_setup_wizard.cpp
 msgid "CAT Control via Hamlib"
-msgstr "CAT Control via Hamlib"
+msgstr "CAT-kontroll via Hamlib"
 
 #: src/gui/dialogs/dlg_setup_wizard.cpp
 msgid "Serial Device:"
@@ -1069,8 +1070,8 @@ msgid ""
 "Optionally report your station to FreeDV Reporter and PSK Reporter.\n"
 "A valid callsign and grid square are required."
 msgstr ""
-"Eventuellt rapportera din station till FreeDV Reporter och PSK Reporter.\n"
-"En giltig anropssignal och rutnätsruta krävs."
+"Rapportera valfritt din station till FreeDV Reporter och PSK Reporter.\n"
+"En giltig anropssignal och rutlokator krävs."
 
 #: src/gui/dialogs/dlg_setup_wizard.cpp
 msgid "Enable station reporting"
@@ -1078,7 +1079,7 @@ msgstr "Aktivera stationsrapportering"
 
 #: src/gui/dialogs/dlg_setup_wizard.cpp
 msgid "Grid Square:"
-msgstr "Grid Square:"
+msgstr "Rutlokator:"
 
 #: src/gui/dialogs/dlg_setup_wizard.cpp
 msgid "radio audio devices"
@@ -1114,7 +1115,7 @@ msgstr "anropssignal"
 
 #: src/gui/dialogs/dlg_setup_wizard.cpp
 msgid "grid square"
-msgstr "rutnät kvadrat"
+msgstr "rutlokator"
 
 #: src/gui/dialogs/dlg_setup_wizard.cpp
 msgid "reporting enabled"
@@ -1661,7 +1662,7 @@ msgstr ""
 
 #: src/main.cpp src/ongui.cpp
 msgid "Radio Freq. (kHz)"
-msgstr "Radio Frekv. (kHz)"
+msgstr "Radiofrekv. (kHz)"
 
 #: src/main.cpp src/ongui.cpp
 msgid "kHz"
@@ -1669,7 +1670,7 @@ msgstr "kHz"
 
 #: src/main.cpp src/ongui.cpp src/topFrame.cpp
 msgid "Radio Freq. (MHz)"
-msgstr "Radio Frekv. (MHz)"
+msgstr "Radiofrekv. (MHz)"
 
 #: src/main.cpp src/ongui.cpp
 msgid "MHz"
@@ -1687,7 +1688,7 @@ msgstr "Stänga av"
 #, c-format
 msgid "Toggle Voice Keyer using file %s. Right-click for additional options."
 msgstr ""
-"Växla Voice Keyer med filen %s. Högerklicka för ytterligare alternativ."
+"Växla röstnycklaren med filen %s. Högerklicka för fler alternativ."
 
 #. TRANSLATORS: %s is the name of the FreeDV mode (e.g. RADEV1, 700D).
 #: src/main.cpp src/topFrame.cpp
@@ -1753,7 +1754,7 @@ msgstr "FrqOff: %3.1f"
 #: src/main.cpp src/topFrame.cpp
 #, c-format
 msgid "Sync: %3.2f"
-msgstr "Synkronisera: %3.2f"
+msgstr "Synk: %3.2f"
 
 #: src/main.cpp src/topFrame.cpp
 #, c-format
@@ -1827,7 +1828,7 @@ msgid ""
 "Reporting requires a valid callsign and grid square in Tools->Settings. "
 "Reporting will be disabled."
 msgstr ""
-"Rapportering kräver en giltig anropssignal och rutnätsruta i "
+"Rapportering kräver en giltig anropssignal och rutlokator i "
 "Verktyg->Inställningar. Rapportering kommer att inaktiveras."
 
 #: src/main.cpp
@@ -1843,7 +1844,7 @@ msgstr "&Stoppa modemet"
 
 #: src/main.cpp src/topFrame.cpp
 msgid "&Start Modem"
-msgstr "&Starta modem"
+msgstr "&Starta modemet"
 
 #: src/main.cpp
 msgid "No Sound Cards configured, use Tools->Settings to configure"
@@ -2055,7 +2056,7 @@ msgstr "Aktivera autospara av TX atten för %s"
 #: src/ongui.cpp
 #, c-format
 msgid "Restore TX atten level for %s"
-msgstr "Återställ TX atten-nivå för %s"
+msgstr "Återställ TX-dämpning för %s"
 
 #: src/ongui.cpp
 msgid "Set tune output to minimum (-30 dB)"
@@ -2074,7 +2075,7 @@ msgstr "Aktivera autospara av tune atten för %s"
 #: src/ongui.cpp
 #, c-format
 msgid "Restore tune atten level for %s"
-msgstr "Återställ tune atten-nivå för %s"
+msgstr "Återställ avstämningsdämpning för %s"
 
 #: src/ongui.cpp
 msgid "TX Ending"
@@ -2086,11 +2087,11 @@ msgstr "&SÄNDNING"
 
 #: src/ongui.cpp
 msgid "Tune &Attenuation"
-msgstr "Tune & Dämpning"
+msgstr "Avstämnings&dämpning"
 
 #: src/ongui.cpp src/topFrame.cpp
 msgid "TX &Attenuation"
-msgstr "TX &Dämpning"
+msgstr "TX-&dämpning"
 
 #: src/ongui.cpp
 msgid "Switch to Di&gital"
@@ -2299,11 +2300,11 @@ msgstr "Konfigurerar ljudfiltrering"
 
 #: src/topFrame.cpp
 msgid "Filter &Audio..."
-msgstr "Filtrera &ljud..."
+msgstr "&Ljudfilter..."
 
 #: src/topFrame.cpp
 msgid "Pipes radio sound input from file"
-msgstr "Rör radioljud från fil"
+msgstr "Matar radioljud från fil"
 
 #: src/topFrame.cpp
 msgid "Start &Play File - From Radio..."
@@ -2391,7 +2392,7 @@ msgstr "Spela in"
 
 #: src/topFrame.cpp
 msgid "Records incoming over the air signals as well as anything transmitted."
-msgstr "Registrerar inkommande radiosignaler såväl som allt som sänds."
+msgstr "Spelar in inkommande radiosignaler och allt som sänds."
 
 #: src/topFrame.cpp
 msgid "Logging"
@@ -2463,7 +2464,7 @@ msgstr ""
 
 #: src/topFrame.cpp
 msgid "Speaker &Level"
-msgstr "Högtalare & Nivå"
+msgstr "Högtalar&nivå"
 
 #: src/topFrame.cpp
 msgid "Control"
@@ -2491,7 +2492,7 @@ msgstr ""
 
 #: src/topFrame.cpp src/voicekeyer.cpp
 msgid "Start Voice &Keyer"
-msgstr "Starta Voice &Keyer"
+msgstr "Starta röst&nycklare"
 
 #: src/topFrame.cpp
 msgid "Toggle Voice Keyer. Right-click for additional options."
@@ -2501,7 +2502,7 @@ msgstr "Växla röstnycklare. Högerklicka för fler alternativ."
 msgid ""
 "Switch between Receive and Transmit. Right-click for additional options."
 msgstr ""
-"Växla mellan ta emot och sända. Högerklicka för ytterligare alternativ."
+"Växla mellan mottagning och sändning. Högerklicka för fler alternativ."
 
 #: src/topFrame.h
 msgid "FreeDV "
@@ -2544,7 +2545,7 @@ msgstr "Det gick inte att öppna PTT-ingångsporten: %s"
 
 #: src/voicekeyer.cpp
 msgid "Stop Voice &Keyer"
-msgstr "Stoppa Voice &Keyer"
+msgstr "Stoppa röst&nycklare"
 
 #: src/voicekeyer.cpp
 msgid "Select Voice Keyer File"
