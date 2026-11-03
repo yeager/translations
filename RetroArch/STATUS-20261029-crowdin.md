@@ -15,3 +15,9 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Submission: Crowdin confirmed **“Successfully added 17 translations”** after the first 33 had saved; the editor then reported **“No unsaved translations”**.
 - Archive: `retroarch-sv-xemu-vita3k-batch-01-20261103.json`.
 - Checks: JSON structure, placeholder parity, `l10n-lint`, Hunspell review, and scoped Gitleaks. Hunspell's remaining flags are technical identifiers and product terms, including APU, DSP, DLAA, DLC, GiB, PKG, `.pup`, `param.sfo`, `vita3k`, `work.bin`, and `zRIF`.
+
+## Xemu/Vita3K batch 02 — 2026-11-03
+
+- Scope: 28 further context-reviewed Vita3K strings: package and archive errors, account controls, and Vulkan/GPU renderer options.
+- Submission: the final Crowdin save reported **“Successfully added 17 translations”** and the editor reported **“No unsaved translations”**. This completed the saved entries in the two prepared Xemu/Vita3K batches.
+- Archive: `retroarch-sv-xemu-vita3k-batch-02-20261103.json`.
