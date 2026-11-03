@@ -108,3 +108,9 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Restored the source parenthesis in the exact double-precision fused-multiply-add explanation and made the default-setting subject explicit.
 - Archive: `retroarch-sv-rpcs3-batch-05-20261103.json`.
 - Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, Hunspell review, and scoped Gitleaks.
+
+## RPCS3 review batch 06 — 2026-11-03
+
+- Replaced the English term `vertex` with the established Swedish graphics term `hörnpunkt` in the vertex-cache label and description.
+- Archive: `retroarch-sv-rpcs3-batch-06-20261103.json`.
+- Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, Hunspell review, and scoped Gitleaks.
