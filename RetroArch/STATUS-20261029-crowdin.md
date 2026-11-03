@@ -8,3 +8,10 @@
 - Local checks before submission: structural JSON validation, `svlang skrivregler`, `l10n-lint` on a source-to-target JSON projection, Hunspell review, scoped Gitleaks, and `git diff --check`.
 
 Hunspell's remaining flags were accepted technical/product terms or identifiers: `04X`, `ABXY-inmatningsmetod`, `Cursor`, `DLSS`, `Hover`, `Moves`, `Originalhandkontroll`, `RetroArch`, `Stylus`, `Xbox`, `power-profiles-daemon`, `stylus`, `stylusen`, and `tuned-ppd`.
+
+## Xemu/Vita3K batch 01 — 2026-11-03
+
+- Scope: 50 context-reviewed strings from the Xemu and Vita3K core settings and package-management flow.
+- Submission: Crowdin confirmed **“Successfully added 17 translations”** after the first 33 had saved; the editor then reported **“No unsaved translations”**.
+- Archive: `retroarch-sv-xemu-vita3k-batch-01-20261103.json`.
+- Checks: JSON structure, placeholder parity, `l10n-lint`, Hunspell review, and scoped Gitleaks. Hunspell's remaining flags are technical identifiers and product terms, including APU, DSP, DLAA, DLC, GiB, PKG, `.pup`, `param.sfo`, `vita3k`, `work.bin`, and `zRIF`.
