@@ -1,0 +1,177 @@
+[
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Simulerar en avvikelse i svartnivåns placering i signalen. NTSC-M, som används i Nordamerika, placerar svart 7,5 IRE över släckningsnivån; NTSC-J i Japan och PAL överallt annars placerar det på 0. En konsol och TV från samma marknad kompenserar för varandra och ser korrekta ut, så inställningen gör inget som standard. Den spelar bara roll när en skiva har flyttats mellan marknaderna, vilket är den bäst dokumenterade skillnaden mellan NTSC-J- och NTSC-M-hårdvara. ”Förhöjd” läser en nordamerikansk signal utan kompensation och höjer svart till ungefär 7,5 %, så att bilden ser urvattnad ut. ”Klippt” läser en japansk signal som om den hade svartnivåoffset, klipper allt under 7,5 % till svart och ökar kontrasten. Påverkar bara andra lägen för ”Analog videokabel” än RGB, som saknar svartnivåoffset, och har ingen effekt på PAL-skivor."
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Förskjuter dekoderns färgbärare med angivet antal grader, som på en felinställd eller drivande TV. Värdet är noll med direkt kabel, men effekten är verklig över RF, där modulatorn och kanalen orsakar den. Systemen beter sig mycket olika: med NTSC förskjuts hela bildens färgton och förblir förskjuten, medan felet med PAL hamnar motsatt på varannan rad och dekoderns fördröjningslinje medelvärdesbildar bort större delen av det, mot en liten förlust av färgmättnad. Påverkar bara andra lägen för ”Analog videokabel” än RGB."
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Simulerar kabeln mellan konsolen och TV:n, inklusive färgkodningen och TV:ns dekoder. ”Ingen simulering” stänger av kedjan helt och skickar bildbufferten direkt till bildskärmen (standard). ”RGB (SCART)” är den skarpaste utdata som PSX kan producera: multi-out-uttaget bär analog RGB, så inget moduleras och inga av kodningsartefakterna nedan kan uppstå. Det är dock fortfarande en analog ledning, så den begränsas i bandbredd av konsolens videoförstärkare och TV:ns ingångssteg i stället för att vara oändligt skarp. ”S-video” bandbegränsar färgen kraftigt men håller luminans och färg på separata ledningar, så fina detaljer förblir rena. ”Komposit” summerar dem på en ledning, som dekodern sedan måste separera igen, vilket kostar luminansdetaljer och lägger till färgutsmetning och regnbågsfransar i fina mönster. ”RF” modellerar en extern modulator – konsolen har ingen själv utan bara ett DC-uttag för att strömförsörja en – vilket begränsar luminansen ytterligare och lägger till det svävningsmönster som ljudbäraren skapar mot färgbäraren, starkast vid mättade färger. Fungerar vid alla interna upplösningar: de extra samplen skalas ned före signalgenereringen, så högre inställningar fungerar som supersampling till kabeln snarare än en bredare signal, och utdata behåller ändå den underbildpunktsdetalj som dekodern producerar. Stöds av Vulkan- och OpenGL-renderarna och ignoreras av programvarurenderaren. I OpenGL kräver filtret som tar bort ”hängande punkter” – det fina prickmönstret längs vågräta färgkanter – GL 4.3 eller GLES 3.1. På en äldre drivrutin körs simuleringen fortfarande, men ”Komposit” och ”RF” visar punkterna. Tillämpas direkt; ingen omstart krävs."
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Ingen simulering"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "RGB (SCART)"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "S-video"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Komposit"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "RF"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Referensgamma för bildskärm"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Väljer det bildskärmsgamma som konsolens utdata antas visas med. Det används på två ställen: för att linjärisera bilden före omkodning till HDR och för att avgöra vad ”genomsnitt” betyder när supersamplade eller multisamplade sampel kombineras. De uppskattar hur mycket ljus en bildpunkt avger och medelvärdesbildas därför som ljus, inte som lagrade värden. Detta avgör om HDR får samma ljusstyrka på skärmen som standardvägen; noggrannheten ändras inte, bara överensstämmelsen mellan dem. ”BT.1886 (Gamma 2.4)” är standard och motsvarar gränssnittets egen SDR-till-HDR-konvertering samt en TV-liknande referens. ”Gamma 2.2” passar en PC-bildskärm som följer sRGB:s nominella gamma. ”sRGB (styckevis)” motsvarar hur Windows sammanfogar standardinnehåll på ett HDR-skrivbord och lyfter skuggdetaljer. Om HDR ser mörkare eller mer kontrastrikt ut än 24-bitarsläget på samma bildskärm kan du prova ”Gamma 2.2” eller ”sRGB (styckevis)”. Påverkar inte programvarurenderaren."
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "BT.1886 (Gamma 2.4)"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Gamma 2.2"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "sRGB (styckevis)"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "HDR-additiv överljusstyrka"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Styr om additiva och subtraktiva blandningskällor får överskrida referensvitt i HDR-vägen för hårdvarurenderaren när ”Färgformat” är satt till ”30-bitars färg (HDR)”. I OpenGL-renderaren påverkar detta bara additiva källor. ”Av” begränsar varje källa till referensvitt före blandning (som riktig hårdvara), så högdagrar stiger bara över vitt där genomskinliga lager staplas – korrekt och kontrollerat. ”På” låter ljusa modulerade källor driva additiva/subtraktiva effekter ungefär dubbelt så hårt för kraftigare glöd i ett enskilt lager (lasrar, blixtar, lågor), på bekostnad av noggrannheten. Ogenomskinliga ytor begränsas oavsett. Påverkar inte programvarurenderaren eller 24-bitarsläget."
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Av (källor med referensvitt)"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "På (förstärkta källor)"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "HDR – äkta blandning i flera pass"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Väljer hur subtraktiv halvgenomskinlighet blandas i Vulkan HDR-vägen när ”Färgformat” är satt till ”30-bitars färg (HDR)”. Båda inställningarna begränsar resultatet till minst noll precis som riktig hårdvara. ”Av” använder blandning med fast funktion följt av en enda billig begränsningspassering per batch – hårdvarukorrekt till nästan ingen kostnad. ”På” dirigerar i stället varje subtraktiv primitiv genom samma programmerbara blandningsväg per primitiv som används för masktestade ritningar. Det låter dessutom ”HDR-additiv överljusstyrka” förstärka subtraktiva källor (djupare snitt i ett lager), men med en synkroniseringskostnad per primitiv som kan bli stor i scener med mycket subtraktion, som slagskuggor och skärmtoningar. Påverkar inte OpenGL-/programvarurenderarna eller 24-bitarsläget."
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "32 bpp"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "SABR"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "xBR"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "JINC2"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "”Vävning” visar båda fälten i samma bildruta för en stillbild med full hög upplösning, medan ”Bob” offrar upplösningsskärpa för rörelseskärpa. ”Bob (förskjutning)” är Bob där det aktuella fältet fördubblas till hela ytans höjd med en rads förskjutning mellan fälten. Det bevarar libretro-utdataupplösningen samtidigt som Bobs jämna rörelse behålls. ”FastMAD (rörelseadaptiv)” väver stillastående bildpunkter och vertikalinterpolerar rörliga bildpunkter per bildpunkt, med full utdatahöjd utan vare sig vävningens kamartefakter i rörelse eller Bobs halverade upplösning. ”Av” gör att programvarurenderaren matchar hårdvarurenderarnas (Vulkan/OpenGL) beteende genom att rastrera alla VRAM-rader i varje bildruta och skjuta upp skärmavsökningen till bildrutans slut, vilket eliminerar kamartefakter i rörelse i sammanflätade spel. Obs! Program som DMA:ar till VRAM under skärmavsökningen (vissa demon som använder PAL-bildbuffertomslag med fler än 512 rader), eller som uppdaterar rörliga spritefigurer via CPU-till-VRAM-bildöverföringar bundna till det visade fältet (till exempel Pro Pinball), kan visa inaktuella rader eller spökbilder av spritefigurer med ”Av”. Använd då ”Vävning”, ”Bob”, ”Bob (förskjutning)” eller ”FastMAD”."
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Vävning"
+    ]
+  }
+]
