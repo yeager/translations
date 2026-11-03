@@ -59,3 +59,10 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 
 - All 153 strings in `cemu-libretro/cemu-libretro.json` were reviewed page by page in Crowdin.
 - The final page contains only the approved `50%`, `100%`, and `Normal` values; no further change was warranted.
+
+## Xenia review batch 01 — 2026-11-03
+
+- Corrected the D3D9 half-pixel wording so it tells the user that the mode provides correct rendering for most games.
+- Archive: `retroarch-sv-xenia-batch-01-20261103.json`.
+- Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, and scoped Gitleaks.
+- Submission: saved in Crowdin and verified as **“No unsaved translations”**.
