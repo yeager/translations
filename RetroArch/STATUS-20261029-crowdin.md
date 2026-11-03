@@ -102,3 +102,9 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Submitted the database-override and audio-output descriptions in `rpcs3-libretro/rpcs3-libretro.json` through Crowdin.
 - Restored the source parenthesis and clarified that the database contains game-specific corrections. The audio description now states accurately that the PS3 reports its available speakers to games and retains the game's own stereo/surround selection behaviour.
 - Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, Hunspell review, and scoped Gitleaks.
+
+## RPCS3 review batch 05 — 2026-11-03
+
+- Restored the source parenthesis in the exact double-precision fused-multiply-add explanation and made the default-setting subject explicit.
+- Archive: `retroarch-sv-rpcs3-batch-05-20261103.json`.
+- Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, Hunspell review, and scoped Gitleaks.
