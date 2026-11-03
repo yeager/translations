@@ -7,12 +7,7 @@
 
 ## Färdigt men ännu inte inskickat
 
-- **FreeDV 3.0.0-dev1:** komplett PO-katalog med 571 av 571 översatta
-  meddelanden. Den är kontrollerad och avsedd för mejl till Translation
-  Project: [filen](FreeDV/freedv-3.0.0-dev1.sv.po).
-- **Proxmox:** komplett, mejlklar PO-katalog:
-  [filen](Proxmox/proxmox-sv-20261101-mail-ready.po). Något mejlinskick är
-  inte dokumenterat i arkivet.
+Inga kända färdiga filer väntar på manuellt inskick just nu.
 
 ## Förberett men spärrat hos tjänsten
 
@@ -39,12 +34,19 @@
 - **Virtaal:** [PR #4697](https://github.com/translate/virtaal/pull/4697).
 - **sK1:** [PR #348](https://github.com/sk1-project/sk1-wx/pull/348).
 - **Rust Coreutils:** [PR #96](https://github.com/uutils/coreutils-l10n/pull/96).
+- **Termux:** komplett svensk Android-katalog, inskickad som
+  [PR #5425](https://github.com/termux/termux-app/pull/5425).
+- **FreeDV 3.0.0-dev1:** komplett PO-katalog med 571 av 571 översatta
+  meddelanden, inskickad till Translation Project.
+- **Proxmox:** komplett PO-katalog, inskickad uppströms.
 - **Ymir:** den tidigare i18n-PR:n stängdes utan merge; projektet vill först
   besluta om en gemensam i18n-lösning. Arkivet är underlag för en ny ansats,
   inte en aktiv inskickskö.
-- **Hermes Agent:** desktopkatalogen finns i PR #101116. De separata
-  statiska, TUI- och webbkatalogerna är avsiktligt lokala och kräver fortsatt
-  struktur- och radgranskning före inskick.
+- **Hermes Agent:** den aktuella desktopkatalogen finns i
+  [PR #101116](https://github.com/NousResearch/hermes-agent/pull/101116),
+  rebasad och uppdaterad 2026-11-03. De separata statiska, TUI- och
+  webbkatalogerna är avsiktligt lokala och kräver fortsatt struktur- och
+  radgranskning före inskick.
 
 Arbete som den 3 november har importerats eller skickats via respektive API
 (bland annat RetroArch, qBittorrent, Widelands, VLC, ScummVM, pgRouting,
