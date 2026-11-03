@@ -84,3 +84,9 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Submitted two context-checked strings in `rpcs3-libretro/rpcs3-libretro.json` through Crowdin.
 - Restored source punctuation around the RPCS3 default-setting explanation and the PS3 BD-ROM speed (`9 MB/s`) without changing their emulator semantics.
 - Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, Hunspell review, and scoped Gitleaks.
+
+## RPCS3 review batch 02 — 2026-11-03
+
+- Submitted a context-corrected ReBAR explanation in `rpcs3-libretro/rpcs3-libretro.json` through Crowdin.
+- The parenthetical now has an explicit subject: the setting is enabled by default in RPCS3 as well.
+- Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, Hunspell review, and scoped Gitleaks.
