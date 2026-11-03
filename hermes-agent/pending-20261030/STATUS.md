@@ -30,6 +30,23 @@ Gitleaks. `defineLocale` ger engelska reservtexter för framtida nycklar som
 ännu inte har fått en svensk text; PR:n beskriver därför inte katalogen som
 slutgiltigt komplett.
 
+## Filer-sidan, uppdaterad 2026-11-03
+
+Den nya webbsidan för filer hade användarvisade engelska strängar direkt i
+komponentkoden. De är nu flyttade till den typade engelska katalogen och har
+svenska motsvarigheter för knappar, status, fel, bekräftelser, tabellrubriker
+och tillgänglighetsetiketter. Ändringen är pushad till samma
+[PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618) i
+commit `7df54df99d`.
+
+Den exakta svenska katalogen efter denna uppdatering är
+`../web.sv-20261103-files-page.ts` med SHA-256
+`9ba4d3744686b2cbb786fdd9e765a70fdfe1e0311f7e04c05d4db1ac755c8277`.
+Webbens typkontroll och hela testsviten (71 testfiler, 477 tester) passerade,
+liksom ESLint, skrivregler och Gitleaks. l10n-lint kan ännu inte tolka
+TypeScript-kataloger och rapporterar därför ett syntaxfel på första raden; det
+är ett verktygsformatsbegränsning, inte en katalogvarning.
+
 ## Typkontroll 2026-10-30
 
 Den första TUI-typkontrollen hittade en gammal import av `Translations`; den
