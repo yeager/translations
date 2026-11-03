@@ -122,3 +122,8 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Archive: `retroarch-sv-rpcs3-batch-07-20261103.json`.
 - Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, terminology/TM lookup, Hunspell review, and scoped Gitleaks.
 - API evidence: Crowdin accepted translation IDs `2984315`, `2984317`, and `2984319`; their selection or approval remains subject to the project's Crowdin workflow.
+
+## RPCS3 Crowdin approval status — 2026-11-03
+
+- The API token can submit Swedish translation suggestions but has no proofreader/reviewer approval permission for this project.
+- Crowdin returned HTTP `403 Forbidden` when adding an approval for `Inaktivera hörnpunktscache` (translation ID `2984303`). The older active alternative therefore remains until a project reviewer selects or approves the Swedish terminology.
