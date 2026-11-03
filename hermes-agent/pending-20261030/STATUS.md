@@ -196,6 +196,22 @@ Gitleaks passerade. ESLint har fortfarande en befintlig varning i
 Skills-sidans oförändrade förhandsgranskningskod om synkron state-uppdatering
 i en effekt, men inga fel.
 
+## Webhooks, uppdaterad 2026-11-03
+
+Webhooks-sidans hela statiska gränssnitt är nu katalogiserat och översatt:
+skapande och borttagning av prenumerationer, formulär, status, fel,
+omstartsinformation, kopieringsknappar och tillgänglighetsetiketter.
+Webhooknamn, händelseidentifierare, URL:er, hemligheter och fel från servern
+lämnas oförändrade. Ändringen är pushad till
+[PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618) i
+commit `f28ba6c580`.
+
+Den exakta svenska katalogen efter denna uppdatering är
+`../web.sv-20261103-webhooks.ts` med SHA-256
+`1071ac894aa4e7ec08c04fff838d42c7d6f37fc9ce5b8b70d6f4ad2c84a2731f`.
+Typkontroll, ESLint, hela testsviten (71 testfiler, 477 tester), skrivregler,
+l10n-lint på en strukturerad export och Gitleaks passerade.
+
 ## Skills: katalog och säkerhetsgranskning, uppdaterad 2026-11-03
 
 Den externa färdighetskatalogens statiska gränssnitt är nu katalogiserat och
