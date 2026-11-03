@@ -78,6 +78,23 @@ Den exakta svenska katalogen efter denna uppdatering är
 Webbens typkontroll och hela testsviten (71 testfiler, 477 tester) passerade,
 liksom ESLint, skrivregler och Gitleaks.
 
+## Modellöversikten, uppdaterad 2026-11-03
+
+Den första sammanhållna delen av Models-sidan är nu katalogiserad: token-
+och kapacitetsetiketter, modellkortens status, menyn för att tilldela modeller
+och varningen för särskilt dyra modeller. Produktnamn, modellidentifierare och
+backendgenererade fel lämnas oförändrade. Ändringen är pushad till
+[PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618) i
+commit `15d31ffd54`.
+
+Den exakta svenska katalogen efter denna uppdatering är
+`../web.sv-20261103-models-overview.ts` med SHA-256
+`bf10dd2f96f08328bc9d577113cea70b6d5d20d1f3d6aac50da48e3961b26ea1`.
+Webbens typkontroll och hela testsviten (71 testfiler, 477 tester) passerade,
+liksom skrivregler och Gitleaks. ESLint rapporterar fortfarande en befintlig
+varning för den oförändrade `load()`-anropet i Models-sidans effekt, men inga
+fel.
+
 ## Typkontroll 2026-10-30
 
 Den första TUI-typkontrollen hittade en gammal import av `Translations`; den
