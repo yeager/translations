@@ -13,3 +13,9 @@ De två lokalt granskade batcherna har skickats till Transifex för `Main app (m
 - Elva system- och nätverkssträngar skickades därefter, bland annat portvidarebefordran, sökvägar, filer och mappar.
 - Antalet oöversatta strängar minskade från 209 till 198.
 - Befintliga 100-procentiga översättningsminnen för qBittorrent v5.2 användes när de fanns; bland annat `Ingen sådan fil` och `Ingen sådan mapp`.
+
+## Batch 4
+
+- Nio strängar om punktfiler, databasfel och öppning av mappar skickades efter granskning.
+- Antalet oöversatta strängar minskade från 198 till 189.
+- Platshållarna i databasfelen bevarades i rätt ordning.
