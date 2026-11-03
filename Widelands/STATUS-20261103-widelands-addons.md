@@ -35,3 +35,8 @@ Tre mindre kartkomponenter har också kompletterats med sex granskade
 översättningar: `Great-Lakes-wad`, `Escher-Goose-less-Fish-wad` och
 `Australia-v2-1-wad`. Underlaget är
 `widelands-addons-small-maps-sv-20261103.json`.
+
+Ytterligare fem kartkomponenter har kompletterats med 15 granskade
+översättningar: `-C-Atlantis-wad`, `only-a-few-ponds-in-the-desert-wad`,
+`Long--long-way-v3-wad`, `strange-wad` och `HexagonHeights-8-wad`.
+Underlaget är `widelands-addons-map-pack-sv-20261103.json`.
