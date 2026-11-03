@@ -27,9 +27,6 @@
   väntar på att Fedora Weblate låses upp.
 - **Dolphin:** sju rättningar kan inte ersätta redan granskade
   Transifex-översättningar med nuvarande behörighet.
-- **Cacti Core:** den senast dokumenterade Weblate-statusen var låst. Detta
-  behöver kontrolleras på nytt innan någon äldre kandidat laddas upp, eftersom
-  senare manuella Cacti-uppladdningar inte är fullt dokumenterade i arkivet.
 
 ## Redan inskickat, men inte nödvändigtvis godkänt eller sammanslaget
 
@@ -45,8 +42,11 @@
 
 Arbete som den 3 november har importerats eller skickats via respektive API
 (bland annat RetroArch, qBittorrent, Widelands, VLC, ScummVM, pgRouting,
-GitLab och de berörda Kodi-komponenterna) ska inte räknas som väntande endast
-för att äldre detaljloggar nämner en tidigare lokal kandidat.
+GitLab, Cacti Core och de berörda Kodi-komponenterna) ska inte räknas som
+väntande endast för att äldre detaljloggar nämner en tidigare lokal kandidat.
+En autentiserad kontroll av Cacti Core samma dag visar 5 196 av 5 196
+översatta strängar, 0 ofärdiga och 0 fallerande kontroller; något äldre
+Cacti-delta ska därför inte laddas upp på nytt.
 
 ## Historisk detaljlogg
 
