@@ -1,0 +1,79 @@
+[
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Ersätt PSX:s inbyggda affina texturmappning med perspektivkorrekt texturmappning. Eliminerar positionsberoende förvrängning och skevning av texturer, vilket ger korrekt justerade texturer. Alternativet tillämpas endast när PGXP-driftläge är aktiverat. Stöds av hårdvarurenderarna och programvarurenderaren."
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "SPU-optimering av tysta röster"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Hoppa över bearbetning per sampel för röster vars envelop helt har släppt. Ljudutdata är identiska; optimeringen inaktiveras automatiskt medan SPU IRQ används. Sparar ungefär 5–10 % av bildrutetiden. Inaktivera för helt korrekt tillstånd för SPU-register."
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Dynarec-cykler per instruktion"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Anger antalet cykler som dynarec räknar per CPU-instruktion. ”2” är snabbare, men den emulerade processorn verkar gå med halva hastigheten för spel som synkroniserar mot den. Välj ”1” för spel vars CD-strömning stannar eller hänger sig med dynarec (till exempel Parasite Eve 2). Inställningen ”1” räknar minnesåtkomster som två cykler och allt annat som en, nära den riktiga processorn."
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Dynarec-optimering för SP/GP-träffar i RAM"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Aktiverad genererar snabbare kod men kan orsaka en krasch genom att anta att SP- och GP-register alltid pekar på RAM. Inaktiverad är mer kompatibel"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Kompatibilitetsinställningar"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Tillämpa kompatibilitetsinställningar per spel och inställning. Inaktivera för att låta användarvalda inställningar åsidosätta dem."
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Aktiverad (rekommenderas)"
+    ]
+  },
+  {
+    "id": null,
+    "state": 20,
+    "target": [
+      "Inaktiverad (tillåt åsidosättningar)"
+    ]
+  }
+]
