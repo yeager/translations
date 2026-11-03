@@ -66,3 +66,10 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Archive: `retroarch-sv-xenia-batch-01-20261103.json`.
 - Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, and scoped Gitleaks.
 - Submission: saved in Crowdin and verified as **“No unsaved translations”**.
+
+## Xenia review batch 02 — 2026-11-03
+
+- Replaced the English graphics term `vertex` with the established Swedish term `hörnpunkt` in the invalid-fetch-constants warning.
+- Archive: `retroarch-sv-xenia-batch-02-20261103.json`.
+- Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, and scoped Gitleaks.
+- Submission: saved in Crowdin and verified as **“No unsaved translations”**.
