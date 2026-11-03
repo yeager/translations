@@ -111,6 +111,22 @@ Webbens typkontroll och hela testsviten (71 testfiler, 477 tester) passerade,
 liksom skrivregler och Gitleaks. ESLint har fortfarande en befintlig varning
 för den oförändrade `load()`-anropet i Models-sidans effekt, men inga fel.
 
+## Modellstatistik, uppdaterad 2026-11-03
+
+Den synliga förklaringen när token- och kostnadsstatistik är avstängd är nu
+också flyttad till den typade webbkatalogen och översatt. Den behåller
+konfigurationsnyckeln `dashboard.show_token_analytics` oförändrad, eftersom
+den är en teknisk nyckel som användaren kan behöva skriva exakt. Ändringen är
+pushad till [PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618)
+i commit `d481810f7b`.
+
+Den exakta svenska katalogen efter denna uppdatering är
+`../web.sv-20261103-models-analytics.ts` med SHA-256
+`c688ecb41943663cea5a82bf6792e826dc4ff2f51e1c167bf972c4f0d328854b`.
+Webbens typkontroll och hela testsviten (71 testfiler, 477 tester) passerade,
+liksom skrivregler och Gitleaks. ESLint har fortfarande en befintlig varning
+för den oförändrade `load()`-anropet i Models-sidans effekt, men inga fel.
+
 ## Typkontroll 2026-10-30
 
 Den första TUI-typkontrollen hittade en gammal import av `Translations`; den
