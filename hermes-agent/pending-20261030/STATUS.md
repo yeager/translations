@@ -63,6 +63,21 @@ Den exakta svenska katalogen efter denna uppdatering är
 Webbens typkontroll och hela testsviten (71 testfiler, 477 tester) passerade,
 liksom ESLint, skrivregler och Gitleaks.
 
+## Parkopplingssidan, uppdaterad 2026-11-03
+
+Parkopplingssidans statiska webbtexter är flyttade till den typade
+webbkatalogen och har svenska översättningar för begäranden, godkännande,
+återkallning, fel, bekräftelser, tidsangivelse och tillgänglighetsetiketter.
+Användaridentiteter och plattformsnamn lämnas oförändrade. Ändringen är
+pushad till [PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618)
+i commit `2265370c22`.
+
+Den exakta svenska katalogen efter denna uppdatering är
+`../web.sv-20261103-pairing-page.ts` med SHA-256
+`09f671f26f53e46712aef0d84df983285b9305ac63b3640b37a577819318d6cc`.
+Webbens typkontroll och hela testsviten (71 testfiler, 477 tester) passerade,
+liksom ESLint, skrivregler och Gitleaks.
+
 ## Typkontroll 2026-10-30
 
 Den första TUI-typkontrollen hittade en gammal import av `Translations`; den
