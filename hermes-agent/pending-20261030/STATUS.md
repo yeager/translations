@@ -47,6 +47,22 @@ liksom ESLint, skrivregler och Gitleaks. l10n-lint kan ännu inte tolka
 TypeScript-kataloger och rapporterar därför ett syntaxfel på första raden; det
 är ett verktygsformatsbegränsning, inte en katalogvarning.
 
+## Sessions-sidan, uppdaterad 2026-11-03
+
+Sessionssidans kvarvarande användarvisade engelska text är nu flyttad till en
+typad engelsk katalog med svenska motsvarigheter: tillgänglighetsetiketter,
+namnbyte och export, källfilter, status och fel, rensning samt import och
+översikt. Generiska källnamn för API-server, verktyg och Vulcan-delegering
+följer samma katalog; produkt- och protokollnamn är avsiktligt oförändrade.
+Ändringen är pushad till [PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618)
+i commit `27bb85b11d`.
+
+Den exakta svenska katalogen efter denna uppdatering är
+`../web.sv-20261103-sessions-page.ts` med SHA-256
+`a35334c4f3e155576cf05c8af80d86afc89fa8c392d20d502e4beb6e9edff0df`.
+Webbens typkontroll och hela testsviten (71 testfiler, 477 tester) passerade,
+liksom ESLint, skrivregler och Gitleaks.
+
 ## Typkontroll 2026-10-30
 
 Den första TUI-typkontrollen hittade en gammal import av `Translations`; den
