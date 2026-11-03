@@ -40,3 +40,8 @@ Ytterligare fem kartkomponenter har kompletterats med 15 granskade
 översättningar: `-C-Atlantis-wad`, `only-a-few-ponds-in-the-desert-wad`,
 `Long--long-way-v3-wad`, `strange-wad` och `HexagonHeights-8-wad`.
 Underlaget är `widelands-addons-map-pack-sv-20261103.json`.
+
+Första batchen för `win-cond-military-influence-wad` omfattar 24
+granskade översättningar för poäng, områden, soldater och platshållare.
+Alla formatplatshållare jämfördes före inskick. Underlaget är
+`widelands-addons-military-influence-01-sv-20261103.json`.
