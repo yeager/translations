@@ -21,3 +21,8 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Scope: 28 further context-reviewed Vita3K strings: package and archive errors, account controls, and Vulkan/GPU renderer options.
 - Submission: the final Crowdin save reported **“Successfully added 17 translations”** and the editor reported **“No unsaved translations”**. This completed the saved entries in the two prepared Xemu/Vita3K batches.
 - Archive: `retroarch-sv-xemu-vita3k-batch-02-20261103.json`.
+
+## Vita3K format QA — 2026-11-03
+
+- Corrected the two batch-01 labels whose English source deliberately lacks a terminal full stop.
+- Verification: Crowdin now shows the corrected translations and **“No unsaved translations”**.
