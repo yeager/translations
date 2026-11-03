@@ -19,3 +19,8 @@ Underlaget finns i
 delkomponenter hanteras i små, granskade batchar. Transifex statistikfilter
 kan vara fördröjt efter API-skrivningar; de enskilda översättningarna har
 kontrollerats direkt efter inskick.
+
+Delkomponenten `amazons-txa-wad` är också komplett efter 17 granskade
+insändningar. Den täcker byggnader, produktion, soldatförbättringar och en
+berättelsetext. Underlaget finns i
+`widelands-addons-amazons-txa-sv-20261103.json`.
