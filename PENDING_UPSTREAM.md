@@ -1,5 +1,55 @@
 # Väntande upstream-importer
 
+> **Aktuell sammanfattning, 2026-11-03.** Läs detta avsnitt före den
+> historiska detaljloggen nedan. En post i detaljloggen beskriver det läge som
+> gällde vid datumet i posten och är inte i sig bevis för att samma fil ännu
+> väntar på uppladdning.
+
+## Färdigt men ännu inte inskickat
+
+- **FreeDV 3.0.0-dev1:** komplett PO-katalog med 571 av 571 översatta
+  meddelanden. Den är kontrollerad och avsedd för mejl till Translation
+  Project: [filen](FreeDV/freedv-3.0.0-dev1.sv.po).
+- **Proxmox:** komplett, mejlklar PO-katalog:
+  [filen](Proxmox/proxmox-sv-20261101-mail-ready.po). Något mejlinskick är
+  inte dokumenterat i arkivet.
+
+## Förberett men spärrat hos tjänsten
+
+- **Open Shaders:** lokala importkandidater finns, men Hosted Weblate är låst
+  på grund av ett sammanslagningsfel och den sparade API-behörigheten avvisas.
+- **Kodi:** `game-libretro-blastem`, `game-libretro-gearcoleco`,
+  `game-libretro-gearboy` och `game-libretro-quasi88` är låsta i Kodi
+  Weblate. Android Update-scriptet har också en lokal kandidat men är låst.
+- **PyPA Warehouse:** komponenten är låst tills Weblate kan slå samman
+  arkivet.
+- **MATE Control Center, dess hjälp och Terminal:** validerade kandidater
+  väntar på att Fedora Weblate låses upp.
+- **Dolphin:** sju rättningar kan inte ersätta redan granskade
+  Transifex-översättningar med nuvarande behörighet.
+- **Cacti Core:** den senast dokumenterade Weblate-statusen var låst. Detta
+  behöver kontrolleras på nytt innan någon äldre kandidat laddas upp, eftersom
+  senare manuella Cacti-uppladdningar inte är fullt dokumenterade i arkivet.
+
+## Redan inskickat, men inte nödvändigtvis godkänt eller sammanslaget
+
+- **Virtaal:** [PR #4697](https://github.com/translate/virtaal/pull/4697).
+- **sK1:** [PR #348](https://github.com/sk1-project/sk1-wx/pull/348).
+- **Rust Coreutils:** [PR #96](https://github.com/uutils/coreutils-l10n/pull/96).
+- **Ymir:** den tidigare i18n-PR:n stängdes utan merge; projektet vill först
+  besluta om en gemensam i18n-lösning. Arkivet är underlag för en ny ansats,
+  inte en aktiv inskickskö.
+- **Hermes Agent:** desktopkatalogen finns i PR #101116. De separata
+  statiska, TUI- och webbkatalogerna är avsiktligt lokala och kräver fortsatt
+  struktur- och radgranskning före inskick.
+
+Arbete som den 3 november har importerats eller skickats via respektive API
+(bland annat RetroArch, qBittorrent, Widelands, VLC, ScummVM, pgRouting,
+GitLab och de berörda Kodi-komponenterna) ska inte räknas som väntande endast
+för att äldre detaljloggar nämner en tidigare lokal kandidat.
+
+## Historisk detaljlogg
+
 Följande arbete är ännu inte fullt verifierat eller inskickat:
 
 - **Bitwarden:** Web (263), Browser (10) och Desktop (46) jämfördes på nytt
