@@ -24,3 +24,6 @@ Delkomponenten `amazons-txa-wad` är också komplett efter 17 granskade
 insändningar. Den täcker byggnader, produktion, soldatförbättringar och en
 berättelsetext. Underlaget finns i
 `widelands-addons-amazons-txa-sv-20261103.json`.
+
+Delkomponenten `Massada-wad` är också komplett efter fyra granskade
+insändningar, arkiverade i `widelands-addons-massada-sv-20261103.json`.
