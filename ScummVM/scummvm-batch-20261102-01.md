@@ -19,6 +19,20 @@
 - Kontroll: msgfmt (endast standardvarningar i Weblate-huvudet), l10n-lint,
   svlang och Gitleaks passerar.
 
+## Upstream-inskick och återläsning (2026-11-03)
+
+- Samtliga sex granskningssatser importerades med Weblate API, i separata
+  deluppladdningar. Tre efterföljande hotspot-strängar som inte ingick i
+  tidigare deltafiler översattes och sparades via API.
+- Upstream-resultat: API-återläsning bekräftar `0` enheter i
+  `state:<translated` för `scummvm/scummvm/sv`.
+- Slutexport: `scummvm-sv-reviewed-20261103.po`.
+- SHA-256: `52f0ec97baeb1b98aa98cd9988f0f87261754a8bfd26aa7d5c03543013859acd`.
+- Slutexportens kontroll: Gitleaks passerar. Den innehåller fem äldre
+  `c-format`-flaggningsfel och 22 befintliga svlang-varningar (procentformat
+  och `wwwroot`) utanför de sex deltasatserna; de validerade importfilerna
+  passerade var för sig innan uppladdning.
+
 ## Sats 3
 
 - Omfattning: 20 strängar för tillgänglighet, Macintosh- och ljudalternativ
