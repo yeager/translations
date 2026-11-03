@@ -212,6 +212,22 @@ Den exakta svenska katalogen efter denna uppdatering är
 Typkontroll, ESLint, hela testsviten (71 testfiler, 477 tester), skrivregler,
 l10n-lint på en strukturerad export och Gitleaks passerade.
 
+## Delade kanalbotar, uppdaterad 2026-11-03
+
+Panelen för att länka ett konto till en delad kanalbot är nu katalogiserad
+och översatt: länkning, QR-kod, vänteläge, fel, kontoborttagning och länkar
+till Nous Portal. Kontonamn, kommandon, plattformar och serversvar förblir
+oförändrade. Ändringen är pushad till
+[PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618) i
+commit `716598d620`.
+
+Den exakta svenska katalogen efter uppdateringen är
+`../web.sv-20261103-relay-linking.ts` med SHA-256
+`61fbb209c1176ec7901d37ddadd5dace2aa801019490d6385e714c098cc69f88`.
+Typkontroll, hela testsviten (71 testfiler, 477 tester), skrivregler och
+Gitleaks passerade. ESLint har en befintlig varning i den oförändrade
+inläsningseffekten om synkron state-uppdatering, men inga fel.
+
 ## Skills: katalog och säkerhetsgranskning, uppdaterad 2026-11-03
 
 Den externa färdighetskatalogens statiska gränssnitt är nu katalogiserat och
