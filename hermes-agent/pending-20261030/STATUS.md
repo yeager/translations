@@ -127,6 +127,23 @@ Webbens typkontroll och hela testsviten (71 testfiler, 477 tester) passerade,
 liksom skrivregler och Gitleaks. ESLint har fortfarande en befintlig varning
 för den oförändrade `load()`-anropet i Models-sidans effekt, men inga fel.
 
+## Models-sidan, färdig statisk UI-del 2026-11-03
+
+En avslutande radgranskning hittade engelska reservetiketter för tomma
+leverantörs- och modellfält i Mixture of Agents-dialogen. De är nu
+katalogiserade och översatta, så den statiska Models-sidan är täckt av den
+utökade webbkatalogen. Dynamiska modell-, leverantörs- och backendvärden
+översätts inte i klienten. Ändringen är pushad till
+[PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618) i
+commit `c86b61cb5b`.
+
+Den exakta svenska katalogen efter denna uppdatering är
+`../web.sv-20261103-models-complete.ts` med SHA-256
+`a8ad90929d92f25deb2f0f58636bb2dcc8eb7abeb1d1d668620b92a373c5de20`.
+Typkontroll, skrivregler och Gitleaks passerade. ESLint har fortfarande en
+befintlig varning för det oförändrade `load()`-anropet i Models-sidans effekt,
+men inga fel.
+
 ## Typkontroll 2026-10-30
 
 Den första TUI-typkontrollen hittade en gammal import av `Translations`; den
