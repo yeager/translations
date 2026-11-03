@@ -177,6 +177,25 @@ l10n-lint och Gitleaks passerade. l10n-lint kördes på en strukturerad
 export av de nya MCP-texterna eftersom verktyget ännu inte tolkar
 TypeScript-kataloger direkt.
 
+## Skills: lokala reglage och inlärning, uppdaterad 2026-11-03
+
+Skills-sidans lokala reglage och dialog för att skapa en färdighet från
+underlag är nu katalogiserade och översatta: navigering till katalogen,
+skapande, redigering, konfigurering, sparbekräftelse och samtliga etiketter
+och hjälptexter i inlärningsdialogen. Externa katalogresultat, dynamiska
+färdighetsbeskrivningar och säkerhetsskannerns serverdata är avsiktligt
+lämnade till nästa delgranskning. Ändringen är pushad till
+[PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618) i
+commit `c3f4d1f432`.
+
+Den exakta svenska katalogen efter denna uppdatering är
+`../web.sv-20261103-skills-controls.ts` med SHA-256
+`f944ed97d24f362a45bff0ece35dc077fd761d537aaf8b9f672aac312ad1d5ac`.
+Typkontroll, hela testsviten (71 testfiler, 477 tester), skrivregler och
+Gitleaks passerade. ESLint har fortfarande en befintlig varning i
+Skills-sidans oförändrade förhandsgranskningskod om synkron state-uppdatering
+i en effekt, men inga fel.
+
 ## Typkontroll 2026-10-30
 
 Den första TUI-typkontrollen hittade en gammal import av `Translations`; den
