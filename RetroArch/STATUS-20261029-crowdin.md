@@ -90,3 +90,9 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Submitted a context-corrected ReBAR explanation in `rpcs3-libretro/rpcs3-libretro.json` through Crowdin.
 - The parenthetical now has an explicit subject: the setting is enabled by default in RPCS3 as well.
 - Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, Hunspell review, and scoped Gitleaks.
+
+## RPCS3 review batch 03 — 2026-11-03
+
+- Submitted three context-checked strings in `rpcs3-libretro/rpcs3-libretro.json` through Crowdin.
+- Restored the Windows configuration-path parenthesis, split an ambiguous debugging warning into two complete Swedish sentences, and replaced the literal translation of a busy loop with the technical Swedish term `aktiv vänteloop`.
+- Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, Hunspell review, and scoped Gitleaks.
