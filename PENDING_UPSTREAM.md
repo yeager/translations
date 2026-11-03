@@ -16,8 +16,12 @@
 
 ## Förberett men spärrat hos tjänsten
 
-- **Open Shaders:** lokala importkandidater finns, men Hosted Weblate är låst
-  på grund av ett sammanslagningsfel och den sparade API-behörigheten avvisas.
+- **Open Shaders:** lokala importkandidater finns, men Hosted Weblate är
+  fortfarande automatiskt låst på grund av ett sammanslagningsfel. Den
+  synliga statusen 2026-11-03 är 1 238 av 5 140 översatta strängar,
+  3 902 oöversatta och 17 fallerande kontroller. Den sparade API-behörigheten
+  avvisas dessutom med HTTP 401. Importera inget äldre häfte förrän
+  komponenten har låsts upp och en ny export har jämförts.
 - **Kodi:** `game-libretro-blastem`, `game-libretro-gearcoleco`,
   `game-libretro-gearboy` och `game-libretro-quasi88` är låsta i Kodi
   Weblate. Android Update-scriptet har också en lokal kandidat men är låst.
