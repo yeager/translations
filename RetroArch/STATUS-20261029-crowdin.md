@@ -33,3 +33,10 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Archive: `retroarch-sv-cemu-batch-01-20261103.json`.
 - Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, Hunspell review, and scoped Gitleaks. The remaining Hunspell flags are the Cemu product name and the established technical term `omkompileraren`.
 - Submission: saved in Crowdin and verified as **“No unsaved translations”**.
+
+## Cemu review batch 02 — 2026-11-03
+
+- Clarified the TV-audio-channel behaviour and restored the literal `\\n` separators and parentheses that Crowdin checks for in account-entry and GPU-accuracy descriptions.
+- Archive: `retroarch-sv-cemu-batch-02-20261103.json`.
+- Checks: JSON structure, `l10n-lint`, control-symbol parity, `svlang skrivregler`, Hunspell review, and scoped Gitleaks.
+- Submission: saved in Crowdin and verified as **“No unsaved translations”**.
