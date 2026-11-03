@@ -16,6 +16,20 @@ uppströmsarbete.
 Gitleaks hittade inga hemligheter i någon av filerna. Ingen av dessa filer har
 pushats eller skickats uppströms i detta steg.
 
+## Webbkatalog, uppdaterad 2026-11-03
+
+En uppdaterad och radgranskad webbkatalog har nu skapats från aktuell
+huvudgren, registrerats som språkval i webbgränssnittet och skickats som
+[PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618).
+Den exakta inskickade filen är `../web.sv-20261103.ts` med SHA-256
+`c6220caaefd6e529d4521bfb9c178634bef3447f0fe4d3fcd5f2d8d32bc6f8ac`.
+
+Kontrollerna `npm run typecheck --prefix web` och `npm run test --prefix web`
+passerade (71 testfiler, 477 tester), liksom Prettier, skrivregler och
+Gitleaks. `defineLocale` ger engelska reservtexter för framtida nycklar som
+ännu inte har fått en svensk text; PR:n beskriver därför inte katalogen som
+slutgiltigt komplett.
+
 ## Typkontroll 2026-10-30
 
 Den första TUI-typkontrollen hittade en gammal import av `Translations`; den

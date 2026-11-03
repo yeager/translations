@@ -44,8 +44,10 @@ Inga kända färdiga filer väntar på manuellt inskick just nu.
   inte en aktiv inskickskö.
 - **Hermes Agent:** den aktuella desktopkatalogen finns i
   [PR #101116](https://github.com/NousResearch/hermes-agent/pull/101116),
-  rebasad och uppdaterad 2026-11-03. De separata statiska, TUI- och
-  webbkatalogerna är avsiktligt lokala och kräver fortsatt struktur- och
+  rebasad och uppdaterad 2026-11-03. Den separata webbkatalogen är nu också
+  inskickad som [PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618)
+  efter typkontroll, test och terminologigranskning. Den statiska katalogen
+  och TUI-katalogen är fortfarande lokala och kräver fortsatt struktur- och
   radgranskning före inskick.
 
 Arbete som den 3 november har importerats eller skickats via respektive API
