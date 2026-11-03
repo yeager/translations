@@ -24,7 +24,9 @@
   komponenten har låsts upp och en ny export har jämförts.
 - **Kodi:** `game-libretro-blastem`, `game-libretro-gearcoleco`,
   `game-libretro-gearboy` och `game-libretro-quasi88` är låsta i Kodi
-  Weblate. Android Update-scriptet har också en lokal kandidat men är låst.
+  Weblate. En autentiserad API-kontroll 2026-11-03 bekräftar att samtliga
+  fyra fortfarande har `locked: true`. Android Update-scriptet har också en
+  lokal kandidat men är låst.
 - **PyPA Warehouse:** komponenten är låst tills Weblate kan slå samman
   arkivet.
 - **MATE Control Center, dess hjälp och Terminal:** validerade kandidater
