@@ -114,3 +114,11 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Replaced the English term `vertex` with the established Swedish graphics term `hörnpunkt` in the vertex-cache label and description.
 - Archive: `retroarch-sv-rpcs3-batch-06-20261103.json`.
 - Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, Hunspell review, and scoped Gitleaks.
+
+## RPCS3 review batch 07 — 2026-11-03
+
+- Submitted three distinct, context-checked Swedish suggestions through the Crowdin API: the display-aspect explanation and the LLVM/shader compiler-thread descriptions.
+- Restored source parentheses where the active alternatives had dropped them, corrected `Automatisk` to `Automatiskt`, and made the display's wider aspect ratio explicit.
+- Archive: `retroarch-sv-rpcs3-batch-07-20261103.json`.
+- Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, terminology/TM lookup, Hunspell review, and scoped Gitleaks.
+- API evidence: Crowdin accepted translation IDs `2984315`, `2984317`, and `2984319`; their selection or approval remains subject to the project's Crowdin workflow.
