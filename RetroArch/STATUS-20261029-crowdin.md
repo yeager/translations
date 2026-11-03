@@ -96,3 +96,9 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Submitted three context-checked strings in `rpcs3-libretro/rpcs3-libretro.json` through Crowdin.
 - Restored the Windows configuration-path parenthesis, split an ambiguous debugging warning into two complete Swedish sentences, and replaced the literal translation of a busy loop with the technical Swedish term `aktiv vänteloop`.
 - Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, Hunspell review, and scoped Gitleaks.
+
+## RPCS3 review batch 04 — 2026-11-03
+
+- Submitted the database-override and audio-output descriptions in `rpcs3-libretro/rpcs3-libretro.json` through Crowdin.
+- Restored the source parenthesis and clarified that the database contains game-specific corrections. The audio description now states accurately that the PS3 reports its available speakers to games and retains the game's own stereo/surround selection behaviour.
+- Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, Hunspell review, and scoped Gitleaks.
