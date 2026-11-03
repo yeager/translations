@@ -228,6 +228,20 @@ Typkontroll, hela testsviten (71 testfiler, 477 tester), skrivregler och
 Gitleaks passerade. ESLint har en befintlig varning i den oförändrade
 inläsningseffekten om synkron state-uppdatering, men inga fel.
 
+## Profilbyggare, uppdaterad 2026-11-03
+
+Profilbyggarens kompletta statiska arbetsflöde är katalogiserat och översatt:
+identitet, modellval, skills, skillkatalog, MCP-servrar, granskningssteg,
+validering, status och navigering. Modellnamn, skillnamn, servernamn,
+kommandon, URL:er och dynamiska serversvar lämnas oförändrade. Ändringen är
+pushad till [PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618)
+i commit `37dcde8411`.
+
+Den exakta svenska katalogen är `../web.sv-20261103-profile-builder.ts` med
+SHA-256 `4c7c1165ea3f92de5b53b73a22b8efe57df55332c398755ee75cc8e275219972`.
+Typkontroll, ESLint, hela testsviten (71 testfiler, 477 tester), skrivregler
+och Gitleaks passerade.
+
 ## Skills: katalog och säkerhetsgranskning, uppdaterad 2026-11-03
 
 Den externa färdighetskatalogens statiska gränssnitt är nu katalogiserat och
