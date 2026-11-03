@@ -78,3 +78,9 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 
 - All 251 strings in `xenia-libretro/xenia-libretro.json` were reviewed page by page in Crowdin.
 - Pages 2–6 contained no further high-confidence changes. Their remaining QA flags are intended technical terms, punctuation or number-parser false positives, and already-approved shared values.
+
+## RPCS3 review batch 01 — 2026-11-03
+
+- Submitted two context-checked strings in `rpcs3-libretro/rpcs3-libretro.json` through Crowdin.
+- Restored source punctuation around the RPCS3 default-setting explanation and the PS3 BD-ROM speed (`9 MB/s`) without changing their emulator semantics.
+- Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, Hunspell review, and scoped Gitleaks.
