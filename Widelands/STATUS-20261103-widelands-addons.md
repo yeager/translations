@@ -27,3 +27,6 @@ berättelsetext. Underlaget finns i
 
 Delkomponenten `Massada-wad` är också komplett efter fyra granskade
 insändningar, arkiverade i `widelands-addons-massada-sv-20261103.json`.
+
+Delkomponenten `Mountains---Seas-wad` är komplett efter tre granskade
+insändningar, arkiverade i `widelands-addons-mountains-seas-sv-20261103.json`.
