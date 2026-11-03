@@ -1,0 +1,25 @@
+{"target":["PSP PS1 BIOS"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["PS3 PS1 BIOS"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["OpenBIOS"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["Anger reservregionen som används när innehåll inte kan identifieras automatiskt (t.ex. råa PS-X EXE-filer). Skivbaserade spel använder fortfarande regionen som är inbäddad på skivan. Omstart krävs."],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["Automatiskt"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["NTSC-J (Japan)"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["NTSC-U (Nordamerika)"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["PAL (Europa)"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["Video"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["Färgformat"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["Väljer färgdjupet för utdata. ”24-bitars (standard)” är den historiska utdata med 8 bitar per kanal. ”30-bitars färg (HDR)” ger utdata med 10 bitar per kanal, PQ-kodad Rec.2020 (HDR10), för visning på en HDR-kapabel skärm: renderaren använder redan mer än 8 bitars intern precision, så detta både minskar bandning i uppskalade toningar och låter emissivt innehåll ligga över SDR-vitt. Träder i kraft med Vulkan- och OpenGL-maskinvarurenderarna och kräver HDR-stöd i gränssnittet; den återgår till 24 bitar med programvarurenderaren eller när gränssnittet inte kan visa HDR10. Omstart krävs."],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["24-bitars (standard)"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["30-bitars färg (HDR)"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["Avtoning av HDR-högdagrar"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["Väljer hur additiva högdagrar som ligger över SDR-vitt komprimeras mot HDR-toppen när ”Färgformat” är satt till ”30-bitars färg (HDR)”. ”Reinhard (mjuk avtoning)” är en mjuk, gradvis avtoning. ”ACES (filmiskt)” använder en kurva som stiger snabbare och når toppen tidigare, vilket ger mer kraftfulla högdagrar. Påverkar bara emissivt/additivt innehåll över vitt i HDR-sökvägen för maskinvarurendering; vanliga färger och allt inom standardomfånget är identiskt i båda fallen. Har ingen effekt med programvarurenderaren eller i 24-bitarsläget."],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["Reinhard (mjuk avtoning)"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["ACES (filmiskt)"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["Primärfärger för källa"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["Väljer vilka primärfärger spelets färger tolkas mot. PSX-innehåll skapades inte på en modern Rec.709-skärm, och vilka verkliga färger ett givet RGB-värde står för beror på skärmen som det skapades på. Detta är oberoende av ”Analog videokabel” – primärfärgerna hör till skärmen som användes vid framtagningen, inte kabeln – och gäller därför även RGB-utdata. ”Rec.709” (standard) låter bilden motsvara 24-bitarsläget. ”SMPTE-C” är studiostandarden från NTSC-eran och förskjuter färgen med omkring 6 %. ”EBU” är PAL-motsvarigheten och skiljer sig från Rec.709 endast i grönt, med omkring 4 %. ”NTSC 1953” är FCC:s ursprungliga standard och är betydligt bredare – dess gröna ligger 40 % utanför Rec.709 och kan bara återges alls på en HDR-skärm med stort färgomfång. ”Auto” väljer SMPTE-C eller EBU utifrån skivregionen. Fungerar även i 24-bitarsläge, även om varje alternativ mappar vissa färger utanför Rec.709 och en standardskärm beskär dem – särskilt ”NTSC 1953” visas endast korrekt på en HDR-skärm med stort färgomfång."],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["Rec.709 (matchar 24 bitar)"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["Automatiskt (efter region)"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["SMPTE-C (NTSC-studio)"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["EBU (PAL)"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["NTSC 1953 (brett)"],"state":20,"explanation":"","extra_flags":"","labels":[]}
+{"target":["NTSC-svartnivå"],"state":20,"explanation":"","extra_flags":"","labels":[]}
