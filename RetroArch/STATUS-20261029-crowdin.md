@@ -40,3 +40,10 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Archive: `retroarch-sv-cemu-batch-02-20261103.json`.
 - Checks: JSON structure, `l10n-lint`, control-symbol parity, `svlang skrivregler`, Hunspell review, and scoped Gitleaks.
 - Submission: saved in Crowdin and verified as **“No unsaved translations”**.
+
+## Cemu review batch 03 — 2026-11-03
+
+- Restored the parenthesized controller and sensor context in the dead-zone and GamePad-motion explanations, so the Swedish text retains both the factual detail and Crowdin's symbol parity.
+- Archive: `retroarch-sv-cemu-batch-03-20261103.json`.
+- Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, and scoped Gitleaks; product and controller names remain intentional Hunspell exceptions.
+- Submission: saved in Crowdin and verified as **“No unsaved translations”**.
