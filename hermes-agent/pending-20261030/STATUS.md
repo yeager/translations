@@ -144,6 +144,21 @@ Typkontroll, skrivregler och Gitleaks passerade. ESLint har fortfarande en
 befintlig varning för det oförändrade `load()`-anropet i Models-sidans effekt,
 men inga fel.
 
+## MCP-server: skapa och installera, uppdaterad 2026-11-03
+
+Den första MCP-delen är katalogiserad och översatt: inläsnings- och
+felmeddelanden, skapande av server, OAuth-information, miljövariabler,
+installationsdialog och statusmeddelanden. Servernamn, URL:er, hemligheter och
+MCP-servrarnas dynamiska data lämnas oförändrade. Ändringen är pushad till
+[PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618) i
+commit `fb84687ec0`.
+
+Den exakta svenska katalogen efter denna uppdatering är
+`../web.sv-20261103-mcp-creation.ts` med SHA-256
+`503c300ba5e1b17ee870f818dc78f91cc97ddcddd33825e6f921587fdbd9ca6a`.
+Typkontroll, ESLint, hela testsviten (71 testfiler, 477 tester), skrivregler
+och Gitleaks passerade.
+
 ## Typkontroll 2026-10-30
 
 Den första TUI-typkontrollen hittade en gammal import av `Translations`; den
