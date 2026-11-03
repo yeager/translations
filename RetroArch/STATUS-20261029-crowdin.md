@@ -47,3 +47,10 @@ Hunspell's remaining flags were accepted technical/product terms or identifiers:
 - Archive: `retroarch-sv-cemu-batch-03-20261103.json`.
 - Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, and scoped Gitleaks; product and controller names remain intentional Hunspell exceptions.
 - Submission: saved in Crowdin and verified as **“No unsaved translations”**.
+
+## Cemu review batch 04 — 2026-11-03
+
+- Restored the source's parenthesized context in the internal-resolution, audio-thread, and audio-profiling explanations.
+- Archive: `retroarch-sv-cemu-batch-04-20261103.json`.
+- Checks: JSON structure, `l10n-lint`, `svlang skrivregler`, and scoped Gitleaks. Crowdin's numeric comparison cannot parse Swedish decimal commas and multiplication signs, so its number warnings are false positives; the numeric values themselves are preserved.
+- Submission: saved in Crowdin with **“Save Anyway”** for that false positive, then verified as **“No unsaved translations”**.
