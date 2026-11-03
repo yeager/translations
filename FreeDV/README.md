@@ -19,7 +19,7 @@ Kontroller 2026-11-03:
   språkpaket eller bygga utvecklingsversionen.
 - Gitleaks hittade inga hemligheter i arbetskatalogen.
 
-SHA-256: `5b01a868877def01962fa7f1aa25a67e9d49f145f0d20ae9bba5dc9c98fa0ff3`
+SHA-256: `687e68259a434224c64be7ce209513957843a0b2c29684f44ffdfed0b19b4fca`
 
 Filen är avsedd att mejlas till Translation Project för granskning och
 integrering.
