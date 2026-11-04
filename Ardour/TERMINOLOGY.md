@@ -90,6 +90,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | outboard gear | extern utrustning | Extern ljudutrustning som kräver export i realtid. |
 | velocity | anslagsstyrka | MIDI-noters dynamiska styrvärde, inte fysisk hastighet. |
 | MIDI patch / `.midnam` patch file | MIDI-program / MIDI-programfil | `MidiPatchManager` läser in namn- och programdefinitioner från `.midnam`-filer; `patch` ska inte bli anglicismen `patch` i denna användartext. |
+| Patch Selector | MIDI-programväljare | Menyåtgärden väljer MIDI-program för ett MIDI-spår eller instrument. |
+| meter colors / track color | mätarfärger / spårfärg | Val för MIDI-spårets färgsättning; `Track Color` är spårfärg, inte en generell bakgrundsfärg. |
 | `AutomationList` diagnostic | fick XML-noden | Källkoden lämnar en XML-nod till listan; använd inte den bokstavliga och felaktiga formen `passerade XML-nod`. |
 | allow mush | tillåt begränsning | Vid MIDI-redigering får värden begränsas till intervallet 0–127 i stället för att hela åtgärden avbryts. |
 | Video Server | videoserver | Ardours externa tjänst för videovisning och videohantering. |
