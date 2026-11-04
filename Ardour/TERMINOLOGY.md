@@ -12,7 +12,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | fade | toning | `fade in`/`fade out` uttrycks vid behov som intoning/uttoning. |
 | follow action | följåtgärd | Åtgärd som clip launcher-funktionen utför när ett klipps följlängd har löpt ut. |
 | follow length | följlängd | Den användardefinierade speltid som föregår en följåtgärd; projektspecifik UI-term. |
+| gain | förstärkning | Ljudnivå före eller i fader-/regionbearbetning; `vinst` används inte i ljudgränssnittet. |
 | latency | latens | Används för ljud- och I/O-latens. |
+| legatize | Gör legato | MIDI-redigeringsåtgärd som anpassar notlängder så att noterna binds samman. |
 | MIDI note | MIDI-not | `note` är **not** i musikkontext, aldrig teknisk anteckning. |
 | MIDI program change | MIDI-programändring | MIDI-händelse som väljer program/klang; inte en allmän programförändring. |
 | MIDI patch / patch selection | MIDI-program / MIDI-programval | Väljare för MIDI-bank och -program; undvik oöversatta `patch` i svensk UI-text. |
