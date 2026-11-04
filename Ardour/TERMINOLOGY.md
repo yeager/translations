@@ -113,6 +113,10 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | play range/selection | spela upp intervall/markering | Verktygstips för transportknappen som spelar valt intervall eller markerat material. |
 | marker click only selects | klick på markör markerar endast | Radioläge som förhindrar att ett markörklick flyttar transportpositionen. |
 | rolling transport | när transporten rullar | Åsyftar pågående transport, inte nödvändigtvis aktiv inspelning. |
+| sustained / percussive note mode | uthålligt / perkussivt läge | MIDI-redigerarens visuella notlägen: uthållna toner ritas med längd, perkussiva toner som träffar. |
+| Smart Mode | smartläge | Redigerarläge som lägger vissa intervallfunktioner till flyttläget; skrivs som svensk sammansättning. |
+| I/O map | I/O-mappning | Insticksmodulens tilldelning av signalin- och utgångar. |
+| tempo map | tempokarta | Visningen i MIDI-filinformationen beskriver en karta med flera tempoavsnitt. |
 | time-stretching | tidssträckning | Anpassning av ett klipps längd/tempo till sessionens tempokarta. |
 | I/O resampling | I/O-omprovtagning | Omprovtagning som Ardour använder för uppspelning eller inspelning med vari-speed. |
 | peak | toppnivå | Signalens högsta nivå i krav på export och normalisering. |
