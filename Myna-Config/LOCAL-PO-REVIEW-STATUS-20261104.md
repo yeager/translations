@@ -57,3 +57,9 @@ Shell behandlas som etablerade tekniska namn.
 API-batch 01 med 20 strängar har skickats till Hosted Weblate och lästs
 tillbaka med `state: 20` och `translated: true`. Återstående lokala ändringar
 är inte skickade.
+
+Weblate rapporterar fyra kontroller: en på den inskickade strängen och tre på
+fortfarande tomma strängar. Den inskickade kontrollen är verifierat falsk
+positiv: `Refresh` → `Uppdatera` jämförs med den andra engelska källan
+`Update`. Båda är korrekt `Uppdatera` i respektive UI-kontext och ska inte
+förvanskas för att undgå en återanvändningskontroll.
