@@ -1,0 +1,81 @@
+# Blender Manual Swedish review delta, 2026-11-04.
+# Source snapshot: exports/2026-11-04/blender-manual-manual-sv.po
+# Review scope: armature duplication, transformation and symmetrizing.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Manual\n"
+"PO-Revision-Date: 2026-11-04 19:10+0100\n"
+"Last-Translator: Swedish localization review\n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Left/right bone chains, ../../manual/animation/armatures/bones/editing/duplicate_rename.rst:30.
+msgid "This is useful for creating mirrored left/right bone chains."
+msgstr "Detta är användbart när du skapar speglade vänster- och högerbenkedjor."
+
+#. Left/right suffix example, ../../manual/animation/armatures/bones/editing/duplicate_rename.rst:28.
+msgid "For example, names ending in ``.L`` may be renamed to ``.R``."
+msgstr "Till exempel kan namn som slutar med ``.L`` bytas till ``.R``."
+
+#. Original-name search, ../../manual/animation/armatures/bones/editing/duplicate_rename.rst:33.
+msgid "Text to search for in the original bone names."
+msgstr "Text att söka efter i de ursprungliga bennamnen."
+
+#. Matching replacement, ../../manual/animation/armatures/bones/editing/duplicate_rename.rst:35.
+msgid "Matching text is replaced in the duplicated bone names."
+msgstr "Matchande text ersätts i de duplicerade bennamnen."
+
+#. Replacement text, ../../manual/animation/armatures/bones/editing/duplicate_rename.rst:38.
+msgid "Replacement text inserted in place of the search term."
+msgstr "Ersättningstext som infogas i stället för söktexten."
+
+#. Empty replacement, ../../manual/animation/armatures/bones/editing/duplicate_rename.rst:40.
+msgid "If left empty, the matching search term is removed from the duplicated bone names."
+msgstr "Om fältet lämnas tomt tas den matchande söktexten bort från de duplicerade bennamnen."
+
+#. Parent/connected relationships, ../../manual/animation/armatures/bones/editing/transform.rst:21.
+msgid "As you know, bones can have two types of relationships: They can be parented, and in addition connected. Parented bones behave in *Edit Mode* exactly as if they had no relations. They can be moved, rotated, scaled, etc. without affecting their descendants. However, connected bones must always have parent's tips connected to child's roots, so by transforming a bone, you will affect all its connected parent/children/siblings."
+msgstr "Ben kan ha två typer av relationer: de kan ha en förälder och dessutom vara anslutna. Ben med en förälder beter sig i *redigeringsläge* som om de saknade relationer. De kan flyttas, roteras och skalas utan att deras underordnade ben påverkas. Anslutna ben måste däremot alltid ha förälderns spets ansluten till barnets rot. När du transformerar ett ben påverkar du därför dess anslutna föräldrar, barn och syskon."
+
+#. Bone roll transform panel, ../../manual/animation/armatures/bones/editing/transform.rst:32.
+msgid "Finally, you can edit in the *Transform* panel in the Sidebar region the positions and radius of both joints of the active selected bone, as well as its :ref:`roll rotation <armature-bone-roll>`."
+msgstr "Slutligen kan du i panelen *Transformering* i sidofältet redigera positionerna och radien för båda lederna på det aktiva markerade benet, samt dess :ref:`benrullning <armature-bone-roll>`."
+
+#. Scale Radius, ../../manual/animation/armatures/bones/editing/transform.rst:38.
+msgid "Scale Radius"
+msgstr "Skala radie"
+
+#. Scale Radius menu, ../../manual/animation/armatures/bones/editing/transform.rst:43.
+msgid ":menuselection:`Armature --> Transform --> Scale Radius`"
+msgstr ":menuselection:`Armatur --> Transformera --> Skala radie`"
+
+#. Bone Envelope shortcut, ../../manual/animation/armatures/bones/editing/transform.rst:88.
+msgid "You can alter the size of the Bone Envelope volume by clicking on the body of the bone you want to alter, :kbd:`Shift-Ctrl-Alt-S` then drag your mouse left or right and the Bone Envelope volume will alter accordingly."
+msgstr "Du kan ändra storleken på volymen *Benhölje* genom att klicka på kroppen på det ben vars storlek du vill ändra, trycka på :kbd:`Shift-Ctrl-Alt-S` och sedan dra musen åt vänster eller höger. Volymen *Benhölje* ändras därefter i motsvarande grad."
+
+#. Bone Envelope properties, ../../manual/animation/armatures/bones/editing/transform.rst:91.
+msgid "You can also alter the Bone Envelope volume by selecting the Bone you wish to alter and then navigate to :menuselection:`Properties --> Bone --> Deform --> Envelope --> Distance` then enter a new value into it."
+msgstr "Du kan också ändra volymen *Benhölje* genom att markera benet och sedan gå till :menuselection:`Egenskaper --> Ben --> Deformera --> Kuvert --> Avstånd` och ange ett nytt värde."
+
+#. Bone Envelope vertices, ../../manual/animation/armatures/bones/editing/transform.rst:95.
+msgid "Altering the Bone Envelope volume does not alter the size of the bone just the range within which it can influence vertices of child objects."
+msgstr "Att ändra volymen *Benhölje* ändrar inte benets storlek, utan bara det område där det kan påverka hörnpunkter i underordnade objekt."
+
+#. Object Mode and B-Bone, ../../manual/animation/armatures/bones/editing/transform.rst:120.
+msgid "The same armature in Object Mode and B-Bone visualization, with Bone.004's size scaled up."
+msgstr "Samma armatur i objektläge och B-Bone-visualisering, med Bone.004:s storlek uppskalad."
+
+#. Align to Active Bone or Parent, ../../manual/animation/armatures/bones/editing/transform.rst:126.
+msgid "Align to Active Bone or Parent"
+msgstr "Rikta in efter aktivt ben eller överordnat objekt"
+
+#. Align to Active Bone or Parent menu, ../../manual/animation/armatures/bones/editing/transform.rst:131.
+msgid ":menuselection:`Armature --> Transform --> Align to Active Bone or Parent`"
+msgstr ":menuselection:`Armatur --> Transformera --> Rikta in efter aktivt ben eller överordnat objekt`"
+
+#. Symmetrize Action Constraints, ../../manual/animation/armatures/bones/editing/symmetrize.rst:20.
+msgid "Symmetrized bone and constraint properties are adjusted to mirror their behaviors. For bones with :doc:`Action Constraints </animation/constraints/relationship/action>`, keyframes are added to the target Action, ensuring symmetrical motion when the Action is activated."
+msgstr "Egenskaper för symmetriserade ben och begränsningar justeras så att deras beteenden speglas. För ben med :doc:`Action Constraints </animation/constraints/relationship/action>` läggs nyckelbildrutor till i målåtgärden, vilket säkerställer symmetrisk rörelse när åtgärden aktiveras."
