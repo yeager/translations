@@ -28,6 +28,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | plugin scan progress | förloppet för skanning av insticksmoduler | Hjälptext för indexering och upptäckt. Använd en utskriven genitivfras i löptext i stället för den tunga kedjan `insticksmodul-skanningsförlopp`. |
 | twist tempo | justera tempo | Ångraåtgärd vid dragning som ändrar tempoövergången mellan berörda tempopunkter. Den interna engelska metaforen `twist` behöver inte stå kvar i svensk UI-historik. |
 | IO: bad output string | IO: felaktig utgångssträng | Diagnostikprefixet `IO:` identifierar I/O-delsystemet och ska bevaras konsekvent i XML-fel från motorn. |
+| peak hold | topphållning | Ljudmätarens funktion som håller kvar det uppmätta toppvärdet tills återställning. Undvik den onödiga engelska blandformen `peak-hold` i svensk UI-text. |
 | stretch tempo / stretch end tempo | sträck tempo / sträck sluttempot | Ångraåtgärder när användaren drar en tempopunkt eller en temposlutpunkt; de är verbfraser och inte beskrivningen `sträckt tempo`. |
 | crossfade | korstoning | Överlappande in- och uttoning mellan två regioner. |
 | region fades | regiontoningar | Toningar knutna till en regions början eller slut. |
