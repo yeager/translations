@@ -152,6 +152,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | sample data | samplingsdata | Diskreta ljudvärden i en källfil eller buffert; skiljs från ett återanvändbart ljudprov i biblioteket. |
 | file mapping | filkartläggning | Operativsystemets minnesmappning av en toppfil; `mappning` är processen, inte en geografisk karta. |
 | I/O inputs / outputs | ingångar / utgångar | Portanslutningar i Ardours interna I/O-XML; använd inte de generiska formerna `inmatningar` och `utdata`. |
+| input/output device | ingångs-/utgångsenhet | Ljudmotorns fysiska eller virtuella ljudenhet; samma signalvägstermer som i I/O-väljaren. |
+| bundle | bunt | Ardours objekt som grupperar ljud- eller MIDI-portar och kanaler; inte ett filpaket. `Bundle Manager` blir **Bunthanterare**. |
+| monitor channel cut | stäng av monitorkanal | `cut_channel()` stänger av signalen; det är inte klippning av ljudmaterial. |
 | VCA state | VCA-tillstånd | Sparat/återställt tillstånd för ett VCA-objekt; inte allmän användarstatus. |
 | plugin-stub | insticksmodulsstubb | Ersättningsprocessor när den ursprungliga insticksmodulen inte kan konfigureras vid sessionsinläsning. Ardours övriga svenska UI använder redan `stub`/`stubbar`; `stubb` följer den befintliga tekniska användningen och sammanhanget är en diagnostiklogg. |
 | MTC quarter-frame message | MTC-quarter-frame-meddelande | Namngivet MIDI Time Code-protokollmeddelande. MTC skickar åtta sådana delmeddelanden för att överföra en hel tidskodsposition; behåll protokollnamnet i stället för den felaktiga vardagsbilden `kvartersram`. |
