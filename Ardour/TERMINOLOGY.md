@@ -159,6 +159,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Butler | Butler | Ardours interna bakgrundstråd för diskbaserad uppspelning och inspelning. Klassnamnet behålls och skrivs med versal. |
 | read-ahead / write-behind | framåtläsning / efterskrivning | Butler fyller upp uppspelningsbuffertar från disk respektive skriver inspelningsdata till disk i efterhand. `diskström` används för den berörda diskströmmen i diagnostiken. |
 | Snap to Speaker | Fäst vid högtalare | Växlar att ett surroundobjekt fästs vid en högtalarposition; `snäpp` är här inte etablerad svensk UI-terminologi. |
+| MIDI note / note ID | not / not-ID | Tonhändelse och dess identifierare i Ardours MIDI-modell. `anteckning` är en falsk vän i musik- och MIDI-kontext. |
+| MIDI note property | notegenskap | Egenskap hos en MIDI-not i den serialiserade ändringen; sammansättningen skiljer betydelsen från en allmän anteckningsegenskap. |
+| complete MIDI/audio file | hela MIDI-/ljudfilen | Regionen skapas för filens hela innehåll, inte för en allmänt beskriven `komplett` fil. |
 
 ## Avsiktliga undantag
 
