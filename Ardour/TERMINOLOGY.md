@@ -16,6 +16,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | launch style | startläge | Valet `Trigger`, `Retrigger`, `Gate`, `Toggle` eller `Repeat` styr hur ett klipp startas. Det är ett funktionsläge, inte en produktlansering eller en stil. |
 | punch range | punchintervall | Det specifika intervall som styr punch-in/-ut-inspelning; det är inte ett musikaliskt slagintervall. |
 | fade | toning | `fade in`/`fade out` uttrycks vid behov som intoning/uttoning. |
+| fade-in length/shape/active | intoningslängd/intoningsform/aktivera intoning | Parametrar och åtgärder för en regions intoning. Använd inte den konkurrerande termen `inbländning` i samma UI. |
 | stretch tempo / stretch end tempo | sträck tempo / sträck sluttempot | Ångraåtgärder när användaren drar en tempopunkt eller en temposlutpunkt; de är verbfraser och inte beskrivningen `sträckt tempo`. |
 | crossfade | korstoning | Överlappande in- och uttoning mellan två regioner. |
 | region fades | regiontoningar | Toningar knutna till en regions början eller slut. |
