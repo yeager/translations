@@ -88,6 +88,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | editor-selected | redigeringsvald | Spår eller buss som är valt i redigeraren, inte ett separat redigeringskommando. |
 | transport master | transportmaster | Ardours synkroniseringskälla för transporten; ett sammansatt substantiv i svensk UI-text. |
 | monitor dim / cut | monitordämpning / monitoravstängning | Funktioner för att tillfälligt sänka respektive stänga av kontrollrummets monitorutgång. |
+| monitor channel action | stäng av/dämpa/solospela monitorkanal | Åtgärder för en enskild kanal i monitorsektionen; `cut` är signalavstängning, inte redigeringskommandot `klipp`. |
+| monitor processor box | processorpanelen i monitorsektionen | Den visningsbara panel där monitorsektionens effektprocessorer hanteras; åtgärden visar eller döljer panelen. |
+| return/input | retur/ingång | Returens inkommande signal i den externa I/O-insatsen; `input` är ljudingång, inte textinmatning. |
 | peak meter | mätare | PeakMeter är Ardours signalnivåmätare; den korta UI-etiketten ska därför följa katalogens redan etablerade svenska `mätare`. |
 | auto punch | automatisk punch | Ardours namngivna DAW-funktion för automatiskt punch-in/punch-out; termen `punch` behålls, inte den missvisande `stämpling`. |
 | VCA master | VCA-master | Ardours VCA-styrning för flera kanalers nivå; `master` behålls som etablerad ljudteknisk term. |
