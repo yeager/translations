@@ -34,6 +34,17 @@ fältrubrikens `Sektoridentifierare URI`.
 
 ## Genomförande
 
-Gör två textändringar, enligt tabellen, och markera sedan samtliga fyra
-strängar som godkända. Ingen ändring har gjorts i Weblate eller i någon
-översättningsfil inom ramen för denna revision.
+Genomförd i Hosted Weblate den 4 november 2026:
+
+- `webOriginsInvalid` och `sectorIdentifierUriInvalid` godkändes utan
+  textändring.
+- `webOriginsIllegalSchemeError` och
+  `sectorIdentifierUriIllegalSchemeError` ändrades till `otillåtet schema`
+  och godkändes.
+- En tillfälligt tillagd slutpunkt togs bort från den första av de två
+  ändrade posterna, eftersom källsträngen saknar slutpunkt och Weblate
+  korrekt rapporterade kontrollavvikelsen.
+
+Efter sparning gav Weblates sökning `state:translated` inga träffar. Det
+verifierar att de fyra poster som låg till grund för denna granskning inte
+längre väntar på granskning. Ingen råexport har skrivits över lokalt.
