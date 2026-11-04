@@ -85,3 +85,20 @@ behåller den tekniskt tydligare termen *klangstav*. Rubriken *Fel vid
 identifiering* och uttrycket *ont om minne* är också idiomatiska i respektive
 diagnostik- och varningskontext. Kandidaten är därför oförändrad efter
 eftergranskningen.
+
+## Revalidering efter upstreamkontroll
+
+Efter att Hosted Weblate visade 100 % kördes den arkiverade kandidaten på
+nytt med `msgfmt --check --statistics`: **416 översatta och 1 oöversatt
+post**. Den oöversatta posten är det avsiktligt tomma metadatafältet
+`translator-credits`; den enda formella varningen gäller råexportens
+standardvärde i `Project-Id-Version`.
+
+Hunspell-SV kontrollerades mot en extraherad måltext utan PO-huvudet. De 49
+unika okända token är produktnamn, standarder, platshållare eller avsiktliga
+tekniska sammansättningar, till exempel `Myna`, `IBus`, `snapd`,
+`GNOME Shell`, `BCP`, `talmodell` och `headsetmikrofon`. Kontexter för de
+potentiellt tvetydiga formerna kontrollerades: `{actual}` är en bevarad
+platshållare, `talmodell` beskriver den lokala tal-till-text-modellen och
+`headsetmikrofon` är en vanlig svensk sammansättning. Inga verkliga
+stavnings- eller terminologifel hittades.
