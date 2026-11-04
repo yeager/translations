@@ -78,6 +78,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Slide (edit mode) | Flytta | Fritt redigeringsläge där regioner kan flyttas och överlappa. |
 | Ripple (edit mode) | Krusning | Etablerad term i svensk videoredigering; efterföljande regioner flyttas vid redigering. |
 | snapshot | ögonblicksbild | Sparat sessionsläge; inte datorskärmdump. |
+| recording take | inspelningstagning | En enskild inspelning i Ardours inspelningsflöde; skiljs från den resulterande regionen och dess ljudfiler. |
 | time-stretch quality | Mjuk / Jämn / Tydlig / Blandad | Kvalitetsval för Rubber Band-algoritmens transientbehandling. Termerna beskriver behandlingen, inte ett visuellt tillstånd. |
 | timecode | tidskod | Video- och transportsynkronisering. |
 | MTC rate/drop | bildfrekvens-/drop-frame-värde | MTC-fältet kombinerar bildfrekvens och drop-frame-markering; översätt inte som fysisk hastighet eller minskning. |
