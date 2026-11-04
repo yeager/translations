@@ -242,6 +242,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Loop Download Manager | hämtningshanterare för loopar | Dialogen hämtar ljudloopar till Ardours bibliotek. Den engelska ordföljden `Loop nedladdningshanterare` är inte en svensk sammansättning. |
 | Sharing Mute / Sharing Solo | dela ljuddämpning / dela solo | Redigerargruppens gemensamma egenskaper. `Mute` följer katalogens svenska term **ljuddämpning**; `solo` är den etablerade DAW-termen. |
 | Auto Input does talkback | Automatisk ingång fungerar som talkback | `Auto-Input` är katalogens **Automatisk ingång**. `talkback` är den etablerade ljudtekniska benämningen för den aktuella medhörningsfunktionen och står medvetet kvar. |
+| Listen Position | lyssningsposition | Inställning för var i signalvägen lyssningsfunktionen ska tas ut. Det är ett substantiv och ska inte lämnas som verbet `Lyssna` följt av engelska `Position`. |
 | Tag Selected Regions / Tag Last Capture | märk valda regioner / märk senaste inspelningen | Åtgärderna öppnar en dialog som sätter regionernas taggar. Använd **märk** som svenskt UI-verb; `capture` är här en inspelning, inte en bild. |
 | Remove Last Capture | ta bort senaste inspelningen | Avlägsnar de regioner som den senaste inspelningen skapade. `bild` var en felaktig betydelse av `capture` i DAW-kontext. |
 | Tag file with session's metadata | märk filen med sessionens metadata | Exportinställningen skriver sessionens metadata till den exporterade filen. |
