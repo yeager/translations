@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Manual\n"
+"PO-Revision-Date: 2026-11-04 11:45+0100\n"
+"Last-Translator: Daniel Nylander\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Manual context: glTF armature import, ../../manual/addons/scene_gltf2.rst:946.
+msgid ""
+"Changes the heuristic the importer uses to decide where to place bone "
+"tips. Note that the Fortune setting may cause inaccuracies in models that"
+" use non-uniform scaling. Otherwise this is purely aesthetic. The default"
+" value will not change axis, and is best for re-exporting from Blender. "
+"This default option will change display mode (adding shape and changing "
+"relationship line) to have a better view, even if original bones axis are"
+" not the most accurate (aesthetically speaking)"
+msgstr ""
+"Ändrar den heuristik som importören använder för att avgöra var benens "
+"spetsar ska placeras. Observera att inställningen Fortune kan ge "
+"felaktigheter i modeller med ojämn skalning. I övrigt är detta enbart "
+"estetiskt. Standardvärdet ändrar inte axeln och är bäst för återexport från "
+"Blender. Det här standardalternativet ändrar visningsläget (lägger till en "
+"form och ändrar relationslinjen) för att ge bättre överblick, även om de "
+"ursprungliga benaxlarna inte är de mest exakta ur estetisk synvinkel"
+
+#. Manual context: glTF export option, ../../manual/addons/scene_gltf2.rst:1036.
+msgid ""
+"Useful in case of non-decomposable TRS matrix. Only skinned meshes will "
+"stay children of armature."
+msgstr ""
+"Användbart vid en TRS-matris som inte kan delas upp. Endast skinnade "
+"meshobjekt förblir armaturens barn."
+
+#. Manual context: glTF collection export, ../../manual/addons/scene_gltf2.rst:1039.
+msgid ""
+"Export collections as empty, keeping full hierarchy. If an object is in "
+"multiple collections, it will be exported only once, in the first "
+"collection it is found."
+msgstr ""
+"Exportera samlingar som tomobjekt och behåll hela hierarkin. Om ett objekt "
+"finns i flera samlingar exporteras det bara en gång, i den första samling "
+"där det hittas."
+
+#. Manual context: glTF WebP export option, ../../manual/addons/scene_gltf2.rst:1108.
+msgid ""
+"Creates WebP textures for every textures, in addition to the existing "
+"texture. For already WebP textures, nothing happens."
+msgstr ""
+"Skapar WebP-texturer för varje textur utöver den befintliga texturen. För "
+"texturer som redan är i WebP-format sker ingen ändring."
+
+#. Manual context: glTF sparse accessor export option, ../../manual/addons/scene_gltf2.rst:1133.
+msgid ""
+"Sparse Accessor will be used if it saves space (if the exported file is "
+"smaller)"
+msgstr ""
+"Gles accessor används om den sparar utrymme, det vill säga om den "
+"exporterade filen blir mindre"
+
+#. Manual context: glTF sparse accessor export option, ../../manual/addons/scene_gltf2.rst:1135.
+msgid ""
+"If data is empty, omit to export Sparse Accessor. Not all viewer managed "
+"it correctly, so this option is Off by default"
+msgstr ""
+"Om data är tomma utelämnas export av gles accessor. Alla visare hanterar "
+"inte den korrekt, därför är alternativet avstängt som standard"
+
+#. Manual context: glTF skinning export option, ../../manual/addons/scene_gltf2.rst:1159.
+msgid ""
+"How many joint vertex influences will be exported. Models may appear "
+"incorrectly in many viewers with value different to 4 or 8."
+msgstr ""
+"Hur många leders hörnpunktsinflytanden som exporteras. Modeller kan visas "
+"felaktigt i många visare om värdet inte är 4 eller 8."
+
+#. Manual context: glTF Draco export panel label, ../../manual/addons/scene_gltf2.rst:1177.
+msgid "Data - Draco Compression"
+msgstr "Data – Draco-komprimering"
+
+#. Manual context: glTF Meshopt export panel label, ../../manual/addons/scene_gltf2.rst:1196.
+msgid "Data - Meshopt Compression"
+msgstr "Data – Meshopt-komprimering"
+
+#. Manual context: glTF Meshopt export option, ../../manual/addons/scene_gltf2.rst:1200.
+msgid "Meshopt Extension"
+msgstr "Meshopt-tillägg"
+
+#. Manual context: glTF animation-pointer interpolation option, ../../manual/addons/scene_gltf2.rst:1264.
+msgid ""
+"Interpolation chosen for properties that are not keyed (LINEAR or "
+"STEP/CONSTANT)"
+msgstr ""
+"Interpolation som väljs för egenskaper utan nyckelbildrutor (LINEAR eller "
+"STEP/CONSTANT)"
+
+#. Manual context: glTF animation-pointer export panel label, ../../manual/addons/scene_gltf2.rst:1267.
+msgid "Animation - Pointer"
+msgstr "Animation – pekare"
+
+#. Manual context: glTF animation-pointer export option, ../../manual/addons/scene_gltf2.rst:1271.
+msgid "Animation Pointer (Experimental)"
+msgstr "Animationspekare (experimentell)"
+
+#. Manual context: glTF animation-pointer conversion option, ../../manual/addons/scene_gltf2.rst:1274.
+msgid "Convert TRS/Weights to Animation Pointer"
+msgstr "Konvertera TRS/vikter till animationspekare"
+
+#. Manual context: glTF animation-pointer conversion option, ../../manual/addons/scene_gltf2.rst:1275.
+msgid "Convert TRS & Shape Keys to animation pointer"
+msgstr "Konvertera TRS och formnycklar till animationspekare"
