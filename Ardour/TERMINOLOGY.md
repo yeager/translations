@@ -123,6 +123,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Main Outs | huvudutgångar | Signalvägens huvudsakliga utgångar i Ardours ruttmeny. |
 | Broadcast Wave | Broadcast Wave | Namnet på ljudfilformatet (BWF); det är inte en beskrivning av sändningsvågor. |
 | time-stretching | tidssträckning | Anpassning av ett klipps längd/tempo till sessionens tempokarta. |
+| varispeed | varispeed | Ardours etablerade namn för variabel uppspelnings- eller inspelningshastighet. I sammansättningar skrivs det med bindestreck, exempelvis **MTC-varispeed**. |
+| drag deadzone | dödzon för dragning | Inställning för den rörelse som krävs innan en dragåtgärd börjar påverka ett reglage. |
 | I/O resampling | I/O-omprovtagning | Omprovtagning som Ardour använder för uppspelning eller inspelning med vari-speed. |
 | peak | toppnivå | Signalens högsta nivå i krav på export och normalisering. |
 | peak file | toppfil | Analysfil som innehåller vågforms- eller toppinformation; `Rebuild` innebär att bygga om den, inte återställa den. |
