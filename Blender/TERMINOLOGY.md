@@ -19,6 +19,8 @@ Senast uppdaterad: 2026-11-04.
 | project | projekt | Avser Blenders projektkatalog och dess inställningar. |
 | project settings | projektinställningar | Exempel: *Open Project Settings* → *Öppna projektinställningar*. |
 | workspace | arbetsyta | Den etablerade UI-formen, exempelvis *Workspace* → *Arbetsyta*. |
+| pie menu | cirkelmeny | Följer den aktuella svenska Blender-UI-katalogen. |
+| timeout | tidsgräns | Exempel: *Animation Timeout* → *Animationstidsgräns*. |
 | linked | länkad | Exempel: *linked object* → *länkat objekt*. |
 | packed | packad | Exempel: *packed data-block* → *packat datablock*. |
 | parent | förälder | Blender-hierarki, exempelvis *Parent* → *Förälder*. |
