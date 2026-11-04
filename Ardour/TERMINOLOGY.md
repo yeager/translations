@@ -149,6 +149,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | corrupt cache file | skadad cachefil | Filen har ogiltigt eller skadat innehåll; `korrupt` undviks i svensk användartext. |
 | audio I/O bundle | bunt / ingångsbunt / utgångsbunt | Namngiven samling av Ardours ljudportar. I feltexter används `bunt`; med den variabla riktningen blir sammansättningen till exempel `ingångsbunt`. `paket` används inte eftersom det syftar på program- eller filpaket. |
 | unclean shutdown | okontrollerad avstängning | Processen avslutades utan ordnad nedstängning och portregistret behöver återställas; varken `orättvis` eller `smutsig` avstängning uttrycker betydelsen. |
+| control surface protocol | kontrollyteprotokoll | Protokoll för en extern fysisk eller virtuell kontrollyta; skrivs som svensk sammansättning, inte den brutna formen `kontrollyta-protokoll`. |
+| Rubber Band stretcher | Rubber Band-tidssträckare | Rubber Bands processor för ljudets tidssträckning i Ardour. Produktnamnet behålls, medan funktionsnamnet översätts. |
+| locate | gå till | Transportåtgärden flyttar spelhuvudet till en position; `positionera` är ett otydligt verb här. |
 
 ## Avsiktliga undantag
 
