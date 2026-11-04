@@ -26,6 +26,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | snapshot | ögonblicksbild | Sparat sessionsläge; inte datorskärmdump. |
 | timecode | tidskod | Video- och transportsynkronisering. |
 | transport master | transportmaster | Ardours synkroniseringskälla för transporten; ett sammansatt substantiv i svensk UI-text. |
+| VCA master | VCA-master | Ardours VCA-styrning för flera kanalers nivå; `master` behålls som etablerad ljudteknisk term. |
 | loudness analysis | ljudstyrkeanalys | Analys av ljudstyrka enligt export- och masterbussens kontext; inte en generell volymmätning. |
 | velocity | anslagsstyrka | MIDI-noters dynamiska styrvärde, inte fysisk hastighet. |
 | Video Server | videoserver | Ardours externa tjänst för videovisning och videohantering. |
