@@ -152,6 +152,10 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | control surface protocol | kontrollyteprotokoll | Protokoll för en extern fysisk eller virtuell kontrollyta; skrivs som svensk sammansättning, inte den brutna formen `kontrollyta-protokoll`. |
 | Rubber Band stretcher | Rubber Band-tidssträckare | Rubber Bands processor för ljudets tidssträckning i Ardour. Produktnamnet behålls, medan funktionsnamnet översätts. |
 | locate | gå till | Transportåtgärden flyttar spelhuvudet till en position; `positionera` är ett otydligt verb här. |
+| send / return | sändning / retur | Signalvägens sändning och returlänk. `send` är i dessa namn ett substantiv, inte imperativet `skicka`; `return` är inte programflödets `returnera`. |
+| foldback | medhörning | Separat återgivningssignal för medverkande eller musiker. |
+| Solo-Isolate propagation | soloisoleringsspridning | Intern signalvägsuppdatering av Ardours soloisolering; bind inte ihop den med engelska `Solo-Isolate`. |
+| Click I/O | klickets I/O | Klickmetronomens signalanslutningar; `Click` är ett substantiv här, inte uppmaningen `Klicka`. |
 
 ## Avsiktliga undantag
 
