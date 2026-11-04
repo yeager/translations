@@ -37,6 +37,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | sound on sound | ljud på ljud | Inspelningsläge där nya regioner läggs i ett lager och befintligt material fortfarande hörs. |
 | session | session | Etablerad DAW-term. |
 | Strip Silence | Ta bort tystnad | Verktyget klipper bort avsnitt under en angiven tystnadströskel utan att förstöra ursprungsljudet. |
+| state directory | tillståndskatalog | Katalog som hör till en sparad spårmall och innehåller dess tillståndsdata. Inte en statlig katalog. |
 | solo isolate | soloisolering | Förhindrar att ett spår tystas när andra spår solospelas. |
 | Slide (edit mode) | Flytta | Fritt redigeringsläge där regioner kan flyttas och överlappa. |
 | Ripple (edit mode) | Krusning | Etablerad term i svensk videoredigering; efterföljande regioner flyttas vid redigering. |
