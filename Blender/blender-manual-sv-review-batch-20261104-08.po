@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Manual\n"
+"PO-Revision-Date: 2026-11-04 12:15+0100\n"
+"Last-Translator: Daniel Nylander\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Glossary context: Action, ../../manual/glossary/index.rst:22.
+msgid ""
+"Blender's container for animation data.  In Blender, animatable :term"
+":`data-blocks <Data-Block>` do not store their own animation data, but "
+"instead store their animation data in actions."
+msgstr ""
+"Blenders behållare för animeringsdata. I Blender lagrar animerbara "
+":term:`datablock <Data-Block>` inte egna animeringsdata, utan lagrar dem "
+"i stället i åtgärder."
+
+#. Glossary context: Asset, ../../manual/glossary/index.rst:86.
+msgid ""
+"Curated data-blocks that are meant for reuse, usually contained in an "
+":term:`Asset Library`. See also :ref:`Asset Libraries <asset_libraries-"
+"introduction>`."
+msgstr ""
+"Utvalda datablock avsedda för återanvändning, vanligen i ett "
+"tillgångsbibliotek (:term:`Asset Library`). Se även "
+":ref:`Asset Libraries <asset_libraries-introduction>`."
+
+#. Glossary context: Asset Catalog, ../../manual/glossary/index.rst:94.
+msgid ""
+"Container for assets, similar to what a directory is for files. See also "
+":ref:`asset_libraries-catalogs`."
+msgstr ""
+"En behållare för tillgångar, på samma sätt som en katalog är en behållare "
+"för filer. Se även :ref:`asset_libraries-catalogs`."
+
+#. Glossary context: Asset Library, ../../manual/glossary/index.rst:98.
+msgid ""
+"Directory on drive, registered in the list of asset libraries in the "
+"preferences. See also :ref:`Asset Libraries <asset_libraries-"
+"introduction>` and :term:`Current File Asset Library`."
+msgstr ""
+"En katalog på en lagringsenhet, registrerad i listan över "
+"tillgångsbibliotek i inställningarna. Se även :ref:`Asset Libraries "
+"<asset_libraries-introduction>` och den aktuella filens tillgångsbibliotek "
+"(:term:`Current File Asset Library`)."
+
+#. Glossary context: Primaries, ../../manual/glossary/index.rst:740.
+msgid "Primaries"
+msgstr "Primärfärger"
+
+#. Glossary context: Color Space, ../../manual/glossary/index.rst:227.
+msgid ""
+"A color space is a coordinate system in which a vector represents a color"
+" value. The definition of a color space specifies three things:"
+msgstr ""
+"En färgrymd är ett koordinatsystem där en vektor representerar ett "
+"färgvärde. Definitionen av en färgrymd anger tre saker:"
+
+#. Glossary context: Color Space, ../../manual/glossary/index.rst:230.
+msgid "The exact color of each of the :term:`Primaries`."
+msgstr "Den exakta färgen hos var och en av :term:`Primärfärger`."
+
+#. Glossary context: Color Space, ../../manual/glossary/index.rst:231.
+msgid "The :term:`White Point`."
+msgstr ":term:`Vitpunkt`."
+
+#. Glossary context: Color Space, ../../manual/glossary/index.rst:232.
+msgid "A transfer function (also called a tone response curve)."
+msgstr "En överföringsfunktion (även kallad tonkurva)."
+
+#. Glossary context: Color Space, ../../manual/glossary/index.rst:234.
+msgid ""
+"The color spaces available in Blender depend on the active :ref:`OCIO "
+"config <ocio-config>`. The default supported color spaces are described "
+"in detail at :ref:`Default OpenColorIO Configuration <ocio-config-"
+"default-color-spaces>`."
+msgstr ""
+"Färgrymderna som är tillgängliga i Blender beror på den aktiva "
+":ref:`OCIO-konfigurationen <ocio-config>`. De färgrymder som stöds som "
+"standard beskrivs utförligt i :ref:`Standardkonfiguration för OpenColorIO "
+"<ocio-config-default-color-spaces>`."
+
+#. Glossary context: Linear Color Space, ../../manual/glossary/index.rst:239.
+msgid ""
+"A linear color space means that the numerical values of the color "
+"channels are directly proportional to light intensity. This is the most "
+"physically accurate representation of color and is used internally for "
+"rendering, shading, and compositing to ensure correct blending and "
+"lighting calculations."
+msgstr ""
+"En linjär färgrymd innebär att färgkanalernas numeriska värden är direkt "
+"proportionella mot ljusintensiteten. Det är den fysiskt mest korrekta "
+"färgåtergivningen och används internt för rendering, skuggning och "
+"komposition för att säkerställa korrekt blandning och korrekta "
+"ljusberäkningar."
+
+#. Glossary context: sRGB, ../../manual/glossary/index.rst:244.
+msgid ""
+"A widely used display-referred color space that uses the Rec.709 "
+":term:`Primaries` and a D65 white point. It applies an approximate 2.2 "
+"gamma transfer function to better match human perception of brightness. "
+"sRGB is the standard for monitors, images, and the web, making it the "
+"most common format for saving or displaying images outside of Blender."
+msgstr ""
+"En vanligt förekommande visningsanpassad färgrymd som använder Rec.709-"
+":term:`primärfärger` och en vitpunkt enligt D65. Den använder en ungefärlig "
+"gammaöverföringsfunktion på 2,2 för att bättre motsvara människans "
+"uppfattning av ljusstyrka. sRGB är standard för bildskärmar, bilder och "
+"webben och är därför det vanligaste formatet för att spara eller visa bilder "
+"utanför Blender."
+
+#. Glossary context: Color Space recommendations, ../../manual/glossary/index.rst:249.
+msgid ""
+"Linear color space is recommended for internal work, such as rendering "
+"and compositing."
+msgstr ""
+"Linjär färgrymd rekommenderas för internt arbete, till exempel rendering "
+"och komposition."
+
+#. Glossary context: Color Space recommendations, ../../manual/glossary/index.rst:250.
+msgid ""
+"sRGB is typically used for output images intended for screens and general"
+" distribution."
+msgstr ""
+"sRGB används vanligen för utdatabilder avsedda för bildskärmar och allmän "
+"distribution."
+
+#. Glossary context: Color Space recommendations, ../../manual/glossary/index.rst:251.
+msgid ""
+"Wide gamut and high dynamic range workflows may use other color spaces, "
+"such as ACES, depending on the active OCIO configuration."
+msgstr ""
+"Arbetsflöden med brett färgomfång och högt dynamiskt omfång kan använda "
+"andra färgrymder, till exempel ACES, beroende på den aktiva OCIO-"
+"konfigurationen."
+
+#. Glossary context: Rest Pose, ../../manual/glossary/index.rst:836.
+msgid ""
+"The initial transformations of a bone or whole Armature. Can also be "
+"called a default pose. Defined in Armature Edit Mode by the head, tail, "
+"and roll of each bone. Any constraint or driver-induced transformation is"
+" NOT part of the rest pose."
+msgstr ""
+"De ursprungliga transformeringarna för ett ben eller en hel armatur. Kan "
+"även kallas standardpos. Viloposen definieras i armaturens redigeringsläge "
+"av varje bens huvud, svans och vridning. Transformeringar som orsakas av "
+"begränsningar eller drivrutiner ingår inte i viloposen."
+
+#. Glossary context: White Point, ../../manual/glossary/index.rst:1009.
+msgid ""
+"A white point is defined by a set of `CIE illuminates "
+"<https://en.wikipedia.org/wiki/Standard_illuminant>`__ which correspond "
+"to a color temperature. For example, D65 corresponds to 6500 K light and "
+"D70 corresponds to 7000 K."
+msgstr ""
+"En vitpunkt definieras av en uppsättning `CIE-standardljuskällor "
+"<https://en.wikipedia.org/wiki/Standard_illuminant>`__ som motsvarar en "
+"färgtemperatur. Till exempel motsvarar D65 ljus med 6500 K och D70 ljus "
+"med 7000 K."
