@@ -70,3 +70,29 @@ misslyckad/pågående kontroll. De 16 signalerade PR:erna granskades manuellt.
 Inga nya säkra kodändringar återstod efter den kompletta uppföljningen. Externa
 miljöer, maintainergranskningar och uttryckliga projektpolicyer redovisas därför som
 uppföljning i stället för att döljas med rutinrebases eller spekulativa patchar.
+
+## Ny kontroll 4 november 2026, 17:38 CET
+
+GitHub API-kontrollen kördes igen för samtliga 126 öppna PR:er. Varje PR lästes med
+aktuell head, granskningsbeslut, kommentarer och statuskontroller. Sju PR:er hade
+antingen en kvarvarande äldre ändringsbegäran eller en misslyckad/avbruten kontroll:
+Console Shelf PS5 #3, TigerVNC #2167, FreeRDP #13388, ComfyUI Frontend #17064,
+Laya #729, LibreSpeed #860 och OpenClaw #160981.
+
+Ingen av dem har en ny, säker källkodsändring att lägga på nuvarande head:
+
+* Console Shelf, TigerVNC, FreeRDP och ComfyUI har inga olösta granskningstrådar på
+  aktuell kod. Deras äldre granskningsbeslut ändras av GitHub först när en maintainer
+  granskar på nytt.
+* Xemu #2837 kontrollerades särskilt eftersom två trådar fortfarande visas i PR-vyn.
+  Den aktuella headen `1ab255f230` bygger kataloger via det konfigurerade `make`-
+  målet endast när det finns, installerar dem endast när de finns och lämnar
+  Windows-updatearkiv platta tills äldre uppdaterare kan hantera underkataloger.
+  Därmed finns ingen aktuell paketeringsändring att tillämpa utan att återinföra den
+  kompatibilitetsrisk som robotkommentaren pekar på.
+* Laya, LibreSpeed och OpenClaw är externa uppföljningar enligt föregående avsnitt:
+  den efterfrågade MASSIVE-mätningen, maintainerns egna spår respektive verklig
+  iOS-evidens. De kan inte ersättas med en lokal gissning.
+
+Arbetskopian för Xemu var ren och `git diff --check` passerade. Inga spekulativa
+rebases, kommentarer eller källändringar skickades i denna kontroll.
