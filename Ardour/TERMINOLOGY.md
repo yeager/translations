@@ -30,6 +30,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | round-trip latency | rundreselatens | Sammanlagd latens för utgående och återgående I/O-signal. |
 | legatize | Gör legato | MIDI-redigeringsåtgärd som anpassar notlängder så att noterna binds samman. |
 | MIDI note | MIDI-not | `note` är **not** i musikkontext, aldrig teknisk anteckning. |
+| MIDI All Notes Off | MIDI-kommandot All Notes Off | Standardiserat MIDI-kanalmeddelande 123. Namnet behålls för igenkänning, men UI-texten anger att det är ett MIDI-kommando. |
 | Bars:Beats | Takter:slag | Musikaliskt tidsformat i linjal, klocka och exportval. |
 | MIDI program change | MIDI-programändring | MIDI-händelse som väljer program/klang; inte en allmän programförändring. |
 | MIDI patch / patch selection | MIDI-program / MIDI-programval | Väljare för MIDI-bank och -program; undvik oöversatta `patch` i svensk UI-text. |
@@ -54,6 +55,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | pre-/post-fader | före/efter fader | Mät- och sändningspunkt i signalflödet. |
 | preset | förinställning | Gäller insticksmoduler, export och sparade konfigurationer. |
 | region | region | Ardours avgränsade medieobjekt på tidslinjen, inte geografiskt område. |
+| opaque region | ogenomskinlig region | Inställningen gör att regioner på lager under den inte hörs; `ogenomskinlig` är den etablerade redigeringsmetaforen här, inte en optisk beskrivning av ljudet. |
 | region tempo | regionstempo | Tempostyrning som hör till en enskild region. |
 | region automation line | automatiseringslinje för regionen | Automatiseringskurva för en kontrollegenskap i en regioneffekt. |
 | route group / Collect Group | grupp / Samla grupp | En grupp kopplar samman spår eller bussar. Åtgärden placerar medlemmarna intill varandra i redigeraren eller mixern. |
