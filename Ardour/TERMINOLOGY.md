@@ -61,6 +61,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | loudness analysis | ljudstyrkeanalys | Analys av ljudstyrka enligt export- och masterbussens kontext; inte en generell volymmätning. |
 | limiter | begränsare | Processor som begränsar signalens toppnivå i masterbussens signalflöde. |
 | loudness | ljudstyrka | Mätbar upplevd ljudnivå, bland annat uttryckt i LUFS. |
+| clip tempo | klipptempo | Det tempo Ardour uppskattar för ett ljudklipp i en triggerplats; används som underlag för tidssträckning mot sessionens tempo. |
+| time-stretching | tidssträckning | Anpassning av ett klipps längd/tempo till sessionens tempokarta. |
 | peak | toppnivå | Signalens högsta nivå i krav på export och normalisering. |
 | outboard gear | extern utrustning | Extern ljudutrustning som kräver export i realtid. |
 | velocity | anslagsstyrka | MIDI-noters dynamiska styrvärde, inte fysisk hastighet. |
