@@ -34,6 +34,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Pinout | stiftkonfiguration | Knappen öppnar Ardours fönster för insticksmodulens in- och utgångsstift. Följer katalogens befintliga `Pin Configuration` → **Stiftkonfiguration**. |
 | MIDI Input Pins | MIDI-ingångar | MIDI-anslutningar till en insticksmodul; samma korta UI-term som ljudingångar. |
 | panner | panorerare | Reglage eller modul som placerar signalen i stereobilden eller surroundfältet. |
+| surround panner | surroundpanorerare | Panorerarmodul som placerar signaler i ett surroundfält. |
 | Stereo Panner | stereopanorerare | Stereo-varianten av Ardours panorerarmodul. |
 | pre-/post-fader | före/efter fader | Mät- och sändningspunkt i signalflödet. |
 | preset | förinställning | Gäller insticksmoduler, export och sparade konfigurationer. |
