@@ -8,8 +8,8 @@ Källa: Hosted Weblates autentiserade API,
 ## Kontext
 
 Myna Settings konfigurerar lokal taligenkänning/diktering, språkmodeller och
-diagnostik för Ubuntu. En aktuell Myna 0.2.4-release publicerades den
-19 oktober 2026 och uppfyller därmed färskhetskravet. I denna komponent
+diagnostik för Ubuntu. Den aktuella Myna 0.3.1-releasen publicerades den
+29 oktober 2026 och uppfyller därmed färskhetskravet. I denna komponent
 används `diktering`, `modell`, `diagnostik`, `integritetsskyddande` och
 `filsökväg` konsekvent.
 
