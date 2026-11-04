@@ -117,6 +117,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Smart Mode | smartläge | Redigerarläge som lägger vissa intervallfunktioner till flyttläget; skrivs som svensk sammansättning. |
 | I/O map | I/O-mappning | Insticksmodulens tilldelning av signalin- och utgångar. |
 | tempo map | tempokarta | Visningen i MIDI-filinformationen beskriver en karta med flera tempoavsnitt. |
+| VCA Assigns | VCA-tilldelningar | Mixerremsans visningsval för kopplingar till VCA-master; substantiv, inte verbet `tilldelar`. |
+| Monitor Buttons | monitorknappar | Mätarbryggans knappar för monitorfunktioner, inte en allmän övervakningskategori. |
+| Main Outs | huvudutgångar | Signalvägens huvudsakliga utgångar i Ardours ruttmeny. |
 | time-stretching | tidssträckning | Anpassning av ett klipps längd/tempo till sessionens tempokarta. |
 | I/O resampling | I/O-omprovtagning | Omprovtagning som Ardour använder för uppspelning eller inspelning med vari-speed. |
 | peak | toppnivå | Signalens högsta nivå i krav på export och normalisering. |
