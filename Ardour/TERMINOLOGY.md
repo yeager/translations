@@ -115,6 +115,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | rolling transport | när transporten rullar | Åsyftar pågående transport, inte nödvändigtvis aktiv inspelning. |
 | sustained / percussive note mode | uthålligt / perkussivt läge | MIDI-redigerarens visuella notlägen: uthållna toner ritas med längd, perkussiva toner som träffar. |
 | Smart Mode | smartläge | Redigerarläge som lägger vissa intervallfunktioner till flyttläget; skrivs som svensk sammansättning. |
+| Smart | smartläge | Den förkortade menyetiketten för samma redigerarläge som `Smart Mode`; den ska följa den fullständiga svenska formen. |
 | I/O map | I/O-mappning | Insticksmodulens tilldelning av signalin- och utgångar. |
 | tempo map | tempokarta | Visningen i MIDI-filinformationen beskriver en karta med flera tempoavsnitt. |
 | tempo mapping: end-stretch / mid-twist | tempokartläggning: slutsträcka / sträckning i mitten | Ångra-beskrivningar när en tempoändring dras vid slutet eller mellan omgivande tempopunkter. `mid-twist` är en sträckning av den mittersta delen, inte en oöversatt produktterm. |
