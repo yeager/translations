@@ -1,0 +1,786 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Manual\n"
+"PO-Revision-Date: 2026-11-04 09:45+0100\n"
+"Last-Translator: Daniel Nylander\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Library Override make editable behavior, ../../manual/files/linked_libraries/library_overrides.rst:222.
+msgid ""
+"That same operation can also be used to make existing overrides user-"
+"editable, after they have been created, or :ref:`cleared "
+"<bpy.ops.ui.override_idtemplate_clear>`"
+msgstr ""
+"Samma åtgärd kan också användas för att göra befintliga åsidosättningar "
+"redigerbara av användaren efter att de har skapats eller :ref:`rensats "
+"<bpy.ops.ui.override_idtemplate_clear>`"
+
+#. Library Override reset behavior, ../../manual/files/linked_libraries/library_overrides.rst:240.
+msgid ""
+"Reset the selected overrides to their original values (from the linked "
+"reference data). Unlike with the *Clear* operation, the overrides remain "
+"fully editable, and are never deleted."
+msgstr ""
+"Återställ de valda åsidosättningarna till deras ursprungliga värden (från "
+"länkade referensdata). Till skillnad från åtgärden *Clear* förblir "
+"åsidosättningarna fullt redigerbara och raderas aldrig."
+
+#. Library Override automatic operation, ../../manual/files/linked_libraries/library_overrides.rst:380.
+msgid ""
+"Usually, this operation happens automatically when blender detects it is "
+"needed, on file load, unless it is disabled in the :doc:`Experimental "
+"Preferences </editors/preferences/experimental>`."
+msgstr ""
+"Vanligtvis utför Blender åtgärden automatiskt vid filinläsning när den "
+"behövs, om den inte har inaktiverats i :doc:`Experimentella inställningar </"
+"editors/preferences/experimental>`."
+
+#. USDZ custom downsampling size heading, ../../manual/files/import_export/usd.rst:578.
+msgid "USDZ Custom Downscale Size"
+msgstr "Anpassad storlek för USDZ-nedsampling"
+
+#. USDZ custom downsampling size description, ../../manual/files/import_export/usd.rst:579.
+msgid "The size in pixels of the *Custom* downsampling."
+msgstr "Storleken i pixlar för den *anpassade* nedsamplingen."
+
+#. USD exporter limitations heading, ../../manual/files/import_export/usd.rst:607.
+msgid "Exporter Limitations"
+msgstr "Exportörens begränsningar"
+
+#. USD mesh sidedness heading, ../../manual/files/import_export/usd.rst:609.
+msgid "Single-sided and Double-sided Meshes"
+msgstr "Enkelsidiga och dubbelsidiga mesh"
+
+#. USD mesh sidedness description, ../../manual/files/import_export/usd.rst:610.
+msgid ""
+"USD seems to support neither per-material nor per-face-group double-"
+"sidedness, so Blender uses the flag from the first material to mark the "
+"entire mesh as single/double-sided. If there is no material it defaults to "
+"double-sided."
+msgstr ""
+"USD verkar varken stödja dubbelsidighet per material eller per ytgrupp, så "
+"Blender använder flaggan från det första materialet för att markera hela "
+"meshen som enkelsidig eller dubbelsidig. Om det inte finns något material är "
+"den dubbelsidig som standard."
+
+#. USD parent hair strands export, ../../manual/files/import_export/usd.rst:621.
+msgid ""
+"Only the parent strands are exported, and only with a constant color. No UV "
+"coordinates, and no information about the normals."
+msgstr ""
+"Endast föräldrahårstråna exporteras, och då bara med en konstant färg. UV-"
+"koordinater och normalinformation exporteras inte."
+
+#. USD Geometry Nodes modifiers heading, ../../manual/files/import_export/usd.rst:634.
+msgid "Geometry Node Modifiers"
+msgstr "Geometrinodmodifierare"
+
+#. USD instancing and referencing heading, ../../manual/files/import_export/usd.rst:643.
+msgid "Instancing/Referencing"
+msgstr "Instansiering/referenser"
+
+#. USD instanced object export support, ../../manual/files/import_export/usd.rst:644.
+msgid ""
+"Exporting instanced objects and collections is supported through an "
+"experimental option available during USD export."
+msgstr ""
+"Export av instansierade objekt och samlingar stöds genom ett experimentellt "
+"alternativ vid USD-export."
+
+#. USD scene instances export, ../../manual/files/import_export/usd.rst:655.
+msgid ""
+"Scene instances, created by directly instancing collections or objects, will "
+"be written to USD as references to the original. Supported object types "
+"include Mesh, Curves, and Point Clouds."
+msgstr ""
+"Sceninstanser som skapas genom att samlingar eller objekt instansieras "
+"direkt skrivs till USD som referenser till originalet. Objekttyper som stöds "
+"är mesh, kurvor och punktmoln."
+
+#. USDZ UDIM limitation, ../../manual/files/import_export/usd.rst:659.
+msgid ""
+"Due to a current limitation in the USD library, UDIM textures cannot be "
+"include in the USDZ archive. This limitation will likely be addressed in a "
+"future version of USD. (See `USD pull request #2133 <https://github.com/"
+"PixarAnimationStudios/OpenUSD/pull/2133>`__.)"
+msgstr ""
+"På grund av en aktuell begränsning i USD-biblioteket kan UDIM-texturer inte "
+"ingå i USDZ-arkivet. Begränsningen kommer troligen att åtgärdas i en "
+"framtida USD-version. (Se `USD-pullförfrågan #2133 <https://github.com/"
+"PixarAnimationStudios/OpenUSD/pull/2133>`__.)"
+
+#. USD Primvar data types heading, ../../manual/files/import_export/usd.rst:665.
+msgid "USD Primvar data types"
+msgstr "USD Primvar-datatyper"
+
+#. USD-to-Blender type column heading, ../../manual/files/import_export/usd.rst:678.
+msgid "Blender type"
+msgstr "Blender-typ"
+
+#. USD RGBA color import and export, ../../manual/files/import_export/usd.rst:709.
+msgid ""
+"RGBA color with 32-bit floating-point values. As a special case, when "
+"encountering a Primvar or attribute for USD's ``displayColor``, it will be "
+"read or written as ``color3f`` data with an Alpha component of 1.0."
+msgstr ""
+"RGBA-färg med 32-bitars flyttalsvärden. Som specialfall hanteras en Primvar "
+"eller ett attribut för USD:s ``displayColor`` som ``color3f``-data med en "
+"alfakomponent på 1,0."
+
+#. USD byte color conversion, ../../manual/files/import_export/usd.rst:714.
+msgid ""
+"USD does not provide a byte color equivalent. The byte values will be "
+"converted to float and exported as a color4f."
+msgstr ""
+"USD har ingen motsvarighet till bytefärg. Bytevärdena konverteras till "
+"flyttal och exporteras som color4f."
+
+#. USD quatf type description, ../../manual/files/import_export/usd.rst:719.
+msgid "Floating point :term:`Quaternion` rotation."
+msgstr "Flyttalsrotation med :term:`Quaternion`."
+
+#. USD unsupported Primvar types, ../../manual/files/import_export/usd.rst:724.
+msgid ""
+"Blender does not support USD Primvars using 64-bit integer values "
+"(``int64``), those using unsigned types (``uint``), or those using 64-bit "
+"double-precison or 16-bit half-precision floating-point values. For example, "
+"this would include such types as ``matrix4d`` (4x4 matrix of doubles) and "
+"``quath`` (half-precision quaternion)."
+msgstr ""
+"Blender har inte stöd för USD-primvars som använder 64-bitars heltalsvärden "
+"(``int64``), osignerade typer (``uint``) eller 64-bitars flyttal med dubbel "
+"precision eller 16-bitars flyttal med halv precision. Det omfattar "
+"exempelvis ``matrix4d`` (4×4-matris med flyttal med dubbel precision) och "
+"``quath`` (kvaternion med halv precision)."
+
+#. USD float4 import behavior, ../../manual/files/import_export/usd.rst:729.
+msgid ""
+"The USD ``float4`` data type has no direct Blender equivalent and will not "
+"be treated as a Blender ``Color`` or ``Quaternion``."
+msgstr ""
+"Datatypen USD ``float4`` har ingen direkt motsvarighet i Blender och "
+"behandlas inte som en Blender-``Color`` eller ``Quaternion``."
+
+#. Link menu path, ../../manual/files/linked_libraries/link_append.rst:28.
+msgid ":menuselection:`File --> Link...`"
+msgstr ":menuselection:`Arkiv --> Länka...`"
+
+#. Link behavior, ../../manual/files/linked_libraries/link_append.rst:30.
+msgid ""
+"*Link* creates a reference to data in a source file such that changes made "
+"there will be reflected in the current file the next time it is reloaded. In "
+"the :doc:`File Browser </editors/file_browser>`, navigate to the external "
+"source blend-file and select the data-blocks you want to reuse."
+msgstr ""
+"*Länka* skapar en referens till data i en källfil så att ändringar som görs "
+"där återspeglas i den aktuella filen nästa gång den läses in på nytt. "
+"I :doc:`filbläddraren </editors/file_browser>` navigerar du till den externa "
+"källfilen av typen blend och väljer de datablock du vill återanvända."
+
+#. Linked data-block indicator, ../../manual/files/linked_libraries/link_append.rst:35.
+msgid ""
+"Linked data-blocks are indicated with a chain icon in the :doc:`Outliner </"
+"editors/outliner/introduction>`. They're also listed in the Outliner's "
+"*Blender File* :ref:`bpy.types.SpaceOutliner.display_mode`, along with the "
+"path of the blend-file they originate from."
+msgstr ""
+"Länkade datablock visas med en kedjeikon i :doc:`Outliner </editors/outliner/"
+"introduction>`. De listas också i Outliners *Blender-"
+"fil* :ref:`bpy.types.SpaceOutliner.display_mode`, tillsammans med sökvägen "
+"till den blend-fil de kommer från."
+
+#. Linked collection instance settings, ../../manual/files/linked_libraries/link_append.rst:43.
+msgid ""
+"If you link a collection with *Instance Collections* enabled or "
+"some :doc:`object data </scene_layout/object/introduction>` with *Instance "
+"Object Data* enabled, the collection/object data will be referenced through "
+"an object created inside the current blend-file, which *can* be transformed. "
+"(This new object will be created at the :ref:`editors-3dview-3d_cursor`.)"
+msgstr ""
+"Om du länkar en samling med *Instanssamlingar* aktiverat "
+"eller :doc:`objektdata </scene_layout/object/introduction>` med "
+"*Instansobjektdata* aktiverat, refereras samlingen respektive objektdata "
+"genom ett objekt som skapas i den aktuella blend-filen och som *kan* "
+"transformeras. (Det nya objektet skapas vid :ref:`editors-3dview-3d_cursor`.)"
+
+#. Library overrides, ../../manual/files/linked_libraries/link_append.rst:48.
+msgid ""
+"You can also do some level of editing/animating on linked (and thus normally "
+"locked) data-blocks using :doc:`Library Overrides </files/linked_libraries/"
+"library_overrides>`."
+msgstr ""
+"Du kan också redigera eller animera länkade (och därmed normalt låsta) "
+"datablock till viss del med :doc:`biblioteksåsidosättanden </files/"
+"linked_libraries/library_overrides>`."
+
+#. Linked data protection, ../../manual/files/linked_libraries/link_append.rst:53.
+msgid ""
+"Since it is not editable, linked data cannot be :ref:`protected with the "
+"Fake User option <data-system-datablock-fake-user>`. Adding a :doc:`custom "
+"property </files/custom_properties>` pointing to an otherwise unused linked "
+"data-block (e.g. a Text block) is a good way to keep it referenced across "
+"saves and reloads."
+msgstr ""
+"Eftersom länkade data inte är redigerbara kan de inte :ref:`skyddas med "
+"alternativet Falsk användare <data-system-datablock-fake-user>`. Att lägga "
+"till en :doc:`anpassad egenskap </files/custom_properties>` som pekar på ett "
+"annars oanvänt länkat datablock (t.ex. ett textblock) är ett bra sätt att "
+"behålla referensen vid sparning och omladdning."
+
+#. Linked collection instancing, ../../manual/files/linked_libraries/link_append.rst:73.
+msgid ""
+"When enabled, each linked collection will be added to the scene as "
+"an :doc:`instance collection </scene_layout/object/properties/instancing/"
+"collection>` (that is, a single object that represents the entire "
+"collection). You can add more such instances using :menuselection:`Add --> "
+"Collection Instance`, or replace an instance by the collection contents "
+"using :ref:`bpy.ops.object.duplicates_make_real`."
+msgstr ""
+"När den är aktiverad läggs varje länkad samling till i scenen som "
+"en :doc:`samlingsinstans </scene_layout/object/properties/instancing/"
+"collection>` (det vill säga ett enda objekt som representerar hela "
+"samlingen). Du kan lägga till fler sådana instanser via :menuselection:`Lägg "
+"till --> Samlingsinstans` eller ersätta en instans med samlingens innehåll "
+"med hjälp av :ref:`bpy.ops.object.duplicates_make_real`."
+
+#. Linked collection handling, ../../manual/files/linked_libraries/link_append.rst:79.
+msgid ""
+"When disabled, the collections will be added as-is so you can see their "
+"content in the Outliner and create Library Overrides."
+msgstr ""
+"När den är inaktiverad läggs samlingarna till i befintligt skick så att du "
+"kan se deras innehåll i Outliner och skapa biblioteksåsidosättanden."
+
+#. Linked object-data handling, ../../manual/files/linked_libraries/link_append.rst:82.
+msgid ""
+"When enabled, an object will be created for each directly linked object "
+"data. Otherwise, no object will be created and the object data will not be "
+"visible in the scene until you create one yourself (e.g. by dragging the "
+"object data from the Outliner into the 3D Viewport)."
+msgstr ""
+"När funktionen är aktiverad skapas ett objekt för varje direkt länkad "
+"objektdata. I annat fall skapas inget objekt och objektdata syns inte i "
+"scenen förrän du själv skapar ett, till exempel genom att dra objektdata "
+"från Outliner till 3D-vyporten."
+
+#. Appended collection instancing, ../../manual/files/linked_libraries/link_append.rst:126.
+msgid ""
+"When enabled, each appended collection will be added to the scene as "
+"an :doc:`instance collection </scene_layout/object/properties/instancing/"
+"collection>` (that is, a single object that represents the entire "
+"collection). You can add more such instances using :menuselection:`Add --> "
+"Collection Instance`, or replace an instance by the collection contents "
+"using :ref:`bpy.ops.object.duplicates_make_real`."
+msgstr ""
+"När den är aktiverad läggs varje tillagd samling till i scenen som "
+"en :doc:`samlingsinstans </scene_layout/object/properties/instancing/"
+"collection>` (det vill säga ett enda objekt som representerar hela "
+"samlingen). Du kan lägga till fler sådana instanser via :menuselection:`Lägg "
+"till --> Samlingsinstans` eller ersätta en instans med samlingens innehåll "
+"med hjälp av :ref:`bpy.ops.object.duplicates_make_real`."
+
+#. Appended object-data handling, ../../manual/files/linked_libraries/link_append.rst:135.
+msgid ""
+"When enabled, an object will be created for each directly appended object "
+"data. Otherwise, no object will be created and the object data will not be "
+"visible in the scene until you create one yourself (e.g. by dragging the "
+"object data from the Outliner into the 3D Viewport)."
+msgstr ""
+"När funktionen är aktiverad skapas ett objekt för varje direkt tillagd "
+"objektdata. I annat fall skapas inget objekt och objektdata syns inte i "
+"scenen förrän du själv skapar ett, till exempel genom att dra objektdata "
+"från Outliner till 3D-vyporten."
+
+#. Appended protected data, ../../manual/files/linked_libraries/link_append.rst:140.
+msgid ""
+"Marks the appended data-blocks as :ref:`Protected <data-system-datablock-"
+"fake-user>`."
+msgstr ""
+"Markerar de tillagda datablocken som :ref:`Protected <data-system-datablock-"
+"fake-user>`."
+
+#. Reload linked library, ../../manual/files/linked_libraries/link_append.rst:155.
+msgid ""
+"When the Outliner is in the *Blender "
+"File* :ref:`bpy.types.SpaceOutliner.display_mode`, you can right-click a "
+"linked blend-file and choose *Reload* to immediately update the current "
+"blend-file with the latest version of the linked data-blocks, without having "
+"to reopen the file."
+msgstr ""
+"När Outliner är inställd på *Blender-"
+"fil* :ref:`bpy.types.SpaceOutliner.display_mode` kan du högerklicka på en "
+"länkad blend-fil och välja *Ladda om* för att omedelbart uppdatera den "
+"aktuella blend-filen med den senaste versionen av de länkade datablocken, "
+"utan att behöva öppna filen igen."
+
+#. Relocate linked library, ../../manual/files/linked_libraries/link_append.rst:168.
+msgid ""
+"When the Outliner is in the *Blender "
+"File* :ref:`bpy.types.SpaceOutliner.display_mode`, a right-click on a "
+"library (a linked blend-file) will show the *Relocate* option. It allows to "
+"replace it by a different file. This can be used to either fix a broken "
+"linked library (e.g. because the file was moved or renamed), or to switch to "
+"a variation of the same data in a different file."
+msgstr ""
+"När Outliner är inställd på *Blender-"
+"fil* :ref:`bpy.types.SpaceOutliner.display_mode` visas alternativet *Flytta* "
+"när du högerklickar på ett bibliotek (en länkad blend-fil). Det låter dig "
+"ersätta biblioteket med en annan fil. Det kan användas för att antingen "
+"åtgärda ett trasigt länkat bibliotek, till exempel eftersom filen har "
+"flyttats eller bytt namn, eller för att växla till en variant av samma data "
+"i en annan fil."
+
+#. Restore missing linked library, ../../manual/files/linked_libraries/link_append.rst:178.
+msgid ""
+"If Blender cannot find a library while loading a blend-file, it will create "
+"placeholder data-blocks to replace missing linked ones. That way, references "
+"to the missing data are not lost, and by relocating the missing library, the "
+"lost data can be automatically restored."
+msgstr ""
+"Om Blender inte kan hitta ett bibliotek när en blend-fil laddas skapas "
+"platshållardatablock som ersätter de länkade datablock som saknas. På så "
+"sätt går referenser till de saknade data inte förlorade, och genom att ange "
+"den nya platsen för det saknade biblioteket kan de förlorade data "
+"automatiskt återställas."
+
+#. Relocate linked ID menu path, ../../manual/files/linked_libraries/link_append.rst:190.
+msgid ":menuselection:`Context menu --> Data-block --> Relocate`"
+msgstr ":menuselection:`Kontextmeny --> Datablock --> Flytta`"
+
+#. Relocate linked ID behavior, ../../manual/files/linked_libraries/link_append.rst:192.
+msgid ""
+"A right-click a linked ID will show the *Relocate* option in the *Data-"
+"Block* sub-menu. It allows to relocate a directly linked ID by another one, "
+"from the same library or from a different one. This can be used to either "
+"fix a broken linked data-block (e.g. because the ID was renamed), or to "
+"switch to a variation of the same data."
+msgstr ""
+"När du högerklickar på ett länkat ID visas alternativet *Flytta* i "
+"undermenyn *Datablock*. Det gör det möjligt att ersätta ett direktlänkat ID "
+"med ett annat från samma eller ett annat bibliotek. Det kan användas för att "
+"antingen åtgärda ett trasigt länkat datablock, till exempel eftersom ID:t "
+"har bytt namn, eller växla till en variant av samma data."
+
+#. Make local menu path, ../../manual/files/linked_libraries/link_append.rst:212.
+msgid ":menuselection:`Object --> Relations --> Make Local...`"
+msgstr ":menuselection:`Objekt --> Relationer --> Gör lokalt...`"
+
+#. Make local data-block menu path, ../../manual/files/linked_libraries/link_append.rst:217.
+msgid ":menuselection:`Context menu --> Data-block --> Make Local`"
+msgstr ":menuselection:`Kontextmeny --> Datablock --> Gör lokalt`"
+
+#. Make local from Outliner, ../../manual/files/linked_libraries/link_append.rst:228.
+msgid ""
+"The operation available from the Outliner's context menu has no options and "
+"only affects the selected data-blocks."
+msgstr ""
+"Åtgärden i Outliners kontextmeny har inga alternativ och påverkar endast de "
+"valda datablocken."
+
+#. Make local from viewport, ../../manual/files/linked_libraries/link_append.rst:231.
+msgid ""
+"The operation available from the 3D Viewport only affects the selected "
+"objects, but it can also make local the objects' dependencies:"
+msgstr ""
+"Åtgärden i 3D-vyporten påverkar endast de valda objekten, men kan även göra "
+"objektens beroenden lokala:"
+
+#. Make local scope, ../../manual/files/linked_libraries/link_append.rst:235.
+msgid ""
+"Whether to localize only the objects themselves, or also their data and "
+"materials."
+msgstr ""
+"Om endast själva objekten ska göras lokala eller även deras data och "
+"material."
+
+#. Action Slots heading, ../../manual/animation/actions.rst:30.
+msgid "Action Slots"
+msgstr "Åtgärdsslotar"
+
+#. Action Slots introduction, ../../manual/animation/actions.rst:32.
+msgid ""
+"The animation data inside an action is further organized into *Slots*. The "
+"slot describes *what the animation is for*. For example, you're animating a "
+"sphere that orbits a cube, standing in for a moon orbiting a (cubic) planet. "
+"These can be animated with one Action using two Slots, one named \"Planet\" "
+"and the other \"Moon\"."
+msgstr ""
+"Animeringsdata i en åtgärd organiseras vidare i *slotar*. En slot beskriver "
+"*vad animeringen avser*. Du kan till exempel animera en sfär som kretsar "
+"kring en kub och föreställer en måne som kretsar kring en kubisk planet. "
+"Detta kan animeras med en åtgärd som använder två slotar, den ena med namnet "
+"\"Planet\" och den andra med namnet \"Moon\"."
+
+#. Action and Slot summary, ../../manual/animation/actions.rst:37.
+msgid ""
+"**In short: The Action name describes the animation, the Slot names describe "
+"the subjects of that animation.**"
+msgstr ""
+"**Kort sagt: Åtgärdens namn beskriver animeringen, och slotarnas namn "
+"beskriver vad som animeras.**"
+
+#. Action data and slots, ../../manual/animation/actions.rst:39.
+msgid ""
+"Each action has a set of slots, and different animation data for each of "
+"those slots. An animated data-block then specifies both an action and a slot "
+"within that action, determining which animation data the data-block is "
+"animated by."
+msgstr ""
+"Varje åtgärd har en uppsättning slotar och olika animeringsdata för var och "
+"en av dem. Ett animerat datablock anger sedan både en åtgärd och en slot "
+"inom åtgärden, vilket bestämmer vilka animeringsdata datablocket animeras av."
+
+#. Action and slot selectors, ../../manual/animation/actions.rst:45.
+msgid ""
+"Action selector and its accompanying slot selector in the properties of an "
+"object, for seeing and selecting which action and slot animate the object."
+msgstr ""
+"Åtgärdsväljaren och den tillhörande slotväljaren i ett objekts egenskaper, "
+"för att se och välja vilken åtgärd och vilken slot som animerar objektet."
+
+#. F-Curves introduction, ../../manual/animation/actions.rst:131.
+msgid ""
+":doc:`F-Curves </editors/graph_editor/fcurves/introduction>` are the "
+"fundamental unit of animation in Blender, and are the main kind of animation "
+"data that actions contain. Each F-Curve contains keyframes that define how a "
+"property (such as the X location of an object) should change over time."
+msgstr ""
+":doc:`F-kurvor </editors/graph_editor/fcurves/introduction>` är den "
+"grundläggande enheten för animering i Blender och den huvudsakliga typen av "
+"animeringsdata som åtgärder innehåller. Varje F-kurva innehåller "
+"nyckelbilder som anger hur en egenskap, exempelvis ett objekts X-position, "
+"ska förändras över tid."
+
+#. Graph Editor caption, ../../manual/animation/actions.rst:138.
+msgid ""
+":doc:`Graph Editor</editors/graph_editor/introduction>`, displaying three F-"
+"Curves for three different properties."
+msgstr ""
+":doc:`Grafredigeraren </editors/graph_editor/introduction>`, som visar tre F-"
+"kurvor för tre olika egenskaper."
+
+#. Dopesheet Editor caption, ../../manual/animation/actions.rst:148.
+msgid ""
+"The :doc:`Dopesheet Editor's </editors/dope_sheet/introduction>` channel "
+"list, with the animated channels of various bones grouped under their bone "
+"names."
+msgstr ""
+"Kanallistan i :doc:`Dopebladet </editors/dope_sheet/introduction>`, där de "
+"animerade kanalerna för olika ben är grupperade under bennamnen."
+
+#. Manual assignment of Actions and Slots, ../../manual/animation/actions.rst:194.
+msgid ""
+"In addition to letting Blender automatically choose an action and slot for a "
+"data-block, you can also manually assign them. This can be used to assign "
+"existing animation to a data-block by selecting both the action and slot. It "
+"can also be used to specify an action for a data-block's keys to go into, by "
+"assigning the action but leaving the slot blank, in which case a new slot "
+"will be created when the first key is set."
+msgstr ""
+"Förutom att låta Blender automatiskt välja en åtgärd och en slot för ett "
+"datablock kan du även tilldela dem manuellt. Du kan då tilldela en befintlig "
+"animering till ett datablock genom att välja både åtgärden och sloten. Du "
+"kan också ange i vilken åtgärd ett datablocks nyckelbilder ska lagras genom "
+"att tilldela åtgärden men lämna sloten tom; då skapas en ny slot när den "
+"första nyckelbilden anges."
+
+#. Speaker Animation Panel, ../../manual/animation/actions.rst:221.
+msgid ":ref:`Speaker Animation Panel <object-speaker-properties-animation>`"
+msgstr ""
+":ref:`Högtalarens animeringspanel <object-speaker-properties-animation>`"
+
+#. Movie Clip Animation Panel, ../../manual/animation/actions.rst:222.
+msgid ":ref:`Movie Clip Animation Panel <clip-properties-animation>`"
+msgstr ":ref:`Filmklippets animeringspanel <clip-properties-animation>`"
+
+#. Node Group Animation Panel, ../../manual/animation/actions.rst:224.
+msgid ":ref:`Node Group Animation Panel <node-group-properties-animation>`"
+msgstr ":ref:`Nodgruppens animeringspanel <node-group-properties-animation>`"
+
+#. Mesh bevel menu paths, ../../manual/modeling/meshes/editing/edge/bevel.rst:10,14.
+msgid ""
+":menuselection:`Vertex --> Bevel Vertices`, :menuselection:`Edge --> Bevel "
+"Edges`"
+msgstr ""
+":menuselection:`Hörnpunkt --> Fasa hörnpunkter`, :menuselection:`Kant --> "
+"Fasa kanter`"
+
+#. Mesh bevel shortcuts, ../../manual/modeling/meshes/editing/edge/bevel.rst:11,15.
+msgid ":kbd:`Shift-Ctrl-B` (Bevel Vertices), :kbd:`Ctrl-B` (Bevel Edges)"
+msgstr ":kbd:`Shift-Ctrl-B` (Fasa hörnpunkter), :kbd:`Ctrl-B` (Fasa kanter)"
+
+#. Mesh bevel comparison caption, ../../manual/modeling/meshes/editing/edge/bevel.rst:18,22.
+msgid "Cubes without and with bevel."
+msgstr "Kuber utan respektive med fasning."
+
+#. Bevel modifier reference, ../../manual/modeling/meshes/editing/edge/bevel.rst:22,26.
+msgid ""
+"The :doc:`/modeling/modifiers/generate/bevel` does this non-destructively."
+msgstr ""
+":doc:`Avfasningsmodifieraren </modeling/modifiers/generate/bevel>` utför "
+"detta icke-destruktivt."
+
+#. Bevel caption, ../../manual/modeling/meshes/editing/edge/bevel.rst:38,42,139,143,162,166.
+msgid "Before beveling."
+msgstr "Före fasning."
+
+#. Bevel width caption, ../../manual/modeling/meshes/editing/edge/bevel.rst:42,46.
+msgid "Increased bevel width."
+msgstr "Ökad fasningsbredd."
+
+#. Bevel segments caption, ../../manual/modeling/meshes/editing/edge/bevel.rst:46,50.
+msgid "Increased bevel segments."
+msgstr "Fler fasningssegment."
+
+#. Vertex bevel operation, ../../manual/modeling/meshes/editing/edge/bevel.rst:61,65.
+msgid "Bevel the selected vertices, leaving the edges unchanged."
+msgstr "Fasa de markerade hörnpunkterna utan att ändra kanterna."
+
+#. Bevel profile shape, ../../manual/modeling/meshes/editing/edge/bevel.rst:111,115.
+msgid "Profile Shape :kbd:`P`"
+msgstr "Profilform :kbd:`P`"
+
+#. Bevel loop slide state, ../../manual/modeling/meshes/editing/edge/bevel.rst:143,147.
+msgid "Loop Slide off."
+msgstr "Slingglidning av."
+
+#. Bevel loop slide state, ../../manual/modeling/meshes/editing/edge/bevel.rst:147,151.
+msgid "Loop Slide on."
+msgstr "Slingglidning på."
+
+#. Bevel sharp edges option, ../../manual/modeling/meshes/editing/edge/bevel.rst:155,159.
+msgid ""
+"Same as *Mark Seams*, but for :ref:`Sharp <bpy.ops.mesh.mark_sharp>` edges."
+msgstr ""
+"Samma som *Markera sömmar*, men för :ref:`skarpa kanter "
+"<bpy.ops.mesh.mark_sharp>`."
+
+#. Material displacement setup, ../../manual/render/materials/components/displacement.rst:7.
+msgid ""
+"To create displacement, connect a :doc:`Displacement </render/shader_nodes/"
+"displacement/displacement>` or :doc:`Vector Displacement </render/"
+"shader_nodes/displacement/vector_displacement>` node to the displacement "
+"input of the Material Output node. Procedural, painted or baked textures can "
+"then be connected to these nodes."
+msgstr ""
+"För att skapa förskjutning ansluter du en :doc:`Förskjutning </render/"
+"shader_nodes/displacement/displacement>`- eller :doc:`Vektorförskjutning </"
+"render/shader_nodes/displacement/vector_displacement>`-nod till "
+"förskjutningsingången i Materialutdata-noden. Procedurella, målade eller "
+"bakade texturer kan sedan anslutas till dessa noder."
+
+#. Adaptive subdivision for displacement, ../../manual/render/materials/components/displacement.rst:50.
+msgid ""
+"It requires the mesh to be finely subdivided, which can be memory "
+"intensive. :ref:`Adaptive Subdivision <modifiers-generate-subsurf-adaptive-"
+"subdivision>` is the best way to subdivide the mesh, so that exactly the "
+"right amount of subdivision is used depending on the distance of the object "
+"to the camera."
+msgstr ""
+"Det kräver att meshen är fint underindelad, vilket kan vara "
+"minneskrävande. :ref:`Adaptiv underindelning <modifiers-generate-subsurf-"
+"adaptive-subdivision>` är det bästa sättet att underindela meshen, så att "
+"exakt rätt mängd underindelning används utifrån objektets avstånd till "
+"kameran."
+
+#. Legacy textures heading, ../../manual/render/materials/legacy_textures/types/index.rst:4.
+msgid "Legacy Texture Types"
+msgstr "Äldre texturtyper"
+
+#. Action and slot selectors, ../../manual/animation/actions.rst:201.
+msgid ""
+"For each data-block in the properties editor there is an Animation panel "
+"with action and slot selectors. You can use these to assign actions and "
+"slots to a data-block."
+msgstr ""
+"För varje datablock i egenskapsredigeraren finns en animeringspanel med "
+"väljare för åtgärd och slot. Du kan använda dem för att tilldela åtgärder "
+"och slotar till ett datablock."
+
+#. Camera action and slot selector, ../../manual/animation/actions.rst:207.
+msgid ""
+"The action and slot selector for Camera data in the :doc:`Properties Editor "
+"</editors/properties_editor>`."
+msgstr ""
+"Väljaren för åtgärd och slot för kameradata i :doc:`egenskapsredigeraren </"
+"editors/properties_editor>`."
+
+#. Active-object action and slot selector, ../../manual/animation/actions.rst:210.
+msgid ""
+"For the active object you can also assign its action and slot in the action "
+"Editor's header."
+msgstr ""
+"För det aktiva objektet kan du även tilldela dess åtgärd och slot i "
+"åtgärdsredigerarens rubrik."
+
+#. Scene Animation Panel, ../../manual/animation/actions.rst:220.
+msgid ":ref:`Scene Animation Panel <scene-properties-animation>`"
+msgstr ":ref:`Scenens animeringspanel <scene-properties-animation>`"
+
+#. Mask Animation Panel, ../../manual/animation/actions.rst:223.
+msgid ":ref:`Mask Animation Panel <mask-properties-animation>`"
+msgstr ":ref:`Maskens animeringspanel <mask-properties-animation>`"
+
+#. Switching Actions heading, ../../manual/animation/actions.rst:243.
+msgid "Switching the Action on Multiple Data-Blocks"
+msgstr "Byta åtgärd för flera datablock"
+
+#. Switching Actions description, ../../manual/animation/actions.rst:245.
+msgid ""
+"When working with an action that animates multiple data-blocks, you may need "
+"to swap out that action to a different one. And do that on all those data-"
+"blocks simultaneously, so that animation that belongs together, is swapped "
+"together. For this there are two options."
+msgstr ""
+"När du arbetar med en åtgärd som animerar flera datablock kan du behöva "
+"ersätta den med en annan åtgärd. Gör det samtidigt för alla dessa datablock, "
+"så att animering som hör ihop byts ut tillsammans. Det finns två alternativ "
+"för detta."
+
+#. Replace Action, ../../manual/animation/actions.rst:250.
+msgid "Replace Action"
+msgstr "Ersätt åtgärd"
+
+#. Replace Action description, ../../manual/animation/actions.rst:251.
+msgid ""
+"Looks at the action of the active object and swaps it on any object that is "
+"directly animated by it. This excludes usage in NLA strips and action "
+"constraints. It can be found in the :ref:`Action Editor "
+"<bpy.ops.anim.replace_action>`."
+msgstr ""
+"Använder åtgärden för det aktiva objektet och ersätter den för alla objekt "
+"som animeras direkt av den. Användning i NLA-remsor och åtgärdsbegränsningar "
+"omfattas inte. Funktionen finns i :ref:`Åtgärdsredigeraren "
+"<bpy.ops.anim.replace_action>`."
+
+#. Remap Users, ../../manual/animation/actions.rst:255.
+msgid "Remap Users"
+msgstr "Omdirigera användare"
+
+#. Remap Users description, ../../manual/animation/actions.rst:256.
+msgid ""
+"Right click the action in the outliner and choose :ref:`Remap Users "
+"<bpy.ops.outliner.id_operation>`. This will replace the usage on *all* "
+"users, including NLA strips and action constraints. Use with caution."
+msgstr ""
+"Högerklicka på åtgärden i Outliner och välj :ref:`Omdirigera användare "
+"<bpy.ops.outliner.id_operation>`. Detta ersätter användningen för *alla* "
+"användare, även NLA-remsor och åtgärdsbegränsningar. Använd med försiktighet."
+
+#. NLA action assignment, ../../manual/animation/actions.rst:263.
+msgid ""
+"Actions can also be assigned to NLA strips within a data-block's NLA system. "
+"Please see the documentation for the :doc:`NLA Editor </editors/nla/"
+"introduction>` for how to animate data-blocks via the NLA system."
+msgstr ""
+"Åtgärder kan även tilldelas NLA-remsor i ett datablocks NLA-system. Se "
+"dokumentationen för :doc:`NLA-redigeraren </editors/nla/introduction>` för "
+"information om hur du animerar datablock via NLA-systemet."
+
+#. Bone roll definition, ../../manual/animation/armatures/bones/editing/bone_roll.rst:7.
+msgid ""
+"The bone roll is a part of a bone's :term:`rest pose` defining its default "
+"rotation around the bone's length. You can control the bone roll in *Edit "
+"Mode*."
+msgstr ""
+"Benrullningen är en del av ett bens :term:`viloposition <rest pose>` och "
+"anger dess standardrotation kring benets längd. Du kan styra benrullningen i "
+"*redigeringsläge*."
+
+#. Recalculate Roll description, ../../manual/animation/armatures/bones/editing/bone_roll.rst:21.
+msgid ""
+"Automatically align the roll of all selected bones to various points of "
+"reference."
+msgstr ""
+"Justerar automatiskt rullningen för alla markerade ben efter olika "
+"referenspunkter."
+
+#. Local tangent, ../../manual/animation/armatures/bones/editing/bone_roll.rst:24.
+msgid "Local (X, Z, -X, -Z) Tangent"
+msgstr "Lokal tangent (X, Z, -X, -Z)"
+
+#. Global axis, ../../manual/animation/armatures/bones/editing/bone_roll.rst:30.
+msgid "Global (X, Y, Z, -X, -Y, -Z) Axis"
+msgstr "Global axel (X, Y, Z, -X, -Y, -Z)"
+
+#. Cursor alignment, ../../manual/animation/armatures/bones/editing/bone_roll.rst:39.
+msgid ""
+"Align the roll of the selected bones such that their Z axis points at the 3D "
+"cursor."
+msgstr ""
+"Justera rullningen för de markerade benen så att deras Z-axel pekar mot 3D-"
+"markören."
+
+#. Reverse Roll result, ../../manual/animation/armatures/bones/editing/bone_roll.rst:41.
+msgid "Change the result by 180°."
+msgstr "Ändra resultatet med 180°."
+
+#. Tweak Roll, ../../manual/animation/armatures/bones/editing/bone_roll.rst:57.
+msgid "Tweak the roll of all selected bones."
+msgstr "Justera rullningen för alla markerade ben."
+
+#. Clear Roll, ../../manual/animation/armatures/bones/editing/bone_roll.rst:62.
+msgid "Clear Roll"
+msgstr "Rensa rullning"
+
+#. Clear Roll menu, ../../manual/animation/armatures/bones/editing/bone_roll.rst:67.
+msgid ":menuselection:`Armature --> Bone Roll --> Clear Roll`"
+msgstr ":menuselection:`Armatur --> Benrullning --> Rensa rullning`"
+
+#. Clear Roll description, ../../manual/animation/armatures/bones/editing/bone_roll.rst:70.
+msgid "Set the roll of all selected bones to 0°."
+msgstr "Ställer in rullningen för alla markerade ben på 0°."
+
+#. Delete bones, ../../manual/animation/armatures/bones/editing/delete.rst:17.
+msgid "This tool deletes selected bones, selected *joints* are ignored."
+msgstr "Verktyget tar bort markerade ben; markerade *leder* ignoreras."
+
+#. Duplicate and Rename, ../../manual/animation/armatures/bones/editing/duplicate_rename.rst:5.
+msgid "Duplicate and Rename"
+msgstr "Duplicera och byt namn"
+
+#. Duplicate and Rename menu, ../../manual/animation/armatures/bones/editing/duplicate_rename.rst:10.
+msgid ":menuselection:`Armature --> Duplicate and Rename`"
+msgstr ":menuselection:`Armatur --> Duplicera och byt namn`"
+
+#. Duplicate and Rename description, ../../manual/animation/armatures/bones/editing/duplicate_rename.rst:12.
+msgid ""
+"Duplicates the selected bones and automatically renames the copies by "
+"replacing part of their names."
+msgstr ""
+"Duplicerar de markerade benen och byter automatiskt namn på kopiorna genom "
+"att ersätta delar av deras namn."
+
+#. Duplicate and Rename API description, ../../manual/animation/armatures/bones/editing/duplicate_rename.rst:14.
+msgid ""
+"This operator behaves similarly to :ref:`bpy.ops.armature.duplicate_move`, "
+"preserving parenting and connectivity relationships between duplicated bones "
+"where possible."
+msgstr ""
+"Den här operatorn fungerar på liknande sätt "
+"som :ref:`bpy.ops.armature.duplicate_move` och bevarar, när det är möjligt, "
+"föräldra- och anslutningsrelationer mellan duplicerade ben."
+
+#. Duplicate positioning, ../../manual/animation/armatures/bones/editing/duplicate_rename.rst:17.
+msgid ""
+"The duplicated bones become selected and can immediately be repositioned."
+msgstr ""
+"De duplicerade benen markeras och kan genast flyttas till en ny position."
+
+#. Mirrored rigs, ../../manual/animation/armatures/bones/editing/duplicate_rename.rst:19.
+msgid ""
+"This is useful for creating mirrored rigs, duplicated bone chains, or "
+"alternative naming variants."
+msgstr ""
+"Detta är användbart när du skapar speglade riggar, duplicerade benkedjor "
+"eller alternativa namnvarianter."
+
+#. Flip directional suffixes, ../../manual/animation/armatures/bones/editing/duplicate_rename.rst:26.
+msgid ""
+"Attempts to automatically flip directional suffixes in duplicated bone names."
+msgstr ""
+"Försöker automatiskt vända riktningssuffixen i namnen på duplicerade ben."

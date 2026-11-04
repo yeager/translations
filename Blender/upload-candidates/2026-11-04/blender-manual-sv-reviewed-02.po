@@ -1,0 +1,755 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Manual\n"
+"PO-Revision-Date: 2026-11-04 09:45+0100\n"
+"Last-Translator: Daniel Nylander\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Glossary context: Color Space, ../../manual/glossary/index.rst:234.
+msgid ""
+"The color spaces available in Blender depend on the active :ref:`OCIO config "
+"<ocio-config>`. The default supported color spaces are described in detail "
+"at :ref:`Default OpenColorIO Configuration <ocio-config-default-color-"
+"spaces>`."
+msgstr ""
+"Färgrymderna som är tillgängliga i Blender beror på den aktiva :ref:`OCIO-"
+"konfigurationen <ocio-config>`. De färgrymder som stöds som standard "
+"beskrivs utförligt i :ref:`Standardkonfiguration för OpenColorIO <ocio-"
+"config-default-color-spaces>`."
+
+#. Glossary context: Linear Color Space, ../../manual/glossary/index.rst:239.
+msgid ""
+"A linear color space means that the numerical values of the color channels "
+"are directly proportional to light intensity. This is the most physically "
+"accurate representation of color and is used internally for rendering, "
+"shading, and compositing to ensure correct blending and lighting "
+"calculations."
+msgstr ""
+"En linjär färgrymd innebär att färgkanalernas numeriska värden är direkt "
+"proportionella mot ljusintensiteten. Det är den fysiskt mest korrekta "
+"färgåtergivningen och används internt för rendering, skuggning och "
+"komposition för att säkerställa korrekt blandning och korrekta "
+"ljusberäkningar."
+
+#. Glossary context: sRGB, ../../manual/glossary/index.rst:244.
+msgid ""
+"A widely used display-referred color space that uses the "
+"Rec.709 :term:`Primaries` and a D65 white point. It applies an approximate "
+"2.2 gamma transfer function to better match human perception of brightness. "
+"sRGB is the standard for monitors, images, and the web, making it the most "
+"common format for saving or displaying images outside of Blender."
+msgstr ""
+"En vanligt förekommande visningsanpassad färgrymd som använder "
+"Rec.709-:term:`primärfärger` och en vitpunkt enligt D65. Den använder en "
+"ungefärlig gammaöverföringsfunktion på 2,2 för att bättre motsvara "
+"människans uppfattning av ljusstyrka. sRGB är standard för bildskärmar, "
+"bilder och webben och är därför det vanligaste formatet för att spara eller "
+"visa bilder utanför Blender."
+
+#. Glossary context: Color Space recommendations, ../../manual/glossary/index.rst:249.
+msgid ""
+"Linear color space is recommended for internal work, such as rendering and "
+"compositing."
+msgstr ""
+"Linjär färgrymd rekommenderas för internt arbete, till exempel rendering och "
+"komposition."
+
+#. Glossary context: Color Space recommendations, ../../manual/glossary/index.rst:250.
+msgid ""
+"sRGB is typically used for output images intended for screens and general "
+"distribution."
+msgstr ""
+"sRGB används vanligen för utdatabilder avsedda för bildskärmar och allmän "
+"distribution."
+
+#. Glossary context: Color Space recommendations, ../../manual/glossary/index.rst:251.
+msgid ""
+"Wide gamut and high dynamic range workflows may use other color spaces, such "
+"as ACES, depending on the active OCIO configuration."
+msgstr ""
+"Arbetsflöden med brett färgomfång och högt dynamiskt omfång kan använda "
+"andra färgrymder, till exempel ACES, beroende på den aktiva OCIO-"
+"konfigurationen."
+
+#. Glossary context: Rest Pose, ../../manual/glossary/index.rst:836.
+msgid ""
+"The initial transformations of a bone or whole Armature. Can also be called "
+"a default pose. Defined in Armature Edit Mode by the head, tail, and roll of "
+"each bone. Any constraint or driver-induced transformation is NOT part of "
+"the rest pose."
+msgstr ""
+"De ursprungliga transformeringarna för ett ben eller en hel armatur. Kan "
+"även kallas standardpos. Viloposen definieras i armaturens redigeringsläge "
+"av varje bens huvud, svans och vridning. Transformeringar som orsakas av "
+"begränsningar eller drivrutiner ingår inte i viloposen."
+
+#. Glossary context: White Point, ../../manual/glossary/index.rst:1009.
+msgid ""
+"A white point is defined by a set of `CIE illuminates <https://"
+"en.wikipedia.org/wiki/Standard_illuminant>`__ which correspond to a color "
+"temperature. For example, D65 corresponds to 6500 K light and D70 "
+"corresponds to 7000 K."
+msgstr ""
+"En vitpunkt definieras av en uppsättning `CIE-standardljuskällor <https://"
+"en.wikipedia.org/wiki/Standard_illuminant>`__ som motsvarar en "
+"färgtemperatur. Till exempel motsvarar D65 ljus med 6500 K och D70 ljus med "
+"7000 K."
+
+#. Glossary context: NDOF, ../../manual/glossary/index.rst:590.
+msgid ""
+"A general term used to describe a 3D mouse, or any input devices which "
+"support more degrees of freedom than a conventional 2D input device, "
+"see: :ref:`hardware-ndof`."
+msgstr ""
+"En samlingsbeteckning för en 3D-mus eller andra inmatningsenheter med fler "
+"frihetsgrader än en vanlig 2D-inmatningsenhet. Se :ref:`hardware-ndof`."
+
+#. Glossary context: Panel, ../../manual/glossary/index.rst:670.
+msgid ""
+"A user interface element that contains buttons. Panels are collapsible to "
+"hide their contents and can often be rearranged. See :ref:`bpy.types.Panel` "
+"as described in the user interface section."
+msgstr ""
+"Ett gränssnittselement som innehåller knappar. Paneler kan fällas ihop för "
+"att dölja sitt innehåll och kan ofta ordnas om. Se :ref:`bpy.types.Panel` "
+"enligt beskrivningen i avsnittet om användargränssnittet."
+
+#. Glossary context: Rolling Shutter, ../../manual/glossary/index.rst:854.
+msgid ""
+"In real CMOS cameras the sensor is read out with scanlines and hence "
+"different scanlines are sampled at a different moment in time. This, for "
+"example, makes vertical straight lines being curved when doing a horizontal "
+"camera pan. See also `Rolling Shutter <https://en.wikipedia.org/wiki/"
+"Rolling_shutter>`__ on Wikipedia."
+msgstr ""
+"I verkliga CMOS-kameror läses sensorn av rad för rad, vilket innebär att "
+"olika rader samplas vid olika tidpunkter. Därför kan lodräta raka linjer bli "
+"böjda vid en horisontell kamerapanorering. Se även `Rolling Shutter <https://"
+"en.wikipedia.org/wiki/Rolling_shutter>`__ på Wikipedia."
+
+#. Manual context: legacy FBX material import, ../../manual/files/import_export/fbx_legacy.rst:112.
+msgid "Import each FBX material as a unique Blender material."
+msgstr "Importera varje FBX-material som ett unikt Blender-material."
+
+#. Manual context: legacy FBX format title, ../../manual/files/import_export/fbx_legacy.rst:4.
+msgid "FBX (Legacy)"
+msgstr "FBX (äldre)"
+
+#. Manual context: legacy FBX bone orientation, ../../manual/files/import_export/fbx_legacy.rst:14.
+msgid ""
+"Bones would need to get a correction to their orientation (FBX bones seem to "
+"be -X aligned, Blender's are Y aligned), this does not affect skinning or "
+"animation, but imported bones in other applications will look wrong."
+msgstr ""
+"Ben behöver få en korrigering av sin orientering (FBX-ben verkar vara "
+"riktade längs -X och Blenders ben längs Y). Detta påverkar inte skinning "
+"eller animering, men importerade ben kommer att se fel ut i andra program."
+
+#. Manual context: legacy FBX material conversion, ../../manual/files/import_export/fbx_legacy.rst:45.
+msgid ""
+"Blender now only supports complex node-based shading. FBX having a fixed "
+"pipeline-like support of materials, this importer / exporter converts "
+"between them."
+msgstr ""
+"Blender stöder nu bara komplex nodbaserad skuggning. FBX har ett fast "
+"pipeline-liknande stöd för material, därför konverterar den här importören/"
+"exportören mellan formaten."
+
+#. Manual context: legacy FBX import title, ../../manual/files/import_export/fbx_legacy.rst:50.
+msgid "Import (Legacy)"
+msgstr "Importera (äldre)"
+
+#. Manual context: legacy FBX import menu path, ../../manual/files/import_export/fbx_legacy.rst:54.
+msgid ":menuselection:`File --> Import --> FBX (.fbx) (Legacy)`"
+msgstr ":menuselection:`Arkiv --> Importera --> FBX (.fbx) (äldre)`"
+
+#. Manual context: legacy FBX deprecation, ../../manual/files/import_export/fbx_legacy.rst:58.
+msgid ""
+"The functionality of this importer is deprecated, use the new :ref:`FBX "
+"Importer <bpy.ops.wm.fbx_import>` instead."
+msgstr ""
+"Den här importörens funktion är föråldrad. Använd i stället den nya FBX-"
+"importören (:ref:`FBX Importer <bpy.ops.wm.fbx_import>`)."
+
+#. Manual context: legacy FBX space transform, ../../manual/files/import_export/fbx_legacy.rst:95.
+msgid ""
+"Bake space transform into object data, avoids getting unwanted rotations to "
+"objects when target space is not aligned with Blender's space."
+msgstr ""
+"Baka rymdtransformeringen i objektdata. Det undviker oönskade rotationer av "
+"objekt när målutrymmet inte är inriktat mot Blenders utrymme."
+
+#. Manual context: legacy FBX experimental option, ../../manual/files/import_export/fbx_legacy.rst:100.
+msgid ""
+"Experimental option, use at own risk, known to be broken with armatures/"
+"animations."
+msgstr ""
+"Experimentellt alternativ. Använd på egen risk: alternativet har kända "
+"problem med armaturer och animeringar."
+
+#. Manual context: FBX export menu path, ../../manual/files/import_export/fbx_legacy.rst:143.
+msgid ":menuselection:`File --> Export --> FBX (.fbx)`"
+msgstr ":menuselection:`Arkiv --> Exportera --> FBX (.fbx)`"
+
+#. Manual context: legacy FBX export transform application, ../../manual/files/import_export/fbx_legacy.rst:211.
+msgid ""
+"Applies object *Location*, *Rotation*, and *Scale* to the mesh before "
+"export, writing vertices in world space. When disabled, vertices are "
+"exported in local object space without applying transforms. "
+"See :ref:`bpy.ops.object.transform_apply` for more information on applying "
+"transforms."
+msgstr ""
+"Tillämpa objektets *Plats*, *Rotation* och *Skala* på nätet före export, och "
+"skriv hörnpunkter i världsrymden. När alternativet är avstängt exporteras "
+"hörnpunkter i objektets lokala rymd utan att transformeringar tillämpas. "
+"Se :ref:`bpy.ops.object.transform_apply` för mer information om att tillämpa "
+"transformeringar."
+
+#. Manual context: legacy FBX triangulation option, ../../manual/files/import_export/fbx_legacy.rst:240.
+msgid ""
+"Convert all faces to triangles. This also causes shared meshes on linked "
+"objects to become independent copies. Useful for applications that cannot "
+"handle non-triangle faces and/or shared meshes."
+msgstr ""
+"Konvertera alla ytor till trianglar. Detta gör också att delade nät i "
+"länkade objekt blir oberoende kopior. Användbart för program som inte kan "
+"hantera andra ytor än trianglar och/eller delade nät."
+
+#. USD overview, ../../manual/files/import_export/usd.rst:10.
+msgid ""
+"`USD <https://openusd.org/release/index.html>`__ files typically represent "
+"the scene as a hierarchy of primitives, or `prims <https://"
+"graphics.pixar.com/usd/release/glossary.html#USDGlossary-Prim>`__. "
+"Individual prims contain data to describe scene entities, such as geometry, "
+"lights, cameras and transform hierarchies. Blender's USD importer converts "
+"USD prims to a hierarchy of Blender objects. Like the USD exporter, the "
+"importer does not yet handle certain USD composition concepts, such as "
+"layers and references."
+msgstr ""
+"`USD <https://openusd.org/release/index.html>`__-filer representerar "
+"vanligen scenen som en hierarki av primitiver, eller `prims <https://"
+"graphics.pixar.com/usd/release/glossary.html#USDGlossary-Prim>`__. Enskilda "
+"prims innehåller data som beskriver scenobjekt, till exempel geometri, ljus, "
+"kameror och transformeringshierarkier. Blenders USD-importör konverterar USD-"
+"prims till en hierarki av Blender-objekt. Liksom USD-exportören hanterar "
+"importören ännu inte vissa USD-kompositionsbegrepp, som lager och referenser."
+
+#. USD point-cloud import, ../../manual/files/import_export/usd.rst:58.
+msgid ""
+"These are imported into Blender as Point Clouds using a :doc:`/modeling/"
+"modifiers/geometry_nodes` and the :doc:`/modeling/geometry_nodes/instances/"
+"instance_on_points`."
+msgstr ""
+"De importeras till Blender som punktmoln med hjälp av en :doc:`/modeling/"
+"modifiers/geometry_nodes` och :doc:`/modeling/geometry_nodes/instances/"
+"instance_on_points`."
+
+#. USD camera export, ../../manual/files/import_export/usd.rst:164.
+msgid "Depth of field distance."
+msgstr "Avstånd för skärpedjup."
+
+#. USD camera export, ../../manual/files/import_export/usd.rst:165.
+msgid "F-stop (aperture)."
+msgstr "Bländartal (bländare)."
+
+#. USD camera export, ../../manual/files/import_export/usd.rst:168.
+msgid "Sensor size (aperture width and height)."
+msgstr "Sensorstorlek (bländarens bredd och höjd)."
+
+#. USD example caption, ../../manual/files/import_export/usd.rst:342.
+msgid ""
+"Shot from `Spring <https://studio.blender.org/projects/spring/>`__ exported "
+"to USD and opened in USDView."
+msgstr ""
+"Bildruta från `Spring <https://studio.blender.org/projects/spring/>`__ som "
+"exporterats till USD och öppnats i USDView."
+
+#. USD incremental export label, ../../manual/files/import_export/usd.rst:368.
+msgid "Incremental Save :guilabel:`Animation`"
+msgstr "Inkrementell sparning :guilabel:`Animation`"
+
+#. USD incremental export description, ../../manual/files/import_export/usd.rst:369.
+msgid ""
+"Incrementally save after the specified number of frames to reduce peak "
+"memory usage. Incremental saves can result in longer export times and "
+"potential issues with some file synchronization services. Zero disables "
+"incremental save."
+msgstr ""
+"Spara stegvis efter det angivna antalet bildrutor för att minska högsta "
+"minnesanvändningen. Stegvisa sparningar kan ge längre exporttider och "
+"problem med vissa filsynkroniseringstjänster. Noll inaktiverar stegvis "
+"sparning."
+
+#. USD axis conversion, ../../manual/files/import_export/usd.rst:397.
+msgid ""
+"Convert orientation axis to a different convention to match other "
+"applications. Blender uses Y Forward, Z Up (since the front view looks along "
+"the +Y direction). For example, it's common for applications to use Y as the "
+"up axis, in that case -Z Forward, Y Up is needed."
+msgstr ""
+"Konvertera orienteringsaxeln till en annan konvention för att matcha andra "
+"program. Blender använder Y framåt och Z uppåt (eftersom framvyn är riktad "
+"längs +Y). Det är till exempel vanligt att program använder Y som uppåtaxel; "
+"i så fall behövs -Z framåt och Y uppåt."
+
+#. USD schema relation, ../../manual/files/import_export/usd.rst:449.
+msgid ""
+"The corresponding USD schema type used during Export is analogous to the "
+"type read during Import. See the Import section for details."
+msgstr ""
+"Den motsvarande USD-schematyp som används vid export motsvarar typen som "
+"läses vid import. Se importavsnittet för mer information."
+
+#. USD export accessibility label, ../../manual/files/import_export/usd.rst:586.
+msgid "The accessibility label to use for the exported stage's default prim."
+msgstr ""
+"Tillgänglighetsetiketten för standardprimet i den exporterade USD-scenen."
+
+#. USD export accessibility description, ../../manual/files/import_export/usd.rst:589.
+msgid ""
+"The accessibility description to use for the exported stage's default prim."
+msgstr ""
+"Tillgänglighetsbeskrivningen för standardprimet i den exporterade USD-scenen."
+
+#. USD export accessibility reference, ../../manual/files/import_export/usd.rst:591.
+msgid ""
+"See :ref:`USD UI Accessibility <usd-accessibility>` for further details."
+msgstr ""
+"Se :ref:`USD UI Accessibility <usd-accessibility>` för mer information."
+
+#. USD accessibility title, ../../manual/files/import_export/usd.rst:736.
+msgid "USD UI Accessibility"
+msgstr "USD-tillgänglighet för gränssnitt"
+
+#. USD accessibility schema overview, ../../manual/files/import_export/usd.rst:738.
+msgid ""
+"Blender supports authoring and loading the `UsdUIAccessibilityAPI schema "
+"<https://openusd.org/release/api/"
+"class_usd_u_i_accessibility_a_p_i.html#details>`__ on all supported data-"
+"block types that allow :doc:`/files/custom_properties`. This API describes "
+"accessibility information for a USD primitive that may be surfaced to a "
+"given runtime's accessibility frameworks (if present)."
+msgstr ""
+"Blender stöder att skapa och läsa `UsdUIAccessibilityAPI-schemat <https://"
+"openusd.org/release/api/class_usd_u_i_accessibility_a_p_i.html#details>`__ "
+"för alla datablokstyper som stöder :doc:`/files/custom_properties`. API:t "
+"beskriver tillgänglighetsinformation för en USD-primitiv som kan exponeras i "
+"ett tillgänglighetsramverk för en viss körmiljö, om ett sådant finns."
+
+#. USD accessibility per-object introduction, ../../manual/files/import_export/usd.rst:743.
+msgid ""
+"In addition to the accessibility export option described above that covers "
+"the root prim, per-object accessibility information can be set by following "
+"these steps:"
+msgstr ""
+"Utöver tillgänglighetsexportalternativet ovan, som täcker rotprimet, kan "
+"tillgänglighetsinformation per objekt ställas in så här:"
+
+#. USD accessibility object data properties, ../../manual/files/import_export/usd.rst:746.
+msgid "Add the following new String Properties to the object data-block:"
+msgstr "Lägg till följande nya strängegenskaper i objektets datablock:"
+
+#. USD accessibility required properties, ../../manual/files/import_export/usd.rst:748.
+msgid ""
+"Required: ``accessibility:<namespace>:label`` and ``accessibility:"
+"<namespace>:description``"
+msgstr ""
+"Krävs: ``accessibility:<namespace>:label`` och ``accessibility:"
+"<namespace>:description``"
+
+#. USD accessibility optional priority property, ../../manual/files/import_export/usd.rst:749.
+msgid "Optional: ``accessibility:<namespace>:priority``"
+msgstr "Valfritt: ``accessibility:<namespace>:priority``"
+
+#. USD accessibility namespace and priority values, ../../manual/files/import_export/usd.rst:751.
+msgid ""
+"The ``<namespace>`` may be any valid USD primvar identifier including "
+"``default``, which is the recommended namespace to use as a convention. The "
+"value of ``priority`` may be one of ``low, standard, high``."
+msgstr ""
+"``<namespace>`` kan vara en giltig USD-primvar-identifierare, inklusive "
+"``default``, som rekommenderas som konvention. Värdet för ``priority`` kan "
+"vara ``low``, ``standard`` eller ``high``."
+
+#. USD accessibility recommendation, ../../manual/files/import_export/usd.rst:754.
+msgid ""
+"It is highly encouraged to set the root prim's accessibility fields for any "
+"long-lived USD document that might be served to a broad set of software and "
+"people. For example, when uploading to an asset marketplace etc."
+msgstr ""
+"Vi rekommenderar starkt att tillgänglighetsfälten för rotprimet anges i alla "
+"långlivade USD-dokument som kan tillhandahållas för många olika program och "
+"människor, till exempel vid uppladdning till en tillgångsmarknadsplats."
+
+#. USD accessibility animation limitation, ../../manual/files/import_export/usd.rst:760.
+msgid ""
+"Blender does not support time-varying accessibility schemas since custom "
+"String properties are non-animatable."
+msgstr ""
+"Blender har inte stöd för tidsvarierande tillgänglighetsscheman, eftersom "
+"anpassade strängegenskaper inte kan animeras."
+
+#. USDZ texture import advice, ../../manual/files/import_export/usd.rst:32.
+msgid ""
+"When importing a `USDZ archive <https://openusd.org/release/"
+"spec_usdz.html>`__, it is important to carefully consider the :ref:`Import "
+"Textures <usd-import-textures>` option to determine whether and how to copy "
+"texture files from the zip archive."
+msgstr ""
+"Vid import av ett `USDZ-arkiv <https://openusd.org/release/"
+"spec_usdz.html>`__ är det viktigt att noga överväga "
+"alternativet :ref:`Import Textures <usd-import-textures>` för att avgöra om "
+"och hur texturfiler ska kopieras från ZIP-arkivet."
+
+#. USD Scope primitive description, ../../manual/files/import_export/usd.rst:44.
+msgid ""
+"USD also supports ``Scope`` primitives, which are entities that do not "
+"contain transform data, but which serve to group other element of the scene. "
+"Blender doesn't have an exact counterpart to the concept of a scope, so such "
+"primitives are imported as Blender empties located at the origin. This is an "
+"imperfect representation, because empty objects have a transform and "
+"``Scopes`` do not, but this approach nonetheless helps preserve the "
+"structure of the scene hierarchy."
+msgstr ""
+"USD stöder även ``Scope``-primitiver, som är enheter utan transformdata och "
+"som används för att gruppera andra scenelement. Blender har ingen direkt "
+"motsvarighet till scope-begreppet, så sådana primitiver importeras som tomma "
+"Blender-objekt vid origo. Det är en ofullständig representation, eftersom "
+"tomma objekt har en transform och ``Scope``-primitiver inte har det, men "
+"detta bevarar ändå scenhierarkins struktur."
+
+#. USD PointInstancer heading, ../../manual/files/import_export/usd.rst:53.
+msgid "PointInstancer Primitives"
+msgstr "PointInstancer-primitiver"
+
+#. USD PointInstancer description, ../../manual/files/import_export/usd.rst:55.
+msgid ""
+"USD provides a ``UsdGeomPointInstancer`` prim type, containing instances "
+"that are scattered on a primitive's points."
+msgstr ""
+"USD tillhandahåller primtypen ``UsdGeomPointInstancer``, som innehåller "
+"instanser spridda över en primitivs punkter."
+
+#. USD coordinate orientation heading, ../../manual/files/import_export/usd.rst:100.
+msgid "Coordinate System Orientation"
+msgstr "Koordinatsystemets orientering"
+
+#. USD Y-up import conversion, ../../manual/files/import_export/usd.rst:102.
+msgid ""
+"If the imported USD is Y up, a rotation will be automatically applied to "
+"root objects to convert to Blender's Z up orientation."
+msgstr ""
+"Om den importerade USD-scenen har Y som uppåtriktning roteras rotobjekten "
+"automatiskt så att de får Blenders Z-uppåtriktning."
+
+#. USD import options heading, ../../manual/files/import_export/usd.rst:107.
+msgid "Import Options"
+msgstr "Importalternativ"
+
+#. USD camera import, ../../manual/files/import_export/usd.rst:158.
+msgid ""
+"Import ``UsdGeomCamera`` primitives as :doc:`Camera Objects </render/"
+"cameras>`."
+msgstr ""
+"Importera ``UsdGeomCamera``-primitiver som :doc:`kameraobjekt </render/"
+"cameras>`."
+
+#. USD camera supported attributes introduction, ../../manual/files/import_export/usd.rst:160.
+msgid "Supported camera attributes include:"
+msgstr "Följande kameraattribut stöds:"
+
+#. USD camera projection type, ../../manual/files/import_export/usd.rst:162.
+msgid "Projection type (perspective and orthographic)"
+msgstr "Projektionstyp (perspektiv och ortografisk)"
+
+#. USD camera clipping range, ../../manual/files/import_export/usd.rst:166.
+msgid "Clipping start and end."
+msgstr "Klippningsstart och -slut."
+
+#. USD camera sensor shift, ../../manual/files/import_export/usd.rst:167.
+msgid "Sensor shift (tilt) X and Y."
+msgstr "Sensorförskjutning (lutning) i X- och Y-led."
+
+#. USD mesh import, ../../manual/files/import_export/usd.rst:187.
+msgid ""
+"Import ``UsdGeomMesh`` primitives as :doc:`Mesh Objects </modeling/meshes/"
+"index>`."
+msgstr ""
+"Importera ``UsdGeomMesh``-primitiver som :doc:`meshobjekt </modeling/meshes/"
+"index>`."
+
+#. USD OpenVDB volume import, ../../manual/files/import_export/usd.rst:189.
+msgid ""
+"Import ``UsdVolVolume`` OpenVDB assets as :doc:`Volume Objects </modeling/"
+"volumes/index>`."
+msgstr ""
+"Importera ``UsdVolVolume``-OpenVDB-tillgångar som :doc:`volymobjekt </"
+"modeling/volumes/index>`."
+
+#. USD point cloud import, ../../manual/files/import_export/usd.rst:191.
+msgid ""
+"Import ``UsdGeomPoints`` primitives as :doc:`Point Cloud Objects </modeling/"
+"point_cloud/index>`."
+msgstr ""
+"Importera ``UsdGeomPoints``-primitiver som :doc:`punktmolnsobjekt </modeling/"
+"point_cloud/index>`."
+
+#. USD shapes heading, ../../manual/files/import_export/usd.rst:192.
+msgid "USD Shapes"
+msgstr "USD-former"
+
+#. USD display purpose heading, ../../manual/files/import_export/usd.rst:197.
+msgid ""
+"`Display Purpose <https://graphics.pixar.com/usd/release/"
+"glossary.html#USDGlossary-Purpose>`__"
+msgstr ""
+"`Visningssyfte <https://graphics.pixar.com/usd/release/"
+"glossary.html#USDGlossary-Purpose>`__"
+
+#. USD material purpose heading, ../../manual/files/import_export/usd.rst:205.
+msgid "Material Purpose"
+msgstr "Materialsyfte"
+
+#. USD allPurpose material option, ../../manual/files/import_export/usd.rst:209.
+msgid "Attempt to import ``allPurpose`` materials."
+msgstr "Försök att importera ``allPurpose``-material."
+
+#. USD preview material option, ../../manual/files/import_export/usd.rst:210.
+msgid ""
+"Attempt to import ``preview`` materials. Load ``allPurpose`` materials as a "
+"fallback."
+msgstr ""
+"Försök att importera ``preview``-material. Läs in ``allPurpose``-material "
+"som reserv."
+
+#. USD full material option, ../../manual/files/import_export/usd.rst:211.
+msgid ""
+"Attempt to import ``full`` materials. Load ``allPurpose`` or ``preview`` "
+"materials, in that order, as a \"fallback.\""
+msgstr ""
+"Försök att importera ``full``-material. Läs in ``allPurpose``- eller "
+"``preview``-material, i den ordningen, som reserv"
+
+#. USD preview importer heading, ../../manual/files/import_export/usd.rst:252.
+msgid "Import USD Preview"
+msgstr "Importera USD Preview"
+
+#. USD preview shaders, ../../manual/files/import_export/usd.rst:253.
+msgid "Convert USD Preview Surface shaders to Principled BSDF shader networks."
+msgstr ""
+"Konvertera USD Preview Surface-shaders till Principled BSDF-shadernätverk."
+
+#. USD texture resolution behavior, ../../manual/files/import_export/usd.rst:279.
+msgid ""
+"Don't import textures. Note that, with this option, material textures may "
+"fail to be resolved in Blender."
+msgstr ""
+"Importera inte texturer. Observera att materialtexturer kanske inte kan "
+"hittas i Blender med det här alternativet."
+
+#. USD texture directory heading, ../../manual/files/import_export/usd.rst:283.
+msgid "Textures Directory"
+msgstr "Texturkatalog"
+
+#. USD texture filename collision heading, ../../manual/files/import_export/usd.rst:289.
+msgid "File Name Collision"
+msgstr "Filnamnskollision"
+
+#. USD texture conflict option, ../../manual/files/import_export/usd.rst.
+msgid "Use Existing"
+msgstr "Använd befintlig"
+
+#. USDZ export package, ../../manual/files/import_export/usd.rst:336.
+msgid ""
+"To export the Blender scene as a `USDZ archive <https://openusd.org/release/"
+"spec_usdz.html>`__, set the file extension of the output file to ``.usdz``.  "
+"The exported USDZ package will be a zip archive containing the USD and its "
+"texture file dependencies."
+msgstr ""
+"För att exportera Blender-scenen som ett `USDZ-arkiv <https://openusd.org/"
+"release/spec_usdz.html>`__ ställer du in utdatafilens filtillägg till "
+"``.usdz``. Det exporterade USDZ-paketet blir ett ZIP-arkiv som innehåller "
+"USD och dess texturfilberoenden."
+
+#. USD export root prim heading, ../../manual/files/import_export/usd.rst:356.
+msgid "Root Prim"
+msgstr "Rotprim"
+
+#. USD export root prim description, ../../manual/files/import_export/usd.rst:357.
+msgid ""
+"If set, add a transform primitive with the given path to the stage as the "
+"parent of all exported data."
+msgstr ""
+"Om alternativet är inställt läggs en transformprimitiv med den angivna "
+"sökvägen till i USD-scenen som förälder till alla exporterade data."
+
+#. USD export Blender data heading, ../../manual/files/import_export/usd.rst:373.
+msgid "Blender Data"
+msgstr "Blender-data"
+
+#. USD custom attributes export, ../../manual/files/import_export/usd.rst:385.
+msgid ""
+"Author USD custom attributes containing the original Blender object and "
+"object data names."
+msgstr ""
+"Skapa USD-anpassade attribut som innehåller de ursprungliga namnen på "
+"Blender-objekt och objektdata."
+
+#. USD stage units metadata, ../../manual/files/import_export/usd.rst:405.
+msgid "Set the USD Stage ``metersPerUnit`` metadata to the chosen measurement."
+msgstr "Ange USD-scenens ``metersPerUnit``-metadata till det valda måttet."
+
+#. USD mesh export heading, ../../manual/files/import_export/usd.rst:426.
+msgid "Exports :doc:`Mesh Objects </modeling/meshes/index>`"
+msgstr "Exporterar :doc:`meshobjekt </modeling/meshes/index>`"
+
+#. USD light export description, ../../manual/files/import_export/usd.rst:428.
+msgid ""
+"Exports :doc:`Light Objects </render/lights/index>` The ``UsdLuxShapingAPI`` "
+"is used to support spot lights."
+msgstr ""
+"Exporterar :doc:`ljusobjekt </render/lights/index>`. ``UsdLuxShapingAPI`` "
+"används för att stödja spotlights."
+
+#. USD camera export heading, ../../manual/files/import_export/usd.rst:435.
+msgid ""
+"Exports :doc:`Camera Objects </render/cameras>` Only perspective cameras are "
+"exported."
+msgstr ""
+"Exporterar :doc:`kameraobjekt </render/cameras>`. Endast perspektivkameror "
+"exporteras."
+
+#. USD curve export heading, ../../manual/files/import_export/usd.rst:438.
+msgid "Exports :doc:`Curve Objects </modeling/curves/index>`"
+msgstr "Exporterar :doc:`kurvobjekt </modeling/curves/index>`"
+
+#. USD point cloud export heading, ../../manual/files/import_export/usd.rst:440.
+msgid "Exports :doc:`Point Cloud Objects </modeling/point_cloud/index>`"
+msgstr "Exporterar :doc:`punktmolnsobjekt </modeling/point_cloud/index>`"
+
+#. USD volume export heading, ../../manual/files/import_export/usd.rst:442.
+msgid "Exports :doc:`Volume Objects </modeling/volumes/index>`"
+msgstr "Exporterar :doc:`volymobjekt </modeling/volumes/index>`"
+
+#. USD hair export, ../../manual/files/import_export/usd.rst:444.
+msgid ""
+"Exports parent hair strands are exported as a curve system. Hair strand "
+"colors are not exported."
+msgstr ""
+"Exporterar föräldrahårstrån som ett kurvsystem. Hårstrånas färger exporteras "
+"inte."
+
+#. USD exported UV maps, ../../manual/files/import_export/usd.rst:457.
+msgid ""
+"When checked, includes UV coordinates for exported meshes. The name of the "
+"UV map in USD is the same as the name in Blender."
+msgstr ""
+"När alternativet är markerat inkluderas UV-koordinater för exporterade mesh. "
+"Namnet på UV-kartan i USD är detsamma som namnet i Blender."
+
+#. USD hierarchy merge behavior, ../../manual/files/import_export/usd.rst:467.
+msgid ""
+"Merge USD primitives with their Xform parent if possible. USD does not allow "
+"nested ``UsdGeomGprims``, intermediary Xform prims will be defined to keep "
+"the USD file valid when encountering object hierarchies."
+msgstr ""
+"Sammanfoga om möjligt USD-primitiver med deras Xform-förälder. USD tillåter "
+"inte nästlade ``UsdGeomGprims``; mellanliggande Xform-prims definieras för "
+"att USD-filen ska förbli giltig vid objekthierarkier."
+
+#. USD mesh triangulation, ../../manual/files/import_export/usd.rst:472.
+msgid ""
+"Triangulates the mesh before writing. For more detail on the specific option "
+"see the :doc:`Triangulate modifier </modeling/modifiers/generate/"
+"triangulate>`."
+msgstr ""
+"Triangulerar meshen före skrivning. Mer information om alternativet finns "
+"i :doc:`trianguleringsmodifieraren </modeling/modifiers/generate/"
+"triangulate>`."
+
+#. USD material subset explanation, ../../manual/files/import_export/usd.rst:504.
+msgid ""
+"When a mesh has multiple materials assigned, a geometry subset is created "
+"for each material. The first material (if any) is always applied to the mesh "
+"itself as well (regardless of the existence of geometry subsets), because "
+"the Hydra viewport does not support materials on subsets. See `USD issue "
+"#542 <https://github.com/PixarAnimationStudios/USD/issues/542>`__ for more "
+"information."
+msgstr ""
+"När en mesh har flera tilldelade material skapas en geometridelmängd för "
+"varje material. Det första materialet, om något, tillämpas alltid också på "
+"själva meshen, oavsett om geometridelmängder finns, eftersom Hydra-vyn inte "
+"stöder material på delmängder. Se `USD-ärende nr 542 <https://github.com/"
+"PixarAnimationStudios/USD/issues/542>`__ för mer information."
+
+#. USD displacement support heading, ../../manual/files/import_export/usd.rst:516.
+msgid "Displacement Support"
+msgstr "Stöd för förskjutning"
+
+#. USD displacement support description, ../../manual/files/import_export/usd.rst:519.
+msgid ""
+":doc:`Displacement </render/materials/components/displacement>` is support "
+"with some caveats:"
+msgstr ""
+":doc:`Förskjutning </render/materials/components/displacement>` stöds med "
+"vissa förbehåll:"
+
+#. USD preview surface network heading, ../../manual/files/import_export/usd.rst:526.
+msgid "USD Preview Surface Network"
+msgstr "Nätverk för USD Preview Surface"
+
+#. USD opacity threshold shader expression, ../../manual/files/import_export/usd.rst:532.
+msgid ""
+"To support ``opacityThreshold``, sometimes known as \"Alpha Clip\", the node "
+"tree must either use a Math node set to ``Round``, if the desired threshold "
+"is 0.5, or by using a pair of Math nodes implementing ``1 - (value < "
+"threshold)``. The result should be plugged into the Alpha socket on the "
+"Principled BSDF node."
+msgstr ""
+"För att stödja ``opacityThreshold``, ibland kallat \"Alfabegränsning\", "
+"måste nodträdet antingen använda en Matematik-nod inställd på ``Runda`` om "
+"det önskade tröskelvärdet är 0,5, eller ett par Matematik-noder som "
+"implementerar ``1 - (value < threshold)``. Resultatet ska anslutas till Alfa-"
+"uttaget på Principiell BSDF-noden."
+
+#. USDZ texture downsampling heading, ../../manual/files/import_export/usd.rst:567.
+msgid "USDZ Texture Downsampling"
+msgstr "Nedsampling av USDZ-texturer"
+
+#. Library Override supported operations, ../../manual/files/linked_libraries/library_overrides.rst:17.
+msgid "Library overrides support:"
+msgstr "Biblioteksåsidosättningar har stöd för:"
+
+#. Library Override issue reference, ../../manual/files/linked_libraries/library_overrides.rst:29.
+msgid ""
+"There are known issues that have to be addressed. See the `main task of the "
+"project <https://projects.blender.org/blender/blender/issues/73318>`__, for "
+"more details."
+msgstr ""
+"Det finns kända problem som måste åtgärdas. Se `projektets huvuduppgift "
+"<https://projects.blender.org/blender/blender/issues/73318>`__ för mer "
+"information."
+
+#. Library Override collection layout heading, ../../manual/files/linked_libraries/library_overrides.rst:42.
+msgid "Proper Collections Layout Matters"
+msgstr "En korrekt samlingslayout är viktig"
+
+#. Library Override hierarchy heading, ../../manual/files/linked_libraries/library_overrides.rst:52.
+msgid "Override Hierarchies"
+msgstr "Åsidosättningshierarkier"
+
+#. Library Override animation heading, ../../manual/files/linked_libraries/library_overrides.rst:73.
+msgid "Animation & Overrides"
+msgstr "Animering och åsidosättningar"
+
+#. Library Override animation-data capability, ../../manual/files/linked_libraries/library_overrides.rst:80.
+msgid ""
+"In general, an override can do much more with its animation data if no "
+"animation data exists in its linked reference data-block."
+msgstr ""
+"I allmänhet kan en åsidosättning göra betydligt mer med sina animationsdata "
+"om det inte finns några animationsdata i dess länkade referensdatablock."
