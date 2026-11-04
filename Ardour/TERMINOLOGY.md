@@ -12,6 +12,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | cue | cue | Ardours namngivna cue-funktion; inte samma sak som en vanlig markör. |
 | fade | toning | `fade in`/`fade out` uttrycks vid behov som intoning/uttoning. |
 | feedback (audio) | rundgång | Varning för återkopplad ljudsignal eller felaktig portanslutning. |
+| foldback | medhörning | Svenska ljudtekniska termen för musikernas monitorlyssning; `foldback bus` blir **medhörningsbuss**. |
 | follow action | följåtgärd | Åtgärd som clip launcher-funktionen utför när ett klipps följlängd har löpt ut. |
 | follow length | följlängd | Den användardefinierade speltid som föregår en följåtgärd; projektspecifik UI-term. |
 | gain | förstärkning | Ljudnivå före eller i fader-/regionbearbetning; `vinst` används inte i ljudgränssnittet. |
@@ -38,6 +39,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | snapshot | ögonblicksbild | Sparat sessionsläge; inte datorskärmdump. |
 | time-stretch quality | Mjuk / Jämn / Tydlig / Blandad | Kvalitetsval för Rubber Band-algoritmens transientbehandling. Termerna beskriver behandlingen, inte ett visuellt tillstånd. |
 | timecode | tidskod | Video- och transportsynkronisering. |
+| track | spår | Spår i tidslinjen, mixern och analysfönstret; aldrig verbet `spåra`. |
 | transport master | transportmaster | Ardours synkroniseringskälla för transporten; ett sammansatt substantiv i svensk UI-text. |
 | VCA master | VCA-master | Ardours VCA-styrning för flera kanalers nivå; `master` behålls som etablerad ljudteknisk term. |
 | AFL / PFL solo | solo efter/före fader | Soloavlyssning efter respektive före kanalens fader. Förkortningarna AFL och PFL behålls. |
