@@ -21,6 +21,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | MIDI note | MIDI-not | `note` är **not** i musikkontext, aldrig teknisk anteckning. |
 | MIDI program change | MIDI-programändring | MIDI-händelse som väljer program/klang; inte en allmän programförändring. |
 | MIDI patch / patch selection | MIDI-program / MIDI-programval | Väljare för MIDI-bank och -program; undvik oöversatta `patch` i svensk UI-text. |
+| Medium (sinc) | Medel (sinc) | Mellanläget för sinc-baserad samplingsfrekvensomvandling vid export. `sinc` är algoritmens namn och behålls. |
 | note off | Note Off | Standardiserat MIDI-meddelande; behåll termen med versalt O. |
 | plugin | insticksmodul | Används i svensk löptext och menyer. Produktformat som VST3 och AudioUnit behålls. |
 | panner | panorerare | Reglage eller modul som placerar signalen i stereobilden eller surroundfältet. |
