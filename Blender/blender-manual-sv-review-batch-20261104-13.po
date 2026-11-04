@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Manual\n"
+"PO-Revision-Date: 2026-11-04 13:20+0100\n"
+"Last-Translator: Daniel Nylander\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. USD accessibility per-object introduction, ../../manual/files/import_export/usd.rst:743.
+msgid ""
+"In addition to the accessibility export option described above that "
+"covers the root prim, per-object accessibility information can be set by "
+"following these steps:"
+msgstr ""
+"Utöver tillgänglighetsexportalternativet ovan, som täcker rotprimet, kan "
+"tillgänglighetsinformation per objekt ställas in så här:"
+
+#. USD accessibility object data properties, ../../manual/files/import_export/usd.rst:746.
+msgid "Add the following new String Properties to the object data-block:"
+msgstr "Lägg till följande nya strängegenskaper i objektets datablock:"
+
+#. USD accessibility required properties, ../../manual/files/import_export/usd.rst:748.
+msgid ""
+"Required: ``accessibility:<namespace>:label`` and "
+"``accessibility:<namespace>:description``"
+msgstr ""
+"Krävs: ``accessibility:<namespace>:label`` och "
+"``accessibility:<namespace>:description``"
+
+#. USD accessibility optional priority property, ../../manual/files/import_export/usd.rst:749.
+msgid "Optional: ``accessibility:<namespace>:priority``"
+msgstr "Valfritt: ``accessibility:<namespace>:priority``"
+
+#. USD accessibility namespace and priority values, ../../manual/files/import_export/usd.rst:751.
+msgid ""
+"The ``<namespace>`` may be any valid USD primvar identifier including "
+"``default``, which is the recommended namespace to use as a convention. "
+"The value of ``priority`` may be one of ``low, standard, high``."
+msgstr ""
+"``<namespace>`` kan vara en giltig USD-primvar-identifierare, inklusive "
+"``default``, som rekommenderas som konvention. Värdet för ``priority`` kan "
+"vara ``low``, ``standard`` eller ``high``."
+
+#. USD accessibility recommendation, ../../manual/files/import_export/usd.rst:754.
+msgid ""
+"It is highly encouraged to set the root prim's accessibility fields for "
+"any long-lived USD document that might be served to a broad set of "
+"software and people. For example, when uploading to an asset marketplace "
+"etc."
+msgstr ""
+"Vi rekommenderar starkt att tillgänglighetsfälten för rotprimet anges i "
+"alla långlivade USD-dokument som kan tillhandahållas för många olika "
+"program och människor, till exempel vid uppladdning till en "
+"tillgångsmarknadsplats."
+
+#. USD accessibility animation limitation, ../../manual/files/import_export/usd.rst:760.
+msgid ""
+"Blender does not support time-varying accessibility schemas since custom "
+"String properties are non-animatable."
+msgstr ""
+"Blender har inte stöd för tidsvarierande tillgänglighetsscheman, eftersom "
+"anpassade strängegenskaper inte kan animeras."
