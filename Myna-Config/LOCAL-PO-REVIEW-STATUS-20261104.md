@@ -23,7 +23,7 @@ publicerad 2026-10-29.
 | Lokalt granskade i arbetsfilen | 416 |
 | Avsiktligt tomma metadatafält | 1 (`translator-credits`) |
 | Återstående översättningssträngar | 0 |
-| Upstream-verifierade i Weblate | 20 |
+| Upstream-verifierade i Weblate | 416 |
 
 Slutlig lokal kandidat:
 `candidates/2026-11-04/myna-config-sv-local-complete-review.po`
@@ -54,9 +54,14 @@ Shell behandlas som etablerade tekniska namn.
 
 ## Upstreamstatus
 
-API-batch 01 med 20 strängar har skickats till Hosted Weblate och lästs
-tillbaka med `state: 20` och `translated: true`. Återstående lokala ändringar
-är inte skickade.
+API-batch 01 med 20 strängar skickades först till Hosted Weblate och lästes
+tillbaka med `state: 20` och `translated: true`. Därefter skickades den
+slutliga hela PO-filen via Weblates filuppladdning 2026-11-04. Weblate
+rapporterade: **417 bearbetade, 20 hoppade över, 0 saknades och 396
+uppdaterades**. De 20 hoppade över var redan identiska med den lokala
+kandidaten. Totalt är därmed 416 UI-strängar inskickade som översättningar
+som behöver redigeras; det enda tomma fältet är avsiktliga
+`translator-credits`.
 
 Weblate rapporterar fyra kontroller: en på den inskickade strängen och tre på
 fortfarande tomma strängar. Den inskickade kontrollen är verifierat falsk
