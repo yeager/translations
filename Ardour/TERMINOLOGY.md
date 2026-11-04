@@ -31,7 +31,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | peak hold | topphållning | Ljudmätarens funktion som håller kvar det uppmätta toppvärdet tills återställning. Undvik den onödiga engelska blandformen `peak-hold` i svensk UI-text. |
 | Punch In / Punch Out | Punch In / Punch Out | Ardours namngivna auto-punch-åtgärder. Behåll de etablerade DAW-termerna tillsammans med `punchintervall`; en bokstavlig översättning vore mindre igenkännbar. |
 | Solo Safe | Solo Safe | Namnet på Ardours soloskyddsläge i kanalmenyer. Behålls för igenkänning; någon entydig etablerad svensk UI-motsvarighet finns inte i projektets kontext. |
-| Warp (RTA) | Warp | Parameteretikett i realtidsanalysens RTA-fönster. Den avser en specifik analysparameter och saknar en kontextoberoende svensk motsvarighet; generiska termbanksträffar från andra domäner tillämpas inte. |
+| Warp (RTA) | frekvensomformning | Parametern omformar frekvensskalan i realtidsanalysens spektrum, med Bark, Medium eller High som val. Den höjer upplösningen i de lägre frekvenserna; `Warp` är inte ett produktnamn här och ska inte lämnas på engelska. |
 | FaderPort Send / FaderPort Recv | FaderPort Send / FaderPort Recv | Namngivna anslutningar för PreSonus FaderPort. Produktens portnamn ska inte översättas. |
 | stretch tempo / stretch end tempo | sträck tempo / sträck sluttempot | Ångraåtgärder när användaren drar en tempopunkt eller en temposlutpunkt; de är verbfraser och inte beskrivningen `sträckt tempo`. |
 | crossfade | korstoning | Överlappande in- och uttoning mellan två regioner. |
