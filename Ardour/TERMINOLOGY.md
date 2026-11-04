@@ -6,10 +6,12 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | --- | --- | --- |
 | audio interface | ljudgränssnitt | Ljudenhet för inspelning och uppspelning. |
 | audition | förhandslyssning / förhandslyssna | Substantiv i rubriker och statusfält, verb i uppmaningar. Avser tillfällig uppspelning för kontroll av material eller MIDI-program. |
+| Bender (MIDI) | tonhöjdsböjning | MIDI-lane för pitch-bend-data, inte det engelska agentordet `bender`. |
 | bus | buss | Behåll DAW-termen, exempelvis `masterbuss` och `monitorbuss`. |
 | clip library | klippbibliotek | Ardours katalog med återanvändbara klipp; `clip` är här ett medieklipp, inte ett programklipp. |
 | cue | cue | Ardours namngivna cue-funktion; inte samma sak som en vanlig markör. |
 | fade | toning | `fade in`/`fade out` uttrycks vid behov som intoning/uttoning. |
+| feedback (audio) | rundgång | Varning för återkopplad ljudsignal eller felaktig portanslutning. |
 | follow action | följåtgärd | Åtgärd som clip launcher-funktionen utför när ett klipps följlängd har löpt ut. |
 | follow length | följlängd | Den användardefinierade speltid som föregår en följåtgärd; projektspecifik UI-term. |
 | gain | förstärkning | Ljudnivå före eller i fader-/regionbearbetning; `vinst` används inte i ljudgränssnittet. |
@@ -21,6 +23,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | note off | Note Off | Standardiserat MIDI-meddelande; behåll termen med versalt O. |
 | plugin | insticksmodul | Används i svensk löptext och menyer. Produktformat som VST3 och AudioUnit behålls. |
 | panner | panorerare | Reglage eller modul som placerar signalen i stereobilden eller surroundfältet. |
+| pre-/post-fader | före/efter fader | Mät- och sändningspunkt i signalflödet. |
 | preset | förinställning | Gäller insticksmoduler, export och sparade konfigurationer. |
 | region | region | Ardours avgränsade medieobjekt på tidslinjen, inte geografiskt område. |
 | route group / Collect Group | grupp / Samla grupp | En grupp kopplar samman spår eller bussar. Åtgärden placerar medlemmarna intill varandra i redigeraren eller mixern. |
