@@ -144,6 +144,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | plugin-stub | insticksmodulsstubb | Ersättningsprocessor när den ursprungliga insticksmodulen inte kan konfigureras vid sessionsinläsning. Ardours övriga svenska UI använder redan `stub`/`stubbar`; `stubb` följer den befintliga tekniska användningen och sammanhanget är en diagnostiklogg. |
 | MTC quarter-frame message | MTC-quarter-frame-meddelande | Namngivet MIDI Time Code-protokollmeddelande. MTC skickar åtta sådana delmeddelanden för att överföra en hel tidskodsposition; behåll protokollnamnet i stället för den felaktiga vardagsbilden `kvartersram`. |
 | downcast | nedkonvertera | Programmeringsterm för en explicit omvandling från basklass till underklass; `nedgradera` betyder i stället att sänka version eller kvalitet. |
+| plugin scan | skannar insticksmoduler | Pågående förloppsstatus från insticksmodulhanteraren; verbformen är konsekvent med övriga statusrader och inte en menyåtgärd i infinitiv. |
+| plugin order | insticksmodulsordning | Sparad ordning i vilken insticksmoduler visas eller behandlas; använd inte den ogenomskinliga sammansättningen `insticksmodulsorderfil`. |
+| corrupt cache file | skadad cachefil | Filen har ogiltigt eller skadat innehåll; `korrupt` undviks i svensk användartext. |
 
 ## Avsiktliga undantag
 
