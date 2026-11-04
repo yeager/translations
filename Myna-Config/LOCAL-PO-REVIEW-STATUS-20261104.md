@@ -64,8 +64,9 @@ Weblate visar nu **416 av 417 strängar översatta (98 %)** och samtliga 416
 väntar på granskning. Det enda tomma fältet är avsiktliga
 `translator-credits`.
 
-Weblate rapporterar fyra kontroller: en på den inskickade strängen och tre på
-fortfarande tomma strängar. Den inskickade kontrollen är verifierat falsk
-positiv: `Refresh` → `Uppdatera` jämförs med den andra engelska källan
-`Update`. Båda är korrekt `Uppdatera` i respektive UI-kontext och ska inte
-förvanskas för att undgå en återanvändningskontroll.
+Weblate rapporterar fyra kvarvarande kontroller. De har granskats i editorn
+och är falska positiva: `Myna` och `Marimba` är avsiktligt oförändrade
+egennamn, `GNOME Shell-utökning` behåller produktnamnet GNOME Shell och
+`{count} språk` är korrekt i både svensk singular- och pluralform eftersom
+platshållaren bär antalet. Ingen korrekt svensk text ska förvanskas enbart för
+att undanröja dessa kontroller.
