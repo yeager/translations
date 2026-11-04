@@ -27,6 +27,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | plugin | insticksmodul | Används i svensk löptext och menyer. Produktformat som VST3 och AudioUnit behålls. |
 | Pinout | stiftkonfiguration | Knappen öppnar Ardours fönster för insticksmodulens in- och utgångsstift. Följer katalogens befintliga `Pin Configuration` → **Stiftkonfiguration**. |
 | panner | panorerare | Reglage eller modul som placerar signalen i stereobilden eller surroundfältet. |
+| Stereo Panner | stereopanorerare | Stereo-varianten av Ardours panorerarmodul. |
 | pre-/post-fader | före/efter fader | Mät- och sändningspunkt i signalflödet. |
 | preset | förinställning | Gäller insticksmoduler, export och sparade konfigurationer. |
 | region | region | Ardours avgränsade medieobjekt på tidslinjen, inte geografiskt område. |
@@ -38,6 +39,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | session | session | Etablerad DAW-term. |
 | Strip Silence | Ta bort tystnad | Verktyget klipper bort avsnitt under en angiven tystnadströskel utan att förstöra ursprungsljudet. |
 | state directory | tillståndskatalog | Katalog som hör till en sparad spårmall och innehåller dess tillståndsdata. Inte en statlig katalog. |
+| auto-map | automatisk mappning | Automatisk tilldelning av importerade kanaler till lokala spår efter ID eller namn. |
 | solo isolate | soloisolering | Förhindrar att ett spår tystas när andra spår solospelas. |
 | Slide (edit mode) | Flytta | Fritt redigeringsläge där regioner kan flyttas och överlappa. |
 | Ripple (edit mode) | Krusning | Etablerad term i svensk videoredigering; efterföljande regioner flyttas vid redigering. |
