@@ -24,6 +24,10 @@ Senast uppdaterad: 2026-11-04.
 | linked | länkad | Exempel: *linked object* → *länkat objekt*. |
 | packed | packad | Exempel: *packed data-block* → *packat datablock*. |
 | parent | förälder | Blender-hierarki, exempelvis *Parent* → *Förälder*. |
+| parenting | föräldrarelation | Beskriver relationen mellan objekt eller ben. Använd inte *överordning* när det är själva relationsslaget som avses. |
+| bone roll | benrullning | Etablerad svensk UI-term för ett bens rotationsriktning kring längdaxeln. |
+| rest pose | viloposition | Använd i förklarande armaturtext. Bevara RST-termmål som `<rest pose>`. |
+| duplicate and rename | Duplicera och byt namn | Operatör för kopiering av ben med efterföljande namnbyte. |
 | working plane | arbetsplan | Etablerad term i Blenders TBX-ordlista. |
 | internal clipboard | interna urklippet | UI-funktion, inte operativsystemets urklipp. |
 | rigid body | styv kropp | Fysiksimuleringens etablerade term. |
