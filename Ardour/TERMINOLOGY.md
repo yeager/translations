@@ -10,6 +10,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | bus | buss | Behåll DAW-termen, exempelvis `masterbuss` och `monitorbuss`. |
 | clip library | klippbibliotek | Ardours katalog med återanvändbara klipp; `clip` är här ett medieklipp, inte ett programklipp. |
 | cue | cue | Ardours namngivna cue-funktion; inte samma sak som en vanlig markör. |
+| punch range | punchintervall | Det specifika intervall som styr punch-in/-ut-inspelning; det är inte ett musikaliskt slagintervall. |
 | fade | toning | `fade in`/`fade out` uttrycks vid behov som intoning/uttoning. |
 | crossfade | korstoning | Överlappande in- och uttoning mellan två regioner. |
 | region fades | regiontoningar | Toningar knutna till en regions början eller slut. |
@@ -41,6 +42,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | pre-/post-fader | före/efter fader | Mät- och sändningspunkt i signalflödet. |
 | preset | förinställning | Gäller insticksmoduler, export och sparade konfigurationer. |
 | region | region | Ardours avgränsade medieobjekt på tidslinjen, inte geografiskt område. |
+| region tempo | regionstempo | Tempostyrning som hör till en enskild region. |
 | region automation line | automatiseringslinje för regionen | Automatiseringskurva för en kontrollegenskap i en regioneffekt. |
 | route group / Collect Group | grupp / Samla grupp | En grupp kopplar samman spår eller bussar. Åtgärden placerar medlemmarna intill varandra i redigeraren eller mixern. |
 | range tool | intervallverktyg | Verktyget markerar ett tidsintervall för bland annat redigering och analys. |
