@@ -51,6 +51,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | region automation line | automatiseringslinje för regionen | Automatiseringskurva för en kontrollegenskap i en regioneffekt. |
 | route group / Collect Group | grupp / Samla grupp | En grupp kopplar samman spår eller bussar. Åtgärden placerar medlemmarna intill varandra i redigeraren eller mixern. |
 | range tool | intervallverktyg | Verktyget markerar ett tidsintervall för bland annat redigering och analys. |
+| region boundary | regionsgräns | Gräns vid en enskild regions början eller slut; skrivs som en sammansättning. |
+| selected regions | valda regioner | Aktuellt markerade regioner i Ardours UI; använd konsekvent `valda`, inte den blandade formen `utvalda`. |
 | range mode | intervalläge | Redigeringsläge som använder en tidsintervallmarkering. |
 | sample rate | samplingsfrekvens | Exempelvis sessionens samplingsfrekvens. |
 | resampling | omprovtagning | Konvertering mellan samplingsfrekvenser vid import eller export. |
