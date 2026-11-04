@@ -126,6 +126,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | inter-onset time | tid mellan ansatser | Minsta tidsintervall mellan detekterade ljudansatser. |
 | cut position | klipp-position | Position där Rhythm Ferret delar en region; bindestreck används för att undvika tre p i följd. |
 | peak hold time | hålltid för toppvärde | Tidslängd som nivåmätaren behåller sitt toppvärde. |
+| Bars & Beats | takter och slag | Musikalisk tidsvisning; `bar` är takt och `beat` är slag i Ardours svenska UI. |
+| auto-punch in/out | automatisk punch-in/punch-out | Transportens automatiska inspelningsstart och -stopp vid punchgränserna. |
+| I/O tooltip input/output | INGÅNG/UTGÅNG | Versala rubriker i I/O-knappens verktygstips; avser ljudanslutningar, inte allmänna data. |
 
 ## Avsiktliga undantag
 
