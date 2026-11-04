@@ -167,6 +167,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | solo cut control | solodämpningskontroll | Gain-liknande kontroll för konfigurationsvärdet `solo-mute-gain`, uttryckt i dB. |
 | monitor section | monitorsektion | Ardours namngivna monitorfunktion; använd samma term i feltexter som i gränssnittet. |
 | Console1 Send | Console1 Send | Reserverat I/O-namn för Softubes Console 1-kontroll; produktnamn och portnamn översätts inte. |
+| Console1 Recv | Console1 Recv | Reserverat I/O-namn för Softubes Console 1-kontroll; måste behålla exakt produktnamn och portändelse. |
+| sample position | samplingsposition | Diskläsarens exakta position i en ljuddataström; `prov` skulle avse en fysisk provbit och saknar positionsbetydelsen. |
 
 ## Avsiktliga undantag
 
