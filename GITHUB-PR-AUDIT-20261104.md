@@ -40,3 +40,33 @@ när en reproducerbar konflikt måste lösas.
 
 Statusen ovan gäller vid auditdatumet. `Waiting for review`, en neutral botkommentar
 och en ren lokal diff är inte samma sak som att en ändring är godkänd eller mergad.
+
+## Uppföljning 4 november 2026, 16:46 CET
+
+Samtliga 126 öppna PR:er lästes om via GitHub API med aktuell head, kommentarer,
+recensioner och statuskontroller. 110 saknar både aktivt granskningskrav och
+misslyckad/pågående kontroll. De 16 signalerade PR:erna granskades manuellt.
+
+* Console Shelf PS5 #3 har fortfarande den äldre begäran om ändringar markerad,
+  men den aktuella headen `7fd8927` innehåller de efterfrågade källiste- och
+  macOS-rättningarna. Host- och renderartesterna är redan verifierade; PS5-länkning
+  kräver fortsatt en x86_64-Linux/WSL-byggmiljö.
+* ComfyUI Frontend #17064, TigerVNC #2167 och FreeRDP #13388 har endast äldre
+  granskningshändelser; de synliga kraven kontrollerades mot respektive nuvarande
+  head och har ingen ny konkret diff att tillämpa. De inväntar en maintainer.
+* Laya #729 visar fortfarande äldre, fastnade kontrollstatusar i PR-vyn medan den
+  efterföljande fullständiga körningen 41856150511 är grön. Det återstående kravet
+  är den av maintainern begärda, märkta svenska stöduppgiftsutvärderingen – inte en
+  CI- eller koddefekt.
+* OpenClaw #160981 saknar den uttryckligen begärda nya iOS-körningens skärmevidens;
+  de röda/avbrutna kontrollerna hör till den gamla evidensworkflowen. Utan en
+  tillgänglig iOS-miljö går det inte att ersätta den med påhittad verifiering.
+* Stirling PDF #7833:s kvarvarande robotkommentarer skulle kräva ändringar av
+  källspråket eller projektets särskilda lokaliseringsflöde. Ingen svensk
+  katalogändring görs runt den dokumenterade upstream-policyn.
+* LibreSpeed #860 har en misslyckad äldre e2e-körning, men maintainern har uttryckligen
+  integrerat förslaget i sitt eget spår. Den parallella PR:n lämnas orörd.
+
+Inga nya säkra kodändringar återstod efter den kompletta uppföljningen. Externa
+miljöer, maintainergranskningar och uttryckliga projektpolicyer redovisas därför som
+uppföljning i stället för att döljas med rutinrebases eller spekulativa patchar.
