@@ -70,3 +70,15 @@ egennamn, `GNOME Shell-utökning` behåller produktnamnet GNOME Shell och
 `{count} språk` är korrekt i både svensk singular- och pluralform eftersom
 platshållaren bär antalet. Ingen korrekt svensk text ska förvanskas enbart för
 att undanröja dessa kontroller.
+
+## Oberoende eftergranskning
+
+Tre separata pass granskade hela katalogen efter den lokala färdigställningen.
+Av 296 unika rekommenderade käll-/målpar överensstämde 285 direkt med den
+färdiga kandidaten. De återstående förslagen avvisades efter kontextkontroll:
+`GNOME Shell-utökning` är mer precist än den generiska termen *skalutökning*,
+UI-etiketterna i dikteringsläget behöver citattecken och ljudbeskrivningen
+behåller den tekniskt tydligare termen *klangstav*. Rubriken *Fel vid
+identifiering* och uttrycket *ont om minne* är också idiomatiska i respektive
+diagnostik- och varningskontext. Kandidaten är därför oförändrad efter
+eftergranskningen.
