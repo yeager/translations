@@ -1,0 +1,105 @@
+# Blender Manual Swedish review delta, 2026-11-04.
+# Source snapshot: exports/2026-11-04/blender-manual-manual-sv.po
+# Review scope: Curve Data and NURBS properties.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Manual\n"
+"PO-Revision-Date: 2026-11-04 18:44+0100\n"
+"Last-Translator: Swedish localization review\n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:4 ../../manual/modeling/curves_new/properties.rst:49
+msgid "Curve Data"
+msgstr "Kurvdata"
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:10 ../../manual/modeling/curves_new/properties.rst:55
+msgid ":menuselection:`Sidebar --> Item --> Curve Data`"
+msgstr ":menuselection:`Sidopanel --> Objekt --> Kurvdata`"
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:17 ../../manual/modeling/curves_new/properties.rst:61
+msgid "Closes the active spline by connecting the last control point back to the first."
+msgstr "Stänger den aktiva splinen genom att ansluta den sista kontrollpunkten till den första."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:19 ../../manual/modeling/curves_new/properties.rst:63
+msgid "When enabled, the curve forms a continuous loop. When disabled, the spline remains open."
+msgstr "När den är aktiverad bildar kurvan en sammanhängande slinga. När den är inaktiverad förblir splinen öppen."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:30 ../../manual/modeling/curves_new/properties.rst:74
+msgid "A NURBS curve with Cyclic enabled."
+msgstr "En NURBS-kurva med Cyklisk aktiverat."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:32 ../../manual/modeling/curves_new/properties.rst:76
+msgid "Knot Mode :guilabel:`NURBS`"
+msgstr "Knutläge :guilabel:`NURBS`"
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:33 ../../manual/modeling/curves_new/properties.rst:77
+msgid "Controls how knots are generated along the NURBS spline, which affects parametrization and shape behavior."
+msgstr "Styr hur knutar genereras längs NURBS-splinen, vilket påverkar parametrisering och formbeteende."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:37 ../../manual/modeling/curves_new/properties.rst:81
+msgid "Uses evenly spaced knots. Produces a smooth curve influenced uniformly by control points."
+msgstr "Använder jämnt fördelade knutar. Skapar en jämn kurva som påverkas likformigt av kontrollpunkterna."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst ../../manual/modeling/curves_new/properties.rst ../../manual/modeling/geometry_nodes/generate/array.rst
+msgid "Endpoint"
+msgstr "Slutpunkt"
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:40 ../../manual/modeling/curves_new/properties.rst:84
+msgid "Clamps the curve so it passes through the first and last control points."
+msgstr "Begränsar kurvan så att den passerar genom den första och sista kontrollpunkten."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst ../../manual/modeling/curves_new/properties.rst
+msgid "Bezier"
+msgstr "Bézier"
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:42 ../../manual/modeling/curves_new/properties.rst:86
+msgid "Makes the NURBS curve behave similarly to a Bézier curve. The NURBS control points act like *Free* Bézier handles."
+msgstr "Gör att NURBS-kurvan beter sig på liknande sätt som en Bézier-kurva. NURBS-kontrollpunkterna fungerar som *fria* Bézier-handtag."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:45 ../../manual/modeling/curves_new/properties.rst:89
+msgid "Combines endpoint clamping with Bézier-like behavior."
+msgstr "Kombinerar begränsning vid slutpunkterna med Bézier-liknande beteende."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:47 ../../manual/modeling/curves_new/properties.rst:91
+msgid "Allows manual control of knot values."
+msgstr "Gör det möjligt att styra knutvärden manuellt."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:49 ../../manual/modeling/curves_new/properties.rst:93
+msgid "Order :guilabel:`NURBS`"
+msgstr "Ordning :guilabel:`NURBS`"
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:50 ../../manual/modeling/curves_new/properties.rst:94
+msgid "Defines the mathematical order of the NURBS curve. The order determines how many control points influence each evaluated segment of the curve."
+msgstr "Anger den matematiska ordningen för NURBS-kurvan. Ordningen bestämmer hur många kontrollpunkter som påverkar varje utvärderat segment av kurvan."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:54 ../../manual/modeling/curves_new/properties.rst:98
+msgid "Higher values mean that each control point influences a larger portion of the curve, resulting in smoother transitions. Lower values reduce influence and create sharper transitions."
+msgstr "Högre värden innebär att varje kontrollpunkt påverkar en större del av kurvan, vilket ger jämnare övergångar. Lägre värden minskar påverkan och ger skarpare övergångar."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:58 ../../manual/modeling/curves_new/properties.rst:102
+msgid "The valid range for *Order* is typically 2-6, depending on the number of control points present."
+msgstr "Det giltiga intervallet för *Ordning* är vanligtvis 2–6, beroende på hur många kontrollpunkter som finns."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:65 ../../manual/modeling/curves_new/properties.rst:109
+msgid "NURBS curve with order 4."
+msgstr "NURBS-kurva med ordning 4."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:69 ../../manual/modeling/curves_new/properties.rst:113
+msgid "NURBS curve with order 2."
+msgstr "NURBS-kurva med ordning 2."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:72 ../../manual/modeling/curves_new/properties.rst:115
+msgid "Resolution :guilabel:`NURBS` :guilabel:`Bézier` :guilabel:`Catmull Rom`"
+msgstr "Upplösning :guilabel:`NURBS` :guilabel:`Bézier` :guilabel:`Catmull Rom`"
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:73 ../../manual/modeling/curves_new/properties.rst:116
+msgid "Adjusts the resolution of each segment by changing the number of subdivisions used when evaluating the spline."
+msgstr "Justerar upplösningen för varje segment genom att ändra antalet underindelningar som används när splinen utvärderas."
+
+#: ../../manual/grease_pencil/properties/curve_data.rst:76 ../../manual/modeling/curves_new/properties.rst:119
+msgid "Higher resolution values produce smoother curves but increase computational cost. Lower values reduce detail but improve performance."
+msgstr "Högre upplösningsvärden ger jämnare kurvor men ökar beräkningskostnaden. Lägre värden minskar detaljrikedomen men förbättrar prestandan."
