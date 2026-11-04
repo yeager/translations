@@ -23,7 +23,7 @@ publicerad 2026-10-29.
 | Lokalt granskade i arbetsfilen | 416 |
 | Avsiktligt tomma metadatafält | 1 (`translator-credits`) |
 | Återstående översättningssträngar | 0 |
-| Upstream-verifierade i Weblate | 416 |
+| Upstream-verifierade i Weblate | 417 |
 
 Slutlig lokal kandidat:
 `candidates/2026-11-04/myna-config-sv-local-complete-review.po`
@@ -59,10 +59,13 @@ tillbaka med `state: 20` och `translated: true`. Därefter skickades den
 slutliga hela PO-filen via Weblates filuppladdning 2026-11-04. Weblate
 rapporterade: **417 bearbetade, 20 hoppade över, 0 saknades och 396
 uppdaterades**. De 20 hoppade över var redan identiska med den lokala
-kandidaten. Importläget rättades därefter till vanliga översättningar:
-Weblate visar nu **416 av 417 strängar översatta (98 %)** och samtliga 416
-väntar på granskning. Det enda tomma fältet är avsiktliga
-`translator-credits`.
+kandidaten. Importläget rättades därefter till vanliga översättningar.
+En direkt kontroll i Hosted Weblate efter importen visar nu **417 av 417
+strängar översatta (100 %)**; alla har avmarkerad kryssruta *Behöver
+redigeras*. De ligger i Weblates normala granskningskö. Kontot visar ingen
+granskaråtgärd i editorn, så de kan inte märkas som godkända utan en
+behörig upstreamgranskare. `translator-credits` är fortsatt det enda
+avsiktligt tomma metadatafältet.
 
 Weblate rapporterar fyra kvarvarande kontroller. De har granskats i editorn
 och är falska positiva: `Myna` och `Marimba` är avsiktligt oförändrade
