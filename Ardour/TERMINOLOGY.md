@@ -16,6 +16,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | launch style | startläge | Valet `Trigger`, `Retrigger`, `Gate`, `Toggle` eller `Repeat` styr hur ett klipp startas. Det är ett funktionsläge, inte en produktlansering eller en stil. |
 | punch range | punchintervall | Det specifika intervall som styr punch-in/-ut-inspelning; det är inte ett musikaliskt slagintervall. |
 | fade | toning | `fade in`/`fade out` uttrycks vid behov som intoning/uttoning. |
+| stretch tempo / stretch end tempo | sträck tempo / sträck sluttempot | Ångraåtgärder när användaren drar en tempopunkt eller en temposlutpunkt; de är verbfraser och inte beskrivningen `sträckt tempo`. |
 | crossfade | korstoning | Överlappande in- och uttoning mellan två regioner. |
 | region fades | regiontoningar | Toningar knutna till en regions början eller slut. |
 | fade length | toningslängd | Längden på en intoning eller uttoning i verktyget för att ta bort tystnad. |
@@ -87,6 +88,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | snapshot | ögonblicksbild | Sparat sessionsläge; inte datorskärmdump. |
 | recording take | inspelningstagning | En enskild inspelning i Ardours inspelningsflöde; skiljs från den resulterande regionen och dess ljudfiler. |
 | time-stretch quality | Mjuk / Jämn / Tydlig / Blandad | Kvalitetsval för Rubber Band-algoritmens transientbehandling. Termerna beskriver behandlingen, inte ett visuellt tillstånd. |
+| Stretch Mode | tidssträckningsläge | Redigerarläge för tidssträckning av ljud- och MIDI-regioner med bibehållen tonhöjd. |
 | timecode | tidskod | Video- och transportsynkronisering. |
 | mux | multiplexera | Videoexport som kopierar videoströmmen till den nya behållaren utan omkodning; `mux` är inte ett svenskt verb i UI-text. |
 | MTC rate/drop | bildfrekvens-/drop-frame-värde | MTC-fältet kombinerar bildfrekvens och drop-frame-markering; översätt inte som fysisk hastighet eller minskning. |
