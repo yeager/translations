@@ -28,6 +28,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | plugin scan progress | förloppet för skanning av insticksmoduler | Hjälptext för indexering och upptäckt. Använd en utskriven genitivfras i löptext i stället för den tunga kedjan `insticksmodul-skanningsförlopp`. |
 | twist tempo | justera tempo | Ångraåtgärd vid dragning som ändrar tempoövergången mellan berörda tempopunkter. Den interna engelska metaforen `twist` behöver inte stå kvar i svensk UI-historik. |
 | IO: bad output string | IO: felaktig utgångssträng | Diagnostikprefixet `IO:` identifierar I/O-delsystemet och ska bevaras konsekvent i XML-fel från motorn. |
+| PT Import: MISSING | PT Import: SAKNAS | PT-importens användarvända felloggar använder versala statusord. Samma `MISSING` ska konsekvent vara **SAKNAS**, medan produktnamnet `PT Import` bevaras. |
 | peak hold | topphållning | Ljudmätarens funktion som håller kvar det uppmätta toppvärdet tills återställning. Undvik den onödiga engelska blandformen `peak-hold` i svensk UI-text. |
 | Punch In / Punch Out | Punch In / Punch Out | Ardours namngivna auto-punch-åtgärder. Behåll de etablerade DAW-termerna tillsammans med `punchintervall`; en bokstavlig översättning vore mindre igenkännbar. |
 | Solo Safe | Solo Safe | Namnet på Ardours soloskyddsläge i kanalmenyer. Behålls för igenkänning; någon entydig etablerad svensk UI-motsvarighet finns inte i projektets kontext. |
