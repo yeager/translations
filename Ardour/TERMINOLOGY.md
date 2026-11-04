@@ -36,6 +36,10 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Medium (sinc) | Medel (sinc) | Mellanläget för sinc-baserad samplingsfrekvensomvandling vid export. `sinc` är algoritmens namn och behålls. |
 | note off | Note Off | Standardiserat MIDI-meddelande; behåll termen med versalt O. |
 | plugin | insticksmodul | Används i svensk löptext och menyer. Produktformat som VST3 och AudioUnit behålls. |
+| plugin editor | insticksmodulsredigerare | Fönster för en enskild insticksmoduls reglage och egenskaper; skriv ihop enligt svensk sammansättningsprincip. |
+| pin mode | stiftläge | Ruttens läge för stiftanslutningar; samma `stift` som i stiftkonfigurationen. |
+| plugin DSP load | insticksmodulers DSP-belastning | Belastning från insticksmoduler på digital signalbehandling; `DSP` behålls som etablerad förkortning. |
+| plugin GUI | insticksmodulens gränssnitt | Inställningsrubrik för insticksmodulens grafiska användargränssnitt. |
 | plugin setup | konfiguration av insticksmodul | Dialog för den valda insticksmodulens anslutningar och parametrar. |
 | plugin input/output configuration | insticksmodulens ingångs-/utgångskonfiguration | Konfiguration av insticksmodulens signalstift. |
 | no-inplace | ej in-place | Teknisk debuggetikett: insticksmodulen kan inte bearbeta i samma buffert utan behöver en tillfällig kopia. |
