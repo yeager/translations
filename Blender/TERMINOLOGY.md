@@ -59,6 +59,20 @@ Senast uppdaterad: 2026-11-04.
 | Python-namn, operatorer, enumvärden och egenskapsnycklar | Behåll exakt, till exempel `VertexGroup.add()` och `vertex_indices_set`. |
 | Platshållare | Bevara exakt: `%s`, `%d`, `{}` och formatteringsflaggor får inte ändras. |
 
+## USD i import- och exportdokumentationen
+
+| Engelska | Svenska | Anmärkning |
+| --- | --- | --- |
+| prim | prim / primitiv | Behåll *prim* när det är USD:s länkade fackterm eller identifierare; använd *primitiv* i svensk förklarande text. |
+| root prim | rotprim | Avser roten i USD-hierarkin. Får inte normaliseras till *standardprim*. |
+| default prim | standardprim | USD:s namngivna standardprim, inte nödvändigtvis hierarkins rot. |
+| Point Cloud | punktmoln | Följer Blender-UI:ts etablerade term. |
+| String Property | strängegenskap | Använd för Blenders anpassade egenskaper med strängvärde. Kodnamn och nycklar behålls oförändrade. |
+| accessibility label | tillgänglighetsetikett | Gäller USD-tillgänglighetsmetadata. |
+| USD stage | USD-scen | Kontextbundet i exporterad/importerad scendokumentation; översätt inte automatiskt i API- eller filformatsnamn. |
+| up orientation | uppåtriktning | Använd när koordinatsystemets uppaxel beskrivs, till exempel *Y-uppåtriktning*. |
+| `UsdGeom*`, `Scope`, `allPurpose`, `preview` | behåll exakt | Identifierare och normativa USD-värden. Översätt endast den omgivande förklarande texten. |
+
 ## Kontrollerade UI-formuleringar
 
 | Engelska | Svenska |
