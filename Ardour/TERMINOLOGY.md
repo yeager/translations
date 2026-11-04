@@ -17,6 +17,10 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | punch range | punchintervall | Det specifika intervall som styr punch-in/-ut-inspelning; det är inte ett musikaliskt slagintervall. |
 | fade | toning | `fade in`/`fade out` uttrycks vid behov som intoning/uttoning. |
 | fade-in length/shape/active | intoningslängd/intoningsform/aktivera intoning | Parametrar och åtgärder för en regions intoning. Använd inte den konkurrerande termen `inbländning` i samma UI. |
+| Measure (latency dialog button) | Mät | Knappen startar latensmätningen och ska därför använda imperativ, inte substantivet `Mätning`. |
+| samples (audio buffer or latency unit) | samplingar | Antal digitala ljudsamplingar i ljudmotorns inställningar; ordet `prover` hör inte hemma i denna enhetskontext. |
+| playhead | spelhuvud | Ardours etablerade UI-term för den aktuella spelpositionen, även i importdialogens val för insättningsposition. |
+| place transient | placera transient | Ångraåtgärd som lägger till en transientmarkering vid redigeringspositionen; `tillfällig plats` bygger på den orelaterade vardagsbetydelsen av transient. |
 | stretch tempo / stretch end tempo | sträck tempo / sträck sluttempot | Ångraåtgärder när användaren drar en tempopunkt eller en temposlutpunkt; de är verbfraser och inte beskrivningen `sträckt tempo`. |
 | crossfade | korstoning | Överlappande in- och uttoning mellan två regioner. |
 | region fades | regiontoningar | Toningar knutna till en regions början eller slut. |
