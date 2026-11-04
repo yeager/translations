@@ -177,6 +177,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | inline mixer-strip controls | direktvisade mixerremskontroller | Insticksmodulkontroller som visas direkt i mixerremsan, begränsade genom inställningen `max-inline-controls`. |
 | Play loop | loopuppspelning | Transportläge som tvingar kontinuerlig uppspelning av loopintervallet. |
 | global strip template | global mall för mixerremsa | Mall som är tillgänglig för alla sessioner, till skillnad från en sessionslokal mixerremsmall. |
+| loop range / punch range | loopintervall / punchintervall | Namngivna Ardour-intervall för upprepad uppspelning respektive automatisk punch. Skrivs som svenska sammansättningar utan onödigt bindestreck. |
+| Play/Start/Finish Loop or Punch Range | Spela upp/Starta/Avsluta loop- eller punchintervallet | Åtgärder på det bestämda, aktuella intervallet. `stansningsområde` och `slingintervall` används inte. |
 
 ## Avsiktliga undantag
 
