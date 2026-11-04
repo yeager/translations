@@ -40,6 +40,12 @@ används `diktering`, `modell`, `diagnostik`, `integritetsskyddande` och
 
 ## Status
 
-Lokal, kontextgranskad kandidatbatch. Den Hosted Weblate-token som finns i
-nyckelringen gav HTTP 401, medan den inloggade browser-sessionen gav
-autentiserade GET-svar från API:t. Inga ändringar har skickats ännu.
+Skickad till Hosted Weblate den 4 november 2026 via den inloggade
+webbläsarsessionens REST-API. Samtliga 20 enheter har lästs tillbaka från
+`/api/units/<id>/` och verifierats med exakt måltext, tillstånd `20`
+(*translated*) och `translated: true`. Batchen är inskickad men ännu inte
+granskad eller godkänd uppströms.
+
+Den sparade Hosted Weblate-tokenen i nyckelringen gav HTTP 401. Den
+inloggade sessionen användes därför endast som autentiserad API-transport;
+ingen hemlighet har lagrats i detta arkiv.
