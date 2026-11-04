@@ -89,6 +89,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | peak | toppnivå | Signalens högsta nivå i krav på export och normalisering. |
 | outboard gear | extern utrustning | Extern ljudutrustning som kräver export i realtid. |
 | velocity | anslagsstyrka | MIDI-noters dynamiska styrvärde, inte fysisk hastighet. |
+| `AutomationList` diagnostic | fick XML-noden | Källkoden lämnar en XML-nod till listan; använd inte den bokstavliga och felaktiga formen `passerade XML-nod`. |
 | allow mush | tillåt begränsning | Vid MIDI-redigering får värden begränsas till intervallet 0–127 i stället för att hela åtgärden avbryts. |
 | Video Server | videoserver | Ardours externa tjänst för videovisning och videohantering. |
 
