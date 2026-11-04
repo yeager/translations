@@ -169,6 +169,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Console1 Send | Console1 Send | Reserverat I/O-namn för Softubes Console 1-kontroll; produktnamn och portnamn översätts inte. |
 | Console1 Recv | Console1 Recv | Reserverat I/O-namn för Softubes Console 1-kontroll; måste behålla exakt produktnamn och portändelse. |
 | sample position | samplingsposition | Diskläsarens exakta position i en ljuddataström; `prov` skulle avse en fysisk provbit och saknar positionsbetydelsen. |
+| diskstream / diskstream-id | diskström / diskströms-id | Äldre sessionsmetadata identifierar en diskbaserad spårström. Behåll den tekniska identifierarformen med svensk sammansättning i diagnostiken. |
+| explicit solo | direkt solo | Spåret är solospelat av egen kontroll, i motsats till upp- eller nedströms spritt solo. |
+| CPU DMA latency request | CPU-DMA-latensbegäran | Linux-gränssnittets begäran om minsta DMA-latens. Förkortningen behålls med bindestreck som svensk teknisk sammansättning. |
 
 ## Avsiktliga undantag
 
