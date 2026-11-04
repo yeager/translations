@@ -143,6 +143,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | VCA state | VCA-tillstånd | Sparat/återställt tillstånd för ett VCA-objekt; inte allmän användarstatus. |
 | plugin-stub | insticksmodulsstubb | Ersättningsprocessor när den ursprungliga insticksmodulen inte kan konfigureras vid sessionsinläsning. Ardours övriga svenska UI använder redan `stub`/`stubbar`; `stubb` följer den befintliga tekniska användningen och sammanhanget är en diagnostiklogg. |
 | MTC quarter-frame message | MTC-quarter-frame-meddelande | Namngivet MIDI Time Code-protokollmeddelande. MTC skickar åtta sådana delmeddelanden för att överföra en hel tidskodsposition; behåll protokollnamnet i stället för den felaktiga vardagsbilden `kvartersram`. |
+| downcast | nedkonvertera | Programmeringsterm för en explicit omvandling från basklass till underklass; `nedgradera` betyder i stället att sänka version eller kvalitet. |
 
 ## Avsiktliga undantag
 
