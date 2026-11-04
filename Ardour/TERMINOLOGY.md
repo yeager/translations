@@ -18,6 +18,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | plugin | insticksmodul | Används i svensk löptext och menyer. Produktformat som VST3 och AudioUnit behålls. |
 | preset | förinställning | Gäller insticksmoduler, export och sparade konfigurationer. |
 | region | region | Ardours avgränsade medieobjekt på tidslinjen, inte geografiskt område. |
+| route group / Collect Group | grupp / Samla grupp | En grupp kopplar samman spår eller bussar. Åtgärden placerar medlemmarna intill varandra i redigeraren eller mixern. |
 | range tool | intervallverktyg | Verktyget markerar ett tidsintervall för bland annat redigering och analys. |
 | sample rate | samplingsfrekvens | Exempelvis sessionens samplingsfrekvens. |
 | session | session | Etablerad DAW-term. |
