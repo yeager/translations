@@ -1,6 +1,6 @@
 # Slutgranskning: Blender UI-batch 02
 
-Granskad fil: `blender-ui-sv-review-batch-20261104-02.po`  
+Granskad fil: `blender-ui-sv-review-batch-20261104-02.po`
 Underlag: den lokala UI-råexporten, `TERMINOLOGY.md` och
 `agent-ui-batch-plan-20261104.md`.
 

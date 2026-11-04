@@ -1,6 +1,6 @@
 # Slutgranskning: Blender Manual batch 24 — länkning och tillägg
 
-Granskad fil: `blender-manual-sv-review-batch-20261104-24.po`  
+Granskad fil: `blender-manual-sv-review-batch-20261104-24.po`
 Underlag: råexporten `blender-manual-manual-sv.po`, den dubbelgranskade
 införandeplanen `agent-linkappend-batch-plan-20261104.md`, dess slutkontroll
 och den lokala Blender UI-exporten från 2026-11-04.
