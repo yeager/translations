@@ -91,6 +91,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | limit/normalize peak | begränsa/normalisera toppnivå | Exportinställningar för högsta signalnivå; `peak` ska inte bli den ogrammatiska formen `gränsvärde topp`. |
 | shaped noise | brusformning | Ditheringens brusformning; ljudteknisk term, inte bokstavliga `formad brus`. |
 | pre-roll | förrullning | Transportens förlopp före uppspelning eller inspelning, inte förhandsvisning. |
+| document root / docroot | dokumentrot | Videoserverns katalogrot för publicerade videoresurser; behåll inte den oöversatta interna termen `docroot` i användargränssnittet. |
+| MIDI patch change | MIDI-programändring | Ändring av MIDI-programmet på ett instrument eller spår. |
 | DPM fall-off | DPM-avklingning | Tidsförloppet när digitala toppmätare faller tillbaka, inte ett avbrott. |
 | outboard gear | extern utrustning | Extern ljudutrustning som kräver export i realtid. |
 | velocity | anslagsstyrka | MIDI-noters dynamiska styrvärde, inte fysisk hastighet. |
