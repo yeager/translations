@@ -23,6 +23,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | place transient | placera transient | Ångraåtgärd som lägger till en transientmarkering vid redigeringspositionen; `tillfällig plats` bygger på den orelaterade vardagsbetydelsen av transient. |
 | Transpose (MIDI control) | Transponera | MIDI-funktion för tonartsförskjutning; `Omvandling` är en felaktigt allmän betydelse. Formen fungerar både på dialogknappen och som etikett vid det virtuella klaviaturets kontroll. |
 | Track Name | spårnamn | Visningsalternativet i meterbryggan visar ljudspårets namn; `Titel` saknar den avsedda Ardour-betydelsen. |
+| Edit Point | redigeringspunkt | Ardours valda referensposition för redigering. Det är ett substantiv och ska inte delas upp till uppmaningen `Redigera punkt`. |
 | stretch tempo / stretch end tempo | sträck tempo / sträck sluttempot | Ångraåtgärder när användaren drar en tempopunkt eller en temposlutpunkt; de är verbfraser och inte beskrivningen `sträckt tempo`. |
 | crossfade | korstoning | Överlappande in- och uttoning mellan två regioner. |
 | region fades | regiontoningar | Toningar knutna till en regions början eller slut. |
