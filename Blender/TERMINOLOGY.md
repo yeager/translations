@@ -26,6 +26,9 @@ Senast uppdaterad: 2026-11-04.
 | internal clipboard | interna urklippet | UI-funktion, inte operativsystemets urklipp. |
 | rigid body | styv kropp | Fysiksimuleringens etablerade term. |
 | shader | shader | Behåll den etablerade facktermen i UI och nodnamn. |
+| anti-aliasing | kantutjämning | Synlig inställning för text- och bildåtergivning. |
+| subpixel anti-aliasing | subpixelutjämning | Variant av kantutjämning; skriv ihop. |
+| font hinting | teckensnittshintning | Inställning som styr teckenplacering och skärpa i textåtergivning. |
 | lighting node | belysningsnod | Använd i saktext; behåll engelska nodnamn där de är produktnamn. |
 | geometry node | geometrinod | Svensk sammansättning i förklarande UI-text. |
 | Grease Pencil | Grease Pencil | Produkt- och funktionsnamn; översätt inte. |
