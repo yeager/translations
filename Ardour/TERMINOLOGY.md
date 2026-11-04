@@ -120,6 +120,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | VCA Assigns | VCA-tilldelningar | Mixerremsans visningsval för kopplingar till VCA-master; substantiv, inte verbet `tilldelar`. |
 | Monitor Buttons | monitorknappar | Mätarbryggans knappar för monitorfunktioner, inte en allmän övervakningskategori. |
 | Main Outs | huvudutgångar | Signalvägens huvudsakliga utgångar i Ardours ruttmeny. |
+| Broadcast Wave | Broadcast Wave | Namnet på ljudfilformatet (BWF); det är inte en beskrivning av sändningsvågor. |
 | time-stretching | tidssträckning | Anpassning av ett klipps längd/tempo till sessionens tempokarta. |
 | I/O resampling | I/O-omprovtagning | Omprovtagning som Ardour använder för uppspelning eller inspelning med vari-speed. |
 | peak | toppnivå | Signalens högsta nivå i krav på export och normalisering. |
