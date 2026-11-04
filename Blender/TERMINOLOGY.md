@@ -18,21 +18,24 @@ Senast uppdaterad: 2026-11-04.
 | collection | samling | Avser Blenders objektbehållare, inte en godtycklig lista. |
 | project | projekt | Avser Blenders projektkatalog och dess inställningar. |
 | project settings | projektinställningar | Exempel: *Open Project Settings* → *Öppna projektinställningar*. |
+| workspace | arbetsyta | Den etablerade UI-formen, exempelvis *Workspace* → *Arbetsyta*. |
 | linked | länkad | Exempel: *linked object* → *länkat objekt*. |
 | packed | packad | Exempel: *packed data-block* → *packat datablock*. |
+| parent | förälder | Blender-hierarki, exempelvis *Parent* → *Förälder*. |
+| working plane | arbetsplan | Etablerad term i Blenders TBX-ordlista. |
 | internal clipboard | interna urklippet | UI-funktion, inte operativsystemets urklipp. |
 | rigid body | styv kropp | Fysiksimuleringens etablerade term. |
 | shader | shader | Behåll den etablerade facktermen i UI och nodnamn. |
 | lighting node | belysningsnod | Använd i saktext; behåll engelska nodnamn där de är produktnamn. |
 | geometry node | geometrinod | Svensk sammansättning i förklarande UI-text. |
 | Grease Pencil | Grease Pencil | Produkt- och funktionsnamn; översätt inte. |
-| override | åsidosättning / överskrivning | Kontextstyrt. *Library Override* och dess sammansättningar följer den etablerade formen *biblioteksöverskrivning*, medan flera generella UI-etiketter använder *åsidosättning*. Normalisera aldrig utan att granska strängens sammanhang och närliggande förekomster. |
+| override | åsidosättning / överskrivning | Kontextstyrt. Generella UI-etiketter använder *åsidosättning*. *Library Override* är i den aktuella UI-katalogen *biblioteksåsidosättning*, men närliggande operatörsnamn använder också *biblioteksöverskrivning*. Normalisera aldrig utan att granska strängens sammanhang och närliggande förekomster. |
 
 ## Mesh och animering
 
 | Engelska | Svenska | Anmärkning |
 | --- | --- | --- |
-| vertex | hörnpunkt | Gäller synlig svensk UI-text. I löpande sammansättningar används normalt *hörnpunkts-*. |
+| vertex | hörnpunkt / hörn | I mesh- och verktygstext används normalt *hörnpunkt* och sammansättningen *hörnpunkts-*. Den korta etiketten *Vertex* förekommer också som *Hörn* i vissa vy- och orienteringssammanhang. Ändra inte mekaniskt mellan formerna. |
 | vertex group | hörnpunktsgrupp | Behåll *VertexGroup* i Python-API, klassnamn och andra identifierare. |
 | vertex color | hörnpunktsfärg | Gäller synlig UI-text. |
 | vertex normal | hörnpunktsnormal | Gäller synlig UI-text. |
@@ -44,6 +47,8 @@ Senast uppdaterad: 2026-11-04.
 | F-Curve | F-kurva | Behåll initialen och använd svenskt ord efter bindestrecket. |
 | action | åtgärd | Animeringsdata i Blender. Behåll *Action* i formella datatyp- eller API-namn. |
 | slot | slot | Etablerat i den aktuella Blender-dokumentationen och UI-kontexten. |
+| shape key | formnyckel | Etablerad term i Blenders TBX-ordlista och UI. |
+| AOV | AOV / godtyckliga utgångsvariabler | Behåll den korta UI-etiketten *AOV*. I förklarande terminologi används TBX-formen *godtyckliga utgångsvariabler*. |
 
 ## Namn, format och kod
 
