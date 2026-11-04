@@ -74,9 +74,16 @@ rapporterar Mail 1 046 av 1 046 strängar översatta och 0 oöversatta. Se även
 ## Deck
 
 Decks fyra oöversatta poster kontrollerades direkt via Transifex den 30
-oktober. De är nya, långa Markdown-introduktioner och hjälptexter för
-standardtavlor, med rubriker, checklistor och länkar; de är inte UI-strängar.
-De lämnas därför medvetet kvar enligt beslutet att vänta med dokumentation.
+oktober. De är långa Markdown-introduktioner och hjälptexter för
+standardtavlor, med rubriker, checklistor och länkar.
+
+Den 4 november granskades hela gruppen i sin faktiska användningskontext:
+Nextcloud Deck använder konsekvent *tavla*, *lista*, *kort*, *tagg* och
+*förfallodatum*. Samtliga fyra texter översattes med Markdown-struktur,
+checklistor, länkar och emoji bevarade. De skickades via Transifex REST API
+och varje måltext lästes tillbaka exakt. Resursen `deck` rapporterar därefter
+448 av 448 strängar och 2 811 av 2 811 ord översatta. Arkiv:
+`nextcloud-deck-sv-20261104-onboarding.json`.
 
 ## Android Notes
 
