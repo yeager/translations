@@ -179,6 +179,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | global strip template | global mall för mixerremsa | Mall som är tillgänglig för alla sessioner, till skillnad från en sessionslokal mixerremsmall. |
 | loop range / punch range | loopintervall / punchintervall | Namngivna Ardour-intervall för upprepad uppspelning respektive automatisk punch. Skrivs som svenska sammansättningar utan onödigt bindestreck. |
 | Play/Start/Finish Loop or Punch Range | Spela upp/Starta/Avsluta loop- eller punchintervallet | Åtgärder på det bestämda, aktuella intervallet. `stansningsområde` och `slingintervall` används inte. |
+| Add/assign pre-fader or post-fader | lägg till/tilldela före fader eller efter fader | Signalflödets position anges med svensk fras i alla blandar- och ruttdialoger; lämna inte `prefader` eller `postfader` oöversatt. |
+| Return (signal route) | retur | Returväg i Ardours signalflöde och processorlista; aldrig navigeringsordet `Tillbaka` eller den bokstavliga `återlämning`. |
 
 ## Avsiktliga undantag
 
