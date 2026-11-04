@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Manual\n"
+"PO-Revision-Date: 2026-11-04 15:55+0100\n"
+"Last-Translator: Daniel Nylander\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. USD hierarchy merge behavior, ../../manual/files/import_export/usd.rst:467.
+msgid ""
+"Merge USD primitives with their Xform parent if possible. USD does not "
+"allow nested ``UsdGeomGprims``, intermediary Xform prims will be defined "
+"to keep the USD file valid when encountering object hierarchies."
+msgstr ""
+"Sammanfoga om möjligt USD-primitiver med deras Xform-förälder. USD "
+"tillåter inte nästlade ``UsdGeomGprims``; mellanliggande Xform-prims "
+"definieras för att USD-filen ska förbli giltig vid objekthierarkier."
+
+#. USD mesh triangulation, ../../manual/files/import_export/usd.rst:472.
+msgid ""
+"Triangulates the mesh before writing. For more detail on the specific "
+"option see the :doc:`Triangulate modifier "
+"</modeling/modifiers/generate/triangulate>`."
+msgstr ""
+"Triangulerar meshen före skrivning. Mer information om alternativet finns "
+"i :doc:`trianguleringsmodifieraren "
+"</modeling/modifiers/generate/triangulate>`."
+
+#. USD material subset explanation, ../../manual/files/import_export/usd.rst:504.
+msgid ""
+"When a mesh has multiple materials assigned, a geometry subset is created"
+" for each material. The first material (if any) is always applied to the "
+"mesh itself as well (regardless of the existence of geometry subsets), "
+"because the Hydra viewport does not support materials on subsets. See "
+"`USD issue #542 "
+"<https://github.com/PixarAnimationStudios/USD/issues/542>`__ for more "
+"information."
+msgstr ""
+"När en mesh har flera tilldelade material skapas en geometridelmängd för "
+"varje material. Det första materialet, om något, tillämpas alltid också på "
+"själva meshen, oavsett om geometridelmängder finns, eftersom Hydra-vyn "
+"inte stöder material på delmängder. Se `USD-ärende nr 542 "
+"<https://github.com/PixarAnimationStudios/USD/issues/542>`__ för mer "
+"information."
+
+#. USD displacement support heading, ../../manual/files/import_export/usd.rst:516.
+msgid "Displacement Support"
+msgstr "Stöd för förskjutning"
+
+#. USD displacement support description, ../../manual/files/import_export/usd.rst:519.
+msgid ""
+":doc:`Displacement </render/materials/components/displacement>` is "
+"support with some caveats:"
+msgstr ""
+":doc:`Förskjutning </render/materials/components/displacement>` stöds med "
+"vissa förbehåll:"
+
+#. USD preview surface network heading, ../../manual/files/import_export/usd.rst:526.
+msgid "USD Preview Surface Network"
+msgstr "USD Preview Surface-nätverk"
+
+#. USD opacity threshold shader expression, ../../manual/files/import_export/usd.rst:532.
+msgid ""
+"To support ``opacityThreshold``, sometimes known as \"Alpha Clip\", the "
+"node tree must either use a Math node set to ``Round``, if the desired "
+"threshold is 0.5, or by using a pair of Math nodes implementing ``1 - "
+"(value < threshold)``. The result should be plugged into the Alpha socket"
+" on the Principled BSDF node."
+msgstr ""
+"För att stödja ``opacityThreshold``, ibland kallat \"Alpha Clip\", måste "
+"nodträdet antingen använda en Math-nod inställd på ``Round`` om det "
+"önskade tröskelvärdet är 0,5, eller ett par Math-noder som implementerar "
+"``1 - (value < threshold)``. Resultatet ska anslutas till Alpha-uttaget på "
+"Principled BSDF-noden."
+
+#. USDZ texture downsampling heading, ../../manual/files/import_export/usd.rst:567.
+msgid "USDZ Texture Downsampling"
+msgstr "USDZ-nedsampling av texturer"
