@@ -133,6 +133,10 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | master level meter | masternivåmätare | Nivåmätare för masterbussen i redigerarens programrad. |
 | pitch shift audio | Förskjut ljudets tonhöjd | Dialog som ändrar tonhöjd utan att vara en etikett för en abstrakt `tonhöjdsförskjutning`. |
 | sync position | synkroniseringsposition | Transportmasterns avlästa synkroniseringsposition i dialogens kolumnrubrik. |
+| meterbridge | mätarbrygga | Ardours fönster med samtidiga nivåmätare; översätt komponentnamnet i användarvända feltexter. |
+| quick snapshot | snabb ögonblicksbild | Snabbt sparad ny versionsbild av sessionen; `översikt` ändrar betydelsen. |
+| cycle edit mode | Växla redigeringsläge | Växlar mellan redigeringslägen; det är en åtgärd, inte namnet på ett särskilt cykelläge. |
+| VU Meter standard | VU-mätarstandard | Standard för VU-mätning; skrivs som en sammansättning. |
 
 ## Avsiktliga undantag
 
