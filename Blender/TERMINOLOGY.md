@@ -11,7 +11,7 @@ Senast uppdaterad: 2026-11-04.
 
 | Engelska | Svenska | Anmärkning |
 | --- | --- | --- |
-| asset library | resursbibliotek | Använd genomgående i UI. Undvik *tillgångsbibliotek*. |
+| asset library | tillgångsbibliotek / resursbibliotek | Båda förekommer i den etablerade Blender-katalogen. Följ närliggande UI och ändra inte mekaniskt mellan dem. I längre förklarande text är *tillgångsbibliotek* den vanligaste befintliga formen. |
 | data-block | datablock | Skriv ihop. Behåll bindestrecket bara i bokstavliga API-namn. |
 | object | objekt | Etablerad Blender-term. |
 | collection | samling | Avser Blenders objektbehållare, inte en godtycklig lista. |
@@ -25,7 +25,7 @@ Senast uppdaterad: 2026-11-04.
 | lighting node | belysningsnod | Använd i saktext; behåll engelska nodnamn där de är produktnamn. |
 | geometry node | geometrinod | Svensk sammansättning i förklarande UI-text. |
 | Grease Pencil | Grease Pencil | Produkt- och funktionsnamn; översätt inte. |
-| override | åsidosättning | Använd substantivet konsekvent för Blenders biblioteksåsidosättningar. |
+| override | åsidosättning / överskrivning | Kontextstyrt. *Library Override* och dess sammansättningar följer den etablerade formen *biblioteksöverskrivning*, medan flera generella UI-etiketter använder *åsidosättning*. Normalisera aldrig utan att granska strängens sammanhang och närliggande förekomster. |
 
 ## Mesh och animering
 
