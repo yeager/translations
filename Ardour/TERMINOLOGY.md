@@ -47,6 +47,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | route group / Collect Group | grupp / Samla grupp | En grupp kopplar samman spår eller bussar. Åtgärden placerar medlemmarna intill varandra i redigeraren eller mixern. |
 | range tool | intervallverktyg | Verktyget markerar ett tidsintervall för bland annat redigering och analys. |
 | sample rate | samplingsfrekvens | Exempelvis sessionens samplingsfrekvens. |
+| sample position / sample time | samplingsposition | Position uttryckt i samplingsenheter; det är varken samplingsfrekvens eller en fysisk tidpunkt. |
 | sample format | samplingsformat | Kodningsformatet för individuella samplingsvärden vid import eller export, inte ett exempel-format. |
 | sample (library asset) | ljudprov | En återanvändbar ljudfil i klipp- eller samplingsbiblioteket; skiljs från det tekniska samplingsvärdet i `sample rate`. |
 | snap length | fästlängd | Längd enligt aktuell fästnings- eller rutnätsinställning. |
@@ -66,6 +67,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | timecode | tidskod | Video- och transportsynkronisering. |
 | track | spår | Spår i tidslinjen, mixern och analysfönstret; aldrig verbet `spåra`. |
 | transport master | transportmaster | Ardours synkroniseringskälla för transporten; ett sammansatt substantiv i svensk UI-text. |
+| monitor dim / cut | monitordämpning / monitoravstängning | Funktioner för att tillfälligt sänka respektive stänga av kontrollrummets monitorutgång. |
 | VCA master | VCA-master | Ardours VCA-styrning för flera kanalers nivå; `master` behålls som etablerad ljudteknisk term. |
 | AFL / PFL solo | solo efter/före fader | Soloavlyssning efter respektive före kanalens fader. Förkortningarna AFL och PFL behålls. |
 | loudness analysis | ljudstyrkeanalys | Analys av ljudstyrka enligt export- och masterbussens kontext; inte en generell volymmätning. |
