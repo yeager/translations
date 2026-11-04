@@ -14,4 +14,7 @@ deltafilen: imperativet `Ändra resultatet med 180°.` och den semantiskt
 korrekta `föräldra- och anslutningsrelationer`.
 
 Status: lokalt dubbelgranskad; inte uppladdad. Batchen ingår i den samlade
-manualbatchen om 500–1 000 strängar.
+manualbatchen om 500–1 000 strängar. msgfmt, svlang, Hunspell på
+måltexterna, Gitleaks och git diff --check passerar. l10n-lint varnar
+endast felaktigt för Sphinx-rollen :term: och rapporterar
+informationsnivå för de medvetet tillagda axelvärdena.
