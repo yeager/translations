@@ -3,7 +3,7 @@
 Datum: 2026-11-04  
 Källa: `exports/2026-11-04/blender-manual-manual-sv.po` (råexport, endast
 läsning) och `exports/2026-11-04/blender-ui-ui-sv.po`.  
-Omfattning: 32 säkra kandidater i
+Omfattning: 33 säkra kandidater i
 `animation/armatures/posing/editing/`. Ingen PO-fil har ändrats.
 
 ## Avgränsning och terminologi
@@ -66,7 +66,8 @@ API-namn ska bevaras exakt när en deltafil skapas.
 
 ## Föreslagen fortsättning
 
-Skapa efter oberoende motgranskning två deltafiler med 16 poster vardera.
+Skapa efter oberoende motgranskning två deltafiler med 17 respektive 16
+poster.
 Validera varje delta separat med `msgfmt --check`, l10n-lint, svlang,
 Hunspell, terminologijämförelse, `git diff --check` och Gitleaks innan den
 läggs till i en uppladdningsbatch.
