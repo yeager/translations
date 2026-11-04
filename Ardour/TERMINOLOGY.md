@@ -24,6 +24,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Transpose (MIDI control) | Transponera | MIDI-funktion för tonartsförskjutning; `Omvandling` är en felaktigt allmän betydelse. Formen fungerar både på dialogknappen och som etikett vid det virtuella klaviaturets kontroll. |
 | Track Name | spårnamn | Visningsalternativet i meterbryggan visar ljudspårets namn; `Titel` saknar den avsedda Ardour-betydelsen. |
 | Edit Point | redigeringspunkt | Ardours valda referensposition för redigering. Det är ett substantiv och ska inte delas upp till uppmaningen `Redigera punkt`. |
+| trigger-box MIDI input port | vald MIDI-ingångsport | Hjälptexten beskriver den port som konfigurationen väljer och automatiskt ansluter till triggerboxar. Skriv ut subjektet `Porten` i följande mening för att undvika otydligt pronomen. |
 | stretch tempo / stretch end tempo | sträck tempo / sträck sluttempot | Ångraåtgärder när användaren drar en tempopunkt eller en temposlutpunkt; de är verbfraser och inte beskrivningen `sträckt tempo`. |
 | crossfade | korstoning | Överlappande in- och uttoning mellan två regioner. |
 | region fades | regiontoningar | Toningar knutna till en regions början eller slut. |
