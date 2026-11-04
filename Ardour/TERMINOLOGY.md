@@ -116,6 +116,11 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Video Server | videoserver | Ardours externa tjänst för videovisning och videohantering. |
 | fixed time region drag | dra region med låst tidsposition | Ångra-beskrivning för en regionsförflyttning som är låst i tidsled och därför bara kan byta spår eller lager. |
 | I/O output | utgång | I/O-väljarens ljudutgång; `utdata` är inte den etablerade DAW-termen här. |
+| input / output | ingång / utgång | Signalanslutningar och kanalens I/O i Ardour; använd inte processorden `inmatning` och `utmatning` för dessa kontroller. |
+| systemic latency | systemlatens | Fast, intern latens i ljud- eller MIDI-systemet. |
+| round-trip latency | rundreselatens | Uppskattad sammanlagd latens från utgång tillbaka till ingång; i mätningstexten är **uppmätt** mer precist än `upptäckt`. |
+| sample count | samplingar | Antal diskreta samplingsvärden i en ljudbuffert eller latensangivelse. |
+| transient | transient | Kort, snabb amplitudförändring i ljudmaterial; `Placera transient` skapar eller flyttar dess redigeringsposition. |
 
 ## Avsiktliga undantag
 
