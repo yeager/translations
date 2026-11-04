@@ -12,6 +12,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | clip library | klippbibliotek | Ardours katalog med återanvändbara klipp; `clip` är här ett medieklipp, inte ett programklipp. |
 | cue | cue | Ardours namngivna cue-funktion; inte samma sak som en vanlig markör. |
 | bounce to trigger slot / Clip Library | mixa ner till triggerplats / klippbiblioteket | Åtgärden renderar eller kopierar bearbetat material till en triggerplats eller användarens klippbibliotek. `Studsa` är missvisande i detta DAW-sammanhang. |
+| launch style | startläge | Valet `Trigger`, `Retrigger`, `Gate`, `Toggle` eller `Repeat` styr hur ett klipp startas. Det är ett funktionsläge, inte en produktlansering eller en stil. |
 | punch range | punchintervall | Det specifika intervall som styr punch-in/-ut-inspelning; det är inte ett musikaliskt slagintervall. |
 | fade | toning | `fade in`/`fade out` uttrycks vid behov som intoning/uttoning. |
 | crossfade | korstoning | Överlappande in- och uttoning mellan två regioner. |
