@@ -94,6 +94,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | document root / docroot | dokumentrot | Videoserverns katalogrot för publicerade videoresurser; behåll inte den oöversatta interna termen `docroot` i användargränssnittet. |
 | MIDI patch change | MIDI-programändring | Ändring av MIDI-programmet på ett instrument eller spår. |
 | DPM fall-off | DPM-avklingning | Tidsförloppet när digitala toppmätare faller tillbaka, inte ett avbrott. |
+| locate | gå till | Transportåtgärden flyttar spelhuvudet till markör eller tidpunkt; `lokalisera` är här en oidiomatisk direktöversättning. |
+| Solo-in-place mute cut | ljuddämpning i solo-in-place | Nivådämpning som används när solo-in-place aktiveras; skiljs från ett fysiskt avbrott. |
 | outboard gear | extern utrustning | Extern ljudutrustning som kräver export i realtid. |
 | velocity | anslagsstyrka | MIDI-noters dynamiska styrvärde, inte fysisk hastighet. |
 | MIDI patch / `.midnam` patch file | MIDI-program / MIDI-programfil | `MidiPatchManager` läser in namn- och programdefinitioner från `.midnam`-filer; `patch` ska inte bli anglicismen `patch` i denna användartext. |
