@@ -43,6 +43,13 @@ Senast uppdaterad: 2026-11-04.
 | edge | kant | Mesh-geometri, inte fönsterkant om UI-kontexten säger annat. |
 | face | yta | Mesh-element; avgör i sammanhanget om *ansikte* är avsett i annan betydelse. |
 | mesh | mesh | Behåll när det avser Blender-datatypen eller dess etablerade UI-beteckning. |
+| bevel | avfasning / fasning | *Avfasning* för UI-egenskapen och modifieraren, *fasning* kan beskriva resultatet i löpande text. |
+| Bevel Modifier | avfasningsmodifierare | Blender-modifierarens belagda UI- och manualform. |
+| Bevel Vertices / Bevel Edges | Fasa hörnpunkter / Fasa kanter | Synliga operatörsnamn. |
+| displacement | förskjutning | Material- och shaderkontext. |
+| Vector Displacement | vektorförskjutning | Synlig UI- och manualterm. |
+| Adaptive Subdivision | adaptiv underindelning | UI-belagd form; inte *adaptiv indelning*. |
+| Material Output | materialutdata | UI-belagd renderings- och nodterm. |
 | keyframe | nyckelbildruta | Använd i svensk förklarande text; ändra inte API-namn. |
 | F-Curve | F-kurva | Behåll initialen och använd svenskt ord efter bindestrecket. |
 | action | åtgärd | Animeringsdata i Blender. Behåll *Action* i formella datatyp- eller API-namn. |
@@ -71,6 +78,7 @@ Senast uppdaterad: 2026-11-04.
 | accessibility label | tillgänglighetsetikett | Gäller USD-tillgänglighetsmetadata. |
 | USD stage | USD-scen | Kontextbundet i exporterad/importerad scendokumentation; översätt inte automatiskt i API- eller filformatsnamn. |
 | up orientation | uppåtriktning | Använd när koordinatsystemets uppaxel beskrivs, till exempel *Y-uppåtriktning*. |
+| USD Preview | USD Preview | Synligt produkt- och nodnamn; översätt inte till *USD-förhandsgranskning*. |
 | `UsdGeom*`, `Scope`, `allPurpose`, `preview` | behåll exakt | Identifierare och normativa USD-värden. Översätt endast den omgivande förklarande texten. |
 
 ## Kontrollerade UI-formuleringar
