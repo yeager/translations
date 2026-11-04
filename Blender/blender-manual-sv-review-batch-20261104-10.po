@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Manual\n"
+"PO-Revision-Date: 2026-11-04 12:40+0100\n"
+"Last-Translator: Daniel Nylander\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Manual context: legacy FBX material import, ../../manual/files/import_export/fbx_legacy.rst:112.
+msgid "Import each FBX material as a unique Blender material."
+msgstr "Importera varje FBX-material som ett unikt Blender-material."
+
+#. Manual context: legacy FBX format title, ../../manual/files/import_export/fbx_legacy.rst:4.
+msgid "FBX (Legacy)"
+msgstr "FBX (äldre)"
+
+#. Manual context: legacy FBX bone orientation, ../../manual/files/import_export/fbx_legacy.rst:14.
+msgid ""
+"Bones would need to get a correction to their orientation (FBX bones seem "
+"to be -X aligned, Blender's are Y aligned), this does not affect skinning"
+" or animation, but imported bones in other applications will look wrong."
+msgstr ""
+"Ben behöver få en korrigering av sin orientering (FBX-ben verkar vara "
+"riktade längs -X och Blenders ben längs Y). Detta påverkar inte skinning "
+"eller animering, men importerade ben kommer att se fel ut i andra program."
+
+#. Manual context: legacy FBX material conversion, ../../manual/files/import_export/fbx_legacy.rst:45.
+msgid ""
+"Blender now only supports complex node-based shading. FBX having a fixed "
+"pipeline-like support of materials, this importer / exporter converts "
+"between them."
+msgstr ""
+"Blender stöder nu bara komplex nodbaserad skuggning. FBX har ett fast "
+"pipeline-liknande stöd för material, därför konverterar den här importören/"
+"exportören mellan formaten."
+
+#. Manual context: legacy FBX import title, ../../manual/files/import_export/fbx_legacy.rst:50.
+msgid "Import (Legacy)"
+msgstr "Importera (äldre)"
+
+#. Manual context: legacy FBX import menu path, ../../manual/files/import_export/fbx_legacy.rst:54.
+msgid ":menuselection:`File --> Import --> FBX (.fbx) (Legacy)`"
+msgstr ":menuselection:`Arkiv --> Importera --> FBX (.fbx) (äldre)`"
+
+#. Manual context: legacy FBX deprecation, ../../manual/files/import_export/fbx_legacy.rst:58.
+msgid ""
+"The functionality of this importer is deprecated, use the new :ref:`FBX "
+"Importer <bpy.ops.wm.fbx_import>` instead."
+msgstr ""
+"Den här importörens funktion är föråldrad. Använd i stället den nya FBX-"
+"importören (:ref:`FBX Importer <bpy.ops.wm.fbx_import>`)."
+
+#. Manual context: legacy FBX space transform, ../../manual/files/import_export/fbx_legacy.rst:95.
+msgid ""
+"Bake space transform into object data, avoids getting unwanted rotations "
+"to objects when target space is not aligned with Blender's space."
+msgstr ""
+"Baka rymdtransformeringen i objektdata. Det undviker oönskade rotationer "
+"av objekt när målutrymmet inte är inriktat mot Blenders utrymme."
+
+#. Manual context: legacy FBX experimental option, ../../manual/files/import_export/fbx_legacy.rst:100.
+msgid ""
+"Experimental option, use at own risk, known to be broken with "
+"armatures/animations."
+msgstr ""
+"Experimentellt alternativ. Använd på egen risk: alternativet har kända "
+"problem med armaturer och animeringar."
+
+#. Manual context: FBX export menu path, ../../manual/files/import_export/fbx_legacy.rst:143.
+msgid ":menuselection:`File --> Export --> FBX (.fbx)`"
+msgstr ":menuselection:`Arkiv --> Exportera --> FBX (.fbx)`"
+
+#. Manual context: legacy FBX export transform application, ../../manual/files/import_export/fbx_legacy.rst:211.
+msgid ""
+"Applies object *Location*, *Rotation*, and *Scale* to the mesh before "
+"export, writing vertices in world space. When disabled, vertices are "
+"exported in local object space without applying transforms. See "
+":ref:`bpy.ops.object.transform_apply` for more information on applying "
+"transforms."
+msgstr ""
+"Tillämpa objektets *Plats*, *Rotation* och *Skala* på nätet före export, "
+"och skriv hörnpunkter i världsrymden. När alternativet är avstängt exporteras "
+"hörnpunkter i objektets lokala rymd utan att transformeringar tillämpas. Se "
+":ref:`bpy.ops.object.transform_apply` för mer information om att tillämpa "
+"transformeringar."
+
+#. Manual context: legacy FBX triangulation option, ../../manual/files/import_export/fbx_legacy.rst:240.
+msgid ""
+"Convert all faces to triangles. This also causes shared meshes on linked "
+"objects to become independent copies. Useful for applications that cannot "
+"handle non-triangle faces and/or shared meshes."
+msgstr ""
+"Konvertera alla ytor till trianglar. Detta gör också att delade nät i "
+"länkade objekt blir oberoende kopior. Användbart för program som inte kan "
+"hantera andra ytor än trianglar och/eller delade nät."
