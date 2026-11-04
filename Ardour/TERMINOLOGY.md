@@ -6,8 +6,11 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | --- | --- | --- |
 | audio interface | ljudgränssnitt | Ljudenhet för inspelning och uppspelning. |
 | bus | buss | Behåll DAW-termen, exempelvis `masterbuss` och `monitorbuss`. |
+| clip library | klippbibliotek | Ardours katalog med återanvändbara klipp; `clip` är här ett medieklipp, inte ett programklipp. |
 | cue | cue | Ardours namngivna cue-funktion; inte samma sak som en vanlig markör. |
 | fade | toning | `fade in`/`fade out` uttrycks vid behov som intoning/uttoning. |
+| follow action | följåtgärd | Åtgärd som clip launcher-funktionen utför när ett klipps följlängd har löpt ut. |
+| follow length | följlängd | Den användardefinierade speltid som föregår en följåtgärd; projektspecifik UI-term. |
 | latency | latens | Används för ljud- och I/O-latens. |
 | MIDI note | MIDI-not | `note` är **not** i musikkontext, aldrig teknisk anteckning. |
 | note off | Note Off | Standardiserat MIDI-meddelande; behåll termen med versalt O. |
@@ -19,6 +22,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | snapshot | ögonblicksbild | Sparat sessionsläge; inte datorskärmdump. |
 | timecode | tidskod | Video- och transportsynkronisering. |
 | velocity | anslagsstyrka | MIDI-noters dynamiska styrvärde, inte fysisk hastighet. |
+| Video Server | videoserver | Ardours externa tjänst för videovisning och videohantering. |
 
 ## Avsiktliga undantag
 
