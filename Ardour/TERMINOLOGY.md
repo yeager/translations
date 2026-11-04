@@ -26,6 +26,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Edit Point | redigeringspunkt | Ardours valda referensposition för redigering. Det är ett substantiv och ska inte delas upp till uppmaningen `Redigera punkt`. |
 | trigger-box MIDI input port | vald MIDI-ingångsport | Hjälptexten beskriver den port som konfigurationen väljer och automatiskt ansluter till triggerboxar. Skriv ut subjektet `Porten` i följande mening för att undvika otydligt pronomen. |
 | plugin scan progress | förloppet för skanning av insticksmoduler | Hjälptext för indexering och upptäckt. Använd en utskriven genitivfras i löptext i stället för den tunga kedjan `insticksmodul-skanningsförlopp`. |
+| twist tempo | justera tempo | Ångraåtgärd vid dragning som ändrar tempoövergången mellan berörda tempopunkter. Den interna engelska metaforen `twist` behöver inte stå kvar i svensk UI-historik. |
 | stretch tempo / stretch end tempo | sträck tempo / sträck sluttempot | Ångraåtgärder när användaren drar en tempopunkt eller en temposlutpunkt; de är verbfraser och inte beskrivningen `sträckt tempo`. |
 | crossfade | korstoning | Överlappande in- och uttoning mellan två regioner. |
 | region fades | regiontoningar | Toningar knutna till en regions början eller slut. |
