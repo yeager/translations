@@ -62,6 +62,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | session | session | Etablerad DAW-term. |
 | Strip Silence | Ta bort tystnad | Verktyget klipper bort avsnitt under en angiven tystnadströskel utan att förstöra ursprungsljudet. |
 | state directory | tillståndskatalog | Katalog som hör till en sparad spårmall och innehåller dess tillståndsdata. Inte en statlig katalog. |
+| serialized state / state file | tillstånd / tillståndsfil | Sparat eller XML-serialiserat Ardour-tillstånd, exempelvis en sessions eller regions inställningar; skiljs från allmän användarstatus. |
 | auto-map | automatisk mappning | Automatisk tilldelning av importerade kanaler till lokala spår efter ID eller namn. |
 | automation point / guard point | automatiseringspunkt / skyddspunkt | En redigerbar punkt på en automatiseringslinje; skyddspunkter bibehåller form och värden vid närliggande ändringar. |
 | send routing | sändningsruttning | Hur en sändning kopplas mellan kanal, buss och utgång. |
