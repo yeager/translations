@@ -31,6 +31,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Medium (sinc) | Medel (sinc) | Mellanläget för sinc-baserad samplingsfrekvensomvandling vid export. `sinc` är algoritmens namn och behålls. |
 | note off | Note Off | Standardiserat MIDI-meddelande; behåll termen med versalt O. |
 | plugin | insticksmodul | Används i svensk löptext och menyer. Produktformat som VST3 och AudioUnit behålls. |
+| plugin setup | konfiguration av insticksmodul | Dialog för den valda insticksmodulens anslutningar och parametrar. |
 | plugin input/output configuration | insticksmodulens ingångs-/utgångskonfiguration | Konfiguration av insticksmodulens signalstift. |
 | no-inplace | ej in-place | Teknisk debuggetikett: insticksmodulen kan inte bearbeta i samma buffert utan behöver en tillfällig kopia. |
 | output presets | förinställningar för utgångar | Förinställda konfigurationer för insticksmodulens utgångar. |
@@ -48,6 +49,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | region automation line | automatiseringslinje för regionen | Automatiseringskurva för en kontrollegenskap i en regioneffekt. |
 | route group / Collect Group | grupp / Samla grupp | En grupp kopplar samman spår eller bussar. Åtgärden placerar medlemmarna intill varandra i redigeraren eller mixern. |
 | range tool | intervallverktyg | Verktyget markerar ett tidsintervall för bland annat redigering och analys. |
+| range mode | intervalläge | Redigeringsläge som använder en tidsintervallmarkering. |
 | sample rate | samplingsfrekvens | Exempelvis sessionens samplingsfrekvens. |
 | resampling | omprovtagning | Konvertering mellan samplingsfrekvenser vid import eller export. |
 | sample position / sample time | samplingsposition | Position uttryckt i samplingsenheter; det är varken samplingsfrekvens eller en fysisk tidpunkt. |
