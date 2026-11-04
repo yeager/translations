@@ -6,6 +6,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | --- | --- | --- |
 | audio interface | ljudgränssnitt | Ljudenhet för inspelning och uppspelning. |
 | audition | förhandslyssning / förhandslyssna | Substantiv i rubriker och statusfält, verb i uppmaningar. Avser tillfällig uppspelning för kontroll av material eller MIDI-program. |
+| Auditioner | förhandslyssningsspår | Ardours interna spår för förhandslyssning. Kodidentifieraren behålls i tekniska symboler, men diagnoser beskriver funktionen på svenska. |
 | Bender (MIDI) | tonhöjdsböjning | MIDI-lane för pitch-bend-data, inte det engelska agentordet `bender`. |
 | bus | buss | Behåll DAW-termen, exempelvis `masterbuss` och `monitorbuss`. |
 | clip library | klippbibliotek | Ardours katalog med återanvändbara klipp; `clip` är här ett medieklipp, inte ett programklipp. |
@@ -37,6 +38,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Pinout | stiftkonfiguration | Knappen öppnar Ardours fönster för insticksmodulens in- och utgångsstift. Följer katalogens befintliga `Pin Configuration` → **Stiftkonfiguration**. |
 | MIDI Input Pins | MIDI-ingångar | MIDI-anslutningar till en insticksmodul; samma korta UI-term som ljudingångar. |
 | panner | panorerare | Reglage eller modul som placerar signalen i stereobilden eller surroundfältet. |
+| panner controls | panorerarkontroller | Kontroller som hör till en panorerarmodul. |
 | surround panner | surroundpanorerare | Panorerarmodul som placerar signaler i ett surroundfält. |
 | Stereo Panner | stereopanorerare | Stereo-varianten av Ardours panorerarmodul. |
 | pre-/post-fader | före/efter fader | Mät- och sändningspunkt i signalflödet. |
