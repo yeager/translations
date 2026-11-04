@@ -49,6 +49,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Strip Silence | Ta bort tystnad | Verktyget klipper bort avsnitt under en angiven tystnadströskel utan att förstöra ursprungsljudet. |
 | state directory | tillståndskatalog | Katalog som hör till en sparad spårmall och innehåller dess tillståndsdata. Inte en statlig katalog. |
 | auto-map | automatisk mappning | Automatisk tilldelning av importerade kanaler till lokala spår efter ID eller namn. |
+| automation point / guard point | automatiseringspunkt / skyddspunkt | En redigerbar punkt på en automatiseringslinje; skyddspunkter bibehåller form och värden vid närliggande ändringar. |
+| send routing | sändningsruttning | Hur en sändning kopplas mellan kanal, buss och utgång. |
+| send/output | sändning/utgång | I/O-paret för extern routing; `output` betyder ljudutgång, aldrig utskrift. |
 | solo isolate | soloisolering | Förhindrar att ett spår tystas när andra spår solospelas. |
 | Slide (edit mode) | Flytta | Fritt redigeringsläge där regioner kan flyttas och överlappa. |
 | Ripple (edit mode) | Krusning | Etablerad term i svensk videoredigering; efterföljande regioner flyttas vid redigering. |
