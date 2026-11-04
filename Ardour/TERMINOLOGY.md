@@ -12,6 +12,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | cue | cue | Ardours namngivna cue-funktion; inte samma sak som en vanlig markör. |
 | fade | toning | `fade in`/`fade out` uttrycks vid behov som intoning/uttoning. |
 | fade length | toningslängd | Längden på en intoning eller uttoning i verktyget för att ta bort tystnad. |
+| Fade before Fx | toning före effekter | Regionen tonas före bearbetning med dess effekter. |
 | feedback (audio) | rundgång | Varning för återkopplad ljudsignal eller felaktig portanslutning. |
 | foldback | medhörning | Svenska ljudtekniska termen för musikernas monitorlyssning; `foldback bus` blir **medhörningsbuss**. |
 | follow action | följåtgärd | Åtgärd som clip launcher-funktionen utför när ett klipps följlängd har löpt ut. |
@@ -33,6 +34,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | pre-/post-fader | före/efter fader | Mät- och sändningspunkt i signalflödet. |
 | preset | förinställning | Gäller insticksmoduler, export och sparade konfigurationer. |
 | region | region | Ardours avgränsade medieobjekt på tidslinjen, inte geografiskt område. |
+| region automation line | automatiseringslinje för regionen | Automatiseringskurva för en kontrollegenskap i en regioneffekt. |
 | route group / Collect Group | grupp / Samla grupp | En grupp kopplar samman spår eller bussar. Åtgärden placerar medlemmarna intill varandra i redigeraren eller mixern. |
 | range tool | intervallverktyg | Verktyget markerar ett tidsintervall för bland annat redigering och analys. |
 | sample rate | samplingsfrekvens | Exempelvis sessionens samplingsfrekvens. |
