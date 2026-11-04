@@ -43,7 +43,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | route group / Collect Group | grupp / Samla grupp | En grupp kopplar samman spår eller bussar. Åtgärden placerar medlemmarna intill varandra i redigeraren eller mixern. |
 | range tool | intervallverktyg | Verktyget markerar ett tidsintervall för bland annat redigering och analys. |
 | sample rate | samplingsfrekvens | Exempelvis sessionens samplingsfrekvens. |
+| sample format | samplingsformat | Kodningsformatet för individuella samplingsvärden vid import eller export, inte ett exempel-format. |
 | sample (library asset) | ljudprov | En återanvändbar ljudfil i klipp- eller samplingsbiblioteket; skiljs från det tekniska samplingsvärdet i `sample rate`. |
+| snap length | fästlängd | Längd enligt aktuell fästnings- eller rutnätsinställning. |
 | sound on sound | ljud på ljud | Inspelningsläge där nya regioner läggs i ett lager och befintligt material fortfarande hörs. |
 | session | session | Etablerad DAW-term. |
 | Strip Silence | Ta bort tystnad | Verktyget klipper bort avsnitt under en angiven tystnadströskel utan att förstöra ursprungsljudet. |
@@ -70,6 +72,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | peak | toppnivå | Signalens högsta nivå i krav på export och normalisering. |
 | outboard gear | extern utrustning | Extern ljudutrustning som kräver export i realtid. |
 | velocity | anslagsstyrka | MIDI-noters dynamiska styrvärde, inte fysisk hastighet. |
+| allow mush | tillåt begränsning | Vid MIDI-redigering får värden begränsas till intervallet 0–127 i stället för att hela åtgärden avbryts. |
 | Video Server | videoserver | Ardours externa tjänst för videovisning och videohantering. |
 
 ## Avsiktliga undantag
