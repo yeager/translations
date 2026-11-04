@@ -55,6 +55,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | selected regions | valda regioner | Aktuellt markerade regioner i Ardours UI; använd konsekvent `valda`, inte den blandade formen `utvalda`. |
 | range mode | intervalläge | Redigeringsläge som använder en tidsintervallmarkering. |
 | sample rate | samplingsfrekvens | Exempelvis sessionens samplingsfrekvens. |
+| sample-rate mismatch | samplingsfrekvenserna stämmer inte överens | Konflikt mellan två källors samplingsfrekvenser, inte en enskild felaktig frekvens. |
+| Plugin Editor | insticksmodulsredigerare | Dialog som redigerar en specifik insticksmoduls kontroller och egenskaper. |
 | resampling | omprovtagning | Konvertering mellan samplingsfrekvenser vid import eller export. |
 | sample position / sample time | samplingsposition | Position uttryckt i samplingsenheter; det är varken samplingsfrekvens eller en fysisk tidpunkt. |
 | sample format | samplingsformat | Kodningsformatet för individuella samplingsvärden vid import eller export, inte ett exempel-format. |
