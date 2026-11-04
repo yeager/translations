@@ -137,6 +137,10 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | quick snapshot | snabb ögonblicksbild | Snabbt sparad ny versionsbild av sessionen; `översikt` ändrar betydelsen. |
 | cycle edit mode | Växla redigeringsläge | Växlar mellan redigeringslägen; det är en åtgärd, inte namnet på ett särskilt cykelläge. |
 | VU Meter standard | VU-mätarstandard | Standard för VU-mätning; skrivs som en sammansättning. |
+| sample data | samplingsdata | Diskreta ljudvärden i en källfil eller buffert; skiljs från ett återanvändbart ljudprov i biblioteket. |
+| file mapping | filkartläggning | Operativsystemets minnesmappning av en toppfil; `mappning` är processen, inte en geografisk karta. |
+| I/O inputs / outputs | ingångar / utgångar | Portanslutningar i Ardours interna I/O-XML; använd inte de generiska formerna `inmatningar` och `utdata`. |
+| VCA state | VCA-tillstånd | Sparat/återställt tillstånd för ett VCA-objekt; inte allmän användarstatus. |
 
 ## Avsiktliga undantag
 
