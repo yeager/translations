@@ -142,6 +142,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | I/O inputs / outputs | ingångar / utgångar | Portanslutningar i Ardours interna I/O-XML; använd inte de generiska formerna `inmatningar` och `utdata`. |
 | VCA state | VCA-tillstånd | Sparat/återställt tillstånd för ett VCA-objekt; inte allmän användarstatus. |
 | plugin-stub | insticksmodulsstubb | Ersättningsprocessor när den ursprungliga insticksmodulen inte kan konfigureras vid sessionsinläsning. Ardours övriga svenska UI använder redan `stub`/`stubbar`; `stubb` följer den befintliga tekniska användningen och sammanhanget är en diagnostiklogg. |
+| MTC quarter-frame message | MTC-quarter-frame-meddelande | Namngivet MIDI Time Code-protokollmeddelande. MTC skickar åtta sådana delmeddelanden för att överföra en hel tidskodsposition; behåll protokollnamnet i stället för den felaktiga vardagsbilden `kvartersram`. |
 
 ## Avsiktliga undantag
 
