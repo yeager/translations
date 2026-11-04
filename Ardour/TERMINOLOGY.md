@@ -120,6 +120,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | tempo map | tempokarta | Visningen i MIDI-filinformationen beskriver en karta med flera tempoavsnitt. |
 | tempo mapping: end-stretch / mid-twist | tempokartläggning: slutsträcka / sträckning i mitten | Ångra-beskrivningar när en tempoändring dras vid slutet eller mellan omgivande tempopunkter. `mid-twist` är en sträckning av den mittersta delen, inte en oöversatt produktterm. |
 | VCA Assigns | VCA-tilldelningar | Mixerremsans visningsval för kopplingar till VCA-master; substantiv, inte verbet `tilldelar`. |
+| VCA Assign | VCA-tilldelning | Rubrik och verktygstips för samma VCA-koppling; singularform för den enskilda kontrollen. |
+| Disassociate | koppla från | Åtgärden lösgör en kanals anslutning i bunthanteraren; den oidiomatiska direktformen `icke-associera` används inte. |
 | Monitor Buttons | monitorknappar | Mätarbryggans knappar för monitorfunktioner, inte en allmän övervakningskategori. |
 | Main Outs | huvudutgångar | Signalvägens huvudsakliga utgångar i Ardours ruttmeny. |
 | Broadcast Wave | Broadcast Wave | Namnet på ljudfilformatet (BWF); det är inte en beskrivning av sändningsvågor. |
