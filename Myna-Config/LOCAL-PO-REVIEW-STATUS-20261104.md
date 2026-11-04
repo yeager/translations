@@ -59,8 +59,9 @@ tillbaka med `state: 20` och `translated: true`. Därefter skickades den
 slutliga hela PO-filen via Weblates filuppladdning 2026-11-04. Weblate
 rapporterade: **417 bearbetade, 20 hoppade över, 0 saknades och 396
 uppdaterades**. De 20 hoppade över var redan identiska med den lokala
-kandidaten. Totalt är därmed 416 UI-strängar inskickade som översättningar
-som behöver redigeras; det enda tomma fältet är avsiktliga
+kandidaten. Importläget rättades därefter till vanliga översättningar:
+Weblate visar nu **416 av 417 strängar översatta (98 %)** och samtliga 416
+väntar på granskning. Det enda tomma fältet är avsiktliga
 `translator-credits`.
 
 Weblate rapporterar fyra kontroller: en på den inskickade strängen och tre på
