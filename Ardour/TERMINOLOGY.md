@@ -11,6 +11,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | clip library | klippbibliotek | Ardours katalog med återanvändbara klipp; `clip` är här ett medieklipp, inte ett programklipp. |
 | cue | cue | Ardours namngivna cue-funktion; inte samma sak som en vanlig markör. |
 | fade | toning | `fade in`/`fade out` uttrycks vid behov som intoning/uttoning. |
+| crossfade | korstoning | Överlappande in- och uttoning mellan två regioner. |
+| region fades | regiontoningar | Toningar knutna till en regions början eller slut. |
 | fade length | toningslängd | Längden på en intoning eller uttoning i verktyget för att ta bort tystnad. |
 | Fade before Fx | toning före effekter | Regionen tonas före bearbetning med dess effekter. |
 | feedback (audio) | rundgång | Varning för återkopplad ljudsignal eller felaktig portanslutning. |
