@@ -49,6 +49,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | route group / Collect Group | grupp / Samla grupp | En grupp kopplar samman spår eller bussar. Åtgärden placerar medlemmarna intill varandra i redigeraren eller mixern. |
 | range tool | intervallverktyg | Verktyget markerar ett tidsintervall för bland annat redigering och analys. |
 | sample rate | samplingsfrekvens | Exempelvis sessionens samplingsfrekvens. |
+| resampling | omprovtagning | Konvertering mellan samplingsfrekvenser vid import eller export. |
 | sample position / sample time | samplingsposition | Position uttryckt i samplingsenheter; det är varken samplingsfrekvens eller en fysisk tidpunkt. |
 | sample format | samplingsformat | Kodningsformatet för individuella samplingsvärden vid import eller export, inte ett exempel-format. |
 | sample (library asset) | ljudprov | En återanvändbar ljudfil i klipp- eller samplingsbiblioteket; skiljs från det tekniska samplingsvärdet i `sample rate`. |
@@ -67,6 +68,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | snapshot | ögonblicksbild | Sparat sessionsläge; inte datorskärmdump. |
 | time-stretch quality | Mjuk / Jämn / Tydlig / Blandad | Kvalitetsval för Rubber Band-algoritmens transientbehandling. Termerna beskriver behandlingen, inte ett visuellt tillstånd. |
 | timecode | tidskod | Video- och transportsynkronisering. |
+| MTC rate/drop | bildfrekvens-/drop-frame-värde | MTC-fältet kombinerar bildfrekvens och drop-frame-markering; översätt inte som fysisk hastighet eller minskning. |
 | track | spår | Spår i tidslinjen, mixern och analysfönstret; aldrig verbet `spåra`. |
 | transport master | transportmaster | Ardours synkroniseringskälla för transporten; ett sammansatt substantiv i svensk UI-text. |
 | monitor dim / cut | monitordämpning / monitoravstängning | Funktioner för att tillfälligt sänka respektive stänga av kontrollrummets monitorutgång. |
