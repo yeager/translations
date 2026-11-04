@@ -20,11 +20,13 @@ publicerad 2026-10-29.
 | --- | ---: |
 | Strängar totalt | 417 |
 | Översatta i råexporten | 20 |
-| Lokalt granskade i arbetsfilen | 178 |
-| Återstående lokalt | 239 |
+| Lokalt granskade i arbetsfilen | 416 |
+| Avsiktligt tomma metadatafält | 1 (`translator-credits`) |
+| Återstående översättningssträngar | 0 |
 | Upstream-verifierade i Weblate | 20 |
 
-Checkpointfil: `candidates/2026-11-04/myna-config-sv-local-178-reviewed.po`
+Slutlig lokal kandidat:
+`candidates/2026-11-04/myna-config-sv-local-complete-review.po`
 
 ## Genomförd radgranskning
 
@@ -41,8 +43,14 @@ Shell behandlas som etablerade tekniska namn.
   `Project-Id-Version` återstår.
 - `git diff --check`: godkänd.
 - Gitleaks: inga hemligheter.
-- `l10n-lint` och `svlang` saknas i den aktuella skalets sökväg; deras
-  kontrollområden har granskats manuellt för denna checkpoint.
+- `l10n-lint`: en avsiktligt tom `translator-credits`-post, en kontextuell
+  musikterm-varning för ljudtemat *Röst* samt platshållar- och UI-fragment som
+  kända falska positiva träffar.
+- `svlang skrivregler`: inga skrivregelfel. Den bredare naturlighetskontrollen
+  flaggar främst imperativ, UI-fragment, platshållare och tekniska token som
+  falska positiva träffar.
+- Hunspell-SV: endast produktnamn, standarder, platshållare och tekniska
+  sammansättningar återstår i ordlistan.
 
 ## Upstreamstatus
 
