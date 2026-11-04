@@ -21,6 +21,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | latency | latens | Används för ljud- och I/O-latens. |
 | legatize | Gör legato | MIDI-redigeringsåtgärd som anpassar notlängder så att noterna binds samman. |
 | MIDI note | MIDI-not | `note` är **not** i musikkontext, aldrig teknisk anteckning. |
+| Bars:Beats | Takter:slag | Musikaliskt tidsformat i linjal, klocka och exportval. |
 | MIDI program change | MIDI-programändring | MIDI-händelse som väljer program/klang; inte en allmän programförändring. |
 | MIDI patch / patch selection | MIDI-program / MIDI-programval | Väljare för MIDI-bank och -program; undvik oöversatta `patch` i svensk UI-text. |
 | Medium (sinc) | Medel (sinc) | Mellanläget för sinc-baserad samplingsfrekvensomvandling vid export. `sinc` är algoritmens namn och behålls. |
@@ -29,6 +30,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | plugin input/output configuration | insticksmodulens ingångs-/utgångskonfiguration | Konfiguration av insticksmodulens signalstift. |
 | plugin scan | skanning av insticksmoduler | Sökning och uppdatering av den lokala listan över tillgängliga insticksmoduler. |
 | Pinout | stiftkonfiguration | Knappen öppnar Ardours fönster för insticksmodulens in- och utgångsstift. Följer katalogens befintliga `Pin Configuration` → **Stiftkonfiguration**. |
+| MIDI Input Pins | MIDI-ingångar | MIDI-anslutningar till en insticksmodul; samma korta UI-term som ljudingångar. |
 | panner | panorerare | Reglage eller modul som placerar signalen i stereobilden eller surroundfältet. |
 | Stereo Panner | stereopanorerare | Stereo-varianten av Ardours panorerarmodul. |
 | pre-/post-fader | före/efter fader | Mät- och sändningspunkt i signalflödet. |
