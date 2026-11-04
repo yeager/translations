@@ -109,6 +109,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | play range | spela upp intervallet | Menyåtgärden anropar `Editor::play_selection()` för det valda tidsintervallet. |
 | playhead forward/backward | flytta spelhuvudet framåt/bakåt | Åtgärden flyttar genom att begära en ny transportposition; den spelar inte ljud bakåt. |
 | jump target | mål för hopp | Målval för triggerfunktionen `FollowAction::JumpTrigger`; ordningen är naturligare än sammansättningen `hoppmål`. |
+| toggle record | växla inspelning | Verktygstips för transportens inspelningsknapp; aktiverar eller inaktiverar inspelning, inte växling mellan textposter. |
+| play range/selection | spela upp intervall/markering | Verktygstips för transportknappen som spelar valt intervall eller markerat material. |
 | time-stretching | tidssträckning | Anpassning av ett klipps längd/tempo till sessionens tempokarta. |
 | I/O resampling | I/O-omprovtagning | Omprovtagning som Ardour använder för uppspelning eller inspelning med vari-speed. |
 | peak | toppnivå | Signalens högsta nivå i krav på export och normalisering. |
