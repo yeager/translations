@@ -1,7 +1,7 @@
 # Blender Manual: granskningsbatch 23 — USD-datatyper
 
-Datum: 2026-11-04  
-Källa: `exports/2026-11-04/blender-manual-manual-sv.po`  
+Datum: 2026-11-04
+Källa: `exports/2026-11-04/blender-manual-manual-sv.po`
 Omfattning: 3 ändrade poster i `files/import_export/usd.rst`.
 
 Batchen rättar en ofullständig svensk beskrivning av `quatf`, preciserar

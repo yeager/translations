@@ -1,6 +1,6 @@
 # Kandidatgranskning: Blender Manual — USD efter rad 729
 
-Källa: `exports/2026-11-04/blender-manual-manual-sv.po`  
+Källa: `exports/2026-11-04/blender-manual-manual-sv.po`
 Avgränsning: `files/import_export/usd.rst:736–760`, det vill säga innehåll
 efter de redan dubbelgranskade datatyp-posterna i batch 23.
 

@@ -11,5 +11,7 @@ formatnamnen `USD`, `OpenVDB` och `Principled BSDF` är bevarade. Termerna
 *punktmoln*, *texturkatalog*, *filnamnskollision* och *visningssyfte*
 följer den projektspecifika terminologin.
 
-Status: lokalt granskad; räknas till den samlade manualbatchen om
+Status: lokalt dubbelgranskad. Följdrättelserna använder de belagda UI-formerna
+`USD Preview` och `USD Preview Surface-shaders`. Källans avsaknad av slutpunkt
+i alternativbeskrivningen för `full` behålls för formatparitet. Batchen räknas till den samlade manualbatchen om
 500–1 000 strängar och är inte uppladdad separat.

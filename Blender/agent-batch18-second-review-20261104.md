@@ -1,6 +1,6 @@
 # Andra motgranskning: Blender Manual batch 18
 
-Granskad fil: `blender-manual-sv-review-batch-20261104-18.po`  
+Granskad fil: `blender-manual-sv-review-batch-20261104-18.po`
 Underlag: råexportens `files/import_export/usd.rst:187–289` och lokala
 `blender-ui-ui-sv.po`.
 

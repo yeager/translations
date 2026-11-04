@@ -1,8 +1,8 @@
 # Kandidater: Blender Manual — `link_append.rst`, fördjupad granskning
 
-Källa: `exports/2026-11-04/blender-manual-manual-sv.po`  
+Källa: `exports/2026-11-04/blender-manual-manual-sv.po`
 Avgränsning: enbart `files/linked_libraries/link_append.rst`, PO-avsnittet
-kring rad 137400.  
+kring rad 137400.
 Status: kandidatunderlag. Råexport, README och batchfiler är orörda.
 
 Följande är ytterligare kandidater utöver den tidigare rapporten

@@ -1,6 +1,6 @@
 # Andra granskning: Blender Manual batch 20
 
-Granskad fil: `blender-manual-sv-review-batch-20261104-20.po`  
+Granskad fil: `blender-manual-sv-review-batch-20261104-20.po`
 Underlag: råexportens `files/import_export/usd.rst:467–567` samt
 `blender-ui-ui-sv.po` från 2026-11-04.
 

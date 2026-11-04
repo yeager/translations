@@ -1,6 +1,6 @@
 # Oberoende granskning: Blender Manual batch 19
 
-Granskad fil: `blender-manual-sv-review-batch-20261104-19.po`  
+Granskad fil: `blender-manual-sv-review-batch-20261104-19.po`
 Underlag: råexportens `files/import_export/usd.rst:336–457`, Blender-UI:s
 svenska katalog samt projektets USD-terminologigranskning.
 

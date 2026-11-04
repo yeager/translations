@@ -1,7 +1,7 @@
 # Oberoende granskning: Blender Manual batch 18
 
-Datum: 2026-11-04  
-Granskad fil: `blender-manual-sv-review-batch-20261104-18.po`  
+Datum: 2026-11-04
+Granskad fil: `blender-manual-sv-review-batch-20261104-18.po`
 Jämförelser: den lokala råexporten för Blender Manual och den lokala
 Blender UI-exporten.
 
