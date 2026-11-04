@@ -111,6 +111,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | jump target | mål för hopp | Målval för triggerfunktionen `FollowAction::JumpTrigger`; ordningen är naturligare än sammansättningen `hoppmål`. |
 | toggle record | växla inspelning | Verktygstips för transportens inspelningsknapp; aktiverar eller inaktiverar inspelning, inte växling mellan textposter. |
 | play range/selection | spela upp intervall/markering | Verktygstips för transportknappen som spelar valt intervall eller markerat material. |
+| marker click only selects | klick på markör markerar endast | Radioläge som förhindrar att ett markörklick flyttar transportpositionen. |
+| rolling transport | när transporten rullar | Åsyftar pågående transport, inte nödvändigtvis aktiv inspelning. |
 | time-stretching | tidssträckning | Anpassning av ett klipps längd/tempo till sessionens tempokarta. |
 | I/O resampling | I/O-omprovtagning | Omprovtagning som Ardour använder för uppspelning eller inspelning med vari-speed. |
 | peak | toppnivå | Signalens högsta nivå i krav på export och normalisering. |
