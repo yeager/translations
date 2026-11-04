@@ -164,6 +164,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | complete MIDI/audio file | hela MIDI-/ljudfilen | Regionen skapas för filens hela innehåll, inte för en allmänt beskriven `komplett` fil. |
 | input / output latency | ingångslatens / utgångslatens | Begärda värden för ljudgränssnittets signalväg. De är särskilda latensvärden, inte allmänt beskrivna förseningar. |
 | period count | antal perioder | Ljudgränssnittets antal bearbetningsperioder i buffertkonfigurationen. |
+| solo cut control | solodämpningskontroll | Gain-liknande kontroll för konfigurationsvärdet `solo-mute-gain`, uttryckt i dB. |
+| monitor section | monitorsektion | Ardours namngivna monitorfunktion; använd samma term i feltexter som i gränssnittet. |
+| Console1 Send | Console1 Send | Reserverat I/O-namn för Softubes Console 1-kontroll; produktnamn och portnamn översätts inte. |
 
 ## Avsiktliga undantag
 
