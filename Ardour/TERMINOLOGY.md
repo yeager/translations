@@ -81,6 +81,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | recording take | inspelningstagning | En enskild inspelning i Ardours inspelningsflöde; skiljs från den resulterande regionen och dess ljudfiler. |
 | time-stretch quality | Mjuk / Jämn / Tydlig / Blandad | Kvalitetsval för Rubber Band-algoritmens transientbehandling. Termerna beskriver behandlingen, inte ett visuellt tillstånd. |
 | timecode | tidskod | Video- och transportsynkronisering. |
+| mux | multiplexera | Videoexport som kopierar videoströmmen till den nya behållaren utan omkodning; `mux` är inte ett svenskt verb i UI-text. |
 | MTC rate/drop | bildfrekvens-/drop-frame-värde | MTC-fältet kombinerar bildfrekvens och drop-frame-markering; översätt inte som fysisk hastighet eller minskning. |
 | track | spår | Spår i tidslinjen, mixern och analysfönstret; aldrig verbet `spåra`. |
 | record-enabled / rec-armed | inspelningsaktiverad | Ett spår som har aktiverats för inspelning; aldrig de bokstavliga felöversättningarna `återbeväpnad` eller `omarmerad`. |
