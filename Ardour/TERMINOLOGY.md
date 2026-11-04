@@ -156,6 +156,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | foldback | medhörning | Separat återgivningssignal för medverkande eller musiker. |
 | Solo-Isolate propagation | soloisoleringsspridning | Intern signalvägsuppdatering av Ardours soloisolering; bind inte ihop den med engelska `Solo-Isolate`. |
 | Click I/O | klickets I/O | Klickmetronomens signalanslutningar; `Click` är ett substantiv här, inte uppmaningen `Klicka`. |
+| Butler | Butler | Ardours interna bakgrundstråd för diskbaserad uppspelning och inspelning. Klassnamnet behålls och skrivs med versal. |
+| read-ahead / write-behind | framåtläsning / efterskrivning | Butler fyller upp uppspelningsbuffertar från disk respektive skriver inspelningsdata till disk i efterhand. `diskström` används för den berörda diskströmmen i diagnostiken. |
+| Snap to Speaker | Fäst vid högtalare | Växlar att ett surroundobjekt fästs vid en högtalarposition; `snäpp` är här inte etablerad svensk UI-terminologi. |
 
 ## Avsiktliga undantag
 
