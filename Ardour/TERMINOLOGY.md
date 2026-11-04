@@ -51,6 +51,10 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | VCA master | VCA-master | Ardours VCA-styrning för flera kanalers nivå; `master` behålls som etablerad ljudteknisk term. |
 | AFL / PFL solo | solo efter/före fader | Soloavlyssning efter respektive före kanalens fader. Förkortningarna AFL och PFL behålls. |
 | loudness analysis | ljudstyrkeanalys | Analys av ljudstyrka enligt export- och masterbussens kontext; inte en generell volymmätning. |
+| limiter | begränsare | Processor som begränsar signalens toppnivå i masterbussens signalflöde. |
+| loudness | ljudstyrka | Mätbar upplevd ljudnivå, bland annat uttryckt i LUFS. |
+| peak | toppnivå | Signalens högsta nivå i krav på export och normalisering. |
+| outboard gear | extern utrustning | Extern ljudutrustning som kräver export i realtid. |
 | velocity | anslagsstyrka | MIDI-noters dynamiska styrvärde, inte fysisk hastighet. |
 | Video Server | videoserver | Ardours externa tjänst för videovisning och videohantering. |
 
