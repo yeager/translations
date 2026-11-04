@@ -114,6 +114,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | `AutomationList` diagnostic | fick XML-noden | Källkoden lämnar en XML-nod till listan; använd inte den bokstavliga och felaktiga formen `passerade XML-nod`. |
 | allow mush | tillåt begränsning | Vid MIDI-redigering får värden begränsas till intervallet 0–127 i stället för att hela åtgärden avbryts. |
 | Video Server | videoserver | Ardours externa tjänst för videovisning och videohantering. |
+| fixed time region drag | dra region med låst tidsposition | Ångra-beskrivning för en regionsförflyttning som är låst i tidsled och därför bara kan byta spår eller lager. |
+| I/O output | utgång | I/O-väljarens ljudutgång; `utdata` är inte den etablerade DAW-termen här. |
 
 ## Avsiktliga undantag
 
