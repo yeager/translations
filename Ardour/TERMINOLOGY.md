@@ -172,6 +172,11 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | diskstream / diskstream-id | diskström / diskströms-id | Äldre sessionsmetadata identifierar en diskbaserad spårström. Behåll den tekniska identifierarformen med svensk sammansättning i diagnostiken. |
 | explicit solo | direkt solo | Spåret är solospelat av egen kontroll, i motsats till upp- eller nedströms spritt solo. |
 | CPU DMA latency request | CPU-DMA-latensbegäran | Linux-gränssnittets begäran om minsta DMA-latens. Förkortningen behålls med bindestreck som svensk teknisk sammansättning. |
+| Stop and Forget Capture | Stoppa och förkasta inspelningen | Transportåtgärd som stoppar rullning och kastar inspelat material; `Capture` är inte ett egennamn här. |
+| Solo Selection | Spela upp endast markeringen | Transportåtgärd som spelar endast den aktuella redigeringsmarkeringen; det är inte ett substantiviskt urval av solon. |
+| inline mixer-strip controls | direktvisade mixerremskontroller | Insticksmodulkontroller som visas direkt i mixerremsan, begränsade genom inställningen `max-inline-controls`. |
+| Play loop | loopuppspelning | Transportläge som tvingar kontinuerlig uppspelning av loopintervallet. |
+| global strip template | global mall för mixerremsa | Mall som är tillgänglig för alla sessioner, till skillnad från en sessionslokal mixerremsmall. |
 
 ## Avsiktliga undantag
 
