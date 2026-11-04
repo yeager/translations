@@ -111,6 +111,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | mux | multiplexera | Videoexport som kopierar videoströmmen till den nya behållaren utan omkodning; `mux` är inte ett svenskt verb i UI-text. |
 | MTC rate/drop | bildfrekvens-/drop-frame-värde | MTC-fältet kombinerar bildfrekvens och drop-frame-markering; översätt inte som fysisk hastighet eller minskning. |
 | track | spår | Spår i tidslinjen, mixern och analysfönstret; aldrig verbet `spåra`. |
+| Reset Summary to Extents | återställ översikten till hela tidslinjen | Åtgärden nollställer redigerarens miniatyröversikt och kör `temporal_zoom_extents()`. Den ska beskriva återgång till hela tidslinjen, inte den oidiomatiska frasen `sammanfattning till omfattning`. |
+| Normalization Gain | normaliseringsförstärkning | Exportresultatets nivåförstärkning från normalisering. Svensk sammansättning och gemen bokstav efterledet; inte den särskrivna blandformen `Normalisering Förstärkning`. |
 | record-enabled / rec-armed | inspelningsaktiverad | Ett spår som har aktiverats för inspelning; aldrig de bokstavliga felöversättningarna `återbeväpnad` eller `omarmerad`. |
 | editor-selected | redigeringsvald | Spår eller buss som är valt i redigeraren, inte ett separat redigeringskommando. |
 | transport master | transportmaster | Ardours synkroniseringskälla för transporten; ett sammansatt substantiv i svensk UI-text. |
