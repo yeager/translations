@@ -30,7 +30,10 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | sound on sound | ljud på ljud | Inspelningsläge där nya regioner läggs i ett lager och befintligt material fortfarande hörs. |
 | session | session | Etablerad DAW-term. |
 | solo isolate | soloisolering | Förhindrar att ett spår tystas när andra spår solospelas. |
+| Slide (edit mode) | Flytta | Fritt redigeringsläge där regioner kan flyttas och överlappa. |
+| Ripple (edit mode) | Krusning | Etablerad term i svensk videoredigering; efterföljande regioner flyttas vid redigering. |
 | snapshot | ögonblicksbild | Sparat sessionsläge; inte datorskärmdump. |
+| time-stretch quality | Mjuk / Jämn / Tydlig / Blandad | Kvalitetsval för Rubber Band-algoritmens transientbehandling. Termerna beskriver behandlingen, inte ett visuellt tillstånd. |
 | timecode | tidskod | Video- och transportsynkronisering. |
 | transport master | transportmaster | Ardours synkroniseringskälla för transporten; ett sammansatt substantiv i svensk UI-text. |
 | VCA master | VCA-master | Ardours VCA-styrning för flera kanalers nivå; `master` behålls som etablerad ljudteknisk term. |
