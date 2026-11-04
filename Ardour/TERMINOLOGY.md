@@ -21,6 +21,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | range tool | intervallverktyg | Verktyget markerar ett tidsintervall för bland annat redigering och analys. |
 | sample rate | samplingsfrekvens | Exempelvis sessionens samplingsfrekvens. |
 | session | session | Etablerad DAW-term. |
+| solo isolate | soloisolering | Förhindrar att ett spår tystas när andra spår solospelas. |
 | snapshot | ögonblicksbild | Sparat sessionsläge; inte datorskärmdump. |
 | timecode | tidskod | Video- och transportsynkronisering. |
 | loudness analysis | ljudstyrkeanalys | Analys av ljudstyrka enligt export- och masterbussens kontext; inte en generell volymmätning. |
