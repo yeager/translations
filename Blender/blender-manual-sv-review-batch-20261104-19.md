@@ -9,5 +9,8 @@ Batchen rättar bland annat felaktig svensk ordklass, en engelsk rest
 Blender-objekttyper. `USDZ`, ``.usdz``, ``metersPerUnit`` och
 ``UsdLuxShapingAPI`` behålls som tekniska identiteter.
 
+Följdrättelse efter oberoende granskning: den svenska sammansättningen
+`texturfilberoenden` används för *texture file dependencies*.
+
 Status: lokalt granskad; räknas till den samlade manualbatchen om
 500–1 000 strängar och är inte uppladdad separat.
