@@ -1,6 +1,6 @@
 # Väntande upstream-importer
 
-> **Aktuell sammanfattning, 2026-11-03.** Läs detta avsnitt före den
+> **Aktuell sammanfattning, 2026-11-04.** Läs detta avsnitt före den
 > historiska detaljloggen nedan. En post i detaljloggen beskriver det läge som
 > gällde vid datumet i posten och är inte i sig bevis för att samma fil ännu
 > väntar på uppladdning.
@@ -34,8 +34,10 @@ Inga kända färdiga filer väntar på manuellt inskick just nu.
 - **Virtaal:** [PR #4697](https://github.com/translate/virtaal/pull/4697).
 - **sK1:** [PR #348](https://github.com/sk1-project/sk1-wx/pull/348).
 - **Rust Coreutils:** [PR #96](https://github.com/uutils/coreutils-l10n/pull/96).
-- **Termux:** komplett svensk Android-katalog, inskickad som
-  [PR #5425](https://github.com/termux/termux-app/pull/5425).
+- **Termux:** [PR #5425](https://github.com/termux/termux-app/pull/5425)
+  stängdes 2026-11-04 utan merge eftersom maintainer uttryckligen uppgav att
+  nya översättningar inte planeras. Kandidaten är arkiverad, men är inte en
+  aktiv uppströmskö.
 - **FreeDV 3.0.0-dev1:** komplett PO-katalog med 571 av 571 översatta
   meddelanden, inskickad till Translation Project.
 - **Proxmox:** komplett PO-katalog, inskickad uppströms.
