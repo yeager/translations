@@ -22,6 +22,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | route group / Collect Group | grupp / Samla grupp | En grupp kopplar samman spår eller bussar. Åtgärden placerar medlemmarna intill varandra i redigeraren eller mixern. |
 | range tool | intervallverktyg | Verktyget markerar ett tidsintervall för bland annat redigering och analys. |
 | sample rate | samplingsfrekvens | Exempelvis sessionens samplingsfrekvens. |
+| sample (library asset) | ljudprov | En återanvändbar ljudfil i klipp- eller samplingsbiblioteket; skiljs från det tekniska samplingsvärdet i `sample rate`. |
 | session | session | Etablerad DAW-term. |
 | solo isolate | soloisolering | Förhindrar att ett spår tystas när andra spår solospelas. |
 | snapshot | ögonblicksbild | Sparat sessionsläge; inte datorskärmdump. |
