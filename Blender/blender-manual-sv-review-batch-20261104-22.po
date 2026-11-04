@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Manual\n"
+"PO-Revision-Date: 2026-11-04 16:45+0100\n"
+"Last-Translator: Daniel Nylander\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. USDZ custom downsampling size heading, ../../manual/files/import_export/usd.rst:578.
+msgid "USDZ Custom Downscale Size"
+msgstr "Anpassad storlek för USDZ-nedsampling"
+
+#. USDZ custom downsampling size description, ../../manual/files/import_export/usd.rst:579.
+msgid "The size in pixels of the *Custom* downsampling."
+msgstr "Storleken i pixlar för den *anpassade* nedsamplingen."
+
+#. USD exporter limitations heading, ../../manual/files/import_export/usd.rst:607.
+msgid "Exporter Limitations"
+msgstr "Exportörens begränsningar"
+
+#. USD mesh sidedness heading, ../../manual/files/import_export/usd.rst:609.
+msgid "Single-sided and Double-sided Meshes"
+msgstr "Enkelsidiga och dubbelsidiga mesh"
+
+#. USD mesh sidedness description, ../../manual/files/import_export/usd.rst:610.
+msgid ""
+"USD seems to support neither per-material nor per-face-group double-"
+"sidedness, so Blender uses the flag from the first material to mark the "
+"entire mesh as single/double-sided. If there is no material it defaults "
+"to double-sided."
+msgstr ""
+"USD verkar varken stödja dubbelsidighet per material eller per ytgrupp, "
+"så Blender använder flaggan från det första materialet för att markera "
+"hela meshen som enkelsidig eller dubbelsidig. Om det inte finns något "
+"material är den dubbelsidig som standard."
+
+#. USD parent hair strands export, ../../manual/files/import_export/usd.rst:621.
+msgid ""
+"Only the parent strands are exported, and only with a constant color. No "
+"UV coordinates, and no information about the normals."
+msgstr ""
+"Endast föräldrahårstråna exporteras, och då bara med en konstant färg. "
+"UV-koordinater och normalinformation exporteras inte."
+
+#. USD Geometry Nodes modifiers heading, ../../manual/files/import_export/usd.rst:634.
+msgid "Geometry Node Modifiers"
+msgstr "Geometrinodmodifierare"
+
+#. USD instancing and referencing heading, ../../manual/files/import_export/usd.rst:643.
+msgid "Instancing/Referencing"
+msgstr "Instansiering/referenser"
+
+#. USD instanced object export support, ../../manual/files/import_export/usd.rst:644.
+msgid ""
+"Exporting instanced objects and collections is supported through an "
+"experimental option available during USD export."
+msgstr ""
+"Export av instansierade objekt och samlingar stöds genom ett "
+"experimentellt alternativ vid USD-export."
+
+#. USD scene instances export, ../../manual/files/import_export/usd.rst:655.
+msgid ""
+"Scene instances, created by directly instancing collections or objects, "
+"will be written to USD as references to the original. Supported object "
+"types include Mesh, Curves, and Point Clouds."
+msgstr ""
+"Sceninstanser som skapas genom att samlingar eller objekt instansieras "
+"direkt skrivs till USD som referenser till originalet. Objekttyper som "
+"stöds är mesh, kurvor och punktmoln."
+
+#. USDZ UDIM limitation, ../../manual/files/import_export/usd.rst:659.
+msgid ""
+"Due to a current limitation in the USD library, UDIM textures cannot be "
+"include in the USDZ archive. This limitation will likely be addressed in "
+"a future version of USD. (See `USD pull request #2133 "
+"<https://github.com/PixarAnimationStudios/OpenUSD/pull/2133>`__.)"
+msgstr ""
+"På grund av en aktuell begränsning i USD-biblioteket kan UDIM-texturer "
+"inte ingå i USDZ-arkivet. Begränsningen kommer troligen att åtgärdas i en "
+"framtida USD-version. (Se `USD-pullförfrågan #2133 "
+"<https://github.com/PixarAnimationStudios/OpenUSD/pull/2133>`__.)"
+
+#. USD Primvar data types heading, ../../manual/files/import_export/usd.rst:665.
+msgid "USD Primvar data types"
+msgstr "USD Primvar-datatyper"
+
+#. USD-to-Blender type column heading, ../../manual/files/import_export/usd.rst:678.
+msgid "Blender type"
+msgstr "Blender-typ"
+
+#. USD RGBA color import and export, ../../manual/files/import_export/usd.rst:709.
+msgid ""
+"RGBA color with 32-bit floating-point values. As a special case, when "
+"encountering a Primvar or attribute for USD's ``displayColor``, it will "
+"be read or written as ``color3f`` data with an Alpha component of 1.0."
+msgstr ""
+"RGBA-färg med 32-bitars flyttalsvärden. Som specialfall hanteras en "
+"Primvar eller ett attribut för USD:s ``displayColor`` som ``color3f``-data "
+"med en alfakomponent på 1,0."
+
+#. USD byte color conversion, ../../manual/files/import_export/usd.rst:714.
+msgid ""
+"USD does not provide a byte color equivalent. The byte values will be "
+"converted to float and exported as a color4f."
+msgstr ""
+"USD har ingen motsvarighet till bytefärg. Bytevärdena konverteras till "
+"flyttal och exporteras som color4f."
