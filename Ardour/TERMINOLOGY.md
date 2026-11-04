@@ -23,6 +23,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | follow length | följlängd | Den användardefinierade speltid som föregår en följåtgärd; projektspecifik UI-term. |
 | gain | förstärkning | Ljudnivå före eller i fader-/regionbearbetning; `vinst` används inte i ljudgränssnittet. |
 | latency | latens | Används för ljud- och I/O-latens. |
+| samples latency | samplingars latens | Latens uttryckt som antal samplingsvärden; undvik särskrivningen `samplings latens`. |
+| round-trip latency | rundreselatens | Sammanlagd latens för utgående och återgående I/O-signal. |
 | legatize | Gör legato | MIDI-redigeringsåtgärd som anpassar notlängder så att noterna binds samman. |
 | MIDI note | MIDI-not | `note` är **not** i musikkontext, aldrig teknisk anteckning. |
 | Bars:Beats | Takter:slag | Musikaliskt tidsformat i linjal, klocka och exportval. |
@@ -81,6 +83,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | loudness | ljudstyrka | Mätbar upplevd ljudnivå, bland annat uttryckt i LUFS. |
 | clip tempo | klipptempo | Det tempo Ardour uppskattar för ett ljudklipp i en triggerplats; används som underlag för tidssträckning mot sessionens tempo. |
 | time-stretching | tidssträckning | Anpassning av ett klipps längd/tempo till sessionens tempokarta. |
+| I/O resampling | I/O-omprovtagning | Omprovtagning som Ardour använder för uppspelning eller inspelning med vari-speed. |
 | peak | toppnivå | Signalens högsta nivå i krav på export och normalisering. |
 | outboard gear | extern utrustning | Extern ljudutrustning som kräver export i realtid. |
 | velocity | anslagsstyrka | MIDI-noters dynamiska styrvärde, inte fysisk hastighet. |
