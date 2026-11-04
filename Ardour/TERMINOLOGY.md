@@ -105,6 +105,10 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | limiter | begränsare | Processor som begränsar signalens toppnivå i masterbussens signalflöde. |
 | loudness | ljudstyrka | Mätbar upplevd ljudnivå, bland annat uttryckt i LUFS. |
 | clip tempo | klipptempo | Det tempo Ardour uppskattar för ett ljudklipp i en triggerplats; används som underlag för tidssträckning mot sessionens tempo. |
+| roll (transport) | starta uppspelning | Transportåtgärden anropar `transport_roll`; den kastar inte material. |
+| play range | spela upp intervallet | Menyåtgärden anropar `Editor::play_selection()` för det valda tidsintervallet. |
+| playhead forward/backward | flytta spelhuvudet framåt/bakåt | Åtgärden flyttar genom att begära en ny transportposition; den spelar inte ljud bakåt. |
+| jump target | mål för hopp | Målval för triggerfunktionen `FollowAction::JumpTrigger`; ordningen är naturligare än sammansättningen `hoppmål`. |
 | time-stretching | tidssträckning | Anpassning av ett klipps längd/tempo till sessionens tempokarta. |
 | I/O resampling | I/O-omprovtagning | Omprovtagning som Ardour använder för uppspelning eller inspelning med vari-speed. |
 | peak | toppnivå | Signalens högsta nivå i krav på export och normalisering. |
