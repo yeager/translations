@@ -147,6 +147,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | plugin scan | skannar insticksmoduler | Pågående förloppsstatus från insticksmodulhanteraren; verbformen är konsekvent med övriga statusrader och inte en menyåtgärd i infinitiv. |
 | plugin order | insticksmodulsordning | Sparad ordning i vilken insticksmoduler visas eller behandlas; använd inte den ogenomskinliga sammansättningen `insticksmodulsorderfil`. |
 | corrupt cache file | skadad cachefil | Filen har ogiltigt eller skadat innehåll; `korrupt` undviks i svensk användartext. |
+| audio I/O bundle | bunt / ingångsbunt / utgångsbunt | Namngiven samling av Ardours ljudportar. I feltexter används `bunt`; med den variabla riktningen blir sammansättningen till exempel `ingångsbunt`. `paket` används inte eftersom det syftar på program- eller filpaket. |
+| unclean shutdown | okontrollerad avstängning | Processen avslutades utan ordnad nedstängning och portregistret behöver återställas; varken `orättvis` eller `smutsig` avstängning uttrycker betydelsen. |
 
 ## Avsiktliga undantag
 
