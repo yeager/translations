@@ -13,6 +13,7 @@ när en reproducerbar konflikt måste lösas.
 | Projekt | PR | Åtgärd | Verifiering | Status |
 | --- | --- | --- | --- | --- |
 | Console Shelf PS5 | [#3](https://github.com/Iswebro/console-shelf-ps5/pull/3) | Rebasa den svenska native-UI-lokaliseringen på aktuell stabil huvudgren; återställ sparad språkpreferens, inkluderar katalogen i host- och PS5-källistorna samt lägger visuella svenska renderingskontroller. | `npm run test:native-renderer`, `git diff --check`, Gitleaks. | Pushad som `f1bad9f`; väntar på ny granskning. PS5-byggning kräver x86_64-Linux/WSL och kördes därför inte på macOS. |
+| ComfyUI Frontend | [#17064](https://github.com/Comfy-Org/ComfyUI_frontend/pull/17064) | Rebasa svenska kataloger mot aktuell `main`, komplettera 92 nya eller ändrade UI-strängar, rätta två bevarade token och lägg test för `sv`/`sv-SE` i språkupplösningen. | `pnpm locale:check` utan tokenfel, `pnpm exec vitest run src/i18n.test.ts` (50 tester), formateringskontroll, `git diff --check` och Gitleaks för ändrade filer. | Pushad som `c4b2d73f`; GitHub-kontroller startade, väntar på ny granskning. Kontrollens rapporterar äldre oöversatta svenska strängar separat; de är inte påstått kompletta här. |
 
 ## Kräver extern input eller avsiktlig uppföljning
 
