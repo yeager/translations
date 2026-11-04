@@ -121,6 +121,11 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | round-trip latency | rundreselatens | Uppskattad sammanlagd latens från utgång tillbaka till ingång; i mätningstexten är **uppmätt** mer precist än `upptäckt`. |
 | sample count | samplingar | Antal diskreta samplingsvärden i en ljudbuffert eller latensangivelse. |
 | transient | transient | Kort, snabb amplitudförändring i ljudmaterial; `Placera transient` skapar eller flyttar dess redigeringsposition. |
+| Auto Input | Automatisk ingång | Transportstyrd övervakning där spårens ljudingångar lyssnas när transporten är stoppad; en funktion, inte allmän textinmatning. |
+| onset | ansats | Starten på en ton eller ljudhändelse i Rhythm Ferrets onsetdetektering; `anfall` är en falsk vän. |
+| inter-onset time | tid mellan ansatser | Minsta tidsintervall mellan detekterade ljudansatser. |
+| cut position | klipp-position | Position där Rhythm Ferret delar en region; bindestreck används för att undvika tre p i följd. |
+| peak hold time | hålltid för toppvärde | Tidslängd som nivåmätaren behåller sitt toppvärde. |
 
 ## Avsiktliga undantag
 
