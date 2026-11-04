@@ -76,6 +76,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | track | spår | Spår i tidslinjen, mixern och analysfönstret; aldrig verbet `spåra`. |
 | transport master | transportmaster | Ardours synkroniseringskälla för transporten; ett sammansatt substantiv i svensk UI-text. |
 | monitor dim / cut | monitordämpning / monitoravstängning | Funktioner för att tillfälligt sänka respektive stänga av kontrollrummets monitorutgång. |
+| peak meter | mätare | PeakMeter är Ardours signalnivåmätare; den korta UI-etiketten ska därför följa katalogens redan etablerade svenska `mätare`. |
+| auto punch | automatisk punch | Ardours namngivna DAW-funktion för automatiskt punch-in/punch-out; termen `punch` behålls, inte den missvisande `stämpling`. |
 | VCA master | VCA-master | Ardours VCA-styrning för flera kanalers nivå; `master` behålls som etablerad ljudteknisk term. |
 | AFL / PFL solo | solo efter/före fader | Soloavlyssning efter respektive före kanalens fader. Förkortningarna AFL och PFL behålls. |
 | loudness analysis | ljudstyrkeanalys | Analys av ljudstyrka enligt export- och masterbussens kontext; inte en generell volymmätning. |
