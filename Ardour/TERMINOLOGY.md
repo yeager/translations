@@ -162,6 +162,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | MIDI note / note ID | not / not-ID | Tonhändelse och dess identifierare i Ardours MIDI-modell. `anteckning` är en falsk vän i musik- och MIDI-kontext. |
 | MIDI note property | notegenskap | Egenskap hos en MIDI-not i den serialiserade ändringen; sammansättningen skiljer betydelsen från en allmän anteckningsegenskap. |
 | complete MIDI/audio file | hela MIDI-/ljudfilen | Regionen skapas för filens hela innehåll, inte för en allmänt beskriven `komplett` fil. |
+| input / output latency | ingångslatens / utgångslatens | Begärda värden för ljudgränssnittets signalväg. De är särskilda latensvärden, inte allmänt beskrivna förseningar. |
+| period count | antal perioder | Ljudgränssnittets antal bearbetningsperioder i buffertkonfigurationen. |
 
 ## Avsiktliga undantag
 
