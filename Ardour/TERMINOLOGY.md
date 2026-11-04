@@ -25,6 +25,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Medium (sinc) | Medel (sinc) | Mellanläget för sinc-baserad samplingsfrekvensomvandling vid export. `sinc` är algoritmens namn och behålls. |
 | note off | Note Off | Standardiserat MIDI-meddelande; behåll termen med versalt O. |
 | plugin | insticksmodul | Används i svensk löptext och menyer. Produktformat som VST3 och AudioUnit behålls. |
+| plugin input/output configuration | insticksmodulens ingångs-/utgångskonfiguration | Konfiguration av insticksmodulens signalstift. |
+| plugin scan | skanning av insticksmoduler | Sökning och uppdatering av den lokala listan över tillgängliga insticksmoduler. |
 | Pinout | stiftkonfiguration | Knappen öppnar Ardours fönster för insticksmodulens in- och utgångsstift. Följer katalogens befintliga `Pin Configuration` → **Stiftkonfiguration**. |
 | panner | panorerare | Reglage eller modul som placerar signalen i stereobilden eller surroundfältet. |
 | Stereo Panner | stereopanorerare | Stereo-varianten av Ardours panorerarmodul. |
