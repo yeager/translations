@@ -12,6 +12,7 @@ Senast uppdaterad: 2026-11-04.
 | Engelska | Svenska | Anmärkning |
 | --- | --- | --- |
 | asset library | tillgångsbibliotek / resursbibliotek | Båda förekommer i den etablerade Blender-katalogen. Följ närliggande UI och ändra inte mekaniskt mellan dem. I längre förklarande text är *tillgångsbibliotek* den vanligaste befintliga formen. |
+| add-on / extension | tillägg | I Blender betecknar båda källtermerna samma utbyggbara funktion. Svenska använder samma form i singular och plural i korta UI-etiketter. |
 | data-block | datablock | Skriv ihop. Behåll bindestrecket bara i bokstavliga API-namn. |
 | object | objekt | Etablerad Blender-term. |
 | collection | samling | Avser Blenders objektbehållare, inte en godtycklig lista. |
