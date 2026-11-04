@@ -129,6 +129,10 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Bars & Beats | takter och slag | Musikalisk tidsvisning; `bar` är takt och `beat` är slag i Ardours svenska UI. |
 | auto-punch in/out | automatisk punch-in/punch-out | Transportens automatiska inspelningsstart och -stopp vid punchgränserna. |
 | I/O tooltip input/output | INGÅNG/UTGÅNG | Versala rubriker i I/O-knappens verktygstips; avser ljudanslutningar, inte allmänna data. |
+| input monitoring | ingångslyssning | Övervakning av spårets inkommande ljudsignal, styrd av transporten eller monitorvalet. |
+| master level meter | masternivåmätare | Nivåmätare för masterbussen i redigerarens programrad. |
+| pitch shift audio | Förskjut ljudets tonhöjd | Dialog som ändrar tonhöjd utan att vara en etikett för en abstrakt `tonhöjdsförskjutning`. |
+| sync position | synkroniseringsposition | Transportmasterns avlästa synkroniseringsposition i dialogens kolumnrubrik. |
 
 ## Avsiktliga undantag
 
