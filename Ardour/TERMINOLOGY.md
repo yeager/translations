@@ -77,6 +77,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | auto-map | automatisk mappning | Automatisk tilldelning av importerade kanaler till lokala spår efter ID eller namn. |
 | automation point / guard point | automatiseringspunkt / skyddspunkt | En redigerbar punkt på en automatiseringslinje; skyddspunkter bibehåller form och värden vid närliggande ändringar. |
 | send routing | sändningsruttning | Hur en sändning kopplas mellan kanal, buss och utgång. |
+| port-matrix destination | mål | Kolumn- eller radhuvud för signalens anslutningsmål. `Resmål` har en transportbetydelse och passar inte signalruttning. |
 | send/output | sändning/utgång | I/O-paret för extern routing; `output` betyder ljudutgång, aldrig utskrift. |
 | solo isolate | soloisolering | Förhindrar att ett spår tystas när andra spår solospelas. |
 | Slide (edit mode) | Flytta | Fritt redigeringsläge där regioner kan flyttas och överlappa. |
