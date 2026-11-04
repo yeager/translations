@@ -87,6 +87,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | auto punch | automatisk punch | Ardours namngivna DAW-funktion för automatiskt punch-in/punch-out; termen `punch` behålls, inte den missvisande `stämpling`. |
 | VCA master | VCA-master | Ardours VCA-styrning för flera kanalers nivå; `master` behålls som etablerad ljudteknisk term. |
 | AFL / PFL solo | solo efter/före fader | Soloavlyssning efter respektive före kanalens fader. Förkortningarna AFL och PFL behålls. |
+| pre-/post-fader processor or send | processor eller sändning före/efter fader | Signalflödets placering i förhållande till fadeln. `pre-fader` och `post-fader` översätts i beskrivande UI-texter, medan AFL/PFL behålls där de är standardförkortningar. |
 | loudness analysis | ljudstyrkeanalys | Analys av ljudstyrka enligt export- och masterbussens kontext; inte en generell volymmätning. |
 | limiter | begränsare | Processor som begränsar signalens toppnivå i masterbussens signalflöde. |
 | loudness | ljudstyrka | Mätbar upplevd ljudnivå, bland annat uttryckt i LUFS. |
