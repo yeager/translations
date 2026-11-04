@@ -5,6 +5,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Engelska | Rekommenderad svenska | Sammanhang och kommentar |
 | --- | --- | --- |
 | audio interface | ljudgränssnitt | Ljudenhet för inspelning och uppspelning. |
+| audition | förhandslyssna | Tillfällig uppspelning för att kontrollera ett material eller MIDI-program före användning. |
 | bus | buss | Behåll DAW-termen, exempelvis `masterbuss` och `monitorbuss`. |
 | clip library | klippbibliotek | Ardours katalog med återanvändbara klipp; `clip` är här ett medieklipp, inte ett programklipp. |
 | cue | cue | Ardours namngivna cue-funktion; inte samma sak som en vanlig markör. |
@@ -14,6 +15,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | latency | latens | Används för ljud- och I/O-latens. |
 | MIDI note | MIDI-not | `note` är **not** i musikkontext, aldrig teknisk anteckning. |
 | MIDI program change | MIDI-programändring | MIDI-händelse som väljer program/klang; inte en allmän programförändring. |
+| MIDI patch / patch selection | MIDI-program / MIDI-programval | Väljare för MIDI-bank och -program; undvik oöversatta `patch` i svensk UI-text. |
 | note off | Note Off | Standardiserat MIDI-meddelande; behåll termen med versalt O. |
 | plugin | insticksmodul | Används i svensk löptext och menyer. Produktformat som VST3 och AudioUnit behålls. |
 | panner | panorerare | Reglage eller modul som placerar signalen i stereobilden eller surroundfältet. |
