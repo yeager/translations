@@ -5,7 +5,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Engelska | Rekommenderad svenska | Sammanhang och kommentar |
 | --- | --- | --- |
 | audio interface | ljudgränssnitt | Ljudenhet för inspelning och uppspelning. |
-| audition | förhandslyssna | Tillfällig uppspelning för att kontrollera ett material eller MIDI-program före användning. |
+| audition | förhandslyssning / förhandslyssna | Substantiv i rubriker och statusfält, verb i uppmaningar. Avser tillfällig uppspelning för kontroll av material eller MIDI-program. |
 | bus | buss | Behåll DAW-termen, exempelvis `masterbuss` och `monitorbuss`. |
 | clip library | klippbibliotek | Ardours katalog med återanvändbara klipp; `clip` är här ett medieklipp, inte ett programklipp. |
 | cue | cue | Ardours namngivna cue-funktion; inte samma sak som en vanlig markör. |
@@ -27,6 +27,7 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | range tool | intervallverktyg | Verktyget markerar ett tidsintervall för bland annat redigering och analys. |
 | sample rate | samplingsfrekvens | Exempelvis sessionens samplingsfrekvens. |
 | sample (library asset) | ljudprov | En återanvändbar ljudfil i klipp- eller samplingsbiblioteket; skiljs från det tekniska samplingsvärdet i `sample rate`. |
+| sound on sound | ljud på ljud | Inspelningsläge där nya regioner läggs i ett lager och befintligt material fortfarande hörs. |
 | session | session | Etablerad DAW-term. |
 | solo isolate | soloisolering | Förhindrar att ett spår tystas när andra spår solospelas. |
 | snapshot | ögonblicksbild | Sparat sessionsläge; inte datorskärmdump. |
