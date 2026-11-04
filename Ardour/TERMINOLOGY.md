@@ -181,6 +181,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | Play/Start/Finish Loop or Punch Range | Spela upp/Starta/Avsluta loop- eller punchintervallet | Åtgärder på det bestämda, aktuella intervallet. `stansningsområde` och `slingintervall` används inte. |
 | Add/assign pre-fader or post-fader | lägg till/tilldela före fader eller efter fader | Signalflödets position anges med svensk fras i alla blandar- och ruttdialoger; lämna inte `prefader` eller `postfader` oöversatt. |
 | Return (signal route) | retur | Returväg i Ardours signalflöde och processorlista; aldrig navigeringsordet `Tillbaka` eller den bokstavliga `återlämning`. |
+| Sync (settings category) | synkronisering | Namn på kategorin med A/V-, video- och extern synkroniseringsinställning; det är ett substantiv, inte uppmaningen `Synkronisera`. |
+| timecode frames-per-second / fps | tidskodens bildfrekvens / tidskod: bildfrekvens | Bildfrekvensen som tidskodsformatet använder; `ramar per sekund` är en direktöversättning som inte följer svensk videoteknisk term. |
+| Transport Master | transportmaster | Ardours valda transport-synkroniseringskälla; ett sammansatt namn, inte `transportmästare`. |
 
 ## Avsiktliga undantag
 
