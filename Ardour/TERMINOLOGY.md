@@ -88,6 +88,9 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | time-stretching | tidssträckning | Anpassning av ett klipps längd/tempo till sessionens tempokarta. |
 | I/O resampling | I/O-omprovtagning | Omprovtagning som Ardour använder för uppspelning eller inspelning med vari-speed. |
 | peak | toppnivå | Signalens högsta nivå i krav på export och normalisering. |
+| peak file | toppfil | Analysfil som innehåller vågforms- eller toppinformation; `Rebuild` innebär att bygga om den, inte återställa den. |
+| edit range / edit point | redigeringsintervall / redigeringspunkt | Tidsintervall eller punkt som används av Ardours redigeringsåtgärder. |
+| denormal handling | hantering av denormala tal | Inställning för mycket små flyttal i DSP-behandling. |
 | limit/normalize peak | begränsa/normalisera toppnivå | Exportinställningar för högsta signalnivå; `peak` ska inte bli den ogrammatiska formen `gränsvärde topp`. |
 | shaped noise | brusformning | Ditheringens brusformning; ljudteknisk term, inte bokstavliga `formad brus`. |
 | pre-roll | förrullning | Transportens förlopp före uppspelning eller inspelning, inte förhandsvisning. |
