@@ -21,6 +21,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | samples (audio buffer or latency unit) | samplingar | Antal digitala ljudsamplingar i ljudmotorns inställningar; ordet `prover` hör inte hemma i denna enhetskontext. |
 | playhead | spelhuvud | Ardours etablerade UI-term för den aktuella spelpositionen, även i importdialogens val för insättningsposition. |
 | place transient | placera transient | Ångraåtgärd som lägger till en transientmarkering vid redigeringspositionen; `tillfällig plats` bygger på den orelaterade vardagsbetydelsen av transient. |
+| Transpose (MIDI control) | Transponera | MIDI-funktion för tonartsförskjutning; `Omvandling` är en felaktigt allmän betydelse. Formen fungerar både på dialogknappen och som etikett vid det virtuella klaviaturets kontroll. |
+| Track Name | spårnamn | Visningsalternativet i meterbryggan visar ljudspårets namn; `Titel` saknar den avsedda Ardour-betydelsen. |
 | stretch tempo / stretch end tempo | sträck tempo / sträck sluttempot | Ångraåtgärder när användaren drar en tempopunkt eller en temposlutpunkt; de är verbfraser och inte beskrivningen `sträckt tempo`. |
 | crossfade | korstoning | Överlappande in- och uttoning mellan två regioner. |
 | region fades | regiontoningar | Toningar knutna till en regions början eller slut. |
