@@ -2,11 +2,11 @@
 
 Källa: de radvis granskade deltafilerna
 `../../blender-manual-sv-review-batch-20261104-01.po` till och med
-`../../blender-manual-sv-review-batch-20261104-45.po`.
+`../../blender-manual-sv-review-batch-20261104-46.po`.
 
 `create-manual-upload-batches.py` bygger först en samlad PO med `msgcat
 --use-first --no-location` och delar sedan den i Weblate-säkra filer. Den
-sammanlagda katalogen innehåller 505 översatta meddelanden enligt `msgfmt`.
+sammanlagda katalogen innehåller 515 översatta meddelanden enligt `msgfmt`.
 
 | Fil | Översatta meddelanden | Status |
 | --- | ---: | --- |
@@ -15,7 +15,7 @@ sammanlagda katalogen innehåller 505 översatta meddelanden enligt `msgfmt`.
 | `blender-manual-sv-reviewed-03.po` | 100 | Lokal kandidat, inte uppladdad |
 | `blender-manual-sv-reviewed-04.po` | 100 | Lokal kandidat, inte uppladdad |
 | `blender-manual-sv-reviewed-05.po` | 100 | Lokal kandidat, inte uppladdad |
-| `blender-manual-sv-reviewed-06.po` | 5 | Lokal kandidat, inte uppladdad |
+| `blender-manual-sv-reviewed-06.po` | 15 | Lokal kandidat, inte uppladdad |
 
 ## Kontroller
 
