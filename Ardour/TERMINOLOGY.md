@@ -75,6 +75,8 @@ Den här listan avser Ardours gränssnitt för ljud, MIDI, transport och export.
 | timecode | tidskod | Video- och transportsynkronisering. |
 | MTC rate/drop | bildfrekvens-/drop-frame-värde | MTC-fältet kombinerar bildfrekvens och drop-frame-markering; översätt inte som fysisk hastighet eller minskning. |
 | track | spår | Spår i tidslinjen, mixern och analysfönstret; aldrig verbet `spåra`. |
+| record-enabled / rec-armed | inspelningsaktiverad | Ett spår som har aktiverats för inspelning; aldrig de bokstavliga felöversättningarna `återbeväpnad` eller `omarmerad`. |
+| editor-selected | redigeringsvald | Spår eller buss som är valt i redigeraren, inte ett separat redigeringskommando. |
 | transport master | transportmaster | Ardours synkroniseringskälla för transporten; ett sammansatt substantiv i svensk UI-text. |
 | monitor dim / cut | monitordämpning / monitoravstängning | Funktioner för att tillfälligt sänka respektive stänga av kontrollrummets monitorutgång. |
 | peak meter | mätare | PeakMeter är Ardours signalnivåmätare; den korta UI-etiketten ska därför följa katalogens redan etablerade svenska `mätare`. |
