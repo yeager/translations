@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Manual\n"
+"PO-Revision-Date: 2026-11-04 11:05+0100\n"
+"Last-Translator: Daniel Nylander\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Manual context: glTF alpha mask cutoff, ../../manual/addons/scene_gltf2.rst:527.
+msgid ""
+"Rounding snaps alpha values that are 0.5 or greater up to 1, and ones "
+"below 0.5 down to 0. It is also possible to use a cutoff value different "
+"than 0.5 by using Math nodes to do ``1 - (alpha < cutoff)``."
+msgstr ""
+"Avrundning snäpper alfavärden på minst 0,5 till 1 och värden under 0,5 till "
+"0. Du kan också använda ett annat tröskelvärde än 0,5 genom att använda "
+"Math-noder för att beräkna ``1 - (alpha < cutoff)``."
+
+#. Manual context: glTF punctual lights, ../../manual/addons/scene_gltf2.rst:619.
+msgid ""
+"The glTF format supports three types of punctual lights: point, spot, and "
+"directional (Sun in Blender). Blender's Area light type and World "
+"lighting are not supported by glTF, and will be ignored during export."
+msgstr ""
+"Formatet glTF har stöd för tre typer av punktljus: punktljus, spotlights och "
+"riktat ljus (Sun i Blender). Blenders områdesljus och världsbelysning stöds "
+"inte av glTF och ignoreras vid export."
+
+#. Manual context: glTF punctual lights, ../../manual/addons/scene_gltf2.rst:627.
+msgid "Light Color"
+msgstr "Ljusfärg"
+
+#. Manual context: glTF punctual lights, ../../manual/addons/scene_gltf2.rst:629.
+msgid "The color of a glTF light is determined by the product of:"
+msgstr "Färgen på ett glTF-ljus bestäms av produkten av:"
+
+#. Manual context: glTF punctual lights, ../../manual/addons/scene_gltf2.rst:631.
+msgid "The color field on the light object, and"
+msgstr "Färgfältet på ljusobjektet, och"
+
+#. Manual context: glTF punctual lights, ../../manual/addons/scene_gltf2.rst:632.
+msgid ""
+"The color output of an Emission shader node, if the light is using nodes "
+"and has an Emission shader connected to its output."
+msgstr ""
+"Färgutdata från en Emission-shadernod, om ljuset använder noder och har en "
+"Emission-shader ansluten till sin utdata."
+
+#. Manual context: glTF punctual lights, ../../manual/addons/scene_gltf2.rst:635.
+msgid ""
+"If you are using EEVEE render engine, only the color field on the light "
+"object is used, and Emission shader node is ignored. (This reflects "
+"Viewport rendering)"
+msgstr ""
+"Om du använder renderingsmotorn EEVEE används bara färgfältet på ljusobjektet "
+"och Emission-shadern ignoreras. (Detta motsvarar renderingen i visningsområdet.)"
+
+#. Manual context: glTF punctual lights, ../../manual/addons/scene_gltf2.rst:640.
+msgid "Light Intensity"
+msgstr "Ljusintensitet"
+
+#. Manual context: glTF punctual lights, ../../manual/addons/scene_gltf2.rst:642.
+msgid ""
+"For Sun lights, the intensity is determined by the strength field on the "
+"light object. For Point and Spot lights, the intensity can also be "
+"determined by the Strength socket of a Light Falloff Node."
+msgstr ""
+"För Sun-ljus bestäms intensiteten av fältet Strength på ljusobjektet. För "
+"Point- och Spot-ljus kan den också bestämmas av uttaget Strength på en Light "
+"Falloff-nod."
+
+#. Manual context: glTF punctual lights, ../../manual/addons/scene_gltf2.rst:645.
+msgid ""
+"If you are using EEVEE render engine, the node setup will be ignored, and "
+"only the strength field on the light object is used."
+msgstr ""
+"Om du använder renderingsmotorn EEVEE ignoreras noduppsättningen och bara "
+"fältet Strength på ljusobjektet används."
+
+#. Manual context: registered glTF extension identifier, ../../manual/addons/scene_gltf2.rst:671, 694.
+msgid "``KHR_materials_dispersion``"
+msgstr "``KHR_materials_dispersion``"
+
+#. Manual context: registered glTF extension identifier, ../../manual/addons/scene_gltf2.rst:678, 699.
+msgid "``EXT_meshopt_compression``"
+msgstr "``EXT_meshopt_compression``"
+
+#. Manual context: registered glTF extension identifier, ../../manual/addons/scene_gltf2.rst:679, 700.
+msgid "``KHR_meshopt_compression``"
+msgstr "``KHR_meshopt_compression``"
+
+#. Manual context: registered glTF extension identifier, ../../manual/addons/scene_gltf2.rst:680, 701.
+msgid "``KHR_animation_pointer``"
+msgstr "``KHR_animation_pointer``"
+
+#. Manual context: glTF animation example, ../../manual/addons/scene_gltf2.rst:745.
+msgid ""
+"This is the `fox sample model <https://github.com/KhronosGroup/glTF-"
+"Sample-Models/tree/main/2.0/Fox>`__ showing its \"Run\" animation."
+msgstr ""
+"Det här är `rävexempelmodellen <https://github.com/KhronosGroup/glTF-Sample-"
+"Models/tree/main/2.0/Fox>`__ som visar sin \"Run\"-animation."
+
+#. Manual context: glTF action export, ../../manual/addons/scene_gltf2.rst:803.
+#. Current Blender UI translates Action Slot as åtgärdsslot.
+msgid ""
+"Before Blender 4.4, tracks were merged regarding their name. With Blender "
+"4.4, and the introduction of slotted actions, this default behavior has "
+"been changed. Now, tracks are merged by the action they are using, and "
+"not by their name. You can find more information about action slots in "
+":doc:`Animation </animation/actions>`."
+msgstr ""
+"Före Blender 4.4 sammanfogades spår efter namn. I Blender 4.4 ändrades "
+"standardbeteendet i och med införandet av åtgärder med slotar. Nu sammanfogas "
+"spår efter den åtgärd de använder, inte efter namn. Mer information om "
+"åtgärdsslotar finns i :doc:`Animation </animation/actions>`."
+
+#. Manual context: glTF animation extension, ../../manual/addons/scene_gltf2.rst:852.
+msgid "Animation Pointer"
+msgstr "Animationspekare"
+
+#. Manual context: glTF animation extension, ../../manual/addons/scene_gltf2.rst:854.
+msgid ""
+"Animation Pointer is a way to export some properties of a material, or a "
+"light, or a camera, as an animation. This is an experimental feature."
+msgstr ""
+"Animationspekare är ett sätt att exportera vissa egenskaper hos ett material, "
+"ett ljus eller en kamera som en animation. Funktionen är experimentell."
+
+#. Manual context: glTF animation extension, ../../manual/addons/scene_gltf2.rst:857.
+msgid ""
+"Custom Properties (extras in glTF) can be animated, but only for 1 "
+"composant data for now (float, int, bool)."
+msgstr ""
+"Anpassade egenskaper (extras i glTF) kan animeras, men för närvarande bara "
+"för data med en komponent (float, int, bool)."
