@@ -11,14 +11,14 @@ releasesidan listar även 5.2 LTS och 4.5 LTS som aktiva LTS-grenar. Källor:
 
 ## Lokal granskning
 
-Den generiska komponenten **Blender Manual** har 605 unika, radvis granskade
-svenska deltaöversättningar i batcherna 01–53. De har slagits ihop och
+Den generiska komponenten **Blender Manual** har 610 unika, radvis granskade
+svenska deltaöversättningar i batcherna 01–54. De har slagits ihop och
 delats i sex uppladdningskandidater om högst 100 meddelanden:
 
 | Kandidater | Antal meddelanden | Status |
 | --- | ---: | --- |
 | 01–06 | 100 per fil | Lokalt validerade, inte uppladdade |
-| 07 | 5 | Lokalt validerad, inte uppladdad |
+| 07 | 10 | Lokalt validerad, inte uppladdad |
 
 Råexporten i `exports/2026-11-04/` är oförändrad. Varje delta är kontrollerad
 med syntax-, språk-, terminologi- och hemlighetsskanning; dokumenterade
