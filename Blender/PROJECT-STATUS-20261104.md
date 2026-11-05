@@ -282,8 +282,9 @@ om underordnade ben och bensamlingar. Den normaliserar bland annat
 `B-Bone-segment`, `B-Bone-visningsbredd i X/Z` och `bensamlingar`.
 Deltafilen och termlistan har passerat `msgfmt`, l10n-lint, svlang, Hunspell,
 diffkontroll och Gitleaks; Hunspell-orden utgörs av B-Bone-namn och PO-metadata.
-Batchen är arkiverad lokalt och väntar på verifierad uppladdning till Blender
-Translate.
+Blender Translate bekräftade **8 bearbetade, 0 uppdaterade, 8 hoppade över och
+0 saknade**. Samtliga poster hade alltså redan samma eller nyare värden på
+servern.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
