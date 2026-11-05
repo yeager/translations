@@ -369,9 +369,9 @@ hoppade över och 0 saknade**.
 Batch 44 granskar de första inställningarna för kurvskulpteringspenslar.
 Den normaliserar bland annat kurvlängd, kurvradie, täthetspensel och
 avtagande längs kurvparametern, samt rättar den felaktiga UI-termen `Poäng per
-kurva`. Batchen är lokalt kontrollerad och väntar på arkivering och verifierad
-import. Svlangs V2-markeringar gäller avsiktligt korta UI-etiketter och
-imperativ, inte fullständiga satser.
+kurva`. Svlangs V2-markeringar gäller avsiktligt korta UI-etiketter och
+imperativ, inte fullständiga satser. Blender Translate bekräftade **18
+bearbetade, 13 uppdaterade, 5 hoppade över och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
