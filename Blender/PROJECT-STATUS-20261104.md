@@ -356,8 +356,8 @@ Batch 42 granskar egenskaperna för benfärger och deras paletter. Den rättar
 svensk ordföljd och kommatering, och använder det etablerade `i stället för`.
 Deltafilen med fyra poster samt arbetskatalogen har passerat `msgfmt`,
 l10n-lint, svlang, Hunspell, diffkontroll och Gitleaks. Svlangs enda träff
-gäller det avsiktligt bevarade API-värdet `CUSTOM`. Batchen är arkiverad och
-väntar på verifierad import i Blender Translate.
+gäller det avsiktligt bevarade API-värdet `CUSTOM`. Blender Translate
+bekräftade **4 bearbetade, 1 uppdaterad, 3 hoppade över och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
