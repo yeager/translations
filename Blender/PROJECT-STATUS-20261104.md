@@ -609,6 +609,11 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 och Blender-fackord. Batchen är lokalt validerad och arkiveras för import till
 Blender Translate; något importresultat finns ännu inte.
 
+Batch 135 granskar kurvkontrollpunkter, handtag, mjukkroppar och
+åtgärdsdatablock. Deltafilen innehåller 7 granskade UI-strängar. `msgfmt`,
+l10n-lint och diffkontroll passerar. Batchen är arkiverad för import till
+Blender Translate; något importresultat finns ännu inte.
+
 Batch 86 granskar 3D-visning, formnycklar och partikelinställningar i tre
 separata radintervall. Tre oberoende skrivskyddade delgranskningar har
 jämförts mot RNA-kontext och terminologilistan. Den lokalt validerade

@@ -501,6 +501,7 @@ Senast uppdaterad: 2026-11-05.
 | cage extrusion | bursextrudering | Avstånd som bygger ut en bakningsbur från det aktiva objektet. |
 | bake map | bakningskarta | Bild- eller attributdata som skapas genom att baka renderingsresultat. |
 | emission | emission | Ljus som materialet själv avger i renderingskontext. |
+| soft body | mjukkropp | Fysiksimulerad kroppstyp i Blender. |
 
 ## Kontrollerade UI-formuleringar
 
