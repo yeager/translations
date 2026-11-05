@@ -155,7 +155,9 @@ definierar `action.slots.active` som det faktiska Python-egenskapsnamnet, så
 det lämnas exakt oförändrat. Den svenska hjälptipsmeningen rättas däremot till
 `Anger om detta är den aktiva slotten och kan ställas in genom att tilldela
 action.slots.active` och följer den dokumenterade böjningen av *slot*.
-Lokal kvalitetssäkring är klar; importresultat fylls i efter uppladdningen.
+Lokal kvalitetssäkring är klar. Blender Translate bekräftade
+`blender-ui-sv-reviewed-20261105-20.po`: **1 bearbetad, 1 uppdaterad, 0
+hoppade över och 0 saknades**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
