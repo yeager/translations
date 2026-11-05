@@ -197,8 +197,9 @@ hoppade över och 0 saknades**.
 Batch 25 följer Blenders egen UI-term för *Wireframe*. Den synliga etiketten
 är `Trådram`, medan en hjälprad tidigare skrev `trådmodellläge`, med tre l i
 följd. I dess specifika lägeskontext blir `trådramsläget` både konsekvent med
-etiketten och språkriktigt. Lokal kvalitetssäkring är klar; importresultat
-fylls i efter uppladdningen.
+etiketten och språkriktigt. Lokal kvalitetssäkring är klar. Blender Translate
+bekräftade `blender-ui-sv-reviewed-20261105-25.po`: **1 bearbetad, 1
+uppdaterad, 0 hoppade över och 0 saknades**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
