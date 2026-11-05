@@ -746,3 +746,11 @@ RNA-kontext och terminologilistan. Den lokalt validerade deltafilen innehåller
 *tangentmappning*, *tangentmappningspost*, *musknapp* och *radmatning*.
 `msgfmt` och l10n-lint passerar. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
+
+Batch 97 granskar Freestyle-linjestilar, maskkurvor och Grease Pencil-material
+i tre separata radintervall. Tre oberoende delgranskningar har jämförts mot
+respektive RNA-kontext och terminologilistan. Den lokalt validerade deltafilen
+innehåller 50 säkra UI-strängar, bland annat *linjeuppsättning*,
+*maskens splinepunkter*, *planspår*, *avtagande* och *Grease Pencil-färg*.
+`msgfmt` och l10n-lint passerar. Batchen är lokalt validerad och arkiveras för
+import till Blender Translate; något importresultat finns ännu inte.

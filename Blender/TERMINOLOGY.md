@@ -375,6 +375,9 @@ Senast uppdaterad: 2026-11-05.
 | stroke (Freestyle) | streck | Freestyle-linjens synliga geometriska streck; inte *slag*. |
 | backbone (Freestyle stroke) | streckets ryggrad | Den centrala geometri som modifierarna påverkar. |
 | alpha transparency | alfagenomskinlighet | Freestyle-linjens transparens; undvik blandformen *alpha*. |
+| line set (Freestyle) | linjeuppsättning | Urval av Freestyle-linjer med egna stilparametrar. |
+| falloff (mask/proportional edit) | avtagande | Avser hur en effekt minskar med avståndet, inte *utfall*. |
+| plane track (motion tracking) | planspår | Spårad plan yta i kameraspårning, inte ett flygplan. |
 
 ## Kontrollerade UI-formuleringar
 
