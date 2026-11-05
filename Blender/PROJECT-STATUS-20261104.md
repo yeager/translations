@@ -96,6 +96,14 @@ Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 kontroller. Fortsatt UI-arbete ska därför ske i avgränsade, kontextstyrda
 delar och inte utifrån procenttalet ensamt.
 
+En helkatalogskörning den 5 november med `l10n-lint` gav 1 132 träffar.
+Genomgången visar att merparten är förväntade produktnamn, formatnamn,
+kodidentifierare, standardskrivning och tekniska sammansättningar. De får inte
+massändras. Samma export gav `svlang check` en missvisande katalogpoäng, eftersom
+verktyget behandlar varje kort UI-etikett och varje PO-huvudrad som löpande
+prosa. Den riktade kontrollen av Batch 11 gav däremot 10,0 av 10 för naturlig
+svenska; `msgfmt`, l10n-lint, Hunspell, diffkontroll och Gitleaks passerade.
+
 ### Blender Manual
 
 Den 5 november 2026 importerades den samlade filen
