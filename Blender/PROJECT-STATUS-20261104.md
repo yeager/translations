@@ -267,6 +267,15 @@ och tydliga X-/Z-axelhandtag utan att ändra det synliga Blender-namnet
 l10n-lint, Hunspell, diffkontroll och Gitleaks. Blender Translate bekräftade
 **6 bearbetade, 6 uppdaterade, 0 hoppade över och 0 saknade**.
 
+Batch 33 fortsätter med B-Bonens mappningsläge, rullning och skalning.
+Reglernas svenska text använder `Böjd`, `inrullning`, `utrullning` och
+`rullningsförskjutning`, medan B-Bone behålls som det synliga Blender-namnet.
+Deltafilen och terminologin har passerat `msgfmt`, l10n-lint, Hunspell,
+diffkontroll och Gitleaks. `svlang` flaggar B-Bone- och vilopos-ord samt
+bisatsernas verbföljd, men dessa är manuellt bedömda som korrekta i den
+tekniska UI-kontexten. Batchen är arkiverad lokalt och väntar på verifierad
+uppladdning till Blender Translate.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade

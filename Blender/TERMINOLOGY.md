@@ -144,6 +144,7 @@ Senast uppdaterad: 2026-11-05.
 | pivot | vridpunkt | Roterande delars tekniska centrum i riggning; använd till exempel *ögats vridpunkt*. |
 | merge point | sammanfogningspunkt | Delad punkt där två eller flera bens huvud eller svans överlappar. |
 | bone roll | benrullning | Etablerad svensk UI-term för ett bens rotationsriktning kring längdaxeln. |
+| B-Bone Roll In / Roll Out | inrullning / utrullning | Reglerar B-Bonens rullning i början respektive slutet. Hjälptexterna använder *rullningsförskjutning*. |
 | feature set | funktionsuppsättning | Rigify-undertillägg som tillhandahåller metariggar eller riggtyper. |
 | rig type | riggtyp | Typdefinition som bestämmer hur Rigify genererar en viss del av en rigg. |
 | rig sample | riggprov | Fördefinierad Rigify-del som läggs till i en armatur eller metarigg som utgångspunkt. |
