@@ -452,8 +452,9 @@ Deltafilen är lokalt validerad och arkiverad. Blender Translate bekräftade
 
 Batch 57 granskar kamera- och objektspårning samt IK-begränsningars tydliga
 etiketter. Den rättar bland annat en omvänd villkorssats, X/Y/Z-positioner,
-filmklippskontext och `IK-typ`. Deltafilen är lokalt validerad och väntar på
-arkivering och verifierad import.
+filmklippskontext och `IK-typ`. Deltafilen är lokalt validerad och arkiverad.
+Blender Translate bekräftade **9
+bearbetade, 3 uppdaterade, 6 hoppade över och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
