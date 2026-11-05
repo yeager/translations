@@ -120,6 +120,11 @@ Senast uppdaterad: 2026-11-05.
 | endpoint selection | ändpunktsurval | Urval av ett antal ändpunkter per spline. |
 | face corner | ythörn | Meshens hörn som hör till en specifik yta. Skilj från en delad hörnpunkt. |
 | grid volume | volymrutnät | Rutnät i en volym, exempelvis för punktdistribution. |
+| Fillet Curve | Avrunda kurva | Kurvnod som skapar cirkelbågar vid hörn; *filé* är fel betydelse i svensk UI-text. |
+| mesh vertex / vertex | mesh-hörnpunkt / hörnpunkt | Använd *hörnpunkt* i meshgeometri. Behåll *mesh* när Blender-datatypen behöver anges. |
+| vertex neighbors / face group boundaries | hörnpunktsgrannar / ytgruppsgränser | Noder som hämtar topologiska grannar respektive kanter mellan ytgrupper. Sammansättningarna är avsiktliga. |
+| Geometry Proximity | Geometrisk närhet | Nod som beräknar närmaste position på en målgeometri. |
+| gizmo | gizmo | Etablerat Blender-UI-namn. Skriv sammansatt: *transformationsgizmo*. |
 | reroute | omdirigering | Blenders nod och Node Wrangler-funktion. Sammanfoga som *omdirigeringsnod*. |
 | Detach Outputs | Koppla bort utgångar | Node Wrangler-operatör. Använd *utdata* i förklarande text. |
 | Relative Path | Relativ sökväg | Synlig filsökvägsinställning. |

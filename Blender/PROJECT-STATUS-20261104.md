@@ -705,6 +705,19 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 119 granskar geometri-, mesh- och volymnoder i tre separata
+radintervall. Tre oberoende genomgångar har kontrollerats mot nodernas
+RNA-kontext, Blender-TBX och den befintliga UI-terminologin. Den lokala
+deltafilen `blender-ui-sv-reviewed-20261105-119.po` innehåller 96 granskade
+UI-strängar, bland annat *avrunda kurva*, *rutnät till mesh*,
+*instansgränser*, *hörnpunktsgrannar*, *ythörn*, *volymrutnät* och
+*geometrisk närhet*. `msgfmt`, `l10n-lint`, diffkontroll och Gitleaks
+passerar. Hunspell markerar enbart de avsiktliga och dokumenterade
+sammansättningarna *hörnpunktsgrannar* och *ytgruppsgränser*. `svlang` ger
+enbart väntade heuristiska träffar för korta facktermer, imperativ och
+nominella noder. Filen är lokalt validerad och arkiverad men väntar på
+importresultat från Blender Translate.
+
 Batch 118 granskar geometri- och kurvnoder i tre separata radintervall. Tre
 oberoende genomgångar har kontrollerats mot nodernas RNA-kontext, mesh- och
 kurvterminologin samt befintlig Blender-TBX. Den lokala deltafilen
