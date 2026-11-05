@@ -71,6 +71,13 @@ med `fjärranslutet resursbibliotek`, så att varken trippelkonsonanten i
 kvar i denna kontext. `blender-ui-sv-reviewed-20261105-08.po` importerades
 med resultatet **3 bearbetade, 3 uppdaterade, 0 hoppade över och 0 saknades**.
 
+Efter språkgranskning av Batch 08 ersatte Batch 09 den onödigt täta
+sammansättningen *nedladdningscachekatalogen* med `Cachekatalogen för
+nedladdningar från fjärranslutna resursbibliotek`. Denna form är tydligare i
+systeminställningens kontext. `blender-ui-sv-reviewed-20261105-09.po`
+importerades med resultatet **1 bearbetad, 1 uppdaterad, 0 hoppade över och 0
+saknades**.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
