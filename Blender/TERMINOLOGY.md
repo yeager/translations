@@ -165,6 +165,7 @@ Senast uppdaterad: 2026-11-05.
 | scale easing | skalutjämning | B-Bone-inställning som skalar de slutliga utjämningsvärdena med Y-faktorerna för Skala in/ut. |
 | library override | biblioteksöverskrivning | Lokal ändring av länkat biblioteksmaterial i aktuell Blender-fil. |
 | effective visibility | effektiv synlighet | Synlighet som beror på både bensamlingen och alla dess överordnade samlingar. |
+| selection set | urvalsuppsättning | Rigify-inställning som samlar ben för ett styrt urval. |
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
 | Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
 | target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
