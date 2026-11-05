@@ -689,4 +689,7 @@ lokalt validerade deltafilen innehåller 70 säkra UI-strängar, bland annat
 passerar. Hunspell-träffarna är kontrollerade Blender-sammansättningar;
 svlang-träffarna är förväntade korta UI-etiketter och Blender-fackord.
 Batchen är lokalt validerad och arkiveras för import till Blender Translate;
-något importresultat finns ännu inte.
+något importresultat finns ännu inte. Den 5 november stoppade Cloudflare
+Blender Translates API-filändpunkt före autentisering med HTTP 403 och en
+challenge-sida. Deltafilen är därför inte felaktigt markerad som uppladdad;
+den väntar på import via den redan inloggade webbläsaren.
