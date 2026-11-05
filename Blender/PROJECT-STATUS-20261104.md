@@ -705,6 +705,16 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 124 granskar Blender API:ts noduttag, nodträdsgränssnitt och
+geometrinodernas bakningsinställningar. Tre oberoende delgranskningar har
+jämförts med RNA-kontexten. Den lokalt validerade deltafilen innehåller 88
+granskade UI-strängar, bland annat *noduttag*, *noduttagsgränssnitt*,
+*indata*, *utdata*, *bildruteintervall* och *datablock*. `msgfmt`,
+`l10n-lint` och diffkontroll passerar. Hunspell- och svlang-träffarna gäller
+avsiktliga Blender-sammansättningar och korta UI-etiketter; inga språkfel
+hittades. Batchen är arkiverad för import till Blender Translate; något
+importresultat finns ännu inte.
+
 Batch 123 granskar vektormatematik, vågtexturer och nodgränssnitt i tre
 separata radintervall. Tre oberoende genomgångar har kontrollerats mot
 Blender-nodernas RNA-kontext och den projektspecifika terminologin. Den

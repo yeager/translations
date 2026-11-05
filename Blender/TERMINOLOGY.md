@@ -455,6 +455,15 @@ Senast uppdaterad: 2026-11-05.
 | Grease Pencil stroke | Grease Pencil-streck | Synlig ritad linje i Grease Pencil, inte *slag* eller *stroke*. |
 | bevel modifier | avfasningsmodifierare | Modifierare som rundar av meshens kanter och hörnpunkter. |
 
+| node socket | noduttag | Anslutningspunkt för in- eller utdata i en Blendernod. |
+| node socket interface | noduttagsgränssnitt | Deklarationen som styr noduttag i en nodgrupp. |
+| node tree interface item | nodträdsgränssnittselement | Gemensam term för ett uttag eller en panel i nodträdets gränssnitt. |
+| node tree path | nodträdssökväg | Sökväg genom den redigerade nodträdshierarkin. |
+| input/output | indata/utdata | Använd i teknisk nodkontext; undvik engelska *input/output*. |
+| bake (Geometry Nodes) | baka/bakning | Beräknar och sparar data för en bildruta eller ett intervall; inte matlagning. |
+| frame range (animation) | bildruteintervall | Sammanhängande intervall av animeringsbildrutor. |
+| data-block | datablock | Blenders interna dataenhet; skriv sammansatt utan bindestreck. |
+
 ## Kontrollerade UI-formuleringar
 
 | Engelska | Svenska |
