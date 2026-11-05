@@ -104,6 +104,15 @@ fillistan. `blender-ui-sv-reviewed-20261105-13.po` ändrar den till
 `Rensa listan över senaste projekt`. Blender Translate bekräftade **1
 bearbetad, 1 uppdaterad, 0 hoppade över och 0 saknades**.
 
+Batch 14 rättade det interna tangentbindningsnamnet för färggradientpipettens
+punktprovtagning. Källans `eyedropper_colorband.cc` visar att läget samplar
+enskilda punkter till en färggradient. Därför ersätter
+`blender-ui-sv-reviewed-20261105-14.po` den felstavade och oklara formen
+`Mappning för punktsamplig med färggradients-pipett` med
+`Modal mappning för punktprovtagning med färggradients-pipett`. Blender
+Translate bekräftade **1 bearbetad, 1 uppdaterad, 0 hoppade över och 0
+saknades**.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
