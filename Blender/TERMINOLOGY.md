@@ -154,6 +154,8 @@ Senast uppdaterad: 2026-11-05.
 | B-Bone handle offset | förskjutning av axelhandtaget | I riggningshjälptexter: *Förskjutning av X-axelhandtaget vid början av B-Bone-kurvan*. Behåll B-Bone som Blenders kortnamn. |
 | B-Bone segment | B-Bone-segment | UI-egenskap för B-Bonens underindelning. Bindestrecket håller produktnamnet och den svenska efterleden läsbara. |
 | bone collection | bensamling | Blender-samling för ben; skriv ihop i synlig UI-text. |
+| Envelope deform | kuvertdeformering | Deformeringsmetoden som använder benens kuvertvolymer; använd i Bens/Armaturens egenskaper. |
+| armature-relative | relativt riggskelett | Position eller orientering uttryckt i armaturens lokala koordinatsystem. |
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
 | Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
 | target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
