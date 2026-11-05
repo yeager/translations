@@ -1151,3 +1151,11 @@ De berörda posterna är lokalt markerade som översatta och deltafilen saknar
 `fuzzy`-markeringar. `msgfmt`, l10n-lint och diffkontroll passerar. Batchen
 är arkiverad för import i Blender Translate; något importresultat finns ännu
 inte.
+
+Batch 144 granskar 10 strängar för Curves Sculpt och Grease Pencil. Den
+normaliserar bland annat *kurvskulpteringspensel*, *täthetsläge*,
+*täthetspensel*, *Grease Pencil-pensel* och enhetlig skalning. Tre oberoende
+granskningar har använts. De berörda posterna är lokalt markerade som
+översatta och deltafilen saknar `fuzzy`-markeringar. `msgfmt`, l10n-lint och
+diffkontroll passerar. Batchen är arkiverad för import i Blender Translate;
+något importresultat finns ännu inte.
