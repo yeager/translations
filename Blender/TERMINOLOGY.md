@@ -338,6 +338,7 @@ Senast uppdaterad: 2026-11-05.
 | weight paint | viktmålning | Målningsläge som tilldelar vikter till meshens hörnpunkter. |
 | curve parameter falloff | avtagande längs kurvparametern | Gradvis förändring av en kurvpensels verkan från spetsen till roten. |
 | curve radius | kurvradie | Radien för en kurva som skapas eller påverkas av kurvpenseln. |
+| Curves Sculpt brush | kurvskulpteringspensel | Pensel i Curves Sculpt-läget; använd sammansättningen i inställningsrubriker. |
 | Density brush | täthetspensel | Kurvskulpteringspensel som lägger till eller tar bort kurvor utifrån deras minimiavstånd. |
 | scale uniform | skala jämnt | Ändrar kurvors storlek jämnt i stället för att trimma eller extrapolera dem. |
 | Vertex Color | hörnpunktsfärg | Färgdata som lagras per hörnpunkt; översätt både UI-läget och den förklarande texten. |
