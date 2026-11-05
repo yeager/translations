@@ -19,6 +19,10 @@ Senast uppdaterad: 2026-11-04.
 | Resolution Scale | upplösningsskala | Etablerad UI-term för skalan av teckensnitt och knappar vid visning. |
 | File Browser | filbläddrare | UI-beteckning för den editor som öppnar och sparar filer. Anpassa bestämd form i löpande text. |
 | Maximize Area | Maximera område | Operatörsnamn. *Område* avser här ett Blender-area, inte ett skärmområde i allmän mening. |
+| 3D Viewport | 3D-vyport | Etablerad UI- och manualterm. |
+| Timecode Style | tidskodstil | Inställning som bestämmer hur uppspelningens varaktighet visas. |
+| System Memory | systemminne | UI-rubrik för uppskattad RAM-användning. |
+| New Data | Nya data | Gäller nya Blender-datablock; inte *nya uppgifter*. |
 | add-on / extension | tillägg | I Blender betecknar båda källtermerna samma utbyggbara funktion. Svenska använder samma form i singular och plural i korta UI-etiketter. I dokumentation som måste skilja undergruppen *add-ons* från samlingsnamnet *extensions* kan *tilläggsmoduler* användas för just undergruppen. |
 | data-block | datablock | Skriv ihop. Behåll bindestrecket bara i bokstavliga API-namn. |
 | object | objekt | Etablerad Blender-term. |

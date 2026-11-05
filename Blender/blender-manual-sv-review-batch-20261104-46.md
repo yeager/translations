@@ -32,3 +32,10 @@ formen *3D-vyport*.
 
 Råexporten är orörd. Deltafilen ingår i nästa körning av den reproducerbara
 generatorn för Weblate-batcher med högst 100 poster per fil.
+
+## Terminologisk efterkontroll 5 november
+
+Den aktuella UI-katalogen bekräftar **Samling**, **Aktivt objekt**,
+**3D-vyport**, **Tidskodstil**, **Systemminne** och **Nya data**. I den
+sistnämnda etiketten avser *data* Blenders nya datablock, vilket motiverar
+formen **Nya data** i stället för det vardagliga *nya uppgifter*.
