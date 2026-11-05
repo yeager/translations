@@ -14,6 +14,11 @@ Fyra Outliner-poster har korrigerats:
 - `3D Viewport` följer Blender UI-katalogens term *3D-vyport*.
 - Båda RST-destinationerna och avskiljaren `--` har bevarats exakt.
 
+UI- och minneskontrollen den 5 november bekräftar *3D-vyport* och
+*objektdata*. `Outliner` är däremot ett etablerat produktnamn i manualen och
+behålls därför oöversatt. Dokumentationens singularform *länkad dubblett*
+ska inte ersättas av den synliga pluraloperatörens UI-form.
+
 ## Kontroller
 
 - `msgfmt --check --statistics`: 4 översatta meddelanden, godkänd syntax.

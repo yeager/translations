@@ -59,6 +59,8 @@ Senast uppdaterad: 2026-11-05.
 | Dope Sheet | Dopeblad | UI-namn. Använd bestämd form i löpande text: *i dopebladet*. |
 | Action Editor | åtgärdsredigerare | UI-namn; *åtgärdsredigeraren* i löpande text. |
 | Value Slider | värdereglage | UI-term för ett specifikt reglage. Behåll *skjutreglage* för den generella regionen och etiketten *Show Sliders*. |
+| Outliner | Outliner | Etablerat produktnamn i Blender-manualen. Behåll det på engelska; böj vid behov som *i Outliner*. |
+| linked duplicate | länkad dubblett | Dokumentationens singularform för ett nytt objekt som delar samma objektdata. Den synliga pluraloperatören *Linked Duplicate* kan ha en egen UI-form. |
 | parenting | föräldrarelation | Beskriver relationen mellan objekt eller ben. Använd inte *överordning* när det är själva relationsslaget som avses. |
 | bone roll | benrullning | Etablerad svensk UI-term för ett bens rotationsriktning kring längdaxeln. |
 | rest pose | viloposition | Använd i förklarande armaturtext. Bevara RST-termmål som `<rest pose>`. |
