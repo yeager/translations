@@ -418,6 +418,11 @@ kontrollerats både mot den exakta RNA-kontexten och oberoende delgranskningar.
 Blender Translate bekräftade **20 bearbetade, 11 uppdaterade, 9 hoppade över
 och 0 saknade**.
 
+Batch 52 granskar de följande tyg- och samlingsraderna. Den normaliserar
+hörnpunktsgrupper, voxelrutnät och lösarresultat samt rättar den hierarkiska
+termen *underordnad samling*. Batchen är lokalt validerad och inväntar
+arkivering och verifierad import.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
