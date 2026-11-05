@@ -62,7 +62,6 @@ Senast uppdaterad: 2026-11-05.
 | Outliner | Outliner | Etablerat produktnamn i Blender-manualen. Behåll det på engelska; böj vid behov som *i Outliner*. |
 | linked duplicate | länkad dubblett | Dokumentationens singularform för ett nytt objekt som delar samma objektdata. Den synliga pluraloperatören *Linked Duplicate* kan ha en egen UI-form. |
 | parenting | föräldrarelation / överordnad relation | Beskriver relationen mellan objekt eller ben. Använd *föräldrarelation* i förklarande dokumentation; följ den exakta UI-kontexten för menyåtgärder som *Rensa överordnad*. |
-| bone roll | benrullning | Etablerad svensk UI-term för ett bens rotationsriktning kring längdaxeln. |
 | rest pose | viloposition | Använd i förklarande armaturtext. Bevara RST-termmål som `<rest pose>`. |
 | duplicate and rename | Duplicera och byt namn | Operatör för kopiering av ben med efterföljande namnbyte. |
 | working plane | arbetsplan | Etablerad term i Blenders TBX-ordlista. |
@@ -127,6 +126,11 @@ Senast uppdaterad: 2026-11-05.
 | automatic weights | automatiska vikter | Viktmålningsmetod för att koppla meshens hörnpunkter till armaturens ben. |
 | widget | widget | Rigifys redigerbara kontrollobjekt. I sammansättning används *widgetobjekt*, *widgetsamling* och *widgetmesh*. |
 | library linking | bibliotekslänkning | Länkning av datablock eller samlingar från en annan Blender-fil. |
+| pivot | vridpunkt | Roterande delars tekniska centrum i riggning; använd till exempel *ögats vridpunkt*. |
+| merge point | sammanfogningspunkt | Delad punkt där två eller flera bens huvud eller svans överlappar. |
+| bone roll | benrullning | Etablerad svensk UI-term för ett bens rotationsriktning kring längdaxeln. |
+| feature set | funktionsuppsättning | Rigify-undertillägg som tillhandahåller metariggar eller riggtyper. |
+| rig type | riggtyp | Typdefinition som bestämmer hur Rigify genererar en viss del av en rigg. |
 | AOV | AOV / godtyckliga utgångsvariabler | Behåll den korta UI-etiketten *AOV*. I förklarande terminologi används TBX-formen *godtyckliga utgångsvariabler*. |
 
 ## Namn, format och kod
