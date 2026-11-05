@@ -103,6 +103,16 @@ Senast uppdaterad: 2026-11-05.
 | Alpha Over | Alfa över | Synligt Blender-nodnamn. Som sammansättning: *Alfa över-nod*; Node Wranglers meny använder *alfa-över-noder*. |
 | Batch Change | Batchändring / batchändra | Menyetiketten är *Batchändring*. Använd verbformen *batchändra* för en åtgärd, exempelvis en rubrik. |
 | Compositor | Kompositör | Synligt Blender-namn för nodredigeraren. Använd *kompositören* i löpande text. |
+| tone mapping / Tonemap | tonmappning | Bildbehandling som anpassar tonomfång. Etiketten *Tonemap Type* blir *Tonmappningstyp*. |
+| movie tracking frame | bildruta | I filmspårning avser *frame* en bildruta, inte en fysisk ram. |
+| track position | spårposition | Position från en filmspårningspunkt. Skilj från ett spårs plats i tidslinjen. |
+| geometric translation / Translate | förskjutning / förskjut | Geometrisk bild- eller koordinatförflyttning; inte språklig översättning. |
+| Function Node | funktionsnod | Nod som utför en matematisk, logisk eller geometrisk funktion. |
+| input type / input value | indatatyp / indatavärde | I nodsammanhang avser *input* ett indatauttag eller dess värde. |
+| float | flyttal | Numerisk datatyp. Skriv exempelvis *avrunda flyttalet uppåt*. |
+| integer math | heltalsmatematik | Matematiska operationer på heltal. |
+| matrix determinant | matrisdeterminant | Determinanten för en matris. |
+| greatest common divisor | största gemensamma delare | Matematikterm; förkorta bara till GCD där UI:t behöver den engelska akronymen. |
 | reroute | omdirigering | Blenders nod och Node Wrangler-funktion. Sammanfoga som *omdirigeringsnod*. |
 | Detach Outputs | Koppla bort utgångar | Node Wrangler-operatör. Använd *utdata* i förklarande text. |
 | Relative Path | Relativ sökväg | Synlig filsökvägsinställning. |

@@ -705,6 +705,18 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 117 granskar tonmappning, filmspårning och funktionsnoder för logik,
+heltal och matriser i tre separata radintervall. Tre oberoende genomgångar
+har sedan kontrollerats mot UI-sammanhanget och Blender-terminologin. Den
+lokala deltafilen `blender-ui-sv-reviewed-20261105-117.po` innehåller 60
+granskade UI-strängar, bland annat *tonmappning*, *spårposition*,
+*bildruta*, *förskjutning*, *funktionsnod*, *flyttal*, *heltalsmatematik*
+och *matrisdeterminant*. `msgfmt`, `l10n-lint`, Hunspell, diffkontroll och
+Gitleaks passerar; `svlang` ger endast väntade heuristiska träffar på korta
+UI-etiketter, facktermer och satser som inleds med *Sant när*. Filen är
+lokalt validerad och arkiverad men väntar på importresultat från Blender
+Translate.
+
 Batch 116 granskar matematik-, filutdata- och kompositörsnoder i tre separata
 radintervall. Tre oberoende delgranskningar har jämförts mot RNA-kontext och
 terminologilistan. Den lokalt validerade deltafilen innehåller 54 säkra
