@@ -153,6 +153,8 @@ Senast uppdaterad: 2026-11-05.
 | curve spline | kurvspline | Spline som hör till en kurva; plural *kurvsplines*. |
 | view layer | visningslager | Blender-datalager som bestämmer vilka samlingar och objekt som är synliga vid utvärdering och rendering. |
 | dependency graph | beroendegraf | Blenders graf över datablock och deras beroenden vid utvärdering. |
+| data path | datasökväg | RNA-sökväg till en egenskap; behåll Python-identifierare och bokstavliga sökvägsuttryck oförändrade. |
+| transform space | transformationsrymd | Koordinatrymd som används för positions-, rotations- eller skaltransformering. |
 | clipping plane | klippningsplan | Etablerad svensk CAD-/grafikterm. Använd inte *klippplan*, eftersom den formen får tre p i följd. |
 | wireframe | trådram | Befintligt svenskt Blender-UI-namn. Skriv *trådramsläge* för *wireframe mode*. |
 | shape key | formnyckel | Etablerad term i Blenders TBX-ordlista och UI. |
