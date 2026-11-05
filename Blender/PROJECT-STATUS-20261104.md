@@ -26,6 +26,24 @@ undantag gäller endast RST-markup, produktnamn och tekniska termer.
 
 ## Upstreamstatus
 
+### Blender UI
+
+Den 5 november 2026 skickades den lokala deltafilen
+`blender-ui-sv-reviewed-20261105-01.po` till komponenten **Blender UI / UI /
+svenska** via Blender Translate. Filen innehåller 13 radvis granskade
+korrigeringar från batcherna 01--03. Importen gjordes i läget *Lägg till som
+översättning*, med översatta poster godkända vid importen. Blender Translate
+bekräftade resultatet: **13 bearbetade, 13 uppdaterade, 0 hoppade över och 0
+saknades**.
+
+Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
+översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
+18 403 strängar med förslag och 638 översatta strängar med avfärdade
+kontroller. Fortsatt UI-arbete ska därför ske i avgränsade, kontextstyrda
+delar och inte utifrån procenttalet ensamt.
+
+### Blender Manual
+
 Den 5 november 2026 importerades den samlade filen
 `upload-candidates/2026-11-04/blender-manual-sv-reviewed-all.po` till den
 generiska Manual-komponenten via Blender Translate. Historiken bekräftar
