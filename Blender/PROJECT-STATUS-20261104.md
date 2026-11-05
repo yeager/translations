@@ -431,6 +431,11 @@ bearbetade, 3 uppdaterade, 4 hoppade över och 3 saknade**. De saknade
 katalogposterna var `Display Device`, `Display device name` och `View
 Transform`; servern har inte längre motsvarande källsträngar.
 
+Batch 54 granskar färgrampsredigeringens konkreta UI-rader. Den rättar en
+felaktigt delad sammansättning, en uppenbart förvanskad HSV-översättning, en
+felaktig interpolationsterm och böjningen i hjälptipsen för färgstopp. Den
+avgränsade deltafilen är lokalt validerad och väntar på verifierad import.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
