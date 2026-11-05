@@ -123,7 +123,7 @@ Senast uppdaterad: 2026-11-05.
 | keyframe | nyckelbildruta | Använd i svensk förklarande text; ändra inte API-namn. |
 | F-Curve | F-kurva | Behåll initialen och använd svenskt ord efter bindestrecket. |
 | action | åtgärd | Animeringsdata i Blender. Behåll *Action* i formella datatyp- eller API-namn. |
-| slot | slot | Etablerat i den aktuella Blender-dokumentationen och UI-kontexten. |
+| slot | slot | Etablerat i den aktuella Blender-dokumentationen och UI-kontexten. Böj som *en slot*, *slotten*, *slotar* och *slotarnas*. |
 | shape key | formnyckel | Etablerad term i Blenders TBX-ordlista och UI. |
 | rig | rigg | Riggningens styrstruktur för en armatur. Behåll den svenska facktermen i löpande dokumentation. |
 | meta-rig | metarigg | Rigifys förenklade armatur som används för att generera den färdiga riggen. Skriv ihop på svenska. |

@@ -150,6 +150,13 @@ kvalitetssäkring är klar. Blender Translate bekräftade
 `blender-ui-sv-reviewed-20261105-19.po`: **4 bearbetade, 4 uppdaterade, 0
 hoppade över och 0 saknades**.
 
+Batch 20 rättar API-hjälptexten för `ActionSlot.active`. Blender-källan
+definierar `action.slots.active` som det faktiska Python-egenskapsnamnet, så
+det lämnas exakt oförändrat. Den svenska hjälptipsmeningen rättas däremot till
+`Anger om detta är den aktiva slotten och kan ställas in genom att tilldela
+action.slots.active` och följer den dokumenterade böjningen av *slot*.
+Lokal kvalitetssäkring är klar; importresultat fylls i efter uppladdningen.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
