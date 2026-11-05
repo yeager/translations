@@ -13,6 +13,10 @@ packning av länkade resurser samt relativa sökvägar.
 `Drivers` följer UI-katalogen som *drivrutiner*. Termerna *resursbibliotek*,
 *länkad* och *tillagd* används konsekvent med de föregående batcherna.
 
+UI-exporten bekräftar den 5 november att importmetoden `Append` är *Lägg
+till*. Den beskrivande formen *tillagd kopia* är därför korrekt här, medan
+*länkade data*, *Packa* och *Relativ sökväg* följer de aktuella UI-termerna.
+
 ## Kontroller
 
 - `msgfmt --check --statistics`: 8 översatta meddelanden, godkänd syntax.

@@ -49,6 +49,7 @@ Senast uppdaterad: 2026-11-05.
 | extension repository | tilläggsförråd | Manualens etablerade term för Blenders paketkälla. Använd *fjärrförråd*, *användarförråd* och *systemförråd* när attributet är betydelsebärande. Behåll kommandon som `repo-info` exakt. |
 | Allow Online Access | Tillåt nätåtkomst | Etiketten i den aktuella UI-katalogen. Varianten *Tillåt onlineåtkomst* finns i ett separat operator-sammanhang; normalisera inte den utan att kontrollera kontexten. |
 | timeout | tidsgräns | Exempel: *Animation Timeout* → *Animationstidsgräns*. |
+| Append | Lägg till | UI-operator och importmetod. I beskrivande text blir det participiala *tillagd*, exempelvis *tillagd kopia*. |
 | linked | länkad | Exempel: *linked object* → *länkat objekt*. |
 | packed | packad | Exempel: *packed data-block* → *packat datablock*. |
 | parent | förälder | Blender-hierarki, exempelvis *Parent* → *Förälder*. |
