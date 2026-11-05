@@ -1011,3 +1011,14 @@ Blenders RNA- och operatorcontext. Den lokalt validerade deltafilen innehåller
 svlang-träffarna gäller avsiktliga Blender-sammansättningar, formatnamn och
 korta UI-etiketter; inga språkfel hittades. Batchen är arkiverad för import
 till Blender Translate; något importresultat finns ännu inte.
+
+Batch 126 granskar nod-, objekt-, tangentmappnings-, renderings- och
+fysikoperatorer i tre separata radintervall. Tre oberoende delgranskningar har
+jämförts mot Blender API- och UI-kontexten. Den lokalt validerade deltafilen
+innehåller 79 granskade UI-strängar, bland annat *geometrinodgrupp*,
+*tangentmappningspost*, *styv kropp*, *bildruteintervall* och
+*Grease Pencil-penselförinställning*. `msgfmt`, l10n-lint och diffkontroll
+passerar. Hunspell- och svlang-träffarna gäller avsiktliga Blender-
+sammansättningar och korta UI-etiketter; inga språkfel hittades. Batchen är
+arkiverad för import till Blender Translate; något importresultat finns ännu
+inte.

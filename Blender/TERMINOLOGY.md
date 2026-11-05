@@ -468,6 +468,10 @@ Senast uppdaterad: 2026-11-05.
 | Empty (object type) | tomt objekt | Blenderobjekt utan egen renderad geometri; skilj från en tom bild. |
 | image empty | bildtomobjekt | Tomt objekt som visar en referensbild; en teknisk sammansättning i UI:t. |
 | mesh plane | meshplan | Plan yta skapad som mesh; behåll *mesh* som Blender-datatyp. |
+| rigid body | styv kropp | Fysiksimuleringens kroppstyp i Blender. |
+| integrator | integrator | Renderingsalgoritm i Cycles; använd svensk böjning i sammansättningar. |
+| Geometry Node Group | geometrinodgrupp | Nodgrupp som utvärderar geometri i Blender. |
+| Geometry Node Modifier | geometrinodmodifierare | Modifierare som utvärderar en geometrinodgrupp. |
 
 ## Kontrollerade UI-formuleringar
 
