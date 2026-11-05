@@ -394,8 +394,10 @@ korta UI-beskrivningar med underordnade satser.
 Batch 48 granskar Grease Pencil-inställningar för tryck, material, slumpning
 och hörnpunktsfärg. Förslagen från parallella delgranskningar har jämförts med
 de exakta Blender-källkommentarerna innan de införts; breda delade poster som
-`Stroke` lämnas orörda. Batchen är lokalt kontrollerad och inväntar arkivering
-och verifierad import.
+`Stroke` lämnas orörda. Blender Translate bekräftade **22 bearbetade, 13
+uppdaterade, 6 hoppade över och 3 saknade**. De saknade posterna var de tre
+kontextspecifika hjälptexterna för hörnpunktsfärgens lägen; servern rapporterade
+att deras källsträngar inte längre finns, så de har inte ersatts mekaniskt.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
