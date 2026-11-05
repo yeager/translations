@@ -391,6 +391,12 @@ streckkollision. Blender Translate bekräftade **19 bearbetade, 16
 uppdaterade, 3 hoppade över och 0 saknade**. Svlangs V2-markeringar gäller
 korta UI-beskrivningar med underordnade satser.
 
+Batch 48 granskar Grease Pencil-inställningar för tryck, material, slumpning
+och hörnpunktsfärg. Förslagen från parallella delgranskningar har jämförts med
+de exakta Blender-källkommentarerna innan de införts; breda delade poster som
+`Stroke` lämnas orörda. Batchen är lokalt kontrollerad och inväntar arkivering
+och verifierad import.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade

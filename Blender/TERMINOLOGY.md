@@ -191,6 +191,11 @@ Senast uppdaterad: 2026-11-05.
 | subdivision steps | underindelningssteg | Antal gånger Grease Pencil-streck delas upp för att bli mindre taggiga. |
 | pin mode | fäst läge | Låser ett valt ritläge till den aktuella penseln. |
 | stroke collision | streckkollision | Kontrollerar om förlängda Grease Pencil-streck kolliderar med andra streck. |
+| pressure jitter | tryckslumpning | Gör penselns slumpvariation beroende av ritplattans tryck. |
+| pin material | fäst material | Behåller det material som är tilldelat Grease Pencil-penseln. |
+| stroke random | slumpning per streck | Slumpvariation som beräknas på Grease Pencil-strecknivå. |
+| UV random | UV-slumpning | Slumpvariation för automatiskt skapad UV-rotation. |
+| vertex color factor | hörnpunktsfärgfaktor | Faktor som blandar hörnpunktsfärg till Grease Pencil-streckets eller fyllningens slutliga färg. |
 | Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
 | target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
 | default frame | standardbildruta | Bildruta som motsvarar transformationskanalens neutrala värde. |
