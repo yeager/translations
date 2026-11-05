@@ -20,6 +20,10 @@ En efterkontroll mot UI-exporten den 5 november bekräftade den exakta
 etiketten *Numeriska inmatningspilar*, som används i batchen i stället för en
 fri omskrivning.
 
+Samma kontroll rättade *Close Menu on Leave* till den exakta aktuella
+UI-etiketten *Stäng meny när muspekaren lämnar den*. Formuleringen utan
+bestämd artikel är avsiktlig eftersom den följer den synliga Blender-texten.
+
 ## Kontroller
 
 - `msgfmt --check --statistics`: 17 översatta meddelanden och godkänd syntax.
