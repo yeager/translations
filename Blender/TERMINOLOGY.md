@@ -72,6 +72,7 @@ Senast uppdaterad: 2026-11-05.
 | Subpixel Anti-Aliasing | Kantutjämning på subpixelnivå | Följer den aktuella svenska UI-etiketten. |
 | font hinting | teckensnittshintning | Inställning som styr teckenplacering och skärpa i textåtergivning. Den aktuella UI-exportens *Teckensnittshinting* bör hanteras som en separat UI-rättelse, inte kopieras in i manualprosan. |
 | point sampling | punktprovtagning | Pipettläge som samplar enskilda punkter till en färggradient. Använd i förklarande UI-former; det dolda tangentbindningsnamnet är *Modal mappning för punktprovtagning med färggradients-pipett*. |
+| multisampling | multisampling | Etablerad datorgrafikterm för flera bildprover per pixel, här i Dynamic Paints kantutjämning. Blanda inte ihop med *multisimulering*. |
 | Interface Font | Teckensnitt för gränssnittet | Följer den aktuella svenska UI-etiketten. |
 | lighting node | belysningsnod | Använd i saktext; behåll engelska nodnamn där de är produktnamn. |
 | geometry node | geometrinod | Svensk sammansättning i förklarande UI-text. |
