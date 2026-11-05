@@ -123,6 +123,10 @@ Senast uppdaterad: 2026-11-05.
 | meta-rig | metarigg | Rigifys förenklade armatur som används för att generera den färdiga riggen. Skriv ihop på svenska. |
 | Rigify Human | Rigify Human | Namn på Rigifys förinställda mänskliga metarigg; översätt inte som löpande text. |
 | unhide | visa | I Blenders hierarki betyder åtgärden att ett dolt objekt visas igen, inte att det döljs. |
+| Armature modifier | armaturmodifierare | Modifieraren som kopplar en mesh till en armatur för deformering. |
+| automatic weights | automatiska vikter | Viktmålningsmetod för att koppla meshens hörnpunkter till armaturens ben. |
+| widget | widget | Rigifys redigerbara kontrollobjekt. I sammansättning används *widgetobjekt*, *widgetsamling* och *widgetmesh*. |
+| library linking | bibliotekslänkning | Länkning av datablock eller samlingar från en annan Blender-fil. |
 | AOV | AOV / godtyckliga utgångsvariabler | Behåll den korta UI-etiketten *AOV*. I förklarande terminologi används TBX-formen *godtyckliga utgångsvariabler*. |
 
 ## Namn, format och kod
