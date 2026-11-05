@@ -36453,7 +36453,7 @@ msgstr "Extra användare"
 #. :src: bpy.types.ID.use_extra_user
 #, fuzzy
 msgid "Indicates whether an extra user is set or not (mainly for internal/debug usages)"
-msgstr "Anger om en extra användare har angetts eller inte (främst för intern användning/debuggar)"
+msgstr "Anger om en extra användare har angetts eller inte (främst för intern användning och felsökning)"
 
 #. :src: bpy.types.ID.use_fake_user
 #. :src: bpy.types.WM_OT_append.set_fake
@@ -36473,7 +36473,7 @@ msgstr "Användare"
 
 #. :src: bpy.types.ID.users
 msgid "Number of times this data-block is referenced"
-msgstr "Antal gånger detta datablock hänvisas till"
+msgstr "Antal referenser till detta datablock"
 
 #. :src: bpy.types.Action
 msgid "A collection of F-Curves for animation"
@@ -36482,12 +36482,12 @@ msgstr "En samling F-kurvor för animering"
 #. :src: bpy.types.Action.curve_frame_range
 #, fuzzy
 msgid "Curve Frame Range"
-msgstr "Kurva Ramområde"
+msgstr "Kurvornas bildruteintervall"
 
 #. :src: bpy.types.Action.curve_frame_range
 #, fuzzy
 msgid "The combined frame range of all F-Curves within this action"
-msgstr "Det kombinerade ramområdet för alla F-kurvor inom denna åtgärd"
+msgstr "Det sammanlagda bildruteintervallet för alla F-kurvor i denna åtgärd"
 
 #. :src: bpy.types.Action.fcurves
 #, fuzzy
@@ -36497,7 +36497,7 @@ msgstr "Äldre API, för bakåtkompatibilitet med kod som ännu inte hanterar sl
 #. :src: bpy.types.Action.frame_end
 #, fuzzy
 msgid "The end frame of the manually set intended playback range"
-msgstr "Slutbilden för det manuellt inställda avsedda uppspelningsområdet"
+msgstr "Slutbildrutan för det manuellt inställda avsedda uppspelningsintervallet"
 
 #. :src: bpy.types.Action.frame_range
 #. :src: bpy.types.ANIM_OT_channels_bake.range
@@ -36506,7 +36506,7 @@ msgstr "Slutbilden för det manuellt inställda avsedda uppspelningsområdet"
 #: scripts/startup/bl_ui/properties_output.py:224
 #, fuzzy
 msgid "Frame Range"
-msgstr "Ramområde"
+msgstr "Bildruteintervall"
 
 #. :src: bpy.types.Action.frame_range
 #, fuzzy
@@ -36516,7 +36516,7 @@ msgstr "Det avsedda bildintervallet för uppspelning av denna åtgärd, med hjä
 #. :src: bpy.types.Action.frame_start
 #, fuzzy
 msgid "The start frame of the manually set intended playback range"
-msgstr "Startbilden för det manuellt inställda avsedda uppspelningsområdet"
+msgstr "Startbildrutan för det manuellt inställda avsedda uppspelningsintervallet"
 
 #. :src: bpy.types.Action.groups
 #. :src: bpy.types.LatticePoint.groups
@@ -36533,7 +36533,7 @@ msgstr "Äldre API, för bakåtkompatibilitet med kod som ännu inte hanterar sl
 #, fuzzy
 msgctxt "ID"
 msgid "ID Root Type"
-msgstr "ID Rot Typ"
+msgstr "ID-rotens typ"
 
 #. :src: bpy.types.Action.id_root
 #, fuzzy
@@ -36553,7 +36553,7 @@ msgstr "Returnerar om detta är en skiktad åtgärd. En tom åtgärd betraktas s
 #. :src: bpy.types.Action.is_action_legacy
 #, fuzzy
 msgid "Is Legacy Action"
-msgstr "Är Legacy Action"
+msgstr "Är äldre åtgärd"
 
 #. :src: bpy.types.Action.is_action_legacy
 #, fuzzy
@@ -36621,7 +36621,7 @@ msgstr "Åtgärden är avsedd att användas som en cykel som loopar över sitt m
 #. :src: bpy.types.Action.use_frame_range
 #, fuzzy
 msgid "Manual Frame Range"
-msgstr "Manuellt ramområde"
+msgstr "Manuellt bildruteintervall"
 
 #. :src: bpy.types.Action.use_frame_range
 #, fuzzy
@@ -36637,7 +36637,7 @@ msgstr "Armaturdatablock som innehåller en hierarki av ben, används vanligtvis
 #. :src: bpy.types.CyclesRenderSettings.feature_set
 #, fuzzy
 msgid "Feature Set"
-msgstr "Uppsättning funktioner"
+msgstr "Funktionsuppsättning"
 
 #. :src: bpy.types.Armature.active_feature_set
 #, fuzzy
@@ -36689,17 +36689,17 @@ msgstr "Position för axlarna på benet. Om värdet ökas flyttas det närmare s
 #. :src: bpy.types.Armature.collections
 #, fuzzy
 msgid "Bone Collections (Roots)"
-msgstr "Beninsamlingar (rötter)"
+msgstr "Bensamlingar (rötter)"
 
 #. :src: bpy.types.Armature.collections_all
 #, fuzzy
 msgid "Bone Collections (All)"
-msgstr "Benkollektioner (Alla)"
+msgstr "Bensamlingar (alla)"
 
 #. :src: bpy.types.Armature.collections_all
 #, fuzzy
 msgid "List of all bone collections of the armature"
-msgstr "Lista över alla bensamlingar i armaturen"
+msgstr "Lista över armaturens alla bensamlingar"
 
 #. :src: bpy.types.Armature.display_type:'OCTAHEDRAL'
 #, fuzzy
@@ -36709,12 +36709,12 @@ msgstr "Oktaedrisk"
 #. :src: bpy.types.Armature.display_type:'OCTAHEDRAL'
 #, fuzzy
 msgid "Display bones as octahedral shape (default)"
-msgstr "Visa ben som oktaedrisk form (standard)"
+msgstr "Visa benen i oktaederform (standard)"
 
 #. :src: bpy.types.Armature.display_type:'STICK'
 #, fuzzy
 msgid "Stick"
-msgstr "Klistra"
+msgstr "Streck"
 
 #. :src: bpy.types.Armature.display_type:'STICK'
 #, fuzzy
@@ -36761,7 +36761,7 @@ msgstr "Visar ben som tunna trådar, med subdivision och B-Splines"
 #. :src: bpy.types.Armature.edit_bones
 #, fuzzy
 msgid "Edit Bones"
-msgstr "Edit Bones"
+msgstr "Redigeringsben"
 
 #. :src: bpy.types.Armature.is_editmode
 #. :src: bpy.types.Curve.is_editmode
@@ -36770,7 +36770,7 @@ msgstr "Edit Bones"
 #. :src: bpy.types.MetaBall.is_editmode
 #, fuzzy
 msgid "Is Editmode"
-msgstr "Är Editmode"
+msgstr "Är i redigeringsläge"
 
 #. :src: bpy.types.Armature.is_editmode
 #. :src: bpy.types.Curve.is_editmode
@@ -36785,17 +36785,17 @@ msgstr "Sann när den används i redigeringsläge"
 #. :src: bpy.types.Armature.pose_position:'POSE'
 #, fuzzy
 msgid "Pose Position"
-msgstr "Pose Position"
+msgstr "Poseringsläge"
 
 #. :src: bpy.types.Armature.pose_position
 #, fuzzy
 msgid "Show armature in binding pose or final posed state"
-msgstr "Visa armaturen i bindande pose eller slutligt poserat tillstånd"
+msgstr "Visa armaturen i viloposition eller i slutligt poserad ställning"
 
 #. :src: bpy.types.Armature.pose_position:'POSE'
 #, fuzzy
 msgid "Show armature in posed state"
-msgstr "Visa armaturen i poserat tillstånd"
+msgstr "Visa armaturen i poserad ställning"
 
 #. :src: bpy.types.Armature.pose_position:'REST'
 #, fuzzy
@@ -36805,27 +36805,27 @@ msgstr "Viloposition"
 #. :src: bpy.types.Armature.pose_position:'REST'
 #, fuzzy
 msgid "Show Armature in binding pose state (no posing possible)"
-msgstr "Visa armaturen i bindande poseringstillstånd (ingen posering möjlig)"
+msgstr "Visa armaturen i viloposition (ingen posering möjlig)"
 
 #. :src: bpy.types.Armature.relation_line_position
 #, fuzzy
 msgid "Relation Line Position"
-msgstr "Relation Linje Position"
+msgstr "Relationslinjens position"
 
 #. :src: bpy.types.Armature.relation_line_position
 #, fuzzy
 msgid "The start position of the relation lines from parent to child bones"
-msgstr "Startpositionen för relationslinjerna från förälder till barnben"
+msgstr "Startpositionen för relationslinjerna från överordnade till underordnade ben"
 
 #. :src: bpy.types.Armature.relation_line_position:'TAIL'
 #, fuzzy
 msgid "Draw the relationship line from the parent tail to the child head"
-msgstr "Rita relationslinjen från förälderns stjärt till barnets huvud"
+msgstr "Rita relationslinjen från det överordnade benets svans till det underordnade benets huvud"
 
 #. :src: bpy.types.Armature.relation_line_position:'HEAD'
 #, fuzzy
 msgid "Draw the relationship line from the parent head to the child head"
-msgstr "Rita relationslinjen från föräldrahuvudet till barnhuvudet"
+msgstr "Rita relationslinjen från det överordnade benets huvud till det underordnade benets huvud"
 
 #. :src: bpy.types.Armature.rigify_finalize_script
 #, fuzzy
@@ -36850,7 +36850,7 @@ msgstr "Tvingar Rigify att ta bort och bygga om alla widgetobjekt för riggen. S
 #. :src: bpy.types.Armature.rigify_mirror_widgets
 #, fuzzy
 msgid "Mirror Widgets"
-msgstr "Spegel Widgets"
+msgstr "Spegla widgetar"
 
 #. :src: bpy.types.Armature.rigify_mirror_widgets
 #, fuzzy
@@ -36860,7 +36860,7 @@ msgstr "Skapa widgetar för ben på vänster och höger sida som är länkade du
 #. :src: bpy.types.Armature.rigify_rig_basename
 #, fuzzy
 msgid "Rigify Rig Name"
-msgstr "Rigify Riggnamn"
+msgstr "Rigify-riggnamn"
 
 #. :src: bpy.types.Armature.rigify_rig_basename
 #, fuzzy
@@ -36870,7 +36870,7 @@ msgstr "Valfritt. Om detta namn anges kommer det att användas för den nyligen 
 #. :src: bpy.types.Armature.rigify_rig_ui
 #, fuzzy
 msgid "Rigify Target Rig UI"
-msgstr "Rigify Target Rig UI"
+msgstr "Rigify-målriggens användargränssnitt"
 
 #. :src: bpy.types.Armature.rigify_rig_ui
 #, fuzzy
@@ -36880,7 +36880,7 @@ msgstr "Definierar användargränssnittet som ska skrivas över. Om den inte är
 #. :src: bpy.types.Armature.rigify_target_rig
 #, fuzzy
 msgid "Rigify Target Rig"
-msgstr "Rigify Target Rig"
+msgstr "Rigify-målrigg"
 
 #. :src: bpy.types.Armature.rigify_target_rig
 #, fuzzy
@@ -36997,7 +36997,7 @@ msgstr "TEMA20"
 #. :src: bpy.types.Armature.rigify_widgets_collection
 #, fuzzy
 msgid "Widgets Collection"
-msgstr "Dölj samling"
+msgstr "Widgetsamling"
 
 #. :src: bpy.types.Armature.rigify_widgets_collection
 #, fuzzy
@@ -37049,7 +37049,7 @@ msgstr "Visa benens namn"
 #. :src: bpy.types.Pose.use_mirror_x
 #, fuzzy
 msgid "X-Axis Mirror"
-msgstr "X-axel spegel"
+msgstr "Spegling över X-axeln"
 
 #. :src: bpy.types.Armature.use_mirror_x
 #. :src: bpy.types.Pose.use_mirror_x
@@ -37060,12 +37060,12 @@ msgstr "Tillämpa ändringar på matchande ben på motsatt sida av X-axeln"
 #. :src: bpy.types.Brush
 #, fuzzy
 msgid "Brush data-block for storing brush settings for painting and sculpting"
-msgstr "Brush-datablock för lagring av penselinställningar för målning och skulptur"
+msgstr "Penseldatablock för lagring av penselinställningar för målning och skulptering"
 
 #. :src: bpy.types.Brush.area_radius_factor
 #, fuzzy
 msgid "Area Radius"
-msgstr "Area Radie"
+msgstr "Områdesradie"
 
 #. :src: bpy.types.Brush.area_radius_factor
 #, fuzzy
@@ -37075,12 +37075,12 @@ msgstr "Förhållande mellan penselradien och den radie som ska användas för a
 #. :src: bpy.types.Brush.auto_smooth_factor
 #, fuzzy
 msgid "Auto-Smooth"
-msgstr "Auto-Smooth"
+msgstr "Automatisk utjämning"
 
 #. :src: bpy.types.Brush.auto_smooth_factor
 #, fuzzy
 msgid "Amount of smoothing to automatically apply to each stroke"
-msgstr "Mängden utjämning som automatiskt ska tillämpas på varje slag"
+msgstr "Mängden utjämning som automatiskt ska tillämpas på varje penseldrag"
 
 #. :src: bpy.types.Brush.automasking_boundary_edges_propagation_steps
 #. :src: bpy.types.SCULPT_OT_mask_from_boundary.propagation_steps
@@ -37093,20 +37093,20 @@ msgstr "Steg för spridning"
 #. :src: bpy.types.Sculpt.automasking_boundary_edges_propagation_steps
 #, fuzzy
 msgid "Distance where boundary edge automasking is going to protect vertices from the fully masked edge"
-msgstr "Avstånd där automaskning av gränskanter kommer att skydda toppar från den helt maskerade kanten"
+msgstr "Avstånd där automatisk maskering av gränskanter skyddar hörnpunkter från den helt maskerade kanten"
 
 #. :src: bpy.types.Brush.automasking_cavity_blur_steps
 #. :src: bpy.types.Sculpt.automasking_cavity_blur_steps
 #, fuzzy
 msgid "Blur Steps"
-msgstr "Oskärpa steg"
+msgstr "Oskärpesteg"
 
 #. :src: bpy.types.Brush.automasking_cavity_blur_steps
 #. :src: bpy.types.SCULPT_OT_mask_from_cavity.blur_steps
 #. :src: bpy.types.Sculpt.automasking_cavity_blur_steps
 #, fuzzy
 msgid "The number of times the cavity mask is blurred"
-msgstr "Antalet gånger som kavitetsmasken är suddig"
+msgstr "Antalet gånger som kavitetsmasken görs oskarp"
 
 #. :src: bpy.types.Brush.automasking_cavity_curve
 #. :src: bpy.types.Sculpt.automasking_cavity_curve
@@ -37132,7 +37132,7 @@ msgstr "Kavitetsmaskens kontrast"
 #. :src: bpy.types.Sculpt.automasking_start_normal_falloff
 #, fuzzy
 msgid "Area Normal Falloff"
-msgstr "Area Normal falloff"
+msgstr "Områdesnormalens avtagande"
 
 #. :src: bpy.types.Brush.automasking_start_normal_falloff
 #. :src: bpy.types.Brush.automasking_view_normal_falloff
@@ -37146,7 +37146,7 @@ msgstr "Utöka vinkelområdet med en fallgradient"
 #. :src: bpy.types.Sculpt.automasking_start_normal_limit
 #, fuzzy
 msgid "Area Normal Limit"
-msgstr "Område Normal gräns"
+msgstr "Områdesnormalens gräns"
 
 #. :src: bpy.types.Brush.automasking_start_normal_limit
 #. :src: bpy.types.Brush.automasking_view_normal_limit
@@ -37154,19 +37154,19 @@ msgstr "Område Normal gräns"
 #. :src: bpy.types.Sculpt.automasking_view_normal_limit
 #, fuzzy
 msgid "The range of angles that will be affected"
-msgstr "De olika vinklar som kommer att påverkas"
+msgstr "Vinkelintervallet som påverkas"
 
 #. :src: bpy.types.Brush.automasking_view_normal_falloff
 #. :src: bpy.types.Sculpt.automasking_view_normal_falloff
 #, fuzzy
 msgid "View Normal Falloff"
-msgstr "Visa Normal Falloff"
+msgstr "Visningsnormalens avtagande"
 
 #. :src: bpy.types.Brush.automasking_view_normal_limit
 #. :src: bpy.types.Sculpt.automasking_view_normal_limit
 #, fuzzy
 msgid "View Normal Limit"
-msgstr "Visa normal gräns"
+msgstr "Visningsnormalens gräns"
 
 #. :src: bpy.types.Brush.blend
 #. :src: bpy.types.CompositorNodeMixRGB.blend_type
@@ -37183,7 +37183,7 @@ msgstr "Blandningsläge"
 #. :src: bpy.types.Brush.blend
 #, fuzzy
 msgid "Brush blending mode"
-msgstr "Blandningsläge för pensel"
+msgstr "Penselns blandningsläge"
 
 #. :src: bpy.types.Brush.blend:'MIX'
 #, fuzzy
@@ -37381,7 +37381,7 @@ msgstr "Använd blandningsläget Value när du målar"
 #. :src: bpy.types.Brush.blend:'ERASE_ALPHA'
 #, fuzzy
 msgid "Erase Alpha"
-msgstr "Radera Alpha"
+msgstr "Radera alfa"
 
 #. :src: bpy.types.Brush.blend:'ERASE_ALPHA'
 #, fuzzy
@@ -37391,7 +37391,7 @@ msgstr "Radera alfa medan du målar"
 #. :src: bpy.types.Brush.blend:'ADD_ALPHA'
 #, fuzzy
 msgid "Add Alpha"
-msgstr "Lägg till Alpha"
+msgstr "Lägg till alfa"
 
 #. :src: bpy.types.Brush.blend:'ADD_ALPHA'
 #, fuzzy
@@ -37411,7 +37411,7 @@ msgstr "Radie för kärnan som används för mjukgöring och skärpning i pixlar
 #. :src: bpy.types.Brush.blur_mode
 #, fuzzy
 msgid "Blur Mode"
-msgstr "Oskärpa läge"
+msgstr "Oskärpeläge"
 
 #. :src: bpy.types.Brush.blur_mode:'BOX'
 #. :src: bpy.types.LightProbeSphere.influence_type:'BOX'
@@ -37458,7 +37458,7 @@ msgstr "Deformation"
 #. :src: bpy.types.Brush.snake_hook_deform_type
 #, fuzzy
 msgid "Deformation type that is used in the brush"
-msgstr "Deformationstyp som används i borsten"
+msgstr "Deformationstyp som används i penseln"
 
 #. :src: bpy.types.Brush.boundary_deform_type:'BEND'
 msgctxt "Brush"
@@ -37489,7 +37489,7 @@ msgstr "Inflatera"
 #, fuzzy
 msgctxt "Brush"
 msgid "Grab"
-msgstr "Grabben"
+msgstr "Dra"
 
 #. :src: bpy.types.Brush.boundary_deform_type:'TWIST'
 #. :src: bpy.types.Brush.elastic_deform_type:'TWIST'
@@ -37501,43 +37501,43 @@ msgstr "Vrid"
 #. :src: bpy.types.Brush.boundary_falloff_type
 #, fuzzy
 msgid "Boundary Falloff"
-msgstr "Gräns Falloff"
+msgstr "Gränsavtagande"
 
 #. :src: bpy.types.Brush.boundary_falloff_type
 #, fuzzy
 msgid "How the brush falloff is applied across the boundary"
-msgstr "Hur penselavsmalningen tillämpas över gränsen"
+msgstr "Hur penselns avtagande används längs gränsen"
 
 #. :src: bpy.types.Brush.boundary_falloff_type:'CONSTANT'
 #, fuzzy
 msgid "Applies the same deformation in the entire boundary"
-msgstr "Tillämpar samma deformation i hela begränsningen"
+msgstr "Tillämpar samma deformation längs hela gränsen"
 
 #. :src: bpy.types.Brush.boundary_falloff_type:'RADIUS'
 #, fuzzy
 msgid "Brush Radius"
-msgstr "Borstens radie"
+msgstr "Penselradie"
 
 #. :src: bpy.types.Brush.boundary_falloff_type:'RADIUS'
 #, fuzzy
 msgid "Applies the deformation in a localized area limited by the brush radius"
-msgstr "Applicerar deformationen i ett lokalt område som begränsas av penselradien"
+msgstr "Tillämpar deformationen i ett lokalt område som begränsas av penselradien"
 
 #. :src: bpy.types.Brush.boundary_falloff_type:'LOOP'
 #. :src: bpy.types.IMPORT_ANIM_OT_bvh.use_cyclic
 #, fuzzy
 msgid "Loop"
-msgstr "Slinga/loop"
+msgstr "Slinga"
 
 #. :src: bpy.types.Brush.boundary_falloff_type:'LOOP'
 #, fuzzy
 msgid "Applies the brush falloff in a loop pattern"
-msgstr "Applicerar penselns falloff i ett slingmönster"
+msgstr "Tillämpar penselns avtagande i ett slingmönster"
 
 #. :src: bpy.types.Brush.boundary_falloff_type:'LOOP_INVERT'
 #, fuzzy
 msgid "Loop and Invert"
-msgstr "Loop och invertering"
+msgstr "Slinga och invertera"
 
 #. :src: bpy.types.Brush.boundary_falloff_type:'LOOP_INVERT'
 #, fuzzy
