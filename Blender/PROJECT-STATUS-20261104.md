@@ -210,6 +210,14 @@ kontrollerad med `msgfmt`, l10n-lint, Hunspell, diffkontroll och Gitleaks.
 Blender Translate bekräftade **9 bearbetade, 8 uppdaterade, 1 hoppad över och
 0 saknade**. Den överhoppade posten räknas inte som bekräftad ändring.
 
+Batch 27 fortsätter samma begränsade UI-granskning med elva återstående
+inställningar, etiketter och hjälprader som fortfarande lämnade *Asset
+Browser* på engelska eller använde den äldre termen. Den normaliserar
+`resursbläddrare` och `resursbibliotek` i deras konkreta gränssnittskontext.
+`blender-ui-sv-reviewed-20261105-27.po` har klarat lokal syntax-, språk-,
+stavnings-, diff- och hemlighetskontroll; importresultatet dokumenteras först
+efter uppladdning.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
