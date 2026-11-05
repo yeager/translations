@@ -378,6 +378,9 @@ Senast uppdaterad: 2026-11-05.
 | line set (Freestyle) | linjeuppsättning | Urval av Freestyle-linjer med egna stilparametrar. |
 | falloff (mask/proportional edit) | avtagande | Avser hur en effekt minskar med avståndet, inte *utfall*. |
 | plane track (motion tracking) | planspår | Spårad plan yta i kameraspårning, inte ett flygplan. |
+| UV Mapping | UV-mappning | Kartläggning av meshens UV-koordinater; inte mätning. |
+| Hook (deformer) | krok | Blender-deformer och dess meny, inte engelska *hook*. |
+| Specials (context menu) | särskilda åtgärder för | Meny med relaterade åtgärder, inte erbjudanden. |
 
 ## Kontrollerade UI-formuleringar
 

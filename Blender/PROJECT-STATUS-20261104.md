@@ -705,6 +705,14 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 98 granskar Grease Pencil-material, 3D- och animeringsmenyer samt
+kameraspårning i tre separata radintervall. Tre oberoende delgranskningar har
+jämförts mot respektive RNA- och meny-kontext. Den lokalt validerade
+deltafilen innehåller 43 säkra UI-strängar, bland annat *UV-mappning*,
+*resurser*, *planspår*, *hörnpunktsgrupper* och *särskilda åtgärder*.
+`msgfmt` och l10n-lint passerar. Batchen är lokalt validerad och arkiveras för
+import till Blender Translate; något importresultat finns ännu inte.
+
 Batch 96 granskar Freestyle-linjestilens alfa-, färg-, geometri- och
 tjockleksmodifierare i tre separata radintervall. Tre oberoende
 delgranskningar har jämförts mot Freestyle-RNA-kontext och den svenska
