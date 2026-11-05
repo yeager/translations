@@ -146,8 +146,9 @@ Batch 19 fortsätter samma avgränsade granskning av Blenders interna urklipp.
 Fyra rester med felaktigt obestämd `det interna urklipp` eller `internt
 urklipp` får den konsekventa och grammatiskt korrekta formen `det interna
 urklippet`. Poster gäller nyckelrutor, rörelsespår och material. Lokal
-kvalitetssäkring är klar; uppladdningsresultatet fylls i efter Blender
-Translates svar.
+kvalitetssäkring är klar. Blender Translate bekräftade
+`blender-ui-sv-reviewed-20261105-19.po`: **4 bearbetade, 4 uppdaterade, 0
+hoppade över och 0 saknades**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
