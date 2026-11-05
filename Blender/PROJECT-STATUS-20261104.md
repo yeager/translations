@@ -190,8 +190,9 @@ Batch 24 åtgärdar tre verkliga fall av tre identiska konsonanter. Strängarna
 för Grease Pencil Line Art och `RegionView3D` skrev tidigare `klippplan` med
 tre p. Språkrådets konsonantstrykningsregel och etablerad svensk CAD-
 terminologi ger formen `klippningsplan`, som nu används i etiketter och
-hjälptext. Lokal kvalitetssäkring är klar; importresultat fylls i efter
-uppladdningen.
+hjälptext. Lokal kvalitetssäkring är klar. Blender Translate bekräftade
+`blender-ui-sv-reviewed-20261105-24.po`: **3 bearbetade, 3 uppdaterade, 0
+hoppade över och 0 saknades**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
