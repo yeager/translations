@@ -36,6 +36,11 @@ korrigeringar från batcherna 01--03. Importen gjordes i läget *Lägg till som
 bekräftade resultatet: **13 bearbetade, 13 uppdaterade, 0 hoppade över och 0
 saknades**.
 
+En ytterligare, avgränsad UI-delta med den kontextbundna korrigeringen
+`tillgångsbibliotek` till `resursbibliotek` skickades därefter i
+`blender-ui-sv-reviewed-20261105-02.po`. Blender Translate bekräftade även
+den importen: **1 bearbetad, 1 uppdaterad, 0 hoppade över och 0 saknades**.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 638 översatta strängar med avfärdade
