@@ -113,6 +113,13 @@ enskilda punkter till en färggradient. Därför ersätter
 Translate bekräftade **1 bearbetad, 1 uppdaterad, 0 hoppade över och 0
 saknades**.
 
+Batch 15 rättade Dynamic Paint-inställningens sakterm. Källans
+`rna_dynamicpaint.cc` definierar alternativet som femfaldig *multisampling*
+för att jämna ut målningskanter, inte som flera simuleringar.
+`blender-ui-sv-reviewed-20261105-15.po` ändrar därför `multisimulering` till
+`multisampling`. Blender Translate bekräftade **1 bearbetad, 1 uppdaterad, 0
+hoppade över och 0 saknades**.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
