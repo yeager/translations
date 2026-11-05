@@ -291,8 +291,9 @@ använder konsekvent `kuvertdeformering`, `riggskelett` och svenska termer för
 benets huvudände utan att ändra Blender-namnet *Envelope*. Deltafilen och
 termlistan har passerat `msgfmt`, l10n-lint, svlang, Hunspell, diffkontroll och
 Gitleaks. `svlang` markerar två nominala UI-etiketter utan finit verb; de är
-manuellt verifierade som korrekta. Batchen är arkiverad lokalt och väntar på
-verifierad uppladdning till Blender Translate.
+manuellt verifierade som korrekta. Blender Translate bekräftade **9 bearbetade,
+0 uppdaterade, 9 hoppade över och 0 saknade**. Samtliga poster hade redan samma
+eller nyare värden på servern.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
