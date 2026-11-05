@@ -705,6 +705,18 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 120 granskar kurv-, simulerings-, provtagnings- och nodramstexter i tre
+separata radintervall. Tre oberoende genomgångar har kontrollerats mot
+Blender-nodernas RNA-kontext och projektets terminologilista. Den lokala
+deltafilen `blender-ui-sv-reviewed-20261105-120.po` innehåller 56 granskade
+UI-strängar, bland annat *provta*, *kurvnormal*, *Grease Pencil-djup*,
+*tangentrymd*, *simuleringsindata*, *splineupplösning*, *flyttalsvektor* och
+*ytuppsättning*. `msgfmt`, `l10n-lint`, diffkontroll och Gitleaks passerar.
+Hunspell markerar enbart de dokumenterade sammansättningarna
+*splinelängd*, *indatasträngar* och *splineupplösning*. `svlang` ger en
+förväntad heuristisk träff på en kort nominell etikett. Filen är lokalt
+validerad och arkiverad men väntar på importresultat från Blender Translate.
+
 Batch 119 granskar geometri-, mesh- och volymnoder i tre separata
 radintervall. Tre oberoende genomgångar har kontrollerats mot nodernas
 RNA-kontext, Blender-TBX och den befintliga UI-terminologin. Den lokala
