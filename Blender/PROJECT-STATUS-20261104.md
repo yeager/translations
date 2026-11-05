@@ -215,8 +215,9 @@ inställningar, etiketter och hjälprader som fortfarande lämnade *Asset
 Browser* på engelska eller använde den äldre termen. Den normaliserar
 `resursbläddrare` och `resursbibliotek` i deras konkreta gränssnittskontext.
 `blender-ui-sv-reviewed-20261105-27.po` har klarat lokal syntax-, språk-,
-stavnings-, diff- och hemlighetskontroll; importresultatet dokumenteras först
-efter uppladdning.
+stavnings-, diff- och hemlighetskontroll. Blender Translate bekräftade **11
+bearbetade, 7 uppdaterade, 4 hoppade över och 0 saknade**. De fyra överhoppade
+posterna räknas inte som bekräftade ändringar.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
