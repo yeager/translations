@@ -523,6 +523,17 @@ fackord och sammansättningar som har kontrollerats manuellt. Batchen är lokalt
 validerad och arkiveras för import till Blender Translate; något importresultat
 finns ännu inte.
 
+Batch 80 granskar kurvbanor, textobjekt och Freestyle rad för rad. Tre
+oberoende, skrivskyddade delgranskningar har jämförts med RNA-kontext och
+terminologilistan. Deltafilen innehåller 57 säkra UI-strängar och rättar bland
+annat *förflyttningsbana*, *kurvdatablock*, *brödtext*, *kapitäler*,
+*textruteöverflöde*, *Freestyle-linjestil*, *streckgeometri* och
+*sorteringsnyckel*. `msgfmt`, l10n-lint och diffkontrollen passerar. Svlang-
+och Hunspell-träffarna är förväntade Blender-fackord och svenska
+sammansättningar som har kontrollerats manuellt. Batchen är lokalt validerad
+och arkiveras för import till Blender Translate; något importresultat finns
+ännu inte.
+
 Batch 61 granskar kurvdata, beroendegrafen och Dope Sheet-filter rad för rad.
 Två oberoende, skrivskyddade delgranskningar har jämförts med RNA-kontext och
 befintlig Blender-terminologi. Den lokalt validerade deltafilen normaliserar

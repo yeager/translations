@@ -173,6 +173,13 @@ Senast uppdaterad: 2026-11-05.
 | taper object / taper radius | avsmalningsobjekt / avsmalningsradie | Kurvinställningar som styr profilens bredd längs kurvan. |
 | texture space | texturutrymme | Blender-egenskap för automatisk eller manuell texturkoordinering. |
 | twist method | vridningsmetod | Beräkningsmetod för 3D-kurvans vridning. |
+| translation path | förflyttningsbana | Kurvbana som styr ett underordnat objekts rörelse; inte en språklig översättning. |
+| text box overflow | textruteöverflöde | Hantering när text inte ryms i Blenders textrutor. |
+| small caps | kapitäler | Typografisk stil med små versaler; använd inte vardagsformen *små huvudstäder*. |
+| shear | skjuvning | Geometrisk transformering eller textobjektets kursiveringsvinkel. |
+| Freestyle line style | Freestyle-linjestil | Freestyles inställningsobjekt för den renderade konturlinjen. |
+| stroke geometry | streckgeometri | Geometrin för ett Freestyle-streck; inte *slaggeometri*. |
+| chain vertex | kedjehörnpunkt | Hörnpunkt i Freestyles kedja av funktionskanter. |
 | curve map point | kurvkartpunkt | Punkt i en kurvkartläggning. |
 | support loop | stödslinga | Topologisk loop som kontrollerar skärpan kring en meshdetalj. |
 | mix mode | blandningsläge | Anger hur en Transform Constraint kombinerar position, rotation eller skala med det ursprungliga värdet. |
