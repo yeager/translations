@@ -494,8 +494,9 @@ Batch 62 granskar Dope Sheet-filtren och deras närmaste RNA-etiketter rad
 för rad. Två oberoende, skrivskyddade delgranskningar har kontrollerats mot
 panelens egenskaper och den befintliga Action Slot-terminologin. Den lokalt
 validerade deltafilen normaliserar filteretiketter, `datasökväg` och
-`transformationsrymd`. Deltafilen är arkiverad i översättningsförrådet och
-väntar på verifierad import i Blender Translate.
+`transformationsrymd`. Deltafilen är arkiverad i översättningsförrådet.
+Blender Translate bekräftade **13 bearbetade, 5 uppdaterade, 8 hoppade över
+och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
