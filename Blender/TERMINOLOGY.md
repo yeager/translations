@@ -135,6 +135,10 @@ Senast uppdaterad: 2026-11-05.
 | parenting settings | överordningsinställningar | Inställningar för relationen mellan ett ben och dess överordnade ben. |
 | Bendy Bones | Bendy Bones | Synligt Blender-namn för böjliga ben; behåll produktnamnet i etiketter och den närliggande saktexten. |
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
+| Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
+| target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
+| default frame | standardbildruta | Bildruta som motsvarar transformationskanalens neutrala värde. |
+| trigger | utlösare | Den styrande åtgärden i Rigifys korrigerande åtgärder. |
 | AOV | AOV / godtyckliga utgångsvariabler | Behåll den korta UI-etiketten *AOV*. I förklarande terminologi används TBX-formen *godtyckliga utgångsvariabler*. |
 
 ## Namn, format och kod
