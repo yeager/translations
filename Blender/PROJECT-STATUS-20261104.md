@@ -705,6 +705,14 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 100 granskar meshdatatyper, UV-redigering, metabollar och modifierare i
+tre separata radintervall. Tre oberoende delgranskningar har jämförts mot RNA-
+och modifierarkontext. Den lokalt validerade deltafilen innehåller 99 säkra
+UI-strängar, bland annat *meshhörnpunkt*, *meshslingtriangel*,
+*Freestyle-ytmarkering*, *UV-projektion*, *hörnpunktsvikter* och *körtid*.
+`msgfmt` och l10n-lint passerar. Batchen är lokalt validerad och arkiveras för
+import till Blender Translate; något importresultat finns ännu inte.
+
 Batch 99 granskar NLA-, nod-, sekvenserar- och meshgränssnittet i tre
 separata radintervall. Tre oberoende delgranskningar har jämförts mot RNA- och
 menykontext. Den lokalt validerade deltafilen innehåller 52 säkra UI-strängar,

@@ -384,6 +384,10 @@ Senast uppdaterad: 2026-11-05.
 | NLA Track | NLA-spår | Spår i Blenders Nonlinear Animation-redigerare; substantiv, inte verbet *spåra*. |
 | Keying (compositor) | nyckling | Kompositörens friläggnings-/keyingfunktion, inte nyckelbildrutor. |
 | mesh edge/loop | meshkant/meshslinga | Meshens topologiska kant respektive slinga. |
+| vertex (mesh API) | hörnpunkt | RNA-datatypen *MeshVertex* och dess egenskaper; använd sammansättningar som *hörnpunktsvikt*. |
+| face (mesh API) | yta | Meshens polygonala yta; undvik det bokstavliga *ansikte* i denna kontext. |
+| Freestyle edge/face mark | Freestyle-kant-/ytmarkering | Markerar vilka meshkanter eller -ytor som Freestyle får använda. |
+| execution time | körtid | Modifierarens uppmätta utvärderingstid, inte verkställighetstid. |
 
 ## Kontrollerade UI-formuleringar
 
