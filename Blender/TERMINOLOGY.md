@@ -45,6 +45,10 @@ Senast uppdaterad: 2026-11-05.
 | data-block | datablock | Skriv ihop. Behåll bindestrecket bara i bokstavliga API-namn. |
 | object | objekt | Etablerad Blender-term. |
 | collection | samling | Avser Blenders objektbehållare, inte en godtycklig lista. |
+| collection exporter | samlingsexportör | Exportör som är kopplad till en specifik Blender-samling. |
+| collection export handler | exporthanterare för samlingen | Hanterar konfigurerad export av en samling. |
+| instance offset | instansförskjutning | Förskjutning från origo som används när en samling instansieras. |
+| intersection priority | korsningsprioritet | Line Art-värde som bestämmer vilket objekt en korsningslinje hör till. |
 | project | projekt | Avser Blenders projektkatalog och dess inställningar. |
 | project settings | projektinställningar | Exempel: *Open Project Settings* → *Öppna projektinställningar*. |
 | workspace | arbetsyta | Den etablerade UI-formen, exempelvis *Workspace* → *Arbetsyta*. |
@@ -164,6 +168,11 @@ Senast uppdaterad: 2026-11-05.
 | target normal | målnormal | Normal från målets yta, till exempel i Shrinkwrap-projektion. |
 | joint binding | ledbindning | Spline IK-inställning för leders relativa positioner längs kedjan. |
 | curve mapping | kurvkartläggning | Verktyg som mappar färg-, vektor- eller skalärvärden via en användardefinierad kurva. |
+| curve fill mode | kurvans fyllningsläge | Inställning för hur en 2D-kurva fylls. |
+| curve path duration | sökvägsvaraktighet | Antal bildrutor som används för att färdas längs en kurvas sökväg. |
+| taper object / taper radius | avsmalningsobjekt / avsmalningsradie | Kurvinställningar som styr profilens bredd längs kurvan. |
+| texture space | texturutrymme | Blender-egenskap för automatisk eller manuell texturkoordinering. |
+| twist method | vridningsmetod | Beräkningsmetod för 3D-kurvans vridning. |
 | curve map point | kurvkartpunkt | Punkt i en kurvkartläggning. |
 | support loop | stödslinga | Topologisk loop som kontrollerar skärpan kring en meshdetalj. |
 | mix mode | blandningsläge | Anger hur en Transform Constraint kombinerar position, rotation eller skala med det ursprungliga värdet. |

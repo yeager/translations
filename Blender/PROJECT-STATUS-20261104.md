@@ -512,6 +512,17 @@ Batch 77 granskar penselns mask-, plan- och poseringsinställningar rad för rad
 
 Batch 78 granskar penselns automaskning, tryckinställningar och kamerans visningsparametrar rad för rad. Tre oberoende, skrivskyddade delgranskningar har kontrollerats mot RNA-kontexten. Deltafilen innehåller 24 säkra UI-strängar och normaliserar bland annat *områdesnormal*, *visningsnormal*, *marköröverlägg*, *planförskjutning*, *slumpningstryck*, *bildruteförskjutning* och *synfält*. Den är lokalt validerad och arkiveras för import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 79 granskar kamera-, samlings- och kurvinställningar rad för rad. Tre
+oberoende, skrivskyddade delgranskningar har jämförts med RNA-kontext och
+terminologilistan. Deltafilen innehåller 67 säkra UI-strängar, bland annat
+*panoramatyp*, *samlingsfärg*, *korsningsprioritet*, *fyllningsläge*,
+*sökvägsvaraktighet* och *vridningsmetod*. `msgfmt` och diffkontrollen
+passerar; l10n-lint visar endast en förväntad avslutande skiljeteckensskillnad
+mot en källsträng med citerad inställning. Svlang- och Hunspell-träffarna är
+fackord och sammansättningar som har kontrollerats manuellt. Batchen är lokalt
+validerad och arkiveras för import till Blender Translate; något importresultat
+finns ännu inte.
+
 Batch 61 granskar kurvdata, beroendegrafen och Dope Sheet-filter rad för rad.
 Två oberoende, skrivskyddade delgranskningar har jämförts med RNA-kontext och
 befintlig Blender-terminologi. Den lokalt validerade deltafilen normaliserar
