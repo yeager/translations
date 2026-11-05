@@ -86,6 +86,12 @@ Senast uppdaterad: 2026-11-05.
 | Detach Outputs | Koppla bort utgångar | Node Wrangler-operatör. Använd *utdata* i förklarande text. |
 | Relative Path | Relativ sökväg | Synlig filsökvägsinställning. |
 | Start Frame | Startbildruta | Synlig tids- och bildsekvensinställning. |
+| Texture Coordinate | Texturkoordinater | Synligt Blender-nodnamn; singular engelska har plural svensk UI-form. |
+| Mapping | Kartläggning | Synligt Blender-nodnamn. Använd *mappning* bara när sammanhanget inte avser denna specifika nod. |
+| Environment Texture | Miljötextur | Synligt Blender-nodnamn. |
+| Principled BSDF | Principiell BSDF | Synligt Blender-nodnamn. |
+| Image Texture | Bildtextur | Synligt Blender-nodnamn. |
+| Color Space | Färgrymd | Synlig Blender-inställning och teknisk fackterm. |
 | Grease Pencil | Grease Pencil | Produkt- och funktionsnamn; översätt inte. |
 | override | åsidosättning / överskrivning | Kontextstyrt. Generella UI-etiketter använder *åsidosättning*. *Library Override* är i den aktuella UI-katalogen *biblioteksåsidosättning*, men närliggande operatörsnamn använder också *biblioteksöverskrivning*. Normalisera aldrig utan att granska strängens sammanhang och närliggande förekomster. |
 
