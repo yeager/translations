@@ -11,7 +11,7 @@ Senast uppdaterad: 2026-11-05.
 
 | Engelska | Svenska | Anmärkning |
 | --- | --- | --- |
-| asset library | tillgångsbibliotek / resursbibliotek | Båda förekommer i den etablerade Blender-katalogen. Följ närliggande UI och ändra inte mekaniskt mellan dem. I längre förklarande text är *tillgångsbibliotek* den vanligaste befintliga formen. |
+| asset library | tillgångsbibliotek / resursbibliotek | Båda förekommer i den etablerade Blender-katalogen. Följ närliggande UI och ändra inte mekaniskt mellan dem. I Asset Browser och dess inställningsbeskrivningar används *resursbibliotek* för att stämma med de omgivande UI-etiketterna. I övrig längre förklarande text är *tillgångsbibliotek* den vanligaste befintliga formen. |
 | Asset Browser | resursbläddrare | Följer den aktuella svenska UI-etiketten. Den äldre manualformen *tillgångsbläddrare* ska inte dras in i ny UI-nära dokumentation. |
 | access token | åtkomsttoken | Skriv ihop. Förklarande rubriker får precisera typen: *biblioteksåtkomsttoken* respektive *förrådsåtkomsttoken*. |
 | remote asset library | fjärranslutet resursbibliotek | Skriv ut relationen i löpande text; undvik *fjärrresursbibliotek*, som blir svårläst med tre r. |
