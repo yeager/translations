@@ -40,6 +40,9 @@ sammanlagda katalogen innehåller 868 översatta meddelanden enligt `msgfmt`.
   `msgattrib`; de separata deltafilerna och de genererade kandidaterna är
   däremot giltiga och har validerats med `msgfmt`.
 
-Ladda upp filerna i nummerordning till den **generiska** Manual-komponenten,
-inte till versionskomponenterna 4.5, 5.2 eller 5.3. Efter varje uppladdning
-ska Weblate-resultatet kontrolleras innan nästa kandidat skickas.
+För en samlad uppladdning används
+`blender-manual-sv-reviewed-all.po` till den **generiska**
+Manual-komponenten, inte till versionskomponenterna 4.5, 5.2 eller 5.3.
+Den innehåller 868 granskade meddelanden och ersätter de numrerade filerna
+som uppladdningsunderlag. Kontrollera Weblates importresultat efter
+uppladdningen.
