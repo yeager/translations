@@ -34,3 +34,11 @@ namn på fångstomfånget och behålls därför i sammansättningen *scope-namne
 
 Råexporten är orörd. Deltafilen är lokalt validerad men ännu inte uppladdad
 till Blender Translate.
+
+## Terminologisk efterkontroll 5 november
+
+`--debug-gpu-scope-capture` lagrar det angivna scope-namnet i Blenders
+GPU-felsökningskonfiguration; därför är **scope-namn** en avsiktlig teknisk
+term här, inte en oöversatt UI-etikett. **ID-datablock**, **loggningsnivå**
+och **förråd** stämmer med den svenska Blender-katalogen. Flaggor och andra
+maskinläsbara värden lämnas exakt oförändrade.
