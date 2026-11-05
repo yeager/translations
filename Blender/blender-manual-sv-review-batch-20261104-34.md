@@ -17,6 +17,12 @@ Termerna följer UI-katalogen: `Move` → *Flytta*, `Link` som operatör →
 *Länka*, `Set Parent To` → *Sätt överordnad till*, och `Clear Parent` →
 *Rensa överordnad*. RST-rollerna och kortkommandona är oförändrade.
 
+UI-kontrollen den 5 november visar att `Parent` varierar med sammanhanget:
+den fristående egenskapen använder *Förälder*, men objekt- och
+samlingshierarkin använder *överordnad*. Batchens åtgärdsrubriker följer
+därför hierarkisammanhanget medan förklarande text använder
+*föräldrarelation* när själva relationstypen avses.
+
 ## Kontroller
 
 - `msgfmt --check --statistics`: 8 översatta meddelanden, godkänd syntax.
