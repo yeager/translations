@@ -402,7 +402,8 @@ att deras källsträngar inte längre finns, så de har inte ersatts mekaniskt.
 Batch 49 granskar CacheFile- och kamerabakgrundens rader. Den normaliserar
 tekniska sammansättningar som *cachelager* och *objektsökväg* samt skiljer
 kameraobjektens djupplacering *bakom/framför* från allmän riktning. Batchen är
-lokalt kontrollerad och inväntar arkivering och verifierad import.
+lokalt kontrollerad och arkiverad. Blender Translate bekräftade **13
+bearbetade, 6 uppdaterade, 7 hoppade över och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
