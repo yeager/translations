@@ -366,6 +366,13 @@ etiketter som `skulpterat flygplan` med domänkorrekta termer och dokumenterar
 arkiverad. Blender Translate bekräftade **20 bearbetade, 10 uppdaterade, 10
 hoppade över och 0 saknade**.
 
+Batch 44 granskar de första inställningarna för kurvskulpteringspenslar.
+Den normaliserar bland annat kurvlängd, kurvradie, täthetspensel och
+avtagande längs kurvparametern, samt rättar den felaktiga UI-termen `Poäng per
+kurva`. Batchen är lokalt kontrollerad och väntar på arkivering och verifierad
+import. Svlangs V2-markeringar gäller avsiktligt korta UI-etiketter och
+imperativ, inte fullständiga satser.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade

@@ -173,6 +173,10 @@ Senast uppdaterad: 2026-11-05.
 | sculpt capabilities | funktioner för skulptering | Skrivskyddad uppsättning tillgängliga egenskaper för skulpteringsverktyget. |
 | vertex paint | hörnpunktsmålning | Målningsläge som tilldelar färgdata till meshens hörnpunkter. |
 | weight paint | viktmålning | Målningsläge som tilldelar vikter till meshens hörnpunkter. |
+| curve parameter falloff | avtagande längs kurvparametern | Gradvis förändring av en kurvpensels verkan från spetsen till roten. |
+| curve radius | kurvradie | Radien för en kurva som skapas eller påverkas av kurvpenseln. |
+| Density brush | täthetspensel | Kurvskulpteringspensel som lägger till eller tar bort kurvor utifrån deras minimiavstånd. |
+| scale uniform | skala jämnt | Ändrar kurvors storlek jämnt i stället för att trimma eller extrapolera dem. |
 | Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
 | target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
 | default frame | standardbildruta | Bildruta som motsvarar transformationskanalens neutrala värde. |
