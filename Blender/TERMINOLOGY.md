@@ -502,6 +502,7 @@ Senast uppdaterad: 2026-11-05.
 | bake map | bakningskarta | Bild- eller attributdata som skapas genom att baka renderingsresultat. |
 | emission | emission | Ljus som materialet själv avger i renderingskontext. |
 | soft body | mjukkropp | Fysiksimulerad kroppstyp i Blender. |
+| data-block | datablock | Blenders interna dataenhet; skriv som en sammansättning. |
 
 ## Kontrollerade UI-formuleringar
 
