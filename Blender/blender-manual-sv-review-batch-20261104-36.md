@@ -17,6 +17,11 @@ Kontroll mot UI-katalogen bekräftar bland annat `Graph Editor` →
 *Dölj* och `Show Sliders` → *Visa skjutreglage*. RST-roller,
 `bl-icon`-identifierare, tangentsekvenser och menystruktur är bevarade.
 
+UI- och översättningsminneskontrollen den 5 november bekräftar att
+*värdereglage* är den specifika termen för `Value Slider`, medan
+`Show Sliders` är *Visa skjutreglage*. Skillnaden är avsiktlig och ska
+inte normaliseras mekaniskt.
+
 ## Kontroller
 
 - `msgfmt --check --statistics`: 13 översatta meddelanden, godkänd syntax.
