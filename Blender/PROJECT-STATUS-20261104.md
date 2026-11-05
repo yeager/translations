@@ -256,7 +256,8 @@ felstavade `Startram` i stället för bildrutor. Batchen använder konsekvent
 `lökskalning`, `startbildruta`, `slutbildruta` och de synliga lägena
 `Omkring bildrutan` respektive `På nyckelrutor`. Deltafilen och termlistan är
 lokalt kontrollerade med `msgfmt`, l10n-lint, Hunspell, diffkontroll och
-Gitleaks; importresultatet dokumenteras först efter uppladdning.
+Gitleaks. Blender Translate bekräftade **6 bearbetade, 6 uppdaterade, 0
+hoppade över och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
