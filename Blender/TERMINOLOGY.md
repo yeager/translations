@@ -213,6 +213,10 @@ Senast uppdaterad: 2026-11-05.
 | dynamic topology sculpting | skulptering med dynamisk topologi | Skulpteringsläge som ändrar meshtopologin dynamiskt. |
 | child particle | barnpartikel | Partikel som härleds från en föräldrapartikel. |
 | volume scatter | volymspridning | Spridning av ljus i ett volymmaterial. |
+| guide hairs | guidehår | Hjälphår som visar eller styr partikelhårets form. |
+| strand render | strårendering | Rendering av enskilda hår- eller partikelstrån. |
+| subframe | delbildruta | Simuleringssteg mellan hela bildrutor. |
+| particle path | partikelbana | Bana som en partikel följer över tid. |
 | curve map point | kurvkartpunkt | Punkt i en kurvkartläggning. |
 | support loop | stödslinga | Topologisk loop som kontrollerar skärpan kring en meshdetalj. |
 | mix mode | blandningsläge | Anger hur en Transform Constraint kombinerar position, rotation eller skala med det ursprungliga värdet. |
