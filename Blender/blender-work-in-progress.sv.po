@@ -3409,12 +3409,12 @@ msgstr "Plats för att tillfälligt hålla huvudåtgärden medan du är i tweak-
 #: source/blender/editors/space_outliner/tree/tree_element_driver.cc:28
 #, fuzzy
 msgid "Drivers"
-msgstr "Chaufförer"
+msgstr "Drivrutiner"
 
 #. :src: bpy.types.AnimData.drivers
 #, fuzzy
 msgid "The Drivers/Expressions for this data-block"
-msgstr "Drivkrafterna/uttrycken för detta datablock"
+msgstr "Drivrutinerna/uttrycken för detta datablock"
 
 #. :src: bpy.types.AnimData.last_slot_identifier
 #. :src: bpy.types.ActionConstraint.last_slot_identifier
@@ -3465,7 +3465,7 @@ msgstr "Huruvida tweak-läget i NLA ska aktiveras eller inaktiveras"
 #. :src: bpy.types.AnimDataDrivers
 #, fuzzy
 msgid "Collection of Driver F-Curves"
-msgstr "Samling av förarens F-kurvor"
+msgstr "Samling av F-kurvor för drivrutiner"
 
 #. :src: bpy.types.AnimViz
 #. :src: bpy.types.Object.animation_visualization
@@ -24164,7 +24164,7 @@ msgstr "Variabel Fallback As Error"
 #. :src: bpy.types.DopeSheet.show_driver_fallback_as_error
 #, fuzzy
 msgid "Include drivers that relied on any fallback values for their evaluation in the Only Show Errors filter, even if the driver evaluation succeeded"
-msgstr "Inkludera förare som förlitade sig på reservvärden för sin utvärdering i filtret Visa endast fel, även om förarutvärderingen lyckades"
+msgstr "Inkludera drivrutiner som förlitade sig på reservvärden för sin utvärdering i filtret Visa endast fel, även om drivrutinsutvärderingen lyckades"
 
 #. :src: bpy.types.DopeSheet.show_expanded_summary
 #, fuzzy
@@ -24658,12 +24658,12 @@ msgstr "Ogiltig"
 #. :src: bpy.types.Driver.is_valid
 #, fuzzy
 msgid "Driver could not be evaluated in past, so should be skipped"
-msgstr "Föraren kunde inte utvärderas tidigare och bör därför utelämnas"
+msgstr "Drivrutinen kunde inte utvärderas tidigare och bör därför utelämnas"
 
 #. :src: bpy.types.Driver.type
 #, fuzzy
 msgid "Driver type"
-msgstr "Chaufför typ"
+msgstr "Drivrutinstyp"
 
 #. :src: bpy.types.Driver.type:'AVERAGE'
 #, fuzzy
@@ -24744,7 +24744,7 @@ msgstr "Använd själv"
 #. :src: bpy.types.Driver.use_self
 #, fuzzy
 msgid "Include a 'self' variable in the name-space, so drivers can easily reference the data being modified (object, bone, etc...)"
-msgstr "Inkludera en \"self\"-variabel i namnrymden, så att förare enkelt kan referera till de data som ändras (objekt, ben osv.)"
+msgstr "Inkludera en \"self\"-variabel i namnrymden så att drivrutiner enkelt kan referera till de data som ändras (objekt, ben osv.)"
 
 #. :src: bpy.types.Driver.variables
 #, fuzzy
@@ -24759,12 +24759,12 @@ msgstr "Egenskaper som fungerar som ingångar för denna drivrutin"
 #. :src: bpy.types.DriverTarget
 #, fuzzy
 msgid "Driver Target"
-msgstr "Förarens mål"
+msgstr "Drivrutinsmål"
 
 #. :src: bpy.types.DriverTarget
 #, fuzzy
 msgid "Source of input values for driver variables"
-msgstr "Källa till ingångsvärden för förarvariabler"
+msgstr "Källa till ingångsvärden för drivrutinsvariabler"
 
 #. :src: bpy.types.DriverTarget.bone_target
 #. :src: bpy.types.ARMATURE_OT_collection_unassign_named.bone_name
@@ -24908,7 +24908,7 @@ msgstr "Transformationer inkluderar effekter av begränsningar men inte föräld
 #. :src: bpy.types.DriverVariable.type
 #, fuzzy
 msgid "Driver variable type"
-msgstr "Typ av förarvariabel"
+msgstr "Drivrutinsvariabeltyp"
 
 #. :src: bpy.types.DriverTarget.transform_type:'ROT_W'
 #, fuzzy
@@ -24933,12 +24933,12 @@ msgstr "Använd reservvärdet om datasökvägen inte kan lösas, istället för 
 #. :src: bpy.types.DriverVariable
 #, fuzzy
 msgid "Driver Variable"
-msgstr "Förare variabel"
+msgstr "Drivrutinsvariabel"
 
 #. :src: bpy.types.DriverVariable
 #, fuzzy
 msgid "Variable from some source/target for driver relationship"
-msgstr "Variabel från någon källa/mål för förarrelation"
+msgstr "Variabel från en källa eller ett mål för drivrutinsrelationen"
 
 #. :src: bpy.types.DriverVariable.is_name_valid
 #, fuzzy
@@ -24948,7 +24948,7 @@ msgstr "Är namnet giltigt?"
 #. :src: bpy.types.DriverVariable.is_name_valid
 #, fuzzy
 msgid "Is this a valid name for a driver variable"
-msgstr "Är detta ett giltigt namn för en förarvariabel"
+msgstr "Är detta ett giltigt namn för en drivrutinsvariabel"
 
 #. :src: bpy.types.DriverVariable.name
 #, fuzzy
@@ -26705,12 +26705,12 @@ msgstr "RNA-sökväg till egenskapen som påverkas av F-kurvan"
 #: source/blender/editors/space_graph/graph_buttons.cc:1482
 #, fuzzy
 msgid "Driver"
-msgstr "Chaufför"
+msgstr "Drivrutin"
 
 #. :src: bpy.types.FCurve.driver
 #, fuzzy
 msgid "Channel Driver (only set for Driver F-Curves)"
-msgstr "Channel Driver (endast inställd för Driver F-kurvor)"
+msgstr "Kanaldrivrutin (anges endast för F-kurvor med drivrutin)"
 
 #. :src: bpy.types.FCurve.extrapolation
 #. :src: bpy.types.NlaStrip.extrapolation
@@ -95164,12 +95164,12 @@ msgstr "Logga informationen i kanallistan i terminalen. Denna operatör är enda
 #, fuzzy
 msgctxt "Operator"
 msgid "Add Driver"
-msgstr "Lägg till förare"
+msgstr "Lägg till drivrutin"
 
 #. :src: bpy.types.ANIM_OT_driver_button_add
 #, fuzzy
 msgid "Add driver for the property under the cursor"
-msgstr "Lägg till förare för fastigheten under markören"
+msgstr "Lägg till en drivrutin för egenskapen under markören"
 
 #. :src: bpy.types.ANIM_OT_driver_button_edit
 #: source/blender/editors/interface/interface_context_menu.cc:792
@@ -107586,7 +107586,7 @@ msgstr "Kopiera drivrutinsvariabler"
 #. :src: bpy.types.GRAPH_OT_driver_variables_copy
 #, fuzzy
 msgid "Copy the driver variables of the active driver"
-msgstr "Kopiera förarvariablerna för den aktiva föraren"
+msgstr "Kopiera drivrutinsvariablerna för den aktiva drivrutinen"
 
 #. :src: bpy.types.GRAPH_OT_driver_variables_paste
 #, fuzzy
@@ -107597,7 +107597,7 @@ msgstr "Klistra in drivrutinsvariabler"
 #. :src: bpy.types.GRAPH_OT_driver_variables_paste
 #, fuzzy
 msgid "Add copied driver variables to the active driver"
-msgstr "Lägg till kopierade förarvariabler till den aktiva föraren"
+msgstr "Lägg till kopierade drivrutinsvariabler i den aktiva drivrutinen"
 
 #. :src: bpy.types.GRAPH_OT_driver_variables_paste.replace
 #. :src: bpy.types.GRAPH_OT_fmodifier_paste.replace
@@ -123756,7 +123756,7 @@ msgstr "Uppdatera drivrutiner"
 #. :src: bpy.types.OUTLINER_OT_animdata_operation.type:'CLEAR_DRIVERS'
 #, fuzzy
 msgid "Clear Drivers"
-msgstr "Tydliga förare"
+msgstr "Rensa drivrutiner"
 
 #. :src: bpy.types.OUTLINER_OT_collection_color_tag_set
 #. :src: bpy.types.SEQUENCER_OT_strip_color_tag_set
