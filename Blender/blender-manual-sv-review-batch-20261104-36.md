@@ -26,6 +26,9 @@ inte normaliseras mekaniskt.
 
 - `msgfmt --check --statistics`: 13 översatta meddelanden, godkänd syntax.
 - Radvis jämförelse av `(msgctxt, msgid)` mot råexporten: 13/13 träffar.
+- `l10n-lint --language sv`: en `duplicate-words`-varning för den bevarade
+  menyvägen *Visa → Visa skjutreglage*. Det är två olika UI-etiketter, inte
+  ett dubblerat ord i löpande text.
 - Hunspell `sv_SE`: endast PO-huvudets fält, RST-roller, ikonidentifierare,
   `Ctrl-LMB`, `Tab` och projekttermer som *Dopebladet* och
   *NLA-redigeraren*.
