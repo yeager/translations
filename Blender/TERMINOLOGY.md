@@ -135,6 +135,12 @@ Senast uppdaterad: 2026-11-05.
 | F-Curve | F-kurva | Behåll initialen och använd svenskt ord efter bindestrecket. |
 | action | åtgärd | Animeringsdata i Blender. Behåll *Action* i formella datatyp- eller API-namn. |
 | slot | slot | Etablerat i den aktuella Blender-dokumentationen och UI-kontexten. Böj som *en slot*, *slotten*, *slotar* och *slotarnas*. |
+| action slot | åtgärdsslot | Slot som väljer den delmängd av en Action som en NLA-remsa eller Action Constraint använder. Använd *åtgärdsslot*, *åtgärdsslotten* och *åtgärdsslotar* i synlig UI-text; behåll `action_slot` i API-identifierare. |
+| transform | transformation | Avser objektets position, rotation och skala i Constraint- och Action-kontext. Undvik den bredare formen *omvandling* i dessa etiketter. |
+| Damped Track | Dämpad spårning | Begränsning som riktar en lokal axel mot målet med kortast möjliga rotation. Det är inte en järnvägsspårvidd. |
+| Track Axis | riktningsaxel | Den lokala axel som pekar mot målet i Blenders spårningsbegränsningar. |
+| Track To | Rikta mot | Synlig Constraint-etikett för att orientera objektet mot ett mål. Skilj från film- och rörelsespårning. |
+| Shrinkwrap | Shrinkwrap | Behåll Blenders synliga funktionsnamn. Funktionen anpassar meshens hörnpunkter till en målyta; den är inte förpackningsmaterial som *krympfilm*. Sammansättningar skrivs *Shrinkwrap-modifierare* och *Shrinkwrap-begränsning*. |
 | clipping plane | klippningsplan | Etablerad svensk CAD-/grafikterm. Använd inte *klippplan*, eftersom den formen får tre p i följd. |
 | wireframe | trådram | Befintligt svenskt Blender-UI-namn. Skriv *trådramsläge* för *wireframe mode*. |
 | shape key | formnyckel | Etablerad term i Blenders TBX-ordlista och UI. |
