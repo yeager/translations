@@ -160,6 +160,8 @@ Senast uppdaterad: 2026-11-05.
 | shear | skjuvning | Skev transformationskomponent i armatur- och matrisinställningar; använd inte vardagliga *saxning*. |
 | bone tail | svans | Änden på ett Blender-ben i dataegenskaper. I vissa constraints används däremot den etablerade räknade formen *spets*. |
 | connected bone | anslutet ben | Ett underordnat bens huvud är fast vid det överordnade benets svans. |
+| envelope influence | kuvertets påverkan | Påverkan från ett bens Envelope-volym vid armaturdeformering. |
+| relative parenting | relativ överordning | Armaturinställning som låter underordnade objekt använda relativ transformering. |
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
 | Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
 | target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
