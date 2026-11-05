@@ -404,6 +404,11 @@ Senast uppdaterad: 2026-11-05.
 | dilate/erode | utvidga/erodera | Morfologiska maskåtgärder i kompositören. |
 | feather (mask) | uttoning | Mjuk övergång vid maskens kant, inte en fysisk fjäder. |
 | Cryptomatte | Cryptomatte | Produkt- och formatnamn. Översätt omgivande text, men behåll namnet. |
+| luminance key | luminansnyckling | Friläggningsmetod utifrån skillnader i luminans. |
+| ID mask | ID-mask | Mask från objekt- eller materialindexpass. |
+| straight alpha output | utdata med rak alfa | Utdatabuffert utan förmultiplicerad alfa. |
+| lens distortion: barrel/pincushion | tunnformig/kuddformig förvrängning | Svenska optiska former för radiell linsförvrängning. |
+| box sharpen | rutskärpning | Namn på kompositörens skärpningsfilter. |
 | Keying (compositor) | nyckling | Kompositörens friläggnings-/keyingfunktion, inte nyckelbildrutor. |
 | mesh edge/loop | meshkant/meshslinga | Meshens topologiska kant respektive slinga. |
 | vertex (mesh API) | hörnpunkt | RNA-datatypen *MeshVertex* och dess egenskaper; använd sammansättningar som *hörnpunktsvikt*. |

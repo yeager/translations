@@ -705,6 +705,17 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 115 granskar kompositörens mask-, nycklings-, filter- och
+linsförvrängningsnoder i tre separata radintervall. Tre oberoende
+delgranskningar har jämförts mot RNA-kontext och terminologilistan. Den lokalt
+validerade deltafilen innehåller 43 säkra UI-strängar, bland annat
+*uttoningsavstånd*, *luminansnyckling*, *friläggningsmatta*, *UV-mappning*,
+*brusig* och *utdata med rak alfa*. `msgfmt` och l10n-lint passerar.
+Hunspell-träffarna är kontrollerade Blender- och bildbehandlingstermer;
+svlangs V2-varningar är falska positiv för tekniska etiketter och
+underordnade satser. Batchen är lokalt validerad och arkiveras för import till
+Blender Translate; något importresultat finns ännu inte.
+
 Batch 114 granskar kompositörens färgkorrigering, Cryptomatte, brusreducering
 och friläggningsnoder i tre separata radintervall. Tre oberoende
 delgranskningar har jämförts mot RNA-kontext och terminologilistan. Den lokalt
