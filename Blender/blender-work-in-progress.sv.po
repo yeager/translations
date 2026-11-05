@@ -43128,13 +43128,13 @@ msgstr "Avstånd från kameran"
 #. :src: bpy.types.FreestyleLineStyle.sort_key:'DISTANCE_FROM_CAMERA'
 #, fuzzy
 msgid "Sort by distance from camera (closer lines lie on top of further lines)"
-msgstr "Sortera efter avstånd från kameran (närmare linjer ligger ovanpå längre linjer)"
+msgstr "Sortera efter avstånd från kameran (närmare linjer hamnar ovanpå mer avlägsna linjer)"
 
 #. :src: bpy.types.FreestyleLineStyle.sort_key:'2D_LENGTH'
 #: scripts/startup/bl_ui/properties_freestyle.py:616
 #, fuzzy
 msgid "2D Length"
-msgstr "2D Längd"
+msgstr "2D-längd"
 
 #. :src: bpy.types.FreestyleLineStyle.sort_key:'2D_LENGTH'
 #, fuzzy
@@ -43144,7 +43144,7 @@ msgstr "Sortera efter kurvlinjär 2D-längd (längre linjer ligger ovanpå korta
 #. :src: bpy.types.FreestyleLineStyle.sort_key:'PROJECTED_X'
 #, fuzzy
 msgid "Projected X"
-msgstr "Prognostiserad X"
+msgstr "Projicerad X"
 
 #. :src: bpy.types.FreestyleLineStyle.sort_key:'PROJECTED_X'
 #, fuzzy
@@ -43154,7 +43154,7 @@ msgstr "Sortera efter det projicerade X-värdet i bildkoordinatsystemet"
 #. :src: bpy.types.FreestyleLineStyle.sort_key:'PROJECTED_Y'
 #, fuzzy
 msgid "Projected Y"
-msgstr "Prognostiserad Y"
+msgstr "Projicerad Y"
 
 #. :src: bpy.types.FreestyleLineStyle.sort_key:'PROJECTED_Y'
 #, fuzzy
@@ -43245,19 +43245,19 @@ msgstr "Längd på 3:e spalten för klyvning"
 #. :src: bpy.types.FreestyleLineStyle.split_length
 #, fuzzy
 msgid "Split Length"
-msgstr "Delad längd"
+msgstr "Delningslängd"
 
 #. :src: bpy.types.FreestyleLineStyle.split_length
 #, fuzzy
 msgid "Curvilinear 2D length for chain splitting"
-msgstr "Kurvilinjär 2D-längd för kedjesplittring"
+msgstr "Kurvlinjär 2D-längd för kedjedelning"
 
 #. :src: bpy.types.FreestyleLineStyle.texture_slots
 #. :src: bpy.types.Material.texture_paint_slots
 #. :src: bpy.types.ParticleSettings.texture_slots
 #, fuzzy
 msgid "Texture slots defining the mapping and influence of textures"
-msgstr "Texture slots som definierar mappning och påverkan av texturer"
+msgstr "Texturplatser som definierar texturernas kartläggning och påverkan"
 
 #. :src: bpy.types.FreestyleLineStyle.texture_spacing
 #, fuzzy
@@ -43267,7 +43267,7 @@ msgstr "Avstånd mellan texturer"
 #. :src: bpy.types.FreestyleLineStyle.texture_spacing
 #, fuzzy
 msgid "Spacing for textures along stroke length"
-msgstr "Avstånd för texturer längs slaglängden"
+msgstr "Avstånd för texturer längs streckets längd"
 
 #. :src: bpy.types.FreestyleLineStyle.thickness
 #, fuzzy
@@ -43288,7 +43288,7 @@ msgstr "Lista över modifierare av linjetjocklek"
 #. :src: bpy.types.FreestyleLineStyle.thickness_position
 #, fuzzy
 msgid "Thickness Position"
-msgstr "Tjocklek Position"
+msgstr "Tjockleksposition"
 
 #. :src: bpy.types.FreestyleLineStyle.thickness_position
 #, fuzzy
@@ -43298,17 +43298,17 @@ msgstr "Tjockleksposition för silhuetter och kantkanter (gäller när vanlig ke
 #. :src: bpy.types.FreestyleLineStyle.thickness_position:'CENTER'
 #, fuzzy
 msgid "Silhouettes and border edges are centered along stroke geometry"
-msgstr "Silhuetter och kantkanter är centrerade längs strokegeometrin"
+msgstr "Silhuetter och kantkanter är centrerade längs streckgeometrin"
 
 #. :src: bpy.types.FreestyleLineStyle.thickness_position:'INSIDE'
 #, fuzzy
 msgid "Silhouettes and border edges are drawn inside of stroke geometry"
-msgstr "Silhuetter och kantlinjer ritas inuti stroke-geometrin"
+msgstr "Silhuetter och kantlinjer ritas inuti streckgeometrin"
 
 #. :src: bpy.types.FreestyleLineStyle.thickness_position:'OUTSIDE'
 #, fuzzy
 msgid "Silhouettes and border edges are drawn outside of stroke geometry"
-msgstr "Silhuetter och kantlinjer ritas utanför stroke-geometrin"
+msgstr "Silhuetter och kantlinjer ritas utanför streckgeometrin"
 
 #. :src: bpy.types.FreestyleLineStyle.thickness_position:'RELATIVE'
 #, fuzzy
@@ -43318,12 +43318,12 @@ msgstr "Silhuetter och kantlinjer förskjuts med ett användardefinierat förhå
 #. :src: bpy.types.FreestyleLineStyle.thickness_ratio
 #, fuzzy
 msgid "Thickness Ratio"
-msgstr "Förhållande mellan tjocklek"
+msgstr "Tjockleksförhållande"
 
 #. :src: bpy.types.FreestyleLineStyle.thickness_ratio
 #, fuzzy
 msgid "A number between 0 (inside) and 1 (outside) specifying the relative position of stroke thickness"
-msgstr "Ett tal mellan 0 (insida) och 1 (utsida) som anger den relativa positionen för slagtjockleken"
+msgstr "Ett tal mellan 0 (insida) och 1 (utsida) som anger den relativa positionen för strecktjockleken"
 
 #. :src: bpy.types.FreestyleLineStyle.use_angle_max
 #, fuzzy
@@ -43421,7 +43421,7 @@ msgstr "Samma objekt"
 #. :src: bpy.types.FreestyleLineStyle.use_same_object
 #, fuzzy
 msgid "If true, only feature edges of the same object are joined"
-msgstr "Om true, sammanfogas endast funktionskanter för samma objekt"
+msgstr "Om alternativet är aktiverat sammanfogas endast funktionskanter från samma objekt"
 
 #. :src: bpy.types.FreestyleLineStyle.use_sorting
 #. :src: bpy.types.VIEWLAYER_PT_freestyle_linestyle_strokes_sorting
@@ -43432,17 +43432,17 @@ msgstr "Sortering"
 #. :src: bpy.types.FreestyleLineStyle.use_sorting
 #, fuzzy
 msgid "Arrange the stacking order of strokes"
-msgstr "Ordna staplingsordningen för slag"
+msgstr "Ordna streckens staplingsordning"
 
 #. :src: bpy.types.FreestyleLineStyle.use_split_length
 #, fuzzy
 msgid "Use Split Length"
-msgstr "Använd delad längd"
+msgstr "Använd delningslängd"
 
 #. :src: bpy.types.FreestyleLineStyle.use_split_length
 #, fuzzy
 msgid "Enable chain splitting by curvilinear 2D length"
-msgstr "Möjliggör kedjesplittring genom kurvlinjär 2D-längd"
+msgstr "Aktivera kedjedelning med kurvlinjär 2D-längd"
 
 #. :src: bpy.types.FreestyleLineStyle.use_split_pattern
 #, fuzzy
@@ -43452,7 +43452,7 @@ msgstr "Använd delat mönster"
 #. :src: bpy.types.FreestyleLineStyle.use_split_pattern
 #, fuzzy
 msgid "Enable chain splitting by dashed line patterns"
-msgstr "Möjliggör kedjesplittring genom streckade linjemönster"
+msgstr "Aktivera kedjedelning med streckade linjemönster"
 
 #. :src: bpy.types.FreestyleLineStyle.use_texture
 #, fuzzy
@@ -43473,7 +43473,7 @@ msgstr "Skissbok för frihandsanteckningar"
 #. :src: bpy.types.NodeTree.grease_pencil
 #, fuzzy
 msgid "Grease Pencil data-block"
-msgstr "Grease Pencil data-block"
+msgstr "Grease Pencil-datablock"
 
 #. :src: bpy.types.GreasePencilv3.ghost_after_range
 #, fuzzy
@@ -43488,38 +43488,38 @@ msgstr "Maximalt antal bildrutor som ska visas före aktuell bildruta (0 = visa 
 #. :src: bpy.types.GreasePencilv3.layer_groups
 #, fuzzy
 msgid "Layer Groups"
-msgstr "Skapa grupp"
+msgstr "Lagergrupper"
 
 #. :src: bpy.types.GreasePencilv3.layer_groups
 #, fuzzy
 msgid "Grease Pencil layer groups"
-msgstr "Grease Pencil som PDF"
+msgstr "Grease Pencil-lagergrupper"
 
 #. :src: bpy.types.GreasePencilv3.layers
 #, fuzzy
 msgid "Grease Pencil layers"
-msgstr "Grease Pencil som PDF"
+msgstr "Grease Pencil-lager"
 
 #. :src: bpy.types.GreasePencilv3.onion_factor
 #, fuzzy
 msgid "Onion Opacity"
-msgstr "Lökens opacitet"
+msgstr "Opacitet för lökskal"
 
 #. :src: bpy.types.GreasePencilv3.onion_factor
 #, fuzzy
 msgid "Change fade opacity of displayed onion frames"
-msgstr "Ändra opaciteten för uttonade lökramar som visas"
+msgstr "Ändra opaciteten för visade lökskalsbildrutor"
 
 #. :src: bpy.types.GreasePencilv3.onion_keyframe_type
 #, fuzzy
 msgctxt "GPencil"
 msgid "Filter by Type"
-msgstr "Filtrera text"
+msgstr "Filtrera efter typ"
 
 #. :src: bpy.types.GreasePencilv3.onion_keyframe_type
 #, fuzzy
 msgid "Type of keyframe (for filtering)"
-msgstr "Typ av nyckelram (för filtrering)"
+msgstr "Nyckelbildrutetyp (för filtrering)"
 
 #. :src: bpy.types.GreasePencilv3.onion_keyframe_type:'ALL'
 #, fuzzy
@@ -43530,22 +43530,22 @@ msgstr "Alla"
 #. :src: bpy.types.GreasePencilv3.onion_keyframe_type:'ALL'
 #, fuzzy
 msgid "Include all Keyframe types"
-msgstr "Inkludera alla Keyframe-typer"
+msgstr "Inkludera alla nyckelbildrutetyper"
 
 #. :src: bpy.types.GreasePencilv3.onion_mode
 #, fuzzy
 msgid "Mode to display frames"
-msgstr "Läge för att visa ramar"
+msgstr "Läge för att visa bildrutor"
 
 #. :src: bpy.types.GreasePencilv3.onion_mode:'ABSOLUTE'
 #, fuzzy
 msgid "Frames in absolute range of the scene frame"
-msgstr "Bildrutor inom absolutområdet för scenrutan"
+msgstr "Bildrutor inom scenbildrutans absoluta intervall"
 
 #. :src: bpy.types.GreasePencilv3.onion_mode:'RELATIVE'
 #, fuzzy
 msgid "Frames in relative range of the Grease Pencil keyframes"
-msgstr "Bildrutor i det relativa intervallet för Grease Pencil-keyframes"
+msgstr "Bildrutor inom Grease Pencil-nyckelbildrutornas relativa intervall"
 
 #. :src: bpy.types.GreasePencilv3.onion_mode:'SELECTED'
 #. :src: bpy.types.CURVE_OT_select_nth.nth
@@ -43585,14 +43585,14 @@ msgstr "Vald"
 
 #. :src: bpy.types.GreasePencilv3.onion_mode:'SELECTED'
 msgid "Only selected keyframes"
-msgstr "Endast markerade keyframes"
+msgstr "Endast markerade nyckelbildrutor"
 
 #. :src: bpy.types.GreasePencilv3.stroke_depth_order
 #. :src: bpy.types.OBJECT_OT_grease_pencil_add.stroke_depth_order
 #: scripts/startup/bl_ui/properties_data_grease_pencil.py:439
 #, fuzzy
 msgid "Stroke Depth Order"
-msgstr "Slaglängd Djup Beställning"
+msgstr "Streckens djupordning"
 
 #. :src: bpy.types.GreasePencilv3.stroke_depth_order
 #. :src: bpy.types.OBJECT_OT_grease_pencil_add.stroke_depth_order
@@ -43733,7 +43733,7 @@ msgstr "Lagra RGB-kanaler med alfa multiplicerat i, även kallat associerad alfa
 #. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.alpha_mode:'CHANNEL_PACKED'
 #, fuzzy
 msgid "Channel Packed"
-msgstr "Kanal packad"
+msgstr "Kanalpackning"
 
 #. :src: bpy.types.Image.alpha_mode:'CHANNEL_PACKED'
 #. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.alpha_mode:'CHANNEL_PACKED'
@@ -43757,7 +43757,7 @@ msgstr "Bindkod"
 #. :src: bpy.types.Image.bindcode
 #, fuzzy
 msgid "OpenGL bindcode"
-msgstr "OpenGL bindningskod"
+msgstr "OpenGL-bindningskod"
 
 #. :src: bpy.types.Image.channels
 #, fuzzy
@@ -43782,12 +43782,12 @@ msgstr "Bildbitdjup"
 #. :src: bpy.types.MovieClip.display_aspect
 #, fuzzy
 msgid "Display Aspect"
-msgstr "Display Aspect"
+msgstr "Visningsbildförhållande"
 
 #. :src: bpy.types.Image.display_aspect
 #, fuzzy
 msgid "Display Aspect for this image, does not affect rendering"
-msgstr "Display Aspect för den här bilden, påverkar inte renderingen"
+msgstr "Visningsbildförhållande för den här bilden påverkar inte renderingen"
 
 #. :src: bpy.types.Image.file_format
 #, fuzzy
@@ -43832,7 +43832,7 @@ msgstr "Resultatbild i PNG-format"
 #. :src: bpy.types.NODE_OT_nw_save_viewer.filename_ext:'.jpg'
 #, fuzzy
 msgid "JPEG"
-msgstr "Dra dina .jpg-, .jpeg- eller .png-filer hit eller "
+msgstr "JPEG"
 
 #. :src: bpy.types.Image.file_format:'JPEG'
 #. :src: bpy.types.ImageFormatSettings.file_format:'JPEG'
@@ -43944,7 +43944,7 @@ msgstr "WebP"
 #. :src: bpy.types.ImageFormatSettings.file_format:'WEBP'
 #, fuzzy
 msgid "Output image in WebP format"
-msgstr "Utmatad bild i WebP-format"
+msgstr "Resultatbild i WebP-format"
 
 #. :src: bpy.types.Image.file_format:'FFMPEG'
 #. :src: bpy.types.ImageFormatSettings.file_format:'FFMPEG'
@@ -44085,14 +44085,14 @@ msgstr "Har data"
 #. :src: bpy.types.Image.has_data
 #, fuzzy
 msgid "True if the image data is loaded into memory"
-msgstr "True om bilddata laddas in i minnet"
+msgstr "Sant om bilddata har lästs in i minnet"
 
 #. :src: bpy.types.Image.is_dirty
 #. :src: bpy.types.Text.is_dirty
 #. :src: bpy.types.Preferences.is_dirty
 #, fuzzy
 msgid "Dirty"
-msgstr "Smutsig"
+msgstr "Ändrad"
 
 #. :src: bpy.types.Image.is_dirty
 #, fuzzy
@@ -44102,7 +44102,7 @@ msgstr "Bilden har förändrats och är inte sparad"
 #. :src: bpy.types.Image.is_float
 #, fuzzy
 msgid "Is Float"
-msgstr "Är flytande"
+msgstr "Är flyttal"
 
 #. :src: bpy.types.Image.is_float
 #, fuzzy
@@ -44180,7 +44180,7 @@ msgstr "Bildbuffertens pixlar i värden med flytande kommatecken"
 #. :src: bpy.types.IMAGE_PT_render_slots
 #, fuzzy
 msgid "Render Slots"
-msgstr "Render spelautomater"
+msgstr "Renderingsplatser"
 
 #. :src: bpy.types.Image.render_slots
 #, fuzzy
@@ -44195,7 +44195,7 @@ msgstr "X/Y-pixlar per meter, för bildbufferten"
 #. :src: bpy.types.Image.seam_margin
 #, fuzzy
 msgid "Seam Margin"
-msgstr "Söm Marginal"
+msgstr "Sömmarginal"
 
 #. :src: bpy.types.Image.seam_margin
 #, fuzzy

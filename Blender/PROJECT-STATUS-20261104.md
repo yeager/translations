@@ -534,6 +534,16 @@ sammansättningar som har kontrollerats manuellt. Batchen är lokalt validerad
 och arkiveras för import till Blender Translate; något importresultat finns
 ännu inte.
 
+Batch 81 granskar Freestyle-kedjor, Grease Pencil-lager och bildinställningar
+rad för rad. Tre oberoende, skrivskyddade delgranskningar har arbetat med
+avgränsade stränggrupper och jämförts mot RNA-kontexten. Deltafilen innehåller
+46 säkra UI-strängar och normaliserar bland annat *kedjedelning*,
+*streckgeometri*, *lökskal*, *nyckelbildruta*, *renderingsplats* och
+*sömmarginal*. `msgfmt`, l10n-lint och diffkontrollen passerar. Svlang-
+träffarna är kontrollerade tekniska sammansättningar och korta UI-etiketter.
+Batchen är lokalt validerad och arkiveras för import till Blender Translate;
+något importresultat finns ännu inte.
+
 Batch 61 granskar kurvdata, beroendegrafen och Dope Sheet-filter rad för rad.
 Två oberoende, skrivskyddade delgranskningar har jämförts med RNA-kontext och
 befintlig Blender-terminologi. Den lokalt validerade deltafilen normaliserar

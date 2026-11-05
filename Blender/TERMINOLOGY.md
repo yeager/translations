@@ -180,6 +180,12 @@ Senast uppdaterad: 2026-11-05.
 | Freestyle line style | Freestyle-linjestil | Freestyles inställningsobjekt för den renderade konturlinjen. |
 | stroke geometry | streckgeometri | Geometrin för ett Freestyle-streck; inte *slaggeometri*. |
 | chain vertex | kedjehörnpunkt | Hörnpunkt i Freestyles kedja av funktionskanter. |
+| chain splitting | kedjedelning | Freestyle-funktion som delar en kedja utifrån längd eller mönster. |
+| split length | delningslängd | Kurvlinjär 2D-längd som används vid Freestyle-kedjedelning. |
+| stroke depth order | streckens djupordning | Anger hur Grease Pencil-streck ordnas i 3D-rymden. |
+| onion opacity | opacitet för lökskal | Opaciteten för Grease Pencil-bildrutor som visas före och efter aktuell bildruta. |
+| render slot | renderingsplats | Sparad renderingsbuffert i Blenders bildredigerare. |
+| seam margin | sömmarginal | Marginal vid fixering av UV-sömmar under målning. |
 | curve map point | kurvkartpunkt | Punkt i en kurvkartläggning. |
 | support loop | stödslinga | Topologisk loop som kontrollerar skärpan kring en meshdetalj. |
 | mix mode | blandningsläge | Anger hur en Transform Constraint kombinerar position, rotation eller skala med det ursprungliga värdet. |
