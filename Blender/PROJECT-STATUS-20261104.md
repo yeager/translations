@@ -348,8 +348,9 @@ andra formella identifierare behålls, medan synlig svensk UI-text använder
 `färguppsättning`, `urvalsuppsättning` och `bensamling`. Deltafilen och
 termlistan har passerat `msgfmt`, l10n-lint, svlang, Hunspell, diffkontroll och
 Gitleaks. Den enda svlang-markeringen gäller en korrekt parentetisk
-UI-beskrivning. Batchen är arkiverad lokalt och väntar på verifierad uppladdning
-till Blender Translate.
+UI-beskrivning. Blender Translate bekräftade **15 bearbetade, 0 uppdaterade,
+15 hoppade över och 0 saknade**. Samtliga poster hade redan samma eller nyare
+värden på servern.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
