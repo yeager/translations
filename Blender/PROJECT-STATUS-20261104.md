@@ -295,6 +295,15 @@ manuellt verifierade som korrekta. Blender Translate bekräftade **9 bearbetade,
 0 uppdaterade, 9 hoppade över och 0 saknade**. Samtliga poster hade redan samma
 eller nyare värden på servern.
 
+Batch 36 granskar armaturens inställning för ärvd skalning. Tidigare svenska
+texter blandade vardagsord som `förälder`, `barn`, `saxen` och engelska
+`Legacy`; batchen använder i stället den tekniskt korrekta hierarkin
+`överordnat`/`underordnat`, `skjuvning` och `äldre version`. Deltafilen och
+termlistan har passerat `msgfmt`, l10n-lint, svlang, Hunspell, diffkontroll och
+Gitleaks. `svlang` markerar en korrekt bisats och en kort uppmaning; de är
+manuellt verifierade. Batchen är arkiverad lokalt och väntar på verifierad
+uppladdning till Blender Translate.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade

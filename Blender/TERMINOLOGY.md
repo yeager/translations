@@ -156,6 +156,8 @@ Senast uppdaterad: 2026-11-05.
 | bone collection | bensamling | Blender-samling för ben; skriv ihop i synlig UI-text. |
 | Envelope deform | kuvertdeformering | Deformeringsmetoden som använder benens kuvertvolymer; använd i Bens/Armaturens egenskaper. |
 | armature-relative | relativt riggskelett | Position eller orientering uttryckt i armaturens lokala koordinatsystem. |
+| inherit scale | ärv skala | Armaturinställning som styr hur ett underordnat ben tar emot skalning från ett överordnat ben. |
+| shear | skjuvning | Skev transformationskomponent i armatur- och matrisinställningar; använd inte vardagliga *saxning*. |
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
 | Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
 | target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
