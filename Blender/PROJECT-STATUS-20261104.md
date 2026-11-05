@@ -301,8 +301,9 @@ texter blandade vardagsord som `förälder`, `barn`, `saxen` och engelska
 `överordnat`/`underordnat`, `skjuvning` och `äldre version`. Deltafilen och
 termlistan har passerat `msgfmt`, l10n-lint, svlang, Hunspell, diffkontroll och
 Gitleaks. `svlang` markerar en korrekt bisats och en kort uppmaning; de är
-manuellt verifierade. Batchen är arkiverad lokalt och väntar på verifierad
-uppladdning till Blender Translate.
+manuellt verifierade. Blender Translate bekräftade **10 bearbetade, 0
+uppdaterade, 10 hoppade över och 0 saknade**. Samtliga poster hade redan samma
+eller nyare värden på servern.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
