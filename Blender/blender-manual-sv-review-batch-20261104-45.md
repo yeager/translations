@@ -30,3 +30,11 @@ färgmodellsförkortningar. RST-roller och destinationsmål är intakta.
 Batch 1–45 omfattar nu 505 verifierade manualdelta-poster enligt den samlade
 `msgfmt`-kontrollen. Råexporten är orörd; den samlade uppladdningen måste ändå
 delas i högst 100-strängars batcher enligt Weblate-flödet.
+
+## Terminologisk efterkontroll 5 november
+
+UI-katalogen belägger **Färgväljarens typ**, **Rubrikposition**,
+**Behåll befintligt**, **Visningstyp för faktor** och **Procentandel**.
+Manualens rubriktexter och den förklarande texten följer nu samma termval.
+Särskilt har den tvetydiga formuleringen om placeringen överst skrivits om
+så att den beskriver rubrikens beteende direkt.

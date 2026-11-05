@@ -23,6 +23,9 @@ Senast uppdaterad: 2026-11-04.
 | Timecode Style | tidskodstil | Inställning som bestämmer hur uppspelningens varaktighet visas. |
 | System Memory | systemminne | UI-rubrik för uppskattad RAM-användning. |
 | New Data | Nya data | Gäller nya Blender-datablock; inte *nya uppgifter*. |
+| Color Picker Type | Färgväljarens typ | Följer den aktuella svenska UI-etiketten. |
+| Header Position | rubrikposition | Följer UI-etiketten i Inställningar. Använd *rubrik* i närliggande manualtext för att undvika konkurrerande former. |
+| Percentage | procentandel | UI-värde för faktorvisning. |
 | add-on / extension | tillägg | I Blender betecknar båda källtermerna samma utbyggbara funktion. Svenska använder samma form i singular och plural i korta UI-etiketter. I dokumentation som måste skilja undergruppen *add-ons* från samlingsnamnet *extensions* kan *tilläggsmoduler* användas för just undergruppen. |
 | data-block | datablock | Skriv ihop. Behåll bindestrecket bara i bokstavliga API-namn. |
 | object | objekt | Etablerad Blender-term. |
