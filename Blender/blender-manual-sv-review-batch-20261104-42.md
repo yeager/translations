@@ -21,6 +21,11 @@ En efterkontroll mot UI-exporten den 5 november bekräftade `Cyklisk` som den
 faktiska etiketten. I den löpande meningen skrivs därför *alternativet
 Cyklisk* för att uttrycket ska bli grammatiskt korrekt på svenska.
 
+NURBS-källans *endpoint clamping* kontrollerades även mot fackbeskrivningen:
+inställningen gör att kurvan går genom den första och sista kontrollpunkten.
+Den svenska förklaringen använder därför *slutpunktsinterpolation* i stället
+för den missvisande allmänformen *begränsning vid slutpunkterna*.
+
 Den tidigare svenska texten i råexporten innehåller flera felkopplade eller
 ofullständiga måltexter för dessa nycklar. Detta är därför en kontextstyrd
 ersättningsbatch, inte en mekanisk fyllning av tomma strängar.
