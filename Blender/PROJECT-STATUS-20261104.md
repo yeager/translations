@@ -434,7 +434,8 @@ Transform`; servern har inte längre motsvarande källsträngar.
 Batch 54 granskar färgrampsredigeringens konkreta UI-rader. Den rättar en
 felaktigt delad sammansättning, en uppenbart förvanskad HSV-översättning, en
 felaktig interpolationsterm och böjningen i hjälptipsen för färgstopp. Den
-avgränsade deltafilen är lokalt validerad och väntar på verifierad import.
+avgränsade deltafilen är lokalt validerad och arkiverad. Blender Translate
+bekräftade **5 bearbetade, 3 uppdaterade, 2 hoppade över och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
