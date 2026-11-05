@@ -362,6 +362,10 @@ Senast uppdaterad: 2026-11-05.
 | stateful/stateless solver | tillståndsbaserad/tillståndslös lösare | Avser om lösaren bevarar tillstånd mellan steg. |
 | lossy/lossless compression | komprimering med/utan förlust | Kodnings- och formatbeskrivning, inte *förlorad/förlustfri* blandat. |
 | float image values | flyttalsbildvärden | Använd *flyttal*, inte engelska *float*, i förklarande UI-text. |
+| keymap | tangentmappning | Blenders konfiguration som kopplar tangent- och musinmatning till operatorer. |
+| keymap item | tangentmappningspost | En enskild post i en tangentmappning. |
+| key configuration | tangentkonfiguration | Samling av Blender-tangentmappningar. |
+| tile (UDIM/image) | platta | Bild- eller UDIM-platta; inte kakel. |
 
 ## Kontrollerade UI-formuleringar
 

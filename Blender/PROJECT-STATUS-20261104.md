@@ -704,3 +704,11 @@ Den lokalt validerade deltafilen innehåller 60 säkra UI-strängar, bland annat
 Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter,
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
+
+Batch 92 granskar bilddata och Blenders tangent- och musinmatning i tre
+separata radintervall. Tre oberoende delgranskningar har jämförts mot
+RNA-kontext och terminologilistan. Den lokalt validerade deltafilen innehåller
+30 säkra UI-strängar, bland annat *flyttalsbildpixlar*, *bildrutenummer*,
+*tangentmappning*, *tangentmappningspost*, *musknapp* och *radmatning*.
+`msgfmt` och l10n-lint passerar. Batchen är lokalt validerad och arkiveras för
+import till Blender Translate; något importresultat finns ännu inte.
