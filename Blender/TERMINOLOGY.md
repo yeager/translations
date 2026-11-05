@@ -40,6 +40,7 @@ Senast uppdaterad: 2026-11-05.
 | workspace | arbetsyta | Den etablerade UI-formen, exempelvis *Workspace* → *Arbetsyta*. |
 | pie menu | cirkelmeny | Följer den aktuella svenska Blender-UI-katalogen. |
 | Essentials | Grundresurser | Översatt UI-namn för Blenders medföljande resurser. I löpande text: *resursbiblioteket Grundresurser*. |
+| Essentials Library | grundresursbiblioteket | Rubrik i manualen för det inbyggda biblioteket med *Grundresurser*. Använd inte detta för den fristående UI-etiketten *Essentials*, som är *Grundresurser*. |
 | Cyclic | Cyklisk | Kurv- och splineinställning. Skriv vid behov *alternativet Cyklisk* för korrekt svensk kongruens. |
 | endpoint clamping | slutpunktsinterpolation | NURBS-egenskap som gör att kurvan går genom den första och sista kontrollpunkten. Använd inte den otydliga allmänformen *begränsning vid slutpunkterna*. |
 | Numeric Input Arrows | Numeriska inmatningspilar | Följer den faktiska svenska UI-etiketten. |

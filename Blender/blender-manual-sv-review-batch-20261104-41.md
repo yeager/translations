@@ -21,6 +21,11 @@ den närliggande UI-kontexten. RST-roller, RST-mål och produktnamnet Blender
 är bevarade. `bpy.types.PreferencesSystem.use_online_access` är ett
 programmeringsidentifierare och ska därför inte översättas.
 
+En förnyad kontroll mot UI-exporten den 5 november bekräftar både den
+fristående etiketten *Grundresurser* och rubrikformen
+*Grundresursbiblioteket*. De betecknar olika syntaktiska sammanhang och ska
+inte mekaniskt ersätta varandra.
+
 ## Kontroller
 
 - `msgfmt --check --statistics`: 7 översatta meddelanden och godkänd syntax.
