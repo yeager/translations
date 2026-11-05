@@ -17,6 +17,10 @@ UI-termerna har kontrollerats mot Blender-katalogen: `Curve Data` →
 och `Catmull Rom` bevaras som etablerade namn. RST-markeringar och
 menystrukturen är oförändrade.
 
+En efterkontroll mot UI-exporten den 5 november bekräftade `Cyklisk` som den
+faktiska etiketten. I den löpande meningen skrivs därför *alternativet
+Cyklisk* för att uttrycket ska bli grammatiskt korrekt på svenska.
+
 Den tidigare svenska texten i råexporten innehåller flera felkopplade eller
 ofullständiga måltexter för dessa nycklar. Detta är därför en kontextstyrd
 ersättningsbatch, inte en mekanisk fyllning av tomma strängar.

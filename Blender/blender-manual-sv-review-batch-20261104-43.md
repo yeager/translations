@@ -16,6 +16,10 @@ och deras mål är bevarade. *Minska rörelse* återger tillgänglighetsfunktion
 `Reduce Motion` utan att felaktigt ge intryck av att själva animationen ska
 upprepas.
 
+En efterkontroll mot UI-exporten den 5 november bekräftade den exakta
+etiketten *Numeriska inmatningspilar*, som används i batchen i stället för en
+fri omskrivning.
+
 ## Kontroller
 
 - `msgfmt --check --statistics`: 17 översatta meddelanden och godkänd syntax.
