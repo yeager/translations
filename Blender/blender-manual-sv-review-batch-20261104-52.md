@@ -31,3 +31,12 @@ svårlästa sammansättningen *fjärrresursbibliotek* med tre `r` i följd.
 
 Råexporten är orörd. Deltafilen är lokalt validerad men inte uppladdad till
 Blender Translate.
+
+## Terminologisk efterkontroll 5 november
+
+Den aktuella UI-katalogen belägger **Resursbibliotek**, **Resursbläddrare**
+och **Åtkomsttoken**. De mer precisa rubrikerna **biblioteksåtkomsttoken**
+och **förrådsåtkomsttoken** behövs här eftersom manualen beskriver två skilda
+autentiseringsflöden. **Fjärranslutet resursbibliotek** beskriver att
+biblioteket nås via en fjärrtjänst och undviker den svårlästa formen med tre
+r i följd.
