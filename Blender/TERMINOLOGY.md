@@ -177,6 +177,12 @@ Senast uppdaterad: 2026-11-05.
 | curve radius | kurvradie | Radien för en kurva som skapas eller påverkas av kurvpenseln. |
 | Density brush | täthetspensel | Kurvskulpteringspensel som lägger till eller tar bort kurvor utifrån deras minimiavstånd. |
 | scale uniform | skala jämnt | Ändrar kurvors storlek jämnt i stället för att trimma eller extrapolera dem. |
+| Vertex Color | hörnpunktsfärg | Färgdata som lagras per hörnpunkt; översätt både UI-läget och den förklarande texten. |
+| caps type | ändtyp | Form på början och slutet av ett Grease Pencil-penseldrag. |
+| curve jitter | slumpningskurva | Kurva som styr slumpvariationen för Grease Pencil-penseln. |
+| curve sensitivity | känslighetskurva | Kurva som styr Grease Pencil-penselns känslighet. |
+| curve strength | styrkekurva | Kurva som styr Grease Pencil-penselns styrka. |
+| dilate/contract | utvidga/dra samman | Ändrar ett fyllningsområdes omfattning med ett antal pixlar. |
 | Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
 | target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
 | default frame | standardbildruta | Bildruta som motsvarar transformationskanalens neutrala värde. |
