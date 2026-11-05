@@ -1,0 +1,259 @@
+# Blender Manual Swedish review delta, 2026-11-05.
+# Source snapshot: exports/2026-11-04/blender-manual-manual-sv.po
+# Review scope: Rigify fingers, spline tentacles and spine controls.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Manual\n"
+"PO-Revision-Date: 2026-11-05 12:25+0100\n"
+"Last-Translator: Swedish localization review\n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../manual/addons/rigify/rig_features.rst:277
+msgid ""
+"IK in this sub-rig is rudimentary and operates as an adjustment for FK. "
+"The intended way of use is to pose the finger in FK, and then enable IK "
+"after using IK->FK snap if it is necessary to pin the tip of the finger "
+"in place."
+msgstr ""
+"IK i den här underriggen är enkel och fungerar som en justering av FK. "
+"Det avsedda arbetssättet är att posera fingret med FK och sedan aktivera "
+"IK efter IK->FK-anpassning, om fingertoppen behöver hållas på plats."
+
+#: ../../manual/addons/rigify/rig_features.rst:288
+msgid "Slider controlling the influence of the IK."
+msgstr "Ett skjutreglage som styr IK:ns påverkan."
+
+#: ../../manual/addons/rigify/rig_features.rst:291
+msgid ""
+"Snaps the IK control to the end of the finger, or adjusts the FK controls"
+" to the result of the IK correction."
+msgstr ""
+"Anpassar IK-kontrollen till fingrets ände eller FK-kontrollerna till "
+"resultatet av IK-korrigeringen."
+
+#: ../../manual/addons/rigify/rig_features.rst:294
+msgid ""
+"Has the same effect as *Rubber Tweak* on limbs, controlling the rubber "
+"hose cartoon effect."
+msgstr ""
+"Har samma effekt som *Rubber Tweak* för extremiteter och styr den "
+"tecknade effekten av gummislang."
+
+#: ../../manual/addons/rigify/rig_features.rst:301
+msgid "Spline Tentacle (Stretch To Fit, Manual Squash & Stretch)"
+msgstr "Spline-tentakel (Stretch To Fit, Manual Squash & Stretch)"
+
+#: ../../manual/addons/rigify/rig_features.rst:305
+msgid "Spline Tentacle (Direct Tip Control)"
+msgstr "Spline-tentakel (Direct Tip Control)"
+
+#: ../../manual/addons/rigify/rig_features.rst:307
+msgid ""
+"The :ref:`spline tentacle <rigify.rigs.limbs.spline_tentacle>` is an "
+"advanced rig for a flexible appendage (tentacle) based on the "
+":doc:`Spline IK </animation/constraints/tracking/spline_ik>` constraint. "
+"The IK control bones manage control points of a Bezier spline curve, "
+"which in turn is followed by the IK chain."
+msgstr ""
+"Underriggen :ref:`spline tentacle <rigify.rigs.limbs.spline_tentacle>` "
+"är en avancerad rigg för ett flexibelt bihang, en tentakel, och bygger på "
+":doc:`Spline IK </animation/constraints/tracking/spline_ik>`-begränsningen. "
+"IK-kontrollbenen hanterar kontrollpunkterna i en Bezier-splinekurva, som "
+"IK-kedjan sedan följer."
+
+#: ../../manual/addons/rigify/rig_features.rst:311
+msgid "The tentacle can be generated in three major modes:"
+msgstr "Tentakeln kan genereras i tre huvudlägen:"
+
+#: ../../manual/addons/rigify/rig_features.rst:314
+msgid ""
+"In this simplest mode all bones of the sub-rig deform chain follow the "
+"curve and squash & stretch to match its length."
+msgstr ""
+"I det enklaste läget följer alla ben i underriggens deformationskedja "
+"kurvan och komprimeras eller sträcks för att passa dess längd."
+
+#: ../../manual/addons/rigify/rig_features.rst:317
+msgid ""
+"This mode is almost the same, but the chain does not automatically scale "
+"to match the curve length. Instead, it tries to cover as much as possible"
+" of the curve given its manually scaled length. If the curve is too "
+"short, the chain will overhang it and straighten out, but this can result"
+" in jitter."
+msgstr ""
+"Det här läget är nästan likadant, men kedjan skalas inte automatiskt för "
+"att passa kurvans längd. I stället försöker den täcka så mycket som möjligt "
+"av kurvan utifrån sin manuellt skalade längd. Om kurvan är för kort sticker "
+"kedjan ut över den och rätas ut, vilket kan orsaka ryckighet."
+
+#: ../../manual/addons/rigify/rig_features.rst:321
+msgid ""
+"This mode is more similar to the behavior of IK limbs: the final bone of "
+"the chain is directly controlled by the tip IK control, while the other "
+"bones of the chain stretch and follow the curve to bridge the gap."
+msgstr ""
+"Det här läget liknar mer hur IK-extremiteter fungerar: kedjans sista ben "
+"styrs direkt av spetsens IK-kontroll, medan de övriga benen sträcks och "
+"följer kurvan för att överbrygga avståndet."
+
+#: ../../manual/addons/rigify/rig_features.rst:324
+msgid "The tentacle sub-rig has the following control bones:"
+msgstr "Tentakelunderriggen har följande kontrollben:"
+
+#: ../../manual/addons/rigify/rig_features.rst:327
+msgid ""
+"The tentacle has the same gear master control as other limbs (seen as a "
+"line in the images)."
+msgstr ""
+"Tentakeln har samma kugghjulsformade huvudkontroll som andra extremiteter, "
+"vilken visas som en linje i bilderna."
+
+#: ../../manual/addons/rigify/rig_features.rst:329
+msgid ""
+"The IK control at the base of the tentacle, which can be used to control "
+"the base twist and sideways scale, and is one of the potential switchable"
+" parents for other IK controls."
+msgstr ""
+"IK-kontrollen vid tentakelns bas styr basvridningen och skalningen i sidled "
+"och är ett möjligt överordnat ben som kan växlas för andra IK-kontroller."
+
+#: ../../manual/addons/rigify/rig_features.rst:334
+msgid ""
+"Extra start controls, optional and hidden by default. Switchable parents "
+"default to the *IK Start* control. The scale of the control may "
+"optionally affect the thickness of the chain via the radius of the curve "
+"point."
+msgstr ""
+"Extra startkontroller är valfria och döljs som standard. Växlingsbara "
+"överordnade ben använder som standard kontrollen *IK Start*. Kontrollens "
+"skala kan valfritt påverka kedjans tjocklek genom kurvpunktens radie."
+
+#: ../../manual/addons/rigify/rig_features.rst:337
+msgid ""
+"Controls for the middle of the curve. The switchable parents default to "
+"*Master*, but may be set to *IK Start* or *IK End* controls. The scale of"
+" the control may optionally affect the thickness of the chain via the "
+"radius of the curve point."
+msgstr ""
+"Kontroller för kurvans mitt. De växlingsbara överordnade benen använder "
+"som standard *Master*, men kan ställas till kontrollerna *IK Start* eller "
+"*IK End*. Kontrollens skala kan valfritt påverka kedjans tjocklek genom "
+"kurvpunktens radie."
+
+#: ../../manual/addons/rigify/rig_features.rst:341
+msgid ""
+"Extra end controls, optional and hidden by default. Switchable parents "
+"default to the *IK End* control. The scale of the control may optionally "
+"affect the thickness of the chain via the radius of the curve point."
+msgstr ""
+"Extra slutkontroller är valfria och döljs som standard. Växlingsbara "
+"överordnade ben använder som standard kontrollen *IK End*. Kontrollens "
+"skala kan valfritt påverka kedjans tjocklek genom kurvpunktens radie."
+
+#: ../../manual/addons/rigify/rig_features.rst:346
+msgid ""
+"Controls the last control point of the curve, and is one of the potential"
+" parents for the other chain controls."
+msgstr ""
+"Styr kurvans sista kontrollpunkt och är ett möjligt överordnat ben för de "
+"andra kedjekontrollerna."
+
+#: ../../manual/addons/rigify/rig_features.rst:367
+msgid ""
+"When a control is disabled, it is snapped to a position extremely close "
+"to the corresponding end control point, thus effectively neutralizing its"
+" effect. Thus, changing the setting during an animation can cause jumps."
+msgstr ""
+"När en kontroll inaktiveras anpassas den till en position mycket nära "
+"motsvarande slutkontrollpunkt, vilket i praktiken neutraliserar dess "
+"effekt. Att ändra inställningen under en animation kan därför orsaka hopp."
+
+#: ../../manual/addons/rigify/rig_features.rst:370
+msgid ""
+"The plus and minus buttons can help with maintaining a continuous "
+"transition in an animation by keyframing the change in the property value"
+" with Constant interpolation, and also snapping and keyframing the "
+"control itself to its 'hidden' position."
+msgstr ""
+"Plus- och minusknapparna kan bevara en obruten övergång i en animation. "
+"De sätter nyckelbildrutor för ändringen av egenskapsvärdet med konstant "
+"interpolering och anpassar samtidigt kontrollen till dess dolda position "
+"med en nyckelbildruta."
+
+#: ../../manual/addons/rigify/rig_features.rst:384
+msgid ""
+"If the FK controls are enabled, these provide standard IK-FK switching "
+"and snapping."
+msgstr ""
+"Om FK-kontrollerna är aktiverade får du standardfunktioner för IK-FK-växling "
+"och anpassning."
+
+#: ../../manual/addons/rigify/rig_features.rst:386
+msgid ""
+"However, unlike other limbs, for this rig automatic IK to FK snapping can"
+" only be approximate and requires manual tuning. For this reason, buttons"
+" for baking the snapping over a range of keyframes are not provided."
+msgstr ""
+"Till skillnad från andra extremiteter kan automatisk anpassning från IK "
+"till FK för denna rigg bara bli ungefärlig och kräver manuell finjustering. "
+"Därför finns inga knappar för att baka anpassningen över ett intervall av "
+"nyckelbildrutor."
+
+#: ../../manual/addons/rigify/rig_features.rst:389
+msgid "Parent Switch"
+msgstr "Växla överordnat ben"
+
+#: ../../manual/addons/rigify/rig_features.rst:390
+msgid "Switches the parent of the selected IK control."
+msgstr "Växlar det överordnade benet för den valda IK-kontrollen."
+
+#: ../../manual/addons/rigify/rig_features.rst:401
+msgid "Spine"
+msgstr "Ryggrad"
+
+#: ../../manual/addons/rigify/rig_features.rst:403
+msgid ""
+"The :ref:`spine <rigify.rigs.spines.basic_spine>` sub-rig provides a cube"
+" shaped torso control with switchable parent, and bent circle shaped hip "
+"and chest controls subordinate to it. For low level deformation tweak "
+"controls are provided."
+msgstr ""
+"Underriggen :ref:`spine <rigify.rigs.spines.basic_spine>` ger en "
+"kubformad torsokontroll med växlingsbart överordnat ben samt böjda, "
+"cirkelformade höft- och bröstkontroller som är underordnade den. För "
+"detaljerad deformation finns finjusteringskontroller."
+
+#: ../../manual/addons/rigify/rig_features.rst:407
+msgid ""
+"The torso control can optionally be accompanied with a custom pivot "
+"control. The rig can also optionally provide a full set of FK controls "
+"that are subordinate to the normal simplified ones, but above tweaks."
+msgstr ""
+"Torsokontrollen kan valfritt få en anpassad vridpunktskontroll. Riggen kan "
+"också innehålla en fullständig uppsättning FK-kontroller som är underordnade "
+"de vanliga förenklade kontrollerna men över finjusteringskontrollerna."
+
+#: ../../manual/addons/rigify/rig_features.rst:420
+msgid ""
+"The :ref:`head <rigify.rigs.spines.super_head>` sub-rig attaches to the "
+"end of the spine, and provides rotational controls for the head and neck,"
+" as well as tweaks for fine control of the neck."
+msgstr ""
+"Underriggen :ref:`head <rigify.rigs.spines.super_head>` fästs vid "
+"ryggradens ände och ger rotationskontroller för huvud och nacke samt "
+"finjusteringskontroller för nacken."
+
+#: ../../manual/addons/rigify/rig_features.rst:447
+msgid ""
+"The :ref:`tail <rigify.rigs.spines.basic_tail>` sub-rig attaches to the "
+"start of the spine, and provides FK controls for the tail, as well as a "
+"master control that replicates its local rotation around certain axes to "
+"all individual bones."
+msgstr ""
+"Underriggen :ref:`tail <rigify.rigs.spines.basic_tail>` fästs vid "
+"ryggradens början och ger FK-kontroller för svansen samt en huvudkontroll "
+"som kopierar sin lokala rotation kring vissa axlar till alla enskilda ben."
