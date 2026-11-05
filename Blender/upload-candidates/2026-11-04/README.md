@@ -30,7 +30,10 @@ sammanlagda katalogen innehåller 658 översatta meddelanden enligt `msgfmt`.
 - Gitleaks har skannat hela kandidatkatalogen utan träffar.
 - Terminologin är avstämd mot den aktuella Blender-UI-katalogen, projektets
   svenska översättningsminne och `Blender/TERMINOLOGY.md`.
-- Råexporten i `../../exports/2026-11-04/` har inte ändrats.
+- Råexporten i `../../exports/2026-11-04/` har inte ändrats. Den innehåller
+  58 dubbla PO-definitioner och kan därför inte valideras direkt med
+  `msgattrib`; de separata deltafilerna och de genererade kandidaterna är
+  däremot giltiga och har validerats med `msgfmt`.
 
 Ladda upp filerna i nummerordning till den **generiska** Manual-komponenten,
 inte till versionskomponenterna 4.5, 5.2 eller 5.3. Efter varje uppladdning
