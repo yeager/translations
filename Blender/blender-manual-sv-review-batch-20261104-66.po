@@ -1,0 +1,297 @@
+# Blender Manual Swedish review delta, 2026-11-05.
+# Source snapshot: exports/2026-11-04/blender-manual-manual-sv.po
+# Review scope: Rigify generated-rig terminology and animation controls.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Manual\n"
+"PO-Revision-Date: 2026-11-05 12:10+0100\n"
+"Last-Translator: Swedish localization review\n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../manual/addons/rigify/rig_features.rst:79
+msgid "Many limb-like sub-rigs have a gear-shaped bone at their base."
+msgstr "Många extremitetsliknande underriggar har ett kugghjulsformat ben vid basen."
+
+#: ../../manual/addons/rigify/rig_features.rst:81
+msgid ""
+"This bone can in some cases be used to transform the whole sub-rig as a "
+"rigid unit, and is also used as a container for its custom properties that "
+"are displayed in the *Rig Main Properties* panel. If you are looking in the "
+"Graph editor for those properties' animated values, this is most likely the "
+"bone to look at."
+msgstr ""
+"Detta ben kan i vissa fall användas för att transformera hela underriggen "
+"som en stel enhet och fungerar också som behållare för de anpassade "
+"egenskaper som visas i panelen *Rig Main Properties*. Om du söker efter "
+"egenskapernas animerade värden i grafredigeraren är detta troligen rätt ben."
+
+#: ../../manual/addons/rigify/rig_features.rst:86
+msgid ""
+"As an exception, if multiple controls of the sub-rig need their own copy "
+"of conceptually the same property, it may be placed on those controls "
+"directly instead."
+msgstr ""
+"Som undantag kan egenskapen placeras direkt på flera kontroller i "
+"underriggen om de behöver var sin kopia av samma egenskap."
+
+#: ../../manual/addons/rigify/rig_features.rst:90
+msgid "Tweak Controls"
+msgstr "Finjusteringskontroller"
+
+#: ../../manual/addons/rigify/rig_features.rst:95
+msgid ""
+"Tweaks are subordinate to the general IK or FK limb position but can be "
+"moved apart, twisted and scaled freely, even reaching virtually "
+"impossible limb shapes."
+msgstr ""
+"Finjusteringskontrollerna är underordnade den övergripande IK- eller "
+"FK-positionen för extremiteten, men kan flyttas isär, vridas och skalas "
+"fritt, även till praktiskt taget omöjliga former."
+
+#: ../../manual/addons/rigify/rig_features.rst:108
+msgid "Custom Pivots"
+msgstr "Anpassade vridpunkter"
+
+#: ../../manual/addons/rigify/rig_features.rst:110
+msgid ""
+"Some bones that can be freely moved in space (like IK controls) can be "
+"optionally accompanied by a custom pivot control. These controls usually "
+"look like a plain axes empty with the axis lines capped with squares or "
+"crosses, like the one in the image above. The control can be freely moved "
+"to change the location of the pivot, and then rotated or scaled to "
+"transform the target bone around the pivot."
+msgstr ""
+"Vissa ben som kan flyttas fritt i rymden, till exempel IK-kontroller, kan "
+"valfritt få en anpassad vridpunktskontroll. Kontrollerna ser vanligen ut "
+"som tomma axelobjekt med axellinjer som avslutas med fyrkanter eller kors, "
+"som i bilden ovan. Kontrollen kan flyttas fritt för att ändra vridpunktens "
+"läge och sedan roteras eller skalas för att transformera målbenet kring den."
+
+#: ../../manual/addons/rigify/rig_features.rst:127
+msgid ""
+"Snapping one type of controls to the shape of the other is done via "
+"buttons, which form a group of three in their complete set:"
+msgstr ""
+"Med knappar anpassar du den ena typen av kontroller till den andras form. "
+"I sin fullständiga uppsättning bildar knapparna en grupp om tre:"
+
+#: ../../manual/addons/rigify/rig_features.rst:130
+msgid ""
+"The main button will snap on the current frame, and auto-key the result "
+"if enabled."
+msgstr ""
+"Huvudknappen anpassar på den aktuella bildrutan och sätter automatiskt "
+"nyckelbilder för resultatet om automatisk nyckelbildssättning är aktiverad."
+
+#: ../../manual/addons/rigify/rig_features.rst:131
+msgid ""
+"The *Action* button will bake the change on multiple keyframes, according "
+"to *Rig Bake Settings*."
+msgstr ""
+"Knappen *Action* bakar ändringen till flera nyckelbildrutor enligt *Rig "
+"Bake Settings*."
+
+#: ../../manual/addons/rigify/rig_features.rst:132
+msgid ""
+"The *Clear* button will delete keyframes on the corresponding controls "
+"within the bake interval."
+msgstr ""
+"Knappen *Clear* tar bort nyckelbildrutor på motsvarande kontroller inom "
+"bakningsintervallet."
+
+#: ../../manual/addons/rigify/rig_features.rst:135
+msgid "Parent Switching"
+msgstr "Växla överordnat ben"
+
+#: ../../manual/addons/rigify/rig_features.rst:141
+msgid ""
+"Some freely movable controls, e.g. usually the IK controls, can have a "
+"mechanism to switch their parent bone between a set of choices, including "
+"the root bone, or none at all."
+msgstr ""
+"Vissa fritt flyttbara kontroller, vanligtvis IK-kontroller, kan växla sitt "
+"överordnade ben mellan flera val, däribland rotbenet eller inget alls."
+
+#: ../../manual/addons/rigify/rig_features.rst:146
+msgid ""
+"A button that presents a dropdown menu, which allows switching the parent "
+"on the current frame while preserving the bone position and orientation "
+"in the world space."
+msgstr ""
+"En knapp med en rullgardinsmeny som växlar överordnat ben på den aktuella "
+"bildrutan och samtidigt bevarar benets position och orientering i "
+"världsrymden."
+
+#: ../../manual/addons/rigify/rig_features.rst:148
+msgid ""
+"A dropdown input field that directly exposes the switch property for "
+"keyframing and direct manipulation. Changing the value can cause the bone "
+"position to jump."
+msgstr ""
+"Ett inmatningsfält med rullgardinsmeny som ger direkt åtkomst till "
+"växlingsegenskapen för nyckelbildssättning och direkt manipulering. Om "
+"värdet ändras kan benets position hoppa."
+
+#: ../../manual/addons/rigify/rig_features.rst:150
+msgid ""
+"A button to apply the position preserving parent switch over the bake "
+"range of keyframes."
+msgstr ""
+"En knapp som tillämpar ett positionsbevarande byte av överordnat ben över "
+"bakningsintervallet med nyckelbildrutor."
+
+#: ../../manual/addons/rigify/rig_features.rst:153
+msgid ""
+"When manually placing a Child Of constraint on the control bone, the "
+"built-in parent should be switched to none."
+msgstr ""
+"När du manuellt lägger en Child Of-begränsning på kontrollbenet ska det "
+"inbyggda överordnade benet växlas till inget."
+
+#: ../../manual/addons/rigify/rig_features.rst:158
+msgid ""
+"Limbs have a master bone and tweaks. Depending on the user defined meta-"
+"rig options, multiple deform bone segments with tweaks will be created."
+msgstr ""
+"Extremiteter har ett huvudben och finjusteringskontroller. Beroende på "
+"metariggens användardefinierade alternativ skapas flera deformationsben med "
+"finjusteringskontroller."
+
+#: ../../manual/addons/rigify/rig_features.rst:161
+msgid ""
+"The IK control may have an optional custom pivot, as well as additional "
+"predefined pivots."
+msgstr ""
+"IK-kontrollen kan ha en valfri anpassad vridpunkt och ytterligare "
+"fördefinierade vridpunkter."
+
+#: ../../manual/addons/rigify/rig_features.rst:163
+msgid "Rigify's limbs have the following controls in the Sidebar panel:"
+msgstr "Rigifys extremiteter har följande kontroller i sidopanelen:"
+
+#: ../../manual/addons/rigify/rig_features.rst:177
+msgid "Snaps one type of controls to another."
+msgstr "Anpassar den ena typen av kontroller till den andra."
+
+#: ../../manual/addons/rigify/rig_features.rst:180
+msgid ""
+"Blends between the limb stretching freely at 1, or having its maximum "
+"length constrained at 0."
+msgstr ""
+"Blandar mellan en extremitet som sträcks fritt vid 1 och en vars maximala "
+"längd begränsas vid 0."
+
+#: ../../manual/addons/rigify/rig_features.rst:183
+msgid ""
+"When the toggle is Off, the IK limb will use the rotational pole vector "
+"(the arrow at the base of the limb). Rotating/translating/scaling the "
+"arrow will control the IK limb base."
+msgstr ""
+"När växlingen är av använder IK-extremiteten den roterande polvektorn, "
+"alltså pilen vid extremitetens bas. När pilen roteras, flyttas eller skalas "
+"styr den IK-extremitetens bas."
+
+#: ../../manual/addons/rigify/rig_features.rst:186
+msgid ""
+"When the toggle is On, the classic pole vector will be displayed and used "
+"to orient the IK limb. The arrow will continue to handle the scale and "
+"the location of the IK limb base."
+msgstr ""
+"När växlingen är på visas den klassiska polvektorn och används för att "
+"orientera IK-extremiteten. Pilen fortsätter att hantera skalan och läget "
+"för IK-extremitetens bas."
+
+#: ../../manual/addons/rigify/rig_features.rst:192
+msgid "IK Parent :guilabel:`Switch`"
+msgstr "IK överordnat ben :guilabel:`Växling`"
+
+#: ../../manual/addons/rigify/rig_features.rst:193
+msgid "Switches the effective parent of the main IK control."
+msgstr "Växlar det effektiva överordnade benet för huvud-IK-kontrollen."
+
+#: ../../manual/addons/rigify/rig_features.rst:196
+msgid "Switches the effective parent of the classic IK Pole control."
+msgstr "Växlar det effektiva överordnade benet för den klassiska IK-polvektorkontrollen."
+
+#: ../../manual/addons/rigify/rig_features.rst:205
+msgid ""
+":ref:`Arms <rigify.rigs.limbs.arm>` have the simplest control structure: "
+"the IK controls consist of the main IK control, the optional custom pivot "
+"control, and the optional wrist control (the bent circle), which pivots "
+"around the tail rather than the head of the hand bone."
+msgstr ""
+":ref:`Armar <rigify.rigs.limbs.arm>` har den enklaste kontrollstrukturen. "
+"IK-kontrollerna består av huvud-IK-kontrollen, den valfria anpassade "
+"vridpunktskontrollen och den valfria handledskontrollen, den böjda cirkeln "
+"som vrids kring handbenets svans i stället för dess huvud."
+
+#: ../../manual/addons/rigify/rig_features.rst:212
+msgid "Legs"
+msgstr "Ben"
+
+#: ../../manual/addons/rigify/rig_features.rst:214
+msgid ""
+":ref:`Legs <rigify.rigs.limbs.leg>` have a more complicated setup, which "
+"has:"
+msgstr ""
+":ref:`Ben <rigify.rigs.limbs.leg>` har en mer avancerad konfiguration med:"
+
+#: ../../manual/addons/rigify/rig_features.rst:221
+msgid ""
+"Two separate IK and FK controls for the toe (this is on by default in the "
+"bundled metarigs, and is recommended for stable IK<->FK snapping)."
+msgstr ""
+"Två separata IK- och FK-kontroller för tån. Detta är aktiverat som "
+"standard i de medföljande metariggarna och rekommenderas för stabil "
+"anpassning mellan IK och FK."
+
+#: ../../manual/addons/rigify/rig_features.rst:225
+msgid "Toe Pivot :guilabel:`Optional`"
+msgstr "Tåvridpunkt :guilabel:`Valfri`"
+
+#: ../../manual/addons/rigify/rig_features.rst:226
+msgid "An extra pivot control rotating around the base of the toe."
+msgstr "En extra vridpunktskontroll som roterar kring tåns bas."
+
+#: ../../manual/addons/rigify/rig_features.rst:227
+msgid "Custom Pivot :guilabel:`Optional`"
+msgstr "Anpassad vridpunkt :guilabel:`Valfri`"
+
+#: ../../manual/addons/rigify/rig_features.rst:228
+msgid "A custom pivot control."
+msgstr "En anpassad vridpunktskontroll."
+
+#: ../../manual/addons/rigify/rig_features.rst:246
+msgid ""
+"If enabled in the sub-rig settings, this slider can be used to control "
+"whether the heel rotation (excluding backward roll) is applied at the "
+"base or the tip of the toe."
+msgstr ""
+"Om det aktiveras i underriggsinställningarna styr reglaget om hälrotationen, "
+"utom bakåtrullning, tillämpas vid tåns bas eller spets."
+
+#: ../../manual/addons/rigify/rig_features.rst:257
+msgid ""
+"The simplest type of rig for a finger or appendage in general is the "
+":ref:`simple tentacle <rigify.rigs.limbs.simple_tentacle>` sub-rig. It "
+"has only basic FK controls and tweaks, with the only automation being the "
+"ability to copy certain axes of the local rotation of a FK control to "
+"the next one."
+msgstr ""
+"Den enklaste riggtypen för ett finger eller en annan kroppsdel är "
+":ref:`simple tentacle <rigify.rigs.limbs.simple_tentacle>`-underriggen. "
+"Den har bara grundläggande FK-kontroller och finjusteringskontroller. Den "
+"enda automatiseringen är att vissa axlar från en FK-kontrolls lokala "
+"rotation kan kopieras till nästa."
+
+#: ../../manual/addons/rigify/rig_features.rst:266
+msgid ""
+"For fingers specifically, Rigify has a dedicated :ref:`finger "
+"<rigify.rigs.limbs.super_finger>` sub-rig type, which provides:"
+msgstr ""
+"För fingrar har Rigify en särskild :ref:`finger "
+"<rigify.rigs.limbs.super_finger>`-underriggtyp som ger:"

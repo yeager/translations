@@ -120,7 +120,9 @@ Senast uppdaterad: 2026-11-05.
 | shape key | formnyckel | Etablerad term i Blenders TBX-ordlista och UI. |
 | rig | rigg | Riggningens styrstruktur för en armatur. Behåll den svenska facktermen i löpande dokumentation. |
 | meta-rig | metarigg | Rigifys förenklade armatur som används för att generera den färdiga riggen. Skriv ihop på svenska. |
+| sub-rig | underrigg | Standardiserad Rigify-komponent. Skriv ihop i singular och i sammansättningar, till exempel *underriggtyp*. |
 | Rigify Human | Rigify Human | Namn på Rigifys förinställda mänskliga metarigg; översätt inte som löpande text. |
+| tweak control | finjusteringskontroll | En kontroll för lokala deformationer i Rigify. Använd inte det engelska *tweak* i förklarande svensk text. |
 | unhide | visa | I Blenders hierarki betyder åtgärden att ett dolt objekt visas igen, inte att det döljs. |
 | Armature modifier | armaturmodifierare | Modifieraren som kopplar en mesh till en armatur för deformering. |
 | automatic weights | automatiska vikter | Viktmålningsmetod för att koppla meshens hörnpunkter till armaturens ben. |
@@ -133,6 +135,7 @@ Senast uppdaterad: 2026-11-05.
 | rig type | riggtyp | Typdefinition som bestämmer hur Rigify genererar en viss del av en rigg. |
 | rig sample | riggprov | Fördefinierad Rigify-del som läggs till i en armatur eller metarigg som utgångspunkt. |
 | parenting settings | överordningsinställningar | Inställningar för relationen mellan ett ben och dess överordnade ben. |
+| Child Of constraint | Child Of-begränsning | Formellt Blender-namn med svensk sakterm. Behåll *Child Of* som identifierande del av begränsningens namn. |
 | Bendy Bones | Bendy Bones | Synligt Blender-namn för böjliga ben; behåll produktnamnet i etiketter och den närliggande saktexten. |
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
 | Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |

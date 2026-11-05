@@ -2,11 +2,11 @@
 
 Källa: de radvis granskade deltafilerna
 `../../blender-manual-sv-review-batch-20261104-01.po` till och med
-`../../blender-manual-sv-review-batch-20261104-65.po`.
+`../../blender-manual-sv-review-batch-20261104-66.po`.
 
 `create-manual-upload-batches.py` bygger först en samlad PO med `msgcat
 --use-first --no-location` och delar sedan den i Weblate-säkra filer. Den
-sammanlagda katalogen innehåller 737 översatta meddelanden enligt `msgfmt`.
+sammanlagda katalogen innehåller 775 översatta meddelanden enligt `msgfmt`.
 
 | Fil | Översatta meddelanden | Status |
 | --- | ---: | --- |
@@ -17,7 +17,7 @@ sammanlagda katalogen innehåller 737 översatta meddelanden enligt `msgfmt`.
 | `blender-manual-sv-reviewed-05.po` | 100 | Lokal kandidat, inte uppladdad |
 | `blender-manual-sv-reviewed-06.po` | 100 | Lokal kandidat, inte uppladdad |
 | `blender-manual-sv-reviewed-07.po` | 100 | Lokal kandidat, inte uppladdad |
-| `blender-manual-sv-reviewed-08.po` | 37 | Lokal kandidat, inte uppladdad |
+| `blender-manual-sv-reviewed-08.po` | 75 | Lokal kandidat, inte uppladdad |
 
 ## Kontroller
 
@@ -29,8 +29,11 @@ sammanlagda katalogen innehåller 737 översatta meddelanden enligt `msgfmt`.
   datumformat och den avsiktliga menystigen `Visa --> Visa skjutreglage`.
 - `git diff --check` passerar för generatorn och kandidatfilerna.
 - Gitleaks har skannat hela kandidatkatalogen utan träffar.
-- Terminologin är avstämd mot den aktuella Blender-UI-katalogen, projektets
-  svenska översättningsminne och `Blender/TERMINOLOGY.md`.
+- Terminologin är avstämd mot den aktuella Blender-dokumentationen,
+  Blender-UI-katalogen, projektets svenska översättningsminne och
+  `Blender/TERMINOLOGY.md`. Rigify använder här bland annat *underrigg*,
+  *finjusteringskontroll*, *vridpunkt*, *nyckelbildruta* och
+  *Child Of-begränsning*.
 - Råexporten i `../../exports/2026-11-04/` har inte ändrats. Den innehåller
   58 dubbla PO-definitioner och kan därför inte valideras direkt med
   `msgattrib`; de separata deltafilerna och de genererade kandidaterna är
