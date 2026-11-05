@@ -3019,12 +3019,12 @@ msgstr "Aktiv åtgärd för detta datablock"
 #. :src: bpy.types.AnimData.action_blend_type
 #, fuzzy
 msgid "Action Blending"
-msgstr "Blandning av åtgärder"
+msgstr "Blandning av åtgärd"
 
 #. :src: bpy.types.AnimData.action_blend_type
 #, fuzzy
 msgid "Method used for combining Active Action's result with result of NLA stack"
-msgstr "Metod som använts för att kombinera Active Actions resultat med NLA-stackens resultat"
+msgstr "Metod för att kombinera den aktiva åtgärdens resultat med resultatet från NLA-stapeln"
 
 #. :src: bpy.types.AnimData.action_blend_type:'REPLACE'
 #. :src: bpy.types.CopyRotationConstraint.mix_mode:'REPLACE'
@@ -3059,7 +3059,7 @@ msgstr "Ersätt"
 #. :src: bpy.types.NlaStrip.blend_type:'REPLACE'
 #, fuzzy
 msgid "The strip values replace the accumulated results by amount specified by influence"
-msgstr "Stripvärdena ersätter de ackumulerade resultaten med belopp som anges av inflytande"
+msgstr "Remsans värden ersätter de ackumulerade resultaten i den grad som anges av påverkan"
 
 #. :src: bpy.types.AnimData.action_blend_type:'COMBINE'
 #. :src: bpy.types.NlaStrip.blend_type:'COMBINE'
@@ -3070,7 +3070,7 @@ msgstr "Kombinera"
 #. :src: bpy.types.NlaStrip.blend_type:'COMBINE'
 #, fuzzy
 msgid "The strip values are combined with accumulated results by appropriately using addition, multiplication, or quaternion math, based on channel type"
-msgstr "Stripvärdena kombineras med ackumulerade resultat genom att på lämpligt sätt använda addition, multiplikation eller kvaternionmatematik, baserat på kanaltyp"
+msgstr "Remsans värden kombineras med de ackumulerade resultaten genom lämplig användning av addition, multiplikation eller kvaternionmatematik, beroende på kanaltyp"
 
 #. :src: bpy.types.AnimData.action_blend_type:'ADD'
 #. :src: bpy.types.ColorMapping.blend_type:'ADD'
@@ -3144,7 +3144,7 @@ msgstr "Addera"
 #. :src: bpy.types.NlaStrip.blend_type:'ADD'
 #, fuzzy
 msgid "Weighted result of strip is added to the accumulated results"
-msgstr "Det vägda resultatet av strippningen läggs till det ackumulerade resultatet"
+msgstr "Remsans viktade resultat läggs till de ackumulerade resultaten"
 
 #. :src: bpy.types.AnimData.action_blend_type:'SUBTRACT'
 #. :src: bpy.types.ColorMapping.blend_type:'SUBTRACT'
@@ -3233,7 +3233,7 @@ msgstr "Subtrahera"
 #. :src: bpy.types.NlaStrip.blend_type:'SUBTRACT'
 #, fuzzy
 msgid "Weighted result of strip is removed from the accumulated results"
-msgstr "Vägt resultat av strip tas bort från ackumulerat resultat"
+msgstr "Remsans viktade resultat tas bort från de ackumulerade resultaten"
 
 #. :src: bpy.types.AnimData.action_blend_type:'MULTIPLY'
 #. :src: bpy.types.ColorMapping.blend_type:'MULTIPLY'
@@ -3297,12 +3297,12 @@ msgstr "Multiplicera"
 #. :src: bpy.types.NlaStrip.blend_type:'MULTIPLY'
 #, fuzzy
 msgid "Weighted result of strip is multiplied with the accumulated results"
-msgstr "Vägt resultat för strip multipliceras med ackumulerat resultat"
+msgstr "Remsans viktade resultat multipliceras med de ackumulerade resultaten"
 
 #. :src: bpy.types.AnimData.action_extrapolation
 #, fuzzy
 msgid "Action Extrapolation"
-msgstr "Extrapolering av åtgärder"
+msgstr "Åtgärdsextrapolering"
 
 #. :src: bpy.types.AnimData.action_extrapolation
 #, fuzzy
@@ -3322,13 +3322,13 @@ msgstr "Ingenting"
 #. :src: bpy.types.NlaStrip.extrapolation:'NOTHING'
 #, fuzzy
 msgid "Strip has no influence past its extents"
-msgstr "Remsan har inget inflytande utanför dess utbredning"
+msgstr "Remsan påverkar inte utanför sin utsträckning"
 
 #. :src: bpy.types.AnimData.action_extrapolation:'HOLD'
 #. :src: bpy.types.NlaStrip.extrapolation:'HOLD'
 #, fuzzy
 msgid "Hold"
-msgstr "Hålla"
+msgstr "Behåll"
 
 #. :src: bpy.types.AnimData.action_extrapolation:'HOLD'
 #. :src: bpy.types.NlaStrip.extrapolation:'HOLD'
@@ -3345,12 +3345,12 @@ msgstr "Håll fast framåt"
 #. :src: bpy.types.NlaStrip.extrapolation:'HOLD_FORWARD'
 #, fuzzy
 msgid "Only hold last frame"
-msgstr "Håller bara sista ramen"
+msgstr "Behåll endast den sista bildrutan"
 
 #. :src: bpy.types.AnimData.action_influence
 #, fuzzy
 msgid "Action Influence"
-msgstr "Åtgärder Påverkan"
+msgstr "Åtgärdens påverkan"
 
 #. :src: bpy.types.AnimData.action_influence
 #, fuzzy
@@ -3362,19 +3362,19 @@ msgstr "Belopp som den aktiva åtgärden bidrar med till resultatet av NLA-stack
 #. :src: bpy.types.NlaStrip.action_slot
 #, fuzzy
 msgid "Action Slot"
-msgstr "Action Slot"
+msgstr "Åtgärdsplats"
 
 #. :src: bpy.types.AnimData.action_slot
 #, fuzzy
 msgid "The slot identifies which sub-set of the Action is considered to be for this data-block, and its name is used to find the right slot when assigning an Action"
-msgstr "Spåret identifierar vilken delmängd av åtgärden som anses vara för detta datablock, och dess namn används för att hitta rätt spår när en åtgärd tilldelas"
+msgstr "Åtgärdsplatsen anger vilken delmängd av åtgärden som hör till det här datablocket, och dess namn används för att hitta rätt åtgärdsplats när en åtgärd tilldelas"
 
 #. :src: bpy.types.AnimData.action_slot_handle
 #. :src: bpy.types.ActionConstraint.action_slot_handle
 #. :src: bpy.types.NlaStrip.action_slot_handle
 #, fuzzy
 msgid "Action Slot Handle"
-msgstr "Handling Slot Handtag"
+msgstr "Handtag för åtgärdsplats"
 
 #. :src: bpy.types.AnimData.action_slot_handle
 #, fuzzy
@@ -3385,12 +3385,12 @@ msgstr "Ett nummer som identifierar vilken delmängd av åtgärden som anses var
 #. :src: bpy.types.Action.slots
 #, fuzzy
 msgid "Slots"
-msgstr "Slots"
+msgstr "Åtgärdsplatser"
 
 #. :src: bpy.types.AnimData.action_suitable_slots
 #, fuzzy
 msgid "The list of slots in this animation data-block"
-msgstr "Listan över slots i detta datablock för animering"
+msgstr "Listan över åtgärdsplatser i det här animeringsdatablocket"
 
 #. :src: bpy.types.AnimData.action_tweak_storage
 #, fuzzy
@@ -3414,14 +3414,14 @@ msgstr "Drivrutiner"
 #. :src: bpy.types.AnimData.drivers
 #, fuzzy
 msgid "The Drivers/Expressions for this data-block"
-msgstr "Drivrutinerna/uttrycken för detta datablock"
+msgstr "Drivarna/uttrycken för det här datablocket"
 
 #. :src: bpy.types.AnimData.last_slot_identifier
 #. :src: bpy.types.ActionConstraint.last_slot_identifier
 #. :src: bpy.types.NlaStrip.last_slot_identifier
 #, fuzzy
 msgid "Last Action Slot Identifier"
-msgstr "Last Action Slot Identifier"
+msgstr "Identifierare för senast tilldelade åtgärdsplats"
 
 #. :src: bpy.types.AnimData.last_slot_identifier
 #, fuzzy
@@ -3450,7 +3450,7 @@ msgstr "NLA-utvärdering aktiverad"
 #. :src: bpy.types.AnimData.use_nla
 #, fuzzy
 msgid "NLA stack is evaluated when evaluating this block"
-msgstr "NLA stack utvärderas vid utvärdering av detta block"
+msgstr "NLA-stapeln utvärderas när detta block utvärderas"
 
 #. :src: bpy.types.AnimData.use_tweak_mode
 #, fuzzy
@@ -3472,7 +3472,7 @@ msgstr "Samling av F-kurvor för drivrutiner"
 #. :src: bpy.types.Pose.animation_visualization
 #, fuzzy
 msgid "Animation Visualization"
-msgstr "Animation Visualisering"
+msgstr "Animationsvisualisering"
 
 #. :src: bpy.types.AnimViz
 #, fuzzy
@@ -3501,7 +3501,7 @@ msgstr "Inställningar för rörelsebana"
 #. :src: bpy.types.AnimVizMotionPaths
 #, fuzzy
 msgid "Motion Path settings for animation visualization"
-msgstr "Inställningar för rörelsebana för visualisering av animationer"
+msgstr "Inställningar för rörelsebanor vid animationsvisualisering"
 
 #. :src: bpy.types.AnimVizMotionPaths.bake_location
 #. :src: bpy.types.POSE_OT_paths_calculate.bake_location
@@ -3523,7 +3523,7 @@ msgstr "Välj storleken för översiktsskärmen."
 #. :src: bpy.types.POSE_OT_paths_calculate.bake_location:'HEADS'
 #, fuzzy
 msgid "Calculate bone paths from heads"
-msgstr "Beräkna benbanor från huvuden"
+msgstr "Beräkna benbanor från huvudena"
 
 #. :src: bpy.types.AnimVizMotionPaths.bake_location:'TAILS'
 #. :src: bpy.types.POSE_OT_paths_calculate.bake_location:'TAILS'
@@ -3534,7 +3534,7 @@ msgstr "Svansar"
 #. :src: bpy.types.AnimVizMotionPaths.bake_location:'TAILS'
 #. :src: bpy.types.POSE_OT_paths_calculate.bake_location:'TAILS'
 msgid "Calculate bone paths from tails"
-msgstr "Beräkna benbanor från svans"
+msgstr "Beräkna benbanor från svansarna"
 
 #. :src: bpy.types.AnimVizMotionPaths.frame_after
 msgid "After Current"
@@ -3671,7 +3671,7 @@ msgstr "Finns det några benbanor som kommer att behöva uppdateras (skrivskydda
 #. :src: bpy.types.AnimVizMotionPaths.range
 #, fuzzy
 msgid "Paths Range"
-msgstr "Paths Range"
+msgstr "Intervall för banor"
 
 #. :src: bpy.types.AnimVizMotionPaths.range
 #, fuzzy
@@ -3683,14 +3683,14 @@ msgstr "Typ av intervall som ska beräknas för Motion Paths"
 #. :src: bpy.types.POSE_OT_paths_calculate.range:'KEYS_ALL'
 #, fuzzy
 msgid "All Keys"
-msgstr "Alla nycklar"
+msgstr "Alla nyckelbildrutor"
 
 #. :src: bpy.types.AnimVizMotionPaths.range:'KEYS_ALL'
 #. :src: bpy.types.OBJECT_OT_paths_calculate.range:'KEYS_ALL'
 #. :src: bpy.types.POSE_OT_paths_calculate.range:'KEYS_ALL'
 #, fuzzy
 msgid "From the first keyframe to the last"
-msgstr "Från den första nyckelbilden till den sista"
+msgstr "Från den första nyckelbildrutan till den sista"
 
 #. :src: bpy.types.AnimVizMotionPaths.range:'KEYS_SELECTED'
 #. :src: bpy.types.OBJECT_OT_paste_transform.method:'EXISTING_KEYS'
@@ -3698,7 +3698,7 @@ msgstr "Från den första nyckelbilden till den sista"
 #. :src: bpy.types.POSE_OT_paths_calculate.range:'KEYS_SELECTED'
 #, fuzzy
 msgid "Selected Keys"
-msgstr "Valda nycklar"
+msgstr "Markerade nyckelbildrutor"
 
 #. :src: bpy.types.AnimVizMotionPaths.range:'KEYS_SELECTED'
 #. :src: bpy.types.OBJECT_OT_paths_calculate.range:'KEYS_SELECTED'
@@ -3726,14 +3726,14 @@ msgstr "Hela scen-/förhandsgranskningsområdet"
 #. :src: bpy.types.POSE_OT_paths_calculate.range:'MANUAL'
 #, fuzzy
 msgid "Manual Range"
-msgstr "Manuell räckvidd"
+msgstr "Manuellt intervall"
 
 #. :src: bpy.types.AnimVizMotionPaths.range:'MANUAL'
 #. :src: bpy.types.OBJECT_OT_paths_calculate.range:'MANUAL'
 #. :src: bpy.types.POSE_OT_paths_calculate.range:'MANUAL'
 #, fuzzy
 msgid "Manually determined frame range"
-msgstr "Manuellt fastställt ramområde"
+msgstr "Manuellt angivet bildruteintervall"
 
 #. :src: bpy.types.AnimVizMotionPaths.show_frame_numbers
 msgid "Show Frame Numbers"
@@ -3756,7 +3756,7 @@ msgstr "För rörelsebanor för ben söker du efter nyckelrutor i hela Action is
 #. :src: bpy.types.AnimVizMotionPaths.show_keyframe_highlight
 #, fuzzy
 msgid "Highlight Keyframes"
-msgstr "Markera nyckelramar"
+msgstr "Markera nyckelbildrutor"
 
 #. :src: bpy.types.AnimVizMotionPaths.show_keyframe_highlight
 #, fuzzy
@@ -3775,7 +3775,7 @@ msgstr "Visa bildnummer för keyframes på rörelsebanor"
 #. :src: bpy.types.AnimVizMotionPaths.type
 #, fuzzy
 msgid "Paths Type"
-msgstr "Banor Typ"
+msgstr "Bantyp"
 
 #. :src: bpy.types.AnimVizMotionPaths.type
 #, fuzzy
@@ -3800,7 +3800,7 @@ msgstr "Visa sökvägar för poseringar inom ett fast antal bildrutor runt den a
 #. :src: bpy.types.POSE_OT_paths_calculate.display_type:'RANGE'
 #, fuzzy
 msgid "In Range"
-msgstr "%s intervall"
+msgstr "Inom intervall"
 
 #. :src: bpy.types.AnimVizMotionPaths.type:'RANGE'
 #. :src: bpy.types.OBJECT_OT_paths_calculate.display_type:'RANGE'
@@ -3832,7 +3832,7 @@ msgstr "RNA-typ som används för pekare till alla möjliga data"
 #. :src: bpy.types.Area
 #, fuzzy
 msgid "Area in a subdivided screen, containing an editor"
-msgstr "Område i en indelad skärm, innehållande en redaktör"
+msgstr "Område på en uppdelad skärm som innehåller en redigerare"
 
 #. :src: bpy.types.Area.height
 #. :src: bpy.types.BakeSettings.height
@@ -3886,12 +3886,12 @@ msgstr "Visa menyer"
 #. :src: bpy.types.Area.show_menus
 #, fuzzy
 msgid "Show menus in the header"
-msgstr "Visa menyer i sidhuvudet"
+msgstr "Visa menyer i rubriken"
 
 #. :src: bpy.types.Area.spaces
 #, fuzzy
 msgid "Spaces"
-msgstr "Antal platser"
+msgstr "Utrymmen"
 
 #. :src: bpy.types.Area.spaces
 #, fuzzy
@@ -3948,7 +3948,7 @@ msgstr "Tomobjekt"
 #. :src: bpy.types.WorkSpaceTool.space_type:'VIEW_3D'
 #: scripts/startup/bl_ui/space_time.py:256
 msgid "3D Viewport"
-msgstr "3D-vy"
+msgstr "3D-vyport"
 
 #. :src: bpy.types.Area.type:'VIEW_3D'
 #. :src: bpy.types.AssetShelf.bl_space_type:'VIEW_3D'
@@ -4010,7 +4010,7 @@ msgstr "Nodredigerare"
 #. :src: bpy.types.WorkSpaceTool.space_type:'NODE_EDITOR'
 #, fuzzy
 msgid "Editor for node-based shading and compositing tools"
-msgstr "Editor för nodbaserade skuggnings- och compositingverktyg"
+msgstr "Redigerare för nodbaserade verktyg för skuggning och komposition"
 
 #. :src: bpy.types.Area.type:'SEQUENCE_EDITOR'
 #. :src: bpy.types.AssetShelf.bl_space_type:'SEQUENCE_EDITOR'
@@ -4030,7 +4030,7 @@ msgstr "Editor för nodbaserade skuggnings- och compositingverktyg"
 #: scripts/startup/bl_ui/space_time.py:262
 #, fuzzy
 msgid "Video Sequencer"
-msgstr "Videosekvenser"
+msgstr "Videosekvensredigerare"
 
 #. :src: bpy.types.Area.type:'SEQUENCE_EDITOR'
 #. :src: bpy.types.AssetShelf.bl_space_type:'SEQUENCE_EDITOR'
@@ -4089,7 +4089,7 @@ msgstr "Verktyg för rörelsespårning"
 #. :src: bpy.types.WorkSpaceTool.space_type:'DOPESHEET_EDITOR'
 #, fuzzy
 msgid "Dope Sheet"
-msgstr "Dope-ark"
+msgstr "Dopeblad"
 
 #. :src: bpy.types.Area.type:'DOPESHEET_EDITOR'
 #. :src: bpy.types.AssetShelf.bl_space_type:'DOPESHEET_EDITOR'
@@ -4099,7 +4099,7 @@ msgstr "Dope-ark"
 #. :src: bpy.types.Space.type:'DOPESHEET_EDITOR'
 #. :src: bpy.types.WorkSpaceTool.space_type:'DOPESHEET_EDITOR'
 msgid "Adjust timing of keyframes"
-msgstr "Justera timing av keyframes"
+msgstr "Justera tidpunkterna för nyckelbildrutor"
 
 #. :src: bpy.types.Area.type:'GRAPH_EDITOR'
 #. :src: bpy.types.AssetShelf.bl_space_type:'GRAPH_EDITOR'
@@ -4125,7 +4125,7 @@ msgstr "Grafredigerare"
 #. :src: bpy.types.WorkSpaceTool.space_type:'GRAPH_EDITOR'
 #, fuzzy
 msgid "Edit drivers and keyframe interpolation"
-msgstr "Redigera drivrutiner och keyframe-interpolering"
+msgstr "Redigera drivare och interpolering av nyckelbildrutor"
 
 #. :src: bpy.types.Area.type:'NLA_EDITOR'
 #. :src: bpy.types.AssetShelf.bl_space_type:'NLA_EDITOR'
@@ -4142,7 +4142,7 @@ msgstr "Redigera drivrutiner och keyframe-interpolering"
 #. :src: bpy.types.WorkSpaceTool.space_type:'NLA_EDITOR'
 #, fuzzy
 msgid "Nonlinear Animation"
-msgstr "Icke-linjär animering"
+msgstr "Icke-linjär animation"
 
 #. :src: bpy.types.Area.type:'NLA_EDITOR'
 #. :src: bpy.types.AssetShelf.bl_space_type:'NLA_EDITOR'
@@ -4153,7 +4153,7 @@ msgstr "Icke-linjär animering"
 #. :src: bpy.types.WorkSpaceTool.space_type:'NLA_EDITOR'
 #, fuzzy
 msgid "Combine and layer Actions"
-msgstr "Kombinera och lägg på Actions"
+msgstr "Kombinera och lägg åtgärder i lager"
 
 #. :src: bpy.types.Area.type:'TEXT_EDITOR'
 #. :src: bpy.types.AssetShelf.bl_space_type:'TEXT_EDITOR'
@@ -4209,7 +4209,7 @@ msgstr "Python-konsol"
 #. :src: bpy.types.WorkSpaceTool.space_type:'CONSOLE'
 #, fuzzy
 msgid "Interactive programmatic console for advanced editing and script development"
-msgstr "Interaktiv programmatisk konsol för avancerad redigering och skriptutveckling"
+msgstr "Interaktiv programmeringskonsol för avancerad redigering och skriptutveckling"
 
 #. :src: bpy.types.Area.type:'INFO'
 #. :src: bpy.types.AssetShelf.bl_space_type:'INFO'
@@ -4245,7 +4245,7 @@ msgstr "Info"
 #. :src: bpy.types.WorkSpaceTool.space_type:'INFO'
 #, fuzzy
 msgid "Log of operations, warnings and error messages"
-msgstr "Logg över operationer, varningar och felmeddelanden"
+msgstr "Logg över åtgärder, varningar och felmeddelanden"
 
 #. :src: bpy.types.Area.type:'TOPBAR'
 #. :src: bpy.types.AssetShelf.bl_space_type:'TOPBAR'
@@ -4449,7 +4449,7 @@ msgstr "Inställningar"
 #. :src: bpy.types.WorkSpaceTool.space_type:'PREFERENCES'
 #, fuzzy
 msgid "Edit persistent configuration settings"
-msgstr "Redigera permanenta konfigurationsinställningar"
+msgstr "Redigera beständiga konfigurationsinställningar"
 
 #. :src: bpy.types.Area.width
 #. :src: bpy.types.BakeSettings.width

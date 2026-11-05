@@ -490,6 +490,11 @@ Senast uppdaterad: 2026-11-05.
 | intersection | skärningsberäkning | Strålspårningens beräkning av en träff mellan stråle och geometri. |
 | Graph Editor | grafredigeraren | Redigeraren för F-kurvor och animerade värden. |
 | FriBidi | FriBidi | Egennamn på biblioteket; använd dess officiella skrivning. |
+| action blending | blandning av åtgärd | Blandar den aktiva åtgärdens resultat med NLA-stapeln. |
+| NLA track | NLA-spår | Spår i Nonlinear Animation som organiserar animeringsremsor. |
+| motion path | rörelsebana | Visar ett bens eller objekts position över animeringens bildrutor. |
+| Dope Sheet | Dopeblad | Blenderredigerare för tidpunkter, nyckelbildrutor och animationskanaler. |
+| Video Sequencer | videosekvensredigerare | Blenderredigerare för videoremsor, ljud och övergångar. |
 
 ## Kontrollerade UI-formuleringar
 
