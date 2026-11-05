@@ -468,9 +468,9 @@ Batch 59 granskar IK-, begränsnings- och Shrinkwrap-kontroller rad för rad.
 Tre oberoende, skrivskyddade delgranskningar har jämförts med samma RNA- och
 UI-kontext. Den lokalt validerade deltafilen normaliserar bland annat
 *hörnpunkt*, *projektionsaxel*, *målnormal* och de konkreta
-begränsningstyperna. Den väntar på arkivering och verifierad import i Blender
-Translate. Deltafilen är nu arkiverad i översättningsförrådet och väntar på
-verifierad import i Blender Translate.
+begränsningstyperna. Deltafilen är arkiverad i översättningsförrådet.
+Blender Translate bekräftade **31 bearbetade, 16 uppdaterade, 15 hoppade över
+och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
