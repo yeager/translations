@@ -132,8 +132,8 @@ Batch 17 normaliserar *Retiming Key* i sekvensredigeraren till
 nycklarna flyttar en bildruta i en remsa och därmed sträcker eller drar ihop
 tidsflödet. Formen följer den redan vanligaste svenska UI-termen och ersätter
 den otydliga, inkonsekventa formen `omtidningsnyckel` i tretton kontextbundna
-poster. Lokal kvalitetssäkring är klar; uppladdningsresultatet fylls i efter
-Blender Translates svar.
+poster. Blender Translate bekräftade `blender-ui-sv-reviewed-20261105-17.po`:
+**13 bearbetade, 13 uppdaterade, 0 hoppade över och 0 saknades**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
