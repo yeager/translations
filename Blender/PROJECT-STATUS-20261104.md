@@ -705,6 +705,13 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 111 granskar modifierar- och filmspårningsetiketter. Den lokalt
+validerade deltafilen innehåller 13 säkra UI-strängar, bland annat
+*planspår*, *pixelbildförhållande*, *nyckelbildsatt* och
+*mönstrets begränsningsruta*. `msgfmt` och l10n-lint passerar. Batchen är
+arkiverad för import till Blender Translate; något importresultat finns ännu
+inte.
+
 Batch 110 granskar modifieraretiketter för UV-förvrängning,
 hörnpunktsgruppsvikter, volym-till-mesh, våg, viktade normaler, svetsning och
 trådram. Den lokalt validerade deltafilen innehåller 15 säkra UI-strängar.
