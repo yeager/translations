@@ -183,6 +183,10 @@ Senast uppdaterad: 2026-11-05.
 | curve sensitivity | känslighetskurva | Kurva som styr Grease Pencil-penselns känslighet. |
 | curve strength | styrkekurva | Kurva som styr Grease Pencil-penselns styrka. |
 | dilate/contract | utvidga/dra samman | Ändrar ett fyllningsområdes omfattning med ett antal pixlar. |
+| dissolve | lös upp | Raderingsläge som tonar ned ett Grease Pencil-strecks punkter i stället för att ta bort dem direkt. |
+| stroke point | streckpunkt | Punkt som utgör ett Grease Pencil-streck. |
+| closure mode | slutningsläge | Hur Grease Pencil-streck förlängs eller kopplas för att täppa igen glapp vid fyllning. |
+| closure size | storlek för slutning | Hur långt streckens ändar får förlängas för att täppa igen glapp. |
 | Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
 | target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
 | default frame | standardbildruta | Bildruta som motsvarar transformationskanalens neutrala värde. |

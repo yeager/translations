@@ -379,6 +379,11 @@ ersätter bland annat kvarvarande engelska `Vertex Color` med
 ogiltiga formen `Dilatat/kontrakt`. Blender Translate bekräftade **16
 bearbetade, 11 uppdaterade, 5 hoppade över och 0 saknade**.
 
+Batch 46 granskar Grease Pencil-penslarnas raderings- och fyllningslägen.
+Den rättar bland annat `Poäng` till `Punkt`, `Poseringsläge` till
+`Slutningsläge` och engelska rester i hjälptexterna. Batchen är lokalt
+kontrollerad och väntar på arkivering och verifierad import.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
