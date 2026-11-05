@@ -47,8 +47,9 @@ Senast uppdaterad: 2026-11-04.
 | rigid body | styv kropp | Fysiksimuleringens etablerade term. |
 | shader | shader | Behåll den etablerade facktermen i UI och nodnamn. |
 | anti-aliasing | kantutjämning | Synlig inställning för text- och bildåtergivning. |
-| subpixel anti-aliasing | subpixelutjämning | Variant av kantutjämning; skriv ihop. |
-| font hinting | teckensnittshintning | Inställning som styr teckenplacering och skärpa i textåtergivning. |
+| Subpixel Anti-Aliasing | Kantutjämning på subpixelnivå | Följer den aktuella svenska UI-etiketten. |
+| font hinting | teckensnittshintning | Inställning som styr teckenplacering och skärpa i textåtergivning. Den aktuella UI-exportens *Teckensnittshinting* bör hanteras som en separat UI-rättelse, inte kopieras in i manualprosan. |
+| Interface Font | Teckensnitt för gränssnittet | Följer den aktuella svenska UI-etiketten. |
 | lighting node | belysningsnod | Använd i saktext; behåll engelska nodnamn där de är produktnamn. |
 | geometry node | geometrinod | Svensk sammansättning i förklarande UI-text. |
 | Grease Pencil | Grease Pencil | Produkt- och funktionsnamn; översätt inte. |

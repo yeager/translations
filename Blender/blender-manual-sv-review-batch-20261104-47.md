@@ -33,3 +33,11 @@ oförändrat. RST-termen i texten har däremot svensk synlig text.
 
 Råexporten är orörd. Deltafilen ingår i nästa körning av generatorn för
 Weblate-batcher med högst 100 poster per fil.
+
+## Terminologisk efterkontroll 5 november
+
+Den aktuella UI-katalogen bekräftar **Kantutjämning på subpixelnivå** och
+**Teckensnitt för gränssnittet**; batchen har justerats till dessa former.
+Manuella **teckensnittshintning** är språkligt korrekt i förklarande prosa.
+Den UI-specifika formen *Teckensnittshinting* har dokumenterats som en
+separat framtida UI-rättelse och förs inte över okritiskt till manualen.
