@@ -1,0 +1,287 @@
+# Blender Manual Swedish review delta, 2026-11-05.
+# Source snapshot: exports/2026-11-04/blender-manual-manual-sv.po
+# Review scope: Rigify face and limb rig terminology.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Manual\n"
+"PO-Revision-Date: 2026-11-05 12:55+0100\n"
+"Last-Translator: Swedish localization review\n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../manual/addons/rigify/rig_types/face.rst:46
+msgid ""
+"Depending on *Split Eyelid Follow Slider*, specifies the default values "
+"for the split follow sliders, or fixed factors to be multiplied with the "
+"single common follow influence slider value."
+msgstr ""
+"Beroende på *Split Eyelid Follow Slider* anger detta standardvärden för "
+"de separata följereglagen eller fasta faktorer som multipliceras med värdet "
+"för det gemensamma följereglaget."
+
+#: ../../manual/addons/rigify/rig_types/face.rst:55
+msgid ""
+"Implements a skin system :ref:`parent controller "
+"<rigify.rigs.skin.skin_parents>` that manages one or more loops of mouth "
+"skin chains in response to the movement of jaw and mouth controls."
+msgstr ""
+"Implementerar en :ref:`överordnad kontroll för hudsystem "
+"<rigify.rigs.skin.skin_parents>` som hanterar en eller flera slingor av "
+"hudkedjor för munnen utifrån rörelser hos käk- och munkontroller."
+
+#: ../../manual/addons/rigify/rig_types/face.rst:61
+msgid ""
+"The lip loops are sorted into layers based on the distance from corners "
+"to the common center and rigged with blended influence of the jaw and the"
+" master mouth control. Other child rigs become children of the jaw."
+msgstr ""
+"Läppslingorna sorteras i lager efter avståndet från hörnen till det "
+"gemensamma centrumet och riggas med blandad påverkan från käken och "
+"munnens huvudkontroll. Andra underordnade riggar kopplas till käken."
+
+#: ../../manual/addons/rigify/rig_types/face.rst:65
+msgid "Bottom Lip Influence"
+msgstr "Påverkan på underläpp"
+
+#: ../../manual/addons/rigify/rig_types/face.rst:67
+msgid "Locked Influence"
+msgstr "Låst påverkan"
+
+#: ../../manual/addons/rigify/rig_types/face.rst:69
+msgid "Secondary Influence Falloff"
+msgstr "Sekundärt avtagande av påverkan"
+
+#: ../../manual/addons/rigify/rig_types/face.rst:70
+msgid ""
+"Specifies the factor by which influence fades away with each successive "
+"lip loop (for bottom lip loops the blend moves away from inner bottom lip"
+" to full jaw influence)."
+msgstr ""
+"Anger den faktor som påverkan avtar med för varje efterföljande läppslinga. "
+"För underläppsslingor går blandningen från den inre underläppen till full "
+"påverkan från käken."
+
+#: ../../manual/addons/rigify/rig_types/faces.rst:11
+msgid ""
+"Will create a face system based on the bones child to the parent that has"
+" the property set on it."
+msgstr ""
+"Skapar ett ansiktssystem baserat på benen som är underordnade det ben som "
+"har egenskapen angiven."
+
+#: ../../manual/addons/rigify/rig_types/faces.rst:13
+msgid ""
+"Requirement: All the face bones bundled in the ``faces.super_face`` "
+"sample had to be present and child of the master bone that has the Rigify"
+" type *face* property set."
+msgstr ""
+"Krav: Alla ansiktsben i provet ``faces.super_face`` måste finnas och vara "
+"underordnade huvudbenet som har Rigify-typegenskapen *face* angiven."
+
+#: ../../manual/addons/rigify/rig_types/faces.rst:18
+msgid ""
+"This rig type is being deprecated in favor of a new modular :doc:`skin "
+"<skin>` and :doc:`face <face>` rigging system."
+msgstr ""
+"Den här riggtypen fasas ut till förmån för ett nytt modulärt "
+":doc:`hud- <skin>` och :doc:`ansiktsriggningssystem <face>`."
+
+#: ../../manual/addons/rigify/rig_types/index.rst:5
+msgid ""
+"Rig types are components used by Rigify to process specific parts of the "
+"meta-rig when generating the armature. They represent common character "
+"features, like the spine, limbs, fingers etc."
+msgstr ""
+"Riggtyper är komponenter som Rigify använder för att behandla specifika "
+"delar av metariggen när armaturen genereras. De representerar vanliga "
+"karaktärsdelar som ryggrad, extremiteter och fingrar."
+
+#: ../../manual/addons/rigify/rig_types/index.rst:10
+msgid ""
+"The list of available rig types appears in the Bone properties tab when "
+"the bone is selected in Pose Mode. Scroll down the Properties to find "
+"Rigify Type panel."
+msgstr ""
+"Listan över tillgängliga riggtyper visas på fliken Bone properties när "
+"benet är markerat i Pose Mode. Rulla ned i Properties för att hitta panelen "
+"Rigify Type."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:6
+msgid ""
+"These rig types handle generation of different kind of limbs and their "
+"features, like fingers."
+msgstr ""
+"De här riggtyperna hanterar generering av olika sorters extremiteter och "
+"deras funktioner, till exempel fingrar."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:12
+msgid "limbs.simple_tentacle"
+msgstr "limbs.simple_tentacle"
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:14
+msgid ""
+"Will create a simple bendy and stretchy b-bones tentacle chain, which can"
+" optionally replicate local rotation from preceding bones to the "
+"subsequent ones for use in cases like fingers."
+msgstr ""
+"Skapar en enkel böjlig och töjbar B-Bone-tentakelkedja. Den kan valfritt "
+"kopiera lokal rotation från föregående ben till efterföljande, exempelvis "
+"för fingrar."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:20
+msgid ""
+"Enables the automation on the selected axis. Multiple axis or none can be"
+" selected holding :kbd:`Shift-LMB`. When enabled the subsequent control "
+"bones will copy the local rotations from the previous ones. The option is"
+" accessible in the controls of the final rig as a Copy Rotation "
+"constraint and can be disabled even after rig is generated, or at "
+"animation time."
+msgstr ""
+"Aktiverar automatiseringen på den valda axeln. Flera axlar eller ingen kan "
+"väljas genom att hålla ned :kbd:`Skift-vänsterklick`. När funktionen är "
+"aktiverad kopierar efterföljande kontrollben de lokala rotationerna från de "
+"föregående. Alternativet är tillgängligt i den färdiga riggens kontroller "
+"som en Copy Rotation-begränsning och kan inaktiveras efter genereringen "
+"eller under animering."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:25
+msgid ""
+"If enabled, allows placing the Tweak controls in different bone "
+"collections from the main controls."
+msgstr ""
+"Om det aktiveras kan finjusteringskontroller placeras i andra bensamlingar "
+"än huvudkontrollerna."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:42
+msgid "IK Control"
+msgstr "IK-kontroll"
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:49
+msgid ""
+"To improve performance, the switchable parent for the IK control contains"
+" only one option beside None. Thus it is advised to add a 'held object' "
+"control using the :ref:`basic.raw_copy <rigify.rigs.basic.pivot>` rig to "
+"act as the common parent for the fingers with a fully functional parent "
+"switch."
+msgstr ""
+"För bättre prestanda har det växlingsbara överordnade benet för "
+"IK-kontrollen bara ett alternativ utöver None. Därför rekommenderas en "
+"kontroll för ett hållet objekt, med riggen "
+":ref:`basic.raw_copy <rigify.rigs.basic.pivot>`, som gemensamt "
+"överordnat ben för fingrarna med en fullt fungerande växling."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:53
+msgid ""
+"Specifies the value of the Local Location option for IK controls, which "
+"decides if the location channels are aligned to the local control "
+"orientation or world."
+msgstr ""
+"Anger värdet för alternativet Local Location för IK-kontroller. Det avgör "
+"om positionskanalerna är riktade efter kontrollens lokala orientering eller "
+"världsrymden."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:62
+msgid ""
+"Rotation Axis (Bend Rotation Axis in the case of `limbs.super_finger`_) "
+"affects the :doc:`roll </animation/armatures/bones/editing/bone_roll>` of"
+" the generated bones. Automatic mode recalculates the generated bones "
+"roll while any of the Manual modes copy the roll of the meta-rig bones."
+msgstr ""
+"Rotation Axis, eller Bend Rotation Axis för `limbs.super_finger`_, påverkar "
+":doc:`benrullningen </animation/armatures/bones/editing/bone_roll>` hos de "
+"genererade benen. Automatiskt läge beräknar om benrullningen, medan ett "
+"manuellt läge kopierar metariggens benrullning."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:81
+msgid ""
+"Will create a fully featured bendy and stretchy arm depending on the "
+"user-defined options."
+msgstr ""
+"Skapar en fullt utrustad böjlig och töjbar arm utifrån de "
+"användardefinierade alternativen."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:87
+msgid "Arm required bones."
+msgstr "Obligatoriska ben för arm."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:90
+msgid ""
+"Generates an extra child of the hand IK control that rotates around the "
+"tail of the hand bone."
+msgstr ""
+"Skapar ett extra underordnat ben till handens IK-kontroll som roterar kring "
+"handbenets svans."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:94
+msgid "Limb Segments (integer)"
+msgstr "Extremitetssegment (heltal)"
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:95
+msgid ""
+"Defines the number of additional tweak controls each limb bone will have "
+"on the final rig."
+msgstr ""
+"Definierar antalet ytterligare finjusteringskontroller som varje "
+"extremitetsben ska ha i den färdiga riggen."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:98
+msgid "Custom IK Pivot"
+msgstr "Anpassad IK-vridpunkt"
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:99
+msgid ""
+"Generates an extra control for the end of the IK limb that allows "
+"rotating it around an arbitrarily placed pivot."
+msgstr ""
+"Skapar en extra kontroll för IK-extremitetens ände som gör att den kan "
+"roteras kring en godtyckligt placerad vridpunkt."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:103
+msgid ""
+"If enabled, allows placing the Tweak controls in different bone "
+"collections from the IK bones."
+msgstr ""
+"Om det aktiveras kan finjusteringskontroller placeras i andra bensamlingar "
+"än IK-benen."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:113
+msgid ""
+"Requirement: A chain of four connected bones (thigh, shin, foot, toe) "
+"with one unconnected child of the foot to be used as the heel pivot."
+msgstr ""
+"Krav: En kedja med fyra sammankopplade ben, lår, smalben, fot och tå, samt "
+"ett fristående underordnat ben till foten som används som hälvridpunkt."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:118
+msgid "Leg required bones."
+msgstr "Obligatoriska ben för ben."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:121
+msgid ""
+"Specifies where to put the pivot location of the main IK control, or "
+"whether to generate an additional pivot control at the base of the toe."
+msgstr ""
+"Anger var huvud-IK-kontrollens vridpunkt ska placeras och om en extra "
+"vridpunktskontroll ska genereras vid tåns bas."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:125
+msgid ""
+"Specifies that two separate toe controls should be generated for IK and "
+"FK instead of sharing one bone. This is necessary to get fully correct "
+"IK-FK snapping in all possible poses."
+msgstr ""
+"Anger att separata tåkontroller ska genereras för IK och FK i stället för "
+"att dela ett ben. Det krävs för helt korrekt anpassning mellan IK och FK i "
+"alla möjliga poser."
+
+#: ../../manual/addons/rigify/rig_types/limbs.rst:129
+msgid ""
+"Generates a slider to switch the heel control to pivot on the tip rather "
+"than the base of the toe (for roll this obviously only applies on forward"
+" roll)."
+msgstr ""
+"Skapar ett reglage som får hälkontrollen att vridas kring tåspetsen i "
+"stället för tåns bas. För rullning gäller det förstås bara rullning framåt."
