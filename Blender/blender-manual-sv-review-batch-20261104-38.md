@@ -10,12 +10,16 @@ Nio poster för Resursbiblioteks importmetoder har granskats:
 
 - standardimportmetod och dess åsidosättning i Resursbläddraren;
 - begränsningen för inbyggda respektive nätbaserade resursbibliotek;
-- de faktiska Blender-operatörerna `Link` → *Länka* och `Append` →
+- de faktiska Blender-importmetoderna `Link` → *Länk* och `Append` →
   *Lägg till*;
 - länkade resurser, skrivskydd och oberoende kopior.
 
 API-målen `bpy.ops.wm.link`, `bpy.ops.wm.append` och
 `bpy.types.FileAssetSelectParams.import_method` är bevarade bytekorrekt.
+
+UI-exporten bekräftar den 5 november att importmetoden `Link` har
+substantivformen *Länk*. Verbformen *länka* används endast i den löpande
+förklarande texten.
 
 ## Kontroller
 
