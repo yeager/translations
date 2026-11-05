@@ -456,6 +456,11 @@ filmklippskontext och `IK-typ`. Deltafilen är lokalt validerad och arkiverad.
 Blender Translate bekräftade **9
 bearbetade, 3 uppdaterade, 6 hoppade över och 0 saknade**.
 
+Batch 58 tillämpar den verifierade Constraint-terminologin för riktnings- och
+banbegränsningar. *Shrinkwrap* behålls medvetet som Blenders synliga
+funktionsnamn; den felaktiga betydelsen `Krympfilm` tas bort. Deltafilen är
+lokalt validerad och väntar på arkivering och verifierad import.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
