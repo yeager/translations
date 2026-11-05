@@ -273,8 +273,9 @@ Reglernas svenska text använder `Böjd`, `inrullning`, `utrullning` och
 Deltafilen och terminologin har passerat `msgfmt`, l10n-lint, Hunspell,
 diffkontroll och Gitleaks. `svlang` flaggar B-Bone- och vilopos-ord samt
 bisatsernas verbföljd, men dessa är manuellt bedömda som korrekta i den
-tekniska UI-kontexten. Batchen är arkiverad lokalt och väntar på verifierad
-uppladdning till Blender Translate.
+tekniska UI-kontexten. Blender Translate bekräftade **10 bearbetade, 6
+uppdaterade, 4 hoppade över och 0 saknade**. De överhoppade posterna hade
+alltså redan samma eller nyare värden på servern.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
