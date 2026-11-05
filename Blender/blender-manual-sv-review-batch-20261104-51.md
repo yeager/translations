@@ -34,3 +34,12 @@ och *åtgärd* följer den fastställda terminologin.
 
 Råexporten är orörd. Deltafilen är en lokal kandidat och är inte uppladdad
 till Blender Translate.
+
+## Terminologisk efterkontroll 5 november
+
+Kommandoradsflaggor, kortflaggor, miljövariabler, filnamn och platshållare
+är funktionella värden och återges exakt. I förklarande text används
+**miljövariabel**, **renderingsformat**, **loggningsnivå**, **datablock** och
+**åtgärd**. Beskrivningen av `--threads` har förtydligats till *Anger antalet
+trådar*; den beskriver flaggans effekt utan att antyda en uppmaning till
+läsaren.
