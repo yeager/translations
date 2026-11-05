@@ -225,8 +225,10 @@ som `Cache-katalog` och `Diskcache-katalog` samt otydliga omskrivningar.
 Termlistan har kompletterats med `cachekatalog`; deltafilen använder också
 `diskcachekatalog`, `standardcachekatalog` och `cachesökväg` i sina respektive
 inställnings- och felmeddelandekontexter. Den är lokalt kontrollerad med
-`msgfmt`, l10n-lint, Hunspell, diffkontroll och Gitleaks; importresultatet
-dokumenteras först efter uppladdning.
+`msgfmt`, l10n-lint, Hunspell, diffkontroll och Gitleaks. Blender Translate
+bekräftade **6 bearbetade, 3 uppdaterade, 1 hoppad över och 2 saknade**.
+De saknade strängarna, `Disk Cache Directory` och `Override default directory`,
+har försvunnit eller ändrats uppströms och räknas inte som importerade.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
