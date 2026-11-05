@@ -37547,7 +37547,7 @@ msgstr "Applicerar falloff-radien i ett loopmönster och inverterar förskjutnin
 #. :src: bpy.types.Brush.boundary_offset
 #, fuzzy
 msgid "Boundary Origin Offset"
-msgstr "Begränsning Ursprung Offset"
+msgstr "Förskjutning av gränsens ursprung"
 
 #. :src: bpy.types.Brush.boundary_offset
 #, fuzzy
@@ -37557,7 +37557,7 @@ msgstr "Förskjutning av gränsens ursprung i förhållande till penselns radie"
 #. :src: bpy.types.Brush.brush_capabilities
 #, fuzzy
 msgid "Brush's capabilities"
-msgstr "Borstens kapacitet"
+msgstr "Penselns egenskaper"
 
 #. :src: bpy.types.Brush.cloth_constraint_softbody_strength
 #, fuzzy
@@ -37617,12 +37617,12 @@ msgstr "Ormkrok"
 #. :src: bpy.types.Brush.cloth_force_falloff_type
 #, fuzzy
 msgid "Force Falloff"
-msgstr "Force Falloff"
+msgstr "Kraftavtagande"
 
 #. :src: bpy.types.Brush.cloth_force_falloff_type
 #, fuzzy
 msgid "Shape used in the brush to apply force to the cloth"
-msgstr "Form som används i borsten för att applicera kraft på tyget"
+msgstr "Form som används i penseln för att tillämpa kraft på tyget"
 
 #. :src: bpy.types.Brush.cloth_mass
 #. :src: bpy.types.SCULPT_OT_cloth_filter.cloth_mass
@@ -37639,12 +37639,12 @@ msgstr "Massa för varje simuleringspartikel"
 #. :src: bpy.types.Brush.cloth_sim_falloff
 #, fuzzy
 msgid "Simulation Falloff"
-msgstr "Simulering av falloff"
+msgstr "Simuleringsavtagande"
 
 #. :src: bpy.types.Brush.cloth_sim_falloff
 #, fuzzy
 msgid "Area to apply deformation falloff to the effects of the simulation"
-msgstr "Område för att tillämpa deformationsfalloff på simuleringens effekter"
+msgstr "Område där deformationens avtagande tillämpas på simuleringens effekter"
 
 #. :src: bpy.types.Brush.cloth_sim_limit
 #, fuzzy
@@ -37654,7 +37654,7 @@ msgstr "Simuleringsgräns"
 #. :src: bpy.types.Brush.cloth_sim_limit
 #, fuzzy
 msgid "Factor added relative to the size of the radius to limit the cloth simulation effects"
-msgstr "Faktor som läggs till i förhållande till radiusens storlek för att begränsa tygsimuleringseffekterna"
+msgstr "Faktor som läggs till i förhållande till radiens storlek för att begränsa tygsimuleringens effekter"
 
 #. :src: bpy.types.Brush.cloth_simulation_area_type
 #, fuzzy
@@ -37664,7 +37664,7 @@ msgstr "Simuleringsområde"
 #. :src: bpy.types.Brush.cloth_simulation_area_type
 #, fuzzy
 msgid "Part of the mesh that is going to be simulated when the stroke is active"
-msgstr "Del av mesh som kommer att simuleras när stroke är aktiv"
+msgstr "Del av meshen som simuleras när penseldraget är aktivt"
 
 #. :src: bpy.types.Brush.cloth_simulation_area_type:'LOCAL'
 #. :src: bpy.types.DisplaceModifier.space:'LOCAL'
@@ -37719,7 +37719,7 @@ msgstr "Global"
 
 #. :src: bpy.types.Brush.cloth_simulation_area_type:'GLOBAL'
 msgid "Simulates the entire mesh"
-msgstr "Simulera hela meshen"
+msgstr "Simulerar hela meshen"
 
 #. :src: bpy.types.Brush.cloth_simulation_area_type:'DYNAMIC'
 #. :src: bpy.types.ParticleSettings.use_dynamic_rotation
@@ -37784,12 +37784,12 @@ msgstr "Färg på markören vid subtraktion"
 #. :src: bpy.types.Brush.mask_overlay_alpha
 #, fuzzy
 msgid "Mask Texture Overlay Alpha"
-msgstr "Mask Textur Överlagring Alpha"
+msgstr "Alfa för masktexturöverlägg"
 
 #. :src: bpy.types.Brush.curve
 #, fuzzy
 msgid "Editable falloff curve"
-msgstr "Redigerbar falloff-kurva"
+msgstr "Redigerbar avtagandekurva"
 
 #. :src: bpy.types.Brush.curve_preset
 #, fuzzy
@@ -37966,7 +37966,7 @@ msgstr "Rot"
 #, fuzzy
 msgctxt "Curve"
 msgid "Sharp"
-msgstr "Inga/skarpa bildpunkter"
+msgstr "Skarp"
 
 #. :src: bpy.types.Brush.curve_preset:'LIN'
 #. :src: bpy.types.MaskLayer.falloff:'LINEAR'
@@ -38091,7 +38091,7 @@ msgstr "Typ av borste"
 #, fuzzy
 msgctxt "Curves"
 msgid "Paint Selection"
-msgstr "Markeringsläge för vertex:ar"
+msgstr "Måla markering"
 
 #. :src: bpy.types.Brush.curves_sculpt_tool:'ADD'
 #, fuzzy
@@ -38145,13 +38145,13 @@ msgstr "Jämn"
 #, fuzzy
 msgctxt "Curves"
 msgid "Slide"
-msgstr "Bild"
+msgstr "Glid"
 
 #. :src: bpy.types.Brush.dash_ratio
 #: scripts/startup/bl_ui/properties_paint_common.py:540
 #, fuzzy
 msgid "Dash Ratio"
-msgstr "Dash-förhållande"
+msgstr "Streckförhållande"
 
 #. :src: bpy.types.Brush.dash_ratio
 #, fuzzy
@@ -38162,12 +38162,12 @@ msgstr "Förhållande mellan samplingar i en cykel som borsten är aktiverad"
 #: scripts/startup/bl_ui/properties_paint_common.py:541
 #, fuzzy
 msgid "Dash Length"
-msgstr "Streck Längd"
+msgstr "Strecklängd"
 
 #. :src: bpy.types.Brush.dash_samples
 #, fuzzy
 msgid "Length of a dash cycle measured in stroke samples"
-msgstr "Längd på en dash-cykel mätt i stroke samples"
+msgstr "Längd på en streckcykel, mätt i penseldragsprov"
 
 #. :src: bpy.types.Brush.deform_target
 #, fuzzy
@@ -38182,22 +38182,22 @@ msgstr "Hur deformationen av borsten kommer att påverka objektet"
 #. :src: bpy.types.Brush.deform_target:'GEOMETRY'
 #, fuzzy
 msgid "Brush deformation displaces the vertices of the mesh"
-msgstr "Borste deformation förskjuter nätets hörn"
+msgstr "Penselns deformation förskjuter meshens hörnpunkter"
 
 #. :src: bpy.types.Brush.deform_target:'CLOTH_SIM'
 #, fuzzy
 msgid "Cloth Simulation"
-msgstr "Simulering av tyg"
+msgstr "Tygsimulering"
 
 #. :src: bpy.types.Brush.deform_target:'CLOTH_SIM'
 #, fuzzy
 msgid "Brush deforms the mesh by deforming the constraints of a cloth simulation"
-msgstr "Brush deformerar nätet genom att deformera begränsningarna i en tygsimulering"
+msgstr "Penseln deformerar meshen genom att deformera begränsningarna i en tygsimulering"
 
 #. :src: bpy.types.Brush.density
 #, fuzzy
 msgid "Amount of random elements that are going to be affected by the brush"
-msgstr "Mängd slumpmässiga element som kommer att påverkas av borsten"
+msgstr "Mängd slumpmässiga element som påverkas av penseln"
 
 #. :src: bpy.types.Brush.direction
 #. :src: bpy.types.KeyMapItem.direction
@@ -38286,7 +38286,7 @@ msgstr "Max elementavstånd"
 #. :src: bpy.types.Brush.disconnected_distance_max
 #, fuzzy
 msgid "Maximum distance to search for disconnected loose parts in the mesh"
-msgstr "Maximalt avstånd för att söka efter bortkopplade lösa delar i nätet"
+msgstr "Maximalt avstånd för att söka efter frånkopplade lösa delar i meshen"
 
 #. :src: bpy.types.Brush.elastic_deform_type:'GRAB_BISCALE'
 #, fuzzy
@@ -38313,38 +38313,38 @@ msgstr "Poisson-tal för elastisk deformation. Högre värden bevarar volymen me
 #. :src: bpy.types.Brush.falloff_angle
 #, fuzzy
 msgid "Falloff Angle"
-msgstr "Fallvinkel"
+msgstr "Avtagandevinkel"
 
 #. :src: bpy.types.Brush.falloff_angle
 #. :src: bpy.types.ImagePaint.normal_angle
 #, fuzzy
 msgid "Paint most on faces pointing towards the view according to this angle"
-msgstr "Måla mest på ansikten som pekar mot utsikten enligt denna vinkel"
+msgstr "Måla mest på ytor som enligt denna vinkel är riktade mot vyn"
 
 #. :src: bpy.types.Brush.falloff_shape
 #, fuzzy
 msgid "Falloff Shape"
-msgstr "Falloff-form"
+msgstr "Avtagandeform"
 
 #. :src: bpy.types.Brush.falloff_shape
 #, fuzzy
 msgid "Use projected or spherical falloff"
-msgstr "Använd projicerad eller sfärisk falloff"
+msgstr "Använd projicerat eller sfäriskt avtagande"
 
 #. :src: bpy.types.Brush.falloff_shape:'SPHERE'
 #, fuzzy
 msgid "Apply brush influence in a Sphere, outwards from the center"
-msgstr "Applicera penselpåverkan i en sfär, utåt från mitten"
+msgstr "Tillämpa penselns påverkan i en sfär, utåt från mitten"
 
 #. :src: bpy.types.Brush.falloff_shape:'PROJECTED'
 #, fuzzy
 msgid "Projected"
-msgstr "Prognostiserad"
+msgstr "Projicerad"
 
 #. :src: bpy.types.Brush.falloff_shape:'PROJECTED'
 #, fuzzy
 msgid "Apply brush influence in a 2D circle, projected from the view"
-msgstr "Applicera penselpåverkan i en 2D-cirkel, projicerad från vyn"
+msgstr "Tillämpa penselns påverkan i en 2D-cirkel, projicerad från vyn"
 
 #. :src: bpy.types.Brush.fill_threshold
 #: scripts/startup/bl_ui/properties_paint_common.py:1003
@@ -38360,7 +38360,7 @@ msgstr "Tröskelvärde över vilket fyllningen inte sprids"
 #. :src: bpy.types.Brush.flow
 #, fuzzy
 msgid "Amount of paint that is applied per stroke sample"
-msgstr "Mängd färg som appliceras per slagprov"
+msgstr "Mängd färg som appliceras per penseldragsprov"
 
 #. :src: bpy.types.Brush.gpencil_sculpt_tool
 #, fuzzy
@@ -38377,7 +38377,7 @@ msgstr "Utjämna"
 #. :src: bpy.types.Brush.gpencil_sculpt_tool:'SMOOTH'
 #, fuzzy
 msgid "Smooth stroke points"
-msgstr "Smidiga slagpunkter"
+msgstr "Jämna ut streckpunkter"
 
 #. :src: bpy.types.Brush.gpencil_sculpt_tool:'THICKNESS'
 #, fuzzy
@@ -38403,18 +38403,18 @@ msgstr "Slumpa"
 #. :src: bpy.types.Brush.gpencil_sculpt_tool:'RANDOMIZE'
 #, fuzzy
 msgid "Introduce jitter/randomness into strokes"
-msgstr "Introducera jitter/slumpmässighet i stroke"
+msgstr "Inför slumpmässighet i streck"
 
 #. :src: bpy.types.Brush.gpencil_sculpt_tool:'GRAB'
 #, fuzzy
 msgctxt "GPencil"
 msgid "Grab"
-msgstr "Grabben"
+msgstr "Dra"
 
 #. :src: bpy.types.Brush.gpencil_sculpt_tool:'GRAB'
 #, fuzzy
 msgid "Translate the set of points initially within the brush circle"
-msgstr "Översätt uppsättningen punkter som ursprungligen ligger inom penselcirkeln"
+msgstr "Flytta uppsättningen punkter som ursprungligen ligger inom penselcirkeln"
 
 #. :src: bpy.types.Brush.gpencil_sculpt_tool:'PUSH'
 #, fuzzy
@@ -38457,12 +38457,12 @@ msgstr "Klona"
 #. :src: bpy.types.Brush.gpencil_sculpt_tool:'CLONE'
 #, fuzzy
 msgid "Paste copies of the strokes stored on the internal clipboard"
-msgstr "Klistra in kopior av de slag som lagrats på det interna urklippet"
+msgstr "Klistra in kopior av de streck som lagras i det interna urklippet"
 
 #. :src: bpy.types.Brush.gpencil_settings
 #, fuzzy
 msgid "Gpencil Settings"
-msgstr "Inställningar för Gpencil"
+msgstr "Grease Pencil-inställningar"
 
 #. :src: bpy.types.Brush.gpencil_tool
 #. :src: bpy.types.Brush.image_tool
@@ -38506,7 +38506,7 @@ msgstr "Penseln används för att sudda ut streck"
 #, fuzzy
 msgctxt "Brush"
 msgid "Tint"
-msgstr "Lutning"
+msgstr "Tona"
 
 #. :src: bpy.types.Brush.gpencil_tool:'TINT'
 #, fuzzy
@@ -38535,12 +38535,12 @@ msgstr "Typ av borste"
 #: source/blender/editors/gpencil_legacy/annotate_paint.cc:1963
 #, fuzzy
 msgid "Draw"
-msgstr "Oavgjort"
+msgstr "Rita"
 
 #. :src: bpy.types.Brush.gpencil_vertex_tool:'DRAW'
 #, fuzzy
 msgid "Paint a color on stroke points"
-msgstr "Måla en färg på strokepunkter"
+msgstr "Måla en färg på streckpunkter"
 
 #. :src: bpy.types.Brush.gpencil_vertex_tool:'BLUR'
 #. :src: bpy.types.Brush.gpencil_weight_tool:'BLUR'
@@ -38559,12 +38559,12 @@ msgstr "Måla en färg på strokepunkter"
 #: source/blender/shader_fx/intern/FX_shader_blur.cc:64
 #, fuzzy
 msgid "Blur"
-msgstr "Suddighet"
+msgstr "Oskärpa"
 
 #. :src: bpy.types.Brush.gpencil_vertex_tool:'BLUR'
 #, fuzzy
 msgid "Smooth out the colors of adjacent stroke points"
-msgstr "Jämna ut färgerna på intilliggande strokepunkter"
+msgstr "Jämna ut färgerna på intilliggande streckpunkter"
 
 #. :src: bpy.types.Brush.gpencil_vertex_tool:'AVERAGE'
 #, fuzzy
@@ -38592,22 +38592,22 @@ msgstr "Byt färg på strokepunkter som redan har en färg applicerad"
 #. :src: bpy.types.Brush.gpencil_weight_tool:'WEIGHT'
 #, fuzzy
 msgid "Paint weight in active vertex group"
-msgstr "Måla vikt i aktiv vertexgrupp"
+msgstr "Måla vikt i aktiv hörnpunktsgrupp"
 
 #. :src: bpy.types.Brush.gpencil_weight_tool:'BLUR'
 #, fuzzy
 msgid "Blur weight in active vertex group"
-msgstr "Oskärpevikt i aktiv vertexgrupp"
+msgstr "Jämna ut vikt i aktiv hörnpunktsgrupp"
 
 #. :src: bpy.types.Brush.gpencil_weight_tool:'AVERAGE'
 #, fuzzy
 msgid "Average weight in active vertex group"
-msgstr "Genomsnittlig vikt i aktiv toppunktsgrupp"
+msgstr "Genomsnittlig vikt i aktiv hörnpunktsgrupp"
 
 #. :src: bpy.types.Brush.gpencil_weight_tool:'SMEAR'
 #, fuzzy
 msgid "Smear weight in active vertex group"
-msgstr "Smörja vikt i aktiv vertexgrupp"
+msgstr "Smeta ut vikt i aktiv hörnpunktsgrupp"
 
 #. :src: bpy.types.Brush.grad_spacing
 #, fuzzy
@@ -38627,7 +38627,7 @@ msgstr "Fyllningsläge för gradient"
 #. :src: bpy.types.Brush.gradient_stroke_mode
 #, fuzzy
 msgid "Gradient Stroke Mode"
-msgstr "Gradient Stroke Mode"
+msgstr "Övertoningsläge för streck"
 
 #. :src: bpy.types.Brush.gradient_stroke_mode:'SPACING_CLAMP'
 #. :src: bpy.types.Curve.use_path_clamp
