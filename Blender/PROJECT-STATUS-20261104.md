@@ -480,6 +480,13 @@ begränsningsetiketter, blandningslägen, kurvkartläggning och topologitermen
 Translate bekräftade **31 bearbetade, 11 uppdaterade, 20 hoppade över och 0
 saknade**.
 
+Batch 61 granskar kurvdata, beroendegrafen och Dope Sheet-filter rad för rad.
+Två oberoende, skrivskyddade delgranskningar har jämförts med RNA-kontext och
+befintlig Blender-terminologi. Den lokalt validerade deltafilen normaliserar
+bland annat *kurvsegment*, *kurvspline*, *visningslager* och
+*beroendegraf*. Deltafilen är arkiverad i översättningsförrådet och väntar på
+verifierad import i Blender Translate.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
