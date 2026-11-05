@@ -632,6 +632,17 @@ Hunspell-träffen är den kontrollerade Blender-sammansättningen
 Blender-fackord. Batchen är lokalt validerad och arkiveras för import till
 Blender Translate; något importresultat finns ännu inte.
 
+Batch 88 granskar ljudets avståndsmodeller, scen- och sekvensinställningar
+samt textredigerarens status i tre separata radintervall. Tre oberoende
+skrivskyddade delgranskningar har jämförts mot RNA-kontext och
+terminologilistan. Den lokalt validerade deltafilen innehåller 39 säkra
+UI-strängar, bland annat *avståndsmodell*, *delbildruta*,
+*sekvensredigerare*, *cachelagring* och *ljuddatablock*. `msgfmt` och
+l10n-lint passerar. Hunspell-träffarna är kontrollerade Blender-sammansättningar;
+svlang-träffarna är förväntade korta UI-etiketter och Blender-fackord. Batchen
+är lokalt validerad och arkiveras för import till Blender Translate; något
+importresultat finns ännu inte.
+
 En helkatalogskörning den 5 november med `l10n-lint` gav 1 132 träffar.
 Genomgången visar att merparten är förväntade produktnamn, formatnamn,
 kodidentifierare, standardskrivning och tekniska sammansättningar. De får inte

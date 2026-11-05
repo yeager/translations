@@ -217,6 +217,9 @@ Senast uppdaterad: 2026-11-05.
 | strand render | strårendering | Rendering av enskilda hår- eller partikelstrån. |
 | subframe | delbildruta | Simuleringssteg mellan hela bildrutor. |
 | particle path | partikelbana | Bana som en partikel följer över tid. |
+| distance model | avståndsmodell | Modell som styr hur ljudets styrka minskar med avståndet. |
+| subframe | delbildruta | Simuleringssteg mellan hela bildrutor. |
+| sequencer | sekvensredigerare | Blenders redigerare för video- och ljudsekvenser. |
 | curve map point | kurvkartpunkt | Punkt i en kurvkartläggning. |
 | support loop | stödslinga | Topologisk loop som kontrollerar skärpan kring en meshdetalj. |
 | mix mode | blandningsläge | Anger hur en Transform Constraint kombinerar position, rotation eller skala med det ursprungliga värdet. |
