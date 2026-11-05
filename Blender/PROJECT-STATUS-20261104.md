@@ -476,8 +476,9 @@ Batch 60 granskar Spline IK, Transform Constraint och kurvverktyg rad för
 rad. Tre oberoende, skrivskyddade delgranskningar har kontrollerats mot
 RNA-kontexten. Den lokalt validerade deltafilen normaliserar
 begränsningsetiketter, blandningslägen, kurvkartläggning och topologitermen
-*stödslinga*. Deltafilen är arkiverad i översättningsförrådet och väntar på
-verifierad import i Blender Translate.
+*stödslinga*. Deltafilen är arkiverad i översättningsförrådet. Blender
+Translate bekräftade **31 bearbetade, 11 uppdaterade, 20 hoppade över och 0
+saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
