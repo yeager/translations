@@ -387,9 +387,9 @@ bekräftade **21 bearbetade, 18 uppdaterade, 3 hoppade över och 0 saknade**.
 Batch 47 granskar efterbehandling och slumpning av Grease Pencil-streck.
 Den ersätter bland annat `Jitter` med den kontextuella svenska termen
 `slumpning`, normaliserar underindelningssteg och rättar egenskapen för
-streckkollision. Batchen är lokalt kontrollerad och väntar på arkivering och
-verifierad import. Svlangs V2-markeringar gäller korta UI-beskrivningar med
-underordnade satser.
+streckkollision. Blender Translate bekräftade **19 bearbetade, 16
+uppdaterade, 3 hoppade över och 0 saknade**. Svlangs V2-markeringar gäller
+korta UI-beskrivningar med underordnade satser.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
