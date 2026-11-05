@@ -183,7 +183,8 @@ källan visar att de två första avser egenskapen `action_slot` i
 `rna_action.cc`. `Action slot` är här ett översättningsbart användargränssnitt,
 inte ett API-identifierarnamn; meddelandena använder därför konsekvent
 `åtgärdsslot` och dess naturliga plural. Lokal kvalitetssäkring är klar;
-importresultat fylls i efter uppladdningen.
+Blender Translate bekräftade `blender-ui-sv-reviewed-20261105-23.po`:
+**4 bearbetade, 4 uppdaterade, 0 hoppade över och 0 saknades**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
