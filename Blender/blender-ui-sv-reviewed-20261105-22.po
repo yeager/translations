@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender UI\n"
+"PO-Revision-Date: 2026-11-05 14:40+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. :src: bpy.types.Action.is_action_legacy
+msgid "Return whether this is a legacy Action. Legacy Actions have no layers or slots. Since Blender 4.4 actions are automatically updated to layered actions. This will only return true on empty actions"
+msgstr "Returnerar om detta är en äldre åtgärd. Äldre åtgärder saknar lager och åtgärdsslotar. Sedan Blender 4.4 uppdateras åtgärder automatiskt till lagerindelade åtgärder. Funktionen returnerar endast sant för tomma åtgärder"
+
+#. :src: bpy.types.Action.slots
+msgid "The list of slots in this Action"
+msgstr "Listan över åtgärdsslotar i denna åtgärd"
+
+#. :src: bpy.types.ANIM_OT_replace_action
+msgid "Swap all users of one action to another one. The normal action slot assignment rules apply. This ignores the NLA and Action Constraints"
+msgstr "Byt alla användare av en åtgärd till en annan. De vanliga reglerna för tilldelning av åtgärdsslotar gäller. NLA och åtgärdsbegränsningar ignoreras"
+
+#. :src: bpy.types.ANIM_OT_separate_slots
+msgid "Move all slots of the action on the active object into newly created, separate actions. All users of those slots will be reassigned to the new actions. The current action won't be deleted but will be empty and might end up having zero users"
+msgstr "Flytta alla åtgärdsslotar på det aktiva objektet till nyskapade, separata åtgärder. Alla användare av dessa slotar kommer att omfördelas till de nya åtgärderna. Den aktuella åtgärden kommer inte att raderas, men kommer att vara tom och kan i slutändan ha noll användare"
+
+#. :src: bpy.types.ANIM_OT_slot_channels_move_to_new_action
+msgid "Move the selected slots into a newly created action"
+msgstr "Flytta de valda slotarna till en nyskapad åtgärd"
+
+#: scripts/addons_core/rigify/operators/action_layers.py:475
+msgid "No slots in this Action."
+msgstr "Inga slotar i denna åtgärd."
+
+#: source/blender/animrig/intern/keyframing.cc:220
+msgid "Inserting keys on {:d} data-block(s) has been skipped because of missing action slots."
+msgstr "Infogning av nyckelbilder i {:d} datablock hoppades över på grund av saknade åtgärdsslotar."

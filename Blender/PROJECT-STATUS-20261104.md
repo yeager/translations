@@ -167,6 +167,15 @@ kvalitetssäkring är klar. Blender Translate bekräftade
 `blender-ui-sv-reviewed-20261105-21.po`: **1 bearbetad, 1 uppdaterad, 0
 hoppade över och 0 saknades**.
 
+Batch 22 granskar animeringssystemets tekniska *slots* i deras riktiga
+Action-kontext. Sju texter blandade tidigare ihop datatypen med vanliga
+`platser` eller den avvikande sammansättningen `åtgärdsplatser`. Källreferenser
+från `bpy.types.Action`, `ANIM_OT_*`, Rigify och
+`animrig/intern/keyframing.cc` visar att samtliga avser Blenders Action Slots.
+De använder nu konsekvent `åtgärdsslotar` eller `slotar` där åtgärdskontexten
+redan är given. Lokal kvalitetssäkring är klar; importresultat fylls i efter
+uppladdningen.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
