@@ -110,6 +110,10 @@ Senast uppdaterad: 2026-11-05.
 | Image Texture | Bildtextur | Synligt Blender-nodnamn. |
 | Color Space | Färgrymd | Synlig Blender-inställning och teknisk fackterm. |
 | Grease Pencil | Grease Pencil | Produkt- och funktionsnamn; översätt inte. |
+| Grease Pencil layer | Grease Pencil-lager | Lager som samlar relaterade Grease Pencil-ritningar. Behåll produktnamnet men översätt den svenska efterleden. |
+| Grease Pencil frame | Grease Pencil-bildruta | Bildruta i ett Grease Pencil-lager; använd inte *ram* i animeringskontext. |
+| Grease Pencil masking layer | maskeringslager för Grease Pencil | Lager som begränsar synligheten för Grease Pencil-innehåll. |
+| onion skin | lökskal | Den visade tidigare eller senare ritningen. Funktionen heter *lökskalning*. |
 | override | åsidosättning / överskrivning | Kontextstyrt. Generella UI-etiketter använder *åsidosättning*. *Library Override* är i den aktuella UI-katalogen *biblioteksåsidosättning*, men närliggande operatörsnamn använder också *biblioteksöverskrivning*. Normalisera aldrig utan att granska strängens sammanhang och närliggande förekomster. |
 
 ## Mesh och animering
@@ -140,6 +144,8 @@ Senast uppdaterad: 2026-11-05.
 | keyframe | nyckelbildruta | Använd i svensk förklarande text; ändra inte API-namn. |
 | F-Curve | F-kurva | Behåll initialen och använd svenskt ord efter bindestrecket. |
 | F-Curve modifier | F-kurvmodifierare | Modifierare som förändrar en F-kurvas värden eller förlopp. |
+| frame range | bildruteintervall | Tidsintervall i animation och uppspelning. Använd *startbildruta* respektive *slutbildruta* för ändpunkterna. |
+| curve frame range | kurvornas bildruteintervall | Actions sammanlagda intervall från de ingående F-kurvorna. |
 | noise modifier | brusmodifierare | Modifierare som lägger slumpmässig variation på en F-kurva. Använd *brus*, inte det fysiska ljudordet *buller*. |
 | stepped interpolation | stegad interpolation | F-kurvmodifierare som håller interpolerade värden flera bildrutor. |
 | field falloff | fältets avtagande | Hur kraften från ett kraftfält minskar med avståndet. |
@@ -207,6 +213,21 @@ Senast uppdaterad: 2026-11-05.
 | selection set | urvalsuppsättning | Rigify-inställning som samlar ben för ett styrt urval. |
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
 | brush capabilities | penselfunktioner | Skrivskyddad uppsättning tillgängliga egenskaper för en pensel. |
+| brush | pensel | Använd för Blender-verktyget i målning, skulptering och Grease Pencil. Undvik den felaktiga formen *borste* i nya UI-strängar. |
+| brush stroke | penseldrag | Ett sammanhängande drag med penseln. Skilj från Grease Pencil-*streck*, som är det ritade resultatet. |
+| brush dab | penselavtryck | Enskilt delavtryck i ett penseldrag. |
+| brush falloff | penselns avtagande | Hur penselns påverkan minskar med avståndet från centrum eller gräns. |
+| falloff | avtagande | Använd i förklarande Blender-text. Behåll engelska namn när de är formella produkt- eller API-namn. |
+| brush spacing | penselavstånd | Avståndet mellan penselavtryck; UI-värdet *Space* kan i relevant panel översättas *Avstånd*. |
+| brush tip | penselspets | Penselns form och riktning vid målning eller skulptering. |
+| mask texture | masktextur | Textur som begränsar en pensels påverkan. |
+| texture overlay | texturöverlägg | Visas ovanpå arbetsytan vid målning. |
+| plane offset | planförskjutning | Förskjuter skulpteringsplanet i förhållande till ytan. |
+| plane trim | plantrimning | Begränsar hur långt från det förskjutna planet en hörnpunkt påverkas. |
+| area normal | områdesnormal | Normal som används för ett område i skulpterings- och automaskningsinställningar. |
+| view normal | visningsnormal | Normal uttryckt i förhållande till 3D-vyn. |
+| face set | ansiktsuppsättning | Skulpteringsgrupp av meshytor. Skriv sammansättningar som *ansiktsuppsättningsgräns*. |
+| radius falloff | radieavtagande | Avtagande som styrs av radie i pensel- och skulpteringsinställningar. |
 | smooth stroke | jämnt penseldrag | Penselinställning som filtrerar markörens rörelse under draget. |
 | space attenuation | avståndsdämpning | Dämpar penselstyrkan utifrån mellanrummet mellan penselavtryck. |
 | sculpt capabilities | funktioner för skulptering | Skrivskyddad uppsättning tillgängliga egenskaper för skulpteringsverktyget. |
