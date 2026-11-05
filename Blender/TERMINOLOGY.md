@@ -131,6 +131,10 @@ Senast uppdaterad: 2026-11-05.
 | bone roll | benrullning | Etablerad svensk UI-term för ett bens rotationsriktning kring längdaxeln. |
 | feature set | funktionsuppsättning | Rigify-undertillägg som tillhandahåller metariggar eller riggtyper. |
 | rig type | riggtyp | Typdefinition som bestämmer hur Rigify genererar en viss del av en rigg. |
+| rig sample | riggprov | Fördefinierad Rigify-del som läggs till i en armatur eller metarigg som utgångspunkt. |
+| parenting settings | överordningsinställningar | Inställningar för relationen mellan ett ben och dess överordnade ben. |
+| Bendy Bones | Bendy Bones | Synligt Blender-namn för böjliga ben; behåll produktnamnet i etiketter och den närliggande saktexten. |
+| color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
 | AOV | AOV / godtyckliga utgångsvariabler | Behåll den korta UI-etiketten *AOV*. I förklarande terminologi används TBX-formen *godtyckliga utgångsvariabler*. |
 
 ## Namn, format och kod
