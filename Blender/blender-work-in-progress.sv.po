@@ -47632,12 +47632,12 @@ msgstr "Objektdata"
 #. :src: bpy.types.BUILTIN_KSI_DeltaLocation
 #, fuzzy
 msgid "Delta Location"
-msgstr "Delta Plats"
+msgstr "Deltaförflyttning"
 
 #. :src: bpy.types.Object.delta_location
 #, fuzzy
 msgid "Extra translation added to the location of the object"
-msgstr "Extra översättning läggs till objektets plats"
+msgstr "Extra förflyttning som läggs till objektets position"
 
 #. :src: bpy.types.Object.delta_rotation_euler
 #, fuzzy
@@ -47663,7 +47663,7 @@ msgstr "Extra rotation läggs till objektets rotation (när du använder Quatern
 #. :src: bpy.types.BUILTIN_KSI_DeltaScale
 #, fuzzy
 msgid "Delta Scale"
-msgstr "Delta skala"
+msgstr "Deltaskala"
 
 #. :src: bpy.types.Object.delta_scale
 #, fuzzy
@@ -47689,12 +47689,12 @@ msgstr "Visning av objekt"
 #. :src: bpy.types.ObjectDisplay
 #, fuzzy
 msgid "Object display settings for 3D viewport"
-msgstr "Inställningar för visning av objekt i 3D-visningsportal"
+msgstr "Inställningar för objektvisning i 3D-vyn"
 
 #. :src: bpy.types.Object.display_bounds_type
 #, fuzzy
 msgid "Display Bounds Type"
-msgstr "Visa gränser Typ"
+msgstr "Visningstyp för avgränsning"
 
 #. :src: bpy.types.Object.display_bounds_type
 #, fuzzy
@@ -47752,7 +47752,7 @@ msgstr "Visa avgränsningar som kapsel"
 #: scripts/startup/bl_ui/properties_physics_fluid.py:1516
 #, fuzzy
 msgid "Display As"
-msgstr "VISA"
+msgstr "Visa som"
 
 #. :src: bpy.types.Object.display_type
 msgid "How to display object in viewport"
@@ -47787,7 +47787,7 @@ msgstr "Massiv"
 #. :src: bpy.types.Object.display_type:'SOLID'
 #, fuzzy
 msgid "Display the object as a solid (if solid drawing is enabled in the viewport)"
-msgstr "Visa objektet som en solid (om solidritning är aktiverad i visningsfönstret)"
+msgstr "Visa objektet som solitt (om solid visning är aktiverad i 3D-vyn)"
 
 #. :src: bpy.types.Object.display_type:'TEXTURED'
 msgid "Textured"
@@ -47801,22 +47801,22 @@ msgstr "Visa objektet med texturer (om texturer är aktiverade i visningsfönstr
 #. :src: bpy.types.Object.empty_display_size
 #, fuzzy
 msgid "Empty Display Size"
-msgstr "Storlek på tom display"
+msgstr "Visningsstorlek för tomobjekt"
 
 #. :src: bpy.types.Object.empty_display_size
 #, fuzzy
 msgid "Size of display for empties in the viewport"
-msgstr "Storlek på displayen för tomma föremål i visningsfönstret"
+msgstr "Visningsstorlek för tomobjekt i 3D-vyn"
 
 #. :src: bpy.types.Object.empty_display_type
 #, fuzzy
 msgid "Empty Display Type"
-msgstr "Typ av tom display"
+msgstr "Visningstyp för tomobjekt"
 
 #. :src: bpy.types.Object.empty_display_type
 #, fuzzy
 msgid "Viewport display style for empties"
-msgstr "Visningsstil för tomma objekt i vyport"
+msgstr "Visningsstil i 3D-vyn för tomobjekt"
 
 #. :src: bpy.types.Object.empty_display_type:'PLAIN_AXES'
 #. :src: bpy.types.OBJECT_OT_empty_add.type:'PLAIN_AXES'
@@ -47855,7 +47855,7 @@ msgstr "Cirkel"
 #. :src: bpy.types.Object.empty_image_depth
 #, fuzzy
 msgid "Empty Image Depth"
-msgstr "Tomt bilddjup"
+msgstr "Bilddjup för tomobjekt"
 
 #. :src: bpy.types.Object.empty_image_depth
 #, fuzzy
@@ -47865,7 +47865,7 @@ msgstr "Bestäm vilka andra objekt som kommer att skymma bilden"
 #. :src: bpy.types.Object.empty_image_offset
 #, fuzzy
 msgid "Origin Offset"
-msgstr "Ursprung Offset"
+msgstr "Ursprungsförskjutning"
 
 #. :src: bpy.types.Object.empty_image_offset
 #, fuzzy
@@ -47906,7 +47906,7 @@ msgstr "Inställningar för att använda objektet som ett fält i fysiksimulerin
 #. :src: bpy.types.Object.hide_probe_plane
 #, fuzzy
 msgid "Disable in Planar Light Probes"
-msgstr "Inaktivera i Planar Light Probes"
+msgstr "Inaktivera i plana ljussonder"
 
 #. :src: bpy.types.Object.hide_probe_plane
 #, fuzzy
@@ -47916,7 +47916,7 @@ msgstr "Globalt inaktiverad i plana ljussonder"
 #. :src: bpy.types.Object.hide_probe_sphere
 #, fuzzy
 msgid "Disable in Spherical Light Probes"
-msgstr "Inaktivera i sfäriska ljusprober"
+msgstr "Inaktivera i sfäriska ljussonder"
 
 #. :src: bpy.types.Object.hide_probe_sphere
 #, fuzzy
@@ -47926,7 +47926,7 @@ msgstr "Globalt inaktiverad i sfäriska ljussonder"
 #. :src: bpy.types.Object.hide_probe_volume
 #, fuzzy
 msgid "Disable in Volume Probes"
-msgstr "Inaktivera i volymprober"
+msgstr "Inaktivera i volymljussonder"
 
 #. :src: bpy.types.Object.hide_probe_volume
 #, fuzzy
@@ -47938,7 +47938,7 @@ msgstr "Globalt inaktivera volymprober"
 #: scripts/startup/bl_ui/properties_particle.py:1552
 #, fuzzy
 msgid "Instance Collection"
-msgstr "Instans Samling"
+msgstr "Instanssamling"
 
 #. :src: bpy.types.Object.instance_collection
 #, fuzzy
@@ -47968,7 +47968,7 @@ msgstr "Om inte None, metod för objektinstansiering som ska användas"
 #. :src: bpy.types.Object.instance_type:'VERTS'
 #, fuzzy
 msgid "Instantiate child objects on all vertices"
-msgstr "Instansiera underordnade objekt på alla hörn"
+msgstr "Instansiera underordnade objekt på alla hörnpunkter"
 
 #. :src: bpy.types.Object.instance_type:'FACES'
 #. :src: bpy.types.ParticleSettings.emit_from:'FACE'
@@ -48039,7 +48039,7 @@ msgstr "Rendera objekt som en \"holdout\" eller \"matte\", vilket skapar ett hå
 #. :src: bpy.types.CyclesView3DShadingSettings.render_pass:'SHADOW_CATCHER'
 #, fuzzy
 msgid "Shadow Catcher"
-msgstr "Skuggfångaren"
+msgstr "Skuggfångare"
 
 #. :src: bpy.types.Object.is_shadow_catcher
 #, fuzzy
@@ -48079,7 +48079,7 @@ msgstr "Line Art-inställningar för objektet"
 
 #. :src: bpy.types.Object.location
 msgid "Location of the object"
-msgstr "Position av objektet"
+msgstr "Objektets position"
 
 #. :src: bpy.types.Object.lock_location
 #. :src: bpy.types.WM_OT_xr_navigation_grab.lock_location
@@ -48140,12 +48140,12 @@ msgstr "Lås ändring av skala vid transformering"
 #. :src: bpy.types.Object.material_slots
 #, fuzzy
 msgid "Material Slots"
-msgstr "Materialautomater"
+msgstr "Materialplatser"
 
 #. :src: bpy.types.Object.material_slots
 #, fuzzy
 msgid "Material slots in the object"
-msgstr "Materialslitsar i objektet"
+msgstr "Materialplatser i objektet"
 
 #. :src: bpy.types.Object.matrix_basis
 #, fuzzy
@@ -48169,7 +48169,7 @@ msgstr ""
 #. :src: bpy.types.Object.matrix_parent_inverse
 #, fuzzy
 msgid "Parent Inverse Matrix"
-msgstr "Förälder invers matris"
+msgstr "Förälderns inversa matris"
 
 #. :src: bpy.types.Object.matrix_parent_inverse
 #, fuzzy
@@ -48179,18 +48179,18 @@ msgstr "Invers av objektets föräldramatris vid tidpunkten för föräldraskape
 #. :src: bpy.types.Object.matrix_world
 #, fuzzy
 msgid "Matrix World"
-msgstr "Matrix-världen"
+msgstr "Världsmatris"
 
 #. :src: bpy.types.Object.matrix_world
 #. :src: bpy.types.MovieReconstructedCamera.matrix
 #, fuzzy
 msgid "Worldspace transformation matrix"
-msgstr "Matris för transformation av världsrymden"
+msgstr "Transformationsmatris i världsrymden"
 
 #. :src: bpy.types.Object.mode
 #, fuzzy
 msgid "Object interaction mode"
-msgstr "Interaktionsläge för objekt"
+msgstr "Objektets interaktionsläge"
 
 #. :src: bpy.types.Object.mode:'OBJECT'
 #. :src: bpy.types.WorkSpace.object_mode
@@ -48251,7 +48251,7 @@ msgstr "Skulpteringsläge"
 #: scripts/startup/bl_ui/properties_paint_common.py:1364
 #: scripts/startup/bl_ui/space_view3d.py:7959
 msgid "Vertex Paint"
-msgstr "Vertexmåla"
+msgstr "Hörnpunktsmålning"
 
 #. :src: bpy.types.Object.mode:'WEIGHT_PAINT'
 #. :src: bpy.types.Object.mode:'WEIGHT_GREASE_PENCIL'
@@ -48267,7 +48267,7 @@ msgstr "Vertexmåla"
 #. :src: bpy.types.ToolSettings.weight_paint
 #: scripts/startup/bl_ui/properties_paint_common.py:1365
 msgid "Weight Paint"
-msgstr "Viktmåla"
+msgstr "Viktmålning"
 
 #. :src: bpy.types.Object.mode:'TEXTURE_PAINT'
 #. :src: bpy.types.WorkSpace.object_mode:'TEXTURE_PAINT'
@@ -48278,7 +48278,7 @@ msgstr "Viktmåla"
 #. :src: bpy.types.VIEW3D_PT_paint_texture_context_menu
 #: scripts/startup/bl_ui/properties_paint_common.py:1366
 msgid "Texture Paint"
-msgstr "Texturmåla"
+msgstr "Texturmålning"
 
 #. :src: bpy.types.Object.mode:'PARTICLE_EDIT'
 #. :src: bpy.types.WorkSpace.object_mode:'PARTICLE_EDIT'
@@ -48295,7 +48295,7 @@ msgstr "Partikelredigering"
 #. :src: bpy.types.OBJECT_OT_mode_set_with_submode.mode:'EDIT_GPENCIL'
 #, fuzzy
 msgid "Edit Grease Pencil Strokes"
-msgstr "Redigera fett blyertsstreck"
+msgstr "Redigera Grease Pencil-streck"
 
 #. :src: bpy.types.Object.mode:'SCULPT_GREASE_PENCIL'
 #. :src: bpy.types.WorkSpace.object_mode:'SCULPT_GREASE_PENCIL'
@@ -48303,7 +48303,7 @@ msgstr "Redigera fett blyertsstreck"
 #. :src: bpy.types.OBJECT_OT_mode_set_with_submode.mode:'SCULPT_GREASE_PENCIL'
 #, fuzzy
 msgid "Sculpt Grease Pencil Strokes"
-msgstr "Skulptera fett blyertsstreck"
+msgstr "Skulptera Grease Pencil-streck"
 
 #. :src: bpy.types.Object.mode:'PAINT_GREASE_PENCIL'
 #. :src: bpy.types.OBJECT_OT_mode_set.mode:'PAINT_GREASE_PENCIL'
@@ -48319,7 +48319,7 @@ msgstr "Ritningsläge"
 #. :src: bpy.types.OBJECT_OT_mode_set_with_submode.mode:'PAINT_GREASE_PENCIL'
 #, fuzzy
 msgid "Paint Grease Pencil Strokes"
-msgstr "Färg Fett Blyertsstreck"
+msgstr "Måla Grease Pencil-streck"
 
 #. :src: bpy.types.Object.mode:'WEIGHT_GREASE_PENCIL'
 #. :src: bpy.types.WorkSpace.object_mode:'WEIGHT_GREASE_PENCIL'
@@ -48327,7 +48327,7 @@ msgstr "Färg Fett Blyertsstreck"
 #. :src: bpy.types.OBJECT_OT_mode_set_with_submode.mode:'WEIGHT_GREASE_PENCIL'
 #, fuzzy
 msgid "Grease Pencil Weight Paint Strokes"
-msgstr "Fett Blyertspenna Vikt Färgstreck"
+msgstr "Viktmåla Grease Pencil-streck"
 
 #. :src: bpy.types.Object.mode:'VERTEX_GREASE_PENCIL'
 #. :src: bpy.types.WorkSpace.object_mode:'VERTEX_GREASE_PENCIL'
@@ -48335,7 +48335,7 @@ msgstr "Fett Blyertspenna Vikt Färgstreck"
 #. :src: bpy.types.OBJECT_OT_mode_set_with_submode.mode:'VERTEX_GREASE_PENCIL'
 #, fuzzy
 msgid "Grease Pencil Vertex Paint Strokes"
-msgstr "Fettpenna Vertex Färgstreck"
+msgstr "Hörnpunktsmåla Grease Pencil-streck"
 
 #. :src: bpy.types.Object.modifiers
 #, fuzzy
@@ -48358,7 +48358,7 @@ msgstr "Rörelsebana för detta element"
 #. :src: bpy.types.Object.parent_bone
 #, fuzzy
 msgid "Name of parent bone in case of a bone parenting relation"
-msgstr "Namn på överordnat ben i händelse av en relation mellan ben och föräldrar"
+msgstr "Namn på det överordnade benet vid en relation med ett ben som förälder"
 
 #. :src: bpy.types.Object.parent_type
 #. :src: bpy.types.MaskParent.type
@@ -48374,7 +48374,7 @@ msgstr "Typ av föräldrarelation"
 #. :src: bpy.types.Object.parent_type:'OBJECT'
 #, fuzzy
 msgid "The object is parented to an object"
-msgstr "Objektet är parenterat till ett objekt"
+msgstr "Objektet har ett objekt som förälder"
 
 #. :src: bpy.types.Object.parent_type:'LATTICE'
 #. :src: bpy.types.Menu
@@ -48399,38 +48399,38 @@ msgstr "Lattice"
 #. :src: bpy.types.Object.parent_type:'LATTICE'
 #, fuzzy
 msgid "The object is parented to a lattice"
-msgstr "Objektet är kopplat till ett gitter"
+msgstr "Objektet har ett gitter som förälder"
 
 #. :src: bpy.types.Object.parent_type:'VERTEX'
 #, fuzzy
 msgid "The object is parented to a vertex"
-msgstr "Objektet är parenterat till en vertex"
+msgstr "Objektet har en hörnpunkt som förälder"
 
 #. :src: bpy.types.Object.parent_type:'VERTEX_3'
 #, fuzzy
 msgid "3 Vertices"
-msgstr "3 hörn"
+msgstr "3 hörnpunkter"
 
 #. :src: bpy.types.Object.parent_type:'BONE'
 #, fuzzy
 msgid "The object is parented to a bone"
-msgstr "Objektet är parenterat till ett ben"
+msgstr "Objektet har ett ben som förälder"
 
 #. :src: bpy.types.Object.parent_vertices
 #: scripts/startup/bl_ui/properties_object.py:133
 #, fuzzy
 msgid "Parent Vertices"
-msgstr "Överordnade vertikaler"
+msgstr "Överordnade hörnpunkter"
 
 #. :src: bpy.types.Object.parent_vertices
 #, fuzzy
 msgid "Indices of vertices in case of a vertex parenting relation"
-msgstr "Index för toppar i händelse av en föräldraskapsrelation för toppar"
+msgstr "Index för hörnpunkter vid överordning till hörnpunkt"
 
 #. :src: bpy.types.Object.pass_index
 #, fuzzy
 msgid "Index number for the \"Object Index\" render pass"
-msgstr "Indexnummer för renderingspasset \"Object Index\""
+msgstr "Indexnummer för renderingspasset ”Objektindex”"
 
 #. :src: bpy.types.Object.pose
 #. :src: bpy.types.Menu
@@ -48469,12 +48469,12 @@ msgstr "Begränsning för styv kropp"
 #. :src: bpy.types.Object.rigid_body_constraint
 #, fuzzy
 msgid "Constraint constraining rigid bodies"
-msgstr "Begränsning som begränsar stela kroppar"
+msgstr "Begränsning för styva kroppar"
 
 #. :src: bpy.types.Object.rigify_owner_rig
 #, fuzzy
 msgid "Rigify Owner Rig"
-msgstr "Rigify Ägare Rig"
+msgstr "Ägarrigg för Rigify"
 
 #. :src: bpy.types.Object.rigify_owner_rig
 #, fuzzy
@@ -48486,14 +48486,14 @@ msgstr "Rigg som äger detta objekt och kan radera eller skriva över det vid å
 #. :src: bpy.types.View3DCursor.rotation_axis_angle
 #, fuzzy
 msgid "Axis-Angle Rotation"
-msgstr "Rotation axel-vinkel"
+msgstr "Axelvinkelrotation"
 
 #. :src: bpy.types.Object.rotation_axis_angle
 #. :src: bpy.types.PoseBone.rotation_axis_angle
 #. :src: bpy.types.View3DCursor.rotation_axis_angle
 #, fuzzy
 msgid "Angle of Rotation for Axis-Angle rotation representation"
-msgstr "Rotationsvinkel för representation av axel-vinkel-rotation"
+msgstr "Rotationsvinkel för representationen med axel och vinkel"
 
 #. :src: bpy.types.Object.rotation_euler
 #. :src: bpy.types.PoseBone.rotation_euler
@@ -48528,7 +48528,7 @@ msgstr "Kvaternion (WXYZ)"
 #. :src: bpy.types.View3DCursor.rotation_mode:'QUATERNION'
 #, fuzzy
 msgid "No Gimbal Lock"
-msgstr "Inget Gimbal-lås"
+msgstr "Ingen gimbal-låsning"
 
 #. :src: bpy.types.Object.rotation_mode:'XYZ'
 #. :src: bpy.types.POSE_OT_rotation_mode_set.type:'XYZ'
@@ -48536,7 +48536,7 @@ msgstr "Inget Gimbal-lås"
 #. :src: bpy.types.View3DCursor.rotation_mode:'XYZ'
 #, fuzzy
 msgid "XYZ Rotation Order - prone to Gimbal Lock (default)"
-msgstr "XYZ Rotation Order - benägen att Gimbal Lock (standard)"
+msgstr "XYZ-rotationsordning – risk för gimbal-låsning (standard)"
 
 #. :src: bpy.types.Object.rotation_mode:'XZY'
 #. :src: bpy.types.POSE_OT_rotation_mode_set.type:'XZY'
@@ -48544,7 +48544,7 @@ msgstr "XYZ Rotation Order - benägen att Gimbal Lock (standard)"
 #. :src: bpy.types.View3DCursor.rotation_mode:'XZY'
 #, fuzzy
 msgid "XZY Rotation Order - prone to Gimbal Lock"
-msgstr "XZY Rotationsordning - benägen att låsa Gimbal"
+msgstr "XZY-rotationsordning – risk för gimbal-låsning"
 
 #. :src: bpy.types.Object.rotation_mode:'YXZ'
 #. :src: bpy.types.POSE_OT_rotation_mode_set.type:'YXZ'
@@ -48552,7 +48552,7 @@ msgstr "XZY Rotationsordning - benägen att låsa Gimbal"
 #. :src: bpy.types.View3DCursor.rotation_mode:'YXZ'
 #, fuzzy
 msgid "YXZ Rotation Order - prone to Gimbal Lock"
-msgstr "YXZ Rotationsordning - benägen att låsa Gimbal"
+msgstr "YXZ-rotationsordning – risk för gimbal-låsning"
 
 #. :src: bpy.types.Object.rotation_mode:'YZX'
 #. :src: bpy.types.POSE_OT_rotation_mode_set.type:'YZX'
@@ -48560,7 +48560,7 @@ msgstr "YXZ Rotationsordning - benägen att låsa Gimbal"
 #. :src: bpy.types.View3DCursor.rotation_mode:'YZX'
 #, fuzzy
 msgid "YZX Rotation Order - prone to Gimbal Lock"
-msgstr "YZX Rotationsordning - benägen att låsa Gimbal"
+msgstr "YZX-rotationsordning – risk för gimbal-låsning"
 
 #. :src: bpy.types.Object.rotation_mode:'ZXY'
 #. :src: bpy.types.POSE_OT_rotation_mode_set.type:'ZXY'
@@ -48568,7 +48568,7 @@ msgstr "YZX Rotationsordning - benägen att låsa Gimbal"
 #. :src: bpy.types.View3DCursor.rotation_mode:'ZXY'
 #, fuzzy
 msgid "ZXY Rotation Order - prone to Gimbal Lock"
-msgstr "ZXY Rotationsordning - benägen att låsa Gimbal"
+msgstr "ZXY-rotationsordning – risk för gimbal-låsning"
 
 #. :src: bpy.types.Object.rotation_mode:'ZYX'
 #. :src: bpy.types.POSE_OT_rotation_mode_set.type:'ZYX'
@@ -48576,7 +48576,7 @@ msgstr "ZXY Rotationsordning - benägen att låsa Gimbal"
 #. :src: bpy.types.View3DCursor.rotation_mode:'ZYX'
 #, fuzzy
 msgid "ZYX Rotation Order - prone to Gimbal Lock"
-msgstr "ZYX Rotationsordning - benägen att låsa Gimbal"
+msgstr "ZYX-rotationsordning – risk för gimbal-låsning"
 
 #. :src: bpy.types.Object.rotation_mode:'AXIS_ANGLE'
 #. :src: bpy.types.FunctionNodeRotateEuler.rotation_type:'AXIS_ANGLE'
@@ -48594,20 +48594,20 @@ msgstr "Axelvinkel"
 #. :src: bpy.types.View3DCursor.rotation_mode:'AXIS_ANGLE'
 #, fuzzy
 msgid "Axis Angle (W+XYZ), defines a rotation around some axis defined by 3D-Vector"
-msgstr "Axis Angle (W+XYZ), definierar en rotation runt en axel som definieras av en 3D-vektor"
+msgstr "Axelvinkel (W+XYZ), definierar en rotation kring en axel som definieras av en 3D-vektor"
 
 #. :src: bpy.types.Object.rotation_quaternion
 #. :src: bpy.types.PoseBone.rotation_quaternion
 #. :src: bpy.types.View3DCursor.rotation_quaternion
 #, fuzzy
 msgid "Quaternion Rotation"
-msgstr "Quaternion-rotation"
+msgstr "Kvaternionrotation"
 
 #. :src: bpy.types.Object.rotation_quaternion
 #. :src: bpy.types.PoseBone.rotation_quaternion
 #, fuzzy
 msgid "Rotation in Quaternions"
-msgstr "Rotation i kvaternioner"
+msgstr "Rotation med kvaternioner"
 
 #. :src: bpy.types.Object.scale
 #, fuzzy
@@ -48618,7 +48618,7 @@ msgstr "Skalning av objektet"
 #. :src: bpy.types.POSE_PT_selection_sets
 #, fuzzy
 msgid "Selection Sets"
-msgstr "Urval"
+msgstr "Urvalsuppsättningar"
 
 #. :src: bpy.types.Object.selection_sets
 #, fuzzy

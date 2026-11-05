@@ -203,6 +203,12 @@ Senast uppdaterad: 2026-11-05.
 | node tree | nodträd | Blenders sammanlänkade nodstruktur. Sammansättningar är exempelvis *geometrinodträd*, *kompositionsnodträd* och *shadernodträd*. |
 | compositor | komposition | Blender-funktionen för bildkomposition; *Compositor Node Tree* blir *kompositionsnodträd*. |
 | selection set | urvalsuppsättning | Namngiven samling av valbara element. |
+| delta location | deltaförflyttning | Extra förflyttning som läggs till ett objekts position. |
+| empty | tomobjekt | Blender-objekt utan egen geometri, till exempel för referensbilder eller hjälpkontroller. |
+| material slot | materialplats | Koppling mellan ett objekt och ett av dess material. |
+| world matrix | världsmatris | Transformationsmatris i världsrymden. |
+| vertex paint / weight paint / texture paint | hörnpunktsmålning / viktmålning / texturmålning | Blenders respektive målningslägen. |
+| gimbal lock | gimbal-låsning | Rotationsproblem i Euler-lägen. |
 | curve map point | kurvkartpunkt | Punkt i en kurvkartläggning. |
 | support loop | stödslinga | Topologisk loop som kontrollerar skärpan kring en meshdetalj. |
 | mix mode | blandningsläge | Anger hur en Transform Constraint kombinerar position, rotation eller skala med det ursprungliga värdet. |
