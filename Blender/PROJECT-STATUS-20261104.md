@@ -1143,3 +1143,11 @@ Blenders egen termlista. Alla kontrollerade strängar är markerade som
 och Hunspell rapporterar endast avsiktliga facktermer som *riggskelett*,
 *hörnpunktsgrupp* och *skalutjämning*. Batchen är arkiverad för import i
 Blender Translate; något importresultat finns ännu inte.
+
+Batch 143 granskar 27 strängar för bensamlingar: biblioteksåsidosättningar,
+synlighet, sololäge, urvalsuppsättningar, paneltexter och armaturens aktiva
+bensamling. Tre oberoende granskningar har jämförts mot projektets termlista.
+De berörda posterna är lokalt markerade som översatta och deltafilen saknar
+`fuzzy`-markeringar. `msgfmt`, l10n-lint och diffkontroll passerar. Batchen
+är arkiverad för import i Blender Translate; något importresultat finns ännu
+inte.
