@@ -381,6 +381,9 @@ Senast uppdaterad: 2026-11-05.
 | UV Mapping | UV-mappning | Kartläggning av meshens UV-koordinater; inte mätning. |
 | Hook (deformer) | krok | Blender-deformer och dess meny, inte engelska *hook*. |
 | Specials (context menu) | särskilda åtgärder för | Meny med relaterade åtgärder, inte erbjudanden. |
+| NLA Track | NLA-spår | Spår i Blenders Nonlinear Animation-redigerare; substantiv, inte verbet *spåra*. |
+| Keying (compositor) | nyckling | Kompositörens friläggnings-/keyingfunktion, inte nyckelbildrutor. |
+| mesh edge/loop | meshkant/meshslinga | Meshens topologiska kant respektive slinga. |
 
 ## Kontrollerade UI-formuleringar
 
