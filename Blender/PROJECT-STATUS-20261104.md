@@ -464,6 +464,14 @@ lokalt validerad och arkiverad. Blender Translate bekräftade **10 bearbetade,
 oförändrade produkttermen *Shrinkwrap* som kontrollvarning; det är en
 förväntad falsk positiv enligt projektets terminologibeslut.
 
+Batch 59 granskar IK-, begränsnings- och Shrinkwrap-kontroller rad för rad.
+Tre oberoende, skrivskyddade delgranskningar har jämförts med samma RNA- och
+UI-kontext. Den lokalt validerade deltafilen normaliserar bland annat
+*hörnpunkt*, *projektionsaxel*, *målnormal* och de konkreta
+begränsningstyperna. Den väntar på arkivering och verifierad import i Blender
+Translate. Deltafilen är nu arkiverad i översättningsförrådet och väntar på
+verifierad import i Blender Translate.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
