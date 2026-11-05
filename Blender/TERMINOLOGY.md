@@ -81,6 +81,10 @@ Senast uppdaterad: 2026-11-05.
 | font hinting | teckensnittshintning | Inställning som styr teckenplacering och skärpa i textåtergivning. Den aktuella UI-exportens *Teckensnittshinting* bör hanteras som en separat UI-rättelse, inte kopieras in i manualprosan. |
 | point sampling | punktprovtagning | Pipettläge som samplar enskilda punkter till en färggradient. Använd i förklarande UI-former; det dolda tangentbindningsnamnet är *Modal mappning för punktprovtagning med färggradients-pipett*. |
 | multisampling | multisampling | Etablerad datorgrafikterm för flera bildprover per pixel, här i Dynamic Paints kantutjämning. Blanda inte ihop med *multisimulering*. |
+| Dynamic Paint canvas surface | Dynamic Paint-dukyta | En simulerad yta som tar emot eller visar Dynamic Paint. I plural: *Dynamic Paint-dukytor*. |
+| point cache | punktcache | Simuleringscache för punktsystem; skriv ihop. |
+| timescale | tidsskala | Faktor som skalar simuleringens tidsförlopp. |
+| curve mapping | kurvkartläggning | Kartläggning med kurvor; använd den här sammansättningen i RNA- och modifierarinställningar. |
 | retiming key | tidsanpassningsnyckel | Nyckelpunkt i sekvensredigeraren som flyttar en bildruta i en remsa och därmed sträcker eller drar ihop tidsflödet. Följer den etablerade majoritetsformen i UI:t. Använd inte den otydliga och inkonsekventa formen *omtidningsnyckel*. |
 | Interface Font | Teckensnitt för gränssnittet | Följer den aktuella svenska UI-etiketten. |
 | lighting node | belysningsnod | Använd i saktext; behåll engelska nodnamn där de är produktnamn. |
@@ -133,6 +137,8 @@ Senast uppdaterad: 2026-11-05.
 | Material Output | materialutdata | UI-belagd renderings- och nodterm. |
 | keyframe | nyckelbildruta | Använd i svensk förklarande text; ändra inte API-namn. |
 | F-Curve | F-kurva | Behåll initialen och använd svenskt ord efter bindestrecket. |
+| F-Curve modifier | F-kurvmodifierare | Modifierare som förändrar en F-kurvas värden eller förlopp. |
+| keyframe range | nyckelbildruteintervall | Intervall av bildrutor mellan animeringens nyckelbildrutor. |
 | action | åtgärd | Animeringsdata i Blender. Behåll *Action* i formella datatyp- eller API-namn. |
 | slot | slot | Etablerat i den aktuella Blender-dokumentationen och UI-kontexten. Böj som *en slot*, *slotten*, *slotar* och *slotarnas*. |
 | action slot | åtgärdsslot | Slot som väljer den delmängd av en Action som en NLA-remsa eller Action Constraint använder. Använd *åtgärdsslot*, *åtgärdsslotten* och *åtgärdsslotar* i synlig UI-text; behåll `action_slot` i API-identifierare. |
