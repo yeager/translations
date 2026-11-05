@@ -369,6 +369,9 @@ Senast uppdaterad: 2026-11-05.
 | NDOF | NDOF | Behåll enhetens produktförkortning; översätt den efterföljande synliga åtgärden med liten begynnelsebokstav. |
 | keyframe | nyckelbildruta | Grundterm för animeringspunkt på en F-kurva. |
 | quartic/quintic interpolation | fjärdegradig/femtegradig interpolering | Matematiska interpoleringsord; inte kvadratisk eller engelska funktionsnamn. |
+| Keying Set | nyckeluppsättning | Samling av egenskapsvägar som får nyckelbildrutor tillsammans. |
+| Keying Set Path | sökväg för nyckeluppsättning | RNA-sökväg som hör till en nyckeluppsättning. |
+| line style modifier | linjestilsmodifierare | Freestyle-modifierare för streckens egenskaper. |
 
 ## Kontrollerade UI-formuleringar
 

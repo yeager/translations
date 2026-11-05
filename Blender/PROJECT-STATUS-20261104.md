@@ -705,6 +705,15 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 95 granskar nyckeluppsättningar, lagersamlingar och Freestyle-
+linjestilsmodifierare i tre separata radintervall. Tre oberoende
+delgranskningar har jämförts mot RNA- och F-kurvkontext. Den lokalt validerade
+deltafilen innehåller 23 säkra UI-strängar, bland annat *nyckelbildruta*,
+*nyckeluppsättning*, *ID-datablock*, *hörnpunktsgrupp*, *visningslager* och
+*linjestilsmodifierare*. `msgfmt` och l10n-lint passerar. Batchen är lokalt
+validerad och arkiveras för import till Blender Translate; något importresultat
+finns ännu inte.
+
 Batch 94 granskar KeyMap-händelser och närliggande animeringsetiketter i tre
 separata radintervall. Tre oberoende delgranskningar har jämförts mot
 KeyMap- och F-kurvkontext. Den lokalt validerade deltafilen innehåller 19
