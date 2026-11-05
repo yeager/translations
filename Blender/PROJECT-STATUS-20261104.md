@@ -705,6 +705,13 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 104 granskar Explode, Fluid och Grease Pencil-modifierare i tre
+oberoende radintervall. Den lokalt validerade deltafilen innehåller 36 säkra
+UI-strängar, bland annat *hörnpunktsgrupp*, *lagerpass*, *materialpass*,
+*slumpfrö*, *uttoning* och *Grease Pencil-färgmodifierare*. `msgfmt` och
+l10n-lint passerar. Batchen är arkiverad för import till Blender Translate;
+något importresultat finns ännu inte.
+
 Batch 103 granskar Data Transfer, Decimate och närliggande modifierar-UI i
 tre oberoende radintervall. Den lokalt validerade deltafilen innehåller 59
 säkra UI-strängar, bland annat *ythörn*, *hörnpunktsmappning*,
