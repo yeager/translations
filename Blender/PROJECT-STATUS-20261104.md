@@ -1128,3 +1128,8 @@ felimporterna *Sändningstid* för *In Air* och en orelaterad musiktext för
 markfästkraft. `msgfmt`, l10n-lint och diffkontroll passerar. Batcherna är
 arkiverade för import i Blender Translate; något importresultat finns ännu
 inte.
+
+Batch 141 granskar 27 B-Bone- och armatursträngar: handtagsförskjutningar,
+utjämning, kurvrullning och hörnpunktsmappning. `msgfmt`, l10n-lint och
+diffkontroll passerar. Deltafilen är arkiverad för import i Blender Translate;
+något importresultat finns ännu inte.
