@@ -230,6 +230,14 @@ bekräftade **6 bearbetade, 3 uppdaterade, 1 hoppad över och 2 saknade**.
 De saknade strängarna, `Disk Cache Directory` och `Override default directory`,
 har försvunnit eller ändrats uppströms och räknas inte som importerade.
 
+Batch 29 granskar *bake* i den sammanhang där Blender beräknar
+rörelsebanor, normaldata och texturattribut. Den rättar fyra uppenbara
+engelskrester och tre otydliga hjälprader: `Bake` används konsekvent som
+`baka` eller `bakning`, medan kamerarummet behålls som komponentens redan
+etablerade term för *camera space*. `blender-ui-sv-reviewed-20261105-29.po`
+och termlistan har klarat lokal syntax-, språk-, stavnings-, diff- och
+hemlighetskontroll; importresultatet dokumenteras först efter uppladdning.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
