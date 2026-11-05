@@ -420,8 +420,8 @@ och 0 saknade**.
 
 Batch 52 granskar de följande tyg- och samlingsraderna. Den normaliserar
 hörnpunktsgrupper, voxelrutnät och lösarresultat samt rättar den hierarkiska
-termen *underordnad samling*. Batchen är lokalt validerad och inväntar
-arkivering och verifierad import.
+termen *underordnad samling*. Blender Translate bekräftade **15 bearbetade, 9
+uppdaterade, 6 hoppade över och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
