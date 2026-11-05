@@ -49,6 +49,11 @@ hoppade över och 0 saknades**, och
 `blender-ui-sv-reviewed-20261105-04.po` gav **2 bearbetade, 2 uppdaterade, 0
 hoppade över och 0 saknades**.
 
+UI-inställningen *Hinting* hade dessutom den svenska stavningen
+`Teckensnittshinting`. Den granskade rättelsen till `Teckensnittshintning`
+skickades i `blender-ui-sv-reviewed-20261105-05.po`; Blender Translate
+bekräftade **1 bearbetad, 1 uppdaterad, 0 hoppade över och 0 saknades**.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
