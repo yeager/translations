@@ -328,8 +328,9 @@ Batch 39 granskar skalutjämning och de närliggande texterna för bensamlingar.
 Den ersätter engelsk etiketttext i hjälptexten med de synliga svenska reglagen
 `Skala in/ut` och använder konsekvent `datablock` samt `riggskelett`. Deltafilen
 och termlistan har passerat `msgfmt`, l10n-lint, svlang, Hunspell, diffkontroll
-och Gitleaks. Batchen är arkiverad lokalt och väntar på verifierad uppladdning
-till Blender Translate.
+och Gitleaks. Blender Translate bekräftade **4 bearbetade, 1 uppdaterad, 3
+hoppade över och 0 saknade**. Uppdateringen ersätter den engelska hjälpetiketten
+för Skala in/ut.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
