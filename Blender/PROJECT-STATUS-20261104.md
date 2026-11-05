@@ -320,8 +320,9 @@ till `hörnpunktsgrupp` enligt den projektspecifika termlistan, i stället för
 den för grova formen `hörngrupp`. Deltafilen och termlistan har passerat
 `msgfmt`, l10n-lint, svlang, Hunspell, diffkontroll och Gitleaks. De fyra
 Hunspell-träffarna är tekniska sammansättningar och en UI-uppmaning; de är
-manuellt verifierade. Batchen är arkiverad lokalt och väntar på verifierad
-uppladdning till Blender Translate.
+manuellt verifierade. Blender Translate bekräftade **12 bearbetade, 4
+uppdaterade, 8 hoppade över och 0 saknade**. De fyra uppdateringarna omfattar
+terminologin för hörnpunktsgrupper och underordnade objekt.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
