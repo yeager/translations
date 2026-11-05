@@ -352,6 +352,13 @@ UI-beskrivning. Blender Translate bekräftade **15 bearbetade, 0 uppdaterade,
 15 hoppade över och 0 saknade**. Samtliga poster hade redan samma eller nyare
 värden på servern.
 
+Batch 42 granskar egenskaperna för benfärger och deras paletter. Den rättar
+svensk ordföljd och kommatering, och använder det etablerade `i stället för`.
+Deltafilen med fyra poster samt arbetskatalogen har passerat `msgfmt`,
+l10n-lint, svlang, Hunspell, diffkontroll och Gitleaks. Svlangs enda träff
+gäller det avsiktligt bevarade API-värdet `CUSTOM`. Batchen är arkiverad och
+väntar på verifierad import i Blender Translate.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
