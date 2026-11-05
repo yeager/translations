@@ -54,6 +54,12 @@ UI-inställningen *Hinting* hade dessutom den svenska stavningen
 skickades i `blender-ui-sv-reviewed-20261105-05.po`; Blender Translate
 bekräftade **1 bearbetad, 1 uppdaterad, 0 hoppade över och 0 saknades**.
 
+I samma UI-område användes *tillgångshylla* bara i regionetiketten *Asset
+Shelf Header*, trots att den omgivande gränssnittsterminologin använder
+*resurshylla*. Deltafilen `blender-ui-sv-reviewed-20261105-06.po` ändrar den
+till `Resurshyllans rubrik`. Blender Translate bekräftade **1 bearbetad, 1
+uppdaterad, 0 hoppade över och 0 saknades**.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
