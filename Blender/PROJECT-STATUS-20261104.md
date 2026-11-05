@@ -472,6 +472,13 @@ begränsningstyperna. Deltafilen är arkiverad i översättningsförrådet.
 Blender Translate bekräftade **31 bearbetade, 16 uppdaterade, 15 hoppade över
 och 0 saknade**.
 
+Batch 60 granskar Spline IK, Transform Constraint och kurvverktyg rad för
+rad. Tre oberoende, skrivskyddade delgranskningar har kontrollerats mot
+RNA-kontexten. Den lokalt validerade deltafilen normaliserar
+begränsningsetiketter, blandningslägen, kurvkartläggning och topologitermen
+*stödslinga*. Deltafilen är arkiverad i översättningsförrådet och väntar på
+verifierad import i Blender Translate.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
