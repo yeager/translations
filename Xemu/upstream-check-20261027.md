@@ -34,3 +34,17 @@ blankteckenskontroll och Gitleaks. GitHub visar den nya grenen men rapporterar
 fortfarande `UNSTABLE`; inga check-runs har startat. En full Meson-byggning kan
 inte köras lokalt eftersom `meson` inte finns installerat i miljön. Nästa
 konkreta steg är därför CI- eller maintainerkörning mot den rebasade grenen.
+
+## Uppdatering 5 november 2026, granskning av aktuella kommentarer
+
+Copilot lade efter rebasen tre kommentarer om Windows-arkiv, vald
+byggbackend och valfritt gettext. Den kontrollerade koden på `51bc740c16`
+täcker redan samtliga: Windows-paketerarna anropar inte
+`install_translation_catalogs`, `build_translation_catalogs()` använder
+`make qemu-gmo` i stället för ett hårdkodat `ninja`, och både katalogbygget
+och installationen avslutas utan fel när gettextkataloger saknas. Svar med
+exakta kodhänvisningar har lämnats i respektive diskussion.
+
+PR:n är fortsatt öppen. GitHub visar `UNSTABLE` och inga startade check-runs,
+så detta bevisar inte en godkänd helbygge eller merge. Någon ytterligare
+källändring är inte motiverad av de tre kommentarerna.
