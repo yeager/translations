@@ -8,14 +8,20 @@ Källa: `exports/2026-11-04/blender-manual-manual-sv.po`.
 
 Tio poster för Resursbibliotek som följer med tillägg har granskats:
 
-- kopplingen mellan tillägg, tilläggsarkiv och fjärrresursbibliotek;
+- kopplingen mellan tillägg, tilläggsförråd och fjärranslutna resursbibliotek;
 - installation, avinstallation, aktivering och inaktivering;
 - bibliotekets åtkomsttoken och den synliga Avancerad-inställningen.
 
 Terminologin följer UI-katalogen: `Extensions` → *Tillägg*,
-`Active Extension Repository` → *Aktivt tilläggsarkiv*, `Access Token` →
+`Active Extension Repository` → *Aktivt tilläggsförråd*, `Access Token` →
 *Åtkomsttoken* och `Advanced` → *Avancerad*. Alla RST-mål och
 menymarkeringen är bevarade.
+
+En efterkontroll den 5 november rättade två äldre avvikelser: *extension
+repository* är genomgående *tilläggsförråd*, inte *tilläggsarkiv*, och
+*remote asset library* är *fjärranslutet resursbibliotek*. Den senare formen
+är både mer precis och undviker den svårlästa tre-r-kedjan i
+*fjärrresursbibliotek*.
 
 ## Kontroller
 
