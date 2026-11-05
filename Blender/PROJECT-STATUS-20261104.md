@@ -305,6 +305,14 @@ manuellt verifierade. Blender Translate bekräftade **10 bearbetade, 0
 uppdaterade, 10 hoppade över och 0 saknade**. Samtliga poster hade redan samma
 eller nyare värden på servern.
 
+Batch 37 granskar motsvarande armaturtexter för svansänden, kuvertets
+svansradie, anslutna ben och cyklisk förskjutning. I den här dataegenskapsvyn
+är `svans` korrekt för *Tail*, medan constraints kan använda den etablerade
+formen `spets`. Batchen har passerat `msgfmt`, l10n-lint, svlang, Hunspell,
+diffkontroll och Gitleaks. `svlang`-markeringarna är två nominala egenskaper
+och en korrekt inledd bisats; de är manuellt verifierade. Batchen är arkiverad
+lokalt och väntar på verifierad uppladdning till Blender Translate.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade

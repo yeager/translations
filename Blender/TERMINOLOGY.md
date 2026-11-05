@@ -158,6 +158,8 @@ Senast uppdaterad: 2026-11-05.
 | armature-relative | relativt riggskelett | Position eller orientering uttryckt i armaturens lokala koordinatsystem. |
 | inherit scale | ärv skala | Armaturinställning som styr hur ett underordnat ben tar emot skalning från ett överordnat ben. |
 | shear | skjuvning | Skev transformationskomponent i armatur- och matrisinställningar; använd inte vardagliga *saxning*. |
+| bone tail | svans | Änden på ett Blender-ben i dataegenskaper. I vissa constraints används däremot den etablerade räknade formen *spets*. |
+| connected bone | anslutet ben | Ett underordnat bens huvud är fast vid det överordnade benets svans. |
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
 | Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
 | target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
