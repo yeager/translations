@@ -244,8 +244,10 @@ Manual använder redan `tangentrymd`, `objektrymd` och `världsrymd` för de
 värden som denna inställning väljer mellan. Den tidigare ordagranna formen
 `normalt utrymme` är därför tvetydig; UI-termen normaliseras till
 `normalrymd` i både etikett och hjälptext. Deltafilen och termlistan är lokalt
-kontrollerade med `msgfmt`, l10n-lint, Hunspell, diffkontroll och Gitleaks;
-importresultatet dokumenteras först efter uppladdning.
+kontrollerade med `msgfmt`, l10n-lint, Hunspell, diffkontroll och Gitleaks.
+Blender Translate bekräftade **2 bearbetade, 0 uppdaterade, 2 hoppade över och
+0 saknade**. Servern hade alltså redan samma eller nyare värden; batchen räknas
+inte som en bekräftad upstreamändring.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
