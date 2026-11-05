@@ -705,6 +705,14 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 105 granskar Grease Pencil Dash, Envelope, Hook och Length i tre
+oberoende radintervall. Den lokalt validerade deltafilen innehåller 26 säkra
+UI-strängar, bland annat *Grease Pencil-streckmodifierare*,
+*Grease Pencil-kuvertmodifierare*, *streckpunkt*, *överordnat objekt*,
+*förskjutning* och *tilläggslängd*. `msgfmt` och l10n-lint passerar. Batchen
+är arkiverad för import till Blender Translate; något importresultat finns
+ännu inte.
+
 Batch 104 granskar Explode, Fluid och Grease Pencil-modifierare i tre
 oberoende radintervall. Den lokalt validerade deltafilen innehåller 36 säkra
 UI-strängar, bland annat *hörnpunktsgrupp*, *lagerpass*, *materialpass*,

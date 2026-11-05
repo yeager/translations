@@ -68642,7 +68642,7 @@ msgstr "Använd anpassad kurva"
 #. :src: bpy.types.GreasePencilTintModifier.use_custom_curve
 #, fuzzy
 msgid "Use a custom curve to define a factor along the strokes"
-msgstr "Använd en anpassad kurva för att definiera en faktor längs stråken"
+msgstr "Använd en anpassad kurva för att definiera en faktor längs strecken"
 
 #. :src: bpy.types.GreasePencilColorModifier.value
 #, fuzzy
@@ -68652,22 +68652,22 @@ msgstr "Faktor för färgvärde"
 #. :src: bpy.types.GreasePencilDashModifierData
 #, fuzzy
 msgid "Grease Pencil Dash Modifier"
-msgstr "Fettpenna Dash Modifier"
+msgstr "Grease Pencil-streckmodifierare"
 
 #. :src: bpy.types.GreasePencilDashModifierData
 #, fuzzy
 msgid "Create dot-dash effect for strokes"
-msgstr "Skapa dot-dash-effekt för streck"
+msgstr "Skapa en punktstreckseffekt för streck"
 
 #. :src: bpy.types.GreasePencilDashModifierData.dash_offset
 #, fuzzy
 msgid "Offset into each stroke before the beginning of the dashed segment generation"
-msgstr "Offset i varje stroke före början av den streckade segmentgenerationen"
+msgstr "Förskjutning i varje streck före början av genereringen av streckade segment"
 
 #. :src: bpy.types.GreasePencilDashModifierData.segment_active_index
 #, fuzzy
 msgid "Active Dash Segment Index"
-msgstr "Aktiv Dash Segment Index"
+msgstr "Aktivt strecksegmentsindex"
 
 #. :src: bpy.types.GreasePencilDashModifierData.segment_active_index
 #. :src: bpy.types.GreasePencilTimeModifier.segment_active_index
@@ -68678,17 +68678,17 @@ msgstr "Aktivt index i segmentlistan"
 #. :src: bpy.types.GreasePencilEnvelopeModifier
 #, fuzzy
 msgid "Grease Pencil Envelope Modifier"
-msgstr "Fettpenna Kuvertmodifierare"
+msgstr "Grease Pencil-kuvertmodifierare"
 
 #. :src: bpy.types.GreasePencilEnvelopeModifier
 #, fuzzy
 msgid "Envelope stroke effect modifier"
-msgstr "Modifierare av effekt för envelope stroke"
+msgstr "Kuvertmodifierare för streckeffekter"
 
 #. :src: bpy.types.GreasePencilEnvelopeModifier.mat_nr
 #, fuzzy
 msgid "The material to use for the new strokes"
-msgstr "Materialet som ska användas för de nya slaglängderna"
+msgstr "Material att använda för de nya strecken"
 
 #. :src: bpy.types.GreasePencilEnvelopeModifier.mode
 #, fuzzy
@@ -68698,7 +68698,7 @@ msgstr "Algoritm som ska användas för att generera kuvertet"
 #. :src: bpy.types.GreasePencilEnvelopeModifier.mode:'DEFORM'
 #, fuzzy
 msgid "Deform the stroke to best match the envelope shape"
-msgstr "Deformera stroke för att bäst matcha kuvertets form"
+msgstr "Deformera strecket så att det bäst följer kuvertets form"
 
 #. :src: bpy.types.GreasePencilEnvelopeModifier.mode:'SEGMENTS'
 #, fuzzy
@@ -68740,7 +68740,7 @@ msgstr "Antalet punkter som ska hoppas över för att skapa raka segment"
 #. :src: bpy.types.GreasePencilEnvelopeModifier.strength
 #, fuzzy
 msgid "Multiplier for the strength of the new strokes"
-msgstr "Multiplikator för styrkan i de nya slagen"
+msgstr "Multiplikator för styrkan hos de nya strecken"
 
 #. :src: bpy.types.GreasePencilEnvelopeModifier.thickness
 #, fuzzy
@@ -68756,7 +68756,7 @@ msgstr "Krokmodifierare"
 #. :src: bpy.types.GreasePencilHookModifier
 #, fuzzy
 msgid "Hook modifier to modify the location of stroke points"
-msgstr "Krokmodifierare för att modifiera placeringen av strokepunkter"
+msgstr "Krokmodifierare som ändrar placeringen av streckpunkter"
 
 #. :src: bpy.types.GreasePencilHookModifier.center
 #. :src: bpy.types.HookModifier.center
@@ -68808,7 +68808,7 @@ msgstr "Omvänd transformation mellan detta objekt och dess mål"
 #. :src: bpy.types.HookModifier.object
 #, fuzzy
 msgid "Parent Object for hook, also recalculates and clears offset"
-msgstr "Föräldraobjekt för krok, räknar också om och rensar offset"
+msgstr "Överordnat objekt för kroken; beräknar också om och rensar förskjutningen"
 
 #. :src: bpy.types.GreasePencilHookModifier.strength
 #. :src: bpy.types.HookModifier.strength
@@ -68820,7 +68820,7 @@ msgstr "Krokens relativa kraft"
 #. :src: bpy.types.HookModifier.subtarget
 #, fuzzy
 msgid "Name of Parent Bone for hook (if applicable), also recalculates and clears offset"
-msgstr "Namn på Parent Bone för krok (om tillämpligt), räknar även om och rensar offset"
+msgstr "Namn på överordnat ben för kroken (om tillämpligt); beräknar också om och rensar förskjutningen"
 
 #. :src: bpy.types.GreasePencilHookModifier.use_falloff_uniform
 #. :src: bpy.types.HookModifier.use_falloff_uniform
@@ -68850,7 +68850,7 @@ msgstr "Gitterobjekt att deformera med"
 #. :src: bpy.types.SmoothModifier.factor
 #, fuzzy
 msgid "Strength of modifier effect"
-msgstr "Modifieringseffektens styrka"
+msgstr "Modifierareffektens styrka"
 
 #. :src: bpy.types.GreasePencilLengthModifier
 #, fuzzy
@@ -68871,12 +68871,12 @@ msgstr "Slutfaktor"
 #. :src: bpy.types.GreasePencilLengthModifier.end_factor
 #, fuzzy
 msgid "Added length to the end of each stroke relative to its length"
-msgstr "Lagt till längd i slutet av varje slag i förhållande till dess längd"
+msgstr "Tilläggslängd vid slutet av varje streck i förhållande till dess längd"
 
 #. :src: bpy.types.GreasePencilLengthModifier.end_length
 #, fuzzy
 msgid "Absolute added length to the end of each stroke"
-msgstr "Absolute lade till längd i slutet av varje slag"
+msgstr "Absolut tilläggslängd vid slutet av varje streck"
 
 #. :src: bpy.types.GreasePencilLengthModifier.invert_curvature
 #, fuzzy
@@ -68886,7 +68886,7 @@ msgstr "Invertera krökning"
 #. :src: bpy.types.GreasePencilLengthModifier.invert_curvature
 #, fuzzy
 msgid "Invert the curvature of the stroke's extension"
-msgstr "Invertera krökningen av slaglängdens förlängning"
+msgstr "Invertera krökningen för streckets förlängning"
 
 #. :src: bpy.types.GreasePencilLengthModifier.max_angle
 #, fuzzy
@@ -68896,7 +68896,7 @@ msgstr "Filtervinkel"
 #. :src: bpy.types.GreasePencilLengthModifier.max_angle
 #, fuzzy
 msgid "Ignore points on the stroke that deviate from their neighbors by more than this angle when determining the extrapolation shape"
-msgstr "Ignorera punkter på stroke som avviker från sina grannar med mer än denna vinkel när du bestämmer extrapolationsformen"
+msgstr "Ignorera punkter på strecket som avviker från sina grannar med mer än denna vinkel när extrapolationsformen bestäms"
 
 #. :src: bpy.types.GreasePencilLengthModifier.mode
 #, fuzzy
@@ -68906,7 +68906,7 @@ msgstr "Läge för att definiera längd"
 #. :src: bpy.types.GreasePencilLengthModifier.mode:'RELATIVE'
 #, fuzzy
 msgid "Length in ratio to the stroke's length"
-msgstr "Längd i förhållande till slaglängden"
+msgstr "Längd i förhållande till streckets längd"
 
 #. :src: bpy.types.GreasePencilLengthModifier.mode:'ABSOLUTE'
 #, fuzzy
@@ -68922,7 +68922,7 @@ msgstr "Använd längd"
 #. :src: bpy.types.GreasePencilLengthModifier.overshoot_factor
 #, fuzzy
 msgid "Defines what portion of the stroke is used for the calculation of the extension"
-msgstr "Definierar vilken del av slaget som används för beräkning av förlängningen"
+msgstr "Anger vilken del av strecket som används för beräkningen av förlängningen"
 
 #. :src: bpy.types.GreasePencilLengthModifier.point_density
 #. :src: bpy.types.ShaderNodeTexPointDensity
@@ -68933,7 +68933,7 @@ msgstr "Punktdensitet"
 #. :src: bpy.types.GreasePencilLengthModifier.point_density
 #, fuzzy
 msgid "Multiplied by Start/End for the total added point count"
-msgstr "Multiplicerat med Start/End för det totala antalet extra poäng"
+msgstr "Multiplicerat med Start/slut för det totala antalet tillagda punkter"
 
 #. :src: bpy.types.GreasePencilLengthModifier.random_end_factor
 #, fuzzy
@@ -68943,7 +68943,7 @@ msgstr "Slumpmässig slutfaktor"
 #. :src: bpy.types.GreasePencilLengthModifier.random_end_factor
 #, fuzzy
 msgid "Size of random length added to the end of each stroke"
-msgstr "Storlek av slumpmässig längd som läggs till i slutet av varje slag"
+msgstr "Storlek på slumpmässig längd som läggs till i slutet av varje streck"
 
 #. :src: bpy.types.GreasePencilLengthModifier.random_offset
 #, fuzzy
@@ -68953,7 +68953,7 @@ msgstr "Offset för slumpmässigt brus"
 #. :src: bpy.types.GreasePencilLengthModifier.random_offset
 #, fuzzy
 msgid "Smoothly offset each stroke's random value"
-msgstr "Mjuk förskjutning av varje slagets slumpmässiga värde"
+msgstr "Förskjut varje strecks slumpvärde mjukt"
 
 #. :src: bpy.types.GreasePencilLengthModifier.random_start_factor
 #, fuzzy
@@ -68984,12 +68984,12 @@ msgstr "Startfaktor"
 #. :src: bpy.types.GreasePencilLengthModifier.start_factor
 #, fuzzy
 msgid "Added length to the start of each stroke relative to its length"
-msgstr "Lagt till längd i början av varje slag i förhållande till dess längd"
+msgstr "Tilläggslängd i början av varje streck i förhållande till dess längd"
 
 #. :src: bpy.types.GreasePencilLengthModifier.start_length
 #, fuzzy
 msgid "Absolute added length to the start of each stroke"
-msgstr "Absolute lade till längd i början av varje slag"
+msgstr "Absolut tilläggslängd i början av varje streck"
 
 #. :src: bpy.types.GreasePencilLengthModifier.step
 #. :src: bpy.types.GreasePencilNoiseModifier.step
@@ -69009,7 +69009,7 @@ msgstr "Steg"
 #. :src: bpy.types.GreasePencilNoiseModifier.step
 #, fuzzy
 msgid "Number of frames between randomization steps"
-msgstr "Antal bildrutor mellan randomiseringsstegen"
+msgstr "Antal bildrutor mellan slumpningsstegen"
 
 #. :src: bpy.types.GreasePencilLengthModifier.use_curvature
 #, fuzzy
