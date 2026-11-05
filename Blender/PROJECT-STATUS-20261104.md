@@ -338,8 +338,9 @@ effektiva synlighet. Den använder `överordnad`, `bensamling`,
 trädvy. Deltafilen och termlistan har passerat `msgfmt`, l10n-lint, svlang,
 Hunspell, diffkontroll och Gitleaks. Svlangs låga katalogpoäng kommer från
 korta booleska egenskapstexter och imperativ; de är manuellt verifierade.
-Batchen är arkiverad lokalt och väntar på verifierad uppladdning till Blender
-Translate.
+Blender Translate bekräftade **12 bearbetade, 0 uppdaterade, 12 hoppade över
+och 0 saknade**. Samtliga poster hade redan samma eller nyare värden på
+servern.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
