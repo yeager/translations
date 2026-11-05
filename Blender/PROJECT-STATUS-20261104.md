@@ -201,6 +201,14 @@ etiketten och språkriktigt. Lokal kvalitetssäkring är klar. Blender Translate
 bekräftade `blender-ui-sv-reviewed-20261105-25.po`: **1 bearbetad, 1
 uppdaterad, 0 hoppade över och 0 saknades**.
 
+Batch 26 granskar de återstående direkta hänvisningarna till *Asset Browser*
+i UI-komponenten. Den etablerade synliga termen är `resursbläddrare`, inte den
+äldre formen `tillgångsbläddrare`. Nio sammanhängande poster rättar därför
+bland annat importinställningar, Pose Library-meddelanden och kataloghjälp för
+nodgruppstillgångar. `blender-ui-sv-reviewed-20261105-26.po` är lokalt
+kontrollerad med `msgfmt`, l10n-lint, Hunspell, diffkontroll och Gitleaks;
+importresultatet fylls i först efter verifierad uppladdning.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
