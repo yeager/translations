@@ -366,6 +366,7 @@ Senast uppdaterad: 2026-11-05.
 | keymap item | tangentmappningspost | En enskild post i en tangentmappning. |
 | key configuration | tangentkonfiguration | Samling av Blender-tangentmappningar. |
 | tile (UDIM/image) | platta | Bild- eller UDIM-platta; inte kakel. |
+| NDOF | NDOF | Behåll enhetens produktförkortning; översätt den efterföljande synliga åtgärden med liten begynnelsebokstav. |
 
 ## Kontrollerade UI-formuleringar
 

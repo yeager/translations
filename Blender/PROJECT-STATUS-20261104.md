@@ -705,6 +705,14 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 93 granskar tangent- och händelseetiketter för tangentbord, media och
+NDOF-enheter i tre separata radintervall. Tre oberoende delgranskningar har
+jämförts mot den konkreta KeyMap-kontexten. Den lokalt validerade deltafilen
+innehåller 24 säkra UI-strängar, bland annat *vänsterpil*, *Retur*,
+*NDOF-anpassning* och korrekta funktions- och medietangentetiketter.
+`msgfmt` och l10n-lint passerar. Batchen är lokalt validerad och arkiveras för
+import till Blender Translate; något importresultat finns ännu inte.
+
 Batch 92 granskar bilddata och Blenders tangent- och musinmatning i tre
 separata radintervall. Tre oberoende delgranskningar har jämförts mot
 RNA-kontext och terminologilistan. Den lokalt validerade deltafilen innehåller
