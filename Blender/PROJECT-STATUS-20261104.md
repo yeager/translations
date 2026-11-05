@@ -459,7 +459,10 @@ bearbetade, 3 uppdaterade, 6 hoppade över och 0 saknade**.
 Batch 58 tillämpar den verifierade Constraint-terminologin för riktnings- och
 banbegränsningar. *Shrinkwrap* behålls medvetet som Blenders synliga
 funktionsnamn; den felaktiga betydelsen `Krympfilm` tas bort. Deltafilen är
-lokalt validerad och väntar på arkivering och verifierad import.
+lokalt validerad och arkiverad. Blender Translate bekräftade **10 bearbetade,
+4 uppdaterade, 6 hoppade över och 0 saknade**. Servern markerade den avsiktligt
+oförändrade produkttermen *Shrinkwrap* som kontrollvarning; det är en
+förväntad falsk positiv enligt projektets terminologibeslut.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
