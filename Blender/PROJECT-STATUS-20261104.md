@@ -441,8 +441,8 @@ Batch 55 granskar begränsningarnas och animeringssystemets konkreta
 gränssnitt. Den rättar maskinöversatta begränsningsetiketter och fullföljer
 den etablerade termen *åtgärdsslot* för `ActionConstraint` och NLA-remsor.
 Två oberoende, skrivskyddade delgranskningar har jämförts med den exakta
-RNA-kontexten. Deltafilen är lokalt validerad och väntar på arkivering och
-verifierad import.
+RNA-kontexten. Deltafilen är lokalt validerad och arkiverad. Blender Translate
+bekräftade **12 bearbetade, 4 uppdaterade, 8 hoppade över och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
