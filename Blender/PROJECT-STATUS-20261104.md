@@ -705,6 +705,12 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 110 granskar modifieraretiketter för UV-förvrängning,
+hörnpunktsgruppsvikter, volym-till-mesh, våg, viktade normaler, svetsning och
+trådram. Den lokalt validerade deltafilen innehåller 15 säkra UI-strängar.
+`msgfmt` och l10n-lint passerar. Batchen är arkiverad för import till Blender
+Translate; något importresultat finns ännu inte.
+
 Batch 109 granskar modifieraretiketter för Particle System, Remesh, Simple
 Deform, Soft Body och Solidify. Den lokalt validerade deltafilen innehåller 11
 säkra UI-strängar. `msgfmt` och l10n-lint passerar. Batchen är arkiverad för
