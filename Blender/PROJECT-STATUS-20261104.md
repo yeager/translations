@@ -1022,3 +1022,14 @@ passerar. Hunspell- och svlang-träffarna gäller avsiktliga Blender-
 sammansättningar och korta UI-etiketter; inga språkfel hittades. Batchen är
 arkiverad för import till Blender Translate; något importresultat finns ännu
 inte.
+
+Batch 127 granskar sekvenserare, UV-redigering, i18n-verktyg, kontextoperatorer
+och F-kurvredigering i tre separata radintervall. Tre oberoende
+delgranskningar har jämförts mot Blender UI- och operatorcontext. Den lokalt
+validerade deltafilen innehåller 97 granskade UI-strängar, bland annat
+*uttoning*, *tangentmappningskonfiguration*, *F-kurva*, *nyckelbildruta* och
+*geometrinodgrupp*. `msgfmt`, l10n-lint och diffkontroll passerar. Hunspell-
+och svlang-träffarna gäller avsiktliga Blender-sammansättningar, tekniska
+formatnamn och korta UI-etiketter; inga språkfel hittades. Batchen är
+arkiverad för import till Blender Translate; något importresultat finns ännu
+inte.

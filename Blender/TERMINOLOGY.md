@@ -472,6 +472,10 @@ Senast uppdaterad: 2026-11-05.
 | integrator | integrator | Renderingsalgoritm i Cycles; använd svensk böjning i sammansättningar. |
 | Geometry Node Group | geometrinodgrupp | Nodgrupp som utvärderar geometri i Blender. |
 | Geometry Node Modifier | geometrinodmodifierare | Modifierare som utvärderar en geometrinodgrupp. |
+| keyframe | nyckelbildruta | En bildruta där ett animerat värde uttryckligen anges. |
+| F-Curve | F-kurva | Kurvan som beskriver ett animerat värde över tid. |
+| fade (sequencer) | uttoning | Gradvis övergång i bild eller ljud mellan remsor. |
+| keymap configuration | tangentmappningskonfiguration | Sparad uppsättning Blender-tangentmappningar. |
 
 ## Kontrollerade UI-formuleringar
 
