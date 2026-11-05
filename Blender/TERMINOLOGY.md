@@ -119,6 +119,10 @@ Senast uppdaterad: 2026-11-05.
 | action | åtgärd | Animeringsdata i Blender. Behåll *Action* i formella datatyp- eller API-namn. |
 | slot | slot | Etablerat i den aktuella Blender-dokumentationen och UI-kontexten. |
 | shape key | formnyckel | Etablerad term i Blenders TBX-ordlista och UI. |
+| rig | rigg | Riggningens styrstruktur för en armatur. Behåll den svenska facktermen i löpande dokumentation. |
+| meta-rig | metarigg | Rigifys förenklade armatur som används för att generera den färdiga riggen. Skriv ihop på svenska. |
+| Rigify Human | Rigify Human | Namn på Rigifys förinställda mänskliga metarigg; översätt inte som löpande text. |
+| unhide | visa | I Blenders hierarki betyder åtgärden att ett dolt objekt visas igen, inte att det döljs. |
 | AOV | AOV / godtyckliga utgångsvariabler | Behåll den korta UI-etiketten *AOV*. I förklarande terminologi används TBX-formen *godtyckliga utgångsvariabler*. |
 
 ## Namn, format och kod
