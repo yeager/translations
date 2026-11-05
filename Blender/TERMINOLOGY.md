@@ -5,7 +5,7 @@ granskning, inte en ersättning för strängens sammanhang: kontrollera alltid
 operator, panel, tooltip, Python-identifierare och närliggande strängar innan
 du ändrar en översättning.
 
-Senast uppdaterad: 2026-11-04.
+Senast uppdaterad: 2026-11-05.
 
 ## Grundtermer
 
@@ -26,6 +26,9 @@ Senast uppdaterad: 2026-11-04.
 | Color Picker Type | Färgväljarens typ | Följer den aktuella svenska UI-etiketten. |
 | Header Position | rubrikposition | Följer UI-etiketten i Inställningar. Använd *rubrik* i närliggande manualtext för att undvika konkurrerande former. |
 | Percentage | procentandel | UI-värde för faktorvisning. |
+| Date Format | datumformat | UI-rubrik i Inställningar › Gränssnitt. Behåll konkreta formatmönster som `yyyy-mm-dd` och `dd/mm/yyyy` oförändrade. |
+| Time Format | tidsformat | UI-rubrik i Inställningar › Gränssnitt. |
+| 24-Hour / 12-Hour | 24-timmarsformat / 12-timmarsformat | Följer de aktuella UI-etiketterna. Klockexemplen `23:59` och `11:59 PM` är formatdata och ska inte lokaliseras. |
 | add-on / extension | tillägg | I Blender betecknar båda källtermerna samma utbyggbara funktion. Svenska använder samma form i singular och plural i korta UI-etiketter. I dokumentation som måste skilja undergruppen *add-ons* från samlingsnamnet *extensions* kan *tilläggsmoduler* användas för just undergruppen. |
 | data-block | datablock | Skriv ihop. Behåll bindestrecket bara i bokstavliga API-namn. |
 | object | objekt | Etablerad Blender-term. |

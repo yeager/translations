@@ -16,6 +16,14 @@ formatsträngar, inte svensk löptext. Däremot är deras synliga förklaringar
 `24-Hour` och `12-Hour` blir *24-timmarsformat* respektive
 *12-timmarsformat*. Tal- och klockexemplen bevaras exakt.
 
+## Terminologiverifiering, 5 november 2026
+
+De svenska UI-etiketterna i den aktuella Blender 5.3-exporten bekräftar
+*Datumformat*, *Tidsformat*, *24-timmarsformat* och *12-timmarsformat*.
+Översättningsminnet använder samma huvudtermer. Det gäller däremot inte som
+skäl att lokalisera själva exemplen: `yyyy-mm-dd`, `dd/mm/yyyy`, `23:59` och
+`11:59 PM` visar valbara format och ska därför återges bokstavligt.
+
 ## Kontroller
 
 - `msgfmt --check --statistics`: 23 översatta meddelanden och godkänd syntax.
