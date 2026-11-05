@@ -9228,147 +9228,118 @@ msgid "Collection of worlds"
 msgstr "Samling av världar"
 
 #. :src: bpy.types.BlendImportContext
-#, fuzzy
 msgid "Blendfile Import Context"
 msgstr "Blendfilimportkontext"
 
 #. :src: bpy.types.BlendImportContext
-#, fuzzy
 msgid "Contextual data for a blendfile library/linked-data related operation. Currently only exposed as read-only data for the pre/post blendimport handlers"
 msgstr "Kontextdata för en åtgärd som rör ett blendfilbibliotek eller länkade data. Exponeras för närvarande endast som skrivskyddade data för hanterare före och efter blendfilimport"
 
 #. :src: bpy.types.BlendImportContext.options
-#, fuzzy
 msgid "Options for this blendfile import operation"
 msgstr "Alternativ för den här blendfilimportåtgärden"
 
 #. :src: bpy.types.BlendImportContext.options:'LINK'
-#, fuzzy
 msgid "Only link data, instead of appending it"
 msgstr "Länka endast data i stället för att lägga till dem"
 
 #. :src: bpy.types.BlendImportContext.options:'MAKE_PATHS_RELATIVE'
-#, fuzzy
 msgid "Make paths of used library blendfiles relative to current blendfile"
-msgstr "Gör sökvägarna för använda blendfiler i biblioteket relativa till aktuell blendfil"
+msgstr "Gör sökvägarna till använda bibliotekets blendfiler relativa till den aktuella blendfilen"
 
 #. :src: bpy.types.BlendImportContext.options:'USE_PLACEHOLDERS'
-#, fuzzy
 msgid "Generate a placeholder (empty ID) if not found in any library files"
-msgstr "Generera en platshållare (tomt ID) om den inte finns i några biblioteksfiler"
+msgstr "Skapa en platshållare (tomt ID) om inget hittas i någon biblioteksfil"
 
 #. :src: bpy.types.BlendImportContext.options:'FORCE_INDIRECT'
-#, fuzzy
 msgid "Force loaded ID to be tagged as indirectly linked (used in reload context only)"
-msgstr "Tvinga laddat ID att märkas som indirekt länkat (används endast i samband med omladdning)"
+msgstr "Tvinga det lästa ID:t att markeras som indirekt länkat (används endast vid omladdning)"
 
 #. :src: bpy.types.BlendImportContext.options:'APPEND_SET_FAKEUSER'
-#, fuzzy
 msgid "Set fake user on appended IDs"
 msgstr "Ange falsk användare för tillagda ID:n"
 
 #. :src: bpy.types.BlendImportContext.options:'APPEND_RECURSIVE'
-#, fuzzy
 msgid "Append (make local) also indirect dependencies of appended IDs coming from other libraries. NOTE: All IDs (including indirectly linked ones) coming from the same initial library are always made local"
 msgstr "Lägg även till indirekta beroenden till tillagda ID:n från andra bibliotek och gör dem lokala. OBS: Alla ID:n från samma ursprungliga bibliotek, även indirekt länkade, görs alltid lokala"
 
 #. :src: bpy.types.BlendImportContext.options:'APPEND_LOCAL_ID_REUSE'
-#, fuzzy
 msgid "Try to re-use previously appended matching IDs when appending them again, instead of creating local duplicates"
 msgstr "Försök att återanvända tidigare tillagda matchande ID:n när de läggs till igen i stället för att skapa lokala dubbletter"
 
 #. :src: bpy.types.BlendImportContext.options:'APPEND_ASSET_DATA_CLEAR'
-#, fuzzy
 msgid "Clear the asset data on append (it is always kept for linked data)"
 msgstr "Rensa tillgångsdata när data läggs till (den behålls alltid för länkade data)"
 
 #. :src: bpy.types.BlendImportContext.options:'SELECT_OBJECTS'
-#, fuzzy
 msgid "Automatically select imported objects"
 msgstr "Välj automatiskt importerade objekt"
 
 #. :src: bpy.types.BlendImportContext.options:'USE_ACTIVE_COLLECTION'
-#, fuzzy
 msgid "Use the active Collection of the current View Layer to instantiate imported collections and objects"
 msgstr "Använd den aktiva samlingen i det aktuella vylagret för att instansiera importerade samlingar och objekt"
 
 #. :src: bpy.types.BlendImportContext.options:'OBDATA_INSTANCE'
-#, fuzzy
 msgid "Instantiate object data IDs (i.e. create objects for them if needed)"
 msgstr "Instansiera ID:n för objektdata (dvs. skapa objekt för dem om det behövs)"
 
 #. :src: bpy.types.BlendImportContext.options:'COLLECTION_INSTANCE'
-#, fuzzy
 msgid "Instantiate collections as empties, instead of linking them into the current view layer"
-msgstr "Instansiera samlingar som tomma, istället för att länka dem till det aktuella vylagret"
+msgstr "Instansiera samlingar som tomma objekt i stället för att länka dem till det aktuella vylagret"
 
 #. :src: bpy.types.BlendImportContext.process_stage
-#, fuzzy
 msgid "Current stage of the import process"
 msgstr "Aktuellt skede i importprocessen"
 
 #. :src: bpy.types.BlendImportContext.process_stage:'INIT'
-#, fuzzy
 msgid "Blendfile import context has been initialized and filled with a list of items to import, no data has been linked or appended yet"
 msgstr "Blendfilimportkontexten har initierats och fyllts med en lista över objekt att importera. Inga data har länkats eller lagts till ännu"
 
 #. :src: bpy.types.BlendImportContext.process_stage:'DONE'
-#, fuzzy
 msgid "All data has been imported and is available in the list of ``import_items``"
 msgstr "Alla data har importerats och finns tillgängliga i listan över ``import_items``"
 
 #. :src: bpy.types.BlendImportContextItem
-#, fuzzy
 msgid "Blendfile Import Context Item"
 msgstr "Objekt i blendfilimportkontext"
 
 #. :src: bpy.types.BlendImportContextItem
-#, fuzzy
 msgid "An item (representing a data-block) in a BlendImportContext data. Currently only exposed as read-only data for the pre/post linking handlers"
 msgstr "Ett objekt som representerar ett datablock i BlendImportContext-data. Exponeras för närvarande endast som skrivskyddade data för hanterare före och efter länkning"
 
 #. :src: bpy.types.BlendImportContextItem.append_action
-#, fuzzy
 msgid "Append Action"
 msgstr "Tilläggsåtgärd"
 
 #. :src: bpy.types.BlendImportContextItem.append_action
-#, fuzzy
 msgid "How this item has been handled by the append operation. Only set if the data has been appended"
 msgstr "Hur objektet har hanterats av tilläggsåtgärden. Anges endast om data har lagts till"
 
 #. :src: bpy.types.BlendImportContextItem.append_action:'UNSET'
-#, fuzzy
 msgid "Not yet defined"
 msgstr "Ännu ej definierat"
 
 #. :src: bpy.types.BlendImportContextItem.append_action:'KEEP_LINKED'
-#, fuzzy
 msgid "ID has been kept linked"
 msgstr "ID:t har behållits länkat"
 
 #. :src: bpy.types.BlendImportContextItem.append_action:'REUSE_LOCAL'
-#, fuzzy
 msgid "An existing matching local ID has been re-used"
 msgstr "Ett befintligt matchande lokalt ID har återanvänts"
 
 #. :src: bpy.types.BlendImportContextItem.append_action:'MAKE_LOCAL'
-#, fuzzy
 msgid "The newly linked ID has been made local"
 msgstr "Det nyligen länkade ID:t har gjorts lokalt"
 
 #. :src: bpy.types.BlendImportContextItem.append_action:'COPY_LOCAL'
-#, fuzzy
 msgid "The linked ID had other unrelated usages, so it has been duplicated into a local copy"
 msgstr "Det länkade ID:t hade andra orelaterade användningsområden, så det har duplicerats till en lokal kopia"
 
 #. :src: bpy.types.BlendImportContextItem.id
-#, fuzzy
 msgid "Imported ID"
 msgstr "Importerat ID"
 
 #. :src: bpy.types.BlendImportContextItem.id
-#, fuzzy
 msgid "The imported ID. None until it has been linked or appended. May be the same as ``reusable_local_id`` when appended"
 msgstr "Det importerade ID:t. Inget förrän det har länkats eller lagts till. Kan vara samma som ``reusable_local_id`` när det har lagts till"
 
@@ -9377,113 +9348,91 @@ msgstr "Det importerade ID:t. Inget förrän det har länkats eller lagts till. 
 #. :src: bpy.types.KeyingSetPath.id_type
 #. :src: bpy.types.OUTLINER_OT_id_remap.id_type
 #. :src: bpy.types.WM_OT_properties_edit.id_type
-#, fuzzy
 msgctxt "ID"
 msgid "ID Type"
 msgstr "ID-typ"
 
 #. :src: bpy.types.BlendImportContextItem.id_type
-#, fuzzy
 msgid "ID type of the item"
 msgstr "Objektets ID-typ"
 
 #. :src: bpy.types.BlendImportContextItem.import_info
-#, fuzzy
 msgid "Import Info"
 msgstr "Importinformation"
 
 #. :src: bpy.types.BlendImportContextItem.import_info
-#, fuzzy
 msgid "Various status info about an item after it has been imported"
 msgstr "Olika statusuppgifter om ett objekt efter importen"
 
 #. :src: bpy.types.BlendImportContextItem.import_info:'INDIRECT_USAGE'
-#, fuzzy
 msgid "That item was added for an indirectly imported ID, as a dependency of another data-block"
 msgstr "Objektet lades till för ett indirekt importerat ID som ett beroende till ett annat datablock"
 
 #. :src: bpy.types.BlendImportContextItem.import_info:'LIBOVERRIDE_DEPENDENCY'
-#, fuzzy
 msgid "That item represents an ID also used as liboverride dependency (either directly, as a liboverride reference, or indirectly, as data used by a liboverride reference). It should never be directly made local. Mutually exclusive with `LIBOVERRIDE_DEPENDENCY_ONLY`"
 msgstr "Det objektet representerar ett ID som också används som liboverride-beroende (antingen direkt, som en liboverride-referens, eller indirekt, som data som används av en liboverride-referens). Det bör aldrig direkt göras lokalt. Ömsesidigt uteslutande med `LIBOVERRIDE_DEPENDENCY_ONLY`"
 
 #. :src: bpy.types.BlendImportContextItem.import_info:'LIBOVERRIDE_DEPENDENCY_ONLY'
-#, fuzzy
 msgid "That item represents an ID only used as liboverride dependency (either directly or indirectly, see `LIBOVERRIDE_DEPENDENCY` for precisions). It should not be considered during the 'make local' (append) process, and remain purely linked data. Mutually exclusive with `LIBOVERRIDE_DEPENDENCY`"
 msgstr "Det objektet representerar ett ID som endast används som liboverride-beroende (antingen direkt eller indirekt, se `LIBOVERRIDE_DEPENDENCY` för preciseringar). Det bör inte beaktas under processen \"make local\" (append), utan förblir enbart länkad data. Ömsesidigt uteslutande med `LIBOVERRIDE_DEPENDENCY`"
 
 #. :src: bpy.types.BlendImportContextItem.library_override_id
-#, fuzzy
 msgid "Library Overridden ID"
 msgstr "ID med biblioteksåsidosättning"
 
 #. :src: bpy.types.BlendImportContextItem.library_override_id
-#, fuzzy
 msgid "The library override of the linked ID. None until it has been created"
 msgstr "Biblioteksåsidosättningen för det länkade ID:t. Ingen förrän den har skapats"
 
 #. :src: bpy.types.BlendImportContextItem.name
-#, fuzzy
 msgid "ID name of the item"
 msgstr "Objektets ID-namn"
 
 #. :src: bpy.types.BlendImportContextItem.reusable_local_id
-#, fuzzy
 msgid "Reusable Local ID"
 msgstr "Återanvändbart lokalt ID"
 
 #. :src: bpy.types.BlendImportContextItem.reusable_local_id
-#, fuzzy
 msgid "The already existing local ID that may be reused in append & reuse case. None until it has been found"
 msgstr "Det befintliga lokala ID:t som kan återanvändas vid tillägg och återanvändning. Inget förrän det har hittats"
 
 #. :src: bpy.types.BlendImportContextItem.source_libraries
-#, fuzzy
 msgid "Source Libraries"
 msgstr "Källbibliotek"
 
 #. :src: bpy.types.BlendImportContextItem.source_libraries
-#, fuzzy
 msgid "List of libraries to search and import that ID from. The ID will be imported from the first file in that list that contains it"
-msgstr "Lista över bibliotek att söka och importera ID:t från. ID:t kommer att importeras från den första filen i listan som innehåller det"
+msgstr "Lista över bibliotek där ID:t ska sökas och som det ska importeras från. ID:t importeras från den första filen i listan som innehåller det"
 
 #. :src: bpy.types.BlendImportContextItem.source_library
-#, fuzzy
 msgid "Source Library"
 msgstr "Källbibliotek"
 
 #. :src: bpy.types.BlendImportContextItem.source_library
-#, fuzzy
 msgid "Library ID representing the blendfile from which the ID was imported. None until the ID has been linked or appended"
-msgstr "Biblioteks-ID som representerar blendfilen som ID:t importerades från. Ingen förrän ID:t har länkats eller lagts till"
+msgstr "Biblioteks-ID som representerar blendfilen som ID:t importerades från. Inget förrän ID:t har länkats eller lagts till"
 
 #. :src: bpy.types.BlendImportContextItems
-#, fuzzy
 msgid "Blendfile Import Context Items"
 msgstr "Objekt i blendfilimportkontext"
 
 #. :src: bpy.types.BlendImportContextItems
-#, fuzzy
 msgid "Collection of blendfile import context items"
 msgstr "Samling av objekt i blendfilimportkontext"
 
 #. :src: bpy.types.BlendImportContextLibraries
-#, fuzzy
 msgid "Blendfile Import Context Libraries"
 msgstr "Bibliotek i blendfilimportkontext"
 
 #. :src: bpy.types.BlendImportContextLibraries
-#, fuzzy
 msgid "Collection of source libraries, i.e. blendfile paths"
 msgstr "Samling av källbibliotek, dvs. blendfilsökvägar"
 
 #. :src: bpy.types.BlendImportContextLibrary
-#, fuzzy
 msgid "Blendfile Import Context Library"
 msgstr "Bibliotek i blendfilimportkontext"
 
 #. :src: bpy.types.BlendImportContextLibrary
-#, fuzzy
 msgid "Library (blendfile) reference in a BlendImportContext data. Currently only exposed as read-only data for the pre/post blendimport handlers"
 msgstr "Referens till ett bibliotek (blendfil) i BlendImportContext-data. Exponeras för närvarande endast som skrivskyddade data för hanterare före och efter blendfilimport"
 

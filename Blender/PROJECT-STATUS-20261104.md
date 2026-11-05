@@ -1113,3 +1113,9 @@ inklistring av en orelaterad Tux Paint-text i strängen *Source Libraries* har
 ersatts med rätt svensk UI-term. `msgfmt` och diffkontroll passerar; återstående
 språkverktyg körs före arkivering. Batchen är lokalt granskad och väntar på
 import i Blender Translate; något importresultat finns ännu inte.
+
+Batch 138 slutför samma avsnitt i den lokala arbetskatalogen: samtliga 52
+radgranskade importkontextposter är nu markerade som översatta. Batchen
+normaliserar även blendfilsökvägar, tomma objekt och neutrumformen för ID:n.
+`msgfmt`, l10n-lint och diffkontroll passerar. Deltafilen är arkiverad för
+Blender Translate; något importresultat finns ännu inte.
