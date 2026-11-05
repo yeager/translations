@@ -394,6 +394,11 @@ Senast uppdaterad: 2026-11-05.
 | translation (motion tracking) | förflyttning | Geometrisk positionsändring vid spårning eller stabilisering, aldrig språköversättning. |
 | bundle (motion tracking) | rekonstruerad punkt | Den 3D-punkt som återuppbyggs från ett spår. |
 | solver (motion tracking) | lösare | Beräkningsmetod för kamera- eller objektspårning; använd *lösare* i förklarande UI-text. |
+| compositor | kompositör | Blenders nodbaserade miljö för bildkomposition; använd *kompositör*, inte det engelska *compositor*. |
+| matte (keying) | matta | Friläggningsmask som beskriver genomskinlighet, inte en fysisk matt yta. |
+| highlight (color correction) | högdager | Ljusaste tonområdet i bild- och färgkorrigeringskontext. |
+| midtone (color correction) | mellanton | Mellanområdet i bildens tonomfång. |
+| gain (color correction) | förstärkning | Färgkorrigeringsparametern för högdagrar eller mellantoner, inte ekonomisk vinst. |
 | Keying (compositor) | nyckling | Kompositörens friläggnings-/keyingfunktion, inte nyckelbildrutor. |
 | mesh edge/loop | meshkant/meshslinga | Meshens topologiska kant respektive slinga. |
 | vertex (mesh API) | hörnpunkt | RNA-datatypen *MeshVertex* och dess egenskaper; använd sammansättningar som *hörnpunktsvikt*. |

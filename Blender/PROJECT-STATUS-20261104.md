@@ -705,6 +705,17 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 113 granskar NLA-spår och kompositörsnoder för oskärpa, nyckling och
+färgkorrigering i tre separata radintervall. Tre oberoende delgranskningar
+har jämförts mot RNA-kontext och terminologilistan. Den lokalt validerade
+deltafilen innehåller 53 säkra UI-strängar, bland annat *NLA-remsa*,
+*kompositörsnod*, *rektangulär mask*, *matta*, *högdagerförstärkning* och
+*mellantonförstärkning*. `msgfmt` och l10n-lint passerar. Hunspell-träffarna
+är kontrollerade Blender- och bildbehandlingstermer; svlangs V2-varningar är
+falska positiv för UI-etiketter och korrekta underordnade satser. Batchen är
+lokalt validerad och arkiveras för import till Blender Translate; något
+importresultat finns ännu inte.
+
 Batch 112 granskar filmspårning och NLA-animering i tre separata
 radintervall. Tre oberoende delgranskningar har jämförts mot Movie Tracking-
 och NLA-RNA-kontext samt terminologilistan. Den lokalt validerade deltafilen
