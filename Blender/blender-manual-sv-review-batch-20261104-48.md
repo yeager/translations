@@ -28,3 +28,10 @@ tas bort. Blender-områden använder den etablerade termen *område*, och
 
 Råexporten är orörd. Deltafilen ingår i nästa körning av generatorn för
 Weblate-batcher med högst 100 poster per fil.
+
+## Terminologisk efterkontroll 5 november
+
+Den svenska UI-katalogen belägger **Upplösningsskala**, **Filbläddrare**,
+**Bildredigerare** och **Maximera område**. *DPI-värdet* är korrekt teknisk
+prosa i den förklarande texten, medan produktens synliga etiketter följer
+UI-katalogens former exakt.
