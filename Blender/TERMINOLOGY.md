@@ -138,6 +138,9 @@ Senast uppdaterad: 2026-11-05.
 | keyframe | nyckelbildruta | Använd i svensk förklarande text; ändra inte API-namn. |
 | F-Curve | F-kurva | Behåll initialen och använd svenskt ord efter bindestrecket. |
 | F-Curve modifier | F-kurvmodifierare | Modifierare som förändrar en F-kurvas värden eller förlopp. |
+| noise modifier | brusmodifierare | Modifierare som lägger slumpmässig variation på en F-kurva. Använd *brus*, inte det fysiska ljudordet *buller*. |
+| stepped interpolation | stegad interpolation | F-kurvmodifierare som håller interpolerade värden flera bildrutor. |
+| field falloff | fältets avtagande | Hur kraften från ett kraftfält minskar med avståndet. |
 | keyframe range | nyckelbildruteintervall | Intervall av bildrutor mellan animeringens nyckelbildrutor. |
 | driver (animation) | drivrutin | Funktions- eller uttrycksbaserad styrning av ett animerat egenskapsvärde. Använd *drivrutinstyp*, *drivrutinsvariabel*, *drivrutinsmål* och *drivrutins-F-kurva*. Skilj via sammanhang från enhetens drivrutin, men använd samma svenska huvudterm. |
 | action | åtgärd | Animeringsdata i Blender. Behåll *Action* i formella datatyp- eller API-namn. |

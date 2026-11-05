@@ -486,6 +486,8 @@ Batch 64 granskar Dynamic Paint, redigeringsben, F-kurvor och FFmpeg-inställnin
 
 Batch 65 normaliserar animationssystemets *Driver* till *drivrutin* i dess exakta RNA-, Graph Editor- och operatörskontext. Två oberoende terminologigranskningar och den lokala Blender-manualen bekräftar termen; hårdvarudrivrutiner har lämnats orörda. Deltafilen innehåller 20 säkra UI-strängar och är arkiverad i översättningsförrådet. Blender Translate bekräftade **20 bearbetade, 10 uppdaterade, 10 hoppade över och 0 saknade**.
 
+Batch 66 granskar F-kurvmodifierare och en liten, avgränsad mängd kraftfältsinställningar rad för rad. Tre skrivskyddade delgranskningar har jämförts med den svenska Blender-manualen, RNA-kontext och tidigare terminologi. Deltafilen innehåller 15 säkra UI-strängar, är lokalt validerad och arkiveras för import.
+
 Batch 61 granskar kurvdata, beroendegrafen och Dope Sheet-filter rad för rad.
 Två oberoende, skrivskyddade delgranskningar har jämförts med RNA-kontext och
 befintlig Blender-terminologi. Den lokalt validerade deltafilen normaliserar
