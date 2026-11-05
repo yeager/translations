@@ -236,7 +236,8 @@ engelskrester och tre otydliga hjälprader: `Bake` används konsekvent som
 `baka` eller `bakning`, medan kamerarummet behålls som komponentens redan
 etablerade term för *camera space*. `blender-ui-sv-reviewed-20261105-29.po`
 och termlistan har klarat lokal syntax-, språk-, stavnings-, diff- och
-hemlighetskontroll; importresultatet dokumenteras först efter uppladdning.
+hemlighetskontroll. Blender Translate bekräftade **7 bearbetade, 7 uppdaterade,
+0 hoppade över och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
