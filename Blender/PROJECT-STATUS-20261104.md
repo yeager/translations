@@ -359,6 +359,12 @@ l10n-lint, svlang, Hunspell, diffkontroll och Gitleaks. Svlangs enda träff
 gäller det avsiktligt bevarade API-värdet `CUSTOM`. Blender Translate
 bekräftade **4 bearbetade, 1 uppdaterad, 3 hoppade över och 0 saknade**.
 
+Batch 43 granskar penselverktygens kapacitetsbeskrivningar för bildmålning,
+skulptering, hörnpunktsmålning och viktmålning. Den ersätter felöversatta
+etiketter som `skulpterat flygplan` med domänkorrekta termer och dokumenterar
+`jämnt penseldrag` samt `avståndsdämpning`. Batchen är lokalt kontrollerad och
+väntar på arkivering och verifierad import.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade

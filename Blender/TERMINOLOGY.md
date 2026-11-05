@@ -167,6 +167,12 @@ Senast uppdaterad: 2026-11-05.
 | effective visibility | effektiv synlighet | Synlighet som beror på både bensamlingen och alla dess överordnade samlingar. |
 | selection set | urvalsuppsättning | Rigify-inställning som samlar ben för ett styrt urval. |
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
+| brush capabilities | penselfunktioner | Skrivskyddad uppsättning tillgängliga egenskaper för en pensel. |
+| smooth stroke | jämnt penseldrag | Penselinställning som filtrerar markörens rörelse under draget. |
+| space attenuation | avståndsdämpning | Dämpar penselstyrkan utifrån mellanrummet mellan penselavtryck. |
+| sculpt capabilities | funktioner för skulptering | Skrivskyddad uppsättning tillgängliga egenskaper för skulpteringsverktyget. |
+| vertex paint | hörnpunktsmålning | Målningsläge som tilldelar färgdata till meshens hörnpunkter. |
+| weight paint | viktmålning | Målningsläge som tilldelar vikter till meshens hörnpunkter. |
 | Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
 | target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
 | default frame | standardbildruta | Bildruta som motsvarar transformationskanalens neutrala värde. |
