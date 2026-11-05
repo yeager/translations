@@ -75,6 +75,10 @@ Senast uppdaterad: 2026-11-05.
 | Interface Font | Teckensnitt för gränssnittet | Följer den aktuella svenska UI-etiketten. |
 | lighting node | belysningsnod | Använd i saktext; behåll engelska nodnamn där de är produktnamn. |
 | geometry node | geometrinod | Svensk sammansättning i förklarande UI-text. |
+| Mix node | blandningsnod | Node Wranglers synliga menyval *Use Mix Nodes* är *Använd blandningsnoder*. |
+| Math node | matematisk nod | Node Wranglers synliga menyval *Use Math Nodes* är *Använd matematiska noder*. |
+| Divide | Dividera | Den matematiska nodoperationen i Node Wrangler. Använd inte den bredare handlingen *dela upp*. |
+| mix factor | blandningsfaktor | Synlig faktor som styr blandning, inte ett kodidentifierarnamn. |
 | Grease Pencil | Grease Pencil | Produkt- och funktionsnamn; översätt inte. |
 | override | åsidosättning / överskrivning | Kontextstyrt. Generella UI-etiketter använder *åsidosättning*. *Library Override* är i den aktuella UI-katalogen *biblioteksåsidosättning*, men närliggande operatörsnamn använder också *biblioteksöverskrivning*. Normalisera aldrig utan att granska strängens sammanhang och närliggande förekomster. |
 
