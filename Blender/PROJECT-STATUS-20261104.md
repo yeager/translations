@@ -494,6 +494,8 @@ Batch 68 granskar resursbläddrarens importmetoder rad för rad. Tre oberoende, 
 
 Batch 69 granskar vätskesimuleringens cache- och visningsinställningar rad för rad. Tre oberoende, skrivskyddade delgranskningar har kontrollerats mot Mantaflow- och RNA-kontexten. Deltafilen innehåller 27 säkra UI-strängar och rättar bland annat *cachekatalog*, *brusskala*, *FLIP*, cacheformat och vätskerutnät. Den är lokalt validerad och arkiveras för import; något importresultat finns ännu inte.
 
+Batch 70 granskar vätskesimuleringens rutnät, mesh- och brusinställningar rad för rad. Tre oberoende, skrivskyddade delgranskningar har kontrollerats mot RNA-kontexten. Deltafilen innehåller 23 säkra UI-strängar och normaliserar bland annat *temperaturrutnät*, *MAC-rutnät*, *vätskemesh*, *vätskebrus*, *hörnpunktsgrupp* och *initialhastighet*. Den är lokalt validerad och arkiveras för import; något importresultat finns ännu inte.
+
 Batch 61 granskar kurvdata, beroendegrafen och Dope Sheet-filter rad för rad.
 Två oberoende, skrivskyddade delgranskningar har jämförts med RNA-kontext och
 befintlig Blender-terminologi. Den lokalt validerade deltafilen normaliserar
