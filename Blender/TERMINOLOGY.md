@@ -113,6 +113,13 @@ Senast uppdaterad: 2026-11-05.
 | integer math | heltalsmatematik | Matematiska operationer på heltal. |
 | matrix determinant | matrisdeterminant | Determinanten för en matris. |
 | greatest common divisor | största gemensamma delare | Matematikterm; förkorta bara till GCD där UI:t behöver den engelska akronymen. |
+| Curve to Mesh | Kurva till mesh | Noden konverterar kurvgeometri till Blenders datatyp *mesh*. Översätt inte till det allmänna ordet *nät*. |
+| curve circle / curve line | kurvcirkel / kurvlinje | Synliga nodnamn för kurvprimitiver. |
+| poly spline | polyspline | Skriv ihop i nodbeskrivningar för polyline-baserade kurvor. |
+| quadrilateral | fyrhörning | Geometrisk figur med fyra hörn. Skilj från adjektivet *fyrsidig*. |
+| endpoint selection | ändpunktsurval | Urval av ett antal ändpunkter per spline. |
+| face corner | ythörn | Meshens hörn som hör till en specifik yta. Skilj från en delad hörnpunkt. |
+| grid volume | volymrutnät | Rutnät i en volym, exempelvis för punktdistribution. |
 | reroute | omdirigering | Blenders nod och Node Wrangler-funktion. Sammanfoga som *omdirigeringsnod*. |
 | Detach Outputs | Koppla bort utgångar | Node Wrangler-operatör. Använd *utdata* i förklarande text. |
 | Relative Path | Relativ sökväg | Synlig filsökvägsinställning. |

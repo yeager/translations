@@ -705,6 +705,17 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 118 granskar geometri- och kurvnoder i tre separata radintervall. Tre
+oberoende genomgångar har kontrollerats mot nodernas RNA-kontext, mesh- och
+kurvterminologin samt befintlig Blender-TBX. Den lokala deltafilen
+`blender-ui-sv-reviewed-20261105-118.po` innehåller 68 granskade UI-strängar,
+bland annat *geometrinod*, *funktionsnod*, *ythörn*, *hörnpunkt*,
+*flyttal*, *kurvcirkel*, *Fyrhörning*, *Grease Pencil* och *volymrutnät*.
+`msgfmt`, `l10n-lint`, Hunspell, diffkontroll och Gitleaks passerar; `svlang`
+rapporterar enbart väntade heuristiska träffar för korta nodetiketter,
+facktermer och imperativ. Filen är lokalt validerad och arkiverad men väntar
+på importresultat från Blender Translate.
+
 Batch 117 granskar tonmappning, filmspårning och funktionsnoder för logik,
 heltal och matriser i tre separata radintervall. Tre oberoende genomgångar
 har sedan kontrollerats mot UI-sammanhanget och Blender-terminologin. Den
