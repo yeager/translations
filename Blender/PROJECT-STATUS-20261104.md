@@ -588,6 +588,16 @@ förväntade korta UI-etiketter och Blender-fackord. Batchen är lokalt validera
 och arkiveras för import till Blender Translate; något importresultat finns
 ännu inte.
 
+Batch 84 granskar UV-lager, metabollar, filmklipp, nodträd och objektdata i
+tre separata radintervall. Tre oberoende skrivskyddade delgranskningar har
+jämförts mot RNA-kontext och terminologilistan. Den lokalt validerade
+deltafilen innehåller 61 säkra UI-strängar, bland annat *UV-looplager*,
+*hörnpunktsnormaler*, *proxykatalog*, *geometrinodträd* och
+*urvalsuppsättning*. `msgfmt` och l10n-lint passerar. Hunspell-träffarna är
+kontrollerade Blender-sammansättningar; svlang-träffarna är förväntade korta
+UI-etiketter och Blender-fackord. Batchen är lokalt validerad och arkiveras
+för import till Blender Translate; något importresultat finns ännu inte.
+
 En helkatalogskörning den 5 november med `l10n-lint` gav 1 132 träffar.
 Genomgången visar att merparten är förväntade produktnamn, formatnamn,
 kodidentifierare, standardskrivning och tekniska sammansättningar. De får inte
