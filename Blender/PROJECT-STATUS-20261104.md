@@ -1001,3 +1001,13 @@ innehåller 50 säkra UI-strängar, bland annat *linjeuppsättning*,
 *maskens splinepunkter*, *planspår*, *avtagande* och *Grease Pencil-färg*.
 `msgfmt` och l10n-lint passerar. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
+
+Batch 125 granskar objekt-, kameraspårnings-, tilläggs- och nodoperatorer i
+tre separata radintervall. Tre oberoende delgranskningar har jämförts mot
+Blenders RNA- och operatorcontext. Den lokalt validerade deltafilen innehåller
+69 granskade UI-strängar, bland annat *objektbas*, *visningslager*,
+*hörnpunktsmoln*, *resursetikett*, *vätskeförinställning* och
+*panelväxling*. `msgfmt`, l10n-lint och diffkontroll passerar. Hunspell- och
+svlang-träffarna gäller avsiktliga Blender-sammansättningar, formatnamn och
+korta UI-etiketter; inga språkfel hittades. Batchen är arkiverad för import
+till Blender Translate; något importresultat finns ännu inte.

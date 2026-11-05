@@ -463,6 +463,11 @@ Senast uppdaterad: 2026-11-05.
 | bake (Geometry Nodes) | baka/bakning | Beräknar och sparar data för en bildruta eller ett intervall; inte matlagning. |
 | frame range (animation) | bildruteintervall | Sammanhängande intervall av animeringsbildrutor. |
 | data-block | datablock | Blenders interna dataenhet; skriv sammansatt utan bindestreck. |
+| asset tag | resursetikett | Etikett för sökning och kategorisering av en resurs i Asset Browser. |
+| Line Art | linjekonst | Blenders funktion som härleder teckningslinjer ur scenens geometri. |
+| Empty (object type) | tomt objekt | Blenderobjekt utan egen renderad geometri; skilj från en tom bild. |
+| image empty | bildtomobjekt | Tomt objekt som visar en referensbild; en teknisk sammansättning i UI:t. |
+| mesh plane | meshplan | Plan yta skapad som mesh; behåll *mesh* som Blender-datatyp. |
 
 ## Kontrollerade UI-formuleringar
 
