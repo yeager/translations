@@ -249,6 +249,15 @@ Blender Translate bekräftade **2 bearbetade, 0 uppdaterade, 2 hoppade över och
 0 saknade**. Servern hade alltså redan samma eller nyare värden; batchen räknas
 inte som en bekräftad upstreamändring.
 
+Batch 31 granskar Animation Editors rörelsebanor och lökskalning. Tidigare
+strängar blandade engelskan *Onion-skinning* med den felaktiga ordagranna
+formen `avskalning av lök`; två texter hade dessutom `Slutbild` respektive
+felstavade `Startram` i stället för bildrutor. Batchen använder konsekvent
+`lökskalning`, `startbildruta`, `slutbildruta` och de synliga lägena
+`Omkring bildrutan` respektive `På nyckelrutor`. Deltafilen och termlistan är
+lokalt kontrollerade med `msgfmt`, l10n-lint, Hunspell, diffkontroll och
+Gitleaks; importresultatet dokumenteras först efter uppladdning.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
