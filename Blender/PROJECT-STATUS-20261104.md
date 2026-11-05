@@ -1086,3 +1086,8 @@ Batch 133 granskar geometriattribut och Cycles-bakning. Deltafilen innehåller
 20 granskade UI-strängar. `msgfmt`, l10n-lint och diffkontroll passerar.
 Batchen är arkiverad för import till Blender Translate; något importresultat
 finns ännu inte.
+
+Batch 134 granskar Cycles-bakning, bursextrudering, normalrymder, bilddata och
+renderingspass. Deltafilen innehåller 17 granskade UI-strängar. `msgfmt`,
+l10n-lint och diffkontroll passerar. Batchen är arkiverad för import till
+Blender Translate; något importresultat finns ännu inte.

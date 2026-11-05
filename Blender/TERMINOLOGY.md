@@ -499,6 +499,8 @@ Senast uppdaterad: 2026-11-05.
 | asset weak reference | svag tillgångsreferens | Referens som inte nödvändigtvis håller tillgången vid liv. |
 | normal space | normalrymd | Koordinatrymd för normaler vid exempelvis bakning. |
 | cage extrusion | bursextrudering | Avstånd som bygger ut en bakningsbur från det aktiva objektet. |
+| bake map | bakningskarta | Bild- eller attributdata som skapas genom att baka renderingsresultat. |
+| emission | emission | Ljus som materialet själv avger i renderingskontext. |
 
 ## Kontrollerade UI-formuleringar
 
