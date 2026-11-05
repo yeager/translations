@@ -24,3 +24,14 @@ unnecessary for this batch.
 As of 2026-11-02, GitHub reports that PR #96 is open and mergeable (`CLEAN`),
 with both `Pre-commit hooks` and `Fluent Syntax Check` successful. It has no
 review decision yet, so this is not an upstream approval or merge.
+
+## Terminologikontroll, 2026-11-05
+
+Efter granskarens önskemål om enkelcitat kring kommandot `sort -n` verifierades
+hela `join`-katalogens centrala term mot svenska GNU Coreutils 9.12. Den
+etablerade motsvarigheten till *join field* är **föreningsfält**, inte
+`kopplingsfält`; samtliga fem förekomster i PR #96 har därför ändrats
+konsekvent. `l10n-lint`, `hunspell-sv`, `git diff --check` och Gitleaks är
+godkända. `svlang` saknar stöd för Fluent (`.ftl`) och kunde därför inte köras
+på filen. Den uppdaterade, fortfarande öppna PR:n inväntar ny CI och
+underhållargranskning.
