@@ -483,6 +483,13 @@ Senast uppdaterad: 2026-11-05.
 | driver | drivare | Uttrycks- eller databaserad styrning av en egenskap; skilj från fysisk hårdvarudrivrutin. |
 | Graph Editor | grafredigeraren | Redigeraren för F-kurvor och animerade värden. |
 | bone collection | bensamling | Samling som organiserar riggens ben. |
+| action | åtgärd | Blenderdatablock som lagrar animeringsdata; behåll *åtgärd* i den här API- och UI-kontexten. |
+| action slot | åtgärdsplats | Kopplar en åtgärd till ett datablocks animation; precisera den generella termen *plats*. |
+| animation channel bag | animationskanalbehållare | API-objekt som samlar F-kurvor och grupper för en åtgärdsplats. |
+| kernel optimization | kärnoptimering | Optimering av renderingskärnor i Cycles, inte operativsystemets kärna. |
+| intersection | skärningsberäkning | Strålspårningens beräkning av en träff mellan stråle och geometri. |
+| Graph Editor | grafredigeraren | Redigeraren för F-kurvor och animerade värden. |
+| FriBidi | FriBidi | Egennamn på biblioteket; använd dess officiella skrivning. |
 
 ## Kontrollerade UI-formuleringar
 

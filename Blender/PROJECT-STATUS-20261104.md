@@ -1054,3 +1054,14 @@ diffkontroll passerar. Hunspell- och svlang-träffarna gäller avsiktliga
 Blender-sammansättningar och korta UI-etiketter; inga språkfel hittades.
 Batchen är arkiverad för import till Blender Translate; något importresultat
 finns ännu inte.
+
+Batch 130 granskar Actions API, åtgärdsplatser, Cycles-kärnor, MetalRT,
+glTF-inställningar, Node Wrangler och Blender i18n-inställningar i tre
+separata radintervall. Tre oberoende delgranskningar har jämförts mot
+Blender API- och UI-kontexten. Den lokalt validerade deltafilen innehåller
+69 granskade UI-strängar, bland annat *åtgärdsplats*,
+*animationskanalbehållare*, *kärnoptimering*, *skärningsberäkning* och
+*stavningscache*. `msgfmt`, l10n-lint och diffkontroll passerar. Hunspell-
+och svlang-träffarna gäller avsiktliga Blender-sammansättningar, API-namn och
+korta UI-etiketter; inga språkfel hittades. Batchen är arkiverad för import
+till Blender Translate; något importresultat finns ännu inte.
