@@ -30683,9 +30683,8 @@ msgstr "Uni Cache"
 #. :src: bpy.types.FluidDomainSettings.cache_noise_format:'UNI'
 #. :src: bpy.types.FluidDomainSettings.cache_particle_format:'UNI'
 #: source/blender/makesrna/intern/rna_fluid.cc:595
-#, fuzzy
 msgid "Uni file format (.uni)"
-msgstr "Uni filformat (.uni)"
+msgstr "Uni-filformat (.uni)"
 
 #. :src: bpy.types.FluidDomainSettings.cache_data_format:'OPENVDB'
 #. :src: bpy.types.FluidDomainSettings.cache_mesh_format:'OPENVDB'
@@ -30701,37 +30700,32 @@ msgstr "OpenVDB"
 #. :src: bpy.types.FluidDomainSettings.cache_noise_format:'OPENVDB'
 #. :src: bpy.types.FluidDomainSettings.cache_particle_format:'OPENVDB'
 #: source/blender/makesrna/intern/rna_fluid.cc:602
-#, fuzzy
 msgid "OpenVDB file format (.vdb)"
-msgstr "OpenVDB filformat (.vdb)"
+msgstr "OpenVDB-filformat (.vdb)"
 
 #. :src: bpy.types.FluidDomainSettings.cache_data_format:'RAW'
 #. :src: bpy.types.FluidDomainSettings.cache_mesh_format:'RAW'
 #. :src: bpy.types.FluidDomainSettings.cache_noise_format:'RAW'
 #. :src: bpy.types.FluidDomainSettings.cache_particle_format:'RAW'
 #: source/blender/makesrna/intern/rna_fluid.cc:613
-#, fuzzy
 msgid "Raw Cache"
-msgstr "Rå Cache"
+msgstr "Råcache"
 
 #. :src: bpy.types.FluidDomainSettings.cache_data_format:'RAW'
 #. :src: bpy.types.FluidDomainSettings.cache_mesh_format:'RAW'
 #. :src: bpy.types.FluidDomainSettings.cache_noise_format:'RAW'
 #. :src: bpy.types.FluidDomainSettings.cache_particle_format:'RAW'
 #: source/blender/makesrna/intern/rna_fluid.cc:614
-#, fuzzy
 msgid "Raw file format (.raw)"
-msgstr "Raw-filformat (.raw)"
+msgstr "Rått filformat (.raw)"
 
 #. :src: bpy.types.FluidDomainSettings.cache_directory
-#, fuzzy
 msgid "Cache directory"
-msgstr "Cache-katalog"
+msgstr "Cachekatalog"
 
 #. :src: bpy.types.FluidDomainSettings.cache_directory
-#, fuzzy
 msgid "Directory that contains fluid cache files"
-msgstr "Katalog som innehåller cache-filer för vätska"
+msgstr "Katalog som innehåller cachefiler för vätskesimuleringen"
 
 #. :src: bpy.types.FluidDomainSettings.cache_frame_end
 #. :src: bpy.types.FreestyleLineSet.qi_end
@@ -30805,9 +30799,8 @@ msgid "Frame on which the simulation stops (last frame baked)"
 msgstr "Bildruta då simuleringen slutar. Detta är den sista bildruta som kommer att bakas"
 
 #. :src: bpy.types.FluidDomainSettings.cache_frame_offset
-#, fuzzy
 msgid "Frame offset that is used when loading the simulation from the cache. It is not considered when baking the simulation, only when loading it."
-msgstr "Frame-offset som används när simuleringen laddas från cacheminnet. Den beaktas inte när simuleringen bakas, utan endast när den laddas."
+msgstr "Bildruteförskjutning som används när simuleringen läses in från cachen. Den beaktas inte när simuleringen bakas, utan bara när den läses in."
 
 #. :src: bpy.types.FluidDomainSettings.cache_frame_start
 #. :src: bpy.types.FreestyleLineSet.qi_start
@@ -30866,9 +30859,8 @@ msgid "Select the file format to be used for caching particle data"
 msgstr "Välj det filformat som ska användas för cachning av partikeldata"
 
 #. :src: bpy.types.FluidDomainSettings.cache_resumable
-#, fuzzy
 msgid "Resumable"
-msgstr "Resumérbar"
+msgstr "Återupptagbar"
 
 #. :src: bpy.types.FluidDomainSettings.cache_resumable
 #, fuzzy
@@ -30885,9 +30877,8 @@ msgid "Replay"
 msgstr "Spela upp igen"
 
 #. :src: bpy.types.FluidDomainSettings.cache_type:'REPLAY'
-#, fuzzy
 msgid "Use the timeline to bake the scene"
-msgstr "Använd tidslinjen för att baka in scenen"
+msgstr "Använd tidslinjen för att baka scenen"
 
 #. :src: bpy.types.FluidDomainSettings.cache_type:'MODULAR'
 #, fuzzy
@@ -30915,9 +30906,8 @@ msgid "CFL"
 msgstr "CFL"
 
 #. :src: bpy.types.FluidDomainSettings.cfl_condition
-#, fuzzy
 msgid "Maximal velocity per cell (greater CFL numbers will minimize the number of simulation steps and the computation time.)"
-msgstr "Maximal hastighet per cell (större antal CFL minimerar antalet simuleringssteg och beräkningstiden)"
+msgstr "Maximal hastighet per cell (högre CFL-tal minskar antalet simuleringssteg och beräkningstiden)"
 
 #. :src: bpy.types.FluidDomainSettings.clipping
 #. :src: bpy.types.LightProbe.show_clip
@@ -30939,14 +30929,12 @@ msgstr "Värde under vilket voxlar betraktas som tomt utrymme för att optimera 
 #. :src: bpy.types.IMAGE_OT_tile_fill.generated_type:'COLOR_GRID'
 #. :src: bpy.types.PAINT_OT_add_texture_paint_slot.generated_type:'COLOR_GRID'
 #. :src: bpy.types.UDIMTile.generated_type:'COLOR_GRID'
-#, fuzzy
 msgid "Color Grid"
-msgstr "Färgschema"
+msgstr "Färgrutnät"
 
 #. :src: bpy.types.FluidDomainSettings.color_grid
-#, fuzzy
 msgid "Smoke color grid"
-msgstr "Rökfärgsnät"
+msgstr "Rökfärgsrutnät"
 
 #. :src: bpy.types.FluidDomainSettings.color_ramp_field
 #. :src: bpy.types.FluidDomainSettings.vector_field
@@ -30965,9 +30953,8 @@ msgid "Multiplier for scaling the selected field to color map"
 msgstr "Multiplikator för skalning av det valda fältet till färgkartan"
 
 #. :src: bpy.types.FluidDomainSettings.delete_in_obstacle
-#, fuzzy
 msgid "Clear In Obstacle"
-msgstr "Klar i hinder"
+msgstr "Rensa i hinder"
 
 #. :src: bpy.types.FluidDomainSettings.delete_in_obstacle
 #, fuzzy
@@ -30976,9 +30963,8 @@ msgstr "Ta bort vätska inuti hinder"
 
 #. :src: bpy.types.FluidDomainSettings.density_grid
 #: source/blender/nodes/geometry/nodes/node_geo_mesh_to_density_grid.cc:31
-#, fuzzy
 msgid "Density Grid"
-msgstr "Täthetsraster"
+msgstr "Täthetsrutnät"
 
 #. :src: bpy.types.FluidDomainSettings.density_grid
 #, fuzzy
@@ -31040,9 +31026,8 @@ msgstr "Närmast"
 #. :src: bpy.types.FluidDomainSettings.display_interpolation:'CLOSEST'
 #. :src: bpy.types.TransformStrip.interpolation:'NONE'
 #. :src: bpy.types.VolumeDisplay.interpolation_method:'CLOSEST'
-#, fuzzy
 msgid "No interpolation"
-msgstr "Interpolation av spak"
+msgstr "Ingen interpolation"
 
 #. :src: bpy.types.FluidDomainSettings.display_thickness
 #, fuzzy
@@ -31065,9 +31050,8 @@ msgid "res"
 msgstr "res"
 
 #. :src: bpy.types.FluidDomainSettings.domain_resolution
-#, fuzzy
 msgid "Smoke Grid Resolution"
-msgstr "Rökgallrets upplösning"
+msgstr "Rökrutnätets upplösning"
 
 #. :src: bpy.types.FluidDomainSettings.domain_type
 msgid "Domain Type"
@@ -31098,9 +31082,8 @@ msgstr "Skapa domän för vätskor"
 
 #. :src: bpy.types.FluidDomainSettings.export_manta_script
 #: scripts/startup/bl_ui/properties_physics_fluid.py:1373
-#, fuzzy
 msgid "Export Mantaflow Script"
-msgstr "Exportera Mantaflow Script"
+msgstr "Exportera Mantaflow-skript"
 
 #. :src: bpy.types.FluidDomainSettings.export_manta_script
 #, fuzzy
@@ -31172,9 +31155,8 @@ msgid "PIC/FLIP Ratio. A value of 1.0 will result in a completely FLIP based sim
 msgstr "PIC/FLIP-förhållande. Ett värde på 1,0 resulterar i en helt FLIP-baserad simulering. Använd ett lägre värde för simuleringar som ska ge mindre stänk."
 
 #. :src: bpy.types.FluidDomainSettings.fluid_group
-#, fuzzy
 msgid "Fluid Collection"
-msgstr "Vätskeuppsamling"
+msgstr "Vätskesamling"
 
 #. :src: bpy.types.FluidDomainSettings.fluid_group
 #, fuzzy
@@ -31182,9 +31164,8 @@ msgid "Limit fluid objects to this collection"
 msgstr "Begränsa vätskeobjekt till denna samling"
 
 #. :src: bpy.types.FluidDomainSettings.force_collection
-#, fuzzy
 msgid "Force Collection"
-msgstr "Force Collection"
+msgstr "Kraftsamling"
 
 #. :src: bpy.types.FluidDomainSettings.force_collection
 #, fuzzy
@@ -31285,9 +31266,8 @@ msgid "Color Gridlines"
 msgstr "Färga rutnätslinjer"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_color_field
-#, fuzzy
 msgid "Simulation field to color map onto gridlines"
-msgstr "Simuleringsfält för att färglägga kartor på rutnät"
+msgstr "Simuleringsfält som används för att färglägga rutnätslinjerna"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_color_field:'FLAGS'
 #. :src: bpy.types.IDOverrideLibraryPropertyOperation.flag
@@ -31552,9 +31532,8 @@ msgstr "Skala för brus (högre värde resulterar i större virvlar)"
 
 #. :src: bpy.types.FluidDomainSettings.noise_scale
 #. :src: bpy.types.GreasePencilNoiseModifier.noise_scale
-#, fuzzy
 msgid "Noise Scale"
-msgstr "Bullerskala"
+msgstr "Brusskala"
 
 #. :src: bpy.types.FluidDomainSettings.noise_scale
 #, fuzzy
@@ -31562,9 +31541,8 @@ msgid "The noise simulation is scaled up by this factor (compared to the base re
 msgstr "Brussimuleringen skalas upp med denna faktor (jämfört med domänens basupplösning)"
 
 #. :src: bpy.types.FluidDomainSettings.noise_strength
-#, fuzzy
 msgid "Strength of noise"
-msgstr "Styrka av buller"
+msgstr "Brusets styrka"
 
 #. :src: bpy.types.FluidDomainSettings.noise_time_anim
 #. :src: bpy.types.MeshCacheModifier.time_mode:'TIME'
@@ -31590,9 +31568,8 @@ msgid "Time"
 msgstr "Tid"
 
 #. :src: bpy.types.FluidDomainSettings.noise_time_anim
-#, fuzzy
 msgid "Animation time of noise"
-msgstr "Animeringstid för buller"
+msgstr "Brusets animeringstid"
 
 #. :src: bpy.types.FluidDomainSettings.openvdb_cache_compress_type
 #. :src: bpy.types.ImageFormatSettings.compression
@@ -31616,9 +31593,8 @@ msgid "Compression method to be used"
 msgstr "Komprimeringsmetod som ska användas"
 
 #. :src: bpy.types.FluidDomainSettings.openvdb_cache_compress_type:'ZIP'
-#, fuzzy
 msgid "Zip"
-msgstr "Postnummer"
+msgstr "Zip"
 
 #. :src: bpy.types.FluidDomainSettings.openvdb_cache_compress_type:'ZIP'
 #. :src: bpy.types.PointCache.compression:'HEAVY'
@@ -31633,9 +31609,8 @@ msgid "Blosc"
 msgstr "Blosc"
 
 #. :src: bpy.types.FluidDomainSettings.openvdb_cache_compress_type:'BLOSC'
-#, fuzzy
 msgid "Multithreaded compression, similar in size and quality as 'Zip'"
-msgstr "Flertrådad komprimering, liknande i storlek och kvalitet som \"Zip"
+msgstr "Flertrådad komprimering med liknande storlek och kvalitet som ”Zip”"
 
 #. :src: bpy.types.FluidDomainSettings.openvdb_cache_compress_type:'NONE'
 msgid "Do not use any compression"
@@ -31727,9 +31702,8 @@ msgstr "Visa rutnät"
 
 #. :src: bpy.types.FluidDomainSettings.show_velocity
 #. :src: bpy.types.PHYSICS_PT_viewport_display_debug
-#, fuzzy
 msgid "Vector Display"
-msgstr "Vektorskärm"
+msgstr "Vektorvisning"
 
 #. :src: bpy.types.FluidDomainSettings.show_velocity
 #, fuzzy
@@ -31748,9 +31722,8 @@ msgstr "Ändra den underliggande simuleringsmetoden"
 
 #. :src: bpy.types.FluidDomainSettings.simulation_method:'FLIP'
 #. :src: bpy.types.FluidDomainSettings.use_flip_particles
-#, fuzzy
 msgid "FLIP"
-msgstr "Vänd X"
+msgstr "FLIP"
 
 #. :src: bpy.types.FluidDomainSettings.simulation_method:'FLIP'
 #, fuzzy
