@@ -17,6 +17,8 @@ Senast uppdaterad: 2026-11-05.
 | remote asset library | fjärranslutet resursbibliotek | Skriv ut relationen i löpande text; undvik *fjärrresursbibliotek*, som blir svårläst med tre r. |
 | remote assets | fjärranslutna resurser | Nätåtkomliga resurser i Asset Browser och dess filter. Undvik *fjärrresurser*, som får tre r i följd. |
 | cache directory | cachekatalog | Etablerad teknisk sammansättning i Blender. Skriv ihop i UI-etiketter och statusmeddelanden: *diskcachekatalog*, *standardcachekatalog*. |
+| cache layer | cachelager | Lager i en Blender-cachefil. Skriv ihop, utan bindestreck. |
+| object path | objektsökväg | Sökväg för ett objekt i exempelvis en Alembic-arkivfil. |
 | bake (rendering/simulation) | baka / bakning | Behåll Blenders etablerade verb i procedur- och inställningstexter: *Baka till aktiv kamera*, *bakningsdata*. Det gäller inte köksbetydelsen. |
 | normal space | normalrymd | Val av koordinatrymd för normaldata vid bakning. De konkreta alternativen skrivs *tangentrymd*, *objektrymd* och *världsrymd*. |
 | onion skinning | lökskalning | Animeringsvisning med spökbilder från närliggande bildrutor. Undvik bokstavliga former som *avskalning av lök*. |
@@ -25,6 +27,7 @@ Senast uppdaterad: 2026-11-05.
 | File Browser | filbläddrare | UI-beteckning för den editor som öppnar och sparar filer. Anpassa bestämd form i löpande text. |
 | Maximize Area | Maximera område | Operatörsnamn. *Område* avser här ett Blender-area, inte ett skärmområde i allmän mening. |
 | 3D Viewport | 3D-vyport | Etablerad UI- och manualterm. |
+| 3D View | 3D-vy | Förklaringstext för den synliga Blender-vyn; böj som *3D-vyns* i sammansatta led. |
 | Timecode Style | tidskodstil | Inställning som bestämmer hur uppspelningens varaktighet visas. |
 | System Memory | systemminne | UI-rubrik för uppskattad RAM-användning. |
 | New Data | Nya data | Gäller nya Blender-datablock; inte *nya uppgifter*. |

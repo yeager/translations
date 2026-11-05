@@ -399,6 +399,11 @@ uppdaterade, 6 hoppade över och 3 saknade**. De saknade posterna var de tre
 kontextspecifika hjälptexterna för hörnpunktsfärgens lägen; servern rapporterade
 att deras källsträngar inte längre finns, så de har inte ersatts mekaniskt.
 
+Batch 49 granskar CacheFile- och kamerabakgrundens rader. Den normaliserar
+tekniska sammansättningar som *cachelager* och *objektsökväg* samt skiljer
+kameraobjektens djupplacering *bakom/framför* från allmän riktning. Batchen är
+lokalt kontrollerad och inväntar arkivering och verifierad import.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
