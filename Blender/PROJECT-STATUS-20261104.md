@@ -609,6 +609,18 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 och Blender-fackord. Batchen är lokalt validerad och arkiveras för import till
 Blender Translate; något importresultat finns ännu inte.
 
+Batch 86 granskar 3D-visning, formnycklar och partikelinställningar i tre
+separata radintervall. Tre oberoende skrivskyddade delgranskningar har
+jämförts mot RNA-kontext och terminologilistan. Den lokalt validerade
+deltafilen innehåller 41 säkra UI-strängar, bland annat *instansierare*,
+*skulptering med dynamisk topologi*, *simuleringscache*, *barnpartikel* och
+*volymspridning*. Två meddelanden med samma engelska källtext men orelaterad
+kontext togs uttryckligen bort ur deltafilen. `msgfmt` och l10n-lint passerar.
+Hunspell-träffen är den kontrollerade Blender-sammansättningen
+*hörnpunktsgrupper*; svlang-träffarna är förväntade korta UI-etiketter och
+Blender-fackord. Batchen är lokalt validerad och arkiveras för import till
+Blender Translate; något importresultat finns ännu inte.
+
 En helkatalogskörning den 5 november med `l10n-lint` gav 1 132 träffar.
 Genomgången visar att merparten är förväntade produktnamn, formatnamn,
 kodidentifierare, standardskrivning och tekniska sammansättningar. De får inte

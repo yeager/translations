@@ -209,6 +209,10 @@ Senast uppdaterad: 2026-11-05.
 | world matrix | världsmatris | Transformationsmatris i världsrymden. |
 | vertex paint / weight paint / texture paint | hörnpunktsmålning / viktmålning / texturmålning | Blenders respektive målningslägen. |
 | gimbal lock | gimbal-låsning | Rotationsproblem i Euler-lägen. |
+| instancer | instansierare | Objekt som skapar instanser av sina underordnade objekt eller sin instanssamling. |
+| dynamic topology sculpting | skulptering med dynamisk topologi | Skulpteringsläge som ändrar meshtopologin dynamiskt. |
+| child particle | barnpartikel | Partikel som härleds från en föräldrapartikel. |
+| volume scatter | volymspridning | Spridning av ljus i ett volymmaterial. |
 | curve map point | kurvkartpunkt | Punkt i en kurvkartläggning. |
 | support loop | stödslinga | Topologisk loop som kontrollerar skärpan kring en meshdetalj. |
 | mix mode | blandningsläge | Anger hur en Transform Constraint kombinerar position, rotation eller skala med det ursprungliga värdet. |
