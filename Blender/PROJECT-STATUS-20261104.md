@@ -60,6 +60,11 @@ Shelf Header*, trots att den omgivande gränssnittsterminologin använder
 till `Resurshyllans rubrik`. Blender Translate bekräftade **1 bearbetad, 1
 uppdaterad, 0 hoppade över och 0 saknades**.
 
+Batch 07 rättade sex RNA-typnamn för noduttag där den svenska sammansättningen
+hade tappat fog-s: `noduttaggränssnitt` blev `noduttagsgränssnitt`.
+`blender-ui-sv-reviewed-20261105-07.po` importerades med resultatet **6
+bearbetade, 6 uppdaterade, 0 hoppade över och 0 saknades**.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
