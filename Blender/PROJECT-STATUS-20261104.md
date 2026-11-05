@@ -173,8 +173,9 @@ Action-kontext. Sju texter blandade tidigare ihop datatypen med vanliga
 från `bpy.types.Action`, `ANIM_OT_*`, Rigify och
 `animrig/intern/keyframing.cc` visar att samtliga avser Blenders Action Slots.
 De använder nu konsekvent `åtgärdsslotar` eller `slotar` där åtgärdskontexten
-redan är given. Lokal kvalitetssäkring är klar; importresultat fylls i efter
-uppladdningen.
+redan är given. Lokal kvalitetssäkring är klar. Blender Translate bekräftade
+`blender-ui-sv-reviewed-20261105-22.po`: **7 bearbetade, 7 uppdaterade, 0
+hoppade över och 0 saknades**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
