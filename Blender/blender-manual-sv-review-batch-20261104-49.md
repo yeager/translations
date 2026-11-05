@@ -26,9 +26,18 @@ den starkare källan.
   återger samma mängd utan en sifferliteral.
 - `svlang skrivregler --enable-interpunktion` och `svlang svengelska`: inga
   träffar i måltexterna.
-- Hunspell `sv_SE`: inga stavfel.
+- Hunspell `sv_SE` noterar endast *muspositionen*. Det är en korrekt svensk
+  sammansättning men saknas i den lokala ordlistan.
 - `git diff --check`: godkänd.
 - Gitleaks: inga hemligheter hittades.
 
 Råexporten är orörd. Deltafilen ingår i nästa körning av generatorn för
 Weblate-batcher med högst 100 poster per fil.
+
+## Terminologisk efterkontroll 5 november
+
+UI-exporten bekräftar **Öppna vid hovring**, **Cirkelmenyer**,
+**Animationstidsgräns**, **Tidsgräns för tangenttryckning** och
+**Tidsgräns för återcentrering**. Måttenheten har rättats från den felaktiga
+formen *hundradels sekunder* till **hundradelar av en sekund** i båda
+hjälptexterna.
