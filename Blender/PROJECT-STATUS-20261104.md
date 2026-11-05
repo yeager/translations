@@ -138,8 +138,9 @@ poster. Blender Translate bekräftade `blender-ui-sv-reviewed-20261105-17.po`:
 Batch 18 rättar två kvarvarande hänvisningar till Blenders separata interna
 urklipp i sekvensredigeraren respektive posläget. Den felaktigt konkreta
 formen `interna klippbordet` ersätts med samma term som den omgivande UI-texten
-redan använder: `interna urklippet`. Lokal kvalitetssäkring är klar;
-uppladdningsresultatet fylls i efter Blender Translates svar.
+redan använder: `interna urklippet`. Blender Translate bekräftade
+`blender-ui-sv-reviewed-20261105-18.po`: **2 bearbetade, 2 uppdaterade, 0
+hoppade över och 0 saknades**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
