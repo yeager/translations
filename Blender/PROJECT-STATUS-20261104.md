@@ -65,6 +65,12 @@ hade tappat fog-s: `noduttaggränssnitt` blev `noduttagsgränssnitt`.
 `blender-ui-sv-reviewed-20261105-07.po` importerades med resultatet **6
 bearbetade, 6 uppdaterade, 0 hoppade över och 0 saknades**.
 
+Batch 08 kompletterade de återstående UI-texterna för *remote asset library*
+med `fjärranslutet resursbibliotek`, så att varken trippelkonsonanten i
+`fjärrresursbibliotek` eller den ofullständiga formen *fjärrbibliotek* blir
+kvar i denna kontext. `blender-ui-sv-reviewed-20261105-08.po` importerades
+med resultatet **3 bearbetade, 3 uppdaterade, 0 hoppade över och 0 saknades**.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
