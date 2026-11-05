@@ -376,8 +376,8 @@ bearbetade, 13 uppdaterade, 5 hoppade över och 0 saknade**.
 Batch 45 granskar Grease Pencil-penslarnas rit- och forminställningar. Den
 ersätter bland annat kvarvarande engelska `Vertex Color` med
 `hörnpunktsfärg`, normaliserar ändtyp och kurvslumpning och rättar den
-ogiltiga formen `Dilatat/kontrakt`. Batchen är lokalt kontrollerad och väntar
-på arkivering och verifierad import.
+ogiltiga formen `Dilatat/kontrakt`. Blender Translate bekräftade **16
+bearbetade, 11 uppdaterade, 5 hoppade över och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
