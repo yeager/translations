@@ -23,6 +23,9 @@ Senast uppdaterad: 2026-11-04.
 | Essentials | Grundresurser | Översatt UI-namn för Blenders medföljande resurser. I löpande text: *resursbiblioteket Grundresurser*. |
 | Cyclic | Cyklisk | Kurv- och splineinställning. Skriv vid behov *alternativet Cyklisk* för korrekt svensk kongruens. |
 | Numeric Input Arrows | Numeriska inmatningspilar | Följer den faktiska svenska UI-etiketten. |
+| application template | applikationsmall | Etablerad i den svenska manualen och i startskärmens dokumentation. |
+| user preferences | användarinställningar | Gäller konfigurationsfil, inställningar och kommandoradsflaggor i manualen. UI-rubriken *Preferences* följer sin egen kontext. |
+| extension repository | tilläggsförråd | Manualens etablerade term för Blenders paketkälla. Använd *fjärrförråd*, *användarförråd* och *systemförråd* när attributet är betydelsebärande. Behåll kommandon som `repo-info` exakt. |
 | timeout | tidsgräns | Exempel: *Animation Timeout* → *Animationstidsgräns*. |
 | linked | länkad | Exempel: *linked object* → *länkat objekt*. |
 | packed | packad | Exempel: *packed data-block* → *packat datablock*. |
