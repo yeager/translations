@@ -162,6 +162,7 @@ Senast uppdaterad: 2026-11-05.
 | connected bone | anslutet ben | Ett underordnat bens huvud är fast vid det överordnade benets svans. |
 | envelope influence | kuvertets påverkan | Påverkan från ett bens Envelope-volym vid armaturdeformering. |
 | relative parenting | relativ överordning | Armaturinställning som låter underordnade objekt använda relativ transformering. |
+| scale easing | skalutjämning | B-Bone-inställning som skalar de slutliga utjämningsvärdena med Y-faktorerna för Skala in/ut. |
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
 | Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
 | target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
