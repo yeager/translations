@@ -23,3 +23,14 @@ Den aktuella grenen kontrollerades mot de konkreta botanmärkningarna:
 Kvarvarande läge är därför extern CI och underhållargranskning, inte en
 ytterligare lokalt identifierad korrigering. Full byggning är fortfarande inte
 möjlig i den här miljön på grund av saknade Xemu-beroenden.
+
+## Uppdatering 5 november 2026
+
+PR-grenen rebasades konfliktfritt på aktuell uppströms-`master` och pushades
+med `--force-with-lease` som commit `51bc740c16`. Katalogen passerar
+`msgfmt --check --statistics` (157 översatta meddelanden), `l10n-lint` utan
+fel eller varningar, `svlang consistency`, `svlang svengelska`,
+blankteckenskontroll och Gitleaks. GitHub visar den nya grenen men rapporterar
+fortfarande `UNSTABLE`; inga check-runs har startat. En full Meson-byggning kan
+inte köras lokalt eftersom `meson` inte finns installerat i miljön. Nästa
+konkreta steg är därför CI- eller maintainerkörning mot den rebasade grenen.
