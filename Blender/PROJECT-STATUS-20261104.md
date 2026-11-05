@@ -705,6 +705,16 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 116 granskar matematik-, filutdata- och kompositörsnoder i tre separata
+radintervall. Tre oberoende delgranskningar har jämförts mot RNA-kontext och
+terminologilistan. Den lokalt validerade deltafilen innehåller 54 säkra
+UI-strängar, bland annat *potens*, *arkussinus*, *filutdata*, *filplatser*,
+*UV-mappning*, *renderingslager* och *rak alfa*. `msgfmt` och l10n-lint
+passerar. Hunspell-träffarna är kontrollerade Blender-, matematik- och
+bildbehandlingstermer; svlangs enda V2-varning är en falsk positiv för en
+kort egenskapsetikett. Batchen är lokalt validerad och arkiveras för import
+till Blender Translate; något importresultat finns ännu inte.
+
 Batch 115 granskar kompositörens mask-, nycklings-, filter- och
 linsförvrängningsnoder i tre separata radintervall. Tre oberoende
 delgranskningar har jämförts mot RNA-kontext och terminologilistan. Den lokalt

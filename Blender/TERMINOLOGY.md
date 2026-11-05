@@ -409,6 +409,12 @@ Senast uppdaterad: 2026-11-05.
 | straight alpha output | utdata med rak alfa | Utdatabuffert utan förmultiplicerad alfa. |
 | lens distortion: barrel/pincushion | tunnformig/kuddformig förvrängning | Svenska optiska former för radiell linsförvrängning. |
 | box sharpen | rutskärpning | Namn på kompositörens skärpningsfilter. |
+| file output | filutdata | Nods utdata som skrivs till filer; inte fysisk utmatning. |
+| output slot | filplats | Konfigurerbar plats för en fil- eller EXR-lagerutdata. |
+| straight/premultiplied alpha | rak/förmultiplicerad alfa | Alfalägen i bildbehandlingsnoder. |
+| render layer | renderingslager | Lager från en scenrendering. |
+| map UV | UV-mappning | Kompositörsnod som använder UV-koordinater för texturmappning. |
+| power/logarithm/fraction | potens/logaritm/bråkdel | Matematiknodernas svenska operationstermer. |
 | Keying (compositor) | nyckling | Kompositörens friläggnings-/keyingfunktion, inte nyckelbildrutor. |
 | mesh edge/loop | meshkant/meshslinga | Meshens topologiska kant respektive slinga. |
 | vertex (mesh API) | hörnpunkt | RNA-datatypen *MeshVertex* och dess egenskaper; använd sammansättningar som *hörnpunktsvikt*. |
