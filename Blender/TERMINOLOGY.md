@@ -66,6 +66,10 @@ Senast uppdaterad: 2026-11-05.
 | timeout | tidsgräns | Exempel: *Animation Timeout* → *Animationstidsgräns*. |
 | Link | Länk | Importmetodens UI-etikett. Använd verbet *länka* i löpande instruktioner, exempelvis *Länka resursen*. |
 | Append | Lägg till | UI-operator och importmetod. I beskrivande text blir det participiala *tillagd*, exempelvis *tillagd kopia*. |
+| blendfile | blendfil | Blenders egen filtyp i löpande svensk text. Skriv *.blend-fil* när filändelsen uttryckligen avses. |
+| Blendfile Import Context | blendfilimportkontext | RNA-kontext för import, länkning och tillägg av data från blendfilsbibliotek. |
+| source library | källbibliotek | Det bibliotek eller den blendfil som ett importerat datablock kommer från. |
+| Append Action | tilläggsåtgärd | API-egenskap som anger hur ett ID hanterades när data lades till. |
 | linked | länkad | Exempel: *linked object* → *länkat objekt*. |
 | packed | packad | Exempel: *packed data-block* → *packat datablock*. |
 | parent | förälder / överordnad | Kontextstyrt i Blender-hierarkin. Den fristående UI-egenskapen kan vara *Förälder*, medan objekt- och samlingshierarkier använder *överordnat objekt* eller *överordnad*. Normalisera inte mekaniskt. |

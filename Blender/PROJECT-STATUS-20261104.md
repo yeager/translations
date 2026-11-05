@@ -1102,3 +1102,14 @@ Batch 134 granskar Cycles-bakning, bursextrudering, normalrymder, bilddata och
 renderingspass. Deltafilen innehåller 17 granskade UI-strängar. `msgfmt`,
 l10n-lint och diffkontroll passerar. Batchen är arkiverad för import till
 Blender Translate; något importresultat finns ännu inte.
+
+Batch 137 granskar hela API-avsnittet för blendfilimport: importkontext,
+blendfilbibliotek, länkning, tillägg, datablock och
+biblioteksåsidosättningar. Tre oberoende granskningar har jämförts mot
+Blenders RNA-kontext och den projektspecifika termlistan. Deltafilen innehåller
+34 granskade UI-strängar, bland annat *blendfilimportkontext*,
+*tilläggsåtgärd*, *källbibliotek* och *biblioteksåsidosättning*. En felaktigt
+inklistring av en orelaterad Tux Paint-text i strängen *Source Libraries* har
+ersatts med rätt svensk UI-term. `msgfmt` och diffkontroll passerar; återstående
+språkverktyg körs före arkivering. Batchen är lokalt granskad och väntar på
+import i Blender Translate; något importresultat finns ännu inte.

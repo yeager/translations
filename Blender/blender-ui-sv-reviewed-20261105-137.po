@@ -1,0 +1,209 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.BlendImportContext
+msgid "Blendfile Import Context"
+msgstr "Blendfilimportkontext"
+
+#. :src: bpy.types.BlendImportContext
+msgid ""
+"Contextual data for a blendfile library/linked-data related operation. "
+"Currently only exposed as read-only data for the pre/post blendimport "
+"handlers"
+msgstr ""
+"Kontextdata för en åtgärd som rör ett blendfilbibliotek eller länkade data. "
+"Exponeras för närvarande endast som skrivskyddade data för hanterare före "
+"och efter blendfilimport"
+
+#. :src: bpy.types.BlendImportContext.options
+msgid "Options for this blendfile import operation"
+msgstr "Alternativ för den här blendfilimportåtgärden"
+
+#. :src: bpy.types.BlendImportContext.options:'LINK'
+msgid "Only link data, instead of appending it"
+msgstr "Länka endast data i stället för att lägga till dem"
+
+#. :src: bpy.types.BlendImportContext.options:'APPEND_SET_FAKEUSER'
+msgid "Set fake user on appended IDs"
+msgstr "Ange falsk användare för tillagda ID:n"
+
+#. :src: bpy.types.BlendImportContext.options:'APPEND_RECURSIVE'
+msgid ""
+"Append (make local) also indirect dependencies of appended IDs coming from "
+"other libraries. NOTE: All IDs (including indirectly linked ones) coming "
+"from the same initial library are always made local"
+msgstr ""
+"Lägg även till indirekta beroenden till tillagda ID:n från andra bibliotek "
+"och gör dem lokala. OBS: Alla ID:n från samma ursprungliga bibliotek, även "
+"indirekt länkade, görs alltid lokala"
+
+#. :src: bpy.types.BlendImportContext.options:'APPEND_LOCAL_ID_REUSE'
+msgid ""
+"Try to re-use previously appended matching IDs when appending them again, "
+"instead of creating local duplicates"
+msgstr ""
+"Försök att återanvända tidigare tillagda matchande ID:n när de läggs till "
+"igen i stället för att skapa lokala dubbletter"
+
+#. :src: bpy.types.BlendImportContext.options:'APPEND_ASSET_DATA_CLEAR'
+msgid "Clear the asset data on append (it is always kept for linked data)"
+msgstr ""
+"Rensa tillgångsdata när data läggs till (den behålls alltid för länkade data)"
+
+#. :src: bpy.types.BlendImportContext.process_stage:'INIT'
+msgid ""
+"Blendfile import context has been initialized and filled with a list of "
+"items to import, no data has been linked or appended yet"
+msgstr ""
+"Blendfilimportkontexten har initierats och fyllts med en lista över objekt "
+"att importera. Inga data har länkats eller lagts till ännu"
+
+#. :src: bpy.types.BlendImportContextItem
+msgid "Blendfile Import Context Item"
+msgstr "Objekt i blendfilimportkontext"
+
+#. :src: bpy.types.BlendImportContextItem
+msgid ""
+"An item (representing a data-block) in a BlendImportContext data. Currently "
+"only exposed as read-only data for the pre/post linking handlers"
+msgstr ""
+"Ett objekt som representerar ett datablock i BlendImportContext-data. "
+"Exponeras för närvarande endast som skrivskyddade data för hanterare före "
+"och efter länkning"
+
+#. :src: bpy.types.BlendImportContextItem.append_action
+msgid "Append Action"
+msgstr "Tilläggsåtgärd"
+
+#. :src: bpy.types.BlendImportContextItem.append_action
+msgid ""
+"How this item has been handled by the append operation. Only set if the data "
+"has been appended"
+msgstr ""
+"Hur objektet har hanterats av tilläggsåtgärden. Anges endast om data har "
+"lagts till"
+
+#. :src: bpy.types.BlendImportContextItem.append_action:'KEEP_LINKED'
+msgid "ID has been kept linked"
+msgstr "ID:t har behållits länkat"
+
+#. :src: bpy.types.BlendImportContextItem.id
+msgid "Imported ID"
+msgstr "Importerat ID"
+
+#. :src: bpy.types.BlendImportContextItem.id
+msgid ""
+"The imported ID. None until it has been linked or appended. May be the same "
+"as ``reusable_local_id`` when appended"
+msgstr ""
+"Det importerade ID:t. Inget förrän det har länkats eller lagts till. Kan "
+"vara samma som ``reusable_local_id`` när det har lagts till"
+
+#. :src: bpy.types.BlendImportContextItem.id_type
+msgid "ID type of the item"
+msgstr "Objektets ID-typ"
+
+#. :src: bpy.types.BlendImportContextItem.import_info
+msgid "Import Info"
+msgstr "Importinformation"
+
+#. :src: bpy.types.BlendImportContextItem.import_info
+msgid "Various status info about an item after it has been imported"
+msgstr "Olika statusuppgifter om ett objekt efter importen"
+
+#. :src: bpy.types.BlendImportContextItem.import_info:'INDIRECT_USAGE'
+msgid ""
+"That item was added for an indirectly imported ID, as a dependency of "
+"another data-block"
+msgstr ""
+"Objektet lades till för ett indirekt importerat ID som ett beroende till ett "
+"annat datablock"
+
+#. :src: bpy.types.BlendImportContextItem.library_override_id
+msgid "Library Overridden ID"
+msgstr "ID med biblioteksåsidosättning"
+
+#. :src: bpy.types.BlendImportContextItem.library_override_id
+msgid "The library override of the linked ID. None until it has been created"
+msgstr ""
+"Biblioteksåsidosättningen för det länkade ID:t. Ingen förrän den har skapats"
+
+#. :src: bpy.types.BlendImportContextItem.name
+msgid "ID name of the item"
+msgstr "Objektets ID-namn"
+
+#. :src: bpy.types.BlendImportContextItem.reusable_local_id
+msgid ""
+"The already existing local ID that may be reused in append & reuse case. "
+"None until it has been found"
+msgstr ""
+"Det befintliga lokala ID:t som kan återanvändas vid tillägg och "
+"återanvändning. Inget förrän det har hittats"
+
+#. :src: bpy.types.BlendImportContextItem.source_libraries
+msgid "Source Libraries"
+msgstr "Källbibliotek"
+
+#. :src: bpy.types.BlendImportContextItem.source_library
+msgid "Source Library"
+msgstr "Källbibliotek"
+
+#. :src: bpy.types.BlendImportContextItem.source_library
+msgid ""
+"Library ID representing the blendfile from which the ID was imported. None "
+"until the ID has been linked or appended"
+msgstr ""
+"Biblioteks-ID som representerar blendfilen som ID:t importerades från. Ingen "
+"förrän ID:t har länkats eller lagts till"
+
+#. :src: bpy.types.BlendImportContextItems
+msgid "Blendfile Import Context Items"
+msgstr "Objekt i blendfilimportkontext"
+
+#. :src: bpy.types.BlendImportContextItems
+msgid "Collection of blendfile import context items"
+msgstr "Samling av objekt i blendfilimportkontext"
+
+#. :src: bpy.types.BlendImportContextLibraries
+msgid "Blendfile Import Context Libraries"
+msgstr "Bibliotek i blendfilimportkontext"
+
+#. :src: bpy.types.BlendImportContextLibraries
+msgid "Collection of source libraries, i.e. blendfile paths"
+msgstr "Samling av källbibliotek, dvs. blendfilsökvägar"
+
+#. :src: bpy.types.BlendImportContextLibrary
+msgid "Blendfile Import Context Library"
+msgstr "Bibliotek i blendfilimportkontext"
+
+#. :src: bpy.types.BlendImportContextLibrary
+msgid ""
+"Library (blendfile) reference in a BlendImportContext data. Currently only "
+"exposed as read-only data for the pre/post blendimport handlers"
+msgstr ""
+"Referens till ett bibliotek (blendfil) i BlendImportContext-data. Exponeras "
+"för närvarande endast som skrivskyddade data för hanterare före och efter "
+"blendfilimport"
