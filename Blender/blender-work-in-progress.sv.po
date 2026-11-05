@@ -59176,12 +59176,12 @@ msgstr "Avstånd från objektet"
 #. :src: bpy.types.LineStyleThicknessModifier_Tangent.use
 #, fuzzy
 msgid "Enable or disable this modifier during stroke rendering"
-msgstr "Aktivera eller inaktivera denna modifierare under stroke-rendering"
+msgstr "Aktivera eller inaktivera denna modifierare under streckrendering"
 
 #. :src: bpy.types.LineStyleAlphaModifier_CreaseAngle
 #, fuzzy
 msgid "Alpha transparency based on the angle between two adjacent faces"
-msgstr "Alphatransparens baserad på vinkeln mellan två angränsande ytor"
+msgstr "Alfagenomskinlighet baserad på vinkeln mellan två angränsande ytor"
 
 #. :src: bpy.types.LineStyleAlphaModifier_CreaseAngle.angle_max
 #. :src: bpy.types.LineStyleColorModifier_CreaseAngle.angle_max
@@ -59216,7 +59216,7 @@ msgstr "Minimal vinkel för att ändra tjocklek"
 #. :src: bpy.types.LineStyleAlphaModifier_Curvature_3D
 #, fuzzy
 msgid "Alpha transparency based on the radial curvature of 3D mesh surfaces"
-msgstr "Alphatransparens baserad på den radiella krökningen av 3D-nätytor"
+msgstr "Alfagenomskinlighet baserad på den radiella krökningen hos 3D-meshytor"
 
 #. :src: bpy.types.LineStyleAlphaModifier_Curvature_3D.curvature_max
 #. :src: bpy.types.LineStyleColorModifier_Curvature_3D.curvature_max
@@ -59259,7 +59259,7 @@ msgstr "Ändra alfatransparens baserat på avståndet från kameran"
 #. :src: bpy.types.LineStyleThicknessModifier_DistanceFromObject.range_max
 #, fuzzy
 msgid "Range Max"
-msgstr "Område Max"
+msgstr "Övre intervallgräns"
 
 #. :src: bpy.types.LineStyleAlphaModifier_DistanceFromCamera.range_max
 #. :src: bpy.types.LineStyleAlphaModifier_DistanceFromObject.range_max
@@ -59283,7 +59283,7 @@ msgstr "Övre gräns för det inmatningsområde som mappningen tillämpas på"
 #: scripts/startup/bl_ui/properties_freestyle.py:521
 #, fuzzy
 msgid "Range Min"
-msgstr "Område Min"
+msgstr "Nedre intervallgräns"
 
 #. :src: bpy.types.LineStyleAlphaModifier_DistanceFromCamera.range_min
 #. :src: bpy.types.LineStyleAlphaModifier_DistanceFromObject.range_min
@@ -59409,7 +59409,7 @@ msgstr "Speculär hårdhet"
 #. :src: bpy.types.LineStyleAlphaModifier_Noise
 #, fuzzy
 msgid "Alpha transparency based on random noise"
-msgstr "Alpha-transparens baserad på slumpmässigt brus"
+msgstr "Alfagenomskinlighet baserad på slumpmässigt brus"
 
 #. :src: bpy.types.LineStyleAlphaModifier_Noise.amplitude
 #. :src: bpy.types.LineStyleColorModifier_Noise.amplitude
@@ -59423,14 +59423,14 @@ msgstr "Amplituden på bruset"
 #. :src: bpy.types.LineStyleThicknessModifier_Noise.period
 #, fuzzy
 msgid "Period of the noise"
-msgstr "Period för bullret"
+msgstr "Brusets period"
 
 #. :src: bpy.types.LineStyleAlphaModifier_Noise.seed
 #. :src: bpy.types.LineStyleColorModifier_Noise.seed
 #. :src: bpy.types.LineStyleThicknessModifier_Noise.seed
 #, fuzzy
 msgid "Seed for the noise generation"
-msgstr "Frö för bullergenerationen"
+msgstr "Frö för brusgenereringen"
 
 #. :src: bpy.types.LineStyleAlphaModifier_Tangent
 #, fuzzy
@@ -59440,7 +59440,7 @@ msgstr "Alphatransparens baserad på streckets riktning"
 #. :src: bpy.types.LineStyleColorModifier
 #, fuzzy
 msgid "Line Style Color Modifier"
-msgstr "Linjestil Färgmodifierare"
+msgstr "Färgmodifierare för linjestil"
 
 #. :src: bpy.types.LineStyleColorModifier
 #, fuzzy
@@ -59450,7 +59450,7 @@ msgstr "Bastyp för att definiera modifierare av linjefärg"
 #. :src: bpy.types.LineStyleColorModifier_AlongStroke
 #, fuzzy
 msgid "Change line color along stroke"
-msgstr "Ändra linjefärg längs stroke"
+msgstr "Ändra linjefärgen längs strecket"
 
 #. :src: bpy.types.LineStyleColorModifier_AlongStroke.color_ramp
 #. :src: bpy.types.LineStyleColorModifier_CreaseAngle.color_ramp
@@ -59512,7 +59512,7 @@ msgstr "Geometrimodifierare för linjestil"
 #. :src: bpy.types.LineStyleGeometryModifier
 #, fuzzy
 msgid "Base type to define stroke geometry modifiers"
-msgstr "Bastyp för att definiera modifierare av slaggeometri"
+msgstr "Bastyp för att definiera modifierare av streckgeometri"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DOffset
 #. :src: bpy.types.LineStyleGeometryModifier_2DOffset.type:'2D_OFFSET'
@@ -59537,17 +59537,17 @@ msgstr "2D-förskjutning"
 #. :src: bpy.types.LineStyleGeometryModifier_2DOffset
 #, fuzzy
 msgid "Add two-dimensional offsets to stroke backbone geometry"
-msgstr "Lägga till tvådimensionella förskjutningar till stroke backbone geometri"
+msgstr "Lägg till tvådimensionella förskjutningar i streckets ryggradsgeometri"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DOffset.end
 #, fuzzy
 msgid "Displacement that is applied from the end of the stroke"
-msgstr "Förskjutning som appliceras från slutet av slaget"
+msgstr "Förskjutning som tillämpas från streckets slut"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DOffset.start
 #, fuzzy
 msgid "Displacement that is applied from the beginning of the stroke"
-msgstr "Förskjutning som tillämpas från början av slaget"
+msgstr "Förskjutning som tillämpas från streckets början"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DOffset.type:'2D_TRANSFORM'
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform
@@ -59667,7 +59667,7 @@ msgstr "Vägledande linjer"
 #. :src: bpy.types.SCENE_OT_freestyle_geometry_modifier_add.type:'PERLIN_NOISE_1D'
 #, fuzzy
 msgid "Perlin Noise 1D"
-msgstr "Perlin Buller 1D"
+msgstr "Perlin-brus 1D"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DOffset.type:'PERLIN_NOISE_2D'
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform.type:'PERLIN_NOISE_2D'
@@ -59687,7 +59687,7 @@ msgstr "Perlin Buller 1D"
 #. :src: bpy.types.SCENE_OT_freestyle_geometry_modifier_add.type:'PERLIN_NOISE_2D'
 #, fuzzy
 msgid "Perlin Noise 2D"
-msgstr "Perlin Buller 2D"
+msgstr "Perlin-brus 2D"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DOffset.type:'POLYGONIZATION'
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform.type:'POLYGONIZATION'
@@ -59736,7 +59736,7 @@ msgstr "Polygonisering"
 #: scripts/startup/bl_ui/properties_physics_fluid.py:505
 #, fuzzy
 msgid "Sampling"
-msgstr "Sampling i område"
+msgstr "Sampling"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DOffset.type:'SIMPLIFICATION'
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform.type:'SIMPLIFICATION'
@@ -59797,7 +59797,7 @@ msgstr "Sinusförskjutning"
 #. :src: bpy.types.SCENE_OT_freestyle_geometry_modifier_add.type:'SPATIAL_NOISE'
 #, fuzzy
 msgid "Spatial Noise"
-msgstr "Spatialt brus"
+msgstr "Rumsligt brus"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DOffset.type:'TIP_REMOVER'
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform.type:'TIP_REMOVER'
@@ -59827,12 +59827,12 @@ msgstr "Förskjutning som tillämpas på X-koordinaterna för stroke-vertices"
 #. :src: bpy.types.LineStyleGeometryModifier_2DOffset.y
 #, fuzzy
 msgid "Displacement that is applied to the Y coordinates of stroke vertices"
-msgstr "Förskjutning som tillämpas på Y-koordinaterna för stroke-vertices"
+msgstr "Förskjutning som tillämpas på Y-koordinaterna för streckets hörnpunkter"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform
 #, fuzzy
 msgid "Apply two-dimensional scaling and rotation to stroke backbone geometry"
-msgstr "Tillämpa tvådimensionell skalning och rotation på ryggradsgeometrin för stroke"
+msgstr "Tillämpa tvådimensionell skalning och rotation på streckets ryggradsgeometri"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform.angle
 #. :src: bpy.types.PreferencesView.rotation_angle
@@ -59847,28 +59847,28 @@ msgstr "Rotationsvinkel"
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform.pivot
 #, fuzzy
 msgid "Pivot of scaling and rotation operations"
-msgstr "Pivot av skalnings- och rotationsoperationer"
+msgstr "Vridpunkt för skalnings- och rotationsåtgärder"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform.pivot:'CENTER'
 #, fuzzy
 msgid "Stroke Center"
-msgstr "Stroke-center"
+msgstr "Streckets mittpunkt"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform.pivot:'START'
 #, fuzzy
 msgid "Stroke Start"
-msgstr "Stroke Start"
+msgstr "Streckets början"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform.pivot:'END'
 #, fuzzy
 msgid "Stroke End"
-msgstr "Slaglängd Slut"
+msgstr "Streckets slut"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform.pivot:'PARAM'
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform.pivot_u
 #, fuzzy
 msgid "Stroke Point Parameter"
-msgstr "Stroke Punkt Parameter"
+msgstr "Streckpunktsparameter"
 
 #. :src: bpy.types.LineStyleGeometryModifier_2DTransform.pivot:'ABSOLUTE'
 #, fuzzy
@@ -59914,14 +59914,14 @@ msgstr "Skalningsfaktor som tillämpas längs Y-axeln"
 #. :src: bpy.types.LineStyleGeometryModifier_BackboneStretcher
 #, fuzzy
 msgid "Stretch the beginning and the end of stroke backbone"
-msgstr "Sträck början och slutet av stroke ryggrad"
+msgstr "Sträck början och slutet av streckets ryggrad"
 
 #. :src: bpy.types.LineStyleGeometryModifier_BackboneStretcher.backbone_length
 #. :src: bpy.types.LineStyleGeometryModifier_Blueprint.backbone_length
 #: scripts/startup/bl_ui/properties_freestyle.py:1162
 #, fuzzy
 msgid "Backbone Length"
-msgstr "Backbone Längd"
+msgstr "Ryggradslängd"
 
 #. :src: bpy.types.LineStyleGeometryModifier_BackboneStretcher.backbone_length
 #. :src: bpy.types.LineStyleGeometryModifier_Blueprint.backbone_length
@@ -60038,7 +60038,7 @@ msgstr "Förskjutning som appliceras på huvudriktningslinjen längs dess normal
 #. :src: bpy.types.LineStyleGeometryModifier_PerlinNoise1D
 #, fuzzy
 msgid "Add one-dimensional Perlin noise to stroke backbone geometry"
-msgstr "Lägg till endimensionellt Perlin-brus i geometrin för stroke backbone"
+msgstr "Lägg till endimensionellt Perlin-brus i streckets ryggradsgeometri"
 
 #. :src: bpy.types.LineStyleGeometryModifier_PerlinNoise1D.amplitude
 #. :src: bpy.types.LineStyleGeometryModifier_PerlinNoise2D.amplitude
@@ -60056,7 +60056,7 @@ msgstr "Förskjutningsriktning"
 #. :src: bpy.types.LineStyleGeometryModifier_PerlinNoise2D.frequency
 #, fuzzy
 msgid "Frequency of the Perlin noise"
-msgstr "Frekvens av Perlin-bullret"
+msgstr "Frekvens för Perlin-bruset"
 
 #. :src: bpy.types.LineStyleGeometryModifier_PerlinNoise1D.octaves
 #. :src: bpy.types.LineStyleGeometryModifier_PerlinNoise2D.octaves
@@ -60068,12 +60068,12 @@ msgstr "Antal oktaver (d.v.s. detaljrikedomen i Perlin-bruset)"
 #. :src: bpy.types.LineStyleGeometryModifier_PerlinNoise2D.seed
 #, fuzzy
 msgid "Seed for random number generation (if negative, time is used as a seed instead)"
-msgstr "Seed för slumptalsgenerering (om negativ, används tiden som seed istället)"
+msgstr "Frö för slumptalsgenerering (om negativt används tiden som frö i stället)"
 
 #. :src: bpy.types.LineStyleGeometryModifier_PerlinNoise2D
 #, fuzzy
 msgid "Add two-dimensional Perlin noise to stroke backbone geometry"
-msgstr "Lägg till tvådimensionellt Perlin-brus i geometrin för slagets ryggradsben"
+msgstr "Lägg till tvådimensionellt Perlin-brus i streckets ryggradsgeometri"
 
 #. :src: bpy.types.LineStyleGeometryModifier_Polygonalization
 #, fuzzy
@@ -60093,17 +60093,17 @@ msgstr "Maximalt avstånd mellan originalstrecket och dess polygonala approximat
 #. :src: bpy.types.LineStyleGeometryModifier_Sampling
 #, fuzzy
 msgid "Specify a new sampling value that determines the resolution of stroke polylines"
-msgstr "Ange ett nytt samplingsvärde som bestämmer upplösningen för strokepolylinjer"
+msgstr "Ange ett nytt samplingsvärde som bestämmer upplösningen för streckets polylinjer"
 
 #. :src: bpy.types.LineStyleGeometryModifier_Sampling.sampling
 #, fuzzy
 msgid "New sampling value to be used for subsequent modifiers"
-msgstr "Nytt provtagningsvärde som ska användas för efterföljande modifieringar"
+msgstr "Nytt samplingsvärde som ska användas för efterföljande modifierare"
 
 #. :src: bpy.types.LineStyleGeometryModifier_Simplification
 #, fuzzy
 msgid "Simplify the stroke set"
-msgstr "Förenkla strokeuppsättningen"
+msgstr "Förenkla streckuppsättningen"
 
 #. :src: bpy.types.LineStyleGeometryModifier_Simplification.tolerance
 #, fuzzy
@@ -60113,7 +60113,7 @@ msgstr "Avstånd under vilket segmenten kommer att slås samman"
 #. :src: bpy.types.LineStyleGeometryModifier_SinusDisplacement
 #, fuzzy
 msgid "Add sinus displacement to stroke backbone geometry"
-msgstr "Lägg till sinusförskjutning i geometrin för stroke-stambenet"
+msgstr "Lägg till sinusförskjutning i streckets ryggradsgeometri"
 
 #. :src: bpy.types.LineStyleGeometryModifier_SinusDisplacement.amplitude
 #, fuzzy
@@ -60140,7 +60140,7 @@ msgstr "Våglängd för sinusförskjutningen"
 #. :src: bpy.types.LineStyleGeometryModifier_SpatialNoise
 #, fuzzy
 msgid "Add spatial noise to stroke backbone geometry"
-msgstr "Lägg till rumsligt brus i geometrin för stroke backbone"
+msgstr "Lägg till rumsligt brus i streckets ryggradsgeometri"
 
 #. :src: bpy.types.LineStyleGeometryModifier_SpatialNoise.amplitude
 #, fuzzy
@@ -60196,7 +60196,7 @@ msgstr "Längd på de spetsar som ska tas bort"
 #. :src: bpy.types.LineStyleThicknessModifier
 #, fuzzy
 msgid "Line Style Thickness Modifier"
-msgstr "Modifiering av tjocklek för linjestil"
+msgstr "Tjockleksmodifierare för linjestil"
 
 #. :src: bpy.types.LineStyleThicknessModifier
 #, fuzzy
@@ -60206,7 +60206,7 @@ msgstr "Bastyp för att definiera linjetjockleksmodifierare"
 #. :src: bpy.types.LineStyleThicknessModifier_AlongStroke
 #, fuzzy
 msgid "Change line thickness along stroke"
-msgstr "Ändra linjetjocklek längs stroke"
+msgstr "Ändra linjetjockleken längs strecket"
 
 #. :src: bpy.types.LineStyleThicknessModifier_AlongStroke.type:'CALLIGRAPHY'
 #. :src: bpy.types.LineStyleThicknessModifier_Calligraphy

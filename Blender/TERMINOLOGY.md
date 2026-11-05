@@ -372,6 +372,9 @@ Senast uppdaterad: 2026-11-05.
 | Keying Set | nyckeluppsättning | Samling av egenskapsvägar som får nyckelbildrutor tillsammans. |
 | Keying Set Path | sökväg för nyckeluppsättning | RNA-sökväg som hör till en nyckeluppsättning. |
 | line style modifier | linjestilsmodifierare | Freestyle-modifierare för streckens egenskaper. |
+| stroke (Freestyle) | streck | Freestyle-linjens synliga geometriska streck; inte *slag*. |
+| backbone (Freestyle stroke) | streckets ryggrad | Den centrala geometri som modifierarna påverkar. |
+| alpha transparency | alfagenomskinlighet | Freestyle-linjens transparens; undvik blandformen *alpha*. |
 
 ## Kontrollerade UI-formuleringar
 

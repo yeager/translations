@@ -705,6 +705,15 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 96 granskar Freestyle-linjestilens alfa-, färg-, geometri- och
+tjockleksmodifierare i tre separata radintervall. Tre oberoende
+delgranskningar har jämförts mot Freestyle-RNA-kontext och den svenska
+terminologilistan. Den lokalt validerade deltafilen innehåller 38 säkra
+UI-strängar, bland annat *alfagenomskinlighet*, *streckets ryggrad*,
+*Perlin-brus*, *rumsligt brus* och *tjockleksmodifierare för linjestil*.
+`msgfmt` och l10n-lint passerar. Batchen är lokalt validerad och arkiveras för
+import till Blender Translate; något importresultat finns ännu inte.
+
 Batch 95 granskar nyckeluppsättningar, lagersamlingar och Freestyle-
 linjestilsmodifierare i tre separata radintervall. Tre oberoende
 delgranskningar har jämförts mot RNA- och F-kurvkontext. Den lokalt validerade
