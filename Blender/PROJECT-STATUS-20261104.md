@@ -1133,3 +1133,13 @@ Batch 141 granskar 27 B-Bone- och armatursträngar: handtagsförskjutningar,
 utjämning, kurvrullning och hörnpunktsmappning. `msgfmt`, l10n-lint och
 diffkontroll passerar. Deltafilen är arkiverad för import i Blender Translate;
 något importresultat finns ännu inte.
+
+Batch 142 granskar 38 ytterligare ben- och armatursträngar: ärvd skalning,
+skjuvning, riggskelettrelativa matriser och positioner, trådram, kuvertdeformering,
+benhierarki samt B-Bone-rullning. Tre oberoende granskningar har jämförts mot
+Blenders egen termlista. Alla kontrollerade strängar är markerade som
+översatta i den lokala arbetskatalogen; uppladdningsfilen har inga
+`fuzzy`-markeringar. `msgfmt`, l10n-lint och diffkontroll passerar. `svlang`
+och Hunspell rapporterar endast avsiktliga facktermer som *riggskelett*,
+*hörnpunktsgrupp* och *skalutjämning*. Batchen är arkiverad för import i
+Blender Translate; något importresultat finns ännu inte.

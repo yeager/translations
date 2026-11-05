@@ -10665,26 +10665,22 @@ msgid "Location of head end of the bone relative to its parent"
 msgstr "Placering av benets huvudände i förhållande till dess förälder"
 
 #. :src: bpy.types.Bone.head_local
-#, fuzzy
 msgid "Armature-Relative Head"
-msgstr "Armatur-Relativt huvud"
+msgstr "Huvud relativt riggskelettet"
 
 #. :src: bpy.types.Bone.head_local
-#, fuzzy
 msgid "Location of head end of the bone relative to armature"
-msgstr "Placering av benets huvudände i förhållande till armaturen"
+msgstr "Placering av benets huvudände i förhållande till riggskelettet"
 
 #. :src: bpy.types.Bone.head_radius
 #. :src: bpy.types.EditBone.head_radius
-#, fuzzy
 msgid "Envelope Head Radius"
-msgstr "Envelope huvudradie"
+msgstr "Kuvertets huvudradie"
 
 #. :src: bpy.types.Bone.head_radius
 #. :src: bpy.types.EditBone.head_radius
-#, fuzzy
 msgid "Radius of head of bone (for Envelope deform only)"
-msgstr "Radie för benets huvud (endast för Envelope-deform)"
+msgstr "Radie för benets huvud (endast för kuvertdeformering)"
 
 #. :src: bpy.types.Bone.hide
 #, fuzzy
@@ -10721,51 +10717,43 @@ msgstr "Anger hur benet ärver skalning från det överordnade benet"
 
 #. :src: bpy.types.Bone.inherit_scale:'FULL'
 #. :src: bpy.types.EditBone.inherit_scale:'FULL'
-#, fuzzy
 msgid "Inherit all effects of parent scaling"
-msgstr "Ärver alla effekter av förälderns skalning"
+msgstr "Ärv alla effekter av den överordnades skalning"
 
 #. :src: bpy.types.Bone.inherit_scale:'FIX_SHEAR'
 #. :src: bpy.types.EditBone.inherit_scale:'FIX_SHEAR'
-#, fuzzy
 msgid "Fix Shear"
-msgstr "Fixera saxen"
+msgstr "Korrigera skjuvning"
 
 #. :src: bpy.types.Bone.inherit_scale:'FIX_SHEAR'
 #. :src: bpy.types.EditBone.inherit_scale:'FIX_SHEAR'
-#, fuzzy
 msgid "Inherit scaling, but remove shearing of the child in the rest orientation"
-msgstr "Ärv skalning, men ta bort klippning av barnet i resten orientering"
+msgstr "Ärv skalning, men ta bort skjuvningen av det underordnade benet i viloorienteringen"
 
 #. :src: bpy.types.Bone.inherit_scale:'ALIGNED'
 #. :src: bpy.types.EditBone.inherit_scale:'ALIGNED'
-#, fuzzy
 msgid "Rotate non-uniform parent scaling to align with the child, applying parent X scale to child X axis, and so forth"
-msgstr "Rotera icke-enhetlig föräldraskalning för att anpassa den till barnet, tillämpa förälderns X-skala på barnets X-axel osv"
+msgstr "Rotera den överordnades ojämna skalning så att den anpassas till det underordnade benet; tillämpa den överordnades X-skala på det underordnade benets X-axel och så vidare"
 
 #. :src: bpy.types.Bone.inherit_scale:'AVERAGE'
 #. :src: bpy.types.EditBone.inherit_scale:'AVERAGE'
-#, fuzzy
 msgid "Inherit uniform scaling representing the overall change in the volume of the parent"
-msgstr "Ärver enhetlig skalning som representerar den totala förändringen i förälderns volym"
+msgstr "Ärv en enhetlig skalning som motsvarar den överordnades totala volymförändring"
 
 #. :src: bpy.types.Bone.inherit_scale:'NONE'
 #. :src: bpy.types.EditBone.inherit_scale:'NONE'
-#, fuzzy
 msgid "Completely ignore parent scaling"
-msgstr "Ignorerar helt föräldrarnas skalning"
+msgstr "Ignorera den överordnades skalning helt"
 
 #. :src: bpy.types.Bone.inherit_scale:'NONE_LEGACY'
 #. :src: bpy.types.EditBone.inherit_scale:'NONE_LEGACY'
-#, fuzzy
 msgid "None (Legacy)"
-msgstr "Ingen (Legacy)"
+msgstr "Ingen (äldre)"
 
 #. :src: bpy.types.Bone.inherit_scale:'NONE_LEGACY'
 #. :src: bpy.types.EditBone.inherit_scale:'NONE_LEGACY'
-#, fuzzy
 msgid "Ignore parent scaling without compensating for parent shear. Replicates the effect of disabling the original Inherit Scale checkbox."
-msgstr "Ignorera skalning av förälder utan att kompensera för förälderns skjuvning. Replikerar effekten av att inaktivera den ursprungliga kryssrutan Inherit Scale."
+msgstr "Ignorera den överordnades skalning utan att kompensera för dess skjuvning. Återskapar effekten av att avmarkera den ursprungliga kryssrutan Ärva skalning."
 
 #. :src: bpy.types.Bone.length
 #. :src: bpy.types.EditBone.length
@@ -10841,14 +10829,12 @@ msgid "3×3 bone matrix"
 msgstr "3×3 benmatris"
 
 #. :src: bpy.types.Bone.matrix_local
-#, fuzzy
 msgid "Bone Armature-Relative Matrix"
-msgstr "Benarmatur-Relativ matris"
+msgstr "Benmatris relativ till riggskelettet"
 
 #. :src: bpy.types.Bone.matrix_local
-#, fuzzy
 msgid "4×4 bone matrix relative to armature"
-msgstr "4×4 benmatris i förhållande till armatur"
+msgstr "4×4-benmatris relativ till riggskelettet"
 
 #. :src: bpy.types.Bone.parent
 #. :src: bpy.types.BoneCollection.parent
@@ -10880,9 +10866,8 @@ msgid "Parent"
 msgstr "Förälder"
 
 #. :src: bpy.types.Bone.parent
-#, fuzzy
 msgid "Parent bone (in same Armature)"
-msgstr "Föräldraben (i samma armatur)"
+msgstr "Överordnat ben (i samma armatur)"
 
 #. :src: bpy.types.Bone.select_head
 #, fuzzy
@@ -10897,15 +10882,13 @@ msgstr "Välj svans"
 #. :src: bpy.types.Bone.show_wire
 #. :src: bpy.types.EditBone.show_wire
 #. :src: bpy.types.Object.show_wire
-#, fuzzy
 msgid "Display Wire"
-msgstr "Display Wire"
+msgstr "Visa trådram"
 
 #. :src: bpy.types.Bone.show_wire
 #. :src: bpy.types.EditBone.show_wire
-#, fuzzy
 msgid "Bone is always displayed in wireframe regardless of viewport shading mode (useful for non-obstructive custom bone shapes)"
-msgstr "Benet visas alltid i wireframe oavsett skuggningsläge för vyport (användbart för anpassade benformer som inte är hindrande)"
+msgstr "Benet visas alltid som trådram oavsett skuggningsläge i vyporten (användbart för anpassade benformer som inte skymmer)"
 
 #. :src: bpy.types.Bone.tail
 #. :src: bpy.types.EditBone.tail
@@ -10917,19 +10900,16 @@ msgid "Tail"
 msgstr "Svans"
 
 #. :src: bpy.types.Bone.tail
-#, fuzzy
 msgid "Location of tail end of the bone relative to its parent"
-msgstr "Placering av benets stjärtände i förhållande till dess förälder"
+msgstr "Placering av benets svansände i förhållande till det överordnade benet"
 
 #. :src: bpy.types.Bone.tail_local
-#, fuzzy
 msgid "Armature-Relative Tail"
-msgstr "Armatur-Relativ svans"
+msgstr "Svans relativt riggskelettet"
 
 #. :src: bpy.types.Bone.tail_local
-#, fuzzy
 msgid "Location of tail end of the bone relative to armature"
-msgstr "Placering av benets bakre ände i förhållande till armaturen"
+msgstr "Placering av benets svansände i förhållande till riggskelettet"
 
 #. :src: bpy.types.Bone.tail_radius
 #. :src: bpy.types.EditBone.tail_radius
@@ -10939,9 +10919,8 @@ msgstr "Kuvertets svansradie"
 
 #. :src: bpy.types.Bone.tail_radius
 #. :src: bpy.types.EditBone.tail_radius
-#, fuzzy
 msgid "Radius of tail of bone (for Envelope deform only)"
-msgstr "Radie för benets svans (endast för Envelope-deform)"
+msgstr "Radie för benets svans (endast för kuvertdeformering)"
 
 #. :src: bpy.types.Bone.use_connect
 #. :src: bpy.types.EditBone.use_connect
@@ -10971,9 +10950,8 @@ msgstr "Ansluten"
 
 #. :src: bpy.types.Bone.use_connect
 #. :src: bpy.types.EditBone.use_connect
-#, fuzzy
 msgid "When bone has a parent, bone's head is stuck to the parent's tail"
-msgstr "När benet har en förälder sitter benets huvud fast i förälderns svans"
+msgstr "När benet har ett överordnat ben sitter dess huvud fast vid det överordnade benets svans"
 
 #. :src: bpy.types.Bone.use_cyclic_offset
 #. :src: bpy.types.EditBone.use_cyclic_offset
@@ -10983,9 +10961,8 @@ msgstr "Cyklisk förskjutning"
 
 #. :src: bpy.types.Bone.use_cyclic_offset
 #. :src: bpy.types.EditBone.use_cyclic_offset
-#, fuzzy
 msgid "When bone doesn't have a parent, it receives cyclic offset effects (Deprecated)"
-msgstr "När benet inte har någon förälder får det cykliska offset-effekter (Utgår)"
+msgstr "När benet inte har något överordnat ben får det effekter av cyklisk förskjutning (föråldrat)"
 
 #. :src: bpy.types.Bone.use_deform
 #. :src: bpy.types.EditBone.use_deform
@@ -11004,32 +10981,28 @@ msgstr "Deformera"
 
 #. :src: bpy.types.Bone.use_deform
 #. :src: bpy.types.EditBone.use_deform
-#, fuzzy
 msgid "Enable Bone to deform geometry"
-msgstr "Gör det möjligt för Bone att deformera geometrin"
+msgstr "Låt benet deformera geometrin"
 
 #. :src: bpy.types.Bone.use_endroll_as_inroll
 #. :src: bpy.types.EditBone.use_endroll_as_inroll
-#, fuzzy
 msgid "Inherit End Roll"
-msgstr "Inherit End Roll"
+msgstr "Ärv utrullning"
 
 #. :src: bpy.types.Bone.use_endroll_as_inroll
 #. :src: bpy.types.EditBone.use_endroll_as_inroll
-#, fuzzy
 msgid "Add Roll Out of the Start Handle bone to the Roll In value"
-msgstr "Lägg till Roll Out från Start Handle-benet till Roll In-värdet"
+msgstr "Lägg till starthandtagsbenets utrullning till inrullningsvärdet"
 
 #. :src: bpy.types.Bone.use_envelope_multiply
 #. :src: bpy.types.EditBone.use_envelope_multiply
 msgid "Multiply Vertex Group with Envelope"
-msgstr "Multiplicera vertexgrupp med omslutning"
+msgstr "Multiplicera hörnpunktsgrupp med kuvert"
 
 #. :src: bpy.types.Bone.use_envelope_multiply
 #. :src: bpy.types.EditBone.use_envelope_multiply
-#, fuzzy
 msgid "When deforming bone, multiply effects of Vertex Group weights with Envelope influence"
-msgstr "Vid deformering av ben, multiplicera effekterna av Vertex Group-vikter med Envelope-påverkan"
+msgstr "Vid bendeformering multipliceras hörnpunktsgruppens vikter med kuvertets inflytande"
 
 #. :src: bpy.types.Bone.use_inherit_rotation
 #. :src: bpy.types.EditBone.use_inherit_rotation
@@ -11038,9 +11011,8 @@ msgstr "Ärv rotation"
 
 #. :src: bpy.types.Bone.use_inherit_rotation
 #. :src: bpy.types.EditBone.use_inherit_rotation
-#, fuzzy
 msgid "Bone inherits rotation or scale from parent bone"
-msgstr "Benet ärver rotation eller skala från föräldrabenet"
+msgstr "Benet ärver rotation eller skalning från det överordnade benet"
 
 #. :src: bpy.types.Bone.use_local_location
 #. :src: bpy.types.EditBone.use_local_location
@@ -11049,38 +11021,32 @@ msgstr "Lokalposition"
 
 #. :src: bpy.types.Bone.use_local_location
 #. :src: bpy.types.EditBone.use_local_location
-#, fuzzy
 msgid "Bone location is set in local space"
-msgstr "Benets placering bestäms i det lokala rummet"
+msgstr "Benets position anges i lokal rymd"
 
 #. :src: bpy.types.Bone.use_relative_parent
 #. :src: bpy.types.EditBone.use_relative_parent
-#, fuzzy
 msgid "Relative Parenting"
-msgstr "Relativt föräldraskap"
+msgstr "Relativ överordning"
 
 #. :src: bpy.types.Bone.use_relative_parent
 #. :src: bpy.types.EditBone.use_relative_parent
-#, fuzzy
 msgid "Object children will use relative transform, like deform"
-msgstr "Objektbarn kommer att använda relativ transform, som deform"
+msgstr "Underordnade objekt använder relativ transformering, som vid deformering"
 
 #. :src: bpy.types.Bone.use_scale_easing
 #. :src: bpy.types.EditBone.use_scale_easing
-#, fuzzy
 msgid "Scale Easing"
-msgstr "Lättnader i skalan"
+msgstr "Skalutjämning"
 
 #. :src: bpy.types.Bone.use_scale_easing
 #. :src: bpy.types.EditBone.use_scale_easing
-#, fuzzy
 msgid "Multiply the final easing values by the Scale In/Out Y factors"
-msgstr "Multiplicera de slutliga lättnadsvärdena med Y-faktorerna för Scale In/Out"
+msgstr "Multiplicera de slutliga utjämningsvärdena med Y-faktorerna för Skala in/ut"
 
 #. :src: bpy.types.BoneCollection
-#, fuzzy
 msgid "Bone collection in an Armature data-block"
-msgstr "Bone-samling i ett Armature-datablock"
+msgstr "Bensamling i ett armaturdatablock"
 
 #. :src: bpy.types.BoneCollection.bones
 #. :src: bpy.types.Armature.bones
@@ -11097,19 +11063,16 @@ msgid "Bones"
 msgstr "Ben"
 
 #. :src: bpy.types.BoneCollection.bones
-#, fuzzy
 msgid "Bones assigned to this bone collection. In armature edit mode this will always return an empty list of bones, as the bone collection memberships are only synchronized when exiting edit mode."
-msgstr "Ben som tilldelats denna bensamling. I redigeringsläget för armaturer kommer detta alltid att returnera en tom lista med ben, eftersom benkollektionens medlemskap endast synkroniseras när redigeringsläget avslutas."
+msgstr "Ben som är tilldelade denna bensamling. I armaturens redigeringsläge returneras alltid en tom benlista, eftersom medlemskap i bensamlingar synkroniseras först när redigeringsläget avslutas."
 
 #. :src: bpy.types.BoneCollection.child_number
-#, fuzzy
 msgid "Child Number"
-msgstr "Barnets nummer"
+msgstr "Underordningsnummer"
 
 #. :src: bpy.types.BoneCollection.child_number
-#, fuzzy
 msgid "Index of this collection into its parent's list of children. Note that finding this index requires a scan of all the bone collections, so do access this with care."
-msgstr "Index för denna samling i dess förälders lista över barn. Observera att för att hitta detta index krävs en genomsökning av alla bensamlingar, så använd detta med försiktighet."
+msgstr "Den här samlingens index i den överordnade samlingens lista över underordnade. Att hitta indexet kräver en genomsökning av alla bensamlingar, så använd det med försiktighet."
 
 #. :src: bpy.types.BoneCollection.index
 #. :src: bpy.types.CurvePoint.index
