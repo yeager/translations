@@ -159,6 +159,12 @@ Lokal kvalitetssäkring är klar. Blender Translate bekräftade
 `blender-ui-sv-reviewed-20261105-20.po`: **1 bearbetad, 1 uppdaterad, 0
 hoppade över och 0 saknades**.
 
+Batch 21 rättar den ogrammatiska etiketten för
+`DopeSheet.show_only_slot_of_active_object`. Den längre hjälptexten till samma
+egenskap använder redan den naturliga och sakligt korrekta formen `sloten för
+det aktiva objektet`; etiketten normaliseras till samma formulering. Lokal
+kvalitetssäkring är klar; importresultat fylls i efter uppladdningen.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
