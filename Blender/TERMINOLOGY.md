@@ -135,6 +135,8 @@ Senast uppdaterad: 2026-11-05.
 | vertex index | hörnpunktsindex | Gäller synlig UI-text. |
 | edge | kant | Mesh-geometri, inte fönsterkant om UI-kontexten säger annat. |
 | face | yta | Mesh-element; avgör i sammanhanget om *ansikte* är avsett i annan betydelse. |
+| face corner | ythörn | Meshens hörn per yta; skiljs från en delad hörnpunkt. |
+| Data Transfer | dataöverföring | Blender-modifieraren som överför meshdata mellan objekt. |
 | mesh | mesh | Behåll när det avser Blender-datatypen eller dess etablerade UI-beteckning. |
 | bevel | avfasning / fasning | *Avfasning* för UI-egenskapen och modifieraren, *fasning* kan beskriva resultatet i löpande text. |
 | Bevel Modifier | avfasningsmodifierare | Blender-modifierarens belagda UI- och manualform. |
