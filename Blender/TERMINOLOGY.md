@@ -345,6 +345,20 @@ Senast uppdaterad: 2026-11-05.
 | USD Preview | USD Preview | Synligt produkt- och nodnamn; översätt inte till *USD-förhandsgranskning*. |
 | `UsdGeom*`, `Scope`, `allPurpose`, `preview` | behåll exakt | Identifierare och normativa USD-värden. Översätt endast den omgivande förklarande texten. |
 
+## Texturer, volymer och arbetsytor
+
+| Engelska | Svenska | Anmärkning |
+| --- | --- | --- |
+| noise (procedural texture) | brus | I Blenders procedurtexturer avser *noise* en brusfunktion, aldrig ljud eller buller. |
+| Noise Texture | brustextur | Synlig texturtyp; skriv sammansatt. |
+| procedural Musgrave/Voronoi texture | procedurell Musgrave-/Voronoi-textur | Behåll algoritmnamnet med versal och använd bindestreck före *textur*. |
+| 3D Viewport | 3D-vyport | Använd den etablerade UI-termen när källan uttryckligen säger *viewport*. |
+| frame (animation) | bildruta | Gäller sekvens-, volym- och Rigify-animering; inte fysisk ram. |
+| Volume data-block | volymdatablock | Blenderdatatyp för 3D-volymrutnät. |
+| extension/add-on | tillägg | Använd i inställnings- och tilläggshanteringskontext. |
+| Asset Browser | resursbläddrare | Synlig Blender-funktion; *asset library* blir *resursbibliotek*. |
+| Grease Pencil Vertex/Weight Paint | hörnpunktsmålning/viktmålning med Grease Pencil | Målningslägen i arbetsytans objektläge. |
+
 ## Kontrollerade UI-formuleringar
 
 | Engelska | Svenska |

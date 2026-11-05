@@ -678,3 +678,15 @@ En omedelbar dubblettimport gav 0 uppdateringar, 867 hoppade över och samma
 Det saknade meddelandet behöver identifieras mot en ny export innan det kan
 åtgärdas. Importen innebär inte att hela Manual-komponenten är färdiggranskad
 eller uppströmsgranskad.
+
+Batch 90 granskar klassiska procedurtexturer, Voronoi- och volyminställningar,
+tilläggshanteringen, Rigify, Grease Pencil och världsinställningar i tre
+separata radintervall. Tre primära delgranskningar och två oberoende
+slutgranskningar har jämförts mot RNA-kontext och terminologilistan. Den
+lokalt validerade deltafilen innehåller 70 säkra UI-strängar, bland annat
+*brustextur*, *Voronoi-funktionsvikt*, *3D-vyport*, *bildruteintervall*,
+*resursbläddrare* och *Cycles-världsinställningar*. `msgfmt` och l10n-lint
+passerar. Hunspell-träffarna är kontrollerade Blender-sammansättningar;
+svlang-träffarna är förväntade korta UI-etiketter och Blender-fackord.
+Batchen är lokalt validerad och arkiveras för import till Blender Translate;
+något importresultat finns ännu inte.
