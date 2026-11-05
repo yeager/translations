@@ -16,6 +16,11 @@ huvudgranskningen korrigerade detta till UI-katalogens etablerade
 Browser` → *Resursbläddrare*. RST-målen `editors-asset_browser` och
 `ui-list-view` är oförändrade.
 
+En terminologikontroll den 5 november skiljer den nätbaserade källan
+`online asset repository` från det konfigurerade `Asset Library`:
+*resursförråd på nätet* respektive *resursbibliotek*. Det förhindrar att
+två olika nivåer i funktionen får samma svenska beteckning.
+
 ## Kontroller
 
 - `msgfmt --check --statistics`: 9 översatta meddelanden, godkänd syntax.
