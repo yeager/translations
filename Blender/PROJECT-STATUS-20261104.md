@@ -426,7 +426,10 @@ uppdaterade, 6 hoppade över och 0 saknade**.
 Batch 53 granskar kollisions- och färghanteringens UI-etiketter. Profilnamn
 och färgstandarder lämnas medvetet orörda; endast kontextbundna UI-termer som
 *bildskärmsenhet*, *ingångsfärgrymd* och *visningstransformering* ingår.
-Batchen är lokalt validerad och inväntar arkivering och verifierad import.
+Batchen är lokalt validerad och arkiverad. Blender Translate bekräftade **10
+bearbetade, 3 uppdaterade, 4 hoppade över och 3 saknade**. De saknade
+katalogposterna var `Display Device`, `Display device name` och `View
+Transform`; servern har inte längre motsvarande källsträngar.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
