@@ -409,8 +409,8 @@ Batch 50 granskar kamera- och tygsimuleringens särskilda inställningar.
 Den normaliserar bland annat fotografins *bländartal*, stereokamerans
 polsammanfogning samt fysiktermerna *restitutionskoefficient* och
 *impulsbegränsning*. Förslagen har verifierats mot respektive RNA-kontext och
-oberoende parallella granskningar. Batchen är lokalt kontrollerad och inväntar
-arkivering och verifierad import.
+oberoende parallella granskningar. Blender Translate bekräftade **24
+bearbetade, 13 uppdaterade, 11 hoppade över och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
