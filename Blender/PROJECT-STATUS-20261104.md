@@ -264,8 +264,8 @@ engelska `offset` med felaktig svensk ordföljd och skiftande skrivning av
 B-Bone-kurvan. De använder nu konsekvent `förskjutning`, `vridningsförskjutning`
 och tydliga X-/Z-axelhandtag utan att ändra det synliga Blender-namnet
 `B-Bone`. Deltafilen och terminologin är lokalt kontrollerade med `msgfmt`,
-l10n-lint, Hunspell, diffkontroll och Gitleaks; importresultatet dokumenteras
-först efter uppladdning.
+l10n-lint, Hunspell, diffkontroll och Gitleaks. Blender Translate bekräftade
+**6 bearbetade, 6 uppdaterade, 0 hoppade över och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
