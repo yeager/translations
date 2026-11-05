@@ -97,6 +97,13 @@ för `Defaults`. `blender-ui-sv-reviewed-20261105-12.po` använder därför
 `Standardinställningar`. Blender Translate bekräftade **1 bearbetad, 1
 uppdaterad, 0 hoppade över och 0 saknades**.
 
+Batch 13 skiljde dialogen för nyligen öppnade projekt från motsvarande
+fillista. Källkoden för `WM_OT_clear_recent_projects` rensar uttryckligen
+projektlistan, men den otextade katalogposten hade felaktigt samma måltext som
+fillistan. `blender-ui-sv-reviewed-20261105-13.po` ändrar den till
+`Rensa listan över senaste projekt`. Blender Translate bekräftade **1
+bearbetad, 1 uppdaterad, 0 hoppade över och 0 saknades**.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
