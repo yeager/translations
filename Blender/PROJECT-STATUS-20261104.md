@@ -239,6 +239,14 @@ och termlistan har klarat lokal syntax-, språk-, stavnings-, diff- och
 hemlighetskontroll. Blender Translate bekräftade **7 bearbetade, 7 uppdaterade,
 0 hoppade över och 0 saknade**.
 
+Batch 30 granskar den intilliggande inställningen *Normal Space*. Blender
+Manual använder redan `tangentrymd`, `objektrymd` och `världsrymd` för de
+värden som denna inställning väljer mellan. Den tidigare ordagranna formen
+`normalt utrymme` är därför tvetydig; UI-termen normaliseras till
+`normalrymd` i både etikett och hjälptext. Deltafilen och termlistan är lokalt
+kontrollerade med `msgfmt`, l10n-lint, Hunspell, diffkontroll och Gitleaks;
+importresultatet dokumenteras först efter uppladdning.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
