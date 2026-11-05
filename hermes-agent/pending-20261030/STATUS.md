@@ -16,6 +16,12 @@ uppströmsarbete.
 Gitleaks hittade inga hemligheter i någon av filerna. Ingen av dessa filer har
 pushats eller skickats uppströms i detta steg.
 
+## Desktopkatalog, uppdaterad 2026-11-05
+
+Den avsiktligt partiella desktopkatalogen i [PR #101116](https://github.com/NousResearch/hermes-agent/pull/101116) är nu rebasad på aktuell uppströms-`main` och pushad som commit `fe7ec2c174`. Rebasen synliggjorde 20 nya nycklar, som nu har fått kontextgranskade svenska texter för MCP-serverstart, kontextkomprimering och samlad/automatisk uppdatering av pluginer.
+
+`languages.test.ts` och `overlay-completeness.test.ts` passerar med 6/6 tester, liksom desktoplinten i pre-commit, `git diff --check` och en avgränsad Gitleaks-kontroll. Den breda TypeScript-typkontrollen stannar i den aktuella uppströmsfilen `use-session-actions.test.tsx`, eftersom `tests/fixtures/session-resume-active-turn.json` saknas; den diagnosen berör inte den svenska katalogen. GitHub visar den nya grenen men rapporterar ännu `BLOCKED` utan check-runs eller ny maintainergranskning.
+
 ## Webbkatalog, uppdaterad 2026-11-03
 
 En uppdaterad och radgranskad webbkatalog har nu skapats från aktuell
