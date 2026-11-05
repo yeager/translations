@@ -544,6 +544,16 @@ träffarna är kontrollerade tekniska sammansättningar och korta UI-etiketter.
 Batchen är lokalt validerad och arkiveras för import till Blender Translate;
 något importresultat finns ännu inte.
 
+Batch 82 granskar bildkällor, gitter, biblioteksåsidosättningar, ljus och
+ljussonder i tre separata radintervall. Tre oberoende delgranskningar har
+jämförts mot RNA-kontext och terminologilistan. Deltafilen innehåller 41 säkra
+UI-strängar, bland annat *UDIM-platta*, *flyttalsbuffert*, *formnyckel*,
+*biblioteksåsidosättning*, *Cycles-ljusinställningar* och *ljussond*.
+`msgfmt`, l10n-lint och diffkontrollen passerar. Hunspell-träffarna är
+kontrollerade Blender-termer och sammansättningar. Batchen är lokalt validerad
+och arkiveras för import till Blender Translate; något importresultat finns
+ännu inte.
+
 Batch 61 granskar kurvdata, beroendegrafen och Dope Sheet-filter rad för rad.
 Två oberoende, skrivskyddade delgranskningar har jämförts med RNA-kontext och
 befintlig Blender-terminologi. Den lokalt validerade deltafilen normaliserar

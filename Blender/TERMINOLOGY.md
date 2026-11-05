@@ -186,6 +186,11 @@ Senast uppdaterad: 2026-11-05.
 | onion opacity | opacitet för lökskal | Opaciteten för Grease Pencil-bildrutor som visas före och efter aktuell bildruta. |
 | render slot | renderingsplats | Sparad renderingsbuffert i Blenders bildredigerare. |
 | seam margin | sömmarginal | Marginal vid fixering av UV-sömmar under målning. |
+| UDIM tile | UDIM-platta | En platta i en UDIM-bildtextur. |
+| float buffer | flyttalsbuffert | Bildbuffert som lagrar värden som flyttal. |
+| library override | biblioteksåsidosättning | Lokal åsidosättning av länkat biblioteksmaterial. |
+| light probe | ljussond | Objekt som fångar belysningsdata för indirekt ljus och reflektioner. |
+| volume light probe | volymljussond | Ljussond som fångar belysningsdata i en 3D-volym. |
 | curve map point | kurvkartpunkt | Punkt i en kurvkartläggning. |
 | support loop | stödslinga | Topologisk loop som kontrollerar skärpan kring en meshdetalj. |
 | mix mode | blandningsläge | Anger hur en Transform Constraint kombinerar position, rotation eller skala med det ursprungliga värdet. |
