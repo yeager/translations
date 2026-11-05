@@ -120,6 +120,13 @@ för att jämna ut målningskanter, inte som flera simuleringar.
 `multisampling`. Blender Translate bekräftade **1 bearbetad, 1 uppdaterad, 0
 hoppade över och 0 saknades**.
 
+Batch 16 normaliserade två hjälptester för nätåtkomliga resurser. De använder
+nu `fjärranslutna resurser`, i linje med komponentens term
+`fjärranslutet resursbibliotek`, i stället för den svårlästa formen
+`fjärrresurser` med tre r i följd. Blender Translate bekräftade
+`blender-ui-sv-reviewed-20261105-16.po`: **2 bearbetade, 2 uppdaterade, 0
+hoppade över och 0 saknades**.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
