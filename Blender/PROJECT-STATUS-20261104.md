@@ -363,7 +363,8 @@ Batch 43 granskar penselverktygens kapacitetsbeskrivningar för bildmålning,
 skulptering, hörnpunktsmålning och viktmålning. Den ersätter felöversatta
 etiketter som `skulpterat flygplan` med domänkorrekta termer och dokumenterar
 `jämnt penseldrag` samt `avståndsdämpning`. Batchen är lokalt kontrollerad och
-väntar på arkivering och verifierad import.
+arkiverad. Blender Translate bekräftade **20 bearbetade, 10 uppdaterade, 10
+hoppade över och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
