@@ -484,8 +484,11 @@ Batch 61 granskar kurvdata, beroendegrafen och Dope Sheet-filter rad för rad.
 Två oberoende, skrivskyddade delgranskningar har jämförts med RNA-kontext och
 befintlig Blender-terminologi. Den lokalt validerade deltafilen normaliserar
 bland annat *kurvsegment*, *kurvspline*, *visningslager* och
-*beroendegraf*. Deltafilen är arkiverad i översättningsförrådet och väntar på
-verifierad import i Blender Translate.
+*beroendegraf*. Deltafilen är arkiverad i översättningsförrådet. Blender
+Translate bekräftade **18 bearbetade, 8 uppdaterade, 10 hoppade över och 0
+saknade**. Den oförändrade Workspace-etiketten *Shading* ingick medvetet som
+en etablerad Blender-beteckning; serverns kontrollvarning för identisk
+käll- och måltext är därför en förväntad falsk positiv.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
