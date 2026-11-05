@@ -705,6 +705,17 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 112 granskar filmspårning och NLA-animering i tre separata
+radintervall. Tre oberoende delgranskningar har jämförts mot Movie Tracking-
+och NLA-RNA-kontext samt terminologilistan. Den lokalt validerade deltafilen
+innehåller 68 säkra UI-strängar, bland annat *bildruta* i filmspårning,
+*förflyttningsspår*, *rekonstruerad punkt*, *NLA-remsa*, *remstid* och
+*nyckelbildruta*. `msgfmt` och l10n-lint passerar. Hunspell-träffarna är
+kontrollerade Blender-sammansättningar; svlangs V2-varningar är falska
+positiv för korta UI-etiketter och grammatiska underordnade satser. Batchen
+är lokalt validerad och arkiveras för import till Blender Translate; något
+importresultat finns ännu inte.
+
 Batch 111 granskar modifierar- och filmspårningsetiketter. Den lokalt
 validerade deltafilen innehåller 13 säkra UI-strängar, bland annat
 *planspår*, *pixelbildförhållande*, *nyckelbildsatt* och

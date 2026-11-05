@@ -388,6 +388,12 @@ Senast uppdaterad: 2026-11-05.
 | Hook (deformer) | krok | Blender-deformer och dess meny, inte engelska *hook*. |
 | Specials (context menu) | särskilda åtgärder för | Meny med relaterade åtgärder, inte erbjudanden. |
 | NLA Track | NLA-spår | Spår i Blenders Nonlinear Animation-redigerare; substantiv, inte verbet *spåra*. |
+| NLA Strip | NLA-remsa | Ett klipp eller segment i Blenders Nonlinear Animation-redigerare. Skriv sammansatt med bindestreck. |
+| strip time (NLA) | remstid | Den utvärderade tiden i en NLA-remsa; skilj från fysisk remsa och filmremsa. |
+| movie tracking frame | bildruta | I filmspårning avser *frame* en bildruta, inte en fysisk ram. |
+| translation (motion tracking) | förflyttning | Geometrisk positionsändring vid spårning eller stabilisering, aldrig språköversättning. |
+| bundle (motion tracking) | rekonstruerad punkt | Den 3D-punkt som återuppbyggs från ett spår. |
+| solver (motion tracking) | lösare | Beräkningsmetod för kamera- eller objektspårning; använd *lösare* i förklarande UI-text. |
 | Keying (compositor) | nyckling | Kompositörens friläggnings-/keyingfunktion, inte nyckelbildrutor. |
 | mesh edge/loop | meshkant/meshslinga | Meshens topologiska kant respektive slinga. |
 | vertex (mesh API) | hörnpunkt | RNA-datatypen *MeshVertex* och dess egenskaper; använd sammansättningar som *hörnpunktsvikt*. |

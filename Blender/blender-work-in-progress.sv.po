@@ -75332,7 +75332,7 @@ msgstr "Effekt på spår som har ett större reprojiceringsfel"
 #. :src: bpy.types.CLIP_OT_clean_tracks.frames
 #, fuzzy
 msgid "Tracked Frames"
-msgstr "Spårade ramar"
+msgstr "Spårade bildrutor"
 
 #. :src: bpy.types.MovieTrackingSettings.clean_frames
 #, fuzzy
@@ -75354,7 +75354,7 @@ msgstr "Förvalt minimivärde för korrelation mellan matchat mönster och refer
 #. :src: bpy.types.MovieTrackingTrack.frames_limit
 #, fuzzy
 msgid "Frames Limit"
-msgstr "Ramar Gräns"
+msgstr "Bildrutegräns"
 
 #. :src: bpy.types.MovieTrackingSettings.default_frames_limit
 #. :src: bpy.types.MovieTrackingTrack.frames_limit
@@ -75395,31 +75395,31 @@ msgstr "Affine"
 #. :src: bpy.types.MovieTrackingTrack.motion_model:'Affine'
 #, fuzzy
 msgid "Search for markers that are affine-deformed (t, r, k, and skew) between frames"
-msgstr "Sök efter markörer som är affindeformerade (t, r, k och skew) mellan ramarna"
+msgstr "Sök efter markörer som är affint deformerade (t, r, k och skevning) mellan bildrutorna"
 
 #. :src: bpy.types.MovieTrackingSettings.default_motion_model:'LocRotScale'
 #. :src: bpy.types.MovieTrackingTrack.motion_model:'LocRotScale'
 #, fuzzy
 msgid "Search for markers that are translated, rotated, and scaled between frames"
-msgstr "Sök efter markörer som är translaterade, roterade och skalade mellan bildrutorna"
+msgstr "Sök efter markörer som förflyttas, roteras och skalas mellan bildrutorna"
 
 #. :src: bpy.types.MovieTrackingSettings.default_motion_model:'LocScale'
 #. :src: bpy.types.MovieTrackingTrack.motion_model:'LocScale'
 #, fuzzy
 msgid "Search for markers that are translated and scaled between frames"
-msgstr "Sök efter markörer som är översatta och skalade mellan bildrutorna"
+msgstr "Sök efter markörer som förflyttas och skalas mellan bildrutorna"
 
 #. :src: bpy.types.MovieTrackingSettings.default_motion_model:'LocRot'
 #. :src: bpy.types.MovieTrackingTrack.motion_model:'LocRot'
 #, fuzzy
 msgid "Search for markers that are translated and rotated between frames"
-msgstr "Sök efter markörer som är translaterade och roterade mellan bildrutorna"
+msgstr "Sök efter markörer som förflyttas och roteras mellan bildrutorna"
 
 #. :src: bpy.types.MovieTrackingSettings.default_motion_model:'Loc'
 #. :src: bpy.types.MovieTrackingTrack.motion_model:'Loc'
 #, fuzzy
 msgid "Search for markers that are translated between frames"
-msgstr "Sök efter markörer som översätts mellan ramarna"
+msgstr "Sök efter markörer som förflyttas mellan bildrutorna"
 
 #. :src: bpy.types.MovieTrackingSettings.default_pattern_match
 #. :src: bpy.types.MovieTrackingTrack.pattern_match
@@ -75437,13 +75437,13 @@ msgstr "Spåra mönster från given bildruta när markören spåras till nästa 
 #. :src: bpy.types.MovieTrackingTrack.pattern_match:'KEYFRAME'
 #, fuzzy
 msgid "Track pattern from keyframe to next frame"
-msgstr "Spåra mönster från nyckelbild till nästa bild"
+msgstr "Spåra mönster från nyckelbildrutan till nästa bildruta"
 
 #. :src: bpy.types.MovieTrackingSettings.default_pattern_match:'PREV_FRAME'
 #. :src: bpy.types.MovieTrackingTrack.pattern_match:'PREV_FRAME'
 #, fuzzy
 msgid "Previous frame"
-msgstr "Tidigare ram"
+msgstr "Föregående bildruta"
 
 #. :src: bpy.types.MovieTrackingSettings.default_pattern_match:'PREV_FRAME'
 #. :src: bpy.types.MovieTrackingTrack.pattern_match:'PREV_FRAME'
@@ -75464,7 +75464,7 @@ msgstr "Storlek på mönsterområdet för nyskapade spår"
 #. :src: bpy.types.MovieTrackingSettings.default_search_size
 #, fuzzy
 msgid "Search Size"
-msgstr "Sök storlek"
+msgstr "Sökområdesstorlek"
 
 #. :src: bpy.types.MovieTrackingSettings.default_search_size
 #, fuzzy
@@ -75499,17 +75499,17 @@ msgstr "Finjustera brännvidden under kameralösningen"
 #. :src: bpy.types.MovieTrackingSettings.refine_intrinsics_principal_point
 #, fuzzy
 msgid "Refine Principal Point"
-msgstr "Förfina huvudpunkten"
+msgstr "Finjustera huvudpunkten"
 
 #. :src: bpy.types.MovieTrackingSettings.refine_intrinsics_principal_point
 #, fuzzy
 msgid "Refine principal point during camera solving"
-msgstr "Förfina huvudpunkt under kameralösning"
+msgstr "Finjustera huvudpunkten under kameralösningen"
 
 #. :src: bpy.types.MovieTrackingSettings.refine_intrinsics_radial_distortion
 #, fuzzy
 msgid "Refine Radial"
-msgstr "Avgränsa radiellt"
+msgstr "Finjustera radiellt"
 
 #. :src: bpy.types.MovieTrackingSettings.refine_intrinsics_radial_distortion
 #, fuzzy
@@ -75519,7 +75519,7 @@ msgstr "Förfina radiella koefficienter i distorsionsmodellen under kameralösni
 #. :src: bpy.types.MovieTrackingSettings.refine_intrinsics_tangential_distortion
 #, fuzzy
 msgid "Refine Tangential"
-msgstr "Förfina tangentiell"
+msgstr "Finjustera tangentiellt"
 
 #. :src: bpy.types.MovieTrackingSettings.refine_intrinsics_tangential_distortion
 #, fuzzy
@@ -75556,22 +75556,22 @@ msgstr "Spåra med dubbel hastighet"
 #. :src: bpy.types.MovieTrackingSettings.speed:'REALTIME'
 #, fuzzy
 msgid "Track with realtime speed"
-msgstr "Spåra med hastighet i realtid"
+msgstr "Spåra med realtidshastighet"
 
 #. :src: bpy.types.MovieTrackingSettings.speed:'HALF'
 #, fuzzy
 msgid "Track with half of realtime speed"
-msgstr "Spåra med halva hastigheten i realtid"
+msgstr "Spåra med halv realtidshastighet"
 
 #. :src: bpy.types.MovieTrackingSettings.speed:'QUARTER'
 #, fuzzy
 msgid "Quarter"
-msgstr "Kvartal"
+msgstr "Kvart"
 
 #. :src: bpy.types.MovieTrackingSettings.speed:'QUARTER'
 #, fuzzy
 msgid "Track with quarter of realtime speed"
-msgstr "Spåra med en fjärdedels hastighet i realtid"
+msgstr "Spåra med en fjärdedels realtidshastighet"
 
 #. :src: bpy.types.MovieTrackingSettings.use_default_blue_channel
 #. :src: bpy.types.MovieTrackingTrack.use_blue_channel
@@ -75652,22 +75652,22 @@ msgstr "Använd röd kanal från filmen för spårning"
 #. :src: bpy.types.MovieTrackingSettings.use_keyframe_selection
 #, fuzzy
 msgid "Keyframe Selection"
-msgstr "Val av nyckelram"
+msgstr "Val av nyckelbildruta"
 
 #. :src: bpy.types.MovieTrackingSettings.use_keyframe_selection
 #, fuzzy
 msgid "Automatically select keyframes when solving camera/object motion"
-msgstr "Välj automatiskt nyckelbilder när du löser kamerans/objektets rörelse"
+msgstr "Välj automatiskt nyckelbildrutor när du löser kamera-/objektrörelsen"
 
 #. :src: bpy.types.MovieTrackingSettings.use_tripod_solver
 #, fuzzy
 msgid "Tripod Motion"
-msgstr "Rörelse för stativ"
+msgstr "Stativrörelse"
 
 #. :src: bpy.types.MovieTrackingSettings.use_tripod_solver
 #, fuzzy
 msgid "Use special solver to track a stable camera position, such as a tripod"
-msgstr "Använd en speciell solver för att spåra en stabil kameraposition, t.ex. ett stativ"
+msgstr "Använd en särskild lösare för att spåra en stabil kameraposition, till exempel ett stativ"
 
 #. :src: bpy.types.MovieTrackingStabilization
 #, fuzzy
@@ -75682,7 +75682,7 @@ msgstr "2D-stabilisering baserad på spårningsmarkörer"
 #. :src: bpy.types.MovieTrackingStabilization.active_rotation_track_index
 #, fuzzy
 msgid "Active Rotation Track Index"
-msgstr "Index för aktiv rotationsbana"
+msgstr "Index för aktivt rotationsspår"
 
 #. :src: bpy.types.MovieTrackingStabilization.active_rotation_track_index
 #, fuzzy
@@ -75692,22 +75692,22 @@ msgstr "Index för aktivt spår i listan över spår för rotationsstabilisering
 #. :src: bpy.types.MovieTrackingStabilization.active_track_index
 #, fuzzy
 msgid "Active Track Index"
-msgstr "Active Track Index"
+msgstr "Index för aktivt spår"
 
 #. :src: bpy.types.MovieTrackingStabilization.active_track_index
 #, fuzzy
 msgid "Index of active track in translation stabilization tracks list"
-msgstr "Index för aktivt spår i listan över spår för översättningsstabilisering"
+msgstr "Index för aktivt spår i listan över förflyttningsspår för stabilisering"
 
 #. :src: bpy.types.MovieTrackingStabilization.anchor_frame
 #, fuzzy
 msgid "Anchor Frame"
-msgstr "Ankarram"
+msgstr "Ankarbildruta"
 
 #. :src: bpy.types.MovieTrackingStabilization.anchor_frame
 #, fuzzy
 msgid "Reference point to anchor stabilization (other frames will be adjusted relative to this frame's position)"
-msgstr "Referenspunkt för att förankra stabilisering (andra ramar kommer att justeras i förhållande till denna rams position)"
+msgstr "Referenspunkt för att förankra stabiliseringen (andra bildrutor justeras i förhållande till den här bildrutans position)"
 
 #. :src: bpy.types.MovieTrackingStabilization.filter_type
 #. :src: bpy.types.MESH_OT_inset.use_interpolate
@@ -75767,17 +75767,17 @@ msgstr "Pixelinterpolering av hög kvalitet"
 #. :src: bpy.types.MovieTrackingStabilization.influence_location
 #, fuzzy
 msgid "Location Influence"
-msgstr "Plats Inflytande"
+msgstr "Positionspåverkan"
 
 #. :src: bpy.types.MovieTrackingStabilization.influence_location
 #, fuzzy
 msgid "Influence of stabilization algorithm on footage location"
-msgstr "Inverkan av stabiliseringsalgoritmen på inspelningsplatsen"
+msgstr "Stabiliseringsalgoritmens påverkan på filmmaterialets position"
 
 #. :src: bpy.types.MovieTrackingStabilization.influence_rotation
 #, fuzzy
 msgid "Rotation Influence"
-msgstr "Rotation Påverkan"
+msgstr "Rotationspåverkan"
 
 #. :src: bpy.types.MovieTrackingStabilization.influence_rotation
 #, fuzzy
@@ -75787,7 +75787,7 @@ msgstr "Stabiliseringsalgoritmens inverkan på filmens rotation"
 #. :src: bpy.types.MovieTrackingStabilization.influence_scale
 #, fuzzy
 msgid "Scale Influence"
-msgstr "Skala Påverkan"
+msgstr "Skalpåverkan"
 
 #. :src: bpy.types.MovieTrackingStabilization.influence_scale
 #, fuzzy
@@ -75803,7 +75803,7 @@ msgstr "Rotationsspår"
 #. :src: bpy.types.MovieTrackingStabilization.tracks
 #, fuzzy
 msgid "Collection of tracks used for 2D stabilization (translation)"
-msgstr "Samling av spår som används för 2D-stabilisering (translation)"
+msgstr "Samling av spår som används för 2D-stabilisering (förflyttning)"
 
 #. :src: bpy.types.MovieTrackingStabilization.scale_max
 #, fuzzy
@@ -75853,12 +75853,12 @@ msgstr "Förväntad skala"
 #. :src: bpy.types.MovieTrackingStabilization.target_scale
 #, fuzzy
 msgid "Explicitly scale resulting frame to compensate zoom of original shot"
-msgstr "Explicit skala den resulterande ramen för att kompensera zoomningen av originalbilden"
+msgstr "Skala uttryckligen den resulterande bildrutan för att kompensera för zoomningen i originalbilden"
 
 #. :src: bpy.types.MovieTrackingStabilization.tracks
 #, fuzzy
 msgid "Translation Tracks"
-msgstr "Spår för översättning"
+msgstr "Förflyttningsspår"
 
 #. :src: bpy.types.MovieTrackingStabilization.use_2d_stabilization
 #, fuzzy
@@ -75873,12 +75873,12 @@ msgstr "Använd 2D-stabilisering för filmmaterial"
 #. :src: bpy.types.MovieTrackingStabilization.use_autoscale
 #, fuzzy
 msgid "Autoscale"
-msgstr "Autoscale"
+msgstr "Automatisk skalning"
 
 #. :src: bpy.types.MovieTrackingStabilization.use_autoscale
 #, fuzzy
 msgid "Automatically scale footage to cover unfilled areas when stabilizing"
-msgstr "Automatisk skalning av bilderna för att täcka ofyllda områden vid stabilisering"
+msgstr "Skala automatiskt filmmaterialet för att täcka ofyllda områden vid stabilisering"
 
 #. :src: bpy.types.MovieTrackingStabilization.use_stabilize_rotation
 #, fuzzy
@@ -75888,7 +75888,7 @@ msgstr "Stabilisera rotationen"
 #. :src: bpy.types.MovieTrackingStabilization.use_stabilize_rotation
 #, fuzzy
 msgid "Stabilize detected rotation around center of frame"
-msgstr "Stabilisera upptäckt rotation runt mitten av ramen"
+msgstr "Stabilisera den upptäckta rotationen runt bildrutans mitt"
 
 #. :src: bpy.types.MovieTrackingStabilization.use_stabilize_scale
 #, fuzzy
@@ -75903,12 +75903,12 @@ msgstr "Kompensera för eventuella skalförändringar i förhållande till rotat
 #. :src: bpy.types.MovieTrackingTrack
 #, fuzzy
 msgid "Movie tracking track data"
-msgstr "Filmspårning spårningsdata"
+msgstr "Spårdata för filmspårning"
 
 #. :src: bpy.types.MovieTrackingTrack
 #, fuzzy
 msgid "Match-moving track data for tracking"
-msgstr "Matchande spårdata för spårning"
+msgstr "Spårdata för matchning av rörelser"
 
 #. :src: bpy.types.MovieTrackingTrack.average_error
 #, fuzzy
@@ -75933,7 +75933,7 @@ msgstr "Minimivärde för korrelation mellan matchat mönster och referens som f
 #. :src: bpy.types.MovieTrackingTrack.grease_pencil
 #, fuzzy
 msgid "Grease Pencil data for this track"
-msgstr "Grease Pencil data för detta spår"
+msgstr "Grease Pencil-data för detta spår"
 
 #. :src: bpy.types.MovieTrackingTrack.has_bundle
 #, fuzzy
@@ -75943,7 +75943,7 @@ msgstr "Har Bundle"
 #. :src: bpy.types.MovieTrackingTrack.has_bundle
 #, fuzzy
 msgid "True if track has a valid bundle"
-msgstr "Sant om banan har en giltig bunt"
+msgstr "Sant om spåret har en giltig rekonstruerad punkt"
 
 #. :src: bpy.types.MovieTrackingTrack.hide
 #, fuzzy
@@ -75978,7 +75978,7 @@ msgstr "Välj ankare"
 #. :src: bpy.types.MovieTrackingTrack.select_anchor
 #, fuzzy
 msgid "Track's anchor point is selected"
-msgstr "Banans ankarpunkt är vald"
+msgstr "Spårets ankarpunkt är vald"
 
 #. :src: bpy.types.MovieTrackingTrack.select_pattern
 #, fuzzy
@@ -76020,7 +76020,7 @@ msgstr "Anpassad färg"
 #. :src: bpy.types.MovieTrackingTrack.use_custom_color
 #, fuzzy
 msgid "Use custom color instead of theme-defined"
-msgstr "Använd anpassad färg istället för temadefinierad"
+msgstr "Använd anpassad färg i stället för temadefinierad färg"
 
 #. :src: bpy.types.MovieTrackingTrack.use_grayscale_preview
 #, fuzzy
@@ -76035,7 +76035,7 @@ msgstr "Inverkan av detta spår på en slutlig lösning"
 #. :src: bpy.types.MovieTrackingTrack.weight_stab
 #, fuzzy
 msgid "Stab Weight"
-msgstr "Stab Vikt"
+msgstr "Stabiliseringsvikt"
 
 #. :src: bpy.types.MovieTrackingTrack.weight_stab
 #, fuzzy
@@ -76051,37 +76051,37 @@ msgstr "Aktivt spår i detta spårningsdataobjekt. Föråldrad, använd objects[
 #: source/blender/blenkernel/intern/nla.cc:1919
 #, fuzzy
 msgid "NLA Strip"
-msgstr "NLA Strip"
+msgstr "NLA-remsa"
 
 #. :src: bpy.types.NlaStrip
 #, fuzzy
 msgid "A container referencing an existing Action"
-msgstr "En container som refererar till en befintlig Action"
+msgstr "En behållare som refererar till en befintlig åtgärd"
 
 #. :src: bpy.types.NlaStrip.action
 #, fuzzy
 msgid "Action referenced by this strip"
-msgstr "Åtgärd som denna remsa hänvisar till"
+msgstr "Åtgärd som den här remsan refererar till"
 
 #. :src: bpy.types.NlaStrip.action_frame_end
 #, fuzzy
 msgid "Action End Frame"
-msgstr "Åtgärd Slutram"
+msgstr "Åtgärdens slutbildruta"
 
 #. :src: bpy.types.NlaStrip.action_frame_end
 #, fuzzy
 msgid "Last frame from action to use"
-msgstr "Sista ramen från åtgärd till användning"
+msgstr "Sista bildrutan från åtgärden som ska användas"
 
 #. :src: bpy.types.NlaStrip.action_frame_start
 #, fuzzy
 msgid "Action Start Frame"
-msgstr "Åtgärdens startram"
+msgstr "Åtgärdens startbildruta"
 
 #. :src: bpy.types.NlaStrip.action_frame_start
 #, fuzzy
 msgid "First frame from action to use"
-msgstr "Första bilden från handling till användning"
+msgstr "Första bildrutan från åtgärden som ska användas"
 
 #. :src: bpy.types.NlaStrip.action_slot_handle
 #, fuzzy
@@ -76091,7 +76091,7 @@ msgstr "Ett nummer som identifierar vilken delmängd av åtgärden som anses var
 #. :src: bpy.types.NlaStrip.active
 #, fuzzy
 msgid "NLA Strip is active"
-msgstr "NLA Strip är aktiv"
+msgstr "NLA-remsan är aktiv"
 
 #. :src: bpy.types.NlaStrip.blend_in
 #, fuzzy
@@ -76117,12 +76117,12 @@ msgstr "Åtgärder för luckor utanför remsans yttermått"
 #. :src: bpy.types.NlaStrip.fcurves
 #, fuzzy
 msgid "F-Curves for controlling the strip's influence and timing"
-msgstr "F-kurvor för styrning av bandets påverkan och timing"
+msgstr "F-kurvor för styrning av remsans påverkan och tidsinställning"
 
 #. :src: bpy.types.NlaStrip.frame_end_raw
 #, fuzzy
 msgid "End Frame (raw value)"
-msgstr "End Frame (råvärde)"
+msgstr "Slutbildruta (råvärde)"
 
 #. :src: bpy.types.NlaStrip.frame_end_raw
 #, fuzzy
@@ -76142,7 +76142,7 @@ msgstr "Slutbild för NLA-remsan. Obs: om du ändrar detta värde uppdateras ock
 #. :src: bpy.types.NlaStrip.frame_start_raw
 #, fuzzy
 msgid "Start Frame (raw value)"
-msgstr "Startbild (råvärde)"
+msgstr "Startbildruta (råvärde)"
 
 #. :src: bpy.types.NlaStrip.frame_start_raw
 #, fuzzy
@@ -76152,7 +76152,7 @@ msgstr "Samma som frame_start, förutom att vilket värde som helst kan anges, �
 #. :src: bpy.types.NlaStrip.frame_start_ui
 #, fuzzy
 msgid "Start Frame (manipulated from UI)"
-msgstr "Startram (manipulerad från UI)"
+msgstr "Startbildruta (manipuleras i gränssnittet)"
 
 #. :src: bpy.types.NlaStrip.frame_start_ui
 #, fuzzy
@@ -76162,7 +76162,7 @@ msgstr "NLA-remsans startbild. Obs: om du ändrar detta värde uppdateras även 
 #. :src: bpy.types.NlaStrip.influence
 #, fuzzy
 msgid "Amount the strip contributes to the current result"
-msgstr "Belopp som remsan bidrar med till det aktuella resultatet"
+msgstr "Mängd som remsan bidrar med till det aktuella resultatet"
 
 #. :src: bpy.types.NlaStrip.last_slot_identifier
 #, fuzzy
@@ -76177,7 +76177,7 @@ msgstr "Modifierare som påverkar alla F-kurvor i den åtgärd som det hänvisas
 #. :src: bpy.types.NlaStrip.mute
 #, fuzzy
 msgid "Disable NLA Strip evaluation"
-msgstr "Inaktivera NLA Strip-utvärdering"
+msgstr "Inaktivera utvärdering av NLA-remsa"
 
 #. :src: bpy.types.NlaStrip.repeat
 #, fuzzy
@@ -76192,17 +76192,17 @@ msgstr "Skalningsfaktor för åtgärd"
 #. :src: bpy.types.NlaStrip.select
 #, fuzzy
 msgid "NLA Strip is selected"
-msgstr "NLA Strip är vald"
+msgstr "NLA-remsan är vald"
 
 #. :src: bpy.types.NlaStrip.strip_time
 #, fuzzy
 msgid "Strip Time"
-msgstr "Striptid"
+msgstr "Remstid"
 
 #. :src: bpy.types.NlaStrip.strip_time
 #, fuzzy
 msgid "Frame of referenced Action to evaluate"
-msgstr "Referensram Åtgärd för att utvärdera"
+msgstr "Bildruta i den refererade åtgärden som ska utvärderas"
 
 #. :src: bpy.types.NlaStrip.strips
 #. :src: bpy.types.NlaStrips
@@ -76231,12 +76231,12 @@ msgstr "Action Clip"
 #. :src: bpy.types.NlaStrip.type:'CLIP'
 #, fuzzy
 msgid "NLA Strip references some Action"
-msgstr "NLA Strip referenser lite Action"
+msgstr "NLA-remsan refererar till en åtgärd"
 
 #. :src: bpy.types.NlaStrip.type:'TRANSITION'
 #, fuzzy
 msgid "NLA Strip 'transitions' between adjacent strips"
-msgstr "NLA Remsa \"övergångar\" mellan intilliggande remsor"
+msgstr "NLA-remsan övergår mellan intilliggande remsor"
 
 #. :src: bpy.types.NlaStrip.type:'META'
 #. :src: bpy.types.SpaceView3D.show_object_select_meta
@@ -76261,13 +76261,13 @@ msgstr "Ljudklipp"
 #. :src: bpy.types.NlaStrip.type:'SOUND'
 #, fuzzy
 msgid "NLA Strip representing a sound event for speakers"
-msgstr "NLA Strip representerar ett ljudevenemang för talare"
+msgstr "NLA-remsa som representerar en ljudhändelse för högtalare"
 
 #. :src: bpy.types.NlaStrip.use_animated_influence
 #: source/blender/editors/space_nla/nla_buttons.cc:703
 #, fuzzy
 msgid "Animated Influence"
-msgstr "Animerat inflytande"
+msgstr "Animerad påverkan"
 
 #. :src: bpy.types.NlaStrip.use_animated_influence
 #, fuzzy
@@ -76278,7 +76278,7 @@ msgstr "Inställningen av påverkan styrs av en F-kurva i stället för att best
 #: source/blender/editors/space_nla/nla_buttons.cc:717
 #, fuzzy
 msgid "Animated Strip Time"
-msgstr "Animerad stripptid"
+msgstr "Animerad remstid"
 
 #. :src: bpy.types.NlaStrip.use_animated_time
 #, fuzzy
@@ -76288,7 +76288,7 @@ msgstr "Striptiden styrs av en F-kurva i stället för att bestämmas automatisk
 #. :src: bpy.types.NlaStrip.use_animated_time_cyclic
 #, fuzzy
 msgid "Cyclic Strip Time"
-msgstr "Cyklisk stripptid"
+msgstr "Cyklisk remstid"
 
 #. :src: bpy.types.NlaStrip.use_animated_time_cyclic
 #, fuzzy
