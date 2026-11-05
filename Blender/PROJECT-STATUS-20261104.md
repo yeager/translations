@@ -194,6 +194,12 @@ hjälptext. Lokal kvalitetssäkring är klar. Blender Translate bekräftade
 `blender-ui-sv-reviewed-20261105-24.po`: **3 bearbetade, 3 uppdaterade, 0
 hoppade över och 0 saknades**.
 
+Batch 25 följer Blenders egen UI-term för *Wireframe*. Den synliga etiketten
+är `Trådram`, medan en hjälprad tidigare skrev `trådmodellläge`, med tre l i
+följd. I dess specifika lägeskontext blir `trådramsläget` både konsekvent med
+etiketten och språkriktigt. Lokal kvalitetssäkring är klar; importresultat
+fylls i efter uppladdningen.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
