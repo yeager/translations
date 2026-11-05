@@ -332,6 +332,15 @@ och Gitleaks. Blender Translate bekräftade **4 bearbetade, 1 uppdaterad, 3
 hoppade över och 0 saknade**. Uppdateringen ersätter den engelska hjälpetiketten
 för Skala in/ut.
 
+Batch 40 granskar bensamlingarnas hierarki, biblioteksöverskrivningar och
+effektiva synlighet. Den använder `överordnad`, `bensamling`,
+`biblioteksöverskrivning` och `effektiv synlighet` konsekvent i Blenderns
+trädvy. Deltafilen och termlistan har passerat `msgfmt`, l10n-lint, svlang,
+Hunspell, diffkontroll och Gitleaks. Svlangs låga katalogpoäng kommer från
+korta booleska egenskapstexter och imperativ; de är manuellt verifierade.
+Batchen är arkiverad lokalt och väntar på verifierad uppladdning till Blender
+Translate.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade

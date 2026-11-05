@@ -163,6 +163,8 @@ Senast uppdaterad: 2026-11-05.
 | envelope influence | kuvertets påverkan | Påverkan från ett bens Envelope-volym vid armaturdeformering. |
 | relative parenting | relativ överordning | Armaturinställning som låter underordnade objekt använda relativ transformering. |
 | scale easing | skalutjämning | B-Bone-inställning som skalar de slutliga utjämningsvärdena med Y-faktorerna för Skala in/ut. |
+| library override | biblioteksöverskrivning | Lokal ändring av länkat biblioteksmaterial i aktuell Blender-fil. |
+| effective visibility | effektiv synlighet | Synlighet som beror på både bensamlingen och alla dess överordnade samlingar. |
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
 | Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
 | target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
