@@ -145,6 +145,10 @@ Senast uppdaterad: 2026-11-05.
 | project axis | projektionsaxel | Axeln som Shrinkwrap projicerar längs. Skilj från ett projekts egen axel. |
 | target normal | målnormal | Normal från målets yta, till exempel i Shrinkwrap-projektion. |
 | joint binding | ledbindning | Spline IK-inställning för leders relativa positioner längs kedjan. |
+| curve mapping | kurvkartläggning | Verktyg som mappar färg-, vektor- eller skalärvärden via en användardefinierad kurva. |
+| curve map point | kurvkartpunkt | Punkt i en kurvkartläggning. |
+| support loop | stödslinga | Topologisk loop som kontrollerar skärpan kring en meshdetalj. |
+| mix mode | blandningsläge | Anger hur en Transform Constraint kombinerar position, rotation eller skala med det ursprungliga värdet. |
 | clipping plane | klippningsplan | Etablerad svensk CAD-/grafikterm. Använd inte *klippplan*, eftersom den formen får tre p i följd. |
 | wireframe | trådram | Befintligt svenskt Blender-UI-namn. Skriv *trådramsläge* för *wireframe mode*. |
 | shape key | formnyckel | Etablerad term i Blenders TBX-ordlista och UI. |
