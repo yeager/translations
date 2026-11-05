@@ -381,8 +381,8 @@ bearbetade, 11 uppdaterade, 5 hoppade över och 0 saknade**.
 
 Batch 46 granskar Grease Pencil-penslarnas raderings- och fyllningslägen.
 Den rättar bland annat `Poäng` till `Punkt`, `Poseringsläge` till
-`Slutningsläge` och engelska rester i hjälptexterna. Batchen är lokalt
-kontrollerad och väntar på arkivering och verifierad import.
+`Slutningsläge` och engelska rester i hjälptexterna. Blender Translate
+bekräftade **21 bearbetade, 18 uppdaterade, 3 hoppade över och 0 saknade**.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
