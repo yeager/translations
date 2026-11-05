@@ -705,6 +705,16 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 122 granskar shaderutdata, texturer, partiklar och himmelsnoder i tre
+separata radintervall. Tre oberoende genomgångar har kontrollerats mot
+Blenders shader- och texturkontext samt den projektspecifika terminologin.
+Den lokala deltafilen `blender-ui-sv-reviewed-20261105-122.po` innehåller 42
+granskade UI-strängar, bland annat *AOV-utdata*, *materialutdata*,
+*texturkoordinater*, *miljötextur*, *hörnpunktsfärglager*, *markalbedo* och
+*funktionsutdata*. `msgfmt`, `l10n-lint`, diffkontroll och Gitleaks passerar.
+Filen är lokalt validerad och arkiverad men väntar på importresultat från
+Blender Translate.
+
 Batch 121 granskar UV-, grupp-, material- och shadernoder i tre separata
 radintervall. Tre oberoende genomgångar har kontrollerats mot nodernas
 RNA-kontext, shadertermer och den projektspecifika terminologilistan. Den
