@@ -1159,3 +1159,9 @@ granskningar har använts. De berörda posterna är lokalt markerade som
 översatta och deltafilen saknar `fuzzy`-markeringar. `msgfmt`, l10n-lint och
 diffkontroll passerar. Batchen är arkiverad för import i Blender Translate;
 något importresultat finns ännu inte.
+
+Batch 145 ersätter två Batch 144-poster så att de följer termlistans
+*Skala jämnt*. Batch 146 granskar Grease Pencil-egenskapen *Aktiv utjämning*.
+Båda deltafilerna är syntax- och språkgranskade, hemlighetsskannade och
+arkiverade för import i Blender Translate; något importresultat finns ännu
+inte.
