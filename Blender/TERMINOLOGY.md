@@ -358,6 +358,10 @@ Senast uppdaterad: 2026-11-05.
 | extension/add-on | tillägg | Använd i inställnings- och tilläggshanteringskontext. |
 | Asset Browser | resursbläddrare | Synlig Blender-funktion; *asset library* blir *resursbibliotek*. |
 | Grease Pencil Vertex/Weight Paint | hörnpunktsmålning/viktmålning med Grease Pencil | Målningslägen i arbetsytans objektläge. |
+| IK solver | IK-lösare | Lösare för invers kinematik; använd bindestreck. |
+| stateful/stateless solver | tillståndsbaserad/tillståndslös lösare | Avser om lösaren bevarar tillstånd mellan steg. |
+| lossy/lossless compression | komprimering med/utan förlust | Kodnings- och formatbeskrivning, inte *förlorad/förlustfri* blandat. |
+| float image values | flyttalsbildvärden | Använd *flyttal*, inte engelska *float*, i förklarande UI-text. |
 
 ## Kontrollerade UI-formuleringar
 

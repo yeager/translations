@@ -693,3 +693,14 @@ något importresultat finns ännu inte. Den 5 november stoppade Cloudflare
 Blender Translates API-filändpunkt före autentisering med HTTP 403 och en
 challenge-sida. Deltafilen är därför inte felaktigt markerad som uppladdad;
 den väntar på import via den redan inloggade webbläsaren.
+
+Batch 91 granskar världar, biblioteksåsidosättningar, invers kinematik och
+bildformat i tre separata radintervall. Tre primära delgranskningar och en
+oberoende slutgranskning har jämförts mot RNA-kontext och terminologilistan.
+Den lokalt validerade deltafilen innehåller 60 säkra UI-strängar, bland annat
+*biblioteksåsidosättning*, *IK-lösare*, *tillståndsbaserad lösare*,
+*bildruteintervall*, *färghantering* och *komprimering med förlust*.
+`msgfmt` och l10n-lint passerar. Hunspell-träffarna är kontrollerade
+Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter,
+kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
+import till Blender Translate; något importresultat finns ännu inte.
