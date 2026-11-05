@@ -1033,3 +1033,13 @@ och svlang-träffarna gäller avsiktliga Blender-sammansättningar, tekniska
 formatnamn och korta UI-etiketter; inga språkfel hittades. Batchen är
 arkiverad för import till Blender Translate; något importresultat finns ännu
 inte.
+
+Batch 128 granskar F-kurvors nyckelbildrutor, inklistring, urval och
+fästning i tre separata radintervall. Tre oberoende delgranskningar har
+jämförts mot Graph Editor- och NLA-kontexten. Den lokalt validerade deltafilen
+innehåller 51 granskade UI-strängar, bland annat *nyckelbildrutatyp*,
+*NLA-stapel*, *lassomarkering*, *förhandsgranskningsintervall* och
+*fäst nyckelbildrutor*. `msgfmt`, l10n-lint och diffkontroll passerar.
+Hunspell- och svlang-träffarna gäller avsiktliga Blender-sammansättningar och
+korta UI-etiketter; inga språkfel hittades. Batchen är arkiverad för import
+till Blender Translate; något importresultat finns ännu inte.

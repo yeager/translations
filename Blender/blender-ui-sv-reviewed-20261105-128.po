@@ -1,0 +1,392 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.ACTION_OT_keyframe_type
+msgctxt "Operator"
+msgid "Set Keyframe Type"
+msgstr "Ange nyckelbildrutatyp"
+
+#. :src: bpy.types.ACTION_OT_keyframe_type
+msgid "Set type of keyframe for the selected keyframes"
+msgstr "Ange nyckelbildrutatyp för markerade nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_layer_next
+msgid ""
+"Switch to editing action in animation layer above the current action in the "
+"NLA Stack"
+msgstr ""
+"Växla till redigering av åtgärden i animationslagret ovanför den aktuella "
+"åtgärden i NLA-stapeln"
+
+#. :src: bpy.types.ACTION_OT_layer_prev
+msgid ""
+"Switch to editing action in animation layer below the current action in the "
+"NLA Stack"
+msgstr ""
+"Växla till redigering av åtgärden i animationslagret under den aktuella "
+"åtgärden i NLA-stapeln"
+
+#. :src: bpy.types.ACTION_OT_markers_make_local
+msgid ""
+"Move selected scene markers to the active Action as local 'pose' markers"
+msgstr ""
+"Flytta markerade scenmarkörer till den aktiva åtgärden som lokala ”pose”-"
+"markörer"
+
+#. :src: bpy.types.ACTION_OT_mirror
+#. :src: bpy.types.GRAPH_OT_mirror
+msgctxt "Operator"
+msgid "Mirror Keys"
+msgstr "Spegla nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_mirror
+#. :src: bpy.types.GRAPH_OT_mirror
+msgid "Flip selected keyframes over the selected mirror line"
+msgstr "Spegla markerade nyckelbildrutor över den valda spegellinjen"
+
+#. :src: bpy.types.ACTION_OT_mirror.type:'CFRA'
+#. :src: bpy.types.GRAPH_OT_mirror.type:'CFRA'
+msgid ""
+"Flip times of selected keyframes using the current frame as the mirror line"
+msgstr ""
+"Spegla tiderna för markerade nyckelbildrutor med den aktuella bildrutan som "
+"spegellinje"
+
+#. :src: bpy.types.ACTION_OT_mirror.type:'XAXIS'
+#. :src: bpy.types.GRAPH_OT_mirror.type:'XAXIS'
+msgid ""
+"Flip values of selected keyframes (i.e. negative values become positive, and "
+"vice versa)"
+msgstr ""
+"Spegla värden för markerade nyckelbildrutor (dvs. negativa värden blir "
+"positiva och tvärtom)"
+
+#. :src: bpy.types.ACTION_OT_mirror.type:'MARKER'
+#. :src: bpy.types.GRAPH_OT_mirror.type:'MARKER'
+msgid ""
+"Flip times of selected keyframes using the first selected marker as the "
+"reference point"
+msgstr ""
+"Spegla tiderna för markerade nyckelbildrutor med den första markerade "
+"markören som referenspunkt"
+
+#. :src: bpy.types.ACTION_OT_paste
+#. :src: bpy.types.GRAPH_OT_paste
+msgctxt "Operator"
+msgid "Paste Keyframes"
+msgstr "Klistra in nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_paste
+#. :src: bpy.types.GRAPH_OT_paste
+msgid ""
+"Paste keyframes from the internal clipboard for the selected channels, "
+"starting on the current frame"
+msgstr ""
+"Klistra in nyckelbildrutor från det interna urklippet för de markerade "
+"kanalerna, med början på den aktuella bildrutan"
+
+#. :src: bpy.types.ACTION_OT_paste.flipped
+#. :src: bpy.types.GRAPH_OT_paste.flipped
+#. :src: bpy.types.POSELIB_OT_pose_asset_select_bones.flipped
+#. :src: bpy.types.TRANSFORM_OT_edge_slide.flipped
+#. :src: bpy.types.TRANSFORM_OT_vert_slide.flipped
+#: source/blender/editors/transform/transform_mode_edge_slide.cc:833
+msgid "Flipped"
+msgstr "Spegelvänd"
+
+#. :src: bpy.types.ACTION_OT_paste.flipped
+#. :src: bpy.types.GRAPH_OT_paste.flipped
+#: source/blender/editors/space_action/action_edit.cc:735
+#: source/blender/editors/space_graph/graph_edit.cc:617
+msgid "Paste keyframes from mirrored bones if they exist"
+msgstr "Klistra in nyckelbildrutor från speglade ben om de finns"
+
+#. :src: bpy.types.ACTION_OT_paste.merge
+#. :src: bpy.types.GRAPH_OT_paste.merge
+msgid "Method of merging pasted keys and existing"
+msgstr "Metod för att sammanfoga inklistrade och befintliga nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_paste.merge:'MIX'
+#. :src: bpy.types.GRAPH_OT_paste.merge:'MIX'
+msgid "Overlay existing with new keys"
+msgstr "Lägg nya nyckelbildrutor ovanpå befintliga"
+
+#. :src: bpy.types.ACTION_OT_paste.merge:'OVER_RANGE'
+#. :src: bpy.types.GRAPH_OT_paste.merge:'OVER_RANGE'
+msgid "Overwrite Range"
+msgstr "Skriv över intervall"
+
+#. :src: bpy.types.ACTION_OT_paste.merge:'OVER_RANGE'
+#. :src: bpy.types.GRAPH_OT_paste.merge:'OVER_RANGE'
+msgid "Overwrite keys in pasted range"
+msgstr "Skriv över nyckelbildrutor i det inklistrade intervallet"
+
+#. :src: bpy.types.ACTION_OT_paste.merge:'OVER_RANGE_ALL'
+#. :src: bpy.types.GRAPH_OT_paste.merge:'OVER_RANGE_ALL'
+msgid "Overwrite Entire Range"
+msgstr "Skriv över hela intervallet"
+
+#. :src: bpy.types.ACTION_OT_paste.merge:'OVER_RANGE_ALL'
+#. :src: bpy.types.GRAPH_OT_paste.merge:'OVER_RANGE_ALL'
+msgid "Overwrite keys in pasted range, using the range of all copied keys"
+msgstr ""
+"Skriv över nyckelbildrutor i det inklistrade intervallet med intervallet för "
+"alla kopierade nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_paste.offset
+#. :src: bpy.types.GRAPH_OT_paste.offset
+msgid "Paste time offset of keys"
+msgstr "Klistra in nyckelbildrutornas tidsförskjutning"
+
+#. :src: bpy.types.ACTION_OT_paste.offset:'START'
+#. :src: bpy.types.GRAPH_OT_paste.offset:'START'
+msgid "Paste keys starting at current frame"
+msgstr "Klistra in nyckelbildrutor som börjar vid den aktuella bildrutan"
+
+#. :src: bpy.types.ACTION_OT_paste.offset:'END'
+#. :src: bpy.types.GRAPH_OT_paste.offset:'END'
+msgid "Frame End"
+msgstr "Slutbildruta"
+
+#. :src: bpy.types.ACTION_OT_paste.offset:'RELATIVE'
+#. :src: bpy.types.GRAPH_OT_paste.offset:'RELATIVE'
+msgid "Frame Relative"
+msgstr "Relativt till bildruta"
+
+#. :src: bpy.types.ACTION_OT_paste.offset:'RELATIVE'
+#. :src: bpy.types.GRAPH_OT_paste.offset:'RELATIVE'
+msgid "Paste keys relative to the current frame when copying"
+msgstr ""
+"Klistra in nyckelbildrutor relativt den aktuella bildrutan vid kopiering"
+
+#. :src: bpy.types.ACTION_OT_paste.offset:'NONE'
+#. :src: bpy.types.GRAPH_OT_paste.offset:'NONE'
+msgid "Paste keys from original time"
+msgstr "Klistra in nyckelbildrutor från ursprunglig tid"
+
+#. :src: bpy.types.ACTION_OT_previewrange_set
+#. :src: bpy.types.GRAPH_OT_previewrange_set
+#. :src: bpy.types.NLA_OT_previewrange_set
+msgctxt "Operator"
+msgid "Set Preview Range to Selected"
+msgstr "Ange förhandsgranskningsintervall för markerade"
+
+#. :src: bpy.types.ACTION_OT_previewrange_set
+msgid "Set Preview Range based on extents of selected Keyframes"
+msgstr ""
+"Ange förhandsgranskningsintervall utifrån omfånget av markerade "
+"nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_push_down
+#. :src: bpy.types.NLA_OT_action_pushdown
+#: scripts/startup/bl_ui/space_dopesheet.py:576
+msgctxt "Operator"
+msgid "Push Down Action"
+msgstr "Skjut ned åtgärd"
+
+#. :src: bpy.types.ACTION_OT_select_all
+#. :src: bpy.types.GRAPH_OT_select_all
+msgid "Toggle selection of all keyframes"
+msgstr "Växla markering av alla nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_select_box
+#. :src: bpy.types.GRAPH_OT_select_box
+msgid "Select all keyframes within the specified region"
+msgstr "Markera alla nyckelbildrutor inom den angivna regionen"
+
+#. :src: bpy.types.ACTION_OT_select_box.tweak
+#. :src: bpy.types.GRAPH_OT_select_box.tweak
+#. :src: bpy.types.MARKER_OT_move.tweak
+#. :src: bpy.types.MARKER_OT_select_box.tweak
+#. :src: bpy.types.NLA_OT_select_box.tweak
+msgid "Operator has been activated using a click-drag event"
+msgstr "Operatören har aktiverats genom att klicka och dra"
+
+#. :src: bpy.types.ACTION_OT_select_box.wait_for_input
+#. :src: bpy.types.ACTION_OT_select_circle.wait_for_input
+#. :src: bpy.types.ANIM_OT_channels_select_box.wait_for_input
+#. :src: bpy.types.ANIM_OT_previewrange_set.wait_for_input
+#. :src: bpy.types.CLIP_OT_graph_select_box.wait_for_input
+#. :src: bpy.types.CLIP_OT_select_box.wait_for_input
+#. :src: bpy.types.CLIP_OT_select_circle.wait_for_input
+#. :src: bpy.types.CURVES_OT_draw.wait_for_input
+#. :src: bpy.types.CURVE_OT_draw.wait_for_input
+#. :src: bpy.types.FILE_OT_select_box.wait_for_input
+#. :src: bpy.types.GPENCIL_OT_annotate.wait_for_input
+#. :src: bpy.types.GRAPH_OT_select_box.wait_for_input
+#. :src: bpy.types.GRAPH_OT_select_circle.wait_for_input
+#. :src: bpy.types.GREASE_PENCIL_OT_erase_box.wait_for_input
+#. :src: bpy.types.IMAGE_OT_render_border.wait_for_input
+#. :src: bpy.types.IMAGE_OT_view_zoom_border.wait_for_input
+#. :src: bpy.types.INFO_OT_select_box.wait_for_input
+#. :src: bpy.types.MARKER_OT_select_box.wait_for_input
+#. :src: bpy.types.MASK_OT_select_box.wait_for_input
+#. :src: bpy.types.MASK_OT_select_circle.wait_for_input
+#. :src: bpy.types.MESH_OT_knife_tool.wait_for_input
+#. :src: bpy.types.MESH_OT_vertices_smooth.wait_for_input
+#. :src: bpy.types.NLA_OT_select_box.wait_for_input
+#. :src: bpy.types.NODE_OT_select_box.wait_for_input
+#. :src: bpy.types.NODE_OT_select_circle.wait_for_input
+#. :src: bpy.types.NODE_OT_viewer_border.wait_for_input
+#. :src: bpy.types.OUTLINER_OT_select_box.wait_for_input
+#. :src: bpy.types.PAINT_OT_hide_show.wait_for_input
+#. :src: bpy.types.PAINT_OT_mask_box_gesture.wait_for_input
+#. :src: bpy.types.SCULPT_OT_face_set_box_gesture.wait_for_input
+#. :src: bpy.types.SCULPT_OT_trim_box_gesture.wait_for_input
+#. :src: bpy.types.SEQUENCER_OT_select_box.wait_for_input
+#. :src: bpy.types.SEQUENCER_OT_view_ghost_border.wait_for_input
+#. :src: bpy.types.TRANSFORM_OT_vertex_random.wait_for_input
+#. :src: bpy.types.UV_OT_select_box.wait_for_input
+#. :src: bpy.types.UV_OT_select_circle.wait_for_input
+#. :src: bpy.types.VIEW2D_OT_smoothview.wait_for_input
+#. :src: bpy.types.VIEW2D_OT_zoom_border.wait_for_input
+#. :src: bpy.types.VIEW3D_OT_clip_border.wait_for_input
+#. :src: bpy.types.VIEW3D_OT_interactive_add.wait_for_input
+#. :src: bpy.types.VIEW3D_OT_render_border.wait_for_input
+#. :src: bpy.types.VIEW3D_OT_select_box.wait_for_input
+#. :src: bpy.types.VIEW3D_OT_select_circle.wait_for_input
+#. :src: bpy.types.VIEW3D_OT_zoom_border.wait_for_input
+msgid "Wait for Input"
+msgstr "Vänta på indata"
+
+#. :src: bpy.types.ACTION_OT_select_circle
+#. :src: bpy.types.GRAPH_OT_select_circle
+msgid "Select keyframe points using circle selection"
+msgstr "Markera nyckelbildrutepunkter med cirkelmarkering"
+
+#. :src: bpy.types.ACTION_OT_select_column
+#. :src: bpy.types.GRAPH_OT_select_column
+msgid "Select all keyframes on the specified frame(s)"
+msgstr "Markera alla nyckelbildrutor på de angivna bildrutorna"
+
+#. :src: bpy.types.ACTION_OT_select_column.mode:'KEYS'
+#. :src: bpy.types.GRAPH_OT_select_column.mode:'KEYS'
+#. :src: bpy.types.POSE_OT_propagate.mode:'SELECTED_KEYS'
+msgid "On Selected Keyframes"
+msgstr "På markerade nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_select_column.mode:'MARKERS_BETWEEN'
+#. :src: bpy.types.GRAPH_OT_select_column.mode:'MARKERS_BETWEEN'
+msgid "Between Min/Max Selected Markers"
+msgstr "Mellan minsta och största markerade markör"
+
+#. :src: bpy.types.ACTION_OT_select_lasso
+#. :src: bpy.types.GRAPH_OT_select_lasso
+msgid "Select keyframe points using lasso selection"
+msgstr "Markera nyckelbildrutepunkter med lassomarkering"
+
+#. :src: bpy.types.ACTION_OT_select_lasso.smooth_stroke_factor
+#. :src: bpy.types.CLIP_OT_select_lasso.smooth_stroke_factor
+#. :src: bpy.types.GPENCIL_OT_annotate.stabilizer_factor
+#. :src: bpy.types.GRAPH_OT_select_lasso.smooth_stroke_factor
+#. :src: bpy.types.GREASE_PENCIL_OT_erase_lasso.smooth_stroke_factor
+#. :src: bpy.types.GREASE_PENCIL_OT_stroke_trim.smooth_stroke_factor
+#. :src: bpy.types.MASK_OT_select_lasso.smooth_stroke_factor
+#. :src: bpy.types.NODE_OT_select_lasso.smooth_stroke_factor
+#. :src: bpy.types.PAINT_OT_hide_show_lasso_gesture.smooth_stroke_factor
+#. :src: bpy.types.PAINT_OT_mask_lasso_gesture.smooth_stroke_factor
+#. :src: bpy.types.SCULPT_OT_face_set_lasso_gesture.smooth_stroke_factor
+#. :src: bpy.types.SCULPT_OT_trim_lasso_gesture.smooth_stroke_factor
+#. :src: bpy.types.UV_OT_select_lasso.smooth_stroke_factor
+#. :src: bpy.types.VIEW3D_OT_select_lasso.smooth_stroke_factor
+msgid "Higher values gives a smoother stroke"
+msgstr "Högre värden ger ett jämnare streck"
+
+#. :src: bpy.types.ACTION_OT_select_lasso.use_smooth_stroke
+#. :src: bpy.types.CLIP_OT_select_lasso.use_smooth_stroke
+#. :src: bpy.types.GPENCIL_OT_annotate.use_stabilizer
+#. :src: bpy.types.GRAPH_OT_select_lasso.use_smooth_stroke
+#. :src: bpy.types.GREASE_PENCIL_OT_erase_lasso.use_smooth_stroke
+#. :src: bpy.types.GREASE_PENCIL_OT_stroke_trim.use_smooth_stroke
+#. :src: bpy.types.MASK_OT_select_lasso.use_smooth_stroke
+#. :src: bpy.types.NODE_OT_select_lasso.use_smooth_stroke
+#. :src: bpy.types.PAINT_OT_hide_show_lasso_gesture.use_smooth_stroke
+#. :src: bpy.types.PAINT_OT_mask_lasso_gesture.use_smooth_stroke
+#. :src: bpy.types.SCULPT_OT_face_set_lasso_gesture.use_smooth_stroke
+#. :src: bpy.types.SCULPT_OT_trim_lasso_gesture.use_smooth_stroke
+#. :src: bpy.types.UV_OT_select_lasso.use_smooth_stroke
+#. :src: bpy.types.VIEW3D_OT_select_lasso.use_smooth_stroke
+#. :src: bpy.types.IMAGE_PT_paint_stroke_smooth_stroke
+#. :src: bpy.types.VIEW3D_PT_tools_brush_stroke_smooth_stroke
+#. :src: bpy.types.VIEW3D_PT_tools_grease_pencil_brush_stabilizer
+#. :src: bpy.types.VIEW3D_PT_tools_grease_pencil_v3_brush_stabilizer
+#: scripts/startup/bl_ui/space_toolsystem_toolbar.py:1480
+#: scripts/startup/bl_ui/space_toolsystem_toolbar.py:236
+#: scripts/startup/bl_ui/space_toolsystem_toolbar.py:242
+msgid "Stabilize Stroke"
+msgstr "Stabilisera streck"
+
+#. :src: bpy.types.ACTION_OT_select_leftright
+#. :src: bpy.types.GRAPH_OT_select_leftright
+msgid "Select keyframes to the left or the right of the current frame"
+msgstr ""
+"Markera nyckelbildrutor till vänster eller höger om den aktuella bildrutan"
+
+#. :src: bpy.types.ACTION_OT_select_less
+#. :src: bpy.types.GRAPH_OT_select_less
+msgid "Deselect keyframes on ends of selection islands"
+msgstr "Avmarkera nyckelbildrutor i ändarna av markeringsöarna"
+
+#. :src: bpy.types.ACTION_OT_select_linked
+#. :src: bpy.types.GRAPH_OT_select_linked
+msgid "Select keyframes occurring in the same F-Curves as selected ones"
+msgstr "Markera nyckelbildrutor i samma F-kurvor som de markerade"
+
+#. :src: bpy.types.ACTION_OT_select_more
+#. :src: bpy.types.GRAPH_OT_select_more
+msgid "Select keyframes beside already selected ones"
+msgstr "Markera nyckelbildrutor intill redan markerade"
+
+#. :src: bpy.types.ACTION_OT_snap
+#. :src: bpy.types.GRAPH_OT_snap
+msgctxt "Operator"
+msgid "Snap Keys"
+msgstr "Fäst nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_snap
+msgid "Snap selected keyframes to the times specified"
+msgstr "Fäst markerade nyckelbildrutor vid de angivna tiderna"
+
+#. :src: bpy.types.ACTION_OT_snap.type:'CFRA'
+#. :src: bpy.types.GRAPH_OT_snap.type:'CFRA'
+msgid "Snap selected keyframes to the current frame"
+msgstr "Fäst markerade nyckelbildrutor vid den aktuella bildrutan"
+
+#. :src: bpy.types.ACTION_OT_snap.type:'NEAREST_SECOND'
+#. :src: bpy.types.GRAPH_OT_snap.type:'NEAREST_SECOND'
+msgid "Snap selected keyframes to the nearest second"
+msgstr "Fäst markerade nyckelbildrutor vid närmaste sekund"
+
+#. :src: bpy.types.ACTION_OT_snap.type:'NEAREST_MARKER'
+#. :src: bpy.types.GRAPH_OT_snap.type:'NEAREST_MARKER'
+msgid "Snap selected keyframes to the nearest marker"
+msgstr "Fäst markerade nyckelbildrutor vid närmaste markör"
+
+#. :src: bpy.types.ACTION_OT_unlink
+#. :src: bpy.types.NLA_OT_action_unlink
+msgctxt "Operator"
+msgid "Unlink Action"
+msgstr "Koppla bort åtgärd"

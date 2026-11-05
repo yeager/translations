@@ -476,6 +476,8 @@ Senast uppdaterad: 2026-11-05.
 | F-Curve | F-kurva | Kurvan som beskriver ett animerat värde över tid. |
 | fade (sequencer) | uttoning | Gradvis övergång i bild eller ljud mellan remsor. |
 | keymap configuration | tangentmappningskonfiguration | Sparad uppsättning Blender-tangentmappningar. |
+| snap keyframes | fäst nyckelbildrutor | Flyttar nyckelbildrutor till bestämda tider, bildrutor eller markörer. |
+| NLA stack | NLA-stapel | Lagerordningen för åtgärder och remsor i Nonlinear Animation. |
 
 ## Kontrollerade UI-formuleringar
 
