@@ -480,6 +480,8 @@ begränsningsetiketter, blandningslägen, kurvkartläggning och topologitermen
 Translate bekräftade **31 bearbetade, 11 uppdaterade, 20 hoppade över och 0
 saknade**.
 
+Batch 63 granskar Dynamic Paint och RNA-egenskaper. Två oberoende granskningar bekräftade de kontextbundna termerna. Deltafilen är lokalt validerad och arkiveras för import.
+
 Batch 61 granskar kurvdata, beroendegrafen och Dope Sheet-filter rad för rad.
 Två oberoende, skrivskyddade delgranskningar har jämförts med RNA-kontext och
 befintlig Blender-terminologi. Den lokalt validerade deltafilen normaliserar
