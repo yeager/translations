@@ -78,6 +78,12 @@ systeminställningens kontext. `blender-ui-sv-reviewed-20261105-09.po`
 importerades med resultatet **1 bearbetad, 1 uppdaterad, 0 hoppade över och 0
 saknades**.
 
+Batch 10 rättade två avhuggna statusmeddelanden i Inställningar.
+`blender-ui-sv-reviewed-20261105-10.po` ändrar dem till `Inga anpassade
+MatCaps har konfigurerats` respektive `Inga anpassade HDRIs har
+konfigurerats`. Blender Translate bekräftade **2 bearbetade, 2 uppdaterade, 0
+hoppade över och 0 saknades**.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
