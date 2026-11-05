@@ -12,7 +12,7 @@ Senast uppdaterad: 2026-11-04.
 | Engelska | Svenska | Anmärkning |
 | --- | --- | --- |
 | asset library | tillgångsbibliotek / resursbibliotek | Båda förekommer i den etablerade Blender-katalogen. Följ närliggande UI och ändra inte mekaniskt mellan dem. I längre förklarande text är *tillgångsbibliotek* den vanligaste befintliga formen. |
-| add-on / extension | tillägg | I Blender betecknar båda källtermerna samma utbyggbara funktion. Svenska använder samma form i singular och plural i korta UI-etiketter. |
+| add-on / extension | tillägg | I Blender betecknar båda källtermerna samma utbyggbara funktion. Svenska använder samma form i singular och plural i korta UI-etiketter. I dokumentation som måste skilja undergruppen *add-ons* från samlingsnamnet *extensions* kan *tilläggsmoduler* användas för just undergruppen. |
 | data-block | datablock | Skriv ihop. Behåll bindestrecket bara i bokstavliga API-namn. |
 | object | objekt | Etablerad Blender-term. |
 | collection | samling | Avser Blenders objektbehållare, inte en godtycklig lista. |
@@ -26,6 +26,7 @@ Senast uppdaterad: 2026-11-04.
 | application template | applikationsmall | Etablerad i den svenska manualen och i startskärmens dokumentation. |
 | user preferences | användarinställningar | Gäller konfigurationsfil, inställningar och kommandoradsflaggor i manualen. UI-rubriken *Preferences* följer sin egen kontext. |
 | extension repository | tilläggsförråd | Manualens etablerade term för Blenders paketkälla. Använd *fjärrförråd*, *användarförråd* och *systemförråd* när attributet är betydelsebärande. Behåll kommandon som `repo-info` exakt. |
+| Allow Online Access | Tillåt nätåtkomst | Etiketten i den aktuella UI-katalogen. Varianten *Tillåt onlineåtkomst* finns i ett separat operator-sammanhang; normalisera inte den utan att kontrollera kontexten. |
 | timeout | tidsgräns | Exempel: *Animation Timeout* → *Animationstidsgräns*. |
 | linked | länkad | Exempel: *linked object* → *länkat objekt*. |
 | packed | packad | Exempel: *packed data-block* → *packat datablock*. |

@@ -35,3 +35,12 @@ SPDX-licensnamn har bevarats exakt.
 
 Råexporten är orörd. Deltafilen är en lokal kandidat och är inte uppladdad
 till Blender Translate.
+
+## Terminologisk efterkontroll 5 november
+
+Den svenska UI-katalogen använder **Tillägg** för både *Extensions* och
+*Add-ons*. I den inledande manualmeningen är *add-ons* däremot en av flera
+undergrupper under samlingsnamnet *Extensions*; **tilläggsmoduler** behåller
+den distinktionen. **Resursbibliotek** och **Tillåt nätåtkomst** följer den
+berörda UI-kontexten. Manifestschema, enumvärden, SPDX-namn och
+RST/API-identifierare är formella värden och förblir oförändrade.
