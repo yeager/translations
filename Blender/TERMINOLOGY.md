@@ -149,6 +149,10 @@ Senast uppdaterad: 2026-11-05.
 | curve map point | kurvkartpunkt | Punkt i en kurvkartläggning. |
 | support loop | stödslinga | Topologisk loop som kontrollerar skärpan kring en meshdetalj. |
 | mix mode | blandningsläge | Anger hur en Transform Constraint kombinerar position, rotation eller skala med det ursprungliga värdet. |
+| curve slice | kurvsegment | En enskild kurva från ett curves-datablock. |
+| curve spline | kurvspline | Spline som hör till en kurva; plural *kurvsplines*. |
+| view layer | visningslager | Blender-datalager som bestämmer vilka samlingar och objekt som är synliga vid utvärdering och rendering. |
+| dependency graph | beroendegraf | Blenders graf över datablock och deras beroenden vid utvärdering. |
 | clipping plane | klippningsplan | Etablerad svensk CAD-/grafikterm. Använd inte *klippplan*, eftersom den formen får tre p i följd. |
 | wireframe | trådram | Befintligt svenskt Blender-UI-namn. Skriv *trådramsläge* för *wireframe mode*. |
 | shape key | formnyckel | Etablerad term i Blenders TBX-ordlista och UI. |
