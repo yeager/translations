@@ -444,6 +444,11 @@ Två oberoende, skrivskyddade delgranskningar har jämförts med den exakta
 RNA-kontexten. Deltafilen är lokalt validerad och arkiverad. Blender Translate
 bekräftade **12 bearbetade, 4 uppdaterade, 8 hoppade över och 0 saknade**.
 
+Batch 56 granskar de konkreta Copy Constraint-typerna och deras egenskaper.
+Den ersätter maskinöversatta sammansättningar, normaliserar *position* och
+*transformation* samt rättar den felaktiga statusetiketten `DEPRECATED`.
+Deltafilen är lokalt validerad och väntar på arkivering och verifierad import.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
