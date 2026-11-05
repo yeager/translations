@@ -33,5 +33,6 @@ etablerade motsvarigheten till *join field* är **föreningsfält**, inte
 `kopplingsfält`; samtliga fem förekomster i PR #96 har därför ändrats
 konsekvent. `l10n-lint`, `hunspell-sv`, `git diff --check` och Gitleaks är
 godkända. `svlang` saknar stöd för Fluent (`.ftl`) och kunde därför inte köras
-på filen. Den uppdaterade, fortfarande öppna PR:n inväntar ny CI och
+på filen. Den uppdaterade, fortfarande öppna PR:n har därefter passerat både
+`Pre-commit hooks` och `Fluent Syntax Check` i CI; den inväntar nu bara
 underhållargranskning.
