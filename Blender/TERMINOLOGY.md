@@ -367,6 +367,8 @@ Senast uppdaterad: 2026-11-05.
 | key configuration | tangentkonfiguration | Samling av Blender-tangentmappningar. |
 | tile (UDIM/image) | platta | Bild- eller UDIM-platta; inte kakel. |
 | NDOF | NDOF | Behåll enhetens produktförkortning; översätt den efterföljande synliga åtgärden med liten begynnelsebokstav. |
+| keyframe | nyckelbildruta | Grundterm för animeringspunkt på en F-kurva. |
+| quartic/quintic interpolation | fjärdegradig/femtegradig interpolering | Matematiska interpoleringsord; inte kvadratisk eller engelska funktionsnamn. |
 
 ## Kontrollerade UI-formuleringar
 
