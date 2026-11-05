@@ -70,6 +70,10 @@ Senast uppdaterad: 2026-11-05.
 | Blendfile Import Context | blendfilimportkontext | RNA-kontext för import, länkning och tillägg av data från blendfilsbibliotek. |
 | source library | källbibliotek | Det bibliotek eller den blendfil som ett importerat datablock kommer från. |
 | Append Action | tilläggsåtgärd | API-egenskap som anger hur ett ID hanterades när data lades till. |
+| boid | boid | Etablerad simuleringsterm i Blenders flockningsfysik. Plural: *boider*. |
+| Boid Rule | boidregel | Regel som styr en boids mål, undvikande, flockning eller strid. |
+| banking | krängning | Rotation kring rörelseriktningen vid flygning eller sväng. |
+| falloff | avtagande | Avtagande påverkan i fält, penslar och BoidState. |
 | linked | länkad | Exempel: *linked object* → *länkat objekt*. |
 | packed | packad | Exempel: *packed data-block* → *packat datablock*. |
 | parent | förälder / överordnad | Kontextstyrt i Blender-hierarkin. Den fristående UI-egenskapen kan vara *Förälder*, medan objekt- och samlingshierarkier använder *överordnat objekt* eller *överordnad*. Normalisera inte mekaniskt. |

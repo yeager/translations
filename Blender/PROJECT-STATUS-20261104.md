@@ -1119,3 +1119,12 @@ radgranskade importkontextposter är nu markerade som översatta. Batchen
 normaliserar även blendfilsökvägar, tomma objekt och neutrumformen för ID:n.
 `msgfmt`, l10n-lint och diffkontroll passerar. Deltafilen är arkiverad för
 Blender Translate; något importresultat finns ännu inte.
+
+Batcherna 139 och 140 granskar Boids flockningsfysik och Blender-RNA. De två
+deltafilerna innehåller 90 respektive 17 strängar och håller därmed
+uppladdningar under gränsen på 100 strängar. Granskningen rättar bland annat
+felimporterna *Sändningstid* för *In Air* och en orelaterad musiktext för
+*Fight*, samt normaliserar *boidregel*, *krängning*, flyghöjd och
+markfästkraft. `msgfmt`, l10n-lint och diffkontroll passerar. Batcherna är
+arkiverade för import i Blender Translate; något importresultat finns ännu
+inte.

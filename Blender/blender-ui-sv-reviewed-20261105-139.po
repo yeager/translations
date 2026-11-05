@@ -1,0 +1,419 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.BlenderRNA
+msgid "Blender RNA"
+msgstr "Blender-RNA"
+
+#. :src: bpy.types.BlenderRNA
+msgid "Blender RNA structure definitions"
+msgstr "Strukturdefinitioner för Blender-RNA"
+
+#. :src: bpy.types.BlenderRNA.structs
+msgid "Structs"
+msgstr "Strukturer"
+
+#. :src: bpy.types.BoidRule
+msgid "Boid Rule"
+msgstr "Boidregel"
+
+#. :src: bpy.types.BoidRule.name
+msgid "Boid rule name"
+msgstr "Namn på boidregel"
+
+#. :src: bpy.types.BoidRule.type:'GOAL'
+#. :src: bpy.types.BOID_OT_rule_add.type:'GOAL'
+msgid "Go to assigned object or loudest assigned signal source"
+msgstr ""
+"Gå till det tilldelade objektet eller den tilldelade signalkälla med "
+"starkast signal"
+
+#. :src: bpy.types.BoidRule.type:'AVOID'
+#. :src: bpy.types.BOID_OT_rule_add.type:'AVOID'
+msgid "Get away from assigned object or loudest assigned signal source"
+msgstr ""
+"Avlägsna dig från det tilldelade objektet eller den tilldelade signalkälla "
+"med starkast signal"
+
+#. :src: bpy.types.BoidRule.type:'AVOID_COLLISION'
+#. :src: bpy.types.BoidRuleAvoidCollision
+#. :src: bpy.types.BOID_OT_rule_add.type:'AVOID_COLLISION'
+msgid "Avoid Collision"
+msgstr "Undvik kollisioner"
+
+#. :src: bpy.types.BoidRule.type:'AVOID_COLLISION'
+#. :src: bpy.types.BOID_OT_rule_add.type:'AVOID_COLLISION'
+msgid ""
+"Maneuver to avoid collisions with other boids and deflector objects in near "
+"future"
+msgstr ""
+"Manövrera för att undvika kollisioner med andra boider och deflektorobjekt "
+"inom kort"
+
+#. :src: bpy.types.BoidRule.type:'SEPARATE'
+#. :src: bpy.types.BOID_OT_rule_add.type:'SEPARATE'
+msgid "Keep from going through other boids"
+msgstr "Undvik att passera genom andra boider"
+
+#. :src: bpy.types.BoidRule.type:'FLOCK'
+#. :src: bpy.types.BOID_OT_rule_add.type:'FLOCK'
+msgid "Move to center of neighbors and match their velocity"
+msgstr "Rör dig mot grannarnas mittpunkt och anpassa hastigheten efter deras"
+
+#. :src: bpy.types.BoidRule.type:'FOLLOW_LEADER'
+#. :src: bpy.types.BoidRuleFollowLeader
+#. :src: bpy.types.BOID_OT_rule_add.type:'FOLLOW_LEADER'
+msgid "Follow Leader"
+msgstr "Följ ledaren"
+
+#. :src: bpy.types.BoidRule.type:'FOLLOW_LEADER'
+#. :src: bpy.types.BOID_OT_rule_add.type:'FOLLOW_LEADER'
+msgid "Follow a boid or assigned object"
+msgstr "Följ en boid eller ett tilldelat objekt"
+
+#. :src: bpy.types.BoidRule.type:'AVERAGE_SPEED'
+#. :src: bpy.types.BOID_OT_rule_add.type:'AVERAGE_SPEED'
+msgid "Maintain speed, flight level or wander"
+msgstr "Behåll hastighet, flyghöjd eller vandra"
+
+#. :src: bpy.types.BoidRule.type:'FIGHT'
+#. :src: bpy.types.BoidRuleFight
+#. :src: bpy.types.BOID_OT_rule_add.type:'FIGHT'
+msgid "Fight"
+msgstr "Slåss"
+
+#. :src: bpy.types.BoidRule.type:'FIGHT'
+#. :src: bpy.types.BOID_OT_rule_add.type:'FIGHT'
+msgid "Go to closest enemy and attack when in range"
+msgstr "Gå till närmaste fiende och attackera när du är inom räckhåll"
+
+#. :src: bpy.types.BoidRule.use_in_air
+msgid "In Air"
+msgstr "I luften"
+
+#. :src: bpy.types.BoidRule.use_in_air
+msgid "Use rule when boid is flying"
+msgstr "Använd regel när boid flyger"
+
+#. :src: bpy.types.BoidRule.use_on_land
+msgid "On Land"
+msgstr "På land"
+
+#. :src: bpy.types.BoidRule.use_on_land
+msgid "Use rule when boid is on land"
+msgstr "Använd regel när boid är på land"
+
+#. :src: bpy.types.BoidRuleAverageSpeed.level
+msgid "How much velocity's z-component is kept constant"
+msgstr "Hur mycket hastighetens z-komponent hålls konstant"
+
+#. :src: bpy.types.BoidRuleAverageSpeed.speed
+msgid "Percentage of maximum speed"
+msgstr "Procent av maximal hastighet"
+
+#. :src: bpy.types.BoidRuleAverageSpeed.wander
+msgid "Wander"
+msgstr "Vandra"
+
+#. :src: bpy.types.BoidRuleAverageSpeed.wander
+msgid "How fast velocity's direction is randomized"
+msgstr "Hur snabbt hastighetens riktning slumpas"
+
+#. :src: bpy.types.BoidRuleAvoid.fear_factor
+msgid "Fear Factor"
+msgstr "Rädslofaktor"
+
+#. :src: bpy.types.BoidRuleAvoid.fear_factor
+msgid "Avoid object if danger from it is above this threshold"
+msgstr "Undvik objektet om faran från det ligger över denna tröskel"
+
+#. :src: bpy.types.BoidRuleAvoid.object
+msgid "Object to avoid"
+msgstr "Objekt att undvika"
+
+#. :src: bpy.types.BoidRuleAvoid.use_predict
+#. :src: bpy.types.BoidRuleGoal.use_predict
+msgid "Predict"
+msgstr "Förutse"
+
+#. :src: bpy.types.BoidRuleAvoid.use_predict
+#. :src: bpy.types.BoidRuleGoal.use_predict
+msgid "Predict target movement"
+msgstr "Förutse målets rörelse"
+
+#. :src: bpy.types.BoidRuleAvoidCollision.look_ahead
+msgid "Look Ahead"
+msgstr "Se framåt"
+
+#. :src: bpy.types.BoidRuleAvoidCollision.look_ahead
+msgid "Time to look ahead in seconds"
+msgstr "Tid att se framåt i sekunder"
+
+#. :src: bpy.types.BoidRuleAvoidCollision.use_avoid
+#. :src: bpy.types.ParticleSettings.physics_type:'BOIDS'
+msgid "Boids"
+msgstr "Boider"
+
+#. :src: bpy.types.BoidRuleAvoidCollision.use_avoid
+msgid "Avoid collision with other boids"
+msgstr "Undvik kollision med andra boider"
+
+#. :src: bpy.types.BoidRuleAvoidCollision.use_avoid_collision
+msgid "Deflectors"
+msgstr "Deflektorer"
+
+#. :src: bpy.types.BoidRuleAvoidCollision.use_avoid_collision
+msgid "Avoid collision with deflector objects"
+msgstr "Undvik kollision med deflektorobjekt"
+
+#. :src: bpy.types.BoidRuleFight.distance
+msgid "Fight Distance"
+msgstr "Stridsavstånd"
+
+#. :src: bpy.types.BoidRuleFight.distance
+msgid "Attack boids at max this distance"
+msgstr "Attackera boider på högst detta avstånd"
+
+#. :src: bpy.types.BoidRuleFight.flee_distance
+msgid "Flee Distance"
+msgstr "Flyktavstånd"
+
+#. :src: bpy.types.BoidRuleFight.flee_distance
+msgid "Flee to this distance"
+msgstr "Fly till detta avstånd"
+
+#. :src: bpy.types.BoidRuleFollowLeader.distance
+msgid "Distance behind leader to follow"
+msgstr "Avstånd bakom ledaren att följa på"
+
+#. :src: bpy.types.BoidRuleFollowLeader.object
+msgid "Follow this object instead of a boid"
+msgstr "Följ detta objekt i stället för en boid"
+
+#. :src: bpy.types.BoidRuleFollowLeader.queue_count
+msgid "Queue Size"
+msgstr "Köstorlek"
+
+#. :src: bpy.types.BoidRuleFollowLeader.queue_count
+msgid "How many boids in a line"
+msgstr "Antal boider i en rad"
+
+#. :src: bpy.types.BoidRuleFollowLeader.use_line
+msgid "Follow leader in a line"
+msgstr "Följ ledaren i en rad"
+
+#. :src: bpy.types.BoidSettings
+#. :src: bpy.types.ParticleSettings.boids
+msgid "Boid Settings"
+msgstr "Boidinställningar"
+
+#. :src: bpy.types.BoidSettings
+msgid "Settings for boid physics"
+msgstr "Inställningar för boidfysik"
+
+#. :src: bpy.types.BoidSettings.accuracy
+#. :src: bpy.types.SOUND_OT_mixdown.accuracy
+#. :src: bpy.types.Scopes.accuracy
+msgid "Accuracy"
+msgstr "Precision"
+
+#. :src: bpy.types.BoidSettings.accuracy
+msgid "Accuracy of attack"
+msgstr "Noggrannhet i anfallet"
+
+#. :src: bpy.types.BoidSettings.active_boid_state
+#. :src: bpy.types.BoidState.active_boid_rule
+msgid "Active Boid Rule"
+msgstr "Aktiv boidregel"
+
+#. :src: bpy.types.BoidSettings.active_boid_state_index
+msgid "Active Boid State Index"
+msgstr "Index för aktivt boidtillstånd"
+
+#. :src: bpy.types.BoidSettings.aggression
+msgid "Aggression"
+msgstr "Aggressivitet"
+
+#. :src: bpy.types.BoidSettings.aggression
+msgid "Boid will fight this times stronger enemy"
+msgstr "Boiden slåss mot fiender som är så här många gånger starkare"
+
+#. :src: bpy.types.BoidSettings.air_acc_max
+msgid "Max Air Acceleration"
+msgstr "Maximal acceleration i luften"
+
+#. :src: bpy.types.BoidSettings.air_acc_max
+msgid "Maximum acceleration in air (relative to maximum speed)"
+msgstr "Maximal acceleration i luften (i förhållande till maxhastigheten)"
+
+#. :src: bpy.types.BoidSettings.air_ave_max
+msgid "Max Air Angular Velocity"
+msgstr "Maximal vinkelhastighet i luften"
+
+#. :src: bpy.types.BoidSettings.air_ave_max
+msgid "Maximum angular velocity in air (relative to 180 degrees)"
+msgstr "Maximal vinkelhastighet i luften (i förhållande till 180 grader)"
+
+#. :src: bpy.types.BoidSettings.air_personal_space
+msgid "Air Personal Space"
+msgstr "Personligt utrymme i luften"
+
+#. :src: bpy.types.BoidSettings.air_personal_space
+msgid "Radius of boids personal space in air (% of particle size)"
+msgstr ""
+"Radie för boidernas personliga utrymme i luften (procent av "
+"partikelstorleken)"
+
+#. :src: bpy.types.BoidSettings.air_speed_max
+msgid "Max Air Speed"
+msgstr "Maxhastighet i luften"
+
+#. :src: bpy.types.BoidSettings.air_speed_max
+msgid "Maximum speed in air"
+msgstr "Maximal hastighet i luften"
+
+#. :src: bpy.types.BoidSettings.air_speed_min
+msgid "Min Air Speed"
+msgstr "Minimihastighet i luften"
+
+#. :src: bpy.types.BoidSettings.air_speed_min
+msgid "Minimum speed in air (relative to maximum speed)"
+msgstr "Lägsta hastighet i luften (i förhållande till maxhastigheten)"
+
+#. :src: bpy.types.BoidSettings.bank
+msgid "Banking"
+msgstr "Krängning"
+
+#. :src: bpy.types.BoidSettings.bank
+msgid "Amount of rotation around velocity vector on turns"
+msgstr "Rotationsmängd runt hastighetsvektorn vid svängar"
+
+#. :src: bpy.types.BoidSettings.health
+#. :src: bpy.types.ParticleSettings.show_health
+msgid "Health"
+msgstr "Hälsa"
+
+#. :src: bpy.types.BoidSettings.health
+msgid "Initial boid health when born"
+msgstr "Boidens ursprungliga hälsa vid födseln"
+
+#. :src: bpy.types.BoidSettings.height
+msgid "Boid height relative to particle size"
+msgstr "Boidhöjd i förhållande till partikelstorlek"
+
+#. :src: bpy.types.BoidSettings.land_acc_max
+msgid "Max Land Acceleration"
+msgstr "Maximal acceleration på marken"
+
+#. :src: bpy.types.BoidSettings.land_acc_max
+msgid "Maximum acceleration on land (relative to maximum speed)"
+msgstr "Maximal acceleration på land (i förhållande till maximal hastighet)"
+
+#. :src: bpy.types.BoidSettings.land_ave_max
+msgid "Max Land Angular Velocity"
+msgstr "Maximal vinkelhastighet på marken"
+
+#. :src: bpy.types.BoidSettings.land_ave_max
+msgid "Maximum angular velocity on land (relative to 180 degrees)"
+msgstr "Maximal vinkelhastighet på land (i förhållande till 180 grader)"
+
+#. :src: bpy.types.BoidSettings.land_jump_speed
+msgid "Jump Speed"
+msgstr "Hopphastighet"
+
+#. :src: bpy.types.BoidSettings.land_jump_speed
+msgid "Maximum speed for jumping"
+msgstr "Maximal hastighet för hoppning"
+
+#. :src: bpy.types.BoidSettings.land_personal_space
+msgid "Land Personal Space"
+msgstr "Personligt utrymme på marken"
+
+#. :src: bpy.types.BoidSettings.land_personal_space
+msgid "Radius of boids personal space on land (% of particle size)"
+msgstr ""
+"Radie för boidernas personliga utrymme på marken (procent av "
+"partikelstorleken)"
+
+#. :src: bpy.types.BoidSettings.land_smooth
+msgid "Landing Smoothness"
+msgstr "Landningens jämnhet"
+
+#. :src: bpy.types.BoidSettings.land_smooth
+msgid "How smoothly the boids land"
+msgstr "Hur mjukt boiderna landar"
+
+#. :src: bpy.types.BoidSettings.land_speed_max
+msgid "Max Land Speed"
+msgstr "Maxhastighet på marken"
+
+#. :src: bpy.types.BoidSettings.land_speed_max
+msgid "Maximum speed on land"
+msgstr "Högsta hastighet på land"
+
+#. :src: bpy.types.BoidSettings.land_stick_force
+msgid "Land Stick Force"
+msgstr "Markfästkraft"
+
+#. :src: bpy.types.BoidSettings.land_stick_force
+msgid "How strong a force must be to start effecting a boid on land"
+msgstr "Hur stor kraft som krävs för att börja påverka en boid på marken"
+
+#. :src: bpy.types.BoidSettings.pitch
+msgid "Pitch"
+msgstr "Stigning"
+
+#. :src: bpy.types.BoidSettings.pitch
+msgid "Amount of rotation around side vector"
+msgstr "Rotationens storlek runt sidovektorn"
+
+#. :src: bpy.types.BoidSettings.range
+msgid "Maximum distance from which a boid can attack"
+msgstr "Maximalt avstånd från vilket en boid kan attackera"
+
+#. :src: bpy.types.BoidSettings.states
+msgid "Boid States"
+msgstr "Boidtillstånd"
+
+#. :src: bpy.types.BoidSettings.strength
+msgid "Maximum caused damage on attack per second"
+msgstr "Största skada som orsakas vid angrepp per sekund"
+
+#. :src: bpy.types.BoidSettings.use_climb
+msgid "Allow Climbing"
+msgstr "Tillåt klättring"
+
+#. :src: bpy.types.BoidSettings.use_climb
+msgid "Allow boids to climb goal objects"
+msgstr "Tillåt boider att klättra på målobjekt"
+
+#. :src: bpy.types.BoidSettings.use_flight
+msgid "Allow Flight"
+msgstr "Tillåt flygning"
+
+#. :src: bpy.types.BoidSettings.use_flight
+msgid "Allow boids to move in air"
+msgstr "Tillåt boider att röra sig i luften"
