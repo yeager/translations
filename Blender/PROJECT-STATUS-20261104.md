@@ -206,8 +206,9 @@ i UI-komponenten. Den etablerade synliga termen är `resursbläddrare`, inte den
 äldre formen `tillgångsbläddrare`. Nio sammanhängande poster rättar därför
 bland annat importinställningar, Pose Library-meddelanden och kataloghjälp för
 nodgruppstillgångar. `blender-ui-sv-reviewed-20261105-26.po` är lokalt
-kontrollerad med `msgfmt`, l10n-lint, Hunspell, diffkontroll och Gitleaks;
-importresultatet fylls i först efter verifierad uppladdning.
+kontrollerad med `msgfmt`, l10n-lint, Hunspell, diffkontroll och Gitleaks.
+Blender Translate bekräftade **9 bearbetade, 8 uppdaterade, 1 hoppad över och
+0 saknade**. Den överhoppade posten räknas inte som bekräftad ändring.
 
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
