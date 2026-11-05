@@ -705,6 +705,17 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 123 granskar vektormatematik, vågtexturer och nodgränssnitt i tre
+separata radintervall. Tre oberoende genomgångar har kontrollerats mot
+Blender-nodernas RNA-kontext och den projektspecifika terminologin. Den
+lokala deltafilen `blender-ui-sv-reviewed-20261105-123.po` innehåller 28
+granskade UI-strängar, bland annat *vektormatematik*, *bandriktning*,
+*principiell volym*, *bakningsobjekt*, *nodindata*, *nodutdata* och
+*verktygstips*. `msgfmt`, `l10n-lint`, Hunspell, diffkontroll och Gitleaks
+passerar. `svlang` ger 10,0/10; de noterade fackorden är avsiktliga
+sammansättningar. Filen är lokalt validerad och arkiverad men väntar på
+importresultat från Blender Translate.
+
 Batch 122 granskar shaderutdata, texturer, partiklar och himmelsnoder i tre
 separata radintervall. Tre oberoende genomgångar har kontrollerats mot
 Blenders shader- och texturkontext samt den projektspecifika terminologin.
