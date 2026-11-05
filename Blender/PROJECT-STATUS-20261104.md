@@ -1075,3 +1075,9 @@ validerade deltafilen innehåller 48 granskade UI-strängar, bland annat
 Hunspell- och svlang-träffarna gäller avsiktliga Blender-sammansättningar och
 korta UI-etiketter; inga språkfel hittades. Batchen är arkiverad för import
 till Blender Translate; något importresultat finns ännu inte.
+
+Batch 132 granskar tillgångskataloger, tillgångshylla och svaga
+tillgångsreferenser. Den lokalt validerade deltafilen innehåller 12 granskade
+UI-strängar. `msgfmt`, l10n-lint och diffkontroll passerar. Batchen är
+arkiverad för import till Blender Translate; något importresultat finns ännu
+inte.

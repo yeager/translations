@@ -495,6 +495,8 @@ Senast uppdaterad: 2026-11-05.
 | motion path | rörelsebana | Visar ett bens eller objekts position över animeringens bildrutor. |
 | Dope Sheet | Dopeblad | Blenderredigerare för tidpunkter, nyckelbildrutor och animationskanaler. |
 | Video Sequencer | videosekvensredigerare | Blenderredigerare för videoremsor, ljud och övergångar. |
+| asset representation | tillgångsrepresentation | API-objekt som gör det möjligt för tillgångssystemet att hantera en entitet som en tillgång. |
+| asset weak reference | svag tillgångsreferens | Referens som inte nödvändigtvis håller tillgången vid liv. |
 
 ## Kontrollerade UI-formuleringar
 
