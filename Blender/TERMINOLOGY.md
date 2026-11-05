@@ -478,6 +478,11 @@ Senast uppdaterad: 2026-11-05.
 | keymap configuration | tangentmappningskonfiguration | Sparad uppsättning Blender-tangentmappningar. |
 | snap keyframes | fäst nyckelbildrutor | Flyttar nyckelbildrutor till bestämda tider, bildrutor eller markörer. |
 | NLA stack | NLA-stapel | Lagerordningen för åtgärder och remsor i Nonlinear Animation. |
+| keying set | nyckeluppsättning | Namngiven uppsättning animerbara egenskaper som används vid infogning och borttagning av nyckelbildrutor. |
+| action slot | plats | Kopplar en åtgärd till ett datablocks animation; använd *plats* i den här UI-kontexten. |
+| driver | drivare | Uttrycks- eller databaserad styrning av en egenskap; skilj från fysisk hårdvarudrivrutin. |
+| Graph Editor | grafredigeraren | Redigeraren för F-kurvor och animerade värden. |
+| bone collection | bensamling | Samling som organiserar riggens ben. |
 
 ## Kontrollerade UI-formuleringar
 

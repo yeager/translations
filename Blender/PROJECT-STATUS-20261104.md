@@ -1043,3 +1043,14 @@ innehåller 51 granskade UI-strängar, bland annat *nyckelbildrutatyp*,
 Hunspell- och svlang-träffarna gäller avsiktliga Blender-sammansättningar och
 korta UI-etiketter; inga språkfel hittades. Batchen är arkiverad för import
 till Blender Translate; något importresultat finns ännu inte.
+
+Batch 129 granskar animationens nyckelbildrutor, nyckeluppsättningar,
+åtgärdsplatser, drivare, förhandsgranskningsintervall, grafredigeraren och
+bensamlingar i tre separata radintervall. Tre oberoende delgranskningar har
+jämförts mot Blender UI- och operatorcontext. Den lokalt validerade deltafilen
+innehåller 94 granskade UI-strängar, bland annat *nyckeluppsättning*, *plats*,
+*drivare*, *grafredigeraren* och *bensamling*. `msgfmt`, l10n-lint och
+diffkontroll passerar. Hunspell- och svlang-träffarna gäller avsiktliga
+Blender-sammansättningar och korta UI-etiketter; inga språkfel hittades.
+Batchen är arkiverad för import till Blender Translate; något importresultat
+finns ännu inte.
