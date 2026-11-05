@@ -177,6 +177,14 @@ redan är given. Lokal kvalitetssäkring är klar. Blender Translate bekräftade
 `blender-ui-sv-reviewed-20261105-22.po`: **7 bearbetade, 7 uppdaterade, 0
 hoppade över och 0 saknades**.
 
+Batch 23 följer samma terminologi i fyra fel- och spärrmeddelanden. Blender-
+källan visar att de två första avser egenskapen `action_slot` i
+`bl_operators/anim.py` och att de två andra validerar `ActionSlot` i
+`rna_action.cc`. `Action slot` är här ett översättningsbart användargränssnitt,
+inte ett API-identifierarnamn; meddelandena använder därför konsekvent
+`åtgärdsslot` och dess naturliga plural. Lokal kvalitetssäkring är klar;
+importresultat fylls i efter uppladdningen.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
