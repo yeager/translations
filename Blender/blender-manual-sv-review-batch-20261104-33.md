@@ -12,10 +12,15 @@ Fem tidigare oöversatta strängar från Outliner-dokumentationen:
 - det aktiva objektets rullning och utfällning;
 - översikten över omorganisering, länkning och överordnade relationer.
 
-`Outliner` behålls som ett synligt Blender-namn i manualen. För relationen
-*parented* används den etablerade svenska ordstammen *överordnad*, i linje
-med Blender UI:s `Parent` → `Förälder` och befintlig manualterminologi om
-överordnade och underordnade objekt.
+`Outliner` behålls som ett synligt Blender-namn i manualen. I den löpande
+beskrivningen blir *parented* "göras underordnade". Det uttrycker resultatet
+av hierarkirelationen utan att blanda ihop den med egenskapen `Parent`, som i
+Blenders gränssnitt heter `Förälder`.
+
+En språklig eftergranskning den 5 november gjorde tre instruktioner mer
+naturliga: *scroll into view* blir "rulla fram i vyn", och *parented* blir
+"göras underordnade". Därmed behålls samma relation mellan objekten utan den
+otydliga formuleringen "få en överordnad".
 
 ## Kontroller
 
