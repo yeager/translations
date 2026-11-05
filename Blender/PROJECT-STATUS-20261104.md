@@ -705,6 +705,12 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 107 granskar modifieraretiketter för Shrinkwrap, Grease Pencil,
+Laplacian Smooth, Lattice, Mask och Mesh to Volume. Den lokalt validerade
+deltafilen innehåller 16 säkra UI-strängar. `msgfmt` och l10n-lint passerar.
+Batchen är arkiverad för import till Blender Translate; något importresultat
+finns ännu inte.
+
 Batch 106 granskar Grease Pencil Multiply, Noise och Offset i tre oberoende
 radintervall. Den lokalt validerade deltafilen innehåller 24 säkra
 UI-strängar, bland annat *multiplikatormodifierare*, *uttoningscentrum*,
