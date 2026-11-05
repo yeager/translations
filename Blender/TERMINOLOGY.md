@@ -79,6 +79,8 @@ Senast uppdaterad: 2026-11-05.
 | Math node | matematisk nod | Node Wranglers synliga menyval *Use Math Nodes* är *Använd matematiska noder*. |
 | Divide | Dividera | Den matematiska nodoperationen i Node Wrangler. Använd inte den bredare handlingen *dela upp*. |
 | mix factor | blandningsfaktor | Synlig faktor som styr blandning, inte ett kodidentifierarnamn. |
+| Alpha Over | Alfa över | Synligt Blender-nodnamn. Som sammansättning: *Alfa över-nod*; Node Wranglers meny använder *alfa-över-noder*. |
+| Batch Change | Batchändring / batchändra | Menyetiketten är *Batchändring*. Använd verbformen *batchändra* för en åtgärd, exempelvis en rubrik. |
 | Grease Pencil | Grease Pencil | Produkt- och funktionsnamn; översätt inte. |
 | override | åsidosättning / överskrivning | Kontextstyrt. Generella UI-etiketter använder *åsidosättning*. *Library Override* är i den aktuella UI-katalogen *biblioteksåsidosättning*, men närliggande operatörsnamn använder också *biblioteksöverskrivning*. Normalisera aldrig utan att granska strängens sammanhang och närliggande förekomster. |
 
