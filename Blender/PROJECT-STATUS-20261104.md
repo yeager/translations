@@ -219,6 +219,15 @@ stavnings-, diff- och hemlighetskontroll. Blender Translate bekräftade **11
 bearbetade, 7 uppdaterade, 4 hoppade över och 0 saknade**. De fyra överhoppade
 posterna räknas inte som bekräftade ändringar.
 
+Batch 28 granskar cacheinställningar för vätskesimulering och
+sekvensredigeraren. UI-texterna hade växlat mellan onödigt avstavade former
+som `Cache-katalog` och `Diskcache-katalog` samt otydliga omskrivningar.
+Termlistan har kompletterats med `cachekatalog`; deltafilen använder också
+`diskcachekatalog`, `standardcachekatalog` och `cachesökväg` i sina respektive
+inställnings- och felmeddelandekontexter. Den är lokalt kontrollerad med
+`msgfmt`, l10n-lint, Hunspell, diffkontroll och Gitleaks; importresultatet
+dokumenteras först efter uppladdning.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
