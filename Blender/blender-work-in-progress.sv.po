@@ -45424,27 +45424,27 @@ msgstr "Begränsa den indirekta belysningsintensiteten för att minska buller (0
 #. :src: bpy.types.LightProbeVolume.dilation_radius
 #, fuzzy
 msgid "Dilation Radius"
-msgstr "Dilation Radius"
+msgstr "Utvidgningsradie"
 
 #. :src: bpy.types.LightProbeVolume.dilation_radius
 #, fuzzy
 msgid "Radius in grid sample to search valid grid samples to copy into invalid grid samples"
-msgstr "Radie i rutnätsprov för att söka giltiga rutnätsprov för att kopiera till ogiltiga rutnätsprov"
+msgstr "Radie inom rutnätsprovet för att söka efter giltiga rutnätsprov att kopiera till ogiltiga rutnätsprov"
 
 #. :src: bpy.types.LightProbeVolume.dilation_threshold
 #, fuzzy
 msgid "Dilation Threshold"
-msgstr "Tröskelvärde för utspädning"
+msgstr "Utvidgningströskel"
 
 #. :src: bpy.types.LightProbeVolume.dilation_threshold
 #, fuzzy
 msgid "Ratio of front-facing surface hits under which a grid sample will reuse neighbors grid sample lighting"
-msgstr "Förhållandet mellan träffar på den främre ytan under vilka ett rutnätsprov kommer att återanvändas grannar rutnätsprov belysning"
+msgstr "Förhållande mellan träffar på framåtvända ytor under vilket ett rutnätsprov återanvänder belysningen från angränsande rutnätsprov"
 
 #. :src: bpy.types.LightProbeVolume.escape_bias
 #, fuzzy
 msgid "Search Distance"
-msgstr "Sök avstånd"
+msgstr "Sökavstånd"
 
 #. :src: bpy.types.LightProbeVolume.escape_bias
 #, fuzzy
@@ -45454,12 +45454,12 @@ msgstr "Avstånd för att söka efter giltiga inspelningspositioner för att fö
 #. :src: bpy.types.LightProbeVolume.facing_bias
 #, fuzzy
 msgid "Facing Bias"
-msgstr "Att bemöta fördomar"
+msgstr "Riktningsförskjutning"
 
 #. :src: bpy.types.LightProbeVolume.facing_bias
 #, fuzzy
 msgid "Smoother irradiance interpolation but introduce light bleeding"
-msgstr "Mjukare interpolering av irradians men introducerar ljusblödning"
+msgstr "Ger jämnare interpolering av irradians, men kan orsaka ljusläckage"
 
 #. :src: bpy.types.LightProbeVolume.intensity
 #. :src: bpy.types.VoronoiTexture.color_mode:'INTENSITY'
@@ -45478,12 +45478,12 @@ msgstr "Intensitet"
 #. :src: bpy.types.LightProbeVolume.intensity
 #, fuzzy
 msgid "Modify the intensity of the lighting captured by this probe"
-msgstr "Ändra intensiteten på den belysning som fångas upp av denna sond"
+msgstr "Ändra intensiteten hos belysningen som fångas av denna ljussond"
 
 #. :src: bpy.types.LightProbeVolume.normal_bias
 #, fuzzy
 msgid "Normal Bias"
-msgstr "Normaler"
+msgstr "Normalförskjutning"
 
 #. :src: bpy.types.LightProbeVolume.normal_bias
 #, fuzzy
@@ -45541,12 +45541,12 @@ msgstr "Flyttar fångstpunkterna bort från ytor för att förhindra artefakter"
 #. :src: bpy.types.LightProbeVolume.surfel_density
 #, fuzzy
 msgid "Surfel Resolution"
-msgstr "Surfel Resolution"
+msgstr "Surfelupplösning"
 
 #. :src: bpy.types.LightProbeVolume.surfel_density
 #, fuzzy
 msgid "Number of surfels to spawn in one local unit distance (higher values improve quality)"
-msgstr "Antal surströmmingar som kan leka inom ett lokalt avstånd (högre värden förbättrar kvaliteten)"
+msgstr "Antal surfelar per lokal längdenhet (högre värden förbättrar kvaliteten)"
 
 #. :src: bpy.types.LightProbeVolume.validity_threshold
 #, fuzzy
@@ -45561,7 +45561,7 @@ msgstr "Förhållande mellan träffar på ytan som vetter mot framsidan under vi
 #. :src: bpy.types.LightProbeVolume.view_bias
 #, fuzzy
 msgid "View Bias"
-msgstr "Visa partiskhet"
+msgstr "Visningsförskjutning"
 
 #. :src: bpy.types.LightProbeVolume.view_bias
 #, fuzzy
@@ -45571,7 +45571,7 @@ msgstr "Förskjuten provtagning av irradiansgallret i betraktningsriktningen fö
 #. :src: bpy.types.Mask
 #, fuzzy
 msgid "Mask data-block defining mask for compositing"
-msgstr "Maskdatablock som definierar mask för compositing"
+msgstr "Maskdatablock som definierar en mask för komposition"
 
 #. :src: bpy.types.Mask.active_layer_index
 #, fuzzy
@@ -45586,12 +45586,12 @@ msgstr "Index för det aktiva lagret i listan över alla maskens lager"
 #. :src: bpy.types.Mask.frame_end
 #, fuzzy
 msgid "Final frame of the mask (used for sequencer)"
-msgstr "Maskens sista bildruta (används för sequencer)"
+msgstr "Maskens sista bildruta (används för sekvensredigeraren)"
 
 #. :src: bpy.types.Mask.frame_start
 #, fuzzy
 msgid "First frame of the mask (used for sequencer)"
-msgstr "Maskens första bildruta (används för sequencer)"
+msgstr "Maskens första bildruta (används för sekvensredigeraren)"
 
 #. :src: bpy.types.Mask.layers
 #, fuzzy
@@ -45628,7 +45628,7 @@ msgstr "Blandningsläge för transparenta ansikten (Föråldrad: använd 'surfac
 #, fuzzy
 msgctxt "Material"
 msgid "Opaque"
-msgstr "Opacitet (motsats till genomskinlighet) för text som ska renderas på videon. 0 = genomskinlig, 255 = helt opak."
+msgstr "Ogenomskinlig"
 
 #. :src: bpy.types.Material.blend_method:'OPAQUE'
 #, fuzzy
@@ -45639,7 +45639,7 @@ msgstr "Rendera yta utan transparens"
 #, fuzzy
 msgctxt "Material"
 msgid "Alpha Clip"
-msgstr "Alpha Clip"
+msgstr "Alfaklippning"
 
 #. :src: bpy.types.Material.blend_method:'CLIP'
 #, fuzzy
@@ -45650,12 +45650,12 @@ msgstr "Använd alfa-tröskeln för att klippa synligheten (binär synlighet)"
 #, fuzzy
 msgctxt "Material"
 msgid "Alpha Hashed"
-msgstr "Alpha Hashed"
+msgstr "Hashad alfa"
 
 #. :src: bpy.types.Material.blend_method:'HASHED'
 #, fuzzy
 msgid "Use noise to dither the binary visibility (works well with multi-samples)"
-msgstr "Använd brus för att dither den binära synligheten (fungerar bra med multi-samples)"
+msgstr "Använd brus för att dithra den binära synligheten (fungerar bra med flera prov)"
 
 #. :src: bpy.types.Material.blend_method:'BLEND'
 #, fuzzy
@@ -45671,12 +45671,12 @@ msgstr "Gör polygonen transparent, beroende på texturens alfakanal"
 #. :src: bpy.types.Material.cycles
 #, fuzzy
 msgid "Cycles Material Settings"
-msgstr "Cyklar materialinställningar"
+msgstr "Cycles-materialinställningar"
 
 #. :src: bpy.types.Material.cycles
 #, fuzzy
 msgid "Cycles material settings"
-msgstr "Cyklar materialinställningar"
+msgstr "Cycles-materialinställningar"
 
 #. :src: bpy.types.Material.diffuse_color
 #. :src: bpy.types.LineStyleAlphaModifier_Material.material_attribute:'DIFF'
@@ -45738,7 +45738,7 @@ msgstr "Kombination av true displacement och bump mapping för finare detaljer"
 #. :src: bpy.types.Material.grease_pencil
 #, fuzzy
 msgid "Grease Pencil Settings"
-msgstr "Inställningar för fettpennor"
+msgstr "Inställningar för Grease Pencil"
 
 #. :src: bpy.types.Material.grease_pencil
 #, fuzzy
@@ -45766,7 +45766,7 @@ msgstr "Linjefärg"
 #. :src: bpy.types.Material.line_color
 #, fuzzy
 msgid "Line color used for Freestyle line rendering"
-msgstr "Linjefärg som används för rendering av freestyle-linjer"
+msgstr "Linjefärg som används för Freestyle-linjerendering"
 
 #. :src: bpy.types.Material.line_priority
 #, fuzzy
@@ -45791,12 +45791,12 @@ msgstr "Line Art-inställningar för material"
 #. :src: bpy.types.Material.max_vertex_displacement
 #, fuzzy
 msgid "Max Vertex Displacement"
-msgstr "Max förskjutning av toppunkt"
+msgstr "Maximal hörnpunktsförskjutning"
 
 #. :src: bpy.types.Material.max_vertex_displacement
 #, fuzzy
 msgid "The max distance a vertex can be displaced. Displacements over this threshold may cause visibility issues."
-msgstr "Det maximala avstånd som en vertex kan förskjutas. Förskjutningar över detta tröskelvärde kan orsaka synlighetsproblem."
+msgstr "Det maximala avstånd som en hörnpunkt kan förskjutas. Förskjutningar över detta tröskelvärde kan orsaka synlighetsproblem."
 
 #. :src: bpy.types.Material.metallic
 #. :src: bpy.types.PAINT_OT_add_texture_paint_slot.type:'METALLIC'
@@ -45809,7 +45809,7 @@ msgstr "Metallisk"
 #. :src: bpy.types.Material.metallic
 #, fuzzy
 msgid "Amount of mirror reflection for raytrace"
-msgstr "Mängd spegelreflektion för raytrace"
+msgstr "Mängd spegelreflektion för strålspårning"
 
 #. :src: bpy.types.Material.node_tree
 #, fuzzy
@@ -45819,38 +45819,38 @@ msgstr "Nodträd för nodbaserade material"
 #. :src: bpy.types.Material.paint_active_slot
 #, fuzzy
 msgid "Active Paint Texture Index"
-msgstr "Index för aktiv färgtextur"
+msgstr "Index för aktiv målningsstruktur"
 
 #. :src: bpy.types.Material.paint_active_slot
 #, fuzzy
 msgid "Index of active texture paint slot"
-msgstr "Index för aktiv texturfärgplats"
+msgstr "Index för aktiv texturmålningsplats"
 
 #. :src: bpy.types.Material.paint_clone_slot
 #, fuzzy
 msgid "Clone Paint Texture Index"
-msgstr "Clone Paint Texture Index"
+msgstr "Index för klonmålningsstruktur"
 
 #. :src: bpy.types.Material.paint_clone_slot
 #, fuzzy
 msgid "Index of clone texture paint slot"
-msgstr "Index för klonens textur färgplats"
+msgstr "Index för klontexturmålningsplats"
 
 #. :src: bpy.types.Material.pass_index
 #, fuzzy
 msgid "Index number for the \"Material Index\" render pass"
-msgstr "Indexnummer för \"Material Index\" render pass"
+msgstr "Indexnummer för renderingspasset ”Materialindex”"
 
 #. :src: bpy.types.Material.preview_render_type
 #, fuzzy
 msgctxt "Material"
 msgid "Preview Render Type"
-msgstr "Förhandsgranskning Renderingstyp"
+msgstr "Typ av förhandsgranskningsrendering"
 
 #. :src: bpy.types.Material.preview_render_type
 #, fuzzy
 msgid "Type of preview render"
-msgstr "Typ av förhandsgranskning"
+msgstr "Typ av förhandsgranskningsrendering"
 
 #. :src: bpy.types.Material.preview_render_type:'FLAT'
 #, fuzzy
@@ -45945,7 +45945,7 @@ msgstr "Materialets grovhet"
 #. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.show_transparent_back
 #, fuzzy
 msgid "Show Backface"
-msgstr "Visa baksidan av ansiktet"
+msgstr "Visa baksida"
 
 #. :src: bpy.types.Material.show_transparent_back
 #, fuzzy
@@ -45973,17 +45973,17 @@ msgstr "Materialets spegelblanka färg"
 #: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:132
 #: source/blender/nodes/shader/nodes/node_shader_eevee_specular.cc:11
 msgid "Specular"
-msgstr "Glansig"
+msgstr "Spekulär"
 
 #. :src: bpy.types.Material.specular_intensity
 #, fuzzy
 msgid "How intense (bright) the specular reflection is"
-msgstr "Hur intensiv (ljus) den spegelblanka reflektionen är"
+msgstr "Hur intensiv den spekulära reflektionen är"
 
 #. :src: bpy.types.Material.surface_render_method
 #, fuzzy
 msgid "Surface Render Method"
-msgstr "Renderingsmetod för yta"
+msgstr "Ytans renderingsmetod"
 
 #. :src: bpy.types.Material.surface_render_method
 #, fuzzy
@@ -45995,29 +45995,29 @@ msgstr "Styr blandningen och kompatibiliteten med vissa funktioner"
 #. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.render_method:'DITHERED'
 #, fuzzy
 msgid "Dithered"
-msgstr "Rastrering"
+msgstr "Dithrad"
 
 #. :src: bpy.types.Material.surface_render_method:'DITHERED'
 #, fuzzy
 msgid "Allows for grayscale hashed transparency, and compatible with render passes and raytracing. Also known as deferred rendering."
-msgstr "Ger möjlighet till hashad transparens i gråskala och är kompatibel med render passes och raytracing. Även känd som uppskjuten rendering."
+msgstr "Ger möjlighet till hashad transparens i gråskala och är kompatibel med renderingspass och strålspårning. Kallas även uppskjuten rendering."
 
 #. :src: bpy.types.Material.surface_render_method:'BLENDED'
 #. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.render_method:'BLENDED'
 #. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.render_method:'BLENDED'
 #, fuzzy
 msgid "Blended"
-msgstr "Blanda"
+msgstr "Blandad"
 
 #. :src: bpy.types.Material.surface_render_method:'BLENDED'
 #, fuzzy
 msgid "Allows for colored transparency, but incompatible with render passes and raytracing. Also known as forward rendering."
-msgstr "Ger möjlighet till färgad transparens, men är inkompatibel med renderpass och raytracing. Även känd som forward rendering."
+msgstr "Ger möjlighet till färgad transparens, men är inkompatibel med renderingspass och strålspårning. Kallas även framåtriktad rendering."
 
 #. :src: bpy.types.Material.texture_paint_images
 #, fuzzy
 msgid "Texture Slot Images"
-msgstr "Bilder på spelautomater med textur"
+msgstr "Bilder i texturplatser"
 
 #. :src: bpy.types.Material.texture_paint_images
 #, fuzzy
@@ -46031,14 +46031,14 @@ msgstr "Texturbilder som används för texturmålning"
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:587
 #, fuzzy
 msgid "Texture Slots"
-msgstr "Texturautomater"
+msgstr "Texturplatser"
 
 #. :src: bpy.types.Material.thickness_mode
 #. :src: bpy.types.SolidifyModifier.nonmanifold_thickness_mode
 #: source/blender/modifiers/intern/MOD_solidify.cc:91
 #, fuzzy
 msgid "Thickness Mode"
-msgstr "Tjocklek Läge"
+msgstr "Tjockleksläge"
 
 #. :src: bpy.types.Material.thickness_mode
 #, fuzzy
@@ -46069,33 +46069,33 @@ msgstr "Approximera objektet som en oändlig platta med en tjocklek som definier
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:1423
 #, fuzzy
 msgid "Backface Culling"
-msgstr "Avlivning av bakansikte"
+msgstr "Baksidesgallring"
 
 #. :src: bpy.types.Material.use_backface_culling
 #. :src: bpy.types.View3DShading.show_backface_culling
 #, fuzzy
 msgid "Use back face culling to hide the back side of faces"
-msgstr "Använd back face culling för att dölja baksidan av ansikten"
+msgstr "Använd baksidesgallring för att dölja ytornas baksidor"
 
 #. :src: bpy.types.Material.use_backface_culling_lightprobe_volume
 #, fuzzy
 msgid "Light Probe Volume Backface Culling"
-msgstr "Light Probe Volym Backface Culling"
+msgstr "Baksidesgallring för volymljussond"
 
 #. :src: bpy.types.Material.use_backface_culling_lightprobe_volume
 #, fuzzy
 msgid "Consider material single sided for light probe volume capture. Additionally helps rejecting probes inside the object to avoid light leaks."
-msgstr "Tänk på att materialet ska vara enkelsidigt för att fånga upp volymen på ljusproben. Dessutom kan det vara bra att avvisa sonder inuti objektet för att undvika ljusläckage."
+msgstr "Betrakta materialet som enkelsidigt när volymljussonden fångar in data. Det hjälper även till att avvisa sonder inuti objektet och undvika ljusläckage."
 
 #. :src: bpy.types.Material.use_backface_culling_shadow
 #, fuzzy
 msgid "Shadow Backface Culling"
-msgstr "Skugga Backface Culling"
+msgstr "Baksidesgallring för skuggor"
 
 #. :src: bpy.types.Material.use_backface_culling_shadow
 #, fuzzy
 msgid "Use back face culling when casting shadows"
-msgstr "Använd back face culling när du kastar skuggor"
+msgstr "Använd baksidesgallring när skuggor kastas"
 
 #. :src: bpy.types.Material.use_nodes
 msgid "Use shader nodes to render the material"
@@ -46115,12 +46115,12 @@ msgstr "Använd den aktuella världens bakgrund för att belysa förhandsgranskn
 #. :src: bpy.types.Material.use_screen_refraction
 #, fuzzy
 msgid "Raytrace Transmission"
-msgstr "Raytrace Transmission"
+msgstr "Strålspårad transmission"
 
 #. :src: bpy.types.Material.use_raytrace_refraction
 #, fuzzy
 msgid "Use raytracing to determine transmitted color instead of using only light probes. This prevents the surface from contributing to the lighting of surfaces not using this setting."
-msgstr "Använd raytracing för att bestämma den överförda färgen istället för att bara använda ljusprober. Detta förhindrar att ytan bidrar till belysningen av ytor som inte använder denna inställning."
+msgstr "Använd strålspårning för att bestämma den överförda färgen i stället för att bara använda ljussonder. Detta förhindrar att ytan bidrar till belysningen av ytor som inte använder denna inställning."
 
 #. :src: bpy.types.Material.use_screen_refraction
 #, fuzzy
@@ -46150,7 +46150,7 @@ msgstr "Använd skuggkartorna från ljuskällor med skuggverkan för att förfin
 #. :src: bpy.types.Material.use_transparency_overlap
 #, fuzzy
 msgid "Use Transparency Overlap"
-msgstr "Genomskinlighet"
+msgstr "Använd överlappande transparens"
 
 #. :src: bpy.types.Material.use_transparency_overlap
 #. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.show_transparent_back
@@ -46172,7 +46172,7 @@ msgstr "Använd transparenta skuggor för det här materialet om det innehåller
 #. :src: bpy.types.Material.volume_intersection_method
 #, fuzzy
 msgid "Volume Intersection Method"
-msgstr "Volym Metod för korsning"
+msgstr "Volymskärningsmetod"
 
 #. :src: bpy.types.Material.volume_intersection_method
 #, fuzzy
@@ -46242,7 +46242,7 @@ msgstr "Faces betraktas som medium interface endast när de har olika konsekutiv
 #. :src: bpy.types.Mesh
 #, fuzzy
 msgid "Mesh data-block defining geometric surfaces"
-msgstr "Mesh data-block som definierar geometriska ytor"
+msgstr "Mesh-datablock som definierar geometriska ytor"
 
 #. :src: bpy.types.Mesh.corner_normals
 #, fuzzy
@@ -46277,7 +46277,7 @@ msgstr "Kanter"
 #. :src: bpy.types.Mesh.edges
 #, fuzzy
 msgid "Edges of the mesh"
-msgstr "Kanter på nätet"
+msgstr "Meshens kanter"
 
 #. :src: bpy.types.Mesh.has_custom_normals
 #, fuzzy
@@ -46287,7 +46287,7 @@ msgstr "Har anpassade normaler"
 #. :src: bpy.types.Mesh.has_custom_normals
 #, fuzzy
 msgid "True if there are custom split normals data in this mesh"
-msgstr "True om det finns anpassade delade normaldata i detta nät"
+msgstr "Sant om det finns anpassade data för delade normaler i detta mesh"
 
 #. :src: bpy.types.Mesh.loop_triangle_polygons
 #, fuzzy
@@ -46302,7 +46302,7 @@ msgstr "Ansiktsindex för varje slingtriangel"
 #. :src: bpy.types.Mesh.loop_triangles
 #, fuzzy
 msgid "Loop Triangles"
-msgstr "Slinga trianglar"
+msgstr "Looptrianglar"
 
 #. :src: bpy.types.Mesh.loop_triangles
 #. :src: bpy.types.MeshLoopTriangles
@@ -46320,12 +46320,12 @@ msgstr "Slingor"
 #. :src: bpy.types.Mesh.loops
 #, fuzzy
 msgid "Loops of the mesh (face corners)"
-msgstr "Maskans öglor (hörn på framsidan)"
+msgstr "Meshens loopar (ythörn)"
 
 #. :src: bpy.types.Mesh.normals_domain
 #, fuzzy
 msgid "Normal Domain"
-msgstr "Normal domän"
+msgstr "Normaldomän"
 
 #. :src: bpy.types.Mesh.normals_domain
 #, fuzzy
@@ -46374,7 +46374,7 @@ msgstr "Voxel"
 #. :src: bpy.types.Mesh.remesh_mode:'VOXEL'
 #, fuzzy
 msgid "Use the voxel remesher"
-msgstr "Använd voxelåterställaren"
+msgstr "Använd voxel-ommesharen"
 
 #. :src: bpy.types.Mesh.remesh_mode:'QUAD'
 #, fuzzy
@@ -46384,7 +46384,7 @@ msgstr "Quad"
 #. :src: bpy.types.Mesh.remesh_mode:'QUAD'
 #, fuzzy
 msgid "Use the quad remesher"
-msgstr "Använd quad remesher"
+msgstr "Använd quad-ommesharen"
 
 #. :src: bpy.types.Mesh.remesh_voxel_adaptivity
 #. :src: bpy.types.RemeshModifier.adaptivity
@@ -46426,22 +46426,22 @@ msgstr "Storlek på voxeln i objektrymden som används för volymutvärdering. L
 #. :src: bpy.types.Mesh.skin_vertices
 #, fuzzy
 msgid "Skin Vertices"
-msgstr "Hud vertikaler"
+msgstr "Skin-hörnpunkter"
 
 #. :src: bpy.types.Mesh.skin_vertices
 #, fuzzy
 msgid "All skin vertices"
-msgstr "Alla hudvinklar"
+msgstr "Alla Skin-hörnpunkter"
 
 #. :src: bpy.types.Mesh.texco_mesh
 #, fuzzy
 msgid "Texture Space Mesh"
-msgstr "Texturutrymme Mesh"
+msgstr "Mesh för texturutrymme"
 
 #. :src: bpy.types.Mesh.texco_mesh
 #, fuzzy
 msgid "Derive texture coordinates from another mesh"
-msgstr "Härleda texturkoordinater från ett annat nät"
+msgstr "Härled texturkoordinater från ett annat mesh"
 
 #. :src: bpy.types.Mesh.texspace_location
 #. :src: bpy.types.MetaBall.texspace_location
@@ -46458,7 +46458,7 @@ msgstr "Storlek på texturutrymme"
 #. :src: bpy.types.Mesh.texture_mesh
 #, fuzzy
 msgid "Texture Mesh"
-msgstr "Textur nät"
+msgstr "Texturmesh"
 
 #. :src: bpy.types.Mesh.texture_mesh
 #, fuzzy
@@ -46468,7 +46468,7 @@ msgstr "Använd ett annat mesh för texturindex (vertexindex måste vara i linje
 #. :src: bpy.types.Mesh.total_edge_sel
 #, fuzzy
 msgid "Selected Edge Total"
-msgstr "Selected Edge Totalt"
+msgstr "Antal markerade kanter"
 
 #. :src: bpy.types.Mesh.total_edge_sel
 #, fuzzy
@@ -46478,7 +46478,7 @@ msgstr "Antal markerade kanter i redigeringsläge"
 #. :src: bpy.types.Mesh.total_face_sel
 #, fuzzy
 msgid "Selected Face Total"
-msgstr "Valt ansikte Totalt"
+msgstr "Antal markerade ytor"
 
 #. :src: bpy.types.Mesh.total_face_sel
 #, fuzzy
@@ -46488,19 +46488,19 @@ msgstr "Antal valda ansikten i redigeringsläget"
 #. :src: bpy.types.Mesh.total_vert_sel
 #, fuzzy
 msgid "Selected Vertex Total"
-msgstr "Vald Vertex Totalt"
+msgstr "Antal markerade hörnpunkter"
 
 #. :src: bpy.types.Mesh.total_vert_sel
 #, fuzzy
 msgid "Selected vertex count in editmode"
-msgstr "Antal markerade vertex i redigeringsläge"
+msgstr "Antal markerade hörnpunkter i redigeringsläge"
 
 #. :src: bpy.types.Mesh.use_mirror_topology
 #. :src: bpy.types.OBJECT_OT_shape_key_mirror.use_topology
 #. :src: bpy.types.OBJECT_OT_vertex_group_mirror.use_topology
 #, fuzzy
 msgid "Topology Mirror"
-msgstr "Topologi Spegel"
+msgstr "Topologispegling"
 
 #. :src: bpy.types.Mesh.use_mirror_topology
 #. :src: bpy.types.OBJECT_OT_shape_key_mirror.use_topology
@@ -46513,17 +46513,17 @@ msgstr "Använd topologibaserad spegling (för när båda sidor av nätet har ma
 #. :src: bpy.types.MirrorModifier.use_mirror_vertex_groups
 #, fuzzy
 msgid "Mirror Vertex Groups"
-msgstr "Spegel Vertex-grupper"
+msgstr "Spegla hörnpunktsgrupper"
 
 #. :src: bpy.types.Mesh.use_mirror_vertex_groups
 #, fuzzy
 msgid "Mirror the left/right vertex groups when painting. The symmetry axis is determined by the symmetry settings."
-msgstr "Spegla de vänstra/högra vertexgrupperna när du målar. Symmetriaxeln bestäms av symmetriinställningarna."
+msgstr "Spegla vänster/höger-hörnpunktsgrupperna vid målning. Symmetriaxeln bestäms av symmetriinställningarna."
 
 #. :src: bpy.types.Mesh.use_paint_bone_selection
 #, fuzzy
 msgid "Bone Selection"
-msgstr "Markeringsläge för vertex:ar"
+msgstr "Benmarkering"
 
 #. :src: bpy.types.Mesh.use_paint_bone_selection
 #, fuzzy
@@ -46533,22 +46533,22 @@ msgstr "Val av ben under målning"
 #. :src: bpy.types.Mesh.use_paint_mask
 #, fuzzy
 msgid "Paint Mask"
-msgstr "Färgmask"
+msgstr "Målningsmask"
 
 #. :src: bpy.types.Mesh.use_paint_mask
 #, fuzzy
 msgid "Face selection masking for painting"
-msgstr "Ansiktsval maskering för målning"
+msgstr "Maskering med ytmarkering för målning"
 
 #. :src: bpy.types.Mesh.use_paint_mask_vertex
 #, fuzzy
 msgid "Vertex Selection"
-msgstr "Val av vertex"
+msgstr "Hörnpunktsmarkering"
 
 #. :src: bpy.types.Mesh.use_paint_mask_vertex
 #, fuzzy
 msgid "Vertex selection masking for painting"
-msgstr "Maskering av vertexurval för målning"
+msgstr "Maskering med hörnpunktsmarkering för målning"
 
 #. :src: bpy.types.Mesh.use_remesh_fix_poles
 #, fuzzy

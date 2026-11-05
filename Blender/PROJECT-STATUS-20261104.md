@@ -578,6 +578,16 @@ Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 kontroller. Fortsatt UI-arbete ska därför ske i avgränsade, kontextstyrda
 delar och inte utifrån procenttalet ensamt.
 
+Batch 83 granskar volymljussonder, material och meshtopologi i tre separata
+radintervall. Tre oberoende skrivskyddade delgranskningar har jämförts mot
+RNA-kontext och terminologilistan. Den lokalt validerade deltafilen innehåller
+79 säkra UI-strängar, bland annat *utvidgningsradie*, *ljussond*,
+*baksidesgallring*, *strålspårad transmission*, *texturplats* och
+*hörnpunktsmarkering*. `msgfmt` och l10n-lint passerar. svlang-träffarna är
+förväntade korta UI-etiketter och Blender-fackord. Batchen är lokalt validerad
+och arkiveras för import till Blender Translate; något importresultat finns
+ännu inte.
+
 En helkatalogskörning den 5 november med `l10n-lint` gav 1 132 träffar.
 Genomgången visar att merparten är förväntade produktnamn, formatnamn,
 kodidentifierare, standardskrivning och tekniska sammansättningar. De får inte

@@ -191,6 +191,13 @@ Senast uppdaterad: 2026-11-05.
 | library override | biblioteksåsidosättning | Lokal åsidosättning av länkat biblioteksmaterial. |
 | light probe | ljussond | Objekt som fångar belysningsdata för indirekt ljus och reflektioner. |
 | volume light probe | volymljussond | Ljussond som fångar belysningsdata i en 3D-volym. |
+| dilation radius / threshold | utvidgningsradie / utvidgningströskel | Parametrar för att fylla ogiltiga prov i en volymljussonds rutnät; avser inte utspädning. |
+| bias (light probe) | riktningsförskjutning, normalförskjutning, visningsförskjutning | Teknisk samplingförskjutning. Översätt inte som partiskhet eller fördom. |
+| surfel | surfel | Punktbaserat ytelement för global belysning; plural *surfelar*. |
+| backface culling | baksidesgallring | Renderingsteknik som döljer ytors baksidor. |
+| ray tracing | strålspårning | Renderingsteknik; använd exempelvis *strålspårad transmission*. |
+| texture slot | texturplats | Plats som kopplar en textur till ett material eller målningsverktyg. |
+| mesh loop | meshloop | Intern meshtopologisk struktur vid ett ythörn; *looptriangel* används för triangulerat resultat. |
 | curve map point | kurvkartpunkt | Punkt i en kurvkartläggning. |
 | support loop | stödslinga | Topologisk loop som kontrollerar skärpan kring en meshdetalj. |
 | mix mode | blandningsläge | Anger hur en Transform Constraint kombinerar position, rotation eller skala med det ursprungliga värdet. |
