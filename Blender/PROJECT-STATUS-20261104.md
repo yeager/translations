@@ -412,6 +412,11 @@ polsammanfogning samt fysiktermerna *restitutionskoefficient* och
 oberoende parallella granskningar. Blender Translate bekräftade **24
 bearbetade, 13 uppdaterade, 11 hoppade över och 0 saknade**.
 
+Batch 51 granskar tygsimuleringens fjäder- och massinställningar. Termerna
+*dragstyvhet*, *hörnpunktsmassa* och *hörnpunktsgrupp för självkollision* har
+kontrollerats både mot den exakta RNA-kontexten och oberoende delgranskningar.
+Batchen är lokalt validerad och inväntar arkivering och verifierad import.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade

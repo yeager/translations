@@ -113,6 +113,9 @@ Senast uppdaterad: 2026-11-05.
 | vertex | hörnpunkt / hörn | I mesh- och verktygstext används normalt *hörnpunkt* och sammansättningen *hörnpunkts-*. Den korta etiketten *Vertex* förekommer också som *Hörn* i vissa vy- och orienteringssammanhang. Ändra inte mekaniskt mellan formerna. |
 | vertex group | hörnpunktsgrupp | Behåll *VertexGroup* i Python-API, klassnamn och andra identifierare. |
 | collision vertex group | hörnpunktsgrupp för kollision | Hörnpunktsgrupp som undantas från tygsimuleringens objektkollisioner. |
+| selfcollision vertex group | hörnpunktsgrupp för självkollision | Hörnpunktsgrupp som undantas från tygsimuleringens självkollisioner. |
+| tension stiffness | dragstyvhet | Materialets motstånd mot sträckning i tygsimuleringen. |
+| vertex mass | hörnpunktsmassa | Massan för en enskild hörnpunkt i tygsimuleringen. |
 | vertex color | hörnpunktsfärg | Gäller synlig UI-text. |
 | vertex normal | hörnpunktsnormal | Gäller synlig UI-text. |
 | vertex index | hörnpunktsindex | Gäller synlig UI-text. |
