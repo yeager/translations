@@ -90,6 +90,13 @@ panelen F-Curves. `blender-ui-sv-reviewed-20261105-11.po` använder därför
 `Opacitet för omarkerade`. Blender Translate bekräftade **1 bearbetad, 1
 uppdaterad, 0 hoppade över och 0 saknades**.
 
+Batch 12 normaliserade rubriken för de sparade valen för relativa sökvägar,
+filkomprimering och inläsning av gränssnittet. Källan använder rubriken
+`Default To`, medan samma inställningsvy redan använder `Standardinställningar`
+för `Defaults`. `blender-ui-sv-reviewed-20261105-12.po` använder därför
+`Standardinställningar`. Blender Translate bekräftade **1 bearbetad, 1
+uppdaterad, 0 hoppade över och 0 saknades**.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
