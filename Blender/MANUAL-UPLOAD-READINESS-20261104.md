@@ -1,5 +1,23 @@
 # Blender Manual: sammanställd batchkontroll
 
+## Uppdatering 5 november 2026
+
+Den här kontrollen har senare utökats från de ursprungliga 32 batcherna till
+batcherna 01–69. Den samlade deltan
+`upload-candidates/2026-11-04/blender-manual-sv-reviewed-all.po` innehåller
+868 granskade översatta meddelanden och passerar `msgfmt --check`.
+
+Filen importerades den 5 november 2026 till den generiska
+Manual-komponenten i Blender Translate, i läget *Lägg till som översättning*.
+Importhistoriken visar 868 bearbetade meddelanden: 856 uppdaterade, 11
+hoppade över och 1 som inte hittades. En andra, likadan import uppdaterade 0
+meddelanden och hoppade över 867; det bekräftar den första importen och
+kvarvarande saknad nyckel. Nästa steg är att hämta en ny export och isolera
+den saknade nyckeln. Avsnitten nedan beskriver den historiska kontrollen av
+den tidigare delmängden på 350 meddelanden.
+
+## Historisk kontroll 4 november 2026
+
 Datum: 4 november 2026
 Målkomponent: **Blender Manual** (den vanliga Manual-komponenten, inte
 versionsspecifika Manual 5.3)
@@ -26,10 +44,8 @@ källfilens upprepade definitioner, inte de 350 kandidaterna. Råexporten har
 inte ändrats. Nyckelkontrollen ovan används i stället, tillsammans med
 `msgfmt` på den sammanställda deltan.
 
-## Uppladdningsstatus
+## Historisk uppladdningsstatus
 
-Ingen sammanslagen fil har laddats upp i denna kontroll. 350 strängar är
-validerade och arkiverade som de befintliga 32 mindre deltabatcherna, men
-ligger under den önskade storleken 500–1000 strängar för Blender-uppladdning.
-Fler självständigt granskade poster behövs innan en sammanslagen
-uppladdningskandidat skapas. Råexporter ska fortsätta vara oförändrade.
+Vid den ursprungliga kontrollen hade ingen sammanslagen fil laddats upp. Den
+statusen ersattes den 5 november av den verifierade importen som beskrivs
+ovan. Råexporter ska fortsatt vara oförändrade.

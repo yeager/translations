@@ -1,4 +1,4 @@
-# Blender: projektstatus 4 november 2026
+# Blender: projektstatus 5 november 2026
 
 ## Projektets aktualitet
 
@@ -11,14 +11,14 @@ releasesidan listar även 5.2 LTS och 4.5 LTS som aktiva LTS-grenar. Källor:
 
 ## Lokal granskning
 
-Den generiska komponenten **Blender Manual** har 610 unika, radvis granskade
-svenska deltaöversättningar i batcherna 01–54. De har slagits ihop och
-delats i sex uppladdningskandidater om högst 100 meddelanden:
+Den generiska komponenten **Blender Manual** har 868 unika, radvis granskade
+svenska deltaöversättningar i batcherna 01–69. De har slagits ihop till en
+samlad uppladdningsfil och delats i nio kandidater om högst 100 meddelanden:
 
 | Kandidater | Antal meddelanden | Status |
 | --- | ---: | --- |
-| 01–06 | 100 per fil | Lokalt validerade, inte uppladdade |
-| 07 | 10 | Lokalt validerad, inte uppladdad |
+| 01–08 | 100 per fil | Ingår i den samlade, importerade filen |
+| 09 | 68 | Ingår i den samlade, importerade filen |
 
 Råexporten i `exports/2026-11-04/` är oförändrad. Varje delta är kontrollerad
 med syntax-, språk-, terminologi- och hemlighetsskanning; dokumenterade
@@ -26,8 +26,18 @@ undantag gäller endast RST-markup, produktnamn och tekniska termer.
 
 ## Upstreamstatus
 
-Ingen kandidat i denna mapp är uppladdad till Blender Translate från den här
-arbetsmiljön. Weblate-MCP-sessionen saknar konfigurerat Blender-projekt, och
-det finns ingen browseruppladdning tillgänglig här. Statusen är därför
-**lokalt validerad, väntar på uppladdning**, inte skickad eller granskad
-uppströms.
+Den 5 november 2026 importerades den samlade filen
+`upload-candidates/2026-11-04/blender-manual-sv-reviewed-all.po` till den
+generiska Manual-komponenten via Blender Translate. Historiken bekräftar
+följande importresultat i läget *Lägg till som översättning*:
+
+- 868 meddelanden bearbetades.
+- 856 meddelanden uppdaterades.
+- 11 meddelanden hoppades över.
+- 1 meddelande hittades inte.
+
+En omedelbar dubblettimport gav 0 uppdateringar, 867 hoppade över och samma
+1 saknade meddelande. Det bekräftar att den första importen genomfördes.
+Det saknade meddelandet behöver identifieras mot en ny export innan det kan
+åtgärdas. Importen innebär inte att hela Manual-komponenten är färdiggranskad
+eller uppströmsgranskad.
