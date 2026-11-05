@@ -705,6 +705,19 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 121 granskar UV-, grupp-, material- och shadernoder i tre separata
+radintervall. Tre oberoende genomgångar har kontrollerats mot nodernas
+RNA-kontext, shadertermer och den projektspecifika terminologilistan. Den
+lokala deltafilen `blender-ui-sv-reviewed-20261105-121.po` innehåller 38
+granskade UI-strängar, bland annat *grupputdata*, *Fresnel-typ*,
+*underytsspridningsmetod*, *begränsningstyp*, *objektrymd*,
+*spekulär BSDF* och *normalkartläggning i tangentrymd*. `msgfmt`,
+`l10n-lint`, diffkontroll och Gitleaks passerar. Hunspell markerar endast
+de dokumenterade sammansättningarna *färgparametrisering* och *indatafärger*.
+`svlang` ger endast förväntade heuristiska träffar för relativa satser och
+nodverb. Filen är lokalt validerad och arkiverad men väntar på importresultat
+från Blender Translate.
+
 Batch 120 granskar kurv-, simulerings-, provtagnings- och nodramstexter i tre
 separata radintervall. Tre oberoende genomgångar har kontrollerats mot
 Blender-nodernas RNA-kontext och projektets terminologilista. Den lokala

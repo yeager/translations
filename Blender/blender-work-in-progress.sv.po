@@ -84903,7 +84903,7 @@ msgstr "Hitta ändpunkternas positioner med hjälp av en längd från början av
 #. :src: bpy.types.GeometryNodeUVPackIslands
 #, fuzzy
 msgid "Pack UV Islands"
-msgstr "Pack UV-öar"
+msgstr "Packa UV-öar"
 
 #. :src: bpy.types.GeometryNodeUVPackIslands
 #, fuzzy
@@ -84950,7 +84950,7 @@ msgstr "Hörnpunkt för ythörn"
 #. :src: bpy.types.GeometryNodeVertexOfCorner
 #, fuzzy
 msgid "Retrieve the vertex each face corner is attached to"
-msgstr "Hämta den vertex som varje ansiktshörn är kopplat till"
+msgstr "Hämta den hörnpunkt som varje ythörn är kopplat till"
 
 #. :src: bpy.types.GeometryNodeViewer
 #, fuzzy
@@ -84970,7 +84970,7 @@ msgstr "Vyportstransformation"
 #. :src: bpy.types.GeometryNodeViewportTransform
 #, fuzzy
 msgid "Retrieve the view direction and location of the 3D viewport"
-msgstr "Hämta vyriktning och plats för 3D-vyport"
+msgstr "Hämta vyriktning och position för 3D-vyporten"
 
 #. :src: bpy.types.GeometryNodeVolumeCube
 msgid "Volume Cube"
@@ -84984,7 +84984,7 @@ msgstr "Generera en tät volym med ett fält som styr tätheten i varje rutnäts
 #. :src: bpy.types.GeometryNodeVolumeToMesh
 #, fuzzy
 msgid "Generate a mesh on the \"surface\" of a volume"
-msgstr "Generera ett nät på \"ytan\" av en volym"
+msgstr "Generera en mesh på \"ytan\" av en volym"
 
 #. :src: bpy.types.GeometryNodeWarning
 #. :src: bpy.types.GeometryNodeWarning.warning_type:'WARNING'
@@ -85044,12 +85044,12 @@ msgstr "Exponera anslutna data inifrån en nodgrupp som indata till dess gränss
 #. :src: bpy.types.NodeGroupOutput
 #: scripts/startup/bl_operators/geometry_nodes.py:31
 msgid "Group Output"
-msgstr "Output för grupp"
+msgstr "Grupputdata"
 
 #. :src: bpy.types.NodeGroupOutput
 #, fuzzy
 msgid "Output data from inside of a node group"
-msgstr "Utmatning av data från insidan av en nodgrupp"
+msgstr "Mata ut data från insidan av en nodgrupp"
 
 #. :src: bpy.types.NodeGroupOutput.is_active_output
 #. :src: bpy.types.ShaderNodeOutputLight.is_active_output
@@ -85057,12 +85057,12 @@ msgstr "Utmatning av data från insidan av en nodgrupp"
 #. :src: bpy.types.ShaderNodeOutputMaterial.is_active_output
 #. :src: bpy.types.ShaderNodeOutputWorld.is_active_output
 msgid "Active Output"
-msgstr "Aktiv output"
+msgstr "Aktiv utdata"
 
 #. :src: bpy.types.NodeGroupOutput.is_active_output
 #, fuzzy
 msgid "True if this node is used as the active group output"
-msgstr "True om denna nod används som aktiv grupputgång"
+msgstr "Sant om denna nod används som aktiv grupputdata"
 
 #. :src: bpy.types.NodeReroute
 #: source/blender/editors/space_node/link_drag_search.cc:283
@@ -85071,12 +85071,12 @@ msgstr "Omdirigering"
 
 #. :src: bpy.types.NodeReroute
 msgid "A single-socket organization tool that supports one input and multiple outputs"
-msgstr "Ett ensamt uttag för organisering, som stöder en input och flera outputs"
+msgstr "Ett organiseringsverktyg med ett enda uttag som stöder en indata och flera utdata"
 
 #. :src: bpy.types.NodeReroute.socket_idname
 #, fuzzy
 msgid "Type of socket"
-msgstr "Typ av objekt"
+msgstr "Uttagstyp"
 
 #. :src: bpy.types.ShaderNode
 #. :src: bpy.types.ThemeNodeEditor.shader_node
@@ -85326,7 +85326,7 @@ msgstr "Ljuset som studsar från ytan av håret"
 
 #. :src: bpy.types.ShaderNodeBsdfHair.component:'Transmission'
 msgid "The light that passes through the hair and exits on the other side"
-msgstr "Ljuset som passerar genom håret och fortsätter genom andra sidan"
+msgstr "Ljuset som passerar genom håret och kommer ut på andra sidan"
 
 #. :src: bpy.types.ShaderNodeBsdfHairPrincipled
 #, fuzzy
@@ -85346,7 +85346,7 @@ msgstr "Spridningsmodell"
 #. :src: bpy.types.ShaderNodeBsdfHairPrincipled.model
 #, fuzzy
 msgid "Select from Chiang or Huang model"
-msgstr "Välj mellan Chiang eller Huang modell"
+msgstr "Välj mellan Chiang- och Huang-modellen"
 
 #. :src: bpy.types.ShaderNodeBsdfHairPrincipled.model:'CHIANG'
 #, fuzzy
@@ -85356,7 +85356,7 @@ msgstr "Chiang"
 #. :src: bpy.types.ShaderNodeBsdfHairPrincipled.model:'CHIANG'
 #, fuzzy
 msgid "Near-field hair scattering model by Chiang et al. 2016, suitable for close-up looks, but is more noisy when viewing from a distance."
-msgstr "Närfältsmodell för hårspridning av Chiang et al. 2016, lämplig för närbilder, men är mer bullrig när man tittar på avstånd."
+msgstr "Närfältsmodell för hårspridning av Chiang et al. 2016, lämplig för närbilder men mer brusig på avstånd."
 
 #. :src: bpy.types.ShaderNodeBsdfHairPrincipled.model:'HUANG'
 #, fuzzy
@@ -85376,7 +85376,7 @@ msgstr "Parametrisering av färg"
 #. :src: bpy.types.ShaderNodeBsdfHairPrincipled.parametrization
 #, fuzzy
 msgid "Select the shader's color parametrization"
-msgstr "Välj skuggans färgparametrisering"
+msgstr "Välj shaderns färgparametrisering"
 
 #. :src: bpy.types.ShaderNodeBsdfHairPrincipled.parametrization:'ABSORPTION'
 #: source/blender/nodes/shader/nodes/node_shader_bsdf_hair_principled.cc:37
@@ -85422,7 +85422,7 @@ msgstr "Metallisk reflektion med mikrofacettfördelning och metallisk fresnel"
 #. :src: bpy.types.ShaderNodeBsdfMetallic.fresnel_type
 #, fuzzy
 msgid "Fresnel Type"
-msgstr "Trädtyp"
+msgstr "Fresnel-typ"
 
 #. :src: bpy.types.ShaderNodeBsdfMetallic.fresnel_type
 #, fuzzy
@@ -85442,7 +85442,7 @@ msgstr "Fresnel-ledare baserad på det komplexa brytningsindexet per färgkanal"
 #. :src: bpy.types.ShaderNodeBsdfMetallic.fresnel_type:'F82'
 #, fuzzy
 msgid "F82 Tint"
-msgstr "F82 Färgton"
+msgstr "F82-färgton"
 
 #. :src: bpy.types.ShaderNodeBsdfMetallic.fresnel_type:'F82'
 #, fuzzy
@@ -85452,7 +85452,7 @@ msgstr "En approximation av Fresnels ledarkurva baserad på färgerna vid vinkel
 #. :src: bpy.types.ShaderNodeBsdfPrincipled
 #, fuzzy
 msgid "Principled BSDF"
-msgstr "Principlös BSDF"
+msgstr "Principiell BSDF"
 
 #. :src: bpy.types.ShaderNodeBsdfPrincipled
 #, fuzzy
@@ -85462,7 +85462,7 @@ msgstr "Fysikaliskt baserad, lättanvänd shader för rendering av ytmaterial, b
 #. :src: bpy.types.ShaderNodeBsdfPrincipled.subsurface_method
 #, fuzzy
 msgid "Subsurface Method"
-msgstr "Underjordisk metod"
+msgstr "Underytsspridningsmetod"
 
 #. :src: bpy.types.ShaderNodeBsdfPrincipled.subsurface_method
 #. :src: bpy.types.ShaderNodeSubsurfaceScattering.falloff
@@ -85519,7 +85519,7 @@ msgstr "Fortsätt spårningen från en godtycklig ny position och i en ny riktni
 #. :src: bpy.types.ShaderNodeBsdfRefraction
 #, fuzzy
 msgid "Refraction BSDF"
-msgstr "Refraktion BSDF"
+msgstr "Refraktions-BSDF"
 
 #. :src: bpy.types.ShaderNodeBsdfRefraction
 #, fuzzy
@@ -85553,7 +85553,7 @@ msgstr "Ashikhmin"
 #. :src: bpy.types.ShaderNodeBsdfSheen.distribution:'ASHIKHMIN'
 #, fuzzy
 msgid "Classic Ashikhmin velvet (legacy model)"
-msgstr "Klassisk Ashikhmin sammet (äldre modell)"
+msgstr "Klassisk Ashikhmin-sammet (äldre modell)"
 
 #. :src: bpy.types.ShaderNodeBsdfSheen.distribution:'MICROFIBER'
 #, fuzzy
@@ -85598,7 +85598,7 @@ msgstr "Genomskinlig BSDF"
 #. :src: bpy.types.ShaderNodeBsdfTranslucent
 #, fuzzy
 msgid "Lambertian diffuse transmission"
-msgstr "Lambertian diffus transmission"
+msgstr "Lambertisk diffus transmission"
 
 #. :src: bpy.types.ShaderNodeBsdfTransparent
 #, fuzzy
@@ -85639,17 +85639,17 @@ msgstr "Hämta information om kameran och hur den förhåller sig till den aktue
 #. :src: bpy.types.ShaderNodeClamp
 #, fuzzy
 msgid "Clamp a value between a minimum and a maximum"
-msgstr "Kläm fast ett värde mellan ett minimum och ett maximum"
+msgstr "Begränsa ett värde mellan ett minimum och ett maximum"
 
 #. :src: bpy.types.ShaderNodeClamp.clamp_type
 #, fuzzy
 msgid "Clamp Type"
-msgstr "Typ av klämma"
+msgstr "Begränsningstyp"
 
 #. :src: bpy.types.ShaderNodeClamp.clamp_type:'MINMAX'
 #, fuzzy
 msgid "Min Max"
-msgstr "Ställ in valfri bildjusteringskontroll för alla skärmar till ett angivet värde. Procentvärdet konverteras till funktionens eget specifika min-max-intervall."
+msgstr "Min/max"
 
 #. :src: bpy.types.ShaderNodeClamp.clamp_type:'MINMAX'
 #, fuzzy
@@ -85682,12 +85682,12 @@ msgstr "Skapa en vektor från X, Y och Z-komponenter"
 
 #. :src: bpy.types.ShaderNodeCustomGroup
 msgid "Shader Custom Group"
-msgstr "Shader anpassad grupp"
+msgstr "Anpassad shadergrupp"
 
 #. :src: bpy.types.ShaderNodeCustomGroup
 #, fuzzy
 msgid "Custom Shader Group Node for Python nodes"
-msgstr "Anpassad Shader Group-nod för Python-noder"
+msgstr "Anpassad shadergruppsnod för Python-noder"
 
 #. :src: bpy.types.ShaderNodeDisplacement
 #, fuzzy
@@ -85707,7 +85707,7 @@ msgstr "Utrymme för inmatningshöjden"
 #. :src: Socket name from node group Displace Hair Curves, file procedural_hair_node_assets.blend
 #, fuzzy
 msgid "Object Space"
-msgstr "Objektutrymme"
+msgstr "Objektrymd"
 
 #. :src: bpy.types.ShaderNodeDisplacement.space:'OBJECT'
 #, fuzzy
@@ -85722,7 +85722,7 @@ msgstr "Förskjutningen sker i världsrymden och påverkas inte av objektets ska
 #. :src: bpy.types.ShaderNodeEeveeSpecular
 #, fuzzy
 msgid "Specular BSDF"
-msgstr "Speculär BSDF"
+msgstr "Spekulär BSDF"
 
 #. :src: bpy.types.ShaderNodeEeveeSpecular
 #, fuzzy
@@ -85753,7 +85753,7 @@ msgstr "Flyttalskurva"
 
 #. :src: bpy.types.ShaderNodeFloatCurve
 msgid "Map an input float to a curve and outputs a float value"
-msgstr "Mappa ett input flyttal till en kurva och returnera ett flyttalsvärde"
+msgstr "Mappa ett indataflyttal till en kurva och returnera ett flyttalsvärde"
 
 #. :src: bpy.types.ShaderNodeFresnel
 #: scripts/startup/bl_ui/space_userpref.py:884
@@ -85799,7 +85799,7 @@ msgstr "Invertera en färg, till en negativ"
 #. :src: bpy.types.ShaderNodeLayerWeight
 #, fuzzy
 msgid "Layer Weight"
-msgstr "Lager Vikt"
+msgstr "Lagervikt"
 
 #. :src: bpy.types.ShaderNodeLayerWeight
 #, fuzzy
@@ -85813,7 +85813,7 @@ msgstr ""
 #. :src: bpy.types.ShaderNodeLightFalloff
 #, fuzzy
 msgid "Light Falloff"
-msgstr "Ljusavbrott"
+msgstr "Ljusavtagande"
 
 #. :src: bpy.types.ShaderNodeLightFalloff
 #, fuzzy
@@ -85886,7 +85886,7 @@ msgstr "Utjämnande Hermite-kantinterpolation mellan värdena From Min och From 
 #. :src: bpy.types.ShaderNodeMapping
 #, fuzzy
 msgid "Transform the input vector by applying translation, rotation, and scale"
-msgstr "Transformera inmatningsvektorn genom att tillämpa translation, rotation och skala"
+msgstr "Transformera indatavektorn genom att tillämpa förskjutning, rotation och skala"
 
 #. :src: bpy.types.ShaderNodeMapping.vector_type
 #. :src: bpy.types.TexMapping.vector_type
@@ -85937,7 +85937,7 @@ msgstr "Kläm fast faktorn till intervallet [0,1]"
 #. :src: bpy.types.ShaderNodeMix.clamp_result
 #, fuzzy
 msgid "Clamp Result"
-msgstr "Klämma Resultat"
+msgstr "Begränsa resultat"
 
 #. :src: bpy.types.ShaderNodeMix.clamp_result
 #, fuzzy
@@ -85947,7 +85947,7 @@ msgstr "Kläm fast resultatet till [0,1]-området"
 #. :src: bpy.types.ShaderNodeMix.factor_mode
 #, fuzzy
 msgid "Factor Mode"
-msgstr "Faktor Läge"
+msgstr "Faktorläge"
 
 #. :src: bpy.types.ShaderNodeMix.factor_mode:'UNIFORM'
 #, fuzzy
@@ -85972,7 +85972,7 @@ msgstr "Mix (Legacy)"
 
 #. :src: bpy.types.ShaderNodeMixRGB
 msgid "Mix two input colors"
-msgstr "Blanda två inputfärger"
+msgstr "Blanda två indatafärger"
 
 #. :src: bpy.types.ShaderNodeMixShader
 #, fuzzy
@@ -86002,12 +86002,12 @@ msgstr "Utrymme för inmatningsnormalen"
 #. :src: bpy.types.ShaderNodeNormalMap.space:'TANGENT'
 #, fuzzy
 msgid "Tangent space normal mapping"
-msgstr "Normal mappning av tangentrymden"
+msgstr "Normalkartläggning i tangentrymd"
 
 #. :src: bpy.types.ShaderNodeNormalMap.space:'OBJECT'
 #, fuzzy
 msgid "Object space normal mapping"
-msgstr "Normal mappning av objektrymd"
+msgstr "Normalkartläggning i objektrymd"
 
 #. :src: bpy.types.ShaderNodeNormalMap.space:'WORLD'
 #, fuzzy

@@ -129,6 +129,10 @@ Senast uppdaterad: 2026-11-05.
 | Simulation Input / Output | simuleringsindata / simuleringsutdata | In- och utgångsnoder för en Blender-simulering. |
 | tangent space | tangentrymd | Etablerad Blender-term för normal- och riktningstolkning. |
 | face set | ytuppsättning | Skulpteringsgrupp för mesh-ytor; använd inte *ansiktsuppsättning*. |
+| Group Input / Output | gruppindata / grupputdata | Exponerar data mellan en nodgrupp och dess gränssnitt. |
+| subsurface scattering | underytsspridning | Ljusets spridning under en materials yta; inte *underjordisk*. |
+| clamp (node operation) | begränsa | Begränsar ett värde till ett intervall. Noden använder *begränsningstyp* och *min/max*. |
+| normal mapping | normalkartläggning | Använd exempelvis *normalkartläggning i tangentrymd* och *i objektrymd*. |
 | reroute | omdirigering | Blenders nod och Node Wrangler-funktion. Sammanfoga som *omdirigeringsnod*. |
 | Detach Outputs | Koppla bort utgångar | Node Wrangler-operatör. Använd *utdata* i förklarande text. |
 | Relative Path | Relativ sökväg | Synlig filsökvägsinställning. |
