@@ -139,6 +139,8 @@ Senast uppdaterad: 2026-11-05.
 | bevel | avfasning / fasning | *Avfasning* för UI-egenskapen och modifieraren, *fasning* kan beskriva resultatet i löpande text. |
 | Bevel Modifier | avfasningsmodifierare | Blender-modifierarens belagda UI- och manualform. |
 | Bevel Vertices / Bevel Edges | Fasa hörnpunkter / Fasa kanter | Synliga operatörsnamn. |
+| boolean operation | boolesk operation | Används för meshkombinationerna union, differens och snitt. |
+| manifold | manifold | Etablerad topologiterm i 3D-modellering; inte *fördelningsrör*. |
 | displacement | förskjutning | Material- och shaderkontext. |
 | Vector Displacement | vektorförskjutning | Synlig UI- och manualterm. |
 | opacity | opacitet | Använd i UI-reglage för genomskinlighet, till exempel *Opacitet för omarkerade* i F-kurvinställningarna. |

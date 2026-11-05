@@ -705,6 +705,14 @@ Blender-sammansättningar; svlang-träffarna är förväntade korta UI-etiketter
 kodnamn och Blender-fackord. Batchen är lokalt validerad och arkiveras för
 import till Blender Translate; något importresultat finns ännu inte.
 
+Batch 102 granskar avfasnings-, booleska och korrigerande
+utjämningsmodifierare i tre oberoende radintervall. Den lokalt validerade
+deltafilen innehåller 38 säkra UI-strängar, bland annat *hörnpunktsgrupp*,
+*avfasningsmängd*, *boolesk operation*, *manifold*, *självskärning* och
+*korrigerande utjämning*. `msgfmt`, l10n-lint, diffkontroll och Gitleaks
+passerar. Batchen är arkiverad för import till Blender Translate; något
+importresultat finns ännu inte.
+
 Batch 101 granskar Grease Pencil-, deformerings- och avfasningsmodifierare i
 tre separata radintervall. Tre oberoende delgranskningar har jämförts mot
 modifierar- och RNA-kontext. Den lokalt validerade deltafilen innehåller 26
