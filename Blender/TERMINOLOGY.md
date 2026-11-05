@@ -497,6 +497,8 @@ Senast uppdaterad: 2026-11-05.
 | Video Sequencer | videosekvensredigerare | Blenderredigerare för videoremsor, ljud och övergångar. |
 | asset representation | tillgångsrepresentation | API-objekt som gör det möjligt för tillgångssystemet att hantera en entitet som en tillgång. |
 | asset weak reference | svag tillgångsreferens | Referens som inte nödvändigtvis håller tillgången vid liv. |
+| normal space | normalrymd | Koordinatrymd för normaler vid exempelvis bakning. |
+| cage extrusion | bursextrudering | Avstånd som bygger ut en bakningsbur från det aktiva objektet. |
 
 ## Kontrollerade UI-formuleringar
 
