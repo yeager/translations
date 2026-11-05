@@ -423,6 +423,11 @@ hörnpunktsgrupper, voxelrutnät och lösarresultat samt rättar den hierarkiska
 termen *underordnad samling*. Blender Translate bekräftade **15 bearbetade, 9
 uppdaterade, 6 hoppade över och 0 saknade**.
 
+Batch 53 granskar kollisions- och färghanteringens UI-etiketter. Profilnamn
+och färgstandarder lämnas medvetet orörda; endast kontextbundna UI-termer som
+*bildskärmsenhet*, *ingångsfärgrymd* och *visningstransformering* ingår.
+Batchen är lokalt validerad och inväntar arkivering och verifierad import.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
