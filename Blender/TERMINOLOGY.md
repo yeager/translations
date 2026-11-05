@@ -112,6 +112,7 @@ Senast uppdaterad: 2026-11-05.
 | Bevel Vertices / Bevel Edges | Fasa hörnpunkter / Fasa kanter | Synliga operatörsnamn. |
 | displacement | förskjutning | Material- och shaderkontext. |
 | Vector Displacement | vektorförskjutning | Synlig UI- och manualterm. |
+| opacity | opacitet | Använd i UI-reglage för genomskinlighet, till exempel *Opacitet för omarkerade* i F-kurvinställningarna. |
 | Adaptive Subdivision | adaptiv underindelning | UI-belagd form; inte *adaptiv indelning*. |
 | Material Output | materialutdata | UI-belagd renderings- och nodterm. |
 | keyframe | nyckelbildruta | Använd i svensk förklarande text; ändra inte API-namn. |
