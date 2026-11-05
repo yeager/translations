@@ -41,9 +41,17 @@ En ytterligare, avgränsad UI-delta med den kontextbundna korrigeringen
 `blender-ui-sv-reviewed-20261105-02.po`. Blender Translate bekräftade även
 den importen: **1 bearbetad, 1 uppdaterad, 0 hoppade över och 0 saknades**.
 
+Två efterföljande UI-deltan justerade etiketten för resursbläddrarläget och
+normaliserade *remote asset library* utan den felaktiga trippelkonsonanten i
+`fjärrresursbibliotek`. Blender Translate bekräftade varje import:
+`blender-ui-sv-reviewed-20261105-03.po` gav **1 bearbetad, 1 uppdaterad, 0
+hoppade över och 0 saknades**, och
+`blender-ui-sv-reviewed-20261105-04.po` gav **2 bearbetade, 2 uppdaterade, 0
+hoppade över och 0 saknades**.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
-18 403 strängar med förslag och 638 översatta strängar med avfärdade
+18 403 strängar med förslag och 629 översatta strängar med avfärdade
 kontroller. Fortsatt UI-arbete ska därför ske i avgränsade, kontextstyrda
 delar och inte utifrån procenttalet ensamt.
 
