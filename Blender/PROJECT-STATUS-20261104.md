@@ -490,6 +490,13 @@ saknade**. Den oförändrade Workspace-etiketten *Shading* ingick medvetet som
 en etablerad Blender-beteckning; serverns kontrollvarning för identisk
 käll- och måltext är därför en förväntad falsk positiv.
 
+Batch 62 granskar Dope Sheet-filtren och deras närmaste RNA-etiketter rad
+för rad. Två oberoende, skrivskyddade delgranskningar har kontrollerats mot
+panelens egenskaper och den befintliga Action Slot-terminologin. Den lokalt
+validerade deltafilen normaliserar filteretiketter, `datasökväg` och
+`transformationsrymd`. Deltafilen är arkiverad i översättningsförrådet och
+väntar på verifierad import i Blender Translate.
+
 Den aktuella komponenten omfattar 40 427 strängar och visas som 100 procent
 översatt. Det betyder inte att hela katalogen är radgranskad: vyn visar även
 18 403 strängar med förslag och 629 översatta strängar med avfärdade
