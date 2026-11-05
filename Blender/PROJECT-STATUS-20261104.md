@@ -643,6 +643,16 @@ svlang-träffarna är förväntade korta UI-etiketter och Blender-fackord. Batch
 är lokalt validerad och arkiveras för import till Blender Translate; något
 importresultat finns ännu inte.
 
+Batch 89 granskar textredigerarens urval och ett avgränsat urval av
+procedur- och bildtexturer. Tre oberoende skrivskyddade delgranskningar har
+jämförts mot RNA-kontext och terminologilistan. Den lokalt validerade
+deltafilen innehåller 13 säkra UI-strängar, bland annat *brusbas*,
+*cellbrus*, *schackmönsteravstånd*, *förvrängningsmängd* och *normalkarta*.
+`msgfmt` och l10n-lint passerar. Hunspell-träffen är den kontrollerade
+sammansättningen *schackmönsteravstånd*; svlang-träffarna är förväntade korta
+UI-etiketter och Blender-fackord. Batchen är lokalt validerad och arkiveras
+för import till Blender Translate; något importresultat finns ännu inte.
+
 En helkatalogskörning den 5 november med `l10n-lint` gav 1 132 träffar.
 Genomgången visar att merparten är förväntade produktnamn, formatnamn,
 kodidentifierare, standardskrivning och tekniska sammansättningar. De får inte

@@ -220,6 +220,9 @@ Senast uppdaterad: 2026-11-05.
 | distance model | avståndsmodell | Modell som styr hur ljudets styrka minskar med avståndet. |
 | subframe | delbildruta | Simuleringssteg mellan hela bildrutor. |
 | sequencer | sekvensredigerare | Blenders redigerare för video- och ljudsekvenser. |
+| noise (texture) | brus | Procedurtexturens variation; använd inte det fysiska ljudordet *buller*. |
+| checker (image texture) | schackmönster | Bildtexturens växlande rutor. |
+| normal map | normalkarta | Bild med RGB-värden som kodar ytans normalriktningar. |
 | curve map point | kurvkartpunkt | Punkt i en kurvkartläggning. |
 | support loop | stödslinga | Topologisk loop som kontrollerar skärpan kring en meshdetalj. |
 | mix mode | blandningsläge | Anger hur en Transform Constraint kombinerar position, rotation eller skala med det ursprungliga värdet. |
