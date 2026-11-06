@@ -137,6 +137,8 @@ Senast uppdaterad: 2026-11-06.
 | Function Node | funktionsnod | Nod som utför en matematisk, logisk eller geometrisk funktion. |
 | input type / input value | indatatyp / indatavärde | I nodsammanhang avser *input* ett indatauttag eller dess värde. |
 | float | flyttal | Numerisk datatyp. Skriv exempelvis *avrunda flyttalet uppåt*. |
+| byte color | bytefärg | 8-bitars färgattribut i geometri- och nodkontext. |
+| signed integer vector | vektor med signerade 16-/32-bitars heltal | Datatyp för heltalsvektor; skriv *bitars heltal* med mellanrum. |
 | integer math | heltalsmatematik | Matematiska operationer på heltal. |
 | matrix determinant | matrisdeterminant | Determinanten för en matris. |
 | greatest common divisor | största gemensamma delare | Matematikterm; förkorta bara till GCD där UI:t behöver den engelska akronymen. |

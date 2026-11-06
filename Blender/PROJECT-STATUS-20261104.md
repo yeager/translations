@@ -1688,3 +1688,14 @@ rapporterar enbart en konstgjord längd- och V2-varning när korta
 UI-etiketter fogas ihop till löptext. Filen är arkiverad och väntar på
 manuell import.
 
+Batch 198 granskar fyra datatyper för geometriattribut: bytefärg samt
+signerade 16- och 32-bitars heltalsvektorer. Den rättar sammansättningen
+*16-bitarsheltal* till *16-bitars heltal* och dokumenterar datatyperna i
+terminologilistan. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-198-geometry-attribute-types.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar bara den avsedda facktermen *bytefärg* samt en
+konstgjord V2-varning när fristående datatyper fogas ihop till löptext.
+Filen är arkiverad och väntar på manuell import.
+
