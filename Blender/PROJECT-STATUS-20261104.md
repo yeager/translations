@@ -1537,3 +1537,12 @@ poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
 `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang` ger
 10/10. Filen är arkiverad och väntar på manuell import.
 
+Batch 183 granskar nitton poster för informations- och NLA-redigeraren. Den
+normaliserar områdesnamn, felsökningsrapporter, åtgärdslokala markörer samt
+kontroll- och påverkans-F-kurvor. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-183-info-nla-editors.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar bara akronymen NLA och en falsk V2-träff för en imperativ
+UI-etikett. Filen är arkiverad och väntar på manuell import.
+
