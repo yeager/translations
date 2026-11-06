@@ -1,0 +1,808 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.ActionChannelbag.fcurves
+msgid "The individual F-Curves that animate the slot"
+msgstr "De enskilda F-kurvorna som animerar åtgärdsslotten"
+
+#. :src: bpy.types.ActionChannelbagFCurves
+msgid "Collection of F-Curves for a specific action slot, on a specific strip"
+msgstr "Samling av F-kurvor för en specifik åtgärdsslot på en specifik remsa"
+
+#. :src: bpy.types.ActionFCurves
+msgid ""
+"Collection of action F-Curves. Note that this is a legacy API that is "
+"unaware of action slots, and will only consider the F-Curves for this "
+"action's first slot"
+msgstr ""
+"Samling av åtgärdens F-kurvor. Observera att detta är ett äldre API som inte "
+"känner till åtgärdsslotar och endast beaktar F-kurvorna för åtgärdens första "
+"åtgärdsslot"
+
+#. :src: bpy.types.ActionSlot
+msgid ""
+"Identifier for a set of channels in this Action, that can be used by a data-"
+"block to specify what it gets animated by"
+msgstr ""
+"Identifierare för en uppsättning kanaler i den här åtgärden, som ett "
+"datablock kan använda för att ange vad det animeras av"
+
+#. :src: bpy.types.ActionSlot.active
+msgid ""
+"Whether this is the active slot, can be set by assigning to "
+"action.slots.active"
+msgstr ""
+"Anger om detta är den aktiva åtgärdsslotten. Kan ställas in genom "
+"tilldelning till action.slots.active"
+
+#. :src: bpy.types.ActionSlot.handle
+msgid "Slot Handle"
+msgstr "Handtag för åtgärdsslot"
+
+#. :src: bpy.types.ActionSlot.handle
+msgid ""
+"Number specific to this Slot, unique within the Action.\n"
+"This is used, for example, on a ActionKeyframeStrip to look up the "
+"ActionChannelbag for this Slot"
+msgstr ""
+"Nummer som är specifikt för den här slotten och unikt inom åtgärden.\n"
+"Det används till exempel av en ActionKeyframeStrip för att hitta "
+"ActionChannelbag för den här slotten"
+
+#. :src: bpy.types.ActionSlot.identifier
+msgid ""
+"Used when connecting an Action to a data-block, to find the correct slot "
+"handle. This is the display name, prefixed by two characters determined by "
+"the slot's ID type"
+msgstr ""
+"Används när en åtgärd ansluts till ett datablock för att hitta rätt handtag "
+"för åtgärdsslotten. Detta är visningsnamnet, med två inledande tecken som "
+"bestäms av slotens ID-typ"
+
+#. :src: bpy.types.ActionSlot.name_display
+msgid ""
+"Name of the slot, for display in the user interface. This name combined with "
+"the slot's data-block type is unique within its Action"
+msgstr ""
+"Åtgärdsslotens namn för visning i användargränssnittet. Tillsammans med "
+"åtgärdsslotens datablockstyp är namnet unikt inom åtgärden"
+
+#. :src: bpy.types.ActionSlot.show_expanded
+msgid "Expanded state of the slot"
+msgstr "Expanderingsstatus för åtgärdsslotten"
+
+#. :src: bpy.types.ActionSlot.target_id_type
+msgid ""
+"Type of data-block that this slot is intended to animate; can be set when "
+"'UNSPECIFIED' but is otherwise read-only"
+msgstr ""
+"Typ av datablock som den här åtgärdsslotten ska animera. Kan ställas in när "
+"den är ”UNSPECIFIED”, men är annars skrivskyddad"
+
+#. :src: bpy.types.ActionSlot.target_id_type:'UNSPECIFIED'
+#. :src: bpy.types.Action.id_root:'UNSPECIFIED'
+msgid ""
+"Not yet specified. When this slot is first assigned to a data-block, this "
+"will be set to the type of that data-block"
+msgstr ""
+"Inte angiven ännu. När åtgärdsslotten först tilldelas ett datablock ställs "
+"den in på datablockets typ"
+
+#. :src: bpy.types.AnimVizMotionPaths.show_keyframe_action_all
+msgid "All Action Keyframes"
+msgstr "Alla åtgärdsnyckelbildrutor"
+
+#. :src: bpy.types.AssetLibraryCollection
+msgid "User Asset Libraries"
+msgstr "Användarresursbibliotek"
+
+#. :src: bpy.types.AssetLibraryCollection
+msgid "Collection of user asset libraries"
+msgstr "Samling av användarresursbibliotek"
+
+#. :src: bpy.types.AssetShelf.asset_library_reference:'ALL'
+#. :src: bpy.types.AssetWeakReference.asset_library_type:'ALL'
+#. :src: bpy.types.FileAssetSelectParams.asset_library_reference:'ALL'
+#. :src: bpy.types.WorkSpace.asset_library_reference:'ALL'
+#. :src: bpy.types.BRUSH_OT_asset_activate.asset_library_type:'ALL'
+#. :src: bpy.types.GEOMETRY_OT_execute_node_group.asset_library_type:'ALL'
+#. :src: bpy.types.NODE_OT_add_group_asset.asset_library_type:'ALL'
+#. :src: bpy.types.OBJECT_OT_modifier_add_node_group.asset_library_type:'ALL'
+msgid "All Libraries"
+msgstr "Alla resursbibliotek"
+
+#. :src: bpy.types.AssetShelf.asset_library_reference:'CUSTOM'
+#. :src: bpy.types.AssetWeakReference.asset_library_type:'CUSTOM'
+#. :src: bpy.types.FileAssetSelectParams.asset_library_reference:'CUSTOM'
+#. :src: bpy.types.WorkSpace.asset_library_reference:'CUSTOM'
+#. :src: bpy.types.BRUSH_OT_asset_activate.asset_library_type:'CUSTOM'
+#. :src: bpy.types.GEOMETRY_OT_execute_node_group.asset_library_type:'CUSTOM'
+#. :src: bpy.types.NODE_OT_add_group_asset.asset_library_type:'CUSTOM'
+#. :src: bpy.types.OBJECT_OT_modifier_add_node_group.asset_library_type:'CUSTOM'
+msgid "Show assets from the asset libraries configured in the Preferences"
+msgstr ""
+"Visa resurser från de resursbibliotek som har konfigurerats i Inställningar"
+
+#. :src: bpy.types.Attribute.data_type:'INT16_2D'
+#. :src: bpy.types.FunctionNodeRandomValue.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeAttributeStatistic.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeBlurAttribute.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeFieldAtIndex.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeFieldOnDomain.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeInputNamedAttribute.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeRaycast.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeSampleCurve.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeSampleIndex.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeSampleNearestSurface.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeSampleUVSurface.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeStoreNamedAttribute.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeViewer.data_type:'INT16_2D'
+#. :src: bpy.types.NodeGeometryCaptureAttributeItem.data_type:'INT16_2D'
+#. :src: bpy.types.GEOMETRY_OT_attribute_add.data_type:'INT16_2D'
+#. :src: bpy.types.GEOMETRY_OT_attribute_convert.data_type:'INT16_2D'
+msgid "2D 16-Bit Integer Vector"
+msgstr "2D-vektor med 16-bitarsheltal"
+
+#. :src: bpy.types.Attribute.data_type:'INT16_2D'
+#. :src: bpy.types.FunctionNodeRandomValue.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeAttributeStatistic.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeBlurAttribute.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeFieldAtIndex.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeFieldOnDomain.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeInputNamedAttribute.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeRaycast.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeSampleCurve.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeSampleIndex.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeSampleNearestSurface.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeSampleUVSurface.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeStoreNamedAttribute.data_type:'INT16_2D'
+#. :src: bpy.types.GeometryNodeViewer.data_type:'INT16_2D'
+#. :src: bpy.types.NodeGeometryCaptureAttributeItem.data_type:'INT16_2D'
+#. :src: bpy.types.GEOMETRY_OT_attribute_add.data_type:'INT16_2D'
+#. :src: bpy.types.GEOMETRY_OT_attribute_convert.data_type:'INT16_2D'
+msgid "16-bit signed integer vector"
+msgstr "Vektor med signerade 16-bitarsheltal"
+
+#. :src: bpy.types.Attribute.data_type:'INT32_2D'
+#. :src: bpy.types.FunctionNodeRandomValue.data_type:'INT32_2D'
+#. :src: bpy.types.GeometryNodeAttributeStatistic.data_type:'INT32_2D'
+#. :src: bpy.types.GeometryNodeBlurAttribute.data_type:'INT32_2D'
+#. :src: bpy.types.GeometryNodeFieldAtIndex.data_type:'INT32_2D'
+#. :src: bpy.types.GeometryNodeFieldOnDomain.data_type:'INT32_2D'
+#. :src: bpy.types.GeometryNodeInputNamedAttribute.data_type:'INT32_2D'
+#. :src: bpy.types.GeometryNodeRaycast.data_type:'INT32_2D'
+#. :src: bpy.types.GeometryNodeSampleCurve.data_type:'INT32_2D'
+#. :src: bpy.types.GeometryNodeSampleIndex.data_type:'INT32_2D'
+#. :src: bpy.types.GeometryNodeSampleNearestSurface.data_type:'INT32_2D'
+#. :src: bpy.types.GeometryNodeSampleUVSurface.data_type:'INT32_2D'
+#. :src: bpy.types.GeometryNodeStoreNamedAttribute.data_type:'INT32_2D'
+#. :src: bpy.types.GeometryNodeViewer.data_type:'INT32_2D'
+#. :src: bpy.types.NodeGeometryCaptureAttributeItem.data_type:'INT32_2D'
+#. :src: bpy.types.GEOMETRY_OT_attribute_add.data_type:'INT32_2D'
+#. :src: bpy.types.GEOMETRY_OT_attribute_convert.data_type:'INT32_2D'
+msgid "32-bit signed integer vector"
+msgstr "Vektor med signerade 32-bitarsheltal"
+
+#. :src: bpy.types.Attribute.data_type:'FLOAT4X4'
+#. :src: bpy.types.FunctionNodeRandomValue.data_type:'FLOAT4X4'
+#. :src: bpy.types.GeometryNodeAttributeStatistic.data_type:'FLOAT4X4'
+#. :src: bpy.types.GeometryNodeBlurAttribute.data_type:'FLOAT4X4'
+#. :src: bpy.types.GeometryNodeFieldAtIndex.data_type:'FLOAT4X4'
+#. :src: bpy.types.GeometryNodeFieldOnDomain.data_type:'FLOAT4X4'
+#. :src: bpy.types.GeometryNodeInputNamedAttribute.data_type:'FLOAT4X4'
+#. :src: bpy.types.GeometryNodeRaycast.data_type:'FLOAT4X4'
+#. :src: bpy.types.GeometryNodeSampleCurve.data_type:'FLOAT4X4'
+#. :src: bpy.types.GeometryNodeSampleIndex.data_type:'FLOAT4X4'
+#. :src: bpy.types.GeometryNodeSampleNearestSurface.data_type:'FLOAT4X4'
+#. :src: bpy.types.GeometryNodeSampleUVSurface.data_type:'FLOAT4X4'
+#. :src: bpy.types.GeometryNodeStoreNamedAttribute.data_type:'FLOAT4X4'
+#. :src: bpy.types.GeometryNodeViewer.data_type:'FLOAT4X4'
+#. :src: bpy.types.NodeGeometryCaptureAttributeItem.data_type:'FLOAT4X4'
+#. :src: bpy.types.GEOMETRY_OT_attribute_add.data_type:'FLOAT4X4'
+#. :src: bpy.types.GEOMETRY_OT_attribute_convert.data_type:'FLOAT4X4'
+msgid "4x4 Matrix"
+msgstr "4x4-matris"
+
+#. :src: bpy.types.BakeSettings.pass_filter:'TRANSMISSION'
+#. :src: bpy.types.BakeSettings.use_pass_transmission
+#. :src: bpy.types.ShaderNodeBsdfHair.component:'Transmission'
+#. :src: bpy.types.OBJECT_OT_bake.pass_filter:'TRANSMISSION'
+#. :src: bpy.types.OBJECT_OT_bake.type:'TRANSMISSION'
+#. :src: bpy.types.CyclesRenderSettings.bake_type:'TRANSMISSION'
+#. :src: bpy.types.CyclesVisibilitySettings.transmission
+#. :src: bpy.types.NWPrincipledPreferences.transmission
+#: scripts/addons_core/cycles/ui.py:608 scripts/addons_core/cycles/ui.py:1068
+#: scripts/addons_core/cycles/ui.py:1436
+#: scripts/startup/bl_ui/properties_data_light.py:200
+#: scripts/startup/bl_ui/properties_object.py:415
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_hair_principled.cc:108
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:176
+msgid "Transmission"
+msgstr "Transmission"
+
+#. :src: bpy.types.BlendData.armatures
+msgid "Armature data-blocks"
+msgstr "Armaturdatablock"
+
+#. :src: bpy.types.BlendData.brushes
+msgid "Brush data-blocks"
+msgstr "Penseldatablock"
+
+#. :src: bpy.types.BlendData.cache_files
+msgid "Cache Files data-blocks"
+msgstr "Cachefildatablock"
+
+#. :src: bpy.types.BlendData.cameras
+msgid "Camera data-blocks"
+msgstr "Kameradatablock"
+
+#. :src: bpy.types.BlendData.collections
+msgid "Collection data-blocks"
+msgstr "Samlingsdatablock"
+
+#. :src: bpy.types.BlendData.fonts
+msgid "Vector font data-blocks"
+msgstr "Vektorteckensnittsdatablock"
+
+#. :src: bpy.types.BlendData.lattices
+msgid "Lattice data-blocks"
+msgstr "Gitterdatablock"
+
+#. :src: bpy.types.BlendData.libraries
+msgid "Library data-blocks"
+msgstr "Biblioteksdatablock"
+
+#. :src: bpy.types.BlendData.lightprobes
+msgid "Light Probe data-blocks"
+msgstr "Ljussonddatablock"
+
+#. :src: bpy.types.BlendData.lights
+msgid "Light data-blocks"
+msgstr "Ljusdatablock"
+
+#. :src: bpy.types.BlendData.linestyles
+msgid "Line Style data-blocks"
+msgstr "Linjestilsdatablock"
+
+#. :src: bpy.types.BlendData.masks
+msgid "Masks data-blocks"
+msgstr "Maskdatablock"
+
+#. :src: bpy.types.BlendData.materials
+msgid "Material data-blocks"
+msgstr "Materialdatablock"
+
+#. :src: bpy.types.BlendData.metaballs
+msgid "Metaball data-blocks"
+msgstr "Metabolldatablock"
+
+#. :src: bpy.types.BlendData.movieclips
+msgid "Movie Clip data-blocks"
+msgstr "Filmklippsdatablock"
+
+#. :src: bpy.types.BlendData.node_groups
+msgid "Node group data-blocks"
+msgstr "Nodgruppsdatablock"
+
+#. :src: bpy.types.BlendData.objects
+msgid "Object data-blocks"
+msgstr "Objektdatablock"
+
+#. :src: bpy.types.BlendData.palettes
+msgid "Palette data-blocks"
+msgstr "Palettdatablock"
+
+#. :src: bpy.types.BlendData.particles
+msgid "Particle data-blocks"
+msgstr "Partikeldatablock"
+
+#. :src: bpy.types.BlendData.pointclouds
+msgid "Point cloud data-blocks"
+msgstr "Punktmolnsdatablock"
+
+#. :src: bpy.types.BlendData.scenes
+msgid "Scene data-blocks"
+msgstr "Scendatablock"
+
+#. :src: bpy.types.BlendData.screens
+msgid "Screen data-blocks"
+msgstr "Skärmdatablock"
+
+#. :src: bpy.types.BlendData.sounds
+msgid "Sound data-blocks"
+msgstr "Ljuddatablock"
+
+#. :src: bpy.types.BlendData.speakers
+msgid "Speaker data-blocks"
+msgstr "Högtalardatablock"
+
+#. :src: bpy.types.BlendData.texts
+msgid "Text data-blocks"
+msgstr "Textdatablock"
+
+#. :src: bpy.types.BlendData.textures
+msgid "Texture data-blocks"
+msgstr "Texturdatablock"
+
+#. :src: bpy.types.BlendData.volumes
+msgid "Volume data-blocks"
+msgstr "Volymdatablock"
+
+#. :src: bpy.types.BlendData.window_managers
+msgid "Window manager data-blocks"
+msgstr "Fönsterhanterardatablock"
+
+#. :src: bpy.types.BlendData.workspaces
+msgid "Workspace data-blocks"
+msgstr "Arbetsytedatablock"
+
+#. :src: bpy.types.BlendData.worlds
+msgid "World data-blocks"
+msgstr "Världsdatablock"
+
+#. :src: bpy.types.ColorManagedViewSettings.gamma
+#. :src: bpy.types.ImageFormatSettings.cineon_gamma
+#. :src: bpy.types.CompositorNodeBlur.use_gamma_correction
+#. :src: bpy.types.CompositorNodeColorBalance.gamma
+#. :src: bpy.types.CompositorNodeGamma
+#. :src: bpy.types.CompositorNodeTonemap.gamma
+#. :src: bpy.types.ShaderNodeGamma
+#. :src: bpy.types.StripColorBalanceData.gamma
+#. :src: bpy.types.SequencerTonemapModifierData.gamma
+#: scripts/startup/bl_ui/space_sequencer.py:69
+#: source/blender/nodes/composite/nodes/node_composite_colorcorrection.cc:51
+#: source/blender/nodes/composite/nodes/node_composite_colorcorrection.cc:83
+#: source/blender/nodes/composite/nodes/node_composite_colorcorrection.cc:115
+#: source/blender/nodes/composite/nodes/node_composite_colorcorrection.cc:147
+#: source/blender/nodes/composite/nodes/node_composite_gamma.cc:28
+#: source/blender/nodes/composite/nodes/node_composite_tonemap.cc:52
+#: source/blender/nodes/shader/nodes/node_shader_gamma.cc:13
+msgid "Gamma"
+msgstr "Gamma"
+
+#. :src: bpy.types.Constraint.type:'ACTION'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'ACTION'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'ACTION'
+msgid ""
+"Use transform property of target to look up pose for owner from an Action"
+msgstr ""
+"Använd målobjektets transformationsegenskap för att slå upp ägarens pose i "
+"en åtgärd"
+
+#. :src: bpy.types.ActionConstraint.eval_time
+msgid "Interpolates between Action Start and End frames"
+msgstr "Interpolerar mellan åtgärdens start- och slutbildruta"
+
+#. :src: bpy.types.FollowPathConstraint.up_axis
+#. :src: bpy.types.TrackToConstraint.up_axis
+#. :src: bpy.types.Object.up_axis
+#. :src: bpy.types.WM_OT_obj_export.up_axis
+#. :src: bpy.types.WM_OT_obj_import.up_axis
+#. :src: bpy.types.WM_OT_ply_export.up_axis
+#. :src: bpy.types.WM_OT_ply_import.up_axis
+#. :src: bpy.types.WM_OT_stl_export.up_axis
+#. :src: bpy.types.WM_OT_stl_import.up_axis
+#. :src: bpy.types.WM_OT_usd_export.export_global_up_selection
+#: scripts/startup/bl_ui/properties_object.py:143
+#: source/blender/editors/interface/templates/interface_template_cache_file.cc:267
+#: source/blender/editors/io/io_collada.cc:275
+#: source/blender/editors/io/io_obj.cc:142
+#: source/blender/editors/io/io_obj.cc:465
+#: source/blender/editors/io/io_ply_ops.cc:124
+msgid "Up Axis"
+msgstr "Uppåtriktad axel"
+
+#. :src: bpy.types.DopeSheet.show_metaballs
+msgid "Include visualization of metaball related animation data"
+msgstr "Inkludera visualisering av metabollrelaterade animationsdata"
+
+#. :src: bpy.types.FModifierFunctionGenerator.function_type:'SIN'
+#. :src: bpy.types.WoodTexture.noise_basis_2:'SIN'
+#. :src: bpy.types.ShaderNodeTexWave.wave_profile:'SIN'
+msgid "Sine"
+msgstr "Sinus"
+
+#. :src: bpy.types.FileAssetSelectIDFilter.experimental_filter_camera
+#. :src: bpy.types.FileSelectIDFilter.filter_camera
+msgid "Show Camera data-blocks"
+msgstr "Visa kameradatablock"
+
+#. :src: bpy.types.FileAssetSelectIDFilter.experimental_filter_linestyle
+#. :src: bpy.types.FileSelectIDFilter.filter_linestyle
+msgid "Show Freestyle's Line Style data-blocks"
+msgstr "Visa Freestyle-linjestilsdatablock"
+
+#. :src: bpy.types.FileAssetSelectIDFilter.experimental_filter_metaball
+#. :src: bpy.types.FileSelectIDFilter.filter_metaball
+msgid "Show Metaball data-blocks"
+msgstr "Visa metabolldatablock"
+
+#. :src: bpy.types.FileAssetSelectIDFilter.filter_world
+#. :src: bpy.types.FileSelectIDFilter.filter_world
+msgid "Show World data-blocks"
+msgstr "Visa datablock för världen"
+
+#. :src: bpy.types.FileBrowserFSMenuEntry
+#. :src: bpy.types.FileSelectParams
+msgid "File Select Parameters"
+msgstr "Filvalsparametrar"
+
+#. :src: bpy.types.FileSelectEntry
+msgid "File Select Entry"
+msgstr "Filvalspost"
+
+#. :src: bpy.types.FileSelectParams.sort_method:'ASSET_CATALOG'
+#. :src: bpy.types.CLIP_OT_open.sort_method:'ASSET_CATALOG'
+#. :src: bpy.types.NODE_OT_add_image.sort_method:'ASSET_CATALOG'
+#. :src: bpy.types.OBJECT_OT_empty_image_add.sort_method:'ASSET_CATALOG'
+#. :src: bpy.types.SEQUENCER_OT_image_strip_add.sort_method:'ASSET_CATALOG'
+#. :src: bpy.types.SEQUENCER_OT_movie_strip_add.sort_method:'ASSET_CATALOG'
+#. :src: bpy.types.SEQUENCER_OT_sound_strip_add.sort_method:'ASSET_CATALOG'
+#. :src: bpy.types.TEXT_OT_open.sort_method:'ASSET_CATALOG'
+msgid "Asset Catalog"
+msgstr "Tillgångskatalog"
+
+#. :src: bpy.types.Action.groups
+msgid ""
+"Legacy API, for backward compatibility with code that does not handle "
+"slotted actions yet. This collection contains the F-Curve groups for the "
+"action's first slot"
+msgstr ""
+"Äldre API för bakåtkompatibilitet med kod som ännu inte hanterar åtgärder "
+"med slotar. Denna samling innehåller F-kurvgrupperna för åtgärdens första "
+"åtgärdsslot"
+
+#. :src: bpy.types.Action.id_root
+msgid ""
+"Legacy API, for backward compatibility with code that does not handle "
+"slotted actions yet. Type of data-block that the action's first slot can be "
+"used on. Do not change unless you know what you are doing"
+msgstr ""
+"Äldre API för bakåtkompatibilitet med kod som ännu inte hanterar åtgärder "
+"med slotar. Typ av datablock som åtgärdens första åtgärdsslot kan användas "
+"på. Ändra inte om du inte vet vad du gör"
+
+#. :src: bpy.types.CacheFile.use_render_procedural
+msgid "Use Render Engine Procedural"
+msgstr "Använd renderingsmotorns procedur"
+
+#. :src: bpy.types.MetaBall
+msgid "Metaball data-block to define blobby surfaces"
+msgstr "Metabolldatablock för att definiera sammanflytande ytor"
+
+#. :src: bpy.types.MetaBall.update_method
+msgid "Metaball edit update behavior"
+msgstr "Uppdateringsbeteende vid metabollredigering"
+
+#. :src: bpy.types.BlendTexture.progression:'EASING'
+#. :src: bpy.types.Keyframe.easing
+#. :src: bpy.types.ShaderNodeTexGradient.gradient_type:'EASING'
+msgid "Easing"
+msgstr "Utjämning"
+
+#. :src: bpy.types.BlendTexture.progression:'EASING'
+#. :src: bpy.types.ShaderNodeTexGradient.gradient_type:'EASING'
+msgid "Create a progression easing from one step to the next"
+msgstr "Skapa en utjämnad övergång från ett steg till nästa"
+
+#. :src: bpy.types.BooleanModifier.operation:'UNION'
+#. :src: bpy.types.GeometryNodeMeshBoolean.operation:'UNION'
+msgid "Combine meshes in an additive way"
+msgstr "Kombinera mesh på ett additivt sätt"
+
+#. :src: bpy.types.BooleanModifier.operation:'DIFFERENCE'
+#. :src: bpy.types.GeometryNodeMeshBoolean.operation:'DIFFERENCE'
+msgid "Combine meshes in a subtractive way"
+msgstr "Kombinera mesh på ett subtraktivt sätt"
+
+#. :src: bpy.types.NlaStrip.last_slot_identifier
+msgid ""
+"The identifier of the most recently assigned action slot. The slot "
+"identifies which sub-set of the Action is considered to be for this strip, "
+"and its identifier is used to find the right slot when assigning an Action."
+msgstr ""
+"Identifieraren för den senast tilldelade åtgärdsslotten. Åtgärdsslotten "
+"anger vilken delmängd av åtgärden som avses för den här remsan, och dess "
+"identifierare används för att hitta rätt åtgärdsslot när en åtgärd tilldelas."
+
+#. :src: bpy.types.NlaStrip.use_sync_length
+msgid "Sync Action Length"
+msgstr "Synkronisera åtgärdslängd"
+
+#. :src: bpy.types.GeometryNodeForeachGeometryElementInput
+msgid "For Each Geometry Element Input"
+msgstr "Indata för varje geometrielement"
+
+#. :src: bpy.types.GeometryNodeForeachGeometryElementOutput
+msgid "For Each Geometry Element Output"
+msgstr "Utdata för varje geometrielement"
+
+#. :src: bpy.types.ShaderNodeEeveeSpecular
+msgid ""
+"Similar to the Principled BSDF node but uses the specular workflow instead "
+"of metallic, which functions by specifying the facing (along normal) "
+"reflection color. Energy is not conserved, so the result may not be "
+"physically accurate"
+msgstr ""
+"Liknar noden Principiell BSDF men använder det spekulära arbetsflödet i "
+"stället för det metalliska. Det fungerar genom att ange reflektionsfärgen i "
+"riktningen mot betraktaren, längs normalen. Energin bevaras inte, så "
+"resultatet kanske inte är fysiskt korrekt"
+
+#. :src: bpy.types.ShaderNodeEmission
+msgid "Lambertian emission shader"
+msgstr "Lambertisk emissionsshader"
+
+#. :src: bpy.types.ANIM_OT_slot_new_for_id
+msgid ""
+"Create a new Action Slot for an ID.\n"
+"\n"
+"    Note that _which_ ID should get this slot must be set in the "
+"'animated_id' context pointer, using:\n"
+"\n"
+"    >>> layout.context_pointer_set(\"animated_id\", animated_id)\n"
+"\n"
+"    When the ID already has a slot assigned, the newly-created slot will be\n"
+"    named after it (ensuring uniqueness with a numerical suffix) and any\n"
+"    animation data of the assigned slot will be duplicated for the new "
+"slot.\n"
+"    "
+msgstr ""
+"Skapa en ny åtgärdsslot för ett ID.\n"
+"\n"
+"    Observera att _vilket_ ID som ska få den här åtgärdsslotten måste anges "
+"i kontextpekaren 'animated_id' med:\n"
+"\n"
+"    >>> layout.context_pointer_set(\"animated_id\", animated_id)\n"
+"\n"
+"    Om ID:t redan har en tilldelad åtgärdsslot får den nya slotten samma "
+"namn\n"
+"    (med ett numeriskt suffix för att säkerställa unikhet) och alla "
+"animationsdata från\n"
+"    den tilldelade åtgärdsslotten dupliceras till den nya åtgärdsslotten.\n"
+"    "
+
+#. :src: bpy.types.ANIM_OT_slot_new_for_id
+msgctxt "Operator"
+msgid "New Slot"
+msgstr "Ny åtgärdsslot"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_constraint
+msgid ""
+"Un-assign the assigned Action Slot from an Action constraint.\n"
+"\n"
+"    Note that _which_ constraint should get this slot unassigned must be set "
+"in\n"
+"    the \"constraint\" context pointer, using:\n"
+"\n"
+"    >>> layout.context_pointer_set(\"constraint\", constraint)\n"
+"    "
+msgstr ""
+"Ta bort tilldelningen av åtgärdsslotten från en åtgärdsbegränsning.\n"
+"\n"
+"    Observera att _vilken_ begränsning som ska få åtgärdsslotten borttagen "
+"måste anges i\n"
+"    kontextpekaren \"constraint\" med:\n"
+"\n"
+"    >>> layout.context_pointer_set(\"constraint\", constraint)\n"
+"    "
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_constraint
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_id
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_nla_strip
+msgctxt "Operator"
+msgid "Unassign Slot"
+msgstr "Ta bort slot-tilldelning"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_id
+msgid ""
+"Un-assign the assigned Action Slot from an ID.\n"
+"\n"
+"    Note that _which_ ID should get this slot unassigned must be set in the\n"
+"    \"animated_id\" context pointer, using:\n"
+"\n"
+"    >>> layout.context_pointer_set(\"animated_id\", animated_id)\n"
+"    "
+msgstr ""
+"Ta bort tilldelningen av åtgärdsslotten från ett ID.\n"
+"\n"
+"    Observera att _vilket_ ID som ska få åtgärdsslotten borttagen måste "
+"anges i\n"
+"    kontextpekaren \"animated_id\" med:\n"
+"\n"
+"    >>> layout.context_pointer_set(\"animated_id\", animated_id)\n"
+"    "
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_nla_strip
+msgid ""
+"Un-assign the assigned Action Slot from an NLA strip.\n"
+"\n"
+"    Note that _which_ NLA strip should get this slot unassigned must be set "
+"in\n"
+"    the \"nla_strip\" context pointer, using:\n"
+"\n"
+"    >>> layout.context_pointer_set(\"nla_strip\", nla_strip)\n"
+"    "
+msgstr ""
+"Ta bort tilldelningen av åtgärdsslotten från en NLA-remsa.\n"
+"\n"
+"    Observera att _vilken_ NLA-remsa som ska få åtgärdsslotten borttagen "
+"måste anges i\n"
+"    kontextpekaren \"nla_strip\" med:\n"
+"\n"
+"    >>> layout.context_pointer_set(\"nla_strip\", nla_strip)\n"
+"    "
+
+#. :src: bpy.types.IMAGE_OT_new.name
+msgid "Image data-block name"
+msgstr "Bilddatablockets namn"
+
+#. :src: bpy.types.IMAGE_OT_unpack.id
+msgid "Image data-block name to unpack"
+msgstr "Namn på bilddatablocket som ska packas upp"
+
+#. :src: bpy.types.NLA_OT_action_sync_length
+msgctxt "Operator"
+msgid "Sync Action Length"
+msgstr "Synkronisera åtgärdslängd"
+
+#. :src: bpy.types.NLA_OT_apply_scale
+#: scripts/startup/bl_ui/space_clip.py:663
+msgctxt "Operator"
+msgid "Apply Scale"
+msgstr "Tillämpa skala"
+
+#. :src: bpy.types.NLA_OT_apply_scale
+msgid "Apply scaling of selected strips to their referenced Actions"
+msgstr "Tillämpa skalningen av markerade remsor på deras refererade åtgärder"
+
+#. :src: bpy.types.NLA_OT_bake.bake_types:'POSE'
+msgid "Bake bones transformations"
+msgstr "Baka benens transformationer"
+
+#. :src: bpy.types.NLA_OT_bake.bake_types:'OBJECT'
+msgid "Bake object transformations"
+msgstr "Baka objektets transformationer"
+
+#. :src: bpy.types.NLA_OT_bake.channel_types
+msgid "Which channels to bake"
+msgstr "Vilka kanaler som ska bakas"
+
+#. :src: bpy.types.NLA_OT_bake.clean_curves
+msgid "Clean Curves"
+msgstr "Rensa kurvor"
+
+#. :src: bpy.types.NLA_OT_bake.clear_parents
+msgid "Clear Parents"
+msgstr "Rensa föräldrar"
+
+#. :src: bpy.types.NLA_OT_bake.frame_end
+#. :src: bpy.types.RIGIDBODY_OT_bake_to_keyframes.frame_end
+msgid "End frame for baking"
+msgstr "Slutbildruta för bakning"
+
+#. :src: bpy.types.NLA_OT_bake.frame_start
+#. :src: bpy.types.RIGIDBODY_OT_bake_to_keyframes.frame_start
+msgid "Start frame for baking"
+msgstr "Startbildruta för bakning"
+
+#. :src: bpy.types.NLA_OT_bake.visual_keying
+#. :src: bpy.types.PreferencesEdit.use_visual_keying
+msgid "Visual Keying"
+msgstr "Visuell nyckelbildsättning"
+
+#. :src: bpy.types.NLA_OT_clear_scale
+#. :src: bpy.types.OBJECT_OT_scale_clear
+msgctxt "Operator"
+msgid "Clear Scale"
+msgstr "Rensa skala"
+
+#. :src: bpy.types.RENDER_OT_opengl.animation
+#. :src: bpy.types.RENDER_OT_render.animation
+msgid "Render files from the animation range of this scene"
+msgstr "Rendera filer inom den här scenens animationsintervall"
+
+#. :src: bpy.types.RENDER_OT_render.layer
+#. :src: bpy.types.RenderLayer
+msgid "Render Layer"
+msgstr "Renderingslager"
+
+#. :src: bpy.types.WM_OT_collada_export.export_global_up_selection
+msgid "Global Up Axis"
+msgstr "Global uppåtriktad axel"
+
+#. :src: bpy.types.PreferencesSystem.solid_lights
+msgid "Lights used to display objects in solid shading mode"
+msgstr "Ljus som används för att visa objekt i läget Solitt"
+
+#. :src: bpy.types.CyclesView3DShadingSettings.render_pass
+msgid "Render pass to show in the 3D Viewport"
+msgstr "Renderingspass som ska visas i 3D-vyn"
+
+#. :src: bpy.types.RenderSettings
+msgid "Rendering settings for a Scene data-block"
+msgstr "Renderingsinställningar för ett scendatablock"
+
+#. :src: bpy.types.RenderSettings.simplify_volumes
+msgid "Resolution percentage of volume objects in viewport"
+msgstr "Upplösningsprocent för volymobjekt i 3D-vyn"
+
+#. :src: bpy.types.StripsMeta
+#. :src: bpy.types.StripsTopLevel
+msgid "Collection of Strips"
+msgstr "Samling av remsor"
+
+#. :src: bpy.types.StudioLight
+#. :src: bpy.types.View3DShading.selected_studio_light
+msgid "Studio Light"
+msgstr "Studioljus"
+
+#. :src: bpy.types.StudioLight.has_specular_highlight_pass
+msgid "Has Specular Highlight"
+msgstr "Har spekulär högdager"
+
+#. :src: bpy.types.StudioLight.has_specular_highlight_pass
+msgid ""
+"Studio light image file has separate \"diffuse\" and \"specular\" passes"
+msgstr ""
+"Bildfilen för studioljus har separata pass för \"diffust\" och \"spekulärt\" "
+"ljus"
+
+#. :src: bpy.types.StudioLight.solid_lights
+msgid "Lights used to display objects in solid draw mode"
+msgstr "Ljus som används för att visa objekt i läget Solitt"
+
+#. :src: bpy.types.ParticleSettingsTextureSlot
+msgid "Particle Settings Texture Slot"
+msgstr "Texturplats för partikelinställningar"
+
+#. :src: bpy.types.View3DShading.render_pass
+msgid "Render Pass to show in the viewport"
+msgstr "Renderingspass som ska visas i vyn"
+
+#: scripts/startup/bl_ui/properties_render.py:47
+msgid "Render Engine"
+msgstr "Renderingsmotor"
+
+#: source/blender/editors/interface/templates/interface_template_id.cc:801
+msgid "Browse Mesh Data to be linked"
+msgstr "Bläddra bland meshdata som ska länkas"
+
+#: source/blender/editors/interface/templates/interface_template_id.cc:803
+msgid "Browse Curve Data to be linked"
+msgstr "Bläddra bland kurvdata som ska länkas"
+
+#: source/blender/editors/interface/templates/interface_template_id.cc:805
+msgid "Browse Metaball Data to be linked"
+msgstr "Bläddra bland metabolldata som ska länkas"
+
+#: source/blender/editors/interface/templates/interface_template_id.cc:813
+msgid "Browse Line Style Data to be linked"
+msgstr "Bläddra bland linjestilsdata som ska länkas"
+
+#: source/blender/editors/space_file/file_panels.cc:266
+msgid "Asset Catalogs"
+msgstr "Tillgångskataloger"

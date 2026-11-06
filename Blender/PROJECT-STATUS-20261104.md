@@ -1302,6 +1302,13 @@ Blender Translate accepterar granskade importbatchar om högst **1 000
 strängar**. Större filer ska delas upp före uppladdning eftersom importen kan
 hänga.
 
+För manuell import finns även den samlade deltafilen
+`blender-ui-sv-reviewed-20261106-batches-160-174.po`. Den innehåller **121**
+unika, lokalt granskade poster från batch 160--174 och ligger långt under
+Blender Translates gräns på 1 000 strängar. Den ersätter inte de enskilda
+batchfilerna i arkivet, men gör det möjligt att importera den sammanhängande
+granskningen i en enda uppladdning. Den är ännu inte verifierat importerad.
+
 Batch 160 granskar fjorton noder, geometrioperationer och exportetiketter med
 tre parallella kontextgenomgångar. Den normaliserar bland annat
 `4x4-matris`, vektorer med signerade 16- och 32-bitarsheltal, *sinus*,
