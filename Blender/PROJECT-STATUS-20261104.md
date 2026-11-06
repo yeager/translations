@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-389.po`
-med 1 206 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-390.po`
+med 1 216 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3224,8 +3224,8 @@ uttrycka valet mellan att bearbeta och ignorera ytan. Deltafilen
 
 Batch 387 granskar tio Dynamic Paint-poster för ytformat, bildsekvens,
 kantutjämning och upplösning av ytförändringar. Den normaliserar *Yttyp*
-som kompakt UI-term och ersätter engelska *multisampling* med
-*flerprovtagning*. Deltafilen
+som kompakt UI-term. Termen *multisampling* har efter kontroll mot
+terminologilistan återställts i batch 390. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-387-dynamic-paint-format-and-dissolve.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
@@ -3241,4 +3241,12 @@ kanter, UV-karta och vågdämpning. Den gör processhjälptexterna konsekventa
 med *Beräkna* och föredrar den korta formen *UV-kartans namn*. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-389-dynamic-paint-waves-and-uv.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 390 granskar tio Dynamic Paint-poster för vågornas branthet,
+utbredning, fjäderkraft, tidsskala och aktiva dukytor samt rättar en tidigare
+termavvikelse. Den återställer den etablerade datorgrafiktermen
+*multisampling* efter kontroll mot projektets terminologilista. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-390-dynamic-paint-wave-controls.po`
+innehåller därför elva poster och är lokalt kontrollerad men ännu inte manuellt
+importerad till Blender Translate.
 
