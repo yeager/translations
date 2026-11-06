@@ -2023,3 +2023,15 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 ordföljdsvarningar från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 228 granskar 41 poster för Spline-IK, Stretch To, Transform Cache och
+Transform-begränsningar. Den normaliserar bland annat *volymbevarande*,
+*kvaternionrotation*, *svängning och vridning*, *transformationscache* samt
+käll- och utdataaxlar. Terminologilistan utökas med återkommande
+constraint-termer. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-228-constraints-spline-transform.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast facktermer samt konstgjorda längd- och
+ordföljdsvarningar från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+

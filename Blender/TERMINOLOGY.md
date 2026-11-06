@@ -97,6 +97,10 @@ Senast uppdaterad: 2026-11-06.
 | Clamp To | Begränsa till | Begränsning som placerar ett objekt vid närmaste punkt på en målkurva. I den tekniska typetiketten används *Begränsning: Begränsa till*. |
 | transform / transformation | transformera / transformation | Använd *transformation* för Blenders egenskap, begränsning och kanaler. Blanda inte med den bredare betydelsen *omvandling*. |
 | offset | förskjutning | Relativ rotations-, positions- eller skaländring i en begränsning. |
+| pivot | vridpunkt | Punkt kring vilken en constraint utför en rotation. Använd *vridpunkt*, inte den engelska formen *pivotpunkt* eller det tvetydiga *svängpunkt*. |
+| face cull | ytborttagning | Utesluter målmeshens ytor vid Shrinkwrap-projektion beroende på normalriktning. Använd inte den felaktiga formen *utslaktning*. |
+| IK stretching | IK-sträckning | Tillåter en IK-kedja att ändra benens längd för att nå målet. |
+| Swing / Twist | svängning / vridning | Rotationens svängnings- och vridningsdel i Quaternion- och constraint-kontext. |
 | envelope (armature) | omslutning | Armaturens volym runt ett ben som kan användas vid viktning. |
 | Action | Action | Blenders datatyp för en animation. Behåll namnet i Action-begränsningens tekniska hjälptexter. |
 | duplicate and rename | Duplicera och byt namn | Operatör för kopiering av ben med efterföljande namnbyte. |
