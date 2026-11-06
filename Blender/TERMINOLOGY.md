@@ -403,6 +403,10 @@ Senast uppdaterad: 2026-11-06.
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
 | brush capabilities | penselfunktioner | Skrivskyddad uppsättning tillgängliga egenskaper för en pensel. |
 | brush | pensel | Använd för Blender-verktyget i målning, skulptering och Grease Pencil. Undvik den felaktiga formen *borste* i nya UI-strängar. |
+| brush blending mode | penselblandningsläge | Inställning som styr hur penselns färg kombineras med befintliga pixlar eller värden. |
+| Color Burn / Linear Burn | Färgbränn / Linjär bränn | Etablerade namn på mörkande blandningslägen; undvik omskrivningar som *efterbelys färg* och *linjär förbränning*. |
+| Screen / Color Dodge | Raster / Färgskugga | Etablerade namn på ljusare färgblandningslägen i den här UI-kontexten. |
+| Pin Light / Vivid Light | Punktljus / Levande ljus | Namn på färgblandningslägen; *stiftlampa* är inte korrekt. |
 | crease / pinch factor | fåra-/nypningsfaktor | Skulpteringsfaktor som styr fårning eller nypning av ytan. |
 | rake factor / topology rake | krattningsfaktor / topologisk krattning | Skulpteringsinställning som följer och riktar penseldrag efter topologin. |
 | persistence | beständighet | Pensel- eller simuleringsfunktion som bevarar ett tillstånd över tid. |

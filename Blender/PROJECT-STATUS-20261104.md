@@ -2406,3 +2406,18 @@ Hunspell och `svlang` rapporterar endast den korrekta fackformen
 *kavitetsmasken* och en konstgjord ordföljdsvarning från sammanfogade
 UI-etiketter. Filen är arkiverad och väntar på manuell import.
 
+Batch 263 granskar 28 strängar för penselns färgblandningslägen och en
+delad nodträdsvariant av *Color Burn*. Den använder Blenders dokumentation
+för att bevara blandningslägenas funktion och den tidigare granskade
+Blender-exporten för deras etablerade svenska UI-namn: *Färgbränn*, *Linjär
+bränn*, *Raster*, *Färgskugga*, *Punktljus*, *Uteslutning* och *Levande
+ljus*. Hjälpraderna har samtidigt normaliserats till konsekvent svenska.
+Terminologilistan har kompletterats med penselblandningsläge och de
+återkommande färgblandningslägena. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-263-brush-blending-modes.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
+Gitleaks. `svlang` rapporterar endast konstgjorda längd- och
+ordföljdsvarningar eftersom separata UI-etiketter analyseras som en enda
+mening. Filen är arkiverad och väntar på manuell import.
+
