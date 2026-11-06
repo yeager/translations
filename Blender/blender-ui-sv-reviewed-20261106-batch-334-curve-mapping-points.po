@@ -1,0 +1,129 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.CurveMap.points
+#. :src: bpy.types.CurveProfile.points
+#. :src: bpy.types.CurveSlice.points
+#. :src: bpy.types.Curves.points
+#. :src: bpy.types.Lattice.points
+#. :src: bpy.types.PointCloud.points
+#. :src: bpy.types.MaskSpline.points
+#. :src: bpy.types.GeometryNodeCurveArc.mode:'POINTS'
+#. :src: bpy.types.GeometryNodeCurvePrimitiveCircle.mode:'POINTS'
+#. :src: bpy.types.GeometryNodeCurvePrimitiveLine.mode:'POINTS'
+#. :src: bpy.types.GeometryNodeCurvePrimitiveQuadrilateral.mode:'POINTS'
+#. :src: bpy.types.GeometryNodePoints
+#. :src: bpy.types.GeometryNodeProximity.target_element:'POINTS'
+#. :src: bpy.types.PARTICLE_OT_select_random.type:'POINTS'
+#. :src: bpy.types.ShapeKey.points
+#. :src: bpy.types.Spline.points
+#. :src: bpy.types.ThemeFontStyle.points
+#. :src: bpy.types.VolumeDisplay.wireframe_type:'POINTS'
+#: scripts/startup/bl_ui/properties_paint_common.py:1026
+#: scripts/startup/bl_ui/properties_paint_common.py:1047
+#: scripts/startup/bl_ui/space_view3d.py:8950
+#: source/blender/editors/space_info/info_stats.cc:845
+#: source/blender/nodes/geometry/nodes/node_geo_curve_primitive_star.cc:12
+#: source/blender/nodes/geometry/nodes/node_geo_curve_to_points.cc:46
+#: source/blender/nodes/geometry/nodes/node_geo_distribute_points_in_grid.cc:57
+#: source/blender/nodes/geometry/nodes/node_geo_distribute_points_in_volume.cc:55
+#: source/blender/nodes/geometry/nodes/node_geo_distribute_points_on_faces.cc:65
+#: source/blender/nodes/geometry/nodes/node_geo_instance_on_points.cc:21
+#: source/blender/nodes/geometry/nodes/node_geo_instances_to_points.cc:25
+#: source/blender/nodes/geometry/nodes/node_geo_interpolate_curves.cc:36
+#: source/blender/nodes/geometry/nodes/node_geo_mesh_to_points.cc:36
+#: source/blender/nodes/geometry/nodes/node_geo_points.cc:26
+#: source/blender/nodes/geometry/nodes/node_geo_points_to_curves.cc:24
+#: source/blender/nodes/geometry/nodes/node_geo_points_to_sdf_grid.cc:15
+#: source/blender/nodes/geometry/nodes/node_geo_points_to_vertices.cc:17
+#: source/blender/nodes/geometry/nodes/node_geo_points_to_volume.cc:131
+#: source/blender/nodes/geometry/nodes/node_geo_set_point_radius.cc:14
+#: source/blender/nodes/geometry/nodes/node_geo_set_point_radius.cc:15
+msgid "Points"
+msgstr "Punkter"
+
+#. :src: bpy.types.CurveMapPoint
+msgid "Point of a curve used for a curve mapping"
+msgstr "Kurvpunkt som används för kurvkartläggning"
+
+#. :src: bpy.types.CurveMapPoint.handle_type
+msgid "Curve interpolation at this point: Bézier or vector"
+msgstr "Kurvinterpolation vid den här punkten: Bézier eller vektor"
+
+#. :src: bpy.types.CurveMapPoint.handle_type:'AUTO'
+#. :src: bpy.types.CurveProfilePoint.handle_type_1:'AUTO'
+#. :src: bpy.types.CurveProfilePoint.handle_type_2:'AUTO'
+#. :src: bpy.types.ThemeClipEditor.handle_auto
+#. :src: bpy.types.ThemeGraphEditor.handle_auto
+#. :src: bpy.types.ThemeImageEditor.handle_auto
+#. :src: bpy.types.ThemeView3D.handle_auto
+#: source/blender/editors/interface/templates/interface_template_curve_mapping.cc:616
+msgid "Auto Handle"
+msgstr "Automatiskt handtag"
+
+#. :src: bpy.types.CurveMapPoint.handle_type:'AUTO_CLAMPED'
+#. :src: bpy.types.ThemeClipEditor.handle_auto_clamped
+#. :src: bpy.types.ThemeGraphEditor.handle_auto_clamped
+#. :src: bpy.types.ThemeImageEditor.handle_auto_clamped
+msgid "Auto-Clamped Handle"
+msgstr "Automatiskt begränsat handtag"
+
+#. :src: bpy.types.CurveMapPoint.handle_type:'VECTOR'
+#. :src: bpy.types.CurveProfilePoint.handle_type_1:'VECTOR'
+#. :src: bpy.types.CurveProfilePoint.handle_type_2:'VECTOR'
+#. :src: bpy.types.ThemeGraphEditor.handle_vect
+#. :src: bpy.types.ThemeView3D.handle_vect
+#: source/blender/editors/interface/templates/interface_template_curve_mapping.cc:640
+msgid "Vector Handle"
+msgstr "Vektorhandtag"
+
+#. :src: bpy.types.CurveMapPoint.location
+msgid "X/Y coordinates of the curve point"
+msgstr "X/Y-koordinater för kurvans punkt"
+
+#. :src: bpy.types.CurveMapPoint.select
+msgid "Selection state of the curve point"
+msgstr "Urvalstillstånd för kurvpunkten"
+
+#. :src: bpy.types.CurveMapPoints
+msgid "Curve Map Point"
+msgstr "Kurvkartpunkt"
+
+#. :src: bpy.types.CurveMapPoints
+msgid "Collection of Curve Map Points"
+msgstr "Samling av kurvkartpunkter"
+
+#. :src: bpy.types.CurveMapping
+msgid ""
+"Curve mapping to map color, vector and scalar values to other values using a "
+"user defined curve"
+msgstr ""
+"Kurvkartläggning som kartlägger färg-, vektor- och skalärvärden till andra "
+"värden med en användardefinierad kurva"
+
+#. :src: bpy.types.CurveMapping.black_level
+msgid "For RGB curves, the color that black is mapped to"
+msgstr "För RGB-kurvor är detta färgen som svart kartläggs till"

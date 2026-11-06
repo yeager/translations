@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-333.po`
-med 607 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-334.po`
+med 619 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -152,6 +152,13 @@ Batch 333 granskar åtta poster för fler-målbegränsningar och målben. Den
 förtydligar skillnaden mellan målobjekt, målben och målarmatur samt använder
 den etablerade termen *blandningsvikt*. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-333-constraint-targets.po` är lokalt
+kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 334 granskar tolv poster för kurvkartläggningens kontrollpunkter,
+handtag och RGB-kurvor. Den normaliserar *kurvkartpunkt* enligt termlistan
+och behåller de etablerade kurvtermerna *Bézier*, *vektorhandtag* och
+*automatiskt handtag*. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-334-curve-mapping-points.po` är lokalt
 kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
 ## Projektets aktualitet
