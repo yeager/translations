@@ -2098,3 +2098,13 @@ fått sina `fuzzy`-markeringar borttagna. Deltafilen
 l10n-lint, riktad Hunspell, diffkontroll, Gitleaks och `svlang`. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 235 granskar 14 poster för kraftfältens effektorvikter. Den normaliserar
+*effektor*, *effektorvikt*, *effektorsamling*, *kurvguide*, *motstånd* och
+*virvel* efter Blenders egna kraftfältstyper. Samtliga granskade poster har
+fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-235-effector-weights.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast domänspecifika kraftfältstermer och en konstgjord
+ordföljdsvarning från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+

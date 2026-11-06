@@ -122,6 +122,10 @@ Senast uppdaterad: 2026-11-06.
 | solid radius | heltäckande radie | Radien inom vilken Dynamic Paint-färgen är heltäckande. |
 | smooth radius | utjämningsradie | Den extra radien utanför den heltäckande radien som skapar ett jämnt avtagande. |
 | smudge | smeta ut | Dynamic Paint-effekt som drar ut befintlig färg när penseln rör sig. |
+| effector | effektor | Objekt eller fält som påverkar en Blender-simulering. Skriv sammansättningar som *effektorvikt* och *effektorsamling*. |
+| Curve Guide | kurvguide | Kraftfältstyp som styr en simulering längs en kurva. |
+| Drag | motstånd | Kraftfältstyp som bromsar rörelse; översätt inte med verbet *dra*. |
+| Vortex | virvel | Kraftfältstyp som ger en roterande påverkan. |
 | point cache | punktcache | Simuleringscache för punktsystem; skriv ihop. |
 | geometry attribute | geometriattribut | Attribut kopplat till Blenders geometri. Skriv ihop, även i sammansättningar. |
 | geometry color attribute | geometrifärgattribut | Färgattribut på geometri. Skriv ihop; undvik den särskrivna formen *geometri färgattribut*. |
