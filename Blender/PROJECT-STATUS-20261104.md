@@ -1315,3 +1315,10 @@ beskrivningar. Den ersätter den utfasade termen *åtgärdsplats* med
 `blender-ui-sv-reviewed-20261106-batch-161-action-slots.po` saknar
 `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint och diffkontroll. Den är
 arkiverad men ännu inte verifierat importerad till Blender Translate.
+
+Batch 162 granskar fyra filbläddrar- och resurskatalogsetiketter. Den
+normaliserar *filvalsparametrar*, *filvalspost* och *datablock* samt tar bort
+ett felaktigt kolon från etiketten *Tillgångskatalog*. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-162-file-browser.po` saknar
+`fuzzy`-markeringar och passerar `msgfmt`, l10n-lint och diffkontroll. Den är
+arkiverad men ännu inte verifierat importerad till Blender Translate.
