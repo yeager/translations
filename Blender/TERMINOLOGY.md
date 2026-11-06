@@ -349,6 +349,9 @@ Senast uppdaterad: 2026-11-06.
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
 | brush capabilities | penselfunktioner | Skrivskyddad uppsättning tillgängliga egenskaper för en pensel. |
 | brush | pensel | Använd för Blender-verktyget i målning, skulptering och Grease Pencil. Undvik den felaktiga formen *borste* i nya UI-strängar. |
+| crease / pinch factor | fåra-/nypningsfaktor | Skulpteringsfaktor som styr fårning eller nypning av ytan. |
+| rake factor / topology rake | krattningsfaktor / topologisk krattning | Skulpteringsinställning som följer och riktar penseldrag efter topologin. |
+| persistence | beständighet | Pensel- eller simuleringsfunktion som bevarar ett tillstånd över tid. |
 | brush stroke | penseldrag | Ett sammanhängande drag med penseln. Skilj från Grease Pencil-*streck*, som är det ritade resultatet. |
 | brush dab | penselavtryck | Enskilt delavtryck i ett penseldrag. |
 | brush falloff | penselns avtagande | Hur penselns påverkan minskar med avståndet från centrum eller gräns. |

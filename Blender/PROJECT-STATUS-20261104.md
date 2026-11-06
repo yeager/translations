@@ -1806,3 +1806,14 @@ sina `fuzzy`-markeringar borttagna. Deltafilen
 `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
 ger 10/10. Filen är arkiverad och väntar på manuell import.
 
+Batch 209 granskar arton poster för kurvskulptering och Grease
+Pencil-penslar. Den ersätter engelska skulpteringstermer med
+*fåra-/nypningsfaktor*, *krattningsfaktor*, *topologisk krattning* och
+*beständighet*, som samtidigt dokumenteras i terminologilistan. Samtliga
+granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-209-brush-curves.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast etablerade Blender- och facktermer samt en konstgjord
+längdvarning från sammanfogade UI-etiketter. Filen är arkiverad och väntar
+på manuell import.
+
