@@ -687,7 +687,7 @@ Senast uppdaterad: 2026-11-06.
 | snap keyframes | fäst nyckelbildrutor | Flyttar nyckelbildrutor till bestämda tider, bildrutor eller markörer. |
 | NLA stack | NLA-stapel | Lagerordningen för åtgärder och remsor i Nonlinear Animation. |
 | keying set | nyckeluppsättning | Namngiven uppsättning animerbara egenskaper som används vid infogning och borttagning av nyckelbildrutor. |
-| driver | drivare | Uttrycks- eller databaserad styrning av en egenskap; skilj från fysisk hårdvarudrivrutin. |
+| driver | drivrutin | Uttrycks- eller databaserad styrning av en egenskap; skilj från fysisk hårdvarudrivrutin. |
 | Graph Editor | grafredigeraren | Redigeraren för F-kurvor och animerade värden. |
 | bone collection | bensamling | Samling som organiserar riggens ben. |
 | action | åtgärd | Blenderdatablock som lagrar animeringsdata; behåll *åtgärd* i den här API- och UI-kontexten. |
