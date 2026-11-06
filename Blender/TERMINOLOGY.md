@@ -160,6 +160,10 @@ Senast uppdaterad: 2026-11-06.
 | Function Node | funktionsnod | Nod som utför en matematisk, logisk eller geometrisk funktion. |
 | input type / input value | indatatyp / indatavärde | I nodsammanhang avser *input* ett indatauttag eller dess värde. |
 | float | flyttal | Numerisk datatyp. Skriv exempelvis *avrunda flyttalet uppåt*. |
+| float attribute value | flyttalsattributvärde | Attributvärde med Blenders numeriska datatyp *float*. Skriv ihop i API-nära UI-etiketter. |
+| float vector attribute value | flyttalsvektorattributvärde | Geometriattribut med flyttalsvektor; behåll sammansättningen i Blender-UI. |
+| float color attribute value | flyttalsfärgattributvärde | Geometriattribut med färgvärden som flyttal; det är inte en allmän flytande färg. |
+| 2D float attribute value | 2D-flyttalsattributvärde | Tvådimensionellt flyttalsattribut i Blenders geometriattribut-API. |
 | byte color | bytefärg | 8-bitars färgattribut i geometri- och nodkontext. |
 | byte color attribute | bytefärgsattribut | Geometriattribut som lagrar RGBA-färg med 8 bitar per kanal. |
 | floating point matrix | flyttalsmatris | Matrisdatatyp med flyttalsvärden; skriv ihop i UI-etiketter. |

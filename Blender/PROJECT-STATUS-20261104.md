@@ -2183,3 +2183,14 @@ rapporterar endast sammansatta Blender-termer och konstgjorda
 ordföljdsvarningar från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 244 granskar 20 geometriattribut och Mantaflow-strängar för vätske-,
+rök- och eldvolymer. Den normaliserar bland annat
+*flyttalsattributvärde*, *matrisattributvärde*, *brusdata*,
+*rökdensitetsrutnät*, cachetyp och rökvisning i vyporten. Terminologilistan
+har kompletterats med de återkommande formerna för flyttalsattribut.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-244-fluid-domain-attributes.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast facktermer och en konstgjord längdvarning från
+sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell import.
+
