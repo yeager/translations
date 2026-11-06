@@ -112,7 +112,7 @@ Senast uppdaterad: 2026-11-06.
 | transform / transformation | transformera / transformation | Använd *transformation* för Blenders egenskap, begränsning och kanaler. Blanda inte med den bredare betydelsen *omvandling*. |
 | offset | förskjutning | Relativ rotations-, positions- eller skaländring i en begränsning. |
 | pivot | vridpunkt | Punkt kring vilken en constraint utför en rotation. Använd *vridpunkt*, inte den engelska formen *pivotpunkt* eller det tvetydiga *svängpunkt*. |
-| face cull | ytborttagning | Utesluter målmeshens ytor vid Shrinkwrap-projektion beroende på normalriktning. Använd inte den felaktiga formen *utslaktning*. |
+| face cull | ytgallring | Utesluter projektion mot en yta beroende på normalriktning. Funktionen raderar inte geometri. |
 | IK stretching | IK-sträckning | Tillåter en IK-kedja att ändra benens längd för att nå målet. |
 | Swing / Twist | svängning / vridning | Rotationens svängnings- och vridningsdel i Quaternion- och constraint-kontext. |
 | envelope (armature) | omslutning | Armaturens volym runt ett ben som kan användas vid viktning. |
@@ -303,7 +303,6 @@ Senast uppdaterad: 2026-11-06.
 | Follow Track Constraint | Följ spår-begränsning | Formellt API-/UI-namn för begränsningen ovan. Bindestrecket gör sammansättningen läsbar. |
 | Object Solver / Object Solver Constraint | objektlösare / objektlösarbegränsning | Begränsning som låser ett objekt till den rekonstruerade rörelsen hos ett filmspårningsobjekt. *Lösare* är Blenders etablerade term för beräkningsmetoden. |
 | pivot / Pivot Constraint | vridpunkt / vridpunktsbegränsning | Rotationspunkt som kan ställas in för ett objekt. Använd *vridpunkt*, inte det engelska *pivot* eller *svängpunkt*. |
-| face cull / culling | ytgallring / gallring | Utesluter projektion mot en yta beroende på vilken sida som träffas. Det är en urvalsregel, inte att ytan eller hörnpunkten tas bort. |
 | Shrinkwrap | Shrinkwrap | Behåll Blenders synliga funktionsnamn. Funktionen anpassar meshens hörnpunkter till en målyta; den är inte förpackningsmaterial som *krympfilm*. Sammansättningar skrivs *Shrinkwrap-modifierare* och *Shrinkwrap-begränsning*. |
 | hair curve / hair root / hair tip | hårkurva / hårrot / hårspets | Avser den hårgeometri som bearbetas av Blenders Hair Nodes. Skriv därför *hårkurvor*, *rot* och *spets* i de här nodernas beskrivningar, inte *hårets kurvor*, *topp* eller engelska *tips*. |
 | Roll Direction (Hair Nodes) | rullningsriktning | Riktningen som en hårkurva rullas kring sin axel. Använd *rullning* och *rullningsriktning*, inte det ospecificerade *riktning*. |
@@ -320,6 +319,7 @@ Senast uppdaterad: 2026-11-06.
 | constraint | begränsning | Blender-relation som styr ett objekt eller ben. Skriv sammansättningar som *positionsbegränsning*, *rotationsbegränsning*, *skalbegränsning* och *avståndsbegränsning*. |
 | project axis | projektionsaxel | Axeln som Shrinkwrap projicerar längs. Skilj från ett projekts egen axel. |
 | target normal | målnormal | Normal från målets yta, till exempel i Shrinkwrap-projektion. |
+| target mesh object | målmeshobjekt | Meshobjektet som Shrinkwrap anpassar ett annat objekt till. Skriv sammansatt; ordet är en teknisk objekttyp. |
 | joint binding | ledbindning | Spline IK-inställning för leders relativa positioner längs kedjan. |
 | curve mapping | kurvkartläggning | Verktyg som mappar färg-, vektor- eller skalärvärden via en användardefinierad kurva. |
 | curve fill mode | kurvans fyllningsläge | Inställning för hur en 2D-kurva fylls. |
