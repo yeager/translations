@@ -2671,10 +2671,10 @@ Filen väntar därefter på manuell import.
 
 Den samlade importdeltafilen
 `blender-ui-sv-reviewed-20261106-all-changes.po` sammanför de 288
-arkiverade, granskade batcherna till 5 646 unika poster med respektive
+arkiverade, granskade batcherna till 5 667 unika poster med respektive
 senaste översättning. Filen är avsedd som fullständig lokal referens och
 passerar `msgfmt`. För Weblate används i stället sex lokala importdelar med
-högst 1 000 poster: fem delar om 1 000 och en slutdel om 646. Detta följer
+högst 1 000 poster: fem delar om 1 000 och en slutdel om 667. Detta följer
 den etablerade gränsen för att undvika att serverns import låser sig.
 
 Batch 284 granskar 21 strängar för Freestyle-linjers ändlock,
