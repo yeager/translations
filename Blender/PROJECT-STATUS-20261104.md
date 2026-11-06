@@ -2526,3 +2526,14 @@ borttagna i deltafilen
 Filen kontrolleras med `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
 Gitleaks före arkivering. Filen väntar därefter på manuell import.
 
+Batch 273 granskar 22 strängar för skulpteringsplan, normalradie,
+målningskurvor och poseringsverktyg. Den återställer projektets etablerade
+termer *målningskurva*, *hörnpunkt*, *mesh* och *ytuppsättning* och ersätter
+kvarvarande engelska former som *Squash & Stretch*. Terminologin har också
+städats så att den motstridiga dubbleringen för Face Set inte längre styr
+nya översättningar fel. Samtliga granskade poster får sina
+`fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-273-sculpt-plane-and-pose.po`.
+Filen kontrolleras med `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
+Gitleaks före arkivering. Filen väntar därefter på manuell import.
+

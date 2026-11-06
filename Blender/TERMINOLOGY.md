@@ -437,9 +437,11 @@ Senast uppdaterad: 2026-11-06.
 | texture overlay | texturöverlägg | Visas ovanpå arbetsytan vid målning. |
 | plane offset | planförskjutning | Förskjuter skulpteringsplanet i förhållande till ytan. |
 | plane trim | plantrimning | Begränsar hur långt från det förskjutna planet en hörnpunkt påverkas. |
+| normal weight | normalvikt | Styr hur starkt flyttverktyget drar meshens hörnpunkter bort från ytan. |
+| Paint Curve | målningskurva | Kurva som styr penseldragets förlopp; den är inte en färgkurva. |
 | area normal | områdesnormal | Normal som används för ett område i skulpterings- och automaskningsinställningar. |
 | view normal | visningsnormal | Normal uttryckt i förhållande till 3D-vyn. |
-| face set | ansiktsuppsättning | Skulpteringsgrupp av meshytor. Skriv sammansättningar som *ansiktsuppsättningsgräns*. |
+| face set boundary | ytuppsättningsgräns | Gräns mellan skulpteringens ytuppsättningar. Grundtermen är *ytuppsättning*. |
 | radius falloff | radieavtagande | Avtagande som styrs av radie i pensel- och skulpteringsinställningar. |
 | smooth stroke | jämnt penseldrag | Penselinställning som filtrerar markörens rörelse under draget. |
 | space attenuation | avståndsdämpning | Dämpar penselstyrkan utifrån mellanrummet mellan penselavtryck. |
