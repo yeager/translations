@@ -1,0 +1,138 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.CurvePaintSettings
+#. :src: bpy.types.ToolSettings.curve_paint_settings
+msgid "Curve Paint Settings"
+msgstr "Inställningar för kurvmålning"
+
+#. :src: bpy.types.CurvePaintSettings.corner_angle
+#. :src: bpy.types.WeightedNormalModifier.mode:'CORNER_ANGLE'
+#. :src: bpy.types.CURVES_OT_draw.corner_angle
+#. :src: bpy.types.CURVE_OT_draw.corner_angle
+#. :src: bpy.types.MESH_OT_average_normals.average_type:'CORNER_ANGLE'
+msgid "Corner Angle"
+msgstr "Hörnvinkel"
+
+#. :src: bpy.types.CurvePaintSettings.corner_angle
+msgid "Angles above this are considered corners"
+msgstr "Vinklar över detta betraktas som hörn"
+
+#. :src: bpy.types.CurvePaintSettings.curve_type
+msgid "Type of curve to use for new strokes"
+msgstr "Typ av kurva att använda för nya streck"
+
+#. :src: bpy.types.CurvePaintSettings.curve_type:'POLY'
+#. :src: bpy.types.GeometryNodeCurveSplineType.spline_type:'POLY'
+#. :src: bpy.types.GeometryNodeFilletCurve.mode:'POLY'
+#. :src: bpy.types.CURVES_OT_curve_type_set.type:'POLY'
+#. :src: bpy.types.CURVE_OT_spline_type_set.type:'POLY'
+#. :src: bpy.types.GREASE_PENCIL_OT_set_curve_type.type:'POLY'
+#. :src: bpy.types.Spline.type:'POLY'
+msgid "Poly"
+msgstr "Poly"
+
+#. :src: bpy.types.CurvePaintSettings.curve_type:'BEZIER'
+#. :src: bpy.types.GeometryNodeCurveSplineType.spline_type:'BEZIER'
+#. :src: bpy.types.GeometryNodeFilletCurve.mode:'BEZIER'
+#. :src: bpy.types.ANIM_OT_channels_bake.interpolation_type:'BEZIER'
+#. :src: bpy.types.CURVES_OT_curve_type_set.type:'BEZIER'
+#. :src: bpy.types.CURVE_OT_spline_type_set.type:'BEZIER'
+#. :src: bpy.types.GREASE_PENCIL_OT_set_curve_type.type:'BEZIER'
+#. :src: bpy.types.Spline.type:'BEZIER'
+#: scripts/startup/bl_ui/space_view3d.py:8179
+msgid "Bézier"
+msgstr "Bézier"
+
+#. :src: bpy.types.CurvePaintSettings.depth_mode
+msgid "Method of projecting depth"
+msgstr "Metod för djupprojektion"
+
+#. :src: bpy.types.CurvePaintSettings.error_threshold
+#. :src: bpy.types.LineStyleGeometryModifier_Simplification.tolerance
+#. :src: bpy.types.CompositorNodeDiffMatte.tolerance
+#. :src: bpy.types.CompositorNodeDistanceMatte.tolerance
+#: source/blender/nodes/composite/nodes/node_composite_diff_matte.cc:31
+#: source/blender/nodes/composite/nodes/node_composite_distance_matte.cc:34
+#: source/blender/nodes/composite/nodes/node_composite_keying.cc:93
+msgid "Tolerance"
+msgstr "Tolerans"
+
+#. :src: bpy.types.CurvePaintSettings.error_threshold
+msgid "Allow deviation for a smoother, less precise line"
+msgstr "Tillåt avvikelse för en mjukare, mindre exakt linje"
+
+#. :src: bpy.types.CurvePaintSettings.fit_method
+#. :src: bpy.types.GeometryNodeUVUnwrap.method
+#. :src: bpy.types.ShaderNodeSubsurfaceScattering.falloff
+#. :src: bpy.types.FILE_OT_unpack_all.method
+#. :src: bpy.types.FILE_OT_unpack_item.method
+#. :src: bpy.types.IMAGE_OT_unpack.method
+#. :src: bpy.types.OBJECT_OT_geometry_node_bake_unpack_single.method
+#. :src: bpy.types.SOUND_OT_unpack.method
+#. :src: bpy.types.UV_OT_align_rotation.method
+#. :src: bpy.types.UV_OT_unwrap.method
+#. :src: bpy.types.BatchRenameAction.set_method
+#. :src: bpy.types.SceneEEVEE.fast_gi_method
+#: scripts/addons_core/cycles/ui.py:674 scripts/startup/bl_operators/wm.py:3150
+#: scripts/startup/bl_ui/properties_freestyle.py:585
+#: scripts/startup/bl_ui/properties_render.py:375
+#: scripts/startup/bl_ui/space_toolsystem_toolbar.py:2640
+msgid "Method"
+msgstr "Metod"
+
+#. :src: bpy.types.CurvePaintSettings.fit_method
+msgid "Curve fitting method"
+msgstr "Metod för kurvanpassning"
+
+#. :src: bpy.types.CurvePaintSettings.fit_method:'REFIT'
+#. :src: bpy.types.CURVES_OT_draw.fit_method:'REFIT'
+#. :src: bpy.types.CURVE_OT_draw.fit_method:'REFIT'
+msgid "Refit"
+msgstr "Anpassa om"
+
+#. :src: bpy.types.CurvePaintSettings.fit_method:'REFIT'
+#. :src: bpy.types.CURVES_OT_draw.fit_method:'REFIT'
+#. :src: bpy.types.CURVE_OT_draw.fit_method:'REFIT'
+msgid "Incrementally refit the curve (high quality)"
+msgstr "Anpassa om kurvan stegvis (hög kvalitet)"
+
+#. :src: bpy.types.CurvePaintSettings.fit_method:'SPLIT'
+#. :src: bpy.types.Menu
+#. :src: bpy.types.IMAGE_MT_uvs_split
+#. :src: bpy.types.VIEW3D_MT_edit_mesh_split
+#. :src: bpy.types.CompositorNodeSplit
+#. :src: bpy.types.CURVES_OT_draw.fit_method:'SPLIT'
+#. :src: bpy.types.CURVE_OT_draw.fit_method:'SPLIT'
+#: scripts/startup/bl_ui/space_view3d.py:4439
+msgid "Split"
+msgstr "Dela"
+
+#. :src: bpy.types.CurvePaintSettings.fit_method:'SPLIT'
+#. :src: bpy.types.CURVES_OT_draw.fit_method:'SPLIT'
+#. :src: bpy.types.CURVE_OT_draw.fit_method:'SPLIT'
+msgid "Split the curve until the tolerance is met (fast)"
+msgstr "Dela kurvan tills toleransen är uppfylld (snabb)"
