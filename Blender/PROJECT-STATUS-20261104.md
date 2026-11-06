@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-376.po`
-med 1 077 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-377.po`
+med 1 087 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3152,5 +3152,12 @@ meshvolym, färgens våthet, partikelsystem och avtagande. Den gör
 *objektcentrum* konsekvent svenskt och förtydligar att partikelsystemet
 används för målning. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-376-dynamic-paint-source-and-wetness.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 377 granskar tio Dynamic Paint-poster för närhetsavtagande,
+strålriktning och projektion. Den använder *Jämn* som namn på ett
+avtagandeläge, inte uppmaningen *Utjämna*, och förtydligar när ett
+penselobjekt målas längs den valda strålriktningen. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-377-dynamic-paint-falloff-and-rays.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
