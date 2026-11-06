@@ -432,6 +432,9 @@ Senast uppdaterad: 2026-11-06.
 | brush stroke method | penseldragsmetod | Väljer hur penseldraget skapas; Grease Pencil använder samma penselstyrning. |
 | airbrush | sprutpistol | Penselläget som fortsätter att applicera färg medan musknappen hålls nedtryckt. |
 | adaptive spacing | adaptivt penselavstånd | Fördelar penselavtryck efter ytans riktning i stället för i skärmutrymmet. |
+| smooth stroke | jämnt penseldrag | Styrning som låter penseln släpa efter markören och följa en jämnare bana. |
+| vertex paint | hörnpunktsmålning | Målningsläge som målar färgvärden på meshens hörnpunkter. |
+| wet persistence | våt beständighet | Mängden våt färg som stannar kvar i penseln efter målning. |
 | deformation target | deformationsmål | Väljer om en pensel deformerar geometri direkt eller tygsimuleringens begränsningar. |
 | falloff shape | avtagandeform | Väljer om penselns avtagande är projicerat eller sfäriskt. |
 | Bi-Scale Grab / Tri-Scale Grab | Flytta i två skalor / Flytta i tre skalor | Elastisk deformeringsmetod för penseln; undvik de felaktiga formerna *gripdon* och *grepp*. |

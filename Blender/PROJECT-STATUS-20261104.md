@@ -2577,3 +2577,16 @@ Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
 konstgjord varning från sammanfogade UI-etiketter. Gitleaks körs före
 arkivering. Filen väntar därefter på manuell import.
 
+Batch 277 granskar 28 strängar för pensellägen, penselavstånd,
+ritplattans tryck och våt målning. Den ersätter felöversatta termer som
+*slag*, *tablett*, *offset*, *vertex*, *jitter*, *strokeposition* och
+*smidig slaglängd* med konsekvent Blender-svenska. Terminologilistan har
+kompletterats med *jämnt penseldrag*, *hörnpunktsmålning* och *våt
+beständighet*. Samtliga granskade poster får sina `fuzzy`-markeringar
+borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-277-brush-modes-and-pressure.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
+`svlang` markerar endast tekniska sammansättningar och en konstgjord varning
+från sammanfogade UI-etiketter. Gitleaks körs före arkivering. Filen väntar
+därefter på manuell import.
+
