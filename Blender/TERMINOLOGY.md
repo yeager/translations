@@ -212,6 +212,8 @@ Senast uppdaterad: 2026-11-06.
 | Grease Pencil frame | Grease Pencil-bildruta | Bildruta i ett Grease Pencil-lager; använd inte *ram* i animeringskontext. |
 | annotation frame | anteckningsbildruta | Bildruta som innehåller en anteckning; undvik *ram för anteckning*. |
 | annotation layer | anteckningslager | Lager som samlar relaterade anteckningsstreck. |
+| Grease Pencil sculpt guide | skulpteringsguide för Grease Pencil | Guide som hjälper till att styra Grease Pencil-streck vid ritning och skulptering. |
+| auto-masking | automaskering | Begränsar verktygets påverkan till valt lager, material eller streck. |
 | layer pass / material pass | lagerpass / materialpass | Filteregenskaper i Grease Pencil-modifierare. |
 | fading | uttoning | Gradvis borttagning i Grease Pencil-bygg- och längdmodifierare. |
 | Grease Pencil masking layer | maskeringslager för Grease Pencil | Lager som begränsar synligheten för Grease Pencil-innehåll. |

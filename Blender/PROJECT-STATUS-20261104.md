@@ -2260,3 +2260,16 @@ rapporterar endast tekniska egennamn, ovanliga sammansättningar och
 konstgjorda varningar från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 251 granskar 25 Grease Pencil-strängar för skulpteringsguider,
+automaskering och strecktjocklek. Den normaliserar bland annat
+*skulpteringsguide för Grease Pencil*, *radiell*, *streckkorsning*,
+*penselns avtagande*, *automaskering*, *strecktjocklek* och
+*anteckningsstreckpunkt*. Terminologilistan har kompletterats med
+*skulpteringsguide för Grease Pencil* och *automaskering*. Samtliga
+granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-251-grease-pencil-sculpt.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast tekniska egennamn, ovanliga sammansättningar och
+en konstgjord längdvarning från sammanfogade UI-etiketter. Filen är arkiverad
+och väntar på manuell import.
+
