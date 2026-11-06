@@ -94,6 +94,7 @@ Senast uppdaterad: 2026-11-06.
 | parenting | föräldrarelation / överordnad relation | Beskriver relationen mellan objekt eller ben. Använd *föräldrarelation* i förklarande dokumentation; följ den exakta UI-kontexten för menyåtgärder som *Rensa överordnad*. |
 | rest pose | viloposition | Använd i förklarande armaturtext. Bevara RST-termmål som `<rest pose>`. |
 | constraint | begränsning | Blender-funktionen som styr eller begränsar ett objekts eller bens transformation. I sammansättningar: *rotationsbegränsning*, *skalbegränsning*. |
+| Clamp To | Begränsa till | Begränsning som placerar ett objekt vid närmaste punkt på en målkurva. I den tekniska typetiketten används *Begränsning: Begränsa till*. |
 | transform / transformation | transformera / transformation | Använd *transformation* för Blenders egenskap, begränsning och kanaler. Blanda inte med den bredare betydelsen *omvandling*. |
 | offset | förskjutning | Relativ rotations-, positions- eller skaländring i en begränsning. |
 | envelope (armature) | omslutning | Armaturens volym runt ett ben som kan användas vid viktning. |

@@ -1989,3 +1989,14 @@ granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
 rapporterar endast facktermer och en konstgjord längdvarning från sammanfogade
 UI-etiketter. Filen är arkiverad och väntar på manuell import.
 
+Batch 225 granskar åtta ytterligare poster för kurvbegränsningar och benmål.
+Den rättar den missvisande ordagranna formen *Klämma till* till
+*Begränsa till*, använder *begränsningsruta* i stället för *begränsningsbox*
+och normaliserar den armatursspecifika skalan *benhuvud/benspets*.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-225-constraints-bone-targets.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast etablerade facktermer och en konstgjord
+ordföljdsvarning från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+
