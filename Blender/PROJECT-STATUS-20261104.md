@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-383.po`
-med 1 146 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-384.po`
+med 1 156 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3201,5 +3201,12 @@ upplösning samt droppningens acceleration och hastighet. Den gör
 hjälptexten om upplösningstid idiomatisk och anger förskjutningens styrka
 med en rakare satskonstruktion. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-383-dynamic-paint-displace-and-drip.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 384 granskar tio Dynamic Paint-poster för torktid, effekttyp,
+droppning, krympning och simuleringens delsteg. Den använder den kompakta
+UI-termen *effekttyp* och förtydligar att extra bildrutor beräknas mellan
+scenens bildrutor. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-384-dynamic-paint-timing-and-effects.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
