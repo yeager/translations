@@ -202,6 +202,7 @@ Senast uppdaterad: 2026-11-06.
 | obstacle cell | hindercell | Cell i Mantaflow-domänens beräkningsrutnät som representerar ett hinder. Skriv ihop i hjälptexter och egenskapsbeskrivningar. |
 | highlight range | markeringsintervall | Egenskap som avgränsar vilka rutnätsvärden som markeras visuellt. Använd inte den handlingsinriktade formen *Markera intervall* som fältetikett. |
 | Color Gridlines | färglägg rutnätslinjer | Växling som färgsätter Mantaflow-rutnätets linjer utifrån ett valt simuleringsfält. |
+| gridlines | rutnätslinjer | Linjer som visar cellindelningen i Mantaflow-domänen. Skilj från *rutnät*, som avser själva cellstrukturen eller datafältet. |
 | heat grid / smoke heat grid | värmerutnät / rökens värmerutnät | Mantaflow-datafält för temperaturdata i en gasdomän. Den possessiva formen gör relationen till röken tydlig utan svårläst sammansättning. |
 | particle level set | partikelnivåmängd | Nivåmängd som härleds från vätskepartiklar för Mantaflows meshyta. Använd den matematiskt precisa termen, inte den förkortade och missvisande *partikelnivå*. |
 | mesh generator / mesh scale | meshgenerator / meshskala | Mantaflow-inställningar som väljer metod respektive upplösningsfaktor för den genererade meshen. Skriv sammansättningarna utan bindestreck. |
