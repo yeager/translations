@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-385.po`
-med 1 166 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-386.po`
+med 1 176 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3214,5 +3214,11 @@ Batch 385 granskar tio Dynamic Paint-poster för bildutdata och målningsytans
 initiala tillstånd. Den bekräftar etablerade UI-termer för utdatasökväg,
 utdatabild och UV-textur samt behåller filformatens egna namn. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-385-dynamic-paint-output-and-initial-state.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 386 granskar tio Dynamic Paint-poster för cache, ytnamn, utdatanamn,
+krympning och spridning. Den gör växlingshjälptexten idiomatisk genom att
+uttrycka valet mellan att bearbeta och ignorera ytan. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-386-dynamic-paint-surface-output-and-effects.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
