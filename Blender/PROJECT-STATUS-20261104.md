@@ -2000,3 +2000,15 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 ordföljdsvarning från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 226 granskar 25 poster för rotations-, skalkopierings-,
+transformations- och filmspårningsbegränsningar. Den ersätter otydliga eller
+felaktiga former såsom *Applicera*, *euler-komponentsvärden*, *Offset* och
+*Undistort* med kontextuellt korrekta svenska motsvarigheter. Den normaliserar
+också föräldrarelations- och begränsningsavståndstexten. Samtliga granskade
+poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-226-constraints-rotation-tracking.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast etablerade facktermer och konstgjorda längd- och
+ordföljdsvarningar från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+
