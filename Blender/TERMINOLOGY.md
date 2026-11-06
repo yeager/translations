@@ -118,6 +118,7 @@ Senast uppdaterad: 2026-11-06.
 | pivot | vridpunkt | Punkt kring vilken en constraint utför en rotation. Använd *vridpunkt*, inte den engelska formen *pivotpunkt* eller det tvetydiga *svängpunkt*. |
 | face cull | ytgallring | Utesluter projektion mot en yta beroende på normalriktning. Funktionen raderar inte geometri. |
 | IK stretching | IK-sträckning | Tillåter en IK-kedja att ändra benens längd för att nå målet. |
+| Spline IK scale modes | Y-skalningsläge / Benets ursprungliga skala / Invers skala / Volymbevarande | Spline IK:s längdskalning följer kurvan längs Y-axeln, medan X- och Z-skalningen bestäms separat. *Anpassa till kurva* skalar benen över hela kurvlängden. |
 | Kinematic Constraint | kinematisk begränsning | IK-begränsningens allmänna typ. Använd *kedjelängd*, *lösningsiterationer*, *polmål* och *polvinkel* i dess riggningsinställningar. |
 | Swing / Twist | svängning / vridning | Rotationens svängnings- och vridningsdel i Quaternion- och constraint-kontext. |
 | envelope (armature) | omslutning | Armaturens volym runt ett ben som kan användas vid viktning. |

@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-352.po`
-med 827 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-353.po`
+med 840 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -273,6 +273,13 @@ använder därför *fri axel*, *icke-fria axlar*, *En axel* och *viloposition*
 i stället för de mindre precisa formerna *enkel axel* och *i vila*.
 Deltafilen `blender-ui-sv-reviewed-20261106-batch-352-maintain-volume-constraint.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 353 granskar 14 poster för Spline IK:s skalningslägen. Blenders
+handbok skiljer Y-skalning längs kurvans längd från X- och Z-skalning längs
+dess normaler. Därför används *Y-skalningsläge*, *Benets ursprungliga skala*,
+*Invers skala*, *Volymbevarande* och *Anpassa till kurva*. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-353-spline-ik-scale-modes.po` är
+lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
 ## Projektets aktualitet
 
