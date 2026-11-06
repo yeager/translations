@@ -332,6 +332,7 @@ Senast uppdaterad: 2026-11-06.
 | joint binding | ledbindning | Spline IK-inställning för leders relativa positioner längs kedjan. |
 | curve mapping | kurvkartläggning | Verktyg som mappar färg-, vektor- eller skalärvärden via en användardefinierad kurva. |
 | Curve Point / Curve control point | kurvpunkt / kurvkontrollpunkt | Punkt som beskriver en kurvas geometri respektive styr dess form. Skriv den tekniska sammansättningen ihop. |
+| Curve Profile presets | Förval, Linje, Stödslingor, Gesimslist, Krönlist, Steg | Geometriska förinställningar i profilbaneredigeraren. *Gesimslist* och *Krönlist* är svenska byggnadstermer för profilernas arkitektoniska listformer. |
 | Curve Mapping: Clip / White Level | Klipp / Vitnivå | I kurvkartläggningen begränsar *Klipp* kurvvyn till en angiven gräns. *Vitnivå* anger för RGB-kurvor den färg som vitt mappas till. |
 | curve fill mode | kurvans fyllningsläge | Inställning för hur en 2D-kurva fylls. |
 | curve bevel cross section | tvärsnitt för kurvans avfasningsgeometri | Profilen som gör en kurva till ett rör; kan vara en cirkel, ett separat kurvobjekt eller en profil. |
