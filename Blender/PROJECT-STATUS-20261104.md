@@ -1246,3 +1246,12 @@ unika, granskade strängar från batch 148--155 och ligger under Weblates
 100-strängarsgräns. Den har inga `fuzzy`-markeringar och passerar `msgfmt`,
 l10n-lint, diffkontroll och Gitleaks. Något importresultat för denna samlade
 fil är ännu inte verifierat.
+
+Batch 156 granskar två attributetiketter för geometri med oberoende
+fackgranskning. Den rättar särskrivningarna *8-bitars värde* och *Geometri
+färgattribut* till `8-bitarsvärde i geometriattribut` respektive
+`Geometrifärgattribut`. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-156-geometry-attributes.po` innehåller
+endast dessa två poster utan `fuzzy`-markeringar och passerar `msgfmt`,
+l10n-lint och diffkontroll. Den är arkiverad men ännu inte verifierat
+importerad till Blender Translate.
