@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-324.po`
-med 527 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-325.po`
+med 531 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -90,6 +90,13 @@ Batch 324 granskar nio poster för Stretch To-begränsningens axelordning,
 svängning, vilolängd och volymbevarande. Den använder *dämpad spårning* i
 stället för det engelska UI-namnet där texten beskriver funktionen. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-324-stretch-to-axis-and-rest-length.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender
+Translate.
+
+Batch 325 granskar fyra poster för Track To-begränsningen mot Blenders
+dokumentation. Den normaliserar komponentnamnet till *Rikta mot-begränsning*
+och skiljer målets Z-axel från den globala Z-axeln i den beskrivande texten.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-325-track-to-constraint.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender
 Translate.
 
