@@ -336,6 +336,7 @@ Senast uppdaterad: 2026-11-06.
 | Curve profile point / handle | profilpunkt / handtag | Profilbanans kontrollpunkt och dess Bézierhandtag. Använd *markeringsstatus*, *banpunkt* och *handtagstyp* i de närliggande hjälptexterna. |
 | Curve Slice / Curve Splines | kurvsegment / kurvsplines | Ett kurvsegment är en enskild kurva i ett kurvdatablock. Behåll *spline* som Blenderterm och skriv *kurvspline* sammansatt. |
 | Dependency Graph / evaluated data-block | beroendegraf / utvärderat datablock | Blenders graf över beroenden och de data som beräknats för aktuell vyport eller renderingen. Skriv API-pluralen *ID:n*. |
+| Dependency Graph Object Instance | objektinstans i beroendegrafen | Instans som exponeras av beroendegrafens iterator. Använd *koordinatrymd*, *utvärderat objekt* och *beständigt ID* i API-hjälptexterna. |
 | Curve Mapping: Clip / White Level | Klipp / Vitnivå | I kurvkartläggningen begränsar *Klipp* kurvvyn till en angiven gräns. *Vitnivå* anger för RGB-kurvor den färg som vitt mappas till. |
 | curve fill mode | kurvans fyllningsläge | Inställning för hur en 2D-kurva fylls. |
 | curve bevel cross section | tvärsnitt för kurvans avfasningsgeometri | Profilen som gör en kurva till ett rör; kan vara en cirkel, ett separat kurvobjekt eller en profil. |

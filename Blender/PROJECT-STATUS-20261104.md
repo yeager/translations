@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-359.po`
-med 900 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-360.po`
+med 923 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -321,6 +321,13 @@ API-pluralen *ID:n*, och rättar den felaktiga hänvisningen till iteratorns
 element. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-359-dependency-graph.po` är lokalt
 kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 360 granskar 23 poster för objektinstanser i beroendegrafen. Den
+förtydligar iterator- och koordinatrymdskontexten, ersätter det felaktiga
+*Visa själv* med *Visa objektet* och normaliserar API-termerna för utvärderade
+objekt och beständiga ID:n. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-360-dependency-graph-object-instances.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
 ## Projektets aktualitet
 
