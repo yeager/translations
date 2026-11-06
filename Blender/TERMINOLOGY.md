@@ -301,6 +301,9 @@ Senast uppdaterad: 2026-11-06.
 | Shrinkwrap | Shrinkwrap | Behåll Blenders synliga funktionsnamn. Funktionen anpassar meshens hörnpunkter till en målyta; den är inte förpackningsmaterial som *krympfilm*. Sammansättningar skrivs *Shrinkwrap-modifierare* och *Shrinkwrap-begränsning*. |
 | hair curve / hair root / hair tip | hårkurva / hårrot / hårspets | Avser den hårgeometri som bearbetas av Blenders Hair Nodes. Skriv därför *hårkurvor*, *rot* och *spets* i de här nodernas beskrivningar, inte *hårets kurvor*, *topp* eller engelska *tips*. |
 | Roll Direction (Hair Nodes) | rullningsriktning | Riktningen som en hårkurva rullas kring sin axel. Använd *rullning* och *rullningsriktning*, inte det ospecificerade *riktning*. |
+| Curve Info / Curve Root / Curve Segment / Curve Tip | Kurvinformation / Kurvrot / Kurvsegment / Kurvspets | Namn på noder som läser data ur hårkurvor. De är sammansättningar, inte fraser som *Kurva rot*. |
+| hair attachment | hårinfästning | Hårkurvans fästning vid ett ytmesh. Använd exempelvis *infästnings-UV*, inte det felaktiga *bilaga-UV*. |
+| feature awareness (Redistribute Curve Points) | detaljbevarande | Den här inställningen bevarar lokala kurvdetaljer och riktningsändringar när kontrollpunkter omfördelas. |
 | constraint | begränsning | Blender-relation som styr ett objekt eller ben. Skriv sammansättningar som *positionsbegränsning*, *rotationsbegränsning*, *skalbegränsning* och *avståndsbegränsning*. |
 | project axis | projektionsaxel | Axeln som Shrinkwrap projicerar längs. Skilj från ett projekts egen axel. |
 | target normal | målnormal | Normal från målets yta, till exempel i Shrinkwrap-projektion. |
