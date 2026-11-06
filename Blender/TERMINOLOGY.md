@@ -50,6 +50,9 @@ Senast uppdaterad: 2026-11-06.
 | Close Menu on Leave | Stäng meny när muspekaren lämnar den | Följer den aktuella UI-etiketten ordagrant; behåll den obestämda formen *meny*. |
 | add-on / extension | tillägg | I Blender betecknar båda källtermerna samma utbyggbara funktion. Svenska använder samma form i singular och plural i korta UI-etiketter. I dokumentation som måste skilja undergruppen *add-ons* från samlingsnamnet *extensions* kan *tilläggsmoduler* användas för just undergruppen. |
 | data-block | datablock | Skriv ihop. Behåll bindestrecket bara i bokstavliga API-namn. |
+| runtime data | körtidsdata | Data som bara finns under aktuell Blender-körning och därför inte sparas i .blend-filen. |
+| garbage collection | skräpinsamling | Automatisk frigöring av oanvända datablock; används i tekniska API-beskrivningar. |
+| library weak reference | svag biblioteksreferens | Svag referens till ett datablock i en annan .blend-biblioteksfil. |
 | object | objekt | Etablerad Blender-term. |
 | collection | samling | Avser Blenders objektbehållare, inte en godtycklig lista. |
 | collection exporter | samlingsexportör | Exportör som är kopplad till en specifik Blender-samling. |
@@ -391,7 +394,7 @@ Senast uppdaterad: 2026-11-06.
 | envelope influence | kuvertets påverkan | Påverkan från ett bens Envelope-volym vid armaturdeformering. |
 | relative parenting | relativ överordning | Armaturinställning som låter underordnade objekt använda relativ transformering. |
 | scale easing | skalutjämning | B-Bone-inställning som skalar de slutliga utjämningsvärdena med Y-faktorerna för Skala in/ut. |
-| library override | biblioteksöverskrivning | Lokal ändring av länkat biblioteksmaterial i aktuell Blender-fil. |
+| library override | biblioteksåsidosättning | Lokal ändring av länkat biblioteksmaterial i aktuell Blender-fil. |
 | effective visibility | effektiv synlighet | Synlighet som beror på både bensamlingen och alla dess överordnade samlingar. |
 | selection set | urvalsuppsättning | Rigify-inställning som samlar ben för ett styrt urval. |
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |

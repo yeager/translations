@@ -2344,3 +2344,16 @@ borttagna. Deltafilen
 rapporterar enbart de fackliga sammansättningarna *mellanpose* och
 *nyckelposer*. Filen är arkiverad och väntar på manuell import.
 
+Batch 258 granskar 19 API-strängar för Blender-ID:n och datablock. Den
+normaliserar bland annat *skräpinsamling*, *körtidsdata*, *svag
+biblioteksreferens*, *biblioteksåsidosättning* och *ID-datablock*.
+Terminologilistan har kompletterats med de nya
+datablocks- och körtidstermerna och den motstridiga formen
+*biblioteksöverskrivning* har ersatts av *biblioteksåsidosättning*.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna i
+deltafilen `blender-ui-sv-reviewed-20261106-batch-258-id-datablocks.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
+Gitleaks. `svlang` rapporterar bara en konstgjord längdvarning från
+sammanfogade API-beskrivningar. Filen är arkiverad och väntar på manuell
+import.
+

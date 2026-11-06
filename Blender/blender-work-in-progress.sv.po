@@ -35086,7 +35086,7 @@ msgstr "Visa linjer istället för fyllda former"
 #. :src: bpy.types.ID
 #, fuzzy
 msgid "Base type for data-blocks, defining a unique name, linking from other libraries and garbage collection"
-msgstr "Bastyp för datablock, definition av ett unikt namn, länkning från andra bibliotek och garbage collection"
+msgstr "Bastyp för datablock som definierar ett unikt namn, länkning från andra bibliotek och skräpinsamling"
 
 #. :src: bpy.types.ID.asset_data
 #, fuzzy
@@ -35116,7 +35116,7 @@ msgstr "Typidentifierare för detta datablock"
 #. :src: bpy.types.ParticleSystem.is_editable
 #, fuzzy
 msgid "Editable"
-msgstr "Kan ändras"
+msgstr "Redigerbar"
 
 #. :src: bpy.types.ID.is_editable
 #, fuzzy
@@ -35130,17 +35130,17 @@ msgstr "Inbäddad data"
 #. :src: bpy.types.ID.is_embedded_data
 #, fuzzy
 msgid "This data-block is not an independent one, but is actually a sub-data of another ID (typical example: root node trees or master collections)"
-msgstr "Detta datablock är inte självständigt, utan är i själva verket en underdata till ett annat ID (typiskt exempel: rotnodeträd eller mastersamlingar)"
+msgstr "Detta datablock är inte självständigt utan ingår i ett annat ID (typiska exempel: rotnodträd och huvudsamlingar)"
 
 #. :src: bpy.types.ID.is_evaluated
 #, fuzzy
 msgid "Is Evaluated"
-msgstr "Är utvärderad"
+msgstr "Är utvärderat"
 
 #. :src: bpy.types.ID.is_evaluated
 #, fuzzy
 msgid "Whether this ID is runtime-only, evaluated data-block, or actual data from .blend file"
-msgstr "Huruvida detta ID är runtime-only, utvärderat datablock eller faktiska data från .blend-fil"
+msgstr "Anger om detta ID är körtidsdata, ett utvärderat datablock eller faktiska data från en .blend-fil"
 
 #. :src: bpy.types.ID.is_library_indirect
 #, fuzzy
@@ -35150,7 +35150,7 @@ msgstr "Är indirekt"
 #. :src: bpy.types.ID.is_library_indirect
 #, fuzzy
 msgid "Is this ID block linked indirectly"
-msgstr "Är detta ID-block indirekt länkat"
+msgstr "Är detta ID-datablock indirekt länkat"
 
 #. :src: bpy.types.ID.is_missing
 msgid "Missing Data"
@@ -35159,17 +35159,17 @@ msgstr "Data saknas"
 #. :src: bpy.types.ID.is_missing
 #, fuzzy
 msgid "This data-block is a place-holder for missing linked data (i.e. it is [an override of] a linked data that could not be found anymore)"
-msgstr "Detta datablock är en platshållare för länkad data som saknas (t.ex. det är [en överskrivning av] länkad data som inte längre kan hittas)"
+msgstr "Detta datablock är en platshållare för saknade länkade data (det vill säga en [åsidosättning av] länkade data som inte längre kan hittas)"
 
 #. :src: bpy.types.ID.is_runtime_data
 #, fuzzy
 msgid "Runtime Data"
-msgstr "Data för körtid"
+msgstr "Körtidsdata"
 
 #. :src: bpy.types.ID.is_runtime_data
 #, fuzzy
 msgid "This data-block is runtime data, i.e. it won't be saved in .blend file. Note that e.g. evaluated IDs are always runtime, so this value is only editable for data-blocks in Main data-base."
-msgstr "Detta datablock är runtime-data, dvs. det kommer inte att sparas i .blend-filen. Observera att t.ex. utvärderade ID:n alltid är runtime, så detta värde är endast redigerbart för datablock i Main data-base."
+msgstr "Detta datablock är körtidsdata och sparas därför inte i .blend-filen. Observera att exempelvis utvärderade ID:n alltid är körtidsdata, så värdet kan endast redigeras för datablock i huvuddatabasen."
 
 #. :src: bpy.types.ID.library
 #. :src: bpy.types.BRUSH_OT_asset_save_as.asset_library_reference
@@ -35184,12 +35184,12 @@ msgstr "Bibliotek"
 #. :src: bpy.types.ID.library
 #, fuzzy
 msgid "Library file the data-block is linked from"
-msgstr "Biblioteksfil som datablocket är länkat från"
+msgstr "Biblioteksfil som datablocket har länkats från"
 
 #. :src: bpy.types.ID.library_weak_reference
 #, fuzzy
 msgid "Library Weak Reference"
-msgstr "Bibliotek Svag referens"
+msgstr "Svag biblioteksreferens"
 
 #. :src: bpy.types.ID.library_weak_reference
 #, fuzzy
@@ -35208,7 +35208,7 @@ msgstr "Fullständigt namn"
 #. :src: bpy.types.ID.name_full
 #, fuzzy
 msgid "Unique data-block ID name, including library one is any"
-msgstr "Unikt ID-namn för datablock, inklusive bibliotek om ett sådant finns"
+msgstr "Unikt ID-namn för datablock, inklusive biblioteket om ett sådant finns"
 
 #. :src: bpy.types.ID.original
 #, fuzzy
@@ -35218,7 +35218,7 @@ msgstr "Ursprungligt ID"
 #. :src: bpy.types.ID.original
 #, fuzzy
 msgid "Actual data-block from .blend file (Main database) that generated that evaluated one"
-msgstr "Faktiskt datablock från .blend-fil (huvuddatabas) som genererade den utvärderade en"
+msgstr "Det datablock i .blend-filen (huvuddatabasen) som skapade den utvärderade varianten"
 
 #. :src: bpy.types.ID.override_library
 #. :src: bpy.types.Menu
@@ -35228,12 +35228,12 @@ msgstr "Faktiskt datablock från .blend-fil (huvuddatabas) som genererade den ut
 #: source/blender/editors/interface/interface_ops.cc:1024
 #, fuzzy
 msgid "Library Override"
-msgstr "Åsidosättande av bibliotek"
+msgstr "Biblioteksåsidosättning"
 
 #. :src: bpy.types.ID.override_library
 #, fuzzy
 msgid "Library override data"
-msgstr "Bibliotek åsidosätter data"
+msgstr "Data för biblioteksåsidosättning"
 
 #. :src: bpy.types.ID.preview
 #, fuzzy
@@ -35270,7 +35270,7 @@ msgstr "Sessionens UID"
 #. :src: bpy.types.ID.session_uid
 #, fuzzy
 msgid "A session-wide unique identifier for the data block that remains the same across renames and internal reallocations, unchanged when reloading the file"
-msgstr "En sessionsomfattande unik identifierare för datablocket som förblir densamma vid namnändringar och interna omallokeringar, oförändrad när filen laddas om"
+msgstr "En sessionsomfattande unik identifierare för datablocket som inte ändras vid namnändring eller intern omallokering och förblir oförändrad när filen läses in på nytt"
 
 #. :src: bpy.types.ID.tag
 #: scripts/startup/bl_operators/assets.py:44
@@ -35280,12 +35280,12 @@ msgstr "Tagg"
 #. :src: bpy.types.ID.tag
 #, fuzzy
 msgid "Tools can use this to tag data for their own purposes (initial state is undefined)"
-msgstr "Verktyg kan använda detta för att tagga data för deras egna syften (standardvärde är odefinierat)"
+msgstr "Verktyg kan använda detta för att tagga data för sina egna syften (standardvärdet är odefinierat)"
 
 #. :src: bpy.types.ID.use_extra_user
 #, fuzzy
 msgid "Extra User"
-msgstr "Extra användare"
+msgstr "Extraanvändare"
 
 #. :src: bpy.types.ID.use_extra_user
 #, fuzzy
