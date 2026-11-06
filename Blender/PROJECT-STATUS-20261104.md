@@ -1567,3 +1567,12 @@ rapporterar väntat en konstgjord lång mening och en falsk V2-varning när
 fristående UI-etiketter analyseras som löptext. Filen är arkiverad och väntar
 på manuell import.
 
+Batch 186 granskar sjutton poster för åtgärdsgrupper, åtgärdslager och
+posemarkörer. De befintliga svenska texterna är sakligt och terminologiskt
+korrekta; deras `fuzzy`-markeringar har därför tagits bort efter radvis
+kontroll. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-186-action-groups-layers.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar bara en konstgjord lång mening när de fristående etiketterna
+sammanfogas inför analys. Filen är arkiverad och väntar på manuell import.
+
