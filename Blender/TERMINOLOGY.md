@@ -407,6 +407,7 @@ Senast uppdaterad: 2026-11-06.
 | Color Burn / Linear Burn | Färgbränn / Linjär bränn | Etablerade namn på mörkande blandningslägen; undvik omskrivningar som *efterbelys färg* och *linjär förbränning*. |
 | Screen / Color Dodge | Raster / Färgskugga | Etablerade namn på ljusare färgblandningslägen i den här UI-kontexten. |
 | Pin Light / Vivid Light | Punktljus / Levande ljus | Namn på färgblandningslägen; *stiftlampa* är inte korrekt. |
+| kernel radius | kärnradie | Radien för pixelkärnan vid oskärpa och skärpning. |
 | crease / pinch factor | fåra-/nypningsfaktor | Skulpteringsfaktor som styr fårning eller nypning av ytan. |
 | rake factor / topology rake | krattningsfaktor / topologisk krattning | Skulpteringsinställning som följer och riktar penseldrag efter topologin. |
 | persistence | beständighet | Pensel- eller simuleringsfunktion som bevarar ett tillstånd över tid. |

@@ -2421,3 +2421,13 @@ Gitleaks. `svlang` rapporterar endast konstgjorda längd- och
 ordföljdsvarningar eftersom separata UI-etiketter analyseras som en enda
 mening. Filen är arkiverad och väntar på manuell import.
 
+Batch 264 granskar 2 strängar för penselns pixelkärna vid oskärpa och
+skärpning. Den ersätter omskrivningen *radie för kärnan* med den etablerade
+UI-termen *kärnradie* och klargör att värdet anges i pixlar. Terminologilistan
+har kompletterats med *kärnradie*. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-264-brush-blur-kernel.po`. Filen
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast en svag, icke åtgärdbar passivvarning för den
+tekniska beskrivningen. Filen är arkiverad och väntar på manuell import.
+
