@@ -117,6 +117,7 @@ Senast uppdaterad: 2026-11-06.
 | pivot | vridpunkt | Punkt kring vilken en constraint utför en rotation. Använd *vridpunkt*, inte den engelska formen *pivotpunkt* eller det tvetydiga *svängpunkt*. |
 | face cull | ytgallring | Utesluter projektion mot en yta beroende på normalriktning. Funktionen raderar inte geometri. |
 | IK stretching | IK-sträckning | Tillåter en IK-kedja att ändra benens längd för att nå målet. |
+| Kinematic Constraint | kinematisk begränsning | IK-begränsningens allmänna typ. Använd *kedjelängd*, *lösningsiterationer*, *polmål* och *polvinkel* i dess riggningsinställningar. |
 | Swing / Twist | svängning / vridning | Rotationens svängnings- och vridningsdel i Quaternion- och constraint-kontext. |
 | envelope (armature) | omslutning | Armaturens volym runt ett ben som kan användas vid viktning. |
 | Action | Action | Blenders datatyp för en animation. Behåll namnet i Action-begränsningens tekniska hjälptexter. |
