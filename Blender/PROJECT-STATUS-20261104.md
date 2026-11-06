@@ -1513,8 +1513,13 @@ en imperativ UI-etikett. Filen är arkiverad och väntar på manuell import.
 Den samlade importfilen `blender-ui-sv-reviewed-20261106-batches-175-180.po`
 innehåller 98 granskade ändringar från batch 175–180 och bygger på den
 bekräftat importerade basen efter batch 160–174. Den saknar `fuzzy`-poster och
-rymmer väl inom Blender Translates gräns på 1 000 strängar. Den har kontrollerats
-med `msgfmt`, l10n-lint, diffkontroll och Gitleaks och väntar på manuell import.
+rymmer väl inom Blender Translates gräns på 1 000 strängar. Blender Translate
+bekräftade den 2026-11-06: **98 bearbetade, 64 uppdaterade, 33 hoppade över
+och 1 saknad**. Den saknade källsträngen var `Node Tool Tree`; den har ändrats
+eller försvunnit uppströms och räknas inte som importerad. Filen har
+kontrollerats med `msgfmt`, l10n-lint, diffkontroll och Gitleaks.
+De enskilda deltafilerna för batch 175–180 finns kvar för spårbarhet men ska
+inte laddas upp på nytt, eftersom samlingsfilen representerade dem i importen.
 
 Batch 181 granskar nio poster för den inbyggda Python-konsolen. Den ersätter
 felöversatta interna områdesnamn och normaliserar teckenstorlek,
