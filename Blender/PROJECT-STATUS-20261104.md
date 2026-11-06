@@ -9,6 +9,10 @@ från Weblate har ännu inte verifierats i detta arkiv. De efterföljande lokala
 batcherna 287 för Grease Pencil-lökskalning, 288 för bilders alfahantering,
 289 för genererade bilder och UDIM samt 290 för ljustyper och penselresurser
 är arkiverade separat och ingår därför inte i de redan inskickade sex delarna.
+De finns också samlade i den fristående, lokalt kontrollerade
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-290.po`
+med 35 poster. Den är redo för manuell import, men har inte skickats in eller
+verifierats i Weblate.
 
 ## Projektets aktualitet
 

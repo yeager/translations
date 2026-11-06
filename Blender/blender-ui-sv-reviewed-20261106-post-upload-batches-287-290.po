@@ -1,0 +1,239 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.Library.is_editable
+msgid ""
+"Datablocks in this library are editable despite being linked. Used by brush "
+"assets and their dependencies."
+msgstr ""
+"Datablocken i detta bibliotek är redigerbara trots att de är länkade. "
+"Används av penselresurser och deras beroenden."
+
+#. :src: bpy.types.Light.type:'POINT'
+#. :src: bpy.types.OBJECT_OT_light_add.type:'POINT'
+#: source/blender/editors/object/object_add.cc:1558
+msgctxt "Light"
+msgid "Point"
+msgstr "Punkt"
+
+#. :src: bpy.types.Light.type:'SUN'
+#. :src: bpy.types.OBJECT_OT_light_add.type:'SUN'
+#: source/blender/editors/object/object_add.cc:1560
+msgctxt "Light"
+msgid "Sun"
+msgstr "Sol"
+
+#. :src: bpy.types.Light.type:'SUN'
+#. :src: bpy.types.OBJECT_OT_light_add.type:'SUN'
+msgid "Constant direction parallel ray light source"
+msgstr "Parallellstrålande ljuskälla med fast riktning"
+
+#. :src: bpy.types.Light.type:'SPOT'
+#. :src: bpy.types.OBJECT_OT_light_add.type:'SPOT'
+#: source/blender/editors/object/object_add.cc:1562
+msgctxt "Light"
+msgid "Spot"
+msgstr "Strålkastare"
+
+#. :src: bpy.types.Light.type:'SPOT'
+#. :src: bpy.types.OBJECT_OT_light_add.type:'SPOT'
+msgid "Directional cone light source"
+msgstr "Riktad konformad ljuskälla"
+
+#. :src: bpy.types.Light.type:'AREA'
+#. :src: bpy.types.OBJECT_OT_light_add.type:'AREA'
+msgid "Directional area light source"
+msgstr "Riktat områdesljus"
+
+#. :src: bpy.types.AreaLight
+msgid "Area Light"
+msgstr "Områdesljus"
+
+#. :src: bpy.types.AreaLight
+msgid "Directional area Light"
+msgstr "Riktat områdesljus"
+
+#. :src: bpy.types.AreaLight.energy
+#. :src: bpy.types.PointLight.energy
+#. :src: bpy.types.SpotLight.energy
+msgctxt "Light"
+msgid "Power"
+msgstr "Effekt"
+
+#. :src: bpy.types.Image.generated_type:'COLOR_GRID'
+#. :src: bpy.types.IMAGE_OT_new.generated_type:'COLOR_GRID'
+#. :src: bpy.types.IMAGE_OT_tile_add.generated_type:'COLOR_GRID'
+#. :src: bpy.types.IMAGE_OT_tile_fill.generated_type:'COLOR_GRID'
+#. :src: bpy.types.PAINT_OT_add_texture_paint_slot.generated_type:'COLOR_GRID'
+#. :src: bpy.types.UDIMTile.generated_type:'COLOR_GRID'
+msgid "Generated improved UV grid to test UV mappings"
+msgstr "Förbättrat UV-rutnät som skapats för att testa UV-kartläggning"
+
+#. :src: bpy.types.Image.generated_width
+#. :src: bpy.types.UDIMTile.generated_width
+msgid "Generated image width"
+msgstr "Den genererade bildens bredd"
+
+#. :src: bpy.types.Image.packed_file
+msgid "First packed file of the image"
+msgstr "Bildens första packade fil"
+
+#. :src: bpy.types.Image.pixels
+msgid "Image buffer pixels in floating-point values"
+msgstr "Bildbuffertens bildpunkter som flyttalsvärden"
+
+#. :src: bpy.types.Image.source:'TILED'
+msgid "Tiled UDIM image texture"
+msgstr "UDIM-bildtextur med plattor"
+
+#. :src: bpy.types.Image.type:'MULTILAYER'
+msgid "Multilayer"
+msgstr "Flerlager"
+
+#. :src: bpy.types.Image.use_multiview
+#. :src: bpy.types.BRUSH_OT_asset_load_preview.use_multiview
+#. :src: bpy.types.CLIP_OT_open.use_multiview
+#. :src: bpy.types.ED_OT_lib_id_load_custom_preview.use_multiview
+#. :src: bpy.types.GRAPH_OT_sound_to_samples.use_multiview
+#. :src: bpy.types.IMAGE_OT_file_browse.use_multiview
+#. :src: bpy.types.IMAGE_OT_open.use_multiview
+#. :src: bpy.types.IMAGE_OT_replace.use_multiview
+#. :src: bpy.types.IMAGE_OT_save_as.use_multiview
+#. :src: bpy.types.NODE_OT_add_image.use_multiview
+#. :src: bpy.types.OBJECT_OT_empty_image_add.use_multiview
+#. :src: bpy.types.SCREEN_OT_screenshot.use_multiview
+#. :src: bpy.types.SCREEN_OT_screenshot_area.use_multiview
+#. :src: bpy.types.SEQUENCER_OT_image_strip_add.use_multiview
+#. :src: bpy.types.SEQUENCER_OT_movie_strip_add.use_multiview
+#. :src: bpy.types.SOUND_OT_open.use_multiview
+#. :src: bpy.types.SOUND_OT_open_mono.use_multiview
+#. :src: bpy.types.ImageStrip.use_multiview
+#. :src: bpy.types.MovieStrip.use_multiview
+msgid "Use Multi-View"
+msgstr "Använd flera vyer"
+
+#. :src: bpy.types.Image.views_format
+#. :src: bpy.types.ImageFormatSettings.views_format
+#. :src: bpy.types.ImageStrip.views_format
+#. :src: bpy.types.MovieStrip.views_format
+msgid "Views Format"
+msgstr "Vyformat"
+
+#. :src: bpy.types.Image.alpha_mode
+#. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.alpha_mode
+#. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.alpha_mode
+msgid ""
+"Representation of alpha in the image file, to convert to and from when "
+"saving and loading the image"
+msgstr "Hur alfa representeras i bildfilen vid lagring och laddning"
+
+#. :src: bpy.types.Image.alpha_mode:'PREMUL'
+#. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.alpha_mode:'PREMUL'
+#. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.alpha_mode:'PREMUL'
+msgid ""
+"Store RGB channels with alpha multiplied in, also known as associated alpha. "
+"The natural format for renders and used by file formats like OpenEXR."
+msgstr ""
+"Lagra RGB-kanaler med alfavärdet inmultiplicerat, även kallat associerad "
+"alfa. Det är det naturliga formatet för renderingar och används av filformat "
+"som OpenEXR."
+
+#. :src: bpy.types.Image.alpha_mode:'CHANNEL_PACKED'
+#. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.alpha_mode:'CHANNEL_PACKED'
+#. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.alpha_mode:'CHANNEL_PACKED'
+msgid "Channel Packed"
+msgstr "Kanalpackad"
+
+#. :src: bpy.types.Image.depth
+msgid "Image bit depth"
+msgstr "Bildens bitdjup"
+
+#. :src: bpy.types.Image.display_aspect
+msgid "Display Aspect for this image, does not affect rendering"
+msgstr "Visningsbildförhållandet för den här bilden påverkar inte renderingen"
+
+#. :src: bpy.types.Image.file_format:'HDR'
+#. :src: bpy.types.ImageFormatSettings.file_format:'HDR'
+msgid "Radiance HDR"
+msgstr "Radiance HDR"
+
+#. :src: bpy.types.Image.file_format:'FFMPEG'
+#. :src: bpy.types.ImageFormatSettings.file_format:'FFMPEG'
+msgid "FFmpeg Video"
+msgstr "FFmpeg-video"
+
+#. :src: bpy.types.Image.generated_type:'BLANK'
+#. :src: bpy.types.IMAGE_OT_new.generated_type:'BLANK'
+#. :src: bpy.types.IMAGE_OT_tile_add.generated_type:'BLANK'
+#. :src: bpy.types.IMAGE_OT_tile_fill.generated_type:'BLANK'
+#. :src: bpy.types.PAINT_OT_add_texture_paint_slot.generated_type:'BLANK'
+#. :src: bpy.types.SCENE_OT_view_layer_add.type:'EMPTY'
+#. :src: bpy.types.UDIMTile.generated_type:'BLANK'
+msgid "Blank"
+msgstr "Tom"
+
+#. :src: bpy.types.GreasePencilv3.stroke_depth_order:'2D'
+#. :src: bpy.types.GeometryNodeSetGreasePencilDepth.depth_order:'2D'
+#. :src: bpy.types.OBJECT_OT_grease_pencil_add.stroke_depth_order:'2D'
+msgid "2D Layers"
+msgstr "2D-lager"
+
+#. :src: bpy.types.GreasePencilv3.stroke_depth_order:'3D'
+#. :src: bpy.types.GeometryNodeSetGreasePencilDepth.depth_order:'3D'
+#. :src: bpy.types.OBJECT_OT_grease_pencil_add.stroke_depth_order:'3D'
+msgid "3D Location"
+msgstr "3D-position"
+
+#. :src: bpy.types.GreasePencilv3.stroke_depth_order:'3D'
+#. :src: bpy.types.GeometryNodeSetGreasePencilDepth.depth_order:'3D'
+#. :src: bpy.types.OBJECT_OT_grease_pencil_add.stroke_depth_order:'3D'
+msgid "Display strokes using real 3D position in 3D space"
+msgstr "Visa streck utifrån deras faktiska 3D-positioner"
+
+#. :src: bpy.types.GreasePencilv3.use_autolock_layers
+msgid "Auto-Lock Layers"
+msgstr "Lås lager automatiskt"
+
+#. :src: bpy.types.GreasePencilv3.use_ghost_custom_colors
+msgid "Use Custom Ghost Colors"
+msgstr "Använd anpassade färger för lökskal"
+
+#. :src: bpy.types.GreasePencilv3.use_ghost_custom_colors
+msgid "Use custom colors for ghost frames"
+msgstr "Använd anpassade färger för lökskalsbildrutor"
+
+#. :src: bpy.types.GreasePencilv3.use_onion_fade
+msgid "Display onion keyframes with a fade in color transparency"
+msgstr "Visa lökskalsbildrutor med avtagande färgopacitet"
+
+#. :src: bpy.types.GreasePencilv3.use_onion_loop
+#: scripts/startup/bl_ui/properties_data_grease_pencil.py:426
+msgid "Show Start Frame"
+msgstr "Visa startbildruta"
+
+#. :src: bpy.types.GreasePencilv3.use_onion_loop
+msgid "Display onion keyframes for looping animations"
+msgstr "Visa lökskalens nyckelbildrutor för loopande animationer"
