@@ -432,6 +432,8 @@ Senast uppdaterad: 2026-11-06.
 | Bi-Scale Grab / Tri-Scale Grab | Flytta i två skalor / Flytta i tre skalor | Elastisk deformeringsmetod för penseln; undvik de felaktiga formerna *gripdon* och *grepp*. |
 | brush tip | penselspets | Penselns form och riktning vid målning eller skulptering. |
 | mask texture | masktextur | Textur som begränsar en pensels påverkan. |
+| mask stencil | maskschablon | Flyttbar och skalbar schablon som begränsar penselns målning i visningsområdet. |
+| jitter unit | variationsenhet | Anger om penselns variation beräknas i skärmutrymmet eller relativt penselstorleken. |
 | texture overlay | texturöverlägg | Visas ovanpå arbetsytan vid målning. |
 | plane offset | planförskjutning | Förskjuter skulpteringsplanet i förhållande till ytan. |
 | plane trim | plantrimning | Begränsar hur långt från det förskjutna planet en hörnpunkt påverkas. |

@@ -2514,3 +2514,15 @@ sina `fuzzy`-markeringar borttagna i deltafilen
 Filen kontrolleras med `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
 Gitleaks före arkivering. Filen väntar därefter på manuell import.
 
+Batch 272 granskar 20 strängar för penselns begränsning, hårdhet,
+tryckmodulering, slumpvariation och maskschablon. Den ersätter bland annat
+de direkta engelska formerna *Jitter*, *Jittering* och *Mask Stencil* med
+*variation*, *variationsenhet* och *maskschablon*. Den normaliserar även våt
+beständighet och förbättrar de tekniska beskrivningarnas svenska ordföljd.
+Terminologilistan har kompletterats med *maskschablon* och
+*variationsenhet*. Samtliga granskade poster får sina `fuzzy`-markeringar
+borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-272-brush-jitter-and-mask-stencil.po`.
+Filen kontrolleras med `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
+Gitleaks före arkivering. Filen väntar därefter på manuell import.
+
