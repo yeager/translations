@@ -288,6 +288,7 @@ Senast uppdaterad: 2026-11-06.
 | checker (image texture) | schackmönster | Bildtexturens växlande rutor. |
 | normal map | normalkarta | Bild med RGB-värden som kodar ytans normalriktningar. |
 | curve map point | kurvkartpunkt | Punkt i en kurvkartläggning. |
+| paint curve | målningskurva | Kurva som styr penseldragets förlopp; det är inte en kurva för färg. |
 | support loop | stödslinga | Topologisk loop som kontrollerar skärpan kring en meshdetalj. |
 | mix mode | blandningsläge | Anger hur en Transform Constraint kombinerar position, rotation eller skala med det ursprungliga värdet. |
 | curve slice | kurvsegment | En enskild kurva från ett curves-datablock. |

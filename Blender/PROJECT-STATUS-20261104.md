@@ -1586,3 +1586,13 @@ borttagna. Deltafilen
 10/10 och rapporterar endast den avsedda Blender-termen *åtgärdsslot*. Filen
 är arkiverad och väntar på manuell import.
 
+Batch 188 granskar femton poster för åtgärdsslotars ID-typer och
+åtgärdsremsor. Den rättar *Key* till *Formnyckel*, *Paint Curve* till
+*Målningskurva* och den synliga *Keyframe*-etiketten till *Nyckelbildruta*.
+Den kompletterar även terminologilistan med *paint curve → målningskurva*.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-188-action-types-strips.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar bara förväntade Blender-sammansättningar. Filen är
+arkiverad och väntar på manuell import.
+
