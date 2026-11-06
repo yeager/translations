@@ -165,6 +165,8 @@ Senast uppdaterad: 2026-11-06.
 | float color attribute value | flyttalsfärgattributvärde | Geometriattribut med färgvärden som flyttal; det är inte en allmän flytande färg. |
 | 2D float attribute value | 2D-flyttalsattributvärde | Tvådimensionellt flyttalsattribut i Blenders geometriattribut-API. |
 | vorticity | vorticitet | Hydromekanisk vektorstorhet för den lokala rotationen i ett strömningsfält. Behåll den etablerade facktermen i Mantaflow. |
+| fluid guiding | vätskestyrning | Mantaflow-funktionen som styr flödet med hastigheter från en domän eller effektor. Använd *styrnings-* i sammansättningar som *styrningsdomän* och *styrningsobjekt*. |
+| secondary particles | sekundära partiklar | Skum-, spray- och bubbelpartiklar som härleds från vätskesimuleringen. |
 | byte color | bytefärg | 8-bitars färgattribut i geometri- och nodkontext. |
 | byte color attribute | bytefärgsattribut | Geometriattribut som lagrar RGBA-färg med 8 bitar per kanal. |
 | floating point matrix | flyttalsmatris | Matrisdatatyp med flyttalsvärden; skriv ihop i UI-etiketter. |

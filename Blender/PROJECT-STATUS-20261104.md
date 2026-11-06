@@ -2205,3 +2205,14 @@ granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
 rapporterar endast tekniska termer och konstgjorda varningar från
 sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell import.
 
+Batch 246 granskar 20 Mantaflow-strängar för sekundära vätskepartiklar och
+styrningsläge. Den rättar bland annat *bubbelmotstånd*,
+*begränsningströskel*, *potentialradie*, *styrhastighetsfält*,
+*viskositetsbas*, *kollision* och *åsidosätt*. Terminologilistan har
+kompletterats med *vätskestyrning* och *sekundära partiklar*. Samtliga
+granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-246-fluid-secondary-particles.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast en konstgjord längd- och ordföljdsvarning från
+sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell import.
+

@@ -30678,13 +30678,13 @@ msgstr "Tryck ut"
 #. :src: bpy.types.FluidDomainSettings.sndparticle_boundary:'PUSHOUT'
 #, fuzzy
 msgid "Push secondary particles that left the domain back into the domain"
-msgstr "Skjut tillbaka sekundära partiklar som lämnat domänen till domänen"
+msgstr "Tryck tillbaka sekundära partiklar som lämnat domänen in i den"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_bubble_buoyancy
 #: scripts/startup/bl_ui/properties_physics_fluid.py:993
 #, fuzzy
 msgid "Bubble Buoyancy"
-msgstr "Bubbla Flytkraft"
+msgstr "Bubblornas flytkraft"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_bubble_buoyancy
 #, fuzzy
@@ -30695,7 +30695,7 @@ msgstr "Mängd flytkraft som får bubblorna att stiga (högt värde resulterar i
 #: scripts/startup/bl_ui/properties_physics_fluid.py:994
 #, fuzzy
 msgid "Bubble Drag"
-msgstr "Bubble Drag"
+msgstr "Bubbelmotstånd"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_bubble_drag
 #, fuzzy
@@ -30780,12 +30780,12 @@ msgstr "Lägsta möjliga partikellivslängd"
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_max_energy
 #, fuzzy
 msgid "Maximum Kinetic Energy Potential"
-msgstr "Maximal kinetisk energi Potential"
+msgstr "Maximal potential för rörelseenergi"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_max_energy
 #, fuzzy
 msgid "Upper clamping threshold that indicates the fluid speed where cells no longer emit more particles (higher value results in generally less particles)"
-msgstr "Övre tröskelvärde för fastklämning som anger den vätskehastighet där cellerna inte längre avger fler partiklar (högre värde ger generellt färre partiklar)"
+msgstr "Övre begränsningströskel som anger den vätskehastighet där cellerna inte längre avger partiklar (högre värde ger vanligen färre partiklar)"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_max_trappedair
 #, fuzzy
@@ -30810,12 +30810,12 @@ msgstr "Övre tröskelvärde för markering av vätskeceller som vågtoppar (hö
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_min_energy
 #, fuzzy
 msgid "Minimum Kinetic Energy Potential"
-msgstr "Minsta kinetiska energi Potential"
+msgstr "Minimal potential för rörelseenergi"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_min_energy
 #, fuzzy
 msgid "Lower clamping threshold that indicates the fluid speed where cells start to emit particles (lower values result in generally more particles)"
-msgstr "Lägre tröskelvärde för fastklämning som anger den vätskehastighet där cellerna börjar avge partiklar (lägre värden ger generellt fler partiklar)"
+msgstr "Nedre begränsningströskel som anger den vätskehastighet där cellerna börjar avge partiklar (lägre värde ger vanligen fler partiklar)"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_min_trappedair
 #, fuzzy
@@ -30841,7 +30841,7 @@ msgstr "Lägre klämtröskel för markering av vätskeceller som vågtoppar (lä
 #: scripts/startup/bl_ui/properties_physics_fluid.py:978
 #, fuzzy
 msgid "Potential Radius"
-msgstr "Potentiell radie"
+msgstr "Potentialradie"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_radius
 #, fuzzy
@@ -30897,7 +30897,7 @@ msgstr "Spänning"
 #. :src: bpy.types.FluidDomainSettings.surface_tension
 #, fuzzy
 msgid "Surface tension of liquid (higher value results in greater hydrophobic behavior)"
-msgstr "Vätskans ytspänning (högre värde resulterar i större hydrofobiskt beteende)"
+msgstr "Vätskans ytspänning (högre värde ger mer hydrofobt beteende)"
 
 #. :src: bpy.types.FluidDomainSettings.sys_particle_maximum
 #: scripts/startup/bl_ui/properties_physics_fluid.py:502
@@ -31088,7 +31088,7 @@ msgstr "Fraktionella hinder förbättrar och jämnar ut gränsen mellan vätska 
 #. :src: bpy.types.FluidDomainSettings.use_guide
 #, fuzzy
 msgid "Use Guiding"
-msgstr "Använd guidning"
+msgstr "Använd styrning"
 
 #. :src: bpy.types.FluidDomainSettings.use_guide
 #, fuzzy
@@ -31137,7 +31137,7 @@ msgstr "Cachar hastigheter för mesh-knutpunkter. Dessa kommer att användas (au
 #: scripts/startup/bl_ui/properties_physics_fluid.py:946
 #, fuzzy
 msgid "Spray"
-msgstr "Sprayfärg - Simulerar färg från en sprayburk eller färgspruta"
+msgstr "Spray"
 
 #. :src: bpy.types.FluidDomainSettings.use_spray_particles
 #, fuzzy
@@ -31279,7 +31279,7 @@ msgstr "Styrhastighet"
 #. :src: bpy.types.FluidDomainSettings.vector_field:'GUIDE_VELOCITY'
 #, fuzzy
 msgid "Guide velocity field of the fluid domain"
-msgstr "Guidehastighetsfält för vätskedomänen"
+msgstr "Styrhastighetsfältet i vätskedomänen"
 
 #. :src: bpy.types.FluidDomainSettings.vector_field:'FORCE'
 #, fuzzy
@@ -31338,7 +31338,7 @@ msgstr "Faktor för att kontrollera mängden rörelseoskärpa"
 #. :src: bpy.types.FluidDomainSettings.viscosity_base
 #, fuzzy
 msgid "Viscosity Base"
-msgstr "Viskositet Bas"
+msgstr "Viskositetsbas"
 
 #. :src: bpy.types.FluidDomainSettings.viscosity_base
 #, fuzzy
@@ -31395,7 +31395,7 @@ msgstr "Ändra typ av effektor i simuleringen"
 #: source/blender/editors/sculpt_paint/grease_pencil_draw_ops.cc:1086
 #: source/blender/modifiers/intern/MOD_collision.cc:275
 msgid "Collision"
-msgstr "Krock"
+msgstr "Kollision"
 
 #. :src: bpy.types.FluidEffectorSettings.effector_type:'COLLISION'
 #, fuzzy
@@ -31412,23 +31412,23 @@ msgstr "Guide"
 #. :src: bpy.types.FluidEffectorSettings.effector_type:'GUIDE'
 #, fuzzy
 msgid "Create guide object"
-msgstr "Skapa guideobjekt"
+msgstr "Skapa styrningsobjekt"
 
 #. :src: bpy.types.FluidEffectorSettings.guide_mode
 #, fuzzy
 msgid "Guiding mode"
-msgstr "Vägledande läge"
+msgstr "Styrningsläge"
 
 #. :src: bpy.types.FluidEffectorSettings.guide_mode
 #, fuzzy
 msgid "How to create guiding velocities"
-msgstr "Hur man skapar styrande hastigheter"
+msgstr "Hur styrhastigheter skapas"
 
 #. :src: bpy.types.FluidEffectorSettings.guide_mode:'MAXIMUM'
 #. :src: bpy.types.Screen.show_fullscreen
 #, fuzzy
 msgid "Maximize"
-msgstr "Helskärm"
+msgstr "Maximera"
 
 #. :src: bpy.types.FluidEffectorSettings.guide_mode:'MAXIMUM'
 #, fuzzy
@@ -31451,7 +31451,7 @@ msgstr "Jämför hastigheterna från föregående bildruta med de nya hastighete
 #. :src: bpy.types.CYCLES_RENDER_PT_override
 #, fuzzy
 msgid "Override"
-msgstr "Överlappa"
+msgstr "Åsidosätt"
 
 #. :src: bpy.types.FluidEffectorSettings.guide_mode:'OVERRIDE'
 #, fuzzy
