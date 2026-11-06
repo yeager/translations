@@ -31,6 +31,8 @@ Senast uppdaterad: 2026-11-06.
 | 3D Viewport | 3D-vyport | Etablerad UI- och manualterm. |
 | 3D View | 3D-vy | Förklaringstext för den synliga Blender-vyn; böj som *3D-vyns* i sammansatta led. |
 | Console | konsol | Blenders inbyggda Python-konsol. RNA-beskrivningen *Space Console* använder formen *konsolens område*; `prompt` blir *kommandoprompt*. |
+| Image Editor | bildredigerare | Redigeraren för bilder, UV-kartor, maskning och bildmålning. RNA-beskrivningen *Space Image Editor* använder formen *bildredigerarens område*. |
+| UV Editor | UV-redigerare | Bildredigerarens läge för UV-redigering. |
 | Timecode Style | tidskodstil | Inställning som bestämmer hur uppspelningens varaktighet visas. |
 | System Memory | systemminne | UI-rubrik för uppskattad RAM-användning. |
 | New Data | Nya data | Gäller nya Blender-datablock; inte *nya uppgifter*. |

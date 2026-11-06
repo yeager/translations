@@ -1529,3 +1529,11 @@ kommandoradsprompt och kommandoutgång. Samtliga granskade poster har fått sina
 `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang` ger
 10/10. Filen är arkiverad och väntar på manuell import.
 
+Batch 182 granskar fjorton poster för bild- och UV-redigeraren. Den rättar
+felöversatta områdesnamn, överlägg, rotations-/skalningsvridpunkt,
+maskredigeraren, stereoskopiskt 3D-läge och bildfästning. Samtliga granskade
+poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-182-image-editor.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang` ger
+10/10. Filen är arkiverad och väntar på manuell import.
+
