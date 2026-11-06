@@ -1176,3 +1176,13 @@ redan identiska på servern. De fyra saknade källsträngarna finns inte längre
 den aktuella serverkatalogen och räknas därför inte som importerade ändringar.
 Importen bekräftar 54 upstreamuppdateringar; arbetskopians 77 granskade poster
 är fortfarande arkiverade för spårbarhet.
+
+Batch 148 granskar tolv UI-strängar för Grease Pencil, bilddata och
+samlingar. Den normaliserar bland annat *streck*, *lager*, *pensel*,
+*utjämningsgrad*, *bildanvändare*, *bildruta* och
+*biblioteksåsidosättning*. Ändringarna är radvis jämförda med RNA-kontexten
+och Blender-terminologin. Deltafilen
+`blender-ui-sv-reviewed-20261106-148.po` innehåller enbart de tolv
+granskade posterna utan `fuzzy`-markeringar. `msgfmt`, l10n-lint,
+diffkontroll och Gitleaks passerar; svlang- och Hunspell-träffar i hela
+arbetskatalogen gäller sedan tidigare facktermer och orelaterade poster.
