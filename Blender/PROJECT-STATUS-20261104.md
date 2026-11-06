@@ -1886,3 +1886,14 @@ rapporterar endast etablerade Blender- och facktermer samt konstgjorda längd-
 och V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 216 granskar 33 poster för tygsimuleringens hörnpunktsgrupper och
+lösarens resultatdiagnostik. Den normaliserar *hörnpunktsgrupp*,
+*voxelrutnät*, *antal iterationer* och *indata* samt gör felstatusernas
+hjälptexter idiomatiska. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-216-cloth-solver.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast etablerade Blender- och facktermer samt konstgjorda längd-
+och V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+
