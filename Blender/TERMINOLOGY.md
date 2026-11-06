@@ -317,6 +317,7 @@ Senast uppdaterad: 2026-11-06.
 | chain vertex | kedjehörnpunkt | Hörnpunkt i Freestyles kedja av funktionskanter. |
 | chain splitting | kedjedelning | Freestyle-funktion som delar en kedja utifrån längd eller mönster. |
 | split length | delningslängd | Kurvlinjär 2D-längd som används vid Freestyle-kedjedelning. |
+| split pattern | delningsmönster | Freestyle-streckmönster som används för att dela en kedja. |
 | Freestyle Butt cap | stumt ändlock | Platt ändlock som slutar exakt vid streckets beräknade ändpunkt. |
 | Freestyle dash / gap | streck / mellanrum | Delarna i Freestyles streckmönster; samma termer används i delningsmönstret *Delningsstreck* och *Delningsmellanrum*. |
 | Freestyle border edge | gränskant | Funktionskant vid en gräns, till exempel när ett objekt avgränsar scenen; skilj från en godtycklig *kant*. |

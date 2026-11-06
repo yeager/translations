@@ -2704,3 +2704,15 @@ Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
 `svlang` markeringar rapporteras separat. Gitleaks körs före arkivering.
 Filen väntar därefter på manuell import.
 
+Batch 286 granskar 10 strängar för Freestyle-kedjning, längdurval och
+delningsmönster. Blenders dokumentation beskriver *Split Pattern* som ett
+streckmönster som delar en kedja, inte ett redan delat mönster. Därför
+normaliseras termen till *delningsmönster*, och urval efter antal kedjor
+eller maximal/minimal 2D-längd skrivs som konkreta svenska UI-uppmaningar.
+Terminologilistan har kompletterats med *delningsmönster*. Samtliga
+granskade poster får sina `fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-286-freestyle-chain-selection.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
+`svlang` markeringar rapporteras separat. Gitleaks körs före arkivering.
+Filen väntar därefter på manuell import.
+
