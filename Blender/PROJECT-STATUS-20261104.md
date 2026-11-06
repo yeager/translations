@@ -1931,3 +1931,14 @@ rapporterar endast etablerade Blender- och facktermer samt konstgjorda längd-
 och V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 220 granskar femton poster för texturernas färgmappning och
+blandningslägen. Den ersätter otydliga eller engelska former med bland annat
+*färg som blandas med texturens utdatafärg*, *blandningstyp*, *Blanda*,
+*Mörkare*, *Täcka över* och *Dividera*. Samtliga granskade poster har fått
+sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-220-texture-color-mapping.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast etablerade Blender- och facktermer samt
+konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen är
+arkiverad och väntar på manuell import.
+
