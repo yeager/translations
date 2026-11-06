@@ -210,6 +210,8 @@ Senast uppdaterad: 2026-11-06.
 | secondary particles | sekundära partiklar | Skum-, spray- och bubbelpartiklar som härleds från vätskesimuleringen. |
 | bubble drag / bubble buoyancy | bubbelmotstånd / bubblornas flytkraft | Mantaflow-parametrar som anger hur bubblor följer vätskan respektive stiger. Översätt *drag* med *motstånd*, inte med den orelaterade krafttypen *dragkraft*. |
 | Combined Export | samlad export | Mantaflow-inställning som styr om sekundära partikeltyper skrivs till ett gemensamt eller separata partikelsystem. |
+| clamping threshold (secondary particles) | begränsningströskel | Övre eller nedre tröskel som begränsar när sekundära vätskepartiklar skapas. Använd inte den ordagranna men missvisande formen *klämtröskel*. |
+| wave crest cell | vågtoppscell | Mantaflow-cell som identifierats som en vågtopp vid generering av sekundära partiklar. |
 | byte color | bytefärg | 8-bitars färgattribut i geometri- och nodkontext. |
 | byte color attribute | bytefärgsattribut | Geometriattribut som lagrar RGBA-färg med 8 bitar per kanal. |
 | floating point matrix | flyttalsmatris | Matrisdatatyp med flyttalsvärden; skriv ihop i UI-etiketter. |

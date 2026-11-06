@@ -29201,103 +29201,83 @@ msgid "Create one particle system that contains all three secondary particle typ
 msgstr "Skapa ett partikelsystem som innehåller alla tre sekundära partikeltyper"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_life_max
-#, fuzzy
 msgid "Maximum Lifetime"
 msgstr "Maximal livslängd"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_life_max
-#, fuzzy
 msgid "Highest possible particle lifetime"
-msgstr "Högsta möjliga livslängd för partiklar"
+msgstr "Högsta möjliga partikellivslängd"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_life_min
-#, fuzzy
 msgid "Minimum Lifetime"
 msgstr "Minsta livslängd"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_life_min
-#, fuzzy
 msgid "Lowest possible particle lifetime"
 msgstr "Lägsta möjliga partikellivslängd"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_max_energy
-#, fuzzy
 msgid "Maximum Kinetic Energy Potential"
 msgstr "Maximal potential för rörelseenergi"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_max_energy
-#, fuzzy
 msgid "Upper clamping threshold that indicates the fluid speed where cells no longer emit more particles (higher value results in generally less particles)"
 msgstr "Övre begränsningströskel som anger den vätskehastighet där cellerna inte längre avger partiklar (högre värde ger vanligen färre partiklar)"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_max_trappedair
-#, fuzzy
 msgid "Maximum Trapped Air Potential"
 msgstr "Maximal potential för instängd luft"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_max_trappedair
-#, fuzzy
 msgid "Upper clamping threshold for marking fluid cells where air is trapped (higher value results in less marked cells)"
-msgstr "Övre klämgräns för märkning av vätskeceller där luft är instängd (högre värde resulterar i färre märkta celler)"
+msgstr "Övre begränsningströskel för markering av vätskeceller där luft är instängd (högre värde ger färre markerade celler)"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_max_wavecrest
-#, fuzzy
 msgid "Maximum Wave Crest Potential"
 msgstr "Maximal vågtoppspotential"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_max_wavecrest
-#, fuzzy
 msgid "Upper clamping threshold for marking fluid cells as wave crests (higher value results in less marked cells)"
-msgstr "Övre tröskelvärde för markering av vätskeceller som vågtoppar (högre värde ger färre markerade celler)"
+msgstr "Övre begränsningströskel för markering av vätskeceller som vågtoppar (högre värde ger färre markerade celler)"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_min_energy
-#, fuzzy
 msgid "Minimum Kinetic Energy Potential"
-msgstr "Minimal potential för rörelseenergi"
+msgstr "Minsta potential för rörelseenergi"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_min_energy
-#, fuzzy
 msgid "Lower clamping threshold that indicates the fluid speed where cells start to emit particles (lower values result in generally more particles)"
 msgstr "Nedre begränsningströskel som anger den vätskehastighet där cellerna börjar avge partiklar (lägre värde ger vanligen fler partiklar)"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_min_trappedair
-#, fuzzy
 msgid "Minimum Trapped Air Potential"
 msgstr "Minsta potential för instängd luft"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_min_trappedair
-#, fuzzy
 msgid "Lower clamping threshold for marking fluid cells where air is trapped (lower value results in more marked cells)"
-msgstr "Lägre klämtröskel för markering av vätskeceller där luft är instängd (lägre värde ger fler markerade celler)"
+msgstr "Nedre begränsningströskel för markering av vätskeceller där luft är instängd (lägre värde ger fler markerade celler)"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_min_wavecrest
-#, fuzzy
 msgid "Minimum Wave Crest Potential"
 msgstr "Minsta vågtoppspotential"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_min_wavecrest
-#, fuzzy
 msgid "Lower clamping threshold for marking fluid cells as wave crests (lower value results in more marked cells)"
-msgstr "Lägre klämtröskel för markering av vätskeceller som vågtoppar (lägre värde ger fler markerade celler)"
+msgstr "Nedre begränsningströskel för markering av vätskeceller som vågtoppar (lägre värde ger fler markerade celler)"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_radius
 #: scripts/startup/bl_ui/properties_physics_fluid.py:978
-#, fuzzy
 msgid "Potential Radius"
 msgstr "Potentialradie"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_potential_radius
-#, fuzzy
 msgid "Radius to compute potential for each cell (higher values are slower but create smoother potential grids)"
 msgstr "Radie för att beräkna potentialen för varje cell (högre värden är långsammare men skapar jämnare potentialrutnät)"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_sampling_trappedair
-#, fuzzy
 msgid "Trapped Air Sampling"
 msgstr "Provtagning av instängd luft"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_sampling_trappedair
-#, fuzzy
 msgid "Maximum number of particles generated per trapped air cell per frame"
 msgstr "Maximalt antal partiklar som genereras per instängd luftcell per bildruta"
 
@@ -29306,18 +29286,16 @@ msgid "Wave Crest Sampling"
 msgstr "Provtagning av vågtoppar"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_sampling_wavecrest
-#, fuzzy
 msgid "Maximum number of particles generated per wave crest cell per frame"
-msgstr "Maximalt antal partiklar som genereras per vågkammarcell per bildruta"
+msgstr "Maximalt antal partiklar som genereras per vågtoppscell per bildruta"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_update_radius
 msgid "Update Radius"
 msgstr "Uppdateringsradie"
 
 #. :src: bpy.types.FluidDomainSettings.sndparticle_update_radius
-#, fuzzy
 msgid "Radius to compute position update for each particle (higher values are slower but particles move less chaotic)"
-msgstr "Radie för att beräkna positionsuppdatering för varje partikel (högre värden är långsammare men partiklarna rör sig mindre kaotiskt)"
+msgstr "Radie för att beräkna positionsuppdateringen för varje partikel (högre värden är långsammare men partiklarna rör sig mindre kaotiskt)"
 
 #. :src: bpy.types.FluidDomainSettings.start_point
 #, fuzzy
