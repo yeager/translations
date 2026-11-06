@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-398.po`
-med 1 314 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-399.po`
+med 1 335 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3303,5 +3303,11 @@ normaliserar bland annat *Graph Editor* till *grafredigeraren* och
 *user-editable keyframes* till *redigerbara nyckelbildrutor* i enlighet med
 projektets terminologi. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-398-animation-fcurve-properties.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 399 granskar 22 poster för FFmpeg-ljudinställningar: bithastighet,
+kanalantal, mono/stereo/surround och ljudkodekar. Den använder *FFmpeg-ljudkodek*
+som sammansatt teknisk term och skiljer mellan ljudutdata och själva renderingen.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-399-ffmpeg-audio-settings.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
