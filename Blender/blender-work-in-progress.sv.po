@@ -16574,37 +16574,30 @@ msgid "Error"
 msgstr "Fel"
 
 #. :src: bpy.types.Constraint
-#, fuzzy
 msgid "Constraint modifying the transformation of objects and bones"
 msgstr "Begränsning som modifierar transformationen av objekt och ben"
 
 #. :src: bpy.types.Constraint.active
-#, fuzzy
 msgid "Constraint is the one being edited"
 msgstr "Begränsningen är den som redigeras"
 
 #. :src: bpy.types.Constraint.enabled
-#, fuzzy
 msgid "Use the results of this constraint"
 msgstr "Använd resultaten av denna begränsning"
 
 #. :src: bpy.types.Constraint.error_location
-#, fuzzy
 msgid "Lin error"
 msgstr "Linjärt fel"
 
 #. :src: bpy.types.Constraint.error_location
-#, fuzzy
 msgid "Amount of residual error in Blender space unit for constraints that work on position"
 msgstr "Mängd kvarstående fel i Blenders rymdenhet för begränsningar som fungerar på position"
 
 #. :src: bpy.types.Constraint.error_rotation
-#, fuzzy
 msgid "Rotation error"
 msgstr "Rotationsfel"
 
 #. :src: bpy.types.Constraint.error_rotation
-#, fuzzy
 msgid "Amount of residual error in radians for constraints that work on orientation"
 msgstr "Mängden kvarstående fel i radianer för begränsningar som arbetar med orientering"
 
@@ -16678,22 +16671,18 @@ msgid "Influence"
 msgstr "Inflytande"
 
 #. :src: bpy.types.Constraint.influence
-#, fuzzy
 msgid "Amount of influence constraint will have on the final solution"
 msgstr "Hur stor påverkan begränsningen kommer att ha på den slutliga lösningen"
 
 #. :src: bpy.types.Constraint.is_override_data
-#, fuzzy
 msgid "Override Constraint"
 msgstr "Åsidosätt begränsning"
 
 #. :src: bpy.types.Constraint.is_override_data
-#, fuzzy
 msgid "In a local override object, whether this constraint comes from the linked reference object, or is local to the override"
-msgstr "I ett lokalt åsidosättningsobjekt, om denna begränsning kommer från det länkade referensobjektet eller är lokal för åsidosättningen"
+msgstr "I ett objekt med lokal biblioteksöverskrivning anger detta om begränsningen kommer från det länkade referensobjektet eller är lokal för överskrivningen"
 
 #. :src: bpy.types.Constraint.is_valid
-#, fuzzy
 msgid "Constraint has valid settings and can be evaluated"
 msgstr "Begränsningen har giltiga inställningar och kan utvärderas"
 
@@ -16707,29 +16696,24 @@ msgstr "Begränsningen har giltiga inställningar och kan utvärderas"
 #. :src: bpy.types.MESH_OT_select_mode.action:'DISABLE'
 #. :src: bpy.types.OUTLINER_OT_constraint_operation.type:'DISABLE'
 #. :src: bpy.types.WM_OT_context_collection_boolean_set.type:'DISABLE'
-#, fuzzy
 msgid "Disable"
 msgstr "Inaktivera"
 
 #. :src: bpy.types.Constraint.mute
-#, fuzzy
 msgid "Enable/Disable Constraint"
 msgstr "Aktivera/inaktivera begränsning"
 
 #. :src: bpy.types.Constraint.name
-#, fuzzy
 msgid "Constraint name"
 msgstr "Namn på begränsning"
 
 #. :src: bpy.types.Constraint.owner_space
-#, fuzzy
 msgid "Owner Space"
-msgstr "Ägarutrymme"
+msgstr "Ägarkoordinatsystem"
 
 #. :src: bpy.types.Constraint.owner_space
-#, fuzzy
 msgid "Space that owner is evaluated in"
-msgstr "Utrymme där ägaren utvärderas"
+msgstr "Koordinatsystemet som ägaren utvärderas i"
 
 #. :src: bpy.types.Constraint.owner_space:'WORLD'
 #. :src: bpy.types.Constraint.target_space:'WORLD'
@@ -16747,48 +16731,41 @@ msgstr "Världs-rum"
 
 #. :src: bpy.types.Constraint.owner_space:'WORLD'
 #. :src: bpy.types.ShrinkwrapConstraint.project_axis_space:'WORLD'
-#, fuzzy
 msgid "The constraint is applied relative to the world coordinate system"
 msgstr "Begränsningen tillämpas i förhållande till världskoordinatsystemet"
 
 #. :src: bpy.types.Constraint.owner_space:'CUSTOM'
 #. :src: bpy.types.Constraint.target_space:'CUSTOM'
 #. :src: bpy.types.ShrinkwrapConstraint.project_axis_space:'CUSTOM'
-#, fuzzy
 msgid "Custom Space"
-msgstr "Anpassat utrymme"
+msgstr "Anpassat koordinatsystem"
 
 #. :src: bpy.types.Constraint.owner_space:'CUSTOM'
 #. :src: bpy.types.ShrinkwrapConstraint.project_axis_space:'CUSTOM'
-#, fuzzy
 msgid "The constraint is applied in local space of a custom object/bone/vertex group"
-msgstr "Begränsningen tillämpas i det lokala utrymmet för en anpassad objekt-/ben-/vertexgrupp"
+msgstr "Begränsningen tillämpas i det lokala koordinatsystemet för ett anpassat objekt, ben eller en hörnpunktsgrupp"
 
 #. :src: bpy.types.Constraint.owner_space:'POSE'
 #. :src: bpy.types.Constraint.target_space:'POSE'
 #. :src: bpy.types.ShrinkwrapConstraint.project_axis_space:'POSE'
-#, fuzzy
 msgid "Pose Space"
-msgstr "Pose Space"
+msgstr "Poseringsrymd"
 
 #. :src: bpy.types.Constraint.owner_space:'POSE'
 #. :src: bpy.types.ShrinkwrapConstraint.project_axis_space:'POSE'
-#, fuzzy
 msgid "The constraint is applied in Pose Space, the object transformation is ignored"
-msgstr "Begränsningen tillämpas i Pose Space, objekttransformationen ignoreras"
+msgstr "Begränsningen tillämpas i poseringsrymden; objektets transformation ignoreras"
 
 #. :src: bpy.types.Constraint.owner_space:'LOCAL_WITH_PARENT'
 #. :src: bpy.types.Constraint.target_space:'LOCAL_WITH_PARENT'
 #. :src: bpy.types.ShrinkwrapConstraint.project_axis_space:'LOCAL_WITH_PARENT'
-#, fuzzy
 msgid "Local With Parent"
-msgstr "Lokal med förälder"
+msgstr "Lokal med överordnad"
 
 #. :src: bpy.types.Constraint.owner_space:'LOCAL_WITH_PARENT'
 #. :src: bpy.types.ShrinkwrapConstraint.project_axis_space:'LOCAL_WITH_PARENT'
-#, fuzzy
 msgid "The constraint is applied relative to the rest pose local coordinate system of the bone, thus including the parent-induced transformation"
-msgstr "Begränsningen tillämpas i förhållande till benets lokala koordinatsystem för vilopositionen och inkluderar därmed den föräldrainducerade transformationen"
+msgstr "Begränsningen tillämpas i förhållande till benets lokala koordinatsystem för vilopositionen och inkluderar därmed transformationen som orsakats av det överordnade benet"
 
 #. :src: bpy.types.Constraint.owner_space:'LOCAL'
 #. :src: bpy.types.Constraint.target_space:'LOCAL'
@@ -16799,25 +16776,21 @@ msgstr "Begränsningen tillämpas i förhållande till benets lokala koordinatsy
 #: source/blender/nodes/geometry/nodes/node_geo_rotate_instances.cc:23
 #: source/blender/nodes/geometry/nodes/node_geo_scale_instances.cc:24
 #: source/blender/nodes/geometry/nodes/node_geo_translate_instances.cc:22
-#, fuzzy
 msgid "Local Space"
-msgstr "Lokalt utrymme"
+msgstr "Lokal rymd"
 
 #. :src: bpy.types.Constraint.owner_space:'LOCAL'
 #. :src: bpy.types.ShrinkwrapConstraint.project_axis_space:'LOCAL'
-#, fuzzy
 msgid "The constraint is applied relative to the local coordinate system of the object"
 msgstr "Begränsningen tillämpas i förhållande till objektets lokala koordinatsystem"
 
 #. :src: bpy.types.Constraint.show_expanded
-#, fuzzy
 msgid "Constraint's panel is expanded in UI"
 msgstr "Begränsningens panel är utfälld i användargränssnittet"
 
 #. :src: bpy.types.Constraint.space_object
-#, fuzzy
 msgid "Object for Custom Space"
-msgstr "Objekt för anpassat utrymme"
+msgstr "Objekt för anpassat koordinatsystem"
 
 #. :src: bpy.types.Constraint.space_subtarget
 #. :src: bpy.types.ActionConstraint.subtarget
@@ -16839,7 +16812,6 @@ msgstr "Objekt för anpassat utrymme"
 #. :src: bpy.types.ConstraintTargetBone.subtarget
 #. :src: bpy.types.GreasePencilHookModifier.subtarget
 #. :src: bpy.types.HookModifier.subtarget
-#, fuzzy
 msgid "Sub-Target"
 msgstr "Delmål"
 
@@ -16859,7 +16831,6 @@ msgstr "Delmål"
 #. :src: bpy.types.TrackToConstraint.subtarget
 #. :src: bpy.types.TransformConstraint.subtarget
 #. :src: bpy.types.ConstraintTarget.subtarget
-#, fuzzy
 msgid "Armature bone, mesh or lattice vertex group, ..."
 msgstr "Armaturben, mesh- eller gitterhörnpunktsgrupp, ..."
 
@@ -16869,42 +16840,34 @@ msgid "Target Space"
 msgstr "Målrymd"
 
 #. :src: bpy.types.Constraint.target_space
-#, fuzzy
 msgid "Space that target is evaluated in"
-msgstr "Utrymme som målet utvärderas i"
+msgstr "Koordinatsystemet som målet utvärderas i"
 
 #. :src: bpy.types.Constraint.target_space:'WORLD'
-#, fuzzy
 msgid "The transformation of the target is evaluated relative to the world coordinate system"
 msgstr "Målets transformation utvärderas i förhållande till världskoordinatsystemet"
 
 #. :src: bpy.types.Constraint.target_space:'CUSTOM'
-#, fuzzy
 msgid "The transformation of the target is evaluated relative to a custom object/bone/vertex group"
 msgstr "Målets transformation utvärderas i förhållande till en anpassad objekt-/ben-/vertexgrupp"
 
 #. :src: bpy.types.Constraint.target_space:'POSE'
-#, fuzzy
 msgid "The transformation of the target is only evaluated in the Pose Space, the target armature object transformation is ignored"
-msgstr "Transformationen av målet utvärderas endast i Pose Space, transformationen av målets armaturobjekt ignoreras"
+msgstr "Transformationen av målet utvärderas endast i poseringsrymden; transformationen av målets armatur-objekt ignoreras"
 
 #. :src: bpy.types.Constraint.target_space:'LOCAL_WITH_PARENT'
-#, fuzzy
 msgid "The transformation of the target bone is evaluated relative to its rest pose local coordinate system, thus including the parent-induced transformation"
-msgstr "Transformationen av målbenet utvärderas i förhållande till dess lokala koordinatsystem för vilopositionen, vilket inkluderar den föräldrainducerade transformationen"
+msgstr "Transformationen av målbenet utvärderas i förhållande till dess lokala koordinatsystem för vilopositionen, vilket inkluderar transformationen som orsakats av det överordnade benet"
 
 #. :src: bpy.types.Constraint.target_space:'LOCAL'
-#, fuzzy
 msgid "The transformation of the target is evaluated relative to its local coordinate system"
 msgstr "Målets transformation utvärderas i förhållande till dess lokala koordinatsystem"
 
 #. :src: bpy.types.Constraint.target_space:'LOCAL_OWNER_ORIENT'
-#, fuzzy
 msgid "Local Space (Owner Orientation)"
-msgstr "Lokalt utrymme (ägarorientering)"
+msgstr "Lokal rymd (ägarorientering)"
 
 #. :src: bpy.types.Constraint.target_space:'LOCAL_OWNER_ORIENT'
-#, fuzzy
 msgid "The transformation of the target bone is evaluated relative to its local coordinate system, followed by a correction for the difference in target and owner rest pose orientations. When applied as local transform to the owner produces the same global motion as the target if the parents are still in rest pose."
 msgstr "Transformationen av målbenet utvärderas i förhållande till dess lokala koordinatsystem, följt av en korrigering för skillnaden i målets och ägarens orientering i viloposition. När den tillämpas som lokal transformation på ägaren ger den samma globala rörelse som målet om föräldrarna fortfarande är i viloposition."
 
@@ -16912,7 +16875,6 @@ msgstr "Transformationen av målbenet utvärderas i förhållande till dess loka
 #. :src: bpy.types.POSE_OT_constraint_add.type:'CAMERA_SOLVER'
 #. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'CAMERA_SOLVER'
 #: source/blender/blenkernel/intern/constraint.cc:5246
-#, fuzzy
 msgid "Camera Solver"
 msgstr "Kameralösare"
 

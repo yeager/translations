@@ -407,6 +407,8 @@ Senast uppdaterad: 2026-11-06.
 | vertex color factor | hörnpunktsfärgfaktor | Faktor som blandar hörnpunktsfärg till Grease Pencil-streckets eller fyllningens slutliga färg. |
 | Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
 | target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
+| owner space | ägarkoordinatsystem | Koordinatsystemet som används för ägarens transformationskanal. |
+| pose space | poseringsrymd | Armaturens poserade koordinatrymd; behåll inte den engelska RNA-etiketten i svensk UI-text. |
 | default frame | standardbildruta | Bildruta som motsvarar transformationskanalens neutrala värde. |
 | trigger | utlösare | Den styrande åtgärden i Rigifys korrigerande åtgärder. |
 | AOV | AOV / godtyckliga utgångsvariabler | Behåll den korta UI-etiketten *AOV*. I förklarande terminologi används TBX-formen *godtyckliga utgångsvariabler*. |

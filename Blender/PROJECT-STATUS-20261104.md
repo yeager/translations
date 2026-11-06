@@ -1965,3 +1965,15 @@ rapporterar endast etablerade Blender- och facktermer samt konstgjorda längd-
 och V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 223 granskar 39 poster för begränsningar och deras koordinatrymder.
+Den normaliserar *ägarkoordinatsystem*, *poseringsrymd* och *lokal rymd*, samt
+använder den etablerade betydelsen *biblioteksöverskrivning* för `Library
+Override`. Terminologilistan utökas med de återkommande rymdtermerna.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna.
+Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-223-constraints-coordinate-spaces.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast etablerade Blender- och facktermer samt
+konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen är
+arkiverad och väntar på manuell import.
+
