@@ -2431,3 +2431,17 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 `svlang` rapporterar endast en svag, icke åtgärdbar passivvarning för den
 tekniska beskrivningen. Filen är arkiverad och väntar på manuell import.
 
+Batch 265 granskar 11 strängar för skulpteringspenselns gränsdeformering.
+Den skiljer deformationslägena *Böjning*, *Expandera*, *Blås upp*, *Flytta*
+och *Vridning* från vanliga verb i andra delar av gränssnittet. Den
+normaliserar också *avtagande vid gräns*, formuleringen för cykliska
+slingsmönster och penselns funktioner. Terminologilistan har kompletterats
+med *gränsavtagande* och *gränsdeformering*. Samtliga granskade poster har
+fått sina `fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-265-brush-boundary-deformation.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
+Gitleaks. Hunspell markerar endast imperativet *Loopa*, som används
+avsiktligt för Blenders cykliska slingsalternativ, och `svlang` rapporterar
+en konstgjord ordföljdsvarning från sammanfogade UI-etiketter. Filen är
+arkiverad och väntar på manuell import.
+

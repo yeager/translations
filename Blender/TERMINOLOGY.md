@@ -408,6 +408,8 @@ Senast uppdaterad: 2026-11-06.
 | Screen / Color Dodge | Raster / Färgskugga | Etablerade namn på ljusare färgblandningslägen i den här UI-kontexten. |
 | Pin Light / Vivid Light | Punktljus / Levande ljus | Namn på färgblandningslägen; *stiftlampa* är inte korrekt. |
 | kernel radius | kärnradie | Radien för pixelkärnan vid oskärpa och skärpning. |
+| boundary falloff | avtagande vid gräns | Styr hur skulpteringspenselns deformation minskar från en meshgräns. |
+| boundary deformation | gränsdeformering | Deformationsläge som påverkar ett område utifrån en meshgräns. |
 | crease / pinch factor | fåra-/nypningsfaktor | Skulpteringsfaktor som styr fårning eller nypning av ytan. |
 | rake factor / topology rake | krattningsfaktor / topologisk krattning | Skulpteringsinställning som följer och riktar penseldrag efter topologin. |
 | persistence | beständighet | Pensel- eller simuleringsfunktion som bevarar ett tillstånd över tid. |
