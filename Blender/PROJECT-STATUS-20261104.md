@@ -1225,3 +1225,10 @@ normaliserar också pluralformen *rörelsebanor* i inställningar för visning.
 Deltafilen `blender-ui-sv-reviewed-20261106-153.po` saknar
 `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, diffkontroll och
 Gitleaks.
+
+Batch 154 granskar tio strängar för cachefiler och kameras bilddata. Den
+rättar bland annat filbläddrarens *sökväg*, *filmklippsanvändare*,
+*inpassningsmetod*, bländarens *lameller* och den delade kanal-/kameratermen
+*stereo*. Deltafilen `blender-ui-sv-reviewed-20261106-154.po` saknar
+`fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks.
