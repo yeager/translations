@@ -15,10 +15,11 @@ meshtopologi och UV-lager samt 295 för Movie Clip och kompositörvisning samt
 samt 298 för hårinfästning och guidekurvor, 299 för tilläggsmetadata och
 hårnoder samt 300 för tilläggskategorier och 301 för språk- och
 resurskataloger samt 302 för filsparande och tilläggsarkiv, och ingår därför
-inte i de redan inskickade sex delarna.
+inte i de redan inskickade sex delarna. Batch 303 för Principled BSDF:s
+materialetiketter ingår också endast lokalt.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-302.po`
-med 289 poster, som omfattar alla färdiga batcher efter sexdelsimporten. Den
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-303.po`
+med 301 poster, som omfattar alla färdiga batcher efter sexdelsimporten. Den
 ersätter tidigare samlingsfiler för detta intervall, är redo för manuell import
 och har inte skickats in eller verifierats i Weblate.
 
