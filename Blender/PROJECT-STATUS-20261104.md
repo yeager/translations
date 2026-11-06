@@ -1218,3 +1218,10 @@ terminologigranskningar. Den följer projektets former *B-Bone-segment*,
 Deltafilen `blender-ui-sv-reviewed-20261106-152.po` saknar
 `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, diffkontroll och
 Gitleaks.
+
+Batch 153 tillämpar den fastställda termen *åtgärdsslot* konsekvent på sju
+närliggande etiketter och beskrivningar för AnimData och Action. Den
+normaliserar också pluralformen *rörelsebanor* i inställningar för visning.
+Deltafilen `blender-ui-sv-reviewed-20261106-153.po` saknar
+`fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks.
