@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-426.po`
-med 1 836 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-427.po`
+med 1 853 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3494,5 +3494,12 @@ partikelupplösning och rutnätsvisning. Den tar bort ett felaktigt kolon från
 *Kompression*, använder *vätskedomän* i stället för det engelska lånordet
 *fluiddomän* och skiljer *rutnätslinjer* från själva rutnätet. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-426-fluid-cache-particles-and-grid-display.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 427 granskar 17 Mantaflow-poster för FLIP/APIC-metoder, volymskivor och
+sekundära partiklar vid domängränsen. Den bevarar de tekniska metodnamnen,
+men rättar *skärriktning* till *skivriktning* och normaliserar skivkontrollerna
+till *skivor per voxel*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-427-fluid-methods-slices-and-boundary-particles.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
