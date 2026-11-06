@@ -1547,7 +1547,7 @@ msgstr "Åtgärdsslot"
 #. :src: bpy.types.ActionSlot
 #, fuzzy
 msgid "Identifier for a set of channels in this Action, that can be used by a data-block to specify what it gets animated by"
-msgstr "Identifierare för en uppsättning kanaler i denna Action, som kan användas av ett datablock för att ange vad det animeras av"
+msgstr "Identifierare för en uppsättning kanaler i den här åtgärden, som ett datablock kan använda för att ange vad det animeras av"
 
 #. :src: bpy.types.ActionSlot.active
 #. :src: bpy.types.BrushGpencilSettings.brush_draw_mode:'ACTIVE'
@@ -1597,7 +1597,7 @@ msgstr "Anger om detta är den aktiva åtgärdsslotten. Kan ställas in genom ti
 #. :src: bpy.types.ActionSlot.handle
 #, fuzzy
 msgid "Slot Handle"
-msgstr "Handtag för åtgärdsplats"
+msgstr "Handtag för åtgärdsslot"
 
 #. :src: bpy.types.ActionSlot.handle
 #, fuzzy
@@ -1605,8 +1605,8 @@ msgid ""
 "Number specific to this Slot, unique within the Action.\n"
 "This is used, for example, on a ActionKeyframeStrip to look up the ActionChannelbag for this Slot"
 msgstr ""
-"Nummer som är specifikt för denna Slot, unikt inom Action.\n"
-"Detta används t.ex. på en ActionKeyframeStrip för att leta upp ActionChannelbag för denna Slot"
+"Nummer som är specifikt för den här slotten och unikt inom åtgärden.\n"
+"Det används till exempel av en ActionKeyframeStrip för att hitta ActionChannelbag för den här slotten"
 
 #. :src: bpy.types.ActionSlot.identifier
 #, fuzzy
@@ -1616,7 +1616,7 @@ msgstr "Identifierare för åtgärdsslot"
 #. :src: bpy.types.ActionSlot.identifier
 #, fuzzy
 msgid "Used when connecting an Action to a data-block, to find the correct slot handle. This is the display name, prefixed by two characters determined by the slot's ID type"
-msgstr "Används när du ansluter en Action till ett datablock för att hitta rätt slot-handtag. Detta är visningsnamnet, som inleds med två tecken som bestäms av slotens ID-typ"
+msgstr "Används när en åtgärd ansluts till ett datablock för att hitta rätt handtag för åtgärdsslotten. Detta är visningsnamnet, med två inledande tecken som bestäms av slotens ID-typ"
 
 #. :src: bpy.types.ActionSlot.name_display
 #, fuzzy
@@ -3746,7 +3746,7 @@ msgstr "Visa bildrutenummer på rörelsebanor"
 
 #. :src: bpy.types.AnimVizMotionPaths.show_keyframe_action_all
 msgid "All Action Keyframes"
-msgstr "Samtliga action-nycklar"
+msgstr "Alla åtgärdsnyckelbildrutor"
 
 #. :src: bpy.types.AnimVizMotionPaths.show_keyframe_action_all
 #, fuzzy
@@ -18089,7 +18089,7 @@ msgstr "Äldre spårningsbegränsning med risk för vridningsartefakter"
 #. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'ACTION'
 #, fuzzy
 msgid "Use transform property of target to look up pose for owner from an Action"
-msgstr "Använd transform property of target för att leta upp pose för ägare från en Action"
+msgstr "Använd målobjektets transformationsegenskap för att slå upp ägarens pose i en åtgärd"
 
 #. :src: bpy.types.Constraint.type:'ARMATURE'
 #. :src: bpy.types.Object.parent_type:'ARMATURE'
@@ -18251,7 +18251,7 @@ msgstr "Utvärderingstid"
 #. :src: bpy.types.ActionConstraint.eval_time
 #, fuzzy
 msgid "Interpolates between Action Start and End frames"
-msgstr "Interpolerar mellan Action Start- och End-rutorna"
+msgstr "Interpolerar mellan åtgärdens start- och slutbildruta"
 
 #. :src: bpy.types.ActionConstraint.frame_end
 #, fuzzy

@@ -1436,3 +1436,14 @@ saknar `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, riktad Hunspell,
 diffkontroll och Gitleaks. `svlang` ger 10/10 i naturlighet och markerar bara
 de avsedda, projektspecifika sammansättningarna. Filen är arkiverad och väntar
 på manuell import.
+
+Batch 174 granskar åtta API-hjälprader och etiketter i Action-systemet. Den
+normaliserar *Action* till *åtgärd* i svensk löptext, ersätter den felaktiga
+formen *åtgärdsplats*, använder `Alla åtgärdsnyckelbildrutor` och förtydligar
+Action Constraint- och Slot Handle-kontexten utan att ändra verkliga
+API-typen `ActionKeyframeStrip` eller `ActionChannelbag`. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-174-action-api.po` saknar
+`fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks. `svlang` ger 10/10 i naturlighet; rapporterade ovanliga ord är
+projektets API-namn och avsedda facktermer. Filen är arkiverad och väntar på
+manuell import.
