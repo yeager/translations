@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-338.po`
-med 670 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-339.po`
+med 679 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -187,6 +187,13 @@ hörndetektering. Den anger att ritplanet är parallellt med vyporten och
 ersätter lånordet *mappa* med det kontextuella *koppla* för ritplattans
 tryckstyrning. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-338-curve-paint-projection.po` är
+lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 339 granskar tio etiketter och hjälptexter för begränsningstyper.
+Den bevarar det formella UI-namnet *Child Of*, använder *löstagbar förälder*
+för den faktiska relationen och godkänner de korrekta svenska texterna för
+golv-, Följ bana-, Shrinkwrap- och Action-begränsningarna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-339-constraint-type-labels.po` är
 lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
 ## Projektets aktualitet
