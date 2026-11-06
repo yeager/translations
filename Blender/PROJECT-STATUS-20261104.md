@@ -2656,3 +2656,16 @@ Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
 `svlang` markeringar rapporteras separat. Gitleaks körs före arkivering.
 Filen väntar därefter på manuell import.
 
+Batch 283 granskar 10 strängar för textobjektens styckejustering,
+teckenavstånd och typsnittsval. Blenders textdokumentation skiljer mellan
+*Justify*, som fyller radens mellanrum vid radbrytning, och *Flush*, som
+alltid fyller raden med teckenavstånd. Den tidigare översättningen *Spola*
+är därför ett sakfel och ersätts av *Jämna marginaler*. Terminologilistan
+anger nu skillnaden samt *teckenavstånd* som svensk term för den aktuella
+kerninginställningen. Samtliga granskade poster får sina `fuzzy`-markeringar
+borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-283-text-alignment-and-fonts.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
+`svlang` markeringar rapporteras separat. Gitleaks körs före arkivering.
+Filen väntar därefter på manuell import.
+

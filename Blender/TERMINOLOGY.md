@@ -309,6 +309,8 @@ Senast uppdaterad: 2026-11-06.
 | translation path | förflyttningsbana | Kurvbana som styr ett underordnat objekts rörelse; inte en språklig översättning. |
 | text box overflow | textruteöverflöde | Hantering när text inte ryms i Blenders textrutor. |
 | small caps | kapitäler | Typografisk stil med små versaler; använd inte vardagsformen *små huvudstäder*. |
+| Justify / Flush | justera / jämna marginaler | Båda justerar text mot vänster och höger marginal. *Justera* använder ordmellanrum vid radbrytning, medan *Jämna marginaler* alltid använder teckenavstånd. |
+| character spacing (kerning) | teckenavstånd | Avstånd mellan tecken i Blenders textobjekt; används av läget *Jämna marginaler*. |
 | shear | skjuvning | Geometrisk transformering eller textobjektets kursiveringsvinkel. |
 | Freestyle line style | Freestyle-linjestil | Freestyles inställningsobjekt för den renderade konturlinjen. |
 | stroke geometry | streckgeometri | Geometrin för ett Freestyle-streck; inte *slaggeometri*. |
