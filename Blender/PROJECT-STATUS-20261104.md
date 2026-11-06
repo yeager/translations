@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-331.po`
-med 583 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-332.po`
+med 599 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -137,6 +137,14 @@ koordinatsystem mot den befintliga termlistan. Den rättar *Världs-rymd* till
 *världsrymd*, normaliserar *målkoordinatsystem* och rättar sammansättningen
 *armaturobjekt*. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-331-constraint-coordinate-spaces.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender
+Translate.
+
+Batch 332 granskar 16 poster för Transform-begränningens utdataordning och
+destinationsintervall. Den skiljer konsekvent käll- från destinationsrörelse
+och normaliserar gränserna till *högsta* respektive *lägsta* värde längs varje
+axel. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-332-transform-destination-ranges.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender
 Translate.
 
