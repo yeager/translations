@@ -2080,3 +2080,12 @@ sina `fuzzy`-markeringar borttagna. Deltafilen
 rapporterar endast etablerade facktermer och en konstgjord längdvarning från
 sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell import.
 
+Batch 233 granskar 16 återstående poster för Dynamic Paint-ytor. Den rättar
+bland annat *kantutjämning*, *upplösning*, *våthet*, *utdata*, *utjämning*,
+*fjäder* och *Dynamic Paint-dukytor*. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-233-dynamic-paint-surface.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast etablerade facktermer och en konstgjord längdvarning från
+sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell import.
+
