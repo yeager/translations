@@ -2445,3 +2445,16 @@ avsiktligt för Blenders cykliska slingsalternativ, och `svlang` rapporterar
 en konstgjord ordföljdsvarning från sammanfogade UI-etiketter. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 266 granskar 8 strängar för tygsimuleringspenselns dämpning och
+deformationslägen. Den rättar bland annat *tygdämpning*, *Nypunkt*, *Nyp
+vinkelrätt*, *Tryck*, *simuleringsavklingning* och beskrivningen av hur
+krafter fortplantas genom tyget. Terminologilistan har kompletterats med
+tygsimuleringens återkommande termer. Samtliga granskade poster har fått
+sina `fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-266-brush-cloth-settings.po`. Filen
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+Hunspell och `svlang` markerar enbart de avsiktliga facksammansättningarna
+*nypunkt* och *simuleringsavklingning* samt en konstgjord ordföljdsvarning
+från sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell
+import.
+

@@ -410,6 +410,9 @@ Senast uppdaterad: 2026-11-06.
 | kernel radius | kärnradie | Radien för pixelkärnan vid oskärpa och skärpning. |
 | boundary falloff | avtagande vid gräns | Styr hur skulpteringspenselns deformation minskar från en meshgräns. |
 | boundary deformation | gränsdeformering | Deformationsläge som påverkar ett område utifrån en meshgräns. |
+| cloth damping | tygdämpning | Reglerar hur långt applicerade krafter fortplantas i penselns tygsimulering. |
+| simulation falloff | simuleringsavklingning | Område där tygsimuleringens deformation gradvis avtar. |
+| pinch point | nypunkt | Deformationsläge som drar den simulerade ytan mot en bestämd punkt. |
 | crease / pinch factor | fåra-/nypningsfaktor | Skulpteringsfaktor som styr fårning eller nypning av ytan. |
 | rake factor / topology rake | krattningsfaktor / topologisk krattning | Skulpteringsinställning som följer och riktar penseldrag efter topologin. |
 | persistence | beständighet | Pensel- eller simuleringsfunktion som bevarar ett tillstånd över tid. |
