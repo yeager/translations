@@ -1373,3 +1373,15 @@ Blender-terminologin. Deltafilen
 Gitleaks. Hunspell och `svlang` markerar endast de projektspecifika
 sammansättningarna *kameradatablock* och *linjestilsdatablock*. Filen är
 arkiverad och väntar på manuell import till Blender Translate.
+
+Batch 168 granskar tretton sammanhängande RNA-etiketter för Blenders
+datablockstyper samt en Action Slot-hjälptext. Den normaliserar bland annat
+*armaturdatablock*, *cachefildatablock*, *gitterdatablock*,
+*ljussonddatablock* och *linjestilsdatablock*, och rättar den sista förekomsten
+av *åtgärdsplats* i den aktuella Action Slot-kontexten. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-168-datablock-labels.po` saknar
+`fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks.
+Hunspell och `svlang` markerar enbart avsedda, projektspecifika sammansättningar
+och korrekta underordnade satser. Filen är arkiverad och väntar på manuell
+import.
