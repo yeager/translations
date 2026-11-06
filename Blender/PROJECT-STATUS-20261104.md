@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-319.po`
-med 478 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-320.po`
+med 486 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -62,6 +62,12 @@ projektionsaxel, koordinatrymd, närmaste yt- eller hörnpunkt, målnormal och
 alternativ projektion. Den gör också ytgallring konsekvent i den inverterade
 projektionen. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-319-shrinkwrap-projection.po` är
+lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 320 granskar åtta Shrinkwrap-fästlägen. Den skiljer tydligt läget
+*Utanför ytan* från en fysisk yta och använder konsekvent *position* i
+avståndsförskjutningarnas förklaringar. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-320-shrinkwrap-snap-modes.po` är
 lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
 ## Projektets aktualitet

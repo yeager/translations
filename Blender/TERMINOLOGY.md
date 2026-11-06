@@ -320,6 +320,7 @@ Senast uppdaterad: 2026-11-06.
 | project axis | projektionsaxel | Axeln som Shrinkwrap projicerar längs. Skilj från ett projekts egen axel. |
 | target normal | målnormal | Normal från målets yta, till exempel i Shrinkwrap-projektion. |
 | target mesh object | målmeshobjekt | Meshobjektet som Shrinkwrap anpassar ett annat objekt till. Skriv sammansatt; ordet är en teknisk objekttyp. |
+| Outside Surface | Utanför ytan | Shrinkwrap-läge där den beräknade punkten hålls på utsidan av målytan. Det är ett läge, inte en benämning på en fristående fysisk yta. |
 | joint binding | ledbindning | Spline IK-inställning för leders relativa positioner längs kedjan. |
 | curve mapping | kurvkartläggning | Verktyg som mappar färg-, vektor- eller skalärvärden via en användardefinierad kurva. |
 | curve fill mode | kurvans fyllningsläge | Inställning för hur en 2D-kurva fylls. |
