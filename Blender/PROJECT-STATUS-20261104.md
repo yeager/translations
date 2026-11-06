@@ -1290,3 +1290,9 @@ unika, granskade strängar från batch 156--159 och ligger under Weblates
 100-strängarsgräns. Den har inga `fuzzy`-markeringar och passerar `msgfmt`,
 l10n-lint och diffkontroll. Något importresultat för denna samlade fil är ännu
 inte verifierat.
+
+## Importgräns
+
+Blender Translate accepterar granskade importbatchar om högst **1 000
+strängar**. Större filer ska delas upp före uppladdning eftersom importen kan
+hänga.
