@@ -2226,3 +2226,14 @@ vektorernas *belopp*. Samtliga granskade poster har fått sina
 rapporterar endast en konstgjord ordföljdsvarning från sammanfogade
 UI-etiketter. Filen är arkiverad och väntar på manuell import.
 
+Batch 248 granskar 15 Mantaflow-strängar för effektorer och flödeskällor.
+Den normaliserar bland annat *delbildrutor*, *effektorobjekt*,
+*vätskeemission*, *ytemission*, *initialhastighet* och
+*slumphastighetens storlek*. Terminologilistan har kompletterats med
+*ytemission* i Mantaflow-kontext. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-248-fluid-flow-settings.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast en konstgjord ordföljdsvarning från sammanfogade
+UI-etiketter. Filen är arkiverad och väntar på manuell import.
+

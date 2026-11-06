@@ -583,6 +583,7 @@ Senast uppdaterad: 2026-11-06.
 | cage extrusion | bursextrudering | Avstånd som bygger ut en bakningsbur från det aktiva objektet. |
 | bake map | bakningskarta | Bild- eller attributdata som skapas genom att baka renderingsresultat. |
 | emission | emission | Ljus som materialet själv avger i renderingskontext. |
+| surface emission (fluid) | ytemission | Vätske- eller gasemission från en meshyta i Mantaflow. Skilj från materials ljusemission. |
 | soft body | mjukkropp | Fysiksimulerad kroppstyp i Blender. |
 | data-block | datablock | Blenders interna dataenhet; skriv som en sammansättning. |
 

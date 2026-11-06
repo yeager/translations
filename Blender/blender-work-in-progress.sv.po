@@ -31474,17 +31474,17 @@ msgstr "Ta medelvärdet av hastigheterna från föregående bildruta och de nya 
 #: scripts/startup/bl_ui/space_time.py:266
 #, fuzzy
 msgid "Subframes"
-msgstr "Underramar"
+msgstr "Delbildrutor"
 
 #. :src: bpy.types.FluidEffectorSettings.subframes
 #, fuzzy
 msgid "Number of additional samples to take between frames to improve quality of fast moving effector objects"
-msgstr "Antal extra provtagningar mellan bildrutorna för att förbättra kvaliteten på snabbt rörliga effektobjekt"
+msgstr "Antal extra provtagningar mellan bildrutorna för att förbättra kvaliteten på snabbt rörliga effektorobjekt"
 
 #. :src: bpy.types.FluidEffectorSettings.surface_distance
 #, fuzzy
 msgid "Additional distance around mesh surface to consider as effector"
-msgstr "Ytterligare avstånd runt maskytan för att betraktas som effektor"
+msgstr "Ytterligare avstånd runt meshytan som räknas som effektor"
 
 #. :src: bpy.types.FluidEffectorSettings.use_effector
 #, fuzzy
@@ -31497,7 +31497,7 @@ msgstr "Styr när effektorn ska användas"
 #: scripts/startup/bl_ui/properties_physics_fluid.py:287
 #, fuzzy
 msgid "Is Planar"
-msgstr "Är Planar"
+msgstr "Är plan"
 
 #. :src: bpy.types.FluidEffectorSettings.use_plane_init
 msgid "Treat this object as a planar, unclosed mesh"
@@ -31689,7 +31689,7 @@ msgstr "Lägg till eld"
 #. :src: bpy.types.FluidFlowSettings.flow_type:'LIQUID'
 #, fuzzy
 msgid "Add liquid"
-msgstr "Tillsätt vätska"
+msgstr "Lägg till vätska"
 
 #. :src: bpy.types.FluidFlowSettings.fuel_amount
 #, fuzzy
@@ -31710,7 +31710,7 @@ msgstr "Partikelstorlek i simuleringsceller"
 #. :src: bpy.types.Object.particle_systems
 #, fuzzy
 msgid "Particle systems emitted from the object"
-msgstr "Partikelsystem som sänds ut från objektet"
+msgstr "Partikelsystem som avges från objektet"
 
 #. :src: bpy.types.FluidFlowSettings.smoke_color
 #, fuzzy
@@ -31720,18 +31720,18 @@ msgstr "Rökens färg"
 #. :src: bpy.types.FluidFlowSettings.subframes
 #, fuzzy
 msgid "Number of additional samples to take between frames to improve quality of fast moving flows"
-msgstr "Antal extra prov som ska tas mellan bilderna för att förbättra kvaliteten på snabba flöden"
+msgstr "Antal extra provtagningar mellan bildrutorna för att förbättra kvaliteten på snabba flöden"
 
 #. :src: bpy.types.FluidFlowSettings.surface_distance
 #: scripts/startup/bl_ui/properties_physics_fluid.py:560
 #, fuzzy
 msgid "Surface Emission"
-msgstr "Utsläpp på ytan"
+msgstr "Ytemission"
 
 #. :src: bpy.types.FluidFlowSettings.surface_distance
 #, fuzzy
 msgid "Controls fluid emission from the mesh surface (higher value results in emission further away from the mesh surface"
-msgstr "Kontrollerar vätskeutsläpp från maskytan (högre värde ger utsläpp längre bort från maskytan)"
+msgstr "Styr vätskeemission från meshytan (högre värde ger emission längre bort från meshytan)"
 
 #. :src: bpy.types.FluidFlowSettings.temperature
 #, fuzzy
@@ -31798,7 +31798,7 @@ msgstr "Absolut densitet"
 #. :src: bpy.types.FluidFlowSettings.use_absolute
 #, fuzzy
 msgid "Only allow given density value in emitter area and will not add up"
-msgstr "Tillåter endast ett visst densitetsvärde i emitterområdet och summerar inte"
+msgstr "Tillåter endast det angivna densitetsvärdet i emitterområdet; värden adderas inte"
 
 #. :src: bpy.types.FluidFlowSettings.use_inflow
 #, fuzzy
@@ -31808,7 +31808,7 @@ msgstr "Använd flöde"
 #. :src: bpy.types.FluidFlowSettings.use_inflow
 #, fuzzy
 msgid "Control when to apply fluid flow"
-msgstr "Kontrollera när vätskeflödet ska appliceras"
+msgstr "Styr när vätskeflödet ska användas"
 
 #. :src: bpy.types.FluidFlowSettings.use_initial_velocity
 #. :src: bpy.types.PHYSICS_PT_flow_initial_velocity
@@ -31853,12 +31853,12 @@ msgstr "Initial"
 #. :src: bpy.types.FluidFlowSettings.velocity_coord
 #, fuzzy
 msgid "Additional initial velocity in X, Y and Z direction (added to source velocity)"
-msgstr "Ytterligare initial hastighet i X-, Y- och Z-riktning (läggs till källhastigheten)"
+msgstr "Ytterligare initialhastighet i X-, Y- och Z-riktning (läggs till källhastigheten)"
 
 #. :src: bpy.types.FluidFlowSettings.velocity_factor
 #, fuzzy
 msgid "Multiplier of source velocity passed to fluid (source velocity is non-zero only if object is moving)"
-msgstr "Multiplikator av källhastigheten som skickas till vätskan (källhastigheten är inte noll endast om objektet rör sig)"
+msgstr "Multiplikator för källhastigheten som överförs till vätskan (källhastigheten är endast skild från noll när objektet rör sig)"
 
 #. :src: bpy.types.FluidFlowSettings.velocity_normal
 #. :src: bpy.types.ParticleSettings.normal_factor
@@ -31942,7 +31942,7 @@ msgstr "Mängd hastighet i normalriktningen"
 #. :src: bpy.types.FluidFlowSettings.velocity_random
 #, fuzzy
 msgid "Amount of random velocity"
-msgstr "Mängd slumpmässig hastighet"
+msgstr "Slumphastighetens storlek"
 
 #. :src: bpy.types.FluidFlowSettings.volume_density
 #: scripts/startup/bl_ui/properties_physics_fluid.py:563
