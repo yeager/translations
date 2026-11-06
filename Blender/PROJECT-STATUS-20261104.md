@@ -1720,3 +1720,15 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen
 är arkiverad och väntar på manuell import.
 
+Batch 201 granskar tjugosex inställningar för bakning av renderingsdata:
+bursextrudering, normalrymd, axelkanaler, avstånd, marginaler och
+bakningspass. Den rättar bland annat *Vertikal dimension av bakningskartan*
+till *Bakningskartans höjd* och normaliserar formuleringarna för
+efterbehandling och burens mesh-kontext. Samtliga granskade poster har fått
+sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-201-bake-settings.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar enbart förväntade facktermer samt konstgjorda längd- och
+V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och väntar
+på manuell import.
+

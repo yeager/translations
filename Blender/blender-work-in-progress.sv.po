@@ -6526,34 +6526,28 @@ msgstr "Index för färgattributet som används som reserv vid rendering"
 
 #. :src: bpy.types.BakeSettings
 #. :src: bpy.types.RenderSettings.bake
-#, fuzzy
 msgid "Bake Data"
 msgstr "Bakningsdata"
 
 #. :src: bpy.types.BakeSettings
-#, fuzzy
 msgid "Bake data for a Scene data-block"
 msgstr "Bakningsdata för ett scendatablock"
 
 #. :src: bpy.types.BakeSettings.cage_extrusion
 #. :src: bpy.types.OBJECT_OT_bake.cage_extrusion
-#, fuzzy
 msgid "Cage Extrusion"
 msgstr "Bursextrudering"
 
 #. :src: bpy.types.BakeSettings.cage_extrusion
-#, fuzzy
 msgid "Inflate the active object by the specified distance for baking. This helps matching to points nearer to the outside of the selected object meshes."
-msgstr "Blås upp det aktiva objektet med det angivna avståndet för bakning. Detta underlättar matchningen till punkter som ligger närmare utsidan av de valda objektens maskor."
+msgstr "Utvidga det aktiva objektet med det angivna avståndet för bakning. Detta underlättar matchningen mot punkter närmare utsidan av de valda objektens mesh."
 
 #. :src: bpy.types.BakeSettings.cage_object
 #. :src: bpy.types.OBJECT_OT_bake.cage_object
-#, fuzzy
 msgid "Cage Object"
 msgstr "Burobjekt"
 
 #. :src: bpy.types.BakeSettings.cage_object
-#, fuzzy
 msgid "Object to use as cage instead of calculating the cage from the active object with cage extrusion"
 msgstr "Objekt som används som bur i stället för att beräkna buren från det aktiva objektet med bursextrudering"
 
@@ -6656,9 +6650,8 @@ msgid "Image filepath to use when saving externally"
 msgstr "Sökväg till bildfil som används för att spara externt"
 
 #. :src: bpy.types.BakeSettings.height
-#, fuzzy
 msgid "Vertical dimension of the baking map"
-msgstr "Vertikal dimension av bakningskartan"
+msgstr "Bakningskartans höjd"
 
 #. :src: bpy.types.BakeSettings.image_settings
 #. :src: bpy.types.ImageFormatSettings
@@ -6690,9 +6683,8 @@ msgstr "Marginal"
 #. :src: bpy.types.BakeSettings.margin
 #. :src: bpy.types.OBJECT_OT_bake.margin
 #. :src: bpy.types.RenderSettings.bake_margin
-#, fuzzy
 msgid "Extends the baked result as a post process filter"
-msgstr "Utökar det bakade resultatet som ett efterbehandlingsfilter"
+msgstr "Utökar bakningsresultatet med ett efterbehandlingsfilter"
 
 #. :src: bpy.types.BakeSettings.margin_type
 #. :src: bpy.types.OBJECT_OT_bake.margin_type
@@ -6813,18 +6805,15 @@ msgstr "Utvidga"
 #. :src: bpy.types.BakeSettings.margin_type:'EXTEND'
 #. :src: bpy.types.OBJECT_OT_bake.margin_type:'EXTEND'
 #. :src: bpy.types.RenderSettings.bake_margin_type:'EXTEND'
-#, fuzzy
 msgid "Extend border pixels outwards"
-msgstr "Utöka kantpixlar utåt"
+msgstr "Utöka kantpixlarna utåt"
 
 #. :src: bpy.types.BakeSettings.max_ray_distance
 #. :src: bpy.types.OBJECT_OT_bake.max_ray_distance
-#, fuzzy
 msgid "Max Ray Distance"
 msgstr "Maximalt strålavstånd"
 
 #. :src: bpy.types.BakeSettings.max_ray_distance
-#, fuzzy
 msgid "The maximum ray distance for matching points between the active and selected objects. If zero, there is no limit."
 msgstr "Maximalt strålavstånd för att matcha punkter mellan det aktiva och de valda objekten. Om värdet är noll finns ingen gräns."
 
@@ -6833,15 +6822,13 @@ msgstr "Maximalt strålavstånd för att matcha punkter mellan det aktiva och de
 #. :src: bpy.types.BakeSettings.normal_r
 #. :src: bpy.types.BakeSettings.normal_space
 #. :src: bpy.types.OBJECT_OT_bake.normal_space
-#, fuzzy
 msgid "Normal Space"
 msgstr "Normalrymd"
 
 #. :src: bpy.types.BakeSettings.normal_b
 #. :src: bpy.types.OBJECT_OT_bake.normal_b
-#, fuzzy
 msgid "Axis to bake in blue channel"
-msgstr "Axel som ska bakas i blå kanal"
+msgstr "Axel att baka i blå kanal"
 
 #. :src: bpy.types.BakeSettings.normal_b:'POS_X'
 #. :src: bpy.types.BakeSettings.normal_g:'POS_X'
@@ -6853,7 +6840,6 @@ msgstr "Axel som ska bakas i blå kanal"
 #. :src: bpy.types.MeshStatVis.overhang_axis:'POS_X'
 #. :src: bpy.types.MeshCacheModifier.forward_axis:'POS_X'
 #. :src: bpy.types.MeshCacheModifier.up_axis:'POS_X'
-#, fuzzy
 msgid "+X"
 msgstr "+X"
 
@@ -6867,7 +6853,6 @@ msgstr "+X"
 #. :src: bpy.types.MeshStatVis.overhang_axis:'POS_Y'
 #. :src: bpy.types.MeshCacheModifier.forward_axis:'POS_Y'
 #. :src: bpy.types.MeshCacheModifier.up_axis:'POS_Y'
-#, fuzzy
 msgid "+Y"
 msgstr "+Y"
 
@@ -6882,7 +6867,6 @@ msgstr "+Y"
 #. :src: bpy.types.MeshStatVis.overhang_axis:'POS_Z'
 #. :src: bpy.types.MeshCacheModifier.forward_axis:'POS_Z'
 #. :src: bpy.types.MeshCacheModifier.up_axis:'POS_Z'
-#, fuzzy
 msgid "+Z"
 msgstr "+Z"
 
@@ -6953,7 +6937,6 @@ msgstr "-X"
 #. :src: bpy.types.WM_OT_usd_export.export_global_forward_selection:'NEGATIVE_Y'
 #. :src: bpy.types.WM_OT_usd_export.export_global_up_selection:'NEGATIVE_Y'
 #. :src: bpy.types.RigifyParameters.wgt_align_axis:'-y'
-#, fuzzy
 msgid "-Y"
 msgstr "-Y"
 
@@ -6990,25 +6973,21 @@ msgstr "-Y"
 #. :src: bpy.types.WM_OT_usd_export.export_global_forward_selection:'NEGATIVE_Z'
 #. :src: bpy.types.WM_OT_usd_export.export_global_up_selection:'NEGATIVE_Z'
 #. :src: bpy.types.RigifyParameters.wgt_align_axis:'-z'
-#, fuzzy
 msgid "-Z"
 msgstr "-Z"
 
 #. :src: bpy.types.BakeSettings.normal_g
 #. :src: bpy.types.OBJECT_OT_bake.normal_g
-#, fuzzy
 msgid "Axis to bake in green channel"
-msgstr "Axel som ska bakas i grön kanal"
+msgstr "Axel att baka i grön kanal"
 
 #. :src: bpy.types.BakeSettings.normal_r
 #. :src: bpy.types.OBJECT_OT_bake.normal_r
-#, fuzzy
 msgid "Axis to bake in red channel"
-msgstr "Axel som ska bakas i röd kanal"
+msgstr "Axel att baka i röd kanal"
 
 #. :src: bpy.types.BakeSettings.normal_space
 #. :src: bpy.types.OBJECT_OT_bake.normal_space
-#, fuzzy
 msgid "Choose normal space for baking"
 msgstr "Välj normalrymd för bakning"
 
@@ -7158,7 +7137,6 @@ msgstr "Objekt"
 
 #. :src: bpy.types.BakeSettings.normal_space:'OBJECT'
 #. :src: bpy.types.OBJECT_OT_bake.normal_space:'OBJECT'
-#, fuzzy
 msgid "Bake the normals in object space"
 msgstr "Baka normalerna i objektrymd"
 
@@ -7215,24 +7193,20 @@ msgstr "Baka normalerna i objektrymd"
 #: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:171
 #: source/blender/nodes/shader/nodes/node_shader_geometry.cc:12
 #: source/blender/nodes/shader/nodes/node_shader_tangent.cc:20
-#, fuzzy
 msgid "Tangent"
 msgstr "Tangent"
 
 #. :src: bpy.types.BakeSettings.normal_space:'TANGENT'
 #. :src: bpy.types.OBJECT_OT_bake.normal_space:'TANGENT'
-#, fuzzy
 msgid "Bake the normals in tangent space"
 msgstr "Baka normalerna i tangentrymd"
 
 #. :src: bpy.types.BakeSettings.pass_filter
 #. :src: bpy.types.OBJECT_OT_bake.pass_filter
-#, fuzzy
 msgid "Pass Filter"
 msgstr "Passfilter"
 
 #. :src: bpy.types.BakeSettings.pass_filter
-#, fuzzy
 msgid "Passes to include in the active baking pass"
 msgstr "Pass som ska ingå i det aktiva bakningspasset"
 
