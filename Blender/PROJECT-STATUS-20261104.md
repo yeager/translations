@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-363.po`
-med 955 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-364.po`
+med 965 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -92,6 +92,13 @@ stället för det engelska UI-namnet där texten beskriver funktionen. Deltafile
 `blender-ui-sv-reviewed-20261106-batch-324-stretch-to-axis-and-rest-length.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender
 Translate.
+
+Batch 364 granskar tio Dopebladsfilter för Grease Pencil, hår, dolda
+kanaler, gitter och ljus. Den fortsätter den konsekventa direktformen
+*Visa även …* och ersätter den otydliga snedstrecksformen *objekt/ben* med
+*objekt eller ben*. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-364-dope-sheet-display-filters-a.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
 Batch 325 granskar fyra poster för Track To-begränsningen mot Blenders
 dokumentation. Den normaliserar komponentnamnet till *Rikta mot-begränsning*
