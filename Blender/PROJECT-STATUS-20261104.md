@@ -1897,3 +1897,14 @@ rapporterar endast etablerade Blender- och facktermer samt konstgjorda längd-
 och V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 217 granskar 48 poster för samlingsbaserad ljuslänkning och
+fysikkollisioner. Den rättar grammatiskt trasiga ljuslänkningsbeskrivningar,
+normaliserar *samling*, *genomsläpplighet* och *vidhäftning* samt skiljer
+tydligt mellan kollision, kollisionsobjekt och genomträngning. Samtliga
+granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-217-collections-collisions.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast etablerade Blender- och facktermer samt
+konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen är
+arkiverad och väntar på manuell import.
+

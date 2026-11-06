@@ -197,6 +197,9 @@ Senast uppdaterad: 2026-11-06.
 | tension stiffness | dragstyvhet | Materialets motstånd mot sträckning i tygsimuleringen. |
 | pin stiffness | fäststyvhet | Fjäderstyvhet för fästa hörnpunkter i tygsimuleringen, inte ett fysiskt stift. |
 | shear stiffness | skjuvstyvhet | Materialets motstånd mot skjuvning i tygsimuleringen. |
+| collision object / collider | kollisionsobjekt | Objekt som deltar i Blenders fysik- och tygkollisioner. |
+| permeability | genomsläpplighet | Sannolikheten att partiklar passerar genom ett mesh vid kollision. |
+| stickiness | vidhäftning | Hur starkt en partikel fäster vid en yta efter kollision. |
 | vertex mass | hörnpunktsmassa | Massan för en enskild hörnpunkt i tygsimuleringen. |
 | vertex color | hörnpunktsfärg | Gäller synlig UI-text. |
 | vertex normal | hörnpunktsnormal | Gäller synlig UI-text. |
