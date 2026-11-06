@@ -2237,3 +2237,14 @@ Den normaliserar bland annat *delbildrutor*, *effektorobjekt*,
 rapporterar endast en konstgjord ordföljdsvarning från sammanfogade
 UI-etiketter. Filen är arkiverad och väntar på manuell import.
 
+Batch 249 granskar 25 Freestyle-strängar för linjeuppsättningar och
+funktionskantsurval. Den normaliserar bland annat *gränskant*,
+*funktionskantstyp*, *ytmarkering*, *linjeuppsättning*, *streckrendering*,
+*visningslagerdatablock* och *ytjämnhet*. Terminologilistan har
+kompletterats med *funktionskantstyp*. Samtliga granskade poster har fått
+sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-249-freestyle-line-sets.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast facktermer och konstgjorda varningar från sammanfogade
+UI-etiketter. Filen är arkiverad och väntar på manuell import.
+

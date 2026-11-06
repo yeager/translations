@@ -534,6 +534,7 @@ Senast uppdaterad: 2026-11-06.
 | vertex (mesh API) | hörnpunkt | RNA-datatypen *MeshVertex* och dess egenskaper; använd sammansättningar som *hörnpunktsvikt*. |
 | face (mesh API) | yta | Meshens polygonala yta; undvik det bokstavliga *ansikte* i denna kontext. |
 | Freestyle edge/face mark | Freestyle-kant-/ytmarkering | Markerar vilka meshkanter eller -ytor som Freestyle får använda. |
+| feature edge type | funktionskantstyp | Freestyles urvalskategori för funktionskanter; skriv *funktionskantstyper* i plural. |
 | execution time | körtid | Modifierarens uppmätta utvärderingstid, inte verkställighetstid. |
 | Geometry Nodes | geometrinoder | Blenders nodbaserade geometriarbetsflöde; svensk sammansättning. |
 | Grease Pencil stroke | Grease Pencil-streck | Synlig ritad linje i Grease Pencil, inte *slag* eller *stroke*. |
