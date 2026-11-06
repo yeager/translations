@@ -300,6 +300,7 @@ Senast uppdaterad: 2026-11-06.
 | slotted action | åtgärd med slotar | Äldre API-hjälptext som avser en Action med Action Slots. Behåll den tekniska betydelsen och skriv inte engelska *slotted actions* i svensk löptext. |
 | transform | transformation | Avser objektets position, rotation och skala i Constraint- och Action-kontext. Undvik den bredare formen *omvandling* i dessa etiketter. |
 | Damped Track / Damped Track Constraint | Dämpad spårning / Dämpad spårning-begränsning | Begränsning som riktar en lokal axel mot målet med kortast möjliga rotation. Det är inte en järnvägsspårvidd. |
+| Follow Path / Follow Path Constraint | Följ bana / Följ bana-begränsning | Constraint som låser rörelsen till en målkurva. *Heading and banking* blir *riktning och krängning*; *banking* är rotation kring rörelseriktningen, inte en lutning. |
 | Track Axis | riktningsaxel | Den lokala axel som pekar mot målet i Blenders spårningsbegränsningar. |
 | Track To | Rikta mot | Synlig Constraint-etikett för att orientera objektet mot ett mål. Skilj från film- och rörelsespårning. |
 | Follow Track | Följ spår | Synlig Constraint-etikett som låser ett objekt till ett filmspår. Skilj från *Track To*, som styr objektets orientering. |
