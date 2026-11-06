@@ -1732,3 +1732,15 @@ rapporterar enbart förväntade facktermer samt konstgjorda längd- och
 V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och väntar
 på manuell import.
 
+Batch 202 granskar trettioett poster för bakningens utdata: sparläge,
+bilddatablock, materialuppdelning, burstrålar, ljusbidrag och målyta.
+Den rättar bland annat *Vald till aktiv* till *Valda till aktiv*, ersätter
+den oidiomatiska utmatningsformuleringen med *Var den bakade kartan ska
+lagras* och behåller *Transmission* som Blenders etablerade shaderterm.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-202-bake-output.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar enbart förväntade Blendertermer samt konstgjorda längd-
+och V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+
