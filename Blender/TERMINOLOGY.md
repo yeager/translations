@@ -299,8 +299,11 @@ Senast uppdaterad: 2026-11-06.
 | joint binding | ledbindning | Spline IK-inställning för leders relativa positioner längs kedjan. |
 | curve mapping | kurvkartläggning | Verktyg som mappar färg-, vektor- eller skalärvärden via en användardefinierad kurva. |
 | curve fill mode | kurvans fyllningsläge | Inställning för hur en 2D-kurva fylls. |
+| curve bevel cross section | tvärsnitt för kurvans avfasningsgeometri | Profilen som gör en kurva till ett rör; kan vara en cirkel, ett separat kurvobjekt eller en profil. |
 | curve path duration | sökvägsvaraktighet | Antal bildrutor som används för att färdas längs en kurvas sökväg. |
-| taper object / taper radius | avsmalningsobjekt / avsmalningsradie | Kurvinställningar som styr profilens bredd längs kurvan. |
+| taper object / taper radius | avsmalningsobjekt / avsmalningsradie | Kurvinställningar som styr profilens bredd längs kurvan. Avsmalningsobjektet fungerar som en skalningskurva, inte endast som en förminskning mot slutet. |
+| Map Taper | Mappa avsmalning | Gör att avsmalningsobjektets ändpunkter följer den genererade, snarare än hela, kurvgeometrin. |
+| Bounds Clamp | Begränsa till meshgränser | Begränsar en kurvdeformering till meshens gränser. |
 | texture space | texturutrymme | Blender-egenskap för automatisk eller manuell texturkoordinering. |
 | twist method | vridningsmetod | Beräkningsmetod för 3D-kurvans vridning. |
 | translation path | förflyttningsbana | Kurvbana som styr ett underordnat objekts rörelse; inte en språklig översättning. |

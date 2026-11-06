@@ -40406,23 +40406,23 @@ msgstr "Geometrins slutfaktor"
 #. :src: bpy.types.Curve.bevel_factor_end
 #, fuzzy
 msgid "Define where along the spline the curve geometry ends (0 for the beginning, 1 for the end)"
-msgstr "Definiera var längs spline-kurvan geometrin slutar (0 för början, 1 för slutet)"
+msgstr "Definiera var längs kurvsplinen geometrin slutar (0 för början, 1 för slutet)"
 
 #. :src: bpy.types.Curve.bevel_factor_mapping_end
 #, fuzzy
 msgid "End Mapping Type"
-msgstr "Slutmappningstyp"
+msgstr "Mappningstyp för slut"
 
 #. :src: bpy.types.Curve.bevel_factor_mapping_end
 #, fuzzy
 msgid "Determine how the geometry end factor is mapped to a spline"
-msgstr "Bestäm hur geometrins slutfaktor ska mappas till en spline"
+msgstr "Bestäm hur geometrins slutfaktor ska mappas till en kurvspline"
 
 #. :src: bpy.types.Curve.bevel_factor_mapping_end:'RESOLUTION'
 #. :src: bpy.types.Curve.bevel_factor_mapping_start:'RESOLUTION'
 #, fuzzy
 msgid "Map the geometry factor to the number of subdivisions of a spline (U resolution)"
-msgstr "Mappa geometrifaktorn till antalet subdivisioner för en spline (U-upplösning)"
+msgstr "Mappa geometrifaktorn till antalet underindelningar i en kurvspline (U-upplösning)"
 
 #. :src: bpy.types.Curve.bevel_factor_mapping_end:'SEGMENTS'
 #. :src: bpy.types.Curve.bevel_factor_mapping_start:'SEGMENTS'
@@ -40434,17 +40434,17 @@ msgstr "Mappa geometrifaktorn till längden på ett segment och till antalet und
 #. :src: bpy.types.Curve.bevel_factor_mapping_start:'SPLINE'
 #, fuzzy
 msgid "Map the geometry factor to the length of a spline"
-msgstr "Mappa geometrifaktorn till längden på en spline"
+msgstr "Mappa geometrifaktorn till längden på en kurvspline"
 
 #. :src: bpy.types.Curve.bevel_factor_mapping_start
 #, fuzzy
 msgid "Start Mapping Type"
-msgstr "Startmappningstyp"
+msgstr "Mappningstyp för start"
 
 #. :src: bpy.types.Curve.bevel_factor_mapping_start
 #, fuzzy
 msgid "Determine how the geometry start factor is mapped to a spline"
-msgstr "Bestäm hur geometrins startfaktor ska mappas till en spline"
+msgstr "Bestäm hur geometrins startfaktor ska mappas till en kurvspline"
 
 #. :src: bpy.types.Curve.bevel_factor_start
 #, fuzzy
@@ -40454,7 +40454,7 @@ msgstr "Geometrins startfaktor"
 #. :src: bpy.types.Curve.bevel_factor_start
 #, fuzzy
 msgid "Define where along the spline the curve geometry starts (0 for the beginning, 1 for the end)"
-msgstr "Definiera var längs spline-kurvan geometrin börjar (0 för början, 1 för slutet)"
+msgstr "Definiera var längs kurvsplinen geometrin börjar (0 för början, 1 för slutet)"
 
 #. :src: bpy.types.Curve.bevel_mode
 #, fuzzy
@@ -40475,12 +40475,12 @@ msgstr "Rund"
 #. :src: bpy.types.Curve.bevel_mode:'ROUND'
 #, fuzzy
 msgid "Use circle for the section of the curve's bevel geometry"
-msgstr "Använd cirkel för sektionen av kurvans avfasningsgeometri"
+msgstr "Använd en cirkel som tvärsnitt för kurvans avfasningsgeometri"
 
 #. :src: bpy.types.Curve.bevel_mode:'OBJECT'
 #, fuzzy
 msgid "Use an object for the section of the curve's bevel geometry segment"
-msgstr "Använd ett objekt för sektionen av kurvans avfasningsgeometrisegment"
+msgstr "Använd ett objekt som tvärsnitt för kurvans avfasningsgeometri"
 
 #. :src: bpy.types.Curve.bevel_mode:'PROFILE'
 #, fuzzy
@@ -40658,12 +40658,12 @@ msgstr "Antalet beräknade punkter i V-riktningen mellan varje par av kontrollpu
 #. :src: bpy.types.MaskLayer.splines
 #, fuzzy
 msgid "Splines"
-msgstr "Splines"
+msgstr "Kurvsplines"
 
 #. :src: bpy.types.Curve.splines
 #, fuzzy
 msgid "Collection of splines in this curve data object"
-msgstr "Samling av splines i detta kurvdataobjekt"
+msgstr "Samling av kurvsplines i detta kurvdataobjekt"
 
 #. :src: bpy.types.Curve.taper_object
 #, fuzzy
@@ -40673,7 +40673,7 @@ msgstr "Avsmalningsobjekt"
 #. :src: bpy.types.Curve.taper_object
 #, fuzzy
 msgid "Curve object name that defines the taper (width)"
-msgstr "Namn på kurvobjekt som definierar avsmalningen (bredden)"
+msgstr "Namnet på kurvobjektet som definierar avsmalningens bredd"
 
 #. :src: bpy.types.Curve.taper_radius_mode
 #, fuzzy
@@ -40683,12 +40683,12 @@ msgstr "Avsmalningsradie"
 #. :src: bpy.types.Curve.taper_radius_mode
 #, fuzzy
 msgid "Determine how the effective radius of the spline point is computed when a taper object is specified"
-msgstr "Bestäm hur den effektiva radien för splinepunkten beräknas när ett avsmalnande objekt anges"
+msgstr "Bestäm hur den effektiva radien för splinepunkten beräknas när ett avsmalningsobjekt har angetts"
 
 #. :src: bpy.types.Curve.taper_radius_mode:'OVERRIDE'
 #, fuzzy
 msgid "Override the radius of the spline point with the taper radius"
-msgstr "Åsidosätt splinepunktens radie med den avsmalnande radien"
+msgstr "Åsidosätt splinepunktens radie med avsmalningsradien"
 
 #. :src: bpy.types.Curve.taper_radius_mode:'MULTIPLY'
 #, fuzzy
@@ -40773,12 +40773,12 @@ msgstr "Justera det aktiva objektets texturutrymme automatiskt när objektet tra
 #. :src: bpy.types.Curve.use_deform_bounds
 #, fuzzy
 msgid "Bounds Clamp"
-msgstr "Bounds-klämma"
+msgstr "Begränsa till meshgränser"
 
 #. :src: bpy.types.Curve.use_deform_bounds
 #, fuzzy
 msgid "Option for curve-deform: Use the mesh bounds to clamp the deformation"
-msgstr "Alternativ för kurvdeformering: använd meshens gränser för att begränsa deformeringen"
+msgstr "Alternativ för kurvdeformering: begränsa deformeringen till meshens gränser"
 
 #. :src: bpy.types.Curve.use_fill_caps
 #: source/blender/nodes/geometry/nodes/node_geo_curve_to_mesh.cc:28
@@ -40794,12 +40794,12 @@ msgstr "Fyll ändarna på avfasade kurvor"
 #. :src: bpy.types.Curve.use_map_taper
 #, fuzzy
 msgid "Map Taper"
-msgstr "Kartlägg avsmalning"
+msgstr "Mappa avsmalning"
 
 #. :src: bpy.types.Curve.use_map_taper
 #, fuzzy
 msgid "Map effect of the taper object to the beveled part of the curve"
-msgstr "Mappa effekten av avsmalningsobjektet till den avfasade delen av kurvan"
+msgstr "Mappa avsmalningsobjektets effekt till den avfasade delen av kurvan"
 
 #. :src: bpy.types.Curve.use_path
 #. :src: bpy.types.ParticleSettings.render_type:'PATH'

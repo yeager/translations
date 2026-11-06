@@ -2642,3 +2642,17 @@ Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
 varning från sammanfogade UI-etiketter. Gitleaks körs före arkivering.
 Filen väntar därefter på manuell import.
 
+Batch 282 granskar 19 strängar för kurvors avfasning, tvärsnitt,
+avsmalningsobjekt och kurvdeformering. Blenders geometrihandbok bekräftar
+att en kurvas avfasning bygger ett rör med ett cirkulärt, objektbaserat eller
+profilbaserat tvärsnitt. Den förklarar också att ett avsmalningsobjekt är en
+skalningskurva längs den genererade geometrin, inte bara en förminskning vid
+slutet. Översättningen använder därför konsekvent *kurvspline*, *tvärsnitt*,
+*avsmalningsobjekt* och *avsmalningsradie*. Terminologilistan har
+kompletterats med kurvans avfasningstvärsnitt, Mappa avsmalning och
+meshgränser. Samtliga granskade poster får sina `fuzzy`-markeringar borttagna
+i deltafilen `blender-ui-sv-reviewed-20261106-batch-282-curve-bevel-and-taper.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
+`svlang` markeringar rapporteras separat. Gitleaks körs före arkivering.
+Filen väntar därefter på manuell import.
+
