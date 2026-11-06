@@ -1655,3 +1655,13 @@ Deltafilen `blender-ui-sv-reviewed-20261106-batch-194-motion-path-display.po`
 passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 `svlang` ger 10/10. Filen är arkiverad och väntar på manuell import.
 
+Batch 195 granskar nio poster för gränssnittsområden och redigerare. Den
+normaliserar Blenders interna *editor space* till *redigerarläge* och återför
+*Movie Clip Editor* till den etablerade termen *klippredigerare*.
+Terminologilistan kompletteras med *editor space → redigerarläge*. Samtliga
+granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-195-editor-areas.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar bara den avsedda sammansättningen *videosekvensredigerare*. Filen
+är arkiverad och väntar på manuell import.
+
