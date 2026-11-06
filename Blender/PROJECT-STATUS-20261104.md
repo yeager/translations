@@ -1351,3 +1351,15 @@ diffkontroll och Gitleaks. `svlang` rapporterar endast falska positiva för
 API-identifierare, understrecksmarkering och den tekniska termen
 *åtgärdsslot*. Filen är arkiverad och väntar på manuell import till Blender
 Translate.
+
+Batch 166 granskar tio strängar i renderings- och bildhanteringsgränssnittet.
+Den rättar sammansättningar som `bilddatablock` och `renderingsmotor`, använder
+*renderingslager* konsekvent samt ersätter otydliga former som
+`visningsportalen` och `animationsområdet` med kontextbundna svenska
+formuleringar. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-166-rendering-ui.po` saknar
+`fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, Hunspell för de tio
+måltexterna, diffkontroll och Gitleaks. `svlang` rapporterar bara falska
+positiva för tekniska sammansättningar och den grammatiskt korrekta bisatsen
+`som ska packas upp`. Filen är arkiverad och väntar på manuell import till
+Blender Translate.
