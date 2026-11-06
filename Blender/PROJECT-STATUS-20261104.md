@@ -2248,3 +2248,15 @@ sina `fuzzy`-markeringar borttagna. Deltafilen
 rapporterar endast facktermer och konstgjorda varningar från sammanfogade
 UI-etiketter. Filen är arkiverad och väntar på manuell import.
 
+Batch 250 granskar 25 strängar för Grease Pencil-anteckningar,
+anteckningslager och lökskalning. Den normaliserar bland annat *bildruta*,
+*anteckningsbildruta*, *anteckningslager*, *lökskalning*, *lökskal*,
+*bildrutenummer* och *linjallager*. Terminologilistan har kompletterats med
+*anteckningsbildruta* och *anteckningslager*. Samtliga granskade poster har
+fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-250-annotation-frames.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast tekniska egennamn, ovanliga sammansättningar och
+konstgjorda varningar från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+

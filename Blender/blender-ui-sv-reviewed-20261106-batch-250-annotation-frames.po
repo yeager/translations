@@ -1,0 +1,157 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.GPencilFrame.frame_number
+#. :src: bpy.types.GreasePencilFrame.frame_number
+#. :src: bpy.types.GRAPH_OT_click_insert.frame
+#. :src: bpy.types.SpeedControlStrip.speed_control:'FRAME_NUMBER'
+#. :src: bpy.types.SpeedControlStrip.speed_frame_number
+msgid "Frame Number"
+msgstr "Bildrutenummer"
+
+#. :src: bpy.types.GPencilFrame.frame_number
+msgid "The frame on which this sketch appears"
+msgstr "Bildrutan där denna skiss visas"
+
+#. :src: bpy.types.GPencilFrame.strokes
+msgid "Freehand curves defining the sketch on this frame"
+msgstr "Frihandskurvor som definierar skissen på denna bildruta"
+
+#. :src: bpy.types.GPencilFrames
+msgid "Annotation Frames"
+msgstr "Anteckningsbildrutor"
+
+#. :src: bpy.types.GPencilFrames
+msgid "Collection of annotation frames"
+msgstr "Samling av anteckningsbildrutor"
+
+#. :src: bpy.types.GPencilInterpolateSettings
+msgid "Grease Pencil Interpolate Settings"
+msgstr "Interpoleringsinställningar för Grease Pencil"
+
+#. :src: bpy.types.GPencilInterpolateSettings.interpolation_curve
+msgid ""
+"Custom curve to control 'sequence' interpolation between Grease Pencil frames"
+msgstr ""
+"Anpassad kurva för att styra \"sekvens\"-interpolering mellan Grease Pencil-"
+"bildrutor"
+
+#. :src: bpy.types.GPencilLayer
+msgid "Annotation Layer"
+msgstr "Anteckningslager"
+
+#. :src: bpy.types.GPencilLayer.active_frame
+#. :src: bpy.types.GREASE_PENCIL_OT_delete_frame.type:'ACTIVE_FRAME'
+#. :src: bpy.types.GREASE_PENCIL_OT_layer_duplicate_object.mode:'ACTIVE'
+msgid "Active Frame"
+msgstr "Aktiv bildruta"
+
+#. :src: bpy.types.GPencilLayer.active_frame
+msgid "Frame currently being displayed for this layer"
+msgstr "Bildrutan som för närvarande visas för detta lager"
+
+#. :src: bpy.types.GPencilLayer.annotation_onion_after_color
+#. :src: bpy.types.GreasePencilv3.after_color
+msgid "Base color for ghosts after the active frame"
+msgstr "Basfärg för lökskal efter den aktiva bildrutan"
+
+#. :src: bpy.types.GPencilLayer.annotation_onion_after_range
+#. :src: bpy.types.GreasePencilv3.ghost_after_range
+#: scripts/startup/bl_ui/properties_data_grease_pencil.py:380
+msgid "Frames After"
+msgstr "Bildrutor efter"
+
+#. :src: bpy.types.GPencilLayer.annotation_onion_before_color
+#. :src: bpy.types.GreasePencilv3.before_color
+msgid "Base color for ghosts before the active frame"
+msgstr "Basfärg för lökskal före den aktiva bildrutan"
+
+#. :src: bpy.types.GPencilLayer.annotation_onion_before_range
+#. :src: bpy.types.GreasePencilv3.ghost_before_range
+#: scripts/startup/bl_ui/properties_data_grease_pencil.py:379
+msgid "Frames Before"
+msgstr "Bildrutor före"
+
+#. :src: bpy.types.GPencilLayer.annotation_onion_use_custom_color
+msgid "Custom Onion Skin Colors"
+msgstr "Anpassade färger för lökskalning"
+
+#. :src: bpy.types.GPencilLayer.annotation_onion_use_custom_color
+msgid "Use custom colors for onion skinning instead of the theme"
+msgstr "Använd anpassade färger för lökskalning i stället för temat"
+
+#. :src: bpy.types.GPencilLayer.annotation_opacity
+msgid "Annotation Layer Opacity"
+msgstr "Anteckningslagrets opacitet"
+
+#. :src: bpy.types.GPencilLayer.frames
+#. :src: bpy.types.GreasePencilLayer.frames
+#. :src: bpy.types.GreasePencilv3.onion_mode:'ABSOLUTE'
+#. :src: bpy.types.Volume.frame_duration
+#. :src: bpy.types.ImageUser.frame_duration
+#. :src: bpy.types.CompositorNodeCryptomatteV2.frame_duration
+#. :src: bpy.types.CompositorNodeImage.frame_duration
+#. :src: bpy.types.MARKER_OT_duplicate.frames
+#. :src: bpy.types.MARKER_OT_move.frames
+#. :src: bpy.types.SEQUENCER_OT_gap_insert.frames
+#. :src: bpy.types.WM_OT_grease_pencil_export_pdf.frame_mode
+#. :src: bpy.types.ParticleEdit.fade_frames
+#: scripts/startup/bl_ui/properties_data_curve.py:267
+#: scripts/startup/bl_ui/properties_data_volume.py:67
+#: scripts/startup/bl_ui/properties_particle.py:904
+#: scripts/startup/bl_ui/space_clip.py:609
+#: source/blender/editors/space_file/file_draw.cc:264
+#: source/blender/editors/space_image/image_buttons.cc:893
+#: source/blender/editors/space_info/info_stats.cc:843
+#: source/blender/modifiers/intern/MOD_grease_pencil_build.cc:779
+msgid "Frames"
+msgstr "Bildrutor"
+
+#. :src: bpy.types.GPencilLayer.frames
+msgid "Sketches for this layer on different frames"
+msgstr "Skisser för detta lager på olika bildrutor"
+
+#. :src: bpy.types.GPencilLayer.is_ruler
+msgid "This is a special ruler layer"
+msgstr "Detta är ett särskilt linjallager"
+
+#. :src: bpy.types.GPencilLayer.lock
+msgid "Protect layer from further editing and/or frame changes"
+msgstr "Skydda lagret från ytterligare redigering och/eller bildruteändringar"
+
+#. :src: bpy.types.GPencilLayer.lock_frame
+#. :src: bpy.types.GreasePencilLayer.lock_frame
+msgid "Lock current frame displayed by layer"
+msgstr "Lås den aktuella bildrutan som visas av lagret"
+
+#. :src: bpy.types.GPencilLayer.thickness
+#. :src: bpy.types.ToolSettings.annotation_thickness
+msgid "Thickness of annotation strokes"
+msgstr "Anteckningsstreckens tjocklek"
+
+#. :src: bpy.types.GPencilLayer.use_annotation_onion_skinning
+msgid "Display annotation onion skins before and after the current frame"
+msgstr "Visa anteckningens lökskal före och efter den aktuella bildrutan"
