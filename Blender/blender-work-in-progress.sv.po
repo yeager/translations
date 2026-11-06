@@ -26959,14 +26959,12 @@ msgstr "Visa världsdatablock"
 
 #. :src: bpy.types.FileBrowserFSMenuEntry
 #. :src: bpy.types.FileSelectParams
-#, fuzzy
 msgid "File Select Parameters"
 msgstr "Filvalsparametrar"
 
 #. :src: bpy.types.FileBrowserFSMenuEntry.is_valid
-#, fuzzy
 msgid "Whether this path is currently reachable"
-msgstr "Om denna sökväg för närvarande är nåbar"
+msgstr "Om den här sökvägen kan nås"
 
 #. :src: bpy.types.FileBrowserFSMenuEntry.use_save
 #. :src: bpy.types.TEXT_OT_resolve_conflict.resolution:'SAVE'
@@ -26978,18 +26976,16 @@ msgid "Save"
 msgstr "Spara"
 
 #. :src: bpy.types.FileBrowserFSMenuEntry.use_save
-#, fuzzy
 msgid "Whether this path is saved in bookmarks, or generated from OS"
-msgstr "Om den här sökvägen sparas i bokmärken eller genereras från OS"
+msgstr "Om den här sökvägen sparas som bokmärke eller genereras av operativsystemet"
 
 #. :src: bpy.types.FileHandler
 msgid "File Handler Type"
 msgstr "Filhanterartyp"
 
 #. :src: bpy.types.FileHandler
-#, fuzzy
 msgid "Extends functionality to operators that manages files, such as adding drag and drop support"
-msgstr "Utökar funktionaliteten för operatörer som hanterar filer, till exempel genom att lägga till stöd för dra och släpp"
+msgstr "Utökar funktionerna hos operatorer som hanterar filer, till exempel genom att lägga till stöd för dra och släpp"
 
 #. :src: bpy.types.FileHandler.bl_export_operator
 #. :src: bpy.types.FileHandler.bl_import_operator
@@ -27005,7 +27001,6 @@ msgid "Operator"
 msgstr "Operator"
 
 #. :src: bpy.types.FileHandler.bl_export_operator
-#, fuzzy
 msgid "Operator that can handle export for files with the extensions given in bl_file_extensions"
 msgstr "Operatör som kan hantera export för filer med de tillägg som anges i bl_file_extensions"
 
@@ -27015,21 +27010,18 @@ msgid "File Extensions"
 msgstr "Filändelser"
 
 #. :src: bpy.types.FileHandler.bl_file_extensions
-#, fuzzy
 msgid ""
 "Formatted string of file extensions supported by the file handler, each extension should start with a \".\" and be separated by \";\".\n"
 "For Example: `\".blend;.ble\"`"
 msgstr ""
-"Formaterad sträng av filändelser som stöds av filhanteraren, varje filändelse ska börja med \".\" och separeras med \";\".\n"
+"Formaterad sträng med filändelser som stöds av filhanteraren; varje filändelse ska börja med \".\" och avgränsas med \";\".\n"
 "Till exempel: `\".blend;.ble\"`"
 
 #. :src: bpy.types.FileHandler.bl_idname
-#, fuzzy
 msgid "If this is set, the file handler gets a custom ID, otherwise it takes the name of the class used to define the file handler (for example, if the class name is \"OBJECT_FH_hello\", and bl_idname is not set by the script, then bl_idname = \"OBJECT_FH_hello\")"
-msgstr "Om detta är inställt får filhanteraren ett anpassat ID, annars tar den namnet på den klass som används för att definiera filhanteraren (t.ex. om klassnamnet är \"OBJECT_FH_hello\" och bl_idname inte är inställt av skriptet, så är bl_idname = \"OBJECT_FH_hello\")"
+msgstr "Om detta anges får filhanteraren ett anpassat ID, annars använder den namnet på klassen som definierar filhanteraren (t.ex. om klassnamnet är \"OBJECT_FH_hello\" och bl_idname inte anges i skriptet, blir bl_idname = \"OBJECT_FH_hello\")"
 
 #. :src: bpy.types.FileHandler.bl_import_operator
-#, fuzzy
 msgid "Operator that can handle import for files with the extensions given in bl_file_extensions"
 msgstr "Operatör som kan hantera import för filer med de tillägg som anges i bl_file_extensions"
 
@@ -27044,7 +27036,6 @@ msgid "Label"
 msgstr "Etikett"
 
 #. :src: bpy.types.FileHandler.bl_label
-#, fuzzy
 msgid "The file handler label"
 msgstr "Etiketten för filhanteraren"
 
@@ -27053,73 +27044,59 @@ msgid "Open images"
 msgstr "Öppna bilder"
 
 #. :src: bpy.types.IO_FH_fbx
-#, fuzzy
 msgid "FBX"
 msgstr "FBX"
 
 #. :src: bpy.types.IO_FH_gltf2
-#, fuzzy
 msgid "glTF 2.0"
 msgstr "glTF 2.0"
 
 #. :src: bpy.types.NODE_FH_image_node
-#, fuzzy
 msgid "Image node"
 msgstr "Bildnod"
 
 #. :src: bpy.types.SEQUENCER_FH_image_strip
-#, fuzzy
 msgid "Image strip"
-msgstr "Bildband"
+msgstr "Bildremsa"
 
 #. :src: bpy.types.SEQUENCER_FH_movie_strip
-#, fuzzy
 msgid "Movie strip"
-msgstr "Filmklipp"
+msgstr "Filmremsa"
 
 #. :src: bpy.types.SEQUENCER_FH_sound_strip
-#, fuzzy
 msgid "Sound strip"
 msgstr "Ljudremsa"
 
 #. :src: bpy.types.VIEW3D_FH_camera_background_image
-#, fuzzy
 msgid "Add camera background image"
 msgstr "Lägg till bakgrundsbild för kameran"
 
 #. :src: bpy.types.VIEW3D_FH_empty_image
-#, fuzzy
 msgid "Add empty image"
 msgstr "Lägg till tom bild"
 
 #. :src: bpy.types.VIEW3D_FH_vdb_volume
-#, fuzzy
 msgid "OpenVDB volume"
 msgstr "OpenVDB-volym"
 
 #. :src: bpy.types.FileSelectEntry
-#, fuzzy
 msgid "File Select Entry"
 msgstr "Filvalspost"
 
 #. :src: bpy.types.FileSelectEntry
-#, fuzzy
 msgid "A file viewable in the File Browser"
 msgstr "En fil som kan visas i filbläddraren"
 
 #. :src: bpy.types.FileSelectEntry.asset_data
-#, fuzzy
 msgid "Asset data, valid if the file represents an asset"
-msgstr "Resursdata, giltiga om filen representerar en resurs"
+msgstr "Resursdata som är giltiga om filen representerar en resurs"
 
 #. :src: bpy.types.FileSelectEntry.preview_icon_id
 #. :src: bpy.types.ImagePreview.icon_id
-#, fuzzy
 msgid "Icon ID"
 msgstr "Ikon-ID"
 
 #. :src: bpy.types.FileSelectEntry.preview_icon_id
-#, fuzzy
 msgid "Unique integer identifying the preview of this file as an icon (zero means invalid)"
 msgstr "Unikt heltal som identifierar förhandsgranskningen av denna fil som en ikon (noll betyder ogiltig)"
 
