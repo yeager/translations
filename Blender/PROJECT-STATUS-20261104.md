@@ -1165,3 +1165,14 @@ Batch 145 ersätter två Batch 144-poster så att de följer termlistans
 Båda deltafilerna är syntax- och språkgranskade, hemlighetsskannade och
 arkiverade för import i Blender Translate; något importresultat finns ännu
 inte.
+
+### Bekräftad import: samlad batch 142--147
+
+Den 6 november 2026 importerades den samlade filen
+`blender-ui-sv-reviewed-20261106-batches-142-147.po` i **Blender UI / UI /
+svenska**. Blender Translate rapporterade **77 bearbetade** strängar: **54
+uppdaterade**, **19 hoppade över** och **4 saknade**. De 19 hoppade över var
+redan identiska på servern. De fyra saknade källsträngarna finns inte längre i
+den aktuella serverkatalogen och räknas därför inte som importerade ändringar.
+Importen bekräftar 54 upstreamuppdateringar; arbetskopians 77 granskade poster
+är fortfarande arkiverade för spårbarhet.
