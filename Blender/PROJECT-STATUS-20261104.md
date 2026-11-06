@@ -1186,3 +1186,12 @@ och Blender-terminologin. Deltafilen
 granskade posterna utan `fuzzy`-markeringar. `msgfmt`, l10n-lint,
 diffkontroll och Gitleaks passerar; svlang- och Hunspell-träffar i hela
 arbetskatalogen gäller sedan tidigare facktermer och orelaterade poster.
+
+Batch 149 granskar 18 animations- och armatursträngar, med två oberoende
+terminologigranskningar. Den rättar bland annat *åtgärdsremsa*,
+*nyckelbildruteanimeringsremsa*, *NLA-justeringsläge*, *rörelsebana*,
+*armaturens redigeringsben*, *bensamling* och *kuvertdeformering*. Den
+felinsatta texten i etiketten *Heads* ersätts med `Huvuden`. Deltafilen
+`blender-ui-sv-reviewed-20261106-149.po` innehåller endast de 18 granskade
+poster som saknar `fuzzy`-markeringar. `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks passerar.
