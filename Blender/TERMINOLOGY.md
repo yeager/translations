@@ -203,6 +203,8 @@ Senast uppdaterad: 2026-11-06.
 | highlight range | markeringsintervall | Egenskap som avgränsar vilka rutnätsvärden som markeras visuellt. Använd inte den handlingsinriktade formen *Markera intervall* som fältetikett. |
 | Color Gridlines | färglägg rutnätslinjer | Växling som färgsätter Mantaflow-rutnätets linjer utifrån ett valt simuleringsfält. |
 | heat grid / smoke heat grid | värmerutnät / rökens värmerutnät | Mantaflow-datafält för temperaturdata i en gasdomän. Den possessiva formen gör relationen till röken tydlig utan svårläst sammansättning. |
+| particle level set | partikelnivåmängd | Nivåmängd som härleds från vätskepartiklar för Mantaflows meshyta. Använd den matematiskt precisa termen, inte den förkortade och missvisande *partikelnivå*. |
+| mesh generator / mesh scale | meshgenerator / meshskala | Mantaflow-inställningar som väljer metod respektive upplösningsfaktor för den genererade meshen. Skriv sammansättningarna utan bindestreck. |
 | secondary particles | sekundära partiklar | Skum-, spray- och bubbelpartiklar som härleds från vätskesimuleringen. |
 | byte color | bytefärg | 8-bitars färgattribut i geometri- och nodkontext. |
 | byte color attribute | bytefärgsattribut | Geometriattribut som lagrar RGBA-färg med 8 bitar per kanal. |
