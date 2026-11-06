@@ -232,6 +232,10 @@ Senast uppdaterad: 2026-11-06.
 | Fillet Curve | Avrunda kurva | Kurvnod som skapar cirkelbågar vid hörn; *filé* är fel betydelse i svensk UI-text. |
 | mesh vertex / vertex | mesh-hörnpunkt / hörnpunkt | Använd *hörnpunkt* i meshgeometri. Behåll *mesh* när Blender-datatypen behöver anges. |
 | speed vectors | hastighetsvektorer | Cachelagrade hastigheter för meshens hörnpunkter, bland annat för rörelseoskärpa. |
+| MAC Grid | MAC-rutnät | Marker-and-cell-rutnätet för Mantaflows vektor- och hastighetsdata. Behåll akronymen MAC. |
+| fluid velocity / guide velocity | vätskehastighet / styrhastighet | Fält som visar vätskedomänens respektive styrningsobjektens hastigheter. Skriv sammansatt i fältetiketter. |
+| vector magnitude | belopp | Vektorns längd i Mantaflows visningsinställning. Använd den svenska matematiktermen *belopp*, inte direktlånet *magnitud*. |
+| viscosity base | viskositetsbas | Basvärde som i Mantaflow multipliceras med tio upphöjt till den negativa viskositetsexponenten. |
 | vertex neighbors / face group boundaries | hörnpunktsgrannar / ytgruppsgränser | Noder som hämtar topologiska grannar respektive kanter mellan ytgrupper. Sammansättningarna är avsiktliga. |
 | Geometry Proximity | Geometrisk närhet | Nod som beräknar närmaste position på en målgeometri. |
 | gizmo | gizmo | Etablerat Blender-UI-namn. Skriv sammansatt: *transformationsgizmo*. |

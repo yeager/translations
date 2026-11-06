@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-431.po`
-med 1 926 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-432.po`
+med 1 947 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3528,5 +3528,12 @@ onödiga engelska *mappa* med *färgkartlägga*, använder konsekvent
 *fraktionella hinder* och rättar *skärning* till *skiva* i volymvisningens
 kontext. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-431-fluid-display-and-features.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 432 granskar 21 Mantaflow-poster för hastighets- och vektorfältsvisning,
+MAC-rutnät, rörelseoskärpa, viskositet och vorticitet. Den etablerar *belopp*
+för vektorstorlek, *vätskehastighet* och *styrhastighet* för de olika
+hastighetsfälten samt rättar viskositetsbasens potensuttryck. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-432-fluid-vectors-and-viscosity.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
