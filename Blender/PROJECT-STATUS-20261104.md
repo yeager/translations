@@ -2069,3 +2069,14 @@ rapporterar endast etablerade facktermer samt konstgjorda längd- och
 ordföljdsvarningar från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 232 granskar 25 poster för Dynamic Paint-duken och dess ytlager. Den
+rättar bland annat *dukinställningar*, *målningsyta*, *penselsamling*,
+*radieskala*, *färgtorkning*, *heltäckande radie*, simuleringsbildrutorna
+och utdatafälten. Terminologilistan kompletteras med termer för dukens
+inställningar, målningsytor och våtkartor. Samtliga granskade poster har fått
+sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-232-dynamic-paint-canvas.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast etablerade facktermer och en konstgjord längdvarning från
+sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell import.
+

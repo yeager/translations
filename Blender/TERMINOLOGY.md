@@ -117,6 +117,9 @@ Senast uppdaterad: 2026-11-06.
 | Dynamic Paint canvas surface | Dynamic Paint-dukyta | En simulerad yta som tar emot eller visar Dynamic Paint. I plural: *Dynamic Paint-dukytor*. |
 | Dynamic Paint canvas normal | duknormal | Normalriktningen för en Dynamic Paint-dukyta vid projektion av en pensel. |
 | Dynamic Paint brush normal | penselnormal | Normalriktningen för Dynamic Paint-penselns yta vid projektion. |
+| Dynamic Paint canvas settings | dukinställningar | Inställningar för en Dynamic Paint-duk, som kan innehålla flera ytlager. |
+| Dynamic Paint paint surface | målningsyta | Dynamic Paint-ytlager av typen Paint; inte uppmaningen *måla ytan*. |
+| wetmap | våtkarta | Svartvit utdata som visualiserar färgens våthet på en Dynamic Paint-dukyta. |
 | solid radius | heltäckande radie | Radien inom vilken Dynamic Paint-färgen är heltäckande. |
 | smooth radius | utjämningsradie | Den extra radien utanför den heltäckande radien som skapar ett jämnt avtagande. |
 | smudge | smeta ut | Dynamic Paint-effekt som drar ut befintlig färg när penseln rör sig. |
