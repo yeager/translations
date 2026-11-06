@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-355.po`
-med 844 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-356.po`
+med 847 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -293,6 +293,12 @@ klippning och vitnivå. *Klipp* begränsar här kurvvyn till en angiven gräns,
 medan *Vitnivå* anger färgen som vitt mappas till för RGB-kurvor. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-355-curve-mapping-clip-and-white-level.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 356 granskar tre poster för kurvpunkter. Den förenar den tekniska
+sammansättningen *kurvkontrollpunkt* med den kortare formen *kurvpunkt* och
+gör indexhjälptexten naturlig svenska. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-356-curve-points.po` är lokalt
+kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
 ## Projektets aktualitet
 
