@@ -1210,3 +1210,11 @@ fysikterminologisk peer review. Den normaliserar *mesh*, *hörnpunkt*,
 *mesh* till nät. Deltafilen `blender-ui-sv-reviewed-20261106-151.po` saknar
 `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, diffkontroll och
 Gitleaks.
+
+Batch 152 granskar tolv B-Bone- och benhierarkiposter med två oberoende
+terminologigranskningar. Den följer projektets former *B-Bone-segment*,
+*Skala in*, *underordnat ben*, *kuvertdeformering* och
+*kuvertdeformeringsvikt*, samt gör X- och Z-ledsetiketterna begripliga i UI:t.
+Deltafilen `blender-ui-sv-reviewed-20261106-152.po` saknar
+`fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks.
