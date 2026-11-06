@@ -30466,7 +30466,7 @@ msgstr "Bitdjup för vätskepartiklar och rutnät (lägre bitvärden minskar fil
 #. :src: bpy.types.FluidDomainSettings.particle_band_width
 #, fuzzy
 msgid "Particle (narrow) band width (higher value results in thicker band and more particles)"
-msgstr "Partikel (smal) bandbredd (högre värde ger tjockare band och fler partiklar)"
+msgstr "Bredd för partiklarnas smala band (högre värde ger tjockare band och fler partiklar)"
 
 #. :src: bpy.types.FluidDomainSettings.particle_max
 #, fuzzy
@@ -30962,7 +30962,7 @@ msgstr "Adaptiva tidssteg"
 #. :src: bpy.types.FluidDomainSettings.use_adaptive_timesteps
 #, fuzzy
 msgid "Automatically decide when to perform multiple simulation steps per frame"
-msgstr "Automatiskt beslut om när flera simuleringssteg ska utföras per bildruta"
+msgstr "Avgör automatiskt när flera simuleringssteg ska utföras per bildruta"
 
 #. :src: bpy.types.FluidDomainSettings.use_bubble_particles
 #, fuzzy
@@ -30982,7 +30982,7 @@ msgstr "Aktivera kollisioner med bakre domängräns"
 #. :src: bpy.types.FluidDomainSettings.use_collision_border_bottom
 #, fuzzy
 msgid "Enable collisions with bottom domain border"
-msgstr "Möjliggör kollisioner med nedre domängränsen"
+msgstr "Aktivera kollisioner med nedre domängränsen"
 
 #. :src: bpy.types.FluidDomainSettings.use_collision_border_front
 msgid "Enable collisions with front domain border"
@@ -30991,12 +30991,12 @@ msgstr "Aktivera kollisioner med främre domängräns"
 #. :src: bpy.types.FluidDomainSettings.use_collision_border_left
 #, fuzzy
 msgid "Enable collisions with left domain border"
-msgstr "Möjliggör kollisioner med vänster domängräns"
+msgstr "Aktivera kollisioner med vänster domängräns"
 
 #. :src: bpy.types.FluidDomainSettings.use_collision_border_right
 #, fuzzy
 msgid "Enable collisions with right domain border"
-msgstr "Möjliggör kollisioner med höger domängräns"
+msgstr "Aktivera kollisioner med höger domängräns"
 
 #. :src: bpy.types.FluidDomainSettings.use_collision_border_top
 #. :src: bpy.types.TextCurve.align_y:'TOP'
@@ -31021,12 +31021,12 @@ msgstr "Aktivera kollisioner med övre domängräns"
 #. :src: bpy.types.PHYSICS_PT_viewport_display_color
 #, fuzzy
 msgid "Grid Display"
-msgstr "Visning av rutnät"
+msgstr "Rutnätsvisning"
 
 #. :src: bpy.types.FluidDomainSettings.use_color_ramp
 #, fuzzy
 msgid "Render a simulation field while mapping its voxels values to the colors of a ramp or using a predefined color code"
-msgstr "Rendera ett simuleringsfält samtidigt som voxelvärdena mappas till färgerna i en ramp eller med hjälp av en fördefinierad färgkod"
+msgstr "Rendera ett simuleringsfält genom att mappa voxelvärdena till färgerna i en färggradient eller använda en fördefinierad färgkod"
 
 #. :src: bpy.types.FluidDomainSettings.use_diffusion
 #, fuzzy
@@ -31055,7 +31055,7 @@ msgstr "Logaritmisk upplösning"
 #. :src: bpy.types.FluidDomainSettings.use_dissolve_smoke_log
 #, fuzzy
 msgid "Dissolve smoke in a logarithmic fashion. Dissolves quickly at first, but lingers longer."
-msgstr "Löser upp rök på ett logaritmiskt sätt. Löser upp sig snabbt först, men dröjer kvar längre."
+msgstr "Lös upp röken logaritmiskt. Den löses först upp snabbt men dröjer kvar längre."
 
 #. :src: bpy.types.FluidDomainSettings.use_flip_particles
 #, fuzzy
@@ -31131,7 +31131,7 @@ msgstr "Hastighetsvektorer"
 #. :src: bpy.types.FluidDomainSettings.use_speed_vectors
 #, fuzzy
 msgid "Caches velocities of mesh vertices. These will be used (automatically) when rendering with motion blur enabled."
-msgstr "Cachar hastigheter för mesh-knutpunkter. Dessa kommer att användas (automatiskt) vid rendering med rörelseoskärpa aktiverad."
+msgstr "Lagrar hastigheter för mesh-hörnpunkter i cachen. De används automatiskt vid rendering med aktiverad rörelseoskärpa."
 
 #. :src: bpy.types.FluidDomainSettings.use_spray_particles
 #: scripts/startup/bl_ui/properties_physics_fluid.py:946
@@ -31162,7 +31162,7 @@ msgstr "Använd viskositet"
 #. :src: bpy.types.FluidDomainSettings.use_viscosity
 #, fuzzy
 msgid "Simulate fluids with high viscosity using a special solver"
-msgstr "Simulera vätskor med hög viskositet med hjälp av en speciell solver"
+msgstr "Simulera vätskor med hög viskositet med en särskild lösare"
 
 #. :src: bpy.types.FluidDomainSettings.vector_display_type
 #. :src: bpy.types.Armature.display_type
@@ -31299,7 +31299,7 @@ msgstr "Magnitud"
 #. :src: bpy.types.FluidDomainSettings.vector_scale_with_magnitude
 #, fuzzy
 msgid "Scale vectors with their magnitudes"
-msgstr "Skala vektorer med deras magnituder"
+msgstr "Skala vektorer efter deras belopp"
 
 #. :src: bpy.types.FluidDomainSettings.vector_show_mac_x
 msgid "Show X-component of MAC Grid"
