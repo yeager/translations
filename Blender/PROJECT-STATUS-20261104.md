@@ -2629,3 +2629,16 @@ Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
 sammanfogade UI-etiketter. Gitleaks körs före arkivering. Filen väntar
 därefter på manuell import.
 
+Batch 281 granskar 10 strängar för kamerans kompositionsguider,
+passepartout och säkra områden. Blenders kameradokumentation bekräftar att
+säkra områden är hjälplinjer för tv-sändning och olika bildförhållanden.
+Översättningen använder därför *säkra områden för tv-titel och handling* och
+*säkra områden för mittbeskärning*. Terminologilistan har kompletterats med
+de termerna samt *filmruta*. Samtliga granskade poster får sina
+`fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-281-camera-guides-and-safe-areas.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
+`svlang` markerar endast avsiktliga sammansättningar och en konstgjord
+varning från sammanfogade UI-etiketter. Gitleaks körs före arkivering.
+Filen väntar därefter på manuell import.
+
