@@ -2492,3 +2492,14 @@ poster får sina `fuzzy`-markeringar borttagna i deltafilen
 Filen kontrolleras med `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
 Gitleaks före arkivering. Filen väntar därefter på manuell import.
 
+Batch 270 granskar 14 strängar för penselns elastiska deformering och
+avtagande. Den rättar de missvisande verktygsnamnen *Tvåskaligt gripdon* och
+*Grepp i tre skalor* till *Flytta i två skalor* respektive *Flytta i tre
+skalor*. Den normaliserar dessutom *deformationsmål*, *avtagandeform*,
+*fyllningströskel* och flera geometriska hjälprader. Terminologilistan har
+kompletterats med de återkommande inställningstermerna. Samtliga granskade
+poster får sina `fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-270-elastic-deform-and-falloff.po`.
+Filen kontrolleras med `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
+Gitleaks före arkivering. Filen väntar därefter på manuell import.
+

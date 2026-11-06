@@ -427,6 +427,9 @@ Senast uppdaterad: 2026-11-06.
 | propagation steps | spridningssteg | Utökar automaskeringens mjuka gradient stegvis från en mesh- eller ansiktsgräns. |
 | falloff | avtagande | Använd i förklarande Blender-text. Behåll engelska namn när de är formella produkt- eller API-namn. |
 | brush spacing | penselavstånd | Avståndet mellan penselavtryck; UI-värdet *Space* kan i relevant panel översättas *Avstånd*. |
+| deformation target | deformationsmål | Väljer om en pensel deformerar geometri direkt eller tygsimuleringens begränsningar. |
+| falloff shape | avtagandeform | Väljer om penselns avtagande är projicerat eller sfäriskt. |
+| Bi-Scale Grab / Tri-Scale Grab | Flytta i två skalor / Flytta i tre skalor | Elastisk deformeringsmetod för penseln; undvik de felaktiga formerna *gripdon* och *grepp*. |
 | brush tip | penselspets | Penselns form och riktning vid målning eller skulptering. |
 | mask texture | masktextur | Textur som begränsar en pensels påverkan. |
 | texture overlay | texturöverlägg | Visas ovanpå arbetsytan vid målning. |
