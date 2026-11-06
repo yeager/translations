@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-353.po`
-med 840 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-354.po`
+med 841 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -279,6 +279,13 @@ handbok skiljer Y-skalning längs kurvans längd från X- och Z-skalning längs
 dess normaler. Därför används *Y-skalningsläge*, *Benets ursprungliga skala*,
 *Invers skala*, *Volymbevarande* och *Anpassa till kurva*. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-353-spline-ik-scale-modes.po` är
+lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 354 granskar Transformationscachebegränsning. Den hämtar ett objekts
+transformationsdata från en extern cachefil, exempelvis ett Alembic-arkiv;
+den svenska sammansättningen är därför korrekt och har förts in i
+terminologilistan. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-354-transform-cache-constraint.po` är
 lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
 ## Projektets aktualitet

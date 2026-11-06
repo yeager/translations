@@ -17,6 +17,7 @@ Senast uppdaterad: 2026-11-06.
 | remote asset library | fjärranslutet resursbibliotek | Skriv ut relationen i löpande text; undvik *fjärrresursbibliotek*, som blir svårläst med tre r. |
 | remote assets | fjärranslutna resurser | Nätåtkomliga resurser i Asset Browser och dess filter. Undvik *fjärrresurser*, som får tre r i följd. |
 | cache directory | cachekatalog | Etablerad teknisk sammansättning i Blender. Skriv ihop i UI-etiketter och statusmeddelanden: *diskcachekatalog*, *standardcachekatalog*. |
+| Transform Cache Constraint | transformationscachebegränsning | Begränsning som läser ett objekts transformationsdata från en extern cachefil, exempelvis ett Alembic-arkiv. |
 | longitude / latitude (camera projection) | längdgrad / breddgrad | Vinklar i kamerans cylindriska och ekvirektangulära projektioner. |
 | fisheye lens | fiskögeobjektiv | Kameraprojektion med extremt brett synfält; använd sammansättningen även för fiskögepolynom. |
 | sensor fit | sensoranpassning | Anpassar kamerans bild och synfältsvinkel efter bildsensorns bredd eller höjd. |
