@@ -1764,3 +1764,14 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 `svlang` ger 10/10 och rapporterar enbart avsedda Blendertermer. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 205 granskar tjugofem poster för B-Bones: kurvhandtag, in- och
+utgående axlar, Bézierhandtag och beräkning från viloposition. Den
+normaliserar bland annat *Bézier-handtag* till *Bézierhandtag* och rättar
+*viloposen* till projektspecifika *vilopositionen*. Samtliga granskade
+poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-205-bbone-handles.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar enbart förväntade Blendertermer samt en konstgjord längdvarning
+från sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell
+import.
+
