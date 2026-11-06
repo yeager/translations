@@ -197,6 +197,8 @@ Senast uppdaterad: 2026-11-06.
 | cache data format | filformat för cachelagring | Mantaflow-inställning för hur volym-, yt-, brus- eller partikeldata lagras. Bevara etablerade formatnamn som *Uni Cache* och *OpenVDB*. |
 | Replay (fluid cache type) | uppspelning | Cachetyp som bakar simuleringen medan den spelas upp i visningsområdet. Översätt inte som den handlingsinriktade UI-kommandosträngen *Spela upp igen*. |
 | Modular (fluid cache type) | modulär | Cachetyp vars simuleringssteg bakas separat; skild från cachetypen *All*, som bakar de valda inställningarna i ett steg. |
+| flame grid / smoke flame grid | lågrutnät / rök- och lågrutnät | Mantaflow-datafält för den simulerade lågans respektive rökens och lågans värden. Använd inte direktlånet *Flame Grid* eller den felaktiga särskrivningen *rök flamma galler*. |
+| FLIP ratio | FLIP-förhållande | Förhållandet mellan PIC- och FLIP-metoden i vätskesimuleringen. Behåll de tekniska akronymerna PIC och FLIP. |
 | secondary particles | sekundära partiklar | Skum-, spray- och bubbelpartiklar som härleds från vätskesimuleringen. |
 | byte color | bytefärg | 8-bitars färgattribut i geometri- och nodkontext. |
 | byte color attribute | bytefärgsattribut | Geometriattribut som lagrar RGBA-färg med 8 bitar per kanal. |
