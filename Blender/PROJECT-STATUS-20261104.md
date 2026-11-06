@@ -1274,3 +1274,12 @@ etablerade term *mesh* i samlingstyper. Deltafilen
 endast de granskade posterna utan `fuzzy`-markeringar och passerar `msgfmt`,
 l10n-lint och diffkontroll. Den är arkiverad men ännu inte verifierat
 importerad till Blender Translate.
+
+Batch 159 granskar 18 poster för Action-systemet, bakning och begränsningar
+med tre kontextspecifika genomgångar. Den normaliserar *åtgärdsslot*,
+*nyckelbildruta*, *passfilter*, *ägarutrymme*, *linjestil* och flera
+transformations- och bakningsbeskrivningar. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-159-animation-render-constraints.po`
+innehåller endast de granskade posterna utan `fuzzy`-markeringar och passerar
+`msgfmt`, l10n-lint och diffkontroll. Den är arkiverad men ännu inte
+verifierat importerad till Blender Translate.
