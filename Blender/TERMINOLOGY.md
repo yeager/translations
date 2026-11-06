@@ -107,6 +107,7 @@ Senast uppdaterad: 2026-11-06.
 | parenting | föräldrarelation / överordnad relation | Beskriver relationen mellan objekt eller ben. Använd *föräldrarelation* i förklarande dokumentation; följ den exakta UI-kontexten för menyåtgärder som *Rensa överordnad*. |
 | rest pose | viloposition | Använd i förklarande armaturtext. Bevara RST-termmål som `<rest pose>`. |
 | constraint | begränsning | Blender-funktionen som styr eller begränsar ett objekts eller bens transformation. I sammansättningar: *rotationsbegränsning*, *skalbegränsning*. |
+| Maintain Volume Constraint | volymbevarande begränsning | Begränsning som kompenserar skalning längs de två icke-fria axlarna för att bevara objektets eller benets volym. Använd *fri axel*, *icke-fria axlar* och *viloposition*. |
 | Copy Location / Copy Location Constraint | Kopiera position / Kopiera position-begränsning | Constraint som kopierar ett måls position. Använd *position*, inte den vardagliga och i 3D-kontexten tvetydiga formen *plats*. |
 | Copy Rotation / Copy Rotation Constraint | Kopiera rotation / Kopiera rotation-begränsning | Constraint som kopierar ett måls rotation. Behåll *Euler* och axelordningen (`XYZ`, `XZY` osv.) i de tekniska rotationslägena. |
 | Copy Scale / Copy Scale Constraint | Kopiera skala / Kopiera skala-begränsning | Constraint som kopierar ett måls skala. *Potens*, *additiv* och *Gör enhetlig* avser respektive exponentiering, additionsläge och jämn omfördelning av volymändring. |
