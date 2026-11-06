@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-323.po`
-med 518 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-324.po`
+med 527 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -80,6 +80,18 @@ Batch 322 granskar åtta poster för Spline IK:s kurvradie, jämna fördelning o
 ursprungliga skala. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-322-spline-ik-curve-scale.po` är lokalt
 kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 323 granskar fyra grundposter för Stretch To-begränsningen och
+normaliserar typetiketten till *Sträck mot-begränsning*. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-323-stretch-to-basics.po` är lokalt
+kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 324 granskar nio poster för Stretch To-begränsningens axelordning,
+svängning, vilolängd och volymbevarande. Den använder *dämpad spårning* i
+stället för det engelska UI-namnet där texten beskriver funktionen. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-324-stretch-to-axis-and-rest-length.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender
+Translate.
 
 ## Projektets aktualitet
 
