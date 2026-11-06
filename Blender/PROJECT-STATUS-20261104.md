@@ -1828,3 +1828,15 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 och konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter.
 Filen är arkiverad och väntar på manuell import.
 
+Batch 211 granskar trettio Grease Pencil-poster för förenkling,
+indataprover, fyllningsgränser, streckkollision, UV och suddgummi. Den
+normaliserar bland annat *Indataprover*, *skärmrymd* och *vyport* samt
+ersätter den engelska etiketten *Occlude Eraser* med den funktionsbeskrivande
+formen *Endast synliga streck*. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-211-grease-pencil-brush-controls.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast etablerade Blender- och facktermer samt
+konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen är
+arkiverad och väntar på manuell import.
+
