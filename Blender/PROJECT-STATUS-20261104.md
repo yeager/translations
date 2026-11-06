@@ -2172,3 +2172,14 @@ rapporterar endast sammansatta Blender-termer och en konstgjord
 ordföljdsvarning från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 243 granskar 14 resurs- och importsträngar i filbläddraren. Den
+normaliserar *resurskatalog*, *resursmetadata*, *resursvalsparametrar*,
+*etikettsfilter*, Blender-ID-typer och import av länkade eller kopierade
+datablock. Samtliga granskade poster har fått sina `fuzzy`-markeringar
+borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-243-file-browser-assets.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast sammansatta Blender-termer och konstgjorda
+ordföljdsvarningar från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+

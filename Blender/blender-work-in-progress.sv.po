@@ -28853,17 +28853,17 @@ msgstr "Filändelsefilter"
 #. :src: bpy.types.FileSelectParams.filter_glob
 #, fuzzy
 msgid "UNIX shell-like filename patterns matching, supports wildcards ('*') and list of patterns separated by ';'"
-msgstr "UNIX shell-liknande matchning av filnamnsmönster, stödjer jokertecken ('*') och en lista med mönster åtskilda av ';'"
+msgstr "Matchning av Unix-skalliknande filnamnsmönster med stöd för jokertecknet ('*') och en lista med mönster åtskilda av ';'"
 
 #. :src: bpy.types.FileSelectParams.filter_id
 #, fuzzy
 msgid "Filter ID Types"
-msgstr "Filter-ID-typer"
+msgstr "Filtrera ID-typer"
 
 #. :src: bpy.types.FileSelectParams.filter_search
 #, fuzzy
 msgid "Name or Tag Filter"
-msgstr "Namn- eller taggfilter"
+msgstr "Namn- eller etikettsfilter"
 
 #. :src: bpy.types.FileSelectParams.filter_search
 msgid "Filter by name or tag, supports '*' wildcard"
@@ -29027,7 +29027,7 @@ msgstr "Sortera filer efter storlek"
 #. :src: bpy.types.TEXT_OT_open.sort_method:'ASSET_CATALOG'
 #, fuzzy
 msgid "Asset Catalog"
-msgstr "Tillgångskatalog"
+msgstr "Resurskatalog"
 
 #. :src: bpy.types.FileSelectParams.sort_method:'ASSET_CATALOG'
 #. :src: bpy.types.CLIP_OT_open.sort_method:'ASSET_CATALOG'
@@ -29039,7 +29039,7 @@ msgstr "Tillgångskatalog"
 #. :src: bpy.types.TEXT_OT_open.sort_method:'ASSET_CATALOG'
 #, fuzzy
 msgid "Sort the asset list so that assets in the same catalog are kept together. Within a single catalog, assets are ordered by name. The catalogs are in order of the flattened catalog hierarchy."
-msgstr "Sortera tillgångslistan så att tillgångar i samma katalog hålls samman. Inom en och samma katalog sorteras tillgångarna efter namn. Katalogerna är ordnade enligt den utplattade kataloghierarkin."
+msgstr "Sortera resurslistan så att resurser i samma katalog hålls samman. Inom en och samma katalog sorteras resurserna efter namn. Katalogerna är ordnade enligt den plattade kataloghierarkin."
 
 #. :src: bpy.types.FileSelectParams.title
 #. :src: bpy.types.ThemeSpaceGeneric.title
@@ -29062,12 +29062,12 @@ msgstr "Aktivera filtrering av filer"
 
 #. :src: bpy.types.FileSelectParams.use_filter_asset_only
 msgid "Only Assets"
-msgstr "Endast tillgångar"
+msgstr "Endast resurser"
 
 #. :src: bpy.types.FileSelectParams.use_filter_asset_only
 #, fuzzy
 msgid "Hide .blend files items that are not data-blocks with asset metadata"
-msgstr "Dölj objekt i .blend-filer som inte är datablock med tillgångsmetadata"
+msgstr "Dölj poster i .blend-filer som inte är datablock med resursmetadata"
 
 #. :src: bpy.types.FileSelectParams.use_filter_backup
 msgid "Filter Blender Backup Files"
@@ -29150,7 +29150,7 @@ msgstr "Filtrera Blender-ID:n"
 #. :src: bpy.types.FileSelectParams.use_filter_blendid
 #, fuzzy
 msgid "Show .blend files items (objects, materials, etc.)"
-msgstr "Visa objekt i .blend-filer (objekt, material, etc.)"
+msgstr "Visa poster i .blend-filer (objekt, material och så vidare)"
 
 #. :src: bpy.types.FileSelectParams.use_filter_folder
 msgid "Filter Folder"
@@ -29235,7 +29235,7 @@ msgstr "Sortera föremål fallande, från högsta värde till lägsta"
 #. :src: bpy.types.FileAssetSelectParams
 #, fuzzy
 msgid "Asset Select Parameters"
-msgstr "Parametrar för resursval"
+msgstr "Resursvalsparametrar"
 
 #. :src: bpy.types.FileAssetSelectParams
 msgid "Settings for the file selection in Asset Browser mode"
@@ -29259,7 +29259,7 @@ msgstr "Importmetod"
 #. :src: bpy.types.FileAssetSelectParams.import_method
 #, fuzzy
 msgid "Determine how the asset will be imported"
-msgstr "Bestäm hur tillgången ska importeras"
+msgstr "Bestäm hur resursen importeras"
 
 #. :src: bpy.types.FileAssetSelectParams.import_method:'FOLLOW_PREFS'
 msgid "Follow Preferences"
@@ -29283,7 +29283,7 @@ msgstr "Länka"
 #. :src: bpy.types.UserAssetLibrary.import_method:'LINK'
 #, fuzzy
 msgid "Import the assets as linked data-block"
-msgstr "Importera tillgångarna som länkade datablock"
+msgstr "Importera resurserna som länkade datablock"
 
 #. :src: bpy.types.FileAssetSelectParams.import_method:'APPEND'
 #. :src: bpy.types.SEQUENCER_OT_strip_modifier_copy.type:'APPEND'
@@ -29295,7 +29295,7 @@ msgstr "Lägg till"
 #. :src: bpy.types.UserAssetLibrary.import_method:'APPEND'
 #, fuzzy
 msgid "Import the assets as copied data-block, with no link to the original asset data-block"
-msgstr "Importera tillgångarna som kopierade datablock, utan länk till det ursprungliga datablocket för tillgången"
+msgstr "Importera resurserna som kopierade datablock, utan länk till resursens ursprungliga datablock"
 
 #. :src: bpy.types.FileAssetSelectParams.import_method:'APPEND_REUSE'
 #. :src: bpy.types.UserAssetLibrary.import_method:'APPEND_REUSE'
@@ -29305,7 +29305,7 @@ msgstr "Lägg till (återanvänd data)"
 #. :src: bpy.types.FileAssetSelectParams.import_method:'APPEND_REUSE'
 #, fuzzy
 msgid "Import the assets as copied data-block while avoiding multiple copies of nested, typically heavy data. For example the textures of a material asset, or the mesh of an object asset, don't have to be copied every time this asset is imported. The instances of the asset share the data instead"
-msgstr "Importera tillgångarna som kopierade datablock samtidigt som du undviker flera kopior av kapslade, vanligtvis tunga data. Till exempel behöver texturerna i en materialtillgång eller mesh i en objekttillgång inte kopieras varje gång tillgången importeras. Instanserna av tillgången delar data i stället"
+msgstr "Importera resurserna som kopierade datablock samtidigt som du undviker flera kopior av kapslade, vanligtvis tunga data. Texturerna i en materialresurs eller meshet i en objektresurs behöver till exempel inte kopieras varje gång resursen importeras. I stället delar resursernas instanser data"
 
 #. :src: bpy.types.FileAssetSelectParams.instance_collections_on_append
 msgid "Instance Collections on Appending"
