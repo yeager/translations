@@ -1616,3 +1616,12 @@ fått sina `fuzzy`-markeringar borttagna. Deltafilen
 rapporterar bara väntade produkt- och kodnamn samt en falsk V2-varning från
 sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell import.
 
+Batch 191 granskar åtta poster för den aktiva åtgärden och blandning med
+NLA-stapeln. Den bekräftar den projektspecifika terminologin *åtgärd*,
+*blandning av åtgärd*, *NLA-stapel* och *kvaternionmatematik*. Samtliga
+granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-191-animation-blending.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar bara en falsk V2-varning när korta UI-etiketter sammanfogas till
+löptext. Filen är arkiverad och väntar på manuell import.
+
