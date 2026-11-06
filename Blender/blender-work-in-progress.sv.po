@@ -951,7 +951,7 @@ msgstr "Animationskanalbehållare"
 #. :src: bpy.types.ActionChannelbag
 #, fuzzy
 msgid "Collection of animation channels, typically associated with an action slot"
-msgstr "Samling av animationskanaler, vanligtvis kopplade till en åtgärdsplats"
+msgstr "Samling av animationskanaler, vanligtvis kopplade till en åtgärdsslot"
 
 #. :src: bpy.types.ActionChannelbag.fcurves
 #. :src: bpy.types.ActionChannelbagFCurves
@@ -990,7 +990,7 @@ msgstr "Plats"
 #. :src: bpy.types.ActionChannelbag.slot
 #, fuzzy
 msgid "The Slot that the Channelbag's animation data is for"
-msgstr "Åtgärdsplatsen som behållarens animationsdata gäller"
+msgstr "Åtgärdsslotten som behållarens animationsdata hör till"
 
 #. :src: bpy.types.ActionChannelbagFCurves
 #, fuzzy
@@ -1005,12 +1005,12 @@ msgstr "Samling av F-kurvgrupper"
 #. :src: bpy.types.ActionChannelbags
 #, fuzzy
 msgid "Animation Channels for Slots"
-msgstr "Animationskanaler för åtgärdsplatser"
+msgstr "Animationskanaler för åtgärdsslotar"
 
 #. :src: bpy.types.ActionChannelbags
 #, fuzzy
 msgid "For each action slot, a list of animation channels that are meant for that slot"
-msgstr "För varje åtgärdsplats: en lista över animationskanaler som är avsedda för den platsen"
+msgstr "För varje åtgärdsslot: en lista över animationskanaler som är avsedda för den aktuella åtgärdsslotten"
 
 #. :src: bpy.types.ActionFCurves
 #, fuzzy
@@ -3712,7 +3712,7 @@ msgstr "Från den första markerade nyckelrutan till den sista"
 #. :src: bpy.types.POSE_OT_paths_calculate.range:'SCENE'
 #, fuzzy
 msgid "Scene Frame Range"
-msgstr "Scenbildsintervall"
+msgstr "Scenens bildruteintervall"
 
 #. :src: bpy.types.AnimVizMotionPaths.range:'SCENE'
 #. :src: bpy.types.OBJECT_OT_paths_calculate.range:'SCENE'
@@ -3751,7 +3751,7 @@ msgstr "Samtliga action-nycklar"
 #. :src: bpy.types.AnimVizMotionPaths.show_keyframe_action_all
 #, fuzzy
 msgid "For bone motion paths, search whole Action for keyframes instead of in group with matching name only (is slower)"
-msgstr "För rörelsebanor för ben söker du efter nyckelrutor i hela Action istället för i en grupp med matchande namn (går långsammare)"
+msgstr "För rörelsebanor för ben söker du efter nyckelbildrutor i hela åtgärden i stället för endast i en grupp med matchande namn (går långsammare)"
 
 #. :src: bpy.types.AnimVizMotionPaths.show_keyframe_highlight
 #, fuzzy
@@ -3761,7 +3761,7 @@ msgstr "Markera nyckelbildrutor"
 #. :src: bpy.types.AnimVizMotionPaths.show_keyframe_highlight
 #, fuzzy
 msgid "Emphasize position of keyframes on Motion Paths"
-msgstr "Betona nyckelramarnas position på rörelsebanorna"
+msgstr "Betona nyckelbildrutornas position på rörelsebanorna"
 
 #. :src: bpy.types.AnimVizMotionPaths.show_keyframe_numbers
 msgid "Show Keyframe Numbers"
@@ -35383,7 +35383,7 @@ msgstr "Antal cykelupprepningar"
 #: source/blender/modifiers/intern/MOD_ocean.cc:656
 #, fuzzy
 msgid "Frame Start"
-msgstr "Start av ram"
+msgstr "Startbildruta"
 
 #. :src: bpy.types.GreasePencilTimeModifierSegment.segment_start
 #, fuzzy
@@ -40154,12 +40154,12 @@ msgstr "Om cacheminnet är uppdelat i en serie filer"
 #. :src: bpy.types.CacheFile.layers
 #, fuzzy
 msgid "Layers of the cache"
-msgstr "Lager av cacheminnet"
+msgstr "Cachelager"
 
 #. :src: bpy.types.CacheFile.object_paths
 #, fuzzy
 msgid "Paths of the objects inside the Alembic archive"
-msgstr "Objektens vägar inne i Alembic-arkivet"
+msgstr "Sökvägar till objekten i Alembic-arkivet"
 
 #. :src: bpy.types.CacheFile.override_frame
 #: source/blender/editors/interface/templates/interface_template_cache_file.cc:116
@@ -40170,7 +40170,7 @@ msgstr "Åsidosätt bildruta"
 #. :src: bpy.types.CacheFile.override_frame
 #, fuzzy
 msgid "Whether to use a custom frame for looking up data in the cache file, instead of using the current scene frame"
-msgstr "Om en anpassad ram ska användas för att leta upp data i cachefilen, istället för att använda den aktuella scenramen"
+msgstr "Om en anpassad bildruta ska användas för att slå upp data i cachefilen i stället för scenens aktuella bildruta"
 
 #. :src: bpy.types.CacheFile.prefetch_cache_size
 #, fuzzy

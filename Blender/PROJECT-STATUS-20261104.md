@@ -1255,3 +1255,13 @@ färgattribut* till `8-bitarsvärde i geometriattribut` respektive
 endast dessa två poster utan `fuzzy`-markeringar och passerar `msgfmt`,
 l10n-lint och diffkontroll. Den är arkiverad men ännu inte verifierat
 importerad till Blender Translate.
+
+Batch 157 granskar elva sammanhängande poster för animationskanaler och
+Alembic-cache med två separata peer reviews. Den tillämpar konsekvent
+*åtgärdsslot*, *nyckelbildruta*, *rörelsebana*, *bildruteintervall* och
+*cachelager*, samt rättar CacheFiles tekniska sökvägs- och
+bildruteformuleringar. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-157-animation-cache.po` innehåller
+endast de granskade posterna utan `fuzzy`-markeringar och passerar `msgfmt`,
+l10n-lint och diffkontroll. Den är arkiverad men ännu inte verifierat
+importerad till Blender Translate.
