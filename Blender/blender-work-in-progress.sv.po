@@ -2547,9 +2547,8 @@ msgid "MetalRT for ray tracing uses less memory for scenes which use curves exte
 msgstr "MetalRT för strålspårning använder mindre minne för scener som använder kurvor i stor utsträckning, och kan ge bättre prestanda i vissa fall"
 
 #. :src: bpy.types.CyclesPreferences.metalrt:'OFF'
-#, fuzzy
 msgid "Disable MetalRT (uses BVH2 layout for intersection queries)"
-msgstr "Inaktivera MetalRT (använder BVH2-layout för korsningsfrågor)"
+msgstr "Inaktivera MetalRT (använder BVH2-layout för skärningsfrågor)"
 
 #. :src: bpy.types.CyclesPreferences.metalrt:'ON'
 #. :src: bpy.types.SequencerTimelineOverlay.waveform_display_type:'ALL_WAVEFORMS'
@@ -14792,11 +14791,11 @@ msgstr "Möjliggör kollisioner med andra objekt"
 
 #. :src: bpy.types.ClothCollisionSettings.use_self_collision
 msgid "Enable Self Collision"
-msgstr "Aktivera självkollision"
+msgstr "Aktivera självkollisioner"
 
 #. :src: bpy.types.ClothCollisionSettings.use_self_collision
 msgid "Enable self collisions"
-msgstr "Aktivera självkrock"
+msgstr "Aktivera självkollisioner"
 
 #. :src: bpy.types.ClothCollisionSettings.vertex_group_object_collisions
 #, fuzzy
@@ -14865,14 +14864,12 @@ msgstr "Fysisk modell för simulering av böjkrafter"
 #. :src: bpy.types.PHYSICS_PT_rigid_body_constraint_motor_angular
 #. :src: bpy.types.PHYSICS_PT_rigid_body_constraint_springs_angular
 #: scripts/startup/bl_ui/properties_physics_rigidbody.py:326
-#, fuzzy
 msgid "Angular"
-msgstr "Angular"
+msgstr "Vinkel"
 
 #. :src: bpy.types.ClothSettings.bending_model:'ANGULAR'
-#, fuzzy
 msgid "Cloth model with angular bending springs"
-msgstr "Tygmodell med vinkelböjande fjädrar"
+msgstr "Tygmodell med vinkelfjädrar"
 
 #. :src: bpy.types.ClothSettings.bending_model:'LINEAR'
 #. :src: bpy.types.ColorRamp.interpolation:'LINEAR'
@@ -15045,60 +15042,50 @@ msgstr "Densitet (kg/l) för den vätska som finns inuti objektet, används för
 
 #. :src: bpy.types.ClothSettings.goal_default
 #. :src: bpy.types.SoftBodySettings.goal_default
-#, fuzzy
 msgid "Goal Default"
-msgstr "Mål Standard"
+msgstr "Målstandard"
 
 #. :src: bpy.types.ClothSettings.goal_default
-#, fuzzy
 msgid "Default Goal (vertex target position) value, when no Vertex Group used"
-msgstr "Standardvärde för Goal (vertex målposition), när ingen Vertex-grupp används"
+msgstr "Standardvärde för mål (hörnpunktens målposition) när ingen hörnpunktsgrupp används"
 
 #. :src: bpy.types.ClothSettings.goal_friction
 #. :src: bpy.types.SoftBodySettings.goal_friction
-#, fuzzy
 msgid "Goal Damping"
-msgstr "Dämpning av mål"
+msgstr "Måldämpning"
 
 #. :src: bpy.types.ClothSettings.goal_friction
 #. :src: bpy.types.SoftBodySettings.goal_friction
-#, fuzzy
 msgid "Goal (vertex target position) friction"
-msgstr "Mål (toppunktens målposition) friktion"
+msgstr "Friktion för mål (hörnpunktens målposition)"
 
 #. :src: bpy.types.ClothSettings.goal_max
 #. :src: bpy.types.SoftBodySettings.goal_max
-#, fuzzy
 msgid "Goal Maximum"
-msgstr "Mål Maximalt"
+msgstr "Målmaximum"
 
 #. :src: bpy.types.ClothSettings.goal_max
-#, fuzzy
 msgid "Goal maximum, vertex group weights are scaled to match this range"
 msgstr "Målmaximum; hörnpunktsgruppens vikter skalas så att de motsvarar detta intervall"
 
 #. :src: bpy.types.ClothSettings.goal_min
 #. :src: bpy.types.SoftBodySettings.goal_min
-#, fuzzy
 msgid "Goal Minimum"
-msgstr "Mål Minimum"
+msgstr "Målminimum"
 
 #. :src: bpy.types.ClothSettings.goal_min
-#, fuzzy
 msgid "Goal minimum, vertex group weights are scaled to match this range"
 msgstr "Målminimum; hörnpunktsgruppens vikter skalas så att de motsvarar detta intervall"
 
 #. :src: bpy.types.ClothSettings.goal_spring
 #. :src: bpy.types.SoftBodySettings.goal_spring
-#, fuzzy
 msgid "Goal Stiffness"
-msgstr "Målets styvhet"
+msgstr "Målstyvhet"
 
 #. :src: bpy.types.ClothSettings.goal_spring
 #. :src: bpy.types.SoftBodySettings.goal_spring
-#, fuzzy
 msgid "Goal (vertex target position) spring stiffness"
-msgstr "Mål (toppunktens målposition) fjäderstyvhet"
+msgstr "Fjäderstyvhet för mål (hörnpunktens målposition)"
 
 #. :src: bpy.types.ClothSettings.gravity
 #. :src: bpy.types.EffectorWeights.gravity
@@ -159322,19 +159309,16 @@ msgid "Fuzziness while on collision, high values make collision handling faster 
 msgstr "Oklarhet vid kollision, höga värden gör kollisionshanteringen snabbare men mindre stabil"
 
 #. :src: bpy.types.SoftBodySettings.goal_default
-#, fuzzy
 msgid "Default Goal (vertex target position) value"
-msgstr "Standardvärde för Goal (vertex målposition)"
+msgstr "Standardvärde för mål (hörnpunktens målposition)"
 
 #. :src: bpy.types.SoftBodySettings.goal_max
-#, fuzzy
 msgid "Goal maximum, vertex weights are scaled to match this range"
-msgstr "Målmaximum, vertexvikter skalas för att matcha detta intervall"
+msgstr "Målmaximum, hörnpunktsvikter skalas för att passa detta intervall"
 
 #. :src: bpy.types.SoftBodySettings.goal_min
-#, fuzzy
 msgid "Goal minimum, vertex weights are scaled to match this range"
-msgstr "Målminimum, vertexvikter skalas för att matcha detta intervall"
+msgstr "Målminimum, hörnpunktsvikter skalas för att passa detta intervall"
 
 #. :src: bpy.types.SoftBodySettings.gravity
 #: scripts/startup/bl_ui/properties_physics_common.py:319

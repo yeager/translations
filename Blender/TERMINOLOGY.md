@@ -174,6 +174,8 @@ Senast uppdaterad: 2026-11-06.
 | vertex group | hörnpunktsgrupp | Behåll *VertexGroup* i Python-API, klassnamn och andra identifierare. |
 | collision vertex group | hörnpunktsgrupp för kollision | Hörnpunktsgrupp som undantas från tygsimuleringens objektkollisioner. |
 | selfcollision vertex group | hörnpunktsgrupp för självkollision | Hörnpunktsgrupp som undantas från tygsimuleringens självkollisioner. |
+| goal (Soft Body / Cloth) | mål | Fysikinställning som drar en hörnpunkt mot dess målposition. Använd sammansättningarna *målstandard*, *måldämpning*, *målmaximum*, *målminimum* och *målstyvhet*. |
+| angular bending springs | vinkelfjädrar | Tygsimuleringens fjädrar för vinkelbaserad böjning. |
 | tension stiffness | dragstyvhet | Materialets motstånd mot sträckning i tygsimuleringen. |
 | vertex mass | hörnpunktsmassa | Massan för en enskild hörnpunkt i tygsimuleringen. |
 | vertex color | hörnpunktsfärg | Gäller synlig UI-text. |

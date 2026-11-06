@@ -1482,3 +1482,13 @@ l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang` rapporterar
 bara avsedda och sällsynta Blender-sammansättningar. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 178 granskar sjutton poster för tyg- och mjukkroppssimulering samt
+MetalRT. Den normaliserar självkollisioner, vinkelfjädrar, målpositionernas
+inställningar och skärningsfrågor. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-178-physics-simulation.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. l10n-lints
+tre informationsrader för parentesernas olika position är förväntade och
+semantiskt korrekta. `svlang` ger 10/10 och rapporterar bara avsedda
+Blender-termer. Filen är arkiverad och väntar på manuell import.
+
