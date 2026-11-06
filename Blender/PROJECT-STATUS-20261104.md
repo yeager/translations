@@ -1396,3 +1396,13 @@ nyckelbildsättning`. Deltafilen
 diffkontroll och Gitleaks. `svlang` markerar bara den projektbundna
 sammansättningen *nyckelbildsättning* och två grammatiska underordnade satser.
 Filen är arkiverad och väntar på manuell import.
+
+Batch 170 granskar tolv renderings-, shader- och filbläddrartexter. Den
+rättar bland annat *Lambertisk emissionsshader*, *studioljus*,
+*renderingsläget Solitt*, *samling av remsor* och de fyra felaktigt engelska
+Bläddra-etiketterna för mesh-, kurv-, metaboll- och linjestilsdata.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-170-rendering-browse.po`
+saknar `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, riktad Hunspell,
+diffkontroll och Gitleaks. `svlang` markerar enbart tekniska
+sammansättningar och korrekta underordnade satser. Filen är arkiverad och
+väntar på manuell import.
