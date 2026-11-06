@@ -1647,3 +1647,11 @@ rapporterar väntade sammansättningar samt konstgjorda längd- och
 V2-varningar när UI-etiketter fogas ihop till löptext. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 194 granskar fem poster för visning och kamerakoordinater för
+rörelsebanor. Den ersätter de missvisande formerna *sökvägar för poseringar*
+och *Baka till aktiv kamera* med rörelsebane- och koordinatsystemtermer.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-194-motion-path-display.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` ger 10/10. Filen är arkiverad och väntar på manuell import.
+
