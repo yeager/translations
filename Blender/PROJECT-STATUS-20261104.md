@@ -2295,3 +2295,15 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 ovanliga sammansättningar och konstgjorda varningar från sammanfogade
 UI-etiketter. Filen är arkiverad och väntar på manuell import.
 
+Batch 254 granskar 17 Grease Pencil-strängar för strecksegment, ritningar
+och nyckelbildrutor. Den normaliserar bland annat *streckmodifierarsegment*,
+*mellanrum*, *cykliskt läge*, *Grease Pencil-ritning*,
+*Grease Pencil-bildruta*, *bildrutenummer* och *nyckelbildrutetyp*.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna.
+Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-254-grease-pencil-segments.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast tekniska egennamn, ovanliga sammansättningar och
+en konstgjord längdvarning från sammanfogade UI-etiketter. Filen är arkiverad
+och väntar på manuell import.
+
