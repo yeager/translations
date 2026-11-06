@@ -245,6 +245,9 @@ Senast uppdaterad: 2026-11-06.
 | crease edge / edge mark | veckkant / kantmarkering | Freestyle-kanttyp för skarpa ytvinklar respektive en manuellt markerad kant. Använd *veckkant*, inte den vaga formen *veckad kant*. |
 | material boundary | materialgräns | Freestyle-kant där två material möts på samma objekt. |
 | inclusive / exclusive (Freestyle) | inkluderande / exkluderande | Urvalslägen som anger om en samlings eller kanttyps träffar ska tas med eller tas bort. |
+| face mark | ytmarkering | Freestyle-attribut för att markera meshytor och styra urvalet av funktionskanter. Använd inte den bokstavliga formen *ansiktsmärkning*. |
+| quantitative invisibility (QI) | kvantitativ osynlighet (QI) | Freestyle-mått för hur många ytor som skymmer en funktionskant från kameran. |
+| occluding / occluded object | skymmande / skymt objekt | Freestyle-synlighetskontext. Böj *skymt* till *skymda* före pluralformen *objekt*. Undvik de onödigt engelsknära formerna *ocklusiv* och *ockluderad*. |
 | vertex neighbors / face group boundaries | hörnpunktsgrannar / ytgruppsgränser | Noder som hämtar topologiska grannar respektive kanter mellan ytgrupper. Sammansättningarna är avsiktliga. |
 | Geometry Proximity | Geometrisk närhet | Nod som beräknar närmaste position på en målgeometri. |
 | gizmo | gizmo | Etablerat Blender-UI-namn. Skriv sammansatt: *transformationsgizmo*. |
