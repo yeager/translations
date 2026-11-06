@@ -2394,3 +2394,15 @@ Hunspell och `svlang` rapporterar enbart de avsiktliga temavärdena och den
 projektspecifika sammansättningen *widgetmesher*. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 262 granskar 7 strängar för penselns områdesradie och automaskering.
+Den rättar särskilt områdesradien så att den korrekt avser provtagning av
+områdesplanets djup, samt normaliserar *spridningssteg*, *automaskering* och
+gradient för avtagande. Terminologilistan har kompletterats med
+*områdesradie* och *spridningssteg*. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-262-brush-automasking.po`. Filen
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+Hunspell och `svlang` rapporterar endast den korrekta fackformen
+*kavitetsmasken* och en konstgjord ordföljdsvarning från sammanfogade
+UI-etiketter. Filen är arkiverad och väntar på manuell import.
+

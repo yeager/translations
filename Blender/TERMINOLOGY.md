@@ -409,6 +409,8 @@ Senast uppdaterad: 2026-11-06.
 | brush stroke | penseldrag | Ett sammanhängande drag med penseln. Skilj från Grease Pencil-*streck*, som är det ritade resultatet. |
 | brush dab | penselavtryck | Enskilt delavtryck i ett penseldrag. |
 | brush falloff | penselns avtagande | Hur penselns påverkan minskar med avståndet från centrum eller gräns. |
+| area radius | områdesradie | Förhållande mellan penselradien och radien som används för att provta områdesplanets djup. |
+| propagation steps | spridningssteg | Utökar automaskeringens mjuka gradient stegvis från en mesh- eller ansiktsgräns. |
 | falloff | avtagande | Använd i förklarande Blender-text. Behåll engelska namn när de är formella produkt- eller API-namn. |
 | brush spacing | penselavstånd | Avståndet mellan penselavtryck; UI-värdet *Space* kan i relevant panel översättas *Avstånd*. |
 | brush tip | penselspets | Penselns form och riktning vid målning eller skulptering. |
