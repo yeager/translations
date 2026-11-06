@@ -25,11 +25,12 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-316.po`
-med 431 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
-Movie Clip-korrigeringen samt Follow Track- och Object Solver-granskningarna.
-Den ersätter tidigare samlingsfiler för detta intervall, är redo för manuell
-import och har inte skickats in eller verifierats i Weblate.
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-317.po`
+med 448 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+Movie Clip-korrigeringen samt Follow Track-, Object Solver- och
+Pivot-granskningarna. Den ersätter tidigare samlingsfiler för detta intervall,
+är redo för manuell import och har inte skickats in eller verifierats i
+Weblate.
 
 Batch 315 granskar tio poster för Follow Track-begränsningen och dess
 filmspårningskontext. Den normaliserar det formella namnet till
@@ -43,6 +44,12 @@ Batch 316 granskar fyra poster för Object Solver-begränsningen. Den bekräftar
 och gör uttrycket för filmspårningsobjekt konsekvent med batch 315. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-316-object-solver-constraint.po` är
 lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 317 granskar 17 poster för Pivot-begränsningen mot Blenders API. Den
+normaliserar rotationsetiketterna till exempelvis *-X-rotation*, tydliggör
+skillnaden mellan mål och ägare och använder konsekvent *vridpunkt*. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-317-pivot-constraint.po` är lokalt
+kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
 ## Projektets aktualitet
 
