@@ -2118,3 +2118,13 @@ borttagna. Deltafilen
 rapporterar endast facktermer och konstgjorda varningar från sammanfogade
 UI-etiketter. Filen är arkiverad och väntar på manuell import.
 
+Batch 237 granskar 10 FFmpeg- och utdataetiketter med uppenbart korrupta
+översättningar. Den rättar bland annat *Inget ljud*, *Ingen video*,
+*FFmpeg-videokodek*, *H.264*, *Ogg*, *Medelhög kvalitet* och *Låg kvalitet*.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-237-ffmpeg-output.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast tekniska namn och en konstgjord ordföljdsvarning
+från sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell
+import.
+
