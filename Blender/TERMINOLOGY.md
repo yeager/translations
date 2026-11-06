@@ -300,6 +300,8 @@ Senast uppdaterad: 2026-11-06.
 | field falloff | fältets avtagande | Hur kraften från ett kraftfält minskar med avståndet. |
 | radial falloff power | exponent för radiellt avtagande | Kraftfältets exponent som anger hur snabbt den radiella påverkan minskar med avståndet. |
 | rest length (harmonic field) | vilolängd | Jämviktslängd i ett harmoniskt kraftfält. Använd inte den engelskpåverkade formen *restlängd*. |
+| Curl (texture force-field mode) | Curl | Synligt tekniskt namn för den vektoranalytiska curl-operationen i texturkraftfältet. Det är inte hårtermen *lock*. |
+| root texture coordinates | rottexturkoordinater | Texturkoordinater från rotpartiklarnas positioner. Skriv sammansättningen ihop. |
 | keyframe range | nyckelbildruteintervall | Intervall av bildrutor mellan animeringens nyckelbildrutor. |
 | driver (animation) | drivrutin | Funktions- eller uttrycksbaserad styrning av ett animerat egenskapsvärde. Använd *drivrutinstyp*, *drivrutinsvariabel*, *drivrutinsmål* och *drivrutins-F-kurva*. Skilj via sammanhang från enhetens drivrutin, men använd samma svenska huvudterm. |
 | action | åtgärd | Animeringsdata i Blender. Behåll *Action* i formella datatyp- eller API-namn. |

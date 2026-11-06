@@ -26537,20 +26537,17 @@ msgid "Texture Mode"
 msgstr "Texturläge"
 
 #. :src: bpy.types.FieldSettings.texture_mode
-#, fuzzy
 msgid "How the texture effect is calculated (RGB and Curl need a RGB texture, else Gradient will be used instead)"
-msgstr "Hur textureffekten beräknas (RGB och Curl behöver en RGB-textur, annars används Gradient istället)"
+msgstr "Hur textureffekten beräknas (RGB och Curl kräver en RGB-textur, annars används Gradient)"
 
 #. :src: bpy.types.FieldSettings.texture_mode:'CURL'
-#, fuzzy
 msgid "Curl"
-msgstr "Locka"
+msgstr "Curl"
 
 #. :src: bpy.types.FieldSettings.texture_mode:'GRADIENT'
 #. :src: bpy.types.Brush.color_type:'GRADIENT'
 #. :src: bpy.types.Brush.gradient
 #. :src: bpy.types.GreasePencilTintModifier.tint_mode:'GRADIENT'
-#, fuzzy
 msgid "Gradient"
 msgstr "Gradient"
 
@@ -26567,119 +26564,96 @@ msgid "Nabla"
 msgstr "Nabla"
 
 #. :src: bpy.types.FieldSettings.texture_nabla
-#, fuzzy
 msgid "Defines size of derivative offset used for calculating gradient and curl"
-msgstr "Definierar storleken på derivatoffset som används för att beräkna gradient och curl"
+msgstr "Anger storleken på derivataförskjutningen som används för att beräkna gradient och Curl"
 
 #. :src: bpy.types.FieldSettings.type
-#, fuzzy
 msgid "Type of field"
 msgstr "Typ av fält"
 
 #. :src: bpy.types.FieldSettings.type:'BOID'
-#, fuzzy
 msgid "Create a force that acts as a boid's predators or target"
 msgstr "Skapa en kraft som fungerar som en boids rovdjur eller mål"
 
 #. :src: bpy.types.FieldSettings.type:'CHARGE'
-#, fuzzy
 msgid "Spherical forcefield based on the charge of particles, only influences other charge force fields"
-msgstr "Sfäriskt kraftfält baserat på partiklarnas laddning, påverkar endast andra laddade kraftfält"
+msgstr "Sfäriskt kraftfält baserat på partiklarnas laddning som endast påverkar andra laddade kraftfält"
 
 #. :src: bpy.types.FieldSettings.type:'GUIDE'
-#, fuzzy
 msgid "Create a force along a curve object"
 msgstr "Skapa en kraft längs ett kurvobjekt"
 
 #. :src: bpy.types.FieldSettings.type:'DRAG'
-#, fuzzy
 msgid "Create a force that dampens motion"
 msgstr "Skapa en kraft som dämpar rörelsen"
 
 #. :src: bpy.types.FieldSettings.type:'FLUID_FLOW'
-#, fuzzy
 msgid "Create a force based on fluid simulation velocities"
 msgstr "Skapa en kraft baserad på vätskesimuleringens hastigheter"
 
 #. :src: bpy.types.FieldSettings.type:'FORCE'
-#, fuzzy
 msgid "Radial field toward the center of object"
 msgstr "Radialt fält mot objektets mittpunkt"
 
 #. :src: bpy.types.FieldSettings.type:'HARMONIC'
-#, fuzzy
 msgid "The source of this force field is the zero point of a harmonic oscillator"
 msgstr "Källan till detta kraftfält är nollpunkten för en harmonisk oscillator"
 
 #. :src: bpy.types.FieldSettings.type:'LENNARDJ'
-#, fuzzy
 msgid "Forcefield based on the Lennard-Jones potential"
 msgstr "Kraftfält baserat på Lennard-Jones-potentialen"
 
 #. :src: bpy.types.FieldSettings.type:'MAGNET'
-#, fuzzy
 msgid "Forcefield depends on the speed of the particles"
 msgstr "Kraftfältet beror på partiklarnas hastighet"
 
 #. :src: bpy.types.FieldSettings.type:'TEXTURE'
-#, fuzzy
 msgid "Force field based on a texture"
 msgstr "Kraftfält baserat på en textur"
 
 #. :src: bpy.types.FieldSettings.type:'TURBULENCE'
-#, fuzzy
 msgid "Create turbulence with a noise field"
 msgstr "Skapa turbulens med ett brusfält"
 
 #. :src: bpy.types.FieldSettings.type:'VORTEX'
-#, fuzzy
 msgid "Spiraling force that twists the force object's local Z axis"
 msgstr "Spiralformad kraft som vrider kraftobjektets lokala Z-axel"
 
 #. :src: bpy.types.FieldSettings.type:'WIND'
-#, fuzzy
 msgid "Constant force along the force object's local Z axis"
 msgstr "Konstant kraft längs kraftobjektets lokala Z-axel"
 
 #. :src: bpy.types.FieldSettings.use_2d_force
-#, fuzzy
 msgid "2D"
 msgstr "2D"
 
 #. :src: bpy.types.FieldSettings.use_2d_force
-#, fuzzy
 msgid "Apply force only in 2D"
-msgstr "Applicera kraft endast i 2D"
+msgstr "Tillämpa kraft endast i 2D"
 
 #. :src: bpy.types.FieldSettings.use_absorption
-#, fuzzy
 msgid "Force gets absorbed by collision objects"
 msgstr "Kraften absorberas av kollisionsobjekt"
 
 #. :src: bpy.types.FieldSettings.use_global_coords
-#, fuzzy
 msgid "Use Global Coordinates"
 msgstr "Använd globala koordinater"
 
 #. :src: bpy.types.FieldSettings.use_global_coords
-#, fuzzy
 msgid "Use effector/global coordinates for turbulence"
 msgstr "Använd effektorns eller globala koordinater för turbulens"
 
 #. :src: bpy.types.FieldSettings.use_gravity_falloff
-#, fuzzy
 msgid "Gravity Falloff"
 msgstr "Gravitationsavtagande"
 
 #. :src: bpy.types.FieldSettings.use_gravity_falloff
-#, fuzzy
 msgid "Multiply force by 1/distance²"
 msgstr "Multiplicera kraften med 1/avstånd²"
 
 #. :src: bpy.types.FieldSettings.use_guide_path_add
-#, fuzzy
 msgid "Based on distance/falloff it adds a portion of the entire path"
-msgstr "Baserat på avstånd/falloff lägger den till en del av hela banan"
+msgstr "Beroende på avstånd och avtagande läggs en del av hela banan till"
 
 #. :src: bpy.types.FieldSettings.use_guide_path_weight
 #. :src: bpy.types.Menu
@@ -26698,104 +26672,84 @@ msgid "Weights"
 msgstr "Viktningar"
 
 #. :src: bpy.types.FieldSettings.use_guide_path_weight
-#, fuzzy
 msgid "Use curve weights to influence the particle influence along the curve"
 msgstr "Använd kurvvikter för att påverka partikelinflytandet längs kurvan"
 
 #. :src: bpy.types.FieldSettings.use_max_distance
 #. :src: bpy.types.FieldSettings.use_radial_max
-#, fuzzy
 msgid "Use Max"
-msgstr "Använd Max"
+msgstr "Använd max"
 
 #. :src: bpy.types.FieldSettings.use_max_distance
-#, fuzzy
 msgid "Use a maximum distance for the field to work"
 msgstr "Använd ett maximalt avstånd för att fältet ska fungera"
 
 #. :src: bpy.types.FieldSettings.use_min_distance
 #. :src: bpy.types.FieldSettings.use_radial_min
-#, fuzzy
 msgid "Use Min"
-msgstr "Använd Min"
+msgstr "Använd min"
 
 #. :src: bpy.types.FieldSettings.use_min_distance
-#, fuzzy
 msgid "Use a minimum distance for the field's falloff"
 msgstr "Använd ett minsta avstånd för fältets avtagande"
 
 #. :src: bpy.types.FieldSettings.use_multiple_springs
-#, fuzzy
 msgid "Multiple Springs"
 msgstr "Flera fjädrar"
 
 #. :src: bpy.types.FieldSettings.use_multiple_springs
-#, fuzzy
 msgid "Every point is affected by multiple springs"
 msgstr "Varje punkt påverkas av flera fjädrar"
 
 #. :src: bpy.types.FieldSettings.use_object_coords
-#, fuzzy
 msgid "Use Coordinates"
 msgstr "Använd koordinater"
 
 #. :src: bpy.types.FieldSettings.use_object_coords
-#, fuzzy
 msgid "Use object/global coordinates for texture"
 msgstr "Använd objektets eller globala koordinater för texturen"
 
 #. :src: bpy.types.FieldSettings.use_radial_max
-#, fuzzy
 msgid "Use a maximum radial distance for the field to work"
 msgstr "Använd ett maximalt radiellt avstånd för att fältet ska fungera"
 
 #. :src: bpy.types.FieldSettings.use_radial_min
-#, fuzzy
 msgid "Use a minimum radial distance for the field's falloff"
 msgstr "Använd ett minsta radiellt avstånd för fältets avtagande"
 
 #. :src: bpy.types.FieldSettings.use_root_coords
-#, fuzzy
 msgid "Root Texture Coordinates"
-msgstr "Koordinater för rottextur"
+msgstr "Rottexturkoordinater"
 
 #. :src: bpy.types.FieldSettings.use_root_coords
-#, fuzzy
 msgid "Texture coordinates from root particle locations"
-msgstr "Texturkoordinater från rotpartikelns placering"
+msgstr "Texturkoordinater från rotpartiklarnas positioner"
 
 #. :src: bpy.types.FieldSettings.use_smoke_density
-#, fuzzy
 msgid "Apply Density"
-msgstr "Applicera densitet"
+msgstr "Tillämpa densitet"
 
 #. :src: bpy.types.FieldSettings.use_smoke_density
-#, fuzzy
 msgid "Adjust force strength based on smoke density"
 msgstr "Justera kraftfältets styrka utifrån röktätheten"
 
 #. :src: bpy.types.FieldSettings.wind_factor
-#, fuzzy
 msgid "Wind Factor"
 msgstr "Vindfaktor"
 
 #. :src: bpy.types.FieldSettings.wind_factor
-#, fuzzy
 msgid "How much the force is reduced when acting parallel to a surface, e.g. cloth"
 msgstr "Hur mycket kraften minskar när den verkar parallellt med en yta, t.ex. ett tyg"
 
 #. :src: bpy.types.FieldSettings.z_direction
-#, fuzzy
 msgid "Z Direction"
 msgstr "Z-riktning"
 
 #. :src: bpy.types.FieldSettings.z_direction
-#, fuzzy
 msgid "Effect in full or only positive/negative Z direction"
 msgstr "Full effekt eller endast i positiv/negativ Z-riktning"
 
 #. :src: bpy.types.FieldSettings.z_direction:'BOTH'
-#, fuzzy
 msgid "Both Z"
 msgstr "Både Z"
 

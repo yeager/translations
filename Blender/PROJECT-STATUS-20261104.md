@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-411.po`
-med 1 594 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-412.po`
+med 1 640 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3395,4 +3395,11 @@ domänobjekt. Den normaliserar bland annat *exponent för radiellt avtagande*,
 *vilolängd* och *hörnpunkt*. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-411-physics-field-parameters.po` är
 lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 412 granskar 47 poster för kraftfältens textur- och fälttyper,
+koordinater, avtagande och kraftbegränsningar. Den bevarar det tekniska
+lägesnamnet *Curl* i vektoranalyskontext, använder *rottexturkoordinater* och
+formulerar övriga hjälptexter utan engelska låneord. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-412-physics-field-types-and-modes.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
