@@ -2,6 +2,13 @@
 
 Senaste lokala arbete: 6 november 2026.
 
+Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
+granskade poster och sex importdelar om högst 1 000 poster. Användaren har
+skickat in samtliga sex delar manuellt till Blender Translate. Importresultat
+från Weblate har ännu inte verifierats i detta arkiv. Den efterföljande lokala
+batchen 287 för Grease Pencil-lökskalning är arkiverad separat och ingår därför
+inte i de redan inskickade sex delarna.
+
 ## Projektets aktualitet
 
 Blender uppfyller aktualitetskravet. Den officiella nedladdningssidan anger
