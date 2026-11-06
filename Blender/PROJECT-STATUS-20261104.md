@@ -2035,3 +2035,14 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 ordföljdsvarningar från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 229 granskar 14 poster för kurvkartläggning och kurvmålning. Den rättar
+bland annat en korrupt Bézier-översättning, normaliserar *vitnivå*,
+*kurvkartläggningspunkt*, *streck* och *förskjutning* samt följer Blenders
+etablerade term *vyport*. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-229-curves-paint.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast facktermer och konstgjorda längd- och ordföljdsvarningar
+från sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell
+import.
+
