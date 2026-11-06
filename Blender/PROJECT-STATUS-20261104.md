@@ -1546,3 +1546,13 @@ kontroll- och påverkans-F-kurvor. Samtliga granskade poster har fått sina
 rapporterar bara akronymen NLA och en falsk V2-träff för en imperativ
 UI-etikett. Filen är arkiverad och väntar på manuell import.
 
+Batch 184 granskar tolv poster för Outliners filter och markeringar. Den
+normaliserar datablock, underordnade objekt, tomobjekt, Grease Pencil-objekt,
+mesh, visningslager och markeringar i Outliner. Samtliga granskade poster har
+fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-184-outliner-filters.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang` ger
+bara väntade träffar när fristående UI-etiketter läses som löptext:
+Blender-termer och en falsk V2-varning. Filen är arkiverad och väntar på
+manuell import.
+
