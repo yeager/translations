@@ -241,6 +241,10 @@ Senast uppdaterad: 2026-11-06.
 | surface emission / volume emission | ytemission / volymemission | Mantaflow-inställningar för emission från meshens yta respektive från dess inre. |
 | absolute density | absolut densitet | Inställning som hindrar densitetsvärden i emissionsområdet från att adderas. |
 | initial velocity / source velocity | initialhastighet / källhastighet | Hastighet när flödet emitteras respektive hastighet som hämtas från ett rörligt flödesobjekt. |
+| Freestyle feature edge | funktionskant | Freestyles algoritmiskt identifierade kant för linjerendering. Skilj från en vanlig meshkant när Freestyle-kontexten behöver framgå. |
+| crease edge / edge mark | veckkant / kantmarkering | Freestyle-kanttyp för skarpa ytvinklar respektive en manuellt markerad kant. Använd *veckkant*, inte den vaga formen *veckad kant*. |
+| material boundary | materialgräns | Freestyle-kant där två material möts på samma objekt. |
+| inclusive / exclusive (Freestyle) | inkluderande / exkluderande | Urvalslägen som anger om en samlings eller kanttyps träffar ska tas med eller tas bort. |
 | vertex neighbors / face group boundaries | hörnpunktsgrannar / ytgruppsgränser | Noder som hämtar topologiska grannar respektive kanter mellan ytgrupper. Sammansättningarna är avsiktliga. |
 | Geometry Proximity | Geometrisk närhet | Nod som beräknar närmaste position på en målgeometri. |
 | gizmo | gizmo | Etablerat Blender-UI-namn. Skriv sammansatt: *transformationsgizmo*. |

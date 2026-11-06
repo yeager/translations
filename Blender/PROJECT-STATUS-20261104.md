@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-434.po`
-med 2 004 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-435.po`
+med 2 035 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3550,4 +3550,11 @@ emission, texturkoordinater och initiala hastigheter. Den använder konsekvent
 *ytemission* från *volymemission*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-434-fluid-flow-sources.po` är lokalt
 kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 435 granskar 31 Freestyle-poster för linjeuppsättningars samlingar,
+urvalslogik och kanttyper. Den etablerar *funktionskant*, *veckkant* och
+*materialgräns*, samt gör de motsatta urvalslägena konsekvent inkluderande
+respektive exkluderande. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-435-freestyle-line-set-edge-types.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 

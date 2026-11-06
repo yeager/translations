@@ -1,0 +1,242 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.ForeachGeometryElementGenerationItem.socket_type:'COLLECTION'
+#. :src: bpy.types.ForeachGeometryElementInputItem.socket_type:'COLLECTION'
+#. :src: bpy.types.ForeachGeometryElementMainItem.socket_type:'COLLECTION'
+#. :src: bpy.types.FreestyleLineSet.collection
+#. :src: bpy.types.Object.instance_type:'COLLECTION'
+#. :src: bpy.types.ParticleSettings.render_type:'COLLECTION'
+#. :src: bpy.types.Scene.collection
+#. :src: bpy.types.LayerCollection.collection
+#. :src: bpy.types.Menu
+#. :src: bpy.types.OUTLINER_MT_collection
+#. :src: bpy.types.OUTLINER_MT_collection_new
+#. :src: bpy.types.VIEW3D_MT_object_collection
+#. :src: bpy.types.BooleanModifier.collection
+#. :src: bpy.types.BooleanModifier.operand_type:'COLLECTION'
+#. :src: bpy.types.GreasePencilLineartModifier.source_collection
+#. :src: bpy.types.GreasePencilLineartModifier.source_type:'COLLECTION'
+#. :src: bpy.types.FunctionNodeCompare.data_type:'COLLECTION'
+#. :src: bpy.types.FunctionNodeHashValue.data_type:'COLLECTION'
+#. :src: bpy.types.GeometryNodeGetNamedGrid.data_type:'COLLECTION'
+#. :src: bpy.types.GeometryNodeIndexSwitch.data_type:'COLLECTION'
+#. :src: bpy.types.GeometryNodeInputCollection
+#. :src: bpy.types.GeometryNodeInputCollection.collection
+#. :src: bpy.types.GeometryNodeMenuSwitch.data_type:'COLLECTION'
+#. :src: bpy.types.GeometryNodeSampleGrid.data_type:'COLLECTION'
+#. :src: bpy.types.GeometryNodeSampleGridIndex.data_type:'COLLECTION'
+#. :src: bpy.types.GeometryNodeSwitch.input_type:'COLLECTION'
+#. :src: bpy.types.NodeGeometryBakeItem.socket_type:'COLLECTION'
+#. :src: bpy.types.NodeGeometryClosureInputItem.socket_type:'COLLECTION'
+#. :src: bpy.types.NodeGeometryClosureOutputItem.socket_type:'COLLECTION'
+#. :src: bpy.types.NodeGeometryCombineBundleItem.socket_type:'COLLECTION'
+#. :src: bpy.types.NodeGeometryEvaluateClosureInputItem.socket_type:'COLLECTION'
+#. :src: bpy.types.NodeGeometryEvaluateClosureOutputItem.socket_type:'COLLECTION'
+#. :src: bpy.types.NodeGeometrySeparateBundleItem.socket_type:'COLLECTION'
+#. :src: bpy.types.NodeInternalSocketTemplate.type:'COLLECTION'
+#. :src: bpy.types.NodeSocket.type:'COLLECTION'
+#. :src: bpy.types.COLLECTION_OT_objects_add_active.collection
+#. :src: bpy.types.COLLECTION_OT_objects_remove.collection
+#. :src: bpy.types.COLLECTION_OT_objects_remove_active.collection
+#. :src: bpy.types.EXPORT_SCENE_OT_fbx.batch_mode:'COLLECTION'
+#. :src: bpy.types.OBJECT_OT_collection_external_asset_drop.collection
+#. :src: bpy.types.OBJECT_OT_collection_instance_add.collection
+#. :src: bpy.types.OBJECT_OT_collection_link.collection
+#. :src: bpy.types.OBJECT_OT_select_grouped.type:'COLLECTION'
+#. :src: bpy.types.OBJECT_OT_select_same_collection.collection
+#. :src: bpy.types.POSE_OT_select_grouped.type:'COLLECTION'
+#. :src: bpy.types.WM_OT_alembic_export.collection
+#. :src: bpy.types.WM_OT_obj_export.collection
+#. :src: bpy.types.WM_OT_usd_export.collection
+#. :src: bpy.types.PARTICLE_PT_render_collection
+#. :src: bpy.types.VIEWLAYER_PT_freestyle_lineset_collection
+#. :src: bpy.types.Property.type:'COLLECTION'
+#. :src: bpy.types.RepeatItem.socket_type:'COLLECTION'
+#. :src: bpy.types.RigidBodyWorld.collection
+#. :src: bpy.types.SimulationStateItem.socket_type:'COLLECTION'
+#. :src: bpy.types.SpaceProperties.show_properties_collection
+#. :src: bpy.types.ThemeUserInterface.icon_collection
+#: scripts/addons_core/io_scene_gltf2/__init__.py:1424
+#: scripts/startup/bl_ui/properties_object.py:274
+#: source/blender/blenkernel/intern/collection.cc:798
+#: source/blender/editors/space_view3d/view3d_buttons.cc:1924
+#: source/blender/nodes/geometry/nodes/node_geo_collection_info.cc:29
+#: source/blender/nodes/geometry/nodes/node_geo_input_collection.cc:13
+msgid "Collection"
+msgstr "Samling"
+
+#. :src: bpy.types.FreestyleLineSet.collection
+msgid "A collection of objects based on which feature edges are selected"
+msgstr "En samling objekt vars funktionskanter väljs"
+
+#. :src: bpy.types.FreestyleLineSet.collection_negation
+msgid ""
+"Specify either inclusion or exclusion of feature edges belonging to a "
+"collection of objects"
+msgstr ""
+"Ange antingen inkludering eller exkludering av funktionskanter som tillhör "
+"en samling objekt"
+
+#. :src: bpy.types.FreestyleLineSet.collection_negation:'INCLUSIVE'
+#. :src: bpy.types.FreestyleLineSet.edge_type_negation:'INCLUSIVE'
+#. :src: bpy.types.FreestyleLineSet.face_mark_negation:'INCLUSIVE'
+msgid "Inclusive"
+msgstr "Inkluderande"
+
+#. :src: bpy.types.FreestyleLineSet.collection_negation:'INCLUSIVE'
+msgid "Select feature edges belonging to some object in the group"
+msgstr "Välj funktionskanter som hör till något objekt i gruppen"
+
+#. :src: bpy.types.FreestyleLineSet.collection_negation:'EXCLUSIVE'
+#. :src: bpy.types.FreestyleLineSet.edge_type_negation:'EXCLUSIVE'
+#. :src: bpy.types.FreestyleLineSet.face_mark_negation:'EXCLUSIVE'
+msgid "Exclusive"
+msgstr "Exkluderande"
+
+#. :src: bpy.types.FreestyleLineSet.collection_negation:'EXCLUSIVE'
+msgid "Select feature edges not belonging to any object in the group"
+msgstr "Välj funktionskanter som inte tillhör något objekt i gruppen"
+
+#. :src: bpy.types.FreestyleLineSet.edge_type_combination
+msgid ""
+"Specify a logical combination of selection conditions on feature edge types"
+msgstr "Ange en logisk kombination av urvalsvillkor för funktionskantstyper"
+
+#. :src: bpy.types.FreestyleLineSet.edge_type_combination:'OR'
+msgid "Select feature edges satisfying at least one of edge type conditions"
+msgstr "Välj funktionskanter som uppfyller minst ett av villkoren för kanttyp"
+
+#. :src: bpy.types.FreestyleLineSet.edge_type_combination:'AND'
+msgid "Select feature edges satisfying all edge type conditions"
+msgstr "Välj funktionskanter som uppfyller alla villkor för kanttyp"
+
+#. :src: bpy.types.FreestyleLineSet.edge_type_negation
+msgid ""
+"Specify either inclusion or exclusion of feature edges selected by edge types"
+msgstr ""
+"Ange antingen inkludering eller exkludering av funktionskanter som valts av "
+"kanttyper"
+
+#. :src: bpy.types.FreestyleLineSet.edge_type_negation:'INCLUSIVE'
+msgid "Select feature edges satisfying the given edge type conditions"
+msgstr "Välj funktionskanter som uppfyller de angivna villkoren för kanttyp"
+
+#. :src: bpy.types.FreestyleLineSet.edge_type_negation:'EXCLUSIVE'
+msgid "Select feature edges not satisfying the given edge type conditions"
+msgstr "Välj funktionskanter som inte uppfyller de givna villkoren för kanttyp"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_border
+#. :src: bpy.types.FreestyleLineSet.select_border
+msgid "Border"
+msgstr "Gräns"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_border
+msgid "Exclude border edges"
+msgstr "Uteslut gränskanter"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_contour
+#. :src: bpy.types.FreestyleLineSet.select_contour
+#. :src: bpy.types.GreasePencilLineartModifier.silhouette_filtering:'NONE'
+msgid "Contour"
+msgstr "Kontur"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_contour
+msgid "Exclude contours"
+msgstr "Uteslut konturer"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_crease
+#. :src: bpy.types.FreestyleLineSet.select_crease
+#. :src: bpy.types.DataTransferModifier.data_types_edges:'CREASE'
+#. :src: bpy.types.ObjectLineArt.crease_threshold
+#. :src: bpy.types.CURVE_OT_extrude.mode:'CREASE'
+#. :src: bpy.types.GRAPH_OT_duplicate.mode:'CREASE'
+#. :src: bpy.types.MESH_OT_wireframe.use_crease
+#. :src: bpy.types.OBJECT_OT_duplicate.mode:'CREASE'
+#. :src: bpy.types.TRANSFORM_OT_transform.mode:'CREASE'
+#: source/blender/editors/transform/transform_mode_customdata.cc:104
+msgid "Crease"
+msgstr "Veck"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_crease
+msgid "Exclude crease edges"
+msgstr "Uteslut veckkanter"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_edge_mark
+#. :src: bpy.types.FreestyleLineSet.select_edge_mark
+msgid "Edge Mark"
+msgstr "Kantmarkering"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_edge_mark
+msgid "Exclude edge marks"
+msgstr "Uteslut kantmarkeringar"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_external_contour
+#. :src: bpy.types.FreestyleLineSet.select_external_contour
+msgid "External Contour"
+msgstr "Extern kontur"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_external_contour
+msgid "Exclude external contours"
+msgstr "Uteslut yttre konturer"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_material_boundary
+#. :src: bpy.types.FreestyleLineSet.select_material_boundary
+#. :src: bpy.types.FreestyleLineStyle.material_boundary
+msgid "Material Boundary"
+msgstr "Materialgräns"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_material_boundary
+msgid "Exclude edges at material boundaries"
+msgstr "Uteslut kanter vid materialgränser"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_ridge_valley
+#. :src: bpy.types.FreestyleLineSet.select_ridge_valley
+msgid "Ridge & Valley"
+msgstr "Åsar och dalar"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_ridge_valley
+msgid "Exclude ridges and valleys"
+msgstr "Uteslut åsar och dalar"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_silhouette
+#. :src: bpy.types.FreestyleLineSet.select_silhouette
+#. :src: bpy.types.GreasePencilLineartModifier.silhouette_filtering:'GROUP'
+msgid "Silhouette"
+msgstr "Silhuett"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_silhouette
+msgid "Exclude silhouette edges"
+msgstr "Uteslut silhuettkanter"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_suggestive_contour
+#. :src: bpy.types.FreestyleLineSet.select_suggestive_contour
+msgid "Suggestive Contour"
+msgstr "Suggestiv kontur"
+
+#. :src: bpy.types.FreestyleLineSet.exclude_suggestive_contour
+msgid "Exclude suggestive contours"
+msgstr "Uteslut suggestiva konturer"
