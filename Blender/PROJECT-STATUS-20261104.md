@@ -21,12 +21,15 @@ Action-begränningen, batch 306 för dess blandningslägen, batch 307 för
 armaturbegränsningen, batch 308 för Child Of-begränsningen, batch 309 för
 kameralösarbegränsningen, batch 310 för Begränsa till-begränsningen, batch
 311 för golvbegränsningen och batch 312 för Följ bana-begränsningen ingår
-också endast lokalt.
+också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil och
+är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
+ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-312.po`
-med 416 poster, som omfattar alla färdiga batcher efter sexdelsimporten. Den
-ersätter tidigare samlingsfiler för detta intervall, är redo för manuell import
-och har inte skickats in eller verifierats i Weblate.
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-314.po`
+med 417 poster, som omfattar alla färdiga batcher efter sexdelsimporten och
+den ersättande Movie Clip-korrigeringen. Den ersätter tidigare samlingsfiler
+för detta intervall, är redo för manuell import och har inte skickats in eller
+verifierats i Weblate.
 
 ## Projektets aktualitet
 
