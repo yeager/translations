@@ -309,6 +309,8 @@ Senast uppdaterad: 2026-11-06.
 | flare (Braid Hair Curves) | utsvängning | Den öppna delen vid flätans spets där hårstråna lossnar eller sprider ut sig. Det är inte en *flärp* eller en mekanisk fläns. |
 | Curve Sculpt / Mesh Sculpt | kurvskulptering / meshskulptering | Resurskataloger för skulptering av kurvor respektive Blenders meshdatatyp. Behåll *mesh* och skriv sammansättningarna ihop. |
 | extension repository | tilläggsarkiv | Det arkiv som Blender Extensions hämtar eller installerar tillägg från. Skilj från ett Git-förråd och från en lokal resurskatalog. |
+| coat / sheen (Principled BSDF) | beläggningsskikt / fiberlyster | *Coat* är ett övre skydds- eller lackskikt. *Sheen* modellerar fina fibrer, sammetseffekt eller damm och är inte samma sak som allmän glans. |
+| emission color / strength | emissionsfärg / emissionsstyrka | Principled BSDF:s färg respektive styrka för ljus som sänds ut från materialytan. |
 | constraint | begränsning | Blender-relation som styr ett objekt eller ben. Skriv sammansättningar som *positionsbegränsning*, *rotationsbegränsning*, *skalbegränsning* och *avståndsbegränsning*. |
 | project axis | projektionsaxel | Axeln som Shrinkwrap projicerar längs. Skilj från ett projekts egen axel. |
 | target normal | målnormal | Normal från målets yta, till exempel i Shrinkwrap-projektion. |
