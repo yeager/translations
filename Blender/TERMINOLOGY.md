@@ -255,6 +255,7 @@ Senast uppdaterad: 2026-11-06.
 | displacement | förskjutning | Material- och shaderkontext. |
 | Vector Displacement | vektorförskjutning | Synlig UI- och manualterm. |
 | opacity | opacitet | Använd i UI-reglage för genomskinlighet, till exempel *Opacitet för omarkerade* i F-kurvinställningarna. |
+| tint color / tint factor | toningsfärg / toningsfaktor | Grease Pencil-lagerfärg som färgar strecken; undvik den sönderdragna formen *färgton färg*. |
 | default settings | standardinställningar | Rubrik för sparade standardval i Inställningar. Följer den befintliga UI-termen för *Defaults*. |
 | Adaptive Subdivision | adaptiv underindelning | UI-belagd form; inte *adaptiv indelning*. |
 | Material Output | materialutdata | UI-belagd renderings- och nodterm. |

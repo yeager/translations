@@ -2319,3 +2319,15 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 varningar från sammanfogade UI-etiketter. Filen är arkiverad och väntar på
 manuell import.
 
+Batch 256 granskar 15 Grease Pencil-strängar för lagertransformationer,
+toningsfärg och lagergrupper. Den rättar bland annat *lagrets skala*,
+*toningsfärg*, *toningsfaktor*, *förskjutning*, *visningslager*,
+*Grease Pencil-grupp* och *aktiv lagergrupp*. Terminologilistan har
+kompletterats med *toningsfärg* och *toningsfaktor*. Samtliga granskade
+poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-256-grease-pencil-layer-transforms.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast tekniska egennamn och en konstgjord
+ordföljdsvarning från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+
