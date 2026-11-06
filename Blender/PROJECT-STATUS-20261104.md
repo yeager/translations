@@ -1283,3 +1283,10 @@ transformations- och bakningsbeskrivningar. Deltafilen
 innehåller endast de granskade posterna utan `fuzzy`-markeringar och passerar
 `msgfmt`, l10n-lint och diffkontroll. Den är arkiverad men ännu inte
 verifierat importerad till Blender Translate.
+
+För manuell import finns dessutom den samlade deltafilen
+`blender-ui-sv-reviewed-20261106-batches-156-159.po`. Den innehåller **39**
+unika, granskade strängar från batch 156--159 och ligger under Weblates
+100-strängarsgräns. Den har inga `fuzzy`-markeringar och passerar `msgfmt`,
+l10n-lint och diffkontroll. Något importresultat för denna samlade fil är ännu
+inte verifierat.
