@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-365.po`
-med 973 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-366.po`
+med 983 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3075,5 +3075,12 @@ metabollar och saknade NLA-data. Den använder den direkta hjälptextformen
 *Visa även …*, behåller Blenders datatypnamn *mesh* och använder den
 svenska UI-termen *metaboll*. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-365-dope-sheet-display-filters-b.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 366 granskar tio Dopebladsfilter för modifierardata, filmklipp, noder,
+fel och urval. Hjälptexterna normaliseras till direkta filterinstruktioner
+med *Visa även* eller *Visa endast*, och *utvalda* ersätts med Blenders
+konsekventa UI-term *valda*. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-366-dope-sheet-filtering-and-selection.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
