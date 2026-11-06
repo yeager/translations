@@ -209,6 +209,7 @@ Senast uppdaterad: 2026-11-06.
 | face set | ytuppsättning | Skulpteringsgrupp för mesh-ytor; använd inte *ansiktsuppsättning*. |
 | Group Input / Output | gruppindata / grupputdata | Exponerar data mellan en nodgrupp och dess gränssnitt. |
 | subsurface scattering | underytsspridning | Ljusets spridning under en materials yta; inte *underjordisk*. |
+| subsurface translucency | underytsgenomskinlighet | Materialinställning för genomsläppt ljus under ytan. Skilj från *underytsspridning*, som är scattering. |
 | clamp (node operation) | begränsa | Begränsar ett värde till ett intervall. Noden använder *begränsningstyp* och *min/max*. |
 | normal mapping | normalkartläggning | Använd exempelvis *normalkartläggning i tangentrymd* och *i objektrymd*. |
 | reroute | omdirigering | Blenders nod och Node Wrangler-funktion. Sammanfoga som *omdirigeringsnod*. |
