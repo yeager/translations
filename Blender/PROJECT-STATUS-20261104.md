@@ -1232,3 +1232,10 @@ rättar bland annat filbläddrarens *sökväg*, *filmklippsanvändare*,
 *stereo*. Deltafilen `blender-ui-sv-reviewed-20261106-154.po` saknar
 `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, diffkontroll och
 Gitleaks.
+
+Batch 155 granskar åtta kurv- och kurvkartläggningssträngar genom en separat
+peer review. Den ersätter felaktiga *bana* och *kurvmappning* med projektets
+termer *kurva* och *kurvkartläggning*, och normaliserar bland annat
+*kurvdatablock*, *kurvförskjutningar* och *klumpavsmalning*. Deltafilen
+`blender-ui-sv-reviewed-20261106-155.po` saknar `fuzzy`-markeringar och
+passerar `msgfmt`, l10n-lint, diffkontroll och Gitleaks.
