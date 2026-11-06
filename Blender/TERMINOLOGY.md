@@ -153,6 +153,7 @@ Senast uppdaterad: 2026-11-06.
 | Interface Font | Teckensnitt för gränssnittet | Följer den aktuella svenska UI-etiketten. |
 | lighting node | belysningsnod | Använd i saktext; behåll engelska nodnamn där de är produktnamn. |
 | point / sun / spot / area light | punktljus / solljus / strålkastare / områdesljus | Blenders ljustyper. Översätt efter ljuskontexten; *Point* är inte poäng, *Sun* är inte veckodagen och *Power* är effekt. |
+| soft falloff / raytraced shadow | mjukt avtagande / strålspårad skugga | Ljusets avtagande respektive skugga som beräknas med strålspårning. Behåll inte det oöversatta *falloff*. |
 | geometry node | geometrinod | Svensk sammansättning i förklarande UI-text. |
 | node socket interface | noduttagsgränssnitt | RNA-typnamn för ett uttag i ett nodträdsgränssnitt. Behåll fog-s: *färgnoduttagsgränssnitt*, inte *färgnoduttaggränssnitt*. |
 | Mix node | blandningsnod | Node Wranglers synliga menyval *Use Mix Nodes* är *Använd blandningsnoder*. |
