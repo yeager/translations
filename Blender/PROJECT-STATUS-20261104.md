@@ -1,5 +1,7 @@
 # Blender: projektstatus 5 november 2026
 
+Senaste lokala arbete: 6 november 2026.
+
 ## Projektets aktualitet
 
 Blender uppfyller aktualitetskravet. Den officiella nedladdningssidan anger
@@ -1336,3 +1338,16 @@ Batch 164 granskar fyra Asset Browser-poster. Den återställer betydelsen av
 `blender-ui-sv-reviewed-20261106-batch-164-asset-libraries.po` saknar
 `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint och diffkontroll. Den är
 arkiverad men ännu inte verifierat importerad till Blender Translate.
+
+Batch 165 granskar fjorton poster i Action-systemets API-hjälp och
+operatorstexter. Den rättar bland annat de semantiskt felaktiga formerna
+*åtgärdsplats*, *handlingslucka*, *spår* och *spelautomat* till den
+projektspecifika termen *åtgärdsslot*. Python-identifierare som
+`action.slots.active`, `animated_id`, `constraint` och `nla_strip` lämnas
+oförändrade. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-165-action-slots.po` innehåller 14
+poster, saknar `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint,
+diffkontroll och Gitleaks. `svlang` rapporterar endast falska positiva för
+API-identifierare, understrecksmarkering och den tekniska termen
+*åtgärdsslot*. Filen är arkiverad och väntar på manuell import till Blender
+Translate.

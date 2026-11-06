@@ -1020,7 +1020,7 @@ msgstr "Åtgärdens F-kurvor"
 #. :src: bpy.types.ActionFCurves
 #, fuzzy
 msgid "Collection of action F-Curves. Note that this is a legacy API that is unaware of action slots, and will only consider the F-Curves for this action's first slot"
-msgstr "Samling av F-kurvor för åtgärd. Observera att detta är ett äldre API som inte känner till åtgärdsplatser och endast beaktar F-kurvorna för åtgärdens första åtgärdsplats"
+msgstr "Samling av åtgärdens F-kurvor. Observera att detta är ett äldre API som inte känner till åtgärdsslotar och endast beaktar F-kurvorna för åtgärdens första åtgärdsslot"
 
 #. :src: bpy.types.ActionGroup
 #, fuzzy
@@ -1592,7 +1592,7 @@ msgstr "Aktiv"
 #. :src: bpy.types.ActionSlot.active
 #, fuzzy
 msgid "Whether this is the active slot, can be set by assigning to action.slots.active"
-msgstr "Anger om detta är den aktiva åtgärdsplatsen. Kan ställas in genom tilldelning till action.slots.active"
+msgstr "Anger om detta är den aktiva åtgärdsslotten. Kan ställas in genom tilldelning till action.slots.active"
 
 #. :src: bpy.types.ActionSlot.handle
 #, fuzzy
@@ -1626,7 +1626,7 @@ msgstr "Visningsnamn för åtgärdsslot"
 #. :src: bpy.types.ActionSlot.name_display
 #, fuzzy
 msgid "Name of the slot, for display in the user interface. This name combined with the slot's data-block type is unique within its Action"
-msgstr "Slottens namn, för visning i användargränssnittet. Detta namn kombinerat med slotens datablockstyp är unikt inom dess Action"
+msgstr "Åtgärdsslotens namn för visning i användargränssnittet. Tillsammans med åtgärdsslotens datablockstyp är namnet unikt inom åtgärden"
 
 #. :src: bpy.types.ActionSlot.select
 #, fuzzy
@@ -2374,7 +2374,7 @@ msgstr "Ospecificerad"
 #. :src: bpy.types.Action.id_root:'UNSPECIFIED'
 #, fuzzy
 msgid "Not yet specified. When this slot is first assigned to a data-block, this will be set to the type of that data-block"
-msgstr "Ännu inte angiven. När slotten först tilldelas ett datablock anges den till datablockets typ"
+msgstr "Inte angiven ännu. När åtgärdsslotten först tilldelas ett datablock ställs den in på datablockets typ"
 
 #. :src: bpy.types.ActionSlots
 #. :src: bpy.types.ActionConstraint.action_suitable_slots
@@ -36290,7 +36290,7 @@ msgstr "Grupper"
 #. :src: bpy.types.Action.groups
 #, fuzzy
 msgid "Legacy API, for backward compatibility with code that does not handle slotted actions yet. This collection contains the F-Curve groups for the action's first slot"
-msgstr "Äldre API, för bakåtkompatibilitet med kod som ännu inte hanterar slotted actions. Denna samling innehåller F-kurvgrupperna för åtgärdens första slot"
+msgstr "Äldre API för bakåtkompatibilitet med kod som ännu inte hanterar åtgärder med slotar. Denna samling innehåller F-kurvgrupperna för åtgärdens första åtgärdsslot"
 
 #. :src: bpy.types.Action.id_root
 #, fuzzy
@@ -36301,7 +36301,7 @@ msgstr "ID-rotens typ"
 #. :src: bpy.types.Action.id_root
 #, fuzzy
 msgid "Legacy API, for backward compatibility with code that does not handle slotted actions yet. Type of data-block that the action's first slot can be used on. Do not change unless you know what you are doing"
-msgstr "Äldre API, för bakåtkompatibilitet med kod som ännu inte hanterar slotted actions. Typ av datablock som åtgärdens första slot kan användas på. Ändra inte om du inte vet vad du gör"
+msgstr "Äldre API för bakåtkompatibilitet med kod som ännu inte hanterar åtgärder med slotar. Typ av datablock som åtgärdens första åtgärdsslot kan användas på. Ändra inte om du inte vet vad du gör"
 
 #. :src: bpy.types.Action.is_action_layered
 #, fuzzy
@@ -75930,7 +75930,7 @@ msgstr "Mängd som remsan bidrar med till det aktuella resultatet"
 #. :src: bpy.types.NlaStrip.last_slot_identifier
 #, fuzzy
 msgid "The identifier of the most recently assigned action slot. The slot identifies which sub-set of the Action is considered to be for this strip, and its identifier is used to find the right slot when assigning an Action."
-msgstr "Identifieraren för den senast tilldelade handlingsluckan. Spåret identifierar vilken delmängd av åtgärden som anses vara för den här remsan, och dess identifierare används för att hitta rätt spår när en åtgärd tilldelas."
+msgstr "Identifieraren för den senast tilldelade åtgärdsslotten. Åtgärdsslotten anger vilken delmängd av åtgärden som avses för den här remsan, och dess identifierare används för att hitta rätt åtgärdsslot när en åtgärd tilldelas."
 
 #. :src: bpy.types.NlaStrip.modifiers
 #, fuzzy
@@ -89001,22 +89001,22 @@ msgid ""
 "    animation data of the assigned slot will be duplicated for the new slot.\n"
 "    "
 msgstr ""
-"Skapa en ny Action Slot för ett ID.\n"
+"Skapa en ny åtgärdsslot för ett ID.\n"
 "\n"
-"    Observera att _vilket_ ID som ska få denna slot måste ställas in i kontextpekaren 'animated_id' med hjälp av:\n"
+"    Observera att _vilket_ ID som ska få den här åtgärdsslotten måste anges i kontextpekaren 'animated_id' med:\n"
 "\n"
 "    >>> layout.context_pointer_set(\"animated_id\", animated_id)\n"
 "\n"
-"    Om ID:t redan har en slot tilldelad kommer den nyskapade sloten att\n"
-"    uppkallad efter den (vilket säkerställer unikhet med ett numeriskt suffix) och alla\n"
-"    animeringsdata för den tilldelade kortplatsen dupliceras för den nya kortplatsen.\n"
+"    Om ID:t redan har en tilldelad åtgärdsslot får den nya slotten samma namn\n"
+"    (med ett numeriskt suffix för att säkerställa unikhet) och alla animationsdata från\n"
+"    den tilldelade åtgärdsslotten dupliceras till den nya åtgärdsslotten.\n"
 "    "
 
 #. :src: bpy.types.ANIM_OT_slot_new_for_id
 #, fuzzy
 msgctxt "Operator"
 msgid "New Slot"
-msgstr "Ny spelautomat"
+msgstr "Ny åtgärdsslot"
 
 #. :src: bpy.types.ANIM_OT_slot_unassign_from_constraint
 #, fuzzy
@@ -89029,12 +89029,12 @@ msgid ""
 "    >>> layout.context_pointer_set(\"constraint\", constraint)\n"
 "    "
 msgstr ""
-"Ta bort tilldelningen av den tilldelade åtgärdsplatsen från en åtgärdsbegränsning.\n"
+"Ta bort tilldelningen av åtgärdsslotten från en åtgärdsbegränsning.\n"
 "\n"
-"    Observera att _vilken_ begränsning som ska få den här platsen otilldelad måste anges i\n"
-"    kontextpekaren \"constraint\", med hjälp av:\n"
+"    Observera att _vilken_ begränsning som ska få åtgärdsslotten borttagen måste anges i\n"
+"    kontextpekaren \"constraint\" med:\n"
 "\n"
-"    >>> layout.context_pointer_set(\"constraint\", begränsning)\n"
+"    >>> layout.context_pointer_set(\"constraint\", constraint)\n"
 "    "
 
 #. :src: bpy.types.ANIM_OT_slot_unassign_from_constraint
@@ -89043,7 +89043,7 @@ msgstr ""
 #, fuzzy
 msgctxt "Operator"
 msgid "Unassign Slot"
-msgstr "Avaktivera plats"
+msgstr "Ta bort slot-tilldelning"
 
 #. :src: bpy.types.ANIM_OT_slot_unassign_from_id
 #, fuzzy
@@ -89056,10 +89056,10 @@ msgid ""
 "    >>> layout.context_pointer_set(\"animated_id\", animated_id)\n"
 "    "
 msgstr ""
-"Ta bort tilldelningen av en Action Slot från ett ID.\n"
+"Ta bort tilldelningen av åtgärdsslotten från ett ID.\n"
 "\n"
-"    Observera att _vilket_ ID som ska få denna slot avaktiverad måste anges i kontextpekaren\n"
-"    \"animated_id\" kontextpekaren, med hjälp av:\n"
+"    Observera att _vilket_ ID som ska få åtgärdsslotten borttagen måste anges i\n"
+"    kontextpekaren \"animated_id\" med:\n"
 "\n"
 "    >>> layout.context_pointer_set(\"animated_id\", animated_id)\n"
 "    "
@@ -89075,10 +89075,10 @@ msgid ""
 "    >>> layout.context_pointer_set(\"nla_strip\", nla_strip)\n"
 "    "
 msgstr ""
-"Ta bort tilldelningen av den tilldelade åtgärdsplatsen från en NLA-remsa.\n"
+"Ta bort tilldelningen av åtgärdsslotten från en NLA-remsa.\n"
 "\n"
-"    Observera att _vilken_ NLA-remsa som ska få denna slot avaktiverad måste anges i\n"
-"    kontextpekaren \"nla_strip\", med hjälp av:\n"
+"    Observera att _vilken_ NLA-remsa som ska få åtgärdsslotten borttagen måste anges i\n"
+"    kontextpekaren \"nla_strip\" med:\n"
 "\n"
 "    >>> layout.context_pointer_set(\"nla_strip\", nla_strip)\n"
 "    "
