@@ -1299,3 +1299,12 @@ visar Blender Translate **100 %** för UI-katalogen.
 Blender Translate accepterar granskade importbatchar om högst **1 000
 strängar**. Större filer ska delas upp före uppladdning eftersom importen kan
 hänga.
+
+Batch 160 granskar fjorton noder, geometrioperationer och exportetiketter med
+tre parallella kontextgenomgångar. Den normaliserar bland annat
+`4x4-matris`, vektorer med signerade 16- och 32-bitarsheltal, *sinus*,
+*utjämning*, Blenders pluralform *mesh* och uppåtriktade koordinataxlar.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-160-nodes-geometry.po`
+innehåller endast de granskade posterna utan `fuzzy`-markeringar och passerar
+`msgfmt`, l10n-lint och diffkontroll. Den är arkiverad men ännu inte
+verifierat importerad till Blender Translate.
