@@ -110,6 +110,7 @@ Senast uppdaterad: 2026-11-06.
 | Copy Location / Copy Location Constraint | Kopiera position / Kopiera position-begränsning | Constraint som kopierar ett måls position. Använd *position*, inte den vardagliga och i 3D-kontexten tvetydiga formen *plats*. |
 | Copy Rotation / Copy Rotation Constraint | Kopiera rotation / Kopiera rotation-begränsning | Constraint som kopierar ett måls rotation. Behåll *Euler* och axelordningen (`XYZ`, `XZY` osv.) i de tekniska rotationslägena. |
 | Copy Scale / Copy Scale Constraint | Kopiera skala / Kopiera skala-begränsning | Constraint som kopierar ett måls skala. *Potens*, *additiv* och *Gör enhetlig* avser respektive exponentiering, additionsläge och jämn omfördelning av volymändring. |
+| Copy Transforms / Copy Transforms Constraint | Kopiera transformationer / Kopiera transformationer-begränsning | Constraint som kopierar position, rotation och skala. Blandningslägenas hjälptext använder *fullständig ärvd skalning*, *justerad ärvd skalning* och *delade kanaler*. |
 | Clamp To | Begränsa till | Begränsning som placerar ett objekt vid närmaste punkt på en målkurva. I den tekniska typetiketten används *Begränsning: Begränsa till*. |
 | transform / transformation | transformera / transformation | Använd *transformation* för Blenders egenskap, begränsning och kanaler. Blanda inte med den bredare betydelsen *omvandling*. |
 | offset | förskjutning | Relativ rotations-, positions- eller skaländring i en begränsning. |
