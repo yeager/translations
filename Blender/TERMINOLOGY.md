@@ -412,6 +412,7 @@ Senast uppdaterad: 2026-11-06.
 | boundary deformation | gränsdeformering | Deformationsläge som påverkar ett område utifrån en meshgräns. |
 | cloth damping | tygdämpning | Reglerar hur långt applicerade krafter fortplantas i penselns tygsimulering. |
 | simulation falloff | simuleringsavklingning | Område där tygsimuleringens deformation gradvis avtar. |
+| simulation area | simuleringsområde | Den del av meshen som beräknas medan ett penseldrag är aktivt. |
 | pinch point | nypunkt | Deformationsläge som drar den simulerade ytan mot en bestämd punkt. |
 | crease / pinch factor | fåra-/nypningsfaktor | Skulpteringsfaktor som styr fårning eller nypning av ytan. |
 | rake factor / topology rake | krattningsfaktor / topologisk krattning | Skulpteringsinställning som följer och riktar penseldrag efter topologin. |

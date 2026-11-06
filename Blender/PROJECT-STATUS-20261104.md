@@ -2458,3 +2458,14 @@ Hunspell och `svlang` markerar enbart de avsiktliga facksammansättningarna
 från sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell
 import.
 
+Batch 267 granskar 5 strängar för tygsimuleringens aktiva område och
+begränsning. Den förtydligar var simuleringens deformationsverkan avtar,
+att begränsningsfaktorn relateras till radien och att det aktiva
+simuleringsområdet flyttas med penseln. Terminologilistan har kompletterats
+med *simuleringsområde*. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-267-brush-cloth-simulation-area.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
+Gitleaks. Hunspell markerar endast den etablerade Blenderformen *meshen*.
+Filen är arkiverad och väntar på manuell import.
+
