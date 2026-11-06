@@ -1942,3 +1942,15 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 221 granskar 28 poster för färggradienter, färgstopp och
+interpolering. Den ersätter det onödiga lånet *färgramp* med
+*färggradient*, normaliserar *färginterpolering* och rättar de matematiska
+interpoleringstyperna *Utjämnad*, *Kardinal* och *B-spline*. Terminologilistan
+har uppdaterats med den återkommande UI-termen. Samtliga granskade poster har
+fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-221-color-gradients.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast etablerade Blender- och facktermer samt konstgjorda längd-
+och V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+

@@ -102,6 +102,7 @@ Senast uppdaterad: 2026-11-06.
 | Subpixel Anti-Aliasing | Kantutjämning på subpixelnivå | Följer den aktuella svenska UI-etiketten. |
 | font hinting | teckensnittshintning | Inställning som styr teckenplacering och skärpa i textåtergivning. Den aktuella UI-exportens *Teckensnittshinting* bör hanteras som en separat UI-rättelse, inte kopieras in i manualprosan. |
 | point sampling | punktprovtagning | Pipettläge som samplar enskilda punkter till en färggradient. Använd i förklarande UI-former; det dolda tangentbindningsnamnet är *Modal mappning för punktprovtagning med färggradients-pipett*. |
+| Color Ramp | färggradient | Gradient mellan definierade färgstopp; undvik det omotiverade lånet *färgramp*. |
 | multisampling | multisampling | Etablerad datorgrafikterm för flera bildprover per pixel, här i Dynamic Paints kantutjämning. Blanda inte ihop med *multisimulering*. |
 | Dynamic Paint canvas surface | Dynamic Paint-dukyta | En simulerad yta som tar emot eller visar Dynamic Paint. I plural: *Dynamic Paint-dukytor*. |
 | point cache | punktcache | Simuleringscache för punktsystem; skriv ihop. |

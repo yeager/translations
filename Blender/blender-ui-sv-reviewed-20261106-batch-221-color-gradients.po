@@ -1,0 +1,254 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.ColorMapping.color_ramp
+#. :src: bpy.types.ColorRamp
+#. :src: bpy.types.FluidDomainSettings.color_ramp
+#. :src: bpy.types.Texture.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_AlongStroke.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_CreaseAngle.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_Curvature_3D.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_DistanceFromCamera.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_DistanceFromObject.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_Material.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_Noise.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_Tangent.color_ramp
+#. :src: bpy.types.GreasePencilTintModifier.color_ramp
+#. :src: bpy.types.CompositorNodeValToRGB
+#. :src: bpy.types.CompositorNodeValToRGB.color_ramp
+#. :src: bpy.types.ShaderNodeValToRGB
+#. :src: bpy.types.ShaderNodeValToRGB.color_ramp
+#. :src: bpy.types.TextureNodeValToRGB
+#. :src: bpy.types.TextureNodeValToRGB.color_ramp
+#. :src: bpy.types.TEXTURE_PT_colors_ramp
+msgid "Color Ramp"
+msgstr "Färggradient"
+
+#. :src: bpy.types.ColorMapping.contrast
+#. :src: bpy.types.Texture.contrast
+#. :src: bpy.types.CompositorNodeTonemap.contrast
+#. :src: bpy.types.GREASE_PENCIL_OT_vertex_color_brightness_contrast.contrast
+#. :src: bpy.types.PAINT_OT_vertex_color_brightness_contrast.contrast
+#. :src: bpy.types.SCULPT_OT_color_filter.type:'CONTRAST'
+#. :src: bpy.types.BrightContrastModifier.contrast
+#. :src: bpy.types.SequencerTonemapModifierData.contrast
+#. :src: Asset catalog from blender_assets.cats.txt
+#: source/blender/nodes/composite/nodes/node_composite_brightness.cc:32
+#: source/blender/nodes/composite/nodes/node_composite_colorcorrection.cc:45
+#: source/blender/nodes/composite/nodes/node_composite_colorcorrection.cc:77
+#: source/blender/nodes/composite/nodes/node_composite_colorcorrection.cc:109
+#: source/blender/nodes/composite/nodes/node_composite_colorcorrection.cc:141
+#: source/blender/nodes/composite/nodes/node_composite_tonemap.cc:64
+#: source/blender/nodes/shader/nodes/node_shader_brightness.cc:17
+msgid "Contrast"
+msgstr "Kontrast"
+
+#. :src: bpy.types.ColorMapping.contrast
+#. :src: bpy.types.Texture.contrast
+msgid "Adjust the contrast of the texture"
+msgstr "Justera kontrasten i texturen"
+
+#. :src: bpy.types.ColorMapping.saturation
+#. :src: bpy.types.Texture.saturation
+msgid "Adjust the saturation of colors in the texture"
+msgstr "Justera mättnaden av färgerna i texturen"
+
+#. :src: bpy.types.ColorMapping.use_color_ramp
+#. :src: bpy.types.Texture.use_color_ramp
+msgid "Use Color Ramp"
+msgstr "Använd färggradient"
+
+#. :src: bpy.types.ColorMapping.use_color_ramp
+msgid "Toggle color ramp operations"
+msgstr "Växla åtgärder för färggradient"
+
+#. :src: bpy.types.ColorRamp
+msgid "Color ramp mapping a scalar value to a color"
+msgstr "Färggradient som avbildar ett skalärt värde på en färg"
+
+#. :src: bpy.types.ColorRamp.color_mode
+#. :src: bpy.types.FCurve.color_mode
+#. :src: bpy.types.ImageFormatSettings.color_mode
+#. :src: bpy.types.NODE_OT_nw_batch_change.blend_type:'COLOR'
+#. :src: bpy.types.NODE_OT_nw_merge_nodes.mode:'COLOR'
+msgid "Color Mode"
+msgstr "Färgläge"
+
+#. :src: bpy.types.ColorRamp.color_mode
+msgid "Set color mode to use for interpolation"
+msgstr "Ange färgläge som ska användas för interpolering"
+
+#. :src: bpy.types.ColorRamp.color_mode:'RGB'
+#. :src: bpy.types.FieldSettings.texture_mode:'RGB'
+#. :src: bpy.types.ImageFormatSettings.color_mode:'RGB'
+#. :src: bpy.types.CompositorNodeChannelMatte.color_space:'RGB'
+#. :src: bpy.types.CompositorNodeCombineColor.mode:'RGB'
+#. :src: bpy.types.CompositorNodeDistanceMatte.channel:'RGB'
+#. :src: bpy.types.CompositorNodeInvert.invert_rgb
+#. :src: bpy.types.CompositorNodeRGB
+#. :src: bpy.types.CompositorNodeSeparateColor.mode:'RGB'
+#. :src: bpy.types.FunctionNodeCombineColor.mode:'RGB'
+#. :src: bpy.types.FunctionNodeSeparateColor.mode:'RGB'
+#. :src: bpy.types.ShaderNodeCombineColor.mode:'RGB'
+#. :src: bpy.types.ShaderNodeRGB
+#. :src: bpy.types.ShaderNodeSeparateColor.mode:'RGB'
+#. :src: bpy.types.TextureNodeCombineColor.mode:'RGB'
+#. :src: bpy.types.TextureNodeSeparateColor.mode:'RGB'
+#: source/blender/editors/interface/regions/interface_region_color_picker.cc:540
+msgid "RGB"
+msgstr "RGB"
+
+#. :src: bpy.types.ColorRamp.color_mode:'HSV'
+#. :src: bpy.types.CompositorNodeChannelMatte.color_space:'HSV'
+#. :src: bpy.types.CompositorNodeCombineColor.mode:'HSV'
+#. :src: bpy.types.CompositorNodeSeparateColor.mode:'HSV'
+#. :src: bpy.types.FunctionNodeCombineColor.mode:'HSV'
+#. :src: bpy.types.FunctionNodeSeparateColor.mode:'HSV'
+#. :src: bpy.types.ShaderNodeCombineColor.mode:'HSV'
+#. :src: bpy.types.ShaderNodeSeparateColor.mode:'HSV'
+#. :src: bpy.types.TextureNodeCombineColor.mode:'HSV'
+#. :src: bpy.types.TextureNodeSeparateColor.mode:'HSV'
+msgid "HSV"
+msgstr "HSV"
+
+#. :src: bpy.types.ColorRamp.color_mode:'HSL'
+#. :src: bpy.types.CompositorNodeCombineColor.mode:'HSL'
+#. :src: bpy.types.CompositorNodeSeparateColor.mode:'HSL'
+#. :src: bpy.types.FunctionNodeCombineColor.mode:'HSL'
+#. :src: bpy.types.FunctionNodeSeparateColor.mode:'HSL'
+#. :src: bpy.types.ShaderNodeCombineColor.mode:'HSL'
+#. :src: bpy.types.ShaderNodeSeparateColor.mode:'HSL'
+#. :src: bpy.types.TextureNodeCombineColor.mode:'HSL'
+#. :src: bpy.types.TextureNodeSeparateColor.mode:'HSL'
+msgid "HSL"
+msgstr "HSL"
+
+#. :src: bpy.types.ColorRamp.elements
+#. :src: bpy.types.MetaBall.elements
+#. :src: bpy.types.MESH_OT_sort_elements.elements
+#. :src: bpy.types.ImageStrip.elements
+#. :src: bpy.types.MovieStrip.elements
+msgid "Elements"
+msgstr "Element"
+
+#. :src: bpy.types.ColorRamp.hue_interpolation
+msgid "Color Interpolation"
+msgstr "Färginterpolering"
+
+#. :src: bpy.types.ColorRamp.hue_interpolation
+msgid "Set color interpolation"
+msgstr "Ställ in färginterpolering"
+
+#. :src: bpy.types.ColorRamp.hue_interpolation:'NEAR'
+#: source/blender/modifiers/intern/MOD_lineart.cc:383
+msgid "Near"
+msgstr "Nära"
+
+#. :src: bpy.types.ColorRamp.hue_interpolation:'FAR'
+#: scripts/startup/bl_ui/properties_render.py:452
+#: source/blender/modifiers/intern/MOD_lineart.cc:384
+msgid "Far"
+msgstr "Långt bort"
+
+#. :src: bpy.types.ColorRamp.interpolation
+#. :src: bpy.types.FluidDomainSettings.display_interpolation
+#. :src: bpy.types.ImageTexture.use_interpolation
+#. :src: bpy.types.MeshCacheModifier.interpolation
+#. :src: bpy.types.CompositorNodeCornerPin.interpolation
+#. :src: bpy.types.CompositorNodeScale.interpolation
+#. :src: bpy.types.GeometryNodeImageTexture.interpolation
+#. :src: bpy.types.ShaderNodeTexEnvironment.interpolation
+#. :src: bpy.types.ShaderNodeTexImage.interpolation
+#. :src: bpy.types.ShaderNodeTexPointDensity.interpolation
+#. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.interpolation
+#. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.interpolation
+#. :src: bpy.types.MESH_OT_bridge_edge_loops.interpolation
+#. :src: bpy.types.MESH_OT_subdivide_edgering.interpolation
+#. :src: bpy.types.WM_OT_xr_navigation_teleport.interpolation
+#. :src: bpy.types.ImagePaint.interpolation
+#. :src: bpy.types.ShapeKey.interpolation
+#. :src: bpy.types.TransformStrip.interpolation
+#. :src: bpy.types.VolumeDisplay.interpolation_method
+#: scripts/addons_core/cycles/ui.py:1790 scripts/addons_core/cycles/ui.py:1966
+#: scripts/startup/bl_ui/properties_mask_common.py:158
+#: scripts/startup/bl_ui/space_sequencer.py:1652
+#: source/blender/editors/space_node/drawnode.cc:423
+msgid "Interpolation"
+msgstr "Interpolering"
+
+#. :src: bpy.types.ColorRamp.interpolation
+msgid "Set interpolation between color stops"
+msgstr "Ställ in interpolering mellan färgstopp"
+
+#. :src: bpy.types.ColorRamp.interpolation:'EASE'
+#. :src: bpy.types.MaskSpline.weight_interpolation:'EASE'
+#. :src: bpy.types.Spline.radius_interpolation:'EASE'
+#. :src: bpy.types.Spline.tilt_interpolation:'EASE'
+#. :src: bpy.types.Spline.type:'NURBS'
+#: scripts/addons_core/rigify/rigs/skin/basic_chain.py:540
+msgid "Ease"
+msgstr "Utjämnad"
+
+#. :src: bpy.types.ColorRamp.interpolation:'CARDINAL'
+#. :src: bpy.types.Lattice.interpolation_type_u:'KEY_CARDINAL'
+#. :src: bpy.types.Lattice.interpolation_type_v:'KEY_CARDINAL'
+#. :src: bpy.types.Lattice.interpolation_type_w:'KEY_CARDINAL'
+#. :src: bpy.types.UV_OT_pack_islands.rotate_method:'CARDINAL'
+#. :src: bpy.types.ShapeKey.interpolation:'KEY_CARDINAL'
+#. :src: bpy.types.Spline.radius_interpolation:'CARDINAL'
+#. :src: bpy.types.Spline.tilt_interpolation:'CARDINAL'
+msgid "Cardinal"
+msgstr "Kardinal"
+
+#. :src: bpy.types.ColorRamp.interpolation:'B_SPLINE'
+#. :src: bpy.types.ParticleSettings.use_hair_bspline
+msgid "B-Spline"
+msgstr "B-spline"
+
+#. :src: bpy.types.ColorRamp.interpolation:'CONSTANT'
+#. :src: bpy.types.FCurve.extrapolation:'CONSTANT'
+#. :src: bpy.types.Brush.boundary_falloff_type:'CONSTANT'
+#. :src: bpy.types.NODE_MT_category_compositor_input_constant
+#. :src: bpy.types.ANIM_OT_channels_bake.interpolation_type:'CONST'
+#: source/blender/nodes/shader/nodes/node_shader_light_falloff.cc:23
+msgid "Constant"
+msgstr "Konstant"
+
+#. :src: bpy.types.ColorRampElement
+msgid "Color Ramp Element"
+msgstr "Färggradientselement"
+
+#. :src: bpy.types.ColorRampElement
+msgid "Element defining a color at a position in the color ramp"
+msgstr "Element som definierar en färg vid en position i färggradienten"
+
+#. :src: bpy.types.ColorRampElement.alpha
+msgid "Set alpha of selected color stop"
+msgstr "Ställ in alfa för valt färgstopp"
+
+#. :src: bpy.types.ColorRampElement.color
+msgid "Set color of selected color stop"
+msgstr "Ställ in färg för valt färgstopp"
