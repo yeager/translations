@@ -2549,3 +2549,17 @@ Multires-penslarna. Samtliga granskade poster får sina
 Filen kontrolleras med `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
 Gitleaks före arkivering. Filen väntar därefter på manuell import.
 
+Batch 275 granskar 28 strängar för penseldragsmetoder, penselavtryck,
+ytutjämning och topologisk krattning. Blenders egen manual bekräftar att
+*Spacing* styr avståndet mellan penselavtryck och att *Topology Rake* riktar
+kanterna efter penseldragets riktning. Därför används bland annat
+*penseldragsmetod*, *Avstånd*, *penselavtryck*, *sprutpistol*,
+*hörnpunkt* och *topologisk krattning*. Terminologilistan har kompletterats
+med de återkommande inställningsnamnen. Samtliga granskade poster får sina
+`fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-275-brush-stroke-and-smoothing.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
+`svlang` ger endast en konstgjord varning eftersom korta UI-etiketter läses
+som en sammanfogad mening. Gitleaks körs före arkivering. Filen väntar
+därefter på manuell import.
+

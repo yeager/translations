@@ -38295,7 +38295,7 @@ msgstr "Hur stark penselns effekt är när den tillämpas"
 #, fuzzy
 msgctxt "GPencil"
 msgid "Stroke Method"
-msgstr "Stroke-metod"
+msgstr "Penseldragsmetod"
 
 #. :src: bpy.types.Brush.stroke_method:'DOTS'
 #, fuzzy
@@ -38306,13 +38306,13 @@ msgstr "Punkter"
 #. :src: bpy.types.Brush.stroke_method:'DOTS'
 #, fuzzy
 msgid "Apply paint on each mouse move step"
-msgstr "Applicera färg på varje steg i musrörelsen"
+msgstr "Applicera färg vid varje steg i musrörelsen"
 
 #. :src: bpy.types.Brush.stroke_method:'DRAG_DOT'
 #, fuzzy
 msgctxt "GPencil"
 msgid "Drag Dot"
-msgstr "Dragpunkt"
+msgstr "Dra punkt"
 
 #. :src: bpy.types.Brush.stroke_method:'DRAG_DOT'
 #, fuzzy
@@ -38324,25 +38324,25 @@ msgstr "Gör det möjligt att placera en enda punkt noggrant"
 #, fuzzy
 msgctxt "GPencil"
 msgid "Space"
-msgstr "Rymden"
+msgstr "Avstånd"
 
 #. :src: bpy.types.Brush.stroke_method:'SPACE'
 #. :src: bpy.types.Brush.use_space
 #, fuzzy
 msgid "Limit brush application to the distance specified by spacing"
-msgstr "Begränsa penselappliceringen till det avstånd som anges av avståndet"
+msgstr "Begränsa penseltillämpningen till avståndet som anges av inställningen Avstånd"
 
 #. :src: bpy.types.Brush.stroke_method:'AIRBRUSH'
 #, fuzzy
 msgctxt "GPencil"
 msgid "Airbrush"
-msgstr "Airbrush"
+msgstr "Sprutpistol"
 
 #. :src: bpy.types.Brush.stroke_method:'AIRBRUSH'
 #. :src: bpy.types.Brush.use_airbrush
 #, fuzzy
 msgid "Keep applying paint effect while holding mouse (spray)"
-msgstr "Fortsätt att använda färgeffekten medan du håller musen (spray)"
+msgstr "Fortsätt att applicera färg medan musknappen hålls nedtryckt (spray)"
 
 #. :src: bpy.types.Brush.stroke_method:'ANCHORED'
 #, fuzzy
@@ -38354,19 +38354,19 @@ msgstr "Förankrad"
 #. :src: bpy.types.Brush.use_anchor
 #, fuzzy
 msgid "Keep the brush anchored to the initial location"
-msgstr "Håll borsten förankrad på den ursprungliga platsen"
+msgstr "Håll penseln förankrad vid startpunkten"
 
 #. :src: bpy.types.Brush.stroke_method:'LINE'
 #, fuzzy
 msgctxt "GPencil"
 msgid "Line"
-msgstr "Rad"
+msgstr "Linje"
 
 #. :src: bpy.types.Brush.stroke_method:'LINE'
 #. :src: bpy.types.Brush.use_line
 #, fuzzy
 msgid "Draw a line with dabs separated according to spacing"
-msgstr "Rita en linje med prickar som är separerade enligt avstånd"
+msgstr "Rita en linje med penselavtryck med det angivna avståndet mellan dem"
 
 #. :src: bpy.types.Brush.stroke_method:'CURVE'
 #, fuzzy
@@ -38377,30 +38377,30 @@ msgstr "Kurva"
 #. :src: bpy.types.Brush.stroke_method:'CURVE'
 #, fuzzy
 msgid "Define the stroke curve with a Bézier curve (dabs are separated according to spacing)"
-msgstr "Definiera stroke-kurvan med en Bézier-kurva (dabs separeras enligt avståndet)"
+msgstr "Definiera penseldragskurvan med en Bézier-kurva (penselavtrycken separeras enligt avståndet)"
 
 #. :src: bpy.types.Brush.surface_smooth_current_vertex
 #. :src: bpy.types.SCULPT_OT_mesh_filter.surface_smooth_current_vertex
 #, fuzzy
 msgid "Per Vertex Displacement"
-msgstr "Förskjutning per toppunkt"
+msgstr "Förskjutning per hörnpunkt"
 
 #. :src: bpy.types.Brush.surface_smooth_current_vertex
 #. :src: bpy.types.SCULPT_OT_mesh_filter.surface_smooth_current_vertex
 #, fuzzy
 msgid "How much the position of each individual vertex influences the final result"
-msgstr "Hur mycket positionen för varje enskild toppunkt påverkar slutresultatet"
+msgstr "Hur mycket varje enskild hörnpunkts position påverkar slutresultatet"
 
 #. :src: bpy.types.Brush.surface_smooth_iterations
 #, fuzzy
 msgid "Number of smoothing iterations per brush step"
-msgstr "Antal utjämningsiterationer per borststeg"
+msgstr "Antal utjämningsiterationer per penselsteg"
 
 #. :src: bpy.types.Brush.surface_smooth_shape_preservation
 #. :src: bpy.types.SCULPT_OT_mesh_filter.surface_smooth_shape_preservation
 #, fuzzy
 msgid "Shape Preservation"
-msgstr "Bevarande av form"
+msgstr "Formbevarande"
 
 #. :src: bpy.types.Brush.surface_smooth_shape_preservation
 #. :src: bpy.types.SCULPT_OT_mesh_filter.surface_smooth_shape_preservation
@@ -38411,7 +38411,7 @@ msgstr "Hur mycket av den ursprungliga formen som bevaras vid utjämning"
 #. :src: bpy.types.Brush.texture_overlay_alpha
 #, fuzzy
 msgid "Texture Overlay Alpha"
-msgstr "Överlagring av textur Alpha"
+msgstr "Alfa för texturöverlägg"
 
 #. :src: bpy.types.Brush.texture_sample_bias
 #, fuzzy
@@ -38421,7 +38421,7 @@ msgstr "Förskjutning av texturprov"
 #. :src: bpy.types.Brush.texture_sample_bias
 #, fuzzy
 msgid "Value added to texture samples"
-msgstr "Mervärde för texturprover"
+msgstr "Värde som läggs till i texturproven"
 
 #. :src: bpy.types.Brush.texture_slot
 #. :src: bpy.types.TextureSlot
@@ -38436,23 +38436,23 @@ msgstr "Lutningsstyrka"
 #. :src: bpy.types.Brush.tilt_strength_factor
 #, fuzzy
 msgid "How much the tilt of the pen will affect the brush. Negative values indicate inverting the tilt directions."
-msgstr "Hur mycket pennans lutning kommer att påverka penseln. Negativa värden innebär att lutningsriktningen inverteras."
+msgstr "Hur mycket pennans lutning påverkar penseln. Negativa värden vänder lutningsriktningen."
 
 #. :src: bpy.types.Brush.tip_roundness
 #. :src: Socket name from node group Duplicate Hair Curves, file procedural_hair_node_assets.blend
 #, fuzzy
 msgid "Tip Roundness"
-msgstr "Rundhet i spetsen"
+msgstr "Spetsens rundhet"
 
 #. :src: bpy.types.Brush.tip_roundness
 #, fuzzy
 msgid "Roundness of the brush tip"
-msgstr "Rundhet på borstspetsen"
+msgstr "Penselspetsens rundhet"
 
 #. :src: bpy.types.Brush.tip_scale_x
 #, fuzzy
 msgid "Tip Scale X"
-msgstr "Tippskala X"
+msgstr "Spetsskala X"
 
 #. :src: bpy.types.Brush.tip_scale_x
 #, fuzzy
@@ -38462,12 +38462,12 @@ msgstr "Skala för penselspetsen i X-axeln"
 #. :src: bpy.types.Brush.topology_rake_factor
 #, fuzzy
 msgid "Topology Rake"
-msgstr "Topologi kratta"
+msgstr "Topologisk krattning"
 
 #. :src: bpy.types.Brush.topology_rake_factor
 #, fuzzy
 msgid "Automatically align edges to the brush direction to generate cleaner topology and define sharp features. Best used on low-poly meshes as it has a performance impact."
-msgstr "Rikta automatiskt in kanterna efter penselriktningen för att skapa en renare topologi och definiera skarpa detaljer. Används bäst på lågpolymesh eftersom det har en prestandapåverkan."
+msgstr "Rikta automatiskt kanterna efter penselns riktning för att skapa en renare topologi och framhäva skarpa detaljer. Fungerar bäst på lågpoly-mesher eftersom det påverkar prestandan."
 
 #. :src: bpy.types.Brush.unprojected_radius
 #. :src: bpy.types.UnifiedPaintSettings.unprojected_radius
@@ -38490,28 +38490,28 @@ msgstr "Ackumulera"
 #. :src: bpy.types.Brush.use_accumulate
 #, fuzzy
 msgid "Accumulate stroke daubs on top of each other"
-msgstr "Ackumulera strykklumpar ovanpå varandra"
+msgstr "Ackumulera penselavtryck ovanpå varandra"
 
 #. :src: bpy.types.Brush.use_adaptive_space
 #, fuzzy
 msgid "Adaptive Spacing"
-msgstr "Adaptiv avståndsmätning"
+msgstr "Adaptivt penselavstånd"
 
 #. :src: bpy.types.Brush.use_adaptive_space
 #, fuzzy
 msgid "Space daubs according to surface orientation instead of screen space"
-msgstr "Utrymme för döttrar enligt ytorientering istället för skärmutrymme"
+msgstr "Placera penselavtryck utifrån ytans riktning i stället för skärmutrymmet"
 
 #. :src: bpy.types.Brush.use_airbrush
 #, fuzzy
 msgid "Airbrush"
-msgstr "Airbrush"
+msgstr "Sprutpistol"
 
 #. :src: bpy.types.Brush.use_alpha
 #. :src: bpy.types.PAINT_OT_vertex_color_set.use_alpha
 #, fuzzy
 msgid "Affect Alpha"
-msgstr "Affekt Alfa"
+msgstr "Påverka alfa"
 
 #. :src: bpy.types.Brush.use_alpha
 #, fuzzy

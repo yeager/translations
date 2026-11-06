@@ -429,6 +429,9 @@ Senast uppdaterad: 2026-11-06.
 | propagation steps | spridningssteg | Utökar automaskeringens mjuka gradient stegvis från en mesh- eller ansiktsgräns. |
 | falloff | avtagande | Använd i förklarande Blender-text. Behåll engelska namn när de är formella produkt- eller API-namn. |
 | brush spacing | penselavstånd | Avståndet mellan penselavtryck; UI-värdet *Space* kan i relevant panel översättas *Avstånd*. |
+| brush stroke method | penseldragsmetod | Väljer hur penseldraget skapas; Grease Pencil använder samma penselstyrning. |
+| airbrush | sprutpistol | Penselläget som fortsätter att applicera färg medan musknappen hålls nedtryckt. |
+| adaptive spacing | adaptivt penselavstånd | Fördelar penselavtryck efter ytans riktning i stället för i skärmutrymmet. |
 | deformation target | deformationsmål | Väljer om en pensel deformerar geometri direkt eller tygsimuleringens begränsningar. |
 | falloff shape | avtagandeform | Väljer om penselns avtagande är projicerat eller sfäriskt. |
 | Bi-Scale Grab / Tri-Scale Grab | Flytta i två skalor / Flytta i tre skalor | Elastisk deformeringsmetod för penseln; undvik de felaktiga formerna *gripdon* och *grepp*. |
