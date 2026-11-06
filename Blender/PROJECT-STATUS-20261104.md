@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-419.po`
-med 1 734 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-420.po`
+med 1 750 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3447,5 +3447,11 @@ densitet* respektive *flytkraft från värme*, bevarar formatnamnen *Uni Cache*
 och *OpenVDB* samt normaliserar cachebeskrivningarna till *cachelagring*.
 Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-419-fluid-domain-cache-and-buoyancy.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 420 granskar 16 Mantaflow-poster för cachelägen, CFL, volymklippning,
+färgkartläggning och interpolation. I cachetypens konkreta UI-kontext används
+*uppspelning* för *Replay*, medan *modulär* bevaras för stegvis bakning.
+Deltafilen `blender-ui-sv-reviewed-20261107-batch-420-fluid-cache-and-display.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 

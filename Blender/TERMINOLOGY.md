@@ -195,6 +195,8 @@ Senast uppdaterad: 2026-11-06.
 | fluid guiding | vätskestyrning | Mantaflow-funktionen som styr flödet med hastigheter från en domän eller effektor. Använd *styrnings-* i sammansättningar som *styrningsdomän* och *styrningsobjekt*. |
 | buoyancy density / buoyancy heat | flytkraft från densitet / flytkraft från värme | Mantaflow-gasdomänens separata flytkraftsparametrar. Formuleringen visar vilken fysisk storhet som styr flytkraften och undviker de tvetydiga sammansättningarna *flytkraftsdensitet* och *flytkraftsvärme*. |
 | cache data format | filformat för cachelagring | Mantaflow-inställning för hur volym-, yt-, brus- eller partikeldata lagras. Bevara etablerade formatnamn som *Uni Cache* och *OpenVDB*. |
+| Replay (fluid cache type) | uppspelning | Cachetyp som bakar simuleringen medan den spelas upp i visningsområdet. Översätt inte som den handlingsinriktade UI-kommandosträngen *Spela upp igen*. |
+| Modular (fluid cache type) | modulär | Cachetyp vars simuleringssteg bakas separat; skild från cachetypen *All*, som bakar de valda inställningarna i ett steg. |
 | secondary particles | sekundära partiklar | Skum-, spray- och bubbelpartiklar som härleds från vätskesimuleringen. |
 | byte color | bytefärg | 8-bitars färgattribut i geometri- och nodkontext. |
 | byte color attribute | bytefärgsattribut | Geometriattribut som lagrar RGBA-färg med 8 bitar per kanal. |
