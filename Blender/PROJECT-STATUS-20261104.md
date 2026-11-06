@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-349.po`
-med 798 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-350.po`
+med 811 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -256,6 +256,11 @@ axelgränser. Den normaliserar minimi- och maximiformerna samt deras
 hjälptexter. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-349-limit-location-constraint.po` är
 lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 350 granskar 13 poster för Rotationsbegränsning och dess vinkelgränser.
+Den gör formerna *övre* och *nedre* konsekventa för alla rotationsaxlar.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-350-limit-rotation-constraint.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
 ## Projektets aktualitet
 
