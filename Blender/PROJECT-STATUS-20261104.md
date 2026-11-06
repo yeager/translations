@@ -1426,3 +1426,13 @@ saknar `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, riktad Hunspell,
 diffkontroll och Gitleaks. `svlang` godkänner textens naturlighet och markerar
 endast den avsedda akronymen *BSDF*. Filen är arkiverad och väntar på manuell
 import.
+
+Batch 173 granskar sjutton sammanhängande RNA-etiketter för BlendDatas
+datablockstyper. Den ersätter konsekvent särskrivna former med svenska
+sammansättningar, exempelvis `filmklippsdatablock`, `nodgruppsdatablock`,
+`punktmolnsdatablock`, `fönsterhanterardatablock` och `världsdatablock`.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-173-datablock-types.po`
+saknar `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, riktad Hunspell,
+diffkontroll och Gitleaks. `svlang` ger 10/10 i naturlighet och markerar bara
+de avsedda, projektspecifika sammansättningarna. Filen är arkiverad och väntar
+på manuell import.
