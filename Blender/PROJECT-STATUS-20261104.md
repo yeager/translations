@@ -1308,3 +1308,10 @@ Deltafilen `blender-ui-sv-reviewed-20261106-batch-160-nodes-geometry.po`
 innehåller endast de granskade posterna utan `fuzzy`-markeringar och passerar
 `msgfmt`, l10n-lint och diffkontroll. Den är arkiverad men ännu inte
 verifierat importerad till Blender Translate.
+
+Batch 161 fortsätter normaliseringen av Action-systemets synliga etiketter och
+beskrivningar. Den ersätter den utfasade termen *åtgärdsplats* med
+*åtgärdsslot* i tre närliggande F-kurvposter. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-161-action-slots.po` saknar
+`fuzzy`-markeringar och passerar `msgfmt`, l10n-lint och diffkontroll. Den är
+arkiverad men ännu inte verifierat importerad till Blender Translate.
