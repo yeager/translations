@@ -2046,3 +2046,14 @@ rapporterar endast facktermer och konstgjorda längd- och ordföljdsvarningar
 från sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell
 import.
 
+Batch 230 granskar 13 poster för kurvprofiler, beroendegrafen och
+instansobjekt. Den ersätter oidiomatiska former som *prov på* och *prova*
+med det korrekta fackverbet *provta*, rättar *linje*, *slingor*,
+*transformationsmatris*, *bildrutor* och rymdbenämningar. Samtliga
+granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-230-profiles-depsgraph.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast etablerad fackterminologi samt konstgjorda längd- och
+ordföljdsvarningar från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+
