@@ -19,6 +19,8 @@ Senast uppdaterad: 2026-11-06.
 | cache directory | cachekatalog | Etablerad teknisk sammansättning i Blender. Skriv ihop i UI-etiketter och statusmeddelanden: *diskcachekatalog*, *standardcachekatalog*. |
 | longitude / latitude (camera projection) | längdgrad / breddgrad | Vinklar i kamerans cylindriska och ekvirektangulära projektioner. |
 | fisheye lens | fiskögeobjektiv | Kameraprojektion med extremt brett synfält; använd sammansättningen även för fiskögepolynom. |
+| sensor fit | sensoranpassning | Anpassar kamerans bild och synfältsvinkel efter bildsensorns bredd eller höjd. |
+| passepartout | passepartout | Den mörka överlagringen utanför bildområdet i kameravyn. |
 | clipping distance | beskärningsavstånd | Kamerans närmaste eller bortre synliga gräns. |
 | cache layer | cachelager | Lager i en Blender-cachefil. Skriv ihop, utan bindestreck. |
 | prefetch | förhandsladdning | Läser in cache- eller animationsdata i förväg för snabbare uppdateringar. |

@@ -2616,3 +2616,16 @@ Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
 varning från sammanfogade UI-etiketter. Gitleaks körs före arkivering.
 Filen väntar därefter på manuell import.
 
+Batch 280 granskar 18 strängar för panoramaprojektion, sensoranpassning,
+passepartout och beskärningsvisning. Den normaliserar `Fisheye` till
+*fisköge*, förklarar den ekvidistanta fullkupolprojektionen och ersätter
+felaktiga adjektivformer i sensorinställningarna med svenska uppmaningar.
+Terminologilistan har kompletterats med *sensoranpassning* och
+*passepartout*. Samtliga granskade poster får sina `fuzzy`-markeringar
+borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-280-camera-panorama-and-sensor.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
+`svlang` markerar endast facktermerna och en konstgjord varning från
+sammanfogade UI-etiketter. Gitleaks körs före arkivering. Filen väntar
+därefter på manuell import.
+
