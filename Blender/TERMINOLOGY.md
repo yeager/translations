@@ -202,6 +202,7 @@ Senast uppdaterad: 2026-11-06.
 | obstacle cell | hindercell | Cell i Mantaflow-domänens beräkningsrutnät som representerar ett hinder. Skriv ihop i hjälptexter och egenskapsbeskrivningar. |
 | highlight range | markeringsintervall | Egenskap som avgränsar vilka rutnätsvärden som markeras visuellt. Använd inte den handlingsinriktade formen *Markera intervall* som fältetikett. |
 | Color Gridlines | färglägg rutnätslinjer | Växling som färgsätter Mantaflow-rutnätets linjer utifrån ett valt simuleringsfält. |
+| heat grid / smoke heat grid | värmerutnät / rökens värmerutnät | Mantaflow-datafält för temperaturdata i en gasdomän. Den possessiva formen gör relationen till röken tydlig utan svårläst sammansättning. |
 | secondary particles | sekundära partiklar | Skum-, spray- och bubbelpartiklar som härleds från vätskesimuleringen. |
 | byte color | bytefärg | 8-bitars färgattribut i geometri- och nodkontext. |
 | byte color attribute | bytefärgsattribut | Geometriattribut som lagrar RGBA-färg med 8 bitar per kanal. |
