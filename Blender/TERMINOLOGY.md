@@ -601,6 +601,8 @@ Senast uppdaterad: 2026-11-06.
 | file output | filutdata | Nods utdata som skrivs till filer; inte fysisk utmatning. |
 | output slot | filplats | Konfigurerbar plats för en fil- eller EXR-lagerutdata. |
 | straight/premultiplied alpha | rak/förmultiplicerad alfa | Alfalägen i bildbehandlingsnoder. |
+| Channel Packed | Kanalpackad | Alfaläge där olika bilder lagras i RGB- och alfakanalerna. Det är en egenskap, inte processen *kanalpackning*. |
+| Radiance HDR | Radiance HDR | Filformatsnamn. Behåll produkt- och formatnamnet, översätt inte till *Strålning HDR*. |
 | render layer | renderingslager | Lager från en scenrendering. |
 | map UV | UV-mappning | Kompositörsnod som använder UV-koordinater för texturmappning. |
 | power/logarithm/fraction | potens/logaritm/bråkdel | Matematiknodernas svenska operationstermer. |
