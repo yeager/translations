@@ -260,6 +260,9 @@ Senast uppdaterad: 2026-11-06.
 | Adaptive Subdivision | adaptiv underindelning | UI-belagd form; inte *adaptiv indelning*. |
 | Material Output | materialutdata | UI-belagd renderings- och nodterm. |
 | keyframe | nyckelbildruta | Använd i svensk förklarande text; ändra inte API-namn. |
+| breakdown (keyframe type) | mellanpose | Nyckelbildruta som beskriver rörelsen mellan två nyckelposer. |
+| moving hold (keyframe type) | rörlig hållning | Nyckelbildruta som ger liten rörelse kring en hållen pose. |
+| extreme (keyframe type) | ytterläge | Nyckelbildruta som markerar ett ytterläge i rörelsen. |
 | F-Curve | F-kurva | Behåll initialen och använd svenskt ord efter bindestrecket. |
 | F-Curve modifier | F-kurvmodifierare | Modifierare som förändrar en F-kurvas värden eller förlopp. |
 | frame range | bildruteintervall | Tidsintervall i animation och uppspelning. Använd *startbildruta* respektive *slutbildruta* för ändpunkterna. |

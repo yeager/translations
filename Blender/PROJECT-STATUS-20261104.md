@@ -2331,3 +2331,16 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 ordföljdsvarning från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 257 granskar 9 animeringstermer för Grease Pencil-nyckelbildrutor.
+Blenders manual har använts för att fastställa typernas funktion: en
+*mellanpose* beskriver rörelsen mellan nyckelposer, en *rörlig hållning* ger
+liten rörelse kring en hållen pose och ett *ytterläge* anger ett extremt
+rörelseläge. Även beskrivningarna för slumpade och verktygsgenererade
+nyckelbildrutor har rättats. Terminologilistan har kompletterats med dessa
+tre typer. Samtliga granskade poster har fått sina `fuzzy`-markeringar
+borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-257-keyframe-types.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar enbart de fackliga sammansättningarna *mellanpose* och
+*nyckelposer*. Filen är arkiverad och väntar på manuell import.
+
