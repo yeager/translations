@@ -2307,3 +2307,15 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 en konstgjord längdvarning från sammanfogade UI-etiketter. Filen är arkiverad
 och väntar på manuell import.
 
+Batch 255 granskar 20 Grease Pencil-strängar för maskeringslager,
+anteckningslager och tidsmodifierarsegment. Den normaliserar bland annat
+*maskeringslagernamn*, *aktivt anteckningslager*, *tidsmodifierarsegment*,
+*förskjutning*, *överordnad lagergrupp*, *lökskal* och *radieändring*.
+Terminologilistan har kompletterats med *tidsmodifierarsegment*. Samtliga
+granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-255-grease-pencil-layers.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast ovanliga sammansättningar och konstgjorda
+varningar från sammanfogade UI-etiketter. Filen är arkiverad och väntar på
+manuell import.
+
