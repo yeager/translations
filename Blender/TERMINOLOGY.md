@@ -168,6 +168,7 @@ Senast uppdaterad: 2026-11-06.
 | tone mapping / Tonemap | tonmappning | Bildbehandling som anpassar tonomfång. Etiketten *Tonemap Type* blir *Tonmappningstyp*. |
 | movie tracking frame | bildruta | I filmspårning avser *frame* en bildruta, inte en fysisk ram. |
 | Movie Clip Editor | klippredigerare | Redigeraren för filmklipp, filmspårning och stabilisering. |
+| viewer region / viewer node | visningsområde / visningsnod | Kompositörens avgränsade visningsyta och dess nod. Använd inte den personbetecknande formen *visare*. |
 | editor space | redigerarläge | Blenders interna typ för det innehåll som visas i ett område; använd inte det fysiska *utrymme*. |
 | bounding box | begränsningsruta | Rektangeln som avgränsar ett mönster eller sökområde vid filmspårning. |
 | mask spline | maskspline | Spline som avgränsar en mask i bild- och klippredigeraren. |
