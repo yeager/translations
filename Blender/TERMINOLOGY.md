@@ -307,6 +307,7 @@ Senast uppdaterad: 2026-11-06.
 | hair attachment / surface normal | hårinfästning / ytnormal | Vid hårgenerering beskriver detta hur hårkurvans rot fästs vid ytmeshens UV-koordinat och normal. |
 | guide index / guide map / guide mask | guideindex / guideindexkarta / guidemask | Datat som anger vilken guidekurva varje hårkurva använder. Skriv sammansättningarna ihop. |
 | flare (Braid Hair Curves) | utsvängning | Den öppna delen vid flätans spets där hårstråna lossnar eller sprider ut sig. Det är inte en *flärp* eller en mekanisk fläns. |
+| Curve Sculpt / Mesh Sculpt | kurvskulptering / meshskulptering | Resurskataloger för skulptering av kurvor respektive Blenders meshdatatyp. Behåll *mesh* och skriv sammansättningarna ihop. |
 | constraint | begränsning | Blender-relation som styr ett objekt eller ben. Skriv sammansättningar som *positionsbegränsning*, *rotationsbegränsning*, *skalbegränsning* och *avståndsbegränsning*. |
 | project axis | projektionsaxel | Axeln som Shrinkwrap projicerar längs. Skilj från ett projekts egen axel. |
 | target normal | målnormal | Normal från målets yta, till exempel i Shrinkwrap-projektion. |

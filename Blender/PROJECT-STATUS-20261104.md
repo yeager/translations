@@ -13,11 +13,11 @@ arkiverade separat, liksom batch 293 för materialinställningar och 294 för
 meshtopologi och UV-lager samt 295 för Movie Clip och kompositörvisning samt
 296 för hårnodernas deformation och 297 för hårnodernas data och generering
 samt 298 för hårinfästning och guidekurvor, 299 för tilläggsmetadata och
-hårnoder samt 300 för tilläggskategorier, och ingår därför inte i de redan
-inskickade sex delarna.
+hårnoder samt 300 för tilläggskategorier och 301 för språk- och
+resurskataloger, och ingår därför inte i de redan inskickade sex delarna.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-300.po`
-med 260 poster, som omfattar alla färdiga batcher efter sexdelsimporten. Den
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-301.po`
+med 270 poster, som omfattar alla färdiga batcher efter sexdelsimporten. Den
 ersätter tidigare samlingsfiler för detta intervall, är redo för manuell import
 och har inte skickats in eller verifierats i Weblate.
 
