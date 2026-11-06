@@ -17414,69 +17414,57 @@ msgstr "Ange hur befintliga transformationer och Action-kanaler kombineras"
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE_FULL'
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'BEFORE_FULL'
-#, fuzzy
 msgid "Before Original (Full)"
-msgstr "Före Original (Full)"
+msgstr "Före originalet (fullständig)"
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE_FULL'
-#, fuzzy
 msgid "Apply the action channels before the original transformation, as if applied to an imaginary parent in Full Inherit Scale mode. Will create shear when combining rotation and non-uniform scale."
-msgstr "Tillämpa åtgärdskanalerna före den ursprungliga transformationen, som om de tillämpades på en imaginär förälder i läget Full Inherit Scale. Skapar skjuvning när du kombinerar rotation och icke enhetlig skala."
+msgstr "Tillämpa Action-kanalerna före originaltransformationen, som om de tillämpades på en tänkt förälder med fullständig ärvd skalning. Skapar skjuvning när du kombinerar rotation och icke-enhetlig skala."
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE'
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'BEFORE'
-#, fuzzy
 msgid "Before Original (Aligned)"
-msgstr "Före original (justerat)"
+msgstr "Före originalet (justerad)"
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE'
-#, fuzzy
 msgid "Apply the action channels before the original transformation, as if applied to an imaginary parent in Aligned Inherit Scale mode. This effectively uses Full for location and Split Channels for rotation and scale."
-msgstr "Tillämpa åtgärdskanalerna före den ursprungliga transformationen, som om de tillämpades på en imaginär förälder i läget Aligned Inherit Scale. Detta innebär att Full används för placering och Split Channels för rotation och skala."
+msgstr "Tillämpa Action-kanalerna före originaltransformationen, som om de tillämpades på en tänkt förälder med justerad ärvd skalning. Det innebär att fullständig används för position och delade kanaler för rotation och skala."
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE_SPLIT'
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'BEFORE_SPLIT'
-#, fuzzy
 msgid "Before Original (Split Channels)"
-msgstr "Före original (delade kanaler)"
+msgstr "Före originalet (delade kanaler)"
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE_SPLIT'
-#, fuzzy
 msgid "Apply the action channels before the original transformation, handling location, rotation and scale separately"
-msgstr "Tillämpa åtgärdskanalerna före den ursprungliga transformationen och hantera position, rotation och skala separat"
+msgstr "Tillämpa Action-kanalerna före originaltransformationen och hantera position, rotation och skala separat"
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'AFTER_FULL'
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'AFTER_FULL'
-#, fuzzy
 msgid "After Original (Full)"
-msgstr "Efter Original (Full)"
+msgstr "Efter originalet (fullständig)"
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'AFTER_FULL'
-#, fuzzy
 msgid "Apply the action channels after the original transformation, as if applied to an imaginary child in Full Inherit Scale mode. Will create shear when combining rotation and non-uniform scale."
-msgstr "Tillämpa åtgärdskanalerna efter den ursprungliga transformationen, som om de tillämpades på ett imaginärt barn i läget Full Inherit Scale. Skapar skjuvning när du kombinerar rotation och icke enhetlig skala."
+msgstr "Tillämpa Action-kanalerna efter originaltransformationen, som om de tillämpades på ett tänkt barn med fullständig ärvd skalning. Skapar skjuvning när du kombinerar rotation och icke-enhetlig skala."
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'AFTER'
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'AFTER'
-#, fuzzy
 msgid "After Original (Aligned)"
-msgstr "Efter original (justerad)"
+msgstr "Efter originalet (justerad)"
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'AFTER'
-#, fuzzy
 msgid "Apply the action channels after the original transformation, as if applied to an imaginary child in Aligned Inherit Scale mode. This effectively uses Full for location and Split Channels for rotation and scale."
-msgstr "Tillämpa åtgärdskanalerna efter den ursprungliga transformationen, som om de tillämpades på ett imaginärt barn i läget Aligned Inherit Scale. Detta använder effektivt Full för placering och Split Channels för rotation och skala."
+msgstr "Tillämpa Action-kanalerna efter originaltransformationen, som om de tillämpades på ett tänkt barn med justerad ärvd skalning. Det innebär att fullständig används för position och delade kanaler för rotation och skala."
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'AFTER_SPLIT'
 #. :src: bpy.types.CopyTransformsConstraint.mix_mode:'AFTER_SPLIT'
-#, fuzzy
 msgid "After Original (Split Channels)"
-msgstr "Efter original (delade kanaler)"
+msgstr "Efter originalet (delade kanaler)"
 
 #. :src: bpy.types.ActionConstraint.mix_mode:'AFTER_SPLIT'
-#, fuzzy
 msgid "Apply the action channels after the original transformation, handling location, rotation and scale separately"
-msgstr "Tillämpa åtgärdskanalerna efter den ursprungliga transformationen och hantera position, rotation och skala separat"
+msgstr "Tillämpa Action-kanalerna efter originaltransformationen och hantera position, rotation och skala separat"
 
 #. :src: bpy.types.ActionConstraint.target
 #. :src: bpy.types.ChildOfConstraint.target
@@ -17567,24 +17555,20 @@ msgid "Z Scale"
 msgstr "Z-skala"
 
 #. :src: bpy.types.ActionConstraint.use_bone_object_action
-#, fuzzy
 msgid "Object Action"
-msgstr "Objektåtgärd"
+msgstr "Objekt-Action"
 
 #. :src: bpy.types.ActionConstraint.use_bone_object_action
-#, fuzzy
 msgid "Bones only: apply the object's transformation channels of the action to the constrained bone, instead of bone's channels"
-msgstr "Endast ben: tillämpa objektets transformationskanaler för åtgärden på det begränsade benet, i stället för benets kanaler"
+msgstr "Endast ben: tillämpa objektets transformationskanaler från Actionen på det begränsade benet i stället för benets kanaler"
 
 #. :src: bpy.types.ActionConstraint.use_eval_time
-#, fuzzy
 msgid "Use Evaluation Time"
-msgstr "Använd utvärderingstiden"
+msgstr "Använd utvärderingstid"
 
 #. :src: bpy.types.ActionConstraint.use_eval_time
-#, fuzzy
 msgid "Interpolate between Action Start and End frames, with the Evaluation Time slider instead of the Target object/bone"
-msgstr "Interpolera mellan start- och slutramarna för åtgärden, med reglaget för utvärderingstid i stället för målobjektet/benet"
+msgstr "Interpolera mellan Actionens start- och slutbildrutor med reglaget Utvärderingstid i stället för målobjektet eller målbenet"
 
 #. :src: bpy.types.ArmatureConstraint
 #, fuzzy
