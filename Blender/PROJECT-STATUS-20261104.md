@@ -1908,3 +1908,15 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 218 granskar 46 poster för färghantering och standardiserade
+färgrymder. ACES, AgX, Filmic, FilmLight och Khronos bevaras som namn, medan
+svenska beskrivningar normaliseras, särskilt *vitpunkt för illuminanten D65*
+i stället för den sakligt felaktiga *belysningsstyrka*. Terminologilistan
+dokumenterar dessa namn och *illuminant*. Samtliga granskade poster har fått
+sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-218-color-management.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast etablerade Blender- och facktermer samt konstgjorda längd-
+och V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+
