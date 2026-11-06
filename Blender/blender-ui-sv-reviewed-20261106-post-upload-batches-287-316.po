@@ -1,0 +1,2372 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.Constraint.type:'OBJECT_SOLVER'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'OBJECT_SOLVER'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'OBJECT_SOLVER'
+#: source/blender/blenkernel/intern/constraint.cc:5332
+msgid "Object Solver"
+msgstr "Objektlösare"
+
+#. :src: bpy.types.ObjectSolverConstraint
+msgid "Object Solver Constraint"
+msgstr "Objektlösarbegränsning"
+
+#. :src: bpy.types.ObjectSolverConstraint
+msgid "Lock motion to the reconstructed object movement"
+msgstr "Lås rörelsen till den rekonstruerade objektrörelsen"
+
+#. :src: bpy.types.ObjectSolverConstraint.object
+msgid "Movie tracking object to follow"
+msgstr "Filmspårningsobjekt som ska följas"
+
+#. :src: bpy.types.FollowTrackConstraint
+msgid "Follow Track Constraint"
+msgstr "Följ spår-begränsning"
+
+#. :src: bpy.types.FollowTrackConstraint.depth_object
+msgid ""
+"Object used to define depth in camera space by projecting onto surface of "
+"this object"
+msgstr ""
+"Objekt som används för att definiera djup i kamerarummet genom att projicera "
+"på det här objektets yta"
+
+#. :src: bpy.types.FollowTrackConstraint.frame_method
+msgid "How the footage fits in the camera frame"
+msgstr "Hur bildmaterialet passar i kameraramen"
+
+#. :src: bpy.types.FollowTrackConstraint.object
+msgid "Movie tracking object to follow (if empty, camera object is used)"
+msgstr ""
+"Filmspårningsobjekt som ska följas (om det saknas används kameraobjektet)"
+
+#. :src: bpy.types.FollowTrackConstraint.track
+msgid "Movie tracking track to follow"
+msgstr "Filmspår som ska följas"
+
+#. :src: bpy.types.FollowTrackConstraint.use_undistorted_position
+msgid "Parent to undistorted position of 2D track"
+msgstr ""
+"Skapa en föräldrarelation till den distorsionskorrigerade positionen för 2D-"
+"spåret"
+
+#. :src: bpy.types.Constraint.type:'FOLLOW_TRACK'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'FOLLOW_TRACK'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'FOLLOW_TRACK'
+#: source/blender/blenkernel/intern/constraint.cc:5188
+msgid "Follow Track"
+msgstr "Följ spår"
+
+#. :src: bpy.types.FollowTrackConstraint
+msgid "Lock motion to the target motion track"
+msgstr "Lås rörelsen till målets rörelsespår"
+
+#. :src: bpy.types.FollowTrackConstraint.use_3d_position
+msgid "3D Position"
+msgstr "3D-position"
+
+#. :src: bpy.types.FollowTrackConstraint.use_undistorted_position
+#. :src: bpy.types.CompositorNodeMovieDistortion.distortion_type:'UNDISTORT'
+msgid "Undistort"
+msgstr "Korrigera distorsion"
+
+#. :src: bpy.types.FollowTrackConstraint.track
+#. :src: bpy.types.CompositorNodeTrackPos.track_name
+#. :src: bpy.types.CLIP_PT_tools_tracking
+#. :src: bpy.types.CLIP_PT_track
+#. :src: bpy.types.SpaceClipEditor.annotation_source:'TRACK'
+#: scripts/startup/bl_ui/properties_mask_common.py:217
+#: scripts/startup/bl_ui/properties_mask_common.py:222
+#: source/blender/blenkernel/intern/tracking.cc:505
+#: source/blender/blenkernel/intern/tracking.cc:588
+#: source/blender/blenkernel/intern/tracking_util.cc:165
+msgctxt "MovieClip"
+msgid "Track"
+msgstr "Spår"
+
+#. :src: bpy.types.FollowPathConstraint
+msgid "Follow Path Constraint"
+msgstr "Följ bana-begränsning"
+
+#. :src: bpy.types.FollowPathConstraint.offset
+msgid "Offset from the position corresponding to the time frame"
+msgstr "Förskjutning från positionen som motsvarar bildrutan"
+
+#. :src: bpy.types.FollowPathConstraint.offset_factor
+#. :src: bpy.types.GRAPH_OT_blend_offset.factor
+#: scripts/startup/bl_ui/properties_constraint.py:189
+msgid "Offset Factor"
+msgstr "Förskjutningsfaktor"
+
+#. :src: bpy.types.FollowPathConstraint.target
+msgid "Target Curve object"
+msgstr "Målkurvobjekt"
+
+#. :src: bpy.types.DampedTrackConstraint.track_axis
+#. :src: bpy.types.LockedTrackConstraint.track_axis
+#. :src: bpy.types.TrackToConstraint.track_axis
+msgid "Axis that points to the target object"
+msgstr "Axel som pekar mot målobjektet"
+
+#. :src: bpy.types.FloorConstraint
+msgid "Floor Constraint"
+msgstr "Golvbegränsning"
+
+#. :src: bpy.types.FloorConstraint
+msgid "Use the target object for location limitation"
+msgstr "Använd målobjektet för positionsbegränsning"
+
+#. :src: bpy.types.FloorConstraint.floor_location
+msgid "Floor Location"
+msgstr "Golvposition"
+
+#. :src: bpy.types.FloorConstraint.floor_location
+msgid "Location of target that object will not pass through"
+msgstr "Målets position som objektet inte kan passera"
+
+#. :src: bpy.types.FloorConstraint.offset
+msgid "Offset of floor from object origin"
+msgstr "Golvets förskjutning från objektets ursprung"
+
+#. :src: bpy.types.FloorConstraint.use_rotation
+msgid "Use Rotation"
+msgstr "Använd rotation"
+
+#. :src: bpy.types.FloorConstraint.use_rotation
+msgid "Use the target's rotation to determine floor"
+msgstr "Använd målets rotation för att bestämma golvet"
+
+#. :src: bpy.types.ChildOfConstraint.use_scale_z
+#. :src: bpy.types.ClampToConstraint
+msgid "Clamp To Constraint"
+msgstr "Begränsning: Begränsa till"
+
+#. :src: bpy.types.ClampToConstraint
+msgid ""
+"Constrain an object's location to the nearest point along the target path"
+msgstr "Begränsa ett objekts position till den närmaste punkten längs målbanan"
+
+#. :src: bpy.types.ArmatureConstraint.use_deform_preserve_volume
+#. :src: bpy.types.ArmatureModifier.use_deform_preserve_volume
+#. :src: bpy.types.GreasePencilArmatureModifier.use_deform_preserve_volume
+msgid "Deform rotation interpolation with quaternions"
+msgstr "Interpolera deformationsrotation med kvaternioner"
+
+#. :src: bpy.types.CameraSolverConstraint
+msgid "Camera Solver Constraint"
+msgstr "Kameralösarbegränsning"
+
+#. :src: bpy.types.CameraSolverConstraint
+msgid "Lock motion to the reconstructed camera movement"
+msgstr "Lås rörelsen till den rekonstruerade kamerarörelsen"
+
+#. :src: bpy.types.CameraSolverConstraint.clip
+#. :src: bpy.types.FollowTrackConstraint.clip
+#. :src: bpy.types.ObjectSolverConstraint.clip
+msgid "Movie Clip to get tracking data from"
+msgstr "Filmklipp att hämta spårningsdata från"
+
+#. :src: bpy.types.CameraSolverConstraint.use_active_clip
+#. :src: bpy.types.FollowTrackConstraint.use_active_clip
+#. :src: bpy.types.ObjectSolverConstraint.use_active_clip
+#: scripts/startup/bl_ui/properties_data_camera.py:350
+#: scripts/startup/bl_ui/properties_data_camera.py:390
+#: scripts/startup/bl_ui/properties_scene.py:53
+msgid "Active Clip"
+msgstr "Aktivt klipp"
+
+#. :src: bpy.types.CameraSolverConstraint.use_active_clip
+#. :src: bpy.types.FollowTrackConstraint.use_active_clip
+#. :src: bpy.types.ObjectSolverConstraint.use_active_clip
+msgid "Use active clip defined in scene"
+msgstr "Använd det aktiva klipp som anges i scenen"
+
+#. :src: bpy.types.ChildOfConstraint
+msgid "Child Of Constraint"
+msgstr "Child Of-begränsning"
+
+#. :src: bpy.types.ChildOfConstraint
+msgid "Create constraint-based parent-child relationship"
+msgstr "Skapa en förälder-barn-relation med hjälp av en begränsning"
+
+#. :src: bpy.types.ChildOfConstraint.inverse_matrix
+msgid "Inverse Matrix"
+msgstr "Invers matris"
+
+#. :src: bpy.types.ChildOfConstraint.inverse_matrix
+msgid "Transformation matrix to apply before"
+msgstr "Transformationsmatris som ska tillämpas före"
+
+#. :src: bpy.types.ChildOfConstraint.set_inverse_pending
+#. :src: bpy.types.ObjectSolverConstraint.set_inverse_pending
+msgid "Set Inverse Pending"
+msgstr "Begär omberäkning av invers matris"
+
+#. :src: bpy.types.ChildOfConstraint.set_inverse_pending
+#. :src: bpy.types.ObjectSolverConstraint.set_inverse_pending
+msgid "Set to true to request recalculation of the inverse matrix"
+msgstr "Aktivera för att begära omberäkning av den inversa matrisen"
+
+#. :src: bpy.types.ChildOfConstraint.use_rotation_x
+msgid "Rotation X"
+msgstr "X-rotation"
+
+#. :src: bpy.types.ChildOfConstraint.use_rotation_y
+msgid "Rotation Y"
+msgstr "Y-rotation"
+
+#. :src: bpy.types.ChildOfConstraint.use_rotation_z
+msgid "Rotation Z"
+msgstr "Z-rotation"
+
+#. :src: bpy.types.ActionConstraint.use_eval_time
+msgid ""
+"Interpolate between Action Start and End frames, with the Evaluation Time "
+"slider instead of the Target object/bone"
+msgstr ""
+"Interpolera mellan Actionens start- och slutbildrutor med reglaget "
+"Utvärderingstid i stället för målobjektet eller målbenet"
+
+#. :src: bpy.types.ArmatureConstraint
+msgid "Armature Constraint"
+msgstr "Armaturbegränsning"
+
+#. :src: bpy.types.ArmatureConstraint
+msgid "Applies transformations done by the Armature modifier"
+msgstr "Tillämpar transformationerna från armaturmodifieraren"
+
+#. :src: bpy.types.ArmatureConstraint.targets
+#. :src: bpy.types.DriverVariable.targets
+#. :src: bpy.types.ParticleSystem.targets
+msgid "Targets"
+msgstr "Mål"
+
+#. :src: bpy.types.ArmatureConstraint.targets
+msgid "Target Bones"
+msgstr "Målben"
+
+#. :src: bpy.types.ArmatureConstraint.use_bone_envelopes
+msgid "Use Envelopes"
+msgstr "Använd omslutningar"
+
+#. :src: bpy.types.ArmatureConstraint.use_bone_envelopes
+msgid ""
+"Multiply weights by envelope for all bones, instead of acting like Vertex "
+"Group based blending. The specified weights are still used, and only the "
+"listed bones are considered."
+msgstr ""
+"Multiplicera vikterna med omslutningen för alla ben i stället för att "
+"använda blandning baserad på hörnpunktsgrupper. De angivna vikterna används "
+"fortfarande och endast de listade benen beaktas."
+
+#. :src: bpy.types.ArmatureConstraint.use_current_location
+msgid "Use Current Location"
+msgstr "Använd aktuell position"
+
+#. :src: bpy.types.ArmatureConstraint.use_current_location
+msgid ""
+"Use the current bone location for envelopes and choosing B-Bone segments "
+"instead of rest position"
+msgstr ""
+"Använd den aktuella benpositionen för omslutningar och för att välja B-"
+"bensegment i stället för viloposition"
+
+#. :src: bpy.types.ArmatureConstraint.use_deform_preserve_volume
+#. :src: bpy.types.Mesh.use_remesh_preserve_volume
+#. :src: bpy.types.ArmatureModifier.use_deform_preserve_volume
+#. :src: bpy.types.GreasePencilArmatureModifier.use_deform_preserve_volume
+#. :src: bpy.types.LaplacianSmoothModifier.use_volume_preserve
+#. :src: bpy.types.WarpModifier.use_volume_preserve
+#. :src: bpy.types.MESH_OT_vertices_smooth_laplacian.preserve_volume
+msgid "Preserve Volume"
+msgstr "Bevara volymen"
+
+#. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE_FULL'
+#. :src: bpy.types.CopyTransformsConstraint.mix_mode:'BEFORE_FULL'
+msgid "Before Original (Full)"
+msgstr "Före originalet (fullständig)"
+
+#. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE_FULL'
+msgid ""
+"Apply the action channels before the original transformation, as if applied "
+"to an imaginary parent in Full Inherit Scale mode. Will create shear when "
+"combining rotation and non-uniform scale."
+msgstr ""
+"Tillämpa Action-kanalerna före originaltransformationen, som om de "
+"tillämpades på en tänkt förälder med fullständig ärvd skalning. Skapar "
+"skjuvning när du kombinerar rotation och icke-enhetlig skala."
+
+#. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE'
+#. :src: bpy.types.CopyTransformsConstraint.mix_mode:'BEFORE'
+msgid "Before Original (Aligned)"
+msgstr "Före originalet (justerad)"
+
+#. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE'
+msgid ""
+"Apply the action channels before the original transformation, as if applied "
+"to an imaginary parent in Aligned Inherit Scale mode. This effectively uses "
+"Full for location and Split Channels for rotation and scale."
+msgstr ""
+"Tillämpa Action-kanalerna före originaltransformationen, som om de "
+"tillämpades på en tänkt förälder med justerad ärvd skalning. Det innebär att "
+"fullständig används för position och delade kanaler för rotation och skala."
+
+#. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE_SPLIT'
+#. :src: bpy.types.CopyTransformsConstraint.mix_mode:'BEFORE_SPLIT'
+msgid "Before Original (Split Channels)"
+msgstr "Före originalet (delade kanaler)"
+
+#. :src: bpy.types.ActionConstraint.mix_mode:'BEFORE_SPLIT'
+msgid ""
+"Apply the action channels before the original transformation, handling "
+"location, rotation and scale separately"
+msgstr ""
+"Tillämpa Action-kanalerna före originaltransformationen och hantera "
+"position, rotation och skala separat"
+
+#. :src: bpy.types.ActionConstraint.mix_mode:'AFTER_FULL'
+#. :src: bpy.types.CopyTransformsConstraint.mix_mode:'AFTER_FULL'
+msgid "After Original (Full)"
+msgstr "Efter originalet (fullständig)"
+
+#. :src: bpy.types.ActionConstraint.mix_mode:'AFTER_FULL'
+msgid ""
+"Apply the action channels after the original transformation, as if applied "
+"to an imaginary child in Full Inherit Scale mode. Will create shear when "
+"combining rotation and non-uniform scale."
+msgstr ""
+"Tillämpa Action-kanalerna efter originaltransformationen, som om de "
+"tillämpades på ett tänkt barn med fullständig ärvd skalning. Skapar "
+"skjuvning när du kombinerar rotation och icke-enhetlig skala."
+
+#. :src: bpy.types.ActionConstraint.mix_mode:'AFTER'
+#. :src: bpy.types.CopyTransformsConstraint.mix_mode:'AFTER'
+msgid "After Original (Aligned)"
+msgstr "Efter originalet (justerad)"
+
+#. :src: bpy.types.ActionConstraint.mix_mode:'AFTER'
+msgid ""
+"Apply the action channels after the original transformation, as if applied "
+"to an imaginary child in Aligned Inherit Scale mode. This effectively uses "
+"Full for location and Split Channels for rotation and scale."
+msgstr ""
+"Tillämpa Action-kanalerna efter originaltransformationen, som om de "
+"tillämpades på ett tänkt barn med justerad ärvd skalning. Det innebär att "
+"fullständig används för position och delade kanaler för rotation och skala."
+
+#. :src: bpy.types.ActionConstraint.mix_mode:'AFTER_SPLIT'
+#. :src: bpy.types.CopyTransformsConstraint.mix_mode:'AFTER_SPLIT'
+msgid "After Original (Split Channels)"
+msgstr "Efter originalet (delade kanaler)"
+
+#. :src: bpy.types.ActionConstraint.mix_mode:'AFTER_SPLIT'
+msgid ""
+"Apply the action channels after the original transformation, handling "
+"location, rotation and scale separately"
+msgstr ""
+"Tillämpa Action-kanalerna efter originaltransformationen och hantera "
+"position, rotation och skala separat"
+
+#. :src: bpy.types.ActionConstraint.transform_channel:'SCALE_Z'
+#. :src: bpy.types.DriverTarget.transform_type:'SCALE_Z'
+#. :src: bpy.types.ActionSlot.transform_channel:'SCALE_Z'
+msgid "Z Scale"
+msgstr "Z-skala"
+
+#. :src: bpy.types.ActionConstraint.use_bone_object_action
+msgid "Object Action"
+msgstr "Objekt-Action"
+
+#. :src: bpy.types.ActionConstraint.use_bone_object_action
+msgid ""
+"Bones only: apply the object's transformation channels of the action to the "
+"constrained bone, instead of bone's channels"
+msgstr ""
+"Endast ben: tillämpa objektets transformationskanaler från Actionen på det "
+"begränsade benet i stället för benets kanaler"
+
+#. :src: bpy.types.ActionConstraint.use_eval_time
+msgid "Use Evaluation Time"
+msgstr "Använd utvärderingstid"
+
+#. :src: bpy.types.ActionConstraint
+msgid "Action Constraint"
+msgstr "Action-begränsning"
+
+#. :src: bpy.types.ActionConstraint
+msgid "Map an action to the transform axes of a bone"
+msgstr "Koppla en Action till ett bens transformationsaxlar"
+
+#. :src: bpy.types.ActionConstraint.action
+msgid "The constraining action"
+msgstr "Den styrande Actionen"
+
+#. :src: bpy.types.ActionConstraint.action_slot
+#. :src: bpy.types.NlaStrip.action_slot
+msgid ""
+"The slot identifies which sub-set of the Action is considered to be for this "
+"strip, and its name is used to find the right slot when assigning another "
+"Action"
+msgstr ""
+"Åtgärdsslotten anger vilken delmängd av Actionen som hör till denna remsa, "
+"och dess namn används för att hitta rätt åtgärdsslot när en annan Action "
+"tilldelas"
+
+#. :src: bpy.types.ActionConstraint.action_slot_handle
+msgid ""
+"A number that identifies which sub-set of the Action is considered to be for "
+"this Action Constraint"
+msgstr ""
+"Ett nummer som anger vilken delmängd av Actionen som hör till denna Action-"
+"begränsning"
+
+#. :src: bpy.types.ActionConstraint.action_suitable_slots
+#. :src: bpy.types.NlaStrip.action_suitable_slots
+msgid "The list of action slots suitable for this NLA strip"
+msgstr "Listan över åtgärdsslotar som lämpar sig för denna NLA-remsa"
+
+#. :src: bpy.types.ActionConstraint.eval_time
+#. :src: bpy.types.Curve.eval_time
+#. :src: bpy.types.Key.eval_time
+#. :src: bpy.types.MeshCacheModifier.eval_time
+#: scripts/startup/bl_ui/properties_constraint.py:517
+msgid "Evaluation Time"
+msgstr "Utvärderingstid"
+
+#. :src: bpy.types.ActionConstraint.eval_time
+msgid "Interpolates between Action Start and End frames"
+msgstr "Interpolerar mellan Actionens start- och slutbildrutor"
+
+#. :src: bpy.types.ActionConstraint.frame_end
+msgid "Last frame of the Action to use"
+msgstr "Sista bildrutan i Actionen som ska användas"
+
+#. :src: bpy.types.ActionConstraint.frame_start
+msgid "First frame of the Action to use"
+msgstr "Första bildrutan i Actionen som ska användas"
+
+#. :src: bpy.types.ActionConstraint.last_slot_identifier
+msgid ""
+"The identifier of the most recently assigned action slot. The slot "
+"identifies which sub-set of the Action is considered to be for this "
+"constraint, and its identifier is used to find the right slot when assigning "
+"an Action."
+msgstr ""
+"Identifieraren för den senast tilldelade åtgärdsslotten. Åtgärdsslotten "
+"anger vilken delmängd av Actionen som hör till denna begränsning, och dess "
+"identifierare används för att hitta rätt åtgärdsslot när en Action tilldelas."
+
+#. :src: bpy.types.ActionConstraint.max
+#. :src: bpy.types.FluidDomainSettings.flame_max_temp
+#. :src: bpy.types.FluidDomainSettings.particle_max
+#. :src: bpy.types.FluidDomainSettings.timesteps_max
+#. :src: bpy.types.LineStyleAlphaModifier_AlongStroke.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_CreaseAngle.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Curvature_3D.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_DistanceFromCamera.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_DistanceFromObject.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Material.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Noise.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Tangent.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_AlongStroke.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Calligraphy.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_CreaseAngle.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Curvature_3D.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_DistanceFromCamera.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_DistanceFromObject.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Material.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Noise.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Tangent.blend:'MAXIMUM'
+#. :src: bpy.types.VertexWeightMixModifier.mix_mode:'MAX'
+#. :src: bpy.types.CompositorNodeMapValue.max
+#. :src: bpy.types.TexMapping.max
+#: scripts/startup/bl_ui/properties_output.py:583
+#: scripts/startup/bl_ui/space_view3d.py:7287
+#: scripts/startup/bl_ui/space_view3d.py:7292
+#: scripts/startup/bl_ui/space_view3d.py:7299
+#: scripts/startup/bl_ui/space_view3d.py:7303
+#: source/blender/nodes/composite/nodes/node_composite_channel_matte.cc:41
+#: source/blender/nodes/composite/nodes/node_composite_chroma_matte.cc:41
+#: source/blender/nodes/composite/nodes/node_composite_glare.cc:101
+#: source/blender/nodes/composite/nodes/node_composite_luma_matte.cc:38
+msgid "Maximum"
+msgstr "Maximum"
+
+#. :src: bpy.types.ActionConstraint.max
+msgid "Maximum value for target channel range"
+msgstr "Maxvärde för målkanalens intervall"
+
+#. :src: bpy.types.ActionConstraint.min
+#. :src: bpy.types.FluidDomainSettings.flame_ignition
+#. :src: bpy.types.FluidDomainSettings.particle_min
+#. :src: bpy.types.FluidDomainSettings.timesteps_min
+#. :src: bpy.types.Curve.twist_mode:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_AlongStroke.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_CreaseAngle.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Curvature_3D.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_DistanceFromCamera.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_DistanceFromObject.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Material.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Noise.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Tangent.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_AlongStroke.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Calligraphy.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_CreaseAngle.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Curvature_3D.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_DistanceFromCamera.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_DistanceFromObject.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Material.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Noise.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Tangent.blend:'MINIMUM'
+#. :src: bpy.types.GreasePencilWeightAngleModifier.minimum_weight
+#. :src: bpy.types.GreasePencilWeightProximityModifier.minimum_weight
+#. :src: bpy.types.VertexWeightMixModifier.mix_mode:'MIN'
+#. :src: bpy.types.CompositorNodeMapValue.min
+#. :src: bpy.types.TexMapping.min
+#. :src: bpy.types.WorldMistSettings.intensity
+#: scripts/startup/bl_ui/properties_output.py:582
+#: scripts/startup/bl_ui/properties_physics_fluid.py:455
+#: scripts/startup/bl_ui/properties_physics_fluid.py:511
+#: scripts/startup/bl_ui/properties_physics_fluid.py:964
+#: scripts/startup/bl_ui/properties_physics_fluid.py:969
+#: scripts/startup/bl_ui/properties_physics_fluid.py:974
+#: scripts/startup/bl_ui/properties_physics_fluid.py:989
+#: scripts/startup/bl_ui/properties_physics_fluid.py:175
+#: scripts/startup/bl_ui/space_view3d.py:7286
+#: scripts/startup/bl_ui/space_view3d.py:7291
+#: scripts/startup/bl_ui/space_view3d.py:7298
+#: scripts/startup/bl_ui/space_view3d.py:7302
+#: source/blender/nodes/composite/nodes/node_composite_channel_matte.cc:35
+#: source/blender/nodes/composite/nodes/node_composite_chroma_matte.cc:35
+#: source/blender/nodes/composite/nodes/node_composite_luma_matte.cc:32
+msgid "Minimum"
+msgstr "Minimum"
+
+#. :src: bpy.types.ActionConstraint.min
+msgid "Minimum value for target channel range"
+msgstr "Minsta värde för målkanalens intervall"
+
+#. :src: bpy.types.ActionConstraint.mix_mode
+#. :src: bpy.types.CopyRotationConstraint.mix_mode
+#. :src: bpy.types.CopyTransformsConstraint.mix_mode
+#. :src: bpy.types.DataTransferModifier.mix_mode
+#. :src: bpy.types.NormalEditModifier.mix_mode
+#. :src: bpy.types.VertexWeightMixModifier.mix_mode
+#. :src: bpy.types.NODE_OT_nw_batch_change.blend_type:'MIX'
+#. :src: bpy.types.NODE_OT_nw_merge_nodes.mode:'MIX'
+#. :src: bpy.types.OBJECT_OT_data_transfer.mix_mode
+msgid "Mix Mode"
+msgstr "Blandningsläge"
+
+#. :src: bpy.types.ActionConstraint.mix_mode
+msgid ""
+"Specify how existing transformations and the action channels are combined"
+msgstr "Ange hur befintliga transformationer och Action-kanaler kombineras"
+
+#. :src: bpy.types.ActionConstraint.target
+#. :src: bpy.types.ChildOfConstraint.target
+#. :src: bpy.types.CopyLocationConstraint.target
+#. :src: bpy.types.CopyRotationConstraint.target
+#. :src: bpy.types.CopyScaleConstraint.target
+#. :src: bpy.types.CopyTransformsConstraint.target
+#. :src: bpy.types.DampedTrackConstraint.target
+#. :src: bpy.types.FloorConstraint.target
+#. :src: bpy.types.KinematicConstraint.target
+#. :src: bpy.types.LimitDistanceConstraint.target
+#. :src: bpy.types.LockedTrackConstraint.target
+#. :src: bpy.types.StretchToConstraint.target
+#. :src: bpy.types.TrackToConstraint.target
+#. :src: bpy.types.TransformConstraint.target
+#. :src: bpy.types.ConstraintTarget.target
+msgid "Target object"
+msgstr "Målobjekt"
+
+#. :src: bpy.types.ActionConstraint.transform_channel
+#. :src: bpy.types.DriverVariable.type:'TRANSFORMS'
+#. :src: bpy.types.ActionSlot.transform_channel
+#: scripts/addons_core/rigify/operators/action_layers.py:465
+msgid "Transform Channel"
+msgstr "Transformationskanal"
+
+#. :src: bpy.types.ActionConstraint.transform_channel
+msgid "Transformation channel from the target that is used to key the Action"
+msgstr "Transformationskanal från målet som används för att styra Actionen"
+
+#. :src: bpy.types.ActionConstraint.transform_channel:'LOCATION_X'
+#. :src: bpy.types.DriverTarget.transform_type:'LOC_X'
+#. :src: bpy.types.ActionSlot.transform_channel:'LOCATION_X'
+msgid "X Location"
+msgstr "X-position"
+
+#. :src: bpy.types.ActionConstraint.transform_channel:'LOCATION_Y'
+#. :src: bpy.types.DriverTarget.transform_type:'LOC_Y'
+#. :src: bpy.types.ActionSlot.transform_channel:'LOCATION_Y'
+msgid "Y Location"
+msgstr "Y-position"
+
+#. :src: bpy.types.ActionConstraint.transform_channel:'LOCATION_Z'
+#. :src: bpy.types.DriverTarget.transform_type:'LOC_Z'
+#. :src: bpy.types.ActionSlot.transform_channel:'LOCATION_Z'
+msgid "Z Location"
+msgstr "Z-position"
+
+#. :src: bpy.types.Constraint.type:'COPY_LOCATION'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'COPY_LOCATION'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'COPY_LOCATION'
+#: source/blender/blenkernel/intern/constraint.cc:1974
+msgid "Copy Location"
+msgstr "Kopiera position"
+
+#. :src: bpy.types.Constraint.type:'COPY_LOCATION'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'COPY_LOCATION'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'COPY_LOCATION'
+msgid ""
+"Copy the location of a target (with an optional offset), so that they move "
+"together"
+msgstr ""
+"Kopiera ett måls position (med en valfri förskjutning), så att de rör sig "
+"tillsammans"
+
+#. :src: bpy.types.Constraint.type:'COPY_ROTATION'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'COPY_ROTATION'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'COPY_ROTATION'
+#: source/blender/blenkernel/intern/constraint.cc:2151
+msgid "Copy Rotation"
+msgstr "Kopiera rotation"
+
+#. :src: bpy.types.Constraint.type:'COPY_ROTATION'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'COPY_ROTATION'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'COPY_ROTATION'
+msgid ""
+"Copy the rotation of a target (with an optional offset), so that they rotate "
+"together"
+msgstr ""
+"Kopiera ett måls rotation (med en valfri förskjutning), så att de roterar "
+"tillsammans"
+
+#. :src: bpy.types.Constraint.type:'COPY_SCALE'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'COPY_SCALE'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'COPY_SCALE'
+#: source/blender/blenkernel/intern/constraint.cc:2281
+msgid "Copy Scale"
+msgstr "Kopiera skala"
+
+#. :src: bpy.types.Constraint.type:'COPY_SCALE'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'COPY_SCALE'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'COPY_SCALE'
+msgid ""
+"Copy the scale factors of a target (with an optional offset), so that they "
+"are scaled by the same amount"
+msgstr ""
+"Kopiera ett måls skalfaktorer (med en valfri förskjutning), så att de skalas "
+"lika mycket"
+
+#. :src: bpy.types.Constraint.type:'COPY_TRANSFORMS'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'COPY_TRANSFORMS'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'COPY_TRANSFORMS'
+#: source/blender/blenkernel/intern/constraint.cc:2387
+msgid "Copy Transforms"
+msgstr "Kopiera transformationer"
+
+#. :src: bpy.types.Constraint.type:'COPY_TRANSFORMS'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'COPY_TRANSFORMS'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'COPY_TRANSFORMS'
+msgid "Copy all the transformations of a target, so that they move together"
+msgstr ""
+"Kopiera alla transformationer från ett mål, så att de rör sig tillsammans"
+
+#. :src: bpy.types.Constraint.type:'LIMIT_DISTANCE'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'LIMIT_DISTANCE'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'LIMIT_DISTANCE'
+#: source/blender/blenkernel/intern/constraint.cc:3411
+#: source/blender/editors/uvedit/uvedit_smart_stitch.cc:293
+msgid "Limit Distance"
+msgstr "Avståndsbegränsning"
+
+#. :src: bpy.types.Constraint.type:'LIMIT_DISTANCE'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'LIMIT_DISTANCE'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'LIMIT_DISTANCE'
+msgid ""
+"Restrict movements to within a certain distance of a target (at the time of "
+"constraint evaluation only)"
+msgstr ""
+"Begränsa rörelserna till ett visst avstånd från ett mål (endast när "
+"begränsningen utvärderas)"
+
+#. :src: bpy.types.Constraint.type:'LIMIT_LOCATION'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'LIMIT_LOCATION'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'LIMIT_LOCATION'
+#: source/blender/blenkernel/intern/constraint.cc:1674
+msgid "Limit Location"
+msgstr "Positionsbegränsning"
+
+#. :src: bpy.types.Constraint.type:'LIMIT_LOCATION'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'LIMIT_LOCATION'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'LIMIT_LOCATION'
+msgid "Restrict movement along each axis within given ranges"
+msgstr "Begränsa rörelsen längs varje axel inom givna intervall"
+
+#. :src: bpy.types.Constraint.type:'LIMIT_ROTATION'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'LIMIT_ROTATION'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'LIMIT_ROTATION'
+#: source/blender/blenkernel/intern/constraint.cc:1821
+msgid "Limit Rotation"
+msgstr "Rotationsbegränsning"
+
+#. :src: bpy.types.Constraint.type:'LIMIT_ROTATION'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'LIMIT_ROTATION'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'LIMIT_ROTATION'
+msgid "Restrict rotation along each axis within given ranges"
+msgstr "Begränsa rotationen längs varje axel inom givna intervall"
+
+#. :src: bpy.types.Constraint.type:'LIMIT_SCALE'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'LIMIT_SCALE'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'LIMIT_SCALE'
+#: source/blender/blenkernel/intern/constraint.cc:1877
+msgid "Limit Scale"
+msgstr "Skalbegränsning"
+
+#. :src: bpy.types.Constraint.type:'LIMIT_SCALE'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'LIMIT_SCALE'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'LIMIT_SCALE'
+msgid "Restrict scaling along each axis with given ranges"
+msgstr "Begränsa skalningen längs varje axel med givna intervall"
+
+#. :src: bpy.types.Constraint.type:'MAINTAIN_VOLUME'
+#. :src: bpy.types.StretchToConstraint.volume
+#. :src: bpy.types.POSE_OT_constraint_add.type:'MAINTAIN_VOLUME'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'MAINTAIN_VOLUME'
+#: source/blender/blenkernel/intern/constraint.cc:2456
+msgid "Maintain Volume"
+msgstr "Behåll volym"
+
+#. :src: bpy.types.Constraint.type:'MAINTAIN_VOLUME'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'MAINTAIN_VOLUME'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'MAINTAIN_VOLUME'
+msgid ""
+"Compensate for scaling one axis by applying suitable scaling to the other "
+"two axes"
+msgstr ""
+"Kompensera för skalning av en axel genom att tillämpa lämplig skalning på de "
+"andra två axlarna"
+
+#. :src: bpy.types.Constraint.type:'TRANSFORM'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'TRANSFORM'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'TRANSFORM'
+#: source/blender/blenkernel/intern/constraint.cc:4144
+msgid "Transformation"
+msgstr "Transformation"
+
+#. :src: bpy.types.Constraint.type:'TRANSFORM'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'TRANSFORM'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'TRANSFORM'
+msgid ""
+"Use one transform property from target to control another (or same) property "
+"on owner"
+msgstr ""
+"Använd en transformationsegenskap från målet för att styra en annan (eller "
+"samma) egenskap hos ägaren"
+
+#. :src: bpy.types.Constraint.type:'TRANSFORM_CACHE'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'TRANSFORM_CACHE'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'TRANSFORM_CACHE'
+#: source/blender/blenkernel/intern/constraint.cc:5430
+msgid "Transform Cache"
+msgstr "Transformationscache"
+
+#. :src: bpy.types.Constraint.type:'TRANSFORM_CACHE'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'TRANSFORM_CACHE'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'TRANSFORM_CACHE'
+msgid "Look up the transformation matrix from an external file"
+msgstr "Slå upp transformationsmatrisen i en extern fil"
+
+#. :src: bpy.types.Constraint.type:'CLAMP_TO'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'CLAMP_TO'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'CLAMP_TO'
+#: source/blender/blenkernel/intern/constraint.cc:3935
+msgid "Clamp To"
+msgstr "Begränsa till"
+
+#. :src: bpy.types.Constraint.type:'CLAMP_TO'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'CLAMP_TO'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'CLAMP_TO'
+msgid ""
+"Restrict movements to lie along a curve by remapping location along curve's "
+"longest axis"
+msgstr ""
+"Begränsa förflyttningar till en kurva genom att mappa om positionen längs "
+"kurvans längsta axel"
+
+#. :src: bpy.types.Constraint.type:'DAMPED_TRACK'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'DAMPED_TRACK'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'DAMPED_TRACK'
+#: source/blender/blenkernel/intern/constraint.cc:4548
+msgid "Damped Track"
+msgstr "Dämpad spårning"
+
+#. :src: bpy.types.Constraint.type:'DAMPED_TRACK'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'DAMPED_TRACK'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'DAMPED_TRACK'
+msgid "Point towards a target by performing the smallest rotation necessary"
+msgstr "Peka mot ett mål genom att utföra den minsta nödvändiga rotationen"
+
+#. :src: bpy.types.Constraint.type:'IK'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'IK'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'IK'
+msgid "Control a chain of bones by specifying the endpoint target (Bones only)"
+msgstr "Styr en kedja av ben genom att ange slutpunktsmålet (endast ben)"
+
+#. :src: bpy.types.Constraint.type:'LOCKED_TRACK'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'LOCKED_TRACK'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'LOCKED_TRACK'
+#: source/blender/blenkernel/intern/constraint.cc:3269
+msgid "Locked Track"
+msgstr "Låst spårning"
+
+#. :src: bpy.types.Constraint.type:'LOCKED_TRACK'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'LOCKED_TRACK'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'LOCKED_TRACK'
+msgid "Rotate around the specified ('locked') axis to point towards a target"
+msgstr "Rotera runt den angivna (\"låsta\") axeln för att peka mot ett mål"
+
+#. :src: bpy.types.Constraint.type:'SPLINE_IK'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'SPLINE_IK'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'SPLINE_IK'
+#: source/blender/blenkernel/intern/constraint.cc:4642
+msgid "Spline IK"
+msgstr "Spline-IK"
+
+#. :src: bpy.types.Constraint.type:'SPLINE_IK'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'SPLINE_IK'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'SPLINE_IK'
+msgid "Align chain of bones along a curve (Bones only)"
+msgstr "Rikta in en kedja av ben längs en kurva (endast ben)"
+
+#. :src: bpy.types.Constraint.type:'STRETCH_TO'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'STRETCH_TO'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'STRETCH_TO'
+#: source/blender/blenkernel/intern/constraint.cc:3619
+msgid "Stretch To"
+msgstr "Sträck ut"
+
+#. :src: bpy.types.Constraint.type:'STRETCH_TO'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'STRETCH_TO'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'STRETCH_TO'
+msgid "Stretch along Y-Axis to point towards a target"
+msgstr "Sträck längs Y-axeln för att peka mot ett mål"
+
+#. :src: bpy.types.Constraint.type:'TRACK_TO'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'TRACK_TO'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'TRACK_TO'
+#: source/blender/blenkernel/intern/constraint.cc:1336
+msgid "Track To"
+msgstr "Rikta mot"
+
+#. :src: bpy.types.Constraint.type:'TRACK_TO'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'TRACK_TO'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'TRACK_TO'
+msgid "Legacy tracking constraint prone to twisting artifacts"
+msgstr "Äldre spårningsbegränsning med risk för vridningsartefakter"
+
+#. :src: bpy.types.Constraint.type:'ACTION'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'ACTION'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'ACTION'
+msgid ""
+"Use transform property of target to look up pose for owner from an Action"
+msgstr ""
+"Använd en transformationsegenskap från målet för att slå upp ägarens pose i "
+"en Action"
+
+#. :src: bpy.types.Constraint.type:'ARMATURE'
+#. :src: bpy.types.POSE_OT_constraint_add.type:'ARMATURE'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'ARMATURE'
+msgid ""
+"Apply weight-blended transformation from multiple bones like the Armature "
+"modifier"
+msgstr ""
+"Tillämpa viktblandad transformation från flera ben, liksom modifieraren "
+"Armatur"
+
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:198
+msgid "Coat Roughness"
+msgstr "Beläggningsskiktets råhet"
+
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:206
+msgid "Coat IOR"
+msgstr "Beläggningsskiktets IOR"
+
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:224
+msgid "Coat Normal"
+msgstr "Beläggningsskiktets normal"
+
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:229
+msgid "Sheen Weight"
+msgstr "Fiberlysterstyrka"
+
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:238
+msgid "Sheen Roughness"
+msgstr "Fiberlysterns råhet"
+
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:257
+#: source/blender/nodes/shader/nodes/node_shader_volume_principled.cc:30
+msgid "Emission Color"
+msgstr "Emissionsfärg"
+
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:147
+msgctxt "NodeTree"
+msgid "Specular Tint"
+msgstr "Spekulär färgton"
+
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:215
+msgctxt "NodeTree"
+msgid "Coat Tint"
+msgstr "Beläggningsskiktets färgton"
+
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:248
+msgctxt "NodeTree"
+msgid "Sheen Tint"
+msgstr "Fiberlysterns färgton"
+
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:262
+msgctxt "Amount"
+msgid "Emission Strength"
+msgstr "Emissionsstyrka"
+
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:149
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:217
+msgctxt "NodeTree"
+msgid "Tint"
+msgstr "Färgton"
+
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:81
+msgid "Subsurface"
+msgstr "Underyta"
+
+#. :src: bpy.types.SCREEN_OT_animation_step
+msgctxt "Operator"
+msgid "Animation Step"
+msgstr "Animationssteg"
+
+#. :src: bpy.types.WM_OT_redraw_timer.type:'ANIM_PLAY'
+msgid "Animation Play"
+msgstr "Spela upp animation"
+
+#. :src: bpy.types.WM_OT_rigify_add_feature_set
+msgid "Add external feature set (rigs, metarigs, ui templates)"
+msgstr "Lägg till extern funktionsuppsättning (riggar, metariggar, UI-mallar)"
+
+#. :src: bpy.types.WM_OT_rigify_remove_feature_set
+msgid "Remove external feature set (rigs, metarigs, ui templates)"
+msgstr "Ta bort extern funktionsuppsättning (riggar, metariggar, UI-mallar)"
+
+#. :src: bpy.types.WM_OT_save_as_mainfile.compress
+#. :src: bpy.types.WM_OT_save_mainfile.compress
+msgid "Write compressed .blend file"
+msgstr "Skriv komprimerad .blend-fil"
+
+#. :src: bpy.types.WM_OT_save_as_mainfile.copy
+msgid ""
+"Save a copy of the actual working state but does not make saved file active"
+msgstr ""
+"Spara en kopia av det faktiska arbetsläget utan att göra den sparade filen "
+"aktiv"
+
+#. :src: bpy.types.WM_OT_save_as_mainfile.relative_remap
+#. :src: bpy.types.WM_OT_save_mainfile.relative_remap
+msgid "Remap Relative"
+msgstr "Mappa om relativa"
+
+#. :src: bpy.types.WM_OT_save_as_mainfile.relative_remap
+#. :src: bpy.types.WM_OT_save_mainfile.relative_remap
+msgid "Remap relative paths when saving to a different directory"
+msgstr "Mappa om relativa sökvägar när du sparar i en annan katalog"
+
+#: scripts/addons_core/bl_pkg/bl_extension_ops.py:468
+msgid "Repository \"{:s}\": {:s}{:s}"
+msgstr "Tilläggsarkiv \"{:s}\": {:s}{:s}"
+
+#: scripts/addons_core/bl_pkg/bl_extension_ops.py:1457
+msgid "No repositories available"
+msgstr "Inga tilläggsarkiv tillgängliga"
+
+#: scripts/addons_core/bl_pkg/bl_extension_ops.py:1836
+msgid "The dropped extension comes from a disabled repository."
+msgstr "Det släppta tillägget kommer från ett inaktiverat tilläggsarkiv."
+
+#: scripts/addons_core/bl_pkg/bl_extension_ops.py:1837
+msgid "Enable the repository and try again."
+msgstr "Aktivera tilläggsarkivet och försök igen."
+
+#: scripts/addons_core/bl_pkg/bl_extension_ops.py:1930
+msgid ""
+"Warning! Before unlocking, ensure another instance of Blender is not running."
+msgstr ""
+"Varning! Kontrollera att ingen annan instans av Blender körs innan du låser "
+"upp."
+
+#: scripts/addons_core/bl_pkg/bl_extension_ops.py:1931
+msgid ""
+"Force unlocking may be necessary in the case of a crash or power failure,"
+msgstr "Tvingad upplåsning kan behövas vid en krasch eller ett strömavbrott,"
+
+#: scripts/addons_core/bl_pkg/bl_extension_ops.py:2783
+msgid "Legacy Add-ons"
+msgstr "Äldre tillägg"
+
+#: scripts/addons_core/bl_pkg/bl_extension_ops.py:2863
+msgid "Legacy Add-on"
+msgstr "Äldre tillägg"
+
+#: scripts/addons_core/bl_pkg/bl_extension_ops.py:3218
+#: scripts/addons_core/bl_pkg/bl_extension_ops.py:1842
+#: scripts/addons_core/bl_pkg/bl_extension_ops.py:1940
+msgid "Name: {:s}"
+msgstr "Namn: {:s}"
+
+#: scripts/addons_core/bl_pkg/bl_extension_ops.py:3219
+msgid "Repository: {:s}"
+msgstr "Tilläggsarkiv: {:s}"
+
+#: scripts/addons_core/bl_pkg/bl_extension_ops.py:3220
+msgid "Size: {:s}"
+msgstr "Storlek: {:s}"
+
+#. :src: Languages’ labels from bl_i18n_utils/settings.py
+msgid "Dutch (Nederlands)"
+msgstr "Nederländska (Nederlands)"
+
+#. :src: Languages’ labels from bl_i18n_utils/settings.py
+msgid "Serbian Latin (Srpski latinica)"
+msgstr "Serbiska med latinskt alfabet (Srpski latinica)"
+
+#. :src: Languages’ labels from bl_i18n_utils/settings.py
+msgid "Abkhaz (Аԥсуа бызшәа)"
+msgstr "Abchaziska (Аԥсуа бызшәа)"
+
+#. :src: Languages’ labels from bl_i18n_utils/settings.py
+msgid "British English (British English)"
+msgstr "Brittisk engelska (British English)"
+
+#. :src: Asset catalog from blender_assets.cats.txt
+msgid "Curve Sculpt"
+msgstr "Kurvskulptering"
+
+#. :src: Asset catalog from blender_assets.cats.txt
+msgid "Generation"
+msgstr "Generering"
+
+#. :src: Asset catalog from blender_assets.cats.txt
+msgid "Mesh Sculpt"
+msgstr "Meshskulptering"
+
+#. :src: Asset catalog from blender_assets.cats.txt
+msgid "Mesh Texture Paint"
+msgstr "Meshtexturmålning"
+
+#. :src: Asset catalog from blender_assets.cats.txt
+msgid "Mesh Vertex Paint"
+msgstr "Meshhörnpunktsmålning"
+
+#. :src: Asset catalog from blender_assets.cats.txt
+msgid "Mesh Weight Paint"
+msgstr "Meshviktmålning"
+
+#. :src: Add-on Pose Library info: description
+msgid "Pose Library based on the asset system."
+msgstr "Pose-bibliotek baserat på resurssystemet."
+
+#. :src: Add-on VR Scene Inspection info: description
+msgid "View the viewport with virtual reality glasses (head-mounted displays)"
+msgstr "Visa visningsområdet med VR-glasögon (huvudmonterade skärmar)"
+
+#. :src: Add-ons' categories
+msgid "All Add-ons"
+msgstr "Alla tillägg"
+
+#. :src: Add-on extension tag
+msgctxt "Preferences"
+msgid "Bake"
+msgstr "Bakning"
+
+#. :src: Add-on extension tag
+msgctxt "Preferences"
+msgid "Compositing"
+msgstr "Bildsammansättning"
+
+#. :src: Add-on extension tag
+msgctxt "Preferences"
+msgid "Pipeline"
+msgstr "Produktionsflöde"
+
+#. :src: Add-on extension tag
+msgctxt "Preferences"
+msgid "Sculpt"
+msgstr "Skulptering"
+
+#. :src: Theme extension tag
+msgctxt "Preferences"
+msgid "Accessibility"
+msgstr "Tillgänglighet"
+
+#. :src: Theme extension tag
+msgctxt "Preferences"
+msgid "Colorful"
+msgstr "Färgstark"
+
+#. :src: Theme extension tag
+msgctxt "Preferences"
+msgid "Light"
+msgstr "Ljust"
+
+#. :src: Theme extension tag
+msgctxt "Preferences"
+msgid "Print"
+msgstr "Utskrift"
+
+#. :src: Preset from text_editor
+msgid "Visual Studio Code"
+msgstr "Visual Studio Code"
+
+#. :src: Preset from tracking_track_color
+msgid "Far Plane"
+msgstr "Fjärrplan"
+
+#. :src: Preset from tracking_track_color
+msgid "Near Plane"
+msgstr "Närplan"
+
+#. :src: Workspace from template 2D_Animation
+msgctxt "WorkSpace"
+msgid "2D Full Canvas"
+msgstr "2D-helkanvas"
+
+#. :src: Workspace from template General
+#. :src: Workspace from template Sculpting
+msgctxt "WorkSpace"
+msgid "Shading"
+msgstr "Skuggning"
+
+#. :src: Add-on Blender Extensions info: name
+msgid "Blender Extensions"
+msgstr "Blender-tillägg"
+
+#. :src: Add-on Copy Global Transform info: name
+msgid "Copy Global Transform"
+msgstr "Kopiera global transformation"
+
+#. :src: Add-on Copy Global Transform info: description
+msgid "Copy and paste object and bone transforms with ease"
+msgstr "Kopiera och klistra enkelt in objekt- och bentransformationer"
+
+#. :src: Add-on FBX format info: description
+msgid ""
+"FBX IO meshes, UVs, vertex colors, materials, textures, cameras, lamps and "
+"actions"
+msgstr ""
+"FBX-I/O-mesh, UV, hörnpunktsfärger, material, texturer, kameror, lampor och "
+"åtgärder"
+
+#. :src: Add-on extension tag
+msgctxt "Preferences"
+msgid "Add Curve"
+msgstr "Lägg till kurva"
+
+#. :src: Add-on extension tag
+msgctxt "Preferences"
+msgid "Add Mesh"
+msgstr "Lägg till mesh"
+
+#. :src: Add-on extension tag
+msgctxt "Preferences"
+msgid "Paint"
+msgstr "Målning"
+
+#. :src: Add-on extension tag
+msgctxt "Preferences"
+msgid "Render"
+msgstr "Rendering"
+
+#. :src: Extension permission
+msgid "camera"
+msgstr "kamera"
+
+#. :src: Extension permission
+msgid "microphone"
+msgstr "mikrofon"
+
+#. :src: Languages’ labels from bl_i18n_utils/settings.py
+msgid "Nepali (नेपाली)"
+msgstr "Nepalesiska (नेपाली)"
+
+#. :src: Languages’ labels from bl_i18n_utils/settings.py
+msgid "Kyrgyz (Кыргыз тили)"
+msgstr "Kirgiziska (Кыргыз тили)"
+
+#. :src: Languages’ labels from bl_i18n_utils/settings.py
+msgid "Uzbek (Oʻzbek)"
+msgstr "Uzbekiska (Oʻzbek)"
+
+#. :src: Languages’ labels from bl_i18n_utils/settings.py
+msgid "Uzbek Cyrillic (Ўзбек)"
+msgstr "Uzbekiska, kyrilliska (Ўзбек)"
+
+#. :src: Socket description from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+msgid "Asymmetry of the shape adjustment of the strand thickness"
+msgstr "Asymmetri i justeringen av hårstrånas tjocklek"
+
+#. :src: Socket description from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+msgid "Scale of the hair tie instance"
+msgstr "Skala för instansen av hårsnodden"
+
+#. :src: Asset description from file procedural_hair_node_assets.blend
+msgid "Clumps together existing hair curves using guide curves"
+msgstr "Samlar befintliga hårkurvor i knippen med hjälp av guidekurvor"
+
+#. :src: Socket description from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Displace Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Frizz Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Smooth Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Straighten Hair Curves, file procedural_hair_node_assets.blend
+msgid "Shape of the influence along curves (0=constant, 0.5=linear)"
+msgstr "Påverkansform längs kurvorna (0=konstant, 0,5=linjär)"
+
+#. :src: Socket name from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+msgid "Distance Threshold"
+msgstr "Avståndströskel"
+
+#. :src: Asset name from file procedural_hair_node_assets.blend
+msgid "Attach Hair Curves to Surface"
+msgstr "Fäst hårkurvor på yta"
+
+#. :src: Asset description from file procedural_hair_node_assets.blend
+msgid "Attaches hair curves to a surface mesh"
+msgstr "Fäster hårkurvor vid ett ytmesh"
+
+#. :src: Socket name from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+msgid "Surface UV Coordinate"
+msgstr "Ytans UV-koordinat"
+
+#. :src: Socket name from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Generate Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Hair Attachment Info, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Interpolate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Surface Normal"
+msgstr "Ytnormal"
+
+#. :src: Socket description from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+msgid "Surface normal at the attachment point"
+msgstr "Ytnormal vid infästningspunkten"
+
+#. :src: Socket description from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+msgid "Surface geometry to attach hair curves to"
+msgstr "Ytgeometri som hårkurvor ska fästas vid"
+
+#. :src: Socket description from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+msgid "Surface Object to attach to (needs to have matching transforms)"
+msgstr "Ytobjekt att fästa vid (måste ha matchande transformationer)"
+
+#. :src: Socket description from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Generate Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Hair Attachment Info, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Interpolate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Surface UV map used for attachment"
+msgstr "Ytans UV-karta som används för infästning"
+
+#. :src: Socket name from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Generate Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Interpolate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Surface Rest Position"
+msgstr "Ytans viloposition"
+
+#. :src: Socket description from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Generate Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Interpolate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Set the surface mesh into its rest position before attachment"
+msgstr "Sätt ytmeshen i dess viloposition före infästningen"
+
+#. :src: Socket name from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+msgid "Sample Attachment UV"
+msgstr "Provta infästnings-UV"
+
+#. :src: Socket description from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+msgid "Sample the surface UV map at the attachment point"
+msgstr "Provta ytans UV-karta vid infästningspunkten"
+
+#. :src: Socket description from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+msgid "Snap the root of each curve to the closest surface point"
+msgstr "Snäpp varje kurvas rot till närmaste punkt på ytan"
+
+#. :src: Socket name from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+msgid "Align to Surface Normal"
+msgstr "Rikta in efter ytnormal"
+
+#. :src: Socket description from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+msgid "Align the curve to the surface normal (needs a guide as reference)"
+msgstr "Rikta in kurvan efter ytnormalen (kräver en guide som referens)"
+
+#. :src: Socket description from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+msgid "Blend deformation along each curve from the root"
+msgstr "Blanda deformationen längs varje kurva från roten"
+
+#. :src: Socket description from node group Blend Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Curl Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Frizz Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Redistribute Curve Points, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Restore Curve Segment Length, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Roll Hair Curves, file procedural_hair_node_assets.blend
+msgid "Factor to blend overall effect"
+msgstr "Faktor för den övergripande effekten"
+
+#. :src: Socket description from node group Blend Hair Curves, file procedural_hair_node_assets.blend
+msgid "Radius to select neighbors for blending"
+msgstr "Radie för att välja närliggande kurvor för blandning"
+
+#. :src: Socket description from node group Blend Hair Curves, file procedural_hair_node_assets.blend
+msgid "Amount of neighbors used for blending"
+msgstr "Antal närliggande kurvor som används för blandning"
+
+#. :src: Asset name from file procedural_hair_node_assets.blend
+msgid "Braid Hair Curves"
+msgstr "Fläta hårkurvor"
+
+#. :src: Socket name from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Create Guide Index Map, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Curl Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Duplicate Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Interpolate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Guide Index"
+msgstr "Guideindex"
+
+#. :src: Socket description from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Curl Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Duplicate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Guide index map that was used for the operation"
+msgstr "Guideindexkarta som användes för operationen"
+
+#. :src: Socket name from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+msgid "Flare Parameter"
+msgstr "Utsvängningsparameter"
+
+#. :src: Socket description from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+msgid "Parameter from 0 to 1 along the flare"
+msgstr "Parameter från 0 till 1 längs utsvängningen"
+
+#. :src: Socket name from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+msgid "Strand Index"
+msgstr "Stråindex"
+
+#. :src: Socket description from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Curl Hair Curves, file procedural_hair_node_assets.blend
+msgid "Guide index map to be used. This input has priority"
+msgstr "Guideindexkarta som ska användas. Den här inmatningen har företräde"
+
+#. :src: Socket name from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Create Guide Index Map, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Curl Hair Curves, file procedural_hair_node_assets.blend
+msgid "Guide Distance"
+msgstr "Guideavstånd"
+
+#. :src: Socket name from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Create Guide Index Map, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Curl Hair Curves, file procedural_hair_node_assets.blend
+msgid "Guide Mask"
+msgstr "Guidemask"
+
+#. :src: Socket description from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Create Guide Index Map, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Curl Hair Curves, file procedural_hair_node_assets.blend
+msgid "Mask for which curves are eligible to be selected as guides"
+msgstr "Mask för vilka kurvor som kan väljas som guider"
+
+#. :src: Socket name from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+msgid "Flare Length"
+msgstr "Utsvängningens längd"
+
+#. :src: Socket description from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+msgid "Length of the flare at the end of the braid"
+msgstr "Längden på utsvängningen i slutet av flätan"
+
+#. :src: Socket name from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+msgid "Flare Opening"
+msgstr "Utsvängningens öppning"
+
+#. :src: Socket description from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+msgid "Opening radius of the flare at the tip of the braid"
+msgstr "Öppningsradie för utsvängningen vid flätans spets"
+
+#. :src: Socket name from node group Braid Hair Curves, file procedural_hair_node_assets.blend
+msgid "Hair Tie Scale"
+msgstr "Hårsnoddens skala"
+
+#. :src: Asset name from file procedural_hair_node_assets.blend
+msgid "Clump Hair Curves"
+msgstr "Samla hårkurvor"
+
+#. :src: Socket name from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+msgid "Tip Spread"
+msgstr "Spridning vid spetsarna"
+
+#. :src: Socket name from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+msgid "Clump Offset"
+msgstr "Klumpförskjutning"
+
+#. :src: Socket name from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+msgid "Distance Falloff"
+msgstr "Avtagande med avstånd"
+
+#. :src: Socket description from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+msgid "Falloff distance for the clumping effect (0 means no falloff)"
+msgstr "Avstånd där klumpningseffekten avtar (0 innebär inget avtagande)"
+
+#. :src: Socket description from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+msgid "Distance threshold for the falloff around the guide"
+msgstr "Avståndströskel för avtagandet kring guiden"
+
+#. :src: Socket description from node group Clump Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Generate Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Interpolate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Random seed for the operation"
+msgstr "Slumpfrö för operationen"
+
+#. :src: Asset name from file procedural_hair_node_assets.blend
+msgid "Create Guide Index Map"
+msgstr "Skapa guideindexkarta"
+
+#. :src: Asset description from file procedural_hair_node_assets.blend
+msgid ""
+"Creates an attribute that maps each curve to its nearest guide via index"
+msgstr ""
+"Skapar ett attribut som kopplar varje kurva till dess närmaste guide via ett "
+"index"
+
+#. :src: Socket name from node group Create Guide Index Map, file procedural_hair_node_assets.blend
+msgid "Guide Selection"
+msgstr "Markering av guider"
+
+#. :src: Socket description from node group Create Guide Index Map, file procedural_hair_node_assets.blend
+msgid "Minimum distance between two guides"
+msgstr "Minsta avstånd mellan två guider"
+
+#. :src: Socket description from node group Create Guide Index Map, file procedural_hair_node_assets.blend
+msgid "ID to group curves together for guide map creation"
+msgstr "ID för att gruppera kurvor vid skapandet av guideindexkartan"
+
+#. :src: Asset name from file procedural_hair_node_assets.blend
+msgid "Curl Hair Curves"
+msgstr "Locka hårkurvor"
+
+#. :src: Socket name from node group Curl Hair Curves, file procedural_hair_node_assets.blend
+msgid "Curl Start"
+msgstr "Start för lockning"
+
+#. :src: Socket description from node group Curl Hair Curves, file procedural_hair_node_assets.blend
+msgid "Factor for the radius at the curl start"
+msgstr "Radiefaktor vid lockningens start"
+
+#. :src: Socket description from node group Curl Hair Curves, file procedural_hair_node_assets.blend
+msgid "Factor for the radius at the curl end"
+msgstr "Radiefaktor vid lockningens slut"
+
+#. :src: Socket description from node group Curl Hair Curves, file procedural_hair_node_assets.blend
+msgid "Amount of random offset per curve"
+msgstr "Mängd slumpmässig förskjutning per kurva"
+
+#. :src: Socket description from node group Curl Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Duplicate Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Frizz Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Roll Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Rotate Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Trim Hair Curves, file procedural_hair_node_assets.blend
+msgid "Random Seed for the operation"
+msgstr "Slumpfrö för operationen"
+
+#. :src: Asset name from file procedural_hair_node_assets.blend
+msgid "Curve Info"
+msgstr "Kurvinformation"
+
+#. :src: Socket name from node group Curve Info, file procedural_hair_node_assets.blend
+msgid "Curve ID"
+msgstr "Kurv-ID"
+
+#. :src: Socket name from node group Curve Info, file procedural_hair_node_assets.blend
+msgid "Surface UV"
+msgstr "Ytans UV"
+
+#. :src: Socket description from node group Curve Info, file procedural_hair_node_assets.blend
+msgid "Attachment surface UV coordinates of each curve"
+msgstr "UV-koordinater för ytinfästningen för varje kurva"
+
+#. :src: Asset name from file procedural_hair_node_assets.blend
+msgid "Curve Root"
+msgstr "Kurvrot"
+
+#. :src: Socket name from node group Curve Root, file procedural_hair_node_assets.blend
+msgid "Root Selection"
+msgstr "Markering av rötter"
+
+#. :src: Socket name from node group Curve Root, file procedural_hair_node_assets.blend
+msgid "Root Position"
+msgstr "Rotposition"
+
+#. :src: Socket name from node group Curve Root, file procedural_hair_node_assets.blend
+msgid "Root Direction"
+msgstr "Rotriktning"
+
+#. :src: Asset name from file procedural_hair_node_assets.blend
+msgid "Curve Segment"
+msgstr "Kurvsegment"
+
+#. :src: Socket name from node group Curve Tip, file procedural_hair_node_assets.blend
+msgid "Tip Selection"
+msgstr "Markering av spetsar"
+
+#. :src: Socket name from node group Curve Tip, file procedural_hair_node_assets.blend
+msgid "Tip Position"
+msgstr "Spetsposition"
+
+#. :src: Socket name from node group Curve Tip, file procedural_hair_node_assets.blend
+msgid "Tip Direction"
+msgstr "Spetsriktning"
+
+#. :src: Socket name from node group Curve Tip, file procedural_hair_node_assets.blend
+msgid "Tip Index"
+msgstr "Spetsindex"
+
+#. :src: Socket description from node group Displace Hair Curves, file procedural_hair_node_assets.blend
+msgid "Object used to define the displacement space"
+msgstr "Objekt som används för att definiera förskjutningsrymden"
+
+#. :src: Socket name from node group Displace Hair Curves, file procedural_hair_node_assets.blend
+msgid "Displace Vector"
+msgstr "Förskjutningsvektor"
+
+#. :src: Socket description from node group Displace Hair Curves, file procedural_hair_node_assets.blend
+msgid "Surface geometry used to sample the normal for displacement"
+msgstr "Ytgeometri som används för att provta normalen för förskjutning"
+
+#. :src: Socket description from node group Displace Hair Curves, file procedural_hair_node_assets.blend
+msgid "Surface object used to sample the normal for displacement"
+msgstr "Ytobjekt som används för att provta normalen för förskjutning"
+
+#. :src: Socket description from node group Displace Hair Curves, file procedural_hair_node_assets.blend
+msgid "Surface UV map used to sample the normal for displacement"
+msgstr "Ytans UV-karta som används för att provta normalen för förskjutning"
+
+#. :src: Socket name from node group Displace Hair Curves, file procedural_hair_node_assets.blend
+msgid "Surface Normal Displacement"
+msgstr "Förskjutning längs ytnormalen"
+
+#. :src: Socket description from node group Displace Hair Curves, file procedural_hair_node_assets.blend
+msgid "Amount of displacemement along the surface normal"
+msgstr "Förskjutningsmängd längs ytnormalen"
+
+#. :src: Socket name from node group Duplicate Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Generate Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Interpolate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Viewport Amount"
+msgstr "Mängd i visningsområdet"
+
+#. :src: Socket description from node group Duplicate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Percentage of amount used for the viewport"
+msgstr "Procentandel av mängden som används i visningsområdet"
+
+#. :src: Socket description from node group Duplicate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Radius in which the duplicate curves are offset from the guides"
+msgstr "Radie inom vilken de duplicerade kurvorna förskjuts från guidekurvorna"
+
+#. :src: Socket name from node group Duplicate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Distribution Shape"
+msgstr "Fördelningsform"
+
+#. :src: Socket name from node group Frizz Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Hair Curves Noise, file procedural_hair_node_assets.blend
+msgid "Offset Vector"
+msgstr "Förskjutningsvektor"
+
+#. :src: Socket name from node group Frizz Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Hair Curves Noise, file procedural_hair_node_assets.blend
+msgid "Cumulative Offset"
+msgstr "Ackumulerad förskjutning"
+
+#. :src: Socket description from node group Frizz Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Hair Curves Noise, file procedural_hair_node_assets.blend
+msgid "Apply offset cumulatively (previous points affect points after)"
+msgstr ""
+"Tillämpa förskjutningen kumulativt (tidigare punkter påverkar följande "
+"punkter)"
+
+#. :src: Asset description from file procedural_hair_node_assets.blend
+msgid "Generates new hair curves on a surface mesh"
+msgstr "Skapar nya hårkurvor på ett ytmesh"
+
+#. :src: Socket description from node group Generate Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Hair Attachment Info, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Interpolate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Normal direction of the surface mesh at the attachment point"
+msgstr "Ytmeshens normalriktning vid fästpunkten"
+
+#. :src: Socket name from node group Generate Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Interpolate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Density Mask"
+msgstr "Täthetsmask"
+
+#. :src: Socket description from node group Generate Hair Curves, file procedural_hair_node_assets.blend
+#. :src: Socket description from node group Interpolate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Discard points based on a mask texture after distribution"
+msgstr "Kasta bort punkter utifrån en masktextur efter fördelningen"
+
+#. :src: Asset name from file procedural_hair_node_assets.blend
+msgid "Hair Attachment Info"
+msgstr "Information om hårinfästning"
+
+#. :src: Asset description from file procedural_hair_node_assets.blend
+msgid "Reads attachment information regarding a surface mesh"
+msgstr "Läser information om en infästning på ett ytmesh"
+
+#. :src: Socket name from node group Hair Attachment Info, file procedural_hair_node_assets.blend
+msgid "Attachment UV"
+msgstr "Infästnings-UV"
+
+#. :src: Socket description from node group Hair Attachment Info, file procedural_hair_node_assets.blend
+msgid "Surface attachment UV coordinates stored on each curve"
+msgstr "UV-koordinater för ytinfästningen som lagras på varje kurva"
+
+#. :src: Socket name from node group Hair Attachment Info, file procedural_hair_node_assets.blend
+msgid "Attachment is Valid"
+msgstr "Infästningen är giltig"
+
+#. :src: Socket description from node group Hair Attachment Info, file procedural_hair_node_assets.blend
+msgid "Whether the stored attachment UV coordinate is valid"
+msgstr "Om den lagrade UV-koordinaten för infästningen är giltig"
+
+#. :src: Socket name from node group Interpolate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Follow Surface Normal"
+msgstr "Följ ytnormal"
+
+#. :src: Socket name from node group Interpolate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Part by Mesh Islands"
+msgstr "Dela vid meshöar"
+
+#. :src: Socket description from node group Interpolate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Use mesh islands of the surface geometry for parting"
+msgstr "Använd ytgeometrins meshöar för att dela upp håret"
+
+#. :src: Socket name from node group Interpolate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Interpolation Guides"
+msgstr "Guidekurvor för interpolering"
+
+#. :src: Socket name from node group Redistribute Curve Points, file procedural_hair_node_assets.blend
+msgid "Feature Awareness"
+msgstr "Detaljbevarande"
+
+#. :src: Socket description from node group Redistribute Curve Points, file procedural_hair_node_assets.blend
+msgid "Use simple feature awareness to keep feature definition"
+msgstr "Använd en enkel metod som bevarar detaljdefinitionen"
+
+#. :src: Asset name from file procedural_hair_node_assets.blend
+msgid "Restore Curve Segment Length"
+msgstr "Återställ kurvsegmentets längd"
+
+#. :src: Socket name from node group Restore Curve Segment Length, file procedural_hair_node_assets.blend
+#. :src: Socket name from node group Trim Hair Curves, file procedural_hair_node_assets.blend
+msgid "Pin at Parameter"
+msgstr "Fäst vid parameter"
+
+#. :src: Asset name from file procedural_hair_node_assets.blend
+msgid "Roll Hair Curves"
+msgstr "Rulla hårkurvor"
+
+#. :src: Socket name from node group Roll Hair Curves, file procedural_hair_node_assets.blend
+msgid "Retain Overall Shape"
+msgstr "Behåll övergripande form"
+
+#. :src: Socket description from node group Roll Hair Curves, file procedural_hair_node_assets.blend
+msgid "Offset the roll along the original curve to retain shape"
+msgstr "Förskjut rullningen längs originalkurvan för att behålla formen"
+
+#. :src: Socket name from node group Roll Hair Curves, file procedural_hair_node_assets.blend
+msgid "Roll Direction"
+msgstr "Rullningsriktning"
+
+#. :src: Socket description from node group Roll Hair Curves, file procedural_hair_node_assets.blend
+msgid "Axis around which each curve is rolled"
+msgstr "Axel som varje kurva rullas kring"
+
+#. :src: Socket description from node group Roll Hair Curves, file procedural_hair_node_assets.blend
+msgid "Amount of randomization of the direction of the roll"
+msgstr "Mängden slumpvariation i rullningsriktningen"
+
+#. :src: Asset name from file procedural_hair_node_assets.blend
+msgid "Rotate Hair Curves"
+msgstr "Rotera hårkurvor"
+
+#. :src: Asset description from file procedural_hair_node_assets.blend
+msgid "Rotates each hair curve around an axis"
+msgstr "Roterar varje hårkurva kring en axel"
+
+#. :src: Socket description from node group Set Hair Curve Profile, file procedural_hair_node_assets.blend
+msgid "Base radius to be set if 'Replace Radius' is enabled"
+msgstr "Basradie som ska ställas in om \"Ersätt radie\" är aktiverat"
+
+#. :src: Socket description from node group Set Hair Curve Profile, file procedural_hair_node_assets.blend
+msgid "Factor of the radius at the minimum"
+msgstr "Radiefaktor vid minimum"
+
+#. :src: Socket description from node group Set Hair Curve Profile, file procedural_hair_node_assets.blend
+msgid "Factor of the radius at the maximum"
+msgstr "Radiefaktor vid maximum"
+
+#. :src: Asset description from file procedural_hair_node_assets.blend
+msgid ""
+"Shrinkwraps hair curves to a mesh surface from below and optionally from "
+"above"
+msgstr "Anpassar hårkurvor till en meshyta underifrån och vid behov ovanifrån"
+
+#. :src: Socket description from node group Shrinkwrap Hair Curves, file procedural_hair_node_assets.blend
+msgid "Surface geometry used for shrinkwrap"
+msgstr "Ytgeometri som används för Shrinkwrap"
+
+#. :src: Socket description from node group Shrinkwrap Hair Curves, file procedural_hair_node_assets.blend
+msgid "Surface object used for shrinkwrap"
+msgstr "Ytobjekt som används för Shrinkwrap"
+
+#. :src: Socket description from node group Shrinkwrap Hair Curves, file procedural_hair_node_assets.blend
+msgid "Distance from the surface used for shrinkwrap"
+msgstr "Avstånd från ytan som används för Shrinkwrap"
+
+#. :src: Socket description from node group Shrinkwrap Hair Curves, file procedural_hair_node_assets.blend
+msgid "Blend shrinkwrap for points above the surface"
+msgstr "Blanda Shrinkwrap-effekten för punkter ovanför ytan"
+
+#. :src: Socket name from node group Shrinkwrap Hair Curves, file procedural_hair_node_assets.blend
+msgid "Smoothing Steps"
+msgstr "Utjämningssteg"
+
+#. :src: Socket description from node group Shrinkwrap Hair Curves, file procedural_hair_node_assets.blend
+msgid "Amount of steps of smoothing applied after shrinkwrap"
+msgstr "Antal utjämningssteg som tillämpas efter Shrinkwrap"
+
+#. :src: Asset name from file procedural_hair_node_assets.blend
+msgid "Smooth Hair Curves"
+msgstr "Jämna ut hårkurvor"
+
+#. :src: Asset description from file procedural_hair_node_assets.blend
+msgid "Smoothes the shape of hair curves"
+msgstr "Jämnar ut hårkurvornas form"
+
+#. :src: Socket name from node group Smooth Hair Curves, file procedural_hair_node_assets.blend
+msgid "Lock Tips"
+msgstr "Lås spetsar"
+
+#. :src: Asset name from file procedural_hair_node_assets.blend
+msgid "Straighten Hair Curves"
+msgstr "Räta ut hårkurvor"
+
+#. :src: Asset description from file procedural_hair_node_assets.blend
+msgid "Straightens hair curves between root and tip"
+msgstr "Rätar ut hårkurvor mellan rot och spets"
+
+#. :src: Socket description from node group Straighten Hair Curves, file procedural_hair_node_assets.blend
+msgid "Amount of straightening"
+msgstr "Mängd uträtning"
+
+#. :src: Socket description from node group Trim Hair Curves, file procedural_hair_node_assets.blend
+msgid "Mask to blend overall effect"
+msgstr "Mask för att blanda den övergripande effekten"
+
+#. :src: Asset name from file smooth_by_angle.blend
+msgid "Smooth by Angle"
+msgstr "Jämna ut efter vinkel"
+
+#. :src: Socket description from node group Smooth by Angle, file smooth_by_angle.blend
+msgid "Maximum face angle for smooth edges"
+msgstr "Största vinkeln mellan ytor för mjuka kanter"
+
+#. :src: bpy.types.MovieClip.use_proxy_custom_directory
+msgid "Create proxy images in a custom directory (default is movie location)"
+msgstr ""
+"Skapa proxybilder i en anpassad katalog (standarden är filmens katalog)"
+
+#. :src: bpy.types.CompositorNodeTree.use_viewer_border
+msgid "Viewer Region"
+msgstr "Visningsområde"
+
+#. :src: bpy.types.CompositorNodeTree.use_viewer_border
+msgid "Use boundaries for viewer nodes and composite backdrop"
+msgstr "Använd gränser för visningsnoder och kompositionsbakgrunden"
+
+#. :src: bpy.types.Mesh.loop_triangles
+#. :src: bpy.types.MeshLoopTriangles
+msgid "Tessellation of mesh polygons into triangles"
+msgstr "Tessellering av meshpolygoner till trianglar"
+
+#. :src: bpy.types.Mesh.polygons
+msgid "Polygons of the mesh"
+msgstr "Meshens polygoner"
+
+#. :src: bpy.types.Mesh.remesh_mode
+msgid "Remesh Mode"
+msgstr "Ommeshningsläge"
+
+#. :src: bpy.types.Mesh.remesh_mode:'VOXEL'
+msgid "Use the voxel remesher"
+msgstr "Använd voxelommesharen"
+
+#. :src: bpy.types.Mesh.remesh_mode:'QUAD'
+msgid "Use the quad remesher"
+msgstr "Använd fyrhörningsommesharen"
+
+#. :src: bpy.types.Mesh.use_remesh_fix_poles
+msgid "Fix Poles"
+msgstr "Korrigera poler"
+
+#. :src: bpy.types.Mesh.use_remesh_fix_poles
+msgid "Produces fewer poles and a better topology flow"
+msgstr "Ger färre poler och ett bättre topologiskt flöde"
+
+#. :src: bpy.types.Mesh.use_remesh_preserve_volume
+msgid ""
+"Projects the mesh to preserve the volume and details of the original mesh"
+msgstr ""
+"Projicerar meshen för att bevara volymen och detaljerna i den ursprungliga "
+"meshen"
+
+#. :src: bpy.types.Mesh.uv_layer_stencil
+msgid "Mask UV Loop Layer"
+msgstr "UV-looplager för maskning"
+
+#. :src: bpy.types.Mesh.uv_layer_stencil
+msgid "UV loop layer to mask the painted area"
+msgstr "UV-looplager för att maskera det målade området"
+
+#. :src: bpy.types.Mesh.uv_layers
+msgid "UV Loop Layers"
+msgstr "UV-looplager"
+
+#. :src: bpy.types.Mesh.uv_layers
+msgid "All UV loop layers"
+msgstr "Alla UV-looplager"
+
+#. :src: bpy.types.Mesh.vertices
+#. :src: bpy.types.Object.instance_type:'VERTS'
+#. :src: bpy.types.ParticleSettings.emit_from:'VERT'
+#. :src: bpy.types.MeshEdge.vertices
+#. :src: bpy.types.MeshLoopTriangle.vertices
+#. :src: bpy.types.MeshPolygon.vertices
+#. :src: bpy.types.BevelModifier.affect:'VERTICES'
+#. :src: bpy.types.GeometryNodeExtrudeMesh.mode:'VERTICES'
+#. :src: bpy.types.GeometryNodeMeshToPoints.mode:'VERTICES'
+#. :src: bpy.types.CURVE_OT_delete.type:'VERT'
+#. :src: bpy.types.MESH_OT_bevel.affect:'VERTICES'
+#. :src: bpy.types.MESH_OT_delete.type:'VERT'
+#. :src: bpy.types.MESH_OT_delete_loose.use_verts
+#. :src: bpy.types.MESH_OT_mark_sharp.use_verts
+#. :src: bpy.types.MESH_OT_primitive_circle_add.vertices
+#. :src: bpy.types.MESH_OT_primitive_cone_add.vertices
+#. :src: bpy.types.MESH_OT_primitive_cylinder_add.vertices
+#. :src: bpy.types.MESH_OT_select_non_manifold.use_verts
+#. :src: bpy.types.MESH_OT_sort_elements.elements:'VERT'
+#: scripts/addons_core/io_scene_gltf2/__init__.py:1808
+#: source/blender/editors/space_info/info_stats.cc:836
+#: source/blender/editors/uvedit/uvedit_smart_stitch.cc:281
+#: source/blender/nodes/geometry/nodes/node_geo_mesh_primitive_circle.cc:26
+#: source/blender/nodes/geometry/nodes/node_geo_mesh_primitive_cone.cc:24
+#: source/blender/nodes/geometry/nodes/node_geo_mesh_primitive_cylinder.cc:23
+msgid "Vertices"
+msgstr "Hörnpunkter"
+
+#. :src: bpy.types.Mesh.vertices
+msgid "Vertices of the mesh"
+msgstr "Meshens hörnpunkter"
+
+#. :src: bpy.types.Material.displacement_method:'BOTH'
+msgid "Combination of true displacement and bump mapping for finer detail"
+msgstr ""
+"Kombination av verklig förskjutning och bumpmappning för finare detaljer"
+
+#. :src: bpy.types.Material.grease_pencil
+msgid "Grease Pencil color settings for material"
+msgstr "Grease Pencil-färginställningar för material"
+
+#. :src: bpy.types.Material.lineart
+msgid "Line Art settings for material"
+msgstr "Inställningar för linjeteckning för material"
+
+#. :src: bpy.types.Material.refraction_depth
+msgid ""
+"Approximate the thickness of the object to compute two refraction events (0 "
+"is disabled) (Deprecated)"
+msgstr ""
+"Approximerar objektets tjocklek för att beräkna två refraktionshändelser (0 "
+"inaktiverar) (Utgår)"
+
+#. :src: bpy.types.Material.use_screen_refraction
+msgid ""
+"Use raytracing to determine transmitted color instead of using only light "
+"probes. This prevents the surface from contributing to the lighting of "
+"surfaces not using this setting. Deprecated: use 'use_raytrace_refraction'."
+msgstr ""
+"Använd strålspårning för att bestämma den överförda färgen i stället för att "
+"bara använda ljussonder. Detta förhindrar att ytan bidrar till belysningen "
+"av ytor som inte använder denna inställning. Föråldrad: använd "
+"\"use_raytrace_refraction\"."
+
+#. :src: bpy.types.Material.use_sss_translucency
+msgid "Subsurface Translucency"
+msgstr "Underytsgenomskinlighet"
+
+#. :src: bpy.types.Material.volume_intersection_method
+msgid "Determines which inner part of the mesh will produce volumetric effect"
+msgstr "Bestämmer vilken inre del av meshen som ska ge en volymetrisk effekt"
+
+#. :src: bpy.types.Material.volume_intersection_method:'ACCURATE'
+msgid ""
+"Faces are considered as medium interface only when they have different "
+"consecutive facing. Gives correct results as long as the max ray depth is "
+"not exceeded. Have significant memory overhead compared to the fast method."
+msgstr ""
+"Ytor betraktas som gränssnitt för ett medium endast när deras riktningar i "
+"följd skiljer sig. Ger korrekta resultat så länge det maximala stråldjupet "
+"inte överskrids. Har betydande minneskostnad jämfört med den snabba metoden."
+
+#. :src: bpy.types.LightProbe
+msgid "Light Probe data-block for lighting capture objects"
+msgstr "Ljussonddatablock för objekt som fångar belysning"
+
+#. :src: bpy.types.LightProbe.clip_start
+msgid "Probe clip start, below which objects will not appear in reflections"
+msgstr "Sondens klippstart, under vilken objekt inte visas i reflektioner"
+
+#. :src: bpy.types.LightProbe.data_display_size
+msgid "Display Data Size"
+msgstr "Storlek på visningsdata"
+
+#. :src: bpy.types.LightProbe.data_display_size
+msgid "Viewport display size of the sampled data"
+msgstr "Storlek i 3D-vyn för samplade data"
+
+#. :src: bpy.types.LightProbe.influence_distance
+msgid "Influence Distance"
+msgstr "Påverkansavstånd"
+
+#. :src: bpy.types.LightProbe.influence_distance
+msgid "Influence distance of the probe"
+msgstr "Sondens påverkansavstånd"
+
+#. :src: bpy.types.LightProbeSphere.clip_end
+msgid "Probe clip end, beyond which objects will not appear in reflections"
+msgstr "Sondens klippslut, bortom vilket objekt inte visas i reflektioner"
+
+#. :src: bpy.types.LightProbeSphere.falloff
+msgid "Control how fast the probe influence decreases"
+msgstr "Styr hur snabbt sondens påverkan minskar"
+
+#. :src: bpy.types.LightProbeVolume.bake_samples
+msgid "Bake Samples"
+msgstr "Bakningsprov"
+
+#. :src: bpy.types.LightProbeVolume.capture_distance
+msgid "Capture Distance"
+msgstr "Fångstavstånd"
+
+#. :src: bpy.types.LightProbeVolume.capture_emission
+msgid "Capture Emission"
+msgstr "Fånga emission"
+
+#. :src: bpy.types.LightProbeVolume.capture_indirect
+msgid "Capture Indirect"
+msgstr "Fånga indirekt ljus"
+
+#. :src: bpy.types.LightProbeVolume.capture_indirect
+msgid "Bake light bounces from light sources for more accurate lighting"
+msgstr "Baka ljusstudsar från ljuskällor för mer exakt belysning"
+
+#. :src: bpy.types.LightProbeVolume.capture_world
+msgid "Capture World"
+msgstr "Fånga omvärldsljus"
+
+#. :src: bpy.types.LightProbeVolume.clamp_direct
+#. :src: bpy.types.CyclesRenderSettings.sample_clamp_direct
+msgid "Clamp Direct"
+msgstr "Begränsa direktljus"
+
+#. :src: bpy.types.LightProbeVolume.clamp_direct
+msgid "Clamp the direct lighting intensity to reduce noise (0 to disable)"
+msgstr ""
+"Begränsa direktljusets intensitet för att minska brus (0 för att inaktivera)"
+
+#. :src: bpy.types.LightProbeVolume.clamp_indirect
+#. :src: bpy.types.CyclesRenderSettings.sample_clamp_indirect
+msgid "Clamp Indirect"
+msgstr "Begränsa indirekt ljus"
+
+#. :src: bpy.types.LightProbeVolume.clamp_indirect
+msgid "Clamp the indirect lighting intensity to reduce noise (0 to disable)"
+msgstr ""
+"Begränsa det indirekta ljusets intensitet för att minska brus (0 för att "
+"inaktivera)"
+
+#. :src: bpy.types.LightProbeVolume.escape_bias
+msgid ""
+"Distance to search for valid capture positions to prevent lighting artifacts"
+msgstr ""
+"Avstånd för att söka efter giltiga fångstpositioner och undvika "
+"ljusartefakter"
+
+#. :src: bpy.types.LightProbeVolume.validity_threshold
+msgid "Validity Threshold"
+msgstr "Giltighetströskel"
+
+#. :src: bpy.types.AreaLight.shadow_buffer_clip_start
+#. :src: bpy.types.PointLight.shadow_buffer_clip_start
+#. :src: bpy.types.SpotLight.shadow_buffer_clip_start
+#. :src: bpy.types.SunLight.shadow_buffer_clip_start
+msgid "Shadow Buffer Clip Start"
+msgstr "Skuggbuffertens klippstart"
+
+#. :src: bpy.types.AreaLight.shadow_maximum_resolution
+#. :src: bpy.types.PointLight.shadow_maximum_resolution
+#. :src: bpy.types.SpotLight.shadow_maximum_resolution
+#. :src: bpy.types.SunLight.shadow_maximum_resolution
+#. :src: bpy.types.World.sun_shadow_maximum_resolution
+msgid "Shadows Resolution Limit"
+msgstr "Gräns för skuggupplösning"
+
+#. :src: bpy.types.AreaLight.shadow_soft_size
+#. :src: bpy.types.PointLight.shadow_soft_size
+#. :src: bpy.types.SpotLight.shadow_soft_size
+#. :src: bpy.types.SunLight.shadow_soft_size
+msgid "Shadow Soft Size"
+msgstr "Mjuk skuggstorlek"
+
+#. :src: bpy.types.AreaLight.shadow_soft_size
+#. :src: bpy.types.PointLight.shadow_soft_size
+#. :src: bpy.types.SpotLight.shadow_soft_size
+#. :src: bpy.types.SunLight.shadow_soft_size
+msgid "Light size for ray shadow sampling (Raytraced shadows)"
+msgstr "Ljusstorlek för sampling av strålspårade skuggor"
+
+#. :src: bpy.types.AreaLight.shape
+msgid "Shape of the area Light"
+msgstr "Områdesljusets form"
+
+#. :src: bpy.types.PointLight
+msgid "Omnidirectional point Light"
+msgstr "Omnidirektionellt punktljus"
+
+#. :src: bpy.types.PointLight.use_soft_falloff
+#. :src: bpy.types.SpotLight.use_soft_falloff
+msgid "Soft Falloff"
+msgstr "Mjukt avtagande"
+
+#. :src: bpy.types.PointLight.use_soft_falloff
+#. :src: bpy.types.SpotLight.use_soft_falloff
+msgid ""
+"Apply falloff to avoid sharp edges when the light geometry intersects with "
+"other objects"
+msgstr ""
+"Tillämpa avtagande för att undvika skarpa kanter när ljusgeometrin korsar "
+"andra objekt"
+
+#. :src: bpy.types.SpotLight
+msgid "Spot Light"
+msgstr "Strålkastare"
+
+#. :src: bpy.types.SpotLight.energy
+msgid ""
+"The energy this light would emit over its entire area if it wasn't limited "
+"by the spot angle"
+msgstr ""
+"Den energi som detta ljus skulle avge över hela sin yta om det inte "
+"begränsades av strålkastarvinkeln"
+
+#. :src: bpy.types.SpotLight.spot_blend
+msgid "Spot Blend"
+msgstr "Strålkastarens övergång"
+
+#. :src: bpy.types.SpotLight.spot_blend
+msgid "The softness of the spotlight edge"
+msgstr "Hur mjuk strålkastarens kant är"
+
+#. :src: bpy.types.SpotLight.spot_size
+#: scripts/addons_core/cycles/ui.py:1609
+msgid "Spot Size"
+msgstr "Strålkastarstorlek"
+
+#. :src: bpy.types.SpotLight.use_square
+msgid "Cast a square spot light shape"
+msgstr "Skapa en kvadratisk strålkastarform"
+
+#. :src: bpy.types.SunLight
+msgid "Sun Light"
+msgstr "Solljus"
+
+#. :src: bpy.types.SunLight
+msgid "Constant direction parallel ray Light"
+msgstr "Parallellstrålande ljus med fast riktning"
+
+#. :src: bpy.types.SunLight.energy
+msgid "Sunlight strength in watts per meter squared (W/m²)"
+msgstr "Solljusstyrka i watt per kvadratmeter (W/m²)"
+
+#. :src: bpy.types.SunLight.shadow_cascade_count
+msgid "Cascade Count"
+msgstr "Antal kaskader"
+
+#. :src: bpy.types.SunLight.shadow_cascade_exponent
+msgid "Higher value increase resolution towards the viewpoint"
+msgstr "Högre värden ökar upplösningen mot synvinkeln"
+
+#. :src: bpy.types.SunLight.shadow_cascade_fade
+msgid "Cascade Fade"
+msgstr "Kaskadtoning"
+
+#. :src: bpy.types.SunLight.shadow_cascade_max_distance
+msgid "Cascade Max Distance"
+msgstr "Kaskadens längsta avstånd"
+
+#. :src: bpy.types.Library.is_editable
+msgid ""
+"Datablocks in this library are editable despite being linked. Used by brush "
+"assets and their dependencies."
+msgstr ""
+"Datablocken i detta bibliotek är redigerbara trots att de är länkade. "
+"Används av penselresurser och deras beroenden."
+
+#. :src: bpy.types.Light.type:'POINT'
+#. :src: bpy.types.OBJECT_OT_light_add.type:'POINT'
+#: source/blender/editors/object/object_add.cc:1558
+msgctxt "Light"
+msgid "Point"
+msgstr "Punkt"
+
+#. :src: bpy.types.Light.type:'SUN'
+#. :src: bpy.types.OBJECT_OT_light_add.type:'SUN'
+#: source/blender/editors/object/object_add.cc:1560
+msgctxt "Light"
+msgid "Sun"
+msgstr "Sol"
+
+#. :src: bpy.types.Light.type:'SUN'
+#. :src: bpy.types.OBJECT_OT_light_add.type:'SUN'
+msgid "Constant direction parallel ray light source"
+msgstr "Parallellstrålande ljuskälla med fast riktning"
+
+#. :src: bpy.types.Light.type:'SPOT'
+#. :src: bpy.types.OBJECT_OT_light_add.type:'SPOT'
+#: source/blender/editors/object/object_add.cc:1562
+msgctxt "Light"
+msgid "Spot"
+msgstr "Strålkastare"
+
+#. :src: bpy.types.Light.type:'SPOT'
+#. :src: bpy.types.OBJECT_OT_light_add.type:'SPOT'
+msgid "Directional cone light source"
+msgstr "Riktad konformad ljuskälla"
+
+#. :src: bpy.types.Light.type:'AREA'
+#. :src: bpy.types.OBJECT_OT_light_add.type:'AREA'
+msgid "Directional area light source"
+msgstr "Riktat områdesljus"
+
+#. :src: bpy.types.AreaLight
+msgid "Area Light"
+msgstr "Områdesljus"
+
+#. :src: bpy.types.AreaLight
+msgid "Directional area Light"
+msgstr "Riktat områdesljus"
+
+#. :src: bpy.types.AreaLight.energy
+#. :src: bpy.types.PointLight.energy
+#. :src: bpy.types.SpotLight.energy
+msgctxt "Light"
+msgid "Power"
+msgstr "Effekt"
+
+#. :src: bpy.types.Image.generated_type:'COLOR_GRID'
+#. :src: bpy.types.IMAGE_OT_new.generated_type:'COLOR_GRID'
+#. :src: bpy.types.IMAGE_OT_tile_add.generated_type:'COLOR_GRID'
+#. :src: bpy.types.IMAGE_OT_tile_fill.generated_type:'COLOR_GRID'
+#. :src: bpy.types.PAINT_OT_add_texture_paint_slot.generated_type:'COLOR_GRID'
+#. :src: bpy.types.UDIMTile.generated_type:'COLOR_GRID'
+msgid "Generated improved UV grid to test UV mappings"
+msgstr "Förbättrat UV-rutnät som skapats för att testa UV-kartläggning"
+
+#. :src: bpy.types.Image.generated_width
+#. :src: bpy.types.UDIMTile.generated_width
+msgid "Generated image width"
+msgstr "Den genererade bildens bredd"
+
+#. :src: bpy.types.Image.packed_file
+msgid "First packed file of the image"
+msgstr "Bildens första packade fil"
+
+#. :src: bpy.types.Image.pixels
+msgid "Image buffer pixels in floating-point values"
+msgstr "Bildbuffertens bildpunkter som flyttalsvärden"
+
+#. :src: bpy.types.Image.source:'TILED'
+msgid "Tiled UDIM image texture"
+msgstr "UDIM-bildtextur med plattor"
+
+#. :src: bpy.types.Image.type:'MULTILAYER'
+msgid "Multilayer"
+msgstr "Flerlager"
+
+#. :src: bpy.types.Image.use_multiview
+#. :src: bpy.types.BRUSH_OT_asset_load_preview.use_multiview
+#. :src: bpy.types.CLIP_OT_open.use_multiview
+#. :src: bpy.types.ED_OT_lib_id_load_custom_preview.use_multiview
+#. :src: bpy.types.GRAPH_OT_sound_to_samples.use_multiview
+#. :src: bpy.types.IMAGE_OT_file_browse.use_multiview
+#. :src: bpy.types.IMAGE_OT_open.use_multiview
+#. :src: bpy.types.IMAGE_OT_replace.use_multiview
+#. :src: bpy.types.IMAGE_OT_save_as.use_multiview
+#. :src: bpy.types.NODE_OT_add_image.use_multiview
+#. :src: bpy.types.OBJECT_OT_empty_image_add.use_multiview
+#. :src: bpy.types.SCREEN_OT_screenshot.use_multiview
+#. :src: bpy.types.SCREEN_OT_screenshot_area.use_multiview
+#. :src: bpy.types.SEQUENCER_OT_image_strip_add.use_multiview
+#. :src: bpy.types.SEQUENCER_OT_movie_strip_add.use_multiview
+#. :src: bpy.types.SOUND_OT_open.use_multiview
+#. :src: bpy.types.SOUND_OT_open_mono.use_multiview
+#. :src: bpy.types.ImageStrip.use_multiview
+#. :src: bpy.types.MovieStrip.use_multiview
+msgid "Use Multi-View"
+msgstr "Använd flera vyer"
+
+#. :src: bpy.types.Image.views_format
+#. :src: bpy.types.ImageFormatSettings.views_format
+#. :src: bpy.types.ImageStrip.views_format
+#. :src: bpy.types.MovieStrip.views_format
+msgid "Views Format"
+msgstr "Vyformat"
+
+#. :src: bpy.types.Image.alpha_mode
+#. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.alpha_mode
+#. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.alpha_mode
+msgid ""
+"Representation of alpha in the image file, to convert to and from when "
+"saving and loading the image"
+msgstr "Hur alfa representeras i bildfilen vid lagring och laddning"
+
+#. :src: bpy.types.Image.alpha_mode:'PREMUL'
+#. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.alpha_mode:'PREMUL'
+#. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.alpha_mode:'PREMUL'
+msgid ""
+"Store RGB channels with alpha multiplied in, also known as associated alpha. "
+"The natural format for renders and used by file formats like OpenEXR."
+msgstr ""
+"Lagra RGB-kanaler med alfavärdet inmultiplicerat, även kallat associerad "
+"alfa. Det är det naturliga formatet för renderingar och används av filformat "
+"som OpenEXR."
+
+#. :src: bpy.types.Image.alpha_mode:'CHANNEL_PACKED'
+#. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.alpha_mode:'CHANNEL_PACKED'
+#. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.alpha_mode:'CHANNEL_PACKED'
+msgid "Channel Packed"
+msgstr "Kanalpackad"
+
+#. :src: bpy.types.Image.depth
+msgid "Image bit depth"
+msgstr "Bildens bitdjup"
+
+#. :src: bpy.types.Image.display_aspect
+msgid "Display Aspect for this image, does not affect rendering"
+msgstr "Visningsbildförhållandet för den här bilden påverkar inte renderingen"
+
+#. :src: bpy.types.Image.file_format:'HDR'
+#. :src: bpy.types.ImageFormatSettings.file_format:'HDR'
+msgid "Radiance HDR"
+msgstr "Radiance HDR"
+
+#. :src: bpy.types.Image.file_format:'FFMPEG'
+#. :src: bpy.types.ImageFormatSettings.file_format:'FFMPEG'
+msgid "FFmpeg Video"
+msgstr "FFmpeg-video"
+
+#. :src: bpy.types.Image.generated_type:'BLANK'
+#. :src: bpy.types.IMAGE_OT_new.generated_type:'BLANK'
+#. :src: bpy.types.IMAGE_OT_tile_add.generated_type:'BLANK'
+#. :src: bpy.types.IMAGE_OT_tile_fill.generated_type:'BLANK'
+#. :src: bpy.types.PAINT_OT_add_texture_paint_slot.generated_type:'BLANK'
+#. :src: bpy.types.SCENE_OT_view_layer_add.type:'EMPTY'
+#. :src: bpy.types.UDIMTile.generated_type:'BLANK'
+msgid "Blank"
+msgstr "Tom"
+
+#. :src: bpy.types.GreasePencilv3.stroke_depth_order:'2D'
+#. :src: bpy.types.GeometryNodeSetGreasePencilDepth.depth_order:'2D'
+#. :src: bpy.types.OBJECT_OT_grease_pencil_add.stroke_depth_order:'2D'
+msgid "2D Layers"
+msgstr "2D-lager"
+
+#. :src: bpy.types.GreasePencilv3.stroke_depth_order:'3D'
+#. :src: bpy.types.GeometryNodeSetGreasePencilDepth.depth_order:'3D'
+#. :src: bpy.types.OBJECT_OT_grease_pencil_add.stroke_depth_order:'3D'
+msgid "3D Location"
+msgstr "3D-position"
+
+#. :src: bpy.types.GreasePencilv3.stroke_depth_order:'3D'
+#. :src: bpy.types.GeometryNodeSetGreasePencilDepth.depth_order:'3D'
+#. :src: bpy.types.OBJECT_OT_grease_pencil_add.stroke_depth_order:'3D'
+msgid "Display strokes using real 3D position in 3D space"
+msgstr "Visa streck utifrån deras faktiska 3D-positioner"
+
+#. :src: bpy.types.GreasePencilv3.use_autolock_layers
+msgid "Auto-Lock Layers"
+msgstr "Lås lager automatiskt"
+
+#. :src: bpy.types.GreasePencilv3.use_ghost_custom_colors
+msgid "Use Custom Ghost Colors"
+msgstr "Använd anpassade färger för lökskal"
+
+#. :src: bpy.types.GreasePencilv3.use_ghost_custom_colors
+msgid "Use custom colors for ghost frames"
+msgstr "Använd anpassade färger för lökskalsbildrutor"
+
+#. :src: bpy.types.GreasePencilv3.use_onion_fade
+msgid "Display onion keyframes with a fade in color transparency"
+msgstr "Visa lökskalsbildrutor med avtagande färgopacitet"
+
+#. :src: bpy.types.GreasePencilv3.use_onion_loop
+#: scripts/startup/bl_ui/properties_data_grease_pencil.py:426
+msgid "Show Start Frame"
+msgstr "Visa startbildruta"
+
+#. :src: bpy.types.GreasePencilv3.use_onion_loop
+msgid "Display onion keyframes for looping animations"
+msgstr "Visa lökskalens nyckelbildrutor för loopande animationer"
