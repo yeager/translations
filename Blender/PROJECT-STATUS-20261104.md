@@ -1699,3 +1699,13 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 konstgjord V2-varning när fristående datatyper fogas ihop till löptext.
 Filen är arkiverad och väntar på manuell import.
 
+Batch 199 granskar fem geometriattribut- och kurvtermer. Den normaliserar
+*Matris med flyttal* till den etablerade sammansättningen *flyttalsmatris*
+och rättar *Bytefärgattribut* till *bytefärgsattribut*. *Spline* behålls som
+Blenders etablerade tekniska term. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-199-geometry-matrices-and-splines.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` ger 10/10 och rapporterar enbart förväntade Blender-termer. Filen
+är arkiverad och väntar på manuell import.
+

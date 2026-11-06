@@ -138,6 +138,8 @@ Senast uppdaterad: 2026-11-06.
 | input type / input value | indatatyp / indatavärde | I nodsammanhang avser *input* ett indatauttag eller dess värde. |
 | float | flyttal | Numerisk datatyp. Skriv exempelvis *avrunda flyttalet uppåt*. |
 | byte color | bytefärg | 8-bitars färgattribut i geometri- och nodkontext. |
+| byte color attribute | bytefärgsattribut | Geometriattribut som lagrar RGBA-färg med 8 bitar per kanal. |
+| floating point matrix | flyttalsmatris | Matrisdatatyp med flyttalsvärden; skriv ihop i UI-etiketter. |
 | signed integer vector | vektor med signerade 16-/32-bitars heltal | Datatyp för heltalsvektor; skriv *bitars heltal* med mellanrum. |
 | integer math | heltalsmatematik | Matematiska operationer på heltal. |
 | matrix determinant | matrisdeterminant | Determinanten för en matris. |
