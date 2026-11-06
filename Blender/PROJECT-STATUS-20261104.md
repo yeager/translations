@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-437.po`
-med 2 107 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-438.po`
+med 2 145 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3570,5 +3570,12 @@ veckvinkel, vykarta och stilparametrar. Den gör *veckkanter* konsekvent med
 föregående batch, ersätter den svårlästa formen *Kr Derivat Epsilon* med
 *epsilon för Kr-derivatan* och normaliserar *åsar och dalar*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-437-freestyle-style-modules-and-settings.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 438 granskar 38 Blender-poster för anteckningsbildrutor,
+anteckningslager, interpolation och lökskalning. Den rättar den otydliga
+fysiska betydelsen *ram för anteckningar* till den animeringsspecifika
+*anteckningsbildruta* och gör lökskalningskontrollerna konsekventa. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-438-annotation-frames-and-layers.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 

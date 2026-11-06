@@ -251,6 +251,8 @@ Senast uppdaterad: 2026-11-06.
 | style module | stilmodul | Freestyle-Pythonmodul som anger hur linjer ska renderas. |
 | view map / view map cache | vykarta / vykartscache | Freestyles beräknade synlighets- och kantdata respektive sparad cache av den. |
 | Kr derivative epsilon | epsilon för Kr-derivatan | Numerisk tröskelparameter för Freestyles suggestiva konturer. Behåll förkortningen Kr och formulera resten som en tydlig svensk fackterm. |
+| annotation frame / layer | anteckningsbildruta / anteckningslager | Bildruta respektive lager för Blenders ritade anteckningar. Översätt *frame* till *bildruta*, aldrig till den fysiska *ram*. |
+| onion skinning (annotations) | lökskalning | Visar närliggande anteckningsbildrutor som halvgenomskinliga spökbilder före eller efter den aktiva bildrutan. |
 | vertex neighbors / face group boundaries | hörnpunktsgrannar / ytgruppsgränser | Noder som hämtar topologiska grannar respektive kanter mellan ytgrupper. Sammansättningarna är avsiktliga. |
 | Geometry Proximity | Geometrisk närhet | Nod som beräknar närmaste position på en målgeometri. |
 | gizmo | gizmo | Etablerat Blender-UI-namn. Skriv sammansatt: *transformationsgizmo*. |
