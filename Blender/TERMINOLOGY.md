@@ -203,7 +203,10 @@ Senast uppdaterad: 2026-11-06.
 | highlight range | markeringsintervall | Egenskap som avgränsar vilka rutnätsvärden som markeras visuellt. Använd inte den handlingsinriktade formen *Markera intervall* som fältetikett. |
 | Color Gridlines | färglägg rutnätslinjer | Växling som färgsätter Mantaflow-rutnätets linjer utifrån ett valt simuleringsfält. |
 | gridlines | rutnätslinjer | Linjer som visar cellindelningen i Mantaflow-domänen. Skilj från *rutnät*, som avser själva cellstrukturen eller datafältet. |
+| color map (fluid display) | färgkartlägga | Funktion som kopplar Mantaflow-fältets voxelvärden till färgerna i en färggradient eller färgkod. Använd verbet *färgkartlägga*, inte det engelska *mappa*. |
+| fractional obstacles | fraktionella hinder | Mantaflow-metod med högre upplösning vid gränsen mellan vätska och hinder. Använd konsekvent *fraktionella*, inte den felaktiga varianten *fraktionerade*. |
 | slice direction / slices per voxel | skivriktning / skivor per voxel | Mantaflow- och volymvisningens kontroller för snitt genom voxeldata. Använd *skiva*, inte det orelaterade ordet *skär*. |
+| single slice | en enda skiva | Visningsläge för ett enda snitt genom en Mantaflow-domän eller volym. Formulera handlingen som *Visa en enda skiva*. |
 | heat grid / smoke heat grid | värmerutnät / rökens värmerutnät | Mantaflow-datafält för temperaturdata i en gasdomän. Den possessiva formen gör relationen till röken tydlig utan svårläst sammansättning. |
 | particle level set | partikelnivåmängd | Nivåmängd som härleds från vätskepartiklar för Mantaflows meshyta. Använd den matematiskt precisa termen, inte den förkortade och missvisande *partikelnivå*. |
 | mesh generator / mesh scale | meshgenerator / meshskala | Mantaflow-inställningar som väljer metod respektive upplösningsfaktor för den genererade meshen. Skriv sammansättningarna utan bindestreck. |
@@ -228,6 +231,7 @@ Senast uppdaterad: 2026-11-06.
 | grid volume | volymrutnät | Rutnät i en volym, exempelvis för punktdistribution. |
 | Fillet Curve | Avrunda kurva | Kurvnod som skapar cirkelbågar vid hörn; *filé* är fel betydelse i svensk UI-text. |
 | mesh vertex / vertex | mesh-hörnpunkt / hörnpunkt | Använd *hörnpunkt* i meshgeometri. Behåll *mesh* när Blender-datatypen behöver anges. |
+| speed vectors | hastighetsvektorer | Cachelagrade hastigheter för meshens hörnpunkter, bland annat för rörelseoskärpa. |
 | vertex neighbors / face group boundaries | hörnpunktsgrannar / ytgruppsgränser | Noder som hämtar topologiska grannar respektive kanter mellan ytgrupper. Sammansättningarna är avsiktliga. |
 | Geometry Proximity | Geometrisk närhet | Nod som beräknar närmaste position på en målgeometri. |
 | gizmo | gizmo | Etablerat Blender-UI-namn. Skriv sammansatt: *transformationsgizmo*. |
