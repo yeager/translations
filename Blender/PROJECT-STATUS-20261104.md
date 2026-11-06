@@ -1329,3 +1329,10 @@ fordonstermen *Växellåda* ersätts med den etablerade shadertermen
 `blender-ui-sv-reviewed-20261106-batch-163-shader-transmission.po` saknar
 `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint och diffkontroll. Den är
 arkiverad men ännu inte verifierat importerad till Blender Translate.
+
+Batch 164 granskar fyra Asset Browser-poster. Den återställer betydelsen av
+*user asset library* som `användarresursbibliotek` och normaliserar
+*resursbibliotek* i relaterade etiketter. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-164-asset-libraries.po` saknar
+`fuzzy`-markeringar och passerar `msgfmt`, l10n-lint och diffkontroll. Den är
+arkiverad men ännu inte verifierat importerad till Blender Translate.
