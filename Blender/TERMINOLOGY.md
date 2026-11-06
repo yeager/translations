@@ -444,6 +444,8 @@ Senast uppdaterad: 2026-11-06.
 | curve parameter falloff | avtagande längs kurvparametern | Gradvis förändring av en kurvpensels verkan från spetsen till roten. |
 | curve radius | kurvradie | Radien för en kurva som skapas eller påverkas av kurvpenseln. |
 | Curves Sculpt brush | kurvskulpteringspensel | Pensel i Curves Sculpt-läget; använd sammansättningen i inställningsrubriker. |
+| Curves Sculpt brush type | penseltyp | Väljare för verktygstyp i Curves Sculpt; använd inte *typ av borste*. |
+| inverse square | omvänd kvadrat | Kurv- eller avtagandeförinställning; den svenska formen är inte *invers kvadrat*. |
 | Density brush | täthetspensel | Kurvskulpteringspensel som lägger till eller tar bort kurvor utifrån deras minimiavstånd. |
 | scale uniform | skala jämnt | Ändrar kurvors storlek jämnt i stället för att trimma eller extrapolera dem. |
 | Vertex Color | hörnpunktsfärg | Färgdata som lagras per hörnpunkt; översätt både UI-läget och den förklarande texten. |

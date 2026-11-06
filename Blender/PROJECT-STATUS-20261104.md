@@ -2481,3 +2481,14 @@ Gitleaks. Hunspell och `svlang` markerar bara de avsiktliga
 facksammansättningarna *enfärg*, *veckpensel* och *nypfaktor*. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 269 granskar 7 strängar för kurvornas avtagande och Curves
+Sculpt-penslar. Den ersätter den felaktiga verktygsformen *Typ av borste* med
+*Penseltyp*, använder de etablerade kurvnamnen *Jämn* och *Omvänd kvadrat*
+och översätter verktyget *Puff* efter dess funktion till *Blås upp*. Även
+beskrivningarna av streckcykelns provtagning har normaliserats. Terminologin
+har kompletterats med *penseltyp* och *omvänd kvadrat*. Samtliga granskade
+poster får sina `fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-269-curves-sculpt-and-dashes.po`.
+Filen kontrolleras med `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
+Gitleaks före arkivering. Filen väntar därefter på manuell import.
+
