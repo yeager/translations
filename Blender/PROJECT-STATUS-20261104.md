@@ -2152,3 +2152,11 @@ Batch 240 granskar 7 kurvguide- och kraftfältsalternativ. Den rättar
 `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 241 granskar 9 ytterligare kraftfältssträngar. Den normaliserar
+*brusets frö*, *gradient*, *effektor*, *Lennard-Jones-potentialen*,
+*gravitationsavtagande* och *avstånd*. Samtliga granskade poster har fått
+sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-241-field-forces.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. Filen är
+arkiverad och väntar på manuell import.
+
