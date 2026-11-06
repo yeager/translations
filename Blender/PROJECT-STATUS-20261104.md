@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-373.po`
-med 1 049 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-374.po`
+med 1 057 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3131,5 +3131,12 @@ Driver Variable. Den rättar det oöversatta *W Rotation* till *W-rotation*,
 normaliserar *Använd reservvärde* och använder *i stället för* i den svenska
 felhanteringstexten. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-373-driver-variable-basics.po` är
+lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 374 granskar åtta Driver Variable-poster för namnregler, indatakällor
+och egenskaps-, transformations-, rotations- och kontextvariabler. Den
+förtydligar vilka data som används vid utvärderingen och gör svenskans
+subjektrelation tydlig i transformationsvärdet. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-374-driver-variable-sources.po` är
 lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
