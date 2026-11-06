@@ -1363,3 +1363,13 @@ måltexterna, diffkontroll och Gitleaks. `svlang` rapporterar bara falska
 positiva för tekniska sammansättningar och den grammatiskt korrekta bisatsen
 `som ska packas upp`. Filen är arkiverad och väntar på manuell import till
 Blender Translate.
+
+Batch 167 granskar fem filbläddrar- och datablocksetiketter. Den normaliserar
+*kameradatablock*, *Freestyle-linjestilsdatablock*, *texturplats för
+partikelinställningar* och *tillgångskataloger* enligt den befintliga
+Blender-terminologin. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-167-file-types.po` saknar
+`fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks. Hunspell och `svlang` markerar endast de projektspecifika
+sammansättningarna *kameradatablock* och *linjestilsdatablock*. Filen är
+arkiverad och väntar på manuell import till Blender Translate.
