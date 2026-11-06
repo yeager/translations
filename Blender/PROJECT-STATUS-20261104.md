@@ -1203,3 +1203,10 @@ poster har rensats; den aktuella, detaljerade definitionen fastslår
 *Action-spelautomater*, *Samling av paletter* och *handlingsluckan*.
 Deltafilen `blender-ui-sv-reviewed-20261106-150.po` saknar `fuzzy`-markeringar
 och passerar `msgfmt`, l10n-lint, diffkontroll och Gitleaks.
+
+Batch 151 granskar 20 tydliga ClothSettings-poster med en separat
+fysikterminologisk peer review. Den normaliserar *mesh*, *hörnpunkt*,
+*hörnpunktsgrupp* och *dragstyvhet*, utan att översätta Blenders begrepp
+*mesh* till nät. Deltafilen `blender-ui-sv-reviewed-20261106-151.po` saknar
+`fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks.

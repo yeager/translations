@@ -15006,7 +15006,7 @@ msgstr "Maximalt värde för kompressionsstyvhet"
 #. :src: bpy.types.ClothSettings.density_strength
 #, fuzzy
 msgid "Target Density Strength"
-msgstr "Mål Densitet Styrka"
+msgstr "Styrka för måltäthet"
 
 #. :src: bpy.types.ClothSettings.density_strength
 #, fuzzy
@@ -15016,7 +15016,7 @@ msgstr "Inverkan av målets densitet på simuleringen"
 #. :src: bpy.types.ClothSettings.density_target
 #, fuzzy
 msgid "Target Density"
-msgstr "Mål Densitet"
+msgstr "Måltäthet"
 
 #. :src: bpy.types.ClothSettings.density_target
 #, fuzzy
@@ -15076,7 +15076,7 @@ msgstr "Mål Maximalt"
 #. :src: bpy.types.ClothSettings.goal_max
 #, fuzzy
 msgid "Goal maximum, vertex group weights are scaled to match this range"
-msgstr "Målmaximum, vertexgruppens vikter skalas för att matcha detta intervall"
+msgstr "Målmaximum; hörnpunktsgruppens vikter skalas så att de motsvarar detta intervall"
 
 #. :src: bpy.types.ClothSettings.goal_min
 #. :src: bpy.types.SoftBodySettings.goal_min
@@ -15087,7 +15087,7 @@ msgstr "Mål Minimum"
 #. :src: bpy.types.ClothSettings.goal_min
 #, fuzzy
 msgid "Goal minimum, vertex group weights are scaled to match this range"
-msgstr "Målminimum, vertexgruppens vikter skalas för att matcha detta intervall"
+msgstr "Målminimum; hörnpunktsgruppens vikter skalas så att de motsvarar detta intervall"
 
 #. :src: bpy.types.ClothSettings.goal_spring
 #. :src: bpy.types.SoftBodySettings.goal_spring
@@ -15178,7 +15178,7 @@ msgstr "Maximal dragstyvhet"
 #. :src: bpy.types.ClothSettings.tension_stiffness_max
 #, fuzzy
 msgid "Maximum tension stiffness value"
-msgstr "Maximalt värde för spänningsstyvhet"
+msgstr "Maximalt värde för dragstyvhet"
 
 #. :src: bpy.types.ClothSettings.mass
 #: scripts/startup/bl_ui/properties_physics_cloth.py:87
@@ -15313,7 +15313,7 @@ msgstr "Målvolym"
 #. :src: bpy.types.ClothSettings.target_volume
 #, fuzzy
 msgid "The mesh volume where the inner/outer pressure will be the same. If set to zero the change in volume will not affect pressure."
-msgstr "Den maskvolym där det inre/yttre trycket kommer att vara detsamma. Om den sätts till noll kommer volymförändringen inte att påverka trycket."
+msgstr "Den meshvolym där det inre och yttre trycket är lika. Om värdet är noll påverkar volymförändringen inte trycket."
 
 #. :src: bpy.types.ClothSettings.tension_damping
 #, fuzzy
@@ -15342,17 +15342,17 @@ msgstr "Tryck"
 #. :src: bpy.types.ClothSettings.uniform_pressure_force
 #, fuzzy
 msgid "The uniform pressure that is constantly applied to the mesh, in units of Pressure Scale. Can be negative."
-msgstr "Det enhetliga tryck som ständigt appliceras på maskan, i enheter av tryckskalan. Kan vara negativt."
+msgstr "Det enhetliga tryck som ständigt tillämpas på meshen, i enheter av tryckskalan. Kan vara negativt."
 
 #. :src: bpy.types.ClothSettings.use_dynamic_mesh
 #, fuzzy
 msgid "Dynamic Base Mesh"
-msgstr "Dynamiskt basnät"
+msgstr "Dynamisk basmesh"
 
 #. :src: bpy.types.ClothSettings.use_dynamic_mesh
 #, fuzzy
 msgid "Make simulation respect deformations in the base mesh"
-msgstr "Få simuleringen att respektera deformationer i basnätet"
+msgstr "Låt simuleringen ta hänsyn till deformationer i basmeshen"
 
 #. :src: bpy.types.ClothSettings.use_internal_springs
 #, fuzzy
@@ -15362,12 +15362,12 @@ msgstr "Skapa interna fjädrar"
 #. :src: bpy.types.ClothSettings.use_internal_springs
 #, fuzzy
 msgid "Simulate an internal volume structure by creating springs connecting the opposite sides of the mesh"
-msgstr "Simulera en inre volymstruktur genom att skapa fjädrar som förbinder maskans motsatta sidor"
+msgstr "Simulera en inre volymstruktur genom att skapa fjädrar som förbinder meshens motsatta sidor"
 
 #. :src: bpy.types.ClothSettings.use_pressure
 #, fuzzy
 msgid "Simulate pressure inside a closed cloth mesh"
-msgstr "Simulera tryck inuti ett slutet tygnät"
+msgstr "Simulera tryck inuti en sluten tygmesh"
 
 #. :src: bpy.types.ClothSettings.use_pressure_volume
 #, fuzzy
@@ -15377,7 +15377,7 @@ msgstr "Använd anpassad volym"
 #. :src: bpy.types.ClothSettings.use_pressure_volume
 #, fuzzy
 msgid "Use the Target Volume parameter as the initial volume, instead of calculating it from the mesh itself"
-msgstr "Använd parametern Målvolym som initialvolym, istället för att beräkna den från själva nätet"
+msgstr "Använd parametern Målvolym som initial volym i stället för att beräkna den från själva meshen"
 
 #. :src: bpy.types.ClothSettings.use_sewing_springs
 #, fuzzy
@@ -15391,32 +15391,32 @@ msgstr "Drar ihop lösa kanter"
 
 #. :src: bpy.types.ClothSettings.vertex_group_bending
 msgid "Bending Stiffness Vertex Group"
-msgstr "Böjstyvhet för vertexgrupp"
+msgstr "Hörnpunktsgrupp för böjstyvhet"
 
 #. :src: bpy.types.ClothSettings.vertex_group_bending
 #, fuzzy
 msgid "Vertex group for fine control over bending stiffness"
-msgstr "Vertex-grupp för fin kontroll över böjstyvheten"
+msgstr "Hörnpunktsgrupp för finjustering av böjstyvheten"
 
 #. :src: bpy.types.ClothSettings.vertex_group_intern
 #, fuzzy
 msgid "Internal Springs Vertex Group"
-msgstr "Internfjädrar Vertex Group"
+msgstr "Hörnpunktsgrupp för interna fjädrar"
 
 #. :src: bpy.types.ClothSettings.vertex_group_intern
 #, fuzzy
 msgid "Vertex group for fine control over the internal spring stiffness"
-msgstr "Vertex-grupp för fin kontroll över den inre fjäderstyvheten"
+msgstr "Hörnpunktsgrupp för finjustering av de interna fjädrarnas styvhet"
 
 #. :src: bpy.types.ClothSettings.vertex_group_mass
 #, fuzzy
 msgid "Pin Vertex Group"
-msgstr "Vertexgrupp"
+msgstr "Hörnpunktsgrupp för fastsättning"
 
 #. :src: bpy.types.ClothSettings.vertex_group_mass
 #, fuzzy
 msgid "Vertex Group for pinning of vertices"
-msgstr "Vertex-grupp för fastsättning av toppar"
+msgstr "Hörnpunktsgrupp för fastsättning av hörnpunkter"
 
 #. :src: bpy.types.ClothSettings.vertex_group_pressure
 #, fuzzy
@@ -15426,7 +15426,7 @@ msgstr "Hörnpunktsgrupp för tryck"
 #. :src: bpy.types.ClothSettings.vertex_group_pressure
 #, fuzzy
 msgid "Vertex Group for where to apply pressure. Zero weight means no pressure while a weight of one means full pressure. Faces with a vertex that has zero weight will be excluded from the volume calculation."
-msgstr "Vertex Group för var man ska applicera tryck. Noll vikt innebär inget tryck medan en vikt på ett innebär fullt tryck. Ansikten med en vertex som har noll vikt kommer att uteslutas från volymberäkningen."
+msgstr "Hörnpunktsgrupp för var tryck ska appliceras. Noll vikt innebär inget tryck, medan vikten ett innebär fullt tryck. Ytor med en hörnpunkt med noll vikt utesluts från volymberäkningen."
 
 #. :src: bpy.types.ClothSettings.vertex_group_shear_stiffness
 #, fuzzy
@@ -15436,7 +15436,7 @@ msgstr "Hörnpunktsgrupp för skjuvstyvhet"
 #. :src: bpy.types.ClothSettings.vertex_group_shear_stiffness
 #, fuzzy
 msgid "Vertex group for fine control over shear stiffness"
-msgstr "Vertex-grupp för fin kontroll över skjuvstyvheten"
+msgstr "Hörnpunktsgrupp för finjustering av skjuvstyvheten"
 
 #. :src: bpy.types.ClothSettings.vertex_group_shrink
 #, fuzzy
