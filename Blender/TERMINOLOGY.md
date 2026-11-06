@@ -367,6 +367,11 @@ Senast uppdaterad: 2026-11-06.
 | stroke depth order | streckens djupordning | Anger hur Grease Pencil-streck ordnas i 3D-rymden. |
 | onion opacity | opacitet för lökskal | Opaciteten för Grease Pencil-bildrutor som visas före och efter aktuell bildruta. |
 | render slot | renderingsplats | Sparad renderingsbuffert i Blenders bildredigerare. |
+| FFmpeg audio/video codec | FFmpeg-ljudkodek / FFmpeg-videokodek | Skriv den tekniska sammansättningen ihop. Låt standard- och formatnamn som AAC, H.264, ProRes och WebM stå kvar. |
+| sample rate | samplingsfrekvens | Antal ljudprov per sekund i FFmpeg- och ljudinställningar. |
+| bitrate | bithastighet | Kodad data per tidsenhet; använd exempelvis *ljudbithastighet* och *konstant bithastighet*. |
+| Constant Rate Factor (CRF) | Constant Rate Factor (CRF) | Synligt codec-namn som behålls på engelska med förkortningen CRF. Förklara på svenska som avvägningen mellan videokvalitet och filstorlek. |
+| perceptually lossless | visuellt förlustfri | Kvalitetsläge där förlusten inte märks visuellt; undvik det mindre idiomatiska *perceptuellt förlustfri*. |
 | seam margin | sömmarginal | Marginal vid fixering av UV-sömmar under målning. |
 | UDIM tile | UDIM-platta | En platta i en UDIM-bildtextur. |
 | float buffer | flyttalsbuffert | Bildbuffert som lagrar värden som flyttal. |
