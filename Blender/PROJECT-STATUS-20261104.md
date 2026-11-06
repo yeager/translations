@@ -19,11 +19,12 @@ inte i de redan inskickade sex delarna. Batch 303 för Principled BSDF:s
 materialetiketter, batch 304 för grundläggande begränsningar, batch 305 för
 Action-begränningen, batch 306 för dess blandningslägen, batch 307 för
 armaturbegränsningen, batch 308 för Child Of-begränsningen, batch 309 för
-kameralösarbegränsningen, batch 310 för Begränsa till-begränsningen och batch
-311 för golvbegränsningen ingår också endast lokalt.
+kameralösarbegränsningen, batch 310 för Begränsa till-begränsningen, batch
+311 för golvbegränsningen och batch 312 för Följ bana-begränsningen ingår
+också endast lokalt.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-311.po`
-med 412 poster, som omfattar alla färdiga batcher efter sexdelsimporten. Den
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-312.po`
+med 416 poster, som omfattar alla färdiga batcher efter sexdelsimporten. Den
 ersätter tidigare samlingsfiler för detta intervall, är redo för manuell import
 och har inte skickats in eller verifierats i Weblate.
 
