@@ -414,6 +414,9 @@ Senast uppdaterad: 2026-11-06.
 | simulation falloff | simuleringsavklingning | Område där tygsimuleringens deformation gradvis avtar. |
 | simulation area | simuleringsområde | Den del av meshen som beräknas medan ett penseldrag är aktivt. |
 | pinch point | nypunkt | Deformationsläge som drar den simulerade ytan mot en bestämd punkt. |
+| crease brush | veckpensel | Skulpteringspensel som skapar eller skärper fåror och åsar genom att nypa ihop meshens hörnpunkter. |
+| crease brush pinch factor | nypfaktor för veckpensel | Styr hur starkt veckpenseln nyper ihop geometrin. |
+| single color / gradient | enfärg / toning | Färgval för målning med en enda färg eller en övergång mellan färger. |
 | crease / pinch factor | fåra-/nypningsfaktor | Skulpteringsfaktor som styr fårning eller nypning av ytan. |
 | rake factor / topology rake | krattningsfaktor / topologisk krattning | Skulpteringsinställning som följer och riktar penseldrag efter topologin. |
 | persistence | beständighet | Pensel- eller simuleringsfunktion som bevarar ett tillstånd över tid. |

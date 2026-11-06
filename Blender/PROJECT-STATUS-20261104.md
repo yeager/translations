@@ -2469,3 +2469,15 @@ Filen passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
 Gitleaks. Hunspell markerar endast den etablerade Blenderformen *meshen*.
 Filen är arkiverad och väntar på manuell import.
 
+Batch 268 granskar 6 strängar för penselns färgval, veckpensel och
+markörfärg. Den ersätter engelska och felaktiga uttryck med *enfärg*,
+*toning*, *veckpensel*, *nypfaktor för veckpensel* och *Markörens färg vid
+tillägg*. Terminologilistan har kompletterats med dessa verktygs- och
+färgtermer. Samtliga granskade poster har fått sina `fuzzy`-markeringar
+borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-268-brush-color-and-crease.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
+Gitleaks. Hunspell och `svlang` markerar bara de avsiktliga
+facksammansättningarna *enfärg*, *veckpensel* och *nypfaktor*. Filen är
+arkiverad och väntar på manuell import.
+
