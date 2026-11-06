@@ -1665,3 +1665,13 @@ granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
 rapporterar bara den avsedda sammansättningen *videosekvensredigerare*. Filen
 är arkiverad och väntar på manuell import.
 
+Batch 196 granskar tio beskrivningar av Blenders redigerare: Dopeblad,
+grafredigerare, NLA, textredigerare, Python-konsol, informationslogg,
+Outliner och inställningar. Etablerade Blendernamn som *Dopeblad* och
+*Outliner* behålls; övriga formuleringar är idiomatiska och kontextkontrollerade.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-196-editor-descriptions.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast de avsiktliga Blendernamnen *Dopeblad* och
+*Outliner*. Filen är arkiverad och väntar på manuell import.
+
