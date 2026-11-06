@@ -1596,3 +1596,14 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 `svlang` rapporterar bara förväntade Blender-sammansättningar. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 189 granskar femton poster i Node Wrangler. Den ersätter engelska
+*Mix*-rester med *blandningsnod*, använder *shadernoder* i rätt nodkontext
+och normaliserar uppmaningar till *Fäll ut*. Terminologilistan kompletteras
+med *hotkey → snabbtangent* och *naming tag → namntagg*. Samtliga granskade
+poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-189-node-wrangler.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar väntade Blender-termer och en falsk V2-varning när korta
+UI-etiketter sammanfogas till löptext. Filen är arkiverad och väntar på
+manuell import.
+

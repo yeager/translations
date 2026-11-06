@@ -116,6 +116,8 @@ Senast uppdaterad: 2026-11-06.
 | geometry node | geometrinod | Svensk sammansättning i förklarande UI-text. |
 | node socket interface | noduttagsgränssnitt | RNA-typnamn för ett uttag i ett nodträdsgränssnitt. Behåll fog-s: *färgnoduttagsgränssnitt*, inte *färgnoduttaggränssnitt*. |
 | Mix node | blandningsnod | Node Wranglers synliga menyval *Use Mix Nodes* är *Använd blandningsnoder*. |
+| hotkey | snabbtangent | Tangentkombination som aktiverar ett verktyg eller kommando. |
+| naming tag | namntagg | Node Wranglers etikett för ett möjligt namn vid Principled-texturinställning. |
 | Math node | matematisk nod | Node Wranglers synliga menyval *Use Math Nodes* är *Använd matematiska noder*. |
 | Divide | Dividera | Den matematiska nodoperationen i Node Wrangler. Använd inte den bredare handlingen *dela upp*. |
 | mix factor | blandningsfaktor | Synlig faktor som styr blandning, inte ett kodidentifierarnamn. |
