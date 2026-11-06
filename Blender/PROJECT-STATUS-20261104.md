@@ -1744,3 +1744,13 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 och V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 203 granskar tretton poster för Bézierkurvor, kontrollpunkter,
+handtagsmarkering, mjukkroppsmål, åtgärdsdatablock och äldre
+Grease Pencil-annoteringar. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-203-curves-actions-annotations.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast etablerade Blender- och facktermer samt en
+konstgjord V2-varning från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+
