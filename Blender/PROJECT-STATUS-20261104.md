@@ -2197,7 +2197,7 @@ sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell import.
 Batch 245 granskar 20 Mantaflow-strängar för rök- och vätskedomänens
 styrning, celltyper och rutnät. Den normaliserar bland annat *vorticitet*,
 *styrningsvikt*, *styrningsdomän*, *styrningsobjekt*, *värmerutnät*,
-*flaggrutnät* och FLIP-simuleringens stänkbeteende. Terminologilistan har
+*flaggrutnät* och FLIP-simuleringens stänkeffekt. Terminologilistan har
 kompletterats med den hydromekaniska facktermen *vorticitet*. Samtliga
 granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-245-fluid-guides-grids.po` passerar
