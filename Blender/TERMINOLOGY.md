@@ -108,6 +108,7 @@ Senast uppdaterad: 2026-11-06.
 | rest pose | viloposition | Använd i förklarande armaturtext. Bevara RST-termmål som `<rest pose>`. |
 | constraint | begränsning | Blender-funktionen som styr eller begränsar ett objekts eller bens transformation. I sammansättningar: *rotationsbegränsning*, *skalbegränsning*. |
 | Copy Location / Copy Location Constraint | Kopiera position / Kopiera position-begränsning | Constraint som kopierar ett måls position. Använd *position*, inte den vardagliga och i 3D-kontexten tvetydiga formen *plats*. |
+| Copy Rotation / Copy Rotation Constraint | Kopiera rotation / Kopiera rotation-begränsning | Constraint som kopierar ett måls rotation. Behåll *Euler* och axelordningen (`XYZ`, `XZY` osv.) i de tekniska rotationslägena. |
 | Clamp To | Begränsa till | Begränsning som placerar ett objekt vid närmaste punkt på en målkurva. I den tekniska typetiketten används *Begränsning: Begränsa till*. |
 | transform / transformation | transformera / transformation | Använd *transformation* för Blenders egenskap, begränsning och kanaler. Blanda inte med den bredare betydelsen *omvandling*. |
 | offset | förskjutning | Relativ rotations-, positions- eller skaländring i en begränsning. |

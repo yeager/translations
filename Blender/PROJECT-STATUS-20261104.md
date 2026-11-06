@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-340.po`
-med 688 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-341.po`
+med 708 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -201,6 +201,13 @@ gemensamma rigginställningar. Den normaliserar den synliga produktetiketten
 till *Kopiera position-begränsning*, behåller B-Bone som Blenders namn och
 använder konsekvent *benhuvud* och *benspets*. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-340-copy-location-constraint.po` är
+lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 341 granskar 20 poster för Kopiera rotation-begränsningen. Den behåller
+Euler och axelordningarna som tekniska benämningar, normaliserar
+begränsningsetiketten och ersätter den engelska etiketten *Offset* med den
+svenska UI-termen *Förskjutning* i hjälptexten. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-341-copy-rotation-constraint.po` är
 lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
 ## Projektets aktualitet
