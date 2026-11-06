@@ -1288,8 +1288,11 @@ För manuell import finns dessutom den samlade deltafilen
 `blender-ui-sv-reviewed-20261106-batches-156-159.po`. Den innehåller **39**
 unika, granskade strängar från batch 156--159 och ligger under Weblates
 100-strängarsgräns. Den har inga `fuzzy`-markeringar och passerar `msgfmt`,
-l10n-lint och diffkontroll. Något importresultat för denna samlade fil är ännu
-inte verifierat.
+l10n-lint och diffkontroll. Blender Translate bekräftade importen med **39
+bearbetade, 29 uppdaterade, 9 hoppade över och 1 saknad** post. Den saknade
+posten var `Action F-Curves`; den finns inte längre i serverns aktuella
+källkatalog och ska inte skickas på nytt utan en ny export. Efter importen
+visar Blender Translate **100 %** för UI-katalogen.
 
 ## Importgräns
 
