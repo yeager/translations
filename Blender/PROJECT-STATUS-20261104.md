@@ -1265,3 +1265,12 @@ bildruteformuleringar. Deltafilen
 endast de granskade posterna utan `fuzzy`-markeringar och passerar `msgfmt`,
 l10n-lint och diffkontroll. Den är arkiverad men ännu inte verifierat
 importerad till Blender Translate.
+
+Batch 158 granskar åtta RNA-poster för geometriattribut och meshdatatyper med
+en oberoende peer review. Den normaliserar bland annat `Bytefärg`,
+`Float2-attribut`, `4x4-matrisattribut`, 2D-vektorattribut samt Blenders
+etablerade term *mesh* i samlingstyper. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-158-geometry-datatypes.po` innehåller
+endast de granskade posterna utan `fuzzy`-markeringar och passerar `msgfmt`,
+l10n-lint och diffkontroll. Den är arkiverad men ännu inte verifierat
+importerad till Blender Translate.
