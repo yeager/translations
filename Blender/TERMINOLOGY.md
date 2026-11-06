@@ -115,6 +115,11 @@ Senast uppdaterad: 2026-11-06.
 | Color Ramp | färggradient | Gradient mellan definierade färgstopp; undvik det omotiverade lånet *färgramp*. |
 | multisampling | multisampling | Etablerad datorgrafikterm för flera bildprover per pixel, här i Dynamic Paints kantutjämning. Blanda inte ihop med *multisimulering*. |
 | Dynamic Paint canvas surface | Dynamic Paint-dukyta | En simulerad yta som tar emot eller visar Dynamic Paint. I plural: *Dynamic Paint-dukytor*. |
+| Dynamic Paint canvas normal | duknormal | Normalriktningen för en Dynamic Paint-dukyta vid projektion av en pensel. |
+| Dynamic Paint brush normal | penselnormal | Normalriktningen för Dynamic Paint-penselns yta vid projektion. |
+| solid radius | heltäckande radie | Radien inom vilken Dynamic Paint-färgen är heltäckande. |
+| smooth radius | utjämningsradie | Den extra radien utanför den heltäckande radien som skapar ett jämnt avtagande. |
+| smudge | smeta ut | Dynamic Paint-effekt som drar ut befintlig färg när penseln rör sig. |
 | point cache | punktcache | Simuleringscache för punktsystem; skriv ihop. |
 | geometry attribute | geometriattribut | Attribut kopplat till Blenders geometri. Skriv ihop, även i sammansättningar. |
 | geometry color attribute | geometrifärgattribut | Färgattribut på geometri. Skriv ihop; undvik den särskrivna formen *geometri färgattribut*. |

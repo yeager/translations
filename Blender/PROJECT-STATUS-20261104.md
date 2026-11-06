@@ -2057,3 +2057,15 @@ rapporterar endast etablerad fackterminologi samt konstgjorda längd- och
 ordföljdsvarningar från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 231 granskar 30 poster för Dynamic Paint-penseln. Den normaliserar
+bland annat *färggradient*, *närhetsavtagande*, *våtkarta*, *duknormal*,
+*penselnormal*, *utjämningsradie*, *heltäckande radie* och *smetning* enligt
+Blenders Dynamic Paint-dokumentation. Terminologilistan kompletteras med de
+återkommande Dynamic Paint-termerna. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-231-dynamic-paint-brush.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast etablerade facktermer samt konstgjorda längd- och
+ordföljdsvarningar från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+
