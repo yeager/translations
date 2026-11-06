@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-372.po`
-med 1 039 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-373.po`
+med 1 049 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3125,4 +3125,11 @@ rotationsläge och transformationsrymd. Den ersätter oöversatta former som
 termer *reservvärde*, *föräldraskap*, *viloposition* och *begränsningar*.
 Deltafilen `blender-ui-sv-reviewed-20261106-batch-372-driver-target-fallback-and-space.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 373 granskar tio poster för lokal transformationsrymd, reservläge och
+Driver Variable. Den rättar det oöversatta *W Rotation* till *W-rotation*,
+normaliserar *Använd reservvärde* och använder *i stället för* i den svenska
+felhanteringstexten. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-373-driver-variable-basics.po` är
+lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
