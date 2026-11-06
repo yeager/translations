@@ -299,6 +299,8 @@ Senast uppdaterad: 2026-11-06.
 | Damped Track | Dämpad spårning | Begränsning som riktar en lokal axel mot målet med kortast möjliga rotation. Det är inte en järnvägsspårvidd. |
 | Track Axis | riktningsaxel | Den lokala axel som pekar mot målet i Blenders spårningsbegränsningar. |
 | Track To | Rikta mot | Synlig Constraint-etikett för att orientera objektet mot ett mål. Skilj från film- och rörelsespårning. |
+| Follow Track | Följ spår | Synlig Constraint-etikett som låser ett objekt till ett filmspår. Skilj från *Track To*, som styr objektets orientering. |
+| Follow Track Constraint | Följ spår-begränsning | Formellt API-/UI-namn för begränsningen ovan. Bindestrecket gör sammansättningen läsbar. |
 | Shrinkwrap | Shrinkwrap | Behåll Blenders synliga funktionsnamn. Funktionen anpassar meshens hörnpunkter till en målyta; den är inte förpackningsmaterial som *krympfilm*. Sammansättningar skrivs *Shrinkwrap-modifierare* och *Shrinkwrap-begränsning*. |
 | hair curve / hair root / hair tip | hårkurva / hårrot / hårspets | Avser den hårgeometri som bearbetas av Blenders Hair Nodes. Skriv därför *hårkurvor*, *rot* och *spets* i de här nodernas beskrivningar, inte *hårets kurvor*, *topp* eller engelska *tips*. |
 | Roll Direction (Hair Nodes) | rullningsriktning | Riktningen som en hårkurva rullas kring sin axel. Använd *rullning* och *rullningsriktning*, inte det ospecificerade *riktning*. |
