@@ -1406,3 +1406,13 @@ saknar `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, riktad Hunspell,
 diffkontroll och Gitleaks. `svlang` markerar enbart tekniska
 sammansättningar och korrekta underordnade satser. Filen är arkiverad och
 väntar på manuell import.
+
+Batch 171 granskar sex Metaball-poster i datablocks-, filbläddrar- och
+animeringssammanhang. Den normaliserar den etablerade Blender-formen
+*metaboll* i sammansättningar som `metabolldatablock` och
+`metabollredigering`, och förtydligar den tekniska ytbeschrivningen som
+`sammanflytande ytor`. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-171-metaballs.po` saknar
+`fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, riktad Hunspell,
+diffkontroll och Gitleaks. `svlang` markerar endast tekniska sammansättningar
+och korrekta infinitivfraser. Filen är arkiverad och väntar på manuell import.
