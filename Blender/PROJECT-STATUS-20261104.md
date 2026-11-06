@@ -2144,3 +2144,11 @@ poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
 `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 240 granskar 7 kurvguide- och kraftfältsalternativ. Den rättar
+*förskjutning*, *knäck*, *fläta*, *radiell*, *rullning*, *rotation* och
+*harmonisk dämpning*. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-240-field-guides.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. Filen är
+arkiverad och väntar på manuell import.
+
