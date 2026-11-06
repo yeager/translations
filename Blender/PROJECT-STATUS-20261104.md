@@ -2136,3 +2136,11 @@ Deltafilen `blender-ui-sv-reviewed-20261106-batch-238-fcurve-modifiers.po`
 passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 Filen är arkiverad och väntar på manuell import.
 
+Batch 239 granskar 14 poster för F-kurvmodifierare och kraftfält. Den rättar
+bland annat *äldre brus*, *avtagandeexponent*, *linjärt motstånd*,
+*kvadratiskt motstånd* och *brus för kraftens styrka*. Samtliga granskade
+poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-239-fmodifiers-fields.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. Filen är
+arkiverad och väntar på manuell import.
+
