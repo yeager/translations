@@ -344,6 +344,8 @@ Senast uppdaterad: 2026-11-06.
 | texture slot | texturplats | Plats som kopplar en textur till ett material eller målningsverktyg. |
 | mesh loop | meshloop | Intern meshtopologisk struktur vid ett ythörn; *looptriangel* används för triangulerat resultat. |
 | UV loop layer | UV-looplager | UV-lager som hör till meshens loopar. Använd *UV-looplager*, inte *UV-loopskikt*. |
+| remesh / remesher | ommeshning / ommeshare | Skapar om meshen med ny topologi. Ange geometri vid behov: *voxelommeshare* eller *fyrhörningsommeshare*. |
+| pole (mesh topology) | pol | Topologisk samlingspunkt där ett ovanligt antal kanter möts. Översätt inte med den vardagliga betydelsen *stolpe*. |
 | vertex color / normal | hörnpunktsfärg / hörnpunktsnormal | Attribut på en mesh-hörnpunkt. |
 | node tree | nodträd | Blenders sammanlänkade nodstruktur. Sammansättningar är exempelvis *geometrinodträd*, *kompositionsnodträd* och *shadernodträd*. |
 | Node Editor | nodredigerare | UI-namn för redigeraren med nodträd. RNA-beskrivningen *Space Node Editor* använder formen *nodredigerarens område*. |
