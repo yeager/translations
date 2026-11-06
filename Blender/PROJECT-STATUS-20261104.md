@@ -1754,3 +1754,13 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 konstgjord V2-varning från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 204 granskar tjugoen samlingstyper för BlendData: mesh, formnycklar,
+målningskurvor, åtgärder, annoteringar, Grease Pencil och linjestilar. Den
+rättar bland annat *Samling av samlingar* till *Samling av annoteringar* och
+*Huvudfärgkurvor* till *Huvudmålningskurvor*. Samtliga granskade poster har
+fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-204-blend-data-collections.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` ger 10/10 och rapporterar enbart avsedda Blendertermer. Filen är
+arkiverad och väntar på manuell import.
+
