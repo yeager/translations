@@ -1,0 +1,246 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.ActionConstraint
+msgid "Action Constraint"
+msgstr "Action-begränsning"
+
+#. :src: bpy.types.ActionConstraint
+msgid "Map an action to the transform axes of a bone"
+msgstr "Koppla en Action till ett bens transformationsaxlar"
+
+#. :src: bpy.types.ActionConstraint.action
+msgid "The constraining action"
+msgstr "Den styrande Actionen"
+
+#. :src: bpy.types.ActionConstraint.action_slot
+#. :src: bpy.types.NlaStrip.action_slot
+msgid ""
+"The slot identifies which sub-set of the Action is considered to be for this "
+"strip, and its name is used to find the right slot when assigning another "
+"Action"
+msgstr ""
+"Åtgärdsslotten anger vilken delmängd av Actionen som hör till denna remsa, "
+"och dess namn används för att hitta rätt åtgärdsslot när en annan Action "
+"tilldelas"
+
+#. :src: bpy.types.ActionConstraint.action_slot_handle
+msgid ""
+"A number that identifies which sub-set of the Action is considered to be for "
+"this Action Constraint"
+msgstr ""
+"Ett nummer som anger vilken delmängd av Actionen som hör till denna Action-"
+"begränsning"
+
+#. :src: bpy.types.ActionConstraint.action_suitable_slots
+#. :src: bpy.types.NlaStrip.action_suitable_slots
+msgid "The list of action slots suitable for this NLA strip"
+msgstr "Listan över åtgärdsslotar som lämpar sig för denna NLA-remsa"
+
+#. :src: bpy.types.ActionConstraint.eval_time
+#. :src: bpy.types.Curve.eval_time
+#. :src: bpy.types.Key.eval_time
+#. :src: bpy.types.MeshCacheModifier.eval_time
+#: scripts/startup/bl_ui/properties_constraint.py:517
+msgid "Evaluation Time"
+msgstr "Utvärderingstid"
+
+#. :src: bpy.types.ActionConstraint.eval_time
+msgid "Interpolates between Action Start and End frames"
+msgstr "Interpolerar mellan Actionens start- och slutbildrutor"
+
+#. :src: bpy.types.ActionConstraint.frame_end
+msgid "Last frame of the Action to use"
+msgstr "Sista bildrutan i Actionen som ska användas"
+
+#. :src: bpy.types.ActionConstraint.frame_start
+msgid "First frame of the Action to use"
+msgstr "Första bildrutan i Actionen som ska användas"
+
+#. :src: bpy.types.ActionConstraint.last_slot_identifier
+msgid ""
+"The identifier of the most recently assigned action slot. The slot "
+"identifies which sub-set of the Action is considered to be for this "
+"constraint, and its identifier is used to find the right slot when assigning "
+"an Action."
+msgstr ""
+"Identifieraren för den senast tilldelade åtgärdsslotten. Åtgärdsslotten "
+"anger vilken delmängd av Actionen som hör till denna begränsning, och dess "
+"identifierare används för att hitta rätt åtgärdsslot när en Action tilldelas."
+
+#. :src: bpy.types.ActionConstraint.max
+#. :src: bpy.types.FluidDomainSettings.flame_max_temp
+#. :src: bpy.types.FluidDomainSettings.particle_max
+#. :src: bpy.types.FluidDomainSettings.timesteps_max
+#. :src: bpy.types.LineStyleAlphaModifier_AlongStroke.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_CreaseAngle.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Curvature_3D.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_DistanceFromCamera.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_DistanceFromObject.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Material.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Noise.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Tangent.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_AlongStroke.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Calligraphy.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_CreaseAngle.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Curvature_3D.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_DistanceFromCamera.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_DistanceFromObject.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Material.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Noise.blend:'MAXIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Tangent.blend:'MAXIMUM'
+#. :src: bpy.types.VertexWeightMixModifier.mix_mode:'MAX'
+#. :src: bpy.types.CompositorNodeMapValue.max
+#. :src: bpy.types.TexMapping.max
+#: scripts/startup/bl_ui/properties_output.py:583
+#: scripts/startup/bl_ui/space_view3d.py:7287
+#: scripts/startup/bl_ui/space_view3d.py:7292
+#: scripts/startup/bl_ui/space_view3d.py:7299
+#: scripts/startup/bl_ui/space_view3d.py:7303
+#: source/blender/nodes/composite/nodes/node_composite_channel_matte.cc:41
+#: source/blender/nodes/composite/nodes/node_composite_chroma_matte.cc:41
+#: source/blender/nodes/composite/nodes/node_composite_glare.cc:101
+#: source/blender/nodes/composite/nodes/node_composite_luma_matte.cc:38
+msgid "Maximum"
+msgstr "Maximum"
+
+#. :src: bpy.types.ActionConstraint.max
+msgid "Maximum value for target channel range"
+msgstr "Maxvärde för målkanalens intervall"
+
+#. :src: bpy.types.ActionConstraint.min
+#. :src: bpy.types.FluidDomainSettings.flame_ignition
+#. :src: bpy.types.FluidDomainSettings.particle_min
+#. :src: bpy.types.FluidDomainSettings.timesteps_min
+#. :src: bpy.types.Curve.twist_mode:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_AlongStroke.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_CreaseAngle.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Curvature_3D.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_DistanceFromCamera.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_DistanceFromObject.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Material.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Noise.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleAlphaModifier_Tangent.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_AlongStroke.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Calligraphy.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_CreaseAngle.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Curvature_3D.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_DistanceFromCamera.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_DistanceFromObject.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Material.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Noise.blend:'MINIMUM'
+#. :src: bpy.types.LineStyleThicknessModifier_Tangent.blend:'MINIMUM'
+#. :src: bpy.types.GreasePencilWeightAngleModifier.minimum_weight
+#. :src: bpy.types.GreasePencilWeightProximityModifier.minimum_weight
+#. :src: bpy.types.VertexWeightMixModifier.mix_mode:'MIN'
+#. :src: bpy.types.CompositorNodeMapValue.min
+#. :src: bpy.types.TexMapping.min
+#. :src: bpy.types.WorldMistSettings.intensity
+#: scripts/startup/bl_ui/properties_output.py:582
+#: scripts/startup/bl_ui/properties_physics_fluid.py:455
+#: scripts/startup/bl_ui/properties_physics_fluid.py:511
+#: scripts/startup/bl_ui/properties_physics_fluid.py:964
+#: scripts/startup/bl_ui/properties_physics_fluid.py:969
+#: scripts/startup/bl_ui/properties_physics_fluid.py:974
+#: scripts/startup/bl_ui/properties_physics_fluid.py:989
+#: scripts/startup/bl_ui/properties_physics_fluid.py:175
+#: scripts/startup/bl_ui/space_view3d.py:7286
+#: scripts/startup/bl_ui/space_view3d.py:7291
+#: scripts/startup/bl_ui/space_view3d.py:7298
+#: scripts/startup/bl_ui/space_view3d.py:7302
+#: source/blender/nodes/composite/nodes/node_composite_channel_matte.cc:35
+#: source/blender/nodes/composite/nodes/node_composite_chroma_matte.cc:35
+#: source/blender/nodes/composite/nodes/node_composite_luma_matte.cc:32
+msgid "Minimum"
+msgstr "Minimum"
+
+#. :src: bpy.types.ActionConstraint.min
+msgid "Minimum value for target channel range"
+msgstr "Minsta värde för målkanalens intervall"
+
+#. :src: bpy.types.ActionConstraint.mix_mode
+#. :src: bpy.types.CopyRotationConstraint.mix_mode
+#. :src: bpy.types.CopyTransformsConstraint.mix_mode
+#. :src: bpy.types.DataTransferModifier.mix_mode
+#. :src: bpy.types.NormalEditModifier.mix_mode
+#. :src: bpy.types.VertexWeightMixModifier.mix_mode
+#. :src: bpy.types.NODE_OT_nw_batch_change.blend_type:'MIX'
+#. :src: bpy.types.NODE_OT_nw_merge_nodes.mode:'MIX'
+#. :src: bpy.types.OBJECT_OT_data_transfer.mix_mode
+msgid "Mix Mode"
+msgstr "Blandningsläge"
+
+#. :src: bpy.types.ActionConstraint.mix_mode
+msgid ""
+"Specify how existing transformations and the action channels are combined"
+msgstr "Ange hur befintliga transformationer och Action-kanaler kombineras"
+
+#. :src: bpy.types.ActionConstraint.target
+#. :src: bpy.types.ChildOfConstraint.target
+#. :src: bpy.types.CopyLocationConstraint.target
+#. :src: bpy.types.CopyRotationConstraint.target
+#. :src: bpy.types.CopyScaleConstraint.target
+#. :src: bpy.types.CopyTransformsConstraint.target
+#. :src: bpy.types.DampedTrackConstraint.target
+#. :src: bpy.types.FloorConstraint.target
+#. :src: bpy.types.KinematicConstraint.target
+#. :src: bpy.types.LimitDistanceConstraint.target
+#. :src: bpy.types.LockedTrackConstraint.target
+#. :src: bpy.types.StretchToConstraint.target
+#. :src: bpy.types.TrackToConstraint.target
+#. :src: bpy.types.TransformConstraint.target
+#. :src: bpy.types.ConstraintTarget.target
+msgid "Target object"
+msgstr "Målobjekt"
+
+#. :src: bpy.types.ActionConstraint.transform_channel
+#. :src: bpy.types.DriverVariable.type:'TRANSFORMS'
+#. :src: bpy.types.ActionSlot.transform_channel
+#: scripts/addons_core/rigify/operators/action_layers.py:465
+msgid "Transform Channel"
+msgstr "Transformationskanal"
+
+#. :src: bpy.types.ActionConstraint.transform_channel
+msgid "Transformation channel from the target that is used to key the Action"
+msgstr "Transformationskanal från målet som används för att styra Actionen"
+
+#. :src: bpy.types.ActionConstraint.transform_channel:'LOCATION_X'
+#. :src: bpy.types.DriverTarget.transform_type:'LOC_X'
+#. :src: bpy.types.ActionSlot.transform_channel:'LOCATION_X'
+msgid "X Location"
+msgstr "X-position"
+
+#. :src: bpy.types.ActionConstraint.transform_channel:'LOCATION_Y'
+#. :src: bpy.types.DriverTarget.transform_type:'LOC_Y'
+#. :src: bpy.types.ActionSlot.transform_channel:'LOCATION_Y'
+msgid "Y Location"
+msgstr "Y-position"
+
+#. :src: bpy.types.ActionConstraint.transform_channel:'LOCATION_Z'
+#. :src: bpy.types.DriverTarget.transform_type:'LOC_Z'
+#. :src: bpy.types.ActionSlot.transform_channel:'LOCATION_Z'
+msgid "Z Location"
+msgstr "Z-position"
