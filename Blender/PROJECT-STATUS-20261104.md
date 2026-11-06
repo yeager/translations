@@ -1454,3 +1454,12 @@ API-typen `ActionKeyframeStrip` eller `ActionChannelbag`. Deltafilen
 Gitleaks. `svlang` ger 10/10 i naturlighet; rapporterade ovanliga ord är
 projektets API-namn och avsedda facktermer. Filen är arkiverad och väntar på
 manuell import.
+Batch 175 granskar fyra Movie Tracking-/Dopeblad-poster. Den ersätter
+blandade engelska och felaktiga direktöversättningar med *filmspårningsdopeblad*,
+*dopebladsvyn* och en kontexttrogen förklaring av data för rörelsespårning.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-175-movie-tracking.po`
+saknar `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, riktad Hunspell,
+diffkontroll och Gitleaks. `svlang` ger 10/10 i naturlighet och rapporterar
+bara den avsedda Blender-termen *dopeblad*. Filen är arkiverad och väntar på
+manuell import.
+
