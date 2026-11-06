@@ -320,6 +320,8 @@ Senast uppdaterad: 2026-11-06.
 | hair attachment | hårinfästning | Hårkurvans fästning vid ett ytmesh. Använd exempelvis *infästnings-UV*, inte det felaktiga *bilaga-UV*. |
 | feature awareness (Redistribute Curve Points) | detaljbevarande | Den här inställningen bevarar lokala kurvdetaljer och riktningsändringar när kontrollpunkter omfördelas. |
 | hair attachment / surface normal | hårinfästning / ytnormal | Vid hårgenerering beskriver detta hur hårkurvans rot fästs vid ytmeshens UV-koordinat och normal. |
+| clumping (hair particles) | klumpning | Samling av barnpartiklarnas hårstrån kring varandra. Använd *grad av klumpning* och *klumpningens form* för reglagen. |
+| kink (hair particles) | nyck | Periodisk förskjutning som formar barnpartiklarna som lock, våg eller fläta. Använd *nyck*, inte det missvisande *knäck*. |
 | guide index / guide map / guide mask | guideindex / guideindexkarta / guidemask | Datat som anger vilken guidekurva varje hårkurva använder. Skriv sammansättningarna ihop. |
 | flare (Braid Hair Curves) | utsvängning | Den öppna delen vid flätans spets där hårstråna lossnar eller sprider ut sig. Det är inte en *flärp* eller en mekanisk fläns. |
 | Curve Sculpt / Mesh Sculpt | kurvskulptering / meshskulptering | Resurskataloger för skulptering av kurvor respektive Blenders meshdatatyp. Behåll *mesh* och skriv sammansättningarna ihop. |
