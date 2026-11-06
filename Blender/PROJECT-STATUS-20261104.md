@@ -1239,3 +1239,10 @@ termer *kurva* och *kurvkartläggning*, och normaliserar bland annat
 *kurvdatablock*, *kurvförskjutningar* och *klumpavsmalning*. Deltafilen
 `blender-ui-sv-reviewed-20261106-155.po` saknar `fuzzy`-markeringar och
 passerar `msgfmt`, l10n-lint, diffkontroll och Gitleaks.
+
+För manuell import finns dessutom den samlade deltafilen
+`blender-ui-sv-reviewed-20261106-batches-148-155.po`. Den innehåller **86**
+unika, granskade strängar från batch 148--155 och ligger under Weblates
+100-strängarsgräns. Den har inga `fuzzy`-markeringar och passerar `msgfmt`,
+l10n-lint, diffkontroll och Gitleaks. Något importresultat för denna samlade
+fil är ännu inte verifierat.

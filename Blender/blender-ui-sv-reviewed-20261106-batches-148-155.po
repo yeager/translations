@@ -1,0 +1,579 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.ActionSlot.target_id_type:'UNSPECIFIED'
+#. :src: bpy.types.Action.id_root:'UNSPECIFIED'
+msgid ""
+"Not yet specified. When this slot is first assigned to a data-block, this "
+"will be set to the type of that data-block"
+msgstr ""
+"Ännu inte angiven. När slotten först tilldelas ett datablock anges den till "
+"datablockets typ"
+
+#. :src: bpy.types.ActionSlots
+#. :src: bpy.types.ActionConstraint.action_suitable_slots
+#. :src: bpy.types.NlaStrip.action_suitable_slots
+msgid "Action Slots"
+msgstr "Åtgärdsslotar"
+
+#. :src: bpy.types.ActionSlots
+msgid "Collection of action slots"
+msgstr "Samling av åtgärdsslotar"
+
+#. :src: bpy.types.ActionSlots.active
+msgid "Active Slot"
+msgstr "Aktiv åtgärdsslot"
+
+#. :src: bpy.types.ActionSlots.active
+msgid "Active slot for this action"
+msgstr "Aktiv åtgärdsslot för den här åtgärden"
+
+#. :src: bpy.types.ActionStrip
+msgid "Action Strip"
+msgstr "Åtgärdsremsa"
+
+#. :src: bpy.types.ActionStrip.type:'KEYFRAME'
+#. :src: bpy.types.ActionKeyframeStrip
+msgid "Strip with a set of F-Curves for each action slot"
+msgstr "Remsa med en uppsättning F-kurvor för varje åtgärdsslot"
+
+#. :src: bpy.types.ActionKeyframeStrip
+msgid "Keyframe Animation Strip"
+msgstr "Nyckelbildruteanimeringsremsa"
+
+#. :src: bpy.types.ActionStrips
+msgid "Action Strips"
+msgstr "Åtgärdsremsor"
+
+#. :src: bpy.types.ActionStrips
+msgid "Collection of animation strips"
+msgstr "Samling av animeringsremsor"
+
+#. :src: bpy.types.AnimData.action_influence
+msgid "Amount the Active Action contributes to the result of the NLA stack"
+msgstr ""
+"I vilken grad den aktiva åtgärden bidrar till resultatet av NLA-stapeln"
+
+#. :src: bpy.types.AnimData.action_slot
+#. :src: bpy.types.ActionConstraint.action_slot
+#. :src: bpy.types.NlaStrip.action_slot
+msgid "Action Slot"
+msgstr "Åtgärdsslot"
+
+#. :src: bpy.types.AnimData.action_slot
+msgid ""
+"The slot identifies which sub-set of the Action is considered to be for this "
+"data-block, and its name is used to find the right slot when assigning an "
+"Action"
+msgstr ""
+"Åtgärdsslotten anger vilken delmängd av åtgärden som hör till det här "
+"datablocket, och dess namn används för att hitta rätt åtgärdsslot när en "
+"åtgärd tilldelas"
+
+#. :src: bpy.types.AnimData.action_slot_handle
+#. :src: bpy.types.ActionConstraint.action_slot_handle
+#. :src: bpy.types.NlaStrip.action_slot_handle
+msgid "Action Slot Handle"
+msgstr "Handtag för åtgärdsslot"
+
+#. :src: bpy.types.AnimData.action_suitable_slots
+#. :src: bpy.types.Action.slots
+msgid "Slots"
+msgstr "Åtgärdsslotar"
+
+#. :src: bpy.types.AnimData.action_suitable_slots
+msgid "The list of slots in this animation data-block"
+msgstr "Listan över åtgärdsslotar i det här animeringsdatablocket"
+
+#. :src: bpy.types.AnimData.action_tweak_storage
+msgid "Tweak Mode Action Storage"
+msgstr "Lagring av åtgärd i justeringsläge"
+
+#. :src: bpy.types.AnimData.action_tweak_storage
+msgid "Slot to temporarily hold the main action while in tweak mode"
+msgstr "Åtgärdsslot för att tillfälligt lagra huvudåtgärden i justeringsläge"
+
+#. :src: bpy.types.AnimData.last_slot_identifier
+#. :src: bpy.types.ActionConstraint.last_slot_identifier
+#. :src: bpy.types.NlaStrip.last_slot_identifier
+msgid "Last Action Slot Identifier"
+msgstr "Identifierare för senast tilldelad åtgärdsslot"
+
+#. :src: bpy.types.AnimData.last_slot_identifier
+msgid ""
+"The identifier of the most recently assigned action slot. The slot "
+"identifies which sub-set of the Action is considered to be for this data-"
+"block, and its identifier is used to find the right slot when assigning an "
+"Action."
+msgstr ""
+"Identifieraren för den senast tilldelade åtgärdsslotten. Åtgärdsslotten "
+"anger vilken delmängd av åtgärden som avses för det här datablocket; "
+"identifieraren används för att hitta rätt åtgärdsslot när en åtgärd "
+"tilldelas."
+
+#. :src: bpy.types.AnimData.nla_tracks
+#. :src: bpy.types.NLA_MT_channel_context_menu
+#. :src: bpy.types.NlaTracks
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_animation_mode:'NLA_TRACKS'
+#: source/blender/editors/space_outliner/tree/tree_element_nla.cc:25
+msgid "NLA Tracks"
+msgstr "NLA-spår"
+
+#. :src: bpy.types.AnimData.use_tweak_mode
+msgid "Use NLA Tweak Mode"
+msgstr "Använd NLA-justeringsläge"
+
+#. :src: bpy.types.AnimData.use_tweak_mode
+msgid "Whether to enable or disable tweak mode in NLA"
+msgstr "Om NLA-justeringsläget ska aktiveras eller inaktiveras"
+
+#. :src: bpy.types.AnimViz.motion_path
+msgid "Motion Path settings for visualization"
+msgstr "Inställningar för rörelsebanor vid visualisering"
+
+#. :src: bpy.types.AnimVizMotionPaths
+msgid "Motion Path Settings"
+msgstr "Inställningar för rörelsebanor"
+
+#. :src: bpy.types.AnimVizMotionPaths.bake_location:'HEADS'
+#. :src: bpy.types.POSE_OT_paths_calculate.bake_location:'HEADS'
+msgid "Heads"
+msgstr "Huvuden"
+
+#. :src: bpy.types.AnimVizMotionPaths.range
+msgid "Type of range to calculate for Motion Paths"
+msgstr "Typ av intervall som ska beräknas för rörelsebanor"
+
+#. :src: bpy.types.AnimVizMotionPaths.show_frame_numbers
+msgid "Show frame numbers on Motion Paths"
+msgstr "Visa bildrutenummer på rörelsebanor"
+
+#. :src: bpy.types.AnimVizMotionPaths.show_keyframe_numbers
+msgid "Show frame numbers of Keyframes on Motion Paths"
+msgstr "Visa bildrutenummer för nyckelbildrutor på rörelsebanor"
+
+#. :src: bpy.types.AnimVizMotionPaths.type
+msgid "Type of range to show for Motion Paths"
+msgstr "Typ av intervall som ska visas för rörelsebanor"
+
+#. :src: bpy.types.ArmatureConstraintTargets
+msgid "Armature Deform Constraint Targets"
+msgstr "Mål för begränsningar för armaturdeformering"
+
+#. :src: bpy.types.ArmatureEditBones
+msgid "Armature EditBones"
+msgstr "Armaturens redigeringsben"
+
+#. :src: bpy.types.ArmatureEditBones.active
+msgid "Active EditBone"
+msgstr "Aktivt redigeringsben"
+
+#. :src: bpy.types.ArmatureEditBones.active
+msgid "Armatures active edit bone"
+msgstr "Armaturens aktiva redigeringsben"
+
+#. :src: bpy.types.BezierSplinePoint
+msgid "Bézier curve point with two handles"
+msgstr "Bézierkurvpunkt med två handtag"
+
+#. :src: bpy.types.BlendData.curves
+msgid "Curve data-blocks"
+msgstr "Kurvdatablock"
+
+#. :src: bpy.types.Bone.bbone_handle_use_scale_start
+#. :src: bpy.types.EditBone.bbone_handle_use_scale_start
+msgid "Start Handle Scale"
+msgstr "Skala för starthandtag"
+
+#. :src: bpy.types.Bone.bbone_scalein
+#. :src: bpy.types.EditBone.bbone_scalein
+#. :src: bpy.types.PoseBone.bbone_scalein
+#: scripts/startup/bl_ui/properties_data_bone.py:160
+msgid "Scale In"
+msgstr "Skala in"
+
+#. :src: bpy.types.Bone.bbone_segments
+#. :src: bpy.types.EditBone.bbone_segments
+#. :src: bpy.types.RigifyParameters.bbones
+msgid "B-Bone Segments"
+msgstr "B-Bone-segment"
+
+#. :src: bpy.types.Bone.bbone_segments
+#. :src: bpy.types.EditBone.bbone_segments
+msgid "Number of subdivisions of bone (for B-Bones only)"
+msgstr "Antal uppdelningar av benet (endast för B-Bone)"
+
+#. :src: bpy.types.Bone.bbone_x
+#. :src: bpy.types.EditBone.bbone_x
+msgid "B-Bone Display X Width"
+msgstr "B-Bone-visningsbredd i X-led"
+
+#. :src: bpy.types.Bone.bbone_x
+#. :src: bpy.types.EditBone.bbone_x
+msgid "B-Bone X size"
+msgstr "B-Bone-storlek i X-led"
+
+#. :src: bpy.types.Bone.bbone_z
+#. :src: bpy.types.EditBone.bbone_z
+msgid "B-Bone Display Z Width"
+msgstr "B-Bone-visningsbredd i Z-led"
+
+#. :src: bpy.types.Bone.bbone_z
+#. :src: bpy.types.EditBone.bbone_z
+msgid "B-Bone Z size"
+msgstr "B-Bone-storlek i Z-led"
+
+#. :src: bpy.types.Bone.children
+msgid "Bones which are children of this bone"
+msgstr "Underordnade ben till detta ben"
+
+#. :src: bpy.types.Bone.collections
+#. :src: bpy.types.EditBone.collections
+msgid "Bone Collections that contain this bone"
+msgstr "Bensamlingar som innehåller detta ben"
+
+#. :src: bpy.types.Bone.envelope_distance
+#. :src: bpy.types.EditBone.envelope_distance
+msgid "Bone deformation distance (for Envelope deform only)"
+msgstr "Bendeformeringsavstånd (endast för kuvertdeformering)"
+
+#. :src: bpy.types.Bone.envelope_weight
+#. :src: bpy.types.EditBone.envelope_weight
+msgid "Envelope Deform Weight"
+msgstr "Kuvertdeformeringsvikt"
+
+#. :src: bpy.types.Bone.envelope_weight
+#. :src: bpy.types.EditBone.envelope_weight
+msgid "Bone deformation weight (for Envelope deform only)"
+msgstr "Bendeformeringsvikt (endast för kuvertdeformering)"
+
+#. :src: bpy.types.Bone.head
+msgid "Location of head end of the bone relative to its parent"
+msgstr "Placering av benets huvudände i förhållande till det överordnade benet"
+
+#. :src: bpy.types.ByteColorAttributeValue
+msgid "Byte Color Attribute Value"
+msgstr "Bytefärgattributvärde"
+
+#. :src: bpy.types.CacheObjectPath.path
+#. :src: bpy.types.FileBrowserFSMenuEntry.path
+#. :src: bpy.types.NodeOutputFileSlotFile.path
+#. :src: bpy.types.SCRIPT_OT_python_file_run.filepath
+#. :src: bpy.types.PathCompare.path
+#. :src: bpy.types.StripProxy.filepath
+#. :src: bpy.types.UserAssetLibrary.path
+#: scripts/startup/bl_ui/space_userpref.py:1559
+#: source/blender/editors/space_graph/graph_buttons.cc:770
+#: source/blender/editors/space_graph/graph_buttons.cc:916
+msgctxt "File browser"
+msgid "Path"
+msgstr "Sökväg"
+
+#. :src: bpy.types.CameraBackgroundImage.clip
+#. :src: bpy.types.SpaceClipEditor.clip
+msgid "Movie clip displayed and edited in this space"
+msgstr "Filmklipp som visas och redigeras i detta utrymme"
+
+#. :src: bpy.types.CameraBackgroundImage.clip_user
+msgid "Clip User"
+msgstr "Filmklippsanvändare"
+
+#. :src: bpy.types.CameraBackgroundImage.frame_method
+#. :src: bpy.types.FollowTrackConstraint.frame_method
+#. :src: bpy.types.CompositorNodeScale.frame_method
+msgid "Frame Method"
+msgstr "Inpassningsmetod"
+
+#. :src: bpy.types.CameraBackgroundImage.image
+#. :src: bpy.types.SpaceImageEditor.image
+msgid "Image displayed and edited in this space"
+msgstr "Bild som visas och redigeras i detta utrymme"
+
+#. :src: bpy.types.CameraBackgroundImage.use_camera_clip
+msgid "Camera Clip"
+msgstr "Kamerans filmklipp"
+
+#. :src: bpy.types.CameraDOFSettings.aperture_blades
+msgid "Blades"
+msgstr "Lameller"
+
+#. :src: bpy.types.CameraDOFSettings.aperture_rotation
+msgid "Rotation of blades in aperture"
+msgstr "Rotation av bländarens lameller"
+
+#. :src: bpy.types.CameraStereoData
+#. :src: bpy.types.FFmpegSettings.audio_channels:'STEREO'
+#. :src: bpy.types.Camera.stereo
+#. :src: bpy.types.Sound.channels:'STEREO'
+#. :src: bpy.types.SOUND_OT_mixdown.channels:'STEREO'
+#. :src: bpy.types.PreferencesSystem.audio_channels:'STEREO'
+msgid "Stereo"
+msgstr "Stereo"
+
+#. :src: bpy.types.ClothSettings.density_strength
+msgid "Target Density Strength"
+msgstr "Styrka för måltäthet"
+
+#. :src: bpy.types.ClothSettings.density_target
+msgid "Target Density"
+msgstr "Måltäthet"
+
+#. :src: bpy.types.ClothSettings.goal_max
+msgid "Goal maximum, vertex group weights are scaled to match this range"
+msgstr ""
+"Målmaximum; hörnpunktsgruppens vikter skalas så att de motsvarar detta "
+"intervall"
+
+#. :src: bpy.types.ClothSettings.goal_min
+msgid "Goal minimum, vertex group weights are scaled to match this range"
+msgstr ""
+"Målminimum; hörnpunktsgruppens vikter skalas så att de motsvarar detta "
+"intervall"
+
+#. :src: bpy.types.ClothSettings.internal_tension_stiffness_max
+#. :src: bpy.types.ClothSettings.tension_stiffness_max
+msgid "Maximum tension stiffness value"
+msgstr "Maximalt värde för dragstyvhet"
+
+#. :src: bpy.types.ClothSettings.target_volume
+msgid ""
+"The mesh volume where the inner/outer pressure will be the same. If set to "
+"zero the change in volume will not affect pressure."
+msgstr ""
+"Den meshvolym där det inre och yttre trycket är lika. Om värdet är noll "
+"påverkar volymförändringen inte trycket."
+
+#. :src: bpy.types.ClothSettings.uniform_pressure_force
+msgid ""
+"The uniform pressure that is constantly applied to the mesh, in units of "
+"Pressure Scale. Can be negative."
+msgstr ""
+"Det enhetliga tryck som ständigt tillämpas på meshen, i enheter av "
+"tryckskalan. Kan vara negativt."
+
+#. :src: bpy.types.ClothSettings.use_dynamic_mesh
+msgid "Dynamic Base Mesh"
+msgstr "Dynamisk basmesh"
+
+#. :src: bpy.types.ClothSettings.use_dynamic_mesh
+msgid "Make simulation respect deformations in the base mesh"
+msgstr "Låt simuleringen ta hänsyn till deformationer i basmeshen"
+
+#. :src: bpy.types.ClothSettings.use_internal_springs
+msgid ""
+"Simulate an internal volume structure by creating springs connecting the "
+"opposite sides of the mesh"
+msgstr ""
+"Simulera en inre volymstruktur genom att skapa fjädrar som förbinder meshens "
+"motsatta sidor"
+
+#. :src: bpy.types.ClothSettings.use_pressure
+msgid "Simulate pressure inside a closed cloth mesh"
+msgstr "Simulera tryck inuti en sluten tygmesh"
+
+#. :src: bpy.types.ClothSettings.use_pressure_volume
+msgid ""
+"Use the Target Volume parameter as the initial volume, instead of "
+"calculating it from the mesh itself"
+msgstr ""
+"Använd parametern Målvolym som initial volym i stället för att beräkna den "
+"från själva meshen"
+
+#. :src: bpy.types.ClothSettings.vertex_group_bending
+msgid "Bending Stiffness Vertex Group"
+msgstr "Hörnpunktsgrupp för böjstyvhet"
+
+#. :src: bpy.types.ClothSettings.vertex_group_bending
+msgid "Vertex group for fine control over bending stiffness"
+msgstr "Hörnpunktsgrupp för finjustering av böjstyvheten"
+
+#. :src: bpy.types.ClothSettings.vertex_group_intern
+msgid "Internal Springs Vertex Group"
+msgstr "Hörnpunktsgrupp för interna fjädrar"
+
+#. :src: bpy.types.ClothSettings.vertex_group_intern
+msgid "Vertex group for fine control over the internal spring stiffness"
+msgstr "Hörnpunktsgrupp för finjustering av de interna fjädrarnas styvhet"
+
+#. :src: bpy.types.ClothSettings.vertex_group_mass
+msgid "Pin Vertex Group"
+msgstr "Hörnpunktsgrupp för fastsättning"
+
+#. :src: bpy.types.ClothSettings.vertex_group_mass
+msgid "Vertex Group for pinning of vertices"
+msgstr "Hörnpunktsgrupp för fastsättning av hörnpunkter"
+
+#. :src: bpy.types.ClothSettings.vertex_group_pressure
+msgid ""
+"Vertex Group for where to apply pressure. Zero weight means no pressure "
+"while a weight of one means full pressure. Faces with a vertex that has zero "
+"weight will be excluded from the volume calculation."
+msgstr ""
+"Hörnpunktsgrupp för var tryck ska appliceras. Noll vikt innebär inget tryck, "
+"medan vikten ett innebär fullt tryck. Ytor med en hörnpunkt med noll vikt "
+"utesluts från volymberäkningen."
+
+#. :src: bpy.types.ClothSettings.vertex_group_shear_stiffness
+msgid "Vertex group for fine control over shear stiffness"
+msgstr "Hörnpunktsgrupp för finjustering av skjuvstyvheten"
+
+#. :src: bpy.types.ColorManagedViewSettings.curve_mapping
+#. :src: bpy.types.GPencilSculptSettings.multiframe_falloff_curve
+#. :src: bpy.types.GPencilSculptSettings.thickness_primitive_curve
+#. :src: bpy.types.Brush.curve
+#. :src: bpy.types.Brush.use_curve
+#. :src: bpy.types.Curves.selection_domain:'CURVE'
+#. :src: bpy.types.LineStyleAlphaModifier_AlongStroke.curve
+#. :src: bpy.types.LineStyleAlphaModifier_AlongStroke.mapping:'CURVE'
+#. :src: bpy.types.LineStyleAlphaModifier_CreaseAngle.curve
+#. :src: bpy.types.LineStyleAlphaModifier_CreaseAngle.mapping:'CURVE'
+#. :src: bpy.types.LineStyleAlphaModifier_Curvature_3D.curve
+#. :src: bpy.types.LineStyleAlphaModifier_Curvature_3D.mapping:'CURVE'
+#. :src: bpy.types.LineStyleAlphaModifier_DistanceFromCamera.curve
+#. :src: bpy.types.LineStyleAlphaModifier_DistanceFromCamera.mapping:'CURVE'
+#. :src: bpy.types.LineStyleAlphaModifier_DistanceFromObject.curve
+#. :src: bpy.types.LineStyleAlphaModifier_DistanceFromObject.mapping:'CURVE'
+#. :src: bpy.types.LineStyleAlphaModifier_Material.curve
+#. :src: bpy.types.LineStyleAlphaModifier_Material.mapping:'CURVE'
+#. :src: bpy.types.LineStyleAlphaModifier_Noise.curve
+#. :src: bpy.types.LineStyleAlphaModifier_Noise.mapping:'CURVE'
+#. :src: bpy.types.LineStyleAlphaModifier_Tangent.curve
+#. :src: bpy.types.LineStyleAlphaModifier_Tangent.mapping:'CURVE'
+#. :src: bpy.types.LineStyleThicknessModifier_AlongStroke.curve
+#. :src: bpy.types.LineStyleThicknessModifier_AlongStroke.mapping:'CURVE'
+#. :src: bpy.types.LineStyleThicknessModifier_CreaseAngle.curve
+#. :src: bpy.types.LineStyleThicknessModifier_CreaseAngle.mapping:'CURVE'
+#. :src: bpy.types.LineStyleThicknessModifier_Curvature_3D.curve
+#. :src: bpy.types.LineStyleThicknessModifier_Curvature_3D.mapping:'CURVE'
+#. :src: bpy.types.LineStyleThicknessModifier_DistanceFromCamera.curve
+#. :src: bpy.types.LineStyleThicknessModifier_DistanceFromCamera.mapping:'CURVE'
+#. :src: bpy.types.LineStyleThicknessModifier_DistanceFromObject.curve
+#. :src: bpy.types.LineStyleThicknessModifier_DistanceFromObject.mapping:'CURVE'
+#. :src: bpy.types.LineStyleThicknessModifier_Material.curve
+#. :src: bpy.types.LineStyleThicknessModifier_Material.mapping:'CURVE'
+#. :src: bpy.types.LineStyleThicknessModifier_Tangent.curve
+#. :src: bpy.types.LineStyleThicknessModifier_Tangent.mapping:'CURVE'
+#. :src: bpy.types.Menu
+#. :src: bpy.types.NODE_MT_geometry_node_GEO_CURVE
+#. :src: bpy.types.VIEW3D_MT_curve_add
+#. :src: bpy.types.VIEW3D_MT_edit_curve
+#. :src: bpy.types.VIEW3D_MT_edit_curve_context_menu
+#. :src: bpy.types.Modifier.type:'CURVE'
+#. :src: bpy.types.ArrayModifier.curve
+#. :src: bpy.types.GreasePencilColorModifier.custom_curve
+#. :src: bpy.types.GreasePencilHookModifier.custom_curve
+#. :src: bpy.types.GreasePencilNoiseModifier.custom_curve
+#. :src: bpy.types.GreasePencilOpacityModifier.custom_curve
+#. :src: bpy.types.GreasePencilSmoothModifier.custom_curve
+#. :src: bpy.types.GreasePencilThickModifierData.custom_curve
+#. :src: bpy.types.GreasePencilTintModifier.custom_curve
+#. :src: bpy.types.CompositorNodeTime.curve
+#. :src: bpy.types.GeometryNodeAttributeDomainSize.component:'CURVE'
+#. :src: bpy.types.TextureNodeCurveTime.curve
+#. :src: bpy.types.CURVES_OT_set_selection_domain.domain:'CURVE'
+#. :src: bpy.types.GREASE_PENCIL_OT_primitive_arc.type:'CURVE'
+#. :src: bpy.types.GREASE_PENCIL_OT_primitive_box.type:'CURVE'
+#. :src: bpy.types.GREASE_PENCIL_OT_primitive_circle.type:'CURVE'
+#. :src: bpy.types.GREASE_PENCIL_OT_primitive_curve.type:'CURVE'
+#. :src: bpy.types.GREASE_PENCIL_OT_primitive_line.type:'CURVE'
+#. :src: bpy.types.GREASE_PENCIL_OT_primitive_polyline.type:'CURVE'
+#. :src: bpy.types.OBJECT_OT_convert.target:'CURVE'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'CURVE'
+#. :src: bpy.types.Paint.cavity_curve
+#. :src: bpy.types.ParticleBrush.curve
+#. :src: bpy.types.SpaceSpreadsheet.geometry_component_type:'CURVE'
+#. :src: bpy.types.SpaceView3D.show_object_select_curve
+#. :src: bpy.types.SpaceView3D.show_object_viewport_curve
+#. :src: bpy.types.XrSessionSettings.show_object_select_curve
+#. :src: bpy.types.XrSessionSettings.show_object_viewport_curve
+#: source/blender/blenkernel/intern/object.cc:1927
+#: source/blender/editors/space_node/node_draw.cc:1796
+#: source/blender/editors/space_spreadsheet/spreadsheet_dataset_draw.cc:285
+#: source/blender/editors/transform/transform_orientations.cc:185
+#: source/blender/modifiers/intern/MOD_curve.cc:185
+#: source/blender/nodes/geometry/nodes/node_geo_curve_fill.cc:29
+#: source/blender/nodes/geometry/nodes/node_geo_curve_fillet.cc:26
+#: source/blender/nodes/geometry/nodes/node_geo_curve_fillet.cc:28
+#: source/blender/nodes/geometry/nodes/node_geo_curve_length.cc:13
+#: source/blender/nodes/geometry/nodes/node_geo_curve_primitive_arc.cc:81
+#: source/blender/nodes/geometry/nodes/node_geo_curve_primitive_bezier_segment.cc:44
+#: source/blender/nodes/geometry/nodes/node_geo_curve_primitive_circle.cc:60
+#: source/blender/nodes/geometry/nodes/node_geo_curve_primitive_line.cc:43
+#: source/blender/nodes/geometry/nodes/node_geo_curve_primitive_quadratic_bezier.cc:29
+#: source/blender/nodes/geometry/nodes/node_geo_curve_primitive_quadrilateral.cc:82
+#: source/blender/nodes/geometry/nodes/node_geo_curve_primitive_spiral.cc:37
+#: source/blender/nodes/geometry/nodes/node_geo_curve_primitive_star.cc:31
+#: source/blender/nodes/geometry/nodes/node_geo_curve_resample.cc:25
+#: source/blender/nodes/geometry/nodes/node_geo_curve_resample.cc:27
+#: source/blender/nodes/geometry/nodes/node_geo_curve_reverse.cc:15
+#: source/blender/nodes/geometry/nodes/node_geo_curve_reverse.cc:17
+#: source/blender/nodes/geometry/nodes/node_geo_curve_set_handle_type.cc:22
+#: source/blender/nodes/geometry/nodes/node_geo_curve_set_handle_type.cc:23
+#: source/blender/nodes/geometry/nodes/node_geo_curve_spline_type.cc:23
+#: source/blender/nodes/geometry/nodes/node_geo_curve_spline_type.cc:25
+#: source/blender/nodes/geometry/nodes/node_geo_curve_subdivide.cc:17
+#: source/blender/nodes/geometry/nodes/node_geo_curve_subdivide.cc:19
+#: source/blender/nodes/geometry/nodes/node_geo_curve_to_mesh.cc:21
+#: source/blender/nodes/geometry/nodes/node_geo_curve_to_points.cc:29
+#: source/blender/nodes/geometry/nodes/node_geo_curve_trim.cc:27
+#: source/blender/nodes/geometry/nodes/node_geo_curve_trim.cc:29
+#: source/blender/nodes/geometry/nodes/node_geo_mesh_to_curve.cc:25
+#: source/blender/nodes/geometry/nodes/node_geo_separate_components.cc:12
+#: source/blender/nodes/geometry/nodes/node_geo_set_curve_handles.cc:28
+#: source/blender/nodes/geometry/nodes/node_geo_set_curve_handles.cc:29
+#: source/blender/nodes/geometry/nodes/node_geo_set_curve_normal.cc:23
+#: source/blender/nodes/geometry/nodes/node_geo_set_curve_normal.cc:25
+#: source/blender/nodes/geometry/nodes/node_geo_set_curve_radius.cc:15
+#: source/blender/nodes/geometry/nodes/node_geo_set_curve_radius.cc:17
+#: source/blender/nodes/geometry/nodes/node_geo_set_curve_tilt.cc:15
+#: source/blender/nodes/geometry/nodes/node_geo_set_curve_tilt.cc:17
+#: source/blender/nodes/intern/node_geometry_exec.cc:126
+msgid "Curve"
+msgstr "Kurva"
+
+#. :src: bpy.types.CurveMapPoint.select
+msgid "Selection state of the curve point"
+msgstr "Urvalstillstånd för kurvpunkten"
+
+#. :src: bpy.types.CurveMapping
+msgid ""
+"Curve mapping to map color, vector and scalar values to other values using a "
+"user defined curve"
+msgstr ""
+"Kurvkartläggning som kartlägger färg-, vektor- och skalärvärden till andra "
+"värden med en användardefinierad kurva"
+
+#. :src: bpy.types.GreasePencilDrawing.curve_offsets
+msgid "Curve Offsets"
+msgstr "Kurvförskjutningar"
+
+#. :src: bpy.types.GreasePencilDrawing.curve_offsets
+msgid "Offset indices of the first point of each curve"
+msgstr "Förskjutningsindex för den första punkten på varje kurva"
+
+#. :src: bpy.types.ParticleSettings.clump_curve
+msgid "Curve defining clump tapering"
+msgstr "Kurva som definierar klumpavsmalning"
