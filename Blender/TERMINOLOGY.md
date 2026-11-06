@@ -119,6 +119,9 @@ Senast uppdaterad: 2026-11-06.
 | Compositor | Kompositör | Synligt Blender-namn för nodredigeraren. Använd *kompositören* i löpande text. |
 | tone mapping / Tonemap | tonmappning | Bildbehandling som anpassar tonomfång. Etiketten *Tonemap Type* blir *Tonmappningstyp*. |
 | movie tracking frame | bildruta | I filmspårning avser *frame* en bildruta, inte en fysisk ram. |
+| Movie Clip Editor | klippredigerare | Redigeraren för filmklipp, filmspårning och stabilisering. |
+| bounding box | begränsningsruta | Rektangeln som avgränsar ett mönster eller sökområde vid filmspårning. |
+| mask spline | maskspline | Spline som avgränsar en mask i bild- och klippredigeraren. |
 | track position | spårposition | Position från en filmspårningspunkt. Skilj från ett spårs plats i tidslinjen. |
 | geometric translation / Translate | förskjutning / förskjut | Geometrisk bild- eller koordinatförflyttning; inte språklig översättning. |
 | Function Node | funktionsnod | Nod som utför en matematisk, logisk eller geometrisk funktion. |

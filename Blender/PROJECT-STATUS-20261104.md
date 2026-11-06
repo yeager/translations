@@ -1501,3 +1501,12 @@ posemarkörer och nyckelbildrutor. Samtliga granskade poster har fått sina
 10/10 och rapporterar bara avsedda Blender-sammansättningar. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 180 granskar tjugoen poster för klippredigeraren och filmspårningen.
+Den rättar bland annat kanaler, spårfel, begränsningsrutor, tidskod,
+stabiliserat filmmaterial och dopebladsvyn. Samtliga granskade poster har fått
+sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-180-movie-clip-editor.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar bara avsedda Blender-sammansättningar och en falsk V2-träff för
+en imperativ UI-etikett. Filen är arkiverad och väntar på manuell import.
+
