@@ -195,6 +195,8 @@ Senast uppdaterad: 2026-11-06.
 | goal (Soft Body / Cloth) | mål | Fysikinställning som drar en hörnpunkt mot dess målposition. Använd sammansättningarna *målstandard*, *måldämpning*, *målmaximum*, *målminimum* och *målstyvhet*. |
 | angular bending springs | vinkelfjädrar | Tygsimuleringens fjädrar för vinkelbaserad böjning. |
 | tension stiffness | dragstyvhet | Materialets motstånd mot sträckning i tygsimuleringen. |
+| pin stiffness | fäststyvhet | Fjäderstyvhet för fästa hörnpunkter i tygsimuleringen, inte ett fysiskt stift. |
+| shear stiffness | skjuvstyvhet | Materialets motstånd mot skjuvning i tygsimuleringen. |
 | vertex mass | hörnpunktsmassa | Massan för en enskild hörnpunkt i tygsimuleringen. |
 | vertex color | hörnpunktsfärg | Gäller synlig UI-text. |
 | vertex normal | hörnpunktsnormal | Gäller synlig UI-text. |

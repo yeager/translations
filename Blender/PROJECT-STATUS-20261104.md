@@ -1875,3 +1875,14 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 215 granskar 54 poster för tygsimuleringens material-, fjäder- och
+tryckinställningar. Den normaliserar *fäststyvhet* för låsta hörnpunkter,
+*skjuvning* för `shear` och *dragfjäderdämpning* för dämpning vid sträckning;
+de två styvhetstermerna dokumenteras i terminologilistan. Samtliga granskade
+poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-215-cloth-settings.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast etablerade Blender- och facktermer samt konstgjorda längd-
+och V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+

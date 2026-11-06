@@ -14391,24 +14391,20 @@ msgid "Maximum compression stiffness value"
 msgstr "Maximalt värde för kompressionsstyvhet"
 
 #. :src: bpy.types.ClothSettings.density_strength
-#, fuzzy
 msgid "Target Density Strength"
 msgstr "Styrka för måltäthet"
 
 #. :src: bpy.types.ClothSettings.density_strength
-#, fuzzy
 msgid "Influence of target density on the simulation"
-msgstr "Inverkan av målets densitet på simuleringen"
+msgstr "Måltäthetens inverkan på simuleringen"
 
 #. :src: bpy.types.ClothSettings.density_target
-#, fuzzy
 msgid "Target Density"
 msgstr "Måltäthet"
 
 #. :src: bpy.types.ClothSettings.density_target
-#, fuzzy
 msgid "Maximum density of hair"
-msgstr "Maximal densitet av hår"
+msgstr "Maximal hårdensitet"
 
 #. :src: bpy.types.ClothSettings.effector_weights
 #. :src: bpy.types.DynamicPaintSurface.effector_weights
@@ -14417,17 +14413,14 @@ msgstr "Maximal densitet av hår"
 #. :src: bpy.types.ParticleSettings.effector_weights
 #. :src: bpy.types.RigidBodyWorld.effector_weights
 #. :src: bpy.types.SoftBodySettings.effector_weights
-#, fuzzy
 msgid "Effector Weights"
 msgstr "Effektorvikter"
 
 #. :src: bpy.types.ClothSettings.fluid_density
-#, fuzzy
 msgid "Fluid Density"
 msgstr "Vätskans densitet"
 
 #. :src: bpy.types.ClothSettings.fluid_density
-#, fuzzy
 msgid "Density (kg/l) of the fluid contained inside the object, used to create a hydrostatic pressure gradient simulating the weight of the internal fluid, or buoyancy from the surrounding fluid if negative"
 msgstr "Densitet (kg/l) för den vätska som finns inuti objektet, används för att skapa en hydrostatisk tryckgradient som simulerar vikten av den inre vätskan, eller flytkraft från den omgivande vätskan om den är negativ"
 
@@ -14494,97 +14487,79 @@ msgid "Gravity"
 msgstr "Gravitation"
 
 #. :src: bpy.types.ClothSettings.gravity
-#, fuzzy
 msgid "Gravity or external force vector"
 msgstr "Gravitation eller extern kraftvektor"
 
 #. :src: bpy.types.ClothSettings.internal_friction
-#, fuzzy
 msgid "Internal Friction"
 msgstr "Intern friktion"
 
 #. :src: bpy.types.ClothSettings.internal_spring_max_diversion
-#, fuzzy
 msgid "Internal Spring Max Diversion"
 msgstr "Maximal avvikelse för interna fjädrar"
 
 #. :src: bpy.types.ClothSettings.internal_spring_max_diversion
-#, fuzzy
 msgid "How much the rays used to connect the internal points can diverge from the vertex normal"
 msgstr "Hur mycket strålarna som används för att ansluta de interna punkterna kan avvika från hörnpunktens normal"
 
 #. :src: bpy.types.ClothSettings.internal_spring_max_length
-#, fuzzy
 msgid "Internal Spring Max Length"
 msgstr "Maximal längd för interna fjädrar"
 
 #. :src: bpy.types.ClothSettings.internal_spring_max_length
-#, fuzzy
 msgid "The maximum length an internal spring can have during creation. If the distance between internal points is greater than this, no internal spring will be created between these points. A length of zero means that there is no length limit."
 msgstr "Den maximala längden som en intern fjäder kan ha vid skapandet. Om avståndet mellan interna punkter är större än detta kommer ingen intern fjäder att skapas mellan dessa punkter. En längd på noll innebär att det inte finns någon längdbegränsning."
 
 #. :src: bpy.types.ClothSettings.internal_spring_normal_check
-#, fuzzy
 msgid "Check Internal Spring Normals"
 msgstr "Kontrollera normaler för interna fjädrar"
 
 #. :src: bpy.types.ClothSettings.internal_spring_normal_check
-#, fuzzy
 msgid "Require the points the internal springs connect to have opposite normal directions"
 msgstr "Kräver att de punkter som de interna fjädrarna ansluter till har motsatta normalriktningar"
 
 #. :src: bpy.types.ClothSettings.internal_tension_stiffness
 #. :src: bpy.types.ClothSettings.tension_stiffness
-#, fuzzy
 msgid "Tension Stiffness"
 msgstr "Dragstyvhet"
 
 #. :src: bpy.types.ClothSettings.internal_tension_stiffness
 #. :src: bpy.types.ClothSettings.tension_stiffness
-#, fuzzy
 msgid "How much the material resists stretching"
 msgstr "Hur mycket materialet står emot töjning"
 
 #. :src: bpy.types.ClothSettings.internal_tension_stiffness_max
 #. :src: bpy.types.ClothSettings.tension_stiffness_max
-#, fuzzy
 msgid "Tension Stiffness Maximum"
 msgstr "Maximal dragstyvhet"
 
 #. :src: bpy.types.ClothSettings.internal_tension_stiffness_max
 #. :src: bpy.types.ClothSettings.tension_stiffness_max
-#, fuzzy
 msgid "Maximum tension stiffness value"
 msgstr "Maximalt värde för dragstyvhet"
 
 #. :src: bpy.types.ClothSettings.mass
 #: scripts/startup/bl_ui/properties_physics_cloth.py:87
-#, fuzzy
 msgid "Vertex Mass"
 msgstr "Hörnpunktsmassa"
 
 #. :src: bpy.types.ClothSettings.mass
-#, fuzzy
 msgid "The mass of each vertex on the cloth material"
 msgstr "Massan för varje hörnpunkt i tygmaterialet"
 
 #. :src: bpy.types.ClothSettings.pin_stiffness
-#, fuzzy
 msgid "Pin Stiffness"
-msgstr "Stiftets styvhet"
+msgstr "Fäststyvhet"
 
 #. :src: bpy.types.ClothSettings.pin_stiffness
-#, fuzzy
 msgid "Pin (vertex target position) spring stiffness"
-msgstr "Pin (toppunktens målposition) fjäderstyvhet"
+msgstr "Fjäderstyvhet för fästpunkten (hörnpunktens målposition)"
 
 #. :src: bpy.types.ClothSettings.pressure_factor
-#, fuzzy
 msgid "Pressure Scale"
 msgstr "Tryckskala"
 
 #. :src: bpy.types.ClothSettings.pressure_factor
-#, fuzzy
 msgid "Ambient pressure (kPa) that balances out between the inside and outside of the object when it has the target volume"
 msgstr "Omgivningstryck (kPa) som balanserar mellan insidan och utsidan av objektet när det har den önskade volymen"
 
@@ -14606,104 +14581,84 @@ msgid "Quality"
 msgstr "Kvalitet"
 
 #. :src: bpy.types.ClothSettings.quality
-#, fuzzy
 msgid "Quality of the simulation in steps per frame (higher is better quality but slower)"
 msgstr "Simuleringens kvalitet i steg per bildruta (högre är bättre kvalitet men långsammare)"
 
 #. :src: bpy.types.ClothSettings.rest_shape_key
 #: scripts/startup/bl_ui/properties_physics_cloth.py:323
-#, fuzzy
 msgid "Rest Shape Key"
 msgstr "Formnyckel för viloläge"
 
 #. :src: bpy.types.ClothSettings.rest_shape_key
-#, fuzzy
 msgid "Shape key to use the rest spring lengths from"
 msgstr "Formnyckel vars vilolängder för fjädrar ska användas"
 
 #. :src: bpy.types.ClothSettings.sewing_force_max
-#, fuzzy
 msgid "Sewing Force Max"
 msgstr "Sykraft Max"
 
 #. :src: bpy.types.ClothSettings.sewing_force_max
-#, fuzzy
 msgid "Maximum sewing force"
 msgstr "Maximal sömnadskraft"
 
 #. :src: bpy.types.ClothSettings.shear_damping
-#, fuzzy
 msgid "Shear Spring Damping"
 msgstr "Skjuvfjäderdämpning"
 
 #. :src: bpy.types.ClothSettings.shear_damping
-#, fuzzy
 msgid "Amount of damping in shearing behavior"
 msgstr "Mängd dämpning i skjuvningsbeteende"
 
 #. :src: bpy.types.ClothSettings.shear_stiffness
 #. :src: bpy.types.SoftBodySettings.shear
-#, fuzzy
 msgid "Shear Stiffness"
 msgstr "Skjuvstyvhet"
 
 #. :src: bpy.types.ClothSettings.shear_stiffness
-#, fuzzy
 msgid "How much the material resists shearing"
-msgstr "Hur mycket materialet står emot klippning"
+msgstr "Hur mycket materialet står emot skjuvning"
 
 #. :src: bpy.types.ClothSettings.shear_stiffness_max
-#, fuzzy
 msgid "Shear Stiffness Maximum"
-msgstr "Skjuvstyvhet Maximalt"
+msgstr "Maximal skjuvstyvhet"
 
 #. :src: bpy.types.ClothSettings.shear_stiffness_max
-#, fuzzy
 msgid "Maximum shear scaling value"
-msgstr "Maximalt värde för skalning av skjuvning"
+msgstr "Maximalt skalningsvärde för skjuvning"
 
 #. :src: bpy.types.ClothSettings.shrink_max
-#, fuzzy
 msgid "Shrink Factor Max"
 msgstr "Krympfaktor Max"
 
 #. :src: bpy.types.ClothSettings.shrink_max
-#, fuzzy
 msgid "Max amount to shrink cloth by"
 msgstr "Max mängd att krympa tyget med"
 
 #. :src: bpy.types.ClothSettings.shrink_min
-#, fuzzy
 msgid "Shrink Factor"
 msgstr "Krympfaktor"
 
 #. :src: bpy.types.ClothSettings.shrink_min
-#, fuzzy
 msgid "Factor by which to shrink cloth"
 msgstr "Faktor för att krympa duken"
 
 #. :src: bpy.types.ClothSettings.target_volume
-#, fuzzy
 msgid "Target Volume"
 msgstr "Målvolym"
 
 #. :src: bpy.types.ClothSettings.target_volume
-#, fuzzy
 msgid "The mesh volume where the inner/outer pressure will be the same. If set to zero the change in volume will not affect pressure."
 msgstr "Den meshvolym där det inre och yttre trycket är lika. Om värdet är noll påverkar volymförändringen inte trycket."
 
 #. :src: bpy.types.ClothSettings.tension_damping
-#, fuzzy
 msgid "Tension Spring Damping"
-msgstr "Spänning Fjäder Dämpning"
+msgstr "Dragfjäderdämpning"
 
 #. :src: bpy.types.ClothSettings.tension_damping
-#, fuzzy
 msgid "Amount of damping in stretching behavior"
 msgstr "Mängden dämpning i sträckningsbeteendet"
 
 #. :src: bpy.types.ClothSettings.time_scale
-#, fuzzy
 msgid "Cloth speed is multiplied by this value"
 msgstr "Tygets hastighet multipliceras med detta värde"
 
@@ -14712,42 +14667,34 @@ msgstr "Tygets hastighet multipliceras med detta värde"
 #. :src: bpy.types.PHYSICS_PT_cloth_pressure
 #. :src: bpy.types.OperatorStrokeElement.pressure
 #: source/blender/makesrna/intern/rna_fluid.cc:681
-#, fuzzy
 msgid "Pressure"
 msgstr "Tryck"
 
 #. :src: bpy.types.ClothSettings.uniform_pressure_force
-#, fuzzy
 msgid "The uniform pressure that is constantly applied to the mesh, in units of Pressure Scale. Can be negative."
 msgstr "Det enhetliga tryck som ständigt tillämpas på meshen, i enheter av tryckskalan. Kan vara negativt."
 
 #. :src: bpy.types.ClothSettings.use_dynamic_mesh
-#, fuzzy
 msgid "Dynamic Base Mesh"
 msgstr "Dynamisk basmesh"
 
 #. :src: bpy.types.ClothSettings.use_dynamic_mesh
-#, fuzzy
 msgid "Make simulation respect deformations in the base mesh"
 msgstr "Låt simuleringen ta hänsyn till deformationer i basmeshen"
 
 #. :src: bpy.types.ClothSettings.use_internal_springs
-#, fuzzy
 msgid "Create Internal Springs"
 msgstr "Skapa interna fjädrar"
 
 #. :src: bpy.types.ClothSettings.use_internal_springs
-#, fuzzy
 msgid "Simulate an internal volume structure by creating springs connecting the opposite sides of the mesh"
 msgstr "Simulera en inre volymstruktur genom att skapa fjädrar som förbinder meshens motsatta sidor"
 
 #. :src: bpy.types.ClothSettings.use_pressure
-#, fuzzy
 msgid "Simulate pressure inside a closed cloth mesh"
 msgstr "Simulera tryck inuti en sluten tygmesh"
 
 #. :src: bpy.types.ClothSettings.use_pressure_volume
-#, fuzzy
 msgid "Use Custom Volume"
 msgstr "Använd anpassad volym"
 
