@@ -2563,3 +2563,17 @@ Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
 som en sammanfogad mening. Gitleaks körs före arkivering. Filen väntar
 därefter på manuell import.
 
+Batch 276 granskar 32 strängar för skulpteringens automaskering,
+simuleringsgräns och relaterade penselinställningar. Blenders dokumentation
+beskriver automaskering efter bland annat meshgräns, ytuppsättning,
+ytkrökning, normal och ocklusion. Översättningen använder därför konsekvent
+*hörnpunkt*, *ytuppsättning*, *ytuppsättningsgräns*, *automaskering* och
+*penselavtryck*. Terminologilistan har kompletterats med hålighetsmask och
+automaskering av meshgräns. Samtliga granskade poster får sina
+`fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-276-sculpt-automasking.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
+`svlang` markerar endast de avsiktliga Blender-sammansättningarna och en
+konstgjord varning från sammanfogade UI-etiketter. Gitleaks körs före
+arkivering. Filen väntar därefter på manuell import.
+

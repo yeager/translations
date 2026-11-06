@@ -447,6 +447,8 @@ Senast uppdaterad: 2026-11-06.
 | area normal | områdesnormal | Normal som används för ett område i skulpterings- och automaskningsinställningar. |
 | view normal | visningsnormal | Normal uttryckt i förhållande till 3D-vyn. |
 | face set boundary | ytuppsättningsgräns | Gräns mellan skulpteringens ytuppsättningar. Grundtermen är *ytuppsättning*. |
+| cavity mask | hålighetsmask | Automaskering som använder ytans krökning för att begränsa penselns påverkan vid toppar eller skåror. |
+| mesh boundary auto-masking | automaskering av meshgräns | Utesluter hörnpunkter vid öppna meshgränser. |
 | radius falloff | radieavtagande | Avtagande som styrs av radie i pensel- och skulpteringsinställningar. |
 | smooth stroke | jämnt penseldrag | Penselinställning som filtrerar markörens rörelse under draget. |
 | space attenuation | avståndsdämpning | Dämpar penselstyrkan utifrån mellanrummet mellan penselavtryck. |
