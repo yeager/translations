@@ -1416,3 +1416,13 @@ animeringssammanhang. Den normaliserar den etablerade Blender-formen
 `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, riktad Hunspell,
 diffkontroll och Gitleaks. `svlang` markerar endast tekniska sammansättningar
 och korrekta infinitivfraser. Filen är arkiverad och väntar på manuell import.
+
+Batch 172 granskar den längre tooltippen för Eevees spekulära shader. Den
+ersätter blandade engelska fackord med den kontextbundna formuleringen
+*Principiell BSDF*, *spekulärt arbetsflöde* och *metalliskt arbetsflöde*, och
+bevarar den fysiskt korrekta förklaringen om reflektionsfärg och energi.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-172-specular-shader.po`
+saknar `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, riktad Hunspell,
+diffkontroll och Gitleaks. `svlang` godkänner textens naturlighet och markerar
+endast den avsedda akronymen *BSDF*. Filen är arkiverad och väntar på manuell
+import.
