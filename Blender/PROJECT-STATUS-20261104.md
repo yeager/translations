@@ -2602,3 +2602,17 @@ Filen passerar `msgfmt`, l10n-lint, riktad Hunspell, `svlang` och
 diffkontroll. Gitleaks körs före arkivering. Filen väntar därefter på
 manuell import.
 
+Batch 279 granskar 30 strängar för kameraobjektiv, synfält,
+beskärningsavstånd och panoramisk projektion. Källkontexten i Blenders
+kameradokumentation visar att longitude och latitude är projektionens
+vinkelkoordinater. De normaliseras därför till *längdgrad* och *breddgrad*.
+Batchen rättar även en felmappad översättning av *Custom Shader* samt
+använder *fiskögeobjektiv* och *beskärningsavstånd* konsekvent.
+Terminologilistan har kompletterats med kamerans projektionstermer.
+Samtliga granskade poster får sina `fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-279-camera-projection.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
+`svlang` markerar endast tekniska produktnamn, facktermer och en konstgjord
+varning från sammanfogade UI-etiketter. Gitleaks körs före arkivering.
+Filen väntar därefter på manuell import.
+

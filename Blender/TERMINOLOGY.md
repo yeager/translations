@@ -17,6 +17,9 @@ Senast uppdaterad: 2026-11-06.
 | remote asset library | fjärranslutet resursbibliotek | Skriv ut relationen i löpande text; undvik *fjärrresursbibliotek*, som blir svårläst med tre r. |
 | remote assets | fjärranslutna resurser | Nätåtkomliga resurser i Asset Browser och dess filter. Undvik *fjärrresurser*, som får tre r i följd. |
 | cache directory | cachekatalog | Etablerad teknisk sammansättning i Blender. Skriv ihop i UI-etiketter och statusmeddelanden: *diskcachekatalog*, *standardcachekatalog*. |
+| longitude / latitude (camera projection) | längdgrad / breddgrad | Vinklar i kamerans cylindriska och ekvirektangulära projektioner. |
+| fisheye lens | fiskögeobjektiv | Kameraprojektion med extremt brett synfält; använd sammansättningen även för fiskögepolynom. |
+| clipping distance | beskärningsavstånd | Kamerans närmaste eller bortre synliga gräns. |
 | cache layer | cachelager | Lager i en Blender-cachefil. Skriv ihop, utan bindestreck. |
 | prefetch | förhandsladdning | Läser in cache- eller animationsdata i förväg för snabbare uppdateringar. |
 | Cycles Procedural cache | Cycles Procedural-cachen | Särskild cache för Cycles procedurbaserade inläsning. |
