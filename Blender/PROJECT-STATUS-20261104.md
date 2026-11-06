@@ -1576,3 +1576,13 @@ kontroll. Deltafilen
 rapporterar bara en konstgjord lång mening när de fristående etiketterna
 sammanfogas inför analys. Filen är arkiverad och väntar på manuell import.
 
+Batch 187 granskar tolv poster för åtgärdsslotens egenskaper. Den normaliserar
+markerings- och utfällningsstatus, mål-ID-typ och datablockstyp samt granskar
+API-namnen `ActionKeyframeStrip` och `ActionChannelbag` i sin riktiga
+API-kontext. Samtliga granskade poster har fått sina `fuzzy`-markeringar
+borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-187-action-slot-properties.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang` ger
+10/10 och rapporterar endast den avsedda Blender-termen *åtgärdsslot*. Filen
+är arkiverad och väntar på manuell import.
+
