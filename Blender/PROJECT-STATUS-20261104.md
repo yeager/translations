@@ -1675,3 +1675,16 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 `svlang` rapporterar endast de avsiktliga Blendernamnen *Dopeblad* och
 *Outliner*. Filen är arkiverad och väntar på manuell import.
 
+Batch 197 granskar fyrtioåtta poster för områdens redigerarlägen,
+armaturredigering och tillgångssystemet. Den ersätter felaktiga *utrymmen*
+med Blenders interna *redigerarlägen*, normaliserar
+*resursbibliotek* i Asset Browser-kontexten och rättar bland annat
+*Katalog enkelt namn*, *Förhandsvisning storlek* och den engelska
+API-blandningen *key-map-objekt*. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-197-area-and-assets.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar enbart en konstgjord längd- och V2-varning när korta
+UI-etiketter fogas ihop till löptext. Filen är arkiverad och väntar på
+manuell import.
+
