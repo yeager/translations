@@ -19499,18 +19499,18 @@ msgstr "Kedjan följer målets rotation"
 #. :src: bpy.types.KinematicConstraint.use_stretch
 #, fuzzy
 msgid "Enable IK Stretching"
-msgstr "Aktivera IK-stretching"
+msgstr "Aktivera IK-sträckning"
 
 #. :src: bpy.types.KinematicConstraint.use_tail
 #. :src: bpy.types.RigifyParameters.use_tail
 #, fuzzy
 msgid "Use Tail"
-msgstr "Använd svans"
+msgstr "Använd benspets"
 
 #. :src: bpy.types.KinematicConstraint.use_tail
 #, fuzzy
 msgid "Include bone's tail as last element in chain"
-msgstr "Inkludera benets svans som sista element i kedjan"
+msgstr "Inkludera benets spets som sista element i kedjan"
 
 #. :src: bpy.types.KinematicConstraint.weight
 #, fuzzy
@@ -19548,7 +19548,7 @@ msgstr "Positionsbegränsning"
 #. :src: bpy.types.LimitLocationConstraint
 #, fuzzy
 msgid "Limit the location of the constrained object"
-msgstr "Begränsa platsen för det begränsade objektet"
+msgstr "Begränsa positionen för det begränsade objektet"
 
 #. :src: bpy.types.LimitLocationConstraint.max_x
 #. :src: bpy.types.LimitLocationConstraint.use_max_x
@@ -19758,14 +19758,14 @@ msgstr "Äldre beteende"
 #. :src: bpy.types.LimitRotationConstraint.use_legacy_behavior
 #, fuzzy
 msgid "Use the old semi-broken behavior that doesn't understand that rotations loop around"
-msgstr "Använd det gamla halvbrutna beteendet som inte förstår att rotationer loopar runt"
+msgstr "Använd det gamla, delvis trasiga beteendet som inte hanterar att rotationer går runt i varv"
 
 #. :src: bpy.types.LimitRotationConstraint.use_limit_x
 #: scripts/startup/bl_ui/properties_constraint.py:212
 #: scripts/startup/bl_ui/properties_data_bone.py:472
 #, fuzzy
 msgid "Limit X"
-msgstr "Gränsvärde X"
+msgstr "Begränsa X"
 
 #. :src: bpy.types.LimitRotationConstraint.use_limit_y
 #: scripts/startup/bl_ui/properties_data_bone.py:483
@@ -19792,12 +19792,12 @@ msgstr "Begränsa skalningen av det begränsade objektet"
 #. :src: bpy.types.LockedTrackConstraint
 #, fuzzy
 msgid "Locked Track Constraint"
-msgstr "Begränsning för låst spår"
+msgstr "Låst spårningsbegränsning"
 
 #. :src: bpy.types.LockedTrackConstraint
 #, fuzzy
 msgid "Point toward the target along the track axis, while locking the other axis"
-msgstr "Peka mot målet längs banans axel samtidigt som du låser den andra axeln"
+msgstr "Peka mot målet längs riktningsaxeln samtidigt som du låser den andra axeln"
 
 #. :src: bpy.types.LockedTrackConstraint.lock_axis
 #, fuzzy
@@ -19807,12 +19807,12 @@ msgstr "Låst axel"
 #. :src: bpy.types.MaintainVolumeConstraint
 #, fuzzy
 msgid "Maintain Volume Constraint"
-msgstr "Upprätthålla volymbegränsning"
+msgstr "Volymbevarande begränsning"
 
 #. :src: bpy.types.MaintainVolumeConstraint
 #, fuzzy
 msgid "Maintain a constant volume along a single scaling axis"
-msgstr "Håller en konstant volym längs en enda skalningsaxel"
+msgstr "Bevarar en konstant volym längs en enda skalningsaxel"
 
 #. :src: bpy.types.MaintainVolumeConstraint.free_axis
 #: scripts/startup/bl_ui/properties_constraint.py:483
@@ -19828,7 +19828,7 @@ msgstr "Den fria skalningsaxeln för objektet"
 #. :src: bpy.types.MaintainVolumeConstraint.mode
 #, fuzzy
 msgid "The way the constraint treats original non-free axis scaling"
-msgstr "Det sätt på vilket begränsningen behandlar original icke-fri axelskalning"
+msgstr "Hur begränsningen behandlar den ursprungliga skalningen av den icke-fria axeln"
 
 #. :src: bpy.types.MaintainVolumeConstraint.mode:'STRICT'
 msgid "Strict"
@@ -19851,7 +19851,7 @@ msgstr "Enhetlig"
 #. :src: bpy.types.MaintainVolumeConstraint.mode:'UNIFORM'
 #, fuzzy
 msgid "Volume is preserved when the object is scaled uniformly. Deviations from uniform scale on non-free axes are passed through."
-msgstr "Volymen bevaras när objektet skalas på ett enhetligt sätt. Avvikelser från enhetlig skala på icke-fria axlar passeras igenom."
+msgstr "Volymen bevaras när objektet skalas enhetligt. Avvikelser från enhetlig skala på icke-fria axlar påverkas inte."
 
 #. :src: bpy.types.MaintainVolumeConstraint.mode:'SINGLE_AXIS'
 #. :src: bpy.types.GeometryNodeScaleElements.scale_mode:'SINGLE_AXIS'
@@ -19862,7 +19862,7 @@ msgstr "Enkel axel"
 #. :src: bpy.types.MaintainVolumeConstraint.mode:'SINGLE_AXIS'
 #, fuzzy
 msgid "Volume is preserved when the object is scaled only on the free axis. Non-free axis scaling is passed through."
-msgstr "Volymen bevaras när objektet endast skalas på den fria axeln. Skalning på icke-fria axlar passerar igenom."
+msgstr "Volymen bevaras när objektet endast skalas på den fria axeln. Skalning på icke-fria axlar påverkas inte."
 
 #. :src: bpy.types.MaintainVolumeConstraint.volume
 #, fuzzy
@@ -19872,12 +19872,12 @@ msgstr "Benets volym i vila"
 #. :src: bpy.types.ObjectSolverConstraint
 #, fuzzy
 msgid "Object Solver Constraint"
-msgstr "Begränsning för objektlösare"
+msgstr "Objektlösarbegränsning"
 
 #. :src: bpy.types.ObjectSolverConstraint
 #, fuzzy
 msgid "Lock motion to the reconstructed object movement"
-msgstr "Låsa rörelsen till den rekonstruerade objektrörelsen"
+msgstr "Lås rörelsen till den rekonstruerade objektrörelsen"
 
 #. :src: bpy.types.ObjectSolverConstraint.object
 #, fuzzy
@@ -19887,7 +19887,7 @@ msgstr "Filmspårningsobjekt att följa"
 #. :src: bpy.types.PivotConstraint
 #, fuzzy
 msgid "Pivot Constraint"
-msgstr "Pivot-begränsning"
+msgstr "Vridpunktsbegränsning"
 
 #. :src: bpy.types.PivotConstraint
 #, fuzzy
@@ -19897,17 +19897,17 @@ msgstr "Rotera runt en annan punkt"
 #. :src: bpy.types.PivotConstraint.offset
 #, fuzzy
 msgid "Offset of pivot from target (when set), or from owner's location (when Fixed Position is off), or the absolute pivot point"
-msgstr "Svängpunktens förskjutning från målet (när den är inställd), eller från ägarens plats (när Fast position är av), eller den absoluta svängpunkten"
+msgstr "Vridpunktens förskjutning från målet (när det är angivet), från ägarens position (när Fast position är av) eller den absoluta vridpunkten"
 
 #. :src: bpy.types.PivotConstraint.rotation_range
 #, fuzzy
 msgid "Enabled Rotation Range"
-msgstr "Aktiverad Rotationsintervall"
+msgstr "Aktiverat rotationsintervall"
 
 #. :src: bpy.types.PivotConstraint.rotation_range
 #, fuzzy
 msgid "Rotation range on which pivoting should occur"
-msgstr "Rotationsområde inom vilket svängning ska ske"
+msgstr "Rotationsintervall inom vilket vridpunkten ska användas"
 
 #. :src: bpy.types.PivotConstraint.rotation_range:'ALWAYS_ACTIVE'
 #, fuzzy
@@ -19922,7 +19922,7 @@ msgstr "-X Rotation"
 #. :src: bpy.types.PivotConstraint.rotation_range:'NX'
 #, fuzzy
 msgid "Use the pivot point in the negative rotation range around the X-axis"
-msgstr "Använd pivotpunkten i det negativa rotationsområdet runt X-axeln"
+msgstr "Använd vridpunkten i det negativa rotationsintervallet runt X-axeln"
 
 #. :src: bpy.types.PivotConstraint.rotation_range:'NY'
 #, fuzzy
@@ -19932,7 +19932,7 @@ msgstr "-Y-rotation"
 #. :src: bpy.types.PivotConstraint.rotation_range:'NY'
 #, fuzzy
 msgid "Use the pivot point in the negative rotation range around the Y-axis"
-msgstr "Använd pivotpunkten i det negativa rotationsområdet runt Y-axeln"
+msgstr "Använd vridpunkten i det negativa rotationsintervallet runt Y-axeln"
 
 #. :src: bpy.types.PivotConstraint.rotation_range:'NZ'
 #, fuzzy
@@ -19942,27 +19942,27 @@ msgstr "-Z Rotation"
 #. :src: bpy.types.PivotConstraint.rotation_range:'NZ'
 #, fuzzy
 msgid "Use the pivot point in the negative rotation range around the Z-axis"
-msgstr "Använd pivotpunkten i det negativa rotationsområdet runt Z-axeln"
+msgstr "Använd vridpunkten i det negativa rotationsintervallet runt Z-axeln"
 
 #. :src: bpy.types.PivotConstraint.rotation_range:'X'
 #, fuzzy
 msgid "Use the pivot point in the positive rotation range around the X-axis"
-msgstr "Använd pivotpunkten i det positiva rotationsområdet runt X-axeln"
+msgstr "Använd vridpunkten i det positiva rotationsintervallet runt X-axeln"
 
 #. :src: bpy.types.PivotConstraint.rotation_range:'Y'
 #, fuzzy
 msgid "Use the pivot point in the positive rotation range around the Y-axis"
-msgstr "Använd pivotpunkten i det positiva rotationsområdet runt Y-axeln"
+msgstr "Använd vridpunkten i det positiva rotationsintervallet runt Y-axeln"
 
 #. :src: bpy.types.PivotConstraint.rotation_range:'Z'
 #, fuzzy
 msgid "Use the pivot point in the positive rotation range around the Z-axis"
-msgstr "Använd pivotpunkten i det positiva rotationsområdet runt Z-axeln"
+msgstr "Använd vridpunkten i det positiva rotationsintervallet runt Z-axeln"
 
 #. :src: bpy.types.PivotConstraint.target
 #, fuzzy
 msgid "Target Object, defining the position of the pivot when defined"
-msgstr "Target Object, definierar pivotens position när den definieras"
+msgstr "Målobjekt som anger vridpunktens position när det är angivet"
 
 #. :src: bpy.types.PivotConstraint.use_relative_location
 msgid "Use Relative Offset"
@@ -19971,7 +19971,7 @@ msgstr "Använd relativ förskjutning"
 #. :src: bpy.types.PivotConstraint.use_relative_location
 #, fuzzy
 msgid "Offset will be an absolute point in space instead of relative to the target"
-msgstr "Offset blir en absolut punkt i rymden i stället för relativt målet"
+msgstr "Förskjutningen blir en absolut punkt i rymden i stället för att vara relativ till målet"
 
 #. :src: bpy.types.ShrinkwrapConstraint
 #, fuzzy
@@ -19988,21 +19988,21 @@ msgstr "Skapa en begränsningsbaserad Shrinkwrap-relation"
 #. :src: bpy.types.ShrinkwrapModifier.cull_face
 #, fuzzy
 msgid "Face Cull"
-msgstr "Face Cull"
+msgstr "Ytborttagning"
 
 #. :src: bpy.types.ShrinkwrapConstraint.cull_face
 #. :src: bpy.types.GreasePencilShrinkwrapModifier.cull_face
 #. :src: bpy.types.ShrinkwrapModifier.cull_face
 #, fuzzy
 msgid "Stop vertices from projecting to a face on the target when facing towards/away"
-msgstr "Stoppa toppar från att projicera till en yta på målet när de är vända mot/från"
+msgstr "Förhindra att hörnpunkter projiceras mot en yta på målet när de är vända mot eller från den"
 
 #. :src: bpy.types.ShrinkwrapConstraint.cull_face:'OFF'
 #. :src: bpy.types.GreasePencilShrinkwrapModifier.cull_face:'OFF'
 #. :src: bpy.types.ShrinkwrapModifier.cull_face:'OFF'
 #, fuzzy
 msgid "No culling"
-msgstr "Ingen utslaktning"
+msgstr "Ingen borttagning"
 
 #. :src: bpy.types.ShrinkwrapConstraint.cull_face:'FRONT'
 #. :src: bpy.types.FluidDomainSettings.use_collision_border_front
@@ -20020,7 +20020,7 @@ msgstr "Fram"
 #. :src: bpy.types.ShrinkwrapModifier.cull_face:'FRONT'
 #, fuzzy
 msgid "No projection when in front of the face"
-msgstr "Ingen projektion när den är framför ansiktet"
+msgstr "Ingen projektion när punkten är framför ytan"
 
 #. :src: bpy.types.ShrinkwrapConstraint.cull_face:'BACK'
 #. :src: bpy.types.FluidDomainSettings.use_collision_border_back
@@ -20036,7 +20036,7 @@ msgstr "Bak"
 #. :src: bpy.types.ShrinkwrapModifier.cull_face:'BACK'
 #, fuzzy
 msgid "No projection when behind the face"
-msgstr "Ingen projektion bakom ansiktet"
+msgstr "Ingen projektion när punkten är bakom ytan"
 
 #. :src: bpy.types.ShrinkwrapConstraint.distance
 #, fuzzy
@@ -20057,12 +20057,12 @@ msgstr "Axel att begränsa till"
 #. :src: bpy.types.ShrinkwrapConstraint.project_axis_space
 #, fuzzy
 msgid "Axis Space"
-msgstr "Axis Space"
+msgstr "Axelrymd"
 
 #. :src: bpy.types.ShrinkwrapConstraint.project_axis_space
 #, fuzzy
 msgid "Space for the projection axis"
-msgstr "Utrymme för projektionsaxeln"
+msgstr "Koordinatrymd för projektionsaxeln"
 
 #. :src: bpy.types.ShrinkwrapConstraint.project_limit
 msgid "Project Distance"
@@ -20142,7 +20142,7 @@ msgstr "Anpassa positionen till närmaste målyta längs målets interpolerade h
 #. :src: bpy.types.ShrinkwrapConstraint.target
 #, fuzzy
 msgid "Target Mesh object"
-msgstr "Mål Mesh-objekt"
+msgstr "Målmesh-objekt"
 
 #. :src: bpy.types.ShrinkwrapConstraint.track_axis
 #, fuzzy
@@ -20154,12 +20154,12 @@ msgstr "Axel som är i linje med normalen"
 #. :src: bpy.types.ShrinkwrapModifier.use_invert_cull
 #, fuzzy
 msgid "Invert Cull"
-msgstr "Invertera Cull"
+msgstr "Invertera ytborttagning"
 
 #. :src: bpy.types.ShrinkwrapConstraint.use_invert_cull
 #, fuzzy
 msgid "When projecting in the opposite direction invert the face cull mode"
-msgstr "När du projicerar i motsatt riktning vänder du på face cull-läget"
+msgstr "Vid projektion i motsatt riktning inverteras ytborttagningsläget"
 
 #. :src: bpy.types.ShrinkwrapConstraint.use_project_opposite
 #, fuzzy
@@ -20189,7 +20189,7 @@ msgstr "Rikta in den angivna axeln mot ytnormalen"
 #: scripts/startup/bl_ui/properties_constraint.py:701
 #, fuzzy
 msgid "Snap Mode"
-msgstr "Snap-läge"
+msgstr "Fästläge"
 
 #. :src: bpy.types.ShrinkwrapConstraint.wrap_mode
 #, fuzzy
@@ -20260,7 +20260,7 @@ msgstr "Variation i volym"
 #. :src: bpy.types.StretchToConstraint.bulge
 #, fuzzy
 msgid "Factor between volume variation and stretching"
-msgstr "Faktor mellan volymvariation och stretching"
+msgstr "Faktor mellan volymvariation och sträckning"
 
 #. :src: bpy.types.SplineIKConstraint.bulge_max
 #. :src: bpy.types.StretchToConstraint.bulge_max
@@ -20296,7 +20296,7 @@ msgstr "Jämnhet för volymvariation"
 #. :src: bpy.types.StretchToConstraint.bulge_smooth
 #, fuzzy
 msgid "Strength of volume stretching clamping"
-msgstr "Hållfasthet för volymsträckning klämning"
+msgstr "Styrka för begränsning av volymsträckning"
 
 #. :src: bpy.types.SplineIKConstraint.chain_count
 #, fuzzy

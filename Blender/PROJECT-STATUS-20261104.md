@@ -2012,3 +2012,14 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 ordföljdsvarningar från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 227 granskar 41 poster för IK, rotationsintervall, vridpunkter,
+Shrinkwrap och Spline-IK. Den ersätter felaktiga allmänord och oöversatta
+etiketter med bland annat *IK-sträckning*, *benspets*, *vridpunktsbegränsning*,
+*ytborttagning*, *axelrymd* och *fästläge*. Samtliga granskade poster har fått
+sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-227-constraints-ik-shrinkwrap.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast facktermer samt konstgjorda längd- och
+ordföljdsvarningar från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+
