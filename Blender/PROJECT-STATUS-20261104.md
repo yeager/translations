@@ -1797,3 +1797,12 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 `svlang` rapporterar enbart en konstgjord längd- och V2-varning från
 sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell import.
 
+Batch 208 granskar elva poster för bensamlingar, urvalsuppsättningar och
+Rigify-paneler. Den ersätter den felaktiga tekniska betydelsen *matris* med
+*fält* för Blenders interna array av bensamlingar och förkortar den långa
+hjälptexten utan informationsförlust. Samtliga granskade poster har fått
+sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-208-bone-collections.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+ger 10/10. Filen är arkiverad och väntar på manuell import.
+

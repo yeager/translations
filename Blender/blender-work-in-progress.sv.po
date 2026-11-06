@@ -10721,7 +10721,6 @@ msgstr "Den här samlingens index i den överordnade samlingens lista över unde
 #: source/blender/nodes/geometry/nodes/node_geo_sample_nearest.cc:61
 #: source/blender/nodes/geometry/nodes/node_geo_tool_active_element.cc:18
 #: source/blender/nodes/shader/nodes/node_shader_particle_info.cc:10
-#, fuzzy
 msgid "Index"
 msgstr "Index"
 
@@ -10751,7 +10750,6 @@ msgstr "Den här samlingen har lagts till via en biblioteksåsidosättning i den
 
 #. :src: bpy.types.BoneCollection.is_solo
 #. :src: bpy.types.NlaTrack.is_solo
-#, fuzzy
 msgid "Solo"
 msgstr "Solo"
 
@@ -10783,7 +10781,6 @@ msgid "True when all of the ancestors of this bone collection are marked as visi
 msgstr "Sant när alla överordnade samlingar till den här bensamlingen är markerade som synliga; alltid sant för rotbensamlingar"
 
 #. :src: bpy.types.BoneCollection.is_visible_effectively
-#, fuzzy
 msgid "Effective Visibility"
 msgstr "Effektiv synlighet"
 
@@ -10792,7 +10789,6 @@ msgid "Whether this bone collection is effectively visible in the viewport. This
 msgstr "Anger om den här bensamlingen är effektivt synlig i vyporten. Detta är sant när bensamlingen och alla överordnade samlingar är synliga eller när den är markerad som ”solo”."
 
 #. :src: bpy.types.BoneCollection.name
-#, fuzzy
 msgid "Unique within the Armature"
 msgstr "Unik inom armaturen"
 
@@ -10805,12 +10801,10 @@ msgid "Color Set ID"
 msgstr "ID för färguppsättning"
 
 #. :src: bpy.types.BoneCollection.rigify_color_set_name
-#, fuzzy
 msgid "Color set specifying bone colors for this group"
 msgstr "Färguppsättning som anger benfärger för denna grupp"
 
 #. :src: bpy.types.BoneCollection.rigify_sel_set
-#, fuzzy
 msgid "Add Selection Set"
 msgstr "Lägg till urvalsuppsättning"
 
@@ -10832,18 +10826,15 @@ msgid "UI Title"
 msgstr "UI-titel"
 
 #. :src: bpy.types.BoneCollection.rigify_ui_title
-#, fuzzy
 msgid "Text to use on the UI panel button instead of the collection name"
 msgstr "Text som ska användas på UI-panelens knapp i stället för samlingens namn"
 
 #. :src: bpy.types.BoneCollection.rigify_ui_title_name
-#, fuzzy
 msgid "Text to use on the UI panel button (does not edit the collection name)"
 msgstr "Text som ska användas på UI-panelens knapp (redigerar inte samlingens namn)"
 
 #. :src: bpy.types.BoneCollection.rigify_uid
 #. :src: bpy.types.RigifyBoneCollectionReference.uid
-#, fuzzy
 msgid "Unique ID"
 msgstr "Unikt ID"
 
@@ -10852,7 +10843,6 @@ msgid "Bone Collection Memberships"
 msgstr "Medlemskap i bensamlingar"
 
 #. :src: bpy.types.BoneCollectionMemberships
-#, fuzzy
 msgid "The Bone Collections that contain this Bone"
 msgstr "De bensamlingar som innehåller detta ben"
 
@@ -10883,9 +10873,8 @@ msgid "Active Collection Index"
 msgstr "Index för aktiv bensamling"
 
 #. :src: bpy.types.BoneCollections.active_index
-#, fuzzy
 msgid "The index of the Armature's active bone collection; -1 when there is no active collection. Note that this is indexing the underlying array of bone collections, which may not be in the order you expect. Root collections are listed first, and siblings are always sequential. Apart from that, bone collections can be in any order, and thus incrementing or decrementing this index can make the active bone collection jump around in unexpected ways. For a more predictable interface, use ``active`` or ``active_name``."
-msgstr "Indexet för armaturens aktiva bensamling; -1 när det inte finns någon aktiv samling. Observera att detta indexerar den underliggande matrisen med bensamlingar, som kanske inte är i den ordning du förväntar dig. Rotsamlingar listas först, och syskon är alltid sekventiella. Bortsett från det kan bensamlingar vara i vilken ordning som helst, och därför kan inkrementering eller dekrementering av detta index göra att den aktiva bensamlingen hoppar runt på oväntade sätt. För ett mer förutsägbart gränssnitt, använd ``active`` eller ``active_name``."
+msgstr "Indexet för armaturens aktiva bensamling; -1 när ingen samling är aktiv. Observera att detta index avser det underliggande fältet med bensamlingar, som kanske inte har den ordning du förväntar dig. Rotsamlingar listas först och syskon följer alltid direkt efter varandra. I övrigt kan bensamlingar ha valfri ordning, så om indexet ökas eller minskas kan den aktiva bensamlingen hoppa på oväntade sätt. Använd ``active`` eller ``active_name`` för ett mer förutsägbart gränssnitt."
 
 #. :src: bpy.types.BoneCollections.active_name
 msgid "Active Collection Name"
