@@ -422,6 +422,8 @@ Senast uppdaterad: 2026-11-06.
 | persistence | beständighet | Pensel- eller simuleringsfunktion som bevarar ett tillstånd över tid. |
 | brush stroke | penseldrag | Ett sammanhängande drag med penseln. Skilj från Grease Pencil-*streck*, som är det ritade resultatet. |
 | brush dab | penselavtryck | Enskilt delavtryck i ett penseldrag. |
+| Slide Relax | glidutjämning | Skulpteringspensel som glider längs ytan samtidigt som den jämnar ut topologin. |
+| Multires Displacement Eraser / Smear | Raderare för Multires-förskjutning / Smeta ut Multires-förskjutning | Skulpteringspenslar för Multires-förskjutning. |
 | brush falloff | penselns avtagande | Hur penselns påverkan minskar med avståndet från centrum eller gräns. |
 | area radius | områdesradie | Förhållande mellan penselradien och radien som används för att provta områdesplanets djup. |
 | propagation steps | spridningssteg | Utökar automaskeringens mjuka gradient stegvis från en mesh- eller ansiktsgräns. |

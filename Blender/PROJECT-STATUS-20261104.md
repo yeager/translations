@@ -2537,3 +2537,15 @@ nya översättningar fel. Samtliga granskade poster får sina
 Filen kontrolleras med `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
 Gitleaks före arkivering. Filen väntar därefter på manuell import.
 
+Batch 274 granskar 23 strängar för skulpteringspenslarnas verktygsnamn,
+penselavtryck och schabloninställningar. Den översätter bland annat
+*Slide Relax*, *Blob*, *Multires Displacement Eraser* och *Multires
+Displacement Smear* konsekvent. Den rättar också felöversättningen
+*buskar* till *penselavtryck* och använder *ytuppsättningar* i Face Set-
+verktyget. Terminologilistan har kompletterats med glidutjämning och
+Multires-penslarna. Samtliga granskade poster får sina
+`fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-274-sculpt-brushes-and-stencils.po`.
+Filen kontrolleras med `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
+Gitleaks före arkivering. Filen väntar därefter på manuell import.
+
