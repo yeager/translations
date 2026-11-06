@@ -2677,3 +2677,17 @@ passerar `msgfmt`. För Weblate används i stället sex lokala importdelar med
 högst 1 000 poster: fem delar om 1 000 och en slutdel om 646. Detta följer
 den etablerade gränsen för att undvika att serverns import låser sig.
 
+Batch 284 granskar 21 strängar för Freestyle-linjers ändlock,
+streckmönster och kedjedelning. Blenders Freestyle-dokumentation beskriver
+`Butt` som ett platt ändlock som slutar exakt vid streckets ändpunkt och
+beskriver Dash/Gap som streck och mellanrum i både streckning och
+delningsmönster. Därför ersätts det oöversatta *Butt*, engelska
+*Split Dash/Gap* och inkonsekventa former som *gapet*, *luckan* och
+*klyvning*. Terminologilistan har kompletterats med *stumt ändlock*,
+*delningsstreck* och *delningsmellanrum*. Samtliga granskade poster får sina
+`fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-284-freestyle-strokes-and-splitting.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
+`svlang` markeringar rapporteras separat. Gitleaks körs före arkivering.
+Filen väntar därefter på manuell import.
+
