@@ -2089,3 +2089,12 @@ bland annat *kantutjämning*, *upplösning*, *våthet*, *utdata*, *utjämning*,
 rapporterar endast etablerade facktermer och en konstgjord längdvarning från
 sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell import.
 
+Batch 234 granskar 10 poster för armaturernas redigeringsben. Den normaliserar
+*benhuvud*, *benspets*, *rullning*, *längdaxel*, *armaturens rymd* och
+*transformeras*. Terminologilistan rättas så att benens ändpunkter inte längre
+blandas ihop med *svans* eller *stjärtände*. Samtliga granskade poster har
+fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-234-edit-bones.po` passerar `msgfmt`,
+l10n-lint, riktad Hunspell, diffkontroll, Gitleaks och `svlang`. Filen är
+arkiverad och väntar på manuell import.
+

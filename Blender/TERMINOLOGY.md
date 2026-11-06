@@ -24,7 +24,6 @@ Senast uppdaterad: 2026-11-06.
 | screen space | skärmrymd | Koordinatrymd baserad på den aktuella vyportens skärmplan. |
 | onion skinning | lökskalning | Animeringsvisning med spökbilder från närliggande bildrutor. Undvik bokstavliga former som *avskalning av lök*. |
 | Bake Location (motion paths) | beräkningsposition | Valet av benhuvud eller benspets när rörelsebanor beräknas. |
-| bone head / tail | benhuvud / benspets | Blenders ändpunkter för ett ben i armatur- och rörelsebanekontext. |
 | scope name | scope-namn | Behåll den tekniska källtermen i GPU-felsökningens fångstalternativ. Det är namnet som skickas till `--debug-gpu-scope-capture`, inte Blenders bildanalysvy *Scopes*. |
 | Resolution Scale | upplösningsskala | Etablerad UI-term för skalan av teckensnitt och knappar vid visning. |
 | File Browser | filbläddrare | UI-beteckning för den editor som öppnar och sparar filer. Anpassa bestämd form i löpande text. |
@@ -366,8 +365,8 @@ Senast uppdaterad: 2026-11-06.
 | armature-relative | relativt riggskelett | Position eller orientering uttryckt i armaturens lokala koordinatsystem. |
 | inherit scale | ärv skala | Armaturinställning som styr hur ett underordnat ben tar emot skalning från ett överordnat ben. |
 | shear | skjuvning | Skev transformationskomponent i armatur- och matrisinställningar; använd inte vardagliga *saxning*. |
-| bone tail | svans | Änden på ett Blender-ben i dataegenskaper. I vissa constraints används däremot den etablerade räknade formen *spets*. |
-| connected bone | anslutet ben | Ett underordnat bens huvud är fast vid det överordnade benets svans. |
+| bone head / tail | benhuvud / benspets | Blenders ändpunkter för ett ben i armatur- och rörelsebanekontext. Använd formerna konsekvent även i dataegenskaper; skriv inte *svans* eller *stjärtände*. |
+| connected bone | anslutet ben | Ett underordnat bens huvud är fast vid det överordnade benets spets. |
 | envelope influence | kuvertets påverkan | Påverkan från ett bens Envelope-volym vid armaturdeformering. |
 | relative parenting | relativ överordning | Armaturinställning som låter underordnade objekt använda relativ transformering. |
 | scale easing | skalutjämning | B-Bone-inställning som skalar de slutliga utjämningsvärdena med Y-faktorerna för Skala in/ut. |
