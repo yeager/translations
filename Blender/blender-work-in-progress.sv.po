@@ -25737,7 +25737,6 @@ msgid "Gap between successive frequencies. Depth needs to be greater than 0 for 
 msgstr "Avstånd mellan på varandra följande frekvenser. Djupet måste vara större än 0 för att detta ska ha någon effekt"
 
 #. :src: bpy.types.FModifierNoise.offset
-#, fuzzy
 msgid "Time offset for the noise effect"
 msgstr "Tidsförskjutning för bruseffekten"
 
@@ -25748,14 +25747,12 @@ msgstr "Tidsförskjutning för bruseffekten"
 #. :src: bpy.types.ShaderFxShadow.phase
 #. :src: bpy.types.ShaderFxWave.phase
 #: source/blender/nodes/shader/nodes/node_shader_tex_gabor.cc:56
-#, fuzzy
 msgid "Phase"
 msgstr "Fas"
 
 #. :src: bpy.types.FModifierNoise.phase
-#, fuzzy
 msgid "A random seed for the noise effect"
-msgstr "Ett slumpmässigt frö för bruseffekten"
+msgstr "Ett slumpfrö för bruseffekten"
 
 #. :src: bpy.types.FModifierNoise.roughness
 #. :src: bpy.types.Material.roughness
@@ -25811,94 +25808,77 @@ msgstr "Skalning (i tid) av bruset"
 #: source/blender/nodes/shader/nodes/node_shader_ies_light.cc:17
 #: source/blender/nodes/shader/nodes/node_shader_light_falloff.cc:10
 #: source/blender/nodes/shader/nodes/node_shader_normal_map.cc:22
-#, fuzzy
 msgctxt "Amount"
 msgid "Strength"
 msgstr "Styrka"
 
 #. :src: bpy.types.FModifierNoise.strength
-#, fuzzy
 msgid "Amplitude of the noise - the amount that it modifies the underlying curve"
-msgstr "Brusets amplitud - hur mycket det förändrar den underliggande kurvan"
+msgstr "Brusets amplitud, det vill säga hur mycket det förändrar den underliggande kurvan"
 
 #. :src: bpy.types.FModifierNoise.use_legacy_noise
-#, fuzzy
 msgid "Legacy Noise"
 msgstr "Äldre brus"
 
 #. :src: bpy.types.FModifierNoise.use_legacy_noise
-#, fuzzy
 msgid "Use the legacy way of generating noise. Has the issue that it can produce values outside of -1/1"
-msgstr "Använd den äldre metoden för att generera brus. Den kan skapa värden utanför -1/1"
+msgstr "Använd den äldre metoden för att generera brus. Den kan skapa värden utanför intervallet −1 till 1"
 
 #. :src: bpy.types.FModifierStepped
-#, fuzzy
 msgid "Stepped Interpolation F-Modifier"
 msgstr "Modifierare för stegad interpolation"
 
 #. :src: bpy.types.FModifierStepped
-#, fuzzy
 msgid "Hold each interpolated value from the F-Curve for several frames without changing the timing"
 msgstr "Behåll varje interpolerat värde från F-kurvan i flera bildrutor utan att ändra tidpunkterna"
 
 #. :src: bpy.types.FModifierStepped.frame_end
-#, fuzzy
 msgid "Frame that modifier's influence ends (if applicable)"
-msgstr "Bildruta där modifierarens påverkan upphör (om tillämpligt)"
+msgstr "Bildrutan där modifierarens påverkan upphör (om tillämpligt)"
 
 #. :src: bpy.types.FModifierStepped.frame_offset
-#, fuzzy
 msgid "Reference number of frames before frames get held (use to get hold for '1-3' vs '5-7' holding patterns)"
-msgstr "Referensnummer för bildrutor innan bildrutor hålls (används för att hålla för \"1-3\" vs \"5-7\" hållmönster)"
+msgstr "Antal bildrutor före den första hållna bildrutan (använd för hållmönstren ”1–3” respektive ”5–7”)"
 
 #. :src: bpy.types.FModifierStepped.frame_start
-#, fuzzy
 msgid "Frame that modifier's influence starts (if applicable)"
-msgstr "Bildruta där modifierarens påverkan börjar (om tillämpligt)"
+msgstr "Bildrutan där modifierarens påverkan börjar (om tillämpligt)"
 
 #. :src: bpy.types.FModifierStepped.frame_step
 #. :src: bpy.types.CyclesWorldSettings.volume_step_size
 #. :src: bpy.types.VolumeRender.step_size
 #: scripts/addons_core/hydra_storm/ui.py:82
 #: scripts/addons_core/hydra_storm/ui.py:99
-#, fuzzy
 msgid "Step Size"
 msgstr "Stegstorlek"
 
 #. :src: bpy.types.FModifierStepped.frame_step
-#, fuzzy
 msgid "Number of frames to hold each value"
 msgstr "Antal bildrutor för att hålla varje värde"
 
 #. :src: bpy.types.FModifierStepped.use_frame_end
-#, fuzzy
 msgid "Use End Frame"
 msgstr "Använd slutbildruta"
 
 #. :src: bpy.types.FModifierStepped.use_frame_end
-#, fuzzy
 msgid "Restrict modifier to only act before its 'end' frame"
 msgstr "Begränsa modifieraren så att den endast verkar före sin slutbildruta"
 
 #. :src: bpy.types.FModifierStepped.use_frame_start
-#, fuzzy
 msgid "Use Start Frame"
 msgstr "Använd startbildruta"
 
 #. :src: bpy.types.FModifierStepped.use_frame_start
-#, fuzzy
 msgid "Restrict modifier to only act after its 'start' frame"
 msgstr "Begränsa modifieraren så att den endast verkar efter sin startbildruta"
 
 #. :src: bpy.types.FModifierEnvelopeControlPoint
-#, fuzzy
 msgid "Envelope Control Point"
 msgstr "Kontrollpunkt för kuvert"
 
 #. :src: bpy.types.FModifierEnvelopeControlPoint
-#, fuzzy
 msgid "Control point for envelope F-Modifier"
-msgstr "Styrpunkt för kuvert F-Modifierare"
+msgstr "Kontrollpunkt för kuvert-F-kurvmodifierare"
 
 #. :src: bpy.types.FModifierEnvelopeControlPoint.frame
 #. :src: bpy.types.CacheFile.frame
@@ -25929,17 +25909,14 @@ msgid "Frame"
 msgstr "Bildruta"
 
 #. :src: bpy.types.FModifierEnvelopeControlPoint.frame
-#, fuzzy
 msgid "Frame this control-point occurs on"
 msgstr "Bildruta där den här kontrollpunkten ligger"
 
 #. :src: bpy.types.FModifierEnvelopeControlPoint.max
-#, fuzzy
 msgid "Upper bound of envelope at this control-point"
 msgstr "Övre gräns för kuvertet vid denna kontrollpunkt"
 
 #. :src: bpy.types.FModifierEnvelopeControlPoint.min
-#, fuzzy
 msgid "Lower bound of envelope at this control-point"
 msgstr "Nedre gränsen för kuvertet vid denna kontrollpunkt"
 

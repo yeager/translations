@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-405.po`
-med 1 503 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-406.po`
+med 1 526 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3353,4 +3353,12 @@ koefficienter och polynom. Den använder bland annat *fasmultiplikator*,
 *generatormodifierare* och *begränsningsmodifierare*. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-405-fcurve-function-and-generator.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 406 granskar 24 poster för brusmodifierarens och den stegade
+interpolationens parametrar, samt kuvertmodifierarens kontrollpunkt. Den
+använder bland annat *slumpfrö*, *stegstorlek* och *kuvert-F-kurvmodifierare*.
+De bredare, delade termerna *roughness* och *lacunarity* lämnas avsiktligt till
+en senare tvärgående kontextgranskning. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-406-fcurve-noise-and-stepped.po` är
+lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 

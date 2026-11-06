@@ -1,0 +1,163 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.FModifierNoise.offset
+msgid "Time offset for the noise effect"
+msgstr "Tidsförskjutning för bruseffekten"
+
+#. :src: bpy.types.FModifierNoise.phase
+#. :src: bpy.types.ParticleSettings.phase_factor
+#. :src: bpy.types.LineStyleGeometryModifier_SinusDisplacement.phase
+#. :src: bpy.types.ShaderNodeVolumeScatter.phase
+#. :src: bpy.types.ShaderFxShadow.phase
+#. :src: bpy.types.ShaderFxWave.phase
+#: source/blender/nodes/shader/nodes/node_shader_tex_gabor.cc:56
+msgid "Phase"
+msgstr "Fas"
+
+#. :src: bpy.types.FModifierNoise.phase
+msgid "A random seed for the noise effect"
+msgstr "Ett slumpfrö för bruseffekten"
+
+#. :src: bpy.types.FModifierNoise.strength
+#. :src: bpy.types.FluidDomainSettings.noise_strength
+#. :src: bpy.types.FluidDomainSettings.viscosity_value
+#. :src: bpy.types.DisplaceModifier.strength
+#. :src: bpy.types.SCULPT_OT_cloth_filter.strength
+#. :src: bpy.types.SCULPT_OT_color_filter.strength
+#. :src: bpy.types.SCULPT_OT_face_set_edit.strength
+#. :src: bpy.types.SCULPT_OT_mesh_filter.strength
+#. :src: bpy.types.ParticleBrush.strength
+#. :src: bpy.types.UvSculpt.strength
+#. :src: bpy.types.View3DShading.studiolight_intensity
+#: scripts/startup/bl_ui/properties_physics_dynamicpaint.py:914
+#: scripts/startup/bl_ui/properties_physics_fluid.py:768
+#: scripts/startup/bl_ui/properties_physics_fluid.py:1139
+#: source/blender/nodes/shader/nodes/node_shader_background.cc:13
+#: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:266
+#: source/blender/nodes/shader/nodes/node_shader_bump.cc:20
+#: source/blender/nodes/shader/nodes/node_shader_emission.cc:11
+#: source/blender/nodes/shader/nodes/node_shader_ies_light.cc:17
+#: source/blender/nodes/shader/nodes/node_shader_light_falloff.cc:10
+#: source/blender/nodes/shader/nodes/node_shader_normal_map.cc:22
+msgctxt "Amount"
+msgid "Strength"
+msgstr "Styrka"
+
+#. :src: bpy.types.FModifierNoise.strength
+msgid ""
+"Amplitude of the noise - the amount that it modifies the underlying curve"
+msgstr ""
+"Brusets amplitud, det vill säga hur mycket det förändrar den underliggande "
+"kurvan"
+
+#. :src: bpy.types.FModifierNoise.use_legacy_noise
+msgid "Legacy Noise"
+msgstr "Äldre brus"
+
+#. :src: bpy.types.FModifierNoise.use_legacy_noise
+msgid ""
+"Use the legacy way of generating noise. Has the issue that it can produce "
+"values outside of -1/1"
+msgstr ""
+"Använd den äldre metoden för att generera brus. Den kan skapa värden utanför "
+"intervallet −1 till 1"
+
+#. :src: bpy.types.FModifierStepped
+msgid "Stepped Interpolation F-Modifier"
+msgstr "Modifierare för stegad interpolation"
+
+#. :src: bpy.types.FModifierStepped
+msgid ""
+"Hold each interpolated value from the F-Curve for several frames without "
+"changing the timing"
+msgstr ""
+"Behåll varje interpolerat värde från F-kurvan i flera bildrutor utan att "
+"ändra tidpunkterna"
+
+#. :src: bpy.types.FModifierStepped.frame_end
+msgid "Frame that modifier's influence ends (if applicable)"
+msgstr "Bildrutan där modifierarens påverkan upphör (om tillämpligt)"
+
+#. :src: bpy.types.FModifierStepped.frame_offset
+msgid ""
+"Reference number of frames before frames get held (use to get hold for '1-3' "
+"vs '5-7' holding patterns)"
+msgstr ""
+"Antal bildrutor före den första hållna bildrutan (använd för hållmönstren ”1–"
+"3” respektive ”5–7”)"
+
+#. :src: bpy.types.FModifierStepped.frame_start
+msgid "Frame that modifier's influence starts (if applicable)"
+msgstr "Bildrutan där modifierarens påverkan börjar (om tillämpligt)"
+
+#. :src: bpy.types.FModifierStepped.frame_step
+#. :src: bpy.types.CyclesWorldSettings.volume_step_size
+#. :src: bpy.types.VolumeRender.step_size
+#: scripts/addons_core/hydra_storm/ui.py:82
+#: scripts/addons_core/hydra_storm/ui.py:99
+msgid "Step Size"
+msgstr "Stegstorlek"
+
+#. :src: bpy.types.FModifierStepped.frame_step
+msgid "Number of frames to hold each value"
+msgstr "Antal bildrutor för att hålla varje värde"
+
+#. :src: bpy.types.FModifierStepped.use_frame_end
+msgid "Use End Frame"
+msgstr "Använd slutbildruta"
+
+#. :src: bpy.types.FModifierStepped.use_frame_end
+msgid "Restrict modifier to only act before its 'end' frame"
+msgstr "Begränsa modifieraren så att den endast verkar före sin slutbildruta"
+
+#. :src: bpy.types.FModifierStepped.use_frame_start
+msgid "Use Start Frame"
+msgstr "Använd startbildruta"
+
+#. :src: bpy.types.FModifierStepped.use_frame_start
+msgid "Restrict modifier to only act after its 'start' frame"
+msgstr "Begränsa modifieraren så att den endast verkar efter sin startbildruta"
+
+#. :src: bpy.types.FModifierEnvelopeControlPoint
+msgid "Envelope Control Point"
+msgstr "Kontrollpunkt för kuvert"
+
+#. :src: bpy.types.FModifierEnvelopeControlPoint
+msgid "Control point for envelope F-Modifier"
+msgstr "Kontrollpunkt för kuvert-F-kurvmodifierare"
+
+#. :src: bpy.types.FModifierEnvelopeControlPoint.frame
+msgid "Frame this control-point occurs on"
+msgstr "Bildruta där den här kontrollpunkten ligger"
+
+#. :src: bpy.types.FModifierEnvelopeControlPoint.max
+msgid "Upper bound of envelope at this control-point"
+msgstr "Övre gräns för kuvertet vid denna kontrollpunkt"
+
+#. :src: bpy.types.FModifierEnvelopeControlPoint.min
+msgid "Lower bound of envelope at this control-point"
+msgstr "Nedre gränsen för kuvertet vid denna kontrollpunkt"
