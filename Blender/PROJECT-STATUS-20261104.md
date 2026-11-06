@@ -17,11 +17,11 @@ hårnoder samt 300 för tilläggskategorier och 301 för språk- och
 resurskataloger samt 302 för filsparande och tilläggsarkiv, och ingår därför
 inte i de redan inskickade sex delarna. Batch 303 för Principled BSDF:s
 materialetiketter, batch 304 för grundläggande begränsningar, batch 305 för
-Action-begränningen och batch 306 för dess blandningslägen ingår också endast
-lokalt.
+Action-begränningen, batch 306 för dess blandningslägen och batch 307 för
+armaturbegränsningen ingår också endast lokalt.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-306.po`
-med 378 poster, som omfattar alla färdiga batcher efter sexdelsimporten. Den
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-307.po`
+med 388 poster, som omfattar alla färdiga batcher efter sexdelsimporten. Den
 ersätter tidigare samlingsfiler för detta intervall, är redo för manuell import
 och har inte skickats in eller verifierats i Weblate.
 
