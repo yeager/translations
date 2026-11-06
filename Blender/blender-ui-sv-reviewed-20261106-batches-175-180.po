@@ -83,10 +83,22 @@ msgstr "Friktion för mål (hörnpunktens målposition)"
 msgid "Goal Maximum"
 msgstr "Målmaximum"
 
+#. :src: bpy.types.ClothSettings.goal_max
+msgid "Goal maximum, vertex group weights are scaled to match this range"
+msgstr ""
+"Målmaximum; hörnpunktsgruppens vikter skalas så att de motsvarar detta "
+"intervall"
+
 #. :src: bpy.types.ClothSettings.goal_min
 #. :src: bpy.types.SoftBodySettings.goal_min
 msgid "Goal Minimum"
 msgstr "Målminimum"
+
+#. :src: bpy.types.ClothSettings.goal_min
+msgid "Goal minimum, vertex group weights are scaled to match this range"
+msgstr ""
+"Målminimum; hörnpunktsgruppens vikter skalas så att de motsvarar detta "
+"intervall"
 
 #. :src: bpy.types.ClothSettings.goal_spring
 #. :src: bpy.types.SoftBodySettings.goal_spring
@@ -291,97 +303,144 @@ msgstr "Dopeblad"
 msgid "Dope Sheet view for tracking data"
 msgstr "Dopebladsvy för spårningsdata"
 
-#. :src: bpy.types.SpaceDopeSheetEditor
-msgid "Space Dope Sheet Editor"
-msgstr "Dopebladets område"
+#. :src: bpy.types.SpaceClipEditor.zoom_percentage
+#. :src: bpy.types.SpaceImageEditor.zoom_percentage
+#. :src: bpy.types.SpaceSequenceEditor.zoom_percentage
+msgid "Zoom percentage"
+msgstr "Zoom i procent"
 
-#. :src: bpy.types.SpaceDopeSheetEditor
-msgid "Dope Sheet space data"
-msgstr "Områdesdata för dopeblad"
+#. :src: bpy.types.SpaceConsole
+msgid "Space Console"
+msgstr "Rymdkonsol"
+
+#. :src: bpy.types.SpaceConsole
+msgid "Interactive Python console"
+msgstr "Interaktiv Python-konsol"
+
+#. :src: bpy.types.SpaceConsole.font_size
+#. :src: bpy.types.SpaceTextEditor.font_size
+msgid "Font size to use for displaying the text"
+msgstr "Fontstorlek som ska användas för att visa texten"
+
+#. :src: bpy.types.SpaceConsole.history
+msgid "Command history"
+msgstr "Kommandohistorik"
+
+#. :src: bpy.types.SpaceConsole.language
+msgid "Command line prompt language"
+msgstr "Språk för kommandotolk"
+
+#. :src: bpy.types.SpaceConsole.prompt
+msgid "Prompt"
+msgstr "Fråga"
+
+#. :src: bpy.types.SpaceConsole.prompt
+msgid "Command line prompt"
+msgstr "Kommandoradsprompt"
+
+#. :src: bpy.types.SpaceConsole.scrollback
+msgid "Command output"
+msgstr "Kommandoutgång"
+
+#. :src: bpy.types.SpaceDopeSheetEditor.cache_particles
+msgid "Show the active object's particle point cache"
+msgstr "Visa det aktiva objektets partikelpunktscache"
 
 #. :src: bpy.types.SpaceDopeSheetEditor.cache_simulation_nodes
 msgid "Show the active object's simulation nodes cache and bake data"
 msgstr "Visa det aktiva objektets cache- och bakningsdata för simuleringsnoder"
 
-#. :src: bpy.types.SpaceDopeSheetEditor.cache_softbody
-#: source/blender/modifiers/intern/MOD_softbody.cc:82
-msgid "Softbody"
-msgstr "Mjuk kropp"
+#. :src: bpy.types.SpaceDopeSheetEditor.cache_smoke
+msgid "Show the active object's smoke cache"
+msgstr "Visa det aktiva objektets rökcache"
 
 #. :src: bpy.types.SpaceDopeSheetEditor.cache_softbody
 msgid "Show the active object's softbody point cache"
 msgstr "Visa det aktiva objektets punktcache för mjuk kropp"
 
-#. :src: bpy.types.SpaceDopeSheetEditor.mode:'DOPESHEET'
-#. :src: bpy.types.SpaceDopeSheetEditor.ui_mode:'DOPESHEET'
-msgid "Edit all keyframes in scene"
-msgstr "Redigera alla nyckelbildrutor i scenen"
+#. :src: bpy.types.SpaceDopeSheetEditor.dopesheet
+#. :src: bpy.types.SpaceGraphEditor.dopesheet
+#. :src: bpy.types.SpaceNLA.dopesheet
+msgid "Settings for filtering animation data"
+msgstr "Inställningar för filtrering av animationsdata"
 
-#. :src: bpy.types.SpaceDopeSheetEditor.mode:'SHAPEKEY'
-#. :src: bpy.types.SpaceDopeSheetEditor.ui_mode:'SHAPEKEY'
-msgid "Shape Key Editor"
-msgstr "Formnyckelredigerare"
+#. :src: bpy.types.SpaceDopeSheetEditor.mode:'ACTION'
+#. :src: bpy.types.SpaceDopeSheetEditor.ui_mode:'ACTION'
+msgid "Action Editor"
+msgstr "Åtgärdsredigerare"
+
+#. :src: bpy.types.SpaceDopeSheetEditor.mode:'ACTION'
+#. :src: bpy.types.SpaceDopeSheetEditor.ui_mode:'ACTION'
+msgid "Edit keyframes in active object's Object-level action"
+msgstr "Redigera nyckelramar i det aktiva objektets åtgärd på objektnivå"
 
 #. :src: bpy.types.SpaceDopeSheetEditor.mode:'SHAPEKEY'
 #. :src: bpy.types.SpaceDopeSheetEditor.ui_mode:'SHAPEKEY'
 msgid "Edit keyframes in active object's Shape Keys action"
 msgstr "Redigera nyckelbildrutor i det aktiva objektets formnyckelåtgärd"
 
-#. :src: bpy.types.SpaceDopeSheetEditor.mode:'MASK'
-#. :src: bpy.types.SpaceDopeSheetEditor.ui_mode:'MASK'
-msgid "Edit timings for Mask Editor splines"
-msgstr "Redigera tidpunkter för splines i maskredigeraren"
+#. :src: bpy.types.SpaceDopeSheetEditor.mode:'GPENCIL'
+#. :src: bpy.types.SpaceDopeSheetEditor.ui_mode:'GPENCIL'
+msgid "Edit timings for all Grease Pencil sketches in file"
+msgstr "Redigera tider för alla Grease Pencil-skisser i filen"
 
-#. :src: bpy.types.SpaceDopeSheetEditor.mode:'CACHEFILE'
-#. :src: bpy.types.SpaceDopeSheetEditor.ui_mode:'CACHEFILE'
-msgid "Edit timings for Cache File data-blocks"
-msgstr "Redigera tidpunkter för cachefilsdatablock"
+#. :src: bpy.types.SpaceDopeSheetEditor.show_cache
+msgid "Show the status of cached frames in the timeline"
+msgstr "Visa status för cachelagrade bildrutor i tidslinjen"
 
-#. :src: bpy.types.SpaceDopeSheetEditor.show_extremes
+#. :src: bpy.types.SpaceDopeSheetEditor.show_markers
+#. :src: bpy.types.SpaceGraphEditor.show_markers
+#. :src: bpy.types.SpaceNLA.show_markers
+#. :src: bpy.types.SpaceSequenceEditor.show_markers
+msgid "Show Markers"
+msgstr "Visa markörer"
+
+#. :src: bpy.types.SpaceDopeSheetEditor.show_markers
+#. :src: bpy.types.SpaceGraphEditor.show_markers
+#. :src: bpy.types.SpaceNLA.show_markers
+#. :src: bpy.types.SpaceSequenceEditor.show_markers
 msgid ""
-"Mark keyframes where the key value flow changes direction, based on "
-"comparison with adjacent keys"
+"If any exists, show markers in a separate row at the bottom of the editor"
 msgstr ""
-"Markera nyckelbildrutor där tangentvärdenas förlopp ändrar riktning, baserat "
-"på jämförelse med intilliggande tangenter"
+"Om det finns några, visa markörer i en separat rad längst ner i redigeraren"
 
-#. :src: bpy.types.SpaceDopeSheetEditor.show_pose_markers
-msgid "Show Pose Markers"
-msgstr "Visa posemarkörer"
+#. :src: bpy.types.SpaceDopeSheetEditor.show_sliders
+#. :src: bpy.types.SpaceGraphEditor.show_sliders
+msgid "Show Sliders"
+msgstr "Visa skjutreglagen"
 
-#. :src: bpy.types.SpaceDopeSheetEditor.show_pose_markers
+#. :src: bpy.types.SpaceDopeSheetEditor.show_sliders
+#. :src: bpy.types.SpaceGraphEditor.show_sliders
+msgid "Show sliders beside F-Curve channels"
+msgstr "Visa reglagen bredvid F-kurvans kanaler"
+
+#. :src: bpy.types.SpaceNLA.show_strip_curves
+msgid "Show influence F-Curves on strips"
+msgstr "Visa inflytande F-kurvor på remsor"
+
+#. :src: bpy.types.SpaceNLA.use_realtime_update
 msgid ""
-"Show markers belonging to the active action instead of Scene markers (Action "
-"and Shape Key Editors only)"
+"When transforming strips, changes to the animation data are flushed to other "
+"views"
 msgstr ""
-"Visa markörer som hör till den aktiva åtgärden i stället för scenmarkörer "
-"(endast i åtgärds- och formnyckelredigerarna)"
-
-#. :src: bpy.types.SpaceDopeSheetEditor.use_auto_merge_keyframes
-#. :src: bpy.types.SpaceGraphEditor.use_auto_merge_keyframes
-msgid "Auto-Merge Keyframes"
-msgstr "Sammanfoga nyckelbildrutor automatiskt"
-
-#. :src: bpy.types.SpaceDopeSheetEditor.use_auto_merge_keyframes
-#. :src: bpy.types.SpaceGraphEditor.use_auto_merge_keyframes
-msgid "Automatically merge nearby keyframes"
-msgstr "Sammanfoga närliggande nyckelbildrutor automatiskt"
-
-#. :src: bpy.types.SpaceNodeEditor
-msgid "Space Node Editor"
-msgstr "Nodredigerarens område"
+"När du transformerar remsor skickas ändringar i animationsdata till andra "
+"vyer"
 
 #. :src: bpy.types.SpaceNodeEditor
 msgid "Node editor space data"
 msgstr "Områdesdata för nodredigeraren"
 
-#. :src: bpy.types.SpaceNodeEditor.backdrop_offset
-msgid "Backdrop Offset"
-msgstr "Bakgrundsförskjutning"
+#. :src: bpy.types.SpaceNodeEditor.backdrop_channels
+msgid "Channels of the image to draw"
+msgstr "Kanaler i bilden som ska ritas"
 
-#. :src: bpy.types.SpaceNodeEditor.backdrop_offset
-msgid "Backdrop offset"
-msgstr "Bakgrundsförskjutning"
+#. :src: bpy.types.SpaceNodeEditor.cursor_location
+msgid "Cursor Location"
+msgstr "Markörens placering"
+
+#. :src: bpy.types.SpaceNodeEditor.cursor_location
+msgid "Location for adding new nodes"
+msgstr "Plats för att lägga till nya noder"
 
 #. :src: bpy.types.SpaceNodeEditor.edit_tree
 msgid "Edit Tree"
@@ -395,27 +454,25 @@ msgstr "Nodträdet som visas och redigeras"
 msgid "Node Tool Tree"
 msgstr "Nodverktygsträd"
 
-#. :src: bpy.types.SpaceNodeEditor.geometry_nodes_tool_tree
-msgid "Node group to edit as node tool"
-msgstr "Nodgrupp som ska redigeras som nodverktyg"
+#. :src: bpy.types.SpaceNodeEditor.id_from
+msgid "ID From"
+msgstr "ID från"
 
-#. :src: bpy.types.SpaceNodeEditor.geometry_nodes_type
-msgctxt "ID"
-msgid "Geometry Nodes Type"
-msgstr "Typ av geometrinoder"
+#. :src: bpy.types.SpaceNodeEditor.id_from
+msgid "Data-block from which the edited data-block is linked"
+msgstr "Datablock från vilket det redigerade datablocket är länkat"
 
 #. :src: bpy.types.SpaceNodeEditor.insert_offset_direction
 msgid "Auto-offset Direction"
 msgstr "Riktning för automatisk förskjutning"
 
-#. :src: bpy.types.SpaceNodeEditor.insert_offset_direction
-msgid "Direction to offset nodes on insertion"
-msgstr "Riktning för förskjutning av noder vid infogning"
+#. :src: bpy.types.SpaceNodeEditor.path
+msgid "Path from the data-block to the currently edited node tree"
+msgstr "Sökväg från datablocket till det aktuella redigerade nodträdet"
 
-#. :src: bpy.types.SpaceNodeEditor.overlay
-#. :src: bpy.types.SpaceNodeOverlay
-msgid "Settings for display of overlays in the Node Editor"
-msgstr "Inställningar för visning av överlägg i nodredigeraren"
+#. :src: bpy.types.SpaceNodeEditor.pin
+msgid "Use the pinned node tree"
+msgstr "Använd det fastnålade nodträdet"
 
 #. :src: bpy.types.SpaceNodeEditor.shader_type
 msgctxt "ID"
@@ -430,25 +487,15 @@ msgstr "Typ av data som shadern ska hämtas från"
 msgid "Edit shader nodes from Object"
 msgstr "Redigera shadernoder från objekt"
 
-#. :src: bpy.types.SpaceNodeEditor.shader_type:'WORLD'
-msgid "Edit shader nodes from World"
-msgstr "Redigera shadernoder från värld"
+#. :src: bpy.types.SpaceNodeEditor.texture_type:'LINESTYLE'
+msgid "Edit texture nodes from Line Style"
+msgstr "Redigera texturnoder från Line Style"
 
-#. :src: bpy.types.SpaceNodeEditor.shader_type:'LINESTYLE'
-msgid "Edit shader nodes from Line Style"
-msgstr "Redigera shadernoder från linjestil"
+#. :src: bpy.types.SpaceNodeEditor.tree_type
+msgid "Node tree type to display and edit"
+msgstr "Typ av nodträd för visning och redigering"
 
 #. :src: bpy.types.SpaceNodeEditor.tree_type:'GeometryNodeTree'
 #: source/blender/nodes/geometry/node_geometry_tree.cc:145
 msgid "Geometry Node Editor"
 msgstr "Geometrinodredigerare"
-
-#. :src: bpy.types.SpaceNodeEditor.tree_type:'ShaderNodeTree'
-#: source/blender/nodes/shader/node_shader_tree.cc:184
-msgid "Shader Editor"
-msgstr "Shaderredigerare"
-
-#. :src: bpy.types.SpaceNodeEditor.tree_type:'TextureNodeTree'
-#: source/blender/nodes/texture/node_texture_tree.cc:139
-msgid "Texture Node Editor"
-msgstr "Texturnodredigerare"

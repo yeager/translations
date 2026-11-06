@@ -1511,8 +1511,16 @@ rapporterar bara avsedda Blender-sammansättningar och en falsk V2-träff för
 en imperativ UI-etikett. Filen är arkiverad och väntar på manuell import.
 
 Den samlade importfilen `blender-ui-sv-reviewed-20261106-batches-175-180.po`
-innehåller 88 granskade ändringar från batch 175–180 och bygger på den
+innehåller 98 granskade ändringar från batch 175–180 och bygger på den
 bekräftat importerade basen efter batch 160–174. Den saknar `fuzzy`-poster och
 rymmer väl inom Blender Translates gräns på 1 000 strängar. Den har kontrollerats
 med `msgfmt`, l10n-lint, diffkontroll och Gitleaks och väntar på manuell import.
+
+Batch 181 granskar nio poster för den inbyggda Python-konsolen. Den ersätter
+felöversatta interna områdesnamn och normaliserar teckenstorlek,
+kommandoradsprompt och kommandoutgång. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-181-python-console.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang` ger
+10/10. Filen är arkiverad och väntar på manuell import.
 

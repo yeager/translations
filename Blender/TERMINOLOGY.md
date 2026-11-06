@@ -30,6 +30,7 @@ Senast uppdaterad: 2026-11-06.
 | Maximize Area | Maximera område | Operatörsnamn. *Område* avser här ett Blender-area, inte ett skärmområde i allmän mening. |
 | 3D Viewport | 3D-vyport | Etablerad UI- och manualterm. |
 | 3D View | 3D-vy | Förklaringstext för den synliga Blender-vyn; böj som *3D-vyns* i sammansatta led. |
+| Console | konsol | Blenders inbyggda Python-konsol. RNA-beskrivningen *Space Console* använder formen *konsolens område*; `prompt` blir *kommandoprompt*. |
 | Timecode Style | tidskodstil | Inställning som bestämmer hur uppspelningens varaktighet visas. |
 | System Memory | systemminne | UI-rubrik för uppskattad RAM-användning. |
 | New Data | Nya data | Gäller nya Blender-datablock; inte *nya uppgifter*. |
