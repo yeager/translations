@@ -29967,7 +29967,7 @@ msgstr "Rökfärg"
 
 #. :src: bpy.types.FluidDomainSettings.flame_smoke_color
 msgid "Color of smoke emitted from burning fuel"
-msgstr "Färg av rök som avges från att bränna bränsle"
+msgstr "Färg på rök som avges från brinnande bränsle"
 
 #. :src: bpy.types.FluidDomainSettings.flame_vorticity
 #. :src: bpy.types.FluidDomainSettings.vorticity
@@ -29978,7 +29978,7 @@ msgstr "Vorticitet"
 #. :src: bpy.types.FluidDomainSettings.flame_vorticity
 #, fuzzy
 msgid "Additional vorticity for the flames"
-msgstr "Ytterligare vorticitet för flammorna"
+msgstr "Ytterligare vorticitet för lågorna"
 
 #. :src: bpy.types.FluidDomainSettings.flip_ratio
 #: scripts/startup/bl_ui/properties_physics_fluid.py:501
@@ -30064,7 +30064,7 @@ msgstr "Vätska"
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'FLUID'
 #, fuzzy
 msgid "Highlight only the cells of type Fluid"
-msgstr "Markera endast cellerna av typen Fluid"
+msgstr "Markera endast cellerna av typen vätska"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'OBSTACLE'
 msgid "Obstacle"
@@ -30073,17 +30073,17 @@ msgstr "Hinder"
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'OBSTACLE'
 #, fuzzy
 msgid "Highlight only the cells of type Obstacle"
-msgstr "Markera endast celler av typen Hinder"
+msgstr "Markera endast cellerna av typen hinder"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'EMPTY'
 #, fuzzy
 msgid "Highlight only the cells of type Empty"
-msgstr "Markera endast celler av typen Empty"
+msgstr "Markera endast cellerna av typen tom"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'INFLOW'
 #, fuzzy
 msgid "Highlight only the cells of type Inflow"
-msgstr "Markera endast celler av typen Inflow"
+msgstr "Markera endast cellerna av typen inflöde"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'OUTFLOW'
 #. :src: bpy.types.FluidFlowSettings.flow_behavior:'OUTFLOW'
@@ -30094,7 +30094,7 @@ msgstr "Utflöde"
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'OUTFLOW'
 #, fuzzy
 msgid "Highlight only the cells of type Outflow"
-msgstr "Markera endast cellerna av typen Utflöde"
+msgstr "Markera endast cellerna av typen utflöde"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_color_field
 #: scripts/startup/bl_ui/properties_physics_fluid.py:1553
@@ -30117,7 +30117,7 @@ msgstr "Flaggor"
 #: source/blender/makesrna/intern/rna_fluid.cc:675
 #, fuzzy
 msgid "Flag grid of the fluid domain"
-msgstr "Flagg rutnät för vätskedomänen"
+msgstr "Flaggrutnät för vätskedomänen"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_color_field:'RANGE'
 #, fuzzy
@@ -30157,32 +30157,32 @@ msgstr "Övre gränsen för markeringsintervallet"
 #. :src: bpy.types.FluidDomainSettings.guide_alpha
 #, fuzzy
 msgid "Guiding weight (higher value results in greater lag)"
-msgstr "Styrande vikt (högre värde ger större fördröjning)"
+msgstr "Styrningsvikt (högre värde ger större fördröjning)"
 
 #. :src: bpy.types.FluidDomainSettings.guide_beta
 #, fuzzy
 msgid "Guiding size (higher value results in larger vortices)"
-msgstr "Styrande storlek (högre värde resulterar i större virvlar)"
+msgstr "Styrningsstorlek (högre värde ger större virvlar)"
 
 #. :src: bpy.types.FluidDomainSettings.guide_parent
 #, fuzzy
 msgid "Use velocities from this object for the guiding effect (object needs to have fluid modifier and be of type domain))"
-msgstr "Använd hastigheter från detta objekt för styreffekten (objektet måste ha fluidmodifierare och vara av typen domän))"
+msgstr "Använd hastigheter från detta objekt för styrningseffekten (objektet måste ha en vätskemodifierare och vara av typen domän)"
 
 #. :src: bpy.types.FluidDomainSettings.guide_source
 #, fuzzy
 msgid "Guiding source"
-msgstr "Vägledande källa"
+msgstr "Styrningskälla"
 
 #. :src: bpy.types.FluidDomainSettings.guide_source
 #, fuzzy
 msgid "Choose where to get guiding velocities from"
-msgstr "Välj varifrån du vill få styrhastigheterna"
+msgstr "Välj var styrhastigheterna ska hämtas"
 
 #. :src: bpy.types.FluidDomainSettings.guide_source:'DOMAIN'
 #, fuzzy
 msgid "Use a fluid domain for guiding (domain needs to be baked already so that velocities can be extracted). Guiding domain can be of any type (i.e. gas or liquid)."
-msgstr "Använd en vätskedomän för guidning (domänen måste redan vara bakad så att hastigheter kan extraheras). Den styrande domänen kan vara av vilken typ som helst (t.ex. gas eller vätska)."
+msgstr "Använd en vätskedomän för styrning (domänen måste redan vara bakad så att hastigheter kan extraheras). Styrningsdomänen kan vara av valfri typ, till exempel gas eller vätska."
 
 #. :src: bpy.types.FluidDomainSettings.guide_source:'EFFECTOR'
 #. :src: bpy.types.FluidModifier.fluid_type:'EFFECTOR'
@@ -30194,7 +30194,7 @@ msgstr "Effektor"
 #. :src: bpy.types.FluidDomainSettings.guide_source:'EFFECTOR'
 #, fuzzy
 msgid "Use guiding (effector) objects to create fluid guiding (guiding objects should be animated and baked once set up completely)"
-msgstr "Använd styrande objekt (effektorer) för att skapa flytande styrning (styrande objekt bör animeras och bakas när de är helt inställda)"
+msgstr "Använd styrningsobjekt (effektorer) för att styra vätskan (styrningsobjekten bör animeras och bakas när de är helt konfigurerade)"
 
 #. :src: bpy.types.FluidDomainSettings.guide_vel_factor
 #. :src: bpy.types.ParticleSettingsTextureSlot.velocity_factor
@@ -30212,12 +30212,12 @@ msgstr "Faktor för styrhastighet (högre värde ger högre styrhastigheter)"
 #. :src: bpy.types.FluidDomainSettings.heat_grid
 #, fuzzy
 msgid "Heat Grid"
-msgstr "Värmenät"
+msgstr "Värmerutnät"
 
 #. :src: bpy.types.FluidDomainSettings.heat_grid
 #, fuzzy
 msgid "Smoke heat grid"
-msgstr "Värmenät för rök"
+msgstr "Rökens värmerutnät"
 
 #. :src: bpy.types.FluidDomainSettings.highres_sampling
 #. :src: bpy.types.ParticleSettings.type:'EMITTER'
@@ -30289,7 +30289,7 @@ msgstr "Vilken generator för partikelnivå som ska användas"
 #: scripts/startup/bl_ui/space_sequencer.py:2578
 #, fuzzy
 msgid "Final"
-msgstr "Slutprov"
+msgstr "Slutlig"
 
 #. :src: bpy.types.FluidDomainSettings.mesh_generator:'IMPROVED'
 #, fuzzy
@@ -30565,7 +30565,7 @@ msgstr "FLIP"
 #. :src: bpy.types.FluidDomainSettings.simulation_method:'FLIP'
 #, fuzzy
 msgid "Use FLIP as the simulation method (more splashy behavior)"
-msgstr "Använd FLIP som simuleringsmetod (mer sprakande beteende)"
+msgstr "Använd FLIP som simuleringsmetod (mer stänkigt beteende)"
 
 #. :src: bpy.types.FluidDomainSettings.simulation_method:'APIC'
 #, fuzzy
