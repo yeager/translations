@@ -304,6 +304,9 @@ Senast uppdaterad: 2026-11-06.
 | Curve Info / Curve Root / Curve Segment / Curve Tip | Kurvinformation / Kurvrot / Kurvsegment / Kurvspets | Namn på noder som läser data ur hårkurvor. De är sammansättningar, inte fraser som *Kurva rot*. |
 | hair attachment | hårinfästning | Hårkurvans fästning vid ett ytmesh. Använd exempelvis *infästnings-UV*, inte det felaktiga *bilaga-UV*. |
 | feature awareness (Redistribute Curve Points) | detaljbevarande | Den här inställningen bevarar lokala kurvdetaljer och riktningsändringar när kontrollpunkter omfördelas. |
+| hair attachment / surface normal | hårinfästning / ytnormal | Vid hårgenerering beskriver detta hur hårkurvans rot fästs vid ytmeshens UV-koordinat och normal. |
+| guide index / guide map / guide mask | guideindex / guideindexkarta / guidemask | Datat som anger vilken guidekurva varje hårkurva använder. Skriv sammansättningarna ihop. |
+| flare (Braid Hair Curves) | utsvängning | Den öppna delen vid flätans spets där hårstråna lossnar eller sprider ut sig. Det är inte en *flärp* eller en mekanisk fläns. |
 | constraint | begränsning | Blender-relation som styr ett objekt eller ben. Skriv sammansättningar som *positionsbegränsning*, *rotationsbegränsning*, *skalbegränsning* och *avståndsbegränsning*. |
 | project axis | projektionsaxel | Axeln som Shrinkwrap projicerar längs. Skilj från ett projekts egen axel. |
 | target normal | målnormal | Normal från målets yta, till exempel i Shrinkwrap-projektion. |
