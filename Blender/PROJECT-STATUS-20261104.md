@@ -1840,3 +1840,15 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 212 granskar 46 Grease Pencil-, cache- och kameraposter. Den
+normaliserar penselinställningar till *slumpning*, förtydligar ritplattans
+tryckstyrning och använder den etablerade termen *redigerarläge* i
+hjälptexterna för filmklipp och bilder. Kamerans tidigare oidiomatiska
+*ortovy* skrivs som *ortografisk vy*. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-212-grease-pencil-and-camera.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast etablerade Blender- och facktermer samt
+konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen är
+arkiverad och väntar på manuell import.
+
