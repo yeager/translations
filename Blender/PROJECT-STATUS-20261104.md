@@ -1607,3 +1607,12 @@ rapporterar väntade Blender-termer och en falsk V2-varning när korta
 UI-etiketter sammanfogas till löptext. Filen är arkiverad och väntar på
 manuell import.
 
+Batch 190 granskar elva utvecklarinställningar för Blenders
+översättningsverktyg. Den bevarar filändelser, bibliotek och kodtermer,
+men använder *Git-förrådet* i svensk löptext. Samtliga granskade poster har
+fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-190-i18n-settings.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar bara väntade produkt- och kodnamn samt en falsk V2-varning från
+sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell import.
+
