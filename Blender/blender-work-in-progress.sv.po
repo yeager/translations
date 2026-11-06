@@ -43988,32 +43988,32 @@ msgstr "Slutavstånd för den kaskadformade skuggkartan (endast i perspektivvy)"
 #. :src: bpy.types.LightProbe
 #, fuzzy
 msgid "Light Probe data-block for lighting capture objects"
-msgstr "Light Probe-datablock för belysning av inspelningsobjekt"
+msgstr "Ljussonddatablock för objekt som fångar belysning"
 
 #. :src: bpy.types.LightProbe.clip_start
 #, fuzzy
 msgid "Probe clip start, below which objects will not appear in reflections"
-msgstr "Probe-klippets start, under vilken objekt inte visas i reflektioner"
+msgstr "Sondens klippstart, under vilken objekt inte visas i reflektioner"
 
 #. :src: bpy.types.LightProbe.data_display_size
 #, fuzzy
 msgid "Display Data Size"
-msgstr "Visa datastorlek"
+msgstr "Storlek på visningsdata"
 
 #. :src: bpy.types.LightProbe.data_display_size
 #, fuzzy
 msgid "Viewport display size of the sampled data"
-msgstr "Visningsstorlek för vyport för de data som samplas"
+msgstr "Storlek i 3D-vyn för samplade data"
 
 #. :src: bpy.types.LightProbe.influence_distance
 #, fuzzy
 msgid "Influence Distance"
-msgstr "Avstånd för påverkan"
+msgstr "Påverkansavstånd"
 
 #. :src: bpy.types.LightProbe.influence_distance
 #, fuzzy
 msgid "Influence distance of the probe"
-msgstr "Influensavstånd för sonden"
+msgstr "Sondens påverkansavstånd"
 
 #. :src: bpy.types.LightProbe.invert_visibility_collection
 #, fuzzy
@@ -44134,12 +44134,12 @@ msgstr "Sfärisk ljussond"
 #. :src: bpy.types.LightProbeSphere.clip_end
 #, fuzzy
 msgid "Probe clip end, beyond which objects will not appear in reflections"
-msgstr "Prova klippänden, bortom vilken objekt inte kommer att visas i reflektioner"
+msgstr "Sondens klippslut, bortom vilket objekt inte visas i reflektioner"
 
 #. :src: bpy.types.LightProbeSphere.falloff
 #, fuzzy
 msgid "Control how fast the probe influence decreases"
-msgstr "Kontrollera hur snabbt probens påverkan minskar"
+msgstr "Styr hur snabbt sondens påverkan minskar"
 
 #. :src: bpy.types.LightProbeSphere.influence_type
 #, fuzzy
@@ -44189,7 +44189,7 @@ msgstr "Volymljussond"
 #. :src: bpy.types.LightProbeVolume.bake_samples
 #, fuzzy
 msgid "Bake Samples"
-msgstr "Samplar"
+msgstr "Bakningsprov"
 
 #. :src: bpy.types.LightProbeVolume.bake_samples
 #, fuzzy
@@ -44199,7 +44199,7 @@ msgstr "Antal strålriktningar att utvärdera vid bakning"
 #. :src: bpy.types.LightProbeVolume.capture_distance
 #, fuzzy
 msgid "Capture Distance"
-msgstr "Avstånd för upptagning"
+msgstr "Fångstavstånd"
 
 #. :src: bpy.types.LightProbeVolume.capture_distance
 #, fuzzy
@@ -44209,7 +44209,7 @@ msgstr "Avstånd runt sondvolymen som kommer att beaktas under bakningen"
 #. :src: bpy.types.LightProbeVolume.capture_emission
 #, fuzzy
 msgid "Capture Emission"
-msgstr "Avskiljning Utsläpp"
+msgstr "Fånga emission"
 
 #. :src: bpy.types.LightProbeVolume.capture_emission
 #, fuzzy
@@ -44219,17 +44219,17 @@ msgstr "Baka emitterande ytor för mer exakt belysning"
 #. :src: bpy.types.LightProbeVolume.capture_indirect
 #, fuzzy
 msgid "Capture Indirect"
-msgstr "Upptagning Indirekt"
+msgstr "Fånga indirekt ljus"
 
 #. :src: bpy.types.LightProbeVolume.capture_indirect
 #, fuzzy
 msgid "Bake light bounces from light sources for more accurate lighting"
-msgstr "Bake light studsar från ljuskällor för mer exakt belysning"
+msgstr "Baka ljusstudsar från ljuskällor för mer exakt belysning"
 
 #. :src: bpy.types.LightProbeVolume.capture_world
 #, fuzzy
 msgid "Capture World"
-msgstr "Fånga världen"
+msgstr "Fånga omvärldsljus"
 
 #. :src: bpy.types.LightProbeVolume.capture_world
 #, fuzzy
@@ -44240,23 +44240,23 @@ msgstr "Baka inkommande ljus från världen istället för bara synligheten för
 #. :src: bpy.types.CyclesRenderSettings.sample_clamp_direct
 #, fuzzy
 msgid "Clamp Direct"
-msgstr "Klämma direkt"
+msgstr "Begränsa direktljus"
 
 #. :src: bpy.types.LightProbeVolume.clamp_direct
 #, fuzzy
 msgid "Clamp the direct lighting intensity to reduce noise (0 to disable)"
-msgstr "Begränsa den direkta belysningsintensiteten för att minska buller (0 till avaktivera)"
+msgstr "Begränsa direktljusets intensitet för att minska brus (0 för att inaktivera)"
 
 #. :src: bpy.types.LightProbeVolume.clamp_indirect
 #. :src: bpy.types.CyclesRenderSettings.sample_clamp_indirect
 #, fuzzy
 msgid "Clamp Indirect"
-msgstr "Klämma Indirekt"
+msgstr "Begränsa indirekt ljus"
 
 #. :src: bpy.types.LightProbeVolume.clamp_indirect
 #, fuzzy
 msgid "Clamp the indirect lighting intensity to reduce noise (0 to disable)"
-msgstr "Begränsa den indirekta belysningsintensiteten för att minska buller (0 till avaktivera)"
+msgstr "Begränsa det indirekta ljusets intensitet för att minska brus (0 för att inaktivera)"
 
 #. :src: bpy.types.LightProbeVolume.dilation_radius
 #, fuzzy
@@ -44286,7 +44286,7 @@ msgstr "Sökavstånd"
 #. :src: bpy.types.LightProbeVolume.escape_bias
 #, fuzzy
 msgid "Distance to search for valid capture positions to prevent lighting artifacts"
-msgstr "Avstånd för att söka efter giltiga inspelningspositioner för att förhindra ljusartefakter"
+msgstr "Avstånd för att söka efter giltiga fångstpositioner och undvika ljusartefakter"
 
 #. :src: bpy.types.LightProbeVolume.facing_bias
 #, fuzzy
@@ -44388,7 +44388,7 @@ msgstr "Antal surfelar per lokal längdenhet (högre värden förbättrar kvalit
 #. :src: bpy.types.LightProbeVolume.validity_threshold
 #, fuzzy
 msgid "Validity Threshold"
-msgstr "Tröskelvärde för validitet"
+msgstr "Giltighetströskel"
 
 #. :src: bpy.types.LightProbeVolume.validity_threshold
 #, fuzzy
