@@ -1492,3 +1492,12 @@ tre informationsrader för parentesernas olika position är förväntade och
 semantiskt korrekta. `svlang` ger 10/10 och rapporterar bara avsedda
 Blender-termer. Filen är arkiverad och väntar på manuell import.
 
+Batch 179 granskar sexton poster för dopebladsredigeraren. Den normaliserar
+redigerarens namn, cache- och bakningsdata, mjuka kroppar, formnycklar,
+posemarkörer och nyckelbildrutor. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-179-dope-sheet-editor.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang` ger
+10/10 och rapporterar bara avsedda Blender-sammansättningar. Filen är
+arkiverad och väntar på manuell import.
+

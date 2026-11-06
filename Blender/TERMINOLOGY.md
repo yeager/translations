@@ -291,6 +291,8 @@ Senast uppdaterad: 2026-11-06.
 | clipping plane | klippningsplan | Etablerad svensk CAD-/grafikterm. Använd inte *klippplan*, eftersom den formen får tre p i följd. |
 | wireframe | trådram | Befintligt svenskt Blender-UI-namn. Skriv *trådramsläge* för *wireframe mode*. |
 | shape key | formnyckel | Etablerad term i Blenders TBX-ordlista och UI. |
+| Shape Key Editor | formnyckelredigerare | Redigeraren för formnycklars åtgärder och nyckelbildrutor. |
+| Softbody | mjuk kropp | Simuleringstyp. Skriv *punktcache för mjuk kropp* i förklarande text, inte engelska *softbody-punktcache*. |
 | rig | rigg | Riggningens styrstruktur för en armatur. Behåll den svenska facktermen i löpande dokumentation. |
 | meta-rig | metarigg | Rigifys förenklade armatur som används för att generera den färdiga riggen. Skriv ihop på svenska. |
 | sub-rig | underrigg | Standardiserad Rigify-komponent. Skriv ihop i singular och i sammansättningar, till exempel *underriggtyp*. |
