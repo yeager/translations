@@ -25061,7 +25061,7 @@ msgstr "Bra"
 
 #. :src: bpy.types.FFmpegSettings.ffmpeg_preset:'GOOD'
 msgid "The default and recommended for most applications"
-msgstr "Standardvalet och rekommenderas för de flesta användningsområden"
+msgstr "Standardvalet, rekommenderat för de flesta användningsområden"
 
 #. :src: bpy.types.FFmpegSettings.ffmpeg_preset:'REALTIME'
 #. :src: bpy.types.Modifier.show_viewport
@@ -25228,56 +25228,46 @@ msgid "Video bitrate (kbit/s)"
 msgstr "Videobithastighet (kbit/s)"
 
 #. :src: bpy.types.FModifier
-#, fuzzy
 msgid "F-Modifier"
-msgstr "F-modifierare"
+msgstr "F-kurvmodifierare"
 
 #. :src: bpy.types.FModifier
-#, fuzzy
 msgid "Modifier for values of F-Curve"
-msgstr "Modifierare för värden på F-kurvan"
+msgstr "Modifierare som påverkar F-kurvans värden"
 
 #. :src: bpy.types.FModifier.active
-#, fuzzy
 msgid "F-Curve modifier will show settings in the editor"
-msgstr "F-kurvmodifieraren visar inställningar i redigeraren"
+msgstr "F-kurvmodifieraren visar sina inställningar i redigeraren"
 
 #. :src: bpy.types.FModifier.blend_in
 #. :src: bpy.types.NlaStrip.blend_in
 #: source/blender/editors/animation/fmodifier_ui.cc:291
 #: source/blender/editors/space_nla/nla_buttons.cc:447
-#, fuzzy
 msgid "Blend In"
-msgstr "Blanda in"
+msgstr "Tona in"
 
 #. :src: bpy.types.FModifier.blend_in
-#, fuzzy
 msgid "Number of frames from start frame for influence to take effect"
-msgstr "Antal bildrutor från startbilden för att påverkan ska börja gälla"
+msgstr "Antal bildrutor från startbildrutan innan påverkan börjar gälla"
 
 #. :src: bpy.types.FModifier.blend_out
 #. :src: bpy.types.NlaStrip.blend_out
-#, fuzzy
 msgid "Blend Out"
-msgstr "Blanda ut"
+msgstr "Tona ut"
 
 #. :src: bpy.types.FModifier.blend_out
-#, fuzzy
 msgid "Number of frames from end frame for influence to fade out"
 msgstr "Antal bildrutor från slutbildrutan tills påverkan tonas ut"
 
 #. :src: bpy.types.FModifier.frame_end
-#, fuzzy
 msgid "Frame that modifier's influence ends (if Restrict Frame Range is in use)"
-msgstr "Bildruta där modifierarens påverkan upphör (om Begränsa bildruteintervallet används)"
+msgstr "Bildrutan där modifierarens påverkan upphör (om Begränsa bildruteintervallet används)"
 
 #. :src: bpy.types.FModifier.frame_start
-#, fuzzy
 msgid "Frame that modifier's influence starts (if Restrict Frame Range is in use)"
-msgstr "Bildruta där modifierarens påverkan börjar (om Begränsa bildruteintervallet används)"
+msgstr "Bildrutan där modifierarens påverkan börjar (om Begränsa bildruteintervallet används)"
 
 #. :src: bpy.types.FModifier.influence
-#, fuzzy
 msgid "Amount of influence F-Curve Modifier will have when not fading in/out"
 msgstr "Hur stor påverkan F-kurvmodifieraren har när den inte tonas in eller ut"
 
@@ -25290,22 +25280,18 @@ msgid "Disabled"
 msgstr "Inaktiverad"
 
 #. :src: bpy.types.FModifier.is_valid
-#, fuzzy
 msgid "F-Curve Modifier has invalid settings and will not be evaluated"
 msgstr "F-kurvmodifieraren har ogiltiga inställningar och utvärderas inte"
 
 #. :src: bpy.types.FModifier.mute
-#, fuzzy
 msgid "Enable F-Curve modifier evaluation"
-msgstr "Aktivera utvärdering av modifierare för F-kurva"
+msgstr "Aktivera utvärdering av F-kurvmodifieraren"
 
 #. :src: bpy.types.FModifier.name
-#, fuzzy
 msgid "F-Curve Modifier name"
 msgstr "F-kurvmodifierarens namn"
 
 #. :src: bpy.types.FModifier.show_expanded
-#, fuzzy
 msgid "F-Curve Modifier's panel is expanded in UI"
 msgstr "F-kurvmodifierarens panel är expanderad i användargränssnittet"
 
@@ -25321,14 +25307,12 @@ msgid "Type"
 msgstr "Typ"
 
 #. :src: bpy.types.FModifier.type
-#, fuzzy
 msgid "F-Curve Modifier Type"
 msgstr "Typ av F-kurvmodifierare"
 
 #. :src: bpy.types.FModifier.type:'NULL'
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'NULL'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'NULL'
-#, fuzzy
 msgctxt "Action"
 msgid "Invalid"
 msgstr "Ogiltig"
@@ -25337,7 +25321,6 @@ msgstr "Ogiltig"
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'GENERATOR'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'GENERATOR'
 #: source/blender/blenkernel/intern/fmodifier.cc:236
-#, fuzzy
 msgctxt "Action"
 msgid "Generator"
 msgstr "Generator"
@@ -25345,7 +25328,6 @@ msgstr "Generator"
 #. :src: bpy.types.FModifier.type:'GENERATOR'
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'GENERATOR'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'GENERATOR'
-#, fuzzy
 msgid "Generate a curve using a factorized or expanded polynomial"
 msgstr "Generera en kurva med hjälp av ett faktoriserat eller expanderat polynom"
 
@@ -25353,7 +25335,6 @@ msgstr "Generera en kurva med hjälp av ett faktoriserat eller expanderat polyno
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'FNGENERATOR'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'FNGENERATOR'
 #: source/blender/blenkernel/intern/fmodifier.cc:369
-#, fuzzy
 msgctxt "Action"
 msgid "Built-In Function"
 msgstr "Inbyggd funktion"
@@ -25361,15 +25342,13 @@ msgstr "Inbyggd funktion"
 #. :src: bpy.types.FModifier.type:'FNGENERATOR'
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'FNGENERATOR'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'FNGENERATOR'
-#, fuzzy
 msgid "Generate a curve using standard math functions such as sin and cos"
-msgstr "Skapa en kurva med hjälp av vanliga matematiska funktioner som sin och cos"
+msgstr "Generera en kurva med vanliga matematiska funktioner som sin och cos"
 
 #. :src: bpy.types.FModifier.type:'ENVELOPE'
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'ENVELOPE'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'ENVELOPE'
 #: source/blender/blenkernel/intern/fmodifier.cc:485
-#, fuzzy
 msgctxt "Action"
 msgid "Envelope"
 msgstr "Kuvert"
@@ -25377,7 +25356,6 @@ msgstr "Kuvert"
 #. :src: bpy.types.FModifier.type:'ENVELOPE'
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'ENVELOPE'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'ENVELOPE'
-#, fuzzy
 msgid "Reshape F-Curve values, e.g. change amplitude of movements"
 msgstr "Omforma F-kurvans värden, t.ex. ändra rörelsernas amplitud"
 
@@ -25386,15 +25364,13 @@ msgstr "Omforma F-kurvans värden, t.ex. ändra rörelsernas amplitud"
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'CYCLES'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'CYCLES'
 #: source/blender/blenkernel/intern/fmodifier.cc:782
-#, fuzzy
 msgctxt "Action"
 msgid "Cycles"
-msgstr "cykler"
+msgstr "Cykler"
 
 #. :src: bpy.types.FModifier.type:'CYCLES'
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'CYCLES'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'CYCLES'
-#, fuzzy
 msgid "Cyclic extend/repeat keyframe sequence"
 msgstr "Cyklisk förlängning eller upprepning av en nyckelbildruteföljd"
 
@@ -25402,7 +25378,6 @@ msgstr "Cyklisk förlängning eller upprepning av en nyckelbildruteföljd"
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'NOISE'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'NOISE'
 #: source/blender/blenkernel/intern/fmodifier.cc:871
-#, fuzzy
 msgctxt "Action"
 msgid "Noise"
 msgstr "Brus"
@@ -25410,7 +25385,6 @@ msgstr "Brus"
 #. :src: bpy.types.FModifier.type:'NOISE'
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'NOISE'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'NOISE'
-#, fuzzy
 msgid "Add pseudo-random noise on top of F-Curves"
 msgstr "Lägg till pseudoslumpmässigt brus ovanpå F-kurvorna"
 
@@ -25418,7 +25392,6 @@ msgstr "Lägg till pseudoslumpmässigt brus ovanpå F-kurvorna"
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'LIMITS'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'LIMITS'
 #: source/blender/blenkernel/intern/fmodifier.cc:926
-#, fuzzy
 msgctxt "Action"
 msgid "Limits"
 msgstr "Gränser"
@@ -25426,14 +25399,12 @@ msgstr "Gränser"
 #. :src: bpy.types.FModifier.type:'LIMITS'
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'LIMITS'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'LIMITS'
-#, fuzzy
 msgid "Restrict maximum and minimum values of F-Curve"
 msgstr "Begränsa maximi- och minimivärdena för F-kurvan"
 
 #. :src: bpy.types.FModifier.type:'STEPPED'
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'STEPPED'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'STEPPED'
-#, fuzzy
 msgctxt "Action"
 msgid "Stepped Interpolation"
 msgstr "Stegad interpolation"
@@ -25441,28 +25412,23 @@ msgstr "Stegad interpolation"
 #. :src: bpy.types.FModifier.type:'STEPPED'
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'STEPPED'
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'STEPPED'
-#, fuzzy
 msgid "Snap values to nearest grid step, e.g. for a stop-motion look"
-msgstr "Fånga värden till närmaste rutnätssteg, t.ex. för en stop-motion-look"
+msgstr "Fäst värden vid närmaste rutnätssteg, till exempel för ett stop-motion-utseende"
 
 #. :src: bpy.types.FModifier.use_influence
-#, fuzzy
 msgid "Use Influence"
 msgstr "Använd påverkan"
 
 #. :src: bpy.types.FModifier.use_influence
-#, fuzzy
 msgid "F-Curve Modifier's effects will be tempered by a default factor"
 msgstr "F-kurvmodifierarens effekter dämpas med en standardfaktor"
 
 #. :src: bpy.types.FModifier.use_restricted_range
 #. :src: bpy.types.GreasePencilBuildModifier.use_restrict_frame_range
-#, fuzzy
 msgid "Restrict Frame Range"
 msgstr "Begränsa bildruteintervallet"
 
 #. :src: bpy.types.FModifier.use_restricted_range
-#, fuzzy
 msgid "F-Curve Modifier is only applied for the specified frame range to help mask off effects in order to chain them"
 msgstr "F-kurvmodifieraren tillämpas endast inom det angivna bildruteintervallet för att effekter ska kunna maskeras och kedjas"
 
