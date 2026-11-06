@@ -1977,3 +1977,15 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 224 granskar 33 poster för Blender-begränsningar, Action och armaturer.
+Den normaliserar bland annat *avståndsbegränsning*, *positionsbegränsning*,
+*transformationskanal*, *förskjutning* och *vridpunkt*. Blender-datatypen
+`Action` bevaras i teknisk hjälptext, medan de svenska etiketter och
+beskrivningar som omger den rättas. Terminologilistan utökas med termer för
+begränsningar, transformation, armaturens omslutningar och Action. Samtliga
+granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-224-constraints-actions.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast facktermer och en konstgjord längdvarning från sammanfogade
+UI-etiketter. Filen är arkiverad och väntar på manuell import.
+
