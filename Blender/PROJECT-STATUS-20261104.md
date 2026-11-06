@@ -1322,3 +1322,10 @@ ett felaktigt kolon från etiketten *Tillgångskatalog*. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-162-file-browser.po` saknar
 `fuzzy`-markeringar och passerar `msgfmt`, l10n-lint och diffkontroll. Den är
 arkiverad men ännu inte verifierat importerad till Blender Translate.
+
+Batch 163 rättar Principled BSDF-parametern `Transmission`: den felaktiga
+fordonstermen *Växellåda* ersätts med den etablerade shadertermen
+*Transmission*, som här avser ljusgenomsläpp. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-163-shader-transmission.po` saknar
+`fuzzy`-markeringar och passerar `msgfmt`, l10n-lint och diffkontroll. Den är
+arkiverad men ännu inte verifierat importerad till Blender Translate.
