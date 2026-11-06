@@ -299,7 +299,7 @@ Senast uppdaterad: 2026-11-06.
 | action slot | åtgärdsslot | Slot som väljer den delmängd av en Action som en NLA-remsa eller Action Constraint använder. Använd *åtgärdsslot*, *åtgärdsslotten* och *åtgärdsslotar* i synlig UI-text; behåll `action_slot` i API-identifierare. |
 | slotted action | åtgärd med slotar | Äldre API-hjälptext som avser en Action med Action Slots. Behåll den tekniska betydelsen och skriv inte engelska *slotted actions* i svensk löptext. |
 | transform | transformation | Avser objektets position, rotation och skala i Constraint- och Action-kontext. Undvik den bredare formen *omvandling* i dessa etiketter. |
-| Damped Track | Dämpad spårning | Begränsning som riktar en lokal axel mot målet med kortast möjliga rotation. Det är inte en järnvägsspårvidd. |
+| Damped Track / Damped Track Constraint | Dämpad spårning / Dämpad spårning-begränsning | Begränsning som riktar en lokal axel mot målet med kortast möjliga rotation. Det är inte en järnvägsspårvidd. |
 | Track Axis | riktningsaxel | Den lokala axel som pekar mot målet i Blenders spårningsbegränsningar. |
 | Track To | Rikta mot | Synlig Constraint-etikett för att orientera objektet mot ett mål. Skilj från film- och rörelsespårning. |
 | Follow Track | Följ spår | Synlig Constraint-etikett som låser ett objekt till ett filmspår. Skilj från *Track To*, som styr objektets orientering. |
