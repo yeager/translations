@@ -22,7 +22,7 @@ Senast uppdaterad: 2026-11-06.
 | fisheye lens | fiskögeobjektiv | Kameraprojektion med extremt brett synfält; använd sammansättningen även för fiskögepolynom. |
 | sensor fit | sensoranpassning | Anpassar kamerans bild och synfältsvinkel efter bildsensorns bredd eller höjd. |
 | passepartout | passepartout | Den mörka överlagringen utanför bildområdet i kameravyn. |
-| safe areas (camera) | säkra områden | Hjälplinjer för tv-titel och handling eller för mittbeskärning vid annat bildförhållande. |
+| safe areas (camera) | säkra områden | Hjälplinjer i kameravyn och sekvensredigeraren. *Action Safe* blir *säkra marginaler för bildinnehåll*, medan *Title Safe* blir *säkra marginaler för text*; de centrerade varianterna gäller ett annat bildförhållande. |
 | film gate | filmruta | Bildruta som anger den fysiska sensor- eller filmramen i kameravyn. |
 | clipping distance | beskärningsavstånd | Kamerans närmaste eller bortre synliga gräns. |
 | cache layer | cachelager | Lager i en Blender-cachefil. Skriv ihop, utan bindestreck. |
