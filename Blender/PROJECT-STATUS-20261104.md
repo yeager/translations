@@ -2503,3 +2503,14 @@ poster får sina `fuzzy`-markeringar borttagna i deltafilen
 Filen kontrolleras med `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
 Gitleaks före arkivering. Filen väntar därefter på manuell import.
 
+Batch 271 granskar 16 strängar för Grease Pencil-penslarnas skulptering,
+kloning och toning. Den ersätter engelska och inkonsekventa verktygsnamn med
+*Penseltyp*, *Tryck*, *Vridning*, *Nyp*, *Klon* och *Smeta*. Den rättar också
+den engelska formen *strokepunkter* och skiljer toningens fyllnads- och
+penseldragslägen åt. Terminologilistan har kompletterats med Grease
+Pencil-penseltyp och toningsinställningarna. Samtliga granskade poster får
+sina `fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-271-grease-pencil-sculpt-and-gradient.po`.
+Filen kontrolleras med `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och
+Gitleaks före arkivering. Filen väntar därefter på manuell import.
+

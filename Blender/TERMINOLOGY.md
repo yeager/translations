@@ -459,6 +459,9 @@ Senast uppdaterad: 2026-11-06.
 | dilate/contract | utvidga/dra samman | Ändrar ett fyllningsområdes omfattning med ett antal pixlar. |
 | dissolve | lös upp | Raderingsläge som tonar ned ett Grease Pencil-strecks punkter i stället för att ta bort dem direkt. |
 | stroke point | streckpunkt | Punkt som utgör ett Grease Pencil-streck. |
+| Grease Pencil sculpt brush type | penseltyp | Väljare för Grease Pencil-verktyg; använd inte *typ av borste*. |
+| Gradient Spacing | toningsavstånd | Avståndet innan Grease Pencil-penselns toning går ett helt varv. |
+| Gradient Fill Mode / Gradient Stroke Mode | fyllnadsläge för toning / penseldragsläge för toning | Skilda toningsinställningar för fyllning och penseldrag. |
 | closure mode | slutningsläge | Hur Grease Pencil-streck förlängs eller kopplas för att täppa igen glapp vid fyllning. |
 | closure size | storlek för slutning | Hur långt streckens ändar får förlängas för att täppa igen glapp. |
 | jitter | slumpning | Slumpvariation i penselposition, radie eller andra streckegenskaper. |
