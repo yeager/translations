@@ -1463,3 +1463,12 @@ diffkontroll och Gitleaks. `svlang` ger 10/10 i naturlighet och rapporterar
 bara den avsedda Blender-termen *dopeblad*. Filen är arkiverad och väntar på
 manuell import.
 
+Batch 176 granskar tolv sammanhängande poster för dopebladet. Den rättar en
+felaktig hänvisning till *exponeringsblad*, engelska UI-rester och flera
+inkonsekventa former för datablock, action-slotar och ungefärlig filtrering.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-176-dopesheet-ui.po`
+passerar `msgfmt`, l10n-lint, diffkontroll och Gitleaks. `svlang` bedömer
+texten som naturlig; de enda sällsynta orden är avsedda Blender-termer och
+identifieraren `ID_SCE`. Filen är arkiverad och väntar på manuell import.
+
