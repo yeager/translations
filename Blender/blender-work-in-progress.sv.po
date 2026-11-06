@@ -28050,55 +28050,45 @@ msgid "Fluid domain settings"
 msgstr "Domäninställningar för vätska"
 
 #. :src: bpy.types.FluidDomainSettings.adapt_margin
-#, fuzzy
 msgid "Margin added around fluid to minimize boundary interference"
-msgstr "Marginal runt vätskan för att minimera påverkan från gränserna"
+msgstr "Marginal som läggs till runt vätskan för att minska påverkan från gränserna"
 
 #. :src: bpy.types.FluidDomainSettings.adapt_threshold
-#, fuzzy
 msgid "Minimum amount of fluid a cell can contain before it is considered empty"
-msgstr "Minsta mängd vätska som en cell kan innehålla innan den anses vara tom"
+msgstr "Minsta vätskemängd som en cell kan innehålla innan den räknas som tom"
 
 #. :src: bpy.types.FluidDomainSettings.additional_res
-#, fuzzy
 msgid "Additional"
 msgstr "Ytterligare"
 
 #. :src: bpy.types.FluidDomainSettings.additional_res
-#, fuzzy
 msgid "Maximum number of additional cells"
-msgstr "Maximalt antal extra celler"
+msgstr "Maximalt antal ytterligare celler"
 
 #. :src: bpy.types.FluidDomainSettings.alpha
 #: scripts/startup/bl_ui/properties_physics_fluid.py:361
-#, fuzzy
 msgid "Buoyancy Density"
-msgstr "Flytkraft Densitet"
+msgstr "Flytkraft från densitet"
 
 #. :src: bpy.types.FluidDomainSettings.alpha
-#, fuzzy
 msgid "Buoyant force based on smoke density (higher value results in faster rising smoke)"
-msgstr "Flytkraft som baseras på rökdensitet (högre värde ger rök som stiger snabbare)"
+msgstr "Flytkraft baserad på rökens densitet (högre värde får röken att stiga snabbare)"
 
 #. :src: bpy.types.FluidDomainSettings.beta
-#, fuzzy
 msgid "Buoyancy Heat"
-msgstr "Flytkraft Värme"
+msgstr "Flytkraft från värme"
 
 #. :src: bpy.types.FluidDomainSettings.beta
-#, fuzzy
 msgid "Buoyant force based on smoke heat (higher value results in faster rising smoke)"
-msgstr "Flytkraft som baseras på rökvärme (högre värde ger rök som stiger snabbare)"
+msgstr "Flytkraft baserad på rökens värme (högre värde får röken att stiga snabbare)"
 
 #. :src: bpy.types.FluidDomainSettings.burning_rate
-#, fuzzy
 msgid "Speed of the burning reaction (higher value results in smaller flames)"
 msgstr "Förbränningsreaktionens hastighet (högre värde ger mindre lågor)"
 
 #. :src: bpy.types.FluidDomainSettings.cache_data_format
-#, fuzzy
 msgid "Select the file format to be used for caching volumetric data"
-msgstr "Välj det filformat som ska användas för cachelagring av volymetriska data"
+msgstr "Välj filformat för cachelagring av volymdata"
 
 #. :src: bpy.types.FluidDomainSettings.cache_data_format:'UNI'
 #. :src: bpy.types.FluidDomainSettings.cache_mesh_format:'UNI'
@@ -28106,7 +28096,6 @@ msgstr "Välj det filformat som ska användas för cachelagring av volymetriska 
 #. :src: bpy.types.FluidDomainSettings.cache_particle_format:'UNI'
 #: source/blender/makesrna/intern/rna_fluid.cc:594
 #: source/blender/makesrna/intern/rna_fluid.cc:635
-#, fuzzy
 msgid "Uni Cache"
 msgstr "Uni Cache"
 
@@ -28123,7 +28112,6 @@ msgstr "Uni-filformat (.uni)"
 #. :src: bpy.types.FluidDomainSettings.cache_noise_format:'OPENVDB'
 #. :src: bpy.types.FluidDomainSettings.cache_particle_format:'OPENVDB'
 #: source/blender/makesrna/intern/rna_fluid.cc:601
-#, fuzzy
 msgid "OpenVDB"
 msgstr "OpenVDB"
 
@@ -28226,9 +28214,8 @@ msgid "End"
 msgstr "Slut"
 
 #. :src: bpy.types.FluidDomainSettings.cache_frame_end
-#, fuzzy
 msgid "Frame on which the simulation stops (last frame baked)"
-msgstr "Bildruta där simuleringen avslutas (senaste bakade bildrutan)"
+msgstr "Bildrutan där simuleringen slutar (sista bakade bildrutan)"
 
 #. :src: bpy.types.FluidDomainSettings.cache_frame_offset
 msgid "Frame offset that is used when loading the simulation from the cache. It is not considered when baking the simulation, only when loading it."
@@ -28271,33 +28258,28 @@ msgid "Start"
 msgstr "Start"
 
 #. :src: bpy.types.FluidDomainSettings.cache_frame_start
-#, fuzzy
 msgid "Frame on which the simulation starts (first frame baked)"
 msgstr "Bildruta där simuleringen startar (första bakade bildrutan)"
 
 #. :src: bpy.types.FluidDomainSettings.cache_mesh_format
-#, fuzzy
 msgid "Select the file format to be used for caching surface data"
-msgstr "Välj det filformat som ska användas för cachelagring av ytdata"
+msgstr "Välj filformat för cachelagring av ytdata"
 
 #. :src: bpy.types.FluidDomainSettings.cache_noise_format
-#, fuzzy
 msgid "Select the file format to be used for caching noise data"
-msgstr "Välj det filformat som ska användas för cachelagring av brusdata"
+msgstr "Välj filformat för cachelagring av brusdata"
 
 #. :src: bpy.types.FluidDomainSettings.cache_particle_format
-#, fuzzy
 msgid "Select the file format to be used for caching particle data"
-msgstr "Välj det filformat som ska användas för cachning av partikeldata"
+msgstr "Välj filformat för cachelagring av partikeldata"
 
 #. :src: bpy.types.FluidDomainSettings.cache_resumable
 msgid "Resumable"
 msgstr "Återupptagbar"
 
 #. :src: bpy.types.FluidDomainSettings.cache_resumable
-#, fuzzy
 msgid "Additional data will be saved so that the bake jobs can be resumed after pausing. Because more data will be written to disk it is recommended to avoid enabling this option when baking at high resolutions."
-msgstr "Ytterligare data sparas så att bakningen kan återupptas efter en paus. Eftersom mer data kommer att skrivas till disken rekommenderas att du undviker att aktivera detta alternativ vid bakning med hög upplösning."
+msgstr "Ytterligare data sparas så att bakningsjobben kan återupptas efter en paus. Eftersom mer data skrivs till disken rekommenderas att du inte aktiverar alternativet vid bakning i hög upplösning."
 
 #. :src: bpy.types.FluidDomainSettings.cache_type
 msgid "Change the cache type of the simulation"
