@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-362.po`
-med 939 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-363.po`
+med 955 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -342,6 +342,12 @@ ordagranna och felaktiga former som *Åtgärd Säkra marginaler* med
 *säkra marginaler för text*. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-362-camera-safe-areas.po` är lokalt
 kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 363 granskar 16 poster för Dopebladets grundläggande filter. Den
+normaliserar *filtreringssamling*, *F-kurvor*, *datablock* och
+*animeringsdata* samt gör filterhjälptexterna konkreta med *Visa även …*.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-363-dope-sheet-filters.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
 ## Projektets aktualitet
 

@@ -338,6 +338,7 @@ Senast uppdaterad: 2026-11-06.
 | Dependency Graph / evaluated data-block | beroendegraf / utvärderat datablock | Blenders graf över beroenden och de data som beräknats för aktuell vyport eller renderingen. Skriv API-pluralen *ID:n*. |
 | Dependency Graph Object Instance | objektinstans i beroendegrafen | Instans som exponeras av beroendegrafens iterator. Använd *koordinatrymd*, *utvärderat objekt* och *beständigt ID* i API-hjälptexterna. |
 | Dependency Graph Update | uppdatering av beroendegrafen | API-objekt som beskriver ett uppdaterat datablock. Statusposterna använder perfekt: *Objektets geometri/skuggning/transformation har uppdaterats*. |
+| Dope Sheet filters | Dopebladets filter / filtreringssamling | Filter för animeringsredigerarnas kanaler. Skriv *F-kurvor*, *datablock* och *animeringsdata*; hjälptexterna använder den direkta formen *Visa även …*. |
 | Curve Mapping: Clip / White Level | Klipp / Vitnivå | I kurvkartläggningen begränsar *Klipp* kurvvyn till en angiven gräns. *Vitnivå* anger för RGB-kurvor den färg som vitt mappas till. |
 | curve fill mode | kurvans fyllningsläge | Inställning för hur en 2D-kurva fylls. |
 | curve bevel cross section | tvärsnitt för kurvans avfasningsgeometri | Profilen som gör en kurva till ett rör; kan vara en cirkel, ett separat kurvobjekt eller en profil. |
