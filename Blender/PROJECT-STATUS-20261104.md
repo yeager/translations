@@ -2382,3 +2382,15 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 varningar från sammanfogade UI-etiketter. Filen är arkiverad och väntar på
 manuell import.
 
+Batch 261 granskar 22 Rigify-strängar för rigggenerering, widgetar,
+målrigg och teman. Den rättar bland annat *slutskript*, *widgetmesher*,
+*länkade dubbletter* och namngivningen av metariggar. Rigifys interna
+temavärden `THEME01`–`THEME20` bevaras exakt som kodvärden. Terminologin
+har kompletterats med *slutskript*. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-261-rigify-generation.po`. Filen
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+Hunspell och `svlang` rapporterar enbart de avsiktliga temavärdena och den
+projektspecifika sammansättningen *widgetmesher*. Filen är arkiverad och
+väntar på manuell import.
+

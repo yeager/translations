@@ -371,6 +371,7 @@ Senast uppdaterad: 2026-11-06.
 | Armature modifier | armaturmodifierare | Modifieraren som kopplar en mesh till en armatur för deformering. |
 | automatic weights | automatiska vikter | Viktmålningsmetod för att koppla meshens hörnpunkter till armaturens ben. |
 | widget | widget | Rigifys redigerbara kontrollobjekt. I sammansättning används *widgetobjekt*, *widgetsamling* och *widgetmesh*. |
+| finalize script | slutskript | Rigify-skript som körs efter att en rigg har genererats för att tillämpa användaranpassningar. |
 | library linking | bibliotekslänkning | Länkning av datablock eller samlingar från en annan Blender-fil. |
 | pivot | vridpunkt | Roterande delars tekniska centrum i riggning; använd till exempel *ögats vridpunkt*. |
 | merge point | sammanfogningspunkt | Delad punkt där två eller flera bens huvud eller svans överlappar. |
