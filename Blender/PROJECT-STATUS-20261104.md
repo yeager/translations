@@ -2160,3 +2160,15 @@ sina `fuzzy`-markeringar borttagna. Deltafilen
 `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 242 granskar 18 filter och hjälptexter i filbläddraren. Den normaliserar
+Blenders datatypnamn till bland annat *ljussondsdatablock*,
+*målningskurvdatablock*, *partikelinställningar*, *Action-datablock* och
+*filvals-ID-filter*, och följer den etablerade UI-terminologin för resurser
+och Freestyle. Samtliga granskade poster har fått sina `fuzzy`-markeringar
+borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-242-file-browser-types.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast sammansatta Blender-termer och en konstgjord
+ordföljdsvarning från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+
