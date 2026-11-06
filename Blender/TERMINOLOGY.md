@@ -237,6 +237,10 @@ Senast uppdaterad: 2026-11-06.
 | fluid velocity / guide velocity | vätskehastighet / styrhastighet | Fält som visar vätskedomänens respektive styrningsobjektens hastigheter. Skriv sammansatt i fältetiketter. |
 | vector magnitude | belopp | Vektorns längd i Mantaflows visningsinställning. Använd den svenska matematiktermen *belopp*, inte direktlånet *magnitud*. |
 | viscosity base | viskositetsbas | Basvärde som i Mantaflow multipliceras med tio upphöjt till den negativa viskositetsexponenten. |
+| flow / flow source | flöde / flödesobjekt | Mantaflow-objekt som tillför rök, eld eller vätska till en domän. Använd *emission* och *emitteras* när texten beskriver utsändningen från objektet. |
+| surface emission / volume emission | ytemission / volymemission | Mantaflow-inställningar för emission från meshens yta respektive från dess inre. |
+| absolute density | absolut densitet | Inställning som hindrar densitetsvärden i emissionsområdet från att adderas. |
+| initial velocity / source velocity | initialhastighet / källhastighet | Hastighet när flödet emitteras respektive hastighet som hämtas från ett rörligt flödesobjekt. |
 | vertex neighbors / face group boundaries | hörnpunktsgrannar / ytgruppsgränser | Noder som hämtar topologiska grannar respektive kanter mellan ytgrupper. Sammansättningarna är avsiktliga. |
 | Geometry Proximity | Geometrisk närhet | Nod som beräknar närmaste position på en målgeometri. |
 | gizmo | gizmo | Etablerat Blender-UI-namn. Skriv sammansatt: *transformationsgizmo*. |

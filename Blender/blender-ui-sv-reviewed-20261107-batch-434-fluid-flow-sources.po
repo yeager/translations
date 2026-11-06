@@ -1,0 +1,216 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.FluidFlowSettings
+#. :src: bpy.types.FluidModifier.flow_settings
+msgid "Flow Settings"
+msgstr "Flödesinställningar"
+
+#. :src: bpy.types.FluidFlowSettings
+msgid "Fluid flow settings"
+msgstr "Inställningar för vätskeflöde"
+
+#. :src: bpy.types.FluidFlowSettings.flow_behavior
+msgid "Flow Behavior"
+msgstr "Flödesbeteende"
+
+#. :src: bpy.types.FluidFlowSettings.flow_behavior
+msgid "Change flow behavior in the simulation"
+msgstr "Ändra flödesbeteendet i simuleringen"
+
+#. :src: bpy.types.FluidFlowSettings.flow_behavior:'INFLOW'
+msgid "Add fluid to simulation"
+msgstr "Lägg till vätska i simuleringen"
+
+#. :src: bpy.types.FluidFlowSettings.flow_behavior:'OUTFLOW'
+msgid "Delete fluid from simulation"
+msgstr "Ta bort vätska från simuleringen"
+
+#. :src: bpy.types.FluidFlowSettings.flow_source
+msgid "Change how fluid is emitted"
+msgstr "Ändra hur vätskan avges"
+
+#. :src: bpy.types.FluidFlowSettings.flow_type
+msgid "Flow Type"
+msgstr "Flödestyp"
+
+#. :src: bpy.types.FluidFlowSettings.flow_type
+msgid "Change type of fluid in the simulation"
+msgstr "Ändra typ av vätska i simuleringen"
+
+#. :src: bpy.types.FluidFlowSettings.flow_type:'SMOKE'
+msgid "Add smoke"
+msgstr "Lägg till rök"
+
+#. :src: bpy.types.FluidFlowSettings.flow_type:'BOTH'
+msgid "Add fire and smoke"
+msgstr "Lägg till eld och rök"
+
+#. :src: bpy.types.FluidFlowSettings.flow_type:'FIRE'
+msgid "Add fire"
+msgstr "Lägg till eld"
+
+#. :src: bpy.types.FluidFlowSettings.flow_type:'LIQUID'
+msgid "Add liquid"
+msgstr "Lägg till vätska"
+
+#. :src: bpy.types.FluidFlowSettings.fuel_amount
+msgid "Flame Rate"
+msgstr "Flamhastighet"
+
+#. :src: bpy.types.FluidFlowSettings.noise_texture
+msgid "Texture that controls emission strength"
+msgstr "Textur som kontrollerar emissionsstyrkan"
+
+#. :src: bpy.types.FluidFlowSettings.particle_size
+msgid "Particle size in simulation cells"
+msgstr "Partikelstorlek i simuleringsceller"
+
+#. :src: bpy.types.FluidFlowSettings.particle_system
+#. :src: bpy.types.Object.particle_systems
+msgid "Particle systems emitted from the object"
+msgstr "Partikelsystem som emitteras från objektet"
+
+#. :src: bpy.types.FluidFlowSettings.smoke_color
+msgid "Color of smoke"
+msgstr "Rökens färg"
+
+#. :src: bpy.types.FluidFlowSettings.subframes
+msgid ""
+"Number of additional samples to take between frames to improve quality of "
+"fast moving flows"
+msgstr ""
+"Antal extra provtagningar mellan bildrutorna för att förbättra kvaliteten på "
+"snabba flöden"
+
+#. :src: bpy.types.FluidFlowSettings.surface_distance
+#: scripts/startup/bl_ui/properties_physics_fluid.py:560
+msgid "Surface Emission"
+msgstr "Ytemission"
+
+#. :src: bpy.types.FluidFlowSettings.surface_distance
+msgid ""
+"Controls fluid emission from the mesh surface (higher value results in "
+"emission further away from the mesh surface"
+msgstr ""
+"Styr vätskeemission från meshytan (högre värde ger emission längre bort från "
+"meshytan)"
+
+#. :src: bpy.types.FluidFlowSettings.temperature
+msgid "Temperature Difference"
+msgstr "Temperaturskillnad"
+
+#. :src: bpy.types.FluidFlowSettings.temperature
+msgid "Temperature difference to ambient temperature"
+msgstr "Temperaturskillnad mot omgivningstemperatur"
+
+#. :src: bpy.types.FluidFlowSettings.texture_map_type
+msgctxt "Texture"
+msgid "Mapping"
+msgstr "Kartläggning"
+
+#. :src: bpy.types.FluidFlowSettings.texture_map_type
+msgid "Texture mapping type"
+msgstr "Typ av texturmappning"
+
+#. :src: bpy.types.FluidFlowSettings.texture_map_type:'AUTO'
+#. :src: bpy.types.LineStyleTextureSlot.texture_coords:'ORCO'
+#. :src: bpy.types.ParticleSettingsTextureSlot.texture_coords:'ORCO'
+#: source/blender/nodes/shader/nodes/node_shader_tex_coord.cc:15
+msgctxt "Texture"
+msgid "Generated"
+msgstr "Genererad"
+
+#. :src: bpy.types.FluidFlowSettings.texture_map_type:'AUTO'
+msgid "Generated coordinates centered to flow object"
+msgstr "Genererade koordinater centrerade till flödesobjektet"
+
+#. :src: bpy.types.FluidFlowSettings.texture_map_type:'UV'
+#. :src: bpy.types.ParticleSettingsTextureSlot.texture_coords:'UV'
+msgctxt "Texture"
+msgid "UV"
+msgstr "UV"
+
+#. :src: bpy.types.FluidFlowSettings.texture_map_type:'UV'
+msgid "Use UV layer for texture coordinates"
+msgstr "Använd UV-lager för texturkoordinater"
+
+#. :src: bpy.types.FluidFlowSettings.texture_size
+msgid "Size of texture mapping"
+msgstr "Storlek på texturmappning"
+
+#. :src: bpy.types.FluidFlowSettings.use_absolute
+#: scripts/startup/bl_ui/properties_physics_fluid.py:260
+msgid "Absolute Density"
+msgstr "Absolut densitet"
+
+#. :src: bpy.types.FluidFlowSettings.use_absolute
+msgid "Only allow given density value in emitter area and will not add up"
+msgstr ""
+"Tillåt endast det angivna densitetsvärdet i emissionsområdet; värden adderas "
+"inte"
+
+#. :src: bpy.types.FluidFlowSettings.use_inflow
+msgid "Use Flow"
+msgstr "Använd flöde"
+
+#. :src: bpy.types.FluidFlowSettings.use_inflow
+msgid "Control when to apply fluid flow"
+msgstr "Styr när vätskeflödet ska användas"
+
+#. :src: bpy.types.FluidFlowSettings.use_particle_size
+msgid "Set particle size in simulation cells or use nearest cell"
+msgstr ""
+"Ställ in partikelstorlek i simuleringsceller eller använd närmaste cell"
+
+#. :src: bpy.types.FluidFlowSettings.use_texture
+#. :src: bpy.types.Brush.use_paint_image
+msgid "Use Texture"
+msgstr "Använd textur"
+
+#. :src: bpy.types.FluidFlowSettings.use_texture
+msgid "Use a texture to control emission strength"
+msgstr "Använd en textur för att kontrollera emissionsstyrkan"
+
+#. :src: bpy.types.FluidFlowSettings.velocity_coord
+msgid ""
+"Additional initial velocity in X, Y and Z direction (added to source "
+"velocity)"
+msgstr ""
+"Ytterligare initialhastighet i X-, Y- och Z-riktning (läggs till "
+"källhastigheten)"
+
+#. :src: bpy.types.FluidFlowSettings.velocity_factor
+msgid ""
+"Multiplier of source velocity passed to fluid (source velocity is non-zero "
+"only if object is moving)"
+msgstr ""
+"Multiplikator för källhastigheten som överförs till vätskan (källhastigheten "
+"är endast skild från noll när objektet rör sig)"
+
+#. :src: bpy.types.FluidFlowSettings.velocity_random
+msgid "Amount of random velocity"
+msgstr "Slumphastighetens storlek"
