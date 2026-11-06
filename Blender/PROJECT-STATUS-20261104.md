@@ -2273,3 +2273,14 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 en konstgjord längdvarning från sammanfogade UI-etiketter. Filen är arkiverad
 och väntar på manuell import.
 
+Batch 252 granskar 18 strängar för Blender-gizmor och tangentmappningar. Den
+rättar bland annat *samling av gizmor*, *tangentmappning*,
+*förskjutningsmatris*, *skalbas*, *urvalsförskjutning*, *skärmrymd* och
+*zoomnivå*. Terminologilistan har kompletterats med *samling av gizmor*.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-252-gizmos-keymaps.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast det avsiktliga Blender-låneordet *gizmo*,
+facktermen *skalbas* och konstgjorda varningar från sammanfogade
+UI-etiketter. Filen är arkiverad och väntar på manuell import.
+
