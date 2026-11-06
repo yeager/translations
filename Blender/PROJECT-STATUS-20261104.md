@@ -1195,3 +1195,11 @@ felinsatta texten i etiketten *Heads* ersätts med `Huvuden`. Deltafilen
 `blender-ui-sv-reviewed-20261106-149.po` innehåller endast de 18 granskade
 poster som saknar `fuzzy`-markeringar. `msgfmt`, l10n-lint, diffkontroll och
 Gitleaks passerar.
+
+Batch 150 granskar elva sammanhängande poster för Blenders animationssystem:
+Action Slots, remsor, F-kurvor och NLA-stapeln. Termlistans motstridiga äldre
+poster har rensats; den aktuella, detaljerade definitionen fastslår
+`action slot` som *åtgärdsslot*. Batchen rättar bland annat felimporterna
+*Action-spelautomater*, *Samling av paletter* och *handlingsluckan*.
+Deltafilen `blender-ui-sv-reviewed-20261106-150.po` saknar `fuzzy`-markeringar
+och passerar `msgfmt`, l10n-lint, diffkontroll och Gitleaks.
