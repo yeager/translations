@@ -294,6 +294,8 @@ Senast uppdaterad: 2026-11-06.
 | frame range | bildruteintervall | Tidsintervall i animation och uppspelning. Använd *startbildruta* respektive *slutbildruta* för ändpunkterna. |
 | curve frame range | kurvornas bildruteintervall | Actions sammanlagda intervall från de ingående F-kurvorna. |
 | noise modifier | brusmodifierare | Modifierare som lägger slumpmässig variation på en F-kurva. Använd *brus*, inte det fysiska ljudordet *buller*. |
+| roughness | grovhet | Delad Blender-term för både materialegenskap och fraktalt brus. Använd *grovhet* även när den beskriver mängden högfrekventa detaljer. |
+| lacunarity | lacunaritet | Delad Blender-term för avståndet eller skalningsskillnaden mellan efterföljande frekvenser/oktaver. Följer Blenders svenska manual. |
 | stepped interpolation | stegad interpolation | F-kurvmodifierare som håller interpolerade värden flera bildrutor. |
 | field falloff | fältets avtagande | Hur kraften från ett kraftfält minskar med avståndet. |
 | keyframe range | nyckelbildruteintervall | Intervall av bildrutor mellan animeringens nyckelbildrutor. |

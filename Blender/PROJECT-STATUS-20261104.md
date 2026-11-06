@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-407.po`
-med 1 531 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-408.po`
+med 1 535 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3368,4 +3368,11 @@ shadertermerna *roughness* och *lacunarity* omfattas inte av batchen utan
 väntar på bredare kontextgranskning. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-407-fcurve-noise-basics.po` är lokalt
 kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 408 gör den tvärgående kontextgranskningen av *roughness* och
+*lacunarity*. Blenders svenska manual använder *grovhet* respektive
+*lacunaritet*, vilket nu också är dokumenterat i projektets termlista.
+Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-408-fcurve-noise-roughness-and-lacunarity.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
