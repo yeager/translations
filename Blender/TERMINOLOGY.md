@@ -248,6 +248,9 @@ Senast uppdaterad: 2026-11-06.
 | face mark | ytmarkering | Freestyle-attribut för att markera meshytor och styra urvalet av funktionskanter. Använd inte den bokstavliga formen *ansiktsmärkning*. |
 | quantitative invisibility (QI) | kvantitativ osynlighet (QI) | Freestyle-mått för hur många ytor som skymmer en funktionskant från kameran. |
 | occluding / occluded object | skymmande / skymt objekt | Freestyle-synlighetskontext. Böj *skymt* till *skymda* före pluralformen *objekt*. Undvik de onödigt engelsknära formerna *ocklusiv* och *ockluderad*. |
+| style module | stilmodul | Freestyle-Pythonmodul som anger hur linjer ska renderas. |
+| view map / view map cache | vykarta / vykartscache | Freestyles beräknade synlighets- och kantdata respektive sparad cache av den. |
+| Kr derivative epsilon | epsilon för Kr-derivatan | Numerisk tröskelparameter för Freestyles suggestiva konturer. Behåll förkortningen Kr och formulera resten som en tydlig svensk fackterm. |
 | vertex neighbors / face group boundaries | hörnpunktsgrannar / ytgruppsgränser | Noder som hämtar topologiska grannar respektive kanter mellan ytgrupper. Sammansättningarna är avsiktliga. |
 | Geometry Proximity | Geometrisk närhet | Nod som beräknar närmaste position på en målgeometri. |
 | gizmo | gizmo | Etablerat Blender-UI-namn. Skriv sammansatt: *transformationsgizmo*. |
