@@ -26305,7 +26305,7 @@ msgstr "Dela utdata automatiskt vid 2 GB-gränsen"
 #. :src: bpy.types.FFmpegSettings.use_lossless_output
 #, fuzzy
 msgid "Lossless Output"
-msgstr "Förlustfri utmatning"
+msgstr "Förlustfria utdata"
 
 #. :src: bpy.types.FFmpegSettings.use_lossless_output
 #, fuzzy
@@ -26364,7 +26364,7 @@ msgstr "Blanda ut"
 #. :src: bpy.types.FModifier.blend_out
 #, fuzzy
 msgid "Number of frames from end frame for influence to fade out"
-msgstr "Antal bildrutor från slutbildrutan för att influensen ska tonas ut"
+msgstr "Antal bildrutor från slutbildrutan tills påverkan tonas ut"
 
 #. :src: bpy.types.FModifier.frame_end
 #, fuzzy
@@ -26379,7 +26379,7 @@ msgstr "Bildruta där modifierarens påverkan börjar (om Begränsa bildruteinte
 #. :src: bpy.types.FModifier.influence
 #, fuzzy
 msgid "Amount of influence F-Curve Modifier will have when not fading in/out"
-msgstr "Hur stor påverkan F-Curve Modifier kommer att ha när den inte tonas in/ut"
+msgstr "Hur stor påverkan F-kurvmodifieraren har när den inte tonas in eller ut"
 
 #. :src: bpy.types.FModifier.is_valid
 #. :src: bpy.types.SpaceUVEditor.pixel_round_mode:'DISABLED'
@@ -26496,7 +26496,7 @@ msgstr "cykler"
 #. :src: bpy.types.NLA_OT_fmodifier_add.type:'CYCLES'
 #, fuzzy
 msgid "Cyclic extend/repeat keyframe sequence"
-msgstr "Cyklisk förlängning/upprepning av keyframe-sekvens"
+msgstr "Cyklisk förlängning eller upprepning av en nyckelbildruteföljd"
 
 #. :src: bpy.types.FModifier.type:'NOISE'
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'NOISE'
@@ -26536,7 +26536,7 @@ msgstr "Begränsa maximi- och minimivärdena för F-kurvan"
 #, fuzzy
 msgctxt "Action"
 msgid "Stepped Interpolation"
-msgstr "Stegvis interpolation"
+msgstr "Stegad interpolation"
 
 #. :src: bpy.types.FModifier.type:'STEPPED'
 #. :src: bpy.types.GRAPH_OT_fmodifier_add.type:'STEPPED'
@@ -26548,12 +26548,12 @@ msgstr "Fånga värden till närmaste rutnätssteg, t.ex. för en stop-motion-lo
 #. :src: bpy.types.FModifier.use_influence
 #, fuzzy
 msgid "Use Influence"
-msgstr "Använd inflytande"
+msgstr "Använd påverkan"
 
 #. :src: bpy.types.FModifier.use_influence
 #, fuzzy
 msgid "F-Curve Modifier's effects will be tempered by a default factor"
-msgstr "F-Curve Modifier's effekter kommer att mildras med en standardfaktor"
+msgstr "F-kurvmodifierarens effekter dämpas med en standardfaktor"
 
 #. :src: bpy.types.FModifier.use_restricted_range
 #. :src: bpy.types.GreasePencilBuildModifier.use_restrict_frame_range
@@ -26564,7 +26564,7 @@ msgstr "Begränsa bildruteintervallet"
 #. :src: bpy.types.FModifier.use_restricted_range
 #, fuzzy
 msgid "F-Curve Modifier is only applied for the specified frame range to help mask off effects in order to chain them"
-msgstr "F-Curve Modifier tillämpas endast för det angivna bildintervallet för att hjälpa till att maskera effekter för att kunna kedja dem"
+msgstr "F-kurvmodifieraren tillämpas endast inom det angivna bildruteintervallet för att effekter ska kunna maskeras och kedjas"
 
 #. :src: bpy.types.FModifierCycles
 #, fuzzy
@@ -26605,7 +26605,7 @@ msgstr "Efter läge"
 #. :src: bpy.types.FModifierCycles.mode_after
 #, fuzzy
 msgid "Cycling mode to use after last keyframe"
-msgstr "Cyklingsläge som ska användas efter sista keyframe"
+msgstr "Cyklingsläge som ska användas efter den sista nyckelbildrutan"
 
 # was: cyclist. what?
 #. :src: bpy.types.FModifierCycles.mode_after:'NONE'
@@ -26642,7 +26642,7 @@ msgstr "Upprepa med förskjutning"
 #. :src: bpy.types.FModifierCycles.mode_before:'REPEAT_OFFSET'
 #, fuzzy
 msgid "Repeat keyframe range, but with offset based on gradient between start and end values"
-msgstr "Upprepa keyframe-intervallet, men med förskjutning baserad på gradienten mellan start- och slutvärdena"
+msgstr "Upprepa nyckelbildruteintervallet, men med en förskjutning baserad på skillnaden mellan start- och slutvärdena"
 
 #. :src: bpy.types.FModifierCycles.mode_after:'MIRROR'
 #. :src: bpy.types.FModifierCycles.mode_before:'MIRROR'
@@ -26654,7 +26654,7 @@ msgstr "Upprepa spegelvänt"
 #. :src: bpy.types.FModifierCycles.mode_before:'MIRROR'
 #, fuzzy
 msgid "Alternate between forward and reverse playback of keyframe range"
-msgstr "Växla mellan framåt- och bakåtuppspelning av keyframe-intervallet"
+msgstr "Växla mellan uppspelning framåt och bakåt av nyckelbildruteintervallet"
 
 #. :src: bpy.types.FModifierCycles.mode_before
 #, fuzzy
@@ -26664,7 +26664,7 @@ msgstr "Före läge"
 #. :src: bpy.types.FModifierCycles.mode_before
 #, fuzzy
 msgid "Cycling mode to use before first keyframe"
-msgstr "Cyklingsläge att använda före första keyframe"
+msgstr "Cyklingsläge som ska användas före den första nyckelbildrutan"
 
 #. :src: bpy.types.FModifierEnvelope
 #, fuzzy
@@ -27036,7 +27036,7 @@ msgstr "Håll varje interpolerat värde från F-kurvan i flera bildrutor utan at
 #. :src: bpy.types.FModifierStepped.frame_end
 #, fuzzy
 msgid "Frame that modifier's influence ends (if applicable)"
-msgstr "Ram som modifierarens inflytande upphör (om tillämpligt)"
+msgstr "Bildruta där modifierarens påverkan upphör (om tillämpligt)"
 
 #. :src: bpy.types.FModifierStepped.frame_offset
 #, fuzzy
@@ -27046,7 +27046,7 @@ msgstr "Referensnummer för bildrutor innan bildrutor hålls (används för att 
 #. :src: bpy.types.FModifierStepped.frame_start
 #, fuzzy
 msgid "Frame that modifier's influence starts (if applicable)"
-msgstr "Ram som modifierarens inflytande börjar (om tillämpligt)"
+msgstr "Bildruta där modifierarens påverkan börjar (om tillämpligt)"
 
 #. :src: bpy.types.FModifierStepped.frame_step
 #. :src: bpy.types.CyclesWorldSettings.volume_step_size

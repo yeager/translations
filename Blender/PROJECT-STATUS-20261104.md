@@ -2128,3 +2128,11 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 från sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell
 import.
 
+Batch 238 granskar 15 poster för F-kurvmodifierare och cyklisk interpolation.
+Den normaliserar *påverkan*, *F-kurvmodifierare*, *stegad interpolation* och
+*nyckelbildruteintervall* samt tar bort engelska kvarlevor i hjälptexterna.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-238-fcurve-modifiers.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+Filen är arkiverad och väntar på manuell import.
+
