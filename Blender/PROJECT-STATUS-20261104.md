@@ -2284,3 +2284,14 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 facktermen *skalbas* och konstgjorda varningar från sammanfogade
 UI-etiketter. Filen är arkiverad och väntar på manuell import.
 
+Batch 253 granskar 22 strängar för GizmoGroup-alternativ, Blender-regioner
+och gizmoegenskaper. Den normaliserar bland annat *interaktion*,
+*verktygsinitiering*, *tangentmappning för reservverktyg*, *regiontyp*,
+*flytande område*, *utförandeknappar*, *redigerarläge* och *indataegenskaper*.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna.
+Deltafilen `blender-ui-sv-reviewed-20261106-batch-253-gizmo-groups.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast det avsiktliga Blender-låneordet *gizmo*,
+ovanliga sammansättningar och konstgjorda varningar från sammanfogade
+UI-etiketter. Filen är arkiverad och väntar på manuell import.
+
