@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-416.po`
-med 1 697 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-417.po`
+med 1 704 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3427,5 +3427,11 @@ ID- och etikettfilter samt resurskatalogernas sorteringsregler. Den använder
 *Unix-skal-liknande*, *avgränsade med* och *plattad kataloghierarki* i den
 tekniska hjälptexten. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-416-file-browser-search-and-sorting.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 417 granskar sju poster för resursbläddrarens importmetoder. Den skiljer
+tydligt mellan länkade och kopierade datablock samt beskriver återanvändning av
+kapslade data utan att ändra Blenders tekniska innebörd. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-417-asset-browser-import-methods.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 

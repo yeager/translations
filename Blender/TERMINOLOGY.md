@@ -88,6 +88,8 @@ Senast uppdaterad: 2026-11-06.
 | timeout | tidsgräns | Exempel: *Animation Timeout* → *Animationstidsgräns*. |
 | Link | Länk | Importmetodens UI-etikett. Använd verbet *länka* i löpande instruktioner, exempelvis *Länka resursen*. |
 | Append | Lägg till | UI-operator och importmetod. I beskrivande text blir det participiala *tillagd*, exempelvis *tillagd kopia*. |
+| linked / copied data-block | länkat / kopierat datablock | Resursbläddrarens importmetoder. Länkade datablock behåller kopplingen till originalet; kopierade datablock är fristående. |
+| Append (Reuse Data) | Lägg till (återanvänd data) | Importmetod som återanvänder kapslade data, exempelvis materialtexturer eller ett objekts mesh, mellan flera instanser. |
 | blendfile | blendfil | Blenders egen filtyp i löpande svensk text. Skriv *.blend-fil* när filändelsen uttryckligen avses. |
 | Blendfile Import Context | blendfilimportkontext | RNA-kontext för import, länkning och tillägg av data från blendfilsbibliotek. |
 | source library | källbibliotek | Det bibliotek eller den blendfil som ett importerat datablock kommer från. |
