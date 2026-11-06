@@ -199,6 +199,9 @@ Senast uppdaterad: 2026-11-06.
 | Modular (fluid cache type) | modulär | Cachetyp vars simuleringssteg bakas separat; skild från cachetypen *All*, som bakar de valda inställningarna i ett steg. |
 | flame grid / smoke flame grid | lågrutnät / rök- och lågrutnät | Mantaflow-datafält för den simulerade lågans respektive rökens och lågans värden. Använd inte direktlånet *Flame Grid* eller den felaktiga särskrivningen *rök flamma galler*. |
 | FLIP ratio | FLIP-förhållande | Förhållandet mellan PIC- och FLIP-metoden i vätskesimuleringen. Behåll de tekniska akronymerna PIC och FLIP. |
+| obstacle cell | hindercell | Cell i Mantaflow-domänens beräkningsrutnät som representerar ett hinder. Skriv ihop i hjälptexter och egenskapsbeskrivningar. |
+| highlight range | markeringsintervall | Egenskap som avgränsar vilka rutnätsvärden som markeras visuellt. Använd inte den handlingsinriktade formen *Markera intervall* som fältetikett. |
+| Color Gridlines | färglägg rutnätslinjer | Växling som färgsätter Mantaflow-rutnätets linjer utifrån ett valt simuleringsfält. |
 | secondary particles | sekundära partiklar | Skum-, spray- och bubbelpartiklar som härleds från vätskesimuleringen. |
 | byte color | bytefärg | 8-bitars färgattribut i geometri- och nodkontext. |
 | byte color attribute | bytefärgsattribut | Geometriattribut som lagrar RGBA-färg med 8 bitar per kanal. |

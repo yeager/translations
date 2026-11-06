@@ -28557,44 +28557,36 @@ msgstr "Begränsa krafter till denna samling"
 
 #. :src: bpy.types.FluidDomainSettings.fractions_distance
 #: scripts/startup/bl_ui/properties_physics_fluid.py:522
-#, fuzzy
 msgid "Obstacle Distance"
 msgstr "Avstånd till hinder"
 
 #. :src: bpy.types.FluidDomainSettings.fractions_distance
-#, fuzzy
 msgid "Determines how far apart fluid and obstacle are (higher values will result in fluid being further away from obstacles, smaller values will let fluid move towards the inside of obstacles)"
-msgstr "Bestämmer hur långt ifrån varandra vätskan och hindret är (högre värden gör att vätskan kommer längre bort från hindren, mindre värden gör att vätskan rör sig mot insidan av hindren)"
+msgstr "Anger avståndet mellan vätskan och hinder (högre värden gör att vätskan kommer längre från hinder, medan lägre värden kan låta vätskan röra sig mot hindrets insida)"
 
 #. :src: bpy.types.FluidDomainSettings.fractions_threshold
-#, fuzzy
 msgid "Obstacle Threshold"
 msgstr "Tröskelvärde för hinder"
 
 #. :src: bpy.types.FluidDomainSettings.fractions_threshold
-#, fuzzy
 msgid "Determines how much fluid is allowed in an obstacle cell (higher values will tag a boundary cell as an obstacle easier and reduce the boundary smoothening effect)"
-msgstr "Bestämmer hur mycket vätska som tillåts i en hindercell (högre värden gör det lättare att märka en gränscell som ett hinder och minskar effekten av utjämning av gränser)"
+msgstr "Anger hur mycket vätska som tillåts i en hindercell (högre värden gör det lättare att märka en gränscell som hinder och minskar gränsutjämningseffekten)"
 
 #. :src: bpy.types.FluidDomainSettings.gravity
-#, fuzzy
 msgid "Gravity in X, Y and Z direction"
 msgstr "Tyngdkraft i X-, Y- och Z-riktning"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter
-#, fuzzy
 msgid "Cell Type"
-msgstr "Typ av cell"
+msgstr "Celltyp"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter
-#, fuzzy
 msgid "Cell type to be highlighted"
 msgstr "Celltyp som ska markeras"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'NONE'
-#, fuzzy
 msgid "Highlight the cells regardless of their type"
-msgstr "Markera cellerna oberoende av deras typ"
+msgstr "Markera cellerna oavsett typ"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'FLUID'
 #. :src: bpy.types.Material.preview_render_type:'FLUID'
@@ -28608,45 +28600,38 @@ msgid "Fluid"
 msgstr "Vätska"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'FLUID'
-#, fuzzy
 msgid "Highlight only the cells of type Fluid"
-msgstr "Markera endast cellerna av typen vätska"
+msgstr "Markera endast celler av typen vätska"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'OBSTACLE'
 msgid "Obstacle"
 msgstr "Hinder"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'OBSTACLE'
-#, fuzzy
 msgid "Highlight only the cells of type Obstacle"
-msgstr "Markera endast cellerna av typen hinder"
+msgstr "Markera endast celler av typen hinder"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'EMPTY'
-#, fuzzy
 msgid "Highlight only the cells of type Empty"
-msgstr "Markera endast cellerna av typen tom"
+msgstr "Markera endast celler av typen tom"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'INFLOW'
-#, fuzzy
 msgid "Highlight only the cells of type Inflow"
-msgstr "Markera endast cellerna av typen inflöde"
+msgstr "Markera endast celler av typen inflöde"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'OUTFLOW'
 #. :src: bpy.types.FluidFlowSettings.flow_behavior:'OUTFLOW'
-#, fuzzy
 msgid "Outflow"
 msgstr "Utflöde"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_cell_filter:'OUTFLOW'
-#, fuzzy
 msgid "Highlight only the cells of type Outflow"
-msgstr "Markera endast cellerna av typen utflöde"
+msgstr "Markera endast celler av typen utflöde"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_color_field
 #: scripts/startup/bl_ui/properties_physics_fluid.py:1553
-#, fuzzy
 msgid "Color Gridlines"
-msgstr "Färga rutnätslinjer"
+msgstr "Färglägg rutnätslinjer"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_color_field
 msgid "Simulation field to color map onto gridlines"
@@ -28655,48 +28640,39 @@ msgstr "Simuleringsfält som används för att färglägga rutnätslinjerna"
 #. :src: bpy.types.FluidDomainSettings.gridlines_color_field:'FLAGS'
 #. :src: bpy.types.IDOverrideLibraryPropertyOperation.flag
 #: source/blender/makesrna/intern/rna_fluid.cc:674
-#, fuzzy
 msgid "Flags"
 msgstr "Flaggor"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_color_field:'FLAGS'
 #: source/blender/makesrna/intern/rna_fluid.cc:675
-#, fuzzy
 msgid "Flag grid of the fluid domain"
 msgstr "Flaggrutnät för vätskedomänen"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_color_field:'RANGE'
-#, fuzzy
 msgid "Highlight Range"
-msgstr "Markera intervall"
+msgstr "Markeringsintervall"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_color_field:'RANGE'
-#, fuzzy
 msgid "Highlight the voxels with values of the color mapped field within the range"
-msgstr "Markera voxlarna med värden för det färgmappade fältet inom intervallet"
+msgstr "Markera voxlarna med värden från det färgkartlagda fältet inom intervallet"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_lower_bound
-#, fuzzy
 msgid "Lower Bound"
 msgstr "Nedre gräns"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_lower_bound
-#, fuzzy
 msgid "Lower bound of the highlighting range"
 msgstr "Nedre gränsen för markeringsintervallet"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_range_color
-#, fuzzy
 msgid "Color used to highlight the range"
 msgstr "Färg som används för att markera intervallet"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_upper_bound
-#, fuzzy
 msgid "Upper Bound"
 msgstr "Övre gräns"
 
 #. :src: bpy.types.FluidDomainSettings.gridlines_upper_bound
-#, fuzzy
 msgid "Upper bound of the highlighting range"
 msgstr "Övre gränsen för markeringsintervallet"
 

@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-421.po`
-med 1 765 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-422.po`
+med 1 789 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3460,5 +3460,12 @@ flamrutnät och FLIP-parametrar. Den rättar särskilt manusbeskrivningens
 missvisande *cacheminnet* och *visningsrutor* till *cachen* och *rutnät* samt
 använder *lågrutnät* för det tekniska datafältet *Flame Grid*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-421-fluid-gas-display-and-flames.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 422 granskar 24 Mantaflow-poster för fraktionella hinder och
+rutnätsvisning. Den normaliserar bland annat *celltyp*, *markeringsintervall*,
+*färglägg rutnätslinjer* och den kontextspecifika termen *hindercell*.
+Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-422-fluid-obstacles-and-gridlines.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
