@@ -298,6 +298,8 @@ Senast uppdaterad: 2026-11-06.
 | lacunarity | lacunaritet | Delad Blender-term för avståndet eller skalningsskillnaden mellan efterföljande frekvenser/oktaver. Följer Blenders svenska manual. |
 | stepped interpolation | stegad interpolation | F-kurvmodifierare som håller interpolerade värden flera bildrutor. |
 | field falloff | fältets avtagande | Hur kraften från ett kraftfält minskar med avståndet. |
+| radial falloff power | exponent för radiellt avtagande | Kraftfältets exponent som anger hur snabbt den radiella påverkan minskar med avståndet. |
+| rest length (harmonic field) | vilolängd | Jämviktslängd i ett harmoniskt kraftfält. Använd inte den engelskpåverkade formen *restlängd*. |
 | keyframe range | nyckelbildruteintervall | Intervall av bildrutor mellan animeringens nyckelbildrutor. |
 | driver (animation) | drivrutin | Funktions- eller uttrycksbaserad styrning av ett animerat egenskapsvärde. Använd *drivrutinstyp*, *drivrutinsvariabel*, *drivrutinsmål* och *drivrutins-F-kurva*. Skilj via sammanhang från enhetens drivrutin, men använd samma svenska huvudterm. |
 | action | åtgärd | Animeringsdata i Blender. Behåll *Action* i formella datatyp- eller API-namn. |
