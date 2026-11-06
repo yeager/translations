@@ -1817,3 +1817,14 @@ rapporterar endast etablerade Blender- och facktermer samt en konstgjord
 längdvarning från sammanfogade UI-etiketter. Filen är arkiverad och väntar
 på manuell import.
 
+Batch 210 granskar tretton Grease Pencil-poster för fyllningsgränser,
+slumpning, känslighet och styrka. Den normaliserar de generiska
+formuleringarna till *slumpningskurva*, *kurva som styr känsligheten* och
+*kurva som styr styrkan* i enlighet med projektets terminologi. Samtliga
+granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-210-grease-pencil-curves.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar enbart den etablerade facktermen *slumpningskurva*
+och konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter.
+Filen är arkiverad och väntar på manuell import.
+
