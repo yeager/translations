@@ -15639,22 +15639,19 @@ msgid "Curve"
 msgstr "Kurva"
 
 #. :src: bpy.types.ColorManagedViewSettings.curve_mapping
-#, fuzzy
 msgid "Color curve mapping applied before display transform"
-msgstr "Mappning av färgkurvor tillämpas före visningstransformationen"
+msgstr "Färgkurvkartläggning som tillämpas före visningstransformeringen"
 
 #. :src: bpy.types.ColorManagedViewSettings.exposure
 #. :src: bpy.types.CompositorNodeExposure
 #. :src: bpy.types.CyclesRenderSettings.film_exposure
 #: source/blender/nodes/composite/nodes/node_composite_exposure.cc:29
-#, fuzzy
 msgid "Exposure"
 msgstr "Exponering"
 
 #. :src: bpy.types.ColorManagedViewSettings.exposure
-#, fuzzy
 msgid "Exposure (stops) applied before display transform, multiplying by 2^exposure"
-msgstr "Exponering (stops) tillämpas före visningstransformationen, multipliceras med 2^exponering"
+msgstr "Exponering (i steg) som tillämpas före visningstransformeringen och multiplicerar med 2^exponering"
 
 #. :src: bpy.types.ColorManagedViewSettings.gamma
 #. :src: bpy.types.ImageFormatSettings.cineon_gamma
@@ -15673,75 +15670,61 @@ msgstr "Exponering (stops) tillämpas före visningstransformationen, multiplice
 #: source/blender/nodes/composite/nodes/node_composite_gamma.cc:28
 #: source/blender/nodes/composite/nodes/node_composite_tonemap.cc:52
 #: source/blender/nodes/shader/nodes/node_shader_gamma.cc:13
-#, fuzzy
 msgid "Gamma"
 msgstr "Gamma"
 
 #. :src: bpy.types.ColorManagedViewSettings.gamma
-#, fuzzy
 msgid "Additional gamma encoding after display transform, for output with custom gamma"
-msgstr "Ytterligare gammakodning efter displaytransformationen, för utdata med anpassad gamma"
+msgstr "Ytterligare gammakodning efter visningstransformeringen för utdata med anpassad gamma"
 
 #. :src: bpy.types.ColorManagedViewSettings.look
 #: source/blender/editors/interface/templates/interface_template_color_management.cc:57
-#, fuzzy
 msgid "Look"
 msgstr "Utseende"
 
 #. :src: bpy.types.ColorManagedViewSettings.look
-#, fuzzy
 msgid "Additional transform applied before view transform for artistic needs"
-msgstr "Ytterligare omvandling appliceras före visning omvandlas för konstnärliga behov"
+msgstr "Ytterligare transformering som tillämpas före visningstransformeringen för konstnärliga syften"
 
 #. :src: bpy.types.ColorManagedViewSettings.look:'NONE'
-#, fuzzy
 msgid "Do not modify image in an artistic manner"
 msgstr "Modifiera inte bilden på ett konstnärligt sätt"
 
 #. :src: bpy.types.ColorManagedViewSettings.use_curve_mapping
-#, fuzzy
 msgid "Use Curves"
 msgstr "Använd kurvor"
 
 #. :src: bpy.types.ColorManagedViewSettings.use_curve_mapping
-#, fuzzy
 msgid "Use RGB curved for pre-display transformation"
-msgstr "Använd RGB-kurva för omvandling före visning"
+msgstr "Använd RGB-kurva för transformering före visning"
 
 #. :src: bpy.types.ColorManagedViewSettings.use_hdr_view
-#, fuzzy
 msgid "High Dynamic Range"
 msgstr "Högt dynamiskt omfång"
 
 #. :src: bpy.types.ColorManagedViewSettings.use_hdr_view
-#, fuzzy
 msgid "Enable high dynamic range display in rendered viewport, uncapping display brightness. This requires a monitor with HDR support and a view transform designed for HDR. 'Filmic' and 'AgX' do not generate HDR colors."
-msgstr "Aktivera visning med högt dynamiskt omfång i den renderade visningsrutan, utan att begränsa ljusstyrkan. Detta kräver en bildskärm med HDR-stöd och en vytransformator som är utformad för HDR. \"Filmic\" och \"AgX\" genererar inte HDR-färger."
+msgstr "Aktivera visning med högt dynamiskt omfång i den renderade vyporten utan att begränsa visningens ljusstyrka. Detta kräver en bildskärm med HDR-stöd och en visningstransformering utformad för HDR. ”Filmic” och ”AgX” genererar inte HDR-färger."
 
 #. :src: bpy.types.ColorManagedViewSettings.use_white_balance
-#, fuzzy
 msgid "Use White Balance"
 msgstr "Använd vitbalans"
 
 #. :src: bpy.types.ColorManagedViewSettings.use_white_balance
-#, fuzzy
 msgid "Perform chromatic adaption from a different white point"
 msgstr "Utför kromatisk anpassning från en annan vitpunkt"
 
 #. :src: bpy.types.ColorManagedViewSettings.view_transform
-#, fuzzy
 msgid "View Transform"
 msgstr "Visningstransformering"
 
 #. :src: bpy.types.ColorManagedViewSettings.view_transform
-#, fuzzy
 msgid "View used when converting image to a display space"
-msgstr "Vy som används när bilden konverteras till ett visningsutrymme"
+msgstr "Visningstransformering som används vid konvertering av bilden till en visningsfärgrymd"
 
 #. :src: bpy.types.ColorManagedViewSettings.view_transform:'NONE'
-#, fuzzy
 msgid "Do not perform any color transform on display, use old non-color managed technique for display"
-msgstr "Utför ingen färgomvandling på displayen, använd gammal icke-färghanterad teknik för displayen"
+msgstr "Utför ingen färgtransformering för visningen; använd den gamla, icke-färghanterade visningstekniken"
 
 #. :src: bpy.types.ColorManagedViewSettings.white_balance_temperature
 #: scripts/startup/bl_ui/properties_scene.py:82
@@ -15750,12 +15733,10 @@ msgstr "Utför ingen färgomvandling på displayen, använd gammal icke-färghan
 #: source/blender/nodes/shader/nodes/node_shader_blackbody.cc:16
 #: source/blender/nodes/shader/nodes/node_shader_volume_info.cc:13
 #: source/blender/nodes/shader/nodes/node_shader_volume_principled.cc:40
-#, fuzzy
 msgid "Temperature"
 msgstr "Temperatur"
 
 #. :src: bpy.types.ColorManagedViewSettings.white_balance_temperature
-#, fuzzy
 msgid "Color temperature of the scene's white point"
 msgstr "Färgtemperatur för scenens vitpunkt"
 
@@ -15768,27 +15749,23 @@ msgstr "Färgtemperatur för scenens vitpunkt"
 #: source/blender/nodes/composite/nodes/node_composite_glare.cc:123
 #: source/blender/nodes/shader/nodes/node_shader_bsdf_hair_principled.cc:34
 #: source/blender/nodes/shader/nodes/node_shader_bsdf_principled.cc:251
-#, fuzzy
 msgid "Tint"
 msgstr "Färgton"
 
 #. :src: bpy.types.ColorManagedViewSettings.white_balance_tint
-#, fuzzy
 msgid "Color tint of the scene's white point (the default of 10 matches daylight)"
-msgstr "Färgton för scenens vitpunkt (standardvärdet 10 matchar dagsljus)"
+msgstr "Färgton för scenens vitpunkt (standardvärdet 10 motsvarar dagsljus)"
 
 #. :src: bpy.types.ColorManagedViewSettings.white_balance_whitepoint
 #. :src: bpy.types.CompositorNodeColorBalance.correction_method:'WHITEPOINT'
 #. :src: bpy.types.IMAGE_OT_curves_point_set.point:'WHITE_POINT'
-#, fuzzy
 msgid "White Point"
 msgstr "Vitpunkt"
 
 #. :src: bpy.types.ColorManagedViewSettings.white_balance_whitepoint
 #. :src: bpy.types.CompositorNodeColorBalance.input_whitepoint
-#, fuzzy
 msgid "The color which gets mapped to white (automatically converted to/from temperature and tint)"
-msgstr "Den färg som mappas till vit (konverteras automatiskt till/från temperatur och nyans)"
+msgstr "Den färg som mappas till vit (konverteras automatiskt till/från temperatur och färgton)"
 
 #. :src: bpy.types.ColorMapping
 #. :src: bpy.types.ShaderNodeTexBrick.color_mapping

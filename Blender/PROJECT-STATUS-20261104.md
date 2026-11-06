@@ -1920,3 +1920,14 @@ rapporterar endast etablerade Blender- och facktermer samt konstgjorda längd-
 och V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 219 granskar 24 poster för färgvisning, HDR, vitbalans och
+visningstransformering. Den ersätter de felaktiga formerna *display* och
+*vytransformator* med *visning* respektive *visningstransformering* och
+använder den etablerade Blender-termen *vyport*. Samtliga granskade poster
+har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-219-color-view-settings.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar endast etablerade Blender- och facktermer samt konstgjorda längd-
+och V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och
+väntar på manuell import.
+
