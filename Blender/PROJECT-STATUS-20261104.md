@@ -1786,3 +1786,14 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 och V2-varningar från sammanfogade UI-etiketter. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 207 granskar arton poster för armaturbenens ändpunkter och deras
+valbarhets-, matris- och skalningsbeskrivningar. I specifika benkontexter
+används *benhuvud* och *benspets*, medan den delade, flerkontextuella
+UI-etiketten *Tail* lämnas som *Svans* eftersom den också används för
+partikelsystem. Samtliga granskade poster har fått sina `fuzzy`-markeringar
+borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-207-bone-head-tail-context.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar enbart en konstgjord längd- och V2-varning från
+sammanfogade UI-etiketter. Filen är arkiverad och väntar på manuell import.
+
