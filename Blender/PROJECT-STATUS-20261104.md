@@ -1625,3 +1625,14 @@ granskade poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
 rapporterar bara en falsk V2-varning när korta UI-etiketter sammanfogas till
 löptext. Filen är arkiverad och väntar på manuell import.
 
+Batch 192 granskar tjugoåtta poster för animationsdata, NLA-extrapolering,
+åtgärdsslotar, drivrutiner och NLA-justeringsläge. Den rättar
+*animeringsdatablock* till den etablerade sammansättningen
+*animationsdatablock*. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-192-animation-data-nla.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar väntade Blender-termer samt längd- och V2-varningar som uppstår
+när oberoende UI-etiketter fogas ihop till löptext. Filen är arkiverad och
+väntar på manuell import.
+

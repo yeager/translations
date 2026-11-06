@@ -1,0 +1,184 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.AnimData.action_blend_type:'MULTIPLY'
+#. :src: bpy.types.NlaStrip.blend_type:'MULTIPLY'
+msgid "Weighted result of strip is multiplied with the accumulated results"
+msgstr "Remsans viktade resultat multipliceras med de ackumulerade resultaten"
+
+#. :src: bpy.types.AnimData.action_extrapolation
+msgid "Action Extrapolation"
+msgstr "Åtgärdsextrapolering"
+
+#. :src: bpy.types.AnimData.action_extrapolation
+msgid ""
+"Action to take for gaps past the Active Action's range (when evaluating with "
+"NLA)"
+msgstr ""
+"Åtgärd för luckor utanför den aktiva åtgärdens räckvidd (vid utvärdering med "
+"NLA)"
+
+#. :src: bpy.types.AnimData.action_extrapolation:'NOTHING'
+#. :src: bpy.types.NlaStrip.extrapolation:'NOTHING'
+msgid "Strip has no influence past its extents"
+msgstr "Remsan påverkar inte utanför sin utsträckning"
+
+#. :src: bpy.types.AnimData.action_extrapolation:'HOLD'
+#. :src: bpy.types.NlaStrip.extrapolation:'HOLD'
+msgid "Hold"
+msgstr "Behåll"
+
+#. :src: bpy.types.AnimData.action_extrapolation:'HOLD'
+#. :src: bpy.types.NlaStrip.extrapolation:'HOLD'
+msgid ""
+"Hold the first frame if no previous strips in track, and always hold last "
+"frame"
+msgstr ""
+"Håll den första bildrutan om det inte finns några tidigare remsor i spåret, "
+"och håll alltid den sista bildrutan"
+
+#. :src: bpy.types.AnimData.action_extrapolation:'HOLD_FORWARD'
+#. :src: bpy.types.NlaStrip.extrapolation:'HOLD_FORWARD'
+msgid "Only hold last frame"
+msgstr "Behåll endast den sista bildrutan"
+
+#. :src: bpy.types.AnimData.action_influence
+msgid "Action Influence"
+msgstr "Åtgärdens påverkan"
+
+#. :src: bpy.types.AnimData.action_influence
+msgid "Amount the Active Action contributes to the result of the NLA stack"
+msgstr ""
+"I vilken grad den aktiva åtgärden bidrar till resultatet av NLA-stapeln"
+
+#. :src: bpy.types.AnimData.action_slot
+#. :src: bpy.types.ActionConstraint.action_slot
+#. :src: bpy.types.NlaStrip.action_slot
+msgid "Action Slot"
+msgstr "Åtgärdsslot"
+
+#. :src: bpy.types.AnimData.action_slot
+msgid ""
+"The slot identifies which sub-set of the Action is considered to be for this "
+"data-block, and its name is used to find the right slot when assigning an "
+"Action"
+msgstr ""
+"Åtgärdsslotten anger vilken delmängd av åtgärden som hör till det här "
+"datablocket, och dess namn används för att hitta rätt åtgärdsslot när en "
+"åtgärd tilldelas"
+
+#. :src: bpy.types.AnimData.action_slot_handle
+#. :src: bpy.types.ActionConstraint.action_slot_handle
+#. :src: bpy.types.NlaStrip.action_slot_handle
+msgid "Action Slot Handle"
+msgstr "Handtag för åtgärdsslot"
+
+#. :src: bpy.types.AnimData.action_slot_handle
+msgid ""
+"A number that identifies which sub-set of the Action is considered to be for "
+"this data-block"
+msgstr ""
+"Ett nummer som identifierar vilken delmängd av åtgärden som anses vara för "
+"detta datablock"
+
+#. :src: bpy.types.AnimData.action_suitable_slots
+#. :src: bpy.types.Action.slots
+msgid "Slots"
+msgstr "Åtgärdsslotar"
+
+#. :src: bpy.types.AnimData.action_suitable_slots
+msgid "The list of slots in this animation data-block"
+msgstr "Listan över åtgärdsslotar i det här animationsdatablocket"
+
+#. :src: bpy.types.AnimData.action_tweak_storage
+msgid "Tweak Mode Action Storage"
+msgstr "Lagring av åtgärd i justeringsläge"
+
+#. :src: bpy.types.AnimData.action_tweak_storage
+msgid "Slot to temporarily hold the main action while in tweak mode"
+msgstr "Åtgärdsslot för att tillfälligt lagra huvudåtgärden i justeringsläge"
+
+#. :src: bpy.types.AnimData.drivers
+#. :src: bpy.types.AnimDataDrivers
+#. :src: bpy.types.SpaceGraphEditor.mode:'DRIVERS'
+#: source/blender/editors/animation/anim_channels_defines.cc:1624
+#: source/blender/editors/space_outliner/tree/tree_element_driver.cc:28
+msgid "Drivers"
+msgstr "Drivrutiner"
+
+#. :src: bpy.types.AnimData.drivers
+msgid "The Drivers/Expressions for this data-block"
+msgstr "Drivarna/uttrycken för det här datablocket"
+
+#. :src: bpy.types.AnimData.last_slot_identifier
+#. :src: bpy.types.ActionConstraint.last_slot_identifier
+#. :src: bpy.types.NlaStrip.last_slot_identifier
+msgid "Last Action Slot Identifier"
+msgstr "Identifierare för senast tilldelad åtgärdsslot"
+
+#. :src: bpy.types.AnimData.last_slot_identifier
+msgid ""
+"The identifier of the most recently assigned action slot. The slot "
+"identifies which sub-set of the Action is considered to be for this data-"
+"block, and its identifier is used to find the right slot when assigning an "
+"Action."
+msgstr ""
+"Identifieraren för den senast tilldelade åtgärdsslotten. Åtgärdsslotten "
+"anger vilken delmängd av åtgärden som avses för det här datablocket; "
+"identifieraren används för att hitta rätt åtgärdsslot när en åtgärd "
+"tilldelas."
+
+#. :src: bpy.types.AnimData.nla_tracks
+#. :src: bpy.types.NLA_MT_channel_context_menu
+#. :src: bpy.types.NlaTracks
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_animation_mode:'NLA_TRACKS'
+#: source/blender/editors/space_outliner/tree/tree_element_nla.cc:25
+msgid "NLA Tracks"
+msgstr "NLA-spår"
+
+#. :src: bpy.types.AnimData.nla_tracks
+msgid "NLA Tracks (i.e. Animation Layers)"
+msgstr "NLA-spår (t.ex. animationslager)"
+
+#. :src: bpy.types.AnimData.use_nla
+msgid "NLA Evaluation Enabled"
+msgstr "NLA-utvärdering aktiverad"
+
+#. :src: bpy.types.AnimData.use_nla
+msgid "NLA stack is evaluated when evaluating this block"
+msgstr "NLA-stapeln utvärderas när detta block utvärderas"
+
+#. :src: bpy.types.AnimData.use_tweak_mode
+msgid "Use NLA Tweak Mode"
+msgstr "Använd NLA-justeringsläge"
+
+#. :src: bpy.types.AnimData.use_tweak_mode
+msgid "Whether to enable or disable tweak mode in NLA"
+msgstr "Om NLA-justeringsläget ska aktiveras eller inaktiveras"
+
+#. :src: bpy.types.AnimDataDrivers
+msgid "Collection of Driver F-Curves"
+msgstr "Samling av F-kurvor för drivrutiner"
