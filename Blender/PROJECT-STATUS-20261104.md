@@ -1472,3 +1472,13 @@ passerar `msgfmt`, l10n-lint, diffkontroll och Gitleaks. `svlang` bedömer
 texten som naturlig; de enda sällsynta orden är avsedda Blender-termer och
 identifieraren `ID_SCE`. Filen är arkiverad och väntar på manuell import.
 
+Batch 177 granskar nitton poster för nodredigeraren. Den ersätter blandad
+engelska och felaktiga ordgrupper med konsekventa Blender-termer som
+*nodredigerare*, *nodträd*, *geometrinoder*, *shaderredigerare* och
+*texturnodredigerare*. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-177-node-editor.po` passerar `msgfmt`,
+l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang` rapporterar
+bara avsedda och sällsynta Blender-sammansättningar. Filen är arkiverad och
+väntar på manuell import.
+

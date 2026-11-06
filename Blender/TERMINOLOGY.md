@@ -252,6 +252,9 @@ Senast uppdaterad: 2026-11-06.
 | UV loop layer | UV-looplager | UV-lager som hör till meshens loopar. Använd *UV-looplager*, inte *UV-loopskikt*. |
 | vertex color / normal | hörnpunktsfärg / hörnpunktsnormal | Attribut på en mesh-hörnpunkt. |
 | node tree | nodträd | Blenders sammanlänkade nodstruktur. Sammansättningar är exempelvis *geometrinodträd*, *kompositionsnodträd* och *shadernodträd*. |
+| Node Editor | nodredigerare | UI-namn för redigeraren med nodträd. RNA-beskrivningen *Space Node Editor* använder formen *nodredigerarens område*. |
+| Shader Editor | shaderredigerare | UI-namn för nodredigeraren för shaders. Behåll facktermen *shader* och skriv sammansättningen ihop. |
+| Texture Node Editor | texturnodredigerare | UI-namn för nodredigeraren för texturer. |
 | compositor | komposition | Blender-funktionen för bildkomposition; *Compositor Node Tree* blir *kompositionsnodträd*. |
 | selection set | urvalsuppsättning | Namngiven samling av valbara element. |
 | delta location | deltaförflyttning | Extra förflyttning som läggs till ett objekts position. |
