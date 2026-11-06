@@ -384,6 +384,8 @@ Senast uppdaterad: 2026-11-06.
 | Bendy Bones | Bendy Bones | Synligt Blender-namn för böjliga ben; behåll produktnamnet i etiketter och den närliggande saktexten. |
 | B-Bone handle offset | förskjutning av axelhandtaget | I riggningshjälptexter: *Förskjutning av X-axelhandtaget vid början av B-Bone-kurvan*. Behåll B-Bone som Blenders kortnamn. |
 | B-Bone segment | B-Bone-segment | UI-egenskap för B-Bonens underindelning. Bindestrecket håller produktnamnet och den svenska efterleden läsbara. |
+| Octahedral | oktaedrisk / oktaedrar | Använd adjektivet i UI-värdet och substantivet i beskrivningen av benens visningsform. |
+| B-Spline | B-spline-kurva | Matematiskt kurvnamn i beskrivningar av B-Bones och trådvisning. |
 | bone collection | bensamling | Blender-samling för ben; skriv ihop i synlig UI-text. |
 | Envelope deform | kuvertdeformering | Deformeringsmetoden som använder benens kuvertvolymer; använd i Bens/Armaturens egenskaper. |
 | armature-relative | relativt riggskelett | Position eller orientering uttryckt i armaturens lokala koordinatsystem. |
