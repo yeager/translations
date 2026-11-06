@@ -1863,3 +1863,15 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 214 granskar 39 poster för animeringsdrivrutiner, barnpartiklar och
+tygsimuleringens kollisioner. Den ersätter det interna engelska namnet
+*ChannelDriver* med den begripliga UI-termen *drivrutinsvariabler*, skriver
+*barnpartikel* ihop och förtydligar skillnaden mellan kollision och
+kollisionssvar. Samtliga granskade poster har fått sina `fuzzy`-markeringar
+borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-214-drivers-particles-cloth-collision.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast etablerade Blender- och facktermer samt
+konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen är
+arkiverad och väntar på manuell import.
+
