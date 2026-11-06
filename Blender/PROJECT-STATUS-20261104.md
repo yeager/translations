@@ -1709,3 +1709,14 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 `svlang` ger 10/10 och rapporterar enbart förväntade Blender-termer. Filen
 är arkiverad och väntar på manuell import.
 
+Batch 200 granskar trettiofyra klasser och beskrivningar för
+geometriattribut. Den rättar grammatiska fel som *aktiv attribut* och
+*geometriattributer*, normaliserar heltals- och flyttalsvektorer samt
+bevarar det etablerade RNA-typnamnet *Float2-attribut*. Samtliga granskade
+poster har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-200-geometry-attribute-classes.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar enbart förväntade sammansatta Blendertermer och
+konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen
+är arkiverad och väntar på manuell import.
+
