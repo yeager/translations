@@ -6,8 +6,9 @@ Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
 skickat in samtliga sex delar manuellt till Blender Translate. Importresultat
 från Weblate har ännu inte verifierats i detta arkiv. De efterföljande lokala
-batcherna 287 för Grease Pencil-lökskalning och 288 för bilders alfahantering
-är arkiverade separat och ingår därför inte i de redan inskickade sex delarna.
+batcherna 287 för Grease Pencil-lökskalning, 288 för bilders alfahantering och
+289 för genererade bilder och UDIM är arkiverade separat och ingår därför inte
+i de redan inskickade sex delarna.
 
 ## Projektets aktualitet
 

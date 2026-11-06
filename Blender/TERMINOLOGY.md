@@ -561,6 +561,7 @@ Senast uppdaterad: 2026-11-06.
 | keymap item | tangentmappningspost | En enskild post i en tangentmappning. |
 | key configuration | tangentkonfiguration | Samling av Blender-tangentmappningar. |
 | tile (UDIM/image) | platta | Bild- eller UDIM-platta; inte kakel. |
+| Multi-View / views format | flera vyer / vyformat | Bildinställningar för parallella vyer, exempelvis stereo. Behåll inte engelska *Multi-View* i en svensk UI-etikett. |
 | NDOF | NDOF | Behåll enhetens produktförkortning; översätt den efterföljande synliga åtgärden med liten begynnelsebokstav. |
 | keyframe | nyckelbildruta | Grundterm för animeringspunkt på en F-kurva. |
 | quartic/quintic interpolation | fjärdegradig/femtegradig interpolering | Matematiska interpoleringsord; inte kvadratisk eller engelska funktionsnamn. |
