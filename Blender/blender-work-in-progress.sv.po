@@ -39194,7 +39194,7 @@ msgstr "Framåt"
 #. :src: bpy.types.CacheFile.frame
 #, fuzzy
 msgid "The time to use for looking up the data in the cache file, or to determine which file to use in a file sequence"
-msgstr "Den tid som ska användas för att leta upp data i cachefilen eller för att avgöra vilken fil som ska användas i en filsekvens"
+msgstr "Bildrutan som används för att slå upp data i cachefilen eller avgöra vilken fil som ska användas i en filsekvens"
 
 #. :src: bpy.types.CacheFile.frame_offset
 #. :src: bpy.types.MovieClip.frame_offset
@@ -39209,7 +39209,7 @@ msgstr "Bildruteförskjutning"
 #. :src: bpy.types.CacheFile.frame_offset
 #, fuzzy
 msgid "Subtracted from the current frame to use for looking up the data in the cache file, or to determine which file to use in a file sequence"
-msgstr "Subtraheras från den aktuella bildrutan för att användas för att leta upp data i cachefilen eller för att avgöra vilken fil som ska användas i en filsekvens"
+msgstr "Dras av från den aktuella bildrutan när data slås upp i cachefilen eller när en fil väljs ur en filsekvens"
 
 #. :src: bpy.types.CacheFile.is_sequence
 #. :src: bpy.types.Volume.is_sequence
@@ -39223,7 +39223,7 @@ msgstr "Sekvens"
 #. :src: bpy.types.Volume.is_sequence
 #, fuzzy
 msgid "Whether the cache is separated in a series of files"
-msgstr "Om cacheminnet är uppdelat i en serie filer"
+msgstr "Om cachen är uppdelad i en serie filer"
 
 #. :src: bpy.types.CacheFile.layers
 #, fuzzy
@@ -39249,17 +39249,17 @@ msgstr "Om en anpassad bildruta ska användas för att slå upp data i cachefile
 #. :src: bpy.types.CacheFile.prefetch_cache_size
 #, fuzzy
 msgid "Prefetch Cache Size"
-msgstr "Storlek på prefetch-cache"
+msgstr "Storlek på förhandsladdningscache"
 
 #. :src: bpy.types.CacheFile.prefetch_cache_size
 #, fuzzy
 msgid "Memory usage limit in megabytes for the Cycles Procedural cache, if the data does not fit within the limit, rendering is aborted"
-msgstr "Gräns för minnesanvändning i megabyte för Cycles Procedural cache, om data inte ryms inom gränsen avbryts renderingen"
+msgstr "Minnesgräns i megabyte för Cycles Procedural-cachen. Om data inte ryms inom gränsen avbryts renderingen"
 
 #. :src: bpy.types.CacheFile.scale
 #, fuzzy
 msgid "Value by which to enlarge or shrink the object with respect to the world's origin (only applicable through a Transform Cache constraint)"
-msgstr "Värde med vilket objektet ska förstoras eller förminskas i förhållande till världens ursprung (endast tillämpligt genom en Transform Cache-restriktion)"
+msgstr "Värde som förstorar eller förminskar objektet i förhållande till världens ursprung (gäller endast med en Transform Cache-begränsning)"
 
 #. :src: bpy.types.CacheFile.up_axis
 #. :src: bpy.types.MeshCacheModifier.up_axis
@@ -39316,12 +39316,12 @@ msgstr "Upp"
 #. :src: bpy.types.CacheFile.use_prefetch
 #, fuzzy
 msgid "Use Prefetch"
-msgstr "Använd Prefetch"
+msgstr "Använd förhandsladdning"
 
 #. :src: bpy.types.CacheFile.use_prefetch
 #, fuzzy
 msgid "When enabled, the Cycles Procedural will preload animation data for faster updates"
-msgstr "När den är aktiverad kommer Cycles Procedural att förladda animationsdata för snabbare uppdateringar"
+msgstr "När funktionen är aktiverad förladdar Cycles Procedural animationsdata för snabbare uppdateringar"
 
 #. :src: bpy.types.CacheFile.use_render_procedural
 #, fuzzy
@@ -39331,7 +39331,7 @@ msgstr "Använd renderingsmotorns procedur"
 #. :src: bpy.types.CacheFile.use_render_procedural
 #, fuzzy
 msgid "Display boxes in the viewport as placeholders for the objects, Cycles will use a procedural to load the objects during viewport rendering in experimental mode, other render engines will also receive a placeholder and should take care of loading the Alembic data themselves if possible"
-msgstr "Visa rutor i visningsområdet som platshållare för objekten, Cycles kommer att använda en procedur för att ladda objekten under visningsområdet i experimentellt läge, andra renderingsmotorer kommer också att få en platshållare och bör själva ladda Alembic-data om möjligt"
+msgstr "Visa rutor som platshållare för objekten i visningsområdet. I experimentellt läge använder Cycles en procedur för att läsa in objekten vid rendering i visningsområdet. Andra renderingsmotorer får också en platshållare och bör själva läsa in Alembic-data om möjligt"
 
 #. :src: bpy.types.CacheFile.velocity_name
 #, fuzzy
@@ -39354,7 +39354,7 @@ msgstr "Hastighetsenhet"
 #. :src: bpy.types.Volume.velocity_unit
 #, fuzzy
 msgid "Define how the velocity vectors are interpreted with regard to time, 'frame' means the delta time is 1 frame, 'second' means the delta time is 1 / FPS"
-msgstr "Definiera hur hastighetsvektorerna tolkas med avseende på tid, \"frame\" betyder att deltatiden är 1 frame, \"second\" betyder att deltatiden är 1 / FPS"
+msgstr "Ange hur hastighetsvektorerna tolkas med avseende på tid. \"Bildruta\" innebär att deltatiden är 1 bildruta och \"Sekund\" innebär 1/FPS"
 
 #. :src: bpy.types.CacheFile.velocity_unit:'SECOND'
 #. :src: bpy.types.Volume.velocity_unit:'SECOND'

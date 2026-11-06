@@ -2590,3 +2590,15 @@ Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
 från sammanfogade UI-etiketter. Gitleaks körs före arkivering. Filen väntar
 därefter på manuell import.
 
+Batch 278 granskar 10 strängar för Alembic-cachefiler, Cycles
+förhandsladdning och hastighetsenheter. Blenders Alembic-dokumentation
+bekräftar att cachefilen kan vara uppdelad i en filsekvens och att den läses
+in som animerad geometri. Översättningen skiljer därför cachefilen från
+allmänt cacheminne och använder *förhandsladdning* för *prefetch*.
+Terminologilistan har kompletterats med Cycles Procedural-cachen.
+Samtliga granskade poster får sina `fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-278-cachefile-and-alembic.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell, `svlang` och
+diffkontroll. Gitleaks körs före arkivering. Filen väntar därefter på
+manuell import.
+
