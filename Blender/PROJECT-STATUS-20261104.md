@@ -1385,3 +1385,14 @@ Gitleaks.
 Hunspell och `svlang` markerar enbart avsedda, projektspecifika sammansättningar
 och korrekta underordnade satser. Filen är arkiverad och väntar på manuell
 import.
+
+Batch 169 granskar fjorton NLA- och bakningsposter, inklusive två förekomster
+av *Sync Action Length*. Den rättar felaktiga ordagranna eller ogrammatiska
+former till bland annat `Synkronisera åtgärdslängd`, `Baka benens
+transformationer`, `Slutbildruta för bakning` och `Visuell
+nyckelbildsättning`. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-169-nla-baking.po` saknar
+`fuzzy`-markeringar och passerar `msgfmt`, l10n-lint, Hunspell för måltexterna,
+diffkontroll och Gitleaks. `svlang` markerar bara den projektbundna
+sammansättningen *nyckelbildsättning* och två grammatiska underordnade satser.
+Filen är arkiverad och väntar på manuell import.
