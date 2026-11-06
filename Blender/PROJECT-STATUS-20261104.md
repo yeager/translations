@@ -1852,3 +1852,14 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen är
 arkiverad och väntar på manuell import.
 
+Batch 213 granskar 51 kameraposter för bakgrundsbild, skärpedjup och
+stereoskopi. Den rättar den för snäva formen *bildförhållande* till
+*förhållande*, använder *inåtvinklad* för stereoläget *Toe-in* och följer
+terminologins *vridpunkt* för *Pivot*. Samtliga granskade poster har fått sina
+`fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-213-camera-background-depth-stereo.po`
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` rapporterar endast etablerade Blender- och facktermer samt
+konstgjorda längd- och V2-varningar från sammanfogade UI-etiketter. Filen är
+arkiverad och väntar på manuell import.
+
