@@ -299,6 +299,8 @@ Senast uppdaterad: 2026-11-06.
 | Track Axis | riktningsaxel | Den lokala axel som pekar mot målet i Blenders spårningsbegränsningar. |
 | Track To | Rikta mot | Synlig Constraint-etikett för att orientera objektet mot ett mål. Skilj från film- och rörelsespårning. |
 | Shrinkwrap | Shrinkwrap | Behåll Blenders synliga funktionsnamn. Funktionen anpassar meshens hörnpunkter till en målyta; den är inte förpackningsmaterial som *krympfilm*. Sammansättningar skrivs *Shrinkwrap-modifierare* och *Shrinkwrap-begränsning*. |
+| hair curve / hair root / hair tip | hårkurva / hårrot / hårspets | Avser den hårgeometri som bearbetas av Blenders Hair Nodes. Skriv därför *hårkurvor*, *rot* och *spets* i de här nodernas beskrivningar, inte *hårets kurvor*, *topp* eller engelska *tips*. |
+| Roll Direction (Hair Nodes) | rullningsriktning | Riktningen som en hårkurva rullas kring sin axel. Använd *rullning* och *rullningsriktning*, inte det ospecificerade *riktning*. |
 | constraint | begränsning | Blender-relation som styr ett objekt eller ben. Skriv sammansättningar som *positionsbegränsning*, *rotationsbegränsning*, *skalbegränsning* och *avståndsbegränsning*. |
 | project axis | projektionsaxel | Axeln som Shrinkwrap projicerar längs. Skilj från ett projekts egen axel. |
 | target normal | målnormal | Normal från målets yta, till exempel i Shrinkwrap-projektion. |

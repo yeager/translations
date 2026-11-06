@@ -10,11 +10,12 @@ batcherna 287 för Grease Pencil-lökskalning, 288 för bilders alfahantering,
 289 för genererade bilder och UDIM samt 290 för ljustyper och penselresurser
 och 291 för ljusinställningar och skuggor samt 292 för Light Probes är
 arkiverade separat, liksom batch 293 för materialinställningar och 294 för
-meshtopologi och UV-lager samt 295 för Movie Clip och kompositörvisning, och
-ingår därför inte i de redan inskickade sex delarna.
+meshtopologi och UV-lager samt 295 för Movie Clip och kompositörvisning samt
+296 för hårnodernas deformation, och ingår därför inte i de redan inskickade
+sex delarna.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-295.po`
-med 101 poster, som omfattar alla färdiga batcher efter sexdelsimporten. Den
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-296.po`
+med 127 poster, som omfattar alla färdiga batcher efter sexdelsimporten. Den
 ersätter tidigare samlingsfiler för detta intervall, är redo för manuell import
 och har inte skickats in eller verifierats i Weblate.
 
