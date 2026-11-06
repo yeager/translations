@@ -2691,3 +2691,16 @@ Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
 `svlang` markeringar rapporteras separat. Gitleaks körs före arkivering.
 Filen väntar därefter på manuell import.
 
+Batch 285 granskar 9 strängar för Freestyle-kedjors urval och
+tjockleksplacering. Blenders Freestyle-dokumentation använder
+*border edges* för funktionskanter vid gränser; översättningen normaliserar
+dem till *gränskanter* i stället för de inkonsekventa och felaktiga formerna
+*kantkanter* och *kantlinjer*. Den normaliserar också *Thickness Position*
+till *tjockleksplacering* samt den kurvlinjära 2D-längden. Terminologilistan
+har kompletterats med Freestyles gränskant och tjockleksplacering. Samtliga
+granskade poster får sina `fuzzy`-markeringar borttagna i deltafilen
+`blender-ui-sv-reviewed-20261106-batch-285-freestyle-thickness-position.po`.
+Filen passerar `msgfmt`, l10n-lint, riktad Hunspell och diffkontroll.
+`svlang` markeringar rapporteras separat. Gitleaks körs före arkivering.
+Filen väntar därefter på manuell import.
+
