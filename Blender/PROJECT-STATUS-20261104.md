@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-370.po`
-med 1 019 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-371.po`
+med 1 029 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3111,4 +3111,11 @@ felaktiga betydelsen *själv*, och använder konsekvent *indata* för
 drivrutinernas egenskapsvärden. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-370-driver-variables-and-targets.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 371 granskar tio Driver Target-poster för bennamn, kontextegenskaper,
+aktuell scen och aktuellt vylager, RNA-sökvägar samt reservvärden. Den rättar
+den felaktiga formen *använd fastighet* till *den egenskap som används* och
+normaliserar *Bennamn* samt *Kontextegenskap*. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-371-driver-target-context.po` är
+lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
