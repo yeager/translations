@@ -605,6 +605,7 @@ Senast uppdaterad: 2026-11-06.
 | translation (motion tracking) | förflyttning | Geometrisk positionsändring vid spårning eller stabilisering, aldrig språköversättning. |
 | bundle (motion tracking) | rekonstruerad punkt | Den 3D-punkt som återuppbyggs från ett spår. |
 | solver (motion tracking) | lösare | Beräkningsmetod för kamera- eller objektspårning; använd *lösare* i förklarande UI-text. |
+| Camera Solver Constraint | kameralösarbegränsning | Begränsning som gör att en Blender-kamera följer den rekonstruerade rörelsen hos en fysisk kamera från ett filmklipp. |
 | compositor | kompositör | Blenders nodbaserade miljö för bildkomposition; använd *kompositör*, inte det engelska *compositor*. |
 | matte (keying) | matta | Friläggningsmask som beskriver genomskinlighet, inte en fysisk matt yta. |
 | highlight (color correction) | högdager | Ljusaste tonområdet i bild- och färgkorrigeringskontext. |
