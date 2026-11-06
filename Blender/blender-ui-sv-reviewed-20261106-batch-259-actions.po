@@ -1,0 +1,133 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.Action.curve_frame_range
+msgid "Curve Frame Range"
+msgstr "F-kurvornas bildruteintervall"
+
+#. :src: bpy.types.Action.curve_frame_range
+msgid "The combined frame range of all F-Curves within this action"
+msgstr ""
+"Det sammanlagda bildruteintervallet för alla F-kurvor i den här åtgärden"
+
+#. :src: bpy.types.Action.fcurves
+msgid ""
+"Legacy API, for backward compatibility with code that does not handle "
+"slotted actions yet. This collection contains the F-Curves for the action's "
+"first slot"
+msgstr ""
+"Äldre API för bakåtkompatibilitet med kod som ännu inte hanterar "
+"åtgärdsplatser. Samlingen innehåller F-kurvorna i åtgärdens första plats"
+
+#. :src: bpy.types.Action.frame_end
+msgid "The end frame of the manually set intended playback range"
+msgstr "Slutbildrutan i det manuellt angivna avsedda uppspelningsintervallet"
+
+#. :src: bpy.types.Action.frame_range
+msgid ""
+"The intended playback frame range of this action, using the manually set "
+"range if available, or the combined frame range of all F-Curves within this "
+"action if not (assigning sets the manual frame range)"
+msgstr ""
+"Det avsedda uppspelningsbildruteintervallet för den här åtgärden. Om ett "
+"manuellt intervall finns används det, annars används det sammanlagda "
+"intervallet för alla F-kurvor (när ett värde tilldelas ställs det manuella "
+"intervallet in)"
+
+#. :src: bpy.types.Action.frame_start
+msgid "The start frame of the manually set intended playback range"
+msgstr "Startbildrutan i det manuellt angivna avsedda uppspelningsintervallet"
+
+#. :src: bpy.types.Action.groups
+msgid ""
+"Legacy API, for backward compatibility with code that does not handle "
+"slotted actions yet. This collection contains the F-Curve groups for the "
+"action's first slot"
+msgstr ""
+"Äldre API för bakåtkompatibilitet med kod som ännu inte hanterar "
+"åtgärdsplatser. Samlingen innehåller F-kurvgrupperna i åtgärdens första plats"
+
+#. :src: bpy.types.Action.is_action_layered
+msgid "Is Layered Action"
+msgstr "Är en skiktad åtgärd"
+
+#. :src: bpy.types.Action.is_action_layered
+msgid ""
+"Return whether this is a layered Action. An empty Action considered as both "
+"a 'layered' and a 'layered' Action."
+msgstr ""
+"Anger om detta är en skiktad åtgärd. En tom åtgärd betraktas som både "
+"skiktad och äldre."
+
+#. :src: bpy.types.Action.is_action_legacy
+msgid ""
+"Return whether this is a legacy Action. Legacy Actions have no layers or "
+"slots. An empty Action considered as both a 'legacy' and a 'layered' Action. "
+"Since Blender 4.4 actions are automatically updated to layered actions, and "
+"thus this will only return True when the action is empty"
+msgstr ""
+"Anger om detta är en äldre åtgärd. Äldre åtgärder saknar lager och "
+"åtgärdsplatser. En tom åtgärd betraktas som både äldre och skiktad. Sedan "
+"Blender 4.4 uppdateras åtgärder automatiskt till skiktade åtgärder, så detta "
+"returnerar True endast när åtgärden är tom"
+
+#. :src: bpy.types.Action.is_empty
+msgid "False when there is any Layer, Slot, or legacy F-Curve"
+msgstr "Falskt om det finns ett lager, en åtgärdsplats eller en äldre F-kurva"
+
+#. :src: bpy.types.Action.layers
+msgid "The list of layers that make up this Action"
+msgstr "Listan över lager som utgör den här åtgärden"
+
+#. :src: bpy.types.Action.pose_markers
+msgid "Pose Markers"
+msgstr "Poseringsmarkörer"
+
+#. :src: bpy.types.Action.pose_markers
+msgid "Markers specific to this action, for labeling poses"
+msgstr "Markörer särskilt för den här åtgärden, som märker ut poser"
+
+#. :src: bpy.types.Action.slots
+msgid "The list of slots in this Action"
+msgstr "Listan över åtgärdsplatser i den här åtgärden"
+
+#. :src: bpy.types.Action.use_cyclic
+msgid ""
+"The action is intended to be used as a cycle looping over its manually set "
+"playback frame range (enabling this doesn't automatically make it loop)"
+msgstr ""
+"Åtgärden är avsedd att användas som en cykel som upprepar sig inom det "
+"manuellt angivna uppspelningsbildruteintervallet (aktivering gör inte att "
+"den automatiskt upprepar sig)"
+
+#. :src: bpy.types.Action.use_frame_range
+msgid ""
+"Manually specify the intended playback frame range for the action (this "
+"range is used by some tools, but does not affect animation evaluation)"
+msgstr ""
+"Ange det avsedda uppspelningsbildruteintervallet manuellt för åtgärden "
+"(intervallet används av vissa verktyg men påverkar inte "
+"animeringsutvärderingen)"

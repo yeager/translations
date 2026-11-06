@@ -35319,22 +35319,22 @@ msgstr "En samling F-kurvor för animering"
 #. :src: bpy.types.Action.curve_frame_range
 #, fuzzy
 msgid "Curve Frame Range"
-msgstr "Kurvornas bildruteintervall"
+msgstr "F-kurvornas bildruteintervall"
 
 #. :src: bpy.types.Action.curve_frame_range
 #, fuzzy
 msgid "The combined frame range of all F-Curves within this action"
-msgstr "Det sammanlagda bildruteintervallet för alla F-kurvor i denna åtgärd"
+msgstr "Det sammanlagda bildruteintervallet för alla F-kurvor i den här åtgärden"
 
 #. :src: bpy.types.Action.fcurves
 #, fuzzy
 msgid "Legacy API, for backward compatibility with code that does not handle slotted actions yet. This collection contains the F-Curves for the action's first slot"
-msgstr "Äldre API, för bakåtkompatibilitet med kod som ännu inte hanterar slotted actions. Denna samling innehåller F-kurvorna för åtgärdens första slot"
+msgstr "Äldre API för bakåtkompatibilitet med kod som ännu inte hanterar åtgärdsplatser. Samlingen innehåller F-kurvorna i åtgärdens första plats"
 
 #. :src: bpy.types.Action.frame_end
 #, fuzzy
 msgid "The end frame of the manually set intended playback range"
-msgstr "Slutbildrutan för det manuellt inställda avsedda uppspelningsintervallet"
+msgstr "Slutbildrutan i det manuellt angivna avsedda uppspelningsintervallet"
 
 #. :src: bpy.types.Action.frame_range
 #. :src: bpy.types.ANIM_OT_channels_bake.range
@@ -35348,12 +35348,12 @@ msgstr "Bildruteintervall"
 #. :src: bpy.types.Action.frame_range
 #, fuzzy
 msgid "The intended playback frame range of this action, using the manually set range if available, or the combined frame range of all F-Curves within this action if not (assigning sets the manual frame range)"
-msgstr "Det avsedda bildintervallet för uppspelning av denna åtgärd, med hjälp av det manuellt inställda intervallet om det är tillgängligt, eller det kombinerade bildintervallet för alla F-kurvor i denna åtgärd om så inte är fallet (tilldelning anger det manuella bildintervallet)"
+msgstr "Det avsedda uppspelningsbildruteintervallet för den här åtgärden. Om ett manuellt intervall finns används det, annars används det sammanlagda intervallet för alla F-kurvor (när ett värde tilldelas ställs det manuella intervallet in)"
 
 #. :src: bpy.types.Action.frame_start
 #, fuzzy
 msgid "The start frame of the manually set intended playback range"
-msgstr "Startbildrutan för det manuellt inställda avsedda uppspelningsintervallet"
+msgstr "Startbildrutan i det manuellt angivna avsedda uppspelningsintervallet"
 
 #. :src: bpy.types.Action.groups
 #. :src: bpy.types.LatticePoint.groups
@@ -35364,7 +35364,7 @@ msgstr "Grupper"
 #. :src: bpy.types.Action.groups
 #, fuzzy
 msgid "Legacy API, for backward compatibility with code that does not handle slotted actions yet. This collection contains the F-Curve groups for the action's first slot"
-msgstr "Äldre API för bakåtkompatibilitet med kod som ännu inte hanterar åtgärder med slotar. Denna samling innehåller F-kurvgrupperna för åtgärdens första åtgärdsslot"
+msgstr "Äldre API för bakåtkompatibilitet med kod som ännu inte hanterar åtgärdsplatser. Samlingen innehåller F-kurvgrupperna i åtgärdens första plats"
 
 #. :src: bpy.types.Action.id_root
 #, fuzzy
@@ -35380,12 +35380,12 @@ msgstr "Äldre API för bakåtkompatibilitet med kod som ännu inte hanterar åt
 #. :src: bpy.types.Action.is_action_layered
 #, fuzzy
 msgid "Is Layered Action"
-msgstr "Är skiktad åtgärd"
+msgstr "Är en skiktad åtgärd"
 
 #. :src: bpy.types.Action.is_action_layered
 #, fuzzy
 msgid "Return whether this is a layered Action. An empty Action considered as both a 'layered' and a 'layered' Action."
-msgstr "Returnerar om detta är en skiktad åtgärd. En tom åtgärd betraktas som både en \"skiktad\" och en \"skiktad\" åtgärd."
+msgstr "Anger om detta är en skiktad åtgärd. En tom åtgärd betraktas som både skiktad och äldre."
 
 #. :src: bpy.types.Action.is_action_legacy
 #, fuzzy
@@ -35395,7 +35395,7 @@ msgstr "Är äldre åtgärd"
 #. :src: bpy.types.Action.is_action_legacy
 #, fuzzy
 msgid "Return whether this is a legacy Action. Legacy Actions have no layers or slots. An empty Action considered as both a 'legacy' and a 'layered' Action. Since Blender 4.4 actions are automatically updated to layered actions, and thus this will only return True when the action is empty"
-msgstr "Returnerar om detta är en äldre åtgärd. Äldre åtgärder har inga lager eller slots. En tom Action betraktas som både en \"legacy\" och en \"layered\" Action. Sedan Blender 4.4 uppdateras åtgärder automatiskt till lagrade åtgärder, och därför kommer detta endast att returnera True när åtgärden är tom"
+msgstr "Anger om detta är en äldre åtgärd. Äldre åtgärder saknar lager och åtgärdsplatser. En tom åtgärd betraktas som både äldre och skiktad. Sedan Blender 4.4 uppdateras åtgärder automatiskt till skiktade åtgärder, så detta returnerar True endast när åtgärden är tom"
 
 #. :src: bpy.types.Action.is_empty
 #, fuzzy
@@ -35405,7 +35405,7 @@ msgstr "Är tom"
 #. :src: bpy.types.Action.is_empty
 #, fuzzy
 msgid "False when there is any Layer, Slot, or legacy F-Curve"
-msgstr "Falskt när det finns ett lager, en plats eller en äldre F-kurva"
+msgstr "Falskt om det finns ett lager, en åtgärdsplats eller en äldre F-kurva"
 
 #. :src: bpy.types.Action.layers
 #. :src: bpy.types.GreasePencil.layers
@@ -35428,22 +35428,22 @@ msgstr "Lager"
 #. :src: bpy.types.Action.layers
 #, fuzzy
 msgid "The list of layers that make up this Action"
-msgstr "Listan över de lager som utgör denna åtgärd"
+msgstr "Listan över lager som utgör den här åtgärden"
 
 #. :src: bpy.types.Action.pose_markers
 #, fuzzy
 msgid "Pose Markers"
-msgstr "Pose-markörer"
+msgstr "Poseringsmarkörer"
 
 #. :src: bpy.types.Action.pose_markers
 #, fuzzy
 msgid "Markers specific to this action, for labeling poses"
-msgstr "Markörer som är specifika för denna åtgärd, för märkning av poser"
+msgstr "Markörer särskilt för den här åtgärden, som märker ut poser"
 
 #. :src: bpy.types.Action.slots
 #, fuzzy
 msgid "The list of slots in this Action"
-msgstr "Listan över slots i denna Action"
+msgstr "Listan över åtgärdsplatser i den här åtgärden"
 
 #. :src: bpy.types.Action.use_cyclic
 #, fuzzy
@@ -35453,7 +35453,7 @@ msgstr "Cyklisk animering"
 #. :src: bpy.types.Action.use_cyclic
 #, fuzzy
 msgid "The action is intended to be used as a cycle looping over its manually set playback frame range (enabling this doesn't automatically make it loop)"
-msgstr "Åtgärden är avsedd att användas som en cykel som loopar över sitt manuellt inställda uppspelningsbildintervall (aktivering av detta gör inte att den automatiskt loopar)"
+msgstr "Åtgärden är avsedd att användas som en cykel som upprepar sig inom det manuellt angivna uppspelningsbildruteintervallet (aktivering gör inte att den automatiskt upprepar sig)"
 
 #. :src: bpy.types.Action.use_frame_range
 #, fuzzy
@@ -35463,7 +35463,7 @@ msgstr "Manuellt bildruteintervall"
 #. :src: bpy.types.Action.use_frame_range
 #, fuzzy
 msgid "Manually specify the intended playback frame range for the action (this range is used by some tools, but does not affect animation evaluation)"
-msgstr "Ange manuellt det avsedda uppspelningsbildintervallet för åtgärden (detta intervall används av vissa verktyg, men påverkar inte animationsutvärderingen)"
+msgstr "Ange det avsedda uppspelningsbildruteintervallet manuellt för åtgärden (intervallet används av vissa verktyg men påverkar inte animeringsutvärderingen)"
 
 #. :src: bpy.types.Armature
 #, fuzzy

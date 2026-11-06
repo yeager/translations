@@ -1393,6 +1393,19 @@ Hunspell och `svlang` markerar enbart avsedda, projektspecifika sammansättninga
 och korrekta underordnade satser. Filen är arkiverad och väntar på manuell
 import.
 
+Batch 259 granskar 18 API-strängar för Actions, F-kurvor och den nyare
+lager- och åtgärdsplatsstrukturen. Den ersätter bland annat engelska
+*slot*, *slotted actions* och *loopar* med *åtgärdsplats*, *skiktad
+åtgärd*, *äldre åtgärd* och svenska beskrivningar av upprepning. Den
+klargör också bildruteintervall och äldre API-beteende. Terminologilistan
+har kompletterats med *åtgärdsplats*, *skiktad åtgärd* och *äldre åtgärd*.
+Samtliga granskade poster har fått sina `fuzzy`-markeringar borttagna i
+deltafilen `blender-ui-sv-reviewed-20261106-batch-259-actions.po`. Filen
+passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
+`svlang` varnar endast när den behandlar flera sammanfogade UI-etiketter
+som en 60 ord lång mening samt för fackordet *bildruteintervall*. Filen är
+arkiverad och väntar på manuell import.
+
 Batch 169 granskar fjorton NLA- och bakningsposter, inklusive två förekomster
 av *Sync Action Length*. Den rättar felaktiga ordagranna eller ogrammatiska
 former till bland annat `Synkronisera åtgärdslängd`, `Baka benens
