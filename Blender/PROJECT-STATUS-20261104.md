@@ -1636,3 +1636,14 @@ rapporterar väntade Blender-termer samt längd- och V2-varningar som uppstår
 när oberoende UI-etiketter fogas ihop till löptext. Filen är arkiverad och
 väntar på manuell import.
 
+Batch 193 granskar trettiofyra poster för rörelsebanor. Den rättar särskilt
+felaktiga benändar, *Baka position*, *Startram*, *Slutbild* och den
+felöversatta *avskalning av lök*. Terminologilistan kompletteras med
+*beräkningsposition*, *benhuvud* och *benspets*. Samtliga granskade poster
+har fått sina `fuzzy`-markeringar borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-193-motion-paths.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar väntade sammansättningar samt konstgjorda längd- och
+V2-varningar när UI-etiketter fogas ihop till löptext. Filen är arkiverad och
+väntar på manuell import.
+

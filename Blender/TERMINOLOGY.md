@@ -22,6 +22,8 @@ Senast uppdaterad: 2026-11-06.
 | bake (rendering/simulation) | baka / bakning | Behåll Blenders etablerade verb i procedur- och inställningstexter: *Baka till aktiv kamera*, *bakningsdata*. Det gäller inte köksbetydelsen. |
 | normal space | normalrymd | Val av koordinatrymd för normaldata vid bakning. De konkreta alternativen skrivs *tangentrymd*, *objektrymd* och *världsrymd*. |
 | onion skinning | lökskalning | Animeringsvisning med spökbilder från närliggande bildrutor. Undvik bokstavliga former som *avskalning av lök*. |
+| Bake Location (motion paths) | beräkningsposition | Valet av benhuvud eller benspets när rörelsebanor beräknas. |
+| bone head / tail | benhuvud / benspets | Blenders ändpunkter för ett ben i armatur- och rörelsebanekontext. |
 | scope name | scope-namn | Behåll den tekniska källtermen i GPU-felsökningens fångstalternativ. Det är namnet som skickas till `--debug-gpu-scope-capture`, inte Blenders bildanalysvy *Scopes*. |
 | Resolution Scale | upplösningsskala | Etablerad UI-term för skalan av teckensnitt och knappar vid visning. |
 | File Browser | filbläddrare | UI-beteckning för den editor som öppnar och sparar filer. Anpassa bestämd form i löpande text. |
