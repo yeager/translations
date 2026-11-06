@@ -1556,3 +1556,14 @@ bara väntade träffar när fristående UI-etiketter läses som löptext:
 Blender-termer och en falsk V2-varning. Filen är arkiverad och väntar på
 manuell import.
 
+Batch 185 granskar tretton poster för actionsystemets animationskanaler,
+åtgärdsslotar och F-kurvor. Den normaliserar särskilt den gemensamma
+UI-termen *slot*, lägesangivelsen för F-kurvor och animeringskanalernas
+beskrivningar. Samtliga granskade poster har fått sina `fuzzy`-markeringar
+borttagna. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-185-action-channel-slots.po` passerar
+`msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks. `svlang`
+rapporterar väntat en konstgjord lång mening och en falsk V2-varning när
+fristående UI-etiketter analyseras som löptext. Filen är arkiverad och väntar
+på manuell import.
+
