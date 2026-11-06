@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-395.po`
-med 1 266 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261106-post-upload-batches-287-396.po`
+med 1 276 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -3281,5 +3281,12 @@ Batch 395 granskar tio Blender-poster för virvel- och vindeffektorer samt
 RNA-objektens enum-egenskaper. Den behåller *enum* och *RNA* som tekniska
 kodtermer, men granskar deras svenska omgivande text och identifierare.
 Deltafilen `blender-ui-sv-reviewed-20261106-batch-395-effectors-and-rna-enums.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
+Batch 396 granskar tio Blender-poster för F-kurvor, RNA-arrayindex och
+automatiska handtag i grafredigeraren. Den använder projektets etablerade
+form *F-kurva* och skriver *F-kurvans färg i grafredigeraren* med korrekt
+svensk ordföljd. Deltafilen
+`blender-ui-sv-reviewed-20261106-batch-396-animation-fcurve-handles.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
