@@ -7641,3 +7641,16 @@ en separat manuell deltafil med dessa 17, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–879. Den innehåller 681 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 880 rättar nodterminologin i färgrymdsinställningen: *shader* används
+konsekvent som Blenders fackterm, parallellt med *kompositionsnoder* och
+*geometrinoder*. Batchen är lokalt klar men ännu inte importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-880-node-processing-terminology.po`
+är en separat manuell deltafil med denna lokalt granskade ändring.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-880.po` är den aktuella
+samlade manuella deltafilen för batch 811–880. Den innehåller 682 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
