@@ -4671,3 +4671,13 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 562 granskar sju poster för *Create Guide Index Map*, som skapar ett
+attribut som kopplar varje hårkurva till närmaste guidekurva. Den ersätter den
+felaktiga frasen *Styr kurvorna* med *Guidekurvor*, och normaliserar
+*guideurval* och *guideindexkarta*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-562-create-guide-index-map.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-562.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
