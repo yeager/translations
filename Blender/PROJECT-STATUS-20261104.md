@@ -6393,6 +6393,17 @@ interna `Space…`-kontexten. Batchen har passerat `msgfmt`, `l10n-lint` och
 manuella importfilen. Den innehåller 87 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 773 normaliserar fyra ytterligare editor- och nodtermer: en
+tangentmappnings redigerartyp, uttagets indatavärde, nodredigerarens
+trädsökväg och rensning av områdesdata. Batchen har passerat `msgfmt`,
+`l10n-lint` och `svlang`; den enda ovanliga termen är den avsiktliga
+Blender-sammansättningen *nodredigerarens*. Den är lokalt klar men ännu inte
+importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-761-773.po` är den aktuella
+manuella importfilen. Den innehåller 91 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
