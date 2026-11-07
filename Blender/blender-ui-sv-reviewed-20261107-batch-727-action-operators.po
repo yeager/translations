@@ -1,0 +1,92 @@
+# Blender UI Swedish review delta – Action operators and NLA
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
+"PO-Revision-Date: 2026-11-07 22:05+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. :src: bpy.types.OBJECT_OT_rigify_jump_to_action_slot
+msgid "Set Active Action Slot Index"
+msgstr "Ange index för aktiv Action-slot"
+
+#. :src: bpy.types.OBJECT_OT_rigify_jump_to_action_slot
+msgctxt "Operator"
+msgid "Jump to Action Slot"
+msgstr "Gå till Action-slot"
+
+#. :src: bpy.types.ANIM_OT_replace_action_new
+msgctxt "Operator"
+msgid "Replace with New Action"
+msgstr "Ersätt med ny Action"
+
+#. :src: bpy.types.ANIM_OT_replace_action_new
+msgid "Swap all users of one action to a new action. This ignores the NLA and Action Constraints"
+msgstr "Byt alla användare av en Action till en ny Action. Detta ignorerar NLA och Action-begränsningar"
+
+#. :src: bpy.types.ANIM_OT_separate_slots
+msgid "Move all slots of the action on the active object into newly created, separate actions. All users of those slots will be reassigned to the new actions. The current action won't be deleted but will be empty and might end up having zero users"
+msgstr "Flytta alla slotar i det aktiva objektets Action-datablock till nyss skapade, separata Action-datablock. Alla användare av dessa slotar kommer att omfördelas till de nya Action-datablocken. Det aktuella Action-datablocket raderas inte men blir tomt och kan till slut få noll användare"
+
+#. :src: bpy.types.ANIM_OT_slot_channels_move_to_new_action
+msgctxt "Operator"
+msgid "Move Slots to new Action"
+msgstr "Flytta slotar till ny Action"
+
+#. :src: bpy.types.ANIM_OT_slot_channels_move_to_new_action
+msgid "Move the selected slots into a newly created action"
+msgstr "Flytta de valda slotarna till en ny Action"
+
+#. :src: bpy.types.ANIM_OT_slot_new_for_id
+msgid "Create a new action slot for this data-block, to hold its animation"
+msgstr "Skapa en ny Action-slot för detta datablock för att lagra dess animering"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_constraint
+msgid "Un-assign the action slot from this constraint"
+msgstr "Ta bort tilldelningen av Action-slotten från denna begränsning"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_id
+msgid "Un-assign the action slot, effectively making this data-block non-animated"
+msgstr "Ta bort tilldelningen av Action-slotten, vilket innebär att detta datablock inte längre animeras"
+
+#. :src: bpy.types.NLA_OT_action_pushdown.track_index
+msgid "Index of NLA action track to perform pushdown operation on"
+msgstr "Index för NLA-Action-spåret som Action ska skjutas ned i"
+
+#. :src: bpy.types.NLA_OT_actionclip_add
+msgctxt "Operator"
+msgid "Add Action Strip"
+msgstr "Lägg till Action-remsa"
+
+#. :src: bpy.types.NLA_OT_actionclip_add
+msgid "Add an Action-Clip strip (i.e. an NLA Strip referencing an Action) to the active track"
+msgstr "Lägg till en Action-clippremsa (en NLA-remsa som refererar till en Action) i det aktiva spåret"
+
+#. :src: bpy.types.ActionSlot.action
+msgid "Action to apply to the rig via constraints"
+msgstr "Action som ska tillämpas på riggen via begränsningar"
+
+#. :src: bpy.types.ActionSlot.action_slot_ui
+msgid "Slot of the Action to use for the Action Constraints"
+msgstr "Slot för den Action som ska användas för Action-begränsningarna"
+
+#. :src: bpy.types.ThemeNLAEditor.strips
+msgid "Unselected Action-Clip Strip"
+msgstr "Omarkerad Action-clippremsa"
+
+#. :src: bpy.types.ThemeNLAEditor.strips_selected
+msgid "Selected Action-Clip Strip"
+msgstr "Vald Action-clippremsa"
+
+#. :src: bpy.types.ToolSettings.use_proportional_action
+msgid "Proportional Editing Actions"
+msgstr "Proportionell redigering av Action"
+
+#. :src: bpy.types.ToolSettings.use_proportional_action
+msgid "Proportional editing in action editor"
+msgstr "Proportionell redigering i Action-redigeraren"

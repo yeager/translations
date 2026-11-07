@@ -6005,6 +6005,12 @@ synliga noder behåller Blenders etablerade term *utgångsnod*, medan verkliga
 dataobjekt använder *indata* och *utdata*: exempelvis *slutningsindataobjekt*
 och *filutdataobjekt*. Batchen är lokalt kontrollerad och ännu inte importerad.
 
+Batch 727 fortsätter den avgränsade Action-granskningen i operatörer och
+NLA-redigeraren. Den använder *Action-datablock* i löpande text när det gör
+det formella namnet böjbart och lättläst, samt *Action-slot*, *Action-remsa*
+och *Action-clippremsa* i synliga UI-etiketter. Batchen är lokalt kontrollerad
+och ännu inte importerad.
+
 Batch 726 granskar 22 UI- och API-texter för Blenders formella
 animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
 *Action-kanal*, *Action-längd* och *Action-nyckelbildruta*, medan vanliga
