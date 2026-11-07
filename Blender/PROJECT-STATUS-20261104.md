@@ -6027,6 +6027,14 @@ feltexter i Action- och NLA-redigerarna. Den använder konsekvent
 formella animationsdatatypen. Batchen är lokalt kontrollerad och ännu inte
 importerad.
 
+Efter den serververifierade importen av batch 719–723 återstår följande
+separata, lokalt kontrollerade deltafiler: batch 724 (10), 725 (7), 726 (22),
+727 (19), 728 (20), 729 (16) och 730 (14) — sammanlagt 108 poster. De har
+inte slagits ihop, eftersom exporten från 7 november saknar de senare
+serverändringarna. Varje fil är betydligt mindre än gränsen på 1 000 poster
+per Blender Translate-import och kan därför importeras självständigt utan att
+blanda in redan verifierade batcher.
+
 Batch 726 granskar 22 UI- och API-texter för Blenders formella
 animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
 *Action-kanal*, *Action-längd* och *Action-nyckelbildruta*, medan vanliga
