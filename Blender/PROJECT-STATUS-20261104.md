@@ -4691,3 +4691,12 @@ samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 564 granskar nio poster för *Curve Root*, som läser en hårkurvas
+rotpunkt, rotsegment och rotindex. Den använder *roturval* i stället för den
+otydliga frasen *markering av rötter*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-564-curve-root.po` och den ersättande
+samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-564.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
