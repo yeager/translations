@@ -6750,6 +6750,14 @@ Translate.
 `blender-ui-sv-reviewed-20261108-batch-809-mesh-diagnostics.po` är en
 separat, efterföljande deltafil med endast dessa nio nya poster.
 
+Batch 810 granskar arton socketbeskrivningar för geometri-noder. När *Mesh*
+är nodindata behålls datatypsnamnet, med svenska beskrivningar som *Mesh vars
+kanter ska delas* och *Mesh som ska trianguleras*. Batchen är lokalt klar men
+ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-810-mesh-node-sockets.po` är en
+separat, efterföljande deltafil med endast dessa arton nya poster.
+
 `REVIEW-COVERAGE-20261108.md` är den reproducerbara källan för den aktuella
 täckningsmätningen. Den mäter lokal radgranskning, inte Weblates status eller
 ett importresultat.
