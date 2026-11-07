@@ -454,6 +454,7 @@ Senast uppdaterad: 2026-11-06.
 | surfel | surfel | Punktbaserat ytelement för global belysning; plural *surfelar*. |
 | backface culling | baksidesgallring | Renderingsteknik som döljer ytors baksidor. |
 | ray tracing | strålspårning | Renderingsteknik; använd exempelvis *strålspårad transmission*. |
+| shadow terminator / geometry, normal, shading offset | skuggterminator / geometriförskjutning, normalförskjutning, skuggningsförskjutning | Cycles gräns mellan ljus och mörker på lågpolygeometri. Offset-inställningarna minskar artefakter genom att justera strålarnas utgångspunkt eller skugggränsen. |
 | texture slot | texturplats | Plats som kopplar en textur till ett material eller målningsverktyg. |
 | mesh loop | meshloop | Intern meshtopologisk struktur vid ett ythörn; *looptriangel* används för triangulerat resultat. |
 | UV loop layer | UV-looplager | UV-lager som hör till meshens loopar. Använd *UV-looplager*, inte *UV-loopskikt*. |
