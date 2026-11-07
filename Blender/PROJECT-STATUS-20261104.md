@@ -5706,8 +5706,8 @@ tangentmappningsposter i stället för att lägga till nya. Den ersätter
 samlingsfilen för batch 684–690 och är klar för manuell import.
 
 Den samlade filen för all ännu ej importerad, lokalt granskad Blender UI-text
-är `blender-ui-sv-reviewed-20261107-all-pending-batches-680-692.po`. Den
-innehåller 77 unika poster från batch 680–692, med de nyare formuleringarna
+är `blender-ui-sv-reviewed-20261107-all-pending-batches-680-693.po`. Den
+innehåller 81 unika poster från batch 680–693, med de nyare formuleringarna
 valda vid eventuell överlappning, och ryms inom den överenskomna
 uppladdningsgränsen på 1 000 strängar.
 
