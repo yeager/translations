@@ -5129,3 +5129,12 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 613 granskar Dope Sheets fel-, sammanfattnings- och linjestilsfilter.
+De svenska UI-formerna är korrekta i animationskontexten och har markerats som
+granskade utan betydelseändring. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-613-dope-sheet-filters.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-613.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
