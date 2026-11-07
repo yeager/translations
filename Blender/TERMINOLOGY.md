@@ -479,6 +479,8 @@ Senast uppdaterad: 2026-11-06.
 | simulation cache | simuleringscache | Cache för bildrutor vid uppspelning av simuleringsnoder. |
 | dynamic topology sculpting | skulptering med dynamisk topologi | Skulpteringsläge som ändrar meshtopologin dynamiskt. |
 | child particle | barnpartikel | Partikel som härleds från en föräldrapartikel. |
+| distance attenuation | avståndsdämpning | Scenens ljudmodell som minskar ljudstyrkan med avståndet. |
+| Doppler effect / pitch factor | dopplereffekt / tonhöjdsfaktor | Ljudinställningar i scenen; *pitch* avser tonhöjd, inte skala. |
 | parting (child particles) | bena / benvinkel | Inställning som formar en hårbena bland barnpartiklar utifrån föräldratrådar. Minimi- och maximivärdet är vinklar från rot till spets. |
 | Brownian motion | Brownsk rörelse / Brownska rörelser | Slumpmässig och oregelbunden rörelse i en partikelsimulering. |
 | volume scatter | volymspridning | Spridning av ljus i ett volymmaterial. |
