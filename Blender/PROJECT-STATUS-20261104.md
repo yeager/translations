@@ -7507,3 +7507,18 @@ separat manuell deltafil med endast dessa tio, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–869. Den innehåller 540 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 870 granskar 18 fel- och valideringssträngar för sammanfogning,
+bakning, dataöverföring, ommeshning, ytdeformering och samlingar. Den
+normaliserar *meshdata*, *meshobjekt*, *ytmesh*, *källmesh* och *målmesh*,
+och skiljer mellan den specifika *voxelommesharen* och det generella
+*ommeshningsverktyget*. Batchen är lokalt klar men ännu inte importerad i
+Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-870-mesh-validation-errors.po` är en
+separat manuell deltafil med endast dessa 18, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-870.po` är den aktuella
+samlade manuella deltafilen för batch 811–870. Den innehåller 558 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.

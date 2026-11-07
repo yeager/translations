@@ -170,6 +170,7 @@ Senast uppdaterad: 2026-11-07.
 | mesh geometry / mesh detail / mesh element | meshgeometri / meshdetalj / meshelement | Geometri, detalj och valbart element som hör till Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätgeometri*, *nätdetalj* eller *nätelement*. |
 | edit mesh / mesh overlay / mesh type | redigeringsmesh / meshöverlägg / meshtyp | Redigerbar mesh, dess visningsöverlägg och dess RNA-typ. Behåll *mesh* som led i de projektspecifika tekniska sammansättningarna. |
 | source / destination mesh | källmesh / målmesh | Meshar som är källa respektive mål för dataöverföring. I bestämd form används *källmeshen* och *målmeshen*. |
+| surface mesh | ytmesh | Mesh som utgör ytan som skulpteringsverktyget utvärderar. Använd *ytmeshen* i bestämd form; ersätt inte den tekniska typen med *ytnät*. |
 | Float2 Attribute | Float2-attribut | RNA-attributtyp. Behåll typnamnet och fog med bindestreck till svenska *attribut*. |
 | timescale | tidsskala | Faktor som skalar simuleringens tidsförlopp. |
 | curve mapping | kurvkartläggning | Kartläggning med kurvor; använd den här sammansättningen i RNA- och modifierarinställningar. |
