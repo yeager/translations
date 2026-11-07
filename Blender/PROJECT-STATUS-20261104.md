@@ -6904,3 +6904,11 @@ samlade manuella deltafilen för batch 811–822. Den innehåller 91 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
 
+Batch 823 granskar tretton Mesh-texter för modifierare, export och
+felmeddelanden. Den normaliserar *meshens*, *meshen*, *meshdata* och
+*meshobjekt* samt förtydligar bur- och ytdeformeringskontexten. Batchen är
+lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-823-mesh-operations.po` är en separat
+manuell deltafil med endast dessa tretton nya, lokalt granskade poster.
+
