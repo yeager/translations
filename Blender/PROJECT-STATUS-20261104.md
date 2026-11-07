@@ -234,6 +234,15 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 513 granskar 14 poster för objektinstanser och kompositörmattor. Den
+rättar *Ansikten* till *ytor* i meshkontext och ersätter den felaktiga
+översättningen *Avvaktande* av *Holdout* med *matta*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-513-object-instancing-and-mattes.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-513.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade
