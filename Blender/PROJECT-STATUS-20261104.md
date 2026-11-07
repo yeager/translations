@@ -226,10 +226,16 @@ etablerade API-termen *blendfilimportkontext*. Den rättar bland annat
 tydliga, konsekventa former. Deltafilen är lokalt kontrollerad och ännu inte
 importerad i Blender Translate.
 
+Batch 660 granskar elva pensel- och automaskningsposter. Den normaliserar
+bland annat *våtmålning*, *3D-vyport*, *hörnpunktsvikt* och den etablerade
+facktermen *icke-manifold*. Det synliga lägesnamnet `Area Plane` behålls på
+engelska i den tekniska hjälptexten. Deltafilen är lokalt kontrollerad och
+ännu inte importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-659-combined.po` med 182
+`blender-ui-sv-reviewed-20261107-batches-626-660-combined.po` med 193
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–659.
+och innehåller dessutom batch 657–660.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
