@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-484.po`
-med 3 305 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-485.po`
+med 3 321 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -277,6 +277,14 @@ alfarepresentationen konverteras vid både lagring och inläsning. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-484-image-alpha-modes.po` är lokalt
 kontrollerad och arkiverad, men dess import till Blender Translate är inte
 verifierad i detta arkiv.
+
+Batch 485 granskar 18 poster för bilders OpenGL-bindningskod, pixelbuffert,
+färgrymd, bitdjup och visningsbildförhållande samt filformaten BMP, SGI IRIS,
+JPEG, JPEG 2000, Targa, Cineon och DPX. Den ersätter bland annat den felaktiga
+formen *Targa rå* med *Okomprimerad Targa*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-485-image-metadata-and-file-formats.po`
+är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
+är inte verifierad i detta arkiv.
 
 Batch 450 granskar åtta Action-poster för F-kurvor och bildruteintervall.
 Deltafilen `blender-ui-sv-reviewed-20261107-batch-450-action-frame-ranges.po`
