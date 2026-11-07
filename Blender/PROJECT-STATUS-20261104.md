@@ -6186,6 +6186,15 @@ sekundära sökvägar. Deltafilen är lokalt granskad och ännu inte importerad.
 748–750-samlingen. Den innehåller 33 unika, lokalt granskade och ännu inte
 importerade ändringar.
 
+Batch 752 slutför den närliggande nodterminologin med *indataobjekt* för
+geometrinodernas samling av inmatningsobjekt. Den följer batch 725:s
+normalisering av explicita nodindata och är lokalt granskad men ännu inte
+importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-748-752.po` ersätter
+748–751-samlingen. Den innehåller 34 unika, lokalt granskade och ännu inte
+importerade ändringar.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
