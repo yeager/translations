@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-483.po`
-med 3 300 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-484.po`
+med 3 305 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -269,6 +269,14 @@ terminologin för *streckens djupordning*, *lökskal* och
 `blender-ui-sv-reviewed-20261107-batch-483-grease-pencil-depth-and-onion-display.po`
 är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
 är inte verifierad i detta arkiv.
+
+Batch 484 granskar nio poster för externa och packade bilddatablock,
+alfaomvandling, oassocierad och associerad alfa, förmultiplicering,
+kanalpackning och helt ogenomskinliga bilder. Den förtydligar att
+alfarepresentationen konverteras vid både lagring och inläsning. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-484-image-alpha-modes.po` är lokalt
+kontrollerad och arkiverad, men dess import till Blender Translate är inte
+verifierad i detta arkiv.
 
 Batch 450 granskar åtta Action-poster för F-kurvor och bildruteintervall.
 Deltafilen `blender-ui-sv-reviewed-20261107-batch-450-action-frame-ranges.po`
