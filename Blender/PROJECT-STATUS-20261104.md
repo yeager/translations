@@ -6195,6 +6195,15 @@ importerad.
 748–751-samlingen. Den innehåller 34 unika, lokalt granskade och ännu inte
 importerade ändringar.
 
+Batch 753 synkroniserar Outlinerns felmeddelande för bibliotekslänkade
+åsidosättningsobjekt med den etablerade svenska formulering som redan används
+i motsvarande meddelande i skärmområdet. Deltafilen är lokalt granskad och
+ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-748-753.po` ersätter
+748–752-samlingen. Den innehåller 35 unika, lokalt granskade och ännu inte
+importerade ändringar.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
