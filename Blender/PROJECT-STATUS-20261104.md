@@ -51,6 +51,12 @@ den tidigare samlingsfilen för batch 626–629 som rekommenderad fil för en
 enda manuell import, men delbatcherna och den äldre samlingsfilen bevaras som
 spårbart arbetsunderlag.
 
+Batch 631 granskar felmeddelandet för Asset Browsers cachekatalog för
+nedladdningar. Den ersätter den krystade sammansättningen
+*nedladdningscachekatalogen* med *cachekatalogen för nedladdningar* och följer
+den etablerade termen *fjärranslutna resursbibliotek*. Deltafilen är lokalt
+kontrollerad men ännu inte importerad i Blender Translate.
+
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
 skickat in samtliga sex delar manuellt till Blender Translate. Importresultat
