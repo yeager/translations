@@ -6247,6 +6247,14 @@ granskad och ännu inte importerad.
 748–757-samlingen. Den innehåller 46 unika, lokalt granskade och ännu inte
 importerade ändringar.
 
+Batch 759 rättar den kvarvarande modifierarbenämningen för *Remesh* till
+termbasens *ommeshning*: *ommeshningsmodifierare*. Deltafilen är lokalt
+granskad och ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-748-759.po` ersätter
+748–758-samlingen. Den innehåller 47 unika, lokalt granskade och ännu inte
+importerade ändringar.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
