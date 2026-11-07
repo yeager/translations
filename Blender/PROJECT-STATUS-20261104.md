@@ -288,10 +288,15 @@ nodnamn; svlang markerar det och ordet *Instances* som ovanliga, men inte som
 svenska språkfel. Deltafilen är lokalt kontrollerad och ännu inte importerad i
 Blender Translate.
 
+Batch 670 rättar åtta Rigify-, pensel- och nodhjälprader där den svenska
+texten hade slutpunkt trots att respektive källsträng saknar den. Innehåll och
+tekniska namn, som Rigify och `Sequencer`, är oförändrade. Deltafilen är
+lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-669-combined.po` med 239
+`blender-ui-sv-reviewed-20261107-batches-626-670-combined.po` med 250
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–669.
+och innehåller dessutom batch 657–670.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
