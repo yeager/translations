@@ -1,0 +1,132 @@
+# Blender UI Swedish review delta – mesh, extensions and simulation terminology
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
+"PO-Revision-Date: 2026-11-07 18:55+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. :src: bpy.types.FileAssetSelectParams.import_method:'APPEND_REUSE'
+msgid "Import the asset as copied data-block while avoiding multiple copies of nested, typically heavy data. For example the textures of a material asset, or the mesh of an object asset, don't have to be copied every time this asset is imported. The instances of the asset share the data instead"
+msgstr "Importera tillgången som ett kopierat datablock men undvik flera kopior av nästlade, vanligtvis tunga data. Texturer i en materialtillgång eller meshen i en objekttillgång behöver exempelvis inte kopieras vid varje import. Tillgångsinstanserna delar i stället data"
+
+#. :src: bpy.types.OUTLINER_OT_collection_instance
+msgctxt "Operator"
+msgid "Instance Collection"
+msgstr "Instanssamling"
+
+#. :src: bpy.types.MeshAutomaskingSettings
+msgid "Automasking settings for mesh painting & sculpting."
+msgstr "Inställningar för automaskering vid meshmålning och meshskulptering."
+
+#. :src: bpy.types.MeshLoopTriangle.polygon_index
+msgid "Index of mesh face that the triangle is a part of"
+msgstr "Index för meshytan som triangeln är en del av"
+
+#. :src: bpy.types.MeshSkinVertex.use_root
+msgid "Vertex is a root for rotation calculations and armature generation, setting this flag does not clear other roots in the same mesh island"
+msgstr "Hörnpunkten är en rot för rotationsberäkningar och armaturgenerering. Om denna flagga anges rensas inte andra rötter på samma meshö"
+
+#. :src: bpy.types.Modifier.type:'BUILD'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'BUILD'
+msgid "Cause the faces of the mesh object to appear or disappear one after the other over time"
+msgstr "Få ytorna på meshobjektet att visas eller försvinna en efter en över tid"
+
+#. :src: bpy.types.Modifier.type:'DECIMATE'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'DECIMATE'
+#: source/blender/modifiers/intern/MOD_decimate.cc:276
+#: source/blender/editors/object/object_remesh.cc:1123
+#: source/blender/modifiers/intern/MOD_remesh.cc:264
+msgid "Remesh"
+msgstr "Ommeshning"
+
+#. :src: bpy.types.Modifier.type:'REMESH'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'REMESH'
+msgid "Generate new mesh topology based on the current shape"
+msgstr "Skapa ny meshtopologi baserad på den aktuella formen"
+
+#. :src: bpy.types.Modifier.type:'SCREW'
+#. :src: bpy.types.ScrewModifier.screw_offset
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'SCREW'
+msgid "Lathe around an axis, treating the input mesh as a profile"
+msgstr "Svarva runt en axel och behandla ingångsmeshen som en profil"
+
+#. :src: bpy.types.Modifier.type:'LAPLACIANSMOOTH'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'LAPLACIANSMOOTH'
+msgid "Reduce the noise on a mesh surface with minimal changes to its shape"
+msgstr "Minska bruset på en meshyta med minimala förändringar av dess form"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_upgrade_all.use_active_only
+msgid "Only upgrade the active repository"
+msgstr "Uppgradera endast det aktiva förrådet"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_refresh_all.use_active_only
+msgid "Only refresh the active repository"
+msgstr "Uppdatera endast det aktiva förrådet"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_sync_all.use_active_only
+msgid "Only sync the active repository"
+msgstr "Synkronisera endast det aktiva förrådet"
+
+#. :src: bpy.types.PREFERENCES_OT_extension_repo_add
+msgid "Add a new repository used to store extensions"
+msgstr "Lägg till ett nytt förråd för tillägg"
+
+#. :src: bpy.types.PREFERENCES_OT_extension_repo_add.access_token
+#. :src: bpy.types.UserExtensionRepo.access_token
+msgid "Personal access token, may be required by some repositories"
+msgstr "Personlig åtkomsttoken kan krävas av vissa förråd"
+
+#. :src: bpy.types.PREFERENCES_OT_extension_repo_add.name
+#. :src: bpy.types.UserExtensionRepo.name
+msgid "Unique repository name"
+msgstr "Unikt förrådsnamn"
+
+#. :src: bpy.types.PREFERENCES_OT_extension_repo_add.type
+msgid "The kind of repository to add"
+msgstr "Vilken typ av förråd som ska läggas till"
+
+#. :src: bpy.types.PREFERENCES_OT_extension_repo_add.type:'REMOTE'
+msgid "Add Remote Repository"
+msgstr "Lägg till fjärrförråd"
+
+#. :src: bpy.types.PREFERENCES_OT_extension_repo_add.type:'REMOTE'
+msgid "Add a repository referencing a remote repository with support for listing and updating extensions"
+msgstr "Lägg till ett förråd som refererar till ett fjärrförråd med stöd för att lista och uppdatera tillägg"
+
+#. :src: bpy.types.PREFERENCES_OT_extension_repo_add.type:'LOCAL'
+msgid "Add Local Repository"
+msgstr "Lägg till lokalt förråd"
+
+#. :src: bpy.types.SPHFluidSettings
+msgid "Settings for particle fluids physics"
+msgstr "Inställningar för partikelvätskors fysik"
+
+#. :src: bpy.types.SpaceView3D.show_gizmo_empty_force_field
+msgid "Gizmo to adjust the force field"
+msgstr "Gizmo för att justera kraftfältet"
+
+#: scripts/startup/bl_ui/properties_physics_fluid.py:988
+msgid "Particle Life Maximum"
+msgstr "Maximal partikellivslängd"
+
+#: source/blender/editors/physics/physics_fluid.cc:577
+msgid "Baking fluid..."
+msgstr "Bakar vätska..."
+
+#. :src: bpy.types.SpaceDopeSheetEditor.cache_cloth
+msgid "Show the active object's cloth point cache"
+msgstr "Visa det aktiva objektets punktcache för tyg"
+
+#. :src: bpy.types.SpaceDopeSheetEditor.cache_dynamicpaint
+msgid "Show the active object's Dynamic Paint cache"
+msgstr "Visa det aktiva objektets Dynamic Paint-cache"
+
+#. :src: bpy.types.SpaceDopeSheetEditor.cache_particles
+msgid "Show the active object's particle point cache"
+msgstr "Visa det aktiva objektets punktcache för partiklar"
