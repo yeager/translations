@@ -8160,3 +8160,16 @@ manuell deltafil med de lokalt granskade ändringarna.
 samlade manuella deltafilen för batch 811–921. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 922 normaliserar fyra NLA- och AnimData-etiketter där `Action` är
+Blenders formella animationsdatablock, inte den vanliga handlingstermen.
+Batchen är lokalt klar, men ännu inte verifierad som importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-922-active-action-datatype.po` är en
+separat manuell deltafil med de lokalt granskade ändringarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-922.po` är den aktuella
+samlade manuella deltafilen för batch 811–922. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
