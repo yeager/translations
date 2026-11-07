@@ -334,6 +334,15 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 523 granskar nio Object-poster för transformationsmatriser och lägen.
+Den normaliserar *föräldrarelativ transformationsmatris*, *deltavärden*,
+*världsmatris* och beskrivningen av benföräldrarelationer. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-523-object-matrices-and-modes.po` och
+den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-523.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade

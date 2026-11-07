@@ -43309,47 +43309,39 @@ msgid "Material slots in the object"
 msgstr "Materialplatser i objektet"
 
 #. :src: bpy.types.Object.matrix_basis
-#, fuzzy
 msgid "Input Matrix"
 msgstr "Inmatningsmatris"
 
 #. :src: bpy.types.Object.matrix_basis
-#, fuzzy
 msgid "Matrix access to location, rotation and scale (including deltas), before constraints and parenting are applied"
-msgstr "Matrisåtkomst till plats, rotation och skala (inklusive deltan), innan begränsningar och föräldraskap tillämpas"
+msgstr "Matrisåtkomst till plats, rotation och skala (inklusive deltavärden), innan begränsningar och föräldrarelationer tillämpas"
 
 #. :src: bpy.types.Object.matrix_local
-#, fuzzy
 msgid ""
 "Parent relative transformation matrix.\n"
 "Warning: Only takes into account object parenting, so e.g. in case of bone parenting you get a matrix relative to the Armature object, not to the actual parent bone"
 msgstr ""
-"Matris för relativ transformation av förälder.\n"
-"Varning för detta: Tar endast hänsyn till objektföräldraskap, så t.ex. vid benföräldraskap får du en matris som är relativ till armaturobjektet, inte till det faktiska föräldrabenet"
+"Föräldrarelativ transformationsmatris.\n"
+"Varning: Tar endast hänsyn till objektets föräldrarelation. Vid benföräldraskap får du därför en matris relativ till armaturobjektet, inte till det faktiska överordnade benet"
 
 #. :src: bpy.types.Object.matrix_parent_inverse
-#, fuzzy
 msgid "Parent Inverse Matrix"
 msgstr "Förälderns inversa matris"
 
 #. :src: bpy.types.Object.matrix_parent_inverse
-#, fuzzy
 msgid "Inverse of object's parent matrix at time of parenting"
-msgstr "Invers av objektets föräldramatris vid tidpunkten för föräldraskapet"
+msgstr "Objektets föräldramatris inverterad när föräldrarelationen skapades"
 
 #. :src: bpy.types.Object.matrix_world
-#, fuzzy
 msgid "Matrix World"
 msgstr "Världsmatris"
 
 #. :src: bpy.types.Object.matrix_world
 #. :src: bpy.types.MovieReconstructedCamera.matrix
-#, fuzzy
 msgid "Worldspace transformation matrix"
 msgstr "Transformationsmatris i världsrymden"
 
 #. :src: bpy.types.Object.mode
-#, fuzzy
 msgid "Object interaction mode"
 msgstr "Objektets interaktionsläge"
 
@@ -43372,7 +43364,6 @@ msgstr "Objektläge"
 #. :src: bpy.types.PreferencesView.use_fresnel_edit
 #. :src: bpy.types.ShaderFx.show_in_editmode
 #: scripts/startup/bl_ui/space_userpref.py:900
-#, fuzzy
 msgid "Edit Mode"
 msgstr "Redigeringsläge"
 
