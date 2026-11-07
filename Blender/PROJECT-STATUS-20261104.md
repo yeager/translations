@@ -6118,6 +6118,11 @@ Batch 743 följer termlistans beslut att behålla Blenders synliga namn
 *översikten* får därför konsekvent det faktiska UI-namnet. Deltafilen är
 lokalt granskad och ännu inte importerad.
 
+Batch 744 granskar vidare Outliner-referenser i egenskaper, synkronisering,
+redigeringslägen och felmeddelanden. Namnet behålls också i sammansättningar
+som *Outliner-trädet* och *Outliner-region*. Deltafilen innehåller tretton
+lokalt granskade, ännu ej importerade ändringar.
+
 `blender-ui-sv-reviewed-20261107-pending-batches-739-743.po` ersätter
 739–742-samlingen. Den innehåller 46 unika, lokalt granskade och ännu ej
 importerade ändringar.
