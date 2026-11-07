@@ -6177,6 +6177,15 @@ medvetet lämnats utanför. Deltafilen innehåller arton lokalt granskade
 748–749-samlingen. Den innehåller 28 unika, lokalt granskade och ännu inte
 importerade ändringar.
 
+Batch 751 normaliserar fem RNA- och UI-rader från den generella *dataväg* till
+termbasens exakta *datasökväg*. Det omfattar Freestyle-nyckeluppsättningar,
+kopieringskommandot i egenskapsmenyn och radiella kontrollers primära och
+sekundära sökvägar. Deltafilen är lokalt granskad och ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-748-751.po` ersätter
+748–750-samlingen. Den innehåller 33 unika, lokalt granskade och ännu inte
+importerade ändringar.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
