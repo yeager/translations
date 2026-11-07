@@ -6946,3 +6946,11 @@ samlade manuella deltafilen för batch 811–826. Den innehåller 135 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
 
+Batch 827 granskar tolv Mesh-texter för geometri, QuadriFlow och skulptering
+med dynamisk topologi. Den normaliserar *mesh*, *meshen* och *meshdetaljer* i
+genererings-, remeshing- och detaljinställningskontext. Batchen är lokalt klar
+men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-827-mesh-topology.po` är en separat
+manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
+
