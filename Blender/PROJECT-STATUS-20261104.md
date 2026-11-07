@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-498.po`
-med 3 543 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-499.po`
+med 3 560 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -98,6 +98,14 @@ interpolering. Den behåller Blenders synliga typnamn *Lattice*, använder
 *gitter* i beskrivande text och lämnar algoritmnamnen *Catmull-Rom* och
 *BSpline* oförändrade. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-489-lattice-grid-and-interpolation.po`
+är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
+är inte verifierad i detta arkiv.
+
+Batch 499 granskar 20 poster för materialens verkliga och skenbara
+förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
+*bumpmappning* och verklig *förskjutning*, och använder den etablerade
+termen *linjeteckning* för Blenders Line Art. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-499-material-displacement-and-lines.po`
 är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
 är inte verifierad i detta arkiv.
 
