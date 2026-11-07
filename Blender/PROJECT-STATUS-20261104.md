@@ -6127,6 +6127,10 @@ lokalt granskade, ännu ej importerade ändringar.
 739–742-samlingen. Den innehåller 46 unika, lokalt granskade och ännu ej
 importerade ändringar.
 
+`blender-ui-sv-reviewed-20261107-pending-batches-739-744.po` ersätter
+739–743-samlingen. Den innehåller 59 unika, lokalt granskade och ännu ej
+importerade ändringar.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
