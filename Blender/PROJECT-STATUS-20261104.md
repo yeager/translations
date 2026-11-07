@@ -7761,3 +7761,21 @@ manuell deltafil med dessa sex, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–889. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 890 granskar sex geometri- och meshsträngar och använder bland annat
+*kubmesh*, *meshhörn*, *meshkanter* och *meshattribut*. Batch 891 granskar
+fem relaterade strängar och normaliserar *källmesh*, *meshobjekt* och
+*meshens lokala rum*. Batch 892 rättar den formella Blender-termen *shader
+node* till *shadernod* i en renderingspassbeskrivning. Dessa batcher är
+lokalt klara och pushade till vårt arkiv, men ännu inte verifierade som
+importerade i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-890-geometry-mesh.po`,
+`blender-ui-sv-reviewed-20261108-batch-891-mesh-data.po` och
+`blender-ui-sv-reviewed-20261108-batch-892-shader-node-terminology.po` är
+separata manuella deltafiler med dessa lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-892.po` är den aktuella
+samlade manuella deltafilen för batch 811–892. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
