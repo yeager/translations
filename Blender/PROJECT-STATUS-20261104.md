@@ -7494,3 +7494,16 @@ manuell deltafil med endast dessa 15, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–868. Den innehåller 530 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 869 granskar tio valideringsfel från Blenders dataöverföring. Den skiljer
+kort och idiomatiskt mellan *källmesh*, *målmesh* och *källmeshen* samt
+behåller de synliga mappningsnamnen `Edge` och `Face`. Batchen är lokalt klar
+men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-869-data-transfer-mesh.po` är en
+separat manuell deltafil med endast dessa tio, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-869.po` är den aktuella
+samlade manuella deltafilen för batch 811–869. Den innehåller 540 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
