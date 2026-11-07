@@ -8199,6 +8199,18 @@ samlade manuella deltafilen för batch 811–924. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
 
+Batch 925 normaliserar Geometry Nodes- och modifieraretiketterna *Mesh till
+kurva* och *Mesh till volym*. I dessa lägen är `Mesh` ett formellt
+Blender-datablocknamn och ska inte översättas som *nät*. Batchen är lokalt
+granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-925-mesh-conversion-labels.po` är den
+separata manuella deltafilen med de två rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-925.po` är den samlade
+manuella deltafilen för batch 811–925. Den innehåller 784 översättningsposter
+och ryms därför inom gränsen på 1 000 strängar för en Blender Translate-import.
+
 En lokal sammanslagning av den nedladdade UI-filen och batch 811–922 har
 kontrollerats med `msgfmt` och `svlang svengelska`. De enda återstående
 anglicismträffarna är det synliga Blender-namnet *Scope* i *Scope-panelerna*
