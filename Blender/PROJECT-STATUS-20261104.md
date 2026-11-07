@@ -5920,6 +5920,10 @@ meshobjekt; Extensions använder *förråd*; och simuleringarnas *punktcache*,
 *gizmo*, *partikelvätska* och *bakning* följer termbasen. Batchen är lokalt
 kontrollerad och ännu inte importerad.
 
+Batch 733 normaliserar sju explicita Color Ramp-åtgärder och hjälprutor till
+*färggradient* och *färgstopp*. Batchen är lokalt kontrollerad och ännu inte
+importerad.
+
 Den ersättande rekommenderade importfilen är
 `blender-ui-sv-reviewed-20261107-pending-batches-705-716.po`. Den innehåller
 178 unika ändringar. Samtliga finns i exporten från 7 november och skiljer
