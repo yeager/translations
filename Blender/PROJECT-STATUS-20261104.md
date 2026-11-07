@@ -6869,3 +6869,8 @@ importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-819-geometry-inputs.po` är en separat
 manuell deltafil med endast dessa fem nya, lokalt granskade poster.
 
+`blender-ui-sv-reviewed-20261108-pending-batches-811-819.po` är den aktuella
+samlade manuella deltafilen för batch 811–819. Den innehåller 66 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
+
