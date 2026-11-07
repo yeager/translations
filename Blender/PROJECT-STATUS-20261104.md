@@ -5668,6 +5668,14 @@ och **Constant Rate Factor (CRF)**. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-690-codec-terminology.po` är lokalt
 kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 691 normaliserar 24 WindowManager-tangentmappningar för mesh-, kurv-
+och skulpteringsverktyg. Källsträngarnas `(fallback)` behålls för att Weblate
+ska kunna matcha dem, medan den synliga svenska texten använder `(reserv)`.
+Den samordnar också *3D-vyverktyg*, *armatur*, *kantloopsnitt* och
+verktygsformen *slumpa*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-691-keymap-fallbacks-mesh-curve-sculpt.po`
+är lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
 Den samlade deltafilen
 `blender-ui-sv-reviewed-20261107-batches-684-689-combined.po` innehåller
 alla 38 unika, lokalt kontrollerade och ännu ej importerade ändringar. Där
