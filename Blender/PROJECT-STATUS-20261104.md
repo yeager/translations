@@ -6021,6 +6021,12 @@ Batch 729 granskar 16 beskrivningstexter för samma datatyp. Den använder
 vanlig svensk sakprosa för hanteringsåtgärder. Batchen är lokalt kontrollerad
 och ännu inte importerad.
 
+Batch 730 avslutar den här Action-serien med 14 användarsynliga status- och
+feltexter i Action- och NLA-redigerarna. Den använder konsekvent
+*Action-redigeraren*, *Action-slot* och *Action* där meddelandet avser den
+formella animationsdatatypen. Batchen är lokalt kontrollerad och ännu inte
+importerad.
+
 Batch 726 granskar 22 UI- och API-texter för Blenders formella
 animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
 *Action-kanal*, *Action-längd* och *Action-nyckelbildruta*, medan vanliga
