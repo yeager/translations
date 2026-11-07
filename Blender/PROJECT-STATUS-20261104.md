@@ -8051,3 +8051,16 @@ separat manuell deltafil med dessa lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–912. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 913 tar bort den inkonsekventa bindestrecksformen *shader-noder* i två
+material- och ljusinställningar. Enligt den projektspecifika terminologin är
+*shadernod* den formella Blender-nodtypen. Batchen är lokalt klar, men ännu
+inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-913-shader-node-compounds.po` är en
+separat manuell deltafil med dessa lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-913.po` är den aktuella
+samlade manuella deltafilen för batch 811–913. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
