@@ -5661,6 +5661,13 @@ samtidigt konsekventa inom just denna verktygsgrupp. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-689-armature-keymaps.po` är lokalt
 kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 690 granskar FFmpeg- och OpenEXR-texternas kodektermer. Den använder
+*kodek*, *videokodek* och *komprimeringskodek* i synlig svensk UI-text, men
+behåller format-, API- och parameternamnen **FFmpeg**, **FFV1**, **OpenEXR**
+och **Constant Rate Factor (CRF)**. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-690-codec-terminology.po` är lokalt
+kontrollerad och ännu inte importerad i Blender Translate.
+
 Den samlade deltafilen
 `blender-ui-sv-reviewed-20261107-batches-684-689-combined.po` innehåller
 alla 38 unika, lokalt kontrollerade och ännu ej importerade ändringar. Där

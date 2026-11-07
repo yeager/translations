@@ -718,6 +718,8 @@ Senast uppdaterad: 2026-11-07.
 | Stereo 3D | stereoskopisk 3D | Väljs som vyformat för stereobilder och stereovideo. |
 | Full precision | fullständig precision | Kompositorns explicita precisionsläge; skilj från tekniska formatnamn och kodekprofiler. |
 | codec profile / codec profiles | kodekprofil / kodekprofiler | Använd för profiler som beskriver en kodeks kodningsalternativ. Produktnamn och själva profilvärdena, exempelvis *ProRes 422 HQ*, lämnas oförändrade. |
+| codec | kodek | Använd *ljudkodek*, *videokodek* och *komprimeringskodek* i synlig UI-text. Lämna egenskapsnamn som `FFmpegSettings.codec` och formatidentifierare på engelska. |
+| Constant Rate Factor (CRF) | Constant Rate Factor (CRF) | FFmpeg-parameter i Blenders videoutdata. Behåll den etablerade parameterbenämningen och förklara dess effekt på svenska. |
 | NDOF | NDOF | Behåll enhetens produktförkortning; översätt den efterföljande synliga åtgärden med liten begynnelsebokstav. |
 | keyframe | nyckelbildruta | Grundterm för animeringspunkt på en F-kurva. |
 | quartic/quintic interpolation | fjärdegradig/femtegradig interpolering | Matematiska interpoleringsord; inte kvadratisk eller engelska funktionsnamn. |
