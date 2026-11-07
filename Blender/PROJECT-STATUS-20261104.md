@@ -6073,6 +6073,11 @@ batcherna 724–733 till 132 unika poster. De två poster som förekommer i båd
 batch 728 och 729 har identisk svensk översättning och har därför avdubbletterats.
 Samlingsfilen är lokalt kontrollerad men ännu inte importerad.
 
+Den nyare samlingsfilen
+`blender-ui-sv-reviewed-20261107-pending-batches-724-737.po` innehåller alla
+138 unika poster från batch 724–737 och ersätter 724–733-filen när samtliga
+ännu väntar på import. Den är lokalt kontrollerad men ännu inte importerad.
+
 Batch 726 granskar 22 UI- och API-texter för Blenders formella
 animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
 *Action-kanal*, *Action-längd* och *Action-nyckelbildruta*, medan vanliga
