@@ -3713,3 +3713,9 @@ avtagande. Den bekräftar de kontextspecifika UI-termerna *avtagandevinkel*,
 `blender-ui-sv-reviewed-20261107-batch-457-brush-direction-and-falloff.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
+Batch 458 granskar 27 Grease Pencil-poster för skulptering, punktfärg och
+viktmålning. Den bekräftar *streckpunkter*, *hörnpunktsgrupp*, *nyp*, *smeta*
+och *ormkrok* i deras verktygskontext. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-458-grease-pencil-sculpt-tools.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
