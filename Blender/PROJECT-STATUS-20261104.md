@@ -6239,6 +6239,14 @@ och ännu inte importerad.
 748–756-samlingen. Den innehåller 45 unika, lokalt granskade och ännu inte
 importerade ändringar.
 
+Batch 758 korrigerar Grease Pencil Line Arts avvikande *baksidesklippning*
+till den etablerade renderingstermen *baksidesgallring*. Deltafilen är lokalt
+granskad och ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-748-758.po` ersätter
+748–757-samlingen. Den innehåller 46 unika, lokalt granskade och ännu inte
+importerade ändringar.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
