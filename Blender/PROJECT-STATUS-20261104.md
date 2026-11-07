@@ -7046,3 +7046,18 @@ passerar lokal syntax- och lintkontroll.
 samlade manuella deltafilen för batch 811–835. Den innehåller 221 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 837 granskar 34 NLA-, export- och animeringsetiketter där *Action* är
+Blenders formella animationsdatablock. Den använder konsekvent *Action*,
+*Actionen* och *Actioner* samt sammansättningar som *Action-klipp*,
+*Action-filter* och *armatur-Actioner*. Vanliga betydelser av *action* är
+utanför batchens kontext. Batchen är lokalt klar men ännu inte importerad i
+Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-837-action-nla-export-ui.po` är en
+separat manuell deltafil med endast dessa 34, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-837.po` är den aktuella
+samlade manuella deltafilen för batch 811–837. Den innehåller 255 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.

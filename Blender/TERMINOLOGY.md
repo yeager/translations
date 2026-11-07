@@ -790,7 +790,7 @@ Senast uppdaterad: 2026-11-07.
 | Geometry Nodes | geometrinoder | Blenders nodbaserade geometriarbetsflöde; svensk sammansättning. |
 | Grease Pencil stroke | Grease Pencil-streck | Synlig ritad linje i Grease Pencil, inte *slag* eller *stroke*. |
 | Annotation / Grease Pencil stroke | streck | Använd *streck* för det ritade resultatet i Annotation- och Grease Pencil-data. *Penseldrag* används bara när användarens penselhandling uttryckligen avses. |
-| Action (animation data type) | Action | Formellt Blender-namn för ett animationsdatablock. Behåll namnet i UI och API-saktext; skriv sammansättningar som *Action-grupp*, *Action-lager*, *Action-remsa*, *Action-slot*, *Action-kanal* och *Action-nyckelbildruta*. Översätt bara det vanliga verbet eller substantivet *action* när det inte betecknar denna datatyp. |
+| Action (animation data type) | Action | Formellt Blender-namn för ett animationsdatablock. Böj som *Actionen* och *Actioner*. Skriv sammansättningar som *Action-grupp*, *Action-lager*, *Action-remsa*, *Action-slot*, *Action-kanal* och *Action-nyckelbildruta*. Översätt bara det vanliga verbet eller substantivet *action* när det inte betecknar denna datatyp. |
 | bevel modifier | avfasningsmodifierare | Modifierare som rundar av meshens kanter och hörnpunkter. |
 
 | node socket | noduttag | Anslutningspunkt för in- eller utdata i en Blendernod. |
