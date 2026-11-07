@@ -6204,6 +6204,15 @@ i motsvarande meddelande i skärmområdet. Deltafilen är lokalt granskad och
 748–752-samlingen. Den innehåller 35 unika, lokalt granskade och ännu inte
 importerade ändringar.
 
+Batch 754 normaliserar tre ytterligare *Library Override*-rader till
+*biblioteksåsidosättning* och *samlingsåsidosättning*. Här avser *override*
+Blenders formella åsidosättningsfunktion, inte filöverskrivning. Deltafilen
+är lokalt granskad och ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-748-754.po` ersätter
+748–753-samlingen. Den innehåller 38 unika, lokalt granskade och ännu inte
+importerade ändringar.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
