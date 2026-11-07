@@ -8148,3 +8148,15 @@ separat manuell deltafil med den lokalt granskade ändringen.
 samlade manuella deltafilen för batch 811–920. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 921 uppdaterar två hjälprader för den formella Blender-datatypen
+*Action-slot*. Den vanliga handlingstermen påverkas inte. Batchen är lokalt
+klar, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-921-action-slot-help.po` är en separat
+manuell deltafil med de lokalt granskade ändringarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-921.po` är den aktuella
+samlade manuella deltafilen för batch 811–921. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
