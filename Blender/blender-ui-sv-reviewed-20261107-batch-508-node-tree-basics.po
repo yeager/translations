@@ -1,0 +1,157 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.NodeTree
+msgid ""
+"Node tree consisting of linked nodes used for shading, textures and "
+"compositing"
+msgstr ""
+"Nodträd med sammanlänkade noder för skuggning, texturer och komposition"
+
+#. :src: bpy.types.NodeTree.bl_label
+msgid "The node tree label"
+msgstr "Nodträdets etikett"
+
+#. :src: bpy.types.NodeTree.bl_use_group_interface
+msgid "Use Group Interface"
+msgstr "Använd gruppgränssnitt"
+
+#. :src: bpy.types.NodeTree.bl_use_group_interface
+msgid "Determines the visibility of some UI elements related to node groups"
+msgstr ""
+"Bestämmer synligheten för vissa UI-element som är relaterade till nodgrupper"
+
+#. :src: bpy.types.NodeTree.color_tag
+#. :src: bpy.types.Node.color_tag
+#. :src: bpy.types.GREASE_PENCIL_OT_layer_group_color_tag.color_tag
+#. :src: bpy.types.OUTLINER_OT_collection_color_tag_set.color
+#. :src: bpy.types.SEQUENCER_OT_strip_color_tag_set.color
+#. :src: bpy.types.SEQUENCER_PT_color_tag_picker
+msgid "Color Tag"
+msgstr "Färgmärkning"
+
+#. :src: bpy.types.NodeTree.color_tag
+msgid "Color tag of the node group which influences the header color"
+msgstr "Färgmärkning för nodgruppen som påverkar rubrikens färg"
+
+#. :src: bpy.types.NodeTree.color_tag:'NONE'
+#. :src: bpy.types.Node.color_tag:'NONE'
+msgid "Default color tag for new nodes and node groups"
+msgstr "Standardfärgmärkning för nya noder och nodgrupper"
+
+#. :src: bpy.types.NodeTree.color_tag:'MATTE'
+#. :src: bpy.types.Node.color_tag:'MATTE'
+#: source/blender/nodes/composite/node_composite_tree.cc:52
+#: source/blender/nodes/composite/nodes/node_composite_channel_matte.cc:49
+#: source/blender/nodes/composite/nodes/node_composite_chroma_matte.cc:57
+#: source/blender/nodes/composite/nodes/node_composite_color_matte.cc:58
+#: source/blender/nodes/composite/nodes/node_composite_cryptomatte.cc:575
+#: source/blender/nodes/composite/nodes/node_composite_cryptomatte.cc:586
+#: source/blender/nodes/composite/nodes/node_composite_diff_matte.cc:49
+#: source/blender/nodes/composite/nodes/node_composite_distance_matte.cc:52
+#: source/blender/nodes/composite/nodes/node_composite_keying.cc:37
+#: source/blender/nodes/composite/nodes/node_composite_luma_matte.cc:46
+msgid "Matte"
+msgstr "Matta"
+
+#. :src: bpy.types.NodeTree.color_tag:'SCRIPT'
+#. :src: bpy.types.NODE_MT_category_shader_script
+#. :src: bpy.types.Node.color_tag:'SCRIPT'
+#. :src: bpy.types.ShaderNodeScript
+#. :src: bpy.types.ShaderNodeScript.script
+#: source/blender/nodes/shader/node_shader_tree.cc:120
+msgid "Script"
+msgstr "Skript"
+
+#. :src: bpy.types.NodeTree.default_group_node_width
+msgid "Default Group Node Width"
+msgstr "Standardbredd för gruppnoder"
+
+#. :src: bpy.types.NodeTree.default_group_node_width
+msgid "The width for newly created group nodes"
+msgstr "Bredden för nyskapade gruppnoder"
+
+#. :src: bpy.types.NodeTree.description
+msgid "Description of the node tree"
+msgstr "Beskrivning av nodträdet"
+
+#. :src: bpy.types.NodeTree.grease_pencil
+msgid "Grease Pencil Data"
+msgstr "Grease Pencil-data"
+
+#. :src: bpy.types.NodeTree.interface
+msgid "Interface declaration for this node tree"
+msgstr "Gränssnittsdeklaration för detta nodträd"
+
+#. :src: bpy.types.NodeTree.type
+msgid ""
+"Node Tree type (deprecated, bl_idname is the actual node tree type "
+"identifier)"
+msgstr ""
+"Nodträdstyp (föråldrad, bl_idname är den faktiska typidentifieraren för "
+"nodträdet)"
+
+#. :src: bpy.types.NodeTree.type:'UNDEFINED'
+#: source/blender/blenloader/intern/versioning_400.cc:9405
+#: source/blender/editors/interface/templates/interface_template_operator_property.cc:467
+#: source/blender/editors/interface/templates/interface_template_operator_property.cc:474
+#: source/blender/nodes/intern/node_register.cc:32
+msgid "Undefined"
+msgstr "Odefinierad"
+
+#. :src: bpy.types.NodeTree.type:'UNDEFINED'
+msgid ""
+"Undefined type of nodes (can happen e.g. when a linked node tree goes "
+"missing)"
+msgstr ""
+"Odefinierad typ av noder (kan t.ex. inträffa när ett länkat nodträd "
+"försvinner)"
+
+#. :src: bpy.types.NodeTree.type:'CUSTOM'
+msgid "Custom nodes"
+msgstr "Anpassade noder"
+
+#. :src: bpy.types.NodeTree.type:'TEXTURE'
+#. :src: bpy.types.SpaceNodeEditor.tree_type:'TextureNodeTree'
+#: source/blender/nodes/texture/node_texture_tree.cc:141
+msgid "Texture nodes"
+msgstr "Texturnoder"
+
+#. :src: bpy.types.NodeTree.type:'COMPOSITING'
+#. :src: bpy.types.SpaceNodeEditor.tree_type:'CompositorNodeTree'
+#: source/blender/nodes/composite/node_composite_tree.cc:161
+msgid "Compositing nodes"
+msgstr "Noder för komposition"
+
+#. :src: bpy.types.NodeTree.type:'GEOMETRY'
+#. :src: bpy.types.SpaceNodeEditor.tree_type:'GeometryNodeTree'
+#: source/blender/nodes/geometry/node_geometry_tree.cc:147
+msgid "Geometry nodes"
+msgstr "Geometrinoder"
+
+#. :src: bpy.types.NodeTree.view_center
+msgid "The current location (offset) of the view for this Node Tree"
+msgstr "Den aktuella positionen (förskjutningen) för vyn i detta nodträd"
