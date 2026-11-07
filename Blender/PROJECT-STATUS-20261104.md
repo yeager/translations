@@ -293,6 +293,16 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 519 granskar tio materialposter för diffus och spekulär färg, råhet,
+transparenta baksidor, ytåtergivning och strålspårad transmission. Den
+följer ordlistans *baksidesgallring*, *ljussond* och *strålspårning* samt
+tydliggör att spegelreflektionen kan vara ljusstark. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-519-material-colors-and-raytracing.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-519.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade
