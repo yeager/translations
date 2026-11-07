@@ -310,10 +310,16 @@ felmeddelandeposter till *resursbibliotek*. Därmed används inte
 närliggande *asset*-referenser där de tydligt betyder resurser. Deltafilen är
 lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 674 är en oberoende kontextgranskning av fem poster från batch 673. Den
+använder *fjärranslutet resursbibliotek*, *grundresursbiblioteket*,
+*tilläggsförråd* och *fjärr-URL* i de specifika Asset Browser- och
+tilläggsinställningarna. Deltafilen är lokalt kontrollerad och ännu inte
+importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-673-combined.po` med 300
+`blender-ui-sv-reviewed-20261107-batches-626-674-combined.po` med 300
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–673.
+och innehåller dessutom batch 657–674.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
