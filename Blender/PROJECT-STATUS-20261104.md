@@ -6882,3 +6882,12 @@ importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-820-dope-sheet-context.po` är en
 separat manuell deltafil med denna enda, lokalt granskade post.
 
+Batch 821 granskar tolv grundläggande Mesh-meddelanden för skulptering,
+formnycklar, UV-avbildning och primitivverktyg. Den ersätter den tvetydiga
+översättningen *nät* med Blenders datatyp *mesh* och använder konsekvent
+formerna *meshen*, *meshobjekt* och *en mesh i redigeringsläge*. Batchen är
+lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-821-mesh-core-context.po` är en
+separat manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
+
