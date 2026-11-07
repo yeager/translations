@@ -7953,3 +7953,17 @@ en separat manuell deltafil med dessa lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–905. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 906 rättar en filutdatahjälptext från singular till plural:
+*filformatstilläggen*. Lintverktyget noterar en ofarlig skiljeteckensskillnad
+eftersom källans engelska exempel använder kolon i *eg:* medan svenskans
+*t.ex.* är korrekt utan kolon. Batchen är lokalt klar och pushad till vårt
+arkiv, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-906-file-extension-plural.po` är en
+separat manuell deltafil med den lokalt granskade ändringen.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-906.po` är den aktuella
+samlade manuella deltafilen för batch 811–906. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
