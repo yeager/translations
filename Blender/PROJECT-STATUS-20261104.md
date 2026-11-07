@@ -7161,3 +7161,17 @@ separat manuell deltafil med endast dessa 16, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–844. Den innehåller 359 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 845 normaliserar 16 beskrivningar för topologi, ommeshning,
+underindelning och geometri-noder. Den använder etablerade Blender-termer som
+*basmesh*, *målmesh*, *meshkomponent*, *meshhörnpunkt* och *ytmesh* i stället
+för den generiska geometribetydelsen *nät*. Batchen är lokalt klar men ännu
+inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-845-mesh-topology-and-remesh.po` är en
+separat manuell deltafil med endast dessa 16, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-845.po` är den aktuella
+samlade manuella deltafilen för batch 811–845. Den innehåller 372 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
