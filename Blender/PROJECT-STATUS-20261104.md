@@ -5920,10 +5920,6 @@ meshobjekt; Extensions använder *förråd*; och simuleringarnas *punktcache*,
 *gizmo*, *partikelvätska* och *bakning* följer termbasen. Batchen är lokalt
 kontrollerad och ännu inte importerad.
 
-Batch 733 normaliserar sju explicita Color Ramp-åtgärder och hjälprutor till
-*färggradient* och *färgstopp*. Batchen är lokalt kontrollerad och ännu inte
-importerad.
-
 Den ersättande rekommenderade importfilen är
 `blender-ui-sv-reviewed-20261107-pending-batches-705-716.po`. Den innehåller
 178 unika ändringar. Samtliga finns i exporten från 7 november och skiljer
@@ -6033,11 +6029,11 @@ importerad.
 
 Efter den serververifierade importen av batch 719–723 återstår följande
 separata, lokalt kontrollerade deltafiler: batch 724 (10), 725 (7), 726 (22),
-727 (19), 728 (20), 729 (16) och 730 (14) — sammanlagt 108 poster. De har
-inte slagits ihop, eftersom exporten från 7 november saknar de senare
-serverändringarna. Varje fil är betydligt mindre än gränsen på 1 000 poster
-per Blender Translate-import och kan därför importeras självständigt utan att
-blanda in redan verifierade batcher.
+727 (19), 728 (20), 729 (16), 730 (14), 731 (10), 732 (9) och 733 (7) —
+sammanlagt 134 poster. De har inte slagits ihop, eftersom exporten från 7
+november saknar de senare serverändringarna. Varje fil är betydligt mindre än
+gränsen på 1 000 poster per Blender Translate-import och kan därför importeras
+självständigt utan att blanda in redan verifierade batcher.
 
 Batch 731 normaliserar tio explicita `3D Viewport`-förekomster till
 *3D-vyport* enligt termbasen. Den lämnar generiska visningsfönster utan denna
@@ -6048,6 +6044,10 @@ Batch 732 normaliserar nio explicit shadernodbundna UI- och feltexter.
 *Shadernod*, *shadernodträd* och *shadernodredigerare* följer termbasen;
 generella skuggningsbegrepp utan nodkontext har inte ändrats. Batchen är lokalt
 kontrollerad och ännu inte importerad.
+
+Batch 733 normaliserar sju explicita Color Ramp-åtgärder och hjälprutor till
+*färggradient* och *färgstopp*. Batchen är lokalt kontrollerad och ännu inte
+importerad.
 
 Batch 726 granskar 22 UI- och API-texter för Blenders formella
 animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
