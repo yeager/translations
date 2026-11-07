@@ -6856,3 +6856,8 @@ men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-818-compositor-label.po` är en separat
 manuell deltafil med denna enda, lokalt granskade post.
 
+`blender-ui-sv-reviewed-20261108-pending-batches-811-818.po` är den aktuella
+samlade manuella deltafilen för batch 811–818. Den innehåller 61 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
+
