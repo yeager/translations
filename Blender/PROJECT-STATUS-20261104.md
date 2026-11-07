@@ -360,6 +360,11 @@ Nästa separata importfil är
 granskade poster. Den innehåller bara batch 680–682 och överlappar alltså inte
 den redan importerade samlingsfilen för batch 626–679.
 
+Batch 683 fortsätter penselterminologin i nio UI- och hjälpposter. Den ersätter
+*borste* med *pensel*, *täthetspensel*, *partikelpensel* och
+*penselresursreferens* i respektive kontext. Deltafilen är lokalt kontrollerad
+och ännu inte importerad i Blender Translate.
+
 Den 7 november importerades samlingsfilen
 `blender-ui-sv-reviewed-20261107-batches-626-679-combined.po` manuellt i
 Blender Translate. Servern behandlade 323 poster: 135 uppdaterades, 183
