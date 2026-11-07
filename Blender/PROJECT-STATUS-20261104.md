@@ -6995,3 +6995,11 @@ samlade manuella deltafilen för batch 811–830. Den innehåller 182 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
 
+Batch 831 granskar tolv Mesh-texter för import, USD-export, underindelning och
+skulptering. Den normaliserar *mesh*, *meshen*, *meshdetaljer* och
+*meshens färgattribut* i både filformat- och redigeringskontext. Batchen är
+lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-831-mesh-import-export.po` är en
+separat manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
+
