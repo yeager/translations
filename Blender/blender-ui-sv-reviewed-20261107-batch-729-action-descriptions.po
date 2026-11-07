@@ -1,0 +1,76 @@
+# Blender UI Swedish review delta – Action data descriptions
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
+"PO-Revision-Date: 2026-11-07 22:35+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. :src: bpy.types.ActionChannelbags
+msgid "For each action slot, a list of animation channels that are meant for that slot"
+msgstr "För varje Action-slot finns en lista över animationskanaler som hör till den slotten"
+
+#. :src: bpy.types.ActionSlot
+msgid "Identifier for a set of channels in this Action, that can be used by a data-block to specify what it gets animated by"
+msgstr "Identifierare för en uppsättning kanaler i denna Action som ett datablock kan använda för att ange vad det animeras av"
+
+#. :src: bpy.types.ActionSlot.handle
+msgid "Number specific to this Slot, unique within the Action.\nThis is used, for example, on a ActionKeyframeStrip to look up the ActionChannelbag for this Slot"
+msgstr "Nummer som är specifikt för denna slot och unikt inom Action.\nDet används exempelvis av en ActionKeyframeStrip för att hitta ActionChannelbag för denna slot"
+
+#. :src: bpy.types.ActionSlot.target_id_type:'UNSPECIFIED'
+msgid "Not yet specified. When this slot is first assigned to a data-block, this will be set to the type of that data-block"
+msgstr "Inte angiven ännu. När Action-slotten först tilldelas ett datablock ställs den in på datablockets typ"
+
+#. :src: bpy.types.AnimData.action_blend_type
+msgid "Method used for combining Active Action's result with result of NLA stack"
+msgstr "Metod för att kombinera den aktiva Actions resultat med resultatet från NLA-stapeln"
+
+#. :src: bpy.types.AnimData.action_extrapolation
+msgid "Action to take for gaps past the Active Action's range (when evaluating with NLA)"
+msgstr "Hantering av luckor utanför den aktiva Actions intervall (vid utvärdering med NLA)"
+
+#. :src: bpy.types.AnimData.action_influence
+msgid "Amount the Active Action contributes to the result of the NLA stack"
+msgstr "I vilken grad den aktiva Action bidrar till resultatet av NLA-stapeln"
+
+#. :src: bpy.types.AnimData.action_slot
+msgid "The slot identifies which sub-set of the Action is considered to be for this data-block, and its name is used to find the right slot when assigning an Action"
+msgstr "Slotten anger vilken delmängd av Action som hör till detta datablock, och dess namn används för att hitta rätt slot när en Action tilldelas"
+
+#. :src: bpy.types.AnimData.action_slot_handle
+msgid "A number that identifies which sub-set of the Action is considered to be for this data-block"
+msgstr "Ett nummer som identifierar vilken delmängd av Action som anses höra till detta datablock"
+
+#. :src: bpy.types.AnimData.action_tweak_storage
+msgid "Tweak Mode Action Storage"
+msgstr "Lagring av Action i justeringsläge"
+
+#. :src: bpy.types.AnimData.action_tweak_storage
+msgid "Storage to temporarily hold the main action while in tweak mode"
+msgstr "Lagring för att tillfälligt behålla huvud-Action i justeringsläge"
+
+#. :src: bpy.types.AnimVizMotionPaths.show_keyframe_action_all
+msgid "For bone motion paths, search whole Action for keyframes instead of in group with matching name only (is slower)"
+msgstr "För benens rörelsebanor söker du efter nyckelbildrutor i hela Action i stället för endast i en grupp med matchande namn (går långsammare)"
+
+#. :src: bpy.types.WorkSpaceTool.space_type:'NLA_EDITOR'
+msgid "Combine and layer Actions"
+msgstr "Kombinera och lägg Action i lager"
+
+#. :src: bpy.types.BlendData.actions
+msgid "Action data-blocks"
+msgstr "Action-datablock"
+
+#. :src: bpy.types.BlendDataActions
+msgid "Main Actions"
+msgstr "Huvud-Action"
+
+#. :src: bpy.types.BlendDataActions
+msgid "Collection of actions"
+msgstr "Samling av Action"

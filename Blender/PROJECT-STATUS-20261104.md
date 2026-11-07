@@ -6016,6 +6016,11 @@ Batch 728 granskar 20 kärnposter för Action-grupper, -lager, -posemarkörer,
 `ActionKeyframeStrip` oförändrade men använder svenska, läsbara sammansättningar
 runt dem. Batchen är lokalt kontrollerad och ännu inte importerad.
 
+Batch 729 granskar 16 beskrivningstexter för samma datatyp. Den använder
+*Action-datablock* där den tekniska betydelsen behöver förtydligas, men behåller
+vanlig svensk sakprosa för hanteringsåtgärder. Batchen är lokalt kontrollerad
+och ännu inte importerad.
+
 Batch 726 granskar 22 UI- och API-texter för Blenders formella
 animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
 *Action-kanal*, *Action-längd* och *Action-nyckelbildruta*, medan vanliga
