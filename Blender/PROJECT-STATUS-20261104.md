@@ -5633,3 +5633,8 @@ katalogens etablerade UI-etiketter *Rubrik* och *Verktygsrubrik*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-685-show-header.po` är lokalt
 kontrollerad och ännu inte importerad i Blender Translate.
 
+Den samlade deltafilen
+`blender-ui-sv-reviewed-20261107-batches-684-685-combined.po` innehåller
+båda de lokalt kontrollerade, ännu ej importerade ändringarna och är klar för
+manuell import.
+
