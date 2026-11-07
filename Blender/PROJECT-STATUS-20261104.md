@@ -433,6 +433,15 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 533 granskar 21 poster för hårpartiklars grovhet, stråform,
+guidehår och partikelvisning. Den normaliserar *grovhet* och rättar bland
+annat den felaktiga strängformen till *stråform*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-533-particles-roughness-and-guides.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-533.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade
