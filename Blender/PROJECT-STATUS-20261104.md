@@ -3747,3 +3747,10 @@ respektive UI-kontexter. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-462-brush-strokes-and-tips.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
+Batch 463 granskar 18 automaskeringsposter för meshgränser, håligheter,
+ytuppsättningar, normaler och ocklusion. Den återanvänder konsekvent
+*automaskering*, *hålighetsmask*, *ytuppsättningsgräns* och *meshgräns*.
+Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-463-brush-automasking-protection.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
