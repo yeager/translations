@@ -7856,3 +7856,17 @@ datablockshjälptext. Batchen är lokalt klar och pushad till vårt arkiv, men
 samlade manuella deltafilen för batch 811–898. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 899 granskar nio meshsträngar. Den rättar böjningen till *meshen* och
+*meshens* och skriver etablerade sammansättningar som *meshobjekt*,
+*meshsymmetri*, *meshkanter*, *meshnormaler* och *meshhörnpunkt* utan
+bindestreck. Batchen är lokalt klar och pushad till vårt arkiv, men ännu inte
+verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-899-mesh-compounds-and-inflection.po`
+är en separat manuell deltafil med dessa nio lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-899.po` är den aktuella
+samlade manuella deltafilen för batch 811–899. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
