@@ -7844,3 +7844,15 @@ separat manuell deltafil med dessa två lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–897. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 898 normaliserar Blenders tekniska term *packed* till *packat* i en
+datablockshjälptext. Batchen är lokalt klar och pushad till vårt arkiv, men
+ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-898-packed-datablock-terminology.po`
+är en separat manuell deltafil med den lokalt granskade ändringen.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-898.po` är den aktuella
+samlade manuella deltafilen för batch 811–898. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
