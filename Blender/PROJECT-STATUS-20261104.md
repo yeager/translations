@@ -7311,3 +7311,17 @@ lokalt klar men ännu inte importerad i Blender Translate.
 samlade manuella deltafilen för batch 811–855. Den innehåller 457 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 856 normaliserar 17 strängar för booleska operationer, modifierare,
+Fluid, Line Art och dataöverföring. Den använder *mesh*, *meshen*, *meshobjekt*,
+*källmesh*, *målmesh* och *manifold-meshar* där API:t avser Blenders datatyp,
+inte den generiska geometribetydelsen *nät*. Batchen är lokalt klar men ännu
+inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-856-mesh-modifier-context.po` är en
+separat manuell deltafil med endast dessa 17, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-856.po` är den aktuella
+samlade manuella deltafilen för batch 811–856. Den innehåller 459 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
