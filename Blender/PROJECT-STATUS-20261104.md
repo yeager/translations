@@ -335,6 +335,11 @@ RNA-kontexten. Den skiljer den tekniska termen *slot* från ordet *slott* och
 använder korrekta former som *slotten*, *slothandtag* och *slotidentifierare*.
 Deltafilen är lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 679 tillämpar samma ActionSlot-terminologi i fjorton animationsoperatorer.
+Den ersätter *plats* och *åtgärdsplats* med *slot* respektive *åtgärdsslot*
+och bevarar API-identifierarna i exempelkommandona. Deltafilen är lokalt
+kontrollerad och ännu inte importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
 `blender-ui-sv-reviewed-20261107-batches-626-674-combined.po` med 300
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656

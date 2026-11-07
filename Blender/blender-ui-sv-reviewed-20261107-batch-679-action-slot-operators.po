@@ -1,0 +1,160 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Beta (b'8f7aae950179')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-12 07:32+0000\n"
+"PO-Revision-Date: 2026-09-28 12:14+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. :src: bpy.types.ANIM_OT_slot_new_for_id
+msgid ""
+"Create a new Action Slot for an ID.\n"
+"\n"
+"Note that _which_ ID should get this slot must be set in the 'animated_id' "
+"context pointer, using:\n"
+"\n"
+">>> layout.context_pointer_set(\"animated_id\", animated_id)\n"
+"\n"
+"When the ID already has a slot assigned, the newly-created slot will be\n"
+"named after it (ensuring uniqueness with a numerical suffix) and any\n"
+"animation data of the assigned slot will be duplicated for the new slot."
+msgstr ""
+"Skapa en ny åtgärdsslot för ett ID.\n"
+"\n"
+"Observera att _vilket_ ID som ska få denna slot måste anges i "
+"kontextpekaren 'animated_id' med:\n"
+"\n"
+">>> layout.context_pointer_set(\"animated_id\", animated_id)\n"
+"\n"
+"När ID:t redan har en tilldelad slot får den nya slotten\n"
+"samma namn (med ett numeriskt suffix för att säkerställa unikhet), och\n"
+"animationsdata från den tilldelade slotten dupliceras för den nya slotten."
+
+#. :src: bpy.types.ANIM_OT_slot_new_for_id
+msgctxt "Operator"
+msgid "New Slot"
+msgstr "Ny slot"
+
+#. :src: bpy.types.ANIM_OT_slot_new_for_id
+msgid "Create a new action slot for this data-block, to hold its animation"
+msgstr ""
+"Skapa en ny åtgärdsslot för detta datablock för att lagra dess animering"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_constraint
+msgid ""
+"Un-assign the assigned Action Slot from an Action constraint.\n"
+"\n"
+"Note that _which_ constraint should get this slot unassigned must be set in\n"
+"the \"constraint\" context pointer, using:\n"
+"\n"
+">>> layout.context_pointer_set(\"constraint\", constraint)"
+msgstr ""
+"Ta bort tilldelningen av åtgärdsslotten från en åtgärdsbegränsning.\n"
+"\n"
+"Observera att _vilken_ begränsning som ska få slotten borttagen måste anges "
+"i\n"
+"kontextpekaren \"constraint\" med:\n"
+"\n"
+">>> layout.context_pointer_set(\"constraint\", constraint)"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_constraint
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_id
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_nla_strip
+msgctxt "Operator"
+msgid "Unassign Slot"
+msgstr "Ta bort slottilldelning"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_constraint
+msgid "Un-assign the action slot from this constraint"
+msgstr "Ta bort tilldelningen av åtgärdsslotten från denna begränsning"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_id
+msgid ""
+"Un-assign the assigned Action Slot from an ID.\n"
+"\n"
+"Note that _which_ ID should get this slot unassigned must be set in the\n"
+"\"animated_id\" context pointer, using:\n"
+"\n"
+">>> layout.context_pointer_set(\"animated_id\", animated_id)"
+msgstr ""
+"Ta bort tilldelningen av åtgärdsslotten från ett ID.\n"
+"\n"
+"Observera att _vilket_ ID som ska få slotten borttagen måste anges i\n"
+"kontextpekaren \"animated_id\" med:\n"
+"\n"
+">>> layout.context_pointer_set(\"animated_id\", animated_id)"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_id
+msgid ""
+"Un-assign the action slot, effectively making this data-block non-animated"
+msgstr ""
+"Ta bort tilldelningen av åtgärdsslotten, vilket innebär att detta datablock "
+"inte längre animeras"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_nla_strip
+msgid ""
+"Un-assign the assigned Action Slot from an NLA strip.\n"
+"\n"
+"Note that _which_ NLA strip should get this slot unassigned must be set in\n"
+"the \"nla_strip\" context pointer, using:\n"
+"\n"
+">>> layout.context_pointer_set(\"nla_strip\", nla_strip)"
+msgstr ""
+"Ta bort tilldelningen av åtgärdsslotten från en NLA-remsa.\n"
+"\n"
+"Observera att _vilken_ NLA-remsa som ska få slotten borttagen måste anges i\n"
+"kontextpekaren \"nla_strip\" med:\n"
+"\n"
+">>> layout.context_pointer_set(\"nla_strip\", nla_strip)"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_nla_strip
+msgid ""
+"Un-assign the action slot from this NLA strip, effectively making it non-"
+"animated"
+msgstr ""
+"Ta bort tilldelningen av åtgärdsslotten från denna NLA-remsa, vilket innebär "
+"att den inte längre animeras"
+
+#. :src: bpy.types.ANIM_OT_separate_slots
+msgctxt "Operator"
+msgid "Separate Slots"
+msgstr "Separera slotar"
+
+#. :src: bpy.types.ANIM_OT_separate_slots
+msgid ""
+"Move all slots of the action on the active object into newly created, "
+"separate actions. All users of those slots will be reassigned to the new "
+"actions. The current action won't be deleted but will be empty and might end "
+"up having zero users"
+msgstr ""
+"Flytta alla slotar i åtgärden på det aktiva objektet till nyskapade, "
+"separata åtgärder. Alla användare av dessa slotar kommer att omfördelas "
+"till de nya åtgärderna. Den aktuella åtgärden kommer inte att raderas, men "
+"kommer att vara tom och kan i slutändan ha noll användare"
+
+#. :src: bpy.types.ANIM_OT_slot_channels_move_to_new_action
+msgctxt "Operator"
+msgid "Move Slots to new Action"
+msgstr "Flytta slotar till ny åtgärd"
+
+#. :src: bpy.types.ANIM_OT_slot_channels_move_to_new_action
+msgid "Move the selected slots into a newly created action"
+msgstr "Flytta de valda slotarna till en ny åtgärd"
