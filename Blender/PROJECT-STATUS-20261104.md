@@ -214,10 +214,16 @@ Grease Pencil, skulptering, partikelpenslar och resursreferenser. De äldre
 formerna *borste* och *borstar* används inte för dessa verktyg. Deltafilen är
 lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
+*skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
+*skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
+skärmdumpar, proportionell redigering, EEVEE-strålspårning och nodresurser.
+Deltafilen är lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-657-combined.po` med 156
+`blender-ui-sv-reviewed-20261107-batches-626-658-combined.po` med 172
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657.
+och innehåller dessutom batch 657–658.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
