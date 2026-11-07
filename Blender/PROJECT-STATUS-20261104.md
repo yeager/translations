@@ -316,6 +316,11 @@ använder *fjärranslutet resursbibliotek*, *grundresursbiblioteket*,
 tilläggsinställningarna. Deltafilen är lokalt kontrollerad och ännu inte
 importerad i Blender Translate.
 
+Batch 675 granskar fem pensel- och automaskningsbeskrivningar i RNA-kontext.
+Den förtydligar alfa-låsning, simuleringsavklingning, områdesplansmappning,
+3D-vyporten och icke-manifolda gränskanter. Deltafilen är lokalt kontrollerad
+och ännu inte importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
 `blender-ui-sv-reviewed-20261107-batches-626-674-combined.po` med 300
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
