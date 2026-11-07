@@ -5045,3 +5045,13 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 604 granskar glTF-tilläggets inställningstexter. Den behåller tekniska
+identifikatorer och formatnamn oförändrade, men normaliserar Blender-termerna
+*Material Output*, *Shader Editor* och menyalternativet *Output* till
+*Materialutdata*, *shaderredigerare* respektive *Utdata*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-604-gltf-addon-preferences.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-604.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
