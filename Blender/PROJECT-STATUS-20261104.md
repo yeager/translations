@@ -3680,3 +3680,10 @@ Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-452-rigify-armature-brush.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
+Batch 453 granskar 13 penselposter för automaskering av meshgränser och
+håligheter. Den ersätter den inkonsekventa termen *kavitetsmask* med den
+projektspecifika termen *hålighetsmask* och gör beskrivningen av maskens
+oskärpning idiomatisk. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-453-brush-automasking.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
