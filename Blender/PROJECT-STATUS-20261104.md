@@ -7147,3 +7147,17 @@ separat manuell deltafil med endast dessa 21, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–843. Den innehåller 354 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 844 normaliserar 16 kontextbundna geometri-noder för generering,
+konvertering, interpolation och analys av Blenders *mesh*. Den använder
+bland annat *meshkanter*, *meshattribut*, *meshelement* och *meshens ytor*
+i stället för den generiska geometribetydelsen *nät*. Batchen är lokalt klar
+men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-844-mesh-geometry-nodes.po` är en
+separat manuell deltafil med endast dessa 16, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-844.po` är den aktuella
+samlade manuella deltafilen för batch 811–844. Den innehåller 359 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
