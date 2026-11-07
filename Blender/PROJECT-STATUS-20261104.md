@@ -3672,3 +3672,11 @@ projektspecifika termlistan. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-440-gizmo-controls-and-matrices.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
+Batch 452 granskar 15 poster för Rigifys widgetsamling samt armaturers
+visnings- och penselinställningar. Den förtydligar att speglingen träffar
+motsvarande ben på X-axelns andra sida och rättar områdesradien från en
+felaktig hänvisning till områdesplanets djup till områdets mittpunkt.
+Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-452-rigify-armature-brush.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
