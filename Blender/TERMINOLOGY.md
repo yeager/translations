@@ -253,6 +253,8 @@ Senast uppdaterad: 2026-11-06.
 | Kr derivative epsilon | epsilon för Kr-derivatan | Numerisk tröskelparameter för Freestyles suggestiva konturer. Behåll förkortningen Kr och formulera resten som en tydlig svensk fackterm. |
 | annotation frame / layer | anteckningsbildruta / anteckningslager | Bildruta respektive lager för Blenders ritade anteckningar. Översätt *frame* till *bildruta*, aldrig till den fysiska *ram*. |
 | onion skinning (annotations) | lökskalning | Visar närliggande anteckningsbildrutor som halvgenomskinliga spökbilder före eller efter den aktiva bildrutan. |
+| drawing guide / speed guide | ritningshjälplinje | Grease Pencils hjälplinje som begränsar riktning eller placering under ritning. Använd inte engelsklånet *guide* i svensk UI-text. |
+| guide spacing | avstånd mellan hjälplinjer | Avståndet mellan parallella eller rutnätsbaserade ritningshjälplinjer. |
 | vertex neighbors / face group boundaries | hörnpunktsgrannar / ytgruppsgränser | Noder som hämtar topologiska grannar respektive kanter mellan ytgrupper. Sammansättningarna är avsiktliga. |
 | Geometry Proximity | Geometrisk närhet | Nod som beräknar närmaste position på en målgeometri. |
 | gizmo | gizmo | Etablerat Blender-UI-namn. Skriv sammansatt: *transformationsgizmo*. |
