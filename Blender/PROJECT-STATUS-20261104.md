@@ -6363,6 +6363,15 @@ inte importerad.
 manuella importfilen. Den innehåller 65 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 770 rättar den tekniska datastrukturen `ViewerPath` till
+*visningssökväg*. Den följer samma avgränsning som Viewer-noderna och lämnar
+VR-visaren orörd. Deltafilen har passerat `msgfmt`, `l10n-lint` och `svlang`
+utan anmärkning. Den är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-761-770.po` är den aktuella
+manuella importfilen. Den innehåller 66 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
