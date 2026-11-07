@@ -5174,3 +5174,12 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 618 granskar GizmoGroup-API:ts operatörstexter. API-namnet behålls
+oförändrat, medan förklarande text normaliseras till *körs*, *efter körning*,
+*skala efter zoomnivån* och presensformen *skyms*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-618-gizmo-group-api.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-618.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
