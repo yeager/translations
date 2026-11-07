@@ -7075,3 +7075,16 @@ separat manuell deltafil med endast dessa tre, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–838. Den innehåller 256 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 839 normaliserar 44 etiketter för 3D-vyns redigeringsverktyg. Den
+ersätter den generiska geometribetydelsen *nät* med Blenders etablerade
+datatypsnamn *mesh* i hela den sammanhållna verktygsgruppen. Batchen är lokalt
+klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-839-mesh-edit-tool-labels.po` är en
+separat manuell deltafil med endast dessa 44, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-839.po` är den aktuella
+samlade manuella deltafilen för batch 811–839. Den innehåller 289 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
