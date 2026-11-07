@@ -11,6 +11,14 @@ kontrollerats med `msgfmt`, l10n-lint, diffkontroll och Gitleaks. Den väntar
 på import i Blender Translate; aktuell API-nyckel var inte tillgänglig i
 nyckelringen vid kontrollen.
 
+Batch 627 granskar sex strängar för punktgeometri, shadergrupper,
+renderingsfärghantering och meshverktyg. Den rättar teckensättning som måste
+följa källans kompletta eller avsiktligt öppna mening, samt normaliserar
+*shadergrupp* och *shadergruppnod* enligt UI-terminologin. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-627-punctuation-and-shader-groups.po`
+har passerat `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+diffkontroll. Den är lokalt klar men ännu inte importerad i Blender Translate.
+
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
 skickat in samtliga sex delar manuellt till Blender Translate. Importresultat
