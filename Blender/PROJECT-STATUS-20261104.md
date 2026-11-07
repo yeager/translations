@@ -3733,3 +3733,10 @@ hjälptext. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-460-brush-planes-and-pose.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
+Batch 461 granskar 41 poster för skulpteringspenslar, deras plan och
+utjämning. Den normaliserar *Boundary* till *Gräns* och använder den
+terminologiskt fastställda formen *sprutpistolen* i Airbrush-hjälptexten.
+Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-461-sculpt-brush-tools.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
