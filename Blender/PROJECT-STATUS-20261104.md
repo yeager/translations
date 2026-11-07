@@ -6874,3 +6874,11 @@ samlade manuella deltafilen för batch 811–819. Den innehåller 66 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
 
+Batch 820 granskar en maskredigeringsåtgärd som refererar till Dope Sheet.
+Den använder den etablerade bestämda formen *dopebladet* och förtydligar att
+det är bildrutorna som har markerats. Batchen är lokalt klar men ännu inte
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-820-dope-sheet-context.po` är en
+separat manuell deltafil med denna enda, lokalt granskade post.
+
