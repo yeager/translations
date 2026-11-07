@@ -5101,3 +5101,12 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 610 granskar Cycles- och bake-passens komponentetiketter. *Emit*,
+*Direct* och *Indirect* har de korrekta svenska formerna *Emittera*, *Direkt*
+och *Indirekt* i denna UI-kontext. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-610-cycles-bake-pass-labels.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-610.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
