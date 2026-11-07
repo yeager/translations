@@ -5119,3 +5119,13 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 612 granskar Dynamic Paint, punktcache, kurvkartläggning, benrotation
+och gemensamma RNA-etiketter. Alla nio poster har korrekta och kontextuellt
+entydiga svenska översättningar; *kurvkartläggning* följer termbasen.
+Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-612-dynamic-paint-and-rna-labels.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-612.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
