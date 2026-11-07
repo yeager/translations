@@ -1,0 +1,48 @@
+# Blender UI Swedish review delta – Asset Browser import and rename actions
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
+"PO-Revision-Date: 2026-11-08 01:50+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. :src: bpy.types.AssetMetaData.use_preferred_import_method
+msgid "When \"Follow Asset or Preferences\" is selected for the import method in the Asset Browser, use the preferred import method of this asset"
+msgstr "När \"Följ resurs eller Inställningar\" har valts som importmetod i resursbläddraren används resursens föredragna importmetod"
+
+#. :src: bpy.types.FileAssetSelectParams.import_method:'FOLLOW_PREFS'
+msgid "Follow Asset or Preferences"
+msgstr "Följ resurs eller Inställningar"
+
+#. :src: bpy.types.FileAssetSelectParams.import_method:'APPEND'
+msgid "Import the asset as copied data-block, with no link to the original asset data-block"
+msgstr "Importera resursen som ett kopierat datablock utan länk till det ursprungliga resursdatablocket"
+
+#. :src: bpy.types.FileAssetSelectParams.import_method:'APPEND_REUSE'
+msgid "Import the asset as copied data-block while avoiding multiple copies of nested, typically heavy data. For example the textures of a material asset, or the mesh of an object asset, don't have to be copied every time this asset is imported. The instances of the asset share the data instead"
+msgstr "Importera resursen som ett kopierat datablock men undvik flera kopior av nästlade, vanligtvis tunga data. Till exempel behöver texturerna i en materialresurs eller meshen i en objektresurs inte kopieras varje gång resursen importeras. Resursinstanserna delar i stället data"
+
+#. :src: bpy.types.ASSETBROWSER_MT_asset_rename
+#: source/blender/editors/asset/intern/asset_ops.cc:1899
+msgid "Rename Asset"
+msgstr "Byt namn på resurs"
+
+#. :src: bpy.types.ASSET_OT_external_asset_rename
+msgctxt "Operator"
+msgid "Rename Asset"
+msgstr "Byt namn på resurs"
+
+#. :src: bpy.types.ASSET_OT_external_asset_rename
+msgid "Change the name of this asset. Note that this cannot be un-done via the undo system"
+msgstr "Byt namn på den här resursen. Observera att åtgärden inte kan ångras via ångringssystemet"
+
+#: scripts/startup/bl_ui/space_filebrowser.py:755
+#: scripts/startup/bl_ui/space_filebrowser.py:768
+msgctxt "Operator"
+msgid "Rename Asset..."
+msgstr "Byt namn på resurs…"

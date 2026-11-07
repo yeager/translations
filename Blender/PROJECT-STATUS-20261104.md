@@ -6476,6 +6476,16 @@ Batch 780 granskar tre resurshylletexter för miniatyrbilder och dragning.
 manuella importfilen. Den innehåller 139 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 781 granskar åtta Asset Browser-texter för importmetod och namnbyte.
+Den rättar bland annat den felaktiga översättningen *nätet* för Blenders
+*mesh* i en importbeskrivning: här avses ett meshdatablock, inte internet.
+I dessa UI-handlingar används konsekvent *resurs* och *resursdatablock*.
+Batchen är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-781.po` är den aktuella
+manuella importfilen. Den innehåller 147 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
