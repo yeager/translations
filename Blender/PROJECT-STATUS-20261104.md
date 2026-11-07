@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-447.po`
-med 2 353 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-448.po`
+med 2 369 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -106,6 +106,14 @@ animeringsbildrutor. Den bekräftar *nyckelbildruta*, *mellanpose*, *ytterläge*
 och *rörlig hållning* som skilda animeringstyper samt gör skrivningen av
 *Grease Pencil-ritning* konsekvent. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-443-grease-pencil-frames-and-keyframes.po`
+är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
+är inte verifierad i detta arkiv.
+
+Batch 448 granskar 16 poster för Blenders datablocksidentiteter,
+länkbibliotek och körtidsdata. Den bekräftar projektets användning av
+*datablock*, *körtidsdata*, *biblioteksreferens* och
+*biblioteksåsidosättning*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-448-datablocks-and-library-links.po`
 är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
 är inte verifierad i detta arkiv.
 
