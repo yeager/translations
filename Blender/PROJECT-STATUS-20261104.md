@@ -7015,3 +7015,11 @@ samlade manuella deltafilen för batch 811–832. Den innehåller 206 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
 
+Batch 833 granskar elva Mesh-texter för dataöverföring, UV, Cycles och
+underindelning. Den normaliserar *mesh* i plural, *målmesh*, *den aktiva
+meshen* och *resultatmeshen* utan att ändra Blenders tekniska innebörd.
+Batchen är lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-833-mesh-transfer.po` är en separat
+manuell deltafil med endast dessa elva nya, lokalt granskade poster.
+
