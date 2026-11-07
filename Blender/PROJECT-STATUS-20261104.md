@@ -8174,6 +8174,19 @@ samlade manuella deltafilen för batch 811–922. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
 
+Batch 923 normaliserar modifierar- och Geometry Nodes-etiketten *Volym till
+mesh*. Den kompletterar den redan granskade parallellformen *Mesh till volym*.
+Batchen är lokalt klar, men ännu inte verifierad som importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-923-volume-to-mesh.po` är en separat
+manuell deltafil med den lokalt granskade ändringen.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-923.po` är den aktuella
+samlade manuella deltafilen för batch 811–923. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
+
 En lokal sammanslagning av den nedladdade UI-filen och batch 811–922 har
 kontrollerats med `msgfmt` och `svlang svengelska`. De enda återstående
 anglicismträffarna är det synliga Blender-namnet *Scope* i *Scope-panelerna*
