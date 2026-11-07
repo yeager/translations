@@ -6152,6 +6152,11 @@ Blender Translate-importen är verifierad den 7 november: servern behandlade
 75 poster, uppdaterade 57, hoppade över 18 och saknade 0. Filen ska därför
 inte laddas upp igen.
 
+Batch 748 normaliserar åtta data- och API-rader till termbasens *visningslager*
+för Blender-begreppet *view layer*. Den äldre kortformen *vylager* ersätts i
+den aktiva arbetsytan, Cycles-inställningarna och egenskaper för samling,
+material och sampling. Deltafilen är lokalt granskad och ännu inte importerad.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
