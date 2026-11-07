@@ -3754,3 +3754,10 @@ Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-463-brush-automasking-protection.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
+Batch 464 granskar 25 penselposter för framåtvända ytor, tryck, ursprungsplan
+och radieenheter. Den ersätter den oidiomatiska formen *Inverst jämnt tryck*
+med *Omvänt utjämningstryck* och bekräftar *radieenhet* i penselkontexten.
+Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-464-brush-frontface-and-pressure.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
