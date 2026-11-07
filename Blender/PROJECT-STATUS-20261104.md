@@ -3687,3 +3687,9 @@ oskärpning idiomatisk. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-453-brush-automasking.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
+Batch 454 granskar 38 penselposter för färgblandningslägen, alfa och
+oskärpning. Den följer terminologins etablerade blandningslägen, bland annat
+*Färgbränn*, *Färgskugga*, *Levande ljus* och *Punktljus*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-454-brush-blending-modes.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
