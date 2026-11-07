@@ -7133,3 +7133,17 @@ manuell deltafil med endast dessa 20, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–842. Den innehåller 336 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 843 normaliserar 21 modifierarbeskrivningar för datatypen *mesh*,
+bland annat meshcache, dataöverföring, spegling, avfasning, deformation och
+flernivåmesh. Den använder svenska, kontextbundna sammansättningar som
+*meshcache*, *meshö*, *meshobjekt*, *meshvecksinformation* och *basmesh*.
+Batchen är lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-843-mesh-modifier-details.po` är en
+separat manuell deltafil med endast dessa 21, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-843.po` är den aktuella
+samlade manuella deltafilen för batch 811–843. Den innehåller 354 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.

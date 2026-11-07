@@ -1,0 +1,150 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Beta (b'9a146ef5783c')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:58+0000\n"
+"PO-Revision-Date: 2026-11-07 13:27+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. :src: bpy.types.Mesh.texture_mesh
+msgid "Use another mesh for texture indices (vertex indices must be aligned)"
+msgstr ""
+"Använd en annan mesh för texturindex (hörnpunktsindex måste vara justerade)"
+
+#. :src: bpy.types.MeshSkinVertex.use_root
+msgid ""
+"Vertex is a root for rotation calculations and armature generation, setting "
+"this flag does not clear other roots in the same mesh island"
+msgstr ""
+"Hörnpunkten är en rot för rotationsberäkningar och armaturgenerering. Om "
+"denna flagga anges rensas inte andra rötter på samma meshö"
+
+#. :src: bpy.types.Modifier.type:'MESH_SEQUENCE_CACHE'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'MESH_SEQUENCE_CACHE'
+msgid "Deform the mesh or curve using an external mesh cache in Alembic format"
+msgstr ""
+"Deformera meshen eller kurvan med hjälp av en extern meshcache i Alembic-format"
+
+#. :src: bpy.types.Modifier.type:'BEVEL'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'BEVEL'
+msgid ""
+"Generate sloped corners by adding geometry to the mesh's edges or vertices"
+msgstr ""
+"Skapa avfasade hörn genom att lägga till geometri till meshens kanter eller "
+"hörnpunkter"
+
+#. :src: bpy.types.Modifier.type:'BUILD'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'BUILD'
+msgid ""
+"Cause the faces of the mesh object to appear or disappear one after the "
+"other over time"
+msgstr ""
+"Få ytorna på meshobjektet att visas eller försvinna en efter en över tid"
+
+#. :src: bpy.types.Modifier.type:'MULTIRES'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'MULTIRES'
+msgid ""
+"Subdivide the mesh in a way that allows editing the higher subdivision levels"
+msgstr ""
+"Dela upp meshen på ett sätt som gör det möjligt att redigera de högre "
+"indelningsnivåerna"
+
+#. :src: bpy.types.Modifier.type:'SCREW'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'SCREW'
+msgid "Lathe around an axis, treating the input mesh as a profile"
+msgstr "Svarva runt en axel och behandla ingångsmeshen som en profil"
+
+#. :src: bpy.types.Modifier.type:'MESH_DEFORM'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'MESH_DEFORM'
+msgid "Deform using a different mesh, which acts as a deformation cage"
+msgstr ""
+"Deformera med hjälp av en annan mesh, som fungerar som en deformationsbur"
+
+#. :src: bpy.types.Modifier.type:'WARP'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'WARP'
+msgid ""
+"Warp parts of a mesh to a new location in a very flexible way thanks to 2 "
+"specified objects"
+msgstr ""
+"Förvräng delar av en mesh till en ny plats på ett mycket flexibelt sätt med "
+"hjälp av två angivna objekt"
+
+#. :src: bpy.types.BooleanModifier.solver:'MANIFOLD'
+#. :src: bpy.types.GeometryNodeMeshBoolean.solver:'MANIFOLD'
+#. :src: bpy.types.SCULPT_OT_trim_box_gesture.trim_solver:'MANIFOLD'
+#. :src: bpy.types.SCULPT_OT_trim_lasso_gesture.trim_solver:'MANIFOLD'
+#. :src: bpy.types.SCULPT_OT_trim_line_gesture.trim_solver:'MANIFOLD'
+#. :src: bpy.types.SCULPT_OT_trim_polyline_gesture.trim_solver:'MANIFOLD'
+msgid ""
+"Fastest solver that works only on manifold meshes but gives better results"
+msgstr ""
+"Snabbaste lösaren som endast fungerar på manifoldmesh men ger bättre resultat"
+
+#. :src: bpy.types.CorrectiveSmoothModifier.rest_source:'ORCO'
+msgid "Use base mesh vertex coordinates as the rest position"
+msgstr "Använd basmeshens hörnpunktskoordinater som viloposition"
+
+#. :src: bpy.types.DataTransferModifier
+msgid "Modifier transferring some data from a source mesh"
+msgstr "Modifierare som överför vissa data från en källmesh"
+
+#. :src: bpy.types.DataTransferModifier.use_object_transform
+#. :src: bpy.types.OBJECT_OT_data_transfer.use_object_transform
+msgid "Evaluate source and destination meshes in global space"
+msgstr "Utvärdera käll- och målmesh i globalt koordinatrum"
+
+#. :src: bpy.types.MaskModifier
+msgid "Mask modifier to hide parts of the mesh"
+msgstr "Maskmodifierare för att dölja delar av meshen"
+
+#. :src: bpy.types.MeshCacheModifier.deform_mode:'INTEGRATE'
+msgid ""
+"Integrate deformation from this modifier's input with the mesh-cache "
+"coordinates (useful for shape keys)"
+msgstr ""
+"Integrera deformation från denna modifierares indata med "
+"meshcachekoordinaterna (användbart för formnycklar)"
+
+#. :src: bpy.types.MeshDeformModifier
+msgid "Mesh deformation modifier to deform with other meshes"
+msgstr "Modifierare för meshdeformering med andra meshobjekt"
+
+#. :src: bpy.types.MeshToVolumeModifier.interior_band_width
+msgid "Width of the gradient inside of the mesh"
+msgstr "Bredden på gradienten inuti meshen"
+
+#. :src: bpy.types.MirrorModifier.use_bisect_axis
+msgid "Cuts the mesh across the mirror plane"
+msgstr "Skär meshen tvärs över spegelplanet"
+
+#. :src: bpy.types.MultiresModifier
+msgid "Multiresolution mesh modifier"
+msgstr "Multires-meshmodifierare"
+
+#. :src: bpy.types.MultiresModifier.use_creases
+#. :src: bpy.types.SubsurfModifier.use_creases
+msgid "Use mesh crease information to sharpen edges or corners"
+msgstr "Använd meshvecksinformation för att skärpa kanter eller hörn"
+
+#. :src: bpy.types.MultiresModifier.use_custom_normals
+#. :src: bpy.types.SubsurfModifier.use_custom_normals
+msgid "Interpolates existing custom normals to resulting mesh"
+msgstr "Interpolerar befintliga anpassade normaler till resulterande mesh"
