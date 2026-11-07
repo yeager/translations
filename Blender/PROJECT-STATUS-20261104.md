@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-496.po`
-med 3 522 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-497.po`
+med 3 528 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -100,6 +100,13 @@ interpolering. Den behåller Blenders synliga typnamn *Lattice*, använder
 `blender-ui-sv-reviewed-20261107-batch-489-lattice-grid-and-interpolation.po`
 är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
 är inte verifierad i detta arkiv.
+
+Batch 497 granskar sex grundposter för Blender-masker, deras lager och deras
+bildrutor. Den preciserar att maskdatablocket används för *bildkomposition*,
+utan att blanda ihop kontexten med masktexturer eller maskgeometri. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-497-mask-data-basics.po` är lokalt
+kontrollerad och arkiverad, men dess import till Blender Translate är inte
+verifierad i detta arkiv.
 
 Batch 496 granskar fyra återstående volymljussondposter: giltighetströskeln
 och visningsförskjutningen. Den gör förklaringen konsekvent med
