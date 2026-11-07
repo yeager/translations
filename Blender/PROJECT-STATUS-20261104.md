@@ -3719,3 +3719,10 @@ och *ormkrok* i deras verktygskontext. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-458-grease-pencil-sculpt-tools.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
+Batch 459 granskar 34 penselposter för toning, tryckmodulering, variation och
+maskschabloner. Den normaliserar den inkonsekventa formen *filsökväg* till
+*filväg* för penselikonen och bekräftar *masktexturplats* i penselkontexten.
+Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-459-brush-pressure-jitter-and-masks.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
