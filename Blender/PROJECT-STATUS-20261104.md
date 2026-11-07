@@ -7654,3 +7654,16 @@ Translate.
 samlade manuella deltafilen för batch 811–880. Den innehåller 682 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 881 rättar den formella Blender-datatypen *mesh* i ett meddelande från
+geometrinoder: *Ytan har ingen mesh* ersätter den oprecisa översättningen
+”Ytan har inget nät”. Batchen är lokalt klar men ännu inte importerad i
+Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-881-surface-mesh-terminology.po` är
+en separat manuell deltafil med denna lokalt granskade ändring.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-881.po` är den aktuella
+samlade manuella deltafilen för batch 811–881. Den innehåller 683 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
