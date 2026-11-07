@@ -5717,3 +5717,10 @@ innehåller 86 unika poster från batch 680–694, med de nyare formuleringarna
 valda vid eventuell överlappning, och ryms inom den överenskomna
 uppladdningsgränsen på 1 000 strängar.
 
+Batch 695 rättar två felskrivningar i operatören som rensar
+förhandsvisningar: *Tydliga förhandsvisningar* blir *Rensa
+förhandsvisningar*. Den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-all-pending-batches-680-695.po` innehåller
+88 unika, lokalt kontrollerade och ännu ej importerade poster. Den ersätter
+samlingen 680–694 och är klar för manuell import.
+
