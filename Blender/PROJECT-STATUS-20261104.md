@@ -6049,6 +6049,12 @@ Batch 733 normaliserar sju explicita Color Ramp-åtgärder och hjälprutor till
 *färggradient* och *färgstopp*. Batchen är lokalt kontrollerad och ännu inte
 importerad.
 
+För manuell import finns även
+`blender-ui-sv-reviewed-20261107-pending-batches-724-733.po`. Den förenar
+batcherna 724–733 till 132 unika poster. De två poster som förekommer i både
+batch 728 och 729 har identisk svensk översättning och har därför avdubbletterats.
+Samlingsfilen är lokalt kontrollerad men ännu inte importerad.
+
 Batch 726 granskar 22 UI- och API-texter för Blenders formella
 animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
 *Action-kanal*, *Action-längd* och *Action-nyckelbildruta*, medan vanliga
