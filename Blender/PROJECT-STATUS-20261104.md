@@ -7270,3 +7270,16 @@ manuell deltafil med endast dessa 12, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–852. Den innehåller 431 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 853 normaliserar åtta skulpteringssträngar för booleska trimverktyg,
+maskextraktion och utjämning. Den använder *meshen* och *meshobjekt* i stället
+för den generiska geometribetydelsen *nät*. Batchen är lokalt klar men ännu
+inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-853-mesh-sculpt-trim.po` är en separat
+manuell deltafil med endast dessa åtta, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-853.po` är den aktuella
+samlade manuella deltafilen för batch 811–853. Den innehåller 437 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
