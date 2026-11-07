@@ -298,6 +298,8 @@ Senast uppdaterad: 2026-11-06.
 | fading | uttoning | Gradvis borttagning i Grease Pencil-bygg- och längdmodifierare. |
 | Grease Pencil masking layer | maskeringslager för Grease Pencil | Lager som begränsar synligheten för Grease Pencil-innehåll. |
 | Grease Pencil time modifier segment | tidsmodifierarsegment | Ett intervall som har egna tidsförskjutnings- och upprepningsinställningar. |
+| Grease Pencil dash modifier segment | streckmodifierarsegment | Del av Grease Pencils streckmodifierare som styr vilka ritpunkter som ingår i ett streck eller mellanrum. |
+| dash / gap (Grease Pencil modifier) | streck / mellanrum | Beståndsdelar i Grease Pencils streckmodifierarsegment. |
 | onion skin | lökskal | Den visade tidigare eller senare ritningen. Funktionen heter *lökskalning*. |
 | override | åsidosättning / överskrivning | Kontextstyrt. Generella UI-etiketter använder *åsidosättning*. *Library Override* är i den aktuella UI-katalogen *biblioteksåsidosättning*, men närliggande operatörsnamn använder också *biblioteksöverskrivning*. Normalisera aldrig utan att granska strängens sammanhang och närliggande förekomster. |
 

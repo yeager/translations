@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-441.po`
-med 2 234 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-442.po`
+med 2 247 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -98,6 +98,14 @@ och VR-indikatorer. Den rättar bland annat den tidigare trasiga
 VR-styrenhetsetiketten, normaliserar *gizmokarta* och använder sammanfogade
 Blender-termer som *gizmogrupp* och *gizmoegenskaper*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-441-gizmo-groups-and-regions.po` är
+lokalt kontrollerad och arkiverad, men dess import till Blender Translate är
+inte verifierad i detta arkiv.
+
+Batch 442 granskar 13 poster för Grease Pencils streckmodifierarsegment och
+ritningar. Den bekräftar *streckmodifierarsegment*, *mellanrum* och
+*materialindex* i den konkreta modifierarkontexten samt gör *Grease
+Pencil-ritning* konsekvent med projektets tidigare terminologi. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-442-grease-pencil-dash-segments.po` är
 lokalt kontrollerad och arkiverad, men dess import till Blender Translate är
 inte verifierad i detta arkiv.
 
