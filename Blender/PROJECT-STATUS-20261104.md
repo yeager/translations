@@ -340,10 +340,17 @@ Den ersätter *plats* och *åtgärdsplats* med *slot* respektive *åtgärdsslot*
 och bevarar API-identifierarna i exempelkommandona. Deltafilen är lokalt
 kontrollerad och ännu inte importerad i Blender Translate.
 
-Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-679-combined.po` med 323
-granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–679.
+Batch 680 normaliserar tretton ActionSlot-etiketter och diagnoser i Rigify,
+NLA, Outliner och animeringssystemet. Den använder *åtgärdsslot* även i
+felmeddelanden och föråldrade användargränssnittssträngar. Deltafilen är lokalt
+kontrollerad och ännu inte importerad i Blender Translate.
+
+Den 7 november importerades samlingsfilen
+`blender-ui-sv-reviewed-20261107-batches-626-679-combined.po` manuellt i
+Blender Translate. Servern behandlade 323 poster: 135 uppdaterades, 183
+hoppades över och fem hittades inte eftersom motsvarande källsträngar har
+ändrats eller försvunnit. Därmed är batch 626–679 inskickade; resultatet
+innebär inte att samtliga äldre formuleringar har skrivits över.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
