@@ -7681,3 +7681,16 @@ separat manuell deltafil med dessa tolv, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–882. Den innehåller 682 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 883 fortsätter normaliseringen av *mesh* i tolv modifierarsträngar,
+bland annat för meshcache, meshobjekt, meshyta och meshens böjning. Batchen
+är lokalt klar och pushad till vårt arkiv, men ännu inte verifierad som
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-883-mesh-modifiers.po` är en separat
+manuell deltafil med dessa tolv, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-883.po` är den aktuella
+samlade manuella deltafilen för batch 811–883. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
