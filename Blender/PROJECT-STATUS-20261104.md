@@ -7244,3 +7244,16 @@ manuell deltafil med endast dessa 10, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–850. Den innehåller 417 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 851 normaliserar 18 QuadriFlow-, symmetri- och visningssträngar för
+Blender-mesh. Den använder bland annat *meshgräns*, *meshkanter*, *meshen*
+och *meshens topologi* i stället för den generiska geometribetydelsen *nät*.
+Batchen är lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-851-mesh-remesh-tools.po` är en separat
+manuell deltafil med endast dessa 18, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-851.po` är den aktuella
+samlade manuella deltafilen för batch 811–851. Den innehåller 423 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
