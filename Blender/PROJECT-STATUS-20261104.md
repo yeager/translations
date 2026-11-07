@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-472.po`
-med 3 091 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-473.po`
+med 3 114 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -174,6 +174,16 @@ Batch 472 granskar 21 poster för ytkurvor, textkurvor och textjustering.
 Den bekräftar de typografiska lägena *Justera*, *Jämna marginaler*,
 *övre baslinje*, *nedre baslinje* och *teckenavstånd*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-472-text-curves-and-alignment.po` är
+lokalt kontrollerad och arkiverad, men dess import till Blender Translate är
+inte verifierad i detta arkiv.
+
+Batch 473 granskar 23 poster för textobjektens innehåll, teckenformat,
+objektteckensnitt, kurvdeformerad text och markerad fetstil, kursiv,
+kapitäler och understrykning. Den rättar den grammatiskt felaktiga
+inställningsbeskrivningen till *Inställningar för redigering av
+teckenformatering* och behåller de synliga Blender-namnen *Vertex Instancing*
+och exempelidentifierarna `family-a` och `family-b`. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-473-text-curve-fonts-and-styles.po` är
 lokalt kontrollerad och arkiverad, men dess import till Blender Translate är
 inte verifierad i detta arkiv.
 
