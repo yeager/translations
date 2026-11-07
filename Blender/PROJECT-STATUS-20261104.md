@@ -6529,6 +6529,11 @@ redigeraren *Kompositör* och använder därför den bestämda löptextformen
 manuella importfilen. Den innehåller 173 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+`REVIEW-COVERAGE-20261108.md` dokumenterar den första reproducerbara
+täckningsmätningen för den lokala UI-filen. Av 40 427 aktuella poster är
+6 794 täckta av arkiverade granskningsbatcher, vilket motsvarar 16,81 %.
+Detta är inte Weblates status eller ett mått på importerade ändringar.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
