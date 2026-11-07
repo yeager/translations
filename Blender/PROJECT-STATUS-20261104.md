@@ -313,6 +313,16 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 521 granskar 16 Object-poster för objektfärg, deltatransformationer,
+dimensioner och visningsgränser. Den lokaliserar läget *Object Color* som
+*Objektfärg*, gör Euler- och kvaternionrotationerna konsekventa och skriver
+om varningen för upprepade dimensionsvärden till idiomatisk svenska. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-521-object-delta-and-display.po` och
+den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-521.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade
