@@ -6953,10 +6953,9 @@ men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-827-mesh-topology.po` är en separat
 manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
 
-`blender-ui-sv-reviewed-20261108-pending-batches-811-827.po` är den aktuella
-samlade manuella deltafilen för batch 811–827. Den innehåller 147 poster,
-passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
-Translate.
+`blender-ui-sv-reviewed-20261108-pending-batches-811-827.po` är den tidigare
+samlade manuella deltafilen för batch 811–827. Den innehåller 147 poster och
+passerar lokal syntax- och lintkontroll.
 
 Batch 828 granskar tolv Mesh-texter för geometri, normala, remeshing och
 skulpteringsverktyg. Den använder konsekvent *mesh* för Blenders datatyp,
@@ -6966,4 +6965,9 @@ Translate.
 
 `blender-ui-sv-reviewed-20261108-batch-828-mesh-elements.po` är en separat
 manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-828.po` är den aktuella
+samlade manuella deltafilen för batch 811–828. Den innehåller 159 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
 
