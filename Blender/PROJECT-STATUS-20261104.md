@@ -5955,3 +5955,13 @@ annat *färggradient*, *underytsspridning*, *meshkant* och *meshyta*. Den är
 ännu inte importerad och ska inte blandas ihop med de redan behandlade
 batcherna 705–718.
 
+Batch 720 kompletterar den lokala granskningen med 20 specifika förekomster av
+*geometrinod*, *geometrinodmodifierare*, *kompositionsnodträd* och
+*sekvensredigerare*. Arbetsytor, skärmlayouter och filhantering granskades
+samtidigt men krävde inga säkra ändringar.
+
+Den aktuella rekommenderade importfilen är
+`blender-ui-sv-reviewed-20261107-pending-batches-719-720.po`. Den innehåller
+37 lokalt kontrollerade, ännu ej importerade poster och har passerat `msgfmt`,
+`l10n-lint`, sammanslagningskontroll, diffkontroll och Gitleaks.
+
