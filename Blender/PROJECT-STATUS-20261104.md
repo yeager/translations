@@ -6990,10 +6990,9 @@ klar men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-830-mesh-data.po` är en separat
 manuell deltafil med endast dessa elva nya, lokalt granskade poster.
 
-`blender-ui-sv-reviewed-20261108-pending-batches-811-830.po` är den aktuella
-samlade manuella deltafilen för batch 811–830. Den innehåller 182 poster,
-passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
-Translate.
+`blender-ui-sv-reviewed-20261108-pending-batches-811-830.po` är den tidigare
+samlade manuella deltafilen för batch 811–830. Den innehåller 182 poster och
+passerar lokal syntax- och lintkontroll.
 
 Batch 831 granskar tolv Mesh-texter för import, USD-export, underindelning och
 skulptering. Den normaliserar *mesh*, *meshen*, *meshdetaljer* och
@@ -7010,4 +7009,9 @@ importerad i Blender Translate.
 
 `blender-ui-sv-reviewed-20261108-batch-832-mesh-normal-topology.po` är en
 separat manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-832.po` är den aktuella
+samlade manuella deltafilen för batch 811–832. Den innehåller 206 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
 
