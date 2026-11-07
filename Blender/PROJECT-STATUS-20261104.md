@@ -4603,3 +4603,13 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 555 granskar sju poster för *Smooth Hair Curves*, som jämnar ut
+hårkurvors form genom upprepade beräkningar. Den gör reglagen tydligare med
+*utjämningsgrad*, *antal utjämningssteg* och *vikt för utjämning* samt rättar
+hjälptexten så att alla spetsars position låses. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-555-smooth-hair-curves.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-555.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
