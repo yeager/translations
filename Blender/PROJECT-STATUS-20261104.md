@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-469.po`
-med 3 023 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-470.po`
+med 3 047 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -153,6 +153,14 @@ avfasningsgeometri*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-469-curve-bevel-geometry.po` är lokalt
 kontrollerad och arkiverad, men dess import till Blender Translate är inte
 verifierad i detta arkiv.
+
+Batch 470 granskar 25 poster för kurvans extrudering, fyllningsläge,
+förskjutning, sökvägsvaraktighet, U/V-upplösning och avsmalning. Den använder
+de etablerade termerna *kurvans fyllningsläge*, *sökvägsvaraktighet*,
+*kurvspline*, *avsmalningsobjekt* och *avsmalningsradie*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-470-curve-dimensions-and-taper.po` är
+lokalt kontrollerad och arkiverad, men dess import till Blender Translate är
+inte verifierad i detta arkiv.
 
 Batch 450 granskar åtta Action-poster för F-kurvor och bildruteintervall.
 Deltafilen `blender-ui-sv-reviewed-20261107-batch-450-action-frame-ranges.po`
