@@ -7480,3 +7480,17 @@ separat manuell deltafil med endast dessa 15, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–867. Den innehåller 530 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 868 granskar 15 Quadriflow-, ytdeformerings- och voxelommeshningssträngar.
+Den använder *fyrhörningsbaserad mesh*, *meshen*, *meshgräns*,
+*utdata-mesh* och *manifold-mesh*. Den tidigare formuleringen *slutet nät*
+ersätts eftersom manifold inte alltid innebär att en mesh är sluten. Batchen
+är lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-868-quadriflow-mesh.po` är en separat
+manuell deltafil med endast dessa 15, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-868.po` är den aktuella
+samlade manuella deltafilen för batch 811–868. Den innehåller 530 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
