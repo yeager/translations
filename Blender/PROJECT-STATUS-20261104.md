@@ -6320,11 +6320,12 @@ Den är lokalt klar men ännu inte importerad.
 manuella importfilen. Den innehåller 33 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
-Batch 766 rättar fem popup- och popovertexter. Den ersätter den felaktiga
-formen *poppuppfönster* med *popupfönster*, vilket följer den svenska
-stavningsregeln utan tre likadana konsonanter i rad. Deltafilen har passerat
-`msgfmt` och `l10n-lint`; `svlang` ger endast en falsk V2-varning i en
-infinitivfras. Den är lokalt klar men ännu inte importerad.
+Batch 766 rättar fem popup- och popovertexter och Asset Shelfs
+redigerarlägesbeskrivning. Den ersätter *poppuppfönster* med *popupfönster*
+och den felaktiga arbetsytekontexten med Blenders tekniska *redigerarläge*.
+Deltafilen har passerat `msgfmt` och `l10n-lint`; `svlang` ger endast en
+falsk V2-varning i en infinitivfras. Den är lokalt klar men ännu inte
+importerad.
 
 `blender-ui-sv-reviewed-20261107-pending-batches-761-766.po` är den aktuella
 manuella importfilen. Den innehåller 38 nya, lokalt granskade poster och
