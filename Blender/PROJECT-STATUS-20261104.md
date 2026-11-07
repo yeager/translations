@@ -4939,3 +4939,12 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 592 granskar tygsimuleringens hörnpunktsgrupper för sömnad, böjstyvhet,
+interna fjädrar, fastsättning och tryck. Den följer projektets etablerade term
+*hörnpunktsgrupp*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-592-cloth-vertex-groups.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-592.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
