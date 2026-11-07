@@ -198,12 +198,15 @@ i Blender Translate.
 Batch 656 granskar tre hjälptexter för Outlinerns Library Override-åtgärder.
 De använder nu konsekvent *biblioteksåsidosättning* och beskriver
 beroendehierarkier utan den äldre, ospecifika formen *överskrivning*.
-Deltafilen är lokalt kontrollerad men ännu inte importerad i Blender Translate.
+Deltafilen ingår i den verifierat importerade samlingsfilen nedan.
 
-Den aktuella samlingsfilen för batch 626–656 är
+Den 7 november importerades samlingsfilen för batch 626–656 i Blender
+Translate. Weblate behandlade 138 poster: 115 uppdaterades, 23 hoppades över
+och 0 saknades. Importen är därmed verifierad.
+
+Den importerade samlingsfilen för batch 626–656 är
 `blender-ui-sv-reviewed-20261107-batches-626-656-combined.po` med 138
-granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–655 för det ändamålet.
+granskade poster och ersätter den tidigare samlingsfilen 626–655.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
