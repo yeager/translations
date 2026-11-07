@@ -6067,6 +6067,10 @@ Batch 737 normaliserar EEVEE-inställningen *Full resolution* till
 *Fullständig upplösning*. Batchen är lokalt kontrollerad och ännu inte
 importerad.
 
+Batch 738 rättar ett felaktigt statusmeddelande i grafredigeraren: samplade
+F-kurvor kan inte ta emot nyckelbildrutor. Batchen är lokalt kontrollerad och
+ännu inte importerad.
+
 För manuell import finns även
 `blender-ui-sv-reviewed-20261107-pending-batches-724-733.po`. Den förenar
 batcherna 724–733 till 132 unika poster. De två poster som förekommer i både
