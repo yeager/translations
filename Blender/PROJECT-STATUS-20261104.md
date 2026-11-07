@@ -4469,3 +4469,14 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 542 granskar 17 Scene-poster för nyckeluppsättningar, låst
+bildruteval, kompositionsnodträd, renderingsdata, sekvensredigerarens
+färgrymd, delbildrutor och simuleringsintervall. Den normaliserar
+*kompositionsnodträd* och ersätter felaktig *ram* med *bildruta* i
+animeringskontexten. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-542-scene-keys-sequencer-and-simulation.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-542.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
