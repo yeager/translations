@@ -712,7 +712,8 @@ Senast uppdaterad: 2026-11-06.
 | tile (UDIM/image) | platta | Bild- eller UDIM-platta; inte kakel. |
 | Multi-View / views format | flera vyer / vyformat | Bildinställningar för parallella vyer, exempelvis stereo. Behåll inte engelska *Multi-View* i en svensk UI-etikett. |
 | Stereo 3D | stereoskopisk 3D | Väljs som vyformat för stereobilder och stereovideo. |
-| Full precision | fullständig precision | Kompositorns explicita precisionsläge; skilj från tekniska formatnamn och codec-profiler. |
+| Full precision | fullständig precision | Kompositorns explicita precisionsläge; skilj från tekniska formatnamn och kodekprofiler. |
+| codec profile / codec profiles | kodekprofil / kodekprofiler | Använd för profiler som beskriver en kodeks kodningsalternativ. Produktnamn och själva profilvärdena, exempelvis *ProRes 422 HQ*, lämnas oförändrade. |
 | NDOF | NDOF | Behåll enhetens produktförkortning; översätt den efterföljande synliga åtgärden med liten begynnelsebokstav. |
 | keyframe | nyckelbildruta | Grundterm för animeringspunkt på en F-kurva. |
 | quartic/quintic interpolation | fjärdegradig/femtegradig interpolering | Matematiska interpoleringsord; inte kvadratisk eller engelska funktionsnamn. |
