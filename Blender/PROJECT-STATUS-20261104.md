@@ -6133,6 +6133,11 @@ Blenders formella animationsdatatyp, inte den vanliga svenska handlingen
 *åtgärd*. Deltafilen innehåller sju lokalt granskade, ännu ej importerade
 ändringar.
 
+Batch 747 tillämpar Shrinkwrap-terminologin på modifierarens målegenskaper:
+det synliga funktionsnamnet *Shrinkwrap* behålls, medan objektet som används
+som mål blir *målmeshobjekt*. Deltafilen innehåller fyra lokalt granskade,
+ännu ej importerade ändringar.
+
 `blender-ui-sv-reviewed-20261107-pending-batches-739-743.po` ersätter
 739–742-samlingen. Den innehåller 46 unika, lokalt granskade och ännu ej
 importerade ändringar.
