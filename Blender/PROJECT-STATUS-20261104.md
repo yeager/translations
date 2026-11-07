@@ -127,10 +127,16 @@ och gör de additiva, subtraktiva, multiplikativa, anpassade och okända
 åsidosättningarna konsekventa som substantiv. Deltafilen är lokalt
 kontrollerad men ännu inte importerad i Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–643 är
-`blender-ui-sv-reviewed-20261107-batches-626-643-combined.po` med 66
+Batch 644 granskar Volym-visningens *wireframe mode*. Den ersätter
+*trådmodellläge*, som har tre `l` i följd, med Blenders etablerade term
+*trådramsläge*. Den virtuellt sammanslagna UI-katalogen innehåller därefter
+inga återstående strängar med tre identiska konsonanter i följd. Deltafilen är
+lokalt kontrollerad men ännu inte importerad i Blender Translate.
+
+Den aktuella samlingsfilen för batch 626–644 är
+`blender-ui-sv-reviewed-20261107-batches-626-644-combined.po` med 67
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–642 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–643 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
