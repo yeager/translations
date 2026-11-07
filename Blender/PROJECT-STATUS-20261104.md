@@ -7047,18 +7047,4 @@ samlade manuella deltafilen för batch 811–835. Den innehåller 221 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
 
-Batch 836 normaliserar fjorton etiketter och egenskapstexter för Blenders
-formella animationsdatatyp *Action*. Den ersätter tvetydiga sammansättningar
-med *Action-grupp*, *Action-lager*, *Actions posmarkörer*, *Action-slot* och
-*Action-remsa*. Vanliga betydelser av ordet *action* berörs inte. Batchen är
-lokalt klar men ännu inte importerad i Blender Translate.
-
-`blender-ui-sv-reviewed-20261108-batch-836-action-datatypes-normalization.po`
-är en separat manuell deltafil med endast dessa fjorton, lokalt granskade
-poster.
-
-`blender-ui-sv-reviewed-20261108-pending-batches-811-836.po` är den aktuella
-samlade manuella deltafilen för batch 811–836. Den innehåller 231 poster,
-passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
-Translate.
 
