@@ -8173,3 +8173,12 @@ separat manuell deltafil med de lokalt granskade ändringarna.
 samlade manuella deltafilen för batch 811–922. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+En lokal sammanslagning av den nedladdade UI-filen och batch 811–922 har
+kontrollerats med `msgfmt` och `svlang svengelska`. De enda återstående
+anglicismträffarna är det synliga Blender-namnet *Scope* i *Scope-panelerna*
+och de bokstavliga katalognamnen `startup`, `add-ons`, `modules` och
+`presets`. Formerna *shader-nod*, *mesh-*, *cache-*, *åtgärdsslot* och
+*Dopesheet* förekommer inte längre som svenska måltexter i den effektiva
+lokala sammanställningen. Detta är lokal QA och inte ett importresultat från
+Blender Translate.
