@@ -4551,3 +4551,14 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 550 granskar 37 poster för nodgruppen *Braid Hair Curves*: guideindex,
+guideindexkartor, flätans radie, hårstrånas tjocklek, utsvängning och
+hårsnodd. Den ersätter den felaktiga generella *sträng* med hårkontextens
+*strå*, använder termbasens *guideindexkarta* genomgående och rättar den
+ofullständiga etiketten *Tjocklek* till *Tjockleksform*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-550-braid-hair-curves.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-550.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
