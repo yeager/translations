@@ -5914,3 +5914,15 @@ post saknas från exporten och ingen återger exportens befintliga översättnin
 Den ryms väl inom gränsen på 1 000 strängar per import. `msgfmt`,
 `l10n-lint`, sammanslagningskontroll, diffkontroll och Gitleaks passerade.
 
+Batch 716 samlar 27 ytterligare, oberoende kontrollerade ändringar: Blenders
+`Mesh`-datatyp använder konsekvent *mesh* i meshöar, meshtopologi och
+meshobjekt; Extensions använder *förråd*; och simuleringarnas *punktcache*,
+*gizmo*, *partikelvätska* och *bakning* följer termbasen. Batchen är lokalt
+kontrollerad och ännu inte importerad.
+
+Den ersättande rekommenderade importfilen är
+`blender-ui-sv-reviewed-20261107-pending-batches-705-716.po`. Den innehåller
+178 unika ändringar. Samtliga finns i exporten från 7 november och skiljer
+sig från exportens aktuella översättning; ingen post är därför en överflödig
+omimport. Filen är fortfarande väl under gränsen på 1 000 strängar.
+
