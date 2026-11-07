@@ -63,10 +63,16 @@ använder den etablerade grafiktermen *klippningsplan* i stället för
 nära och det fjärran klippningsplanet i hjälptexten. Deltafilen är lokalt
 kontrollerad men ännu inte importerad i Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–632 är
-`blender-ui-sv-reviewed-20261107-batches-626-632-combined.po` med 24
+Batch 633 granskar Asset Browsers meddelande om nätåtkomst. Den ersätter
+*resurser online* med den idiomatiska formen *resurser på nätet* och
+*Fjärrresurser* med den projektspecifika termen *Fjärranslutna resurser*.
+Deltafilen är lokalt kontrollerad men ännu inte importerad i Blender
+Translate.
+
+Den aktuella samlingsfilen för batch 626–633 är
+`blender-ui-sv-reviewed-20261107-batches-626-633-combined.po` med 25
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–630 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–632 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
