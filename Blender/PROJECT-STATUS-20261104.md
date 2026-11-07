@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-477.po`
-med 3 195 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-478.po`
+med 3 210 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -218,6 +218,14 @@ kedjehörnpunkter. Den ersätter den tvetydiga *baslinjefärg* med *grundfärg
 för linjen*, och använder *medelvärde* som matematiskt korrekt etikett.
 Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-477-freestyle-colors-dashes-and-integration.po`
+är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
+är inte verifierad i detta arkiv.
+
+Batch 478 granskar 15 poster för Freestyles längdgränser, materialgränser,
+inställningspaneler och rundor i skissartad kedjning. Den återställer den
+utelämnade kedjekontexten i materialgränsbeskrivningen och gör
+*alfagenomskinlighet* konsekvent även i panelbeskrivningen. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-478-freestyle-lengths-and-panels.po`
 är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
 är inte verifierad i detta arkiv.
 
