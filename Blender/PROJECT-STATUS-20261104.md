@@ -6539,6 +6539,17 @@ Batchen är lokalt klar men ännu inte importerad.
 manuella importfilen. Den innehåller 185 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 788 granskar tre felmeddelanden för inmatning och tangentbord. Den
+ersätter de satsfragment som saknade subjekt med idiomatiska systemmeddelanden
+(*Ett tal förväntades* och *En talmatris förväntades*) samt normaliserar
+*Unsupported key: Unknown* till samma struktur som den närliggande
+tangentbordsdiagnostiken: *Tangent som inte stöds: okänd*. Batchen är lokalt
+klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-788.po` är den aktuella
+manuella importfilen. Den innehåller 188 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 `REVIEW-COVERAGE-20261108.md` dokumenterar den första reproducerbara
 täckningsmätningen för den lokala UI-filen. Av 40 427 aktuella poster är
 6 794 täckta av arkiverade granskningsbatcher, vilket motsvarar 16,81 %.
