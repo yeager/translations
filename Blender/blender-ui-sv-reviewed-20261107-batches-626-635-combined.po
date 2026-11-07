@@ -1,0 +1,202 @@
+# Blender UI Swedish review delta – Library Override RNA descriptions
+#
+# Context reviewed against bpy RNA references and Blender/TERMINOLOGY.md.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender UI\n"
+"PO-Revision-Date: 2026-11-07 00:00+0100\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. :src: bpy.types.ID.override_library
+#. :src: bpy.types.Menu
+#. :src: bpy.types.OUTLINER_MT_liboverride
+#. :src: bpy.types.VIEW3D_MT_object_liboverride
+msgid "Library Override"
+msgstr "Biblioteksåsidosättning"
+
+#. :src: bpy.types.BlendImportContextItem.library_override_id
+msgid "The library override of the linked ID. None until it has been created"
+msgstr ""
+"Biblioteksåsidosättningen för det länkade ID:t. Den saknas tills den har "
+"skapats"
+
+#. :src: bpy.types.IDOverrideLibrary.is_in_hierarchy
+msgid ""
+"Whether this library override is defined as part of a library hierarchy, or "
+"as a single, isolated and autonomous override"
+msgstr ""
+"Anger om denna biblioteksåsidosättning ingår i en bibliotekshierarki eller "
+"är en enskild, isolerad och autonom åsidosättning"
+
+#. :src: bpy.types.IDOverrideLibrary.is_system_override
+msgid ""
+"Whether this library override exists only for the override hierarchy, or if "
+"it is actually editable by the user"
+msgstr ""
+"Anger om denna biblioteksåsidosättning endast finns för "
+"åsidosättningshierarkin eller om användaren faktiskt kan redigera den"
+
+#. :src: bpy.types.GeometryNodeMergePoints
+msgid "Merge points of a point cloud or mesh based on group ID and selection."
+msgstr ""
+"Sammanfoga punkter i ett punktmoln eller mesh utifrån grupp-ID och urval."
+
+#. :src: bpy.types.ShaderNodeCustomGroup
+msgid "Shader Custom Group"
+msgstr "Anpassad shadergrupp"
+
+#. :src: bpy.types.ShaderNodeCustomGroup
+msgid "Custom Shader Group Node for Python nodes"
+msgstr "Anpassad shadergruppnod för Python-noder"
+
+#. :src: bpy.types.IMAGE_OT_save_as.save_as_render
+msgid ""
+"Save image with render color management.\n"
+"For display image formats like PNG, apply view and display transform.\n"
+"For intermediate image formats like OpenEXR, use the default render output "
+"color space"
+msgstr ""
+"Spara bilden med renderingsfärghantering.\n"
+"För visningsbildformat som PNG tillämpas vy- och skärmtransformering.\n"
+"För mellanliggande bildformat som OpenEXR används standardfärgrymden för "
+"renderingsutdata"
+
+#. :src: bpy.types.MESH_OT_dissolve_edges.angle_threshold
+#. :src: bpy.types.MESH_OT_dissolve_mode.angle_threshold
+msgid ""
+"Remaining vertices which separate edge pairs are preserved if their edge "
+"angle exceeds this threshold."
+msgstr ""
+"Återstående hörnpunkter som separerar kantpar bevaras om deras kantvinkel "
+"överskrider tröskelvärdet."
+
+#. :src: bpy.types.MESH_OT_remove_doubles.use_centroid
+msgid ""
+"Move vertices to the centroid of the duplicate cluster, otherwise the vertex "
+"closest to the centroid is used."
+msgstr ""
+"Flytta hörnpunkter till tyngdpunkten för dubblettklustret; annars används "
+"den hörnpunkt som ligger närmast tyngdpunkten."
+
+#. :src: bpy.types.MESH_OT_reorder_vertices_spatial
+msgid ""
+"Reorder mesh faces and vertices based on their spatial position for better "
+"BVH building and sculpting performance."
+msgstr ""
+"Ordna om nätytor och hörnpunkter utifrån deras rumsliga position för bättre "
+"BVH-byggande och skulpteringsprestanda."
+
+#. :src: bpy.types.NODE_OT_delete_copy_reconnect
+msgid "Copy nodes to clipboard, remove and reconnect them."
+msgstr "Kopiera noder till urklippet, ta bort dem och återanslut dem."
+
+#. :src: bpy.types.NODE_OT_duplicate_compositing_modifier_node_group
+#. :src: bpy.types.NODE_OT_duplicate_compositing_node_group
+msgid "Duplicate the currently assigned compositing node group."
+msgstr "Duplicera den för närvarande tilldelade kompositornodgruppen."
+
+#. :src: bpy.types.PREFERENCES_OT_extension_repo_add.use_custom_directory
+#. :src: bpy.types.UserExtensionRepo.use_custom_directory
+msgid ""
+"Manually set the path for extensions to be stored. When disabled a user's "
+"extensions directory is created."
+msgstr ""
+"Ange manuellt sökvägen där tillägg ska lagras. När funktionen är inaktiverad "
+"skapas en katalog för användarens tillägg."
+
+#. :src: bpy.types.WM_OT_usd_export.merge_parent_xform
+msgid ""
+"Merge USD primitives with their Xform parent if possible. USD does not allow "
+"nested UsdGeomGprims, intermediary Xform prims will be defined to keep the "
+"USD file valid when encountering object hierarchies."
+msgstr ""
+"Slå samman USD-primitiver med deras överordnade Xform om möjligt. USD "
+"tillåter inte kapslade UsdGeomGprims. Mellanliggande Xform-primitiver "
+"definieras för att hålla USD-filen giltig vid objekthierarkier."
+
+#. :src: bpy.types.TOPBAR_PT_tool_settings_extra
+msgid ""
+"\n"
+"Popover panel for adding extra options that don't fit in the tool settings "
+"header"
+msgstr ""
+"\n"
+"Utfällbar panel för extra alternativ som inte ryms i "
+"verktygsinställningarnas rubrik"
+
+#. :src: bpy.types.WM_OT_xr_navigation_teleport.hit_color
+msgid "Hit Color"
+msgstr "Färg vid träff"
+
+#. :src: bpy.types.PREFERENCES_OT_asset_library_add.type:'REMOTE'
+msgid "Add Remote Asset Library"
+msgstr "Lägg till fjärranslutet resursbibliotek"
+
+#. :src: bpy.types.PreferencesExperimental.use_remote_asset_libraries
+msgid "Remote Asset Libraries"
+msgstr "Fjärranslutna resursbibliotek"
+
+#. :src: bpy.types.WM_OT_save_as_mainfile.copy
+msgid ""
+"Save a copy of the actual working state but does not make saved file active"
+msgstr ""
+"Spara en kopia av det faktiska arbetsläget utan att göra den sparade filen "
+"aktiv"
+
+#: source/blender/makesrna/intern/rna_userdef.cc:477
+msgid ""
+"The download cache directory of remote asset libraries cannot be changed"
+msgstr ""
+"Cachekatalogen för nedladdningar från fjärranslutna resursbibliotek kan inte "
+"ändras"
+
+#. :src: bpy.types.GreasePencilLineartModifier.use_clip_plane_boundaries
+msgid "Allow lines generated by the near/far clipping plane to be shown"
+msgstr ""
+"Tillåt att linjer som genereras av när- eller fjärrklippningsplanet visas"
+
+#. :src: bpy.types.RegionView3D.clip_planes
+msgid "Clip Planes"
+msgstr "Klippningsplan"
+
+#. :src: bpy.types.RegionView3D.use_clip_planes
+msgid "Use Clip Planes"
+msgstr "Använd klippningsplan"
+
+#: source/blender/editors/space_file/file_draw.cc:1893
+msgid ""
+"Allow Online Access in order to browse and download online assets, or turn "
+"off the \"Remote Assets\" filter to show only the downloaded assets.\n"
+"\n"
+"You can adjust this later from the \"System\" preferences."
+msgstr ""
+"Tillåt nätåtkomst för att bläddra bland och hämta resurser på nätet, eller "
+"stäng av filtret ”Fjärranslutna resurser” för att bara visa hämtade "
+"resurser.\n"
+"\n"
+"Du kan ändra detta senare i inställningarna under ”System”."
+
+#. :src: bpy.types.ASSET_OT_library_reload_listing
+msgctxt "Operator"
+msgid "Reload Remote Asset Library Listing"
+msgstr "Läs in listningen för det fjärranslutna resursbiblioteket på nytt"
+
+#: source/blender/editors/space_userpref/space_userpref.cc:220
+msgid "Remote Asset Library"
+msgstr "Fjärranslutet resursbibliotek"
+
+#. :src: bpy.types.ID.library_weak_reference
+msgid ""
+"Weak reference to the data-block in a library .blend file this originated "
+"from. For re-use of already appended data and linked editable assets"
+msgstr ""
+"Svag referens till datablocket i den biblioteksfil (.blend) som det "
+"härstammar från. Används för att återanvända redan tillagda data och länkade "
+"redigerbara resurser"

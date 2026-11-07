@@ -75,10 +75,15 @@ förkortade formen *fjärrbibliotek* används inte, eftersom den tappar den
 betydelsebärande kopplingen till Asset Browser-resurser. Deltafilen är lokalt
 kontrollerad men ännu inte importerad i Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–634 är
-`blender-ui-sv-reviewed-20261107-batches-626-634-combined.po` med 27
+Batch 635 granskar den svaga biblioteksreferensen för datablock. Den ersätter
+den onaturliga formen *biblioteks-.blend-fil* med *biblioteksfil (.blend)*
+och normaliserar *tillgångar* till den etablerade termen *resurser*. Deltafilen
+är lokalt kontrollerad men ännu inte importerad i Blender Translate.
+
+Den aktuella samlingsfilen för batch 626–635 är
+`blender-ui-sv-reviewed-20261107-batches-626-635-combined.po` med 28
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–633 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–634 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
