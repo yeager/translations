@@ -6787,3 +6787,13 @@ men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-811-mesh-editing.po` är en separat
 manuell deltafil med endast dessa åtta nya, lokalt granskade poster.
 
+Batch 812 granskar tretton reservmappningar för 3D-vyns meshverktyg och
+inställningen för automatisk maskning. Den ersätter den äldre interna termen
+*nät* med *mesh* i verktygskontext, exempelvis *redigera mesh* och
+*skulptera, meshfilter*. Batchen är lokalt klar men ännu inte importerad i
+Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-812-mesh-tool-fallbacks.po` är en
+separat manuell deltafil med endast dessa tretton nya, lokalt granskade
+poster.
+
