@@ -6157,6 +6157,11 @@ för Blender-begreppet *view layer*. Den äldre kortformen *vylager* ersätts i
 den aktiva arbetsytan, Cycles-inställningarna och egenskaper för samling,
 material och sampling. Deltafilen är lokalt granskad och ännu inte importerad.
 
+Batch 749 granskar de återstående UI-raderna för *wireframe*. Den tekniska
+modifierarbeskrivningen blir *modifierare för trådramseffekt*, och
+visningsmeddelandet anger de faktiska skuggningslägena i *3D-vyporten*.
+Deltafilen är lokalt granskad och ännu inte importerad.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
