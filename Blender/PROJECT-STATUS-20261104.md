@@ -6300,6 +6300,17 @@ projektspecifika sammansättningar och en falsk V2-varning i en etikett. Den
 manuella importfilen. Den innehåller 28 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 764 normaliserar tre parnings- och valideringstexter för zon- och
+grupputdatanoder. Den använder konsekvent *indatanod*/*utdatanod*, i linje
+med den dokumenterade Group Input/Output-terminologin. Deltafilen har
+passerat `msgfmt` och `l10n-lint`; `svlang` flaggar en teknisk nominalfras
+och projektspecifika sammansättningar, men ingen faktisk språkavvikelse.
+Den är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-761-764.po` är den aktuella
+manuella importfilen. Den innehåller 31 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
