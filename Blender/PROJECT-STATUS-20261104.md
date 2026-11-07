@@ -7003,3 +7003,11 @@ lokalt klar men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-831-mesh-import-export.po` är en
 separat manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
 
+Batch 832 granskar tolv Mesh-texter för QuadriFlow, normaler, USD-attribut,
+skulptering och Shrinkwrap. Den normaliserar *meshelement*, *meshnormaler*,
+*meshens topologi* och *meshattribut*. Batchen är lokalt klar men ännu inte
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-832-mesh-normal-topology.po` är en
+separat manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
+
