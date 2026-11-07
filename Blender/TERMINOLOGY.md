@@ -167,6 +167,8 @@ Senast uppdaterad: 2026-11-07.
 | mesh cache / mesh filter / mesh plane | meshcache / meshfilter / meshplan | UI-namn och tekniska sammansättningar för Blenders meshtyp. Skriv ihop dem och ersätt inte *mesh* med *nät*. |
 | mesh attribute / mesh normal | meshattribut / meshnormal | Tekniska data som hör till Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätattribut* eller *nätnormal*. |
 | mesh material | meshmaterial | Material som är kopplat till en Blender-mesh. Använd den etablerade sammansättningen, inte *nätmaterial*. |
+| mesh geometry / mesh detail / mesh element | meshgeometri / meshdetalj / meshelement | Geometri, detalj och valbart element som hör till Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätgeometri*, *nätdetalj* eller *nätelement*. |
+| edit mesh / mesh overlay / mesh type | redigeringsmesh / meshöverlägg / meshtyp | Redigerbar mesh, dess visningsöverlägg och dess RNA-typ. Behåll *mesh* som led i de projektspecifika tekniska sammansättningarna. |
 | Float2 Attribute | Float2-attribut | RNA-attributtyp. Behåll typnamnet och fog med bindestreck till svenska *attribut*. |
 | timescale | tidsskala | Faktor som skalar simuleringens tidsförlopp. |
 | curve mapping | kurvkartläggning | Kartläggning med kurvor; använd den här sammansättningen i RNA- och modifierarinställningar. |
