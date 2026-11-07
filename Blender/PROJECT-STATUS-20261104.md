@@ -6093,6 +6093,12 @@ datamodell avser *stroke* det ritade dataobjektet, inte användarens
 penselrörelse; den konsekventa svenska termen är därför *streck*. Deltafilen
 innehåller tio lokalt granskade, ännu ej importerade ändringar.
 
+Batch 740 tillämpar samma åtskillnad på samlingar, penselinställningar och
+visningsfilter för Grease Pencil. Anteckningsstreck och streckpunkter är
+dataobjekt, medan *penseldrag* behålls när texten beskriver användarens
+faktiska rörelse. Deltafilen innehåller tolv lokalt granskade, ännu ej
+importerade ändringar.
+
 Batch 726 granskar 22 UI- och API-texter för Blenders formella
 animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
 *Action-kanal*, *Action-längd* och *Action-nyckelbildruta*, medan vanliga
