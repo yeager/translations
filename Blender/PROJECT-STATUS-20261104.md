@@ -299,10 +299,15 @@ bevaras de synliga tekniska namnen `Bokeh Blur`, `Cryptomatte`,
 `Realize Instances` och `Join Geometry`. Deltafilen är lokalt kontrollerad och
 ännu inte importerad i Blender Translate.
 
+Batch 672 rättar åtta återstående UI- och felmeddelandeposter för `extension
+repository`. Den konsekventa svenska termen är *tilläggsförråd*; den äldre
+formen *tilläggsarkiv* används inte längre i batchen. Deltafilen är lokalt
+kontrollerad och ännu inte importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-671-combined.po` med 266
+`blender-ui-sv-reviewed-20261107-batches-626-672-combined.po` med 273
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–671.
+och innehåller dessutom batch 657–672.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
