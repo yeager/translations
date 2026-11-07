@@ -6123,6 +6123,10 @@ redigeringslägen och felmeddelanden. Namnet behålls också i sammansättningar
 som *Outliner-trädet* och *Outliner-region*. Deltafilen innehåller tretton
 lokalt granskade, ännu ej importerade ändringar.
 
+Batch 745 fullföljer samma normalisering i fem felmeddelanden där användaren
+behöver öppna eller tolka det faktiska Outliner-trädet. Deltafilen är lokalt
+granskad och ännu inte importerad.
+
 `blender-ui-sv-reviewed-20261107-pending-batches-739-743.po` ersätter
 739–742-samlingen. Den innehåller 46 unika, lokalt granskade och ännu ej
 importerade ändringar.
