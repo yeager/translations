@@ -5780,3 +5780,11 @@ ersättande samlingsfilen
 117 unika, lokalt kontrollerade och ännu ej importerade poster. Den ersätter
 samlingen 680–701 och ryms inom den överenskomna uppladdningsgränsen.
 
+Batch 704 fortsätter den kontextstyrda *mesh*-normaliseringen i fem
+hjälptexter för resurser, tygsimulering, kollision och Shrinkwrap. De
+allmänna formerna *nät*, *basnät* och *målnät* ersätts där de uttryckligen
+avser Blenders datatyp. Den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-all-pending-batches-680-704.po` innehåller
+122 unika, lokalt kontrollerade och ännu ej importerade poster. Den ersätter
+samlingen 680–703 och ryms inom den överenskomna uppladdningsgränsen.
+
