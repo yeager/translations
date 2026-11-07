@@ -6260,9 +6260,11 @@ Batch 760 normaliserar fem interna mesh-topologitermer till *meshloop* och
 `MeshLoopTriangle`; generella loopar i andra UI-kontexter lämnas orörda.
 Deltafilen är lokalt granskad och ännu inte importerad.
 
-`blender-ui-sv-reviewed-20261107-pending-batches-748-760.po` ersätter
-748–759-samlingen. Den innehåller 52 unika, lokalt granskade och ännu inte
-importerade ändringar.
+Den 7 november importerades samlingsfilen för batch 748–760 i Blender
+Translate. Weblate behandlade 52 poster: 51 uppdaterades, 1 hoppades över och
+0 saknades. Importen är därmed verifierad. Filen
+`blender-ui-sv-reviewed-20261107-pending-batches-748-760.po` bevaras som
+spårbart underlag och ska inte importeras på nytt.
 
 Batch 761 granskar 18 avgränsade Annotation-/Grease Pencil- och nodposter.
 Den skiljer det ritade resultatet *streck* från en användarhandling med
@@ -6272,9 +6274,20 @@ passerat `msgfmt` och `l10n-lint`; `svlang` flaggar endast de avsiktliga
 projektspecifika sammansättningarna och en falsk V2-varning i en nominal
 etikett. Den är lokalt klar men ännu inte importerad.
 
-`blender-ui-sv-reviewed-20261107-pending-batches-748-761.po` ersätter
-748–760-samlingen. Den innehåller 70 unika, lokalt granskade och ännu inte
-importerade ändringar.
+`blender-ui-sv-reviewed-20261107-pending-batches-748-761.po` är ett
+historiskt samlat arkiv med 70 unika ändringar. Eftersom batch 748–760 redan
+är importerade ska den inte användas för nästa import. Nästa importfil är
+i stället enbart batch 761 med 18 nya poster.
+
+Batch 762 normaliserar fem ytterligare, tydligt avgränsade UI-texter. Den
+använder *skärmrymd* för penselns skärmrelaterade koordinater och
+*indata*/*nodutdata* för tekniska nodvärden. Deltafilen har passerat
+`msgfmt` och `l10n-lint`; `svlang` rapporterar endast facktermer och en falsk
+V2-varning i en etikett. Den är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-761-762.po` är den aktuella
+manuella importfilen. Den innehåller 23 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
 
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
