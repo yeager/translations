@@ -8064,3 +8064,15 @@ separat manuell deltafil med dessa lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–913. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 914 tillämpar den etablerade sammansättningen *shadernod* i en
+världsinställning och en shaderskriptnod. Batchen är lokalt klar, men ännu
+inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-914-shader-node-terms.po` är en
+separat manuell deltafil med dessa lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-914.po` är den aktuella
+samlade manuella deltafilen för batch 811–914. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
