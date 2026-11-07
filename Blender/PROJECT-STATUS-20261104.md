@@ -4823,3 +4823,11 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 578 granskar beskrivningen av *Blend Hair Curves*. Den klargör att
+verktyget blandar formen hos näraliggande hårkurvor inom en angiven radie.
+Deltafilen `blender-ui-sv-reviewed-20261107-batch-578-blend-hair-curves.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-578.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
