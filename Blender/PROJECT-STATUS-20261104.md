@@ -7297,3 +7297,17 @@ manuell deltafil med endast dessa 30, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–854. Den innehåller 446 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 855 normaliserar 21 animations- och nodträdstermer. Blenders formella
+datatyp *Action* skrivs som *Action-grupp*, *Action-lager*, *Action-slot* och
+*Action-remsa*, medan *Dope Sheet* blir *Dopeblad*. För nodträd används
+*kompositionsnodträd*, *shadernodträd* och *geometrinodträd*. Batchen är
+lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-855-animation-and-node-terminology.po`
+är en separat manuell deltafil med endast dessa 21, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-855.po` är den aktuella
+samlade manuella deltafilen för batch 811–855. Den innehåller 457 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
