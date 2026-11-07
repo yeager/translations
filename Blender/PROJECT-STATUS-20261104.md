@@ -5740,3 +5740,11 @@ tekniska processen *muxning*, med sammansättningarna *muxningshastighet* och
 107 unika, lokalt kontrollerade och ännu ej importerade poster. Den ersätter
 samlingen 680–696 och ryms inom den överenskomna uppladdningsgränsen.
 
+Batch 698 tillämpar terminologin *mesh* konsekvent i den booleska
+modifieraren och i glTF-exporten. Blenders datatyp ersätter därför de
+allmänna formerna *nät* och *maskor*; *geometrinoder* och *materialplats* är
+projektets etablerade UI-termer. Den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-all-pending-batches-680-698.po` innehåller
+110 unika, lokalt kontrollerade och ännu ej importerade poster. Den ersätter
+samlingen 680–697 och ryms inom den överenskomna uppladdningsgränsen.
+
