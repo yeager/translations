@@ -7614,3 +7614,16 @@ manuell deltafil med dessa tio, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–877. Den innehåller 654 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 878 granskar tio Action-slot-texter för handtag, tillfällig lagring,
+identifierare, NLA och borttagning av tilldelningar. Den normaliserar även
+sammansättningen *huvud-Action-slot*. Batchen är lokalt klar men ännu inte
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-878-action-slot-storage.po` är en
+separat manuell deltafil med dessa tio, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-878.po` är den aktuella
+samlade manuella deltafilen för batch 811–878. Den innehåller 664 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
