@@ -28,6 +28,11 @@ valutaträff på förkortningen USD. `svlang` tolkar imperativ och tekniska namn
 som möjliga avvikelser, men ingen faktisk svensk skrivavvikelse hittades.
 Deltafilen är lokalt klar och ännu inte importerad i Blender Translate.
 
+Batch 629 rättar XR-teleporteringens *Hit Color* till *Färg vid träff*.
+Ändringen undviker den tidigare tredubbla `f`-följden i *Träfffärg* och följer
+den redan använda parallellformen *Färg vid miss*. Deltafilen är lokalt klar
+och ännu inte importerad i Blender Translate.
+
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
 skickat in samtliga sex delar manuellt till Blender Translate. Importresultat
