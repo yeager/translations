@@ -474,6 +474,9 @@ Senast uppdaterad: 2026-11-06.
 | vertex paint / weight paint / texture paint | hörnpunktsmålning / viktmålning / texturmålning | Blenders respektive målningslägen. |
 | gimbal lock | gimbal-låsning | Rotationsproblem i Euler-lägen. |
 | instancer | instansierare | Objekt som skapar instanser av sina underordnade objekt eller sin instanssamling. |
+| Instance Vertices / Align to Vertex Normal | instanshörnpunkter / Justera efter hörnpunktsnormal | Objektinstansiering från meshens hörnpunkter och dess orienteringsval. |
+| alpha blending / alpha test | alfablandning / alfatest | Bildtomobjektens visningsmetoder. Lämna det korta UI-namnet *Alpha* som *alfa*. |
+| simulation cache | simuleringscache | Cache för bildrutor vid uppspelning av simuleringsnoder. |
 | dynamic topology sculpting | skulptering med dynamisk topologi | Skulpteringsläge som ändrar meshtopologin dynamiskt. |
 | child particle | barnpartikel | Partikel som härleds från en föräldrapartikel. |
 | volume scatter | volymspridning | Spridning av ljus i ett volymmaterial. |
