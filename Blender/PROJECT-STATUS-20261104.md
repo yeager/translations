@@ -6677,6 +6677,15 @@ Translate.
 manuella importfilen. Den innehåller 319 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 802 granskar tretton dataöverförings- och geometri-nodtexter. När två
+datatyper avses används *käll- och målmesh*; när en bestämd datatyp avses
+används exempelvis *källmeshen* och *målmeshen*. Batchen är lokalt klar men
+ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-802.po` är den aktuella
+manuella importfilen. Den innehåller 332 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 `REVIEW-COVERAGE-20261108.md` dokumenterar den första reproducerbara
 täckningsmätningen för den lokala UI-filen. Av 40 427 aktuella poster är
 6 794 täckta av arkiverade granskningsbatcher, vilket motsvarar 16,81 %.
