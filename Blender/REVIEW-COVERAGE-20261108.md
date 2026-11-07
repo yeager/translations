@@ -16,10 +16,10 @@ eller ändringar som inte längre finns i den nedladdade filen.
 
 | Mått | Poster |
 | --- | ---: |
-| Unika poster i alla arkiverade batcher | 7 394 |
-| Batchposter som fortfarande finns i källfilen | 7 209 |
-| Granskningstäckning i den lokala källfilen | 17,83 % |
-| Återstående för full radvis täckning | 33 218 |
+| Unika poster i alla arkiverade batcher | 7 392 |
+| Batchposter som fortfarande finns i källfilen | 7 207 |
+| Granskningstäckning i den lokala källfilen | 17,82 % |
+| Återstående för full radvis täckning | 33 220 |
 
 ## Tolkning
 
