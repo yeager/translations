@@ -485,6 +485,7 @@ Senast uppdaterad: 2026-11-07.
 | UV loop layer | UV-looplager | UV-lager som hör till meshens loopar. Använd *UV-looplager*, inte *UV-loopskikt*. |
 | remesh / remesher | ommeshning / ommeshare | Skapar om meshen med ny topologi. Ange geometri vid behov: *voxelommeshare* eller *fyrhörningsommeshare*. |
 | Remesh Modifier | ommeshningsmodifierare | Modifierare som skapar om meshens topologi. Skriv sammansättningen ihop; ordet är en projektspecifik teknisk term och kan saknas i allmänna ordlistor. |
+| remesher | ommeshningsverktyg | Verktyg eller process som bygger om en mesh. Skilj från den specifika *ommeshningsmodifieraren*. |
 | pole (mesh topology) | pol | Topologisk samlingspunkt där ett ovanligt antal kanter möts. Översätt inte med den vardagliga betydelsen *stolpe*. |
 | vertex color / normal | hörnpunktsfärg / hörnpunktsnormal | Attribut på en mesh-hörnpunkt. |
 | node tree | nodträd | Blenders sammanlänkade nodstruktur. Sammansättningar är exempelvis *geometrinodträd*, *kompositionsnodträd* och *shadernodträd*. |

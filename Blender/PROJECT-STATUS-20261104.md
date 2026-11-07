@@ -7023,3 +7023,11 @@ Batchen är lokalt klar men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-833-mesh-transfer.po` är en separat
 manuell deltafil med endast dessa elva nya, lokalt granskade poster.
 
+Batch 834 granskar två återstående Mesh-texter. Den använder *meshen* för
+Blenders typnamn i UV-feltexten och *ommeshningsverktyget* för den process som
+inte kan arbeta med länkade eller åsidosatta data. Batchen är lokalt klar men
+ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-834-remeshing.po` är en separat manuell
+deltafil med endast dessa två nya, lokalt granskade poster.
+
