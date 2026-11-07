@@ -5,7 +5,7 @@ granskning, inte en ersättning för strängens sammanhang: kontrollera alltid
 operator, panel, tooltip, Python-identifierare och närliggande strängar innan
 du ändrar en översättning.
 
-Senast uppdaterad: 2026-11-06.
+Senast uppdaterad: 2026-11-07.
 
 ## Grundtermer
 
