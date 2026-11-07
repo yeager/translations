@@ -4904,3 +4904,13 @@ samlingsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-587.po`
 är lokalt kontrollerade och arkiverade, men deras import till Blender Translate
 är inte verifierad i detta arkiv.
 
+Batch 588 granskar sexton Cycles-inställningar för beräkningsenheter,
+kärnoptimering, hårdvarustrålspårning och delat GPU-minne. Produkt- och
+tekniknamnen *MetalRT*, *HIP RT*, *Embree*, *RDNA2* och *NVLink* behålls.
+Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-588-cycles-device-and-kernel-settings.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-588.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
