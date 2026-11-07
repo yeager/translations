@@ -276,10 +276,16 @@ Batch 667 normaliserar 14 poster för tilläggsförråd i inställningar,
 *tilläggsarkiv* med den etablerade termen *tilläggsförråd*. Deltafilen är
 lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 668 granskar två synliga etiketter som felaktigt lämnats på engelska.
+Renderingsformatets *Stereo 3D* blir *Stereoskopisk 3D* och kompositorns
+precisionsläge *Full precision* blir *Fullständig precision*. Codec-, format-
+och produktnamn lämnas medvetet orörda. Deltafilen är lokalt kontrollerad och
+ännu inte importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-667-combined.po` med 234
+`blender-ui-sv-reviewed-20261107-batches-626-668-combined.po` med 237
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–667.
+och innehåller dessutom batch 657–668.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
