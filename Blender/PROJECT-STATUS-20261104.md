@@ -7038,8 +7038,12 @@ det geometriskt korrekta *Voronoi-sprickmönster*. Batchen är lokalt klar men
 `blender-ui-sv-reviewed-20261108-batch-835-voronoi-crackle.po` är en separat
 manuell deltafil med endast dessa två nya, lokalt granskade poster.
 
-`blender-ui-sv-reviewed-20261108-pending-batches-811-834.po` är den aktuella
-samlade manuella deltafilen för batch 811–834. Den innehåller 219 poster,
+`blender-ui-sv-reviewed-20261108-pending-batches-811-834.po` är den tidigare
+samlade manuella deltafilen för batch 811–834. Den innehåller 219 poster och
+passerar lokal syntax- och lintkontroll.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-835.po` är den aktuella
+samlade manuella deltafilen för batch 811–835. Den innehåller 221 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
 
