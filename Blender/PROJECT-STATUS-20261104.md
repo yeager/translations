@@ -6494,6 +6494,16 @@ nod- och uttagskontexten. Batchen är lokalt klar men ännu inte importerad.
 manuella importfilen. Den innehåller 149 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 783 granskar tolv kompositörtexter för färghantering, UV-kartläggning,
+brusreducering, cache och nodgrupper. Den etablerade uppdelningen behålls:
+*kompositör* för redigeraren och dess körning, *komposition* för processen,
+*kompositionspass* för passet och *visningstransformering* i färghanteringen.
+Batchen är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-783.po` är den aktuella
+manuella importfilen. Den innehåller 161 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna

@@ -1,0 +1,70 @@
+# Blender UI Swedish review delta – Compositor terminology
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
+"PO-Revision-Date: 2026-11-08 02:45+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. :src: bpy.types.CompositorNodeConvertToDisplay
+msgid "Convert from scene linear to display color space, with a view transform and look for tone mapping"
+msgstr "Konvertera från scenlinjär färgrymd till visningsfärgrymd med visningstransformering och utseende för tonmappning"
+
+#. :src: bpy.types.CompositorNodeConvertToDisplay.view_settings
+msgid "Color management view transform settings"
+msgstr "Inställningar för färghanteringens visningstransformering"
+
+#. :src: bpy.types.CompositorNodeMapUV
+msgid "Map a texture using UV coordinates, to apply a texture to objects in compositing"
+msgstr "Avbilda en textur med UV-koordinater för att använda en textur på objekt i kompositören"
+
+#. :src: bpy.types.ShaderNodeHoldout
+msgid ""
+"Create a \"hole\" in the image with zero alpha transparency, which is useful for compositing.\n"
+"Note: the holdout shader can only create alpha when transparency is enabled in the film settings"
+msgstr ""
+"Skapa ett ”hål” i bilden med noll alfagenomskinlighet, vilket är användbart vid komposition.\n"
+"Obs! Holdout-skuggning kan bara skapa alfa när transparens är aktiverad i filminställningarna"
+
+#. :src: bpy.types.ShaderNodeLightAccumulation
+msgid ""
+"Adds the result of all the evaluated lights and stores each input into its respective Compositing Pass.\n"
+"The combined result is computed as (Diffuse Light * Diffuse Color) + (Glossy Light * Glossy Color)"
+msgstr ""
+"Adderar resultatet från alla utvärderade ljus och lagrar varje indata i motsvarande kompositionspass.\n"
+"Det kombinerade resultatet beräknas som (diffust ljus × diffus färg) + (glansljus × glansfärg)"
+
+#. :src: bpy.types.RenderSettings.compositor_denoise_final_quality
+msgid "Compositor Final Denoise Quality"
+msgstr "Kompositörens slutliga brusreduceringskvalitet"
+
+#. :src: bpy.types.RenderSettings.compositor_denoise_preview_quality
+msgid "Compositor Preview Denoise Quality"
+msgstr "Kompositörens brusreduceringskvalitet för förhandsgranskning"
+
+#. :src: bpy.types.RenderSettings.compositor_precision
+msgid "Compositor Precision"
+msgstr "Kompositörens precision"
+
+#. :src: bpy.types.RenderSettings.compositor_precision
+msgid "The precision of compositor intermediate result"
+msgstr "Precisionen för kompositörens mellanresultat"
+
+#. :src: bpy.types.RenderSettings.use_compositor_frames_cache
+msgid "Cache the result of the interactive compositor across frames"
+msgstr "Cachelagra resultatet från den interaktiva kompositören mellan bildrutor"
+
+#: source/blender/editors/scene/scene_compositor.cc:511
+#: source/blender/editors/space_sequencer/sequencer_add_modifier_assets.cc:237
+msgid "Asset is not a compositor node group"
+msgstr "Resursen är inte en kompositionsnodgrupp"
+
+#: source/blender/editors/space_node/node_compositor_job.cc:195
+#: source/blender/render/intern/pipeline.cc:1764
+msgid "Render size too large for GPU, use CPU compositor instead"
+msgstr "Renderingsstorleken är för stor för GPU:n. Använd CPU-kompositören i stället"
