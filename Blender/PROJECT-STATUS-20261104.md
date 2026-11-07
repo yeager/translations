@@ -8010,3 +8010,17 @@ manuell deltafil med dessa två lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–909. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 910 ersätter lånet *sampla* med *provta* i nio bild-, viktmålnings- och
+geometriverktyg. Den omfattar färg-, pixel-, vikt-, hörnpunktsgrupps- och
+ljudfrekvensprovtagning och uppdaterar terminologilistan med verktygskontexten.
+Batchen är lokalt klar och pushad till vårt arkiv, men ännu inte verifierad som
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-910-sample-tool-verbs.po` är en
+separat manuell deltafil med dessa lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-910.po` är den aktuella
+samlade manuella deltafilen för batch 811–910. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.

@@ -288,6 +288,7 @@ Senast uppdaterad: 2026-11-07.
 | gizmo | gizmo | Etablerat Blender-UI-namn. Skriv sammansatt: *transformationsgizmo*. |
 | gizmo collection | samling av gizmor | Samling av Blender-gizmor; översätt inte till den otydliga formen *prylar*. |
 | sample (node operation) | provta | Noder som hämtar eller utvärderar data från kurvor, rutnät och ytor. Använd *provta*, inte substantivet *prov* eller *exempel*. |
+| Sample (image, colour and weight tools) | provta | Interaktiva verktyg som hämtar ett färg-, pixel- eller viktvärde under pekaren. Använd verbet *provta*, inte lånet *sampla*. |
 | Simulation Input / Output | simuleringsindata / simuleringsutdata | In- och utgångsnoder för en Blender-simulering. |
 | tangent space | tangentrymd | Etablerad Blender-term för normal- och riktningstolkning. |
 | face set | ytuppsättning | Skulpteringsgrupp för mesh-ytor; använd inte *ansiktsuppsättning*. |
