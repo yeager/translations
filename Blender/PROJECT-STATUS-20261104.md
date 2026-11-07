@@ -6230,6 +6230,15 @@ avvikande formen *skärmkoordinatrum* till den etablerade Blender-termen
 748–755-samlingen. Den innehåller 43 unika, lokalt granskade och ännu inte
 importerade ändringar.
 
+Batch 757 normaliserar två animeringsrader till termbasens
+*förhandsgranskningsintervall*. I Blender är *Preview Range* ett valt
+bildruteintervall, inte ett generellt område. Deltafilen är lokalt granskad
+och ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-748-757.po` ersätter
+748–756-samlingen. Den innehåller 45 unika, lokalt granskade och ännu inte
+importerade ändringar.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
