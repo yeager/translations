@@ -115,10 +115,16 @@ biblioteksåsidosättningar. Den normaliserar den sista äldre formen
 som filformat i löpande text. Deltafilen är lokalt kontrollerad men ännu inte
 importerad i Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–641 är
-`blender-ui-sv-reviewed-20261107-batches-626-641-combined.po` med 49
+Batch 642 granskar sex lokala Library Override-åtgärder och deras
+egenskapssamling. Den ersätter generisk *överskrivning* med den specifika
+termen *biblioteksåsidosättning* och använder *beroendehierarki* för den
+valda funktionens beroenderelationer. Deltafilen är lokalt kontrollerad men
+ännu inte importerad i Blender Translate.
+
+Den aktuella samlingsfilen för batch 626–642 är
+`blender-ui-sv-reviewed-20261107-batches-626-642-combined.po` med 55
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–640 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–641 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
