@@ -4459,3 +4459,13 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 541 granskar sju poster för Grease Pencil-anteckningar och
+Hydra/Hydra Storm. Den bekräftar *anteckningar* och *Grease Pencil-datablock*
+i 3D-vy-kontexten samt behåller produktnamnen *Hydra* och *Hydra Storm*.
+Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-541-scene-annotations-and-hydra.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-541.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+

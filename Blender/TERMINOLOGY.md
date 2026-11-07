@@ -253,6 +253,7 @@ Senast uppdaterad: 2026-11-06.
 | view map / view map cache | vykarta / vykartscache | Freestyles beräknade synlighets- och kantdata respektive sparad cache av den. |
 | Kr derivative epsilon | epsilon för Kr-derivatan | Numerisk tröskelparameter för Freestyles suggestiva konturer. Behåll förkortningen Kr och formulera resten som en tydlig svensk fackterm. |
 | annotation frame / layer | anteckningsbildruta / anteckningslager | Bildruta respektive lager för Blenders ritade anteckningar. Översätt *frame* till *bildruta*, aldrig till den fysiska *ram*. |
+| Hydra / Hydra Storm | Hydra / Hydra Storm | USD-baserade renderings- och exporttekniker; produktnamnen lämnas oförändrade. |
 | onion skinning (annotations) | lökskalning | Visar närliggande anteckningsbildrutor som halvgenomskinliga spökbilder före eller efter den aktiva bildrutan. |
 | drawing guide / speed guide | ritningshjälplinje | Grease Pencils hjälplinje som begränsar riktning eller placering under ritning. Använd inte engelsklånet *guide* i svensk UI-text. |
 | guide spacing | avstånd mellan hjälplinjer | Avståndet mellan parallella eller rutnätsbaserade ritningshjälplinjer. |
