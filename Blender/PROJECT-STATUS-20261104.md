@@ -97,10 +97,16 @@ felaktiga formen *biblioteksåsidosättanden* och skriver `.blend-fil` på ett
 naturligt sätt. Deltafilen är lokalt kontrollerad men ännu inte importerad i
 Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–638 är
-`blender-ui-sv-reviewed-20261107-batches-626-638-combined.po` med 36
+Batch 639 granskar Asset Browser-inställningarnas bibliotekskategorier. Den
+skiljer *tilläggsresursbibliotek* från lokala och fjärranslutna
+resursbibliotek, och förtydligar felmeddelandet för ett fjärranslutet
+resursbibliotek. Deltafilen är lokalt kontrollerad men ännu inte importerad i
+Blender Translate.
+
+Den aktuella samlingsfilen för batch 626–639 är
+`blender-ui-sv-reviewed-20261107-batches-626-639-combined.po` med 38
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–637 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–638 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
