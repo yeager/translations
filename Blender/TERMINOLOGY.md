@@ -261,6 +261,7 @@ Senast uppdaterad: 2026-11-06.
 | Gizmo Map | gizmokarta | Intern karta som håller en samling gizmor. Skriv ihop som annan Blender-terminologi med *gizmo*. |
 | gizmo properties | gizmoegenskaper | Indata- och inställningsegenskaper för en enskild gizmo. Använd den sammanskrivna formen, inte *gizmo-egenskaper*. |
 | VR controller/viewer pose indicator | indikator för VR-styrenheters positioner / indikator för VR-visarens position | VR-överläggets visuella indikatorer för handkontrollernas respektive visningsenhetens lägen. |
+| audio scrubbing / OpenXR runtime | ljudskrubbning / OpenXR-körmiljö | Spela ljud vid tidslinjeskrubbning respektive systemets implementering av OpenXR. |
 | offset matrix / world matrix | förskjutningsmatris / världsmatris | Transformationsmatriser för gizmons placering respektive slutliga position i världsrymden. |
 | depth bias | djupförskjutning | Litet djupvärde som avgör urval eller rendering av en gizmo. |
 | vertex neighbors / face group boundaries | hörnpunktsgrannar / ytgruppsgränser | Noder som hämtar topologiska grannar respektive kanter mellan ytgrupper. Sammansättningarna är avsiktliga. |
