@@ -5019,3 +5019,11 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 601 granskar textobjektens skiftläge, teckenkod och teckenavstånd. Den
+skiljer korrekt mellan *gemener*, *versaler*, *tecken* och *teckenstorlek*.
+Deltafilen `blender-ui-sv-reviewed-20261107-batch-601-font-case-and-spacing.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-601.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
