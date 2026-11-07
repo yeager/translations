@@ -7996,3 +7996,17 @@ separat manuell deltafil med den lokalt granskade ändringen.
 samlade manuella deltafilen för batch 811–908. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 909 normaliserar bildredigerarens färgprovtagning från *sampla* till
+*provta*. Scope-panelerna behålls som synligt namn på bildanalysvyerna; det
+är skilt från det interna GPU-uttrycket *scope name*. Batchen är lokalt klar
+och pushad till vårt arkiv, men ännu inte verifierad som importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-909-image-sampling.po` är en separat
+manuell deltafil med dessa två lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-909.po` är den aktuella
+samlade manuella deltafilen för batch 811–909. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
