@@ -254,6 +254,16 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 515 granskar 15 poster för kamerans datablock, synfält och centralt
+cylindriska projektion. Den följer ordlistans *synfält*, *längdgrad* och
+*breddgrad* samt rättar det oidiomatiska *Maximalt höjdvärde* till *Största
+höjdvärde*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-515-camera-projection-basics.po` och
+den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-515.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade
