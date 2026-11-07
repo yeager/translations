@@ -4,9 +4,9 @@
 
 - Källfil: `~/Downloads/blender-ui-ui-sv (4).po`
 - Källfilens innehåll: 40 427 översättningsposter (rubriken undantagen).
-- Arkiverade granskningsbatcher: 706 filer med namnet
+- Arkiverade granskningsbatcher: 707 filer med namnet
   `blender-ui-sv-reviewed-*-batch-*.po`, plus samlade deltafiler. Mätningen
-  använder unionen av samtliga 1 393 arkiverade filer med namnet
+  använder unionen av samtliga 1 395 arkiverade filer med namnet
   `blender-ui-sv-reviewed-*.po` så att en granskad post räknas även när den
   endast finns i en samlad, spårbar importfil.
 
@@ -19,10 +19,10 @@ dubbletter eller ändringar som inte längre finns i den nedladdade filen.
 
 | Mått | Poster |
 | --- | ---: |
-| Unika poster i alla arkiverade granskningsfiler | 10 010 |
-| Poster som fortfarande finns i källfilen | 9 342 |
-| Granskningstäckning i den lokala källfilen | 23,11 % |
-| Återstående för full radvis täckning | 31 085 |
+| Unika poster i alla arkiverade granskningsfiler | 10 050 |
+| Poster som fortfarande finns i källfilen | 9 382 |
+| Granskningstäckning i den lokala källfilen | 23,21 % |
+| Återstående för full radvis täckning | 31 045 |
 
 ## Tolkning
 
@@ -31,7 +31,7 @@ Detta är en lokal granskningsmätning, inte Blender Weblates
 del batcher; 668 arkiverade ändringar kan därför inte matchas i just denna
 nedladdning. De behöver inte vara fel eller saknas i Weblate.
 
-Den samlade manuella deltafilen `pending-batches-811-863.po` innehåller endast
+Den samlade manuella deltafilen `pending-batches-811-864.po` innehåller endast
 de nyaste lokalt granskade ändringarna och är avsiktligt mycket mindre än hela
 arkivet. Fortsatt granskning ska prioritera poster som inte ingår i den
 uppmätta skärningen.

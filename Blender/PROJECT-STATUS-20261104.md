@@ -7423,3 +7423,17 @@ manuell deltafil med endast dessa 27, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–863. Den innehåller 479 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 864 normaliserar 40 meshsträngar i UV-projektion, USD-export,
+retopologi, skulptering och API-felmeddelanden. Den använder bland annat
+*mesh*, *meshen*, *meshtyp*, *meshö*, *meshelement*, *mesh-hörnpunkt*,
+*meshgeometri*, *meshdetalj* och *manifold-mesh*. Batchen är lokalt klar men
+ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-864-mesh-ui-and-api.po` är en separat
+manuell deltafil med endast dessa 40, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-864.po` är den aktuella
+samlade manuella deltafilen för batch 811–864. Den innehåller 518 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
