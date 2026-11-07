@@ -304,10 +304,16 @@ repository`. Den konsekventa svenska termen är *tilläggsförråd*; den äldre
 formen *tilläggsarkiv* används inte längre i batchen. Deltafilen är lokalt
 kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 673 normaliserar 27 Asset Browser-, inställnings- och
+felmeddelandeposter till *resursbibliotek*. Därmed används inte
+*tillgångsbibliotek* i denna UI-nära kontext. Förändringen omfattar även
+närliggande *asset*-referenser där de tydligt betyder resurser. Deltafilen är
+lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-672-combined.po` med 273
+`blender-ui-sv-reviewed-20261107-batches-626-673-combined.po` med 300
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–672.
+och innehåller dessutom batch 657–673.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
