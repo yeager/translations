@@ -387,6 +387,8 @@ Senast uppdaterad: 2026-11-06.
 | Curve Info / Curve Root / Curve Segment / Curve Tip | Kurvinformation / Kurvrot / Kurvsegment / Kurvspets | Namn på noder som läser data ur hårkurvor. De är sammansättningar, inte fraser som *Kurva rot*. |
 | hair attachment | hårinfästning | Hårkurvans fästning vid en meshyta. Använd exempelvis *infästnings-UV*, inte det felaktiga *bilaga-UV*. |
 | feature awareness (Redistribute Curve Points) | detaljbevarande | Den här inställningen bevarar lokala kurvdetaljer och riktningsändringar när kontrollpunkter omfördelas. |
+| Poisson Disk Distribution | Poisson-diskfördelning | Fördelningsmetod som upprätthåller ett minsta avstånd mellan genererade hårkurvors rotpunkter. |
+| Density Mask (hair curves) | densitetsmask | Skalär mask som lokalt påverkar tätheten när hårkurvor skapas eller interpoleras. |
 | hair attachment / surface normal | hårinfästning / ytnormal | Vid hårgenerering beskriver detta hur hårkurvans rot fästs vid meshytans UV-koordinat och normal. |
 | clumping (hair particles) | klumpning | Samling av barnpartiklarnas hårstrån kring varandra. Använd *grad av klumpning* och *klumpningens form* för reglagen. |
 | kink (hair particles) | nyck | Periodisk förskjutning som formar barnpartiklarna som lock, våg eller fläta. Använd *nyck*, inte det missvisande *knäck*. |
