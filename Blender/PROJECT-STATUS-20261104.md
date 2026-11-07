@@ -5634,8 +5634,8 @@ katalogens etablerade UI-etiketter *Rubrik* och *Verktygsrubrik*. Deltafilen
 kontrollerad och ännu inte importerad i Blender Translate.
 
 Den samlade deltafilen
-`blender-ui-sv-reviewed-20261107-batches-684-687-combined.po` innehåller
-alla fem lokalt kontrollerade, ännu ej importerade ändringar och är klar för
+`blender-ui-sv-reviewed-20261107-batches-684-688-combined.po` innehåller
+alla 29 lokalt kontrollerade, ännu ej importerade ändringar och är klar för
 manuell import.
 
 Batch 686 korrigerar en felkopplad WindowManager-sträng för Grease Pencil.
