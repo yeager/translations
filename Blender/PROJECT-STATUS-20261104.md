@@ -293,10 +293,16 @@ texten hade slutpunkt trots att respektive källsträng saknar den. Innehåll oc
 tekniska namn, som Rigify och `Sequencer`, är oförändrade. Deltafilen är
 lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 671 normaliserar 16 hjälprader för NLA, kompositorn och Geometry Nodes
+så att deras avslutande skiljetecken följer respektive källsträng. Bland annat
+bevaras de synliga tekniska namnen `Bokeh Blur`, `Cryptomatte`,
+`Realize Instances` och `Join Geometry`. Deltafilen är lokalt kontrollerad och
+ännu inte importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-670-combined.po` med 250
+`blender-ui-sv-reviewed-20261107-batches-626-671-combined.po` med 266
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–670.
+och innehåller dessutom batch 657–671.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
