@@ -232,10 +232,16 @@ facktermen *icke-manifold*. Det synliga lägesnamnet `Area Plane` behålls på
 engelska i den tekniska hjälptexten. Deltafilen är lokalt kontrollerad och
 ännu inte importerad i Blender Translate.
 
+Batch 661 granskar sex FFmpeg-poster för videoutdata. Den normaliserar
+*utdatakvalitet*, *förlustfria utdata*, `Constant Rate Factor (CRF)` och
+*muxpaketstorlek*. Förvalets hjälptext anger tydligt att detta är standardvalet
+för de flesta användningsområden. Deltafilen är lokalt kontrollerad och ännu
+inte importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-660-combined.po` med 193
+`blender-ui-sv-reviewed-20261107-batches-626-661-combined.po` med 199
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–660.
+och innehåller dessutom batch 657–661.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
