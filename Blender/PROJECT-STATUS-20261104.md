@@ -5901,3 +5901,16 @@ skiljs från Dynamic Paints *duk*, och färghanteringen använder
 `blender-ui-sv-reviewed-20261107-batch-712-repositories-physics-color.po` är
 lokalt granskad och ännu inte importerad.
 
+Batch 714 rättar tio kontextkontrollerade UI-texter för *vyport*, *gizmo*,
+*poseringsrymd* och *transformationsmatris*. Batch 715 lägger till arton
+kontrollerade rättelser för uttryckligen 3D-bundna vyporter samt färghantering,
+världsrymd och kompositionsremsor. Båda batcherna är lokalt kontrollerade och
+ännu inte importerade.
+
+Den ersättande rekommenderade importfilen är
+`blender-ui-sv-reviewed-20261107-pending-batches-705-715.po`. Den innehåller
+155 unika ändringar, samtliga verifierade mot exporten från 7 november: ingen
+post saknas från exporten och ingen återger exportens befintliga översättning.
+Den ryms väl inom gränsen på 1 000 strängar per import. `msgfmt`,
+`l10n-lint`, sammanslagningskontroll, diffkontroll och Gitleaks passerade.
+
