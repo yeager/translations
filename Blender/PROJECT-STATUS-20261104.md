@@ -7046,5 +7046,3 @@ passerar lokal syntax- och lintkontroll.
 samlade manuella deltafilen för batch 811–835. Den innehåller 221 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
-
-
