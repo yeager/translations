@@ -45,6 +45,12 @@ som innehåller tre `r` i följd, med *fjärranslutet resursbibliotek* samt
 rättar den falska vännen *aktuella* i betydelsen *actual* till *faktiska*.
 Deltafilen är lokalt klar och ännu inte importerad i Blender Translate.
 
+De 20 posterna i batch 626–630 finns samlade i
+`blender-ui-sv-reviewed-20261107-batches-626-630-combined.po`. Den ersätter
+den tidigare samlingsfilen för batch 626–629 som rekommenderad fil för en
+enda manuell import, men delbatcherna och den äldre samlingsfilen bevaras som
+spårbart arbetsunderlag.
+
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
 skickat in samtliga sex delar manuellt till Blender Translate. Importresultat
