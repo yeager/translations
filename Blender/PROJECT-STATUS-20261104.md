@@ -7708,3 +7708,16 @@ separat manuell deltafil med dessa åtta, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–884. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 885 granskar tio modifierarsträngar för Blenders datatyp *mesh*, bland
+annat meshdata, meshdeformation, målmeshen och adaptiv underindelning.
+Batchen är lokalt klar och pushad till vårt arkiv, men ännu inte verifierad
+som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-885-mesh-modifiers.po` är en separat
+manuell deltafil med dessa tio, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-885.po` är den aktuella
+samlade manuella deltafilen för batch 811–885. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
