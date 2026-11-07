@@ -6758,6 +6758,10 @@ kanter ska delas* och *Mesh som ska trianguleras*. Batchen är lokalt klar men
 `blender-ui-sv-reviewed-20261108-batch-810-mesh-node-sockets.po` är en
 separat, efterföljande deltafil med endast dessa arton nya poster.
 
+`blender-ui-sv-reviewed-20261108-pending-batches-808-810.po` är den aktuella
+samlade manuella deltafilen. Den innehåller 38 nya, lokalt granskade poster
+och ligger väl under Blender Translates uppladdningsgräns.
+
 `REVIEW-COVERAGE-20261108.md` är den reproducerbara källan för den aktuella
 täckningsmätningen. Den mäter lokal radgranskning, inte Weblates status eller
 ett importresultat.
