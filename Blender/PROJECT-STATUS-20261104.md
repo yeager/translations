@@ -393,6 +393,16 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 529 granskar 35 poster för partiklars vinkelhastighet, effektorer,
+barnpartiklar, Brownska rörelser och hårbenor. Den ersätter felöversättningen
+*avsked* med den kontextkorrekta termen *bena* och normaliserar
+*barnpartikel*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-529-particles-children-and-parting.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-529.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade

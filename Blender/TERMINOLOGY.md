@@ -479,6 +479,8 @@ Senast uppdaterad: 2026-11-06.
 | simulation cache | simuleringscache | Cache för bildrutor vid uppspelning av simuleringsnoder. |
 | dynamic topology sculpting | skulptering med dynamisk topologi | Skulpteringsläge som ändrar meshtopologin dynamiskt. |
 | child particle | barnpartikel | Partikel som härleds från en föräldrapartikel. |
+| parting (child particles) | bena / benvinkel | Inställning som formar en hårbena bland barnpartiklar utifrån föräldratrådar. Minimi- och maximivärdet är vinklar från rot till spets. |
+| Brownian motion | Brownsk rörelse / Brownska rörelser | Slumpmässig och oregelbunden rörelse i en partikelsimulering. |
 | volume scatter | volymspridning | Spridning av ljus i ett volymmaterial. |
 | ray visibility: camera, diffuse, glossy, shadow, transmission, volume scatter | synlighet för kamera, diffust ljus, blanka reflektioner, skuggor, transmission, volymspridning | Cycles kontroller för vilka stråltyper som kan se objektet. Beskrivningarna använder den mer exakta formen *synlighet för …strålar*. |
 | guide hairs | guidehår | Hjälphår som visar eller styr partikelhårets form. |
