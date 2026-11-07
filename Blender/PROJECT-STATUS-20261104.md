@@ -8088,3 +8088,15 @@ manuell deltafil med dessa lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–915. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 916 normaliserar den synliga nodträdsetiketten till *Shadernoder* i
+enlighet med termposten *shadernod*. Batchen är lokalt klar, men ännu inte
+verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-916-shader-node-label.po` är en
+separat manuell deltafil med den lokalt granskade ändringen.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-916.po` är den aktuella
+samlade manuella deltafilen för batch 811–916. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
