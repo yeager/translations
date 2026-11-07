@@ -6127,6 +6127,12 @@ Batch 745 fullföljer samma normalisering i fem felmeddelanden där användaren
 behöver öppna eller tolka det faktiska Outliner-trädet. Deltafilen är lokalt
 granskad och ännu inte importerad.
 
+Batch 746 avslutar den lokalt identifierade Outliner-normaliseringen i
+hjälptext och tema. Den rättar dessutom fyra sammanhang där *Action* är
+Blenders formella animationsdatatyp, inte den vanliga svenska handlingen
+*åtgärd*. Deltafilen innehåller sju lokalt granskade, ännu ej importerade
+ändringar.
+
 `blender-ui-sv-reviewed-20261107-pending-batches-739-743.po` ersätter
 739–742-samlingen. Den innehåller 46 unika, lokalt granskade och ännu ej
 importerade ändringar.
