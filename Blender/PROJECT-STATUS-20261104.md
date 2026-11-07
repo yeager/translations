@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-440.po`
-med 2 199 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-441.po`
+med 2 234 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -92,6 +92,14 @@ stället för det engelska UI-namnet där texten beskriver funktionen. Deltafile
 `blender-ui-sv-reviewed-20261106-batch-324-stretch-to-axis-and-rest-length.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender
 Translate.
+
+Batch 441 granskar 35 poster för gizmogruppers verktygsalternativ, regioner
+och VR-indikatorer. Den rättar bland annat den tidigare trasiga
+VR-styrenhetsetiketten, normaliserar *gizmokarta* och använder sammanfogade
+Blender-termer som *gizmogrupp* och *gizmoegenskaper*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-441-gizmo-groups-and-regions.po` är
+lokalt kontrollerad och arkiverad, men dess import till Blender Translate är
+inte verifierad i detta arkiv.
 
 Batch 364 granskar tio Dopebladsfilter för Grease Pencil, hår, dolda
 kanaler, gitter och ljus. Den fortsätter den konsekventa direktformen

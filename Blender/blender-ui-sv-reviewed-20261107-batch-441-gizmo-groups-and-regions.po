@@ -1,0 +1,258 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.GizmoGroup.bl_options:'PERSISTENT'
+#. :src: bpy.types.Brush.use_persistent
+msgid "Persistent"
+msgstr "Beständig"
+
+#. :src: bpy.types.GizmoGroup.bl_options:'SHOW_MODAL_ALL'
+msgid "Show Modal All"
+msgstr "Visa alla under interaktion"
+
+#. :src: bpy.types.GizmoGroup.bl_options:'SHOW_MODAL_ALL'
+msgid ""
+"Show all while interacting, as well as this group when another is being "
+"interacted with"
+msgstr ""
+"Visa alla under interaktion samt denna grupp när en annan grupp används"
+
+#. :src: bpy.types.GizmoGroup.bl_options:'EXCLUDE_MODAL'
+msgid "Exclude Modal"
+msgstr "Uteslut under interaktion"
+
+#. :src: bpy.types.GizmoGroup.bl_options:'EXCLUDE_MODAL'
+msgid "Show all except this group while interacting"
+msgstr "Visa alla utom denna grupp under interaktion"
+
+#. :src: bpy.types.GizmoGroup.bl_options:'TOOL_INIT'
+msgid "Tool Init"
+msgstr "Verktygsinitiering"
+
+#. :src: bpy.types.GizmoGroup.bl_options:'TOOL_INIT'
+msgid "Postpone running until tool operator run (when used with a tool)"
+msgstr ""
+"Skjut upp körningen tills verktygsoperatorn körs (vid användning med ett "
+"verktyg)"
+
+#. :src: bpy.types.GizmoGroup.bl_options:'TOOL_FALLBACK_KEYMAP'
+msgid "Use fallback tools keymap"
+msgstr "Använd tangentmappning för reservverktyg"
+
+#. :src: bpy.types.GizmoGroup.bl_options:'TOOL_FALLBACK_KEYMAP'
+msgid "Add fallback tools keymap to this gizmo type"
+msgstr "Lägg till tangentmappning för reservverktyg till denna gizmotyp"
+
+#. :src: bpy.types.GizmoGroup.bl_options:'VR_REDRAWS'
+msgid "VR Redraws"
+msgstr "VR-omritningar"
+
+#. :src: bpy.types.GizmoGroup.bl_options:'VR_REDRAWS'
+msgid ""
+"The gizmos are made for use with virtual reality sessions and require "
+"special redraw management"
+msgstr ""
+"Gizmorna är gjorda för sessioner i virtuell verklighet och kräver särskild "
+"hantering av omritning"
+
+#. :src: bpy.types.GizmoGroup.bl_region_type
+#. :src: bpy.types.KeyMap.region_type
+#. :src: bpy.types.SCREEN_OT_region_toggle.region_type
+#. :src: bpy.types.Region.type
+msgid "Region Type"
+msgstr "Regiontyp"
+
+#. :src: bpy.types.GizmoGroup.bl_region_type
+msgid "The region where the panel is going to be used in"
+msgstr "Regionen där panelen ska användas"
+
+#. :src: bpy.types.GizmoGroup.bl_region_type:'HEADER'
+#. :src: bpy.types.KeyMap.region_type:'HEADER'
+#. :src: bpy.types.SCREEN_OT_region_toggle.region_type:'HEADER'
+#. :src: bpy.types.Region.type:'HEADER'
+#. :src: bpy.types.Space.show_region_header
+#. :src: bpy.types.ThemePanelColors.header
+#. :src: bpy.types.ThemeSpaceGeneric.header
+#. :src: bpy.types.ThemeSpaceGradient.header
+#: source/blender/editors/interface/interface_context_menu.cc:1372
+#: source/blender/editors/screen/screen_ops.cc:5317
+msgid "Header"
+msgstr "Sidhuvud"
+
+#. :src: bpy.types.GizmoGroup.bl_region_type:'TEMPORARY'
+#. :src: bpy.types.Screen.is_temporary
+#. :src: bpy.types.KeyMap.region_type:'TEMPORARY'
+#. :src: bpy.types.SCREEN_OT_region_toggle.region_type:'TEMPORARY'
+#. :src: bpy.types.Region.type:'TEMPORARY'
+msgid "Temporary"
+msgstr "Tillfällig"
+
+#. :src: bpy.types.GizmoGroup.bl_region_type:'UI'
+#. :src: bpy.types.KeyMap.region_type:'UI'
+#. :src: bpy.types.SCREEN_OT_region_toggle.region_type:'UI'
+#. :src: bpy.types.Region.type:'UI'
+#. :src: bpy.types.SpaceClipEditor.show_region_ui
+#. :src: bpy.types.SpaceDopeSheetEditor.show_region_ui
+#. :src: bpy.types.SpaceFileBrowser.show_region_ui
+#. :src: bpy.types.SpaceGraphEditor.show_region_ui
+#. :src: bpy.types.SpaceImageEditor.show_region_ui
+#. :src: bpy.types.SpaceNLA.show_region_ui
+#. :src: bpy.types.SpaceNodeEditor.show_region_ui
+#. :src: bpy.types.SpaceSequenceEditor.show_region_ui
+#. :src: bpy.types.SpaceSpreadsheet.show_region_ui
+#. :src: bpy.types.SpaceTextEditor.show_region_ui
+#. :src: bpy.types.SpaceView3D.show_region_ui
+msgid "Sidebar"
+msgstr "Sidopanel"
+
+#. :src: bpy.types.GizmoGroup.bl_region_type:'TOOLS'
+#. :src: bpy.types.WorkSpace.tools
+#. :src: bpy.types.KeyMap.region_type:'TOOLS'
+#. :src: bpy.types.SCREEN_OT_region_toggle.region_type:'TOOLS'
+#. :src: bpy.types.IMAGE_PT_tools_active
+#. :src: bpy.types.NODE_PT_tools_active
+#. :src: bpy.types.SEQUENCER_PT_tools_active
+#. :src: bpy.types.VIEW3D_PT_tools_active
+#. :src: bpy.types.Region.type:'TOOLS'
+#. :src: bpy.types.Prefs.spacebar_action:'TOOL'
+#: source/blender/editors/interface/templates/interface_template_color_ramp.cc:281
+#: source/blender/editors/interface/templates/interface_template_curve_mapping.cc:539
+#: source/blender/editors/interface/templates/interface_template_curve_mapping.cc:543
+#: source/blender/editors/interface/templates/interface_template_curve_mapping.cc:547
+#: source/blender/editors/interface/templates/interface_template_curve_mapping.cc:551
+#: source/blender/editors/interface/templates/interface_template_curve_profile.cc:359
+msgid "Tools"
+msgstr "Verktyg"
+
+#. :src: bpy.types.GizmoGroup.bl_region_type:'TOOL_PROPS'
+#. :src: bpy.types.KeyMap.region_type:'TOOL_PROPS'
+#. :src: bpy.types.SCREEN_OT_region_toggle.region_type:'TOOL_PROPS'
+#. :src: bpy.types.Region.type:'TOOL_PROPS'
+msgid "Tool Properties"
+msgstr "Verktygsegenskaper"
+
+#. :src: bpy.types.GizmoGroup.bl_region_type:'ASSET_SHELF_HEADER'
+#. :src: bpy.types.KeyMap.region_type:'ASSET_SHELF_HEADER'
+#. :src: bpy.types.SCREEN_OT_region_toggle.region_type:'ASSET_SHELF_HEADER'
+#. :src: bpy.types.Region.type:'ASSET_SHELF_HEADER'
+msgid "Asset Shelf Header"
+msgstr "Tillgångshyllans huvud"
+
+#. :src: bpy.types.GizmoGroup.bl_region_type:'HUD'
+#. :src: bpy.types.KeyMap.region_type:'HUD'
+#. :src: bpy.types.SCREEN_OT_region_toggle.region_type:'HUD'
+#. :src: bpy.types.Region.type:'HUD'
+msgid "Floating Region"
+msgstr "Flytande område"
+
+#. :src: bpy.types.GizmoGroup.bl_region_type:'NAVIGATION_BAR'
+#. :src: bpy.types.KeyMap.region_type:'NAVIGATION_BAR'
+#. :src: bpy.types.SCREEN_OT_region_toggle.region_type:'NAVIGATION_BAR'
+#. :src: bpy.types.PROPERTIES_PT_navigation_bar
+#. :src: bpy.types.Region.type:'NAVIGATION_BAR'
+#: source/blender/editors/interface/interface_context_menu.cc:1376
+#: source/blender/editors/screen/screen_ops.cc:5329
+msgid "Navigation Bar"
+msgstr "Navigeringsfält"
+
+#. :src: bpy.types.GizmoGroup.bl_region_type:'EXECUTE'
+#. :src: bpy.types.KeyMap.region_type:'EXECUTE'
+#. :src: bpy.types.SCREEN_OT_region_toggle.region_type:'EXECUTE'
+#. :src: bpy.types.Region.type:'EXECUTE'
+#: source/blender/editors/space_file/file_panels.cc:213
+msgid "Execute Buttons"
+msgstr "Utförandeknappar"
+
+#. :src: bpy.types.GizmoGroup.bl_region_type:'FOOTER'
+#. :src: bpy.types.KeyMap.region_type:'FOOTER'
+#. :src: bpy.types.SCREEN_OT_region_toggle.region_type:'FOOTER'
+#. :src: bpy.types.Region.type:'FOOTER'
+#. :src: bpy.types.SpaceSpreadsheet.show_region_footer
+#. :src: bpy.types.SpaceTextEditor.show_region_footer
+#: source/blender/editors/interface/interface_context_menu.cc:1388
+#: source/blender/editors/screen/screen_ops.cc:5323
+msgid "Footer"
+msgstr "Sidfot"
+
+#. :src: bpy.types.GizmoGroup.bl_region_type:'TOOL_HEADER'
+#. :src: bpy.types.KeyMap.region_type:'TOOL_HEADER'
+#. :src: bpy.types.SCREEN_OT_region_toggle.region_type:'TOOL_HEADER'
+#. :src: bpy.types.Region.type:'TOOL_HEADER'
+msgid "Tool Header"
+msgstr "Verktygshuvud"
+
+#. :src: bpy.types.GizmoGroup.bl_region_type:'XR'
+#. :src: bpy.types.KeyMap.region_type:'XR'
+#. :src: bpy.types.Region.type:'XR'
+msgid "XR"
+msgstr "XR"
+
+#. :src: bpy.types.GizmoGroup.bl_space_type
+msgid "The space where the panel is going to be used in"
+msgstr "Redigerarläget där panelen ska användas"
+
+#. :src: bpy.types.GizmoGroup.gizmos
+#. :src: bpy.types.Panel
+#. :src: bpy.types.CLIP_PT_gizmo_display
+#. :src: bpy.types.IMAGE_PT_gizmo_display
+#. :src: bpy.types.SEQUENCER_PT_gizmo_display
+#. :src: bpy.types.VIEW3D_PT_gizmo_display
+#. :src: bpy.types.PreferencesView.show_gizmo
+#. :src: bpy.types.Prefs.v3d_tilde_action:'GIZMO'
+msgid "Gizmos"
+msgstr "Gizmor"
+
+#. :src: bpy.types.GizmoGroup.gizmos
+msgid "List of gizmos in the Gizmo Map"
+msgstr "Lista över gizmor i gizmokartan"
+
+#. :src: bpy.types.VIEW3D_GGT_vr_controller_poses
+msgid "VR Controller Poses Indicator"
+msgstr "Indikator för VR-styrenheters positioner"
+
+#. :src: bpy.types.VIEW3D_GGT_vr_landmarks
+msgid "VR Landmark Indicators"
+msgstr "Indikatorer för VR-landmärken"
+
+#. :src: bpy.types.VIEW3D_GGT_vr_viewer_pose
+msgid "VR Viewer Pose Indicator"
+msgstr "Indikator för VR-visarens position"
+
+#. :src: bpy.types.GizmoGroupProperties
+msgid "Gizmo Group Properties"
+msgstr "Egenskaper för gizmogrupp"
+
+#. :src: bpy.types.GizmoGroupProperties
+msgid "Input properties of a Gizmo Group"
+msgstr "Indataegenskaper för en gizmogrupp"
+
+#. :src: bpy.types.GizmoProperties
+msgid "Gizmo Properties"
+msgstr "Gizmoegenskaper"
+
+#. :src: bpy.types.GizmoProperties
+msgid "Input properties of a Gizmo"
+msgstr "Indataegenskaper för en gizmo"

@@ -256,6 +256,9 @@ Senast uppdaterad: 2026-11-06.
 | drawing guide / speed guide | ritningshjälplinje | Grease Pencils hjälplinje som begränsar riktning eller placering under ritning. Använd inte engelsklånet *guide* i svensk UI-text. |
 | guide spacing | avstånd mellan hjälplinjer | Avståndet mellan parallella eller rutnätsbaserade ritningshjälplinjer. |
 | gizmo group | gizmogrupp | Grupp som registrerar och visar relaterade interaktiva gizmor. Skriv ihop enligt Blender-terminologin. |
+| Gizmo Map | gizmokarta | Intern karta som håller en samling gizmor. Skriv ihop som annan Blender-terminologi med *gizmo*. |
+| gizmo properties | gizmoegenskaper | Indata- och inställningsegenskaper för en enskild gizmo. Använd den sammanskrivna formen, inte *gizmo-egenskaper*. |
+| VR controller/viewer pose indicator | indikator för VR-styrenheters positioner / indikator för VR-visarens position | VR-överläggets visuella indikatorer för handkontrollernas respektive visningsenhetens lägen. |
 | offset matrix / world matrix | förskjutningsmatris / världsmatris | Transformationsmatriser för gizmons placering respektive slutliga position i världsrymden. |
 | depth bias | djupförskjutning | Litet djupvärde som avgör urval eller rendering av en gizmo. |
 | vertex neighbors / face group boundaries | hörnpunktsgrannar / ytgruppsgränser | Noder som hämtar topologiska grannar respektive kanter mellan ytgrupper. Sammansättningarna är avsiktliga. |
