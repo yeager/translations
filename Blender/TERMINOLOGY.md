@@ -568,6 +568,7 @@ Senast uppdaterad: 2026-11-06.
 | color set | färguppsättning | Namngiven grupp av benfärger i Rigify. |
 | brush capabilities | penselfunktioner | Skrivskyddad uppsättning tillgängliga egenskaper för en pensel. |
 | brush | pensel | Använd för Blender-verktyget i målning, skulptering och Grease Pencil. Undvik den felaktiga formen *borste* i nya UI-strängar. |
+| Brush Settings / Brush settings | Penselinställningar | Panel- och RNA-rubrik för inställningar som hör till den aktiva penseln. Använd inte *inställningar för borstar*. |
 | brush blending mode | penselblandningsläge | Inställning som styr hur penselns färg kombineras med befintliga pixlar eller värden. |
 | Color Burn / Linear Burn | Färgbränn / Linjär bränn | Etablerade namn på mörkande blandningslägen; undvik omskrivningar som *efterbelys färg* och *linjär förbränning*. |
 | Screen / Color Dodge | Raster / Färgskugga | Etablerade namn på ljusare färgblandningslägen i den här UI-kontexten. |
