@@ -4573,3 +4573,13 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 552 granskar 18 poster för *Roll Hair Curves*, som rullar upp
+hårkurvornas spetsar och kan behålla deras ursprungliga flöde. Den använder
+*rullningsbana*, *rullradie*, *rulldjup*, *rullkona* och *rullningsriktning*
+konsekvent och förtydligar utjämningsinställningens funktion. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-552-roll-hair-curves.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-552.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
