@@ -7870,3 +7870,16 @@ verifierad som importerad i Blender Translate.
 samlade manuella deltafilen för batch 811–899. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 900 normaliserar nio tydliga pluralformer av Blenders datatyp *mesh*
+till *meshar*, bland annat i datablockslistor, geometri- och bakningshjälptexter
+och booleska meshoperationer. Batchen är lokalt klar och pushad till vårt
+arkiv, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-900-mesh-plural-forms.po` är en
+separat manuell deltafil med dessa nio lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-900.po` är den aktuella
+samlade manuella deltafilen för batch 811–900. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
