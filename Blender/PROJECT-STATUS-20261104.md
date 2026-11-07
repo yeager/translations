@@ -109,10 +109,16 @@ uppdateras samtidigt för att markera *biblioteksöverskrivning* som en äldre,
 icke önskad variant för just denna Blender-funktion. Deltafilen är lokalt
 kontrollerad men ännu inte importerad i Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–640 är
-`blender-ui-sv-reviewed-20261107-batches-626-640-combined.po` med 47
+Batch 641 granskar bibliotekets omsynkroniseringsmeddelanden för
+biblioteksåsidosättningar. Den normaliserar den sista äldre formen
+*biblioteksöverskrivningar*, använder *omsynkroniseras* och skriver `.blend`
+som filformat i löpande text. Deltafilen är lokalt kontrollerad men ännu inte
+importerad i Blender Translate.
+
+Den aktuella samlingsfilen för batch 626–641 är
+`blender-ui-sv-reviewed-20261107-batches-626-641-combined.po` med 49
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–639 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–640 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
