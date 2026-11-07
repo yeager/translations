@@ -36096,17 +36096,14 @@ msgstr "Sprutpistol"
 
 #. :src: bpy.types.Brush.use_alpha
 #. :src: bpy.types.PAINT_OT_vertex_color_set.use_alpha
-#, fuzzy
 msgid "Affect Alpha"
 msgstr "Påverka alfa"
 
 #. :src: bpy.types.Brush.use_alpha
-#, fuzzy
 msgid "When this is disabled, lock alpha while painting"
-msgstr "När detta är avaktiverat, lås alfa medan du målar"
+msgstr "När detta är inaktiverat låser du alfa medan du målar"
 
 #. :src: bpy.types.Brush.use_anchor
-#, fuzzy
 msgid "Anchored"
 msgstr "Förankrad"
 
@@ -36118,7 +36115,7 @@ msgstr "Automaskering av meshgräns"
 #. :src: bpy.types.Brush.use_automasking_boundary_edges
 #. :src: bpy.types.Sculpt.use_automasking_boundary_edges
 msgid "Do not affect non manifold boundary edges"
-msgstr "Påverka inte icke-mångfaldiga gränskanter"
+msgstr "Påverka inte icke-manifolda gränskanter"
 
 #. :src: bpy.types.Brush.use_automasking_boundary_face_sets
 #. :src: bpy.types.Sculpt.use_automasking_boundary_face_sets
@@ -36212,110 +36209,90 @@ msgid "Only affect vertices that are not occluded by other faces (slower perform
 msgstr "Påverka endast hörnpunkter som inte täcks av andra ytor (långsammare prestanda)"
 
 #. :src: bpy.types.Brush.use_cloth_collision
-#, fuzzy
 msgid "Collide with objects during the simulation"
 msgstr "Kollidera med objekt under simuleringen"
 
 #. :src: bpy.types.Brush.use_cloth_pin_simulation_boundary
-#, fuzzy
 msgid "Pin Simulation Boundary"
 msgstr "Fäst simuleringsgränsen"
 
 #. :src: bpy.types.Brush.use_cloth_pin_simulation_boundary
-#, fuzzy
 msgid "Lock the position of the vertices in the simulation falloff area to avoid artifacts and create a softer transition with unaffected areas"
-msgstr "Lås hörnpunkternas position i simuleringsområdet för avtagande för att undvika artefakter och skapa en mjukare övergång till opåverkade områden"
+msgstr "Lås hörnpunkternas position i området för simuleringsavklingning för att undvika artefakter och skapa en mjukare övergång till opåverkade områden"
 
 #. :src: bpy.types.Brush.use_color_as_displacement
 #. :src: bpy.types.ShaderNodeVectorDisplacement
 #: scripts/startup/bl_ui/properties_paint_common.py:1467
-#, fuzzy
 msgid "Vector Displacement"
 msgstr "Vektorförskjutning"
 
 #. :src: bpy.types.Brush.use_color_as_displacement
-#, fuzzy
 msgid "Handle each pixel color as individual vector for displacement (area plane mapping only)"
-msgstr "Hantera varje pixelfärg som en enskild vektor för förskjutning (endast mappning av områdesplan)"
+msgstr "Hantera varje pixelfärg som en enskild vektor för förskjutning (endast med områdesplansmappning)"
 
 #. :src: bpy.types.Brush.use_connected_only
 #. :src: bpy.types.ToolSettings.use_proportional_connected
-#, fuzzy
 msgid "Connected Only"
 msgstr "Endast anslutna"
 
 #. :src: bpy.types.Brush.use_connected_only
-#, fuzzy
 msgid "Affect only topologically connected elements"
 msgstr "Påverka endast topologiskt sammanhängande element"
 
 #. :src: bpy.types.Brush.use_cursor_overlay
-#, fuzzy
 msgid "Use Cursor Overlay"
 msgstr "Använd marköröverlägg"
 
 #. :src: bpy.types.Brush.use_cursor_overlay
-#, fuzzy
 msgid "Show cursor in viewport"
-msgstr "Visa markören i visningsfönstret"
+msgstr "Visa markören i 3D-vyporten"
 
 #. :src: bpy.types.Brush.use_cursor_overlay_override
 #. :src: bpy.types.Brush.use_primary_overlay_override
 #. :src: bpy.types.Brush.use_secondary_overlay_override
-#, fuzzy
 msgid "Override Overlay"
 msgstr "Åsidosätt överlägg"
 
 #. :src: bpy.types.Brush.use_cursor_overlay_override
 #. :src: bpy.types.Brush.use_primary_overlay_override
 #. :src: bpy.types.Brush.use_secondary_overlay_override
-#, fuzzy
 msgid "Don't show overlay during a stroke"
 msgstr "Visa inte överlägget under ett penseldrag"
 
 #. :src: bpy.types.Brush.use_curve
-#, fuzzy
 msgid "Define the stroke curve with a Bézier curve. Dabs are separated according to spacing."
 msgstr "Definiera penseldragskurvan med en Bézier-kurva. Penselavtrycken separeras enligt avståndet."
 
 #. :src: bpy.types.Brush.use_custom_icon
 #. :src: bpy.types.ImagePreview.is_icon_custom
-#, fuzzy
 msgid "Custom Icon"
 msgstr "Anpassad ikon"
 
 #. :src: bpy.types.Brush.use_custom_icon
-#, fuzzy
 msgid "Set the brush icon from an image file"
 msgstr "Ange penselikonen från en bildfil"
 
 #. :src: bpy.types.Brush.use_density_pressure
-#, fuzzy
 msgid "Use Pressure for Density"
 msgstr "Använd tryck för densitet"
 
 #. :src: bpy.types.Brush.use_density_pressure
-#, fuzzy
 msgid "Use pressure to modulate density"
 msgstr "Använd tryck för att modulera densiteten"
 
 #. :src: bpy.types.Brush.use_edge_to_edge
-#, fuzzy
 msgid "Edge-to-Edge"
 msgstr "Kant till kant"
 
 #. :src: bpy.types.Brush.use_edge_to_edge
-#, fuzzy
 msgid "Drag anchor brush from edge-to-edge"
 msgstr "Dra den förankrade penseln från kant till kant"
 
 #. :src: bpy.types.Brush.use_flow_pressure
-#, fuzzy
 msgid "Use Pressure for Flow"
 msgstr "Använd tryck för flöde"
 
 #. :src: bpy.types.Brush.use_flow_pressure
-#, fuzzy
 msgid "Use pressure to modulate flow"
 msgstr "Använd tryck för att modulera flödet"
 
@@ -36424,136 +36401,110 @@ msgid "Smooths the edges of the strokes"
 msgstr "Utjämnar kanterna på strecken"
 
 #. :src: bpy.types.Brush.use_paint_grease_pencil
-#, fuzzy
 msgid "Use Paint"
-msgstr "Använd färg"
+msgstr "Använd ritning"
 
 #. :src: bpy.types.Brush.use_paint_grease_pencil
-#, fuzzy
 msgid "Use this brush in Grease Pencil drawing mode"
-msgstr "Använd den här penseln i ritläget Grease Pencil"
+msgstr "Använd den här penseln i ritläget för Grease Pencil"
 
 #. :src: bpy.types.Brush.use_paint_image
-#, fuzzy
 msgid "Use this brush in texture paint mode"
-msgstr "Använd den här penseln i texturmålningsläge"
+msgstr "Använd den här penseln i texturmålningsläget"
 
 #. :src: bpy.types.Brush.use_paint_sculpt
 #. :src: bpy.types.Brush.use_paint_sculpt_curves
-#, fuzzy
 msgid "Use Sculpt"
 msgstr "Använd skulptering"
 
 #. :src: bpy.types.Brush.use_paint_sculpt
-#, fuzzy
 msgid "Use this brush in sculpt mode"
-msgstr "Använd denna pensel i skulpteringsläge"
+msgstr "Använd den här penseln i skulpteringsläget"
 
 #. :src: bpy.types.Brush.use_paint_sculpt_curves
-#, fuzzy
 msgid "Use this brush in sculpt curves mode"
-msgstr "Använd denna pensel i läget för skulptering av kurvor"
+msgstr "Använd den här penseln i kurvskulpteringsläget"
 
 #. :src: bpy.types.Brush.use_paint_uv_sculpt
-#, fuzzy
 msgid "Use UV Sculpt"
 msgstr "Använd UV-skulptering"
 
 #. :src: bpy.types.Brush.use_paint_uv_sculpt
-#, fuzzy
 msgid "Use this brush in UV sculpt mode"
-msgstr "Använd den här penseln i UV-skulpteringsläge"
+msgstr "Använd den här penseln i UV-skulpteringsläget"
 
 #. :src: bpy.types.Brush.use_paint_vertex
 #. :src: bpy.types.Brush.use_vertex_grease_pencil
-#, fuzzy
 msgid "Use Vertex"
-msgstr "Använd hörnpunkt"
+msgstr "Använd hörnpunktsmålning"
 
 #. :src: bpy.types.Brush.use_paint_vertex
-#, fuzzy
 msgid "Use this brush in vertex paint mode"
-msgstr "Använd denna pensel i hörnpunktsmålningsläge"
+msgstr "Använd den här penseln i hörnpunktsmålningsläget"
 
 #. :src: bpy.types.Brush.use_paint_weight
-#, fuzzy
 msgid "Use Weight"
-msgstr "Använd vikt"
+msgstr "Använd viktmålning"
 
 #. :src: bpy.types.Brush.use_paint_weight
-#, fuzzy
 msgid "Use this brush in weight paint mode"
-msgstr "Använd denna pensel i viktfärgläge"
+msgstr "Använd den här penseln i viktmålningsläget"
 
 #. :src: bpy.types.Brush.use_persistent
-#, fuzzy
 msgid "Sculpt on a persistent layer of the mesh"
 msgstr "Skulptera på ett beständigt lager i meshen"
 
 #. :src: bpy.types.Brush.use_plane_trim
-#, fuzzy
 msgid "Use Plane Trim"
 msgstr "Använd plantrimning"
 
 #. :src: bpy.types.Brush.use_plane_trim
-#, fuzzy
 msgid "Limit the distance from the offset plane that a vertex can be affected"
 msgstr "Begränsa hur långt från förskjutningsplanet en hörnpunkt kan påverkas"
 
 #. :src: bpy.types.Brush.use_pose_ik_anchored
-#, fuzzy
 msgid "Keep Anchor Point"
 msgstr "Behåll ankarpunkten"
 
 #. :src: bpy.types.Brush.use_pose_ik_anchored
-#, fuzzy
 msgid "Keep the position of the last segment in the IK chain fixed"
 msgstr "Håll det sista segmentets position i IK-kedjan låst"
 
 #. :src: bpy.types.Brush.use_pose_lock_rotation
-#, fuzzy
 msgid "Lock Rotation When Scaling"
 msgstr "Lås rotation vid skalning"
 
 #. :src: bpy.types.Brush.use_pose_lock_rotation
-#, fuzzy
 msgid "Do not rotate the segment when using the scale deform mode"
 msgstr "Rotera inte segmentet när du använder skaldeformationsläget"
 
 #. :src: bpy.types.Brush.use_pressure_area_radius
-#, fuzzy
 msgid "Area Radius Pressure"
 msgstr "Tryck för områdesradie"
 
 #. :src: bpy.types.Brush.use_pressure_area_radius
-#, fuzzy
 msgid "Enable tablet pressure sensitivity for area radius"
 msgstr "Aktivera ritplattans tryckkänslighet för områdesradie"
 
 #. :src: bpy.types.Brush.use_pressure_jitter
-#, fuzzy
 msgid "Jitter Pressure"
-msgstr "Variationstryck"
+msgstr "Tryckslumpning"
 
 #. :src: bpy.types.Brush.use_pressure_jitter
-#, fuzzy
 msgid "Enable tablet pressure sensitivity for jitter"
-msgstr "Aktivera ritplattans tryckkänslighet för variation"
+msgstr "Aktivera ritplattans tryckkänslighet för slumpning"
 
 #. :src: bpy.types.Brush.use_pressure_masking
-#, fuzzy
 msgid "Mask Pressure Mode"
 msgstr "Maskens tryckläge"
 
 #. :src: bpy.types.Brush.use_pressure_masking
-#, fuzzy
 msgid "Pen pressure makes texture influence smaller"
 msgstr "Penntryck gör texturpåverkan mindre"
 
 #. :src: bpy.types.Brush.use_pressure_masking:'RAMP'
 #. :src: bpy.types.LineStyleColorModifier_Material.use_ramp
 #. :src: bpy.types.PHYSICS_PT_dp_brush_velocity_color_ramp
-#, fuzzy
 msgid "Ramp"
 msgstr "Ramp"
 
@@ -36561,43 +36512,35 @@ msgstr "Ramp"
 #. :src: bpy.types.BevelModifier.vmesh_method:'CUTOFF'
 #. :src: bpy.types.CompositorNodeChromaMatte.threshold
 #. :src: bpy.types.MESH_OT_bevel.vmesh_method:'CUTOFF'
-#, fuzzy
 msgid "Cutoff"
 msgstr "Gränsvärde"
 
 #. :src: bpy.types.Brush.use_pressure_size
-#, fuzzy
 msgid "Size Pressure"
 msgstr "Storlekstryck"
 
 #. :src: bpy.types.Brush.use_pressure_size
-#, fuzzy
 msgid "Enable tablet pressure sensitivity for size"
 msgstr "Aktivera surfplattans tryckkänslighet för storlek"
 
 #. :src: bpy.types.Brush.use_pressure_spacing
-#, fuzzy
 msgid "Spacing Pressure"
 msgstr "Tryck för penselavstånd"
 
 #. :src: bpy.types.Brush.use_pressure_spacing
-#, fuzzy
 msgid "Enable tablet pressure sensitivity for spacing"
 msgstr "Aktivera ritplattans tryckkänslighet för penselavstånd"
 
 #. :src: bpy.types.Brush.use_pressure_strength
-#, fuzzy
 msgid "Strength Pressure"
 msgstr "Styrketryck"
 
 #. :src: bpy.types.Brush.use_pressure_strength
-#, fuzzy
 msgid "Enable tablet pressure sensitivity for strength"
 msgstr "Aktivera surfplattans tryckkänslighet för styrka"
 
 #. :src: bpy.types.Brush.use_primary_overlay
 #. :src: bpy.types.Brush.use_secondary_overlay
-#, fuzzy
 msgid "Use Texture Overlay"
 msgstr "Använd texturöverlägg"
 
@@ -36607,114 +36550,92 @@ msgid "Show texture in viewport"
 msgstr "Visa textur i visningsområdet"
 
 #. :src: bpy.types.Brush.use_restore_mesh
-#, fuzzy
 msgid "Restore Mesh"
 msgstr "Återställ mesh"
 
 #. :src: bpy.types.Brush.use_restore_mesh
-#, fuzzy
 msgid "Allow a single dot to be carefully positioned"
 msgstr "Tillåt att en enstaka punkt positioneras noggrant"
 
 #. :src: bpy.types.Brush.use_scene_spacing
 #: scripts/startup/bl_ui/properties_paint_common.py:525
-#, fuzzy
 msgid "Spacing Distance"
 msgstr "Avstånd mellan penselavtryck"
 
 #. :src: bpy.types.Brush.use_scene_spacing
-#, fuzzy
 msgid "Calculate the brush spacing using view or scene distance"
 msgstr "Beräkna penselavståndet med hjälp av vy- eller scenavstånd"
 
 #. :src: bpy.types.Brush.use_scene_spacing:'VIEW'
-#, fuzzy
 msgid "Calculate brush spacing relative to the view"
 msgstr "Beräkna penselavstånd i förhållande till vyn"
 
 #. :src: bpy.types.Brush.use_scene_spacing:'SCENE'
-#, fuzzy
 msgid "Calculate brush spacing relative to the scene using the stroke location"
 msgstr "Beräkna penselavståndet i förhållande till scenen med hjälp av penseldragets position"
 
 #. :src: bpy.types.Brush.use_smooth_stroke
 #. :src: bpy.types.GREASE_PENCIL_OT_stroke_subdivide_smooth.GREASE_PENCIL_OT_stroke_smooth
-#, fuzzy
 msgid "Smooth Stroke"
 msgstr "Jämnt penseldrag"
 
 #. :src: bpy.types.Brush.use_smooth_stroke
-#, fuzzy
 msgid "Brush lags behind mouse and follows a smoother path"
 msgstr "Penseln släpar efter musen och följer en jämnare bana"
 
 #. :src: bpy.types.Brush.use_space_attenuation
-#, fuzzy
 msgid "Adjust Strength for Spacing"
 msgstr "Justera styrkan efter penselavstånd"
 
 #. :src: bpy.types.Brush.use_space_attenuation
-#, fuzzy
 msgid "Automatically adjust strength to give consistent results for different spacings"
 msgstr "Justera automatiskt styrkan för att ge konsekventa resultat vid olika penselavstånd"
 
 #. :src: bpy.types.Brush.use_vertex_grease_pencil
-#, fuzzy
 msgid "Use this brush in Grease Pencil vertex color mode"
 msgstr "Använd den här penseln i Grease Pencil-hörnpunktsfärgläge"
 
 #. :src: bpy.types.Brush.use_wet_mix_pressure
-#, fuzzy
 msgid "Use Pressure for Wet Mix"
 msgstr "Använd tryck för våt blandning"
 
 #. :src: bpy.types.Brush.use_wet_mix_pressure
-#, fuzzy
 msgid "Use pressure to modulate wet mix"
-msgstr "Använd tryck för att modulera våtblandningen"
+msgstr "Använd tryck för att påverka våtblandningen"
 
 #. :src: bpy.types.Brush.use_wet_persistence_pressure
-#, fuzzy
 msgid "Use Pressure for Wet Persistence"
 msgstr "Använd tryck för våt beständighet"
 
 #. :src: bpy.types.Brush.use_wet_persistence_pressure
-#, fuzzy
 msgid "Use pressure to modulate wet persistence"
-msgstr "Använd tryck för att modulera våt beständighet"
+msgstr "Använd tryck för att påverka den våta beständigheten"
 
 #. :src: bpy.types.Brush.weight
-#, fuzzy
 msgid "Vertex weight when brush is applied"
-msgstr "Hörnpunktsvikt när penseln appliceras"
+msgstr "Hörnpunktsvikt när penseln används"
 
 #. :src: bpy.types.Brush.wet_mix
-#, fuzzy
 msgid "Wet Mix"
 msgstr "Våt blandning"
 
 #. :src: bpy.types.Brush.wet_mix
-#, fuzzy
 msgid "Amount of paint that is picked from the surface into the brush color"
-msgstr "Mängd färg som plockas upp från ytan till penselfärgen"
+msgstr "Mängd färg som tas upp från ytan och blandas in i penselfärgen"
 
 #. :src: bpy.types.Brush.wet_paint_radius_factor
-#, fuzzy
 msgid "Wet Paint Radius"
-msgstr "Radie för våtmålning"
+msgstr "Våtmålningsradie"
 
 #. :src: bpy.types.Brush.wet_paint_radius_factor
-#, fuzzy
 msgid "Ratio between the brush radius and the radius that is going to be used to sample the color to blend in wet paint"
-msgstr "Förhållandet mellan penselradien och den radie som ska användas för att prova ut färgen som ska blandas i våtfärg"
+msgstr "Förhållandet mellan penselradien och den radie som används för att hämta den färg som blandas in vid våtmålning"
 
 #. :src: bpy.types.Brush.wet_persistence
-#, fuzzy
 msgid "Wet Persistence"
 msgstr "Våt beständighet"
 
 #. :src: bpy.types.Brush.wet_persistence
-#, fuzzy
 msgid "Amount of wet paint that stays in the brush after applying paint to the surface"
 msgstr "Mängd våt färg som stannar kvar i penseln efter applicering av färg på ytan"
 

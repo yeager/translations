@@ -574,6 +574,7 @@ Senast uppdaterad: 2026-11-06.
 | smooth stroke | jämnt penseldrag | Styrning som låter penseln släpa efter markören och följa en jämnare bana. |
 | vertex paint | hörnpunktsmålning | Målningsläge som målar färgvärden på meshens hörnpunkter. |
 | wet persistence | våt beständighet | Mängden våt färg som stannar kvar i penseln efter målning. |
+| wet paint radius | våtmålningsradie | Radie för färgsamplingen som blandas in vid våtmålning. |
 | deformation target | deformationsmål | Väljer om en pensel deformerar geometri direkt eller tygsimuleringens begränsningar. |
 | falloff shape | avtagandeform | Väljer om penselns avtagande är projicerat eller sfäriskt. |
 | Bi-Scale Grab / Tri-Scale Grab | Flytta i två skalor / Flytta i tre skalor | Elastisk deformeringsmetod för penseln; undvik de felaktiga formerna *gripdon* och *grepp*. |
@@ -584,6 +585,7 @@ Senast uppdaterad: 2026-11-06.
 | texture overlay | texturöverlägg | Visas ovanpå arbetsytan vid målning. |
 | plane offset | planförskjutning | Förskjuter skulpteringsplanet i förhållande till ytan. |
 | plane trim | plantrimning | Begränsar hur långt från det förskjutna planet en hörnpunkt påverkas. |
+| area plane mapping | områdesplansmappning | Formellt kartläggningsläge för vektorförskjutning; skilj från områdesradie. |
 | normal weight | normalvikt | Styr hur starkt flyttverktyget drar meshens hörnpunkter bort från ytan. |
 | Paint Curve | målningskurva | Kurva som styr penseldragets förlopp; den är inte en färgkurva. |
 | area normal | områdesnormal | Normal som används för ett område i skulpterings- och automaskningsinställningar. |
