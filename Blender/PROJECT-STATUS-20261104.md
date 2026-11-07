@@ -6826,3 +6826,12 @@ separat manuell deltafil med endast dessa elva nya, lokalt granskade poster.
 Blender Translates gräns på 1 000 poster per uppladdning. Den är lokalt
 validerad men inte importerad.
 
+Batch 816 granskar tre entydiga RNA-datatyper för animationsdatablocket
+*Action*: *Action-grupp*, *Action-lager* och *Action-remsa*. Mer generella
+Action-etiketter och Action-slotar lämnas oförändrade, eftersom de använder
+den separata åtgärdsterminologin i sina egna UI-kontexter. Batchen är lokalt
+klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-816-action-datatypes.po` är en separat
+manuell deltafil med endast dessa tre nya, lokalt granskade poster.
+
