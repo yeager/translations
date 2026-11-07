@@ -7395,3 +7395,16 @@ manuell deltafil med endast dessa 20, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–861. Den innehåller 475 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 862 normaliserar åtta importsträngar för FBX, glTF, USD och STL. Den
+använder *alfamesh*, *mesh*, *meshattribut*, *meshens färgattribut* och
+*meshen*, men behåller filformat, USD Primvars och POINTS som tekniska namn.
+Batchen är lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-862-mesh-import.po` är en separat
+manuell deltafil med endast dessa åtta, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-862.po` är den aktuella
+samlade manuella deltafilen för batch 811–862. Den innehåller 479 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
