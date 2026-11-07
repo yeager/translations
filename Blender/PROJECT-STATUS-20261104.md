@@ -4641,3 +4641,13 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 559 granskar elva poster för *Shrinkwrap Hair Curves*, som anpassar
+hårkurvor efter en meshyta. Den behåller Blenders funktionsnamn *Shrinkwrap*
+enligt terminologin, men ersätter engelska *Offset* med
+*Förskjutningsavstånd*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-559-shrinkwrap-hair-curves.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-559.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
