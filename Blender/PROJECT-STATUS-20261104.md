@@ -323,6 +323,17 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 522 granskar elva Object-poster för ytinstanser, skuggfångare,
+ljuslänkning, linjeteckning, rotationslås och materialplatser. Den rättar
+*ansiktsinstans* till *ytinstans*, ersätter *Linjekonst* med den etablerade
+termen *Linjeteckning* och använder *Eulerrotationer* i stället för den
+felaktiga pluralformen *Eulers*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-522-object-instancing-and-line-art.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-522.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade
