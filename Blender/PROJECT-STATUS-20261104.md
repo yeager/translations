@@ -7030,6 +7030,14 @@ inte kan arbeta med länkade eller åsidosatta data. Batchen är lokalt klar men
 `blender-ui-sv-reviewed-20261108-batch-834-remeshing.po` är en separat manuell
 deltafil med endast dessa två nya, lokalt granskade poster.
 
+Batch 835 granskar två Voronoi-texter i de äldre procedurtexturerna. Den
+ersätter den ljudbetonade och upprepade formuleringen *spräckande Voronoi* med
+det geometriskt korrekta *Voronoi-sprickmönster*. Batchen är lokalt klar men
+ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-835-voronoi-crackle.po` är en separat
+manuell deltafil med endast dessa två nya, lokalt granskade poster.
+
 `blender-ui-sv-reviewed-20261108-pending-batches-811-834.po` är den aktuella
 samlade manuella deltafilen för batch 811–834. Den innehåller 219 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender

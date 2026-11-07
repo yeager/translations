@@ -712,6 +712,7 @@ Senast uppdaterad: 2026-11-07.
 | noise (procedural texture) | brus | I Blenders procedurtexturer avser *noise* en brusfunktion, aldrig ljud eller buller. |
 | Noise Texture | brustextur | Synlig texturtyp; skriv sammansatt. |
 | procedural Musgrave/Voronoi texture | procedurell Musgrave-/Voronoi-textur | Behåll algoritmnamnet med versal och använd bindestreck före *textur*. |
+| Voronoi Crackle | Voronoi-sprickmönster | Variant av Voronoi-brus som ger ett sprickliknande cellmönster. Undvik den missvisande ljudbetydelsen i *sprakande*. |
 | 3D Viewport | 3D-vyport | Använd den etablerade UI-termen när källan uttryckligen säger *viewport*. |
 | frame (animation) | bildruta | Gäller sekvens-, volym- och Rigify-animering; inte fysisk ram. |
 | Volume data-block | volymdatablock | Blenderdatatyp för 3D-volymrutnät. |
