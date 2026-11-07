@@ -6722,6 +6722,16 @@ objektbaserad validering använder *meshobjekt*. Batchen är lokalt klar men
 manuella importfilen. Den innehåller 373 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 807 granskar femton synliga nod-, modifierar- och exportetiketter som
+börjar med Blenders datatyp *Mesh*. Den behåller *Mesh* som projektspecifik
+term men översätter resten, till exempel *Mesh till volym*, *Meshfasning* och
+*Meshinställningar*. Batchen är lokalt klar men ännu inte importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-807.po` är den aktuella
+manuella importfilen. Den innehåller 388 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 `REVIEW-COVERAGE-20261108.md` dokumenterar den första reproducerbara
 täckningsmätningen för den lokala UI-filen. Av 40 427 aktuella poster är
 6 794 täckta av arkiverade granskningsbatcher, vilket motsvarar 16,81 %.
