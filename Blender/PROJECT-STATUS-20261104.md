@@ -152,6 +152,17 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 505 granskar 28 poster för Mesh målning, symmetri, UV-looplager,
+hörnpunktsfärger och hörnpunktsnormaler. Den håller isär markeringsmasker för
+ytor och hörnpunkter, använder *UV-looplager* och *mesh* enligt projektets
+terminologi och rättar den språkligt felaktiga formen *det nya meshet* till
+*den nya meshen*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-505-mesh-painting-and-uv-data.po` och
+den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-505.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade
