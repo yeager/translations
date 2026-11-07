@@ -341,9 +341,9 @@ och bevarar API-identifierarna i exempelkommandona. Deltafilen är lokalt
 kontrollerad och ännu inte importerad i Blender Translate.
 
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-674-combined.po` med 300
+`blender-ui-sv-reviewed-20261107-batches-626-679-combined.po` med 323
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–674.
+och innehåller dessutom batch 657–679.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
