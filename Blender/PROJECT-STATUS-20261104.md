@@ -7550,3 +7550,16 @@ manuell deltafil med dessa 16, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–872. Den innehåller 619 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 873 granskar nio strängar för filmspårningsdopebladet och
+Dopebladsredigeraren. Den rättar bland annat sorteringsetiketter, kanaler,
+markering av bildrutor och den synliga växlingsåtgärden. Batchen är lokalt
+klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-873-dopeblad.po` är en separat manuell
+deltafil med dessa nio, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-873.po` är den aktuella
+samlade manuella deltafilen för batch 811–873. Den innehåller 627 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
