@@ -6404,6 +6404,16 @@ importerad.
 manuella importfilen. Den innehåller 91 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 774 normaliserar fem Node API- och uttagstexter till *indata* och
+*utdata*: samlingar, uttagsvärden, olänkade uttag, interna länkar och
+sorterade fleringångar. Batchen har passerat `msgfmt`, `l10n-lint` och
+`svlang`; de enda ovanliga orden är avsiktliga Blender-sammansättningar.
+Den är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-761-774.po` är den aktuella
+manuella importfilen. Den innehåller 96 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
