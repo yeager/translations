@@ -7536,3 +7536,17 @@ separat manuell deltafil med endast dessa 61, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–871. Den innehåller 619 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 872 granskar 16 Animation- och nodträdstermer. Den behåller det formella
+Blendernamnet *Action* i sammansättningar som *Action-grupp*, *Action-lager*,
+*Action-slot* och *Action-remsa*, använder *Dopeblad* i redigerarnamnet och
+normaliserar *kompositionsnodträd*, *shadernodträd* och *geometrinodträd*.
+Batchen är lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-872-action-node-tree.po` är en separat
+manuell deltafil med dessa 16, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-872.po` är den aktuella
+samlade manuella deltafilen för batch 811–872. Den innehåller 619 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
