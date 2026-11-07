@@ -7339,3 +7339,17 @@ separat manuell deltafil med endast dessa fyra, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–857. Den innehåller 462 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 858 normaliserar 23 meshsträngar för maskning, ommeshning,
+underindelning, deformering och volymkonvertering. Den använder bland annat
+*meshen*, *basmesh*, *indatamesh*, *målmesh*, *meshdata*, *meshveck* och
+*manifold-mesh* i den konkreta modifierarkontexten. Batchen är lokalt klar
+men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-858-mesh-modifier-geometry.po` är en
+separat manuell deltafil med endast dessa 23, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-858.po` är den aktuella
+samlade manuella deltafilen för batch 811–858. Den innehåller 464 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
