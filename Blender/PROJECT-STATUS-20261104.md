@@ -6384,6 +6384,15 @@ Den är lokalt klar men ännu inte importerad.
 manuella importfilen. Den innehåller 83 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 772 rättar fyra beskrivningar för mask-, bild-, text- och 3D-vydata.
+I löpande hjälptext används den etablerade termen *redigerarläge* för den
+interna `Space…`-kontexten. Batchen har passerat `msgfmt`, `l10n-lint` och
+`svlang` utan anmärkning. Den är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-761-772.po` är den aktuella
+manuella importfilen. Den innehåller 87 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
