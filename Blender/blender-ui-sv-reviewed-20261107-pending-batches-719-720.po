@@ -1,0 +1,185 @@
+# Blender UI Swedish review delta – materials, compositor and mesh terminology
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
+"PO-Revision-Date: 2026-11-07 19:45+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. :src: bpy.types.Light.use_nodes
+msgid "Use shader nodes to render the light"
+msgstr "Använd shadernoder för att rendera ljuset"
+
+#. :src: bpy.types.NODE_OT_nw_lazy_mix
+msgid "Add a Mix RGB/Shader node by interactively drawing lines between nodes"
+msgstr ""
+"Lägg till en Mix RGB/shadernod genom att interaktivt rita linjer mellan "
+"noderna"
+
+#. :src: bpy.types.LineStyleColorModifier_Noise.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_Tangent.color_ramp
+msgid "Color ramp used to change line color"
+msgstr "Färggradient som används för att ändra linjefärg"
+
+#. :src: bpy.types.LineStyleColorModifier_Material.use_ramp
+msgid "Use color ramp to map the BW average into an RGB color"
+msgstr ""
+"Använd en färggradient för att färgkartlägga BW-medelvärdet till en RGB-färg"
+
+#. :src: bpy.types.ShaderNodeBsdfPrincipled.subsurface_method
+#. :src: bpy.types.ShaderNodeSubsurfaceScattering.falloff
+msgid "Method for rendering subsurface scattering"
+msgstr "Metod för att återge underytsspridning"
+
+#. :src: bpy.types.OBJECT_OT_bake.pass_filter
+msgid "Filter to combined, diffuse, glossy, transmission and subsurface passes"
+msgstr ""
+"Filtrera till kombinerade, diffusa, glansiga, transmissions- och "
+"underytsspridningspass"
+
+#. :src: bpy.types.RenderSettings.compositor_denoise_device
+msgid "Compositor Denoise Node Device"
+msgstr "Enhet för brusreduceringsnod i kompositören"
+
+#. :src: bpy.types.RenderSettings.compositor_denoise_device
+msgid "The device to use to process the denoise nodes in the compositor"
+msgstr ""
+"Enheten som ska användas för att bearbeta brusreduceringsnoderna i "
+"kompositören"
+
+#. :src: bpy.types.RenderSettings.compositor_denoise_device:'AUTO'
+msgid "Use the same device used by the compositor to process the denoise node"
+msgstr ""
+"Använd samma enhet som kompositören använder för att bearbeta "
+"brusreduceringsnoden"
+
+#. :src: bpy.types.Attribute
+#. :src: bpy.types.SpreadsheetSpace
+msgid "Mesh edge"
+msgstr "Meshkant"
+
+#. :src: bpy.types.Attribute
+#. :src: bpy.types.SpreadsheetSpace
+msgid "Mesh face"
+msgstr "Meshyta"
+
+#. :src: bpy.types.Attribute
+#. :src: bpy.types.SpreadsheetSpace
+msgid "Mesh face corner"
+msgstr "Meshythörn"
+
+#. :src: bpy.types.BakeSettings.use_lores_mesh
+msgid "Low Resolution Mesh"
+msgstr "Lågupplöst mesh"
+
+#. :src: bpy.types.BakeSettings.use_lores_mesh
+msgid "Calculate heights against unsubdivided low resolution mesh"
+msgstr "Beräkna höjder mot en lågupplöst mesh utan underindelning"
+
+#. :src: bpy.types.Mesh.has_custom_normals
+msgid "True if there is custom normal data for this mesh"
+msgstr "Sant om meshen har anpassade normaldata"
+
+#. :src: bpy.types.Mesh.texture_mesh
+msgid "Use another mesh for texture indices (vertex indices must be aligned)"
+msgstr ""
+"Använd en annan mesh för texturindex (hörnpunktsindex måste vara justerade)"
+
+#. :src: bpy.types.MeshSkinVertexLayer
+msgid "Mesh Skin Vertex Layer"
+msgstr "Meshens Skin-hörnpunktslager"
+
+#. :src: bpy.types.NodeSocketGeometry
+msgid "Geometry Node Socket"
+msgstr "Geometrinoduttag"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.attribute_domain
+msgid ""
+"Attribute domain used by the geometry nodes modifier to create an attribute "
+"output"
+msgstr ""
+"Attributdomän som geometrinodmodifieraren använder för att skapa en "
+"attribututdata"
+
+#. :src: bpy.types.NodesModifierWarning
+msgid "Warning created during evaluation of a geometry nodes modifier"
+msgstr "Varning skapades under utvärdering av en geometrinodmodifierare"
+
+#: scripts/addons_core/io_scene_gltf2/blender/exp/material/extensions/anisotropy.py:48
+msgid "Geometry Nodes Instances (Experimental)"
+msgstr "Geometrinodinstanser (experimentellt)"
+
+#. :src: bpy.types.NODE_OT_connect_to_output
+msgid "Run in Geometry Nodes Editor"
+msgstr "Kör i geometrinodredigeraren"
+
+#. :src: bpy.types.NODE_OT_select.clear_viewer
+msgid "Deactivate geometry nodes viewer when clicking in empty space"
+msgstr ""
+"Inaktivera visningsnoden för geometrinoder när du klickar i tomt utrymme"
+
+#. :src: bpy.types.OBJECT_OT_simulation_nodes_cache_bake
+msgid "Bake simulations in geometry nodes modifiers"
+msgstr "Baka simuleringar i geometrinodmodifierare"
+
+#. :src: bpy.types.OBJECT_OT_simulation_nodes_cache_delete
+msgid "Delete cached/baked simulations in geometry nodes modifiers"
+msgstr "Ta bort cachade/bakade simuleringar i geometrinodmodifierare"
+
+#: source/blender/nodes/shader/node_shader_util.cc:48
+msgid "Not a shader or geometry node tree"
+msgstr "Inte ett shader- eller geometrinodträd"
+
+#: source/blender/nodes/shader/node_shader_util.cc:59
+msgid "Not a shader, geometry, or compositor node tree"
+msgstr "Inte ett shader-, geometrinod- eller kompositionsnodträd"
+
+#. :src: bpy.types.RENDER_OT_opengl.sequencer
+msgid "Render using the sequencer's OpenGL display"
+msgstr "Rendera med sekvensredigerarens OpenGL-visning"
+
+#. :src: bpy.types.RENDER_OT_render.use_sequencer_scene
+msgid "Render the sequencer scene instead of the active scene"
+msgstr "Rendera sekvensredigerarens scen i stället för den aktiva scenen"
+
+#. :src: bpy.types.SCENE_OT_new_sequencer_scene
+msgid "Add new scene to be used by the sequencer"
+msgstr "Lägg till ny scen som ska användas av sekvensredigeraren"
+
+#. :src: bpy.types.SEQUENCER_OT_delete
+msgid "Delete selected strips from the sequencer"
+msgstr "Ta bort markerade remsor från sekvensredigeraren"
+
+#. :src: bpy.types.SEQUENCER_OT_effect_strip_add
+msgid ""
+"Add an effect to the sequencer, most are applied on top of existing strips"
+msgstr ""
+"Lägg till en effekt i sekvensredigeraren; de flesta tillämpas ovanpå "
+"befintliga remsor"
+
+#. :src: bpy.types.SEQUENCER_OT_image_strip_add
+msgid "Add an image or image sequence to the sequencer"
+msgstr "Lägg till en bild eller bildsekvens till sekvensredigeraren"
+
+#. :src: bpy.types.SEQUENCER_OT_mask_strip_add
+msgid "Add a mask strip to the sequencer"
+msgstr "Lägg till en maskremsa i sekvensredigeraren"
+
+#. :src: bpy.types.SEQUENCER_OT_movie_strip_add
+msgid "Add a movie strip to the sequencer"
+msgstr "Lägg till en filmremsa i sekvensredigeraren"
+
+#. :src: bpy.types.SEQUENCER_OT_refresh_all
+msgctxt "Operator"
+msgid "Refresh Sequencer"
+msgstr "Uppdatera sekvensredigeraren"
+
+#. :src: bpy.types.SEQUENCER_OT_reload
+msgid "Reload strips in the sequencer"
+msgstr "Ladda om remsor i sekvensredigeraren"
