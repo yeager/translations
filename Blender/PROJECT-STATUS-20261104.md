@@ -6529,6 +6529,16 @@ redigeraren *Kompositör* och använder därför den bestämda löptextformen
 manuella importfilen. Den innehåller 173 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 787 granskar tolv Kompositör- och sekvensredigerartexter för effekter,
+modifierare, noder och renderpass. Åtgärderna utför bildkomposition och får
+därför *kompositionseffekt*, *kompositionsmodifierare* och
+*kompositionsnod*, medan det synliga verktyget fortsatt heter *kompositör*.
+Batchen är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-787.po` är den aktuella
+manuella importfilen. Den innehåller 185 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 `REVIEW-COVERAGE-20261108.md` dokumenterar den första reproducerbara
 täckningsmätningen för den lokala UI-filen. Av 40 427 aktuella poster är
 6 794 täckta av arkiverade granskningsbatcher, vilket motsvarar 16,81 %.
