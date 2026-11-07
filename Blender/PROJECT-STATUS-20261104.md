@@ -6099,6 +6099,10 @@ dataobjekt, medan *penseldrag* behålls när texten beskriver användarens
 faktiska rörelse. Deltafilen innehåller tolv lokalt granskade, ännu ej
 importerade ändringar.
 
+Batch 741 rättar ett enda nodgränssnitt: ett inaktivt uttag påverkar nodens
+*utdata*, inte den generiska *utmatningen*. Deltafilen är lokalt granskad och
+ännu inte importerad.
+
 Batch 726 granskar 22 UI- och API-texter för Blenders formella
 animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
 *Action-kanal*, *Action-längd* och *Action-nyckelbildruta*, medan vanliga
