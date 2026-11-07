@@ -290,6 +290,9 @@ Senast uppdaterad: 2026-11-06.
 | Grease Pencil | Grease Pencil | Produkt- och funktionsnamn; översätt inte. |
 | Grease Pencil layer | Grease Pencil-lager | Lager som samlar relaterade Grease Pencil-ritningar. Behåll produktnamnet men översätt den svenska efterleden. |
 | Grease Pencil frame | Grease Pencil-bildruta | Bildruta i ett Grease Pencil-lager; använd inte *ram* i animeringskontext. |
+| Grease Pencil drawing | Grease Pencil-ritning | Själva ritinnehållet som en Grease Pencil-bildruta refererar till. Använd *ritning*, inte den snävare betydelsen *teckning*. |
+| keyframe / breakdown / extreme | nyckelbildruta / mellanpose / ytterläge | Animeringsbildruta, mellanliggande pose respektive pose i en rörelses ytterläge. |
+| moving hold / jitter keyframe | rörlig hållning / slumpad nyckelbildruta | Animeringslägen där bilden hålls under rörelse respektive där en utfyllnadsbildruta används vid animering på ettor. |
 | annotation frame | anteckningsbildruta | Bildruta som innehåller en anteckning; undvik *ram för anteckning*. |
 | annotation layer | anteckningslager | Lager som samlar relaterade anteckningsstreck. |
 | Grease Pencil sculpt guide | skulpteringsguide för Grease Pencil | Guide som hjälper till att styra Grease Pencil-streck vid ritning och skulptering. |
