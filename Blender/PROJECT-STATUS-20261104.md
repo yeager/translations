@@ -6571,6 +6571,16 @@ importerad i Blender Translate.
 manuella importfilen. Den innehåller 207 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 791 normaliserar tre återstående förekomster av *Dope Sheet* i
+spårnings- och transformationskontext. Det synliga Blender-namnet är
+*Dopeblad*, vilket ger *Dopebladssortering*, *Dopebladskanaler* och
+*Dopebladsredigeraren*. Batchen är lokalt klar men ännu inte importerad i
+Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-791.po` är den aktuella
+manuella importfilen. Den innehåller 210 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 `REVIEW-COVERAGE-20261108.md` dokumenterar den första reproducerbara
 täckningsmätningen för den lokala UI-filen. Av 40 427 aktuella poster är
 6 794 täckta av arkiverade granskningsbatcher, vilket motsvarar 16,81 %.
