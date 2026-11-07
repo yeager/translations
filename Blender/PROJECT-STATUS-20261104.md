@@ -5800,3 +5800,11 @@ termbasens *shadernod* och med granngruppens *geometrinoder*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-705-node-wrangler-shaders.po`
 innehåller en lokalt kontrollerad, ännu ej importerad ändring.
 
+Batch 706 normaliserar tio synliga mesh-etiketter för Blender-datatypen,
+datablock, ytor, hörn och samlingar. Den använder *mesh* även i plural och
+de svenska facksammansättningarna *meshdatablock*, *meshkant* och *meshyta*.
+Den samlade deltafilen
+`blender-ui-sv-reviewed-20261107-pending-batches-705-706.po` innehåller
+elva unika, lokalt kontrollerade och ännu ej importerade ändringar från
+batch 705–706.
+
