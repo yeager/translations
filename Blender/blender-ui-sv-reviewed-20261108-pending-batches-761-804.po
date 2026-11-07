@@ -1,0 +1,1453 @@
+# Blender UI Swedish review delta – strokes and node data
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
+"PO-Revision-Date: 2026-11-07 21:00+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid " (Viewer)"
+msgstr " (Visningsnod)"
+
+msgid "'Integrate' only valid for Mesh objects"
+msgstr "”Integrera” gäller endast för meshobjekt"
+
+msgid "(Viewer)"
+msgstr "(Visningsnod)"
+
+#. :src: bpy.types.SpaceView3D
+msgid "3D View Space"
+msgstr "3D-vyområde"
+
+#. :src: bpy.types.SpaceView3D
+msgid "3D View space data"
+msgstr "3D-vyns områdesdata"
+
+#. :src: bpy.types.SpaceView3D.region_3d
+msgid ""
+"3D region for this space. When the space is in quad view, the camera region"
+msgstr ""
+"3D-område för detta redigerarläge. När redigerarläget är i fyrdelad vy, "
+"kameraregionen"
+
+#. :src: bpy.types.NODE_OT_activate_viewer
+msgid "Activate selected viewer node in compositor and geometry nodes"
+msgstr "Aktivera vald visningsnod i kompositören och geometrinoder"
+
+msgid "Active object is not a mesh"
+msgstr "Det aktiva objektet är inte en mesh"
+
+#. :src: bpy.types.SubsurfModifier.use_adaptive_subdivision
+msgid "Adaptively subdivide mesh based on camera distance"
+msgstr "Dela upp meshen adaptivt utifrån kameraavståndet"
+
+#. :src: bpy.types.SCENE_OT_add_compositor_effect_menu
+msgctxt "Operator"
+msgid "Add Compositor Effect Menu"
+msgstr "Meny för att lägga till kompositionseffekt"
+
+#. :src: bpy.types.NODE_OT_add_group_input_node
+msgctxt "Operator"
+msgid "Add Group Input Node"
+msgstr "Lägg till gruppindatanod"
+
+#. :src: bpy.types.NODE_OT_add_group_input_node
+msgid "Add a Group Input node with selected sockets to the current node editor"
+msgstr ""
+"Lägg till en gruppindatanod med valda uttag i den aktuella nodredigeraren"
+
+#. :src: bpy.types.SCENE_OT_add_compositor_effect
+msgid "Add a compositor effect to the scene"
+msgstr "Lägg till en kompositionseffekt i scenen"
+
+#. :src: bpy.types.NODE_OT_cryptomatte_layer_add
+msgid "Add a new input layer to a Cryptomatte node"
+msgstr "Lägg till ett nytt indatalager i en Cryptomatte-nod"
+
+#. :src: bpy.types.OBJECT_OT_curves_empty_hair_add
+msgid ""
+"Add an empty curve object to the scene with the selected mesh as surface"
+msgstr "Lägg till ett tomt kurvobjekt till scenen med den valda meshen som yta"
+
+#. :src: bpy.types.NODE_OT_nw_add_reroutes
+msgid "Add reroutes to outputs"
+msgstr "Lägg till omdirigeringar till utdata"
+
+#. :src: bpy.types.ShaderNodeLightAccumulation
+msgid ""
+"Adds the result of all the evaluated lights and stores each input into its "
+"respective Compositing Pass.\n"
+"The combined result is computed as (Diffuse Light * Diffuse Color) + (Glossy "
+"Light * Glossy Color)"
+msgstr ""
+"Adderar resultatet från alla utvärderade ljus och lagrar varje indata i "
+"motsvarande kompositionspass.\n"
+"Det kombinerade resultatet beräknas som (diffust ljus × diffus färg) + "
+"(glansljus × glansfärg)"
+
+#. :src: bpy.types.SpaceView3D.show_object_select_mesh
+#. :src: bpy.types.XrSessionSettings.show_object_select_mesh
+msgid "Allow selection of mesh objects"
+msgstr "Tillåt val av meshobjekt"
+
+#. :src: bpy.types.SpaceImageEditor.annotation
+msgid "Annotation data for this space"
+msgstr "Anteckningsdata för detta redigerarläge"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_apply
+msgid ""
+"Apply modifiers (excluding Armatures) to mesh objects -WARNING: prevents "
+"exporting shape keys"
+msgstr ""
+"Tillämpa modifierare (utom armaturmodifierare) på meshobjekt – VARNING: "
+"förhindrar export av formnycklar"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_fbx.use_mesh_modifiers
+msgid ""
+"Apply modifiers to mesh objects (except Armature ones) - WARNING: prevents "
+"exporting shape keys"
+msgstr ""
+"Tillämpa modifierare på meshobjekt (utom armaturmodifierare) – VARNING: "
+"förhindrar export av formnycklar"
+
+#. :src: bpy.types.FileAssetSelectParams.asset_access
+#. :src: bpy.types.PreferencesView.asset_access
+msgid "Asset Access"
+msgstr "Resursåtkomst"
+
+msgid "Asset is not a compositor node group"
+msgstr "Resursen är inte en kompositionsnodgrupp"
+
+#. :src: bpy.types.BrushGpencilSettings.use_auto_remove_fill_guides
+msgid "Automatically remove fill guide strokes after fill operation"
+msgstr "Ta bort fyllningshjälplinjers streck automatiskt efter fyllningen"
+
+msgid "Baking of multires data only works with an active mesh object"
+msgstr "Beräkning av multires-data fungerar bara med ett aktivt meshobjekt"
+
+msgid "Base mesh to subtract geometry from"
+msgstr "Basmesh för att subtrahera geometri från"
+
+#. :src: bpy.types.SimpleDeformModifier.deform_method:'BEND'
+msgid "Bend the mesh over the Z axis of the modifier space"
+msgstr "Böj meshen över modifieringsutrymmets Z-axel"
+
+#. :src: bpy.types.NodeSocket.inferred_structure_type
+msgid ""
+"Best known structure type of the socket. This may not match the socket "
+"shape, e.g. for unlinked input sockets"
+msgstr ""
+"Den bäst kända strukturtypen för uttaget. Den kanske inte matchar uttagets "
+"form, t.ex. för olänkade indatauttag"
+
+#. :src: bpy.types.OBJECT_OT_laplaciandeform_bind
+msgid "Bind mesh to system in laplacian deform modifier"
+msgstr "Bind meshen till systemet i Laplace-deformeringsmodifieraren"
+
+#. :src: bpy.types.SpacePreferences
+msgid "Blender preferences space data"
+msgstr "Områdesdata för Blender-inställningar"
+
+msgid "Both objects must be meshes"
+msgstr "Båda objekten måste vara mesh"
+
+#. :src: bpy.types.RenderSettings.use_compositor_frames_cache
+msgid "Cache the result of the interactive compositor across frames"
+msgstr ""
+"Cachelagra resultatet från den interaktiva kompositören mellan bildrutor"
+
+#. :src: bpy.types.WM_OT_call_asset_shelf_popover
+msgctxt "Operator"
+msgid "Call Asset Shelf Popover"
+msgstr "Öppna resurshylla i popupfönster"
+
+msgid "Cannot add Rigid Body to non mesh object"
+msgstr ""
+"Det går inte att lägga till Rigid Body till ett objekt som inte är ett "
+"meshobjekt"
+
+msgid "Cannot delete currently visible workspace id '%s'"
+msgstr "Det går inte att ta bort ID:t för den synliga arbetsytan ”%s”"
+
+msgid "Cannot execute, the selected collection contains non mesh objects"
+msgstr ""
+"Det går inte att utföra; den valda samlingen innehåller objekt som inte är "
+"meshobjekt"
+
+msgid ""
+"Cannot pair zone input node %s with %s because it does not have the same "
+"zone type"
+msgstr ""
+"Det går inte att para ihop zonindatanoden %s med %s eftersom de inte har "
+"samma zontyp"
+
+#. :src: bpy.types.Modifier.type:'BUILD'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'BUILD'
+msgid ""
+"Cause the faces of the mesh object to appear or disappear one after the "
+"other over time"
+msgstr ""
+"Få ytorna på meshobjektet att visas eller försvinna en efter en över tid"
+
+#. :src: bpy.types.PreferencesEdit.use_duplicate_mesh
+msgid "Causes mesh data to be duplicated with the object"
+msgstr "Orsakar att meshdata dupliceras med objektet"
+
+#. :src: bpy.types.ASSET_OT_external_asset_rename
+msgid ""
+"Change the name of this asset. Note that this cannot be un-done via the undo "
+"system"
+msgstr ""
+"Byt namn på den här resursen. Observera att åtgärden inte kan ångras via "
+"ångringssystemet"
+
+#. :src: bpy.types.AssetShelf.asset_library_reference
+msgid "Choose the asset library to display assets from"
+msgstr "Välj ett resursbibliotek att visa resurser från"
+
+#. :src: bpy.types.FileAssetSelectParams.asset_access
+#. :src: bpy.types.PreferencesView.asset_access
+msgid "Choose the visibility of online and offline assets"
+msgstr "Välj om resurser på nätet och lokala resurser ska visas"
+
+#. :src: bpy.types.SCREEN_OT_spacedata_cleanup
+msgctxt "Operator"
+msgid "Clean Up Space Data"
+msgstr "Rensa områdesdata"
+
+#. :src: bpy.types.NODE_OT_select.clear_viewer
+msgid "Clear Viewer"
+msgstr "Rensa visningsnod"
+
+msgctxt "Operator"
+msgid "Clear Viewer"
+msgstr "Rensa visningsnod"
+
+#. :src: bpy.types.MESH_OT_customdata_face_sets_clear
+msgid "Clear sculpt face set data from the mesh"
+msgstr "Rensa data för skulpteringsytuppsättning från meshen"
+
+#. :src: bpy.types.MESH_OT_customdata_mask_clear
+msgid "Clear vertex sculpt masking data from the mesh"
+msgstr "Rensa data för skulpteringsmaskering av hörnpunkter från meshen"
+
+#. :src: KM_HIERARCHY.CLIP_EDITOR.CLIP_EDITOR
+msgctxt "WindowManager"
+msgid "Clip Dopesheet Editor"
+msgstr "Dopebladsredigerare för klipp"
+
+#. :src: bpy.types.SpaceClipEditor
+msgid "Clip editor space data"
+msgstr "Klippredigerarens områdesdata"
+
+#. :src: bpy.types.NodeClosureInputItem
+msgid "Closure Input Item"
+msgstr "Slutningsindataobjekt"
+
+#. :src: bpy.types.NodeClosureInputItems
+msgid "Closure Input Items"
+msgstr "Slutningsindataobjekt"
+
+#. :src: bpy.types.NodeClosureOutputItem
+msgid "Closure Output Item"
+msgstr "Slutningsutdataobjekt"
+
+#. :src: bpy.types.NodeClosureOutputItems
+msgid "Closure Output Items"
+msgstr "Slutningsutdataobjekt"
+
+#. :src: bpy.types.NodeCompositorFileOutputItems
+msgid "Collection of file output items"
+msgstr "Samling av filutdataobjekt"
+
+#. :src: bpy.types.NodeGeometryForeachGeometryElementInputItems
+msgid "Collection of input items"
+msgstr "Samling av indataobjekt"
+
+#. :src: Socket description from node group Hair Dynamics, file geometry_nodes_dynamics_assets.blend
+msgid "Collide with the surface mesh the hair is attached to."
+msgstr "Kolliderar med ytmeshen som håret är fäst vid."
+
+#. :src: bpy.types.CompositorNodeConvertToDisplay.view_settings
+msgid "Color management view transform settings"
+msgstr "Inställningar för färghanteringens visningstransformering"
+
+#. :src: bpy.types.MovieTrackingTrack.color
+msgid ""
+"Color of the track in the Movie Clip Editor and the 3D viewport after a solve"
+msgstr "Spårets färg i klippredigeraren och 3D-vyn efter en lösning"
+
+#. :src: Socket description from node group Curve to Tube, file geometry_nodes_essentials.blend
+msgid ""
+"Combine the cap geometry with the base mesh (realizing instances and merging "
+"vertices)"
+msgstr ""
+"Kombinera lockets geometri med basmeshen (genom att realisera instanser och "
+"slå samman hörnpunkter)"
+
+#. :src: bpy.types.Image.source:'VIEWER'
+msgid "Compositing node viewer"
+msgstr "Visningsnod för komposition"
+
+#. :src: bpy.types.RenderSettings.compositor_denoise_final_quality
+msgid "Compositor Final Denoise Quality"
+msgstr "Kompositörens slutliga brusreduceringskvalitet"
+
+#. :src: bpy.types.RenderSettings.compositor_precision
+msgid "Compositor Precision"
+msgstr "Kompositörens precision"
+
+#. :src: bpy.types.RenderSettings.compositor_denoise_preview_quality
+msgid "Compositor Preview Denoise Quality"
+msgstr "Kompositörens brusreduceringskvalitet för förhandsgranskning"
+
+#. :src: bpy.types.NODE_OT_connect_to_output
+msgid "Connect active node to the active output node of the node tree"
+msgstr "Anslut den aktiva noden till den aktiva utdatanoden i nodträdet"
+
+#. :src: bpy.types.GeometryNodeGeometryToInstance
+msgid ""
+"Convert each input geometry into an instance, which can be much faster than "
+"the Join Geometry node when the inputs are large"
+msgstr ""
+"Konvertera varje indatageometri till en instans, vilket kan vara mycket "
+"snabbare än noden Sammanfoga geometri när indata är omfattande"
+
+#. :src: bpy.types.CompositorNodeConvertToDisplay
+msgid ""
+"Convert from scene linear to display color space, with a view transform and "
+"look for tone mapping"
+msgstr ""
+"Konvertera från scenlinjär färgrymd till visningsfärgrymd med "
+"visningstransformering och utseende för tonmappning"
+
+#. :src: bpy.types.OBJECT_OT_modifier_convert
+msgid "Convert particles to a mesh object"
+msgstr "Konvertera partiklar till ett meshobjekt"
+
+#. :src: bpy.types.AnnotationStroke.display_mode
+msgid "Coordinate space that stroke is in"
+msgstr "Koordinatrymd för strecket"
+
+#. :src: bpy.types.ShaderNodeHoldout
+msgid ""
+"Create a \"hole\" in the image with zero alpha transparency, which is useful "
+"for compositing.\n"
+"Note: the holdout shader can only create alpha when transparency is enabled "
+"in the film settings"
+msgstr ""
+"Skapa ett ”hål” i bilden med noll alfagenomskinlighet, vilket är användbart "
+"vid komposition.\n"
+"Obs! Holdout-skuggning kan bara skapa alfa när transparens är aktiverad i "
+"filminställningarna"
+
+#. :src: bpy.types.GeometryNodeMeshToVolume
+msgid "Create a fog volume with the shape of the input mesh's surface"
+msgstr "Skapa en dimvolym med formen av indatameshens yta"
+
+#. :src: bpy.types.SCENE_OT_new_compositor_effect_node_group
+msgid "Create a new compositor node group and assign it to the scene effect"
+msgstr "Skapa en ny kompositionsnodgrupp och tilldela den till sceneffekten"
+
+#. :src: bpy.types.NODE_OT_new_compositor_sequencer_node_group
+msgid "Create a new compositor node group for sequencer"
+msgstr "Skapa en ny kompositionsnodgrupp för sekvenseraren"
+
+#. :src: bpy.types.SCULPT_OT_paint_mask_extract
+msgid "Create a new mesh object from the current paint mask"
+msgstr "Skapa ett nytt meshobjekt från den aktuella målningsmasken"
+
+#. :src: bpy.types.SCULPT_OT_face_set_extract
+msgid "Create a new mesh object from the selected face set"
+msgstr "Skapa ett nytt meshobjekt från den valda ytuppsättningen"
+
+msgid "Cursor must be over the surface mesh"
+msgstr "Markören måste vara över ytmeshen"
+
+msgid "Curves must have a mesh surface object set"
+msgstr "Kurvor måste ha ett meshobjekt som yta inställt"
+
+#. :src: bpy.types.NODE_OT_select.clear_viewer
+msgid "Deactivate geometry nodes viewer when clicking in empty space"
+msgstr ""
+"Inaktivera visningsnoden för geometrinoder när du klickar i tomt utrymme"
+
+#. :src: bpy.types.AssetShelf.bl_default_preview_size
+msgid "Default size of the asset preview thumbnails in pixels"
+msgstr ""
+"Standardstorlek för miniatyrbilder till resursförhandsvisningar i pixlar"
+
+#. :src: bpy.types.AssetShelf.bl_options:'NO_ASSET_DRAG'
+msgid ""
+"Disable the default asset dragging on drag events. Useful for implementing "
+"custom dragging via custom key-map items."
+msgstr ""
+"Inaktivera standarddragning av resurser vid draghändelser. Användbart för "
+"att implementera anpassad dragning via anpassade tangentmappningsposter."
+
+#. :src: bpy.types.Object.show_all_edges
+msgid "Display all edges for mesh objects"
+msgstr "Visa alla kanter för meshobjekt"
+
+#. :src: bpy.types.BrushGpencilSettings.show_lasso
+msgid "Display fill color while drawing the stroke"
+msgstr "Visa fyllningsfärgen medan strecket ritas"
+
+#. :src: bpy.types.SpaceView3D.show_viewer
+msgid "Display non-final geometry from viewer nodes"
+msgstr "Visa icke-slutgiltig geometri från visningsnoder"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.hide_in_modifier
+msgid "Don't show the input value in the geometry nodes modifier interface"
+msgstr "Visa inte indatavärdet i modifieringsgränssnittet för geometrinoder"
+
+#. :src: KM_HIERARCHY.DOPESHEET_EDITOR
+msgctxt "WindowManager"
+msgid "Dopesheet"
+msgstr "Dopeblad"
+
+#. :src: bpy.types.NODE_OT_duplicate_move_keep_inputs
+msgid "Duplicate selected nodes keeping input links and move them"
+msgstr "Duplicera valda noder med bibehållna indatalänkar och flytta dem"
+
+#. :src: bpy.types.NODE_OT_duplicate_compositing_modifier_node_group
+#. :src: bpy.types.NODE_OT_duplicate_compositing_node_group
+msgid "Duplicate the currently assigned compositing node group."
+msgstr "Duplicera den för närvarande tilldelade kompositionsnodgruppen."
+
+msgid "Edit compositing node group for Sequencer strip modifiers"
+msgstr "Redigera kompositionsnodgrupp för modifierare av sekvenserarremsor"
+
+#. :src: bpy.types.NodeTreePath
+msgid "Element of the node space tree path"
+msgstr "Element i nodredigerarens trädsökväg"
+
+#. :src: bpy.types.DataTransferModifier.use_object_transform
+#. :src: bpy.types.OBJECT_OT_data_transfer.use_object_transform
+msgid "Evaluate source and destination meshes in global space"
+msgstr "Utvärdera käll- och målmesh i globalt koordinatrum"
+
+msgid "Evaluated surface mesh is empty"
+msgstr "Den utvärderade ytmeshen är tom"
+
+msgid "Expected a Dope Sheet region"
+msgstr "En Dopeblad-region förväntades"
+
+msgid "Expected a File Browser region"
+msgstr "En filbläddrarregion förväntades"
+
+msgid "Expected a Graph Editor region"
+msgstr "En grafredigerarregion förväntades"
+
+msgid "Expected a Nonlinear Animation region"
+msgstr "En NLA-region förväntades"
+
+msgid "Expected a number"
+msgstr "Ett tal förväntades"
+
+msgid "Expected a timeline/animation area to be active"
+msgstr "Ett tidslinje-/animationsområde förväntades vara aktivt"
+
+msgid "Expected a timeline/animation region"
+msgstr "En tidslinje-/animationsregion förväntades"
+
+msgid "Expected a view3d region"
+msgstr "En 3D-vyregion förväntades"
+
+msgid "Expected a view3d region & editcurve"
+msgstr "En 3D-vyregion och en redigeringskurva förväntades"
+
+msgid "Expected a view3d region & editmesh"
+msgstr "En 3D-vyregion och ett redigeringsmesh förväntades"
+
+msgid "Expected a zip-file {!r}"
+msgstr "En zip-fil {!r} förväntades"
+
+msgid "Expected an Info region"
+msgstr "En informationsregion förväntades"
+
+msgid "Expected an active Dope Sheet"
+msgstr "Ett aktivt Dopeblad förväntades"
+
+msgid "Expected an active File Browser"
+msgstr "En aktiv filbläddrare förväntades"
+
+msgid "Expected an active Graph Editor"
+msgstr "En aktiv grafredigerare förväntades"
+
+msgid "Expected an active Info editor"
+msgstr "En aktiv informationsredigerare förväntades"
+
+msgid "Expected an active Nonlinear Animation editor"
+msgstr "En aktiv NLA-redigerare förväntades"
+
+msgid "Expected an active edit-font object"
+msgstr "Ett aktivt textobjekt i redigeringsläge förväntades"
+
+msgid "Expected an animation area to be active"
+msgstr "Ett animationsområde förväntades vara aktivt"
+
+msgid "Expected an array of numbers: [n, n, ...]"
+msgstr "En talmatris förväntades: [n, n, ...]"
+
+msgid "Expected one other selected mesh object to copy from"
+msgstr "Ett annat markerat meshobjekt att kopiera från förväntades"
+
+msgid "Failed to transfer mesh data to %d objects"
+msgstr "Det gick inte att överföra meshdata till %d objekt"
+
+#. :src: bpy.types.NodeCompositorFileOutputItem
+msgid "File Output Item"
+msgstr "Filutdataobjekt"
+
+#. :src: bpy.types.SpaceFileBrowser
+msgid "File browser space data"
+msgstr "Filbläddrarens områdesdata"
+
+#. :src: bpy.types.SCENE_OT_freestyle_fill_range_by_selection
+msgid ""
+"Fill the Range Min/Max entries by the min/max distance between selected mesh "
+"objects and the source object (either a user-specified object or the active "
+"camera)"
+msgstr ""
+"Fyll i Min-/Max-fälten med minimi-/maximiavståndet mellan valda meshobjekt "
+"och källobjektet (antingen ett användardefinierat objekt eller den aktiva "
+"kameran)"
+
+#. :src: bpy.types.AssetShelf.search_filter
+msgid "Filter assets by name"
+msgstr "Filtrera resurser efter namn"
+
+#. :src: bpy.types.MESH_OT_circularize.flatten
+msgid "Flatten the circle, instead of projecting it on the mesh"
+msgstr "Platta till cirkeln i stället för att projicera den på meshen"
+
+#. :src: bpy.types.FileAssetSelectParams.import_method:'FOLLOW_PREFS'
+msgid "Follow Asset or Preferences"
+msgstr "Följ resurs eller Inställningar"
+
+#. :src: bpy.types.OBJECT_OT_modifier_apply.merge_customdata
+msgid ""
+"For mesh objects, merge UV coordinates that share a vertex to account for "
+"imprecision in some modifiers"
+msgstr ""
+"För meshobjekt, slå samman UV-koordinater som delar en hörnpunkt för att "
+"kompensera för bristande precision i vissa modifierare"
+
+#. :src: bpy.types.TextureNodeTexture.node_output
+msgid "For node-based textures, which output node to use"
+msgstr "För nodbaserade texturer, vilken utdatanod som ska användas"
+
+#. :src: bpy.types.RemeshModifier
+msgid ""
+"Generate a new surface with regular topology that follows the shape of the "
+"input mesh"
+msgstr ""
+"Skapa en ny yta med regelbunden topologi som följer formen på indatameshen"
+
+#. :src: bpy.types.SpaceGraphEditor
+msgid "Graph Editor space data"
+msgstr "Grafredigerarens områdesdata"
+
+#. :src: bpy.types.OBJECT_OT_convert.target:'GREASEPENCIL'
+msgid "Grease Pencil from Curve or Mesh objects"
+msgstr "Grease Pencil från kurv- eller meshobjekt"
+
+#. :src: bpy.types.VolumeToMeshModifier.grid_name
+msgid "Grid in the volume object that is converted to a mesh"
+msgstr "Rutnätet i volymobjektet som konverteras till en mesh"
+
+#. :src: bpy.types.NodeSocket.hide_value
+msgid "Hide the socket input value"
+msgstr "Dölj uttagets indatavärde"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.hide_value
+msgid "Hide the socket input value even when the socket is not connected"
+msgstr "Dölj uttagets indatavärde även när uttaget inte är anslutet"
+
+#. :src: bpy.types.SubsurfModifier.adaptive_space
+msgid "How to adaptively subdivide the mesh"
+msgstr "Hur meshen ska delas upp adaptivt"
+
+#. :src: bpy.types.FileAssetSelectParams.import_method:'APPEND_REUSE'
+msgid ""
+"Import the asset as copied data-block while avoiding multiple copies of "
+"nested, typically heavy data. For example the textures of a material asset, "
+"or the mesh of an object asset, don't have to be copied every time this "
+"asset is imported. The instances of the asset share the data instead"
+msgstr ""
+"Importera resursen som ett kopierat datablock men undvik flera kopior av "
+"nästlade, vanligtvis tunga data. Till exempel behöver texturerna i en "
+"materialresurs eller meshen i en objektresurs inte kopieras varje gång "
+"resursen importeras. Resursinstanserna delar i stället data"
+
+#. :src: bpy.types.FileAssetSelectParams.import_method:'APPEND'
+msgid ""
+"Import the asset as copied data-block, with no link to the original asset "
+"data-block"
+msgstr ""
+"Importera resursen som ett kopierat datablock utan länk till det "
+"ursprungliga resursdatablocket"
+
+msgid "Include Online Essentials"
+msgstr "Inkludera grundresurser på nätet"
+
+#. :src: bpy.types.ShaderNodeMixRGB.use_alpha
+#. :src: bpy.types.ShaderNodeOutputLineStyle.use_alpha
+#. :src: bpy.types.TextureNodeMixRGB.use_alpha
+msgid "Include alpha of second input in this operation"
+msgstr "Inkludera alfa från den andra indatan i denna operation"
+
+#. :src: bpy.types.NODE_OT_add_zone.input_node_type
+#. :src: bpy.types.NODE_OT_swap_zone.input_node_type
+#. :src: bpy.types.ThemeNodeEditor.input_node
+msgid "Input Node"
+msgstr "Indatanod"
+
+#. :src: bpy.types.NodeInternalLink
+msgid "Internal link used by muted nodes to connect input to output sockets"
+msgstr ""
+"Intern länk som används av avstängda noder för att ansluta indata- till "
+"utdatauttag"
+
+msgid "Internet access is required to browse and download online assets."
+msgstr ""
+"Internetåtkomst krävs för att bläddra bland och hämta resurser på nätet."
+
+#. :src: bpy.types.MovieTrackingDopesheet.use_invert_sort
+msgid "Invert Dopesheet Sort"
+msgstr "Invertera Dopebladssortering"
+
+#. :src: bpy.types.MovieTrackingDopesheet.use_invert_sort
+msgid "Invert sort order of dopesheet channels"
+msgstr "Invertera sorteringsordningen för Dopebladskanaler"
+
+#. :src: bpy.types.Brush.jitter_unit
+msgid "Jitter in screen space or relative to brush size"
+msgstr "Variation i skärmrymden eller i förhållande till penselstorleken"
+
+#. :src: bpy.types.Brush.jitter_unit:'VIEW'
+msgid "Jittering happens in screen space, in pixels"
+msgstr "Variationen sker i skärmrymden, i pixlar"
+
+#. :src: bpy.types.NODE_OT_duplicate.keep_inputs
+msgid "Keep Inputs"
+msgstr "Behåll indata"
+
+#. :src: bpy.types.NODE_OT_duplicate.keep_inputs
+msgid "Keep the input links to duplicated nodes"
+msgstr "Behåll indatalänkarna till duplicerade noder"
+
+#. :src: bpy.types.NODE_OT_select_link_viewer
+msgctxt "Operator"
+msgid "Link Viewer"
+msgstr "Länka visningsnod"
+
+msgctxt "Operator"
+msgid "Link to Viewer"
+msgstr "Länka till visningsnod"
+
+#. :src: bpy.types.MultiresModifier.use_sculpt_base_mesh
+msgid ""
+"Make Sculpt Mode tools deform the base mesh while previewing the "
+"displacement of higher subdivision levels"
+msgstr ""
+"Låt verktygen i skulpteringsläget deformera basmeshen medan förskjutningen "
+"av högre underindelningsnivåer förhandsgranskas"
+
+#. :src: bpy.types.NODE_OT_link_make
+msgid "Make a link between selected output and input sockets"
+msgstr "Skapa en länk mellan valda utdata- och indatauttag"
+
+#. :src: bpy.types.CompositorNodeMapUV
+msgid ""
+"Map a texture using UV coordinates, to apply a texture to objects in "
+"compositing"
+msgstr ""
+"Avbilda en textur med UV-koordinater för att använda en textur på objekt i "
+"kompositören"
+
+#. :src: bpy.types.SpaceClipEditor.mask
+#. :src: bpy.types.SpaceImageEditor.mask
+msgid "Mask displayed and edited in this space"
+msgstr "Mask som visas och redigeras i detta redigerarläge"
+
+#. :src: bpy.types.MaskModifier
+msgid "Mask modifier to hide parts of the mesh"
+msgstr "Maskmodifierare för att dölja delar av meshen"
+
+#. :src: bpy.types.GreasePencilLineartModifier.source_vertex_group
+msgid ""
+"Match the beginning of vertex group names from mesh objects, match all when "
+"left empty"
+msgstr ""
+"Matcha början av hörnpunktsgruppsnamn från meshobjekt; matcha alla när "
+"fältet lämnas tomt"
+
+#. :src: bpy.types.NODE_OT_join_nodes
+msgid "Merge selected group input nodes into one if possible"
+msgstr "Slå ihop valda gruppindatanoder till en om möjligt"
+
+#. :src: bpy.types.Mesh
+msgid "Mesh data-block defining geometric surfaces"
+msgstr "Meshdatablock som definierar geometriska ytor"
+
+#. :src: bpy.types.Curves.surface
+msgid "Mesh object that the curves can be attached to"
+msgstr "Meshobjekt som kurvorna kan kopplas till"
+
+#. :src: bpy.types.MeshDeformModifier.object
+#. :src: bpy.types.SurfaceDeformModifier.target
+msgid "Mesh object to deform with"
+msgstr "Meshobjekt att deformera med"
+
+#. :src: bpy.types.ArrayModifier.start_cap
+msgid "Mesh object to use as a start cap"
+msgstr "Meshobjekt som ska användas som startlock"
+
+#. :src: bpy.types.ArrayModifier.end_cap
+msgid "Mesh object to use as an end cap"
+msgstr "Meshobjekt som ska användas som ändlock"
+
+#. :src: bpy.types.BooleanModifier.object
+msgid "Mesh object to use for Boolean operation"
+msgstr "Meshobjekt som ska användas för boolesk operation"
+
+msgid "Mesh object(s) have no active vertex/edge/face"
+msgstr "Meshobjekt har ingen aktiv hörnpunkt, kant eller yta"
+
+#. :src: bpy.types.MESH_OT_delete.type
+msgid "Method used for deleting mesh data"
+msgstr "Metod som används för att radera meshdata"
+
+msgid "Missing surface mesh"
+msgstr "Ytmesh saknas"
+
+#. :src: bpy.types.BrushGpencilSettings.stroke_type
+msgid "Mode to use when creating strokes"
+msgstr "Läge att använda när streck skapas"
+
+#. :src: bpy.types.DataTransferModifier
+msgid "Modifier transferring some data from a source mesh"
+msgstr "Modifierare som överför vissa data från en källmesh"
+
+#. :src: bpy.types.CURVES_OT_snap_curves_to_surface
+msgid "Move curves so that the first point is exactly on the surface mesh"
+msgstr "Flytta kurvorna så att den första punkten ligger exakt på ytmeshen"
+
+#. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.name_from
+msgid "Name for new mesh object and material"
+msgstr "Namn på nytt meshobjekt och material"
+
+#. :src: bpy.types.AssetShelf.bl_options:'NO_ASSET_DRAG'
+msgid "No Asset Dragging"
+msgstr "Ingen dragning av resurser"
+
+msgid "No active mesh object"
+msgstr "Inget aktivt meshobjekt"
+
+msgid "No mesh data to join"
+msgstr "Inga meshdata att sammanfoga"
+
+msgid "No mesh object"
+msgstr "Inget meshobjekt"
+
+msgid "No source mesh objects selected"
+msgstr "Inga källmeshobjekt valda"
+
+msgid "No valid target mesh"
+msgstr "Ingen giltig målmesh"
+
+msgid "Node group must have a geometry output"
+msgstr "Nodgruppen måste ha geometriutdata"
+
+msgid "Node group must have a group output node"
+msgstr "Nodgruppen måste ha en grupputdatanod"
+
+msgid "Node group must have an output socket"
+msgstr "Nodgruppen måste ha ett utdatauttag"
+
+msgid "Node group must have an output."
+msgstr "Nodgruppen måste ha ett utdatauttag."
+
+msgid "Node group must have at least {:d} Color input(s)."
+msgstr "Nodgruppen måste ha minst {:d} färgindata."
+
+msgid "Node tree '%s' is not a compositing node group."
+msgstr "Nodträdet ”%s” är inte en kompositionsnodgrupp."
+
+msgid "Not a compositor node tree"
+msgstr "Inte ett kompositionsnodträd"
+
+msgid "Not a geometry or compositor node tree"
+msgstr "Inte ett geometri- eller kompositionsnodträd"
+
+msgid "Not a shader node tree"
+msgstr "Inte ett shadernodträd"
+
+msgid "Not a shader or geometry node tree"
+msgstr "Inte ett shader- eller geometrinodträd"
+
+msgid "Not a shader, geometry, or compositor node tree"
+msgstr "Inte ett shader-, geometri- eller kompositionsnodträd"
+
+#. :src: bpy.types.MESH_OT_vertices_smooth_laplacian.repeat
+msgid "Number of iterations to smooth the mesh"
+msgstr "Antal iterationer för att jämna ut meshen"
+
+#. :src: bpy.types.MESH_OT_vertices_smooth.repeat
+msgid "Number of times to smooth the mesh"
+msgstr "Antal gånger meshen ska jämnas ut"
+
+msgid "Object '%s' has no evaluated Mesh data"
+msgstr "Objektet ”%s” har inga utvärderade meshdata"
+
+msgid "Object '%s' has no evaluated mesh data"
+msgstr "Objektet ”%s” har inga utvärderade meshdata"
+
+#. :src: bpy.types.FileAssetSelectParams.asset_access:'ONLY_OFFLINE'
+#. :src: bpy.types.PreferencesView.asset_access:'ONLY_OFFLINE'
+msgid "Offline Only"
+msgstr "Endast lokalt"
+
+#. :src: bpy.types.PreferencesAssetLibraries.use_online_essentials
+msgid "Online Essentials"
+msgstr "Grundresurser på nätet"
+
+#. :src: bpy.types.FileAssetSelectParams.asset_access:'ONLY_ONLINE'
+#. :src: bpy.types.PreferencesView.asset_access:'ONLY_ONLINE'
+msgid "Online Only"
+msgstr "Endast på nätet"
+
+#. :src: bpy.types.FileAssetSelectParams.asset_access:'ALL'
+#. :src: bpy.types.PreferencesView.asset_access:'ALL'
+msgid "Online and Offline"
+msgstr "På nätet och lokalt"
+
+#. :src: bpy.types.WM_OT_debug_menu
+msgid "Open a popup to set the debug level"
+msgstr "Öppna ett popupfönster för att ange felsökningsnivån"
+
+#. :src: bpy.types.WM_OT_call_asset_shelf_popover
+msgid "Open a predefined asset shelf in a popup"
+msgstr "Öppna en fördefinierad resurshylla i ett popupfönster"
+
+#. :src: bpy.types.KeyMap.space_type
+msgid "Optional space type keymap is associated with"
+msgstr "Valfri redigerartyp kopplad till tangentkartan"
+
+#. :src: bpy.types.SpaceOutliner
+msgid "Outliner space data"
+msgstr "Outliners områdesdata"
+
+#. :src: bpy.types.NODE_OT_add_zone.output_node_type
+#. :src: bpy.types.NODE_OT_swap_zone.output_node_type
+#. :src: bpy.types.TextureSlot.output_node
+#. :src: bpy.types.ThemeNodeEditor.output_node
+msgid "Output Node"
+msgstr "Utdatanod"
+
+#. :src: bpy.types.RemeshModifier.mode:'VOXEL'
+msgid "Output a mesh corresponding to the volume of the original mesh"
+msgstr "Skapa en mesh som motsvarar volymen hos den ursprungliga meshen"
+
+#. :src: bpy.types.RemeshModifier.mode:'SHARP'
+msgid ""
+"Output a surface that reproduces sharp edges and corners from the input mesh"
+msgstr "Skapa en yta som återger skarpa kanter och hörn från indatameshen"
+
+msgid "Output sockets cannot be multi-input"
+msgstr "Utdatauttag kan inte vara fleringångsuttag"
+
+#. :src: bpy.types.BrushGpencilSettings.vertex_mode:'STROKE'
+msgid "Painting affects only strokes, not fills"
+msgstr "Målning påverkar endast streck, inte fyllningar"
+
+#. :src: bpy.types.OBJECT_OT_convert.target:'POINTCLOUD'
+msgid "Point Cloud from Mesh objects"
+msgstr "Punktmoln från meshobjekt"
+
+#. :src: bpy.types.SpaceProject
+msgid "Project space data"
+msgstr "Projektområdesdata"
+
+#. :src: bpy.types.UV_OT_smart_project
+msgid "Projection unwraps the selected faces of mesh objects"
+msgstr "Projektionen vecklar ut markerade ytor på meshobjekt"
+
+#. :src: bpy.types.SpaceProperties
+msgid "Properties Space"
+msgstr "Egenskapsområdet"
+
+#. :src: bpy.types.SpaceProperties
+msgid "Properties space data"
+msgstr "Egenskapsområdesdata"
+
+#. :src: bpy.types.CURVES_OT_snap_curves_to_surface.attach_mode:'DEFORM'
+msgid ""
+"Re-attach curves to a deformed surface using the existing attachment "
+"information. This only works when the topology of the surface mesh has not "
+"changed"
+msgstr ""
+"Fäst kurvorna på nytt på en deformerad yta med hjälp av befintlig "
+"fästinformation. Detta fungerar endast om ytmeshens topologi inte har ändrats"
+
+#. :src: bpy.types.AssetShelf
+msgid "Regions for quick access to assets"
+msgstr "Områden för snabb åtkomst till resurser"
+
+#. :src: bpy.types.ASSETBROWSER_MT_asset_rename
+msgid "Rename Asset"
+msgstr "Byt namn på resurs"
+
+#. :src: bpy.types.ASSET_OT_external_asset_rename
+msgctxt "Operator"
+msgid "Rename Asset"
+msgstr "Byt namn på resurs"
+
+msgctxt "Operator"
+msgid "Rename Asset..."
+msgstr "Byt namn på resurs…"
+
+#. :src: bpy.types.NODE_OT_render_changed
+msgid "Render current scene, when input node's layer has been changed"
+msgstr "Rendera aktuell scen när indatanodens lager har ändrats"
+
+msgid "Render passes in the Viewport compositor are only supported in EEVEE"
+msgstr "Renderpass i visningsområdets kompositör stöds endast i EEVEE"
+
+msgid "Render size too large for GPU, use CPU compositor instead"
+msgstr ""
+"Renderingsstorleken är för stor för GPU:n. Använd CPU-kompositören i stället"
+
+msgid "Rotation is not supported in the Dope Sheet Editor"
+msgstr "Rotation stöds inte i Dopebladsredigeraren"
+
+msgid "Same input/output direction of sockets"
+msgstr "Samma indata-/utdatariktning för uttagen"
+
+#. :src: Asset description from file geometry_nodes_essentials.blend
+msgid "Scatter referenced geometry on a surface mesh"
+msgstr "Sprid refererad geometri på en ytmesh"
+
+msgid "Sculpt Base Mesh"
+msgstr "Skulptera basmeshen"
+
+msgid "Second selected mesh object required to copy shape from"
+msgstr "Ett andra valt meshobjekt krävs för att kopiera formen"
+
+#. :src: bpy.types.OBJECT_OT_hook_select
+msgid "Select affected vertices on mesh"
+msgstr "Välj berörda hörnpunkter i meshen"
+
+#. :src: bpy.types.MESH_OT_select_axis
+msgid "Select all data in the mesh on a single axis"
+msgstr "Markera alla data i meshen på en enda axel"
+
+#. :src: KM_HIERARCHY.VIEW_3D.EMPTY:'SET_USE_SELECTED'
+msgctxt "WindowManager"
+msgid "Select and Use Mesh Item"
+msgstr "Välj och använd meshelement"
+
+msgid "Select and use mesh item"
+msgstr "Välj och använd meshelement"
+
+msgid "Select at least one mesh object"
+msgstr "Välj minst ett meshobjekt"
+
+msgid "Select two mesh objects"
+msgstr "Välj två meshobjekt"
+
+msgid "Selected asset is stored online"
+msgstr "Den markerade resursen lagras på nätet"
+
+#. :src: bpy.types.SpaceSequenceEditor
+msgid "Sequence editor space data"
+msgstr "Sekvensredigerarens områdesdata"
+
+#. :src: bpy.types.SequencerCompositorEffectPropertiesEmpty
+msgid "Sequencer Compositor Effect Empty Properties"
+msgstr "Egenskaper för tom kompositionseffekt i sekvenseraren"
+
+#. :src: bpy.types.SequencerCompositorEffectProperties
+msgid "Sequencer Compositor Effect Properties"
+msgstr "Egenskaper för kompositionseffekt i sekvenseraren"
+
+#. :src: bpy.types.SequencerCompositorModifierPropertiesEmpty
+msgid "Sequencer Compositor Modifier Empty Properties"
+msgstr "Tomma egenskaper för kompositionsmodifierare i sekvenseraren"
+
+#. :src: bpy.types.SequencerCompositorModifierProperties
+msgid "Sequencer Compositor Modifier Properties"
+msgstr "Egenskaper för kompositionsmodifierare i sekvenseraren"
+
+msgid "Sequencer Compositor Nodes"
+msgstr "Sekvenserarens kompositionsnoder"
+
+#. :src: Socket description from node group Hair Dynamics, file geometry_nodes_dynamics_assets.blend
+msgid "Settings for collisions with the surface mesh."
+msgstr "Inställningar för kollisioner med ytmeshen."
+
+#. :src: bpy.types.SpaceView3D.show_viewer
+msgid "Show Viewer"
+msgstr "Visa visningsnod"
+
+#. :src: bpy.types.WM_OT_save_mainfile.show_save_modified_images_dialog
+msgid ""
+"Show a popup dialog to save modified images before saving the blend file"
+msgstr ""
+"Visa ett popupfönster för att spara ändrade bilder innan blend-filen sparas"
+
+#. :src: bpy.types.FileAssetSelectParams.asset_catalog_visibility:'ALL'
+msgid "Show assets from all catalogs"
+msgstr "Visa resurser från alla kataloger"
+
+#. :src: bpy.types.POSELIB_OT_blend_pose_asset.asset_library_type:'ALL'
+#. :src: bpy.types.SCENE_OT_add_compositor_effect_node_group_asset.asset_library_type:'ALL'
+#. :src: bpy.types.SEQUENCER_OT_add_scene_strip_from_scene_asset.asset_library_type:'ALL'
+#. :src: bpy.types.SEQUENCER_OT_strip_modifier_add_node_group.asset_library_type:'ALL'
+msgid "Show assets from all of the listed asset libraries"
+msgstr "Visa resurser från alla de listade resursbiblioteken"
+
+#. :src: bpy.types.FileAssetSelectParams.asset_catalog_visibility:'CATALOG'
+#. :src: bpy.types.ASSETBROWSER_MT_catalog
+msgid "Show assets from the active catalog only"
+msgstr "Visa endast resurser från den aktiva katalogen"
+
+#. :src: bpy.types.POSELIB_OT_blend_pose_asset.asset_library_type:'CUSTOM'
+#. :src: bpy.types.SCENE_OT_add_compositor_effect_node_group_asset.asset_library_type:'CUSTOM'
+#. :src: bpy.types.SEQUENCER_OT_add_scene_strip_from_scene_asset.asset_library_type:'CUSTOM'
+#. :src: bpy.types.SEQUENCER_OT_strip_modifier_add_node_group.asset_library_type:'CUSTOM'
+msgid "Show assets from the asset libraries configured in the Preferences"
+msgstr ""
+"Visa resurser från de resursbibliotek som har konfigurerats i Inställningar"
+
+#. :src: bpy.types.FileAssetSelectParams.asset_catalog_visibility:'UNASSIGNED'
+msgid "Show assets not assigned to any catalog"
+msgstr "Visa resurser som inte är tilldelade någon katalog"
+
+#. :src: bpy.types.FileAssetSelectParams.asset_access:'ALL'
+#. :src: bpy.types.PreferencesView.asset_access:'ALL'
+msgid ""
+"Show assets that are both hosted online (need downloading) and available on "
+"disk already"
+msgstr ""
+"Visa resurser som både finns på nätet (och måste hämtas) och redan finns på "
+"disk"
+
+#. :src: bpy.types.SpaceView3D.show_object_viewport_mesh
+#. :src: bpy.types.XrSessionSettings.show_object_viewport_mesh
+msgid "Show mesh objects"
+msgstr "Visa meshobjekt"
+
+#. :src: bpy.types.FileAssetSelectParams.asset_access:'ONLY_ONLINE'
+#. :src: bpy.types.PreferencesView.asset_access:'ONLY_ONLINE'
+msgid "Show only assets that need downloading (requires internet access)"
+msgstr "Visa endast resurser som måste hämtas (kräver internetanslutning)"
+
+#. :src: bpy.types.AssetShelf.show_names
+msgid ""
+"Show the asset name together with the preview. Otherwise only the preview "
+"will be visible."
+msgstr ""
+"Visa resursens namn tillsammans med förhandsvisningen. Annars visas bara "
+"förhandsvisningen."
+
+#. :src: bpy.types.GreasePencilShrinkwrapModifier.wrap_method:'NEAREST_SURFACEPOINT'
+#. :src: bpy.types.ShrinkwrapModifier.wrap_method:'NEAREST_SURFACEPOINT'
+msgid "Shrink the mesh to the nearest target surface"
+msgstr "Krympinpacka meshen mot närmaste målyta"
+
+#. :src: bpy.types.GreasePencilShrinkwrapModifier.wrap_method:'PROJECT'
+#. :src: bpy.types.ShrinkwrapModifier.wrap_method:'PROJECT'
+msgid "Shrink the mesh to the nearest target surface along a given axis"
+msgstr "Krympinpacka meshen mot närmaste målyta längs en given axel"
+
+#. :src: bpy.types.GreasePencilShrinkwrapModifier.wrap_method:'NEAREST_VERTEX'
+#. :src: bpy.types.ShrinkwrapModifier.wrap_method:'NEAREST_VERTEX'
+msgid "Shrink the mesh to the nearest target vertex"
+msgstr "Krympinpacka meshen mot närmaste målhörnpunkt"
+
+msgid "Skipping '{:s}', not a mesh"
+msgstr "Hoppar över ”{:s}” eftersom det inte är en mesh"
+
+#. :src: bpy.types.MESH_OT_offset_edge_loops_slide.TRANSFORM_OT_edge_slide
+#. :src: bpy.types.TRANSFORM_OT_edge_slide
+msgid "Slide an edge loop along a mesh"
+msgstr "Skjut en kantloop längs meshen"
+
+#. :src: bpy.types.NodeSocket.is_inactive
+msgid ""
+"Socket is grayed out because it has been detected to not have any effect on "
+"the output"
+msgstr ""
+"Uttaget är gråmarkerat eftersom det har konstaterats att det inte har någon "
+"effekt på nodutdata"
+
+msgid ""
+"Source and destination meshes do not have the same number of edges, "
+"'Topology' mapping cannot be used in this case"
+msgstr ""
+"Käll- och målmesh har inte samma antal kanter, därför kan inte "
+"topologikartläggning användas i detta fall"
+
+msgid ""
+"Source and destination meshes do not have the same number of face corners, "
+"'Topology' mapping cannot be used in this case"
+msgstr ""
+"Käll- och målmesh har inte samma antal ythörn; topologikartläggning kan "
+"därför inte användas i detta fall"
+
+msgid ""
+"Source and destination meshes do not have the same number of faces, "
+"'Topology' mapping cannot be used in this case"
+msgstr ""
+"Käll- och målmesh har inte samma antal ytor; topologikartläggning kan därför "
+"inte användas i detta fall"
+
+msgid ""
+"Source and destination meshes do not have the same number of vertices, "
+"'Topology' mapping cannot be used in this case"
+msgstr ""
+"Käll- och målmesh har inte samma antal hörnpunkter; topologikartläggning kan "
+"därför inte användas i detta fall"
+
+msgid ""
+"Source mesh does not have any edges, none of the 'Edge' mappings can be used "
+"in this case"
+msgstr ""
+"Källmeshen har inga kanter; ingen av ”Edge”-mappningarna kan därför användas "
+"i detta fall"
+
+msgid ""
+"Source mesh does not have any faces, none of the 'Face' mappings can be used "
+"in this case"
+msgstr ""
+"Källmeshen har inga ytor; ingen av ”Face”-mappningarna kan därför användas i "
+"detta fall"
+
+msgid ""
+"Source or destination meshes do not have any edges, cannot transfer edge data"
+msgstr "Käll- eller målmesh har inga kanter och kan inte överföra kantdata"
+
+msgid ""
+"Source or destination meshes do not have any faces, cannot transfer corner "
+"data"
+msgstr "Käll- eller målmesh har inga ytor och kan inte överföra hörndata"
+
+msgid ""
+"Source or destination meshes do not have any faces, cannot transfer face data"
+msgstr "Käll- eller målmesh har inga ytor och kan inte överföra ytdata"
+
+msgid ""
+"Source or destination meshes do not have any vertices, cannot transfer "
+"vertex data"
+msgstr ""
+"Käll- eller målmesh har inga hörnpunkter och kan inte överföra hörnpunktsdata"
+
+#. :src: bpy.types.SpaceClipEditor
+msgid "Space Clip Editor"
+msgstr "Klippredigerarens område"
+
+#. :src: bpy.types.SpaceFileBrowser
+msgid "Space File Browser"
+msgstr "Filbläddrarens område"
+
+#. :src: bpy.types.SpaceGraphEditor
+msgid "Space Graph Editor"
+msgstr "Grafredigerarens område"
+
+#. :src: bpy.types.SpaceOutliner
+msgid "Space Outliner"
+msgstr "Outliners område"
+
+#. :src: bpy.types.SpacePreferences
+msgid "Space Preferences"
+msgstr "Inställningarnas område"
+
+#. :src: bpy.types.SpaceProject
+msgid "Space Project"
+msgstr "Projektområde"
+
+#. :src: bpy.types.SpaceSequenceEditor
+msgid "Space Sequence Editor"
+msgstr "Sekvensredigerarens område"
+
+#. :src: bpy.types.SpaceSpreadsheet
+msgid "Space Spreadsheet"
+msgstr "Kalkylbladets område"
+
+#. :src: bpy.types.SpaceTextEditor
+msgid "Space Text Editor"
+msgstr "Textredigerarens område"
+
+#. :src: bpy.types.SpaceUVEditor
+msgid "Space UV Editor"
+msgstr "UV-redigerarens område"
+
+#. :src: bpy.types.Space.type
+msgid "Space data type"
+msgstr "Typ av områdesdata"
+
+#. :src: bpy.types.Brush.use_adaptive_space
+msgid "Space daubs according to surface orientation instead of screen space"
+msgstr "Placera penselavtryck utifrån ytans riktning i stället för skärmrymden"
+
+#. :src: bpy.types.ParticleInstanceModifier.space
+msgid "Space to use for copying mesh data"
+msgstr "Koordinatutrymme som används för kopiering av meshdata"
+
+#. :src: bpy.types.NODE_OT_add_zone.input_node_type
+#. :src: bpy.types.NODE_OT_swap_zone.input_node_type
+msgid "Specifies the input node used by the created zone"
+msgstr "Anger den indatanod som används av den skapade zonen"
+
+#. :src: bpy.types.NODE_OT_add_zone.output_node_type
+#. :src: bpy.types.NODE_OT_swap_zone.output_node_type
+msgid "Specifies the output node used by the created zone"
+msgstr "Anger den utdatanod som används av den skapade zonen"
+
+#. :src: bpy.types.SpaceSpreadsheet
+msgid "Spreadsheet space data"
+msgstr "Kalkylbladets områdesdata"
+
+#. :src: bpy.types.BrushGpencilSettings.stroke_type
+msgctxt "GPencil"
+msgid "Stroke Mode"
+msgstr "Streckläge"
+
+#. :src: bpy.types.AnnotationStroke.display_mode:'2DIMAGE'
+msgid "Stroke is in 2D image/UV space"
+msgstr "Strecket är i 2D-bild-/UV-rymden"
+
+#. :src: bpy.types.AnnotationStroke.display_mode:'2DSPACE'
+msgid "Stroke is in 2D space, locked to the camera view"
+msgstr "Strecket är i 2D-rymden och låst till kameravyn"
+
+#. :src: bpy.types.AnnotationStroke.display_mode:'3DSPACE'
+msgid "Stroke is in 3D space"
+msgstr "Strecket är i 3D-rymden"
+
+msgid "System Overrides"
+msgstr "Systemåsidosättningar"
+
+#. :src: bpy.types.SpaceTextEditor.text
+msgid "Text displayed and edited in this space"
+msgstr "Text som visas och redigeras i detta redigerarläge"
+
+#. :src: bpy.types.SpaceTextEditor
+msgid "Text editor space data"
+msgstr "Textredigerarens områdesdata"
+
+msgid ""
+"The Cryptomatte node in render mode is only supported for scene compositing"
+msgstr "Cryptomatte-noden i renderingsläge stöds endast för scenkomposition"
+
+msgid "The File Output node is only supported for scene compositing"
+msgstr "File Output-noden stöds endast för scenkomposition"
+
+msgid "The Render Layers node is only supported for scene compositing"
+msgstr "Render Layers-noden stöds endast för scenkomposition"
+
+msgid "The Strip Info node is only supported for sequencer compositing"
+msgstr "Strip Info-noden stöds endast för sekvenserarkomposition"
+
+#. :src: bpy.types.Window.view_layer
+msgid "The active workspace view layer showing in the window"
+msgstr "Den aktiva arbetsytans visningslager som visas i fönstret"
+
+#. :src: bpy.types.ShaderNodeAttribute.attribute_type:'OBJECT'
+msgid ""
+"The attribute is associated with the object or mesh data-block itself, and "
+"its value is uniform"
+msgstr ""
+"Attributet är associerat med själva objektet eller meshdatablocket och "
+"värdet är enhetligt"
+
+msgid "The first node group output must have the Color type."
+msgstr "Det första nodgruppsutdatauttaget måste ha typen färg."
+
+msgid "The first output must be a geometry socket"
+msgstr "Det första utdatauttaget måste vara ett geometriuttag"
+
+msgid "The node group must have a geometry output socket"
+msgstr "Nodgruppen måste ha ett geometriutdatauttag"
+
+#. :src: bpy.types.RenderSettings.compositor_precision
+msgid "The precision of compositor intermediate result"
+msgstr "Precisionen för kompositörens mellanresultat"
+
+#. :src: bpy.types.BrushGpencilSettings.caps_type
+msgid "The shape of the start and end of the stroke"
+msgstr "Formen på streckets början och slut"
+
+msgid "The source mesh must have faces"
+msgstr "Källmeshen måste ha ytor"
+
+#. :src: bpy.types.AssetShelf.bl_space_type
+msgid ""
+"The space where the asset shelf will show up in. Ignored for popup asset "
+"shelves which can be displayed in any space."
+msgstr ""
+"Redigerarläget där resurshyllan visas. Ignoreras för resurshyllor i "
+"popupfönster, som kan visas i alla redigerarlägen."
+
+msgid "The string to find in the input string"
+msgstr "Strängen som ska sökas i indatasträngen"
+
+#. :src: Socket description from node group Hair Dynamics, file geometry_nodes_dynamics_assets.blend
+msgid "The surface mesh is deforming."
+msgstr "Ytmeshen deformeras."
+
+msgid "The target mesh must have faces"
+msgstr "Målmeshen måste ha ytor"
+
+msgid "The viewer does not work because the modifier is disabled"
+msgstr "Visningsnoden fungerar inte eftersom modifieraren är inaktiverad"
+
+msgid ""
+"The viewer does not work because the node group used by the modifier has no "
+"output"
+msgstr ""
+"Visningsnoden fungerar inte eftersom nodgruppen som används av modifieraren "
+"saknar utdata"
+
+#. :src: bpy.types.ThemeClipEditor
+msgid "Theme settings for the Movie Clip Editor"
+msgstr "Temainställningar för klippredigeraren"
+
+msgid ""
+"This node should be linked to the group output node, optionally through "
+"switch nodes."
+msgstr ""
+"Den här noden bör länkas till gruppens utdatanod, eventuellt genom "
+"växlarnoder."
+
+msgctxt "Operator"
+msgid "Toggle Dope Sheet"
+msgstr "Växla Dopeblad"
+
+#. :src: bpy.types.NODE_OT_toggle_viewer
+msgid "Toggle selected viewer node in compositor and geometry nodes"
+msgstr "Växla vald visningsnod i kompositören och geometrinoder"
+
+#. :src: bpy.types.OBJECT_OT_data_transfer
+msgctxt "Operator"
+msgid "Transfer Mesh Data"
+msgstr "Överför meshdata"
+
+#. :src: bpy.types.OBJECT_OT_datalayout_transfer
+msgctxt "Operator"
+msgid "Transfer Mesh Data Layout"
+msgstr "Överför layout för meshdata"
+
+#. :src: bpy.types.GeometryNodeDeformCurvesOnSurface
+msgid ""
+"Translate and rotate curves based on changes between the object's original "
+"and evaluated surface mesh"
+msgstr ""
+"Förskjut och rotera kurvor baserat på förändringar mellan objektets "
+"ursprungliga och utvärderade ytmesh"
+
+#. :src: bpy.types.SpaceUVEditor
+msgid "UV editor data for the image editor space"
+msgstr "UV-redigeringsdata för bildredigerarens område"
+
+msgid "Unsupported key: Unknown"
+msgstr "Tangent som inte stöds: okänd"
+
+#. :src: bpy.types.BooleanModifier.operand_type:'COLLECTION'
+msgid ""
+"Use a collection of mesh objects as the operand for the Boolean operation"
+msgstr "Använd en samling meshobjekt som operand för den booleska operationen"
+
+#. :src: bpy.types.BooleanModifier.operand_type:'OBJECT'
+msgid "Use a mesh object as the operand for the Boolean operation"
+msgstr "Använd ett meshobjekt som operand för den booleska operationen"
+
+#. :src: bpy.types.CorrectiveSmoothModifier.rest_source:'ORCO'
+msgid "Use base mesh vertex coordinates as the rest position"
+msgstr "Använd basmeshens hörnpunktskoordinater som viloposition"
+
+#. :src: bpy.types.BooleanModifier.collection
+msgid "Use mesh objects in this collection for Boolean operation"
+msgstr "Använd meshobjekt i denna samling för boolesk operation"
+
+#. :src: Menu item description from node group Attach Hair Curves to Surface, file procedural_hair_node_assets.blend
+#. :src: Menu item description from node group Generate Hair Curves, file procedural_hair_node_assets.blend
+msgid "Use the incoming surface input mesh"
+msgstr "Använder indataytmeshen"
+
+#. :src: Socket description from node group Trim Hair Curves, file procedural_hair_node_assets.blend
+msgid "Use the length input to fully replace the original length"
+msgstr "Använd längdindatan för att helt ersätta den ursprungliga längden"
+
+#. :src: bpy.types.NodeLink.multi_input_sort_id
+msgid ""
+"Used to sort multiple links coming into the same input. The highest ID is at "
+"the top."
+msgstr ""
+"Används för att sortera flera länkar som kommer in till samma indata. Det "
+"högsta ID-numret ligger överst."
+
+#. :src: bpy.types.CompositorNodeViewer
+#. :src: bpy.types.GeometryNodeViewer
+#. :src: bpy.types.TextureNodeViewer
+msgid "Viewer"
+msgstr "Visningsnod"
+
+#. :src: bpy.types.Image.source:'VIEWER'
+msgctxt "Image"
+msgid "Viewer"
+msgstr "Visningsnod"
+
+#. :src: bpy.types.ViewerPath
+#. :src: bpy.types.ViewerPath.path
+msgid "Viewer Path"
+msgstr "Visningssökväg"
+
+#. :src: bpy.types.VolumeToMeshModifier.threshold
+msgid "Voxels with a larger value are inside the generated mesh"
+msgstr "Voxlar med ett högre värde ligger inuti den genererade meshen"
+
+#. :src: bpy.types.AssetMetaData.use_preferred_import_method
+msgid ""
+"When \"Follow Asset or Preferences\" is selected for the import method in "
+"the Asset Browser, use the preferred import method of this asset"
+msgstr ""
+"När \"Följ resurs eller Inställningar\" har valts som importmetod i "
+"resursbläddraren används resursens föredragna importmetod"
+
+#. :src: bpy.types.SurfaceDeformModifier.is_bound
+msgid "Whether geometry has been bound to target mesh"
+msgstr "Om geometrin har kopplats till målmeshen"
+
+#. :src: bpy.types.FileAssetSelectIDFilter
+#. :src: bpy.types.FileAssetSelectParams.filter_asset_id
+msgid "Which asset types to show/hide, when browsing an asset library"
+msgstr ""
+"Vilka resurstyper som visas eller döljs vid bläddring i ett resursbibliotek"
+
+#. :src: bpy.types.FileAssetSelectParams.asset_catalog_visibility
+msgid "Which assets to show based on catalog filter"
+msgstr "Välj vilka resurser som visas utifrån katalogfiltret"
+
+#. :src: bpy.types.WireframeModifier
+msgid "Wireframe effect modifier"
+msgstr "Modifierare för trådramseffekt"
+
+#. :src: bpy.types.GeometryNodeForeachGeometryElementInput.paired_output
+#. :src: bpy.types.GeometryNodeRepeatInput.paired_output
+#. :src: bpy.types.GeometryNodeSimulationInput.paired_output
+#. :src: bpy.types.NodeClosureInput.paired_output
+msgid "Zone output node that this input node is paired with"
+msgstr "Zonutdatanod som denna indatanod är kopplad till"
+
+msgid "workspaces"
+msgstr "arbetsytor"
