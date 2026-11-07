@@ -5674,3 +5674,8 @@ alla 38 unika, lokalt kontrollerade och ännu ej importerade ändringar. Där
 nya batcher överlappar äldre poster innehåller den den senast granskade
 formuleringen och är klar för manuell import.
 
+Den ersättande samlade deltafilen
+`blender-ui-sv-reviewed-20261107-batches-684-690-combined.po` innehåller 44
+unika, lokalt kontrollerade och ännu ej importerade ändringar och är klar för
+manuell import. Den ersätter samlingsfilen för batch 684–689.
+
