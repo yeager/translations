@@ -5687,3 +5687,9 @@ Den ersättande samlade deltafilen
 unika, lokalt kontrollerade och ännu ej importerade ändringar och är klar för
 manuell import. Den ersätter samlingsfilen för batch 684–689.
 
+Den senaste samlade deltafilen
+`blender-ui-sv-reviewed-20261107-batches-684-691-combined.po` innehåller
+fortfarande 44 unika ändringar: batch 691 rättar befintliga
+tangentmappningsposter i stället för att lägga till nya. Den ersätter
+samlingsfilen för batch 684–690 och är klar för manuell import.
+
