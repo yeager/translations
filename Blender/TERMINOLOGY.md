@@ -487,6 +487,8 @@ Senast uppdaterad: 2026-11-06.
 | strand render | strårendering | Rendering av enskilda hår- eller partikelstrån. |
 | subframe | delbildruta | Simuleringssteg mellan hela bildrutor. |
 | Courant number | Couranttal | Dimensionslöst tal som begränsar partikelns relativa förflyttning per simuleringsteg. |
+| jitter (particle sampling) | slumpvariation | Kontrollerad slumpförskjutning vid sampling, inte nätverksfördröjning. |
+| keyed particle loop / keys step | upprepning av nycklar / steg mellan nycklar | Inställningar för partikelbanor med nycklar; avser inte tangentbordstangenter. |
 | particle path | partikelbana | Bana som en partikel följer över tid. |
 | distance model | avståndsmodell | Modell som styr hur ljudets styrka minskar med avståndet. |
 | subframe | delbildruta | Simuleringssteg mellan hela bildrutor. |
