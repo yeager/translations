@@ -7466,3 +7466,17 @@ separat manuell deltafil med endast dessa 20, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–866. Den innehåller 521 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 867 granskar 15 fel- och verktygssträngar för meshobjekt, interaktiv
+primitivskapning, dynamisk målning och redigeringsläge. Den skiljer
+konsekvent på *meshobjekt*, *meshelement*, *meshen*, *dukmesh* och
+*redigeringsmesh*. Batchen är lokalt klar men ännu inte importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-867-mesh-object-errors.po` är en
+separat manuell deltafil med endast dessa 15, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-867.po` är den aktuella
+samlade manuella deltafilen för batch 811–867. Den innehåller 530 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
