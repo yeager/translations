@@ -5156,3 +5156,12 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 616 granskar Grease Pencil-automaskering, avtagande och strecktjocklek.
+De svenska formerna är konsekventa med den etablerade pensel- och
+streckterminologin och har markerats som granskade. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-616-grease-pencil-automasking.po` och
+den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-616.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
