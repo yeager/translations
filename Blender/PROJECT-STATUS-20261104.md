@@ -7779,3 +7779,16 @@ separata manuella deltafiler med dessa lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–892. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 893 skiljer på Blenders formella data-/UI-term *Shader Node*, som blir
+*Shadernod*, och pluralformen *Shaders* i Node Wranglers sammanslagningskommando,
+som blir *skuggningar*. Batchen är lokalt klar och pushad till vårt arkiv,
+men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-893-shader-node-terminology.po` är en
+separat manuell deltafil med dessa två lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-893.po` är den aktuella
+samlade manuella deltafilen för batch 811–893. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
