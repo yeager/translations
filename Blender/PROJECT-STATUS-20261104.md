@@ -5763,3 +5763,11 @@ Den ersättande samlingsfilen
 114 unika, lokalt kontrollerade och ännu ej importerade poster. Den ersätter
 samlingen 680–699 och ryms inom den överenskomna uppladdningsgränsen.
 
+Batch 701 rättar två tidigare batchers lokala ordval efter kontroll mot hela
+Blender UI-katalogen: den etablerade UI-termen för *Preview* är
+*förhandsgranskning*, inte *förhandsvisning*. Den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-all-pending-batches-680-701.po` innehåller
+fortfarande 114 unika, lokalt kontrollerade poster, eftersom fem tidigare
+poster ersätts i stället för att läggas till. Den ersätter samlingen 680–700
+och ryms inom den överenskomna uppladdningsgränsen.
+
