@@ -282,10 +282,16 @@ precisionsläge *Full precision* blir *Fullständig precision*. Codec-, format-
 och produktnamn lämnas medvetet orörda. Deltafilen är lokalt kontrollerad och
 ännu inte importerad i Blender Translate.
 
+Batch 669 rättar två synliga hjälprader där källans slutpunkt saknades i den
+svenska texten. Namnet `Realize Instances` behålls som ett synligt tekniskt
+nodnamn; svlang markerar det och ordet *Instances* som ovanliga, men inte som
+svenska språkfel. Deltafilen är lokalt kontrollerad och ännu inte importerad i
+Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-668-combined.po` med 237
+`blender-ui-sv-reviewed-20261107-batches-626-669-combined.po` med 239
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–668.
+och innehåller dessutom batch 657–669.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
