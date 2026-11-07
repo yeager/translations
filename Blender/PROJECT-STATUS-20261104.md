@@ -8136,3 +8136,15 @@ separat manuell deltafil med den lokalt granskade ändringen.
 samlade manuella deltafilen för batch 811–919. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 920 anger den formella animationsetiketten *Action-slot* med
+produktnamnet `Action` bevarat. Batchen är lokalt klar, men ännu inte
+verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-920-action-slot-label.po` är en
+separat manuell deltafil med den lokalt granskade ändringen.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-920.po` är den aktuella
+samlade manuella deltafilen för batch 811–920. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
