@@ -4439,3 +4439,13 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 539 granskar sju poster för scenens renderare och visningsinställningar.
+Den behåller produktnamnen *Cycles* och *EEVEE*, rättar den felaktiga
+betydelsen *cykliska kurvor* till *Cycles-kurvor* och skriver om den otydliga
+enhetsbeskrivningen till idiomatisk svenska. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-539-scene-renderers-and-display.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-539.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+

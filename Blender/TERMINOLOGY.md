@@ -28,6 +28,7 @@ Senast uppdaterad: 2026-11-06.
 | cache layer | cachelager | Lager i en Blender-cachefil. Skriv ihop, utan bindestreck. |
 | prefetch | förhandsladdning | Läser in cache- eller animationsdata i förväg för snabbare uppdateringar. |
 | Cycles Procedural cache | Cycles Procedural-cachen | Särskild cache för Cycles procedurbaserade inläsning. |
+| Cycles / EEVEE | Cycles / EEVEE | Blenders egna renderare är produktnamn och lämnas oförändrade; sammansättningar skrivs exempelvis *Cycles-kurvor*. |
 | object path | objektsökväg | Sökväg för ett objekt i exempelvis en Alembic-arkivfil. |
 | bake (rendering/simulation) | baka / bakning | Behåll Blenders etablerade verb i procedur- och inställningstexter: *Baka till aktiv kamera*, *bakningsdata*. Det gäller inte köksbetydelsen. |
 | normal space | normalrymd | Val av koordinatrymd för normaldata vid bakning. De konkreta alternativen skrivs *tangentrymd*, *objektrymd* och *världsrymd*. |
