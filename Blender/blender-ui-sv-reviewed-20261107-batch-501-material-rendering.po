@@ -1,0 +1,157 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.Material.surface_render_method:'DITHERED'
+#. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.render_method:'DITHERED'
+#. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.render_method:'DITHERED'
+msgid "Dithered"
+msgstr "Dithrad"
+
+#. :src: bpy.types.Material.surface_render_method:'DITHERED'
+msgid ""
+"Allows for grayscale hashed transparency, and compatible with render passes "
+"and raytracing. Also known as deferred rendering."
+msgstr ""
+"Ger möjlighet till hashad transparens i gråskala och är kompatibel med "
+"renderingspass och strålspårning. Kallas även uppskjuten rendering."
+
+#. :src: bpy.types.Material.surface_render_method:'BLENDED'
+#. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.render_method:'BLENDED'
+#. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.render_method:'BLENDED'
+msgid "Blended"
+msgstr "Blandad"
+
+#. :src: bpy.types.Material.surface_render_method:'BLENDED'
+msgid ""
+"Allows for colored transparency, but incompatible with render passes and "
+"raytracing. Also known as forward rendering."
+msgstr ""
+"Ger möjlighet till färgad transparens, men är inkompatibel med "
+"renderingspass och strålspårning. Kallas även framåtriktad rendering."
+
+#. :src: bpy.types.Material.texture_paint_images
+msgid "Texture Slot Images"
+msgstr "Bilder i texturplatser"
+
+#. :src: bpy.types.Material.texture_paint_images
+msgid "Texture images used for texture painting"
+msgstr "Texturbilder som används för texturmålning"
+
+#. :src: bpy.types.Material.texture_paint_slots
+#. :src: bpy.types.LineStyleTextureSlots
+#. :src: bpy.types.VIEW3D_PT_slots_projectpaint
+#. :src: bpy.types.ParticleSettingsTextureSlots
+#: scripts/startup/bl_ui/space_view3d_toolbar.py:587
+msgid "Texture Slots"
+msgstr "Texturplatser"
+
+#. :src: bpy.types.Material.thickness_mode
+#. :src: bpy.types.SolidifyModifier.nonmanifold_thickness_mode
+#: source/blender/modifiers/intern/MOD_solidify.cc:91
+msgid "Thickness Mode"
+msgstr "Tjockleksläge"
+
+#. :src: bpy.types.Material.thickness_mode
+msgid "Approximation used to model the light interactions inside the object"
+msgstr ""
+"Approximation som används för att modellera ljusinteraktionerna inuti "
+"objektet"
+
+#. :src: bpy.types.Material.thickness_mode:'SPHERE'
+msgid ""
+"Approximate the object as a sphere whose diameter is equal to the thickness "
+"defined by the node tree"
+msgstr ""
+"Approximera objektet som en sfär vars diameter är lika med den tjocklek som "
+"definieras av nodträdet"
+
+#. :src: bpy.types.Material.thickness_mode:'SLAB'
+msgid "Slab"
+msgstr "Platta"
+
+#. :src: bpy.types.Material.thickness_mode:'SLAB'
+msgid ""
+"Approximate the object as an infinite slab of thickness defined by the node "
+"tree"
+msgstr ""
+"Approximera objektet som en oändlig platta med en tjocklek som definieras av "
+"nodträdet"
+
+#. :src: bpy.types.Material.use_backface_culling
+#. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.use_backface_culling
+#. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.use_backface_culling
+#. :src: bpy.types.ToolSettings.use_snap_backface_culling
+#. :src: bpy.types.View3DShading.show_backface_culling
+#: scripts/startup/bl_ui/properties_material.py:256
+#: scripts/startup/bl_ui/space_view3d_toolbar.py:1423
+msgid "Backface Culling"
+msgstr "Baksidesgallring"
+
+#. :src: bpy.types.Material.use_backface_culling
+#. :src: bpy.types.View3DShading.show_backface_culling
+msgid "Use back face culling to hide the back side of faces"
+msgstr "Använd baksidesgallring för att dölja ytornas baksidor"
+
+#. :src: bpy.types.Material.use_backface_culling_lightprobe_volume
+msgid "Light Probe Volume Backface Culling"
+msgstr "Baksidesgallring för volymljussond"
+
+#. :src: bpy.types.Material.use_backface_culling_lightprobe_volume
+msgid ""
+"Consider material single sided for light probe volume capture. Additionally "
+"helps rejecting probes inside the object to avoid light leaks."
+msgstr ""
+"Betrakta materialet som enkelsidigt när volymljussonden fångar in data. Det "
+"hjälper även till att avvisa sonder inuti objektet och undvika ljusläckage."
+
+#. :src: bpy.types.Material.use_backface_culling_shadow
+msgid "Shadow Backface Culling"
+msgstr "Baksidesgallring för skuggor"
+
+#. :src: bpy.types.Material.use_backface_culling_shadow
+msgid "Use back face culling when casting shadows"
+msgstr "Använd baksidesgallring när skuggor kastas"
+
+#. :src: bpy.types.Material.use_preview_world
+msgid "Preview World"
+msgstr "Förhandsgranskning av världen"
+
+#. :src: bpy.types.Material.use_preview_world
+msgid "Use the current world background to light the preview render"
+msgstr ""
+"Använd den aktuella världens bakgrund för att belysa förhandsgranskningen"
+
+#. :src: bpy.types.Material.use_thickness_from_shadow
+msgid "Thickness From Shadow"
+msgstr "Tjocklek från skugga"
+
+#. :src: bpy.types.Material.use_thickness_from_shadow
+msgid ""
+"Use the shadow maps from shadow casting lights to refine the thickness "
+"defined by the material node tree"
+msgstr ""
+"Använd skuggkartorna från ljuskällor med skuggverkan för att förfina den "
+"tjocklek som definieras av materialets nodträd"
