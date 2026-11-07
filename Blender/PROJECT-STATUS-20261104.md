@@ -4888,3 +4888,11 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 586 granskar B-Bones starthandtagstyp och hjälptexten för hur handtaget
+beräknas. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-586-bbone-start-handle.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-586.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
