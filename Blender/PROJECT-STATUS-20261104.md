@@ -57,6 +57,17 @@ nedladdningar. Den ersätter den krystade sammansättningen
 den etablerade termen *fjärranslutna resursbibliotek*. Deltafilen är lokalt
 kontrollerad men ännu inte importerad i Blender Translate.
 
+Batch 632 granskar *Clip Planes* i 3D-vyn och Grease Pencil Line Art. Den
+använder den etablerade grafiktermen *klippningsplan* i stället för
+*klippplan*, som får tre `p` i följd, och skriver ut relationen mellan det
+nära och det fjärran klippningsplanet i hjälptexten. Deltafilen är lokalt
+kontrollerad men ännu inte importerad i Blender Translate.
+
+Den aktuella samlingsfilen för batch 626–632 är
+`blender-ui-sv-reviewed-20261107-batches-626-632-combined.po` med 24
+granskade poster. Den är den rekommenderade filen för nästa enda manuella
+import och ersätter den tidigare samlingsfilen 626–630 för det ändamålet.
+
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
 skickat in samtliga sex delar manuellt till Blender Translate. Importresultat
