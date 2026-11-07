@@ -777,6 +777,7 @@ Senast uppdaterad: 2026-11-07.
 | execution time | körtid | Modifierarens uppmätta utvärderingstid, inte verkställighetstid. |
 | Geometry Nodes | geometrinoder | Blenders nodbaserade geometriarbetsflöde; svensk sammansättning. |
 | Grease Pencil stroke | Grease Pencil-streck | Synlig ritad linje i Grease Pencil, inte *slag* eller *stroke*. |
+| Action (animation data type) | Action | Formellt Blender-namn för ett animationsdatablock. Behåll namnet i UI och API-saktext; skriv sammansättningar som *Action-slot*, *Action-kanal* och *Action-nyckelbildruta*. Översätt bara det vanliga verbet eller substantivet *action* när det inte betecknar denna datatyp. |
 | bevel modifier | avfasningsmodifierare | Modifierare som rundar av meshens kanter och hörnpunkter. |
 
 | node socket | noduttag | Anslutningspunkt för in- eller utdata i en Blendernod. |
