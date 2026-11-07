@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-491.po`
-med 3 439 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-492.po`
+med 3 445 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -98,6 +98,14 @@ interpolering. Den behåller Blenders synliga typnamn *Lattice*, använder
 *gitter* i beskrivande text och lämnar algoritmnamnen *Catmull-Rom* och
 *BSpline* oförändrade. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-489-lattice-grid-and-interpolation.po`
+är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
+är inte verifierad i detta arkiv.
+
+Batch 492 granskar tio poster för ljusens skuggfiltrering. Den rättar den
+trasiga etiketten för *Shadow Jitter Overblur* till *Extra oskärpa vid
+skuggslumpning*, förklarar att Percentage Closer Filtering minskar
+kantartefakter och skiljer mjuk skuggstorlek från skuggkartans upplösning.
+Deltafilen `blender-ui-sv-reviewed-20261107-batch-492-light-shadow-filtering.po`
 är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
 är inte verifierad i detta arkiv.
 
