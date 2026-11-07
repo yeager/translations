@@ -8100,3 +8100,15 @@ separat manuell deltafil med den lokalt granskade ändringen.
 samlade manuella deltafilen för batch 811–916. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 917 ersätter det vaga lånet *tagga data* med den svenska
+åtgärdsbeskrivningen *märka data* i en API-relaterad förklaring. Batchen är
+lokalt klar, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-917-data-tagging.po` är en separat
+manuell deltafil med den lokalt granskade ändringen.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-917.po` är den aktuella
+samlade manuella deltafilen för batch 811–917. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
