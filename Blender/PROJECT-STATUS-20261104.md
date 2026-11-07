@@ -6778,3 +6778,12 @@ animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
 svenska åtgärder utanför datatypskontexten lämnas oförändrade. Batchen är
 lokalt kontrollerad och ännu inte importerad.
 
+Batch 811 granskar åtta etiketter och hjälprader för skulpteringsdetalj,
+meshredigeringsläge och meshfilter. Den normaliserar den gamla termen *nät*
+till Blenders etablerade datatypsnamn *Mesh*: *Meshdetaljer*,
+*Meshredigeringsläge*, *Meshfilter* och *Meshplan*. Batchen är lokalt klar
+men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-811-mesh-editing.po` är en separat
+manuell deltafil med endast dessa åtta nya, lokalt granskade poster.
+
