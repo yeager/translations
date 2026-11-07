@@ -5748,3 +5748,10 @@ projektets etablerade UI-termer. Den ersättande samlingsfilen
 110 unika, lokalt kontrollerade och ännu ej importerade poster. Den ersätter
 samlingen 680–697 och ryms inom den överenskomna uppladdningsgränsen.
 
+Batch 699 gör den synliga operatörstermen konsekvent: *previews* är
+*förhandsvisningar* i Blender UI, inte *förhandsgranskningar*. Den ersättande
+samlingsfilen `blender-ui-sv-reviewed-20261107-all-pending-batches-680-699.po`
+innehåller 113 unika, lokalt kontrollerade och ännu ej importerade poster.
+Den ersätter samlingen 680–698 och ryms inom den överenskomna
+uppladdningsgränsen.
+
