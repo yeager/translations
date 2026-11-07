@@ -359,6 +359,7 @@ Senast uppdaterad: 2026-11-07.
 | object bounding box | begränsningsbox | Objektets tredimensionella gränsvolym i objektrymd. Skilj från *begränsningsruta* i filmspårning och bildredigering. |
 | bevel | avfasning / fasning | *Avfasning* för UI-egenskapen och modifieraren, *fasning* kan beskriva resultatet i löpande text. |
 | Bevel Modifier | avfasningsmodifierare | Blender-modifierarens belagda UI- och manualform. |
+| modifier space | modifierarens koordinatrum | Modifierarens egna koordinatsystem. Använd konstruktionen *i modifierarens koordinatrum*, inte den otydliga sammansättningen *modifieringsutrymme*. |
 | Bevel Vertices / Bevel Edges | Fasa hörnpunkter / Fasa kanter | Synliga operatörsnamn. |
 | boolean operation | boolesk operation | Används för meshkombinationerna union, differens och snitt. |
 | manifold | manifold | Etablerad topologiterm i 3D-modellering; inte *fördelningsrör*. |

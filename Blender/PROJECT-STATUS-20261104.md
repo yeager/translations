@@ -7805,3 +7805,16 @@ separat manuell deltafil med dessa tre lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–894. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 895 granskar två modifierarhjälptexter. Den använder den naturliga
+formen *modifierarens resultat* och normaliserar *modifier space* till
+*modifierarens koordinatrum*. Batchen är lokalt klar och pushad till vårt
+arkiv, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-895-modifier-space-and-result.po` är
+en separat manuell deltafil med dessa två lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-895.po` är den aktuella
+samlade manuella deltafilen för batch 811–895. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
