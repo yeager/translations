@@ -5856,6 +5856,12 @@ underindelning, deformation och partikelinstanser använder nu konsekvent
 Deltafilen `blender-ui-sv-reviewed-20261107-batch-710-mesh-modifiers.po` är
 lokalt granskad och ännu inte importerad.
 
+Efter batch 712 ersätts den tidigare samlingsfilen av
+`blender-ui-sv-reviewed-20261107-pending-batches-705-712.po`. Den innehåller
+90 unika ändringar, samtliga ombaserade mot exporten från 7 november och
+fortfarande långt under Weblates gräns på 1 000 strängar. Detta är den
+rekommenderade enda importfilen för batch 705–712.
+
 Batch 711 rättar fyra återstående synliga sammansättningar inom shader- och
 textur-nodsystemet: *shadernoder*, *texturnod* och *shaderskriptnod*.
 Produktnamn och osäkra generatorsträngar har lämnats oförändrade. Deltafilen

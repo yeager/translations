@@ -1,0 +1,484 @@
+# Blender UI Swedish review delta – rebased against export downloaded 2026-11-07 14:28 CET
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
+"PO-Revision-Date: 2026-11-07 16:35+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. :src: bpy.types.NODE_MT_nw_merge_shaders_menu
+msgid "Merge Selected Nodes using Shaders"
+msgstr "Sammanfoga valda noder med hjälp av shadernoder"
+
+msgctxt "ID"
+msgid "Mesh"
+msgstr "Mesh"
+
+#. :src: bpy.types.Attribute.domain:'EDGE'
+#. :src: bpy.types.SpreadsheetTableIDGeometry.attribute_domain:'EDGE'
+msgid "Mesh edge"
+msgstr "Meshkant"
+
+#. :src: bpy.types.Attribute.domain:'FACE'
+#. :src: bpy.types.SpreadsheetTableIDGeometry.attribute_domain:'FACE'
+msgid "Mesh face"
+msgstr "Meshyta"
+
+#. :src: bpy.types.Attribute.domain:'CORNER'
+#. :src: bpy.types.SpreadsheetTableIDGeometry.attribute_domain:'CORNER'
+msgid "Mesh face corner"
+msgstr "Meshythörn"
+
+#. :src: bpy.types.BakeSettings.use_lores_mesh
+msgid "Low Resolution Mesh"
+msgstr "Lågupplöst mesh"
+
+#. :src: bpy.types.Mesh
+msgid "Mesh data-block defining geometric surfaces"
+msgstr "Meshdatablock som definierar geometriska ytor"
+
+#. :src: bpy.types.Mesh.has_custom_normals
+msgid "True if there is custom normal data for this mesh"
+msgstr "Sant om meshen har anpassade normaldata"
+
+#. :src: bpy.types.Mesh.loop_triangles
+#. :src: bpy.types.MeshLoopTriangles
+msgid "Tessellation of mesh polygons into triangles"
+msgstr "Tessellering av meshens polygoner till trianglar"
+
+#. :src: bpy.types.Mesh.loops
+msgid "Loops of the mesh (face corners)"
+msgstr "Meshens slingor (ythörn)"
+
+#. :src: bpy.types.Mesh.texco_mesh
+msgid "Derive texture coordinates from another mesh"
+msgstr "Hämta texturkoordinater från en annan mesh"
+
+#. :src: bpy.types.Brush.mesh_automasking_settings
+#. :src: bpy.types.Paint.mesh_automasking_settings
+msgid "Mesh Automasking Settings"
+msgstr "Inställningar för automatisk maskning av mesh"
+
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'MESH_TO_VOLUME'
+#: source/blender/modifiers/intern/MOD_mesh_to_volume.cc:188
+msgid "Mesh to Volume"
+msgstr "Mesh till volym"
+
+#. :src: bpy.types.MeshToVolumeModifier
+msgid "Mesh to Volume Modifier"
+msgstr "Mesh-till-volymmodifierare"
+
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'VOLUME_TO_MESH'
+#: source/blender/modifiers/intern/MOD_volume_to_mesh.cc:192
+msgid "Volume to Mesh"
+msgstr "Volym till mesh"
+
+#. :src: bpy.types.VolumeToMeshModifier
+msgid "Volume to Mesh Modifier"
+msgstr "Volym-till-meshmodifierare"
+
+#. :src: bpy.types.MirrorModifier.use_bisect_axis
+msgid "Cuts the mesh across the mirror plane"
+msgstr "Skär meshen tvärs över spegelplanet"
+
+#. :src: bpy.types.GeometryNodeMeshToCurve
+msgid "Mesh to Curve"
+msgstr "Mesh till kurva"
+
+#. :src: bpy.types.GeometryNodeMeshToPoints
+msgid "Mesh to Points"
+msgstr "Mesh till punkter"
+
+#. :src: bpy.types.GeometryNodeSubdivideMesh
+msgid "Subdivide Mesh"
+msgstr "Dela upp mesh"
+
+#. :src: bpy.types.WM_OT_obj_import.validate_meshes
+#. :src: bpy.types.WM_OT_usd_import.validate_meshes
+msgid "Validate Meshes"
+msgstr "Validera mesh"
+
+#. :src: bpy.types.WM_OT_stl_import.use_mesh_validate
+msgid "Validate Mesh"
+msgstr "Validera mesh"
+
+#. :src: bpy.types.Light.use_nodes
+msgid "Use shader nodes to render the light"
+msgstr "Använd shadernoder för att rendera ljuset"
+
+#. :src: bpy.types.World.use_nodes
+msgid "Use shader nodes to render the world"
+msgstr "Använd shadernoder för att rendera världen"
+
+#. :src: bpy.types.Modifier.type:'MESH_SEQUENCE_CACHE'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'MESH_SEQUENCE_CACHE'
+msgid "Deform the mesh or curve using an external mesh cache in Alembic format"
+msgstr ""
+"Deformera meshen eller kurvan med hjälp av en extern meshcache i Alembic-"
+"format"
+
+#. :src: bpy.types.MeshCacheModifier.deform_mode:'INTEGRATE'
+msgid ""
+"Integrate deformation from this modifier's input with the mesh-cache "
+"coordinates (useful for shape keys)"
+msgstr ""
+"Integrera deformation från denna modifierares indata med "
+"meshcachekoordinaterna (användbart för formnycklar)"
+
+#. :src: bpy.types.GeometryNodeSetMeshNormal.mode:'TANGENT_SPACE'
+msgid ""
+"Store normals in a deformation dependent custom transformation space. This "
+"method is slower, but can be better when subsequent operations change the "
+"mesh without handling normals specifically."
+msgstr ""
+"Lagra normaler i ett deformationsberoende anpassat transformationsrum. "
+"Metoden är långsammare, men kan vara bättre när efterföljande operationer "
+"ändrar meshen utan att hantera normaler specifikt."
+
+#. :src: bpy.types.MeshToVolumeModifier.interior_band_width
+#: source/blender/nodes/geometry/nodes/node_geo_mesh_to_density_grid.cc:32
+#: source/blender/nodes/geometry/nodes/node_geo_mesh_to_volume.cc:64
+msgid "Width of the gradient inside of the mesh"
+msgstr "Bredden på gradienten inuti meshen"
+
+#. :src: bpy.types.NodeSocketGeometry
+msgid "Geometry Node Socket"
+msgstr "Geometrinoduttag"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.attribute_domain
+msgid ""
+"Attribute domain used by the geometry nodes modifier to create an attribute "
+"output"
+msgstr ""
+"Attributdomän som geometrinodmodifieraren använder för att skapa "
+"attribututdata"
+
+#. :src: bpy.types.NodesModifierWarning
+msgid "Warning created during evaluation of a geometry nodes modifier"
+msgstr "Varning som skapades vid utvärdering av en geometrinodmodifierare"
+
+#. :src: bpy.types.NODE_OT_connect_to_output.run_in_geometry_nodes
+msgid "Run in Geometry Nodes Editor"
+msgstr "Kör i geometrinodredigeraren"
+
+#. :src: bpy.types.OBJECT_OT_simulation_nodes_cache_bake
+msgid "Bake simulations in geometry nodes modifiers"
+msgstr "Beräkna simuleringar i geometrinodmodifierare"
+
+#. :src: bpy.types.OBJECT_OT_simulation_nodes_cache_delete
+msgid "Delete cached/baked simulations in geometry nodes modifiers"
+msgstr "Ta bort cachade/beräknade simuleringar i geometrinodmodifierare"
+
+#. :src: bpy.types.NODE_OT_test_inlining_shader_nodes
+msgid "Create a new inlined shader node tree as is consumed by renderers"
+msgstr "Skapa ett nytt infogat shadernodträd som används av renderare"
+
+#: scripts/startup/bl_operators/anim.py:118
+msgid "Could not find material or light using Shader Node Tree - {:s}"
+msgstr ""
+"Det gick inte att hitta något material eller ljus som använder shadernodträd "
+"– {:s}"
+
+#: scripts/startup/bl_operators/anim.py:130
+msgid "Could not find scene using Compositor Node Tree - {:s}"
+msgstr ""
+"Det gick inte att hitta någon scen som använder kompositionsnodträd – {:s}"
+
+#: source/blender/nodes/composite/node_composite_util.cc:23
+msgid "Not a compositor node tree"
+msgstr "Inte ett kompositionsnodträd"
+
+#: source/blender/nodes/shader/node_shader_util.cc:37
+msgid "Not a shader node tree"
+msgstr "Inte ett shadernodträd"
+
+#: source/blender/nodes/texture/node_texture_util.cc:41
+msgid "Not a texture node tree"
+msgstr "Inte ett texturnodträd"
+
+#. :src: bpy.types.Strip.content_end
+msgid "Timeline frame where underlying strip source ends"
+msgstr "Bildruta på tidslinjen där den underliggande remskällan slutar"
+
+#. :src: bpy.types.Strip.content_start
+msgid "Timeline frame where underlying strip source begins"
+msgstr "Bildruta på tidslinjen där den underliggande remskällan börjar"
+
+#. :src: bpy.types.Strip.left_handle
+msgid "Timeline frame of the left handle and the start frame of the strip"
+msgstr "Bildruta på tidslinjen för vänster handtag och remsans startbildruta"
+
+msgid "Mesh"
+msgstr "Mesh"
+
+#. :src: bpy.types.BakeSettings.use_lores_mesh
+msgid "Calculate heights against unsubdivided low resolution mesh"
+msgstr "Beräkna höjder mot ett lågupplöst mesh utan underindelning"
+
+#. :src: bpy.types.Mesh.texture_mesh
+msgid "Use another mesh for texture indices (vertex indices must be aligned)"
+msgstr ""
+"Använd en annan mesh för texturindex (hörnpunktsindex måste vara justerade)"
+
+#. :src: bpy.types.MeshSkinVertexLayer
+msgid "Mesh Skin Vertex Layer"
+msgstr "Meshens Skin-hörnpunktslager"
+
+#. :src: bpy.types.Modifier.type:'BEVEL'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'BEVEL'
+msgid ""
+"Generate sloped corners by adding geometry to the mesh's edges or vertices"
+msgstr ""
+"Skapa avfasade hörn genom att lägga till geometri till meshens kanter eller "
+"hörnpunkter"
+
+#. :src: bpy.types.Modifier.type:'MULTIRES'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'MULTIRES'
+msgid ""
+"Subdivide the mesh in a way that allows editing the higher subdivision levels"
+msgstr ""
+"Dela upp meshen på ett sätt som gör det möjligt att redigera de högre "
+"indelningsnivåerna"
+
+#. :src: bpy.types.Modifier.type:'MESH_DEFORM'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'MESH_DEFORM'
+msgid "Deform using a different mesh, which acts as a deformation cage"
+msgstr ""
+"Deformera med hjälp av en annan mesh, som fungerar som en deformationsbur"
+
+#. :src: bpy.types.Modifier.type:'SMOOTH'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'SMOOTH'
+msgid "Smooth the mesh by flattening the angles between adjacent faces"
+msgstr ""
+"Jämna ut meshen genom att platta till vinklarna mellan intilliggande ytor"
+
+#. :src: bpy.types.Modifier.type:'CORRECTIVE_SMOOTH'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'CORRECTIVE_SMOOTH'
+msgid "Smooth the mesh while still preserving the volume"
+msgstr "Jämna ut meshen samtidigt som volymen bevaras"
+
+#. :src: bpy.types.Modifier.type:'SURFACE_DEFORM'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'SURFACE_DEFORM'
+msgid "Transfer motion from another mesh"
+msgstr "Överför rörelse från en annan mesh"
+
+#. :src: bpy.types.Modifier.type:'WARP'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'WARP'
+msgid ""
+"Warp parts of a mesh to a new location in a very flexible way thanks to 2 "
+"specified objects"
+msgstr ""
+"Förvräng delar av en mesh till en ny plats på ett mycket flexibelt sätt med "
+"hjälp av två angivna objekt"
+
+#. :src: bpy.types.Modifier.type:'PARTICLE_INSTANCE'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'PARTICLE_INSTANCE'
+msgid "Duplicate mesh at the location of particles"
+msgstr "Duplicera mesh på partiklarnas position"
+
+#. :src: bpy.types.BevelModifier.vmesh_method
+msgid "The method to use to create the mesh at intersections"
+msgstr "Metoden som ska användas för att skapa meshen vid korsningar"
+
+#. :src: bpy.types.BuildModifier.use_reverse
+msgid "Deconstruct the mesh instead of building it"
+msgstr "Demontera meshen i stället för att bygga den"
+
+#. :src: bpy.types.DisplaceModifier.direction:'RGB_TO_XYZ'
+msgid "Use the texture's RGB values to displace the mesh in the XYZ direction"
+msgstr "Använd texturens RGB-värden för att förskjuta meshen i XYZ-riktningen"
+
+#. :src: bpy.types.ExplodeModifier.show_alive
+msgid "Show mesh when particles are alive"
+msgstr "Visa mesh när partiklarna är aktiva"
+
+#. :src: bpy.types.ExplodeModifier.show_dead
+msgid "Show mesh when particles are dead"
+msgstr "Visa mesh när partiklarna är döda"
+
+#. :src: bpy.types.FreestyleLineStyle.use_nodes
+msgid "Use shader nodes for the line style"
+msgstr "Använd shadernoder för linjestilen"
+
+#. :src: bpy.types.NodeTree.type:'SHADER'
+msgid "Shader nodes"
+msgstr "Shadernoder"
+
+#. :src: bpy.types.TextureNode
+#. :src: bpy.types.ThemeNodeEditor.texture_node
+msgid "Texture Node"
+msgstr "Texturnod"
+
+#. :src: bpy.types.NODE_OT_shader_script_update
+msgid "Update shader script node with new sockets and options from the script"
+msgstr "Uppdatera shaderskriptnoden med nya uttag och alternativ från skriptet"
+
+#. :src: bpy.types.BezierSplinePoint.weight_softbody
+#. :src: bpy.types.LatticePoint.weight_softbody
+#. :src: bpy.types.SplinePoint.weight_softbody
+msgid "Softbody goal weight"
+msgstr "Målvikt för mjuk kropp"
+
+#. :src: bpy.types.ClothSettings.shrink_min
+msgid "Factor by which to shrink cloth"
+msgstr "Faktor för att krympa tyget"
+
+#. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'ACES 1.3 sRGB'
+#. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'ACES 1.3 sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.from_color_space:'ACES 1.3 sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.to_color_space:'ACES 1.3 sRGB'
+msgid ""
+"ACES 1.3 view transform for sRGB. May be used to convert backplates or matte "
+"paintings to the working space."
+msgstr ""
+"ACES 1.3-visningstransformering för sRGB. Kan användas för att konvertera "
+"bakgrunder eller mattmålningar till arbetsfärgrymden."
+
+#. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'ACES 2.0 sRGB'
+#. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'ACES 2.0 sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.from_color_space:'ACES 2.0 sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.to_color_space:'ACES 2.0 sRGB'
+msgid ""
+"ACES 2.0 view transform for sRGB. May be used to convert backplates or matte "
+"paintings to the working space."
+msgstr ""
+"ACES 2.0-visningstransformering för sRGB. Kan användas för att konvertera "
+"bakgrunder eller mattmålningar till arbetsfärgrymden."
+
+#. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'AgX Base sRGB'
+#. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'AgX Base sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.from_color_space:'AgX Base sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.to_color_space:'AgX Base sRGB'
+msgid ""
+"AgX view transform for sRGB. May be used to convert backplates or matte "
+"paintings to the working space."
+msgstr ""
+"AgX-visningstransformering för sRGB. Kan användas för att konvertera "
+"bakgrunder eller mattmålningar till arbetsfärgrymden."
+
+#. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'Filmic sRGB'
+#. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'Filmic sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.from_color_space:'Filmic sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.to_color_space:'Filmic sRGB'
+msgid ""
+"Filmic view transform for sRGB. May be used to convert backplates or matte "
+"paintings to the working space."
+msgstr ""
+"Filmic-visningstransformering för sRGB. Kan användas för att konvertera "
+"bakgrunder eller mattmålningar till arbetsfärgrymden."
+
+#. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'Khronos PBR Neutral sRGB'
+#. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'Khronos PBR Neutral sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.from_color_space:'Khronos PBR Neutral sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.to_color_space:'Khronos PBR Neutral sRGB'
+msgid ""
+"Khronos PBR Neutral view transform for sRGB. May be used to convert "
+"backplates or matte paintings to the working space."
+msgstr ""
+"Khronos PBR Neutral-visningstransformering för sRGB. Kan användas för att "
+"konvertera bakgrunder eller mattmålningar till arbetsfärgrymden."
+
+#. :src: bpy.types.ColorManagedViewSettings.is_hdr
+msgid "The display and view transform supports high dynamic range colors"
+msgstr ""
+"Visningsenheten och visningstransformeringen stöder färger med högt "
+"dynamiskt omfång"
+
+#. :src: bpy.types.ColorManagedViewSettings.support_emulation
+msgid ""
+"The display and view transform supports automatic emulation for another "
+"display device, using the display color spaces mechanism in OpenColorIO v2 "
+"configurations"
+msgstr ""
+"Visningsenheten och visningstransformeringen stöder automatisk emulering av "
+"en annan visningsenhet med visningsfärgrymder i OpenColorIO v2-"
+"konfigurationer"
+
+#. :src: bpy.types.WindowManager.extension_repo_filter
+msgid "Filter by Repository"
+msgstr "Filtrera efter förråd"
+
+#. :src: bpy.types.WindowManager.extension_repo_filter
+msgid "Filter extensions by repository"
+msgstr "Filtrera tillägg efter förråd"
+
+#. :src: bpy.types.WindowManager.extension_use_filter
+msgid "Filter Extensions by Tags & Repository"
+msgstr "Filtrera tillägg efter taggar och förråd"
+
+#. :src: bpy.types.LineStyleColorModifier_AlongStroke.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_CreaseAngle.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_Curvature_3D.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_DistanceFromCamera.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_DistanceFromObject.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_Material.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_Noise.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_Tangent.color_ramp
+msgid "Color ramp used to change line color"
+msgstr "Färggradient som används för att ändra linjefärg"
+
+#. :src: bpy.types.LineStyleColorModifier_Material.use_ramp
+msgid "Use color ramp to map the BW average into an RGB color"
+msgstr "Använd en färggradient för att mappa BW-medelvärdet till en RGB-färg"
+
+#. :src: bpy.types.USERPREF_MT_extensions_active_repo
+msgid "Active Repository"
+msgstr "Aktivt förråd"
+
+#. :src: bpy.types.CompositorNodeConvertToDisplay
+msgid ""
+"Convert from scene linear to display color space, with a view transform and "
+"look for tone mapping"
+msgstr ""
+"Konvertera från scenlinjär färgrymd till visningsfärgrymd med "
+"visningstransformering och utseende för tonmappning"
+
+#. :src: bpy.types.CompositorNodeConvertToDisplay.view_settings
+msgid "Color management view transform settings"
+msgstr "Inställningar för färghanteringens visningstransformering"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install_files
+msgid "Install extensions from files into a locally managed repository"
+msgstr "Installera tillägg från filer i ett lokalt hanterat förråd"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_upgrade_all.use_active_only
+msgid "Only upgrade the active repository"
+msgstr "Uppgradera endast det aktiva förrådet"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_refresh_all.use_active_only
+msgid "Only refresh the active repository"
+msgstr "Uppdatera endast det aktiva förrådet"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_sync_all.use_active_only
+msgid "Only sync the active repository"
+msgstr "Synkronisera endast det aktiva förrådet"
+
+#. :src: bpy.types.PREFERENCES_OT_extension_repo_add
+msgid "Add a new repository used to store extensions"
+msgstr "Lägg till ett nytt förråd som används för att lagra tillägg"
+
+#. :src: bpy.types.SCREEN_OT_userpref_show.section:'EXTENSIONS'
+#. :src: bpy.types.Preferences.active_section:'EXTENSIONS'
+msgid ""
+"Browse, install and manage extensions from remote and local repositories"
+msgstr "Bläddra, installera och hantera tillägg från fjärr- och lokala förråd"
+
+#. :src: bpy.types.SEQUENCER_OT_image_strip_add.set_view_transform
+#. :src: bpy.types.SEQUENCER_OT_movie_strip_add.set_view_transform
+msgid "Set appropriate view transform based on media color space"
+msgstr "Ställ in lämplig visningstransformering baserat på mediets färgrymd"
+
+#. :src: bpy.types.USERPREF_PT_extensions_repos
+#: scripts/addons_core/bl_pkg/bl_extension_ui.py:2106
+msgid "Repositories"
+msgstr "Förråd"
+
+#. :src: bpy.types.UserExtensionRepo.source:'SYSTEM'
+msgid "Read-only repository provided by the system"
+msgstr "Skrivskyddat förråd som tillhandahålls av systemet"
