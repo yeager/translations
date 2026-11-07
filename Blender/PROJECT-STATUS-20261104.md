@@ -5620,3 +5620,10 @@ Den samlade deltafilen
 `blender-ui-sv-reviewed-20261107-all-changes-batches-287-625.po` innehåller
 alla lokalt granskade ändringar i batch 287–625 och är klar för manuell import.
 
+Batch 684 granskar Asset Shelf-regionens rubrik. *Asset Shelf* är Blenders
+snabbåtkomstyta för resurser, och *Header* är en gränssnittsregion. Därför
+ersätts den oprecisa texten *Rubrik för tillgångshylla* med *Resurshyllans
+huvudrad*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-684-asset-shelf-header.po` är lokalt
+kontrollerad och ännu inte importerad i Blender Translate.
+
