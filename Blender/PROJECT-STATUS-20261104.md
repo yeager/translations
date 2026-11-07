@@ -5093,3 +5093,11 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 609 granskar Curve Profile-punktens beskrivning. *Bana* används här för
+profilens definierande path och ger en korrekt, neutral UI-beskrivning.
+Deltafilen `blender-ui-sv-reviewed-20261107-batch-609-curve-profile-point.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-609.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
