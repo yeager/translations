@@ -156,10 +156,16 @@ Den ersätter den svårlästa sammansättningen *samlingsrelaterade inställning
 med den tydliga formuleringen *inställningar relaterade till samlingen*.
 Deltafilen är lokalt kontrollerad men ännu inte importerad i Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–648 är
-`blender-ui-sv-reviewed-20261107-batches-626-648-combined.po` med 73
+Batch 649 normaliserar två Dope Sheet-filter för relaterade animationsdata.
+*Ljusprobsrelaterade animationsdata* och *linjestilsrelaterade
+animationsdata* följer de omgivande filtrens struktur och Blenders etablerade
+termer *ljusprob* och *linjestil*. Deltafilen är lokalt kontrollerad men ännu
+inte importerad i Blender Translate.
+
+Den aktuella samlingsfilen för batch 626–649 är
+`blender-ui-sv-reviewed-20261107-batches-626-649-combined.po` med 75
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–647 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–648 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
