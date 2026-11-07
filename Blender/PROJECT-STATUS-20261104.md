@@ -5219,3 +5219,13 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 623 granskar objektens föräldrarelationer till objekt, gitter,
+hörnpunkter och ben. Den följer den etablerade termen *föräldrarelation*;
+hörnpunktsindexens särskilda hjälptext lämnas för separat kontextgranskning.
+Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-623-object-parenting-types.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-623.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
