@@ -162,10 +162,15 @@ animationsdata* följer de omgivande filtrens struktur och Blenders etablerade
 termer *ljusprob* och *linjestil*. Deltafilen är lokalt kontrollerad men ännu
 inte importerad i Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–649 är
-`blender-ui-sv-reviewed-20261107-batches-626-649-combined.po` med 75
+Batch 650 rättar Outlinerns etikett för *Library Overrides*. Den tidigare
+formen *biblioteksåsidosättanden* ersätts med den korrekta och konsekventa
+pluralformen *biblioteksåsidosättningar*. Deltafilen är lokalt kontrollerad
+men ännu inte importerad i Blender Translate.
+
+Den aktuella samlingsfilen för batch 626–650 är
+`blender-ui-sv-reviewed-20261107-batches-626-650-combined.po` med 76
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–648 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–649 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
