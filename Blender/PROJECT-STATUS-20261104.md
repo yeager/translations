@@ -6941,3 +6941,8 @@ klar men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-826-mesh-export.po` är en separat
 manuell deltafil med endast dessa tio nya, lokalt granskade poster.
 
+`blender-ui-sv-reviewed-20261108-pending-batches-811-826.po` är den aktuella
+samlade manuella deltafilen för batch 811–826. Den innehåller 135 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
+
