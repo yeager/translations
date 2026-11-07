@@ -6835,3 +6835,8 @@ klar men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-816-action-datatypes.po` är en separat
 manuell deltafil med endast dessa tre nya, lokalt granskade poster.
 
+`blender-ui-sv-reviewed-20261108-pending-batches-811-816.po` är den aktuella
+samlade manuella deltafilen för batch 811–816. Den innehåller 54 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
+
