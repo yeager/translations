@@ -6264,6 +6264,18 @@ Deltafilen är lokalt granskad och ännu inte importerad.
 748–759-samlingen. Den innehåller 52 unika, lokalt granskade och ännu inte
 importerade ändringar.
 
+Batch 761 granskar 18 avgränsade Annotation-/Grease Pencil- och nodposter.
+Den skiljer det ritade resultatet *streck* från en användarhandling med
+pensel, normaliserar trådrammodifierarens hjälptext och använder termbasens
+*nodindata*/*nodutdata* för nodernas tekniska dataflöde. Deltafilen har
+passerat `msgfmt` och `l10n-lint`; `svlang` flaggar endast de avsiktliga
+projektspecifika sammansättningarna och en falsk V2-varning i en nominal
+etikett. Den är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-748-761.po` ersätter
+748–760-samlingen. Den innehåller 70 unika, lokalt granskade och ännu inte
+importerade ändringar.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna

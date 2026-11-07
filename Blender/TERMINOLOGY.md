@@ -473,6 +473,8 @@ Senast uppdaterad: 2026-11-07.
 | shadow terminator / geometry, normal, shading offset | skuggterminator / geometriförskjutning, normalförskjutning, skuggningsförskjutning | Cycles gräns mellan ljus och mörker på lågpolygeometri. Offset-inställningarna minskar artefakter genom att justera strålarnas utgångspunkt eller skugggränsen. |
 | texture slot | texturplats | Plats som kopplar en textur till ett material eller målningsverktyg. |
 | mesh loop | meshloop | Intern meshtopologisk struktur vid ett ythörn; *looptriangel* används för triangulerat resultat. |
+| node input / output | nodindata / nodutdata | Nodernas tekniska dataflöde. Använd inte den äldre formen *inmatning* eller *utmatning* i RNA-etiketter. |
+| file output item | filutdataobjekt | Objekt som representerar en utdatafil i kompositorns nodstruktur. |
 | UV loop layer | UV-looplager | UV-lager som hör till meshens loopar. Använd *UV-looplager*, inte *UV-loopskikt*. |
 | remesh / remesher | ommeshning / ommeshare | Skapar om meshen med ny topologi. Ange geometri vid behov: *voxelommeshare* eller *fyrhörningsommeshare*. |
 | Remesh Modifier | ommeshningsmodifierare | Modifierare som skapar om meshens topologi. Skriv sammansättningen ihop; ordet är en projektspecifik teknisk term och kan saknas i allmänna ordlistor. |
@@ -778,6 +780,7 @@ Senast uppdaterad: 2026-11-07.
 | execution time | körtid | Modifierarens uppmätta utvärderingstid, inte verkställighetstid. |
 | Geometry Nodes | geometrinoder | Blenders nodbaserade geometriarbetsflöde; svensk sammansättning. |
 | Grease Pencil stroke | Grease Pencil-streck | Synlig ritad linje i Grease Pencil, inte *slag* eller *stroke*. |
+| Annotation / Grease Pencil stroke | streck | Använd *streck* för det ritade resultatet i Annotation- och Grease Pencil-data. *Penseldrag* används bara när användarens penselhandling uttryckligen avses. |
 | Action (animation data type) | Action | Formellt Blender-namn för ett animationsdatablock. Behåll namnet i UI och API-saktext; skriv sammansättningar som *Action-slot*, *Action-kanal* och *Action-nyckelbildruta*. Översätt bara det vanliga verbet eller substantivet *action* när det inte betecknar denna datatyp. |
 | bevel modifier | avfasningsmodifierare | Modifierare som rundar av meshens kanter och hörnpunkter. |
 
