@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-486.po`
-med 3 338 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-487.po`
+med 3 376 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -292,6 +292,15 @@ samt UV-rutnät. Den normaliserar *varaktighet*, *genereringstyp* och
 *UV-mappningar*, men behåller filformatnamn som OpenEXR, WebP och FFmpeg.
 Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-486-image-formats-and-generation.po`
+är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
+är inte verifierad i detta arkiv.
+
+Batch 487 granskar 41 poster för bilddata i minne, packade filer,
+bildpunkter, renderingsplatser, UV-sömmarginaler, bildkällor, UDIM-plattor
+och stereo-/flervysformat. Den använder *visare för komponeringsnoder* och
+förenklar bildsekvensbeskrivningen. Den enda l10n-lint-notisen gäller den avsiktligt
+oförändrade formatetiketten *Stereo 3D*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-487-image-buffers-views-and-sources.po`
 är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
 är inte verifierad i detta arkiv.
 
