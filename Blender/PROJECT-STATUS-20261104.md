@@ -6000,3 +6000,8 @@ inte laddas upp igen. Batch 724 är den nästa lokalt kontrollerade, ännu ej
 importerade filen; en ny källexport behövs innan fler delbatcher säkert kan
 sättas samman till en gemensam importfil.
 
+Batch 725 granskar sju explicita egenskaper för nodin- och utdata. Formella
+synliga noder behåller Blenders etablerade term *utgångsnod*, medan verkliga
+dataobjekt använder *indata* och *utdata*: exempelvis *slutningsindataobjekt*
+och *filutdataobjekt*. Batchen är lokalt kontrollerad och ännu inte importerad.
+
