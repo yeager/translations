@@ -7367,3 +7367,16 @@ separat manuell deltafil med endast dessa 20, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–859. Den innehåller 464 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 860 normaliserar 15 meshsträngar för normaler, kanter, underindelning,
+triangulering och redigeringsverktyg. Den använder bland annat *meshnormal*,
+*meshkant*, *meshyta*, *meshdatablock*, *meshplan*, *torusmesh* och *ytmesh*.
+Batchen är lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-860-mesh-normal-and-tools.po` är en
+separat manuell deltafil med endast dessa 15, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-860.po` är den aktuella
+samlade manuella deltafilen för batch 811–860. Den innehåller 472 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
