@@ -4847,3 +4847,11 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 581 granskar beskrivningen av *Curve Tip*, noden som läser data från
+varje hårkurvas spets. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-581-curve-tip-description.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-581.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
