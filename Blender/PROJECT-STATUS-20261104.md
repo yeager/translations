@@ -5732,3 +5732,11 @@ använder *armatur* för skelettobjekt, *trådram* för `Wire`-visningsläget oc
 101 unika, lokalt kontrollerade och ännu ej importerade poster. Den ersätter
 samlingen 680–695 och ryms inom den överenskomna uppladdningsgränsen.
 
+Batch 697 granskar FFmpeg-panelens mediaformat. En *container* är här en
+mediebehållare, inte ett oförändrat engelskt UI-ord. *Mux* används som den
+tekniska processen *muxning*, med sammansättningarna *muxningshastighet* och
+*muxpaketstorlek*. Den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-all-pending-batches-680-697.po` innehåller
+107 unika, lokalt kontrollerade och ännu ej importerade poster. Den ersätter
+samlingen 680–696 och ryms inom den överenskomna uppladdningsgränsen.
+
