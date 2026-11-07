@@ -5818,8 +5818,8 @@ Batch 708, som även har granskats oberoende, normaliserar modifierar- och
 geometrinodgruppen: *Mesh till volym*, *Volym till mesh*, kurv- och
 punktkonverteringar, automaskering och meshvalidering. Den samlade
 deltafilen `blender-ui-sv-reviewed-20261107-pending-batches-705-708.po`
-innehåller 34 unika, lokalt kontrollerade och ännu ej importerade ändringar.
-Den ersätter samlingen 705–707.
+innehåller 34 unika, lokalt kontrollerade kandidater. Den ersätter samlingen
+705–707, men måste ombaseras mot en färsk serverexport före uppladdning.
 
 Efter importen konstaterades att den lokala huvudexporten
 `/Users/danielnylander/Downloads/blender-ui-ui-sv.po` är äldre än flera
