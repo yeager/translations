@@ -6649,6 +6649,15 @@ Blender Translate.
 manuella importfilen. Den innehåller 271 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 799 normaliserar 32 texter om Blenders datatyper *Mesh object* och
+*Mesh data*. De använder konsekvent *meshobjekt* och *meshdata*. I kommandon
+som avser ett enskilt element används *meshelement*, inte *meshobjekt*.
+Batchen är lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-799.po` är den aktuella
+manuella importfilen. Den innehåller 303 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 `REVIEW-COVERAGE-20261108.md` dokumenterar den första reproducerbara
 täckningsmätningen för den lokala UI-filen. Av 40 427 aktuella poster är
 6 794 täckta av arkiverade granskningsbatcher, vilket motsvarar 16,81 %.
