@@ -6599,6 +6599,17 @@ Translate.
 manuella importfilen. Den innehåller 215 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 794 granskar 23 UI- och feltexter där Blenders datatyp eller objektklass
+`mesh` tidigare översatts som *nätobjekt*. Den projektspecifika termen är
+*mesh* och sammansättningen *meshobjekt*. Åtgärden omfattar Boolean,
+konvertering, skulptering, UV-projektion och objektverktyg, men lämnar den
+separata betydelsen *mesh items* utanför. Batchen är lokalt klar men ännu
+inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-794.po` är den aktuella
+manuella importfilen. Den innehåller 238 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 `REVIEW-COVERAGE-20261108.md` dokumenterar den första reproducerbara
 täckningsmätningen för den lokala UI-filen. Av 40 427 aktuella poster är
 6 794 täckta av arkiverade granskningsbatcher, vilket motsvarar 16,81 %.
