@@ -7939,3 +7939,17 @@ separat manuell deltafil med dessa lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–904. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 905 granskar åtta tekniska meshsträngar i bland annat Rigify,
+Freestyle, modifierare och geometrinoder. Den använder de etablerade
+formerna *widgetmesh*, *meshdeformering*, *meshsekvenscache*,
+*meshinläsning* och *provta*. Batchen är lokalt klar och pushad till vårt
+arkiv, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-905-mesh-technical-compounds.po` är
+en separat manuell deltafil med dessa lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-905.po` är den aktuella
+samlade manuella deltafilen för batch 811–905. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
