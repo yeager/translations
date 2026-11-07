@@ -3700,3 +3700,10 @@ invertera* till *Slinga och invertera*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-455-brush-deformation-and-cloth.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
+Batch 456 granskar 29 poster för penselns avtagandekurvor, kurvskulptering,
+streck och deformationsmål. Den återanvänder kurvförinställningarnas svenska
+värden mellan pensel-, UV- och modifierarkontexter och bekräftar
+*streckförhållande* samt *strecklängd* i penselinställningarna. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-456-brush-curves-and-dashes.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
