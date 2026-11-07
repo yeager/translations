@@ -356,8 +356,8 @@ inte *borste*. Deltafilen är lokalt kontrollerad och ännu inte importerad i
 Blender Translate.
 
 Nästa separata importfil är
-`blender-ui-sv-reviewed-20261107-batches-680-682-combined.po` med 21 unika
-granskade poster. Den innehåller bara batch 680–682 och överlappar alltså inte
+`blender-ui-sv-reviewed-20261107-batches-680-683-combined.po` med 32 unika
+granskade poster. Den innehåller bara batch 680–683 och överlappar alltså inte
 den redan importerade samlingsfilen för batch 626–679.
 
 Batch 683 fortsätter penselterminologin i nio UI- och hjälpposter. Den ersätter
