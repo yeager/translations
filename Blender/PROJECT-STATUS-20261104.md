@@ -8076,3 +8076,15 @@ separat manuell deltafil med dessa lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–914. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 915 sammanfogar fem sammansättningar kring datatypen *mesh*:
+*meshobjekt* och *meshsymmetri*. Batchen är lokalt klar, men ännu inte
+verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-915-mesh-compounds.po` är en separat
+manuell deltafil med dessa lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-915.po` är den aktuella
+samlade manuella deltafilen för batch 811–915. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
