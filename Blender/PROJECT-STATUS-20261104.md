@@ -303,6 +303,16 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 520 granskar den entydiga Mesh-inställningen *Remesh Mode* och
+bekräftar den etablerade UI-termen *ommeshningsläge*. Den närliggande
+strängen *Loops* lämnas medvetet för senare källverifiering, eftersom samma
+okontekstualiserade sträng också används i partikelpanelen. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-520-mesh-remesh-mode.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-520.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade
