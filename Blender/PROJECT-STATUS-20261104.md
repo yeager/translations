@@ -5688,6 +5688,12 @@ raycast-hjälper konsekventa. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-693-xr-teleportation-context.po` är
 lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 694 rättar återstående modifier- och verktygsbeskrivningar där Blenders
+skelettobjekt *armature* felaktigt hade översatts med byggtermen *armering*.
+Den använder konsekvent *armatur* och *armaturobjekt*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-694-armature-modifiers-and-tools.po`
+är lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
 Den samlade deltafilen
 `blender-ui-sv-reviewed-20261107-batches-684-689-combined.po` innehåller
 alla 38 unika, lokalt kontrollerade och ännu ej importerade ändringar. Där
