@@ -7217,3 +7217,17 @@ manuell deltafil med endast dessa 17, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–848. Den innehåller 397 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 849 normaliserar 18 skulpteringssträngar för detaljer, masker,
+ytuppsättningar och meshfilter. Den använder konsekvent *mesh*, *meshen*,
+*meshens topologi* och *meshobjekt* i stället för den generiska
+geometribetydelsen *nät*. Batchen är lokalt klar men ännu inte importerad i
+Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-849-mesh-sculpt-actions.po` är en
+separat manuell deltafil med endast dessa 18, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-849.po` är den aktuella
+samlade manuella deltafilen för batch 811–849. Den innehåller 409 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
