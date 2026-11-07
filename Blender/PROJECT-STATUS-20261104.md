@@ -7437,3 +7437,18 @@ manuell deltafil med endast dessa 40, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–864. Den innehåller 518 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 865 granskar 24 operatorer i Blenders Mesh-redigeringsläge: rensning,
+slingverktyg, normaler, primitiv, urval och utjämning. Den normaliserar bland
+annat *meshdata*, *meshslinga*, *kantslinga*, *meshplan*, *meshytor* och
+*meshelement*, samt använder *kubmesh*, *konmesh*, *cylindermesh* och
+*Suzanne-mesh* där typen är en del av verktygets objekt. Batchen är lokalt
+klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-865-mesh-edit-operators.po` är en
+separat manuell deltafil med endast dessa 24, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-865.po` är den aktuella
+samlade manuella deltafilen för batch 811–865. Den innehåller 521 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
