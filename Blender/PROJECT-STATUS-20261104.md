@@ -5785,6 +5785,12 @@ hjälptexter för resurser, tygsimulering, kollision och Shrinkwrap. De
 allmänna formerna *nät*, *basnät* och *målnät* ersätts där de uttryckligen
 avser Blenders datatyp. Den ersättande samlingsfilen
 `blender-ui-sv-reviewed-20261107-all-pending-batches-680-704.po` innehåller
-122 unika, lokalt kontrollerade och ännu ej importerade poster. Den ersätter
-samlingen 680–703 och ryms inom den överenskomna uppladdningsgränsen.
+122 unika, lokalt kontrollerade poster. Den ersätter samlingen 680–703 och
+ryms inom den överenskomna uppladdningsgränsen.
+
+Den 7 november 2026 verifierades importen av samlingsfilen för batch
+680–704 i Blender Translate. Weblate behandlade **122** strängar, hoppade
+över **36**, hittade inga saknade strängar och uppdaterade **86**. Det
+bevisar uppladdning och serverbearbetning, men inte projektets separata
+granskning eller framtida merge/utgivning.
 
