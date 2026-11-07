@@ -6486,6 +6486,14 @@ Batchen är lokalt klar men ännu inte importerad.
 manuella importfilen. Den innehåller 147 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 782 granskar tre tekniska nodtexter: en zonindatanod, en indatasträng
+och en längdindata. *Input* är därmed konsekvent *indata* i den faktiska
+nod- och uttagskontexten. Batchen är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-782.po` är den aktuella
+manuella importfilen. Den innehåller 149 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
