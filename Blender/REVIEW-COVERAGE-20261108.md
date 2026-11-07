@@ -19,10 +19,10 @@ dubbletter eller ändringar som inte längre finns i den nedladdade filen.
 
 | Mått | Poster |
 | --- | ---: |
-| Unika poster i alla arkiverade granskningsfiler | 10 050 |
-| Poster som fortfarande finns i källfilen | 9 382 |
-| Granskningstäckning i den lokala källfilen | 23,21 % |
-| Återstående för full radvis täckning | 31 045 |
+| Unika poster i alla arkiverade granskningsfiler | 10 089 |
+| Poster som fortfarande finns i källfilen | 9 421 |
+| Granskningstäckning i den lokala källfilen | 23,30 % |
+| Återstående för full radvis täckning | 31 006 |
 
 ## Tolkning
 
