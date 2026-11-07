@@ -4839,3 +4839,11 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 580 granskar beskrivningen av *Curve Segment*, noden som läser data om
+varje kurvpunkts föregående kurvsegment. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-580-curve-segment-description.po` och
+den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-580.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
