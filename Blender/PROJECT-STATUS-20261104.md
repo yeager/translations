@@ -4814,3 +4814,12 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 577 granskar nodnamnet *Braid Hair Curves*. Den bekräftar
+*Fläta hårkurvor* för verktyget som formar befintliga hårkurvor till flätor
+med guidekurvor. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-577-braid-hair-curves.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-577.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
