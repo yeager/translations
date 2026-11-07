@@ -8038,3 +8038,16 @@ separat manuell deltafil med dessa lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–911. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 912 normaliserar fyra tekniska sammansättningar: *meshcache*,
+*cacheinformation*, *shaderprogram* och *cacheläsare*. Terminologilistan
+anger nu även pluralformen *meshar* för Blender-datatypen *mesh*. Batchen är
+lokalt klar, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-912-technical-compounds.po` är en
+separat manuell deltafil med dessa lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-912.po` är den aktuella
+samlade manuella deltafilen för batch 811–912. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.

@@ -138,6 +138,7 @@ Senast uppdaterad: 2026-11-07.
 | internal clipboard | interna urklippet | UI-funktion, inte operativsystemets urklipp. |
 | rigid body | styv kropp | Fysiksimuleringens etablerade term. |
 | shader | shader | Behåll den etablerade facktermen i UI och nodnamn. |
+| shader program | shaderprogram | Program som körs för shaderberäkning; skriv sammansättningen ihop. |
 | Shader Node | shadernod | Formell Blender-nodtyp. Skriv sammansättningen ihop: *shadernod*, *shadernoder*, *shadernodträd* och *shadernoduttag*. När *shader* i stället avser skuggningsberäkningen används den svenska saktermen *skuggning*. |
 | anti-aliasing | kantutjämning | Synlig inställning för text- och bildåtergivning. |
 | Subpixel Anti-Aliasing | Kantutjämning på subpixelnivå | Följer den aktuella svenska UI-etiketten. |
@@ -164,7 +165,7 @@ Senast uppdaterad: 2026-11-07.
 | geometry color attribute | geometrifärgattribut | Färgattribut på geometri. Skriv ihop; undvik den särskrivna formen *geometri färgattribut*. |
 | 8-bit value | 8-bitarsvärde | Värdetyp i RNA/API-kontext. Skriv ihop med bindestrecket som i *8-bitarsvärde*. |
 | Byte Color | Bytefärg | Datatyp för färgattribut. Skriv ihop och behåll den tekniska typen *Byte*. |
-| mesh | mesh | Blenders datatyp och samlingstyp. Behåll *mesh* även i plural; använd exempelvis *Huvudmesh*, *Samling av mesh*, *kubmesh* och *meshliknande*, inte *nät* eller *maskor*. |
+| mesh | mesh / meshar | Blenders datatyp och samlingstyp. Använd *mesh* i singular och *meshar* i plural; exempelvis *Huvudmesh*, *Samling av meshar*, *kubmesh* och *meshliknande*. Ersätt inte med *nät* eller *maskor*. |
 | mesh cache / mesh filter / mesh plane | meshcache / meshfilter / meshplan | UI-namn och tekniska sammansättningar för Blenders meshtyp. Skriv ihop dem och ersätt inte *mesh* med *nät*. |
 | mesh seam / mesh island / mesh instance | meshsöm / meshö / meshinstans | Tekniska delar och instanser av Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätsöm*, *nätö* eller *nätinstans*. |
 | mesh attribute / mesh normal | meshattribut / meshnormal | Tekniska data som hör till Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätattribut* eller *nätnormal*. |
