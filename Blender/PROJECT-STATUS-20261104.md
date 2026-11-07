@@ -5083,3 +5083,13 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 608 granskar den delade reglagetexten för ljusstyrka. Den tidigare
+översättningen begränsade felaktigt reglaget till texturer, trots att den även
+används för färgmappning. Texten är nu den kontextneutrala *Justera
+ljusstyrkan*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-608-shared-brightness-control.po` och
+den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-608.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
