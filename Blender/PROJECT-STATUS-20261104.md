@@ -274,6 +274,16 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 517 granskar tolv Text Curve-poster för objektets X-/Y-förskjutning och
+text som inte ryms i en textruta. Den ersätter den stela formen
+*Textruteöverflöde* med *Överflöde i textruta*, använder idiomatiskt
+*flöda över* och gör hjälptexten om textens beteende tydligare. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-517-text-curve-overflow.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-517.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade
