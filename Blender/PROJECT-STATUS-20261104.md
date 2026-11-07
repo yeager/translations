@@ -7664,6 +7664,20 @@ Blender Translate.
 en separat manuell deltafil med denna lokalt granskade ändring.
 
 `blender-ui-sv-reviewed-20261108-pending-batches-811-881.po` är den aktuella
-samlade manuella deltafilen för batch 811–881. Den innehåller 683 poster,
+samlade manuella deltafilen för batch 811–881. Den innehåller 682 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
+
+Batch 882 normaliserar tolv UI-strängar i modifierar- och geometriområdet.
+Den behåller Blenders formella datatyp *mesh* i stället för ”nät”, medan
+*rutnät* lämnas oförändrat där källtermen är *grid*. Batchen är lokalt klar
+och pushad till vårt arkiv, men ännu inte verifierad som importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-882-mesh-terminology.po` är en
+separat manuell deltafil med dessa tolv, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-882.po` är den aktuella
+samlade manuella deltafilen för batch 811–882. Den innehåller 682 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
