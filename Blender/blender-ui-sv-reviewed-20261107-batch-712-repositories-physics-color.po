@@ -1,0 +1,143 @@
+# Blender UI Swedish review delta – extensions, simulation cloth and display transforms
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
+"PO-Revision-Date: 2026-11-07 17:50+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. :src: bpy.types.BezierSplinePoint.weight_softbody
+#. :src: bpy.types.LatticePoint.weight_softbody
+#. :src: bpy.types.SplinePoint.weight_softbody
+msgid "Softbody goal weight"
+msgstr "Målvikt för mjuk kropp"
+
+#. :src: bpy.types.ClothSettings.shrink_min
+msgid "Factor by which to shrink cloth"
+msgstr "Faktor för att krympa tyget"
+
+#. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'ACES 1.3 sRGB'
+#. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'ACES 1.3 sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.from_color_space:'ACES 1.3 sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.to_color_space:'ACES 1.3 sRGB'
+msgid "ACES 1.3 view transform for sRGB. May be used to convert backplates or matte paintings to the working space."
+msgstr "ACES 1.3-visningstransformering för sRGB. Kan användas för att konvertera bakgrunder eller mattmålningar till arbetsfärgrymden."
+
+#. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'ACES 2.0 sRGB'
+#. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'ACES 2.0 sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.from_color_space:'ACES 2.0 sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.to_color_space:'ACES 2.0 sRGB'
+msgid "ACES 2.0 view transform for sRGB. May be used to convert backplates or matte paintings to the working space."
+msgstr "ACES 2.0-visningstransformering för sRGB. Kan användas för att konvertera bakgrunder eller mattmålningar till arbetsfärgrymden."
+
+#. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'AgX Base sRGB'
+#. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'AgX Base sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.from_color_space:'AgX Base sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.to_color_space:'AgX Base sRGB'
+msgid "AgX view transform for sRGB. May be used to convert backplates or matte paintings to the working space."
+msgstr "AgX-visningstransformering för sRGB. Kan användas för att konvertera bakgrunder eller mattmålningar till arbetsfärgrymden."
+
+#. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'Filmic sRGB'
+#. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'Filmic sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.from_color_space:'Filmic sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.to_color_space:'Filmic sRGB'
+msgid "Filmic view transform for sRGB. May be used to convert backplates or matte paintings to the working space."
+msgstr "Filmic-visningstransformering för sRGB. Kan användas för att konvertera bakgrunder eller mattmålningar till arbetsfärgrymden."
+
+#. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'Khronos PBR Neutral sRGB'
+#. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'Khronos PBR Neutral sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.from_color_space:'Khronos PBR Neutral sRGB'
+#. :src: bpy.types.CompositorNodeConvertColorSpace.to_color_space:'Khronos PBR Neutral sRGB'
+msgid "Khronos PBR Neutral view transform for sRGB. May be used to convert backplates or matte paintings to the working space."
+msgstr "Khronos PBR Neutral-visningstransformering för sRGB. Kan användas för att konvertera bakgrunder eller mattmålningar till arbetsfärgrymden."
+
+#. :src: bpy.types.ColorManagedViewSettings.is_hdr
+msgid "The display and view transform supports high dynamic range colors"
+msgstr "Visningsenheten och visningstransformeringen stöder färger med högt dynamiskt omfång"
+
+#. :src: bpy.types.ColorManagedViewSettings.support_emulation
+msgid "The display and view transform supports automatic emulation for another display device, using the display color spaces mechanism in OpenColorIO v2 configurations"
+msgstr "Visningsenheten och visningstransformeringen stöder automatisk emulering av en annan visningsenhet med visningsfärgrymder i OpenColorIO v2-konfigurationer"
+
+#. :src: bpy.types.WindowManager.extension_repo_filter
+msgid "Filter by Repository"
+msgstr "Filtrera efter förråd"
+
+#. :src: bpy.types.WindowManager.extension_repo_filter
+msgid "Filter extensions by repository"
+msgstr "Filtrera tillägg efter förråd"
+
+#. :src: bpy.types.WindowManager.extension_use_filter
+msgid "Filter Extensions by Tags & Repository"
+msgstr "Filtrera tillägg efter taggar och förråd"
+
+#. :src: bpy.types.LineStyleColorModifier_AlongStroke.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_CreaseAngle.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_Curvature_3D.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_DistanceFromCamera.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_DistanceFromObject.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_Material.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_Noise.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_Tangent.color_ramp
+msgid "Color ramp used to change line color"
+msgstr "Färggradient som används för att ändra linjefärg"
+
+#. :src: bpy.types.LineStyleColorModifier_Material.use_ramp
+msgid "Use color ramp to map the BW average into an RGB color"
+msgstr "Använd en färggradient för att mappa BW-medelvärdet till en RGB-färg"
+
+#. :src: bpy.types.USERPREF_MT_extensions_active_repo
+msgid "Active Repository"
+msgstr "Aktivt förråd"
+
+#. :src: bpy.types.CompositorNodeConvertToDisplay
+msgid "Convert from scene linear to display color space, with a view transform and look for tone mapping"
+msgstr "Konvertera från scenlinjär färgrymd till visningsfärgrymd med visningstransformering och utseende för tonmappning"
+
+#. :src: bpy.types.CompositorNodeConvertToDisplay.view_settings
+msgid "Color management view transform settings"
+msgstr "Inställningar för färghanteringens visningstransformering"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install_files
+msgid "Install extensions from files into a locally managed repository"
+msgstr "Installera tillägg från filer i ett lokalt hanterat förråd"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_upgrade_all.use_active_only
+msgid "Only upgrade the active repository"
+msgstr "Uppgradera endast det aktiva förrådet"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_refresh_all.use_active_only
+msgid "Only refresh the active repository"
+msgstr "Uppdatera endast det aktiva förrådet"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_sync_all.use_active_only
+msgid "Only sync the active repository"
+msgstr "Synkronisera endast det aktiva förrådet"
+
+#. :src: bpy.types.PREFERENCES_OT_extension_repo_add
+msgid "Add a new repository used to store extensions"
+msgstr "Lägg till ett nytt förråd som används för att lagra tillägg"
+
+#. :src: bpy.types.SCREEN_OT_userpref_show.section:'EXTENSIONS'
+#. :src: bpy.types.Preferences.active_section:'EXTENSIONS'
+msgid "Browse, install and manage extensions from remote and local repositories"
+msgstr "Bläddra, installera och hantera tillägg från fjärr- och lokala förråd"
+
+#. :src: bpy.types.SEQUENCER_OT_image_strip_add.set_view_transform
+#. :src: bpy.types.SEQUENCER_OT_movie_strip_add.set_view_transform
+msgid "Set appropriate view transform based on media color space"
+msgstr "Ställ in lämplig visningstransformering baserat på mediets färgrymd"
+
+#. :src: bpy.types.USERPREF_PT_extensions_repos
+#: scripts/addons_core/bl_pkg/bl_extension_ui.py:2106
+msgid "Repositories"
+msgstr "Förråd"
+
+#. :src: bpy.types.UserExtensionRepo.source:'SYSTEM'
+msgid "Read-only repository provided by the system"
+msgstr "Skrivskyddat förråd som tillhandahålls av systemet"

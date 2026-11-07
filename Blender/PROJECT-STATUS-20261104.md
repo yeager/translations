@@ -5869,3 +5869,10 @@ utgår från exporten hämtad den 7 november och ryms inom Blender Translates
 överenskomna gräns på 1 000 strängar per import. De fyra delbatcherna finns
 kvar för spårbarhet; samlingsfilen är den rekommenderade importfilen.
 
+Batch 712 normaliserar 26 lokalt kontrollerade UI-texter i tre avgränsade
+områden: extensions använder konsekvent *tilläggsförråd*, tygsimuleringen
+skiljs från Dynamic Paints *duk*, och färghanteringen använder
+*visningstransformering* samt *färggradient* enligt termbasen. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-712-repositories-physics-color.po` är
+lokalt granskad och ännu inte importerad.
+
