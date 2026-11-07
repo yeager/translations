@@ -7325,3 +7325,17 @@ separat manuell deltafil med endast dessa 17, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–856. Den innehåller 459 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 857 granskar fyra Shrinkwrap-beskrivningar. *Shrinkwrap* behålls som
+Blenders funktionsnamn, medan verbfraserna beskriver att objektet anpassas
+tätt över målet. Den felaktiga förpackningsmetaforen *krympfilm* ersätts med
+en tekniskt korrekt Shrinkwrap-jämförelse. Batchen är lokalt klar men ännu
+inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-857-shrinkwrap-descriptions.po` är en
+separat manuell deltafil med endast dessa fyra, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-857.po` är den aktuella
+samlade manuella deltafilen för batch 811–857. Den innehåller 462 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
