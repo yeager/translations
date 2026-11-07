@@ -4480,3 +4480,14 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 543 granskar 19 Scene-poster för uppspelningssynkronisering,
+bildrutehoppning, transformeringsorientering, enheter, ljud, simulering,
+förhandsgranskning och färghantering. Den ersätter den oidiomatiska etiketten
+*Tappa rutor* med *Hoppa över bildrutor* och normaliserar
+*bildruteintervall* i stället för den fysiska betydelsen *ram*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-543-scene-playback-and-ranges.po` och
+den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-543.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
