@@ -7897,3 +7897,17 @@ separat manuell deltafil med dessa två lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–901. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 902 normaliserar felmeddelandets Mantaflow-etikett från engelska
+*Fluid:* till svenska *Vätska:* så att den följer de närliggande
+cachemeddelandena. Den tekniska termen *cachesökväg* och platshållaren `%s`
+är oförändrade. Batchen är lokalt klar och pushad till vårt arkiv, men ännu
+inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-902-fluid-label.po` är en separat
+manuell deltafil med den lokalt granskade ändringen.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-902.po` är den aktuella
+samlade manuella deltafilen för batch 811–902. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
