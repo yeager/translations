@@ -2,6 +2,15 @@
 
 Senaste lokala arbete: 7 november 2026.
 
+Batch 626 granskar fyra `Library Override`-poster i Blender UI:s RNA- och
+menykontext. Den normaliserar den synliga huvudformen och de tre beskrivande
+strängarna till *biblioteksåsidosättning*, medan närliggande
+operatörsspecifika former lämnas orörda. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-626-library-override-rna.po` har
+kontrollerats med `msgfmt`, l10n-lint, diffkontroll och Gitleaks. Den väntar
+på import i Blender Translate; aktuell API-nyckel var inte tillgänglig i
+nyckelringen vid kontrollen.
+
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
 skickat in samtliga sex delar manuellt till Blender Translate. Importresultat
