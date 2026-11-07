@@ -7408,3 +7408,18 @@ manuell deltafil med endast dessa åtta, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–862. Den innehåller 479 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 863 normaliserar 27 grundläggande meshsträngar i modifierare,
+vätskesimulering, datadelning och booleska operationer. Den skiljer konsekvent
+Blenders datatyp *mesh* från ett allmänt nät och använder bland annat *meshen*,
+*meshyta*, *meshcache*, *meshö*, *meshtopologi*, *meshobjekt* och
+*manifold-mesh*. Batchen är lokalt klar men ännu inte importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-863-mesh-core.po` är en separat
+manuell deltafil med endast dessa 27, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-863.po` är den aktuella
+samlade manuella deltafilen för batch 811–863. Den innehåller 479 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
