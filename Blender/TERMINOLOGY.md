@@ -132,7 +132,7 @@ Senast uppdaterad: 2026-11-07.
 | Kinematic Constraint | kinematisk begränsning | IK-begränsningens allmänna typ. Använd *kedjelängd*, *lösningsiterationer*, *polmål* och *polvinkel* i dess riggningsinställningar. |
 | Swing / Twist | svängning / vridning | Rotationens svängnings- och vridningsdel i Quaternion- och constraint-kontext. |
 | envelope (armature) | omslutning | Armaturens volym runt ett ben som kan användas vid viktning. |
-| Action | Action | Blenders datatyp för en animation. Behåll namnet i Action-begränsningens tekniska hjälptexter. |
+| Action | Action | Blenders formella datatyp för animeringsdata. Behåll namnet i UI och API-saktext. |
 | duplicate and rename | Duplicera och byt namn | Operatör för kopiering av ben med efterföljande namnbyte. |
 | working plane | arbetsplan | Etablerad term i Blenders TBX-ordlista. |
 | internal clipboard | interna urklippet | UI-funktion, inte operativsystemets urklipp. |
@@ -381,10 +381,10 @@ Senast uppdaterad: 2026-11-07.
 | root texture coordinates | rottexturkoordinater | Texturkoordinater från rotpartiklarnas positioner. Skriv sammansättningen ihop. |
 | keyframe range | nyckelbildruteintervall | Intervall av bildrutor mellan animeringens nyckelbildrutor. |
 | driver (animation) | drivrutin | Funktions- eller uttrycksbaserad styrning av ett animerat egenskapsvärde. Använd *drivrutinstyp*, *drivrutinsvariabel*, *drivrutinsmål* och *drivrutins-F-kurva*. Skilj via sammanhang från enhetens drivrutin, men använd samma svenska huvudterm. |
-| action | åtgärd | Animeringsdata i Blender. Behåll *Action* i formella datatyp- eller API-namn. |
+| action | åtgärd | Behåll *åtgärd* när ordet är ett vanligt substantiv eller verb; skriv *Action* när det betecknar Blenders datatyp. |
 | slot | slot | Etablerat i den aktuella Blender-dokumentationen och UI-kontexten. Böj som *en slot*, *slotten*, *slotar* och *slotarnas*. |
-| action slot | åtgärdsslot | Slot som väljer den delmängd av en Action som en NLA-remsa eller Action Constraint använder. Använd *åtgärdsslot*, *åtgärdsslotten* och *åtgärdsslotar* i synlig UI-text; behåll `action_slot` i API-identifierare. |
-| slotted action | åtgärd med slotar | Äldre API-hjälptext som avser en Action med Action Slots. Behåll den tekniska betydelsen och skriv inte engelska *slotted actions* i svensk löptext. |
+| Action slot | Action-slot | Slot som väljer den delmängd av en Action som en NLA-remsa eller Action Constraint använder. Använd *Action-slot*, *Action-slotten* och *Action-slotar* i synlig UI-text; behåll `action_slot` i API-identifierare. |
+| slotted Action | Action med slotar | Äldre API-hjälptext som avser en Action med Action Slots. Behåll den tekniska betydelsen och skriv inte engelska *slotted actions* i svensk löptext. |
 | transform | transformation | Avser objektets position, rotation och skala i Constraint- och Action-kontext. Undvik den bredare formen *omvandling* i dessa etiketter. |
 | Damped Track / Damped Track Constraint | Dämpad spårning / Dämpad spårning-begränsning | Begränsning som riktar en lokal axel mot målet med kortast möjliga rotation. Det är inte en järnvägsspårvidd. |
 | Follow Path / Follow Path Constraint | Följ bana / Följ bana-begränsning | Constraint som låser rörelsen till en målkurva. *Heading and banking* blir *riktning och krängning*; *banking* är rotation kring rörelseriktningen, inte en lutning. |
@@ -821,10 +821,10 @@ Senast uppdaterad: 2026-11-07.
 | keying set | nyckeluppsättning | Namngiven uppsättning animerbara egenskaper som används vid infogning och borttagning av nyckelbildrutor. |
 | driver | drivrutin | Uttrycks- eller databaserad styrning av en egenskap; skilj från fysisk hårdvarudrivrutin. |
 | bone collection | bensamling | Samling som organiserar riggens ben. |
-| action | åtgärd | Blenderdatablock som lagrar animeringsdata; behåll *åtgärd* i den här API- och UI-kontexten. |
-| action slot | åtgärdsslot | Identifierar vilken uppsättning animeringskanaler i en åtgärd som gäller för ett datablock. |
-| layered Action | skiktad åtgärd | Nyare Action-struktur med lager och åtgärdsslotar. |
-| legacy Action | äldre åtgärd | Äldre Action-struktur utan lager och åtgärdsslotar. |
+| Action | Action | Blenderdatablock som lagrar animeringsdata; behåll *Action* i API- och UI-kontexten. |
+| Action slot | Action-slot | Identifierar vilken uppsättning animeringskanaler i en Action som gäller för ett datablock. |
+| layered Action | skiktad Action | Nyare Action-struktur med lager och Action-slotar. |
+| legacy Action | äldre Action | Äldre Action-struktur utan lager och Action-slotar. |
 | animation channel bag | animationskanalbehållare | API-objekt som samlar F-kurvor och grupper för en åtgärdsslot. |
 | kernel optimization | kärnoptimering | Optimering av renderingskärnor i Cycles, inte operativsystemets kärna. |
 | intersection | skärningsberäkning | Strålspårningens beräkning av en träff mellan stråle och geometri. |
