@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-482.po`
-med 3 295 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-483.po`
+med 3 300 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -258,6 +258,15 @@ lager samt lökskalningens opacitet, bildruteintervall och
 nyckelbildrutefiltrering. Den bekräftar etablerade termer som *lökskal*,
 *lökskalsbildruta*, *Grease Pencil-lager* och *nyckelbildruta*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-482-grease-pencil-layers-and-onion-skinning.po`
+är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
+är inte verifierad i detta arkiv.
+
+Batch 483 granskar 14 poster för Grease Pencil-streckens djupordning,
+2D-lager och 3D-position, automatiskt lagerlås och lökskalningens färger,
+uttoning och loopande animationer. Den följer den projektspecifika
+terminologin för *streckens djupordning*, *lökskal* och
+*lökskalsbildruta*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-483-grease-pencil-depth-and-onion-display.po`
 är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
 är inte verifierad i detta arkiv.
 
