@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-466.po`
-med 2 926 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-467.po`
+med 2 955 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -127,6 +127,14 @@ projektion, panoramatyper samt sensoranpassning. Den använder konsekvent
 *3D-vyport*, *fiskögeobjektiv*, *sensoranpassning*, *passepartout* och
 *beskärningsavstånd*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-466-camera-optics-and-projections.po`
+är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
+är inte verifierad i detta arkiv.
+
+Batch 467 granskar 30 kameraposter för kompositionsguider, beskärnings- och
+dimvisning, passepartout, säkra områden och filmruta. Den skiljer de generella
+*säkra områdena* från *säkra marginaler för text* och *säkra marginaler för
+bildinnehåll* i kameravyn. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-467-camera-composition-guides.po`
 är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
 är inte verifierad i detta arkiv.
 
