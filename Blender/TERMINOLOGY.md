@@ -255,6 +255,9 @@ Senast uppdaterad: 2026-11-06.
 | onion skinning (annotations) | lökskalning | Visar närliggande anteckningsbildrutor som halvgenomskinliga spökbilder före eller efter den aktiva bildrutan. |
 | drawing guide / speed guide | ritningshjälplinje | Grease Pencils hjälplinje som begränsar riktning eller placering under ritning. Använd inte engelsklånet *guide* i svensk UI-text. |
 | guide spacing | avstånd mellan hjälplinjer | Avståndet mellan parallella eller rutnätsbaserade ritningshjälplinjer. |
+| gizmo group | gizmogrupp | Grupp som registrerar och visar relaterade interaktiva gizmor. Skriv ihop enligt Blender-terminologin. |
+| offset matrix / world matrix | förskjutningsmatris / världsmatris | Transformationsmatriser för gizmons placering respektive slutliga position i världsrymden. |
+| depth bias | djupförskjutning | Litet djupvärde som avgör urval eller rendering av en gizmo. |
 | vertex neighbors / face group boundaries | hörnpunktsgrannar / ytgruppsgränser | Noder som hämtar topologiska grannar respektive kanter mellan ytgrupper. Sammansättningarna är avsiktliga. |
 | Geometry Proximity | Geometrisk närhet | Nod som beräknar närmaste position på en målgeometri. |
 | gizmo | gizmo | Etablerat Blender-UI-namn. Skriv sammansatt: *transformationsgizmo*. |
