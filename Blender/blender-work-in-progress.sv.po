@@ -36642,7 +36642,6 @@ msgstr "Mängd våt färg som stannar kvar i penseln efter applicering av färg 
 #. :src: bpy.types.CacheFile.filepath
 #. :src: bpy.types.MeshCacheModifier.filepath
 #. :src: bpy.types.MultiresModifier.filepath
-#, fuzzy
 msgid "Path to external displacements file"
 msgstr "Sökväg till filen för externa förskjutningar"
 
@@ -36652,12 +36651,10 @@ msgstr "Sökväg till filen för externa förskjutningar"
 #. :src: bpy.types.IMPORT_ANIM_OT_bvh.axis_forward
 #. :src: bpy.types.IMPORT_SCENE_OT_fbx.axis_forward
 #: source/blender/editors/io/io_stl_ops.cc:102
-#, fuzzy
 msgid "Forward"
 msgstr "Framåt"
 
 #. :src: bpy.types.CacheFile.frame
-#, fuzzy
 msgid "The time to use for looking up the data in the cache file, or to determine which file to use in a file sequence"
 msgstr "Bildrutan som används för att slå upp data i cachefilen eller avgöra vilken fil som ska användas i en filsekvens"
 
@@ -36672,7 +36669,6 @@ msgid "Frame Offset"
 msgstr "Bildruteförskjutning"
 
 #. :src: bpy.types.CacheFile.frame_offset
-#, fuzzy
 msgid "Subtracted from the current frame to use for looking up the data in the cache file, or to determine which file to use in a file sequence"
 msgstr "Dras av från den aktuella bildrutan när data slås upp i cachefilen eller när en fil väljs ur en filsekvens"
 
@@ -36680,49 +36676,40 @@ msgstr "Dras av från den aktuella bildrutan när data slås upp i cachefilen el
 #. :src: bpy.types.Volume.is_sequence
 #. :src: bpy.types.GREASE_PENCIL_OT_trace_image.mode:'SEQUENCE'
 #: source/blender/editors/space_image/image_buttons.cc:136
-#, fuzzy
 msgid "Sequence"
 msgstr "Sekvens"
 
 #. :src: bpy.types.CacheFile.is_sequence
 #. :src: bpy.types.Volume.is_sequence
-#, fuzzy
 msgid "Whether the cache is separated in a series of files"
 msgstr "Om cachen är uppdelad i en serie filer"
 
 #. :src: bpy.types.CacheFile.layers
-#, fuzzy
 msgid "Layers of the cache"
 msgstr "Cachelager"
 
 #. :src: bpy.types.CacheFile.object_paths
-#, fuzzy
 msgid "Paths of the objects inside the Alembic archive"
 msgstr "Sökvägar till objekten i Alembic-arkivet"
 
 #. :src: bpy.types.CacheFile.override_frame
 #: source/blender/editors/interface/templates/interface_template_cache_file.cc:116
-#, fuzzy
 msgid "Override Frame"
 msgstr "Åsidosätt bildruta"
 
 #. :src: bpy.types.CacheFile.override_frame
-#, fuzzy
 msgid "Whether to use a custom frame for looking up data in the cache file, instead of using the current scene frame"
 msgstr "Om en anpassad bildruta ska användas för att slå upp data i cachefilen i stället för scenens aktuella bildruta"
 
 #. :src: bpy.types.CacheFile.prefetch_cache_size
-#, fuzzy
 msgid "Prefetch Cache Size"
 msgstr "Storlek på förhandsladdningscache"
 
 #. :src: bpy.types.CacheFile.prefetch_cache_size
-#, fuzzy
 msgid "Memory usage limit in megabytes for the Cycles Procedural cache, if the data does not fit within the limit, rendering is aborted"
 msgstr "Minnesgräns i megabyte för Cycles Procedural-cachen. Om data inte ryms inom gränsen avbryts renderingen"
 
 #. :src: bpy.types.CacheFile.scale
-#, fuzzy
 msgid "Value by which to enlarge or shrink the object with respect to the world's origin (only applicable through a Transform Cache constraint)"
 msgstr "Värde som förstorar eller förminskar objektet i förhållande till världens ursprung (gäller endast med en Transform Cache-begränsning)"
 
@@ -36774,50 +36761,41 @@ msgstr "Värde som förstorar eller förminskar objektet i förhållande till v�
 #: source/blender/nodes/composite/nodes/node_composite_crop.cc:67
 #: source/blender/nodes/geometry/nodes/node_geo_gizmo_dial.cc:21
 #: source/blender/windowmanager/intern/wm_keymap.cc:1165
-#, fuzzy
 msgid "Up"
 msgstr "Upp"
 
 #. :src: bpy.types.CacheFile.use_prefetch
-#, fuzzy
 msgid "Use Prefetch"
 msgstr "Använd förhandsladdning"
 
 #. :src: bpy.types.CacheFile.use_prefetch
-#, fuzzy
 msgid "When enabled, the Cycles Procedural will preload animation data for faster updates"
 msgstr "När funktionen är aktiverad förladdar Cycles Procedural animationsdata för snabbare uppdateringar"
 
 #. :src: bpy.types.CacheFile.use_render_procedural
-#, fuzzy
 msgid "Use Render Engine Procedural"
 msgstr "Använd renderingsmotorns procedur"
 
 #. :src: bpy.types.CacheFile.use_render_procedural
-#, fuzzy
 msgid "Display boxes in the viewport as placeholders for the objects, Cycles will use a procedural to load the objects during viewport rendering in experimental mode, other render engines will also receive a placeholder and should take care of loading the Alembic data themselves if possible"
 msgstr "Visa rutor som platshållare för objekten i visningsområdet. I experimentellt läge använder Cycles en procedur för att läsa in objekten vid rendering i visningsområdet. Andra renderingsmotorer får också en platshållare och bör själva läsa in Alembic-data om möjligt"
 
 #. :src: bpy.types.CacheFile.velocity_name
-#, fuzzy
 msgid "Velocity Attribute"
 msgstr "Hastighetsattribut"
 
 #. :src: bpy.types.CacheFile.velocity_name
-#, fuzzy
 msgid "Name of the Alembic attribute used for generating motion blur data"
 msgstr "Namn på det Alembic-attribut som används för att generera data om rörelseoskärpa"
 
 #. :src: bpy.types.CacheFile.velocity_unit
 #. :src: bpy.types.Volume.velocity_unit
-#, fuzzy
 msgctxt "Unit"
 msgid "Velocity Unit"
 msgstr "Hastighetsenhet"
 
 #. :src: bpy.types.CacheFile.velocity_unit
 #. :src: bpy.types.Volume.velocity_unit
-#, fuzzy
 msgid "Define how the velocity vectors are interpreted with regard to time, 'frame' means the delta time is 1 frame, 'second' means the delta time is 1 / FPS"
 msgstr "Ange hur hastighetsvektorerna tolkas med avseende på tid. \"Bildruta\" innebär att deltatiden är 1 bildruta och \"Sekund\" innebär 1/FPS"
 
