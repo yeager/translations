@@ -251,10 +251,16 @@ källtexten uttryckligen saknar dem. Verktyget svlang rapporterar tekniska
 API-namn och fragment som ovanliga; dessa är avsiktliga. Deltafilen är lokalt
 kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 664 granskar sex hjälptexter för översättningsinställningar, resurser,
+Grease Pencil, vätskesimulering och OpenColorIO. Den rättar formalia i
+metadatatexter, behåller tekniska identifierare och tar bort slutpunkter där
+källtexten saknar dem. Deltafilen är lokalt kontrollerad och ännu inte
+importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-663-combined.po` med 209
+`blender-ui-sv-reviewed-20261107-batches-626-664-combined.po` med 215
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–663.
+och innehåller dessutom batch 657–664.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
