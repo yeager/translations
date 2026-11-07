@@ -6848,3 +6848,11 @@ lokalt klar men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-817-mesh-deformation.po` är en separat
 manuell deltafil med endast dessa sex nya, lokalt granskade poster.
 
+Batch 818 granskar den osammanhangsmarkerade etiketten *Compositor*, som delas
+av sekvensredigeraren, paneler och nodredigeraren. Den normaliserar den till
+det fastställda synliga Blender-namnet *Kompositör*. Batchen är lokalt klar
+men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-818-compositor-label.po` är en separat
+manuell deltafil med denna enda, lokalt granskade post.
+
