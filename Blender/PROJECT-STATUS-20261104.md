@@ -7175,3 +7175,17 @@ separat manuell deltafil med endast dessa 16, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–845. Den innehåller 372 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 846 normaliserar 18 import- och exportinställningar för FBX, glTF,
+Draco, Meshopt och meshplan. Den använder *mesh*, *meshobjekt*, *meshplan*,
+*meshkomprimering* och *meshens primitivgrupper* i stället för den generiska
+geometribetydelsen *nät*. Batchen är lokalt klar men ännu inte importerad i
+Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-846-mesh-import-export.po` är en
+separat manuell deltafil med endast dessa 18, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-846.po` är den aktuella
+samlade manuella deltafilen för batch 811–846. Den innehåller 380 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
