@@ -5862,3 +5862,10 @@ Produktnamn och osäkra generatorsträngar har lämnats oförändrade. Deltafile
 `blender-ui-sv-reviewed-20261107-batch-711-shader-texture-nodes.po` är lokalt
 granskad och ännu inte importerad.
 
+Den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-pending-batches-705-711.po` innehåller 64
+unika, ombaserade och lokalt kontrollerade ändringar från batch 705–711. Den
+utgår från exporten hämtad den 7 november och ryms inom Blender Translates
+överenskomna gräns på 1 000 strängar per import. De fyra delbatcherna finns
+kvar för spårbarhet; samlingsfilen är den rekommenderade importfilen.
+
