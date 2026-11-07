@@ -6352,6 +6352,17 @@ inte importerad.
 manuella importfilen. Den innehåller 53 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 769 normaliserar tolv UI- och feltexter för Blenders Viewer-noder. Den
+ersätter den personbetecknande formen *visare* med termbasens
+*visningsnod*/*visningsnoder* i kompositions-, textur- och geometrinodernas
+kontext. Deltafilen har passerat `msgfmt`, `l10n-lint` och `svlang`; dess
+enda ovanliga ord är avsiktliga Blenderfacktermer. Den är lokalt klar men ännu
+inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-761-769.po` är den aktuella
+manuella importfilen. Den innehåller 65 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
