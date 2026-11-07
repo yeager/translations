@@ -208,6 +208,17 @@ Den importerade samlingsfilen för batch 626–656 är
 `blender-ui-sv-reviewed-20261107-batches-626-656-combined.po` med 138
 granskade poster och ersätter den tidigare samlingsfilen 626–655.
 
+Batch 657 normaliserar 18 Brush-poster till den etablerade Blender-termen
+*pensel*/*penslar*. Den omfattar bland annat datablock, Dynamic Paint,
+Grease Pencil, skulptering, partikelpenslar och resursreferenser. De äldre
+formerna *borste* och *borstar* används inte för dessa verktyg. Deltafilen är
+lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
+Den aktuella samlingsfilen för nästa import är
+`blender-ui-sv-reviewed-20261107-batches-626-657-combined.po` med 156
+granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
+och innehåller dessutom batch 657.
+
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
 skickat in samtliga sex delar manuellt till Blender Translate. Importresultat
