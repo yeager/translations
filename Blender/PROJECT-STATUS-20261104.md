@@ -5009,3 +5009,13 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 600 granskar Mantaflows bakning och rensning av simuleringscache för
+data, vätskestyrning, mesh, brus och partiklar. Den ersätter bland annat de
+helt felaktiga formerna *Gratis Alla* och *Bake Fluid Data*. Termbasen har
+utökats med *vätskemesh*, *vätskebrus* och cachebetydelsen av *Free*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-600-fluid-cache-baking.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-600.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+

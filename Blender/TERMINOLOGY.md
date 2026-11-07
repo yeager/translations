@@ -194,6 +194,8 @@ Senast uppdaterad: 2026-11-06.
 | 2D float attribute value | 2D-flyttalsattributvärde | Tvådimensionellt flyttalsattribut i Blenders geometriattribut-API. |
 | vorticity | vorticitet | Hydromekanisk vektorstorhet för den lokala rotationen i ett strömningsfält. Behåll den etablerade facktermen i Mantaflow. |
 | fluid guiding | vätskestyrning | Mantaflow-funktionen som styr flödet med hastigheter från en domän eller effektor. Använd *styrnings-* i sammansättningar som *styrningsdomän* och *styrningsobjekt*. |
+| fluid mesh / fluid noise | vätskemesh / vätskebrus | Bakningssteg och cachedata i Mantaflow. *Brus* avser simuleringsdetaljer, inte ljud. |
+| Free Data / Free All (fluid cache) | rensa data / rensa allt | Tar bort beräknad simuleringscache; översätt inte med *gratis* eller *frigör*. |
 | effector / effector object | effektor / effektorobjekt | Mantaflow-objekt som påverkar flödet genom kollision eller styrning. Använd inte den förväxlingsbara formen *effektobjekt*. |
 | buoyancy density / buoyancy heat | flytkraft från densitet / flytkraft från värme | Mantaflow-gasdomänens separata flytkraftsparametrar. Formuleringen visar vilken fysisk storhet som styr flytkraften och undviker de tvetydiga sammansättningarna *flytkraftsdensitet* och *flytkraftsvärme*. |
 | cache data format | filformat för cachelagring | Mantaflow-inställning för hur volym-, yt-, brus- eller partikeldata lagras. Bevara etablerade formatnamn som *Uni Cache* och *OpenVDB*. |
