@@ -6446,6 +6446,17 @@ och två falska V2-varningar i korrekta satsdelar. Batchen är lokalt klar men
 manuella importfilen. Den innehåller 118 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 778 granskar sju filtertexter för Asset Browser. Den följer
+terminologin för *resurser*, *på nätet* och *lokalt* i stället för den
+inkonsekventa blandningen av *tillgångar* och engelska *online/offline*.
+`msgfmt` och `l10n-lint` passerar. `svlang` har bara falska V2-varningar för
+korrekta uppmaningar, och Hunspell har inga svenska ordvarningar. Batchen är
+lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-778.po` är den aktuella
+manuella importfilen. Den innehåller 125 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
