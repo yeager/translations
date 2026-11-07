@@ -5821,3 +5821,11 @@ deltafilen `blender-ui-sv-reviewed-20261107-pending-batches-705-708.po`
 innehåller 34 unika, lokalt kontrollerade och ännu ej importerade ändringar.
 Den ersätter samlingen 705–707.
 
+Efter importen konstaterades att den lokala huvudexporten
+`/Users/danielnylander/Downloads/blender-ui-ui-sv.po` är äldre än flera
+redan uppladdade batcher. Den 7 november 2026 blockerade Blender Translates
+Cloudflare-utmaning en direkt, skrivskyddad `curl`-export med HTTP 403.
+Nästa breda radgranskning ska därför utgå från en ny export som hämtas via
+den inloggade webbläsaren eller ett fungerande API, så att tidigare
+serveruppdateringar inte dupliceras.
+
