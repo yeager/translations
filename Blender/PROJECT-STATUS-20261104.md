@@ -4593,3 +4593,13 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 554 granskar tio poster för *Hair Curves Noise*, noden som deformerar
+hårkurvor med en procedurbaserad brustextur. Den rättar det felaktiga
+*Hårkurvor Buller* till *Hårkurvsbrus*, ersätter engelska *Offset* med
+*Förskjutning* och normaliserar skalningstexterna. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-554-hair-curves-noise.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-554.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
