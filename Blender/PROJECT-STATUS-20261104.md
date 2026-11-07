@@ -8236,6 +8236,19 @@ separata manuella deltafilen med de fyra rättningarna.
 manuella deltafilen för batch 811–927. Den innehåller 789 översättningsposter
 och ryms därför inom gränsen på 1 000 strängar för en Blender Translate-import.
 
+Batch 928 normaliserar fyra Geometry Nodes-etiketter till *Meshö*,
+*Meshavfasning*, *Meshcirkel* och *Meshlinje*. De avser Blenders formella
+meshtyp; *Meshavfasning* följer dessutom den etablerade UI-termen
+*avfasning*. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-928-mesh-geometry-node-labels.po` är
+den separata manuella deltafilen med de fyra rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-928.po` är den samlade
+manuella deltafilen för batch 811–928. Den innehåller 793 översättningsposter
+och ryms därför inom gränsen på 1 000 strängar för en Blender Translate-import.
+
 En lokal sammanslagning av den nedladdade UI-filen och batch 811–922 har
 kontrollerats med `msgfmt` och `svlang svengelska`. De enda återstående
 anglicismträffarna är det synliga Blender-namnet *Scope* i *Scope-panelerna*
