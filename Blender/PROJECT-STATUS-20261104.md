@@ -6011,6 +6011,11 @@ det formella namnet böjbart och lättläst, samt *Action-slot*, *Action-remsa*
 och *Action-clippremsa* i synliga UI-etiketter. Batchen är lokalt kontrollerad
 och ännu inte importerad.
 
+Batch 728 granskar 20 kärnposter för Action-grupper, -lager, -posemarkörer,
+-slotar och -remsor. Den behåller API-klasserna `ActionChannelbag` och
+`ActionKeyframeStrip` oförändrade men använder svenska, läsbara sammansättningar
+runt dem. Batchen är lokalt kontrollerad och ännu inte importerad.
+
 Batch 726 granskar 22 UI- och API-texter för Blenders formella
 animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
 *Action-kanal*, *Action-längd* och *Action-nyckelbildruta*, medan vanliga
