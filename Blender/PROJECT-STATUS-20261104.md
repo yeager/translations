@@ -6222,6 +6222,14 @@ granskad och ännu inte importerad.
 748–754-samlingen. Den innehåller 42 unika, lokalt granskade och ännu inte
 importerade ändringar.
 
+Batch 756 normaliserar en Grease Pencil Line Art-beskrivning från den
+avvikande formen *skärmkoordinatrum* till den etablerade Blender-termen
+*skärmrymd*. Deltafilen är lokalt granskad och ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-748-756.po` ersätter
+748–755-samlingen. Den innehåller 43 unika, lokalt granskade och ännu inte
+importerade ändringar.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
