@@ -355,6 +355,11 @@ Dynamic Paint-läget och operatörsetiketten använder nu konsekvent *pensel*,
 inte *borste*. Deltafilen är lokalt kontrollerad och ännu inte importerad i
 Blender Translate.
 
+Nästa separata importfil är
+`blender-ui-sv-reviewed-20261107-batches-680-682-combined.po` med 21 unika
+granskade poster. Den innehåller bara batch 680–682 och överlappar alltså inte
+den redan importerade samlingsfilen för batch 626–679.
+
 Den 7 november importerades samlingsfilen
 `blender-ui-sv-reviewed-20261107-batches-626-679-combined.po` manuellt i
 Blender Translate. Servern behandlade 323 poster: 135 uppdaterades, 183
