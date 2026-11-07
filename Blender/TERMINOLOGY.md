@@ -796,10 +796,10 @@ Senast uppdaterad: 2026-11-06.
 | Graph Editor | grafredigeraren | Redigeraren för F-kurvor och animerade värden. |
 | bone collection | bensamling | Samling som organiserar riggens ben. |
 | action | åtgärd | Blenderdatablock som lagrar animeringsdata; behåll *åtgärd* i den här API- och UI-kontexten. |
-| action slot | åtgärdsplats | Identifierar vilken uppsättning animeringskanaler i en åtgärd som gäller för ett datablock. |
-| layered Action | skiktad åtgärd | Nyare Action-struktur med lager och åtgärdsplatser. |
-| legacy Action | äldre åtgärd | Äldre Action-struktur utan lager och åtgärdsplatser. |
-| animation channel bag | animationskanalbehållare | API-objekt som samlar F-kurvor och grupper för en åtgärdsplats. |
+| action slot | åtgärdsslot | Identifierar vilken uppsättning animeringskanaler i en åtgärd som gäller för ett datablock. |
+| layered Action | skiktad åtgärd | Nyare Action-struktur med lager och åtgärdsslotar. |
+| legacy Action | äldre åtgärd | Äldre Action-struktur utan lager och åtgärdsslotar. |
+| animation channel bag | animationskanalbehållare | API-objekt som samlar F-kurvor och grupper för en åtgärdsslot. |
 | kernel optimization | kärnoptimering | Optimering av renderingskärnor i Cycles, inte operativsystemets kärna. |
 | intersection | skärningsberäkning | Strålspårningens beräkning av en träff mellan stråle och geometri. |
 | Graph Editor | grafredigeraren | Redigeraren för F-kurvor och animerade värden. |
