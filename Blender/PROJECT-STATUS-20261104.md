@@ -5724,3 +5724,11 @@ förhandsvisningar*. Den ersättande samlingsfilen
 88 unika, lokalt kontrollerade och ännu ej importerade poster. Den ersätter
 samlingen 680–694 och är klar för manuell import.
 
+Batch 696 granskar material för mesh, armaturer, trådram och shadernoder i
+deras konkreta Blender-kontext. Den behåller datatypen *mesh* även i plural,
+använder *armatur* för skelettobjekt, *trådram* för `Wire`-visningsläget och
+*shadernod* där det gäller materialnoder. Den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-all-pending-batches-680-696.po` innehåller
+101 unika, lokalt kontrollerade och ännu ej importerade poster. Den ersätter
+samlingen 680–695 och ryms inom den överenskomna uppladdningsgränsen.
+
