@@ -19,6 +19,15 @@ följa källans kompletta eller avsiktligt öppna mening, samt normaliserar
 har passerat `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
 diffkontroll. Den är lokalt klar men ännu inte importerad i Blender Translate.
 
+Batch 628 granskar sex strängar för mesh- och nodåtgärder, tilläggskataloger,
+USD-import och den utfällbara panelen för verktygsinställningar. Den bevarar
+namn som BVH, USD, Xform och UsdGeomGprims, men rättar avslutande
+interpunktion och ersätter det felaktiga *poppupppanel* med *utfällbar panel*.
+`l10n-lint` gav inga fel; dess enda informationspost är en falsk
+valutaträff på förkortningen USD. `svlang` tolkar imperativ och tekniska namn
+som möjliga avvikelser, men ingen faktisk svensk skrivavvikelse hittades.
+Deltafilen är lokalt klar och ännu inte importerad i Blender Translate.
+
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
 skickat in samtliga sex delar manuellt till Blender Translate. Importresultat
