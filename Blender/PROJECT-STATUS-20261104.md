@@ -5633,11 +5633,6 @@ katalogens etablerade UI-etiketter *Rubrik* och *Verktygsrubrik*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-685-show-header.po` är lokalt
 kontrollerad och ännu inte importerad i Blender Translate.
 
-Den samlade deltafilen
-`blender-ui-sv-reviewed-20261107-batches-684-688-combined.po` innehåller
-alla 29 lokalt kontrollerade, ännu ej importerade ändringar och är klar för
-manuell import.
-
 Batch 686 korrigerar en felkopplad WindowManager-sträng för Grease Pencil.
 Den beskrev tidigare en pipett för färggradient trots att källsträngen gäller
 reservmappningen för Trim-verktyget. Den ersätts med den konsekventa
@@ -5665,4 +5660,10 @@ och tio verktygsnamn. Formen *3D-vyverktyg* och suffixet *(reserv)* görs
 samtidigt konsekventa inom just denna verktygsgrupp. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-689-armature-keymaps.po` är lokalt
 kontrollerad och ännu inte importerad i Blender Translate.
+
+Den samlade deltafilen
+`blender-ui-sv-reviewed-20261107-batches-684-689-combined.po` innehåller
+alla 38 unika, lokalt kontrollerade och ännu ej importerade ändringar. Där
+nya batcher överlappar äldre poster innehåller den den senast granskade
+formuleringen och är klar för manuell import.
 
