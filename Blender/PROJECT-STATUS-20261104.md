@@ -6162,6 +6162,11 @@ modifierarbeskrivningen blir *modifierare för trådramseffekt*, och
 visningsmeddelandet anger de faktiska skuggningslägena i *3D-vyporten*.
 Deltafilen är lokalt granskad och ännu inte importerad.
 
+`blender-ui-sv-reviewed-20261107-pending-batches-748-749.po` är den samlade
+importfilen för de två nya batcherna. Den innehåller tio unika, lokalt
+granskade ändringar och ryms väl inom Blender Translates gräns på 1 000
+strängar per manuell import.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
