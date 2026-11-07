@@ -220,10 +220,16 @@ Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 skärmdumpar, proportionell redigering, EEVEE-strålspårning och nodresurser.
 Deltafilen är lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 659 normaliserar tio RNA-poster för `BlendImportContext` till den
+etablerade API-termen *blendfilimportkontext*. Den rättar bland annat
+*blend-filimport*, *blend-filbibliotek* och *blend-fil-sökvägar* till
+tydliga, konsekventa former. Deltafilen är lokalt kontrollerad och ännu inte
+importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-658-combined.po` med 172
+`blender-ui-sv-reviewed-20261107-batches-626-659-combined.po` med 182
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–658.
+och innehåller dessutom batch 657–659.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
