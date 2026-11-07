@@ -4501,3 +4501,14 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 545 granskar 13 poster för skärmdatablock, områden, animeringsuppspelning,
+skrubbling och berörda redigerare. Den ersätter det engelska
+*Screen data-block*, korrigerar *skrubbar sig igenom tiden* till
+*skrubbar genom tidslinjen* och normaliserar bestämd form i redigerartext.
+Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-545-screen-layout-and-editors.po` och
+den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-545.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
