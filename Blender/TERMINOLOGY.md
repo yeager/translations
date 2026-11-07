@@ -301,6 +301,8 @@ Senast uppdaterad: 2026-11-06.
 | fading | uttoning | Gradvis borttagning i Grease Pencil-bygg- och längdmodifierare. |
 | Grease Pencil masking layer | maskeringslager för Grease Pencil | Lager som begränsar synligheten för Grease Pencil-innehåll. |
 | Grease Pencil time modifier segment | tidsmodifierarsegment | Ett intervall som har egna tidsförskjutnings- och upprepningsinställningar. |
+| time modifier mode: normal / reverse / ping pong | vanlig / omvänd / Ping Pong | Riktning eller pendling för Grease Pencils tidsförskjutning. Behåll det etablerade lägesnamnet *Ping Pong*. |
+| Grease Pencil layer tree / tree node | lagerträd / trädnod | Hierarki av Grease Pencil-lager och lagergrupper. Använd *dopeblad* för dess kanaler, aldrig *dope-ark*. |
 | Grease Pencil dash modifier segment | streckmodifierarsegment | Del av Grease Pencils streckmodifierare som styr vilka ritpunkter som ingår i ett streck eller mellanrum. |
 | dash / gap (Grease Pencil modifier) | streck / mellanrum | Beståndsdelar i Grease Pencils streckmodifierarsegment. |
 | onion skin | lökskal | Den visade tidigare eller senare ritningen. Funktionen heter *lökskalning*. |
