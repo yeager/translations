@@ -8274,6 +8274,19 @@ separata manuella deltafilen med de två rättningarna.
 manuella deltafilen för batch 811–931. Den innehåller 796 översättningsposter
 och ryms därför inom gränsen på 1 000 strängar för en Blender Translate-import.
 
+Batch 932 normaliserar vyportskontexten i kompositörbeskrivningen och
+temakategorin till *3D-vyport* samt rättar etiketten *Storlek i
+visningsområdet*. Rättningarna följer den etablerade projektterminologin och
+svensk bestämd form. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-932-viewport-context-labels.po` är
+den separata manuella deltafilen med de tre rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-932.po` är den samlade
+manuella deltafilen för batch 811–932. Den innehåller 799 översättningsposter
+och ryms därför inom gränsen på 1 000 strängar för en Blender Translate-import.
+
 En lokal sammanslagning av den nedladdade UI-filen och batch 811–922 har
 kontrollerats med `msgfmt` och `svlang svengelska`. De enda återstående
 anglicismträffarna är det synliga Blender-namnet *Scope* i *Scope-panelerna*
