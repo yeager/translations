@@ -6255,6 +6255,15 @@ granskad och ännu inte importerad.
 748–758-samlingen. Den innehåller 47 unika, lokalt granskade och ännu inte
 importerade ändringar.
 
+Batch 760 normaliserar fem interna mesh-topologitermer till *meshloop* och
+*looptriangel*. Granskningen är begränsad till RNA-klasserna `MeshLoop` och
+`MeshLoopTriangle`; generella loopar i andra UI-kontexter lämnas orörda.
+Deltafilen är lokalt granskad och ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-748-760.po` ersätter
+748–759-samlingen. Den innehåller 52 unika, lokalt granskade och ännu inte
+importerade ändringar.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
