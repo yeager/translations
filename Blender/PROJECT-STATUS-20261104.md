@@ -5838,3 +5838,14 @@ ligger i `blender-ui-sv-reviewed-20261107-rebased-batches-705-708.po`.
 Filen är kontrollerad med `msgfmt`, `l10n-lint` och `git diff --check`.
 Den är lokalt klar för import, men ännu inte uppladdad efter ombasningen.
 
+Batch 709 granskar den nya exporten med tre oberoende, kontextuppdelade
+kontroller (nodsystem, riggning/animation samt media/utdata). Förslagen
+kontrollerades sedan mot den färska PO-filen och denna termbas. Batchen
+normaliserar 21 säkra förekomster av *mesh*, *shadernod*, *geometrinod* och
+specialiserade nodträd samt rättar tre felaktigt förkortade tidslinjebeskrivningar.
+Förslaget att genomgående ersätta synliga *åtgärdsslotar* med engelska
+*Action-slotar* avvisades: termbasen skiljer uttryckligen mellan det formella
+datatypnamnet `Action` och den svenska UI-termen *åtgärdsslot*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-709-nodes-mesh-context.po` är lokalt
+granskad och ännu inte importerad.
+

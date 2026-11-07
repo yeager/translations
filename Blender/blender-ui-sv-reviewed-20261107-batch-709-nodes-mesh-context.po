@@ -1,0 +1,99 @@
+# Blender UI Swedish review delta – nodes, mesh datatype and timeline context
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
+"PO-Revision-Date: 2026-11-07 17:00+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. :src: bpy.types.Light.use_nodes
+msgid "Use shader nodes to render the light"
+msgstr "Använd shadernoder för att rendera ljuset"
+
+#. :src: bpy.types.World.use_nodes
+msgid "Use shader nodes to render the world"
+msgstr "Använd shadernoder för att rendera världen"
+
+#. :src: bpy.types.Modifier.type:'MESH_SEQUENCE_CACHE'
+#. :src: bpy.types.OBJECT_OT_modifier_add.type:'MESH_SEQUENCE_CACHE'
+msgid "Deform the mesh or curve using an external mesh cache in Alembic format"
+msgstr "Deformera meshen eller kurvan med hjälp av en extern meshcache i Alembic-format"
+
+#. :src: bpy.types.MeshCacheModifier.deform_mode:'INTEGRATE'
+msgid "Integrate deformation from this modifier's input with the mesh-cache coordinates (useful for shape keys)"
+msgstr "Integrera deformation från denna modifierares indata med meshcachekoordinaterna (användbart för formnycklar)"
+
+#. :src: bpy.types.GeometryNodeSetMeshNormal.mode:'TANGENT_SPACE'
+msgid "Store normals in a deformation dependent custom transformation space. This method is slower, but can be better when subsequent operations change the mesh without handling normals specifically."
+msgstr "Lagra normaler i ett deformationsberoende anpassat transformationsrum. Metoden är långsammare, men kan vara bättre när efterföljande operationer ändrar meshen utan att hantera normaler specifikt."
+
+#. :src: bpy.types.MeshToVolumeModifier.interior_band_width
+#: source/blender/nodes/geometry/nodes/node_geo_mesh_to_density_grid.cc:32
+#: source/blender/nodes/geometry/nodes/node_geo_mesh_to_volume.cc:64
+msgid "Width of the gradient inside of the mesh"
+msgstr "Bredden på gradienten inuti meshen"
+
+#. :src: bpy.types.NodeSocketGeometry
+msgid "Geometry Node Socket"
+msgstr "Geometrinoduttag"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.attribute_domain
+msgid "Attribute domain used by the geometry nodes modifier to create an attribute output"
+msgstr "Attributdomän som geometrinodmodifieraren använder för att skapa attribututdata"
+
+#. :src: bpy.types.NodesModifierWarning
+msgid "Warning created during evaluation of a geometry nodes modifier"
+msgstr "Varning som skapades vid utvärdering av en geometrinodmodifierare"
+
+#. :src: bpy.types.NODE_OT_connect_to_output.run_in_geometry_nodes
+msgid "Run in Geometry Nodes Editor"
+msgstr "Kör i geometrinodredigeraren"
+
+#. :src: bpy.types.OBJECT_OT_simulation_nodes_cache_bake
+msgid "Bake simulations in geometry nodes modifiers"
+msgstr "Beräkna simuleringar i geometrinodmodifierare"
+
+#. :src: bpy.types.OBJECT_OT_simulation_nodes_cache_delete
+msgid "Delete cached/baked simulations in geometry nodes modifiers"
+msgstr "Ta bort cachade/beräknade simuleringar i geometrinodmodifierare"
+
+#. :src: bpy.types.NODE_OT_test_inlining_shader_nodes
+msgid "Create a new inlined shader node tree as is consumed by renderers"
+msgstr "Skapa ett nytt infogat shadernodträd som används av renderare"
+
+#: scripts/startup/bl_operators/anim.py:118
+msgid "Could not find material or light using Shader Node Tree - {:s}"
+msgstr "Det gick inte att hitta något material eller ljus som använder shadernodträd – {:s}"
+
+#: scripts/startup/bl_operators/anim.py:130
+msgid "Could not find scene using Compositor Node Tree - {:s}"
+msgstr "Det gick inte att hitta någon scen som använder kompositionsnodträd – {:s}"
+
+#: source/blender/nodes/composite/node_composite_util.cc:23
+msgid "Not a compositor node tree"
+msgstr "Inte ett kompositionsnodträd"
+
+#: source/blender/nodes/shader/node_shader_util.cc:37
+msgid "Not a shader node tree"
+msgstr "Inte ett shadernodträd"
+
+#: source/blender/nodes/texture/node_texture_util.cc:41
+msgid "Not a texture node tree"
+msgstr "Inte ett texturnodträd"
+
+#. :src: bpy.types.Strip.content_end
+msgid "Timeline frame where underlying strip source ends"
+msgstr "Bildruta på tidslinjen där den underliggande remskällan slutar"
+
+#. :src: bpy.types.Strip.content_start
+msgid "Timeline frame where underlying strip source begins"
+msgstr "Bildruta på tidslinjen där den underliggande remskällan börjar"
+
+#. :src: bpy.types.Strip.left_handle
+msgid "Timeline frame of the left handle and the start frame of the strip"
+msgstr "Bildruta på tidslinjen för vänster handtag och remsans startbildruta"
