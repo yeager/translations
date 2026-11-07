@@ -80,10 +80,16 @@ den onaturliga formen *biblioteks-.blend-fil* med *biblioteksfil (.blend)*
 och normaliserar *tillgångar* till den etablerade termen *resurser*. Deltafilen
 är lokalt kontrollerad men ännu inte importerad i Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–635 är
-`blender-ui-sv-reviewed-20261107-batches-626-635-combined.po` med 28
+Batch 636 granskar API-egenskapen `ID.is_evaluated` mot Blenders aktuella
+Python-API. Den skiljer uttryckligen körningsdata, utvärderat datablock och
+ursprungliga data från en `.blend`-fil, där den tidigare formuleringen felaktigt
+slog ihop de två första fallen. Deltafilen är lokalt kontrollerad men ännu inte
+importerad i Blender Translate.
+
+Den aktuella samlingsfilen för batch 626–636 är
+`blender-ui-sv-reviewed-20261107-batches-626-636-combined.po` med 29
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–634 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–635 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
