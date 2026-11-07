@@ -1,0 +1,203 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Beta (b'9a146ef5783c')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:58+0000\n"
+"PO-Revision-Date: 2026-11-07 13:27+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. :src: bpy.types.ActionChannelbag
+msgid ""
+"Collection of animation channels, typically associated with an action slot"
+msgstr "Samling av animationskanaler, vanligtvis kopplade till en Action-slot"
+
+#. :src: bpy.types.ActionChannelbagFCurves
+msgid "Collection of F-Curves for a specific action slot, on a specific strip"
+msgstr "Samling av F-kurvor för en specifik Action-slot i en specifik remsa"
+
+#. :src: bpy.types.AnimData.action_slot
+msgid ""
+"The slot identifies which sub-set of the Action is considered to be for this "
+"data-block, and its name is used to find the right slot when assigning an "
+"Action"
+msgstr ""
+"Action-slotten anger vilken delmängd av Actionen som hör till det här "
+"datablocket, och dess namn används för att hitta rätt Action-slot när en "
+"Action tilldelas"
+
+#. :src: bpy.types.AnimData.last_slot_identifier
+msgid ""
+"The identifier of the most recently assigned action slot. The slot "
+"identifies which sub-set of the Action is considered to be for this data-"
+"block, and its identifier is used to find the right slot when assigning an "
+"Action."
+msgstr ""
+"Identifieraren för den senast tilldelade Action-slotten. Action-slotten "
+"anger vilken delmängd av Actionen som avses för det här datablocket; "
+"identifieraren används för att hitta rätt Action-slot när en Action "
+"tilldelas."
+
+#. :src: bpy.types.ActionConstraint.last_slot_identifier
+msgid ""
+"The identifier of the most recently assigned action slot. The slot "
+"identifies which sub-set of the Action is considered to be for this "
+"constraint, and its identifier is used to find the right slot when assigning "
+"an Action."
+msgstr ""
+"Identifieraren för den senast tilldelade Action-slotten. Slotten anger "
+"vilken delmängd av Actionen som avses för denna Action-begränsning, och dess "
+"identifierare används för att hitta rätt Action-slot när en Action tilldelas."
+
+#. :src: bpy.types.Action.is_action_legacy
+msgid ""
+"Return whether this is a legacy Action. Legacy Actions have no layers or "
+"slots. Since Blender 4.4 actions are automatically updated to layered "
+"actions. This will only return true on empty actions"
+msgstr ""
+"Returnerar om detta är en äldre Action. Äldre Actioner saknar lager och "
+"Action-slotar. Sedan Blender 4.4 uppdateras Actioner automatiskt till "
+"skiktade Actioner. Funktionen returnerar endast sant för tomma Actioner"
+
+#. :src: bpy.types.NlaStrip.last_slot_identifier
+msgid ""
+"The identifier of the most recently assigned action slot. The slot "
+"identifies which sub-set of the Action is considered to be for this strip, "
+"and its identifier is used to find the right slot when assigning an Action."
+msgstr ""
+"Identifieraren för den senast tilldelade Action-slotten. Slotten anger "
+"vilken delmängd av Actionen som avses för denna remsa, och dess "
+"identifierare används för att hitta rätt Action-slot när en Action tilldelas."
+
+#. :src: bpy.types.ANIM_OT_slot_new_for_id
+msgid ""
+"Create a new Action Slot for an ID.\n"
+"\n"
+"Note that _which_ ID should get this slot must be set in the 'animated_id' "
+"context pointer, using:\n"
+"\n"
+">>> layout.context_pointer_set(\"animated_id\", animated_id)\n"
+"\n"
+"When the ID already has a slot assigned, the newly-created slot will be\n"
+"named after it (ensuring uniqueness with a numerical suffix) and any\n"
+"animation data of the assigned slot will be duplicated for the new slot."
+msgstr ""
+"Skapa en ny Action-slot för ett ID.\n"
+"\n"
+"Observera att _vilket_ ID som ska få denna Action-slot måste anges i "
+"kontextpekaren 'animated_id' med:\n"
+"\n"
+">>> layout.context_pointer_set(\"animated_id\", animated_id)\n"
+"\n"
+"När ID:t redan har en tilldelad Action-slot får den nya Action-slotten\n"
+"samma namn (med ett numeriskt suffix för att säkerställa unikhet), och\n"
+"animationsdata från den tilldelade Action-slotten dupliceras för den nya "
+"Action-slotten."
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_constraint
+msgid ""
+"Un-assign the assigned Action Slot from an Action constraint.\n"
+"\n"
+"Note that _which_ constraint should get this slot unassigned must be set in\n"
+"the \"constraint\" context pointer, using:\n"
+"\n"
+">>> layout.context_pointer_set(\"constraint\", constraint)"
+msgstr ""
+"Ta bort tilldelningen av Action-slotten från en Action-begränsning.\n"
+"\n"
+"Observera att _vilken_ begränsning som ska få Action-slotten borttagen måste "
+"anges i\n"
+"kontextpekaren \"constraint\" med:\n"
+"\n"
+">>> layout.context_pointer_set(\"constraint\", constraint)"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_id
+msgid ""
+"Un-assign the assigned Action Slot from an ID.\n"
+"\n"
+"Note that _which_ ID should get this slot unassigned must be set in the\n"
+"\"animated_id\" context pointer, using:\n"
+"\n"
+">>> layout.context_pointer_set(\"animated_id\", animated_id)"
+msgstr ""
+"Ta bort tilldelningen av Action-slotten från ett ID.\n"
+"\n"
+"Observera att _vilket_ ID som ska få Action-slotten borttagen måste anges i\n"
+"kontextpekaren \"animated_id\" med:\n"
+"\n"
+">>> layout.context_pointer_set(\"animated_id\", animated_id)"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_nla_strip
+msgid ""
+"Un-assign the assigned Action Slot from an NLA strip.\n"
+"\n"
+"Note that _which_ NLA strip should get this slot unassigned must be set in\n"
+"the \"nla_strip\" context pointer, using:\n"
+"\n"
+">>> layout.context_pointer_set(\"nla_strip\", nla_strip)"
+msgstr ""
+"Ta bort tilldelningen av Action-slotten från en NLA-remsa.\n"
+"\n"
+"Observera att _vilken_ NLA-remsa som ska få Action-slotten borttagen måste "
+"anges i\n"
+"kontextpekaren \"nla_strip\" med:\n"
+"\n"
+">>> layout.context_pointer_set(\"nla_strip\", nla_strip)"
+
+#. :src: bpy.types.OBJECT_OT_rigify_jump_to_action_slot
+msgid "Set Active Action Slot Index"
+msgstr "Ange index för aktiv Action-slot"
+
+#. :src: bpy.types.OBJECT_OT_rigify_jump_to_action_slot
+msgctxt "Operator"
+msgid "Jump to Action Slot"
+msgstr "Gå till Action-slot"
+
+#. :src: bpy.types.ACTION_OT_unlink
+#. :src: bpy.types.NLA_OT_action_unlink
+msgid "Unlink this action from the active action slot (and/or exit Tweak Mode)"
+msgstr ""
+"Koppla bort denna Action från den aktiva Action-slotten (och/eller avsluta "
+"justeringsläget)"
+
+#. :src: bpy.types.ANIM_OT_replace_action
+msgid ""
+"Swap all users of one action to another one. The normal action slot "
+"assignment rules apply. This ignores the NLA and Action Constraints"
+msgstr ""
+"Byt alla användare av en Action till en annan. Vanliga regler för "
+"tilldelning av Action-slotar gäller. NLA och Action-begränsningar ignoreras"
+
+#: source/blender/animrig/intern/keyframing.cc:220
+msgid ""
+"Inserting keys on {:d} data-block(s) has been skipped because of missing "
+"action slots."
+msgstr ""
+"Infogning av nyckelbilder i {:d} datablock hoppades över på grund av saknade "
+"Action-slotar."
+
+#: source/blender/animrig/intern/versioning.cc:222
+msgid ""
+"\"%s\" is using Action \"%s\", which does not have a slot with identifier "
+"\"%s\" or \"%s\". Manually assign the right action slot to \"%s\"."
+msgstr ""
+"\"%s\" använder Actionen \"%s\", som saknar en Action-slot med "
+"identifieraren \"%s\" eller \"%s\". Tilldela manuellt rätt Action-slot till "
+"\"%s\"."

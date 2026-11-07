@@ -7627,3 +7627,17 @@ separat manuell deltafil med dessa tio, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–878. Den innehåller 664 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 879 granskar 17 beskrivningar och meddelanden för Action-slotar,
+Action-begränsningar och äldre Actioner. Den använder konsekvent de formella
+datatypsnamnen *Action*, *Action-slot* och *Action-begränsning*, inklusive
+böjningen *Actionen* och pluralen *Actioner*. Batchen är lokalt klar men ännu
+inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-879-action-slot-descriptions.po` är
+en separat manuell deltafil med dessa 17, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-879.po` är den aktuella
+samlade manuella deltafilen för batch 811–879. Den innehåller 681 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
