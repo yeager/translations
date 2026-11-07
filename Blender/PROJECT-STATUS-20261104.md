@@ -7588,3 +7588,16 @@ manuell deltafil med dessa sju, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–875. Den innehåller 636 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 876 granskar åtta validerings- och operatorsträngar för Blenders
+formella animationsdatatyp Action. Den använder konsekvent *Action-slot* och
+*Action-slotar* i stället för den oprecisa formen *åtgärdsslot*. Batchen är
+lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-876-action-slot-errors.po` är en
+separat manuell deltafil med dessa åtta, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-876.po` är den aktuella
+samlade manuella deltafilen för batch 811–876. Den innehåller 644 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
