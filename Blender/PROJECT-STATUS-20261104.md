@@ -189,10 +189,16 @@ Batch 654 rättar två UI-nära förekomster av den äldre termen
 *resursbläddrare* i Asset Browser-läget och dess hjälptext. Deltafilen är
 lokalt kontrollerad men ännu inte importerad i Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–654 är
-`blender-ui-sv-reviewed-20261107-batches-626-654-combined.po` med 118
+Batch 655 tillämpar *resursbibliotek* i 18 Asset Browser-, tilläggs- och
+inställningsposter. De är den avgränsade UI-kontext där ordlistan föreskriver
+*resursbibliotek*, medan äldre *tillgångsbibliotek* i annan löpande text inte
+ändras mekaniskt. Deltafilen är lokalt kontrollerad men ännu inte importerad
+i Blender Translate.
+
+Den aktuella samlingsfilen för batch 626–655 är
+`blender-ui-sv-reviewed-20261107-batches-626-655-combined.po` med 135
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–653 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–654 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
