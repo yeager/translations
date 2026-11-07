@@ -7694,3 +7694,17 @@ manuell deltafil med dessa tolv, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–883. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 884 granskar åtta Shrinkwrap-strängar. Funktionsnamnet *Shrinkwrap*
+behålls, medan de beskrivande texterna använder *anpassa meshen* och
+*mesh-mål* i stället för den oidiomatiska formen ”krympinpacka”. Batchen är
+lokalt klar och pushad till vårt arkiv, men ännu inte verifierad som
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-884-shrinkwrap-terminology.po` är en
+separat manuell deltafil med dessa åtta, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-884.po` är den aktuella
+samlade manuella deltafilen för batch 811–884. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
