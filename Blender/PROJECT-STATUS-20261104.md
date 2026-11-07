@@ -91,10 +91,16 @@ den kontextmässigt felaktiga termen *överskrivningar* med
 *biblioteksåsidosättningar* och gör uppmaningen idiomatisk. Deltafilen är
 lokalt kontrollerad men ännu inte importerad i Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–637 är
-`blender-ui-sv-reviewed-20261107-batches-626-637-combined.po` med 30
+Batch 638 normaliserar sex närliggande API- och Outliner-poster för *Library
+Override*. Den använder konsekvent *biblioteksåsidosättning*, rättar den
+felaktiga formen *biblioteksåsidosättanden* och skriver `.blend-fil` på ett
+naturligt sätt. Deltafilen är lokalt kontrollerad men ännu inte importerad i
+Blender Translate.
+
+Den aktuella samlingsfilen för batch 626–638 är
+`blender-ui-sv-reviewed-20261107-batches-626-638-combined.po` med 36
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–636 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–637 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
