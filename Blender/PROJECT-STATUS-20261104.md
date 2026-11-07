@@ -6059,6 +6059,10 @@ Batch 735 kompletterar kompositörens redan normaliserade precisionsläge genom
 att använda *fullständig precision* också i dess förklarande hjälptext.
 Batchen är lokalt kontrollerad och ännu inte importerad.
 
+Batch 736 rättar skiljetecknet i ett statusmeddelande i grafredigeraren, så
+att det följer källtextens UI-form. Batchen är lokalt kontrollerad och ännu
+inte importerad.
+
 För manuell import finns även
 `blender-ui-sv-reviewed-20261107-pending-batches-724-733.po`. Den förenar
 batcherna 724–733 till 132 unika poster. De två poster som förekommer i både
