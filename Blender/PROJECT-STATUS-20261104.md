@@ -5771,3 +5771,12 @@ fortfarande 114 unika, lokalt kontrollerade poster, eftersom fem tidigare
 poster ersätts i stället för att läggas till. Den ersätter samlingen 680–700
 och ryms inom den överenskomna uppladdningsgränsen.
 
+Batch 703 slutför ytterligare tre kontextbundna *wireframe*-texter med
+Blenders etablerade term *trådram*: ett bens visningsläge, dess opacitet och
+volymvisningens läge. Batch 702 skapades inte, eftersom dess armaturposter
+vid en kontroll visade sig redan vara korrekt täckta av batch 694. Den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-all-pending-batches-680-703.po` innehåller
+117 unika, lokalt kontrollerade och ännu ej importerade poster. Den ersätter
+samlingen 680–701 och ryms inom den överenskomna uppladdningsgränsen.
+
