@@ -7911,3 +7911,16 @@ manuell deltafil med den lokalt granskade ändringen.
 samlade manuella deltafilen för batch 811–902. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 903 granskar en byggstatus för ommeshning och ersätter det engelska
+produktuttrycket *Remesh-modifieraren* med den fastställda tekniska termen
+*ommeshningsmodifieraren*. Batchen är lokalt klar och pushad till vårt arkiv,
+men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-903-remesh-modifier-status.po` är en
+separat manuell deltafil med den lokalt granskade ändringen.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-903.po` är den aktuella
+samlade manuella deltafilen för batch 811–903. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
