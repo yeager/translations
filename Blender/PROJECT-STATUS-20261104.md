@@ -4729,3 +4729,12 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 568 granskar sjutton poster för *Attach Hair Curves to Surface*. Den
+normaliserar *ytmesh* till *meshyta* och granskar UV-fäste, snäppning mot
+ytan, ytnormal och viloposition i den faktiska nodkontexten. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-568-attach-hair-curves.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-568.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
