@@ -451,6 +451,15 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 535 granskar 18 poster för partiklars klumpningskurvor, slumpvis
+urval, livscykel, emission och jämn fördelning. Den normaliserar
+*klumpningskurva* och *klumpbrus*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-535-particles-clumping-and-emission.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-535.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade
