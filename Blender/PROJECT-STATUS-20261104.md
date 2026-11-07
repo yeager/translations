@@ -5876,6 +5876,11 @@ källa förekommer i flera Weblate-kontexter och omfattar därför fler PO-poste
 `blender-ui-sv-reviewed-20261107-batch-713-paint-grease-sequencer.po` är
 lokalt kontrollerad och ännu inte importerad.
 
+Den rekommenderade importfilen är nu
+`blender-ui-sv-reviewed-20261107-pending-batches-705-713.po`. Den samlar 130
+unika, ombaserade ändringar från batch 705–713 och ligger fortfarande långt
+under gränsen på 1 000 strängar per Blender Translate-import.
+
 Batch 711 rättar fyra återstående synliga sammansättningar inom shader- och
 textur-nodsystemet: *shadernoder*, *texturnod* och *shaderskriptnod*.
 Produktnamn och osäkra generatorsträngar har lämnats oförändrade. Deltafilen
