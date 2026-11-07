@@ -7735,3 +7735,16 @@ manuella deltafiler med dessa lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–887. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 888 granskar sex geometri-nodsträngar och normaliserar *meshnormaler*,
+*meshkanter*, *meshytor*, *meshgeometri* och *meshdatablock*. Batchen är
+lokalt klar och pushad till vårt arkiv, men ännu inte verifierad som
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-888-geometry-mesh.po` är en separat
+manuell deltafil med dessa sex, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-888.po` är den aktuella
+samlade manuella deltafilen för batch 811–888. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
