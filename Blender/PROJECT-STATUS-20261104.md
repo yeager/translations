@@ -5755,3 +5755,11 @@ innehåller 113 unika, lokalt kontrollerade och ännu ej importerade poster.
 Den ersätter samlingen 680–698 och ryms inom den överenskomna
 uppladdningsgränsen.
 
+Batch 700 förbättrar hjälptexten för fjärranslutna resursbiblioteks
+nedladdningscache. Den krystade sammansättningen *nedladdningscachekatalogen*
+ersätts med den tydligare formuleringen *cachekatalogen för nedladdning*.
+Den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-all-pending-batches-680-700.po` innehåller
+114 unika, lokalt kontrollerade och ännu ej importerade poster. Den ersätter
+samlingen 680–699 och ryms inom den överenskomna uppladdningsgränsen.
+
