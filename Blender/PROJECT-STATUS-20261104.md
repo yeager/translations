@@ -4632,3 +4632,12 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 558 granskar åtta poster för *Rotate Hair Curves*: rotationsvinkel,
+rotationsaxel och slumpvariation per hårkurva. Den förtydligar att den låser
+kurvans **ändpunkter**, inte obestämda ändar. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-558-rotate-hair-curves.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-558.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
