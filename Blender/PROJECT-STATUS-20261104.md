@@ -5814,3 +5814,10 @@ hörnpunkter, texturutrymme och attribut. Den samlade deltafilen
 22 unika, lokalt kontrollerade och ännu ej importerade ändringar. Den
 ersätter den mindre samlingen 705–706.
 
+Batch 708, som även har granskats oberoende, normaliserar modifierar- och
+geometrinodgruppen: *Mesh till volym*, *Volym till mesh*, kurv- och
+punktkonverteringar, automaskering och meshvalidering. Den samlade
+deltafilen `blender-ui-sv-reviewed-20261107-pending-batches-705-708.po`
+innehåller 34 unika, lokalt kontrollerade och ännu ej importerade ändringar.
+Den ersätter samlingen 705–707.
+
