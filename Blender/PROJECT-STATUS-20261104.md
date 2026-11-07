@@ -5646,3 +5646,9 @@ Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-686-grease-pencil-trim-fallback.po` är
 lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 687 normaliserar Carver-verktygets två Grease Pencil-tangentmappningar
+till samma struktur som intilliggande verktyg: *3D-vyverktyg: måla Grease
+Pencil, skärare* och dess reservmappning. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-687-grease-pencil-carver-keymap.po` är
+lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
