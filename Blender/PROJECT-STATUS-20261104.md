@@ -6813,3 +6813,11 @@ klar men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-814-compositor-terms.po` är en separat
 manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
 
+Batch 815 granskar elva kontexttexter för färghantering, komposition och
+kompositören. Den använder *visningstransformering*, *komposition*,
+*kompositionspass* och rätt böjning av *kompositör*. Batchen är lokalt klar
+men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-815-compositor-context.po` är en
+separat manuell deltafil med endast dessa elva nya, lokalt granskade poster.
+
