@@ -6113,6 +6113,12 @@ samlade importfilen för de fyra efterföljande batcherna. Den innehåller 26
 unika, lokalt granskade och ännu ej importerade ändringar och ryms väl inom
 Blender Translates gräns på 1 000 strängar per import.
 
+Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
+träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
+avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
+tekniska formuleringar. Inga ytterligare säkra massrättningar härleddes ur
+verktygsvarningarna.
+
 Batch 726 granskar 22 UI- och API-texter för Blenders formella
 animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
 *Action-kanal*, *Action-längd* och *Action-nyckelbildruta*, medan vanliga
