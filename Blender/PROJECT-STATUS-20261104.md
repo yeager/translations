@@ -7981,3 +7981,18 @@ skiljeteckensanmärkning väntad: engelskans *eg:* motsvaras av svenskans
 samlade manuella deltafilen för batch 811–907. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 908 rättar *taggade kanter* till *markerade kanter* i inställningen som
+bevarar skarpa kanter vid mjuk skuggning. Här avser *tagged* den interna
+markeringen för skärpa, inte de användarskapade taggar som finns i andra delar
+av Blender. Terminologilistan har uppdaterats med distinktionen. Batchen är
+lokalt klar och pushad till vårt arkiv, men ännu inte verifierad som
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-908-tagged-sharp-edges.po` är en
+separat manuell deltafil med den lokalt granskade ändringen.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-908.po` är den aktuella
+samlade manuella deltafilen för batch 811–908. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
