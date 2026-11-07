@@ -5147,3 +5147,12 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 615 granskar Grease Pencil-skulpteringsinställningar, axellås och
+styrkurvor. *Align* normaliseras till det riktningsspecifika *Rikta* när
+strecken anpassas till ett vyplan eller en 3D-markörs orientering. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-615-grease-pencil-sculpt-settings.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-615.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
