@@ -6035,6 +6035,11 @@ serverändringarna. Varje fil är betydligt mindre än gränsen på 1 000 poster
 per Blender Translate-import och kan därför importeras självständigt utan att
 blanda in redan verifierade batcher.
 
+Batch 731 normaliserar tio explicita `3D Viewport`-förekomster till
+*3D-vyport* enligt termbasen. Den lämnar generiska visningsfönster utan denna
+formella Blender-källterm oförändrade. Batchen är lokalt kontrollerad och ännu
+inte importerad.
+
 Batch 726 granskar 22 UI- och API-texter för Blenders formella
 animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
 *Action-kanal*, *Action-längd* och *Action-nyckelbildruta*, medan vanliga
