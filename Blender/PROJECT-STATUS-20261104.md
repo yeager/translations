@@ -6920,3 +6920,8 @@ Translate.
 `blender-ui-sv-reviewed-20261108-batch-824-mesh-conversion.po` är en separat
 manuell deltafil med endast dessa nio nya, lokalt granskade poster.
 
+`blender-ui-sv-reviewed-20261108-pending-batches-811-824.po` är den aktuella
+samlade manuella deltafilen för batch 811–824. Den innehåller 113 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
+
