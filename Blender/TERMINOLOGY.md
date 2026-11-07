@@ -486,6 +486,7 @@ Senast uppdaterad: 2026-11-06.
 | guide hairs | guidehår | Hjälphår som visar eller styr partikelhårets form. |
 | strand render | strårendering | Rendering av enskilda hår- eller partikelstrån. |
 | subframe | delbildruta | Simuleringssteg mellan hela bildrutor. |
+| Courant number | Couranttal | Dimensionslöst tal som begränsar partikelns relativa förflyttning per simuleringsteg. |
 | particle path | partikelbana | Bana som en partikel följer över tid. |
 | distance model | avståndsmodell | Modell som styr hur ljudets styrka minskar med avståndet. |
 | subframe | delbildruta | Simuleringssteg mellan hela bildrutor. |

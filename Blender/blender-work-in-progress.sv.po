@@ -44285,72 +44285,60 @@ msgid "Interpolated"
 msgstr "Interpolerad"
 
 #. :src: bpy.types.ParticleSettings.clump_curve
-#, fuzzy
 msgid "Clump Curve"
-msgstr "Klumpkurva"
+msgstr "Klumpningskurva"
 
 #. :src: bpy.types.ParticleSettings.clump_curve
-#, fuzzy
 msgid "Curve defining clump tapering"
-msgstr "Kurva som definierar klumpavsmalning"
+msgstr "Kurva som definierar avsmalning för klumpning"
 
 #. :src: bpy.types.ParticleSettings.clump_factor
 #. :src: bpy.types.ParticleSettingsTextureSlot.use_map_clump
 #: scripts/startup/bl_ui/properties_particle.py:2105
 #: scripts/startup/bl_ui/properties_particle.py:1934
 msgid "Clump"
-msgstr "Klumpa"
+msgstr "Klumpning"
 
 #. :src: bpy.types.ParticleSettings.clump_noise_size
-#, fuzzy
 msgid "Clump Noise Size"
-msgstr "Klumpens ljudstorlek"
+msgstr "Brusets storlek vid klumpning"
 
 #. :src: bpy.types.ParticleSettings.clump_noise_size
-#, fuzzy
 msgid "Size of clump noise"
-msgstr "Storlek på klumpens ljud"
+msgstr "Storlek på bruset vid klumpning"
 
 #. :src: bpy.types.ParticleSettings.collision_collection
 #. :src: bpy.types.SoftBodySettings.collision_collection
-#, fuzzy
 msgid "Limit colliders to this collection"
-msgstr "Begränsa kolliderare till denna samling"
+msgstr "Begränsa kollisionsobjekt till denna samling"
 
 #. :src: bpy.types.ParticleSettings.color_maximum
-#, fuzzy
 msgid "Color Maximum"
 msgstr "Färgmaximum"
 
 #. :src: bpy.types.ParticleSettings.color_maximum
-#, fuzzy
 msgid "Maximum length of the particle color vector"
 msgstr "Maximal längd på partikelns färgvektor"
 
 #. :src: bpy.types.ParticleSettings.count
-#, fuzzy
 msgid "Total number of particles"
 msgstr "Totalt antal partiklar"
 
 #. :src: bpy.types.ParticleSettings.courant_target
-#, fuzzy
 msgid "Adaptive Subframe Threshold"
 msgstr "Tröskelvärde för adaptiv delbildruta"
 
 #. :src: bpy.types.ParticleSettings.courant_target
-#, fuzzy
 msgid "The relative distance a particle can move before requiring more subframes (target Courant number); 0.01 to 0.3 is the recommended range"
-msgstr "Det relativa avstånd som en partikel kan förflytta sig innan fler subframes krävs (mål Courant-nummer); 0,01 till 0,3 är det rekommenderade intervallet"
+msgstr "Det relativa avstånd som en partikel kan förflytta sig innan fler delbildrutor krävs (målvärde för Couranttal); 0,01 till 0,3 är det rekommenderade intervallet"
 
 #. :src: bpy.types.ParticleSettings.create_long_hair_children
-#, fuzzy
 msgid "Long Hair"
 msgstr "Långt hår"
 
 #. :src: bpy.types.ParticleSettings.create_long_hair_children
-#, fuzzy
 msgid "Calculate children that suit long hair well"
-msgstr "Beräkna barn som passar bra till långt hår"
+msgstr "Beräkna barnpartiklar som passar bra för långt hår"
 
 #. :src: bpy.types.ParticleSettings.damping
 #. :src: bpy.types.Itasc.damping_max
@@ -44360,61 +44348,52 @@ msgid "Damp"
 msgstr "Dämpning"
 
 #. :src: bpy.types.ParticleSettings.damping
-#, fuzzy
 msgid "Amount of damping"
 msgstr "Mängd dämpning"
 
 #. :src: bpy.types.ParticleSettings.display_color
 #: scripts/startup/bl_ui/space_view3d_toolbar.py:798
 #: source/blender/editors/space_graph/graph_buttons.cc:230
-#, fuzzy
 msgid "Display Color"
 msgstr "Visningsfärg"
 
 #. :src: bpy.types.ParticleSettings.display_color
-#, fuzzy
 msgid "Display additional particle data as a color"
 msgstr "Visa ytterligare partikeldata som en färg"
 
 #. :src: bpy.types.ParticleSettings.display_method
-#, fuzzy
 msgctxt "ParticleSettings"
 msgid "Particle Display"
 msgstr "Partikelvisning"
 
 #. :src: bpy.types.ParticleSettings.display_method
 msgid "How particles are displayed in viewport"
-msgstr "Hur partiklar visas i vy"
+msgstr "Hur partiklar visas i vyporten"
 
 #. :src: bpy.types.ParticleSettings.display_method:'RENDER'
-#, fuzzy
 msgctxt "ParticleSettings"
 msgid "Rendered"
-msgstr "Rendera"
+msgstr "Renderad"
 
 #. :src: bpy.types.ParticleSettings.display_method:'DOT'
-#, fuzzy
 msgctxt "ParticleSettings"
 msgid "Point"
-msgstr "Poäng"
+msgstr "Punkt"
 
 #. :src: bpy.types.ParticleSettings.display_method:'CIRC'
-#, fuzzy
 msgctxt "ParticleSettings"
 msgid "Circle"
 msgstr "Cirkel"
 
 #. :src: bpy.types.ParticleSettings.display_method:'CROSS'
-#, fuzzy
 msgctxt "ParticleSettings"
 msgid "Cross"
-msgstr "|Icon for No Paint| **Korset** måste vara aktivt när du inte vill ha någon fyllnings- eller strokefärg."
+msgstr "Kors"
 
 #. :src: bpy.types.ParticleSettings.display_method:'AXIS'
-#, fuzzy
 msgctxt "ParticleSettings"
 msgid "Axis"
-msgstr "Axlar"
+msgstr "Axel"
 
 #. :src: bpy.types.ParticleSettings.display_percentage
 #. :src: bpy.types.Volume.display
@@ -44435,7 +44414,6 @@ msgid "Display"
 msgstr "Visa"
 
 #. :src: bpy.types.ParticleSettings.display_percentage
-#, fuzzy
 msgid "Percentage of particles to display in 3D view"
 msgstr "Procentandel partiklar som ska visas i 3D-vyn"
 
@@ -44473,9 +44451,8 @@ msgid "Steps"
 msgstr "Steg"
 
 #. :src: bpy.types.ParticleSettings.display_step
-#, fuzzy
 msgid "How many steps paths are displayed with (power of 2)"
-msgstr "Hur många stegbanor visas med (potens av 2)"
+msgstr "Antal steg som partikelbanor visas med (potens av 2)"
 
 #. :src: bpy.types.ParticleSettings.distribution
 #. :src: bpy.types.ShaderNodeBsdfAnisotropic.distribution
@@ -44485,22 +44462,18 @@ msgstr "Hur många stegbanor visas med (potens av 2)"
 #. :src: bpy.types.ShaderNodeBsdfRefraction.distribution
 #. :src: bpy.types.ShaderNodeBsdfSheen.distribution
 #: scripts/startup/bl_ui/properties_render.py:307
-#, fuzzy
 msgid "Distribution"
 msgstr "Fördelning"
 
 #. :src: bpy.types.ParticleSettings.distribution
-#, fuzzy
 msgid "How to distribute particles on selected element"
 msgstr "Hur man fördelar partiklar på valt element"
 
 #. :src: bpy.types.ParticleSettings.distribution:'JIT'
-#, fuzzy
 msgid "Jittered"
-msgstr "Slumpad"
+msgstr "Slumpmässigt förskjuten"
 
 #. :src: bpy.types.ParticleSettings.drag_factor
-#, fuzzy
 msgid "Amount of air drag"
 msgstr "Mängden luftmotstånd"
 
