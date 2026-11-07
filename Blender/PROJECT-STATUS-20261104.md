@@ -5808,3 +5808,9 @@ Den samlade deltafilen
 elva unika, lokalt kontrollerade och ännu ej importerade ändringar från
 batch 705–706.
 
+Batch 707 fortsätter i Mesh-RNA:s kärnegenskaper: kanter, polygoner,
+hörnpunkter, texturutrymme och attribut. Den samlade deltafilen
+`blender-ui-sv-reviewed-20261107-pending-batches-705-707.po` innehåller
+22 unika, lokalt kontrollerade och ännu ej importerade ändringar. Den
+ersätter den mindre samlingen 705–706.
+
