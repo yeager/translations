@@ -7189,3 +7189,17 @@ separat manuell deltafil med endast dessa 18, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–846. Den innehåller 380 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 847 normaliserar 19 strängar för meshredigering: borttagning, loopar,
+normaler, urval, utjämning och skapande av primitiv. Den använder *meshdata*,
+*meshloop*, *meshelement*, *cirkelmesh*, *kubmesh* och *Suzanne-mesh* i stället
+för den generiska geometribetydelsen *nät*. Batchen är lokalt klar men ännu
+inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-847-mesh-edit-tools.po` är en separat
+manuell deltafil med endast dessa 19, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-847.po` är den aktuella
+samlade manuella deltafilen för batch 811–847. Den innehåller 388 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
