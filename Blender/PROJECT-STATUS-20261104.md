@@ -173,6 +173,17 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 507 granskar 16 grundposter för Movie Clip: externa filmfiler,
+bildfrekvens, bildrutor, källdata, proxyer och tidskod. Den behåller
+Blenders API-namn *MovieClip* och produktnamnet *Grease Pencil*, men använder
+svenska termer som *filmklipp*, *förhandsgranskningsproxy* och
+*tidskodsindex*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-507-movie-clip-basics.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-507.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade
