@@ -5659,3 +5659,10 @@ verktygsnamn, platshållare eller API-termer. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-688-keymap-fallback-suffixes.po` är
 lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 689 rättar WindowManager-gruppen för armaturredigering. *Armering* är
+en byggteknisk term och ersätts av Blenders korrekta *armatur* i gruppetiketten
+och tio verktygsnamn. Formen *3D-vyverktyg* och suffixet *(reserv)* görs
+samtidigt konsekventa inom just denna verktygsgrupp. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-689-armature-keymaps.po` är lokalt
+kontrollerad och ännu inte importerad i Blender Translate.
+

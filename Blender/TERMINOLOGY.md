@@ -559,6 +559,7 @@ Senast uppdaterad: 2026-11-07.
 | bone collection | bensamling | Blender-samling för ben; skriv ihop i synlig UI-text. |
 | Envelope deform | kuvertdeformering | Deformeringsmetoden som använder benens kuvertvolymer; använd i Bens/Armaturens egenskaper. |
 | armature-relative | relativt riggskelett | Position eller orientering uttryckt i armaturens lokala koordinatsystem. |
+| Armature (WindowManager) | armatur | Blenders skelettobjekt i tangentmappningar och verktygsnamn. Använd inte *armering*, som är en byggteknisk term. |
 | inherit scale | ärv skala | Armaturinställning som styr hur ett underordnat ben tar emot skalning från ett överordnat ben. |
 | shear | skjuvning | Skev transformationskomponent i armatur- och matrisinställningar; använd inte vardagliga *saxning*. |
 | bone head / tail | benhuvud / benspets | Blenders ändpunkter för ett ben i armatur- och rörelsebanekontext. Använd formerna konsekvent även i dataegenskaper; skriv inte *svans* eller *stjärtände*. |
