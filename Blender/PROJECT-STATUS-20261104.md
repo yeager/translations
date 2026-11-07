@@ -6289,6 +6289,17 @@ V2-varning i en etikett. Den är lokalt klar men ännu inte importerad.
 manuella importfilen. Den innehåller 23 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 763 normaliserar fem operatörs- och feltexter för nodernas
+gruppindata, Cryptomatte-indata och zonindata. De följer den fastställda
+distinktionen *nodindata* snarare än den generella formen *inmatning*.
+Deltafilen har passerat `msgfmt` och `l10n-lint`; `svlang` rapporterar endast
+projektspecifika sammansättningar och en falsk V2-varning i en etikett. Den
+är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-761-763.po` är den aktuella
+manuella importfilen. Den innehåller 28 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
