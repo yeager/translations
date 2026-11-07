@@ -383,6 +383,7 @@ Senast uppdaterad: 2026-11-06.
 | pivot / Pivot Constraint | vridpunkt / vridpunktsbegränsning | Rotationspunkt som kan ställas in för ett objekt. Använd *vridpunkt*, inte det engelska *pivot* eller *svängpunkt*. |
 | Shrinkwrap | Shrinkwrap | Behåll Blenders synliga funktionsnamn. Funktionen anpassar meshens hörnpunkter till en målyta; den är inte förpackningsmaterial som *krympfilm*. Sammansättningar skrivs *Shrinkwrap-modifierare* och *Shrinkwrap-begränsning*. |
 | hair curve / hair root / hair tip | hårkurva / hårrot / hårspets | Avser den hårgeometri som bearbetas av Blenders Hair Nodes. Skriv därför *hårkurvor*, *rot* och *spets* i de här nodernas beskrivningar, inte *hårets kurvor*, *topp* eller engelska *tips*. |
+| hair curve profile | hårkurvprofil | Profil som styr radien längs en hårkurva. Använd den sammanskrivna UI-termen för noden *Set Hair Curve Profile*. |
 | Roll Direction (Hair Nodes) | rullningsriktning | Riktningen som en hårkurva rullas kring sin axel. Använd *rullning* och *rullningsriktning*, inte det ospecificerade *riktning*. |
 | Curve Info / Curve Root / Curve Segment / Curve Tip | Kurvinformation / Kurvrot / Kurvsegment / Kurvspets | Namn på noder som läser data ur hårkurvor. De är sammansättningar, inte fraser som *Kurva rot*. |
 | hair attachment | hårinfästning | Hårkurvans fästning vid en meshyta. Använd exempelvis *infästnings-UV*, inte det felaktiga *bilaga-UV*. |

@@ -4805,3 +4805,12 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 576 granskar åtta poster för *Set Hair Curve Profile*, som styr
+hårkurvornas radie längs deras längd med en profil. Den normaliserar
+*hårkurvprofil*, *Ersätt radie* och de närliggande radiereglernas texter.
+Deltafilen `blender-ui-sv-reviewed-20261107-batch-576-set-hair-curve-profile.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-576.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
