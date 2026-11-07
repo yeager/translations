@@ -7257,3 +7257,16 @@ manuell deltafil med endast dessa 18, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–851. Den innehåller 423 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 852 normaliserar 12 strängar för voxelommeshning, emittermesh och
+skulpteringsdetaljer. Den använder *sluten mesh*, *emittermesh*, *meshen* och
+*meshdetalj* i stället för den generiska geometribetydelsen *nät*. Batchen är
+lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-852-mesh-sculpt-detail.po` är en separat
+manuell deltafil med endast dessa 12, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-852.po` är den aktuella
+samlade manuella deltafilen för batch 811–852. Den innehåller 431 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
