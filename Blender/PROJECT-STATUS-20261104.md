@@ -5938,14 +5938,20 @@ meshdatatyp samt fler Extensions-texter. Den bevarar det synliga produktnamnet
 *texturnod* och *förråd*. Operator-kontexten för ”Add Repository…” verifierades
 separat vid sammanslagningen.
 
-Den aktuella rekommenderade importfilen är
-`blender-ui-sv-reviewed-20261107-pending-batches-714-718.po`. Den innehåller
-109 lokalt kontrollerade, ännu ej importerade poster från batch 714–718 och är
-validerad med `msgfmt`, `l10n-lint`, sammanslagningskontroll, diffkontroll och
-Gitleaks.
-
 Batch 718 normaliserar nod- och animationsbegrepp enligt termbasen:
 *shadernod*, *visningsnod*, *kompositör*, *dopeblad*, *drivrutin* och
 *filutdata*. Ändringarna är begränsade till explicita datatyper, operatorer och
 paneler; generiska och tvetydiga viewer-strängar har lämnats orörda.
+
+Blender Translate-importen av batch 714–718 är verifierad den 7 november.
+Servern behandlade 109 poster: 97 uppdaterades, 12 hoppades över och 0
+saknades. Filen `blender-ui-sv-reviewed-20261107-pending-batches-714-718.po`
+ska därför inte laddas upp igen. Nästa deltafil byggs endast av senare,
+separat granskade batcher.
+
+Batch 719 är den nästa fristående, lokalt kontrollerade deltafilen. Den
+normaliserar 17 kontextbundna material-, kompositör- och meshtermer, bland
+annat *färggradient*, *underytsspridning*, *meshkant* och *meshyta*. Den är
+ännu inte importerad och ska inte blandas ihop med de redan behandlade
+batcherna 705–718.
 
