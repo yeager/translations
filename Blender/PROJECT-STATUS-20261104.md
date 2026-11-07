@@ -4991,3 +4991,12 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 598 granskar filbläddrarens filväljare, saknade filer, sökvägar,
+paketering av externa resurser och katalognavigering. Den rättar bland annat
+*banor* och *vägarna* till tekniskt korrekta *sökvägar*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-598-file-browser-navigation-and-packaging.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-598.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
