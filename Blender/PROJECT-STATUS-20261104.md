@@ -4661,3 +4661,13 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 561 granskar elva poster för *Clump Hair Curves*, som grupperar
+hårkurvor kring guidekurvor. Den använder *klumpning*, *guidekurva*,
+*guideindexkarta* och *slumpfrö* i enlighet med terminologin och ersätter
+engelska *operation* med *åtgärd*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-561-clump-hair-curves.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-561.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
