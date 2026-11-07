@@ -6167,6 +6167,16 @@ importfilen för de två nya batcherna. Den innehåller tio unika, lokalt
 granskade ändringar och ryms väl inom Blender Translates gräns på 1 000
 strängar per manuell import.
 
+Batch 750 granskar den formella animationsdatatypen *Action* i dess egna
+RNA-, NLA- och posebibliotekskontexter. Här behålls produktnamnet i former
+som *Action-slot* och *skiktad Action*; vanliga åtgärder och XR-händelser har
+medvetet lämnats utanför. Deltafilen innehåller arton lokalt granskade
+ändringar och är ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-748-750.po` ersätter
+748–749-samlingen. Den innehåller 28 unika, lokalt granskade och ännu inte
+importerade ändringar.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
