@@ -139,10 +139,16 @@ ersätter den bokstavliga och svårlästa formen *granngeometri* med
 Deltafilen är lokalt kontrollerad men ännu inte importerad i Blender
 Translate.
 
-Den aktuella samlingsfilen för batch 626–645 är
-`blender-ui-sv-reviewed-20261107-batches-626-645-combined.po` med 68
+Batch 646 granskar Asset Browser-inställningen för Essentials. Den använder
+*fjärranslutna resurser* i stället för den svårlästa formen *fjärrresurser*
+och det svenska UI-namnet *Grundresurser* för Essentials-resursbiblioteket.
+Deltafilen är lokalt kontrollerad men ännu inte importerad i Blender
+Translate.
+
+Den aktuella samlingsfilen för batch 626–646 är
+`blender-ui-sv-reviewed-20261107-batches-626-646-combined.po` med 69
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–644 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–645 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
