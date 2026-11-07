@@ -5183,3 +5183,12 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 619 granskar armaturers bensamlingar, visningsformer och poser. Den
+rättar armaturtermen *Envelope* till termbasens *Omslutning* och kontrollerar
+viloposition, poseringsläge, B-Bone och redigeringsläge. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-619-armature-display-and-poses.po` och
+den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-619.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
