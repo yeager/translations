@@ -6891,3 +6891,11 @@ lokalt klar men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-821-mesh-core-context.po` är en
 separat manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
 
+Batch 822 granskar tolv verktygstexter som skapar Mesh-primitiver. Den
+använder *mesh* som Blenders datatyp även för primitivernas former, till
+exempel *kubmesh*, *cirkelmesh*, *torusmesh* och *Suzanne-mesh*. Batchen är
+lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-822-mesh-primitives.po` är en separat
+manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
+
