@@ -4415,3 +4415,16 @@ Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-464-brush-frontface-and-pressure.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
+Batch 537 granskar 23 partikelposter för modifieringsstapel, massa, föräldrar,
+grovhet, instansskala, egenpåverkan, storleksavböjning, strårendering,
+vridning, samlingar, utsläpp per yta och virtuella föräldrar. Den bekräftar
+*samling*, *yta* och *virtuella föräldrar* enligt projektets terminologi,
+ersätter den oidiomatiska etiketten *Storlek Avböjning* med
+*storleksavböjning* och rättar *strandprimitiv* till *stråprimitiv* i
+hårpartikelkontexten. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-537-particle-controls-and-collections.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-537.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
