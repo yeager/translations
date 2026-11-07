@@ -6821,3 +6821,8 @@ men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-815-compositor-context.po` är en
 separat manuell deltafil med endast dessa elva nya, lokalt granskade poster.
 
+`blender-ui-sv-reviewed-20261108-pending-batches-811-815.po` samlar batch
+811–815 för en manuell import. Den innehåller 51 poster och ligger långt under
+Blender Translates gräns på 1 000 poster per uppladdning. Den är lokalt
+validerad men inte importerad.
+
