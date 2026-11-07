@@ -6425,6 +6425,16 @@ men ännu inte importerad.
 manuella importfilen. Den innehåller 98 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 776 granskar elva operatörs- och typtexter för noder, zoner och uttag.
+Den normaliserar *indatanod*, *utdatanod*, *indatalänk* och
+*indata-/utdatauttag*. `msgfmt` och `l10n-lint` passerar. `svlang` ger enbart
+falska V2-varningar för etiketter och imperativ; Hunspell saknar de avsedda
+Blender-sammansättningarna. Batchen är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-776.po` är den aktuella
+manuella importfilen. Den innehåller 109 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
