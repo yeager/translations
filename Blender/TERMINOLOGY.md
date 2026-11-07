@@ -480,6 +480,7 @@ Senast uppdaterad: 2026-11-06.
 | dynamic topology sculpting | skulptering med dynamisk topologi | Skulpteringsläge som ändrar meshtopologin dynamiskt. |
 | child particle | barnpartikel | Partikel som härleds från en föräldrapartikel. |
 | volume scatter | volymspridning | Spridning av ljus i ett volymmaterial. |
+| ray visibility: camera, diffuse, glossy, shadow, transmission, volume scatter | synlighet för kamera, diffust ljus, blanka reflektioner, skuggor, transmission, volymspridning | Cycles kontroller för vilka stråltyper som kan se objektet. Beskrivningarna använder den mer exakta formen *synlighet för …strålar*. |
 | guide hairs | guidehår | Hjälphår som visar eller styr partikelhårets form. |
 | strand render | strårendering | Rendering av enskilda hår- eller partikelstrån. |
 | subframe | delbildruta | Simuleringssteg mellan hela bildrutor. |
