@@ -333,6 +333,7 @@ Senast uppdaterad: 2026-11-06.
 | face corner | ythörn | Meshens hörn per yta; skiljs från en delad hörnpunkt. |
 | Data Transfer | dataöverföring | Blender-modifieraren som överför meshdata mellan objekt. |
 | mesh | mesh | Behåll när det avser Blender-datatypen eller dess etablerade UI-beteckning. |
+| object bounding box | begränsningsbox | Objektets tredimensionella gränsvolym i objektrymd. Skilj från *begränsningsruta* i filmspårning och bildredigering. |
 | bevel | avfasning / fasning | *Avfasning* för UI-egenskapen och modifieraren, *fasning* kan beskriva resultatet i löpande text. |
 | Bevel Modifier | avfasningsmodifierare | Blender-modifierarens belagda UI- och manualform. |
 | Bevel Vertices / Bevel Edges | Fasa hörnpunkter / Fasa kanter | Synliga operatörsnamn. |
