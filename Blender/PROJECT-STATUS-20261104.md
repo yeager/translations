@@ -6040,6 +6040,11 @@ Batch 731 normaliserar tio explicita `3D Viewport`-förekomster till
 formella Blender-källterm oförändrade. Batchen är lokalt kontrollerad och ännu
 inte importerad.
 
+Batch 732 normaliserar nio explicit shadernodbundna UI- och feltexter.
+*Shadernod*, *shadernodträd* och *shadernodredigerare* följer termbasen;
+generella skuggningsbegrepp utan nodkontext har inte ändrats. Batchen är lokalt
+kontrollerad och ännu inte importerad.
+
 Batch 726 granskar 22 UI- och API-texter för Blenders formella
 animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
 *Action-kanal*, *Action-längd* och *Action-nyckelbildruta*, medan vanliga
