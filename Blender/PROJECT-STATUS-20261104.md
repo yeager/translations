@@ -7563,3 +7563,15 @@ deltafil med dessa nio, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–873. Den innehåller 627 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 874 granskar två återstående shadernodträdstermer: ett infogat
+shadernodträd och ett felmeddelande vid sökning efter material eller ljus.
+Batchen är lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-874-shader-node-tree.po` är en separat
+manuell deltafil med dessa två, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-874.po` är den aktuella
+samlade manuella deltafilen för batch 811–874. Den innehåller 629 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
