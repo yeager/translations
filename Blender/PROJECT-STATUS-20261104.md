@@ -6971,3 +6971,11 @@ samlade manuella deltafilen för batch 811–828. Den innehåller 159 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
 
+Batch 829 granskar tolv Mesh-texter för vätskeemission, geometri, skulptering
+och felhantering. Den normaliserar *meshytan*, *meshens topologi*,
+*meshmaterial* och *meshen* i både användartexter och tekniska diagnoser.
+Batchen är lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-829-mesh-context.po` är en separat
+manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
+

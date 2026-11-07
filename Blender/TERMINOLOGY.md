@@ -165,6 +165,7 @@ Senast uppdaterad: 2026-11-07.
 | Byte Color | Bytefärg | Datatyp för färgattribut. Skriv ihop och behåll den tekniska typen *Byte*. |
 | mesh | mesh | Blenders datatyp och samlingstyp. Behåll *mesh* även i plural; använd exempelvis *Huvudmesh* och *Samling av mesh*, inte *nät* eller *maskor*. |
 | mesh attribute / mesh normal | meshattribut / meshnormal | Tekniska data som hör till Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätattribut* eller *nätnormal*. |
+| mesh material | meshmaterial | Material som är kopplat till en Blender-mesh. Använd den etablerade sammansättningen, inte *nätmaterial*. |
 | Float2 Attribute | Float2-attribut | RNA-attributtyp. Behåll typnamnet och fog med bindestreck till svenska *attribut*. |
 | timescale | tidsskala | Faktor som skalar simuleringens tidsförlopp. |
 | curve mapping | kurvkartläggning | Kartläggning med kurvor; använd den här sammansättningen i RNA- och modifierarinställningar. |
