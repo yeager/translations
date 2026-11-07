@@ -477,7 +477,7 @@ Senast uppdaterad: 2026-11-06.
 | Node Editor | nodredigerare | UI-namn för redigeraren med nodträd. RNA-beskrivningen *Space Node Editor* använder formen *nodredigerarens område*. |
 | Shader Editor | shaderredigerare | UI-namn för nodredigeraren för shaders. Behåll facktermen *shader* och skriv sammansättningen ihop. |
 | Texture Node Editor | texturnodredigerare | UI-namn för nodredigeraren för texturer. |
-| compositor | komposition | Blender-funktionen för bildkomposition; *Compositor Node Tree* blir *kompositionsnodträd*. |
+| compositor (process) | komposition | Blender-funktionen för bildkomposition; *Compositor Node Tree* blir *kompositionsnodträd*. |
 | selection set | urvalsuppsättning | Namngiven samling av valbara element. |
 | delta location | deltaförflyttning | Extra förflyttning som läggs till ett objekts position. |
 | empty | tomobjekt | Blender-objekt utan egen geometri, till exempel för referensbilder eller hjälpkontroller. |
@@ -734,7 +734,7 @@ Senast uppdaterad: 2026-11-06.
 | bundle (motion tracking) | rekonstruerad punkt | Den 3D-punkt som återuppbyggs från ett spår. |
 | solver (motion tracking) | lösare | Beräkningsmetod för kamera- eller objektspårning; använd *lösare* i förklarande UI-text. |
 | Camera Solver Constraint | kameralösarbegränsning | Begränsning som gör att en Blender-kamera följer den rekonstruerade rörelsen hos en fysisk kamera från ett filmklipp. |
-| compositor | kompositör | Blenders nodbaserade miljö för bildkomposition; använd *kompositör*, inte det engelska *compositor*. |
+| compositor (environment) | kompositör | Blenders nodbaserade miljö för bildkomposition; använd *kompositör*, inte det engelska *compositor*. |
 | matte (keying) | matta | Friläggningsmask som beskriver genomskinlighet, inte en fysisk matt yta. |
 | highlight (color correction) | högdager | Ljusaste tonområdet i bild- och färgkorrigeringskontext. |
 | midtone (color correction) | mellanton | Mellanområdet i bildens tonomfång. |
