@@ -6049,6 +6049,12 @@ Batch 733 normaliserar sju explicita Color Ramp-åtgärder och hjälprutor till
 *färggradient* och *färgstopp*. Batchen är lokalt kontrollerad och ännu inte
 importerad.
 
+Batch 734 rättar tre etiketter för Blenders formella animationsdatatyp
+*Action*. Den tidigare formen *Åtgärd* blandade ihop datatypen med en allmän
+handling. Den nya formen *Action* följer terminologilistan i ID-, NLA-,
+Dope Sheet- och Rigify-kontext. Batchen är lokalt kontrollerad och ännu inte
+importerad.
+
 För manuell import finns även
 `blender-ui-sv-reviewed-20261107-pending-batches-724-733.po`. Den förenar
 batcherna 724–733 till 132 unika poster. De två poster som förekommer i både
