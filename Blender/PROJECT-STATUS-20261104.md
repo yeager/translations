@@ -5862,6 +5862,12 @@ Efter batch 712 ersätts den tidigare samlingsfilen av
 fortfarande långt under Weblates gräns på 1 000 strängar. Detta är den
 rekommenderade enda importfilen för batch 705–712.
 
+Samlingsfilen har dessutom kontrollerats med `svlang` och `hunspell-sv`.
+Deras enda avvikelser är förväntade, projektspecifika fackord och
+sammansättningar som redan omfattas av termbasen, bland annat *mesh*,
+*shadernod*, *geometrinod*, *tessellering* och *färggradient*. Inga nya
+språkfel eller otillåtna tredubbla konsonanter hittades.
+
 Batch 711 rättar fyra återstående synliga sammansättningar inom shader- och
 textur-nodsystemet: *shadernoder*, *texturnod* och *shaderskriptnod*.
 Produktnamn och osäkra generatorsträngar har lämnats oförändrade. Deltafilen
