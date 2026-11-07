@@ -6504,6 +6504,14 @@ Batchen är lokalt klar men ännu inte importerad.
 manuella importfilen. Den innehåller 161 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 784 granskar fem valideringsfel för nodträd. Sammansättningarna följer
+terminologin: *kompositionsnodträd*, *geometrinodträd* och *shadernodträd*.
+Batchen är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-784.po` är den aktuella
+manuella importfilen. Den innehåller 166 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
