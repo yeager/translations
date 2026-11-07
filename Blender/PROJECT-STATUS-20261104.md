@@ -5926,3 +5926,14 @@ Den ersättande rekommenderade importfilen är
 sig från exportens aktuella översättning; ingen post är därför en överflödig
 omimport. Filen är fortfarande väl under gränsen på 1 000 strängar.
 
+Blender Translate-importen av batch 705–713 är verifierad den 7 november.
+Servern behandlade 130 poster: 119 uppdaterades, 11 hoppades över och 0
+saknades. Den tidigare samlingsfilen för 705–713 ska därför inte laddas upp
+igen. Den äldre exporten på lokal disk är nu delvis föråldrad och används bara
+för fortsatt lokal terminologigranskning tills en ny export har hämtats.
+
+Den aktuella rekommenderade importfilen är
+`blender-ui-sv-reviewed-20261107-pending-batches-714-716.po`. Den innehåller
+55 lokalt kontrollerade, ännu ej importerade poster från batch 714–716 och är
+validerad med `msgfmt`, `l10n-lint`, diffkontroll och Gitleaks.
+
