@@ -33,6 +33,12 @@ Batch 629 rättar XR-teleporteringens *Hit Color* till *Färg vid träff*.
 den redan använda parallellformen *Färg vid miss*. Deltafilen är lokalt klar
 och ännu inte importerad i Blender Translate.
 
+De 17 granskade posterna i batch 626–629 finns även i den samlade,
+importklara filen
+`blender-ui-sv-reviewed-20261107-batches-626-629-combined.po`. Den ersätter
+inte de spårbara delbatcherna i arkivet, men är den fil som ska användas vid
+en enda manuell import.
+
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
 skickat in samtliga sex delar manuellt till Blender Translate. Importresultat
