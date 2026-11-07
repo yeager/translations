@@ -7522,3 +7522,17 @@ separat manuell deltafil med endast dessa 18, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–870. Den innehåller 558 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 871 granskar 61 strängar för Shrinkwrap, geometri­noder, UV, kurvor,
+modifierare och simuleringsresurser. Den ersätter äldre nätformer med
+*meshen*, *meshobjekt*, *meshplan*, *meshö*, *meshinstans*, *ytmesh* och
+*målmesh*, samt använder verbet *ommesha* för operatören `Remesh`. Batchen är
+lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-871-mesh-geometry-nodes.po` är en
+separat manuell deltafil med endast dessa 61, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-871.po` är den aktuella
+samlade manuella deltafilen för batch 811–871. Den innehåller 619 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.

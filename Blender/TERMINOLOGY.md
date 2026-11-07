@@ -165,6 +165,7 @@ Senast uppdaterad: 2026-11-07.
 | Byte Color | Bytefärg | Datatyp för färgattribut. Skriv ihop och behåll den tekniska typen *Byte*. |
 | mesh | mesh | Blenders datatyp och samlingstyp. Behåll *mesh* även i plural; använd exempelvis *Huvudmesh*, *Samling av mesh*, *kubmesh* och *meshliknande*, inte *nät* eller *maskor*. |
 | mesh cache / mesh filter / mesh plane | meshcache / meshfilter / meshplan | UI-namn och tekniska sammansättningar för Blenders meshtyp. Skriv ihop dem och ersätt inte *mesh* med *nät*. |
+| mesh seam / mesh island / mesh instance | meshsöm / meshö / meshinstans | Tekniska delar och instanser av Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätsöm*, *nätö* eller *nätinstans*. |
 | mesh attribute / mesh normal | meshattribut / meshnormal | Tekniska data som hör till Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätattribut* eller *nätnormal*. |
 | mesh material | meshmaterial | Material som är kopplat till en Blender-mesh. Använd den etablerade sammansättningen, inte *nätmaterial*. |
 | mesh geometry / mesh detail / mesh element | meshgeometri / meshdetalj / meshelement | Geometri, detalj och valbart element som hör till Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätgeometri*, *nätdetalj* eller *nätelement*. |
