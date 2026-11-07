@@ -7061,3 +7061,17 @@ separat manuell deltafil med endast dessa 32, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–837. Den innehåller 253 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 838 rättar tre fel i begränsningskontext. Den skiljer Blenders
+*constraint* från ett logiskt villkor och ändrar de felaktiga verbformerna
+*tillämpade* och *kopierade begränsning* till adjektiven *tillämpad* och
+*kopierad begränsning*. Batchen är lokalt klar men ännu inte importerad i
+Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-838-constraint-grammar.po` är en
+separat manuell deltafil med endast dessa tre, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-838.po` är den aktuella
+samlade manuella deltafilen för batch 811–838. Den innehåller 256 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
