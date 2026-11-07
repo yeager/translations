@@ -3693,3 +3693,10 @@ oskärpning. Den följer terminologins etablerade blandningslägen, bland annat
 `blender-ui-sv-reviewed-20261107-batch-454-brush-blending-modes.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
+Batch 455 granskar 38 penselposter för deformation, gränsavtagande och
+tygsimulering. Den behåller de etablerade UI-termerna *nypunkt*, *ormkrok* och
+*simuleringsavklingning* samt rättar den engelsknära etiketten *Loopa och
+invertera* till *Slinga och invertera*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-455-brush-deformation-and-cloth.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
