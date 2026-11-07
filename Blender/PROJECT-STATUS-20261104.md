@@ -326,6 +326,10 @@ det synliga tekniknamnet `Constant Rate Factor (CRF)` och rättar bestämd form 
 inställningen för fyrkanaligt ljud. Deltafilen är lokalt kontrollerad och ännu
 inte importerad i Blender Translate.
 
+Batch 677 rättar etiketten för begränsning till aktiv åtgärdsslot i Dope Sheet.
+Den följer den närliggande hjälpradens uttryck *sloten för det aktiva objektet*.
+Deltafilen är lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
 `blender-ui-sv-reviewed-20261107-batches-626-674-combined.po` med 300
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
