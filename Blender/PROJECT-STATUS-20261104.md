@@ -6435,6 +6435,17 @@ Blender-sammansättningarna. Batchen är lokalt klar men ännu inte importerad.
 manuella importfilen. Den innehåller 109 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 777 granskar nio validerings- och feltexter för nodgruppers gränssnitt.
+Den använder konsekvent *geometriutdata*, *utdatauttag*, *färgindata* och
+*indata-/utdatariktning*. `msgfmt` och `l10n-lint` passerar. `svlang` och
+Hunspell rapporterar endast avsiktliga, tekniska Blender-sammansättningar
+och två falska V2-varningar i korrekta satsdelar. Batchen är lokalt klar men
+ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-777.po` är den aktuella
+manuella importfilen. Den innehåller 118 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
