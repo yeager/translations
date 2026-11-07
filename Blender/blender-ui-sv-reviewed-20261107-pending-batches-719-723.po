@@ -1,0 +1,382 @@
+# Blender UI Swedish review delta – materials, compositor and mesh terminology
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
+"PO-Revision-Date: 2026-11-07 19:45+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. :src: bpy.types.Light.use_nodes
+msgid "Use shader nodes to render the light"
+msgstr "Använd shadernoder för att rendera ljuset"
+
+#. :src: bpy.types.NODE_OT_nw_lazy_mix
+msgid "Add a Mix RGB/Shader node by interactively drawing lines between nodes"
+msgstr ""
+"Lägg till en Mix RGB/shadernod genom att interaktivt rita linjer mellan "
+"noderna"
+
+#. :src: bpy.types.LineStyleColorModifier_Noise.color_ramp
+#. :src: bpy.types.LineStyleColorModifier_Tangent.color_ramp
+msgid "Color ramp used to change line color"
+msgstr "Färggradient som används för att ändra linjefärg"
+
+#. :src: bpy.types.LineStyleColorModifier_Material.use_ramp
+msgid "Use color ramp to map the BW average into an RGB color"
+msgstr ""
+"Använd en färggradient för att färgkartlägga BW-medelvärdet till en RGB-färg"
+
+#. :src: bpy.types.ShaderNodeBsdfPrincipled.subsurface_method
+#. :src: bpy.types.ShaderNodeSubsurfaceScattering.falloff
+msgid "Method for rendering subsurface scattering"
+msgstr "Metod för att återge underytsspridning"
+
+#. :src: bpy.types.OBJECT_OT_bake.pass_filter
+msgid "Filter to combined, diffuse, glossy, transmission and subsurface passes"
+msgstr ""
+"Filtrera till kombinerade, diffusa, glansiga, transmissions- och "
+"underytsspridningspass"
+
+#. :src: bpy.types.RenderSettings.compositor_denoise_device
+msgid "Compositor Denoise Node Device"
+msgstr "Enhet för brusreduceringsnod i kompositören"
+
+#. :src: bpy.types.RenderSettings.compositor_denoise_device
+msgid "The device to use to process the denoise nodes in the compositor"
+msgstr ""
+"Enheten som ska användas för att bearbeta brusreduceringsnoderna i "
+"kompositören"
+
+#. :src: bpy.types.RenderSettings.compositor_denoise_device:'AUTO'
+msgid "Use the same device used by the compositor to process the denoise node"
+msgstr ""
+"Använd samma enhet som kompositören använder för att bearbeta "
+"brusreduceringsnoden"
+
+#. :src: bpy.types.Attribute
+#. :src: bpy.types.SpreadsheetSpace
+msgid "Mesh edge"
+msgstr "Meshkant"
+
+#. :src: bpy.types.Attribute
+#. :src: bpy.types.SpreadsheetSpace
+msgid "Mesh face"
+msgstr "Meshyta"
+
+#. :src: bpy.types.Attribute
+#. :src: bpy.types.SpreadsheetSpace
+msgid "Mesh face corner"
+msgstr "Meshythörn"
+
+#. :src: bpy.types.BakeSettings.use_lores_mesh
+msgid "Low Resolution Mesh"
+msgstr "Lågupplöst mesh"
+
+#. :src: bpy.types.BakeSettings.use_lores_mesh
+msgid "Calculate heights against unsubdivided low resolution mesh"
+msgstr "Beräkna höjder mot en lågupplöst mesh utan underindelning"
+
+#. :src: bpy.types.Mesh.has_custom_normals
+msgid "True if there is custom normal data for this mesh"
+msgstr "Sant om meshen har anpassade normaldata"
+
+#. :src: bpy.types.Mesh.texture_mesh
+msgid "Use another mesh for texture indices (vertex indices must be aligned)"
+msgstr ""
+"Använd en annan mesh för texturindex (hörnpunktsindex måste vara justerade)"
+
+#. :src: bpy.types.MeshSkinVertexLayer
+msgid "Mesh Skin Vertex Layer"
+msgstr "Meshens Skin-hörnpunktslager"
+
+#. :src: bpy.types.NodeSocketGeometry
+msgid "Geometry Node Socket"
+msgstr "Geometrinoduttag"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.attribute_domain
+msgid ""
+"Attribute domain used by the geometry nodes modifier to create an attribute "
+"output"
+msgstr ""
+"Attributdomän som geometrinodmodifieraren använder för att skapa en "
+"attribututdata"
+
+#. :src: bpy.types.NodesModifierWarning
+msgid "Warning created during evaluation of a geometry nodes modifier"
+msgstr "Varning skapades under utvärdering av en geometrinodmodifierare"
+
+#: scripts/addons_core/io_scene_gltf2/blender/exp/material/extensions/anisotropy.py:48
+msgid "Geometry Nodes Instances (Experimental)"
+msgstr "Geometrinodinstanser (experimentellt)"
+
+#. :src: bpy.types.NODE_OT_connect_to_output
+msgid "Run in Geometry Nodes Editor"
+msgstr "Kör i geometrinodredigeraren"
+
+#. :src: bpy.types.NODE_OT_select.clear_viewer
+msgid "Deactivate geometry nodes viewer when clicking in empty space"
+msgstr ""
+"Inaktivera visningsnoden för geometrinoder när du klickar i tomt utrymme"
+
+#. :src: bpy.types.OBJECT_OT_simulation_nodes_cache_bake
+msgid "Bake simulations in geometry nodes modifiers"
+msgstr "Baka simuleringar i geometrinodmodifierare"
+
+#. :src: bpy.types.OBJECT_OT_simulation_nodes_cache_delete
+msgid "Delete cached/baked simulations in geometry nodes modifiers"
+msgstr "Ta bort cachade/bakade simuleringar i geometrinodmodifierare"
+
+#: source/blender/nodes/shader/node_shader_util.cc:48
+msgid "Not a shader or geometry node tree"
+msgstr "Inte ett shader- eller geometrinodträd"
+
+#: source/blender/nodes/shader/node_shader_util.cc:59
+msgid "Not a shader, geometry, or compositor node tree"
+msgstr "Inte ett shader-, geometrinod- eller kompositionsnodträd"
+
+#. :src: bpy.types.RENDER_OT_opengl.sequencer
+msgid "Render using the sequencer's OpenGL display"
+msgstr "Rendera med sekvensredigerarens OpenGL-visning"
+
+#. :src: bpy.types.RENDER_OT_render.use_sequencer_scene
+msgid "Render the sequencer scene instead of the active scene"
+msgstr "Rendera sekvensredigerarens scen i stället för den aktiva scenen"
+
+#. :src: bpy.types.SCENE_OT_new_sequencer_scene
+msgid "Add new scene to be used by the sequencer"
+msgstr "Lägg till ny scen som ska användas av sekvensredigeraren"
+
+#. :src: bpy.types.SEQUENCER_OT_delete
+msgid "Delete selected strips from the sequencer"
+msgstr "Ta bort markerade remsor från sekvensredigeraren"
+
+#. :src: bpy.types.SEQUENCER_OT_effect_strip_add
+msgid ""
+"Add an effect to the sequencer, most are applied on top of existing strips"
+msgstr ""
+"Lägg till en effekt i sekvensredigeraren; de flesta tillämpas ovanpå "
+"befintliga remsor"
+
+#. :src: bpy.types.SEQUENCER_OT_image_strip_add
+msgid "Add an image or image sequence to the sequencer"
+msgstr "Lägg till en bild eller bildsekvens till sekvensredigeraren"
+
+#. :src: bpy.types.SEQUENCER_OT_mask_strip_add
+msgid "Add a mask strip to the sequencer"
+msgstr "Lägg till en maskremsa i sekvensredigeraren"
+
+#. :src: bpy.types.SEQUENCER_OT_movie_strip_add
+msgid "Add a movie strip to the sequencer"
+msgstr "Lägg till en filmremsa i sekvensredigeraren"
+
+#. :src: bpy.types.SEQUENCER_OT_refresh_all
+msgctxt "Operator"
+msgid "Refresh Sequencer"
+msgstr "Uppdatera sekvensredigeraren"
+
+#. :src: bpy.types.SEQUENCER_OT_reload
+msgid "Reload strips in the sequencer"
+msgstr "Ladda om remsor i sekvensredigeraren"
+
+#. :src: bpy.types.ArmatureBones.active
+msgid "Armature's active bone"
+msgstr "Armaturens aktiva ben"
+
+#. :src: bpy.types.BlendDataArmatures
+msgid "Main Armatures"
+msgstr "Huvudarmaturer"
+
+#. :src: bpy.types.POSE_OT_constraint_add.type:'ARMATURE'
+#. :src: bpy.types.POSE_OT_constraint_add_with_targets.type:'ARMATURE'
+msgid ""
+"Apply weight-blended transformation from multiple bones like the Armature "
+"modifier"
+msgstr ""
+"Tillämpa viktblandad transformation från flera ben, liksom "
+"armaturmodifieraren"
+
+#. :src: bpy.types.Object.parent_bone_head_tail_factor
+msgid "Parent Bone Head/Tail"
+msgstr "Överordnat bens huvud/spets"
+
+#. :src: bpy.types.PAINT_OT_weight_paint
+msgctxt "Operator"
+msgid "Weight Paint"
+msgstr "Viktmålning"
+
+#. :src: KM_HIERARCHY.VIEW_3D.EMPTY
+msgctxt "WindowManager"
+msgid "Weight Paint"
+msgstr "Viktmålning"
+
+#. :src: bpy.types.RigidBodyConstraint
+msgid "Rigid Body Constraint"
+msgstr "Begränsning för styv kropp"
+
+#. :src: bpy.types.PHYSICS_PT_rigid_body
+#. :src: bpy.types.SpaceDopeSheetEditor.cache_rigidbody
+msgid "Rigid Body"
+msgstr "Styv kropp"
+
+#. :src: bpy.types.RIGIDBODY_OT_constraint_add
+msgctxt "Operator"
+msgid "Add Rigid Body Constraint"
+msgstr "Lägg till begränsning för styv kropp"
+
+#. :src: bpy.types.RIGIDBODY_OT_constraint_add
+msgid "Add Rigid Body Constraint to active object"
+msgstr "Lägg till begränsning för styv kropp till det aktiva objektet"
+
+#. :src: bpy.types.RIGIDBODY_OT_constraint_add.type
+msgid "Rigid Body Constraint Type"
+msgstr "Typ av begränsning för styv kropp"
+
+#. :src: bpy.types.RIGIDBODY_OT_constraint_remove
+msgctxt "Operator"
+msgid "Remove Rigid Body Constraint"
+msgstr "Ta bort begränsning för styv kropp"
+
+#. :src: bpy.types.RIGIDBODY_OT_constraint_remove
+msgid "Remove Rigid Body Constraint from Object"
+msgstr "Ta bort begränsning för styv kropp från objektet"
+
+#. :src: bpy.types.ParticleSystem.has_multiple_caches
+msgid "Particle system has multiple point caches"
+msgstr "Partikelsystemet har flera punktcacher"
+
+#. :src: bpy.types.PointCaches
+msgid "Point Caches"
+msgstr "Punktcacher"
+
+#. :src: bpy.types.PointCaches
+msgid "Collection of point caches"
+msgstr "Samling av punktcacher"
+
+#. :src: bpy.types.WindowManager.extension_repo_filter
+msgid "Filter by Repository"
+msgstr "Filtrera efter förråd"
+
+#. :src: bpy.types.WindowManager.extension_repo_filter
+msgid "Filter extensions by repository"
+msgstr "Filtrera tillägg efter förråd"
+
+#. :src: bpy.types.WindowManager.extension_use_filter
+msgid "Filter Extensions by Tags & Repository"
+msgstr "Filtrera tillägg efter taggar och förråd"
+
+#. :src: bpy.types.USERPREF_MT_extensions_active_repo
+msgid "Active Repository"
+msgstr "Aktivt förråd"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install_files
+msgid "Install extensions from files into a locally managed repository"
+msgstr "Installera tillägg från filer i ett lokalt hanterat förråd"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_upgrade_all
+msgid ""
+"Upgrade installed extensions to their latest version from remote repositories"
+msgstr ""
+"Uppgradera installerade tillägg till deras senaste version från fjärrförråd"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_enable_from_drop
+msgctxt "Operator"
+msgid "Enable Repository from Drop"
+msgstr "Aktivera förråd genom släpp"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_lock_all
+msgid "Lock repositories - to test locking"
+msgstr "Lås förråd för att testa låsning"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_lock_all
+msgctxt "Operator"
+msgid "Lock All Repositories (Testing)"
+msgstr "Lås alla förråd (testning)"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_sync_all
+msgid "Refresh the list of extensions for all the remote repositories"
+msgstr "Uppdatera listan över tillägg för alla fjärrförråd"
+
+#. :src: bpy.types.RenderSettings.compositor_denoise_final_quality
+msgid "Compositor Final Denoise Quality"
+msgstr "Kompositörens slutliga brusreduceringskvalitet"
+
+#. :src: bpy.types.RenderSettings.compositor_denoise_preview_quality
+msgid "Compositor Preview Denoise Quality"
+msgstr "Kompositörens brusreduceringskvalitet för förhandsgranskning"
+
+#. :src: bpy.types.RenderSettings.compositor_precision
+msgid "Compositor Precision"
+msgstr "Kompositörprecision"
+
+#. :src: bpy.types.RenderSettings.compositor_precision
+msgid "The precision of compositor intermediate result"
+msgstr "Precisionen för kompositörens mellanresultat"
+
+#. :src: bpy.types.RenderSettings.compositor_precache
+msgid "Cache the result of the interactive compositor across frames"
+msgstr ""
+"Cachelagra resultatet från den interaktiva kompositören mellan bildrutor"
+
+#. :src: bpy.types.SceneCompositorEffect
+msgid "Compositor effect for scene"
+msgstr "Kompositöreffekt för scen"
+
+#: source/blender/editors/space_node/node_edit.cc:1225
+msgid "Asset is not a compositor node group"
+msgstr "Resursen är inte en kompositionsnodgrupp"
+
+#: source/blender/compositor/intern/COM_context.cc:314
+msgid "Render size too large for GPU, use CPU compositor instead"
+msgstr ""
+"Renderingsstorleken är för stor för GPU:n. Använd CPU-kompositören i stället"
+
+#. :src: bpy.types.NODE_OT_edit_compositor_node_group
+msgid "Edit compositor node group for the active scene compositor effect"
+msgstr ""
+"Redigera kompositionsnodgruppen för den aktiva scenens kompositöreffekt"
+
+#. :src: bpy.types.AnnotationStroke.display_mode
+msgid "Coordinate space that stroke is in"
+msgstr "Koordinatrymd för strecket"
+
+#. :src: bpy.types.AnnotationStroke.display_mode:'3DSPACE'
+msgid "Stroke is in 3D space"
+msgstr "Strecket är i 3D-rymden"
+
+#. :src: bpy.types.AnnotationStroke.display_mode:'2DSPACE'
+msgid "Stroke is in 2D space, locked to the camera view"
+msgstr "Strecket är i 2D-rymden och låst till kameravyn"
+
+#. :src: bpy.types.AnnotationStroke.display_mode:'2DIMAGE'
+msgid "Stroke is in 2D image/UV space"
+msgstr "Strecket är i 2D-bild-/UV-rymden"
+
+#. :src: bpy.types.BrushGpencilSettings.caps_type
+msgid "The shape of the start and end of the stroke"
+msgstr "Formen på streckets början och slut"
+
+#. :src: bpy.types.BrushGpencilSettings.show_fill_extend
+msgid "Display fill color while drawing the stroke"
+msgstr "Visa fyllningsfärgen medan strecket ritas"
+
+#. :src: bpy.types.BrushGpencilSettings.stroke_type
+msgid "Stroke Mode"
+msgstr "Streckläge"
+
+#. :src: bpy.types.BrushGpencilSettings.stroke_type
+msgid "Mode to use when creating strokes"
+msgstr "Läge att använda när streck skapas"
+
+#. :src: bpy.types.BrushGpencilSettings.use_auto_remove_fill_guides
+msgid "Automatically remove fill guide strokes after fill operation"
+msgstr "Ta bort fyllningshjälplinjers streck automatiskt efter fyllningen"
+
+#. :src: bpy.types.BrushGpencilSettings.vertex_mode:'STROKE'
+msgid "Painting affects only strokes, not fills"
+msgstr "Målning påverkar endast streck, inte fyllningar"
