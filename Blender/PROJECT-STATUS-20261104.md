@@ -4983,3 +4983,11 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 597 granskar de externa filåtgärdernas visning, uppspelning, bläddring,
+utskrift, installation, kommandotolk och egenskapsdialog. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-597-file-browser-external-operation-options.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-597.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
