@@ -194,6 +194,16 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 509 granskar 23 poster för kompositions-, geometri-, shader- och
+texturnodträdens användning och lägen. Den normaliserar det felstavade
+*Nodegruppen* till *Nodgruppen*, behåller typnamn som *Grease Pencil* och
+*shader* och använder *geometrimodifierare* i rätt kontext. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-509-specialized-node-trees.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-509.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade
