@@ -5627,3 +5627,9 @@ huvudrad*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-684-asset-shelf-header.po` är lokalt
 kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 685 granskar menyåtgärden för Blenders Header-region. Den felaktiga och
+ofullständiga formen *Visa huvud* ändras till *Visa rubrik*, i linje med
+katalogens etablerade UI-etiketter *Rubrik* och *Verktygsrubrik*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-685-show-header.po` är lokalt
+kontrollerad och ännu inte importerad i Blender Translate.
+
