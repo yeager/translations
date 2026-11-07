@@ -164,6 +164,7 @@ Senast uppdaterad: 2026-11-07.
 | 8-bit value | 8-bitarsvärde | Värdetyp i RNA/API-kontext. Skriv ihop med bindestrecket som i *8-bitarsvärde*. |
 | Byte Color | Bytefärg | Datatyp för färgattribut. Skriv ihop och behåll den tekniska typen *Byte*. |
 | mesh | mesh | Blenders datatyp och samlingstyp. Behåll *mesh* även i plural; använd exempelvis *Huvudmesh* och *Samling av mesh*, inte *nät* eller *maskor*. |
+| mesh cache / mesh filter / mesh plane | meshcache / meshfilter / meshplan | UI-namn och tekniska sammansättningar för Blenders meshtyp. Skriv ihop dem och ersätt inte *mesh* med *nät*. |
 | mesh attribute / mesh normal | meshattribut / meshnormal | Tekniska data som hör till Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätattribut* eller *nätnormal*. |
 | mesh material | meshmaterial | Material som är kopplat till en Blender-mesh. Använd den etablerade sammansättningen, inte *nätmaterial*. |
 | Float2 Attribute | Float2-attribut | RNA-attributtyp. Behåll typnamnet och fog med bindestreck till svenska *attribut*. |

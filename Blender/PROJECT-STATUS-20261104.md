@@ -7088,3 +7088,17 @@ separat manuell deltafil med endast dessa 44, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–839. Den innehåller 289 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 840 normaliserar 16 centrala Mesh-etiketter för objekt, lägen,
+konvertering, filter och export. Den använder *Mesh*, *meshcache*,
+*meshfilter*, *meshplan* och *meshkomprimering* i stället för den generiska
+geometriöversättningen *nät*. Batchen är lokalt klar men ännu inte importerad
+i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-840-mesh-core-ui.po` är en separat
+manuell deltafil med endast dessa 16, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-840.po` är den aktuella
+samlade manuella deltafilen för batch 811–840. Den innehåller 304 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
