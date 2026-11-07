@@ -6590,6 +6590,15 @@ Blender Translate.
 manuella importfilen. Den innehåller 213 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 793 tillämpar den projektspecifika termen *klippredigerare* i två
+återstående Movie Clip Editor-texter: en spårningsfärg och
+temainställningarna. Batchen är lokalt klar men ännu inte importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-793.po` är den aktuella
+manuella importfilen. Den innehåller 215 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 `REVIEW-COVERAGE-20261108.md` dokumenterar den första reproducerbara
 täckningsmätningen för den lokala UI-filen. Av 40 427 aktuella poster är
 6 794 täckta av arkiverade granskningsbatcher, vilket motsvarar 16,81 %.
