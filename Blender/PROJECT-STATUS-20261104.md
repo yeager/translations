@@ -4583,3 +4583,13 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 553 granskar åtta poster för *Frizz Hair Curves* och hårkurvsbrus:
+slumpmässiga små förskjutningar som ger en frissig form. Den använder
+*förskjutningsvektor*, *ackumulerad förskjutning* och *avståndsfaktor* och
+rättar den missvisande formuleringen *krusa* till *gör hårkurvor frissiga*.
+Deltafilen `blender-ui-sv-reviewed-20261107-batch-553-frizz-hair-curves.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-553.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
