@@ -5829,3 +5829,12 @@ Nästa breda radgranskning ska därför utgå från en ny export som hämtas via
 den inloggade webbläsaren eller ett fungerande API, så att tidigare
 serveruppdateringar inte dupliceras.
 
+Den 7 november 2026 hämtades en ny, auktoritativ UI-export via webbläsaren:
+`/Users/danielnylander/Downloads/blender-ui-ui-sv (4).po` (40 427 aktiva
+strängar). Kandidaterna från batch 705–708 jämfördes nyckel för nyckel med
+den exporten. Tolv av 34 var redan identiska på servern och togs bort från
+den fortsatta deltafilen. De återstående 22 kontextgranskade ändringarna
+ligger i `blender-ui-sv-reviewed-20261107-rebased-batches-705-708.po`.
+Filen är kontrollerad med `msgfmt`, `l10n-lint` och `git diff --check`.
+Den är lokalt klar för import, men ännu inte uppladdad efter ombasningen.
+
