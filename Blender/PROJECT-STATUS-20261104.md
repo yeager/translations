@@ -267,10 +267,15 @@ den svenska anmärkningen i DVD-förvalet och tar bort en slutpunkt som saknas i
 källtexten. Deltafilen är lokalt kontrollerad och ännu inte importerad i
 Blender Translate.
 
+Batch 667 normaliserar 14 poster för tilläggsförråd i inställningar,
+åtgärder och felmeddelanden. Den ersätter den inkonsekventa formen
+*tilläggsarkiv* med den etablerade termen *tilläggsförråd*. Deltafilen är
+lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-666-combined.po` med 220
+`blender-ui-sv-reviewed-20261107-batches-626-667-combined.po` med 234
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–666.
+och innehåller dessutom batch 657–667.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
