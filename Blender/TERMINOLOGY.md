@@ -355,7 +355,7 @@ Senast uppdaterad: 2026-11-07.
 | face | yta | Mesh-element; avgör i sammanhanget om *ansikte* är avsett i annan betydelse. |
 | face corner | ythörn | Meshens hörn per yta; skiljs från en delad hörnpunkt. |
 | Data Transfer | dataöverföring | Blender-modifieraren som överför meshdata mellan objekt. |
-| mesh | mesh | Behåll när det avser Blender-datatypen eller dess etablerade UI-beteckning. |
+| mesh | mesh | Behåll när det avser Blender-datatypen eller dess etablerade UI-beteckning. Böj som ett utrumord: *en mesh*, *meshen*, *meshens* och *denna mesh*. |
 | object bounding box | begränsningsbox | Objektets tredimensionella gränsvolym i objektrymd. Skilj från *begränsningsruta* i filmspårning och bildredigering. |
 | bevel | avfasning / fasning | *Avfasning* för UI-egenskapen och modifieraren, *fasning* kan beskriva resultatet i löpande text. |
 | Bevel Modifier | avfasningsmodifierare | Blender-modifierarens belagda UI- och manualform. |
