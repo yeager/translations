@@ -4922,3 +4922,12 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 590 granskar tygfysikens Målvolym och sömnad. Den ersätter den
+engelskpåverkade *initial volym* med *startvolym* och förtydligar *Sy ihop
+tyg*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-590-cloth-volume-and-sewing.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-590.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
