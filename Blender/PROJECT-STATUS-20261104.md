@@ -4966,3 +4966,12 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 595 granskar filbläddrarens resurspaketering, bokmärken,
+kataloghantering och filborttagning. Den använder *återvinningskorgen* i stället
+för den felaktiga *återvinningsfacket*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-595-file-browser-bookmarks.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-595.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
