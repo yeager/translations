@@ -821,6 +821,8 @@ Senast uppdaterad: 2026-11-06.
 | No valid selected objects to copy | Inga giltiga valda objekt att kopiera |
 | Cannot copy the linked object '%s' to the internal clipboard | Det går inte att kopiera det länkade objektet ”%s” till det interna urklippet |
 
+| TextLine | TextLine | Internt API-typnamn för en rad i ett Text-datablock; lämnas oförändrat i tekniska beskrivningar. |
+
 ## Granskningsregel
 
 Enhetlighet får aldrig gå före funktion. Ändra inte text som är ett formatnamn,

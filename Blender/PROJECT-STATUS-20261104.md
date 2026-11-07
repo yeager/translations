@@ -4522,3 +4522,13 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 547 granskar 16 poster för Text-datablock, tecken- och radpositioner,
+urval samt registrering av Python-skript. Den behåller API-typen *TextLine*
+men använder svenska former för markering och radindex, samt rättar den
+felaktiga etiketten *Välj index för ändraden*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-547-text-editor-selection-and-script.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-547.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
