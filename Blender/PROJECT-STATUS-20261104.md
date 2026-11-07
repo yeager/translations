@@ -39,6 +39,12 @@ importklara filen
 inte de spårbara delbatcherna i arkivet, men är den fil som ska användas vid
 en enda manuell import.
 
+Batch 630 granskar tilläggens fjärranslutna resursbibliotek och hjälpraden
+för *Save Copy*. Den ersätter den svårlästa formen *fjärrresursbibliotek*,
+som innehåller tre `r` i följd, med *fjärranslutet resursbibliotek* samt
+rättar den falska vännen *aktuella* i betydelsen *actual* till *faktiska*.
+Deltafilen är lokalt klar och ännu inte importerad i Blender Translate.
+
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
 skickat in samtliga sex delar manuellt till Blender Translate. Importresultat
