@@ -6620,6 +6620,16 @@ Blender Translate.
 manuella importfilen. Den innehåller 247 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 796 rättar Outlinerns synliga etikett för *System Overrides* till
+*Systemåsidosättningar*. Den ersätter den inkonsekventa formen
+*Systemöverskrivningar* och följer samma terminologi som det närliggande
+systemåsidosättningsfiltret. Batchen är lokalt klar men ännu inte importerad
+i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-796.po` är den aktuella
+manuella importfilen. Den innehåller 248 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 `REVIEW-COVERAGE-20261108.md` dokumenterar den första reproducerbara
 täckningsmätningen för den lokala UI-filen. Av 40 427 aktuella poster är
 6 794 täckta av arkiverade granskningsbatcher, vilket motsvarar 16,81 %.
