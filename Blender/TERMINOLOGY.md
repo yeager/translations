@@ -400,7 +400,7 @@ Senast uppdaterad: 2026-11-06.
 | mesh islands (hair interpolation) | meshöar | Separata sammanhängande meshområden som hålls isär vid hårkurvsinterpolering. |
 | flare (Braid Hair Curves) | utsvängning | Den öppna delen vid flätans spets där hårstråna lossnar eller sprider ut sig. Det är inte en *flärp* eller en mekanisk fläns. |
 | Curve Sculpt / Mesh Sculpt | kurvskulptering / meshskulptering | Resurskataloger för skulptering av kurvor respektive Blenders meshdatatyp. Behåll *mesh* och skriv sammansättningarna ihop. |
-| extension repository | tilläggsarkiv | Det arkiv som Blender Extensions hämtar eller installerar tillägg från. Skilj från ett Git-förråd och från en lokal resurskatalog. |
+| extension repository | tilläggsförråd | Det förråd som Blender Extensions hämtar eller installerar tillägg från. Skilj från ett Git-förråd och från en lokal resurskatalog. |
 | coat / sheen (Principled BSDF) | beläggningsskikt / fiberlyster | *Coat* är ett övre skydds- eller lackskikt. *Sheen* modellerar fina fibrer, sammetseffekt eller damm och är inte samma sak som allmän glans. |
 | emission color / strength | emissionsfärg / emissionsstyrka | Principled BSDF:s färg respektive styrka för ljus som sänds ut från materialytan. |
 | constraint | begränsning | Blender-relation som styr ett objekt eller ben. Skriv sammansättningar som *positionsbegränsning*, *rotationsbegränsning*, *skalbegränsning* och *avståndsbegränsning*. |
@@ -793,7 +793,6 @@ Senast uppdaterad: 2026-11-06.
 | NLA stack | NLA-stapel | Lagerordningen för åtgärder och remsor i Nonlinear Animation. |
 | keying set | nyckeluppsättning | Namngiven uppsättning animerbara egenskaper som används vid infogning och borttagning av nyckelbildrutor. |
 | driver | drivrutin | Uttrycks- eller databaserad styrning av en egenskap; skilj från fysisk hårdvarudrivrutin. |
-| Graph Editor | grafredigeraren | Redigeraren för F-kurvor och animerade värden. |
 | bone collection | bensamling | Samling som organiserar riggens ben. |
 | action | åtgärd | Blenderdatablock som lagrar animeringsdata; behåll *åtgärd* i den här API- och UI-kontexten. |
 | action slot | åtgärdsslot | Identifierar vilken uppsättning animeringskanaler i en åtgärd som gäller för ett datablock. |
@@ -802,7 +801,6 @@ Senast uppdaterad: 2026-11-06.
 | animation channel bag | animationskanalbehållare | API-objekt som samlar F-kurvor och grupper för en åtgärdsslot. |
 | kernel optimization | kärnoptimering | Optimering av renderingskärnor i Cycles, inte operativsystemets kärna. |
 | intersection | skärningsberäkning | Strålspårningens beräkning av en träff mellan stråle och geometri. |
-| Graph Editor | grafredigeraren | Redigeraren för F-kurvor och animerade värden. |
 | FriBidi | FriBidi | Egennamn på biblioteket; använd dess officiella skrivning. |
 | action blending | blandning av åtgärd | Blandar den aktiva åtgärdens resultat med NLA-stapeln. |
 | NLA track | NLA-spår | Spår i Nonlinear Animation som organiserar animeringsremsor. |
