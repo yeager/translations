@@ -6805,3 +6805,11 @@ lokalt klar men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-813-node-editor-terms.po` är en
 separat manuell deltafil med endast dessa sju nya, lokalt granskade poster.
 
+Batch 814 granskar tolv etiketter för komposition och kompositören. Den
+normaliserar bland annat *kompositionsnoder*, *Kompositörprecision*,
+*Kompositörsremsa* och *Cache för kompositörens bildrutor*. Batchen är lokalt
+klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-814-compositor-terms.po` är en separat
+manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
+
