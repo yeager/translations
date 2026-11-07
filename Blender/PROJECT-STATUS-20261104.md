@@ -6840,3 +6840,11 @@ samlade manuella deltafilen för batch 811–816. Den innehåller 54 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
 
+Batch 817 granskar sex kvarvarande Mesh-texter som inte täcks av tidigare
+arkiverade batcher. Den använder *meshen*, *meshelement*, *meshdeformering*
+och *meshobjekt* konsekvent i skulpterings- och modifierarkontext. Batchen är
+lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-817-mesh-deformation.po` är en separat
+manuell deltafil med endast dessa sex nya, lokalt granskade poster.
+
