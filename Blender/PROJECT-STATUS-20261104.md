@@ -3740,3 +3740,10 @@ Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-461-sculpt-brush-tools.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
+Batch 462 granskar 42 penselposter för streckmetoder, spets, texturprov och
+topologisk krattning. Den bekräftar *penselavtryck*, *penselspets*,
+*topologisk krattning*, *lågpoly-mesher* och *oprojicerad radie* i deras
+respektive UI-kontexter. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-462-brush-strokes-and-tips.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
