@@ -7748,3 +7748,16 @@ manuell deltafil med dessa sex, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–888. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 889 granskar sex modifierarsträngar och normaliserar bland annat
+*basmeshen*, *ingångsmeshen*, *manifold-mesh* och *meshveck*. Batchen är
+lokalt klar och pushad till vårt arkiv, men ännu inte verifierad som
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-889-mesh-modifiers.po` är en separat
+manuell deltafil med dessa sex, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-889.po` är den aktuella
+samlade manuella deltafilen för batch 811–889. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
