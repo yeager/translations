@@ -6912,3 +6912,11 @@ lokalt klar men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-823-mesh-operations.po` är en separat
 manuell deltafil med endast dessa tretton nya, lokalt granskade poster.
 
+Batch 824 granskar nio texter för meshkonvertering, UV och export. Den
+normaliserar bland annat *en mesh*, *meshen*, *meshplan* och felmeddelanden
+för utvärderad mesh. Batchen är lokalt klar men ännu inte importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-824-mesh-conversion.po` är en separat
+manuell deltafil med endast dessa nio nya, lokalt granskade poster.
+
