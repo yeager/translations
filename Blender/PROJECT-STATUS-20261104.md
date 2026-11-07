@@ -4748,3 +4748,13 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 570 granskar tio poster för *Duplicate Hair Curves*, som skapar
+hårkurvsdubbletter runt guidekurvor. Den använder *dubbletter*,
+*fördelningsform* och *guidekurvor*, och förtydligar att jämn tjocklek
+bibehålls i fördelningen. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-570-duplicate-hair-curves.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-570.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
