@@ -103,10 +103,16 @@ resursbibliotek, och förtydligar felmeddelandet för ett fjärranslutet
 resursbibliotek. Deltafilen är lokalt kontrollerad men ännu inte importerad i
 Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–639 är
-`blender-ui-sv-reviewed-20261107-batches-626-639-combined.po` med 38
+Batch 640 normaliserar nio synliga *Library Override*-operatorer och
+API-etiketter till *biblioteksåsidosättning*. Projektets terminologilista
+uppdateras samtidigt för att markera *biblioteksöverskrivning* som en äldre,
+icke önskad variant för just denna Blender-funktion. Deltafilen är lokalt
+kontrollerad men ännu inte importerad i Blender Translate.
+
+Den aktuella samlingsfilen för batch 626–640 är
+`blender-ui-sv-reviewed-20261107-batches-626-640-combined.po` med 47
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–638 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–639 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
