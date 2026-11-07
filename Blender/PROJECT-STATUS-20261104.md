@@ -4651,3 +4651,13 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 560 granskar tolv poster för *Displace Hair Curves*, vektorstyrd
+förskjutning av hårkurvor i objektrymd eller efter en ytnormal. Den
+normaliserar *den övergripande förskjutningen* och bevarar etablerade termer
+som *förskjutningsvektor* och *ytgeometri*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-560-displace-hair-curves.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-560.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
