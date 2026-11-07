@@ -5932,8 +5932,15 @@ saknades. Den tidigare samlingsfilen för 705–713 ska därför inte laddas upp
 igen. Den äldre exporten på lokal disk är nu delvis föråldrad och används bara
 för fortsatt lokal terminologigranskning tills en ny export har hämtats.
 
+Batch 717 fortsätter med armaturens ID-typ och bendata, skulpteringens
+meshdatatyp samt fler Extensions-texter. Den bevarar det synliga produktnamnet
+*Bendy Bones*, men normaliserar bland annat *armatur*, *viloposition*,
+*texturnod* och *förråd*. Operator-kontexten för ”Add Repository…” verifierades
+separat vid sammanslagningen.
+
 Den aktuella rekommenderade importfilen är
-`blender-ui-sv-reviewed-20261107-pending-batches-714-716.po`. Den innehåller
-55 lokalt kontrollerade, ännu ej importerade poster från batch 714–716 och är
-validerad med `msgfmt`, `l10n-lint`, diffkontroll och Gitleaks.
+`blender-ui-sv-reviewed-20261107-pending-batches-714-717.po`. Den innehåller
+86 lokalt kontrollerade, ännu ej importerade poster från batch 714–717 och är
+validerad med `msgfmt`, `l10n-lint`, sammanslagningskontroll, diffkontroll och
+Gitleaks.
 
