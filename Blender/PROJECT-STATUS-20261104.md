@@ -133,10 +133,16 @@ Batch 644 granskar Volym-visningens *wireframe mode*. Den ersätter
 inga återstående strängar med tre identiska konsonanter i följd. Deltafilen är
 lokalt kontrollerad men ännu inte importerad i Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–644 är
-`blender-ui-sv-reviewed-20261107-batches-626-644-combined.po` med 67
+Batch 645 granskar Data Transfer-modifierarens närhetsbegränsning. Den
+ersätter den bokstavliga och svårlästa formen *granngeometri* med
+*närliggande geometri*, vilket stämmer med inställningens avståndskontext.
+Deltafilen är lokalt kontrollerad men ännu inte importerad i Blender
+Translate.
+
+Den aktuella samlingsfilen för batch 626–645 är
+`blender-ui-sv-reviewed-20261107-batches-626-645-combined.po` med 68
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–643 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–644 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
