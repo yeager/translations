@@ -350,6 +350,11 @@ versionsdiagnoser. Den rättar böjningen *åtgärdsslotten*, ersätter äldre
 *Action-plats* och bevarar samtliga fem `%s`-platshållare. Deltafilen är lokalt
 kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 682 rättar tre kontextbundna UI-poster för *Brush*. Datatypen,
+Dynamic Paint-läget och operatörsetiketten använder nu konsekvent *pensel*,
+inte *borste*. Deltafilen är lokalt kontrollerad och ännu inte importerad i
+Blender Translate.
+
 Den 7 november importerades samlingsfilen
 `blender-ui-sv-reviewed-20261107-batches-626-679-combined.po` manuellt i
 Blender Translate. Servern behandlade 323 poster: 135 uppdaterades, 183
