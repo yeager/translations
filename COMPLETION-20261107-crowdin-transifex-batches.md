@@ -39,3 +39,17 @@ API uppdaterade 190 poster och varje inskickad måltext återlästes exakt.
 Slutlig resursstatistik visar 2 122 av 2 122 svenska Qt-strängar översatta och
 0 oöversatta. Android-resursen är fortsatt komplett. Översättningarnas
 granskningsstatus hanteras separat av projektets Transifex-flöde.
+
+## 0 A.D.
+
+78 oöversatta strängar i huvudspelet granskades och skickades i fyra
+Transifex-batcher under `0AD/0ad-sv-20261107-*-batch-0[1-4].json`. De
+antikgrekiska och historiska egennamnen behölls avsiktligt, medan engelska
+rollord och de två civilisationstexterna fick svenska måltexter. `l10n-lint`
+gav inga fel; Hunspell-SV markerade bara förväntade historiska namn. Varje
+API-svar återlästes exakt. Slutlig statistik visar 7 470 av 7 470 översatta
+svenska strängar i 18 resurser och 0 oöversatta.
+
+Det separata webbplatsprojektet `play0ad-website` saknar däremot svenska som
+aktivt målspråk. API-försöket att lägga till svenska fick HTTP 403, så
+webbplatsöversättningen väntar på projektbehörighet från Wildfire Games.

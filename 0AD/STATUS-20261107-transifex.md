@@ -1,0 +1,38 @@
+# 0 A.D. – svensk Transifex-status 7 november 2026
+
+0 A.D. är ett fritt realtidsstrategispel om antik krigföring. Den aktuella
+utgåvan är Release 28: Boiorix, publicerad 18 februari 2026. Projektet är
+alltså aktivt och ligger klart inom 48-månadersgränsen.
+
+78 oöversatta svenska strängar hämtades från Transifex REST-API och
+granskades mot respektive spelresurs. Två längre civilisationstexter fick
+svenska saköversättningar. Benämningar som är antikgrekiska eller historiska
+egennamn behölls avsiktligt för att följa spelets egen namngivning; engelska
+rollord översattes där de förekom.
+
+Underlagen är:
+
+- `0ad-sv-20261107-civilizations-and-historic-names-batch-01.json` (10)
+- `0ad-sv-20261107-unit-names-batch-02.json` (20)
+- `0ad-sv-20261107-unit-names-batch-03.json` (24)
+- `0ad-sv-20261107-unit-names-batch-04.json` (24)
+
+`l10n-lint` gav inga fel för batcherna. Hunspell-SV markerade förväntat
+antikgrekiska och historiska namn; de är inte svenska stavningsfel. `svlang`
+är inte ett tillförlitligt heltest för dessa JSON-underlag eftersom verktyget
+även analyserar engelska källtexter och tekniska id:n. `msgfmt` är inte
+tillämpligt på JSON-batcher.
+
+Alla 78 poster skickades med Transifex REST-API och varje måltext återlästes
+exakt. Slutlig API-statistik omfattar 18 resurser, 7 470 av 7 470 översatta
+svenska strängar och 0 oöversatta. Detta bekräftar översättningsstatus, inte
+en eventuell separat granskningsstatus i Transifex.
+
+## play0ad.com-webbplatsen
+
+Det separata projektet `play0ad-website` är uppdaterat i november 2026 och
+har tydliga anvisningar om att behålla Markdown-länkar och formatering.
+Svenska är dock inte aktiverat som projektspråk. Ett försök att lägga till
+`l:sv` via projektets normala Transifex-ändpunkt fick HTTP 403
+`permission_denied`; Wildfire Games behöver därför aktivera svenska eller ge
+behörighet innan webbplatsens svenska översättning kan påbörjas.
