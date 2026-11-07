@@ -4768,3 +4768,13 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 572 granskar elva poster för *Interpolate Hair Curves*, som bygger nya
+hårkurvor utifrån befintliga guidekurvor. Den rättar den felaktiga
+*huvudledarkurva* till *huvudguidekurva*, använder *meshöar* för separata
+sammanhängande ytområden och uppdaterar terminologilistan för båda begreppen.
+Deltafilen `blender-ui-sv-reviewed-20261107-batch-572-interpolate-hair-curves.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-572.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
