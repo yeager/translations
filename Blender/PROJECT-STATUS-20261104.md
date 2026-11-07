@@ -5868,6 +5868,14 @@ sammansättningar som redan omfattas av termbasen, bland annat *mesh*,
 *shadernod*, *geometrinod*, *tessellering* och *färggradient*. Inga nya
 språkfel eller otillåtna tredubbla konsonanter hittades.
 
+Batch 713 är en fristående lokal granskningsfil med 40 kontextbundna
+rättelser inom målningskurvor, ytuppsättningar, Grease Pencil-ritningar,
+linjekonst och sekvensredigeraren. Den tar hänsyn till att samma engelska
+källa förekommer i flera Weblate-kontexter och omfattar därför fler PO-poster
+än de 36 unika källfraserna. Filen
+`blender-ui-sv-reviewed-20261107-batch-713-paint-grease-sequencer.po` är
+lokalt kontrollerad och ännu inte importerad.
+
 Batch 711 rättar fyra återstående synliga sammansättningar inom shader- och
 textur-nodsystemet: *shadernoder*, *texturnod* och *shaderskriptnod*.
 Produktnamn och osäkra generatorsträngar har lämnats oförändrade. Deltafilen
