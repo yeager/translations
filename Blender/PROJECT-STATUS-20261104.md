@@ -7130,6 +7130,6 @@ Translate.
 manuell deltafil med endast dessa 20, lokalt granskade poster.
 
 `blender-ui-sv-reviewed-20261108-pending-batches-811-842.po` är den aktuella
-samlade manuella deltafilen för batch 811–842. Den innehåller 339 poster,
+samlade manuella deltafilen för batch 811–842. Den innehåller 336 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
