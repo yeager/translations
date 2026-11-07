@@ -141,6 +141,17 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 504 granskar 25 poster för ommeshning, voxel- och
+fyrhörningsommeshare, texturutrymme, markeringsräkning och topologispegling.
+Den använder etablerade termer som *voxelommeshare*, *fyrhörningsommeshare*,
+*adaptivitet*, *texturmesh* och *ytor*, samt gör hjälptesten konsekventa med
+den översatta åtgärden *Korrigera poler*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-504-mesh-remesh-and-selection.po` och
+den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-504.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade

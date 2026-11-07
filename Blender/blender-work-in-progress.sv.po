@@ -41812,22 +41812,18 @@ msgstr "Ommeshningsläge"
 
 #. :src: bpy.types.Mesh.remesh_mode:'VOXEL'
 #. :src: bpy.types.SCULPT_OT_sample_detail_size.mode:'VOXEL'
-#, fuzzy
 msgid "Voxel"
 msgstr "Voxel"
 
 #. :src: bpy.types.Mesh.remesh_mode:'VOXEL'
-#, fuzzy
 msgid "Use the voxel remesher"
 msgstr "Använd voxelommesharen"
 
 #. :src: bpy.types.Mesh.remesh_mode:'QUAD'
-#, fuzzy
 msgid "Quad"
 msgstr "Quad"
 
 #. :src: bpy.types.Mesh.remesh_mode:'QUAD'
-#, fuzzy
 msgid "Use the quad remesher"
 msgstr "Använd fyrhörningsommesharen"
 
@@ -41836,15 +41832,13 @@ msgstr "Använd fyrhörningsommesharen"
 #. :src: bpy.types.VolumeToMeshModifier.adaptivity
 #: source/blender/nodes/geometry/nodes/node_geo_grid_to_mesh.cc:22
 #: source/blender/nodes/geometry/nodes/node_geo_volume_to_mesh.cc:51
-#, fuzzy
 msgid "Adaptivity"
 msgstr "Adaptivitet"
 
 #. :src: bpy.types.Mesh.remesh_voxel_adaptivity
 #. :src: bpy.types.RemeshModifier.adaptivity
-#, fuzzy
 msgid "Reduces the final face count by simplifying geometry where detail is not needed, generating triangles. A value greater than 0 disables Fix Poles."
-msgstr "Minskar det slutliga antalet ytor genom att förenkla geometrin där detaljer inte behövs, vilket genererar trianglar. Ett värde större än 0 inaktiverar Fix Poles."
+msgstr "Minskar det slutliga antalet ytor genom att förenkla geometrin där detaljer inte behövs, vilket genererar trianglar. Ett värde större än 0 inaktiverar Korrigera poler."
 
 #. :src: bpy.types.Mesh.remesh_voxel_size
 #. :src: bpy.types.MeshToVolumeModifier.resolution_mode:'VOXEL_SIZE'
@@ -41858,101 +41852,83 @@ msgstr "Minskar det slutliga antalet ytor genom att förenkla geometrin där det
 #: source/blender/nodes/geometry/nodes/node_geo_points_to_sdf_grid.cc:21
 #: source/blender/nodes/geometry/nodes/node_geo_points_to_volume.cc:133
 #: source/blender/nodes/geometry/nodes/node_geo_volume_to_mesh.cc:33
-#, fuzzy
 msgid "Voxel Size"
 msgstr "Voxelstorlek"
 
 #. :src: bpy.types.Mesh.remesh_voxel_size
 #. :src: bpy.types.RemeshModifier.voxel_size
-#, fuzzy
 msgid "Size of the voxel in object space used for volume evaluation. Lower values preserve finer details."
 msgstr "Storlek på voxeln i objektrymden som används för volymutvärdering. Lägre värden bevarar finare detaljer."
 
 #. :src: bpy.types.Mesh.skin_vertices
-#, fuzzy
 msgid "Skin Vertices"
 msgstr "Skin-hörnpunkter"
 
 #. :src: bpy.types.Mesh.skin_vertices
-#, fuzzy
 msgid "All skin vertices"
 msgstr "Alla Skin-hörnpunkter"
 
 #. :src: bpy.types.Mesh.texco_mesh
-#, fuzzy
 msgid "Texture Space Mesh"
 msgstr "Mesh för texturutrymme"
 
 #. :src: bpy.types.Mesh.texco_mesh
-#, fuzzy
 msgid "Derive texture coordinates from another mesh"
 msgstr "Härled texturkoordinater från ett annat mesh"
 
 #. :src: bpy.types.Mesh.texspace_location
 #. :src: bpy.types.MetaBall.texspace_location
-#, fuzzy
 msgid "Texture space location"
 msgstr "Texturutrymmets placering"
 
 #. :src: bpy.types.Mesh.texspace_size
 #. :src: bpy.types.MetaBall.texspace_size
-#, fuzzy
 msgid "Texture space size"
 msgstr "Storlek på texturutrymme"
 
 #. :src: bpy.types.Mesh.texture_mesh
-#, fuzzy
 msgid "Texture Mesh"
 msgstr "Texturmesh"
 
 #. :src: bpy.types.Mesh.texture_mesh
-#, fuzzy
 msgid "Use another mesh for texture indices (vertex indices must be aligned)"
 msgstr "Använd ett annat mesh för texturindex (vertexindex måste vara i linje)"
 
 #. :src: bpy.types.Mesh.total_edge_sel
-#, fuzzy
 msgid "Selected Edge Total"
 msgstr "Antal markerade kanter"
 
 #. :src: bpy.types.Mesh.total_edge_sel
-#, fuzzy
 msgid "Selected edge count in editmode"
 msgstr "Antal markerade kanter i redigeringsläge"
 
 #. :src: bpy.types.Mesh.total_face_sel
-#, fuzzy
 msgid "Selected Face Total"
 msgstr "Antal markerade ytor"
 
 #. :src: bpy.types.Mesh.total_face_sel
-#, fuzzy
 msgid "Selected face count in editmode"
-msgstr "Antal valda ansikten i redigeringsläget"
+msgstr "Antal markerade ytor i redigeringsläge"
 
 #. :src: bpy.types.Mesh.total_vert_sel
-#, fuzzy
 msgid "Selected Vertex Total"
 msgstr "Antal markerade hörnpunkter"
 
 #. :src: bpy.types.Mesh.total_vert_sel
-#, fuzzy
 msgid "Selected vertex count in editmode"
 msgstr "Antal markerade hörnpunkter i redigeringsläge"
 
 #. :src: bpy.types.Mesh.use_mirror_topology
 #. :src: bpy.types.OBJECT_OT_shape_key_mirror.use_topology
 #. :src: bpy.types.OBJECT_OT_vertex_group_mirror.use_topology
-#, fuzzy
 msgid "Topology Mirror"
 msgstr "Topologispegling"
 
 #. :src: bpy.types.Mesh.use_mirror_topology
 #. :src: bpy.types.OBJECT_OT_shape_key_mirror.use_topology
 #. :src: bpy.types.OBJECT_OT_vertex_group_mirror.use_topology
-#, fuzzy
 msgid "Use topology based mirroring (for when both sides of mesh have matching, unique topology)"
-msgstr "Använd topologibaserad spegling (för när båda sidor av nätet har matchande, unik topologi)"
+msgstr "Använd topologibaserad spegling när meshens båda sidor har matchande, unik topologi"
 
 #. :src: bpy.types.Mesh.use_mirror_vertex_groups
 #. :src: bpy.types.MirrorModifier.use_mirror_vertex_groups
