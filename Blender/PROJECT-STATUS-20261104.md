@@ -5939,8 +5939,13 @@ meshdatatyp samt fler Extensions-texter. Den bevarar det synliga produktnamnet
 separat vid sammanslagningen.
 
 Den aktuella rekommenderade importfilen är
-`blender-ui-sv-reviewed-20261107-pending-batches-714-717.po`. Den innehåller
-86 lokalt kontrollerade, ännu ej importerade poster från batch 714–717 och är
+`blender-ui-sv-reviewed-20261107-pending-batches-714-718.po`. Den innehåller
+109 lokalt kontrollerade, ännu ej importerade poster från batch 714–718 och är
 validerad med `msgfmt`, `l10n-lint`, sammanslagningskontroll, diffkontroll och
 Gitleaks.
+
+Batch 718 normaliserar nod- och animationsbegrepp enligt termbasen:
+*shadernod*, *visningsnod*, *kompositör*, *dopeblad*, *drivrutin* och
+*filutdata*. Ändringarna är begränsade till explicita datatyper, operatorer och
+paneler; generiska och tvetydiga viewer-strängar har lämnats orörda.
 
