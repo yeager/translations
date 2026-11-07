@@ -8249,6 +8249,19 @@ den separata manuella deltafilen med de fyra rättningarna.
 manuella deltafilen för batch 811–928. Den innehåller 793 översättningsposter
 och ryms därför inom gränsen på 1 000 strängar för en Blender Translate-import.
 
+Batch 930 normaliserar RNA-beskrivningen *Meshdatablock som definierar
+geometriska ytor*. Den sammanskrivna formen följer projektets etablerade
+`mesh`-terminologi och ersätter den inkonsekventa formen *Mesh-datablock*.
+Batchen är lokalt granskad, men ännu inte verifierad som importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-930-mesh-datablock-label.po` är den
+separata manuella deltafilen med rättningen.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-930.po` är den samlade
+manuella deltafilen för batch 811–930. Den innehåller 794 översättningsposter
+och ryms därför inom gränsen på 1 000 strängar för en Blender Translate-import.
+
 En lokal sammanslagning av den nedladdade UI-filen och batch 811–922 har
 kontrollerats med `msgfmt` och `svlang svengelska`. De enda återstående
 anglicismträffarna är det synliga Blender-namnet *Scope* i *Scope-panelerna*
