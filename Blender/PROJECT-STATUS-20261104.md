@@ -7924,3 +7924,18 @@ separat manuell deltafil med den lokalt granskade ändringen.
 samlade manuella deltafilen för batch 811–903. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 904 granskar 22 centrala UI- och felmeddelandesträngar där Blenders
+formella datatyp *mesh* tidigare hade översatts som *nät*. Den behåller
+*mesh* i datatyper och etiketter, använder böjningarna *meshen* och *meshar*
+och skriver tekniska sammansättningar som *meshsymmetri*, *meshgräns* och
+*meshcache*. Batchen är lokalt klar och pushad till vårt arkiv, men ännu inte
+verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-904-mesh-datatype-core.po` är en
+separat manuell deltafil med dessa lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-904.po` är den aktuella
+samlade manuella deltafilen för batch 811–904. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
