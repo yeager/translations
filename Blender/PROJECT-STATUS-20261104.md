@@ -5676,6 +5676,12 @@ verktygsformen *slumpa*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-691-keymap-fallbacks-mesh-curve-sculpt.po`
 är lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 692 granskar XR-teleporteringens färgåterkoppling för raycast-träffar.
+Den behåller den tekniska termen *raycast* men ersätter det tvetydiga
+pronomenet i hjälprutan med *Färg för raycast vid träff*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-692-xr-raycast-color.po` är lokalt
+kontrollerad och ännu inte importerad i Blender Translate.
+
 Den samlade deltafilen
 `blender-ui-sv-reviewed-20261107-batches-684-689-combined.po` innehåller
 alla 38 unika, lokalt kontrollerade och ännu ej importerade ändringar. Där

@@ -720,6 +720,7 @@ Senast uppdaterad: 2026-11-07.
 | codec profile / codec profiles | kodekprofil / kodekprofiler | Använd för profiler som beskriver en kodeks kodningsalternativ. Produktnamn och själva profilvärdena, exempelvis *ProRes 422 HQ*, lämnas oförändrade. |
 | codec | kodek | Använd *ljudkodek*, *videokodek* och *komprimeringskodek* i synlig UI-text. Lämna egenskapsnamn som `FFmpegSettings.codec` och formatidentifierare på engelska. |
 | Constant Rate Factor (CRF) | Constant Rate Factor (CRF) | FFmpeg-parameter i Blenders videoutdata. Behåll den etablerade parameterbenämningen och förklara dess effekt på svenska. |
+| raycast (XR-teleportering) | raycast | Teknisk term i XR-operatorns träffkontroll. Behåll termen men skriv den omgivande hjälprutan idiomatiskt, exempelvis *Färg för raycast vid träff*. |
 | NDOF | NDOF | Behåll enhetens produktförkortning; översätt den efterföljande synliga åtgärden med liten begynnelsebokstav. |
 | keyframe | nyckelbildruta | Grundterm för animeringspunkt på en F-kurva. |
 | quartic/quintic interpolation | fjärdegradig/femtegradig interpolering | Matematiska interpoleringsord; inte kvadratisk eller engelska funktionsnamn. |
