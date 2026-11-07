@@ -6311,6 +6311,15 @@ Den är lokalt klar men ännu inte importerad.
 manuella importfilen. Den innehåller 31 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 765 rättar två bildkällsetiketter för kompositörens Viewer-nod.
+Den ersätter den personbetecknande formen *visare* med termbasens
+*visningsnod*. Deltafilen har passerat `msgfmt`, `l10n-lint` och `svlang`.
+Den är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-761-765.po` är den aktuella
+manuella importfilen. Den innehåller 33 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
