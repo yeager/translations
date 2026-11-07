@@ -244,10 +244,17 @@ formen *nedladdningscachekatalog* till *cachekatalog för nedladdning av
 fjärranslutna resursbibliotek*. Deltafilen är lokalt kontrollerad och ännu inte
 importerad i Blender Translate.
 
+Batch 663 granskar elva API-beskrivningar för `BlendImportContext` och
+färgstyrning. Den normaliserar bland annat *blendfil*,
+*biblioteksåsidosättning* och *resursbibliotek*, samt tar bort slutpunkter där
+källtexten uttryckligen saknar dem. Verktyget svlang rapporterar tekniska
+API-namn och fragment som ovanliga; dessa är avsiktliga. Deltafilen är lokalt
+kontrollerad och ännu inte importerad i Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-662-combined.po` med 200
+`blender-ui-sv-reviewed-20261107-batches-626-663-combined.po` med 209
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–662.
+och innehåller dessutom batch 657–663.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har

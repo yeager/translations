@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender UI\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. :src: bpy.types.BlendFileColorspace.working_space_interop_id
+msgid ""
+"Unique identifier for common color spaces, as defined by the Color Interop "
+"Forum. May be empty if there is no interop ID for the working space. Common "
+"values are lin_rec709_scene, lin_rec2020_scene and lin_ap1_scene (for "
+"ACEScg)"
+msgstr ""
+"Unik identifierare för vanliga färgrymder enligt definition från Color "
+"Interop Forum. Kan vara tom om arbetsfärgrymden saknar interop-ID. Vanliga "
+"värden är lin_rec709_scene, lin_rec2020_scene och lin_ap1_scene (för "
+"ACEScg)"
+
+#. :src: bpy.types.BlendImportContext.options:'APPEND_RECURSIVE'
+msgid ""
+"Append (make local) also indirect dependencies of appended IDs coming from "
+"other libraries. NOTE: All IDs (including indirectly linked ones) coming "
+"from the same initial library are always made local"
+msgstr ""
+"Lägg till (gör lokala) även indirekta beroenden till tillagda ID:n från "
+"andra bibliotek. OBS: Alla ID:n (även indirekt länkade) från samma "
+"ursprungliga bibliotek görs alltid lokala"
+
+#. :src: bpy.types.BlendImportContextItem
+msgid ""
+"An item (representing a data-block) in a BlendImportContext data. Currently "
+"only exposed as read-only data for the pre/post linking handlers"
+msgstr ""
+"Ett objekt (som representerar ett datablock) i data för BlendImportContext. "
+"För närvarande endast tillgängligt som skrivskyddade data för hanterare före "
+"och efter länkning"
+
+#. :src: bpy.types.BlendImportContextItem.append_action
+msgid ""
+"How this item has been handled by the append operation. Only set if the data "
+"has been appended"
+msgstr ""
+"Hur objektet har hanterats av tilläggsåtgärden. Anges endast om data har "
+"lagts till"
+
+#. :src: bpy.types.BlendImportContextItem.id
+msgid ""
+"The imported ID. None until it has been linked or appended. May be the same "
+"as ``reusable_local_id`` when appended"
+msgstr ""
+"Det importerade ID:t. Saknas tills det har länkats eller lagts till. Kan "
+"vara samma som ``reusable_local_id`` när det läggs till"
+
+#. :src: bpy.types.BlendImportContextItem.library_override_id
+msgid "The library override of the linked ID. None until it has been created"
+msgstr "Biblioteksåsidosättningen för det länkade ID:t. Saknas tills den har skapats"
+
+#. :src: bpy.types.BlendImportContextItem.reusable_local_id
+msgid ""
+"The already existing local ID that may be reused in append & reuse case. "
+"None until it has been found"
+msgstr ""
+"Det befintliga lokala ID:t som kan återanvändas vid tillägg och "
+"återanvändning. Saknas tills det har hittats"
+
+#. :src: bpy.types.BlendImportContextItem.source_libraries
+msgid ""
+"List of libraries to search and import that ID from. The ID will be imported "
+"from the first file in that list that contains it"
+msgstr ""
+"Lista över bibliotek att söka i och importera ID:t från. ID:t importeras "
+"från den första fil i listan som innehåller det"
+
+#. :src: bpy.types.BlendImportContextItem.source_library
+msgid ""
+"Library ID representing the blendfile from which the ID was imported. None "
+"until the ID has been linked or appended"
+msgstr ""
+"Biblioteks-ID som representerar blendfilen som ID:t importerades från. "
+"Saknas tills ID:t har länkats eller lagts till"
+
+#. :src: bpy.types.BlendImportContextLibrary
+msgid ""
+"Library (blend-file) reference in a BlendImportContext data. Currently only "
+"exposed as read-only data for the pre/post blend-import handlers"
+msgstr ""
+"Biblioteksreferens (blendfil) i BlendImportContext-data. För närvarande "
+"endast tillgängligt som skrivskyddade data för hanterare före och efter "
+"blendfilimport"
+
+#. :src: bpy.types.BlenderProject.active_asset_library
+msgid "Index of the asset library being edited in the Project Settings UI"
+msgstr "Index för resursbiblioteket som redigeras i projektinställningarnas gränssnitt"
