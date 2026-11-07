@@ -7283,3 +7283,17 @@ manuell deltafil med endast dessa åtta, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–853. Den innehåller 437 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 854 normaliserar 30 modifierar- och dataegenskaper för mesh, bland annat
+Bevel, Build, Multiresolution, QuadriFlow och Mesh Deform. Den använder
+*mesh*, *meshen*, *meshobjekt*, *meshcache*, *meshdeformering* och
+*ommeshning* i stället för den generiska geometribetydelsen *nät*. Batchen är
+lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-854-mesh-modifiers.po` är en separat
+manuell deltafil med endast dessa 30, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-854.po` är den aktuella
+samlade manuella deltafilen för batch 811–854. Den innehåller 446 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
