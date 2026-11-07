@@ -6521,6 +6521,14 @@ Batch 785 granskar fem UI- och diagnostiktexter för kompositionsnodgrupper.
 manuella importfilen. Den innehåller 171 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 786 granskar två handlingar för visningsnoder. De avser den synliga
+redigeraren *Kompositör* och använder därför den bestämda löptextformen
+*kompositören*. Batchen är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-786.po` är den aktuella
+manuella importfilen. Den innehåller 173 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
