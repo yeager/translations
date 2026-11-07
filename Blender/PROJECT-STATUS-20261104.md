@@ -6978,10 +6978,9 @@ Batchen är lokalt klar men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-829-mesh-context.po` är en separat
 manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
 
-`blender-ui-sv-reviewed-20261108-pending-batches-811-829.po` är den aktuella
-samlade manuella deltafilen för batch 811–829. Den innehåller 171 poster,
-passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
-Translate.
+`blender-ui-sv-reviewed-20261108-pending-batches-811-829.po` är den tidigare
+samlade manuella deltafilen för batch 811–829. Den innehåller 171 poster och
+passerar lokal syntax- och lintkontroll.
 
 Batch 830 granskar elva Mesh-texter för UV, export, ommeshning och
 objektkonvertering. Den använder konsekvent *meshattribut*, *meshplan*,
@@ -6990,4 +6989,9 @@ klar men ännu inte importerad i Blender Translate.
 
 `blender-ui-sv-reviewed-20261108-batch-830-mesh-data.po` är en separat
 manuell deltafil med endast dessa elva nya, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-830.po` är den aktuella
+samlade manuella deltafilen för batch 811–830. Den innehåller 182 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
 
