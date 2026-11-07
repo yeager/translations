@@ -327,7 +327,12 @@ inställningen för fyrkanaligt ljud. Deltafilen är lokalt kontrollerad och än
 inte importerad i Blender Translate.
 
 Batch 677 rättar etiketten för begränsning till aktiv åtgärdsslot i Dope Sheet.
-Den följer den närliggande hjälpradens uttryck *sloten för det aktiva objektet*.
+Den följer den närliggande hjälpradens uttryck *det aktiva objektets slot*.
+Deltafilen är lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
+Batch 678 normaliserar elva ActionSlot-poster efter en oberoende genomgång av
+RNA-kontexten. Den skiljer den tekniska termen *slot* från ordet *slott* och
+använder korrekta former som *slotten*, *slothandtag* och *slotidentifierare*.
 Deltafilen är lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
 Den aktuella samlingsfilen för nästa import är
