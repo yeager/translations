@@ -2,6 +2,10 @@
 
 Senaste lokala arbete: 7 november 2026.
 
+Projektets åldersregel är verifierad den 7 november 2026: Blender 5.2.3 LTS
+släpptes 22 oktober 2026 och Blender 5.3 var i release-candidate-fas. Projektet
+har alltså en aktiv release långt inom 48-månadersgränsen.
+
 Batch 626 granskar fyra `Library Override`-poster i Blender UI:s RNA- och
 menykontext. Den normaliserar den synliga huvudformen och de tre beskrivande
 strängarna till *biblioteksåsidosättning*, medan närliggande
