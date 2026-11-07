@@ -262,10 +262,15 @@ dope sheet. Den rättar bland annat genitivformen *det aktiva objektet* och
 gör den sammanhängande beskrivningen av åtgärdsslotar idiomatisk. Deltafilen
 är lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 666 granskar två förval- och Geometry Nodes-poster. Den normaliserar
+den svenska anmärkningen i DVD-förvalet och tar bort en slutpunkt som saknas i
+källtexten. Deltafilen är lokalt kontrollerad och ännu inte importerad i
+Blender Translate.
+
 Den aktuella samlingsfilen för nästa import är
-`blender-ui-sv-reviewed-20261107-batches-626-665-combined.po` med 218
+`blender-ui-sv-reviewed-20261107-batches-626-666-combined.po` med 220
 granskade poster. Den bygger vidare på den verifierat importerade batch 626–656
-och innehåller dessutom batch 657–665.
+och innehåller dessutom batch 657–666.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
