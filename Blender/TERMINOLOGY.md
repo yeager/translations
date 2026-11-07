@@ -81,6 +81,7 @@ Senast uppdaterad: 2026-11-07.
 | pie menu | cirkelmeny | Följer den aktuella svenska Blender-UI-katalogen. |
 | popup / popover | popupfönster | Synligt tillfälligt fönster eller meny. Undvik *poppuppfönster*, som ger tre `p` i följd. |
 | Essentials | Grundresurser | Översatt UI-namn för Blenders medföljande resurser. I löpande text: *resursbiblioteket Grundresurser*. |
+| Online Essentials | Grundresurser på nätet | Nätansluten variant av Blenders medföljande resursbibliotek. Använd *på nätet*, inte engelskpåverkade *online*. |
 | Essentials Library | grundresursbiblioteket | Rubrik i manualen för det inbyggda biblioteket med *Grundresurser*. Använd inte detta för den fristående UI-etiketten *Essentials*, som är *Grundresurser*. |
 | Cyclic | Cyklisk | Kurv- och splineinställning. Skriv vid behov *alternativet Cyklisk* för korrekt svensk kongruens. |
 | endpoint clamping | slutpunktsinterpolation | NURBS-egenskap som gör att kurvan går genom den första och sista kontrollpunkten. Använd inte den otydliga allmänformen *begränsning vid slutpunkterna*. |
