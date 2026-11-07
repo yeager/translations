@@ -138,6 +138,7 @@ Senast uppdaterad: 2026-11-07.
 | internal clipboard | interna urklippet | UI-funktion, inte operativsystemets urklipp. |
 | rigid body | styv kropp | Fysiksimuleringens etablerade term. |
 | shader | shader | Behåll den etablerade facktermen i UI och nodnamn. |
+| Shader Node | shadernod | Formell Blender-nodtyp. Skriv sammansättningen ihop: *shadernod*, *shadernoder*, *shadernodträd* och *shadernoduttag*. När *shader* i stället avser skuggningsberäkningen används den svenska saktermen *skuggning*. |
 | anti-aliasing | kantutjämning | Synlig inställning för text- och bildåtergivning. |
 | Subpixel Anti-Aliasing | Kantutjämning på subpixelnivå | Följer den aktuella svenska UI-etiketten. |
 | font hinting | teckensnittshintning | Inställning som styr teckenplacering och skärpa i textåtergivning. Den aktuella UI-exportens *Teckensnittshinting* bör hanteras som en separat UI-rättelse, inte kopieras in i manualprosan. |
