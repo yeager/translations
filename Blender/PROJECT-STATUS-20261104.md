@@ -7575,3 +7575,16 @@ manuell deltafil med dessa två, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–874. Den innehåller 629 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 875 granskar sju kompositionssträngar för scenen, sekvensredigeraren
+och kompositorns nodgrupper. Den normaliserar *kompositionsnodgrupp*,
+*kompositionseffekt*, *scenkomposition* och *sekvenserarkomposition*.
+Batchen är lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-875-composition.po` är en separat
+manuell deltafil med dessa sju, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-875.po` är den aktuella
+samlade manuella deltafilen för batch 811–875. Den innehåller 636 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
