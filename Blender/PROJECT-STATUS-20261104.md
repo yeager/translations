@@ -3726,3 +3726,10 @@ Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-459-brush-pressure-jitter-and-masks.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
+Batch 460 granskar 36 penselposter för plan, poseringsdeformation och
+ytuppsättningar. Den rättar det missvisande *toppar* till *hörnpunkter* för
+meshens vertexar och normaliserar *FK-deformation* i poseringsverktygets
+hjälptext. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-460-brush-planes-and-pose.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
