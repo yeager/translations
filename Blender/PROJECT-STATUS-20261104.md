@@ -4719,3 +4719,13 @@ samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 567 granskar elva poster för *Hair Attachment Info*, som läser
+hårkurvornas fäste vid en meshyta. Den gör *meshyta* och *meshytans
+normalriktning* konsekventa med terminologin och uppdaterar även
+terminologiposterna för hårinfästning. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-567-hair-attachment-info.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-567.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
