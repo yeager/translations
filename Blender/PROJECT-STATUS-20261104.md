@@ -5229,3 +5229,12 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 624 granskar pose, styv kropp och partikelinstansiering. *Pose* behålls
+som den etablerade Blender-etiketten; *styv kropp*, *instansobjekt* och
+*slumpmässig storlek* följer termbasen. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-624-pose-rigid-body-and-particles.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-624.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
