@@ -3707,3 +3707,9 @@ värden mellan pensel-, UV- och modifierarkontexter och bekräftar
 `blender-ui-sv-reviewed-20261107-batch-456-brush-curves-and-dashes.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
+Batch 457 granskar 14 penselposter för riktning, elastisk deformation och
+avtagande. Den bekräftar de kontextspecifika UI-termerna *avtagandevinkel*,
+*avtagandeform*, *Poisson-tal* och *Flytta i två/tre skalor*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-457-brush-direction-and-falloff.po`
+är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
+
