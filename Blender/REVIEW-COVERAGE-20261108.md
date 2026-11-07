@@ -4,9 +4,9 @@
 
 - Källfil: `~/Downloads/blender-ui-ui-sv (4).po`
 - Källfilens innehåll: 40 427 översättningsposter (rubriken undantagen).
-- Arkiverade granskningsbatcher: 722 filer med namnet
+- Arkiverade granskningsbatcher: 732 filer med namnet
   `blender-ui-sv-reviewed-*-batch-*.po`, plus samlade deltafiler. Mätningen
-  använder unionen av samtliga 1 425 arkiverade filer med namnet
+  använder unionen av samtliga 1 445 arkiverade filer med namnet
   `blender-ui-sv-reviewed-*.po` så att en granskad post räknas även när den
   endast finns i en samlad, spårbar importfil.
 
@@ -19,10 +19,10 @@ dubbletter eller ändringar som inte längre finns i den nedladdade filen.
 
 | Mått | Poster |
 | --- | ---: |
-| Unika poster i alla arkiverade granskningsfiler | 10 090 |
-| Poster som fortfarande finns i källfilen | 9 422 |
+| Unika poster i alla arkiverade granskningsfiler | 10 091 |
+| Poster som fortfarande finns i källfilen | 9 423 |
 | Granskningstäckning i den lokala källfilen | 23,30 % |
-| Återstående för full radvis täckning | 31 005 |
+| Återstående för full radvis täckning | 31 004 |
 
 ## Tolkning
 
