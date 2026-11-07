@@ -6091,72 +6091,66 @@ Filen ska därför inte laddas upp igen.
 Batch 739 fortsätter med Grease Pencil- och anteckningsdata. I denna
 datamodell avser *stroke* det ritade dataobjektet, inte användarens
 penselrörelse; den konsekventa svenska termen är därför *streck*. Deltafilen
-innehåller tio lokalt granskade, ännu ej importerade ändringar.
+innehåller tio lokalt granskade ändringar.
 
 Batch 740 tillämpar samma åtskillnad på samlingar, penselinställningar och
 visningsfilter för Grease Pencil. Anteckningsstreck och streckpunkter är
 dataobjekt, medan *penseldrag* behålls när texten beskriver användarens
-faktiska rörelse. Deltafilen innehåller tolv lokalt granskade, ännu ej
-importerade ändringar.
+faktiska rörelse. Deltafilen innehåller tolv lokalt granskade ändringar.
 
 Batch 741 rättar ett enda nodgränssnitt: ett inaktivt uttag påverkar nodens
-*utdata*, inte den generiska *utmatningen*. Deltafilen är lokalt granskad och
-ännu inte importerad.
+*utdata*, inte den generiska *utmatningen*. Deltafilen är lokalt granskad.
 
 Batch 742 korrigerar tre lokala sammanhang där Blender-datatypen *mesh*
 felaktigt blivit *nät*. I modifierar- och cachekontext behålls *mesh* enligt
-den projektspecifika terminologin. Deltafilen är lokalt granskad och ännu inte
-importerad.
+den projektspecifika terminologin. Deltafilen är lokalt granskad.
 
 `blender-ui-sv-reviewed-20261107-pending-batches-739-742.po` är den aktuella
 samlade importfilen för de fyra efterföljande batcherna. Den innehåller 26
-unika, lokalt granskade och ännu ej importerade ändringar och ryms väl inom
-Blender Translates gräns på 1 000 strängar per import.
+unika, lokalt granskade ändringar och ryms väl inom Blender Translates gräns
+på 1 000 strängar per import.
 
 Batch 743 följer termlistans beslut att behålla Blenders synliga namn
 *Outliner*. Tjugo operatörs- och hjälprader som tidigare använde det generiska
 *översikten* får därför konsekvent det faktiska UI-namnet. Deltafilen är
-lokalt granskad och ännu inte importerad.
+lokalt granskad.
 
 Batch 744 granskar vidare Outliner-referenser i egenskaper, synkronisering,
 redigeringslägen och felmeddelanden. Namnet behålls också i sammansättningar
 som *Outliner-trädet* och *Outliner-region*. Deltafilen innehåller tretton
-lokalt granskade, ännu ej importerade ändringar.
+lokalt granskade ändringar.
 
 Batch 745 fullföljer samma normalisering i fem felmeddelanden där användaren
 behöver öppna eller tolka det faktiska Outliner-trädet. Deltafilen är lokalt
-granskad och ännu inte importerad.
+granskad.
 
 Batch 746 avslutar den lokalt identifierade Outliner-normaliseringen i
 hjälptext och tema. Den rättar dessutom fyra sammanhang där *Action* är
 Blenders formella animationsdatatyp, inte den vanliga svenska handlingen
-*åtgärd*. Deltafilen innehåller sju lokalt granskade, ännu ej importerade
-ändringar.
+*åtgärd*. Deltafilen innehåller sju lokalt granskade ändringar.
 
 Batch 747 tillämpar Shrinkwrap-terminologin på modifierarens målegenskaper:
 det synliga funktionsnamnet *Shrinkwrap* behålls, medan objektet som används
-som mål blir *målmeshobjekt*. Deltafilen innehåller fyra lokalt granskade,
-ännu ej importerade ändringar.
+som mål blir *målmeshobjekt*. Deltafilen innehåller fyra lokalt granskade
+ändringar.
 
 `blender-ui-sv-reviewed-20261107-pending-batches-739-743.po` ersätter
-739–742-samlingen. Den innehåller 46 unika, lokalt granskade och ännu ej
-importerade ändringar.
+739–742-samlingen. Den innehåller 46 unika, lokalt granskade ändringar.
 
 `blender-ui-sv-reviewed-20261107-pending-batches-739-744.po` ersätter
-739–743-samlingen. Den innehåller 59 unika, lokalt granskade och ännu ej
-importerade ändringar.
+739–743-samlingen. Den innehåller 59 unika, lokalt granskade ändringar.
 
 `blender-ui-sv-reviewed-20261107-pending-batches-739-745.po` ersätter
-739–744-samlingen. Den innehåller 64 unika, lokalt granskade och ännu ej
-importerade ändringar.
+739–744-samlingen. Den innehåller 64 unika, lokalt granskade ändringar.
 
 `blender-ui-sv-reviewed-20261107-pending-batches-739-746.po` ersätter
-739–745-samlingen. Den innehåller 71 unika, lokalt granskade och ännu ej
-importerade ändringar.
+739–745-samlingen. Den innehåller 71 unika, lokalt granskade ändringar.
 
 `blender-ui-sv-reviewed-20261107-pending-batches-739-747.po` ersätter
-739–746-samlingen. Den innehåller 75 unika, lokalt granskade och ännu ej
-importerade ändringar.
+739–746-samlingen. Den innehåller 75 unika, lokalt granskade ändringar.
+Blender Translate-importen är verifierad den 7 november: servern behandlade
+75 poster, uppdaterade 57, hoppade över 18 och saknade 0. Filen ska därför
+inte laddas upp igen.
 
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
