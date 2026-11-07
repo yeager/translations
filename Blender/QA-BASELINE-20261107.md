@@ -61,6 +61,12 @@ Den effektiva katalogen är ett lokalt QA-underlag, inte en ny importfil: den
 innehåller både redan importerade och ännu lokala ändringar. En sådan
 sammanslagning får därför aldrig laddas upp som en deltafil.
 
+Efter batch 673 byggdes underlaget om med den aktuella samlingsfilen
+626–673. `msgfmt` passerade och `l10n-lint` gav 0 fel, 186 varningar, 114
+källtextlika poster och inga träffar för felstavning eller false friends.
+Den separata kontrollen för tre lika konsonanter ger sju träffar, men samtliga
+är de avsiktliga årmaskerna `åååå` i datumformat och inte ordformer.
+
 `svlang check` kan användas för enskilda svenska strängar, men inte som ett
 automatiskt helkatalogmått för denna PO-fil. En körning på den effektiva
 katalogen gav 0,0/10 och 3 701 påstådda V2-avvikelser, eftersom verktyget
