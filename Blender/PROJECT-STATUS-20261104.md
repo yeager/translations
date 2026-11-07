@@ -6414,6 +6414,17 @@ Den är lokalt klar men ännu inte importerad.
 manuella importfilen. Den innehåller 96 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 775 granskar två geometri- och skuggarnodtexter. *Input* avser här
+nodindata och översätts därför som *indatageometri* respektive *den andra
+indatan*. `msgfmt` och `l10n-lint` passerar. `svlang` flaggar bara den
+inledande imperativformen som en felaktig V2-varning; Hunspell saknar den
+förväntade Blender-sammansättningen *indatageometri*. Batchen är lokalt klar
+men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-775.po` är den aktuella
+manuella importfilen. Den innehåller 98 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
