@@ -157,9 +157,9 @@ med den tydliga formuleringen *inställningar relaterade till samlingen*.
 Deltafilen är lokalt kontrollerad men ännu inte importerad i Blender Translate.
 
 Batch 649 normaliserar två Dope Sheet-filter för relaterade animationsdata.
-*Ljusprobsrelaterade animationsdata* och *linjestilsrelaterade
+*Ljussondsrelaterade animationsdata* och *linjestilsrelaterade
 animationsdata* följer de omgivande filtrens struktur och Blenders etablerade
-termer *ljusprob* och *linjestil*. Deltafilen är lokalt kontrollerad men ännu
+termer *ljussond* och *linjestil*. Deltafilen är lokalt kontrollerad men ännu
 inte importerad i Blender Translate.
 
 Batch 650 rättar Outlinerns etikett för *Library Overrides*. Den tidigare
@@ -167,10 +167,20 @@ formen *biblioteksåsidosättanden* ersätts med den korrekta och konsekventa
 pluralformen *biblioteksåsidosättningar*. Deltafilen är lokalt kontrollerad
 men ännu inte importerad i Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–650 är
-`blender-ui-sv-reviewed-20261107-batches-626-650-combined.po` med 76
+Batch 651 normaliserar status- och åtgärdstexter för att återbygga lokala
+biblioteksåsidosättningar från länkade referenser. Termen är
+*omsynkronisera*/*omsynkronisering*; den äldre omskrivningen
+*synkronisera om* används inte längre i denna kontext. Deltafilen är lokalt
+kontrollerad men ännu inte importerad i Blender Translate.
+
+Batch 652 korrigerar batch 649 enligt projektets terminologilista:
+*light probe* är *ljussond*, alltså *ljussondsrelaterade animationsdata*.
+Deltafilen ersätter den tidigare, ännu ej importerade termen *ljusprob*.
+
+Den aktuella samlingsfilen för batch 626–652 är
+`blender-ui-sv-reviewed-20261107-batches-626-652-combined.po` med 81
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–649 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–650 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har

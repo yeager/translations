@@ -458,6 +458,7 @@ Senast uppdaterad: 2026-11-06.
 | UDIM tile | UDIM-platta | En platta i en UDIM-bildtextur. |
 | float buffer | flyttalsbuffert | Bildbuffert som lagrar värden som flyttal. |
 | library override | biblioteksåsidosättning | Lokal åsidosättning av länkat biblioteksmaterial. |
+| resync (library override) | omsynkronisera / omsynkronisering | Bygger om lokala biblioteksåsidosättningar från länkade referenser; använd inte den mer omständliga formen *synkronisera om* i denna UI-kontext. |
 | light probe | ljussond | Objekt som fångar belysningsdata för indirekt ljus och reflektioner. |
 | volume light probe | volymljussond | Ljussond som fångar belysningsdata i en 3D-volym. |
 | dilation radius / threshold | utvidgningsradie / utvidgningströskel | Parametrar för att fylla ogiltiga prov i en volymljussonds rutnät; avser inte utspädning. |
