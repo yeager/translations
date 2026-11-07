@@ -6372,6 +6372,18 @@ utan anmärkning. Den är lokalt klar men ännu inte importerad.
 manuella importfilen. Den innehåller 66 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 771 granskar de återstående RNA-etiketterna för Blenders interna
+`Space…`-typer: klippredigeraren, filbläddraren, Outliner, inställningarna,
+projektet, egenskaper, kalkylbladet och 3D-vyn. I den kontexten är *område*
+och *områdesdata* korrekt, medan *utrymme* och *rumsdata* är missvisande.
+Batchen har passerat `msgfmt` och `l10n-lint`; `svlang` känner inte igen
+Blenders sammansättningar och produktnamn men visar ingen verklig språkavvikelse.
+Den är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-761-771.po` är den aktuella
+manuella importfilen. Den innehåller 83 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna

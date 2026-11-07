@@ -836,6 +836,8 @@ Senast uppdaterad: 2026-11-07.
 | surface emission (fluid) | ytemission | Vätske- eller gasemission från en meshyta i Mantaflow. Skilj från materials ljusemission. |
 | soft body | mjukkropp | Fysiksimulerad kroppstyp i Blender. |
 | data-block | datablock | Blenders interna dataenhet; skriv som en sammansättning. |
+| editor space (RNA) | område | Blenders interna `Space…`-typer beskriver ett redigerarområde, inte ett tredimensionellt rum. |
+| editor space data (RNA) | områdesdata | Data för ett specifikt redigerarområde, exempelvis Outliner eller 3D-vyn. |
 
 ## Kontrollerade UI-formuleringar
 
