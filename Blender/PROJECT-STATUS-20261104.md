@@ -5965,3 +5965,23 @@ Den aktuella rekommenderade importfilen är
 37 lokalt kontrollerade, ännu ej importerade poster och har passerat `msgfmt`,
 `l10n-lint`, sammanslagningskontroll, diffkontroll och Gitleaks.
 
+Batch 721 utökar den lokala granskningen med 26 kontextbundna rättelser inom
+riggning, fysik och Extensions. Den följer termbasens *armatur*, *styv kropp*,
+*punktcache* och *tilläggsförråd* och lämnar produktnamn samt tvetydiga
+generella UI-texter orörda.
+
+Batch 722 granskar nio explicit kompositörsbundna texter och normaliserar
+*kompositör*, *kompositionsnodgrupp* och *visningsnod*. Batch 723 granskar tio
+Grease Pencil- och anteckningssträngar: data som avser ritade markeringar heter
+*streck*, medan verbet för verktygets åtgärd inte felaktigt byts ut mot ett
+databegrepp.
+
+Den aktuella rekommenderade importfilen är
+`blender-ui-sv-reviewed-20261107-pending-batches-719-723.po`. Den innehåller
+82 lokalt kontrollerade och ännu ej importerade poster från batch 719–723. Den
+bygger på exporten från 7 november men utesluter uttryckligen de redan
+serververifierade batcherna 705–718. `msgfmt`, `l10n-lint`, sammanslagnings- och
+diffkontroll samt Gitleaks passerade. `svlang` och svensk Hunspell gav bara
+förväntade tekniska Blender-sammansättningar och UI-fragment; inga konkreta
+språkfel identifierades.
+
