@@ -7721,3 +7721,17 @@ manuell deltafil med dessa tio, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–885. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 886 granskar tio geometri-nodsträngar som uttryckligen använder
+Blenders datatyp *mesh*. Batch 887 rättar den svenska böjningen till
+*meshens ytor*. Båda batcherna är lokalt klara och pushade till vårt arkiv,
+men ännu inte verifierade som importerade i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-886-geometry-mesh.po` och
+`blender-ui-sv-reviewed-20261108-batch-887-mesh-inflection.po` är separata
+manuella deltafiler med dessa lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-887.po` är den aktuella
+samlade manuella deltafilen för batch 811–887. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
