@@ -7203,3 +7203,17 @@ manuell deltafil med endast dessa 19, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–847. Den innehåller 388 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 848 normaliserar 17 objekt- och dataöverföringssträngar för mesh,
+kurvor, Multires och QuadriFlow. Den använder bland annat *meshobjekt*,
+*basmesh*, *målmesh* och *modifieraren för meshdeformering* i stället för den
+generiska geometribetydelsen *nät*. Batchen är lokalt klar men ännu inte
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-848-mesh-object-data.po` är en separat
+manuell deltafil med endast dessa 17, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-848.po` är den aktuella
+samlade manuella deltafilen för batch 811–848. Den innehåller 397 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
