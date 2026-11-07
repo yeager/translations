@@ -28,10 +28,14 @@ strängar (9 533 av 9 533 översatta). Befintliga QA-varningar granskas separat.
 
 ## Eden Emulator
 
-Qt-resursens första nya batch med 25 styrenhets-, Steam- och
-spelartilldelningssträngar finns i
-`Eden-Emulator/eden-qt-sv-20261107-controller-batch-01.json`. Qt-platshållare
-och radbrytningar bevarades; svenska procenttal fick standardmellanrum.
-`l10n-lint` gav inga fel. Transifex API uppdaterade samtliga 25 poster och
-återläste dem exakt. Efter inskicket har resursen 1 957 av 2 122 svenska
-strängar översatta; 165 återstår. Android-resursen är fortsatt komplett.
+De 190 nytillkomna oöversatta Qt-strängarna granskades i fem avgränsade
+batcher: styrenheter och Steam, inmatningsprofiler, spelartilldelning,
+spelaråterkoppling samt återstående styrenhetsgränssnitt. Underlagen är
+`Eden-Emulator/eden-qt-sv-20261107-*-batch-0[1-5].json`.
+
+Qt-platshållare, radbrytningar och produktnamn bevarades; svenska procenttal
+fick standardmellanrum. `l10n-lint` gav inga fel för varje batch. Transifex
+API uppdaterade 190 poster och varje inskickad måltext återlästes exakt.
+Slutlig resursstatistik visar 2 122 av 2 122 svenska Qt-strängar översatta och
+0 oöversatta. Android-resursen är fortsatt komplett. Översättningarnas
+granskningsstatus hanteras separat av projektets Transifex-flöde.

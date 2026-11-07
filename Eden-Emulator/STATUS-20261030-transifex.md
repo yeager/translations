@@ -44,3 +44,21 @@ den skickades med Transifex REST-API. API:t svarade HTTP 200 och måltexten
 återlästes exakt. Underlag och sändningsbevis finns i
 `eden-qt-sv-eglantine-punctuation-20261031.json` respektive
 `eden-qt-sv-eglantine-punctuation-submission-20261031.md`.
+
+## Qt-resurs – styrenhetsgranskning 7 november 2026
+
+En källuppdatering lade till 190 oöversatta svenska Qt-strängar. De
+granskades i fem batcher med fokus på styrenheter, Steam Input,
+inmatningsprofiler och spelartilldelning:
+
+- `eden-qt-sv-20261107-controller-batch-01.json`
+- `eden-qt-sv-20261107-input-profiles-batch-02.json`
+- `eden-qt-sv-20261107-player-assignment-batch-03.json`
+- `eden-qt-sv-20261107-player-feedback-batch-04.json`
+- `eden-qt-sv-20261107-final-controller-ui-batch-05.json`
+
+Platshållare och radbrytningar kontrollerades före varje API-inskick;
+`l10n-lint` gav inga fel. Transifex REST-API bekräftade ändringarna och varje
+skickad måltext återlästes exakt. Slutlig resursstatistik från API:t visar
+2 122 av 2 122 svenska Qt-strängar översatta och 0 oöversatta. Detta anger
+översättningsstatus, inte en eventuell separat granskningsstatus i Transifex.
