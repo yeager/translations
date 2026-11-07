@@ -303,6 +303,7 @@ Senast uppdaterad: 2026-11-07.
 | moving hold / jitter keyframe | rörlig hållning / slumpad nyckelbildruta | Animeringslägen där bilden hålls under rörelse respektive där en utfyllnadsbildruta används vid animering på ettor. |
 | annotation frame | anteckningsbildruta | Bildruta som innehåller en anteckning; undvik *ram för anteckning*. |
 | annotation layer | anteckningslager | Lager som samlar relaterade anteckningsstreck. |
+| annotation stroke / annotation stroke point | anteckningsstreck / punkt i anteckningsstreck | Ritad markering respektive dess kontrollpunkt i Blenders anteckningsdata. Använd *streck*, inte *penseldrag*, eftersom termen avser dataresultatet och inte användarens penselrörelse. |
 | Grease Pencil sculpt guide | skulpteringsguide för Grease Pencil | Guide som hjälper till att styra Grease Pencil-streck vid ritning och skulptering. |
 | auto-masking | automaskering | Begränsar verktygets påverkan till valt lager, material eller streck. |
 | layer pass / material pass | lagerpass / materialpass | Filteregenskaper i Grease Pencil-modifierare. |

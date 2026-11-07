@@ -5985,3 +5985,11 @@ diffkontroll samt Gitleaks passerade. `svlang` och svensk Hunspell gav bara
 förväntade tekniska Blender-sammansättningar och UI-fragment; inga konkreta
 språkfel identifierades.
 
+Batch 724 granskar ytterligare tio otvetydiga förekomster i Grease Pencil- och
+anteckningsdata. Den normaliserar dataresultatet *stroke* till *streck* i
+strecksamlingar, streckpunkter, radering, kloning och målningslägen, men låter
+*penseldrag* vara kvar där källtexten uttryckligen beskriver penselns rörelse.
+Batchfilen är lokalt kontrollerad och separat från den ännu ej importerade
+samlingsfilen 719–723, eftersom den lokala källexporten saknar de senaste
+serverändringarna.
+
