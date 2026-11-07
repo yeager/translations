@@ -5849,3 +5849,10 @@ datatypnamnet `Action` och den svenska UI-termen *åtgärdsslot*. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-709-nodes-mesh-context.po` är lokalt
 granskad och ännu inte importerad.
 
+Batch 710 går vidare med modifierargruppens explicita `Mesh`-datatyper.
+Sjutton etiketter och hjälptexter för bakning, texturdata, avfasning,
+underindelning, deformation och partikelinstanser använder nu konsekvent
+*mesh* där källan avser Blenders datatyp; vanliga *rutnät* har inte ändrats.
+Deltafilen `blender-ui-sv-reviewed-20261107-batch-710-mesh-modifiers.po` är
+lokalt granskad och ännu inte importerad.
+
