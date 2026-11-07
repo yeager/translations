@@ -1,0 +1,461 @@
+# Blender UI Swedish review delta – Library Override RNA descriptions
+#
+# Context reviewed against bpy RNA references and Blender/TERMINOLOGY.md.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender UI\n"
+"PO-Revision-Date: 2026-11-07 00:00+0100\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. :src: bpy.types.ID.override_library
+#. :src: bpy.types.Menu
+#. :src: bpy.types.OUTLINER_MT_liboverride
+#. :src: bpy.types.VIEW3D_MT_object_liboverride
+msgid "Library Override"
+msgstr "Biblioteksåsidosättning"
+
+#. :src: bpy.types.BlendImportContextItem.library_override_id
+msgid "The library override of the linked ID. None until it has been created"
+msgstr ""
+"Biblioteksåsidosättningen för det länkade ID:t. Den saknas tills den har "
+"skapats"
+
+#. :src: bpy.types.IDOverrideLibrary.is_in_hierarchy
+msgid ""
+"Whether this library override is defined as part of a library hierarchy, or "
+"as a single, isolated and autonomous override"
+msgstr ""
+"Anger om denna biblioteksåsidosättning ingår i en bibliotekshierarki eller "
+"är en enskild, isolerad och autonom åsidosättning"
+
+#. :src: bpy.types.IDOverrideLibrary.is_system_override
+msgid ""
+"Whether this library override exists only for the override hierarchy, or if "
+"it is actually editable by the user"
+msgstr ""
+"Anger om denna biblioteksåsidosättning endast finns för "
+"åsidosättningshierarkin eller om användaren faktiskt kan redigera den"
+
+#. :src: bpy.types.GeometryNodeMergePoints
+msgid "Merge points of a point cloud or mesh based on group ID and selection."
+msgstr ""
+"Sammanfoga punkter i ett punktmoln eller mesh utifrån grupp-ID och urval."
+
+#. :src: bpy.types.ShaderNodeCustomGroup
+msgid "Shader Custom Group"
+msgstr "Anpassad shadergrupp"
+
+#. :src: bpy.types.ShaderNodeCustomGroup
+msgid "Custom Shader Group Node for Python nodes"
+msgstr "Anpassad shadergruppnod för Python-noder"
+
+#. :src: bpy.types.IMAGE_OT_save_as.save_as_render
+msgid ""
+"Save image with render color management.\n"
+"For display image formats like PNG, apply view and display transform.\n"
+"For intermediate image formats like OpenEXR, use the default render output "
+"color space"
+msgstr ""
+"Spara bilden med renderingsfärghantering.\n"
+"För visningsbildformat som PNG tillämpas vy- och skärmtransformering.\n"
+"För mellanliggande bildformat som OpenEXR används standardfärgrymden för "
+"renderingsutdata"
+
+#. :src: bpy.types.MESH_OT_dissolve_edges.angle_threshold
+#. :src: bpy.types.MESH_OT_dissolve_mode.angle_threshold
+msgid ""
+"Remaining vertices which separate edge pairs are preserved if their edge "
+"angle exceeds this threshold."
+msgstr ""
+"Återstående hörnpunkter som separerar kantpar bevaras om deras kantvinkel "
+"överskrider tröskelvärdet."
+
+#. :src: bpy.types.MESH_OT_remove_doubles.use_centroid
+msgid ""
+"Move vertices to the centroid of the duplicate cluster, otherwise the vertex "
+"closest to the centroid is used."
+msgstr ""
+"Flytta hörnpunkter till tyngdpunkten för dubblettklustret; annars används "
+"den hörnpunkt som ligger närmast tyngdpunkten."
+
+#. :src: bpy.types.MESH_OT_reorder_vertices_spatial
+msgid ""
+"Reorder mesh faces and vertices based on their spatial position for better "
+"BVH building and sculpting performance."
+msgstr ""
+"Ordna om nätytor och hörnpunkter utifrån deras rumsliga position för bättre "
+"BVH-byggande och skulpteringsprestanda."
+
+#. :src: bpy.types.NODE_OT_delete_copy_reconnect
+msgid "Copy nodes to clipboard, remove and reconnect them."
+msgstr "Kopiera noder till urklippet, ta bort dem och återanslut dem."
+
+#. :src: bpy.types.NODE_OT_duplicate_compositing_modifier_node_group
+#. :src: bpy.types.NODE_OT_duplicate_compositing_node_group
+msgid "Duplicate the currently assigned compositing node group."
+msgstr "Duplicera den för närvarande tilldelade kompositornodgruppen."
+
+#. :src: bpy.types.PREFERENCES_OT_extension_repo_add.use_custom_directory
+#. :src: bpy.types.UserExtensionRepo.use_custom_directory
+msgid ""
+"Manually set the path for extensions to be stored. When disabled a user's "
+"extensions directory is created."
+msgstr ""
+"Ange manuellt sökvägen där tillägg ska lagras. När funktionen är inaktiverad "
+"skapas en katalog för användarens tillägg."
+
+#. :src: bpy.types.WM_OT_usd_export.merge_parent_xform
+msgid ""
+"Merge USD primitives with their Xform parent if possible. USD does not allow "
+"nested UsdGeomGprims, intermediary Xform prims will be defined to keep the "
+"USD file valid when encountering object hierarchies."
+msgstr ""
+"Slå samman USD-primitiver med deras överordnade Xform om möjligt. USD "
+"tillåter inte kapslade UsdGeomGprims. Mellanliggande Xform-primitiver "
+"definieras för att hålla USD-filen giltig vid objekthierarkier."
+
+#. :src: bpy.types.TOPBAR_PT_tool_settings_extra
+msgid ""
+"\n"
+"Popover panel for adding extra options that don't fit in the tool settings "
+"header"
+msgstr ""
+"\n"
+"Utfällbar panel för extra alternativ som inte ryms i "
+"verktygsinställningarnas rubrik"
+
+#. :src: bpy.types.WM_OT_xr_navigation_teleport.hit_color
+msgid "Hit Color"
+msgstr "Färg vid träff"
+
+#. :src: bpy.types.PREFERENCES_OT_asset_library_add.type:'REMOTE'
+msgid "Add Remote Asset Library"
+msgstr "Lägg till fjärranslutet resursbibliotek"
+
+#. :src: bpy.types.PreferencesExperimental.use_remote_asset_libraries
+msgid "Remote Asset Libraries"
+msgstr "Fjärranslutna resursbibliotek"
+
+#. :src: bpy.types.WM_OT_save_as_mainfile.copy
+msgid ""
+"Save a copy of the actual working state but does not make saved file active"
+msgstr ""
+"Spara en kopia av det faktiska arbetsläget utan att göra den sparade filen "
+"aktiv"
+
+#: source/blender/makesrna/intern/rna_userdef.cc:477
+msgid ""
+"The download cache directory of remote asset libraries cannot be changed"
+msgstr ""
+"Cachekatalogen för nedladdningar från fjärranslutna resursbibliotek kan inte "
+"ändras"
+
+#. :src: bpy.types.GreasePencilLineartModifier.use_clip_plane_boundaries
+msgid "Allow lines generated by the near/far clipping plane to be shown"
+msgstr ""
+"Tillåt att linjer som genereras av när- eller fjärrklippningsplanet visas"
+
+#. :src: bpy.types.RegionView3D.clip_planes
+msgid "Clip Planes"
+msgstr "Klippningsplan"
+
+#. :src: bpy.types.RegionView3D.use_clip_planes
+msgid "Use Clip Planes"
+msgstr "Använd klippningsplan"
+
+#: source/blender/editors/space_file/file_draw.cc:1893
+msgid ""
+"Allow Online Access in order to browse and download online assets, or turn "
+"off the \"Remote Assets\" filter to show only the downloaded assets.\n"
+"\n"
+"You can adjust this later from the \"System\" preferences."
+msgstr ""
+"Tillåt nätåtkomst för att bläddra bland och hämta resurser på nätet, eller "
+"stäng av filtret ”Fjärranslutna resurser” för att bara visa hämtade "
+"resurser.\n"
+"\n"
+"Du kan ändra detta senare i inställningarna under ”System”."
+
+#. :src: bpy.types.ASSET_OT_library_reload_listing
+msgctxt "Operator"
+msgid "Reload Remote Asset Library Listing"
+msgstr "Läs in listningen för det fjärranslutna resursbiblioteket på nytt"
+
+#: source/blender/editors/space_userpref/space_userpref.cc:220
+msgid "Remote Asset Library"
+msgstr "Fjärranslutet resursbibliotek"
+
+#. :src: bpy.types.ID.library_weak_reference
+msgid ""
+"Weak reference to the data-block in a library .blend file this originated "
+"from. For re-use of already appended data and linked editable assets"
+msgstr ""
+"Svag referens till datablocket i den biblioteksfil (.blend) som det "
+"härstammar från. Används för att återanvända redan tillagda data och länkade "
+"redigerbara resurser"
+
+#. :src: bpy.types.ID.is_evaluated
+msgid ""
+"Whether this ID is runtime-only, evaluated data-block, or actual data "
+"from .blend file"
+msgstr ""
+"Om detta ID är ett datablock som bara används vid körning, ett utvärderat "
+"datablock eller ursprungliga data från en .blend-fil"
+
+#. :src: bpy.types.IDOverrideLibraryPropertyOperation.operation:'NOOP'
+msgid "Does nothing, prevents adding actual overrides (NOT USED)"
+msgstr ""
+"Gör ingenting och förhindrar att faktiska biblioteksåsidosättningar läggs "
+"till (ANVÄNDS INTE)"
+
+#. :src: bpy.types.BoneCollection.is_editable
+msgid ""
+"This collection is owned by a local Armature, or was added via a library "
+"override in the current blend file"
+msgstr ""
+"Samlingen ägs av ett lokalt riggskelett eller lades till genom en "
+"biblioteksåsidosättning i den aktuella .blend-filen"
+
+#. :src: bpy.types.BoneCollection.is_local_override
+msgid ""
+"This collection was added via a library override in the current blend file"
+msgstr ""
+"Samlingen lades till genom en biblioteksåsidosättning i den aktuella .blend-"
+"filen"
+
+#. :src: bpy.types.OUTLINER_OT_liboverride_operation
+msgid "Create, reset or clear library override hierarchies"
+msgstr "Skapa, återställ eller rensa hierarkier för biblioteksåsidosättningar"
+
+#. :src: bpy.types.OUTLINER_OT_liboverride_property_remove
+msgid ""
+"Remove the selected library override properties, and reset the relevant data "
+"to the linked reference values"
+msgstr ""
+"Ta bort markerade egenskaper för biblioteksåsidosättningar och återställ "
+"berörda data till de länkade referensvärdena"
+
+#. :src: bpy.types.OUTLINER_OT_liboverride_troubleshoot_operation
+msgid ""
+"Advanced operations over library override to help fix broken hierarchies"
+msgstr ""
+"Avancerade åtgärder för biblioteksåsidosättningar som hjälper till att "
+"åtgärda skadade hierarkier"
+
+#. :src: bpy.types.SpaceOutliner.display_mode:'LIBRARY_OVERRIDES'
+msgid ""
+"Display data-blocks with library overrides and list their overridden "
+"properties"
+msgstr ""
+"Visa datablock med biblioteksåsidosättningar och lista deras åsidosatta "
+"egenskaper"
+
+#. :src: bpy.types.SCREEN_OT_userpref_show.section:'ASSETS'
+#. :src: bpy.types.Preferences.active_section:'ASSETS'
+msgid "Manage remote, local, and extension asset libraries"
+msgstr "Hantera fjärranslutna, lokala och tilläggsresursbibliotek"
+
+#: source/blender/editors/asset/intern/asset_ops.cc:536
+msgid "This is not a remote library"
+msgstr "Detta är inte ett fjärranslutet resursbibliotek"
+
+#. :src: bpy.types.BlendImportContextItem.library_override_id
+msgid "Library Overridden ID"
+msgstr "Biblioteksåsidosatt ID"
+
+#. :src: bpy.types.OBJECT_OT_clear_override_library
+#. :src: bpy.types.UI_OT_override_idtemplate_clear
+msgctxt "Operator"
+msgid "Clear Library Override"
+msgstr "Rensa biblioteksåsidosättning"
+
+#. :src: bpy.types.OBJECT_OT_make_override_library
+#. :src: bpy.types.UI_OT_override_idtemplate_make
+msgctxt "Operator"
+msgid "Make Library Override"
+msgstr "Skapa biblioteksåsidosättning"
+
+#. :src: bpy.types.OBJECT_OT_reset_override_library
+#. :src: bpy.types.UI_OT_override_idtemplate_reset
+msgctxt "Operator"
+msgid "Reset Library Override"
+msgstr "Återställ biblioteksåsidosättning"
+
+#. :src: bpy.types.OUTLINER_OT_liboverride_operation
+msgctxt "Operator"
+msgid "Outliner Library Override Operation"
+msgstr "Biblioteksåsidosättningsåtgärd i översikten"
+
+#. :src: bpy.types.OUTLINER_OT_liboverride_operation.type
+msgid "Library Override Operation"
+msgstr "Biblioteksåsidosättningsåtgärd"
+
+#. :src: bpy.types.OUTLINER_OT_liboverride_property_remove
+msgctxt "Operator"
+msgid "Outliner Library Override Property Remove"
+msgstr "Ta bort egenskap för biblioteksåsidosättning i översikten"
+
+#. :src: bpy.types.OUTLINER_OT_liboverride_troubleshoot_operation
+msgctxt "Operator"
+msgid "Outliner Library Override Troubleshoot Operation"
+msgstr "Felsökningsåtgärd för biblioteksåsidosättning i översikten"
+
+#. :src: bpy.types.OUTLINER_OT_liboverride_troubleshoot_operation.type
+msgid "Library Override Troubleshoot Operation"
+msgstr "Felsökningsåtgärd för biblioteksåsidosättning"
+
+#. :src: bpy.types.Library.needs_liboverride_resync
+msgid ""
+"True if this library contains library overrides that are linked in current "
+"blend-file, and that had to be recursively resynced on load (it is "
+"recommended to open and re-save that library blend-file then)"
+msgstr ""
+"Sant om biblioteket innehåller biblioteksåsidosättningar som är länkade i "
+"den aktuella .blend-filen och som behövde omsynkroniseras rekursivt vid "
+"inläsning. Då rekommenderas att bibliotekets .blend-fil öppnas och sparas på "
+"nytt"
+
+#: source/blender/editors/space_outliner/tree/tree_element_id_library.cc:31
+msgid ""
+"Contains linked library overrides that need to be resynced, updating the "
+"library is recommended"
+msgstr ""
+"Innehåller länkade biblioteksåsidosättningar som behöver omsynkroniseras. Vi "
+"rekommenderar att biblioteket uppdateras"
+
+#. :src: bpy.types.BoneCollection.is_local_override
+msgid "Is Local Override"
+msgstr "Är lokal biblioteksåsidosättning"
+
+#. :src: bpy.types.IDOverrideLibraryProperties
+msgid "Collection of override properties"
+msgstr "Samling av egenskaper för biblioteksåsidosättning"
+
+#. :src: bpy.types.OBJECT_OT_clear_override_library
+#. :src:
+#. bpy.types.OUTLINER_OT_liboverride_operation.type:'OVERRIDE_LIBRARY_CLEAR_SINGLE'
+msgid ""
+"Delete the selected local overrides and relink their usages to the linked "
+"data-blocks if possible, else reset them and mark them as non editable"
+msgstr ""
+"Ta bort de valda lokala biblioteksåsidosättningarna och länka om deras "
+"användningar till de länkade datablocken om möjligt, annars återställ dem "
+"och markera dem som inte redigerbara"
+
+#. :src: bpy.types.OBJECT_OT_make_override_library
+msgid ""
+"Create a local override of the selected linked objects, and their hierarchy "
+"of dependencies"
+msgstr ""
+"Skapa en lokal biblioteksåsidosättning av de valda länkade objekten och "
+"deras beroendehierarki"
+
+#. :src: bpy.types.OBJECT_OT_reset_override_library
+#. :src:
+#. bpy.types.OUTLINER_OT_liboverride_operation.type:'OVERRIDE_LIBRARY_RESET'
+msgid "Reset the selected local overrides to their linked references values"
+msgstr ""
+"Återställ de valda lokala biblioteksåsidosättningarna till deras länkade "
+"referensvärden"
+
+#. :src:
+#. bpy.types.OUTLINER_OT_liboverride_operation.type:'OVERRIDE_LIBRARY_CREATE_HIERARCHY'
+msgid ""
+"Create a local override of the selected linked data-blocks, and their "
+"hierarchy of dependencies"
+msgstr ""
+"Skapa en lokal biblioteksåsidosättning av de valda länkade datablocken och "
+"deras beroendehierarki"
+
+#: source/blender/editors/space_outliner/tree/tree_display_override_library_hierarchies.cc:55
+msgid "No Library Overrides"
+msgstr "Inga biblioteksåsidosättningar"
+
+#: source/blender/editors/space_outliner/tree/tree_element_overrides.cc:78
+msgid ""
+"This override data-block is not needed anymore, but was detected as user-"
+"edited"
+msgstr ""
+"Detta datablock för biblioteksåsidosättning behövs inte längre, men har "
+"identifierats som användarredigerat"
+
+#: source/blender/editors/space_outliner/tree/tree_element_overrides.cc:82
+msgid "This override data-block is unused"
+msgstr "Detta datablock för biblioteksåsidosättning används inte"
+
+#: source/blender/editors/space_outliner/tree/tree_element_overrides.cc:196
+msgid ""
+"This override property does not exist in current data, it will be removed on "
+"next .blend file save"
+msgstr ""
+"Denna egenskap för biblioteksåsidosättning finns inte i aktuella data och "
+"kommer att tas bort nästa gång .blend-filen sparas"
+
+#: source/blender/editors/space_outliner/tree/tree_element_overrides.cc:256
+msgid "Added through override"
+msgstr "Tillagd genom åsidosättning"
+
+#: source/blender/editors/space_outliner/tree/tree_element_overrides.cc:263
+msgid "Protected from override"
+msgstr "Skyddad mot åsidosättning"
+
+#: source/blender/editors/space_outliner/tree/tree_element_overrides.cc:265
+msgid "Additive override"
+msgstr "Additiv åsidosättning"
+
+#: source/blender/editors/space_outliner/tree/tree_element_overrides.cc:267
+msgid "Subtractive override"
+msgstr "Subtraktiv åsidosättning"
+
+#: source/blender/editors/space_outliner/tree/tree_element_overrides.cc:269
+msgid "Multiplicative override"
+msgstr "Multiplikativ åsidosättning"
+
+#: source/blender/editors/space_outliner/tree/tree_element_overrides.cc:271
+msgid "Custom override"
+msgstr "Anpassad åsidosättning"
+
+#: source/blender/editors/space_outliner/tree/tree_element_overrides.cc:273
+msgid "Unknown override"
+msgstr "Okänd åsidosättning"
+
+#. :src: bpy.types.VolumeDisplay.wireframe_type:'NONE'
+msgid "Don't display volume in wireframe mode"
+msgstr "Visa inte volym i trådramsläge"
+
+#. :src: bpy.types.DataTransferModifier.use_max_distance
+#. :src: bpy.types.OBJECT_OT_data_transfer.use_max_distance
+msgid "Only Neighbor Geometry"
+msgstr "Endast närliggande geometri"
+
+#. :src: bpy.types.PreferencesAssetLibraries.use_online_essentials
+msgid ""
+"Include remote assets in the Essentials asset library. Downloading requires "
+"Online Access to be enabled under System > Network in the Preferences"
+msgstr ""
+"Inkludera fjärranslutna resurser i resursbiblioteket Grundresurser. Hämtning "
+"kräver att nätåtkomst är aktiverad under System > Nätverk i inställningarna"
+
+#. :src: bpy.types.Preferences.view
+#. :src: bpy.types.PreferencesView
+msgid "Preferences related to viewing data"
+msgstr "Inställningar för visning av data"
+
+#. :src: bpy.types.PreferencesApps.show_regions_visibility_toggle
+msgid "Header and side bars visibility toggles"
+msgstr "Växlar för huvud- och sidofältens synlighet"
+
+#. :src: bpy.types.CollectionChild
+msgid "Child collection with its collection related settings"
+msgstr "Undersamling med inställningar relaterade till samlingen"
+
+#. :src: bpy.types.CollectionObject
+msgid "Object of a collection with its collection related settings"
+msgstr "Objekt i en samling med inställningar relaterade till samlingen"
