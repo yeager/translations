@@ -4797,3 +4797,11 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 575 granskar beskrivningen av *Roll Hair Curves*, som rullar hårkurvor
+inåt från spetsarna. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-575-roll-hair-curves.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-575.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
