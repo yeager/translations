@@ -6341,6 +6341,17 @@ Den är lokalt klar men ännu inte importerad.
 manuella importfilen. Den innehåller 42 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 768 granskar elva RNA- och feltexter för redigerarområden, arbetsytor
+och visningslager. Den rättar den äldre, bokstavliga formen *utrymme* till
+*område* för Blenders `Space*`-typer, normaliserar *arbetsyta* och använder
+termbasens *visningslager*. Deltafilen har passerat `msgfmt` och `l10n-lint`;
+`svlang` rapporterar bara en teknisk nominalfras. Den är lokalt klar men ännu
+inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-761-768.po` är den aktuella
+manuella importfilen. Den innehåller 53 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna

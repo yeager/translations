@@ -49,6 +49,7 @@ Senast uppdaterad: 2026-11-07.
 | 3D Viewport | 3D-vyport | Etablerad UI- och manualterm. |
 | 3D View | 3D-vy | Förklaringstext för den synliga Blender-vyn; böj som *3D-vyns* i sammansatta led. |
 | Console | konsol | Blenders inbyggda Python-konsol. RNA-beskrivningen *Space Console* använder formen *konsolens område*; `prompt` blir *kommandoprompt*. |
+| Space [editor] / editor space data | [redigerarens] område / områdesdata | Rör Blenders interna RNA-område, inte ett fysiskt utrymme eller en arbetsyta. Exempel: *Space Graph Editor* → *Grafredigerarens område*. |
 | Image Editor | bildredigerare | Redigeraren för bilder, UV-kartor, maskning och bildmålning. RNA-beskrivningen *Space Image Editor* använder formen *bildredigerarens område*. |
 | UV Editor | UV-redigerare | Bildredigerarens läge för UV-redigering. |
 | Info | informationsområde | Blender-området som visar rapporter, fel och operatörslogg. |
