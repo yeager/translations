@@ -6983,3 +6983,11 @@ samlade manuella deltafilen för batch 811–829. Den innehåller 171 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
 
+Batch 830 granskar elva Mesh-texter för UV, export, ommeshning och
+objektkonvertering. Den använder konsekvent *meshattribut*, *meshplan*,
+*meshtyp* och *meshens* i inställnings- och exportkontext. Batchen är lokalt
+klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-830-mesh-data.po` är en separat
+manuell deltafil med endast dessa elva nya, lokalt granskade poster.
+
