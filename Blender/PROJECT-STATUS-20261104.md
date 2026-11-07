@@ -6925,3 +6925,11 @@ samlade manuella deltafilen för batch 811–824. Den innehåller 113 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
 
+Batch 825 granskar tolv Mesh-texter för skulptering, hårsystem, Dynamic Paint
+och synlighetsverktyg. Den normaliserar *meshkanter*, *meshdetaljer*,
+*emittermeshen*, *dukmeshen* och bestämda former av *mesh*. Batchen är lokalt
+klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-825-mesh-sculpting.po` är en separat
+manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
+
