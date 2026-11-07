@@ -5993,3 +5993,10 @@ Batchfilen är lokalt kontrollerad och separat från den ännu ej importerade
 samlingsfilen 719–723, eftersom den lokala källexporten saknar de senaste
 serverändringarna.
 
+Blender Translate-importen av batch 719–723 är verifierad den 7 november.
+Servern behandlade 82 poster: 65 uppdaterades, 17 hoppades över och 0 saknades.
+Filen `blender-ui-sv-reviewed-20261107-pending-batches-719-723.po` ska därför
+inte laddas upp igen. Batch 724 är den nästa lokalt kontrollerade, ännu ej
+importerade filen; en ny källexport behövs innan fler delbatcher säkert kan
+sättas samman till en gemensam importfil.
+
