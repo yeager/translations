@@ -6933,3 +6933,11 @@ klar men ännu inte importerad i Blender Translate.
 `blender-ui-sv-reviewed-20261108-batch-825-mesh-sculpting.po` är en separat
 manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
 
+Batch 826 granskar tio Mesh-texter för Alembic-, USD- och glTF-export samt
+två tekniska diagnoser. Den använder *mesh* som datatyp, *meshobjekt* för
+exporterade objekt och *meshprov* för diagnosens provdata. Batchen är lokalt
+klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-826-mesh-export.po` är en separat
+manuell deltafil med endast dessa tio nya, lokalt granskade poster.
+
