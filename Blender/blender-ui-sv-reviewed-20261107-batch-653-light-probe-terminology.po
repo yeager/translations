@@ -1,0 +1,205 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Beta (b'8f7aae950179')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-12 07:32+0000\n"
+"PO-Revision-Date: 2026-09-28 12:14+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. :src: bpy.types.AssetShelf.filter_light_probe
+#. :src: bpy.types.BlendData.lightprobes
+#. :src: bpy.types.FileAssetSelectIDFilter.experimental_filter_light_probe
+#. :src: bpy.types.FileSelectIDFilter.filter_light_probe
+#. :src: bpy.types.SCENE_PT_eevee_light_probes
+#: scripts/startup/bl_ui/properties_object.py:461
+#: scripts/startup/bl_ui/space_dopesheet.py:128
+msgid "Light Probes"
+msgstr "Ljussonder"
+
+#. :src: bpy.types.BlendDataProbes
+msgid "Main Light Probes"
+msgstr "Huvudljussonder"
+
+#. :src: bpy.types.BlendDataProbes
+msgid "Collection of light probes"
+msgstr "Samling av ljussonder"
+
+#. :src: bpy.types.DopeSheet.show_lightprobes
+msgid "Display Light Probe"
+msgstr "Visa ljussond"
+
+#. :src: bpy.types.Object.hide_probe_plane
+msgid "Globally disable in planar light probes"
+msgstr "Inaktivera globalt i plana ljussonder"
+
+#. :src: bpy.types.Object.hide_probe_sphere
+msgid "Disable in Spherical Light Probes"
+msgstr "Inaktivera i sfäriska ljussonder"
+
+#. :src: bpy.types.Object.hide_probe_sphere
+msgid "Globally disable in spherical light probes"
+msgstr "Inaktivera globalt i sfäriska ljussonder"
+
+#. :src: bpy.types.World.sun_threshold
+msgid ""
+"If non-zero, the maximum value for world contribution that will be recorded "
+"inside the world light probe. The excess contribution is converted to a sun "
+"light. This reduces the light bleeding caused by very bright light sources."
+msgstr ""
+"Om värdet är större än noll är det maximala värdet för världsbidrag som "
+"registreras i världsljussonden. Det överskjutande bidraget omvandlas till "
+"solljus. Detta minskar ljusläckaget som orsakas av mycket starka ljuskällor."
+
+#. :src: bpy.types.OBJECT_OT_lightprobe_add
+msgctxt "Operator"
+msgid "Add Light Probe"
+msgstr "Lägg till ljussond"
+
+#. :src: bpy.types.OBJECT_OT_lightprobe_add
+msgid "Add a light probe object"
+msgstr "Lägg till ett ljussondsobjekt"
+
+#. :src: bpy.types.OBJECT_OT_lightprobe_cache_bake.subset
+#. :src: bpy.types.OBJECT_OT_lightprobe_cache_free.subset
+msgid "Subset of probes to update"
+msgstr "Delmängd av ljussonder som ska uppdateras"
+
+#. :src: bpy.types.OBJECT_OT_lightprobe_cache_bake.subset:'ALL'
+msgid "Bake all light probe volumes"
+msgstr "Beräkna alla volymer för ljussonder"
+
+#. :src: bpy.types.OBJECT_OT_lightprobe_cache_bake.subset:'SELECTED'
+msgid "Only bake selected light probe volumes"
+msgstr "Beräkna endast markerade volymer för ljussonder"
+
+#. :src: bpy.types.OBJECT_OT_lightprobe_cache_bake.subset:'ACTIVE'
+msgid "Only bake the active light probe volume"
+msgstr "Beräkna endast den aktiva volymen för ljussond"
+
+#. :src: bpy.types.OBJECT_OT_lightprobe_cache_free.subset:'ALL'
+msgid "All Light Probes"
+msgstr "Alla ljussonder"
+
+#. :src: bpy.types.OBJECT_OT_lightprobe_cache_free.subset:'ALL'
+msgid "Delete all light probes' baked lighting data"
+msgstr "Ta bort beräknade belysningsdata för alla ljussonder"
+
+#. :src: bpy.types.OBJECT_OT_lightprobe_cache_free.subset:'SELECTED'
+msgid "Only delete selected light probes' baked lighting data"
+msgstr "Ta endast bort beräknade belysningsdata för markerade ljussonder"
+
+#. :src: bpy.types.OBJECT_OT_lightprobe_cache_free.subset:'ACTIVE'
+msgid "Only delete the active light probe's baked lighting data"
+msgstr "Ta endast bort den aktiva ljussondens beräknade belysningsdata"
+
+#. :src: bpy.types.WM_OT_batch_rename.data_type:'LIGHT_PROBE'
+msgctxt "ID"
+msgid "Light Probes"
+msgstr "Ljussonder"
+
+#. :src: bpy.types.PreferencesEdit.use_duplicate_lightprobe
+msgid "Duplicate Light Probe"
+msgstr "Duplicera ljussond"
+
+#. :src: bpy.types.PreferencesEdit.use_duplicate_lightprobe
+msgid "Causes light probe data to be duplicated with the object"
+msgstr "Orsakar att ljussondsdata dupliceras med objektet"
+
+#. :src: bpy.types.SceneEEVEE.clamp_surface_indirect
+msgid ""
+"If non-zero, the maximum value for indirect lighting on surface. Higher "
+"values will be scaled down to avoid too much noise and slow convergence at "
+"the cost of accuracy. Used by ray-tracing and light-probes."
+msgstr ""
+"Om värdet inte är noll är detta det maximala värdet för indirekt belysning "
+"på ytan. Högre värden skalas ned för att undvika för mycket brus och långsam "
+"konvergens på bekostnad av noggrannhet. Används av strålspårning och "
+"ljussonder."
+
+#. :src: bpy.types.SceneEEVEE.clamp_volume_indirect
+msgid ""
+"If non-zero, the maximum value for indirect lighting in volumes. Higher "
+"values will be scaled down to avoid too much noise and slow convergence at "
+"the cost of accuracy. Used by light-probes."
+msgstr ""
+"Om värdet inte är noll är detta det maximala värdet för indirekt belysning i "
+"volymer. Högre värden skalas ned för att undvika för mycket brus och långsam "
+"konvergens på bekostnad av noggrannhet. Används av ljussonder."
+
+#. :src: bpy.types.SceneEEVEE.ray_tracing_method:'PROBE'
+msgid "Use light probes to find scene intersection"
+msgstr "Använd ljussonder för att hitta skärningspunkter i scenen"
+
+#. :src: bpy.types.SceneEEVEE.ray_tracing_method:'SCREEN'
+msgid ""
+"Raytrace against the depth buffer. Fallback to light probes for invalid rays."
+msgstr ""
+"Strålspåra mot djupbufferten. Använd ljussonder som reserv för ogiltiga "
+"strålar."
+
+#. :src: bpy.types.SpaceView3D.show_object_select_light_probe
+#. :src: bpy.types.XrSessionSettings.show_object_select_light_probe
+msgid "Allow selection of light probes"
+msgstr "Tillåt val av ljussonder"
+
+#. :src: bpy.types.SpaceView3D.show_object_viewport_light_probe
+#. :src: bpy.types.XrSessionSettings.show_object_viewport_light_probe
+msgid "Show light probes"
+msgstr "Visa ljussonder"
+
+#. :src: bpy.types.View3DShading.use_scene_lights
+#. :src: bpy.types.View3DShading.use_scene_lights_render
+msgid "Render lights and light probes of the scene"
+msgstr "Rendera ljus och ljussonder i scenen"
+
+#: source/blender/blenkernel/intern/lightprobe.cc:59
+msgid "lightprobes"
+msgstr "ljussonder"
+
+#: source/blender/draw/engines/eevee/eevee_lightprobe_volume.cc:84
+msgid ""
+"Warning: Could not allocate light probes volume pool of {} MB, using {} MB "
+"instead."
+msgstr ""
+"Varning: Det gick inte att allokera volympoolen för ljussonder på {} MB, använder "
+"{} MB i stället."
+
+#: source/blender/editors/interface/templates/interface_template_id.cc:899
+msgid "Browse Light Probe to be linked"
+msgstr "Bläddra efter ljussond att länka"
+
+#: source/blender/editors/object/object_add.cc:1026
+msgctxt "Light"
+msgid "LightProbe"
+msgstr "Ljussond"
+
+#: source/blender/editors/object/object_add.cc:2599
+msgid "Light probe baking canceled because a volume light probe was deleted"
+msgstr "Beräkning av ljussond avbröts eftersom en volymljussond togs bort"
+
+#: source/blender/editors/render/render_shading.cc:1530
+msgid "Cannot bake light probe while rendering"
+msgstr "Det går inte att beräkna ljussond under rendering"
+
+#: source/blender/makesrna/intern/rna_main_api.cc:139
+msgid "Cannot remove volume light probes while light probe baking is running"
+msgstr ""
+"Det går inte att ta bort volymljussonder medan bakning av ljussonder pågår"

@@ -177,10 +177,17 @@ Batch 652 korrigerar batch 649 enligt projektets terminologilista:
 *light probe* är *ljussond*, alltså *ljussondsrelaterade animationsdata*.
 Deltafilen ersätter den tidigare, ännu ej importerade termen *ljusprob*.
 
-Den aktuella samlingsfilen för batch 626–652 är
-`blender-ui-sv-reviewed-20261107-batches-626-652-combined.po` med 81
+Batch 653 tillämpar termen *ljussond* konsekvent i 35 UI- och felposter för
+*Light Probe*, bland annat i EEVEE-inställningar, Asset Shelf, Dope Sheet,
+objektåtgärder och felmeddelanden. Den rättar även sammansättningar som
+*ljussondsobjekt* och skriver *volympoolen för ljussonder* i stället för en
+svårläst kedjesammansättning. Deltafilen är lokalt kontrollerad men ännu inte
+importerad i Blender Translate.
+
+Den aktuella samlingsfilen för batch 626–653 är
+`blender-ui-sv-reviewed-20261107-batches-626-653-combined.po` med 116
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–650 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–652 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
