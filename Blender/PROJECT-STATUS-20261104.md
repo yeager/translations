@@ -6966,10 +6966,9 @@ Translate.
 `blender-ui-sv-reviewed-20261108-batch-828-mesh-elements.po` är en separat
 manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
 
-`blender-ui-sv-reviewed-20261108-pending-batches-811-828.po` är den aktuella
-samlade manuella deltafilen för batch 811–828. Den innehåller 159 poster,
-passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
-Translate.
+`blender-ui-sv-reviewed-20261108-pending-batches-811-828.po` är den tidigare
+samlade manuella deltafilen för batch 811–828. Den innehåller 159 poster och
+passerar lokal syntax- och lintkontroll.
 
 Batch 829 granskar tolv Mesh-texter för vätskeemission, geometri, skulptering
 och felhantering. Den normaliserar *meshytan*, *meshens topologi*,
@@ -6978,4 +6977,9 @@ Batchen är lokalt klar men ännu inte importerad i Blender Translate.
 
 `blender-ui-sv-reviewed-20261108-batch-829-mesh-context.po` är en separat
 manuell deltafil med endast dessa tolv nya, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-829.po` är den aktuella
+samlade manuella deltafilen för batch 811–829. Den innehåller 171 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
 
