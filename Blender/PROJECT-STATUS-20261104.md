@@ -6610,6 +6610,16 @@ inte importerad i Blender Translate.
 manuella importfilen. Den innehåller 238 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 795 granskar nio RNA-, operator- och feltexter för Blenders
+meshdatablock. Den samordnar den tidigare inkonsekventa formen *nätdata* till
+den projektspecifika termen *meshdata* i kopiering, överföring, sammanslagning
+och utvärderade objektdata. Batchen är lokalt klar men ännu inte importerad i
+Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-795.po` är den aktuella
+manuella importfilen. Den innehåller 247 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 `REVIEW-COVERAGE-20261108.md` dokumenterar den första reproducerbara
 täckningsmätningen för den lokala UI-filen. Av 40 427 aktuella poster är
 6 794 täckta av arkiverade granskningsbatcher, vilket motsvarar 16,81 %.
