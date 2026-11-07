@@ -494,7 +494,7 @@ Senast uppdaterad: 2026-11-06.
 | keyed particle loop / keys step | upprepning av nycklar / steg mellan nycklar | Inställningar för partikelbanor med nycklar; avser inte tangentbordstangenter. |
 | particle path | partikelbana | Bana som en partikel följer över tid. |
 | distance model | avståndsmodell | Modell som styr hur ljudets styrka minskar med avståndet. |
-| subframe | delbildruta | Simuleringssteg mellan hela bildrutor. |
+| time remapping | tidsomappning | Omräkning av scenens tid så att bildrutor spelas upp eller renderas vid andra tidpunkter. |
 | sequencer | sekvensredigerare | Blenders redigerare för video- och ljudsekvenser. |
 | noise (texture) | brus | Procedurtexturens variation; använd inte det fysiska ljudordet *buller*. |
 | checker (image texture) | schackmönster | Bildtexturens växlande rutor. |

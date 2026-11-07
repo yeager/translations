@@ -4449,3 +4449,13 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 540 granskar 12 poster för scenens bildrutor och
+förhandsgranskningsintervall. Den använder *delbildruta* konsekvent,
+normaliserar *tidsomappning* och rättar de felaktiga formerna *slutram* och
+*startbild* till *slutbildruta* respektive *startbildruta*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-540-scene-frames-and-preview.po` och
+den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-540.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
