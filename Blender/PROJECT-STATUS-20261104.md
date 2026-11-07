@@ -5794,3 +5794,9 @@ Den 7 november 2026 verifierades importen av samlingsfilen för batch
 bevisar uppladdning och serverbearbetning, men inte projektets separata
 granskning eller framtida merge/utgivning.
 
+Batch 705 fortsätter efter den verifierade importen med Node Wranglers
+sammanslagningsmeny. Den använder *shadernoder*, i linje med den befintliga
+termbasens *shadernod* och med granngruppens *geometrinoder*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-705-node-wrangler-shaders.po`
+innehåller en lokalt kontrollerad, ännu ej importerad ändring.
+
