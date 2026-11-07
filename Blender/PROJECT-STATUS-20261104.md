@@ -7102,3 +7102,19 @@ manuell deltafil med endast dessa 16, lokalt granskade poster.
 samlade manuella deltafilen för batch 811–840. Den innehåller 304 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 841 normaliserar 15 kontextbundna meddelanden för meshkonvertering,
+filter, skulptering, export och geometri. Den använder Blenders datatyp
+*mesh* och svensk böjning som *meshen* konsekvent, i stället för den generiska
+geometribetydelsen *nät*. Även beskrivningen av en konvex omslutning är
+justerad så att den beskriver tätt anpassad geometri i stället för
+förpackningsmaterial. Batchen är lokalt klar men ännu inte importerad i
+Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-841-mesh-context-messages.po` är en
+separat manuell deltafil med endast dessa 15, lokalt granskade poster.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-841.po` är den aktuella
+samlade manuella deltafilen för batch 811–841. Den innehåller 319 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
