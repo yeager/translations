@@ -8024,3 +8024,17 @@ separat manuell deltafil med dessa lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–910. Antalet unika poster ska
 beräknas från filen före varje import eftersom flera batcher kan korrigera
 samma källsträng.
+
+Batch 911 rättar två återstående provtagningssträngar där handlingen tidigare
+hade översatts som ett substantiv. Den använder *Provta vikt* i
+viktmålningsverktyget och *Metod för att provta indata* i geometrinoden.
+Batchen är lokalt klar och pushad till vårt arkiv, men ännu inte verifierad
+som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-911-sampling-action-grammar.po` är en
+separat manuell deltafil med dessa lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-911.po` är den aktuella
+samlade manuella deltafilen för batch 811–911. Antalet unika poster ska
+beräknas från filen före varje import eftersom flera batcher kan korrigera
+samma källsträng.
