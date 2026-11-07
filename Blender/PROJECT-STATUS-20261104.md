@@ -8207,3 +8207,12 @@ och de bokstavliga katalognamnen `startup`, `add-ons`, `modules` och
 *Dopesheet* förekommer inte längre som svenska måltexter i den effektiva
 lokala sammanställningen. Detta är lokal QA och inte ett importresultat från
 Blender Translate.
+
+## Manuellt verifierat importresultat (2026-11-08)
+
+Användaren har visat Blender Translates importresultat för en manuell
+deltaimport: **351** strängar behandlades, **312** uppdaterades och **39**
+hoppades över. Resultatet bekräftar importen av den valda filen, men anger
+inte på egen hand vilka lokala batchnummer som ingick. Senare batcher ska
+därför fortsatt behandlas som lokalt granskade tills deras egen import kan
+verifieras.
