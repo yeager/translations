@@ -6213,6 +6213,15 @@ Blenders formella åsidosättningsfunktion, inte filöverskrivning. Deltafilen
 748–753-samlingen. Den innehåller 38 unika, lokalt granskade och ännu inte
 importerade ändringar.
 
+Batch 755 rättar fyra felmeddelanden om *override data* till
+*åsidosättningsdata*. De avser Blenders egenskaps- och
+biblioteksåsidosättningar, inte filöverskrivning. Deltafilen är lokalt
+granskad och ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261107-pending-batches-748-755.po` ersätter
+748–754-samlingen. Den innehåller 42 unika, lokalt granskade och ännu inte
+importerade ändringar.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
