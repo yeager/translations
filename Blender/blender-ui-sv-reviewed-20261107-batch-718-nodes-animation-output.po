@@ -1,0 +1,116 @@
+# Blender UI Swedish review delta – nodes, animation and file output terminology
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
+"PO-Revision-Date: 2026-11-07 19:30+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. :src: bpy.types.FreestyleLineStyle.use_nodes
+msgid "Use shader nodes for the line style"
+msgstr "Använd shadernoder för linjestilen"
+
+#. :src: bpy.types.Image.source:'VIEWER'
+msgctxt "Image"
+msgid "Viewer"
+msgstr "Visningsnod"
+
+#. :src: bpy.types.Image.source:'VIEWER'
+msgid "Compositing node viewer"
+msgstr "Visningsnod för kompositionsnoder"
+
+#. :src: bpy.types.NodeTree.type:'SHADER'
+msgid "Shader nodes"
+msgstr "Shadernoder"
+
+#. :src: bpy.types.World.use_nodes
+msgid "Use shader nodes to render the world"
+msgstr "Använd shadernoder för att rendera världen"
+
+#. :src: bpy.types.NODE_OT_select_link_viewer
+msgctxt "Operator"
+msgid "Link Viewer"
+msgstr "Länka visningsnod"
+
+#. :src: bpy.types.NODE_OT_test_inlining_shader_nodes
+msgid "Create a new inlined shader node tree as is consumed by renderers"
+msgstr "Skapa ett nytt infogat shadernodträd som används av renderare"
+
+#: source/blender/sequencer/intern/modifiers/MOD_compositor.cc:332
+#: source/blender/sequencer/intern/utils.cc:130
+msgctxt "Sequence"
+msgid "Compositor"
+msgstr "Kompositör"
+
+#. :src: bpy.types.SEQUENCER_OT_change_effect_type.type:'COMPOSITOR'
+#. :src: bpy.types.SEQUENCER_OT_effect_strip_add.type:'COMPOSITOR'
+msgid "Compositor based effect"
+msgstr "Kompositörbaserad effekt"
+
+#. :src: bpy.types.RenderSettings.compositor_device
+msgid "Compositor Device"
+msgstr "Kompositörenhet"
+
+#. :src: bpy.types.AnnotationFrame.select
+msgid "Frame is selected for editing in the Dope Sheet"
+msgstr "Bildrutan är markerad för redigering i dopebladet"
+
+#. :src: bpy.types.AnnotationLayer.select
+#. :src: bpy.types.MaskLayer.select
+msgid "Layer is selected for editing in the Dope Sheet"
+msgstr "Lagret är valt för redigering i dopebladet"
+
+#. :src: bpy.types.SCREEN_OT_space_type_set_or_cycle.space_type:'GRAPH_EDITOR'
+#. :src: bpy.types.Space.type:'GRAPH_EDITOR'
+#. :src: bpy.types.WorkSpaceTool.space_type:'GRAPH_EDITOR'
+msgid "Edit drivers and keyframe interpolation"
+msgstr "Redigera drivrutiner och interpolering av nyckelbildrutor"
+
+#. :src: bpy.types.ANIM_OT_paste_driver_button
+msgctxt "Operator"
+msgid "Paste Driver"
+msgstr "Klistra in drivrutin"
+
+#. :src: bpy.types.ANIM_OT_paste_driver_button
+msgid "Paste the driver in the internal clipboard to the highlighted button"
+msgstr "Klistra in drivrutinen från det interna urklippet i den markerade knappen"
+
+#. :src: bpy.types.OUTLINER_OT_animdata_operation.type:'REFRESH_DRIVERS'
+msgid "Refresh Drivers"
+msgstr "Uppdatera drivrutiner"
+
+#. :src: bpy.types.OUTLINER_OT_drivers_add_selected
+msgctxt "Operator"
+msgid "Add Drivers for Selected"
+msgstr "Lägg till drivrutiner för markerade"
+
+#. :src: bpy.types.OUTLINER_OT_drivers_delete_selected
+msgctxt "Operator"
+msgid "Delete Drivers for Selected"
+msgstr "Ta bort drivrutiner för markerade"
+
+#. :src: bpy.types.DOPESHEET_PT_dopesheet_overlay
+msgid "Dope Sheet Overlays"
+msgstr "Dopebladets överlägg"
+
+#. :src: bpy.types.USERPREF_PT_theme_dopesheet_editor
+#. :src: bpy.types.Theme.theme_area:'DOPESHEET_EDITOR'
+msgid "Dope Sheet/Timeline"
+msgstr "Dopeblad/tidslinje"
+
+#: scripts/startup/bl_operators/wm.py:1432
+msgid "Color in the linear space"
+msgstr "Färg i den linjära färgrymden"
+
+#: source/blender/nodes/composite/nodes/node_composite_file_output.cc:404
+msgid "The File Output node is only supported for scene compositing"
+msgstr "Filutdata-noden stöds endast för scenkompositering"
+
+#: source/blender/nodes/composite/nodes/node_composite_file_output.cc:766
+msgid "Invalid path template in File Output node. Skipping writing file."
+msgstr "Ogiltig sökvägsmall i filutdata-noden. Filen skrivs inte."
