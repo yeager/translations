@@ -345,6 +345,11 @@ NLA, Outliner och animeringssystemet. Den använder *åtgärdsslot* även i
 felmeddelanden och föråldrade användargränssnittssträngar. Deltafilen är lokalt
 kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 681 granskar fyra kvarvarande ActionSlot-identifierare och
+versionsdiagnoser. Den rättar böjningen *åtgärdsslotten*, ersätter äldre
+*Action-plats* och bevarar samtliga fem `%s`-platshållare. Deltafilen är lokalt
+kontrollerad och ännu inte importerad i Blender Translate.
+
 Den 7 november importerades samlingsfilen
 `blender-ui-sv-reviewed-20261107-batches-626-679-combined.po` manuellt i
 Blender Translate. Servern behandlade 323 poster: 135 uppdaterades, 183
