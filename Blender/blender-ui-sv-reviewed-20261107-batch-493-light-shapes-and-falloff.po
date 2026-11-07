@@ -1,0 +1,226 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.AreaLight.shape
+msgid "Shape of the area Light"
+msgstr "Områdesljusets form"
+
+#. :src: bpy.types.AreaLight.shape:'RECTANGLE'
+#. :src: bpy.types.GeometryNodeCurvePrimitiveQuadrilateral.mode:'RECTANGLE'
+#. :src: bpy.types.SpaceSequenceEditor.overlay_frame_type:'RECTANGLE'
+msgid "Rectangle"
+msgstr "Rektangel"
+
+#. :src: bpy.types.AreaLight.shape:'DISK'
+#. :src: bpy.types.NodesModifier.bake_target:'DISK'
+#. :src: bpy.types.NodesModifierBake.bake_target:'DISK'
+msgid "Disk"
+msgstr "Disk"
+
+#. :src: bpy.types.AreaLight.shape:'ELLIPSE'
+msgid "Ellipse"
+msgstr "Ellips"
+
+#. :src: bpy.types.AreaLight.size
+msgid ""
+"Size of the area of the area light, X direction size for rectangle shapes"
+msgstr ""
+"Storlek på området för områdesljuset, storlek i X-riktning för "
+"rektangelformer"
+
+#. :src: bpy.types.AreaLight.size_y
+msgid ""
+"Size of the area of the area light in the Y direction for rectangle shapes"
+msgstr ""
+"Storlek på området för områdesljuset i Y-riktningen för rektangelformer"
+
+#. :src: bpy.types.AreaLight.spread
+msgid ""
+"How widely the emitted light fans out, as in the case of a gridded softbox"
+msgstr "Hur mycket ljuset sprids ut, som i fallet med en softbox med raster"
+
+#. :src: bpy.types.AreaLight.use_absolute_resolution
+#. :src: bpy.types.PointLight.use_absolute_resolution
+#. :src: bpy.types.SpotLight.use_absolute_resolution
+msgid "Absolute Resolution Limit"
+msgstr "Gräns för absolut upplösning"
+
+#. :src: bpy.types.AreaLight.use_absolute_resolution
+#. :src: bpy.types.PointLight.use_absolute_resolution
+#. :src: bpy.types.SpotLight.use_absolute_resolution
+msgid ""
+"Limit the resolution at 1 unit from the light origin instead of relative to "
+"the shadowed pixel"
+msgstr ""
+"Begränsa upplösningen till 1 enhet från ljusets ursprung i stället för i "
+"förhållande till den skuggade pixeln"
+
+#. :src: bpy.types.AreaLight.use_shadow_jitter
+#. :src: bpy.types.PointLight.use_shadow_jitter
+#. :src: bpy.types.SpotLight.use_shadow_jitter
+#. :src: bpy.types.SunLight.use_shadow_jitter
+#. :src: bpy.types.World.use_sun_shadow_jitter
+msgid "Shadow Jitter"
+msgstr "Skuggslumpning"
+
+#. :src: bpy.types.AreaLight.use_shadow_jitter
+#. :src: bpy.types.PointLight.use_shadow_jitter
+#. :src: bpy.types.SpotLight.use_shadow_jitter
+#. :src: bpy.types.SunLight.use_shadow_jitter
+#. :src: bpy.types.World.use_sun_shadow_jitter
+msgid ""
+"Enable jittered soft shadows to increase shadow precision (disabled in "
+"viewport unless enabled in the render settings). Has a high performance "
+"impact."
+msgstr ""
+"Aktivera slumpade mjuka skuggor för att öka skuggprecisionen (inaktiverat i "
+"3D-vyn om det inte är aktiverat i renderingsinställningarna). Detta påverkar "
+"prestandan mycket."
+
+#. :src: bpy.types.PointLight
+msgid "Point Light"
+msgstr "Punktljus"
+
+#. :src: bpy.types.PointLight
+msgid "Omnidirectional point Light"
+msgstr "Omnidirektionellt punktljus"
+
+#. :src: bpy.types.PointLight.use_soft_falloff
+#. :src: bpy.types.SpotLight.use_soft_falloff
+msgid "Soft Falloff"
+msgstr "Mjuk avtoning"
+
+#. :src: bpy.types.PointLight.use_soft_falloff
+#. :src: bpy.types.SpotLight.use_soft_falloff
+msgid ""
+"Apply falloff to avoid sharp edges when the light geometry intersects with "
+"other objects"
+msgstr ""
+"Använd avtoning för att undvika skarpa kanter när ljusgeometrin skär andra "
+"objekt"
+
+#. :src: bpy.types.SpotLight
+msgid "Spot Light"
+msgstr "Strålkastare"
+
+#. :src: bpy.types.SpotLight
+msgid "Directional cone Light"
+msgstr "Riktad ljuskägla"
+
+#. :src: bpy.types.SpotLight.energy
+msgid ""
+"The energy this light would emit over its entire area if it wasn't limited "
+"by the spot angle"
+msgstr ""
+"Den energi som detta ljus skulle avge över hela sin yta om det inte "
+"begränsades av strålkastarvinkeln"
+
+#. :src: bpy.types.SpotLight.show_cone
+msgid "Show Cone"
+msgstr "Visa ljuskägla"
+
+#. :src: bpy.types.SpotLight.show_cone
+msgid ""
+"Display transparent cone in 3D view to visualize which objects are contained "
+"in it"
+msgstr ""
+"Visa en genomskinlig ljuskägla i 3D-vyn för att visa vilka objekt den "
+"omfattar"
+
+#. :src: bpy.types.SpotLight.spot_blend
+msgid "Spot Blend"
+msgstr "Strålkastarens övergång"
+
+#. :src: bpy.types.SpotLight.spot_blend
+msgid "The softness of the spotlight edge"
+msgstr "Hur mjuk strålkastarens kant är"
+
+#. :src: bpy.types.SpotLight.spot_size
+#: scripts/addons_core/cycles/ui.py:1609
+msgid "Spot Size"
+msgstr "Strålkastarvinkel"
+
+#. :src: bpy.types.SpotLight.spot_size
+msgid "Angle of the spotlight beam"
+msgstr "Vinkel på strålkastarens ljuskägla"
+
+#. :src: bpy.types.SpotLight.use_square
+msgid "Cast a square spot light shape"
+msgstr "Använd en kvadratisk ljusform för strålkastaren"
+
+#. :src: bpy.types.SunLight
+msgid "Sun Light"
+msgstr "Solljus"
+
+#. :src: bpy.types.SunLight
+msgid "Constant direction parallel ray Light"
+msgstr "Parallellstrålande ljus med fast riktning"
+
+#. :src: bpy.types.SunLight.angle
+#. :src: bpy.types.World.sun_angle
+msgid "Angular diameter of the Sun as seen from the Earth"
+msgstr "Solens vinkeldiameter sett från jorden"
+
+#. :src: bpy.types.SunLight.energy
+msgctxt "Light"
+msgid "Strength"
+msgstr "Styrka"
+
+#. :src: bpy.types.SunLight.energy
+msgid "Sunlight strength in watts per meter squared (W/m²)"
+msgstr "Solljusstyrka i watt per kvadratmeter (W/m²)"
+
+#. :src: bpy.types.SunLight.shadow_cascade_count
+msgid "Cascade Count"
+msgstr "Antal kaskader"
+
+#. :src: bpy.types.SunLight.shadow_cascade_count
+msgid "Number of texture used by the cascaded shadow map"
+msgstr "Antal texturer som används av den kaskadformade skuggkartan"
+
+#. :src: bpy.types.SunLight.shadow_cascade_exponent
+msgid "Exponential Distribution"
+msgstr "Exponentiell fördelning"
+
+#. :src: bpy.types.SunLight.shadow_cascade_exponent
+msgid "Higher value increase resolution towards the viewpoint"
+msgstr "Högre värden ökar upplösningen mot synvinkeln"
+
+#. :src: bpy.types.SunLight.shadow_cascade_fade
+msgid "Cascade Fade"
+msgstr "Kaskadtoning"
+
+#. :src: bpy.types.SunLight.shadow_cascade_fade
+msgid "How smooth is the transition between each cascade"
+msgstr "Hur smidig är övergången mellan varje kaskad"
+
+#. :src: bpy.types.SunLight.shadow_cascade_max_distance
+msgid "Cascade Max Distance"
+msgstr "Kaskadens längsta avstånd"
+
+#. :src: bpy.types.SunLight.shadow_cascade_max_distance
+msgid "End distance of the cascaded shadow map (only in perspective view)"
+msgstr "Slutavstånd för den kaskadformade skuggkartan (endast i perspektivvy)"
