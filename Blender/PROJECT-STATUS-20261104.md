@@ -5074,3 +5074,12 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 607 granskar RNA-informationen om beroendegrafens uppdateringar. Den
+behåller den etablerade termen *beroendegraf* och rättar beskrivningen till
+den idiomatiska formen *Information om det ID som uppdaterades*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-607-dependency-graph-update.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-607.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
