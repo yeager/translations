@@ -48,6 +48,19 @@ Fortsatt arbete ska därför börja med en ny, effektiv katalog där aktuella
 deltafiler har lagts ovanpå baskatalogen, eller med UI-kontroller som kan
 verifieras direkt i Blender Translate.
 
+## Effektiv lokal QA
+
+En effektiv katalog skapades den 7 november genom att lägga de senaste
+samlingsdeltana (`287–625` och `626–667`) samt de 20 tidigare importdelarna
+ovanpå baskatalogen. `msgfmt --check --check-header` passerade. Den effektiva
+katalogen gav 0 fel och 215 varningar i `l10n-lint`; den har 116 träffar med
+identisk käll- och måltext, 4 dubbelordsträffar, 5 versalträffar och 187
+slutpunktsavvikelser. Den har inga träffar för felstavning eller false friends.
+
+Den effektiva katalogen är ett lokalt QA-underlag, inte en ny importfil: den
+innehåller både redan importerade och ännu lokala ändringar. En sådan
+sammanslagning får därför aldrig laddas upp som en deltafil.
+
 ## Genomförd kontroll
 
 - `msgfmt --check --check-header` används för varje deltafil.
