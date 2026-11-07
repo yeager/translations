@@ -6467,6 +6467,15 @@ men rör inte API-begrepp som *asset representation*, vilka fortsatt är
 manuella importfilen. Den innehåller 136 nya, lokalt granskade poster och
 utesluter de redan verifierat importerade batcherna 748–760.
 
+Batch 780 granskar tre resurshylletexter för miniatyrbilder och dragning.
+*Asset* används här om de synliga resurserna i hyllan och blir därför
+*resurs*; den tidigare formuleringen blandade annars ihop *resurshylla* med
+*tillgångar*. Batchen är lokalt klar men ännu inte importerad.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-761-780.po` är den aktuella
+manuella importfilen. Den innehåller 139 nya, lokalt granskade poster och
+utesluter de redan verifierat importerade batcherna 748–760.
+
 Hela den lokala UI-katalogen har även körts genom `l10n-lint`. De kvarvarande
 träffarna har bedömts rad för rad: de gäller format- och färgprofilnamn,
 avsiktligt oförändrade identifierare, svensk decimalnotation eller medvetna
