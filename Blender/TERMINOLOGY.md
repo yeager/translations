@@ -15,6 +15,7 @@ Senast uppdaterad: 2026-11-07.
 | Asset Browser | resursbläddrare | Följer den aktuella svenska UI-etiketten. Den äldre manualformen *tillgångsbläddrare* ska inte dras in i ny UI-nära dokumentation. |
 | Asset Shelf / Asset Shelf Header | resurshylla / resurshyllans huvudrad | Den nedre snabbåtkomstytan för resurser i en redigerare. *Header* är regionens huvudrad, inte en dokumentrubrik. |
 | Header / Show Header | rubrik / Visa rubrik | Synlig Blender-region och dess menyåtgärd. Använd inte den felaktiga förkortningen *huvud*. |
+| fallback (WindowManager keymap) | reserv | Suffix för Blenders reservmappning av ett verktyg, exempelvis *kniv (reserv)*. Behåll inte engelska *fallback* i svenska tangentmappningsnamn. |
 | access token | åtkomsttoken | Skriv ihop. Förklarande rubriker får precisera typen: *biblioteksåtkomsttoken* respektive *förrådsåtkomsttoken*. |
 | remote asset library | fjärranslutet resursbibliotek | Skriv ut relationen i löpande text; undvik *fjärrresursbibliotek*, som blir svårläst med tre r. |
 | remote assets | fjärranslutna resurser | Nätåtkomliga resurser i Asset Browser och dess filter. Undvik *fjärrresurser*, som får tre r i följd. |

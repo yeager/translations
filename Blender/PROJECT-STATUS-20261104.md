@@ -5652,3 +5652,10 @@ Pencil, skärare* och dess reservmappning. Deltafilen
 `blender-ui-sv-reviewed-20261107-batch-687-grease-pencil-carver-keymap.po` är
 lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 688 granskar 24 WindowManager-poster för 3D-vyverktygens
+reservmappningar. Deras i övrigt svenska verktygsnamn hade den engelska
+ändelsen *fallback*, som konsekvent ändras till *reserv* utan att ändra
+verktygsnamn, platshållare eller API-termer. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-688-keymap-fallback-suffixes.po` är
+lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
