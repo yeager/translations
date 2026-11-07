@@ -159,6 +159,7 @@ Senast uppdaterad: 2026-11-07.
 | Vortex | virvel | Kraftfältstyp som ger en roterande påverkan. |
 | point cache | punktcache | Simuleringscache för punktsystem; skriv ihop. |
 | geometry attribute | geometriattribut | Attribut kopplat till Blenders geometri. Skriv ihop, även i sammansättningar. |
+| geometry threshold | geometritröskelvärde | Tröskelvärde som styr en geometrioperation. Skriv sammansättningen utan bindestreck. |
 | geometry color attribute | geometrifärgattribut | Färgattribut på geometri. Skriv ihop; undvik den särskrivna formen *geometri färgattribut*. |
 | 8-bit value | 8-bitarsvärde | Värdetyp i RNA/API-kontext. Skriv ihop med bindestrecket som i *8-bitarsvärde*. |
 | Byte Color | Bytefärg | Datatyp för färgattribut. Skriv ihop och behåll den tekniska typen *Byte*. |

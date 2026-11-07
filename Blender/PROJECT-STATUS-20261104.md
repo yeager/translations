@@ -6861,3 +6861,11 @@ samlade manuella deltafilen för batch 811–818. Den innehåller 61 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
 
+Batch 819 granskar fem indataetiketter för geometrinoder. Den normaliserar
+*geometritröskelvärde* och gör tre beskrivningar av geometri vars element
+bearbetas idiomatiska på svenska. Batchen är lokalt klar men ännu inte
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-819-geometry-inputs.po` är en separat
+manuell deltafil med endast dessa fem nya, lokalt granskade poster.
+
