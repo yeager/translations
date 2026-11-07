@@ -6108,6 +6108,11 @@ felaktigt blivit *nät*. I modifierar- och cachekontext behålls *mesh* enligt
 den projektspecifika terminologin. Deltafilen är lokalt granskad och ännu inte
 importerad.
 
+`blender-ui-sv-reviewed-20261107-pending-batches-739-742.po` är den aktuella
+samlade importfilen för de fyra efterföljande batcherna. Den innehåller 26
+unika, lokalt granskade och ännu ej importerade ändringar och ryms väl inom
+Blender Translates gräns på 1 000 strängar per import.
+
 Batch 726 granskar 22 UI- och API-texter för Blenders formella
 animationsdatatyp *Action*. Datatypnamnet behålls i *Action-slot*,
 *Action-kanal*, *Action-längd* och *Action-nyckelbildruta*, medan vanliga
