@@ -4512,3 +4512,13 @@ den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 546 granskar 22 poster för högtalarobjektets ljuddatablock,
+avståndsdämpning, riktningskoner, referensavstånd, tonhöjd och volym. Den
+normaliserar *Pitch* till *tonhöjd* och *Mute* till *Tysta* i högtalarkontexten
+samt skriver om konbeskrivningarna till idiomatisk svenska. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-546-speaker-distance-and-volume.po` och
+den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-546.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+

@@ -441,6 +441,7 @@ Senast uppdaterad: 2026-11-06.
 | render slot | renderingsplats | Sparad renderingsbuffert i Blenders bildredigerare. |
 | FFmpeg audio/video codec | FFmpeg-ljudkodek / FFmpeg-videokodek | Skriv den tekniska sammansättningen ihop. Låt standard- och formatnamn som AAC, H.264, ProRes och WebM stå kvar. |
 | sample rate | samplingsfrekvens | Antal ljudprov per sekund i FFmpeg- och ljudinställningar. |
+| speaker pitch / mute | tonhöjd / tysta | Högtalarobjektets uppspelningsegenskaper; *Pitch* är inte programmet eller det engelska ordet *pitch*. |
 | bitrate | bithastighet | Kodad data per tidsenhet; använd exempelvis *ljudbithastighet* och *konstant bithastighet*. |
 | container (media) | behållare | Filformatets omslutande struktur, exempelvis Matroska eller WebM. Använd *behållare för utdatafilen* i hjälptext. |
 | mux / mux packet | muxning / muxpaket | Sammanför ljud- och videoströmmar i en mediebehållare. Skriv sammansättningar ihop: *muxningshastighet*, *muxpaketstorlek*. |
