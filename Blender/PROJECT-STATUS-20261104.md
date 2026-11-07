@@ -353,6 +353,16 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 525 granskar 24 Object-poster för styva kroppar, Rigify och
+rotationsrepresentationer. Den normaliserar *stelkroppsbegränsning*,
+*Eulerrotation*, *Euler-vinklar*, *gimbal-låsning*, *axelvinkel* och
+*kvaternionrotation*. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-525-object-rigid-body-and-rotation.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-525.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade
