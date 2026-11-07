@@ -195,10 +195,15 @@ inställningsposter. De är den avgränsade UI-kontext där ordlistan föreskriv
 ändras mekaniskt. Deltafilen är lokalt kontrollerad men ännu inte importerad
 i Blender Translate.
 
-Den aktuella samlingsfilen för batch 626–655 är
-`blender-ui-sv-reviewed-20261107-batches-626-655-combined.po` med 135
+Batch 656 granskar tre hjälptexter för Outlinerns Library Override-åtgärder.
+De använder nu konsekvent *biblioteksåsidosättning* och beskriver
+beroendehierarkier utan den äldre, ospecifika formen *överskrivning*.
+Deltafilen är lokalt kontrollerad men ännu inte importerad i Blender Translate.
+
+Den aktuella samlingsfilen för batch 626–656 är
+`blender-ui-sv-reviewed-20261107-batches-626-656-combined.po` med 138
 granskade poster. Den är den rekommenderade filen för nästa enda manuella
-import och ersätter den tidigare samlingsfilen 626–654 för det ändamålet.
+import och ersätter den tidigare samlingsfilen 626–655 för det ändamålet.
 
 Den 6 november skapades en samlad Blender UI-delta med 5 681 unika, lokalt
 granskade poster och sex importdelar om högst 1 000 poster. Användaren har
