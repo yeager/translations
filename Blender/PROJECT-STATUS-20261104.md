@@ -7452,3 +7452,17 @@ separat manuell deltafil med endast dessa 24, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–865. Den innehåller 521 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 866 granskar 20 skulpteringsoperatorer för tyg, topologi,
+ytuppsättningar och meshfilter. Den ersätter oprecisa nätformer med
+*meshen*, *meshtopologi*, *meshobjekt* och *meshö*, och använder den
+verktygsspecifika etiketten *Relaxa mesh* för filtret `Relax`. Batchen är
+lokalt klar men ännu inte importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-866-mesh-sculpt-operators.po` är en
+separat manuell deltafil med endast dessa 20, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-866.po` är den aktuella
+samlade manuella deltafilen för batch 811–866. Den innehåller 521 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
