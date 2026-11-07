@@ -12,23 +12,23 @@
 
 ## Mätning 2026-11-08
 
-Alla arkiverade granskningsfiler slogs ihop med `msgcat --use-first` och
-jämfördes därefter med källfilen med `msgcomm --unique`. Jämförelsen använder
-gettexts identitet för sammanhang och källsträng, och räknar därför inte
-dubbletter eller ändringar som inte längre finns i den nedladdade filen.
+Alla arkiverade granskningsfiler slogs ihop med `msgcat --use-first`. Därefter
+jämfördes normaliserade identitetsnycklar för `msgctxt` och `msgid` med
+källfilen. Mätningen räknar därför inte dubbletter eller skillnader i själva
+måltexten som skapas av senare granskningar.
 
 | Mått | Poster |
 | --- | ---: |
-| Unika poster i alla arkiverade granskningsfiler | 10 095 |
-| Poster som fortfarande finns i källfilen | 9 427 |
-| Granskningstäckning i den lokala källfilen | 23,32 % |
-| Återstående för full radvis täckning | 31 000 |
+| Unika identiteter i alla arkiverade granskningsfiler | 10 120 |
+| Granskade identiteter som fortfarande finns i källfilen | 9 792 |
+| Granskningstäckning i den lokala källfilen | 24,30 % |
+| Återstående för full radvis täckning | 30 510 |
 
 ## Tolkning
 
 Detta är en lokal granskningsmätning, inte Blender Weblates
 översättningsprocent och inte ett importresultat. Källfilen är äldre än en
-del batcher; 668 arkiverade ändringar kan därför inte matchas i just denna
+del batcher; 328 arkiverade identiteter kan därför inte matchas i just denna
 nedladdning. De behöver inte vara fel eller saknas i Weblate.
 
 Den samlade manuella deltafilen `pending-batches-811-920.po` innehåller endast
