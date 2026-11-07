@@ -6742,6 +6742,14 @@ importerad i Blender Translate.
 aktuella manuella deltafilen för nästa import. Den innehåller endast de elva
 nya, lokalt granskade posterna.
 
+Batch 809 granskar nio Mesh-diagnoser om UV-data, färgattribut, ytor och
+storlek. Den använder de konsekventa böjningarna *meshen*, *meshens* och
+*meshytor*. Batchen är lokalt klar men ännu inte importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-809-mesh-diagnostics.po` är en
+separat, efterföljande deltafil med endast dessa nio nya poster.
+
 `REVIEW-COVERAGE-20261108.md` är den reproducerbara källan för den aktuella
 täckningsmätningen. Den mäter lokal radgranskning, inte Weblates status eller
 ett importresultat.
