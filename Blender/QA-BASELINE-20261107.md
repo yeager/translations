@@ -25,6 +25,29 @@ Prioritera i fortsatt radgranskning:
 Kontrollens 84 valutaträffar ska granskas i kontext: `USD` kan vara en
 valutaförkortning men också Universal Scene Description, som ska behållas.
 
+## Granskad varningsdisposition
+
+Den här baslinjen bygger på baskatalogen och inte på en sammanslagen katalog
+med de senare deltafilerna. Den ska därför inte användas som bevis för att en
+träff fortfarande finns i den lokalt granskade versionen. Den 7 november
+kontrollerades följande grupper mot den aktuella samlingsfilen för batch
+626–667:
+
+- Felstavnings- och false-friend-träffarna för bland annat *actual*,
+  *fjärrresursbibliotek*, *klippplan*, *poppupppanel* och *Träfffärg* är
+  antingen redan ersatta i senare deltabatcher eller avsiktliga tekniska
+  sammansättningar i baskatalogen.
+- De 14 versalvarningarna gäller huvudsakligen tidsformat (`AM`, `PM` och
+  månadsförkortningar), standardiserade formatnamn (`glTF`) eller tekniska
+  identifierare (`i18n`). De är inte svenska versalfel.
+- De fyra träffarna för dubblerade ord är legitima: ett algoritmnamn följt av
+  dess förklaring, negationen *inte, inte ens*, matematiska uttryck och en
+  formatplatshållare.
+
+Fortsatt arbete ska därför börja med en ny, effektiv katalog där aktuella
+deltafiler har lagts ovanpå baskatalogen, eller med UI-kontroller som kan
+verifieras direkt i Blender Translate.
+
 ## Genomförd kontroll
 
 - `msgfmt --check --check-header` används för varje deltafil.
