@@ -5064,3 +5064,13 @@ och den ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 606 granskar återanvända etiketter för panelplacering, RNA-typer och
+resursbibliotek. *Bottom*, *Any Type*, dess RNA-beskrivning och *All Libraries*
+har rätt respektive kontextuella svenska former och har markerats som
+granskade. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-606-general-rna-and-assets.po` och den
+ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-606.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
