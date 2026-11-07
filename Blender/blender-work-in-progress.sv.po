@@ -41600,17 +41600,14 @@ msgid "Use raytracing to determine transmitted color instead of using only light
 msgstr "Använd strålspårning för att bestämma den överförda färgen i stället för att bara använda ljussonder. Detta förhindrar att ytan bidrar till belysningen av ytor som inte använder denna inställning."
 
 #. :src: bpy.types.Material.use_screen_refraction
-#, fuzzy
 msgid "Use raytracing to determine transmitted color instead of using only light probes. This prevents the surface from contributing to the lighting of surfaces not using this setting. Deprecated: use 'use_raytrace_refraction'."
 msgstr "Använd strålspårning för att bestämma den överförda färgen i stället för att bara använda ljussonder. Detta förhindrar att ytan bidrar till belysningen av ytor som inte använder denna inställning. Föråldrad: använd \"use_raytrace_refraction\"."
 
 #. :src: bpy.types.Material.use_sss_translucency
-#, fuzzy
 msgid "Subsurface Translucency"
 msgstr "Underytsgenomskinlighet"
 
 #. :src: bpy.types.Material.use_sss_translucency
-#, fuzzy
 msgid "Add translucency effect to subsurface (Deprecated)"
 msgstr "Lägg till genomskinlighetseffekt till underytan (Föråldrad)"
 
@@ -41623,34 +41620,28 @@ msgid "Use the shadow maps from shadow casting lights to refine the thickness de
 msgstr "Använd skuggkartorna från ljuskällor med skuggverkan för att förfina den tjocklek som definieras av materialets nodträd"
 
 #. :src: bpy.types.Material.use_transparency_overlap
-#, fuzzy
 msgid "Use Transparency Overlap"
 msgstr "Använd överlappande transparens"
 
 #. :src: bpy.types.Material.use_transparency_overlap
 #. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.show_transparent_back
 #. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.show_transparent_back
-#, fuzzy
 msgid "Render multiple transparent layers (may introduce transparency sorting problems)"
 msgstr "Rendera flera transparenta lager (kan medföra problem med sortering av transparens)"
 
 #. :src: bpy.types.Material.use_transparent_shadow
-#, fuzzy
 msgid "Transparent Shadows"
 msgstr "Transparenta skuggor"
 
 #. :src: bpy.types.Material.use_transparent_shadow
-#, fuzzy
 msgid "Use transparent shadows for this material if it contains a Transparent BSDF, disabling will render faster but not give accurate shadows"
-msgstr "Använd transparenta skuggor för det här materialet om det innehåller en transparent BSDF, om du avaktiverar renderas det snabbare men ger inte korrekta skuggor"
+msgstr "Använd transparenta skuggor för det här materialet om det innehåller en transparent BSDF. Om du inaktiverar dem går renderingen snabbare, men skuggorna blir inte korrekta"
 
 #. :src: bpy.types.Material.volume_intersection_method
-#, fuzzy
 msgid "Volume Intersection Method"
 msgstr "Volymskärningsmetod"
 
 #. :src: bpy.types.Material.volume_intersection_method
-#, fuzzy
 msgid "Determines which inner part of the mesh will produce volumetric effect"
 msgstr "Bestämmer vilken inre del av meshen som ska ge en volymetrisk effekt"
 
@@ -41670,9 +41661,8 @@ msgid "Fast"
 msgstr "Snabb"
 
 #. :src: bpy.types.Material.volume_intersection_method:'FAST'
-#, fuzzy
 msgid "Each face is considered as a medium interface. Gives correct results for manifold geometry that contains no inner parts."
-msgstr "Varje yta betraktas som ett mediumgränssnitt. Ger korrekta resultat för grenrörsgeometri som inte innehåller några inre delar."
+msgstr "Varje yta betraktas som en gränsyta för ett medium. Ger korrekta resultat för manifold geometri utan inre delar."
 
 #. :src: bpy.types.Material.volume_intersection_method:'ACCURATE'
 #. :src: bpy.types.CompositorNodeDenoise.prefilter:'ACCURATE'
@@ -41710,9 +41700,8 @@ msgid "Accurate"
 msgstr "Noggrann"
 
 #. :src: bpy.types.Material.volume_intersection_method:'ACCURATE'
-#, fuzzy
 msgid "Faces are considered as medium interface only when they have different consecutive facing. Gives correct results as long as the max ray depth is not exceeded. Have significant memory overhead compared to the fast method."
-msgstr "Ytor betraktas som gränssnitt för ett medium endast när deras riktningar i följd skiljer sig. Ger korrekta resultat så länge det maximala stråldjupet inte överskrids. Har betydande minneskostnad jämfört med den snabba metoden."
+msgstr "Ytor betraktas som gränsytor för ett medium endast när deras på varandra följande orientering skiljer sig. Ger korrekta resultat så länge det maximala stråldjupet inte överskrids. Har betydande minneskostnad jämfört med den snabba metoden."
 
 #. :src: bpy.types.Mesh
 #, fuzzy

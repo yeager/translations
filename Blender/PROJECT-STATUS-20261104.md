@@ -119,6 +119,17 @@ ersättande samlingsfilen
 kontrollerade och arkiverade, men deras import till Blender Translate är inte
 verifierad i detta arkiv.
 
+Batch 502 granskar 12 poster för materialens transparens, underytseffekt,
+transparenta skuggor och volymskärning. Den förtydligar avaktiveringens
+konsekvens för skuggor, rättar den felaktiga översättningen *grenrörsgeometri*
+till projektets etablerade term *manifold geometri* och använder *gränsyta
+för ett medium* för renderingsmetodens gränssnitt. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-502-material-transparency-and-volume.po`
+och den ersättande samlingsfilen
+`blender-ui-sv-reviewed-20261107-post-upload-batches-287-502.po` är lokalt
+kontrollerade och arkiverade, men deras import till Blender Translate är inte
+verifierad i detta arkiv.
+
 Batch 499 granskar 20 poster för materialens verkliga och skenbara
 förskjutning, Grease Pencil-material samt Freestyle-linjer. Den håller isär
 *bumpmappning* och verklig *förskjutning*, och använder den etablerade
