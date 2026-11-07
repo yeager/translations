@@ -5638,3 +5638,11 @@ Den samlade deltafilen
 båda de lokalt kontrollerade, ännu ej importerade ändringarna och är klar för
 manuell import.
 
+Batch 686 korrigerar en felkopplad WindowManager-sträng för Grease Pencil.
+Den beskrev tidigare en pipett för färggradient trots att källsträngen gäller
+reservmappningen för Trim-verktyget. Den ersätts med den konsekventa
+verktygstexten *3D-vyverktyg: måla Grease Pencil, trimma (reserv)*.
+Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-686-grease-pencil-trim-fallback.po` är
+lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
