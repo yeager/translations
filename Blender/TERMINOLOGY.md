@@ -79,6 +79,7 @@ Senast uppdaterad: 2026-11-07.
 | project settings | projektinställningar | Exempel: *Open Project Settings* → *Öppna projektinställningar*. |
 | workspace | arbetsyta | Den etablerade UI-formen, exempelvis *Workspace* → *Arbetsyta*. |
 | pie menu | cirkelmeny | Följer den aktuella svenska Blender-UI-katalogen. |
+| popup / popover | popupfönster | Synligt tillfälligt fönster eller meny. Undvik *poppuppfönster*, som ger tre `p` i följd. |
 | Essentials | Grundresurser | Översatt UI-namn för Blenders medföljande resurser. I löpande text: *resursbiblioteket Grundresurser*. |
 | Essentials Library | grundresursbiblioteket | Rubrik i manualen för det inbyggda biblioteket med *Grundresurser*. Använd inte detta för den fristående UI-etiketten *Essentials*, som är *Grundresurser*. |
 | Cyclic | Cyklisk | Kurv- och splineinställning. Skriv vid behov *alternativet Cyklisk* för korrekt svensk kongruens. |
