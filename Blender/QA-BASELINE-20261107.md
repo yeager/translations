@@ -61,6 +61,16 @@ Den effektiva katalogen är ett lokalt QA-underlag, inte en ny importfil: den
 innehåller både redan importerade och ännu lokala ändringar. En sådan
 sammanslagning får därför aldrig laddas upp som en deltafil.
 
+`svlang check` kan användas för enskilda svenska strängar, men inte som ett
+automatiskt helkatalogmått för denna PO-fil. En körning på den effektiva
+katalogen gav 0,0/10 och 3 701 påstådda V2-avvikelser, eftersom verktyget
+tolkar PO-format, API-identifierare, platsmarkörer och korta UI-fragment som
+löpande text. Exempel som *Blenders tilläggsförråd hittades inte* och
+*Cachekatalogen för nedladdning av fjärranslutna resursbibliotek kan inte
+ändras* är korrekt svenska trots att de flaggas. Kör därför `svlang` mot
+avgränsade kandidatsträngar efter kontextgranskning, och låt inte den globala
+naturlighetspoängen styra prioriteringen.
+
 ## Genomförd kontroll
 
 - `msgfmt --check --check-header` används för varje deltafil.
