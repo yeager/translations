@@ -7353,3 +7353,17 @@ separat manuell deltafil med endast dessa 23, lokalt granskade ändringar.
 samlade manuella deltafilen för batch 811–858. Den innehåller 464 poster,
 passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
 Translate.
+
+Batch 859 normaliserar 20 strängar för geometri-noder som arbetar med mesh,
+bland annat topologi, kanter, attribut, primitiv och kurvkonvertering. Den
+använder *kubmesh*, *konmesh*, *cylindermesh*, *meshkomponent*, *meshkant*,
+*meshattribut* och *meshelement*. Batchen ersätter tidigare lokala formuleringar
+i samma poster men ändrar inte antalet poster i den samlade deltafilen.
+
+`blender-ui-sv-reviewed-20261108-batch-859-geometry-node-mesh.po` är en
+separat manuell deltafil med endast dessa 20, lokalt granskade ändringar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-859.po` är den aktuella
+samlade manuella deltafilen för batch 811–859. Den innehåller 464 poster,
+passerar lokal syntax- och lintkontroll och är ännu inte importerad i Blender
+Translate.
