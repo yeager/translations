@@ -25,8 +25,8 @@ också endast lokalt. Batch 313 för Movie Clip hade en alltför bred deltafil o
 är uttryckligen ersatt av batch 314, som endast innehåller den kontrollerade
 ändringen `Track` → `Spår` i Movie Clip-kontext. Batch 313 får inte importeras.
 De finns också samlade i den fristående, lokalt kontrollerade
-uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-493.po`
-med 3 466 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
+uppföljningsfilen `blender-ui-sv-reviewed-20261107-post-upload-batches-287-494.po`
+med 3 496 poster, som omfattar alla färdiga batcher efter sexdelsimporten,
 Movie Clip-korrigeringen samt Follow Track-, Object Solver-, Pivot- och
 Shrinkwrap-granskningarna. Den ersätter tidigare samlingsfiler för detta
 intervall, är redo för manuell import och har inte skickats in eller
@@ -100,6 +100,13 @@ interpolering. Den behåller Blenders synliga typnamn *Lattice*, använder
 `blender-ui-sv-reviewed-20261107-batch-489-lattice-grid-and-interpolation.po`
 är lokalt kontrollerad och arkiverad, men dess import till Blender Translate
 är inte verifierad i detta arkiv.
+
+Batch 494 granskar 38 poster för ljussonder och parallaxkorrigering. Den
+rättar bland annat *Ljusprob* till *ljussond* och de felaktiga översättningarna
+av rendertermen *bias* till kontextuella förskjutningar. Deltafilen
+`blender-ui-sv-reviewed-20261107-batch-494-light-probes-and-parallax.po` är
+lokalt kontrollerad och arkiverad, men dess import till Blender Translate är
+inte verifierad i detta arkiv.
 
 Batch 493 granskar 38 poster för områdes-, punkt-, strålkastar- och solljus.
 Den rättar bland annat *Disk* från den felaktiga formen *Hårddisk*, använder
