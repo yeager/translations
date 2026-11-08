@@ -10897,3 +10897,23 @@ innehåller tio unika poster och har SHA-256
 Ingen Weblate-import av batch 1 258–1 259 är verifierad här. De är lokalt
 färdiga, arkiverade och redo för manuell import, men inte upstream-inskickade
 förrän importresultatet är bekräftat.
+
+## Batch 1 260 — Hair Nodes-guidekurvor
+
+Fyra Hair Nodes-poster från `node_geo_interpolate_curves.cc` blandade den
+projektetablerade termen *guidekurva* med *styrkurva*. Batchen normaliserar
+gruppen, interpoleringsbeskrivningen och de två närmaste guidekurvorna till
+*guidekurva*. Terminologilistan förtydligar också att `Guide Group ID` skrivs
+*guidekurvsgrupp-ID*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1260-hair-guide-curves.po` innehåller
+fyra poster och har SHA-256
+`21ae94dc156afe32bcd3772ee6af8ea58d52013ba7a15223a15dea651ddb26a0`.
+Den har passerat `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
+diffkontroll och Gitleaks. Den är arkiverad och pushad i commit `0f78885e`.
+De fyra felaktiga TM-posterna är rättade och pushade i `swedish-tm`-commit
+`8f5b2be`.
+
+Ingen Weblate-import av batch 1 260 är verifierad. Den är lokalt färdig och
+redo för manuell import, men inte upstream-inskickad förrän importresultatet
+är bekräftat.
