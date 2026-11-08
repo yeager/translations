@@ -8317,3 +8317,19 @@ hoppades över. Resultatet bekräftar importen av den valda filen, men anger
 inte på egen hand vilka lokala batchnummer som ingick. Senare batcher ska
 därför fortsatt behandlas som lokalt granskade tills deras egen import kan
 verifieras.
+
+## Batch 934 — resurs i resursbläddraren
+
+Batch 934 rättar den kontextspecifika beskrivningen för val av
+resursbibliotek. I Blenders resursbläddrare är *asset* en **resurs**; den
+tidigare formuleringen *visa tillgångar från* ersätts därför med *visa
+resurser från*. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-934-asset-library-resource-label.po`
+är den separata manuella deltafilen med rättningen.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-934.po` är den samlade
+manuella deltafilen för batch 811–934. Den innehåller 802
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
