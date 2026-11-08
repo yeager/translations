@@ -10374,3 +10374,22 @@ PO-huvudet). Den har passerat `msgfmt`, `l10n-lint`, `svlang consistency`,
 riktad Hunspell-kontroll, diffkontroll och Gitleaks, och är arkiverad samt
 pushad till `yeager/translations`. Manuell import i Blender Translate är inte
 verifierad här.
+
+## Katalogomfattande kontroll efter batch 1 122
+
+Den 8 november kördes en ny strukturell genomgång av den virtuellt
+sammanslagna arbetskatalogen. `svlang skrivregler` rapporterade sju träffar,
+men de avser Blender-källans API-kommentarer och inte `msgstr`-innehåll.
+`svlang svengelska` fann endast de bokstavliga katalognamnen `startup`,
+`add-ons`, `modules` och `presets` i en beskrivning av Blenders
+skriptkataloglayout; dessa namn ska behållas eftersom de är verkliga
+undermappar. Den breda `svlang check`-rapporten innehåller många falska
+V2-träffar för UI-etiketter, tekniska namn och imperativ, och används därför
+inte som automatiskt beslutsunderlag.
+
+En ny `l10n-lint`-genomgång kontrollerades manuellt. Dess varningar gäller
+avsiktligt oförändrade format- och produktnamn, svenska datum- och
+decimalformer, svensk interpunktion i *t.ex.*, samt källans metadata. Inga
+ytterligare säkra ändringar skapades av denna kontroll. Detta är en
+katalogomfattande verktygsgranskning, inte ett påstående om att samtliga
+40 427 poster har fått en ny rad-för-rad-mänsklig bedömning.
