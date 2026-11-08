@@ -8349,3 +8349,19 @@ lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
 manuella deltafilen för batch 811–935. Den innehåller 814
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 936 — Action-datablock
+
+Batch 936 rättar åtta UI-etiketter som syftar på Blenders formella
+animationsdatatyp *Action*. Etiketterna använder därför produktnamnet, till
+exempel *Action-blandning*, *Action-extrapolering*, *Action-påverkan* och
+*Action-redigerare*, i stället för det generella ordet *åtgärd*. Batchen är
+lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-936-action-datablock-labels.po`
+är den separata manuella deltafilen med de åtta rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-936.po` är den samlade
+manuella deltafilen för batch 811–936. Den innehåller 822
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
