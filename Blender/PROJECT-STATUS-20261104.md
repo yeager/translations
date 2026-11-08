@@ -9745,6 +9745,19 @@ manuella deltafilen för batch 957–1 053. Den innehåller 950
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
 
+## Batch 1 054 — Action-slotar, export och posebibliotek
+
+Batch 1 054 granskar 33 UI- och RNA-texter för Action-slotar, NLA-remsor,
+glTF- och FBX-export samt posebiblioteket. Den behåller kod- och
+kontextpekarnamn oförändrade, men normaliserar den synliga svenska texten till
+*Action*, *Actioner* och *Action-slot*. Batchen är lokalt granskad, men ännu
+inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1054.po är den samlade
+manuella deltafilen för batch 957–1 054. Den innehåller 983
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
+
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
 `svlang`, `l10n-lint`, Hunspell och diffkontroll. `msgfmt` och `svlang`
 passerade. De två kvarvarande `l10n-lint`-varningarna är falska positiva: den

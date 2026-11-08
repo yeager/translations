@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. :src: bpy.types.DopeSheet.show_only_slot_of_active_object
+msgid ""
+"Only show the slot of the active Object. Otherwise show all the Action's "
+"Slots"
+msgstr ""
+"Visa endast Action-slotten för det aktiva objektet. Annars visas alla "
+"Actionens Action-slotar"
+
+#. :src: bpy.types.KeyingSetPath.group
+msgid "Name of Action Group to assign setting(s) for this path to"
+msgstr "Namn på Action-gruppen som inställningarna för den här sökvägen ska tilldelas"
+
+#. :src: bpy.types.NlaStrip.action_slot_handle
+msgid ""
+"A number that identifies which sub-set of the Action is considered to be for "
+"this NLA strip"
+msgstr ""
+"Ett tal som anger vilken delmängd av Actionen som används för denna NLA-"
+"remsa"
+
+#. :src: bpy.types.NlaTrack.is_solo
+msgid ""
+"NLA Track is evaluated itself (i.e. active Action and all other NLA Tracks "
+"in the same AnimData block are disabled)"
+msgstr ""
+"NLA-spåret utvärderas ensamt (det vill säga aktiv Action och alla andra NLA-"
+"spår i samma AnimData-block inaktiveras)"
+
+#. :src: bpy.types.ANIM_OT_slot_new_for_id
+msgid ""
+"Create a new Action Slot for an ID.\n"
+"\n"
+"Note that _which_ ID should get this slot must be set in the 'animated_id' "
+"context pointer, using:\n"
+"\n"
+">>> layout.context_pointer_set(\"animated_id\", animated_id)\n"
+"\n"
+"When the ID already has a slot assigned, the newly-created slot will be\n"
+"named after it (ensuring uniqueness with a numerical suffix) and any\n"
+"animation data of the assigned slot will be duplicated for the new slot."
+msgstr ""
+"Skapa en ny Action-slot för ett ID.\n"
+"\n"
+"Observera att _vilket_ ID som ska få denna Action-slot måste anges i "
+"kontextpekaren 'animated_id' med:\n"
+"\n"
+">>> layout.context_pointer_set(\"animated_id\", animated_id)\n"
+"\n"
+"När ID:t redan har en tilldelad Action-slot får den nya Action-slotten\n"
+"samma namn (med ett numeriskt suffix för att säkerställa unikhet), och\n"
+"animationsdata från den tilldelade Action-slotten dupliceras för den nya "
+"Action-slotten."
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_constraint
+msgid ""
+"Un-assign the assigned Action Slot from an Action constraint.\n"
+"\n"
+"Note that _which_ constraint should get this slot unassigned must be set in\n"
+"the \"constraint\" context pointer, using:\n"
+"\n"
+">>> layout.context_pointer_set(\"constraint\", constraint)"
+msgstr ""
+"Ta bort tilldelningen av Action-slotten från en Action-begränsning.\n"
+"\n"
+"Observera att _vilken_ begränsning som ska få Action-slotten borttagen måste "
+"anges i\n"
+"kontextpekaren \"constraint\" med:\n"
+"\n"
+">>> layout.context_pointer_set(\"constraint\", constraint)"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_id
+msgid ""
+"Un-assign the assigned Action Slot from an ID.\n"
+"\n"
+"Note that _which_ ID should get this slot unassigned must be set in the\n"
+"\"animated_id\" context pointer, using:\n"
+"\n"
+">>> layout.context_pointer_set(\"animated_id\", animated_id)"
+msgstr ""
+"Ta bort tilldelningen av Action-slotten från ett ID.\n"
+"\n"
+"Observera att _vilket_ ID som ska få Action-slotten borttagen måste anges i\n"
+"kontextpekaren \"animated_id\" med:\n"
+"\n"
+">>> layout.context_pointer_set(\"animated_id\", animated_id)"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_nla_strip
+msgid ""
+"Un-assign the assigned Action Slot from an NLA strip.\n"
+"\n"
+"Note that _which_ NLA strip should get this slot unassigned must be set in\n"
+"the \"nla_strip\" context pointer, using:\n"
+"\n"
+">>> layout.context_pointer_set(\"nla_strip\", nla_strip)"
+msgstr ""
+"Ta bort tilldelningen av Action-slotten från en NLA-remsa.\n"
+"\n"
+"Observera att _vilken_ NLA-remsa som ska få Action-slotten borttagen måste "
+"anges i\n"
+"kontextpekaren \"nla_strip\" med:\n"
+"\n"
+">>> layout.context_pointer_set(\"nla_strip\", nla_strip)"
+
+#. :src: bpy.types.POSELIB_OT_restore_previous_action
+msgctxt "Operator"
+msgid "Restore Previous Action"
+msgstr "Återställ föregående Action"
+
+#. :src: bpy.types.ACTION_OT_new
+msgctxt "Operator"
+msgid "New Action"
+msgstr "Ny Action"
+
+#. :src: bpy.types.ANIM_OT_slot_channels_move_to_new_action
+msgctxt "Operator"
+msgid "Move Slots to new Action"
+msgstr "Flytta Action-slotar till ny Action"
+
+#. :src: bpy.types.ASSET_OT_assign_action
+msgid "Set this pose Action as active Action on the active Object"
+msgstr "Ange denna pose-Action som aktiv Action för det aktiva objektet"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_fbx.bake_anim_use_all_actions
+msgid "All Actions"
+msgstr "Alla Actioner"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_action_filter
+msgid "Filter Actions"
+msgstr "Filtrera Actioner"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_action_filter
+msgid "Filter Actions to be exported"
+msgstr "Filtrera Actioner som ska exporteras"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_anim_single_armature
+msgid "Export all Armature Actions"
+msgstr "Exportera alla armatur-Actioner"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_merge_animation:'ACTION'
+msgid "Merge by Actions"
+msgstr "Sammanfoga efter Actioner"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_morph_reset_sk_data
+msgid "Reset Shape Keys Between Actions"
+msgstr "Återställ formnycklar mellan Actioner"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_reset_pose_bones
+msgid "Reset Pose Bones Between Actions"
+msgstr "Återställ posben mellan Actioner"
+
+#. :src: bpy.types.NLA_OT_action_sync_length
+msgid ""
+"Synchronize the length of the referenced Action with the length used in the "
+"strip"
+msgstr ""
+"Synkronisera längden på den refererade Actionen med längden som används i "
+"remsan"
+
+#. :src: bpy.types.NLA_OT_actionclip_add
+msgctxt "Operator"
+msgid "Add Action Strip"
+msgstr "Lägg till Action-remsa"
+
+#. :src: bpy.types.NLA_OT_actionclip_add
+msgid ""
+"Add an Action-Clip strip (i.e. an NLA Strip referencing an Action) to the "
+"active track"
+msgstr ""
+"Lägg till en Action-klippsremsa (det vill säga en NLA-remsa som refererar "
+"till en Action) i det aktiva spåret"
+
+#. :src: bpy.types.NLA_OT_apply_scale
+msgid "Apply scaling of selected strips to their referenced Actions"
+msgstr "Tillämpa skalningen av markerade remsor på deras refererade Actioner"
+
+#. :src: bpy.types.NLA_OT_bake.use_current_action
+msgid "Overwrite Current Action"
+msgstr "Skriv över aktuell Action"
+
+#. :src: bpy.types.NLA_OT_tweakmode_enter.isolate_action
+#. :src: bpy.types.NLA_OT_tweakmode_exit.isolate_action
+msgid "Isolate Action"
+msgstr "Isolera Action"
+
+#. :src: bpy.types.OUTLINER_OT_action_set
+msgctxt "Operator"
+msgid "Outliner Set Action"
+msgstr "Ange Action i översikten"
+
+#. :src: bpy.types.OUTLINER_OT_animdata_operation.type:'SET_ACT'
+msgid "Set Action"
+msgstr "Ställ in Action"
+
+#. :src: bpy.types.POSELIB_OT_apply_pose_asset
+msgid "Apply the given Pose Action to the rig"
+msgstr "Tillämpa den angivna pose-Actionen på riggen"
+
+#. :src: bpy.types.POSELIB_OT_blend_pose_asset
+msgid "Blend the given Pose Action to the rig"
+msgstr "Blanda den angivna pose-Actionen med riggen"
+
+#. :src: bpy.types.POSELIB_OT_restore_previous_action
+msgid "Switch back to the previous Action, after creating a pose asset"
+msgstr "Återgå till föregående Action efter att ha skapat en pose-resurs"
+
+#. :src: bpy.types.POSE_OT_convert_rotation.affected_actions
+msgid "Affected Actions"
+msgstr "Berörda Actioner"
+
+#. :src: bpy.types.POSE_OT_convert_rotation.affected_actions
+msgid "Which Actions to affect"
+msgstr "Vilka Actioner som ska påverkas"
+
+#. :src: bpy.types.PreferencesEdit.use_duplicate_action
+msgid "Duplicate Action"
+msgstr "Duplicera Action"
