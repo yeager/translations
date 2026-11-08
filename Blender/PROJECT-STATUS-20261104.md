@@ -3172,6 +3172,19 @@ Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
 Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
 ingen Blender Translate-import är verifierad här.
 
+## Batch 1 278 — senast använda mappar
+
+Filbläddarens historiketikett rättas från den ofullständiga formen *Senaste
+mappar* till *Senast använda mappar*, i linje med de intilliggande
+egenskaperna för aktiv senast använd mapp. Deltafilen
+`blender-ui-sv-reviewed-batch-1278-recent-folders.po` innehåller en post och
+har SHA-256
+`338c32f806262716577539f4d5d3ddcb037efe2ab2721f6e3ec6b0a7a7879372`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
+ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 275 — transformationsorientering
 
 Sju etiketter och hjälprader för Blenders 3D-transformationsorientering
