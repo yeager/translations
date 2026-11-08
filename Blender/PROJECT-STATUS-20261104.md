@@ -243,6 +243,11 @@ Blenders datatyp *mesh* och använder rätt böjning, till exempel *meshen* och
 *meshar*. Deltafilen är lokalt kontrollerad och ännu inte importerad i
 Blender Translate.
 
+Batch 956 granskar fem fel- och exportmeddelanden för meshdata i FBX, USD,
+partiklar och snabbeffekter. Den använder konsekvent *meshen* och
+*meshens UV-karta* när den formella Blender-datatypen avses. Deltafilen är
+lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
