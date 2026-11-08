@@ -9693,3 +9693,9 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1049.po är den samlade
 manuella deltafilen för batch 957–1 049. Den innehåller 890
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
+`svlang`, `l10n-lint`, Hunspell och diffkontroll. `msgfmt` och `svlang`
+passerade. De två kvarvarande `l10n-lint`-varningarna är falska positiva: den
+engelska exempelmarkören `eg:` blir idiomatiskt svenska `t.ex.` i båda
+filnamnstexterna.
