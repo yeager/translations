@@ -10806,3 +10806,17 @@ Deltafilen
 innehåller 20 poster (21 inklusive PO-huvudet) och har passerat `msgfmt`,
 l10n-lint, svlang, Hunspell-kandidatsökning och diffkontroll. Den väntar på
 arkivering och manuell import i Blender Translate.
+
+## Batch 1 150 — Bildrute- och förhandsgranskningsintervall
+
+Batch 1 150 granskar åtta oarkiverade poster för uppspelning, animation och
+förhandsgranskning. Den använder konsekvent *bildruta* och
+*bildruteintervall* i stället för den tvetydiga formen *bild*, samt rättar
+den felaktiga åtgärdsetiketten *Nodförhandsgranskning* till *Ta bort
+förhandsgranskning*. Befintliga termposter för bildrute- och
+förhandsgranskningsintervall räcker; ingen ny term har lagts till.
+
+`blender-ui-sv-reviewed-20261108-batch-1150-frame-range-preview.po`
+innehåller åtta poster (nio inklusive PO-huvudet), har passerat `msgfmt`,
+l10n-lint och diffkontroll och väntar på arkivering samt manuell import i
+Blender Translate.
