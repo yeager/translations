@@ -1,15 +1,25 @@
-# Blender UI: granskningslogg 8 november 2026
-
-Den här loggen kompletterar deltafilerna. En post som har granskats och
-medvetet lämnats oförändrad ska inte räknas som ogranskad bara för att den
-inte behöver en importfil.
+# Blender UI – täckning av lokal granskning
 
 ## Underlag
 
-- Basexport: `blender-ui-ui-sv.po`, hämtad 4 november 2026.
-- Basens omfattning: 40 427 aktiva strängar.
-- Arkiverade deltafiler täckte 40 299 unika käll-/kontextnycklar före den här
-  dagens riktade restgranskning.
+- Källfil: `~/Downloads/blender-ui-ui-sv (4).po`.
+- Källfilens innehåll: 40 427 översättningsposter (rubrik undantagen).
+- Arkiverade granskningsbatcher: 793 filer med namnet
+  `blender-ui-sv-reviewed-*-batch-*.po`, plus samlade deltafiler. Mätningen
+  använder unionen av de spårbara granskningsfilerna utan att låta fullfiler
+  och samlingsfiler räknas som fristående radgranskningar.
+
+## Verifierad basmätning 2026-11-08
+
+Normaliserade identitetsnycklar för `msgctxt` och `msgid` jämfördes med
+källfilen. Mätningen räknar inte dubbletter eller skillnader i måltext som
+har skapats av senare granskningar.
+
+| Mått | Poster |
+| --- | ---: |
+| Granskade identiteter som fortfarande finns i källfilen före de riktade restgrupperna | 9 897 |
+| Granskningstäckning i den lokala källfilen före de riktade restgrupperna | 24,48 % |
+| Återstående för full radvis täckning före de riktade restgrupperna | 30 530 |
 
 ## Riktade restgrupper
 
@@ -19,11 +29,15 @@ inte behöver en importfil.
 | Projekt, startbild/startskärm och samlingsimportör | 27 | 6 | 21 | `blender-ui-sv-reviewed-batch-1219-project-startup-importer.po`, commit `8e5c6188` |
 
 Efter dessa två grupper har 41 tidigare otäckta strängar granskats. Deltafiler
-registrerar de 14 ändrade strängarna; denna logg registrerar även de 27
-kontrollerade former som rätteligen lämnades kvar.
+registrerar de 14 ändrade strängarna; den här loggen registrerar även de 27
+kontrollerade former som rätteligen lämnades kvar. Den jämförbara lokala
+täckningen är därmed minst 9 938 av 40 427 strängar, alltså **24,58 %**;
+30 489 återstår i basexporten.
 
 ## Avgränsning
 
-Täckningssiffran är knuten till basexporten från 4 november. Nya eller ändrade
-källsträngar i Blender Translate måste jämföras mot en ny export innan samma
-procenttal kan användas för serverns aktuella katalog.
+Detta är en lokal granskningsmätning, inte Blender Weblates
+översättningsprocent och inte ett importresultat. Källfilen är äldre än en
+del batcher; nya eller ändrade källsträngar i Blender Translate måste jämföras
+mot en ny export innan samma procenttal kan användas för serverns aktuella
+katalog.
