@@ -8582,3 +8582,19 @@ den separata manuella deltafilen med de två rättningarna.
 manuella deltafilen för batch 811–949. Den innehåller 936
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 950 — Action-datablockets RNA-egenskaper
+
+Batch 950 granskar fyra RNA-beskrivningar för Action-slotar och
+animationsdata. *Action* är här en namngiven Blender-datatyp, så formerna
+*Actionen* och *Action* används i stället för det allmänna ordet *åtgärd*.
+*Datablock* och *ID-typ* hålls samtidigt ihop enligt termbasen. Batchen är
+lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-950-action-datablock-rna.po` är den
+separata manuella deltafilen med de fyra rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-950.po` är den samlade
+manuella deltafilen för batch 811–950. Den innehåller 940
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
