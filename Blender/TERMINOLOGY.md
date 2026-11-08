@@ -547,6 +547,7 @@ Senast uppdaterad: 2026-11-08.
 | mesh loop | meshloop | Intern meshtopologisk struktur vid ett ythörn; *looptriangel* används för triangulerat resultat. |
 | node input / output | nodindata / nodutdata | Nodernas tekniska dataflöde. Använd inte den äldre formen *inmatning* eller *utmatning* i RNA-etiketter. |
 | file output item | filutdataobjekt | Objekt som representerar en utdatafil i kompositorns nodstruktur. |
+| output path | utdatasökväg | Sökväg där kompositorns File Output-nod skriver sina filer. Skriv ihop i den samlade panelrubriken *Utdatasökvägar*. |
 | UV loop layer | UV-looplager | UV-lager som hör till meshens loopar. Använd *UV-looplager*, inte *UV-loopskikt*. |
 | remesh / remesher | ommeshning / ommeshare | Skapar om meshen med ny topologi. Ange geometri vid behov: *voxelommeshare* eller *fyrhörningsommeshare*. |
 | Remesh Modifier | ommeshningsmodifierare | Modifierare som skapar om meshens topologi. Skriv sammansättningen ihop; ordet är en projektspecifik teknisk term och kan saknas i allmänna ordlistor. |
