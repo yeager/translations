@@ -3172,6 +3172,20 @@ Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
 Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
 ingen Blender Translate-import är verifierad här.
 
+## Batch 1 283 — shaderkompilering
+
+Systeminställningens etikett *Shader Compilation Workers* normaliseras från
+den felaktigt försvenskade formen *skuggarkompilering* till Blenders
+etablerade fackterm *shaderkompilering*. Deltafilen
+`blender-ui-sv-reviewed-batch-1283-shader-compilation-workers.po` innehåller
+en post och har SHA-256
+`11014e53b9a9cd76cffd782bbd7897c63148135e193bdfd6e7ff1a7300578c3f`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+Gitleaks passerade. Hunspell saknar facktermen *shaderkompilering*, som är
+korrekt i Blender-kontexten. Batchen är lokalt färdig och redo för manuell
+import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 282 — fästbas i tangentmappning
 
 Tangentmappningsvarianten för *Set Snap Base* normaliseras från *snäppbas*
