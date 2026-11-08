@@ -33,12 +33,14 @@ har skapats av senare granskningar.
 | Filhantering, import/export och externa data | 23 | 6 | 17 | `blender-ui-sv-reviewed-batch-1233-file-browser-external-data.po`, commit `58911c57` |
 | Rendering, färghantering och kompositorn | 22 | 4 | 18 | `blender-ui-sv-reviewed-batch-1234-render-color-compositor.po`, commit `a9cf36dd` |
 | Arbetsytor, redigerare och layout | 10 | 5 | 5 | `blender-ui-sv-reviewed-batch-1235-workspace-editor-layout.po`, commit `94766888` |
+| Animation, tidslinje, Dope Sheet och Graph Editor | 22 | 7 | 15 | `blender-ui-sv-reviewed-batch-1236-animation-timeline-graph.po`, commit `8f56cedd` |
+| Nodredigerare och Geometry Nodes | 14 | 7 | 7 | `blender-ui-sv-reviewed-batch-1237-node-editor-geometry-nodes.po`, commit `f19d1549` |
 
-Efter dessa åtta grupper har 138 tidigare otäckta strängar granskats. Deltafiler
+Efter dessa tio grupper har 174 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
 kontrollerade former som rätteligen lämnades kvar. Den jämförbara lokala
-täckningen är därmed minst 10 035 av 40 427 strängar, alltså **24,82 %**;
-30 392 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
+täckningen är därmed minst 10 071 av 40 427 strängar, alltså **24,91 %**;
+30 356 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
 ny radgranskning, eftersom den rättar formuleringen av en redan granskad
 sekvensrenderingssträng.
 
