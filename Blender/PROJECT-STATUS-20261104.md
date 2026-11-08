@@ -254,6 +254,12 @@ och använder *meshobjekt* i sammansättningar samt *mesh* för typen i
 spridningsnoden. Deltafilen är lokalt kontrollerad och ännu inte importerad i
 Blender Translate.
 
+Batch 958 granskar tio tilläggs- och resursbläddrartexter för nätåtkomst.
+Den använder konsekvent *nätåtkomst* och *på nätet*, medan den tekniska
+startflaggan `--offline-mode` lämnas exakt som i källtexten. Batch 957–958
+har en separat samlingsfil med 15 poster och är lokalt kontrollerad men ännu
+inte importerad i Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
