@@ -9775,8 +9775,16 @@ för Asset Browser. Den ersätter återstående kontextbundna former av
 oförändrade. Batchen är lokalt granskad men ännu inte verifierad som
 importerad i Blender Translate.
 
-`blender-ui-sv-reviewed-20261108-pending-batches-1055-1056.po` samlar batch
-1 055–1 056 i en separat importfil med 19 översättningsposter. Den ska
+## Batch 1 057 — resurskataloger
+
+Batch 1 057 granskar fem katalog- och resurskommandon i Asset Browser. Den
+rättar termen *tillgång* i nodgrupps-, modifierings- och effektnodgrupps-
+resurser samt gör kommandot för att rensa en resurs entydigt i singular.
+Batchen är lokalt granskad men ännu inte verifierad som importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1057.po` samlar batch
+1 055–1 057 i en separat importfil med 24 översättningsposter. Den ska
 importeras separat från batch 957–1 054, som redan innehåller 983 poster.
 
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
