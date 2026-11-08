@@ -339,6 +339,7 @@ Senast uppdaterad: 2026-11-08.
 | subsurface translucency | underytsgenomskinlighet | Materialinställning för genomsläppt ljus under ytan. Skilj från *underytsspridning*, som är scattering. |
 | clamp (node operation) | begränsa | Begränsar ett värde till ett intervall. Noden använder *begränsningstyp* och *min/max*. |
 | normal map / normal mapping | normalkarta / normalkartläggning | Datat är en *normalkarta*, medan processen och dess inställningar är *normalkartläggning*. Använd exempelvis *normalkartläggning i tangentrymd* och *i objektrymd*. |
+| normal field | normalfält | Geometry Nodes-fält vars värden är normaler. Som tekniskt fältnamn skrivs det ihop, inte *normalt fält*. |
 | reroute | omdirigering | Blenders nod och Node Wrangler-funktion. Sammanfoga som *omdirigeringsnod*. |
 | Detach Outputs | Koppla bort utgångar | Node Wrangler-operatör. Använd *utdata* i förklarande text. |
 | Relative Path | Relativ sökväg | Synlig filsökvägsinställning. |
