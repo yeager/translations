@@ -240,6 +240,7 @@ Senast uppdaterad: 2026-11-08.
 | float vector attribute value | flyttalsvektorattributvärde | Geometriattribut med flyttalsvektor; behåll sammansättningen i Blender-UI. |
 | float color attribute value | flyttalsfärgattributvärde | Geometriattribut med färgvärden som flyttal; det är inte en allmän flytande färg. |
 | 2D float attribute value | 2D-flyttalsattributvärde | Tvådimensionellt flyttalsattribut i Blenders geometriattribut-API. |
+| 2D integer vector attribute value | 2D-heltalsvektorattributvärde | Tvådimensionellt heltalsvektorattribut i Blenders geometriattribut-API. |
 | vorticity | vorticitet | Hydromekanisk vektorstorhet för den lokala rotationen i ett strömningsfält. Behåll den etablerade facktermen i Mantaflow. |
 | fluid guiding | vätskestyrning | Mantaflow-funktionen som styr flödet med hastigheter från en domän eller effektor. Använd *styrnings-* i sammansättningar som *styrningsdomän* och *styrningsobjekt*. |
 | fluid mesh / fluid noise | vätskemesh / vätskebrus | Bakningssteg och cachedata i Mantaflow. *Brus* avser simuleringsdetaljer, inte ljud. |
@@ -423,6 +424,7 @@ Senast uppdaterad: 2026-11-08.
 | lacunarity | lacunaritet | Delad Blender-term för avståndet eller skalningsskillnaden mellan efterföljande frekvenser/oktaver. Följer Blenders svenska manual. |
 | stepped interpolation | stegad interpolation | F-kurvmodifierare som håller interpolerade värden flera bildrutor. |
 | field falloff | fältets avtagande | Hur kraften från ett kraftfält minskar med avståndet. |
+| field average / field variance | fältmedelvärde / fältvarians | Geometrinodernas statistiska beräkningar över fältvärden. |
 | radial falloff power | exponent för radiellt avtagande | Kraftfältets exponent som anger hur snabbt den radiella påverkan minskar med avståndet. |
 | rest length (harmonic field) | vilolängd | Jämviktslängd i ett harmoniskt kraftfält. Använd inte den engelskpåverkade formen *restlängd*. |
 | Curl (texture force-field mode) | Curl | Synligt tekniskt namn för den vektoranalytiska curl-operationen i texturkraftfältet. Det är inte hårtermen *lock*. |
