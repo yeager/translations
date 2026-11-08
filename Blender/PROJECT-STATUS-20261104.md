@@ -10129,10 +10129,12 @@ Batch 1 088 bevarar skiljetecknet i Geometry Nodes-felmeddelandet för det
 saknade attributet `rest_position`. Batch 1 089 skriver om UIList-hjälptexten
 för `bl_idname` till idiomatisk svenska, samtidigt som klassnamn och
 identifierare behålls exakt. Batch 1 090 normaliserar versaliseringen i
-inställningsetiketten *I18n-grenar*.
+inställningsetiketten *I18n-grenar*. Batch 1 091 översätter Soft
+Body-egenskapen *Aero* till *Aerodynamik* efter kontroll mot Blenders API,
+som beskriver den som luftmotstånds- och lyftkraftspåverkan på kanter.
 
-`blender-ui-sv-reviewed-20261108-pending-batches-1055-1090.po` samlar batch
-1 055–1 090 i en separat importfil med 169 översättningsposter (170 med
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1091.po` samlar batch
+1 055–1 091 i en separat importfil med 170 översättningsposter (171 med
 PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
 `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
 Den är lokalt validerad och väntar på manuell import i Blender Translate.
@@ -10140,4 +10142,4 @@ Den är lokalt validerad och väntar på manuell import i Blender Translate.
 Den 8 november 2026 visade användarens importresultat 351 bearbetade poster,
 39 överhoppade och 312 uppdaterade. Skärmbilden anger inte entydigt vilken
 lokal importfil som användes, så den kan inte användas som bevis för att den
-senaste samlingsfilen 1 055–1 090 är importerad.
+senaste samlingsfilen 1 055–1 091 är importerad.
