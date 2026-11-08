@@ -10998,6 +10998,19 @@ kontroll mot aktuell UI-, operatörs- och sekvenskontext. TM-uppdateringen
 publicerades i `yeager/swedish-tm` som commit `7451ba7`; den innebär ingen
 ytterligare import till Blender Translate.
 
+## Batch 1 268 — Transformationsbegränsning
+
+Batch 1 268 granskar etiketten för Blenders Transform-begränsning i objekt-
+och posekontext. Den engelska formen *Transformation* får den etablerade
+svenska Blender-termen *Transformation*, i linje med projektets befintliga
+terminologi för position, rotation och skala. Deltafilen
+`blender-ui-sv-reviewed-batch-1268-transformation-constraint.po` innehåller
+en post och har SHA-256
+`41e58b666457a8908660f57fb569e428af7c665b6ce0c2420f7c24bb09af52bc`.
+Den är lokalt validerad men inte verifierad som importerad i Blender
+Translate. Det historiska Blender-segmentet i `swedish-tm` normaliserades
+samtidigt från *Transformering* till *Transformation* i commit `cb8f457`.
+
 Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
 diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 `a92ec6bd`; TM-ändringen är pushad i `swedish-tm`-commit `1ef888a`.
