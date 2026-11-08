@@ -9806,8 +9806,16 @@ och *resursdata* konsekvent, samtidigt som protokoll- och fältnamnen `path`,
 `hash` och `size_in_bytes` lämnas oförändrade. Batchen är lokalt granskad men
 ännu inte verifierad som importerad i Blender Translate.
 
-`blender-ui-sv-reviewed-20261108-pending-batches-1055-1060.po` samlar batch
-1 055–1 060 i en separat importfil med 67 översättningsposter. Den ska
+## Batch 1 061 — resursval och kataloger
+
+Batch 1 061 granskar fem synliga status- och åtgärdstexter i Asset Browser.
+Den gör skillnaden mellan en markerad resurs, en lokal resurs och en
+resurssystemfil tydlig och använder genomgående *resurs* i denna
+användargränssnittskontext. Batchen är lokalt granskad men ännu inte verifierad
+som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1061.po` samlar batch
+1 055–1 061 i en separat importfil med 72 översättningsposter. Den ska
 importeras separat från batch 957–1 054, som redan innehåller 983 poster.
 
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
