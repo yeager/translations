@@ -10958,6 +10958,19 @@ diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 `a5e9376a`. Ingen Weblate-import är verifierad; batchen är lokalt färdig och
 redo för manuell import.
 
+## Batch 1 265 — UI-regioner och animering
+
+Tre etablerade begrepp normaliseras i den aktuella exporten:
+*verktygsrubrik*, *fyrdelad vy* och *nyckeluppsättning*. Deltafilen
+`blender-ui-sv-reviewed-batch-1265-ui-regions-animation.po` innehåller tre
+poster och har SHA-256
+`64570cf9d96b1768df0fb87148f74db25c5f782142dfbf9ce664b2993670da28`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
+diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
+`e7c135ce`. Ingen Weblate-import är verifierad; batchen är lokalt färdig och
+redo för manuell import.
+
 ## Samlad import — batch 1 260–1 262
 
 `blender-ui-sv-reviewed-import-20261108-batches-1260-1262.po` samlar de åtta
