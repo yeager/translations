@@ -585,6 +585,7 @@ Senast uppdaterad: 2026-11-08.
 | selection set | urvalsuppsättning | Namngiven samling av valbara element. |
 | delta location | deltaförflyttning | Extra förflyttning som läggs till ett objekts position. |
 | empty | tomobjekt | Blender-objekt utan egen geometri, till exempel för referensbilder eller hjälpkontroller. |
+| metaball | metaklot | Blender-objekttyp med organiskt sammanflytande implicita ytor. Använd *metaklot* och sammansättningen *metaklotelement*, inte det engelska *metaball*. |
 | material slot | materialplats | Koppling mellan ett objekt och ett av dess material. |
 | world matrix | världsmatris | Transformationsmatris i världsrymden. |
 | vertex paint / weight paint / texture paint | hörnpunktsmålning / viktmålning / texturmålning | Blenders respektive målningslägen. |
