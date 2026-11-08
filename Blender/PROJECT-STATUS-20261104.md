@@ -10958,6 +10958,18 @@ diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 `a5e9376a`. Ingen Weblate-import är verifierad; batchen är lokalt färdig och
 redo för manuell import.
 
+## Samlad import — batch 1 263–1 265
+
+`blender-ui-sv-reviewed-import-20261108-batches-1263-1265.po` samlar åtta
+unika UI-poster från batch 1 263–1 265 i en importbar deltafil. Den innehåller
+inte hela Blender-katalogen och har SHA-256
+`0fc507e95da4d21cf5122a93e8af48d76615ba03189e227cd0f450425e74ead3`.
+Filen har verifierats med `msgfmt`, l10n-lint, svlang, diffkontroll och
+Gitleaks, och är arkiverad och pushad i commit `74558e4e`.
+
+Importstatus: redo för manuell Weblate-import; inget importresultat är
+verifierat här.
+
 ## Batch 1 265 — UI-regioner och animering
 
 Tre etablerade begrepp normaliseras i den aktuella exporten:
