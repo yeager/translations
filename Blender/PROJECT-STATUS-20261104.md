@@ -10064,3 +10064,16 @@ granskad men ännu inte verifierad som importerad i Blender Translate.
 1 055–1 079 i en separat importfil med 123 översättningsposter (124 med
 PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
 innehåller 983 poster.
+
+## Batch 1 080 — Geometry Nodes-visningsnod
+
+Batch 1 080 normaliserar tre status- och hjälprader för Geometry Nodes
+*Viewer*. De avser en teknisk visningsnod och blir därför *visningsnod*, inte
+den personbetecknande formen *visare*. VR- och glTF-visare berörs inte.
+Batchen är lokalt granskad men ännu inte verifierad som importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1080.po` samlar batch
+1 055–1 080 i en separat importfil med 126 översättningsposter (127 med
+PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
+innehåller 983 poster.
