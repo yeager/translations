@@ -1,6 +1,6 @@
 # Blender: projektstatus 5 november 2026
 
-Senaste lokala arbete: 8 november 2026.
+Senaste lokala arbete: 9 november 2026.
 
 ## Batch 1 300 — kontextuttag
 
