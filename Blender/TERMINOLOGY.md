@@ -153,7 +153,7 @@ Senast uppdaterad: 2026-11-08.
 | Graph Editor | grafredigerare | UI-namn för redigeraren med F-kurvor. Använd bestämd form i löpande text: *i grafredigeraren*. |
 | Dope Sheet | Dopeblad | UI-namn. Använd bestämd form i löpande text: *i dopebladet*. |
 | Around Frame / On Keyframes (motion paths) | Omkring bildrutan / Vid nyckelbildrutor | Lökskalningslägen för rörelsebanor. Återanvänd de svenska lägesnamnen i hjälptexter; behåll inte den engelska etiketten i citat. |
-| Action Editor | Actionredigeraren | Redigerare för den formella Action-datatypen. Använd *Actionredigeraren* i löpande text; inte *åtgärdsredigeraren*. |
+| Action Editor | Action-redigerare (etikett); Actionredigeraren (löptext) | Redigerare för den formella Action-datatypen. Behåll bindestrecket i den fristående UI-etiketten *Action-redigerare*, men använd den böjda formen *Actionredigeraren* i löpande text; inte *åtgärdsredigeraren*. |
 | Value Slider | värdereglage | UI-term för ett specifikt reglage. Behåll *skjutreglage* för den generella regionen och etiketten *Show Sliders*. |
 | Outliner | Outliner | Etablerat produktnamn i Blender-manualen. Behåll det på engelska; böj vid behov som *i Outliner*. |
 | linked duplicate | länkad dubblett | Dokumentationens singularform för ett nytt objekt som delar samma objektdata. Den synliga pluraloperatören *Linked Duplicate* kan ha en egen UI-form. |
