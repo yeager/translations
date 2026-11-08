@@ -427,6 +427,7 @@ Senast uppdaterad: 2026-11-08.
 | mesh | mesh | Behåll när det avser Blender-datatypen eller dess etablerade UI-beteckning. Böj som ett utrumord: *en mesh*, *meshen*, *meshar*, *meshens* och *denna mesh*. Skriv sammansättningar ihop, till exempel *meshobjekt*, *meshsymmetri*, *meshkanter*, *meshnormaler*, *meshhörnpunkt* och *meshindata*. |
 | object bounding box | begränsningsbox | Objektets tredimensionella gränsvolym i objektrymd. Skilj från *begränsningsruta* i filmspårning och bildredigering. |
 | bevel | avfasning / fasning | *Avfasning* för UI-egenskapen och modifieraren, *fasning* kan beskriva resultatet i löpande text. |
+| Bevel Weight / Edge Bevel Weight | avfasningsvikt / kantavfasningsvikt | Viktat attribut för avfasning av hörn eller kanter. UI-egenskapen följer *avfasning*, inte den friare beskrivande formen *fasning*. |
 | Bevel Modifier | avfasningsmodifierare | Blender-modifierarens belagda UI- och manualform. |
 | modifier space | modifierarens koordinatrum | Modifierarens egna koordinatsystem. Använd konstruktionen *i modifierarens koordinatrum*, inte den otydliga sammansättningen *modifieringsutrymme*. |
 | modifier node group assets | resurser för modifierarnodgrupper | Resurser som utgör nodgrupper för modifierare. Använd den här explicita formen i Asset Browser-status, inte *modifieringsnodgruppsresurser*. |
