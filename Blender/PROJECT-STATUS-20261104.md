@@ -324,6 +324,11 @@ skiljer *Ersätt Action*, *ersättnings-Action*, *Action-begränsning* och
 innehåller 100 poster och är lokalt kontrollerad men ännu inte importerad i
 Blender Translate.
 
+Batch 970 granskar sex egenskapsbeskrivningar för Action. Den normaliserar
+referenser till Actionens bildruteintervall, Action-lager, äldre Actioner och
+Actionens posemarkörer. Samlingsfilen för batch 957–970 innehåller 106 poster
+och är lokalt kontrollerad men ännu inte importerad i Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
