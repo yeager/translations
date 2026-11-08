@@ -299,6 +299,12 @@ konsekvent, så att de inte förväxlas med vanliga åtgärder i gränssnittet.
 Samlingsfilen för batch 957–965 innehåller 62 poster och är lokalt kontrollerad
 men ännu inte importerad i Blender Translate.
 
+Batch 966 granskar fem beskrivningar för Action-slotar. Den skiljer genomgående
+den formella datatypen *Action*, dess slotar och dess datablock från vanliga
+åtgärder i användargränssnittet. Samlingsfilen för batch 957–966 innehåller
+67 poster och är lokalt kontrollerad men ännu inte importerad i Blender
+Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
