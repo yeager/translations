@@ -10834,5 +10834,7 @@ kopiera inställningar för studioljus. Terminologilistan förtydligar att
 API-namnet *KeyConfig* översätts i synlig UI-text.
 
 `blender-ui-sv-reviewed-20261108-batch-1151-keymap-configuration.po`
-innehåller arton poster (nitton inklusive PO-huvudet). Den är lokalt
-kontrollerad och väntar på arkivering samt manuell import i Blender Translate.
+innehåller arton poster (nitton inklusive PO-huvudet). Den har passerat
+`msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning, diffkontroll och
+Gitleaks, och är arkiverad och pushad i commit `8f45e373`. Någon import till
+Blender Translate är inte verifierad.
