@@ -3082,6 +3082,20 @@ API-typen `ActionKeyframeStrip` eller `ActionChannelbag`. Deltafilen
 Gitleaks. `svlang` ger 10/10 i naturlighet; rapporterade ovanliga ord är
 projektets API-namn och avsedda facktermer. Filen är arkiverad och väntar på
 manuell import.
+
+## Batch 1 267 — Tilläggsåtgärd
+
+API-egenskapen `BlendImportContextItem.append_action` har fått projektets
+korrekta term *tilläggsåtgärd*. Deltafilen
+`blender-ui-sv-reviewed-batch-1267-append-action.po` innehåller en post och
+har SHA-256
+`fb81e5f8c077f4dab2d04b2f9859534b1c9e5efe068e28cc4f03c664033c5619`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
+diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
+`bdf5f401`; TM-ändringen är pushad i `swedish-tm`-commit `606d36d`.
+Ingen Weblate-import är verifierad; batchen är lokalt färdig och redo för
+manuell import.
 Batch 175 granskar fyra Movie Tracking-/Dopeblad-poster. Den ersätter
 blandade engelska och felaktiga direktöversättningar med *filmspårningsdopeblad*,
 *dopebladsvyn* och en kontexttrogen förklaring av data för rörelsespårning.
