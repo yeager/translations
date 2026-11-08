@@ -917,6 +917,7 @@ Senast uppdaterad: 2026-11-08.
 | fade (sequencer) | uttoning | Gradvis övergång i bild eller ljud mellan remsor. |
 | keymap configuration | tangentmappningskonfiguration | Sparad uppsättning Blender-tangentmappningar. |
 | snap keyframes | fäst nyckelbildrutor | Flyttar nyckelbildrutor till bestämda tider, bildrutor eller markörer. |
+| snap / snapping (3D-transformering) | fäst / fästning | Fäster markör, markering eller transformerat objekt vid exempelvis rutnät, mål eller markör. Skilj från *snap keyframes* → *fäst nyckelbildrutor*. |
 | NLA stack | NLA-stapel | Lagerordningen för åtgärder och remsor i Nonlinear Animation. |
 | keying set | nyckeluppsättning | Namngiven uppsättning animerbara egenskaper som används vid infogning och borttagning av nyckelbildrutor. |
 | driver | drivrutin | Uttrycks- eller databaserad styrning av en egenskap; skilj från fysisk hårdvarudrivrutin. |
