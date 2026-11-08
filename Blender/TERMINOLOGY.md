@@ -40,6 +40,7 @@ Senast uppdaterad: 2026-11-08.
 | view shift (camera view) | vyförskjutning | Förskjuter kameravyns inramning utan att flytta kameran. |
 | film gate | filmruta | Bildruta som anger den fysiska sensor- eller filmramen i kameravyn. |
 | clipping distance | beskärningsavstånd | Kamerans närmaste eller bortre synliga gräns. |
+| clipping plane | beskärningsplan | Synligt plan som avgränsar innehåll i kamera- eller 3D-vy. Använd i plural *beskärningsplan*, inte *klippplan*. |
 | Clip Start / Clip End | beskärningsstart / beskärningsslut | Kamerans, 3D-vyportens eller VR-vyns närmaste och bortre gräns för visning. |
 | camera space | kamerarymd | Kamerans koordinatrymd för spårning, projektion och objektlösning. Använd inte det vardagliga *kamerarum*. |
 | object space | objektrymd | Objektets lokala koordinatrymd, bland annat för bildprojektion och normalmappning. Använd inte *objektrum*. |

@@ -50,13 +50,13 @@ har skapats av senare granskningar.
 | Alembic: import- och exportdiagnostik | 20 | 0 | 20 | `REVIEW-ALEMBIC-DIAGNOSTICS-20261108.md` |
 | SPZ: läs- och dekomprimeringsdiagnostik | 15 | 0 | 15 | `REVIEW-SPZ-READ-DIAGNOSTICS-20261108.md` |
 | OTIO, PLY, OBJ och STL: import- och exportdiagnostik | 24 | 0 | 24 | `REVIEW-FORMAT-IO-DIAGNOSTICS-20261108.md` |
-| Sammansättningar och nedladdningscache | 4 | 4 | 0 | `blender-ui-sv-reviewed-batch-1250-compounds-cache.po` |
+| Sammansättningar, fjärrresurser och nedladdningscache | 13 | 13 | 0 | `blender-ui-sv-reviewed-batch-1250-compounds-cache.po` |
 
-Efter dessa tjugosex grupper har 408 tidigare otäckta strängar granskats. Deltafiler
+Efter dessa tjugosex grupper har 417 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
 kontrollerade former som rätteligen lämnades kvar. Den jämförbara lokala
-täckningen är därmed minst 10 305 av 40 427 strängar, alltså **25,49 %**;
-30 122 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
+täckningen är därmed minst 10 314 av 40 427 strängar, alltså **25,51 %**;
+30 113 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
 ny radgranskning, eftersom den rättar formuleringen av en redan granskad
 sekvensrenderingssträng.
 
