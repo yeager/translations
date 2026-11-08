@@ -110,7 +110,7 @@ Senast uppdaterad: 2026-11-07.
 | parent | förälder / överordnad | Kontextstyrt i Blender-hierarkin. Den fristående UI-egenskapen kan vara *Förälder*, medan objekt- och samlingshierarkier använder *överordnat objekt* eller *överordnad*. Normalisera inte mekaniskt. |
 | Graph Editor | grafredigerare | UI-namn för redigeraren med F-kurvor. Använd bestämd form i löpande text: *i grafredigeraren*. |
 | Dope Sheet | Dopeblad | UI-namn. Använd bestämd form i löpande text: *i dopebladet*. |
-| Action Editor | åtgärdsredigerare | UI-namn; *åtgärdsredigeraren* i löpande text. |
+| Action Editor | Actionredigeraren | Redigerare för den formella Action-datatypen. Använd *Actionredigeraren* i löpande text; inte *åtgärdsredigeraren*. |
 | Value Slider | värdereglage | UI-term för ett specifikt reglage. Behåll *skjutreglage* för den generella regionen och etiketten *Show Sliders*. |
 | Outliner | Outliner | Etablerat produktnamn i Blender-manualen. Behåll det på engelska; böj vid behov som *i Outliner*. |
 | linked duplicate | länkad dubblett | Dokumentationens singularform för ett nytt objekt som delar samma objektdata. Den synliga pluraloperatören *Linked Duplicate* kan ha en egen UI-form. |
@@ -843,7 +843,7 @@ Senast uppdaterad: 2026-11-07.
 | Action slot | Action-slot | Identifierar vilken uppsättning animeringskanaler i en Action som gäller för ett datablock. |
 | layered Action | skiktad Action | Nyare Action-struktur med lager och Action-slotar. |
 | legacy Action | äldre Action | Äldre Action-struktur utan lager och Action-slotar. |
-| animation channel bag | animationskanalbehållare | API-objekt som samlar F-kurvor och grupper för en åtgärdsslot. |
+| animation channel bag | animationskanalbehållare | API-objekt som samlar F-kurvor och grupper för en Action-slot. |
 | kernel optimization | kärnoptimering | Optimering av renderingskärnor i Cycles, inte operativsystemets kärna. |
 | intersection | skärningsberäkning | Strålspårningens beräkning av en träff mellan stråle och geometri. |
 | FriBidi | FriBidi | Egennamn på biblioteket; använd dess officiella skrivning. |
