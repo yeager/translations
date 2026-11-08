@@ -10838,3 +10838,17 @@ innehåller arton poster (nitton inklusive PO-huvudet). Den har passerat
 `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning, diffkontroll och
 Gitleaks, och är arkiverad och pushad i commit `8f45e373`. Någon import till
 Blender Translate är inte verifierad.
+
+## Batch 1 152 — Filbläddraren
+
+Batch 1 152 granskar tretton oarkiverade poster i filbläddraren. Den ersätter
+felöversättningar av snabbmenyn *Specials*, resursrensning och
+katalogsökvägar, normaliserar *resursbläddring* och *filbläddrare* samt gör
+listan över senast använda mappar idiomatisk. Terminologilistan fastställer
+*senast använd mapp* för en enskild post i den listan.
+
+`blender-ui-sv-reviewed-20261108-batch-1152-file-browser-terminology.po`
+innehåller tretton poster (fjorton inklusive PO-huvudet), har passerat
+`msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning, diffkontroll och
+Gitleaks, och är arkiverad och pushad i commit `2f48995c`. Någon import till
+Blender Translate är inte verifierad.
