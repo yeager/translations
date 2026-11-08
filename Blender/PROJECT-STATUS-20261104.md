@@ -10759,3 +10759,20 @@ eller eventuell granskningsstatus. De 332 saknade posterna behandlas därför
 som katalogskillnader tills en serverrapport eller en senare export ger mer
 precis evidens. Användarens rapporterade uppladdning och den lokala
 exportjämförelsen hålls därmed åtskilda.
+
+## Batch 1 146 — Nyckelbildrutor och Action-data
+
+Batch 1 146 normaliserar 23 oarkiverade UI- och hjälptexter för
+nyckelbildrutor, F-kurvor, Keying Set, glTF/FBX-export och konvertering av
+Actions. Den ersätter engelska *keyframe(s)* och den förkortade formen
+*nyckelram(ar)* med *nyckelbildruta/-rutor*, inklusive den etablerade
+sammansättningen *nyckelbildruteanimering*. Där *Action* uttryckligen är
+Blenders datatyp bevaras namnet med stor bokstav, även i texten om att
+konvertera en äldre Action till en skiktad Action. Denna avgränsning följer
+terminologilistan och ändrar inte API-identifierare.
+
+Deltafilen
+`blender-ui-sv-reviewed-20261108-batch-1146-keyframe-action-terminology.po`
+innehåller 23 poster (24 inklusive PO-huvudet), ligger under
+uppladdningsgränsen och väntar på lokal QA, arkivering och manuell import i
+Blender Translate.

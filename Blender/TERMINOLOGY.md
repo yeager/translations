@@ -395,7 +395,7 @@ Senast uppdaterad: 2026-11-08.
 | default settings | standardinställningar | Rubrik för sparade standardval i Inställningar. Följer den befintliga UI-termen för *Defaults*. |
 | Adaptive Subdivision | adaptiv underindelning | UI-belagd form; inte *adaptiv indelning*. |
 | Material Output | materialutdata | UI-belagd renderings- och nodterm. |
-| keyframe | nyckelbildruta | Använd i svensk förklarande text; ändra inte API-namn. |
+| keyframe / keyframes | nyckelbildruta / nyckelbildrutor | Använd i svensk UI- och förklarande text, även i sammansättningar som *nyckelbildruteanimering*. Lämna bara API-identifierare orörda; behåll inte engelska *keyframe(s)* eller den förkortade formen *nyckelram(ar)* i svensk text. |
 | breakdown (keyframe type) | mellanpose | Nyckelbildruta som beskriver rörelsen mellan två nyckelposer. |
 | moving hold (keyframe type) | rörlig hållning | Nyckelbildruta som ger liten rörelse kring en hållen pose. |
 | extreme (keyframe type) | ytterläge | Nyckelbildruta som markerar ett ytterläge i rörelsen. |
