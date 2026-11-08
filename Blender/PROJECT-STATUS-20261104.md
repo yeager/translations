@@ -9857,6 +9857,19 @@ verifierad som importerad i Blender Translate.
 1 055–1 064 i en separat importfil med 75 översättningsposter. Den ska
 importeras separat från batch 957–1 054, som redan innehåller 983 poster.
 
+## Batch 1 065 — Shrinkwrap-metoder
+
+Batch 1 065 rättar fem sammanhängande etiketter och hjälprader för
+Shrinkwrap-modifierarens metodval. Den ersätter *krympinpackningsmetod* och
+*krympinpacka* med *Shrinkwrap-metod* respektive *anpassa* och använder
+konsekvent *mesh*, *målyta* och *målhörnpunkt*. Hunspells två träffar,
+*Shrinkwrap-metod* och *meshen*, är avsiktliga Blender-facktermer. Batchen är
+lokalt granskad men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1065.po` samlar batch
+1 055–1 065 i en separat importfil med 80 översättningsposter. Den ska
+importeras separat från batch 957–1 054, som redan innehåller 983 poster.
+
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
 `svlang`, `l10n-lint` och diffkontroll. `msgfmt` gav endast förväntade
 headervarningar för deltafilerna; `svlang`, `l10n-lint` och diffkontrollen
