@@ -3172,6 +3172,19 @@ Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
 Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
 ingen Blender Translate-import är verifierad här.
 
+## Batch 1 282 — fästbas i tangentmappning
+
+Tangentmappningsvarianten för *Set Snap Base* normaliseras från *snäppbas*
+till samma 3D-transformeringsterm, *fästbas*, som övriga UI-strängar
+använder. Deltafilen `blender-ui-sv-reviewed-batch-1282-snap-base-off.po`
+innehåller en post och har SHA-256
+`498255e4e5cced7f7186d3f505bca4b9cb0038d6a50edd6659635c34b2326684`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+Gitleaks passerade. Hunspell saknar facktermen *fästbas*, som är korrekt i
+denna kontext. Batchen är lokalt färdig och redo för manuell import; ingen
+Blender Translate-import är verifierad här.
+
 ## Batch 1 281 — beskärningsstart
 
 En gemensam kamera-, vyport-, XR- och Geometry Nodes-etikett normaliseras
