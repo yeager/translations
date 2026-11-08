@@ -9041,3 +9041,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-998.po är den samlade
 manuella deltafilen för batch 957–998. Den innehåller 329
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 999 — Edit Mode och meshobjekt
+
+Batch 999 granskar sju felmeddelanden och korta verktygstexter för
+Edit Mode, hörnpunkter, formnycklar och sammanslagning av meshobjekt. Den
+skiljer konsekvent mellan *mesh*, *meshen*, *meshar*, *meshobjekt*,
+*källmeshobjekt* och *redigeringsmesh*. Batchen är lokalt granskad, men ännu
+inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-999.po är den samlade
+manuella deltafilen för batch 957–999. Den innehåller 336
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
