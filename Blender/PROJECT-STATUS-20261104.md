@@ -8763,3 +8763,20 @@ lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
 manuella deltafilen för batch 811–951. Den innehåller 944
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 977 — Mesh och Shrinkwrap
+
+Batch 977 granskar åtta Mesh-poster för normaler, maskering, Shrinkwrap,
+solidifiering och avfasning. Den använder *meshen*, *basmesh* och
+*manifold-mesh*. I Shrinkwraps förklarande text används det idiomatiska
+*anpassa meshen till målytan*, medan funktionsnamnet *Shrinkwrap* behålls.
+Batchen är lokalt granskad, men ännu inte verifierad som importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-batch-977-mesh-shrinkwrap.po` är den separata
+manuella deltafilen med de åtta rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-957-977.po` är den samlade
+manuella deltafilen för batch 957–977. Den innehåller 165
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
