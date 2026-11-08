@@ -556,7 +556,7 @@ Senast uppdaterad: 2026-11-08.
 | mix mode | blandningsläge | Anger hur en Transform Constraint kombinerar position, rotation eller skala med det ursprungliga värdet. |
 | curve slice | kurvsegment | En enskild kurva från ett curves-datablock. |
 | curve spline | kurvspline | Spline som hör till en kurva; plural *kurvsplines*. |
-| view layer | visningslager | Blender-datalager som bestämmer vilka samlingar och objekt som är synliga vid utvärdering och rendering. |
+| view layer | visningslager | Blender-datalager som bestämmer vilka samlingar och objekt som är synliga vid utvärdering och rendering. Använd inte den inkonsekventa kortformen *vylager*. |
 | dependency graph | beroendegraf | Blenders graf över datablock och deras beroenden vid utvärdering. |
 | data path | datasökväg | RNA-sökväg till en egenskap; behåll Python-identifierare och bokstavliga sökvägsuttryck oförändrade. |
 | transform space | transformationsrymd | Koordinatrymd som används för positions-, rotations- eller skaltransformering. |
