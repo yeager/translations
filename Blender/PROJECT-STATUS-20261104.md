@@ -10957,3 +10957,18 @@ Gitleaks, och är arkiverad och pushad i commit `7a33a7c2`.
 
 Importstatus: redo för manuell Weblate-import; inget importresultat är
 verifierat här.
+
+## Batch 1 263 — 3D-vy: fästning
+
+Fyra `space_view3d`-etiketter rättar den inkonsekventa termen *snäpp* till
+*fäst/fästmål*, enligt Blenders etablerade betydelse för 3D-transformering.
+Batchen ändrar inte sequencerns tidsbaserade snäppning. Deltafilen
+`blender-ui-sv-reviewed-batch-1263-view3d-snapping.po` innehåller fyra poster
+och har SHA-256
+`e9cca2c215ee12c2f4868c3b9187b5d80e51135a6a73b1c88c583ab62e748059`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
+diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
+`265a0297`; TM-ändringen är pushad i `swedish-tm`-commit `31a85f8`.
+Ingen Weblate-import är verifierad; batchen är lokalt färdig och redo för
+manuell import.
