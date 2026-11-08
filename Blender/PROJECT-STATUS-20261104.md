@@ -10611,3 +10611,15 @@ samlade manuella importfilen. Den innehåller 560 `msgid`-poster inklusive
 PO-huvudet, alltså 559 unika översättningsposter. Den är lokalt kontrollerad
 och ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
 Translate är inte verifierad här.
+
+## Batch 1 139 — Bildredigerarens provtagning
+
+Batch 1 139 rättar två kvarvarande tangentmappningsnamn i bildredigeraren.
+Det engelskpåverkade verbet *sampla* ersätts med den fastställda Blendertermen
+*provta*, även i reservmappningen.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1139.po` är den senaste
+samlade manuella importfilen. Den innehåller 562 `msgid`-poster inklusive
+PO-huvudet, alltså 561 unika översättningsposter. Den är lokalt kontrollerad
+och ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
+Translate är inte verifierad här.
