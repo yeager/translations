@@ -500,6 +500,7 @@ Senast uppdaterad: 2026-11-08.
 | clumping (hair particles) | klumpning | Samling av barnpartiklarnas hårstrån kring varandra. Använd *grad av klumpning* och *klumpningens form* för reglagen. |
 | kink (hair particles) | nyck | Periodisk förskjutning som formar barnpartiklarna som lock, våg eller fläta. Använd *nyck*, inte det missvisande *knäck*. |
 | guide index / guide map / guide mask | guideindex / guideindexkarta / guidemask | Datat som anger vilken guidekurva varje hårkurva använder. Skriv sammansättningarna ihop. |
+| Guide Group ID | guidekurvsgrupp-ID | Gruppidentifierare för Hair Nodes-guidekurvor. Skriv sammansättningen ihop och använd bindestreck före ID. |
 | main guide curve | huvudguidekurva | Den guidekurva vars index styr en interpolerad hårkurva. |
 | mesh islands (hair interpolation) | meshöar | Separata sammanhängande meshområden som hålls isär vid hårkurvsinterpolering. |
 | flare (Braid Hair Curves) | utsvängning | Den öppna delen vid flätans spets där hårstråna lossnar eller sprider ut sig. Det är inte en *flärp* eller en mekanisk fläns. |
