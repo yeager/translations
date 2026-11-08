@@ -8893,3 +8893,15 @@ Translate.
 manuella deltafilen för batch 957–986. Den innehåller 225
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 987 — Skulptering och UV-projektion
+
+Batch 987 granskar åtta strängar för trimning och UV-projektion. Den använder
+*meshen* konsekvent i skulpterings- och UV-kontext och behåller den exakta
+facktermen *boolesk operation*. Batchen är lokalt granskad, men ännu inte
+verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-957-987.po` är den samlade
+manuella deltafilen för batch 957–987. Den innehåller 233
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
