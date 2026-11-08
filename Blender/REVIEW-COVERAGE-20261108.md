@@ -6,7 +6,7 @@
 - Källfilens innehåll: 40 427 översättningsposter (rubriken undantagen).
 - Arkiverade granskningsbatcher: 793 filer med namnet
   `blender-ui-sv-reviewed-*-batch-*.po`, plus samlade deltafiler. Mätningen
-  använder unionen av samtliga 1 571 arkiverade filer med namnet
+  använder unionen av samtliga 1 573 arkiverade filer med namnet
   `blender-ui-sv-reviewed-*.po` så att en granskad post räknas även när den
   endast finns i en samlad, spårbar importfil.
 
@@ -19,10 +19,10 @@ måltexten som skapas av senare granskningar.
 
 | Mått | Poster |
 | --- | ---: |
-| Unika identiteter i alla arkiverade granskningsfiler | 10 222 |
-| Granskade identiteter som fortfarande finns i källfilen | 9 888 |
-| Granskningstäckning i den lokala källfilen | 24,46 % |
-| Återstående för full radvis täckning | 30 539 |
+| Unika identiteter i alla arkiverade granskningsfiler | 10 231 |
+| Granskade identiteter som fortfarande finns i källfilen | 9 897 |
+| Granskningstäckning i den lokala källfilen | 24,48 % |
+| Återstående för full radvis täckning | 30 530 |
 
 ## Tolkning
 
