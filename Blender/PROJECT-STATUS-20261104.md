@@ -9902,6 +9902,20 @@ i Blender Translate.
 PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
 innehåller 983 poster.
 
+## Batch 1 068 — Action-slotar
+
+Batch 1 068 rättar etiketten *Slots* i Action-systemets API-kontext. Den
+tidigare formen *Åtgärdsslotar* blandade ihop det formella Blender-namnet
+*Action* med det vanliga ordet *åtgärd*. I den här kontexten används nu
+*Action-slotar*, i linje med Action-, NLA- och animationsdokumentationen.
+Batchen är lokalt granskad men ännu inte verifierad som importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1068.po` samlar batch
+1 055–1 068 i en separat importfil med 83 översättningsposter (84 med
+PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
+innehåller 983 poster.
+
 ## Releasefärskhet
 
 Kontrollerad 8 november 2026 mot Blenders officiella releasesida:

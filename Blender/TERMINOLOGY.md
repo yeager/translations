@@ -402,7 +402,7 @@ Senast uppdaterad: 2026-11-08.
 | driver (animation) | drivrutin | Funktions- eller uttrycksbaserad styrning av ett animerat egenskapsvärde. Använd *drivrutinstyp*, *drivrutinsvariabel*, *drivrutinsmål* och *drivrutins-F-kurva*. Skilj via sammanhang från enhetens drivrutin, men använd samma svenska huvudterm. |
 | action | åtgärd | Behåll *åtgärd* när ordet är ett vanligt substantiv eller verb; skriv *Action* när det betecknar Blenders datatyp. |
 | slot | slot | Etablerat i den aktuella Blender-dokumentationen och UI-kontexten. Böj som *en slot*, *slotten*, *slotar* och *slotarnas*. |
-| Action slot | Action-slot | Slot som väljer den delmängd av en Action som en NLA-remsa eller Action Constraint använder. Använd *Action-slot*, *Action-slotten* och *Action-slotar* i synlig UI-text; behåll `action_slot` i API-identifierare. |
+| Action slot | Action-slot | Slot som väljer den delmängd av en Action som en NLA-remsa eller Action Constraint använder. Använd *Action-slot*, *Action-slotten* och *Action-slotar* i synlig UI-text, även när etiketten bara är *Slots*; behåll `action_slot` i API-identifierare. |
 | slotted Action | Action med slotar | Äldre API-hjälptext som avser en Action med Action Slots. Behåll den tekniska betydelsen och skriv inte engelska *slotted actions* i svensk löptext. |
 | transform | transformation | Avser objektets position, rotation och skala i Constraint- och Action-kontext. Undvik den bredare formen *omvandling* i dessa etiketter. |
 | Damped Track / Damped Track Constraint | Dämpad spårning / Dämpad spårning-begränsning | Begränsning som riktar en lokal axel mot målet med kortast möjliga rotation. Det är inte en järnvägsspårvidd. |
