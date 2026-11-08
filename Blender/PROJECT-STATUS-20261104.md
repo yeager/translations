@@ -10149,3 +10149,15 @@ Den 8 november 2026 visade användarens importresultat 351 bearbetade poster,
 39 överhoppade och 312 uppdaterade. Skärmbilden anger inte entydigt vilken
 lokal importfil som användes, så den kan inte användas som bevis för att den
 senaste samlingsfilen 1 055–1 093 är importerad.
+
+## Batch 1 094 — Simple Deform-modifierarens koordinatrum
+
+Batch 1 094 rättar *modifier space* i Simple Deform från den otydliga
+sammanpressade formen *modifierarutrymmet* till *modifierarens koordinatrum*.
+Det är modifierarens lokala koordinatsystem, inte ett allmänt arbetsutrymme.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1094.po` samlar batch
+1 055–1 094 i en separat importfil med 180 översättningsposter (181 med
+PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
+`svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
+Den är lokalt validerad och väntar på manuell import i Blender Translate.
