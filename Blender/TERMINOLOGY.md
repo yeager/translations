@@ -342,6 +342,7 @@ Senast uppdaterad: 2026-11-08.
 | dash / gap (Grease Pencil modifier) | streck / mellanrum | Beståndsdelar i Grease Pencils streckmodifierarsegment. |
 | onion skin | lökskal | Den visade tidigare eller senare ritningen. Funktionen heter *lökskalning*. |
 | override | åsidosättning / överskrivning | Kontextstyrt. Generella UI-etiketter använder *åsidosättning*. *Library Override* och dess API- och operatornamn är *biblioteksåsidosättning*; använd inte den äldre formen *biblioteksöverskrivning* för denna Blender-funktion. Andra betydelser av *override* måste fortfarande granskas i sin kontext. |
+| Override Constraint | Åsidosatt begränsning | Statusetikett för RNA-egenskapen `Constraint.is_override_data`. Den beskriver att begränsningen kommer från en åsidosättning; den är inte en uppmaning att utföra åtgärden. |
 
 ## Mesh och animering
 

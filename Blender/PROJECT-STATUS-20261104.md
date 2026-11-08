@@ -1,6 +1,12 @@
 # Blender: projektstatus 5 november 2026
 
-Senaste lokala arbete: 7 november 2026.
+Senaste lokala arbete: 8 november 2026.
+
+Batch 1082 granskar två etiketter i Constraint-egenskapernas RNA-kontext.
+Den gör den booleska statusetiketten *Override Constraint* till *Åsidosatt
+begränsning*, inte den felaktiga imperativformen *Åsidosätt begränsning*, och
+gör *Constraint name* idiomatiskt till *Begränsningens namn*. Deltafilen är
+lokalt klar och väntar på manuell import i Blender Translate.
 
 Projektets åldersregel är verifierad den 7 november 2026: Blender 5.2.3 LTS
 släpptes 22 oktober 2026 och Blender 5.3 var i release-candidate-fas. Projektet
