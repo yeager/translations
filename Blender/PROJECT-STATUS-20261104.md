@@ -9694,6 +9694,19 @@ manuella deltafilen för batch 957–1 049. Den innehåller 890
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
 
+## Batch 1 050 — Actioner och NLA-remsor
+
+Batch 1 050 granskar tolv UI- och RNA-texter för Actions, Action-slotar och
+NLA-remsor. Den formella Blender-datatypen normaliseras till *Action*, med
+svenska böjningar som *Actionen* och *Actioner*. En *slot* i denna datamodell
+skrivs konsekvent *Action-slot*. Batchen är lokalt granskad, men ännu inte
+verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1050.po är den samlade
+manuella deltafilen för batch 957–1 050. Den innehåller 891
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
+
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
 `svlang`, `l10n-lint`, Hunspell och diffkontroll. `msgfmt` och `svlang`
 passerade. De två kvarvarande `l10n-lint`-varningarna är falska positiva: den

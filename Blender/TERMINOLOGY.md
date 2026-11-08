@@ -841,6 +841,8 @@ Senast uppdaterad: 2026-11-07.
 | bone collection | bensamling | Samling som organiserar riggens ben. |
 | Action | Action | Blenderdatablock som lagrar animeringsdata; behåll *Action* i API- och UI-kontexten. |
 | Action slot | Action-slot | Identifierar vilken uppsättning animeringskanaler i en Action som gäller för ett datablock. |
+| Action keyframe | Action-nyckelbildruta | Nyckelbildruta som hör till en formell Action. |
+| Action storage | Action-lagring | Tillfällig eller beständig lagring av en Action i animationsdatatypen. |
 | layered Action | skiktad Action | Nyare Action-struktur med lager och Action-slotar. |
 | legacy Action | äldre Action | Äldre Action-struktur utan lager och Action-slotar. |
 | animation channel bag | animationskanalbehållare | API-objekt som samlar F-kurvor och grupper för en Action-slot. |
