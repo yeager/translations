@@ -151,6 +151,7 @@ Senast uppdaterad: 2026-11-08.
 | Kinematic Constraint | kinematisk begränsning | IK-begränsningens allmänna typ. Använd *kedjelängd*, *lösningsiterationer*, *polmål* och *polvinkel* i dess riggningsinställningar. |
 | Swing / Twist | svängning / vridning | Rotationens svängnings- och vridningsdel i Quaternion- och constraint-kontext. |
 | envelope (armature) | omslutning | Armaturens volym runt ett ben som kan användas vid viktning. |
+| Bone Envelope | benomslutning | Armaturmodifierarens benvolym för deformering. Använd pluralformen *benomslutningar* i UI-text. |
 | Action | Action | Blenders formella datatyp för animeringsdata. Behåll namnet i UI och API-saktext. |
 | Action (böjning) | Actionen / Actioner / Actionerna | Böj det formella datatypsnamnet som ett svenskt utrumord i löpande UI-text. Ersätt inte dessa former med *åtgärden* eller *åtgärder* när Blender-datatypen avses. |
 | Action channel / Action library | Action-kanal / Action-bibliotek | Animeringskanal respektive samling av Blenders Action-datatyp. Använd bindestreck för läsbar teknisk sammansättning. |
@@ -565,6 +566,7 @@ Senast uppdaterad: 2026-11-08.
 | alpha blending / alpha test | alfablandning / alfatest | Bildtomobjektens visningsmetoder. Lämna det korta UI-namnet *Alpha* som *alfa*. |
 | simulation cache | simuleringscache | Cache för bildrutor vid uppspelning av simuleringsnoder. |
 | Pose Mode | poseringsläge | Arbetsläget för att posera en armatur. Använd även böjningen *i poseringsläget*, inte den inkonsekventa formen *poseläge*. |
+| Pose Bone | posben | Ben i en armatur i poseringsläge. Skriv ihop även i sammansättningar, exempelvis *posbensfärg*. |
 | dynamic topology sculpting | skulptering med dynamisk topologi | Skulpteringsläge som ändrar meshtopologin dynamiskt. |
 | child particle | barnpartikel | Partikel som härleds från en föräldrapartikel. |
 | distance attenuation | avståndsdämpning | Scenens ljudmodell som minskar ljudstyrkan med avståndet. |
