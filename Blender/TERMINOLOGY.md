@@ -553,6 +553,7 @@ Senast uppdaterad: 2026-11-08.
 | vertex color / normal | hörnpunktsfärg / hörnpunktsnormal | Attribut på en mesh-hörnpunkt. |
 | node tree | nodträd | Blenders sammanlänkade nodstruktur. Sammansättningar är exempelvis *geometrinodträd*, *kompositionsnodträd* och *shadernodträd*. |
 | Node Editor | nodredigerare | UI-namn för redigeraren med nodträd. RNA-beskrivningen *Space Node Editor* använder formen *nodredigerarens område*. |
+| Frame Node | ramnod | Nod som samlar andra noder visuellt. Skilj från *bildruta* i animations- och sekvenskontext. |
 | Shader Editor | shaderredigerare | UI-namn för nodredigeraren för shaders. Behåll facktermen *shader* och skriv sammansättningen ihop. |
 | Texture Node Editor | texturnodredigerare | UI-namn för nodredigeraren för texturer. |
 | compositor (process) | komposition | Blender-funktionen för bildkomposition; *Compositor Node Tree* blir *kompositionsnodträd*. |
