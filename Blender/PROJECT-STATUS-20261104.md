@@ -9167,3 +9167,15 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1008.po är den samlade
 manuella deltafilen för batch 957–1 008. Den innehåller 427
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 009 — meshsymmetri och meshkanter
+
+Batch 1 009 granskar fem UI-texter för vågor, öppna meshkanter och
+meshsymmetri längs axlarna X, Y och Z. Den följer den etablerade
+projektspecifika terminologin *meshsymmetri* och *meshkanter*. Batchen är
+lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1009.po är den samlade
+manuella deltafilen för batch 957–1 009. Den innehåller 432
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
