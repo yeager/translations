@@ -8333,3 +8333,19 @@ importerad i Blender Translate.
 manuella deltafilen för batch 811–934. Den innehåller 802
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 935 — resurstermer i resursbläddraren
+
+Batch 935 normaliserar tolv synliga etiketter och hjälprader för
+resursbläddraren. I den här konkreta Blender-kontexten motsvarar *asset*
+**resurs**, vilket ger bland annat *resursdata*, *resursrepresentation*,
+*resurstyper* och *resursernas förhandsvisningsminiatyrer*. Batchen är
+lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-935-asset-browser-resource-terms.po`
+är den separata manuella deltafilen med de tolv rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-935.po` är den samlade
+manuella deltafilen för batch 811–935. Den innehåller 814
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
