@@ -87,14 +87,16 @@ diffkontroll. Den är lokalt klar men ännu inte importerad i Blender Translate.
 Batch 628 granskar sex strängar för mesh- och nodåtgärder, tilläggskataloger,
 USD-import och den utfällbara panelen för verktygsinställningar. Den bevarar
 namn som BVH, USD, Xform och UsdGeomGprims, men rättar avslutande
-interpunktion och ersätter det felaktiga *poppupppanel* med *utfällbar panel*.
+interpunktion och ersätter den felaktiga sammanskrivningen av *popup* och
+*panel* med *utfällbar panel*.
 `l10n-lint` gav inga fel; dess enda informationspost är en falsk
 valutaträff på förkortningen USD. `svlang` tolkar imperativ och tekniska namn
 som möjliga avvikelser, men ingen faktisk svensk skrivavvikelse hittades.
 Deltafilen är lokalt klar och ännu inte importerad i Blender Translate.
 
 Batch 629 rättar XR-teleporteringens *Hit Color* till *Färg vid träff*.
-Ändringen undviker den tidigare tredubbla `f`-följden i *Träfffärg* och följer
+Ändringen undviker den tidigare tredubbla `f`-följden i den sammanskrivna
+träffärgsetiketten och följer
 den redan använda parallellformen *Färg vid miss*. Deltafilen är lokalt klar
 och ännu inte importerad i Blender Translate.
 
@@ -105,8 +107,10 @@ inte de spårbara delbatcherna i arkivet, men är den fil som ska användas vid
 en enda manuell import.
 
 Batch 630 granskar tilläggens fjärranslutna resursbibliotek och hjälpraden
-för *Save Copy*. Den ersätter den svårlästa formen *fjärrresursbibliotek*,
-som innehåller tre `r` i följd, med *fjärranslutet resursbibliotek* samt
+för *Save Copy*. Den ersätter den svårlästa sammanskrivningen som uppstår när
+fjärransluten resurs kombineras med bibliotek, och som innehåller tre `r` i
+följd, med *fjärranslutet
+resursbibliotek* samt
 rättar den falska vännen *aktuella* i betydelsen *actual* till *faktiska*.
 Deltafilen är lokalt klar och ännu inte importerad i Blender Translate.
 
@@ -124,13 +128,15 @@ kontrollerad men ännu inte importerad i Blender Translate.
 
 Batch 632 granskar *Clip Planes* i 3D-vyn och Grease Pencil Line Art. Den
 använder den etablerade grafiktermen *klippningsplan* i stället för
-*klippplan*, som får tre `p` i följd, och skriver ut relationen mellan det
+den sammanskrivna formen av *klipp* och *plan*, som får tre `p` i följd, och
+skriver ut relationen mellan det
 nära och det fjärran klippningsplanet i hjälptexten. Deltafilen är lokalt
 kontrollerad men ännu inte importerad i Blender Translate.
 
 Batch 633 granskar Asset Browsers meddelande om nätåtkomst. Den ersätter
 *resurser online* med den idiomatiska formen *resurser på nätet* och
-*Fjärrresurser* med den projektspecifika termen *Fjärranslutna resurser*.
+den sammanskrivna formen av *fjärr* och *resurser* med den projektspecifika
+termen *Fjärranslutna resurser*.
 Deltafilen är lokalt kontrollerad men ännu inte importerad i Blender
 Translate.
 
@@ -193,7 +199,8 @@ och gör de additiva, subtraktiva, multiplikativa, anpassade och okända
 kontrollerad men ännu inte importerad i Blender Translate.
 
 Batch 644 granskar Volym-visningens *wireframe mode*. Den ersätter
-*trådmodellläge*, som har tre `l` i följd, med Blenders etablerade term
+den sammanskrivna formen av *trådmodell* och *läge*, som har tre `l` i följd,
+med Blenders etablerade term
 *trådramsläge*. Den virtuellt sammanslagna UI-katalogen innehåller därefter
 inga återstående strängar med tre identiska konsonanter i följd. Deltafilen är
 lokalt kontrollerad men ännu inte importerad i Blender Translate.
@@ -205,8 +212,9 @@ Deltafilen är lokalt kontrollerad men ännu inte importerad i Blender
 Translate.
 
 Batch 646 granskar Asset Browser-inställningen för Essentials. Den använder
-*fjärranslutna resurser* i stället för den svårlästa formen *fjärrresurser*
-och det svenska UI-namnet *Grundresurser* för Essentials-resursbiblioteket.
+*fjärranslutna resurser* i stället för den svårlästa sammanskrivningen av
+*fjärr* och *resurser*, och det svenska UI-namnet *Grundresurser* för
+Essentials-resursbiblioteket.
 Deltafilen är lokalt kontrollerad men ännu inte importerad i Blender
 Translate.
 
@@ -1712,8 +1720,7 @@ den importen: **1 bearbetad, 1 uppdaterad, 0 hoppade över och 0 saknades**.
 
 Två efterföljande UI-deltan justerade etiketten för resursbläddrarläget och
 normaliserade *remote asset library* utan den felaktiga trippelkonsonanten i
-den sammanskrivna formen *fjärrresursbibliotek*. Blender Translate bekräftade
-varje import:
+den tidigare sammanskrivningen. Blender Translate bekräftade varje import:
 `blender-ui-sv-reviewed-20261105-03.po` gav **1 bearbetad, 1 uppdaterad, 0
 hoppade över och 0 saknades**, och
 `blender-ui-sv-reviewed-20261105-04.po` gav **2 bearbetade, 2 uppdaterade, 0
@@ -1736,9 +1743,9 @@ hade tappat fog-s: `noduttaggränssnitt` blev `noduttagsgränssnitt`.
 bearbetade, 6 uppdaterade, 0 hoppade över och 0 saknades**.
 
 Batch 08 kompletterade de återstående UI-texterna för *remote asset library*
-med `fjärranslutet resursbibliotek`, så att varken trippelkonsonanten i
-den sammanskrivna formen *fjärrresursbibliotek* eller den ofullständiga formen
-*fjärrbibliotek* blir kvar i denna kontext.
+med `fjärranslutet resursbibliotek`, så att varken trippelkonsonanten i den
+tidigare sammanskrivningen eller den ofullständiga formen *fjärrbibliotek*
+blir kvar i denna kontext.
 `blender-ui-sv-reviewed-20261105-08.po` importerades
 med resultatet **3 bearbetade, 3 uppdaterade, 0 hoppade över och 0 saknades**.
 
@@ -1793,9 +1800,8 @@ hoppade över och 0 saknades**.
 
 Batch 16 normaliserade två hjälptester för nätåtkomliga resurser. De använder
 nu `fjärranslutna resurser`, i linje med komponentens term
-`fjärranslutet resursbibliotek`, i stället för den svårlästa formen
-den sammanskrivna formen *fjärrresurser* med tre r i följd. Blender Translate
-bekräftade
+`fjärranslutet resursbibliotek`, i stället för den svårlästa sammanskrivningen
+av *fjärr* och *resurser* med tre r i följd. Blender Translate bekräftade
 `blender-ui-sv-reviewed-20261105-16.po`: **2 bearbetade, 2 uppdaterade, 0
 hoppade över och 0 saknades**.
 
@@ -1997,7 +2003,7 @@ uppdaterade, 8 hoppade över och 0 saknade**. De fyra uppdateringarna omfattar
 terminologin för hörnpunktsgrupper och underordnade objekt.
 
 Batch 39 granskar skalutjämning och de närliggande texterna för bensamlingar.
-Den ersätter engelsk etiketttext i hjälptexten med de synliga svenska reglagen
+Den ersätter engelsk etikett-text i hjälptexten med de synliga svenska reglagen
 `Skala in/ut` och använder konsekvent `datablock` samt `riggskelett`. Deltafilen
 och termlistan har passerat `msgfmt`, l10n-lint, svlang, Hunspell, diffkontroll
 och Gitleaks. Blender Translate bekräftade **4 bearbetade, 1 uppdaterad, 3
