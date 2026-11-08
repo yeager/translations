@@ -38,6 +38,7 @@ Senast uppdaterad: 2026-11-08.
 | normal space | normalrymd | Val av koordinatrymd för normaldata vid bakning. De konkreta alternativen skrivs *tangentrymd*, *objektrymd* och *världsrymd*. |
 | index space | indexrymd | Koordinatrymd för ett rutnäts diskreta index. Följ samma UI-mönster som *objektrymd* och *världsrymd*; använd inte det mer vardagliga *indexrum*. |
 | grid index space | rutnätsindexrymd | Rutnätsvolymens indexbaserade koordinatrymd. Skriv sammansatt och använd inte *rutnätsindexutrymme*. |
+| local space / global space | lokal koordinatrymd / global koordinatrymd | Transformations- och geometritermer för objektens eller instansernas referenssystem. Använd inte de tvetydiga formerna *lokalt rum*, *global rymd* eller *globalt utrymme*. |
 | screen space | skärmrymd | Koordinatrymd baserad på den aktuella vyportens skärmplan. |
 | onion skinning | lökskalning | Animeringsvisning med spökbilder från närliggande bildrutor. Undvik bokstavliga former som *avskalning av lök*. |
 | onion frame / ghost frame | lökskalsbildruta | Bildruta som visas före eller efter den aktuella bildrutan vid lökskalning. Undvik den missvisande formen *spökram*. |
