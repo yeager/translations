@@ -8880,3 +8880,16 @@ verifierad som importerad i Blender Translate.
 manuella deltafilen för batch 957–985. Den innehåller 215
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 986 — Skulpteringsverktyg för mesh
+
+Batch 986 granskar tio verktygsbeskrivningar för filter, maskextraktion,
+detaljprovtagning och trimning. Den använder *meshen*, *meshyta*,
+*meshobjekt* och *meshdetalj* samt den etablerade termen *boolesk operation*.
+Batchen är lokalt granskad, men ännu inte verifierad som importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-957-986.po` är den samlade
+manuella deltafilen för batch 957–986. Den innehåller 225
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
