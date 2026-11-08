@@ -797,6 +797,7 @@ Senast uppdaterad: 2026-11-08.
 | root prim | rotprim | Avser roten i USD-hierarkin. Får inte normaliseras till *standardprim*. |
 | default prim | standardprim | USD:s namngivna standardprim, inte nödvändigtvis hierarkins rot. |
 | Point Cloud | punktmoln | Följer Blender-UI:ts etablerade term. |
+| Curves object | kurvobjekt | Blender-objektdatyp för moderna kurvor och hårkurvor. Skriv inte den felaktiga sammansättningen *kurvoobjekt*. |
 | String Property | strängegenskap | Använd för Blenders anpassade egenskaper med strängvärde. Kodnamn och nycklar behålls oförändrade. |
 | accessibility label | tillgänglighetsetikett | Gäller USD-tillgänglighetsmetadata. |
 | USD stage | USD-scen | Kontextbundet i exporterad/importerad scendokumentation; översätt inte automatiskt i API- eller filformatsnamn. |
