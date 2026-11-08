@@ -887,6 +887,7 @@ Senast uppdaterad: 2026-11-08.
 
 | node socket | noduttag | Anslutningspunkt för in- eller utdata i en Blendernod. |
 | node socket interface | noduttagsgränssnitt | Deklarationen som styr noduttag i en nodgrupp. |
+| mute (node) | stäng av | Noden förbikopplas vid utvärdering; i UI-verb som *Toggle Node Mute* används *växla avstängning*. Använd inte engelska *mute* eller ljudbetydelsen *tysta*. |
 | node tree interface item | nodträdsgränssnittselement | Gemensam term för ett uttag eller en panel i nodträdets gränssnitt. |
 | node tree path | nodträdssökväg | Sökväg genom den redigerade nodträdshierarkin. |
 | input/output | indata/utdata | Använd i teknisk nodkontext; undvik engelska *input/output*. |
