@@ -14,6 +14,17 @@ topologitermen *manifold* i verktygets reservetikett och normalbaserade
 extrudering. Deltafilen är lokalt klar och väntar på manuell import i Blender
 Translate.
 
+## Batch 1 274 — viktmålning
+
+Batch 1 274 rättar två felaktigt särskrivna förekomster av *Weight Paint* i
+operator- och tangentmappningskontext till den etablerade UI-termen
+*Viktmålning*. Den vanliga lägesetiketten var redan korrekt. Deltafilen
+`blender-ui-sv-reviewed-batch-1274-weight-paint-contexts.po` innehåller två
+poster och har SHA-256
+`0d8fc0a5d099f0642e4ed810293a167060f30792a17de753e4f9f62fac4bf7aa`.
+Den är lokalt validerad men ännu inte verifierad som importerad i Blender
+Translate.
+
 ## Batch 1 273 — fysik- och animeringstermer
 
 Batch 1 273 normaliserar tre återkommande Blender-termer enligt den
