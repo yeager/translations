@@ -11011,6 +11011,19 @@ Den är lokalt validerad men inte verifierad som importerad i Blender
 Translate. Det historiska Blender-segmentet i `swedish-tm` normaliserades
 samtidigt från *Transformering* till *Transformation* i commit `cb8f457`.
 
+## Batch 1 269 — Voronoi Crackle
+
+Batch 1 269 granskar beskrivningen av den äldre brusbasen *Voronoi Crackle*.
+Den överflödiga upprepningen av *Voronoi* ersätts med den kortare och tydliga
+formen *Brusalgoritm – spräckande Voronoi: tessellering med skarpa kanter*.
+Tekniknamnet *Voronoi* bevaras. Deltafilen
+`blender-ui-sv-reviewed-batch-1269-voronoi-crackle.po` innehåller en post och
+har SHA-256
+`53865b87a47c2eed2dcb9b3729aaf64ba336ddc8a208637c169ccd0d60f513a2`.
+Den är lokalt validerad men ännu inte verifierad som importerad i Blender
+Translate. Motsvarande Blender-segment i `swedish-tm` uppdaterades i commit
+`e18096a`.
+
 Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
 diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 `a92ec6bd`; TM-ändringen är pushad i `swedish-tm`-commit `1ef888a`.
