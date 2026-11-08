@@ -282,6 +282,12 @@ skulpteringsdetaljer och penselresurser. Den ersätter den äldre formen
 batch 957–962 innehåller 44 poster och är lokalt kontrollerad men ännu inte
 importerad i Blender Translate.
 
+Batch 963 granskar två UI-poster för Blenders meshtyp och meshobjekt. Den
+behåller typnamnet *Mesh* för ID-kontexten och använder sammansättningen
+*meshobjekt* i redigeringsfelmeddelandet. Samlingsfilen för batch 957–963
+innehåller 46 poster och är lokalt kontrollerad men ännu inte importerad i
+Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
