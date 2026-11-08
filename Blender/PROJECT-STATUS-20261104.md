@@ -10776,3 +10776,18 @@ Deltafilen
 innehåller 23 poster (24 inklusive PO-huvudet), ligger under
 uppladdningsgränsen och väntar på lokal QA, arkivering och manuell import i
 Blender Translate.
+
+## Batch 1 147 — Visningslager
+
+Batch 1 147 normaliserar 26 oarkiverade UI- och hjälptexter för Blenders
+*View Layer*. De använder konsekvent *visningslager* med korrekta böjningar i
+Outlinern, sceninställningarna, renderingen, nodredigeraren och cacheläsning.
+Även närliggande imperativ och samlingsnamn har rättats, till exempel *Rensa
+maskeringen* och *Maskera samlingen*. Batchen förtydligar den redan belagda
+terminologiposten men ändrar inte API-identifieraren `ViewLayer`.
+
+Deltafilen
+`blender-ui-sv-reviewed-20261108-batch-1147-view-layer-terminology.po`
+innehåller 26 poster (27 inklusive PO-huvudet), har passerat `msgfmt`,
+l10n-lint, svlang, Hunspell-kandidatsökning och diffkontroll och väntar på
+arkivering samt manuell import i Blender Translate.
