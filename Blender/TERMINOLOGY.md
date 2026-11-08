@@ -143,6 +143,7 @@ Senast uppdaterad: 2026-11-08.
 | transform / transformation | transformera / transformation | Använd *transformation* för Blenders egenskap, begränsning och kanaler. Blanda inte med den bredare betydelsen *omvandling*. |
 | offset | förskjutning | Relativ rotations-, positions- eller skaländring i en begränsning. |
 | pivot | vridpunkt | Punkt kring vilken en constraint utför en rotation. Använd *vridpunkt*, inte den engelska formen *pivotpunkt* eller det tvetydiga *svängpunkt*. |
+| transform orientation | transformationsorientering | Orientering som styr vilka axlar ett transformeringsverktyg använder. Skriv konsekvent *transformationsorientering*, inte *transformeringsorientering*. |
 | face cull | ytgallring | Utesluter projektion mot en yta beroende på normalriktning. Funktionen raderar inte geometri. |
 | IK stretching | IK-sträckning | Tillåter en IK-kedja att ändra benens längd för att nå målet. |
 | Spline IK scale modes | Y-skalningsläge / Benets ursprungliga skala / Invers skala / Volymbevarande | Spline IK:s längdskalning följer kurvan längs Y-axeln, medan X- och Z-skalningen bestäms separat. *Anpassa till kurva* skalar benen över hela kurvlängden. |
