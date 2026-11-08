@@ -9116,3 +9116,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1004.po är den samlade
 manuella deltafilen för batch 957–1 004. Den innehåller 373
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 005 — glTF- och FBX-meshexport
+
+Batch 1 005 granskar tolv texter för glTF- och FBX-import/export, komprimering
+och materialgrupper. *Mesh*, *meshar*, *meshen* och *meshobjekt* behålls som
+Blender- och filformatstermer; Draco, Meshopt, gltfpack och POINTS lämnas
+oförändrade som produkt- och formatnamn. Batchen är lokalt granskad, men ännu
+inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1005.po är den samlade
+manuella deltafilen för batch 957–1 005. Den innehåller 385
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
