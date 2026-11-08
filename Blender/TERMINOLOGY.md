@@ -892,6 +892,7 @@ Senast uppdaterad: 2026-11-08.
 | editor space (RNA) | område | Blenders interna `Space…`-typer beskriver ett redigerarområde, inte ett tredimensionellt rum. |
 | editor space data (RNA) | områdesdata | Data för ett specifikt redigerarområde, exempelvis Outliner eller 3D-vyn. |
 | Scene linear | scenlinjär | Färghanteringsvärden i arbetsfärgrymden; skriv sammansatt, inte *Scene-linjär*. |
+| grid | rutnät | Simulerings-, volym- och partikelrutnät. Undvik det tvetydiga *nät*; undantaget är den synliga Mesh-menyposten *Grid* → *Nät*. |
 
 ## Kontrollerade UI-formuleringar
 
