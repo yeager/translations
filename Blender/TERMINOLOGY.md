@@ -834,7 +834,7 @@ Senast uppdaterad: 2026-11-08.
 | rigid body | styv kropp | Fysiksimuleringens kroppstyp i Blender. |
 | integrator | integrator | Renderingsalgoritm i Cycles; använd svensk böjning i sammansättningar. |
 | Geometry Node Group | geometrinodgrupp | Nodgrupp som utvärderar geometri i Blender. |
-| Geometry Node Modifier | geometrinodmodifierare | Modifierare som utvärderar en geometrinodgrupp. |
+| Geometry Node Modifier | geometrinodmodifierare | Modifierare som utvärderar en geometrinodgrupp. Skriv *geometrinodmodifierarens gränssnitt*, inte den generiska formen *modifieringsgränssnittet för geometrinoder*. |
 | keyframe | nyckelbildruta | En bildruta där ett animerat värde uttryckligen anges. |
 | F-Curve | F-kurva | Kurvan som beskriver ett animerat värde över tid. |
 | fade (sequencer) | uttoning | Gradvis övergång i bild eller ljud mellan remsor. |

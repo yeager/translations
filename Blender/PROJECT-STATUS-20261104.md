@@ -9942,6 +9942,20 @@ importerad i Blender Translate.
 PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
 innehåller 983 poster.
 
+## Batch 1 071 — geometrinodmodifierarens gränssnitt
+
+Batch 1 071 normaliserar hjälpraden för uttag i Geometry Nodes Modifier. Den
+använder den etablerade sammansättningen *geometrinodmodifierare* och
+formuleringen *geometrinodmodifierarens gränssnitt* i stället för den
+mindre precisa omskrivningen *modifieringsgränssnittet för geometrinoder*.
+Batchen är lokalt granskad men ännu inte verifierad som importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1071.po` samlar batch
+1 055–1 071 i en separat importfil med 93 översättningsposter (94 med
+PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
+innehåller 983 poster.
+
 ## Releasefärskhet
 
 Kontrollerad 8 november 2026 mot Blenders officiella releasesida:
