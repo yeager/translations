@@ -657,6 +657,7 @@ Senast uppdaterad: 2026-11-08.
 | bone collection | bensamling | Blender-samling för ben; skriv ihop i synlig UI-text. |
 | Envelope deform | kuvertdeformering | Deformeringsmetoden som använder benens kuvertvolymer; använd i Bens/Armaturens egenskaper. |
 | Curve Deform / Lattice Deform | kurvdeformering / gitterdeformering | Föräldrarelationslägen som deformerar barnobjekt med en kurva respektive ett gitter. Skriv de svenska UI-namnen som sammansättningar. |
+| Curve Modifier | kurvdeformeringsmodifierare | Modifierare som deformerar ett objekt längs en kurva. Skilj från föräldrarelationsläget *kurvdeformering*. |
 | armature-relative | relativt riggskelett | Position eller orientering uttryckt i armaturens lokala koordinatsystem. |
 | Armature (WindowManager) | armatur | Blenders skelettobjekt i tangentmappningar och verktygsnamn. Använd inte *armering*, som är en byggteknisk term. |
 | inherit scale | ärv skala | Armaturinställning som styr hur ett underordnat ben tar emot skalning från ett överordnat ben. |
