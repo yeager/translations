@@ -10360,3 +10360,17 @@ PO-huvudet). Den är lokalt validerad med `msgfmt`, `l10n-lint`, `svlang
 consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks, arkiverad
 och pushad till `yeager/translations`. Manuell import i Blender Translate är
 inte verifierad här.
+
+## Batch 1 122 — bild- och filmklippsomfång
+
+Batch 1 122 granskar bild- och filmklippsredigerarnas statistiska *Scopes*.
+UI-termen normaliseras till *omfång* och *omfångspanel*, med histogram,
+vågform och vektorskop som konkret kontext. GPU-felsökningens kodterm
+`scope name` berörs inte.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1122.po` är den
+senaste samlade importfilen med 464 unika översättningsposter (465 med
+PO-huvudet). Den har passerat `msgfmt`, `l10n-lint`, `svlang consistency`,
+riktad Hunspell-kontroll, diffkontroll och Gitleaks, och är arkiverad samt
+pushad till `yeager/translations`. Manuell import i Blender Translate är inte
+verifierad här.
