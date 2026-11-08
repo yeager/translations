@@ -9487,3 +9487,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1033.po är den samlade
 manuella deltafilen för batch 957–1 033. Den innehåller 706
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 034 — fler verktyg för meshredigering
+
+Batch 1 034 granskar sexton ytterligare verktygsnamn för meshredigering,
+med motsvarande reservverktyg. Det omfattar kniv, halvering, Poly Build,
+snurrning, utjämning, slumpning samt kant- och hörnpunktsglidning.
+Datatypen skrivs konsekvent som *mesh*. Batchen är lokalt granskad, men
+ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1034.po är den samlade
+manuella deltafilen för batch 957–1 034. Den innehåller 722
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
