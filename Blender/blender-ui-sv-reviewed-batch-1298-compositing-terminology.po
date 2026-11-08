@@ -1,0 +1,300 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Beta (b'9a146ef5783c')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 10:58+0000\n"
+"PO-Revision-Date: 2026-11-08 08:03+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. :src: bpy.types.Area.type:'NODE_EDITOR'
+#. :src: bpy.types.AssetShelf.bl_space_type:'NODE_EDITOR'
+#. :src: bpy.types.GizmoGroup.bl_space_type:'NODE_EDITOR'
+#. :src: bpy.types.KeyMap.space_type:'NODE_EDITOR'
+#. :src: bpy.types.SCREEN_OT_space_type_set_or_cycle.space_type:'NODE_EDITOR'
+#. :src: bpy.types.Space.type:'NODE_EDITOR'
+#. :src: bpy.types.WorkSpaceTool.space_type:'NODE_EDITOR'
+msgid "Editor for node-based shading and compositing tools"
+msgstr "Nodredigerare för nodbaserade verktyg för skuggning och kompositering"
+
+#. :src: bpy.types.BlendFileColorspace.working_space
+msgid ""
+"Color space used for all scene linear colors in this file, and for "
+"compositing, shader and geometry nodes processing"
+msgstr ""
+"Färgrymd för alla linjära scenfärger i filen samt för bearbetning i "
+"kompositerings-, skuggnings- och geometrinoder"
+
+#. :src: bpy.types.Image.source:'VIEWER'
+msgid "Compositing node viewer"
+msgstr "Visningsnod för kompositering"
+
+#. :src: bpy.types.Image.type:'COMPOSITING'
+#. :src: bpy.types.NodeTree.type:'COMPOSITING'
+#. :src: bpy.types.STRIP_PT_adjust_comp
+#. :src: bpy.types.RenderSettings.use_compositing
+#. :src: Asset catalog from blender_assets.cats.txt
+#: source/blender/render/intern/pipeline.cc:1368
+msgid "Compositing"
+msgstr "Kompositering"
+
+#. :src: bpy.types.Mask
+msgid "Mask data-block defining mask for compositing"
+msgstr "Maskdatablock som definierar en mask för bildkompositering"
+
+#. :src: bpy.types.NodeTree
+msgid ""
+"Node tree consisting of linked nodes used for shading, textures and "
+"compositing"
+msgstr ""
+"Nodträd med sammanlänkade noder för skuggning, texturer och kompositering"
+
+#. :src: bpy.types.NodeTree.type:'COMPOSITING'
+msgid "Compositing nodes"
+msgstr "Noder för kompositering"
+
+#. :src: bpy.types.CompositorNodeTree
+msgid "Node tree consisting of linked nodes used for compositing"
+msgstr "Nodträd med länkade noder som används för kompositering"
+
+#. :src: bpy.types.Object.is_holdout
+msgid ""
+"Render objects as a holdout or matte, creating a hole in the image with zero "
+"alpha, to fill out in compositing with real footage or another render"
+msgstr ""
+"Rendera objekt som en matta, vilket skapar ett hål med noll alfa i bilden "
+"som kan fyllas med verkligt bildmaterial eller en annan rendering i "
+"kompositören"
+
+#. :src: bpy.types.Object.is_shadow_catcher
+msgid ""
+"Only render shadows and reflections on this object, for compositing renders "
+"into real footage. Objects with this setting are considered to already exist "
+"in the footage, objects without it are synthetic objects being composited "
+"into it."
+msgstr ""
+"Rendera endast skuggor och reflektioner på detta objekt för att kompositera "
+"renderingar med verkligt bildmaterial. Objekt med inställningen anses redan "
+"finnas i bildmaterialet; objekt utan den är syntetiska och kompositeras in i "
+"det."
+
+#. :src: bpy.types.Scene.use_nodes
+msgid "Enable the compositing node group."
+msgstr "Aktivera nodgruppen för kompositering."
+
+#. :src: bpy.types.CompositorNodeMapUV
+msgid ""
+"Map a texture using UV coordinates, to apply a texture to objects in "
+"compositing"
+msgstr ""
+"Avbilda en textur med UV-koordinater för att använda en textur på objekt i "
+"kompositören"
+
+#. :src: bpy.types.ShaderNodeHoldout
+msgid ""
+"Create a \"hole\" in the image with zero alpha transparency, which is useful "
+"for compositing.\n"
+"Note: the holdout shader can only create alpha when transparency is enabled "
+"in the film settings"
+msgstr ""
+"Skapa ett ”hål” i bilden med noll alfagenomskinlighet, vilket är användbart "
+"vid kompositering.\n"
+"Obs! Holdout-skuggning kan bara skapa alfa när transparens är aktiverad i "
+"filminställningarna"
+
+#. :src: bpy.types.ShaderNodeLightAccumulation
+msgid ""
+"Adds the result of all the evaluated lights and stores each input into its "
+"respective Compositing Pass.\n"
+"The combined result is computed as (Diffuse Light * Diffuse Color) + (Glossy "
+"Light * Glossy Color)"
+msgstr ""
+"Adderar resultatet från alla utvärderade ljus och lagrar varje indata i "
+"motsvarande kompositeringspass.\n"
+"Det kombinerade resultatet beräknas som (diffust ljus × diffus färg) + "
+"(glansljus × glansfärg)"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.default_input:'UNIFORM_IMAGE_COORDINATES'
+msgid "The uniform image coordinates of the compositing space"
+msgstr "De enhetliga bildkoordinaterna i kompositeringsrymden"
+
+#. :src: bpy.types.CLIP_OT_setup_tracking_scene
+msgid "Prepare scene for compositing 3D objects into this footage"
+msgstr "Förbered scenen för att komponera 3D-objekt i detta filmmaterial"
+
+#. :src: bpy.types.NODE_OT_duplicate_compositing_modifier_node_group
+#. :src: bpy.types.NODE_OT_duplicate_compositing_node_group
+#. :src: bpy.types.NODE_OT_new_compositing_node_group
+msgctxt "Operator"
+msgid "New Compositing Node Group"
+msgstr "Ny kompositnodgrupp"
+
+#. :src: bpy.types.NODE_OT_duplicate_compositing_modifier_node_group
+#. :src: bpy.types.NODE_OT_duplicate_compositing_node_group
+msgid "Duplicate the currently assigned compositing node group."
+msgstr "Duplicera den för närvarande tilldelade kompositeringsnodgruppen."
+
+#. :src: bpy.types.NODE_OT_new_compositing_node_group
+msgid ""
+"Create a new compositing node group and initialize it with default nodes. "
+"Deprecated and will be removed in 6.0"
+msgstr ""
+"Skapa en ny kompositnodgrupp och initiera den med standardnoder. Föråldrad "
+"och tas bort i 6.0"
+
+#. :src: bpy.types.CyclesRenderSettings.film_transparent_glass
+msgid ""
+"Render transmissive surfaces as transparent, for compositing glass over "
+"another background"
+msgstr ""
+"Rendera genomsläppande ytor som transparenta, för att komponera glas över en "
+"annan bakgrund"
+
+#. :src: bpy.types.RenderSettings.compositor_denoise_final_quality
+msgid ""
+"The quality used by denoise nodes during the compositing of final renders if "
+"the nodes' quality option is set to Follow Scene"
+msgstr ""
+"Kvaliteten som används av brusreduceringsnoder vid kompositering av "
+"slutrenderingar om nodernas kvalitetsalternativ är inställt på Följ scenen"
+
+#. :src: bpy.types.RenderSettings.compositor_denoise_preview_quality
+msgid ""
+"The quality used by denoise nodes during viewport and interactive "
+"compositing if the nodes' quality option is set to Follow Scene"
+msgstr ""
+"Kvaliteten som används av brusreduceringsnoder vid kompositering i "
+"visningsområdet och interaktiv kompositering om nodernas kvalitetsalternativ "
+"är inställt på Följ scenen"
+
+#. :src: bpy.types.RenderSettings.compositor_device
+msgid "Set how compositing is executed"
+msgstr "Ange hur kompositering utförs"
+
+#. :src: bpy.types.RenderSettings.film_transparent
+msgid ""
+"World background is transparent, for compositing the render over another "
+"background"
+msgstr ""
+"Världsbakgrunden är transparent för att kunna komponera renderingen över en "
+"annan bakgrund"
+
+#. :src: bpy.types.RenderSettings.use_compositing
+msgid ""
+"Process the render result through the compositing pipeline, if a compositing "
+"node group is assigned to the scene"
+msgstr ""
+"Bearbeta renderingsresultatet genom kompositeringspipelinen, om en "
+"kompositeringsnodgrupp har tilldelats scenen"
+
+#. :src: bpy.types.RenderSettings.use_render_cache
+msgid ""
+"Save render cache to EXR files (useful for heavy compositing, Note: affects "
+"indirectly rendered scenes)"
+msgstr ""
+"Spara renderingscachen i EXR-filer (användbart för tung kompositering; obs! "
+"påverkar indirekt renderade scener)"
+
+#. :src: bpy.types.SpaceNodeEditor.show_backdrop
+msgid "Use active Viewer Node output as backdrop for compositing nodes"
+msgstr ""
+"Använd utdatan från den aktiva visarnoden som bakgrund för kompositnoder"
+
+#. :src: bpy.types.ViewLayer.use_pass_cryptomatte_material
+msgid ""
+"Render cryptomatte material pass, for isolating materials in compositing"
+msgstr ""
+"Rendera Cryptomatte-materialpass för att isolera material i kompositören"
+
+#. :src: bpy.types.ViewLayer.use_pass_cryptomatte_object
+msgid "Render cryptomatte object pass, for isolating objects in compositing"
+msgstr "Rendera Cryptomatte-objektpass för att isolera objekt i kompositören"
+
+#: source/blender/editors/space_node/node_compositor_job.cc:290
+msgid "Compositing..."
+msgstr "Kompositering..."
+
+#: source/blender/makesrna/intern/rna_scene.cc:1281
+msgid "Node tree '%s' is not a compositing node group."
+msgstr "Nodträdet ”%s” är inte en kompositeringsnodgrupp."
+
+#: source/blender/makesrna/intern/rna_space.cc:3033
+msgid "Edit compositing node group for Sequencer strip modifiers"
+msgstr ""
+"Redigera kompositeringsnodgrupp för modifierare av sekvensredigerarremsor"
+
+#: source/blender/nodes/composite/nodes/node_composite_alpha_over.cc:58
+msgid ""
+"Defines whether the foreground is in straight alpha form, which is necessary "
+"to know for proper alpha compositing. Images in the compositor are in "
+"premultiplied alpha form by default, so this should be false in most cases. "
+"But if, and only if, the foreground was converted to straight alpha form for "
+"some reason, this should be set to true"
+msgstr ""
+"Anger om förgrunden har oförmultiplicerad alfa, vilket behövs för korrekt "
+"alfakompositering. Bilder i kompositorn har förmultiplicerad alfa som "
+"standard, så detta bör vara false i de flesta fall. Men om förgrunden av "
+"någon anledning konverterades till oförmultiplicerad alfa ska detta vara true"
+
+#: source/blender/nodes/composite/nodes/node_composite_cryptomatte.cc:624
+msgid ""
+"The Cryptomatte node in render mode is only supported for scene compositing"
+msgstr "Cryptomatte-noden i renderingsläge stöds endast för scenkompositering"
+
+#: source/blender/nodes/composite/nodes/node_composite_file_output.cc:404
+msgid "The File Output node is only supported for scene compositing"
+msgstr "File Output-noden stöds endast för scenkompositering"
+
+#: source/blender/nodes/composite/nodes/node_composite_render_layers.cc:247
+msgid "The Render Layers node is only supported for scene compositing"
+msgstr "Render Layers-noden stöds endast för scenkompositering"
+
+#: source/blender/nodes/composite/nodes/node_composite_strip_info.cc:84
+msgid "The Strip Info node is only supported for sequencer compositing"
+msgstr "Strip Info-noden stöds endast för sekvensredigerarkompositering"
+
+#: source/blender/render/intern/pipeline.cc:1783
+msgid "Render output and compositing disabled in Output properties"
+msgstr "Renderingsutdata och kompositering är inaktiverade i utdataegenskaperna"
+
+#: source/blender/render/intern/pipeline.cc:1789
+msgid ""
+"Render output disabled in Output properties and no active compositing File "
+"Output nodes"
+msgstr ""
+"Renderingsutdata är inaktiverade i utdataegenskaperna och det finns inga "
+"aktiva filutdatanoder för kompositering"
+
+#: source/blender/render/intern/pipeline.cc:1642
+msgid "No camera found in scene \"%s\" (used in compositing of scene \"%s\")"
+msgstr ""
+"Ingen kamera hittades i scen \"%s\" (används vid kompositering av scen \"%s\")"
+
+#. :src: Workspace from template General
+#. :src: Workspace from template VFX
+#. :src: Workspace from template Video_Editing
+msgctxt "WorkSpace"
+msgid "Compositing"
+msgstr "Kompositering"
+
+#. :src: Add-on extension tag
+msgctxt "Preferences"
+msgid "Compositing"
+msgstr "Bildsammansättning"

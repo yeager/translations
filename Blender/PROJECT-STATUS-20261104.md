@@ -2,6 +2,28 @@
 
 Senaste lokala arbete: 8 november 2026.
 
+## Batch 1 298 — kompositering
+
+En rad-för-rad-granskning av 43 UI-strängar där källan uttryckligen använder
+*compositing* normaliserar 29 översättningar till *kompositering*. Det gäller
+bland annat *kompositeringsnodgrupp*, *kompositeringspass*,
+*scenkompositering* och *kompositeringsrymd*. Verbformen *komponera* behålls
+när strängen beskriver en faktisk handling. Valet följer Blender-manualens
+svenska term [Kompositering](https://docs.blender.org/manual/sv/5.2/render/layers/introduction.html)
+och ersätter tidigare lokala formuleringar med *komposition* i just denna
+Blender-kontext.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1298-compositing-terminology.po`
+innehåller 43 granskade poster, varav 29 ändras jämfört med den lokala
+referensexporten, och har SHA-256
+`b5bdd8074ddeaf0b53211987d6e58fe93b88a52be9e6790a59eb6ff04f092ce6`.
+`msgfmt`, svlang, diffkontroll och Gitleaks passerade. l10n-lint rapporterar
+en avsiktlig skiljeteckensskillnad: svenskans *obs!* ersätter källans
+*Note:*. Hunspell-sv har uppdaterats separat med den belagda grundformen
+*kompositering*; den längre Blender-specifika sammansättningen lämnas som
+granskningssignal tills den har bredare belägg. Batchen är lokalt färdig och
+redo för manuell import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 297 — kompositeringsrymd
 
 En socketbeskrivning för standardindatan *Uniform Image Coordinates* använder

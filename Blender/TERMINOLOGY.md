@@ -602,13 +602,13 @@ Senast uppdaterad: 2026-11-08.
 | remesher | ommeshningsverktyg | Verktyg eller process som bygger om en mesh. Skilj från den specifika *ommeshningsmodifieraren*. |
 | pole (mesh topology) | pol | Topologisk samlingspunkt där ett ovanligt antal kanter möts. Översätt inte med den vardagliga betydelsen *stolpe*. |
 | vertex color / normal | hörnpunktsfärg / hörnpunktsnormal | Attribut på en mesh-hörnpunkt. |
-| node tree | nodträd | Blenders sammanlänkade nodstruktur. Sammansättningar är exempelvis *geometrinodträd*, *kompositionsnodträd* och *shadernodträd*. |
+| node tree | nodträd | Blenders sammanlänkade nodstruktur. Sammansättningar är exempelvis *geometrinodträd*, *kompositeringsnodträd* och *shadernodträd*. |
 | Node Editor | nodredigerare | UI-namn för redigeraren med nodträd. RNA-beskrivningen *Space Node Editor* använder formen *nodredigerarens område*. |
 | Frame Node | ramnod | Nod som samlar andra noder visuellt. Skilj från *bildruta* i animations- och sekvenskontext. |
 | Shader Editor | shaderredigerare | UI-namn för nodredigeraren för shaders. Behåll facktermen *shader* och skriv sammansättningen ihop. |
 | Texture Node Editor | texturnodredigerare | UI-namn för nodredigeraren för texturer. |
-| compositor (process) | komposition | Blender-funktionen för bildkomposition; *Compositor Node Tree* blir *kompositionsnodträd*. |
-| compositing node group | kompositionsnodgrupp | Nodgrupp som utför eller styr bildkomposition. Skilj den från miljön *Kompositör*; använd inte *kompositnodgrupp* eller *kompositeringsnodgrupp*. |
+| compositing (process) | kompositering | Blenders nodbaserade bearbetning av renderat bildmaterial. Projektets svenska manual använder *kompositering*; använd därför *kompositeringsnodträd* och *kompositeringsnodgrupp*. |
+| compositing node group | kompositeringsnodgrupp | Nodgrupp som utför eller styr kompositering. Skilj den från miljön *Kompositör*; undvik den tvetydiga formen *kompositnodgrupp*. |
 | selection set | urvalsuppsättning | Namngiven samling av valbara element. |
 | delta location | deltaförflyttning | Extra förflyttning som läggs till ett objekts position. |
 | empty | tomobjekt | Blender-objekt utan egen geometri, till exempel för referensbilder eller hjälpkontroller. |
