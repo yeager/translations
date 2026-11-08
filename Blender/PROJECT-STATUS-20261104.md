@@ -9216,3 +9216,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1012.po är den samlade
 manuella deltafilen för batch 957–1 012. Den innehåller 448
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 013 — Data Transfer, Multires och partikelhår
+
+Batch 1 013 granskar tretton texter för Data Transfer, kurvors ytmesh,
+Multiresolution, formnycklar och partikelhår. Den skiljer *mesh* från
+*rutnät* och använder bland annat *käll- och målmeshar*, *ytmesh*, *basmesh*
+och *emittermesh*. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1013.po är den samlade
+manuella deltafilen för batch 957–1 013. Den innehåller 461
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.

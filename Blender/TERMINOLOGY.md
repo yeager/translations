@@ -177,6 +177,7 @@ Senast uppdaterad: 2026-11-07.
 | source / destination mesh | källmesh / målmesh | Meshar som är källa respektive mål för dataöverföring. I bestämd form används *källmeshen* och *målmeshen*. |
 | base / input mesh | basmesh / indatamesh | Mesh som utgör ursprungsgeometri respektive indata för en modifierare. I bestämd form används *basmeshen* och *indatameshen*; ersätt inte med *basnät* eller *indatanät*. |
 | surface mesh | ytmesh | Mesh som utgör ytan som skulpteringsverktyget utvärderar. Använd *ytmeshen* i bestämd form; ersätt inte den tekniska typen med *ytnät*. |
+| emitter mesh | emittermesh | Mesh som emitterar hårpartiklar. Använd *emittermeshen* i bestämd form; ersätt inte med *emitternät*. |
 | Float2 Attribute | Float2-attribut | RNA-attributtyp. Behåll typnamnet och fog med bindestreck till svenska *attribut*. |
 | timescale | tidsskala | Faktor som skalar simuleringens tidsförlopp. |
 | curve mapping | kurvkartläggning | Kartläggning med kurvor; använd den här sammansättningen i RNA- och modifierarinställningar. |
