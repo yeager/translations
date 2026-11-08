@@ -39,12 +39,13 @@ har skapats av senare granskningar.
 | Fysik och simuleringar | 18 | 7 | 11 | `blender-ui-sv-reviewed-batch-1239-physics-simulations.po`, commit `2ca643b5` |
 | Import/export och armaturdata | 12 | 1 | 11 | `blender-ui-sv-reviewed-batch-1240-import-export-armature.po`, commit `6e161836` |
 | Spreadsheet Editor och Geometry Bundle-visning | 15 | 1 | 14 | `blender-ui-sv-reviewed-batch-1241-spreadsheet-input-output.po`, commit `42f962ed` |
+| Övre fältet och statusfältet | 19 | 2 | 17 | `blender-ui-sv-reviewed-batch-1242-top-status-bar-descriptions.po`, commit `d9b7fd2a` |
 
-Efter dessa fjorton grupper har 234 tidigare otäckta strängar granskats. Deltafiler
+Efter dessa femton grupper har 253 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
 kontrollerade former som rätteligen lämnades kvar. Den jämförbara lokala
-täckningen är därmed minst 10 131 av 40 427 strängar, alltså **25,06 %**;
-30 296 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
+täckningen är därmed minst 10 150 av 40 427 strängar, alltså **25,11 %**;
+30 277 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
 ny radgranskning, eftersom den rättar formuleringen av en redan granskad
 sekvensrenderingssträng.
 
