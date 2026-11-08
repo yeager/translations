@@ -336,6 +336,13 @@ engelska exempelkolon; detta är en avsiktlig svensk formulering. Samlingsfilen
 för batch 957–971 innehåller 108 poster och är lokalt kontrollerad men ännu
 inte importerad i Blender Translate.
 
+Batch 972 granskar tio synliga inställningar för resursbläddraren. Den
+normaliserar *resurs*, *Resursåtkomst* och *resurskatalog* i filtrering,
+nätåtkomst och importval, men lämnar API- och RNA-namnen `Asset Data` och
+`Asset Representation` orörda. Samlingsfilen för batch 957–972 innehåller
+118 poster och är lokalt kontrollerad men ännu inte importerad i Blender
+Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
