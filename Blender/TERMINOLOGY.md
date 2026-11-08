@@ -509,6 +509,8 @@ Senast uppdaterad: 2026-11-08.
 | stroke depth order | streckens djupordning | Anger hur Grease Pencil-streck ordnas i 3D-rymden. |
 | onion opacity | opacitet för lökskal | Opaciteten för Grease Pencil-bildrutor som visas före och efter aktuell bildruta. |
 | render slot | renderingsplats | Sparad renderingsbuffert i Blenders bildredigerare. |
+| render pass | renderingspass | Separat bild- eller datakanal från en rendering, som kan visas i vyporten eller användas i kompositören. |
+| Ambient Occlusion | omgivningsocklusion | Renderingsmetod som mörkar trånga och skymda delar av en scen; håll den som en etablerad sammansättning i synlig UI-text. |
 | FFmpeg audio/video codec | FFmpeg-ljudkodek / FFmpeg-videokodek | Skriv den tekniska sammansättningen ihop. Låt standard- och formatnamn som AAC, H.264, ProRes och WebM stå kvar. |
 | sample rate | samplingsfrekvens | Antal ljudprov per sekund i FFmpeg- och ljudinställningar. |
 | speaker pitch / mute | tonhöjd / tysta | Högtalarobjektets uppspelningsegenskaper; *Pitch* är inte programmet eller det engelska ordet *pitch*. |
