@@ -59,6 +59,7 @@ har skapats av senare granskningar.
 | Övre fältet: projektväljare och senaste projekt | 5 | 0 | 5 | `REVIEW-TOPBAR-20261108.md`; kontrollgruppen saknar deltafil och är inte inräknad i den äldre basmätningen |
 | Outliner, 3D-vy och inställningar: intern kopiering | 7 | 0 | 7 | `REVIEW-OUTLINER-VIEW3D-PREFERENCES-20261108.md`; kontrollgruppen saknar deltafil och är inte inräknad i den äldre basmätningen |
 | Skarpa kanter: mesh-flaggan tagged edge | 1 | 1 | 0 | `blender-ui-sv-reviewed-batch-1254-tagged-edges.po`; *taggad* rättat till den mer precisa Blender-termen *markerad*. |
+| Sidoregion i redigerare | 1 | 1 | 0 | `blender-ui-sv-reviewed-batch-1255-sidebar-region.po`; *Sidopanel* rättat till Blenders konsekventa regionterm *Sidofält*. |
 
 Efter dessa tjugosju grupper har 419 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
