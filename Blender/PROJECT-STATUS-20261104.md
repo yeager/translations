@@ -10946,6 +10946,18 @@ diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 Ingen Weblate-import är verifierad; batchen är lokalt färdig och redo för
 manuell import.
 
+## Batch 1 264 — Sidofält
+
+En separat `Sidebar`-post för Blenders UI-region i bland annat 3D-vyns
+snabbmeny normaliserar *Sidopanel* till etablerade *Sidofält*. Deltafilen
+`blender-ui-sv-reviewed-batch-1264-sidebar.po` innehåller en post och har
+SHA-256 `590a7b34534c4ef30f67dddab37f2b973b7e1baac513b2eb9eb5763a57e19866`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
+diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
+`a5e9376a`. Ingen Weblate-import är verifierad; batchen är lokalt färdig och
+redo för manuell import.
+
 ## Samlad import — batch 1 260–1 262
 
 `blender-ui-sv-reviewed-import-20261108-batches-1260-1262.po` samlar de åtta
