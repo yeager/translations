@@ -2,6 +2,20 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 314 — relativ koordinatrymd i Geometry Nodes
+
+Geometry Input- och Array-nodernas `Relative Space` väljer mellan objekt- och
+världsrymd när geometri transformeras. Den vaga etiketten *Relativt utrymme*
+och den otydliga hjälptexten är därför normaliserade till *Relativ
+koordinatrymd* och en beskrivning av ingångarnas inbördes transformeringar.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1314-relative-coordinate-space.po`
+innehåller två ändrade poster och har SHA-256
+`0e76a0c3961fa9ba06d58ed73f9d5a44b3765e79bb6094e8dc059a720fff71a0`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 313 — kamerarymd för rörelsespårningsdjup
 
 Följningsbegränsningen projicerar ett objekt för att bestämma djup i
