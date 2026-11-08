@@ -868,7 +868,7 @@ Senast uppdaterad: 2026-11-08.
 | Action Clip | Action-klipp | NLA-remsa som refererar till en Action. |
 | Action Clip Strip | Action-klippsremsa | NLA-remsa med en Action som klipp. |
 | Pose Action | pose-Action | Action som innehåller en poses animeringsdata. |
-| Fake User | fejkanvändare | Blender-flagga som får ett datablock, exempelvis en Action, att sparas även utan vanlig användare. |
+| Fake User | falsk användare | Blender-flagga som får ett datablock, exempelvis en Action, att sparas även utan vanlig användare. |
 | layered Action | skiktad Action | Nyare Action-struktur med lager och Action-slotar. |
 | legacy Action | äldre Action | Äldre Action-struktur utan lager och Action-slotar. |
 | animation channel bag | animationskanalbehållare | API-objekt som samlar F-kurvor och grupper för en Action-slot. |
@@ -891,6 +891,7 @@ Senast uppdaterad: 2026-11-08.
 | data-block | datablock | Blenders interna dataenhet; skriv som en sammansättning. |
 | editor space (RNA) | område | Blenders interna `Space…`-typer beskriver ett redigerarområde, inte ett tredimensionellt rum. |
 | editor space data (RNA) | områdesdata | Data för ett specifikt redigerarområde, exempelvis Outliner eller 3D-vyn. |
+| Scene linear | scenlinjär | Färghanteringsvärden i arbetsfärgrymden; skriv sammansatt, inte *Scene-linjär*. |
 
 ## Kontrollerade UI-formuleringar
 

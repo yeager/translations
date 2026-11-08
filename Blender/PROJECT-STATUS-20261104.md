@@ -10450,3 +10450,17 @@ samlade importfilen. Den innehåller 481 `msgid`-poster inklusive PO-huvudet,
 alltså 480 översättningsposter och klart under Blenders gräns på 1 000
 strängar per manuell import. Den väntar på lokal validering, arkivering och
 manuell import.
+
+## Batch 1 127 — Falsk användare och scenlinjär färg
+
+Batch 1 127 normaliserar den funktionella Blendertermen *Fake User* till
+*falsk användare*. Tidigare blandades *fejkanvändare* och *fiktiv användare*
+med den etablerade benämningen, vilket gjorde samma funktion inkonsekvent i
+menyer, varningar och felmeddelanden. Den normaliserar också
+*Scene linear* till *scenlinjär* i färghanteringssammanhang.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1127.po` är den senaste
+samlade importfilen. Den innehåller 495 `msgid`-poster inklusive PO-huvudet,
+alltså 494 översättningsposter och klart under Blenders gräns på 1 000
+strängar per manuell import. Den väntar på lokal validering, arkivering och
+manuell import.
