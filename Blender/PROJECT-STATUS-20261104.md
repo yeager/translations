@@ -9832,6 +9832,18 @@ och resurshyllskontext. Inga sådana former återstår. Den enda träffen är de
 orelaterade etiketten *Alt-verktygstillgång*. Detta verifierar endast det
 tematiska resursarbetet, inte en fullständig radgranskning av hela Blender UI.
 
+## Batch 1 063 — Shrinkwrap-mål
+
+Batch 1 063 rättar en regression i hjälpraden för Shrinkwraps ytterligare
+målmesh. Det tidigare verbet *krympinpacka* ersätts med den terminologiskt
+och idiomatiskt korrekta formuleringen *anpassas tätt till*, i enlighet med
+projektets etablerade Shrinkwrap-term. Batchen är lokalt granskad men ännu
+inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1063.po` samlar batch
+1 055–1 063 i en separat importfil med 75 översättningsposter. Den ska
+importeras separat från batch 957–1 054, som redan innehåller 983 poster.
+
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
 `svlang`, `l10n-lint` och diffkontroll. `msgfmt` gav endast förväntade
 headervarningar för deltafilerna; `svlang`, `l10n-lint` och diffkontrollen
