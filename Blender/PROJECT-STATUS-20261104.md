@@ -10572,3 +10572,10 @@ Batch 1 135 rättar en hjälpttext för kamerans bakgrundsbild. Samma koncept
 benämndes först *biblioteksåsidosättning* men förkortades därefter till bara
 *åsidosättningen*. Texten använder nu den fullständiga och konsekventa termen
 även i den andra hänvisningen.
+
+## Batch 1 136 — ID-biblioteksåsidosättning
+
+Batch 1 136 normaliserar RNA-typens sammansättning. *ID Library Override
+Property* är en egenskap hos en ID-biblioteksåsidosättning, inte en egenskap
+hos ett ID-bibliotek. Den svenska etiketten blir därför *Egenskap för
+ID-biblioteksåsidosättning*.
