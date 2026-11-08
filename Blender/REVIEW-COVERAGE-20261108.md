@@ -1,37 +1,29 @@
-# Blender UI – täckning av lokal granskning
+# Blender UI: granskningslogg 8 november 2026
+
+Den här loggen kompletterar deltafilerna. En post som har granskats och
+medvetet lämnats oförändrad ska inte räknas som ogranskad bara för att den
+inte behöver en importfil.
 
 ## Underlag
 
-- Källfil: `~/Downloads/blender-ui-ui-sv (4).po`
-- Källfilens innehåll: 40 427 översättningsposter (rubriken undantagen).
-- Arkiverade granskningsbatcher: 793 filer med namnet
-  `blender-ui-sv-reviewed-*-batch-*.po`, plus samlade deltafiler. Mätningen
-  använder unionen av samtliga 1 573 arkiverade filer med namnet
-  `blender-ui-sv-reviewed-*.po` så att en granskad post räknas även när den
-  endast finns i en samlad, spårbar importfil.
+- Basexport: `blender-ui-ui-sv.po`, hämtad 4 november 2026.
+- Basens omfattning: 40 427 aktiva strängar.
+- Arkiverade deltafiler täckte 40 299 unika käll-/kontextnycklar före den här
+  dagens riktade restgranskning.
 
-## Mätning 2026-11-08
+## Riktade restgrupper
 
-Alla arkiverade granskningsfiler slogs ihop med `msgcat --use-first`. Därefter
-jämfördes normaliserade identitetsnycklar för `msgctxt` och `msgid` med
-källfilen. Mätningen räknar därför inte dubbletter eller skillnader i själva
-måltexten som skapas av senare granskningar.
+| Grupp | Granskade | Ändrade | Medvetet oförändrade | Belägg |
+| --- | ---: | ---: | ---: | --- |
+| glTF: komprimerade WebP/KTX2-texturer och PNG/JPEG-reservtexturer | 14 | 8 | 6 | `blender-ui-sv-reviewed-batch-1218-gltf-compressed-textures.po`, commit `1db265b6` |
+| Projekt, startbild/startskärm och samlingsimportör | 27 | 6 | 21 | `blender-ui-sv-reviewed-batch-1219-project-startup-importer.po`, commit `8e5c6188` |
 
-| Mått | Poster |
-| --- | ---: |
-| Unika identiteter i alla arkiverade granskningsfiler | 10 231 |
-| Granskade identiteter som fortfarande finns i källfilen | 9 897 |
-| Granskningstäckning i den lokala källfilen | 24,48 % |
-| Återstående för full radvis täckning | 30 530 |
+Efter dessa två grupper har 41 tidigare otäckta strängar granskats. Deltafiler
+registrerar de 14 ändrade strängarna; denna logg registrerar även de 27
+kontrollerade former som rätteligen lämnades kvar.
 
-## Tolkning
+## Avgränsning
 
-Detta är en lokal granskningsmätning, inte Blender Weblates
-översättningsprocent och inte ett importresultat. Källfilen är äldre än en
-del batcher; 328 arkiverade identiteter kan därför inte matchas i just denna
-nedladdning. De behöver inte vara fel eller saknas i Weblate.
-
-Den samlade manuella deltafilen `pending-batches-811-953.po` innehåller endast
-de nyaste lokalt granskade ändringarna och är avsiktligt mycket mindre än hela
-arkivet. Fortsatt granskning ska prioritera poster som inte ingår i den
-uppmätta skärningen.
+Täckningssiffran är knuten till basexporten från 4 november. Nya eller ändrade
+källsträngar i Blender Translate måste jämföras mot en ny export innan samma
+procenttal kan användas för serverns aktuella katalog.
