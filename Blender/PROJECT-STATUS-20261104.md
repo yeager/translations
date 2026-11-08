@@ -9054,3 +9054,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-999.po är den samlade
 manuella deltafilen för batch 957–999. Den innehåller 336
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 000 — Meshobjekt och modifierare
+
+Batch 1 000 granskar nio felmeddelanden och verktygstexter för bakning,
+dataöverföring, modifierare, QuadriFlow och hörnpunktsgrupper. Den använder
+*meshen*, *meshar*, *burmesh* och *mesh* i enlighet med om texten anger en
+specifik instans, flera datatyper eller en datatyp i en åtgärd. Batchen är
+lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1000.po är den samlade
+manuella deltafilen för batch 957–1 000. Den innehåller 344
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
