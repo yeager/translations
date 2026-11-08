@@ -14,6 +14,18 @@ topologitermen *manifold* i verktygets reservetikett och normalbaserade
 extrudering. Deltafilen är lokalt klar och väntar på manuell import i Blender
 Translate.
 
+## Batch 1 272 — tomt objekt
+
+Batch 1 272 granskar den avgränsade operatorn för 3D-vyns meny för att lägga
+till objekt. Där betyder *Empty* objektklassen, inte en tom volym eller ett
+tomt värde, och blir därför *Tomt objekt*. Den generella TM-posten för
+*Empty* ändras inte eftersom den saknar denna kontext. Deltafilen
+`blender-ui-sv-reviewed-batch-1272-empty-object-menu.po` innehåller en post
+och har SHA-256
+`61ba9112c728712b4cac6bc9ea7ee130a78101503387b4d82f94db05f034af56`.
+Den är lokalt validerad men ännu inte verifierad som importerad i Blender
+Translate.
+
 Batch 1084 normaliserar 27 synliga UI- och feltexter för F-kurvmodifierare i
 Graf- och NLA-redigerarna. Den ersätter den blandade kortformen
 *F-modifierare* med den etablerade och entydiga termen
