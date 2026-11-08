@@ -3172,6 +3172,18 @@ Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
 Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
 ingen Blender Translate-import är verifierad här.
 
+## Batch 1 281 — beskärningsstart
+
+En gemensam kamera-, vyport-, XR- och Geometry Nodes-etikett normaliseras
+från *Start på klippning* till den etablerade termen *Beskärningsstart*.
+Deltafilen `blender-ui-sv-reviewed-batch-1281-clip-start.po` innehåller en
+post och har SHA-256
+`83d859839e00b72eb26b2778079fc03c80cba0e0c985f1f72421d1f8c239518b`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
+ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 280 — gör lokala
 
 Två egenskaper för länkade tillagda data använder Blenders etablerade verb
