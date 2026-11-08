@@ -3144,6 +3144,24 @@ diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 `bdf5f401`; TM-ändringen är pushad i `swedish-tm`-commit `606d36d`.
 Ingen Weblate-import är verifierad; batchen är lokalt färdig och redo för
 manuell import.
+
+## Batch 1 275 — transformationsorientering
+
+Sju etiketter och hjälprader för Blenders 3D-transformationsorientering
+normaliseras från *transformeringsorientering* till den etablerade
+projektspecifika termen *transformationsorientering*. Ändringen gäller endast
+denna orienteringsfunktion och ändrar inte färghanteringens
+*visningstransformering*, där termen har en annan betydelse. Deltafilen
+`blender-ui-sv-reviewed-batch-1275-transform-orientation.po` innehåller sju
+poster och har SHA-256
+`d4e245e843d200a2af4f2348b03b8b861302609543da00b338ad5d2f389efd35`.
+
+`msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning, diffkontroll och
+Gitleaks passerade för deltan. Hunspell markerar bara facktermen *ytnormalen*,
+som är korrekt i 3D-kontexten. Batchen är arkiverad och pushad i commit
+`09329af3`. Den kontextbevarande TM-posten är uppdaterad och pushad i
+`swedish-tm`-commit `f05b63c`. Ingen Blender Translate-import är verifierad
+för just denna batch; den är lokalt färdig för manuell import.
 Batch 175 granskar fyra Movie Tracking-/Dopeblad-poster. Den ersätter
 blandade engelska och felaktiga direktöversättningar med *filmspårningsdopeblad*,
 *dopebladsvyn* och en kontexttrogen förklaring av data för rörelsespårning.
