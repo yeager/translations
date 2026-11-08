@@ -27,12 +27,15 @@ har skapats av senare granskningar.
 | --- | ---: | ---: | ---: | --- |
 | glTF: komprimerade WebP/KTX2-texturer och PNG/JPEG-reservtexturer | 14 | 8 | 6 | `blender-ui-sv-reviewed-batch-1218-gltf-compressed-textures.po`, commit `1db265b6` |
 | Projekt, startbild/startskärm och samlingsimportör | 27 | 6 | 21 | `blender-ui-sv-reviewed-batch-1219-project-startup-importer.po`, commit `8e5c6188` |
+| Armatur, poser och begränsningar | 7 | 2 | 5 | `blender-ui-sv-reviewed-batch-1230-armature-pose-constraints.po`, commit `ad008b13` |
 
-Efter dessa två grupper har 41 tidigare otäckta strängar granskats. Deltafiler
-registrerar de 14 ändrade strängarna; den här loggen registrerar även de 27
+Efter dessa tre grupper har 48 tidigare otäckta strängar granskats. Deltafiler
+registrerar de ändrade strängarna; den här loggen registrerar även de
 kontrollerade former som rätteligen lämnades kvar. Den jämförbara lokala
-täckningen är därmed minst 9 938 av 40 427 strängar, alltså **24,58 %**;
-30 489 återstår i basexporten.
+täckningen är därmed minst 9 945 av 40 427 strängar, alltså **24,60 %**;
+30 482 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
+ny radgranskning, eftersom den rättar formuleringen av en redan granskad
+sekvensrenderingssträng.
 
 ## Avgränsning
 
