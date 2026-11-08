@@ -355,6 +355,12 @@ formella typnamn *Mesh* och de svenska böjningarna *meshen*, *meshens* och
 957–974 innehåller 138 poster och är lokalt kontrollerad men ännu inte
 importerad i Blender Translate.
 
+Batch 975 granskar nio booleska, deform- och ommeshningsposter. Den
+normaliserar *meshobjekt*, *basmesh*, *indatamesh* och *meshen* i exakt de
+modifierarkontexter där Blender arbetar med Mesh-datatypen. Samlingsfilen för
+batch 957–975 innehåller 147 poster och är lokalt kontrollerad men ännu inte
+importerad i Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
