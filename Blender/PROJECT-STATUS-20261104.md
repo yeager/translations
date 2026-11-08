@@ -10284,3 +10284,20 @@ på 1 000 strängar per manuell import. Den har kontrollerats med `msgfmt`,
 `l10n-lint`, `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och
 Gitleaks, och är arkiverad samt pushad till `yeager/translations`. Manuell
 import i Blender Translate är inte verifierad här; den görs av användaren.
+
+## Batch 1 116 — RNA-områden för redigerare
+
+Batch 1 116 granskar 26 interna RNA-etiketter för Blenders redigerare. I den
+här API-kontexten betyder *Space* inte ett allmänt utrymme eller en
+koordinatrymd, utan det innehåll som visas i ett redigerarområde. Etiketterna
+använder därför konsekvent *område* och *områdesdata*, exempelvis
+*Grafredigerarens område*, *Områdesdata för 3D-vyn* och
+*Klippredigerarens område*.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1116.po` är nu den
+senaste samlade importfilen. Den innehåller 426 unika översättningsposter
+(427 med PO-huvudet), fortfarande klart under importgränsen på 1 000
+strängar. Den är lokalt validerad med `msgfmt`, `l10n-lint`, `svlang
+consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks, arkiverad
+och pushad till `yeager/translations`. Den manuella importen i Blender
+Translate är fortfarande inte verifierad här.
