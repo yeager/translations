@@ -8516,3 +8516,21 @@ separata manuella deltafilen med de femton rättningarna.
 manuella deltafilen för batch 811–945. Den innehåller 913
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 946 — nodträd och modifierare
+
+Batch 946 granskar nio strängar för kompositions- och texturnodträd,
+nodslutningar, modifierardata och F-kurvmodifierare. Den normaliserar
+sammansättningar enligt Blender-termbasen, bland annat
+*kompositionsnodträd*, *texturnodträd*, *modifierarstack* och
+*F-kurvmodifierare*. Operatören *Split Normals* får den handlingsinriktade
+översättningen *Dela normaler*. Batchen är lokalt granskad, men ännu inte
+verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-946-node-and-modifier-terms.po` är
+den separata manuella deltafilen med de nio rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-946.po` är den samlade
+manuella deltafilen för batch 811–946. Den innehåller 922
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
