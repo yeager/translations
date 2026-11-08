@@ -9824,6 +9824,14 @@ granskad men ännu inte verifierad som importerad i Blender Translate.
 1 055–1 062 i en separat importfil med 74 översättningsposter. Den ska
 importeras separat från batch 957–1 054, som redan innehåller 983 poster.
 
+### Avslutat delpass: Asset Browser-terminologi
+
+Den effektiva lokala katalogen, med de arkiverade deltorna ovanpå den senaste
+exporten, har kontrollerats för tidigare former av *tillgång* i Asset Browser-
+och resurshyllskontext. Inga sådana former återstår. Den enda träffen är den
+orelaterade etiketten *Alt-verktygstillgång*. Detta verifierar endast det
+tematiska resursarbetet, inte en fullständig radgranskning av hela Blender UI.
+
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
 `svlang`, `l10n-lint` och diffkontroll. `msgfmt` gav endast förväntade
 headervarningar för deltafilerna; `svlang`, `l10n-lint` och diffkontrollen
