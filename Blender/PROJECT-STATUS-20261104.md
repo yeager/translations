@@ -2,6 +2,20 @@
 
 Senaste lokala arbete: 8 november 2026.
 
+## Batch 1 300 — kontextuttag
+
+I nodoperatorn *Link operation to execute on the context socket* betyder
+*socket* ett noduttag. Den avgränsade korrigeringen ersätter därför
+*kontextsockeln* med *kontextuttaget* och lämnar den etablerade termen
+*länkoperation* oförändrad.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1300-context-socket.po` innehåller
+en ändrad post och har SHA-256
+`8738941fd7d12fa4febd8d6c47ae922b0d323cc84565f68ccd4727f0f3043626`.
+`msgfmt`, l10n-lint, svlang, den uppdaterade Hunspell-sv-ordlistan,
+diffkontroll och Gitleaks passerade. Batchen är lokalt färdig och redo för
+manuell import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 299 — noduttagsnamn
 
 RNA-egenskapen *Socket name* används både för ett noduttag och för ett uttag

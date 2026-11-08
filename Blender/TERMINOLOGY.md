@@ -931,7 +931,7 @@ Senast uppdaterad: 2026-11-08.
 | Action (animation data type) | Action | Formellt Blender-namn för ett animationsdatablock. Böj som *Actionen* och *Actioner*. Skriv sammansättningar som *Action-grupp*, *Action-lager*, *Action-remsa*, *Action-slot*, *Action-kanal* och *Action-nyckelbildruta*. De fristående etiketterna *Action* och *Actions* följer också denna form när de avser Dope Sheet, NLA, resursfilter eller datablockslistor. Översätt bara det vanliga verbet eller substantivet *action* när det inte betecknar denna datatyp. |
 | bevel modifier | avfasningsmodifierare | Modifierare som rundar av meshens kanter och hörnpunkter. |
 
-| node socket | noduttag | Anslutningspunkt för in- eller utdata i en Blendernod. |
+| node socket / context socket | noduttag / kontextuttag | Anslutningspunkt för in- eller utdata i en Blendernod; i en operator är *context socket* det uttag som den aktuella kontexten avser. Använd inte *sockel*, som avser fysisk hårdvara. |
 | socket name | uttagsnamn | Namnet på ett Blender-noduttag eller ett uttag i nodträdets gränssnitt. Använd inte *sockelnamn*, som avser fysisk hårdvara. |
 | node socket interface | noduttagsgränssnitt | Deklarationen som styr noduttag i en nodgrupp. |
 | mute (node) | stäng av | Noden förbikopplas vid utvärdering; i UI-verb som *Toggle Node Mute* används *växla avstängning*. Använd inte engelska *mute* eller ljudbetydelsen *tysta*. |
