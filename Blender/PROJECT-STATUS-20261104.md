@@ -9029,3 +9029,15 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-997.po är den samlade
 manuella deltafilen för batch 957–997. Den innehåller 321
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 998 — Geometrinoders meshredigering
+
+Batch 998 granskar åtta noder för att dela, extrudera, vända, sammanfoga och
+triangulera meshdata samt ange normaler. Den tillämpar de böjda formerna
+*meshen* och *meshar* där gränssnittstexten kräver dem. Batchen är lokalt
+granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-998.po är den samlade
+manuella deltafilen för batch 957–998. Den innehåller 329
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
