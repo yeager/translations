@@ -9929,6 +9929,19 @@ inte verifierad som importerad i Blender Translate.
 PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
 innehåller 983 poster.
 
+## Batch 1 070 — Library Override-data
+
+Batch 1 070 normaliserar sju etiketter och felmeddelanden för Library
+Override. Den ersätter den äldre termen *överskrivning* med *åsidosättning*
+i samlingsoperatorn, Outlinerns systemåsidosättningar och dialogerna för
+åsidosättningsdata. Batchen är lokalt granskad men ännu inte verifierad som
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1070.po` samlar batch
+1 055–1 070 i en separat importfil med 92 översättningsposter (93 med
+PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
+innehåller 983 poster.
+
 ## Releasefärskhet
 
 Kontrollerad 8 november 2026 mot Blenders officiella releasesida:
