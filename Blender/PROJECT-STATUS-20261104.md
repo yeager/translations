@@ -9791,8 +9791,15 @@ sammanhängande Asset Browser-kontext utan att ändra API-identifierare,
 protokollnamn eller formatnamn. Batchen är lokalt granskad men ännu inte
 verifierad som importerad i Blender Translate.
 
-`blender-ui-sv-reviewed-20261108-pending-batches-1055-1058.po` samlar batch
-1 055–1 058 i en separat importfil med 44 översättningsposter. Den ska
+## Batch 1 059 — resursåtkomst och import
+
+Batch 1 059 granskar 14 inställningar och hjälprader för resursåtkomst,
+katalogfilter och importmetoder. Den använder *resurs* konsekvent och
+bevarar Blenders skillnad mellan lokala och nätbaserade resurser. Batchen är
+lokalt granskad men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1059.po` samlar batch
+1 055–1 059 i en separat importfil med 58 översättningsposter. Den ska
 importeras separat från batch 957–1 054, som redan innehåller 983 poster.
 
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
