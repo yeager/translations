@@ -8965,3 +8965,15 @@ lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
 manuella deltafilen för batch 957–992. Den innehåller 282
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 993 — Mesh-, UV- och importfel
+
+Batch 993 granskar åtta verktygs- och importfel för ytnät, UV-utveckling,
+instansrealisering och filformat. Den använder *ytmesh* och *meshen* för
+Blenders datatyp och behåller kod- och formatnamn som STL och USD. Batchen är
+lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-957-993.po` är den samlade
+manuella deltafilen för batch 957–993. Den innehåller 290
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
