@@ -9142,3 +9142,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1006.po är den samlade
 manuella deltafilen för batch 957–1 006. Den innehåller 405
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 007 — Meshobjekt och dataöverföring
+
+Batch 1 007 granskar arton synliga texter för objektkonvertering,
+dataöverföring, Mesh Deform, UV-data och partikelkonvertering. Den
+normaliserar *meshobjekt*, *målmeshar*, *meshen*, *meshar*, *meshdata* och
+*meshdeformering* i den konkreta UI-kontexten. Batchen är lokalt granskad,
+men ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1007.po är den samlade
+manuella deltafilen för batch 957–1 007. Den innehåller 423
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
