@@ -29,6 +29,8 @@ Senast uppdaterad: 2026-11-08.
 | safe areas (camera) | säkra områden | Hjälplinjer i kameravyn och sekvensredigeraren. *Action Safe* blir *säkra marginaler för bildinnehåll*, medan *Title Safe* blir *säkra marginaler för text*; de centrerade varianterna gäller ett annat bildförhållande. |
 | film gate | filmruta | Bildruta som anger den fysiska sensor- eller filmramen i kameravyn. |
 | clipping distance | beskärningsavstånd | Kamerans närmaste eller bortre synliga gräns. |
+| camera space | kamerarymd | Kamerans koordinatrymd för spårning, projektion och objektlösning. Använd inte det vardagliga *kamerarum*. |
+| orthographic / perspective view | ortografisk / perspektivisk vy | Statusetiketter för 3D-vyn skrivs med riktning, till exempel *Ortografisk vy framifrån* och *Perspektivisk vy från höger*. *Camera Perspective* är det etablerade substantivet *kameraperspektiv*. |
 | cache layer | cachelager | Lager i en Blender-cachefil. Skriv ihop, utan bindestreck. |
 | prefetch | förhandsladdning | Läser in cache- eller animationsdata i förväg för snabbare uppdateringar. |
 | Cycles Procedural cache | Cycles Procedural-cachen | Särskild cache för Cycles procedurbaserade inläsning. |

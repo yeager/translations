@@ -10791,3 +10791,18 @@ Deltafilen
 innehåller 26 poster (27 inklusive PO-huvudet), har passerat `msgfmt`,
 l10n-lint, svlang, Hunspell-kandidatsökning och diffkontroll och väntar på
 arkivering samt manuell import i Blender Translate.
+
+## Batch 1 149 — Kameravyer och beskärning
+
+Batch 1 149 granskar 20 oarkiverade statusetiketter och hjälprader för
+kameror, 3D-vyer och kameraspårning. Den gör riktningarna i ortografiska och
+perspektiviska vyer idiomatiska, exempelvis *Ortografisk vy framifrån* och
+*Perspektivisk vy från höger*. Den normaliserar även *kamerarymd* och
+*beskärningsavstånd* i teknisk kamerakontext; *kamerarum* och *klippavstånd*
+används inte. Terminologilistan har utökats med dessa återkommande termer.
+
+Deltafilen
+`blender-ui-sv-reviewed-20261108-batch-1149-camera-view-terminology.po`
+innehåller 20 poster (21 inklusive PO-huvudet) och har passerat `msgfmt`,
+l10n-lint, svlang, Hunspell-kandidatsökning och diffkontroll. Den väntar på
+arkivering och manuell import i Blender Translate.
