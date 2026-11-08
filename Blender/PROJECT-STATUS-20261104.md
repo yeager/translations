@@ -10266,3 +10266,21 @@ PO-huvudet). Den är lokalt validerad med `msgfmt`, `l10n-lint`, `svlang
 consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks, arkiverad
 och pushad till `yeager/translations`. Manuell import i Blender Translate är
 fortfarande inte verifierad för den senaste samlingsfilen.
+
+## Batch 1 112–1 115 — ben, koordinatrymd och normalkartor
+
+Batch 1 112 normaliserar armaturbenens ändpunkter till *benhuvud* och
+*benspets*. Batch 1 113–1 114 gör Blenders koordinattermer konsekventa:
+*indexrymd*, *tangentrymd*, *objektrymd* och *världsrymd* används där
+funktionerna avser en matematisk koordinatrymd, medan verkliga
+koordinatsystem fortfarande beskrivs som koordinatsystem. Batch 1 115 skiljer
+datatypen *normalkarta* från processen *normalkartläggning* och gör även
+Shader Node Normal Maps koordinatrymd tydlig.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1115.po` är den nya
+samlade importfilen för batch 1 055–1 115. Den innehåller 399 unika
+översättningsposter (400 med PO-huvudet), alltså klart under Blenders gräns
+på 1 000 strängar per manuell import. Den har kontrollerats med `msgfmt`,
+`l10n-lint`, `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och
+Gitleaks, och är arkiverad samt pushad till `yeager/translations`. Manuell
+import i Blender Translate är inte verifierad här; den görs av användaren.
