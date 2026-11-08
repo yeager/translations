@@ -2,6 +2,22 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 315 — 3D-, UV- och UDIM-rymder
+
+Tre verktygsbeskrivningar avser uttryckligen koordinatdomäner: en
+rörelsespårningsoperation i 3D och två UV-packningsoperationer. De
+normaliseras från *utrymme* till *rymd*. För den kombinerade UV/UDIM-domänen
+används den läsbara sammansättningen *UV-/UDIM-rymd*; förkortningen UDIM är
+ett etablerat formatnamn och lämnas oförändrad.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1315-3d-and-uv-spaces.po`
+innehåller tre ändrade poster och har SHA-256
+`4a0907aa7855fd16a9217aa82d3408c43a153c0e94d906a9648b40903ec12e8a`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Hunspell-sv känner inte igen formatförkortningen `UDIM`, vilket är en väntad
+falsk positiv. Batchen är lokalt färdig och redo för manuell import; ingen
+Blender Translate-import är verifierad här.
+
 ## Batch 1 314 — relativ koordinatrymd i Geometry Nodes
 
 Geometry Input- och Array-nodernas `Relative Space` väljer mellan objekt- och
