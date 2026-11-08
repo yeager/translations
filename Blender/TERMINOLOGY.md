@@ -935,6 +935,7 @@ Senast uppdaterad: 2026-11-08.
 | frame range (animation) | bildruteintervall | Sammanhängande intervall av animeringsbildrutor. |
 | data-block | datablock | Blenders interna dataenhet; skriv sammansatt utan bindestreck. |
 | asset tag | resursetikett | Etikett för sökning och kategorisering av en resurs i Asset Browser. |
+| tag (internal ID flag) | märka | `bpy.types.ID.tag` markerar intern data för verktygens egen användning. Skilj från synliga användarskapade *taggar* i resurs-, tilläggs- och arbetsyte-UI:t. |
 | Line Art | linjekonst | Blenders funktion som härleder teckningslinjer ur scenens geometri. |
 | Empty (object type) | tomt objekt | Blenderobjekt utan egen renderad geometri; skilj från en tom bild. |
 | image empty | bildtomobjekt | Tomt objekt som visar en referensbild; en teknisk sammansättning i UI:t. |
