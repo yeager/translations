@@ -293,6 +293,12 @@ citattecken för `Tilde Action` och gör slutpunktsanvändningen konsekvent med
 källsträngarna. Samlingsfilen för batch 957–964 innehåller 49 poster och är
 lokalt kontrollerad men ännu inte importerad i Blender Translate.
 
+Batch 965 granskar tretton RNA-poster för Blenders formella animeringsobjekt.
+Den använder *Actiongrupp*, *Action-lager*, *Action-slot* och *Action-remsa*
+konsekvent, så att de inte förväxlas med vanliga åtgärder i gränssnittet.
+Samlingsfilen för batch 957–965 innehåller 62 poster och är lokalt kontrollerad
+men ännu inte importerad i Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
