@@ -578,6 +578,7 @@ Senast uppdaterad: 2026-11-08.
 | Instance Vertices / Align to Vertex Normal | instanshörnpunkter / Justera efter hörnpunktsnormal | Objektinstansiering från meshens hörnpunkter och dess orienteringsval. |
 | alpha blending / alpha test | alfablandning / alfatest | Bildtomobjektens visningsmetoder. Lämna det korta UI-namnet *Alpha* som *alfa*. |
 | simulation cache | simuleringscache | Cache för bildrutor vid uppspelning av simuleringsnoder. |
+| simulation space | simuleringsrymd | Koordinatrymd där Geometry Nodes-simuleringen utvärderas; standarden är världsrymden. |
 | Pose Mode | poseringsläge | Arbetsläget för att posera en armatur. Använd även böjningen *i poseringsläget*, inte den inkonsekventa formen *poseläge*. |
 | Pose Bone | posben | Ben i en armatur i poseringsläge. Skriv ihop även i sammansättningar, exempelvis *posbensfärg*. |
 | dynamic topology sculpting | skulptering med dynamisk topologi | Skulpteringsläge som ändrar meshtopologin dynamiskt. |
