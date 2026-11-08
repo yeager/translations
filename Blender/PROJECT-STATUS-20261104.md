@@ -3145,6 +3145,21 @@ diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 Ingen Weblate-import är verifierad; batchen är lokalt färdig och redo för
 manuell import.
 
+## Batch 1 276 — cache och kamerarymd
+
+Sju UI-strängar normaliserar facktermerna *cachelagrad* och *kamerarymd*.
+Det gäller cachevärden, renderings- och simuleringscache samt en
+kameraspårningsbeskrivning; inga redan arkiverade motsvarigheter ingår.
+Deltafilen `blender-ui-sv-reviewed-batch-1276-cache-camera-space.po`
+innehåller sju poster och har SHA-256
+`a99fa1e9cc6decc1b8c1ff86dedbbba14ed4957200eb341ae71504fcccb81b48`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+Gitleaks passerade. Hunspell saknar de korrekta tekniska sammansättningarna
+*hörnpunktskoordinater* och *geometrinodmodifierare*. Batchen är lokalt
+färdig och redo för manuell import; ingen Blender Translate-import är
+verifierad här.
+
 ## Batch 1 275 — transformationsorientering
 
 Sju etiketter och hjälprader för Blenders 3D-transformationsorientering
