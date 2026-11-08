@@ -84,3 +84,18 @@ naturlighetspoängen styra prioriteringen.
   körs före arkivering av varje granskad batch.
 - Tre lika konsonanter i följd kontrolleras med reguljärt uttryck för varje
   samlingsfil.
+
+## Effektiv kontroll 8 november 2026
+
+Ett nytt tillfälligt QA-underlag byggdes av den lokala Blender UI-exporten med
+de senast arkiverade samlingsdeltana 811–956, 957–1 054 och 1 055–1 062
+ovanpå baskatalogen. Underlaget innehåller 40 428 översatta poster och är
+endast ett granskningsunderlag; det får inte laddas upp som en deltafil.
+
+`msgfmt --check` gav endast de förväntade headernotiserna från sammanslagna
+deltafiler. `l10n-lint` gav 0 fel och 27 varningar. De varningar som
+kontrollerades manuellt i detta pass är inte ändringskandidater: intervall- och
+datumformat är standardiserade formatvärden, `glTF` har sin projektspecifika
+stavning, tekniska platshållare ska bevaras och den svenska formen `t.ex.`
+behöver inte källtextens engelska kolon. Fortsätt därför prioritera konkreta
+terminologiska och idiomatiska avvikelser framför dessa generella signaler.
