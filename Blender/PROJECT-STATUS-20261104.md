@@ -10052,3 +10052,15 @@ granskad men ännu inte verifierad som importerad i Blender Translate.
 1 055–1 078 i en separat importfil med 122 översättningsposter (123 med
 PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
 innehåller 983 poster.
+
+## Batch 1 079 — bildredigerarens visningsnod
+
+Batch 1 079 rättar Image Editor-källtypen *Viewer*. Den syftar i detta
+sammanhang på data från en Blender-visningsnod, inte på en människa eller en
+allmän visare. Etiketten blir därför *Visningsnod*. Batchen är lokalt
+granskad men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1079.po` samlar batch
+1 055–1 079 i en separat importfil med 123 översättningsposter (124 med
+PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
+innehåller 983 poster.
