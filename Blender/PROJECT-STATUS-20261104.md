@@ -10623,3 +10623,18 @@ samlade manuella importfilen. Den innehåller 562 `msgid`-poster inklusive
 PO-huvudet, alltså 561 unika översättningsposter. Den är lokalt kontrollerad
 och ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
 Translate är inte verifierad här.
+
+## Batch 1 140 — Provtagningsverktyg
+
+Batch 1 140 rättar 15 återstående interaktiva provtagningssträngar i bland
+annat bildanalys, viktmålning, sekvensredigerarens förhandsgranskning,
+färgpaletter och Grease Pencil. Enligt terminologin används *provta* i dessa
+verktyg i stället för det engelskpåverkade *sampla*. De tekniska begreppen för
+exportens animationssampling och samplade F-kurvor lämnas orörda eftersom de
+beskriver lagrade samples, inte interaktiva verktygsåtgärder.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1140.po` är den senaste
+samlade manuella importfilen. Den innehåller 577 `msgid`-poster inklusive
+PO-huvudet, alltså 576 unika översättningsposter. Den är lokalt kontrollerad
+och ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
+Translate är inte verifierad här.

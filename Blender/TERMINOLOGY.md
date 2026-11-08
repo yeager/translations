@@ -646,7 +646,7 @@ Senast uppdaterad: 2026-11-08.
 | Slide Relax | glidutjämning | Skulpteringspensel som glider längs ytan samtidigt som den jämnar ut topologin. |
 | Multires Displacement Eraser / Smear | Raderare för Multires-förskjutning / Smeta ut Multires-förskjutning | Skulpteringspenslar för Multires-förskjutning. |
 | brush falloff | penselns avtagande | Hur penselns påverkan minskar med avståndet från centrum eller gräns. |
-| area radius | områdesradie | Förhållande mellan penselradien och radien som används för att sampla områdets mittpunkt. |
+| area radius | områdesradie | Förhållande mellan penselradien och radien som används för att provta områdets mittpunkt. |
 | propagation steps | spridningssteg | Utökar automaskeringens mjuka gradient stegvis från en mesh- eller ansiktsgräns. |
 | falloff | avtagande | Använd i förklarande Blender-text. Behåll engelska namn när de är formella produkt- eller API-namn. |
 | brush spacing | penselavstånd | Avståndet mellan penselavtryck; UI-värdet *Space* kan i relevant panel översättas *Avstånd*. |
