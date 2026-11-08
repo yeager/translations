@@ -10347,3 +10347,16 @@ PO-huvudet). Den är under 1 000 strängar, lokalt validerad med `msgfmt`,
 `l10n-lint`, `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och
 Gitleaks, samt arkiverad och pushad till `yeager/translations`. Manuell
 import i Blender Translate är fortfarande inte verifierad här.
+
+## Batch 1 121 — Line Art i skärmrymd
+
+Batch 1 121 rättar en återstående Grease Pencil Line Art-hjälptext från
+*skärmkoordinatrum* till den etablerade Blender-termen *skärmrymd*. Formen
+är både kortare och konsekvent med den övriga koordinatterminologin.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1121.po` är den
+senaste samlade importfilen med 460 unika översättningsposter (461 med
+PO-huvudet). Den är lokalt validerad med `msgfmt`, `l10n-lint`, `svlang
+consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks, arkiverad
+och pushad till `yeager/translations`. Manuell import i Blender Translate är
+inte verifierad här.
