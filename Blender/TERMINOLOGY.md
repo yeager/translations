@@ -717,6 +717,7 @@ Senast uppdaterad: 2026-11-08.
 | default frame | standardbildruta | Bildruta som motsvarar transformationskanalens neutrala värde. |
 | trigger | utlösare | Den styrande åtgärden i Rigifys korrigerande åtgärder. |
 | AOV | AOV / godtyckliga utgångsvariabler | Behåll den korta UI-etiketten *AOV*. I förklarande terminologi används TBX-formen *godtyckliga utgångsvariabler*. |
+| Shader AOV | shader-AOV | Shaderpass som definieras av användaren. Använd bindestreck före förkortningen AOV; vid fristående etikett används *Shader-AOV*. |
 
 ## Namn, format och kod
 

@@ -10542,3 +10542,15 @@ inte att de är importerade på servern. `msgfmt`, l10n-lint, svlang och
 Hunspell har körts på aktuella deltabatcher. L10n-lints kvarvarande
 informationsposter avser format-/produktnamn och metadata, inte konstaterade
 oöversatta svenska UI-texter.
+
+## Batch 1 133 — Shader-AOV
+
+Batch 1 133 normaliserar AOV-passens UI-term. Formen `Shader AOV` blandade
+isärskrivning och bindestrecksform; svensk sammansättning med förkortningen
+blir *shader-AOV* i löptext och *Shader-AOV* som fristående etikett.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1133.po` är den senaste
+samlade importfilen. Den innehåller 540 `msgid`-poster inklusive PO-huvudet,
+alltså 539 översättningsposter och klart under Blenders gräns på 1 000
+strängar per manuell import. Den väntar på lokal validering, arkivering och
+manuell import.
