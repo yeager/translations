@@ -9870,6 +9870,16 @@ lokalt granskad men ännu inte verifierad som importerad i Blender Translate.
 1 055–1 065 i en separat importfil med 80 översättningsposter. Den ska
 importeras separat från batch 957–1 054, som redan innehåller 983 poster.
 
+## Batch 1 066 — Mesh-datatyp i objektfel
+
+Batch 1 066 rättar den tekniska Blender-datatypen *Mesh* i ett objektfel från
+*nät* till *mesh*. Formateringsplatshållarna bevaras oförändrade. Batchen är
+lokalt granskad men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1066.po` samlar batch
+1 055–1 066 i en separat importfil med 81 översättningsposter. Den ska
+importeras separat från batch 957–1 054, som redan innehåller 983 poster.
+
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
 `svlang`, `l10n-lint` och diffkontroll. `msgfmt` gav endast förväntade
 headervarningar för deltafilerna; `svlang`, `l10n-lint` och diffkontrollen
