@@ -9447,3 +9447,17 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1030.po är den samlade
 manuella deltafilen för batch 957–1 030. Den innehåller 670
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 031 — meshåtgärder, fel och noder
+
+Batch 1 031 granskar sjutton direkta Mesh-etiketter, feltexter och
+Geometry Nodes-uttag. Den normaliserar bland annat *meshplan*, *meshtyp*,
+*Meshen*, *meshdata*, *redigeringsmesh*, *Meshar* och *Ommeshning*.
+Oförändrade `Mesh 1` och `Mesh 2` är avsiktliga synliga datatypsnamn.
+Batchen är lokalt granskad, men ännu inte verifierad som importerad i
+Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1031.po är den samlade
+manuella deltafilen för batch 957–1 031. Den innehåller 687
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
