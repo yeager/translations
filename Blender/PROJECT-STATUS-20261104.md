@@ -3172,6 +3172,20 @@ Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
 Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
 ingen Blender Translate-import är verifierad här.
 
+## Batch 1 287 — operatörer i hjälprader
+
+Åtta hjälprader och etiketter från Geometry Nodes, informationsredigeraren,
+egenskapsåterställning, Alembic, XR och skulptering använder konsekvent
+Blenders svenska API-term *operatör*. Deltafilen
+`blender-ui-sv-reviewed-batch-1287-operator-contexts.po` innehåller åtta
+poster och har SHA-256
+`6b375acc755d7907c80576ba2c78c340b33d6fef7c62f9b08bec85443f944bc5`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+Gitleaks passerade. Hunspell markerar det avsiktligt bibehållna synliga
+Blender-namnet *Symmetrize*. Batchen är lokalt färdig, arkiverad och redo för
+manuell import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 286 — återstående operatörstermer
 
 Tio UI-hjälprader och etiketter från tangentkartor, i18n-verktyg,
