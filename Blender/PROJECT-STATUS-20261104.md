@@ -11024,6 +11024,18 @@ Den är lokalt validerad men ännu inte verifierad som importerad i Blender
 Translate. Motsvarande Blender-segment i `swedish-tm` uppdaterades i commit
 `e18096a`.
 
+## Batch 1 270 — gammal biblioteksfil
+
+Batch 1 270 granskar felmeddelandet vid länkning eller tillägg från ett
+gammalt `.blend`-filformat. Den informella formen *lib-filen* ersätts med
+projekttermen *biblioteksfilen*, och källans utropstecken bevaras. Deltafilen
+`blender-ui-sv-reviewed-batch-1270-library-linking-message.po` innehåller en
+post och har SHA-256
+`e352c5fb6518c093a91e749034ab830f628edcb1883ab96459b2f6c41b28b9bf`.
+Den är lokalt validerad men ännu inte verifierad som importerad i Blender
+Translate. Motsvarande segment i `swedish-tm` uppdaterades i commit
+`c084ad7`.
+
 Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
 diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 `a92ec6bd`; TM-ändringen är pushad i `swedish-tm`-commit `1ef888a`.
