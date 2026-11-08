@@ -133,6 +133,9 @@ Senast uppdaterad: 2026-11-07.
 | Swing / Twist | svängning / vridning | Rotationens svängnings- och vridningsdel i Quaternion- och constraint-kontext. |
 | envelope (armature) | omslutning | Armaturens volym runt ett ben som kan användas vid viktning. |
 | Action | Action | Blenders formella datatyp för animeringsdata. Behåll namnet i UI och API-saktext. |
+| Action (böjning) | Actionen / Actioner / Actionerna | Böj det formella datatypsnamnet som ett svenskt utrumord i löpande UI-text. Ersätt inte dessa former med *åtgärden* eller *åtgärder* när Blender-datatypen avses. |
+| Action channel / Action library | Action-kanal / Action-bibliotek | Animeringskanal respektive samling av Blenders Action-datatyp. Använd bindestreck för läsbar teknisk sammansättning. |
+| Action data-block | Action-datablock | Datablock som innehåller en Action. Behåll *Action* med stor bokstav när typen uttryckligen anges. |
 | duplicate and rename | Duplicera och byt namn | Operatör för kopiering av ben med efterföljande namnbyte. |
 | working plane | arbetsplan | Etablerad term i Blenders TBX-ordlista. |
 | internal clipboard | interna urklippet | UI-funktion, inte operativsystemets urklipp. |
