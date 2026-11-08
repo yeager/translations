@@ -779,7 +779,7 @@ Senast uppdaterad: 2026-11-08.
 | float image values | flyttalsbildvärden | Använd *flyttal*, inte engelska *float*, i förklarande UI-text. |
 | keymap | tangentmappning | Blenders konfiguration som kopplar tangent- och musinmatning till operatorer. |
 | keymap item | tangentmappningspost | En enskild post i en tangentmappning. |
-| key configuration | tangentkonfiguration | Samling av Blender-tangentmappningar. |
+| key configuration / KeyConfig | tangentkonfiguration | Samling av Blender-tangentmappningar. API-namnet *KeyConfig* översätts i synlig UI-text; plural blir *tangentkonfigurationer*. |
 | tile (UDIM/image) | platta | Bild- eller UDIM-platta; inte kakel. |
 | Multi-View / views format | flera vyer / vyformat | Bildinställningar för parallella vyer, exempelvis stereo. Behåll inte engelska *Multi-View* i en svensk UI-etikett. |
 | Stereo 3D | stereoskopisk 3D | Väljs som vyformat för stereobilder och stereovideo. |

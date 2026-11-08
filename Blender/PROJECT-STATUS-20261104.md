@@ -10818,5 +10818,21 @@ förhandsgranskningsintervall räcker; ingen ny term har lagts till.
 
 `blender-ui-sv-reviewed-20261108-batch-1150-frame-range-preview.po`
 innehåller åtta poster (nio inklusive PO-huvudet), har passerat `msgfmt`,
-l10n-lint och diffkontroll och väntar på arkivering samt manuell import i
-Blender Translate.
+l10n-lint, svlang, Hunspell-kandidatsökning, diffkontroll och Gitleaks. Den
+är arkiverad och pushad i commit `0b87677d`; någon import till Blender
+Translate är inte verifierad.
+
+## Batch 1 151 — Tangentkonfigurationer och inställningar
+
+Batch 1 151 granskar arton oarkiverade UI- och hjälpposter för Blenders
+tangentkonfigurationer, tangentmappningar och närliggande
+inställningsåtgärder. Den ersätter engelska och bokstavliga former som
+*keyconfig*, *KeyConfigs*, *nyckelkartor* och *modal knappsats* med
+*tangentkonfiguration*, *tangentmappning* och deras korrekta svenska
+böjningar. Den rättar även två UI-etiketter till gemener samt åtgärden för att
+kopiera inställningar för studioljus. Terminologilistan förtydligar att
+API-namnet *KeyConfig* översätts i synlig UI-text.
+
+`blender-ui-sv-reviewed-20261108-batch-1151-keymap-configuration.po`
+innehåller arton poster (nitton inklusive PO-huvudet). Den är lokalt
+kontrollerad och väntar på arkivering samt manuell import i Blender Translate.
