@@ -9995,6 +9995,18 @@ importerad i Blender Translate.
 PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
 innehåller 983 poster.
 
+## Batch 1 075 — visningslagrets renderingssampler
+
+Batch 1 075 avslutar den lokala sökningen efter den äldre formen *vylager*.
+Den normaliserar den återstående hjälpraden för antal renderingssampler till
+*visningslager*. Batchen är lokalt granskad men ännu inte verifierad som
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1075.po` samlar batch
+1 055–1 075 i en separat importfil med 109 översättningsposter (110 med
+PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
+innehåller 983 poster.
+
 ## Releasefärskhet
 
 Kontrollerad 8 november 2026 mot Blenders officiella releasesida:
