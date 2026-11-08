@@ -10931,3 +10931,17 @@ Alla kontroller passerade: `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsöknin
 diffkontroll och Gitleaks. Batchen är arkiverad och pushad i commit `a31ee460`.
 TM-ändringen är pushad i `swedish-tm`-commit `03fe674`. Ingen Weblate-import
 är verifierad; batchen är lokalt färdig och redo för manuell import.
+
+## Batch 1 262 — Hair Nodes-guidekurvbeskrivning
+
+En specifik beskrivning i `node_geo_interpolate_curves.cc` använde *guider*
+i stället för den etablerade Hair Nodes-termen *guidekurvor*. Deltafilen
+`blender-ui-sv-reviewed-batch-1262-hair-guide-description.po` innehåller en
+post och har SHA-256
+`7058eecc25776e702e126b484ae4c8fcb2d43bf872a14c31eb8dc5abb9622b7e`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
+diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
+`edc0e674`; TM-ändringen är pushad i `swedish-tm`-commit `e8096db`.
+Ingen Weblate-import är verifierad; batchen är lokalt färdig och redo för
+manuell import.
