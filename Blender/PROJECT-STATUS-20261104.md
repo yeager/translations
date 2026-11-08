@@ -10318,3 +10318,19 @@ PO-huvudet). Den är klart mindre än 1 000 strängar och har passerat
 diffkontroll och Gitleaks. Den är arkiverad och pushad till
 `yeager/translations`; manuell import i Blender Translate är ännu inte
 verifierad här.
+
+## Batch 1 119 — lokal och global koordinatrymd
+
+Batch 1 119 granskar 17 texter i mesh-, armatur-, partikel-, Rigify- och
+Geometry Nodes-kontext där *local space* eller *global space* avser ett
+referenssystem för transformationer. De skrivs konsekvent som *lokal
+koordinatrymd* respektive *global koordinatrymd*. Identifierare som `ctrl`
+och `WGT` bevaras, eftersom de är synliga Rigify-namn snarare än svenska
+allmänord.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1119.po` är den
+senaste samlade importfilen med 458 unika översättningsposter (459 med
+PO-huvudet). Den understiger 1 000 strängar och har passerat `msgfmt`,
+`l10n-lint`, `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och
+Gitleaks. Den är arkiverad och pushad till `yeager/translations`; manuell
+import i Blender Translate är inte verifierad här.
