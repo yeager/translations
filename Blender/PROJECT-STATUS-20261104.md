@@ -9254,3 +9254,17 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1015.po är den samlade
 manuella deltafilen för batch 957–1 015. Den innehåller 483
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 016 — shader- och meshsammansättningar
+
+Batch 1 016 granskar sjutton UI- och tekniktexter för shadernoder,
+shadernodträd och Blenders meshdatatyp. Felaktigt avstavade eller uppdelade
+sammansättningar har normaliserats till bland annat *shadernoder*,
+*shadernodträd*, *meshobjekt*, *meshdatablock*, *meshcache*, *meshindata*
+och *meshhörnpunkt*. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1016.po är den samlade
+manuella deltafilen för batch 957–1 016. Den innehåller 500
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
