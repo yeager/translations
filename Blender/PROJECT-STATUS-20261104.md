@@ -10464,3 +10464,16 @@ samlade importfilen. Den innehåller 495 `msgid`-poster inklusive PO-huvudet,
 alltså 494 översättningsposter och klart under Blenders gräns på 1 000
 strängar per manuell import. Den väntar på lokal validering, arkivering och
 manuell import.
+
+## Batch 1 128 — Visningslager
+
+Batch 1 128 normaliserar fem kvarvarande förekomster av *View Layer* till
+*visningslager*. Formen *vylager* blandade ihop den etablerade Blendertermen
+med den generiska vyn och förekom i import-, beroendegrafs- och
+arbetsytekontext.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1128.po` är den senaste
+samlade importfilen. Den innehåller 498 `msgid`-poster inklusive PO-huvudet,
+alltså 497 översättningsposter och klart under Blenders gräns på 1 000
+strängar per manuell import. Den väntar på lokal validering, arkivering och
+manuell import.
