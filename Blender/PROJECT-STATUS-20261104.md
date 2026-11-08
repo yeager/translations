@@ -10651,3 +10651,15 @@ samlade manuella importfilen. Den innehåller 581 `msgid`-poster inklusive
 PO-huvudet, alltså 580 unika översättningsposter. Den är lokalt kontrollerad
 och ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
 Translate är inte verifierad här.
+
+## Batch 1 142 — Poseringsrymd
+
+Batch 1 142 rättar en inkonsekvent förklarande Constraint-text. Den använder
+*poseringsrymden*, i enlighet med den synliga Blender-etiketten *Pose Space*
+och projektets fastställda term, i stället för *poseringsutrymmet*.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1142.po` är den senaste
+samlade manuella importfilen. Den innehåller 582 `msgid`-poster inklusive
+PO-huvudet, alltså 581 unika översättningsposter. Den är lokalt kontrollerad
+och ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
+Translate är inte verifierad här.
