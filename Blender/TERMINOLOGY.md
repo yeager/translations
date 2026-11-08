@@ -55,6 +55,7 @@ Senast uppdaterad: 2026-11-08.
 | Scopes / Scope panel | omfång / omfångspanel | Bild- och filmklippsredigerarnas statistiska visning med histogram, vågform och vektorskop. Skilj från GPU-felsökningens `scope name` och skriv inte *Scope-panel* i svensk UI-text. |
 | Resolution Scale | upplösningsskala | Etablerad UI-term för skalan av teckensnitt och knappar vid visning. |
 | File Browser | filbläddrare | UI-beteckning för den editor som öppnar och sparar filer. Anpassa bestämd form i löpande text. |
+| Go to Parent (File Browser) | Gå till överordnad katalog | Navigeringsåtgärd i filbläddraren. *Parent* avser här kataloghierarkin, inte ett objekts eller bens förälder. |
 | recent folder | senast använd mapp | Filbläddarens historikpost; plural blir *senast använda mappar*. Använd inte den oidiomatiska formen *senaste mapp*. |
 | file handler | filhanterare | RNA-typ och utbyggnadspunkt som registrerar import-, export- och släpphantering för filer. Översätt inte till *handtag*. |
 | File Handler Type | filhanterartyp | UI-etikett för typen av filhanterare. |
