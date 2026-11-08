@@ -9434,3 +9434,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1029.po är den samlade
 manuella deltafilen för batch 957–1 029. Den innehåller 659
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 030 — meshverktyg och UV-val
+
+Batch 1 030 granskar elva synliga verktygsnamn och beskrivningar för
+meshredigering, skulptering och UV-val. Den normaliserar bland annat
+*meshstatistik*, *meshval*, *meshhörnpunkt*, *redigeringsmesh* och
+*meshfilter*. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1030.po är den samlade
+manuella deltafilen för batch 957–1 030. Den innehåller 670
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
