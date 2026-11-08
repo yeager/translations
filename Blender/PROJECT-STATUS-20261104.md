@@ -8447,3 +8447,21 @@ verifierad som importerad i Blender Translate.
 manuella deltafilen för batch 811–941. Den innehåller 857
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 942 — Action- och NLA-operatorer
+
+Batch 942 granskar elva ytterligare strängar där *action* enligt RNA- eller
+operatörskontexten är animationsdatatypen *Action*: NLA-remsors bildrutor,
+bakning till en Action, Action-listor och scenmarkörer. Svenska böjningar och
+sammansättningar följer därför den etablerade projektspecifika formen
+*Actionen*, *Actioner* och *Action-lista*. Den generella betydelsen
+"åtgärd" berörs inte. Batchen är lokalt granskad, men ännu inte verifierad
+som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-942-action-nla-operators.po` är den
+separata manuella deltafilen med de elva rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-942.po` är den samlade
+manuella deltafilen för batch 811–942. Den innehåller 868
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
