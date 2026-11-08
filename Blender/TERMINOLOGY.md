@@ -835,6 +835,7 @@ Senast uppdaterad: 2026-11-08.
 | 3D Viewport | 3D-vyport | Använd den etablerade UI-termen när källan uttryckligen säger *viewport*. |
 | Viewport Compositor | vyportskompositör | Särskild interaktiv compositor som utvärderas i vyporten. Använd inte den otydliga omskrivningen *visningsområdeskompositör*. |
 | frame (animation) | bildruta | Gäller sekvens-, volym- och Rigify-animering; inte fysisk ram. |
+| Area (unit) | area | Fysisk måttenhetskategori i `Property.unit`; skilj från *område* (UI-yta) och *yta* (geometrisk yta). |
 | Volume data-block | volymdatablock | Blenderdatatyp för 3D-volymrutnät. |
 | extension/add-on | tillägg | Använd i inställnings- och tilläggshanteringskontext. |
 | Asset Browser | resursbläddrare | Synlig Blender-funktion; *asset library* blir *resursbibliotek*. |

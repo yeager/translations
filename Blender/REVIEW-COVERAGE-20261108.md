@@ -40,12 +40,13 @@ har skapats av senare granskningar.
 | Import/export och armaturdata | 12 | 1 | 11 | `blender-ui-sv-reviewed-batch-1240-import-export-armature.po`, commit `6e161836` |
 | Spreadsheet Editor och Geometry Bundle-visning | 15 | 1 | 14 | `blender-ui-sv-reviewed-batch-1241-spreadsheet-input-output.po`, commit `42f962ed` |
 | Övre fältet och statusfältet | 19 | 2 | 17 | `blender-ui-sv-reviewed-batch-1242-top-status-bar-descriptions.po`, commit `d9b7fd2a` |
+| Enhetsinställningar: fysisk area | 1 | 1 | 0 | `blender-ui-sv-reviewed-batch-1243-unit-area.po` |
 
-Efter dessa femton grupper har 253 tidigare otäckta strängar granskats. Deltafiler
+Efter dessa sexton grupper har 254 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
 kontrollerade former som rätteligen lämnades kvar. Den jämförbara lokala
-täckningen är därmed minst 10 150 av 40 427 strängar, alltså **25,11 %**;
-30 277 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
+täckningen är därmed minst 10 151 av 40 427 strängar, alltså **25,11 %**;
+30 276 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
 ny radgranskning, eftersom den rättar formuleringen av en redan granskad
 sekvensrenderingssträng.
 
