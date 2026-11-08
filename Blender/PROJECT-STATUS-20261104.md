@@ -9680,3 +9680,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1048.po är den samlade
 manuella deltafilen för batch 957–1 048. Den innehåller 878
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 049 — Action-slotars status och operatörer
+
+Batch 1 049 granskar tolv statusetiketter och operatörsmeddelanden för
+Action-slotar i animation, Rigify och Outliner. Termerna är normaliserade till
+*Action-slot*, *Action-slotten* och *Action-slotar*. Kodidentifierare och
+platshållare är oförändrade. Batchen är lokalt granskad, men ännu inte
+verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1049.po är den samlade
+manuella deltafilen för batch 957–1 049. Den innehåller 890
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
