@@ -2,6 +2,21 @@
 
 Senaste lokala arbete: 8 november 2026.
 
+## Batch 1 295 — UV- och 3D-rymd
+
+Blenders UV-redigerare jämför längd och area antingen i UV-kartan eller i den
+underliggande 3D-geometrin. Fyra hjälptexter normaliseras därför från de
+vardagliga formerna *UV-rummet* och *3D-rummet* till de avgränsade
+koordinattermerna *UV-rymd* respektive *3D-rymd*. Källkontexten verifierades
+mot Blender-manualens avsnitt om *Select Similar*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1295-uv-spaces.po` innehåller fyra
+poster och har SHA-256
+`74aa07a5c29f573e96b9a95ee12300767fa9866e39eb56fd7a43e566d6108f57`.
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
+diffkontroll och Gitleaks passerade. Batchen är lokalt färdig och redo för
+manuell import; ingen Blender Translate-import är verifierad här.
+
 Batch 1082 granskar två etiketter i Constraint-egenskapernas RNA-kontext.
 Den gör den booleska statusetiketten *Override Constraint* till *Åsidosatt
 begränsning*, inte den felaktiga imperativformen *Åsidosätt begränsning*, och
