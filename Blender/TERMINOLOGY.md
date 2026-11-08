@@ -52,6 +52,7 @@ Senast uppdaterad: 2026-11-08.
 | Cycles / EEVEE | Cycles / EEVEE | Blenders egna renderare är produktnamn och lämnas oförändrade; sammansättningar skrivs exempelvis *Cycles-kurvor*. |
 | object path | objektsökväg | Sökväg för ett objekt i exempelvis en Alembic-arkivfil. |
 | bake (rendering/simulation) | baka / bakning | Behåll Blenders etablerade verb i procedur- och inställningstexter: *Baka till aktiv kamera*, *bakningsdata*. Det gäller inte köksbetydelsen. |
+| Bake Action | Baka Action | Kommandot bakar animering till Blenders formella Action-datatyp. Behåll därför *Action*, även med ellipsen i menyn *Baka Action…*; skriv inte *Baka åtgärd*. |
 | normal space | normalrymd | Val av koordinatrymd för normaldata vid bakning. De konkreta alternativen skrivs *tangentrymd*, *objektrymd* och *världsrymd*. |
 | index space | indexrymd | Koordinatrymd för ett rutnäts diskreta index. Följ samma UI-mönster som *objektrymd* och *världsrymd*; använd inte det mer vardagliga *indexrum*. |
 | grid index space | rutnätsindexrymd | Rutnätsvolymens indexbaserade koordinatrymd. Skriv sammansatt och använd inte *rutnätsindexutrymme*. |

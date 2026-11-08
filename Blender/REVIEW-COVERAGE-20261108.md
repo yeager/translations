@@ -53,6 +53,7 @@ har skapats av senare granskningar.
 | Sammansättningar, fjärrresurser och nedladdningscache | 13 | 13 | 0 | `blender-ui-sv-reviewed-batch-1250-compounds-cache.po` |
 | Omfångspaneler och märkta kanter | 2 | 2 | 0 | `blender-ui-sv-reviewed-batch-1251-scope-marked-edges.po` |
 | Action-datatyp: konsekvent böjning i animeringskontext | 4 | 4 | 0 | `blender-ui-sv-reviewed-batch-1252-action-datablock-consistency.po`; terminologirättelse efter tidigare Action-granskning, ej inräknad som ny täckning |
+| Bake Action: menyetikett för Action-datatyp | 1 | 1 | 0 | `blender-ui-sv-reviewed-batch-1253-bake-action-label.po`; terminologirättelse efter tidigare Action-granskning, ej inräknad som ny täckning |
 
 Efter dessa tjugosju grupper har 419 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
