@@ -3172,6 +3172,20 @@ Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
 Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
 ingen Blender Translate-import är verifierad här.
 
+## Batch 1 284 — operatörer och tangentkartor
+
+Åtta API-etiketter och hjälprader i resursbläddraren och tangentkartor
+normaliseras från engelska *operator* till Blenders svenska fackterm
+*operatör*. Deltafilen
+`blender-ui-sv-reviewed-batch-1284-operators-keymaps.po` innehåller åtta
+poster och har SHA-256
+`c5b876320644dd41403025ab3bbda17995349b928f7bc8155f66f49316451a25`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+Gitleaks passerade. Hunspell saknar den korrekta tekniska sammansättningen
+*resursreferensegenskaper*. Batchen är lokalt färdig och redo för manuell
+import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 283 — shaderkompilering
 
 Systeminställningens etikett *Shader Compilation Workers* normaliseras från
