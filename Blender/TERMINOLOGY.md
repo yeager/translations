@@ -60,6 +60,7 @@ Senast uppdaterad: 2026-11-08.
 | screen space | skärmrymd | Koordinatrymd baserad på den aktuella vyportens skärmplan. |
 | 3D space | 3D-rymd | Den tredimensionella koordinatrymden i noder, vyportar och geometri. Använd inte *3D-utrymme* i denna betydelse. |
 | geometry space / image space | geometrirymd / bildrymd | Koordinatdomäner i Grease Pencil Line Art, längdmodifieraren och Geometry Nodes. Använd inte *geometriutrymme* eller *bildutrymme* när de avser referensrymden för beräkningen. |
+| force space | kraftrymd | Referensrymd för en kraftvektor i Geometry Nodes. Använd *kraftrymd*, inte det vaga *kraftutrymme*. |
 | onion skinning | lökskalning | Animeringsvisning med spökbilder från närliggande bildrutor. Undvik bokstavliga former som *avskalning av lök*. |
 | onion frame / ghost frame | lökskalsbildruta | Bildruta som visas före eller efter den aktuella bildrutan vid lökskalning. Undvik den missvisande formen *spökram*. |
 | Grease Pencil 2D Layers / 3D Location | 2D-lager / 3D-position | Visningslägen som styr streckens djupordning. Använd *lager* i UI-kontext, och *3D-position* när det är den faktiska placeringen i 3D-rymden som avses. |
