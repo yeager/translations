@@ -2,6 +2,19 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 309 — anpassade normaler i lokal koordinatrymd
+
+Mesh-triangelns anpassade normalvektorer anges uttryckligen i *local space*.
+Den inkonsekventa formen *lokalt koordinatrum* normaliseras till
+*lokal koordinatrymd*, i linje med övriga Blender-termer för referenssystem.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1309-local-coordinate-space-custom-normals.po`
+innehåller en ändrad post och har SHA-256
+`608f3343fbfe54ea6eac51f2f69bccd1995a14b85593b7cfb7e8dadd9b799777`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 308 — tangent i lokal koordinatrymd
 
 Meshens tangentvektor beskriver uttryckligen en vektor i *local space*.
