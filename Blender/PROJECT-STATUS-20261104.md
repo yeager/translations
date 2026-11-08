@@ -8868,3 +8868,15 @@ verifierad som importerad i Blender Translate.
 manuella deltafilen för batch 957–984. Den innehåller 205
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 985 — Ytuppsättningar och maskering
+
+Batch 985 granskar tio skulpteringsbeskrivningar för ytuppsättningar,
+masker och extraktion. Den använder *meshobjekt*, *meshen*, *meshnormaler*
+och *meshöar* enligt termbasen. Batchen är lokalt granskad, men ännu inte
+verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-957-985.po` är den samlade
+manuella deltafilen för batch 957–985. Den innehåller 215
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
