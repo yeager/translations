@@ -9707,6 +9707,19 @@ manuella deltafilen för batch 957–1 050. Den innehåller 891
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
 
+## Batch 1 051 — Action-begränsningar och NLA
+
+Batch 1 051 granskar 26 strängar för formella Action-objekt i
+Action-begränsningar, NLA-remsor och NLA-operatörer. Här avser *Action* alltid
+Blenders animationsdatatyp och skrivs därför som *Action*, inte *åtgärd*.
+Vanliga användaråtgärder lämnas orörda. Batchen är lokalt granskad, men ännu
+inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1051.po är den samlade
+manuella deltafilen för batch 957–1 051. Den innehåller 917
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
+
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
 `svlang`, `l10n-lint`, Hunspell och diffkontroll. `msgfmt` och `svlang`
 passerade. De två kvarvarande `l10n-lint`-varningarna är falska positiva: den
