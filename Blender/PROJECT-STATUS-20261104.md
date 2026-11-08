@@ -9318,3 +9318,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1020.po är den samlade
 manuella deltafilen för batch 957–1 020. Den innehåller 526
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 021 — meshattribut och geometri
+
+Batch 1 021 granskar elva texter för Geometry Nodes, shaderattribut och
+bildimport. Den ersätter *nät* med kontextspecifika former som
+*meshgeometri*, *meshattribut*, *meshnormal*, *meshelement*, *meshdatablock*,
+*meshplan* och *torusmesh*. Batchen är lokalt granskad, men ännu inte
+verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1021.po är den samlade
+manuella deltafilen för batch 957–1 021. Den innehåller 537
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
