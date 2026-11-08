@@ -63,6 +63,7 @@ Senast uppdaterad: 2026-11-08.
 | 3D View | 3D-vy | Förklaringstext för den synliga Blender-vyn; böj som *3D-vyns* i sammansatta led. I tangentmappningsnamnet *3D View Tool* används *3D-vyverktyg*. |
 | Console | konsol | Blenders inbyggda Python-konsol. RNA-beskrivningen *Space Console* använder formen *konsolens område*; `prompt` blir *kommandoprompt*. |
 | scrollback (Python Console) | rullningshistorik | Sparad utdata och tidigare rader i Python-konsolen. Använd konstruktionen *i rullningshistoriken* för åtgärder som lägger till text. |
+| autocomplete / auto complete | automatisk komplettering | Konsolens och textredigerarens kommando som fyller i namn eller föreslår innehåll. Använd *automatisk textkomplettering* när textredigerarens särskilda åtgärd behöver preciseras; inte *autoifyllning*. |
 | Space [editor] / editor space data | [redigerarens] område / områdesdata | Rör Blenders interna RNA-område, inte ett fysiskt utrymme eller en arbetsyta. Exempel: *Space Graph Editor* → *Grafredigerarens område*. |
 | Image Editor | bildredigerare | Redigeraren för bilder, UV-kartor, maskning och bildmålning. RNA-beskrivningen *Space Image Editor* använder formen *bildredigerarens område*. |
 | UV Editor | UV-redigerare | Bildredigerarens läge för UV-redigering. |
