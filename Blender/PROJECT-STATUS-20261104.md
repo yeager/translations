@@ -2,6 +2,21 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 304 — tredimensionella begränsningsboxar
+
+Fyra 3D-kontexter i Object-verktyg och Geometry Nodes normaliseras till
+*begränsningsbox*: beräkning och användning av objektets bounding box, den
+geometrinod som producerar en omslutande kub samt volymkontrollen för samma
+3D-volym. Bildspårningens och andra tvådimensionella begränsningsrutor berörs
+inte.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1304-3d-bounding-box.po` innehåller
+fyra ändrade poster och har SHA-256
+`62eb288180e5c2e56a0b914395cbe356d438b2f2ed9909ca7224acbff730d788`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 303 — objektets begränsningsbox
 
 Två egenskaper för Array- och Curve-verktygen syftar uttryckligen på ett
