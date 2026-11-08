@@ -61,6 +61,7 @@ Senast uppdaterad: 2026-11-08.
 | File Handler Type | filhanterartyp | UI-etikett för typen av filhanterare. |
 | Maximize Area | Maximera område | Operatörsnamn. *Område* avser här ett Blender-area, inte ett skärmområde i allmän mening. |
 | 3D Viewport | 3D-vyport | Etablerad UI- och manualterm. |
+| Studio Light / Studio Lights | studioljus | Blenders neutrala studioljus för solid skuggning. Böj som *studioljusredigeraren*; lämna formatnamnet *MatCap* oförändrat. |
 | 3D View | 3D-vy | Förklaringstext för den synliga Blender-vyn; böj som *3D-vyns* i sammansatta led. I tangentmappningsnamnet *3D View Tool* används *3D-vyverktyg*. |
 | Console | konsol | Blenders inbyggda Python-konsol. RNA-beskrivningen *Space Console* använder formen *konsolens område*; `prompt` blir *kommandoprompt*. |
 | scrollback (Python Console) | rullningshistorik | Sparad utdata och tidigare rader i Python-konsolen. Använd konstruktionen *i rullningshistoriken* för åtgärder som lägger till text. |
