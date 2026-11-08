@@ -10231,3 +10231,22 @@ Den 8 november 2026 visade användarens importresultat 351 bearbetade poster,
 39 överhoppade och 312 uppdaterade. Skärmbilden anger inte entydigt vilken
 lokal importfil som användes, så den kan inte användas som bevis för att den
 senaste samlingsfilen 1 055–1 100 är importerad.
+
+## Batch 1 101–1 108 — fortsatt terminologigranskning
+
+Batcherna 1 101–1 108 fortsätter granskningen i den befintliga, lokala
+Blender UI-katalogen. De normaliserar *shader* i UI- och kompileringskontext,
+*Vertex Paint* till *hörnpunktsmålning*, *modifier space* till
+*modifierarens koordinatrum*, *Movie Clip Editor* till *klippredigerare*,
+*Sequencer* till *sekvensredigerare*, *Object Solver* till *objektlösare* och
+*pivot* till *vridpunkt*. Panelrubriken *Curves Sculpt Parameter Falloff* blir
+*Avtagande längs kurvparametern*. Identifierare, formatnamn och formella
+produktnamn har inte ändrats.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1108.po` samlar batch
+1 055–1 108 i en separat importfil med 319 översättningsposter (320 med
+PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
+`svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
+Filen är lokalt validerad, arkiverad och pushad till `yeager/translations`,
+men väntar på manuell import i Blender Translate. Det finns fortfarande inget
+verifierat importresultat för den här senaste samlingsfilen.
