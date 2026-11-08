@@ -9344,3 +9344,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1022.po är den samlade
 manuella deltafilen för batch 957–1 022. Den innehåller 556
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 023 — meshredigering och Alembic
+
+Batch 1 023 granskar tjugo texter för skulptering, UV-redigering och
+Alembic-/OBJ-export. Den ersätter de generiska formerna med *mesh*,
+*meshaxel*, *meshar* och *meshens voxelstorlek* i rätt UI- och
+datatypskontext. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1023.po är den samlade
+manuella deltafilen för batch 957–1 023. Den innehåller 576
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
