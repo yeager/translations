@@ -10188,7 +10188,21 @@ PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
 `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
 Den är lokalt validerad och väntar på manuell import i Blender Translate.
 
+## Batch 1 098 — meshyta, inte ansikte
+
+Batch 1 098 rättar nio mesh- och Shrinkwrap-termer där *face* felaktigt hade
+blivit *ansikte*. Mesh-elementen heter *yta*, vilket ger bland annat
+*ytdata*, *ytstyrka*, *ytgallringsläge*, *ytslinga* och *ythörn*. Rigifys
+*face rig* behålls som *ansiktsrigg*, eftersom det avser en rigg för ett
+mänskligt ansikte och inte mesh-topologi.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1098.po` samlar batch
+1 055–1 098 i en separat importfil med 290 översättningsposter (291 med
+PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
+`svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
+Den är lokalt validerad och väntar på manuell import i Blender Translate.
+
 Den 8 november 2026 visade användarens importresultat 351 bearbetade poster,
 39 överhoppade och 312 uppdaterade. Skärmbilden anger inte entydigt vilken
 lokal importfil som användes, så den kan inte användas som bevis för att den
-senaste samlingsfilen 1 055–1 097 är importerad.
+senaste samlingsfilen 1 055–1 098 är importerad.
