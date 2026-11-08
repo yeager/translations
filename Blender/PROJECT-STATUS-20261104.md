@@ -11040,6 +11040,17 @@ Importfilen `blender-ui-sv-reviewed-import-20261108-batches-1268-1270.po`
 samlar batch 1 268–1 270 i tre poster för manuell Blender Translate-import.
 Den är lokalt validerad men saknar fortfarande verifierat importresultat.
 
+## Batch 1 271 — transformation och metaklot
+
+Batch 1 271 normaliserar två separata UI-kontexter enligt Blenders
+terminologifil: Geometry Nodes-etiketten *Transform* blir *Transformation*,
+och datablockfiltret *Metaball* blir *Metaklot*. Deltafilen
+`blender-ui-sv-reviewed-batch-1271-transform-and-metaball.po` innehåller två
+poster och har SHA-256
+`59f9f9e08b856d656a6ca2c3a927063e7fc4b2f84bacd2ef624cf28a7a92b85e`.
+Den är lokalt validerad men ännu inte verifierad som importerad i Blender
+Translate.
+
 Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
 diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 `a92ec6bd`; TM-ändringen är pushad i `swedish-tm`-commit `1ef888a`.
