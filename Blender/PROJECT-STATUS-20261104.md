@@ -14,6 +14,10 @@ topologitermen *manifold* i verktygets reservetikett och normalbaserade
 extrudering. Deltafilen är lokalt klar och väntar på manuell import i Blender
 Translate.
 
+Importfilen `blender-ui-sv-reviewed-import-20261108-batches-1271-1274.po`
+samlar batch 1 271–1 274 i åtta poster för manuell Blender Translate-import.
+Den är lokalt validerad men saknar fortfarande verifierat importresultat.
+
 ## Batch 1 274 — viktmålning
 
 Batch 1 274 rättar två felaktigt särskrivna förekomster av *Weight Paint* i
