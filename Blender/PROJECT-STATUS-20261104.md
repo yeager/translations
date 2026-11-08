@@ -9666,3 +9666,17 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1047.po är den samlade
 manuella deltafilen för batch 957–1 047. Den innehåller 873
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 048 — Action-UI-etiketter
+
+Batch 1 048 granskar fem tidigare oarkiverade etiketter för den formella
+Action-datatypen: aktiv slot, datablockfilter, slothandtag, lagring i
+justeringsläge och senast tilldelad slotidentifierare. Tretton närliggande
+etiketter var redan identiska med tidigare granskade deltafiler och har
+medvetet inte dubblerats. Batchen är lokalt granskad, men ännu inte
+verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1048.po är den samlade
+manuella deltafilen för batch 957–1 048. Den innehåller 878
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
