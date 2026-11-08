@@ -9369,3 +9369,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1024.po är den samlade
 manuella deltafilen för batch 957–1 024. Den innehåller 593
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 025 — meshfel och dataöverföring
+
+Batch 1 025 granskar tjugo interna status- och felmeddelanden för Data
+Transfer, meshredigering och voxelommeshning. Den konsekventa terminologin
+är *käll- och målmeshar*, *meshdata*, *meshelement*, *manifoldmesh* och
+*voxelommeshare*. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1025.po är den samlade
+manuella deltafilen för batch 957–1 025. Den innehåller 613
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
