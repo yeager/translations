@@ -115,3 +115,19 @@ formatplatshållare `{:s}`. Kontrollerade versal-, datum-, intervall- och
 interpunktionsvarningar beror på etablerade svenska former som `t.ex.`,
 `glTF`, månadskortformer och standardiserade färgrymdsidentifierare. De är
 inte automatiska ändringskandidater.
+
+## Effektiv kontroll efter batch 1 111
+
+Den 8 november byggdes det lokala QA-underlaget om med batch 1 101–1 111
+ovanpå den tidigare effektiva katalogen. Underlaget är fortfarande endast för
+granskning och får inte laddas upp eftersom det blandar redan importerade och
+lokala deltaändringar.
+
+`msgfmt --check` passerade med enbart de fem förväntade headernotiserna från
+de minimala deltafilerna. `l10n-lint` gav 0 fel och 25 varningar, och `svlang
+consistency` passerade. Varningarna kontrollerades mot den konkreta PO-texten:
+de avser bland annat svenska datum- och månadskortformer, standardskrivningen
+`glTF`, färgrymdsnamnet `sRGB IEC 61966-2-1`, matematikformen *upplösning ×
+upplösning/2*, platshållaren `{:s}` och idiomatisk svensk skiljeteckensättning.
+De är inte säkra ändringskandidater. Den riktade kontrollen för tre identiska
+konsonanter gav inga träffar i det effektiva underlaget.
