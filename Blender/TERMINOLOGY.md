@@ -32,6 +32,7 @@ Senast uppdaterad: 2026-11-08.
 | film gate | filmruta | Bildruta som anger den fysiska sensor- eller filmramen i kameravyn. |
 | clipping distance | beskärningsavstånd | Kamerans närmaste eller bortre synliga gräns. |
 | camera space | kamerarymd | Kamerans koordinatrymd för spårning, projektion och objektlösning. Använd inte det vardagliga *kamerarum*. |
+| object space | objektrymd | Objektets lokala koordinatrymd, bland annat för bildprojektion och normalmappning. Använd inte *objektrum*. |
 | orthographic / perspective view | ortografisk / perspektivisk vy | Statusetiketter för 3D-vyn skrivs med riktning, till exempel *Ortografisk vy framifrån* och *Perspektivisk vy från höger*. *Camera Perspective* är det etablerade substantivet *kameraperspektiv*. |
 | cache layer | cachelager | Lager i en Blender-cachefil. Skriv ihop, utan bindestreck. |
 | prefetch | förhandsladdning | Läser in cache- eller animationsdata i förväg för snabbare uppdateringar. |
