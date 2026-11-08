@@ -9829,6 +9829,8 @@ Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
 headervarningar för deltafilerna; `svlang`, `l10n-lint` och diffkontrollen
 passerade. De två informationsnotiserna från `l10n-lint` gäller endast
 sluttecknet i två tekniska fältnamnssträngar och är inte varningar eller fel.
+Hunspell gav inga träffar i batch 1 062; samlingsfilens två träffar är de
+förväntade tekniska formerna `.asset.blend-fil` och *resursdatablock*.
 
 ## Releasefärskhet
 
