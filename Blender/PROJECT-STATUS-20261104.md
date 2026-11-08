@@ -1712,7 +1712,8 @@ den importen: **1 bearbetad, 1 uppdaterad, 0 hoppade över och 0 saknades**.
 
 Två efterföljande UI-deltan justerade etiketten för resursbläddrarläget och
 normaliserade *remote asset library* utan den felaktiga trippelkonsonanten i
-`fjärrresursbibliotek`. Blender Translate bekräftade varje import:
+den sammanskrivna formen *fjärrresursbibliotek*. Blender Translate bekräftade
+varje import:
 `blender-ui-sv-reviewed-20261105-03.po` gav **1 bearbetad, 1 uppdaterad, 0
 hoppade över och 0 saknades**, och
 `blender-ui-sv-reviewed-20261105-04.po` gav **2 bearbetade, 2 uppdaterade, 0
@@ -1736,8 +1737,9 @@ bearbetade, 6 uppdaterade, 0 hoppade över och 0 saknades**.
 
 Batch 08 kompletterade de återstående UI-texterna för *remote asset library*
 med `fjärranslutet resursbibliotek`, så att varken trippelkonsonanten i
-`fjärrresursbibliotek` eller den ofullständiga formen *fjärrbibliotek* blir
-kvar i denna kontext. `blender-ui-sv-reviewed-20261105-08.po` importerades
+den sammanskrivna formen *fjärrresursbibliotek* eller den ofullständiga formen
+*fjärrbibliotek* blir kvar i denna kontext.
+`blender-ui-sv-reviewed-20261105-08.po` importerades
 med resultatet **3 bearbetade, 3 uppdaterade, 0 hoppade över och 0 saknades**.
 
 Efter språkgranskning av Batch 08 ersatte Batch 09 den onödigt täta
@@ -1792,7 +1794,8 @@ hoppade över och 0 saknades**.
 Batch 16 normaliserade två hjälptester för nätåtkomliga resurser. De använder
 nu `fjärranslutna resurser`, i linje med komponentens term
 `fjärranslutet resursbibliotek`, i stället för den svårlästa formen
-`fjärrresurser` med tre r i följd. Blender Translate bekräftade
+den sammanskrivna formen *fjärrresurser* med tre r i följd. Blender Translate
+bekräftade
 `blender-ui-sv-reviewed-20261105-16.po`: **2 bearbetade, 2 uppdaterade, 0
 hoppade över och 0 saknades**.
 
@@ -1856,16 +1859,16 @@ Blender Translate bekräftade `blender-ui-sv-reviewed-20261105-23.po`:
 **4 bearbetade, 4 uppdaterade, 0 hoppade över och 0 saknades**.
 
 Batch 24 åtgärdar tre verkliga fall av tre identiska konsonanter. Strängarna
-för Grease Pencil Line Art och `RegionView3D` skrev tidigare `klippplan` med
-tre p. Språkrådets konsonantstrykningsregel och etablerad svensk CAD-
+för Grease Pencil Line Art och `RegionView3D` slog tidigare ihop *klipp* och
+*plan* med tre p. Språkrådets konsonantstrykningsregel och etablerad svensk CAD-
 terminologi ger formen `klippningsplan`, som nu används i etiketter och
 hjälptext. Lokal kvalitetssäkring är klar. Blender Translate bekräftade
 `blender-ui-sv-reviewed-20261105-24.po`: **3 bearbetade, 3 uppdaterade, 0
 hoppade över och 0 saknades**.
 
 Batch 25 följer Blenders egen UI-term för *Wireframe*. Den synliga etiketten
-är `Trådram`, medan en hjälprad tidigare skrev `trådmodellläge`, med tre l i
-följd. I dess specifika lägeskontext blir `trådramsläget` både konsekvent med
+är `Trådram`, medan en hjälprad tidigare slog ihop *trådmodell* och *läge*,
+med tre l i följd. I dess specifika lägeskontext blir `trådramsläget` både konsekvent med
 etiketten och språkriktigt. Lokal kvalitetssäkring är klar. Blender Translate
 bekräftade `blender-ui-sv-reviewed-20261105-25.po`: **1 bearbetad, 1
 uppdaterad, 0 hoppade över och 0 saknades**.
@@ -4063,7 +4066,7 @@ passerar `msgfmt`, l10n-lint, riktad Hunspell, diffkontroll och Gitleaks.
 varningar från sammanfogade UI-etiketter. Filen är arkiverad och väntar på
 manuell import.
 
-Batch 261 granskar 22 Rigify-strängar för rigggenerering, widgetar,
+Batch 261 granskar 22 Rigify-strängar för rigg-generering, widgetar,
 målrigg och teman. Den rättar bland annat *slutskript*, *widgetmesher*,
 *länkade dubbletter* och namngivningen av metariggar. Rigifys interna
 temavärden `THEME01`–`THEME20` bevaras exakt som kodvärden. Terminologin
@@ -4726,7 +4729,7 @@ lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 Batch 412 granskar 47 poster för kraftfältens textur- och fälttyper,
 koordinater, avtagande och kraftbegränsningar. Den bevarar det tekniska
 lägesnamnet *Curl* i vektoranalyskontext, använder *rottexturkoordinater* och
-formulerar övriga hjälptexter utan engelska låneord. Deltafilen
+formulerar övriga hjälptexter utan engelska lånord. Deltafilen
 `blender-ui-sv-reviewed-20261106-batch-412-physics-field-types-and-modes.po`
 är lokalt kontrollerad men ännu inte manuellt importerad till Blender Translate.
 
