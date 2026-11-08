@@ -33,6 +33,8 @@ Senast uppdaterad: 2026-11-08.
 | sensor fit | sensoranpassning | Anpassar kamerans bild och synfältsvinkel efter bildsensorns bredd eller höjd. |
 | passepartout | passepartout | Den mörka överlagringen utanför bildområdet i kameravyn. |
 | safe areas (camera) | säkra områden | Hjälplinjer i kameravyn och sekvensredigeraren. *Action Safe* blir *säkra marginaler för bildinnehåll*, medan *Title Safe* blir *säkra marginaler för text*; de centrerade varianterna gäller ett annat bildförhållande. |
+| Safe Areas Preset | förinställning för säkra områden | Förinställning som sparar kamerans eller sekvensredigerarens säkra marginaler. |
+| view shift (camera view) | vyförskjutning | Förskjuter kameravyns inramning utan att flytta kameran. |
 | film gate | filmruta | Bildruta som anger den fysiska sensor- eller filmramen i kameravyn. |
 | clipping distance | beskärningsavstånd | Kamerans närmaste eller bortre synliga gräns. |
 | Clip Start / Clip End | beskärningsstart / beskärningsslut | Kamerans, 3D-vyportens eller VR-vyns närmaste och bortre gräns för visning. |
