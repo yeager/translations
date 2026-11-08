@@ -157,6 +157,7 @@ Senast uppdaterad: 2026-11-08.
 | internal clipboard | interna urklippet | UI-funktion, inte operativsystemets urklipp. |
 | rigid body | styv kropp | Fysiksimuleringens etablerade term. |
 | shader | shader | Behåll den etablerade facktermen i UI och nodnamn; använd inte *skuggare*. När en meny uttryckligen avser nodtypen används *shadernod* och *shadernoder*, inte den vidare saktermen *skuggning*. |
+| bytecode | bytekod | Kompilerad kod i shader- och kamerasammanhang. Använd *bytekod* i synlig UI-text, men behåll egenskapsnamn som `bytecode` i Python-API. |
 | shader program | shaderprogram | Program som körs för shaderberäkning; skriv sammansättningen ihop. |
 | Shader Node | shadernod | Formell Blender-nodtyp. Skriv sammansättningen ihop: *shadernod*, *shadernoder*, *shadernodträd* och *shadernoduttag*. När *shader* i stället avser skuggningsberäkningen används den svenska saktermen *skuggning*. |
 | shader socket | shaderuttag | Uttag med shaderdata i en nod eller ett nodgränssnitt. Det är inte detsamma som den fysiska processen *skuggning*. |
