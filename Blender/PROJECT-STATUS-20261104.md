@@ -3160,6 +3160,18 @@ Gitleaks passerade. Hunspell saknar de korrekta tekniska sammansättningarna
 färdig och redo för manuell import; ingen Blender Translate-import är
 verifierad här.
 
+## Batch 1 277 — lokal koordinatrymd
+
+En mesh-tangentbeskrivning använder den precisa koordinattermen *lokal
+koordinatrymd* i stället för det tvetydiga *lokalt rum*. Deltafilen
+`blender-ui-sv-reviewed-batch-1277-local-coordinate-space.po` innehåller en
+post och har SHA-256
+`0bd901d9ec62c4ded1f657c9cd720e33b5ee3f4baed54e67807de2149f2dcd06`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
+ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 275 — transformationsorientering
 
 Sju etiketter och hjälprader för Blenders 3D-transformationsorientering
