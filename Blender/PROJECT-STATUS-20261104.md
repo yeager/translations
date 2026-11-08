@@ -9407,3 +9407,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1027.po är den samlade
 manuella deltafilen för batch 957–1 027. Den innehåller 645
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 028 — kärntermer för mesh
+
+Batch 1 028 granskar åtta UI-texter för Blenders datatyp *Mesh*, modifierare
+och Geometry Nodes. Den skiljer datatypen *mesh* från beräknings- och
+volymrutnät, samt normaliserar *meshobjekt*, *meshveck*, *meshar*,
+*meshhörnpunkter* och *ytmesh*. Batchen är lokalt granskad, men ännu inte
+verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1028.po är den samlade
+manuella deltafilen för batch 957–1 028. Den innehåller 653
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
