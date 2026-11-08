@@ -534,6 +534,7 @@ Senast uppdaterad: 2026-11-08.
 | sample rate | samplingsfrekvens | Antal ljudprov per sekund i FFmpeg- och ljudinställningar. |
 | audio sample format | ljudsamplingsformat | Bitdjup och numerisk representation för ljudprov i systeminställningarna. Använd den sammansatta formen även i hjälptexter, inte *ljudprovformat*. |
 | speaker pitch / mute | tonhöjd / tysta | Högtalarobjektets uppspelningsegenskaper; *Pitch* är inte programmet eller det engelska ordet *pitch*. |
+| mute / unmute (sound strips) | tysta / slå på ljudet | Sekvensredigerarens ljudåtgärder. *Mute* avbryter uppspelningen; använd inte *dämpa*, som avser volymminskning. |
 | bitrate | bithastighet | Kodad data per tidsenhet; använd exempelvis *ljudbithastighet* och *konstant bithastighet*. |
 | container (media) | behållare | Filformatets omslutande struktur, exempelvis Matroska eller WebM. Använd *behållare för utdatafilen* i hjälptext. |
 | mux / mux packet | muxning / muxpaket | Sammanför ljud- och videoströmmar i en mediebehållare. Skriv sammansättningar ihop: *muxningshastighet*, *muxpaketstorlek*. |
