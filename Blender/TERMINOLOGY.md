@@ -327,6 +327,7 @@ Senast uppdaterad: 2026-11-08.
 | vertex neighbors / face group boundaries | hörnpunktsgrannar / ytgruppsgränser | Noder som hämtar topologiska grannar respektive kanter mellan ytgrupper. Sammansättningarna är avsiktliga. |
 | Geometry Proximity | Geometrisk närhet | Nod som beräknar närmaste position på en målgeometri. |
 | gizmo | gizmo | Etablerat Blender-UI-namn. Skriv sammansatt: *transformationsgizmo*. |
+| dial/linear/transform gizmo | vridgizmo / linjär gizmo / transformationsgizmo | Interaktiva 3D-kontroller i Geometry Nodes och 3D-vyn. Behåll *gizmo* som den etablerade Blender-termen. |
 | gizmo collection | samling av gizmor | Samling av Blender-gizmor; översätt inte till den otydliga formen *prylar*. |
 | sample (node operation) | provta | Noder som hämtar eller utvärderar data från kurvor, rutnät och ytor. Använd *provta*, inte substantivet *prov* eller *exempel*. |
 | Sample (image, colour and weight tools) | provta | Interaktiva verktyg som hämtar ett färg-, pixel- eller viktvärde under pekaren. Använd verbet *provta*, inte lånet *sampla*. |
