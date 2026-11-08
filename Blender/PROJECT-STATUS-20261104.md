@@ -2,6 +2,19 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 311 — OBJ-importens begränsningsbox
+
+Wavefront OBJ-importens `clamp_size` begränsar den importerade
+3D-geometrins *bounding box*. Etiketten och hjälptexten normaliseras från
+*begränsningsram* till *begränsningsbox*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1311-obj-import-bounding-box.po`
+innehåller två ändrade poster och har SHA-256
+`08d3a444188adf92b8df21df079707b8387abe15c8fb11408ca6b1b36f6a1762`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 310 — Geometry Nodes: klippningsbegränsningsbox
 
 Geometry Nodes Grid Clip beräknar X-, Y- och Z-gränser för en tredimensionell
