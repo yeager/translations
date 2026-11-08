@@ -57,6 +57,7 @@ har skapats av senare granskningar.
 | Python Console: navigering, urklipp och körningskontext | 15 | 0 | 15 | `REVIEW-CONSOLE-20261108.md`; kontrollgruppen saknar deltafil och är inte inräknad i den äldre basmätningen |
 | Projektarbetsyta: projektrot, konfiguration och felmeddelanden | 15 | 0 | 15 | `REVIEW-PROJECT-WORKSPACE-20261108.md`; kontrollgruppen saknar deltafil och är inte inräknad i den äldre basmätningen |
 | Övre fältet: projektväljare och senaste projekt | 5 | 0 | 5 | `REVIEW-TOPBAR-20261108.md`; kontrollgruppen saknar deltafil och är inte inräknad i den äldre basmätningen |
+| Outliner, 3D-vy och inställningar: intern kopiering | 7 | 0 | 7 | `REVIEW-OUTLINER-VIEW3D-PREFERENCES-20261108.md`; kontrollgruppen saknar deltafil och är inte inräknad i den äldre basmätningen |
 
 Efter dessa tjugosju grupper har 419 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
