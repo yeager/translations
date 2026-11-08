@@ -52,6 +52,7 @@ har skapats av senare granskningar.
 | OTIO, PLY, OBJ och STL: import- och exportdiagnostik | 24 | 0 | 24 | `REVIEW-FORMAT-IO-DIAGNOSTICS-20261108.md` |
 | Sammansättningar, fjärrresurser och nedladdningscache | 13 | 13 | 0 | `blender-ui-sv-reviewed-batch-1250-compounds-cache.po` |
 | Omfångspaneler och märkta kanter | 2 | 2 | 0 | `blender-ui-sv-reviewed-batch-1251-scope-marked-edges.po` |
+| Action-datatyp: konsekvent böjning i animeringskontext | 4 | 4 | 0 | `blender-ui-sv-reviewed-batch-1252-action-datablock-consistency.po`; terminologirättelse efter tidigare Action-granskning, ej inräknad som ny täckning |
 
 Efter dessa tjugosju grupper har 419 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
