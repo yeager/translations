@@ -44,12 +44,13 @@ har skapats av senare granskningar.
 | Geometry Nodes: ytattributdiagnostik | 1 | 1 | 0 | `blender-ui-sv-reviewed-batch-1244-geometry-nodes-surface-attribute.po` |
 | PLY-importör: fel utan hörnpunkter | 1 | 1 | 0 | `blender-ui-sv-reviewed-batch-1245-ply-importer-error.po`, commit `78c5c1cb` |
 | PLY- och SPZ-importdiagnostik | 13 | 13 | 0 | `blender-ui-sv-reviewed-batch-1246-ply-spz-import-diagnostics.po`, commit `4f6cc6aa` |
+| USD: formnyckel- och morfmålsdiagnostik | 4 | 4 | 0 | `blender-ui-sv-reviewed-batch-1247-usd-blendshape-diagnostics.po`, commit `2f515f34` |
 
-Efter dessa nitton grupper har 269 tidigare otäckta strängar granskats. Deltafiler
+Efter dessa tjugo grupper har 273 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
 kontrollerade former som rätteligen lämnades kvar. Den jämförbara lokala
-täckningen är därmed minst 10 166 av 40 427 strängar, alltså **25,14 %**;
-30 261 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
+täckningen är därmed minst 10 170 av 40 427 strängar, alltså **25,16 %**;
+30 257 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
 ny radgranskning, eftersom den rättar formuleringen av en redan granskad
 sekvensrenderingssträng.
 
