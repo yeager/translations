@@ -8381,3 +8381,19 @@ Translate.
 manuella deltafilen för batch 811–937. Den innehåller 832
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 938 — resursimport och metadata
+
+Batch 938 rättar sju informations- och operatörstexter för resursimport,
+resurskatalogfilter samt resursers licens- och upphovsrättsmetadata. Den
+fortsätter den kontextspecifika formen *resurs* utan att ändra Blenders
+produktnamn eller kodtermer. Batchen är lokalt granskad, men ännu inte
+verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-938-asset-browser-import-details.po`
+är den separata manuella deltafilen med de sju rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-938.po` är den samlade
+manuella deltafilen för batch 811–938. Den innehåller 839
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
