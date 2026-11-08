@@ -9242,3 +9242,15 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1014.po är den samlade
 manuella deltafilen för batch 957–1 014. Den innehåller 480
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 015 — shadernoder
+
+Batch 1 015 granskar tre synliga UI-texter för linjestilar, ljus och värld.
+Den normaliserar den felaktigt avstavade formen *shader-noder* till
+*shadernoder* enligt projektets terminologi. Batchen är lokalt granskad, men
+ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1015.po är den samlade
+manuella deltafilen för batch 957–1 015. Den innehåller 483
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
