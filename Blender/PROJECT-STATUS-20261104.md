@@ -9331,3 +9331,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1021.po är den samlade
 manuella deltafilen för batch 957–1 021. Den innehåller 537
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 022 — mesh vid export och import
+
+Batch 1 022 granskar nitton export- och importtexter för FBX, glTF,
+Meshopt och bildplan. Den normaliserar bland annat *meshkomprimering*,
+*meshförenkling*, *meshinställningar*, *meshdata*, *meshplan* och pluralen
+*meshar*. Batchen är lokalt granskad, men ännu inte verifierad som importerad
+i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1022.po är den samlade
+manuella deltafilen för batch 957–1 022. Den innehåller 556
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
