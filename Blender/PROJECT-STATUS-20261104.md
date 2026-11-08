@@ -14,6 +14,18 @@ topologitermen *manifold* i verktygets reservetikett och normalbaserade
 extrudering. Deltafilen är lokalt klar och väntar på manuell import i Blender
 Translate.
 
+## Batch 1 273 — fysik- och animeringstermer
+
+Batch 1 273 normaliserar tre återkommande Blender-termer enligt den
+projektspecifika termtabellen: *Soft Body* → *Mjukkropp*, *Subsurface
+Scattering* → *Underytsspridning* och *Onion Skin* → *Lökskal*. Varje post
+är avgränsad till sin fysiska, shader- respektive annotationskontext.
+Deltafilen `blender-ui-sv-reviewed-batch-1273-physics-and-animation-terms.po`
+innehåller tre poster och har SHA-256
+`2a6c0b29098fae791aab0bfea9fc20402040a89e1211edde7066f1ffca0cb1e6`.
+Den är lokalt validerad men ännu inte verifierad som importerad i Blender
+Translate.
+
 ## Batch 1 272 — tomt objekt
 
 Batch 1 272 granskar den avgränsade operatorn för 3D-vyns meny för att lägga
