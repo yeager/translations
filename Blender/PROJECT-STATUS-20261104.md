@@ -9268,3 +9268,15 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1016.po är den samlade
 manuella deltafilen för batch 957–1 016. Den innehåller 500
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 017 — meshdomäner
+
+Batch 1 017 granskar tre UI-etiketter för meshens topologiska domäner. Den
+etablerar *meshkant*, *meshyta* och *meshytehörn* där texten avser Blenders
+datatyp i stället för ett vanligt nät. Batchen är lokalt granskad, men ännu
+inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1017.po är den samlade
+manuella deltafilen för batch 957–1 017. Den innehåller 503
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
