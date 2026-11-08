@@ -35,12 +35,15 @@ har skapats av senare granskningar.
 | Arbetsytor, redigerare och layout | 10 | 5 | 5 | `blender-ui-sv-reviewed-batch-1235-workspace-editor-layout.po`, commit `94766888` |
 | Animation, tidslinje, Dope Sheet och Graph Editor | 22 | 7 | 15 | `blender-ui-sv-reviewed-batch-1236-animation-timeline-graph.po`, commit `8f56cedd` |
 | Nodredigerare och Geometry Nodes | 14 | 7 | 7 | `blender-ui-sv-reviewed-batch-1237-node-editor-geometry-nodes.po`, commit `f19d1549` |
+| Bildredigerare, bildhantering och texturer | 15 | 6 | 9 | `blender-ui-sv-reviewed-batch-1238-image-editor-textures.po`, commit `d54408ba` |
+| Fysik och simuleringar | 18 | 7 | 11 | `blender-ui-sv-reviewed-batch-1239-physics-simulations.po`, commit `2ca643b5` |
+| Import/export och armaturdata | 12 | 1 | 11 | `blender-ui-sv-reviewed-batch-1240-import-export-armature.po`, commit `6e161836` |
 
-Efter dessa tio grupper har 174 tidigare otäckta strängar granskats. Deltafiler
+Efter dessa tretton grupper har 219 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
 kontrollerade former som rätteligen lämnades kvar. Den jämförbara lokala
-täckningen är därmed minst 10 071 av 40 427 strängar, alltså **24,91 %**;
-30 356 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
+täckningen är därmed minst 10 116 av 40 427 strängar, alltså **25,02 %**;
+30 311 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
 ny radgranskning, eftersom den rättar formuleringen av en redan granskad
 sekvensrenderingssträng.
 
