@@ -9395,3 +9395,15 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1026.po är den samlade
 manuella deltafilen för batch 957–1 026. Den innehåller 637
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 027 — meshresurser för Geometry Nodes
+
+Batch 1 027 granskar åtta resursbeskrivningar och uttag för dynamiskt tyg,
+kurvrör och manifoldkanter. Den normaliserar *meshgeometri*, *rörmesh*,
+*rörmeshar*, *meshgenerering*, *meshyta* och *ytmesh*. Batchen är lokalt
+granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1027.po är den samlade
+manuella deltafilen för batch 957–1 027. Den innehåller 645
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
