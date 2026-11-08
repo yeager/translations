@@ -9292,3 +9292,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1018.po är den samlade
 manuella deltafilen för batch 957–1 018. Den innehåller 506
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 019 — manifoldmeshar och dataöverföring
+
+Batch 1 019 granskar två modifierartexter för skulpteringsverktygets
+manifoldlösare och Data Transfer. Den använder *manifoldmeshar* och
+*källmesh* i stället för de generiska formerna *manifold-nät* och *källnät*.
+Batchen är lokalt granskad, men ännu inte verifierad som importerad i Blender
+Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1019.po är den samlade
+manuella deltafilen för batch 957–1 019. Den innehåller 508
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
