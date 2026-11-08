@@ -8953,3 +8953,15 @@ men ännu inte verifierad som importerad i Blender Translate.
 manuella deltafilen för batch 957–991. Den innehåller 272
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 992 — Meshvalidering och fel
+
+Batch 992 granskar tio fel- och valideringssträngar för meshdata, bakning,
+dataöverföring och kurvskulptering. Den använder *hörnpunkt*, *meshslinga*,
+*meshar*, *meshobjekt* och *ytmesh* i den exakta Blender-kontexten. Batchen är
+lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-957-992.po` är den samlade
+manuella deltafilen för batch 957–992. Den innehåller 282
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
