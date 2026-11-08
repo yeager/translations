@@ -2,6 +2,20 @@
 
 Senaste lokala arbete: 8 november 2026.
 
+## Batch 1 296 — UV-rymd i packning och rutnät
+
+Tre kontexter i Geometry Nodes och UV-redigeraren använder nu *UV-rymd* för
+den tvådimensionella koordinatdomänen: packning av UV-öar, jämförande val av
+ytarea och UV-redigerarens rutnätsindelning. Det skiljer dem från
+*texturutrymme*, som i Blender är en separat 3D-box för texturkoordinater.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1296-uv-coordinate-space.po`
+innehåller tre poster och har SHA-256
+`7478ba138af0d3f3d6504b711fee350c665691eb420e442ca4201851994734bb`.
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
+diffkontroll och Gitleaks passerade. Batchen är lokalt färdig och redo för
+manuell import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 295 — UV- och 3D-rymd
 
 Blenders UV-redigerare jämför längd och area antingen i UV-kartan eller i den
