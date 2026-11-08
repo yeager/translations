@@ -8917,3 +8917,15 @@ granskad, men ännu inte verifierad som importerad i Blender Translate.
 manuella deltafilen för batch 957–988. Den innehåller 242
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 989 — Meshdetalj och kollision
+
+Batch 989 granskar tio strängar för dynamisk topologi, målningshåligheter,
+kollision och visningsfilter. Den använder *meshgeometri*, *meshdetalj*,
+*meshen* och *meshobjekt* i enlighet med termbasen. Batchen är lokalt
+granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-957-989.po` är den samlade
+manuella deltafilen för batch 957–989. Den innehåller 252
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
