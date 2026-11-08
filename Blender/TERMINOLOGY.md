@@ -96,6 +96,7 @@ Senast uppdaterad: 2026-11-08.
 | collection exporter | samlingsexportör | Exportör som är kopplad till en specifik Blender-samling. |
 | collection export handler | exporthanterare för samlingen | Hanterar konfigurerad export av en samling. |
 | instance offset | instansförskjutning | Förskjutning från origo som används när en samling instansieras. |
+| instancing | instansiering | Processen att skapa eller använda instanser. Använd inte den oidiomatiska formen *instansering*. |
 | instance collections on appending/linking | instansiera samlingar vid tillägg/länkning | Filbläddrarens inställningar som bestämmer om samlingar skapas som instanser vid importmetoderna Lägg till och Länka. |
 | intersection priority | korsningsprioritet | Line Art-värde som bestämmer vilket objekt en korsningslinje hör till. |
 | project | projekt | Avser Blenders projektkatalog och dess inställningar. |
