@@ -532,6 +532,7 @@ Senast uppdaterad: 2026-11-08.
 | Shader Editor | shaderredigerare | UI-namn för nodredigeraren för shaders. Behåll facktermen *shader* och skriv sammansättningen ihop. |
 | Texture Node Editor | texturnodredigerare | UI-namn för nodredigeraren för texturer. |
 | compositor (process) | komposition | Blender-funktionen för bildkomposition; *Compositor Node Tree* blir *kompositionsnodträd*. |
+| compositing node group | kompositionsnodgrupp | Nodgrupp som utför eller styr bildkomposition. Skilj den från miljön *Kompositör*; använd inte *kompositnodgrupp* eller *kompositeringsnodgrupp*. |
 | selection set | urvalsuppsättning | Namngiven samling av valbara element. |
 | delta location | deltaförflyttning | Extra förflyttning som läggs till ett objekts position. |
 | empty | tomobjekt | Blender-objekt utan egen geometri, till exempel för referensbilder eller hjälpkontroller. |
