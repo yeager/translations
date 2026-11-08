@@ -3172,6 +3172,21 @@ Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
 Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
 ingen Blender Translate-import är verifierad här.
 
+## Batch 1 279 — valbarhet
+
+Fyra XR-, 3D-vy- och armatursträngar skiljer korrekt på *valbar* och
+*markerbar*. Resultatet använder Blenders konsekventa tillståndstermer
+*valbar*, *icke-valbar* och *icke-valbart*. Deltafilen
+`blender-ui-sv-reviewed-batch-1279-selectable.po` innehåller fyra poster och
+har SHA-256
+`84b340c809fbd3b4748b93cfd5ea64d2a8869e8768e9d9f09e31b1b5ee212efc`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+Gitleaks passerade. Hunspell saknar API-termen *raycast-resultatet*, som
+avsiktligt behålls i XR-hjälptextens tekniska kontext. Batchen är lokalt
+färdig och redo för manuell import; ingen Blender Translate-import är
+verifierad här.
+
 ## Batch 1 278 — senast använda mappar
 
 Filbläddarens historiketikett rättas från den ofullständiga formen *Senaste
