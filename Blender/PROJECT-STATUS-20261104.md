@@ -9420,3 +9420,17 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1028.po är den samlade
 manuella deltafilen för batch 957–1 028. Den innehåller 653
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 029 — meshåtgärder och export
+
+Batch 1 029 granskar sex status- och åtgärdstexter för Cycles, skulptering,
+Freestyle och export. Den normaliserar pluralen *meshar* och uttrycken
+*meshobjekt*, *meshredigeringslägen* och *meshliknande yta*. I den konkreta
+skulpteringskontexten blir den oidiomatiska åtgärden *Relax mesh* till
+*Jämna ut mesh*. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1029.po är den samlade
+manuella deltafilen för batch 957–1 029. Den innehåller 659
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
