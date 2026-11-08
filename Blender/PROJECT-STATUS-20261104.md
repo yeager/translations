@@ -9916,6 +9916,19 @@ Translate.
 PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
 innehåller 983 poster.
 
+## Batch 1 069 — Action-datatypens huvudetiketter
+
+Batch 1 069 rättar huvudetiketterna *Action* och *Actions* i Dope Sheet,
+NLA, Action Constraints, resursfilter och datablockslistor. Eftersom de där
+betecknar Blenders formella animationsdatatyp används *Action* och
+*Actioner*, inte *Åtgärd* och *Åtgärder*. Batchen är lokalt granskad men ännu
+inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1069.po` samlar batch
+1 055–1 069 i en separat importfil med 85 översättningsposter (86 med
+PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
+innehåller 983 poster.
+
 ## Releasefärskhet
 
 Kontrollerad 8 november 2026 mot Blenders officiella releasesida:
