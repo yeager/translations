@@ -123,7 +123,8 @@ Senast uppdaterad: 2026-11-08.
 | Outliner | Outliner | Etablerat produktnamn i Blender-manualen. Behåll det på engelska; böj vid behov som *i Outliner*. |
 | linked duplicate | länkad dubblett | Dokumentationens singularform för ett nytt objekt som delar samma objektdata. Den synliga pluraloperatören *Linked Duplicate* kan ha en egen UI-form. |
 | parenting | föräldrarelation / överordnad relation | Beskriver relationen mellan objekt eller ben. Använd *föräldrarelation* i förklarande dokumentation; följ den exakta UI-kontexten för menyåtgärder som *Rensa överordnad*. |
-| rest pose | viloposition | Använd i förklarande armaturtext. Bevara RST-termmål som `<rest pose>`. |
+| rest pose | viloposition | Använd i armaturtext och UI-kommandon. Bevara RST-termmål som `<rest pose>`; använd inte den otydliga formen *vilopose*. |
+| Blender unit | Blender-enhet | Blenders egna måttenhet i egenskaper och beräkningsfel. Böj som *Blender-enheter*; översätt inte till den missvisande formen *rymd(enhet)*. |
 | constraint | begränsning | Blender-funktionen som styr eller begränsar ett objekts eller bens transformation. I sammansättningar: *rotationsbegränsning*, *skalbegränsning*. |
 | Maintain Volume Constraint | volymbevarande begränsning | Begränsning som kompenserar skalning längs de två icke-fria axlarna för att bevara objektets eller benets volym. Använd *fri axel*, *icke-fria axlar* och *viloposition*. |
 | Copy Location / Copy Location Constraint | Kopiera position / Kopiera position-begränsning | Constraint som kopierar ett måls position. Använd *position*, inte den vardagliga och i 3D-kontexten tvetydiga formen *plats*. |
@@ -333,6 +334,7 @@ Senast uppdaterad: 2026-11-08.
 | Grease Pencil frame | Grease Pencil-bildruta | Bildruta i ett Grease Pencil-lager; använd inte *ram* i animeringskontext. |
 | Grease Pencil drawing | Grease Pencil-ritning | Själva ritinnehållet som en Grease Pencil-bildruta refererar till. Använd *ritning*, inte den snävare betydelsen *teckning*. |
 | keyframe / breakdown / extreme | nyckelbildruta / mellanpose / ytterläge | Animeringsbildruta, mellanliggande pose respektive pose i en rörelses ytterläge. |
+| pose segment (Sculpt) | poseringssegment | Segment som Pose Brush skapar från exempelvis en ytuppsättning. Det är inte ett *positionssegment*. |
 | moving hold / jitter keyframe | rörlig hållning / slumpad nyckelbildruta | Animeringslägen där bilden hålls under rörelse respektive där en utfyllnadsbildruta används vid animering på ettor. |
 | annotation frame | anteckningsbildruta | Bildruta som innehåller en anteckning; undvik *ram för anteckning*. |
 | annotation layer | anteckningslager | Lager som samlar relaterade anteckningsstreck. |
