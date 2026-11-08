@@ -646,6 +646,7 @@ Senast uppdaterad: 2026-11-08.
 | tweak control | finjusteringskontroll | En kontroll för lokala deformationer i Rigify. Använd inte det engelska *tweak* i förklarande svensk text. |
 | unhide | visa | I Blenders hierarki betyder åtgärden att ett dolt objekt visas igen, inte att det döljs. |
 | Armature modifier | armaturmodifierare | Modifieraren som kopplar en mesh till en armatur för deformering. |
+| Surface Deform Modifier | ytdeformeringsmodifierare | Modifieraren binder ett objekts geometri till en målmesh och följer sedan dess deformation. Behåll inte den interna identifikatorn *SurfaceDeform* i svensk UI-text. |
 | Armature constraint / target bones | armaturbegränsning / målben | Begränsningen använder viktade posetransformationer från ett eller flera målben. Skilj den från armaturmodifieraren. |
 | automatic weights | automatiska vikter | Viktmålningsmetod för att koppla meshens hörnpunkter till armaturens ben. |
 | widget | widget | Rigifys redigerbara kontrollobjekt. I sammansättning används *widgetobjekt*, *widgetsamling* och *widgetmesh*. |
