@@ -8804,3 +8804,16 @@ Blender Translate.
 manuella deltafilen för batch 957–979. Den innehåller 168
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 980 — Meshbakning och ommeshning
+
+Batch 980 granskar fyra beskrivningar för bakning, vätskeemission och
+ommeshningsmodifieraren. Den använder konsekvent *mesh*, *meshens yta* och
+*meshtopologi*, medan *domänrutnät* bevaras eftersom det betecknar det faktiska
+simuleringsrutnätet. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-957-980.po` är den samlade
+manuella deltafilen för batch 957–980. Den innehåller 172
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
