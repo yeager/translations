@@ -305,6 +305,13 @@ den formella datatypen *Action*, dess slotar och dess datablock från vanliga
 67 poster och är lokalt kontrollerad men ännu inte importerad i Blender
 Translate.
 
+Batch 967 granskar tolv animerings- och importposter för Action-datatypen.
+Den normaliserar bland annat *Action-blandning*, *Action-extrapolering*,
+*Action-datablock* och *Huvud-Actioner* och behåller vanlig *hantering* när
+källans `action` inte är själva datatypen. Samlingsfilen för batch 957–967
+innehåller 79 poster och är lokalt kontrollerad men ännu inte importerad i
+Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
