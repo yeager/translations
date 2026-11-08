@@ -9280,3 +9280,15 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1017.po är den samlade
 manuella deltafilen för batch 957–1 017. Den innehåller 503
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 018 — ommeshning och volym till mesh
+
+Batch 1 018 granskar tre modifierar- och Geometry Nodes-etiketter. Den
+normaliserar *Remesh* till *Ommeshning*, *Volume to Mesh* till *Volym till
+mesh* och *Mesh Deform* till *Meshdeformering*. Batchen är lokalt granskad,
+men ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1018.po är den samlade
+manuella deltafilen för batch 957–1 018. Den innehåller 506
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
