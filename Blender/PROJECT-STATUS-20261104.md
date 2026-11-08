@@ -2,6 +2,20 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 306 — volymers begränsningsboxar
+
+Två visningsbeskrivningar för Volumes trådramsläge syftar på
+tredimensionella omslutande volymer, inte på bild- eller spårningsrutor.
+De normaliseras därför till *begränsningsbox* respektive
+*begränsningsboxar*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1306-volume-bounding-boxes.po`
+innehåller två ändrade poster och har SHA-256
+`47a89ed834d6090c4969f55f478d6a913365c9c8a5611531b8f0c7c3d9a8d4c8`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 305 — positionsöverskrivning i objektrymd
 
 Penselverktygens interna `override_location`-parameter räknar om
