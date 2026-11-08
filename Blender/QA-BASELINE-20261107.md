@@ -99,3 +99,19 @@ datumformat är standardiserade formatvärden, `glTF` har sin projektspecifika
 stavning, tekniska platshållare ska bevaras och den svenska formen `t.ex.`
 behöver inte källtextens engelska kolon. Fortsätt därför prioritera konkreta
 terminologiska och idiomatiska avvikelser framför dessa generella signaler.
+
+## Effektiv kontroll efter batch 1 080
+
+Den 8 november byggdes QA-underlaget om från samma lokala export, med
+samlingsdeltana 811–956, 957–1 054 och 1 055–1 080 ovanpå. Underlaget har
+40 429 översatta poster och är enbart lokalt granskningsunderlag, inte en
+uppladdningsbar PO-fil.
+
+`msgfmt --check` gav endast fem förväntade headernotiser från de avsiktligt
+minimala deltapaketen. `l10n-lint` gav 0 fel och 27 varningar; det fanns inga
+träffar för felstavning eller false friends. De två varningarna om dubbla ord
+gäller den matematiska formen *upplösning × upplösning/2* respektive en
+formatplatshållare `{:s}`. Kontrollerade versal-, datum-, intervall- och
+interpunktionsvarningar beror på etablerade svenska former som `t.ex.`,
+`glTF`, månadskortformer och standardiserade färgrymdsidentifierare. De är
+inte automatiska ändringskandidater.
