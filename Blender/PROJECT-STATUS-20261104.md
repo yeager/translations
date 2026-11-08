@@ -9016,3 +9016,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-996.po är den samlade
 manuella deltafilen för batch 957–996. Den innehåller 311
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 997 — Geometrinoders meshkonvertering
+
+Batch 997 granskar tio korta hjälprader och etiketter för geometri-noder som
+delar upp, konverterar, samplar och distribuerar en mesh. Termerna *mesh*,
+*källgeometri*, *punktmoln*, *UV-karta* och *densitetsrutnät* följer
+Blenders etablerade datatyper och gränssnittskontext. Batchen är lokalt
+granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-997.po är den samlade
+manuella deltafilen för batch 957–997. Den innehåller 321
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
