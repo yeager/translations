@@ -2,6 +2,20 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 303 — objektets begränsningsbox
+
+Två egenskaper för Array- och Curve-verktygen syftar uttryckligen på ett
+objekts tredimensionella *bounding box*. De normaliseras från
+*begränsningsruta* och *begränsningsram* till den etablerade Blender-termen
+*begränsningsbox*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1303-object-bounding-box.po`
+innehåller två ändrade poster och har SHA-256
+`11177cd6988ce229e876402451ff87b60b48eee4343f4aae6e2ac9eb83df675a`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 302 — objektprojektion i objektrymd
 
 Bildtexturens boxprojektion beräknas mot objektets tredimensionella
