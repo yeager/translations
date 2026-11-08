@@ -322,6 +322,8 @@ Senast uppdaterad: 2026-11-08.
 | Start Frame | Startbildruta | Synlig tids- och bildsekvensinställning. |
 | Texture Coordinate | Texturkoordinater | Synligt Blender-nodnamn; singular engelska har plural svensk UI-form. |
 | Mapping | Kartläggning | Synligt Blender-nodnamn. Använd *mappning* bara när sammanhanget inte avser denna specifika nod. |
+| texture coordinate mapping | kartläggning av texturkoordinater | Inställningar och operationer i texturnoder som använder noden *Kartläggning*. Skilj från mer allmän matematisk avbildning. |
+| bump mapping | bumpmappning | Metod som ger en ytas normal ett simulerat djup från en höjdtextur. Skriv ihop, även i *bumpmappningsriktning*. |
 | Environment Texture | Miljötextur | Synligt Blender-nodnamn. |
 | Principled BSDF | Principiell BSDF | Synligt Blender-nodnamn. |
 | Image Texture | Bildtextur | Synligt Blender-nodnamn. |
@@ -501,6 +503,7 @@ Senast uppdaterad: 2026-11-08.
 | Constant Rate Factor (CRF) | Constant Rate Factor (CRF) | Synligt codec-namn som behålls på engelska med förkortningen CRF. Förklara på svenska som avvägningen mellan videokvalitet och filstorlek. |
 | perceptually lossless | visuellt förlustfri | Kvalitetsläge där förlusten inte märks visuellt; undvik det mindre idiomatiska *perceptuellt förlustfri*. |
 | seam margin | sömmarginal | Marginal vid fixering av UV-sömmar under målning. |
+| UV seam / seam mark | UV-söm / UV-sömmarkering | Kantmarkering som delar UV-öar. Använd inte *UV-skarv* eller det ospecifika *UV-sömmar* när själva markeringen avses. |
 | UDIM tile | UDIM-platta | En platta i en UDIM-bildtextur. |
 | float buffer | flyttalsbuffert | Bildbuffert som lagrar värden som flyttal. |
 | library override | biblioteksåsidosättning | Lokal åsidosättning av länkat biblioteksmaterial. |
