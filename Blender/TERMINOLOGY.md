@@ -37,6 +37,7 @@ Senast uppdaterad: 2026-11-08.
 | bake (rendering/simulation) | baka / bakning | Behåll Blenders etablerade verb i procedur- och inställningstexter: *Baka till aktiv kamera*, *bakningsdata*. Det gäller inte köksbetydelsen. |
 | normal space | normalrymd | Val av koordinatrymd för normaldata vid bakning. De konkreta alternativen skrivs *tangentrymd*, *objektrymd* och *världsrymd*. |
 | index space | indexrymd | Koordinatrymd för ett rutnäts diskreta index. Följ samma UI-mönster som *objektrymd* och *världsrymd*; använd inte det mer vardagliga *indexrum*. |
+| grid index space | rutnätsindexrymd | Rutnätsvolymens indexbaserade koordinatrymd. Skriv sammansatt och använd inte *rutnätsindexutrymme*. |
 | screen space | skärmrymd | Koordinatrymd baserad på den aktuella vyportens skärmplan. |
 | onion skinning | lökskalning | Animeringsvisning med spökbilder från närliggande bildrutor. Undvik bokstavliga former som *avskalning av lök*. |
 | onion frame / ghost frame | lökskalsbildruta | Bildruta som visas före eller efter den aktuella bildrutan vid lökskalning. Undvik den missvisande formen *spökram*. |
