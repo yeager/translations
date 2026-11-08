@@ -3172,6 +3172,18 @@ Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
 Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
 ingen Blender Translate-import är verifierad här.
 
+## Batch 1 280 — gör lokala
+
+Två egenskaper för länkade tillagda data använder Blenders etablerade verb
+*gör … lokala*, i stället för den geografiska betydelsen *lokalisera*.
+Deltafilen `blender-ui-sv-reviewed-batch-1280-make-local.po` innehåller två
+poster och har SHA-256
+`1f7793ef67f83f19739b58f810b37a727ba534695c363a030ff1a0489a55fb12`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
+ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 279 — valbarhet
 
 Fyra XR-, 3D-vy- och armatursträngar skiljer korrekt på *valbar* och
