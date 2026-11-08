@@ -9091,3 +9091,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1002.po är den samlade
 manuella deltafilen för batch 957–1 002. Den innehåller 353
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 003 — Geometrinoders meshgeneratorer
+
+Batch 1 003 granskar tolv synliga geometri-nod- och modifierartexter för
+meshgeneratorer, konvertering, triangulering och meshöar. Den bevarar
+*rutnät* för volymgriddar men använder *mesh*, *meshö* och
+*kuboidmesh* för Blenders meshdatatyp. Batchen är lokalt granskad, men ännu
+inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1003.po är den samlade
+manuella deltafilen för batch 957–1 003. Den innehåller 365
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
