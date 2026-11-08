@@ -9758,6 +9758,15 @@ manuella deltafilen för batch 957–1 054. Den innehåller 983
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
 
+## Batch 1 055 — resursbläddrarens kärntermer
+
+Batch 1 055 granskar sju Asset Browser-termer. *Asset* avser här en Blender-
+resurs och normaliseras därför till *resurs*, *resursdata*,
+*resursrepresentation*, *resursetikett* och *svag resursreferens*. Batchen
+hålls separat, så att den importklara samlingsfilen för batch 957–1 054 inte
+överskrider 1 000 poster. Den är lokalt granskad men ännu inte verifierad som
+importerad i Blender Translate.
+
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
 `svlang`, `l10n-lint`, Hunspell och diffkontroll. `msgfmt` och `svlang`
 passerade. De två kvarvarande `l10n-lint`-varningarna är falska positiva: den
