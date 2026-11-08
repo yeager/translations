@@ -10334,3 +10334,16 @@ PO-huvudet). Den understiger 1 000 strängar och har passerat `msgfmt`,
 `l10n-lint`, `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och
 Gitleaks. Den är arkiverad och pushad till `yeager/translations`; manuell
 import i Blender Translate är inte verifierad här.
+
+## Batch 1 120 — SDF-avstånd i objektrymd
+
+Batch 1 120 korrigerar den sista funna `object-space`-formen i den aktuella
+effektkatalogen. SDF-ytans avstånd anges i *objektrymd*, inte det otydliga
+*objektutrymme*.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1120.po` är den
+senaste samlade importfilen med 459 unika översättningsposter (460 med
+PO-huvudet). Den är under 1 000 strängar, lokalt validerad med `msgfmt`,
+`l10n-lint`, `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och
+Gitleaks, samt arkiverad och pushad till `yeager/translations`. Manuell
+import i Blender Translate är fortfarande inte verifierad här.
