@@ -10874,3 +10874,26 @@ fjorton strängar och har SHA-256
 Ingen Weblate-import av dessa batcher är verifierad. De ska därför räknas som
 lokalt färdiga och arkiverade, inte som upstream-inskickade, tills ett
 importresultat visar antal uppdaterade, hoppade över och saknade strängar.
+
+## Batch 1 258–1 259 — Kärnterminologi och intern datamarkering
+
+Batch 1 258 korrigerar nio kontextbundna kärntermer: bland annat
+*Benomslutning*, *punktcache för mjukkropp*, *Ommeshningsmodifierare*,
+*kurvdeformeringsmodifierare*, *Voronoi-sprickmönster* och
+*Stereoskopisk 3D*. Samtidigt rättades åtta äldre Blender-poster i
+`swedish-tm`; redan korrekt *Linjekonst* behölls. Batch 1 259 skiljer den
+interna API-flaggan `bpy.types.ID.tag` (*märka data*) från synliga
+användarskapade taggar. Terminologilistan har den uttryckliga regeln så att
+dessa två betydelser inte blandas ihop.
+
+Alla kontroller passerade: `msgfmt`, l10n-lint, svlang (konsekvens,
+skrivregler och svengelska), Hunspell-kandidatsökning, diffkontroll och
+Gitleaks. Deltafilerna är arkiverade och pushade i commits `267509db` och
+`c919f26b`; TM-uppdateringen är pushad i `swedish-tm`-commit `9df3557`.
+Importfilen `blender-ui-sv-reviewed-import-20261108-batches-1258-1259.po`
+innehåller tio unika poster och har SHA-256
+`d59c3932957dbd53f3ca8ba6382bc09a023f5b7ac80628f5ac96bf3a71c8b5cf`.
+
+Ingen Weblate-import av batch 1 258–1 259 är verifierad här. De är lokalt
+färdiga, arkiverade och redo för manuell import, men inte upstream-inskickade
+förrän importresultatet är bekräftat.
