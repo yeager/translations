@@ -10554,3 +10554,14 @@ samlade importfilen. Den innehåller 540 `msgid`-poster inklusive PO-huvudet,
 alltså 539 översättningsposter och klart under Blenders gräns på 1 000
 strängar per manuell import. Den väntar på lokal validering, arkivering och
 manuell import.
+
+## Batch 1 134 — Renderingslager
+
+Batch 1 134 normaliserar en kvarvarande operatörstext från *renderlager* till
+den etablerade Blendertermen *renderingslager*.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1134.po` är den senaste
+samlade importfilen. Den innehåller 541 `msgid`-poster inklusive PO-huvudet,
+alltså 540 översättningsposter och klart under Blenders gräns på 1 000
+strängar per manuell import. Den väntar på lokal validering, arkivering och
+manuell import.
