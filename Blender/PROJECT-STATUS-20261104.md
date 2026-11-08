@@ -10077,3 +10077,16 @@ Translate.
 1 055–1 080 i en separat importfil med 126 översättningsposter (127 med
 PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
 innehåller 983 poster.
+
+## Batch 1 081 — View Layer-åsidosättningar
+
+Batch 1 081 normaliserar View Layer-egenskapen *Material Override* till
+*materialåsidosättning* och anpassar dess Library Override-felmeddelanden.
+Den vanliga filfunktionen *Overwrite* berörs inte, eftersom den korrekt
+översätts med *överskrivning*. Batchen är lokalt granskad men ännu inte
+verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1081.po` samlar batch
+1 055–1 081 i en separat importfil med 129 översättningsposter (130 med
+PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
+innehåller 983 poster.

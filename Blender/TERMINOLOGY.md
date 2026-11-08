@@ -492,6 +492,8 @@ Senast uppdaterad: 2026-11-08.
 | library override | biblioteksåsidosättning | Lokal åsidosättning av länkat biblioteksmaterial. |
 | override data | åsidosättningsdata | Data för en Library Override; använd inte den äldre formen *överskrivningsdata*. |
 | system override | systemåsidosättning | Systemskapad Library Override i Outlinern. |
+| material override | materialåsidosättning | View Layer-egenskap som ersätter andra material vid rendering. Skilj från en vanlig filöverskrivning. |
+| override object | åsidosättningsobjekt | Objekt som styrs av en Blender-åsidosättning; använd med *bibliotekslänkat* när källan avser länkad biblioteksdata. |
 | override collection | åsidosätt samling | Operatörsegenskap som skapar en åsidosättning av den valda länkade samlingen. |
 | resync (library override) | omsynkronisera / omsynkronisering | Bygger om lokala biblioteksåsidosättningar från länkade referenser; använd inte den mer omständliga formen *synkronisera om* i denna UI-kontext. |
 | light probe | ljussond | Objekt som fångar belysningsdata för indirekt ljus och reflektioner. |
