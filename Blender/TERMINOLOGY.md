@@ -819,6 +819,8 @@ Senast uppdaterad: 2026-11-08.
 | Camera Solver Constraint | kameralösarbegränsning | Begränsning som gör att en Blender-kamera följer den rekonstruerade rörelsen hos en fysisk kamera från ett filmklipp. |
 | compositor (environment) | kompositör | Blenders nodbaserade miljö för bildkomposition; använd *kompositör*, inte det engelska *compositor*. |
 | matte (keying) | matta | Friläggningsmask som beskriver genomskinlighet, inte en fysisk matt yta. |
+| Holdout | matta | Renderings- och visningslagerinställningen som skapar en utskärande matte. Använd också *Ange matte* och *Rensa matte* i Outliners operatorer. |
+| selectable / non-selectable | valbar / icke-valbar | Anger om ett Blender-objekt kan markeras. Använd inte den inkonsekventa formen *markerbar*. |
 | highlight (color correction) | högdager | Ljusaste tonområdet i bild- och färgkorrigeringskontext. |
 | midtone (color correction) | mellanton | Mellanområdet i bildens tonomfång. |
 | gain (color correction) | förstärkning | Färgkorrigeringsparametern för högdagrar eller mellantoner, inte ekonomisk vinst. |
