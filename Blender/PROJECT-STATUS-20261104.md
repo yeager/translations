@@ -3172,6 +3172,21 @@ Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
 Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
 ingen Blender Translate-import är verifierad här.
 
+## Batch 1 286 — återstående operatörstermer
+
+Tio UI-hjälprader och etiketter från tangentkartor, i18n-verktyg,
+resursbibliotek, grafredigeraren och skulpteringen normaliserar Blenders
+API-åtgärdstyp från *operator* till *operatör*. Deltafilen
+`blender-ui-sv-reviewed-batch-1286-operator-terms.po` innehåller tio poster
+och har SHA-256
+`9aa465b8452fbb7e2db5b316c3614be6366d17eb9081ae13014338144588a84b`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+Gitleaks passerade. Hunspell saknar den korrekta domänspecifika
+sammansättningen *i18n-filuppdateringsoperatörerna*. Batchen är lokalt
+färdig, arkiverad och redo för manuell import; ingen Blender Translate-import
+är verifierad här.
+
 ## Batch 1 285 — sökoperatör
 
 Två sammanhängande UI-strängar i Blenders globala operatörssökning
