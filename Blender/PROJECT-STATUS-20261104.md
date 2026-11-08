@@ -10477,3 +10477,17 @@ samlade importfilen. Den innehåller 498 `msgid`-poster inklusive PO-huvudet,
 alltså 497 översättningsposter och klart under Blenders gräns på 1 000
 strängar per manuell import. Den väntar på lokal validering, arkivering och
 manuell import.
+
+## Batch 1 129 — Outliner, del 1
+
+Batch 1 129 fortsätter normaliseringen av Blenders etablerade produktnamn
+*Outliner*. Åtta RNA- och operatörstexter ersätter det generiska
+*översikten* med det faktiska UI-namnet, inklusive de interna
+`SpaceOutliner`-beskrivningarna där *område* och *områdesdata* följer den
+etablerade RNA-terminologin.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1129.po` är den senaste
+samlade importfilen. Den innehåller 504 `msgid`-poster inklusive PO-huvudet,
+alltså 503 översättningsposter och klart under Blenders gräns på 1 000
+strängar per manuell import. Den väntar på lokal validering, arkivering och
+manuell import.
