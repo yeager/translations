@@ -8534,3 +8534,19 @@ den separata manuella deltafilen med de nio rättningarna.
 manuella deltafilen för batch 811–946. Den innehåller 922
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 947 — fjärranslutna resurser och cache
+
+Batch 947 omfattar två synliga Asset Browser-strängar. *Asset downloads*
+normaliseras till *resurshämtningar*, medan *download cache directory* använder
+den idiomatiska formuleringen *cachekatalogen för nedladdning*, i enlighet med
+den tidigare fastställda svenska formuleringen. Batchen är lokalt granskad,
+men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-947-remote-asset-cache.po` är den
+separata manuella deltafilen med de två rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-947.po` är den samlade
+manuella deltafilen för batch 811–947. Den innehåller 924
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
