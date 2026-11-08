@@ -2,6 +2,20 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 307 — intern märkning och skarpa kanter
+
+Två olika betydelser av *tag* skiljs åt. Den interna flaggan
+`bpy.types.ID.tag` beskriver att data *märks* för verktygens egen användning,
+medan en *tagged edge* i utjämningsinställningen är en *markerad kant*.
+Användarskapade synliga taggar berörs inte.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1307-internal-tags-and-sharp-edges.po`
+innehåller två ändrade poster och har SHA-256
+`b77396966b8d3c3ffc653f88b6cdae6117e5bf8163c3bc5de799c162e99ad462`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 306 — volymers begränsningsboxar
 
 Två visningsbeskrivningar för Volumes trådramsläge syftar på
