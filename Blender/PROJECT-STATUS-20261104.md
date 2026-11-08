@@ -8414,3 +8414,19 @@ granskad, men ännu inte verifierad som importerad i Blender Translate.
 manuella deltafilen för batch 811–939. Den innehåller fortsatt 839
 översättningsposter, eftersom batchen ersätter tidigare formuleringar i
 samma identiteter.
+
+## Batch 940 — resurser på nätet och interaktion
+
+Batch 940 granskar resursbläddrarens interaktion och onlinefilter. Den
+normaliserar synlig UI till *resurs* och använder *på nätet* i stället för
+det engelskpåverkade *online*, medan de API-nära posterna från batch 939
+fortsätter använda *tillgång*. Batchen är lokalt granskad, men ännu inte
+verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-940-asset-browser-online-and-interaction.po`
+är den separata manuella deltafilen med de nio rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-940.po` är den samlade
+manuella deltafilen för batch 811–940. Den innehåller 848
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
