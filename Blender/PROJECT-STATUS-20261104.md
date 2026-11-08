@@ -10565,3 +10565,10 @@ samlade importfilen. Den innehåller 541 `msgid`-poster inklusive PO-huvudet,
 alltså 540 översättningsposter och klart under Blenders gräns på 1 000
 strängar per manuell import. Den väntar på lokal validering, arkivering och
 manuell import.
+
+## Batch 1 135 — Library Override-kontext
+
+Batch 1 135 rättar en hjälpttext för kamerans bakgrundsbild. Samma koncept
+benämndes först *biblioteksåsidosättning* men förkortades därefter till bara
+*åsidosättningen*. Texten använder nu den fullständiga och konsekventa termen
+även i den andra hänvisningen.
