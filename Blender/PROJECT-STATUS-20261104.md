@@ -276,6 +276,12 @@ avser den formella animeringsdatatypen. Den separata samlingsfilen för
 batch 957–961 innehåller 40 poster och är lokalt kontrollerad men ännu inte
 importerad i Blender Translate.
 
+Batch 962 granskar fyra penselposter för viktmålning, verktygsval,
+skulpteringsdetaljer och penselresurser. Den ersätter den äldre formen
+*borste* med den fastställda Blender-termen *pensel*. Samlingsfilen för
+batch 957–962 innehåller 44 poster och är lokalt kontrollerad men ännu inte
+importerad i Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
