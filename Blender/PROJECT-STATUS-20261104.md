@@ -2,6 +2,19 @@
 
 Senaste lokala arbete: 8 november 2026.
 
+## Batch 1 297 — kompositeringsrymd
+
+En socketbeskrivning för standardindatan *Uniform Image Coordinates* använder
+Blenders svenska term *kompositering* och gör tydligt att det rör en
+koordinatdomän: *kompositeringsrymd*, inte *komponeringsutrymme*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1297-compositing-space.po`
+innehåller en post och har SHA-256
+`0005a6a9bd163c2c91f8877d0d9d04054c771e1b73114c5b55737109a1d5671e`.
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
+diffkontroll och Gitleaks passerade. Batchen är lokalt färdig och redo för
+manuell import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 296 — UV-rymd i packning och rutnät
 
 Tre kontexter i Geometry Nodes och UV-redigeraren använder nu *UV-rymd* för

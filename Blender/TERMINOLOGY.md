@@ -60,6 +60,7 @@ Senast uppdaterad: 2026-11-08.
 | screen space | skärmrymd | Koordinatrymd baserad på den aktuella vyportens skärmplan. |
 | 3D space | 3D-rymd | Den tredimensionella koordinatrymden i noder, vyportar och geometri. Använd inte *3D-utrymme* i denna betydelse. |
 | UV space | UV-rymd | UV-redigerarens tvådimensionella koordinatdomän. Använd *UV-rymd* vid jämförelse av längd eller area i UV-kartan; skilj från 3D-rymd, som avser den underliggande geometrin. |
+| compositing space | kompositeringsrymd | Koordinatdomänen för kompositörens enhetliga bildkoordinater. Projektets svenska manual använder *kompositering*; undvik därför *komponeringsutrymme*. |
 | geometry space / image space | geometrirymd / bildrymd | Koordinatdomäner i Grease Pencil Line Art, längdmodifieraren och Geometry Nodes. Använd inte *geometriutrymme* eller *bildutrymme* när de avser referensrymden för beräkningen. |
 | force space | kraftrymd | Referensrymd för en kraftvektor i Geometry Nodes. Använd *kraftrymd*, inte det vaga *kraftutrymme*. |
 | onion skinning | lökskalning | Animeringsvisning med spökbilder från närliggande bildrutor. Undvik bokstavliga former som *avskalning av lök*. |
