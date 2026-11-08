@@ -10703,3 +10703,13 @@ samlade manuella importfilen. Den innehåller 632 `msgid`-poster inklusive
 PO-huvudet, alltså 631 unika översättningsposter. Den är lokalt kontrollerad
 och ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
 Translate är inte verifierad här.
+
+## Deltafil — senaste 24 timmarna
+
+`blender-ui-sv-reviewed-20261108-changes-last24h.po` sammanför de 194
+granskade Blender-deltabatcher som lades till i Git-historiken under de
+senaste 24 timmarna vid filens skapande. Nyare batchar prioriteras när samma
+källsträng förekommer i flera delbatcher. Filen innehåller 1 586 `msgid`-
+poster inklusive PO-huvudet, alltså 1 585 unika översättningsposter. Den är
+avsedd som en komplett lokal översikt över periodens ändringar, inte som en
+enda Blender Translate-uppladdning eftersom den överskrider 1 000 strängar.
