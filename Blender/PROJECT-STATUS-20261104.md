@@ -9357,3 +9357,15 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1023.po är den samlade
 manuella deltafilen för batch 957–1 023. Den innehåller 576
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 024 — USD-export och skulptering
+
+Batch 1 024 granskar sjutton texter för USD-/STL-export, skulptering och
+inställningar. Den använder bland annat *triangulerad mesh*, *basmesh*,
+*meshar*, *meshdetaljer*, *meshredigeringsläge* och *meshdata*. Batchen är
+lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1024.po är den samlade
+manuella deltafilen för batch 957–1 024. Den innehåller 593
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
