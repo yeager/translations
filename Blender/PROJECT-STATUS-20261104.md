@@ -9888,6 +9888,20 @@ sluttecknet i två tekniska fältnamnssträngar och är inte varningar eller fel
 Hunspell gav inga träffar i batch 1 062; samlingsfilens två träffar är de
 förväntade tekniska formerna `.asset.blend-fil` och *resursdatablock*.
 
+## Batch 1 067 — Light Probe-samling
+
+Batch 1 067 rättar Light Probe-inställningen *Invert Collection*. Den gamla
+översättningen *Inverterad kollektion* var både en missvisande participform
+och fel term för Blenders `Collection`. Den nya etiketten är *Invertera
+samling*, vilket följer inställningens verbform och terminologins term
+*samling*. Batchen är lokalt granskad men ännu inte verifierad som importerad
+i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1067.po` samlar batch
+1 055–1 067 i en separat importfil med 82 översättningsposter (83 med
+PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
+innehåller 983 poster.
+
 ## Releasefärskhet
 
 Kontrollerad 8 november 2026 mot Blenders officiella releasesida:

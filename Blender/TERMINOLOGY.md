@@ -5,7 +5,7 @@ granskning, inte en ersättning för strängens sammanhang: kontrollera alltid
 operator, panel, tooltip, Python-identifierare och närliggande strängar innan
 du ändrar en översättning.
 
-Senast uppdaterad: 2026-11-07.
+Senast uppdaterad: 2026-11-08.
 
 ## Grundtermer
 
@@ -72,6 +72,7 @@ Senast uppdaterad: 2026-11-07.
 | library weak reference | svag biblioteksreferens | Svag referens till ett datablock i en annan .blend-biblioteksfil. |
 | object | objekt | Etablerad Blender-term. |
 | collection | samling | Avser Blenders objektbehållare, inte en godtycklig lista. |
+| invert collection | invertera samling | Etikett för Light Probe-inställningen `invert_visibility_collection`; använd verbform, inte *inverterad kollektion*. |
 | collection exporter | samlingsexportör | Exportör som är kopplad till en specifik Blender-samling. |
 | collection export handler | exporthanterare för samlingen | Hanterar konfigurerad export av en samling. |
 | instance offset | instansförskjutning | Förskjutning från origo som används när en samling instansieras. |
