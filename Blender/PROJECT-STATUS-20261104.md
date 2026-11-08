@@ -10945,3 +10945,15 @@ diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 `edc0e674`; TM-ändringen är pushad i `swedish-tm`-commit `e8096db`.
 Ingen Weblate-import är verifierad; batchen är lokalt färdig och redo för
 manuell import.
+
+## Samlad import — batch 1 260–1 262
+
+`blender-ui-sv-reviewed-import-20261108-batches-1260-1262.po` samlar de åtta
+unika Hair Nodes-posterna i batch 1 260–1 262 i en importbar deltafil. Den
+innehåller inte hela Blender-katalogen och har SHA-256
+`dc76fd2740273a735cb1376b8f707a69d491f24395a8d3855b7c9369392636f0`.
+Filen har verifierats med `msgfmt`, l10n-lint, svlang, diffkontroll och
+Gitleaks, och är arkiverad och pushad i commit `7a33a7c2`.
+
+Importstatus: redo för manuell Weblate-import; inget importresultat är
+verifierat här.
