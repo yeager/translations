@@ -3172,6 +3172,19 @@ Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
 Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
 ingen Blender Translate-import är verifierad här.
 
+## Batch 1 288 — koordinatrymder
+
+Två databeskrivningar för kameraspårning och mesh-tangenter normaliserar
+*camera space* och *local space* till de precisa Blender-termerna
+*kamerarymd* respektive *lokal koordinatrymd*. Deltafilen
+`blender-ui-sv-reviewed-batch-1288-coordinate-spaces.po` innehåller två
+poster och har SHA-256
+`da9e1cabf85ff44bf130cd657cf4bd9bec1f14849319adbc3fafa4a519e4c24f`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+Gitleaks passerade. Batchen är lokalt färdig, arkiverad och redo för manuell
+import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 287 — operatörer i hjälprader
 
 Åtta hjälprader och etiketter från Geometry Nodes, informationsredigeraren,
