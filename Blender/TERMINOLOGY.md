@@ -794,7 +794,7 @@ Senast uppdaterad: 2026-11-07.
 | map UV | UV-mappning | Kompositörsnod som använder UV-koordinater för texturmappning. |
 | power/logarithm/fraction | potens/logaritm/bråkdel | Matematiknodernas svenska operationstermer. |
 | Keying (compositor) | nyckling | Kompositörens friläggnings-/keyingfunktion, inte nyckelbildrutor. |
-| mesh edge/loop | meshkant/meshslinga | Meshens topologiska kant respektive slinga. |
+| mesh edge / mesh face / mesh loop | meshkant / meshyta / meshslinga | Meshens topologiska kant, yta respektive slinga. |
 | vertex (mesh API) | hörnpunkt | RNA-datatypen *MeshVertex* och dess egenskaper; använd sammansättningar som *hörnpunktsvikt*. |
 | face (mesh API) | yta | Meshens polygonala yta; undvik det bokstavliga *ansikte* i denna kontext. |
 | Freestyle edge/face mark | Freestyle-kant-/ytmarkering | Markerar vilka meshkanter eller -ytor som Freestyle får använda. |
