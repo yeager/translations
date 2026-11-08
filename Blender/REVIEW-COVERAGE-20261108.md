@@ -56,6 +56,7 @@ har skapats av senare granskningar.
 | Bake Action: menyetikett för Action-datatyp | 1 | 1 | 0 | `blender-ui-sv-reviewed-batch-1253-bake-action-label.po`; terminologirättelse efter tidigare Action-granskning, ej inräknad som ny täckning |
 | Python Console: navigering, urklipp och körningskontext | 15 | 0 | 15 | `REVIEW-CONSOLE-20261108.md`; kontrollgruppen saknar deltafil och är inte inräknad i den äldre basmätningen |
 | Projektarbetsyta: projektrot, konfiguration och felmeddelanden | 15 | 0 | 15 | `REVIEW-PROJECT-WORKSPACE-20261108.md`; kontrollgruppen saknar deltafil och är inte inräknad i den äldre basmätningen |
+| Övre fältet: projektväljare och senaste projekt | 5 | 0 | 5 | `REVIEW-TOPBAR-20261108.md`; kontrollgruppen saknar deltafil och är inte inräknad i den äldre basmätningen |
 
 Efter dessa tjugosju grupper har 419 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
