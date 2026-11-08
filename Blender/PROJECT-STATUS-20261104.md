@@ -343,6 +343,12 @@ nätåtkomst och importval, men lämnar API- och RNA-namnen `Asset Data` och
 118 poster och är lokalt kontrollerad men ännu inte importerad i Blender
 Translate.
 
+Batch 973 granskar tio synliga texter i resurshyllan: filtrering, miniatyrer,
+dragning och val av resursbibliotek. Den ersätter inkonsekvent *tillgång* med
+*resurs* i den konkreta Asset Browser-kontexten. Samlingsfilen för batch
+957–973 innehåller 128 poster och är lokalt kontrollerad men ännu inte
+importerad i Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
