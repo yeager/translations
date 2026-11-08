@@ -2,6 +2,20 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 302 — objektprojektion i objektrymd
+
+Bildtexturens boxprojektion beräknas mot objektets tredimensionella
+avgränsningsvolym. Den korrigeras därför från *begränsningsrutan i
+objektrummet* till *begränsningsboxen i objektrymd*, enligt Blender-termerna
+*object bounding box* och *object space*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1302-object-space-projection.po`
+innehåller en ändrad post och har SHA-256
+`fb778658db70f73de63de571aa81d10596958bf198269c547e2a544a3ee77da7`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 301 — UV-rymd i lightmap-packning
 
 Inställningen för marginalandel i operatören *Lightmap Pack* räknas i samma
