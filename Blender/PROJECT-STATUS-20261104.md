@@ -230,6 +230,12 @@ använder *resurser* i resursbläddrarens kontext samt *på nätet* och
 *nätåtkomst* i stället för engelskpåverkade former med *online*. Deltafilen
 är lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 954 granskar femton Geometry Nodes-poster för kurv-, mesh-, ljud- och
+UV-provtagning. Den använder den fastställda nodtermen *provta*, behåller
+Blender-datatypen *mesh* och normaliserar bland annat *källmeshen* och
+*indatameshen*. Deltafilen är lokalt kontrollerad och ännu inte importerad i
+Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
