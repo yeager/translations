@@ -8397,3 +8397,20 @@ verifierad som importerad i Blender Translate.
 manuella deltafilen för batch 811–938. Den innehåller 839
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 939 — gräns mellan UI och API
+
+Batch 939 korrigerar sju API-nära *asset*-poster efter kontroll mot den
+projektspecifika terminologin. Asset Browser använder *resurs* i sin synliga
+UI, medan RNA/API-typerna *Asset Data*, *Asset Representation* och
+*Asset Weak Reference* använder *tillgång*; exempelvis
+*tillgångsrepresentation* och *svag tillgångsreferens*. Batchen är lokalt
+granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-939-asset-api-context-corrections.po`
+är den separata manuella deltafilen med kontextkorrigeringarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-939.po` är den samlade
+manuella deltafilen för batch 811–939. Den innehåller fortsatt 839
+översättningsposter, eftersom batchen ersätter tidigare formuleringar i
+samma identiteter.
