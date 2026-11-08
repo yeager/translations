@@ -47,15 +47,15 @@ har skapats av senare granskningar.
 | USD: formnyckel- och morfmålsdiagnostik | 4 | 4 | 0 | `blender-ui-sv-reviewed-batch-1247-usd-blendshape-diagnostics.po`, commit `2f515f34` |
 | SPZ: rubrik- och byteordningsdiagnostik | 2 | 2 | 0 | `blender-ui-sv-reviewed-batch-1248-spz-header-diagnostics.po`, commit `458a1420` |
 | USD: tillgångar, skelett och kurvdiagnostik | 70 | 3 | 67 | `blender-ui-sv-reviewed-batch-1249-usd-assets-skeleton.po` |
-| Alembic: import- och exportdiagnostik | 22 | 0 | 22 | `REVIEW-ALEMBIC-DIAGNOSTICS-20261108.md` |
-| SPZ: läs- och dekomprimeringsdiagnostik | 16 | 0 | 16 | `REVIEW-SPZ-READ-DIAGNOSTICS-20261108.md` |
-| OTIO, PLY, OBJ och STL: import- och exportdiagnostik | 25 | 0 | 25 | `REVIEW-FORMAT-IO-DIAGNOSTICS-20261108.md` |
+| Alembic: import- och exportdiagnostik | 20 | 0 | 20 | `REVIEW-ALEMBIC-DIAGNOSTICS-20261108.md` |
+| SPZ: läs- och dekomprimeringsdiagnostik | 15 | 0 | 15 | `REVIEW-SPZ-READ-DIAGNOSTICS-20261108.md` |
+| OTIO, PLY, OBJ och STL: import- och exportdiagnostik | 24 | 0 | 24 | `REVIEW-FORMAT-IO-DIAGNOSTICS-20261108.md` |
 
-Efter dessa tjugofem grupper har 408 tidigare otäckta strängar granskats. Deltafiler
+Efter dessa tjugofem grupper har 404 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
 kontrollerade former som rätteligen lämnades kvar. Den jämförbara lokala
-täckningen är därmed minst 10 305 av 40 427 strängar, alltså **25,49 %**;
-30 122 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
+täckningen är därmed minst 10 301 av 40 427 strängar, alltså **25,48 %**;
+30 126 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
 ny radgranskning, eftersom den rättar formuleringen av en redan granskad
 sekvensrenderingssträng.
 

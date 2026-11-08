@@ -2,7 +2,7 @@
 
 ## Omfattning
 
-16 tidigare ospårade strängar under `source/blender/io/spz/` har
+16 SPZ-strängar under `source/blender/io/spz/` har
 kontrollerats i SPZ-formatets rubrik-, GZip- och NGSP-läsare.
 
 ## Resultat
@@ -16,5 +16,7 @@ följer den begreppsform som redan har granskats för SPZ-rubriken.
 ## Kontroller
 
 Källhänvisningarna och läsarnas felvägar har jämförts med den aktuella
-exporten. Ingen deltafil skapas, eftersom alla 16 måltexter är korrekta i
-sin tekniska kontext.
+exporten. En delad importdiagnostik var redan bokförd i USD-gruppen; denna
+grupp tillför därför 15 nya identiteter till täckningsmätningen. Ingen
+deltafil skapas, eftersom alla 16 måltexter är korrekta i sin tekniska
+kontext.

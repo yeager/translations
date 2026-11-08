@@ -2,14 +2,16 @@
 
 ## Omfattning
 
-22 tidigare ospårade strängar under `source/blender/io/alembic/` har
+22 Alembic-strängar under `source/blender/io/alembic/` har
 kontrollerats i läsarnas, importörens och exportörens diagnostikkontext.
 De omfattar samlingar, objektvägar, typerna `Camera`, `Curves`, `PolyMesh`,
 `SubD`, `NURBS`, `Points` och `XForm`, punktprov, arkiv, scen och förlopp.
 
 ## Resultat
 
-Samtliga 22 strängar är korrekta och lämnas oförändrade. `Alembic`,
+Samtliga 22 strängar är korrekta och lämnas oförändrade. Två delade
+importdiagnostiker var redan bokförda i USD-gruppen; därför tillför denna
+grupp 20 nya identiteter till täckningsmätningen. `Alembic`,
 `Camera`, `Curves`, `PolyMesh`, `SubD`, `NURBS`, `Points` och `XForm` är
 formatspecifika eller synliga typnamn och behålls avsiktligt. De svenska
 termerna `samling`, `objekttyp`, `objektsökväg`, `punktprov`, `arkiv` och
