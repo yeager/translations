@@ -10250,3 +10250,19 @@ PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
 Filen är lokalt validerad, arkiverad och pushad till `yeager/translations`,
 men väntar på manuell import i Blender Translate. Det finns fortfarande inget
 verifierat importresultat för den här senaste samlingsfilen.
+
+## Batch 1 109–1 111 — Gizmo
+
+Batcherna 1 109–1 111 gör en konsekvent terminologigenomgång av Blenders
+Gizmo-funktion. I den här produktkontexten behålls *gizmo* enligt termbasen,
+med svenska böjnings- och sammansättningsformer som *gizmor*,
+*gizmostorlek*, *navigeringsgizmo* och *gizmons målegenskap*. De tidigare
+formerna med *manöverdon* är borttagna för Gizmo-källsträngar. Rigifys
+separata UI-begrepp *Widget* behåller däremot översättningen *manöverdon*.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1111.po` samlar batch
+1 055–1 111 i en separat importfil med 378 översättningsposter (379 med
+PO-huvudet). Den är lokalt validerad med `msgfmt`, `l10n-lint`, `svlang
+consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks, arkiverad
+och pushad till `yeager/translations`. Manuell import i Blender Translate är
+fortfarande inte verifierad för den senaste samlingsfilen.
