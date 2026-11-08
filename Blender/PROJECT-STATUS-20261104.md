@@ -10598,3 +10598,16 @@ samlade manuella importfilen. Den innehåller 556 `msgid`-poster inklusive
 PO-huvudet, alltså 555 översättningsposter. Den är lokalt kontrollerad och
 ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
 Translate är inte verifierad här.
+
+## Batch 1 138 — 3D-vyport, uppföljning
+
+Batch 1 138 tar de kvarvarande synliga UI- och hjälptexterna med exakt
+*3D Viewport* som missades av den första sökningen på gemen form. Denna
+uppföljning normaliserar fem poster till *3D-vyport* utan att påverka
+generisk *viewport*.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1138.po` är den senaste
+samlade manuella importfilen. Den innehåller 560 `msgid`-poster inklusive
+PO-huvudet, alltså 559 unika översättningsposter. Den är lokalt kontrollerad
+och ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
+Translate är inte verifierad här.
