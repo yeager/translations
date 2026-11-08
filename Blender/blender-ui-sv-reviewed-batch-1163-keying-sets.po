@@ -1,0 +1,127 @@
+# Blender UI Swedish review delta: Keying Set terminology
+# Reviewed against Blender/TERMINOLOGY.md and archived Blender UI batches.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender UI\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. :src: bpy.types.KeyingSet
+#. :src: bpy.types.ANIM_OT_keyframe_delete.type
+#. :src: bpy.types.ANIM_OT_keyframe_delete_by_name.type
+#. :src: bpy.types.ANIM_OT_keyframe_insert.type
+#. :src: bpy.types.ANIM_OT_keyframe_insert_by_name.type
+#. :src: bpy.types.ANIM_OT_keyframe_insert_menu.type
+#. :src: bpy.types.ANIM_OT_keying_set_active_set.type
+#. :src: bpy.types.OBJECT_OT_select_grouped.type:'KEYINGSET'
+#. :src: bpy.types.POSE_OT_select_grouped.type:'KEYINGSET'
+#: source/blender/blenkernel/intern/anim_sys.cc:148
+#: source/blender/blenkernel/intern/anim_sys.cc:163
+msgid "Keying Set"
+msgstr "Nyckeluppsättning"
+
+#. :src: bpy.types.KeyingSet.bl_description
+msgid "A short description of the keying set"
+msgstr "En kort beskrivning av nyckeluppsättningen"
+
+#. :src: bpy.types.KeyingSet.bl_idname
+msgid "If this is set, the Keying Set gets a custom ID, otherwise it takes the name of the class used to define the Keying Set (for example, if the class name is \"BUILTIN_KSI_location\", and bl_idname is not set by the script, then bl_idname = \"BUILTIN_KSI_location\")"
+msgstr "Om detta anges får nyckeluppsättningen ett anpassat ID; annars används namnet på klassen som definierar nyckeluppsättningen (till exempel: om klassnamnet är ”BUILTIN_KSI_location” och skriptet inte anger bl_idname, blir bl_idname = ”BUILTIN_KSI_location”)"
+
+#. :src: bpy.types.KeyingSet.is_path_absolute
+msgid "Keying Set defines specific paths/settings to be keyframed (i.e. is not reliant on context info)"
+msgstr "Nyckeluppsättningen definierar specifika sökvägar eller inställningar som ska få nyckelbildrutor (dvs. den är inte beroende av kontextinformation)"
+
+#. :src: bpy.types.KeyingSet.paths
+msgid "Keying Set Paths to define settings that get keyframed together"
+msgstr "Sökvägar i nyckeluppsättningen som definierar inställningar som får nyckelbildrutor tillsammans"
+
+#. :src: bpy.types.KeyingSet.type_info
+msgid "Callback function defines for built-in Keying Sets"
+msgstr "Återanropsfunktioner för inbyggda nyckeluppsättningar"
+
+#. :src: bpy.types.KeyingSetPath.group_method:'KEYINGSET'
+msgid "Keying Set Name"
+msgstr "Namn på nyckeluppsättning"
+
+#. :src: bpy.types.KeyingSetPaths
+msgid "Collection of keying set paths"
+msgstr "Samling av sökvägar för nyckeluppsättningar"
+
+#. :src: bpy.types.KeyingSetPaths.active
+#. :src: bpy.types.KeyingSets.active
+#. :src: bpy.types.KeyingSetsAll.active
+#. :src: bpy.types.SCENE_PT_keying_set_paths
+msgid "Active Keying Set"
+msgstr "Aktiv nyckeluppsättning"
+
+#. :src: bpy.types.KeyingSetPaths.active_index
+msgid "Current Keying Set index"
+msgstr "Aktuellt index för nyckeluppsättning"
+
+#. :src: bpy.types.KeyingSets
+#. :src: bpy.types.SCENE_PT_keying_sets
+msgid "Keying Sets"
+msgstr "Nyckeluppsättningar"
+
+#. :src: bpy.types.KeyingSets.active_index
+#. :src: bpy.types.KeyingSetsAll.active_index
+msgid "Active Keying Set Index"
+msgstr "Aktivt index för nyckeluppsättning"
+
+#. :src: bpy.types.KeyingSets.active_index
+#. :src: bpy.types.KeyingSetsAll.active_index
+msgid "Current Keying Set index (negative for 'builtin' and positive for 'absolute')"
+msgstr "Aktuellt index för nyckeluppsättning (negativt för ”inbyggd” och positivt för ”absolut”)"
+
+#. :src: bpy.types.KeyingSetsAll
+msgid "Keying Sets All"
+msgstr "Alla nyckeluppsättningar"
+
+#. :src: bpy.types.KeyingSetsAll
+msgid "All available keying sets"
+msgstr "Alla tillgängliga nyckeluppsättningar"
+
+#. :src: bpy.types.OBJECT_OT_select_grouped.type:'KEYINGSET'
+msgid "Objects included in active Keying Set"
+msgstr "Objekt som ingår i aktivt nyckeluppsättning"
+
+#. :src: bpy.types.ToolSettings.use_keyframe_insert_keyingset
+msgid "Auto Keyframe Insert Keying Set"
+msgstr "Automatisk infogning av nyckeluppsättning"
+
+#. :src: bpy.types.ToolSettings.use_keyframe_insert_keyingset
+msgid "Automatic keyframe insertion using active Keying Set only"
+msgstr "Automatisk infogning av nyckelbilder enbart med den aktiva nyckeluppsättningen"
+
+#: scripts/startup/bl_ui/space_outliner.py:96
+msgid "No Keying Set Active"
+msgstr "Ingen nyckeluppsättning är aktiv"
+
+#: scripts/startup/bl_ui/space_sequencer.py:948
+#: scripts/startup/bl_ui/space_view3d.py:3043
+msgctxt "Operator"
+msgid "Change Keying Set..."
+msgstr "Ändra nyckeluppsättning..."
+
+#: scripts/startup/bl_ui/space_sequencer.py:947
+#: scripts/startup/bl_ui/space_view3d.py:3040
+#: scripts/startup/bl_ui/space_view3d.py:3329
+#: scripts/startup/bl_ui/space_view3d.py:4547
+msgctxt "Operator"
+msgid "Insert Keyframe with Keying Set..."
+msgstr "Infoga nyckelbild med nyckeluppsättning..."
+
+#: scripts/startup/bl_ui/space_time.py:346
+msgid "Only Active Keying Set"
+msgstr "Endast aktiv nyckeluppsättning"
+
+#: source/blender/animrig/intern/keyingsets.cc:448
+msgid "Skipping path in keying set, as it has no ID (KS = '%s', path = '%s[%d]')"
+msgstr "Hoppar över sökvägen i nyckeluppsättningen eftersom den saknar ID (KS = ”%s”, sökväg = ”%s[%d]”)"
+
+#: source/blender/editors/animation/keyframing.cc:254
+#: source/blender/editors/animation/keyframing.cc:646
+msgid "No suitable context info for active keying set"
+msgstr "Ingen lämplig kontextinformation för aktiv nyckeluppsättning"
