@@ -1,0 +1,5107 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.Bone.use_envelope_multiply
+#. :src: bpy.types.EditBone.use_envelope_multiply
+msgid "Multiply Vertex Group with Envelope"
+msgstr "Multiplicera hörnpunktsgrupp med kuvert"
+
+#. :src: bpy.types.Bone.use_envelope_multiply
+#. :src: bpy.types.EditBone.use_envelope_multiply
+msgid ""
+"When deforming bone, multiply effects of Vertex Group weights with Envelope "
+"influence"
+msgstr ""
+"Vid bendeformering multipliceras hörnpunktsgruppens vikter med kuvertets "
+"inflytande"
+
+#. :src: bpy.types.Bone.use_inherit_rotation
+#. :src: bpy.types.EditBone.use_inherit_rotation
+msgid "Bone inherits rotation or scale from parent bone"
+msgstr "Benet ärver rotation eller skalning från det överordnade benet"
+
+#. :src: bpy.types.Bone.use_relative_parent
+#. :src: bpy.types.EditBone.use_relative_parent
+msgid "Relative Parenting"
+msgstr "Relativ överordning"
+
+#. :src: bpy.types.Bone.use_relative_parent
+#. :src: bpy.types.EditBone.use_relative_parent
+msgid "Object children will use relative transform, like deform"
+msgstr ""
+"Underordnade objekt använder relativ transformering, som vid deformering"
+
+#. :src: bpy.types.Bone.use_scale_easing
+#. :src: bpy.types.EditBone.use_scale_easing
+msgid "Scale Easing"
+msgstr "Skalutjämning"
+
+#. :src: bpy.types.Bone.use_scale_easing
+#. :src: bpy.types.EditBone.use_scale_easing
+msgid "Multiply the final easing values by the Scale In/Out Y factors"
+msgstr ""
+"Multiplicera de slutliga utjämningsvärdena med Y-faktorerna för Skala in/ut"
+
+#. :src: bpy.types.BoneCollection
+msgid "Bone collection in an Armature data-block"
+msgstr "Bensamling i ett armaturdatablock"
+
+#. :src: bpy.types.BoneCollection.bones
+msgid ""
+"Bones assigned to this bone collection. In armature edit mode this will "
+"always return an empty list of bones, as the bone collection memberships are "
+"only synchronized when exiting edit mode."
+msgstr ""
+"Ben som är tilldelade denna bensamling. I armaturens redigeringsläge "
+"returneras alltid en tom benlista, eftersom medlemskap i bensamlingar "
+"synkroniseras först när redigeringsläget avslutas."
+
+#. :src: bpy.types.BoneCollection.child_number
+msgid "Child Number"
+msgstr "Underordningsnummer"
+
+#. :src: bpy.types.BoneCollection.child_number
+msgid ""
+"Index of this collection into its parent's list of children. Note that "
+"finding this index requires a scan of all the bone collections, so do access "
+"this with care."
+msgstr ""
+"Den här samlingens index i den överordnade samlingens lista över "
+"underordnade. Att hitta indexet kräver en genomsökning av alla bensamlingar, "
+"så använd det med försiktighet."
+
+#. :src: bpy.types.BoneCollection.index
+msgid ""
+"Index of this bone collection in the armature.collections_all array. Note "
+"that finding this index requires a scan of all the bone collections, so do "
+"access this with care."
+msgstr ""
+"Index för den här bensamlingen i arrayen armature.collections_all. Observera "
+"att det krävs en genomgång av alla bensamlingar för att hitta indexet, så "
+"använd det med försiktighet."
+
+#. :src: bpy.types.BoneCollection.is_editable
+msgid ""
+"This collection is owned by a local Armature, or was added via a library "
+"override in the current blend file"
+msgstr ""
+"Den här samlingen ägs av en lokal armatur eller har lagts till via en "
+"biblioteksåsidosättning i den aktuella blendfilen"
+
+#. :src: bpy.types.BoneCollection.is_expanded
+msgid "This bone collection is expanded in the bone collections tree view"
+msgstr "Den här bensamlingen är expanderad i trädvyn för bensamlingar"
+
+#. :src: bpy.types.BoneCollection.is_local_override
+msgid "Is Local Override"
+msgstr "Är en lokal åsidosättning"
+
+#. :src: bpy.types.BoneCollection.is_local_override
+msgid ""
+"This collection was added via a library override in the current blend file"
+msgstr ""
+"Den här samlingen har lagts till via en biblioteksåsidosättning i den "
+"aktuella blendfilen"
+
+#. :src: bpy.types.BoneCollection.is_solo
+msgid "Show only this bone collection, and others also marked as 'solo'"
+msgstr ""
+"Visa endast den här bensamlingen och andra som också är markerade som ”solo”"
+
+#. :src: bpy.types.BoneCollection.is_visible
+msgid "Bones in this collection will be visible in pose/object mode"
+msgstr "Ben i den här samlingen visas i poserings- och objektläge"
+
+#. :src: bpy.types.BoneCollection.is_visible_ancestors
+msgid "Ancestors Effectively Visible"
+msgstr "Överordnade samlingar är effektivt synliga"
+
+#. :src: bpy.types.BoneCollection.is_visible_ancestors
+msgid ""
+"True when all of the ancestors of this bone collection are marked as "
+"visible; always True for root bone collections"
+msgstr ""
+"Sant när alla överordnade samlingar till den här bensamlingen är markerade "
+"som synliga; alltid sant för rotbensamlingar"
+
+#. :src: bpy.types.BoneCollection.is_visible_effectively
+msgid ""
+"Whether this bone collection is effectively visible in the viewport. This is "
+"True when this bone collection and all of its ancestors are visible, or when "
+"it is marked as 'solo'."
+msgstr ""
+"Anger om den här bensamlingen är effektivt synlig i vyporten. Detta är sant "
+"när bensamlingen och alla överordnade samlingar är synliga eller när den är "
+"markerad som ”solo”."
+
+#. :src: bpy.types.BoneCollection.parent
+msgid ""
+"Parent bone collection. Note that accessing this requires a scan of all the "
+"bone collections to find the parent."
+msgstr ""
+"Överordnad bensamling. Observera att åtkomst till den kräver en genomsökning "
+"av alla bensamlingar för att hitta den överordnade samlingen."
+
+#. :src: bpy.types.BoneCollection.rigify_color_set_id
+msgid "Color Set ID"
+msgstr "ID för färguppsättning"
+
+#. :src: bpy.types.BoneCollection.rigify_sel_set
+msgid "Add Selection Set for this collection"
+msgstr "Lägg till urvalsuppsättning för den här samlingen"
+
+#. :src: bpy.types.BoneCollection.rigify_ui_row
+msgid "UI Row"
+msgstr "UI-rad"
+
+#. :src: bpy.types.BoneCollection.rigify_ui_row
+msgid ""
+"If not zero, row of the UI panel where the button for this collection is "
+"shown"
+msgstr ""
+"Om värdet inte är noll är detta raden i UI-panelen där knappen för den här "
+"samlingen visas"
+
+#. :src: bpy.types.BoneCollection.rigify_ui_title
+#. :src: bpy.types.BoneCollection.rigify_ui_title_name
+msgid "UI Title"
+msgstr "UI-titel"
+
+#. :src: bpy.types.BoneCollectionMemberships
+msgid "Bone Collection Memberships"
+msgstr "Medlemskap i bensamlingar"
+
+#. :src: bpy.types.BoneCollections
+msgid "Armature Bone Collections"
+msgstr "Armaturens bensamlingar"
+
+#. :src: bpy.types.BoneCollections
+msgid "The Bone Collections of this Armature"
+msgstr "Den här armaturens bensamlingar"
+
+#. :src: bpy.types.BoneCollections.active
+msgid "Armature's active bone collection"
+msgstr "Armaturens aktiva bensamling"
+
+#. :src: bpy.types.BoneCollections.active_index
+msgid "Active Collection Index"
+msgstr "Index för aktiv bensamling"
+
+#. :src: bpy.types.BoneCollections.active_name
+msgid "Active Collection Name"
+msgstr "Namn på aktiv bensamling"
+
+#. :src: bpy.types.BoneCollections.active_name
+msgid ""
+"The name of the Armature's active bone collection; empty when there is no "
+"active collection"
+msgstr ""
+"Namnet på armaturens aktiva bensamling; tomt när ingen samling är aktiv"
+
+#. :src: bpy.types.BoneCollections.is_solo_active
+msgid "Solo Active"
+msgstr "Sololäge aktivt"
+
+#. :src: bpy.types.BoneCollections.is_solo_active
+msgid ""
+"Read-only flag that indicates there is at least one bone collection marked "
+"as 'solo'"
+msgstr ""
+"Skrivskyddad flagga som anger att minst en bensamling är markerad som ”solo”"
+
+#. :src: bpy.types.BoolAttributeValue
+msgid "Bool Attribute Value"
+msgstr "Booleskt attributvärde"
+
+#. :src: bpy.types.BoolAttributeValue
+msgid "Bool value in geometry attribute"
+msgstr "Booleskt värde i geometriattribut"
+
+#. :src: bpy.types.BrushCurvesSculptSettings
+msgid "Curves Sculpt Brush Settings"
+msgstr "Inställningar för kurvskulpteringspensel"
+
+#. :src: bpy.types.BrushCurvesSculptSettings.curve_length
+msgid ""
+"Length of newly added curves when it is not interpolated from other curves"
+msgstr ""
+"Längd på nyligen tillagda kurvor när längden inte interpoleras från andra "
+"kurvor"
+
+#. :src: bpy.types.BrushCurvesSculptSettings.curve_radius
+msgid ""
+"Radius of newly added curves when it is not interpolated from other curves"
+msgstr ""
+"Radie för nyligen tillagda kurvor när den inte interpoleras från andra kurvor"
+
+#. :src: bpy.types.BrushCurvesSculptSettings.density_add_attempts
+msgid "Density Add Attempts"
+msgstr "Antal försök att öka tätheten"
+
+#. :src: bpy.types.BrushCurvesSculptSettings.density_mode
+msgctxt "Operator"
+msgid "Density Mode"
+msgstr "Täthetsläge"
+
+#. :src: bpy.types.BrushCurvesSculptSettings.minimum_distance
+msgid "Goal distance between curve roots for the Density brush"
+msgstr "Målavstånd mellan kurvornas rotpunkter för täthetspenseln"
+
+#. :src: bpy.types.BrushCurvesSculptSettings.use_point_count_interpolate
+msgid "Use the number of points from the curves in close proximity"
+msgstr "Använd antalet punkter från närliggande kurvor"
+
+#. :src: bpy.types.BrushGpencilSettings
+msgid "Grease Pencil Brush Settings"
+msgstr "Inställningar för Grease Pencil-pensel"
+
+#. :src: bpy.types.BrushGpencilSettings.angle_factor
+msgid ""
+"Reduce brush thickness by this factor when stroke is perpendicular to "
+"'Angle' direction"
+msgstr ""
+"Minska penseltjockleken med denna faktor när penseldraget är vinkelrätt mot "
+"riktningen som anges av Vinkel"
+
+#. :src: bpy.types.BrushCurvesSculptSettings.use_uniform_scale
+#. :src: Socket name from node group Trim Hair Curves, file procedural_hair_node_assets.blend
+msgid "Scale Uniform"
+msgstr "Skala jämnt"
+
+#. :src: bpy.types.BrushCurvesSculptSettings.use_uniform_scale
+msgid ""
+"Grow or shrink curves by changing their size uniformly instead of using "
+"trimming or extrapolation"
+msgstr ""
+"Förläng eller förkorta kurvor genom att ändra deras storlek jämnt i stället "
+"för att använda trimning eller extrapolering"
+
+#. :src: bpy.types.BlenderRNA
+msgid "Blender RNA"
+msgstr "Blender-RNA"
+
+#. :src: bpy.types.BlenderRNA
+msgid "Blender RNA structure definitions"
+msgstr "Strukturdefinitioner för Blender-RNA"
+
+#. :src: bpy.types.BlenderRNA.structs
+msgid "Structs"
+msgstr "Strukturer"
+
+#. :src: bpy.types.BoidRule
+msgid "Boid Rule"
+msgstr "Boidregel"
+
+#. :src: bpy.types.BoidRule.name
+msgid "Boid rule name"
+msgstr "Namn på boidregel"
+
+#. :src: bpy.types.BoidRule.type:'GOAL'
+#. :src: bpy.types.BOID_OT_rule_add.type:'GOAL'
+msgid "Go to assigned object or loudest assigned signal source"
+msgstr ""
+"Gå till det tilldelade objektet eller den tilldelade signalkälla med "
+"starkast signal"
+
+#. :src: bpy.types.BoidRule.type:'AVOID'
+#. :src: bpy.types.BOID_OT_rule_add.type:'AVOID'
+msgid "Get away from assigned object or loudest assigned signal source"
+msgstr ""
+"Avlägsna dig från det tilldelade objektet eller den tilldelade signalkälla "
+"med starkast signal"
+
+#. :src: bpy.types.BoidRule.type:'AVOID_COLLISION'
+#. :src: bpy.types.BoidRuleAvoidCollision
+#. :src: bpy.types.BOID_OT_rule_add.type:'AVOID_COLLISION'
+msgid "Avoid Collision"
+msgstr "Undvik kollisioner"
+
+#. :src: bpy.types.BoidRule.type:'AVOID_COLLISION'
+#. :src: bpy.types.BOID_OT_rule_add.type:'AVOID_COLLISION'
+msgid ""
+"Maneuver to avoid collisions with other boids and deflector objects in near "
+"future"
+msgstr ""
+"Manövrera för att undvika kollisioner med andra boider och deflektorobjekt "
+"inom kort"
+
+#. :src: bpy.types.BoidRule.type:'SEPARATE'
+#. :src: bpy.types.BOID_OT_rule_add.type:'SEPARATE'
+msgid "Keep from going through other boids"
+msgstr "Undvik att passera genom andra boider"
+
+#. :src: bpy.types.BoidRule.type:'FLOCK'
+#. :src: bpy.types.BOID_OT_rule_add.type:'FLOCK'
+msgid "Move to center of neighbors and match their velocity"
+msgstr "Rör dig mot grannarnas mittpunkt och anpassa hastigheten efter deras"
+
+#. :src: bpy.types.BoidRule.type:'FOLLOW_LEADER'
+#. :src: bpy.types.BoidRuleFollowLeader
+#. :src: bpy.types.BOID_OT_rule_add.type:'FOLLOW_LEADER'
+msgid "Follow Leader"
+msgstr "Följ ledaren"
+
+#. :src: bpy.types.BoidRule.type:'FOLLOW_LEADER'
+#. :src: bpy.types.BOID_OT_rule_add.type:'FOLLOW_LEADER'
+msgid "Follow a boid or assigned object"
+msgstr "Följ en boid eller ett tilldelat objekt"
+
+#. :src: bpy.types.BoidRule.type:'AVERAGE_SPEED'
+#. :src: bpy.types.BOID_OT_rule_add.type:'AVERAGE_SPEED'
+msgid "Maintain speed, flight level or wander"
+msgstr "Behåll hastighet, flyghöjd eller vandra"
+
+#. :src: bpy.types.BoidRule.type:'FIGHT'
+#. :src: bpy.types.BoidRuleFight
+#. :src: bpy.types.BOID_OT_rule_add.type:'FIGHT'
+msgid "Fight"
+msgstr "Slåss"
+
+#. :src: bpy.types.BoidRule.type:'FIGHT'
+#. :src: bpy.types.BOID_OT_rule_add.type:'FIGHT'
+msgid "Go to closest enemy and attack when in range"
+msgstr "Gå till närmaste fiende och attackera när du är inom räckhåll"
+
+#. :src: bpy.types.BoidRule.use_in_air
+msgid "In Air"
+msgstr "I luften"
+
+#. :src: bpy.types.BoidRule.use_in_air
+msgid "Use rule when boid is flying"
+msgstr "Använd regel när boid flyger"
+
+#. :src: bpy.types.BoidRule.use_on_land
+msgid "On Land"
+msgstr "På land"
+
+#. :src: bpy.types.BoidRule.use_on_land
+msgid "Use rule when boid is on land"
+msgstr "Använd regel när boid är på land"
+
+#. :src: bpy.types.BoidRuleAverageSpeed.level
+msgid "How much velocity's z-component is kept constant"
+msgstr "Hur mycket hastighetens z-komponent hålls konstant"
+
+#. :src: bpy.types.BoidRuleAverageSpeed.speed
+msgid "Percentage of maximum speed"
+msgstr "Procent av maximal hastighet"
+
+#. :src: bpy.types.BoidRuleAverageSpeed.wander
+msgid "Wander"
+msgstr "Vandra"
+
+#. :src: bpy.types.BoidRuleAverageSpeed.wander
+msgid "How fast velocity's direction is randomized"
+msgstr "Hur snabbt hastighetens riktning slumpas"
+
+#. :src: bpy.types.BoidRuleAvoid.fear_factor
+msgid "Fear Factor"
+msgstr "Rädslofaktor"
+
+#. :src: bpy.types.BoidRuleAvoid.fear_factor
+msgid "Avoid object if danger from it is above this threshold"
+msgstr "Undvik objektet om faran från det ligger över denna tröskel"
+
+#. :src: bpy.types.BoidRuleAvoid.object
+msgid "Object to avoid"
+msgstr "Objekt att undvika"
+
+#. :src: bpy.types.BoidRuleAvoid.use_predict
+#. :src: bpy.types.BoidRuleGoal.use_predict
+msgid "Predict"
+msgstr "Förutse"
+
+#. :src: bpy.types.BoidRuleAvoid.use_predict
+#. :src: bpy.types.BoidRuleGoal.use_predict
+msgid "Predict target movement"
+msgstr "Förutse målets rörelse"
+
+#. :src: bpy.types.BoidRuleAvoidCollision.look_ahead
+msgid "Look Ahead"
+msgstr "Se framåt"
+
+#. :src: bpy.types.BoidRuleAvoidCollision.look_ahead
+msgid "Time to look ahead in seconds"
+msgstr "Tid att se framåt i sekunder"
+
+#. :src: bpy.types.BoidRuleAvoidCollision.use_avoid
+#. :src: bpy.types.ParticleSettings.physics_type:'BOIDS'
+msgid "Boids"
+msgstr "Boider"
+
+#. :src: bpy.types.BoidRuleAvoidCollision.use_avoid
+msgid "Avoid collision with other boids"
+msgstr "Undvik kollision med andra boider"
+
+#. :src: bpy.types.BoidRuleAvoidCollision.use_avoid_collision
+msgid "Deflectors"
+msgstr "Deflektorer"
+
+#. :src: bpy.types.BoidRuleAvoidCollision.use_avoid_collision
+msgid "Avoid collision with deflector objects"
+msgstr "Undvik kollision med deflektorobjekt"
+
+#. :src: bpy.types.BoidRuleFight.distance
+msgid "Fight Distance"
+msgstr "Stridsavstånd"
+
+#. :src: bpy.types.BoidRuleFight.distance
+msgid "Attack boids at max this distance"
+msgstr "Attackera boider på högst detta avstånd"
+
+#. :src: bpy.types.BoidRuleFight.flee_distance
+msgid "Flee Distance"
+msgstr "Flyktavstånd"
+
+#. :src: bpy.types.BoidRuleFight.flee_distance
+msgid "Flee to this distance"
+msgstr "Fly till detta avstånd"
+
+#. :src: bpy.types.BoidRuleFollowLeader.distance
+msgid "Distance behind leader to follow"
+msgstr "Avstånd bakom ledaren att följa på"
+
+#. :src: bpy.types.BoidRuleFollowLeader.object
+msgid "Follow this object instead of a boid"
+msgstr "Följ detta objekt i stället för en boid"
+
+#. :src: bpy.types.BoidRuleFollowLeader.queue_count
+msgid "Queue Size"
+msgstr "Köstorlek"
+
+#. :src: bpy.types.BoidRuleFollowLeader.queue_count
+msgid "How many boids in a line"
+msgstr "Antal boider i en rad"
+
+#. :src: bpy.types.BoidRuleFollowLeader.use_line
+msgid "Follow leader in a line"
+msgstr "Följ ledaren i en rad"
+
+#. :src: bpy.types.BoidSettings
+#. :src: bpy.types.ParticleSettings.boids
+msgid "Boid Settings"
+msgstr "Boidinställningar"
+
+#. :src: bpy.types.BoidSettings
+msgid "Settings for boid physics"
+msgstr "Inställningar för boidfysik"
+
+#. :src: bpy.types.BoidSettings.accuracy
+#. :src: bpy.types.SOUND_OT_mixdown.accuracy
+#. :src: bpy.types.Scopes.accuracy
+msgid "Accuracy"
+msgstr "Precision"
+
+#. :src: bpy.types.BoidSettings.accuracy
+msgid "Accuracy of attack"
+msgstr "Noggrannhet i anfallet"
+
+#. :src: bpy.types.BoidSettings.active_boid_state
+#. :src: bpy.types.BoidState.active_boid_rule
+msgid "Active Boid Rule"
+msgstr "Aktiv boidregel"
+
+#. :src: bpy.types.BoidSettings.active_boid_state_index
+msgid "Active Boid State Index"
+msgstr "Index för aktivt boidtillstånd"
+
+#. :src: bpy.types.BoidSettings.aggression
+msgid "Aggression"
+msgstr "Aggressivitet"
+
+#. :src: bpy.types.BoidSettings.aggression
+msgid "Boid will fight this times stronger enemy"
+msgstr "Boiden slåss mot fiender som är så här många gånger starkare"
+
+#. :src: bpy.types.BoidSettings.air_acc_max
+msgid "Max Air Acceleration"
+msgstr "Maximal acceleration i luften"
+
+#. :src: bpy.types.BoidSettings.air_acc_max
+msgid "Maximum acceleration in air (relative to maximum speed)"
+msgstr "Maximal acceleration i luften (i förhållande till maxhastigheten)"
+
+#. :src: bpy.types.BoidSettings.air_ave_max
+msgid "Max Air Angular Velocity"
+msgstr "Maximal vinkelhastighet i luften"
+
+#. :src: bpy.types.BoidSettings.air_ave_max
+msgid "Maximum angular velocity in air (relative to 180 degrees)"
+msgstr "Maximal vinkelhastighet i luften (i förhållande till 180 grader)"
+
+#. :src: bpy.types.BoidSettings.air_personal_space
+msgid "Air Personal Space"
+msgstr "Personligt utrymme i luften"
+
+#. :src: bpy.types.BoidSettings.air_personal_space
+msgid "Radius of boids personal space in air (% of particle size)"
+msgstr ""
+"Radie för boidernas personliga utrymme i luften (procent av "
+"partikelstorleken)"
+
+#. :src: bpy.types.BoidSettings.air_speed_max
+msgid "Max Air Speed"
+msgstr "Maxhastighet i luften"
+
+#. :src: bpy.types.BoidSettings.air_speed_max
+msgid "Maximum speed in air"
+msgstr "Maximal hastighet i luften"
+
+#. :src: bpy.types.BoidSettings.air_speed_min
+msgid "Min Air Speed"
+msgstr "Minimihastighet i luften"
+
+#. :src: bpy.types.BoidSettings.air_speed_min
+msgid "Minimum speed in air (relative to maximum speed)"
+msgstr "Lägsta hastighet i luften (i förhållande till maxhastigheten)"
+
+#. :src: bpy.types.BoidSettings.bank
+msgid "Banking"
+msgstr "Krängning"
+
+#. :src: bpy.types.BoidSettings.bank
+msgid "Amount of rotation around velocity vector on turns"
+msgstr "Rotationsmängd runt hastighetsvektorn vid svängar"
+
+#. :src: bpy.types.BoidSettings.health
+#. :src: bpy.types.ParticleSettings.show_health
+msgid "Health"
+msgstr "Hälsa"
+
+#. :src: bpy.types.BoidSettings.health
+msgid "Initial boid health when born"
+msgstr "Boidens ursprungliga hälsa vid födseln"
+
+#. :src: bpy.types.BoidSettings.height
+msgid "Boid height relative to particle size"
+msgstr "Boidhöjd i förhållande till partikelstorlek"
+
+#. :src: bpy.types.BoidSettings.land_acc_max
+msgid "Max Land Acceleration"
+msgstr "Maximal acceleration på marken"
+
+#. :src: bpy.types.BoidSettings.land_acc_max
+msgid "Maximum acceleration on land (relative to maximum speed)"
+msgstr "Maximal acceleration på land (i förhållande till maximal hastighet)"
+
+#. :src: bpy.types.BoidSettings.land_ave_max
+msgid "Max Land Angular Velocity"
+msgstr "Maximal vinkelhastighet på marken"
+
+#. :src: bpy.types.BoidSettings.land_ave_max
+msgid "Maximum angular velocity on land (relative to 180 degrees)"
+msgstr "Maximal vinkelhastighet på land (i förhållande till 180 grader)"
+
+#. :src: bpy.types.BoidSettings.land_jump_speed
+msgid "Jump Speed"
+msgstr "Hopphastighet"
+
+#. :src: bpy.types.BoidSettings.land_jump_speed
+msgid "Maximum speed for jumping"
+msgstr "Maximal hastighet för hoppning"
+
+#. :src: bpy.types.BoidSettings.land_personal_space
+msgid "Land Personal Space"
+msgstr "Personligt utrymme på marken"
+
+#. :src: bpy.types.BoidSettings.land_personal_space
+msgid "Radius of boids personal space on land (% of particle size)"
+msgstr ""
+"Radie för boidernas personliga utrymme på marken (procent av "
+"partikelstorleken)"
+
+#. :src: bpy.types.BoidSettings.land_smooth
+msgid "Landing Smoothness"
+msgstr "Landningens jämnhet"
+
+#. :src: bpy.types.BoidSettings.land_smooth
+msgid "How smoothly the boids land"
+msgstr "Hur mjukt boiderna landar"
+
+#. :src: bpy.types.BoidSettings.land_speed_max
+msgid "Max Land Speed"
+msgstr "Maxhastighet på marken"
+
+#. :src: bpy.types.BoidSettings.land_speed_max
+msgid "Maximum speed on land"
+msgstr "Högsta hastighet på land"
+
+#. :src: bpy.types.BoidSettings.land_stick_force
+msgid "Land Stick Force"
+msgstr "Markfästkraft"
+
+#. :src: bpy.types.BoidSettings.land_stick_force
+msgid "How strong a force must be to start effecting a boid on land"
+msgstr "Hur stor kraft som krävs för att börja påverka en boid på marken"
+
+#. :src: bpy.types.BoidSettings.pitch
+msgid "Pitch"
+msgstr "Stigning"
+
+#. :src: bpy.types.BoidSettings.pitch
+msgid "Amount of rotation around side vector"
+msgstr "Rotationens storlek runt sidovektorn"
+
+#. :src: bpy.types.BoidSettings.range
+msgid "Maximum distance from which a boid can attack"
+msgstr "Maximalt avstånd från vilket en boid kan attackera"
+
+#. :src: bpy.types.BoidSettings.states
+msgid "Boid States"
+msgstr "Boidtillstånd"
+
+#. :src: bpy.types.BoidSettings.strength
+msgid "Maximum caused damage on attack per second"
+msgstr "Största skada som orsakas vid angrepp per sekund"
+
+#. :src: bpy.types.BoidSettings.use_climb
+msgid "Allow Climbing"
+msgstr "Tillåt klättring"
+
+#. :src: bpy.types.BoidSettings.use_climb
+msgid "Allow boids to climb goal objects"
+msgstr "Tillåt boider att klättra på målobjekt"
+
+#. :src: bpy.types.BoidSettings.use_flight
+msgid "Allow Flight"
+msgstr "Tillåt flygning"
+
+#. :src: bpy.types.BoidSettings.use_flight
+msgid "Allow boids to move in air"
+msgstr "Tillåt boider att röra sig i luften"
+
+#. :src: bpy.types.BoidSettings.use_land
+msgid "Allow Land"
+msgstr "Tillåt markrörelse"
+
+#. :src: bpy.types.BoidSettings.use_land
+msgid "Allow boids to move on land"
+msgstr "Tillåt boider att röra sig på land"
+
+#. :src: bpy.types.BoidState
+msgid "Boid State"
+msgstr "Boidtillstånd"
+
+#. :src: bpy.types.BoidState
+msgid "Boid state for boid physics"
+msgstr "Boidtillstånd för boidfysik"
+
+#. :src: bpy.types.BoidState.active_boid_rule_index
+msgid "Active Boid Rule Index"
+msgstr "Index för aktiv boidregel"
+
+#. :src: bpy.types.BoidState.falloff
+#. :src: bpy.types.FieldSettings.falloff_type
+#. :src: bpy.types.LightProbeSphere.falloff
+#. :src: bpy.types.CompositorNodeChromaMatte.gain
+#. :src: bpy.types.CompositorNodeDiffMatte.falloff
+#. :src: bpy.types.CompositorNodeDistanceMatte.falloff
+#. :src: bpy.types.IMAGE_PT_paint_curve
+#. :src: bpy.types.IMAGE_PT_uv_sculpt_curve
+#. :src: bpy.types.PARTICLE_PT_force_fields_type1_falloff
+#. :src: bpy.types.PARTICLE_PT_force_fields_type2_falloff
+#. :src: bpy.types.PHYSICS_PT_field_falloff
+#. :src: bpy.types.VIEW3D_PT_tools_brush_falloff
+#. :src: bpy.types.VIEW3D_PT_tools_grease_pencil_brush_paint_falloff
+#. :src: bpy.types.VIEW3D_PT_tools_grease_pencil_brush_sculpt_falloff
+#. :src: bpy.types.VIEW3D_PT_tools_grease_pencil_brush_vertex_falloff
+#. :src: bpy.types.VIEW3D_PT_tools_grease_pencil_brush_weight_falloff
+#. :src: bpy.types.VIEW3D_PT_tools_weight_gradient
+#. :src: bpy.types.WorldMistSettings.falloff
+msgid "Falloff"
+msgstr "Avtagande"
+
+#. :src: bpy.types.BoidState.name
+msgid "Boid state name"
+msgstr "Namn på boidtillstånd"
+
+#. :src: bpy.types.BoidState.rule_fuzzy
+msgid "Rule Fuzziness"
+msgstr "Regeloklarhet"
+
+#. :src: bpy.types.BoidState.rules
+msgid "Boid Rules"
+msgstr "Boidregler"
+
+#. :src: bpy.types.BoidState.ruleset_type
+msgid "Rule Evaluation"
+msgstr "Utvärdering av regler"
+
+#. :src: bpy.types.BoidState.ruleset_type
+msgid "How the rules in the list are evaluated"
+msgstr "Hur reglerna i listan utvärderas"
+
+#. :src: bpy.types.BoidState.ruleset_type:'FUZZY'
+#. :src: bpy.types.SoftBodySettings.fuzzy
+msgid "Fuzzy"
+msgstr "Luddig"
+
+#. :src: bpy.types.BoidState.ruleset_type:'FUZZY'
+msgid ""
+"Rules are gone through top to bottom (only the first rule which effect is "
+"above fuzziness threshold is evaluated)"
+msgstr ""
+"Reglerna gås igenom uppifrån och ned. Endast den första regel vars effekt "
+"överskrider oklarhetströskeln utvärderas"
+
+#. :src: bpy.types.BoidState.ruleset_type:'RANDOM'
+msgid "A random rule is selected for each boid"
+msgstr "En slumpmässig regel väljs för varje boid"
+
+#. :src: bpy.types.BoidState.ruleset_type:'AVERAGE'
+#. :src: bpy.types.Bone.inherit_scale:'AVERAGE'
+#. :src: bpy.types.EditBone.inherit_scale:'AVERAGE'
+#. :src: bpy.types.Brush.gpencil_vertex_tool:'AVERAGE'
+#. :src: bpy.types.Brush.gpencil_weight_tool:'AVERAGE'
+#. :src: bpy.types.Brush.vertex_tool:'AVERAGE'
+#. :src: bpy.types.Brush.weight_tool:'AVERAGE'
+#. :src: bpy.types.Menu
+#. :src: bpy.types.VIEW3D_MT_edit_mesh_normals_average
+#. :src: bpy.types.VertexWeightMixModifier.mix_mode:'AVG'
+#. :src: bpy.types.CompositorNodeColorSpill.limit_method:'AVERAGE'
+#. :src: bpy.types.FunctionNodeCompare.mode:'AVERAGE'
+#. :src: bpy.types.SoftBodySettings.collision_type:'AVERAGE'
+msgid "Average"
+msgstr "Medel"
+
+#. :src: bpy.types.BoidState.ruleset_type:'AVERAGE'
+msgid "All rules are averaged"
+msgstr "Alla regler beräknas som medelvärde"
+
+#. :src: bpy.types.BoidState.volume
+#. :src: bpy.types.MaintainVolumeConstraint.volume
+#. :src: bpy.types.LightProbe.type:'VOLUME'
+#. :src: bpy.types.ParticleSettings.emit_from:'VOLUME'
+#. :src: bpy.types.Menu
+#. :src: bpy.types.OBJECT_OT_lightprobe_add.type:'VOLUME'
+#. :src: bpy.types.TRANSFORM_OT_edge_slide.snap_elements:'VOLUME'
+#. :src: bpy.types.TRANSFORM_OT_resize.snap_elements:'VOLUME'
+#. :src: bpy.types.TRANSFORM_OT_rotate.snap_elements:'VOLUME'
+#. :src: bpy.types.TRANSFORM_OT_skin_resize.snap_elements:'VOLUME'
+#. :src: bpy.types.TRANSFORM_OT_transform.snap_elements:'VOLUME'
+#. :src: bpy.types.TRANSFORM_OT_translate.snap_elements:'VOLUME'
+#. :src: bpy.types.TRANSFORM_OT_vert_slide.snap_elements:'VOLUME'
+#. :src: bpy.types.EEVEE_NEXT_MATERIAL_PT_settings_volume
+#. :src: bpy.types.NODE_EEVEE_NEXT_MATERIAL_PT_settings_volume
+#. :src: bpy.types.PARTICLE_PT_hair_dynamics_volume
+#. :src: bpy.types.RENDER_PT_eevee_next_clamping_volume
+#. :src: bpy.types.SpaceView3D.show_object_select_volume
+#. :src: bpy.types.SpaceView3D.show_object_viewport_volume
+#. :src: bpy.types.SpaceView3D.show_stereo_3d_volume
+#. :src: bpy.types.ToolSettings.snap_elements:'VOLUME'
+#. :src: bpy.types.ToolSettings.snap_elements_base:'VOLUME'
+#. :src: bpy.types.XrSessionSettings.show_object_select_volume
+#. :src: bpy.types.XrSessionSettings.show_object_viewport_volume
+msgid "Volume"
+msgstr "Volym"
+
+#. :src: bpy.types.BlendImportContext
+msgid "Blendfile Import Context"
+msgstr "Blendfilimportkontext"
+
+#. :src: bpy.types.BlendImportContext
+msgid ""
+"Contextual data for a blendfile library/linked-data related operation. "
+"Currently only exposed as read-only data for the pre/post blendimport "
+"handlers"
+msgstr ""
+"Kontextdata för en åtgärd som rör ett blendfilbibliotek eller länkade data. "
+"Exponeras för närvarande endast som skrivskyddade data för hanterare före "
+"och efter blendfilimport"
+
+#. :src: bpy.types.BlendImportContext.options
+msgid "Options for this blendfile import operation"
+msgstr "Alternativ för den här blendfilimportåtgärden"
+
+#. :src: bpy.types.BlendImportContext.options:'LINK'
+msgid "Only link data, instead of appending it"
+msgstr "Länka endast data i stället för att lägga till dem"
+
+#. :src: bpy.types.BlendImportContext.options:'MAKE_PATHS_RELATIVE'
+msgid "Make paths of used library blendfiles relative to current blendfile"
+msgstr ""
+"Gör sökvägarna till använda bibliotekets blendfiler relativa till den "
+"aktuella blendfilen"
+
+#. :src: bpy.types.BlendImportContext.options:'USE_PLACEHOLDERS'
+msgid "Generate a placeholder (empty ID) if not found in any library files"
+msgstr "Skapa en platshållare (tomt ID) om inget hittas i någon biblioteksfil"
+
+#. :src: bpy.types.BlendImportContext.options:'FORCE_INDIRECT'
+msgid ""
+"Force loaded ID to be tagged as indirectly linked (used in reload context "
+"only)"
+msgstr ""
+"Tvinga det lästa ID:t att markeras som indirekt länkat (används endast vid "
+"omladdning)"
+
+#. :src: bpy.types.BlendImportContext.options:'APPEND_SET_FAKEUSER'
+msgid "Set fake user on appended IDs"
+msgstr "Ange falsk användare för tillagda ID:n"
+
+#. :src: bpy.types.BlendImportContext.options:'APPEND_RECURSIVE'
+msgid ""
+"Append (make local) also indirect dependencies of appended IDs coming from "
+"other libraries. NOTE: All IDs (including indirectly linked ones) coming "
+"from the same initial library are always made local"
+msgstr ""
+"Lägg även till indirekta beroenden till tillagda ID:n från andra bibliotek "
+"och gör dem lokala. OBS: Alla ID:n från samma ursprungliga bibliotek, även "
+"indirekt länkade, görs alltid lokala"
+
+#. :src: bpy.types.BlendImportContext.options:'APPEND_LOCAL_ID_REUSE'
+msgid ""
+"Try to re-use previously appended matching IDs when appending them again, "
+"instead of creating local duplicates"
+msgstr ""
+"Försök att återanvända tidigare tillagda matchande ID:n när de läggs till "
+"igen i stället för att skapa lokala dubbletter"
+
+#. :src: bpy.types.BlendImportContext.options:'SELECT_OBJECTS'
+msgid "Automatically select imported objects"
+msgstr "Välj automatiskt importerade objekt"
+
+#. :src: bpy.types.BlendImportContext.options:'OBDATA_INSTANCE'
+msgid "Instantiate object data IDs (i.e. create objects for them if needed)"
+msgstr ""
+"Instansiera ID:n för objektdata (dvs. skapa objekt för dem om det behövs)"
+
+#. :src: bpy.types.BlendImportContext.process_stage
+msgid "Current stage of the import process"
+msgstr "Aktuellt skede i importprocessen"
+
+#. :src: bpy.types.BlendImportContext.process_stage:'INIT'
+msgid ""
+"Blendfile import context has been initialized and filled with a list of "
+"items to import, no data has been linked or appended yet"
+msgstr ""
+"Blendfilimportkontexten har initierats och fyllts med en lista över objekt "
+"att importera. Inga data har länkats eller lagts till ännu"
+
+#. :src: bpy.types.BlendImportContext.process_stage:'DONE'
+msgid ""
+"All data has been imported and is available in the list of ``import_items``"
+msgstr ""
+"Alla data har importerats och finns tillgängliga i listan över "
+"``import_items``"
+
+#. :src: bpy.types.BlendImportContextItem
+msgid "Blendfile Import Context Item"
+msgstr "Objekt i blendfilimportkontext"
+
+#. :src: bpy.types.BlendImportContextItem
+msgid ""
+"An item (representing a data-block) in a BlendImportContext data. Currently "
+"only exposed as read-only data for the pre/post linking handlers"
+msgstr ""
+"Ett objekt som representerar ett datablock i BlendImportContext-data. "
+"Exponeras för närvarande endast som skrivskyddade data för hanterare före "
+"och efter länkning"
+
+#. :src: bpy.types.BlendImportContextItem.append_action
+msgid ""
+"How this item has been handled by the append operation. Only set if the data "
+"has been appended"
+msgstr ""
+"Hur objektet har hanterats av tilläggsåtgärden. Anges endast om data har "
+"lagts till"
+
+#. :src: bpy.types.BlendImportContextItem.append_action:'UNSET'
+msgid "Not yet defined"
+msgstr "Ännu ej definierat"
+
+#. :src: bpy.types.BlendImportContextItem.append_action:'KEEP_LINKED'
+msgid "ID has been kept linked"
+msgstr "ID:t har behållits länkat"
+
+#. :src: bpy.types.BlendImportContextItem.append_action:'REUSE_LOCAL'
+msgid "An existing matching local ID has been re-used"
+msgstr "Ett befintligt matchande lokalt ID har återanvänts"
+
+#. :src: bpy.types.BlendImportContextItem.append_action:'MAKE_LOCAL'
+msgid "The newly linked ID has been made local"
+msgstr "Det nyligen länkade ID:t har gjorts lokalt"
+
+#. :src: bpy.types.BlendImportContextItem.append_action:'COPY_LOCAL'
+msgid ""
+"The linked ID had other unrelated usages, so it has been duplicated into a "
+"local copy"
+msgstr ""
+"Det länkade ID:t hade andra orelaterade användningsområden, så det har "
+"duplicerats till en lokal kopia"
+
+#. :src: bpy.types.BlendImportContextItem.id
+msgid "Imported ID"
+msgstr "Importerat ID"
+
+#. :src: bpy.types.BlendImportContextItem.id
+msgid ""
+"The imported ID. None until it has been linked or appended. May be the same "
+"as ``reusable_local_id`` when appended"
+msgstr ""
+"Det importerade ID:t. Inget förrän det har länkats eller lagts till. Kan "
+"vara samma som ``reusable_local_id`` när det har lagts till"
+
+#. :src: bpy.types.BlendImportContextItem.id_type
+#. :src: bpy.types.DriverTarget.id_type
+#. :src: bpy.types.KeyingSetPath.id_type
+#. :src: bpy.types.OUTLINER_OT_id_remap.id_type
+#. :src: bpy.types.WM_OT_properties_edit.id_type
+msgctxt "ID"
+msgid "ID Type"
+msgstr "ID-typ"
+
+#. :src: bpy.types.BlendImportContextItem.id_type
+msgid "ID type of the item"
+msgstr "Objektets ID-typ"
+
+#. :src: bpy.types.BlendImportContextItem.import_info
+msgid "Import Info"
+msgstr "Importinformation"
+
+#. :src: bpy.types.BlendImportContextItem.import_info
+msgid "Various status info about an item after it has been imported"
+msgstr "Olika statusuppgifter om ett objekt efter importen"
+
+#. :src: bpy.types.BlendImportContextItem.import_info:'INDIRECT_USAGE'
+msgid ""
+"That item was added for an indirectly imported ID, as a dependency of "
+"another data-block"
+msgstr ""
+"Objektet lades till för ett indirekt importerat ID som ett beroende till ett "
+"annat datablock"
+
+#. :src: bpy.types.BlendImportContextItem.import_info:'LIBOVERRIDE_DEPENDENCY'
+msgid ""
+"That item represents an ID also used as liboverride dependency (either "
+"directly, as a liboverride reference, or indirectly, as data used by a "
+"liboverride reference). It should never be directly made local. Mutually "
+"exclusive with `LIBOVERRIDE_DEPENDENCY_ONLY`"
+msgstr ""
+"Det objektet representerar ett ID som också används som liboverride-beroende "
+"(antingen direkt, som en liboverride-referens, eller indirekt, som data som "
+"används av en liboverride-referens). Det bör aldrig direkt göras lokalt. "
+"Ömsesidigt uteslutande med `LIBOVERRIDE_DEPENDENCY_ONLY`"
+
+#. :src: bpy.types.BlendImportContextItem.import_info:'LIBOVERRIDE_DEPENDENCY_ONLY'
+msgid ""
+"That item represents an ID only used as liboverride dependency (either "
+"directly or indirectly, see `LIBOVERRIDE_DEPENDENCY` for precisions). It "
+"should not be considered during the 'make local' (append) process, and "
+"remain purely linked data. Mutually exclusive with `LIBOVERRIDE_DEPENDENCY`"
+msgstr ""
+"Det objektet representerar ett ID som endast används som liboverride-"
+"beroende (antingen direkt eller indirekt, se `LIBOVERRIDE_DEPENDENCY` för "
+"preciseringar). Det bör inte beaktas under processen \"make local\" "
+"(append), utan förblir enbart länkad data. Ömsesidigt uteslutande med "
+"`LIBOVERRIDE_DEPENDENCY`"
+
+#. :src: bpy.types.BlendImportContextItem.library_override_id
+msgid "Library Overridden ID"
+msgstr "ID med biblioteksåsidosättning"
+
+#. :src: bpy.types.BlendImportContextItem.library_override_id
+msgid "The library override of the linked ID. None until it has been created"
+msgstr ""
+"Biblioteksåsidosättningen för det länkade ID:t. Ingen förrän den har skapats"
+
+#. :src: bpy.types.BlendImportContextItem.name
+msgid "ID name of the item"
+msgstr "Objektets ID-namn"
+
+#. :src: bpy.types.BlendImportContextItem.reusable_local_id
+msgid "Reusable Local ID"
+msgstr "Återanvändbart lokalt ID"
+
+#. :src: bpy.types.BlendImportContextItem.reusable_local_id
+msgid ""
+"The already existing local ID that may be reused in append & reuse case. "
+"None until it has been found"
+msgstr ""
+"Det befintliga lokala ID:t som kan återanvändas vid tillägg och "
+"återanvändning. Inget förrän det har hittats"
+
+#. :src: bpy.types.BlendImportContextItem.source_libraries
+msgid "Source Libraries"
+msgstr "Källbibliotek"
+
+#. :src: bpy.types.BlendImportContextItem.source_libraries
+msgid ""
+"List of libraries to search and import that ID from. The ID will be imported "
+"from the first file in that list that contains it"
+msgstr ""
+"Lista över bibliotek där ID:t ska sökas och som det ska importeras från. "
+"ID:t importeras från den första filen i listan som innehåller det"
+
+#. :src: bpy.types.BlendImportContextItem.source_library
+msgid "Source Library"
+msgstr "Källbibliotek"
+
+#. :src: bpy.types.BlendImportContextItem.source_library
+msgid ""
+"Library ID representing the blendfile from which the ID was imported. None "
+"until the ID has been linked or appended"
+msgstr ""
+"Biblioteks-ID som representerar blendfilen som ID:t importerades från. Inget "
+"förrän ID:t har länkats eller lagts till"
+
+#. :src: bpy.types.BlendImportContextItems
+msgid "Blendfile Import Context Items"
+msgstr "Objekt i blendfilimportkontext"
+
+#. :src: bpy.types.BlendImportContextItems
+msgid "Collection of blendfile import context items"
+msgstr "Samling av objekt i blendfilimportkontext"
+
+#. :src: bpy.types.BlendImportContextLibraries
+msgid "Blendfile Import Context Libraries"
+msgstr "Bibliotek i blendfilimportkontext"
+
+#. :src: bpy.types.BlendImportContextLibraries
+msgid "Collection of source libraries, i.e. blendfile paths"
+msgstr "Samling av källbibliotek, dvs. blendfilsökvägar"
+
+#. :src: bpy.types.BlendImportContextLibrary
+msgid "Blendfile Import Context Library"
+msgstr "Bibliotek i blendfilimportkontext"
+
+#. :src: bpy.types.BlendImportContextLibrary
+msgid ""
+"Library (blendfile) reference in a BlendImportContext data. Currently only "
+"exposed as read-only data for the pre/post blendimport handlers"
+msgstr ""
+"Referens till ett bibliotek (blendfil) i BlendImportContext-data. Exponeras "
+"för närvarande endast som skrivskyddade data för hanterare före och efter "
+"blendfilimport"
+
+#. :src: bpy.types.BlendData.grease_pencils_v3
+msgid "Grease Pencil data-blocks"
+msgstr "Grease Pencil-datablock"
+
+#. :src: bpy.types.BlendData.hair_curves
+msgid "Hair curve data-blocks"
+msgstr "Hårkurvsdatablock"
+
+#. :src: bpy.types.BlendData.images
+msgid "Image data-blocks"
+msgstr "Bilddatablock"
+
+#. :src: bpy.types.StringAttribute
+msgid "String Attribute"
+msgstr "Strängattribut"
+
+#. :src: bpy.types.AssetMetaData.catalog_id
+#. :src: bpy.types.FileAssetSelectParams.catalog_id
+msgid "Catalog UUID"
+msgstr "Katalog-UUID"
+
+#. :src: bpy.types.Area.type:'VIEW_3D'
+#. :src: bpy.types.AssetShelf.bl_space_type:'VIEW_3D'
+#. :src: bpy.types.GizmoGroup.bl_space_type:'VIEW_3D'
+#. :src: bpy.types.KeyMap.space_type:'VIEW_3D'
+#. :src: bpy.types.SCREEN_OT_space_type_set_or_cycle.space_type:'VIEW_3D'
+#. :src: bpy.types.WM_OT_tool_set_by_brush_type.space_type:'VIEW_3D'
+#. :src: bpy.types.WM_OT_tool_set_by_id.space_type:'VIEW_3D'
+#. :src: bpy.types.WM_OT_tool_set_by_index.space_type:'VIEW_3D'
+#. :src: bpy.types.USERPREF_PT_theme_view_3d
+#. :src: bpy.types.Space.type:'VIEW_3D'
+#. :src: bpy.types.Theme.theme_area:'VIEW_3D'
+#. :src: bpy.types.Theme.view_3d
+#. :src: bpy.types.WorkSpaceTool.space_type:'VIEW_3D'
+msgid "3D Viewport"
+msgstr "3D-vyport"
+
+#. :src: bpy.types.Area.type:'DOPESHEET_EDITOR'
+#. :src: bpy.types.AssetShelf.bl_space_type:'DOPESHEET_EDITOR'
+#. :src: bpy.types.GizmoGroup.bl_space_type:'DOPESHEET_EDITOR'
+#. :src: bpy.types.KeyMap.space_type:'DOPESHEET_EDITOR'
+#. :src: bpy.types.SCREEN_OT_space_type_set_or_cycle.space_type:'DOPESHEET_EDITOR'
+#. :src: bpy.types.Space.type:'DOPESHEET_EDITOR'
+#. :src: bpy.types.WorkSpaceTool.space_type:'DOPESHEET_EDITOR'
+msgid "Adjust timing of keyframes"
+msgstr "Justera tidpunkterna för nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_view_all
+#. :src: bpy.types.CLIP_OT_dopesheet_view_all
+#. :src: bpy.types.CLIP_OT_graph_view_all
+#. :src: bpy.types.CLIP_OT_view_all
+#. :src: bpy.types.GRAPH_OT_view_all
+#. :src: bpy.types.IMAGE_OT_view_all
+#. :src: bpy.types.NLA_OT_view_all
+#. :src: bpy.types.NODE_OT_view_all
+#. :src: bpy.types.SEQUENCER_OT_view_all
+#. :src: bpy.types.SEQUENCER_OT_view_all_preview
+#. :src: bpy.types.VIEW3D_OT_view_all
+msgctxt "Operator"
+msgid "Frame All"
+msgstr "Visa allt"
+
+#. :src: bpy.types.ACTION_OT_view_all
+#. :src: bpy.types.CLIP_OT_dopesheet_view_all
+#. :src: bpy.types.GRAPH_OT_view_all
+msgid "Reset viewable area to show full keyframe range"
+msgstr "Återställ visningsområdet så att hela nyckelbildruteintervallet visas"
+
+#. :src: bpy.types.ACTION_OT_view_frame
+#. :src: bpy.types.GRAPH_OT_view_frame
+#. :src: bpy.types.NLA_OT_view_frame
+#. :src: bpy.types.SEQUENCER_OT_view_frame
+msgctxt "Operator"
+msgid "Go to Current Frame"
+msgstr "Gå till aktuell bildruta"
+
+#. :src: bpy.types.ACTION_OT_view_selected
+#. :src: bpy.types.CLIP_OT_view_selected
+#. :src: bpy.types.FILE_OT_view_selected
+#. :src: bpy.types.GRAPH_OT_view_selected
+#. :src: bpy.types.NLA_OT_view_selected
+#. :src: bpy.types.NODE_OT_view_selected
+#. :src: bpy.types.SEQUENCER_OT_view_selected
+#. :src: bpy.types.VIEW3D_OT_view_selected
+msgctxt "Operator"
+msgid "Frame Selected"
+msgstr "Visa markerade"
+
+#. :src: bpy.types.ACTION_OT_view_selected
+msgid "Reset viewable area to show selected keyframes range"
+msgstr "Återställ visningsområdet så att markerade nyckelbildrutor visas"
+
+#. :src: bpy.types.ANIM_OT_change_frame
+#. :src: bpy.types.CLIP_OT_change_frame
+#. :src: bpy.types.IMAGE_OT_change_frame
+msgctxt "Operator"
+msgid "Change Frame"
+msgstr "Ändra bildruta"
+
+#. :src: bpy.types.ANIM_OT_change_frame.seq_solo_preview
+msgid "Strip Preview"
+msgstr "Remsförhandsgranskning"
+
+#. :src: bpy.types.ANIM_OT_channel_select_keys
+msgctxt "Operator"
+msgid "Select Channel Keyframes"
+msgstr "Markera kanalens nyckelbildrutor"
+
+#. :src: bpy.types.ANIM_OT_channel_select_keys
+msgid "Select all keyframes of channel under mouse"
+msgstr "Markera alla nyckelbildrutor för kanalen under musen"
+
+#. :src: bpy.types.ANIM_OT_channel_view_pick
+msgctxt "Operator"
+msgid "Frame Channel Under Cursor"
+msgstr "Visa kanal under markören"
+
+#. :src: bpy.types.ANIM_OT_channel_view_pick.include_handles
+#. :src: bpy.types.ANIM_OT_channels_view_selected.include_handles
+#. :src: bpy.types.GRAPH_OT_select_box.include_handles
+#. :src: bpy.types.GRAPH_OT_view_all.include_handles
+#. :src: bpy.types.GRAPH_OT_view_selected.include_handles
+msgid "Include Handles"
+msgstr "Inkludera handtag"
+
+#. :src: bpy.types.ANIM_OT_channel_view_pick.include_handles
+#. :src: bpy.types.ANIM_OT_channels_view_selected.include_handles
+#. :src: bpy.types.GRAPH_OT_view_all.include_handles
+#. :src: bpy.types.GRAPH_OT_view_selected.include_handles
+msgid "Include handles of keyframes when calculating extents"
+msgstr "Inkludera nyckelbildrutornas handtag vid beräkning av omfånget"
+
+#. :src: bpy.types.ANIM_OT_channels_bake
+msgctxt "Operator"
+msgid "Bake Channels"
+msgstr "Baka kanaler"
+
+#. :src: bpy.types.ANIM_OT_channels_bake
+msgid ""
+"Create keyframes following the current shape of F-Curves of selected channels"
+msgstr ""
+"Skapa nyckelbildrutor som följer de markerade kanalernas aktuella F-kurvform"
+
+#. :src: bpy.types.ANIM_OT_channels_bake.bake_modifiers
+msgid "Bake Modifiers"
+msgstr "Baka modifierare"
+
+#. :src: bpy.types.ANIM_OT_channels_bake.bake_modifiers
+msgid "Bake Modifiers into keyframes and delete them after"
+msgstr "Baka modifierare till nyckelbildrutor och ta sedan bort dem"
+
+#. :src: bpy.types.ANIM_OT_channels_bake.interpolation_type:'BEZIER'
+msgid "New keys will be Bézier"
+msgstr "Nya nyckelbildrutor blir Bézier"
+
+#. :src: bpy.types.ANIM_OT_channels_bake.interpolation_type:'LIN'
+msgid "New keys will be linear"
+msgstr "Nya nyckelbildrutor blir linjära"
+
+#. :src: bpy.types.ANIM_OT_channels_bake.interpolation_type:'CONST'
+msgid "New keys will be constant"
+msgstr "Nya nyckelbildrutor blir konstanta"
+
+#. :src: bpy.types.ANIM_OT_channels_bake.range
+msgid "The range in which to create new keys"
+msgstr "Intervallet där nya nyckelbildrutor skapas"
+
+#. :src: bpy.types.ANIM_OT_channels_bake.remove_outside_range
+msgid "Removes keys outside the given range, leaving only the newly baked"
+msgstr ""
+"Tar bort nyckelbildrutor utanför angivet intervall och lämnar endast de "
+"nybakade"
+
+#. :src: bpy.types.ANIM_OT_channels_bake.step
+msgid "At which interval to add keys"
+msgstr "Med vilket intervall nyckelbildrutor ska läggas till"
+
+#. :src: bpy.types.ANIM_OT_channels_clean_empty
+msgid "Delete all empty animation data containers from visible data-blocks"
+msgstr "Ta bort alla tomma behållare för animeringsdata från synliga datablock"
+
+#. :src: bpy.types.ANIM_OT_channels_collapse
+msgctxt "Operator"
+msgid "Collapse Channels"
+msgstr "Fäll ihop kanaler"
+
+#. :src: bpy.types.ANIM_OT_channels_collapse
+msgid "Collapse (close) all selected expandable animation channels"
+msgstr "Fäll ihop alla markerade expanderbara animationskanaler"
+
+#. :src: bpy.types.ANIM_OT_channels_collapse.all
+msgid "Collapse all channels (not just selected ones)"
+msgstr "Fäll ihop alla kanaler, inte bara de markerade"
+
+#. :src: bpy.types.ANIM_OT_channels_select_box
+msgid "Select all animation channels within the specified region"
+msgstr "Markera alla animationskanaler inom den angivna regionen"
+
+#. :src: bpy.types.ANIM_OT_channels_select_box.extend
+#. :src: bpy.types.CLIP_OT_graph_select_box.extend
+#. :src: bpy.types.CURVE_OT_pen.extend
+#. :src: bpy.types.FILE_OT_select.extend
+#. :src: bpy.types.FILE_OT_select_walk.extend
+#. :src: bpy.types.GIZMOGROUP_OT_gizmo_select.extend
+#. :src: bpy.types.GRAPH_OT_click_insert.extend
+#. :src: bpy.types.MASK_OT_select.extend
+#. :src: bpy.types.NODE_OT_select.extend
+#. :src: bpy.types.NODE_OT_select_grouped.extend
+#. :src: bpy.types.OBJECT_OT_select_by_type.extend
+#. :src: bpy.types.OBJECT_OT_select_grouped.extend
+#. :src: bpy.types.OBJECT_OT_select_linked.extend
+#. :src: bpy.types.OBJECT_OT_select_mirror.extend
+#. :src: bpy.types.POSE_OT_select_grouped.extend
+#. :src: bpy.types.POSE_OT_select_linked_pick.extend
+#. :src: bpy.types.SEQUENCER_OT_select.extend
+#. :src: bpy.types.SEQUENCER_OT_select_grouped.extend
+#. :src: bpy.types.UV_OT_select.extend
+#. :src: bpy.types.VIEW3D_OT_select.extend
+msgid "Extend selection instead of deselecting everything first"
+msgstr "Utöka markeringen i stället för att först avmarkera allt"
+
+#. :src: bpy.types.ANIM_OT_channels_view_selected
+msgctxt "Operator"
+msgid "Frame Selected Channels"
+msgstr "Rama in markerade kanaler"
+
+#. :src: bpy.types.ANIM_OT_clear_useless_actions.only_unused
+msgid "Only Unused"
+msgstr "Endast oanvända"
+
+#. :src: bpy.types.ANIM_OT_convert_legacy_action
+msgctxt "Operator"
+msgid "Convert Legacy Action"
+msgstr "Konvertera äldre åtgärd"
+
+#. :src: bpy.types.ANIM_OT_debug_channel_list
+msgid ""
+"Log the channel list info in the terminal. This operator is only available "
+"in debug builds of Blender"
+msgstr ""
+"Logga information om kanallistan i terminalen. Den här operatorn är endast "
+"tillgänglig i felsökningsbyggen av Blender"
+
+#. :src: bpy.types.ANIM_OT_driver_button_edit
+msgid ""
+"Edit the drivers for the connected property represented by the highlighted "
+"button"
+msgstr ""
+"Redigera drivrutinerna för den anslutna egenskap som representeras av den "
+"markerade knappen"
+
+#. :src: bpy.types.ANIM_OT_driver_button_remove
+msgid ""
+"Remove the driver(s) for the connected property(s) represented by the "
+"highlighted button"
+msgstr ""
+"Ta bort drivrutinen eller drivrutinerna för de anslutna egenskaper som "
+"representeras av den markerade knappen"
+
+#. :src: bpy.types.ANIM_OT_end_frame_set
+msgctxt "Operator"
+msgid "Set End Frame"
+msgstr "Ange slutbildruta"
+
+#. :src: bpy.types.ANIM_OT_keyframe_clear_button
+msgctxt "Operator"
+msgid "Clear Keyframe (Buttons)"
+msgstr "Rensa nyckelbildruta (knappar)"
+
+#. :src: bpy.types.ANIM_OT_keyframe_clear_button
+msgid "Clear all keyframes on the currently active property"
+msgstr "Rensa alla nyckelbildrutor för den aktiva egenskapen"
+
+#. :src: bpy.types.ANIM_OT_keyframe_clear_button.all
+msgid "Clear keyframes from all elements of the array"
+msgstr "Rensa nyckelbildrutor från alla element i matrisen"
+
+#. :src: bpy.types.ANIM_OT_keyframe_clear_v3d
+msgid "Remove all keyframe animation for selected objects"
+msgstr "Ta bort all nyckelbildruteanimering för markerade objekt"
+
+#. :src: bpy.types.ANIM_OT_keyframe_delete
+msgctxt "Operator"
+msgid "Delete Keying-Set Keyframe"
+msgstr "Ta bort nyckelbildruta i nyckeluppsättning"
+
+#. :src: bpy.types.ANIM_OT_keyframe_delete
+msgid ""
+"Delete keyframes on the current frame for all properties in the specified "
+"Keying Set"
+msgstr ""
+"Ta bort nyckelbildrutor på den aktuella bildrutan för alla egenskaper i den "
+"angivna nyckeluppsättningen"
+
+#. :src: bpy.types.ANIM_OT_keyframe_delete.type
+#. :src: bpy.types.ANIM_OT_keyframe_delete_by_name.type
+#. :src: bpy.types.ANIM_OT_keyframe_insert.type
+#. :src: bpy.types.ANIM_OT_keyframe_insert_by_name.type
+#. :src: bpy.types.ANIM_OT_keyframe_insert_menu.type
+#. :src: bpy.types.ANIM_OT_keying_set_active_set.type
+msgid "The Keying Set to use"
+msgstr "Nyckeluppsättningen som ska användas"
+
+#. :src: bpy.types.ANIM_OT_keyframe_delete_button
+msgid "Delete current keyframe of current UI-active property"
+msgstr "Ta bort aktuell nyckelbildruta för den UI-aktiva egenskapen"
+
+#. :src: bpy.types.ANIM_OT_keyframe_delete_by_name
+msgctxt "Operator"
+msgid "Delete Keying-Set Keyframe (by name)"
+msgstr "Ta bort nyckelbildruta i nyckeluppsättning (efter namn)"
+
+#. :src: bpy.types.ANIM_OT_keyframe_delete_by_name
+msgid "Alternate access to 'Delete Keyframe' for keymaps to use"
+msgstr "Alternativ åtkomst till ”Ta bort nyckelbildruta” för tangentmappningar"
+
+#. :src: bpy.types.ANIM_OT_keyframe_delete_v3d
+#. :src: bpy.types.CLIP_OT_keyframe_delete
+msgctxt "Operator"
+msgid "Delete Keyframe"
+msgstr "Ta bort nyckelbildruta"
+
+#. :src: bpy.types.ANIM_OT_keyframe_delete_v3d
+msgid "Remove keyframes on current frame for selected objects and bones"
+msgstr ""
+"Ta bort nyckelbildrutor på den aktuella bildrutan för markerade objekt och "
+"ben"
+
+#. :src: bpy.types.ANIM_OT_keyframe_insert
+#. :src: bpy.types.CLIP_OT_keyframe_insert
+msgctxt "Operator"
+msgid "Insert Keyframe"
+msgstr "Infoga nyckelbildruta"
+
+#. :src: bpy.types.ANIM_OT_keyframe_insert
+msgid ""
+"Insert keyframes on the current frame using either the active keying set, or "
+"the user preferences if no keying set is active"
+msgstr ""
+"Infoga nyckelbildrutor på den aktuella bildrutan med den aktiva "
+"nyckeluppsättningen eller användarinställningarna om ingen nyckeluppsättning "
+"är aktiv"
+
+#. :src: bpy.types.ANIM_OT_keyframe_insert_button
+msgid "Insert a keyframe for current UI-active property"
+msgstr "Infoga en nyckelbildruta för den UI-aktiva egenskapen"
+
+#. :src: bpy.types.ANIM_OT_keyframe_insert_button.all
+msgid "Insert a keyframe for all element of the array"
+msgstr "Infoga en nyckelbildruta för alla element i matrisen"
+
+#. :src: bpy.types.ANIM_OT_keyframe_insert_by_name
+msgid "Alternate access to 'Insert Keyframe' for keymaps to use"
+msgstr "Alternativ åtkomst till ”Infoga nyckelbildruta” för tangentmappningar"
+
+#. :src: bpy.types.ANIM_OT_keyframe_insert_menu
+msgctxt "Operator"
+msgid "Insert Keyframe Menu"
+msgstr "Meny för att infoga nyckelbildruta"
+
+#. :src: bpy.types.ANIM_OT_keyframe_insert_menu
+msgid ""
+"Insert Keyframes for specified Keying Set, with menu of available Keying "
+"Sets if undefined"
+msgstr ""
+"Infoga nyckelbildrutor för angiven nyckeluppsättning, med en meny över "
+"tillgängliga nyckeluppsättningar om den inte är angiven"
+
+#. :src: bpy.types.ANIM_OT_keying_set_active_set
+msgctxt "Operator"
+msgid "Set Active Keying Set"
+msgstr "Ange aktiv nyckeluppsättning"
+
+#. :src: bpy.types.ANIM_OT_keying_set_active_set
+msgid "Set a new active keying set"
+msgstr "Ange en ny aktiv nyckeluppsättning"
+
+#. :src: bpy.types.ANIM_OT_keying_set_path_add
+msgctxt "Operator"
+msgid "Add Empty Keying Set Path"
+msgstr "Lägg till tom sökväg för nyckeluppsättning"
+
+#. :src: bpy.types.ANIM_OT_keying_set_path_add
+msgid "Add empty path to active keying set"
+msgstr "Lägg till tom sökväg i den aktiva nyckeluppsättningen"
+
+#. :src: bpy.types.ANIM_OT_keying_set_path_remove
+msgctxt "Operator"
+msgid "Remove Active Keying Set Path"
+msgstr "Ta bort aktiv sökväg för nyckeluppsättning"
+
+#. :src: bpy.types.ANIM_OT_keying_set_path_remove
+msgid "Remove active Path from active keying set"
+msgstr "Ta bort aktiv sökväg från den aktiva nyckeluppsättningen"
+
+#. :src: bpy.types.ANIM_OT_keyingset_button_add
+msgctxt "Operator"
+msgid "Add to Keying Set"
+msgstr "Lägg till i nyckeluppsättning"
+
+#. :src: bpy.types.ANIM_OT_keyingset_button_add
+msgid "Add current UI-active property to current keying set"
+msgstr "Lägg till den UI-aktiva egenskapen i den aktuella nyckeluppsättningen"
+
+#. :src: bpy.types.ANIM_OT_keyingset_button_remove
+msgctxt "Operator"
+msgid "Remove from Keying Set"
+msgstr "Ta bort från nyckeluppsättning"
+
+#. :src: bpy.types.ANIM_OT_keyingset_button_remove
+msgid "Remove current UI-active property from current keying set"
+msgstr ""
+"Ta bort den aktuella UI-aktiva egenskapen från den aktuella "
+"nyckeluppsättningen"
+
+#. :src: bpy.types.ANIM_OT_merge_animation
+msgctxt "Operator"
+msgid "Merge Animation"
+msgstr "Sammanfoga animering"
+
+#. :src: bpy.types.ANIM_OT_paste_driver_button
+msgctxt "Operator"
+msgid "Paste Driver"
+msgstr "Klistra in drivare"
+
+#. :src: bpy.types.ANIM_OT_paste_driver_button
+msgid "Paste the driver in the internal clipboard to the highlighted button"
+msgstr "Klistra in drivaren från det interna urklippet i den markerade knappen"
+
+#. :src: bpy.types.ANIM_OT_previewrange_clear
+msgid "Clear preview range"
+msgstr "Rensa förhandsgranskningsintervall"
+
+#. :src: bpy.types.ANIM_OT_previewrange_set
+msgctxt "Operator"
+msgid "Set Preview Range"
+msgstr "Ange förhandsgranskningsintervall"
+
+#. :src: bpy.types.ANIM_OT_scene_range_frame
+msgctxt "Operator"
+msgid "Frame Scene/Preview Range"
+msgstr "Rama in scen-/förhandsgranskningsintervall"
+
+#. :src: bpy.types.ANIM_OT_separate_slots
+msgctxt "Operator"
+msgid "Separate Slots"
+msgstr "Separera platser"
+
+#. :src: bpy.types.ANIM_OT_start_frame_set
+msgctxt "Operator"
+msgid "Set Start Frame"
+msgstr "Ange startbildruta"
+
+#. :src: bpy.types.ANIM_OT_start_frame_set
+msgid "Set the current frame as the preview or scene start frame"
+msgstr ""
+"Ange den aktuella bildrutan som startbildruta för förhandsgranskningen eller "
+"scenen"
+
+#. :src: bpy.types.ANIM_OT_update_animated_transform_constraints.use_convert_to_radians
+msgid ""
+"Convert f-curves/drivers affecting rotations to radians.\n"
+"Warning: Use this only once"
+msgstr ""
+"Konvertera F-kurvor/drivare som påverkar rotationer till radianer.\n"
+"Varning: använd detta endast en gång"
+
+#. :src: bpy.types.ANIM_OT_view_curve_in_graph_editor
+msgctxt "Operator"
+msgid "View In Graph Editor"
+msgstr "Visa i grafredigeraren"
+
+#. :src: bpy.types.ANIM_OT_view_curve_in_graph_editor
+msgid "Frame the property under the cursor in the Graph Editor"
+msgstr "Rama in egenskapen under markören i grafredigeraren"
+
+#. :src: bpy.types.ANIM_OT_view_curve_in_graph_editor.all
+msgid ""
+"Frame the whole array property instead of only the index under the cursor"
+msgstr ""
+"Rama in hela matrisegenskapen i stället för endast indexet under markören"
+
+#. :src: bpy.types.ANIM_OT_view_curve_in_graph_editor.isolate
+msgid "Hides all F-Curves other than the ones being framed"
+msgstr "Dölj alla F-kurvor utom dem som ramas in"
+
+#. :src: bpy.types.ARMATURE_OT_autoside_names.type
+#. :src: bpy.types.POSE_OT_autoside_names.axis
+msgid "Axis to tag names with"
+msgstr "Axel att märka namn med"
+
+#. :src: bpy.types.ARMATURE_OT_autoside_names.type:'ZAXIS'
+#. :src: bpy.types.POSE_OT_autoside_names.axis:'ZAXIS'
+msgid "Top/Bottom"
+msgstr "Överst/underst"
+
+#. :src: bpy.types.ARMATURE_OT_calculate_roll
+msgid "Automatically fix alignment of select bones' axes"
+msgstr "Korrigera automatiskt inriktningen för valda benaxlar"
+
+#. :src: bpy.types.ARMATURE_OT_calculate_roll.type:'POS_X'
+msgid "Local +X Tangent"
+msgstr "Lokal +X-tangent"
+
+#. :src: bpy.types.ARMATURE_OT_calculate_roll.type:'GLOBAL_POS_X'
+msgid "Global +X Axis"
+msgstr "Global +X-axel"
+
+#. :src: bpy.types.ARMATURE_OT_calculate_roll.type:'VIEW'
+msgid "View Axis"
+msgstr "Vyaxel"
+
+#. :src: bpy.types.ARMATURE_OT_collection_add
+msgctxt "Operator"
+msgid "Add Bone Collection"
+msgstr "Lägg till bensamling"
+
+#. :src: bpy.types.ARMATURE_OT_collection_assign
+msgctxt "Operator"
+msgid "Add Selected Bones to Collection"
+msgstr "Lägg till markerade ben i samling"
+
+#. :src: bpy.types.ARMATURE_OT_collection_deselect
+msgctxt "Operator"
+msgid "Deselect Bone Collection"
+msgstr "Avmarkera bensamling"
+
+#. :src: bpy.types.ARMATURE_OT_collection_move
+msgctxt "Operator"
+msgid "Move Bone Collection"
+msgstr "Flytta bensamling"
+
+#. :src: bpy.types.ARMATURE_OT_collection_remove
+msgctxt "Operator"
+msgid "Remove Bone Collection"
+msgstr "Ta bort bensamling"
+
+#. :src: bpy.types.ARMATURE_OT_collection_select
+msgctxt "Operator"
+msgid "Select Bones of Bone Collection"
+msgstr "Markera ben i bensamling"
+
+#. :src: bpy.types.ARMATURE_OT_collection_unassign
+msgctxt "Operator"
+msgid "Remove Selected from Bone collections"
+msgstr "Ta bort markerade från bensamlingar"
+
+#. :src: bpy.types.ACTION_OT_keyframe_type
+msgctxt "Operator"
+msgid "Set Keyframe Type"
+msgstr "Ange nyckelbildrutatyp"
+
+#. :src: bpy.types.ACTION_OT_keyframe_type
+msgid "Set type of keyframe for the selected keyframes"
+msgstr "Ange nyckelbildrutatyp för markerade nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_layer_next
+msgid ""
+"Switch to editing action in animation layer above the current action in the "
+"NLA Stack"
+msgstr ""
+"Växla till redigering av åtgärden i animationslagret ovanför den aktuella "
+"åtgärden i NLA-stapeln"
+
+#. :src: bpy.types.ACTION_OT_layer_prev
+msgid ""
+"Switch to editing action in animation layer below the current action in the "
+"NLA Stack"
+msgstr ""
+"Växla till redigering av åtgärden i animationslagret under den aktuella "
+"åtgärden i NLA-stapeln"
+
+#. :src: bpy.types.ACTION_OT_markers_make_local
+msgid ""
+"Move selected scene markers to the active Action as local 'pose' markers"
+msgstr ""
+"Flytta markerade scenmarkörer till den aktiva åtgärden som lokala ”pose”-"
+"markörer"
+
+#. :src: bpy.types.ACTION_OT_mirror
+#. :src: bpy.types.GRAPH_OT_mirror
+msgctxt "Operator"
+msgid "Mirror Keys"
+msgstr "Spegla nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_mirror
+#. :src: bpy.types.GRAPH_OT_mirror
+msgid "Flip selected keyframes over the selected mirror line"
+msgstr "Spegla markerade nyckelbildrutor över den valda spegellinjen"
+
+#. :src: bpy.types.ACTION_OT_mirror.type:'CFRA'
+#. :src: bpy.types.GRAPH_OT_mirror.type:'CFRA'
+msgid ""
+"Flip times of selected keyframes using the current frame as the mirror line"
+msgstr ""
+"Spegla tiderna för markerade nyckelbildrutor med den aktuella bildrutan som "
+"spegellinje"
+
+#. :src: bpy.types.ACTION_OT_mirror.type:'XAXIS'
+#. :src: bpy.types.GRAPH_OT_mirror.type:'XAXIS'
+msgid ""
+"Flip values of selected keyframes (i.e. negative values become positive, and "
+"vice versa)"
+msgstr ""
+"Spegla värden för markerade nyckelbildrutor (dvs. negativa värden blir "
+"positiva och tvärtom)"
+
+#. :src: bpy.types.ACTION_OT_mirror.type:'MARKER'
+#. :src: bpy.types.GRAPH_OT_mirror.type:'MARKER'
+msgid ""
+"Flip times of selected keyframes using the first selected marker as the "
+"reference point"
+msgstr ""
+"Spegla tiderna för markerade nyckelbildrutor med den första markerade "
+"markören som referenspunkt"
+
+#. :src: bpy.types.ACTION_OT_paste
+#. :src: bpy.types.GRAPH_OT_paste
+msgctxt "Operator"
+msgid "Paste Keyframes"
+msgstr "Klistra in nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_paste
+#. :src: bpy.types.GRAPH_OT_paste
+msgid ""
+"Paste keyframes from the internal clipboard for the selected channels, "
+"starting on the current frame"
+msgstr ""
+"Klistra in nyckelbildrutor från det interna urklippet för de markerade "
+"kanalerna, med början på den aktuella bildrutan"
+
+#. :src: bpy.types.ACTION_OT_paste.flipped
+#. :src: bpy.types.GRAPH_OT_paste.flipped
+#. :src: bpy.types.POSELIB_OT_pose_asset_select_bones.flipped
+#. :src: bpy.types.TRANSFORM_OT_edge_slide.flipped
+#. :src: bpy.types.TRANSFORM_OT_vert_slide.flipped
+msgid "Flipped"
+msgstr "Spegelvänd"
+
+#. :src: bpy.types.ACTION_OT_paste.flipped
+#. :src: bpy.types.GRAPH_OT_paste.flipped
+msgid "Paste keyframes from mirrored bones if they exist"
+msgstr "Klistra in nyckelbildrutor från speglade ben om de finns"
+
+#. :src: bpy.types.ACTION_OT_paste.merge
+#. :src: bpy.types.GRAPH_OT_paste.merge
+msgid "Method of merging pasted keys and existing"
+msgstr "Metod för att sammanfoga inklistrade och befintliga nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_paste.merge:'MIX'
+#. :src: bpy.types.GRAPH_OT_paste.merge:'MIX'
+msgid "Overlay existing with new keys"
+msgstr "Lägg nya nyckelbildrutor ovanpå befintliga"
+
+#. :src: bpy.types.ACTION_OT_paste.merge:'OVER_RANGE'
+#. :src: bpy.types.GRAPH_OT_paste.merge:'OVER_RANGE'
+msgid "Overwrite Range"
+msgstr "Skriv över intervall"
+
+#. :src: bpy.types.ACTION_OT_paste.merge:'OVER_RANGE'
+#. :src: bpy.types.GRAPH_OT_paste.merge:'OVER_RANGE'
+msgid "Overwrite keys in pasted range"
+msgstr "Skriv över nyckelbildrutor i det inklistrade intervallet"
+
+#. :src: bpy.types.ACTION_OT_paste.merge:'OVER_RANGE_ALL'
+#. :src: bpy.types.GRAPH_OT_paste.merge:'OVER_RANGE_ALL'
+msgid "Overwrite Entire Range"
+msgstr "Skriv över hela intervallet"
+
+#. :src: bpy.types.ACTION_OT_paste.merge:'OVER_RANGE_ALL'
+#. :src: bpy.types.GRAPH_OT_paste.merge:'OVER_RANGE_ALL'
+msgid "Overwrite keys in pasted range, using the range of all copied keys"
+msgstr ""
+"Skriv över nyckelbildrutor i det inklistrade intervallet med intervallet för "
+"alla kopierade nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_paste.offset
+#. :src: bpy.types.GRAPH_OT_paste.offset
+msgid "Paste time offset of keys"
+msgstr "Klistra in nyckelbildrutornas tidsförskjutning"
+
+#. :src: bpy.types.ACTION_OT_paste.offset:'START'
+#. :src: bpy.types.GRAPH_OT_paste.offset:'START'
+msgid "Paste keys starting at current frame"
+msgstr "Klistra in nyckelbildrutor som börjar vid den aktuella bildrutan"
+
+#. :src: bpy.types.ACTION_OT_paste.offset:'END'
+#. :src: bpy.types.GRAPH_OT_paste.offset:'END'
+msgid "Frame End"
+msgstr "Slutbildruta"
+
+#. :src: bpy.types.ACTION_OT_paste.offset:'RELATIVE'
+#. :src: bpy.types.GRAPH_OT_paste.offset:'RELATIVE'
+msgid "Frame Relative"
+msgstr "Relativt till bildruta"
+
+#. :src: bpy.types.ACTION_OT_paste.offset:'RELATIVE'
+#. :src: bpy.types.GRAPH_OT_paste.offset:'RELATIVE'
+msgid "Paste keys relative to the current frame when copying"
+msgstr ""
+"Klistra in nyckelbildrutor relativt den aktuella bildrutan vid kopiering"
+
+#. :src: bpy.types.ACTION_OT_paste.offset:'NONE'
+#. :src: bpy.types.GRAPH_OT_paste.offset:'NONE'
+msgid "Paste keys from original time"
+msgstr "Klistra in nyckelbildrutor från ursprunglig tid"
+
+#. :src: bpy.types.ACTION_OT_previewrange_set
+#. :src: bpy.types.GRAPH_OT_previewrange_set
+#. :src: bpy.types.NLA_OT_previewrange_set
+msgctxt "Operator"
+msgid "Set Preview Range to Selected"
+msgstr "Ange förhandsgranskningsintervall för markerade"
+
+#. :src: bpy.types.ACTION_OT_previewrange_set
+msgid "Set Preview Range based on extents of selected Keyframes"
+msgstr ""
+"Ange förhandsgranskningsintervall utifrån omfånget av markerade "
+"nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_select_all
+#. :src: bpy.types.GRAPH_OT_select_all
+msgid "Toggle selection of all keyframes"
+msgstr "Växla markering av alla nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_select_box
+#. :src: bpy.types.GRAPH_OT_select_box
+msgid "Select all keyframes within the specified region"
+msgstr "Markera alla nyckelbildrutor inom den angivna regionen"
+
+#. :src: bpy.types.ACTION_OT_select_box.tweak
+#. :src: bpy.types.GRAPH_OT_select_box.tweak
+#. :src: bpy.types.MARKER_OT_move.tweak
+#. :src: bpy.types.MARKER_OT_select_box.tweak
+#. :src: bpy.types.NLA_OT_select_box.tweak
+msgid "Operator has been activated using a click-drag event"
+msgstr "Operatören har aktiverats genom att klicka och dra"
+
+#. :src: bpy.types.ACTION_OT_select_box.wait_for_input
+#. :src: bpy.types.ACTION_OT_select_circle.wait_for_input
+#. :src: bpy.types.ANIM_OT_channels_select_box.wait_for_input
+#. :src: bpy.types.ANIM_OT_previewrange_set.wait_for_input
+#. :src: bpy.types.CLIP_OT_graph_select_box.wait_for_input
+#. :src: bpy.types.CLIP_OT_select_box.wait_for_input
+#. :src: bpy.types.CLIP_OT_select_circle.wait_for_input
+#. :src: bpy.types.CURVES_OT_draw.wait_for_input
+#. :src: bpy.types.CURVE_OT_draw.wait_for_input
+#. :src: bpy.types.FILE_OT_select_box.wait_for_input
+#. :src: bpy.types.GPENCIL_OT_annotate.wait_for_input
+#. :src: bpy.types.GRAPH_OT_select_box.wait_for_input
+#. :src: bpy.types.GRAPH_OT_select_circle.wait_for_input
+#. :src: bpy.types.GREASE_PENCIL_OT_erase_box.wait_for_input
+#. :src: bpy.types.IMAGE_OT_render_border.wait_for_input
+#. :src: bpy.types.IMAGE_OT_view_zoom_border.wait_for_input
+#. :src: bpy.types.INFO_OT_select_box.wait_for_input
+#. :src: bpy.types.MARKER_OT_select_box.wait_for_input
+#. :src: bpy.types.MASK_OT_select_box.wait_for_input
+#. :src: bpy.types.MASK_OT_select_circle.wait_for_input
+#. :src: bpy.types.MESH_OT_knife_tool.wait_for_input
+#. :src: bpy.types.MESH_OT_vertices_smooth.wait_for_input
+#. :src: bpy.types.NLA_OT_select_box.wait_for_input
+#. :src: bpy.types.NODE_OT_select_box.wait_for_input
+#. :src: bpy.types.NODE_OT_select_circle.wait_for_input
+#. :src: bpy.types.NODE_OT_viewer_border.wait_for_input
+#. :src: bpy.types.OUTLINER_OT_select_box.wait_for_input
+#. :src: bpy.types.PAINT_OT_hide_show.wait_for_input
+#. :src: bpy.types.PAINT_OT_mask_box_gesture.wait_for_input
+#. :src: bpy.types.SCULPT_OT_face_set_box_gesture.wait_for_input
+#. :src: bpy.types.SCULPT_OT_trim_box_gesture.wait_for_input
+#. :src: bpy.types.SEQUENCER_OT_select_box.wait_for_input
+#. :src: bpy.types.SEQUENCER_OT_view_ghost_border.wait_for_input
+#. :src: bpy.types.TRANSFORM_OT_vertex_random.wait_for_input
+#. :src: bpy.types.UV_OT_select_box.wait_for_input
+#. :src: bpy.types.UV_OT_select_circle.wait_for_input
+#. :src: bpy.types.VIEW2D_OT_smoothview.wait_for_input
+#. :src: bpy.types.VIEW2D_OT_zoom_border.wait_for_input
+#. :src: bpy.types.VIEW3D_OT_clip_border.wait_for_input
+#. :src: bpy.types.VIEW3D_OT_interactive_add.wait_for_input
+#. :src: bpy.types.VIEW3D_OT_render_border.wait_for_input
+#. :src: bpy.types.VIEW3D_OT_select_box.wait_for_input
+#. :src: bpy.types.VIEW3D_OT_select_circle.wait_for_input
+#. :src: bpy.types.VIEW3D_OT_zoom_border.wait_for_input
+msgid "Wait for Input"
+msgstr "Vänta på indata"
+
+#. :src: bpy.types.ACTION_OT_select_circle
+#. :src: bpy.types.GRAPH_OT_select_circle
+msgid "Select keyframe points using circle selection"
+msgstr "Markera nyckelbildrutepunkter med cirkelmarkering"
+
+#. :src: bpy.types.ACTION_OT_select_column
+#. :src: bpy.types.GRAPH_OT_select_column
+msgid "Select all keyframes on the specified frame(s)"
+msgstr "Markera alla nyckelbildrutor på de angivna bildrutorna"
+
+#. :src: bpy.types.ACTION_OT_select_column.mode:'KEYS'
+#. :src: bpy.types.GRAPH_OT_select_column.mode:'KEYS'
+#. :src: bpy.types.POSE_OT_propagate.mode:'SELECTED_KEYS'
+msgid "On Selected Keyframes"
+msgstr "På markerade nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_select_column.mode:'MARKERS_BETWEEN'
+#. :src: bpy.types.GRAPH_OT_select_column.mode:'MARKERS_BETWEEN'
+msgid "Between Min/Max Selected Markers"
+msgstr "Mellan minsta och största markerade markör"
+
+#. :src: bpy.types.ACTION_OT_select_lasso
+#. :src: bpy.types.GRAPH_OT_select_lasso
+msgid "Select keyframe points using lasso selection"
+msgstr "Markera nyckelbildrutepunkter med lassomarkering"
+
+#. :src: bpy.types.ACTION_OT_select_lasso.smooth_stroke_factor
+#. :src: bpy.types.CLIP_OT_select_lasso.smooth_stroke_factor
+#. :src: bpy.types.GPENCIL_OT_annotate.stabilizer_factor
+#. :src: bpy.types.GRAPH_OT_select_lasso.smooth_stroke_factor
+#. :src: bpy.types.GREASE_PENCIL_OT_erase_lasso.smooth_stroke_factor
+#. :src: bpy.types.GREASE_PENCIL_OT_stroke_trim.smooth_stroke_factor
+#. :src: bpy.types.MASK_OT_select_lasso.smooth_stroke_factor
+#. :src: bpy.types.NODE_OT_select_lasso.smooth_stroke_factor
+#. :src: bpy.types.PAINT_OT_hide_show_lasso_gesture.smooth_stroke_factor
+#. :src: bpy.types.PAINT_OT_mask_lasso_gesture.smooth_stroke_factor
+#. :src: bpy.types.SCULPT_OT_face_set_lasso_gesture.smooth_stroke_factor
+#. :src: bpy.types.SCULPT_OT_trim_lasso_gesture.smooth_stroke_factor
+#. :src: bpy.types.UV_OT_select_lasso.smooth_stroke_factor
+#. :src: bpy.types.VIEW3D_OT_select_lasso.smooth_stroke_factor
+msgid "Higher values gives a smoother stroke"
+msgstr "Högre värden ger ett jämnare streck"
+
+#. :src: bpy.types.ACTION_OT_select_lasso.use_smooth_stroke
+#. :src: bpy.types.CLIP_OT_select_lasso.use_smooth_stroke
+#. :src: bpy.types.GPENCIL_OT_annotate.use_stabilizer
+#. :src: bpy.types.GRAPH_OT_select_lasso.use_smooth_stroke
+#. :src: bpy.types.GREASE_PENCIL_OT_erase_lasso.use_smooth_stroke
+#. :src: bpy.types.GREASE_PENCIL_OT_stroke_trim.use_smooth_stroke
+#. :src: bpy.types.MASK_OT_select_lasso.use_smooth_stroke
+#. :src: bpy.types.NODE_OT_select_lasso.use_smooth_stroke
+#. :src: bpy.types.PAINT_OT_hide_show_lasso_gesture.use_smooth_stroke
+#. :src: bpy.types.PAINT_OT_mask_lasso_gesture.use_smooth_stroke
+#. :src: bpy.types.SCULPT_OT_face_set_lasso_gesture.use_smooth_stroke
+#. :src: bpy.types.SCULPT_OT_trim_lasso_gesture.use_smooth_stroke
+#. :src: bpy.types.UV_OT_select_lasso.use_smooth_stroke
+#. :src: bpy.types.VIEW3D_OT_select_lasso.use_smooth_stroke
+#. :src: bpy.types.IMAGE_PT_paint_stroke_smooth_stroke
+#. :src: bpy.types.VIEW3D_PT_tools_brush_stroke_smooth_stroke
+#. :src: bpy.types.VIEW3D_PT_tools_grease_pencil_brush_stabilizer
+#. :src: bpy.types.VIEW3D_PT_tools_grease_pencil_v3_brush_stabilizer
+msgid "Stabilize Stroke"
+msgstr "Stabilisera streck"
+
+#. :src: bpy.types.ACTION_OT_select_leftright
+#. :src: bpy.types.GRAPH_OT_select_leftright
+msgid "Select keyframes to the left or the right of the current frame"
+msgstr ""
+"Markera nyckelbildrutor till vänster eller höger om den aktuella bildrutan"
+
+#. :src: bpy.types.ACTION_OT_select_less
+#. :src: bpy.types.GRAPH_OT_select_less
+msgid "Deselect keyframes on ends of selection islands"
+msgstr "Avmarkera nyckelbildrutor i ändarna av markeringsöarna"
+
+#. :src: bpy.types.ACTION_OT_select_linked
+#. :src: bpy.types.GRAPH_OT_select_linked
+msgid "Select keyframes occurring in the same F-Curves as selected ones"
+msgstr "Markera nyckelbildrutor i samma F-kurvor som de markerade"
+
+#. :src: bpy.types.ACTION_OT_select_more
+#. :src: bpy.types.GRAPH_OT_select_more
+msgid "Select keyframes beside already selected ones"
+msgstr "Markera nyckelbildrutor intill redan markerade"
+
+#. :src: bpy.types.ACTION_OT_snap
+#. :src: bpy.types.GRAPH_OT_snap
+msgctxt "Operator"
+msgid "Snap Keys"
+msgstr "Fäst nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_snap
+msgid "Snap selected keyframes to the times specified"
+msgstr "Fäst markerade nyckelbildrutor vid de angivna tiderna"
+
+#. :src: bpy.types.ACTION_OT_snap.type:'CFRA'
+#. :src: bpy.types.GRAPH_OT_snap.type:'CFRA'
+msgid "Snap selected keyframes to the current frame"
+msgstr "Fäst markerade nyckelbildrutor vid den aktuella bildrutan"
+
+#. :src: bpy.types.ACTION_OT_snap.type:'NEAREST_SECOND'
+#. :src: bpy.types.GRAPH_OT_snap.type:'NEAREST_SECOND'
+msgid "Snap selected keyframes to the nearest second"
+msgstr "Fäst markerade nyckelbildrutor vid närmaste sekund"
+
+#. :src: bpy.types.ACTION_OT_snap.type:'NEAREST_MARKER'
+#. :src: bpy.types.GRAPH_OT_snap.type:'NEAREST_MARKER'
+msgid "Snap selected keyframes to the nearest marker"
+msgstr "Fäst markerade nyckelbildrutor vid närmaste markör"
+
+#. :src: bpy.types.SEQUENCER_OT_crossfade_sounds
+msgid "Do cross-fading volume animation of two selected sound strips"
+msgstr "Animera en övertoning av volymen för två valda ljudremsor"
+
+#. :src: bpy.types.SEQUENCER_OT_deinterlace_selected_movies
+msgctxt "Operator"
+msgid "Deinterlace Movies"
+msgstr "Avinterlacera filmer"
+
+#. :src: bpy.types.SEQUENCER_OT_fades_add
+msgid "Adds or updates a fade animation for either visual or audio strips"
+msgstr ""
+"Lägger till eller uppdaterar en uttoningsanimering för visuella eller "
+"ljudremsor"
+
+#. :src: bpy.types.SEQUENCER_OT_fades_add
+msgctxt "Operator"
+msgid "Add Fades"
+msgstr "Lägg till uttoningar"
+
+#. :src: bpy.types.SEQUENCER_OT_fades_clear
+msgid "Removes fade animation from selected strips"
+msgstr "Tar bort uttoningsanimering från valda remsor"
+
+#. :src: bpy.types.SEQUENCER_OT_fades_clear
+msgctxt "Operator"
+msgid "Clear Fades"
+msgstr "Rensa uttoningar"
+
+#. :src: bpy.types.SEQUENCER_OT_split_multicam
+msgid "Split multicam strip and select camera"
+msgstr "Dela flerkameraremsa och välj kamera"
+
+#. :src: bpy.types.SEQUENCER_OT_split_multicam
+msgctxt "Operator"
+msgid "Split Multicam"
+msgstr "Dela flerkamera"
+
+#. :src: bpy.types.SPREADSHEET_OT_toggle_pin
+msgid "Turn on or off pinning"
+msgstr "Aktivera eller inaktivera fästning"
+
+#. :src: bpy.types.TEXT_EDITOR_OT_preset_add
+msgid "Add or remove a Text Editor Preset"
+msgstr "Lägg till eller ta bort en textredigerarförinställning"
+
+#. :src: bpy.types.UILIST_OT_entry_move
+#. :src: bpy.types.UI_OT_rigify_list_entry_move
+msgctxt "Operator"
+msgid "Move Entry"
+msgstr "Flytta post"
+
+#. :src: bpy.types.UI_OT_i18n_addon_translation_invoke
+msgid ""
+"Wrapper operator which will invoke given op after setting its module_name"
+msgstr ""
+"Omslutningsoperator som anropar angiven operator efter att dess modulnamn "
+"har angetts"
+
+#. :src: bpy.types.UI_OT_i18n_cleanuptranslation_work_repo
+msgid "Clean up i18n working repository (po files)"
+msgstr "Rensa i18n-arbetsarkivet (PO-filer)"
+
+#. :src: bpy.types.UI_OT_i18n_cleanuptranslation_work_repo
+msgctxt "Operator"
+msgid "Clean up I18n Work Repository"
+msgstr "Rensa i18n-arbetsarkiv"
+
+#. :src: bpy.types.UI_OT_i18n_settings_load
+msgid "Load translations' settings from a persistent JSon file"
+msgstr "Ladda översättningarnas inställningar från en beständig JSON-fil"
+
+#. :src: bpy.types.UI_OT_i18n_settings_save
+msgid "Save translations' settings in a persistent JSon file"
+msgstr "Spara översättningarnas inställningar i en beständig JSON-fil"
+
+#. :src: bpy.types.UI_OT_i18n_updatetranslation_blender_repo
+msgctxt "Operator"
+msgid "Update I18n Blender Repository"
+msgstr "Uppdatera Blenders i18n-arkiv"
+
+#. :src: bpy.types.UI_OT_i18n_updatetranslation_init_settings
+msgctxt "Operator"
+msgid "Init I18n Update Settings"
+msgstr "Initiera inställningar för i18n-uppdatering"
+
+#. :src: bpy.types.UI_OT_i18n_updatetranslation_statistics
+msgid "Create or extend a 'i18n_info.txt' Text datablock"
+msgstr "Skapa eller utöka textdatablocket ”i18n_info.txt”"
+
+#. :src: bpy.types.UV_OT_align_rotation
+msgctxt "Operator"
+msgid "Align Rotation"
+msgstr "Rikta in rotation"
+
+#. :src: bpy.types.UV_OT_follow_active_quads
+msgid "Follow UVs from active quads along continuous face loops"
+msgstr ""
+"Följ UV-koordinater från aktiva fyrhörningar längs sammanhängande ytslingor"
+
+#. :src: bpy.types.UV_OT_follow_active_quads
+msgctxt "Operator"
+msgid "Follow Active Quads"
+msgstr "Följ aktiva fyrhörningar"
+
+#. :src: bpy.types.UV_OT_lightmap_pack
+msgid "Pack each face's UVs into the UV bounds"
+msgstr "Packa varje ytas UV-koordinater inom UV-gränserna"
+
+#. :src: bpy.types.VIEW3D_OT_edit_mesh_extrude_individual_move
+#. :src: bpy.types.MESH_OT_extrude_faces_move
+msgid "Extrude each individual face separately along local normals"
+msgstr "Extrudera varje enskild yta separat längs lokala normaler"
+
+#. :src: bpy.types.VIEW3D_OT_edit_mesh_extrude_individual_move
+msgctxt "Operator"
+msgid "Extrude Individual and Move"
+msgstr "Extrudera enskilda ytor och flytta"
+
+#. :src: bpy.types.VIEW3D_OT_edit_mesh_extrude_move_normal
+msgctxt "Operator"
+msgid "Extrude and Move on Normals"
+msgstr "Extrudera och flytta längs normaler"
+
+#. :src: bpy.types.VIEW3D_OT_edit_mesh_extrude_move_shrink_fatten
+msgctxt "Operator"
+msgid "Extrude and Move on Individual Normals"
+msgstr "Extrudera och flytta längs enskilda normaler"
+
+#. :src: bpy.types.VIEW3D_OT_transform_gizmo_set
+msgid "Set the current transform gizmo"
+msgstr "Ange den aktuella transformeringsgizmon"
+
+#. :src: bpy.types.VIEW3D_OT_transform_gizmo_set
+msgctxt "Operator"
+msgid "Transform Gizmo Set"
+msgstr "Ange transformeringsgizmo"
+
+#. :src: bpy.types.WM_OT_batch_rename
+msgid "Rename multiple items at once"
+msgstr "Byt namn på flera element samtidigt"
+
+#. :src: bpy.types.WM_OT_context_collection_boolean_set
+msgctxt "Operator"
+msgid "Context Collection Boolean Set"
+msgstr "Ange booleskt värde för kontextsamling"
+
+#. :src: bpy.types.WM_OT_context_cycle_array
+msgctxt "Operator"
+msgid "Context Array Cycle"
+msgstr "Växla kontextmatris"
+
+#. :src: bpy.types.WM_OT_context_cycle_int
+msgid ""
+"Set a context value (useful for cycling active material, shape keys, groups, "
+"etc.)"
+msgstr ""
+"Ange ett kontextvärde (användbart för att växla aktivt material, "
+"formnycklar, grupper osv.)"
+
+#. :src: bpy.types.WM_OT_context_cycle_int
+msgctxt "Operator"
+msgid "Context Int Cycle"
+msgstr "Växla heltalsvärde i kontext"
+
+#. :src: bpy.types.WM_OT_context_modal_mouse
+msgctxt "Operator"
+msgid "Context Modal Mouse"
+msgstr "Modal kontextmus"
+
+#. :src: bpy.types.WM_OT_context_scale_float
+msgid "Scale a float context value"
+msgstr "Skala ett flyttalsvärde i kontext"
+
+#. :src: bpy.types.WM_OT_context_scale_float
+msgctxt "Operator"
+msgid "Context Scale Float"
+msgstr "Skala flyttalsvärde i kontext"
+
+#. :src: bpy.types.WM_OT_context_scale_int
+msgid "Scale an int context value"
+msgstr "Skala ett heltalsvärde i kontext"
+
+#. :src: bpy.types.WM_OT_context_scale_int
+msgctxt "Operator"
+msgid "Context Scale Int"
+msgstr "Skala heltalsvärde i kontext"
+
+#. :src: bpy.types.WM_OT_context_set_boolean
+msgctxt "Operator"
+msgid "Context Set Boolean"
+msgstr "Ange booleskt kontextvärde"
+
+#. :src: bpy.types.WM_OT_context_set_enum
+msgctxt "Operator"
+msgid "Context Set Enum"
+msgstr "Ange uppräkningsvärde i kontext"
+
+#. :src: bpy.types.WM_OT_context_set_float
+msgctxt "Operator"
+msgid "Context Set Float"
+msgstr "Ange flyttalsvärde i kontext"
+
+#. :src: bpy.types.WM_OT_context_set_string
+msgctxt "Operator"
+msgid "Context Set String"
+msgstr "Ange strängvärde i kontext"
+
+#. :src: bpy.types.WM_OT_context_set_value
+msgctxt "Operator"
+msgid "Context Set Value"
+msgstr "Ange kontextvärde"
+
+#. :src: bpy.types.WM_OT_context_toggle
+msgctxt "Operator"
+msgid "Context Toggle"
+msgstr "Växla kontextvärde"
+
+#. :src: bpy.types.WM_OT_context_toggle_enum
+msgctxt "Operator"
+msgid "Context Toggle Values"
+msgstr "Växla kontextvärden"
+
+#. :src: bpy.types.WM_OT_doc_view
+msgid "Open online reference docs in a web browser"
+msgstr "Öppna referensdokumentation på nätet i en webbläsare"
+
+#. :src: bpy.types.WM_OT_doc_view_manual
+msgid "Load online manual"
+msgstr "Läs in handbok på nätet"
+
+#. :src: bpy.types.WM_OT_keyconfig_preset_add
+msgid "Add a custom keymap configuration to the preset list"
+msgstr ""
+"Lägg till en anpassad tangentmappningskonfiguration i listan med "
+"förinställningar"
+
+#. :src: bpy.types.WM_OT_keyconfig_preset_add
+msgctxt "Operator"
+msgid "Add Custom Keymap Configuration"
+msgstr "Lägg till anpassad tangentmappningskonfiguration"
+
+#. :src: bpy.types.WM_OT_keyconfig_preset_remove
+msgid "Remove a custom keymap configuration from the preset list"
+msgstr ""
+"Ta bort en anpassad tangentmappningskonfiguration från listan med "
+"förinställningar"
+
+#. :src: bpy.types.WM_OT_keyconfig_preset_remove
+msgctxt "Operator"
+msgid "Remove Keymap Configuration"
+msgstr "Ta bort tangentmappningskonfiguration"
+
+#. :src: bpy.types.WM_OT_properties_add
+msgctxt "Operator"
+msgid "Add Property"
+msgstr "Lägg till egenskap"
+
+#. :src: bpy.types.WM_OT_properties_edit
+msgctxt "Operator"
+msgid "Edit Property"
+msgstr "Redigera egenskap"
+
+#. :src: bpy.types.WM_OT_properties_edit_value
+msgctxt "Operator"
+msgid "Edit Property Value"
+msgstr "Redigera egenskapsvärde"
+
+#. :src: bpy.types.WM_OT_properties_remove
+msgctxt "Operator"
+msgid "Remove Property"
+msgstr "Ta bort egenskap"
+
+#. :src: bpy.types.WM_OT_tool_set_by_id
+msgid "Set the tool by name (for key-maps)"
+msgstr "Ange verktyget efter namn (för tangentmappningar)"
+
+#. :src: bpy.types.WM_OT_tool_set_by_index
+msgid "Set the tool by index (for key-maps)"
+msgstr "Ange verktyget efter index (för tangentmappningar)"
+
+#. :src: bpy.types.WM_OT_toolbar_fallback_pie
+msgctxt "Operator"
+msgid "Fallback Tool Pie Menu"
+msgstr "Pajmeny för reservverktyg"
+
+#. :src: bpy.types.WORLD_OT_convert_volume_to_mesh
+msgid ""
+"Convert the volume of a world to a mesh. The world's volume used to be "
+"rendered by EEVEE Legacy. Conversion is needed for it to render properly"
+msgstr ""
+"Konvertera en världs volym till en mesh. Världens volym renderades tidigare "
+"av EEVEE Legacy. Konvertering krävs för korrekt rendering"
+
+#. :src: bpy.types.WORLD_OT_convert_volume_to_mesh
+msgctxt "Operator"
+msgid "Convert Volume"
+msgstr "Konvertera volym"
+
+#. :src: bpy.types.OperatorOptions.is_grab_cursor
+msgid "True when the cursor is grabbed"
+msgstr "Sant när markören fångas"
+
+#. :src: bpy.types.OperatorOptions.is_invoke
+msgid "True when invoked (even if only the execute callbacks available)"
+msgstr ""
+"Sant när den anropas (även om endast exekveringsåteranrop är tillgängliga)"
+
+#. :src: bpy.types.OperatorOptions.is_repeat
+msgid "True when run from the 'Adjust Last Operation' panel"
+msgstr "Sant när den körs från panelen ”Justera senaste åtgärd”"
+
+#. :src: bpy.types.OperatorOptions.is_repeat_last
+msgid "Repeat Call"
+msgstr "Upprepa anrop"
+
+#. :src: bpy.types.OperatorOptions.is_repeat_last
+msgid "True when run from the operator 'Repeat Last'"
+msgstr "Sant när den körs från operatorn ”Upprepa senaste”"
+
+#. :src: bpy.types.ACTION_OT_bake_keys
+#. :src: bpy.types.GRAPH_OT_bake_keys
+msgctxt "Operator"
+msgid "Bake Keyframes"
+msgstr "Baka nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_bake_keys
+#. :src: bpy.types.GRAPH_OT_bake_keys
+msgid "Add keyframes on every frame between the selected keyframes"
+msgstr ""
+"Lägg till nyckelbildrutor på varje bildruta mellan de markerade "
+"nyckelbildrutorna"
+
+#. :src: bpy.types.ACTION_OT_clean
+#. :src: bpy.types.GRAPH_OT_clean
+msgctxt "Operator"
+msgid "Clean Keyframes"
+msgstr "Rensa nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_clean
+#. :src: bpy.types.GRAPH_OT_clean
+msgid "Simplify F-Curves by removing closely spaced keyframes"
+msgstr "Förenkla F-kurvor genom att ta bort tätt placerade nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_clickselect
+#. :src: bpy.types.GRAPH_OT_clickselect
+msgctxt "Operator"
+msgid "Select Keyframes"
+msgstr "Markera nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_clickselect
+#. :src: bpy.types.GRAPH_OT_clickselect
+msgid "Select keyframes by clicking on them"
+msgstr "Markera nyckelbildrutor genom att klicka på dem"
+
+#. :src: bpy.types.ACTION_OT_clickselect.column
+#. :src: bpy.types.GRAPH_OT_clickselect.column
+msgid ""
+"Select all keyframes that occur on the same frame as the one under the mouse"
+msgstr "Markera alla nyckelbildrutor på samma bildruta som den under musen"
+
+#. :src: bpy.types.ACTION_OT_clickselect.deselect_all
+#. :src: bpy.types.CLIP_OT_select.deselect_all
+#. :src: bpy.types.CURVE_OT_pen.deselect_all
+#. :src: bpy.types.FILE_OT_select.deselect_all
+#. :src: bpy.types.GIZMOGROUP_OT_gizmo_select.deselect_all
+#. :src: bpy.types.GRAPH_OT_clickselect.deselect_all
+#. :src: bpy.types.MASK_OT_select.deselect_all
+#. :src: bpy.types.NLA_OT_click_select.deselect_all
+#. :src: bpy.types.NODE_OT_select.deselect_all
+#. :src: bpy.types.OUTLINER_OT_item_activate.deselect_all
+#. :src: bpy.types.SEQUENCER_OT_select.deselect_all
+#. :src: bpy.types.UV_OT_select.deselect_all
+#. :src: bpy.types.VIEW3D_OT_select.deselect_all
+msgid "Deselect On Nothing"
+msgstr "Avmarkera när ingenting är under markören"
+
+#. :src: bpy.types.ACTION_OT_clickselect.extend
+#. :src: bpy.types.ACTION_OT_select_leftright.extend
+#. :src: bpy.types.ANIM_OT_channels_click.extend
+#. :src: bpy.types.GRAPH_OT_clickselect.extend
+#. :src: bpy.types.GRAPH_OT_select_leftright.extend
+#. :src: bpy.types.MARKER_OT_select_leftright.extend
+#. :src: bpy.types.MESH_OT_loop_select.extend
+#. :src: bpy.types.NLA_OT_channels_click.extend
+#. :src: bpy.types.NLA_OT_click_select.extend
+#. :src: bpy.types.NLA_OT_select_leftright.extend
+msgid "Extend Select"
+msgstr "Utöka markering"
+
+#. :src: bpy.types.ACTION_OT_clickselect.extend
+#. :src: bpy.types.GRAPH_OT_clickselect.extend
+msgid ""
+"Toggle keyframe selection instead of leaving newly selected keyframes only"
+msgstr ""
+"Växla markering av nyckelbildrutor i stället för att endast behålla de nyss "
+"markerade"
+
+#. :src: bpy.types.ACTION_OT_copy
+#. :src: bpy.types.GRAPH_OT_copy
+msgctxt "Operator"
+msgid "Copy Keyframes"
+msgstr "Kopiera nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_copy
+#. :src: bpy.types.GRAPH_OT_copy
+msgid "Copy selected keyframes to the internal clipboard"
+msgstr "Kopiera markerade nyckelbildrutor till det interna urklippet"
+
+#. :src: bpy.types.ACTION_OT_delete
+#. :src: bpy.types.GRAPH_OT_delete
+msgctxt "Operator"
+msgid "Delete Keyframes"
+msgstr "Ta bort nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_delete
+#. :src: bpy.types.GRAPH_OT_delete
+msgid "Remove all selected keyframes"
+msgstr "Ta bort alla markerade nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_delete.confirm
+#. :src: bpy.types.ANIM_OT_keyframe_clear_v3d.confirm
+#. :src: bpy.types.ANIM_OT_keyframe_delete_v3d.confirm
+#. :src: bpy.types.ARMATURE_OT_delete.confirm
+#. :src: bpy.types.CLIP_OT_delete_marker.confirm
+#. :src: bpy.types.CLIP_OT_delete_track.confirm
+#. :src: bpy.types.CLIP_OT_graph_delete_curve.confirm
+#. :src: bpy.types.FILE_OT_directory_new.confirm
+#. :src: bpy.types.GRAPH_OT_delete.confirm
+#. :src: bpy.types.MARKER_OT_delete.confirm
+#. :src: bpy.types.MASK_OT_delete.confirm
+#. :src: bpy.types.MBALL_OT_delete_metaelems.confirm
+#. :src: bpy.types.NLA_OT_make_single_user.confirm
+#. :src: bpy.types.OBJECT_OT_delete.confirm
+msgid "Prompt for confirmation"
+msgstr "Fråga efter bekräftelse"
+
+#. :src: bpy.types.ACTION_OT_duplicate
+#. :src: bpy.types.GRAPH_OT_duplicate
+msgctxt "Operator"
+msgid "Duplicate Keyframes"
+msgstr "Duplicera nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_duplicate
+#. :src: bpy.types.ACTION_OT_duplicate_move.ACTION_OT_duplicate
+#. :src: bpy.types.GRAPH_OT_duplicate
+#. :src: bpy.types.GRAPH_OT_duplicate_move.GRAPH_OT_duplicate
+msgid "Make a copy of all selected keyframes"
+msgstr "Gör en kopia av alla markerade nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_duplicate_move
+#. :src: bpy.types.GRAPH_OT_duplicate_move
+msgid "Make a copy of all selected keyframes and move them"
+msgstr "Gör en kopia av alla markerade nyckelbildrutor och flytta dem"
+
+#. :src: bpy.types.ACTION_OT_easing_type
+#. :src: bpy.types.GRAPH_OT_easing_type
+msgctxt "Operator"
+msgid "Set Keyframe Easing Type"
+msgstr "Ange lättnadstyp för nyckelbildruta"
+
+#. :src: bpy.types.ACTION_OT_easing_type
+#. :src: bpy.types.GRAPH_OT_easing_type
+msgid ""
+"Set easing type for the F-Curve segments starting from the selected keyframes"
+msgstr ""
+"Ange lättnadstyp för F-kurvsegmenten som börjar vid de markerade "
+"nyckelbildrutorna"
+
+#. :src: bpy.types.ACTION_OT_extrapolation_type.type:'CONSTANT'
+#. :src: bpy.types.GRAPH_OT_extrapolation_type.type:'CONSTANT'
+msgid "Values on endpoint keyframes are held"
+msgstr "Värden vid nyckelbildrutorna i ändarna behålls"
+
+#. :src: bpy.types.ACTION_OT_extrapolation_type.type:'LINEAR'
+#. :src: bpy.types.GRAPH_OT_extrapolation_type.type:'LINEAR'
+msgid ""
+"Straight-line slope of end segments are extended past the endpoint keyframes"
+msgstr "Ändsegmentens räta lutning förlängs förbi nyckelbildrutorna i ändarna"
+
+#. :src: bpy.types.ACTION_OT_frame_jump
+#. :src: bpy.types.GRAPH_OT_frame_jump
+msgctxt "Operator"
+msgid "Jump to Keyframes"
+msgstr "Hoppa till nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_frame_jump
+msgid "Set the current frame to the average frame value of selected keyframes"
+msgstr ""
+"Ange den aktuella bildrutan till den genomsnittliga bildrutan för markerade "
+"nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_handle_type
+#. :src: bpy.types.GRAPH_OT_handle_type
+msgctxt "Operator"
+msgid "Set Keyframe Handle Type"
+msgstr "Ange handtagstyp för nyckelbildruta"
+
+#. :src: bpy.types.ACTION_OT_handle_type
+#. :src: bpy.types.GRAPH_OT_handle_type
+msgid "Set type of handle for selected keyframes"
+msgstr "Ange handtagstyp för markerade nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_interpolation_type
+#. :src: bpy.types.GRAPH_OT_interpolation_type
+msgctxt "Operator"
+msgid "Set Keyframe Interpolation"
+msgstr "Ange interpolering för nyckelbildruta"
+
+#. :src: bpy.types.ACTION_OT_interpolation_type
+#. :src: bpy.types.GRAPH_OT_interpolation_type
+msgid ""
+"Set interpolation mode for the F-Curve segments starting from the selected "
+"keyframes"
+msgstr ""
+"Ange interpoleringsläge för F-kurvsegmenten som börjar vid de markerade "
+"nyckelbildrutorna"
+
+#. :src: bpy.types.ACTION_OT_keyframe_insert
+#. :src: bpy.types.GRAPH_OT_keyframe_insert
+msgctxt "Operator"
+msgid "Insert Keyframes"
+msgstr "Infoga nyckelbildrutor"
+
+#. :src: bpy.types.ACTION_OT_keyframe_insert
+#. :src: bpy.types.GRAPH_OT_keyframe_insert
+msgid "Insert keyframes for the specified channels"
+msgstr "Infoga nyckelbildrutor för de angivna kanalerna"
+
+#. :src: bpy.types.NODE_OT_interface_item_unlink_panel_toggle
+msgid "Make the panel toggle a stand-alone socket"
+msgstr "Gör panelväxlingen till ett fristående uttag"
+
+#. :src: bpy.types.NODE_OT_new_geometry_node_group_assign
+msgid "Create a new geometry node group and assign it to the active modifier"
+msgstr ""
+"Skapa en ny geometrinodgrupp och tilldela den till den aktiva modifieraren"
+
+#. :src: bpy.types.NODE_OT_new_geometry_node_group_assign
+msgctxt "Operator"
+msgid "Assign New Geometry Node Group"
+msgstr "Tilldela ny geometrinodgrupp"
+
+#. :src: bpy.types.NODE_OT_new_geometry_node_group_tool
+msgid "Create a new geometry node group for a tool"
+msgstr "Skapa en ny geometrinodgrupp för ett verktyg"
+
+#. :src: bpy.types.NODE_OT_new_geometry_node_group_tool
+msgctxt "Operator"
+msgid "New Geometry Node Tool Group"
+msgstr "Ny geometrinodverktygsgrupp"
+
+#. :src: bpy.types.NODE_OT_new_geometry_nodes_modifier
+msgid "Create a new modifier with a new geometry node group"
+msgstr "Skapa en ny modifierare med en ny geometrinodgrupp"
+
+#. :src: bpy.types.NODE_OT_new_geometry_nodes_modifier
+msgctxt "Operator"
+msgid "New Geometry Node Modifier"
+msgstr "Ny geometrinodmodifierare"
+
+#. :src: bpy.types.NODE_OT_nw_add_attr_node
+msgid "Add an Attribute node with this name"
+msgstr "Lägg till en attributnod med detta namn"
+
+#. :src: bpy.types.NODE_OT_nw_add_reroutes
+msgid "Add Reroute Nodes and link them to outputs of selected nodes"
+msgstr ""
+"Lägg till omdirigeringsnoder och koppla dem till utdata från valda noder"
+
+#. :src: bpy.types.NODE_OT_nw_add_reroutes
+msgctxt "Operator"
+msgid "Add Reroutes"
+msgstr "Lägg till omdirigeringar"
+
+#. :src: bpy.types.NODE_OT_nw_add_texture
+msgctxt "Operator"
+msgid "Texture Setup"
+msgstr "Texturinställning"
+
+#. :src: bpy.types.NODE_OT_nw_call_inputs_menu
+msgid "Link from this output"
+msgstr "Länka från denna utdata"
+
+#. :src: bpy.types.NODE_OT_nw_clear_label
+msgctxt "Operator"
+msgid "Clear Label"
+msgstr "Rensa etikett"
+
+#. :src: bpy.types.NODE_OT_nw_copy_settings
+msgctxt "Operator"
+msgid "Copy Settings"
+msgstr "Kopiera inställningar"
+
+#. :src: bpy.types.NODE_OT_nw_del_unused
+msgctxt "Operator"
+msgid "Delete Unused Nodes"
+msgstr "Ta bort oanvända noder"
+
+#. :src: bpy.types.NODE_OT_nw_detach_outputs
+msgctxt "Operator"
+msgid "Detach Outputs"
+msgstr "Koppla loss utdata"
+
+#. :src: bpy.types.NODE_OT_nw_link_active_to_selected
+msgctxt "Operator"
+msgid "Link Active Node to Selected"
+msgstr "Länka aktiv nod till valda"
+
+#. :src: bpy.types.NODE_OT_nw_link_out
+msgid "Link to Composite node or Material Output node"
+msgstr "Länka till kompositörsnod eller materialutdatanod"
+
+#. :src: bpy.types.NODE_OT_nw_merge_nodes
+msgctxt "Operator"
+msgid "Merge Nodes"
+msgstr "Sammanfoga noder"
+
+#. :src: bpy.types.NODE_OT_nw_reload_images
+msgctxt "Operator"
+msgid "Reload Images"
+msgstr "Ladda om bilder"
+
+#. :src: bpy.types.NODE_OT_tree_path_parent
+msgctxt "Operator"
+msgid "Parent Node Tree"
+msgstr "Överordnat nodträd"
+
+#. :src: bpy.types.NODE_OT_viewer_shortcut_get
+msgid "Activate a specific compositor viewer node using 1,2,..,9 keys"
+msgstr ""
+"Aktivera en specifik visningsnod i kompositören med tangenterna 1,2,..,9"
+
+#. :src: bpy.types.NODE_OT_viewer_shortcut_set
+msgid ""
+"Create a compositor viewer shortcut for the selected node by pressing "
+"ctrl+1,2,..9"
+msgstr ""
+"Skapa en genväg till visningsnoden i kompositören för den valda noden genom "
+"att trycka på Ctrl+1,2,..9"
+
+#. :src: bpy.types.OBJECT_OT_copy_global_transform
+msgctxt "Operator"
+msgid "Copy Global Transform"
+msgstr "Kopiera global transformering"
+
+#. :src: bpy.types.OBJECT_OT_copy_relative_transform
+msgctxt "Operator"
+msgid "Copy Relative Transform"
+msgstr "Kopiera relativ transformering"
+
+#. :src: bpy.types.OBJECT_OT_fix_to_camera
+msgctxt "Operator"
+msgid "Fix to Scene Camera"
+msgstr "Fäst vid scenkameran"
+
+#. :src: bpy.types.OBJECT_OT_geometry_nodes_move_to_nodes
+msgid "Move inputs and outputs from in the modifier to a new node group"
+msgstr "Flytta indata och utdata från modifieraren till en ny nodgrupp"
+
+#. :src: bpy.types.OBJECT_OT_instance_offset_from_cursor
+msgid "Set offset used for collection instances based on cursor position"
+msgstr ""
+"Ange förskjutningen som används för samlingsinstanser utifrån markörens "
+"position"
+
+#. :src: bpy.types.OBJECT_OT_instance_offset_from_cursor
+msgctxt "Operator"
+msgid "Set Offset from Cursor"
+msgstr "Ange förskjutning från markör"
+
+#. :src: bpy.types.OBJECT_OT_instance_offset_from_object
+msgid ""
+"Set offset used for collection instances based on the active object position"
+msgstr ""
+"Ange förskjutningen som används för samlingsinstanser utifrån det aktiva "
+"objektets position"
+
+#. :src: bpy.types.OBJECT_OT_instance_offset_from_object
+msgctxt "Operator"
+msgid "Set Offset from Object"
+msgstr "Ange förskjutning från objekt"
+
+#. :src: bpy.types.OBJECT_OT_instance_offset_to_cursor
+msgid "Set cursor position to the offset used for collection instances"
+msgstr ""
+"Ange markörens position till den förskjutning som används för "
+"samlingsinstanser"
+
+#. :src: bpy.types.OBJECT_OT_instance_offset_to_cursor
+msgctxt "Operator"
+msgid "Set Cursor to Offset"
+msgstr "Ange markören till förskjutningen"
+
+#. :src: bpy.types.OBJECT_OT_join_uvs
+msgid ""
+"Transfer UV Maps from active to selected objects (needs matching geometry)"
+msgstr ""
+"Överför UV-kartor från aktivt objekt till valda objekt (kräver matchande "
+"geometri)"
+
+#. :src: bpy.types.OBJECT_OT_make_dupli_face
+msgid "Convert objects into instanced faces"
+msgstr "Konvertera objekt till instansierade ytor"
+
+#. :src: bpy.types.OBJECT_OT_make_dupli_face
+msgctxt "Operator"
+msgid "Make Instance Face"
+msgstr "Skapa instansierad yta"
+
+#. :src: bpy.types.OBJECT_OT_paste_transform
+msgctxt "Operator"
+msgid "Paste Global Transform"
+msgstr "Klistra in global transformering"
+
+#. :src: bpy.types.OBJECT_OT_quick_smoke
+msgid "Use selected objects as smoke emitters"
+msgstr "Använd de markerade objekten som rökutsändare"
+
+#. :src: bpy.types.OBJECT_OT_randomize_transform
+msgctxt "Operator"
+msgid "Randomize Transform"
+msgstr "Slumpa transformering"
+
+#. :src: bpy.types.OBJECT_OT_shape_key_transfer
+msgctxt "Operator"
+msgid "Transfer Shape Key"
+msgstr "Överför formnyckel"
+
+#. :src: bpy.types.OBJECT_OT_subdivision_set
+msgctxt "Operator"
+msgid "Subdivision Set"
+msgstr "Ange underindelningsnivå"
+
+#. :src: bpy.types.OBJECT_OT_transforms_to_deltas
+msgctxt "Operator"
+msgid "Transforms to Deltas"
+msgstr "Transformeringar till deltan"
+
+#. :src: bpy.types.PAINT_OT_vertex_color_dirt
+msgctxt "Operator"
+msgid "Dirty Vertex Colors"
+msgstr "Smutsiga hörnpunktsfärger"
+
+#. :src: bpy.types.PREFERENCES_OT_app_template_install
+msgid "Install an application template"
+msgstr "Installera en programmall"
+
+#. :src: bpy.types.PREFERENCES_OT_keyconfig_activate
+msgctxt "Operator"
+msgid "Activate Keyconfig"
+msgstr "Aktivera tangentkonfiguration"
+
+#. :src: bpy.types.PREFERENCES_OT_keyitem_add
+msgid "Add key map item"
+msgstr "Lägg till tangentmappningspost"
+
+#. :src: bpy.types.PREFERENCES_OT_keyitem_add
+msgctxt "Operator"
+msgid "Add Key Map Item"
+msgstr "Lägg till tangentmappningspost"
+
+#. :src: bpy.types.PREFERENCES_OT_keyitem_remove
+msgid "Remove key map item"
+msgstr "Ta bort tangentmappningspost"
+
+#. :src: bpy.types.PREFERENCES_OT_keyitem_remove
+msgctxt "Operator"
+msgid "Remove Key Map Item"
+msgstr "Ta bort tangentmappningspost"
+
+#. :src: bpy.types.PREFERENCES_OT_keyitem_restore
+msgid "Restore key map item"
+msgstr "Återställ tangentmappningspost"
+
+#. :src: bpy.types.PREFERENCES_OT_keyitem_restore
+msgctxt "Operator"
+msgid "Restore Key Map Item"
+msgstr "Återställ tangentmappningspost"
+
+#. :src: bpy.types.PREFERENCES_OT_keymap_restore
+msgid "Restore key map(s)"
+msgstr "Återställ tangentmappning(ar)"
+
+#. :src: bpy.types.PREFERENCES_OT_keymap_restore
+msgctxt "Operator"
+msgid "Restore Key Map(s)"
+msgstr "Återställ tangentmappning(ar)"
+
+#. :src: bpy.types.PREFERENCES_OT_script_directory_add
+msgctxt "Operator"
+msgid "Add Python Script Directory"
+msgstr "Lägg till Python-skriptkatalog"
+
+#. :src: bpy.types.PREFERENCES_OT_script_directory_remove
+msgctxt "Operator"
+msgid "Remove Python Script Directory"
+msgstr "Ta bort Python-skriptkatalog"
+
+#. :src: bpy.types.PREFERENCES_OT_theme_install
+msgctxt "Operator"
+msgid "Install Theme..."
+msgstr "Installera tema..."
+
+#. :src: bpy.types.RENDER_OT_cycles_integrator_preset_add
+msgid "Add an Integrator Preset"
+msgstr "Lägg till en integratorförinställning"
+
+#. :src: bpy.types.RENDER_OT_cycles_integrator_preset_add
+msgctxt "Operator"
+msgid "Add Integrator Preset"
+msgstr "Lägg till integratorförinställning"
+
+#. :src: bpy.types.RENDER_OT_cycles_performance_preset_add
+msgid "Add an Performance Preset"
+msgstr "Lägg till en prestandaförinställning"
+
+#. :src: bpy.types.RENDER_OT_cycles_viewport_sampling_preset_add
+msgid "Add a Viewport Sampling Preset"
+msgstr "Lägg till en samplingsförinställning för vyport"
+
+#. :src: bpy.types.RENDER_OT_eevee_raytracing_preset_add
+msgctxt "Operator"
+msgid "Add Raytracing Preset"
+msgstr "Lägg till strålspårningsförinställning"
+
+#. :src: bpy.types.RENDER_OT_preset_add
+msgid "Add or remove a Render Preset"
+msgstr "Lägg till eller ta bort en renderingsförinställning"
+
+#. :src: bpy.types.RIGIDBODY_OT_bake_to_keyframes
+msgid "Bake rigid body transformations of selected objects to keyframes"
+msgstr ""
+"Baka valda objekts transformeringar av styva kroppar till nyckelbildrutor"
+
+#. :src: bpy.types.RIGIDBODY_OT_bake_to_keyframes
+msgctxt "Operator"
+msgid "Bake to Keyframes"
+msgstr "Baka till nyckelbildrutor"
+
+#. :src: bpy.types.RIGIDBODY_OT_connect
+msgctxt "Operator"
+msgid "Connect Rigid Bodies"
+msgstr "Anslut styva kroppar"
+
+#. :src: bpy.types.RIGIDBODY_OT_object_settings_copy
+msgid "Copy Rigid Body settings from active object to selected"
+msgstr "Kopiera inställningar för styv kropp från aktivt till markerade objekt"
+
+#. :src: bpy.types.RIGIDBODY_OT_object_settings_copy
+msgctxt "Operator"
+msgid "Copy Rigid Body Settings"
+msgstr "Kopiera inställningar för styv kropp"
+
+#. :src: bpy.types.RIGIFY_OT_clear_animation
+msgctxt "Operator"
+msgid "Clear Animation"
+msgstr "Rensa animering"
+
+#. :src: bpy.types.RIGIFY_OT_get_frame_range
+msgctxt "Operator"
+msgid "Get Frame Range"
+msgstr "Hämta bildruteintervall"
+
+#. :src: bpy.types.RIGIFY_OT_transfer_fk_to_ik
+msgctxt "Operator"
+msgid "Transfer FK anim to IK"
+msgstr "Överför FK-animering till IK"
+
+#. :src: bpy.types.RIGIFY_OT_transfer_ik_to_fk
+msgctxt "Operator"
+msgid "Transfer IK anim to FK"
+msgstr "Överför IK-animering till FK"
+
+#. :src: bpy.types.SCENE_OT_freestyle_add_edge_marks_to_keying_set
+msgctxt "Operator"
+msgid "Add Edge Marks to Keying Set"
+msgstr "Lägg till kantmarkeringar i nyckeluppsättningen"
+
+#. :src: bpy.types.SCENE_OT_freestyle_add_face_marks_to_keying_set
+msgctxt "Operator"
+msgid "Add Face Marks to Keying Set"
+msgstr "Lägg till ytmarkeringar i nyckeluppsättningen"
+
+#. :src: bpy.types.SCENE_OT_gpencil_brush_preset_add
+msgid "Add or remove grease pencil brush preset"
+msgstr "Lägg till eller ta bort en Grease Pencil-penselförinställning"
+
+#. :src: bpy.types.SCENE_OT_gpencil_brush_preset_add
+msgctxt "Operator"
+msgid "Add Grease Pencil Brush Preset"
+msgstr "Lägg till Grease Pencil-penselförinställning"
+
+#. :src: bpy.types.SCENE_OT_gpencil_material_preset_add
+msgid "Add or remove Grease Pencil material preset"
+msgstr "Lägg till eller ta bort en Grease Pencil-materialförinställning"
+
+#. :src: bpy.types.SCENE_OT_gpencil_material_preset_add
+msgctxt "Operator"
+msgid "Add Grease Pencil Material Preset"
+msgstr "Lägg till Grease Pencil-materialförinställning"
+
+#. :src: bpy.types.ObjectBase
+msgid "Object Base"
+msgstr "Objektbas"
+
+#. :src: bpy.types.ObjectBase
+msgid ""
+"An object instance in a View Layer (currently never exposed in Python API)"
+msgstr ""
+"En objektinstans i ett visningslager (exponeras för närvarande aldrig i "
+"Python-API:t)"
+
+#. :src: bpy.types.ObjectBase.select
+msgid "Object base selection state"
+msgstr "Markeringsstatus för objektbas"
+
+#. :src: bpy.types.ObjectLineArt
+msgid "Object Line Art"
+msgstr "Objektlinjekonst"
+
+#. :src: bpy.types.ObjectLineArt
+msgid "Object Line Art settings"
+msgstr "Inställningar för objektets linjekonst"
+
+#. :src: bpy.types.ObjectLineArt.usage
+msgid "How to use this object in Line Art calculation"
+msgstr "Hur objektet används i linjekonstberäkningen"
+
+#. :src: bpy.types.ObjectLineArt.usage:'INHERIT'
+msgid "Use settings from the parent collection"
+msgstr "Använd inställningarna från den överordnade samlingen"
+
+#. :src: bpy.types.ObjectLineArt.use_crease_override
+msgid "Use this object's crease setting to overwrite scene global"
+msgstr ""
+"Använd objektets veckinställning för att åsidosätta scenens globala "
+"inställning"
+
+#. :src: bpy.types.ObjectShaderFx
+msgid "Object Shader Effects"
+msgstr "Objektshadereffekter"
+
+#. :src: bpy.types.ANIM_OT_keying_set_export
+msgid "Export Keying Set to a Python script"
+msgstr "Exportera nyckeluppsättning till ett Python-skript"
+
+#. :src: bpy.types.ANIM_OT_keying_set_export
+msgctxt "Operator"
+msgid "Export Keying Set..."
+msgstr "Exportera nyckeluppsättning..."
+
+#. :src: bpy.types.ASSET_OT_tag_add
+msgid "Add a new keyword tag to the active asset"
+msgstr "Lägg till en ny nyckelordsetikett till den aktiva resursen"
+
+#. :src: bpy.types.ASSET_OT_tag_add
+msgctxt "Operator"
+msgid "Add Asset Tag"
+msgstr "Lägg till resursetikett"
+
+#. :src: bpy.types.ASSET_OT_tag_remove
+msgid "Remove an existing keyword tag from the active asset"
+msgstr "Ta bort en befintlig nyckelordsetikett från den aktiva resursen"
+
+#. :src: bpy.types.ASSET_OT_tag_remove
+msgctxt "Operator"
+msgid "Remove Asset Tag"
+msgstr "Ta bort resursetikett"
+
+#. :src: bpy.types.CAMERA_OT_preset_add
+msgid "Add or remove a Camera Preset"
+msgstr "Lägg till eller ta bort en kameraförinställning"
+
+#. :src: bpy.types.CAMERA_OT_preset_add
+#. :src: bpy.types.CLIP_OT_camera_preset_add
+msgctxt "Operator"
+msgid "Add Camera Preset"
+msgstr "Lägg till kameraförinställning"
+
+#. :src: bpy.types.CLIP_OT_bundles_to_mesh
+msgid "Create vertex cloud using coordinates of reconstructed tracks"
+msgstr "Skapa ett hörnpunktsmoln med koordinater från rekonstruerade spår"
+
+#. :src: bpy.types.CLIP_OT_bundles_to_mesh
+msgctxt "Operator"
+msgid "3D Markers to Mesh"
+msgstr "3D-markörer till mesh"
+
+#. :src: bpy.types.CLIP_OT_filter_tracks
+msgid "Filter tracks which has weirdly looking spikes in motion curves"
+msgstr "Filtrera spår med märkliga toppar i rörelsekurvorna"
+
+#. :src: bpy.types.CLIP_OT_filter_tracks
+msgctxt "Operator"
+msgid "Filter Tracks"
+msgstr "Filtrera spår"
+
+#. :src: bpy.types.CLIP_OT_track_to_empty
+msgid "Create an Empty object which will be copying movement of active track"
+msgstr "Skapa ett tomt objekt som följer rörelsen hos det aktiva spåret"
+
+#. :src: bpy.types.CLIP_OT_track_to_empty
+msgctxt "Operator"
+msgid "Link Empty to Track"
+msgstr "Länka tomt objekt till spår"
+
+#. :src: bpy.types.CONSOLE_OT_autocomplete
+msgctxt "Operator"
+msgid "Console Autocomplete"
+msgstr "Automatisk komplettering i konsolen"
+
+#. :src: bpy.types.CONSOLE_OT_language
+msgctxt "Operator"
+msgid "Console Language"
+msgstr "Konsolspråk"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_fbx
+msgid "Write a FBX file"
+msgstr "Skriv en FBX-fil"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_disable
+msgid "Turn off this extension"
+msgstr "Inaktivera detta tillägg"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_disable
+msgctxt "Operator"
+msgid "Disable extension"
+msgstr "Inaktivera tillägg"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install
+msgctxt "Operator"
+msgid "Install Extension"
+msgstr "Installera tillägg"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_install_files
+msgctxt "Operator"
+msgid "Install from Disk"
+msgstr "Installera från disk"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_mark_clear
+msgctxt "Operator"
+msgid "Clear Marked Package"
+msgstr "Rensa markering för paket"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_mark_clear_all
+msgctxt "Operator"
+msgid "Clear All Marked Packages"
+msgstr "Rensa markeringen för alla paket"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_mark_set
+msgctxt "Operator"
+msgid "Mark Package"
+msgstr "Markera paket"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_obsolete_marked
+msgid "Zeroes package versions, useful for development - to test upgrading"
+msgstr ""
+"Nollställer paketversioner, användbart vid utveckling för att testa "
+"uppgraderingar"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_obsolete_marked
+msgctxt "Operator"
+msgid "Obsolete Marked"
+msgstr "Gör markerade föråldrade"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_theme_disable
+msgctxt "Operator"
+msgid "Disable theme extension"
+msgstr "Inaktivera temtillägg"
+
+#. :src: bpy.types.EXTENSIONS_OT_package_theme_enable
+msgctxt "Operator"
+msgid "Enable theme extension"
+msgstr "Aktivera temtillägg"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_lock_all
+msgid "Lock repositories - to test locking"
+msgstr "Lås arkiv för att testa låsning"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_lock_all
+msgctxt "Operator"
+msgid "Lock All Repositories (Testing)"
+msgstr "Lås alla arkiv (testning)"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_sync_all
+msgctxt "Operator"
+msgid "Refresh Remote"
+msgstr "Uppdatera fjärrarkiv"
+
+#. :src: bpy.types.EXTENSIONS_OT_repo_unlock
+msgctxt "Operator"
+msgid "Force Unlock Active Repository"
+msgstr "Tvinga fram upplåsning av aktivt arkiv"
+
+#. :src: bpy.types.EXTENSIONS_OT_status_clear
+#. :src: bpy.types.EXTENSIONS_OT_status_clear_errors
+msgctxt "Operator"
+msgid "Clear Status"
+msgstr "Rensa status"
+
+#. :src: bpy.types.EXTENSIONS_OT_userpref_tags_set
+msgctxt "Operator"
+msgid "Set Extension Tags"
+msgstr "Ange tilläggstaggar"
+
+#. :src: bpy.types.FLUID_OT_preset_add
+msgid "Add or remove a Fluid Preset"
+msgstr "Lägg till eller ta bort en vätskeförinställning"
+
+#. :src: bpy.types.GPENCIL_OT_tint_flip
+msgctxt "Operator"
+msgid "Flip Colors"
+msgstr "Vänd färger"
+
+#. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane
+msgid "Convert selected reference images to textured mesh plane"
+msgstr "Konvertera valda referensbilder till texturerade meshplan"
+
+#. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane
+msgctxt "Operator"
+msgid "Convert Image Empty to Mesh Plane"
+msgstr "Konvertera bildtomobjekt till meshplan"
+
+#. :src: bpy.types.IMAGE_OT_external_edit
+msgid "Edit image in an external application"
+msgstr "Redigera bilden i ett externt program"
+
+#. :src: bpy.types.IMAGE_OT_open_images
+msgctxt "Operator"
+msgid "Open Images"
+msgstr "Öppna bilder"
+
+#. :src: bpy.types.IMAGE_OT_project_apply
+msgctxt "Operator"
+msgid "Project Apply"
+msgstr "Tillämpa projektion"
+
+#. :src: bpy.types.IMAGE_OT_project_edit
+msgctxt "Operator"
+msgid "Project Edit"
+msgstr "Redigera projektion"
+
+#. :src: bpy.types.IMPORT_ANIM_OT_bvh
+msgctxt "Operator"
+msgid "Import BVH"
+msgstr "Importera BVH"
+
+#. :src: bpy.types.MESH_OT_faces_mirror_uv
+msgctxt "Operator"
+msgid "Copy Mirrored UV Coords"
+msgstr "Kopiera spegelvända UV-koordinater"
+
+#. :src: bpy.types.NODE_OT_add_foreach_geometry_element_zone
+msgid ""
+"Add a For Each Geometry Element zone that allows executing nodes e.g. for "
+"each vertex separately"
+msgstr ""
+"Lägg till en zon För varje geometrielement som låter noder köras för "
+"exempelvis varje hörnpunkt separat"
+
+#. :src: bpy.types.NODE_OT_add_simulation_zone
+msgid "Add simulation zone input and output nodes to the active tree"
+msgstr ""
+"Lägg till indatanoden och utdatanoden för simuleringszonen i det aktiva "
+"trädet"
+
+#. :src: bpy.types.NODE_OT_collapse_hide_unused_toggle
+msgctxt "Operator"
+msgid "Collapse and Hide Unused Sockets"
+msgstr "Fäll ihop och dölj oanvända uttag"
+
+#. :src: bpy.types.NODE_OT_connect_to_output
+#. :src: bpy.types.NODE_OT_nw_link_out
+msgctxt "Operator"
+msgid "Connect to Output"
+msgstr "Anslut till utdata"
+
+#. :src: bpy.types.NODE_OT_gltf_settings_node_operator
+msgctxt "Operator"
+msgid "glTF Material Output"
+msgstr "glTF-materialutdata"
+
+#. :src: bpy.types.NODE_OT_interface_item_duplicate
+msgid "Add a copy of the active item to the interface"
+msgstr "Lägg till en kopia av det aktiva elementet i gränssnittet"
+
+#. :src: bpy.types.NODE_OT_interface_item_duplicate
+msgctxt "Operator"
+msgid "Duplicate Item"
+msgstr "Duplicera element"
+
+#. :src: bpy.types.NODE_OT_interface_item_make_panel_toggle
+msgid "Make the active boolean socket a toggle for its parent panel"
+msgstr ""
+"Gör det aktiva booleska uttaget till en växlingskontroll för den överordnade "
+"panelen"
+
+#. :src: bpy.types.NODE_OT_interface_item_make_panel_toggle
+msgctxt "Operator"
+msgid "Make Panel Toggle"
+msgstr "Gör till panelväxling"
+
+#. :src: bpy.types.NODE_OT_interface_item_new
+msgid "Add a new item to the interface"
+msgstr "Lägg till ett nytt element i gränssnittet"
+
+#. :src: bpy.types.NODE_OT_interface_item_new
+msgctxt "Operator"
+msgid "New Item"
+msgstr "Nytt element"
+
+#. :src: bpy.types.NODE_OT_interface_item_remove
+msgid "Remove active item from the interface"
+msgstr "Ta bort aktivt element från gränssnittet"
+
+#. :src: bpy.types.NODE_OT_interface_item_remove
+#. :src: bpy.types.NODE_OT_bake_node_item_remove
+#. :src: bpy.types.NODE_OT_capture_attribute_item_remove
+#. :src: bpy.types.NODE_OT_closure_input_item_remove
+#. :src: bpy.types.NODE_OT_closure_output_item_remove
+#. :src: bpy.types.NODE_OT_combine_bundle_item_remove
+#. :src: bpy.types.NODE_OT_enum_definition_item_remove
+#. :src: bpy.types.NODE_OT_evaluate_closure_input_item_remove
+#. :src: bpy.types.NODE_OT_evaluate_closure_output_item_remove
+#. :src: bpy.types.NODE_OT_foreach_geometry_element_zone_generation_item_remove
+#. :src: bpy.types.NODE_OT_foreach_geometry_element_zone_input_item_remove
+#. :src: bpy.types.NODE_OT_foreach_geometry_element_zone_main_item_remove
+#. :src: bpy.types.NODE_OT_index_switch_item_remove
+#. :src: bpy.types.NODE_OT_repeat_zone_item_remove
+#. :src: bpy.types.NODE_OT_separate_bundle_item_remove
+#. :src: bpy.types.NODE_OT_simulation_zone_item_remove
+msgctxt "Operator"
+msgid "Remove Item"
+msgstr "Ta bort element"
+
+#. :src: bpy.types.NODE_OT_interface_item_unlink_panel_toggle
+msgctxt "Operator"
+msgid "Unlink Panel Toggle"
+msgstr "Koppla bort panelväxling"
+
+#. :src: bpy.types.NodeSocket
+msgid "Input or output socket of a node"
+msgstr "Indata- eller utdatauttag av en nod"
+
+#. :src: bpy.types.NodeSocket.is_multi_input
+msgid "True if the socket can accept multiple ordered input links"
+msgstr "Sant om uttaget kan acceptera flera ordnade indatalänkar"
+
+#. :src: bpy.types.NodeSocket.is_output
+msgid "True if the socket is an output, otherwise input"
+msgstr "Sant om uttaget är utdata, annars indata"
+
+#. :src: bpy.types.NodeSocket.pin_gizmo
+msgid "Pin Gizmo"
+msgstr "Fäst gizmo"
+
+#. :src: bpy.types.NodeSocketCollection
+msgid "Collection Node Socket"
+msgstr "Samlingsnoduttag"
+
+#. :src: bpy.types.NodeSocketColor
+msgid "Color Node Socket"
+msgstr "Färgnoduttag"
+
+#. :src: bpy.types.NodeSocketFloat
+#. :src: bpy.types.NodeSocketFloatAngle
+#. :src: bpy.types.NodeSocketFloatColorTemperature
+#. :src: bpy.types.NodeSocketFloatDistance
+#. :src: bpy.types.NodeSocketFloatFactor
+#. :src: bpy.types.NodeSocketFloatFrequency
+#. :src: bpy.types.NodeSocketFloatPercentage
+#. :src: bpy.types.NodeSocketFloatTime
+#. :src: bpy.types.NodeSocketFloatTimeAbsolute
+#. :src: bpy.types.NodeSocketFloatUnsigned
+#. :src: bpy.types.NodeSocketFloatWavelength
+msgid "Float Node Socket"
+msgstr "Flyttalsnoduttag"
+
+#. :src: bpy.types.NodeSocketFloat
+#. :src: bpy.types.NodeSocketFloatAngle
+#. :src: bpy.types.NodeSocketFloatColorTemperature
+#. :src: bpy.types.NodeSocketFloatDistance
+#. :src: bpy.types.NodeSocketFloatFactor
+#. :src: bpy.types.NodeSocketFloatFrequency
+#. :src: bpy.types.NodeSocketFloatPercentage
+#. :src: bpy.types.NodeSocketFloatTime
+#. :src: bpy.types.NodeSocketFloatTimeAbsolute
+#. :src: bpy.types.NodeSocketFloatUnsigned
+#. :src: bpy.types.NodeSocketFloatWavelength
+#. :src: bpy.types.NodeTreeInterfaceSocketFloat
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatAngle
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatColorTemperature
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatDistance
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatFactor
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatFrequency
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatPercentage
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatTime
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatTimeAbsolute
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatUnsigned
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatWavelength
+msgid "Floating-point number socket of a node"
+msgstr "Flyttalsuttag av en nod"
+
+#. :src: bpy.types.NodeSocketImage
+msgid "Image Node Socket"
+msgstr "Bildnoduttag"
+
+#. :src: bpy.types.NodeSocketInt
+#. :src: bpy.types.NodeSocketIntFactor
+#. :src: bpy.types.NodeSocketIntPercentage
+#. :src: bpy.types.NodeSocketIntUnsigned
+msgid "Integer Node Socket"
+msgstr "Heltalsnoduttag"
+
+#. :src: bpy.types.NodeSocketMaterial
+msgid "Material Node Socket"
+msgstr "Materialnoduttag"
+
+#. :src: bpy.types.NodeSocketMatrix
+msgid "Matrix Node Socket"
+msgstr "Matrisnoduttag"
+
+#. :src: bpy.types.NodeSocketMatrix
+#. :src: bpy.types.NodeTreeInterfaceSocketMatrix
+msgid "Matrix value socket of a node"
+msgstr "Matrisvärdeuttag av en nod"
+
+#. :src: bpy.types.NodeSocketMenu
+msgid "Menu Node Socket"
+msgstr "Menynoduttag"
+
+#. :src: bpy.types.NodeSocketMenu
+#. :src: bpy.types.NodeTreeInterfaceSocketMenu
+msgid "Menu socket of a node"
+msgstr "Menyuttag av en nod"
+
+#. :src: bpy.types.NodeSocketObject
+msgid "Object Node Socket"
+msgstr "Objektnoduttag"
+
+#. :src: bpy.types.NodeSocketRotation
+msgid "Rotation Node Socket"
+msgstr "Rotationsnoduttag"
+
+#. :src: bpy.types.NodeSocketShader
+msgid "Shader Node Socket"
+msgstr "Shadernoduttag"
+
+#. :src: bpy.types.NodeSocketString
+#. :src: bpy.types.NodeSocketStringFilePath
+msgid "String Node Socket"
+msgstr "Strängnoduttag"
+
+#. :src: bpy.types.NodeSocketTexture
+msgid "Texture Node Socket"
+msgstr "Texturnoduttag"
+
+#. :src: bpy.types.NodeSocketVector
+#. :src: bpy.types.NodeSocketVectorAcceleration
+#. :src: bpy.types.NodeSocketVectorDirection
+#. :src: bpy.types.NodeSocketVectorEuler
+#. :src: bpy.types.NodeSocketVectorTranslation
+#. :src: bpy.types.NodeSocketVectorVelocity
+#. :src: bpy.types.NodeSocketVectorXYZ
+msgid "Vector Node Socket"
+msgstr "Vektornoduttag"
+
+#. :src: bpy.types.NodeSocketVirtual
+msgid "Virtual Node Socket"
+msgstr "Virtuellt noduttag"
+
+#. :src: bpy.types.NodeSocketVirtual
+msgid "Virtual socket of a node"
+msgstr "Virtuellt uttag för en nod"
+
+#. :src: bpy.types.NodeTreeInterface
+msgid "Declaration of sockets and ui panels of a node group"
+msgstr "Deklaration av uttag och UI-paneler för en nodgrupp"
+
+#. :src: bpy.types.NodeTreeInterface.active_index
+msgid "Active Index"
+msgstr "Aktivt index"
+
+#. :src: bpy.types.NodeTreeInterface.items_tree
+msgid "Items in the node interface"
+msgstr "Element i nodgränssnittet"
+
+#. :src: bpy.types.NodeTreeInterfaceItem
+#. :src: bpy.types.NodeTreeInterfacePanel
+msgid "Node Tree Interface Item"
+msgstr "Nodträdsgränssnittselement"
+
+#. :src: bpy.types.NodeTreeInterfaceItem
+msgid "Item in a node tree interface"
+msgstr "Element i ett nodträdsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceItem.index
+msgid "Global index of the item among all items in the interface"
+msgstr "Globalt index för elementet bland alla element i gränssnittet"
+
+#. :src: bpy.types.NodeTreeInterfaceItem.item_type
+#. :src: bpy.types.NODE_OT_interface_item_new.item_type
+msgid "Item Type"
+msgstr "Elementtyp"
+
+#. :src: bpy.types.NodeTreeInterfaceItem.item_type
+msgid "Type of interface item"
+msgstr "Typ av gränssnittselement"
+
+#. :src: bpy.types.NodeTreeInterfaceItem.parent
+msgid "Panel that contains the item"
+msgstr "Panel som innehåller elementet"
+
+#. :src: bpy.types.NodeTreeInterfaceItem.position
+msgid "Position of the item in its parent panel"
+msgstr "Position för elementet i dess överordnade panel"
+
+#. :src: bpy.types.NodeTreeInterfacePanel.interface_items
+msgid "Items in the node panel"
+msgstr "Element i nodpanelen"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket
+msgid "Node Tree Interface Socket"
+msgstr "Nodträdsgränssnittsuttag"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.attribute_domain
+msgid ""
+"Attribute domain used by the geometry nodes modifier to create an attribute "
+"output"
+msgstr ""
+"Attributdomän som geometrinodsmodifieraren använder för att skapa "
+"attribututdata"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.bl_socket_idname
+msgid "Socket Type Name"
+msgstr "Uttagstypnamn"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.bl_socket_idname
+msgid "Name of the socket type"
+msgstr "Namn på uttagstypen"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.default_input
+msgid "Default Input"
+msgstr "Standardindata"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.default_input
+msgid "Input to use when the socket is unconnected. Requires \"Hide Value\"."
+msgstr ""
+"Indata att använda när uttaget inte är anslutet. Kräver \"Dölj värde\"."
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.description
+msgid "Socket description"
+msgstr "Uttagsbeskrivning"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.in_out
+msgid "Input/Output Type"
+msgstr "Indata-/utdatatyp"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.in_out
+msgid "Input or output socket type"
+msgstr "Indata- eller utdatauttagstyp"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.in_out:'INPUT'
+msgid "Generate a input node socket"
+msgstr "Generera ett indatanoduttag"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.in_out:'OUTPUT'
+msgid "Generate a output node socket"
+msgstr "Generera ett utdatanoduttag"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.is_inspect_output
+msgid "Is Inspect Output"
+msgstr "Är inspektionsutdata"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.is_inspect_output
+msgid "Take link out of node group to connect to root tree output node"
+msgstr "Ta ut länken ur nodgruppen för att ansluta till rotträdets utdatanod"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.is_panel_toggle
+msgid "Is Panel Toggle"
+msgstr "Är panelväxling"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.is_panel_toggle
+msgid "This socket is meant to be used as the toggle in its panel header"
+msgstr ""
+"Detta uttag är avsett att användas som växlingskontroll i sin panelrubrik"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.layer_selection_field
+msgid "Layer Selection"
+msgstr "Lagerurval"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.layer_selection_field
+msgid "Take Grease Pencil Layer or Layer Group as selection field"
+msgstr "Använd Grease Pencil-lager eller lagergrupp som urvalsfält"
+
+#. :src: bpy.types.NodeTreeInterfaceSocket.socket_type
+msgid "Type of the socket generated by this interface item"
+msgstr "Typ av uttag som genereras av detta gränssnittselement"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketBool
+msgid "Boolean Node Socket Interface"
+msgstr "Booleskt noduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketCollection
+msgid "Collection Node Socket Interface"
+msgstr "Samlingsnoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketColor
+msgid "Color Node Socket Interface"
+msgstr "Färgnoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketFloat
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatAngle
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatColorTemperature
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatDistance
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatFactor
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatFrequency
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatPercentage
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatTime
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatTimeAbsolute
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatUnsigned
+#. :src: bpy.types.NodeTreeInterfaceSocketFloatWavelength
+msgid "Float Node Socket Interface"
+msgstr "Flyttalsnoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketGeometry
+msgid "Geometry Node Socket Interface"
+msgstr "Geometrinoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketImage
+msgid "Image Node Socket Interface"
+msgstr "Bildnoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketInt
+#. :src: bpy.types.NodeTreeInterfaceSocketIntFactor
+#. :src: bpy.types.NodeTreeInterfaceSocketIntPercentage
+#. :src: bpy.types.NodeTreeInterfaceSocketIntUnsigned
+msgid "Integer Node Socket Interface"
+msgstr "Heltalsnoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketMaterial
+msgid "Material Node Socket Interface"
+msgstr "Materialnoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketMatrix
+msgid "Matrix Node Socket Interface"
+msgstr "Matrisnoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketMenu
+msgid "Menu Node Socket Interface"
+msgstr "Menynoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketObject
+msgid "Object Node Socket Interface"
+msgstr "Objektnoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketRotation
+msgid "Rotation Node Socket Interface"
+msgstr "Rotationsnoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketShader
+msgid "Shader Node Socket Interface"
+msgstr "Shadernoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketString
+#. :src: bpy.types.NodeTreeInterfaceSocketStringFilePath
+msgid "String Node Socket Interface"
+msgstr "Strängnoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketTexture
+msgid "Texture Node Socket Interface"
+msgstr "Texturnoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreeInterfaceSocketVector
+#. :src: bpy.types.NodeTreeInterfaceSocketVectorAcceleration
+#. :src: bpy.types.NodeTreeInterfaceSocketVectorDirection
+#. :src: bpy.types.NodeTreeInterfaceSocketVectorEuler
+#. :src: bpy.types.NodeTreeInterfaceSocketVectorTranslation
+#. :src: bpy.types.NodeTreeInterfaceSocketVectorVelocity
+#. :src: bpy.types.NodeTreeInterfaceSocketVectorXYZ
+msgid "Vector Node Socket Interface"
+msgstr "Vektornoduttagsgränssnitt"
+
+#. :src: bpy.types.NodeTreePath
+#. :src: bpy.types.SpaceNodeEditor.path
+msgid "Node Tree Path"
+msgstr "Nodträdssökväg"
+
+#. :src: bpy.types.NodesModifierBake
+msgid "Nodes Modifier Bake"
+msgstr "Nodmodifierarens bakning"
+
+#. :src: bpy.types.NodesModifierBake.bake_id
+#. :src: bpy.types.OBJECT_OT_geometry_node_bake_delete_single.bake_id
+#. :src: bpy.types.OBJECT_OT_geometry_node_bake_pack_single.bake_id
+#. :src: bpy.types.OBJECT_OT_geometry_node_bake_single.bake_id
+#. :src: bpy.types.OBJECT_OT_geometry_node_bake_unpack_single.bake_id
+msgid "Bake ID"
+msgstr "Baknings-ID"
+
+#. :src: bpy.types.NodesModifierBake.bake_id
+msgid ""
+"Identifier for this bake which remains unchanged even when the bake node is "
+"renamed, grouped or ungrouped"
+msgstr ""
+"Identifierare för denna bakning som förblir oförändrad även när "
+"bakningsnoden byter namn, grupperas eller avgrupperas"
+
+#. :src: bpy.types.NodesModifierBake.bake_mode:'ANIMATION'
+msgid "Bake a frame range"
+msgstr "Baka ett bildruteintervall"
+
+#. :src: bpy.types.NodesModifierBake.bake_mode:'STILL'
+msgid "Still"
+msgstr "Stillbild"
+
+#. :src: bpy.types.NodesModifierBake.bake_mode:'STILL'
+msgid "Bake a single frame"
+msgstr "Baka en enskild bildruta"
+
+#. :src: bpy.types.NodesModifierBake.bake_target:'INHERIT'
+msgid "Inherit from Modifier"
+msgstr "Ärv från modifierare"
+
+#. :src: bpy.types.NodesModifierBake.frame_end
+msgid "Frame where the baking ends"
+msgstr "Bildruta där bakningen slutar"
+
+#. :src: bpy.types.NodesModifierBake.frame_start
+msgid "Frame where the baking starts"
+msgstr "Bildruta där bakningen börjar"
+
+#. :src: bpy.types.NodesModifierBake.node
+msgid ""
+"Bake node or simulation output node that corresponds to this bake. This node "
+"may be deeply nested in the modifier node group. It can be none in some "
+"cases like missing linked data blocks."
+msgstr ""
+"Bakningsnod eller simuleringsutdatanod som motsvarar denna bakning. Noden "
+"kan vara djupt nästlad i modifierarens nodgrupp. I vissa fall kan den "
+"saknas, till exempel om länkade datablock saknas."
+
+#. :src: bpy.types.NodesModifierBake.use_custom_path
+msgid "Specify a path where the baked data should be stored manually"
+msgstr "Ange en sökväg där de bakade data ska lagras manuellt"
+
+#. :src: bpy.types.NodesModifierBake.use_custom_simulation_frame_range
+msgid "Custom Simulation Frame Range"
+msgstr "Anpassat simuleringsbildruteintervall"
+
+#. :src: bpy.types.NodesModifierBakeDataBlocks
+msgid "Data-Blocks"
+msgstr "Datablock"
+
+#. :src: bpy.types.NodesModifierDataBlock.id
+#. :src: bpy.types.WM_OT_properties_edit.property_type:'DATA_BLOCK'
+msgid "Data-Block"
+msgstr "Datablock"
+
+#. :src: bpy.types.NodesModifierDataBlock.id_name
+msgid "Data-Block Name"
+msgstr "Datablockets namn"
+
+#. :src: bpy.types.NodesModifierPanel
+msgid "Nodes Modifier Panel"
+msgstr "Panel för nodmodifierare"
+
+#. :src: bpy.types.NodesModifierWarning
+msgid "Nodes Modifier Warning"
+msgstr "Varning för nodmodifierare"
+
+#. :src: bpy.types.NodesModifierWarning
+msgid "Warning created during evaluation of a geometry nodes modifier"
+msgstr "Varning som skapades vid utvärdering av en geometrinodsmodifierare"
+
+#. :src: bpy.types.ShaderNodeTexVoronoi.feature:'F2'
+msgid "F2"
+msgstr "F2"
+
+#. :src: bpy.types.ShaderNodeTexWave.bands_direction
+msgid "Bands Direction"
+msgstr "Bandriktning"
+
+#. :src: bpy.types.ShaderNodeTexWave.rings_direction
+msgid "Rings Direction"
+msgstr "Ringriktning"
+
+#. :src: bpy.types.ShaderNodeTexWave.wave_profile:'SIN'
+msgid "Use a standard sine profile"
+msgstr "Använd en standard-sinusprofil"
+
+#. :src: bpy.types.ShaderNodeUVAlongStroke
+msgid "UV Along Stroke"
+msgstr "UV längs streck"
+
+#. :src: bpy.types.ShaderNodeUVAlongStroke.use_tips
+msgid "Use Tips"
+msgstr "Använd spetsar"
+
+#. :src: bpy.types.ShaderNodeVectorMath
+msgid "Vector Math"
+msgstr "Vektormatematik"
+
+#. :src: bpy.types.ShaderNodeVectorMath
+msgid "Perform vector math operation"
+msgstr "Utför en vektormatematisk operation"
+
+#. :src: bpy.types.ShaderNodeVectorMath.operation:'REFLECT'
+msgctxt "NodeTree"
+msgid "Reflect"
+msgstr "Reflektera"
+
+#. :src: bpy.types.ShaderNodeVectorRotate
+msgid "Vector Rotate"
+msgstr "Rotera vektor"
+
+#. :src: bpy.types.ShaderNodeVectorRotate.invert
+msgid "Invert the rotation angle"
+msgstr "Invertera rotationsvinkeln"
+
+#. :src: bpy.types.ShaderNodeVectorRotate.rotation_type
+msgid "Type of angle input"
+msgstr "Typ av vinkelindata"
+
+#. :src: bpy.types.ShaderNodeVolumePrincipled
+msgid "Principled Volume"
+msgstr "Principiell volym"
+
+#. :src: bpy.types.NodeGeometryBakeItem
+msgid "Bake Item"
+msgstr "Bakningsobjekt"
+
+#. :src: bpy.types.NodeGeometryBakeItem.is_attribute
+msgid "Is Attribute"
+msgstr "Är attribut"
+
+#. :src: bpy.types.NodeGeometryEvaluateClosureInputItem
+msgid "Input Item"
+msgstr "Indataobjekt"
+
+#. :src: bpy.types.NodeGeometryEvaluateClosureOutputItem
+msgid "Output Item"
+msgstr "Utdataobjekt"
+
+#. :src: bpy.types.NodeInputs
+msgid "Node Inputs"
+msgstr "Nodindata"
+
+#. :src: bpy.types.NodeInstanceHash
+msgid "Node Instance Hash"
+msgstr "Nodinstanshash"
+
+#. :src: bpy.types.NodeLink.multi_input_sort_id
+msgid "Multi Input Sort ID"
+msgstr "Sorterings-ID för flera indata"
+
+#. :src: bpy.types.NodeOutputFileSlotLayer
+msgid "Output File Layer Slot"
+msgstr "Filplats för utdatalager"
+
+#. :src: bpy.types.NodeOutputs
+msgid "Node Outputs"
+msgstr "Nodutdata"
+
+#. :src: bpy.types.NodeSocket.bl_label
+msgid "Type Label"
+msgstr "Typetikett"
+
+#. :src: bpy.types.NodeSocket.bl_subtype_label
+msgid "Subtype Label"
+msgstr "Undertypetikett"
+
+#. :src: bpy.types.NodeSocket.description
+#. :src: bpy.types.USERPREF_PT_theme_interface_wcol_tooltip
+msgid "Tooltip"
+msgstr "Verktygstips"
+
+#. :src: bpy.types.NodeSocket.is_multi_input
+msgid "Multi Input"
+msgstr "Flera indata"
+
+#. :src: bpy.types.NodeSocket.is_output
+msgid "Is Output"
+msgstr "Är utdata"
+
+#. :src: bpy.types.ShaderNodeNormalMap.space:'WORLD'
+msgid "World space normal mapping"
+msgstr "Normalkartläggning i världsrymd"
+
+#. :src: bpy.types.ShaderNodeNormalMap.space:'BLENDER_OBJECT'
+msgid "Blender Object Space"
+msgstr "Blender-objektrymd"
+
+#. :src: bpy.types.ShaderNodeNormalMap.uv_map
+msgid "UV Map for tangent space maps"
+msgstr "UV-karta för normalkartor i tangentrymd"
+
+#. :src: bpy.types.ShaderNodeOutputAOV
+msgid "AOV Output"
+msgstr "AOV-utdata"
+
+#. :src: bpy.types.ShaderNodeOutputLight
+msgid "Light Output"
+msgstr "Ljusutdata"
+
+#. :src: bpy.types.ShaderNodeOutputLight.target:'EEVEE'
+#. :src: bpy.types.ShaderNodeOutputLineStyle.target:'EEVEE'
+#. :src: bpy.types.ShaderNodeOutputMaterial.target:'EEVEE'
+#. :src: bpy.types.ShaderNodeOutputWorld.target:'EEVEE'
+msgid "Use shaders for EEVEE renderer"
+msgstr "Använd shaders för EEVEE-renderaren"
+
+#. :src: bpy.types.ShaderNodeOutputLight.target:'CYCLES'
+#. :src: bpy.types.ShaderNodeOutputLineStyle.target:'CYCLES'
+#. :src: bpy.types.ShaderNodeOutputMaterial.target:'CYCLES'
+#. :src: bpy.types.ShaderNodeOutputWorld.target:'CYCLES'
+msgid "Use shaders for Cycles renderer"
+msgstr "Använd shaders för Cycles-renderaren"
+
+#. :src: bpy.types.ShaderNodeOutputLineStyle
+msgid "Line Style Output"
+msgstr "Linjestilsutdata"
+
+#. :src: bpy.types.ShaderNodeOutputMaterial
+msgid "Material Output"
+msgstr "Materialutdata"
+
+#. :src: bpy.types.ShaderNodeOutputWorld
+msgid "World Output"
+msgstr "Världsutdata"
+
+#. :src: bpy.types.ShaderNodeScript.bytecode_hash
+msgid "Bytecode Hash"
+msgstr "Bytekodshash"
+
+#. :src: bpy.types.ShaderNodeTexBrick.offset
+#. :src: bpy.types.TextureNodeBricks.offset
+msgid "Offset Amount"
+msgstr "Förskjutningsmängd"
+
+#. :src: bpy.types.ShaderNodeTexBrick.offset_frequency
+#. :src: bpy.types.TextureNodeBricks.offset_frequency
+msgid "Offset Frequency"
+msgstr "Förskjutningsfrekvens"
+
+#. :src: bpy.types.ShaderNodeTexChecker
+msgid "Checker Texture"
+msgstr "Rutmönstertextur"
+
+#. :src: bpy.types.ShaderNodeTexCoord
+msgid "Texture Coordinate"
+msgstr "Texturkoordinater"
+
+#. :src: bpy.types.ShaderNodeTexCoord.from_instancer
+#. :src: bpy.types.ShaderNodeUVMap.from_instancer
+msgid "From Instancer"
+msgstr "Från instansierare"
+
+#. :src: bpy.types.ShaderNodeTexEnvironment
+msgid "Environment Texture"
+msgstr "Miljötextur"
+
+#. :src: bpy.types.ShaderNodeTexEnvironment.projection
+msgid "Projection of the input image"
+msgstr "Projektion av indatabilden"
+
+#. :src: bpy.types.ShaderNodeTexGabor
+msgid "Gabor Texture"
+msgstr "Gabor-textur"
+
+#. :src: bpy.types.ShaderNodeTexGradient
+msgid "Gradient Texture"
+msgstr "Gradienttextur"
+
+#. :src: bpy.types.ShaderNodeTexIES
+msgid "IES Texture"
+msgstr "IES-textur"
+
+#. :src: bpy.types.ShaderNodeTexImage
+msgid "Sample an image file as a texture"
+msgstr "Provta en bildfil som en textur"
+
+#. :src: bpy.types.ShaderNodeTexMagic.turbulence_depth
+msgid "Level of detail in the added turbulent noise"
+msgstr "Detaljnivå i det extra turbulenta bruset"
+
+#. :src: bpy.types.ShaderNodeTexNoise.noise_dimensions
+#. :src: bpy.types.ShaderNodeTexVoronoi.voronoi_dimensions
+#. :src: bpy.types.ShaderNodeTexWhiteNoise.noise_dimensions
+msgid "Number of dimensions to output noise for"
+msgstr "Antal dimensioner att mata ut brus för"
+
+#. :src: bpy.types.ShaderNodeTexPointDensity.particle_color_source:'PARTICLE_AGE'
+msgid "Particle Age"
+msgstr "Partikelålder"
+
+#. :src: bpy.types.ShaderNodeTexPointDensity.particle_color_source:'PARTICLE_SPEED'
+msgid "Particle Speed"
+msgstr "Partikelfart"
+
+#. :src: bpy.types.ShaderNodeTexPointDensity.particle_color_source:'PARTICLE_VELOCITY'
+#. :src: bpy.types.Particle.velocity
+msgid "Particle Velocity"
+msgstr "Partikelhastighet"
+
+#. :src: bpy.types.ShaderNodeTexPointDensity.point_source:'OBJECT'
+msgid "Generate point density from an object's vertices"
+msgstr "Generera punkttäthet från ett objekts hörnpunkter"
+
+#. :src: bpy.types.ShaderNodeTexPointDensity.vertex_attribute_name
+msgid "Vertex Attribute Name"
+msgstr "Hörnpunktsattributnamn"
+
+#. :src: bpy.types.ShaderNodeTexPointDensity.vertex_color_source:'VERTEX_COLOR'
+msgid "Vertex color layer"
+msgstr "Hörnpunktsfärglager"
+
+#. :src: bpy.types.ShaderNodeTexPointDensity.vertex_color_source:'VERTEX_WEIGHT'
+msgid "Vertex group weight"
+msgstr "Hörnpunktsgruppsvikt"
+
+#. :src: bpy.types.ShaderNodeTexSky.ground_albedo
+msgid "Ground Albedo"
+msgstr "Markalbedo"
+
+#. :src: bpy.types.ShaderNodeTexSky.sky_type
+msgid "Sky Type"
+msgstr "Himmelstyp"
+
+#. :src: bpy.types.ShaderNodeTexSky.sun_direction
+msgid "Sun Direction"
+msgstr "Solriktning"
+
+#. :src: bpy.types.ShaderNodeTexSky.sun_elevation
+msgid "Sun Elevation"
+msgstr "Solhöjd"
+
+#. :src: bpy.types.ShaderNodeTexSky.sun_intensity
+msgid "Sun Intensity"
+msgstr "Solintensitet"
+
+#. :src: bpy.types.ShaderNodeTexSky.sun_rotation
+msgid "Sun Rotation"
+msgstr "Solrotation"
+
+#. :src: bpy.types.ShaderNodeTexSky.sun_size
+msgid "Sun Size"
+msgstr "Solstorlek"
+
+#. :src: bpy.types.ShaderNodeTexVoronoi.distance:'MANHATTAN'
+msgid "Manhattan distance"
+msgstr "Manhattanavstånd"
+
+#. :src: bpy.types.ShaderNodeTexVoronoi.distance:'CHEBYCHEV'
+msgid "Chebychev distance"
+msgstr "Chebyshev-avstånd"
+
+#. :src: bpy.types.ShaderNodeTexVoronoi.feature
+msgid "Feature Output"
+msgstr "Funktionsutdata"
+
+#. :src: bpy.types.GeometryNodeUVPackIslands
+msgid "Pack UV Islands"
+msgstr "Packa UV-öar"
+
+#. :src: bpy.types.GeometryNodeVertexOfCorner
+msgid "Retrieve the vertex each face corner is attached to"
+msgstr "Hämta den hörnpunkt som varje ythörn är kopplat till"
+
+#. :src: bpy.types.GeometryNodeViewportTransform
+msgid "Retrieve the view direction and location of the 3D viewport"
+msgstr "Hämta vyriktning och position för 3D-vyporten"
+
+#. :src: bpy.types.GeometryNodeVolumeToMesh
+msgid "Generate a mesh on the \"surface\" of a volume"
+msgstr "Generera en mesh på \"ytan\" av en volym"
+
+#. :src: bpy.types.NodeGroupOutput
+msgid "Group Output"
+msgstr "Grupputdata"
+
+#. :src: bpy.types.NodeGroupOutput
+msgid "Output data from inside of a node group"
+msgstr "Mata ut data från insidan av en nodgrupp"
+
+#. :src: bpy.types.NodeGroupOutput.is_active_output
+#. :src: bpy.types.ShaderNodeOutputLight.is_active_output
+#. :src: bpy.types.ShaderNodeOutputLineStyle.is_active_output
+#. :src: bpy.types.ShaderNodeOutputMaterial.is_active_output
+#. :src: bpy.types.ShaderNodeOutputWorld.is_active_output
+msgid "Active Output"
+msgstr "Aktiv utdata"
+
+#. :src: bpy.types.NodeGroupOutput.is_active_output
+msgid "True if this node is used as the active group output"
+msgstr "Sant om denna nod används som aktiv grupputdata"
+
+#. :src: bpy.types.NodeReroute
+msgid ""
+"A single-socket organization tool that supports one input and multiple "
+"outputs"
+msgstr ""
+"Ett organiseringsverktyg med ett enda uttag som stöder en indata och flera "
+"utdata"
+
+#. :src: bpy.types.NodeReroute.socket_idname
+msgid "Type of socket"
+msgstr "Uttagstyp"
+
+#. :src: bpy.types.ShaderNodeBsdfHair.component:'Transmission'
+msgid "The light that passes through the hair and exits on the other side"
+msgstr "Ljuset som passerar genom håret och kommer ut på andra sidan"
+
+#. :src: bpy.types.ShaderNodeBsdfHairPrincipled.model
+msgid "Select from Chiang or Huang model"
+msgstr "Välj mellan Chiang- och Huang-modellen"
+
+#. :src: bpy.types.ShaderNodeBsdfHairPrincipled.model:'CHIANG'
+msgid ""
+"Near-field hair scattering model by Chiang et al. 2016, suitable for close-"
+"up looks, but is more noisy when viewing from a distance."
+msgstr ""
+"Närfältsmodell för hårspridning av Chiang et al. 2016, lämplig för närbilder "
+"men mer brusig på avstånd."
+
+#. :src: bpy.types.ShaderNodeBsdfHairPrincipled.parametrization
+msgid "Select the shader's color parametrization"
+msgstr "Välj shaderns färgparametrisering"
+
+#. :src: bpy.types.ShaderNodeBsdfMetallic.fresnel_type
+msgid "Fresnel Type"
+msgstr "Fresnel-typ"
+
+#. :src: bpy.types.ShaderNodeBsdfMetallic.fresnel_type:'F82'
+msgid "F82 Tint"
+msgstr "F82-färgton"
+
+#. :src: bpy.types.ShaderNodeBsdfPrincipled
+msgid "Principled BSDF"
+msgstr "Principiell BSDF"
+
+#. :src: bpy.types.ShaderNodeBsdfPrincipled.subsurface_method
+msgid "Subsurface Method"
+msgstr "Underytsspridningsmetod"
+
+#. :src: bpy.types.ShaderNodeBsdfRefraction
+msgid "Refraction BSDF"
+msgstr "Refraktions-BSDF"
+
+#. :src: bpy.types.ShaderNodeBsdfSheen.distribution:'ASHIKHMIN'
+msgid "Classic Ashikhmin velvet (legacy model)"
+msgstr "Klassisk Ashikhmin-sammet (äldre modell)"
+
+#. :src: bpy.types.ShaderNodeBsdfTranslucent
+msgid "Lambertian diffuse transmission"
+msgstr "Lambertisk diffus transmission"
+
+#. :src: bpy.types.ShaderNodeClamp
+msgid "Clamp a value between a minimum and a maximum"
+msgstr "Begränsa ett värde mellan ett minimum och ett maximum"
+
+#. :src: bpy.types.ShaderNodeClamp.clamp_type
+msgid "Clamp Type"
+msgstr "Begränsningstyp"
+
+#. :src: bpy.types.ShaderNodeClamp.clamp_type:'MINMAX'
+msgid "Min Max"
+msgstr "Min/max"
+
+#. :src: bpy.types.ShaderNodeCustomGroup
+msgid "Shader Custom Group"
+msgstr "Anpassad shadergrupp"
+
+#. :src: bpy.types.ShaderNodeCustomGroup
+msgid "Custom Shader Group Node for Python nodes"
+msgstr "Anpassad shadergruppsnod för Python-noder"
+
+#. :src: bpy.types.ShaderNodeEeveeSpecular
+msgid "Specular BSDF"
+msgstr "Spekulär BSDF"
+
+#. :src: bpy.types.ShaderNodeFloatCurve
+msgid "Map an input float to a curve and outputs a float value"
+msgstr "Mappa ett indataflyttal till en kurva och returnera ett flyttalsvärde"
+
+#. :src: bpy.types.ShaderNodeLayerWeight
+msgid "Layer Weight"
+msgstr "Lagervikt"
+
+#. :src: bpy.types.ShaderNodeLightFalloff
+msgid "Light Falloff"
+msgstr "Ljusavtagande"
+
+#. :src: bpy.types.ShaderNodeMapping
+msgid "Transform the input vector by applying translation, rotation, and scale"
+msgstr ""
+"Transformera indatavektorn genom att tillämpa förskjutning, rotation och "
+"skala"
+
+#. :src: bpy.types.ShaderNodeMix.clamp_result
+msgid "Clamp Result"
+msgstr "Begränsa resultat"
+
+#. :src: bpy.types.ShaderNodeMix.factor_mode
+msgid "Factor Mode"
+msgstr "Faktorläge"
+
+#. :src: bpy.types.ShaderNodeMixRGB
+msgid "Mix two input colors"
+msgstr "Blanda två indatafärger"
+
+#. :src: bpy.types.ShaderNodeNormalMap.space:'TANGENT'
+msgid "Tangent space normal mapping"
+msgstr "Normalkartläggning i tangentrymd"
+
+#. :src: bpy.types.ShaderNodeNormalMap.space:'OBJECT'
+msgid "Object space normal mapping"
+msgstr "Normalkartläggning i objektrymd"
+
+#. :src: bpy.types.GeometryNodeRepeatInput
+msgid "Repeat Input"
+msgstr "Upprepningsindata"
+
+#. :src: bpy.types.GeometryNodeRepeatOutput
+msgid "Repeat Output"
+msgstr "Upprepningsutdata"
+
+#. :src: bpy.types.GeometryNodeResampleCurve
+msgid "Resample Curve"
+msgstr "Omsampla kurva"
+
+#. :src: bpy.types.GeometryNodeResampleCurve
+msgid "Generate a poly spline for each input spline"
+msgstr "Generera en polyspline för varje indataspline"
+
+#. :src: bpy.types.GeometryNodeSampleCurve
+msgid "Sample Curve"
+msgstr "Provta kurva"
+
+#. :src: bpy.types.GeometryNodeSampleGrid
+msgid "Sample Grid"
+msgstr "Provta rutnät"
+
+#. :src: bpy.types.GeometryNodeSampleGrid.interpolation_mode:'NEAREST'
+msgid "Nearest Neighbor"
+msgstr "Närmaste granne"
+
+#. :src: bpy.types.GeometryNodeSampleGrid.interpolation_mode:'TRIQUADRATIC'
+msgid "Triquadratic"
+msgstr "Trikvadratisk"
+
+#. :src: bpy.types.GeometryNodeSampleGridIndex
+msgid "Sample Grid Index"
+msgstr "Provta rutnätsindex"
+
+#. :src: bpy.types.GeometryNodeSampleIndex
+msgid "Sample Index"
+msgstr "Provta index"
+
+#. :src: bpy.types.GeometryNodeSampleNearest
+msgid "Sample Nearest"
+msgstr "Provta närmaste"
+
+#. :src: bpy.types.GeometryNodeSampleNearestSurface
+msgid "Sample Nearest Surface"
+msgstr "Provta närmaste yta"
+
+#. :src: bpy.types.GeometryNodeSampleUVSurface
+msgid "Sample UV Surface"
+msgstr "Provta UV-yta"
+
+#. :src: bpy.types.GeometryNodeSelfObject
+msgid "Self Object"
+msgstr "Eget objekt"
+
+#. :src: bpy.types.GeometryNodeSeparateBundle
+msgid "Separate Bundle"
+msgstr "Separera paket"
+
+#. :src: bpy.types.GeometryNodeSetCurveHandlePositions
+msgid "Set Handle Positions"
+msgstr "Ange handtagspositioner"
+
+#. :src: bpy.types.GeometryNodeSetCurveNormal
+msgid "Set Curve Normal"
+msgstr "Ange kurvnormal"
+
+#. :src: bpy.types.GeometryNodeSetCurveTilt
+msgid "Set Curve Tilt"
+msgstr "Ange kurvlutning"
+
+#. :src: bpy.types.GeometryNodeSetGreasePencilColor
+msgid "Set Grease Pencil Color"
+msgstr "Ange Grease Pencil-färg"
+
+#. :src: bpy.types.GeometryNodeSetGreasePencilDepth
+msgid "Set Grease Pencil Depth"
+msgstr "Ange Grease Pencil-djup"
+
+#. :src: bpy.types.GeometryNodeSetGreasePencilDepth.depth_order
+msgid "Depth Order"
+msgstr "Djupordning"
+
+#. :src: bpy.types.GeometryNodeSetInstanceTransform
+msgid "Set Instance Transform"
+msgstr "Ange instanstransformation"
+
+#. :src: bpy.types.GeometryNodeSetMaterialIndex
+msgid "Set Material Index"
+msgstr "Ange materialindex"
+
+#. :src: bpy.types.GeometryNodeSetMeshNormal
+msgid "Set Mesh Normal"
+msgstr "Ange meshnormal"
+
+#. :src: bpy.types.GeometryNodeSetMeshNormal.mode:'TANGENT_SPACE'
+#. :src: bpy.types.ShaderNodeNormalMap.space:'TANGENT'
+#. :src: bpy.types.ShaderNodeVectorDisplacement.space:'TANGENT'
+#. :src: bpy.types.EXPORT_SCENE_OT_fbx.use_tspace
+msgid "Tangent Space"
+msgstr "Tangentrymd"
+
+#. :src: bpy.types.GeometryNodeSetSplineResolution
+msgid "Set Spline Resolution"
+msgstr "Ange splineupplösning"
+
+#. :src: bpy.types.GeometryNodeSimulationInput
+msgid "Simulation Input"
+msgstr "Simuleringsindata"
+
+#. :src: bpy.types.GeometryNodeSimulationOutput
+msgid "Simulation Output"
+msgstr "Simuleringsutdata"
+
+#. :src: bpy.types.GeometryNodeSplineLength
+msgid "Spline Length"
+msgstr "Splinelängd"
+
+#. :src: bpy.types.GeometryNodeSplineParameter
+msgid "Spline Parameter"
+msgstr "Splineparameter"
+
+#. :src: bpy.types.GeometryNodeSplitEdges
+msgid "Split Edges"
+msgstr "Dela kanter"
+
+#. :src: bpy.types.GeometryNodeSplitToInstances
+msgid "Split to Instances"
+msgstr "Dela upp i instanser"
+
+#. :src: bpy.types.GeometryNodeStoreNamedGrid.data_type:'FLOAT'
+#. :src: bpy.types.VolumeGrid.data_type:'FLOAT'
+msgid "Single precision float"
+msgstr "Flyttal med enkel precision"
+
+#. :src: bpy.types.GeometryNodeStoreNamedGrid.data_type:'VECTOR_FLOAT'
+msgid "Float Vector"
+msgstr "Flyttalsvektor"
+
+#. :src: bpy.types.GeometryNodeStoreNamedGrid.data_type:'VECTOR_INT'
+msgid "Integer Vector"
+msgstr "Heltalsvektor"
+
+#. :src: bpy.types.GeometryNodeStoreNamedGrid.data_type:'POINTS'
+msgid "Points (Unsupported)"
+msgstr "Punkter (stöds inte)"
+
+#. :src: bpy.types.GeometryNodeStringJoin
+msgid "Join Strings"
+msgstr "Sammanfoga strängar"
+
+#. :src: bpy.types.GeometryNodeStringJoin
+msgid "Combine any number of input strings"
+msgstr "Sammanfoga valfritt antal indatasträngar"
+
+#. :src: bpy.types.GeometryNodeStringToCurves.pivot_mode
+msgid "Pivot point position relative to character"
+msgstr "Pivotpunktens position i förhållande till tecknet"
+
+#. :src: bpy.types.GeometryNodeStringToCurves.pivot_mode:'TOP_LEFT'
+msgid "Top Left"
+msgstr "Övre vänster"
+
+#. :src: bpy.types.GeometryNodeStringToCurves.pivot_mode:'TOP_CENTER'
+msgid "Top Center"
+msgstr "Övre mitten"
+
+#. :src: bpy.types.GeometryNodeStringToCurves.pivot_mode:'TOP_RIGHT'
+msgid "Top Right"
+msgstr "Övre höger"
+
+#. :src: bpy.types.GeometryNodeStringToCurves.pivot_mode:'BOTTOM_LEFT'
+msgid "Bottom Left"
+msgstr "Nedre vänster"
+
+#. :src: bpy.types.GeometryNodeStringToCurves.pivot_mode:'BOTTOM_CENTER'
+msgid "Bottom Center"
+msgstr "Nedre mitten"
+
+#. :src: bpy.types.GeometryNodeStringToCurves.pivot_mode:'BOTTOM_RIGHT'
+msgid "Bottom Right"
+msgstr "Nedre höger"
+
+#. :src: bpy.types.GeometryNodeSubdivideMesh
+msgid "Subdivide Mesh"
+msgstr "Underindela mesh"
+
+#. :src: bpy.types.GeometryNodeSwitch
+msgid "Switch between two inputs"
+msgstr "Växla mellan två indata"
+
+#. :src: bpy.types.GeometryNodeToolFaceSet
+msgid "Face Set"
+msgstr "Ytuppsättning"
+
+#. :src: bpy.types.GeometryNodeToolSetFaceSet
+msgid "Set Face Set"
+msgstr "Ange ytuppsättning"
+
+#. :src: bpy.types.GeometryNodeTranslateInstances
+msgid "Translate Instances"
+msgstr "Förskjut instanser"
+
+#. :src: bpy.types.GeometryNodeVertexOfCorner
+msgid "Vertex of Corner"
+msgstr "Hörnpunkt för ythörn"
+
+#. :src: bpy.types.GeometryNodeViewportTransform
+msgid "Viewport Transform"
+msgstr "Vyportstransformation"
+
+#. :src: bpy.types.GeometryNodeWarning.warning_type
+msgid "Warning Type"
+msgstr "Varningstyp"
+
+#. :src: bpy.types.NodeFrame.label_size
+msgid "Label Font Size"
+msgstr "Etikettens textstorlek"
+
+#. :src: bpy.types.NodeGroupInput
+msgid "Group Input"
+msgstr "Gruppindata"
+
+#. :src: bpy.types.GeometryNodeFillCurve
+msgid ""
+"Generate a mesh on the XY plane with faces on the inside of input curves"
+msgstr "Generera en mesh på XY-planet med ytor på insidan av indatakurvorna"
+
+#. :src: bpy.types.GeometryNodeFilletCurve
+msgid "Fillet Curve"
+msgstr "Avrunda kurva"
+
+#. :src: bpy.types.GeometryNodeFilletCurve.mode
+msgid "How to choose number of vertices on fillet"
+msgstr "Hur antalet hörnpunkter för avrundningen ska väljas"
+
+#. :src: bpy.types.GeometryNodeFlipFaces
+msgid "Flip Faces"
+msgstr "Vänd ytor"
+
+#. :src: bpy.types.GeometryNodeFlipFaces
+msgid ""
+"Reverse the order of the vertices and edges of selected faces, flipping "
+"their normal direction"
+msgstr ""
+"Vänd om ordningen på hörnpunkterna och kanterna för markerade ytor och vänd "
+"deras normalriktning"
+
+#. :src: bpy.types.GeometryNodeForeachGeometryElementOutput.active_main_index
+msgid "Active Main Item Index"
+msgstr "Index för aktivt huvudelement"
+
+#. :src: bpy.types.GeometryNodeForeachGeometryElementOutput.inspection_index
+#. :src: bpy.types.GeometryNodeRepeatOutput.inspection_index
+msgid ""
+"Iteration index that is used by inspection features like the viewer node or "
+"socket inspection"
+msgstr ""
+"Iterationsindex som används av inspektionsfunktioner som visarnoden eller "
+"uttagsinspektion"
+
+#. :src: bpy.types.GeometryNodeGeometryToInstance
+msgid ""
+"Convert each input geometry into an instance, which can be much faster than "
+"the Join Geometry node when the inputs are large"
+msgstr ""
+"Konvertera varje indatageometri till en instans, vilket kan vara mycket "
+"snabbare än noden Sammanfoga geometri när indata är stora"
+
+#. :src: bpy.types.GeometryNodeGetNamedGrid
+msgid "Get Named Grid"
+msgstr "Hämta namngivet rutnät"
+
+#. :src: bpy.types.GeometryNodeGetNamedGrid
+msgid "Get volume grid from a volume geometry with the specified name"
+msgstr "Hämta volymrutnät från en volymgeometri med angivet namn"
+
+#. :src: bpy.types.GeometryNodeGetNamedGrid.data_type
+#. :src: bpy.types.GeometryNodeStoreNamedGrid.data_type
+msgid "Type of grid data"
+msgstr "Typ av rutnätsdata"
+
+#. :src: bpy.types.GeometryNodeGizmoLinear.draw_style
+msgctxt "NodeTree"
+msgid "Draw Style"
+msgstr "Ritstil"
+
+#. :src: bpy.types.GeometryNodeGizmoLinear.draw_style:'CROSS'
+msgctxt "NodeTree"
+msgid "Cross"
+msgstr "Kors"
+
+#. :src: bpy.types.GeometryNodeGizmoTransform
+msgid "Transform Gizmo"
+msgstr "Transformationsgizmo"
+
+#. :src: bpy.types.GeometryNodeGizmoTransform.use_rotation_x
+msgid "Use Rotation X"
+msgstr "Använd X-rotation"
+
+#. :src: bpy.types.GeometryNodeGizmoTransform.use_rotation_y
+msgid "Use Rotation Y"
+msgstr "Använd Y-rotation"
+
+#. :src: bpy.types.GeometryNodeGizmoTransform.use_rotation_z
+msgid "Use Rotation Z"
+msgstr "Använd Z-rotation"
+
+#. :src: bpy.types.GeometryNodeGizmoTransform.use_scale_x
+msgid "Use Scale X"
+msgstr "Använd X-skala"
+
+#. :src: bpy.types.GeometryNodeGizmoTransform.use_scale_y
+msgid "Use Scale Y"
+msgstr "Använd Y-skala"
+
+#. :src: bpy.types.GeometryNodeGizmoTransform.use_scale_z
+msgid "Use Scale Z"
+msgstr "Använd Z-skala"
+
+#. :src: bpy.types.GeometryNodeGizmoTransform.use_translation_x
+msgid "Use Translation X"
+msgstr "Använd X-förskjutning"
+
+#. :src: bpy.types.GeometryNodeGizmoTransform.use_translation_y
+msgid "Use Translation Y"
+msgstr "Använd Y-förskjutning"
+
+#. :src: bpy.types.GeometryNodeGizmoTransform.use_translation_z
+msgid "Use Translation Z"
+msgstr "Använd Z-förskjutning"
+
+#. :src: bpy.types.GeometryNodeGreasePencilToCurves
+msgid "Grease Pencil to Curves"
+msgstr "Grease Pencil till kurvor"
+
+#. :src: bpy.types.GeometryNodeGridToMesh
+msgid "Grid to Mesh"
+msgstr "Rutnät till mesh"
+
+#. :src: bpy.types.GeometryNodeGridToMesh
+msgid "Generate a mesh on the \"surface\" of a volume grid"
+msgstr "Generera en mesh på \"ytan\" av ett volymrutnät"
+
+#. :src: bpy.types.GeometryNodeImageTexture.interpolation:'Closest'
+#. :src: bpy.types.ShaderNodeTexEnvironment.interpolation:'Closest'
+#. :src: bpy.types.ShaderNodeTexImage.interpolation:'Closest'
+#. :src: bpy.types.ShaderNodeTexPointDensity.interpolation:'Closest'
+#. :src: bpy.types.IMAGE_OT_convert_to_mesh_plane.interpolation:'Closest'
+#. :src: bpy.types.IMAGE_OT_import_as_mesh_planes.interpolation:'Closest'
+#. :src: bpy.types.ImagePaint.interpolation:'CLOSEST'
+msgid "No interpolation (sample closest texel)"
+msgstr "Ingen interpolering (provta närmaste texel)"
+
+#. :src: bpy.types.GeometryNodeImportOBJ
+msgid "Import OBJ"
+msgstr "Importera OBJ"
+
+#. :src: bpy.types.GeometryNodeImportPLY
+msgid "Import PLY"
+msgstr "Importera PLY"
+
+#. :src: bpy.types.GeometryNodeImportSTL
+msgid "Import STL"
+msgstr "Importera STL"
+
+#. :src: bpy.types.GeometryNodeImportSTL
+msgid "Import a mesh from an STL file"
+msgstr "Importera en mesh från en STL-fil"
+
+#. :src: bpy.types.GeometryNodeImportText
+msgid "Import Text"
+msgstr "Importera text"
+
+#. :src: bpy.types.GeometryNodeIndexOfNearest
+msgid "Index of Nearest"
+msgstr "Index för närmaste"
+
+#. :src: bpy.types.GeometryNodeIndexOfNearest
+msgid ""
+"Find the nearest element in a group. Similar to the \"Sample Nearest\" node"
+msgstr ""
+"Hitta det närmaste elementet i en grupp. Liknar noden \"Provta närmaste\""
+
+#. :src: bpy.types.GeometryNodeInputCollection
+msgid "Output a single collection"
+msgstr "Mata ut en enskild samling"
+
+#. :src: bpy.types.GeometryNodeInputCurveTilt
+msgid "Curve Tilt"
+msgstr "Kurvlutning"
+
+#. :src: bpy.types.GeometryNodeInputImage
+msgid "Input an image data-block"
+msgstr "Mata in ett bilddatablock"
+
+#. :src: bpy.types.GeometryNodeInputInstanceBounds
+msgid "Instance Bounds"
+msgstr "Instansgränser"
+
+#. :src: bpy.types.GeometryNodeInputInstanceRotation
+msgid "Instance Rotation"
+msgstr "Instansrotation"
+
+#. :src: bpy.types.GeometryNodeInputInstanceScale
+msgid "Instance Scale"
+msgstr "Instansskala"
+
+#. :src: bpy.types.GeometryNodeInputMaterial
+msgid "Output a single material"
+msgstr "Mata ut ett enskilt material"
+
+#. :src: bpy.types.GeometryNodeInputMeshEdgeAngle
+msgid "The angle between the normals of connected manifold faces"
+msgstr "Vinkeln mellan normalerna på anslutna manifoldytor"
+
+#. :src: bpy.types.GeometryNodeInputMeshEdgeNeighbors
+msgid "Edge Neighbors"
+msgstr "Kantgrannar"
+
+#. :src: bpy.types.GeometryNodeInputMeshEdgeVertices
+msgid "Edge Vertices"
+msgstr "Kanthörnpunkter"
+
+#. :src: bpy.types.GeometryNodeInputMeshEdgeVertices
+msgid "Retrieve topology information relating to each edge of a mesh"
+msgstr "Hämta topologiinformation för varje kant i en mesh"
+
+#. :src: bpy.types.GeometryNodeInputMeshFaceIsPlanar
+msgid "Is Face Planar"
+msgstr "Är ytan plan"
+
+#. :src: bpy.types.GeometryNodeInputMeshFaceNeighbors
+msgid "Face Neighbors"
+msgstr "Ytgrannar"
+
+#. :src: bpy.types.GeometryNodeInputMeshFaceNeighbors
+msgid "Retrieve topology information relating to each face of a mesh"
+msgstr "Hämta topologiinformation för varje yta i en mesh"
+
+#. :src: bpy.types.GeometryNodeInputMeshVertexNeighbors
+msgid "Vertex Neighbors"
+msgstr "Hörnpunktsgrannar"
+
+#. :src: bpy.types.GeometryNodeInputMeshVertexNeighbors
+msgid "Retrieve topology information relating to each vertex of a mesh"
+msgstr "Hämta topologiinformation för varje hörnpunkt i en mesh"
+
+#. :src: bpy.types.GeometryNodeInputNamedLayerSelection
+msgid "Named Layer Selection"
+msgstr "Namngivet lagerurval"
+
+#. :src: bpy.types.GeometryNodeInputNamedLayerSelection
+msgid "Output a selection of a Grease Pencil layer"
+msgstr "Mata ut ett urval av ett Grease Pencil-lager"
+
+#. :src: bpy.types.GeometryNodeInputObject
+msgid "Output a single object"
+msgstr "Mata ut ett enskilt objekt"
+
+#. :src: bpy.types.GeometryNodeInputShadeSmooth
+msgid "Is Face Smooth"
+msgstr "Är ytan slät"
+
+#. :src: bpy.types.GeometryNodeInputSplineCyclic
+msgid "Is Spline Cyclic"
+msgstr "Är splinen cyklisk"
+
+#. :src: bpy.types.GeometryNodeInputTangent
+msgid "Curve Tangent"
+msgstr "Kurvtangent"
+
+#. :src: bpy.types.GeometryNodeInstanceTransform
+msgid "Instance Transform"
+msgstr "Instanstransformation"
+
+#. :src: bpy.types.GeometryNodeIsViewport
+msgid "Is Viewport"
+msgstr "Är vyport"
+
+#. :src: bpy.types.GeometryNodeIsViewport
+msgid ""
+"Retrieve whether the nodes are being evaluated for the viewport rather than "
+"the final render"
+msgstr ""
+"Kontrollera om noderna utvärderas för vyporten i stället för den slutliga "
+"renderingen"
+
+#. :src: bpy.types.GeometryNodeMaterialSelection
+msgid "Provide a selection of faces that use the specified material"
+msgstr "Tillhandahåll ett urval av ytor som använder det angivna materialet"
+
+#. :src: bpy.types.GeometryNodeMenuSwitch
+msgid "Select from multiple inputs by name"
+msgstr "Välj bland flera indata efter namn"
+
+#. :src: bpy.types.GeometryNodeMenuSwitch.active_item
+msgid "Active Item"
+msgstr "Aktivt element"
+
+#. :src: bpy.types.GeometryNodeMenuSwitch.active_item
+#. :src: bpy.types.NodeTreeInterface.active
+msgid "Active item"
+msgstr "Aktivt element"
+
+#. :src: bpy.types.GeometryNodeMergeByDistance
+msgid "Merge vertices or points within a given distance"
+msgstr "Sammanfoga hörnpunkter eller punkter inom ett givet avstånd"
+
+#. :src: bpy.types.GeometryNodeMergeByDistance.mode:'CONNECTED'
+msgid ""
+"Only merge mesh vertices along existing edges. This method can be much faster"
+msgstr ""
+"Sammanfoga endast mesh-hörnpunkter längs befintliga kanter. Denna metod kan "
+"vara mycket snabbare"
+
+#. :src: bpy.types.GeometryNodeMergeLayers
+msgid "Join groups of Grease Pencil layers into one"
+msgstr "Slå samman grupper av Grease Pencil-lager till en grupp"
+
+#. :src: bpy.types.GeometryNodeMeshFaceSetBoundaries
+msgid "Face Group Boundaries"
+msgstr "Ytgruppsgränser"
+
+#. :src: bpy.types.GeometryNodeMeshFaceSetBoundaries
+msgid ""
+"Find edges on the boundaries between groups of faces with the same ID value"
+msgstr "Hitta kanter på gränserna mellan grupper av ytor med samma ID-värde"
+
+#. :src: bpy.types.GeometryNodeMeshLine
+msgid "Generate vertices in a line and connect them with edges"
+msgstr "Generera hörnpunkter i en linje och koppla ihop dem med kanter"
+
+#. :src: bpy.types.GeometryNodeMeshLine.count_mode:'TOTAL'
+msgid "Specify the total number of vertices"
+msgstr "Ange det totala antalet hörnpunkter"
+
+#. :src: bpy.types.GeometryNodeMeshLine.mode:'OFFSET'
+msgid "Specify the offset from one vertex to the next"
+msgstr "Ange förskjutningen från en hörnpunkt till nästa"
+
+#. :src: bpy.types.GeometryNodeMeshToCurve.mode:'FACES'
+msgid ""
+"Convert each mesh face to a cyclic curve. Face attributes are propagated to "
+"curves."
+msgstr ""
+"Konvertera varje meshyta till en cyklisk kurva. Ytattributen överförs till "
+"kurvorna."
+
+#. :src: bpy.types.GeometryNodeMeshToDensityGrid
+msgid "Create a filled volume grid from a mesh"
+msgstr "Skapa ett volymrutnät med fyllning från en mesh"
+
+#. :src: bpy.types.GeometryNodeMeshToPoints
+msgid "Generate a point cloud from a mesh's vertices"
+msgstr "Generera ett punktmoln från en meshs hörnpunkter"
+
+#. :src: bpy.types.GeometryNodeMeshToPoints.mode:'VERTICES'
+msgid "Create a point in the point cloud for each selected vertex"
+msgstr "Skapa en punkt i punktmolnet för varje vald hörnpunkt"
+
+#. :src: bpy.types.GeometryNodeMeshToSDFGrid
+msgid "Mesh to SDF Grid"
+msgstr "Mesh till SDF-rutnät"
+
+#. :src: bpy.types.GeometryNodeMeshToVolume
+msgid "Create a fog volume with the shape of the input mesh's surface"
+msgstr "Skapa en dimvolym med formen av indatameshens yta"
+
+#. :src: bpy.types.GeometryNodeOffsetCornerInFace
+msgid "Offset Corner in Face"
+msgstr "Förskjut hörn i yta"
+
+#. :src: bpy.types.GeometryNodeOffsetCornerInFace
+msgid "Retrieve corners in the same face as another"
+msgstr "Hämta hörn på samma yta som ett annat"
+
+#. :src: bpy.types.GeometryNodeOffsetPointInCurve
+msgid "Offset a control point index within its curve"
+msgstr "Förskjut en styrpunkts index inom dess kurva"
+
+#. :src: bpy.types.GeometryNodePointsOfCurve
+msgid "Points of Curve"
+msgstr "Punkter på kurva"
+
+#. :src: bpy.types.GeometryNodePointsOfCurve
+msgid "Retrieve a point index within a curve"
+msgstr "Hämta ett punktindex i en kurva"
+
+#. :src: bpy.types.GeometryNodePointsToSDFGrid
+msgid "Points to SDF Grid"
+msgstr "Punkter till SDF-rutnät"
+
+#. :src: bpy.types.GeometryNodePointsToSDFGrid
+msgid "Create a signed distance volume grid from points"
+msgstr "Skapa ett volymrutnät med signerat avstånd från punkter"
+
+#. :src: bpy.types.GeometryNodePointsToVertices
+msgid "Points to Vertices"
+msgstr "Punkter till hörnpunkter"
+
+#. :src: bpy.types.GeometryNodeProximity
+msgid "Geometry Proximity"
+msgstr "Geometrisk närhet"
+
+#. :src: bpy.types.GeometryNodeProximity
+msgid "Compute the closest location on the target geometry"
+msgstr "Beräkna den närmaste positionen på målgeometrin"
+
+#. :src: bpy.types.GeometryNodeProximity.target_element:'FACES'
+msgid "Calculate the proximity to the target's faces"
+msgstr "Beräkna närheten till målets ytor"
+
+#. :src: bpy.types.GeometryNodeRaycast.mapping:'NEAREST'
+msgid "Use the attribute value of the closest mesh element"
+msgstr "Använd attributvärdet för det närmaste meshelementet"
+
+#. :src: bpy.types.GeometryNodeRemoveAttribute
+msgid "Remove Named Attribute"
+msgstr "Ta bort namngivet attribut"
+
+#. :src: bpy.types.GeometryNodeRemoveAttribute
+msgid ""
+"Delete an attribute with a specified name from a geometry. Typically used to "
+"optimize performance"
+msgstr ""
+"Ta bort ett attribut med ett angivet namn från en geometri. Används oftast "
+"för att optimera prestanda"
+
+#. :src: bpy.types.FunctionNodeRotateRotation
+msgid "Rotate Rotation"
+msgstr "Rotera rotation"
+
+#. :src: bpy.types.FunctionNodeRotationToAxisAngle
+msgid "Rotation to Axis Angle"
+msgstr "Rotation till axelvinkel"
+
+#. :src: bpy.types.FunctionNodeRotationToEuler
+msgid "Rotation to Euler"
+msgstr "Rotation till Euler"
+
+#. :src: bpy.types.FunctionNodeSeparateMatrix
+msgid "Separate Matrix"
+msgstr "Separera matris"
+
+#. :src: bpy.types.FunctionNodeSeparateTransform
+msgid "Separate Transform"
+msgstr "Separera transformation"
+
+#. :src: bpy.types.FunctionNodeSliceString
+msgid "Slice String"
+msgstr "Dela upp sträng"
+
+#. :src: bpy.types.FunctionNodeStringLength
+msgid "String Length"
+msgstr "Stränglängd"
+
+#. :src: bpy.types.FunctionNodeTransformDirection
+msgid "Transform Direction"
+msgstr "Transformera riktning"
+
+#. :src: bpy.types.FunctionNodeTransformPoint
+msgid "Transform Point"
+msgstr "Transformera punkt"
+
+#. :src: bpy.types.GeometryNode
+#. :src: bpy.types.ThemeNodeEditor.geometry_node
+msgid "Geometry Node"
+msgstr "Geometrinod"
+
+#. :src: bpy.types.GeometryNodeAccumulateField.data_type:'FLOAT'
+msgid "Add floating point values"
+msgstr "Lägg till flyttalsvärden"
+
+#. :src: bpy.types.GeometryNodeAttributeStatistic
+msgid "Attribute Statistic"
+msgstr "Attributstatistik"
+
+#. :src: bpy.types.GeometryNodeBake
+msgid "Cache the incoming data so that it can be used without recomputation"
+msgstr "Cachelagra inkommande data så att de kan användas utan omberäkning"
+
+#. :src: bpy.types.GeometryNodeBake.active_index
+#. :src: bpy.types.GeometryNodeBake.active_item
+#. :src: bpy.types.GeometryNodeCaptureAttribute.active_index
+#. :src: bpy.types.GeometryNodeCaptureAttribute.active_item
+#. :src: bpy.types.GeometryNodeClosureOutput.active_input_index
+#. :src: bpy.types.GeometryNodeClosureOutput.active_output_index
+#. :src: bpy.types.GeometryNodeCombineBundle.active_index
+#. :src: bpy.types.GeometryNodeEvaluateClosure.active_input_index
+#. :src: bpy.types.GeometryNodeEvaluateClosure.active_output_index
+#. :src: bpy.types.GeometryNodeForeachGeometryElementOutput.active_generation_index
+#. :src: bpy.types.GeometryNodeForeachGeometryElementOutput.active_input_index
+#. :src: bpy.types.GeometryNodeForeachGeometryElementOutput.active_main_index
+#. :src: bpy.types.GeometryNodeMenuSwitch.active_index
+#. :src: bpy.types.GeometryNodeRepeatOutput.active_index
+#. :src: bpy.types.GeometryNodeRepeatOutput.active_item
+#. :src: bpy.types.GeometryNodeSeparateBundle.active_index
+#. :src: bpy.types.GeometryNodeSimulationOutput.active_index
+#. :src: bpy.types.GeometryNodeSimulationOutput.active_item
+#. :src: bpy.types.NodeTreeInterface.active_index
+msgid "Index of the active item"
+msgstr "Index för det aktiva elementet"
+
+#. :src: bpy.types.GeometryNodeCameraInfo
+msgid "Retrieve information from a camera object"
+msgstr "Hämta information från ett kameraobjekt"
+
+#. :src: bpy.types.GeometryNodeCaptureAttribute
+msgid "Capture Attribute"
+msgstr "Fånga attribut"
+
+#. :src: bpy.types.GeometryNodeCaptureAttribute
+msgid ""
+"Store the result of a field on a geometry and output the data as a node "
+"socket. Allows remembering or interpolating data as the geometry changes, "
+"such as positions before deformation"
+msgstr ""
+"Lagra resultatet av ett fält på en geometri och mata ut data som ett "
+"noduttag. Gör det möjligt att komma ihåg eller interpolera data när "
+"geometrin ändras, till exempel positioner före deformation"
+
+#. :src: bpy.types.GeometryNodeClosureInput.paired_output
+#. :src: bpy.types.GeometryNodeForeachGeometryElementInput.paired_output
+#. :src: bpy.types.GeometryNodeRepeatInput.paired_output
+#. :src: bpy.types.GeometryNodeSimulationInput.paired_output
+msgid "Zone output node that this input node is paired with"
+msgstr "Zonutgångsnod som denna ingångsnod är kopplad till"
+
+#. :src: bpy.types.GeometryNodeCollectionInfo.transform_space:'ORIGINAL'
+msgid "Output the geometry relative to the collection offset"
+msgstr "Mata ut geometrin i förhållande till samlingens förskjutning"
+
+#. :src: bpy.types.GeometryNodeCollectionInfo.transform_space:'RELATIVE'
+msgid ""
+"Bring the input collection geometry into the modified object, maintaining "
+"the relative position between the objects in the scene"
+msgstr ""
+"För in indatasamlingens geometri i det modifierade objektet och behåll den "
+"relativa positionen mellan objekten i scenen"
+
+#. :src: bpy.types.GeometryNodeConvexHull
+msgid ""
+"Create a mesh that encloses all points in the input geometry with the "
+"smallest number of points"
+msgstr ""
+"Skapa en mesh som omsluter alla punkter i indatageometrin med minsta möjliga "
+"antal punkter"
+
+#. :src: bpy.types.GeometryNodeCornersOfEdge
+msgid "Corners of Edge"
+msgstr "Hörn på kant"
+
+#. :src: bpy.types.GeometryNodeCornersOfEdge
+msgid "Retrieve face corners connected to edges"
+msgstr "Hämta ythörn som är kopplade till kanter"
+
+#. :src: bpy.types.GeometryNodeCornersOfFace
+msgid "Corners of Face"
+msgstr "Ytans hörn"
+
+#. :src: bpy.types.GeometryNodeCornersOfFace
+msgid "Retrieve corners that make up a face"
+msgstr "Hämta hörn som bildar en yta"
+
+#. :src: bpy.types.GeometryNodeCornersOfVertex
+msgid "Corners of Vertex"
+msgstr "Hörn på hörnpunkt"
+
+#. :src: bpy.types.GeometryNodeCornersOfVertex
+msgid "Retrieve face corners connected to vertices"
+msgstr "Hämta ythörn som är anslutna till hörnpunkter"
+
+#. :src: bpy.types.GeometryNodeCurveArc.mode:'RADIUS'
+msgid "Define radius with a float"
+msgstr "Definiera radien med ett flyttal"
+
+#. :src: bpy.types.GeometryNodeCurveEndpointSelection
+msgid "Endpoint Selection"
+msgstr "Ändpunktsurval"
+
+#. :src: bpy.types.GeometryNodeCurveEndpointSelection
+msgid "Provide a selection for an arbitrary number of endpoints in each spline"
+msgstr ""
+"Tillhandahåll ett urval för ett godtyckligt antal ändpunkter i varje spline"
+
+#. :src: bpy.types.GeometryNodeCurveHandleTypeSelection.handle_type:'AUTO'
+#. :src: bpy.types.GeometryNodeCurveSetHandles.handle_type:'AUTO'
+#. :src: bpy.types.CURVES_OT_handle_type_set.type:'AUTO'
+#. :src: bpy.types.GREASE_PENCIL_OT_set_handle_type.type:'AUTO'
+msgid "The location is automatically calculated to be smooth"
+msgstr "Positionen beräknas automatiskt för att vara jämn"
+
+#. :src: bpy.types.GeometryNodeCurveHandleTypeSelection.handle_type:'VECTOR'
+#. :src: bpy.types.GeometryNodeCurveSetHandles.handle_type:'VECTOR'
+#. :src: bpy.types.CURVES_OT_handle_type_set.type:'VECTOR'
+#. :src: bpy.types.GREASE_PENCIL_OT_set_handle_type.type:'VECTOR'
+msgid "The location is calculated to point to the next/previous control point"
+msgstr "Positionen beräknas peka mot nästa/föregående kontrollpunkt"
+
+#. :src: bpy.types.GeometryNodeCurveHandleTypeSelection.mode:'RIGHT'
+#. :src: bpy.types.GeometryNodeCurveSetHandles.mode:'RIGHT'
+#. :src: bpy.types.GeometryNodeSetCurveHandlePositions.mode:'RIGHT'
+msgid "Use the right handles"
+msgstr "Använd de högra handtagen"
+
+#. :src: bpy.types.GeometryNodeCurveLength
+msgid "Retrieve the length of all splines added together"
+msgstr "Hämta den sammanlagda längden för alla splines"
+
+#. :src: bpy.types.GeometryNodeCurvePrimitiveCircle
+msgid "Curve Circle"
+msgstr "Kurvcirkel"
+
+#. :src: bpy.types.GeometryNodeCurvePrimitiveCircle
+msgid "Generate a poly spline circle"
+msgstr "Generera en polyspline-cirkel"
+
+#. :src: bpy.types.GeometryNodeCurvePrimitiveCircle.mode:'RADIUS'
+msgid "Define the radius with a float"
+msgstr "Definiera radien med ett flyttal"
+
+#. :src: bpy.types.GeometryNodeCurvePrimitiveLine
+msgid "Curve Line"
+msgstr "Kurvlinje"
+
+#. :src: bpy.types.GeometryNodeCurvePrimitiveLine
+msgid "Generate a poly spline line with two points"
+msgstr "Generera en polyspline-linje med två punkter"
+
+#. :src: bpy.types.GeometryNodeCurvePrimitiveQuadrilateral
+msgid "Quadrilateral"
+msgstr "Fyrhörning"
+
+#. :src: bpy.types.GeometryNodeCurvePrimitiveQuadrilateral.mode:'TRAPEZOID'
+msgid "Create a trapezoid"
+msgstr "Skapa en trapets"
+
+#. :src: bpy.types.GeometryNodeCurveSetHandles
+msgid "Set Handle Type"
+msgstr "Ange handtagstyp"
+
+#. :src: bpy.types.GeometryNodeCurveSpiral
+msgid "Spiral"
+msgstr "Spiral"
+
+#. :src: bpy.types.GeometryNodeCurveSplineType
+msgid "Set Spline Type"
+msgstr "Ange splinetyp"
+
+#. :src: bpy.types.GeometryNodeCurveToMesh
+msgid "Curve to Mesh"
+msgstr "Kurva till mesh"
+
+#. :src: bpy.types.GeometryNodeCurveToMesh
+msgid ""
+"Convert curves into a mesh, optionally with a custom profile shape defined "
+"by curves"
+msgstr ""
+"Konvertera kurvor till en mesh, eventuellt med en anpassad profilform som "
+"definieras av kurvorna"
+
+#. :src: bpy.types.GeometryNodeCurveToPoints.mode
+msgid "How to generate points from the input curve"
+msgstr "Hur punkter ska genereras från indatakurvan"
+
+#. :src: bpy.types.GeometryNodeCurveToPoints.mode:'LENGTH'
+msgid ""
+"Sample each spline by splitting it into segments with the specified length"
+msgstr "Provta varje spline genom att dela upp den i segment med angiven längd"
+
+#. :src: bpy.types.GeometryNodeCurvesToGreasePencil
+msgid "Curves to Grease Pencil"
+msgstr "Kurvor till Grease Pencil"
+
+#. :src: bpy.types.GeometryNodeCustomGroup
+msgid "Geometry Custom Group"
+msgstr "Anpassad geometrigrupp"
+
+#. :src: bpy.types.GeometryNodeDistributePointsInGrid
+msgid "Distribute Points in Grid"
+msgstr "Fördela punkter i ett rutnät"
+
+#. :src: bpy.types.GeometryNodeDistributePointsInGrid
+msgid "Generate points inside a volume grid"
+msgstr "Generera punkter i ett volymrutnät"
+
+#. :src: bpy.types.GeometryNodeDistributePointsOnFaces.distribute_method:'POISSON'
+msgid ""
+"Distribute the points randomly on the surface while taking a minimum "
+"distance between points into account"
+msgstr ""
+"Distribuera punkterna slumpvis på ytan och ta hänsyn till ett minimalt "
+"avstånd mellan punkterna"
+
+#. :src: bpy.types.GeometryNodeDualMesh
+msgid "Convert Faces into vertices and vertices into faces"
+msgstr "Konvertera ytor till hörnpunkter och hörnpunkter till ytor"
+
+#. :src: bpy.types.GeometryNodeDuplicateElements
+msgid "Generate an arbitrary number copies of each selected input element"
+msgstr "Generera ett godtyckligt antal kopior av varje valt indataelement"
+
+#. :src: bpy.types.GeometryNodeEdgesOfCorner
+msgid "Edges of Corner"
+msgstr "Kanter vid ythörn"
+
+#. :src: bpy.types.GeometryNodeEdgesOfVertex
+msgid "Edges of Vertex"
+msgstr "Kanter vid hörnpunkt"
+
+#. :src: bpy.types.GeometryNodeEdgesOfVertex
+msgid "Retrieve the edges connected to each vertex"
+msgstr "Hämta kanterna som är anslutna till varje hörnpunkt"
+
+#. :src: bpy.types.GeometryNodeEdgesToFaceGroups
+msgid "Edges to Face Groups"
+msgstr "Kanter till ytgrupper"
+
+#. :src: bpy.types.GeometryNodeEdgesToFaceGroups
+msgid "Group faces into regions surrounded by the selected boundary edges"
+msgstr "Gruppera ytor i områden som omges av de valda begränsningskanterna"
+
+#. :src: bpy.types.GeometryNodeEvaluateClosure.input_items
+#. :src: bpy.types.NodeGeometryEvaluateClosureInputItems
+#. :src: bpy.types.NodeGeometryForeachGeometryElementInputItems
+msgid "Input Items"
+msgstr "Indataobjekt"
+
+#. :src: bpy.types.GeometryNodeEvaluateClosure.output_items
+#. :src: bpy.types.NodeGeometryEvaluateClosureOutputItems
+msgid "Output Items"
+msgstr "Utdataobjekt"
+
+#. :src: bpy.types.GeometryNodeExtrudeMesh
+msgid ""
+"Generate new vertices, edges, or faces from selected elements and move them "
+"based on an offset while keeping them connected by their boundary"
+msgstr ""
+"Generera nya hörnpunkter, kanter eller ytor från markerade element och "
+"flytta dem med en förskjutning, samtidigt som de hålls samman vid sina "
+"gränser"
+
+#. :src: bpy.types.GeometryNodeFieldAverage
+msgid "Field Average"
+msgstr "Fältmedelvärde"
+
+#. :src: bpy.types.GeometryNodeFieldMinAndMax
+msgid "Field Min & Max"
+msgstr "Fältets min- och maxvärde"
+
+#. :src: bpy.types.GeometryNodeFieldMinAndMax
+msgid "Calculate the minimum and maximum of a given field"
+msgstr "Beräkna minimi- och maximivärdet för ett givet fält"
+
+#. :src: bpy.types.CompositorNodeTonemap
+msgid "Tonemap"
+msgstr "Tonmappning"
+
+#. :src: bpy.types.CompositorNodeTonemap.tonemap_type
+#. :src: bpy.types.SequencerTonemapModifierData.tonemap_type
+msgid "Tonemap Type"
+msgstr "Tonmappningstyp"
+
+#. :src: bpy.types.CompositorNodeTonemap.tonemap_type:'RD_PHOTORECEPTOR'
+#. :src: bpy.types.SequencerTonemapModifierData.tonemap_type:'RD_PHOTORECEPTOR'
+msgid "R/D Photoreceptor"
+msgstr "R/D-fotoreceptor"
+
+#. :src: bpy.types.CompositorNodeTonemap.tonemap_type:'RH_SIMPLE'
+#. :src: bpy.types.SequencerTonemapModifierData.tonemap_type:'RH_SIMPLE'
+msgid "Rh Simple"
+msgstr "Rh enkel"
+
+#. :src: bpy.types.CompositorNodeTrackPos
+msgid "Track Position"
+msgstr "Spårposition"
+
+#. :src: bpy.types.CompositorNodeTrackPos
+msgid ""
+"Provide information about motion tracking points, such as x and y values"
+msgstr ""
+"Tillhandahåll information om filmspårningspunkter, till exempel X- och Y-"
+"värden"
+
+#. :src: bpy.types.CompositorNodeTrackPos.frame_relative
+msgid "Frame to be used for relative position"
+msgstr "Bildruta som ska användas för relativ position"
+
+#. :src: bpy.types.CompositorNodeTrackPos.position
+msgid "Which marker position to use for output"
+msgstr "Vilken markörposition som ska användas för utdata"

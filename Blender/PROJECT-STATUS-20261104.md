@@ -10726,3 +10726,17 @@ Den använder *skärmrymd* och *3D-rymd* konsekvent i nodnamnet och dess
 beskrivning. Deltafilen
 `blender-ui-sv-reviewed-20261108-batch-626-screen-to-3d-space.po` är lokalt
 kontrollerad, arkiverad och väntar på manuell import till Blender Translate.
+
+## Deltafiler — äldre än 24 timmar
+
+Den 8 november skapades en separat lokal importuppsättning från 965
+arkiverade Blender UI-filer vars senaste Git-ändring låg före den exakta
+24-timmarsgränsen. När samma identitet förekom flera gånger prioriterades den
+senaste äldre måltexten. Alla identiteter i
+`blender-ui-sv-reviewed-20261108-changes-last24h*.po` exkluderades därefter
+på `msgctxt`/`msgid`-nivå. Resultatet omfattar 8 490 äldre
+översättningsposter och är delat utan överlappning i nio filer:
+`blender-ui-sv-reviewed-20261108-changes-older-than-24h-part-01-of-09.po`
+till `part-09-of-09.po`. Del 1–8 innehåller 1 000 poster vardera och del 9
+innehåller 490 poster. Filerna är lokalt kontrollerade men deras
+importstatus på Blender Translate är inte verifierad här.
