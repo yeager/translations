@@ -8843,3 +8843,15 @@ importerad i Blender Translate.
 manuella deltafilen för batch 957–982. Den innehåller 189
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 983 — Meshsymmetri och synlighet
+
+Batch 983 granskar åtta verktygsbeskrivningar för Quadriflow, voxelommeshning,
+UV och synlighetsfilter. Den använder *mesh*, *manifold-mesh*,
+*meshsymmetri* och *meshtopologi* i respektive Blender-kontext. Batchen är
+lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-957-983.po` är den samlade
+manuella deltafilen för batch 957–983. Den innehåller 197
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
