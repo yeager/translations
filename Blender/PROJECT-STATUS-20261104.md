@@ -8430,3 +8430,20 @@ verifierad som importerad i Blender Translate.
 manuella deltafilen för batch 811–940. Den innehåller 848
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 941 — Action-datablockets beskrivningar
+
+Batch 941 granskar nio beskrivningar som uttryckligen avser Blenders
+animationsdatatyp *Action*. Produktnamnet bevaras därför i böjda och
+sammansatta former, exempelvis *Actionen*, *Actioner* och
+*Action-kanaler*, medan det generella svenska *åtgärd* lämnas kvar i
+obesläktade handlingskontexter. Batchen är lokalt granskad, men ännu inte
+verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-941-action-datablock-descriptions.po`
+är den separata manuella deltafilen med de nio rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-941.po` är den samlade
+manuella deltafilen för batch 811–941. Den innehåller 857
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
