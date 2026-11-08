@@ -10112,3 +10112,25 @@ verifierad som importerad i Blender Translate.
 1 055–1 081 i en separat importfil med 129 översättningsposter (130 med
 PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
 innehåller 983 poster.
+
+## Batch 1 082–1 086 — begränsningar, manifold, F-kurvor och Action-slotar
+
+Batch 1 082 förtydligar egenskapsnamn för begränsningar. Batch 1 083 behåller
+den topologiska termen *manifold* i extruderingsverktyget i stället för den
+felaktiga allmänspråkliga tolkningen *mångfald*. Batch 1 084 normaliserar
+F-Modifier till *F-kurvmodifierare* i graf- och NLA-redigeraren. Batch 1 085
+normaliserar två återstående formuleringar till *i stället för*. Batch 1 086
+anger uttryckligen *Action-slot* i de tre återstående animationsrader där
+kontexten avser datatypen, utan att ändra den delade, generella etiketten
+*Slot*.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1086.po` samlar batch
+1 055–1 086 i en separat importfil med 166 översättningsposter (167 med
+PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
+`svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
+Den är lokalt validerad och väntar på manuell import i Blender Translate.
+
+Den 8 november 2026 visade användarens importresultat 351 bearbetade poster,
+39 överhoppade och 312 uppdaterade. Skärmbilden anger inte entydigt vilken
+lokal importfil som användes, så den kan inte användas som bevis för att den
+senaste samlingsfilen 1 055–1 086 är importerad.
