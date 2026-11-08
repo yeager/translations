@@ -3145,6 +3145,20 @@ diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 Ingen Weblate-import är verifierad; batchen är lokalt färdig och redo för
 manuell import.
 
+## Batch 1 290 — geometri- och bildrymd
+
+Batch 1 290 normaliserar sex Blender-kontexter där *geometry space* och
+*image space* beskriver koordinatdomäner, inte allmänt utrymme. I Grease
+Pencil Line Art används därför *geometrirymd* respektive *bildrymd*; samma
+benämning används i Geometry Nodes och i längdmodifierarens absoluta läge.
+Deltafilen `blender-ui-sv-reviewed-batch-1290-geometry-space.po` innehåller
+sex poster och har SHA-256
+`88b11f7e17e15590ee5bd8bbf4bfdff200666251e84512e067e7357bb6ccdec2`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
+diffkontroll och Gitleaks passerade. Batchen är lokalt färdig och redo för
+manuell Blender Translate-import. Något importresultat är inte verifierat.
+
 ## Batch 1 276 — cache och kamerarymd
 
 Sju UI-strängar normaliserar facktermerna *cachelagrad* och *kamerarymd*.
