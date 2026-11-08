@@ -2,6 +2,19 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 301 — UV-rymd i lightmap-packning
+
+Inställningen för marginalandel i operatören *Lightmap Pack* räknas i samma
+tvådimensionella UV-koordinatdomän som andra UV-packningsinställningar. Den
+normaliseras därför från *UV-utrymmet* till den etablerade termen *UV-rymden*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1301-lightmap-uv-space.po`
+innehåller en ändrad post och har SHA-256
+`1f3c82c3b2b1e00a20233ea319c2d69534f38c25be9acb4c25ecd224f337962a`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 300 — kontextuttag
 
 I nodoperatorn *Link operation to execute on the context socket* betyder
