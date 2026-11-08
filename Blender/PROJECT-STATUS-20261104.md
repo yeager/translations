@@ -9552,3 +9552,15 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1038.po är den samlade
 manuella deltafilen för batch 957–1 038. Den innehåller 769
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 039 — Action-slotars tidslinje
+
+Batch 1 039 granskar sex texter för en Action-slots tidslinje, korrigerande
+Actioner och riggstyrning. Den använder de formella datatypsnamnen *Action*
+och *Action-slot* i stället för det generella ordet ”åtgärd”. Batchen är
+lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1039.po är den samlade
+manuella deltafilen för batch 957–1 039. Den innehåller 775
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
