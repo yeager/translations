@@ -35,6 +35,7 @@ Senast uppdaterad: 2026-11-08.
 | safe areas (camera) | säkra områden | Hjälplinjer i kameravyn och sekvensredigeraren. *Action Safe* blir *säkra marginaler för bildinnehåll*, medan *Title Safe* blir *säkra marginaler för text*; de centrerade varianterna gäller ett annat bildförhållande. |
 | film gate | filmruta | Bildruta som anger den fysiska sensor- eller filmramen i kameravyn. |
 | clipping distance | beskärningsavstånd | Kamerans närmaste eller bortre synliga gräns. |
+| Clip Start / Clip End | beskärningsstart / beskärningsslut | Kamerans, 3D-vyportens eller VR-vyns närmaste och bortre gräns för visning. |
 | camera space | kamerarymd | Kamerans koordinatrymd för spårning, projektion och objektlösning. Använd inte det vardagliga *kamerarum*. |
 | object space | objektrymd | Objektets lokala koordinatrymd, bland annat för bildprojektion och normalmappning. Använd inte *objektrum*. |
 | orthographic / perspective view | ortografisk / perspektivisk vy | Statusetiketter för 3D-vyn skrivs med riktning, till exempel *Ortografisk vy framifrån* och *Perspektivisk vy från höger*. *Camera Perspective* är det etablerade substantivet *kameraperspektiv*. |
@@ -935,6 +936,8 @@ Senast uppdaterad: 2026-11-08.
 | keymap configuration | tangentmappningskonfiguration | Sparad uppsättning Blender-tangentmappningar. |
 | snap keyframes | fäst nyckelbildrutor | Flyttar nyckelbildrutor till bestämda tider, bildrutor eller markörer. |
 | snap / snapping (3D-transformering) | fäst / fästning | Fäster markör, markering eller transformerat objekt vid exempelvis rutnät, mål eller markör. Skilj från *snap keyframes* → *fäst nyckelbildrutor*. |
+| orbit center / orbit axis | kretsningscentrum / kretsningsaxel | Navigeringsinställningar som styr rotationspunkten respektive dess visuella hjälplinje i 3D-vyn. |
+| Pan View | Panorera vyn | Navigeringsåtgärd i 2D- och 3D-redigerare. Använd bestämd form när den synliga vyn flyttas. |
 | NLA stack | NLA-stapel | Lagerordningen för åtgärder och remsor i Nonlinear Animation. |
 | keying set | nyckeluppsättning | Namngiven uppsättning animerbara egenskaper som används vid infogning och borttagning av nyckelbildrutor. |
 | driver | drivrutin | Uttrycks- eller databaserad styrning av en egenskap; skilj från fysisk hårdvarudrivrutin. |
