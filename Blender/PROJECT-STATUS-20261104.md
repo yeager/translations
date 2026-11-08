@@ -9798,15 +9798,23 @@ katalogfilter och importmetoder. Den använder *resurs* konsekvent och
 bevarar Blenders skillnad mellan lokala och nätbaserade resurser. Batchen är
 lokalt granskad men ännu inte verifierad som importerad i Blender Translate.
 
-`blender-ui-sv-reviewed-20261108-pending-batches-1055-1059.po` samlar batch
-1 055–1 059 i en separat importfil med 58 översättningsposter. Den ska
+## Batch 1 060 — resursfiler och hämtning
+
+Batch 1 060 granskar nio drifts- och felmeddelanden för resursfiler,
+fjärrlistningar och resurshämtning. Den använder *resursfil*, *resurslista*
+och *resursdata* konsekvent, samtidigt som protokoll- och fältnamnen `path`,
+`hash` och `size_in_bytes` lämnas oförändrade. Batchen är lokalt granskad men
+ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1060.po` samlar batch
+1 055–1 060 i en separat importfil med 67 översättningsposter. Den ska
 importeras separat från batch 957–1 054, som redan innehåller 983 poster.
 
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
-`svlang`, `l10n-lint`, Hunspell och diffkontroll. `msgfmt` och `svlang`
-passerade. De två kvarvarande `l10n-lint`-varningarna är falska positiva: den
-engelska exempelmarkören `eg:` blir idiomatiskt svenska `t.ex.` i båda
-filnamnstexterna.
+`svlang`, `l10n-lint` och diffkontroll. `msgfmt` gav endast förväntade
+headervarningar för deltafilerna; `svlang`, `l10n-lint` och diffkontrollen
+passerade. De två informationsnotiserna från `l10n-lint` gäller endast
+sluttecknet i två tekniska fältnamnssträngar och är inte varningar eller fel.
 
 ## Releasefärskhet
 
