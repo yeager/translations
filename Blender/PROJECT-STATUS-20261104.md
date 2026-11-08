@@ -2,6 +2,20 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 310 — Geometry Nodes: klippningsbegränsningsbox
+
+Geometry Nodes Grid Clip beräknar X-, Y- och Z-gränser för en tredimensionell
+klippningsvolym. De sex beskrivningarna normaliseras från
+*klippningsbegränsningsruta* till *klippningsbegränsningsbox*, i enlighet med
+projektets 3D-terminologi.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1310-grid-clipping-bounding-box.po`
+innehåller sex ändrade poster och har SHA-256
+`3efeba50d4f290adbbe24143e819e39ff4907dd7e71b85499eb936147302a5d7`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 309 — anpassade normaler i lokal koordinatrymd
 
 Mesh-triangelns anpassade normalvektorer anges uttryckligen i *local space*.
