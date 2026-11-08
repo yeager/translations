@@ -312,6 +312,12 @@ källans `action` inte är själva datatypen. Samlingsfilen för batch 957–967
 innehåller 79 poster och är lokalt kontrollerad men ännu inte importerad i
 Blender Translate.
 
+Batch 968 granskar tio Action Constraint-, NLA- och åtgärdsredigerarposter.
+Den gör Action-slotar, Action-begränsningar och Action-redigeraren tydliga i
+sammanhang där de är namn på Blenders formella animeringsobjekt. Samlingsfilen
+för batch 957–968 innehåller 89 poster och är lokalt kontrollerad men ännu
+inte importerad i Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,

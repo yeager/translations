@@ -1,0 +1,428 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender UI\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. :src: bpy.types.ActionConstraint.action_slot
+#. :src: bpy.types.NlaStrip.action_slot
+msgid ""
+"The slot identifies which sub-set of the Action is considered to be for this "
+"strip, and its name is used to find the right slot when assigning another "
+"Action"
+msgstr ""
+"Action-slotten identifierar vilken delmängd av Actionen som hör till den här "
+"remsan. Namnet används för att hitta rätt Action-slot när en annan Action "
+"tilldelas"
+
+#. :src: bpy.types.ActionConstraint.action_suitable_slots
+#. :src: bpy.types.NlaStrip.action_suitable_slots
+msgid "The list of action slots suitable for this NLA strip"
+msgstr "Listan över Action-slotar som lämpar sig för denna NLA-remsa"
+
+#. :src: bpy.types.ActionConstraint.last_slot_identifier
+msgid ""
+"The identifier of the most recently assigned action slot. The slot "
+"identifies which sub-set of the Action is considered to be for this "
+"constraint, and its identifier is used to find the right slot when assigning "
+"an Action."
+msgstr ""
+"Identifieraren för den senast tilldelade Action-slotten. Action-slotten "
+"anger vilken delmängd av Actionen som avses för denna begränsning, och dess "
+"identifierare används för att hitta rätt Action-slot när en Action tilldelas."
+
+#. :src: bpy.types.ActionSlot.action
+msgid "Action to apply to the rig via constraints"
+msgstr "Action som ska tillämpas på riggen via begränsningar"
+
+#. :src: bpy.types.ActionSlot.action_slot_ui
+msgid "Slot of the Action to use for the Action Constraints"
+msgstr "Action-slot för Actionen som ska användas för Action-begränsningarna"
+
+#. :src: bpy.types.ActionSlot.enabled
+msgid "Create constraints for this action on the generated rig"
+msgstr "Skapa begränsningar för denna Action på den genererade riggen"
+
+#. :src: bpy.types.ActionSlot.frame_end
+msgid "Last frame of the action's timeline"
+msgstr "Sista bildrutan på Actionens tidslinje"
+
+#. :src: bpy.types.SpaceDopeSheetEditor.mode:'ACTION'
+#. :src: bpy.types.SpaceDopeSheetEditor.ui_mode:'ACTION'
+msgid "Action Editor"
+msgstr "Action-redigerare"
+
+#. :src: bpy.types.SpaceDopeSheetEditor.mode:'ACTION'
+#. :src: bpy.types.SpaceDopeSheetEditor.ui_mode:'ACTION'
+msgid "Edit keyframes in active object's Object-level action"
+msgstr "Redigera nyckelbildrutor i det aktiva objektets Action på objektnivå"
+
+msgid "Could not assign action %s to Action Constraint %s"
+msgstr "Kunde inte tilldela Actionen %s till Action-begränsningen %s"
+
+#. :src: bpy.types.AnimData.action
+msgid "Active Action for this data-block"
+msgstr "Aktiv Action för detta datablock"
+
+#. :src: bpy.types.AnimData.action_blend_type
+msgid "Action Blending"
+msgstr "Action-blandning"
+
+#. :src: bpy.types.AnimData.action_blend_type
+msgid ""
+"Method used for combining Active Action's result with result of NLA stack"
+msgstr ""
+"Metod för att kombinera den aktiva Actionens resultat med resultatet från "
+"NLA-stapeln"
+
+#. :src: bpy.types.AnimData.action_extrapolation
+msgid "Action Extrapolation"
+msgstr "Action-extrapolering"
+
+#. :src: bpy.types.AnimData.action_extrapolation
+msgid ""
+"Action to take for gaps past the Active Action's range (when evaluating with "
+"NLA)"
+msgstr ""
+"Hantering av luckor utanför den aktiva Actionens räckvidd (vid utvärdering "
+"med NLA)"
+
+#. :src: bpy.types.AnimData.action_influence
+msgid "Action Influence"
+msgstr "Actionens påverkan"
+
+#. :src: bpy.types.AnimData.action_influence
+msgid "Amount the Active Action contributes to the result of the NLA stack"
+msgstr ""
+"I vilken grad den aktiva Actionen bidrar till resultatet av NLA-stapeln"
+
+#. :src: bpy.types.AnimData.action_slot
+#. :src: bpy.types.ActionConstraint.action_slot
+#. :src: bpy.types.NlaStrip.action_slot
+#. :src: bpy.types.ActionSlot.action_slot_ui
+msgid "Action Slot"
+msgstr "Action-slot"
+
+#. :src: bpy.types.AnimData.action_slot
+msgid ""
+"The slot identifies which sub-set of the Action is considered to be for this "
+"data-block, and its name is used to find the right slot when assigning an "
+"Action"
+msgstr ""
+"Action-slotten anger vilken delmängd av Actionen som hör till det här "
+"datablocket, och dess namn används för att hitta rätt Action-slot när en "
+"Action tilldelas"
+
+#. :src: bpy.types.BlendData.actions
+msgid "Action data-blocks"
+msgstr "Action-datablock"
+
+#. :src: bpy.types.BlendDataActions
+msgid "Main Actions"
+msgstr "Huvud-Actioner"
+
+#. :src: bpy.types.BlendImportContextItem.append_action
+msgid "Append Action"
+msgstr "Lägg till Action"
+
+#. :src: bpy.types.ActionSlot
+msgid ""
+"Identifier for a set of channels in this Action, that can be used by a data-"
+"block to specify what it gets animated by"
+msgstr ""
+"Identifierare för en uppsättning kanaler i den här Actionen, som ett "
+"datablock kan använda för att ange vad det animeras av"
+
+#. :src: bpy.types.ActionSlot.handle
+msgid ""
+"Number specific to this Slot, unique within the Action.\n"
+"This is used, for example, on a ActionKeyframeStrip to look up the "
+"ActionChannelbag for this Slot"
+msgstr ""
+"Nummer som är specifikt för den här Action-slotten och unikt inom Actionen.\n"
+"Det används till exempel av en ActionKeyframeStrip för att hitta "
+"ActionChannelbag för den här Action-slotten"
+
+#. :src: bpy.types.ActionSlot.identifier
+msgid ""
+"Used when connecting an Action to a data-block, to find the correct slot "
+"handle. This is the display name, prefixed by two characters determined by "
+"the slot's ID type"
+msgstr ""
+"Används när en Action kopplas till ett datablock för att hitta rätt "
+"slothandtag. Detta är visningsnamnet med ett prefix av två tecken som "
+"bestäms av Action-slottens ID-typ"
+
+#. :src: bpy.types.ActionSlot.name_display
+msgid ""
+"Name of the slot, for display in the user interface. This name combined with "
+"the slot's data-block type is unique within its Action"
+msgstr ""
+"Action-slottens namn för visning i användargränssnittet. Namnet tillsammans "
+"med Action-slottens datablocktyp är unikt inom Actionen"
+
+#. :src: bpy.types.ActionSlot.target_id_type
+msgid ""
+"Type of data-block that this slot is intended to animate; can be set when "
+"'UNSPECIFIED' but is otherwise read-only"
+msgstr ""
+"Datablockstypen som Action-slotten är avsedd att animera. Kan ställas in när "
+"”UNSPECIFIED”, men är annars skrivskyddad"
+
+#. :src: bpy.types.ActionGroup
+msgid "Action Group"
+msgstr "Actiongrupp"
+
+#. :src: bpy.types.ActionGroup.lock
+msgid "Action group is locked"
+msgstr "Actiongruppen är låst"
+
+#. :src: bpy.types.ActionGroup.mute
+msgid "Action group is muted"
+msgstr "Actiongruppen är avstängd"
+
+#. :src: bpy.types.ActionGroup.select
+msgid "Action group is selected"
+msgstr "Actiongruppen är markerad"
+
+#. :src: bpy.types.ActionGroup.show_expanded
+msgid "Action group is expanded except in graph editor"
+msgstr "Actiongruppen är expanderad utom i grafredigeraren"
+
+#. :src: bpy.types.ActionGroup.show_expanded_graph
+msgid "Action group is expanded in graph editor"
+msgstr "Actiongruppen är expanderad i grafredigeraren"
+
+#. :src: bpy.types.ActionLayer
+msgid "Action Layer"
+msgstr "Action-lager"
+
+#. :src: bpy.types.ActionLayers
+msgid "Action Layers"
+msgstr "Action-lager"
+
+#. :src: bpy.types.ActionPoseMarkers
+msgid "Action Pose Markers"
+msgstr "Actionens posemarkörer"
+
+#. :src: bpy.types.ActionSlot
+msgid "Action slot"
+msgstr "Action-slot"
+
+#. :src: bpy.types.ActionSlots
+#. :src: bpy.types.ActionConstraint.action_suitable_slots
+#. :src: bpy.types.NlaStrip.action_suitable_slots
+msgid "Action Slots"
+msgstr "Action-slotar"
+
+#. :src: bpy.types.ActionStrip
+msgid "Action Strip"
+msgstr "Action-remsa"
+
+#. :src: bpy.types.ActionStrips
+msgid "Action Strips"
+msgstr "Action-remsor"
+
+#. :src: bpy.types.ArrayModifier.end_cap
+msgid "Mesh object to use as an end cap"
+msgstr "Meshobjekt som ska användas som ändlock"
+
+#. :src: bpy.types.ArrayModifier.start_cap
+msgid "Mesh object to use as a start cap"
+msgstr "Meshobjekt som ska användas som startlock"
+
+#. :src: bpy.types.BooleanModifier.object
+msgid "Mesh object to use for Boolean operation"
+msgstr "Meshobjekt som ska användas för boolesk operation"
+
+#. :src: bpy.types.MeshDeformModifier.object
+#. :src: bpy.types.SurfaceDeformModifier.target
+msgid "Mesh object to deform with"
+msgstr "Meshobjekt att deformera med"
+
+#. :src: Socket description from node group Scatter on Surface, file geometry_nodes_essentials.blend
+msgid "Mesh on whose faces to scatter on"
+msgstr "Mesh vars ytor ska användas för spridning"
+
+msgid ""
+"Online access required to install or update. Launch Blender without --"
+"offline-mode"
+msgstr ""
+"Nätåtkomst krävs för installation eller uppdatering. Starta Blender utan --"
+"offline-mode"
+
+msgid ""
+"Online access required to install or update. Enable online access in System "
+"preferences"
+msgstr ""
+"Nätåtkomst krävs för installation eller uppdatering. Aktivera nätåtkomst i "
+"systeminställningarna"
+
+msgid "Online access required to install or update."
+msgstr "Nätåtkomst krävs för installation eller uppdatering."
+
+msgid "Please enable Online Access from the System settings."
+msgstr "Aktivera nätåtkomst i systeminställningarna."
+
+msgid "Online access required to check for updates."
+msgstr "Nätåtkomst krävs för att söka efter uppdateringar."
+
+msgid "Online access required to install updates."
+msgstr "Nätåtkomst krävs för att installera uppdateringar."
+
+msgid "Enable online access in System preferences"
+msgstr "Aktivera nätåtkomst i systeminställningarna"
+
+msgid "Online directory of free and open source extensions"
+msgstr "Katalog på nätet med fria tillägg med öppen källkod"
+
+msgid ""
+"Internet access disabled, only showing assets that are available offline."
+msgstr "Nätåtkomst är inaktiverad. Visar endast resurser som finns lokalt."
+
+msgid "No items. Note: The \"Only Online\" filter option is enabled."
+msgstr "Inga objekt. Obs: filteralternativet ”Endast på nätet” är aktiverat."
+
+msgid "No assets found."
+msgstr "Inga resurser hittades."
+
+msgid ""
+"Only assets from the current file or asset system files (.asset.blend) can "
+"be moved between catalogs"
+msgstr ""
+"Endast resurser från den aktuella filen eller resurssystemfiler "
+"(.asset.blend) kan flyttas mellan kataloger"
+
+msgid "Asset Catalogs"
+msgstr "Resurskataloger"
+
+msgid "No selected asset."
+msgstr "Ingen markerad resurs."
+
+msgid "Asset is local to this file and can be renamed directly."
+msgstr "Resursen är lokal i den här filen och kan byta namn direkt."
+
+msgid "Asset cannot be modified from this file."
+msgstr "Resursen kan inte ändras från den här filen."
+
+#. :src: bpy.types.WM_OT_usd_import.read_mesh_attributes
+msgid "Mesh Attributes"
+msgstr "Meshattribut"
+
+#. :src: bpy.types.Sculpt.detail_type_method:'RELATIVE'
+msgid "Mesh detail is relative to the brush size and detail size"
+msgstr "Meshdetaljer är relativa till penselstorlek och detaljstorlek"
+
+#. :src: bpy.types.RenderSettings.use_simplify_normals
+msgid "Mesh Normals"
+msgstr "Meshnormaler"
+
+msgid "Mesh has no VCol data"
+msgstr "Meshen saknar VCol-data"
+
+msgid "Mesh should be unwrapped before multires data baking"
+msgstr "Meshen bör vecklas ut innan multires-data beräknas"
+
+msgid "Mesh does not have an active color attribute \"%s\""
+msgstr "Meshen saknar det aktiva färgattributet ”%s”"
+
+msgid "Mesh too large; more detail on the console"
+msgstr "Meshen är för stor; mer information finns i konsolen"
+
+#. :src: bpy.types.AnimData.action_tweak_storage
+msgid "Tweak Mode Action Storage"
+msgstr "Lagring av Action i justeringsläge"
+
+#. :src: bpy.types.AnimData.action_tweak_storage
+msgid "Storage to temporarily hold the main action while in tweak mode"
+msgstr "Lagring för att tillfälligt behålla huvud-Actionen i justeringsläge"
+
+#. :src: bpy.types.AnimVizMotionPaths.show_keyframe_action_all
+msgid "All Action Keyframes"
+msgstr "Alla Action-nyckelbildrutor"
+
+#. :src: bpy.types.Area.type:'NLA_EDITOR'
+msgid "Combine and layer Actions"
+msgstr "Kombinera och lägg Actioner i lager"
+
+#. :src: bpy.types.Action.is_action_layered
+msgid "Is Layered Action"
+msgstr "Är skiktad Action"
+
+#. :src: bpy.types.Action.is_action_legacy
+msgid "Is Legacy Action"
+msgstr "Är äldre Action"
+
+#. :src: bpy.types.Action.is_empty
+msgid "False when there is any Layer, Slot, or legacy F-Curve"
+msgstr "Falskt om det finns ett lager, en Action-slot eller en äldre F-kurva"
+
+#. :src: bpy.types.Action.layers
+msgid "The list of layers that make up this Action"
+msgstr "Listan över lager som utgör den här Actionen"
+
+#. :src: bpy.types.Action.slots
+msgid "The list of slots in this Action"
+msgstr "Listan över Action-slotar i den här Actionen"
+
+#. :src: bpy.types.Action.use_cyclic
+msgid ""
+"The action is intended to be used as a cycle looping over its manually set "
+"playback frame range (enabling this does not automatically make it loop)"
+msgstr ""
+"Actionen är avsedd att upprepas i en slinga över det manuellt angivna "
+"bildruteintervallet för uppspelning. Aktivering gör inte automatiskt att den "
+"upprepas i en slinga"
+
+#. :src: bpy.types.NlaStrip
+msgid "A container referencing an existing Action"
+msgstr "En behållare som refererar till en befintlig Action"
+
+#. :src: bpy.types.NlaStrip.strip_time
+msgid "Frame of referenced Action to evaluate"
+msgstr "Bildruta i den refererade Actionen som ska utvärderas"
+
+#. :src: bpy.types.PARTICLE_OT_weight_set.factor
+msgid "Interpolation factor between current brush weight, and keys' weights"
+msgstr "Interpolationsfaktor mellan aktuell penselvikt och tangenternas vikt"
+
+#. :src: bpy.types.WM_OT_tool_set_by_brush_type.brush_type
+msgid ""
+"Brush type identifier for which the most appropriate tool will be looked up"
+msgstr ""
+"Identifierare för penseltyp som används för att hitta det lämpligaste "
+"verktyget"
+
+#. :src: bpy.types.Sculpt.detail_type_method:'BRUSH'
+msgid "Brush Detail"
+msgstr "Penseldetalj"
+
+msgid "Brush Asset"
+msgstr "Penselresurs"
+
+#. :src: bpy.types.ActionSlot.target_id_type:'MESH'
+msgctxt "ID"
+msgid "Mesh"
+msgstr "Mesh"
+
+msgid "Mesh object(s) have no active vertex/edge/face"
+msgstr "Meshobjekt har ingen aktiv hörnpunkt, kant eller yta"
+
+#. :src: bpy.types.Prefs.v3d_mmb_action
+msgid ""
+"The action when Middle-Mouse dragging in the viewport. Shift-Middle-Mouse is "
+"used for the other action. This applies to trackpad as well"
+msgstr ""
+"Åtgärd när mittersta musknappen dras i visningsområdet. Skift-mittersta "
+"musknappen används för den andra åtgärden. Detta gäller även styrplattan"
+
+#. :src: bpy.types.Prefs.v3d_tilde_action
+msgid "Action when 'Tilde' is pressed"
+msgstr "Åtgärd när ”Tilde” trycks ned"
+
+msgid ""
+"No active F-Curve to add a keyframe to. Select an editable F-Curve first"
+msgstr ""
+"Ingen aktiv F-kurva att lägga till en nyckelbild på. Välj först en "
+"redigerbar F-kurva"
