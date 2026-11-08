@@ -867,6 +867,7 @@ Senast uppdaterad: 2026-11-08.
 | mesh deformation | meshdeformering | Deformeringsmodifierare som använder en mesh eller andra meshobjekt som källa. |
 | rigid body | styv kropp | Fysiksimuleringens kroppstyp i Blender. |
 | integrator | integrator | Renderingsalgoritm i Cycles; använd svensk böjning i sammansättningar. |
+| denoise / denoising / denoiser | brusreducera / brusreducering / brusreducerare | Cycles behandling som minskar bildbrus efter renderingen. Behåll produktnamn som *OpenImageDenoise*, men inte den engelska allmäntermen i synlig UI-text. |
 | Geometry Node Group | geometrinodgrupp | Nodgrupp som utvärderar geometri i Blender. |
 | Geometry Node Modifier | geometrinodmodifierare | Modifierare som utvärderar en geometrinodgrupp. Skriv *geometrinodmodifierarens gränssnitt*, inte den generiska formen *modifieringsgränssnittet för geometrinoder*. |
 | keyframe | nyckelbildruta | En bildruta där ett animerat värde uttryckligen anges. |
