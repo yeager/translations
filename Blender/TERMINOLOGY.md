@@ -412,6 +412,7 @@ Senast uppdaterad: 2026-11-08.
 | face | yta | Mesh-element; avgör i sammanhanget om *ansikte* är avsett i annan betydelse. |
 | face data / face strength / face step | ytdata / ytstyrka / ytsteg | Meshdata och dess urvals- eller normalstyrkeegenskaper. Använd inte *ansikts-* här; behåll däremot *ansiktsrigg* när en Rigify-rigg för ett mänskligt ansikte avses. |
 | face cull / face loop | ytgallring / ytslinga | Mesh- och Shrinkwrap-terminologi. *Ytgallring* avser bortval av geometri efter normalriktning; *ytslinga* är ett sammanhängande urval av meshyta. |
+| edge loop / Loop Cut | kantslinga / loopklipp | En *kantslinga* är en sammanhängande slinga av meshkanter. Åtgärden *Loop Cut* skapar en ny sådan slinga och heter *loopklipp* i svensk UI-text. |
 | face corner | ythörn | Meshens hörn per yta; skiljs från en delad hörnpunkt. |
 | Data Transfer | dataöverföring | Blender-modifieraren som överför meshdata mellan objekt. |
 | mesh | mesh | Behåll när det avser Blender-datatypen eller dess etablerade UI-beteckning. Böj som ett utrumord: *en mesh*, *meshen*, *meshar*, *meshens* och *denna mesh*. Skriv sammansättningar ihop, till exempel *meshobjekt*, *meshsymmetri*, *meshkanter*, *meshnormaler*, *meshhörnpunkt* och *meshindata*. |
