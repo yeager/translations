@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender UI\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_fbx.bake_space_transform
+#. :src: bpy.types.IMPORT_SCENE_OT_fbx.bake_space_transform
+msgid "Bake space transform into object data, avoids getting unwanted rotations to objects when target space is not aligned with Blender's space (WARNING! experimental option, use at own risk, known to be broken with armatures/animations)"
+msgstr "Baka rymdtransformering till objektdata för att undvika oönskade rotationer av objekt när målrymden inte är inriktad med Blenders rymd (VARNING! Experimentellt alternativ; använd på egen risk, känt för att inte fungera med armaturer/animeringar)"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_fbx.use_space_transform
+msgid "Apply global space transform to the object rotations. When disabled only the axis space is written to the file and all object transforms are left as-is"
+msgstr "Tillämpa transformation i global koordinatrymd på objektrotationerna. När denna funktion är inaktiverad skrivs endast axelrymden till filen och alla objekttransformationer lämnas oförändrade"
+
+#. :src: bpy.types.RigifyParameters.skin_glue_head_mode:'REPARENT'
+msgid "The glue bone keeps its parent, but uses Copy Transforms to group both local and parent induced motion of the control into local space"
+msgstr "Limbenet behåller sin förälder, men använder Kopiera transformationer för att gruppera både lokal och föräldraorsakad rörelse från kontrollen i den lokala koordinatrymden"
+
+#. :src: bpy.types.RigifyParameters.skin_glue_tail_reparent
+msgid "Include transformations induced by target parents into target local space"
+msgstr "Inkludera transformeringar som orsakas av målets föräldrar i målets lokala koordinatrymd"
+
+#: source/blender/nodes/geometry/nodes/node_geo_input_curve_handles.cc:15
+msgid "Output the handle positions relative to the corresponding control point instead of in the local space of the geometry"
+msgstr "Mata ut handtagens positioner relativt motsvarande kontrollpunkt i stället för i geometrins lokala koordinatrymd"
+
+#: source/blender/nodes/geometry/nodes/node_geo_tool_3d_cursor.cc:14
+msgid "The location of the scene's 3D cursor, in the local space of the modified object"
+msgstr "Placeringen av scenens 3D-markör i det modifierade objektets lokala koordinatrymd"
+
+#: source/blender/nodes/geometry/nodes/node_geo_tool_3d_cursor.cc:17
+msgid "The rotation of the scene's 3D cursor, in the local space of the modified object"
+msgstr "Rotationen av scenens 3D-markör i det modifierade objektets lokala koordinatrymd"

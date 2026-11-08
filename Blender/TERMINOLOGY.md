@@ -588,6 +588,7 @@ Senast uppdaterad: 2026-11-08.
 | dependency graph | beroendegraf | Blenders graf över datablock och deras beroenden vid utvärdering. |
 | data path | datasökväg | RNA-sökväg till en egenskap; behåll Python-identifierare och bokstavliga sökvägsuttryck oförändrade. |
 | transform space | transformationsrymd | Koordinatrymd som används för positions-, rotations- eller skaltransformering. |
+| space transform | rymdtransformering | FBX-importens och -exportens omvandling mellan koordinatrymder. Skriv inte *rumstransformering*. |
 | clipping plane | klippningsplan | Etablerad svensk CAD-/grafikterm. Använd inte *klippplan*, eftersom den formen får tre p i följd. |
 | wireframe | trådram | Befintligt svenskt Blender-UI-namn. Skriv *trådramsläge* för *wireframe mode*. |
 | shape key | formnyckel | Etablerad term i Blenders TBX-ordlista och UI. |
