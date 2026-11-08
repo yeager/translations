@@ -689,7 +689,7 @@ Senast uppdaterad: 2026-11-07.
 | stroke random | slumpning per streck | Slumpvariation som beräknas på Grease Pencil-strecknivå. |
 | UV random | UV-slumpning | Slumpvariation för automatiskt skapad UV-rotation. |
 | vertex color factor | hörnpunktsfärgfaktor | Faktor som blandar hörnpunktsfärg till Grease Pencil-streckets eller fyllningens slutliga färg. |
-| Action constraint | Action-begränsning | Begränsning som styr en bens pose med en åtgärds bildrutor. Behåll *Action* som formellt Blender-namn. |
+| Action constraint | Action-begränsning | Begränsning som styr en bens pose med en Actions bildrutor. Behåll *Action* som formellt Blender-namn. |
 | Action constraint mix modes | före/efter originalet; fullständig/justerad ärvd skalning; delade kanaler | Blandningslägen för en Action-begränning. *Originalet* syftar på ägarens ursprungliga transformation; använd den svenska saktermen i förklaringen, men *Action* är fortsatt datatypnamn. |
 | target space | målkoordinatsystem | Koordinatsystemet som används för målbenets transformationskanal. |
 | owner space | ägarkoordinatsystem | Koordinatsystemet som används för ägarens transformationskanal. |
