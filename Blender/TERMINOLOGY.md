@@ -389,7 +389,7 @@ Senast uppdaterad: 2026-11-08.
 | moving hold (keyframe type) | rörlig hållning | Nyckelbildruta som ger liten rörelse kring en hållen pose. |
 | extreme (keyframe type) | ytterläge | Nyckelbildruta som markerar ett ytterläge i rörelsen. |
 | F-Curve | F-kurva | Behåll initialen och använd svenskt ord efter bindestrecket. |
-| F-Curve modifier | F-kurvmodifierare | Modifierare som förändrar en F-kurvas värden eller förlopp. |
+| F-Curve modifier / F-Modifier | F-kurvmodifierare | Modifierare som förändrar en F-kurvas värden eller förlopp. Även den förkortade synliga formen *F-Modifier* använder den svenska termen *F-kurvmodifierare*. |
 | frame range | bildruteintervall | Tidsintervall i animation och uppspelning. Använd *startbildruta* respektive *slutbildruta* för ändpunkterna. |
 | curve frame range | kurvornas bildruteintervall | Actions sammanlagda intervall från de ingående F-kurvorna. |
 | noise modifier | brusmodifierare | Modifierare som lägger slumpmässig variation på en F-kurva. Använd *brus*, inte det fysiska ljudordet *buller*. |

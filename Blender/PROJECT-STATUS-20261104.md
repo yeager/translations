@@ -14,6 +14,12 @@ topologitermen *manifold* i verktygets reservetikett och normalbaserade
 extrudering. Deltafilen är lokalt klar och väntar på manuell import i Blender
 Translate.
 
+Batch 1084 normaliserar 27 synliga UI- och feltexter för F-kurvmodifierare i
+Graf- och NLA-redigerarna. Den ersätter den blandade kortformen
+*F-modifierare* med den etablerade och entydiga termen
+*F-kurvmodifierare*, även för Cykel- och kuvertmodifieraren. Deltafilen är
+lokalt klar och väntar på manuell import i Blender Translate.
+
 Projektets åldersregel är verifierad den 7 november 2026: Blender 5.2.3 LTS
 släpptes 22 oktober 2026 och Blender 5.3 var i release-candidate-fas. Projektet
 har alltså en aktiv release långt inom 48-månadersgränsen.
