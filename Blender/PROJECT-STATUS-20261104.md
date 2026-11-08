@@ -10585,3 +10585,16 @@ samlade manuella importfilen. Den innehåller 543 `msgid`-poster inklusive
 PO-huvudet, alltså 542 översättningsposter. Den är lokalt kontrollerad och
 ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
 Translate är inte verifierad här.
+
+## Batch 1 137 — 3D-vyport
+
+Batch 1 137 skiljer den namngivna Blender-redigeraren *3D Viewport* från
+generisk *viewport*. Den förra normaliseras till *3D-vyport*, medan den
+generiska formen *visningsområde* lämnas orörd. Detta rättar blandade former
+som *3D-visningsområde*, *3D-visningsvy* och *3D-visningsfönster*.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1137.po` är den senaste
+samlade manuella importfilen. Den innehåller 556 `msgid`-poster inklusive
+PO-huvudet, alltså 555 översättningsposter. Den är lokalt kontrollerad och
+ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
+Translate är inte verifierad här.
