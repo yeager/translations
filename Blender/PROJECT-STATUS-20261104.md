@@ -10638,3 +10638,16 @@ samlade manuella importfilen. Den innehåller 577 `msgid`-poster inklusive
 PO-huvudet, alltså 576 unika översättningsposter. Den är lokalt kontrollerad
 och ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
 Translate är inte verifierad här.
+
+## Batch 1 141 — Provtagningsnoder och penslar
+
+Batch 1 141 använder *provta* i en penselbeskrivning, miljötexturens
+shadermodul, Dyntopos detaljprovtagning och en UV-texturhjälptext. Det följer
+den etablerade termen för noder och interaktiva bild-/penselverktyg utan att
+förändra renderarens tekniska sampling.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1141.po` är den senaste
+samlade manuella importfilen. Den innehåller 581 `msgid`-poster inklusive
+PO-huvudet, alltså 580 unika översättningsposter. Den är lokalt kontrollerad
+och ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
+Translate är inte verifierad här.
