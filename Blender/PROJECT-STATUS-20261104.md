@@ -236,6 +236,13 @@ Blender-datatypen *mesh* och normaliserar bland annat *källmeshen* och
 *indatameshen*. Deltafilen är lokalt kontrollerad och ännu inte importerad i
 Blender Translate.
 
+Batch 955 granskar fjorton ytterligare Geometry Nodes-poster för booleska
+operationer, punktfördelning, dualmesh, extrudering, underindelning,
+volymrutnät och triangulering. Den ersätter den generiska formen *nät* med
+Blenders datatyp *mesh* och använder rätt böjning, till exempel *meshen* och
+*meshar*. Deltafilen är lokalt kontrollerad och ännu inte importerad i
+Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
