@@ -102,6 +102,7 @@ Senast uppdaterad: 2026-11-08.
 | application template | applikationsmall | Etablerad i den svenska manualen och i startskärmens dokumentation. |
 | user preferences | användarinställningar | Gäller konfigurationsfil, inställningar och kommandoradsflaggor i manualen. UI-rubriken *Preferences* följer sin egen kontext. |
 | extension repository | tilläggsförråd | Manualens etablerade term för Blenders paketkälla. Använd *fjärrförråd*, *användarförråd* och *systemförråd* när attributet är betydelsebärande. Behåll kommandon som `repo-info` exakt. |
+| repository module | förrådsmodul | Moduldelen av Blender Extensions identifierare `{repository_module}.{package_id}`. Använd inte den missvisande formen *förvarsmodul*. |
 | online asset repository | resursförråd på nätet | Nätbaserad källa för resurser. Skilj från *resursbibliotek*, som är den konfigurerade biblioteksplatsen i Blender. |
 | Allow Online Access | Tillåt nätåtkomst | Etiketten i den aktuella UI-katalogen. Varianten *Tillåt onlineåtkomst* finns i ett separat operator-sammanhang; normalisera inte den utan att kontrollera kontexten. |
 | timeout | tidsgräns | Exempel: *Animation Timeout* → *Animationstidsgräns*. |
