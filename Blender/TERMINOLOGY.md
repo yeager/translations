@@ -784,6 +784,7 @@ Senast uppdaterad: 2026-11-08.
 | Blender operator | operatör | Blenders API-åtgärdstyp (`bpy.types.Operator`). Använd inte engelska *operator* i svenskt UI; skilj från matematiska operatorer. |
 | modal keymap | modal tangentmappning | Tangentmappning som tolkar händelser medan en Blender-operatör är aktiv. |
 | key configuration / KeyConfig | tangentkonfiguration | Samling av Blender-tangentmappningar. API-namnet *KeyConfig* översätts i synlig UI-text; plural blir *tangentkonfigurationer*. |
+| undo step | ångringssteg | Ett återställningsbart steg i Blenders ångrahistorik. Skriv ihop även i plural: *ångringssteg*. |
 | tile (UDIM/image) | platta | Bild- eller UDIM-platta; inte kakel. |
 | Multi-View / views format | flera vyer / vyformat | Bildinställningar för parallella vyer, exempelvis stereo. Behåll inte engelska *Multi-View* i en svensk UI-etikett. |
 | Stereo 3D | stereoskopisk 3D | Väljs som vyformat för stereobilder och stereovideo. |
