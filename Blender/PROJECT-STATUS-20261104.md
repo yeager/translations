@@ -9699,3 +9699,9 @@ Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
 passerade. De två kvarvarande `l10n-lint`-varningarna är falska positiva: den
 engelska exempelmarkören `eg:` blir idiomatiskt svenska `t.ex.` i båda
 filnamnstexterna.
+
+## Releasefärskhet
+
+Kontrollerad 8 november 2026 mot Blenders officiella releasesida:
+**Blender 5.2 LTS** uppdaterades till **5.2.3** den 22 oktober 2026. Projektet
+uppfyller därmed kravet på en aktuell release inom 48 månader.
