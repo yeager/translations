@@ -45,6 +45,7 @@ Senast uppdaterad: 2026-11-08.
 | Grease Pencil 2D Layers / 3D Location | 2D-lager / 3D-position | Visningslägen som styr streckens djupordning. Använd *lager* i UI-kontext, och *3D-position* när det är den faktiska placeringen i 3D-rymden som avses. |
 | Bake Location (motion paths) | beräkningsposition | Valet av benhuvud eller benspets när rörelsebanor beräknas. |
 | scope name | scope-namn | Behåll den tekniska källtermen i GPU-felsökningens fångstalternativ. Det är namnet som skickas till `--debug-gpu-scope-capture`, inte Blenders bildanalysvy *Scopes*. |
+| Scopes / Scope panel | omfång / omfångspanel | Bild- och filmklippsredigerarnas statistiska visning med histogram, vågform och vektorskop. Skilj från GPU-felsökningens `scope name` och skriv inte *Scope-panel* i svensk UI-text. |
 | Resolution Scale | upplösningsskala | Etablerad UI-term för skalan av teckensnitt och knappar vid visning. |
 | File Browser | filbläddrare | UI-beteckning för den editor som öppnar och sparar filer. Anpassa bestämd form i löpande text. |
 | file handler | filhanterare | RNA-typ och utbyggnadspunkt som registrerar import-, export- och släpphantering för filer. Översätt inte till *handtag*. |
