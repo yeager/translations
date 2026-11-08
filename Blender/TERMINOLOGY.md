@@ -35,6 +35,7 @@ Senast uppdaterad: 2026-11-08.
 | object space | objektrymd | Objektets lokala koordinatrymd, bland annat för bildprojektion och normalmappning. Använd inte *objektrum*. |
 | orthographic / perspective view | ortografisk / perspektivisk vy | Statusetiketter för 3D-vyn skrivs med riktning, till exempel *Ortografisk vy framifrån* och *Perspektivisk vy från höger*. *Camera Perspective* är det etablerade substantivet *kameraperspektiv*. |
 | cache layer | cachelager | Lager i en Blender-cachefil. Skriv ihop, utan bindestreck. |
+| cached | cachelagrad | Använd participformen i status och hjälptexter, exempelvis *cachelagrade scendata* och *Havet är cachelagrat*. Undvik anglicismen *cachad*. |
 | prefetch | förhandsladdning | Läser in cache- eller animationsdata i förväg för snabbare uppdateringar. |
 | Cycles Procedural cache | Cycles Procedural-cachen | Särskild cache för Cycles procedurbaserade inläsning. |
 | Cycles / EEVEE | Cycles / EEVEE | Blenders egna renderare är produktnamn och lämnas oförändrade; sammansättningar skrivs exempelvis *Cycles-kurvor*. |
