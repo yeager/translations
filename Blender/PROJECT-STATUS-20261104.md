@@ -10301,3 +10301,20 @@ strängar. Den är lokalt validerad med `msgfmt`, `l10n-lint`, `svlang
 consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks, arkiverad
 och pushad till `yeager/translations`. Den manuella importen i Blender
 Translate är fortfarande inte verifierad här.
+
+## Batch 1 117–1 118 — koordinatrymd i data och rutnätsvolymer
+
+Batch 1 117 granskar tolv data- och hjälptexter för koordinatrymder i
+partiklar, drivrutiner, Grease Pencil, shadernoder och hårnycklar. Batch
+1 118 tar de fyra återstående, kontextkontrollerade formerna i tangent- och
+OpenVDB-rutnätsvolymer. Termerna är nu *koordinatrymd*, *tangentrymd*,
+*objektrymd* och *rutnätsindexrymd*, inte de otydliga formerna med
+*utrymme* eller *rum*.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1118.po` är den
+senaste samlade importfilen med 441 unika översättningsposter (442 med
+PO-huvudet). Den är klart mindre än 1 000 strängar och har passerat
+`msgfmt`, `l10n-lint`, `svlang consistency`, riktad Hunspell-kontroll,
+diffkontroll och Gitleaks. Den är arkiverad och pushad till
+`yeager/translations`; manuell import i Blender Translate är ännu inte
+verifierad här.
