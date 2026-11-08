@@ -779,8 +779,10 @@ Senast uppdaterad: 2026-11-08.
 | stateful/stateless solver | tillståndsbaserad/tillståndslös lösare | Avser om lösaren bevarar tillstånd mellan steg. |
 | lossy/lossless compression | komprimering med/utan förlust | Kodnings- och formatbeskrivning, inte *förlorad/förlustfri* blandat. |
 | float image values | flyttalsbildvärden | Använd *flyttal*, inte engelska *float*, i förklarande UI-text. |
-| keymap | tangentmappning | Blenders konfiguration som kopplar tangent- och musinmatning till operatorer. |
+| keymap | tangentmappning | Blenders konfiguration som kopplar tangent- och musinmatning till operatörer. |
 | keymap item | tangentmappningspost | En enskild post i en tangentmappning. |
+| Blender operator | operatör | Blenders API-åtgärdstyp (`bpy.types.Operator`). Använd inte engelska *operator* i svenskt UI; skilj från matematiska operatorer. |
+| modal keymap | modal tangentmappning | Tangentmappning som tolkar händelser medan en Blender-operatör är aktiv. |
 | key configuration / KeyConfig | tangentkonfiguration | Samling av Blender-tangentmappningar. API-namnet *KeyConfig* översätts i synlig UI-text; plural blir *tangentkonfigurationer*. |
 | tile (UDIM/image) | platta | Bild- eller UDIM-platta; inte kakel. |
 | Multi-View / views format | flera vyer / vyformat | Bildinställningar för parallella vyer, exempelvis stereo. Behåll inte engelska *Multi-View* i en svensk UI-etikett. |
