@@ -500,6 +500,7 @@ Senast uppdaterad: 2026-11-08.
 | UDIM tile | UDIM-platta | En platta i en UDIM-bildtextur. |
 | float buffer | flyttalsbuffert | Bildbuffert som lagrar värden som flyttal. |
 | library override | biblioteksåsidosättning | Lokal åsidosättning av länkat biblioteksmaterial. |
+| ID Library Override Property | egenskap för ID-biblioteksåsidosättning | RNA-typen för en egenskap som hör till en ID-biblioteksåsidosättning. Skriv inte *åsidosättningsegenskap för ID-bibliotek*, eftersom den ordföljden ändrar relationen mellan leden. |
 | override data | åsidosättningsdata | Data för en Library Override; använd inte den äldre formen *överskrivningsdata*. |
 | system override | systemåsidosättning | Systemskapad Library Override i Outlinern. |
 | material override | materialåsidosättning | View Layer-egenskap som ersätter andra material vid rendering. Skilj från en vanlig filöverskrivning. |
