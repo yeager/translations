@@ -138,6 +138,7 @@ Senast uppdaterad: 2026-11-08.
 | rest pose | viloposition | Använd i armaturtext och UI-kommandon. Bevara RST-termmål som `<rest pose>`; använd inte den otydliga formen *vilopose*. |
 | Blender unit | Blender-enhet | Blenders egna måttenhet i egenskaper och beräkningsfel. Böj som *Blender-enheter*; översätt inte till den missvisande formen *rymd(enhet)*. |
 | constraint | begränsning | Blender-funktionen som styr eller begränsar ett objekts eller bens transformation. I sammansättningar: *rotationsbegränsning*, *skalbegränsning*. |
+| inverse correction (constraint) | inverskorrigering | Korrigering som bevarar relationen till ett mål i Child Of- och Object Solver-begränsningar. Operatörerna använder formerna *Rensa invers* och *Ange inverskorrigering*. |
 | Maintain Volume Constraint | volymbevarande begränsning | Begränsning som kompenserar skalning längs de två icke-fria axlarna för att bevara objektets eller benets volym. Använd *fri axel*, *icke-fria axlar* och *viloposition*. |
 | Copy Location / Copy Location Constraint | Kopiera position / Kopiera position-begränsning | Constraint som kopierar ett måls position. Använd *position*, inte den vardagliga och i 3D-kontexten tvetydiga formen *plats*. |
 | Copy Rotation / Copy Rotation Constraint | Kopiera rotation / Kopiera rotation-begränsning | Constraint som kopierar ett måls rotation. Behåll *Euler* och axelordningen (`XYZ`, `XZY` osv.) i de tekniska rotationslägena. |
