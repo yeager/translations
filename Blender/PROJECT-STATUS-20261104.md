@@ -10122,10 +10122,11 @@ F-Modifier till *F-kurvmodifierare* i graf- och NLA-redigeraren. Batch 1 085
 normaliserar två återstående formuleringar till *i stället för*. Batch 1 086
 anger uttryckligen *Action-slot* i de tre återstående animationsrader där
 kontexten avser datatypen, utan att ändra den delade, generella etiketten
-*Slot*.
+*Slot*. Batch 1 087 ersätter den återstående API-formen *Channelbag* i
+verktygstipset med den projektspecifika termen *kanalbehållare*.
 
-`blender-ui-sv-reviewed-20261108-pending-batches-1055-1086.po` samlar batch
-1 055–1 086 i en separat importfil med 166 översättningsposter (167 med
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1087.po` samlar batch
+1 055–1 087 i en separat importfil med 166 översättningsposter (167 med
 PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
 `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
 Den är lokalt validerad och väntar på manuell import i Blender Translate.
@@ -10133,4 +10134,4 @@ Den är lokalt validerad och väntar på manuell import i Blender Translate.
 Den 8 november 2026 visade användarens importresultat 351 bearbetade poster,
 39 överhoppade och 312 uppdaterade. Skärmbilden anger inte entydigt vilken
 lokal importfil som användes, så den kan inte användas som bevis för att den
-senaste samlingsfilen 1 055–1 086 är importerad.
+senaste samlingsfilen 1 055–1 087 är importerad.
