@@ -914,6 +914,7 @@ Senast uppdaterad: 2026-11-08.
 | motion path | rörelsebana | Visar ett bens eller objekts position över animeringens bildrutor. |
 | Dope Sheet | Dopeblad | Blenderredigerare för tidpunkter, nyckelbildrutor och animationskanaler. |
 | Video Sequencer | videosekvensredigerare | Blenderredigerare för videoremsor, ljud och övergångar. |
+| slip (Video Sequence Editor) | innehållsförskjutning | Förskjuter innehållet inuti en remsa utan att flytta remsan på tidslinjen. |
 | asset representation | tillgångsrepresentation | API-objekt som gör det möjligt för tillgångssystemet att hantera en entitet som en tillgång. |
 | asset weak reference | svag tillgångsreferens | Referens som inte nödvändigtvis håller tillgången vid liv. |
 | normal space | normalrymd | Koordinatrymd för normaler vid exempelvis bakning. |
