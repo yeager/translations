@@ -8929,3 +8929,15 @@ granskad, men ännu inte verifierad som importerad i Blender Translate.
 manuella deltafilen för batch 957–989. Den innehåller 252
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 990 — Meshobjekt i objektläget
+
+Batch 990 granskar tio UI- och felsträngar för 3D-vyn och objektläget. Den
+normaliserar den konkreta Blender-objekttypen till *meshobjekt* och använder
+*meshen* där själva geometridatatypen avses. Batchen är lokalt granskad, men
+ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-957-990.po` är den samlade
+manuella deltafilen för batch 957–990. Den innehåller 262
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
