@@ -288,11 +288,10 @@ behåller typnamnet *Mesh* för ID-kontexten och använder sammansättningen
 innehåller 46 poster och är lokalt kontrollerad men ännu inte importerad i
 Blender Translate.
 
-Batch 964 granskar tre inmatnings- och F-kurvemeddelanden. Den rättar en
-felaktigt återanvänd feltext för `Tilde Action` till rätt tangentbeskrivning
-och gör slutpunktsanvändningen konsekvent med källsträngarna. Samlingsfilen
-för batch 957–964 innehåller 49 poster och är lokalt kontrollerad men ännu
-inte importerad i Blender Translate.
+Batch 964 granskar tre inmatnings- och F-kurvemeddelanden. Den normaliserar
+citattecken för `Tilde Action` och gör slutpunktsanvändningen konsekvent med
+källsträngarna. Samlingsfilen för batch 957–964 innehåller 49 poster och är
+lokalt kontrollerad men ännu inte importerad i Blender Translate.
 
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
