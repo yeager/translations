@@ -417,6 +417,7 @@ Senast uppdaterad: 2026-11-08.
 | transform | transformation | Avser objektets position, rotation och skala i Constraint- och Action-kontext. Undvik den bredare formen *omvandling* i dessa etiketter. |
 | Damped Track / Damped Track Constraint | Dämpad spårning / Dämpad spårning-begränsning | Begränsning som riktar en lokal axel mot målet med kortast möjliga rotation. Det är inte en järnvägsspårvidd. |
 | Follow Path / Follow Path Constraint | Följ bana / Följ bana-begränsning | Constraint som låser rörelsen till en målkurva. *Heading and banking* blir *riktning och krängning*; *banking* är rotation kring rörelseriktningen, inte en lutning. |
+| In Front (Grease Pencil) | Framför | Återanvänd den synliga, lokaliserade objektetiketten även när den nämns i en Grease Pencil-hjälptext. Behåll inte den engelska formen i citat. |
 | Track Axis | riktningsaxel | Den lokala axel som pekar mot målet i Blenders spårningsbegränsningar. |
 | Track To | Rikta mot | Synlig Constraint-etikett för att orientera objektet mot ett mål. Skilj från film- och rörelsespårning. |
 | Follow Track | Följ spår | Synlig Constraint-etikett som låser ett objekt till ett filmspår. Skilj från *Track To*, som styr objektets orientering. |

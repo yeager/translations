@@ -10410,3 +10410,17 @@ alltså 465 översättningsposter och klart under Blenders gräns på 1 000
 strängar per manuell import. Den är lokalt validerad med `msgfmt`,
 `l10n-lint`, `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och
 Gitleaks. Den är ännu inte manuellt importerad eller upstream-verifierad.
+
+## Batch 1 124 — Grease Pencil och begränsningar
+
+Batch 1 124 lokaliserar två engelska Blendernamn som hade lämnats kvar i
+svensk synlig text. Grease Pencil-hjälptexten återanvänder den svenska
+objektetiketten *Framför*, i stället för att citera *In Front*. Det generella
+felmeddelandet för Follow Path följer den etablerade Blenderformen *Följ
+bana-begränsning*.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1124.po` är den senaste
+samlade importfilen. Den innehåller 468 `msgid`-poster inklusive PO-huvudet,
+alltså 467 översättningsposter och klart under Blenders gräns på 1 000
+strängar per manuell import. Den väntar på lokal validering, arkivering och
+manuell import.
