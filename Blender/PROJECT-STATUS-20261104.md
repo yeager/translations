@@ -10713,3 +10713,10 @@ källsträng förekommer i flera delbatcher. Filen innehåller 1 586 `msgid`-
 poster inklusive PO-huvudet, alltså 1 585 unika översättningsposter. Den är
 avsedd som en komplett lokal översikt över periodens ändringar, inte som en
 enda Blender Translate-uppladdning eftersom den överskrider 1 000 strängar.
+
+För manuell import finns samma perioddelta delat utan överlappning i
+`blender-ui-sv-reviewed-20261108-changes-last24h-part-1.po` med 800
+översättningsposter och
+`blender-ui-sv-reviewed-20261108-changes-last24h-part-2.po` med 784
+översättningsposter. Båda filerna ligger under uppladdningsgränsen; deras
+importstatus på Blender Translate är inte verifierad här.
