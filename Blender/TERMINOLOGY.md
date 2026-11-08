@@ -115,6 +115,7 @@ Senast uppdaterad: 2026-11-08.
 | repository module | förrådsmodul | Moduldelen av Blender Extensions identifierare `{repository_module}.{package_id}`. Använd inte den missvisande formen *förvarsmodul*. |
 | online asset repository | resursförråd på nätet | Nätbaserad källa för resurser. Skilj från *resursbibliotek*, som är den konfigurerade biblioteksplatsen i Blender. |
 | Allow Online Access | Tillåt nätåtkomst | Etiketten i den aktuella UI-katalogen. Varianten *Tillåt onlineåtkomst* finns i ett separat operator-sammanhang; normalisera inte den utan att kontrollera kontexten. |
+| Extensions Platform | tilläggsplattform | Blenders UI-namn för plattformen som distribuerar tillägg. Behåll det etablerade produktnamnet *Blender Extensions* när hela namnet visas. |
 | timeout | tidsgräns | Exempel: *Animation Timeout* → *Animationstidsgräns*. |
 | Link | Länk | Importmetodens UI-etikett. Använd verbet *länka* i löpande instruktioner, exempelvis *Länka resursen*. |
 | Append | Lägg till | UI-operator och importmetod. I beskrivande text blir det participiala *tillagd*, exempelvis *tillagd kopia*. |
