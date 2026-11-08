@@ -218,6 +218,18 @@ Grease Pencil, skulptering, partikelpenslar och resursreferenser. De äldre
 formerna *borste* och *borstar* används inte för dessa verktyg. Deltafilen är
 lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 952 granskar tolv Geometry Nodes- och modifierarposter. Den använder
+*provta* i stället för det engelskpåverkade *sampla*, behåller den formella
+Blender-datatypen *mesh*, normaliserar *modifierarstack* och rättar den
+felaktiga formen *Tillämpade modifierare* till *Tillämpad modifierare*.
+Deltafilen är lokalt kontrollerad och ännu inte importerad i Blender
+Translate.
+
+Batch 953 granskar elva synliga Asset Browser- och tilläggstexter. Den
+använder *resurser* i resursbläddrarens kontext samt *på nätet* och
+*nätåtkomst* i stället för engelskpåverkade former med *online*. Deltafilen
+är lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
