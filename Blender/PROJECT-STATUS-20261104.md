@@ -9525,3 +9525,17 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1036.po är den samlade
 manuella deltafilen för batch 957–1 036. Den innehåller 741
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 037 — Action-slotar och animationsdata
+
+Batch 1 037 granskar tio tekniska texter för Blenders formella datatyp
+*Action*, dess *Action-slotar* och tillhörande animationsdata. Den skiljer
+dem från vanliga åtgärder i gränssnittet och använder bland annat
+*Action-slotten*, *Actionen* och *Actioner* där API- och datatypkontexten
+kräver det. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1037.po är den samlade
+manuella deltafilen för batch 957–1 037. Den innehåller 751
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
