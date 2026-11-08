@@ -9720,6 +9720,19 @@ manuella deltafilen för batch 957–1 051. Den innehåller 917
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
 
+## Batch 1 052 — Actioner i UI och Rigify
+
+Batch 1 052 granskar 17 synliga Action-texter i NLA-temat, glTF-exporten,
+Pose Library, Rigify och Dope Sheet. Den gör den formella datatypen
+konsekvent i både etiketter och felmeddelanden: *Action*, *Actioner* och
+*Action-slotar*. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1052.po är den samlade
+manuella deltafilen för batch 957–1 052. Den innehåller 934
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
+
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
 `svlang`, `l10n-lint`, Hunspell och diffkontroll. `msgfmt` och `svlang`
 passerade. De två kvarvarande `l10n-lint`-varningarna är falska positiva: den

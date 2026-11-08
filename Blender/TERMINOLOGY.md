@@ -845,6 +845,7 @@ Senast uppdaterad: 2026-11-07.
 | Action storage | Action-lagring | Tillfällig eller beständig lagring av en Action i animationsdatatypen. |
 | Action Constraint | Action-begränsning | Begränsning som utvärderar en Action för ett objekt eller ben. |
 | Action Clip | Action-klipp | NLA-remsa som refererar till en Action. |
+| Action Clip Strip | Action-klippsremsa | NLA-remsa med en Action som klipp. |
 | layered Action | skiktad Action | Nyare Action-struktur med lager och Action-slotar. |
 | legacy Action | äldre Action | Äldre Action-struktur utan lager och Action-slotar. |
 | animation channel bag | animationskanalbehållare | API-objekt som samlar F-kurvor och grupper för en Action-slot. |
