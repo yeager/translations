@@ -349,6 +349,12 @@ dragning och val av resursbibliotek. Den ersätter inkonsekvent *tillgång* med
 957–973 innehåller 128 poster och är lokalt kontrollerad men ännu inte
 importerad i Blender Translate.
 
+Batch 974 granskar tio modifierar- och meshegenskaper. Den använder Blenders
+formella typnamn *Mesh* och de svenska böjningarna *meshen*, *meshens* och
+*meshobjekt*, i stället för det tvetydiga *nät*. Samlingsfilen för batch
+957–974 innehåller 138 poster och är lokalt kontrollerad men ännu inte
+importerad i Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
