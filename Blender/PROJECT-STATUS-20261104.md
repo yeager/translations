@@ -8830,3 +8830,16 @@ Translate.
 manuella deltafilen för batch 957–981. Den innehåller 177
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 982 — Multires och Quadriflow
+
+Batch 982 granskar tolv beskrivningar för Multires och
+Quadriflow-ommeshning. Den normaliserar *mesh*, *basmesh*, *utmesh* och
+*meshnormaler* i den tekniska verktygskontexten, men behåller Quadriflow som
+funktionsnamn. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-957-982.po` är den samlade
+manuella deltafilen för batch 957–982. Den innehåller 189
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
