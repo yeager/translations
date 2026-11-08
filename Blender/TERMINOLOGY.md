@@ -52,7 +52,7 @@ Senast uppdaterad: 2026-11-08.
 | File Handler Type | filhanterartyp | UI-etikett för typen av filhanterare. |
 | Maximize Area | Maximera område | Operatörsnamn. *Område* avser här ett Blender-area, inte ett skärmområde i allmän mening. |
 | 3D Viewport | 3D-vyport | Etablerad UI- och manualterm. |
-| 3D View | 3D-vy | Förklaringstext för den synliga Blender-vyn; böj som *3D-vyns* i sammansatta led. |
+| 3D View | 3D-vy | Förklaringstext för den synliga Blender-vyn; böj som *3D-vyns* i sammansatta led. I tangentmappningsnamnet *3D View Tool* används *3D-vyverktyg*. |
 | Console | konsol | Blenders inbyggda Python-konsol. RNA-beskrivningen *Space Console* använder formen *konsolens område*; `prompt` blir *kommandoprompt*. |
 | Space [editor] / editor space data | [redigerarens] område / områdesdata | Rör Blenders interna RNA-område, inte ett fysiskt utrymme eller en arbetsyta. Exempel: *Space Graph Editor* → *Grafredigerarens område*. |
 | Image Editor | bildredigerare | Redigeraren för bilder, UV-kartor, maskning och bildmålning. RNA-beskrivningen *Space Image Editor* använder formen *bildredigerarens område*. |
