@@ -10531,3 +10531,14 @@ samlade importfilen. Den innehåller 537 `msgid`-poster inklusive PO-huvudet,
 alltså 536 översättningsposter och klart under Blenders gräns på 1 000
 strängar per manuell import. Den väntar på lokal validering, arkivering och
 manuell import.
+
+## Lokal kvalitetssvepning — effektiv katalog efter batch 1 132
+
+Den sammanslagna lokala katalogen omfattar 40 429 översättningsposter och har
+0 oöversatta samt 0 fuzzy-poster enligt `msgattrib`. Skillnaden mot den
+senaste lokala Blender-exportens 40 427 översatta poster beror på att två
+senare källsträngar förekommer i tidigare granskade deltafiler; den säger
+inte att de är importerade på servern. `msgfmt`, l10n-lint, svlang och
+Hunspell har körts på aktuella deltabatcher. L10n-lints kvarvarande
+informationsposter avser format-/produktnamn och metadata, inte konstaterade
+oöversatta svenska UI-texter.
