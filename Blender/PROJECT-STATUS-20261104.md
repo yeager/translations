@@ -9653,3 +9653,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1046.po är den samlade
 manuella deltafilen för batch 957–1 046. Den innehåller 868
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 047 — Actionredigeraren
+
+Batch 1 047 granskar fem inställningar och beskrivningar kring
+Actionredigeraren, Action-markörer och kopplade datablock. Den skiljer den
+formella *Action*-typen från en vanlig åtgärd och använder bland annat
+*Actionen*, *Actioner* och *Actionredigeraren*. Batchen är lokalt granskad,
+men ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1047.po är den samlade
+manuella deltafilen för batch 957–1 047. Den innehåller 873
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
