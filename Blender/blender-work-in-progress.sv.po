@@ -48246,7 +48246,6 @@ msgid "Workspace"
 msgstr "Arbetsyta"
 
 #. :src: bpy.types.WorkSpace
-#, fuzzy
 msgid "Workspace data-block, defining the working environment for the user"
 msgstr "Arbetsytedatablock som definierar användarens arbetsmiljö"
 
@@ -48256,7 +48255,6 @@ msgid "Active Add-on"
 msgstr "Aktivt tillägg"
 
 #. :src: bpy.types.WorkSpace.active_addon
-#, fuzzy
 msgid "Active Add-on in the Workspace Add-ons filter"
 msgstr "Aktivt tillägg i filtret Tillägg i arbetsytan"
 
@@ -48266,7 +48264,6 @@ msgid "Active asset library to show in the UI, not used by the Asset Browser (wh
 msgstr "Aktivt resursbibliotek som ska visas i användargränssnittet, används inte av resursbläddraren (som har sitt eget aktiva resursbibliotek)"
 
 #. :src: bpy.types.WorkSpace.object_mode
-#, fuzzy
 msgid "Switch to this object mode when activating the workspace"
 msgstr "Växla till detta objektläge när du aktiverar arbetsytan"
 
@@ -48303,7 +48300,6 @@ msgid "UI Tags"
 msgstr "UI-taggar"
 
 #. :src: bpy.types.WorkSpace.screens
-#, fuzzy
 msgid "Screen layouts of a workspace"
 msgstr "En arbetsytas skärmlayouter"
 
@@ -48318,12 +48314,10 @@ msgid "Filter the UI by tags"
 msgstr "Filtrera användargränssnittet efter taggar"
 
 #. :src: bpy.types.WorkSpace.use_pin_scene
-#, fuzzy
 msgid "Pin Scene"
 msgstr "Fäst scen"
 
 #. :src: bpy.types.WorkSpace.use_pin_scene
-#, fuzzy
 msgid "Remember the last used scene for the workspace and switch to it whenever this workspace is activated again"
 msgstr "Kom ihåg den senast använda scenen för arbetsytan och byt till den när arbetsytan aktiveras igen"
 
@@ -48436,27 +48430,22 @@ msgid "ID Materials"
 msgstr "ID-material"
 
 #. :src: bpy.types.IDOverrideLibrary
-#, fuzzy
 msgid "ID Library Override"
 msgstr "ID-biblioteksåsidosättning"
 
 #. :src: bpy.types.IDOverrideLibrary
-#, fuzzy
 msgid "Struct gathering all data needed by overridden linked IDs"
 msgstr "Struktur som samlar alla data som behövs för åsidosatta länkade ID:n"
 
 #. :src: bpy.types.IDOverrideLibrary.hierarchy_root
-#, fuzzy
 msgid "Hierarchy Root ID"
 msgstr "Hierarkirot-ID"
 
 #. :src: bpy.types.IDOverrideLibrary.hierarchy_root
-#, fuzzy
 msgid "Library override ID used as root of the override hierarchy this ID is a member of"
-msgstr "Bibliotekets åsidosättande-ID används som rot i den åsidosättningshierarki som detta ID är medlem i"
+msgstr "ID för biblioteksåsidosättning som används som rot i den åsidosättningshierarki som detta ID ingår i"
 
 #. :src: bpy.types.IDOverrideLibrary.is_in_hierarchy
-#, fuzzy
 msgid "Is In Hierarchy"
 msgstr "Ingår i hierarki"
 
@@ -48466,7 +48455,6 @@ msgid "Whether this library override is defined as part of a library hierarchy, 
 msgstr "Om detta biblioteksundantag definieras som en del av en bibliotekshierarki eller som ett enskilt, isolerat och självständigt undantag"
 
 #. :src: bpy.types.IDOverrideLibrary.is_system_override
-#, fuzzy
 msgid "Is System Override"
 msgstr "Är systemåsidosättning"
 
@@ -48484,12 +48472,10 @@ msgid "Reference ID"
 msgstr "Referens-ID"
 
 #. :src: bpy.types.IDOverrideLibrary.reference
-#, fuzzy
 msgid "Linked ID used as reference by this override"
 msgstr "Länkat ID som används som referens av denna åsidosättning"
 
 #. :src: bpy.types.IDOverrideLibraryProperties
-#, fuzzy
 msgid "Override Properties"
 msgstr "Åsidosättningsegenskaper"
 
@@ -48504,7 +48490,6 @@ msgid "ID Library Override Property"
 msgstr "Åsidosättande av egenskap för ID-bibliotek"
 
 #. :src: bpy.types.IDOverrideLibraryProperty
-#, fuzzy
 msgid "Description of an overridden property"
 msgstr "Beskrivning av en åsidosatt egenskap"
 
@@ -48598,9 +48583,8 @@ msgid "Operation"
 msgstr "Operation"
 
 #. :src: bpy.types.IDOverrideLibraryPropertyOperation.operation
-#, fuzzy
 msgid "What override operation is performed"
-msgstr "Vilken åsidosättningsoperation utförs"
+msgstr "Vilken åsidosättningsåtgärd som utförs"
 
 #. :src: bpy.types.IDOverrideLibraryPropertyOperation.operation:'NOOP'
 #, fuzzy
@@ -48613,9 +48597,8 @@ msgid "Does nothing, prevents adding actual overrides (NOT USED)"
 msgstr "Gör ingenting, förhindrar att faktiska åsidosättningar läggs till (ANVÄNDS INTE)"
 
 #. :src: bpy.types.IDOverrideLibraryPropertyOperation.operation:'REPLACE'
-#, fuzzy
 msgid "Replace value of reference by overriding one"
-msgstr "Ersätt referensens värde genom att åsidosätta ett"
+msgstr "Ersätt referensens värde med åsidosättningsvärdet"
 
 #. :src: bpy.types.IDOverrideLibraryPropertyOperation.operation:'DIFF_ADD'
 #. :src: bpy.types.IDOverrideLibraryPropertyOperation.operation:'DIFF_SUB'
@@ -48655,9 +48638,8 @@ msgid "Insert a new item into collection before the one referenced in subitem_re
 msgstr "Infoga ett nytt objekt i samlingen före det som refereras till i subitem_reference_name/_id eller _index (NOT USED)"
 
 #. :src: bpy.types.IDOverrideLibraryPropertyOperation.subitem_local_id
-#, fuzzy
 msgid "Subitem Local ID"
-msgstr "Underpunkt Lokal ID"
+msgstr "Lokalt ID för underobjekt"
 
 #. :src: bpy.types.IDOverrideLibraryPropertyOperation.subitem_local_id
 #. :src: bpy.types.IDOverrideLibraryPropertyOperation.subitem_reference_id
@@ -48666,9 +48648,8 @@ msgid "Collection of IDs only, used to disambiguate between potential IDs with s
 msgstr "Endast samling av ID:n, används för att särskilja potentiella ID:n med samma namn från olika bibliotek"
 
 #. :src: bpy.types.IDOverrideLibraryPropertyOperation.subitem_local_index
-#, fuzzy
 msgid "Subitem Local Index"
-msgstr "Underpunkt Lokal Index"
+msgstr "Lokalt index för underobjekt"
 
 #. :src: bpy.types.IDOverrideLibraryPropertyOperation.subitem_local_index
 #. :src: bpy.types.IDOverrideLibraryPropertyOperation.subitem_local_name

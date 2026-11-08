@@ -527,6 +527,7 @@ Senast uppdaterad: 2026-11-08.
 | ID Library Override Property | egenskap för ID-biblioteksåsidosättning | RNA-typen för en egenskap som hör till en ID-biblioteksåsidosättning. Skriv inte *åsidosättningsegenskap för ID-bibliotek*, eftersom den ordföljden ändrar relationen mellan leden. |
 | override data | åsidosättningsdata | Data för en Library Override; använd inte den äldre formen *överskrivningsdata*. |
 | system override | systemåsidosättning | Systemskapad Library Override i Outlinern. |
+| override operation | åsidosättningsåtgärd | Åtgärd som anger hur ett värde i en biblioteksåsidosättning skiljer sig från dess länkade referens. |
 | material override | materialåsidosättning | View Layer-egenskap som ersätter andra material vid rendering. Skilj från en vanlig filöverskrivning. |
 | override object | åsidosättningsobjekt | Objekt som styrs av en Blender-åsidosättning; använd med *bibliotekslänkat* när källan avser länkad biblioteksdata. |
 | override collection | åsidosätt samling | Operatörsegenskap som skapar en åsidosättning av den valda länkade samlingen. |
