@@ -17,6 +17,7 @@ Senast uppdaterad: 2026-11-08.
 | Header / Show Header | rubrik / Visa rubrik | Synlig Blender-region och dess menyåtgärd. Använd inte den felaktiga förkortningen *huvud*. |
 | Tool Header | verktygsrubrik | Blender-region som visar det aktiva verktygets inställningar. Skriv inte *verktygshuvud*. |
 | Toolbar | verktygsfält | Blender-region med verktygsikoner. Skilj från *verktygsrubrik*, som visar inställningar för det aktiva verktyget. |
+| Theme Space / Theme Space List | temaområde / lista över temaområden | Inställningarnas färgtema för ett Blender-redigerarområde, inte ett fysiskt utrymme. |
 | Sidebar | sidofält | Redigerarens sidoregion och dess flikar. Använd *sidofältsflik*; det generella *side-panel* kan vara *sidopanel* när det inte avser denna specifika Blender-region. |
 | fallback (WindowManager keymap) | reserv | Suffix för Blenders reservmappning av ett verktyg, exempelvis *kniv (reserv)*. Behåll inte engelska *fallback* i svenska tangentmappningsnamn. |
 | access token | åtkomsttoken | Skriv ihop. Förklarande rubriker får precisera typen: *biblioteksåtkomsttoken* respektive *förrådsåtkomsttoken*. |
