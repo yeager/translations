@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender UI\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. :src: bpy.types.ANIM_OT_separate_slots
+msgid "Move all slots of the action on the active object into newly created, separate actions. All users of those slots will be reassigned to the new actions. The current action won't be deleted but will be empty and might end up having zero users"
+msgstr "Flytta alla slotar i det aktiva objektets Action till nyskapade, separata Actioner. Alla användare av dessa slotar tilldelas de nya Actionerna. Den aktuella Actionen raderas inte, men blir tom och kan få noll användare"
+
+#. :src: bpy.types.ANIM_OT_version_bone_hide_property
+msgid "Moves any F-Curves for the `hide` property of selected armatures into the action of the object. This will only operate on the first layer and strip of the action"
+msgstr "Flyttar alla F-kurvor för egenskapen `hide` hos valda armaturer till objektets Action. Detta fungerar endast på Actionens första lager och remsa"
+
+#. :src: bpy.types.ActionSlot.enabled
+msgid "Create constraints for this action on the generated rig"
+msgstr "Skapa begränsningar för denna Action på den genererade riggen"
+
+#. :src: bpy.types.ActionSlot.frame_end
+msgid "Last frame of the action's timeline"
+msgstr "Sista bildrutan på Actionens tidslinje"
+
+#. :src: bpy.types.ActionSlot.frame_start
+msgid "First frame of the action's timeline"
+msgstr "Första bildrutan på Actionens tidslinje"
+
+#. :src: bpy.types.ActionSlot.is_corrective
+msgid "Indicate that this is a corrective action. Corrective actions will activate based on the activation of two other actions (using End Frame if both inputs are at their End Frame, and Start Frame if either is at Start Frame)"
+msgstr "Ange att detta är en korrigerande Action. Korrigerande Actioner aktiveras utifrån aktiveringen av två andra Actioner (med slutbildruta om båda indata är vid sin slutbildruta och med startbildruta om någon indata är vid sin startbildruta)"
+
+#. :src: bpy.types.ActionSlot.subtarget
+msgid "Select a bone on the generated rig which will drive this action"
+msgstr "Välj ett ben på den genererade riggen som ska styra denna Action"
+
+#. :src: bpy.types.ActionSlot.trans_max
+msgid "Value that the transformation value must reach to put the action's timeline to the last frame. Rotations are in degrees"
+msgstr "Värde som transformeringsvärdet måste nå för att Actionens tidslinje ska hamna på sista bildrutan. Rotationer anges i grader"
+
+#. :src: bpy.types.ActionSlot.trans_min
+msgid "Value that the transformation value must reach to put the action's timeline to the first frame. Rotations are in degrees"
+msgstr "Värde som transformeringsvärdet måste nå för att Actionens tidslinje ska hamna på första bildrutan. Rotationer anges i grader"
+
+#. :src: bpy.types.ToolSettings.use_proportional_action
+msgid "Proportional editing in action editor"
+msgstr "Proportionell redigering i Action-redigeraren"
+
+#. :src: bpy.types.ThemeNLAEditor.tweak
+msgid "Color for strip/action being \"tweaked\" or edited"
+msgstr "Färg för remsa/Action som finjusteras eller redigeras"
+
+#. :src: bpy.types.Scene.is_nla_tweakmode
+msgid "Whether there is any action referenced by NLA being edited (strictly read-only)"
+msgstr "Om en Action som refereras av NLA redigeras (strikt skrivskyddad)"
+
+#. :src: bpy.types.EXPORT_SCENE_OT_gltf.export_morph_reset_sk_data
+msgid "Reset shape keys between each action exported. This is needed when some SK channels are not keyed on some animations"
+msgstr "Återställ formnycklar mellan varje exporterad Action. Detta behövs när vissa SK-kanaler saknar nyckelbildrutor i vissa animationer"
+
+#. :src: bpy.types.NLA_OT_action_pushdown.track_index
+msgid "Index of NLA action track to perform pushdown operation on"
+msgstr "Index för NLA-Action-spåret som Actionen ska flyttas ned i"
+
+#. :src: bpy.types.ToolSettings.use_keyframe_cycle_aware
+msgid "For channels with cyclic extrapolation, keyframe insertion is automatically remapped inside the cycle time range, and keeps ends in sync. Curves newly added to actions with a Manual Frame Range and Cyclic Animation are automatically made cyclic."
+msgstr "För kanaler med cyklisk extrapolering ommappas insättning av nyckelbildrutor automatiskt inom cykelns tidsintervall och håller ändarna synkroniserade. Kurvor som läggs till i Actioner med manuellt bildruteintervall och cyklisk animering blir automatiskt cykliska."
