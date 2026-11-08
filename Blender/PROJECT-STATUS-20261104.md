@@ -9155,3 +9155,15 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1007.po är den samlade
 manuella deltafilen för batch 957–1 007. Den innehåller 423
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 008 — QuadriFlow och meshgränser
+
+Batch 1 008 granskar fyra QuadriFlow-texter för slumpfrön, ommeshning,
+meshsymmetri och meshgränser. Termbasen har utökats med *meshgräns* och
+*meshsymmetri*. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1008.po är den samlade
+manuella deltafilen för batch 957–1 008. Den innehåller 427
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.

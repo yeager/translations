@@ -169,6 +169,7 @@ Senast uppdaterad: 2026-11-07.
 | mesh cache / mesh filter / mesh plane | meshcache / meshfilter / meshplan | UI-namn och tekniska sammansättningar för Blenders meshtyp. Skriv ihop dem och ersätt inte *mesh* med *nät*. |
 | box mesh / cuboid mesh | kuboidmesh | Mesh som genereras som en låda eller kuboid i Geometry Nodes. Skriv sammansättningen ihop; använd inte *kuboidnät*. |
 | mesh seam / mesh island / mesh instance | meshsöm / meshö / meshinstans | Tekniska delar och instanser av Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätsöm*, *nätö* eller *nätinstans*. |
+| mesh boundary / mesh symmetry | meshgräns / meshsymmetri | Topologisk gräns och symmetriinställning för en Blender-mesh, bland annat i QuadriFlow. Skriv sammansättningarna ihop. |
 | mesh attribute / mesh normal | meshattribut / meshnormal | Tekniska data som hör till Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätattribut* eller *nätnormal*. |
 | mesh material | meshmaterial | Material som är kopplat till en Blender-mesh. Använd den etablerade sammansättningen, inte *nätmaterial*. |
 | mesh geometry / mesh detail / mesh element | meshgeometri / meshdetalj / meshelement | Geometri, detalj och valbart element som hör till Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätgeometri*, *nätdetalj* eller *nätelement*. |
