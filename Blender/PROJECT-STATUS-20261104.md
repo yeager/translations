@@ -10689,3 +10689,17 @@ samlade manuella importfilen. Den innehåller 606 `msgid`-poster inklusive
 PO-huvudet, alltså 605 unika översättningsposter. Den är lokalt kontrollerad
 och ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
 Translate är inte verifierad här.
+
+## Batch 1 145 — 3D-vyverktyg, del B
+
+Batch 1 145 avslutar det lokala svepet av den äldre formen
+*3D-visningsverktyg* i 26 tangentmappningsetiketter för markering,
+transformering, kurvredigering och skulptering. Samtliga använder nu
+*3D-vyverktyg*, och sökningen i den sammanslagna lokala katalogen hittar inga
+kvarvarande poster med den äldre formen.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1145.po` är den senaste
+samlade manuella importfilen. Den innehåller 632 `msgid`-poster inklusive
+PO-huvudet, alltså 631 unika översättningsposter. Den är lokalt kontrollerad
+och ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
+Translate är inte verifierad här.
