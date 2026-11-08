@@ -10740,3 +10740,22 @@ på `msgctxt`/`msgid`-nivå. Resultatet omfattar 8 490 äldre
 till `part-09-of-09.po`. Del 1–8 innehåller 1 000 poster vardera och del 9
 innehåller 490 poster. Filerna är lokalt kontrollerade men deras
 importstatus på Blender Translate är inte verifierad här.
+
+## Verifiering mot användarhämtad export den 8 november
+
+Användaren hämtade en ny Blender UI-export med filnamnet
+`blender-ui-ui-sv (5).po`; dess lokala tidsstämpel är 8 november 2026
+09:03:52. En skrivskyddad jämförelse mot de nio äldre deltadelarna och de
+två 24-timmarsdelarna gjordes lokalt med identiteten `msgctxt`/`msgid` och
+måltexten som jämförelsenyckel. De elva deltafilerna innehåller tillsammans
+10 074 unika poster. Av dem förekommer 9 742 med exakt samma svenska måltext
+i den hämtade exporten, 332 finns inte i exporten och ingen förekommande post
+har en avvikande måltext.
+
+Detta är verifierad förekomst i den användarhämtade exportfilen, inte ett
+verifierat Blender Translate-importresultat: det finns inget kopplat
+serverkvitto som anger vilken deltafil som importerades, antal uppdaterade
+eller eventuell granskningsstatus. De 332 saknade posterna behandlas därför
+som katalogskillnader tills en serverrapport eller en senare export ger mer
+precis evidens. Användarens rapporterade uppladdning och den lokala
+exportjämförelsen hålls därmed åtskilda.
