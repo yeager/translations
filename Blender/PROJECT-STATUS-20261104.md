@@ -9382,3 +9382,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1025.po är den samlade
 manuella deltafilen för batch 957–1 025. Den innehåller 613
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 026 — meshruntime och Geometry Nodes
+
+Batch 1 026 granskar tjugofyra interna fel- och statustexter för fysik,
+Alembic, USD och Geometry Nodes. Den använder bland annat *meshobjekt*,
+*meshredigeringsvisning*, *meshprov*, *meshtyp*, *basmesh*, *kubmesh* och
+*meshinstanser*. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1026.po är den samlade
+manuella deltafilen för batch 957–1 026. Den innehåller 637
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
