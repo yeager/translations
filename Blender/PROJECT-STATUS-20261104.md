@@ -2,6 +2,20 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 312 — Geometry Nodes: objektrymd i vyporttransformering
+
+Viewport Transform-noden transformerar punkter från *object space* till
+visningsrymden. Den vaga sammansättningen *objektutrymme* normaliseras till
+*objektrymd*. Texten för visnings- och regionrymder lämnas oförändrad tills
+dess egen specifika UI-kontext har granskats.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1312-object-space-viewport-transform.po`
+innehåller en ändrad post och har SHA-256
+`884fddea442ba519f2884c24244753497fdd3eebdd8d42ae789c099f859bb340`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 311 — OBJ-importens begränsningsbox
 
 Wavefront OBJ-importens `clamp_size` begränsar den importerade
