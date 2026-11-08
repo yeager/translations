@@ -9767,6 +9767,14 @@ hålls separat, så att den importklara samlingsfilen för batch 957–1 054 int
 överskrider 1 000 poster. Den är lokalt granskad men ännu inte verifierad som
 importerad i Blender Translate.
 
+## Batch 1 056 — resursbläddrarens åtgärder och fel
+
+Batch 1 056 granskar tolv synliga kommandon, hjälprader och felmeddelanden
+för Asset Browser. Den ersätter återstående kontextbundna former av
+*tillgång* med *resurs* och lämnar API-namn, filformat och kodidentiteter
+oförändrade. Batchen är lokalt granskad men ännu inte verifierad som
+importerad i Blender Translate.
+
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
 `svlang`, `l10n-lint`, Hunspell och diffkontroll. `msgfmt` och `svlang`
 passerade. De två kvarvarande `l10n-lint`-varningarna är falska positiva: den
