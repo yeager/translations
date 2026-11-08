@@ -8941,3 +8941,15 @@ normaliserar den konkreta Blender-objekttypen till *meshobjekt* och använder
 manuella deltafilen för batch 957–990. Den innehåller 262
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 991 — Meshredigering och dataöverföring
+
+Batch 991 granskar tio strängar för meshredigering, verktygsfält och
+dataöverföring. Den använder konsekvent *meshen*, *meshobjekt*, *källmesh*
+och *dukmesh* i deras respektive Blender-kontext. Batchen är lokalt granskad,
+men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-957-991.po` är den samlade
+manuella deltafilen för batch 957–991. Den innehåller 272
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
