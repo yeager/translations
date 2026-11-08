@@ -137,6 +137,7 @@ Senast uppdaterad: 2026-11-08.
 | source library | källbibliotek | Det bibliotek eller den blendfil som ett importerat datablock kommer från. |
 | Append Action | tilläggsåtgärd | API-egenskap som anger hur ett ID hanterades när data lades till. |
 | Array (modifier) | Upprepning | Modifieraren som skapar upprepade kopior. I dess hjälptexter används *upprepningen*, inte engelska *arrayen* eller den matematiska termen *matris*. |
+| Laplacian (deformation/smoothing) | laplacisk deformering / laplacisk utjämning | Använd det svenska matematiska adjektivet *laplacisk* i modifierar- och diagnostiktexter; behåll källidentifieraren `Laplacian` i kodnära innehåll. |
 | boid | boid | Etablerad simuleringsterm i Blenders flockningsfysik. Plural: *boider*. |
 | Boid Rule | boidregel | Regel som styr en boids mål, undvikande, flockning eller strid. |
 | banking | krängning | Rotation kring rörelseriktningen vid flygning eller sväng. |
