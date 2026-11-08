@@ -9640,3 +9640,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1045.po är den samlade
 manuella deltafilen för batch 957–1 045. Den innehåller 856
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 046 — export av Actioner
+
+Batch 1 046 granskar tolv FBX- och glTF-exportinställningar. *Action* avser
+här Blenders formella animationsdatatyp, så singularformen behålls som
+*Action* och pluralformen skrivs *Actioner*. Generella användaråtgärder har
+inte ändrats. Batchen är lokalt granskad, men ännu inte verifierad som
+importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1046.po är den samlade
+manuella deltafilen för batch 957–1 046. Den innehåller 868
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
