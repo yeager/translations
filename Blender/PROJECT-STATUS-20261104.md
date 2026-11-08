@@ -10579,3 +10579,9 @@ Batch 1 136 normaliserar RNA-typens sammansättning. *ID Library Override
 Property* är en egenskap hos en ID-biblioteksåsidosättning, inte en egenskap
 hos ett ID-bibliotek. Den svenska etiketten blir därför *Egenskap för
 ID-biblioteksåsidosättning*.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1136.po` är den senaste
+samlade manuella importfilen. Den innehåller 543 `msgid`-poster inklusive
+PO-huvudet, alltså 542 översättningsposter. Den är lokalt kontrollerad och
+ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
+Translate är inte verifierad här.
