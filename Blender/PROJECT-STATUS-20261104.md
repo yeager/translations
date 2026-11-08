@@ -10917,3 +10917,17 @@ De fyra felaktiga TM-posterna är rättade och pushade i `swedish-tm`-commit
 Ingen Weblate-import av batch 1 260 är verifierad. Den är lokalt färdig och
 redo för manuell import, men inte upstream-inskickad förrän importresultatet
 är bekräftat.
+
+## Batch 1 261 — Hair Nodes-hårinfästning
+
+Tre poster från nodgruppen *Attach Hair Curves to Surface* normaliserar
+`Snap` till den etablerade Blender-termen *fäst* och anger att den befintliga
+fästningen i denna nodkontext är en *hårinfästning*. Deltafilen
+`blender-ui-sv-reviewed-batch-1261-hair-attachment.po` innehåller tre poster
+och har SHA-256
+`2f8057c124c96568c29a9ae00f252adf545cb0f5069378db414abed496f30f90`.
+
+Alla kontroller passerade: `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
+diffkontroll och Gitleaks. Batchen är arkiverad och pushad i commit `a31ee460`.
+TM-ändringen är pushad i `swedish-tm`-commit `03fe674`. Ingen Weblate-import
+är verifierad; batchen är lokalt färdig och redo för manuell import.
