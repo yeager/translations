@@ -8482,3 +8482,20 @@ den separata manuella deltafilen med de femton rättningarna.
 manuella deltafilen för batch 811–943. Den innehåller 883
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 944 — Action i export och redigerare
+
+Batch 944 granskar femton strängar i FBX- och glTF-exportörerna samt
+Action- och Dopebladsredigerarnas lägen. Där *actions* är Blenders
+animationsdatatyp skrivs den konsekvent *Actioner*; *Action* behålls i
+benämningar på datatypen och dess funktioner. Tekniska namn som FBX,
+AnimStack, glTF och NLA lämnas avsiktligt oförändrade. Batchen är lokalt
+granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-944-action-export-and-editor.po` är
+den separata manuella deltafilen med de femton rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-944.po` är den samlade
+manuella deltafilen för batch 811–944. Den innehåller 898
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
