@@ -10992,6 +10992,12 @@ Deltafilen `blender-ui-sv-reviewed-batch-1266-compositor.po` innehåller en
 post och har SHA-256
 `b429f97931d2ba34d332de081cbb014a384971190099f5ed214b31f17f475280`.
 
+Samma dag normaliserades tre historiska Blender-segment i `swedish-tm` från
+*Kompositor* respektive oöversatta *Compositor* till *Kompositör*, efter
+kontroll mot aktuell UI-, operatörs- och sekvenskontext. TM-uppdateringen
+publicerades i `yeager/swedish-tm` som commit `7451ba7`; den innebär ingen
+ytterligare import till Blender Translate.
+
 Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
 diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 `a92ec6bd`; TM-ändringen är pushad i `swedish-tm`-commit `1ef888a`.
