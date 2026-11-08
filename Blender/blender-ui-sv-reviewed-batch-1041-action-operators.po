@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. :src: bpy.types.Scene.is_nla_tweakmode
+msgid "Whether there is any action referenced by NLA being edited (strictly read-only)"
+msgstr "Om en Action som refereras av NLA redigeras (strikt skrivskyddad)"
+
+#. :src: bpy.types.Itasc.mode:'ANIMATION'
+msgid "Stateless solver computing pose starting from current action and non-IK constraints"
+msgstr "Tillståndslös lösare som beräknar posen utifrån aktuell Action och icke-IK-begränsningar"
+
+#. :src: bpy.types.Itasc.mode:'SIMULATION'
+msgid "State-full solver running in real-time context and ignoring actions and non-IK constraints"
+msgstr "Tillståndsbaserad lösare som körs i realtidskontext och ignorerar Actioner och icke-IK-begränsningar"
+
+#. :src: bpy.types.ANIM_OT_clear_useless_actions
+msgid "Mark actions with no F-Curves for deletion after save and reload of file preserving \"action libraries\""
+msgstr "Markera Actioner utan F-kurvor för borttagning efter att filen har sparats och lästs in på nytt, samtidigt som \"Action-biblioteken\" bevaras"
+
+#. :src: bpy.types.OBJECT_OT_rigify_action_create
+msgid "Create a new action"
+msgstr "Skapa en ny Action"
+
+#. :src: bpy.types.SCENE_OT_gltf2_action_filter_refresh
+msgid "Refresh list of actions"
+msgstr "Uppdatera listan över Actioner"
+
+#. :src: bpy.types.SCENE_OT_gltf2_action_filter_refresh
+msgctxt "Operator"
+msgid "Refresh action list"
+msgstr "Uppdatera Action-listan"
+
+#. :src: bpy.types.ACTION_OT_markers_make_local
+msgid "Move selected scene markers to the active action as pose markers"
+msgstr "Flytta valda scenmarkörer till den aktiva Actionen som posmarkörer"
+
+#. :src: bpy.types.ACTION_OT_new
+msgid "Create new action"
+msgstr "Skapa ny Action"
+
+#. :src: bpy.types.ACTION_OT_push_down
+msgid "Push action down on to the NLA stack as a new strip"
+msgstr "Flytta ned Actionen på NLA-stacken som en ny remsa"
+
+#. :src: bpy.types.ACTION_OT_stash
+msgid "Store this action in the NLA stack as a non-contributing strip for later use"
+msgstr "Lagra den här Actionen i NLA-stacken som en icke-inverkande remsa för senare användning"
+
+#. :src: bpy.types.ACTION_OT_stash.create_new
+msgid "Create a new action once the existing one has been safely stored"
+msgstr "Skapa en ny Action när den befintliga har sparats på ett säkert sätt"
+
+#. :src: bpy.types.ACTION_OT_stash_and_create
+msgid "Store this action in the NLA stack as a non-contributing strip for later use, and create a new action"
+msgstr "Lagra den här Actionen i NLA-stacken som en icke-inverkande remsa för senare användning och skapa en ny Action"
+
+#. :src: bpy.types.ANIM_OT_clear_useless_actions.only_unused
+msgid "Only unused (Fake User only) actions get considered"
+msgstr "Endast oanvända Actioner med falsk användare beaktas"
+
+#. :src: bpy.types.ANIM_OT_merge_animation
+msgid "Merge the animation of the selected objects into the action of the active object. Actions are not deleted by this, but might end up with zero users"
+msgstr "Slå ihop animeringen av de valda objekten med det aktiva objektets Action. Actioner raderas inte av detta, men kan sluta med noll användare"
+
+#. :src: bpy.types.ANIM_OT_separate_slots
+msgid "Move all slots of the action on the active object into newly created, separate actions. All users of those slots will be reassigned to the new actions. The current action won't be deleted but will be empty and might end up having zero users"
+msgstr "Flytta alla Action-slotar på det aktiva objektet till nyskapade, separata Actioner. Alla användare av dessa slotar kommer att omfördelas till de nya Actionerna. Den aktuella Actionen kommer inte att raderas, men kommer att vara tom och kan i slutändan ha noll användare"
+
+#. :src: bpy.types.ANIM_OT_slot_channels_move_to_new_action
+msgid "Move the selected slots into a newly created action"
+msgstr "Flytta de valda Action-slotarna till en ny Action"
+
+#. :src: bpy.types.ANIM_OT_slot_new_for_id
+msgid "Create a new action slot for this data-block, to hold its animation"
+msgstr "Skapa en ny Action-slot för detta datablock för att lagra dess animering"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_constraint
+msgid "Un-assign the action slot from this constraint"
+msgstr "Ta bort tilldelningen av Action-slotten från denna begränsning"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_id
+msgid "Un-assign the action slot, effectively making this data-block non-animated"
+msgstr "Ta bort tilldelningen av Action-slotten, vilket innebär att detta datablock inte längre animeras"
+
+#. :src: bpy.types.ANIM_OT_slot_unassign_from_nla_strip
+msgid "Un-assign the action slot from this NLA strip, effectively making it non-animated"
+msgstr "Ta bort tilldelningen av Action-slotten från denna NLA-remsa, vilket innebär att den inte längre animeras"
+
+#. :src: bpy.types.ANIM_OT_version_bone_hide_property
+msgid "Moves any F-Curves for the `hide` property of selected armatures into the action of the object. This will only operate on the first layer and strip of the action"
+msgstr "Flyttar alla F-kurvor för egenskapen `hide` för valda armaturer till objektets Action. Detta fungerar endast på det första lagret och den första remsan i Actionen"
