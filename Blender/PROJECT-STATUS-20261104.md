@@ -9461,3 +9461,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1031.po är den samlade
 manuella deltafilen för batch 957–1 031. Den innehåller 687
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 032 — meshfysik och ytnoder
+
+Batch 1 032 granskar sju texter för tyg- och vätskefysik, interaktiva verktyg
+och Geometry Nodes. Den normaliserar *meshgräns*, *dynamisk mesh*,
+*meshgenerator*, *meshelement* och *mesh* i ytnodernas konkreta kontext.
+Batchen är lokalt granskad, men ännu inte verifierad som importerad i Blender
+Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1032.po är den samlade
+manuella deltafilen för batch 957–1 032. Den innehåller 694
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
