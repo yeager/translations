@@ -988,6 +988,8 @@ Senast uppdaterad: 2026-11-08.
 | editor space data (RNA) | områdesdata | Data för ett specifikt redigerarområde, exempelvis Outliner eller 3D-vyn. |
 | Scene linear | scenlinjär | Färghanteringsvärden i arbetsfärgrymden; skriv sammansatt, inte *Scene-linjär*. |
 | grid | rutnät | Simulerings-, volym- och partikelrutnät. Undvik det tvetydiga *nät*; undantaget är den synliga Mesh-menyposten *Grid* → *Nät*. |
+| spherical harmonics | sfäriska harmoniker | Etablerad matematisk/fysikalisk term i Blenders SPZ- och Gaussian-splat-import. Hunspell saknar pluralformen, men termen är verifierad i svenska universitetskällor. |
+| scale reader (SPZ) | skalningsläsare | Komponent som läser skalningsdata i SPZ-importen. Undvik den missvisande sammansättningen *skalleläsare*. |
 
 ## Kontrollerade UI-formuleringar
 
