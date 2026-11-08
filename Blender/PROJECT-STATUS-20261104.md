@@ -10970,6 +10970,20 @@ Gitleaks, och är arkiverad och pushad i commit `74558e4e`.
 Importstatus: redo för manuell Weblate-import; inget importresultat är
 verifierat här.
 
+## Batch 1 266 — Kompositör
+
+I den nod- och 3D-vykontext där `Compositor` betyder Blenders
+kompositör ersätts den äldre formen *kompositerare* med *kompositör*.
+Deltafilen `blender-ui-sv-reviewed-batch-1266-compositor.po` innehåller en
+post och har SHA-256
+`b429f97931d2ba34d332de081cbb014a384971190099f5ed214b31f17f475280`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
+diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
+`a92ec6bd`; TM-ändringen är pushad i `swedish-tm`-commit `1ef888a`.
+Ingen Weblate-import är verifierad; batchen är lokalt färdig och redo för
+manuell import.
+
 ## Batch 1 265 — UI-regioner och animering
 
 Tre etablerade begrepp normaliseras i den aktuella exporten:
