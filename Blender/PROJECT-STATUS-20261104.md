@@ -2,6 +2,19 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 313 — kamerarymd för rörelsespårningsdjup
+
+Följningsbegränsningen projicerar ett objekt för att bestämma djup i
+kamerans tredimensionella referenssystem. Det tidigare *kamerarum* är därför
+normaliserat till projektets etablerade *kamerarymd*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1313-camera-space-depth.po`
+innehåller en ändrad post och har SHA-256
+`22f7ae73cb3c74b65cc5578d56db1c65abcb285c589f8cd1ca26cc1e0340044f`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 312 — Geometry Nodes: objektrymd i vyporttransformering
 
 Viewport Transform-noden transformerar punkter från *object space* till
