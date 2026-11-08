@@ -9603,3 +9603,15 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1042.po är den samlade
 manuella deltafilen för batch 957–1 042. Den innehåller 831
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 043 — Action-RNA och API-meddelanden
+
+Batch 1 043 granskar sexton RNA- och API-nära meddelanden om Blenders
+*Action*-datatyp, *Action-slotar*, NLA-klipp och resursbaserade Actioner.
+Tre dubbletter mot tidigare deltafiler uteslöts. Batchen är lokalt granskad,
+men ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1043.po är den samlade
+manuella deltafilen för batch 957–1 043. Den innehåller 847
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
