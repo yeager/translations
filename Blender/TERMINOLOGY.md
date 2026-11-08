@@ -67,6 +67,7 @@ Senast uppdaterad: 2026-11-08.
 | NLA Editor | NLA-redigerare | Redigeraren för Nonlinear Animation-remsor och deras F-kurvor. |
 | Timecode Style | tidskodstil | Inställning som bestämmer hur uppspelningens varaktighet visas. |
 | System Memory | systemminne | UI-rubrik för uppskattad RAM-användning. |
+| performance preset | prestandaförinställning | Samlad uppsättning av renderings- eller systeminställningar för ett prestandaläge. |
 | New Data | Nya data | Gäller nya Blender-datablock; inte *nya uppgifter*. |
 | Color Picker Type | Färgväljarens typ | Följer den aktuella svenska UI-etiketten. |
 | Header Position | rubrikposition | Följer UI-etiketten i Inställningar. Använd *rubrik* i närliggande manualtext för att undvika konkurrerande former. |
