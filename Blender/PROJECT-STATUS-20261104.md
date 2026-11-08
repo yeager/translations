@@ -3172,6 +3172,18 @@ Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
 Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
 ingen Blender Translate-import är verifierad här.
 
+## Batch 1 285 — sökoperatör
+
+Två sammanhängande UI-strängar i Blenders globala operatörssökning
+normaliseras från *operator* till den etablerade facktermen *operatör*.
+Deltafilen `blender-ui-sv-reviewed-batch-1285-search-operator.po` innehåller
+två poster och har SHA-256
+`4ce3ae8025c58cf5e633374f95fe3c3e2d3a69d0280607b711f310fbe8dcf9db`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+Gitleaks passerade. Batchen är lokalt färdig, arkiverad och redo för manuell
+import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 284 — operatörer och tangentkartor
 
 Åtta API-etiketter och hjälprader i resursbläddraren och tangentkartor
