@@ -13,6 +13,8 @@ Senast uppdaterad: 2026-11-08.
 | --- | --- | --- |
 | asset library | tillgångsbibliotek / resursbibliotek | Båda förekommer i den etablerade Blender-katalogen. Följ närliggande UI och ändra inte mekaniskt mellan dem. I Asset Browser och dess inställningsbeskrivningar används *resursbibliotek* för att stämma med de omgivande UI-etiketterna. I övrig längre förklarande text är *tillgångsbibliotek* den vanligaste befintliga formen. |
 | Asset Browser | resursbläddrare | Följer den aktuella svenska UI-etiketten. Den äldre manualformen *tillgångsbläddrare* ska inte dras in i ny UI-nära dokumentation. |
+| asset catalog | resurskatalog | Katalog som grupperar resurser i Asset Browser. Skriv ihop även i hjälptexter, exempelvis *resurskatalogens namn*. |
+| asset metadata | resursmetadata | Redigerbara uppgifter om en resurs, som katalog, förhandsgranskning, etiketter och upphovsperson. |
 | Asset Shelf / Asset Shelf Header | resurshylla / resurshyllans huvudrad | Den nedre snabbåtkomstytan för resurser i en redigerare. *Header* är regionens huvudrad, inte en dokumentrubrik. |
 | Header / Show Header | rubrik / Visa rubrik | Synlig Blender-region och dess menyåtgärd. Använd inte den felaktiga förkortningen *huvud*. |
 | Tool Header | verktygsrubrik | Blender-region som visar det aktiva verktygets inställningar. Skriv inte *verktygshuvud*. |
