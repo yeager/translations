@@ -361,6 +361,12 @@ modifierarkontexter där Blender arbetar med Mesh-datatypen. Samlingsfilen för
 batch 957–975 innehåller 147 poster och är lokalt kontrollerad men ännu inte
 importerad i Blender Translate.
 
+Batch 976 granskar tio Mesh-poster för skulptering, ytdeformering, adaptiv
+underindelning och volymkonvertering. Den använder konsekvent *meshen*,
+*basmesh*, *målmesh* och *meshdata*. Samlingsfilen för batch 957–976
+innehåller 157 poster och är lokalt kontrollerad men ännu inte importerad i
+Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
