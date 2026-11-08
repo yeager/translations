@@ -174,6 +174,7 @@ Senast uppdaterad: 2026-11-08.
 | shader socket | shaderuttag | Uttag med shaderdata i en nod eller ett nodgränssnitt. Det är inte detsamma som den fysiska processen *skuggning*. |
 | anti-aliasing | kantutjämning | Synlig inställning för text- och bildåtergivning. |
 | Subpixel Anti-Aliasing | Kantutjämning på subpixelnivå | Följer den aktuella svenska UI-etiketten. |
+| subpixel filtering | subpixelfiltrering | Filtrering på subpixelnivå, bland annat i bumpmappning. |
 | font hinting | teckensnittshintning | Inställning som styr teckenplacering och skärpa i textåtergivning. Den aktuella UI-exportens *Teckensnittshinting* bör hanteras som en separat UI-rättelse, inte kopieras in i manualprosan. |
 | point sampling | punktprovtagning | Pipettläge som samplar enskilda punkter till en färggradient. Använd i förklarande UI-former; det dolda tangentbindningsnamnet är *Modal mappning för punktprovtagning med färggradients-pipett*. |
 | Color Ramp | färggradient | Gradient mellan definierade färgstopp; undvik det omotiverade lånet *färgramp*. |
