@@ -10518,3 +10518,16 @@ samlade importfilen. Den innehåller 536 `msgid`-poster inklusive PO-huvudet,
 alltså 535 översättningsposter och klart under Blenders gräns på 1 000
 strängar per manuell import. Den väntar på lokal validering, arkivering och
 manuell import.
+
+## Batch 1 132 — Partikelrutnät
+
+Batch 1 132 rättar den sista funna sammanblandningen av den tekniska
+Blendertermen *grid* med nätverkstermen *nät*. Partikelsystemets *Grid
+Randomness* avser partiklarnas rutnät och blir därför *Slumpmässighet i
+rutnätet*.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1132.po` är den senaste
+samlade importfilen. Den innehåller 537 `msgid`-poster inklusive PO-huvudet,
+alltså 536 översättningsposter och klart under Blenders gräns på 1 000
+strängar per manuell import. Den väntar på lokal validering, arkivering och
+manuell import.
