@@ -248,6 +248,12 @@ partiklar och snabbeffekter. Den använder konsekvent *meshen* och
 *meshens UV-karta* när den formella Blender-datatypen avses. Deltafilen är
 lokalt kontrollerad och ännu inte importerad i Blender Translate.
 
+Batch 957 inleder nästa importomgång efter att den föregående samlingsfilen
+har nått 997 poster. Den granskar fem modifierar- och Geometry Nodes-texter
+och använder *meshobjekt* i sammansättningar samt *mesh* för typen i
+spridningsnoden. Deltafilen är lokalt kontrollerad och ännu inte importerad i
+Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
