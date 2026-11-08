@@ -10202,7 +10202,20 @@ PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
 `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
 Den är lokalt validerad och väntar på manuell import i Blender Translate.
 
+## Batch 1 099 — aktiv Action
+
+Batch 1 099 förtydligar en Action-feltext. I denna animationskontext är
+*action* Blenders formella datatyp och ska därför vara *Action*, inte den
+allmänna svenska betydelsen *åtgärd*. Feltexten blir *Ingen aktiv Action att
+hantera*.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1099.po` samlar batch
+1 055–1 099 i en separat importfil med 291 översättningsposter (292 med
+PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
+`svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
+Den är lokalt validerad och väntar på manuell import i Blender Translate.
+
 Den 8 november 2026 visade användarens importresultat 351 bearbetade poster,
 39 överhoppade och 312 uppdaterade. Skärmbilden anger inte entydigt vilken
 lokal importfil som användes, så den kan inte användas som bevis för att den
-senaste samlingsfilen 1 055–1 098 är importerad.
+senaste samlingsfilen 1 055–1 099 är importerad.
