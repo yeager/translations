@@ -46,12 +46,13 @@ har skapats av senare granskningar.
 | PLY- och SPZ-importdiagnostik | 13 | 13 | 0 | `blender-ui-sv-reviewed-batch-1246-ply-spz-import-diagnostics.po`, commit `4f6cc6aa` |
 | USD: formnyckel- och morfmålsdiagnostik | 4 | 4 | 0 | `blender-ui-sv-reviewed-batch-1247-usd-blendshape-diagnostics.po`, commit `2f515f34` |
 | SPZ: rubrik- och byteordningsdiagnostik | 2 | 2 | 0 | `blender-ui-sv-reviewed-batch-1248-spz-header-diagnostics.po`, commit `458a1420` |
+| USD: tillgångar, skelett och kurvdiagnostik | 70 | 3 | 67 | `blender-ui-sv-reviewed-batch-1249-usd-assets-skeleton.po` |
 
-Efter dessa tjugoen grupper har 275 tidigare otäckta strängar granskats. Deltafiler
+Efter dessa tjugotvå grupper har 345 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
 kontrollerade former som rätteligen lämnades kvar. Den jämförbara lokala
-täckningen är därmed minst 10 172 av 40 427 strängar, alltså **25,16 %**;
-30 255 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
+täckningen är därmed minst 10 242 av 40 427 strängar, alltså **25,33 %**;
+30 185 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
 ny radgranskning, eftersom den rättar formuleringen av en redan granskad
 sekvensrenderingssträng.
 
