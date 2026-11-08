@@ -560,6 +560,7 @@ Senast uppdaterad: 2026-11-08.
 | texture slot | texturplats | Plats som kopplar en textur till ett material eller målningsverktyg. |
 | mesh loop | meshloop | Intern meshtopologisk struktur vid ett ythörn; *looptriangel* används för triangulerat resultat. |
 | node input / output | nodindata / nodutdata | Nodernas tekniska dataflöde. Använd inte den äldre formen *inmatning* eller *utmatning* i RNA-etiketter. |
+| output node | utdatanod | Nod som för ut data från ett material-, världs- eller nodträd. Skilj från själva dataflödet *nodutdata*. |
 | file output item | filutdataobjekt | Objekt som representerar en utdatafil i kompositorns nodstruktur. |
 | output path | utdatasökväg | Sökväg där kompositorns File Output-nod skriver sina filer. Skriv ihop i den samlade panelrubriken *Utdatasökvägar*. |
 | UV loop layer | UV-looplager | UV-lager som hör till meshens loopar. Använd *UV-looplager*, inte *UV-loopskikt*. |
