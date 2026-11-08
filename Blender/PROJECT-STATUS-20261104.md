@@ -9229,3 +9229,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1013.po är den samlade
 manuella deltafilen för batch 957–1 013. Den innehåller 461
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 014 — Geometry Nodes och meshdatatyper
+
+Batch 1 014 granskar nitton texter för Geometry Nodes, meshcache, hårdynamik,
+formnycklar och USD-export. Där källan avser Blenders datatyp används
+*mesh*, exempelvis *meshen*, *ytmesh*, *basmesh* och *meshcache*, medan
+simuleringsrutnät fortsatt behandlas som *rutnät*. Batchen är lokalt
+granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1014.po är den samlade
+manuella deltafilen för batch 957–1 014. Den innehåller 480
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
