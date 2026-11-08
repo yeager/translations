@@ -79,7 +79,7 @@ Senast uppdaterad: 2026-11-08.
 | intersection priority | korsningsprioritet | Line Art-värde som bestämmer vilket objekt en korsningslinje hör till. |
 | project | projekt | Avser Blenders projektkatalog och dess inställningar. |
 | project settings | projektinställningar | Exempel: *Open Project Settings* → *Öppna projektinställningar*. |
-| workspace | arbetsyta | Den etablerade UI-formen, exempelvis *Workspace* → *Arbetsyta*. |
+| workspace | arbetsyta | Den etablerade UI-formen, exempelvis *Workspace* → *Arbetsyta*. Använd även *arbetsyta* i felmeddelanden och länkningsdialoger, inte den äldre synonymen *arbetsutrymme*. |
 | pie menu | cirkelmeny | Följer den aktuella svenska Blender-UI-katalogen. |
 | popup / popover | popupfönster | Synligt tillfälligt fönster eller meny. Undvik *poppuppfönster*, som ger tre `p` i följd. |
 | Essentials | Grundresurser | Översatt UI-namn för Blenders medföljande resurser. I löpande text: *resursbiblioteket Grundresurser*. |

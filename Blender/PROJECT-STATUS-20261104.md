@@ -9969,6 +9969,19 @@ Translate.
 PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
 innehåller 983 poster.
 
+## Batch 1 073 — arbetsytetermer
+
+Batch 1 073 normaliserar fyra arbetsytesträngar. Den ersätter den äldre
+synonymen *arbetsutrymme*, rättar Window-API:ts grammatiska formulering för
+det aktiva vylagret och gör länknings- och raderingsmeddelandena konsekventa
+med UI-termen *arbetsyta*. Batchen är lokalt granskad men ännu inte verifierad
+som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1073.po` samlar batch
+1 055–1 073 i en separat importfil med 99 översättningsposter (100 med
+PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
+innehåller 983 poster.
+
 ## Releasefärskhet
 
 Kontrollerad 8 november 2026 mot Blenders officiella releasesida:
