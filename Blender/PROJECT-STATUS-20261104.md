@@ -10437,3 +10437,16 @@ samlade importfilen. Den innehåller 473 `msgid`-poster inklusive PO-huvudet,
 alltså 472 översättningsposter och klart under Blenders gräns på 1 000
 strängar per manuell import. Den väntar på lokal validering, arkivering och
 manuell import.
+
+## Batch 1 126 — Dopebladets synliga texter
+
+Batch 1 126 normaliserar åtta kvarvarande UI- och feltexter till den
+etablerade Blendertermen *dopeblad*. Äldre *exponeringsark* och engelska
+*Dope Sheet* ersätts i svensk synlig text, medan Python-identifierare som
+`DOPESHEET_EDITOR` lämnas orörda.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1126.po` är den senaste
+samlade importfilen. Den innehåller 481 `msgid`-poster inklusive PO-huvudet,
+alltså 480 översättningsposter och klart under Blenders gräns på 1 000
+strängar per manuell import. Den väntar på lokal validering, arkivering och
+manuell import.
