@@ -526,6 +526,7 @@ Senast uppdaterad: 2026-11-08.
 | Ambient Occlusion | omgivningsocklusion | Renderingsmetod som mörkar trånga och skymda delar av en scen; håll den som en etablerad sammansättning i synlig UI-text. |
 | FFmpeg audio/video codec | FFmpeg-ljudkodek / FFmpeg-videokodek | Skriv den tekniska sammansättningen ihop. Låt standard- och formatnamn som AAC, H.264, ProRes och WebM stå kvar. |
 | sample rate | samplingsfrekvens | Antal ljudprov per sekund i FFmpeg- och ljudinställningar. |
+| audio sample format | ljudsamplingsformat | Bitdjup och numerisk representation för ljudprov i systeminställningarna. Använd den sammansatta formen även i hjälptexter, inte *ljudprovformat*. |
 | speaker pitch / mute | tonhöjd / tysta | Högtalarobjektets uppspelningsegenskaper; *Pitch* är inte programmet eller det engelska ordet *pitch*. |
 | bitrate | bithastighet | Kodad data per tidsenhet; använd exempelvis *ljudbithastighet* och *konstant bithastighet*. |
 | container (media) | behållare | Filformatets omslutande struktur, exempelvis Matroska eller WebM. Använd *behållare för utdatafilen* i hjälptext. |
