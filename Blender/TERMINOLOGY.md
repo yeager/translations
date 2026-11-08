@@ -602,6 +602,7 @@ Senast uppdaterad: 2026-11-08.
 | distance model | avståndsmodell | Modell som styr hur ljudets styrka minskar med avståndet. |
 | time remapping | tidsomappning | Omräkning av scenens tid så att bildrutor spelas upp eller renderas vid andra tidpunkter. |
 | sequencer | sekvensredigerare | Blenders redigerare för video- och ljudsekvenser. |
+| strip (sequencer) | remsa | En tidsplacerad bild-, film-, ljud- eller effektsekvens i sekvensredigeraren. Skilj från *band*, som inte är Blenders UI-term här. |
 | frame dropping | hoppa över bildrutor | Uppspelningsläge som utelämnar bildrutor för att hålla jämna steg med ljudet eller verklig tid. |
 | preview range | förhandsgranskningsintervall | Alternativt bildruteintervall för uppspelning och visningsrenderingar. |
 | noise (texture) | brus | Procedurtexturens variation; använd inte det fysiska ljudordet *buller*. |
