@@ -2,6 +2,21 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 305 — positionsöverskrivning i objektrymd
+
+Penselverktygens interna `override_location`-parameter räknar om
+muspositioner till positioner i *object space*. Den otydliga formuleringen
+*objektets positioner i rymden* ersätts av den etablerade koordinattermen
+*positioner i objektrymd*. Kodidentifierarna `location` och `mouse_event`
+behålls oförändrade.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1305-object-space-positions.po`
+innehåller en ändrad post och har SHA-256
+`b018c4a3b58b01d669946d4b45f5256915665ba9e6d279e7d07be333244edd05`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 304 — tredimensionella begränsningsboxar
 
 Fyra 3D-kontexter i Object-verktyg och Geometry Nodes normaliseras till
