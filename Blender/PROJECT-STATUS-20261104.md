@@ -10663,3 +10663,16 @@ samlade manuella importfilen. Den innehåller 582 `msgid`-poster inklusive
 PO-huvudet, alltså 581 unika översättningsposter. Den är lokalt kontrollerad
 och ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
 Translate är inte verifierad här.
+
+## Batch 1 143 — Shadernoder
+
+Batch 1 143 normaliserar tre synliga shadernodetiketter. Här avser *Shader*
+den formella Blender-nodtypen, inte processen skuggning; terminologin anger
+därför *shader* och pluralformen *shaders*. Det rättar också den felaktiga
+singularformen efter *valda*.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1143.po` är den senaste
+samlade manuella importfilen. Den innehåller 585 `msgid`-poster inklusive
+PO-huvudet, alltså 584 unika översättningsposter. Den är lokalt kontrollerad
+och ligger under gränsen på 1 000 strängar, men dess importstatus på Blender
+Translate är inte verifierad här.
