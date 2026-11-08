@@ -10125,8 +10125,11 @@ kontexten avser datatypen, utan att ändra den delade, generella etiketten
 *Slot*. Batch 1 087 ersätter den återstående API-formen *Channelbag* i
 verktygstipset med den projektspecifika termen *kanalbehållare*.
 
-`blender-ui-sv-reviewed-20261108-pending-batches-1055-1087.po` samlar batch
-1 055–1 087 i en separat importfil med 166 översättningsposter (167 med
+Batch 1 088 bevarar skiljetecknet i Geometry Nodes-felmeddelandet för det
+saknade attributet `rest_position`.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1088.po` samlar batch
+1 055–1 088 i en separat importfil med 167 översättningsposter (168 med
 PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
 `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
 Den är lokalt validerad och väntar på manuell import i Blender Translate.
@@ -10134,4 +10137,4 @@ Den är lokalt validerad och väntar på manuell import i Blender Translate.
 Den 8 november 2026 visade användarens importresultat 351 bearbetade poster,
 39 överhoppade och 312 uppdaterade. Skärmbilden anger inte entydigt vilken
 lokal importfil som användes, så den kan inte användas som bevis för att den
-senaste samlingsfilen 1 055–1 087 är importerad.
+senaste samlingsfilen 1 055–1 088 är importerad.
