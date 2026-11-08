@@ -2,6 +2,20 @@
 
 Senaste lokala arbete: 8 november 2026.
 
+## Batch 1 299 — noduttagsnamn
+
+RNA-egenskapen *Socket name* används både för ett noduttag och för ett uttag
+i ett nodträdsgränssnitt. Den korrigeras därför från den hårdvarubundna
+felöversättningen *Sockelnamn* till *Uttagsnamn*, i linje med projektets
+etablerade term *noduttag*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1299-node-socket-name.po` innehåller
+en ändrad post och har SHA-256
+`df31daa1de524f452f15e60d5bebb47f6e1a227fbf2d7f828fcaffcb980d59b0`.
+`msgfmt`, l10n-lint, svlang, den uppdaterade Hunspell-sv-ordlistan,
+diffkontroll och Gitleaks passerade. Batchen är lokalt färdig och redo för
+manuell import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 298 — kompositering
 
 En rad-för-rad-granskning av 43 UI-strängar där källan uttryckligen använder

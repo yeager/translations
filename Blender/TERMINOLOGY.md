@@ -932,6 +932,7 @@ Senast uppdaterad: 2026-11-08.
 | bevel modifier | avfasningsmodifierare | Modifierare som rundar av meshens kanter och hörnpunkter. |
 
 | node socket | noduttag | Anslutningspunkt för in- eller utdata i en Blendernod. |
+| socket name | uttagsnamn | Namnet på ett Blender-noduttag eller ett uttag i nodträdets gränssnitt. Använd inte *sockelnamn*, som avser fysisk hårdvara. |
 | node socket interface | noduttagsgränssnitt | Deklarationen som styr noduttag i en nodgrupp. |
 | mute (node) | stäng av | Noden förbikopplas vid utvärdering; i UI-verb som *Toggle Node Mute* används *växla avstängning*. Använd inte engelska *mute* eller ljudbetydelsen *tysta*. |
 | node tree interface item | nodträdsgränssnittselement | Gemensam term för ett uttag eller en panel i nodträdets gränssnitt. |
