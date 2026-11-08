@@ -193,6 +193,9 @@ Senast uppdaterad: 2026-11-08.
 | bytecode | bytekod | Kompilerad kod i shader- och kamerasammanhang. Använd *bytekod* i synlig UI-text, men behåll egenskapsnamn som `bytecode` i Python-API. |
 | shader program | shaderprogram | Program som körs för shaderberäkning; skriv sammansättningen ihop. |
 | Shader Node | shadernod | Formell Blender-nodtyp. Skriv sammansättningen ihop: *shadernod*, *shadernoder*, *shadernodträd* och *shadernoduttag*. När *shader* i stället avser skuggningsberäkningen används den svenska saktermen *skuggning*. |
+| Custom Shader Group Node | anpassad shadergruppsnod | Python-nodtyp som bygger på en shadernodgrupp. Behåll den formella Blender-termen *shader* och skriv sammansättningen utan tre lika konsonanter. |
+| Popover panel | utfällbar panel | Tillfällig panel med extra alternativ från en UI-rubrik. Använd inte *poppupppanel*, som både är svårläst och får tre p i följd. |
+| Hit Color | träffärg | Kort UI-etikett för färg vid träff. Skriv *träffärg*, inte *träfffärg*. |
 | shader socket | shaderuttag | Uttag med shaderdata i en nod eller ett nodgränssnitt. Det är inte detsamma som den fysiska processen *skuggning*. |
 | anti-aliasing | kantutjämning | Synlig inställning för text- och bildåtergivning. |
 | Subpixel Anti-Aliasing | Kantutjämning på subpixelnivå | Följer den aktuella svenska UI-etiketten. |
