@@ -10039,3 +10039,16 @@ inte verifierad som importerad i Blender Translate.
 1 055–1 077 i en separat importfil med 114 översättningsposter (115 med
 PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
 innehåller 983 poster.
+
+## Batch 1 078 — kompositörens visningsnoder
+
+Batch 1 078 skiljer konsekvent mellan en vanlig visare och Blenders
+nodbaserade *Viewer*. I kompositions-, geometri- och texturkontext blir det
+*visningsnod*. Den rättar även den äldre formen *kompositor* till projektets
+etablerade *kompositör* för sekvenserarens Compositor-typ. Batchen är lokalt
+granskad men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1078.po` samlar batch
+1 055–1 078 i en separat importfil med 122 översättningsposter (123 med
+PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
+innehåller 983 poster.
