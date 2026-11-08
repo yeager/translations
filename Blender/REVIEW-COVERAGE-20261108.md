@@ -30,12 +30,13 @@ har skapats av senare granskningar.
 | Armatur, poser och begränsningar | 7 | 2 | 5 | `blender-ui-sv-reviewed-batch-1230-armature-pose-constraints.po`, commit `ad008b13` |
 | Skulptering, målning och viktmålning | 14 | 2 | 12 | `blender-ui-sv-reviewed-batch-1231-sculpt-paint-weight-paint.po`, commit `77c97075` |
 | Mesh- och UV-redigering | 21 | 4 | 17 | `blender-ui-sv-reviewed-batch-1232-mesh-uv-editing.po`, commit `68fc110b` |
+| Filhantering, import/export och externa data | 23 | 6 | 17 | `blender-ui-sv-reviewed-batch-1233-file-browser-external-data.po`, commit `58911c57` |
 
-Efter dessa fem grupper har 83 tidigare otäckta strängar granskats. Deltafiler
+Efter dessa sex grupper har 106 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
 kontrollerade former som rätteligen lämnades kvar. Den jämförbara lokala
-täckningen är därmed minst 9 980 av 40 427 strängar, alltså **24,69 %**;
-30 447 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
+täckningen är därmed minst 10 003 av 40 427 strängar, alltså **24,74 %**;
+30 424 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
 ny radgranskning, eftersom den rättar formuleringen av en redan granskad
 sekvensrenderingssträng.
 
