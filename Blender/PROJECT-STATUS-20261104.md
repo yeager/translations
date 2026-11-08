@@ -260,6 +260,22 @@ startflaggan `--offline-mode` lämnas exakt som i källtexten. Batch 957–958
 har en separat samlingsfil med 15 poster och är lokalt kontrollerad men ännu
 inte importerad i Blender Translate.
 
+Batch 959 granskar sex Asset Browser- och katalogtexter. Den använder
+*resurs* och *resurskatalog* i den avgränsade resursbläddrarkontexten och
+gör markering och lokala resurser idiomatiska på svenska. Deltafilen är
+lokalt kontrollerad och ännu inte importerad i Blender Translate.
+
+Batch 960 granskar sju mesh-egenskaper, fel och skulpteringsposter. Den
+normaliserar *meshattribut*, *meshdetaljer*, *meshnormaler* och den böjda
+formen *meshen*. Deltafilen är lokalt kontrollerad och ännu inte importerad i
+Blender Translate.
+
+Batch 961 granskar tolv Action- och NLA-poster. Den använder de fastställda
+termerna *Action*, *Actionen*, *Actioner* och *Action-slot* när Blender
+avser den formella animeringsdatatypen. Den separata samlingsfilen för
+batch 957–961 innehåller 40 poster och är lokalt kontrollerad men ännu inte
+importerad i Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
