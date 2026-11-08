@@ -991,6 +991,8 @@ Senast uppdaterad: 2026-11-08.
 | spherical harmonics | sfäriska harmoniker | Etablerad matematisk/fysikalisk term i Blenders SPZ- och Gaussian-splat-import. Hunspell saknar pluralformen, men termen är verifierad i svenska universitetskällor. |
 | scale reader (SPZ) | skalningsläsare | Komponent som läser skalningsdata i SPZ-importen. Undvik den missvisande sammansättningen *skalleläsare*. |
 | USD blend shape | formnyckel | USD-importören omvandlar USD-blend shapes till Blenders Shape Keys. I strukturella feltexter används *morfmål* för `blendshape targets`. |
+| magic value (file header) | magiskt värde | Formatidentifierande tal i en filrubrik; skriv exempelvis *magiskt värde i SPZ-rubriken*. |
+| big-endian | big-endian | Etablerad system- och formatterm. Använd bindestreck, inte *big endian*. |
 
 ## Kontrollerade UI-formuleringar
 
