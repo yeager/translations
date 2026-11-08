@@ -163,6 +163,9 @@ Senast uppdaterad: 2026-11-08.
 | working plane | arbetsplan | Etablerad term i Blenders TBX-ordlista. |
 | internal clipboard | interna urklippet | UI-funktion, inte operativsystemets urklipp. |
 | rigid body | styv kropp | Fysiksimuleringens etablerade term. |
+| cloth modifier | tygmodifierare | Modifierare som tilldelar ett objekt Blenders tygsimulering. Skriv ihop i den korta UI-etiketten. |
+| Soft Body Point Cache | punktcache för mjukkropp | Mjukkroppssimuleringens cache; följ den etablerade UI-termen *mjukkropp* och skriv *punktcache* som en sammansättning. |
+| liquid object (Quick Liquid) | vätskeobjekt | Objekt som Quick Liquid skapar för vätskesimuleringen. Använd verbet *rendera* i operatörens UI-etikett. |
 | shader | shader | Behåll den etablerade facktermen i UI och nodnamn; använd inte *skuggare*. När en meny uttryckligen avser nodtypen används *shadernod* och *shadernoder*, inte den vidare saktermen *skuggning*. |
 | bytecode | bytekod | Kompilerad kod i shader- och kamerasammanhang. Använd *bytekod* i synlig UI-text, men behåll egenskapsnamn som `bytecode` i Python-API. |
 | shader program | shaderprogram | Program som körs för shaderberäkning; skriv sammansättningen ihop. |
