@@ -206,6 +206,7 @@ Senast uppdaterad: 2026-11-08.
 | timescale | tidsskala | Faktor som skalar simuleringens tidsförlopp. |
 | curve mapping | kurvkartläggning | Kartläggning med kurvor; använd den här sammansättningen i RNA- och modifierarinställningar. |
 | retiming key | tidsanpassningsnyckel | Nyckelpunkt i sekvensredigeraren som flyttar en bildruta i en remsa och därmed sträcker eller drar ihop tidsflödet. Följer den etablerade majoritetsformen i UI:t. Använd inte den otydliga och inkonsekventa formen *omtidningsnyckel*. |
+| retime / retiming | tidsanpassa / tidsanpassning | Sekvensredigerarens ändring av en remsas tidsförlopp. Använd verbet *tidsanpassa* för operatorer och *tidsanpassning* för funktioner och inställningar. |
 | Interface Font | Teckensnitt för gränssnittet | Följer den aktuella svenska UI-etiketten. |
 | lighting node | belysningsnod | Använd i saktext; behåll engelska nodnamn där de är produktnamn. |
 | point / sun / spot / area light | punktljus / solljus / strålkastare / områdesljus | Blenders ljustyper. Översätt efter ljuskontexten; *Point* är inte poäng, *Sun* är inte veckodagen och *Power* är effekt. |
