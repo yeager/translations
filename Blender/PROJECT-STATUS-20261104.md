@@ -9589,3 +9589,15 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1041.po är den samlade
 manuella deltafilen för batch 957–1 041. Den innehåller 800
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 042 — Action-status och NLA-felmeddelanden
+
+Batch 1 042 granskar 31 felmeddelanden, statusrader och Outliner-/NLA-
+operatorer i Blenders animationskod. Alla avser den formella datatypen
+*Action* och dess *Action-slotar*, inte vanliga användaråtgärder. Batchen är
+lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1042.po är den samlade
+manuella deltafilen för batch 957–1 042. Den innehåller 831
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.

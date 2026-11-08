@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: source/blender/animrig/intern/action.cc:1178
+#: source/blender/blenkernel/intern/anim_data.cc:151
+msgid "Cannot change action, as it is still being edited in NLA"
+msgstr "Kan inte ändra Actionen eftersom den fortfarande redigeras i NLA"
+
+#: source/blender/animrig/intern/keyframing.cc:220
+msgid "Inserting keys on {:d} data-block(s) has been skipped because of missing action slots."
+msgstr "Infogning av nyckelbilder i {:d} datablock hoppades över på grund av saknade Action-slotar."
+
+#: source/blender/animrig/intern/keyframing.cc:514
+#: source/blender/animrig/intern/keyframing.cc:592
+msgid "No action to delete keyframes from for ID = %s"
+msgstr "Ingen Action att ta bort nyckelrutor från för ID = %s"
+
+#: source/blender/animrig/intern/versioning.cc:222
+msgid "\"%s\" is using Action \"%s\", which does not have a slot with identifier \"%s\" or \"%s\". Manually assign the right action slot to \"%s\"."
+msgstr "\"%s\" använder Action \"%s\", som saknar en slot med identifieraren \"%s\" eller \"%s\". Tilldela manuellt rätt Action-slot till \"%s\"."
+
+#: source/blender/blenkernel/intern/action.cc:754
+msgid "actions"
+msgstr "Actioner"
+
+#: source/blender/blenkernel/intern/anim_data.cc:145
+msgid "Attempt to set action on non-animatable ID"
+msgstr "Försök att ställa in Action på icke-animerbart ID"
+
+#: source/blender/editors/animation/anim_channels_defines.cc:5921
+msgid "Temporarily disable NLA stack evaluation (i.e. only the active action is evaluated)"
+msgstr "Inaktivera tillfälligt utvärdering av NLA-stapeln (dvs. bara den aktiva Actionen utvärderas)"
+
+#: source/blender/editors/animation/anim_channels_defines.cc:5939
+msgid "Display action without any time remapping (when unpinned)"
+msgstr "Visa Actionen utan tidsommappning (när den inte är fastsatt)"
+
+#: source/blender/editors/animation/anim_channels_edit.cc:5370
+msgid "Separated %s into %i new actions"
+msgstr "Delade upp %s i %i nya Actioner"
+
+#: source/blender/editors/animation/anim_channels_edit.cc:5320
+msgid "No active action to operate on"
+msgstr "Ingen aktiv Action att utföra en åtgärd på"
+
+#: source/blender/editors/animation/anim_ops.cc:1315
+msgid "The action %s is not editable"
+msgstr "Actionen %s kan inte redigeras"
+
+#: source/blender/editors/animation/anim_ops.cc:1333
+msgid "Moved %i slot(s) into the action of the active object"
+msgstr "Flyttade %i slot(ar) till det aktiva objektets Action"
+
+#: source/blender/editors/animation/anim_ops.cc:1795
+msgid "Multiple users of an action and not all were selected: %s"
+msgstr "Actionen har flera användare och alla valdes inte: %s"
+
+#: source/blender/editors/animation/anim_ops.cc:1277
+msgid "Active object has no action"
+msgstr "Aktivt objekt har ingen Action"
+
+#: source/blender/editors/animation/keyframing.cc:890
+#: source/blender/editors/animation/keyframing.cc:1047
+msgid "Scene has no animation data or active action"
+msgstr "Scenen har inga animationsdata eller någon aktiv Action"
+
+#: source/blender/editors/armature/pose_lib_2.cc:361
+msgid "Asset ('%s') is not an action data-block"
+msgstr "Resursen (”%s”) är inte ett Action-datablock"
+
+#: source/blender/editors/space_nla/nla_edit.cc:2119
+msgid "Linked actions will be duplicated for each selected strip."
+msgstr "Länkade Actioner kommer att dupliceras för varje vald remsa."
+
+#: source/blender/editors/space_nla/nla_edit.cc:671
+#: source/blender/editors/space_outliner/outliner_tools.cc:3559
+msgid "No valid action to add"
+msgstr "Ingen giltig Action att lägga till"
+
+#: source/blender/editors/space_nla/nla_edit.cc:697
+msgid "Could not add action '%s' as it cannot be used relative to ID-blocks of type '%s'"
+msgstr "Det gick inte att lägga till Actionen ”%s” eftersom den inte kan användas relativt ID-datablock av typen ”%s”"
+
+#: source/blender/editors/space_nla/nla_tracks.cc:433
+msgid "Cannot push down actions while tweaking a strip's action, exit tweak mode first"
+msgstr "Det går inte att trycka ned Actioner medan du justerar en remsas Action. Avsluta justeringsläget först"
+
+#: source/blender/editors/space_nla/nla_tracks.cc:441
+msgid "No active action to push down"
+msgstr "Ingen aktiv Action att trycka ned"
+
+#: source/blender/editors/space_nla/nla_tracks.cc:673
+msgid "Select an existing NLA Track or an empty action line first"
+msgstr "Välj först ett befintligt NLA-spår eller en tom Action-rad"
+
+#: source/blender/editors/space_outliner/outliner_tools.cc:233
+msgid "Cannot unlink action '%s'. It's not clear which object or object-data it should be unlinked from, there's no object or object-data as parent in the Outliner tree"
+msgstr "Det går inte att koppla bort Actionen ”%s”. Det är oklart från vilket objekt eller vilka objektdata den ska kopplas bort, eftersom det saknas överordnade objekt eller objektdata i översiktsträdet"
+
+#: source/blender/editors/space_outliner/outliner_tools.cc:3243
+#: source/blender/editors/space_outliner/outliner_tools.cc:3676
+msgctxt "Operator"
+msgid "Unlink action"
+msgstr "Koppla bort Action"
+
+#: source/blender/editors/space_outliner/outliner_tools.cc:3577
+msgctxt "Operator"
+msgid "Set action"
+msgstr "Ställ in Action"
+
+#: source/blender/editors/space_outliner/outliner_tools.cc:3668
+msgctxt "Operator"
+msgid "Set active action"
+msgstr "Ställ in aktiv Action"
+
+#: source/blender/makesrna/intern/rna_action.cc:1037
+msgid "Timeline marker '%s' not found in action '%s'"
+msgstr "Tidslinjemarkören ”%s” hittades inte i Actionen ”%s”"
+
+#: source/blender/makesrna/intern/rna_action.cc:1179
+msgid "Assign action \"%s\" to \"%s\" before calling this function"
+msgstr "Tilldela Actionen ”%s” till ”%s” innan denna funktion anropas"
+
+#: source/blender/makesrna/intern/rna_animation.cc:220
+msgid "Could not change action"
+msgstr "Kunde inte ändra Action"
+
+#: source/blender/makesrna/intern/rna_animation.cc:232
+msgid "Failed to set temporary action"
+msgstr "Det gick inte att ange tillfällig Action"
+
+#: source/blender/makesrna/intern/rna_nla.cc:459
+msgid "Could not assign action %s to NLA strip %s"
+msgstr "Kunde inte tilldela Actionen %s till NLA-remsan %s"
