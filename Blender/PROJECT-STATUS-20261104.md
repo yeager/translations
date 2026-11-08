@@ -8990,3 +8990,16 @@ Translate.
 manuella deltafilen för batch 957–994. Den innehåller 300
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 995 — Geometrinoders meshutdata
+
+Batch 995 granskar sex beskrivningar och fel för meshutdata i geometri-noder.
+Den använder *meshen*, *indatameshen*, *källmeshen*, *målmeshen*, *meshöar*
+och *yta* enligt Blenders datamodell. `sampled` är i detta sammanhang
+översatt med det svenska fackspråkliga verbet *provta*. Batchen är lokalt
+granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-957-995.po` är den samlade
+manuella deltafilen för batch 957–995. Den innehåller 306
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
