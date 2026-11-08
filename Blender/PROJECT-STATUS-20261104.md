@@ -10424,3 +10424,16 @@ samlade importfilen. Den innehåller 468 `msgid`-poster inklusive PO-huvudet,
 alltså 467 översättningsposter och klart under Blenders gräns på 1 000
 strängar per manuell import. Den väntar på lokal validering, arkivering och
 manuell import.
+
+## Batch 1 125 — lökskalning för rörelsebanor
+
+Batch 1 125 lokaliserar lägesnamnen i fem hjälptexter för rörelsebanornas
+lökskalning. *Around Frame* blir *Omkring bildrutan* och *On Keyframes* blir
+*Vid nyckelbildrutor*, i linje med svenska UI-etiketter. Det gör att
+hjälptexterna inte längre växlar till engelska mitt i svenska meningar.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1125.po` är den senaste
+samlade importfilen. Den innehåller 473 `msgid`-poster inklusive PO-huvudet,
+alltså 472 översättningsposter och klart under Blenders gräns på 1 000
+strängar per manuell import. Den väntar på lokal validering, arkivering och
+manuell import.

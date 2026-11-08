@@ -116,6 +116,7 @@ Senast uppdaterad: 2026-11-08.
 | parent | förälder / överordnad | Kontextstyrt i Blender-hierarkin. Den fristående UI-egenskapen kan vara *Förälder*, medan objekt- och samlingshierarkier använder *överordnat objekt* eller *överordnad*. Normalisera inte mekaniskt. |
 | Graph Editor | grafredigerare | UI-namn för redigeraren med F-kurvor. Använd bestämd form i löpande text: *i grafredigeraren*. |
 | Dope Sheet | Dopeblad | UI-namn. Använd bestämd form i löpande text: *i dopebladet*. |
+| Around Frame / On Keyframes (motion paths) | Omkring bildrutan / Vid nyckelbildrutor | Lökskalningslägen för rörelsebanor. Återanvänd de svenska lägesnamnen i hjälptexter; behåll inte den engelska etiketten i citat. |
 | Action Editor | Actionredigeraren | Redigerare för den formella Action-datatypen. Använd *Actionredigeraren* i löpande text; inte *åtgärdsredigeraren*. |
 | Value Slider | värdereglage | UI-term för ett specifikt reglage. Behåll *skjutreglage* för den generella regionen och etiketten *Show Sliders*. |
 | Outliner | Outliner | Etablerat produktnamn i Blender-manualen. Behåll det på engelska; böj vid behov som *i Outliner*. |
