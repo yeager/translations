@@ -1,0 +1,139 @@
+# translation of sv.po to Svenska
+# This file is distributed under the same license as the Blender package.
+# sten <ztonzy@yahoo.se>, 2003
+# "Last-Translator: sten <ztonzy@yahoo.se>
+# "PO-Revision-Date: 2003-04-19 21:47+0200
+# "Project-Id-Version: sv
+# "Language-Team: Svenska <sv@li.org>
+# "Content-Type: text/plain; charset=UTF-8
+# "Content-Transfer-Encoding: 8bit
+# "X-Generator: KBabel 1.0
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.5.0 Alpha (b'a7d2b7850ef2')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 08:47+0000\n"
+"PO-Revision-Date: 2025-05-16 19:08+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/"
+"sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. :src: bpy.types.CyclesObjectSettings.use_camera_cull
+#. :src: bpy.types.CyclesRenderSettings.use_camera_cull
+msgid "Use Camera Cull"
+msgstr "Använd kameragallring"
+
+#. :src: bpy.types.CyclesObjectSettings.use_distance_cull
+#. :src: bpy.types.CyclesRenderSettings.use_distance_cull
+msgid "Use Distance Cull"
+msgstr "Använd avståndsgallring"
+
+#. :src: bpy.types.CyclesRenderSettings.adaptive_min_samples
+#. :src: bpy.types.CyclesRenderSettings.preview_adaptive_min_samples
+msgid "Adaptive Min Samples"
+msgstr "Adaptivt minsta antal prov"
+
+#. :src: bpy.types.CyclesRenderSettings.adaptive_min_samples
+msgid ""
+"Minimum AA samples for adaptive sampling, to discover noisy features before "
+"stopping sampling. Zero for automatic setting based on noise threshold"
+msgstr ""
+"Minsta antal AA-prov för adaptiv provtagning för att upptäcka brusiga "
+"detaljer innan provtagningen stoppas. Noll innebär en automatisk inställning "
+"baserad på bruströskelvärdet"
+
+#. :src: bpy.types.CyclesRenderSettings.adaptive_threshold
+msgid ""
+"Noise level step to stop sampling at, lower values reduce noise at the cost "
+"of render time. Zero for automatic setting based on number of AA samples"
+msgstr ""
+"Brusnivå vid vilken provtagningen ska stoppas. Lägre värden minskar bruset "
+"på bekostnad av renderingstiden. Noll innebär en automatisk inställning "
+"baserad på antalet AA-prov"
+
+#. :src: bpy.types.CyclesRenderSettings.camera_cull_margin
+msgid "Camera Cull Margin"
+msgstr "Marginal för kameragallring"
+
+#. :src: bpy.types.CyclesRenderSettings.camera_cull_margin
+msgid "Margin for the camera space culling"
+msgstr "Marginal för gallring i kamerarymden"
+
+#. :src: bpy.types.CyclesRenderSettings.debug_use_hair_bvh
+msgid "Use Curves BVH"
+msgstr "Använd kurv-BVH"
+
+#. :src: bpy.types.CyclesRenderSettings.debug_use_spatial_splits
+msgid "Use Spatial Splits"
+msgstr "Använd rumsliga uppdelningar"
+
+#. :src: bpy.types.CyclesRenderSettings.denoiser
+msgid ""
+"Denoise the image with the selected denoiser. For denoising the image after "
+"rendering"
+msgstr ""
+"Brusreducera bilden med den valda brusreduceraren. För brusreducering av "
+"bilden efter rendering"
+
+#. :src: bpy.types.CyclesRenderSettings.denoising_input_passes
+#. :src: bpy.types.CyclesRenderSettings.preview_denoising_input_passes
+msgid ""
+"Passes used by the denoiser to distinguish noise from shader and geometry "
+"detail"
+msgstr ""
+"Pass som brusreduceraren använder för att skilja brus från shader- och "
+"geometridetaljer"
+
+#. :src: bpy.types.CyclesRenderSettings.denoising_prefilter
+#. :src: bpy.types.CyclesRenderSettings.preview_denoising_prefilter
+msgid ""
+"Prefilter noisy guiding (albedo and normal) passes to improve denoising "
+"quality when using OpenImageDenoise"
+msgstr ""
+"Förfiltrera brusiga styrpass (albedo och normal) för att förbättra "
+"brusreduceringskvaliteten med OpenImageDenoise"
+
+#. :src: bpy.types.CyclesRenderSettings.denoising_prefilter:'FAST'
+#. :src: bpy.types.CyclesRenderSettings.preview_denoising_prefilter:'FAST'
+msgid ""
+"Denoise color and guiding passes together. Improves quality when guiding "
+"passes are noisy using least amount of extra processing time"
+msgstr ""
+"Brusreducera färg- och styrpass tillsammans. Förbättrar kvaliteten när "
+"styrpassen är brusiga med minimal extra bearbetningstid"
+
+#. :src: bpy.types.CyclesRenderSettings.denoising_prefilter:'ACCURATE'
+#. :src: bpy.types.CyclesRenderSettings.preview_denoising_prefilter:'ACCURATE'
+msgid ""
+"Prefilter noisy guiding passes before denoising color. Improves quality when "
+"guiding passes are noisy using extra processing time"
+msgstr ""
+"Förfiltrera brusiga styrpass före brusreducering av färg. Förbättrar "
+"kvaliteten när styrpassen är brusiga med extra bearbetningstid"
+
+#. :src: bpy.types.CyclesRenderSettings.denoising_use_gpu
+#. :src: bpy.types.CyclesRenderSettings.preview_denoising_use_gpu
+msgid ""
+"Perform denoising on GPU devices configured in the system tab in the user "
+"preferences. This is significantly faster than on CPU, but requires "
+"additional GPU memory. When large scenes need more GPU memory, this option "
+"can be disabled"
+msgstr ""
+"Utför brusreducering på GPU-enheter som har konfigurerats på systemfliken i "
+"användarinställningarna. Det är betydligt snabbare än på CPU, men kräver "
+"ytterligare GPU-minne. När stora scener behöver mer GPU-minne kan "
+"alternativet inaktiveras"
+
+#. :src: bpy.types.CyclesRenderSettings.distance_cull_margin
+msgid "Cull Distance"
+msgstr "Gallringsavstånd"
+
+#. :src: bpy.types.CyclesRenderSettings.distance_cull_margin
+msgid "Cull objects which are further away from camera than this distance"
+msgstr "Gallra bort objekt som är längre från kameran än detta avstånd"
