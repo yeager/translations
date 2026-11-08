@@ -329,6 +329,13 @@ referenser till Actionens bildruteintervall, Action-lager, äldre Actioner och
 Actionens posemarkörer. Samlingsfilen för batch 957–970 innehåller 106 poster
 och är lokalt kontrollerad men ännu inte importerad i Blender Translate.
 
+Batch 971 rättar två pluralfel för Compositor- och renderutdata:
+*filformatstillägget* blir *filformatstilläggen* när källsträngen avser flera
+tillägg. `l10n-lint` varnar enbart för att svenskans *t.ex.* saknar källans
+engelska exempelkolon; detta är en avsiktlig svensk formulering. Samlingsfilen
+för batch 957–971 innehåller 108 poster och är lokalt kontrollerad men ännu
+inte importerad i Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
