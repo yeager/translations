@@ -179,6 +179,7 @@ Senast uppdaterad: 2026-11-08.
 | mesh geometry / mesh detail / mesh element | meshgeometri / meshdetalj / meshelement | Geometri, detalj och valbart element som hör till Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätgeometri*, *nätdetalj* eller *nätelement*. |
 | edit mesh / mesh overlay / mesh type | redigeringsmesh / meshöverlägg / meshtyp | Redigerbar mesh, dess visningsöverlägg och dess RNA-typ. Behåll *mesh* som led i de projektspecifika tekniska sammansättningarna. |
 | source / destination mesh | källmesh / målmesh | Meshar som är källa respektive mål för dataöverföring. I bestämd form används *källmeshen* och *målmeshen*. |
+| mesh source | meshkälla | Rigid Body-inställning som väljer vilken mesh som används för kollisionsformen. Använd inte *nätkälla*. |
 | base / input mesh | basmesh / indatamesh | Mesh som utgör ursprungsgeometri respektive indata för en modifierare. I bestämd form används *basmeshen* och *indatameshen*; ersätt inte med *basnät* eller *indatanät*. |
 | surface mesh | ytmesh | Mesh som utgör ytan som skulpteringsverktyget utvärderar. Använd *ytmeshen* i bestämd form; ersätt inte den tekniska typen med *ytnät*. |
 | emitter mesh | emittermesh | Mesh som emitterar hårpartiklar. Använd *emittermeshen* i bestämd form; ersätt inte med *emitternät*. |
