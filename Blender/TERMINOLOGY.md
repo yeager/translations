@@ -369,6 +369,7 @@ Senast uppdaterad: 2026-11-07.
 | bevel | avfasning / fasning | *Avfasning* för UI-egenskapen och modifieraren, *fasning* kan beskriva resultatet i löpande text. |
 | Bevel Modifier | avfasningsmodifierare | Blender-modifierarens belagda UI- och manualform. |
 | modifier space | modifierarens koordinatrum | Modifierarens egna koordinatsystem. Använd konstruktionen *i modifierarens koordinatrum*, inte den otydliga sammansättningen *modifieringsutrymme*. |
+| modifier node group assets | resurser för modifierarnodgrupper | Resurser som utgör nodgrupper för modifierare. Använd den här explicita formen i Asset Browser-status, inte *modifieringsnodgruppsresurser*. |
 | Bevel Vertices / Bevel Edges | Fasa hörnpunkter / Fasa kanter | Synliga operatörsnamn. |
 | boolean operation | boolesk operation | Används för meshkombinationerna union, differens och snitt. |
 | manifold | manifold | Etablerad topologiterm i 3D-modellering; inte *fördelningsrör*. |

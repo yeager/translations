@@ -9844,6 +9844,19 @@ inte verifierad som importerad i Blender Translate.
 1 055–1 063 i en separat importfil med 75 översättningsposter. Den ska
 importeras separat från batch 957–1 054, som redan innehåller 983 poster.
 
+## Batch 1 064 — modifierarnodgruppsresurser
+
+Batch 1 064 ersätter den tidigare, mindre precisa sammansättningen
+*modifieringsnodgruppsresurser*. Texten gäller resurser för nodgrupper som
+används av modifierare och skrivs därför *resurser för
+modifierarnodgrupper*. Den ersätter en befintlig post och ändrar inte antalet
+poster i den samlade importfilen. Batchen är lokalt granskad men ännu inte
+verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1064.po` samlar batch
+1 055–1 064 i en separat importfil med 75 översättningsposter. Den ska
+importeras separat från batch 957–1 054, som redan innehåller 983 poster.
+
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
 `svlang`, `l10n-lint` och diffkontroll. `msgfmt` gav endast förväntade
 headervarningar för deltafilerna; `svlang`, `l10n-lint` och diffkontrollen
