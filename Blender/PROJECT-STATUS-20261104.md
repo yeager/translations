@@ -8977,3 +8977,16 @@ lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
 manuella deltafilen för batch 957–993. Den innehåller 290
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 994 — Meshsimulering och geometri
+
+Batch 994 granskar tio strängar för vätskesimulering, modifierare och
+geometrinoder. Den normaliserar *meshen*, *meshobjekt*, *meshö* och
+*meshens yta*, medan *rutnät* behålls när en volymgrid faktiskt avses.
+Batchen är lokalt granskad, men ännu inte verifierad som importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-957-994.po` är den samlade
+manuella deltafilen för batch 957–994. Den innehåller 300
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
