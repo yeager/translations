@@ -990,6 +990,7 @@ Senast uppdaterad: 2026-11-08.
 | grid | rutnät | Simulerings-, volym- och partikelrutnät. Undvik det tvetydiga *nät*; undantaget är den synliga Mesh-menyposten *Grid* → *Nät*. |
 | spherical harmonics | sfäriska harmoniker | Etablerad matematisk/fysikalisk term i Blenders SPZ- och Gaussian-splat-import. Hunspell saknar pluralformen, men termen är verifierad i svenska universitetskällor. |
 | scale reader (SPZ) | skalningsläsare | Komponent som läser skalningsdata i SPZ-importen. Undvik den missvisande sammansättningen *skalleläsare*. |
+| USD blend shape | formnyckel | USD-importören omvandlar USD-blend shapes till Blenders Shape Keys. I strukturella feltexter används *morfmål* för `blendshape targets`. |
 
 ## Kontrollerade UI-formuleringar
 
