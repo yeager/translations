@@ -10720,3 +10720,9 @@ För manuell import finns samma perioddelta delat utan överlappning i
 `blender-ui-sv-reviewed-20261108-changes-last24h-part-2.po` med 784
 översättningsposter. Båda filerna ligger under uppladdningsgränsen; deras
 importstatus på Blender Translate är inte verifierad här.
+
+Batch 626 normaliserar koordinatrymd i tillgångsnoden *Screen to 3D Space*.
+Den använder *skärmrymd* och *3D-rymd* konsekvent i nodnamnet och dess
+beskrivning. Deltafilen
+`blender-ui-sv-reviewed-20261108-batch-626-screen-to-3d-space.po` är lokalt
+kontrollerad, arkiverad och väntar på manuell import till Blender Translate.

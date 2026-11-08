@@ -40,6 +40,7 @@ Senast uppdaterad: 2026-11-08.
 | grid index space | rutnätsindexrymd | Rutnätsvolymens indexbaserade koordinatrymd. Skriv sammansatt och använd inte *rutnätsindexutrymme*. |
 | local space / global space | lokal koordinatrymd / global koordinatrymd | Transformations- och geometritermer för objektens eller instansernas referenssystem. Använd inte de tvetydiga formerna *lokalt rum*, *global rymd* eller *globalt utrymme*. |
 | screen space | skärmrymd | Koordinatrymd baserad på den aktuella vyportens skärmplan. |
+| 3D space | 3D-rymd | Den tredimensionella koordinatrymden i noder, vyportar och geometri. Använd inte *3D-utrymme* i denna betydelse. |
 | onion skinning | lökskalning | Animeringsvisning med spökbilder från närliggande bildrutor. Undvik bokstavliga former som *avskalning av lök*. |
 | onion frame / ghost frame | lökskalsbildruta | Bildruta som visas före eller efter den aktuella bildrutan vid lökskalning. Undvik den missvisande formen *spökram*. |
 | Grease Pencil 2D Layers / 3D Location | 2D-lager / 3D-position | Visningslägen som styr streckens djupordning. Använd *lager* i UI-kontext, och *3D-position* när det är den faktiska placeringen i 3D-rymden som avses. |
