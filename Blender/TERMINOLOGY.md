@@ -787,6 +787,7 @@ Senast uppdaterad: 2026-11-08.
 | closure mode | slutningsläge | Hur Grease Pencil-streck förlängs eller kopplas för att täppa igen glapp vid fyllning. |
 | closure size | storlek för slutning | Hur långt streckens ändar får förlängas för att täppa igen glapp. |
 | jitter | slumpning | Slumpvariation i penselposition, radie eller andra streckegenskaper. |
+| Jitter (keyframe type) | darrning | Visuell nyckelbildrutetyp för mellanliggande eller bakade bildrutor. Skilj från penselns *jitter* → *slumpning*. |
 | subdivision steps | underindelningssteg | Antal gånger Grease Pencil-streck delas upp för att bli mindre taggiga. |
 | pin mode | fäst läge | Låser ett valt ritläge till den aktuella penseln. |
 | stroke collision | streckkollision | Kontrollerar om förlängda Grease Pencil-streck kolliderar med andra streck. |
