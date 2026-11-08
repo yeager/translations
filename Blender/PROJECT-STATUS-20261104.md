@@ -10145,6 +10145,21 @@ PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
 `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
 Den är lokalt validerad och väntar på manuell import i Blender Translate.
 
+## Batch 1 095–1 096 — sekvensredigeraren
+
+Batch 1 095 normaliserar 63 löpande förekomster av *Sequencer* i Video
+Sequencer- och kompositionskontext till *sekvensredigerare*. Batch 1 096 tar
+de 22 återstående versaliserade etikett-, verktygs- och genitivformerna.
+Bildsekvenser, filformat och API-identifierare berörs inte. Efter båda
+batcherna finns inga återstående svenska UI-översättningar med den äldre
+formen *sekvenserare* i den effektiva lokala katalogen.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1096.po` samlar batch
+1 055–1 096 i en separat importfil med 263 översättningsposter (264 med
+PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
+`svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
+Den är lokalt validerad och väntar på manuell import i Blender Translate.
+
 Den 8 november 2026 visade användarens importresultat 351 bearbetade poster,
 39 överhoppade och 312 uppdaterade. Skärmbilden anger inte entydigt vilken
 lokal importfil som användes, så den kan inte användas som bevis för att den
