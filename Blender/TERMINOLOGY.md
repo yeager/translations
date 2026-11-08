@@ -22,6 +22,7 @@ Senast uppdaterad: 2026-11-08.
 | Theme Space / Theme Space List | temaområde / lista över temaområden | Inställningarnas färgtema för ett Blender-redigerarområde, inte ett fysiskt utrymme. |
 | Sidebar | sidofält | Redigerarens sidoregion och dess flikar. Använd *sidofältsflik*; det generella *side-panel* kan vara *sidopanel* när det inte avser denna specifika Blender-region. |
 | fallback (WindowManager keymap) | reserv | Suffix för Blenders reservmappning av ett verktyg, exempelvis *kniv (reserv)*. Behåll inte engelska *fallback* i svenska tangentmappningsnamn. |
+| fallback texture (glTF compressed-image export/import) | reservtextur | PNG- eller JPEG-textur som följer med en komprimerad WebP- eller KTX2-textur för klienter som saknar stöd för den. Använd *reservtextur*, inte engelska *fallbacktextur*. |
 | access token | åtkomsttoken | Skriv ihop. Förklarande rubriker får precisera typen: *biblioteksåtkomsttoken* respektive *förrådsåtkomsttoken*. |
 | remote asset library | fjärranslutet resursbibliotek | Skriv ut relationen i löpande text; undvik *fjärrresursbibliotek*, som blir svårläst med tre r. |
 | remote assets | fjärranslutna resurser | Nätåtkomliga resurser i Asset Browser och dess filter. Undvik *fjärrresurser*, som får tre r i följd. |
