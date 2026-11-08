@@ -3172,6 +3172,19 @@ Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
 Gitleaks passerade. Batchen är lokalt färdig och redo för manuell import;
 ingen Blender Translate-import är verifierad här.
 
+## Batch 1 289 — 3D-rymd
+
+Fyra hjälprader och tillgångsnamn i filmklippning, annoteringar och
+Geometry Nodes normaliserar *3D space* från det vardagliga *3D-utrymme* till
+Blenders koordinatterm *3D-rymd*. Deltafilen
+`blender-ui-sv-reviewed-batch-1289-3d-space.po` innehåller fyra poster och
+har SHA-256
+`ea55f1e6a62989ad69cca721c92658c4157b13afae571fec5692b34402db3254`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning och
+Gitleaks passerade. Batchen är lokalt färdig, arkiverad och redo för manuell
+import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 288 — koordinatrymder
 
 Två databeskrivningar för kameraspårning och mesh-tangenter normaliserar
