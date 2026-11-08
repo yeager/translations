@@ -318,6 +318,12 @@ sammanhang där de är namn på Blenders formella animeringsobjekt. Samlingsfile
 för batch 957–968 innehåller 89 poster och är lokalt kontrollerad men ännu
 inte importerad i Blender Translate.
 
+Batch 969 granskar elva operator- och statusposter för byte av Action. Den
+skiljer *Ersätt Action*, *ersättnings-Action*, *Action-begränsning* och
+*Action-slot* från generiska åtgärder. Samlingsfilen för batch 957–969
+innehåller 100 poster och är lokalt kontrollerad men ännu inte importerad i
+Blender Translate.
+
 Batch 658 normaliserar 16 UI- och hjälpposter för *screen space* till
 *skärmrymd*. Den ersätter inkonsekventa former som *skärmutrymme*,
 *skärmyta* och *skärmrummet* i bland annat Grease Pencil, knivverktyget,
