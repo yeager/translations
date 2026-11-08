@@ -11116,10 +11116,11 @@ Den är lokalt validerad men ännu inte verifierad som importerad i Blender
 Translate.
 
 Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
-diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
-`a92ec6bd`; TM-ändringen är pushad i `swedish-tm`-commit `1ef888a`.
-Ingen Weblate-import är verifierad; batchen är lokalt färdig och redo för
-manuell import.
+diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i den
+verifierade committen `a8730dbb`. Den kontextberoende UI-deltan gav ingen
+separat direkt TM-post; de entydiga Blender-termerna synkroniserades senare
+samlat i `swedish-tm`-commit `1ea601c`. Ingen Weblate-import är verifierad;
+batchen är lokalt färdig och redo för manuell import.
 
 ## Batch 1 265 — UI-regioner och animering
 
