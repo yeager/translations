@@ -589,6 +589,7 @@ Senast uppdaterad: 2026-11-08.
 | simulation cache | simuleringscache | Cache för bildrutor vid uppspelning av simuleringsnoder. |
 | simulation space | simuleringsrymd | Koordinatrymd där Geometry Nodes-simuleringen utvärderas; standarden är världsrymden. |
 | Pose Mode | poseringsläge | Arbetsläget för att posera en armatur. Använd även böjningen *i poseringsläget*, inte den inkonsekventa formen *poseläge*. |
+| armature space | armaturens koordinatrymd | Koordinatrymd för ett riggskelett och dess ben, bland annat i Geometry Nodes. Använd inte det vaga *armaturutrymme*. |
 | Pose Bone | posben | Ben i en armatur i poseringsläge. Skriv ihop även i sammansättningar, exempelvis *posbensfärg*. |
 | dynamic topology sculpting | skulptering med dynamisk topologi | Skulpteringsläge som ändrar meshtopologin dynamiskt. |
 | child particle | barnpartikel | Partikel som härleds från en föräldrapartikel. |
