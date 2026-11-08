@@ -9814,8 +9814,14 @@ resurssystemfil tydlig och använder genomgående *resurs* i denna
 användargränssnittskontext. Batchen är lokalt granskad men ännu inte verifierad
 som importerad i Blender Translate.
 
-`blender-ui-sv-reviewed-20261108-pending-batches-1055-1061.po` samlar batch
-1 055–1 061 i en separat importfil med 72 översättningsposter. Den ska
+## Batch 1 062 — katalogstatus
+
+Batch 1 062 granskar de återstående korta Asset Browser-statusraderna för en
+tom resurskatalog och panelrubriken för resurskataloger. Batchen är lokalt
+granskad men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1062.po` samlar batch
+1 055–1 062 i en separat importfil med 74 översättningsposter. Den ska
 importeras separat från batch 957–1 054, som redan innehåller 983 poster.
 
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
