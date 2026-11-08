@@ -10012,3 +10012,17 @@ innehåller 983 poster.
 Kontrollerad 8 november 2026 mot Blenders officiella releasesida:
 **Blender 5.2 LTS** uppdaterades till **5.2.3** den 22 oktober 2026. Projektet
 uppfyller därmed kravet på en aktuell release inom 48 månader.
+
+## Batch 1 076 — Node Wrangler-shadernoder
+
+Batch 1 076 rättar Node Wranglers meny för att sammanfoga valda noder. I
+denna meny avser *Shaders* uttryckligen Blender-nodtypen `ShaderNode`, inte
+den allmänna processen skuggning. Översättningen är därför *Sammanfoga valda
+noder med shadernoder*. Kontexten har kontrollerats mot Blenders aktuella
+Node Wrangler-manual och källans `ShaderNode`-typ. Batchen är lokalt
+granskad men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1076.po` samlar batch
+1 055–1 076 i en separat importfil med 110 översättningsposter (111 med
+PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
+innehåller 983 poster.

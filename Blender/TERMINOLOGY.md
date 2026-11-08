@@ -141,7 +141,7 @@ Senast uppdaterad: 2026-11-08.
 | working plane | arbetsplan | Etablerad term i Blenders TBX-ordlista. |
 | internal clipboard | interna urklippet | UI-funktion, inte operativsystemets urklipp. |
 | rigid body | styv kropp | Fysiksimuleringens etablerade term. |
-| shader | shader | Behåll den etablerade facktermen i UI och nodnamn. |
+| shader | shader | Behåll den etablerade facktermen i UI och nodnamn. När en meny uttryckligen avser nodtypen används *shadernod* och *shadernoder*, inte den vidare saktermen *skuggning*. |
 | shader program | shaderprogram | Program som körs för shaderberäkning; skriv sammansättningen ihop. |
 | Shader Node | shadernod | Formell Blender-nodtyp. Skriv sammansättningen ihop: *shadernod*, *shadernoder*, *shadernodträd* och *shadernoduttag*. När *shader* i stället avser skuggningsberäkningen används den svenska saktermen *skuggning*. |
 | anti-aliasing | kantutjämning | Synlig inställning för text- och bildåtergivning. |
