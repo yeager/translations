@@ -8482,6 +8482,7 @@ importerad i Blender Translate.
 manuella deltafilen för batch 811–934. Den innehåller 802
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
 ## Batch 935 — resurstermer i resursbläddraren
 
 Batch 935 normaliserar tolv synliga etiketter och hjälprader för
@@ -9001,5 +9002,17 @@ granskad, men ännu inte verifierad som importerad i Blender Translate.
 
 `blender-ui-sv-reviewed-20261108-pending-batches-957-995.po` är den samlade
 manuella deltafilen för batch 957–995. Den innehåller 306
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
+
+## Batch 996 — Geometrinoders meshavfasning
+
+Batch 996 granskar fem geometri-nodsträngar för avfasning och UV-sampling.
+*Mesh* behandlas konsekvent som Blenders datatyp i formerna *meshen* och
+*meshens*. Batchen är lokalt granskad, men ännu inte verifierad som importerad
+i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-996.po är den samlade
+manuella deltafilen för batch 957–996. Den innehåller 311
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
