@@ -31,12 +31,14 @@ har skapats av senare granskningar.
 | Skulptering, målning och viktmålning | 14 | 2 | 12 | `blender-ui-sv-reviewed-batch-1231-sculpt-paint-weight-paint.po`, commit `77c97075` |
 | Mesh- och UV-redigering | 21 | 4 | 17 | `blender-ui-sv-reviewed-batch-1232-mesh-uv-editing.po`, commit `68fc110b` |
 | Filhantering, import/export och externa data | 23 | 6 | 17 | `blender-ui-sv-reviewed-batch-1233-file-browser-external-data.po`, commit `58911c57` |
+| Rendering, färghantering och kompositorn | 22 | 4 | 18 | `blender-ui-sv-reviewed-batch-1234-render-color-compositor.po`, commit `a9cf36dd` |
+| Arbetsytor, redigerare och layout | 10 | 5 | 5 | `blender-ui-sv-reviewed-batch-1235-workspace-editor-layout.po`, commit `94766888` |
 
-Efter dessa sex grupper har 106 tidigare otäckta strängar granskats. Deltafiler
+Efter dessa åtta grupper har 138 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
 kontrollerade former som rätteligen lämnades kvar. Den jämförbara lokala
-täckningen är därmed minst 10 003 av 40 427 strängar, alltså **24,74 %**;
-30 424 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
+täckningen är därmed minst 10 035 av 40 427 strängar, alltså **24,82 %**;
+30 392 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
 ny radgranskning, eftersom den rättar formuleringen av en redan granskad
 sekvensrenderingssträng.
 
