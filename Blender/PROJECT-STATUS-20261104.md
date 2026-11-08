@@ -11023,6 +11023,22 @@ Gitleaks, och är arkiverad och pushad i commit `74558e4e`.
 Importstatus: redo för manuell Weblate-import; inget importresultat är
 verifierat här.
 
+## Samlad import — batch 1 271–1 274
+
+`blender-ui-sv-reviewed-import-20261108-batches-1271-1274.po` samlar åtta
+kontextgranskade UI-poster: transformation, metaklot, tomt objekt, mjukkropp,
+underytsspridning, lökskal och viktmålning. Filen är en deltafil, inte en
+fullständig Blender-export, och har SHA-256
+`b2ac849a2e6befa19759446d7e8e41b6d642862d1e584b17a98775807477476b`.
+
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Importfilen
+och statusuppdateringen arkiverades och pushades i `yeager/translations` som
+commit `a433fe51`. Importresultat i Blender Translate är inte verifierat av
+arkivet. De fem entydiga generella termparen synkroniserades även till
+`swedish-tm` (PO och TMX) i commit `1ea601c`; kontrollverktygets okända
+sammansättningar *mjukkropp* och *underytsspridning* bedömdes manuellt som
+korrekta Blender-termer.
+
 ## Batch 1 266 — Kompositör
 
 I den nod- och 3D-vykontext där `Compositor` betyder Blenders
