@@ -2,6 +2,20 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 308 — tangent i lokal koordinatrymd
+
+Meshens tangentvektor beskriver uttryckligen en vektor i *local space*.
+Den tvetydiga formen *lokalt rum* ersätts därför av den etablerade
+Blender-termen *lokal koordinatrymd*. Kodidentifieraren `calc_tangents`
+behålls oförändrad.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1308-local-coordinate-space-tangent.po`
+innehåller en ändrad post och har SHA-256
+`72a1522f64ab35c3e1e28611484b3e97953c2624f6cc904d8879fa18adec55dd`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 307 — intern märkning och skarpa kanter
 
 Två olika betydelser av *tag* skiljs åt. Den interna flaggan
