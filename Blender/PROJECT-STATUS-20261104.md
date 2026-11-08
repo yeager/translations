@@ -9783,8 +9783,16 @@ resurser samt gör kommandot för att rensa en resurs entydigt i singular.
 Batchen är lokalt granskad men ännu inte verifierad som importerad i Blender
 Translate.
 
-`blender-ui-sv-reviewed-20261108-pending-batches-1055-1057.po` samlar batch
-1 055–1 057 i en separat importfil med 24 översättningsposter. Den ska
+## Batch 1 058 — Asset Browser RNA
+
+Batch 1 058 granskar 20 egenskaper och hjälprader för resursmetadata,
+resurshyllan och importmetoder. Den normaliserar *asset* till *resurs* i
+sammanhängande Asset Browser-kontext utan att ändra API-identifierare,
+protokollnamn eller formatnamn. Batchen är lokalt granskad men ännu inte
+verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1058.po` samlar batch
+1 055–1 058 i en separat importfil med 44 översättningsposter. Den ska
 importeras separat från batch 957–1 054, som redan innehåller 983 poster.
 
 Den 8 november 2026 kördes en samlad omvalidering av denna fil med `msgfmt`,
