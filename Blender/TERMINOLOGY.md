@@ -511,6 +511,7 @@ Senast uppdaterad: 2026-11-08.
 | surfel | surfel | Punktbaserat ytelement för global belysning; plural *surfelar*. |
 | backface culling | baksidesgallring | Renderingsteknik som döljer ytors baksidor. |
 | ray tracing | strålspårning | Renderingsteknik; använd exempelvis *strålspårad transmission*. |
+| hair transmission component | komponent som överförs in i håret, reflekteras mot hårets baksida och sedan överförs ut ur håret | Principled Hair BSDF:s fysikaliska ljuskomponent. Använd presens i egenskapsbeskrivningen; *transmitterats* beskriver i stället en redan avslutad strålgång. |
 | shadow terminator / geometry, normal, shading offset | skuggterminator / geometriförskjutning, normalförskjutning, skuggningsförskjutning | Cycles gräns mellan ljus och mörker på lågpolygeometri. Offset-inställningarna minskar artefakter genom att justera strålarnas utgångspunkt eller skugggränsen. |
 | texture slot | texturplats | Plats som kopplar en textur till ett material eller målningsverktyg. |
 | mesh loop | meshloop | Intern meshtopologisk struktur vid ett ythörn; *looptriangel* används för triangulerat resultat. |

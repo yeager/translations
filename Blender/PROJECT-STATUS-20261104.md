@@ -10393,3 +10393,20 @@ decimalformer, svensk interpunktion i *t.ex.*, samt källans metadata. Inga
 ytterligare säkra ändringar skapades av denna kontroll. Detta är en
 katalogomfattande verktygsgranskning, inte ett påstående om att samtliga
 40 427 poster har fått en ny rad-för-rad-mänsklig bedömning.
+
+## Batch 1 123 — sekvensurklipp och Principled Hair-transmission
+
+Batch 1 123 gör felmeddelandet för inklistring från sekvensredigeraren
+idiomatiskt: det saknas en *urklippsscen med data från sekvensredigeraren*,
+inte en svårtolkad konstruktion med två *från*. Den korrigerar även
+Principled Hair BSDF:s transmissionskomponent. Egenskapsbeskrivningen gäller
+ett fortgående ljusförlopp och använder därför presens: ljuset *överförs in i
+håret*, reflekteras mot baksidan och överförs ut igen. Den separata
+renderingspassbeskrivningen för redan genomlöpta strålgångar berörs inte.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1123.po` är den senaste
+samlade importfilen. Den innehåller 466 `msgid`-poster inklusive PO-huvudet,
+alltså 465 översättningsposter och klart under Blenders gräns på 1 000
+strängar per manuell import. Den är lokalt validerad med `msgfmt`,
+`l10n-lint`, `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och
+Gitleaks. Den är ännu inte manuellt importerad eller upstream-verifierad.
