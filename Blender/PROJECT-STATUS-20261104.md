@@ -8465,3 +8465,20 @@ separata manuella deltafilen med de elva rättningarna.
 manuella deltafilen för batch 811–942. Den innehåller 868
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 943 — Action-referenser i NLA
+
+Batch 943 granskar femton NLA- och animationsoperatorer som läser, lagrar,
+byter, bakar eller refererar till Blenders formella animationsdatatyp
+*Action*. Termerna normaliseras till *Action*, *Actionen* och *Actioner*;
+*Action Constraints* blir *Action-begränsningar*. Det vanliga ordet
+"åtgärd" i generella gränssnittskommandon ändras inte. Batchen är lokalt
+granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-943-action-nla-data-references.po` är
+den separata manuella deltafilen med de femton rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-943.po` är den samlade
+manuella deltafilen för batch 811–943. Den innehåller 883
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
