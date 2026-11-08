@@ -10852,3 +10852,25 @@ innehåller tretton poster (fjorton inklusive PO-huvudet), har passerat
 `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning, diffkontroll och
 Gitleaks, och är arkiverad och pushad i commit `2f48995c`. Någon import till
 Blender Translate är inte verifierad.
+
+## Batch 1 252–1 257 — Action och gränssnittsterminologi
+
+Sex små, kontextgranskade deltafiler korrigerar sammanlagt fjorton aktuella
+Blender UI-strängar. De täcker den formella animationstypen *Action* och dess
+slotar, kommandot *Baka Action*, mesh-flaggan *markerade kanter*, den
+redigerarspecifika regionen *Sidofält* samt rubriker, vyetiketter och
+nyckeluppsättningar. Ändringarna är avgränsade från vanliga generiska
+betydelser av *action* och från användargenererade taggar.
+
+Alla sex filer har passerat `msgfmt`, l10n-lint, svlang, hunspell-sv,
+diffkontroll och Gitleaks. De är arkiverade och pushade i commits `2827b1dc`,
+`8163c769`, `8af49123`, `74e29b4d`, `e4f428dc` och `600a8044`.
+`swedish-tm` är uppdaterad för de nya måltexterna där TM:n tidigare innehöll
+den äldre formuleringen. Den samlade importfilen
+`blender-ui-sv-reviewed-import-20261108-batches-1252-1257.po` innehåller alla
+fjorton strängar och har SHA-256
+`5dc896e98ec401c8bc65ff6371aa4ad9a043ae0a77a96cf3735753ce1e6958d1`.
+
+Ingen Weblate-import av dessa batcher är verifierad. De ska därför räknas som
+lokalt färdiga och arkiverade, inte som upstream-inskickade, tills ett
+importresultat visar antal uppdaterade, hoppade över och saknade strängar.
