@@ -10145,6 +10145,18 @@ PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
 `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
 Den är lokalt validerad och väntar på manuell import i Blender Translate.
 
+## Batch 1 094 — Simple Deform-modifierarens koordinatrum
+
+Batch 1 094 rättar *modifier space* i Simple Deform från den otydliga
+sammanpressade formen *modifierarutrymmet* till *modifierarens koordinatrum*.
+Det är modifierarens lokala koordinatsystem, inte ett allmänt arbetsutrymme.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1094.po` samlar batch
+1 055–1 094 i en separat importfil med 180 översättningsposter (181 med
+PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
+`svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
+Den är lokalt validerad och väntar på manuell import i Blender Translate.
+
 ## Batch 1 095–1 096 — sekvensredigeraren
 
 Batch 1 095 normaliserar 63 löpande förekomster av *Sequencer* i Video
@@ -10160,19 +10172,23 @@ PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
 `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
 Den är lokalt validerad och väntar på manuell import i Blender Translate.
 
-Den 8 november 2026 visade användarens importresultat 351 bearbetade poster,
-39 överhoppade och 312 uppdaterade. Skärmbilden anger inte entydigt vilken
-lokal importfil som användes, så den kan inte användas som bevis för att den
-senaste samlingsfilen 1 055–1 093 är importerad.
+## Batch 1 097 — 3D-vyport
 
-## Batch 1 094 — Simple Deform-modifierarens koordinatrum
+Batch 1 097 normaliserar 19 tydliga *viewport*-referenser till Blenders
+etablerade UI-term *3D-vyport*. När den engelska texten avser att dölja andra
+objekt under glTF-export skrivs den svenska hjälpraden explicit som
+*inaktivera visning i 3D-vyporten*, så att den inte kan misstolkas som att
+redigeraren ska stängas. Efter batchen finns inga kvarvarande
+*viewport*-källsträngar med den svenska formen *3D-vyn* i den effektiva
+lokala katalogen.
 
-Batch 1 094 rättar *modifier space* i Simple Deform från den otydliga
-sammanpressade formen *modifierarutrymmet* till *modifierarens koordinatrum*.
-Det är modifierarens lokala koordinatsystem, inte ett allmänt arbetsutrymme.
-
-`blender-ui-sv-reviewed-20261108-pending-batches-1055-1094.po` samlar batch
-1 055–1 094 i en separat importfil med 180 översättningsposter (181 med
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1097.po` samlar batch
+1 055–1 097 i en separat importfil med 281 översättningsposter (282 med
 PO-huvudet). Alla poster har kontrollerats med `msgfmt`, `l10n-lint`,
 `svlang consistency`, riktad Hunspell-kontroll, diffkontroll och Gitleaks.
 Den är lokalt validerad och väntar på manuell import i Blender Translate.
+
+Den 8 november 2026 visade användarens importresultat 351 bearbetade poster,
+39 överhoppade och 312 uppdaterade. Skärmbilden anger inte entydigt vilken
+lokal importfil som användes, så den kan inte användas som bevis för att den
+senaste samlingsfilen 1 055–1 097 är importerad.
