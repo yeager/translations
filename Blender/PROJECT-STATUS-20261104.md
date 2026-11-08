@@ -3159,6 +3159,25 @@ Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
 diffkontroll och Gitleaks passerade. Batchen är lokalt färdig och redo för
 manuell Blender Translate-import. Något importresultat är inte verifierat.
 
+## Batch 1 291–1 293 — referensrymder
+
+De följande små deltorna slutför ytterligare kontextberoende normalisering av
+Blenders referensrymder i den lokala exporten:
+
+- Batch 1 291 använder *kraftrymd* för Geometry Nodes-gruppen Custom Force.
+- Batch 1 292 rättar *lokalt koordinatrum* och modifierarens referensrymd till
+  *lokal koordinatrymd* respektive *modifierarens koordinatrymd*.
+- Batch 1 293 använder *armaturens koordinatrymd* i Edit Bone och
+  *modifierarens koordinatrymd* i Simple Deform.
+
+Deltafilerna innehåller fyra, två respektive två poster. De har SHA-256
+`e44cb011ea035594c24cc4316b882437a5335abc273b40dbff668fe9695388f5`,
+`44ec76fcdc96ac133e08121cb59167c1f4f32734a0ba90ae049d332ea879dbff` och
+`c4ba06a4d4acc9ed0a2b7995c9c06bfb5335700c6bb612fb1a4bd77e9503d74f`.
+Alla passerar `msgfmt`, l10n-lint, svlang, Hunspell-kandidatsökning,
+diffkontroll och Gitleaks. De är arkiverade och TM-synkroniserade men saknar
+verifierat importresultat i Blender Translate.
+
 ## Batch 1 276 — cache och kamerarymd
 
 Sju UI-strängar normaliserar facktermerna *cachelagrad* och *kamerarymd*.
