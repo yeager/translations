@@ -9129,3 +9129,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1005.po är den samlade
 manuella deltafilen för batch 957–1 005. Den innehåller 385
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 006 — Meshprimitiver och Edit Mode
+
+Batch 1 006 granskar tjugo synliga Edit Mode-texter för primitiva meshar,
+meshslingor, urval, omordning och utjämning. Den etablerar och följer
+*cirkelmesh*, *kubmesh*, *meshslinga*, *meshelement*, *meshen* och
+*meshens*. Batchen är lokalt granskad, men ännu inte verifierad som importerad
+i Blender Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1006.po är den samlade
+manuella deltafilen för batch 957–1 006. Den innehåller 405
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
