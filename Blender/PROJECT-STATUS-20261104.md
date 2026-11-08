@@ -10026,3 +10026,16 @@ granskad men ännu inte verifierad som importerad i Blender Translate.
 1 055–1 076 i en separat importfil med 110 översättningsposter (111 med
 PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
 innehåller 983 poster.
+
+## Batch 1 077 — shadernoder och shaderuttag
+
+Batch 1 077 gör nodterminologin konsekvent: *ShaderNode* blir
+*shadernod*, ett shaderuttag skiljs från den allmänna processen
+*skuggning*, och felmeddelanden anger kompletta sammansättningar som
+*shadernodträd* och *geometrinodträd*. Batchen är lokalt granskad men ännu
+inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1077.po` samlar batch
+1 055–1 077 i en separat importfil med 114 översättningsposter (115 med
+PO-huvudet). Den ska importeras separat från batch 957–1 054, som redan
+innehåller 983 poster.

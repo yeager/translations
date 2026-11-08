@@ -144,6 +144,7 @@ Senast uppdaterad: 2026-11-08.
 | shader | shader | Behåll den etablerade facktermen i UI och nodnamn. När en meny uttryckligen avser nodtypen används *shadernod* och *shadernoder*, inte den vidare saktermen *skuggning*. |
 | shader program | shaderprogram | Program som körs för shaderberäkning; skriv sammansättningen ihop. |
 | Shader Node | shadernod | Formell Blender-nodtyp. Skriv sammansättningen ihop: *shadernod*, *shadernoder*, *shadernodträd* och *shadernoduttag*. När *shader* i stället avser skuggningsberäkningen används den svenska saktermen *skuggning*. |
+| shader socket | shaderuttag | Uttag med shaderdata i en nod eller ett nodgränssnitt. Det är inte detsamma som den fysiska processen *skuggning*. |
 | anti-aliasing | kantutjämning | Synlig inställning för text- och bildåtergivning. |
 | Subpixel Anti-Aliasing | Kantutjämning på subpixelnivå | Följer den aktuella svenska UI-etiketten. |
 | font hinting | teckensnittshintning | Inställning som styr teckenplacering och skärpa i textåtergivning. Den aktuella UI-exportens *Teckensnittshinting* bör hanteras som en separat UI-rättelse, inte kopieras in i manualprosan. |
