@@ -8550,3 +8550,35 @@ separata manuella deltafilen med de två rättningarna.
 manuella deltafilen för batch 811–947. Den innehåller 924
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 948 — färghanteringens visningstransformeringar
+
+Batch 948 granskar tolv färghanteringssträngar. Den normaliserar *view
+transform* till den etablerade Blender-termen *visningstransformering* i
+ACES-, AgX-, Filmic- och Khronos-beskrivningar samt i färghanteringens
+kompositörs- och sekvensredigerarinställningar. Format- och färgrymdsnamn
+som ACES, AgX, Filmic, OpenEXR och sRGB bevaras. Batchen är lokalt granskad,
+men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-948-color-management-view-transforms.po`
+är den separata manuella deltafilen med de tolv rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-948.po` är den samlade
+manuella deltafilen för batch 811–948. Den innehåller 934
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
+
+## Batch 949 — nätåtkomst och utdatafilsökväg
+
+Batch 949 granskar två inställningssträngar. *Online access* normaliseras
+till *nätåtkomst* och *Output Filepath* till *utdatafilsökväg*, parallellt
+med projektets etablerade term *inmatningsfilsökväg*. Batchen är lokalt
+granskad, men ännu inte verifierad som importerad i Blender Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-949-network-and-output-path.po` är
+den separata manuella deltafilen med de två rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-949.po` är den samlade
+manuella deltafilen för batch 811–949. Den innehåller 936
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
