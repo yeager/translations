@@ -89,6 +89,7 @@ Senast uppdaterad: 2026-11-08.
 | Close Menu on Leave | Stäng meny när muspekaren lämnar den | Följer den aktuella UI-etiketten ordagrant; behåll den obestämda formen *meny*. |
 | add-on / extension | tillägg | I Blender betecknar båda källtermerna samma utbyggbara funktion. Svenska använder samma form i singular och plural i korta UI-etiketter. I dokumentation som måste skilja undergruppen *add-ons* från samlingsnamnet *extensions* kan *tilläggsmoduler* användas för just undergruppen. |
 | data-block | datablock | Skriv ihop. Behåll bindestrecket bara i bokstavliga API-namn. |
+| orphaned data-block | föräldralöst datablock | Datablock utan användare, som kan rensas i Outlinern. Använd inte *övergivet datablock*, eftersom Blenders UI-etikett är *Föräldralös*. |
 | runtime data | körtidsdata | Data som bara finns under aktuell Blender-körning och därför inte sparas i .blend-filen. |
 | garbage collection | skräpinsamling | Automatisk frigöring av oanvända datablock; används i tekniska API-beskrivningar. |
 | library weak reference | svag biblioteksreferens | Svag referens till ett datablock i en annan .blend-biblioteksfil. |
@@ -122,6 +123,8 @@ Senast uppdaterad: 2026-11-08.
 | timeout | tidsgräns | Exempel: *Animation Timeout* → *Animationstidsgräns*. |
 | Link | Länk | Importmetodens UI-etikett. Använd verbet *länka* i löpande instruktioner, exempelvis *Länka resursen*. |
 | Append | Lägg till | UI-operator och importmetod. I beskrivande text blir det participiala *tillagd*, exempelvis *tillagd kopia*. |
+| Make Local / localize (linked data) | Gör lokal / gör … lokala | Åtgärden tar bort bibliotekslänkningen för valda data. Använd inte det geografiska *lokalisera*. |
+| Relocate (linked library) | Omlokalisera | Byter sökväg eller mål för ett länkat bibliotek eller ID. Skilj från den vanliga filåtgärden *Flytta*. |
 | linked / copied data-block | länkat / kopierat datablock | Resursbläddrarens importmetoder. Länkade datablock behåller kopplingen till originalet; kopierade datablock är fristående. |
 | Append (Reuse Data) | Lägg till (återanvänd data) | Importmetod som återanvänder kapslade data, exempelvis materialtexturer eller ett objekts mesh, mellan flera instanser. |
 | Pack (import method) | Packa | Importmetod och Outliner-åtgärd som bäddar in externa resurser i blendfilen. Använd verbet *packa*, inte substantivet *paket*. |
