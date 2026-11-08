@@ -423,6 +423,7 @@ Senast uppdaterad: 2026-11-08.
 | default settings | standardinställningar | Rubrik för sparade standardval i Inställningar. Följer den befintliga UI-termen för *Defaults*. |
 | Adaptive Subdivision | adaptiv underindelning | UI-belagd form; inte *adaptiv indelning*. |
 | Subdivision Surface | underindelningsyta | Blenders modifier- och nodtyp för att förfina en yta. Använd denna UI-benämning också i hjälprader; inte *subdivisionsyta* eller den engelska formen. |
+| Triangulate / Triangulate Modifier | triangulera / trianguleringsmodifierare | Konverterar meshytor till trianglar. Använd den verbala formen för åtgärden och sammansättningen för modifieraren. |
 | Material Output | materialutdata | UI-belagd renderings- och nodterm. |
 | keyframe / keyframes | nyckelbildruta / nyckelbildrutor | Använd i svensk UI- och förklarande text, även i sammansättningar som *nyckelbildruteanimering*. Lämna bara API-identifierare orörda; behåll inte engelska *keyframe(s)* eller den förkortade formen *nyckelram(ar)* i svensk text. |
 | breakdown (keyframe type) | mellanpose | Nyckelbildruta som beskriver rörelsen mellan två nyckelposer. |
