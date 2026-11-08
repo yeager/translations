@@ -8365,3 +8365,19 @@ lokalt granskad, men ännu inte verifierad som importerad i Blender Translate.
 manuella deltafilen för batch 811–936. Den innehåller 822
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 937 — resursbläddrarens detaljer
+
+Batch 937 fortsätter den kontextspecifika normaliseringen av *asset* till
+*resurs* i resursbläddrarens inställningar och filter: *resursåtkomst*,
+*resursreferens*, *resursdatablock* och resurskatalogernas visningsfilter.
+Batchen är lokalt granskad, men ännu inte verifierad som importerad i Blender
+Translate.
+
+`blender-ui-sv-reviewed-20261108-batch-937-asset-browser-resource-details.po`
+är den separata manuella deltafilen med de tio rättningarna.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-811-937.po` är den samlade
+manuella deltafilen för batch 811–937. Den innehåller 832
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
