@@ -9627,3 +9627,16 @@ blender-ui-sv-reviewed-20261108-pending-batches-957-1044.po är den samlade
 manuella deltafilen för batch 957–1 044. Den innehåller 854
 översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
 Blender Translate-import.
+
+## Batch 1 045 — Action-slot vid nyckelbildssättning
+
+Batch 1 045 granskar två meddelanden för animering och nyckelbildssättning.
+I båda fallen syftar *slot* på den formella Action-datamodellen och översätts
+därför som *Action-slot*, inte som den generella UI-termen *plats*. Batchen
+är lokalt granskad, men ännu inte verifierad som importerad i Blender
+Translate.
+
+blender-ui-sv-reviewed-20261108-pending-batches-957-1045.po är den samlade
+manuella deltafilen för batch 957–1 045. Den innehåller 856
+översättningsposter och ryms därför inom gränsen på 1 000 strängar för en
+Blender Translate-import.
