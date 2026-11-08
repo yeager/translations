@@ -49,12 +49,13 @@ har skapats av senare granskningar.
 | USD: tillgångar, skelett och kurvdiagnostik | 70 | 3 | 67 | `blender-ui-sv-reviewed-batch-1249-usd-assets-skeleton.po` |
 | Alembic: import- och exportdiagnostik | 22 | 0 | 22 | `REVIEW-ALEMBIC-DIAGNOSTICS-20261108.md` |
 | SPZ: läs- och dekomprimeringsdiagnostik | 16 | 0 | 16 | `REVIEW-SPZ-READ-DIAGNOSTICS-20261108.md` |
+| OTIO, PLY, OBJ och STL: import- och exportdiagnostik | 25 | 0 | 25 | `REVIEW-FORMAT-IO-DIAGNOSTICS-20261108.md` |
 
-Efter dessa tjugofyra grupper har 383 tidigare otäckta strängar granskats. Deltafiler
+Efter dessa tjugofem grupper har 408 tidigare otäckta strängar granskats. Deltafiler
 registrerar de ändrade strängarna; den här loggen registrerar även de
 kontrollerade former som rätteligen lämnades kvar. Den jämförbara lokala
-täckningen är därmed minst 10 280 av 40 427 strängar, alltså **25,43 %**;
-30 147 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
+täckningen är därmed minst 10 305 av 40 427 strängar, alltså **25,49 %**;
+30 122 återstår i basexporten. Korrigeringen i batch 1229 räknas inte som en
 ny radgranskning, eftersom den rättar formuleringen av en redan granskad
 sekvensrenderingssträng.
 
