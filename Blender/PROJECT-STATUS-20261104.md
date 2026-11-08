@@ -10505,3 +10505,16 @@ samlade importfilen. Den innehåller 514 `msgid`-poster inklusive PO-huvudet,
 alltså 513 översättningsposter och klart under Blenders gräns på 1 000
 strängar per manuell import. Den väntar på lokal validering, arkivering och
 manuell import.
+
+## Batch 1 131 — Outliner, del 3
+
+Batch 1 131 avslutar den aktuella funna gruppen med Outliner-hjälptexter,
+synkronisering, tema och felmeddelanden. Termer som *Outliner-region* och
+*Outliner-synkronisering* gör komponentreferensen tydlig även i tekniska
+RNA-texter.
+
+`blender-ui-sv-reviewed-20261108-pending-batches-1055-1131.po` är den senaste
+samlade importfilen. Den innehåller 536 `msgid`-poster inklusive PO-huvudet,
+alltså 535 översättningsposter och klart under Blenders gräns på 1 000
+strängar per manuell import. Den väntar på lokal validering, arkivering och
+manuell import.
