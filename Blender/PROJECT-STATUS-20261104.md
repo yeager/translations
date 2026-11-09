@@ -4583,6 +4583,20 @@ innehåller en granskad post med SHA-256
 korrekta Blender-sammansättningen *meshobjekt*. Batchen är lokalt arkiverad
 och väntar på manuell import.
 
+## Batch 1 507 — glTF-exportens format och ljus
+
+Tre glTF-exportposter har korrigerats: GPU-instansens begränsning nämner nu
+underordnade *objekt*, förkortningen **PBR** har korrekt versalisering och
+Blenders etablerade term *strålkastare* ersätter det engelsknära *spotljus*.
+
+`blender-ui-sv-reviewed-batch-1507-gltf-export-terminology-20261110.po`
+innehåller tre granskade poster med SHA-256
+`226606fe83c67a37f63244ba4c8f9766d1335702c388b1ea944efce25cfd1e6e`.
+`msgfmt`, l10n-lint och Gitleaks passerade. L10n-lints enda notis är ett
+förväntat skiljeteckensbyte kring ett API-namn. Hunspell-sv och svlang
+markerar korrekta format- och API-namn samt en korrekt relativ bisats.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
