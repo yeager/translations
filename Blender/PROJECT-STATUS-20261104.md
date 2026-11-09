@@ -2,6 +2,20 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 323 — FBX rymdtransformering
+
+FBX-importen och -exporten bakar vid behov en global transformering mellan
+Blenders och målformatets koordinatrymder. Den tidigare formen
+*rumstransformering* normaliseras till projektets etablerade
+*rymdtransformering*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1323-fbx-space-transform.po`
+innehåller två ändrade poster och har SHA-256
+`142af35885ae8747a2aff04060d7ec8d13226da7a253448dcb93bdcece0bdb5b`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 322 — Cycles kameragallring
 
 Cycles beskriver *camera space culling* som gallring av objekt mot kamerans
