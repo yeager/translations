@@ -395,6 +395,7 @@ Senast uppdaterad: 2026-11-08.
 | grid index space | rutnätsindexrymd | Diskret koordinatdomän för ett volymrutnäts index. |
 | index space | indexrymd | Diskret koordinatdomän för voxel- och ruteindex. |
 | local space | lokal koordinatrymd | Objektets eller geometrins lokala referenssystem. Var precis med ägare när den anges i källtexten. |
+| modifier space | modifierarens koordinatrymd | Referenssystemet som Simple Deform använder för sin Z-axel. |
 | camera space culling | kameragallring | Cycles gallrar objekt mot kamerans synvolym. Termen är en gallringsmetod, inte en generell koordinatrymd. |
 | Adaptive Space | Adaptiv rymd | Delningsmodifierarens val mellan pixel- och objektrymd för adaptiv underindelning. |
 | logarithmic space | logaritmiskt färgrum | Kompositeringens logaritmiskt kodade färgvärden. Använd inte det vaga *logaritmiskt utrymme*. |

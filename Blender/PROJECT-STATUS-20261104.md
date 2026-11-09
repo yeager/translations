@@ -7,6 +7,20 @@ Senaste lokala arbete: 9 november 2026.
 > men får inte ensam betraktas som bevis på att en tidigare batch saknas
 > upstream. Kontrollera alltid arkiverade deltafiler före ny ändring.
 
+## Batch 1 326 — Simple Deform-koordinatrymd
+
+Simple Deform tillämpar vridning, böjning, avsmalning och sträckning runt
+modifierarens Z-axel i ett tekniskt referenssystem. Formerna normaliseras till
+*modifierarens koordinatrymd*. Hunspell-sv markerar ordet `modifierarens`,
+vilket är en väntad falsk positiv för den korrekta fackformuleringen.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1326-simple-deform-coordinate-space.po`
+innehåller fyra ändrade poster och har SHA-256
+`827369b71d82f44f97953f1075256aa56158c8daebe01db53213b3eead969785`.
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 325 — logaritmiskt färgrum
 
 Nodgruppen *Tune Image* använder logaritmiskt kodade färgvärden för att
