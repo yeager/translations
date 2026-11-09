@@ -2,6 +2,11 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+> Källexporten `blender-ui-ui-sv (5).po` är äldre än flera manuellt importerade
+> deltor. Den får användas för kontext och för att skapa nya, unika ändringar,
+> men får inte ensam betraktas som bevis på att en tidigare batch saknas
+> upstream. Kontrollera alltid arkiverade deltafiler före ny ändring.
+
 ## Batch 1 323 — FBX rymdtransformering
 
 FBX-importen och -exporten bakar vid behov en global transformering mellan
