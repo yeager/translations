@@ -117,6 +117,9 @@ Senast uppdaterad: 2026-11-09.
 | library weak reference | svag biblioteksreferens | Svag referens till ett datablock i en annan .blend-biblioteksfil. |
 | object | objekt | Etablerad Blender-term. |
 | collection | samling | Avser Blenders objektbehållare, inte en godtycklig lista. |
+| asset | resurs | En Blender-resurs i resursbläddraren eller resursbiblioteket; skilj från själva *resursbiblioteket*. |
+| pose asset | poseringsresurs | Sparad pose som kan användas via resursbläddraren. Använd konsekvent den längre formen i hjälptexter och felmeddelanden. |
+| brush asset | penselresurs | Sparad penselresurs i Blenders resursbibliotek. |
 | invert collection | invertera samling | Etikett för Light Probe-inställningen `invert_visibility_collection`; använd verbform, inte *inverterad kollektion*. |
 | collection exporter | samlingsexportör | Exportör som är kopplad till en specifik Blender-samling. |
 | collection export handler | exporthanterare för samlingen | Hanterar konfigurerad export av en samling. |

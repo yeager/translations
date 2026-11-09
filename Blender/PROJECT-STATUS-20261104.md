@@ -13431,3 +13431,21 @@ visning eller reproduktion som inte namnger renderingsfunktionen.
 radgranskade posten. `msgfmt`, l10n-lint, svlang (med och utan
 interpunktionskontroll), konsistenskontroll, Hunspell-sv och Gitleaks passerade.
 Filen är lokalt granskat arkivmaterial och väntar på nästa manuella import.
+
+## Batch 1 406 — serverunika poster
+
+Exporten `blender-ui-ui-sv (7).po` innehåller 13 ofärdiga serverposter som
+saknades i föregående lokala export. De omfattar Grease Pencil-varning,
+samling, språkstatusrader, kurvtypsdiagnostik samt fel för poserings-,
+allmänna och penselresurser. Felaktigt fuzzy-arv om *resursbiblioteket*
+ersätts med de kontextuella termerna *resurs*, *poseringsresurs* och
+*penselresurs*.
+
+`blender-ui-sv-reviewed-batch-1406-server-only-completion-20261109.po`
+innehåller 13 radgranskade poster med SHA-256
+`ccd461521ac32a55b2f66d3e8d62399ac3ed23f36fc34ca487ee63851123a9a4`.
+`msgfmt`, svlang (med och utan interpunktionskontroll),
+konsistenskontroll, Hunspell-sv och Gitleaks passerade. l10n-lint passerade
+för deltan; verktyget returnerar kod 1 utan diagnostik för den stora sammanslagna
+katalogen, medan övriga helkatalogkontroller passerade. Deltan väntar på
+manuell import.
