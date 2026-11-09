@@ -13608,6 +13608,17 @@ innehåller två granskade poster med SHA-256
 *icosfär* som ovanlig projektterm; den verifieras mot Blenders svenska
 manual. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 436 — metaklot
+
+Fyra UI-strängar följer nu den etablerade Blenderterminologin **metaklot**
+och **metaklotelement**, i stället för engelska *metaball*-former.
+
+`blender-ui-sv-reviewed-batch-1436-metaball-terminology-20261109.po`
+innehåller fyra granskade poster med SHA-256
+`20f92238b0a9a8c43dc5079192558b905533ebf30a75c07c99782a22ff111567`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen är lokalt arkiverad och
+väntar på manuell import.
+
 ## Batch 1 434 — transformation
 
 Action-slotarnas *Transform channel* och två relaterade hjälptexter använder
