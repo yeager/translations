@@ -13819,3 +13819,15 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv saknar den korrekta
 sammansättningen och svlang felmarkerar satsens V2-följd; båda signalerna är
 granskade. Batchen är lokalt arkiverad och väntar på manuell import.
+
+## Batch 1 448 — bestämd form av mesh i Dynamic Paint
+
+Ett återstående **meshet** i Dynamic Paint har normaliserats till **meshen**.
+Sökning i hela exporten bekräftar att ingen form *meshet* återstår.
+
+`blender-ui-sv-reviewed-batch-1448-mesh-inflection-dynamic-paint-20261109.po`
+innehåller en granskad post med SHA-256
+`0cb0a05b5395586ccfccfc177e847e632e2390541f9ef8eb90bc2ba9e59d3a36`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+den korrekta facktermen som sällsynt. Batchen är lokalt arkiverad och väntar på
+manuell import.
