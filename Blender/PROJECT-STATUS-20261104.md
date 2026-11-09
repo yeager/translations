@@ -4384,6 +4384,18 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 456 — handtagsmarkering
+
+Tre maskhandtags beskrivningar använder nu **markeringstillstånd**, i stället
+för den avvikande och mindre precisa formen *valstatus*.
+
+`blender-ui-sv-reviewed-batch-1456-handle-selection-status-20261109.po`
+innehåller tre granskade poster med SHA-256
+`d3b012caf6b2e0bd9eefde0dd9cf0704dbe68162fb4f24456fd92dd2eeffd35c`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. svlangs V2-varning
+för den frasformade etiketten är en falsk positiv. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
 ## Batch 1 455 — linjeuppsättning
 
 *Line Set* använder konsekvent **linjeuppsättning**. Indexetiketten hade den
