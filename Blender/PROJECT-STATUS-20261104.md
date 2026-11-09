@@ -13475,3 +13475,21 @@ Blender Translate: **21 bearbetade**, **0 hoppade över**, **0 saknade** och
 översatta strängar. Detta bekräftar importen och fullständig
 översättningstäckning, men inte att de 28 kvarvarande serverkontrollerna är
 språkliga fel; de granskas mot nästa exporterade katalog.
+
+## Batch 1 408 — versaler efter kolon
+
+En oberoende genomgång av den tillgängliga exporten och Blenders källkontext
+identifierade sex verkliga versalregressioner i diagnostiktext. Svenskan har
+en ny fullständig sats efter kolon och använder därför liten bokstav:
+*benhuvudet*, *namnet*, *endast* och *måste*. Kod- och enumvärdena `PRESS`,
+`RELEASE` och `NOTHING` behålls oförändrade. Övriga aktuella kontroller för
+flera versaler gäller format, standarder, API-namn eller produktnamn och är
+inte säkra ändringskandidater.
+
+`blender-ui-sv-reviewed-batch-1408-colon-capitalization-20261109.po`
+innehåller sex radgranskade poster med SHA-256
+`4ffdd8d37cb390969e4b8b7d2b776114406ce5904168b8964071853559ea603b`.
+`msgfmt`, l10n-lint, svlangs konsistenskontroll och Gitleaks passerade.
+Svlangs V2-varningar är falska positiva för satser efter kolon; Hunspell-sv
+flaggar endast enumvärdet `NOTHING` och `unicode`. Batchen väntar på manuell
+import.
