@@ -13262,3 +13262,22 @@ innehåller två radgranskade poster med SHA-256
 `7c9f24418553b30941dc97b1f48b5a7a56af8f1b50bd7364f80652f29bda4469`.
 `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
 Filen är redo för manuell import; importresultatet är inte verifierat.
+
+## Batch 1 397 — nyckelbildruta i animeringsredigerarna
+
+En radgranskning av Action-, graf- och Dope Sheet-redigerarnas återstående
+keyframe-etiketter och hjälptexter hittade 93 konsekventa förekomster av den
+äldre formen *nyckelruta*. Samtliga beskriver Blenders animeringsdata och
+åtgärder på keyframes, även där den engelska källtexten förkortar termen till
+*keys*. De normaliseras därför till **nyckelbildruta** och böjda former som
+*nyckelbildrutor* och *nyckelbildrutors*. Andra betydelser av *nyckel* har
+inte ändrats.
+
+`blender-ui-sv-reviewed-batch-1397-keyframe-term-consistency-20261109.po`
+innehåller 93 radgranskade poster med SHA-256
+`bfe5d829605a4e5dd5020228f31af44bef93e2509d52b6807b56e94e9de3ecd3`.
+`msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
+konsistenskontroll och Gitleaks passerade. Hunspell-sv markerar den tekniska
+sammansättningen *tidsförskjutningsnyckelbildrutor*, metadata och källord,
+men inga svenska stavfel identifierades. Filen är redo för manuell import;
+importresultatet är inte verifierat.

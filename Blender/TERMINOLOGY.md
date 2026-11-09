@@ -198,6 +198,7 @@ Senast uppdaterad: 2026-11-09.
 | Action (böjning) | Actionen / Actioner / Actionerna | Böj det formella datatypsnamnet som ett svenskt utrumord i löpande UI-text. Ersätt inte dessa former med *åtgärden* eller *åtgärder* när Blender-datatypen avses. |
 | Action channel / Action library | Action-kanal / Action-bibliotek | Animeringskanal respektive samling av Blenders Action-datatyp. Använd bindestreck för läsbar teknisk sammansättning. |
 | Action data-block | Action-datablock | Datablock som innehåller en Action. Behåll *Action* med stor bokstav när typen uttryckligen anges. |
+| keyframe | nyckelbildruta | Animeringsdata vid en specifik bildruta. Använd *nyckelbildruta*, *nyckelbildrutor* och böjda sammansättningar som *nyckelbildrutetyp* konsekvent i Action-, graf- och Dope Sheet-redigerarna. Förkorta inte till *nyckelruta* när Blender-keyframes avses. |
 | duplicate and rename | Duplicera och byt namn | Operatör för kopiering av ben med efterföljande namnbyte. |
 | working plane | arbetsplan | Etablerad term i Blenders TBX-ordlista. |
 | internal clipboard | interna urklippet | UI-funktion, inte operativsystemets urklipp. |
