@@ -12573,6 +12573,20 @@ passerade. Hunspell-sv markerar tekniska källord och metadatarader i
 deltafilen, men ingen svensk felstavning i de ändrade formuleringarna.
 Deltafilen är redo för manuell import; dess importresultat är inte verifierat.
 
+## Batch 1 365 — booleska värden i hjälptexter
+
+Två hjälptexter hade kvar engelska booleska ord i i övrigt svensk löpande text.
+De blir *falskt* och *sant*. Källornas Python-namn och andra identifierare
+ändras inte.
+
+`blender-ui-sv-reviewed-batch-1365-boolean-helptext-20261109.po` innehåller
+två radgranskade poster och har SHA-256
+`73478c24fb785013b800e80055a3da14065a4ef7f5c3fd3bf6f0e4601057de09`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, konsistenskontroll,
+källmatchning och Gitleaks passerade. Hunspell-sv markerar endast tekniska
+källord och PO-metadata, inte de svenska ändringarna. Filen är redo för manuell
+import; dess importresultat är inte verifierat.
+
 ## Batch 1 362 — HDR-enheten nit
 
 Två beskrivningar av Rec.2100-visningar hade den engelska pluralformen
