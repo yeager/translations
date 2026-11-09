@@ -13197,6 +13197,21 @@ radgranskad post med SHA-256
 `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
 Filen är redo för manuell import; importresultatet är inte verifierat.
 
+## Samlad importfil — batch 1 397–1 399
+
+`blender-ui-sv-reviewed-next-import-20261109-batches-1397-1399.po` samlar
+batch 1 397–1 399 i en importfil med **231 unika poster**. Tre överlappande
+poster har avdubbletterats och den senast granskade formuleringen behålls.
+Filen ersätter de tre enskilda batchfilerna som importunderlag; den ska inte
+importeras utöver dem. SHA-256 är
+`05b3ae4e330d3b75c1345b2f9cdfcdcfb15445e0abf1a86a8cc4dca014d7fd07`.
+
+`msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
+konsistenskontroll och Gitleaks passerade. Hunspell-sv har kontrollerats
+för relevanta svenska ord; kvarvarande träffar är Blender-specifika termer,
+metadata eller engelska källord. Filen är redo för manuell import;
+importresultatet är inte verifierat.
+
 ## Batch 1 392 — nyckelbildrutetyp
 
 Blenders *Keyframe Type* avser typen för en keyframe, som i den svenska
