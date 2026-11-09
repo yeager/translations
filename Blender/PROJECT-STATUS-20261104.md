@@ -4621,6 +4621,18 @@ innehåller fyra granskade poster med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 510 — F-kurvors Bézier-handtag
+
+Tre besläktade kommandon för att equalize Bézier-handtag använder nu den
+konsekventa svenska verbformen **Jämna ut**, i stället för en blandning av
+*Utjämna* och *Jämna ut*.
+
+`blender-ui-sv-reviewed-batch-1510-fcurve-handle-wording-20261110.po`
+innehåller tre granskade poster med SHA-256
+`70361d9d7a312856d9ca1936a81c634a4505d27d12b0b639ae40f3d3656d6ad2`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
