@@ -13083,3 +13083,29 @@ Samtliga poster matchar den lokala källkatalogen och skiljer sig från dess
 nuvarande måltext. `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
 passerade. Den är långt under gränsen på 1 000 strängar och redo för manuell
 import. Importresultatet är inte verifierat.
+
+## Batch 1 385 — sekvensredigerarscen i hjälptexter
+
+Två hjälptexter för samma Blender-egenskap använde omskrivningarna
+*sekvensredigerarens scen* och *sekvensscenen*, medan UI-etiketten och
+terminologin använder den etablerade datatypstermen **sekvensredigerarscen**.
+De normaliseras till de böjda formerna *sekvensredigerarscenen* utan att
+ändra åtgärd eller renderingens innebörd.
+
+`blender-ui-sv-reviewed-batch-1385-sequencer-scene-wording-20261109.po`
+innehåller två radgranskade poster med SHA-256
+`a65ae64ed9d17c0cee331fe47266adc0dd6c4ebd7b3b2b5d40b2c75bb2d50119`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
+Hunspell-sv markerar den projektspecifika böjningen *sekvensredigerarscenen*
+samt metadata och källord, men inga svenska stavfel identifierades. Filen är
+redo för manuell import; importen är inte verifierad.
+
+## Samlad import — batch 1 370–1 385
+
+`blender-ui-sv-reviewed-next-import-20261109-batches-1370-1385.po` ersätter
+den samlade 1 370–1 384-filen vid en manuell import. Den innehåller 38 unika
+radgranskade poster och har SHA-256
+`c70c2b4692156a12c60accc5a7a14bce9a6441d11650429cdb2c58b03f9c276b`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade. Den är
+långt under gränsen på 1 000 strängar och redo för manuell import.
+Importresultatet är inte verifierat.
