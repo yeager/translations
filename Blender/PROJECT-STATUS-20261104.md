@@ -12,6 +12,18 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > att manuella importer har fått genomslag, men en deltafil räknas inte som
 > importerad förrän importresultatet är verifierat.
 
+## Helkatalogskontroll av export `(6)`
+
+Måltexterna i hela UI-exporten kontrollerades 9 november med msgfmt,
+l10n-lint, svlang och Hunspell-sv. Svengelska rapporterar endast `startup`,
+som avsiktligt behålls eftersom det är ett synligt standardkatalognamn.
+Skrivregelsträffarna gäller kod- och formatexempel, bland annat
+`(dot(B, C) < 0) ? A : -A`, `{:d} .. {:d}`, tangentetiketten `Numpad .` och
+platshållarsträngar med `%s`; de ska inte svenskredigeras. Hunspell-sv:s
+vanligaste träffar är etablerade Blender- och 3D-termer som *mesh*, *Grease
+Pencil*, *Action*, *modifieraren*, *nodgrupp* och *vyport*. Ingen ny
+högsäker svensk rättning skapades i denna kontroll.
+
 ## Batch 1 361 — samlad importfil för godkända UI-rättningar
 
 Den här importfilen samlar de 20 redan kontextgranskade posterna från
