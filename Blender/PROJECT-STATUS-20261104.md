@@ -13595,6 +13595,16 @@ innehåller två granskade poster med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Radgranskning — poster 1–1 280
+
+Den systematiska radgranskningen av den lokala UI-exporten omfattar nu poster
+1–1 280. Terminologin för animation, resurser, attribut, geometri, bakning och
+B-Bone-parametrar kontrollerades mot UI-kontexten. Säkra rättelser har brutits
+ut i separata deltafiler (senast batch 1 444); kontextberoende källsträngar
+med flera oförenliga användningar har lämnats orörda i stället för att skapa
+regressioner i andra delar av UI:t. Detta är lokal granskning, inte ett påstående
+om att hela katalogen är manuellt radgranskad.
+
 ## Batch 1 443 — Action-slots utfällning
 
 Action-slottens booleska *Show Expanded* använder nu **Visa utfälld**, i
