@@ -7,6 +7,19 @@ Senaste lokala arbete: 9 november 2026.
 > men får inte ensam betraktas som bevis på att en tidigare batch saknas
 > upstream. Kontrollera alltid arkiverade deltafiler före ny ändring.
 
+## Batch 1 325 — logaritmiskt färgrum
+
+Nodgruppen *Tune Image* använder logaritmiskt kodade färgvärden för att
+undvika färgklippning. Det vaga *logaritmiskt utrymme* normaliseras därför
+till den tekniska termen *logaritmiskt färgrum*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1325-logarithmic-color-space.po`
+innehåller en ändrad post och har SHA-256
+`bf920fee661c1b7e93210354075159215828643ae15edbf2f10e487f6f25dc3c`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 324 — adaptiv rymd
 
 Delningsmodifierarens *Adaptive Space* väljer om polygoner delas efter
