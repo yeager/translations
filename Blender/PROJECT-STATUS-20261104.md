@@ -125,6 +125,18 @@ koordinatkontext: *Displacement Space*, objekt- och tangentrymd använder
 commit \`237e9f2\`; den skapar ingen ny UI-import eftersom den lokala
 referensexporten redan har de godkända formuleringarna.
 
+Den 9 november synkroniserades ytterligare 20 aktuella UI-poster från
+batcherna 1 354–1 359 till Blender-TM. De omfattar generell
+*rendering*, Cycles prestandabeskrivningar, index-/världs-/objektrymder,
+*tangentmappning* och *visningsnod*. Äldre TM-poster behålls som spårbar
+historik, medan de nya posterna markerar vilken formulering som är
+kontextgranskad mot export `(6)`. JSONL-källan samt den kanoniska Blender
+PO- och TMX-exporten har återskapats och kontrollerats med
+\`scripts/reviewed.py\`, msgfmt, diffkontroll och Gitleaks på staged-diffen.
+Synkningen är publicerad i \`yeager/swedish-tm\` som commit \`6443c60\`.
+Den är minnesunderhåll och innebär inte en verifierad Blender
+Translate-import.
+
 Sex fler termbasposter synkroniserades med den kontextgranskade UI-exporten:
 svensk gemen stil för *online*, meningar och importmetod, den idiomatiska
 egenskapsbeskrivningen för osparade ändringar, attributets datatyp,
