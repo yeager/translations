@@ -13595,6 +13595,20 @@ innehåller två granskade poster med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 441 — stereoskopisk 3D och metaklot
+
+Sju återstående etiketter och hjälptexter för *Stereo 3D* använder nu
+**stereoskopisk 3D**, exempelvis **Stereoskopisk 3D-visning** och
+**Stereoskopiskt 3D-läge**. En diagnostikrad använder samtidigt
+**Metaklot** i stället för den engelska objekttypen *Metaball*.
+
+`blender-ui-sv-reviewed-batch-1441-stereoskopisk-3d-and-metaklot-20261109.po`
+innehåller nio granskade poster med SHA-256
+`de922007c60aa5b1716770429d97ace87e559cfd04a70d2dc747ae5294ed46e3`.
+`msgfmt`, l10n-lint, svlang och Gitleaks passerade. Hunspell-sv markerar
+enbart *splinen*, en etablerad teknisk Blenderterm. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
 ## Batch 1 440 — metaklot
 
 Äldre engelsknära former av *metaball* är normaliserade till **metaklot** i
