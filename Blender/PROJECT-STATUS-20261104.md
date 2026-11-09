@@ -12979,3 +12979,28 @@ nuvarande måltext. `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
 passerade; `msgfmt` varnar enbart för det minimala deltahuvudet. Filen är långt
 under 1 000 strängar och redo för manuell import. Importresultatet är inte
 verifierat.
+
+## Batch 1 381 — deltatransformering
+
+En egenskap i slumpningsverktyget innehöll stavfelet
+*deltatranformeringsvärden*. Sammansättningen ska följa Blenders etablerade
+term *transformering* och rättas till *deltatransformeringsvärden*.
+
+`blender-ui-sv-reviewed-batch-1381-delta-transform-spelling-20261109.po`
+innehåller en radgranskad post med SHA-256
+`019915e02d96725db30a15657ce45a1dda786952239f80b9916df7ea24d8d899`.
+Källmatchning, `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
+passerade. Hunspell-sv rapporterar endast avsiktliga metadata- och källord.
+Filen är redo för manuell import; importen är inte verifierad.
+
+## Samlad import — batch 1 370–1 381
+
+`blender-ui-sv-reviewed-next-import-20261109-batches-1370-1381.po` ersätter
+den samlade 1 370–1 380-filen vid en manuell import. Den innehåller 28 unika
+radgranskade poster och har SHA-256
+`9a6d378e83e87538676685c32d95bfd04ac980645a4edff4685cfe2a2d7772cc`.
+Samtliga poster matchar den lokala källkatalogen och skiljer sig från dess
+nuvarande måltext. `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
+passerade; `msgfmt`-varningarna gäller endast minimal delta-PO-metadata.
+Filen är långt under 1 000 strängar och redo för manuell import.
+Importresultatet är inte verifierat.
