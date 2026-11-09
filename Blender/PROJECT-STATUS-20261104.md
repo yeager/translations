@@ -13594,3 +13594,15 @@ innehåller två granskade poster med SHA-256
 `ae208708d1c5e85de876bf5c14013ff12c3f6d968a677b74782b645df9c0ea28`.
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
+
+## Batch 1 433 — teckensnitt
+
+Det synliga filtret för Blenders fontdatablock använder nu **Teckensnitt**,
+konsekvent med den etablerade UI-termen och övriga inställningar för
+teckensnitt.
+
+`blender-ui-sv-reviewed-batch-1433-font-terminology-20261109.po`
+innehåller en granskad post med SHA-256
+`be2fc2a3a07fa88de632d34524cf74fa8942e5dfc3061fcfe9a8636b04eba3e9`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
