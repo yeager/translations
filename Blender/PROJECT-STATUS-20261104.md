@@ -13029,3 +13029,30 @@ nuvarande måltext. `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
 passerade; `msgfmt`-varningarna gäller endast minimal delta-PO-metadata. Filen
 är långt under 1 000 strängar och redo för manuell import. Importresultatet är
 inte verifierat.
+
+## Batch 1 383 — remsor i sekvensredigeraren
+
+Fem etiketter och beskrivningar använde de tunglästa formerna
+*sekvensredigerarremsa/-remsor*. De uttrycker samma väldefinierade Blender-
+begrepp som *Sequencer Strips* och skrivs därför konsekvent som *remsa* eller
+*remsor i sekvensredigeraren*. Ändringen bevarar den tekniska betydelsen men
+gör gränssnittstexten mer idiomatisk och följer terminologilistan.
+
+`blender-ui-sv-reviewed-batch-1383-sequencer-strip-phrasing-20261109.po`
+innehåller fem radgranskade poster med SHA-256
+`f0f6334b13580f52fb92a09cd4dd75697d0a17823edfa2136e994dba87ec042c`.
+Källmatchning, `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
+passerade. Hunspell-sv markerar tekniska källord, metadata och projektspecifika
+sammansättningar; inga svenska stavfel identifierades i de fem måltexterna.
+Filen är redo för manuell import; importen är inte verifierad.
+
+## Samlad import — batch 1 370–1 383
+
+`blender-ui-sv-reviewed-next-import-20261109-batches-1370-1383.po` ersätter
+den samlade 1 370–1 382-filen vid en manuell import. Den innehåller 34 unika
+radgranskade poster och har SHA-256
+`5d072bd707755354f6d8f95a6d6782dd8347488aaa721c4a766f5d070feee343`.
+Samtliga poster matchar den lokala källkatalogen och skiljer sig från dess
+nuvarande måltext. `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
+passerade. Den är långt under gränsen på 1 000 strängar och redo för manuell
+import. Importresultatet är inte verifierat.

@@ -674,7 +674,7 @@ Senast uppdaterad: 2026-11-09.
 | time remapping | tidsomappning | Omräkning av scenens tid så att bildrutor spelas upp eller renderas vid andra tidpunkter. |
 | sequencer | sekvensredigerare | Blenders redigerare för video- och ljudsekvenser. |
 | Sequencer Scene | sekvensredigerarscen | Särskilt scen-datablock som innehåller redigeringen i Videosekvensredigeraren. Använd konsekvent, inte *sekvenserscen* eller *sekvensredigeringsscen*. |
-| strip (sequencer) | remsa | En tidsplacerad bild-, film-, ljud- eller effektsekvens i sekvensredigeraren. Skilj från *band*, som inte är Blenders UI-term här. |
+| strip (sequencer) | remsa | En tidsplacerad bild-, film-, ljud- eller effektsekvens i sekvensredigeraren. Skriv fraser som *remsor i sekvensredigeraren* hellre än de svårlästa sammansättningarna *sekvensredigerarremsa/-remsor*. Skilj från *band*, som inte är Blenders UI-term här. |
 | frame dropping | hoppa över bildrutor | Uppspelningsläge som utelämnar bildrutor för att hålla jämna steg med ljudet eller verklig tid. |
 | preview range | förhandsgranskningsintervall | Alternativt bildruteintervall för uppspelning och visningsrenderingar. |
 | noise (texture) | brus | Procedurtexturens variation; använd inte det fysiska ljudordet *buller*. |
