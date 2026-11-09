@@ -12,6 +12,24 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > att manuella importer har fått genomslag, men en deltafil räknas inte som
 > importerad förrän importresultatet är verifierat.
 
+## Batch 1 361 — samlad importfil för godkända UI-rättningar
+
+Den här importfilen samlar de 20 redan kontextgranskade posterna från
+batcherna 1 354–1 359 i en enda PO-fil, baserad direkt på export `(6)`.
+Den omfattar generell *rendering*, Cycles relativa renderingshastighet,
+bestämda index-, världs- och objektrymder, *tangentmappning* och
+*visningsnod*. Den ersätter inte de enskilda batcharnas dokumentation, men
+gör manuell import enklare. Filen
+`blender-ui-sv-reviewed-batch-1361-approved-deltas-20261109.po` är lokal och
+klar för manuell import; ingen Blender Translate-import är verifierad för den.
+
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Hunspell-sv träffar endast avsiktliga Blender-/tekniknamn och synliga
+katalognamn: *BSDF:er*, *EEVEE*, *OpenPBR-modellen*, *add-ons*, *modules*,
+*presets*, *visningsnoden* och *voxeln*. Svlang föreslår en översättning av
+`startup`, men termen är avsiktligt kvar som Blenders synliga underkatalognamn.
+SHA-256 är `39ee41ab3f0700af59053bd71aa25ea8ca0f86757ae460dbbd43228d84f6d7ce`.
+
 ## Batch 1 354 — generisk renderings-terminologi
 
 Batchen normaliserar sex aktuella UI-poster från den färska exporten:
