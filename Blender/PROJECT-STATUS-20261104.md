@@ -28,6 +28,12 @@ Termbasens felaktiga post *Arbetsutrymme Interop ID* rättades också till
 *Interop-ID för arbetsfärgrymd* efter kontroll mot Blenders dokumentation om
 färghantering. Den korrigerade termbasen är publicerad i commit \`891a1ed\`.
 
+Fyra poster för förskjutningsbakning synkroniserades efter kontroll av deras
+koordinatkontext: *Displacement Space*, objekt- och tangentrymd använder
+*rymd*, inte det generella *utrymme*. Termbasuppdateringen är publicerad i
+commit \`237e9f2\`; den skapar ingen ny UI-import eftersom den lokala
+referensexporten redan har de godkända formuleringarna.
+
 ## Batch 1 333 — resurs i skriptets hyll-ID
 
 Hjälptexten för `AssetShelf.bl_idname` beskriver en resurs som får ett

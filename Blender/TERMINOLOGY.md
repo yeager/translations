@@ -44,6 +44,7 @@ Senast uppdaterad: 2026-11-08.
 | Clip Start / Clip End | beskärningsstart / beskärningsslut | Kamerans, 3D-vyportens eller VR-vyns närmaste och bortre gräns för visning. |
 | camera space | kamerarymd | Kamerans koordinatrymd för spårning, projektion och objektlösning. Använd inte det vardagliga *kamerarum*. |
 | object space | objektrymd | Objektets lokala koordinatrymd, bland annat för bildprojektion och normalmappning. Använd inte *objektrum*. |
+| Displacement Space | förskjutningsrymd | Vald koordinatrymd vid bakning av förskjutning, exempelvis objektrymd eller tangentrymd. Använd inte det generella *förskjutningsutrymme*. |
 | orthographic / perspective view | ortografisk / perspektivisk vy | Statusetiketter för 3D-vyn skrivs med riktning, till exempel *Ortografisk vy framifrån* och *Perspektivisk vy från höger*. *Camera Perspective* är det etablerade substantivet *kameraperspektiv*. |
 | cache layer | cachelager | Lager i en Blender-cachefil. Skriv ihop, utan bindestreck. |
 | cached | cachelagrad | Använd participformen i status och hjälptexter, exempelvis *cachelagrade scendata* och *Havet är cachelagrat*. Undvik anglicismen *cachad*. |
