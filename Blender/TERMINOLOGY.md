@@ -395,6 +395,7 @@ Senast uppdaterad: 2026-11-08.
 | grid index space | rutnätsindexrymd | Diskret koordinatdomän för ett volymrutnäts index. |
 | index space | indexrymd | Diskret koordinatdomän för voxel- och ruteindex. |
 | local space | lokal koordinatrymd | Objektets eller geometrins lokala referenssystem. Var precis med ägare när den anges i källtexten. |
+| camera space culling | kameragallring | Cycles gallrar objekt mot kamerans synvolym. Termen är en gallringsmetod, inte en generell koordinatrymd. |
 | illuminant | illuminant | Standardiserad ljuskälla i färghantering; skriv exempelvis *vitpunkt för illuminanten D65*, inte *belysningsstyrka*. |
 | Filmic / AgX / ACES | behåll namn | Namn på Blenders och OCIO:s färgkodningar och visningstransformeringar; översätt endast den omgivande saktexten. |
 | display transform / view transform | visningstransformering | Färghanteringens tekniska transformering inför visning; undvik anglicismen *displaytransform*. |

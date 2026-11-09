@@ -2,6 +2,19 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 322 — Cycles kameragallring
+
+Cycles beskriver *camera space culling* som gallring av objekt mot kamerans
+synvolym. Det är en optimeringsmetod, inte en egen koordinatrymd, och
+normaliseras därför från *kamerautrymmesgallring* till *kameragallring*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1322-camera-culling.po` innehåller
+två ändrade poster och har SHA-256
+`5606291f353a1fe49ccf8a9677b44ac5131240e97611eaca08640e3ecac806c0`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 321 — Geometry Nodes koordinatdomäner
 
 Blenders Geometry Nodes beskriver rutnätsgränser i världsrymd, voxlar i
