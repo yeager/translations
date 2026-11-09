@@ -12228,3 +12228,15 @@ källsträngar. Skärmbilden identifierar däremot inte vilka enskilda arkiverad
 deltafiler som ingick, så den används inte som belägg för att en viss batch är
 upstream-aktuell. Nya eller ännu ej matchade deltafiler behåller därför statusen
 *redo för manuell import* tills deras eget resultat kan verifieras.
+
+## Batch 1 343 — cachekatalog för nedladdning
+
+En systeminställning för fjärranslutna resursbibliotek har normaliserats från
+*cachekatalogen för nedladdningar* till den idiomatiska och mer precisa
+*cachekatalogen för nedladdning*. Batchen innehåller en radgranskad post i
+`blender-ui-sv-reviewed-batch-1343-download-cache-directory.po` och har
+SHA-256 `4726a1369fdae05e26587321af82d2b5a5c419a7fe412f95f4e734b2e0e1bc2f`.
+
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks
+passerade. Deltafilen är lokalt färdig och redo för manuell import; något
+importresultat för just denna post är ännu inte verifierat.

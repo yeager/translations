@@ -29,6 +29,7 @@ Senast uppdaterad: 2026-11-08.
 | remote asset library | fjärranslutet resursbibliotek | Skriv ut relationen i löpande text; undvik *fjärrresursbibliotek*, som blir svårläst med tre r. |
 | remote assets | fjärranslutna resurser | Nätåtkomliga resurser i Asset Browser och dess filter. Undvik *fjärrresurser*, som får tre r i följd. |
 | cache directory | cachekatalog | Etablerad teknisk sammansättning i Blender. Skriv ihop i UI-etiketter och statusmeddelanden: *diskcachekatalog*, *standardcachekatalog*. |
+| download cache directory | cachekatalog för nedladdning | Använd i felmeddelanden om fjärranslutna resursbibliotek. Formen anger cachekatalogens funktion utan den krystade sammansättningen *nedladdningscachekatalog*. |
 | aero (Soft Body) | aerodynamik | Soft Body-egenskap som styr hur kanter påverkas av omgivande media. Behåll inte den förkortade engelska etiketten *Aero* i svensk UI-text. |
 | Transform Cache Constraint | transformationscachebegränsning | Begränsning som läser ett objekts transformationsdata från en extern cachefil, exempelvis ett Alembic-arkiv. |
 | longitude / latitude (camera projection) | längdgrad / breddgrad | Vinklar i kamerans cylindriska och ekvirektangulära projektioner. |
