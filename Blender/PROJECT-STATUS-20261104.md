@@ -13465,3 +13465,13 @@ innehåller åtta radgranskade poster med SHA-256
 `msgfmt`, l10n-lint, svlangs konsistenskontroll och Gitleaks passerade.
 Hunspell-sv och svlangs frekvensanalys flaggar endast *gizmon*, som är den
 korrekt böjda Blender-termen i strängen. Deltan väntar på manuell import.
+
+## Verifierad import av batch 1 406–1 407 — 2026-11-09
+
+Den manuella importen av
+`blender-ui-sv-reviewed-not-in-latest-export-20261109.po` bekräftades i
+Blender Translate: **21 bearbetade**, **0 hoppade över**, **0 saknade** och
+**21 uppdaterade** strängar. Komponenten visar därefter 40 434 av 40 434
+översatta strängar. Detta bekräftar importen och fullständig
+översättningstäckning, men inte att de 28 kvarvarande serverkontrollerna är
+språkliga fel; de granskas mot nästa exporterade katalog.
