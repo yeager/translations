@@ -13595,6 +13595,18 @@ innehåller två granskade poster med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 443 — Action-slots utfällning
+
+Action-slottens booleska *Show Expanded* använder nu **Visa utfälld**, i
+stället för den tvetydiga formen *Visa utökad version*. Formen följer den
+närliggande egenskapen *Expanded state of the slot* → *Utfällningsstatus*.
+
+`blender-ui-sv-reviewed-batch-1443-action-slot-expansion-20261109.po`
+innehåller en granskad post med SHA-256
+`dda9d69840beb84b0b8b5bb930ba4d6ec98ddbf583a5f9fa34bfa95cd888ecdb`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Fullständig lokal QA-snapshot — 2026-11-09
 
 Den aktuella lokala UI-exporten har kontrollerats med `msgfmt`, Gitleaks,
