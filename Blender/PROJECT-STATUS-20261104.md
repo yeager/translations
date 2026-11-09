@@ -12624,6 +12624,20 @@ källmatchning och Gitleaks passerade. Hunspell-sv markerar endast engelska
 källord och PO-metadata. Deltafilen är redo för manuell import; dess
 importresultat är inte verifierat.
 
+## Batch 1 368 — Action-slotfilter
+
+Dope Sheets filter `show_only_slot_of_active_object` avser uttryckligen en
+Action-slot, vilket den närliggande hjälptexten redan säger. Den korta
+etiketten normaliseras från det otydliga *slot* till *Action-slot*.
+
+`blender-ui-sv-reviewed-batch-1368-action-slot-filter-20261109.po`
+innehåller en radgranskad post och har SHA-256
+`4719c2f6349b0ddf1f3657a185d0ae83362f1423824d5b6c1fede50cd3a09f1f`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, konsistenskontroll,
+källmatchning och Gitleaks passerade. Hunspell-sv markerar endast källord och
+PO-metadata. Deltafilen är redo för manuell import; importresultatet är inte
+verifierat.
+
 ## Samlad import — batch 1 362–1 367
 
 `blender-ui-sv-reviewed-manual-import-20261109-batches-1362-1367.po`
