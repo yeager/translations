@@ -97,6 +97,7 @@ Senast uppdaterad: 2026-11-09.
 | Info | informationsområde | Blender-området som visar rapporter, fel och operatörslogg. |
 | NLA Editor | NLA-redigerare | Redigeraren för Nonlinear Animation-remsor och deras F-kurvor. |
 | Timecode Style | tidskodstil | Inställning som bestämmer hur uppspelningens varaktighet visas. |
+| Time Remapping | tidsommappning | Ommappning av hur animationstid tolkas, exempelvis i Mesh Cache. Skriv med dubbel-`m`; använd inte *omtidning* eller *tidsomappning*. |
 | System Memory | systemminne | UI-rubrik för uppskattad RAM-användning. |
 | performance preset | prestandaförinställning | Samlad uppsättning av renderings- eller systeminställningar för ett prestandaläge. |
 | New Data | Nya data | Gäller nya Blender-datablock; inte *nya uppgifter*. |

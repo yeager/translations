@@ -12954,6 +12954,23 @@ passerade. De förväntade `msgfmt`-varningarna gäller bara minimal PO-metadata
 Filen är långt under 1 000-strängarsgränsen och redo för manuell import;
 importresultatet är inte verifierat.
 
+## Batch 1 387 — tidsommappning
+
+Blenders panel *Time Remapping* i modifieraren Mesh Cache styr hur den
+cachelagrade animationens tid tolkas och spelas upp. Tidigare blandades
+*Omtidning*, *tidsomappning* och *tidsommappning* i UI:t. Den korrekta
+termen är **tidsommappning**: det är en ommappning av tiden, inte en allmän
+ändring av tid. Tre berörda UI- och hjälprader har därför normaliserats.
+
+`blender-ui-sv-reviewed-batch-1387-time-remapping-20261109.po` innehåller
+tre radgranskade poster med SHA-256
+`e3458a70eb7633f95e24e2e0f7891d13ee4c25b5745db5a2edbf7c65269b0a0d`.
+`msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
+konsistenskontroll och Gitleaks passerade. Hunspell-sv markerar den
+projektspecifika sammansättningen *tidsommappning* samt metadata och
+källord, men inga svenska stavfel identifierades. Filen är redo för manuell
+import; importresultatet är inte verifierat.
+
 ## Batch 1 380 — ladda om remsor
 
 Sequencerns korta åtgärdsetikett hade formuleringen *Läs in remsor igen*.
