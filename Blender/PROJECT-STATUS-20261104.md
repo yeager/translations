@@ -4657,6 +4657,18 @@ granskad post med SHA-256
 är den korrekta imperativformen. Batchen är lokalt arkiverad och väntar på
 manuell import.
 
+## Batch 1 513 — Grease Pencil-typografi
+
+Två Grease Pencil-poster följer nu svensk typografi: ordet efter
+varningskolonet inleds med gemen och *mellanbilder* har svenska citattecken.
+
+`blender-ui-sv-reviewed-batch-1513-grease-pencil-typography-20261110.po`
+innehåller två granskade poster med SHA-256
+`abd9141e981a00d2f0dbed03c5ab9f4ea8a49a1c5a4ea2a17048ce429746e987`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade;
+hunspell-sv markerar endast produktnamnet Grease Pencil. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
