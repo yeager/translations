@@ -13595,6 +13595,18 @@ innehåller två granskade poster med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 450 — parallell form i fältvisning
+
+Hjälptexten för att rendera ett simuleringsfält använder nu parallell form i
+samordningen: **genom att färgkartlägga** eller **genom att använda**. Den
+tidigare texten saknade *genom att* i den andra leden.
+
+`blender-ui-sv-reviewed-batch-1450-fluid-field-rendering-grammar-20261109.po`
+innehåller en granskad post med SHA-256
+`3e81bc1b834a248b9163bc219e946df7ad2e47c27b1b8248df013b856ae1eed3`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Radgranskning — poster 1–1 280
 
 Den systematiska radgranskningen av den lokala UI-exporten omfattar nu poster
