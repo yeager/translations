@@ -12172,3 +12172,16 @@ innehåller fem poster och har SHA-256
 Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-sv kandidatsökning,
 diffkontroll och Gitleaks passerade. Batchen är lokalt färdig och arkiverad
 för manuell Blender Translate-import; inget importresultat är ännu verifierat.
+
+## Batch 1 341 — F-kurvor för Action-slot
+
+Batch 1 341 rättar en återstående kanalbeskrivning i Action-datamodellen.
+Här avser *slot* uttryckligen den formella typen som animeras av F-kurvor,
+alltså *Action-slotten*, inte en generell slot. Deltafilen
+`blender-ui-sv-reviewed-batch-1341-action-slot-fcurve.po` innehåller en post
+och har SHA-256
+`c58fdaabf6af31470b941c79e838bf591110873682cd612174f68678240b511e`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-sv kandidatsökning,
+diffkontroll och Gitleaks passerade. Batchen är lokalt färdig och arkiverad
+för manuell Blender Translate-import; inget importresultat är ännu verifierat.
