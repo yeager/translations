@@ -13281,3 +13281,21 @@ konsistenskontroll och Gitleaks passerade. Hunspell-sv markerar den tekniska
 sammansättningen *tidsförskjutningsnyckelbildrutor*, metadata och källord,
 men inga svenska stavfel identifierades. Filen är redo för manuell import;
 importresultatet är inte verifierat.
+
+## Batch 1 398 — fullständig keyframe-term i animerings-UI
+
+En andra kontextkontroll av samma animeringsgränssnitt hittade 90 poster som
+använde den kortare formen *nyckelbild* för Blenders keyframes. De omfattar
+inmatning, infogning, Grease Pencil, NLA, Graph Editor och Dope Sheet. De
+normaliseras till **nyckelbildruta** och böjda former. Funktionsrubrikerna
+*Keyframing* och *Keyframing Settings* avser däremot processen och blir
+**Nyckelbildsättning** respektive *Inställningar för nyckelbildsättning*.
+
+`blender-ui-sv-reviewed-batch-1398-keyframe-full-term-consistency-20261109.po`
+innehåller 90 radgranskade poster med SHA-256
+`690c72560b8203581690e0941dddcfd63dcad4b5a4f8c6181530c8777d1762b0`.
+`msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
+konsistenskontroll och Gitleaks passerade. Hunspell-sv markerar bland annat
+den projektspecifika sammansättningen *Bézier-nyckelbildrutor*, men inga
+svenska stavfel identifierades. Filen är redo för manuell import;
+importresultatet är inte verifierat.
