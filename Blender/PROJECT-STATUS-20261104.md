@@ -4395,6 +4395,17 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 491 — tvinga bort
+
+Kommandot **Tvinga bort** använder svensk åtgärdsform i stället för det
+onaturliga substantivet *Tvinga borttagning*.
+
+`blender-ui-sv-reviewed-batch-1491-force-delete-20261109.po` innehåller en
+granskad post med SHA-256
+`e0ed47f40b2486535089f73dc4ac434acc472a74a79a6311f4e5a2a7065c8e61`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 489 — utjämning för F-kurvor
 
 F-kurvornas *easing* använder den etablerade Blender-termen **utjämning**, inte
