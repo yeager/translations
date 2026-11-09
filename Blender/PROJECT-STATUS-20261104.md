@@ -4407,6 +4407,17 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 470 — Poisson-diskfördelning
+
+Poisson-disk-noden använder **Fördela** och det exakta fackordet
+**minimiavstånd**, i stället för det engelsknära *Distribuera*.
+
+`blender-ui-sv-reviewed-batch-1470-poisson-distribution-20261109.po`
+innehåller en granskad post med SHA-256
+`93eb659b864788324052843b804e21a02456889ea10710f75d471cc682a66199`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 469 — Collection Info-transformering
 
 Collection Info-nodens hjälptext använder nu den etablerade tekniska termen
