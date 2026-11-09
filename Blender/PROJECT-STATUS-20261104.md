@@ -3798,6 +3798,15 @@ inget importresultat för just denna batch är verifierat.
 Den felaktiga Blender-posten i `swedish-foss-terminology` har uppdaterats med
 samma kontext och evidens i commit `0c37755`.
 
+## Samlad import — batch 1 337–1 339
+
+`blender-ui-sv-reviewed-manual-import-20261109-batches-1337-1339.po` samlar
+de fem unika och kontextgranskade posterna från batch 1 337–1 339 i en enda
+manuell importfil. Den har SHA-256
+`02d4824d5b0605e8b9ed7cbf06d5df32b86dcec02f11865df4939066ed2cb83c`.
+Filen har verifierats med `msgfmt`, l10n-lint, svlang, diffkontroll och
+Gitleaks. Ingen Blender Translate-import av den samlade filen är verifierad.
+
 ## Batch 1 335 — cache för fjärrresurser
 
 Katalognamnet *Nedladdningscachekatalogen* ersätts av den naturligare och mer
