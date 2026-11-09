@@ -4407,6 +4407,18 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 475 — Float Curve-ordval
+
+Float Curve-noden använder nu **Avbilda** och **mata ut**, konsekvent med
+Map Range och andra funktionsnoder, i stället för *Mappa* och *returnera*.
+
+`blender-ui-sv-reviewed-batch-1475-float-curve-wording-20261109.po`
+innehåller en granskad post med SHA-256
+`d2861413bfb6c870080d1cb65ee8f18b4273122ac0ced156cbb22b2725ac0685`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. svlang markerar
+imperativsatsernas korrekta ordföljd och *indataflyttal* som falska positiva.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 474 — vektortyper för rutnät
 
 Rutnätstyperna använder nu **Dubbelprecisionsvektor** för *Double Vector* och
