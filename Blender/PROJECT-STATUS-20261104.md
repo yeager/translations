@@ -13493,3 +13493,20 @@ innehåller sex radgranskade poster med SHA-256
 Svlangs V2-varningar är falska positiva för satser efter kolon; Hunspell-sv
 flaggar endast enumvärdet `NOTHING` och `unicode`. Batchen väntar på manuell
 import.
+
+## Batch 1 409–1 411 — terminologi och hjälptextformat
+
+Fortsatt lokal radgranskning av den senaste tillgängliga exporten normaliserar
+Blenders UI-term *operatör* i stället för engelska *operator*,
+*poseringsläge*, *tangentmappning*, *Dopebladsredigeraren* och Blenders
+etablerade ord för packade data. Hjälptexten för interaktiv geometri har också
+återfått källans punktmarkörer och bindestreck. Kodidentifierare och
+matematiska Laplaceoperatorer har lämnats orörda.
+
+`blender-ui-sv-reviewed-batch-1409-operator-terminology-20261109.po`,
+`blender-ui-sv-reviewed-batch-1410-terminology-consistency-20261109.po` och
+`blender-ui-sv-reviewed-batch-1411-operator-helptext-format-20261109.po`
+innehåller sammanlagt 24 granskade poster. `msgfmt`, l10n-lint, svlangs
+konsistenskontroll och Gitleaks passerade. Hunspell-sv och svlangs vanliga
+stilanalys rapporterar bara projektspecifika termer, kod och kända
+heuristiska falska positiva. Batcherna väntar på manuell import.
