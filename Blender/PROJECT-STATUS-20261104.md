@@ -13685,6 +13685,14 @@ innehåller fjorton granskade poster med SHA-256
 vissa projektspecifika sammansättningar som ovanliga, men inte som sakfel.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Radgranskning — poster 4 001–5 760
+
+Fluiddomän, Freestyle, Grease Pencil, Gizmo, Actions, penslar, kameror,
+samlingar och kurvor har granskats rad för rad i den lokala exporten. Två
+säkra språkjusteringar skapade batch 1 450 och 1 451; övriga poster i
+intervallet lämnades oförändrade efter kontext- och terminologikontroll.
+Detta är lokal granskning, inte en verifiering av manuell Weblate-import.
+
 ## Verifierad import — 2026-11-09 efter kl. 16
 
 Den manuella Weblate-importen av den samlade filen med batch 1 403–1 437 är
