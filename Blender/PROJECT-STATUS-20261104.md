@@ -12602,6 +12602,19 @@ passerade. Hunspell-sv markerar bara engelsk källtext, API-namn och
 PO-metadata. Batchen är redo för manuell import; importresultatet är inte
 verifierat.
 
+## Nästa samlade import — batch 1 370–1 371
+
+`blender-ui-sv-reviewed-next-import-20261109-batches-1370-1371.po` samlar
+fem nya, deduplicerade poster efter den verifierade 38-strängarsimporten:
+en ActionChannelbags-formulering och fyra konsekventa UI-termer för
+*Sequencer Scene*. SHA-256 är
+`d32256943e9c48f876cc2882d99e8f4f82f887ce5cc2c86dcfb1175fe8db3014`.
+
+`msgfmt`, l10n-lint, svlang, konsistenskontroll, källmatchning och Gitleaks
+passerade. Hunspell-sv markerar endast engelsk källtext, API-namn och
+PO-metadata. Filen ligger långt under gränsen på 1 000 strängar. Den är redo
+för manuell import; importresultatet är inte verifierat.
+
 ## Samlad import — ändringar sedan 07:00 den 9 november
 
 `blender-ui-sv-reviewed-since-0700-20261109-complete-v2.po` är en
