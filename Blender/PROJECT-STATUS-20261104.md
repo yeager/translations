@@ -4609,6 +4609,18 @@ innehåller en granskad post med SHA-256
 det korrekta UI-namnet *NLA-spår* och en förkortad sats. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 509 — tilläggsförråd och filåtgärder
+
+Två felstavade förekomster av *förvaret* har rättats till **förrådet** i
+tilläggsadministrationen. Avbrott av filoperationer använder dessutom den
+konsekventa UI-termen **filåtgärd**.
+
+`blender-ui-sv-reviewed-batch-1509-extension-repository-file-actions-20261110.po`
+innehåller fyra granskade poster med SHA-256
+`2c390c43f6c09e3bf6ff2f7e50ab3d40106b84ffbfce2355a8ff212325e5d203`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
