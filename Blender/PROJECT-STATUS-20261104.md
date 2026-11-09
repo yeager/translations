@@ -3776,6 +3776,15 @@ TM-posterna är nu *slot*, *slothandtag*, *slotidentifierare*,
 Ändringen är publicerad i `swedish-tm`-commit `f32ddf0`; den skapar ingen ny
 UI-delta, eftersom rättningen redan finns i den arkiverade UI-batchen.
 
+## Blender-TM — samlad UI-synk
+
+Blender-TM synkades mot alla 385 arkiverade, kontextgranskade UI-batchfiler.
+Endast 2 068 källsträngar med en entydig granskad måltext användes: 1 898
+befintliga TM-poster rättades och 60 saknade poster lades till. 64 strängar
+med flera möjliga måltexter lämnades medvetet utanför, eftersom TM saknar
+Blenders specifika kontext. PO- och TMX-pariteten har validerats efter synken.
+Ändringen är pushad i `swedish-tm`-commit `30dcc9a`.
+
 ## Batch 1 290 — geometri- och bildrymd
 
 Batch 1 290 normaliserar sex Blender-kontexter där *geometry space* och
