@@ -24,6 +24,13 @@ vanligaste träffar är etablerade Blender- och 3D-termer som *mesh*, *Grease
 Pencil*, *Action*, *modifieraren*, *nodgrupp* och *vyport*. Ingen ny
 högsäker svensk rättning skapades i denna kontroll.
 
+`svlang check` ger på hela PO-filen tusentals heuristiska V2- och
+naturlighetsträffar eftersom Blender-RNA, Python, formatnamn och UI-fragment
+tolkas som vanlig prosa. Resultatet används därför bara för att välja ut
+kandidater till radgranskning, aldrig för automatiska rättningar eller som
+ett kvalitetsmått. De sju interpunktionsindikeringarna pekar på formaterad
+käll-/kodtext, inte svenska måltexter.
+
 ## Batch 1 361 — samlad importfil för godkända UI-rättningar
 
 Den här importfilen samlar de 20 redan kontextgranskade posterna från
