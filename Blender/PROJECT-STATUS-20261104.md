@@ -13510,3 +13510,32 @@ innehåller sammanlagt 24 granskade poster. `msgfmt`, l10n-lint, svlangs
 konsistenskontroll och Gitleaks passerade. Hunspell-sv och svlangs vanliga
 stilanalys rapporterar bara projektspecifika termer, kod och kända
 heuristiska falska positiva. Batcherna väntar på manuell import.
+
+## Batch 1 412–1 418 — konsekvent svensk Blenderterminologi
+
+Den fortsatta radgranskningen normaliserar svensk interpunktion,
+*nyckelbildruta* och *nyckelbildsättning*, resursnamn för poser och penslar
+samt Blenders mesh-termer. Bland annat ersätts felaktiga eller otydliga
+former med *poseringsresurs*, *meshcache*, *meshdeformering* och
+*meshsekvenscache*. Tekniska produkt- och API-namn lämnas oförändrade.
+
+Deltafilerna för batch 1 412–1 418 innehåller tillsammans 53 kontrollerade
+poster. `msgfmt`, l10n-lint, svlangs konsistenskontroll och Gitleaks
+passerade. Hunspell-sv och den generella svlang-analysen rapporterar endast
+förväntade Blendertermer, källtext och tekniska identifierare. Batcherna är
+lokalt arkiverade och väntar på manuell import.
+
+## Batch 1 419 — animation och rendering
+
+En ny kontextgranskning av animations- och renderingssträngar ersätter
+*återges* med **renderas** när Blenders renderingsprocess avses, enligt
+projektets terminologi. Två nyckelbildstyper normaliseras till *ytterläge*,
+och gränssnittet använder *nyckelbildsättning* för *keyframing*. Dessutom
+rättas en diagnostik till *posen på en bibliotekslänkad armatur*.
+
+`blender-ui-sv-reviewed-batch-1419-animation-rendering-20261109.po`
+innehåller nio granskade poster. `msgfmt`, l10n-lint och Gitleaks passerade.
+Svlangs två V2-varningar är verifierade falska positiva; ordföljden i båda
+satserna är korrekt. Hunspell-sv träffar endast PO-metadata, engelska
+källsträngar och Blendernamn. Filen är lokalt granskad, arkiveras separat och
+väntar på manuell import.
