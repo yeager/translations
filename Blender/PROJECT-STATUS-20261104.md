@@ -4407,6 +4407,17 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 480 — vald panel
+
+Statushjälptexten för nodträdsgränssnittet uttrycker ett tillstånd: panelen
+**är vald**, inte att den väljs.
+
+`blender-ui-sv-reviewed-batch-1480-panel-selected-state-20261109.po`
+innehåller en granskad post med SHA-256
+`47efde200a25a678812e15c8b0f3fe9e52e4efbbf2c4a8753062ff6c1bc0d9d0`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 479 — Node Tree Interface-element
 
 Rotpanelens hjälptext använder **element** för Node Tree Interface-poster,
