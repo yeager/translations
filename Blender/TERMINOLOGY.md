@@ -853,6 +853,7 @@ Senast uppdaterad: 2026-11-08.
 | accessibility label | tillgänglighetsetikett | Gäller USD-tillgänglighetsmetadata. |
 | USD stage | USD-scen | Kontextbundet i exporterad/importerad scendokumentation; översätt inte automatiskt i API- eller filformatsnamn. |
 | up orientation | uppåtriktning | Använd när koordinatsystemets uppaxel beskrivs, till exempel *Y-uppåtriktning*. |
+| X/Y/Z Up | X-/Y-/Z-upp | Korta etiketter för import- och exportaxelns uppåtriktning. Bindestrecket gör relationen mellan axelbeteckning och riktning tydlig, även för negativa axlar som *-X-upp*. |
 | USD Preview | USD Preview | Synligt produkt- och nodnamn; översätt inte till *USD-förhandsgranskning*. |
 | `UsdGeom*`, `Scope`, `allPurpose`, `preview` | behåll exakt | Identifierare och normativa USD-värden. Översätt endast den omgivande förklarande texten. |
 
