@@ -200,6 +200,7 @@ Senast uppdaterad: 2026-11-09.
 | Action data-block | Action-datablock | Datablock som innehåller en Action. Behåll *Action* med stor bokstav när typen uttryckligen anges. |
 | keyframe | nyckelbildruta | Animeringsdata vid en specifik bildruta. Använd *nyckelbildruta*, *nyckelbildrutor* och böjda sammansättningar som *nyckelbildrutetyp* och *nyckelbildrutenummer* konsekvent i Action-, graf- och Dope Sheet-redigerarna. Förkorta inte till *nyckelruta* eller *nyckelbild* när Blender-keyframes avses. |
 | keyframing | nyckelbildsättning | Processen att infoga och redigera keyframes. Skilj från själva objekten, som är *nyckelbildrutor*. |
+| redo | gör om | Använd den etablerade Blender-formen *Gör om* i menyer, kommandon och intern diagnostik. Skriv exempelvis *Gör om-operatören*, inte den oidiomatiska formen *återgör*. |
 | duplicate and rename | Duplicera och byt namn | Operatör för kopiering av ben med efterföljande namnbyte. |
 | working plane | arbetsplan | Etablerad term i Blenders TBX-ordlista. |
 | internal clipboard | interna urklippet | UI-funktion, inte operativsystemets urklipp. |

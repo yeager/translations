@@ -13348,3 +13348,18 @@ innehåller en radgranskad post med SHA-256
 konsistenskontroll och Gitleaks passerade. Hunspell-sv markerar den långa,
 projektspecifika sammansättningen men inga svenska stavfel identifierades.
 Filen är redo för manuell import; importresultatet är inte verifierat.
+
+## Batch 1 401 — Gör om-operatören
+
+Två interna felmeddelanden använde *Återgör-operatören* för Blenders
+*Operator redo*. Det avviker från projektets befintliga och idiomatiska
+menyterm **Gör om**. De normaliseras till *Gör om-operatören* utan att ändra
+API-namn, parameteridentifierare eller funktionsbeteende.
+
+`blender-ui-sv-reviewed-batch-1401-redo-operator-wording-20261109.po`
+innehåller två radgranskade poster med SHA-256
+`e6f7f20ca5f6a7a85b7d44b19792551597fb4569bb82a2cc27f75d2f2df9eb07`.
+`msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
+konsistenskontroll och Gitleaks passerade. Hunspell-sv har inga relevanta
+svenska stavträffar. Filen är redo för manuell import; importresultatet är
+inte verifierat.
