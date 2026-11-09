@@ -51,6 +51,19 @@ Fyra termbasposter för Geometry Nodes rättades från den engelska formen
 *uttaget*. Uppdateringen är publicerad i commit \`eb050d8\` och kräver ingen
 ytterligare UI-import.
 
+## Batch 1 352 — kompositerat resultat
+
+Renderingsinställningen för Video Sequencer behandlar även det resultat som
+har passerat kompositeringen. Den vardagliga formen *komponerade resultatet*
+byter därför till den projektspecifika termen *kompositerade resultatet*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1352-composited-result-20261109.po`
+innehåller en ändrad post och har SHA-256
+`c1eb3f40155e05aba7c41c5d485168bcadd6046276f84ea3d30e7e8bb04c441b`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks
+passerade. Blender-TM har synkats med samma post. Batchen är lokalt färdig och
+redo för manuell import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 351 — renderingskedjor
 
 Blenders renderingsinställningar beskriver både kompositering, Video
