@@ -12281,3 +12281,18 @@ deltafil med två poster och SHA-256
 `msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks
 passerade. Filen är redo för manuell Blender Translate-import och innehåller
 inga tidigare batchar.
+
+## Batch 1 345 — shadernoder i AOV-utdata
+
+Hjälptexten för nodtypen `ShaderNodeOutputAOV` avser uttryckligen utdata från
+*shader nodes*. Den tidigare formen *skuggningsnoder* blandade ihop den
+formella Blender-nodtypen med den vidare processen *skuggning*. Den rättas
+till den etablerade termen *shadernoder*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1345-shader-node-aov.po` innehåller
+en radgranskad post och har SHA-256
+`647dee6ec6debf2f45c5244020c564a055a69527041955721116e057c8cb6d70`.
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Hunspell-sv
+saknar den korrekta projektspecifika sammansättningen `shadernoder`; den är
+manuellt verifierad mot Blenders terminologi. Deltafilen är redo för manuell
+import; något importresultat för just denna post är ännu inte verifierat.
