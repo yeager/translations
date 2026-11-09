@@ -13781,3 +13781,15 @@ innehåller en granskad post med SHA-256
 `794a17a36aae64033ea65c382ace585c1305a2b975c64ab6a50b4895fb09929c`.
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
+
+## Batch 1 445 — tygsimulering
+
+I tygsimuleringens parametertext använder *cloth* nu konsekvent **tyg**.
+Tidigare **duken** avvek från samtliga närliggande tyginställningar i samma
+panel.
+
+`blender-ui-sv-reviewed-batch-1445-cloth-terminology-20261109.po` innehåller
+en granskad post med SHA-256
+`f06398025e28f25090113569fc3b6c6967542c25c6e4752c56a2db11c232427a`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
