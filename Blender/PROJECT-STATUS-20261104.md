@@ -4384,6 +4384,17 @@ innehåller en granskad post med SHA-256
 den korrekta sammansättningen som sällsynt; detta är en granskad
 informationssignal. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 458 — samplingslängd
+
+Grease Pencil-konturens algoritmiska egenskap *Sample Length* använder nu
+**Samplingslängd** i stället för den oidiomatiska frasen *Provets längd*.
+
+`blender-ui-sv-reviewed-batch-1458-outline-sampling-length-20261109.po`
+innehåller en granskad post med SHA-256
+`a018914a4386bbdac120d34ce4a790332bdd06172636ea18e97a87243870a86a`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 454 — Overlay som blandningsläge
 
 Det återanvända blandningsläget *Overlay* är nu **Överlägg**, samma term som
