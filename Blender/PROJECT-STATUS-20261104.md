@@ -4570,6 +4570,19 @@ granskade poster med SHA-256
 korrekta Blender- och formatnamn, sammansättningar samt imperativ i relativa
 bisatser. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 506 — glTF-exportens skiljetecken
+
+En glTF-exportpost ersätter strecktecknet före varningen med semikolon.
+Källtexten använder bindestreck, inte ett tankstreck, och svenskans två
+självständiga satsdelar blir tydligare med semikolon.
+
+`blender-ui-sv-reviewed-batch-1506-gltf-export-punctuation-20261110.po`
+innehåller en granskad post med SHA-256
+`f6834d272c320637701d974bfe4fbcc957188241512b25c39ed54819ae92ed3b`.
+`msgfmt`, l10n-lint, svlang och Gitleaks passerade. Hunspell-sv markerar den
+korrekta Blender-sammansättningen *meshobjekt*. Batchen är lokalt arkiverad
+och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
