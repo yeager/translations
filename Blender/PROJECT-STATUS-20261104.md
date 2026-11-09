@@ -4395,6 +4395,17 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 485 — växla en visningsnod
+
+Kortkommandot växlar en angiven visningsnod, inte mellan flera noder.
+
+`blender-ui-sv-reviewed-batch-1485-viewer-node-toggle-20261109.po` innehåller
+en granskad post med SHA-256
+`e3e68141dfc99d87eb3e999c27e28c610332b1978bd18b9f2f7728dada6f852a`.
+`msgfmt`, Hunspell-sv, svlang och Gitleaks passerade. l10n-lint rapporterar
+endast den engelska källsträngens ovanliga talföljd och tre punkter. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 483 — samplingsintervall
 
 OpenEXR-hjälptexten använder **samplingsintervall**, inte det geografiska
