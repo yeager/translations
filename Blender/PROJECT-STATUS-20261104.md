@@ -4407,6 +4407,17 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 477 — Checker Texture
+
+Texturnodens *Checker* har rättats från den felaktiga personbeteckningen
+*Kontrollant* till **Schackmönster**, konsekvent med Image Texture.
+
+`blender-ui-sv-reviewed-batch-1477-checker-texture-20261109.po` innehåller
+en granskad post med SHA-256
+`dc7b94e438cb3df826208ec08275664e4b902b9a6eecd5b6466210cbef1c1cf3`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 476 — Sky Texture-ozon
 
 Sky Texture-hjälptexten har stavningsrättats från *stadsözon* till
