@@ -3765,6 +3765,21 @@ Tre motsvarande, strikt kontextbundna poster har lagts till i
 översättningsminnesposten för *Slot Handle* ändrades inte, eftersom den saknar
 `ActionSlot`-kontext och används även för andra typer av slotar.
 
+## Batch 1 338 — fästning i 3D-mätverktyget
+
+Hjälptexten för 3D-vyns mätverktyg använder Ctrl-tangenten för att fästa
+en mätning. Den tidigare formen *snäppa* ersätts med det etablerade Blender-
+verbet *fästa*. Denna avgränsade ändring påverkar inte sekvensredigerarens
+särskilda term *snäppning*. Deltafilen
+`blender-ui-sv-reviewed-batch-1338-ruler-snapping.po` innehåller en post och
+har SHA-256
+`bfde9b57866fb9067e4cec9e720d44502cd40d30d76feacb06200aaa207abc6a`.
+
+`msgfmt`, l10n-lint, svlang, Hunspell-sv och Gitleaks passerade. `msgfmt`
+gav endast förväntade metadata-varningar för deltafilens minimala PO-huvud.
+Batchen är lokalt färdig och arkiverad för manuell Blender Translate-import;
+inget importresultat för just denna batch är verifierat.
+
 ## Batch 1 335 — cache för fjärrresurser
 
 Katalognamnet *Nedladdningscachekatalogen* ersätts av den naturligare och mer
