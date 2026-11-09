@@ -12325,3 +12325,17 @@ SHA-256 är
 `msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Filen är
 redo för manuell Blender Translate-import; inget importresultat för dess fyra
 poster är ännu verifierat.
+
+## Batch 1 347 — shadernoder i förhandsgranskningsinställning
+
+Inställningen `node_preview_resolution` styr förhandsgranskningar av den
+formella nodtypen *Shader Node*. Den missvisande och inkonsekventa formen
+*skuggarnoder* rättas därför till *shadernoder*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1347-shader-node-preview-resolution.po`
+innehåller en radgranskad post och har SHA-256
+`215b45feab159f67ae37ec173ccc9e587e7d725aa1e3d3d3e3d1981f07e52255`.
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Hunspell-sv
+markerar den avsiktliga projektspecifika sammansättningen `shadernoder`; den
+är verifierad i Blender-terminologin. Deltafilen är redo för manuell import;
+dess eget importresultat är ännu inte verifierat.
