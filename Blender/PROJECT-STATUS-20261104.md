@@ -13419,3 +13419,15 @@ bearbetade**, **237 hoppade över**, **0 saknade** och **19 uppdaterade**
 strängar. Detta verifierar importen till Blender Translate; fortsatt
 upstream-granskning eller eventuell senare ändring av källsträngar är en
 separat status.
+
+## Batch 1 405 — Textrendering
+
+Inställningspanelen `bpy.types.USERPREF_PT_interface_text` märktes tidigare
+*Textåtergivning*. Eftersom panelen styr Blenders funktion för att rendera text
+normaliseras den till **Textrendering**. Termen *återgivning* reserveras för
+visning eller reproduktion som inte namnger renderingsfunktionen.
+
+`blender-ui-sv-reviewed-batch-1405-text-rendering-20261109.po` innehåller den
+radgranskade posten. `msgfmt`, l10n-lint, svlang (med och utan
+interpunktionskontroll), konsistenskontroll, Hunspell-sv och Gitleaks passerade.
+Filen är lokalt granskat arkivmaterial och väntar på nästa manuella import.

@@ -52,7 +52,7 @@ Senast uppdaterad: 2026-11-09.
 | prefetch | förhandsladdning | Läser in cache- eller animationsdata i förväg för snabbare uppdateringar. |
 | Cycles Procedural cache | Cycles Procedural-cachen | Särskild cache för Cycles procedurbaserade inläsning. |
 | Cycles / EEVEE | Cycles / EEVEE | Blenders egna renderare är produktnamn och lämnas oförändrade; sammansättningar skrivs exempelvis *Cycles-kurvor*. |
-| render / rendering / renderer | rendera / rendering / renderare | Använd för Blenders generella bildrenderingsprocess och dess UI: *fullständig rendering*, *renderad effekt* och *renderingsläge*. Behåll **återgivning** när källtexten uttryckligen handlar om reproduktion eller visning; UI-panelen *Text Rendering* är därför **Textåtergivning**. |
+| render / rendering / renderer | rendera / rendering / renderare | Använd för Blenders generella bildrenderingsprocess och dess UI: *fullständig rendering*, *renderad effekt*, *renderingsläge* och panelen **Textrendering**. Använd **återgivning** endast när källtexten uttryckligen avser reproduktion eller visning, utan att beteckna Blenders renderingsfunktion. |
 | Auto-Pack / auto-pack | automatisk paketering | Blenderfunktionen som bäddar in externa resurser i .blend-filen. Översätt synlig UI-text konsekvent som *automatisk paketering*; behåll bara API-egenskapen `use_autopack` och andra kodidentifierare oförändrade. |
 | nit / nits (HDR luminance) | nit | Ljusstyrkeenheten i OCIO-, ACES- och HDR-etiketter. På svenska används enhetsformen *nit* även efter tal: *1 000 nit*, inte *1 000 nits*. Färgrymds- och formatnamn lämnas oförändrade. |
 | object path | objektsökväg | Sökväg för ett objekt i exempelvis en Alembic-arkivfil. |
