@@ -12558,6 +12558,21 @@ SHA-256 är
 redo för manuell Blender Translate-import och ligger långt under 1 000
 strängar; något importresultat för dess poster är ännu inte verifierat.
 
+## Batch 1 364 — Dope Sheet-termer
+
+Fyra återstående synliga formuleringar blandade den engelska arbetsbeteckningen
+*Dopesheet* med den etablerade svenska UI-termen *Dopeblad*. De rättas till
+*dopeblad*, *dopebladet*, *dopebladssortering* och *dopebladskanaler* enligt
+omgivande UI- och animeringskontext. Python-identifierare lämnas orörda.
+
+`blender-ui-sv-reviewed-batch-1364-dopeblad-terminology-20261109.po`
+innehåller fyra radgranskade poster och har SHA-256
+`903ad089a0f4e66700e4eb8b2d633f8edfc827342818b257d914c6d5de0e161d`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll, källmatchning och Gitleaks
+passerade. Hunspell-sv markerar tekniska källord och metadatarader i
+deltafilen, men ingen svensk felstavning i de ändrade formuleringarna.
+Deltafilen är redo för manuell import; dess importresultat är inte verifierat.
+
 ## Batch 1 362 — HDR-enheten nit
 
 Två beskrivningar av Rec.2100-visningar hade den engelska pluralformen
