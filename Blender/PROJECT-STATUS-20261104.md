@@ -12587,6 +12587,21 @@ källmatchning och Gitleaks passerade. Hunspell-sv markerar endast tekniska
 källord och PO-metadata, inte de svenska ändringarna. Filen är redo för manuell
 import; dess importresultat är inte verifierat.
 
+## Batch 1 366 — renderingsupplösning för proxy
+
+I egenskapen `proxy_render_size` syftar *full render* på den fullständiga
+renderingen i stället för en proxyupplösning. Den tidigare formen
+*full återgivning* blandade ihop processens etablerade term med
+visningsbetydelsen. Den rättas till *fullständig rendering*.
+
+`blender-ui-sv-reviewed-batch-1366-proxy-render-terminology-20261109.po`
+innehåller en radgranskad post och har SHA-256
+`0eb0dcbb3b999698281b81d57667ccf8f49db753e2f81b1f6a07cb9be9c80f47`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, konsistenskontroll,
+källmatchning och Gitleaks passerade. Hunspell-sv markerar endast källord
+och PO-metadata. Deltafilen är redo för manuell import; importresultatet är
+inte verifierat.
+
 ## Batch 1 362 — HDR-enheten nit
 
 Två beskrivningar av Rec.2100-visningar hade den engelska pluralformen
