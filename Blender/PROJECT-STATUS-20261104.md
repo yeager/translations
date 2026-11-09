@@ -3731,6 +3731,19 @@ diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 Ingen Weblate-import är verifierad; batchen är lokalt färdig och redo för
 manuell import.
 
+## Terminologirevision 2026-11-09 — Action och Action-slot
+
+Blenders formella animationsdatatyp ska konsekvent behålla namnet *Action* i
+synliga UI- och API-kontexter. Den svenska löptexten böjer namnet som
+*Actionen*, *Actioner* och *Actionerna*. För den tillhörande datastrukturen
+används *Action-slot*, med böjningarna *Action-slotten* och *Action-slotar*.
+
+Två äldre, motstridiga tabellrader med *åtgärdsslot* har därför tagits bort
+från `TERMINOLOGY.md`; de riskerade att felaktigt överstyra den senare,
+kontextgranskade terminologin. Ändringen rör endast granskningsunderlaget och
+skapar ingen Blender Translate-deltafil eller något påstående om import.
+Terminologirevisionen är arkiverad och pushad i commit `d8464906`.
+
 ## Batch 1 335 — cache för fjärrresurser
 
 Katalognamnet *Nedladdningscachekatalogen* ersätts av den naturligare och mer
