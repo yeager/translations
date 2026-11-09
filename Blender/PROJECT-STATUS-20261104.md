@@ -12519,6 +12519,16 @@ passerade. Hunspell-sv markerar endast engelsk källtext, API-namn och
 PO-metadata. Filen ligger långt under gränsen på 1 000 strängar; dess
 importresultat är ännu inte verifierat.
 
+## Katalogkontroll — senaste lokala underlag
+
+Den senaste tillgängliga Blender UI-katalogen,
+`Downloads/blender-ui-ui-sv (6).po`, har 40 427 översatta poster. `msgfmt`
+och l10n-lint passerar katalogen utan träffar. Svlang ger sju
+interpunktionsmarkeringar, samtliga i oförändrade bokstavliga koduttryck som
+`(dot(B, C) < 0) ? A : -A`; de är inte svensk löptext och har därför inte
+ändrats. Den här kontrollen bekräftar endast katalogens maskinella formalia,
+inte att alla 40 427 poster är mänskligt slutgranskade.
+
 ## Batch 1 373 — återstående sekvensredigerarscener
 
 Tre återstående referenser till samma *Sequencer Scene*-datablock använde
