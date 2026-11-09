@@ -4395,6 +4395,19 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 462 — karta över sprutriktning
+
+Ocean-hjälptexten använder nu den idiomatiska formuleringen **kartan över
+sprutriktning** i stället för den svårtolkade sammansättningen
+*sprutriktningkartan*.
+
+`blender-ui-sv-reviewed-batch-1462-ocean-spray-direction-grammar-20261109.po`
+innehåller en granskad post med SHA-256
+`70fc631071ae68bb674f490ce744ee311c11dbc253389ce6568526067d67b3ce`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. svlangs passiv-varning
+gäller den naturliga relativa satsen *som används* och är en falsk positiv.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 460 — namnändelse för speglade hörnpunktsgrupper
 
 Exemplet för spegling av hörnpunktsgrupper bevarar nu det funktionella
