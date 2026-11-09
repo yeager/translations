@@ -30,6 +30,13 @@ kandidatkontroll och Gitleaks. Hunspell-träffar som gäller kod, formatnamn,
 egna namn eller etablerade Blender-fackord är granskningsunderlag och inte
 automatiska ändringsförslag.
 
+Den 9 november kördes Hunspell-kontrollen om med den aktuella
+`yeager/hunspell-sv`-ordlistan, inte den äldre temporära kopian. Den gav 6 307
+unika råa kandidatord. De nyligen tillagda och kvalitetssäkrade Blender-termerna
+*åtgärdsslot*, *åtgärdsslotar* och *åtgärdsslothandtag* godkänns nu av
+ordlistan. Råantalet omfattar fortfarande kod, flaggor, parametrar,
+produktnamn och fackord och får inte tolkas som ett antal återstående språkfel.
+
 `svlang svengelska` hittar i den äldre lokala exporten fortfarande *tagga* och
 *Taggade*. De är redan rättade till *märka data* respektive *markerade kanter*
 i den arkiverade batchen för ID-taggningskontexten. `startup` behålls eftersom
