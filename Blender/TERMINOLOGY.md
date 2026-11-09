@@ -634,6 +634,7 @@ Senast uppdaterad: 2026-11-08.
 | compositing (process) | kompositering | Blenders nodbaserade bearbetning av renderat bildmaterial. Projektets svenska manual använder *kompositering*. I förklarande teknisk text kan sammansättningar som *kompositeringsnodgrupp* användas; se den separata UI-termen *kompositionsnodträd*. |
 | compositor node tree | kompositionsnodträd | Den svenska UI-katalogens etablerade namn för ett nodträd som används av Compositor. Skilj den konkreta strukturen *kompositionsnodträd* från processen *kompositering*; normalisera inte befintliga UI-etiketter till den längre processformen. |
 | compositing node group | kompositeringsnodgrupp | Nodgrupp som utför eller styr kompositering. Skilj den från miljön *Kompositör*; undvik den tvetydiga formen *kompositnodgrupp*. |
+| compositing node(s) | kompositeringsnod(er) | Formell nodtyp som används i kompositeringsarbetsflödet. Skriv inte *kompositnod(er)*, eftersom den kortformen är oetablerad och lätt blandas ihop med processen *kompositering*. |
 | selection set | urvalsuppsättning | Namngiven samling av valbara element. |
 | delta location | deltaförflyttning | Extra förflyttning som läggs till ett objekts position. |
 | empty | tomobjekt | Blender-objekt utan egen geometri, till exempel för referensbilder eller hjälpkontroller. |

@@ -12368,6 +12368,21 @@ SHA-256 är
 redo för manuell Blender Translate-import och ligger långt under 1 000
 strängar; något importresultat för dess poster är ännu inte verifierat.
 
+## Batch 1 349 — kompositeringsnoder och nodgrupper
+
+Tre UI-poster använde den oetablerade förkortningen *kompositnod* trots att
+de uttryckligen avser nodtypen eller en nodgrupp för *compositing*. De
+normaliseras till *kompositeringsnod* respektive *kompositeringsnodgrupp*.
+Korrigeringen omfattar en operatörsrubrik, dess beskrivning och hjälpraden för
+aktiv visarnod.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1349-compositing-node-terms.po`
+innehåller tre radgranskade poster och har SHA-256
+`17eb2a2e4566ee350c5112e637c8f5c1ed3bb697ae02e232a272893213034743`.
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Blender-TM
+synkroniseras med samma kontextbundna terminologi. Deltafilen är redo för
+manuell import; dess eget importresultat är ännu inte verifierat.
+
 ## Samlad import — batch 1 343–1 348
 
 `blender-ui-sv-reviewed-manual-import-20261109-batches-1343-1348.po` ersätter
