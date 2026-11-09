@@ -13595,6 +13595,20 @@ innehåller två granskade poster med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 440 — metaklot
+
+Äldre engelsknära former av *metaball* är normaliserade till **metaklot** i
+fjorton UI- och diagnostiksträngar, bland annat *metaklotdatablock*,
+*metaklottyp* och *metaklotrelaterade animeringsdata*. De följer den befintliga
+Blendertermbasen och behåller *mesh* som Blenders avsiktliga datatypsnamn.
+
+`blender-ui-sv-reviewed-batch-1440-metaklot-terminology-20261109.po`
+innehåller fjorton granskade poster med SHA-256
+`7cb0d110e600512b4e864cf514068d8f18c486b3a9e29756ca69435bce1fa692`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+vissa projektspecifika sammansättningar som ovanliga, men inte som sakfel.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Verifierad import — 2026-11-09 efter kl. 16
 
 Den manuella Weblate-importen av den samlade filen med batch 1 403–1 437 är
