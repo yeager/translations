@@ -4407,6 +4407,18 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 479 — Node Tree Interface-element
+
+Rotpanelens hjälptext använder **element** för Node Tree Interface-poster,
+vilket är konsekvent med den omgivande gränssnittsterminologin.
+
+`blender-ui-sv-reviewed-batch-1479-root-panel-elements-20261109.po`
+innehåller en granskad post med SHA-256
+`328e854a5b1e973d13bcbcb6006d74e4e54d4f5749dfa42f9f6081f49ac9bfbf`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. svlang markerar den
+korrekta relativa bisatsens ordföljd som en falsk positiv.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 478 — Rasterize-terminologi
 
 Geometrinodernas hjälptexter använder nu **rasterisera**, konsekvent med
