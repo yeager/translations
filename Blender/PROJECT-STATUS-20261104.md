@@ -4529,6 +4529,19 @@ innehåller fem granskade poster med SHA-256
 är en korrekt relativ bisats. Batchen är lokalt arkiverad och väntar på
 manuell import.
 
+## Batch 1 503 — kurvhandtag och utjämning
+
+Sex UI-poster för kurvredigering har normaliserats: *vektorhandtag*,
+avsmalning av avfasning, schackvis avmarkering samt utjämning av kurvradie,
+kurvlutning och kurvvikt.
+
+`blender-ui-sv-reviewed-batch-1503-curve-handles-20261110.po` innehåller sex
+granskade poster med SHA-256
+`1d431fdafbf679824fe0b0fe6a88504960741f04eb4d630ffe093dc1f709d7ec`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv markerar de korrekta
+Blender-sammansättningarna *schackvis*, *kurvlutningen* och *kurvvikten*;
+svlang ger 10/10. Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
