@@ -4408,6 +4408,18 @@ innehåller en granskad post med SHA-256
 gäller den naturliga relativa satsen *som används* och är en falsk positiv.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 463 — texturkoordinaternas källa
+
+Två frågor om texturkoordinater använder nu korrekt svensk ordföljd:
+**Från vilket ben/objekt texturkoordinaterna ska hämtas**.
+
+`blender-ui-sv-reviewed-batch-1463-texture-coordinate-question-grammar-20261109.po`
+innehåller två granskade poster med SHA-256
+`ec66c8ac76f388b662993d6a130bca5b40be1c0766bf95b087c1d0bde9eb7e58`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. svlangs V2-varning
+gäller indirekta frågesatser och är en falsk positiv. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
 ## Batch 1 460 — namnändelse för speglade hörnpunktsgrupper
 
 Exemplet för spegling av hörnpunktsgrupper bevarar nu det funktionella
