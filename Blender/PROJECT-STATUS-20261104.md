@@ -4407,6 +4407,16 @@ granskade poster med SHA-256
 endast Action-typnamnet respektive korrekt imperativ ordföljd. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 494 — benens namn
+
+Rigify-hjälptexten använder korrekt possessivform: **benens namn**.
+
+`blender-ui-sv-reviewed-batch-1494-flip-bone-names-20261109.po` innehåller en
+granskad post med SHA-256
+`9da06fe4ab20b7a6f1fa9bc7e2449d19767cc204bf1b5fb494e9d0effe00e1d7`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
