@@ -4372,6 +4372,18 @@ posemarkörer och nyckelbildrutor. Samtliga granskade poster har fått sina
 10/10 och rapporterar bara avsedda Blender-sammansättningar. Filen är
 arkiverad och väntar på manuell import.
 
+## Batch 1 457 — UV-fäststatus
+
+UV-redigerarens egenskap använder nu den korrekta sammansättningen
+**UV-fäststatus** i stället för särskrivningen *UV-fäst status*.
+
+`blender-ui-sv-reviewed-batch-1457-uv-pin-status-compound-20261109.po`
+innehåller en granskad post med SHA-256
+`768445bc6ef8b34e5286eacee2efd2ee3757b6903779afcc0ca6144087623578`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+den korrekta sammansättningen som sällsynt; detta är en granskad
+informationssignal. Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 454 — Overlay som blandningsläge
 
 Det återanvända blandningsläget *Overlay* är nu **Överlägg**, samma term som
