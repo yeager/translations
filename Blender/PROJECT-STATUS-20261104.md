@@ -4542,6 +4542,19 @@ granskade poster med SHA-256
 Blender-sammansättningarna *schackvis*, *kurvlutningen* och *kurvvikten*;
 svlang ger 10/10. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 504 — Dynamic Paint och FBX-armatur
+
+Fem strängar i Dynamic Paint och FBX-exporten har förtydligats: typens
+aktiva status, varje bens underordnade och armaturens FBXNode-typ. De två
+FBX-noderna använder konsekventa svenska citattecken.
+
+`blender-ui-sv-reviewed-batch-1504-dynamic-paint-fbx-20261110.po` innehåller
+fem granskade poster med SHA-256
+`9d6f75622ccd139bfdb2a5e56a19d421827090ee3b9bfbc55f92df8bfb9c8d9f`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Verktygens träffar gäller
+produktnamnen FBXNode, Root och LimbNode samt korrekta relativa bisatser.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
