@@ -4488,6 +4488,20 @@ innehåller fem granskade poster med SHA-256
 korrekta relativa bisatser och en kontextberoende imperativ som möjliga
 V2-avvikelser. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 500 — kurvverktyg och skulptering
+
+Tolv kurvrelaterade UI-poster har normaliserats. De använder *världsrymd*,
+konsekvent verbform för redigeringsläge, tydligare hårpartikelsystem och
+svenska uttryck för urvalets början/slut. Handtagstyper, cykliska kurvor och
+kurvskulpteringsläget är samtidigt förtydligade.
+
+`blender-ui-sv-reviewed-batch-1500-curves-20261109.po` innehåller tolv
+granskade poster med SHA-256
+`7a85846219ae202579a36daddcc8cce7ea9f2f9d959441acb87c2b311c0337c0`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+endast etablerade Blender-termer eller en korrekt imperativ konstruktion.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
