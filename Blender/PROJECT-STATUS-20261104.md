@@ -4372,6 +4372,18 @@ posemarkörer och nyckelbildrutor. Samtliga granskade poster har fått sina
 10/10 och rapporterar bara avsedda Blender-sammansättningar. Filen är
 arkiverad och väntar på manuell import.
 
+## Batch 1 454 — Overlay som blandningsläge
+
+Det återanvända blandningsläget *Overlay* är nu **Överlägg**, samma term som
+i Blenders övriga färgkontext. Den tidigare verbformen *Täcka över* var inte
+en korrekt eller konsekvent benämning på ett blandningsläge.
+
+`blender-ui-sv-reviewed-batch-1454-overlay-blend-mode-terminology-20261109.po`
+innehåller en granskad post med SHA-256
+`7a295575a2a49e64821bb0ddd1938d6107bce311747d8414df9365389f4a4930`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 Batch 180 granskar tjugoen poster för klippredigeraren och filmspårningen.
 Den rättar bland annat kanaler, spårfel, begränsningsrutor, tidskod,
 stabiliserat filmmaterial och dopebladsvyn. Samtliga granskade poster har fått
