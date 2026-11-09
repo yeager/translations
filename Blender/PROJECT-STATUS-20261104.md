@@ -4384,6 +4384,17 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 455 — linjeuppsättning
+
+*Line Set* använder konsekvent **linjeuppsättning**. Indexetiketten hade den
+avvikande formen *linjesats* och är nu normaliserad.
+
+`blender-ui-sv-reviewed-batch-1455-line-set-consistency-20261109.po`
+innehåller en granskad post med SHA-256
+`c87642db3178d1624d05e359113e0191e68933f5836bb417dbd82ed993cca36b`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 Batch 180 granskar tjugoen poster för klippredigeraren och filmspårningen.
 Den rättar bland annat kanaler, spårfel, begränsningsrutor, tidskod,
 stabiliserat filmmaterial och dopebladsvyn. Samtliga granskade poster har fått
