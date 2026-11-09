@@ -722,7 +722,7 @@ Senast uppdaterad: 2026-11-09.
 | rig type | riggtyp | Typdefinition som bestämmer hur Rigify genererar en viss del av en rigg. |
 | rig sample | riggprov | Fördefinierad Rigify-del som läggs till i en armatur eller metarigg som utgångspunkt. |
 | parenting settings | överordningsinställningar | Inställningar för relationen mellan ett ben och dess överordnade ben. |
-| Child Of constraint | Child Of-begränsning | Formellt Blender-namn med svensk sakterm. Behåll *Child Of* som identifierande del av begränsningens namn. |
+| Child Of constraint | Barn av-begränsning | Den synliga Blender-beteckningen följer svenska manualens *Barn av*. Behåll däremot API-värdet `CHILD_OF` och kodidentifierare oförändrade. |
 | Bendy Bones | Bendy Bones | Synligt Blender-namn för böjliga ben; behåll produktnamnet i etiketter och den närliggande saktexten. |
 | B-Bone handle offset | förskjutning av axelhandtaget | I riggningshjälptexter: *Förskjutning av X-axelhandtaget vid början av B-Bone-kurvan*. Behåll B-Bone som Blenders kortnamn. |
 | B-Bone segment | B-Bone-segment | UI-egenskap för B-Bonens underindelning. Bindestrecket håller produktnamnet och den svenska efterleden läsbara. |

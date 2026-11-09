@@ -13363,3 +13363,18 @@ innehåller två radgranskade poster med SHA-256
 konsistenskontroll och Gitleaks passerade. Hunspell-sv har inga relevanta
 svenska stavträffar. Filen är redo för manuell import; importresultatet är
 inte verifierat.
+
+## Batch 1 402 — Barn av-begränsning
+
+Den synliga etiketten *Child Of* är namnet på en relationsbegränsning för
+föräldra-/barnkoppling. Den svenska Blender-manualen använder **Barn av** för
+samma begränsning. UI-etiketten normaliseras därför till *Barn av*, medan det
+tekniska RNA-värdet `CHILD_OF` i referenskommentaren lämnas helt oförändrat.
+
+`blender-ui-sv-reviewed-batch-1402-child-of-constraint-20261109.po`
+innehåller en radgranskad post med SHA-256
+`93da4af571273abb2688d064a6e2e1a82c751c2c20b79a811816a09de34893a5`.
+`msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
+konsistenskontroll och Gitleaks passerade. Hunspell-sv hittar inga stavfel i
+den svenska måltexten. Filen är redo för manuell import; importresultatet är
+inte verifierat.
