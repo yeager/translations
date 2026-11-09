@@ -13004,3 +13004,28 @@ nuvarande måltext. `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
 passerade; `msgfmt`-varningarna gäller endast minimal delta-PO-metadata.
 Filen är långt under 1 000 strängar och redo för manuell import.
 Importresultatet är inte verifierat.
+
+## Batch 1 382 — sekvensredigeraren
+
+Åtgärden *Refresh the sequencer editor* hade den dubblerade formen
+*sekvensredigerarredigeraren*. Den normaliseras till den etablerade
+UI-termen *sekvensredigeraren*.
+
+`blender-ui-sv-reviewed-batch-1382-sequencer-editor-duplication-20261109.po`
+innehåller en radgranskad post med SHA-256
+`5cb023e241c30289352ec098c7a2827c976ec2e1d9c6315a20217419f0b905ea`.
+Källmatchning, `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
+passerade. Hunspell-sv markerar bara metadata- och källord. Filen är redo för
+manuell import; importen är inte verifierad.
+
+## Samlad import — batch 1 370–1 382
+
+`blender-ui-sv-reviewed-next-import-20261109-batches-1370-1382.po` ersätter
+den samlade 1 370–1 381-filen vid en manuell import. Den innehåller 29 unika
+radgranskade poster och har SHA-256
+`89108e071c70787fb239bb4a8206ae4cd21212397f846f560c69ab8b3ac324bc`.
+Samtliga poster matchar den lokala källkatalogen och skiljer sig från dess
+nuvarande måltext. `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
+passerade; `msgfmt`-varningarna gäller endast minimal delta-PO-metadata. Filen
+är långt under 1 000 strängar och redo för manuell import. Importresultatet är
+inte verifierat.
