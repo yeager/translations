@@ -4458,6 +4458,21 @@ den valda axeln.
 korrekta relativa bisatsen om riktning som möjlig V2-avvikelse. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 498 — bildvy samt samlingsimport och -export
+
+Bildvyns kommandon använder nu bestämd form: **Anpassa vyn**, **Centrera vyn
+på markören** och **Zooma vyn**. Samlingshanteringen har också fått korrekt
+possessiv form i *exportörsindex*, en tydlig flyttriktning och formuleringen
+*filändelser för ”Glob”*.
+
+`blender-ui-sv-reviewed-batch-1498-view-import-export-20261109.po` innehåller
+sex granskade poster med SHA-256
+`74179dcc508ac1383d29a6a89a6cbeea1c2f48bfb5d1cd1e96683a2f3e10bc8f`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. Svlang markerar den
+korrekta relativa bisatsen om exportörens riktning; Hunspell saknar den
+korrekta sammansättningen *exportörsindex*. Batchen är lokalt arkiverad och
+väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
