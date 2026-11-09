@@ -20,6 +20,20 @@ specificerar inte säkert vilka arkiverade batchar som ingick. Därför betrakta
 tidigare deltafiler fortfarande som möjliga dubbletter tills en ny export
 jämförs med dem.
 
+## Termbasunderhåll: Action Blending
+
+Två äldre termbasposter använde formerna *Actionblandning* och
+*Åtgärdsblandning*. I den aktuella Blender-kontexten
+`bpy.types.AnimData.action_blend_type` är **Action** ett namngivet datatypnamn,
+inte det generella ordet för åtgärd. Den kanoniska formen är därför
+*Action-blandning*. Korrigeringen är verifierad mot den arkiverade
+animationsbatchen med SHA-256
+`9b04b83aa77e4c0100e1f1d6a40f29fb25363b8dcb9bfd6571c416b52ee230d8`.
+
+Termbasuppdateringen är publicerad i
+`yeager/swedish-foss-terminology` som commit `1ca3b0b`. Den ändrar inte någon
+ny UI-post och innebär inte i sig en verifierad Blender Translate-import.
+
 Samma dag synkroniserades 94 kontextverifierade poster för Blenders
 Asset-familj mot den aktuella kontextgranskade exporten i
 \`yeager/swedish-foss-terminology\` (commit \`eb76823\`) och
