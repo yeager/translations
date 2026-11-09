@@ -4395,6 +4395,17 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 487 — fastsättning
+
+Pinning-inställningen använder **fastsättning**, konsekvent med den närliggande
+knapptexten.
+
+`blender-ui-sv-reviewed-batch-1487-pinning-terminology-20261109.po` innehåller
+en granskad post med SHA-256
+`3bc2970d85d3a925a492390f5dce817245282576f81f2743244d986621cb47dc`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 485 — växla en visningsnod
 
 Kortkommandot växlar en angiven visningsnod, inte mellan flera noder.
