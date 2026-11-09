@@ -17,10 +17,12 @@ tidigare deltafiler fortfarande som möjliga dubbletter tills en ny export
 jämförs med dem.
 
 Samma dag synkroniserades 94 kontextverifierade poster för Blenders
-Asset-familj till \`resurs\` i
+Asset-familj mot den aktuella kontextgranskade exporten i
 \`yeager/swedish-foss-terminology\` (commit \`eb76823\`) och
-\`yeager/swedish-tm\` (commit \`308b1c6\`). Ändringen är verktygsunderhåll,
-inte ett påstående om ytterligare import eller upstream-granskning.
+\`yeager/swedish-tm\` (commit \`308b1c6\`). Den följer \`resurs\` där
+UI-kontexten gör det rätt, men ersätter inte mekaniskt etablerade
+specialformer. Ändringen är verktygsunderhåll, inte ett påstående om
+ytterligare import eller upstream-granskning.
 
 ## Batch 1 333 — resurs i skriptets hyll-ID
 
