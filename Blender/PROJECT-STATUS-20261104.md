@@ -13209,8 +13209,9 @@ importeras utöver dem. SHA-256 är
 `msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
 konsistenskontroll och Gitleaks passerade. Hunspell-sv har kontrollerats
 för relevanta svenska ord; kvarvarande träffar är Blender-specifika termer,
-metadata eller engelska källord. Filen är redo för manuell import;
-importresultatet är inte verifierat.
+metadata eller engelska källord. En användarinskickad Blender Translate-
+bekräftelse visar att 231 strängar behandlades, 0 hoppades över, 0 saknades
+och alla 231 uppdaterades. Importen är därmed verifierad.
 
 ## Batch 1 392 — nyckelbildrutetyp
 
