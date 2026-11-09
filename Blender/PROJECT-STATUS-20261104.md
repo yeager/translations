@@ -4473,6 +4473,21 @@ korrekta relativa bisatsen om exportörens riktning; Hunspell saknar den
 korrekta sammansättningen *exportörsindex*. Batchen är lokalt arkiverad och
 väntar på manuell import.
 
+## Batch 1 499 — konsol och begränsningar
+
+Fem hjälprader är normaliserade i konsolen och begränsningspanelen:
+historik läggs till vid markörens position, markering görs vid förflyttning
+och begränsningar kopieras till markerade objekt eller ben. Sökvägsanimation
+använder *omfatta* för antal bildrutor och indexets riktning uttrycks med en
+relativ bisats.
+
+`blender-ui-sv-reviewed-batch-1499-console-constraints-20261109.po`
+innehåller fem granskade poster med SHA-256
+`d0e3cd1d485c1270c1fa7c9415eee8456aa2c85cba6039280573968dba2cd20e`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. Svlang markerar tre
+korrekta relativa bisatser och en kontextberoende imperativ som möjliga
+V2-avvikelser. Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
