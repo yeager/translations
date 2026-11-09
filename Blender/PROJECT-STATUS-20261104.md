@@ -4407,6 +4407,18 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 466 — aktivt utfasat filmspår
+
+Den utfasade egenskapens hjälptext använder också **Aktivt spår**, konsekvent
+med de aktuella spåregenskaperna.
+
+`blender-ui-sv-reviewed-batch-1466-deprecated-active-track-20261109.po`
+innehåller en granskad post med SHA-256
+`2eea6774035b10257e2aaf20d2875a2adbc450a148a3a530ae9f5d86cacabbd9`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. svlangs träffar är
+enbart kodidentifierarna `objects[name].tracks.active`.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 462 — karta över sprutriktning
 
 Ocean-hjälptexten använder nu den idiomatiska formuleringen **kartan över
