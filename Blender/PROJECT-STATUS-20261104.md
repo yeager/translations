@@ -7,6 +7,20 @@ Senaste lokala arbete: 9 november 2026.
 > men får inte ensam betraktas som bevis på att en tidigare batch saknas
 > upstream. Kontrollera alltid arkiverade deltafiler före ny ändring.
 
+## Batch 1 327 — sRGB:s styckevisa kodning
+
+Färghanteringen beskriver sRGB IEC 61966-2-1 som en sammansatt, styckevis
+kodning. Den tidigare formuleringen *bitvis kodning* blandar felaktigt ihop
+funktionsstycken med bitoperationer och rättas till *styckevis kodning*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1327-srgb-piecewise-encoding.po`
+innehåller en ändrad post och har SHA-256
+`4f301d0152edb1c507ca5278066da5408b2450d4ff1823a4be07eedda608c0d4`.
+`msgfmt`, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+`l10n-lint` rapporterar endast standardidentifieraren `IEC 61966-2-1` som ett
+falskt positivt talintervall. Batchen är lokalt färdig och redo för manuell
+import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 326 — Simple Deform-koordinatrymd
 
 Simple Deform tillämpar vridning, böjning, avsmalning och sträckning runt

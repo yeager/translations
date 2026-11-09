@@ -399,6 +399,7 @@ Senast uppdaterad: 2026-11-08.
 | camera space culling | kameragallring | Cycles gallrar objekt mot kamerans synvolym. Termen är en gallringsmetod, inte en generell koordinatrymd. |
 | Adaptive Space | Adaptiv rymd | Delningsmodifierarens val mellan pixel- och objektrymd för adaptiv underindelning. |
 | logarithmic space | logaritmiskt färgrum | Kompositeringens logaritmiskt kodade färgvärden. Använd inte det vaga *logaritmiskt utrymme*. |
+| piece-wise encoding | styckevis kodning | Färgkodning som består av flera funktionsstycken, till exempel sRGB IEC 61966-2-1. Översätt inte med *bitvis kodning*, som i stället syftar på bitoperationer. |
 | illuminant | illuminant | Standardiserad ljuskälla i färghantering; skriv exempelvis *vitpunkt för illuminanten D65*, inte *belysningsstyrka*. |
 | Filmic / AgX / ACES | behåll namn | Namn på Blenders och OCIO:s färgkodningar och visningstransformeringar; översätt endast den omgivande saktexten. |
 | display transform / view transform | visningstransformering | Färghanteringens tekniska transformering inför visning; undvik anglicismen *displaytransform*. |
