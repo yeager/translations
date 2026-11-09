@@ -4395,6 +4395,18 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 465 — aktiva filmspår
+
+Filmspårningens hjälptexter använder nu den korrekta betydelsen av *active*:
+**Aktivt spår** och **Aktivt planspår**, inte *aktuellt*.
+
+`blender-ui-sv-reviewed-batch-1465-active-tracks-20261109.po` innehåller två
+granskade poster med SHA-256
+`8e41ef395d9cbb58f6beb2b89b77544ed6a80e119211bb2de09e0729ae30b834`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. svlangs träffar är
+enbart kodidentifierarna `objects[name].plane_tracks.active`.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 462 — karta över sprutriktning
 
 Ocean-hjälptexten använder nu den idiomatiska formuleringen **kartan över
