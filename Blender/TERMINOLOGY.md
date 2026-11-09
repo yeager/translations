@@ -635,6 +635,7 @@ Senast uppdaterad: 2026-11-08.
 | compositor node tree | kompositionsnodträd | Den svenska UI-katalogens etablerade namn för ett nodträd som används av Compositor. Skilj den konkreta strukturen *kompositionsnodträd* från processen *kompositering*; normalisera inte befintliga UI-etiketter till den längre processformen. |
 | compositing node group | kompositeringsnodgrupp | Nodgrupp som utför eller styr kompositering. Skilj den från miljön *Kompositör*; undvik den tvetydiga formen *kompositnodgrupp*. |
 | compositing node(s) | kompositeringsnod(er) | Formell nodtyp som används i kompositeringsarbetsflödet. Skriv inte *kompositnod(er)*, eftersom den kortformen är oetablerad och lätt blandas ihop med processen *kompositering*. |
+| pipeline (rendering/EEVEE) | bearbetningskedja | Den tekniska följden av renderings- eller beräkningssteg. Använd exempelvis *kompositeringskedja*, *bearbetningskedjan i videosekvensredigeraren* och *bearbetningskedjan för strålspårning*; behåll produktnamnet **Blender Studio Pipeline Tool** oförändrat. |
 | selection set | urvalsuppsättning | Namngiven samling av valbara element. |
 | delta location | deltaförflyttning | Extra förflyttning som läggs till ett objekts position. |
 | empty | tomobjekt | Blender-objekt utan egen geometri, till exempel för referensbilder eller hjälpkontroller. |

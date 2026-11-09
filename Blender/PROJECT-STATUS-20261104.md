@@ -51,6 +51,22 @@ Fyra termbasposter för Geometry Nodes rättades från den engelska formen
 *uttaget*. Uppdateringen är publicerad i commit \`eb050d8\` och kräver ingen
 ytterligare UI-import.
 
+## Batch 1 351 — renderingskedjor
+
+Blenders renderingsinställningar beskriver både kompositering, Video
+Sequencer och EEVEE:s strålspårning som tekniska kedjor av bearbetningssteg.
+De onödiga engelska formerna *pipeline* ersätts därför med
+*kompositeringskedja* respektive *bearbetningskedja*. Produktnamnet
+**Blender Studio Pipeline Tool** berörs inte.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1351-pipelines-20261109.po`
+innehåller fyra ändrade poster och har SHA-256
+`2913fa83d3bf37049746ddf72892a8edc183690cd937d13795ae9a1a78e2a284`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks
+passerade. Blender-TM har synkats med samma fyra poster samt den äldre,
+likvärdiga kompositeringsposten. Batchen är lokalt färdig och redo för manuell
+import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 350 — Action-slot för animationskanalbehållare
 
 Hjälptexten för `ActionChannelbag.slot` pekar ut vilken Action-slot som
