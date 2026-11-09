@@ -12201,3 +12201,16 @@ diffkontroll och Gitleaks passerade. Hunspell-sv markerar produktens formella
 egennamn *Actionen*, vilket är en medveten projektspecifik term. Batchen är
 lokalt färdig och arkiverad för manuell Blender Translate-import; inget
 importresultat är ännu verifierat.
+
+## Samlad import — batch 1 340–1 342
+
+`blender-ui-sv-reviewed-manual-import-20261109-batches-1340-1342.po` samlar
+åtta unika och radgranskade Action-/Action-slot-ändringar från batch 1 340–
+1 342. Det är en deltafil, inte en full Blender-katalog, och den ligger långt
+under Blender Translates rekommenderade gräns på 1 000 strängar per import.
+SHA-256 är
+`5992d73671b3f32733d461fc3a3fd56558bb80ca82b21e7c549079aec615a781`.
+
+`msgfmt`, l10n-lint, svlang, Hunspell-sv kandidatsökning, diffkontroll och
+Gitleaks passerade. Filen är redo för manuell import; inget importresultat är
+verifierat här.
