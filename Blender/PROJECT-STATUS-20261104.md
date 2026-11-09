@@ -4407,6 +4407,17 @@ granskad post med SHA-256
 formatnamnet **OpenEXR** som sällsynt. Batchen är lokalt arkiverad och väntar
 på manuell import.
 
+## Batch 1 484 — element i nodegränssnittet
+
+Nodegränssnittets *items* använder den konsekventa UI-termen **element**, inte
+*objekt*.
+
+`blender-ui-sv-reviewed-batch-1484-interface-elements-20261109.po` innehåller
+två granskade poster med SHA-256
+`ff9f27ef521d3d6c335d8729fd402b59c61e4cf3a0555743f62d70365df4c00e`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 465 — aktiva filmspår
 
 Filmspårningens hjälptexter använder nu den korrekta betydelsen av *active*:
