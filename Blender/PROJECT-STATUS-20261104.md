@@ -7,6 +7,19 @@ Senaste lokala arbete: 9 november 2026.
 > men får inte ensam betraktas som bevis på att en tidigare batch saknas
 > upstream. Kontrollera alltid arkiverade deltafiler före ny ändring.
 
+## Batch 1 329 — White Noise-indatafrö
+
+White Noise-noden beräknar ett slumpvärde från ett inmatat frö. Den felaktiga
+formen *indatofrö* rättas till den svenska sammansättningen *indatafrö*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1329-white-noise-input-seed.po`
+innehåller en ändrad post och har SHA-256
+`0845d6d3c5c5e85f555a6db08e41b0981d4b4b11adc439d146ca76175d09d707`.
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Hunspell-sv
+markerar den korrekta tekniska sammansättningen `indatafrö`, som saknas i
+ordlistan. Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 328 — Hair Dynamics deltatid
 
 Hair Dynamics beräknar varje simuleringssteg mot tidsintervallet *delta time*.

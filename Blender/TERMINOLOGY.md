@@ -401,6 +401,7 @@ Senast uppdaterad: 2026-11-08.
 | logarithmic space | logaritmiskt färgrum | Kompositeringens logaritmiskt kodade färgvärden. Använd inte det vaga *logaritmiskt utrymme*. |
 | piece-wise encoding | styckevis kodning | Färgkodning som består av flera funktionsstycken, till exempel sRGB IEC 61966-2-1. Översätt inte med *bitvis kodning*, som i stället syftar på bitoperationer. |
 | delta time | deltatid | Simuleringsstegets tidsintervall. Bestämd form är *deltatiden*, utan ett extra t. |
+| input seed | indatafrö | Slumpfrö som tas emot som indata av en nod, exempelvis White Noise. Skriv sammansatt som *indatafrö*, inte *indatofrö*. |
 | illuminant | illuminant | Standardiserad ljuskälla i färghantering; skriv exempelvis *vitpunkt för illuminanten D65*, inte *belysningsstyrka*. |
 | Filmic / AgX / ACES | behåll namn | Namn på Blenders och OCIO:s färgkodningar och visningstransformeringar; översätt endast den omgivande saktexten. |
 | display transform / view transform | visningstransformering | Färghanteringens tekniska transformering inför visning; undvik anglicismen *displaytransform*. |
