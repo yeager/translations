@@ -4431,6 +4431,19 @@ lösningens skala och medelvärdesberäkning av spår.
 korrekta relativa bisatser som möjliga V2-avvikelser; ingen ändring behövs.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 496 — spårningskontrollers formuleringar
+
+Tre ytterligare hjälprader i rörelsespårningen använder nu tydligare svenska:
+en marginal uttryckt i pixlar, en åtgärd för inaktivering och markeringens
+låsning.
+
+`blender-ui-sv-reviewed-batch-1496-tracking-controls-20261109.po` innehåller
+tre granskade poster med SHA-256
+`e56526574fb95a4be38b39ac88397a8bb0080812c8c26279e7322ccff88050e0`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. Svlang markerar den
+korrekta relativa bisatsen i hjälpraden som en möjlig V2-avvikelse. Batchen
+är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
