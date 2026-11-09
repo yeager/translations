@@ -999,6 +999,7 @@ Senast uppdaterad: 2026-11-09.
 | Pan View | Panorera vyn | Navigeringsåtgärd i 2D- och 3D-redigerare. Använd bestämd form när den synliga vyn flyttas. |
 | NLA stack | NLA-stapel | Lagerordningen för åtgärder och remsor i Nonlinear Animation. |
 | keying set | nyckeluppsättning | Namngiven uppsättning animerbara egenskaper som används vid infogning och borttagning av nyckelbildrutor. |
+| keying / auto keying | nyckelbildsättning / automatisk nyckelbildsättning | Infogning av nyckelbildrutor, manuellt eller automatiskt. Skriv med en `s` i *bildsättning*; använd inte den felaktiga formen *nyckelbildssättning*. |
 | driver | drivrutin | Uttrycks- eller databaserad styrning av en egenskap; skilj från fysisk hårdvarudrivrutin. |
 | bone collection | bensamling | Samling som organiserar riggens ben. |
 | Action | Action | Blenderdatablock som lagrar animeringsdata; behåll *Action* i API- och UI-kontexten. Böj som *Actionen* och *Actioner*. |

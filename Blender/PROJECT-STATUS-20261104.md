@@ -13222,3 +13222,17 @@ två radgranskade poster med SHA-256
 `ff7b15da5b57062446ebff39f462e2dba4cab8b24c937dac3525ebe9a9721f87`.
 `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
 Filen är redo för manuell import; importresultatet är inte verifierat.
+
+## Batch 1 394 — automatisk nyckelbildsättning
+
+Blenders *Keying* är insättning av nyckelbildrutor. Sex etiketter och
+hjälptexter hade den avvikande formen *nyckelbildssättning*, medan samma
+funktion i övriga UI:t använder **nyckelbildsättning**. De normaliseras till
+den formen; ändringen gäller bara stavning och inte funktionsnamn, dataformat
+eller API.
+
+`blender-ui-sv-reviewed-batch-1394-keying-spelling-20261109.po` innehåller
+sex radgranskade poster med SHA-256
+`c53b6b0c707ab6a0980a9abf89644a2ee03f10937603fd7ce28833fd752a02b0`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
+Filen är redo för manuell import; importresultatet är inte verifierat.
