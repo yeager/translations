@@ -4395,6 +4395,19 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 460 — namnändelse för speglade hörnpunktsgrupper
+
+Exemplet för spegling av hörnpunktsgrupper bevarar nu det funktionella
+Blender-mönstret **.R->.L**. De tidigare borttagna punkterna förändrade de
+namnändelser som ska matchas.
+
+`blender-ui-sv-reviewed-batch-1460-mirror-vertex-group-pattern-20261109.po`
+innehåller en granskad post med SHA-256
+`18ba455971e244517e94a8a09b27defb31fdd34fa0751aeb6059d18b6ba7058d`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+facktermen samt kodmönstret som ovanliga; detta är granskade informationssignaler.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 459 — anpassningsmetod
 
 Den delade UI-rubriken *Fit Method* använder nu **Anpassningsmetod** i stället
