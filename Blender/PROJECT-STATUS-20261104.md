@@ -7,6 +7,19 @@ Senaste lokala arbete: 9 november 2026.
 > men får inte ensam betraktas som bevis på att en tidigare batch saknas
 > upstream. Kontrollera alltid arkiverade deltafiler före ny ändring.
 
+## Batch 1 324 — adaptiv rymd
+
+Delningsmodifierarens *Adaptive Space* väljer om polygoner delas efter
+pixelstorlek eller kantlängd i objektrymd. Den tekniska UI-etiketten
+normaliseras därför från *Adaptivt utrymme* till *Adaptiv rymd*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1324-adaptive-subdivision-space.po`
+innehåller en ändrad post och har SHA-256
+`e5be201e19b85244bf3b722a537973cc9dfb1b401863d08bfabea9a89797b8d7`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 323 — FBX rymdtransformering
 
 FBX-importen och -exporten bakar vid behov en global transformering mellan
