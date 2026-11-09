@@ -4407,6 +4407,18 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 474 — vektortyper för rutnät
+
+Rutnätstyperna använder nu **Dubbelprecisionsvektor** för *Double Vector* och
+den korrekt avstavade formen **3D-heltalsvektor**.
+
+`blender-ui-sv-reviewed-batch-1474-grid-vector-types-20261109.po`
+innehåller två granskade poster med SHA-256
+`e48010589ac35ebf096485afa458829bbbb94ae0e27f7227f215fabc3493a451`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. svlang markerar
+det korrekta fackordet *dubbelprecisionsvektor* som sällsynt.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 473 — Sample Curve-metod
 
 Sample Curve-nodens hjälptext använder det idiomatiska **Metod för att provta
