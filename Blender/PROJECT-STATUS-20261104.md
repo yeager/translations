@@ -4407,6 +4407,17 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 468 — index för aktivt element
+
+Den generiska nodetiketten **Active Item Index** använder **Index för aktivt
+element**, i enlighet med sin hjälptext och de berörda nodernas breda kontext.
+
+`blender-ui-sv-reviewed-batch-1468-active-item-index-20261109.po`
+innehåller en granskad delad post med SHA-256
+`4c51187a4bebef14e446681031f0097261084a021039d5dff885af752338ecd9`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 467 — Cryptomatte Pick-utdata
 
 Cryptomatte-hjälptexten använder **Pick-utdata** konsekvent för det synliga
