@@ -34,6 +34,15 @@ svlang, Hunspell-sv och Gitleaks är genomförda. Svlang rapporterar
 startup som en anglicism, men termen behålls avsiktligt eftersom den är
 ett synligt katalognamn i Blenders standardlayout.
 
+## Batch 1 356 — Cycles kärnoptimeringens renderingshastighet
+
+Två korta Cycles-beskrivningar hade formen *långsammaste/snabbaste
+renderingen*, trots att de beskriver relativa hastighetslägen. De är
+normaliserade till *långsammast/snabbast rendering*. Deltafilen
+blender-ui-sv-reviewed-batch-1356-cycles-rendering-speed-20261109.po är lokal
+och klar för manuell import; någon import har inte genomförts här. Msgfmt,
+l10n-lint, svlang och Gitleaks är godkända.
+
 ## Verifierad manuell import 9 november 2026
 
 Två manuella Blender Translate-importer är dokumenterade i arbetsloggen. Den
