@@ -1009,7 +1009,7 @@ Senast uppdaterad: 2026-11-08.
 | Dope Sheet | Dopeblad | Blenderredigerare för tidpunkter, nyckelbildrutor och animationskanaler. |
 | Video Sequencer | videosekvensredigerare | Blenderredigerare för videoremsor, ljud och övergångar. |
 | slip (Video Sequence Editor) | innehållsförskjutning | Förskjuter innehållet inuti en remsa utan att flytta remsan på tidslinjen. |
-| asset representation | tillgångsrepresentation | API-objekt som gör det möjligt för tillgångssystemet att hantera en entitet som en tillgång. |
+| asset representation | resursrepresentation | API-objekt som gör det möjligt för resurssystemet att hantera en entitet som en resurs. |
 | asset weak reference | svag tillgångsreferens | Referens som inte nödvändigtvis håller tillgången vid liv. |
 | normal space | normalrymd | Koordinatrymd för normaler vid exempelvis bakning. |
 | cage extrusion | bursextrudering | Avstånd som bygger ut en bakningsbur från det aktiva objektet. |
@@ -1040,6 +1040,18 @@ Senast uppdaterad: 2026-11-08.
 | Cannot copy the linked object '%s' to the internal clipboard | Det går inte att kopiera det länkade objektet ”%s” till det interna urklippet |
 
 | TextLine | TextLine | Internt API-typnamn för en rad i ett Text-datablock; lämnas oförändrat i tekniska beskrivningar. |
+
+## Termbasavstämning 2026-11-09
+
+Den aktuella UI-exporten har jämförts med den äldre Blender-termbasen. Följande
+poster är normaliserade i `swedish-foss-terminology` efter kontroll av RNA- och
+UI-kontext: *Anti-Aliasing* → *kantutjämning*, *Face Cull* → *ytgallring*,
+*Use Camera Cull* → *använd kameragallring*, *Node Editors* →
+*nodredigerare* och *Add Importer* → *lägg till importör*. För resursbläddraren
+används genomgående *resurs* i de synliga etiketterna, exempelvis
+*resursbibliotek*, *resurskatalog*, *resursrepresentation* och
+*resursetiketter*. Detta är termbasunderhåll; UI-exporten innehöll redan dessa
+formuleringar och behöver inte importeras på nytt enbart av den anledningen.
 
 ## Granskningsregel
 
