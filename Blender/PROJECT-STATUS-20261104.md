@@ -7,6 +7,32 @@ Senaste lokala arbete: 9 november 2026.
 > men får inte ensam betraktas som bevis på att en tidigare batch saknas
 > upstream. Kontrollera alltid arkiverade deltafiler före ny ändring.
 
+## Batch 1 333 — resurs i skriptets hyll-ID
+
+Hjälptexten för `AssetShelf.bl_idname` beskriver en resurs som får ett
+anpassat ID. Det generella *tillgången* ersätts med projektets etablerade
+*resursen*, medan Python-identifierarna och exemplen lämnas oförändrade.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1333-asset-shelf-id.po` innehåller
+en ändrad post och har SHA-256
+`14c2332119a67b08434c6ec2ef088f06c4fcf10bb894d0d2aae1046a5e631813`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
+## Batch 1 332 — resurshyllans huvudrad
+
+`Asset Shelf Header` är den synliga huvudraden för resursverktyget. Den
+ofullständiga och felaktiga formen *Tillgångshyllans huvud* ersätts med
+*Resurshyllans huvudrad*, i linje med övrig svensk resurshantering i Blender.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1332-asset-shelf-header.po`
+innehåller en ändrad post och har SHA-256
+`47246cdfe33ae6896d933baaefdafbc268ccaa60bb47fdf2a121d70de18807b6`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 331 — ID- och kantmarkeringar
 
 Blenders interna *tag*-funktion markerar data eller meshkanter med ett
