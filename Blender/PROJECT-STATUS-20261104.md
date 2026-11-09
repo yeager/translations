@@ -2,6 +2,20 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 321 — Geometry Nodes koordinatdomäner
+
+Blenders Geometry Nodes beskriver rutnätsgränser i världsrymd, voxlar i
+indexrymd och punktdata i lokala koordinatrymder. De berörda tekniska
+koordinatdomänerna normaliseras från vaga former av *utrymme* till
+*världsrymd*, *rutnätsindexrymd*, *indexrymd* och *lokal koordinatrymd*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1321-geometry-coordinate-domains.po`
+innehåller tretton ändrade poster och har SHA-256
+`3400995bfa274d5a92c55808904357f950ab0f2044b9380438be4739a1e5098c`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 320 — visnings- och regionkoordinater
 
 Geometry Nodes-noderna *Mouse Position* och *Viewport Transform* arbetar med

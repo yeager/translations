@@ -391,6 +391,10 @@ Senast uppdaterad: 2026-11-08.
 | view space | visningsrymd | Koordinatrymd för den aktiva 3D-visningen. Använd när Blender avser en vytransformering, inte den synliga redigeraren. |
 | region space | regionrymd | Koordinatrymd för en 3D-visningsregion; kan även beskrivas som klipprymd eller normaliserade enhetskoordinater. |
 | region-space mouse position | musposition i regionens koordinatsystem | Pixelposition inom den aktuella UI-regionen. |
+| world space | världsrymd | Global koordinatrymd för exempelvis volymrutnät. |
+| grid index space | rutnätsindexrymd | Diskret koordinatdomän för ett volymrutnäts index. |
+| index space | indexrymd | Diskret koordinatdomän för voxel- och ruteindex. |
+| local space | lokal koordinatrymd | Objektets eller geometrins lokala referenssystem. Var precis med ägare när den anges i källtexten. |
 | illuminant | illuminant | Standardiserad ljuskälla i färghantering; skriv exempelvis *vitpunkt för illuminanten D65*, inte *belysningsstyrka*. |
 | Filmic / AgX / ACES | behåll namn | Namn på Blenders och OCIO:s färgkodningar och visningstransformeringar; översätt endast den omgivande saktexten. |
 | display transform / view transform | visningstransformering | Färghanteringens tekniska transformering inför visning; undvik anglicismen *displaytransform*. |
