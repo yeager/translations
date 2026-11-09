@@ -3744,6 +3744,22 @@ kontextgranskade terminologin. Ändringen rör endast granskningsunderlaget och
 skapar ingen Blender Translate-deltafil eller något påstående om import.
 Terminologirevisionen är arkiverad och pushad i commit `d8464906`.
 
+## Batch 1 337 — ActionSlot-egenskaper
+
+Tre egenskaper i `bpy.types.ActionSlot` använde fortfarande den äldre,
+motstridiga formen *åtgärdsslot*: handtag, identifierare och visningsnamn.
+De normaliseras till *Action-slot* enligt den aktuella, synliga
+Blender-UI-terminologin. Deltafilen
+`blender-ui-sv-reviewed-batch-1337-action-slot-properties.po` innehåller
+endast dessa tre poster och har SHA-256
+`26a8115fa33872fa56cc4b176763cf2eff8c99d0b00f3bcfa6bc6c91952ff03f`.
+
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks
+passerade. `msgfmt` gav endast förväntade metadata-varningar för den lilla
+deltafilens minimala PO-huvud. Batchen är lokalt färdig och arkiverad för
+manuell Blender Translate-import; inget importresultat för just denna batch
+är verifierat.
+
 ## Batch 1 335 — cache för fjärrresurser
 
 Katalognamnet *Nedladdningscachekatalogen* ersätts av den naturligare och mer
