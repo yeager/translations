@@ -12967,6 +12967,19 @@ radgranskad post med SHA-256
 konsistenskontroll och Gitleaks passerade. Filen är redo för manuell import;
 importresultatet är inte verifierat.
 
+## Batch 1 390 — Color Dodge
+
+Blenders blandningsläge *Color Dodge* följer etablerad svensk grafikterminologi
+med **Färgskugga**. Nodvarianten hade avvikelsen *Färgundvikning* och
+normaliseras därför utan att ändra blandningslägets funktion.
+
+`blender-ui-sv-reviewed-batch-1390-color-dodge-20261109.po` innehåller en
+radgranskad post med SHA-256
+`873f75faf0627b40d5f857f5af2f6136fb3240789fdb3c4e83346f6d853ecba9`.
+`msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
+konsistenskontroll, Hunspell-sv och Gitleaks passerade. Filen är redo för
+manuell import; importresultatet är inte verifierat.
+
 ## Batch 1 388 — instanssamling
 
 Operatörsetiketten *Instance Collection* var felaktigt särskriven som
