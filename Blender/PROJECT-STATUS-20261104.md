@@ -4408,6 +4408,17 @@ innehåller en granskad post med SHA-256
 gäller den naturliga relativa satsen *som används* och är en falsk positiv.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 464 — index för aktivt objekt
+
+Hjälptexten för aktivt objekt använder singular: **Index för det aktiva
+objektet**, inte ett index över flera objekt.
+
+`blender-ui-sv-reviewed-batch-1464-active-object-index-20261109.po`
+innehåller en granskad post med SHA-256
+`8d51bb880e37bfbcb1afa74a56ac4d5094ddd20226442a7629699777eb9978ad`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 463 — texturkoordinaternas källa
 
 Två frågor om texturkoordinater använder nu korrekt svensk ordföljd:
