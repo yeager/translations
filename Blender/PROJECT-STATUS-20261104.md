@@ -12565,6 +12565,19 @@ SHA-256 är
 redo för manuell Blender Translate-import och ligger långt under 1 000
 strängar; något importresultat för dess poster är ännu inte verifierat.
 
+## Samlad import — ändringar sedan 07:00 den 9 november
+
+`blender-ui-sv-reviewed-since-0700-20261109-complete-v2.po` är en
+deduplicerad importfil med 38 källmatchade poster från batch 1 353–1 359 och
+1 362–1 368. Den tidigare samlingsfilen för batch 1 361 tas inte med, eftersom
+den bara sammanfattar samma poster. Senare, mer specifika rättningar har
+företräde när en sträng förekommer i flera batcher.
+
+`msgfmt`, l10n-lint, svlang, konsistenskontroll, källmatchning och Gitleaks
+passerade. Hunspell-sv markerar enbart engelsk källtext, Blender-API-namn och
+PO-metadata. Filen innehåller 38 strängar och ligger långt under Blenders
+gräns på 1 000 strängar per import. Importresultatet är inte verifierat.
+
 ## Batch 1 364 — Dope Sheet-termer
 
 Fyra återstående synliga formuleringar blandade den engelska arbetsbeteckningen

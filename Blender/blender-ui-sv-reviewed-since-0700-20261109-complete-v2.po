@@ -1,0 +1,247 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender UI\n"
+"Language: sv\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Review-Batches: 1353-1359, 1362-1368\n"
+"X-Review-Bundle: Changes reviewed since 07:00 2026-11-09\n"
+
+#. :src: bpy.types.CyclesPreferences.kernel_optimization_level
+msgid ""
+"Kernels can be optimized based on scene content. Optimized kernels are "
+"requested at the start of a render. If optimized kernels are not available, "
+"rendering will proceed using generic kernels until the optimized set is "
+"available in the cache. This can result in additional CPU usage for a brief "
+"time (tens of seconds)"
+msgstr ""
+"Kärnor kan optimeras utifrån scenens innehåll. Optimerade kärnor begärs när "
+"en rendering startar. Om de inte är tillgängliga fortsätter renderingen med "
+"generiska kärnor tills den optimerade uppsättningen finns i cachen. Detta "
+"kan ge extra CPU-användning under en kort tid (tiotals sekunder)"
+
+#. :src: bpy.types.CyclesRenderSettings.kernel_optimization_level:'OFF'
+msgid ""
+"Disable kernel optimization. Slowest rendering, no extra background CPU "
+"usage"
+msgstr ""
+"Inaktivera kärnoptimering. Långsammast rendering, ingen extra CPU-användning"
+" i bakgrunden"
+
+#. :src: bpy.types.CyclesRenderSettings.kernel_optimization_level:'FULL'
+msgid ""
+"Optimize all kernels. Fastest rendering, may result in extra background CPU "
+"usage"
+msgstr ""
+"Optimera alla kärnor. Snabbast rendering, kan medföra extra CPU-användning i"
+" bakgrunden"
+
+#. :src: bpy.types.CyclesPreferences.peer_memory
+msgid ""
+"Make more room for large scenes to fit by distributing memory across "
+"interconnected devices (e.g. via NVLink) rather than duplicating it"
+msgstr ""
+"Gör det möjligt att rymma större scener genom att fördela minnet mellan "
+"sammankopplade enheter (t.ex. via NVLink) i stället för att duplicera det"
+
+#. :src: bpy.types.BlendData.use_autopack
+msgid "Use Auto-Pack"
+msgstr "Använd automatisk paketering"
+
+#. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'Rec.2100-HLG'
+#. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'Rec.2100-HLG'
+#. :src: Colorspace description from OCIO config
+msgid "Rec.2100-HLG 1000 nits peak display with reference white at 100 nits"
+msgstr ""
+"Rec.2100-HLG-visning med 1 000 nit toppljusstyrka och referensvitt vid 100 "
+"nit"
+
+#. :src: bpy.types.ColorManagedInputColorspaceSettings.name:'Rec.2100-PQ'
+#. :src: bpy.types.ColorManagedSequencerColorspaceSettings.name:'Rec.2100-PQ'
+#. :src: Colorspace description from OCIO config
+msgid "Rec.2100-PQ 10000 nits peak display with reference white at 100 nits"
+msgstr ""
+"Rec.2100-PQ-visning med 10 000 nit toppljusstyrka och referensvitt vid 100 "
+"nit"
+
+#. :src: bpy.types.DopeSheet.show_only_slot_of_active_object
+msgid "Only Show Slot of Active Object"
+msgstr "Visa endast det aktiva objektets Action-slot"
+
+msgid ""
+"Indicates that a keymap is used for translate modal events for an operator"
+msgstr ""
+"Anger att en tangentmappning används för att översätta modala händelser för "
+"en operator"
+
+#. :src: bpy.types.MovieClipUser.proxy_render_size:'FULL'
+msgid "None, full render"
+msgstr "Ingen, fullständig rendering"
+
+#. :src: bpy.types.MovieTrackingDopesheet.use_invert_sort
+msgid "Invert Dopesheet Sort"
+msgstr "Invertera dopebladssortering"
+
+#. :src: bpy.types.MovieTrackingDopesheet.use_invert_sort
+msgid "Invert sort order of dopesheet channels"
+msgstr "Invertera sorteringsordningen för dopebladskanaler"
+
+#. :src: bpy.types.ShaderNodeBsdfHairPrincipled
+msgid "Physically-based, easy-to-use shader for rendering hair and fur"
+msgstr "Fysikbaserad, lättanvänd skuggning för rendering av hår och päls"
+
+#. :src: bpy.types.ShaderNodeBsdfPrincipled
+msgid ""
+"Physically-based, easy-to-use shader for rendering surface materials, based "
+"on the OpenPBR model"
+msgstr ""
+"Fysikbaserad, lättanvänd skuggning för rendering av ytmaterial baserad på "
+"OpenPBR-modellen"
+
+#. :src: bpy.types.ShaderNodeOutputMaterial
+msgid "Output surface material information for use in rendering"
+msgstr "Mata ut information om ytmaterial för rendering"
+
+#. :src: bpy.types.ShaderNodeShaderToRGB
+msgid ""
+"Convert rendering effect (such as light and shadow) to color. Typically used for non-photorealistic rendering, to apply additional effects on the output of BSDFs.\n"
+"Note: only supported in EEVEE"
+msgstr ""
+"Konvertera renderingseffekter (som ljus och skugga) till färg. Används vanligen för icke-fotorealistisk rendering, för att tillämpa ytterligare effekter på utdata från BSDF:er.\n"
+"Obs! Stöds bara i EEVEE"
+
+msgid ""
+"Image is projected using different components for each side of the object "
+"space bounding box"
+msgstr ""
+"Bilden projiceras med olika komponenter för varje sida i objektrymdens "
+"begränsningsruta"
+
+#. :src: bpy.types.FILE_OT_unpack_all.method:'KEEP'
+msgid "Disable auto-pack, keep all packed files"
+msgstr "Inaktivera automatisk paketering, behåll alla paketerade filer"
+
+#. :src: bpy.types.MASK_OT_shape_key_rekey
+msgid ""
+"Recalculate animation data on selected points for frames selected in the "
+"dopesheet"
+msgstr ""
+"Beräkna om animeringsdata för markerade punkter i bildrutor markerade i "
+"dopebladet"
+
+#. :src: bpy.types.USERPREF_PT_interface_text
+msgid "Text Rendering"
+msgstr "Textrendering"
+
+#. :src: bpy.types.ScriptDirectory.directory
+msgid ""
+"Alternate script path, matching the default layout with sub-directories: "
+"startup, add-ons, modules, and presets (requires restart)"
+msgstr ""
+"Alternativ skriptväg som följer standardlayouten med underkatalogerna: "
+"startup, add-ons, modules och presets (kräver omstart)"
+
+msgid "Use active Viewer Node output as backdrop for compositing nodes"
+msgstr ""
+"Använd utdatan från den aktiva visningsnoden som bakgrund för "
+"kompositeringsnoder"
+
+#. :src: KM_HIERARCHY.DOPESHEET_EDITOR.DOPESHEET_EDITOR
+msgctxt "WindowManager"
+msgid "Dopesheet Generic"
+msgstr "Allmänt för dopeblad"
+
+#: source/blender/editors/sound/sound_ops.cc:955
+#: source/blender/editors/sound/sound_ops.cc:990
+#: source/blender/editors/space_image/image_ops.cc:3586
+#: source/blender/editors/space_image/image_ops.cc:3624
+msgid "AutoPack is enabled, so image will be packed again on file save"
+msgstr ""
+"Automatisk paketering är aktiverad, så bilden paketeras igen när filen "
+"sparas"
+
+#. :src: bpy.types.CompositorNodeTree.render_quality
+msgid ""
+"Defines whether the foreground is in straight alpha form, which is necessary"
+" to know for proper alpha compositing. Images in the compositor are in "
+"premultiplied alpha form by default, so this should be false in most cases. "
+"But if, and only if, the foreground was converted to straight alpha form for"
+" some reason, this should be set to true"
+msgstr ""
+"Anger om förgrunden har oförmultiplicerad alfa, vilket behövs för korrekt "
+"alfakompositering. Bilder i kompositorn har förmultiplicerad alfa som "
+"standard, så detta bör vara falskt i de flesta fall. Men om förgrunden av "
+"någon anledning konverterades till oförmultiplicerad alfa ska detta vara "
+"sant"
+
+#: source/blender/nodes/geometry/nodes/node_geo_cube_grid_topology.cc:26
+msgid "Minimum boundary of the grid (world space)"
+msgstr "Rutnätets minsta gräns (världsrymden)"
+
+#: source/blender/nodes/geometry/nodes/node_geo_cube_grid_topology.cc:29
+msgid "Maximum boundary of the grid (world space)"
+msgstr "Rutnätets största gräns (världsrymden)"
+
+#. :src: bpy.types.GeometryNodeGridPoints.vertices
+msgid "Minimum coordinate in X axis (grid index space)"
+msgstr "Minsta koordinat längs X-axeln (rutnätsindexrymden)"
+
+#. :src: bpy.types.GeometryNodeGridPoints.vertices
+msgid "Minimum coordinate in Y axis (grid index space)"
+msgstr "Minsta koordinat längs Y-axeln (rutnätsindexrymden)"
+
+#. :src: bpy.types.GeometryNodeGridPoints.vertices
+msgid "Minimum coordinate in Z axis (grid index space)"
+msgstr "Minsta koordinat längs Z-axeln (rutnätsindexrymden)"
+
+#. :src: bpy.types.Gizmo.use_draw_modal
+msgid ""
+"If true, the gizmo is displayed in screen space. Otherwise it's in object "
+"space"
+msgstr "Om sant visas gizmon i skärmrymden. Annars visas den i objektrymden"
+
+#. :src: bpy.types.GeometryNodeInputNamedAttribute
+msgid ""
+"X coordinate of the voxel in index space, or the minimum X coordinate of a "
+"tile"
+msgstr ""
+"X-koordinaten för voxeln i indexrymden, eller den minsta X-koordinaten för "
+"en ruta"
+
+#. :src: bpy.types.GeometryNodeInputNamedAttribute
+msgid ""
+"Y coordinate of the voxel in index space, or the minimum Y coordinate of a "
+"tile"
+msgstr ""
+"Y-koordinaten för voxeln i indexrymden, eller den minsta Y-koordinaten för "
+"en ruta"
+
+#. :src: bpy.types.GeometryNodeInputNamedAttribute
+msgid ""
+"Z coordinate of the voxel in index space, or the minimum Z coordinate of a "
+"tile"
+msgstr ""
+"Z-koordinaten för voxeln i indexrymden, eller den minsta Z-koordinaten för "
+"en ruta"
+
+#. :src: View name from OCIO display Rec.2100-PQ
+msgctxt "Color Management"
+msgid "ACES 1.3 - HDR 2000 nits"
+msgstr "ACES 1.3 – HDR 2000 nit"
+
+#. :src: View name from OCIO display Rec.2100-PQ
+msgctxt "Color Management"
+msgid "ACES 1.3 - HDR 4000 nits"
+msgstr "ACES 1.3 – HDR 4000 nit"
+
+#. :src: View name from OCIO display Rec.2100-PQ
+#. :src: View name from OCIO display Rec.2100-HLG
+msgctxt "Color Management"
+msgid "ACES 2.0 - HDR 1000 nits"
+msgstr "ACES 2.0 – HDR 1000 nit"
+
+#. :src: View name from OCIO display Rec.2100-PQ
+msgctxt "Color Management"
+msgid "ACES 2.0 - HDR 2000 nits"
+msgstr "ACES 2.0 – HDR 2000 nit"
