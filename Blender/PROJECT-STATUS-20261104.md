@@ -3780,6 +3780,21 @@ gav endast förväntade metadata-varningar för deltafilens minimala PO-huvud.
 Batchen är lokalt färdig och arkiverad för manuell Blender Translate-import;
 inget importresultat för just denna batch är verifierat.
 
+## Batch 1 339 — Alt-verktygsåtkomst
+
+Inställningen `Prefs.use_alt_tool` normaliseras från den oidiomatiska formen
+*Alt-verktygstillgång* till *Alt-verktygsåtkomst*. Formen följer den
+parallella inställningen *Alt-marköråtkomst* och beskriver åtkomst via
+Alt-tangenten, inte tillgång till ett verktyg. Deltafilen
+`blender-ui-sv-reviewed-batch-1339-alt-tool-access.po` innehåller en post och
+har SHA-256
+`debfacfa5869bf3394cfff5d877ba2fc4c5c9d78df7cb7ca5a2229963deb077e`.
+
+`msgfmt`, l10n-lint, svlang, Hunspell-sv och Gitleaks passerade. `msgfmt`
+gav endast förväntade metadata-varningar för deltafilens minimala PO-huvud.
+Batchen är lokalt färdig och arkiverad för manuell Blender Translate-import;
+inget importresultat för just denna batch är verifierat.
+
 ## Batch 1 335 — cache för fjärrresurser
 
 Katalognamnet *Nedladdningscachekatalogen* ersätts av den naturligare och mer
