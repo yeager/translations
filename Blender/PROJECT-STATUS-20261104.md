@@ -12954,6 +12954,19 @@ passerade. De förväntade `msgfmt`-varningarna gäller bara minimal PO-metadata
 Filen är långt under 1 000-strängarsgränsen och redo för manuell import;
 importresultatet är inte verifierat.
 
+## Batch 1 389 — planspår
+
+I filmspårning är *Plane Track* ett spår för en plan yta i bildmaterialet,
+inte ett spår för ett flygplan. MovieClip-etiketten normaliseras därför från
+*Flygplansspår* till den etablerade termen **planspår**.
+
+`blender-ui-sv-reviewed-batch-1389-plane-track-20261109.po` innehåller en
+radgranskad post med SHA-256
+`bc6166a2bd1d1ee87b2c8227e48c1c458cf1e962c384a185e2bca0c8de575c6c`.
+`msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
+konsistenskontroll och Gitleaks passerade. Filen är redo för manuell import;
+importresultatet är inte verifierat.
+
 ## Batch 1 388 — instanssamling
 
 Operatörsetiketten *Instance Collection* var felaktigt särskriven som
