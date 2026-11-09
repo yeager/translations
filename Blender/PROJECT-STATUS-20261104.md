@@ -12218,3 +12218,13 @@ SHA-256 är
 `msgfmt`, l10n-lint, svlang, Hunspell-sv kandidatsökning, diffkontroll och
 Gitleaks passerade. Filen är redo för manuell import; inget importresultat är
 verifierat här.
+
+## Manuell Blender Translate-import — 9 november 2026
+
+En användarverifierad Blender Translate-import rapporterade **213 behandlade
+strängar**, varav **111 uppdaterades**, **102 hoppades över** och **0 saknades**.
+Resultatet visar att importen accepterade de matchande posterna utan saknade
+källsträngar. Skärmbilden identifierar däremot inte vilka enskilda arkiverade
+deltafiler som ingick, så den används inte som belägg för att en viss batch är
+upstream-aktuell. Nya eller ännu ej matchade deltafiler behåller därför statusen
+*redo för manuell import* tills deras eget resultat kan verifieras.
