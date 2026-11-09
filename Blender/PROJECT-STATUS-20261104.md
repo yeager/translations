@@ -4395,6 +4395,18 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 493 — Action-slotar
+
+Action-API:ts *slots* behåller den synliga UI-benämningen **Action-slotar** i
+stället för den otydliga generiska termen *platser*.
+
+`blender-ui-sv-reviewed-batch-1493-action-slots-20261109.po` innehåller två
+granskade poster med SHA-256
+`557dc423b9933e72ab6d00aa6099b991586f5861333ae363c505844ee034e62f`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+endast Action-typnamnet respektive korrekt imperativ ordföljd. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
