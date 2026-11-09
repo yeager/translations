@@ -12467,6 +12467,19 @@ innehåller en radgranskad post och har SHA-256
 passerade för deltafilen. Den är redo för manuell import; dess eget
 importresultat är ännu inte verifierat.
 
+## Nästa samlade import — batch 1 370–1 373
+
+`blender-ui-sv-reviewed-next-import-20261109-batches-1370-1373.po` ersätter
+den tidigare samlingsfilen för batch 1 370–1 372. Den omfattar elva unika,
+radgranskade poster: ActionChannelbags-syftning, hela UI-termen *Sequencer
+Scene* samt kompositeringsnodgrupper för sekvensredigeraren. SHA-256 är
+`3a97b02b106970305857c0c2bed35f4fc751c2174c68bb6340ebc3cd51b82fc1`.
+
+`msgfmt`, l10n-lint, svlang, konsistenskontroll, källmatchning och Gitleaks
+passerade. Hunspell-sv markerar endast engelsk källtext, API-namn och
+PO-metadata. Filen ligger långt under gränsen på 1 000 strängar; dess
+importresultat är ännu inte verifierat.
+
 ## Batch 1 373 — återstående sekvensredigerarscener
 
 Tre återstående referenser till samma *Sequencer Scene*-datablock använde
