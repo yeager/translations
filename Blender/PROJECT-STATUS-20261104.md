@@ -13409,3 +13409,13 @@ innehåller två radgranskade poster med SHA-256
 `msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
 konsistenskontroll, Hunspell-sv och Gitleaks passerade. Filen är redo för
 manuell import; importresultatet är inte verifierat.
+
+## Verifierad samlingsimport efter kl. 14 — 2026-11-09
+
+Den manuellt importerade filen
+`blender-ui-sv-reviewed-changes-since-1400-20261109.po` innehöll 256 unika
+strängar från batch 1 387–1 404. Blender Translate bekräftade **256
+bearbetade**, **237 hoppade över**, **0 saknade** och **19 uppdaterade**
+strängar. Detta verifierar importen till Blender Translate; fortsatt
+upstream-granskning eller eventuell senare ändring av källsträngar är en
+separat status.
