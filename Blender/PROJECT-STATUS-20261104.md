@@ -12339,3 +12339,16 @@ innehåller en radgranskad post och har SHA-256
 markerar den avsiktliga projektspecifika sammansättningen `shadernoder`; den
 är verifierad i Blender-terminologin. Deltafilen är redo för manuell import;
 dess eget importresultat är ännu inte verifierat.
+
+## Samlad import — batch 1 343–1 347
+
+`blender-ui-sv-reviewed-manual-import-20261109-batches-1343-1347.po` ersätter
+den tidigare samlade filen 1 343–1 346 när en enda importfil önskas. Den
+innehåller fem unika, radgranskade och ännu inte individuellt verifierade
+poster; den tidigare filen ligger kvar som ett oförändrat arkivunderlag.
+SHA-256 är
+`fdf2c804c5536aba79d219be82612236226eabe531e22a49b3f5ded12041a20d`.
+
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Filen är
+redo för manuell Blender Translate-import och ligger långt under 1 000
+strängar; något importresultat för dess poster är ännu inte verifierat.
