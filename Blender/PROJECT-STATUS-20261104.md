@@ -14217,3 +14217,14 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. svlang markerar den
 korrekta indirekta frågesatsen som möjlig V2-avvikelse; det är en falsk positiv.
 Batchen är lokalt arkiverad och väntar på manuell import.
+
+## Batch 1 481 — objekt kastar skuggor
+
+Hjälptexten avser ett bestämt objekt: **Objektet kastar skuggor i 3D-vyporten**.
+
+`blender-ui-sv-reviewed-batch-1481-object-casts-shadows-20261109.po`
+innehåller en granskad post med SHA-256
+`be64246e98ee15ac0ed31c1af9dcce8b341db36037280c3cf0a581e6ff16aa6d`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. svlang markerar
+**vyporten** som sällsynt; termen används etablerat i Blender. Batchen är lokalt
+arkiverad och väntar på manuell import.
