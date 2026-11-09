@@ -24,6 +24,10 @@ UI-kontexten gör det rätt, men ersätter inte mekaniskt etablerade
 specialformer. Ändringen är verktygsunderhåll, inte ett påstående om
 ytterligare import eller upstream-granskning.
 
+Termbasens felaktiga post *Arbetsutrymme Interop ID* rättades också till
+*Interop-ID för arbetsfärgrymd* efter kontroll mot Blenders dokumentation om
+färghantering. Den korrigerade termbasen är publicerad i commit \`891a1ed\`.
+
 ## Batch 1 333 — resurs i skriptets hyll-ID
 
 Hjälptexten för `AssetShelf.bl_idname` beskriver en resurs som får ett
