@@ -41,6 +41,12 @@ oktaedriska ben och SI-enheten *kelvin*. Uppdateringen är publicerad i
 \`yeager/swedish-foss-terminology\` som \`41499e2\` och kräver ingen
 ytterligare UI-import.
 
+Fyra termbasposter för Geometry Nodes rättades från den engelska formen
+*Socket* till svenska *uttaget* i felbeskrivningar. Projektets etablerade term
+är *noduttag*; den aktuella UI-exporten använder den naturliga bestämda formen
+*uttaget*. Uppdateringen är publicerad i commit \`eb050d8\` och kräver ingen
+ytterligare UI-import.
+
 ## Batch 1 333 — resurs i skriptets hyll-ID
 
 Hjälptexten för `AssetShelf.bl_idname` beskriver en resurs som får ett
