@@ -4406,6 +4406,16 @@ en granskad post med SHA-256
 endast den engelska källsträngens ovanliga talföljd och tre punkter. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 486 — namnmönster
+
+Urvalsoperatören använder den korta och etablerade termen **namnmönster**.
+
+`blender-ui-sv-reviewed-batch-1486-naming-pattern-20261109.po` innehåller en
+granskad post med SHA-256
+`44b72314403b19d17457385a28152d3c1a1408caf1ca1eb4fccc9f11e51508b9`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 483 — samplingsintervall
 
 OpenEXR-hjälptexten använder **samplingsintervall**, inte det geografiska
