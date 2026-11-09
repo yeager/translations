@@ -13209,3 +13209,16 @@ radgranskad post med SHA-256
 `ac3bd1af89b6d96e29b1ac8b17f3643f2683f0e84dbaa20d251706c78dbe3c21`.
 `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
 Filen är redo för manuell import; importresultatet är inte verifierat.
+
+## Batch 1 393 — målningsplats i hjälptexter
+
+Två beskrivningar för Texture Paint använde den missvisande formen
+*färgplats*. Funktionen skapar dock en plats där texturer målas. De
+normaliseras därför till **målningsplats**, samma term som UI-åtgärden
+*Add Paint Slot* och den etablerade sammansättningen *texturmålningsplats*.
+
+`blender-ui-sv-reviewed-batch-1393-paint-slot-wording-20261109.po` innehåller
+två radgranskade poster med SHA-256
+`ff7b15da5b57062446ebff39f462e2dba4cab8b24c937dac3525ebe9a9721f87`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
+Filen är redo för manuell import; importresultatet är inte verifierat.

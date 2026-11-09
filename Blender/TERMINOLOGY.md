@@ -1004,6 +1004,8 @@ Senast uppdaterad: 2026-11-09.
 | Action | Action | Blenderdatablock som lagrar animeringsdata; behåll *Action* i API- och UI-kontexten. Böj som *Actionen* och *Actioner*. |
 | Action slot | Action-slot | Identifierar vilken uppsättning animeringskanaler i en Action som gäller för ett datablock. |
 | Action keyframe | Action-nyckelbildruta | Nyckelbildruta som hör till en formell Action. |
+| keyframe / Keyframe Type | nyckelbildruta / nyckelbildrutetyp | Animeringens tidsatt punkt och dess typ. Använd inte den förkortade formen *nyckelbildstyp*, som döljer den etablerade Blender-termen *nyckelbildruta*. |
+| paint slot / Texture Paint Slot | målningsplats / texturmålningsplats | Plats för målning i Texture Paint-arbetsflödet. Använd *målningsplats*, inte den missvisande formen *färgplats*. |
 | Action storage | Action-lagring | Tillfällig eller beständig lagring av en Action i animationsdatatypen. |
 | Action Constraint | Action-begränsning | Begränsning som utvärderar en Action för ett objekt eller ben. |
 | Action Clip | Action-klipp | NLA-remsa som refererar till en Action. |
