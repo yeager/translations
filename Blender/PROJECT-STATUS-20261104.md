@@ -13595,6 +13595,20 @@ innehåller två granskade poster med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 442 — metaklot i plural och renderingsvy
+
+Datablock, filter och exporter använder nu pluralformen **metaklot** i stället
+för den äldre formen *metabollar*. Den relaterade renderingsvyn är samtidigt
+förtydligad till **Renderingsvy för stereoskopisk 3D och rendering med flera
+vyer**.
+
+`blender-ui-sv-reviewed-batch-1442-metaklot-plurals-and-render-view-20261109.po`
+innehåller sju granskade poster med SHA-256
+`d21c9e4784defd02a1acc2d12e6561d88759f604029ce8b2b90ced222065ab9e`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+enbart projektspecifika sammansättningar som ovanliga. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
 ## Batch 1 441 — stereoskopisk 3D och metaklot
 
 Sju återstående etiketter och hjälptexter för *Stereo 3D* använder nu
