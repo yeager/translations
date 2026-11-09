@@ -13108,4 +13108,6 @@ radgranskade poster och har SHA-256
 `c70c2b4692156a12c60accc5a7a14bce9a6441d11650429cdb2c58b03f9c276b`.
 `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade. Den är
 långt under gränsen på 1 000 strängar och redo för manuell import.
-Importresultatet är inte verifierat.
+En användarinskickad Weblate-bekräftelse visar att 38 strängar behandlades,
+0 hoppades över, 0 saknades och alla 38 uppdaterades. Importen av den samlade
+38-postersfilen är därmed verifierad.
