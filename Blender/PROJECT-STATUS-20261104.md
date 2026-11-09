@@ -13654,3 +13654,16 @@ innehåller en granskad post med SHA-256
 `be2fc2a3a07fa88de632d34524cf74fa8942e5dfc3061fcfe9a8636b04eba3e9`.
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
+
+## Batch 1 438 — stereoskopisk 3D
+
+Bildinställningens *Settings for stereo 3d* följer nu samma etablerade
+Blenderterm som motsvarande 3D-vyformat: **Inställningar för stereoskopisk
+3D**. Ändringen begränsas till vyformatets inställningsetikett och ändrar inte
+separata namn på operatörer eller visningslägen.
+
+`blender-ui-sv-reviewed-batch-1438-stereo-3d-terminology-20261109.po`
+innehåller en granskad post med SHA-256
+`7ba6e9e25a3b3e5a53757f433f4868c710bd4606271b07e8c1b9d7a6ff92e7ba`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
