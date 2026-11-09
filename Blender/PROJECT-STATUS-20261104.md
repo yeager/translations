@@ -12897,3 +12897,32 @@ samfiler ligger kvar oförändrade som arkivunderlag. SHA-256 är
 `msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Filen är
 redo för manuell Blender Translate-import och ligger långt under 1 000
 strängar; något importresultat för dess poster är ännu inte verifierat.
+
+## Batch 1 378 — Object Solver-begränsningar
+
+Två åtgärdstexter för *Object Solver Constraint* hade återgått till engelska
+funktionsnamnet i den svenska beskrivningen, trots att själva UI-namnet och
+projektets terminologi använder *objektlösare* och *objektlösarbegränsning*.
+De normaliseras till *Rensa inverskorrigering för objektlösarbegränsning* och
+*Ange inverskorrigering för objektlösarbegränsning*.
+
+`blender-ui-sv-reviewed-batch-1378-object-solver-constraint-20261109.po`
+innehåller två radgranskade poster. SHA-256 är
+`08def66f8a7d740da50310490633a84e5f34f1681d6d98ca63cec2f818c77888`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll, källmatchning och Gitleaks
+passerade. Hunspell-sv markerar enbart tekniska källord och PO-metadata.
+Filen är redo för manuell import; importresultatet är ännu inte verifierat.
+
+## Samlad import — batch 1 370–1 378
+
+`blender-ui-sv-reviewed-next-import-20261109-batches-1370-1378.po` ersätter
+den tidigare samlade 1 370–1 377-filen när samtliga ännu ej importverifierade
+ändringar ska laddas upp tillsammans. Den innehåller 25 unika,
+radgranskade poster och har SHA-256
+`5be7281b0937e7f501b7466379aeb776851ef2cc6757a834c9c97424c251e862`.
+
+Samtliga 25 poster matchar den lokala källkatalogen och skiljer sig från dess
+nuvarande måltext. `msgfmt`, l10n-lint, svlang, konsistenskontroll och
+Gitleaks passerade; standardvarningarna från `msgfmt` gäller enbart avsiktligt
+minimal PO-metadata. Filen omfattar långt färre än 1 000 strängar och är redo
+för manuell import. Importresultat för dessa 25 poster är inte verifierat.
