@@ -12383,6 +12383,17 @@ innehåller tre radgranskade poster och har SHA-256
 synkroniseras med samma kontextbundna terminologi. Deltafilen är redo för
 manuell import; dess eget importresultat är ännu inte verifierat.
 
+## Samlad import — batch 1 343–1 349
+
+`blender-ui-sv-reviewed-manual-import-20261109-batches-1343-1349.po` ersätter
+samlad import 1 343–1 348 när en enda importfil önskas. Den innehåller nio
+unika, radgranskade och ännu inte individuellt verifierade poster. SHA-256 är
+`2844249cb6867b050b0007270d222a58edbd69fdb03a22f633296901f5fda77c`.
+
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Filen är
+redo för manuell Blender Translate-import och ligger långt under 1 000
+strängar; något importresultat för dess poster är ännu inte verifierat.
+
 ## Samlad import — batch 1 343–1 348
 
 `blender-ui-sv-reviewed-manual-import-20261109-batches-1343-1348.po` ersätter
