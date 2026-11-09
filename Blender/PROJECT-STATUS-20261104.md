@@ -12617,6 +12617,19 @@ källmatchning och Gitleaks passerade. Hunspell-sv markerar endast engelska
 källord och PO-metadata. Deltafilen är redo för manuell import; dess
 importresultat är inte verifierat.
 
+## Samlad import — batch 1 362–1 367
+
+`blender-ui-sv-reviewed-manual-import-20261109-batches-1362-1367.po`
+samlar 16 unika, radgranskade poster: HDR-enheten *nit*, Dope Sheet-termer,
+booleska hjälptexter, proxyrendering och automatisk paketering. Den ersätter
+inte enskilda arkivfiler, utan är en praktisk importfil för Blender Translate.
+
+SHA-256 är
+`d96896143734b450758d540953dc2717021a89e9136ad18fa98a29adb8b529aa`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
+Filen har 16 poster och ligger långt under 1 000-strängarsgränsen.
+Importresultatet för den samlade filen är inte verifierat.
+
 ## Batch 1 362 — HDR-enheten nit
 
 Två beskrivningar av Rec.2100-visningar hade den engelska pluralformen
