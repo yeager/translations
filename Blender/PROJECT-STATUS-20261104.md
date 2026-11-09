@@ -4407,6 +4407,18 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 469 — Collection Info-transformering
+
+Collection Info-nodens hjälptext använder nu den etablerade tekniska termen
+**transformeringen** i stället för den oidiomatiska formen *transformerandet*.
+
+`blender-ui-sv-reviewed-batch-1469-collection-info-transformation-20261109.po`
+innehåller en granskad post med SHA-256
+`ff8c79174ec615faa156a34732e58eb41c080ba9fbbdb044f4049fdc5ae8c032`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+det korrekta tekniska sammansättningsordet *instansutdata* som sällsynt.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 468 — index för aktivt element
 
 Den generiska nodetiketten **Active Item Index** använder **Index för aktivt
