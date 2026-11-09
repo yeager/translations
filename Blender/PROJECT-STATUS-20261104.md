@@ -13552,3 +13552,17 @@ Svlangs två V2-varningar är verifierade falska positiva; ordföljden i båda
 satserna är korrekt. Hunspell-sv träffar endast PO-metadata, engelska
 källsträngar och Blendernamn. Filen är lokalt granskad, arkiveras separat och
 väntar på manuell import.
+
+## Batch 1 420–1 430 — fortsatt kontext- och terminologigranskning
+
+Batch 1 420–1 430 fortsätter den radvisa granskningen av animation,
+geometri, rörelsespårning och tangentmappning. Terminologin har normaliserats
+för mellanposer, posben, F-kurvmodifierare och Blenderoperatörer. Batch 1 430
+rättar dessutom initial versal i en fullständig glTF-importhjälptext.
+
+`blender-ui-sv-reviewed-batch-1430-gltf-tooltip-capitalization-20261109.po`
+innehåller en granskad post med SHA-256
+`8487c5be107dfcb4e96031035cdb8073a2b69ca9026866513d3c0540ebf46e36`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv träffar enbart
+metadata, källtext och tekniska identifierare. Batchen är lokalt arkiverad
+och väntar på manuell import.
