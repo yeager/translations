@@ -4408,6 +4408,17 @@ sammansättningen **F-kurvsegmenten**, och svlang markerar den korrekta relativa
 satsen som möjlig V2-avvikelse. Batchen är lokalt arkiverad och väntar på
 manuell import.
 
+## Batch 1 490 — markering och spegling av nyckelbildrutor
+
+Menyerna använder nu **valda kanaler** och beskriver tidspegling korrekt som
+utförd **kring** den aktuella bildrutan eller markören.
+
+`blender-ui-sv-reviewed-batch-1490-keyframe-selection-mirror-20261109.po`
+innehåller tre granskade poster med SHA-256
+`94da6e8155b0c89f90599fb24fd5e6049f5a3e6d55b7217b25d3c3cce6b929b6`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 488 — byt namn på flera
 
 Åtgärdsetiketten **Byt namn på flera** är tydligare och idiomatiskt svensk än
