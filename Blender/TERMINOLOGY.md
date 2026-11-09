@@ -11,7 +11,7 @@ Senast uppdaterad: 2026-11-08.
 
 | Engelska | Svenska | Anmärkning |
 | --- | --- | --- |
-| asset library | tillgångsbibliotek / resursbibliotek | Båda förekommer i den etablerade Blender-katalogen. Följ närliggande UI och ändra inte mekaniskt mellan dem. I Asset Browser och dess inställningsbeskrivningar används *resursbibliotek* för att stämma med de omgivande UI-etiketterna. I övrig längre förklarande text är *tillgångsbibliotek* den vanligaste befintliga formen. |
+| asset library | resursbibliotek | I Blenders svenska UI är en *asset* en resurs. Använd *resursbibliotek* även i inställningar och felmeddelanden; följ den konkreta UI-källan vid undantag. |
 | Asset Browser | resursbläddrare | Följer den aktuella svenska UI-etiketten. Den äldre manualformen *tillgångsbläddrare* ska inte dras in i ny UI-nära dokumentation. |
 | asset catalog | resurskatalog | Katalog som grupperar resurser i Asset Browser. Skriv ihop även i hjälptexter, exempelvis *resurskatalogens namn*. |
 | asset metadata | resursmetadata | Redigerbara uppgifter om en resurs, som katalog, förhandsgranskning, etiketter och upphovsperson. |
@@ -950,7 +950,7 @@ Senast uppdaterad: 2026-11-08.
 | Geometry Nodes | geometrinoder | Blenders nodbaserade geometriarbetsflöde; svensk sammansättning. |
 | Grease Pencil stroke | Grease Pencil-streck | Synlig ritad linje i Grease Pencil, inte *slag* eller *stroke*. |
 | Annotation / Grease Pencil stroke | streck | Använd *streck* för det ritade resultatet i Annotation- och Grease Pencil-data. *Penseldrag* används bara när användarens penselhandling uttryckligen avses. |
-| Action (animation data type) | Action | Formellt Blender-namn för ett animationsdatablock. Böj som *Actionen* och *Actioner*. Skriv sammansättningar som *Action-grupp*, *Action-lager*, *Action-remsa*, *Action-slot*, *Action-kanal* och *Action-nyckelbildruta*. De fristående etiketterna *Action* och *Actions* följer också denna form när de avser Dope Sheet, NLA, resursfilter eller datablockslistor. Översätt bara det vanliga verbet eller substantivet *action* när det inte betecknar denna datatyp. |
+| Action slot | åtgärdsslot | En slot är en post i en Actions animationsdata. Använd sammansättningar som *åtgärdsslot*, *åtgärdsslothandtag* och *åtgärdsslotar*. Behåll \`Action\` när det är ett synligt API- eller datablocksnamn, men översätt den tekniska datastrukturen *Action slot*. |
 | bevel modifier | avfasningsmodifierare | Modifierare som rundar av meshens kanter och hörnpunkter. |
 
 | node socket / context socket | noduttag / kontextuttag | Anslutningspunkt för in- eller utdata i en Blendernod; i en operator är *context socket* det uttag som den aktuella kontexten avser. Använd inte *sockel*, som avser fysisk hårdvara. |
@@ -1011,7 +1011,7 @@ Senast uppdaterad: 2026-11-08.
 | Video Sequencer | videosekvensredigerare | Blenderredigerare för videoremsor, ljud och övergångar. |
 | slip (Video Sequence Editor) | innehållsförskjutning | Förskjuter innehållet inuti en remsa utan att flytta remsan på tidslinjen. |
 | asset representation | resursrepresentation | API-objekt som gör det möjligt för resurssystemet att hantera en entitet som en resurs. |
-| asset weak reference | svag tillgångsreferens | Referens som inte nödvändigtvis håller tillgången vid liv. |
+| asset weak reference | svag resursreferens | Referens som inte nödvändigtvis håller resursen vid liv. |
 | normal space | normalrymd | Koordinatrymd för normaler vid exempelvis bakning. |
 | cage extrusion | bursextrudering | Avstånd som bygger ut en bakningsbur från det aktiva objektet. |
 | bake map | bakningskarta | Bild- eller attributdata som skapas genom att baka renderingsresultat. |
