@@ -12558,6 +12558,21 @@ SHA-256 är
 redo för manuell Blender Translate-import och ligger långt under 1 000
 strängar; något importresultat för dess poster är ännu inte verifierat.
 
+## Batch 1 362 — HDR-enheten nit
+
+Två beskrivningar av Rec.2100-visningar hade den engelska pluralformen
+`nits`, trots att de andra HDR-posterna konsekvent använder den svenska
+enhetsformen `nit`. Båda rättas utan att ändra färgrymdsnamn, siffror eller
+annan UI-kontext.
+
+`blender-ui-sv-reviewed-batch-1362-hdr-unit-terminology-20261109.po`
+innehåller de två radgranskade posterna och har SHA-256
+`cdfafe6720df8090e3f4847df86a6ed14e9b1266250f562642d33db2a3beda2a`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
+Hunspell-sv markerar projekt- och färgrymdsnamn, men ingen felstavning i de
+ändrade formuleringarna. Deltafilen är redo för manuell import och omfattas
+inte av något verifierat importresultat ännu.
+
 ## Batch 1 349 — kompositeringsnoder och nodgrupper
 
 Tre UI-poster använde den oetablerade förkortningen *kompositnod* trots att
