@@ -2,6 +2,21 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 320 — visnings- och regionkoordinater
+
+Geometry Nodes-noderna *Mouse Position* och *Viewport Transform* arbetar med
+pixelpositioner respektive matristransformeringar mellan objekt-, visnings- och
+regionkoordinater. De vardagliga formerna *utrymme* normaliseras därför till
+*visningsrymd* och *regionrymd*. För muspositionen används den förklarande
+formen *regionens koordinatsystem*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1320-viewport-coordinate-spaces.po`
+innehåller fem ändrade poster och har SHA-256
+`832b7aaf054dc9e99bf77569430f18202cf85c6bd0a59ad667ddaab36fce58de`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 319 — CrCb-färgrymd i Chroma Key
 
 Chroma Key-noden jämför vinkeln mellan färg och nyckelfärg i CrCb-färgkoordinater.
