@@ -52,7 +52,7 @@ Senast uppdaterad: 2026-11-09.
 | prefetch | förhandsladdning | Läser in cache- eller animationsdata i förväg för snabbare uppdateringar. |
 | Cycles Procedural cache | Cycles Procedural-cachen | Särskild cache för Cycles procedurbaserade inläsning. |
 | Cycles / EEVEE | Cycles / EEVEE | Blenders egna renderare är produktnamn och lämnas oförändrade; sammansättningar skrivs exempelvis *Cycles-kurvor*. |
-| render / rendering / renderer | rendera / rendering / renderare | Använd för Blenders generella bildrenderingsprocess och dess UI: *full rendering*, *renderingseffekt*, *renderingsläge* och *textrendering*. Behåll **återgivning** endast när källtexten uttryckligen handlar om återgivning eller reproduktion, inte om att skapa en renderad bild. |
+| render / rendering / renderer | rendera / rendering / renderare | Använd för Blenders generella bildrenderingsprocess och dess UI: *fullständig rendering*, *renderad effekt* och *renderingsläge*. Behåll **återgivning** när källtexten uttryckligen handlar om reproduktion eller visning; UI-panelen *Text Rendering* är därför **Textåtergivning**. |
 | Auto-Pack / auto-pack | automatisk paketering | Blenderfunktionen som bäddar in externa resurser i .blend-filen. Översätt synlig UI-text konsekvent som *automatisk paketering*; behåll bara API-egenskapen `use_autopack` och andra kodidentifierare oförändrade. |
 | nit / nits (HDR luminance) | nit | Ljusstyrkeenheten i OCIO-, ACES- och HDR-etiketter. På svenska används enhetsformen *nit* även efter tal: *1 000 nit*, inte *1 000 nits*. Färgrymds- och formatnamn lämnas oförändrade. |
 | object path | objektsökväg | Sökväg för ett objekt i exempelvis en Alembic-arkivfil. |
@@ -925,6 +925,7 @@ Senast uppdaterad: 2026-11-09.
 | solver (motion tracking) | lösare | Beräkningsmetod för kamera- eller objektspårning; använd *lösare* i förklarande UI-text. |
 | Camera Solver Constraint | kameralösarbegränsning | Begränsning som gör att en Blender-kamera följer den rekonstruerade rörelsen hos en fysisk kamera från ett filmklipp. |
 | compositor (environment) | kompositör | Blenders nodbaserade miljö för bildkomposition; använd *kompositör*, inte det engelska *compositor*. |
+| compositor node / compositor node group | kompositeringsnod / kompositionsnodgrupp | Noder och nodgrupper som utför bildkomposition. Skilj från miljön **Kompositör** och dess underordnade former, exempelvis *kompositörens enhet*. |
 | matte (keying) | matta | Friläggningsmask som beskriver genomskinlighet, inte en fysisk matt yta. |
 | Holdout | matta | Renderings- och visningslagerinställningen som skapar en utskärande matte. Använd också *Ange matte* och *Rensa matte* i Outliners operatorer. |
 | selectable / non-selectable | valbar / icke-valbar | Anger om ett Blender-objekt kan markeras. Använd inte den inkonsekventa formen *markerbar*. |
