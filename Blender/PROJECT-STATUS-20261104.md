@@ -4644,6 +4644,19 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 512 — ljudets bakning till sampel
+
+Ljudvågsverktygets beskrivning använder nu den etablerade Blender-termen
+**Bakar**, i linje med övriga bakningsåtgärder, i stället för det missvisande
+*Beräknar*.
+
+`blender-ui-sv-reviewed-batch-1512-sound-bake-20261110.po` innehåller en
+granskad post med SHA-256
+`7924a1c412e0f81e8f60f7736fb732f16b8f22b9c8d826637aecc859ff39bece`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. Svlangs enda träff
+är den korrekta imperativformen. Batchen är lokalt arkiverad och väntar på
+manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
