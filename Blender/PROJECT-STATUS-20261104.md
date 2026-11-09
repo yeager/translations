@@ -4597,6 +4597,18 @@ förväntat skiljeteckensbyte kring ett API-namn. Hunspell-sv och svlang
 markerar korrekta format- och API-namn samt en korrekt relativ bisats.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 508 — Animation Pointer-lägen
+
+Animation Pointer-beskrivningen använder nu samma synliga UI-namn som
+exportörens lägesval: *NLA-spår* och *Scen*, inte engelska strängar.
+
+`blender-ui-sv-reviewed-batch-1508-animation-pointer-labels-20261110.po`
+innehåller en granskad post med SHA-256
+`475de0b5ccec7a62facd9ac6b86f8fa5c038f2fa58568fcb6c9d4108cb4b8189`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+det korrekta UI-namnet *NLA-spår* och en förkortad sats. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
