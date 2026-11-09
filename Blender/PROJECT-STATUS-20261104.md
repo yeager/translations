@@ -13111,3 +13111,19 @@ långt under gränsen på 1 000 strängar och redo för manuell import.
 En användarinskickad Weblate-bekräftelse visar att 38 strängar behandlades,
 0 hoppades över, 0 saknades och alla 38 uppdaterades. Importen av den samlade
 38-postersfilen är därmed verifierad.
+
+## Batch 1 386 — bildruteintervall
+
+Två hjälptexter för åtgärden *Jump to first/last frame* skrev den etablerade
+termen *bildruteintervall* utan dess foge-`e`: *bildrutintervall*. Samma
+egenskap och närliggande UI använder konsekvent **bildruteintervall**.
+Rättelsen gäller endast stavningen i bestämd form, *bildruteintervallet*.
+
+`blender-ui-sv-reviewed-batch-1386-frame-range-spelling-20261109.po`
+innehåller två radgranskade poster med SHA-256
+`55245b4ea8ef058cb1b6344ed19c5a663f4211bca16701418f5e16b1d00cbb44`.
+`msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
+konsistenskontroll och Gitleaks passerade. Hunspell-sv markerar den tekniska
+sammansättningen *bildruteintervallet* samt metadata och källord, men inga
+svenska stavfel identifierades. Filen är redo för manuell import;
+importresultatet är inte verifierat.
