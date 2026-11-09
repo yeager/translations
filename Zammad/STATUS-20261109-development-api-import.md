@@ -26,3 +26,21 @@ evidens för de granskade förslagen. Endast de 20 accepterade posterna är
 verifierat inskickade till Zammad Weblate. Kontot har inte behörighet att
 godkänna poster, så accepterade ändringar ligger som översättningar för
 projektets granskning.
+
+## Efterkontroll: mallintegritet och UI-interpunktion
+
+En fullkontroll av den aktuella serverexporten hittade två faktiska
+platshållarfel i säkerhetsmejlen för inloggning från ett nytt land respektive
+en ny enhet. Den befintliga svenska texten innehåller `#{config.product_name}`
+tre gånger, trots två förekomster i källan. Samma batch rättar fem korta
+UI-texter för interpunktion och sökhjälp.
+
+Deltafilen `zammad-zammad-development-sv-integrity-20261109.po` innehåller
+sju poster. `msgfmt`, l10n-lint, svlang och Gitleaks passerade; l10n-lints
+enda varning gäller den avsiktliga förklaringen *semikolon (;)*.
+
+Weblate accepterade en direkt ändring (den semantiktydliga
+semikolonförklaringen). De övriga sex raderna var befintliga skyddade
+översättningar och ersattes inte. De skickades därför som förslag med
+Weblates `suggest`-metod: sex accepterade förslag, ett hoppades över. Det är
+inte en upstream-godkänd ändring förrän en projektgranskare godtar förslagen.
