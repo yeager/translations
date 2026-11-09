@@ -14228,3 +14228,14 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. svlang markerar
 **vyporten** som sällsynt; termen används etablerat i Blender. Batchen är lokalt
 arkiverad och väntar på manuell import.
+
+## Batch 1 482 — avaktivera sololäge
+
+Kommandot använder den befintliga statusbenämningen **sololäge**:
+**Avaktivera sololäge för alla**.
+
+`blender-ui-sv-reviewed-batch-1482-clear-solo-mode-20261109.po` innehåller en
+granskad post med SHA-256
+`af6cd02ee1e151fc2f7b71033eedf050e9a334eb8d8e3eba34be072ec0dad20a`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
