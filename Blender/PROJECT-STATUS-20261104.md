@@ -13619,6 +13619,18 @@ innehåller fyra granskade poster med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen är lokalt arkiverad och
 väntar på manuell import.
 
+## Batch 1 437 — ljudsamplingsformat
+
+Systeminställningens *Sample Format* är normaliserad till
+**Ljudsamplingsformat**, enligt den etablerade Blendertermen för ljudets
+bitdjup och numeriska representation.
+
+`blender-ui-sv-reviewed-batch-1437-audio-sample-format-20261109.po`
+innehåller en granskad post med SHA-256
+`f59aacf50405ca7b150812e647e528dbf4edb8f5be59650cbbe0f2d0a3ffa2b5`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 434 — transformation
 
 Action-slotarnas *Transform channel* och två relaterade hjälptexter använder
