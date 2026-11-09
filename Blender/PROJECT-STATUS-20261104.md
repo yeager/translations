@@ -3731,6 +3731,18 @@ diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 Ingen Weblate-import är verifierad; batchen är lokalt färdig och redo för
 manuell import.
 
+## Batch 1 335 — cache för fjärrresurser
+
+Katalognamnet *Nedladdningscachekatalogen* ersätts av den naturligare och mer
+läsbara formuleringen *Cachekatalogen för nedladdningar från fjärranslutna
+resursbibliotek*. Den undviker också tre identiska konsonanter i följd.
+Deltafilen `blender-ui-sv-reviewed-batch-1335-remote-asset-download-cache.po`
+innehåller en post.
+
+`msgfmt`, l10n-lint, svlang, Hunspell, diffkontroll och Gitleaks passerade.
+Batchen är arkiverad och pushad i commit `b566d5ef`. Weblate-import är inte
+verifierad; batchen är lokalt redo för manuell import.
+
 ## Terminologi — Fill Solver
 
 Termbasposten för `Fill Solver` rättades från den felaktiga uppmaningen
