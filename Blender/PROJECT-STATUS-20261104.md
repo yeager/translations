@@ -12312,6 +12312,21 @@ markerar den avsiktliga projektspecifika termen `shader`; den är verifierad i
 den lokala Blender-terminologin. Deltafilen är redo för manuell import; dess
 eget importresultat är ännu inte verifierat.
 
+## Batch 1 348 — heltalsvektornoduttag
+
+RNA-typen `NodeSocketIntVector` var den enda av syskonens grundtyper som
+bröt mönstret `…noduttag`. Den omskrivna formen *heltalsvektoruttag för nod*
+normaliseras till det konsekventa formella typnamnet *heltalsvektornoduttag*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1348-integer-vector-node-socket.po`
+innehåller en radgranskad post och har SHA-256
+`0033882d12e4e2cf6cec3fd7c7cf4d6a8dba711aa482f1d4d65d919f513b83ac`.
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Hunspell-sv
+saknar den korrekta facktermen `heltalsvektornoduttag`; termen är manuellt
+verifierad mot närliggande Blender-typer och projektets terminologilista.
+Deltafilen är redo för manuell import; dess eget importresultat är ännu inte
+verifierat.
+
 ## Samlad import — batch 1 343–1 346
 
 `blender-ui-sv-reviewed-manual-import-20261109-batches-1343-1346.po` samlar
