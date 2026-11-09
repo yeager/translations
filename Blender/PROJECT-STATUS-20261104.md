@@ -3766,6 +3766,16 @@ pushades i `swedish-foss-terminology`-commit `4ca71d5`; Blender-TM synkades i
 `swedish-tm`-commit `5de1c8e`. Weblate-import är inte verifierad; batchen är
 lokalt redo för manuell import.
 
+## Blender-TM — Action-slotar
+
+Den redan kontextgranskade batch 1 678 används för att ta bort fem äldre
+felposter ur Blender-TM: *Slott*, *Slotthandtag*, *Slottidentifierare*,
+*Slottvisningsnamn* samt den felaktiga ägarkonstruktionen för aktivt objekt.
+TM-posterna är nu *slot*, *slothandtag*, *slotidentifierare*,
+*slotvisningsnamn* och *Visa endast slotten för det aktiva objektet*.
+Ändringen är publicerad i `swedish-tm`-commit `f32ddf0`; den skapar ingen ny
+UI-delta, eftersom rättningen redan finns i den arkiverade UI-batchen.
+
 ## Batch 1 290 — geometri- och bildrymd
 
 Batch 1 290 normaliserar sex Blender-kontexter där *geometry space* och
