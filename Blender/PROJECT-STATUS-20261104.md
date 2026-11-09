@@ -61,6 +61,15 @@ blender-ui-sv-reviewed-batch-1358-keymap-viewer-world-space-20261109.po är
 lokal och klar för manuell import. Msgfmt, l10n-lint, svlang och Gitleaks är
 godkända.
 
+## Batch 1 359 — kamerans objektrymdsbegränsning
+
+Kameraprojektionens hjälptext preciseras så att varje sida hör till
+*objektrymdens begränsningsruta*, i stället för den tvetydiga formuleringen
+om en begränsningsbox i objektrymd. Deltafilen
+blender-ui-sv-reviewed-batch-1359-camera-object-space-bounds-20261109.po är
+lokal och klar för manuell import. Msgfmt, l10n-lint, svlang och Gitleaks är
+godkända.
+
 ## Verifierad manuell import 9 november 2026
 
 Två manuella Blender Translate-importer är dokumenterade i arbetsloggen. Den
