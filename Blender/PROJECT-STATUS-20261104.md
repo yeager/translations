@@ -6,10 +6,23 @@ Projektets aktualitet är verifierad 9 november 2026: Blender 5.2 LTS
 släpptes den 14 juli 2026 enligt Blenders officiella releasesida. Projektet
 uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 
-> Källexporten `blender-ui-ui-sv (5).po` är äldre än flera manuellt importerade
-> deltor. Den får användas för kontext och för att skapa nya, unika ändringar,
-> men får inte ensam betraktas som bevis på att en tidigare batch saknas
-> upstream. Kontrollera alltid arkiverade deltafiler före ny ändring.
+> Den aktuella källexporten är `blender-ui-ui-sv (6).po`, hämtad 9 november
+> 2026. Den skiljer sig i 1 269 svenska måltexter från export `(5)` och är
+> därmed den enda arbetsreferensen för nya deltafiler. Jämförelsen bekräftar
+> att manuella importer har fått genomslag, men en deltafil räknas inte som
+> importerad förrän importresultatet är verifierat.
+
+## Batch 1 354 — generisk renderings-terminologi
+
+Batchen normaliserar sex aktuella UI-poster från den färska exporten:
+*full rendering*, renderingsbeskrivningar för hår, ytmaterial och
+materialutdata, Shader to RGB samt *Textrendering*. Den skiljer den generella
+Blender-processen **rendering** från den mer specifika termen *återgivning*.
+Deltafilen `blender-ui-sv-reviewed-batch-1354-rendering-terminology-20261109.po`
+är lokal och klar för manuell import; ingen import har utförts i detta steg.
+`msgfmt`, l10n-lint, svlang (konsistens, skrivregler och svengelska), Hunspell-sv
+och Gitleaks har körts. Hunspell-sv:s enda träffar är de avsiktliga
+fack-/produkttermerna *BSDF:er*, *EEVEE* och *OpenPBR-modellen*.
 
 ## Verifierad manuell import 9 november 2026
 
