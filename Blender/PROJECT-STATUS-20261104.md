@@ -13581,3 +13581,16 @@ innehåller fem granskade poster med SHA-256
 målspråksord. Svlangs V2-träff är en falsk positiv; satsen *så approximerar
 skuggningen* har korrekt svensk ordföljd. Batchen är lokalt arkiverad och
 väntar på manuell import.
+
+## Batch 1 432 — constraints och skulpteringsmaskering
+
+Två UI-etiketter har normaliserats mot den etablerade Blenderterminologin:
+*Track To Constraint* är **Rikta mot-begränsning** och *Mask From Cavity* är
+**Mask från hålighet**. Den senare termen följer den befintliga termen
+*hålighetsmask* för samma skulpteringskontext.
+
+`blender-ui-sv-reviewed-batch-1432-constraint-and-cavity-terminology-20261109.po`
+innehåller två granskade poster med SHA-256
+`ae208708d1c5e85de876bf5c14013ff12c3f6d968a677b74782b645df9c0ea28`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
