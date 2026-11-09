@@ -24,6 +24,16 @@ Deltafilen `blender-ui-sv-reviewed-batch-1354-rendering-terminology-20261109.po`
 och Gitleaks har körts. Hunspell-sv:s enda träffar är de avsiktliga
 fack-/produkttermerna *BSDF:er*, *EEVEE* och *OpenPBR-modellen*.
 
+## Batch 1 355 — kataloglistans skiljetecken
+
+En granskad hjälprad för en alternativ skriptsökväg saknade kolon före listan
+med Blenders formella underkatalognamn. Deltafilen
+blender-ui-sv-reviewed-batch-1355-script-directory-punctuation-20261109.po
+är lokal och klar för manuell import. Kontrollerna msgfmt, l10n-lint,
+svlang, Hunspell-sv och Gitleaks är genomförda. Svlang rapporterar
+startup som en anglicism, men termen behålls avsiktligt eftersom den är
+ett synligt katalognamn i Blenders standardlayout.
+
 ## Verifierad manuell import 9 november 2026
 
 Två manuella Blender Translate-importer är dokumenterade i arbetsloggen. Den
