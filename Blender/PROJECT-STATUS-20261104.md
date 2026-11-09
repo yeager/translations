@@ -12954,6 +12954,19 @@ passerade. De förväntade `msgfmt`-varningarna gäller bara minimal PO-metadata
 Filen är långt under 1 000-strängarsgränsen och redo för manuell import;
 importresultatet är inte verifierat.
 
+## Batch 1 388 — instanssamling
+
+Operatörsetiketten *Instance Collection* var felaktigt särskriven som
+*Instans Samling*, trots att den intilliggande beskrivningen använder verbet
+*instansiera* och samma UI-katalog redan har termen *Instanssamling*.
+
+`blender-ui-sv-reviewed-batch-1388-instance-collection-20261109.po`
+innehåller en radgranskad post med SHA-256
+`110dbd00f2191141a64b345d1bc6eecf721a724351a55ac231da3b24bbec93ad`.
+`msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
+konsistenskontroll och Gitleaks passerade. Filen är redo för manuell import;
+importresultatet är inte verifierat.
+
 ## Batch 1 387 — tidsommappning
 
 Blenders panel *Time Remapping* i modifieraren Mesh Cache styr hur den
