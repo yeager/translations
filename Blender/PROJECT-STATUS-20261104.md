@@ -12269,3 +12269,15 @@ innehåller en radgranskad post och har SHA-256
 `msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks
 passerade för deltafilen. Den är redo för manuell import; dess eget
 importresultat är ännu inte verifierat.
+
+## Samlad import — batch 1 343–1 344
+
+`blender-ui-sv-reviewed-manual-import-20261109-batches-1343-1344.po` samlar
+de två senast granskade, ännu inte individuellt verifierade ändringarna:
+*cachekatalog för nedladdning* och *lokal biblioteksåsidosättning*. Det är en
+deltafil med två poster och SHA-256
+`5faed48bda1e33b687e4d2f0b5e0ad58eb84445603db3ed0f96f737fea84f539`.
+
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks
+passerade. Filen är redo för manuell Blender Translate-import och innehåller
+inga tidigare batchar.
