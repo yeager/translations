@@ -4417,6 +4417,20 @@ granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 495 — spårningskontroller och cachearkiv
+
+Åtta UI-poster har fått idiomatisk och konsekvent svensk formulering i
+egenskapsredigeraren, cachearkivet och rörelsespårningen. Ändringarna
+omfattar bland annat *kontextmeny*, synliga datablock, objektens sökvägar,
+lösningens skala och medelvärdesberäkning av spår.
+
+`blender-ui-sv-reviewed-batch-1495-tracking-controls-20261109.po` innehåller
+åtta granskade poster med SHA-256
+`4fb145585a5c8ce59b0a0b1715d07d37d02004e1d34bb49f0bfd43d5371f16d5`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. Svlang markerar två
+korrekta relativa bisatser som möjliga V2-avvikelser; ingen ändring behövs.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
