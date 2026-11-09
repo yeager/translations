@@ -4395,6 +4395,17 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 488 — byt namn på flera
+
+Åtgärdsetiketten **Byt namn på flera** är tydligare och idiomatiskt svensk än
+substantivet *Massomdöpning*.
+
+`blender-ui-sv-reviewed-batch-1488-batch-rename-20261109.po` innehåller en
+granskad post med SHA-256
+`8bc104f06f66247fcef03fb89c918210d575a567f223612208a33cce2b465a03`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 487 — fastsättning
 
 Pinning-inställningen använder **fastsättning**, konsekvent med den närliggande
