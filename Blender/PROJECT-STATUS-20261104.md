@@ -12240,3 +12240,17 @@ SHA-256 `4726a1369fdae05e26587321af82d2b5a5c419a7fe412f95f4e734b2e0e1bc2f`.
 `msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks
 passerade. Deltafilen är lokalt färdig och redo för manuell import; något
 importresultat för just denna post är ännu inte verifierat.
+
+## Lokal granskningsbas — 9 november 2026
+
+Den nedladdade helfilen `blender-ui-ui-sv (5).po` är äldre än flera
+arkiverade granskningsdeltan. Den lokala granskningsbasen byggs därför genom
+att låta de **393** arkiverade deltafilerna få företräde framför helfilen. Den
+resulterande arbetskopian innehåller **40 427** faktiska strängar och används
+för fortsatt kontroll; den arkiveras inte som importfil.
+
+`msgfmt`, l10n-lint, svlang konsistenskontroll och Gitleaks har körts på den
+sammanslagna kopian. De kvarvarande l10n-lint-varningarna är under fortsatt
+manuell bedömning; hittills verifierade exempel är formel-/platshållartext,
+filnamnsexempel med *t.ex.* och avsiktliga dubbla fackord, inte säkra
+massändringar.
