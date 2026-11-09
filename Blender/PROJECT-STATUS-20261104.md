@@ -13595,6 +13595,15 @@ innehåller två granskade poster med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Verifierad import — 2026-11-09 efter kl. 16
+
+Den manuella Weblate-importen av den samlade filen med batch 1 403–1 437 är
+verifierad i Weblates importresultat: **169 behandlade**, **20 uppdaterade**,
+**149 överhoppade** och **0 saknade** poster. Överhoppade poster var redan
+identiska eller saknade en ändring att tillämpa. Detta bekräftar importen, men
+inte någon separat upstream-granskning eller merge. Batch 1 438–1 439 skapades
+efter den här importen och väntar fortfarande på manuell import.
+
 ## Batch 1 439 — primitiv-, ljud- och stereoformat
 
 Tre synliga UI-etiketter följer nu den etablerade Blenderterminologin:
