@@ -12602,6 +12602,21 @@ källmatchning och Gitleaks passerade. Hunspell-sv markerar endast källord
 och PO-metadata. Deltafilen är redo för manuell import; importresultatet är
 inte verifierat.
 
+## Batch 1 367 — automatisk paketering
+
+Tre synliga texter för samma Blenderfunktion växlade mellan det engelska
+*Auto-Pack*, *automatisk packning* och den redan använda termen
+*automatisk paketering av resurser*. De normaliseras till
+*automatisk paketering*. Kodnamnet `use_autopack` berörs inte.
+
+`blender-ui-sv-reviewed-batch-1367-autopack-terminology-20261109.po`
+innehåller tre radgranskade poster och har SHA-256
+`b7894726bac182e9591ca3bc6143299325bffc34023eb1ea4595b3addc01dd78`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, konsistenskontroll,
+källmatchning och Gitleaks passerade. Hunspell-sv markerar endast engelska
+källord och PO-metadata. Deltafilen är redo för manuell import; dess
+importresultat är inte verifierat.
+
 ## Batch 1 362 — HDR-enheten nit
 
 Två beskrivningar av Rec.2100-visningar hade den engelska pluralformen
