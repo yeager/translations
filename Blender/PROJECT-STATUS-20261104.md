@@ -12615,6 +12615,22 @@ passerade. Hunspell-sv markerar endast engelsk källtext, API-namn och
 PO-metadata. Filen ligger långt under gränsen på 1 000 strängar. Den är redo
 för manuell import; importresultatet är inte verifierat.
 
+## Batch 1 372 — kompositeringsnodgrupper i sekvensredigeraren
+
+Blenders API beskriver dessa som *compositor node groups for sequencer*.
+Tre rader blandade tidigare ihop den synliga miljön *Kompositör* med den
+tekniska nodtypen. De använder nu *kompositeringsnodgrupp* respektive
+*kompositeringsnoder*, i linje med projektets terminologi och Blender-manualens
+beskrivning av kompositeringsnodgrupper i Videosekvensredigeraren.
+
+`blender-ui-sv-reviewed-batch-1372-sequencer-compositing-node-groups-20261109.po`
+innehåller tre radgranskade poster med SHA-256
+`e481767d62ec2ba083d31b43459e099ca8e77b8e610c730063c4f9a7531c7bba`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll, källmatchning och Gitleaks
+passerade. Hunspell-sv markerar endast engelsk källtext, API-namn och
+PO-metadata. Batchen är redo för manuell import; importresultatet är inte
+verifierat.
+
 ## Samlad import — ändringar sedan 07:00 den 9 november
 
 `blender-ui-sv-reviewed-since-0700-20261109-complete-v2.po` är en
