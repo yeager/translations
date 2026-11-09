@@ -16,6 +16,11 @@ Ingen ersättning tvingades igenom: API:t visade därefter revision
 poster och inga fuzzy- eller tomma poster. De 76 avvisade posterna hörde till
 en äldre lokal källrevision och finns inte i den aktuella serverkatalogen.
 
+En cache-bypassad hämtning efter importen verifierade dessutom exakt de 20
+accepterade måltexterna i serverkatalogen. Samma hämtning innehöll 5 325
+poster och inga fuzzy-flaggor. Resultatet bekräftar den tekniska importen,
+men inte en mänsklig upstream-godkänning.
+
 Filen `zammad-zammad-development-sv-reviewed-20261109.po` är arkiverad som
 evidens för de granskade förslagen. Endast de 20 accepterade posterna är
 verifierat inskickade till Zammad Weblate. Kontot har inte behörighet att
