@@ -41,7 +41,7 @@ Senast uppdaterad: 2026-11-09.
 | view shift (camera view) | vyförskjutning | Förskjuter kameravyns inramning utan att flytta kameran. |
 | film gate | filmruta | Bildruta som anger den fysiska sensor- eller filmramen i kameravyn. |
 | clipping distance | beskärningsavstånd | Kamerans närmaste eller bortre synliga gräns. |
-| clipping plane | beskärningsplan | Synligt plan som avgränsar innehåll i kamera- eller 3D-vy. Använd i plural *beskärningsplan*, inte *klippplan*. |
+| clipping plane (camera) | beskärningsplan | Kamerans avgränsande plan vid beskärningsavstånd. Använd inte den sammanskrivna formen *klippplan*. |
 | Clip Start / Clip End | beskärningsstart / beskärningsslut | Kamerans, 3D-vyportens eller VR-vyns närmaste och bortre gräns för visning. |
 | camera space | kamerarymd | Kamerans koordinatrymd för spårning, projektion och objektlösning. Använd inte det vardagliga *kamerarum*. |
 | object space | objektrymd | Objektets lokala koordinatrymd, bland annat för bildprojektion och normalmappning. Använd inte *objektrum*. |
@@ -695,7 +695,7 @@ Senast uppdaterad: 2026-11-09.
 | data path | datasökväg | RNA-sökväg till en egenskap; behåll Python-identifierare och bokstavliga sökvägsuttryck oförändrade. |
 | transform space | transformationsrymd | Koordinatrymd som används för positions-, rotations- eller skaltransformering. |
 | space transform | rymdtransformering | FBX-importens och -exportens omvandling mellan koordinatrymder. Skriv inte *rumstransformering*. |
-| clipping plane | klippningsplan | Etablerad svensk CAD-/grafikterm. Använd inte *klippplan*, eftersom den formen får tre p i följd. |
+| Clip Planes / clipping plane (3D-vy och Line Art) | klippningsplan | Etablerad svensk CAD-/grafikterm för RegionView3D och Grease Pencil Line Art. Använd inte *klippplan*, eftersom den formen får tre p i följd. |
 | wireframe | trådram | Befintligt svenskt Blender-UI-namn. Skriv *trådramsläge* för *wireframe mode*. |
 | shape key | formnyckel | Etablerad term i Blenders TBX-ordlista och UI. |
 | Shape Key Editor | formnyckelredigerare | Redigeraren för formnycklars åtgärder och nyckelbildrutor. |

@@ -13378,3 +13378,20 @@ innehåller en radgranskad post med SHA-256
 konsistenskontroll och Gitleaks passerade. Hunspell-sv hittar inga stavfel i
 den svenska måltexten. Filen är redo för manuell import; importresultatet är
 inte verifierat.
+
+## Batch 1 403 — klippningsplan
+
+En senare sammansättningsbatch hade ersatt **klippningsplan** med
+*beskärningsplan* för RegionView3D och Grease Pencil Line Art. Det bröt mot
+den redan dokumenterade CAD-/grafiktermen och den tidigare granskade UI-batchen
+632. Tre strängar återställs till *klippningsplan*, inklusive den fullständiga
+hjälptexten *när- eller fjärrklippningsplanet*. Kameraavgränsning kan fortsatt
+ha den separata kontexttermen *beskärningsplan*.
+
+`blender-ui-sv-reviewed-batch-1403-clipping-plane-regression-20261109.po`
+innehåller tre radgranskade poster med SHA-256
+`fb7c1e7e6580794dff15ad69a4a9df1726223cc9a7f932a77b586ef93dc3c6d2`.
+`msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
+konsistenskontroll och Gitleaks passerade. Hunspell-sv flaggar endast PO- och
+källtextmetadata. Filen är redo för manuell import; importresultatet är inte
+verifierat.
