@@ -3731,6 +3731,15 @@ diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 Ingen Weblate-import är verifierad; batchen är lokalt färdig och redo för
 manuell import.
 
+## Terminologi — Fill Solver
+
+Termbasposten för `Fill Solver` rättades från den felaktiga uppmaningen
+*Fyll i lösaren* till den tekniska inställningsetiketten *Fyllningslösare*.
+Den används för fyllning i kurvor, masker och Grease Pencil och följer den
+kontextgranskade UI-exporten. Uppdateringen är publicerad i
+`swedish-foss-terminology`-commit `857cc9f` och kräver ingen ytterligare
+UI-import.
+
 ## Batch 1 290 — geometri- och bildrymd
 
 Batch 1 290 normaliserar sex Blender-kontexter där *geometry space* och
