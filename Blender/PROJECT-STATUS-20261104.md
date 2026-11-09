@@ -13807,3 +13807,15 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade; Hunspell-sv och svlang
 kontrollerades enligt ovan. Batchen är lokalt arkiverad och väntar på manuell
 import.
+
+## Batch 1 447 — hörnpunktsgrupp
+
+Constraint-hjälptexten använder nu **hörnpunktsgrupp** i stället för det
+onödiga engelska lånet *vertexgrupp*, i linje med övriga Blender-strängar.
+
+`blender-ui-sv-reviewed-batch-1447-vertex-group-terminology-20261109.po`
+innehåller en granskad post med SHA-256
+`ccacfa9431a2a56e37e424570070f5c40c0efaf4a9bd71349baa87a0fb188476`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv saknar den korrekta
+sammansättningen och svlang felmarkerar satsens V2-följd; båda signalerna är
+granskade. Batchen är lokalt arkiverad och väntar på manuell import.
