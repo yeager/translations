@@ -13595,6 +13595,21 @@ innehåller två granskade poster med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 439 — primitiv-, ljud- och stereoformat
+
+Tre synliga UI-etiketter följer nu den etablerade Blenderterminologin:
+*Add Ico Sphere* är **Lägg till Icosfär**, mixningens *Sample format* är
+**Ljudsamplingsformat**, och bildformatets *Stereo 3D Format* är
+**Stereoskopiskt 3D-format**.
+
+`blender-ui-sv-reviewed-batch-1439-primitive-audio-stereo-terminology-20261109.po`
+innehåller tre granskade poster med SHA-256
+`dc0ee4ee64ea45ce3f4fb626d159c0ea91b7b031c0be38e42947380f79fead62`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+*Icosfär* och *ljudsamplingsformat* som ovanliga allmänspråkliga ord, men
+båda är fastställda Blendertermer. Batchen är lokalt arkiverad och väntar på
+manuell import.
+
 ## Batch 1 435 — Icosfär
 
 Den triangulerade sfärprimitiven är nu konsekvent **Icosfär** i Geometry
