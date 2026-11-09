@@ -34,6 +34,13 @@ koordinatkontext: *Displacement Space*, objekt- och tangentrymd använder
 commit \`237e9f2\`; den skapar ingen ny UI-import eftersom den lokala
 referensexporten redan har de godkända formuleringarna.
 
+Sex fler termbasposter synkroniserades med den kontextgranskade UI-exporten:
+svensk gemen stil för *online*, meningar och importmetod, den idiomatiska
+egenskapsbeskrivningen för osparade ändringar, attributets datatyp,
+oktaedriska ben och SI-enheten *kelvin*. Uppdateringen är publicerad i
+\`yeager/swedish-foss-terminology\` som \`41499e2\` och kräver ingen
+ytterligare UI-import.
+
 ## Batch 1 333 — resurs i skriptets hyll-ID
 
 Hjälptexten för `AssetShelf.bl_idname` beskriver en resurs som får ett
