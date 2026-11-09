@@ -13236,3 +13236,16 @@ sex radgranskade poster med SHA-256
 `c53b6b0c707ab6a0980a9abf89644a2ee03f10937603fd7ce28833fd752a02b0`.
 `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
 Filen är redo för manuell import; importresultatet är inte verifierat.
+
+## Batch 1 395 — duplicera nyckelbildrutor
+
+Action- och grafredigerarens variant av *Duplicate Keyframes* hade den
+förkortade formen *nyckelrutor*. Den identiska kommandotexten i den andra
+UI-kontexten och projektets terminologi använder **nyckelbildrutor**, vilket
+är den entydiga Blender-termen. Den avvikande dubbletten normaliseras.
+
+`blender-ui-sv-reviewed-batch-1395-duplicate-keyframes-20261109.po` innehåller
+en radgranskad post med SHA-256
+`e68d0feaa1ac850dc1ad98f0891a8081eae6cc33cdad3858a4b9233a2155cab7`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
+Filen är redo för manuell import; importresultatet är inte verifierat.
