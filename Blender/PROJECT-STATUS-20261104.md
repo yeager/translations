@@ -13395,3 +13395,17 @@ innehåller tre radgranskade poster med SHA-256
 konsistenskontroll och Gitleaks passerade. Hunspell-sv flaggar endast PO- och
 källtextmetadata. Filen är redo för manuell import; importresultatet är inte
 verifierat.
+
+## Batch 1 404 — remsa/remsor
+
+Två meddelanden från keyframing-koden innehöll ett mjukt bindestreck i
+*rem­sor*. Ordet har ingen konsonantföljd som kräver avstavningsmarkering och
+tecknet kan synas eller störa sökning och stavningskontroll. Former med
+`strip(s)` skrivs därför läsbart som *remsa/remsor*.
+
+`blender-ui-sv-reviewed-batch-1404-strip-plural-cleanup-20261109.po`
+innehåller två radgranskade poster med SHA-256
+`5785552389300000f9a532d0ab53bef35d7891e6d32e358c6845673b50cbb22f`.
+`msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
+konsistenskontroll, Hunspell-sv och Gitleaks passerade. Filen är redo för
+manuell import; importresultatet är inte verifierat.
