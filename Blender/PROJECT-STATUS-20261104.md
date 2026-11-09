@@ -4633,6 +4633,17 @@ innehåller tre granskade poster med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 511 — F-kurvors skjut/dra-kommando
+
+Kommandonamnet för *Push Pull Keyframes* använder nu den idiomatiska formen
+**Skjut/dra nyckelbildrutor**, utan det krystade bindestrecksförledet.
+
+`blender-ui-sv-reviewed-batch-1511-fcurve-push-pull-20261110.po` innehåller
+en granskad post med SHA-256
+`44359e1ef68d72fa0990e4dff1f62df89a963b66e8ea61aa735959a42cf5f3e5`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
