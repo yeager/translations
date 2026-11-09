@@ -12565,6 +12565,20 @@ SHA-256 är
 redo för manuell Blender Translate-import och ligger långt under 1 000
 strängar; något importresultat för dess poster är ännu inte verifierat.
 
+## Batch 1 369 — rendering i renderingsflödet
+
+Tre Shader Editor-beskrivningar använde *återgivning* trots att de beskriver
+Blenders generella renderingsprocess. De normaliseras till *rendering*:
+Principled Hair BSDF, Principled BSDF och Material Output. Den typografiska
+inställningen *Text Rendering* lämnas medvetet som *Textåtergivning*, där
+ordet har en annan, korrekt betydelse.
+
+`blender-ui-sv-reviewed-batch-1369-rendering-terminology-20261109.po`
+innehåller tre radgranskade poster. `msgfmt`, l10n-lint, svlang,
+konsistenskontroll, källmatchning och Gitleaks passerade. Hunspell-sv gav
+endast förväntade träffar i engelska källsträngar och PO-metadata. Deltafilen
+är redo för manuell import; importresultatet är inte verifierat.
+
 ## Batch 1 364 — Dope Sheet-termer
 
 Fyra återstående synliga formuleringar blandade den engelska arbetsbeteckningen
