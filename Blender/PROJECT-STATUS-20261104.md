@@ -3740,6 +3740,18 @@ kontextgranskade UI-exporten. Uppdateringen är publicerad i
 `swedish-foss-terminology`-commit `857cc9f` och kräver ingen ytterligare
 UI-import.
 
+## Batch 1 334 — Visningstyp
+
+Den generella UI-etiketten `Display Type` rättas från det engelska lånordet
+*Displaytyp* till *Visningstyp*. Källsträngen används för objekt, riggskelett,
+3D-vy samt import- och exportdialoger; den avser hur innehållet visas, inte en
+teknisk display-enhet. Deltafilen
+`blender-ui-sv-reviewed-batch-1334-display-type.po` innehåller en post.
+
+`msgfmt`, l10n-lint, svlang och Hunspell passerade. Termbasen uppdaterades och
+pushades i `swedish-foss-terminology`-commit `4ca71d5`. Weblate-import är inte
+verifierad; batchen är lokalt redo för manuell import.
+
 ## Batch 1 290 — geometri- och bildrymd
 
 Batch 1 290 normaliserar sex Blender-kontexter där *geometry space* och
