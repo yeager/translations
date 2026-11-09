@@ -3749,8 +3749,9 @@ teknisk display-enhet. Deltafilen
 `blender-ui-sv-reviewed-batch-1334-display-type.po` innehåller en post.
 
 `msgfmt`, l10n-lint, svlang och Hunspell passerade. Termbasen uppdaterades och
-pushades i `swedish-foss-terminology`-commit `4ca71d5`. Weblate-import är inte
-verifierad; batchen är lokalt redo för manuell import.
+pushades i `swedish-foss-terminology`-commit `4ca71d5`; Blender-TM synkades i
+`swedish-tm`-commit `5de1c8e`. Weblate-import är inte verifierad; batchen är
+lokalt redo för manuell import.
 
 ## Batch 1 290 — geometri- och bildrymd
 
