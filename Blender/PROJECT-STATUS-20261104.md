@@ -4395,6 +4395,19 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 489 — utjämning för F-kurvor
+
+F-kurvornas *easing* använder den etablerade Blender-termen **utjämning**, inte
+*lättnad*.
+
+`blender-ui-sv-reviewed-batch-1489-easing-terminology-20261109.po` innehåller
+två granskade poster med SHA-256
+`a60346950331664fff402a7ee31c0c2b4a17569c6c21b6d9e3d99d4a2a19a2ec`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv saknar den korrekta
+sammansättningen **F-kurvsegmenten**, och svlang markerar den korrekta relativa
+satsen som möjlig V2-avvikelse. Batchen är lokalt arkiverad och väntar på
+manuell import.
+
 ## Batch 1 488 — byt namn på flera
 
 Åtgärdsetiketten **Byt namn på flera** är tydligare och idiomatiskt svensk än
