@@ -4502,6 +4502,19 @@ granskade poster med SHA-256
 endast etablerade Blender-termer eller en korrekt imperativ konstruktion.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 501 — cykliskt läge i delad UI-sträng
+
+Strängen *Toggle Cyclic* används både för kurvor och maskverktyget. Den
+kurvspecifika formuleringen i batch 1 500 ersätts därför med den generella
+och korrekta UI-formen **Växla cykliskt läge**. Batch 1 501 ska användas
+före batch 1 500 om båda ingår i en manuell import.
+
+`blender-ui-sv-reviewed-batch-1501-toggle-cyclic-context-20261109.po`
+innehåller en granskad post med SHA-256
+`8764e53284eeef73ded826ee53212b0c5d380453c085ceb3cc004749be1c00e5`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
