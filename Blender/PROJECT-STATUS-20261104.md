@@ -13854,3 +13854,15 @@ innehåller en granskad post med SHA-256
 `17770e94f7d8261f85eff9241a136c34eecc14cee5d25644fdec333ef8764849`.
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
+
+## Batch 1 451 — widgetsamling
+
+Rigify-hjälptexten använder bestämd form i satsen **i vilken samling
+widgetobjekten ska placeras**, vilket gör den fullständig och idiomatisk.
+
+`blender-ui-sv-reviewed-batch-1451-widget-collection-grammar-20261109.po`
+innehåller en granskad post med SHA-256
+`be1e4d4c15f9242b7859705da8894b2b83a9c3c4987698ea5999c8a79b230f53`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. svlang markerar den
+korrekta indirekta frågesatsen som möjlig V2-avvikelse; det är en falsk positiv.
+Batchen är lokalt arkiverad och väntar på manuell import.
