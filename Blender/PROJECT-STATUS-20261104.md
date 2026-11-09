@@ -7,6 +7,20 @@ Senaste lokala arbete: 9 november 2026.
 > men får inte ensam betraktas som bevis på att en tidigare batch saknas
 > upstream. Kontrollera alltid arkiverade deltafiler före ny ändring.
 
+## Batch 1 328 — Hair Dynamics deltatid
+
+Hair Dynamics beräknar varje simuleringssteg mot tidsintervallet *delta time*.
+Den tidigare felstavningen *deltattiden* rättas till den svenska bestämda
+formen *deltatiden*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1328-hair-dynamics-delta-time.po`
+innehåller en ändrad post och har SHA-256
+`1f587ecebe5eabc9c6e3746dcf888bfefcf8c5d5f8529b8fc6c9281d9fc14bb2`.
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Hunspell-sv
+markerar den korrekta tekniska sammansättningen `deltatiden`, som saknas i
+ordlistan. Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 327 — sRGB:s styckevisa kodning
 
 Färghanteringen beskriver sRGB IEC 61966-2-1 som en sammansatt, styckevis
