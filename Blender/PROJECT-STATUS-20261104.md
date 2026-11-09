@@ -13299,3 +13299,20 @@ konsistenskontroll och Gitleaks passerade. Hunspell-sv markerar bland annat
 den projektspecifika sammansättningen *Bézier-nyckelbildrutor*, men inga
 svenska stavfel identifierades. Filen är redo för manuell import;
 importresultatet är inte verifierat.
+
+## Batch 1 399 — enskild nyckelbildruta
+
+51 återstående etiketter, meddelanden och färgteman använde den fristående
+kortformen *nyckelbild* för en enskild Blender-keyframe. De omfattar bland
+annat infogning, redigering, Graph Editor, NLA och Grease Pencil och
+normaliseras till **nyckelbildruta** med korrekt bestämd form. Sammansatta
+facktermer som *nyckelbildskant* ligger utanför denna batch och ändras inte
+mekaniskt.
+
+`blender-ui-sv-reviewed-batch-1399-keyframe-singular-consistency-20261109.po`
+innehåller 51 radgranskade poster med SHA-256
+`0188d895e37f80a5655e0c38d22c431b8567c7c1b84bb8d0bd4ea70c5f1a5358`.
+`msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
+konsistenskontroll och Gitleaks passerade. Hunspell-sv markerar enbart bland
+annat projektnamnet *Grease Pencil*, NLA-termer samt metadata och källord.
+Filen är redo för manuell import; importresultatet är inte verifierat.
