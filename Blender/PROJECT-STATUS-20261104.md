@@ -13566,3 +13566,18 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv träffar enbart
 metadata, källtext och tekniska identifierare. Batchen är lokalt arkiverad
 och väntar på manuell import.
+
+## Batch 1 431 — verbet rendera
+
+Fem hjälptexter och kommandon där engelska *render* tidigare hade översatts
+med *återge* är normaliserade till **rendera**. De avser Blenders
+renderingsprocess, inklusive förhandsgranskning, hårshader och UI-text, inte
+en allmän återgivning av innehåll.
+
+`blender-ui-sv-reviewed-batch-1431-render-verb-normalization-20261109.po`
+innehåller fem granskade poster med SHA-256
+`b85cf6b721a0412c7347435ddd0bc0ec0c8072bf56411766670b7f83429ecb6f`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv godkände samtliga
+målspråksord. Svlangs V2-träff är en falsk positiv; satsen *så approximerar
+skuggningen* har korrekt svensk ordföljd. Batchen är lokalt arkiverad och
+väntar på manuell import.
