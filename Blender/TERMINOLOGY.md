@@ -428,6 +428,7 @@ Senast uppdaterad: 2026-11-09.
 | Grease Pencil frame | Grease Pencil-bildruta | Bildruta i ett Grease Pencil-lager; använd inte *ram* i animeringskontext. |
 | Grease Pencil drawing | Grease Pencil-ritning | Själva ritinnehållet som en Grease Pencil-bildruta refererar till. Använd *ritning*, inte den snävare betydelsen *teckning*. |
 | keyframe / breakdown / extreme | nyckelbildruta / mellanpose / ytterläge | Animeringsbildruta, mellanliggande pose respektive pose i en rörelses ytterläge. |
+| Pose Breakdowner / Breakdowner | mellanposverktyg | Verktyget skapar en mellanpose mellan omgivande nyckelbildrutor. Använd även *mellanposverktyg* i 3D-vyns verktygsnamn; förväxla det inte med en allmän uppdelare. |
 | pose segment (Sculpt) | poseringssegment | Segment som Pose Brush skapar från exempelvis en ytuppsättning. Det är inte ett *positionssegment*. |
 | moving hold / jitter keyframe | rörlig hållning / slumpad nyckelbildruta | Animeringslägen där bilden hålls under rörelse respektive där en utfyllnadsbildruta används vid animering på ettor. |
 | annotation frame | anteckningsbildruta | Bildruta som innehåller en anteckning; undvik *ram för anteckning*. |
