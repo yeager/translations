@@ -34,6 +34,19 @@ Termbasuppdateringen är publicerad i
 `yeager/swedish-foss-terminology` som commit `1ca3b0b`. Den ändrar inte någon
 ny UI-post och innebär inte i sig en verifierad Blender Translate-import.
 
+## Blender-TM: synkning av kontextgranskade UI-poster
+
+Blender-TM jämfördes mot de lokalt granskade UI-batcherna 1 214–1 352. Av 412
+unika deltafält avvek 29 från äldre TM-formuleringar. De synkroniserades till
+de kontextgranskade formerna, bland annat `Action-slot`, `rymd`,
+`kompositering` och `operatör`. Endast de 29 berörda PO-posterna och deras 29
+motsvarande TMX-segment ändrades; exportens befintliga projektmetadata
+bevarades.
+
+`scripts/validate.py`, `msgfmt`, diffkontroll och Gitleaks passerade.
+Uppdateringen är publicerad i `yeager/swedish-tm` som commit `6cd4475`. Den
+är minnesunderhåll och bevisar inte i sig en Blender Translate-import.
+
 Samma dag synkroniserades 94 kontextverifierade poster för Blenders
 Asset-familj mot den aktuella kontextgranskade exporten i
 \`yeager/swedish-foss-terminology\` (commit \`eb76823\`) och
