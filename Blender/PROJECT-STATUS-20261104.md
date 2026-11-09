@@ -3785,6 +3785,19 @@ med flera möjliga måltexter lämnades medvetet utanför, eftersom TM saknar
 Blenders specifika kontext. PO- och TMX-pariteten har validerats efter synken.
 Ändringen är pushad i `swedish-tm`-commit `30dcc9a`.
 
+## Batch 1 336 — märkning av data och kanter
+
+Två anglicismer ersätts: verbet *tagga* blir *märka* för Blenders interna
+datamärkning och *Taggade kanter* blir *Märkta kanter*. De tekniska
+katalognamnen `startup`, `add-ons`, `modules` och `presets` berörs inte.
+Deltafilen `blender-ui-sv-reviewed-batch-1336-data-and-edge-marking.po`
+innehåller två poster.
+
+`msgfmt`, l10n-lint, svlang, Hunspell, diffkontroll och Gitleaks passerade.
+Batchen är arkiverad och pushad i commit `c8275c98`; Blender-TM synkades i
+`swedish-tm`-commit `f16eb04`. Weblate-import är inte verifierad; batchen är
+lokalt redo för manuell import.
+
 ## Batch 1 290 — geometri- och bildrymd
 
 Batch 1 290 normaliserar sex Blender-kontexter där *geometry space* och
