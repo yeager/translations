@@ -13,12 +13,13 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 
 ## Verifierad manuell import 9 november 2026
 
-Den manuella Blender Translate-import som dokumenterats i arbetsloggen
-bearbetade 213 strängar: 111 uppdaterades, 102 hoppades över och inga saknades.
-Det bekräftar importens tekniska utfall för den uppladdade filen, men
-specificerar inte säkert vilka arkiverade batchar som ingick. Därför betraktas
-tidigare deltafiler fortfarande som möjliga dubbletter tills en ny export
-jämförs med dem.
+Två manuella Blender Translate-importer är dokumenterade i arbetsloggen. Den
+första bearbetade 213 strängar: 111 uppdaterades, 102 hoppades över och inga
+saknade. Den senare bearbetade 411 strängar: 242 uppdaterades, 169 hoppades
+över och inga saknades. Det bekräftar importernas tekniska utfall för de
+uppladdade filerna, men specificerar inte säkert vilka arkiverade batchar som
+ingick. Därför betraktas tidigare deltafiler fortfarande som möjliga dubbletter
+tills en ny export jämförs med dem.
 
 ## Termbasunderhåll: Action Blending
 
@@ -77,6 +78,23 @@ Fyra termbasposter för Geometry Nodes rättades från den engelska formen
 är *noduttag*; den aktuella UI-exporten använder den naturliga bestämda formen
 *uttaget*. Uppdateringen är publicerad i commit \`eb050d8\` och kräver ingen
 ytterligare UI-import.
+
+## Batch 1 353 — Cycles kärnoptimering och delat GPU-minne
+
+Cycles begär vid renderingsstart optimerade beräkningskärnor för den aktuella
+scenen. Fyra beskrivningar normaliseras till idiomatisk svenska: `sceninnehåll`
+blir *scenens innehåll*, den konkreta cacheformen blir *cachen*, och de korta
+statusbeskrivningarna använder *långsammast/snabbast rendering*. Hjälptexten
+för NVLink-funktionen förtydligas till att större scener kan rymmas när minnet
+fördelas mellan sammankopplade enheter i stället för att dupliceras.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1353-cycles-kernel-optimization.po`
+innehåller fyra ändrade poster och har SHA-256
+`b1754d337fabe699b0d0862c4647cc11435f3b441a1cc8d623dd3ca1e4e54839`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Hunspell-sv markerar endast tekniknamnet `NVLink`, vilket avsiktligt behålls.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad för just denna batch.
 
 ## Batch 1 352 — kompositerat resultat
 
