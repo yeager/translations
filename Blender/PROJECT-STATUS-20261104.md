@@ -4407,6 +4407,17 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 473 — Sample Curve-metod
+
+Sample Curve-nodens hjälptext använder det idiomatiska **Metod för att provta
+indata**, i stället för den felaktiga formen *samplade indata*.
+
+`blender-ui-sv-reviewed-batch-1473-sample-curve-method-20261109.po`
+innehåller en granskad post med SHA-256
+`8eca367f6ea5b69b861077b734d15d56cf18439d1b9cb4fc77035219d507d513`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 472 — List Length-element
 
 List Length-noden använder **element** för generiska värden i en lista, i
