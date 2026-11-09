@@ -13831,3 +13831,14 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
 den korrekta facktermen som sällsynt. Batchen är lokalt arkiverad och väntar på
 manuell import.
+
+## Batch 1 449 — miniatyrbilder
+
+Filbläddrarens hjälptext använder **miniatyrbilderna**, konsekvent med den
+övriga UI-terminologin, i stället för det otydliga *tumnaglarna*.
+
+`blender-ui-sv-reviewed-batch-1449-thumbnail-terminology-20261109.po`
+innehåller en granskad post med SHA-256
+`17770e94f7d8261f85eff9241a136c34eecc14cee5d25644fdec333ef8764849`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
