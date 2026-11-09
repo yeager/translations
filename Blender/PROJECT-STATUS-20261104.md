@@ -11862,6 +11862,20 @@ Importfilen `blender-ui-sv-reviewed-import-20261108-batches-1268-1270.po`
 samlar batch 1 268–1 270 i tre poster för manuell Blender Translate-import.
 Den är lokalt validerad men saknar fortfarande verifierat importresultat.
 
+## Batch 1 332 — resurshyllans huvudrad
+
+Batch 1 332 rättar regionetiketten *Asset Shelf Header* från den inkonsekventa
+formen *Tillgångshyllans huvud* till *Resurshyllans huvudrad*. Översättningen
+följer den etablerade termen *resurshylla* och skiljer UI-regionens huvudrad
+från en dokumentrubrik. Deltafilen
+`blender-ui-sv-reviewed-batch-1332-asset-shelf-header.po` innehåller en post
+och har SHA-256
+`47246cdfe33ae6896d933baaefdafbc268ccaa60bb47fdf2a121d70de18807b6`.
+
+`msgfmt`, l10n-lint, svlang, Hunspell-sv och Gitleaks passerade. Batchen är
+lokalt färdig och arkiverad för manuell Blender Translate-import; inget
+importresultat är ännu verifierat.
+
 ## Batch 1 271 — transformation och metaklot
 
 Batch 1 271 normaliserar två separata UI-kontexter enligt Blenders
