@@ -51,6 +51,21 @@ Fyra termbasposter för Geometry Nodes rättades från den engelska formen
 *uttaget*. Uppdateringen är publicerad i commit \`eb050d8\` och kräver ingen
 ytterligare UI-import.
 
+## Batch 1 350 — Action-slot för animationskanalbehållare
+
+Hjälptexten för `ActionChannelbag.slot` pekar ut vilken Action-slot som
+animationsdatan i behållaren hör till. Den tidigare formuleringen vände på
+relationen och lästes som om slotten innehöll data. Den rättas till en
+idiomatisk beskrivning av datans tillhörighet och följer projektets term
+*animationskanalbehållare* för `Animation Channel Bag`.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1350-action-channelbag-20261109.po`
+innehåller en ändrad post och har SHA-256
+`6ec59604a15083605ed0239c22b180ab96ea91618e3fdb38848e02000723e352`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks
+passerade. Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 333 — resurs i skriptets hyll-ID
 
 Hjälptexten för `AssetShelf.bl_idname` beskriver en resurs som får ett
