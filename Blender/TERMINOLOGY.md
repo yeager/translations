@@ -387,6 +387,7 @@ Senast uppdaterad: 2026-11-08.
 | Principled BSDF | Principiell BSDF | Synligt Blender-nodnamn. |
 | Image Texture | Bildtextur | Synligt Blender-nodnamn. |
 | Color Space | Färgrymd | Synlig Blender-inställning och teknisk fackterm. |
+| CrCb space | CrCb-färgrymd | Färgkoordinatrymd för Chroma Key-nodens vinkeljämförelse. Använd inte *CrCb-utrymme*. |
 | illuminant | illuminant | Standardiserad ljuskälla i färghantering; skriv exempelvis *vitpunkt för illuminanten D65*, inte *belysningsstyrka*. |
 | Filmic / AgX / ACES | behåll namn | Namn på Blenders och OCIO:s färgkodningar och visningstransformeringar; översätt endast den omgivande saktexten. |
 | display transform / view transform | visningstransformering | Färghanteringens tekniska transformering inför visning; undvik anglicismen *displaytransform*. |

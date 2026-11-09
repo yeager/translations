@@ -2,6 +2,21 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 319 — CrCb-färgrymd i Chroma Key
+
+Chroma Key-noden jämför vinkeln mellan färg och nyckelfärg i CrCb-färgkoordinater.
+Det allmänna *CrCb-utrymme* normaliseras därför till *CrCb-färgrymd*, i linje
+med Blenders etablerade färgrymdsterminologi.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1319-crcb-color-space.po` innehåller
+två ändrade poster och har SHA-256
+`21a17f79242a5f1aba2d6800ddde91c464a62796f0a969c32ed3d3d1f11d692d`.
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Hunspell-sv
+flaggar `CrCb-färgrymden` och `nycklas`; båda är väntade falska positiva
+(färgkoordinatförkortning respektive Chroma Key-nodens fackverb). Batchen är
+lokalt färdig och redo för manuell import; ingen Blender Translate-import är
+verifierad här.
+
 ## Batch 1 318 — normaliserade maskkoordinater
 
 Maskoperatorernas positionsparameter är en 0–1-normaliserad koordinat, inte
