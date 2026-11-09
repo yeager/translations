@@ -52,6 +52,15 @@ blender-ui-sv-reviewed-batch-1357-index-space-definiteness-20261109.po är
 lokal och klar för manuell import. Msgfmt, l10n-lint, svlang och Gitleaks är
 godkända.
 
+## Batch 1 358 — tangentmappning, visningsnod och världsrymd
+
+Fyra UI-poster återställs till etablerad Blender-terminologi: *keymap* blir
+*tangentmappning*, *Viewer Node* blir *visningsnod* och den aktuella
+referensrymden blir *världsrymden*. Deltafilen
+blender-ui-sv-reviewed-batch-1358-keymap-viewer-world-space-20261109.po är
+lokal och klar för manuell import. Msgfmt, l10n-lint, svlang och Gitleaks är
+godkända.
+
 ## Verifierad manuell import 9 november 2026
 
 Två manuella Blender Translate-importer är dokumenterade i arbetsloggen. Den
