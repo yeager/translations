@@ -13332,3 +13332,19 @@ innehåller 51 radgranskade poster med SHA-256
 konsistenskontroll och Gitleaks passerade. Hunspell-sv markerar enbart bland
 annat projektnamnet *Grease Pencil*, NLA-termer samt metadata och källord.
 Filen är redo för manuell import; importresultatet är inte verifierat.
+
+## Batch 1 400 — nyckelbildrutenummer
+
+Hjälptexten för Grease Pencil-modifierarens tidsförskjutning syftar på numret
+på en keyframe. Den tidigare sammansättningen *nyckelbildnummer* förlorar
+den etablerade huvudtermen *nyckelbildruta*. Den normaliseras därför till
+**nyckelbildrutenummer**, i linje med *nyckelbildrutetyp* och
+*nyckelbildruteintervall*.
+
+`blender-ui-sv-reviewed-batch-1400-keyframe-number-consistency-20261109.po`
+innehåller en radgranskad post med SHA-256
+`e4eb8bb504235d144c3b5b26026098ff9da3997ebdc5996bc27419d524b378a5`.
+`msgfmt`, l10n-lint, svlang (med och utan interpunktionskontroll),
+konsistenskontroll och Gitleaks passerade. Hunspell-sv markerar den långa,
+projektspecifika sammansättningen men inga svenska stavfel identifierades.
+Filen är redo för manuell import; importresultatet är inte verifierat.
