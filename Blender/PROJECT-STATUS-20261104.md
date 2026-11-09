@@ -13685,6 +13685,18 @@ innehåller fjorton granskade poster med SHA-256
 vissa projektspecifika sammansättningar som ovanliga, men inte som sakfel.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 452 — Freestyle-ändlock
+
+Freestyle-alternativet *Square cap* heter nu **Fyrkantigt ändlock**, i linje
+med närliggande *Butt cap* och *Round cap*. Den tidigare översättningen
+utelämnade huvudordet och var därför inkonsekvent.
+
+`blender-ui-sv-reviewed-batch-1452-freestyle-square-cap-terminology-20261109.po`
+innehåller en granskad post med SHA-256
+`c65e3079c4320f42bdb107f32d028715b745baba77b7031e047acb5c422b2e81`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Radgranskning — poster 4 001–5 760
 
 Fluiddomän, Freestyle, Grease Pencil, Gizmo, Actions, penslar, kameror,
