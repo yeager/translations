@@ -7,6 +7,21 @@ Senaste lokala arbete: 9 november 2026.
 > men får inte ensam betraktas som bevis på att en tidigare batch saknas
 > upstream. Kontrollera alltid arkiverade deltafiler före ny ändring.
 
+## Verifierad manuell import 9 november 2026
+
+Den manuella Blender Translate-import som dokumenterats i arbetsloggen
+bearbetade 213 strängar: 111 uppdaterades, 102 hoppades över och inga saknades.
+Det bekräftar importens tekniska utfall för den uppladdade filen, men
+specificerar inte säkert vilka arkiverade batchar som ingick. Därför betraktas
+tidigare deltafiler fortfarande som möjliga dubbletter tills en ny export
+jämförs med dem.
+
+Samma dag synkroniserades 94 kontextverifierade poster för Blenders
+Asset-familj till \`resurs\` i
+\`yeager/swedish-foss-terminology\` (commit \`eb76823\`) och
+\`yeager/swedish-tm\` (commit \`308b1c6\`). Ändringen är verktygsunderhåll,
+inte ett påstående om ytterligare import eller upstream-granskning.
+
 ## Batch 1 333 — resurs i skriptets hyll-ID
 
 Hjälptexten för `AssetShelf.bl_idname` beskriver en resurs som får ett
