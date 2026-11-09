@@ -13759,3 +13759,15 @@ innehåller en granskad post med SHA-256
 `7ba6e9e25a3b3e5a53757f433f4868c710bd4606271b07e8c1b9d7a6ff92e7ba`.
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
+
+## Batch 1 444 — attributets array-lagring
+
+I attributets lagringstyp används nu **Fält** för engelska *Array*. Det är
+programmeringstermen för en elementvis samling och kan inte vara **Matris**,
+som redan är en separat 4 × 4-datatyp i samma UI.
+
+`blender-ui-sv-reviewed-batch-1444-attribute-array-terminology-20261109.po`
+innehåller en granskad post med SHA-256
+`794a17a36aae64033ea65c382ace585c1305a2b975c64ab6a50b4895fb09929c`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
