@@ -12367,3 +12367,15 @@ SHA-256 är
 `msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Filen är
 redo för manuell Blender Translate-import och ligger långt under 1 000
 strängar; något importresultat för dess poster är ännu inte verifierat.
+
+## Samlad import — batch 1 343–1 348
+
+`blender-ui-sv-reviewed-manual-import-20261109-batches-1343-1348.po` ersätter
+samlad import 1 343–1 347 när en enda importfil önskas. Den innehåller sex
+unika, radgranskade och ännu inte individuellt verifierade poster; äldre
+samfiler ligger kvar oförändrade som arkivunderlag. SHA-256 är
+`229865630748284df6c4783a1db3a44978664e4e24c209057e0ffc173e5c64f1`.
+
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Filen är
+redo för manuell Blender Translate-import och ligger långt under 1 000
+strängar; något importresultat för dess poster är ännu inte verifierat.
