@@ -2,6 +2,10 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+Projektets aktualitet är verifierad 9 november 2026: Blender 5.2 LTS
+släpptes den 14 juli 2026 enligt Blenders officiella releasesida. Projektet
+uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
+
 > Källexporten `blender-ui-ui-sv (5).po` är äldre än flera manuellt importerade
 > deltor. Den får användas för kontext och för att skapa nya, unika ändringar,
 > men får inte ensam betraktas som bevis på att en tidigare batch saknas
