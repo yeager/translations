@@ -11876,6 +11876,20 @@ och har SHA-256
 lokalt färdig och arkiverad för manuell Blender Translate-import; inget
 importresultat är ännu verifierat.
 
+## Batch 1 333 — resurshyllans ID-beskrivning
+
+Batch 1 333 normaliserar den återstående *asset*-referensen i
+`AssetShelf.bl_idname`: *tillgången* blir *resursen*, i linje med synliga
+Blender-etiketter som *resurshylla* och *resursbibliotek*. Kodnamn som
+`OBJECT_AST_hello` och `bl_idname` lämnas naturligtvis oförändrade.
+Deltafilen `blender-ui-sv-reviewed-batch-1333-asset-shelf-id.po` innehåller en
+post och har SHA-256
+`14c2332119a67b08434c6ec2ef088f06c4fcf10bb894d0d2aae1046a5e631813`.
+
+`msgfmt`, l10n-lint, svlang, Hunspell-sv och Gitleaks passerade. Batchen är
+lokalt färdig och redo för manuell Blender Translate-import; inget
+importresultat är ännu verifierat.
+
 ## Batch 1 271 — transformation och metaklot
 
 Batch 1 271 normaliserar två separata UI-kontexter enligt Blenders
