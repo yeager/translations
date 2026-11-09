@@ -951,8 +951,6 @@ Senast uppdaterad: 2026-11-08.
 | Geometry Nodes | geometrinoder | Blenders nodbaserade geometriarbetsflöde; svensk sammansättning. |
 | Grease Pencil stroke | Grease Pencil-streck | Synlig ritad linje i Grease Pencil, inte *slag* eller *stroke*. |
 | Annotation / Grease Pencil stroke | streck | Använd *streck* för det ritade resultatet i Annotation- och Grease Pencil-data. *Penseldrag* används bara när användarens penselhandling uttryckligen avses. |
-| Action (animation data type) | Action | Formellt Blender-namn för ett animationsdatablock. Behåll *Action* när datatypnamnet, ett API-namn eller en synlig datablocksetikett avses. |
-| Action slot | åtgärdsslot | En slot är en post i en Actions animationsdata. Använd sammansättningar som *åtgärdsslot*, *åtgärdsslothandtag* och *åtgärdsslotar*. Behåll *Action* när det är ett synligt API- eller datablocksnamn, men översätt den tekniska datastrukturen *Action slot*. |
 | bevel modifier | avfasningsmodifierare | Modifierare som rundar av meshens kanter och hörnpunkter. |
 
 | node socket / context socket | noduttag / kontextuttag | Anslutningspunkt för in- eller utdata i en Blendernod; i en operator är *context socket* det uttag som den aktuella kontexten avser. Använd inte *sockel*, som avser fysisk hårdvara. |
