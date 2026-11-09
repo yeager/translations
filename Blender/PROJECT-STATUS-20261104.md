@@ -2,6 +2,19 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 317 — spårningsrymd i Compositor
+
+Track Position-noden returnerar en markörs position och hastighet relativt
+rörelsespårningens nollpunkt. Termen avser en koordinatdomän och normaliseras
+därför från *spårningsutrymme* till *spårningsrymd*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1317-tracking-space.po` innehåller
+en ändrad post och har SHA-256
+`7e4ed75018cd1ed22139d34333807ea3e8ce49bcb5d2a39aeb536960ba17a238`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 316 — global visningsrymd för Spin och Screw
 
 Spin- och Screw-operatorerna anger axel och centrum som globala
