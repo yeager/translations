@@ -13595,6 +13595,19 @@ innehåller två granskade poster med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 435 — Icosfär
+
+Den triangulerade sfärprimitiven är nu konsekvent **Icosfär** i Geometry
+Nodes och 3D-vyn. Formen följer Blenders svenska manual och skrivs utan
+bindestreck.
+
+`blender-ui-sv-reviewed-batch-1435-icosphere-terminology-20261109.po`
+innehåller två granskade poster med SHA-256
+`3e4b40a57e799a600322dab15c22c73446af93944460ce56077e7455a5025ccc`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+*icosfär* som ovanlig projektterm; den verifieras mot Blenders svenska
+manual. Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 434 — transformation
 
 Action-slotarnas *Transform channel* och två relaterade hjälptexter använder
