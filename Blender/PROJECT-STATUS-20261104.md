@@ -4515,6 +4515,20 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 502 — kurvor mot yta
+
+Fem kurvverktygssträngar är förtydligade: kurvor fästs **mot ytan**,
+rotpunkten behåller samma term genom hela hjälpraden och riktningen för
+cyklisk yta uttrycks idiomatiskt. Transformkommandona använder dessutom
+svensk ordföljd för kurva respektive mask.
+
+`blender-ui-sv-reviewed-batch-1502-curve-surface-tools-20261110.po`
+innehåller fem granskade poster med SHA-256
+`5431d1bc14ce12347e5fbd61e0ae36b401b43c99f379d4d6b7d4d5b38ffd1c2d`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. Svlangs enda träff
+är en korrekt relativ bisats. Batchen är lokalt arkiverad och väntar på
+manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
