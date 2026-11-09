@@ -13793,3 +13793,17 @@ en granskad post med SHA-256
 `f06398025e28f25090113569fc3b6c6967542c25c6e4752c56a2db11c232427a`.
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
+
+## Batch 1 446 — bestämd form av mesh
+
+Den bestämda formen av **mesh** normaliseras till **meshen**, i linje med
+övriga Blender-termer som *meshcache* och *meshdeformering*. Hunspell-sv
+saknar sammansättningen och svlang markerar den som sällsynt, men båda är
+informationssignaler; UI-kontexten och projektterminologin avgör formen.
+
+`blender-ui-sv-reviewed-batch-1446-mesh-inflection-20261109.po` innehåller
+en granskad post med SHA-256
+`3ebe4100b209477ae50a47cf77c56ad670b5c2bbdbcac52e6f1c6681e6ceedc4`.
+`msgfmt`, l10n-lint och Gitleaks passerade; Hunspell-sv och svlang
+kontrollerades enligt ovan. Batchen är lokalt arkiverad och väntar på manuell
+import.
