@@ -4555,6 +4555,21 @@ fem granskade poster med SHA-256
 produktnamnen FBXNode, Root och LimbNode samt korrekta relativa bisatser.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 505 — FBX-exportens Actioner och utjämning
+
+Sex FBX-exportposter har förtydligats och normaliserats: varje *Action* blir
+en separat *AnimStack*, exporten skiljer normal- från kant- och ytutjämning,
+och deformerande ben samt Catmull-Rom-underindelning beskrivs med korrekt
+Blender-kontext. Formuleringen för modifierare använder semikolon i stället
+för strecktecken eftersom källan använder bindestreck.
+
+`blender-ui-sv-reviewed-batch-1505-fbx-export-20261110.po` innehåller sex
+granskade poster med SHA-256
+`1475e7e8018c2f44442ba2badc57674d2e51751506153c9f6cc679a1b3870366`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+korrekta Blender- och formatnamn, sammansättningar samt imperativ i relativa
+bisatser. Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
