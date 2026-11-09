@@ -12185,3 +12185,19 @@ och har SHA-256
 Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-sv kandidatsökning,
 diffkontroll och Gitleaks passerade. Batchen är lokalt färdig och arkiverad
 för manuell Blender Translate-import; inget importresultat är ännu verifierat.
+
+## Batch 1 342 — Action som datatyp
+
+Batch 1 342 rättar två hjälptexter som avser Blenders formella
+animationsdatatyp *Action*. Formen *åtgärden* ersätts därför med *Actionen*.
+Vanliga användaråtgärder, exempelvis tangent- och musåtgärder, ingår inte i
+ändringen. Deltafilen
+`blender-ui-sv-reviewed-batch-1342-action-datatype-terms.po` innehåller två
+poster och har SHA-256
+`7a191e5d71536faafb1e7d8f0af5aa461d8d94ea3ef72140c1cdbc97e33846f0`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-sv kandidatsökning,
+diffkontroll och Gitleaks passerade. Hunspell-sv markerar produktens formella
+egennamn *Actionen*, vilket är en medveten projektspecifik term. Batchen är
+lokalt färdig och arkiverad för manuell Blender Translate-import; inget
+importresultat är ännu verifierat.

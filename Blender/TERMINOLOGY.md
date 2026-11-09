@@ -990,7 +990,7 @@ Senast uppdaterad: 2026-11-08.
 | keying set | nyckeluppsättning | Namngiven uppsättning animerbara egenskaper som används vid infogning och borttagning av nyckelbildrutor. |
 | driver | drivrutin | Uttrycks- eller databaserad styrning av en egenskap; skilj från fysisk hårdvarudrivrutin. |
 | bone collection | bensamling | Samling som organiserar riggens ben. |
-| Action | Action | Blenderdatablock som lagrar animeringsdata; behåll *Action* i API- och UI-kontexten. |
+| Action | Action | Blenderdatablock som lagrar animeringsdata; behåll *Action* i API- och UI-kontexten. Böj som *Actionen* och *Actioner*. |
 | Action slot | Action-slot | Identifierar vilken uppsättning animeringskanaler i en Action som gäller för ett datablock. |
 | Action keyframe | Action-nyckelbildruta | Nyckelbildruta som hör till en formell Action. |
 | Action storage | Action-lagring | Tillfällig eller beständig lagring av en Action i animationsdatatypen. |
