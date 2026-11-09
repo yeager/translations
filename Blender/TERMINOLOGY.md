@@ -279,6 +279,7 @@ Senast uppdaterad: 2026-11-08.
 | geometric translation / Translate | förskjutning / förskjut | Geometrisk bild- eller koordinatförflyttning; inte språklig översättning. |
 | Function Node | funktionsnod | Nod som utför en matematisk, logisk eller geometrisk funktion. |
 | input type / input value | indatatyp / indatavärde | I nodsammanhang avser *input* ett indatauttag eller dess värde. |
+| input object | indataobjekt | Objekt som fungerar som nodindata, exempelvis Geometry Nodes **Object Info**. Skriv *indataobjekt*, inte den felaktiga trunkeringen *indatobjekt*. |
 | float | flyttal | Numerisk datatyp. Skriv exempelvis *avrunda flyttalet uppåt*. |
 | float attribute value | flyttalsattributvärde | Attributvärde med Blenders numeriska datatyp *float*. Skriv ihop i API-nära UI-etiketter. |
 | float vector attribute value | flyttalsvektorattributvärde | Geometriattribut med flyttalsvektor; behåll sammansättningen i Blender-UI. |

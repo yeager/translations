@@ -7,6 +7,17 @@ Senaste lokala arbete: 9 november 2026.
 > men får inte ensam betraktas som bevis på att en tidigare batch saknas
 > upstream. Kontrollera alltid arkiverade deltafiler före ny ändring.
 
+## Batch 1 330 — Geometry Nodes-indataobjekt
+
+Geometry Nodes-noden **Object Info** läser geometri, position, rotation och
+skala från ett objekt som är indata till noden. Den trunkerade formen
+*indatobjekt* rättas till den korrekta sammansättningen *indataobjekt* i båda
+beskrivningarna av nodens transformationsläge.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1330-geometry-nodes-input-object.po`
+innehåller två ändrade poster. Batchen är lokalt färdig och redo för manuell
+import; ingen Blender Translate-import är verifierad här.
+
 ## Batch 1 329 — White Noise-indatafrö
 
 White Noise-noden beräknar ett slumpvärde från ett inmatat frö. Den felaktiga
