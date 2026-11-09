@@ -250,6 +250,7 @@ Senast uppdaterad: 2026-11-09.
 | 8-bit value | 8-bitarsvärde | Värdetyp i RNA/API-kontext. Skriv ihop med bindestrecket som i *8-bitarsvärde*. |
 | Byte Color | Bytefärg | Datatyp för färgattribut. Skriv ihop och behåll den tekniska typen *Byte*. |
 | mesh | mesh / meshar | Blenders datatyp och samlingstyp. Använd *mesh* i singular och *meshar* i plural; exempelvis *Huvudmesh*, *Samling av meshar*, *kubmesh* och *meshliknande*. Ersätt inte med *nät* eller *maskor*. |
+| Ico Sphere / Icosphere | Icosfär | Blenders triangulerade sfärprimitiv. Skriv den sammansatt, utan bindestreck, konsekvent i Geometry Nodes och 3D-vyn. |
 | mesh cache / mesh filter / mesh plane | meshcache / meshfilter / meshplan | UI-namn och tekniska sammansättningar för Blenders meshtyp. Skriv ihop dem och ersätt inte *mesh* med *nät*. |
 | box mesh / cuboid mesh | kuboidmesh | Mesh som genereras som en låda eller kuboid i Geometry Nodes. Skriv sammansättningen ihop; använd inte *kuboidnät*. |
 | mesh seam / mesh island / mesh instance | meshsöm / meshö / meshinstans | Tekniska delar och instanser av Blenders meshtyp. Skriv sammansättningarna ihop; använd inte *nätsöm*, *nätö* eller *nätinstans*. |
