@@ -12311,3 +12311,17 @@ innehåller en radgranskad post och har SHA-256
 markerar den avsiktliga projektspecifika termen `shader`; den är verifierad i
 den lokala Blender-terminologin. Deltafilen är redo för manuell import; dess
 eget importresultat är ännu inte verifierat.
+
+## Samlad import — batch 1 343–1 346
+
+`blender-ui-sv-reviewed-manual-import-20261109-batches-1343-1346.po` samlar
+fyra unika, radgranskade och ännu inte individuellt verifierade ändringar:
+cachekatalog för nedladdning, biblioteksåsidosättning och två kontextspecifika
+användningar av *shadernod*. Det är en deltafil med fyra poster, inte en
+helkatalog, och den ligger långt under importgränsen på 1 000 strängar.
+SHA-256 är
+`5ff0e712105aecbf3a49acd362f1b95fd172e3cc314df49c5271580748938ad2`.
+
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Filen är
+redo för manuell Blender Translate-import; inget importresultat för dess fyra
+poster är ännu verifierat.
