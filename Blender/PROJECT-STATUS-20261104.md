@@ -12573,6 +12573,18 @@ Hunspell-sv markerar projekt- och färgrymdsnamn, men ingen felstavning i de
 ändrade formuleringarna. Deltafilen är redo för manuell import och omfattas
 inte av något verifierat importresultat ännu.
 
+## Batch 1 363 — HDR-etiketter med nit
+
+Fyra återstående OCIO-etiketter för ACES använde `nits` trots samma svenska
+enhetspolicy som övriga HDR-etiketter. De normaliseras till `nit`; ACES,
+Rec.2100, HDR och färghanteringskontexten lämnas oförändrade.
+
+`blender-ui-sv-reviewed-batch-1363-hdr-unit-labels-20261109.po` omfattar fyra
+radgranskade poster och har SHA-256
+`15dd13a9a1448c8340b967abeb7f36a9fa834203e6c5984d025d2c54290d7e4c`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll, källmatchning och Gitleaks
+passerade. Den är redo för manuell import; importen är inte verifierad.
+
 ## Batch 1 349 — kompositeringsnoder och nodgrupper
 
 Tre UI-poster använde den oetablerade förkortningen *kompositnod* trots att
