@@ -2,6 +2,19 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 318 — normaliserade maskkoordinater
+
+Maskoperatorernas positionsparameter är en 0–1-normaliserad koordinat, inte
+ett vardagligt utrymme. Hjälptexten normaliseras därför från *normaliserat
+utrymme* till *normaliserade koordinater*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1318-normalized-mask-coordinates.po`
+innehåller en ändrad post och har SHA-256
+`21c69cc16b6a6a68da1037a6726ea02c9ec899198eb06bf61397e0850b142392`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 317 — spårningsrymd i Compositor
 
 Track Position-noden returnerar en markörs position och hastighet relativt

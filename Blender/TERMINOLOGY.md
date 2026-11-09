@@ -61,6 +61,7 @@ Senast uppdaterad: 2026-11-08.
 | global view space | global visningsrymd | Global koordinatrymd som används för exempelvis Spin- och Screw-operatorernas axel och centrum. Använd konsekvent *visningsrymd*, inte *vyutrymme* eller *visningsutrymme*. |
 | screen space | skärmrymd | Koordinatrymd baserad på den aktuella vyportens skärmplan. |
 | tracking space | spårningsrymd | Rörelsespårningens koordinatrymd med egen nollpunkt för markörpositioner och hastigheter. Använd inte *spårningsutrymme*. |
+| normalized space (mask coordinates) | normaliserade koordinater | Mask- och klippoperatorernas positionskoordinater, normalt inom bildens 0–1-intervall. Skriv inte *normaliserat utrymme*. |
 | 3D space | 3D-rymd | Den tredimensionella koordinatrymden i noder, vyportar och geometri. Använd inte *3D-utrymme* i denna betydelse. |
 | UV space | UV-rymd | UV-redigerarens tvådimensionella koordinatdomän. Använd *UV-rymd* vid jämförelse av längd eller area i UV-kartan; skilj från 3D-rymd, som avser den underliggande geometrin. |
 | compositing space | kompositeringsrymd | Koordinatdomänen för kompositörens enhetliga bildkoordinater. Projektets svenska manual använder *kompositering*; undvik därför *komponeringsutrymme*. |
