@@ -12579,6 +12579,29 @@ innehåller en radgranskad post med SHA-256
 passerade. Hunspell-sv markerar bara engelsk källtext och PO-metadata.
 Deltafilen är redo för manuell import; importresultatet är inte verifierat.
 
+## Verifierad import — 38 ändringar sedan 07:00
+
+Den 9 november bekräftades importen av
+`blender-ui-sv-reviewed-since-0700-20261109-complete-v2.po` i Blender
+Translate: **38 behandlade, 38 uppdaterade, 0 hoppade över och 0 saknade**.
+Detta verifierar uppladdningen av de 38 deduplicerade posterna i samlingsfilen;
+det är inte en generell markering av hela UI-katalogen som mänskligt granskad.
+
+## Batch 1 371 — sekvensredigerarscen
+
+Blenders manual beskriver *Sequencer Scene* som det särskilda scen-datablock
+som innehåller redigeringen i Videosekvensredigeraren. Fyra UI-poster växlade
+mellan *sekvenserscen*, *sekvensredigeringsscen* och den redan etablerade
+formen *sekvensredigerarscen*. De normaliseras till den senare formen.
+
+`blender-ui-sv-reviewed-batch-1371-sequencer-scene-terminology-20261109.po`
+innehåller fyra radgranskade poster med SHA-256
+`cdc05ab4d009f7d62f652e23c6aa77eb517ae6f4a00968b28efa099343954d14`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll, källmatchning och Gitleaks
+passerade. Hunspell-sv markerar bara engelsk källtext, API-namn och
+PO-metadata. Batchen är redo för manuell import; importresultatet är inte
+verifierat.
+
 ## Samlad import — ändringar sedan 07:00 den 9 november
 
 `blender-ui-sv-reviewed-since-0700-20261109-complete-v2.po` är en
