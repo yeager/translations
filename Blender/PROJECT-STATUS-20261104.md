@@ -4395,6 +4395,16 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 492 — klistra in drivrutin
+
+Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
+
+`blender-ui-sv-reviewed-batch-1492-paste-driver-20261109.po` innehåller en
+granskad post med SHA-256
+`3cf17eec39848dd1b825abaf796f7a242ec905f7adf7fd331df5f06a5192ec19`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 491 — tvinga bort
 
 Kommandot **Tvinga bort** använder svensk åtgärdsform i stället för det
