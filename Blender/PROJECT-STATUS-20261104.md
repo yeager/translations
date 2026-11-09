@@ -4407,6 +4407,18 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 476 — Sky Texture-ozon
+
+Sky Texture-hjälptexten har stavningsrättats från *stadsözon* till
+**stadsozon**.
+
+`blender-ui-sv-reviewed-batch-1476-sky-ozone-typo-20261109.po` innehåller en
+granskad post med SHA-256
+`d76e862391369098f459541d9fd4f2add4f4e03571add3581ac105f8b45a1c1d`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+den korrekta sammansättningen *stadsozon* som sällsynt.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 475 — Float Curve-ordval
 
 Float Curve-noden använder nu **Avbilda** och **mata ut**, konsekvent med
