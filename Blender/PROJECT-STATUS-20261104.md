@@ -4407,6 +4407,17 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 472 — List Length-element
+
+List Length-noden använder **element** för generiska värden i en lista, i
+stället för det alltför specifika *objekt*.
+
+`blender-ui-sv-reviewed-batch-1472-list-length-elements-20261109.po`
+innehåller en granskad post med SHA-256
+`3b695573dfedbb120407c5084b2361d5b50ecd383dd76569b55d00fe9de93443`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 471 — Filter List-element
 
 Filter List-noden använder **element** för generiska listelement, inte det
