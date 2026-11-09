@@ -5,6 +5,10 @@ granskning, inte en ersättning för strängens sammanhang: kontrollera alltid
 operator, panel, tooltip, Python-identifierare och närliggande strängar innan
 du ändrar en översättning.
 
+Använd em dash (—) endast när källsträngen själv innehåller em dash. I övriga
+fall väljs svensk interpunktion efter sammanhanget, vanligtvis kolon,
+semikolon eller parentes.
+
 Senast uppdaterad: 2026-11-09.
 
 ## Grundtermer

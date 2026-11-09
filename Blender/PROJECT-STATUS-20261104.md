@@ -13449,3 +13449,19 @@ konsistenskontroll, Hunspell-sv och Gitleaks passerade. l10n-lint passerade
 för deltan; verktyget returnerar kod 1 utan diagnostik för den stora sammanslagna
 katalogen, medan övriga helkatalogkontroller passerade. Deltan väntar på
 manuell import.
+
+## Batch 1 407 — terminologiska regressioner
+
+Den nya exporten har jämförts rad för rad mot den föregående granskade
+arbetskatalogen. Åtta säkra regressioner rättas: *Action-slotten* återställs
+i stället för det otydliga pronomenet, `keymap` och Blender-operator blir
+*tangentmappning* respektive *operatör*, och koordinatrymdsetiketterna använder
+grundformerna *rutnätsindexrymd* och *världsrymd*. Den villkorliga
+gizmo-hjälptexten bevarar booleska API-literalet `true`.
+
+`blender-ui-sv-reviewed-batch-1407-terminology-regressions-20261109.po`
+innehåller åtta radgranskade poster med SHA-256
+`2c84cc3c89a02bc2d7d95bd3d4aab40c89c0856eb17aeb4c284eec8ee03a0d03`.
+`msgfmt`, l10n-lint, svlangs konsistenskontroll och Gitleaks passerade.
+Hunspell-sv och svlangs frekvensanalys flaggar endast *gizmon*, som är den
+korrekt böjda Blender-termen i strängen. Deltan väntar på manuell import.
