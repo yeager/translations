@@ -4408,6 +4408,18 @@ innehåller en granskad post med SHA-256
 facktermen samt kodmönstret som ovanliga; detta är granskade informationssignaler.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 461 — slumpfrö
+
+Det delade Blender-fältet *Random Seed* är nu konsekvent **Slumpfrö**. Den
+tidigare termen *Slumptal* avvek från den etablerade benämningen och från
+fältets funktion som startvärde för en slumptalsgenerator.
+
+`blender-ui-sv-reviewed-batch-1461-random-seed-terminology-20261109.po`
+innehåller en granskad post med SHA-256
+`aed030ce3c0cadb654c271884d92e74b4ec3aa38e0314b10148ec8b385ec0894`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 459 — anpassningsmetod
 
 Den delade UI-rubriken *Fit Method* använder nu **Anpassningsmetod** i stället
