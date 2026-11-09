@@ -13249,3 +13249,16 @@ en radgranskad post med SHA-256
 `e68d0feaa1ac850dc1ad98f0891a8081eae6cc33cdad3858a4b9233a2155cab7`.
 `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
 Filen är redo för manuell import; importresultatet är inte verifierat.
+
+## Batch 1 396 — nyckelbildrutor i visningsåtgärder
+
+Två View3D-åtgärder för nästa respektive markerade keyframes använde
+kortformen *nyckelbilder*. Samma kommandon och animeringstermer använder
+annars **nyckelbildruta**. Operatöretiketterna normaliseras därför till
+*Till nästa nyckelbildruta* och *På markerade nyckelbildrutor*.
+
+`blender-ui-sv-reviewed-batch-1396-keyframe-label-consistency-20261109.po`
+innehåller två radgranskade poster med SHA-256
+`7c9f24418553b30941dc97b1f48b5a7a56af8f1b50bd7364f80652f29bda4469`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
+Filen är redo för manuell import; importresultatet är inte verifierat.
