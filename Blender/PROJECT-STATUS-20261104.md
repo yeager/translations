@@ -3760,6 +3760,11 @@ deltafilens minimala PO-huvud. Batchen är lokalt färdig och arkiverad för
 manuell Blender Translate-import; inget importresultat för just denna batch
 är verifierat.
 
+Tre motsvarande, strikt kontextbundna poster har lagts till i
+`swedish-foss-terminology` (commit `7e6aac6`). Den generiska
+översättningsminnesposten för *Slot Handle* ändrades inte, eftersom den saknar
+`ActionSlot`-kontext och används även för andra typer av slotar.
+
 ## Batch 1 335 — cache för fjärrresurser
 
 Katalognamnet *Nedladdningscachekatalogen* ersätts av den naturligare och mer
