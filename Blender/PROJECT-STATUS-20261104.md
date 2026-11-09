@@ -4407,6 +4407,17 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 471 — Filter List-element
+
+Filter List-noden använder **element** för generiska listelement, inte det
+för snäva Blender-begreppet *objekt*.
+
+`blender-ui-sv-reviewed-batch-1471-filter-list-elements-20261109.po`
+innehåller en granskad post med SHA-256
+`c3f0c8237415957f6f80409f769d4e3a8c8f778531c46e1739835b6cd1359b63`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 470 — Poisson-diskfördelning
 
 Poisson-disk-noden använder **Fördela** och det exakta fackordet
