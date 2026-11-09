@@ -13183,3 +13183,29 @@ konsistenskontroll och Gitleaks passerade. Hunspell-sv markerar den tekniska
 sammansättningen *bildruteintervallet* samt metadata och källord, men inga
 svenska stavfel identifierades. Filen är redo för manuell import;
 importresultatet är inte verifierat.
+
+## Batch 1 391 — målningsplats
+
+Åtgärden *Add Paint Slot* tillhör Blenders Texture Paint-arbetsflöde. Den
+tidigare formen *färgplats* är därför för snäv: det är en plats för målning,
+inte en plats som har färgen som objekt. Etiketten normaliseras till
+**målningsplats**, i linje med den närliggande UI-termen *Texture Paint Slot*.
+
+`blender-ui-sv-reviewed-batch-1391-paint-slot-20261109.po` innehåller en
+radgranskad post med SHA-256
+`612fc042970bd6d8b9777fd4860491fd021de27f93887bf28d63927d77675e93`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
+Filen är redo för manuell import; importresultatet är inte verifierat.
+
+## Batch 1 392 — nyckelbildrutetyp
+
+Blenders *Keyframe Type* avser typen för en keyframe, som i den svenska
+UI-terminologin konsekvent är en **nyckelbildruta**. Den förkortade formen
+*nyckelbildstyp* gör sambandet otydligt och ersätts av
+**nyckelbildrutetyp**.
+
+`blender-ui-sv-reviewed-batch-1392-keyframe-type-20261109.po` innehåller en
+radgranskad post med SHA-256
+`ac3bd1af89b6d96e29b1ac8b17f3643f2683f0e84dbaa20d251706c78dbe3c21`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks passerade.
+Filen är redo för manuell import; importresultatet är inte verifierat.
