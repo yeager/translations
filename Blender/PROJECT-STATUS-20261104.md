@@ -12254,3 +12254,18 @@ sammanslagna kopian. De kvarvarande l10n-lint-varningarna är under fortsatt
 manuell bedömning; hittills verifierade exempel är formel-/platshållartext,
 filnamnsexempel med *t.ex.* och avsiktliga dubbla fackord, inte säkra
 massändringar.
+
+## Batch 1 344 — biblioteksåsidosättning i Constraint
+
+En kvarvarande äldre form, *biblioteksöverskrivning*, rättas i RNA-hjälptexten
+för `Constraint.is_override_data`. Här avser *local override* uttryckligen
+Blenders **Library Override**-funktion, därför används den etablerade termen
+*lokal biblioteksåsidosättning* och den kortare hänvisningen
+*åsidosättningen* i följdsatsen.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1344-library-override-constraint.po`
+innehåller en radgranskad post och har SHA-256
+`edd2d6cee41652263297e846ffd281c6ee55ea7372dd3b31c260fe853c30e036`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks
+passerade för deltafilen. Den är redo för manuell import; dess eget
+importresultat är ännu inte verifierat.
