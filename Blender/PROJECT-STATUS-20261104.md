@@ -13595,6 +13595,20 @@ innehåller två granskade poster med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Fullständig lokal QA-snapshot — 2026-11-09
+
+Den aktuella lokala UI-exporten har kontrollerats med `msgfmt`, Gitleaks,
+l10n-lint, svlang och hunspell-sv. `msgfmt` och Gitleaks passerar. l10n-lint
+har 0 fel; dess kvarvarande varningar är granskade formatnamn, datumformat,
+medvetet källspråkslika produktnamn och svensk interpunktion. Svlang rapporterar
+konsekventa översättningar och inga skrivregelfel. Den enda anglicismträffen är
+de avsiktliga katalognamnen `startup`, `add-ons`, `modules` och `presets` i en
+skriptsökväg. Hunspell-sv används riktat: återstående träffar består främst av
+Blenders projektspecifika tekniska termer, identifikatorer och formatnamn.
+
+Snapshoten är en mekanisk och riktad terminologisk kvalitetskontroll, inte ett
+påstående om att varenda av katalogens strängar redan har manuellt radgranskats.
+
 ## Batch 1 442 — metaklot i plural och renderingsvy
 
 Datablock, filter och exporter använder nu pluralformen **metaklot** i stället
