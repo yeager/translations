@@ -13595,6 +13595,18 @@ innehåller två granskade poster med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 434 — transformation
+
+Action-slotarnas *Transform channel* och två relaterade hjälptexter använder
+nu **transformationskanal** och **transformationsvärde**, konsekvent med
+Blenders etablerade term *transformation*.
+
+`blender-ui-sv-reviewed-batch-1434-transformation-terminology-20261109.po`
+innehåller tre granskade poster med SHA-256
+`07bc497b7970dce83037ad3a40364503f6b79d024ea22ecea9cf8456c0e3670d`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 433 — teckensnitt
 
 Det synliga filtret för Blenders fontdatablock använder nu **Teckensnitt**,
