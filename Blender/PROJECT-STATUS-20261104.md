@@ -12953,3 +12953,29 @@ nuvarande måltext. `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
 passerade. De förväntade `msgfmt`-varningarna gäller bara minimal PO-metadata.
 Filen är långt under 1 000-strängarsgränsen och redo för manuell import;
 importresultatet är inte verifierat.
+
+## Batch 1 380 — ladda om remsor
+
+Sequencerns korta åtgärdsetikett hade formuleringen *Läs in remsor igen*.
+Övriga Blender-åtgärder, dess egen beskrivning och den närliggande etiketten
+*Reload Strips and Adjust Length* använder konsekvent *Ladda om remsor*.
+Den korta etiketten normaliseras därför till samma vedertagna UI-form.
+
+`blender-ui-sv-reviewed-batch-1380-reload-strips-20261109.po` omfattar en
+radgranskad post med kontexten `Operator`. SHA-256 är
+`2001ac1b802f7dec4520b30e1958aa73ad8410dd9058ceb08eb0bbabf82dd41c`.
+Källmatchning, `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
+passerade. Hunspell-sv rapporterar endast avsiktliga metadata- och källord.
+Filen är redo för manuell import; importen är inte verifierad.
+
+## Samlad import — batch 1 370–1 380
+
+`blender-ui-sv-reviewed-next-import-20261109-batches-1370-1380.po` ersätter
+den tidigare 1 370–1 379-filen vid en samlad manuell import. Den innehåller
+27 unika radgranskade poster och har SHA-256
+`400704612e4ddad45bca8e687832798e0ec810840999c718859acfae0d263384`.
+Samtliga 27 poster matchar den lokala källkatalogen och skiljer sig från dess
+nuvarande måltext. `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
+passerade; `msgfmt` varnar enbart för det minimala deltahuvudet. Filen är långt
+under 1 000 strängar och redo för manuell import. Importresultatet är inte
+verifierat.
