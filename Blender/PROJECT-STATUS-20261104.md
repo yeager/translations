@@ -12296,3 +12296,18 @@ en radgranskad post och har SHA-256
 saknar den korrekta projektspecifika sammansättningen `shadernoder`; den är
 manuellt verifierad mot Blenders terminologi. Deltafilen är redo för manuell
 import; något importresultat för just denna post är ännu inte verifierat.
+
+## Batch 1 346 — shadernoder i färgrymdshjälptext
+
+Färghanteringshjälptexten räknar upp tre konkreta Blender-nodtyper:
+kompositerings-, shader- och geometrinoder. Formen *skuggningsnoder* ersätts
+med *shadernoder*, eftersom det här är ett tekniskt namn på nodtypen och inte
+en beskrivning av renderingsprocessen.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1346-color-space-node-types.po`
+innehåller en radgranskad post och har SHA-256
+`1a692afd8f2bf17375aa3dc1608ed9706e0d409fd1a0a0480bd67539e87ec40b`.
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Hunspell-sv
+markerar den avsiktliga projektspecifika termen `shader`; den är verifierad i
+den lokala Blender-terminologin. Deltafilen är redo för manuell import; dess
+eget importresultat är ännu inte verifierat.
