@@ -4395,6 +4395,18 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 459 — anpassningsmetod
+
+Den delade UI-rubriken *Fit Method* använder nu **Anpassningsmetod** i stället
+för den otydliga formen *Passformmetod*. Strängen återanvänds för både
+texturmodifierare, kurvritning och sekvenserarens inpassning.
+
+`blender-ui-sv-reviewed-batch-1459-texture-fit-method-terminology-20261109.po`
+innehåller en granskad post med SHA-256
+`a86217ea80752a4af59ed80ee0e0c99bfd827f144060770f8751689e8fc0c8f2`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 454 — Overlay som blandningsläge
 
 Det återanvända blandningsläget *Overlay* är nu **Överlägg**, samma term som
