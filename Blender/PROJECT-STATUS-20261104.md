@@ -4407,6 +4407,18 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 467 — Cryptomatte Pick-utdata
+
+Cryptomatte-hjälptexten använder **Pick-utdata** konsekvent för det synliga
+uttaget `Pick`.
+
+`blender-ui-sv-reviewed-batch-1467-cryptomatte-pick-output-20261109.po`
+innehåller en granskad post med SHA-256
+`885ab0bae7cd6dacb51d2fa926eb88dd83bd42e6bfe1b1a2448ff82b9e294d26`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+det korrekta fackordet *mattningen* som sällsynt.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 466 — aktivt utfasat filmspår
 
 Den utfasade egenskapens hjälptext använder också **Aktivt spår**, konsekvent
