@@ -3795,6 +3795,9 @@ gav endast förväntade metadata-varningar för deltafilens minimala PO-huvud.
 Batchen är lokalt färdig och arkiverad för manuell Blender Translate-import;
 inget importresultat för just denna batch är verifierat.
 
+Den felaktiga Blender-posten i `swedish-foss-terminology` har uppdaterats med
+samma kontext och evidens i commit `0c37755`.
+
 ## Batch 1 335 — cache för fjärrresurser
 
 Katalognamnet *Nedladdningscachekatalogen* ersätts av den naturligare och mer
