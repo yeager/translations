@@ -529,7 +529,7 @@ Senast uppdaterad: 2026-11-09.
 | Density Mask (hair curves) | densitetsmask | Skalär mask som lokalt påverkar tätheten när hårkurvor skapas eller interpoleras. |
 | hair attachment / surface normal | hårinfästning / ytnormal | Vid hårgenerering beskriver detta hur hårkurvans rot fästs vid meshytans UV-koordinat och normal. |
 | clumping (hair particles) | klumpning | Samling av barnpartiklarnas hårstrån kring varandra. Använd *grad av klumpning* och *klumpningens form* för reglagen. |
-| kink (hair particles) | nyck | Periodisk förskjutning som formar barnpartiklarna som lock, våg eller fläta. Använd *nyck*, inte det missvisande *knäck*. |
+| kink / Kink Type (hair particles) | nyck / nycktyp | Periodisk förskjutning som formar barnpartiklarna som lock, våg eller fläta. Använd *nyck* och *nycktyp*, inte det missvisande *knäck*, *krökning* eller *krustyp*. |
 | guide index / guide map / guide mask | guideindex / guideindexkarta / guidemask | Datat som anger vilken guidekurva varje hårkurva använder. Skriv sammansättningarna ihop. |
 | Guide Group ID | guidekurvsgrupp-ID | Gruppidentifierare för Hair Nodes-guidekurvor. Skriv sammansättningen ihop och använd bindestreck före ID. |
 | main guide curve | huvudguidekurva | Den guidekurva vars index styr en interpolerad hårkurva. |

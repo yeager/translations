@@ -13056,3 +13056,30 @@ Samtliga poster matchar den lokala källkatalogen och skiljer sig från dess
 nuvarande måltext. `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
 passerade. Den är långt under gränsen på 1 000 strängar och redo för manuell
 import. Importresultatet är inte verifierat.
+
+## Batch 1 384 — Kink i partikelhår
+
+Blenders dokumentation beskriver *Kink* som formen på barnpartiklar i hår,
+med varianter som lock, våg och fläta. Projektets terminologi fastställer
+**nyck** för denna särskilda partikelterm. Två kvarvarande UI-etiketter med
+*krökning* respektive *krustyp* normaliseras därför till **nyck** och
+**nycktyp**. Övriga förekomster var redan korrekta och ändras inte.
+
+`blender-ui-sv-reviewed-batch-1384-particle-kink-terminology-20261109.po`
+innehåller två radgranskade poster med SHA-256
+`80a59079e36183a64fbd0a2d1345d47deaf4f81bd2172b9965407149067a48f4`.
+Källmatchning, `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
+passerade. Hunspell-sv markerar den projektspecifika sammansättningen
+*nycktyp* samt metadata och källord. Filen är redo för manuell import;
+importen är inte verifierad.
+
+## Samlad import — batch 1 370–1 384
+
+`blender-ui-sv-reviewed-next-import-20261109-batches-1370-1384.po` ersätter
+den samlade 1 370–1 383-filen vid en manuell import. Den innehåller 36 unika
+radgranskade poster och har SHA-256
+`e81046cbe681beef58818636fdb562dd4ccee09e1d233c92eea1bf6dee00fce5`.
+Samtliga poster matchar den lokala källkatalogen och skiljer sig från dess
+nuvarande måltext. `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
+passerade. Den är långt under gränsen på 1 000 strängar och redo för manuell
+import. Importresultatet är inte verifierat.
