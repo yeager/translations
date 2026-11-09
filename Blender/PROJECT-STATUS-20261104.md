@@ -4444,6 +4444,20 @@ tre granskade poster med SHA-256
 korrekta relativa bisatsen i hjälpraden som en möjlig V2-avvikelse. Batchen
 är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 497 — kameraberäkning och spårningsaxlar
+
+Kameralösningens och rekonstruktionsbuntarnas UI-formuleringar har
+normaliserats: **beräknade spår**, **lösarens nyckelbildruta** och
+**beräkna kamerarörelse**. X- och Y-axlar använder samma konstruktion som
+den valda axeln.
+
+`blender-ui-sv-reviewed-batch-1497-camera-solving-20261109.po` innehåller
+åtta granskade poster med SHA-256
+`e118c380a6a22ca93947b5d3830a69e9e6231be31cb0a3d6e290cbc5df77a337`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. Svlang markerar den
+korrekta relativa bisatsen om riktning som möjlig V2-avvikelse. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
