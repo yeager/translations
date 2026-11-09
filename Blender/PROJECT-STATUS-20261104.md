@@ -3877,6 +3877,19 @@ diffkontroll och Gitleaks. `svlang` markerar enbart tekniska
 sammansättningar och korrekta underordnade satser. Filen är arkiverad och
 väntar på manuell import.
 
+## Batch 1 420 — Grease Pencil-nyckelbildstyper
+
+Grease Pencil-operatörens *Breakdowns* är en Blender-typ för
+nyckelbildruta och normaliseras från den otydliga formen *mellanbildrutor*
+till **mellanposer**. Hjälptexten beskriver därmed korrekt att befintliga
+mellanposer kan uteslutas som ytterlägen vid interpolering.
+
+\`blender-ui-sv-reviewed-batch-1420-grease-pencil-keyframe-types-20261109.po\`
+innehåller två granskade poster. \`msgfmt\`, l10n-lint och Gitleaks passerade.
+Svlang klassar bara den korrekta projektspecifika termen *mellanposer* som
+ovanlig; Hunspell-sv träffar dessutom PO-metadata och engelska källsträngar.
+Filen väntar på manuell import.
+
 Batch 171 granskar sex Metaball-poster i datablocks-, filbläddrar- och
 animeringssammanhang. Den normaliserar den etablerade Blender-formen
 *metaboll* i sammansättningar som `metabolldatablock` och
