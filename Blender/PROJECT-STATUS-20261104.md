@@ -12926,3 +12926,30 @@ nuvarande måltext. `msgfmt`, l10n-lint, svlang, konsistenskontroll och
 Gitleaks passerade; standardvarningarna från `msgfmt` gäller enbart avsiktligt
 minimal PO-metadata. Filen omfattar långt färre än 1 000 strängar och är redo
 för manuell import. Importresultat för dessa 25 poster är inte verifierat.
+
+## Batch 1 379 — konsekvent Action-slot
+
+Två animationsbeskrivningar använde den avkortade formen *slotten* trots att
+de enligt källan avser en `action slot`. Blenders dokumenterade svenska UI-term
+är *Action-slot*, och därför används konsekvent *Action-slotten* även i löpande
+hjälptext.
+
+`blender-ui-sv-reviewed-batch-1379-action-slot-consistency-20261109.po`
+innehåller två radgranskade poster. SHA-256 är
+`0269015719393d1f09cd69b7ead0e0c6de9487f8c971aeef180d0c69e2f62777`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll, källmatchning och Gitleaks
+passerade. Hunspell-sv markerar endast PO-metadata och tekniska källord.
+Filen är redo för manuell import; importresultatet är ännu inte verifierat.
+
+## Samlad import — batch 1 370–1 379
+
+`blender-ui-sv-reviewed-next-import-20261109-batches-1370-1379.po` ersätter
+den samlade 1 370–1 378-filen om alla ännu ej importverifierade ändringar ska
+laddas upp tillsammans. Den innehåller 26 unika radgranskade poster och har
+SHA-256 `a2f5fd3785b36b40b490135c451c0bca24a8a1e527ba4cbabe45f275ce9eadbf`.
+
+Alla 26 poster matchar den lokala källkatalogen och skiljer sig från dess
+nuvarande måltext. `msgfmt`, l10n-lint, svlang, konsistenskontroll och Gitleaks
+passerade. De förväntade `msgfmt`-varningarna gäller bara minimal PO-metadata.
+Filen är långt under 1 000-strängarsgränsen och redo för manuell import;
+importresultatet är inte verifierat.
