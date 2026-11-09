@@ -4407,6 +4407,18 @@ granskade poster med SHA-256
 enbart kodidentifierarna `objects[name].plane_tracks.active`.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 478 — Rasterize-terminologi
+
+Geometrinodernas hjälptexter använder nu **rasterisera**, konsekvent med
+övrig Blender-UI, i stället för den felaktiga formen *rastrera*.
+
+`blender-ui-sv-reviewed-batch-1478-rasterize-terminology-20261109.po`
+innehåller två granskade poster med SHA-256
+`981867a944377505e735f545fcb5e1991d11e8c3b97f55b5c94425aa4d04b022`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+den etablerade facktermen *rasterisera* som sällsynt.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 477 — Checker Texture
 
 Texturnodens *Checker* har rättats från den felaktiga personbeteckningen
