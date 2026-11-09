@@ -43,6 +43,15 @@ blender-ui-sv-reviewed-batch-1356-cycles-rendering-speed-20261109.po är lokal
 och klar för manuell import; någon import har inte genomförts här. Msgfmt,
 l10n-lint, svlang och Gitleaks är godkända.
 
+## Batch 1 357 — indexrymder i Geometry Nodes
+
+Sex Geometry Nodes-hjälptexter syftar på den specifika referensrymden för
+voxel- och rutnätskoordinater. Bestämd form används därför konsekvent:
+*i indexrymden* och *i rutnätsindexrymden*. Deltafilen
+blender-ui-sv-reviewed-batch-1357-index-space-definiteness-20261109.po är
+lokal och klar för manuell import. Msgfmt, l10n-lint, svlang och Gitleaks är
+godkända.
+
 ## Verifierad manuell import 9 november 2026
 
 Två manuella Blender Translate-importer är dokumenterade i arbetsloggen. Den
