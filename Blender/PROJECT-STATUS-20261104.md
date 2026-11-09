@@ -12467,6 +12467,21 @@ innehåller en radgranskad post och har SHA-256
 passerade för deltafilen. Den är redo för manuell import; dess eget
 importresultat är ännu inte verifierat.
 
+## Batch 1 373 — återstående sekvensredigerarscener
+
+Tre återstående referenser till samma *Sequencer Scene*-datablock använde
+den oenhetliga formen *sekvensredigeringsscen* i en Workbench-inställning och
+två OTIO-felmeddelanden. De normaliseras till den dokumenterade UI-termen
+*sekvensredigerarscen*.
+
+`blender-ui-sv-reviewed-batch-1373-sequencer-scene-consistency-20261109.po`
+innehåller tre radgranskade poster med SHA-256
+`a0d5fd98c6ace441e1d1246b9e1e6b9a34adb540c7acdd4913333706d31acd66`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll, källmatchning och Gitleaks
+passerade. Hunspell-sv markerar endast engelsk källtext, API-namn och
+PO-metadata. Batchen är redo för manuell import; importresultatet är inte
+verifierat.
+
 ## Samlad import — batch 1 343–1 344
 
 `blender-ui-sv-reviewed-manual-import-20261109-batches-1343-1344.po` samlar
