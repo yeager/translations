@@ -2,6 +2,19 @@
 
 Senaste lokala arbete: 9 november 2026.
 
+## Batch 1 316 — global visningsrymd för Spin och Screw
+
+Spin- och Screw-operatorerna anger axel och centrum som globala
+visningskoordinater. De två inkonsekventa formerna *vyutrymme* och
+*visningsutrymme* normaliseras därför till *global visningsrymd*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1316-global-view-space.po`
+innehåller två ändrade poster och har SHA-256
+`24cbc082c663576cf73203857e5bc6fd8b543da6d884144291e6734d30d5fe69`.
+`msgfmt`, l10n-lint, svlang, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Batchen är lokalt färdig och redo för manuell import; ingen Blender
+Translate-import är verifierad här.
+
 ## Batch 1 315 — 3D-, UV- och UDIM-rymder
 
 Tre verktygsbeskrivningar avser uttryckligen koordinatdomäner: en
