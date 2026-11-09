@@ -1010,7 +1010,7 @@ Senast uppdaterad: 2026-11-08.
 | kernel optimization | kärnoptimering | Optimering av renderingskärnor i Cycles, inte operativsystemets kärna. |
 | intersection | skärningsberäkning | Strålspårningens beräkning av en träff mellan stråle och geometri. |
 | FriBidi | FriBidi | Egennamn på biblioteket; använd dess officiella skrivning. |
-| action blending | blandning av åtgärd | Blandar den aktiva åtgärdens resultat med NLA-stapeln. |
+| Action Blending | Action-blandning | Blandar den aktiva Actionens resultat med NLA-stapeln. Action är här ett Blender-datatypnamn, inte det generella ordet för åtgärd. |
 | NLA track | NLA-spår | Spår i Nonlinear Animation som organiserar animeringsremsor. |
 | motion path | rörelsebana | Visar ett bens eller objekts position över animeringens bildrutor. |
 | Dope Sheet | Dopeblad | Blenderredigerare för tidpunkter, nyckelbildrutor och animationskanaler. |
