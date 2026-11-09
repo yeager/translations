@@ -631,7 +631,8 @@ Senast uppdaterad: 2026-11-08.
 | Frame Node | ramnod | Nod som samlar andra noder visuellt. Skilj från *bildruta* i animations- och sekvenskontext. |
 | Shader Editor | shaderredigerare | UI-namn för nodredigeraren för shaders. Behåll facktermen *shader* och skriv sammansättningen ihop. |
 | Texture Node Editor | texturnodredigerare | UI-namn för nodredigeraren för texturer. |
-| compositing (process) | kompositering | Blenders nodbaserade bearbetning av renderat bildmaterial. Projektets svenska manual använder *kompositering*; använd därför *kompositeringsnodträd* och *kompositeringsnodgrupp*. |
+| compositing (process) | kompositering | Blenders nodbaserade bearbetning av renderat bildmaterial. Projektets svenska manual använder *kompositering*. I förklarande teknisk text kan sammansättningar som *kompositeringsnodgrupp* användas; se den separata UI-termen *kompositionsnodträd*. |
+| compositor node tree | kompositionsnodträd | Den svenska UI-katalogens etablerade namn för ett nodträd som används av Compositor. Skilj den konkreta strukturen *kompositionsnodträd* från processen *kompositering*; normalisera inte befintliga UI-etiketter till den längre processformen. |
 | compositing node group | kompositeringsnodgrupp | Nodgrupp som utför eller styr kompositering. Skilj den från miljön *Kompositör*; undvik den tvetydiga formen *kompositnodgrupp*. |
 | selection set | urvalsuppsättning | Namngiven samling av valbara element. |
 | delta location | deltaförflyttning | Extra förflyttning som läggs till ett objekts position. |
