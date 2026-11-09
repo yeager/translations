@@ -13697,6 +13697,21 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 453 — NDOF och interpolering
+
+NDOF-kommandonas ordföljd har normaliserats, så att exempelvis
+**Spara NDOF-vy 1** används. Tre felöversättningar av *easing* i
+kurvinterpoleringen har också ersatts med projektets etablerade **mjuk
+in-/utfasning** i stället för *lättnad*.
+
+`blender-ui-sv-reviewed-batch-1453-keymap-easing-terminology-20261109.po`
+innehåller nio granskade poster med SHA-256
+`13c25c8f725d3e7d292b37db7a3dd05a64f21f6fce37d887dcbc68625ad2c2a7`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+NDOF samt de korrekta facktermerna *fjärdegradig* och *femtegradig* som
+ovanliga; detta är granskade informationssignaler. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
 ## Radgranskning — poster 4 001–5 760
 
 Fluiddomän, Freestyle, Grease Pencil, Gizmo, Actions, penslar, kameror,
