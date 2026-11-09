@@ -4395,6 +4395,18 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 483 — samplingsintervall
+
+OpenEXR-hjälptexten använder **samplingsintervall**, inte det geografiska
+*samplingsområden*, för intervall av provvärden.
+
+`blender-ui-sv-reviewed-batch-1483-sample-ranges-20261109.po` innehåller en
+granskad post med SHA-256
+`82fadc09514db3b31659a7518ae9ae144720307aaf1fea248331f596516b2ea6`.
+`msgfmt`, l10n-lint, Hunspell-sv och Gitleaks passerade. svlang markerar bara
+formatnamnet **OpenEXR** som sällsynt. Batchen är lokalt arkiverad och väntar
+på manuell import.
+
 ## Batch 1 465 — aktiva filmspår
 
 Filmspårningens hjälptexter använder nu den korrekta betydelsen av *active*:
