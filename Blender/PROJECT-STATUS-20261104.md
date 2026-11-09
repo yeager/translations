@@ -12565,6 +12565,20 @@ SHA-256 är
 redo för manuell Blender Translate-import och ligger långt under 1 000
 strängar; något importresultat för dess poster är ännu inte verifierat.
 
+## Batch 1 370 — Action-kanalbehållarens syftning
+
+ActionChannelbags-beskrivningen avslutades med den överlastade formuleringen
+*avsedda för den slotten*. Eftersom *Action-slot* redan står i samma sats ger
+pronomenet *den* en tydligare och mer idiomatisk svensk referens utan att
+förändra Blenders term.
+
+`blender-ui-sv-reviewed-batch-1370-action-channelbag-pronoun-20261109.po`
+innehåller en radgranskad post med SHA-256
+`a1673a4fcb06ee390a4b25805d8b63cbc521d33637f2f3dc7276915aca2e5836`.
+`msgfmt`, l10n-lint, svlang, konsistenskontroll, källmatchning och Gitleaks
+passerade. Hunspell-sv markerar bara engelsk källtext och PO-metadata.
+Deltafilen är redo för manuell import; importresultatet är inte verifierat.
+
 ## Samlad import — ändringar sedan 07:00 den 9 november
 
 `blender-ui-sv-reviewed-since-0700-20261109-complete-v2.po` är en
