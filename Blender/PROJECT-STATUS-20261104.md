@@ -12156,3 +12156,19 @@ diffkontroll och Gitleaks passerade. Batchen är arkiverad och pushad i commit
 `265a0297`; TM-ändringen är pushad i `swedish-tm`-commit `31a85f8`.
 Ingen Weblate-import är verifierad; batchen är lokalt färdig och redo för
 manuell import.
+
+## Batch 1 340 — Action-slotars handtag och identifierare
+
+Batch 1 340 rättar fem återstående texter i Blenders Action-datamodell. Den
+formella typen skrivs konsekvent *Action-slot*, medan *Action Slot Handle*
+översätts till *Handtag för Action-slot*. Därmed undviks den krystade och
+inkonsekventa sammansättningen *Action-slothandtag*. Vanliga slotar i exempelvis
+material och noder omfattas inte.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1340-action-slot-handles.po`
+innehåller fem poster och har SHA-256
+`9eb9db22729203a2ded11e6732a1ea52cab8b699400a0ec47aa3e78796498a1e`.
+
+Kontrollerna `msgfmt`, l10n-lint, svlang, Hunspell-sv kandidatsökning,
+diffkontroll och Gitleaks passerade. Batchen är lokalt färdig och arkiverad
+för manuell Blender Translate-import; inget importresultat är ännu verifierat.
