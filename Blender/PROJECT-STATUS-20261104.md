@@ -3740,8 +3740,9 @@ Deltafilen `blender-ui-sv-reviewed-batch-1335-remote-asset-download-cache.po`
 innehåller en post.
 
 `msgfmt`, l10n-lint, svlang, Hunspell, diffkontroll och Gitleaks passerade.
-Batchen är arkiverad och pushad i commit `b566d5ef`. Weblate-import är inte
-verifierad; batchen är lokalt redo för manuell import.
+Batchen är arkiverad och pushad i commit `b566d5ef`; Blender-TM synkades i
+`swedish-tm`-commit `ede255b`. Weblate-import är inte verifierad; batchen är
+lokalt redo för manuell import.
 
 ## Terminologi — Fill Solver
 
