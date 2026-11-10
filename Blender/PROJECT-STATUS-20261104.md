@@ -4966,6 +4966,19 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 546 — spegla hörnpunktsgrupp
+
+Hjälptexten för spegling av hörnpunktsgrupp har delats upp i begripliga
+imperativsatser och har nu ett tydligt subjekt i bestämd form.
+
+`blender-ui-sv-reviewed-batch-1546-mirror-vertex-group-help-20261110.po`
+innehåller en granskad post med SHA-256
+`4d922b92bcdce6d80e1b6c951acdc0d3c97637d54bcd06b8f02bac03f206db41`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. svlang markerar
+imperativsatsernas ordföljd samt den etablerade Blender-termen
+**hörnpunktsgruppen**; båda är falska positiva. Batchen är lokalt arkiverad
+och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
