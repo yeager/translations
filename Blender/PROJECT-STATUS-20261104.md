@@ -22,6 +22,11 @@ kontrollerad. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade utan
 fel. Hunspell och svlang rapporterar endast projekt- och facktermer samt två
 falska V2-positiv; ingen import är verifierad.
 
+Blender-TM:n i `yeager/swedish-tm` har synkats med samma delta: **19** poster
+uppdaterades och den tidigare saknade `Glob`-posten lades till. PO- och
+TMX-filerna validerades med `msgfmt` respektive XML-kontroll, diffkontroll och
+Gitleaks före push. TM-uppdateringen är pushad i commit `ebb129a`.
+
 ## Verifierad Blender Translate-import — 229 ändringar sedan kl. 16
 
 Den samlade deltafilen
