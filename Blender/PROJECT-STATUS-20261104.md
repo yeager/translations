@@ -20,7 +20,9 @@ Action-slot. Tjugo tidigare granskade formuleringar återställs: bland annat
 Deltafilen `blender-ui-sv-reviewed-export8-reapply-20261110.po` är lokalt
 kontrollerad. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade utan
 fel. Hunspell och svlang rapporterar endast projekt- och facktermer samt två
-falska V2-positiv; ingen import är verifierad.
+falska V2-positiv. Deltafilen importerades manuellt i Blender Translate den
+10 november 2026: **20 av 20** strängar uppdaterades, **0** hoppades över och
+**0** saknades. Det här är verifierad upstream-import.
 
 Blender-TM:n i `yeager/swedish-tm` har synkats med samma delta: **19** poster
 uppdaterades och den tidigare saknade `Glob`-posten lades till. PO- och
