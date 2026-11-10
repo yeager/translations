@@ -11,6 +11,16 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > deltafiler. En deltafil räknas inte som importerad förrän importresultatet är
 > verifierat.
 
+## Batch 1 729 – hämta tillägg
+
+Två återstående UI-kommandon för nedladdning av tillägg använder nu
+**hämta** konsekvent med övriga Blender-gränssnittet, i stället för *ladda
+ner*. Datainläsning påverkas inte och använder fortsatt **läs in**. Deltafilen
+`blender-ui-sv-reviewed-download-verb-20261110.po` är lokalt kontrollerad.
+`msgfmt`, l10n-lint, diffkontroll, Hunspell, svlang och Gitleaks passerade
+utan anmärkning. Blender-TM:n är synkad och pushad i commit `414206e`. Ingen
+Blender Translate-import är ännu verifierad för batchen.
+
 ## Batch 1 728 – tilläggsförråd
 
 Trettioett UI-strängar för Blenders tilläggsförråd använder nu konsekvent
