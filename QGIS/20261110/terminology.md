@@ -65,7 +65,8 @@ Källor: QGIS egen [svenska dokumentation](https://docs.qgis.org/3.44/sv/docs/us
 | Unicode | Unicode | Teckenkodning och uttryck | Behåll egennamnet med versalt U. |
 | Unicode code | Unicode-kod | Uttryck och teckenfunktioner | Skriv med bindestreck. |
 | log messages panel | panelen Loggmeddelanden | Felsökning | Produktnamnet i panelrubriken behålls. |
-| plugin | insticksmodul | QGIS-tillägg | Använd ”plugin” endast om källan är ett egennamn. |
+| plugin | tillägg | QGIS användargränssnitt | `Insticksmodul` kan användas i teknisk dokumentation. Använd `plugin` endast om källan är ett egennamn. |
+| plugin installer | installerare för Python-tillägg | Pluginhanteraren | Använd verbform i dialogtiteln för installation från ZIP. |
 | plugin repository | centralkatalog | Pluginhanteraren | Etablerad i berörda QGIS-dialoger. Använd inte förråd i denna UI-kontext. |
 | invalid plugin | ogiltigt tillägg | Pluginhanteraren | Skilj från tillägg som endast är trasiga eller inkompatibla. |
 | experimental plugin | experimentellt tillägg | Pluginhanteraren | Varningstext, inte produktnamn. |
