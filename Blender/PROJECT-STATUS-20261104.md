@@ -3888,6 +3888,16 @@ fyra radgranskade poster med SHA-256
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 625 — objektursprung
+
+Hjälptexten för objektursprungets storlek nämner nu uttryckligen **ursprung**.
+
+`blender-ui-sv-reviewed-batch-1625-object-origin-display-20261110.po`
+innehåller en radgranskad post med SHA-256
+`f41ea14cf60ac28852f8d39764f4c6ace4fa8a97585344aed818a31247beced5`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
 ## Batch 1 624 — paneltema
 
 Tre temaegenskaper för paneler och menyer använder nu idiomatisk svensk
