@@ -11,6 +11,16 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 716 — fält och begränsningsbox
+
+Array-nodgruppens `array` använder **fält** i stället för *matris*, och dess
+3D-avgränsning använder **begränsningsbox**. Deltafilen
+`blender-ui-sv-reviewed-batch-1716-array-bounding-box-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks passerade utan fel. Hunspell och svlang rapporterade endast den
+sammansatta Blender-termen *referenskurvobjekt*. Ingen import är verifierad för
+denna batch.
+
 ## Batch 1 715 — kurvsegmentets grannpunkt
 
 Kurvsegmentets föregående granne använder nu det korrekta **grannpunkt** i
