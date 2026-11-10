@@ -61,6 +61,7 @@ Senast uppdaterad: 2026-11-10.
 | Cycles Procedural cache | Cycles Procedural-cachen | Särskild cache för Cycles procedurbaserade inläsning. |
 | Cycles / EEVEE | Cycles / EEVEE | Blenders egna renderare är produktnamn och lämnas oförändrade; sammansättningar skrivs exempelvis *Cycles-kurvor*. |
 | render / rendering / renderer | rendera / rendering / renderare | Använd för Blenders generella bildrenderingsprocess och dess UI: *fullständig rendering*, *renderad effekt*, *renderingsläge* och panelen **Textrendering**. Använd **återgivning** endast när källtexten uttryckligen avser reproduktion eller visning, utan att beteckna Blenders renderingsfunktion. |
+| Support (extern länk) | Support | Synlig länk till Blenders hjälp- och stödresurser. Behåll produktens internationella länktext; detta ska inte normaliseras till det interna statusordet *stöd*. |
 | Auto-Pack / auto-pack | automatisk paketering | Blenderfunktionen som bäddar in externa resurser i .blend-filen. Översätt synlig UI-text konsekvent som *automatisk paketering*; behåll bara API-egenskapen `use_autopack` och andra kodidentifierare oförändrade. |
 | nit / nits (HDR luminance) | nit | Ljusstyrkeenheten i OCIO-, ACES- och HDR-etiketter. På svenska används enhetsformen *nit* även efter tal: *1 000 nit*, inte *1 000 nits*. Färgrymds- och formatnamn lämnas oförändrade. |
 | object path | objektsökväg | Sökväg för ett objekt i exempelvis en Alembic-arkivfil. |
@@ -669,6 +670,7 @@ Senast uppdaterad: 2026-11-10.
 | alpha blending / alpha test | alfablandning / alfatest | Bildtomobjektens visningsmetoder. Lämna det korta UI-namnet *Alpha* som *alfa*. |
 | simulation cache | simuleringscache | Cache för bildrutor vid uppspelning av simuleringsnoder. |
 | simulation space | simuleringsrymd | Koordinatrymd där Geometry Nodes-simuleringen utvärderas; standarden är världsrymden. |
+| Pose (fristående UI-etikett) | ställning | Fristående etikett för en armaturställning. Skilj från Blender-typer och API-namn som `PoseBone`, och från den sammansatta arbetslägesetiketten *Pose Mode*. |
 | Pose Mode | poseringsläge | Arbetsläget för att posera en armatur. Använd även böjningen *i poseringsläget*, inte den inkonsekventa formen *poseläge*. |
 | armature space | armaturens koordinatrymd | Koordinatrymd för ett riggskelett och dess ben, bland annat i Geometry Nodes. Använd inte det vaga *armaturutrymme*. |
 | Pose Bone | posben | Ben i en armatur i poseringsläge. Skriv ihop även i sammansättningar, exempelvis *posbensfärg*. |
