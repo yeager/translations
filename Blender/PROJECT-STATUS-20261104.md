@@ -5232,6 +5232,16 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 588 — språklistans skiljetecken
+
+En andra post i språklistan hade ett em dash där källtexten använder
+bindestreck. Den följer nu källtexten: **Swahili - Kiswahili**.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1588-language-labels-20261110.po`
+väntar på manuell import. `msgfmt` och Gitleaks passerade; l10n-lint har
+enbart en informationsnotis om att språknamnet avsiktligt är identiskt med
+källtexten.
+
 ## Batch 1 587 — språklistans skiljetecken
 
 En post i språklistan använde felaktigt ett em dash, trots att källtexten har
