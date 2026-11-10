@@ -16534,3 +16534,11 @@ SHA-256 är `f48b6f25922dbbeca55c25ff747cca722e6c6d705f742fed53d1c82cac21a02a`.
 `msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 696 — Gizmo-fält
+
+Två Gizmo API-feltexter använder nu **fält** i stället för den felaktiga
+termen *matris* för engelska *array*. Deltafilens SHA-256 är
+`d90c37014e3164e30e81e15b719983bdae50794f24ea847a7446c0a89fa85e3d`.
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
