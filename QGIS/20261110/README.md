@@ -27,7 +27,7 @@ förutbestämda översättningar.
 
 ## Översättningsminne
 
-De verifierade QGIS-rättningarna finns i [yeager/swedish-tm](https://github.com/yeager/swedish-tm). Uppdateringen omfattar sju kontextfria QGIS-termer i `sv-qgis.po` och `sv-qgis.tmx`, samt 279 kontextbevarade granskningsposter med 284 segment i den separata QGIS-katalogen. Efter den verifierade Transifex-importen har 211 granskningsposter, som motsvarar 206 unika Transifex-strängar, status `upstream-import-verified`. En ytterligare sträng har status `upstream-import-accepted-pending-readback`, eftersom Transifex accepterade den men API-autentiseringen därefter returnerar HTTP 401 vid oberoende återläsning. Resterande 67 unika strängar har status `local-reviewed-pending-upload` eftersom de är låsta som granskade i Transifex.
+De verifierade QGIS-rättningarna finns i [yeager/swedish-tm](https://github.com/yeager/swedish-tm). Uppdateringen omfattar sju kontextfria QGIS-termer i `sv-qgis.po` och `sv-qgis.tmx`, samt 279 kontextbevarade granskningsposter med 284 segment i den separata QGIS-katalogen. Efter den verifierade Transifex-importen har 212 granskningsposter, som motsvarar 207 unika Transifex-strängar, status `upstream-import-verified`. Resterande 67 unika strängar har status `local-reviewed-pending-upload` eftersom de är låsta som granskade i Transifex.
 
 2026-11-10: En samlad Transifex-batch med 35 verifierade ändringar skickades till den dokumenterade bulkändpunkten. Tjänsten svarade HTTP 500 med `server_error`; fyra representativa återläsningar bekräftade att ingen partiell ändring hade tillämpats. Efter batch 006 försöktes den samlade 44-strängarsbatchen på nytt och fick samma HTTP 500-svar. Återläsning av två nya och en tidigare kandidat bekräftade åter att ingen partiell ändring hade tillämpats. Batcherna 001 till 010 är arkiverade men ännu inte uppladdade.
 
@@ -47,5 +47,5 @@ terrängsträngar. Transifex accepterade alla tre via API och direkta
 2026-11-10: Batch 040 rättade två oavsiktliga ordupprepningar. Transifex
 accepterade båda via API och direkta återläsningar bekräftade svensk måltext
 samt ursprunget `API`. Batch 041 ersatte den för snäva metadataetiketten
-`Län` med `Administrativt område`. Transifex accepterade ändringen; ny
-API-autentisering krävs för att utföra den återstående direkta återläsningen.
+`Län` med `Administrativt område`. Transifex accepterade ändringen och den
+inloggade redigeraren bekräftade sedan måltext, kontext, hash och upphov.

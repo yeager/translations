@@ -16,6 +16,7 @@ bevarar därför datamodellens betydelse.
 
 Kontroller: JSON-schema med `jq`, regenererad QGIS-TM med `msgfmt --check`,
 `git diff --check` och Gitleaks utan fynd. Transifex bulk-PATCH svarade HTTP
-200 med den uppdaterade översättningen. API-token som tidigare kunde läsa
-tillbaka strängen ger nu HTTP 401; den separata återläsningen är därför inte
-verifierad i denna batch.
+200 med den uppdaterade översättningen. En separat återläsning i den inloggade
+Transifex-redigeraren bekräftade måltexten, kontexten `QgsMetadataWidgetBase`,
+stränghashen `892fb3efe5dfc1e15c3a7b403fc9eb73` och att ändringen tillskrevs
+`yeager`.
