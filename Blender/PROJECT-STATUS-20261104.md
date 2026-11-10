@@ -16231,3 +16231,12 @@ svlang markerar endast de korrekta fackorden *shaderkompileringsmetod* och
 *irradiansrutnät* som sällsynta. Batchen är lokalt arkiverad och väntar på
 manuell import.
 
+## Batch 1 667 — animationsfästning och renderingsintervall
+
+Animationens kommando för *Toggle Snapping* använder **Växla fästning**.
+Start- och slutbildrutor begränsas till ett **renderingsintervall**, inte ett
+renderingsområde. Deltafilens SHA-256 är
+`23c263ac60a534046618e69f6e43d02ea65874637061c360d884f9bd09f63b93`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Batchen är lokalt arkiverad och väntar på manuell import.
+

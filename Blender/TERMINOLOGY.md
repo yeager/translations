@@ -1007,6 +1007,7 @@ Senast uppdaterad: 2026-11-09.
 | snap keyframes | fäst nyckelbildrutor | Flyttar nyckelbildrutor till bestämda tider, bildrutor eller markörer. |
 | snap / snapping (3D-transformering) | fäst / fästning | Fäster markör, markering eller transformerat objekt vid exempelvis rutnät, mål eller markör. Skilj från *snap keyframes* → *fäst nyckelbildrutor*. |
 | Snap Target / Snap Base (3D-transformering) | fästmål / fästbas | *Snap Target* väljer det referensläge som fästningen använder, medan *Snap Base* är den punkt på den transformerade geometri som fästs. Använd inte *snäppmål* eller *snäppbas*. |
+| rendering range (animation) | renderingsintervall | Start- och slutbildrutorna som begränsar animationens rendering. Skilj från *render region* → *renderingsområde*. |
 | orbit center / orbit axis | kretsningscentrum / kretsningsaxel | Navigeringsinställningar som styr rotationspunkten respektive dess visuella hjälplinje i 3D-vyn. |
 | Pan View | Panorera vyn | Navigeringsåtgärd i 2D- och 3D-redigerare. Använd bestämd form när den synliga vyn flyttas. |
 | NLA stack | NLA-stapel | Lagerordningen för åtgärder och remsor i Nonlinear Animation. |
