@@ -16595,3 +16595,12 @@ tas bort använder samma naturliga verb som övrig UI-text. Deltafilens SHA-256
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 703 — geometri och Closure
+
+Kodplatshållarna i Closure-feltexter behåller raka citationstecken. En
+hjälptext om geometrikomponenter har dessutom fått den saknade hänvisningen
+till **den typen**. Deltafilens SHA-256 är
+`1d3e8c516d12070b1c52067b73de2324319cae9fa5bcfdb82a6fbd8b3cceb1f4`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen är lokalt arkiverad och
+väntar på manuell import.
+
