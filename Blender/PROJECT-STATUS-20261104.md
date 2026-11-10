@@ -15706,3 +15706,14 @@ innehåller en radgranskad post med SHA-256
 `ff5da06fbe5253a8243c369251219ffadca882c61fde59e9452603e2ed4d4905`.
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
+
+## Batch 1 615 — tillämpade remshandtag
+
+Två parallella hjälprader i sekvensredigeraren använder konsekvent
+**tillämpas/tillämpats** i stället för det avvikande *appliceras/applicerats*.
+
+`blender-ui-sv-reviewed-batch-1615-sequencer-application-20261110.po`
+innehåller två radgranskade poster med SHA-256
+`9d812c1711a4d213419be4f28e7083213bbae5373970c58a7c8d4daeaf4d2cc1`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
