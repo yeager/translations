@@ -16525,3 +16525,12 @@ SHA-256 är `2bb7eedc76ca826ef26d961cf9bb6ddf72e631fc1e8c7d2e722b1411e4e2acf6`.
 endast en falsk V2-träff i en fullständigt korrekt feltext. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 695 — termer och noduttag
+
+Den generella termen *Level Set* använder **nivåmängd**, i linje med
+vätskesimuleringens övriga texter. Tre noduttagsfeltexter har fått korrekt
+singularform, och `ShapeKey` är rättat till **formnyckel**. Deltafilens
+SHA-256 är `f48b6f25922dbbeca55c25ff747cca722e6c6d705f742fed53d1c82cac21a02a`.
+`msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
