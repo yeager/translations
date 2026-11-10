@@ -16278,3 +16278,13 @@ respektive **fästa**. Deltafilens SHA-256 är
 `msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 672 — benväljare och typografi
+
+Benväljaren uppmanar nu användaren att välja i **3D-vyporten** i rätt
+armaturläge. Sökvägsfel använder svenska citattecken runt platshållaren.
+Deltafilens SHA-256 är
+`b614a22327c43e0c6a4bfa99c3e25248d4bb1f1482705db931f5a009b4372db9`.
+`msgfmt`, l10n-lint, Hunspell-sv, diffkontroll och Gitleaks passerade.
+svlang markerar bara den etablerade Blender-termen *vyporten* och en falsk
+V2-varning. Batchen är lokalt arkiverad och väntar på manuell import.
+
