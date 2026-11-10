@@ -5182,6 +5182,16 @@ granskad post med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 564 — tidigare åtgärder
+
+Menyn **Repeat History** heter nu **Tidigare åtgärder**, med en idiomatisk
+hjälptext.
+
+`blender-ui-sv-reviewed-batch-1564-repeat-history-20261110.po` innehåller två
+granskade poster med SHA-256
+`161d987c89a3aa9ef68870bece841b25c852b2833b4ef67621cfa3401c91de40`.
+Samtliga lokala kontroller passerade. Batchen väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
