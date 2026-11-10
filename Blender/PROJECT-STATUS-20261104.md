@@ -37,10 +37,11 @@ Gitleaks. Ingen Blender Translate-import är ännu verifierad.
 
 ## Batch 1 735 – meshredigering
 
-Tre kontextkontrollerade formuleringar normaliserar **slingklipp**,
-**trådkanter** och feltexten för objekt utan vikter eller
-hörnpunktsgrupper. Deltafilen
-`blender-ui-sv-reviewed-editmesh-followup-20261110.po` är lokalt kontrollerad
+Tio kontextkontrollerade formuleringar normaliserar **slingklipp**,
+**trådkanter**, **tolkningsfel**, feltexter för objekt utan vikter eller
+hörnpunktsgrupper samt konsekvent `redigeringsläge`. Deltafilerna
+`blender-ui-sv-reviewed-editmesh-followup-20261110.po` och
+`blender-ui-sv-reviewed-editmesh-errors-20261110.po` är lokalt kontrollerade
 med `msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och Gitleaks.
 Ingen Blender Translate-import är ännu verifierad.
 
