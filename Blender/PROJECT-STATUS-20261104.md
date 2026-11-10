@@ -5223,6 +5223,17 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 582 — vyport och filsökvägar
+
+Sex UI-poster i experiment- och filsökvägsinställningarna är granskade.
+**Viewport** använder **vyporten**, äldre ångring och blendfilformat har
+idiomatiska etiketter, och cachar anges tydligt som cachekataloger.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1582-filepaths-viewport-20261110.po` väntar
+på manuell import. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade.
+Hunspell-sv och svlang markerar endast avsiktliga Blender-sammansättningar.
+
 ## Batch 1 581 — redigerings- och experimentinställningar
 
 Sju poster i redigerings- och experimentinställningarna är granskade.
