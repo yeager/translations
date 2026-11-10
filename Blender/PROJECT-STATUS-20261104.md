@@ -4932,6 +4932,17 @@ granskad post med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 543 — länka eller överför data
+
+Åtgärdsnamnet använder konsekvent verbformen **Länka/överför data**, i stället
+för det felaktiga substantivet *Länk*.
+
+`blender-ui-sv-reviewed-batch-1543-link-transfer-data-20261110.po` innehåller
+två granskade poster med SHA-256
+`ddb9d7710be65a0bc84bb0c326556a948a3942bedfd8dee8938741f494b8b9b2`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
