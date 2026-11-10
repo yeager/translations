@@ -40,6 +40,16 @@ fel; Hunspell och svlang rapporterar enbart den sammansatta facktermen
 *hållmönstren*. Blender-TM:n är synkad och pushad i commit `9a5dfef`.
 Ingen Blender Translate-import är ännu verifierad för batchen.
 
+## Batch 1 723 — Pose som ställning
+
+Tre fristående UI-etiketter för Blender-funktionen `Pose` översätts till
+**ställning**. Den tekniska sammansättningen *Pose Mode* behåller samtidigt
+den etablerade termen **poseringsläge**. Deltafilen
+`blender-ui-sv-reviewed-pose-labels-20261110.po` är lokalt kontrollerad med
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks utan fel; Hunspell och svlang
+passerar utan anmärkning. Blender-TM:n är synkad och pushad i commit
+`ebb3b26`. Ingen Blender Translate-import är ännu verifierad.
+
 ## Verifierad Blender Translate-import — 229 ändringar sedan kl. 16
 
 Den samlade deltafilen
