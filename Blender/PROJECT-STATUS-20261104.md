@@ -11,6 +11,15 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 653 — nodkörning
+
+Nodsimuleringsverktyget använder nu **körning** i stället för den onödigt
+engelsknära termen *exekvering*. Deltafilen
+`blender-ui-sv-reviewed-batch-1653-node-execution-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll,
+Gitleaks, Hunspell och svlang passerade utan anmärkningar. Ingen import är
+verifierad för denna batch.
+
 ## Batch 1 652 — API-definierad
 
 UI-statusen `API Defined` använder nu adjektivet **API-definierad** i stället
