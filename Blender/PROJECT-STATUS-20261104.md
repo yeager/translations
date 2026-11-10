@@ -5026,6 +5026,18 @@ innehåller två granskade poster med SHA-256
 V2-avvikelse för den korrekta relativsatsen är en falsk positiv. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 551 — modifierare i vyporten
+
+Modifierarens synlighetsåtgärd använder etablerad Blender-terminologi:
+**Växla användning i vyporten**, inte *visningsvy*.
+
+`blender-ui-sv-reviewed-batch-1551-modifier-viewport-20261110.po` innehåller
+en granskad post med SHA-256
+`ef81e25e1fe1fc7d7258db6857d7a6c9fae197adff596a573466aa769f255fe0`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. svlang markerar den
+etablerade Blender-termen **vyporten** som sällsynt; det är en falsk positiv.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
