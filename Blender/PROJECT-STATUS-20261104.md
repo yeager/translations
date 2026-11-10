@@ -2,6 +2,12 @@
 
 Senaste lokala arbete: 10 november 2026.
 
+> **Löpande radgranskning:** post 34 285 av 40 434 är genomgången, enligt
+> arbetsmarkören verifierad 10 november 2026 kl. 16:36. Det motsvarar
+> **84,8 %**. Den äldre filen `REVIEW-COVERAGE-20261108.md` räknar bara en
+> snäv, spårbar union av deltabatcher och får inte användas som arbetets
+> övergripande granskningsprocent.
+
 Projektets aktualitet är verifierad 9 november 2026: Blender 5.2 LTS
 släpptes den 14 juli 2026 enligt Blenders officiella releasesida. Projektet
 uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
