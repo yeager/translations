@@ -6,10 +6,21 @@ Projektets aktualitet är verifierad 9 november 2026: Blender 5.2 LTS
 släpptes den 14 juli 2026 enligt Blenders officiella releasesida. Projektet
 uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 
-> Den aktuella källexporten är `blender-ui-ui-sv (7).po`, hämtad 10 november
-> 2026. Den är arbetsreferensen för nya deltafiler. Jämförelser med tidigare
-> exporter bekräftar att manuella importer har fått genomslag, men en deltafil
-> räknas inte som importerad förrän importresultatet är verifierat.
+> Den aktuella källexporten är `blender-ui-ui-sv (8).po`, hämtad 10 november
+> 2026 efter den verifierade manuella importen. Den är arbetsreferensen för nya
+> deltafiler. En deltafil räknas inte som importerad förrän importresultatet är
+> verifierat.
+
+## Export 8 — återställning av granskade UI-termer
+
+Den nya exporten ändrade 31 befintliga formuleringar. Efter granskning behålls
+förbättringar av versalisering efter kolon, tekniska rymdtermer och förtydligad
+Action-slot. Tjugo tidigare granskade formuleringar återställs: bland annat
+**läs in**, **vyport**, **kantslinga**, **förvrängning** och svenska `sant`.
+Deltafilen `blender-ui-sv-reviewed-export8-reapply-20261110.po` är lokalt
+kontrollerad. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade utan
+fel. Hunspell och svlang rapporterar endast projekt- och facktermer samt två
+falska V2-positiv; ingen import är verifierad.
 
 ## Verifierad Blender Translate-import — 229 ändringar sedan kl. 16
 
