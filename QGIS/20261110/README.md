@@ -18,6 +18,13 @@ Efter kompletteringen begärdes en radvis granskning av också redan översatta 
 
 Terminologi används från `terminology.md` samt diskussionsunderlaget `qgis-se-terminologi-for-diskussion.md`. Hittills har 469 av 36 514 strängar granskats i kontext, varav 273 är lokalt granskade korrigeringskandidater och en ytterligare sträng har bedömts korrekt utan ändring. Återstår 36 045 strängar. Fullständig granskning av befintliga översättningar är påbörjad men ännu inte klar; statusen ovan avser endast att oöversatta strängar har kompletterats.
 
+2026-11-10: Diskussionsunderlaget för Qgis.se utökades till 390 termer. Det
+täcker QGIS huvudsakliga användargränssnitt, geodata, geometri, CRS,
+redigering, symbologi, raster, 3D, tid, layout, geobearbetning, formulär,
+metadata, datakällor, OGC-tjänster, säkerhet och nätverksanalys. Termer med
+faktisk alternativ praxis är märkta `Öppen`; de är frågor för Qgis.se och inte
+förutbestämda översättningar.
+
 ## Översättningsminne
 
 De verifierade QGIS-rättningarna har publicerats i [yeager/swedish-tm](https://github.com/yeager/swedish-tm), senast i commit [`0bd5bda`](https://github.com/yeager/swedish-tm/commit/0bd5bda). Uppdateringen omfattar sju kontextfria QGIS-termer i `sv-qgis.po` och `sv-qgis.tmx`, samt 273 kontextbevarade granskningsposter med 278 segment i den separata QGIS-katalogen. Posterna har status `local-reviewed-pending-upload`, eftersom Transifex bulk-PATCH ännu inte har godkänts av tjänsten.

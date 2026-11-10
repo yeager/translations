@@ -1,10 +1,11 @@
 # QGIS: svensk terminologi för diskussion med Qgis.se
 
-Status: diskussionsunderlag, 10 november 2026. Omfattar QGIS Desktop, svensk
-användargränssnittstext, dokumentation och vanliga felmeddelanden. Det är inte
-en auktoritativ ordlista för varje QGIS-sträng. Syftet är att få beslut om de
-termer som behöver vara konsekventa innan en större svensk granskning skickas
-upp.
+Status: komplett arbetsunderlag för diskussion, 10 november 2026. Omfattar
+QGIS Desktop, svensk användargränssnittstext, dokumentation, algoritmer,
+datakällor och vanliga felmeddelanden. Listan täcker återkommande begrepp och
+namn i samtliga huvuddelar av QGIS, men inte varje unik formulering, ett enskilt
+algoritmnamn eller kodsymbol. Syftet är att få beslut om de termer som behöver
+vara konsekventa innan en större svensk granskning skickas upp.
 
 ## Så används listan
 
@@ -16,7 +17,7 @@ upp.
 - Produktnamn, kodsymboler, filändelser, formatnamn, protokoll och
   identifierare översätts inte.
 
-Källor som kontrollerats 2026-11-10: [QGIS 3.44, svenskt gränssnitt](https://docs.qgis.org/3.44/sv/docs/user_manual/introduction/qgis_gui.html), [vektoregenskaper](https://docs.qgis.org/3.44/sv/docs/user_manual/working_with_vector/vector_properties.html), [layout](https://docs.qgis.org/3.44/sv/docs/user_manual/print_composer/index.html) och [geobearbetning](https://docs.qgis.org/3.44/sv/docs/user_manual/processing/intro.html). Den lokala Transifex-exporten används som belägg för faktisk UI-kontext, inte som ensam språklig auktoritet.
+Källor som kontrollerats 2026-11-10: [QGIS 4.2-dokumentationen](https://docs.qgis.org/4.2/en/docs/index.html), [QGIS 3.44, svenskt gränssnitt](https://docs.qgis.org/3.44/sv/docs/user_manual/introduction/qgis_gui.html), [vektoregenskaper](https://docs.qgis.org/3.44/sv/docs/user_manual/working_with_vector/vector_properties.html), [layout](https://docs.qgis.org/3.44/sv/docs/user_manual/print_composer/index.html) och [geobearbetning](https://docs.qgis.org/3.44/sv/docs/user_manual/processing/intro.html). Den lokala Transifex-exporten används som belägg för faktisk UI-kontext, inte som ensam språklig auktoritet. QGIS 4.2.3 är aktuell stabil version och QGIS 3.44.15 aktuell LTR enligt [QGIS nedladdningssida](https://qgis.org/download/).
 
 ## Grundläggande GIS och data
 
@@ -78,7 +79,7 @@ Källor som kontrollerats 2026-11-10: [QGIS 3.44, svenskt gränssnitt](https://d
 | convex hull | omslutande polygon | Fastställd | |
 | concave hull | konkavt hölje | Fastställd | |
 | buffer | buffert | Fastställd | |
-| dissolve | upplös | Rekommenderad | Verb i geobearbetningsalgoritm. |
+| dissolve | upplös | Rekommenderad | Uppmaningsform i geobearbetningsalgoritm. `Upplösa` används i löpande förklarande text. |
 | clip | klipp | Rekommenderad | Verb. `Klipp ut` i förklarande text vid behov. |
 | intersect | skär | Rekommenderad | Verb; skärning som substantiv. |
 | union | union | Rekommenderad | Geometrisk operation, inte användargrupp. |
@@ -191,11 +192,194 @@ Källor som kontrollerats 2026-11-10: [QGIS 3.44, svenskt gränssnitt](https://d
 | terrain | terräng | Fastställd | |
 | point cloud | punktmoln | Fastställd | |
 | point cloud attribute | punktmolnsattribut | Rekommenderad | |
-| classification | klassificering | Fastställd | |
+| classification | klassificering | Fastställd | Raster-, punktmolns- och symbologikontext. |
 | elevation | höjd | Fastställd | |
 | profile | profil | Fastställd | |
 | profile tool | profilverktyg | Rekommenderad | |
 | COPC | COPC | Fastställd | Formatnamn. |
+
+## Tid, 3D och visualisering
+
+| Engelska | Rekommenderad svenska | Status | Kommentar |
+|---|---|---|---|
+| temporal | tidsberoende | Rekommenderad | `Temporal` kan behållas i kod och egennamn. |
+| temporal controller | tidskontroll | Rekommenderad | Kontrollera faktisk panelrubrik före ändring. |
+| temporal range | tidsintervall | Rekommenderad | Inte tidsomfång. |
+| temporal extent | tidsmässig utbredning | Rekommenderad | Använd `tidsintervall` när det är start- och sluttid. |
+| begin time | starttid | Fastställd | |
+| end time | sluttid | Fastställd | |
+| duration | varaktighet | Fastställd | |
+| frame | bildruta | Rekommenderad | Avser animation eller tidsstyrd rendering. |
+| animation | animering | Fastställd | |
+| cumulative | ackumulerad | Rekommenderad | |
+| 3D map view | 3D-kartvy | Rekommenderad | Bindestreck efter sifferförkortning. |
+| 3D scene | 3D-scen | Rekommenderad | |
+| terrain settings | terränginställningar | Rekommenderad | |
+| terrain exaggeration | höjdförstoring | Rekommenderad | Visuell förstoring av terränghöjd. |
+| vertical scale | vertikal skala | Rekommenderad | |
+| camera | kamera | Fastställd | |
+| camera position | kameraposition | Rekommenderad | |
+| field of view | synfält | Rekommenderad | |
+| perspective projection | perspektivprojektion | Rekommenderad | |
+| orthographic projection | ortografisk projektion | Rekommenderad | |
+| ambient occlusion | omgivningsocklusion | Öppen | Teknisk renderingsterm; kontrollera svensk 3D-praxis. |
+| eye dome lighting | Eye Dome Lighting | Öppen | Behåll tekniskt egennamn tills en dokumenterad svensk form finns. |
+| light source | ljuskälla | Fastställd | |
+| directional light | riktat ljus | Rekommenderad | |
+| clipping plane | skärplan | Rekommenderad | Undviker tvetydig och svårläst sammansättning. |
+| elevation surface | höjdyta | Rekommenderad | |
+
+## Sökning, identifiering, formulär och relationer
+
+| Engelska | Rekommenderad svenska | Status | Kommentar |
+|---|---|---|---|
+| identify | identifiera | Rekommenderad | Verb i kartverktyget. |
+| identify features | identifiera objekt | Rekommenderad | Inte `identifiera funktioner`. |
+| identify results | identifieringsresultat | Rekommenderad | Resultatpanelen. |
+| locator | sökverktyg | Öppen | `Locator` kan vara panelnamn; kontrollera UI. |
+| locator filter | sökfilter | Rekommenderad | |
+| search | sök | Fastställd | `Sökning` som substantiv. |
+| find | hitta | Rekommenderad | Använd vid direkt uppmaning. |
+| form | formulär | Fastställd | Attributformulär när precision behövs. |
+| attribute form | attributformulär | Fastställd | |
+| drag and drop designer | dra-och-släpp-byggare | Öppen | Kontrollera om panelnamnet ska behållas på engelska. |
+| widget | widget | Rekommenderad | Undvik `miniprogram` i QGIS UI. |
+| editor widget | redigeringswidget | Rekommenderad | |
+| value relation | värderelation | Öppen | Relation-widgetens tekniska namn kräver skärmkontext. |
+| relation | relation | Fastställd | Databas- eller attributrelation. |
+| relation reference | relationsreferens | Rekommenderad | |
+| parent feature | överordnat objekt | Rekommenderad | |
+| child feature | underordnat objekt | Rekommenderad | |
+| one-to-many | en-till-många | Fastställd | |
+| many-to-many | många-till-många | Fastställd | |
+| constraint | villkor | Rekommenderad | Datavalidering; `begränsning` i geometrisk kontext. |
+| default value | standardvärde | Fastställd | |
+| value map | värdekarta | Rekommenderad | Widgetnamn; inte geografisk karta. |
+| attachment | bilaga | Rekommenderad | Bifogad fil i attributformulär. |
+
+## Metadata, projekt och samarbete
+
+| Engelska | Rekommenderad svenska | Status | Kommentar |
+|---|---|---|---|
+| metadata | metadata | Fastställd | |
+| metadata record | metadatapost | Rekommenderad | |
+| abstract | sammanfattning | Rekommenderad | Metadatafält, inte sammandrag i allmän betydelse. |
+| keyword | nyckelord | Fastställd | |
+| category | kategori | Fastställd | |
+| contact | kontakt | Fastställd | Kontaktperson när det är en person. |
+| license | licens | Fastställd | |
+| attribution | erkännande | Rekommenderad | Juridiskt eller kartografiskt krediteringskrav. |
+| copyright | upphovsrätt | Fastställd | |
+| project | projekt | Fastställd | |
+| project file | projektfil | Fastställd | |
+| project home | projektmapp | Rekommenderad | Kontrollera om källan avser projektets hemkatalog. |
+| project template | projektmall | Rekommenderad | |
+| project properties | projektegenskaper | Fastställd | |
+| project variable | projektvariabel | Rekommenderad | |
+| custom property | anpassad egenskap | Rekommenderad | |
+| user profile | användarprofil | Fastställd | |
+| profile folder | profilmapp | Rekommenderad | |
+| synchronization | synkronisering | Fastställd | |
+| share | dela | Fastställd | `Delning` som substantiv. |
+| collaboration | samarbete | Fastställd | |
+
+## Datakällor, OGC-tjänster och moln
+
+| Engelska | Rekommenderad svenska | Status | Kommentar |
+|---|---|---|---|
+| data provider | dataleverantör | Rekommenderad | QGIS provider-arkitektur. |
+| source | källa | Fastställd | Datakälla när betydelsen annars är oklar. |
+| URI | URI | Fastställd | Behåll förkortningen. |
+| endpoint | slutpunkt | Rekommenderad | API- eller tjänsteadress. |
+| capabilities | funktioner | Rekommenderad | `GetCapabilities` lämnas orört som OGC-operation. |
+| request | begäran | Fastställd | |
+| response | svar | Fastställd | |
+| remote | fjärr | Rekommenderad | `fjärransluten` i löpande text vid behov. |
+| cloud | moln | Fastställd | |
+| cloud storage | molnlagring | Fastställd | |
+| catalog | katalog | Fastställd | Tjänst- eller datakatalog. |
+| STAC | STAC | Fastställd | Standardnamn. |
+| OGC API Features | OGC API Features | Fastställd | Standardnamn översätts inte. |
+| vector tiles | vektorrutor | Rekommenderad | `vektortiles` undviks i svensk UI-text. |
+| raster tiles | rasterrutor | Rekommenderad | |
+| XYZ tiles | XYZ-rutor | Rekommenderad | |
+| tile service | ruttjänst | Rekommenderad | |
+| WMS layer | WMS-lager | Fastställd | |
+| WMTS layer | WMTS-lager | Fastställd | |
+| WFS layer | WFS-lager | Fastställd | |
+| WCS coverage | WCS-täckning | Öppen | Kontrollera etablerad term i svensk OGC-dokumentation. |
+| feature service | objekttjänst | Öppen | Använd bara när tjänstetypen uttryckligen avses. |
+| geocoding | geokodning | Rekommenderad | |
+| geocoder | geokodare | Rekommenderad | |
+| reverse geocoding | omvänd geokodning | Rekommenderad | |
+| authentication configuration | autentiseringskonfiguration | Rekommenderad | |
+| API key | API-nyckel | Fastställd | |
+| access token | åtkomsttoken | Rekommenderad | Skilj från säkerhetstoken i allmän UI-text. |
+
+## Analys, geoprocessering och nätverk
+
+| Engelska | Rekommenderad svenska | Status | Kommentar |
+|---|---|---|---|
+| analysis | analys | Fastställd | |
+| spatial analysis | rumslig analys | Rekommenderad | |
+| overlay | överlagring | Rekommenderad | Geometrisk eller kartografisk operation. |
+| proximity | närhet | Rekommenderad | |
+| nearest neighbor | närmaste granne | Rekommenderad | |
+| spatial index | rumsligt index | Fastställd | |
+| join | sammanfoga | Rekommenderad | Verb för attribut- eller lagersammanfogning. |
+| join field | sammanfogningsfält | Rekommenderad | |
+| spatial join | rumslig sammanfogning | Rekommenderad | |
+| explode | dela upp | Rekommenderad | Dela upp flerpartsgeometri i enkelgeometrier. |
+| multipart | flerparts- | Rekommenderad | Förled, till exempel `flerpartsgeometri`. |
+| singlepart | enkelparts- | Rekommenderad | Förled, till exempel `enkelpartsgeometri`. |
+| simplify | förenkla | Fastställd | |
+| smooth | jämna ut | Rekommenderad | |
+| densify | förtäta | Rekommenderad | Lägg till brytpunkter. |
+| offset | förskjutning | Rekommenderad | |
+| minimum bounding geometry | minsta omslutande geometri | Rekommenderad | |
+| rasterize | rasterisera | Rekommenderad | |
+| polygonize | polygonisera | Rekommenderad | |
+| reproject | omprojicera | Rekommenderad | |
+| warp | omprojicera | Öppen | GDAL-specifik kontext kan motivera `warpa` endast i kodnära text. |
+| geodesic | geodetisk | Rekommenderad | |
+| ellipsoid | ellipsoid | Fastställd | |
+| route | rutt | Fastställd | |
+| network | nätverk | Fastställd | Transportnätverk i analys; inte datornätverk utan förtydligande. |
+| shortest path | kortaste väg | Rekommenderad | |
+| service area | serviceområde | Rekommenderad | Nätverksanalys. |
+| catchment | upptagningsområde | Rekommenderad | |
+| cost | kostnad | Rekommenderad | Generaliserad kostnad i nätverksanalys. |
+| impedance | motstånd | Öppen | Kontrollera etablerad svensk nätverksanalysterm. |
+
+## Stil, etiketter, diagram och kartografi
+
+| Engelska | Rekommenderad svenska | Status | Kommentar |
+|---|---|---|---|
+| class | klass | Fastställd | |
+| class break | klassgräns | Rekommenderad | |
+| symbol level | symbolnivå | Rekommenderad | |
+| marker | markör | Fastställd | Symbolmarkör; inte pekaren. |
+| line symbol | linjesymbol | Rekommenderad | |
+| fill symbol | fyllningssymbol | Rekommenderad | |
+| symbol selector | symbolväljare | Rekommenderad | |
+| data-defined override | datadefinierad åsidosättning | Rekommenderad | |
+| auxiliary storage | hjälplagring | Rekommenderad | QGIS-specifik mekanism. |
+| labeling engine | etikettmotor | Rekommenderad | |
+| label placement | etikettplacering | Rekommenderad | |
+| label buffer | etikettbuffert | Rekommenderad | |
+| leader line | hänvisningslinje | Rekommenderad | I kartografisk etikettkontext. |
+| annotation | anteckning | Rekommenderad | Kommentar i kartan; `annotering` kan behövas i teknisk text. |
+| text annotation | textanteckning | Rekommenderad | |
+| HTML annotation | HTML-anteckning | Rekommenderad | |
+| map theme | karttema | Rekommenderad | |
+| map tip | karttips | Rekommenderad | |
+| overview frame | översiktsram | Rekommenderad | |
+| inset map | översiktskarta | Rekommenderad | |
+| map rotation | kartrotation | Rekommenderad | |
+| page size | sidstorlek | Fastställd | |
+| paper orientation | pappersorientering | Rekommenderad | |
+| portrait | stående | Fastställd | |
+| landscape | liggande | Fastställd | |
 
 ## Layout, kartproduktion och export
 
@@ -321,6 +505,22 @@ Källor som kontrollerats 2026-11-10: [QGIS 3.44, svenskt gränssnitt](https://d
 6. **Tracing**: besluta term först efter skärmbild eller tydlig verktygskontext.
 7. **Model Designer** och **Georeferencer**: kontrollera de faktiska svenska
    panel- och dialogtitlarna i en aktuell QGIS-byggnad före namnbyte.
+8. **Locator**: avgör om den synliga funktionen ska heta `sökverktyg`,
+   `sökrad` eller behålla det engelska produktnamnet. Välj efter dess faktiska
+   panel- och menykontext.
+9. **Attributwidgetar**: fastställ `värderelation`, `relationsreferens` och
+   `redigeringswidget` tillsammans, eftersom deras betydelser är närliggande
+   men inte utbytbara i formulärbyggaren.
+10. **3D-termer**: godkänn `3D-kartvy`, `höjdförstoring`, `skärplan` och
+    `omgivningsocklusion`, eller ange etablerade former från svensk 3D- och
+    GIS-praxis.
+11. **OGC och rutor**: bekräfta `vektorruta`, `rasterruta`, `ruttjänst` och
+    `WCS-täckning`. Akronymer och standardnamn ska fortsätta stå kvar.
+12. **Analysord**: avgör särskilt `sammanfoga` för *join*, `omprojicera` för
+    *warp* och `motstånd` för *impedance*. De måste skiljas från vardagliga
+    betydelser i verktygstips och algoritmbeskrivningar.
+13. **Kartografiska ord**: bekräfta `hänvisningslinje`, `översiktskarta` och
+    `etikettbuffert` efter skärmbilder från layout- och etikettverktygen.
 
 ## Stilregler
 
