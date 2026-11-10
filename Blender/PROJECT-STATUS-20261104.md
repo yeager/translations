@@ -5241,6 +5241,17 @@ Deltafilen
 `blender-ui-sv-reviewed-batch-1593-cycles-light-sampling-20261110.po`
 väntar på manuell import. `msgfmt`, l10n-lint och Gitleaks passerade.
 
+## Batch 1 594 — källtroget skiljetecken
+
+117 svenska UI-poster följer nu källans skiljetecken: när källan saknar
+tankstreck används inte heller ett svenskt tankstreck. Poster där källan har
+tankstreck har lämnats oförändrade.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1594-source-punctuation-20261110.po` väntar på
+manuell import. `msgfmt` och Gitleaks passerade. l10n-lint rapporterar endast
+förväntade stilvarningar för sifferintervall som följer källans bindestreck.
+
 ## Batch 1 592 — Rigify Action-inställning
 
 Rigify-hjälptexten behåller Blender-datatypen **Action** i
