@@ -11,6 +11,16 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 640 — kurvverktygets slumpning
+
+Kurvredigerarens kommandetikett använder nu verbet **slumpa**, i samma
+verktygskontext som den tidigare granskade meshetiketten. Den felaktiga
+adjektivformen *slumpmässigt* är borttagen. Deltafilen
+`blender-ui-sv-reviewed-batch-1640-curve-tool-label-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll
+och Gitleaks passerade utan anmärkningar. Ingen import är verifierad för denna
+batch.
+
 ## Batch 1 626 — kamerafixering och markeringsläge
 
 Tre UI-poster från arbetsreferensen har granskats i sin Blender-RNA-kontext.
