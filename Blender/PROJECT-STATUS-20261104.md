@@ -16485,3 +16485,13 @@ Inläsning av bibliotek och projekt använder **läs in**. Deltafilens SHA-256
 Hunspell-sv gav inga anmärkningar. Batchen är lokalt arkiverad och väntar på
 manuell import.
 
+## Batch 1 691 — återinläsning och navigering
+
+Tre textredigerarkommandon använder **läs in på nytt** i stället för *ladda
+om*. 3D-vyportens skuggningsnamn är **Trådram** och **Solid**. Det onödiga
+lånordet *dollyflytta* ersätts med **förflytta i djupled**. Deltafilens
+SHA-256 är `5ff38157d19b0b16b3c4454a77a9a1e1cd374097f7f203345db06c4ee85ce0e7`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Hunspell-sv och
+svlang markerar enbart den avsiktliga Blender-termen *vyport*. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
