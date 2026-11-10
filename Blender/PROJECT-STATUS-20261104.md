@@ -4764,6 +4764,16 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 522 — maskens glidning
+
+Maskverktygets rörelseåtgärd använder konsekvent **skjut**.
+
+`blender-ui-sv-reviewed-batch-1522-mask-slide-20261110.po` innehåller en
+granskad post med SHA-256
+`04e6e3c31f8157f08133c4a4071589075834b0b1eb17976b20d2094f5f1fc61e`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
