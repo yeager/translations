@@ -11,6 +11,16 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 650 — Rigify: funktionsuppsättningens arkiv
+
+Rigifys felmeddelande använder nu **funktionsuppsättningens arkiv** i stället
+för det otydliga *funktionsarkiv*. Deltafilen
+`blender-ui-sv-reviewed-batch-1650-rigify-feature-set-archive-20261110.po`
+är lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
+diffkontroll och Gitleaks passerade utan anmärkningar. Hunspell och svlang
+rapporterade endast Python-filnamnet `__init__.py`. Ingen import är verifierad
+för denna batch.
+
 ## Batch 1 649 — Node Wrangler: blandningsfaktor
 
 Node Wranglers kommando för att öka Mix Factor med 0,01 använder nu samma
