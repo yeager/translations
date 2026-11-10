@@ -58,6 +58,8 @@ Källor: QGIS egen [svenska dokumentation](https://docs.qgis.org/3.44/sv/docs/us
 | export | export | Verb och substantiv | ”Exportera” som verb. |
 | import | import | Verb och substantiv | ”Importera” som verb. |
 | encoding | kodning | Text- och filkodning | |
+| Unicode | Unicode | Teckenkodning och uttryck | Behåll egennamnet med versalt U. |
+| Unicode code | Unicode-kod | Uttryck och teckenfunktioner | Skriv med bindestreck. |
 | log messages panel | panelen Loggmeddelanden | Felsökning | Produktnamnet i panelrubriken behålls. |
 | plugin | insticksmodul | QGIS-tillägg | Använd ”plugin” endast om källan är ett egennamn. |
 | plugin repository | centralkatalog | Pluginhanteraren | Etablerad i berörda QGIS-dialoger. Använd inte förråd i denna UI-kontext. |
