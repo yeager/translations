@@ -2,8 +2,8 @@
 
 Senaste lokala arbete: 10 november 2026.
 
-> **Löpande radgranskning:** post 36 385 av 40 434 är genomgången. Det
-> motsvarar **89,99 %**. Raderna 34 286–36 385 är dokumenterade i
+> **Löpande radgranskning:** post 36 435 av 40 434 är genomgången. Det
+> motsvarar **90,11 %**. Raderna 34 286–36 435 är dokumenterade i
 > `REVIEW-UI-34286-34335-20261110.md` och
 > `REVIEW-UI-34336-34385-20261110.md` samt
 > `REVIEW-UI-34386-34435-20261110.md` och
@@ -45,7 +45,8 @@ Senaste lokala arbete: 10 november 2026.
 > `REVIEW-UI-36186-36235-20261110.md` samt
 > `REVIEW-UI-36236-36285-20261110.md` samt
 > `REVIEW-UI-36286-36335-20261110.md` samt
-> `REVIEW-UI-36336-36385-20261110.md`. Den äldre filen
+> `REVIEW-UI-36336-36385-20261110.md` samt
+> `REVIEW-UI-36386-36435-20261110.md`. Den äldre filen
 > `REVIEW-COVERAGE-20261108.md` räknar bara en
 > snäv, spårbar union av deltabatcher och får inte användas som arbetets
 > övergripande granskningsprocent.
