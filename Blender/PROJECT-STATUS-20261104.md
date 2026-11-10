@@ -11,6 +11,15 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Verifierad Blender Translate-import — 229 ändringar sedan kl. 16
+
+Den samlade deltafilen
+`blender-ui-sv-changes-since-1600-20261110-final.po` importerades manuellt i
+Blender Translate den 10 november 2026. Weblate behandlade **229** strängar:
+**72 uppdaterades**, **157 hoppades över** eftersom de redan var identiska och
+**0 saknades**. Det här är verifierad upstream-import, men innebär inte i sig
+att samtliga kontrollvarningar är avklarade.
+
 ## Batch 1 721 — läs in och läs in på nytt
 
 Inläsning av befintliga Blender-data använder konsekvent **läs in** och
