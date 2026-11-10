@@ -16454,3 +16454,12 @@ F-kurvas punkter är **provtagna**, inte *samplade*. Deltafilens SHA-256 är
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 688 — provtagna F-kurvor
+
+En F-kurva som byggts av sampling är **provtagna**, inte *samplade*.
+Deltafilens SHA-256 är
+`a4c5913373476ba2eb8c1bdcd5617b6f6396f8b27ea57a17e95426c5cde76277`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. svlang gav inga
+anmärkningar och Hunspell-sv gav inga stavningsmarkeringar. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
