@@ -5062,6 +5062,19 @@ innehåller två granskade poster med SHA-256
 den sammansatta facktermen **materialskiktstyp** som sällsynt; det är en falsk
 positiv. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 554 — Paint-gester
+
+Paint-åtgärderna namnger nu arbetsflödet uttryckligt med **lassomarkering**,
+**linje** och **polylinje**. Den sammanhängande termen för *Mask Box Gesture*
+är **maskrutgest**.
+
+`blender-ui-sv-reviewed-batch-1554-paint-gesture-terms-20261110.po`
+innehåller fyra granskade poster med SHA-256
+`8099c335f569dabe4c884376428e69e507fc5379b5cd9abcb1cd584e67053f23`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. svlang markerar
+projektets facktermer som sällsynta; det är falska positiva. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
