@@ -129,6 +129,7 @@ Senast uppdaterad: 2026-11-10.
 | collection | samling | Avser Blenders objektbehållare, inte en godtycklig lista. |
 | asset | resurs | En Blender-resurs i resursbläddraren eller resursbiblioteket; skilj från själva *resursbiblioteket*. |
 | pose asset | poseringsresurs | Sparad pose som kan användas via resursbläddraren. Använd konsekvent den längre formen i hjälptexter och felmeddelanden. |
+| pose (animering och riggning) | ställning | Använd för synliga kommandon, verktyg och egenskaper som *Copy Pose* och *Pose Rotation Offset*. Behåll `Pose Action` när det är Blenders formella datatypnamn och bevara API-identifierare oförändrade. |
 | brush asset | penselresurs | Sparad penselresurs i Blenders resursbibliotek. |
 | invert collection | invertera samling | Etikett för Light Probe-inställningen `invert_visibility_collection`; använd verbform, inte *inverterad kollektion*. |
 | collection exporter | samlingsexportör | Exportör som är kopplad till en specifik Blender-samling. |

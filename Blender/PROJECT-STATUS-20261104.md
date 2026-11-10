@@ -88,8 +88,23 @@ USD-arkiv, är avsiktligt orörda. Deltafilen
 `blender-ui-sv-reviewed-repository-followup-20261110.po` är lokalt kontrollerad
 med `msgfmt`, l10n-lint, diffkontroll och Gitleaks utan fel. Hunspell-sv
 noterar projektnamnet *Blenders*, förkortningen *i18n* och den giltiga
-sammansättningen *förråd*; svlang ger 10,0/10. Ännu inte manuellt importerad i
-Blender Translate.
+sammansättningen *förråd*; svlang ger 10,0/10. Den manuella importen är
+verifierad: Blender Translate behandlade 11 strängar, uppdaterade 2 och hoppade
+över 9 som redan matchade. Uppladdningens merge-status uppströms är inte
+separat verifierad.
+
+## Batch 1 732 – Ställning i animerings- och riggningsverktyg
+
+Trettiotvå synliga UI-strängar använder **ställning** i stället för det
+onödiga engelska lånet *pose*, bland annat i kommandon för att kopiera,
+klistra in, blanda och tillämpa en ställning. `Pose Action` och
+API-identifierare är avsiktligt undantagna eftersom de är formella
+Blendernamn. Deltafilen
+`blender-ui-sv-reviewed-pose-stallning-followup-20261110.po` passerar
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks. Hunspell-sv rapporterar bara
+IK/FK-förkortningarna; svlang rapporterar tre kända heuristiska falska
+positiva i i övrigt korrekta svenska formuleringar. Ännu inte manuellt
+importerad i Blender Translate.
 
 ## Batch 1 724 – utökad inläsningsterminologi
 
