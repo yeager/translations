@@ -16358,3 +16358,33 @@ Tre UI-feltexter använder svenska sammansättningar och naturlig ordföljd:
 svlang rapporterar två falska V2-varningar. Batchen är lokalt arkiverad och
 väntar på manuell import.
 
+## Batch 1 674–1 676 — kurvhandtag, länkdialoger och områden
+
+Kurvhandtagen har normaliserats till **automatiskt handtag** och
+**automatiskt begränsat handtag**. I länkdialogerna används *Bläddra bland*
+för Actioner, nodträd, arbetsytor och ljussonder. Två områdeskommandon är
+också tydligare: **Skapa från bild...** och **Byt områden**. Deltafilerna
+`1674`, `1675` och `1676` har passerat `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks. De är arkiverade och väntar på manuell import.
+
+## Batch 1 677–1 679 — mesh, inläsning och bakning
+
+Meshverktygen använder **fäst vid mittpunkt**, **ignorera fästning** och
+**loopklipp**. Resursbibliotek **läses in**, och vridpunkten heter
+**Individuella ursprung**. Bakningskommandon och feltexter använder konsekvent
+**baka** och **bakning**. Deltafilerna `1677`, `1678` och `1679` har passerat
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks. Fackorden som Hunspell-sv och
+svlang markerar har granskats manuellt. Filerna är arkiverade och väntar på
+manuell import.
+
+## Batch 1 680 — objekt, begränsningar och ljuslänkning
+
+Feltexter för samlingar, objektläge och modifierare har fått konsekvent svensk
+typografi och naturligare ordföljd. **Ljuslänkningssamling** ersätter det
+onödigt engelska *Light Linking-samling*, och data kan göras till **enskild
+användare**. Deltafilens SHA-256 är
+`d4ecd8b1c5abea4d0b173ceec91db41445bcc57b57f5b0217041a0e0925f5a35`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Hunspell-sv och
+svlang markerar endast projektets sammansättningar och falska V2-varningar.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
