@@ -4254,6 +4254,15 @@ Hunspell-sv markerar endast Blendertermerna *Actioner* och *ljussonder*.
 svlang rapporterar falska V2-varningar för korrekta imperativfraser.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 676 — områden och skiljetecken
+
+Åtgärden för att byta områden använder den korta, etablerade UI-formen
+**Byt områden**, inte det krystade *Byt områdesplatser*. Filåtgärden behåller
+källans tre punkter. Deltafilens SHA-256 är
+`99f388016beafabf4f178f897f3cbbb33dbf6dd007a06927f1fca4d06e1a01d3`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 420 — Grease Pencil-nyckelbildstyper
 
 Grease Pencil-operatörens *Breakdowns* är en Blender-typ för
