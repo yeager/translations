@@ -16182,3 +16182,15 @@ har SHA-256 `f4006b11933438e7f3b42afe640dd9cb48a0d861ddf3f027257ed996941cc5c0`.
 l10n-lint markerar endast att den korrekta förklaringen av *Thou* är längre än
 källordet. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 663 — brittisk-amerikanska enheter
+
+Yt- och volymenheter använder nu singular konsekvent: **kvadratfurlong**,
+**kvadratkedja**, **kubikfurlong** och **kubikkedja**. *Thou* uttrycks som
+**tusendels tum** även för kvadrat- och kubikenheter. **100 kilogram** och
+**mile per timme** rättar också måttangivelserna. Den lokala deltafilen har
+SHA-256 `119540e124dc14f84e2a2ce1f4330b5fda5f127fbaa372ae9e8aef7b3b14aa7b`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Hunspell-sv och svlang markerar endast de korrekta sammansättningarna med
+*furlong* och *mile* som sällsynta. Batchen är lokalt arkiverad och väntar på
+manuell import.
+
