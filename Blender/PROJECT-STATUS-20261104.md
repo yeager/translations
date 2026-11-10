@@ -11,6 +11,15 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 649 — Node Wrangler: blandningsfaktor
+
+Node Wranglers kommando för att öka Mix Factor med 0,01 använder nu samma
+term, **blandningsfaktor**, som de angränsande kommandona. Deltafilen
+`blender-ui-sv-reviewed-batch-1649-node-wrangler-mix-factor-20261110.po` är
+lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
+diffkontroll, Gitleaks, Hunspell och svlang passerade utan anmärkningar. Ingen
+import är verifierad för denna batch.
+
 ## Batch 1 648 — Cycles vyport
 
 Cycles UI använder nu **vyport**, **vyporter** och **rendering i vyporten**
