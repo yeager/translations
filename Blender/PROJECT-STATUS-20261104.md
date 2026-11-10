@@ -5224,6 +5224,17 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 570 — sekvensredigerarens tystning och färgprovtagning
+
+Två sekvensredigerarposter är förtydligade: åtgärden för tystning av remsor säger
+nu uttryckligen **omarkerade remsor**, och färgprovtagningen använder samma
+Blender-term **provta** som övriga provtagningsverktyg. Deltafilen
+`blender-ui-sv-reviewed-batch-1570-sequencer-mute-sampling-20261110.po`
+innehåller endast dessa två poster och väntar på manuell import.
+
+`msgfmt`, l10n-lint, svlang, Hunspell-sv och Gitleaks passerade utan
+rapporter i deltat.
+
 ## Batch 1 569 — UV-utjämning och rutskärning
 
 UV-skulpteringens *relax*-verktyg använder nu **utjämning** i stället för
