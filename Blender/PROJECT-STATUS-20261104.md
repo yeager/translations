@@ -11,6 +11,16 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 646 — fästpunkter och provtagning
+
+Transformeringsverktygets åtgärder använder nu **fästbas**, **fästpunkt** och
+**fästning** i stället för *snäpp*. Pipettens åtgärder använder svenskans
+**provtagning** i stället för lånet *sampling*. Deltafilen
+`blender-ui-sv-reviewed-batch-1646-transform-snap-sampling-20261110.po` är
+lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
+diffkontroll och Gitleaks passerade utan anmärkningar. Ingen import är
+verifierad för denna batch.
+
 ## Batch 1 645 — invertera fästning
 
 Nod- och transformeringsverktygets åtgärd *Snap Invert* använder nu
