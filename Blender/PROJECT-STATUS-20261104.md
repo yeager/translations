@@ -16475,3 +16475,13 @@ avgränsaren i statistikraden. Deltafilens SHA-256 är
 svlang markerar enbart de avsiktliga facktermerna *vyport*, *bakningar* och
 *.blend-fil*. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 690 — Outliner och inläsning
+
+Ett tangenttips har fått tillbaka sin enda punktmarkör. Feltexten för länkade
+objekt beskriver nu korrekt att objektet är **underordnat**, inte överordnat.
+Inläsning av bibliotek och projekt använder **läs in**. Deltafilens SHA-256
+är `64351ae954f20d5139fff65067f381d420e6f4df93c37b09c2f78bdcc2579aa5`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. svlang och
+Hunspell-sv gav inga anmärkningar. Batchen är lokalt arkiverad och väntar på
+manuell import.
+
