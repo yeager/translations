@@ -16542,3 +16542,12 @@ termen *matris* för engelska *array*. Deltafilens SHA-256 är
 `msgfmt`, l10n-lint, svlang, diffkontroll och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 697 — kompositionsoskärpa
+
+Kompositionsnoden använder nu ett idiomatiskt **boxfilter för oskärpa**.
+Beskrivningen av den snabbare approximationen skiljer tydligt mellan
+horisontell och vertikal oskärpa. Deltafilens SHA-256 är
+`2f16a5925ad042416c25a31d2a88d4e441cf5fb926be1cbb4d303bcb5c9a055a`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
