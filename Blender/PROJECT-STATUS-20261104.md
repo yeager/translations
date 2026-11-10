@@ -16446,3 +16446,11 @@ visningsområde. Deltafilens SHA-256 är
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 687 — inläsning och provtagning
+
+Statusrutan använder **Läser in...** i stället för *Laddar...*. En
+F-kurvas punkter är **provtagna**, inte *samplade*. Deltafilens SHA-256 är
+`03d827d1a2bc1b3e4e504893b2a69ae445114dcd8fb21cb8ab189fc62e11d52b`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
