@@ -4875,6 +4875,17 @@ innehåller tre granskade poster med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 538 — rutmarkering i nodredigeraren
+
+Nodredigerarens valverktyg använder den etablerade Blender-termen
+**rutmarkering**, i linje med övriga markeringsverktyg.
+
+`blender-ui-sv-reviewed-batch-1538-node-box-selection-20261110.po`
+innehåller en granskad post med SHA-256
+`c986efef561c9aef28444b44344c35c6bbbd00ca2db9e3cee4ac6caab562f517`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
