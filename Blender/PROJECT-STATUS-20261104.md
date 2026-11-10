@@ -4943,6 +4943,18 @@ två granskade poster med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 544 — cacha objektets yta
+
+Hjälptexten uttrycker cachelagringen idiomatiskt: **lagra objektets yta i
+cache**, i stället för det onödiga verbet *cacha*.
+
+`blender-ui-sv-reviewed-batch-1544-cache-object-area-20261110.po` innehåller
+en granskad post med SHA-256
+`5801bd9eb3968cba08ad72c32c95734063d9eed6ba898bb94027fc68757e2983`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. svlang rapporterar
+en möjlig passivkonstruktion, men formuleringen är en saklig hjälptext och
+korrekt svenska. Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
