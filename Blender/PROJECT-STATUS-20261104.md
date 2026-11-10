@@ -11,6 +11,17 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 711 — rendering och inställningsinläsning
+
+Renderings- och filmeddelanden följer nu källans tekniska citattecken och
+trepunktsform. Inställningar **läses in på nytt** från sparat tillstånd; de
+*laddas* inte. Deltafilen
+`blender-ui-sv-reviewed-batch-1711-render-preferences-syntax-20261110.po` är
+lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
+diffkontroll och Gitleaks passerade utan fel. Hunspell och svlang rapporterade
+endast den avsiktliga kodnyckeln *window* samt falska V2-träffar. Ingen import
+är verifierad för denna batch.
+
 ## Batch 1 710 — normalens rotationsfästning
 
 Normalvektorns interaktiva kontroll använder nu Blenders etablerade term
