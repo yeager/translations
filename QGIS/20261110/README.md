@@ -16,7 +16,7 @@ Status: samtliga tio batcher är uppladdade och mottagna. Transifex visar 0 oöv
 
 Efter kompletteringen begärdes en radvis granskning av också redan översatta strängar. En oförändrad källsnapshot från QGIS huvudgren finns i `raw/qgis-application-sv-github-master.ts`; den innehåller 36 407 meddelanden, varav 149 är markerade som ofärdiga i just den källsnapshoten. Den aktuella, oförändrade Transifex-exporten finns i `raw/qgis-application-sv-transifex-live-20261110.ts`; den har 36 515 XML-meddelanden, medan resursens API-attribut `string_count` är 36 514. Transifex huvudresurs är därmed inte identisk med GitHub-snapshoten. Den aktuella Transifex-resursen är auktoritativ för ändringar och uppladdning.
 
-Terminologi används från `terminology.md` samt diskussionsunderlaget `qgis-se-terminologi-for-diskussion.md`. Hittills har 464 av 36 514 unika strängar granskats i kontext: 195 tidigare kompletterade strängar, 268 unika korrigeringskandidater och en ytterligare sträng som bedömts korrekt utan ändring. Fem dubbla granskningsposter visade sig ha samma Transifex-ID och har slagits ihop vid beräkning och import. Återstår 36 050 strängar. Fullständig granskning av befintliga översättningar är påbörjad men ännu inte klar; statusen ovan avser endast att oöversatta strängar har kompletterats.
+Terminologi används från `terminology.md` samt diskussionsunderlaget `qgis-se-terminologi-for-diskussion.md`. Hittills har 470 av 36 514 unika strängar granskats i kontext: 195 tidigare kompletterade strängar, 274 unika korrigeringskandidater och en ytterligare sträng som bedömts korrekt utan ändring. Fem dubbla granskningsposter visade sig ha samma Transifex-ID och har slagits ihop vid beräkning och import. Återstår 36 044 strängar. Fullständig granskning av befintliga översättningar är påbörjad men ännu inte klar; statusen ovan avser endast att oöversatta strängar har kompletterats.
 
 2026-11-10: Diskussionsunderlaget för Qgis.se utökades till 390 termer. Det
 täcker QGIS huvudsakliga användargränssnitt, geodata, geometri, CRS,
@@ -27,7 +27,7 @@ förutbestämda översättningar.
 
 ## Översättningsminne
 
-De verifierade QGIS-rättningarna finns i [yeager/swedish-tm](https://github.com/yeager/swedish-tm). Uppdateringen omfattar sju kontextfria QGIS-termer i `sv-qgis.po` och `sv-qgis.tmx`, samt 273 kontextbevarade granskningsposter med 278 segment i den separata QGIS-katalogen. Efter den verifierade Transifex-importen har 206 granskningsposter, som motsvarar 201 unika Transifex-strängar, status `upstream-import-verified`. Resterande 67 unika strängar har status `local-reviewed-pending-upload` eftersom de är låsta som granskade i Transifex.
+De verifierade QGIS-rättningarna finns i [yeager/swedish-tm](https://github.com/yeager/swedish-tm). Uppdateringen omfattar sju kontextfria QGIS-termer i `sv-qgis.po` och `sv-qgis.tmx`, samt 279 kontextbevarade granskningsposter med 284 segment i den separata QGIS-katalogen. Efter den verifierade Transifex-importen har 211 granskningsposter, som motsvarar 206 unika Transifex-strängar, status `upstream-import-verified`. En ytterligare sträng har status `upstream-import-accepted-pending-readback`, eftersom Transifex accepterade den men API-autentiseringen därefter returnerar HTTP 401 vid oberoende återläsning. Resterande 67 unika strängar har status `local-reviewed-pending-upload` eftersom de är låsta som granskade i Transifex.
 
 2026-11-10: En samlad Transifex-batch med 35 verifierade ändringar skickades till den dokumenterade bulkändpunkten. Tjänsten svarade HTTP 500 med `server_error`; fyra representativa återläsningar bekräftade att ingen partiell ändring hade tillämpats. Efter batch 006 försöktes den samlade 44-strängarsbatchen på nytt och fick samma HTTP 500-svar. Återläsning av två nya och en tidigare kandidat bekräftade åter att ingen partiell ändring hade tillämpats. Batcherna 001 till 010 är arkiverade men ännu inte uppladdade.
 
@@ -43,3 +43,9 @@ det exakta uppladdningsutfallet finns i batch 038.
 2026-11-10: Batch 039 rättade tre oblockerade stavfel i datum- och
 terrängsträngar. Transifex accepterade alla tre via API och direkta
 återläsningar bekräftade svensk måltext samt ursprunget `API`.
+
+2026-11-10: Batch 040 rättade två oavsiktliga ordupprepningar. Transifex
+accepterade båda via API och direkta återläsningar bekräftade svensk måltext
+samt ursprunget `API`. Batch 041 ersatte den för snäva metadataetiketten
+`Län` med `Administrativt område`. Transifex accepterade ändringen; ny
+API-autentisering krävs för att utföra den återstående direkta återläsningen.
