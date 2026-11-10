@@ -11,6 +11,16 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 643 — skulpteringsfästning och gåläge
+
+Skulpteringsverktyget använder **Fäst utvidgningen vid ytuppsättningar** och
+gålägets avslutsåtgärd anger nu korrekt **hopptangenten**. Två relaterade
+nyckelåtgärder använder också **fästning** i stället för *snäppning*.
+Deltafilen `blender-ui-sv-reviewed-batch-1643-sculpt-snap-walk-keymap-20261110.po`
+är lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
+diffkontroll och Gitleaks passerade utan anmärkningar. Ingen import är
+verifierad för denna batch.
+
 ## Batch 1 642 — fästning i tangentbordsåtgärder
 
 Tangentbordsåtgärdernas **Snap** och **Snapping** använder nu den etablerade
