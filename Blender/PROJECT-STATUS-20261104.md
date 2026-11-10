@@ -2,10 +2,11 @@
 
 Senaste lokala arbete: 10 november 2026.
 
-> **Löpande radgranskning:** post 34 385 av 40 434 är genomgången. Det
-> motsvarar **85,04 %**. Raderna 34 286–34 385 är dokumenterade i
+> **Löpande radgranskning:** post 34 435 av 40 434 är genomgången. Det
+> motsvarar **85,16 %**. Raderna 34 286–34 435 är dokumenterade i
 > `REVIEW-UI-34286-34335-20261110.md` och
-> `REVIEW-UI-34336-34385-20261110.md`. Den äldre filen
+> `REVIEW-UI-34336-34385-20261110.md` samt
+> `REVIEW-UI-34386-34435-20261110.md`. Den äldre filen
 > `REVIEW-COVERAGE-20261108.md` räknar bara en
 > snäv, spårbar union av deltabatcher och får inte användas som arbetets
 > övergripande granskningsprocent.
@@ -33,6 +34,15 @@ har inga vikter eller hörnpunktsgrupper**. Deltafilen
 `blender-ui-sv-reviewed-io-lattice-followup-20261110.po` är lokalt
 kontrollerad med `msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och
 Gitleaks. Ingen Blender Translate-import är ännu verifierad.
+
+## Batch 1 735 – meshredigering
+
+Tre kontextkontrollerade formuleringar normaliserar **slingklipp**,
+**trådkanter** och feltexten för objekt utan vikter eller
+hörnpunktsgrupper. Deltafilen
+`blender-ui-sv-reviewed-editmesh-followup-20261110.po` är lokalt kontrollerad
+med `msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och Gitleaks.
+Ingen Blender Translate-import är ännu verifierad.
 
 ## Batch 1 730 – samlad import för export 8
 
