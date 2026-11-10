@@ -16399,3 +16399,12 @@ länken till objektdata**. Deltafilens SHA-256 är
 svlang markerar endast fackorden *modifieraren* och *instansierad* samt en
 falsk V2-varning. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 682 — objekttransformationer och volymer
+
+Tre objektrelaterade feltexter använder nu **enskild användare**, svenska
+citattecken och den böjda formen **volymen**. Deltafilens SHA-256 är
+`83c33e09955ffea1d4dcadf6c83480f90cf4265c290b29c866d63fd17eb4e98c`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Hunspell-sv markerar
+endast fackordet *voxelrutnät*. Batchen är lokalt arkiverad och väntar på
+manuell import.
+
