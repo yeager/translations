@@ -137,6 +137,11 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > för nya deltafiler. En deltafil räknas inte som importerad förrän
 > importresultatet är verifierat.
 
+En lokalt kompilerad testkatalog, `/tmp/blender.mo`, skapades 11 november
+2026 från export 8 plus den senaste lokala styrkurvedeltan. `msgfmt`,
+diffkontroll och Gitleaks godkändes. Den filen är en lokal testartefakt och
+inte en installerad eller upstream-verifierad Blender-översättning.
+
 > Korskontroll 10 november 2026: 22 aktuella deltafiler jämfördes med export 8.
 > De omfattar 210 poster, varav 130 fortfarande skiljer sig från exporten och
 > alltså återstår för manuell import. Inga källsträngar saknas. Tre historiska
