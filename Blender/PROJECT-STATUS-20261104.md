@@ -60,6 +60,14 @@ lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
 diffkontroll och Gitleaks passerade utan anmärkningar. Ingen import är
 verifierad för denna batch.
 
+## Batch 1 631 — vyport vid skuggningsinställningar
+
+Två 3D-skuggningshjälptexter använder nu konsekvent **vyport**. Deltafilen
+`blender-ui-sv-reviewed-batch-1631-viewport-shading-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll
+och Gitleaks passerade utan anmärkningar. Ingen import är verifierad för denna
+batch.
+
 ## Verifierad manuell import — 10 november 2026, efter kl. 07.00
 
 Den samlade lokala deltafilen
