@@ -5224,6 +5224,18 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 568 — skulpteringsoperatorer
+
+Tre skulpteringsposter är kontextgranskade. Kommandot *Rebuild BVH* är
+normaliserat till **Bygg om BVH**, den onödigt tunga målkonstruktionen i
+detaljprovtagningen är förenklad, och den booleska unionen benämns
+konsekvent **unionsoperation**. Deltafilen
+`blender-ui-sv-reviewed-batch-1568-sculpt-operators-20261110.po` innehåller
+endast dessa tre poster och väntar på manuell import.
+
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+enbart den avsiktliga fackförkortningen *BVH*.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
