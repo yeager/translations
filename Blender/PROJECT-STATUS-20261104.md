@@ -5223,6 +5223,18 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 580 — inställningar för redigering
+
+Sex poster i Blenders inställningar för redigering har språkgranskats:
+Blender-versionen i `userpref.blend`, synlighetsväxlar för regioner och
+sidofält, F-kurvors opacitet, nyckelkanaler samt ångringssteg.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1580-preferences-editing-20261110.po` väntar
+på manuell import. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade.
+Hunspell-sv markerar endast filnamnet *userpref.blend*, och svlang markerar
+felaktigt den grammatiskt korrekta indirekta frågan om nyckelkanaler.
+
 ## Batch 1 579 — poseringsben, IK och kanalmatris
 
 Fem UI-poster för poseringsben är språkgranskade. IK-gränsernas oöversatta
