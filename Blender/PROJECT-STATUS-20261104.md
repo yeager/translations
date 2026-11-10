@@ -29,6 +29,17 @@ uppdaterades och den tidigare saknade `Glob`-posten lades till. PO- och
 TMX-filerna validerades med `msgfmt` respektive XML-kontroll, diffkontroll och
 Gitleaks före push. TM-uppdateringen är pushad i commit `ebb129a`.
 
+## Batch 1 722 — svenska talintervall
+
+Sex användarvisade talintervall använder nu svenskt tankstreck: exempelvis
+`0,0–1,0`, `1–0` och hållmönstren `1–3` respektive `5–7`. Versions- och
+standardbeteckningar som `IEC 61966-2-1` samt datumformat behålls oförändrade.
+Deltafilen `blender-ui-sv-reviewed-numeric-ranges-20261110.po` är lokalt
+kontrollerad. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade utan
+fel; Hunspell och svlang rapporterar enbart den sammansatta facktermen
+*hållmönstren*. Blender-TM:n är synkad och pushad i commit `9a5dfef`.
+Ingen Blender Translate-import är ännu verifierad för batchen.
+
 ## Verifierad Blender Translate-import — 229 ändringar sedan kl. 16
 
 Den samlade deltafilen
