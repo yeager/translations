@@ -5223,6 +5223,17 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 583 — inmatning och navigering
+
+Fyra poster i textredigerarens och 3D-musens inställningar är granskade.
+Tabbar anges som **tabbtecken**, `Viewport` följer **vyporten**, och
+kameranavigeringen har en idiomatisk svensk hjälptext.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1583-input-navigation-20261110.po` väntar på
+manuell import. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade.
+Hunspell-sv och svlang markerar bara avsiktliga Blender-sammansättningar.
+
 ## Batch 1 582 — vyport och filsökvägar
 
 Sex UI-poster i experiment- och filsökvägsinställningarna är granskade.
