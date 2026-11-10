@@ -5050,6 +5050,18 @@ innehåller två granskade poster med SHA-256
 den etablerade facktermen **rutmarkering** som sällsynt; det är en falsk
 positiv. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 553 — målningsplats och hörnpunkter
+
+Två gränssnittstermer är normaliserade: **målningsplats** används konsekvent
+för *paint slot*, och *vertices* är **hörnpunkter**, inte *hörn*.
+
+`blender-ui-sv-reviewed-batch-1553-paint-slot-vertices-20261110.po`
+innehåller två granskade poster med SHA-256
+`f1cbcf355273b7007a42fbbbbe5c4039b3fbc501c2ec1fef1cf2de49d4a764e0`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. svlang markerar
+den sammansatta facktermen **materialskiktstyp** som sällsynt; det är en falsk
+positiv. Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
