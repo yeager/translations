@@ -4669,6 +4669,19 @@ innehåller två granskade poster med SHA-256
 hunspell-sv markerar endast produktnamnet Grease Pencil. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 514 — Grease Pencil-gruppens färgmärkning
+
+Grease Pencil-gruppens färgetikett använder nu den projektgemensamma termen
+**Färgmärkning**, i stället för den svårlästa sammansättningen
+*gruppfärgmarkering*.
+
+`blender-ui-sv-reviewed-batch-1514-grease-pencil-color-tag-20261110.po`
+innehåller en granskad post med SHA-256
+`00740c8e64017cd8d7040ac073fbfcfd683eddda66609cf3f84d84b1ae93ff5c`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade;
+hunspell-sv markerar endast produktnamnet Grease Pencil. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
