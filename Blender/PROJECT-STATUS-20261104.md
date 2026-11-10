@@ -11,6 +11,17 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > deltafiler. En deltafil räknas inte som importerad förrän importresultatet är
 > verifierat.
 
+## Batch 1 726 – ytgränser i trådramsmodifieraren
+
+Egenskapen `Support face boundaries` i trådramsmodifieraren använder nu den
+grammatiskt korrekta formuleringen **Stöd för ytgränser**, inte *Stöd ytors
+gränser*. Deltafilen
+`blender-ui-sv-reviewed-wireframe-boundaries-20261110.po` är lokalt
+kontrollerad. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade utan
+fel. Hunspell och svlang noterar endast den giltiga sammansättningen
+*ytgränser*. Blender-TM:n är synkad och pushad i commit `1c2e323`. Ingen
+Blender Translate-import är ännu verifierad för batchen.
+
 ## Batch 1 725 – Filmmenyn
 
 Den synliga huvudmenyn `File` använder nu **Fil**, inte *Arkiv*.
