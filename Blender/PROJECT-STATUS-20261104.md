@@ -4807,6 +4807,35 @@ två granskade poster med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 526–533 — kantslingor och veckvikt
+
+Följande lokalt granskade UI-deltan normaliserar meshverktygens svenska
+terminologi: **ytslinga**, **kantslinga**, **slingklipp**, **förskjuten
+kantslinga**, **gränsslinga** och **veckvikt**. Terminologin följer
+verktygens konkreta meshkontext; produkt- och API-namn lämnas oförändrade.
+
+- `blender-ui-sv-reviewed-batch-1526-face-loop-20261110.po` — SHA-256
+  `63932e270a7eac0b33b341229cfcf08e80137a87f21b82e4803169e640ecad0f`
+- `blender-ui-sv-reviewed-batch-1527-fill-edge-loops-20261110.po` — SHA-256
+  `7d487933af71b2550cbb5649664b3c39a3cd0888f2ae855fb7ca4efcde3bde9d`
+- `blender-ui-sv-reviewed-batch-1528-inset-faces-20261110.po` — SHA-256
+  `d0a66e09b5c42c59501e63e025360b1386be867cec37473dc1fdf581bf6a4e27`
+- `blender-ui-sv-reviewed-batch-1529-loop-terminology-20261110.po` — SHA-256
+  `12a40c3e58380b1270a513c4a9b77129dcedd970a3c6bb6207541b0b0f51bad5`
+- `blender-ui-sv-reviewed-batch-1530-offset-edge-loop-20261110.po` — SHA-256
+  `8a4c83991d50eb7dd155ec846a4b806f07ee9aa36461cf1a0c63053edd9b39aa`
+- `blender-ui-sv-reviewed-batch-1531-relax-edge-loops-20261110.po` — SHA-256
+  `175b986c6046bbd7cd7f1135ada10aeca8dde362025d12482d57ef44ae541d73`
+- `blender-ui-sv-reviewed-batch-1532-loop-consistency-20261110.po` — SHA-256
+  `c2527694f595820e37b12d4f9eac38dd8f29119f2b79437ebd1de60c486093e1`
+- `blender-ui-sv-reviewed-batch-1533-wireframe-crease-20261110.po` — SHA-256
+  `b58f92d8532bf633aeb83eb1a276b0e0fef0c3c164d8d58c8ae2d2b98d218df6`
+
+`msgfmt`, l10n-lint, svlang och Gitleaks passerade. Hunspell-sv bekräftar
+allmänsvenskan men saknar några domänspecifika sammansättningar, bland annat
+*ytslinga* och *veckvikt*; de har granskats i Blender-kontext. Batcherna är
+lokalt arkiverade och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
