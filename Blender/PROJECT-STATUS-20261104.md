@@ -4693,6 +4693,18 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 516 — Grease Pencil-urval
+
+Beskrivningen för sammanslagning efter avstånd använder nu den genomgående
+UI-termen **markerade punkter**, inte *utvalda punkter*.
+
+`blender-ui-sv-reviewed-batch-1516-grease-pencil-selection-20261110.po`
+innehåller en granskad post med SHA-256
+`75888e70cc5e81003a059a8afb6374723582ec67535dfdcb386ea4b05fad2559`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. Svlangs enda träff
+är den korrekta imperativformen. Batchen är lokalt arkiverad och väntar på
+manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
