@@ -4753,6 +4753,17 @@ granskade poster med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 521 — regelbundet gitter
+
+Gitterverktyget avser kontrollpunkterna i plural och heter därför **Gör
+regelbundna**.
+
+`blender-ui-sv-reviewed-batch-1521-lattice-make-regular-20261110.po`
+innehåller en granskad post med SHA-256
+`640e6efa27adee44c7f2eca79e239c2c10cfc6767ce7f5cb1c5caab61fa88a00`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
