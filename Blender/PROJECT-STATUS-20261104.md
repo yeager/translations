@@ -5223,6 +5223,16 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 584 — vyportsnavigering och ljud
+
+Fyra UI-poster är granskade. Navigeringsinställningarna använder konsekvent
+**vyporten**, och ljudenhetsraden följer källans punktlösa UI-format utan att
+införa ett tankstreck.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1584-navigation-audio-20261110.po` väntar på
+manuell import. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade.
+
 ## Batch 1 583 — inmatning och navigering
 
 Fyra poster i textredigerarens och 3D-musens inställningar är granskade.
