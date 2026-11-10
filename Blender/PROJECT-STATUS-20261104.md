@@ -5223,6 +5223,19 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 581 — redigerings- och experimentinställningar
+
+Sju poster i redigerings- och experimentinställningarna är granskade.
+**Global Undo** använder nu *Global ångring*, produktnamnet **Cycles** har
+återställts, och ett tankstreck som saknas i källtexten har ersatts med kolon.
+Fjärranslutna resursbibliotek skrivs utan den otillåtna trippelkonsonanten.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1581-experimental-preferences-20261110.po`
+väntar på manuell import. `msgfmt`, l10n-lint, diffkontroll och Gitleaks
+passerade. Hunspell-sv och svlang rapporterar endast produktnamn,
+förkortningar och en falsk V2-träff i en imperativ UI-text.
+
 ## Batch 1 580 — inställningar för redigering
 
 Sex poster i Blenders inställningar för redigering har språkgranskats:
