@@ -5223,6 +5223,21 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 577 — vyport, XR och filhantering
+
+Tio UI-poster i filhantering, USD-export, XR-navigering och paneler är
+kontextgranskade. **Remap Relative** anger nu tydligt att det är relativa
+**sökvägar** som mappas om. XR:s *snap turn* är **stegvis vridning**, och
+samtliga nya `Viewport`-förekomster följer termen **vyport**. En
+skulpteringsbeskrivning använder semikolon i stället för ett tankstreck som
+saknas i källtexten.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1577-viewport-xr-filehandling-20261110.po`
+väntar på manuell import. `msgfmt`, l10n-lint, diffkontroll och Gitleaks
+passerade. Hunspell-sv markerar bara avsiktliga Blender-/USD-termer, och
+svlang markerar en grammatisk korrekt parentes som falsk V2-positiv.
+
 ## Batch 1 576 — vyport, begränsningsbox och vycentrering
 
 Tio UI-poster i navigerings- och exportverktygen är kontextgranskade.
