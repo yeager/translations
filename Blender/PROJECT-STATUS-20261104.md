@@ -5002,6 +5002,18 @@ två granskade poster med SHA-256
 korrekta imperativsatser som möjliga V2-avvikelser; det är falska positiva.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 549 — mappa om datablock
+
+Hjälptexten anger nu uttryckligen vad det klickade elementet är:
+**det aktuella (klickade) datablocket**.
+
+`blender-ui-sv-reviewed-batch-1549-remap-data-block-20261110.po` innehåller
+en granskad post med SHA-256
+`ed08ef06e4754ffe3f3b3be9ce7ef7884c0e49603e9bdd19e84b0124201d1f3d`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. svlang markerar den
+korrekta bisatsen som möjlig V2-avvikelse; det är en falsk positiv. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
