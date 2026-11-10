@@ -1002,6 +1002,7 @@ Senast uppdaterad: 2026-11-09.
 | Geometry Node Modifier | geometrinodmodifierare | Modifierare som utvärderar en geometrinodgrupp. Skriv *geometrinodmodifierarens gränssnitt*, inte den generiska formen *modifieringsgränssnittet för geometrinoder*. |
 | keyframe | nyckelbildruta | En bildruta där ett animerat värde uttryckligen anges. |
 | F-Curve | F-kurva | Kurvan som beskriver ett animerat värde över tid. |
+| Push Pose / Relax Pose | Förstärk pose / Dämpa pose | Verktygen flyttar den aktuella posen mot respektive från nästa nyckelbildsposition. Behåll *pose* som etablerad Blender-term, men använd svenska verb. |
 | fade (sequencer) | uttoning | Gradvis övergång i bild eller ljud mellan remsor. |
 | keymap configuration | tangentmappningskonfiguration | Sparad uppsättning Blender-tangentmappningar. |
 | snap keyframes | fäst nyckelbildrutor | Flyttar nyckelbildrutor till bestämda tider, bildrutor eller markörer. |

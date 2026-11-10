@@ -16240,3 +16240,13 @@ renderingsområde. Deltafilens SHA-256 är
 `msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 668 — poseverktyg och citattecken
+
+Poseverktygen använder **Förstärk pose** och **Dämpa pose**, i stället för de
+oidiomatiska uttrycken *Tryck pose* och *Slappna av pose*. Två bensamlingsfel
+följer också svensk citatteckentypografi. Deltafilens SHA-256 är
+`80d9544fc2d5e26c220b243ff6615d399b50679e58b9c8a0a7c2d7d14d9ed00d`.
+`msgfmt`, l10n-lint, Hunspell-sv, diffkontroll och Gitleaks passerade.
+svlang rapporterar en falsk V2-varning för den korrekta meningen ”Benet …
+tilldelades inte …”. Batchen är lokalt arkiverad och väntar på manuell import.
+
