@@ -4852,6 +4852,17 @@ två granskade poster med SHA-256
 återstående markeringar gäller Blender-termer. Batcherna är lokalt arkiverade
 och väntar på manuell import.
 
+## Batch 1 536 — nodåtgärd
+
+Node Wrangler använder **åtgärd** konsekvent i valet för föregående
+blandningstyp eller åtgärd.
+
+`blender-ui-sv-reviewed-batch-1536-node-batch-operation-20261110.po`
+innehåller en granskad post med SHA-256
+`c18910fa7c59a94f4d259aaa2c2ae601db447b8fa73cb8205f1b894e7fe2a9a2`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
