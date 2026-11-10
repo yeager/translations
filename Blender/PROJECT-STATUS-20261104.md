@@ -109,8 +109,11 @@ Blendernamn. Deltafilen
 `blender-ui-sv-reviewed-pose-stallning-followup-20261110.po` passerar
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks. Hunspell-sv rapporterar bara
 IK/FK-förkortningarna; svlang rapporterar tre kända heuristiska falska
-positiva i i övrigt korrekta svenska formuleringar. Ännu inte manuellt
-importerad i Blender Translate.
+positiva i i övrigt korrekta svenska formuleringar. Den manuella samlade
+importen är verifierad: Blender Translate behandlade och uppdaterade samtliga
+50 poster i importfilen `blender-ui-sv-changes-since-1700-20261110.po`, utan
+hoppade över eller saknade strängar. Uppladdningens merge-status uppströms är
+inte separat verifierad.
 
 ## Batch 1 733 – Modala tangentmappningar
 
@@ -120,8 +123,11 @@ mappning*. Även *modal exekvering* har rättats till **modalt utförande**.
 Deltafilen `blender-ui-sv-reviewed-modal-keymaps-20261110.po` passerar
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks. Hunspell-sv noterar bara
 projektspecifika sammansättningar och *gizmo*; svlang ger 8,8/10 och en falsk
-V2-positiv på etiketten *anpassade normaler*. Ännu inte manuellt importerad i
-Blender Translate.
+V2-positiv på etiketten *anpassade normaler*. Den manuella samlade importen
+är verifierad: Blender Translate behandlade och uppdaterade samtliga 50 poster
+i importfilen `blender-ui-sv-changes-since-1700-20261110.po`, utan hoppade
+över eller saknade strängar. Uppladdningens merge-status uppströms är inte
+separat verifierad.
 
 ## Batch 1 724 – utökad inläsningsterminologi
 
