@@ -11,6 +11,16 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 648 — Cycles vyport
+
+Cycles UI använder nu **vyport**, **vyporter** och **rendering i vyporten**
+konsekvent i stället för *visningsområde*. Deltafilen
+`blender-ui-sv-reviewed-batch-1648-cycles-viewport-terminology-20261110.po`
+är lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
+diffkontroll och Gitleaks passerade utan anmärkningar. Hunspell och svlang
+rapporterade endast projekttermerna *vyport*, *BVH* och
+*blåbrussamplingsmönster*. Ingen import är verifierad för denna batch.
+
 ## Batch 1 647 — gizmons fästning
 
 Den allmänna gizmons nyckelåtgärder använder nu **Aktivera fästning** och
