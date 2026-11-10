@@ -15658,6 +15658,18 @@ två radgranskade poster med SHA-256
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 618 — vokala formanter
+
+Hjälptexten för tonhöjdsförskjutning använder nu samma etablerade term som
+reglagets etikett: **vokala formanter**.
+
+`blender-ui-sv-reviewed-batch-1618-vocal-formants-20261110.po` innehåller en
+radgranskad post med SHA-256
+`bec107bdcd5dbf7980c526d6e2d740891cda671acb019ed3bb53e10d952204a6`.
+`msgfmt`, l10n-lint, Hunspell-sv, diffkontroll och Gitleaks passerade. svlang
+gav en falsk V2-varning för den grammatiskt korrekta indirekta frågesatsen med
+*om*. Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 611 — vyport, Action och armaturobjekt
 
 Klippredigerarens interaktiva område är en **vyport**, Shape Keys avser
