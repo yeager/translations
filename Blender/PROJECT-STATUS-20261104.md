@@ -16288,3 +16288,13 @@ Deltafilens SHA-256 är
 svlang markerar bara den etablerade Blender-termen *vyporten* och en falsk
 V2-varning. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 673 — utfällningsområden och blendfilsökvägar
+
+Tre UI-feltexter använder svenska sammansättningar och naturlig ordföljd:
+**utfällningsområden**, **utfällbar panel** och sökvägar relativa till
+**.blend-filen**. Deltafilens SHA-256 är
+`d4a8160c7063129b8a536a3a4465a6dad4277cccdd35b9d4ed055de4ad7c954b`.
+`msgfmt`, l10n-lint, Hunspell-sv, diffkontroll och Gitleaks passerade.
+svlang rapporterar två falska V2-varningar. Batchen är lokalt arkiverad och
+väntar på manuell import.
+
