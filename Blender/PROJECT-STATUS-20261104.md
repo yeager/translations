@@ -5319,6 +5319,17 @@ innehåller sju granskade poster med SHA-256
 `c6ea5f102e981dd117424358954d6b132c209f8fd2c77ca9bb233e54ebb0979b`.
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
 
+## Batch 1 601 — Rigify och EEVEE terminologi
+
+Rigify använder nu idiomatiska former för mittkontroll, förälderns rotation och
+skala, målets lokala koordinatrymd samt `Y-axeln`. EEVEE:s inställning avser
+utstrålning från **baksidan**.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1601-rigify-eevee-20261110.po`
+innehåller fem granskade poster med SHA-256
+`32755351ed1a9437ebc7555ded976758668217f0b07f6d2eb69fcbea03c85ad6`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 592 — Rigify Action-inställning
 
 Rigify-hjälptexten behåller Blender-datatypen **Action** i
