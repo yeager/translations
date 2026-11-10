@@ -11,6 +11,14 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > deltafiler. En deltafil räknas inte som importerad förrän importresultatet är
 > verifierat.
 
+## Batch 1 725 – Filmmenyn
+
+Den synliga huvudmenyn `File` använder nu **Fil**, inte *Arkiv*.
+Deltafilen `blender-ui-sv-reviewed-file-menu-20261110.po` är lokalt
+kontrollerad. `msgfmt`, l10n-lint, diffkontroll, Hunspell, svlang och Gitleaks
+passerade utan anmärkning. Blender-TM:n hade redan samma formulering, så ingen
+TM-uppdatering behövdes. Ingen Blender Translate-import är ännu verifierad.
+
 ## Batch 1 724 – utökad inläsningsterminologi
 
 Sextiofyra användarvisade strängar för att öppna befintliga Blender-data
