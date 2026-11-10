@@ -11,6 +11,15 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 644 — axelfästning
+
+3D-vyns tangentbordsåtgärder använder nu **axelfästning** i stället för
+det inkonsekventa lånet *axelsnäppning*. Deltafilen
+`blender-ui-sv-reviewed-batch-1644-axis-snap-terminology-20261110.po` är
+lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
+diffkontroll och Gitleaks passerade utan anmärkningar. Ingen import är
+verifierad för denna batch.
+
 ## Batch 1 643 — skulpteringsfästning och gåläge
 
 Skulpteringsverktyget använder **Fäst utvidgningen vid ytuppsättningar** och
