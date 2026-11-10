@@ -5192,6 +5192,16 @@ granskade poster med SHA-256
 `161d987c89a3aa9ef68870bece841b25c852b2833b4ef67621cfa3401c91de40`.
 Samtliga lokala kontroller passerade. Batchen väntar på manuell import.
 
+## Batch 1 565 — utöka i skulptering
+
+Den engelska åtgärden **Expand** heter nu konsekvent **Utöka** i pensel- och
+skulpteringsverktygen, i stället för låneformen *Expandera*.
+
+`blender-ui-sv-reviewed-batch-1565-sculpt-expand-20261110.po` innehåller två
+granskade poster med SHA-256
+`2ed6686de506835fdb3f24495b39c8f336ac1bab6c1876670e73472d8e30dc44`.
+Samtliga lokala kontroller passerade. Batchen väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
