@@ -16495,3 +16495,14 @@ SHA-256 är `5ff38157d19b0b16b3c4454a77a9a1e1cd374097f7f203345db06c4ee85ce0e7`.
 svlang markerar enbart den avsiktliga Blender-termen *vyport*. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 692 — geometri och OTIO
+
+Feltexter för ben, kurvor, normaler och kanter med noll längd har fått
+idiomatisk ordföljd. **Överskjutning** används konsekvent. OTIO-exportens
+pluralrader beskriver nu rätt antal scenremsor och bildsekvenser utan konstlade
+singular-/pluralvarianter. Deltafilens SHA-256 är
+`ee8f663807b318f561304b8ab7772f8bfabe6438520390d4969b0125a27f36ca`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. svlang markerar
+enbart en falsk V2-träff i den korrekta meningen ”Det stöds för närvarande
+inte”. Batchen är lokalt arkiverad och väntar på manuell import.
+
