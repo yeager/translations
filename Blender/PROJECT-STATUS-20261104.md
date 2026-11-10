@@ -5202,6 +5202,17 @@ granskade poster med SHA-256
 `2ed6686de506835fdb3f24495b39c8f336ac1bab6c1876670e73472d8e30dc44`.
 Samtliga lokala kontroller passerade. Batchen väntar på manuell import.
 
+## Batch 1 566 — rutgest för ytuppsättning
+
+**Face Set Box Gesture** följer nu den etablerade Blender-termen **rutgest**.
+
+`blender-ui-sv-reviewed-batch-1566-face-set-box-gesture-20261110.po`
+innehåller en granskad post med SHA-256
+`b09af6b2b207337dd6ce67301d627e207c93589d563342a1553bae04b0351ef3`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade; svlang-varningen för
+den fackspecifika sammansättningen är falsk positiv. Batchen väntar på manuell
+import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
