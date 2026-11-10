@@ -4901,6 +4901,15 @@ innehåller två granskade poster med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batcherna är
 lokalt arkiverade och väntar på manuell import.
 
+## Blender Translate-import 2026-11-10 08:07 CET
+
+Den manuella importen av
+`blender-ui-sv-reviewed-sedan-kl-16-20261109-till-20261110-0807.po` är
+verifierad i Blender Translate: **413** strängar behandlades, **240**
+uppdaterades, **173** hoppades över som redan identiska och **0** strängar
+saknades. Detta bekräftar importen till Blender Translate; det är inte ett
+påstående om att ändringarna är mergade i Blenders källkod.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
