@@ -5373,6 +5373,17 @@ innehåller 12 granskade poster med SHA-256
 `e27fcfb6a78d0942864d41dce37491cf75721ed4a573f77e0e7df57919320646`.
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
 
+## Batch 1 607 — EEVEE och vyport
+
+Fyra EEVEE-poster är språkgranskade: **vyport** ersätter den generiska
+benämningen, `Bias` har den tekniska betydelsen **förskjutning**, och två
+villkorsmeningar har fått fullständig svensk satsstruktur.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1607-eevee-terminology-20261110.po`
+innehåller fyra granskade poster med SHA-256
+`4d741fe72d773d4c57162431d5f23141bd8767554427109fe4c7e6602f917a60`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 604 — renderingsvyport
 
 Tre renderingsposter använder nu projektets etablerade term **vyport**:
