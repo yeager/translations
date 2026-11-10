@@ -5362,6 +5362,17 @@ innehåller 15 granskade poster med SHA-256
 `776f1d05f6edf50f89e7da1d766bed8f35cf965cedb2443c2e6964a591b4fbef`.
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
 
+## Batch 1 606 — fysikens axlar och SPH
+
+Tolv hjälptexter och etiketter i simuleringarna för styv kropp och SPH är
+språkgranskade. Fjäder-, hastighets- och flytkraftstexterna är idiomatiska,
+och **avstötningsfaktor** används konsekvent för repulsion.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1606-physics-terminology-20261110.po`
+innehåller 12 granskade poster med SHA-256
+`e27fcfb6a78d0942864d41dce37491cf75721ed4a573f77e0e7df57919320646`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 604 — renderingsvyport
 
 Tre renderingsposter använder nu projektets etablerade term **vyport**:
