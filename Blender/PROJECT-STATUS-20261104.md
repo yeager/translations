@@ -4233,6 +4233,15 @@ diffkontroll och Gitleaks. `svlang` markerar enbart tekniska
 sammansättningar och korrekta underordnade satser. Filen är arkiverad och
 väntar på manuell import.
 
+## Batch 1 674 — kurvhandtag
+
+Kurvredigerarens knappar avser handtag, inte abstrakt hantering eller
+begränsning. De heter därför **Automatiskt handtag** och **Automatiskt
+begränsat handtag**. Deltafilens SHA-256 är
+`fa888da26fff41d54e16ca9568434fcfabaae24adfe11455265dc7e5799c9f29`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och
+Gitleaks passerade. Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 420 — Grease Pencil-nyckelbildstyper
 
 Grease Pencil-operatörens *Breakdowns* är en Blender-typ för
