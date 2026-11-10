@@ -3864,6 +3864,19 @@ Hunspell och `svlang` markerar enbart avsedda, projektspecifika sammansättninga
 och korrekta underordnade satser. Filen är arkiverad och väntar på manuell
 import.
 
+## Batch 1 621 — tema och vyport
+
+Tre temanposter använder nu den etablerade Blender-termen **vyport** och
+konsekvent grammatisk form för scenremsintervallets överlägg.
+
+`blender-ui-sv-reviewed-batch-1621-theme-vyport-terms-20261110.po` innehåller
+tre radgranskade poster med SHA-256
+`0239559a3c2ea6e7d676c582e809e0d2685390d62f41c79ee6a19a0ad9796a2e`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Hunspell-sv och svlang markerar endast de avsiktliga Blender-termerna
+*scenremsintervallet* och *vyporten*. Batchen är lokalt arkiverad och väntar på
+manuell import.
+
 ## Batch 1 620 — animationstema
 
 Sex egenskaper i animationstemats färginställningar använder nu konsekventa
