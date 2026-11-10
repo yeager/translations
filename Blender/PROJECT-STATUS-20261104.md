@@ -11,6 +11,14 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 654 — ZIP-fil
+
+Formatnamnet **ZIP** skrivs nu med versaler i installationsfelmeddelandet.
+Deltafilen `blender-ui-sv-reviewed-batch-1654-zip-file-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks passerade utan fel. Hunspell och svlang rapporterade endast
+formatnamnet *ZIP*. Ingen import är verifierad för denna batch.
+
 ## Batch 1 653 — nodkörning
 
 Nodsimuleringsverktyget använder nu **körning** i stället för den onödigt
