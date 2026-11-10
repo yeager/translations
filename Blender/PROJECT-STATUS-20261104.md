@@ -4774,6 +4774,17 @@ granskad post med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 523 — avfasningens glidning
+
+Avfasningsverktyget använder den etablerade Blender-termen **skjuta** i stället
+för kalkeringen *glida*.
+
+`blender-ui-sv-reviewed-batch-1523-bevel-slide-20261110.po` innehåller en
+granskad post med SHA-256
+`530202309bfe708176e5ca77fd356b5fd1e053cdcc243348fc7e27ef161b8d88`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
