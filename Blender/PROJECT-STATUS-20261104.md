@@ -5224,6 +5224,15 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 573 — UV-klippning till gränser
+
+UV-projiceringens *Clip to Bounds* använder nu verbet **klipp** i både
+etikett och hjälprad, i stället för den tautologiska formuleringen
+*begränsa till gränser*. Deltafilen
+`blender-ui-sv-reviewed-batch-1573-uv-clip-bounds-20261110.po` väntar på
+manuell import. `msgfmt`, l10n-lint, svlang och Gitleaks passerade utan
+rapporter.
+
 ## Batch 1 572 — transformering och UV-terminologi
 
 Sju Transform-/UV-poster är normaliserade: fästning ersätter den onödiga
