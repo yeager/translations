@@ -16408,3 +16408,12 @@ citattecken och den böjda formen **volymen**. Deltafilens SHA-256 är
 endast fackordet *voxelrutnät*. Batchen är lokalt arkiverad och väntar på
 manuell import.
 
+## Batch 1 683 — vätskor och diskcache
+
+Cachefel för vätskesimulering använder svenska citattecken. Den kompakta men
+svårlästa sammansättningen *diskcachelagring* har ersatts med **lagring i
+diskcache**. Deltafilens SHA-256 är
+`3bec3c29b36b672dfac723082aee299e5a11665b043463959238f16ed9cd3450`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
