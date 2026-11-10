@@ -16586,3 +16586,12 @@ Deltafilens SHA-256 är
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 702 — kurvor och geometri
+
+Kurvnodens hjälptext uttrycker kontrollpunktens placering rakare. En
+attributreferens behåller nu kodens raka citationstecken och geometri som ska
+tas bort använder samma naturliga verb som övrig UI-text. Deltafilens SHA-256
+är `015e91d1fd99629b20519b1437abb97d4343002c626c01073056ff8d96c2e3ba`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
