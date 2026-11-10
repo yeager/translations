@@ -7,9 +7,9 @@ släpptes den 14 juli 2026 enligt Blenders officiella releasesida. Projektet
 uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 
 > Den aktuella källexporten är `blender-ui-ui-sv (8).po`, hämtad 10 november
-> 2026 efter den verifierade manuella importen. Den är arbetsreferensen för nya
-> deltafiler. En deltafil räknas inte som importerad förrän importresultatet är
-> verifierat.
+> 2026 före den senaste verifierade manuella importen. Den är arbetsreferensen
+> för nya deltafiler. En deltafil räknas inte som importerad förrän
+> importresultatet är verifierat.
 
 > Korskontroll 10 november 2026: 22 aktuella deltafiler jämfördes med export 8.
 > De omfattar 210 poster, varav 130 fortfarande skiljer sig från exporten och
@@ -20,13 +20,15 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 ## Batch 1 730 – samlad import för export 8
 
 Den samlade filen `blender-ui-sv-current-reviewed-import-20261110.po`
-innehåller **126** fortfarande avvikande, granskade strängar för export 8.
-Den omfattar bland annat inläsning, menyn **Fil**, talintervall,
+innehåller **125** fortfarande avvikande, granskade strängar för export 8.
+Den omfattar bland annat inläsning, menyn **Arkiv**, talintervall,
 tilläggsförråd, stödformuleringar och hämtning av tillägg. Äldre ersatta
 formuleringar är bortfiltrerade. `msgfmt`, l10n-lint, diffkontroll och Gitleaks
 passerade utan fel. Hunspell och svlang rapporterar enbart Blender-termer,
-filformat och falska V2-positiv. Ingen Blender Translate-import är ännu
-verifierad för den samlade filen.
+filformat och falska V2-positiv. Den manuella importen är verifierad:
+Blender Translate behandlade 125 strängar, uppdaterade 106 och hoppade över 19
+som redan hade samma måltext. Uppladdningens merge-status uppströms är inte
+separat verifierad.
 
 ## Batch 1 729 – hämta tillägg
 
@@ -77,6 +79,17 @@ Den här batchen föreslog felaktigt **Fil** för den synliga huvudmenyn `File`.
 Användarens kontextbeslut gäller: huvudmenyn heter **Arkiv**. Batchen ska inte
 importeras och är utelämnad ur den aktuella samlade importfilen. Senaste
 exporten använder redan **Arkiv**, så ingen ersättningsändring behövs.
+
+## Batch 1 731 – Förråd i tilläggs- och i18n-funktioner
+
+Elva strängar där `repository` eller `repo` avser en programvarukälla använder
+nu **förråd** i stället för *arkiv*. Äkta filarkiv, till exempel Alembic- och
+USD-arkiv, är avsiktligt orörda. Deltafilen
+`blender-ui-sv-reviewed-repository-followup-20261110.po` är lokalt kontrollerad
+med `msgfmt`, l10n-lint, diffkontroll och Gitleaks utan fel. Hunspell-sv
+noterar projektnamnet *Blenders*, förkortningen *i18n* och den giltiga
+sammansättningen *förråd*; svlang ger 10,0/10. Ännu inte manuellt importerad i
+Blender Translate.
 
 ## Batch 1 724 – utökad inläsningsterminologi
 
