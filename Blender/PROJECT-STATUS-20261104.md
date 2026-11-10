@@ -15657,3 +15657,17 @@ två radgranskade poster med SHA-256
 `40b2ed190bf414354830b2ed6335202b239f9bd88a4c0a6f38d676da0318c85d`.
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
+
+## Batch 1 611 — vyport, Action och armaturobjekt
+
+Klippredigerarens interaktiva område är en **vyport**, Shape Keys avser
+Blenders datatyp **Action**, och sammansättningen **armaturobjekt** följer
+övriga träffar i exporten.
+
+`blender-ui-sv-reviewed-batch-1611-viewport-action-armature-20261110.po`
+innehåller tre radgranskade poster med SHA-256
+`7ce7d316e6ffa897574941bfd52ea99039b097b6df422d2cd4689e28f8cf4c45`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks
+passerade; Hunspell-sv och svlang markerar endast den etablerade termen
+**vyporten** som sällsynt. Batchen är lokalt arkiverad och väntar på manuell
+import.
