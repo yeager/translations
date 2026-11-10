@@ -11,6 +11,10 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 719–1 720 — vyport, syntax och talintervall
+
+Fem slutkontrollerade korrigeringar: **vyport** används konsekvent i hårverktygen, den tekniska etiketten `Replace Radius` behåller källans citattecken och svenska talintervall använder tankstreck. Deltafilen `blender-ui-sv-reviewed-batch-1719-1720-final-qa-20261110.po` är lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade utan fel. Ingen import är verifierad för denna batch.
+
 ## Batch 1 718 — hårkurvor och hårsnodd
 
 Hårkurvor fästs vid **en meshyta**, och det konsekventa UI-namnet för *Hair
