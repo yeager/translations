@@ -11,6 +11,18 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > deltafiler. En deltafil räknas inte som importerad förrän importresultatet är
 > verifierat.
 
+## Batch 1 728 – tilläggsförråd
+
+Trettioett UI-strängar för Blenders tilläggsförråd använder nu konsekvent
+**förråd** i stället för den missvisande termen *arkiv*. Det omfattar
+fjärrförråd, användarförråd, låsning, synkronisering och interna
+i18n-förråd. Verkliga filarkiv och Alembic-arkiv berörs inte. Deltafilen
+`blender-ui-sv-reviewed-repository-terminology-20261110.po` är lokalt
+kontrollerad. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade utan
+fel. Hunspell och svlang rapporterar endast produkt- och kodtermer.
+Blender-TM:n är synkad och pushad i commit `dfd61dc`. Ingen Blender
+Translate-import är ännu verifierad för batchen.
+
 ## Batch 1 727 – pausning av rendering
 
 Egenskapen `Support Pause Render` använder nu den fullständiga formuleringen
