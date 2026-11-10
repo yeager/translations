@@ -4284,6 +4284,15 @@ Statusen för resursbibliotek använder det svenska **Läser in** i stället fö
 Hunspell-sv markerar endast den etablerade Blendertermen *vridpunkt*. Batchen
 är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 679 — enhetlig bakning
+
+Bakningsfel, statusrader och bakningspass använder nu konsekvent Blenders
+etablerade termer **bakning**, **bakningspass** och **bakar**. Deltafilens
+SHA-256 är `01dc76bdb030313b16557f1a16b37b3c72248c144a50b2e4828121a4808737c2`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Hunspell-sv och svlang markerar endast de etablerade Blendertermerna *meshen*
+och *multires*. Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 420 — Grease Pencil-nyckelbildstyper
 
 Grease Pencil-operatörens *Breakdowns* är en Blender-typ för
