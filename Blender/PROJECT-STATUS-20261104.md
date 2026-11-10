@@ -122,6 +122,15 @@ kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll
 och Gitleaks passerade utan anmärkningar. Ingen import är verifierad för denna
 batch.
 
+## Batch 1 638 — MMB-åtgärd i vyporten
+
+Hjälptexten för mittersta musknappens dragåtgärd använder nu konsekvent
+**vyporten**. Deltafilen
+`blender-ui-sv-reviewed-batch-1638-mmb-viewport-wording-20261110.po` är
+lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
+diffkontroll och Gitleaks passerade utan anmärkningar. Ingen import är
+verifierad för denna batch.
+
 ## Verifierad manuell import — 10 november 2026, efter kl. 07.00
 
 Den samlade lokala deltafilen
