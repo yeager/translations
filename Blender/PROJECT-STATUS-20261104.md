@@ -5213,6 +5213,17 @@ innehåller en granskad post med SHA-256
 den fackspecifika sammansättningen är falsk positiv. Batchen väntar på manuell
 import.
 
+## Batch 1 567 — vyport för ytuppsättningar
+
+Ytuppsättningarnas förhandsvisning använder nu den etablerade termen
+**vyporten** i stället för *visningsvyn*.
+
+`blender-ui-sv-reviewed-batch-1567-face-set-viewport-20261110.po` innehåller
+en granskad post med SHA-256
+`22c4e2fdc1031866b850f725833e288529f7e863cad4aa6e3af5815d4f3121c2`.
+`msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
+hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
