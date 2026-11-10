@@ -16417,3 +16417,14 @@ diskcache**. Deltafilens SHA-256 är
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 684 — rendering och förhandsvisningar
+
+Renderingskommandona använder Blenders etablerade **vyport** i stället för
+det generiska *visningsområde*. Den generella posefeltexten använder
+**ställning**, medan datatypen *Action* behålls som **Actionen**. Inläsning av
+förhandsvisningar heter **Läser in förhandsvisningar**. Deltafilens SHA-256
+är `08e3c0dc443e232327d101e4a21a8ea5e9647e9309414f0e4e77890eda298552`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Hunspell-sv och
+svlang markerar endast de avsiktliga Blender-termerna *Actionen* och
+*vyporten*. Batchen är lokalt arkiverad och väntar på manuell import.
+
