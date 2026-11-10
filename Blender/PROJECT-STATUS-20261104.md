@@ -15645,3 +15645,15 @@ granskad post med SHA-256
 `af6cd02ee1e151fc2f7b71033eedf050e9a334eb8d8e3eba34be072ec0dad20a`.
 `msgfmt`, l10n-lint, Hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
+
+## Batch 1 610 — sekvensredigerare och vyport
+
+Sekvensredigerarens ljudremsor använder nu det etablerade verbet **fäst** i
+stället för det tvetydiga *snäpp*. Effekten i 3D-gränssnittet använder den
+projektspecifika termen **vyport**.
+
+`blender-ui-sv-reviewed-batch-1610-sequencer-viewport-20261110.po` innehåller
+två radgranskade poster med SHA-256
+`40b2ed190bf414354830b2ed6335202b239f9bd88a4c0a6f38d676da0318c85d`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
