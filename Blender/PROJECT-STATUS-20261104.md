@@ -4796,6 +4796,17 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 525 — ta bort kantslinga
+
+Meshkommandot och dess hjälptext använder konsekvent den svenska termen
+**kantslinga** i stället för *kantloop*.
+
+`blender-ui-sv-reviewed-batch-1525-delete-edge-loop-20261110.po` innehåller
+två granskade poster med SHA-256
+`ac01a6fea34dbbd1a009449b5c54be44503ccaa5f495ca9c900ae496c70797b4`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
