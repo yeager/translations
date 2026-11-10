@@ -2,8 +2,8 @@
 
 Senaste lokala arbete: 10 november 2026.
 
-> **Löpande radgranskning:** post 34 785 av 40 434 är genomgången. Det
-> motsvarar **86,03 %**. Raderna 34 286–34 785 är dokumenterade i
+> **Löpande radgranskning:** post 34 835 av 40 434 är genomgången. Det
+> motsvarar **86,15 %**. Raderna 34 286–34 835 är dokumenterade i
 > `REVIEW-UI-34286-34335-20261110.md` och
 > `REVIEW-UI-34336-34385-20261110.md` samt
 > `REVIEW-UI-34386-34435-20261110.md` och
@@ -13,7 +13,8 @@ Senaste lokala arbete: 10 november 2026.
 > `REVIEW-UI-34586-34635-20261110.md` och
 > `REVIEW-UI-34636-34685-20261110.md` samt
 > `REVIEW-UI-34686-34735-20261110.md` och
-> `REVIEW-UI-34736-34785-20261110.md`. Den äldre filen
+> `REVIEW-UI-34736-34785-20261110.md` samt
+> `REVIEW-UI-34786-34835-20261110.md`. Den äldre filen
 > `REVIEW-COVERAGE-20261108.md` räknar bara en
 > snäv, spårbar union av deltabatcher och får inte användas som arbetets
 > övergripande granskningsprocent.
@@ -110,6 +111,14 @@ Gitleaks. Ingen Blender Translate-import är ännu verifierad.
 `blender-ui-sv-reviewed-multires-parenting-20261110.po` är lokalt
 kontrollerad med `msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och
 Gitleaks. Ingen Blender Translate-import är ännu verifierad.
+
+## Batch 1 743 – ommeshning, effekter och transformering
+
+Tre kontextkontrollerade feltexter använder fullständig svenska och korrekt
+preposition för effekter på objekt. Deltafilen
+`blender-ui-sv-reviewed-effect-transform-20261110.po` är lokalt kontrollerad
+med `msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och Gitleaks.
+Ingen Blender Translate-import är ännu verifierad.
 
 ## Batch 1 730 – samlad import för export 8
 
