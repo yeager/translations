@@ -5171,6 +5171,17 @@ granskade poster med SHA-256
 den etablerade Blender-termen *vyport* som ovanlig; ingen rättning behövs.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 563 — filkoppling
+
+Den tekniska termen **filkoppling** används nu konsekvent i stället för
+*filassociation*.
+
+`blender-ui-sv-reviewed-batch-1563-file-association-20261110.po` innehåller en
+granskad post med SHA-256
+`d91562659e07d30f189449d4bc646450f483ca654e59925cc1ea58311651657b`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
