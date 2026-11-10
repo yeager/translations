@@ -4742,6 +4742,17 @@ innehåller en granskad post med SHA-256
 korrekta imperativformen som möjlig V2-avvikelse. Batchen är lokalt arkiverad
 och väntar på manuell import.
 
+## Batch 1 520 — rapportåtgärder
+
+Rapportåtgärderna använder nu det sakliga UI-verbet **Kör om** för replay och
+den konsekventa borttagningsåtgärden **Ta bort**.
+
+`blender-ui-sv-reviewed-batch-1520-report-actions-20261110.po` innehåller tre
+granskade poster med SHA-256
+`65f36fa7bc5e66dcc9d09891b6403700e5638a7c54389ce34d7d6eb1a03e4bbb`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
