@@ -2,8 +2,8 @@
 
 Senaste lokala arbete: 10 november 2026.
 
-> **Löpande radgranskning:** post 35 035 av 40 434 är genomgången. Det
-> motsvarar **86,64 %**. Raderna 34 286–35 035 är dokumenterade i
+> **Löpande radgranskning:** post 35 085 av 40 434 är genomgången. Det
+> motsvarar **86,77 %**. Raderna 34 286–35 085 är dokumenterade i
 > `REVIEW-UI-34286-34335-20261110.md` och
 > `REVIEW-UI-34336-34385-20261110.md` samt
 > `REVIEW-UI-34386-34435-20261110.md` och
@@ -18,7 +18,8 @@ Senaste lokala arbete: 10 november 2026.
 > `REVIEW-UI-34836-34885-20261110.md` och
 > `REVIEW-UI-34886-34935-20261110.md` och
 > `REVIEW-UI-34936-34985-20261110.md` och
-> `REVIEW-UI-34986-35035-20261110.md`. Den äldre filen
+> `REVIEW-UI-34986-35035-20261110.md` och
+> `REVIEW-UI-35036-35085-20261110.md`. Den äldre filen
 > `REVIEW-COVERAGE-20261108.md` räknar bara en
 > snäv, spårbar union av deltabatcher och får inte användas som arbetets
 > övergripande granskningsprocent.
@@ -155,6 +156,12 @@ och låter produktnamnet **Blender Render** stå kvar. Deltafilen
 `blender-ui-sv-reviewed-preview-render-20261110.po` är lokalt kontrollerad
 med `msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och Gitleaks.
 Ingen Blender Translate-import är ännu verifierad.
+
+## Batch 1 748 – arbetsområden och fönsterregioner
+
+Ett komplett intervall med 50 strängar är kontextgranskat utan att nya
+ändringar behövs. Områden, åtgärdszoner och nyckelbildrutor använder redan
+korrekt och konsekvent svenska. Ingen Blender Translate-import är aktuell.
 
 ## Batch 1 730 – samlad import för export 8
 
