@@ -106,6 +106,17 @@ IK/FK-förkortningarna; svlang rapporterar tre kända heuristiska falska
 positiva i i övrigt korrekta svenska formuleringar. Ännu inte manuellt
 importerad i Blender Translate.
 
+## Batch 1 733 – Modala tangentmappningar
+
+Arton användarvisade etiketter och hjälptexter använder nu konsekvent
+**modal tangentmappning**, i stället för den ofullständiga formen *modal
+mappning*. Även *modal exekvering* har rättats till **modalt utförande**.
+Deltafilen `blender-ui-sv-reviewed-modal-keymaps-20261110.po` passerar
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks. Hunspell-sv noterar bara
+projektspecifika sammansättningar och *gizmo*; svlang ger 8,8/10 och en falsk
+V2-positiv på etiketten *anpassade normaler*. Ännu inte manuellt importerad i
+Blender Translate.
+
 ## Batch 1 724 – utökad inläsningsterminologi
 
 Sextiofyra användarvisade strängar för att öppna befintliga Blender-data
