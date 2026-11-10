@@ -11,6 +11,15 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 717 — vyport och instansval
+
+Geometry Nodes använder nu den konsekventa Blender-termen **vyport** för
+*Viewport*. Det synliga kommandonamnet *Pick Instance* behåller sin form utan
+onödiga svenska citattecken. Deltafilen
+`blender-ui-sv-reviewed-batch-1717-vyport-pick-instance-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks passerade utan fel. Ingen import är verifierad för denna batch.
+
 ## Batch 1 716 — fält och begränsningsbox
 
 Array-nodgruppens `array` använder **fält** i stället för *matris*, och dess
