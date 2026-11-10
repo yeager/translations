@@ -11,6 +11,15 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 710 — normalens rotationsfästning
+
+Normalvektorns interaktiva kontroll använder nu Blenders etablerade term
+**fästa** i stället för det onödiga lånet *snäppa*. Deltafilen
+`blender-ui-sv-reviewed-batch-1710-normal-fasting-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll,
+Gitleaks, Hunspell och svlang passerade utan anmärkningar. Ingen import är
+verifierad för denna batch.
+
 ## Batch 1 709 — Closure-platshållare
 
 Två felmeddelanden för `Closure` bevarar nu de tekniska platshållarnas raka
