@@ -11,6 +11,26 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Manuell import — ändringar sedan kl. 16:00
+
+Den samlade importfilen `blender-ui-sv-changes-since-1600-20261110.po`, med
+156 unika poster från batch 1 668–1 707, importerades manuellt i Blender
+Translate den 10 november 2026. Servern bearbetade 156 poster: **128
+uppdaterades**, **28 hoppades över** och **0 saknades**. Importen är därmed
+verifierad för den samlade filen; upstream-granskning och merge är separata
+projektprocesser och är inte verifierade här.
+
+## Batch 1 708 — vyport och tekniska citattecken
+
+Tre geometri-/vyportsbeskrivningar använder nu **vyport** och 3D-termens
+**begränsningsbox**. Två nodmeddelanden behåller samtidigt tekniska
+citattecken runt platshållare respektive den synliga utdatan `"Remainder"`.
+Deltafilen `blender-ui-sv-reviewed-batch-1708-vyport-placeholders-20261110.po`
+är lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
+diffkontroll och Gitleaks passerade utan fel. Hunspell och svlang rapporterade
+endast projektspecifika termer och det synliga UI-namnet *Remainder*. Ingen
+import är verifierad för denna batch.
+
 ## Batch 1 707 — citerad platshållare i rutnätsfel
 
 Rutnätsnodens felmeddelande bevarar nu platshållarens tekniska citattecken:
