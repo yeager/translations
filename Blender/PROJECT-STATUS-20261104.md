@@ -16437,3 +16437,12 @@ Fyra kontextfel i skärmredigeraren använder nu idiomatisk svensk ordföljd fö
 svlang markerar endast etablerade Blender-termer. Batchen är lokalt arkiverad
 och väntar på manuell import.
 
+## Batch 1 686 — UV och vyportöverlägg
+
+Den felaktiga översättningen *UV-strålning* är rättad till **UV:er**. Ett
+överlägg i en 3D-redigerare hör till **vyporten**, inte ett allmänt
+visningsområde. Deltafilens SHA-256 är
+`fc7ae4234ffd1b708040b2ebe256ff5efc4b6f22a3c079dcdf5f796040bc9980`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
