@@ -77,6 +77,15 @@ Deltafilen `blender-ui-sv-reviewed-batch-1632-viewport-shading-terms-20261110.po
 diffkontroll och Gitleaks passerade utan anmärkningar. Ingen import är
 verifierad för denna batch.
 
+## Batch 1 633 — volymvisning och felmeddelande
+
+Två volymposter är rättade: visningssammanhanget är **vyporten** och
+felmeddelandet anger nu korrekt att inläsningen av rutnät misslyckades.
+Deltafilen `blender-ui-sv-reviewed-batch-1633-volume-display-wording-20261110.po`
+är lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
+diffkontroll och Gitleaks passerade utan anmärkningar. Ingen import är
+verifierad för denna batch.
+
 ## Verifierad manuell import — 10 november 2026, efter kl. 07.00
 
 Den samlade lokala deltafilen
