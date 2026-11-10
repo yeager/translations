@@ -11,6 +11,16 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 712 — inställningar läses in
+
+Fabriksåterställningens och filvalets **Load** använder nu **Läs in**, även i
+felmeddelandet, i stället för *Ladda*. Den tekniska platshållaren `"{}"`
+bevaras. Deltafilen
+`blender-ui-sv-reviewed-batch-1712-preferences-read-in-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks passerade utan fel. Hunspell och svlang rapporterade endast Blender-
+egennamn och sammansatta UI-termer. Ingen import är verifierad för denna batch.
+
 ## Batch 1 711 — rendering och inställningsinläsning
 
 Renderings- och filmeddelanden följer nu källans tekniska citattecken och
