@@ -16388,3 +16388,14 @@ användare**. Deltafilens SHA-256 är
 svlang markerar endast projektets sammansättningar och falska V2-varningar.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 681 — modifierare och länkade objektdata
+
+Modifieraren kan vara **inaktiverad** eller ha returnerat ett fel, utan den
+felaktiga betydelsen *genererade ett fel*. Gränssnittet använder konsekvent
+**enskild användare**, och en kvarlämnad `unlink` har ersatts med **ta bort
+länken till objektdata**. Deltafilens SHA-256 är
+`13817bd6fdb1f05bf28277c9ffb191cb6ff1559854abeafaf021ef1adb0ca118`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Hunspell-sv och
+svlang markerar endast fackorden *modifieraren* och *instansierad* samt en
+falsk V2-varning. Batchen är lokalt arkiverad och väntar på manuell import.
+
