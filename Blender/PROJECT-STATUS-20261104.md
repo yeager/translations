@@ -16269,3 +16269,12 @@ Batch 1 668 följs av en terminologirättning: den svenska animationstermen är
 `msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 671 — utfällbar panel och vinkelfästning
+
+Resurshyllan visas i en **utfällbar panel**, inte i ett popupfönster. Två
+*Snap Angle*-poster och en kurvåtgärd använder konsekvent **vinkelfästning**
+respektive **fästa**. Deltafilens SHA-256 är
+`5552d789072788b971bcb1441e2bed7f9ed92bd4eb759d8d41457abe0942b655`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
