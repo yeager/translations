@@ -11,6 +11,16 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 713 — poseringsbibliotek och VR-vyport
+
+Tilläggets beskrivning använder konsekvent **poseringsbibliotek**, och
+VR-inspektionen visar **vyporten** i stället för det generiska
+*visningsområdet*. Deltafilen
+`blender-ui-sv-reviewed-batch-1713-pose-vyport-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks passerade utan fel. Hunspell och svlang rapporterade bara den
+etablerade Blender-termen *vyport*. Ingen import är verifierad för denna batch.
+
 ## Batch 1 712 — inställningar läses in
 
 Fabriksåterställningens och filvalets **Load** använder nu **Läs in**, även i
