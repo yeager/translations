@@ -16568,3 +16568,11 @@ SHA-256 är `076d906a986c6403527d4fe95a173550de8a6482f67a0b233f86b6a087c4e41f`.
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 700 — strängbearbetning
+
+Strängnodens instruktioner använder nu **ta bort** i stället för det onödiga
+lånordet *trimma*. Deltafilens SHA-256 är
+`cd69fb79ad3dc97d47918b3afabbc90b4fc7e5bbd5a21d3a281e8c0ebf893456`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
