@@ -11,6 +11,15 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 651 — Rigify: exempel
+
+Rigifys kommando `Add sample` avser ett metariggsexempel och använder nu
+**Lägg till exempel** i stället för det missvisande *sampel*. Deltafilen
+`blender-ui-sv-reviewed-batch-1651-rigify-sample-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll,
+Gitleaks, Hunspell och svlang passerade utan anmärkningar. Ingen import är
+verifierad för denna batch.
+
 ## Batch 1 650 — Rigify: funktionsuppsättningens arkiv
 
 Rigifys felmeddelande använder nu **funktionsuppsättningens arkiv** i stället
