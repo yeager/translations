@@ -16260,3 +16260,12 @@ Hunspell-sv och svlang markerar endast kodfältet `name` och produktnamnet
 Blender som avsiktliga främmande ord. Batchen är lokalt arkiverad och väntar på
 manuell import.
 
+## Batch 1 670 — svenska ställningar i poseverktygen
+
+Batch 1 668 följs av en terminologirättning: den svenska animationstermen är
+**ställning**, inte *pose*. Verktygsnamnen är därför **Förstärk ställning** och
+**Dämpa ställning**. Deltafilens SHA-256 är
+`189437e0e03087a1d3b1a2654dcc545db33247b6133ede7845e45a86b59784ec`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
