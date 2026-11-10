@@ -80,6 +80,8 @@ Källor: QGIS egen [svenska dokumentation](https://docs.qgis.org/3.44/sv/docs/us
 | WMS, WMTS, WFS, WCS | WMS, WMTS, WFS, WCS | OGC-tjänster | Behåll protokoll- och standardnamn. |
 | GeoPackage | GeoPackage | Filformat och datakälla | Behåll formatnamnet. |
 | GeoJSON | GeoJSON | Filformat och datakälla | Behåll formatnamnet. |
+| Nominatim geocoder | Nominatim-geokodare | Sökning och attribution | Produktnamnet Nominatim översätts inte. |
+| share alike | delning på lika villkor | ODbL-attribution | Licensvillkor, inte generell UI-text. |
 | coordinate | koordinat | Geodata och kartverktyg | |
 | map unit | kartenhet | Mått i karta och digitalisering | |
 | scale bar | skalstock | Kartelement | Inte ”skalrad”. |
