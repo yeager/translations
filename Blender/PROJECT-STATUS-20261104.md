@@ -5273,6 +5273,17 @@ innehåller sju granskade poster med SHA-256
 `512c858f57b0409031ba2a5a8ce5cce8461c36163528b69fc62fc2065b01f68f`.
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
 
+## Batch 1 597 — Cycles vyportinställningar
+
+Ytterligare Cycles-inställningar använder konsekvent **vyport**, bland annat
+indelning, sampel, blandningsavstånd, texturgränser och snabb global
+belysning.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po`
+innehåller elva granskade poster med SHA-256
+`3222c6d442dc0d70251c509776377f68219e64511d3148a6b6b9710d687a2d76`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 592 — Rigify Action-inställning
 
 Rigify-hjälptexten behåller Blender-datatypen **Action** i
