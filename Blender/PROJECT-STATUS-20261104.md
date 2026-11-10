@@ -16146,3 +16146,20 @@ Två verktygstips använder nu konsekvent Blender-termerna **fästning** och
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen väntar på
 manuell import.
 
+## Batch 1 659 — Support i toppmenyn
+
+Länken **Support** i toppmenyns hjälpmeny behåller produktens synliga namn.
+Det skiljer den från tilläggens stödnivå, där **Stöd** fortfarande används.
+Den lokala deltafilen har SHA-256
+`081194df6d7c6d2d304c05fea5a5ba9087d7f1924c24a0dda719c15c48d0f62b`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
+## Batch 1 660 — Arkiv i toppmenyn
+
+Blenders toppmeny använder nu **Arkiv** för engelska **File**, i stället för
+det missvisande **Fil**. Den lokala deltafilen har SHA-256
+`de672839eb1ff34a44c2b46ce71bbaa2d9539888a92117742aa051a684c422cd`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
