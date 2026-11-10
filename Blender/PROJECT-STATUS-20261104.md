@@ -16463,3 +16463,15 @@ Deltafilens SHA-256 är
 anmärkningar och Hunspell-sv gav inga stavningsmarkeringar. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 689 — Outliner och vyporter
+
+Outlinerns verktygstips använder **vyport** och **vyporter**. Tangenttipsen
+anger nu att åtgärden ska **tillämpas** på underordnade objekt och samlingar,
+inte att något oklart ska ”anges”. Batchen rättar även *Bakes* till
+**bakningar**, anger filformatet **.blend** och återställer den saknade
+avgränsaren i statistikraden. Deltafilens SHA-256 är
+`972d9ba76eef9fecc54a382b7b5d9869e341f98d1f3830b1afa27b1b81f0f152`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Hunspell-sv och
+svlang markerar enbart de avsiktliga facktermerna *vyport*, *bakningar* och
+*.blend-fil*. Batchen är lokalt arkiverad och väntar på manuell import.
+
