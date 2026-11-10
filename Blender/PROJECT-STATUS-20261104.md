@@ -5252,6 +5252,16 @@ Deltafilen
 manuell import. `msgfmt` och Gitleaks passerade. l10n-lint rapporterar endast
 förväntade stilvarningar för sifferintervall som följer källans bindestreck.
 
+## Batch 1 595 — BVH-typ i vyport
+
+Cycles-inställningen **Viewport BVH Type** använder nu projektets etablerade
+term **vyport** i stället för det oprecisa *visningsområde*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1595-viewport-bvh-20261110.po`
+innehåller en granskad post med SHA-256
+`be29ef63b865917af18c4aa64b8ac3aeca625c48f32bdb47c298c91173f3e529`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 592 — Rigify Action-inställning
 
 Rigify-hjälptexten behåller Blender-datatypen **Action** i
