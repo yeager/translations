@@ -5146,6 +5146,19 @@ innehåller tre granskade poster med SHA-256
 det avsiktliga Blender-namnet *Actionen* som ovanligt; ingen rättning behövs.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 561 — urvalsuppsättningar
+
+Blenders **Selection Set** är nu konsekvent **urvalsuppsättning**. Den äldre
+termen *markeringsuppsättning* hade blandats in i poseringsverktyg, meddelanden
+och Rigify-relaterade menyer.
+
+`blender-ui-sv-reviewed-batch-1561-selection-sets-20261110.po` innehåller 21
+granskade poster med SHA-256
+`dcfa42d1d8584820f2f8bac373ce31ec441b274d304e6ab0f5ec737b005bcb8d`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. svlangs två
+V2-varningar är falska positiva. Batchen är lokalt arkiverad och väntar på
+manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
