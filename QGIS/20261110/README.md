@@ -16,7 +16,7 @@ Status: samtliga tio batcher är uppladdade och mottagna. Transifex visar 0 oöv
 
 Efter kompletteringen begärdes en radvis granskning av också redan översatta strängar. En oförändrad källsnapshot från QGIS huvudgren finns i `raw/qgis-application-sv-github-master.ts`; den innehåller 36 407 meddelanden, varav 149 är markerade som ofärdiga i just den källsnapshoten. Den aktuella, oförändrade Transifex-exporten finns i `raw/qgis-application-sv-transifex-live-20261110.ts`; den har 36 515 XML-meddelanden, medan resursens API-attribut `string_count` är 36 514. Transifex huvudresurs är därmed inte identisk med GitHub-snapshoten. Den aktuella Transifex-resursen är auktoritativ för ändringar och uppladdning.
 
-Terminologi används från `terminology.md` samt diskussionsunderlaget `qgis-se-terminologi-for-diskussion.md`. Hittills har 469 av 36 514 strängar granskats i kontext, varav 273 är lokalt granskade korrigeringskandidater och en ytterligare sträng har bedömts korrekt utan ändring. Återstår 36 045 strängar. Fullständig granskning av befintliga översättningar är påbörjad men ännu inte klar; statusen ovan avser endast att oöversatta strängar har kompletterats.
+Terminologi används från `terminology.md` samt diskussionsunderlaget `qgis-se-terminologi-for-diskussion.md`. Hittills har 464 av 36 514 unika strängar granskats i kontext: 195 tidigare kompletterade strängar, 268 unika korrigeringskandidater och en ytterligare sträng som bedömts korrekt utan ändring. Fem dubbla granskningsposter visade sig ha samma Transifex-ID och har slagits ihop vid beräkning och import. Återstår 36 050 strängar. Fullständig granskning av befintliga översättningar är påbörjad men ännu inte klar; statusen ovan avser endast att oöversatta strängar har kompletterats.
 
 2026-11-10: Diskussionsunderlaget för Qgis.se utökades till 390 termer. Det
 täcker QGIS huvudsakliga användargränssnitt, geodata, geometri, CRS,
@@ -27,6 +27,15 @@ förutbestämda översättningar.
 
 ## Översättningsminne
 
-De verifierade QGIS-rättningarna har publicerats i [yeager/swedish-tm](https://github.com/yeager/swedish-tm), senast i commit [`0bd5bda`](https://github.com/yeager/swedish-tm/commit/0bd5bda). Uppdateringen omfattar sju kontextfria QGIS-termer i `sv-qgis.po` och `sv-qgis.tmx`, samt 273 kontextbevarade granskningsposter med 278 segment i den separata QGIS-katalogen. Posterna har status `local-reviewed-pending-upload`, eftersom Transifex bulk-PATCH ännu inte har godkänts av tjänsten.
+De verifierade QGIS-rättningarna finns i [yeager/swedish-tm](https://github.com/yeager/swedish-tm). Uppdateringen omfattar sju kontextfria QGIS-termer i `sv-qgis.po` och `sv-qgis.tmx`, samt 273 kontextbevarade granskningsposter med 278 segment i den separata QGIS-katalogen. Efter den verifierade Transifex-importen har 206 granskningsposter, som motsvarar 201 unika Transifex-strängar, status `upstream-import-verified`. Resterande 67 unika strängar har status `local-reviewed-pending-upload` eftersom de är låsta som granskade i Transifex.
 
 2026-11-10: En samlad Transifex-batch med 35 verifierade ändringar skickades till den dokumenterade bulkändpunkten. Tjänsten svarade HTTP 500 med `server_error`; fyra representativa återläsningar bekräftade att ingen partiell ändring hade tillämpats. Efter batch 006 försöktes den samlade 44-strängarsbatchen på nytt och fick samma HTTP 500-svar. Återläsning av två nya och en tidigare kandidat bekräftade åter att ingen partiell ändring hade tillämpats. Batcherna 001 till 010 är arkiverade men ännu inte uppladdade.
+
+2026-11-10: Transifex API:s dokumenterade bulkprofil användes med högst 150
+strängar per anrop. Den första förkontrollen gav 41 och den andra 26 explicita
+`permission_denied`-svar för redan granskade strängar. Efter att de låsta
+strängarna filtrerats bort accepterade Transifex 108 respektive 93 unika
+översättningar. Fyra dubbletter normaliserades och lästes tillbaka. Tre
+separata GET-kontroller bekräftade slutvärde och ursprunget `API`; de importerade
+strängarna är ännu inte markerade som granskade i Transifex. Deltafilerna och
+det exakta uppladdningsutfallet finns i batch 038.
