@@ -16138,3 +16138,11 @@ svlang markerar endast den etablerade Blender-termen **vyport** och dess
 pluralform som sällsynta. Batchen är lokalt arkiverad och väntar på manuell
 import.
 
+## Batch 1 658 — fästning i verktygstips
+
+Två verktygstips använder nu konsekvent Blender-termerna **fästning** och
+**fäststeg**. Den lokala deltafilen har SHA-256
+`b47202384705e3f3c40a36d004aac7c5989a64fd7c5e7d9461c59edfb7c14b61`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen väntar på
+manuell import.
+
