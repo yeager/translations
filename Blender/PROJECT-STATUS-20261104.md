@@ -16578,10 +16578,11 @@ arkiverad och väntar på manuell import.
 
 ## Batch 1 701 — geometri och ställning
 
-Generiska förekomster av *pose* använder nu **ställning** och
-**viloställning**. Geometrinodens kubmesh uttrycks som en **kubformad mesh**.
+Generiska förekomster av *pose* använder nu **ställning**. Armaturens
+projektspecifika *rest pose* behåller den etablerade termen **viloposition**.
+Geometrinodens kubmesh uttrycks som en **kubformad mesh**.
 Deltafilens SHA-256 är
-`cafd06dd83909e963eab36aac09a216ed8b3baa12724d94fd6e053cca6fdd5e6`.
+`7cf83eb5dddfd7f650ffeb35ab46ac696f975d935df65be1309c6c2ebcf93271`.
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
