@@ -4682,6 +4682,17 @@ innehåller en granskad post med SHA-256
 hunspell-sv markerar endast produktnamnet Grease Pencil. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 515 — Grease Pencil och inklistringsordning
+
+Kommandot *Paste on Back* använder nu **Klistra in längst bak**. Det beskriver
+streckens visningsordning, inte en fysisk baksida.
+
+`blender-ui-sv-reviewed-batch-1515-grease-pencil-paste-order-20261110.po`
+innehåller en granskad post med SHA-256
+`3b664ec3a410a626ea7812f581c311dc448255bb7a126c6c0e864afe50b6243c`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
