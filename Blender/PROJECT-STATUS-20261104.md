@@ -5098,6 +5098,18 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 557 — växla partikelredigeringsläge
+
+Åtgärdsnamnet har en fullständig imperativform utan det felaktiga
+prepositionsvalet *växla mellan partikelredigeringsläge*.
+
+`blender-ui-sv-reviewed-batch-1557-particle-edit-toggle-20261110.po`
+innehåller en granskad post med SHA-256
+`9163f50d6261c9b41ee37ffef652abffa998bb2a8b748f98b3d7dfb54c3989f3`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. svlang markerar den
+etablerade sammansättningen **partikelredigeringsläge** som sällsynt; det är en
+falsk positiv. Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
