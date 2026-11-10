@@ -15671,3 +15671,14 @@ innehåller tre radgranskade poster med SHA-256
 passerade; Hunspell-sv och svlang markerar endast den etablerade termen
 **vyporten** som sällsynt. Batchen är lokalt arkiverad och väntar på manuell
 import.
+
+## Batch 1 612 — textredigerarens rader
+
+I textredigeraren är *line* en textrad, inte en grafisk linje. Etiketterna
+använder därför **Översta raden** och **Översta synliga raden**.
+
+`blender-ui-sv-reviewed-batch-1612-text-editor-lines-20261110.po` innehåller
+två radgranskade poster med SHA-256
+`9c3db8a96435bf7329a4fdb6b56e79d09012e967c37969109f37259c045a72fa`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
