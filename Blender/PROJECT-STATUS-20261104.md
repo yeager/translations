@@ -5223,6 +5223,18 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 586 — vyport och visningsinställningar
+
+Fyra UI-poster i system- och visningsinställningarna är granskade.
+`Viewport` följer den etablerade Blender-termen **vyport**, och
+faktorvisningens `Percentage` heter **Procent**.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1586-viewport-display-20261110.po` väntar på
+manuell import. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade.
+Hunspell-sv och svlang markerar endast avsiktliga Blender-termer och
+UI-fragment.
+
 ## Batch 1 585 — system och videoproxyer
 
 Fem systemposter är granskade. Apple-API:t **Metal** behålls som produktnamn,
