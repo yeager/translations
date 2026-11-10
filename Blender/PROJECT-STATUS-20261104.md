@@ -5284,6 +5284,19 @@ innehåller elva granskade poster med SHA-256
 `3222c6d442dc0d70251c509776377f68219e64511d3148a6b6b9710d687a2d76`.
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
 
+## Batch 1 598 — Cycles vyport och transmission
+
+Den återstående adaptiva provtagningsraden och brusreduceringen använder nu
+**vyporten**. Renderingspasset för `Transmission Color` använder konsekvent
+**transmissionsfärg**, i stället för den otydliga allmänna termen
+*överföringsfärg*.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1598-cycles-viewport-transmission-20261110.po`
+innehåller tre granskade poster med SHA-256
+`8c27bbbfe89c988a1595e18b2993a6c54a3307fa75e46a21a45baf25df77f68e`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 592 — Rigify Action-inställning
 
 Rigify-hjälptexten behåller Blender-datatypen **Action** i
