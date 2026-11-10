@@ -5384,6 +5384,17 @@ innehåller fyra granskade poster med SHA-256
 `4d741fe72d773d4c57162431d5f23141bd8767554427109fe4c7e6602f917a60`.
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
 
+## Batch 1 608 — EEVEE:s vyport och rörelseoskärpa
+
+Fem EEVEE-poster är språkgranskade: läckagebias har den tekniska termen
+**läckageförskjutning**, och vyport används konsekvent i skugg- och
+brusreduceringsinställningarna.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1608-eevee-viewport-20261110.po`
+innehåller fem granskade poster med SHA-256
+`ee84d610594fc4daa3ed2b478a4912f291592d7713d73907568a78763ff0322a`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 604 — renderingsvyport
 
 Tre renderingsposter använder nu projektets etablerade term **vyport**:
