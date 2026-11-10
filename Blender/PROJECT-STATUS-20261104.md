@@ -16484,10 +16484,12 @@ Den lokala deltafilen har SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
-## Batch 1 660 — Arkiv i toppmenyn
+## Batch 1 660 — Arkiv i toppmenyn (ersatt)
 
-Blenders toppmeny använder nu **Arkiv** för engelska **File**, i stället för
-det missvisande **Fil**. Den lokala deltafilen har SHA-256
+Den här historiska bedömningen är ersatt av den senare, uttryckliga
+kontextgranskningen i batch 1 725: Blenders synliga toppmeny använder **Fil**
+för engelska **File**. Den här äldre deltafilen ska därför inte importeras.
+Den lokala deltafilen har SHA-256
 `de672839eb1ff34a44c2b46ce71bbaa2d9539888a92117742aa051a684c422cd`.
 `msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
 Batchen är lokalt arkiverad och väntar på manuell import.
