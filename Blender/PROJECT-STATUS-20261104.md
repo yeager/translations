@@ -5121,6 +5121,18 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 559 — posens ben
+
+Pose-resursens hjälptext hänvisar nu korrekt till **denna pose**, inte till
+*denna position*.
+
+`blender-ui-sv-reviewed-batch-1559-pose-bones-20261110.po` innehåller en
+granskad post med SHA-256
+`45b4caa68cb647deca96426d433fbdcdae1a6d645522540e00baa643156266b9`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. svlang markerar den
+korrekta relativa satsen som en möjlig passivkonstruktion; det är en falsk
+positiv. Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
