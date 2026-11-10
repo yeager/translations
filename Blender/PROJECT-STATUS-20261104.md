@@ -3877,6 +3877,17 @@ Hunspell-sv och svlang markerar endast de avsiktliga Blender-termerna
 *scenremsintervallet* och *vyporten*. Batchen är lokalt arkiverad och väntar på
 manuell import.
 
+## Batch 1 622 — temaikoner och vyport
+
+Fyra temaegenskaper har normaliserats: en sista kvarvarande **vyport** och
+korrekta bestämda former för fel- och varningsikonerna samt egenskapsikonen.
+
+`blender-ui-sv-reviewed-batch-1622-theme-info-vyport-20261110.po` innehåller
+fyra radgranskade poster med SHA-256
+`ae24562e9bb0c5c76916eaaf6a1d027a44d3b4c4fd5e19492db97550fe3bc734`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
 ## Batch 1 620 — animationstema
 
 Sex egenskaper i animationstemats färginställningar använder nu konsekventa
