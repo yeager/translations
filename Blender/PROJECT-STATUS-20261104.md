@@ -5038,6 +5038,18 @@ en granskad post med SHA-256
 etablerade Blender-termen **vyporten** som sällsynt; det är en falsk positiv.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 552 — Outliner-rutmarkering
+
+Outliner använder den etablerade Blender-termen **rutmarkering** konsekvent,
+i stället för den engelskinfluerade varianten *boxmarkering*.
+
+`blender-ui-sv-reviewed-batch-1552-outliner-box-selection-20261110.po`
+innehåller två granskade poster med SHA-256
+`b1402881713fcf45805eb4199a3bf8a76210b8f78425c0d786b37528f499b973`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. svlang markerar
+den etablerade facktermen **rutmarkering** som sällsynt; det är en falsk
+positiv. Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
