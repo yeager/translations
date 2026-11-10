@@ -11,6 +11,15 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 714 — högdagrar i delad toning
+
+Delad toning använder nu den etablerade foto- och Blender-termen
+**högdagrar**, inte det ospecifika *höjdpunkter*. Deltafilen
+`blender-ui-sv-reviewed-batch-1714-split-toning-highlights-20261110.po` är
+lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
+diffkontroll, Gitleaks, Hunspell och svlang passerade utan anmärkningar.
+Ingen import är verifierad för denna batch.
+
 ## Batch 1 713 — poseringsbibliotek och VR-vyport
 
 Tilläggets beskrivning använder konsekvent **poseringsbibliotek**, och
