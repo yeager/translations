@@ -10,6 +10,9 @@ Källor: QGIS egen [svenska dokumentation](https://docs.qgis.org/3.44/sv/docs/us
 | toolbox | verktygslåda | Panel med geobearbetningsverktyg | Bevarar etablerad QGIS-term. |
 | history | historik | Tidigare körningar och åtgärder | ”Bearbetningshistorik” i Processing. |
 | algorithm | algoritm | Geobearbetning | Använd ”verktyg” endast för UI-elementet. |
+| solver | lösare | GRASS och numeriska ekvationssystem | Använd inte engelska `solver` i svensk UI-text. |
+| shell | kommandorad | GRASS-fel och systeminstruktioner | Avser här ett kommandoradsskal. |
+| binary | binärfil | GRASS-fel och systeminstruktioner | |
 | feature | objekt | Geodata i lager | ”Funktion” endast när programfunktion avses. |
 | field | fält | Attributtabell och data | Inte ”kolumn” om inte tabellvyn avses. |
 | attribute | attribut | Attributtabell och uttryck | |
