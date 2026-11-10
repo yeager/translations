@@ -67,6 +67,9 @@ Källor: QGIS egen [svenska dokumentation](https://docs.qgis.org/3.44/sv/docs/us
 | log messages panel | panelen Loggmeddelanden | Felsökning | Produktnamnet i panelrubriken behålls. |
 | plugin | insticksmodul | QGIS-tillägg | Använd ”plugin” endast om källan är ett egennamn. |
 | plugin repository | centralkatalog | Pluginhanteraren | Etablerad i berörda QGIS-dialoger. Använd inte förråd i denna UI-kontext. |
+| invalid plugin | ogiltigt tillägg | Pluginhanteraren | Skilj från tillägg som endast är trasiga eller inkompatibla. |
+| experimental plugin | experimentellt tillägg | Pluginhanteraren | Varningstext, inte produktnamn. |
+| deprecated plugin | föråldrat tillägg | Pluginhanteraren | Avser ett tillägg som inte längre underhålls. |
 | provider | leverantör | Datakällor och autentisering | |
 | script | skript | Python och uttryck | |
 | API | API | Programgränssnitt | Översätt inte akronymen. |
