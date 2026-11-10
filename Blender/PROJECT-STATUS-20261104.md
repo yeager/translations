@@ -11,6 +11,15 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 709 — Closure-platshållare
+
+Två felmeddelanden för `Closure` bevarar nu de tekniska platshållarnas raka
+citattecken. Deltafilen
+`blender-ui-sv-reviewed-batch-1709-closure-placeholders-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks passerade utan fel. Hunspell och svlang rapporterade endast det
+avsiktliga projektnamnet *Closure*. Ingen import är verifierad för denna batch.
+
 ## Manuell import — ändringar sedan kl. 16:00
 
 Den samlade importfilen `blender-ui-sv-changes-since-1600-20261110.po`, med
