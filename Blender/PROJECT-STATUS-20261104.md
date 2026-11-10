@@ -16194,3 +16194,11 @@ Hunspell-sv och svlang markerar endast de korrekta sammansättningarna med
 *furlong* och *mile* som sällsynta. Batchen är lokalt arkiverad och väntar på
 manuell import.
 
+## Verifierad manuell import — batch 1 607–1 663
+
+Den 10 november 2026 importerades den samlade deltafilen för batch 1 607–1 663
+i Blender Translate. Weblate behandlade 163 strängar: 70 uppdaterades, 93
+hoppades över som oförändrade och 0 saknades. Komponenten visar 40 434 av
+40 434 strängar översatta. Importresultatet är verifierat med användarens
+skärmbild; upstream-granskning och merge följs inte av denna importvy.
+
