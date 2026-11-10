@@ -11,6 +11,16 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > deltafiler. En deltafil räknas inte som importerad förrän importresultatet är
 > verifierat.
 
+## Batch 1 727 – pausning av rendering
+
+Egenskapen `Support Pause Render` använder nu den fullständiga formuleringen
+**Stöd för att pausa rendering**, inte den ogrammatiska *Stöd pausning av
+rendering*. Deltafilen
+`blender-ui-sv-reviewed-pause-render-support-20261110.po` är lokalt
+kontrollerad. `msgfmt`, l10n-lint, diffkontroll, Hunspell, svlang och Gitleaks
+passerade utan anmärkning. Blender-TM:n är synkad och pushad i commit
+`ab82cf0`. Ingen Blender Translate-import är ännu verifierad för batchen.
+
 ## Batch 1 726 – ytgränser i trådramsmodifieraren
 
 Egenskapen `Support face boundaries` i trådramsmodifieraren använder nu den
