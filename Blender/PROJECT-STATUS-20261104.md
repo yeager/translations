@@ -15682,3 +15682,16 @@ två radgranskade poster med SHA-256
 `9c3db8a96435bf7329a4fdb6b56e79d09012e967c37969109f37259c045a72fa`.
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
+
+## Batch 1 613 — vyport och virtuell verklighet
+
+3D-vyportens hjälptexter använder konsekvent **vyport**. Den blandade engelska
+formen *virtual reality-sessioner* normaliseras till **sessioner i virtuell
+verklighet**.
+
+`blender-ui-sv-reviewed-batch-1613-viewport-vr-terminology-20261110.po`
+innehåller fyra radgranskade poster med SHA-256
+`a7b7d5066c3cb802bf0a7bf12fe34a1ade9770ff25d71b1ef5e3f6a05056f181`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks
+passerade; Hunspell-sv och svlang markerar bara den etablerade Blender-termen
+**vyport**. Batchen är lokalt arkiverad och väntar på manuell import.
