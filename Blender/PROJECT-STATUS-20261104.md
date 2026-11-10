@@ -16173,3 +16173,12 @@ deltafilen har SHA-256
 Hunspell-sv och svlang markerar endast **vyporten** som sällsynt samt
 platshållaren `{:s}`. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 662 — längd- och ytenheter
+
+Enheten **Thou** är en tusendels tum, inte *tusen*. Skrivfelet
+*Kvadratdecenimeter* är rättat till **Kvadratdecimeter**. Den lokala deltafilen
+har SHA-256 `f4006b11933438e7f3b42afe640dd9cb48a0d861ddf3f027257ed996941cc5c0`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+l10n-lint markerar endast att den korrekta förklaringen av *Thou* är längre än
+källordet. Batchen är lokalt arkiverad och väntar på manuell import.
+
