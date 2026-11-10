@@ -5110,6 +5110,17 @@ innehåller en granskad post med SHA-256
 etablerade sammansättningen **partikelredigeringsläge** som sällsynt; det är en
 falsk positiv. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 558 — partikelvikters nycklar
+
+Hjälptexten för partikelviktens interpolering använder **nycklarnas vikt**;
+det tidigare *tangenternas vikt* syftade på fel Blender-begrepp.
+
+`blender-ui-sv-reviewed-batch-1558-particle-weight-keys-20261110.po`
+innehåller en granskad post med SHA-256
+`d84c6378fbac4ca21d0125becc6767fb8ef1d66b70bb99d3b2ed1978cc8a8df0`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
