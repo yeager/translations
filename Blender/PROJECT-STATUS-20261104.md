@@ -5224,6 +5224,18 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 569 — UV-utjämning och rutskärning
+
+UV-skulpteringens *relax*-verktyg använder nu **utjämning** i stället för
+det missvisande *avslappning*. Dessutom är videosekvensredigerarens två
+*Box Blade*-etiketter och dess hjälptext normaliserade till **rutskärning**.
+Deltafilen `blender-ui-sv-reviewed-batch-1569-uv-relax-box-blade-20261110.po`
+omfattar tio kontextgranskade poster och väntar på manuell import.
+
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv och svlang markerar
+enbart avsiktliga Blender-/matematiktermer och två imperativformuleringar som
+heuristiska falska positiva träffar.
+
 ## Batch 1 568 — skulpteringsoperatorer
 
 Tre skulpteringsposter är kontextgranskade. Kommandot *Rebuild BVH* är
