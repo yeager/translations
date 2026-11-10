@@ -4242,6 +4242,18 @@ begränsat handtag**. Deltafilens SHA-256 är
 `msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och
 Gitleaks passerade. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 675 — länkbläddrare och gränssnittstext
+
+Bläddraren uttrycker konsekvent urvalet med **Bläddra bland … som ska
+länkas**. Den använder även svenska termerna **ljussonder** och
+**arbetsytor**. Två små gränssnittsrättningar lägger till bestämd form i
+*panelen* och behåller källans tre punkter i filväljaren. Deltafilens SHA-256
+är `1a609a5df64214ffaf49997ea2cf0fd7957182f7096c4246fe8a3d6983d266f0`.
+`msgfmt`, l10n-lint, Hunspell-sv, diffkontroll och Gitleaks passerade.
+Hunspell-sv markerar endast Blendertermerna *Actioner* och *ljussonder*.
+svlang rapporterar falska V2-varningar för korrekta imperativfraser.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 420 — Grease Pencil-nyckelbildstyper
 
 Grease Pencil-operatörens *Breakdowns* är en Blender-typ för
