@@ -16506,3 +16506,13 @@ singular-/pluralvarianter. Deltafilens SHA-256 är
 enbart en falsk V2-träff i den korrekta meningen ”Det stöds för närvarande
 inte”. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 693 — USD och fält
+
+En USD-skelettfråga **hämtar** data i stället för att läsa den. Engelska
+*array* är rättat från *matris* till **fält**, både i ledordningen och i
+feltexter om fältlängd. Deltafilens SHA-256 är
+`eb3e63640045be10c24909bc50dda1299d21f96bdba2cef0e02944c50d4bd626`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. svlang markerar
+endast en falsk V2-träff i en teknisk USD-feltext. Batchen är lokalt arkiverad
+och väntar på manuell import.
+
