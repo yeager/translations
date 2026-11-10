@@ -15670,6 +15670,20 @@ radgranskad post med SHA-256
 gav en falsk V2-varning för den grammatiskt korrekta indirekta frågesatsen med
 *om*. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 619 — partikelhårets krusning
+
+Partikelhårens **Kink**-egenskaper använder nu den etablerade, begripliga
+termen **krusning** i stället för den missvisande termen *nyck*. Fem
+egenskapsrubriker har dessutom normaliserats till åtgärdsformen **Påverka**.
+
+`blender-ui-sv-reviewed-batch-1619-particle-kink-terminology-20261110.po`
+innehåller 13 radgranskade poster med SHA-256
+`ee5b80d4abc604c158cf75603d28605476ba7fe073fd1278935d17e0a82d2768`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Hunspell-sv och svlang markerar bara den kontextkorrekta sammansättningen
+*krusningsamplitudfaktor*. Batchen är lokalt arkiverad och väntar på manuell
+import.
+
 ## Batch 1 611 — vyport, Action och armaturobjekt
 
 Klippredigerarens interaktiva område är en **vyport**, Shape Keys avser
