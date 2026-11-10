@@ -34,6 +34,10 @@ Källor: QGIS egen [svenska dokumentation](https://docs.qgis.org/3.44/sv/docs/us
 | input | indata | Algoritmparameter | |
 | output | utdata | Algoritmresultat | |
 | parameter | parameter | Algoritm och inställning | |
+| argument | argument | Uttrycksfunktioner | Kodnära namn som `strict` och `true` översätts inte. |
+| wavelength | våglängd | Uttrycksfunktioner för vågformer | |
+| maximum wavelength | maximal våglängd | Uttrycksfunktioner för vågformer | |
+| project root name | projektets rotnamn | Projektvalidering | Inte `root-namn`. |
 | processing model | geobearbetningsmodell | Model Designer | |
 | model | modell | Model Designer | Översätt inte filändelser eller kodnamn. |
 | extent | utbredning | Parameteretikett | ”Geografisk utbredning” när precision behövs. |
