@@ -5308,6 +5308,17 @@ innehåller en granskad post med SHA-256
 `58c4312082468ded8dee4a67cd7a8bcb90858146c4caaaa302b9fac77ff82299`.
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
 
+## Batch 1 600 — Rigify kontrollterminologi
+
+Rigify använder nu konsekvent **IK-påverkan**, korrekt konstruktion i
+**stöd för enhetlig skalning**, **handflatans rotationsaxel** samt de enhetliga
+axelvalen `X-manual`, `Y-manual` och `Z-manual`.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1600-rigify-controls-20261110.po`
+innehåller sju granskade poster med SHA-256
+`c6ea5f102e981dd117424358954d6b132c209f8fd2c77ca9bb233e54ebb0979b`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 592 — Rigify Action-inställning
 
 Rigify-hjälptexten behåller Blender-datatypen **Action** i
