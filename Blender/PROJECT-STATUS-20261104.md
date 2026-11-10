@@ -16551,3 +16551,11 @@ horisontell och vertikal oskärpa. Deltafilens SHA-256 är
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 698 — riktningsoskärpa
+
+Tre hjälptester för riktningsoskärpa beskriver nu naturligt mängden rotation,
+skalning och förskjutning som oskärpan omfattar. Deltafilens SHA-256 är
+`598bbc833b77bc1cc7af10158cde870d04c0163c01f043c33651ca39265076f1`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
