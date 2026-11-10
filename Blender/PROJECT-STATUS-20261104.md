@@ -11,6 +11,15 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 707 — citerad platshållare i rutnätsfel
+
+Rutnätsnodens felmeddelande bevarar nu platshållarens tekniska citattecken:
+`"{}"` i stället för typografiska svenska citattecken. Deltafilen
+`blender-ui-sv-reviewed-batch-1707-grid-placeholder-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll,
+Gitleaks, Hunspell och svlang passerade utan anmärkningar. Ingen import är
+verifierad för denna batch.
+
 ## Batch 1 706 — geringsfog och startposition
 
 Avfasningsnodens hörnalternativ använder facktermen **geringsfog**, och
