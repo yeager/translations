@@ -68,6 +68,15 @@ kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll
 och Gitleaks passerade utan anmärkningar. Ingen import är verifierad för denna
 batch.
 
+## Batch 1 632 — vyport i renderings- och förhandsvisningsinställningar
+
+Fyra relaterade 3D-skuggningsposter använder nu konsekvent **vyport**:
+renderingspass, skuggning, kompositörsförhandsvisning och skärpedjup.
+Deltafilen `blender-ui-sv-reviewed-batch-1632-viewport-shading-terms-20261110.po`
+är lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
+diffkontroll och Gitleaks passerade utan anmärkningar. Ingen import är
+verifierad för denna batch.
+
 ## Verifierad manuell import — 10 november 2026, efter kl. 07.00
 
 Den samlade lokala deltafilen
