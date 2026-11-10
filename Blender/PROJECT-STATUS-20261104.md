@@ -4785,6 +4785,17 @@ granskad post med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 524 — böj kantslingor
+
+Meshkommandot använder verbet **Böj**: engelska *Curve* beskriver åtgärden,
+inte ett substantiv.
+
+`blender-ui-sv-reviewed-batch-1524-curve-edge-loops-20261110.po` innehåller
+en granskad post med SHA-256
+`715b0f175f7c81b25859c3ed27daf44e91704bb176ad17a31064dc1bbe942ffc`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
