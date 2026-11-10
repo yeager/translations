@@ -5224,6 +5224,19 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 571 — sekvens, ljud, ytnurbs och textredigerare
+
+Sju kontextgranskade poster korrigerar sekvensredigerarens ljudpåslag för
+omarkerade remsor, använder **nedmixning** konsekvent, normaliserar NURBS
+*surface patch* till **ytplatta** och gör filslutet/interna textfiler
+idiomatiska. Deltafilen
+`blender-ui-sv-reviewed-batch-1571-sequencer-sound-text-20261110.po`
+väntar på manuell import.
+
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv markerar den
+fackspecifika termen *ytplatta*; svlang markerar en imperativform som en
+heuristisk falsk positiv träff.
+
 ## Batch 1 570 — sekvensredigerarens tystning och färgprovtagning
 
 Två sekvensredigerarposter är förtydligade: åtgärden för tystning av remsor säger
