@@ -11,6 +11,15 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Verifierad manuell import — 10 november 2026, efter kl. 07.00
+
+Den samlade lokala deltafilen
+`blender-ui-sv-reviewed-since-0700-20261110.po` importerades manuellt i
+Blender Translate. Resultatet som visades av tjänsten var **233 behandlade**
+poster: **169 uppdaterade**, **64 hoppade över** och **0 saknade**. Importen
+är därmed verifierad. Upstreamgranskning, eventuell senare källsynkning och
+merge har inte verifierats i detta steg.
+
 ## Helkatalogskontroll av export `(6)`
 
 Måltexterna i hela UI-exporten kontrollerades 9 november med msgfmt,
