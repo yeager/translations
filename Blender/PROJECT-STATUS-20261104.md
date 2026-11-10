@@ -11,6 +11,14 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 718 — hårkurvor och hårsnodd
+
+Hårkurvor fästs vid **en meshyta**, och det konsekventa UI-namnet för *Hair
+Tie* är **hårsnodd**. Deltafilen
+`blender-ui-sv-reviewed-batch-1718-hair-curves-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks passerade utan fel. Ingen import är verifierad för denna batch.
+
 ## Batch 1 717 — vyport och instansval
 
 Geometry Nodes använder nu den konsekventa Blender-termen **vyport** för
