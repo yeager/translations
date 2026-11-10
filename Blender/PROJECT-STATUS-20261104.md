@@ -5223,6 +5223,19 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 579 — poseringsben, IK och kanalmatris
+
+Fem UI-poster för poseringsben är språkgranskade. IK-gränsernas oöversatta
+*Minimum* använder nu **minimum**, och kanalmatrisens hjälptext anger tydligt
+att dess kanaler avser position, rotation och skalning. **Pose Tail Position**
+heter **Benspetsposition för pose**.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1579-pose-bone-ik-20261110.po` väntar på
+manuell import. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade.
+Hunspell-sv och svlang markerar endast den korrekta Blender-sammansättningen
+*benspetsposition*.
+
 ## Batch 1 578 — vyport, provtagning och fästning
 
 Åtta UI-poster i Cycles, bildverktyg och sekvensredigeraren är
