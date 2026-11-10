@@ -2,11 +2,12 @@
 
 Senaste lokala arbete: 10 november 2026.
 
-> **Löpande radgranskning:** post 34 435 av 40 434 är genomgången. Det
-> motsvarar **85,16 %**. Raderna 34 286–34 435 är dokumenterade i
+> **Löpande radgranskning:** post 34 485 av 40 434 är genomgången. Det
+> motsvarar **85,29 %**. Raderna 34 286–34 485 är dokumenterade i
 > `REVIEW-UI-34286-34335-20261110.md` och
 > `REVIEW-UI-34336-34385-20261110.md` samt
-> `REVIEW-UI-34386-34435-20261110.md`. Den äldre filen
+> `REVIEW-UI-34386-34435-20261110.md` och
+> `REVIEW-UI-34436-34485-20261110.md`. Den äldre filen
 > `REVIEW-COVERAGE-20261108.md` räknar bara en
 > snäv, spårbar union av deltabatcher och får inte användas som arbetets
 > övergripande granskningsprocent.
@@ -44,6 +45,14 @@ hörnpunktsgrupper samt konsekvent `redigeringsläge`. Deltafilerna
 `blender-ui-sv-reviewed-editmesh-errors-20261110.po` är lokalt kontrollerade
 med `msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och Gitleaks.
 Ingen Blender Translate-import är ännu verifierad.
+
+## Batch 1 736 – meshurval och vyaxel
+
+Två kontextkontrollerade formuleringar använder den befintliga termen
+**urvalstyp** och en komplett feltext för saknad vy. Deltafilen
+`blender-ui-sv-reviewed-mesh-selection-followup-20261110.po` är lokalt
+kontrollerad med `msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och
+Gitleaks. Ingen Blender Translate-import är ännu verifierad.
 
 ## Batch 1 730 – samlad import för export 8
 
