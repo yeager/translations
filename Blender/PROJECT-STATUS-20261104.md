@@ -86,6 +86,15 @@ Deltafilen `blender-ui-sv-reviewed-batch-1633-volume-display-wording-20261110.po
 diffkontroll och Gitleaks passerade utan anmärkningar. Ingen import är
 verifierad för denna batch.
 
+## Batch 1 634 — XR-åtgärdsposer
+
+En XR-hjälptext skiljer nu korrekt mellan den generella *action* och Blenders
+datatyp **Action**: **Åtgärdsposerna** används för VR-kontrollernas grepp.
+Deltafilen `blender-ui-sv-reviewed-batch-1634-xr-action-terminology-20261110.po`
+är lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
+diffkontroll och Gitleaks passerade utan anmärkningar. Ingen import är
+verifierad för denna batch.
+
 ## Verifierad manuell import — 10 november 2026, efter kl. 07.00
 
 Den samlade lokala deltafilen
