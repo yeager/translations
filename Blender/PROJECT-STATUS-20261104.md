@@ -4717,6 +4717,19 @@ innehåller en granskad post med SHA-256
 hunspell-sv markerar endast produktnamnet Grease Pencil. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 518 — bildplansimportens renderingsmetod
+
+Bildplansimporten använder nu den tydliga tekniska formuleringen
+**hashbaserad transparens**. De två UI-valen för positiv Y- respektive
+Z-riktning har också fått det saknade verbet **Vänd**.
+
+`blender-ui-sv-reviewed-batch-1518-image-plane-render-method-20261110.po`
+innehåller tre granskade poster med SHA-256
+`8d484a52e166dbbf8807928b96ebbb824e725f7060eabb0c52a8705e2d87cf8b`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. Svlangs enda träff
+är den korrekta imperativformen. Batchen är lokalt arkiverad och väntar på
+manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
