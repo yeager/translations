@@ -1,16 +1,15 @@
 # Blender: projektstatus 5 november 2026
 
-Senaste lokala arbete: 9 november 2026.
+Senaste lokala arbete: 10 november 2026.
 
 Projektets aktualitet är verifierad 9 november 2026: Blender 5.2 LTS
 släpptes den 14 juli 2026 enligt Blenders officiella releasesida. Projektet
 uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 
-> Den aktuella källexporten är `blender-ui-ui-sv (6).po`, hämtad 9 november
-> 2026. Den skiljer sig i 1 269 svenska måltexter från export `(5)` och är
-> därmed den enda arbetsreferensen för nya deltafiler. Jämförelsen bekräftar
-> att manuella importer har fått genomslag, men en deltafil räknas inte som
-> importerad förrän importresultatet är verifierat.
+> Den aktuella källexporten är `blender-ui-ui-sv (7).po`, hämtad 10 november
+> 2026. Den är arbetsreferensen för nya deltafiler. Jämförelser med tidigare
+> exporter bekräftar att manuella importer har fått genomslag, men en deltafil
+> räknas inte som importerad förrän importresultatet är verifierat.
 
 ## Helkatalogskontroll av export `(6)`
 
@@ -5223,6 +5222,22 @@ en granskad post med SHA-256
 `22c4e2fdc1031866b850f725833e288529f7e863cad4aa6e3af5815d4f3121c2`.
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
+
+## Batch 1 576 — vyport, begränsningsbox och vycentrering
+
+Tio UI-poster i navigerings- och exportverktygen är kontextgranskade.
+**Viewport** använder konsekvent den etablerade Blender-termen **vyport**,
+**bounding box** är **begränsningsbox**, och kommandot *Center View to Mouse*
+anger uttryckligen **muspekaren**. Lasso-urvalet heter
+**lassomarkering**.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1576-viewport-bounds-navigation-20261110.po`
+väntar på manuell import. `msgfmt`, l10n-lint, diffkontroll och Gitleaks
+passerade. Hunspell-sv markerar endast avsiktliga Blender- och formatord:
+*vyport*, *lassomarkering*, *modifierarinställningar*, *SVG* och
+*flerupplösningsmodifierare*. Svlang markerar två grammatiskt korrekta
+UI-fragment som falska V2-positiv.
 
 ## Batch 1 575 — UV-sömnad och uppackning
 
