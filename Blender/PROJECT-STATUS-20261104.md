@@ -11,6 +11,14 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 705 — vinkelfält
+
+Geometrinodernas vinkelfält använder nu **teckenlös vinkel** respektive
+**teckenförsedd vinkel**, vilket anger om vinkelns riktning bevaras. Deltafilen
+`blender-ui-sv-reviewed-batch-1705-angle-fields-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks passerade utan fel. Ingen import är verifierad för denna batch.
+
 ## Batch 1 655 — formnyckelbas
 
 Formnyckelkommandot `Make Basis` använder nu **Gör till bas**, eftersom den
