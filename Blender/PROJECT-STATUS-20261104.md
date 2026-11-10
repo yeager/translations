@@ -71,13 +71,12 @@ fel. Hunspell och svlang noterar endast den giltiga sammansättningen
 *ytgränser*. Blender-TM:n är synkad och pushad i commit `1c2e323`. Ingen
 Blender Translate-import är ännu verifierad för batchen.
 
-## Batch 1 725 – Filmmenyn
+## Batch 1 725 – Filmmenyn (ersatt)
 
-Den synliga huvudmenyn `File` använder nu **Fil**, inte *Arkiv*.
-Deltafilen `blender-ui-sv-reviewed-file-menu-20261110.po` är lokalt
-kontrollerad. `msgfmt`, l10n-lint, diffkontroll, Hunspell, svlang och Gitleaks
-passerade utan anmärkning. Blender-TM:n hade redan samma formulering, så ingen
-TM-uppdatering behövdes. Ingen Blender Translate-import är ännu verifierad.
+Den här batchen föreslog felaktigt **Fil** för den synliga huvudmenyn `File`.
+Användarens kontextbeslut gäller: huvudmenyn heter **Arkiv**. Batchen ska inte
+importeras och är utelämnad ur den aktuella samlade importfilen. Senaste
+exporten använder redan **Arkiv**, så ingen ersättningsändring behövs.
 
 ## Batch 1 724 – utökad inläsningsterminologi
 
@@ -16501,11 +16500,11 @@ Den lokala deltafilen har SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
-## Batch 1 660 — Arkiv i toppmenyn (ersatt)
+## Batch 1 660 — Arkiv i toppmenyn
 
-Den här historiska bedömningen är ersatt av den senare, uttryckliga
-kontextgranskningen i batch 1 725: Blenders synliga toppmeny använder **Fil**
-för engelska **File**. Den här äldre deltafilen ska därför inte importeras.
+Blenders synliga toppmeny använder **Arkiv** för engelska **File**. Den senare
+batch 1 725 föreslog felaktigt **Fil**, har markerats som ersatt och ska inte
+importeras.
 Den lokala deltafilen har SHA-256
 `de672839eb1ff34a44c2b46ce71bbaa2d9539888a92117742aa051a684c422cd`.
 `msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
