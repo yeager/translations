@@ -5224,6 +5224,14 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 574 — UV-begränsningsboxar och hörnpunkter
+
+Tio UV-poster är normaliserade till den etablerade Blender-terminologin
+**begränsningsbox** och **UV-hörnpunkt**. Deltafilen
+`blender-ui-sv-reviewed-batch-1574-uv-bounding-box-vertices-20261110.po`
+väntar på manuell import. `msgfmt`, l10n-lint och Gitleaks passerade;
+Hunspell-sv och svlang har kontrollerats separat före arkivering.
+
 ## Batch 1 573 — UV-klippning till gränser
 
 UV-projiceringens *Clip to Bounds* använder nu verbet **klipp** i både
