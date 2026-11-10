@@ -15728,3 +15728,14 @@ innehåller två radgranskade poster med SHA-256
 `e4902c7ba8c5fb957a98a305987646b0c5de051b588a94e278044855e572dfc4`.
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
+
+## Batch 1 617 — scenremsans tidslinje
+
+Den krystade sammansättningen *sekvensredigerare-tidslinje* ersätts av den
+idiomatiska satsdelen **tidslinjen i scenens sekvensredigerare**.
+
+`blender-ui-sv-reviewed-batch-1617-scene-strip-timeline-20261110.po`
+innehåller en radgranskad post med SHA-256
+`f1de8b5ef7262d5845eea80aba98e24aded1884498064b1060fc3019cb8defb7`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
