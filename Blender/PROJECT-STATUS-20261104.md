@@ -16250,3 +16250,13 @@ följer också svensk citatteckentypografi. Deltafilens SHA-256 är
 svlang rapporterar en falsk V2-varning för den korrekta meningen ”Benet …
 tilldelades inte …”. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 669 — resurslistningens feltexter
+
+Tre resurslistningsfeltexter har idiomatisk meningsinitial versal och den
+tydliga statusen **Inga resurser finns i listan**. Deltafilens SHA-256 är
+`38d1851636c3982cd26b4f6304dfd73f3ee206f0b5a39aefe8af0290219d6d7e`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Hunspell-sv och svlang markerar endast kodfältet `name` och produktnamnet
+Blender som avsiktliga främmande ord. Batchen är lokalt arkiverad och väntar på
+manuell import.
+
