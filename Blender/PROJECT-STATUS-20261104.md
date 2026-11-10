@@ -11,6 +11,17 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > exporter bekräftar att manuella importer har fått genomslag, men en deltafil
 > räknas inte som importerad förrän importresultatet är verifierat.
 
+## Batch 1 626 — kamerafixering och markeringsläge
+
+Tre UI-poster från arbetsreferensen har granskats i sin Blender-RNA-kontext.
+*Camera Fix* använder nu konsekvent **kamerafixering** för rotation och skala,
+och Grease Pencils inställning *Select Mode* är **Markeringsläge**, i linje
+med övriga Blender-etiketter. Deltafilen
+`blender-ui-sv-reviewed-batch-1626-camera-fix-selection-mode-20261110.po` är
+lokal och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll och
+Gitleaks passerade; inga varningar eller hemligheter rapporterades. Ingen
+import är verifierad för denna batch.
+
 ## Verifierad manuell import — 10 november 2026, efter kl. 07.00
 
 Den samlade lokala deltafilen
