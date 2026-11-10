@@ -3888,6 +3888,17 @@ fyra radgranskade poster med SHA-256
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 624 — paneltema
+
+Tre temaegenskaper för paneler och menyer använder nu idiomatisk svensk
+samordning i stället för den krystade formen *panel/meny*.
+
+`blender-ui-sv-reviewed-batch-1624-panel-theme-wording-20261110.po`
+innehåller tre radgranskade poster med SHA-256
+`db114ed95f34bf4e3737045028919bd07553bbcfebc6ff20a18eea460e27e39f`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
 ## Batch 1 623 — konsekventa temaetiketter
 
 Tre temarubriker använder nu konsekvent ordval: **vald**, **tema för
