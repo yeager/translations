@@ -77,6 +77,9 @@ Källor: QGIS egen [svenska dokumentation](https://docs.qgis.org/3.44/sv/docs/us
 | DXF | DXF | Filformat | Översätts inte. |
 | CSV | CSV | Filformat | Översätts inte. |
 | EPSG | EPSG | CRS-identifierare | Översätts inte. |
+| EPSG Registry database version | EPSG-registrets databasversion | CRS-information | EPSG behålls som identifierare. |
+| Proj String | Proj-sträng | CRS-definition | Produktnamnet och versaliseringen följer QGIS källtext. |
+| GeographicLib version | GeographicLib-version | Bearbetningsinformation | Biblioteksnamnet översätts inte. |
 | WMS, WMTS, WFS, WCS | WMS, WMTS, WFS, WCS | OGC-tjänster | Behåll protokoll- och standardnamn. |
 | GeoPackage | GeoPackage | Filformat och datakälla | Behåll formatnamnet. |
 | GeoJSON | GeoJSON | Filformat och datakälla | Behåll formatnamnet. |
