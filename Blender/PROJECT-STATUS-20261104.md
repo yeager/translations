@@ -2,8 +2,8 @@
 
 Senaste lokala arbete: 10 november 2026.
 
-> **Löpande radgranskning:** post 35 385 av 40 434 är genomgången. Det
-> motsvarar **87,51 %**. Raderna 34 286–35 385 är dokumenterade i
+> **Löpande radgranskning:** post 35 435 av 40 434 är genomgången. Det
+> motsvarar **87,64 %**. Raderna 34 286–35 435 är dokumenterade i
 > `REVIEW-UI-34286-34335-20261110.md` och
 > `REVIEW-UI-34336-34385-20261110.md` samt
 > `REVIEW-UI-34386-34435-20261110.md` och
@@ -25,7 +25,8 @@ Senaste lokala arbete: 10 november 2026.
 > `REVIEW-UI-35186-35235-20261110.md` och
 > `REVIEW-UI-35236-35285-20261110.md` och
 > `REVIEW-UI-35286-35335-20261110.md` och
-> `REVIEW-UI-35336-35385-20261110.md`. Den äldre filen
+> `REVIEW-UI-35336-35385-20261110.md` och
+> `REVIEW-UI-35386-35435-20261110.md`. Den äldre filen
 > `REVIEW-COVERAGE-20261108.md` räknar bara en
 > snäv, spårbar union av deltabatcher och får inte användas som arbetets
 > övergripande granskningsprocent.
@@ -215,6 +216,14 @@ markörkommandon. Deltafilen
 `blender-ui-sv-reviewed-asset-filebrowser-20261110.po` är lokalt kontrollerad
 med `msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och Gitleaks.
 Ingen Blender Translate-import är ännu verifierad.
+
+## Batch 1 755 – drivrutiner och F-kurvor
+
+En kontextkontrollerad formulering ersätter den engelskpåverkade frasen *för
+detaljer* med **för mer information**. Deltafilen
+`blender-ui-sv-reviewed-driver-20261110.po` är lokalt kontrollerad med
+`msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och Gitleaks. Ingen
+Blender Translate-import är ännu verifierad.
 
 ## Batch 1 730 – samlad import för export 8
 
