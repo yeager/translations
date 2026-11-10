@@ -16219,3 +16219,15 @@ avser **vyporten**, inte det generella *visningsområdet*. Deltafilens SHA-256
 Verktygen markerar endast produktnamnet **Grease Pencil**, **vyporten** och en
 falsk V2-varning. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 666 — EEVEE-inställning och irradiansrutnät
+
+EEVEE-instruktionen är nu rakare: välj **Underprocess** som
+shaderkompileringsmetod under **Inställningar > System**. *Irradiance grid*
+normaliseras till **irradiansrutnät**, i linje med övriga ljusprobstermer.
+Deltafilens SHA-256 är
+`951fcef8e1163086ec68b9fc5b54df066e513ffd3439268a4b66ab50f666693c`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Hunspell-sv och
+svlang markerar endast de korrekta fackorden *shaderkompileringsmetod* och
+*irradiansrutnät* som sällsynta. Batchen är lokalt arkiverad och väntar på
+manuell import.
+
