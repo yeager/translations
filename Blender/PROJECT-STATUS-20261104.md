@@ -4836,6 +4836,22 @@ allmänsvenskan men saknar några domänspecifika sammansättningar, bland annat
 *ytslinga* och *veckvikt*; de har granskats i Blender-kontext. Batcherna är
 lokalt arkiverade och väntar på manuell import.
 
+## Batch 1 534–535 — fullföljd kantslinge- och NLA-kontext
+
+Alla gränssnittskontexter för **slingklipp** och **förskjutna kantslingor** är
+nu enhetliga. NLA-verktyget använder **rutmarkering** och den etablerade
+Blender-beteckningen **NLA-remsor**.
+
+`blender-ui-sv-reviewed-batch-1534-edge-loop-contexts-20261110.po` innehåller
+elva granskade poster med SHA-256
+`e681a21bf5b8fea60d8523a7556ff1f6725e97f317b67475c96ddc80c8115fc3`.
+`blender-ui-sv-reviewed-batch-1535-nla-selection-stack-20261110.po` innehåller
+två granskade poster med SHA-256
+`405f2406cb8770e03a47c3fff96de9972cb889f90c99c0117da0083deb979ddb`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade; ordlistornas
+återstående markeringar gäller Blender-termer. Batcherna är lokalt arkiverade
+och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
