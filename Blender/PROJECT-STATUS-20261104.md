@@ -16163,3 +16163,13 @@ det missvisande **Fil**. Den lokala deltafilen har SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 661 — vyport och inläsning
+
+Renderingsförhandsvisningen syftar på **vyporten**. Två fil- och
+inställningsflöden använder **läs in** i stället för *ladda*. Den lokala
+deltafilen har SHA-256
+`2a0105d90a0c229c0e3c4f64a26a3bfaa9d3418112c1e2d6d0fcacc75f7f9b04`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Hunspell-sv och svlang markerar endast **vyporten** som sällsynt samt
+platshållaren `{:s}`. Batchen är lokalt arkiverad och väntar på manuell import.
+
