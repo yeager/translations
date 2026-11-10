@@ -2,9 +2,10 @@
 
 Senaste lokala arbete: 10 november 2026.
 
-> **Löpande radgranskning:** post 34 335 av 40 434 är genomgången. Det
-> motsvarar **84,92 %**. Raderna 34 286–34 335 är dokumenterade i
-> `REVIEW-UI-34286-34335-20261110.md`. Den äldre filen
+> **Löpande radgranskning:** post 34 385 av 40 434 är genomgången. Det
+> motsvarar **85,04 %**. Raderna 34 286–34 385 är dokumenterade i
+> `REVIEW-UI-34286-34335-20261110.md` och
+> `REVIEW-UI-34336-34385-20261110.md`. Den äldre filen
 > `REVIEW-COVERAGE-20261108.md` räknar bara en
 > snäv, spårbar union av deltabatcher och får inte användas som arbetets
 > övergripande granskningsprocent.
@@ -23,6 +24,15 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > alltså återstår för manuell import. Inga källsträngar saknas. Tre historiska
 > överlappningar identifierades; batch 1 660 är markerad som ersatt och de
 > senare, kontextgranskade formuleringarna har företräde.
+
+## Batch 1 734 – STL-export och lattissmarkering
+
+Två kontextkontrollerade förbättringar från den löpande radgranskningen:
+STL-exportens val **Batchläge**, samt den fullständiga feltexten **Objekten
+har inga vikter eller hörnpunktsgrupper**. Deltafilen
+`blender-ui-sv-reviewed-io-lattice-followup-20261110.po` är lokalt
+kontrollerad med `msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och
+Gitleaks. Ingen Blender Translate-import är ännu verifierad.
 
 ## Batch 1 730 – samlad import för export 8
 
