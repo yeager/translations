@@ -16113,3 +16113,15 @@ innehåller en radgranskad post med SHA-256
 `f1de8b5ef7262d5845eea80aba98e24aded1884498064b1060fc3019cb8defb7`.
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
+## Batch 1 656 — vyporttermer i spårning
+
+Kameraspårningens användargränssnitt använder nu samma etablerade Blender-term,
+**vyport**, som övriga delar av gränssnittet.
+
+`blender-ui-sv-reviewed-batch-1656-viewport-terminology-20261110.po`
+innehåller två radgranskade poster med SHA-256
+`b1743fb26788188bfdbdee8b890de2089a90c55955c984610050aeb2b4b493dc`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Hunspell-sv och
+svlang markerar endast böjningar av den etablerade Blender-termen **vyport**
+som sällsynta. Batchen är lokalt arkiverad och väntar på manuell import.
+
