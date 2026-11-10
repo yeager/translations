@@ -5133,6 +5133,19 @@ granskad post med SHA-256
 korrekta relativa satsen som en möjlig passivkonstruktion; det är en falsk
 positiv. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 560 — pose och bensamlingar
+
+Posespridning avser en Blender-**Action**, inte en generell *åtgärd*.
+Beninsamlingar har dessutom normaliserats till den etablerade termen
+**bensamling** i Rigify-referenslistan.
+
+`blender-ui-sv-reviewed-batch-1560-pose-propagate-bone-collections-20261110.po`
+innehåller tre granskade poster med SHA-256
+`5e93f76577d14cc99867a91853d3e19505af08795c7c128372c7efa917829fb0`.
+`msgfmt`, l10n-lint och Gitleaks passerade. hunspell-sv och svlang markerar
+det avsiktliga Blender-namnet *Actionen* som ovanligt; ingen rättning behövs.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
