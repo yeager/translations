@@ -5232,6 +5232,15 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 592 — Rigify Action-inställning
+
+Rigify-hjälptexten behåller Blender-datatypen **Action** i
+**Action-inställning**, i stället för den missvisande allmänna betydelsen
+*åtgärd*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1592-rigify-action-20261110.po`
+väntar på manuell import. `msgfmt`, l10n-lint och Gitleaks passerade.
+
 ## Batch 1 591 — procent som egenskapstyp
 
 Egenskapstypen `Percentage` använder konsekvent den etablerade UI-termen
