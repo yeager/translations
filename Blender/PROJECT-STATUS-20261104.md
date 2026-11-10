@@ -16125,3 +16125,16 @@ innehåller två radgranskade poster med SHA-256
 svlang markerar endast böjningar av den etablerade Blender-termen **vyport**
 som sällsynta. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 657 — pluralformen vyporter
+
+Samlingsvyns inställningar använder nu singularen **vyport** och pluralen
+**vyporter** i stället för det inkonsekventa *visningsområde*.
+
+`blender-ui-sv-reviewed-batch-1657-viewport-plural-terminology-20261110.po`
+innehåller fyra radgranskade poster med SHA-256
+`fff74cbbcd41c4a41ceaf2bcac5e558a1c4870cd27b5a4b829337e901ad27b6b`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Hunspell-sv och
+svlang markerar endast den etablerade Blender-termen **vyport** och dess
+pluralform som sällsynta. Batchen är lokalt arkiverad och väntar på manuell
+import.
+
