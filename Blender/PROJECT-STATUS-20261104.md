@@ -3864,6 +3864,20 @@ Hunspell och `svlang` markerar enbart avsedda, projektspecifika sammansättninga
 och korrekta underordnade satser. Filen är arkiverad och väntar på manuell
 import.
 
+## Batch 1 620 — animationstema
+
+Sex egenskaper i animationstemats färginställningar använder nu konsekventa
+termer: **gemensamma** egenskaper, **darrningsnyckelbildruta** samt
+**förhandsvisningsintervall**.
+
+`blender-ui-sv-reviewed-batch-1620-animation-theme-terms-20261110.po`
+innehåller sex radgranskade poster med SHA-256
+`ea3e6196c82f7e587dacb3aaff0b1172f44ef7ef48deb2abb8088c1a3d20fbed`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Hunspell-sv och svlang markerar bara den kontextkorrekta sammansättningen
+*darrningsnyckelbildruta*. Batchen är lokalt arkiverad och väntar på manuell
+import.
+
 Batch 169 granskar fjorton NLA- och bakningsposter, inklusive två förekomster
 av *Sync Action Length*. Den rättar felaktiga ordagranna eller ogrammatiska
 former till bland annat `Synkronisera åtgärdslängd`, `Baka benens
