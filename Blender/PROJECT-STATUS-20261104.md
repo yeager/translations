@@ -4274,6 +4274,16 @@ Hunspell-sv och svlang markerar endast etablerade Blendertermerna *loopklipp*
 och *meshredigeringsvisning*. Batchen är lokalt arkiverad och väntar på manuell
 import.
 
+## Batch 1 678 — vridpunkt och inläsning
+
+Den namngivna Blender-vridpunkten heter konsekvent **Individuella ursprung**.
+Statusen för resursbibliotek använder det svenska **Läser in** i stället för
+*Laddar*. Deltafilens SHA-256 är
+`e9807f719e2e898e5e4e2c5eb0c3d947a3f40fbd752469fe9891f7b5891b3147`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Hunspell-sv markerar endast den etablerade Blendertermen *vridpunkt*. Batchen
+är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 420 — Grease Pencil-nyckelbildstyper
 
 Grease Pencil-operatörens *Breakdowns* är en Blender-typ för
