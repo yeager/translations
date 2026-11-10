@@ -11,6 +11,23 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > deltafiler. En deltafil räknas inte som importerad förrän importresultatet är
 > verifierat.
 
+> Korskontroll 10 november 2026: 22 aktuella deltafiler jämfördes med export 8.
+> De omfattar 210 poster, varav 130 fortfarande skiljer sig från exporten och
+> alltså återstår för manuell import. Inga källsträngar saknas. Tre historiska
+> överlappningar identifierades; batch 1 660 är markerad som ersatt och de
+> senare, kontextgranskade formuleringarna har företräde.
+
+## Batch 1 730 – samlad import för export 8
+
+Den samlade filen `blender-ui-sv-current-reviewed-import-20261110.po`
+innehåller **126** fortfarande avvikande, granskade strängar för export 8.
+Den omfattar bland annat inläsning, menyn **Fil**, talintervall,
+tilläggsförråd, stödformuleringar och hämtning av tillägg. Äldre ersatta
+formuleringar är bortfiltrerade. `msgfmt`, l10n-lint, diffkontroll och Gitleaks
+passerade utan fel. Hunspell och svlang rapporterar enbart Blender-termer,
+filformat och falska V2-positiv. Ingen Blender Translate-import är ännu
+verifierad för den samlade filen.
+
 ## Batch 1 729 – hämta tillägg
 
 Två återstående UI-kommandon för nedladdning av tillägg använder nu
