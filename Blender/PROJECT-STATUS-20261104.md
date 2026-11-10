@@ -5223,6 +5223,19 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 578 — vyport, provtagning och fästning
+
+Åtta UI-poster i Cycles, bildverktyg och sekvensredigeraren är
+kontextgranskade. `Viewport` följer **vyport**, verktyget *Sample* använder
+**provta**, och sekvensredigerarens *snapping* använder den etablerade termen
+**fästning**.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1578-viewport-sampling-snapping-20261110.po`
+väntar på manuell import. `msgfmt`, l10n-lint, diffkontroll och Gitleaks
+passerade. Hunspell-sv och svlang markerar endast de avsiktliga
+Blender-termerna *hörnpunktsgrupp* och *vyport*.
+
 ## Batch 1 577 — vyport, XR och filhantering
 
 Tio UI-poster i filhantering, USD-export, XR-navigering och paneler är
