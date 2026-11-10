@@ -5330,6 +5330,16 @@ innehåller fem granskade poster med SHA-256
 `32755351ed1a9437ebc7555ded976758668217f0b07f6d2eb69fcbea03c85ad6`.
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
 
+## Batch 1 602 — RegionView3D-vyport
+
+RegionView3D-hjälptexterna använder nu konsekvent **vyport** när den renderade
+vyn pausas eller återupptas, i stället för det generiska *visningsområde*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1602-region-viewport-20261110.po`
+innehåller två granskade poster med SHA-256
+`f48f6d5c51d7dc9cdd6f208158b5c45a48dd88e6390b0a27fa7c93f130538657`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 592 — Rigify Action-inställning
 
 Rigify-hjälptexten behåller Blender-datatypen **Action** i
