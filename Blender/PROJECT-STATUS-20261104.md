@@ -16210,3 +16210,12 @@ Meshverktygen använder nu konsekvent **kantslinga** för *edge loop* och
 `msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 665 — inläsning och vyport
+
+Statusen för texturer använder **Läser in**. Grease Pencil-lagrets synlighet
+avser **vyporten**, inte det generella *visningsområdet*. Deltafilens SHA-256
+är `039e8fe49d3c7488489deee9f0ac9915a3a9c93d1cdafb17f7d8d974e5ceb2bd`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Verktygen markerar endast produktnamnet **Grease Pencil**, **vyporten** och en
+falsk V2-varning. Batchen är lokalt arkiverad och väntar på manuell import.
+
