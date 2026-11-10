@@ -5262,6 +5262,17 @@ innehåller en granskad post med SHA-256
 `be29ef63b865917af18c4aa64b8ac3aeca625c48f32bdb47c298c91173f3e529`.
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
 
+## Batch 1 596 — Cycles brusreducering i vyport
+
+Cycles återstående hjälprader och etiketter för **Viewport** använder nu
+konsekvent **vyport**: bland annat brusreducerare, indata- och förfilterpass
+samt adaptiv rendering.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po`
+innehåller sju granskade poster med SHA-256
+`512c858f57b0409031ba2a5a8ce5cce8461c36163528b69fc62fc2065b01f68f`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 592 — Rigify Action-inställning
 
 Rigify-hjälptexten behåller Blender-datatypen **Action** i
