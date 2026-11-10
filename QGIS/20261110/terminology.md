@@ -104,6 +104,9 @@ Källor: QGIS egen [svenska dokumentation](https://docs.qgis.org/3.44/sv/docs/us
 | existing | befintlig | Datakällor, tabeller och lager | Undvik den engelsknära falska vännen ”existerande”. |
 | authentication | autentisering | Säkerhet och datakällor | |
 | authentication method | autentiseringsmetod | Säkerhet och datakällor | Inte ”verifieringsmetod”. |
+| secure token | säkerhetstoken | Autentisering | Sammanfogad form i UI-text. |
+| account credentials | kontouppgifter | Autentisering | Produktnamn föreleds med bindestreck, exempelvis `MapTiler-kontouppgifter`. |
+| relation edit widget | redigeringswidget för attributrelationer | Relaterade attribut och formulär | Samma term används i båda QGIS-widgetkontexterna. |
 | certificate authority | certifikatutfärdare | TLS- och certifikatfel | Skriv ihop; undvik den felaktiga formen ”certifikat auktoritet”. |
 | trusted certificate | betrott certifikat | TLS- och certifikatfel | ”Inte betrott” är inte samma sak som ”ogiltigt”. |
 | credentials | inloggningsuppgifter | Säkerhet och datakällor | Inte ”autentiseringsuppgifter” i vanlig UI-text. |
