@@ -2,15 +2,16 @@
 
 Senaste lokala arbete: 10 november 2026.
 
-> **Löpande radgranskning:** post 34 635 av 40 434 är genomgången. Det
-> motsvarar **85,66 %**. Raderna 34 286–34 635 är dokumenterade i
+> **Löpande radgranskning:** post 34 685 av 40 434 är genomgången. Det
+> motsvarar **85,78 %**. Raderna 34 286–34 685 är dokumenterade i
 > `REVIEW-UI-34286-34335-20261110.md` och
 > `REVIEW-UI-34336-34385-20261110.md` samt
 > `REVIEW-UI-34386-34435-20261110.md` och
 > `REVIEW-UI-34436-34485-20261110.md` samt
 > `REVIEW-UI-34486-34535-20261110.md` och
 > `REVIEW-UI-34536-34585-20261110.md` samt
-> `REVIEW-UI-34586-34635-20261110.md`. Den äldre filen
+> `REVIEW-UI-34586-34635-20261110.md` och
+> `REVIEW-UI-34636-34685-20261110.md`. Den äldre filen
 > `REVIEW-COVERAGE-20261108.md` räknar bara en
 > snäv, spårbar union av deltabatcher och får inte användas som arbetets
 > övergripande granskningsprocent.
@@ -80,6 +81,14 @@ Gitleaks. Ingen Blender Translate-import är ännu verifierad.
 svenska citattecken, **importör**, **cykliskt beroende** och
 **filsökväg**. Deltafilen
 `blender-ui-sv-reviewed-bake-import-followup-20261110.po` är lokalt
+kontrollerad med `msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och
+Gitleaks. Ingen Blender Translate-import är ännu verifierad.
+
+## Batch 1 740 – begränsningar och samlingar
+
+Tre kontextkontrollerade formuleringar inför **ställningsben** för `pose
+bone` och förbättrar två statusfeltexter. Deltafilen
+`blender-ui-sv-reviewed-constraints-collections-20261110.po` är lokalt
 kontrollerad med `msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och
 Gitleaks. Ingen Blender Translate-import är ännu verifierad.
 
