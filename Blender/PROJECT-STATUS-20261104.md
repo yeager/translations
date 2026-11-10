@@ -5232,6 +5232,14 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 589 — menyetikett
+
+Inställningsetiketten **Close Menu on Leave** använder nu den idiomatiska
+bestämda formen: **Stäng menyn när muspekaren lämnar den**.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1589-menu-label-20261110.po`
+väntar på manuell import. `msgfmt`, l10n-lint och Gitleaks passerade.
+
 ## Batch 1 588 — språklistans skiljetecken
 
 En andra post i språklistan hade ett em dash där källtexten använder
