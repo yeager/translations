@@ -39,3 +39,7 @@ strängarna filtrerats bort accepterade Transifex 108 respektive 93 unika
 separata GET-kontroller bekräftade slutvärde och ursprunget `API`; de importerade
 strängarna är ännu inte markerade som granskade i Transifex. Deltafilerna och
 det exakta uppladdningsutfallet finns i batch 038.
+
+2026-11-10: Batch 039 rättade tre oblockerade stavfel i datum- och
+terrängsträngar. Transifex accepterade alla tre via API och direkta
+återläsningar bekräftade svensk måltext samt ursprunget `API`.
