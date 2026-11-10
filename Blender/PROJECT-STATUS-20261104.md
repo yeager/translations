@@ -3888,6 +3888,17 @@ fyra radgranskade poster med SHA-256
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 623 — konsekventa temaetiketter
+
+Tre temarubriker använder nu konsekvent ordval: **vald**, **tema för
+egenskaper** och **gemensamma områdesegenskaper**.
+
+`blender-ui-sv-reviewed-batch-1623-theme-label-consistency-20261110.po`
+innehåller tre radgranskade poster med SHA-256
+`d63ca32f8503ab41073762f289fc35f023f757809b332ab4e61f796ea4d9fae2`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
 ## Batch 1 620 — animationstema
 
 Sex egenskaper i animationstemats färginställningar använder nu konsekventa
