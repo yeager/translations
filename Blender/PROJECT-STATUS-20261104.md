@@ -4863,6 +4863,18 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 537 — Node Wrangler-etiketter och visning
+
+Node Wranglers kommandon anger nu uttryckligen att de växlar **visningen** av
+nodalternativ respektive nodförhandsgranskning. Hjälptexten för ersättning är
+också idiomatisk svenska.
+
+`blender-ui-sv-reviewed-batch-1537-node-label-and-display-20261110.po`
+innehåller tre granskade poster med SHA-256
+`a823cba01eee054b1875298fb45f39ed8ed5e2124a3d0eba322e641ea7e0c283`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
