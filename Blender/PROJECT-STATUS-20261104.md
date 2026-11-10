@@ -16559,3 +16559,12 @@ skalning och förskjutning som oskärpan omfattar. Deltafilens SHA-256 är
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 699 — komposition och nyckling
+
+Högdagrar ersätter den missvisande direkta översättningen *höjdpunkter* i
+bländningens hjälptester. Även **skräpmatta**, uttoningens avtagande och
+**förvrängning** har normaliserats i nycklings- och linsnoder. Deltafilens
+SHA-256 är `076d906a986c6403527d4fe95a173550de8a6482f67a0b233f86b6a087c4e41f`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
