@@ -5351,6 +5351,16 @@ innehåller en granskad post med SHA-256
 `e926e61e8d8cfb8e5d4327d168721e410180758a43185c45778b3d66fadfe246`.
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
 
+## Batch 1 604 — renderingsvyport
+
+Tre renderingsposter använder nu projektets etablerade term **vyport**:
+pixelstorlek, fyllda Grease Pencil-streck och visning av meshar.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1604-render-viewport-20261110.po`
+innehåller tre granskade poster med SHA-256
+`96c09852110e099a6424bf7ccbc9835e4bf0ce28e4185a84426ef8280bc71570`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 592 — Rigify Action-inställning
 
 Rigify-hjälptexten behåller Blender-datatypen **Action** i
