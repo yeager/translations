@@ -5232,6 +5232,14 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 590 — SMPTE-tidskodens skiljetecken
+
+Hjälptexten för kompakt SMPTE-tidskod följer nu källtextens bindestreck i
+stället för ett em dash.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1590-smpte-punctuation-20261110.po`
+väntar på manuell import. `msgfmt`, l10n-lint och Gitleaks passerade.
+
 ## Batch 1 589 — menyetikett
 
 Inställningsetiketten **Close Menu on Leave** använder nu den idiomatiska
