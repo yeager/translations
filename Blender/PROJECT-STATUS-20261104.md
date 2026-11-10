@@ -15717,3 +15717,14 @@ innehåller två radgranskade poster med SHA-256
 `9d812c1711a4d213419be4f28e7083213bbae5373970c58a7c8d4daeaf4d2cc1`.
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
 arkiverad och väntar på manuell import.
+
+## Batch 1 616 — hastighetsremsans hjälptext
+
+Hastighetsremsan återfår det tappade sakledet **ingångens** och stavfelet
+*remans* rättas till **remsans**.
+
+`blender-ui-sv-reviewed-batch-1616-speed-strip-wording-20261110.po`
+innehåller två radgranskade poster med SHA-256
+`e4902c7ba8c5fb957a98a305987646b0c5de051b588a94e278044855e572dfc4`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
