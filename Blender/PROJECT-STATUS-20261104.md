@@ -5014,6 +5014,18 @@ en granskad post med SHA-256
 korrekta bisatsen som möjlig V2-avvikelse; det är en falsk positiv. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 550 — Outliner-element
+
+Två hjälprader använder nu konsekvent **element** i Outliner-kontext och har
+en direkt formulering för att växla mellan öppet och stängt läge.
+
+`blender-ui-sv-reviewed-batch-1550-outliner-item-clarity-20261110.po`
+innehåller två granskade poster med SHA-256
+`25fb99d97ef84b038dfae691e6d0e01ebab112e5da374c08ca91a59cb53de3e2`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. svlangs möjliga
+V2-avvikelse för den korrekta relativsatsen är en falsk positiv. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
