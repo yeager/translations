@@ -104,6 +104,15 @@ lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
 diffkontroll och Gitleaks passerade utan anmärkningar. Ingen import är
 verifierad för denna batch.
 
+## Batch 1 636 — XR-kontrollenhetsstil
+
+Tre stilalternativ för XR-kontrollenheter har fått svensk och konsekvent
+formulering: **kontrollenhet** och **stråle**. Deltafilen
+`blender-ui-sv-reviewed-batch-1636-xr-controller-style-20261110.po` är lokalt
+kontrollerad och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll
+och Gitleaks passerade utan anmärkningar. Ingen import är verifierad för denna
+batch.
+
 ## Verifierad manuell import — 10 november 2026, efter kl. 07.00
 
 Den samlade lokala deltafilen
