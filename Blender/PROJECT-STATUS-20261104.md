@@ -5340,6 +5340,17 @@ innehåller två granskade poster med SHA-256
 `f48f6d5c51d7dc9cdd6f208158b5c45a48dd88e6390b0a27fa7c93f130538657`.
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
 
+## Batch 1 603 — kompositörens vyport
+
+Kompositörens hjälptext för interaktiv brusreducering använder nu **vyporten**
+i stället för det generiska *visningsområdet*.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1603-compositor-viewport-20261110.po`
+innehåller en granskad post med SHA-256
+`e926e61e8d8cfb8e5d4327d168721e410180758a43185c45778b3d66fadfe246`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 592 — Rigify Action-inställning
 
 Rigify-hjälptexten behåller Blender-datatypen **Action** i
