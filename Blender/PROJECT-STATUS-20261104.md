@@ -4705,6 +4705,18 @@ innehåller en granskad post med SHA-256
 är den korrekta imperativformen. Batchen är lokalt arkiverad och väntar på
 manuell import.
 
+## Batch 1 517 — Grease Pencil-bildspårningens mål
+
+Bildspårningsverktyget använder nu **Målobjekt för Grease Pencil**, vilket
+stämmer med egenskapens två alternativ *Nytt objekt* och *Valt objekt*.
+
+`blender-ui-sv-reviewed-batch-1517-grease-pencil-trace-target-20261110.po`
+innehåller en granskad post med SHA-256
+`dc71d0e06294416dcccaf155838eed69b7d6946aa7c7842a9ec4d564b22cc636`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade;
+hunspell-sv markerar endast produktnamnet Grease Pencil. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
