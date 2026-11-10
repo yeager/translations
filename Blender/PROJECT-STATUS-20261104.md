@@ -5159,6 +5159,18 @@ granskade poster med SHA-256
 V2-varningar är falska positiva. Batchen är lokalt arkiverad och väntar på
 manuell import.
 
+## Batch 1 562 — vyportsrendering
+
+Renderingskommandot använder nu den etablerade Blender-termen **vyport** i
+stället för det inkonsekventa *visningsvy*.
+
+`blender-ui-sv-reviewed-batch-1562-viewport-render-20261110.po` innehåller två
+granskade poster med SHA-256
+`604a70c4cc08f0778057014a64eaa933ea92198eb1bef28aa0989aa6d58bb5cb`.
+`msgfmt`, l10n-lint och Gitleaks passerade. hunspell-sv och svlang markerar
+den etablerade Blender-termen *vyport* som ovanlig; ingen rättning behövs.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
