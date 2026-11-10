@@ -16428,3 +16428,12 @@ förhandsvisningar heter **Läser in förhandsvisningar**. Deltafilens SHA-256
 svlang markerar endast de avsiktliga Blender-termerna *Actionen* och
 *vyporten*. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 685 — redigerarkontext
+
+Fyra kontextfel i skärmredigeraren använder nu idiomatisk svensk ordföljd för
+**Outliner** och **Dopeblad**. Deltafilens SHA-256 är
+`f37468b4efbe3e078f47506731b6ee1bd64317b6fef2a45db2a02fea5e95d329`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Hunspell-sv och
+svlang markerar endast etablerade Blender-termer. Batchen är lokalt arkiverad
+och väntar på manuell import.
+
