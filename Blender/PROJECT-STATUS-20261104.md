@@ -4979,6 +4979,17 @@ imperativsatsernas ordföljd samt den etablerade Blender-termen
 **hörnpunktsgruppen**; båda är falska positiva. Batchen är lokalt arkiverad
 och väntar på manuell import.
 
+## Batch 1 547 — utöka eller minska vikter
+
+Den engelskinfluerade formuleringen *expandera/komprimera* är normaliserad
+till den konsekventa svenska gränssnittstermen **Utöka/minska vikter**.
+
+`blender-ui-sv-reviewed-batch-1547-expand-contract-weights-20261110.po`
+innehåller en granskad post med SHA-256
+`307901f1ddea14951f011790e8df07dae70d3eefe9c22ab97bfa452c0c1dbf6e`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
