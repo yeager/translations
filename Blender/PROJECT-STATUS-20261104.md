@@ -5351,6 +5351,17 @@ innehåller en granskad post med SHA-256
 `e926e61e8d8cfb8e5d4327d168721e410180758a43185c45778b3d66fadfe246`.
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
 
+## Batch 1 605 — styva kroppar och renderingsvyer
+
+Femton Blender-RNA-poster har språkgranskats: aktivt index hänvisar till
+**samlingen av renderingsvyer**, objekt med styv kropp uttrycks idiomatiskt,
+och dämpning samt styvhet använder konsekvent **för** respektive axel.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1605-rigidbody-terminology-20261110.po`
+innehåller 15 granskade poster med SHA-256
+`776f1d05f6edf50f89e7da1d766bed8f35cf965cedb2443c2e6964a591b4fbef`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 604 — renderingsvyport
 
 Tre renderingsposter använder nu projektets etablerade term **vyport**:
