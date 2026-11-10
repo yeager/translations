@@ -11,6 +11,19 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > deltafiler. En deltafil räknas inte som importerad förrän importresultatet är
 > verifierat.
 
+## Batch 1 724 – utökad inläsningsterminologi
+
+Sextiofyra användarvisade strängar för att öppna befintliga Blender-data
+använder nu konsekvent **läs in**, **läs in på nytt** och **inläsning** i
+stället för *ladda* och *ladda om*. Det omfattar bland annat bilder, ljud,
+film, biblioteksdata, förinställningar, formatfiler och
+fabriksinställningar. Nedladdningar och elektrisk laddning berörs inte.
+Deltafilen `blender-ui-sv-reviewed-read-in-extended-20261110.po` är lokalt
+kontrollerad. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade utan
+fel. Hunspell och svlang rapporterar endast Blender-termer, filformat och
+falska V2-positiv. Blender-TM:n är synkad och pushad i commit `bcc6e76`.
+Ingen Blender Translate-import är ännu verifierad för batchen.
+
 ## Export 8 — återställning av granskade UI-termer
 
 Den nya exporten ändrade 31 befintliga formuleringar. Efter granskning behålls
