@@ -16516,3 +16516,12 @@ feltexter om fältlängd. Deltafilens SHA-256 är
 endast en falsk V2-träff i en teknisk USD-feltext. Batchen är lokalt arkiverad
 och väntar på manuell import.
 
+## Batch 1 694 — projektvariabler
+
+Feltexter för projektvariabler använder nu **startindex** och **slutindex**.
+Versalen efter kolon i en variabelnamnstext är också rättad. Deltafilens
+SHA-256 är `2bb7eedc76ca826ef26d961cf9bb6ddf72e631fc1e8c7d2e722b1411e4e2acf6`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. svlang markerar
+endast en falsk V2-träff i en fullständigt korrekt feltext. Batchen är lokalt
+arkiverad och väntar på manuell import.
+
