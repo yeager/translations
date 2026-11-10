@@ -5224,6 +5224,19 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 572 — transformering och UV-terminologi
+
+Sju Transform-/UV-poster är normaliserade: fästning ersätter den onödiga
+engelska låneformen *snäppning*, *trackball* följer den svenska UI-termen
+**styrkula**, och UV-verktygens provtagning, inriktning och
+**begränsningsbox** är kontextmässigt konsekventa. Deltafilen
+`blender-ui-sv-reviewed-batch-1572-transform-uv-terminology-20261110.po`
+väntar på manuell import.
+
+`msgfmt`, l10n-lint och Gitleaks passerade. Hunspell-sv markerar enbart
+den avsiktliga sammansättningen *styrkulestil*. Svlang markerar två
+imperativformer som heuristiska falska positiva träffar.
+
 ## Batch 1 571 — sekvens, ljud, ytnurbs och textredigerare
 
 Sju kontextgranskade poster korrigerar sekvensredigerarens ljudpåslag för
