@@ -15695,3 +15695,14 @@ innehåller fyra radgranskade poster med SHA-256
 `msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks
 passerade; Hunspell-sv och svlang markerar bara den etablerade Blender-termen
 **vyport**. Batchen är lokalt arkiverad och väntar på manuell import.
+
+## Batch 1 614 — UV-sträckning
+
+UV-redigerarens hjälptext använder nu den befintliga UI-termen
+**UV-sträckning** i stället för det onödiga engelska lånet *UV-stretch*.
+
+`blender-ui-sv-reviewed-batch-1614-uv-stretch-terminology-20261110.po`
+innehåller en radgranskad post med SHA-256
+`ff5da06fbe5253a8243c369251219ffadca882c61fde59e9452603e2ed4d4905`.
+`msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade. Batchen är lokalt
+arkiverad och väntar på manuell import.
