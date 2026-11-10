@@ -49,6 +49,8 @@ den etablerade termen **poseringsläge**. Deltafilen
 `msgfmt`, l10n-lint, diffkontroll och Gitleaks utan fel; Hunspell och svlang
 passerar utan anmärkning. Blender-TM:n är synkad och pushad i commit
 `ebb3b26`. Ingen Blender Translate-import är ännu verifierad.
+Terminologilistan är också uppdaterad med avgränsningen mellan fristående
+*Pose* och *Pose Mode*, samt med den synliga länketiketten *Support*.
 
 ## Verifierad Blender Translate-import — 229 ändringar sedan kl. 16
 
