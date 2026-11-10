@@ -5395,6 +5395,14 @@ innehåller fem granskade poster med SHA-256
 `ee84d610594fc4daa3ed2b478a4912f291592d7713d73907568a78763ff0322a`.
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
 
+## Batch 1 609 — SMAA i vyport
+
+SMAA-inställningens etikett använder nu konsekvent projekttermen **vyport**.
+Deltafilen `blender-ui-sv-reviewed-batch-1609-smaa-viewport-20261110.po`
+innehåller en granskad post med SHA-256
+`c56b9e9fc93236d65309e57e03b80da67081eeaa3b9ce8049ced115fed2706f6`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 604 — renderingsvyport
 
 Tre renderingsposter använder nu projektets etablerade term **vyport**:
