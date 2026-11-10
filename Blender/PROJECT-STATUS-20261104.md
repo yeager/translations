@@ -4955,6 +4955,17 @@ en granskad post med SHA-256
 en möjlig passivkonstruktion, men formuleringen är en saklig hjälptext och
 korrekt svenska. Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 545 — aktiv nyckeluppsättning
+
+Hjälptexten använder bestämd form med korrekt genus: **den aktiva
+nyckeluppsättningen**.
+
+`blender-ui-sv-reviewed-batch-1545-keying-set-grammar-20261110.po` innehåller
+en granskad post med SHA-256
+`9f6e9509e14d5f836c6dfa89a34f2989d7a85d3b520dd69274307366ea529c3b`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
