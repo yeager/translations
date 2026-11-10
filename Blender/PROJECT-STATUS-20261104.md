@@ -5224,6 +5224,15 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 575 — UV-sömnad och uppackning
+
+Två UV-poster är språk- och terminologigranskade: det lagrade
+åtgärdsläget heter **Sparat åtgärdsläge**, och hjälptexten för
+**Packa upp** följer knappens etablerade UI-term. Deltafilen
+`blender-ui-sv-reviewed-batch-1575-uv-stitch-unwrap-20261110.po` väntar på
+manuell import. `msgfmt`, l10n-lint och Gitleaks passerade; svlang markerar
+endast den avsiktliga Blender-termen *meshen*.
+
 ## Batch 1 574 — UV-begränsningsboxar och hörnpunkter
 
 Tio UV-poster är normaliserade till den etablerade Blender-terminologin
