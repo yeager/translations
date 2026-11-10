@@ -4921,6 +4921,17 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 542 — nästlad nod-ID
+
+Den tekniska UI-beteckningen följer projektets etablerade versalisering:
+**nod-ID**.
+
+`blender-ui-sv-reviewed-batch-1542-nested-node-id-20261110.po` innehåller en
+granskad post med SHA-256
+`0797dbd5fcf7d1dc9a5c2ec5ab9250ef0f6ff7891eb6e93f4f5e1c2c40f520ea`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
