@@ -4886,6 +4886,21 @@ innehåller en granskad post med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 539–540 — skärmutrymme och bakningsutdata
+
+Objektplacering använder den etablerade Blender-termen **skärmutrymme**.
+Bakningsgränssnittet använder naturliga svenska för kartans höjd och
+passfiltrering.
+
+`blender-ui-sv-reviewed-batch-1539-object-screen-space-20261110.po`
+innehåller två granskade poster med SHA-256
+`6132337431b487ac0369f765069c148ac919ed28a9625162ab0684cd99f5c15f`.
+`blender-ui-sv-reviewed-batch-1540-bake-output-wording-20261110.po`
+innehåller två granskade poster med SHA-256
+`cbb87b7438ea338ac283767b7d9bbfcd23df17ef962c8f61f3ebc85617da8ede`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batcherna är
+lokalt arkiverade och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
