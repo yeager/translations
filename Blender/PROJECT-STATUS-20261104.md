@@ -2,8 +2,8 @@
 
 Senaste lokala arbete: 10 november 2026.
 
-> **Löpande radgranskning:** post 35 135 av 40 434 är genomgången. Det
-> motsvarar **86,90 %**. Raderna 34 286–35 135 är dokumenterade i
+> **Löpande radgranskning:** post 35 185 av 40 434 är genomgången. Det
+> motsvarar **87,02 %**. Raderna 34 286–35 185 är dokumenterade i
 > `REVIEW-UI-34286-34335-20261110.md` och
 > `REVIEW-UI-34336-34385-20261110.md` samt
 > `REVIEW-UI-34386-34435-20261110.md` och
@@ -20,7 +20,8 @@ Senaste lokala arbete: 10 november 2026.
 > `REVIEW-UI-34936-34985-20261110.md` och
 > `REVIEW-UI-34986-35035-20261110.md` och
 > `REVIEW-UI-35036-35085-20261110.md` och
-> `REVIEW-UI-35086-35135-20261110.md`. Den äldre filen
+> `REVIEW-UI-35086-35135-20261110.md` och
+> `REVIEW-UI-35136-35185-20261110.md`. Den äldre filen
 > `REVIEW-COVERAGE-20261108.md` räknar bara en
 > snäv, spårbar union av deltabatcher och får inte användas som arbetets
 > övergripande granskningsprocent.
@@ -171,6 +172,14 @@ Sex kontextkontrollerade formuleringar normaliserar **översikt**,
 `blender-ui-sv-reviewed-context-brush-20261110.po` är lokalt kontrollerad
 med `msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och Gitleaks.
 Ingen Blender Translate-import är ännu verifierad.
+
+## Batch 1 750 – Grease Pencil och bildmålning
+
+Två kontextkontrollerade formuleringar rättar verbformen **Spåra** och
+en dynamiskt sammansatt feltext. Deltafilen
+`blender-ui-sv-reviewed-greasepencil-paint-20261110.po` är lokalt
+kontrollerad med `msgfmt`, l10n-lint, diffkontroll, Hunspell-sv, svlang och
+Gitleaks. Ingen Blender Translate-import är ännu verifierad.
 
 ## Batch 1 730 – samlad import för export 8
 
