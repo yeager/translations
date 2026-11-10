@@ -4730,6 +4730,18 @@ innehåller tre granskade poster med SHA-256
 är den korrekta imperativformen. Batchen är lokalt arkiverad och väntar på
 manuell import.
 
+## Batch 1 519 — BVH-importens benorientering
+
+BVH-importens hjälptext anger korrekt att benets huvudaxel ska riktas in
+**med underordnade ben**, inte *mot* dem.
+
+`blender-ui-sv-reviewed-batch-1519-bvh-bone-orientation-20261110.po`
+innehåller en granskad post med SHA-256
+`fe636b22ca71664970de047eaf3a0d092c077d3400bcb19c0c33f526b44c52f0`.
+`msgfmt`, l10n-lint, hunspell-sv och Gitleaks passerade. Svlang markerar den
+korrekta imperativformen som möjlig V2-avvikelse. Batchen är lokalt arkiverad
+och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
