@@ -5075,6 +5075,17 @@ innehåller fyra granskade poster med SHA-256
 projektets facktermer som sällsynta; det är falska positiva. Batchen är lokalt
 arkiverad och väntar på manuell import.
 
+## Batch 1 555 — hörnpunktsmarkering
+
+Paint-hjälptexterna använder nu **hörnpunkter** konsekvent och har en tydlig
+ordföljd för att dölja omarkerade hörnpunkter.
+
+`blender-ui-sv-reviewed-batch-1555-vertex-selection-20261110.po` innehåller
+två granskade poster med SHA-256
+`a682335c069cf61347f89b9cdc8b231d21ef09fe748499cead05157f96bb8a51`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
