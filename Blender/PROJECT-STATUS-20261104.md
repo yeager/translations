@@ -5232,6 +5232,15 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 587 — språklistans skiljetecken
+
+En post i språklistan använde felaktigt ett em dash, trots att källtexten har
+bindestreck. Svenskan följer nu källans skiljetecken: **Kroatiska - Hrvatski**.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1587-language-labels-20261110.po` väntar på
+manuell import. `msgfmt`, l10n-lint och Gitleaks passerade.
+
 ## Batch 1 586 — vyport och visningsinställningar
 
 Fyra UI-poster i system- och visningsinställningarna är granskade.
