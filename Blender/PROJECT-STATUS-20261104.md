@@ -4910,6 +4910,17 @@ uppdaterades, **173** hoppades över som redan identiska och **0** strängar
 saknades. Detta bekräftar importen till Blender Translate; det är inte ett
 påstående om att ändringarna är mergade i Blenders källkod.
 
+## Batch 1 541 — bakningskartans bredd
+
+Bakningskartans horisontella dimension använder motsvarande korta
+gränssnittsterm **Bredd**, med samma externa avgränsning som höjdinställningen.
+
+`blender-ui-sv-reviewed-batch-1541-bake-output-width-20261110.po` innehåller
+en granskad post med SHA-256
+`bd7c41df1da017cc4cf35f63e8da1ceb2f4b06ef077f0899f606cbacda0e7b23`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
