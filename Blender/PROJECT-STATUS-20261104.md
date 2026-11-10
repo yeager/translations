@@ -22,6 +22,16 @@ lokal och klar för manuell import. `msgfmt`, l10n-lint, diffkontroll och
 Gitleaks passerade; inga varningar eller hemligheter rapporterades. Ingen
 import är verifierad för denna batch.
 
+## Batch 1 627 — fästning och projicering
+
+Två verktygsinställningar har normaliserats i sin konkreta
+fästnings-/transformationskontext: *Snap Animation Element* är
+**Fästelement för animering** och *Project Mode* är **Projiceringsläge**.
+Deltafilen `blender-ui-sv-reviewed-batch-1627-snap-terminology-20261110.po`
+är lokalt kontrollerad och klar för manuell import. `msgfmt`, l10n-lint,
+diffkontroll och Gitleaks passerade utan anmärkningar. Ingen import är
+verifierad för denna batch.
+
 ## Verifierad manuell import — 10 november 2026, efter kl. 07.00
 
 Den samlade lokala deltafilen
