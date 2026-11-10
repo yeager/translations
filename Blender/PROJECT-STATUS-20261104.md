@@ -16202,3 +16202,11 @@ hoppades över som oförändrade och 0 saknades. Komponenten visar 40 434 av
 40 434 strängar översatta. Importresultatet är verifierat med användarens
 skärmbild; upstream-granskning och merge följs inte av denna importvy.
 
+## Batch 1 664 — kantslingor och kantringar
+
+Meshverktygen använder nu konsekvent **kantslinga** för *edge loop* och
+**kantring** för *edge ring*. Den lokala deltafilen har SHA-256
+`4846638dfca41d983703d2ce4364d4b3f01f89e4e004f238d5c78540dfc3eeb8`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Batchen är lokalt arkiverad och väntar på manuell import.
+
