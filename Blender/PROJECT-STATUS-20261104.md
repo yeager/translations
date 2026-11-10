@@ -5086,6 +5086,18 @@ två granskade poster med SHA-256
 `msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
 lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 556 — högdagervinkel
+
+Inställningen för ljusa områden i hörnpunktsfärgningen använder nu den
+idiomatiska facktermen **Högdagervinkel**, i stället för den felaktiga
+uppmaningen *Markera vinkel*.
+
+`blender-ui-sv-reviewed-batch-1556-highlight-angle-20261110.po` innehåller
+en granskad post med SHA-256
+`e33baae3428c57491ded08ad1779270ba5b0887fabe0f804ad366306cb56edcd`.
+`msgfmt`, l10n-lint, hunspell-sv, svlang och Gitleaks passerade. Batchen är
+lokalt arkiverad och väntar på manuell import.
+
 ## Batch 1 492 — klistra in drivrutin
 
 Driver-menyn använder konsekvent Blender-termen **drivrutin**, inte *drivare*.
