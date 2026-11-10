@@ -5223,6 +5223,17 @@ en granskad post med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. De projektspecifika termerna som
 hunspell-sv och svlang markerar är korrekta. Batchen väntar på manuell import.
 
+## Batch 1 585 — system och videoproxyer
+
+Fem systemposter är granskade. Apple-API:t **Metal** behålls som produktnamn,
+*Ambient Color* använder **omgivningsfärg**, och sekvensredigerarens
+videoproxyer heter **proxyfiler**, inte proxyservrar.
+
+Deltafilen
+`blender-ui-sv-reviewed-batch-1585-system-media-20261110.po` väntar på
+manuell import. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade.
+Svlang markerar bara det avsiktliga produktnamnet *Metal*.
+
 ## Batch 1 584 — vyportsnavigering och ljud
 
 Fyra UI-poster är granskade. Navigeringsinställningarna använder konsekvent
