@@ -5297,6 +5297,17 @@ innehåller tre granskade poster med SHA-256
 `8c27bbbfe89c988a1595e18b2993a6c54a3307fa75e46a21a45baf25df77f68e`.
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
 
+## Batch 1 599 — Rigify ögonlocksföljning
+
+Rigify-hjälptexten anger tydligt att de separata X- och Z-reglagen styr
+**ögonlocksföljningens inverkan**, i stället för den oidiomatiska och tvetydiga
+frasen *ögonlocks följningspåverkan*.
+
+Deltafilen `blender-ui-sv-reviewed-batch-1599-eyelid-follow-20261110.po`
+innehåller en granskad post med SHA-256
+`58c4312082468ded8dee4a67cd7a8bcb90858146c4caaaa302b9fac77ff82299`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen väntar på manuell import.
+
 ## Batch 1 592 — Rigify Action-inställning
 
 Rigify-hjälptexten behåller Blender-datatypen **Action** i
