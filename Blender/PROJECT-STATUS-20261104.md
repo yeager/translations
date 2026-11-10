@@ -16604,3 +16604,11 @@ till **den typen**. Deltafilens SHA-256 är
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen är lokalt arkiverad och
 väntar på manuell import.
 
+## Batch 1 704 — advektionens begränsare
+
+Den semi-lagrangiska integrationshjälptexten använder **begränsning** i
+stället för det missvisande *klämning*. Deltafilens SHA-256 är
+`e6b9662dc11c77f30908ee197dfd27efdb4962a77250f58d778c8f31ae706161`.
+`msgfmt`, l10n-lint och Gitleaks passerade. Batchen är lokalt arkiverad och
+väntar på manuell import.
+
