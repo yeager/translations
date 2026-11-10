@@ -4263,6 +4263,17 @@ källans tre punkter. Deltafilens SHA-256 är
 `msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
 Batchen är lokalt arkiverad och väntar på manuell import.
 
+## Batch 1 677 — fästning och loopklipp
+
+Meshverktygens hjälptext använder **fästning** i stället för svengelska
+*snäppning* och benämner *Loop Cut* som **loopklipp**, enligt projektets
+terminologi. Deltafilens SHA-256 är
+`4a348bdade2fe86a9219001a90a38ac8d1cf74d26bf369708c5348d4bbf476d4`.
+`msgfmt`, l10n-lint, Hunspell-sv, svlang, diffkontroll och Gitleaks passerade.
+Hunspell-sv och svlang markerar endast etablerade Blendertermerna *loopklipp*
+och *meshredigeringsvisning*. Batchen är lokalt arkiverad och väntar på manuell
+import.
+
 ## Batch 1 420 — Grease Pencil-nyckelbildstyper
 
 Grease Pencil-operatörens *Breakdowns* är en Blender-typ för
