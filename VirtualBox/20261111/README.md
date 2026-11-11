@@ -547,6 +547,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 198: det enda aktiva meddelandet i `UIMachineWindow` är
   granskat radvis. Fönstertiteln har rättats lokalt och inväntar den samlade
   uppdateringen av PR #848.
+- 2026-11-11, batch 199: samtliga 5 aktiva meddelanden i
+  `UIMiniToolbarSettingsEditor` är granskade radvis. Ingen textändring
+  behövdes.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
