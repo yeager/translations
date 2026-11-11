@@ -21,5 +21,11 @@ facktermer. Svlang ger två falska V2-larm för den korrekta inledningen
 Taggar och platshållare, em dash-regeln, diffkontroll och Gitleaks är
 godkända.
 
-Arkivstatus: lokalt granskat och arkiverat. Upstream-inskick, godkännande och
-publicerad projektversion dokumenteras först efter verifierad åtgärd.
+Arkivstatus: lokalt granskat, arkiverat och pushat till vårt arkiv.
+
+Upstream-inskick: Fem Crowdin-förslag skapades via API den 11 november 2026:
+sträng `6232407` blev översättning `2987975`, `6232409` blev `2987977`,
+`6232411` blev `2987979`, `6232413` blev `2987981` och `6232415` blev
+`2987983`. API-avläsningen bekräftade exakt måltext för alla fem.
+Översättningarna är ännu inte godkända (`isApproved: false`); merge och
+publicerad projektversion är därför inte verifierade.
