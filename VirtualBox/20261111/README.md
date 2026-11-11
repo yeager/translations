@@ -403,6 +403,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   ännu inte pushad till PR:n.
 - 2026-11-11, batch 139: samtliga 6 aktiva meddelanden i
   `UIUSBControllerEditor` är granskade radvis. Ingen textändring behövdes.
+- 2026-11-11, batch 140: samtliga 19 aktiva meddelanden i
+  `UIUSBFilterDetailsEditor` är granskade radvis. Tre strängar har rättats i
+  lokal commit `49d5fbe` och är ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
