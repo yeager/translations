@@ -1548,3 +1548,11 @@ Tolv nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
 rätt förslag redan finns: 449255 och 449257. Inga befintliga förslag har
 ändrats. Alla berörda förslag är upstream-inskickade för granskning, men
 inget är upstream-godkänt ännu.
+
+## Grafikdata och inläsning: åttioåttonde granskningsbatchen
+
+`pcsx2-sv-graphics-data-loading-batch-88-20261111.xliff` rättar tre
+grafiksträngar. GS-data överförs vid rendering, medan shaderprogram och
+pipelines läses in från disk. Det håller isär överföring, inläsning och
+lagring i gränssnittet.
+Batchen är lokalt granskad och inväntar upstream-inskick.
