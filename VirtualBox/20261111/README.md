@@ -380,6 +380,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   lokal commit `3ba2a5c` och är ännu inte pushade till PR:n.
 - 2026-11-11, batch 130: samtliga 4 aktiva meddelanden i
   `UIStatusBarEditorWidget` är granskade radvis. Ingen textändring behövdes.
+- 2026-11-11, batch 131: samtliga 72 aktiva meddelanden i
+  `UIStorageSettingsEditor` är granskade radvis. Två språkfel har rättats i
+  lokal commit `1058a35` och ändringarna är ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
