@@ -53,6 +53,10 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   `UINameAndSystemEditor` (14), `UISerialSettingsEditor` (14) och
   `UINetworkFeaturesEditor` (13) har granskats radvis. Ändringarna är
   verifierade lokalt i commit `e652cc0` och ännu inte pushade till PR:n.
+- 2026-11-11, batch 019: VISO (25), VRDE (13), generella
+  maskininställningar (8), ögonblicksbildsuppgifter (19) och
+  ögonblicksbildspanelen (4) har granskats radvis. Ändringarna är verifierade
+  lokalt i commit `5da8d7a` och ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
