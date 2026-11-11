@@ -480,6 +480,12 @@ passerar. svlangs V2-varningar är falska positiva för relativa satser och
 uppmaningar. Hunspell-SV markerar endast tekniknamnet ELF. `msgfmt` kan inte
 tolka XLIFF och är därför inte tillämpligt. Batchen är lokalt granskad.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+8 översättningar med 76 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449329, 449331, 449333, 449335, 449337, 449339,
+449341 och 449343. De är upstream-inskickade för granskning men ännu inte
+upstream-godkända.
+
 ## Tågförarhandkontroll: fyrtionionde granskningsbatchen
 
 `pcsx2-sv-train-controller-labels-batch-49-20261111.xliff` normaliserar
