@@ -1499,4 +1499,10 @@ inget är upstream-godkänt ännu.
 strängar i helskärmsgränssnittets hantering av sparlägen och en förklarande
 grafikinställning. Den skiljer på sparfiler och sparlägen och beskriver
 bildrutegenerering med korrekt svensk meningsbyggnad.
-Batchen är lokalt granskad och inväntar upstream-inskick.
+Batchen är lokalt granskad.
+
+Nio nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
+449801, 449803, 449805, 449807, 449809, 449811, 449813, 449815 och 449817.
+En sträng hoppades över som dubblett eftersom rätt förslag 449619 redan finns.
+Det befintliga förslaget lämnades orört. Alla berörda förslag är
+upstream-inskickade för granskning, men inget är upstream-godkänt ännu.
