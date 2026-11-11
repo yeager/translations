@@ -13,6 +13,8 @@ ungefärlig grafik* och den projektspecifikt konsekventa termen *tolken* för
 *interpreter*. XML, l10n-lint och Gitleaks är godkända. svlang och Hunspell-sv
 markerar endast XML/källtext och etablerade facktermer.
 
+De återkommande besluten finns samlade i `TERMINOLOGY.md`.
+
 Ingen ny Crowdin-ändring skickades i denna kontroll. Vid den senaste
 åtkomstkontrollen saknades den tidigare webbsessionen och Crowdin CLI saknade
 projektkonfiguration. När en etablerad kanal åter är tillgänglig ska ändringen
