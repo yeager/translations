@@ -2,6 +2,27 @@
 
 Datum: 11 november 2026
 
+## Handkontrollsformuleringar: fyrtionde granskningsbatchen
+
+Fyra närliggande handkontrollstexter rättas. Ett felmeddelande ersätter den
+krystade snedstreckskonstruktionen med tydlig svenska. Två pausinställningar
+anger en handkontroll i singular, och den analoga PS1-handkontrollen får rätt
+form.
+
+Lokal deltafil: `pcsx2-sv-controller-wording-batch-40-20261111.xliff`
+(sträng-ID 3611, 11418, 11430 och 17735). Lokal granskning och kontroller
+genomfördes före arkivering och Crowdin-inskick.
+
+XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlangs V2-varning är en falsk positiv på ett samordnat subjekt.
+Hunspell-SV markerar endast `PS1-handkontroll` och XLIFF-entiteten `apos`.
+`msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
+Crowdin-importen verifierades via API: 4 strängar och 28 ord importerades, 0
+godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända
+förslagen är 449263, 449265, 449267 och 449269. Detta är ett upstream-inskick,
+inte upstream-granskning eller merge.
+
 ## Multitap: trettionionde granskningsbatchen
 
 Projektets not anger att `Multitap` är ett Sony-relaterat tekniskt namn och
