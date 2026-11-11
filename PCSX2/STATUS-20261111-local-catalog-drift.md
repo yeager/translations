@@ -479,6 +479,10 @@ passerar. svlang och Hunspell-SV markerar endast produktnamn, formatentiteten
 `quot`, sammansättningen `tågförarhandkontroll` och projekttermen `mappas`.
 `msgfmt` är inte tillämpligt på XLIFF. Batchen är lokalt granskad.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+1 översättning med 80 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. Den är upstream-inskickad för granskning men ännu inte upstream-godkänd.
+
 ## Spelkataloger: fyrtiotredje granskningsbatchen
 
 `pcsx2-sv-search-directories-batch-43-20261111.xliff` ersätter den tekniska
