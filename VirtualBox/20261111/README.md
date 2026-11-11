@@ -530,6 +530,8 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 191: samtliga 2 aktiva meddelanden i
   `UIIndicatorKeyboardExtension` är granskade radvis. Statusradstexterna har
   rättats lokalt och inväntar den samlade uppdateringen av PR #848.
+- 2026-11-11, batch 192: samtliga 2 aktiva meddelanden i
+  `UIIndicatorSharedFolders` är granskade radvis. Ingen textändring behövdes.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
