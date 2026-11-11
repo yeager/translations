@@ -480,6 +480,13 @@ Gitleaks passerar. Hunspell-SV markerar endast parsertermen `tokenen` och
 XLIFF-entiteten `quot`. `msgfmt` kan inte tolka XLIFF och är därför inte
 tillämpligt. Batchen är lokalt granskad.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+12 översättningar med 50 ord; 0 godkändes automatiskt. En sträng hoppades
+över av Crowdins dubblettkontroll, vilket bekräftar att samma korrekta text
+redan finns i flödet. De nya förslagen har ID 449421 till 449443 (udda
+nummer). De är upstream-inskickade för granskning men ännu inte
+upstream-godkända.
+
 ## JogCon-inställningar: femtiotredje granskningsbatchen
 
 `pcsx2-sv-jogcon-controls-batch-53-20261111.xliff` ersätter kvarlämnade
