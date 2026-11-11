@@ -2,6 +2,28 @@
 
 Datum: 11 november 2026
 
+## Installationsguidens handkontroller: trettiosjunde granskningsbatchen
+
+Installationsguidens längre HTML-text för handkontroller granskas rad för rad.
+Den har fått korrekt singularform, rättad stavning och idiomatisk svensk
+ordföljd. `Multitap` behålls eftersom projektet anger det som ett
+Sony-relaterat tekniskt namn. Länk, HTML-struktur och synliga menyval bevaras.
+
+Lokal deltafil: `pcsx2-sv-setup-controller-guide-batch-37-20261111.xliff`
+(sträng-ID 11112). Lokal granskning och kontroller genomfördes före arkivering
+och Crowdin-inskick.
+
+XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlangs V2-varningar är falska positiva från XLIFF-HTML och korrekta
+infinitivfraser. Hunspell-SV markerar endast produktnamn, `Multitap` och
+markup. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för
+denna fil.
+
+Crowdin-importen verifierades via API: 1 sträng och 126 ord importerades, 0
+godkändes automatiskt och inget hoppades över. Det skapade, ännu ej godkända
+förslaget är 449241. Detta är ett upstream-inskick, inte upstream-granskning
+eller merge.
+
 ## Handkontroller i singular: trettiosjätte granskningsbatchen
 
 Fem sammanhängande UI-texter använde felaktigt formen `handkontroller` om en
