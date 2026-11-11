@@ -468,6 +468,19 @@ text redan finns i flödet. De nya översättningsposterna har ID 449295,
 449297, 449299 och 449301. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Sparlägen: fyrtioåttonde granskningsbatchen
+
+`pcsx2-sv-save-state-wording-batch-48-20261111.xliff` rättar en grammatiskt
+felaktig beskrivning, engelskinspirerad rubrikversalisering och den otydliga
+hjälptexten för automatisk sparning. Terminologin skiljer mellan funktionen
+`sparläge` och åtgärden `Spara tillstånd`.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlangs V2-varningar är falska positiva; dess markering av
+`.backup` gäller den filändelse som måste behållas. Hunspell-SV markerar
+endast samma filändelse. `msgfmt` kan inte tolka XLIFF och är därför inte
+tillämpligt. Batchen är lokalt granskad.
+
 ## Shinkansen Controller: fyrtiosjunde granskningsbatchen
 
 `pcsx2-sv-shinkansen-controller-batch-47-20261111.xliff` gör texten för

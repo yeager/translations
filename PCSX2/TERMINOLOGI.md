@@ -15,6 +15,7 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | Vulkan, OpenGL, Metal | Vulkan, OpenGL, Metal | Grafik-API:er och synliga tekniknamn översätts inte. |
 | codec | kodek | Används i svensk löptext och inställningar. |
 | load | läs in, inläsning | Välj form efter UI-kontext. Undvik `ladda` när innebörden är att läsa in data eller en fil. |
+| savestate | sparläge | Används för emulatorns sparlägesfunktion i beskrivande text. Åtgärden `Save State` skrivs `Spara tillstånd`. |
 | PS2 BIOS | PS2-BIOS | Bindestrecket gör den svenska sammansättningen läsbar. |
 | BIOS image | BIOS-avbild | Används i installationsguiden och BIOS-inställningarna. |
 | game dump, disc dump | skivavbild | Välj `skivavbild` i löptext och hjälptexter; behåll filformatnamn oförändrade. |
