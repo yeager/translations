@@ -5,7 +5,7 @@
 - Officiell källgren: `VirtualBox/virtualbox` `main`, revision
   `b6bea72111fcff48f31c57c9f66365b1d3301bb9` (20 oktober 2026).
 - Granskningsunderlag: den öppna PR:n [#848](https://github.com/VirtualBox/virtualbox/pull/848),
-  huvudrevision `7b2f494a0b0301f6f85423d1f4d4abc30222c5df`.
+  ursprunglig huvudrevision `7b2f494a0b0301f6f85423d1f4d4abc30222c5df`.
 - Senaste stabila utgåva enligt projektets nedladdningssida är 7.2.22 och
   ligger väl inom 48 månader.
 
@@ -54,8 +54,15 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   endast lokala.
 - 2026-11-11, batch 011: maskinåtgärder, fångsthjälp, moln- och
   kloningsguider samt uppdateringsinställningar har granskats radvis.
-  Ändringarna är fortfarande endast lokala.
-- Kvar: radvis granskning av återstående aktiva strängar i `VirtualBox_sv.ts`.
+- 2026-11-11, batch 012: slutgranskningen av katalogen är klar. Startsidan
+  rättades där konfigurationen felaktigt angavs som ett sätt att använda
+  datorn, i stället för att få VirtualBox Manager att fungera med den.
+- PR #848 uppdaterades 2026-11-11 till huvudrevision
+  `9ec705ee28c949c8faf7b7d6b187216dfaedda37` med samtliga tio
+  granskningscommitar. GitHub har bekräftat mottagandet.
+- PR:n är öppen och ännu inte granskad eller mergad. GitHubs enda externa
+  kontroll, `oca/oracle`, misslyckas för huvudrevisionen. Det är Oracle
+  Contributor Agreement-kontrollen och inte ett fel i översättningsfilerna.
 - Råfilerna i `../VirtualBox/` är historiska och har inte skrivits över.
 
 ## Kontroller för batch 001
@@ -66,4 +73,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - `l10n-lint` med `lupdate`-mallen som referens: inga verkliga fel efter
   granskningen. Två tomma `--`-värden är avsiktliga språkmetadata.
 - `git diff --check`: godkänd.
-- Återstående kontroller redovisas per batch efter manuell bedömning.
+- `svlang consistency`: godkänd.
+- `hunspell-sv`: granskad manuellt; återstående träffar är produktnamn,
+  kommandon, format och tekniska identifierare.
+- `gitleaks detect --no-git --redact`: inga läckta hemligheter.
+- `msgfmt` är inte tillämpligt på Qt TS; `lrelease` är formatets motsvarande
+  kompileringskontroll.
