@@ -1422,3 +1422,16 @@ Elva nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
 449753 och 449755. Den tolfte strängen var en dubblett: det identiska
 förslaget 432633 finns redan för rätt sträng och lämnades orört. Alla är
 upstream-inskickade för granskning, men inget är upstream-godkänt ännu.
+
+## Qt-gränssnitt: sjuttionionde granskningsbatchen
+
+`pcsx2-sv-qt-ui-wording-batch-79-20261111.xliff` rättar tio
+gränssnittssträngar i felsökaren, verktygsfältet, minneskortsdialogen och
+handkontrollinställningarna. Den återställer de tre punkter som källan
+använder i två menypunkter och normaliserar bland annat `verktygsfält`,
+`favoritmarkerade` och `ZIP-fil`.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlang och Hunspell-SV markerar enbart de avsedda produkt- och
+formatnamnen `PS1` och `ZIP`. `msgfmt` är inte tillämpligt på XLIFF och
+avvisar därför filen som icke-PO. Batchen är lokalt granskad.
