@@ -480,6 +480,11 @@ passerar. svlangs två V2-varningar är falska positiva på subjektfrasen
 PS2. `msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt. Batchen är
 lokalt granskad.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+7 översättningar med 43 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449407 till 449419 (udda nummer). De är
+upstream-inskickade för granskning men ännu inte upstream-godkända.
+
 ## Inmatningsinspelning och menyer: femtioandra granskningsbatchen
 
 `pcsx2-sv-input-recording-menu-batch-52-20261111.xliff` gör
