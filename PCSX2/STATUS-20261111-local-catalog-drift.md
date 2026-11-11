@@ -1521,3 +1521,11 @@ strängar hoppades över som dubbletter eftersom rätt förslag redan finns:
 449481, 449541, 449715, 449489 och 449491. Inga befintliga förslag har
 ändrats. Alla berörda förslag är upstream-inskickade för granskning, men
 inget är upstream-godkänt ännu.
+
+## Dialoggrammatik: åttiosjätte granskningsbatchen
+
+`pcsx2-sv-dialog-grammar-batch-86-20261111.xliff` rättar sex dialoger för
+fusk, minneskort, pnach-filer och GunCon2. Den rättar bland annat den felaktiga
+formen `Ppnach`, växlingen mellan singular och plural för handkontroller samt
+otydlig meningsbyggnad kring sparlägen.
+Batchen är lokalt granskad och inväntar upstream-inskick.
