@@ -7,7 +7,19 @@
 
 ## Färdigt men ännu inte inskickat
 
-Inga kända färdiga filer väntar på manuellt inskick just nu.
+- **RetroArch, Xemu:** en lokalt granskad PO-post för
+  `XEMU_ASPECT_RATIO_INFO_0` väntar i
+  [Xemu-deltat](RetroArch/retroarch-sv-xemu-aspect-ratio-20261111.po).
+  Den är den enda återstående oöversatta posten i den avlästa
+  Xemu-komponenten. Ingen Crowdin-sparning eller återläsning har ännu gjorts.
+- **RetroAchievements:** 48 lokalt granskade, oöversatta poster i
+  ärendeflödet väntar i
+  [batch 05](RetroAchievements/retroachievements-sv-20261111-ticket-workflow-batch-05.json).
+  Ingen av dem har sparats eller verifierats i Crowdin.
+- **RPCS3:** en lokalt granskad TS-rättelse byter *återge ungefärlig grafik*
+  mot *rendera ungefärlig grafik* i
+  [renderingsdeltat](RPCS3/rpcs3_sv-SE_crowdin-20261109-rendering-terminology.ts).
+  Ingen ny Crowdin-ändring har sparats eller återlästs.
 
 ## Förberett men spärrat hos tjänsten
 
