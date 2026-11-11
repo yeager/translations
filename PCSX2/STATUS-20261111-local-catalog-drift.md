@@ -468,6 +468,17 @@ text redan finns i flödet. De nya översättningsposterna har ID 449295,
 449297, 449299 och 449301. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Kraftåterkoppling: femtiofemte granskningsbatchen
+
+`pcsx2-sv-force-feedback-batch-55-20261111.xliff` använder den svenska
+facktermen `kraftåterkoppling` för rattarnas FFB-funktion och förtydligar att
+inställningen ska lämnas avstängd när den inte behövs.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlangs V2-varning är en falsk positiv på en korrekt uppmaning.
+Hunspell-SV har inga markeringar. `msgfmt` kan inte tolka XLIFF och är därför
+inte tillämpligt. Batchen är lokalt granskad.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
