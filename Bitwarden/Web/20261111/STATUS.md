@@ -61,3 +61,9 @@
 - Omfattning: 25 tidigare oöversatta strängar för rotationsåtgärder, status och historik.
 - Upstream: 25 Crowdin-förslag skapade och verifierade, id `2008153`–`2008201` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
 - Kontroller: platshållarkontroll, Hunspell-sv, svlang, diffkontroll och Gitleaks godkända. Hunspell- och svlangträffar gäller platshållare och UI-fragment; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
+
+## 2026-11-11, batch 10
+
+- Omfattning: 25 tidigare oöversatta strängar för rotationskonfiguration och aktiva sessioner.
+- Upstream: 25 Crowdin-förslag skapade och verifierade, id `2008203`–`2008251` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
+- Kontroller: platshållarkontroll, Hunspell-sv, svlang, diffkontroll och Gitleaks godkända. svlang markerar endast UI-fragment; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
