@@ -10,6 +10,8 @@ Lokal deltafil: `pcsx2-sv-software-clut-render-batch-21-20261111.xliff` (sträng
 
 XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlang och Hunspell-SV markerar endast den tekniska förkortningen `CLUT`, inte svensk prosa. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
 
+Crowdin-importen verifierades via API: 2 strängar och 6 ord importerades, 0 godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända förslagen är 449133 för sträng-ID 8307 och 449135 för sträng-ID 6535. Detta är ett upstream-inskick, inte upstream-granskning eller merge.
+
 Den lokala filen `pcsx2-qt_sv-SE.ts` kontrollerades inför nästa
 kvalitetsgranskning. Den innehåller 4 057 meddelanden, varav 202 är markerade
 `unfinished`. `l10n-lint` rapporterar därför 202 saknade översättningar, men
