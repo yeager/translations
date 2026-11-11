@@ -105,3 +105,18 @@ Det bekräftar att den etablerade import- och redigerarrollen inte kan föra in
 den här rättningen utan en projektgodkänd metod för dubbletter. Varken röstning
 eller godkännande har utförts. Upstream-status för den lokala batchen är därför
 fortfarande: **ej införd**.
+
+## TS-export kontrollerad på nytt
+
+Filen `pcsx2-qt_sv-SE.ts` i Hämtade kontrollerades på nytt den 11 november.
+Den innehåller 5 297 meddelanden, varav fem är oavslutade, och kompilerar med
+`lrelease` till 5 292 färdiga och fem oavslutade översättningar. De fem
+posterna motsvarar två källtexter: `Target Page Rearranging` och dess
+förklarande hjälptext.
+
+De finns redan med de granskade måltexterna `Omordning av målsidor` respektive
+`Ordnar om minnessidorna för ett mål om spelet ändrar layouten på den aktuella
+VRAM-adressen.` i den nyare, kompletta XLIFF-exporten
+`pcsx2-qt_en_sv-SE.xliff`. TS-filen är därför inte en grund för en ny
+importfil. XML-validering, `lrelease` och Gitleaks passerade för TS-filen.
+Ingen översättning ändrades eller skickades i denna kontroll.
