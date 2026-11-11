@@ -150,7 +150,8 @@ versalhantering. Ändringarna är lokalt granskade och inte skickade externt.
 
 2026-11-11: Batch 286 rättar bearbetningsalgoritmen `Interpolate (Data metrics)`.
 I denna kontext betyder `data metrics` datamått, inte datanätverk. Ändringen är
-lokalt granskad och inte skickad externt.
+lokalt granskad och inskickad som Transifex-förslag. Kontot saknar behörighet
+att tillämpa ändringen direkt.
 
 2026-11-11: Terminologilistan kompletterades med SpatiaLite, libspatialite,
 `ROWID`, miniatyr och socket från batch 253–254. Uppdateringen är lokal och

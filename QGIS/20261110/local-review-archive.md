@@ -245,7 +245,7 @@ konsonanter i följd. Ingen extern ändring har gjorts.
 | 283 | GRASS nätverk och kartor | `2dd791fd` | Lokalt granskad; ej uppladdad. |
 | 284 | GRASS rasterparametrar | `830e6130` | Lokalt granskad; ej uppladdad. |
 | 285 | GRASS topologi och statistik | `6b48732c` | Lokalt granskad; ej uppladdad. |
-| 286 | Interpolering med datamått | `81e5a36a` | Lokalt granskad; ej uppladdad. |
+| 286 | Interpolering med datamått | `81e5a36a` | Transifex-förslag inskickat; ej tillämpat. |
 
 Innan uppladdning ska varje rad gå igenom enhetsuppslag, jämförelse med aktuell
 måltext, deltafil, formatkontroll och återläsning efter accepterad import.
