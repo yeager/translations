@@ -1,0 +1,35 @@
+# Batch 189: startpanelen
+
+Datum: 2026-11-11  
+Källa: `VirtualBox/virtualbox`, svensk Qt TS-katalog i arbetsgrenen
+`virtualbox-sv-review-20261111`.
+
+## Granskad omfattning
+
+Samtliga 4 aktiva meddelanden i `UIHomePane` har granskats i VirtualBox-
+hanterarens startpanel, inklusive välkomstlänkar och förklaringen av
+användarlägena.
+
+## Resultat
+
+Två HTML-texter har rättats. `VirtualBox Manager` använder nu den etablerade
+benämningen `VirtualBox-hanteraren`; den redundanta formuleringen `virtuell
+VirtualBox-maskin` har ersatts med `virtuell maskin`. Startlänkarna är
+språkligt jämnade och `VirtualBox-gränssnittet` har fått korrekt
+sammansättningsbindestreck. Länkar, markup och platshållaren `%1` är
+bevarade.
+
+## Kontroller
+
+- XPath-räkning: 4 aktiva meddelanden.
+- `xmllint --noout`: godkänd.
+- `lrelease`: 3 589 slutförda översättningar, 0 oavslutade.
+- `svlang consistency`: godkänd.
+- `git diff --check`: godkänd.
+- `gitleaks detect --no-git --redact`: inga hemligheter hittades.
+- `msgfmt` är inte tillämpligt på Qt TS; `lrelease` är motsvarande kontroll.
+
+## Status
+
+Lokalt granskat och arkiverat. Katalogändringen är verifierad lokalt och
+avvaktar den samlade uppdateringen av PR #848 efter fullständig granskning.
