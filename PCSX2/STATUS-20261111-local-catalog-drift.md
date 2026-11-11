@@ -2,6 +2,25 @@
 
 Datum: 11 november 2026
 
+## QT-värdens felmeddelanden: trettiofemte granskningsbatchen
+
+Två meddelanden från QT-värden rättas. Sparfel för spelinställningar får
+direkt och idiomatisk ordföljd utan dubbelt mellanslag. Meddelandet om en
+ansluten handkontroll får korrekt singular form.
+
+Lokal deltafil: `pcsx2-sv-qthost-errors-batch-35-20261111.xliff`
+(sträng-ID 11448 och 11450). Lokal granskning och kontroller genomfördes före
+arkivering och Crowdin-inskick.
+
+XML-validering, exakt källtextjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar. `msgfmt --check` kan inte tolka XLIFF och
+är därför ej tillämplig för denna fil.
+
+Crowdin-importen verifierades via API: 2 strängar och 9 ord importerades, 0
+godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända
+förslagen är 449227 och 449229. Detta är ett upstream-inskick, inte
+upstream-granskning eller merge.
+
 ## Gränssnittsinställningar: trettiofjärde granskningsbatchen
 
 Hjälptexten för gränssnittsinställningarna hade en upprepad konjunktion och
