@@ -97,3 +97,14 @@
 - Omfattning: 7 tidigare oöversatta strängar för Privileged Controls och Secrets Manager.
 - Upstream: 7 Crowdin-förslag skapade och verifierade, id `2008453`–`2008465` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
 - Kontroller: platshållarkontroll, Hunspell-sv, diffkontroll och Gitleaks godkända. Hunspellträffar gäller produktnamn, platshållare och facktermer; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
+
+## Verifierad komponentstatus 2026-11-11
+
+| Komponent | Crowdin-projekt | Svenska strängar | Godkända |
+| --- | ---: | ---: | ---: |
+| Browser | 268134 | 2 482 / 2 482 | 750 |
+| Mobil | 269690 | 1 846 / 1 846 | 563 |
+| Desktop | 299360 | 2 218 / 2 218 | 807 |
+| Web | 308189 | 5 468 / 5 468 | 1 317 |
+
+Samtliga komponenter är kompletta i antal. Nya förslag är inskickade till Crowdin men väntar på Bitwardens upstream-granskning; detta innebär inte upstream-godkännande eller publicering.
