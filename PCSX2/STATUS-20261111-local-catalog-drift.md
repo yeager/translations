@@ -496,6 +496,12 @@ och Gitleaks passerar. svlangs anglicismmarkering gäller det avsiktligt
 bevarade funktionsnamnet och V2-varningen gäller en korrekt uppmaning.
 `msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+2 översättningar med 35 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449449 och 449451. De är upstream-inskickade för
+granskning men ännu inte upstream-godkända. De tidigare förslagen finns kvar
+som icke godkända alternativ och har inte ändrats eller röstats på.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
