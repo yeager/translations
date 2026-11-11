@@ -208,6 +208,13 @@ formuleringen `kommer dumpa`. Batchen delar upp meddelandena i korta,
 begripliga svenska meningar. Synliga inställningsnamn som `EE Cache`,
 `Fastmem`, `Full` och `mVU Flag Hack` bevaras exakt.
 
+## TV-shader: tjugonde granskningsbatchen
+
+Grafikinställningarnas etikett `TV Shader` avvek från den projektspecifika
+svenska termen i helskärm, efterbehandling och kortkommandon.
+`pcsx2-sv-tv-shader-label-batch-20-20261111.xliff` normaliserar den enda
+återstående förekomsten till `TV-shader`.
+
 XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
 passerar. Svlang ger 8,8/10 och markerar enbart de bevarade synliga
 inställningsnamnen; Hunspell-SV markerar samma fack- och produktnamn.
