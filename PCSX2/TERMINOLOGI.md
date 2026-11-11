@@ -30,4 +30,4 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | deadzone | dödzon | Gäller tröskeln för ratt- och vridningsaxlar i JogCon-inställningarna. |
 | condition | villkor | Gäller felsökarens uttrycksparser, inte ett programtillstånd. |
 | ternary operator | ternär operator | Gäller felsökarens uttrycksparser. |
-| force feedback | kraftåterkoppling | Gäller rattars kraftåterkoppling; förkortningen FFB undviks i svensk löptext. |
+| Force Feedback | Force Feedback | Synligt funktionsnamn för rattar och haptisk återkoppling; behålls på engelska i PCSX2:s gränssnitt. |

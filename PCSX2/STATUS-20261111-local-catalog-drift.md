@@ -482,7 +482,19 @@ inte tillämpligt. Batchen är lokalt granskad.
 Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 2 översättningar med 35 ord; 0 godkändes automatiskt och inga strängar hoppades
 över. De nya förslagen har ID 449445 och 449447. De är upstream-inskickade
-för granskning men ännu inte upstream-godkända.
+för granskning men ännu inte upstream-godkända. Batchen är ersatt av
+femtiosjätte batchen och ska inte importeras på nytt.
+
+## Force Feedback: femtiosjätte granskningsbatchen
+
+`pcsx2-sv-force-feedback-term-batch-56-20261111.xliff` återställer
+`Force Feedback` som synligt funktionsnamn i PCSX2. Den svenska omskrivningen
+`kraftåterkoppling` används inte för den här funktionen.
+
+XML-validering, exakt källjämförelse, l10n-lint, Hunspell-SV, diffkontroll
+och Gitleaks passerar. svlangs anglicismmarkering gäller det avsiktligt
+bevarade funktionsnamnet och V2-varningen gäller en korrekt uppmaning.
+`msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt.
 
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
