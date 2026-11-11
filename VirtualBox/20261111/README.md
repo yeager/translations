@@ -99,6 +99,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 031: visningskontroller (21) samt statusrad, menyrad och
   miniverktygsfält (22) har granskats radvis. Ändringarna är verifierade
   lokalt i commit `478dc34` och ännu inte pushade till PR:n.
+- 2026-11-11, batch 032: tangentbordsfångst, kortkommandon, pekdon och
+  visuellt tangentbord (76) har granskats radvis. Den verifierade delbatchen
+  finns lokalt i commit `1fa7a09` och är ännu inte pushad till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
