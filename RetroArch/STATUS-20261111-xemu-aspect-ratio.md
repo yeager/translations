@@ -4,6 +4,7 @@
 - Avläst status: projektet är 99 % översatt och 34 % godkänt. Xemu-komponenten är 94 % översatt och har 65 återstående ord.
 - Kvarvarande post: `XEMU_ASPECT_RATIO_INFO_0` (sträng-id `6232405`).
 - Lokal deltafil: `retroarch-sv-xemu-aspect-ratio-20261111.po`.
+- Terminologi: `TERMINOLOGY.md`.
 
 Den svenska formuleringen är kontextgranskad. Alternativet *Auto* blir
 *Automatiskt*, i enlighet med RetroArchs övriga svenska UI. `msgfmt --check
