@@ -1435,3 +1435,10 @@ XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
 passerar. svlang och Hunspell-SV markerar enbart de avsedda produkt- och
 formatnamnen `PS1` och `ZIP`. `msgfmt` är inte tillämpligt på XLIFF och
 avvisar därför filen som icke-PO. Batchen är lokalt granskad.
+
+Sju nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
+449757, 449759, 449761, 449763, 449765, 449767 och 449769. Tre strängar
+hoppades över som dubbletter eftersom samma korrekta förslag redan finns:
+431845, 449269 och 448751. Inga befintliga förslag har ändrats. Alla berörda
+förslag är upstream-inskickade för granskning, men inget är
+upstream-godkänt ännu.
