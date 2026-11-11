@@ -28,6 +28,10 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 002: `QApplication`, `UIAccelerationFeaturesEditor`,
   `UIActionPool` och `UIBootFailureDialog` har granskats radvis i den aktuella
   genomgången. Ändringarna är fortfarande endast lokala.
+- 2026-11-11, batch 003: `UIApplianceEditorWidget`,
+  `UIApplianceUnverifiedCertificateViewer`, ljudinställningar,
+  tangentbordsfångst och uppstartsordning har granskats radvis. Ändringarna är
+  fortfarande endast lokala.
 - Kvar: radvis granskning av återstående aktiva strängar i `VirtualBox_sv.ts`.
 - Råfilerna i `../VirtualBox/` är historiska och har inte skrivits över.
 
