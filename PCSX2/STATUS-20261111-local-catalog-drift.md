@@ -143,6 +143,27 @@ den har redan 72 dubblettfel i historiska poster. Det är ett separat
 arkivproblem och påverkar inte XLIFF-batchens XML- eller platshållarstruktur.
 Ingen ändring har ännu skickats upstream i detta steg.
 
+## Patchar och CRC:er: fjärde granskningsbatchen
+
+Den projektbundna termbasen använder `patchar` för PCSX2:s användarval och
+`CRC:er` för flera CRC-värden. Den skiljer därmed den här terminologin från
+andra program där en patch kan heta korrigering. En radvis kontroll av
+inställningsdialogerna hittade både inkonsekventa böjningar (`patcher`) och
+flera oidiomatiska CRC-former (`CRCs`).
+
+`pcsx2-sv-patches-crc-batch-04-20261111.xliff` innehåller 13 berörda
+strängar: kompatibilitetspatchar, patchar som tar bort sammanflätning,
+patchfiler, CRC:er, bildförhållande och den tillhörande hjälprutan. Den
+bevarar samtliga formatnamn och `Auto Standard` som synligt UI-namn.
+
+XML-validering, källjämförelse mot den färska XLIFF-exporten, l10n-lint,
+diffkontroll och Gitleaks passerar. Hunspell-SV markerar endast den avsiktliga
+facktermen `kompatibilitetspatchar` samt den böjda förkortningen `CRC:er`.
+svlangs anglicismträffar för `patchar` är falska positiva i just PCSX2, eftersom
+projektets termbas anger den termen; den enda V2-varningen är en felanalys av
+en bisats. `msgfmt` är inte tillämpligt på XLIFF. Ingen ändring har ännu
+skickats upstream i detta steg.
+
 ## Installationsguiden: tredje granskningsbatchen
 
 Installationsguidens HTML-hjälpruta för spelkataloger hade en inledande
