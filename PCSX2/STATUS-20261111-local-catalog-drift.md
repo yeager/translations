@@ -1474,4 +1474,8 @@ upstream-godkänt ännu.
 `pcsx2-sv-patch-dialogs-batch-82-20261111.xliff` rättar sju strängar i
 patch- och fuskdialogerna. Den åtgärdar bland annat ett stavfel,
 sammanblandningen av omärkta patchkoder och flera oidiomatiska instruktioner.
-Batchen är lokalt granskad och inväntar upstream-inskick.
+Batchen är lokalt granskad.
+
+Sju nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
+449779, 449781, 449783, 449785, 449787, 449789 och 449791. De är
+upstream-inskickade för granskning, men inget är upstream-godkänt ännu.
