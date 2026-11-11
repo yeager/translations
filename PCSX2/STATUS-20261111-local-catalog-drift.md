@@ -191,6 +191,22 @@ falska V2-varningar i annars korrekta huvudsatser och i XML-kodad HTML.
 `msgfmt` är inte tillämpligt på XLIFF. Ingen ändring har ännu skickats
 upstream i detta steg.
 
+## Bildrutetakt och emulering: sjunde granskningsbatchen
+
+Fyra längre hjälprutor i emuleringsinställningarna hade ordagranna eller
+otydliga formuleringar. `pcsx2-sv-emulation-frame-pacing-batch-07-20261111.xliff`
+gör texterna mer direkta och konsekventa: värdens uppdateringsfrekvens,
+bildrutetakt, inmatningsfördröjning, bildrutegenerering och realtidsklocka.
+Projektets termbas ligger till grund för `Bildrutetakt/latenskontroll`,
+`Realtidsklocka` och `Ange realtidsklocka manuellt`.
+
+Källtexternas betydelse, HTML-entiteter och tekniska namn bevaras. Svenskt
+procentformat används i den berörda hjälprutan. XML-validering, exakt
+källjämförelse, l10n-lint, Hunspell-SV, diffkontroll och Gitleaks passerar.
+svlang markerar endast de sammansatta PCSX2-termerna som sällsynta och tre
+falska V2-varningar. `msgfmt` är inte tillämpligt på XLIFF. Ingen ändring har
+ännu skickats upstream i detta steg.
+
 ## Installationsguiden: tredje granskningsbatchen
 
 Installationsguidens HTML-hjälpruta för spelkataloger hade en inledande
