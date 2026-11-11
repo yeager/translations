@@ -32,3 +32,9 @@
 - Omfattning: 34 tidigare oöversatta strängar för ansökan om tidsbegränsad åtkomst.
 - Upstream: 34 Crowdin-förslag skapade och verifierade, id `2007441`–`2007507` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
 - Kontroller: platshållarkontroll, Hunspell-sv, svlang, diffkontroll och Gitleaks godkända. svlangs V2-markeringar är falska positiva för UI-fragment och platshållare; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
+
+## 2026-11-11, batch 05
+
+- Omfattning: 25 tidigare oöversatta Browser-strängar för privilegierad åtkomst och kopplade skrivbordsappar.
+- Upstream: 25 Crowdin-förslag skapade och verifierade, id `2007515`–`2007563` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
+- Kontroller: platshållarkontroll, Hunspell-sv, svlang, diffkontroll och Gitleaks godkända. Hunspell och svlang flaggar enbart den accepterade sammansättningen `skrivbordsapp`, produktnamn och platshållare; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
