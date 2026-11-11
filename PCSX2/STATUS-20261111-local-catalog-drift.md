@@ -483,6 +483,14 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 1 översättning med 80 ord; 0 godkändes automatiskt och inga strängar hoppades
 över. Den är upstream-inskickad för granskning men ännu inte upstream-godkänd.
 
+## Ryojōhen Controller: fyrtiosjätte granskningsbatchen
+
+`pcsx2-sv-ryojohen-controller-batch-46-20261111.xliff` använder samma
+fysiska handkontrollsterminologi och klargör bromsaxelns tre lägen.
+Crowdin-importen skapade 1 översättning med 95 ord; 0 godkändes automatiskt
+och inga strängar hoppades över. Förslaget är inskickat för granskning men
+inte upstream-godkänt.
+
 ## Spelkataloger: fyrtiotredje granskningsbatchen
 
 `pcsx2-sv-search-directories-batch-43-20261111.xliff` ersätter den tekniska
