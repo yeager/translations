@@ -20,3 +20,13 @@ inmatningsomfångsproblem, inte ett godkänt språktest.
 
 Nästa steg är att hämta en färsk Crowdin-export, jämföra den mot denna
 arkiverade fil och först därefter granska faktiska QA-fynd rad för rad.
+
+## Livekontroll 2026-11-11
+
+Den inloggade Crowdin-projektvyn för `pcsx2-emulator`, svenska, visar
+**100 % översatt**, **0 % godkänt** och **0 ord** kvar. Den enda aktiva filen
+är `pcsx2-qt_en.ts`, med 100 % översättning. Gränssnittets XLIFF-export valdes
+för att hämta den aktuella katalogen, men Chrome blockerade den signerade
+nedladdningsvärden med `ERR_BLOCKED_BY_CLIENT` innan någon fil sparades.
+Ingen översättning ändrades. En färsk export krävs fortfarande för radvis
+granskning av QA-kön.
