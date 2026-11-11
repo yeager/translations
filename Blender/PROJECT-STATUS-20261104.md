@@ -141,10 +141,11 @@ Projektets aktualitet är verifierad 9 november 2026: Blender 5.2 LTS
 släpptes den 14 juli 2026 enligt Blenders officiella releasesida. Projektet
 uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 
-> Den aktuella källexporten är `blender-ui-ui-sv (8).po`, hämtad 10 november
-> 2026 före den senaste verifierade manuella importen. Den är arbetsreferensen
-> för nya deltafiler. En deltafil räknas inte som importerad förrän
-> importresultatet är verifierat.
+> Den aktuella verifieringsexporten är `blender-ui-ui-sv (9).po`, hämtad 11
+> november 2026. Den bekräftar att de 178 måltexterna i den arkiverade
+> importdeltan sedan 16:00 den 10 november finns exakt i Blender Translate.
+> Se `VERIFICATION-EXPORT-9-20261111.md`. En deltafil räknas inte som
+> importerad förrän importresultatet är verifierat.
 
 ## Helkatalogskontroll av export 8
 
