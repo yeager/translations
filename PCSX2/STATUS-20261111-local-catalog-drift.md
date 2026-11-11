@@ -428,11 +428,6 @@ sammanhängande hjälprutan som formella respektive längdrelaterade träffar.
 `pcsx2-reviewed-crowdin-20260920.po` kan inte heller användas som surrogat:
 den har redan 72 dubblettfel i historiska poster. Det är ett separat
 arkivproblem och påverkar inte XLIFF-batchens XML- eller platshållarstruktur.
-Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
-1 översättning med 116 ord; 0 godkändes automatiskt och inga strängar
-hoppades över. Den nya översättningsposten har ID 449271. Den är
-upstream-inskickad för granskning men ännu inte upstream-godkänd.
-
 ## Installationsguiden: fyrtioförsta granskningsbatchen
 
 `pcsx2-sv-setup-wizard-wording-batch-41-20261111.xliff` granskar sex kortare
@@ -445,7 +440,7 @@ idiomatisk. Texten för inloggningstoken använder preteritum så att tidpunkten
 XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
 passerar. svlang ger 10/10; Hunspell-SV markerar endast produktnamnet PCSX2
 och XML-entiteterna `apos` och `quot`. `msgfmt` är inte tillämpligt på XLIFF.
-Batchen är lokalt granskad och väntar på Crowdin-import.
+Batchen är lokalt granskad.
 
 Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 6 översättningar med 91 ord; 0 godkändes automatiskt och inga strängar
@@ -464,7 +459,12 @@ XML-validering, exakt källjämförelse, diffkontroll och Gitleaks passerar.
 l10n-lint har inga fel; dess två URL-varningar beror på XML-kodad HTML.
 svlang och Hunspell-SV analyserar HTML/CSS, URL-delar och produktnamnen som
 vanliga ord och är därför inte relevanta språkvarningar. `msgfmt` är inte
-tillämpligt på XLIFF. Batchen är lokalt granskad och väntar på Crowdin-import.
+tillämpligt på XLIFF. Batchen är lokalt granskad.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+2 översättningar med 256 ord; 0 godkändes automatiskt och inga strängar
+hoppades över. De nya översättningsposterna har ID 449285 och 449287. De är
+upstream-inskickade för granskning men ännu inte upstream-godkända.
 
 ## VU-avrundning: femtonde granskningsbatchen
 
@@ -780,4 +780,7 @@ tolkar HTML, filformat och URL-delar som ord och ger därför en låg, ej
 språkligt relevant poäng. Hunspell-SV markerar bara produktnamnet PCSX2 och
 den tekniska sammansättningen `Gzip-komprimerad`.
 
-Ingen ändring har ännu skickats upstream i detta steg.
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+1 översättning med 116 ord; 0 godkändes automatiskt och inga strängar
+hoppades över. Den nya översättningsposten har ID 449271. Den är
+upstream-inskickad för granskning men ännu inte upstream-godkänd.
