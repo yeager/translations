@@ -448,6 +448,19 @@ hoppades över. De nya översättningsposterna har ID 449273, 449275, 449277,
 449279, 449281 och 449283. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Installationsguiden: fyrtiofjärde granskningsbatchen
+
+`pcsx2-sv-setup-wizard-actions-batch-44-20261111.xliff` normaliserar åtta
+etiketter och åtgärder i installationsguiden. `Slutför` används för både
+slutsteget och slutknappen. BIOS-mappen och spellistan får bestämd form,
+profil- och inloggningsknapparna följer källans tre punkter, och menyalternativ
+läggs till `i` respektive meny.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlang ger 10/10 och Hunspell-SV markerar endast produktnamnet
+PCSX2. `msgfmt` är inte tillämpligt på XLIFF. Batchen är lokalt granskad och
+väntar på Crowdin-import.
+
 ## Spelkataloger: fyrtiotredje granskningsbatchen
 
 `pcsx2-sv-search-directories-batch-43-20261111.xliff` ersätter den tekniska
