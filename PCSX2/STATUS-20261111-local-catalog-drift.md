@@ -2,6 +2,12 @@
 
 Datum: 11 november 2026
 
+## Oavsiktliga dubbla mellanslag: tjugosjunde granskningsbatchen
+
+Två vanliga UI-texter har oavsiktliga dubbla mellanslag. De reduceras till ett mellanslag. Formaterade kolumner i avlusarvyn lämnas uttryckligen utanför eftersom deras mellanslag är layoutdata.
+
+Lokal deltafil: `pcsx2-sv-double-space-batch-27-20261111.xliff` (sträng-ID 11416 och 6413). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
+
 ## I stället, fortsättning: tjugosjätte granskningsbatchen
 
 Tre återstående granskade UI-texter med den sammanskrivna formen `istället` normaliseras till `i stället`. Ett tidigare förslag för realtidsklockan fanns redan upstream och lämnas därför utanför denna deltafil.
