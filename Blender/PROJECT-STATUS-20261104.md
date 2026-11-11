@@ -1,6 +1,15 @@
 # Blender: projektstatus 5 november 2026
 
-Senaste lokala arbete: 10 november 2026.
+Senaste lokala arbete: 11 november 2026.
+
+## Terminologi: ställning och poseringsläge
+
+Termlistan har normaliserats så att den synliga UI-termen `Pose Bone`
+översätts till **ställningsben**, medan arbetsläget `Pose Mode` fortsatt
+heter **poseringsläge**. `rest pose` heter **viloställning**. API-namnet
+`PoseBone` behålls i kod- och API-kontext. Ändringen gäller lokal
+terminologidokumentation; den ändrar inte någon importerad Blender-
+översättning.
 
 > **Löpande radgranskning:** samtliga 40 434 av 40 434 strängar är
 > genomgångna. Det motsvarar **100,00 %**. Raderna 34 286–40 434 är

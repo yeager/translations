@@ -13,7 +13,7 @@ Använd em dash (—) endast när källsträngen själv innehåller em dash. I �
 fall väljs svensk interpunktion efter sammanhanget, vanligtvis kolon,
 semikolon eller parentes.
 
-Senast uppdaterad: 2026-11-10.
+Senast uppdaterad: 2026-11-11.
 
 ## Grundtermer
 
@@ -188,7 +188,7 @@ Senast uppdaterad: 2026-11-10.
 | Outliner | Outliner | Etablerat produktnamn i Blender-manualen. Behåll det på engelska; böj vid behov som *i Outliner*. |
 | linked duplicate | länkad dubblett | Dokumentationens singularform för ett nytt objekt som delar samma objektdata. Den synliga pluraloperatören *Linked Duplicate* kan ha en egen UI-form. |
 | parenting | föräldrarelation / överordnad relation | Beskriver relationen mellan objekt eller ben. Använd *föräldrarelation* i förklarande dokumentation; följ den exakta UI-kontexten för menyåtgärder som *Rensa överordnad*. |
-| rest pose | viloposition | Använd i armaturtext och UI-kommandon. Bevara RST-termmål som `<rest pose>`; använd inte den otydliga formen *vilopose*. |
+| rest pose | viloställning | Använd i armaturtext och UI-kommandon. Bevara RST-termmål som `<rest pose>`; använd inte den otydliga formen *vilopose*. |
 | Blender unit | Blender-enhet | Blenders egna måttenhet i egenskaper och beräkningsfel. Böj som *Blender-enheter*; översätt inte till den missvisande formen *rymd(enhet)*. |
 | constraint | begränsning | Blender-funktionen som styr eller begränsar ett objekts eller bens transformation. I sammansättningar: *rotationsbegränsning*, *skalbegränsning*. |
 | inverse correction (constraint) | inverskorrigering | Korrigering som bevarar relationen till ett mål i Child Of- och Object Solver-begränsningar. Operatörerna använder formerna *Rensa invers* och *Ange inverskorrigering*. |
@@ -677,7 +677,7 @@ Senast uppdaterad: 2026-11-10.
 | Pose (fristående UI-etikett) | ställning | Fristående etikett för en armaturställning. Skilj från Blender-typer och API-namn som `PoseBone`, och från den sammansatta arbetslägesetiketten *Pose Mode*. |
 | Pose Mode | poseringsläge | Arbetsläget för att posera en armatur. Använd även böjningen *i poseringsläget*, inte den inkonsekventa formen *poseläge*. |
 | armature space | armaturens koordinatrymd | Koordinatrymd för ett riggskelett och dess ben, bland annat i Geometry Nodes. Använd inte det vaga *armaturutrymme*. |
-| Pose Bone | posben | Ben i en armatur i poseringsläge. Skriv ihop även i sammansättningar, exempelvis *posbensfärg*. |
+| Pose Bone | ställningsben | Benets instans i en armatur i poseringsläge. Använd den svenska formen även i sammansättningar, exempelvis *ställningsbensfärg*; bevara bara API-namnet `PoseBone` oförändrat. |
 | dynamic topology sculpting | skulptering med dynamisk topologi | Skulpteringsläge som ändrar meshtopologin dynamiskt. |
 | child particle | barnpartikel | Partikel som härleds från en föräldrapartikel. |
 | distance attenuation | avståndsdämpning | Scenens ljudmodell som minskar ljudstyrkan med avståndet. |
