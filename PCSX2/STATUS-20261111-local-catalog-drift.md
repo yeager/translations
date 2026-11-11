@@ -1540,4 +1540,11 @@ upstream-inskickade för granskning, men inget är upstream-godkänt ännu.
 strängar om fysiska styrenheter. `handkontroll` används konsekvent när
 källtexten avser en faktisk spelkontroll, medan XInput, SDL, DirectInput och
 produktnamn som Multitap och GunCon2 behålls oförändrade.
-Batchen är lokalt granskad och inväntar upstream-inskick.
+Batchen är lokalt granskad.
+
+Tolv nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
+449847, 449849, 449851, 449853, 449855, 449857, 449859, 449861, 449863,
+449865, 449867 och 449869. Två strängar hoppades över som dubbletter eftersom
+rätt förslag redan finns: 449255 och 449257. Inga befintliga förslag har
+ändrats. Alla berörda förslag är upstream-inskickade för granskning, men
+inget är upstream-godkänt ännu.
