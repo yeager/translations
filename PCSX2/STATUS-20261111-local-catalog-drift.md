@@ -584,6 +584,12 @@ XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
 diffkontroll och Gitleaks passerar utan markeringar. `msgfmt` kan inte tolka
 XLIFF och är därför inte tillämpligt.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+9 översättningar med 45 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449479, 449481, 449483, 449485, 449487, 449489,
+449491, 449493 och 449495. De är upstream-inskickade för granskning men ännu
+inte upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
