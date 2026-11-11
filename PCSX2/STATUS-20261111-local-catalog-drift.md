@@ -305,6 +305,21 @@ JogCon var den enda kontrolltypen som lämnade `D-Pad` på engelska, medan
 `pcsx2-sv-jogcon-directional-buttons-batch-13-20261111.xliff` normaliserar
 den enda avvikelsen.
 
+## Renderingsterminologi: fjortonde granskningsbatchen
+
+`pcsx2-sv-rendering-terminology-batch-14-20261111.xliff` harmoniserar fyra
+grafikinställningar med projektets etablerade renderingsterminologi. De två
+mipmapping-raderna använder nu `korrekt rendering` i stället för `återges
+korrekt`. De två beskrivningarna av TV-shadern använder den projektspecifika
+termen `TV-shader` och samma idiomatiska formulering i helskärms- och
+grafikdialogen.
+
+Batchen är lokalt granskad och ännu inte inskickad. XML-validering, exakt
+källjämförelse, l10n-lint, svlang, Hunspell-SV, Gitleaks och diffkontroll
+passerar. Svlang och Hunspell-SV markerar enbart de avsiktliga fackorden
+`mipmapping` och `TV-shader`; det senare finns i PCSX2:s termbas.
+`msgfmt` är inte tillämpligt på XLIFF och avvisar därför filen som icke-PO.
+
 XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
 diffkontroll och Gitleaks passerar. l10n-lint rapporterar endast den väntade
 längdskillnaden mot den engelska förkortningen. `msgfmt` är inte tillämpligt
