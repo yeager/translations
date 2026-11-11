@@ -129,6 +129,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 041: medier, användarnamn och lösenord, seriella portar
   samt nätverksfunktioner (73) har granskats radvis. Ändringarna är
   verifierade lokalt i commit `aedd069` och ännu inte pushade till PR:n.
+- 2026-11-11, batch 042: appliance-redigerarens metadata (32) har granskats
+  radvis. Ändringarna är verifierade lokalt i commit `a61aa5a` och ännu inte
+  pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
