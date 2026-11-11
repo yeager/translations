@@ -428,6 +428,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 149: samtliga 30 aktiva meddelanden i
   `UIVMActivityOverviewWidget` är granskade radvis. Ingen textändring
   behövdes.
+- 2026-11-11, batch 150: samtliga 12 aktiva meddelanden i `UIVMCloseDialog`
+  är granskade radvis. Två texter har rättats i lokal commit `b00b984` och är
+  ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
