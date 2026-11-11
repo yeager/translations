@@ -1513,4 +1513,11 @@ upstream-inskickade för granskning, men inget är upstream-godkänt ännu.
 normaliserar tretton återstående prestations- och topplisteaviseringar. Den
 använder `avisering` konsekvent i både det vanliga och helskärmsbaserade
 gränssnittet och förenklar flera maskinöversatta hjälprader.
-Batchen är lokalt granskad och inväntar upstream-inskick.
+Batchen är lokalt granskad.
+
+Åtta nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
+449819, 449821, 449823, 449825, 449827, 449829, 449831 och 449833. Fem
+strängar hoppades över som dubbletter eftersom rätt förslag redan finns:
+449481, 449541, 449715, 449489 och 449491. Inga befintliga förslag har
+ändrats. Alla berörda förslag är upstream-inskickade för granskning, men
+inget är upstream-godkänt ännu.
