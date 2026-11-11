@@ -10,6 +10,8 @@ Lokal deltafil: `pcsx2-sv-console-achievements-vsync-batch-24-20261111.xliff` (s
 
 XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlangs V2-varning är en falsk träff på en grammatisk korrekt huvudsats. Hunspell-SV markerar endast produkt- och facktermerna PCSX2, RAIntegration, VSync, `bildrutetidtagning` och `sparningar`. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
 
+Crowdin-importen verifierades via API: 5 strängar och 53 ord importerades, 0 godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända förslagen är 449167, 449169, 449171, 449173 och 449175. Detta är ett upstream-inskick, inte upstream-granskning eller merge.
+
 ## I stället: tjugotredje granskningsbatchen
 
 Nio UI-texter från inmatning, minneskort och grafik använder den sammanskrivna formen `istället`. De normaliseras till den rekommenderade stavningen `i stället`, utan att ändra funktion, platshållare eller synliga produktnamn.
