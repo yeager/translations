@@ -308,7 +308,12 @@ den enda avvikelsen.
 XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
 diffkontroll och Gitleaks passerar. l10n-lint rapporterar endast den väntade
 längdskillnaden mot den engelska förkortningen. `msgfmt` är inte tillämpligt
-på XLIFF. Batchen är lokalt granskad men har ännu inte skickats upstream.
+på XLIFF. Batchen är lokalt granskad.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+0 översättningar och 0 ord; 0 godkändes automatiskt. Posten hoppades över av
+dubblettkontrollen, vilket visar att den korrekta svenska texten redan finns
+i Crowdins flöde.
 
 ## Installationsguiden: tredje granskningsbatchen
 
