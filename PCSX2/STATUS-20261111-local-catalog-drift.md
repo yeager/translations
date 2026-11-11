@@ -549,6 +549,11 @@ diffkontroll och Gitleaks passerar. Hunspell-SV markerar bara produktnamnet
 `PlayStation` och svlangs V2-varning är en falsk positiv på en korrekt
 uppmaning. `msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+1 översättning med 19 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. Det nya förslaget har ID 449473. Det är upstream-inskickat för granskning
+men ännu inte upstream-godkänt.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
