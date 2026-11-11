@@ -656,6 +656,13 @@ diffkontroll och Gitleaks passerar. Hunspell-SV markerar bara den korrekta
 sammansättningen `topplisteöverlägg` och svlangs V2-varning gäller en korrekt
 hjälptext. `msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+10 översättningar med 45 ord; 0 godkändes automatiskt. En sträng hoppades över
+av dubblettkontrollen, vilket bekräftar att samma korrekta formulering redan
+finns i flödet. De nya förslagen har ID 449525, 449527, 449529, 449531,
+449533, 449535, 449537, 449539, 449541 och 449543. De är
+upstream-inskickade för granskning men ännu inte upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
