@@ -137,6 +137,16 @@ uppfyller därmed 48-månadersregeln för fortsatt omfattande granskning.
 > för nya deltafiler. En deltafil räknas inte som importerad förrän
 > importresultatet är verifierat.
 
+## Helkatalogskontroll av export 8
+
+Den 11 november 2026 kontrollerades hela export 8 med `msgfmt`, `l10n-lint`,
+Gitleaks, em dash-jämförelse mot källtext och kontroll av tre identiska
+konsonanter. Samtliga obligatoriska kontroller godkändes. `svlang` och
+Hunspell-sv kördes också, men deras katalogomfattande träffar består till stor
+del av PO-syntax, tekniska identifierare, produktnamn och korta UI-fragment;
+de är dokumenterade som granskningsunderlag, inte som automatiska fel. Se
+`QA-EXPORT-8-20261111.md`.
+
 En lokalt kompilerad testkatalog, `/tmp/blender.mo`, skapades 11 november
 2026 från export 8 plus den senaste lokala styrkurvedeltan. `msgfmt`,
 diffkontroll och Gitleaks godkändes. Den filen är en lokal testartefakt och
