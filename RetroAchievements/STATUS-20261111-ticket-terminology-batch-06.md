@@ -14,6 +14,10 @@ inga anmärkningar), Hunspell-SV (inga okända ord), kontroll av taggar och
 platshållare, diffkontroll och Gitleaks. `msgfmt` är inte tillämpligt eftersom
 detta är en JSON-deltafil och ingen gettext-katalog.
 
-Arkivstatus: lokalt granskat och arkiverat. Upstream-inskick och resultat
-dokumenteras först efter verifierad Crowdin-API-åtgärd; batchen är inte godkänd
-eller publicerad genom denna lokala statuspost.
+Arkivstatus: lokalt granskat, arkiverat och pushat till vårt arkiv.
+
+Upstream-inskick: Tre förslag skapades i Crowdin via API den 11 november 2026:
+sträng `6916` blev översättning `89039`, `7746` blev `89041` och `8157` blev
+`89043`. Efterföljande API-avläsning bekräftade exakt måltext för samtliga.
+Förslagen är inte godkända (`isApproved: false`) och någon merge eller publicerad
+projektversion är därför inte verifierad.
