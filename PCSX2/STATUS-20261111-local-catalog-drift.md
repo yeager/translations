@@ -1533,3 +1533,11 @@ Batchen är lokalt granskad.
 Sex nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
 449835, 449837, 449839, 449841, 449843 och 449845. De är
 upstream-inskickade för granskning, men inget är upstream-godkänt ännu.
+
+## Handkontroller: åttiosjunde granskningsbatchen
+
+`pcsx2-sv-controller-terminology-batch-87-20261111.xliff` rättar fjorton
+strängar om fysiska styrenheter. `handkontroll` används konsekvent när
+källtexten avser en faktisk spelkontroll, medan XInput, SDL, DirectInput och
+produktnamn som Multitap och GunCon2 behålls oförändrade.
+Batchen är lokalt granskad och inväntar upstream-inskick.
