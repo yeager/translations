@@ -2,6 +2,27 @@
 
 Datum: 11 november 2026
 
+## Gränssnittsinställningar: trettiofjärde granskningsbatchen
+
+Hjälptexten för gränssnittsinställningarna hade en upprepad konjunktion och
+en onödigt abstrakt formulering. Den förklarar nu direkt att alternativen styr
+hur programmet ser ut och beter sig. Synliga kortkommandon, XLIFF-HTML och
+panelens funktion bevaras.
+
+Lokal deltafil: `pcsx2-sv-interface-settings-batch-34-20261111.xliff`
+(sträng-ID 10874). Lokal granskning och kontroller genomfördes före
+arkivering och Crowdin-inskick.
+
+XML-validering, exakt källtextjämförelse, l10n-lint, svlang, diffkontroll och
+Gitleaks passerar. Hunspell-SV markerar enbart XLIFF-entiteterna `br`, `gt`,
+`hr` och `lt`. `msgfmt --check` kan inte tolka XLIFF och är därför ej
+tillämplig för denna fil.
+
+Crowdin-importen verifierades via API: 1 sträng och 33 ord importerades, 0
+godkändes automatiskt och inget hoppades över. Det skapade, ännu ej godkända
+förslaget är 449225. Detta är ett upstream-inskick, inte upstream-granskning
+eller merge.
+
 ## Långsam uppspelning och snabbspolning: trettiotredje granskningsbatchen
 
 Katalogen blandar tidigare `slowmotion`, `slow-motion` och den redan etablerade UI-formen `långsam uppspelning`. Fem sammanhängande etiketter och hjälptexter normaliseras till `långsam uppspelning`; snabbtangenter skrivs som begripliga fraser i stället för långa sammansättningar. Snabbspolningens hjälptext får också korrekt svensk ordföljd.
