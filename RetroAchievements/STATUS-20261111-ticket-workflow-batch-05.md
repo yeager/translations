@@ -4,6 +4,7 @@
 - Avläst status: 97 % översatt, 58 % godkänt och 243 återstående ord.
 - Omfattning: 48 sammanhängande oöversatta UI-strängar i arbetsflödet för rapporterade prestationer och topplistor.
 - Granskad lokal delta: `retroachievements-sv-20261111-ticket-workflow-batch-05.json`.
+- Terminologibeslut: `TERMINOLOGY.md`.
 
 Strängarna använder `ärende` och `rapportör` konsekvent. För den kontextbundna arbetsfördelningen används `reservation` i stället för det tvetydiga `anspråk`. `Nedgradera` behålls för statusändringen av prestationer och topplistor, enligt tidigare projektgranskning.
 
