@@ -2,6 +2,26 @@
 
 Datum: 11 november 2026
 
+## Handkontroller i singular: trettiosjätte granskningsbatchen
+
+Fem sammanhängande UI-texter använde felaktigt formen `handkontroller` om en
+enda enhet. De normaliseras till `handkontroll`. Uppmaningen om att välja
+knapp eller axel skrivs om så att den blir lättare att läsa och bevarar
+funktionen i inmatningsdialogen.
+
+Lokal deltafil: `pcsx2-sv-controller-singular-batch-36-20261111.xliff`
+(sträng-ID 3589, 8027, 11374, 11434 och 11454). Lokal granskning och
+kontroller genomfördes före arkivering och Crowdin-inskick.
+
+XML-validering, exakt källtextjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar. `msgfmt --check` kan inte tolka XLIFF och
+är därför ej tillämplig för denna fil.
+
+Crowdin-importen verifierades via API: 5 strängar och 32 ord importerades, 0
+godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända
+förslagen är 449231, 449233, 449235, 449237 och 449239. Detta är ett
+upstream-inskick, inte upstream-granskning eller merge.
+
 ## QT-värdens felmeddelanden: trettiofemte granskningsbatchen
 
 Två meddelanden från QT-värden rättas. Sparfel för spelinställningar får
