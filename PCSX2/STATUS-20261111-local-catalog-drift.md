@@ -2,6 +2,14 @@
 
 Datum: 11 november 2026
 
+## I stället, fortsättning: tjugosjätte granskningsbatchen
+
+Tre återstående granskade UI-texter med den sammanskrivna formen `istället` normaliseras till `i stället`. Ett tidigare förslag för realtidsklockan fanns redan upstream och lämnas därför utanför denna deltafil.
+
+Lokal deltafil: `pcsx2-sv-i-stallet-batch-26-20261111.xliff` (sträng-ID 6237, 10982 och 7515). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
+
+XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlangs V2-varningar gäller korrekta imperativ och tekniska formuleringar. Hunspell-SV markerar endast förkortningen `TLB`. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
 ## Cykelhastighet och procent: tjugofemte granskningsbatchen
 
 Sju synliga cykelhastighetsalternativ saknade svenskt mellanrum före procenttecknet. Etiketterna normaliseras enligt svensk typografi till exempelvis `50 % (Underklockning)`. Ingen sifferuppgift eller inställningsbetydelse ändras.
