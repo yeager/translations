@@ -184,6 +184,19 @@ allmän ”laddning”. `pcsx2-sv-shader-cache-loading-batch-16-20261111.xliff`
 använder `inläsning och lagring`, vilket beskriver cachefunktionen exakt och
 undviker att ordet för nätverksnedladdning används i fel sammanhang.
 
+## Flyttalsintervall: sjuttonde granskningsbatchen
+
+Fyra sammanhängande hjälprutor för FPU och VU använder nu konsekvent `de
+allra flesta spel` i stället för de tungrodda varianterna `majoriteten av
+spel` och `den övervägande majoriteten av alla spel`. VU-kodnamnen skrivs
+dessutom korrekt som `VU0` och `VU1` utan extra mellanslag.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. Svlangs träffar är falska V2-varningar för korrekta bisatser och
+infinitivfraser samt de avsiktliga komponentnamnen. Hunspell-SV markerar
+enbart produkt- och hårdvarunamn. `msgfmt` är inte tillämpligt på XLIFF och
+avvisar därför filen som icke-PO. Batchen är lokalt granskad.
+
 XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
 passerar. Svlang ger 10/10 och markerar bara fackordet `shaders`; Hunspell-SV
 markerar samma fackord. `msgfmt` är inte tillämpligt på XLIFF och avvisar
