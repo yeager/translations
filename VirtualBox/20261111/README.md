@@ -452,6 +452,8 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   radvis. Ingen textändring behövdes.
 - 2026-11-11, batch 159: samtliga 2 aktiva meddelanden i `QIArrowSplitter`
   är granskade radvis. Ingen textändring behövdes.
+- 2026-11-11, batch 160: det enda aktiva meddelandet i `QIDialogContainer`
+  är granskat radvis. Ingen textändring behövdes.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
