@@ -1398,3 +1398,7 @@ passerar. svlang och Hunspell-SV markerar endast avsedda tekniska termer som
 `GS-dumpen`, `HDLoader-kompatibilitetslistorna` och
 `radsprångsvisning`. `msgfmt` är inte tillämpligt på XLIFF och avvisar därför
 filen som icke-PO. Batchen är lokalt granskad.
+
+Sex Crowdin-förslag skapades via API och verifierades mot rätt strängar:
+449723, 449725, 449727, 449729, 449731 och 449733. De är upstream-inskickade
+för granskning, men ännu inte upstream-godkända.
