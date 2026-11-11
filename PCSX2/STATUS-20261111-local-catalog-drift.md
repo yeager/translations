@@ -1611,3 +1611,19 @@ tillämplig.
 Crowdin-inskicket verifierades via API. De skapade, ännu inte godkända,
 förslagen är 449889 och 449891. Detta är ett upstream-inskick, inte
 upstream-granskning eller merge.
+
+## Filformatfilter: nittioandra granskningsbatchen
+
+Två varianter av filväljarns filterlista översätts helt. Filändelser och
+etablerade formatnamn bevaras, medan kategorierna får svenska benämningar som
+`Råavbilder med ett spår`, `Cue-filer` och `GS-dumpar`.
+
+Lokal deltafil: `pcsx2-sv-file-type-filters-batch-92-20261111.xliff`
+(sträng-ID 10564 och 10566). XML-validering, exakt källtextjämförelse,
+l10n-lint, diffkontroll och Gitleaks passerar. svlang och Hunspell-SV
+markerar bara filändelser, formatnamn och fackord. `msgfmt --check` kan inte
+tolka XLIFF och är därför inte tillämplig.
+
+Crowdin-inskicket verifierades via API. De skapade, ännu inte godkända,
+förslagen är 449893 och 449895. Detta är ett upstream-inskick, inte
+upstream-granskning eller merge.
