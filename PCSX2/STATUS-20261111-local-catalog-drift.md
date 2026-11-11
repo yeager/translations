@@ -481,6 +481,11 @@ i två översatta menyer. Hunspell-SV markerar bara bevarade tekniska
 förkortningar och sammansättningen `spelpatchar`. `msgfmt` kan inte tolka
 XLIFF och är därför inte tillämpligt. Batchen är lokalt granskad.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+14 översättningar med 65 ord; 0 godkändes automatiskt och inga strängar
+hoppades över. De nya förslagen har ID 449379 till 449405 (udda nummer).
+De är upstream-inskickade för granskning men ännu inte upstream-godkända.
+
 ## Felsökarloggning: femtioförsta granskningsbatchen
 
 `pcsx2-sv-debug-logging-batch-51-20261111.xliff` granskar den sammanhängande
