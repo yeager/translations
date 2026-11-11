@@ -14,7 +14,10 @@ Gitleaks är godkända. Hunspell-SV markerar endast `Chihiro`, `Widescreen`,
 facktermer. l10n-lint har inga fel och en varning från den engelska
 källtextens `16-9`, inte från den svenska måltexten.
 
-Ingen ändring har sparats i Crowdin. Vid den senaste åtkomstkontrollen saknades
-den tidigare webbsessionen och Crowdin CLI saknade projektkonfiguration. När en
-etablerad kanal åter är tillgänglig ska deltat sparas och den lagrade måltexten
-läsas tillbaka exakt.
+## Inskick 2026-11-11
+
+Posten sparades direkt i Crowdins redigerare med det inloggade kontot
+`yeagersthlm`. Efter sparandet visade redigeraren **No unsaved translations**,
+posten fick statusen *Translated* och den sparade måltexten stämde exakt med
+den lokala deltafilen. Detta bekräftar ett sparat översättningsförslag i
+Crowdin, men inte granskning, godkännande eller release uppströms.

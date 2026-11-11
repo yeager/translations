@@ -8,11 +8,11 @@
 
 ## Färdigt men ännu inte inskickat
 
-- **RetroArch, Xemu:** en lokalt granskad PO-post för
-  `XEMU_ASPECT_RATIO_INFO_0` väntar i
-  [Xemu-deltat](RetroArch/retroarch-sv-xemu-aspect-ratio-20261111.po).
-  Den är den enda återstående oöversatta posten i den avlästa
-  Xemu-komponenten. Ingen Crowdin-sparning eller återläsning har ännu gjorts.
+- **RetroArch, Xemu:** `XEMU_ASPECT_RATIO_INFO_0` i
+  [Xemu-deltat](RetroArch/retroarch-sv-xemu-aspect-ratio-20261111.po) sparades
+  i Crowdins redigerare 2026-11-11. Redigeraren bekräftade därefter att inga
+  osparade översättningar återstod och visade den sparade texten. Den väntar
+  fortfarande på eventuell granskningsstatus, godkännande och release.
 - **RetroAchievements:** 48 lokalt granskade, oöversatta poster i
   ärendeflödet väntar i
   [batch 05](RetroAchievements/retroachievements-sv-20261111-ticket-workflow-batch-05.json).
