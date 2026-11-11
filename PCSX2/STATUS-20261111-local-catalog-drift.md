@@ -65,6 +65,7 @@ Crowdin-importen verifierades via API: 6 strängar och 54 ord importerades, 0
 godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända
 förslagen är 449243, 449245, 449247, 449249, 449251 och 449253. Detta är ett
 upstream-inskick, inte upstream-granskning eller merge.
+
 ## Installationsguidens handkontroller: trettiosjunde granskningsbatchen
 
 Installationsguidens längre HTML-text för handkontroller granskas rad för rad.
@@ -1576,3 +1577,20 @@ kan inte tolka XLIFF och är därför inte tillämplig.
 Crowdin-inskicket verifierades via API. De skapade, ännu inte godkända,
 förslagen är 449877, 449879, 449881, 449883 och 449885. Detta är ett
 upstream-inskick, inte upstream-granskning eller merge.
+
+## Palettrendering: nittionde granskningsbatchen
+
+Tre parallella hjälptexter för rendering av spelets egen färgpalett får samma
+svenska formulering som den tidigare granskade inställningsdialogen. `GPU`
+behålls som etablerad teknisk förkortning och `i stället` följer svensk
+stavning.
+
+Lokal deltafil: `pcsx2-sv-palette-rendering-batch-90-20261111.xliff` (sträng-ID
+17279, 17281 och 14010). XML-validering, exakt källtextjämförelse, l10n-lint,
+svlang, Hunspell-SV, diffkontroll och Gitleaks passerar. `msgfmt --check` kan
+inte tolka XLIFF och är därför inte tillämplig.
+
+Crowdin-inskicket verifierades via API. För sträng 17279 skapades det ännu inte
+godkända förslaget 449887. Sträng 17281 och 14010 hade redan identiska, ännu
+inte godkända förslag, 435043 respektive 294434, och fick därför inga nya
+förslag. Detta är upstream-inskick, inte upstream-granskning eller merge.
