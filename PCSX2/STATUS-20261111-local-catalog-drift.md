@@ -65,7 +65,6 @@ Crowdin-importen verifierades via API: 6 strängar och 54 ord importerades, 0
 godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända
 förslagen är 449243, 449245, 449247, 449249, 449251 och 449253. Detta är ett
 upstream-inskick, inte upstream-granskning eller merge.
-
 ## Installationsguidens handkontroller: trettiosjunde granskningsbatchen
 
 Installationsguidens längre HTML-text för handkontroller granskas rad för rad.
@@ -1560,3 +1559,20 @@ Batchen är lokalt granskad.
 Tre nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
 449871, 449873 och 449875. De är upstream-inskickade för granskning, men
 inget är upstream-godkänt ännu.
+# Renderingskorrigeringar: åttionionde granskningsbatchen
+
+Tre parallella etiketter för `Manual Hardware Renderer Fixes` normaliseras till
+`Manuella korrigeringar för hårdvarurenderaren`. Två sammanhörande hjälptexter
+får samtidigt den konsekventa formuleringen `spelanpassade
+renderingskorrigeringar`.
+
+Lokal deltafil: `pcsx2-sv-renderer-fixes-batch-89-20261111.xliff` (sträng-ID
+16727, 14724, 4755, 8333 och 6537). XML-validering, exakt
+källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlang
+flaggar en falsk V2-varning för den grammatiskt korrekta huvudsatsen och
+Hunspell-SV markerar endast facktermen `hårdvarurenderaren`. `msgfmt --check`
+kan inte tolka XLIFF och är därför inte tillämplig.
+
+Crowdin-inskicket verifierades via API. De skapade, ännu inte godkända,
+förslagen är 449877, 449879, 449881, 449883 och 449885. Detta är ett
+upstream-inskick, inte upstream-granskning eller merge.
