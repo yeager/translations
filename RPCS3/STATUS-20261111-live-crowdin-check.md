@@ -29,3 +29,15 @@ granskning, godkännande eller release uppströms.
 Deltafilen kontrollerades på nytt med XML-validering, l10n-lint, svlangs
 svengelskakontroll och skrivregler, diffkontroll och Gitleaks. Samtliga
 kontroller passerar.
+
+## API-kontroll 2026-11-11
+
+Crowdins API kontrollerades med den etablerade projektåtkomsten. Den svenska
+projektstatusen är 3 712 av 3 712 strängar och 20 847 av 20 847 ord
+översatta, alltså 100 %. Granskningsgraden är 97 %: 3 663 strängar och
+20 356 ord är godkända. API:ts filprogress hade inga svenska filer med
+ofullständig översättning.
+
+Det finns därför ingen ny oöversatt batch att skapa eller skicka. De återstående
+skillnaderna mellan översatt och godkänd status hör till projektets egna
+granskningsflöde och ändrades inte.
