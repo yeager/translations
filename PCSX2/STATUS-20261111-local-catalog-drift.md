@@ -1442,3 +1442,15 @@ hoppades över som dubbletter eftersom samma korrekta förslag redan finns:
 431845, 449269 och 448751. Inga befintliga förslag har ändrats. Alla berörda
 förslag är upstream-inskickade för granskning, men inget är
 upstream-godkänt ännu.
+
+## RetroAchievements-hjälptexter: åttionde granskningsbatchen
+
+`pcsx2-sv-achievement-help-batch-80-20261111.xliff` gör tre hjälprader för
+prestationer och topplisteutmaningar mer direkta. Formuleringarna använder
+`avisering`, `prestation` och `resultat` konsekvent med den redan granskade
+RetroAchievements-delen.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlang markerar endast den avsedda UI-sammansättningen
+`popupmeddelanden`; Hunspell-SV ger inga träffar. `msgfmt` är inte tillämpligt
+på XLIFF och avvisar därför filen som icke-PO. Batchen är lokalt granskad.
