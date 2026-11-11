@@ -447,6 +447,12 @@ passerar. svlang ger 10/10; Hunspell-SV markerar endast produktnamnet PCSX2
 och XML-entiteterna `apos` och `quot`. `msgfmt` är inte tillämpligt på XLIFF.
 Batchen är lokalt granskad och väntar på Crowdin-import.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+6 översättningar med 91 ord; 0 godkändes automatiskt och inga strängar
+hoppades över. De nya översättningsposterna har ID 449273, 449275, 449277,
+449279, 449281 och 449283. De är upstream-inskickade för granskning men ännu
+inte upstream-godkända.
+
 ## VU-avrundning: femtonde granskningsbatchen
 
 Två hjälprutor för Emotion Engines vektorenheter innehöll den oidiomatiska
