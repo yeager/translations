@@ -38,9 +38,19 @@ gränssnittet.
 
 ## Arkivering och upstream
 
-Batchen är arkiverad och ska skickas via projektets Transifex-resurs
-`edenemu / eden-emulator / Qt Translations`, enligt `.tx/config` i Eden.
-I denna körning saknas en aktiv Transifex API-anslutning: Membrane saknar
-inloggad arbetsyta och ingen tillgänglig webbläsarsession kan användas för
-reservflödet. Därför är batchen **inte inskickad upstream ännu**. Ingen
-upstream-import, granskning eller merge påstås här.
+Batchen är arkiverad och skickades i Transifex-redigeraren för resursen
+`edenemu / eden-emulator / Qt Translations`. Nio dialogposter sparades
+individuellt med användaren `yeager`; sparandet kontrollerades genom att
+filtret för oöversatta poster sjönk från 17 till 8.
+
+De åtta återstående poster som Transifex visar som oöversatta är inte delar
+av `UpdateDialog`-batchen. De har redan synliga svenska måltexter, bland annat
+`Om Eden`, `Kommunicerar med servern…` och `Avbryt`, med tidigare
+översättningshistorik. De behandlas därför som status- eller
+mappningsavvikelser i tjänsten, inte som saknade svenska texter, och har inte
+skrivits över.
+
+Batchen är alltså **inskriven i Transifex**, men inte verifierad som
+uppströmsgranskad, sammanslagen i Eden-källan eller släppt. Projektets
+veckovisa Transifex-synk behöver fortfarande skapa och föra igenom sin
+uppströmsändring.

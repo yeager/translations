@@ -33,11 +33,6 @@
 
 ## Förberett men spärrat hos tjänsten
 
-- **Eden, Qt Translations:** 17 granskade svenska texter för uppdaterarens
-  dialoger är arkiverade i
-  [uppdaterarbatchen](eden/STATUS-20261111-updater-batch.md). Den aktuella
-  Transifex-resursen saknar tillgänglig API- eller webbläsaranslutning i
-  arbetsmiljön, så batchen är inte inskickad ännu.
 - **Open Shaders:** lokala importkandidater finns, men Hosted Weblate är
   fortfarande automatiskt låst på grund av ett sammanslagningsfel. Den
   synliga statusen 2026-11-03 är 1 238 av 5 140 översatta strängar,
@@ -58,6 +53,12 @@
 
 ## Redan inskickat, men inte nödvändigtvis godkänt eller sammanslaget
 
+- **Eden, Qt Translations:** nio granskade svenska måltexter för uppdaterarens
+  dialoger sparades individuellt i Transifex 2026-11-11. Filtret för
+  oöversatta poster gick från 17 till 8; de återstående åtta har redan
+  synliga svenska måltexter och hör inte till uppdaterarbatchen. Se
+  [uppdaterarstatusen](eden/STATUS-20261111-updater-batch.md). De väntar på
+  projektets Transifex-synk, uppströmsgranskning och merge.
 - **Virtaal:** [PR #4697](https://github.com/translate/virtaal/pull/4697).
 - **sK1:** [PR #348](https://github.com/sk1-project/sk1-wx/pull/348).
 - **Rust Coreutils:** [PR #96](https://github.com/uutils/coreutils-l10n/pull/96).
