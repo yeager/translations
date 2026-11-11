@@ -44,6 +44,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 007: delat urklipp, lagringsvyn, seriella portar,
   avslut av virtuella maskiner och den nya maskinguiden har granskats radvis.
   Ändringarna är fortfarande endast lokala.
+- 2026-11-11, batch 008: loggvisaren, CPU- och USB-etiketter samt
+  kloningsguiden har granskats radvis. Ändringarna är fortfarande endast
+  lokala.
 - Kvar: radvis granskning av återstående aktiva strängar i `VirtualBox_sv.ts`.
 - Råfilerna i `../VirtualBox/` är historiska och har inte skrivits över.
 
