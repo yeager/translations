@@ -502,6 +502,19 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 granskning men ännu inte upstream-godkända. De tidigare förslagen finns kvar
 som icke godkända alternativ och har inte ändrats eller röstats på.
 
+## Sparlägesinställningar: femtiosjunde granskningsbatchen
+
+`pcsx2-sv-savestate-settings-batch-57-20261111.xliff` normaliserar rubrik,
+komprimeringsnivåer och hjälptext i sparlägesinställningarna. `Sparläge`
+används konsekvent, svenska parentesfraser skrivs med gemener och det
+missvisande `Väldigt hög` ersätts av `Mycket hög`.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar. Hunspell-SV markerar bara den korrekta
+sammansättningen `sparlägesinställningar`. svlangs V2-varning gäller en
+parentesfras, inte en sats. `msgfmt` kan inte tolka XLIFF och är därför inte
+tillämpligt.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
