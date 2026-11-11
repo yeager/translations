@@ -19,3 +19,9 @@ Ingen ny Crowdin-ändring skickades i denna kontroll. Vid den senaste
 åtkomstkontrollen saknades den tidigare webbsessionen och Crowdin CLI saknade
 projektkonfiguration. När en etablerad kanal åter är tillgänglig ska ändringen
 sparas och läsas tillbaka innan den räknas som inskickad.
+
+## Omkontroll 2026-11-11
+
+Deltafilen kontrollerades på nytt med XML-validering, l10n-lint, svlangs
+svengelskakontroll och skrivregler, diffkontroll och Gitleaks. Samtliga
+kontroller passerar. Ingen Crowdin-ändring har gjorts av omkontrollen.
