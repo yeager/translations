@@ -58,11 +58,12 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   rättades där konfigurationen felaktigt angavs som ett sätt att använda
   datorn, i stället för att få VirtualBox Manager att fungera med den.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
-  `9ec705ee28c949c8faf7b7d6b187216dfaedda37` med samtliga tio
+  `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
-- PR:n är öppen och ännu inte granskad eller mergad. GitHubs enda externa
-  kontroll, `oca/oracle`, misslyckas för huvudrevisionen. Det är Oracle
-  Contributor Agreement-kontrollen och inte ett fel i översättningsfilerna.
+- Commithistoriken rättades därefter till `po@danielnylander.se` utan att
+  kataloginnehållet ändrades. `oca/oracle` är godkänd för den aktuella
+  huvudrevisionen.
+- PR:n är öppen och ännu inte granskad eller mergad.
 - Råfilerna i `../VirtualBox/` är historiska och har inte skrivits över.
 
 ## Kontroller för batch 001

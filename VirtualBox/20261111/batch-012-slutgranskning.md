@@ -28,11 +28,12 @@ startsidan och bevarar HTML-markeringen.
 ## Upstream
 
 Den befintliga [PR #848](https://github.com/VirtualBox/virtualbox/pull/848)
-uppdaterades till `9ec705ee28c949c8faf7b7d6b187216dfaedda37` med ett
-force-with-lease-push efter kontroll att fjärrgrenen fortfarande stod på PR:ns
-ursprungliga huvudrevision. GitHub bekräftade mottagandet.
+uppdaterades först med ett force-with-lease-push efter kontroll att
+fjärrgrenen fortfarande stod på PR:ns ursprungliga huvudrevision. Därefter
+skrevs de tio granskningscommitarnas identitet om till
+`po@danielnylander.se`, utan innehållsändring i katalogen. Den aktuella
+huvudrevisionen är `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36`.
 
-PR:n är öppen, har inga granskningskommentarer och är inte mergad. Den externa
-kontrollen `oca/oracle` misslyckas för närvarande; den gäller Oracle
-Contributor Agreement och innebär inte ett funnet fel i den svenska
-översättningen.
+GitHub bekräftade mottagandet och `oca/oracle` är godkänd för den aktuella
+huvudrevisionen. PR:n är öppen, har inga granskningskommentarer och är inte
+mergad.
