@@ -32,6 +32,22 @@ Den ersätter den äldre arkiverade exporten med 4 087 segment. Jämförelsen vi
 är därför den nya exporten, inte den gamla TS-filen, som används för fortsatt
 radvis granskning. Ingen översättning har ändrats eller skickats i detta steg.
 
+## Första åtgärdsbatchen
+
+`l10n-lint` på den färska exporten pekar ut sju fel, fördelade på sex
+meddelanden. Fem av dem var innehållsmässigt korrupta måltexter: två
+Vulkan-poster innehöll ett orelaterat initieringsfel, en tidsformatpost och en
+USB-etikett innehöll orelaterad text, och en inmatningsprofiltext saknade en
+radbrytning. Den återstående träffen gällde multiplikationstecknet i en
+Qt-platsmarkör och rättas genom att bevara källformatet `%1x%2 (%3x)`.
+
+Den granskade importfilen
+`pcsx2-sv-l10n-lint-errors-batch-01-20261111.xliff` innehåller de sex
+korrekta måltexterna. XML-validering, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks har körts. svlangs enda anmärkning och Hunspell-SV:s
+tre träffar gäller XLIFF-entiteten `apos` och Qt-platsmarkörerna, inte svensk
+prosa. Batchen är lokalt granskad men ännu inte skickad till Crowdin.
+
 ## Livekontroll 2026-11-11
 
 Den inloggade Crowdin-projektvyn för `pcsx2-emulator`, svenska, visar
