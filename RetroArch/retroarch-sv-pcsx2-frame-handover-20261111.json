@@ -1,0 +1,41 @@
+{
+  "project": "RetroArch",
+  "platform": "Crowdin",
+  "project_id": 380544,
+  "file_id": 60503,
+  "component": "pcee2-libretro.json",
+  "language": "sv-SE",
+  "reviewed_at": "2026-11-11",
+  "translations": [
+    {
+      "string_id": 6232407,
+      "key": "PCSX2_TEXTURE_FILTERING_INFO_0",
+      "source": "Bilinear (PS2) replicates the console; forced modes smooth all textures. Hardware and software renderers only: paraLLEl-GS always filters as the console does.",
+      "target": "Bilinjär (PS2) efterliknar konsolen. Tvingade lägen jämnar ut alla texturer. Gäller endast maskin- och programvarurenderare: paraLLEl-GS filtrerar alltid som konsolen gör."
+    },
+    {
+      "string_id": 6232409,
+      "key": "PCSX2_FRAME_HANDOVER_LABEL",
+      "source": "Frame Handover",
+      "target": "Bildruteöverlämning"
+    },
+    {
+      "string_id": 6232411,
+      "key": "PCSX2_FRAME_HANDOVER_INFO_0",
+      "source": "Which frame each call hands to RetroArch. In Step waits for the frame of this call's input, the same input lag as standalone PCSX2; how long each frame takes to emulate then reaches the screen, which a VRR display without vsync shows as uneven pacing. Previous Frame hands over the frame finished before and emulates the next one while RetroArch shows it: even pacing, one frame more input lag.",
+      "target": "Vilken bildruta som lämnas över till RetroArch vid varje anrop. I läget Samma steg väntar RetroArch på bildrutan från det här anropets inmatning, med samma inmatningsfördröjning som fristående PCSX2. Hur lång tid emuleringen av varje bildruta tar når därefter skärmen, vilket ger ojämn bildrutetakt på en VRR-skärm utan vertikal synkronisering. I läget Föregående bildruta lämnas den senast färdigställda bildrutan över och nästa emuleras medan RetroArch visar den: jämn bildrutetakt, men en bildruta mer inmatningsfördröjning."
+    },
+    {
+      "string_id": 6232413,
+      "key": "OPTION_VAL_IN_STEP",
+      "source": "In Step (lower latency)",
+      "target": "Samma steg (lägre latens)"
+    },
+    {
+      "string_id": 6232415,
+      "key": "OPTION_VAL_PREVIOUS",
+      "source": "Previous Frame (even pacing)",
+      "target": "Föregående bildruta (jämn bildrutetakt)"
+    }
+  ]
+}

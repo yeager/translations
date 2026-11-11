@@ -9,6 +9,8 @@ Senast kontrollerad: 2026-11-11.
 | `widescreen` | **bredbild** | Allmän beskrivning av visningsformatet. Behåll `Widescreen` när det är namnet på ett konkret alternativ, en korrigering eller ett filnamn. |
 | `dashboard` | **instrumentpanelen** | Xbox/Xemu-gränssnittets dashboard. |
 | `render` | **rendera** | Verb för grafikframställning. Produkt- och API-namn lämnas oförändrade. |
+| `renderer` | **renderare** | PCSX2- och kärninställningar för den komponent som återger grafik. |
+| `Frame Handover` | **bildruteöverlämning** | PCSX2: vilken färdig bildruta kärnan lämnar över till RetroArch. |
 | `Steering Response` | **styrrespons** | Xemu Chihiro: responskurva för vänster spaks styrning. |
 | `Steering Effect` | **styreffekt** | Xemu Chihiro: hur snabbt det återstående styrutslaget ökar mot ändläget. |
 | `Steering Inner Zone` | **styrningens innerzon** | Xemu Chihiro: den jämna delen av styrresponsen närmast mittläget. |
