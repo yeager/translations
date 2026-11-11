@@ -13,3 +13,9 @@
 - svlang: inga anglicismer eller skrivregelsträffar. Längd- och V2-markeringar är falska positiva för UI-fragment och platshållartexter.
 - Diffkontroll och Gitleaks: godkända.
 - msgfmt och l10n-lint: inte direkt tillämpliga på Crowdin-API:ets gransknings-JSON.
+
+## 2026-11-11, batch 02
+
+- Omfattning: 25 tidigare oöversatta strängar för import och återkallat godkännande av åtkomst.
+- Upstream: 25 Crowdin-förslag skapade och verifierade, id `2007803`–`2007851` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
+- Kontroller: platshållarkontroll, Hunspell-sv, svlang, diffkontroll och Gitleaks godkända. svlangs V2-markeringar är falska positiva för UI-fragment och platshållare; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
