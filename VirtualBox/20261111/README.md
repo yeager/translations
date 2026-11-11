@@ -35,6 +35,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 004: maskinväljaren, molnkonsoler, färgtema,
   detaljer för virtuella maskiner och virtuella medier har granskats radvis.
   Ändringarna är fortfarande endast lokala.
+- 2026-11-11, batch 005: nätverksinställningar, delade mappar,
+  ögonblicksbilder, virtuellt tangentbord, filhanterare och global proxy har
+  granskats radvis. Ändringarna är fortfarande endast lokala.
 - Kvar: radvis granskning av återstående aktiva strängar i `VirtualBox_sv.ts`.
 - Råfilerna i `../VirtualBox/` är historiska och har inte skrivits över.
 
