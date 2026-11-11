@@ -480,6 +480,11 @@ Gitleaks passerar. Hunspell-SV markerar endast bevarade tekniknamn och
 XLIFF-entiteter. `msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt.
 Batchen är lokalt granskad.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+17 översättningar med 98 ord; 0 godkändes automatiskt och inga strängar
+hoppades över. De nya förslagen har ID 449345 till 449377 (udda nummer).
+De är upstream-inskickade för granskning men ännu inte upstream-godkända.
+
 ## Symbolanalys: femtionde granskningsbatchen
 
 `pcsx2-sv-symbol-analysis-batch-50-20261111.xliff` rättar den svenska
