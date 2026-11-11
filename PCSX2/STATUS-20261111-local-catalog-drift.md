@@ -468,6 +468,17 @@ text redan finns i flödet. De nya översättningsposterna har ID 449295,
 449297, 449299 och 449301. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Densha Controller Type 2: fyrtiofemte granskningsbatchen
+
+`pcsx2-sv-densha-controller-batch-45-20261111.xliff` normaliserar den
+fysiska enheten till `handkontroll` och förtydligar kraft- och bromsaxlarnas
+lägen. Produktnamnet Zuiki One Handle MasCon behålls.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlang och Hunspell-SV markerar endast produktnamn, formatentiteten
+`quot`, sammansättningen `tågförarhandkontroll` och projekttermen `mappas`.
+`msgfmt` är inte tillämpligt på XLIFF. Batchen är lokalt granskad.
+
 ## Spelkataloger: fyrtiotredje granskningsbatchen
 
 `pcsx2-sv-search-directories-batch-43-20261111.xliff` ersätter den tekniska
