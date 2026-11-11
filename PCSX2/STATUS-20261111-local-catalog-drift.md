@@ -197,6 +197,12 @@ infinitivfraser samt de avsiktliga komponentnamnen. Hunspell-SV markerar
 enbart produkt- och hårdvarunamn. `msgfmt` är inte tillämpligt på XLIFF och
 avvisar därför filen som icke-PO. Batchen är lokalt granskad.
 
+Crowdin-importen är API-verifierad: 4 strängar och 199 ord importerades,
+inga strängar hoppades över och 0 godkändes automatiskt. De nya
+översättningsposterna är 449099, 449101, 449103 och 449105, alla skapade
+2026-11-11 12:13 UTC. Batchen är upstream-inskickad för granskning men inte
+upstream-godkänd.
+
 XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
 passerar. Svlang ger 10/10 och markerar bara fackordet `shaders`; Hunspell-SV
 markerar samma fackord. `msgfmt` är inte tillämpligt på XLIFF och avvisar
