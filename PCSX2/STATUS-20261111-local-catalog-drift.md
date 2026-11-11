@@ -1660,3 +1660,17 @@ kan inte tolka XLIFF och är därför inte tillämplig.
 Crowdin-inskicket verifierades via API. De skapade, ännu inte godkända,
 förslagen är 449905, 449907 och 449909. Detta är ett upstream-inskick, inte
 upstream-granskning eller merge.
+
+## Cache-etikett: nittiofemte granskningsbatchen
+
+Helskärmsgränssnittets cache-etikett normaliseras till samma svenska genus som
+de två övriga förekomsterna: `Aktivera cache (långsam)`.
+
+Lokal deltafil: `pcsx2-sv-cache-label-batch-95-20261111.xliff` (sträng-ID
+16811). XML-validering, exakt källtextjämförelse, l10n-lint, svlang,
+Hunspell-SV, diffkontroll och Gitleaks passerar. `msgfmt --check` kan inte
+tolka XLIFF och är därför inte tillämplig.
+
+Crowdin-inskicket verifierades via API. Det skapade, ännu inte godkända,
+förslaget är 449911. Detta är ett upstream-inskick, inte upstream-granskning
+eller merge.
