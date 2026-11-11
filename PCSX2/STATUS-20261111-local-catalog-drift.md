@@ -189,6 +189,11 @@ passerar. Svlang ger 10/10 och markerar bara fackordet `shaders`; Hunspell-SV
 markerar samma fackord. `msgfmt` är inte tillämpligt på XLIFF och avvisar
 därför filen som icke-PO. Batchen är lokalt granskad.
 
+Crowdin-importen är API-verifierad: 1 sträng och 10 ord importerades, inget
+hoppades över och 0 godkändes automatiskt. Den nya översättningsposten är
+449097, skapad 2026-11-11 12:10 UTC. Batchen är upstream-inskickad för
+granskning men inte upstream-godkänd.
+
 ## Patchar och CRC:er: fjärde granskningsbatchen
 
 Den projektbundna termbasen använder `patchar` för PCSX2:s användarval och
