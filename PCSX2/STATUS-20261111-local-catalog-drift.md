@@ -8,6 +8,10 @@ Dialogens hjälptext får idiomatisk svensk ordföljd. Den skiljer nu också tyd
 
 Lokal deltafil: `pcsx2-sv-analysis-options-batch-31-20261111.xliff` (sträng-ID 12610). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
 
+XML-validering, exakt källtextjämförelse, l10n-lint, Hunspell-SV, diffkontroll och Gitleaks passerar. svlangs V2-varningar är falska positiva för korrekt svensk ordföljd. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
+Crowdin-importen verifierades via API: 1 sträng och 27 ord importerades, 0 godkändes automatiskt och inget hoppades över. Det skapade, ännu ej godkända förslaget är 449211. Detta är ett upstream-inskick, inte upstream-granskning eller merge.
+
 ## SoundTouch-tidssträckning: trettionde granskningsbatchen
 
 Tre sammanhängande ljudinställningar normaliseras till den etablerade termen `tidssträckning`, som även används i termbasen och i närliggande emulatorprojekt. `SoundTouch` behålls som produktnamn. Texten förklarar nu att ljudet sträcks eller krymps för att hålla bufferten inom gränserna, och procenttecknet får korrekt svenskt mellanrum.
