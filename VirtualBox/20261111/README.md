@@ -71,6 +71,10 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   (11) och guiden för ny virtuell maskin (75) har granskats radvis.
   Ändringarna är verifierade lokalt i commit `bc91842` och ännu inte pushade
   till PR:n.
+- 2026-11-11, batch 024: delade mappar, urklipp och dra-och-släpp (19),
+  indikatorer (23) samt nätverksanslutning och portomdirigering (22) har
+  granskats radvis. Ändringarna är verifierade lokalt i commit `92c0bde` och
+  ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
