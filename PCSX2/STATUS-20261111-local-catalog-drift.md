@@ -753,6 +753,25 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 449603, 449605, 449607 och 449609. De är upstream-inskickade för granskning
 men ännu inte upstream-godkända.
 
+## Start och visning: sjuttioförsta granskningsbatchen
+
+`pcsx2-sv-launch-display-batch-71-20261111.xliff` rättar datum- och
+tidsformat, tvångsvalen för helskärm, sparplats, bakgrundsbildens upprepning
+och Wayland-informationen. HTML-markeringen och de litterala formattecknen är
+bevarade exakt som i källsträngarna.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar utan fel. svlangs låga poäng och V2-varningar beror på den långa
+hjälptexten, formateringsmarkeringen och produktnamnen. Hunspell-SV markerar
+bara format- och produktnamn. `msgfmt` kan inte tolka XLIFF och är därför inte
+tillämpligt.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+8 översättningar med 122 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449611, 449613, 449615, 449617, 449619, 449621,
+449623 och 449625. De är upstream-inskickade för granskning men ännu inte
+upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
