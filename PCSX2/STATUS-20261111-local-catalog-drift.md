@@ -468,6 +468,18 @@ text redan finns i flödet. De nya översättningsposterna har ID 449295,
 449297, 449299 och 449301. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Symbolanalys: femtionde granskningsbatchen
+
+`pcsx2-sv-symbol-analysis-batch-50-20261111.xliff` rättar den svenska
+symbolanalysdialogens grammatik och konsekvens. Statusorden `Markerad` och
+`Avmarkerad` används nu även i den förklarande texten, och den tekniska
+felsökartermen böjs som `demanglade`.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlangs V2-varningar är falska positiva för relativa satser och
+uppmaningar. Hunspell-SV markerar endast tekniknamnet ELF. `msgfmt` kan inte
+tolka XLIFF och är därför inte tillämpligt. Batchen är lokalt granskad.
+
 ## Tågförarhandkontroll: fyrtionionde granskningsbatchen
 
 `pcsx2-sv-train-controller-labels-batch-49-20261111.xliff` normaliserar

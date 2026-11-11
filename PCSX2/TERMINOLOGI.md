@@ -23,3 +23,4 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | controller port | handkontrollport | Gäller konsol- och Multitap-portar. |
 | train controller | tågförarhandkontroll | Gäller Densha De Go!-kompatibla handkontroller med kraft- och bromsreglage. |
 | power lever | kraftspak | Gäller kraftreglaget på tågförarhandkontroller. |
+| demangle | demangla | Felsökarterm; behåll den etablerade tekniska formen och böj som `demanglade`. |
