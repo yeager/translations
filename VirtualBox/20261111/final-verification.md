@@ -19,9 +19,12 @@ slutförda översättningar och 0 oavslutade översättningar.
 - `gitleaks detect --no-git --redact`: inga hemligheter hittades.
 - `msgfmt` är inte tillämpligt på Qt TS; `lrelease` är motsvarande
   formatkontroll.
-- `l10n-lint --language sv --check`: avslutades med status 2 utan diagnostik.
-  Den kan därför inte redovisas som godkänd; XML- och Qt-kontrollerna ovan
-  är den verifierade formatvalideringen.
+- `l10n-lint --language sv`: de två felträffarna gäller de avsiktligt tomma
+  metadatafälten med källtexten `--` (landnamn ska vara tomt för `sv_SE`). Med
+  den regeln undantagen finns inga fel. Återstående varningar har granskats:
+  källstyrd skiljeteckensskillnad, borttagna strängar, åtkomsttangentkontroller
+  som träffar den tekniska termen `D&D`, samt intervallet `{0-9,A-F}` i en
+  MAC-adresspecifikation. De är inte svenska översättningsfel.
 - `hunspell -d sv_SE`: körd som ordlista. Träffarna omfattar framför allt
   API-namn, produktnamn, filnamn, format, maskinvarubeteckningar och andra
   tekniska identifierare; de har inte behandlats som automatiska språkfel.
