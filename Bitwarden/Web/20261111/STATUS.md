@@ -20,6 +20,12 @@
 - Upstream: 25 Crowdin-förslag skapade och verifierade, id `2007803`–`2007851` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
 - Kontroller: platshållarkontroll, Hunspell-sv, svlang, diffkontroll och Gitleaks godkända. svlangs V2-markeringar är falska positiva för UI-fragment och platshållare; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
 
+## 2026-11-11, batch 04
+
+- Omfattning: 25 tidigare oöversatta strängar för privilegierade åtkomstbegäranden och sessioner.
+- Upstream: 25 Crowdin-förslag skapade och verifierade, id `2007903`–`2007951` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
+- Kontroller: platshållarkontroll, Hunspell-sv, svlang, diffkontroll och Gitleaks godkända. svlangs V2- och längdmarkeringar är falska positiva för UI-fragment, produktnamn och platshållartexter; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
+
 ## 2026-11-11, batch 03
 
 - Omfattning: 25 tidigare oöversatta strängar för åtkomstregler, delade mappar och Bitwarden Send.
