@@ -1402,3 +1402,17 @@ filen som icke-PO. Batchen är lokalt granskad.
 Sex Crowdin-förslag skapades via API och verifierades mot rätt strängar:
 449723, 449725, 449727, 449729, 449731 och 449733. De är upstream-inskickade
 för granskning, men ännu inte upstream-godkända.
+
+## Grafik- och gränssnittsgrammatik: sjuttioåttonde granskningsbatchen
+
+`pcsx2-sv-graphics-and-ui-grammar-batch-78-20261111.xliff` rättar tolv
+grafik- och gränssnittssträngar. Åtgärderna beskriver nu vad programmet gör,
+inte en uppmaning till användaren. Batchen normaliserar också `patch` till
+`korrigering`, `notis` till `avisering`, och använder idiomatiska
+handkontrollmappningar.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlang och Hunspell-SV markerar enbart produktnamn och avsedda
+tekniska termer, bland annat `FXAA`, `OSD`, `shader` och `spritar`.
+`msgfmt` är inte tillämpligt på XLIFF och avvisar därför filen som icke-PO.
+Batchen är lokalt granskad.
