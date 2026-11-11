@@ -644,6 +644,18 @@ hoppades över. De nya förslagen har ID 449515, 449517, 449519, 449521 och
 449523. De är upstream-inskickade för granskning men ännu inte
 upstream-godkända.
 
+## Överlägg: sextiofemte granskningsbatchen
+
+`pcsx2-sv-overlays-batch-65-20261111.xliff` normaliserar inställningarna för
+överlägg, aviseringar, prestationer och topplistor. `Överlägg` används
+konsekvent för information ovanpå spelbilden, och `topplista` ersätter den
+inkonsekventa formen `resultattavla`.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar. Hunspell-SV markerar bara den korrekta
+sammansättningen `topplisteöverlägg` och svlangs V2-varning gäller en korrekt
+hjälptext. `msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar

@@ -36,3 +36,4 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | input lag | inmatningsfördröjning | Gäller fördröjning mellan användarens inmatning och spelets respons. |
 | notification | avisering | Gäller PCSX2:s systemmeddelanden och tillhörande ljud. |
 | leaderboard | topplista | Gäller resultatlistor i RetroAchievements-relaterade inställningar. |
+| overlay | överlägg | Gäller informationslager som visas ovanpå spelbilden. |
