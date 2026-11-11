@@ -1384,3 +1384,17 @@ granskad.
 Åtta Crowdin-förslag skapades via API och verifierades mot rätt strängar:
 449707, 449709, 449711, 449713, 449715, 449717, 449719 och 449721. De är
 upstream-inskickade för granskning, men ännu inte upstream-godkända.
+
+## Spelinställningar och korrigeringar: sjuttiosjunde granskningsbatchen
+
+`pcsx2-sv-game-settings-wording-batch-77-20261111.xliff` omfattar
+minneskortsväxling, GS-dumpning och spelinställningar. Den ersätter
+engelsknära former med `renderingsinställningar`, `inläsningstider`,
+`bredbildskorrigeringar` och `radsprångsvisning` enligt projektets
+terminologilista.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlang och Hunspell-SV markerar endast avsedda tekniska termer som
+`GS-dumpen`, `HDLoader-kompatibilitetslistorna` och
+`radsprångsvisning`. `msgfmt` är inte tillämpligt på XLIFF och avvisar därför
+filen som icke-PO. Batchen är lokalt granskad.
