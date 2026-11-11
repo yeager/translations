@@ -254,8 +254,10 @@ Tre grafiska inställningsetiketter och två tillhörande hjälprutor beskrev
 
 XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
 diffkontroll och Gitleaks passerar utan språkvarningar. `msgfmt` är inte
-tillämpligt på XLIFF. Batchen är lokalt granskad men har ännu inte skickats
-upstream.
+tillämpligt på XLIFF. Batchen är lokalt granskad.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+5 översättningar med 30 ord; 0 godkändes automatiskt och 0 hoppades över.
 
 ## Installationsguiden: tredje granskningsbatchen
 
