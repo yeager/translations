@@ -18,7 +18,8 @@
   [batch 05](RetroAchievements/retroachievements-sv-20261111-ticket-workflow-batch-05.json).
   Ingen av dem har sparats eller verifierats i Crowdin.
 - **RPCS3:** en lokalt granskad TS-rättelse byter *återge ungefärlig grafik*
-  mot *rendera ungefärlig grafik* i
+  mot *rendera ungefärlig grafik* och använder projektets konsekventa *tolken*
+  för *interpreter* i
   [renderingsdeltat](RPCS3/rpcs3_sv-SE_crowdin-20261109-rendering-terminology.ts).
   Ingen ny Crowdin-ändring har sparats eller återlästs.
 
