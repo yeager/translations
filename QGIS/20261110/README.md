@@ -155,8 +155,9 @@ att tillämpa ändringen direkt.
 
 2026-11-11: Batch 287 rättar ytterligare två resultattexter i samma
 interpoleringsfunktion. `Interpolated (data metrics)` är sparad direkt i
-Transifex som `Interpolerad (datamått)`. `Grid (Data metrics)` saknas i den
-aktuella resursen trots att den finns i råexporten och är därför inte inskickad.
+Transifex som `Interpolerad (datamått)`. `Grid (Data metrics)` har skickats
+som Transifex-förslag med `Rutnät (datamått)` och väntar på tillämpning eller
+granskning.
 
 2026-11-11: Batch 288 rättar versalhanteringen för metodnamnet `nearest
 neighbour` i ett QGIS-algoritmnamn. Ändringen är lokalt granskad och inte
