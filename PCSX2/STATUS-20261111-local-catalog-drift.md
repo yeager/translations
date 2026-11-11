@@ -200,6 +200,20 @@ normaliserar de fyra förekomsterna till `låsningar` för `soft-locks` och
 också raka uppmaningar och `på egen risk` i stället för ordagranna engelska
 konstruktioner.
 
+## VM-prestandavarningar: nittonde granskningsbatchen
+
+Åtta sammanhängande statusvarningar i VM-hanteraren hade engelskinfluerade
+kommateckenskonstruktioner, ett dubblerat `detta` och den oidiomatiska
+formuleringen `kommer dumpa`. Batchen delar upp meddelandena i korta,
+begripliga svenska meningar. Synliga inställningsnamn som `EE Cache`,
+`Fastmem`, `Full` och `mVU Flag Hack` bevaras exakt.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. Svlang ger 8,8/10 och markerar enbart de bevarade synliga
+inställningsnamnen; Hunspell-SV markerar samma fack- och produktnamn.
+`msgfmt` är inte tillämpligt på XLIFF och avvisar därför filen som icke-PO.
+Batchen är lokalt granskad.
+
 XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
 passerar. Svlangs V2-varningar är falska träffar på det korrekta
 infinitivsubjektet `Att aktivera …`; Hunspell-SV markerar endast
