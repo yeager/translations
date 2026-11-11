@@ -8,6 +8,10 @@ Tre sammanhängande ljudinställningar normaliseras till den etablerade termen `
 
 Lokal deltafil: `pcsx2-sv-soundtouch-tidsstrackning-batch-30-20261111.xliff` (sträng-ID 3429, 11270 och 11324). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
 
+XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlangs varningar kommer från den inbäddade HTML-strängen och det tekniska sammansatta namnet `SoundTouch-tidssträckaren`; Hunspell-SV markerar enbart detta produktnamn. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
+Crowdin-importen verifierades via API: 3 strängar och 95 ord importerades, 0 godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända förslagen är 449205, 449207 och 449209. Detta är ett upstream-inskick, inte upstream-granskning eller merge.
+
 ## GunCon2-hjälptext: tjugonionde granskningsbatchen
 
 GunCon2:s hjälpruta för mus och ljuspistol rättas rad för rad. Stavfelet `kontrollera` ersätts med `handkontroll`, `Om inte` med korrekt `Annars` och `i stället` följer svensk stavning. `Relative Aiming` bevaras som synligt Sony-relaterat UI-namn.
