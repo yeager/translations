@@ -293,8 +293,10 @@ färgnamn skrivs med liten bokstav i den här UI-kontexten, så
 
 XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
 diffkontroll och Gitleaks passerar utan språkvarningar. `msgfmt` är inte
-tillämpligt på XLIFF. Batchen är lokalt granskad men har ännu inte skickats
-upstream.
+tillämpligt på XLIFF. Batchen är lokalt granskad.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+4 översättningar med 12 ord; 0 godkändes automatiskt och 0 hoppades över.
 
 ## Installationsguiden: tredje granskningsbatchen
 
