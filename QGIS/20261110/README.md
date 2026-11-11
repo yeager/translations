@@ -16,7 +16,7 @@ Status: samtliga tio batcher är uppladdade och mottagna. Transifex visar 0 oöv
 
 Efter kompletteringen begärdes en radvis granskning av också redan översatta strängar. En oförändrad källsnapshot från QGIS huvudgren finns i `raw/qgis-application-sv-github-master.ts`; den innehåller 36 407 meddelanden, varav 149 är markerade som ofärdiga i just den källsnapshoten. Den aktuella, oförändrade Transifex-exporten finns i `raw/qgis-application-sv-transifex-live-20261110.ts`; den har 36 515 XML-meddelanden, medan resursens API-attribut `string_count` är 36 514. Transifex huvudresurs är därmed inte identisk med GitHub-snapshoten. Den aktuella Transifex-resursen är auktoritativ för ändringar och uppladdning.
 
-Terminologi används från `terminology.md` samt diskussionsunderlaget `qgis-se-terminologi-for-diskussion.md`. Hittills har 4 677 av 36 514 unika strängar granskats i kontext: 195 tidigare kompletterade strängar, 4 464 unika korrigeringskandidater och 18 ytterligare strängar som bedömts korrekta utan ändring. Fem dubbla granskningsposter visade sig ha samma Transifex-ID och har slagits ihop vid beräkning och import. Återstår 31 837 strängar. Fullständig granskning av befintliga översättningar är påbörjad men ännu inte klar; statusen ovan avser endast att oöversatta strängar har kompletterats.
+Terminologi används från `terminology.md` samt diskussionsunderlaget `qgis-se-terminologi-for-diskussion.md`. Hittills har 4 679 av 36 514 unika strängar granskats i kontext: 195 tidigare kompletterade strängar, 4 466 unika korrigeringskandidater och 18 ytterligare strängar som bedömts korrekta utan ändring. Fem dubbla granskningsposter visade sig ha samma Transifex-ID och har slagits ihop vid beräkning och import. Återstår 31 835 strängar. Fullständig granskning av befintliga översättningar är påbörjad men ännu inte klar; statusen ovan avser endast att oöversatta strängar har kompletterats.
 
 `local-review-archive.md` är revisionsregistret för batcherna 044–254 och
 deras lokala commits. Det markerar uttryckligen vad som ännu inte har laddats
@@ -152,6 +152,10 @@ versalhantering. Ändringarna är lokalt granskade och inte skickade externt.
 I denna kontext betyder `data metrics` datamått, inte datanätverk. Ändringen är
 lokalt granskad och inskickad som Transifex-förslag. Kontot saknar behörighet
 att tillämpa ändringen direkt.
+
+2026-11-11: Batch 287 rättar ytterligare två resultattexter i samma
+interpoleringsfunktion. Ändringarna är lokalt granskade och inte skickade
+externt.
 
 2026-11-11: Terminologilistan kompletterades med SpatiaLite, libspatialite,
 `ROWID`, miniatyr och socket från batch 253–254. Uppdateringen är lokal och
