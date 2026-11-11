@@ -55,5 +55,19 @@ Den inloggade Crowdin-projektvyn för `pcsx2-emulator`, svenska, visar
 är `pcsx2-qt_en.ts`, med 100 % översättning. Gränssnittets XLIFF-export valdes
 för att hämta den aktuella katalogen, men Chrome blockerade den signerade
 nedladdningsvärden med `ERR_BLOCKED_BY_CLIENT` innan någon fil sparades.
-Ingen översättning ändrades. En färsk export krävs fortfarande för radvis
-granskning av QA-kön.
+Detta inträffade före den färska export som senare arkiverades ovan.
+
+## Senast lämnade TS-fil och kontroll av Crowdin-dubbletter
+
+Filen `pcsx2-qt_sv-SE.ts` som lades i Hämtade den 11 november har filsystemets
+skapande- och ändringstid `2026-10-10 14:18:09`. Den innehåller 4 057
+meddelanden och 202 oavslutade poster och är därför samma äldre katalog som
+beskrivs i början av detta dokument, inte en ny grund för import.
+
+I Crowdins redigerare kontrollerades de två Vulkan-poster som l10n-lint
+markerat. En korrekt svensk översättning, `Vulkan`, finns redan som förslag
+från en annan översättare; de gamla felaktiga måltexterna finns fortfarande
+som separata poster. Crowdin klassar ett nytt `Vulkan` som dubblett och erbjuder
+bara röstning eller godkännande av originalet. Ingen röst, inget godkännande
+och ingen dubblett sparades. Eventuella osparade försök rensades och editorn
+visar därefter inga osparade översättningar.
