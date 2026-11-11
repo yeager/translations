@@ -699,6 +699,23 @@ finns i flödet. De nya förslagen har ID 449553, 449555, 449557, 449559,
 449561, 449563 och 449565. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Videoinställningar: sextioåttonde granskningsbatchen
+
+`pcsx2-sv-video-settings-batch-68-20261111.xliff` normaliserar val för
+PAL-bildrutehastighet, radsprångsvisning, överskanning, FMV-bildförhållande
+och anpassning till fönster eller helskärm.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar utan fel. Hunspell-SV saknar de korrekta facktermerna
+`bildrutehastighet` och `radsprångsvisning`; svlang ger 10,0 av 10 i
+naturlighetspoäng. `msgfmt` kan inte tolka XLIFF och är därför inte
+tillämpligt.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+5 översättningar med 16 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449567, 449569, 449571, 449573 och 449575. De
+är upstream-inskickade för granskning men ännu inte upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
