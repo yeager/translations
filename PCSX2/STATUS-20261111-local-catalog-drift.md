@@ -1555,4 +1555,8 @@ inget är upstream-godkänt ännu.
 grafiksträngar. GS-data överförs vid rendering, medan shaderprogram och
 pipelines läses in från disk. Det håller isär överföring, inläsning och
 lagring i gränssnittet.
-Batchen är lokalt granskad och inväntar upstream-inskick.
+Batchen är lokalt granskad.
+
+Tre nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
+449871, 449873 och 449875. De är upstream-inskickade för granskning, men
+inget är upstream-godkänt ännu.
