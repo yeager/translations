@@ -279,7 +279,10 @@ hjälprutan för vertikal utsträckning. HTML-entiteterna bevaras oförändrade.
 XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
 diffkontroll och Gitleaks passerar. svlangs enda träff kommer från de
 bevarade HTML-entiteterna. `msgfmt` är inte tillämpligt på XLIFF. Batchen är
-lokalt granskad men har ännu inte skickats upstream.
+lokalt granskad.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+3 översättningar med 17 ord; 0 godkändes automatiskt och 0 hoppades över.
 
 ## Installationsguiden: tredje granskningsbatchen
 
