@@ -2,6 +2,12 @@
 
 Datum: 11 november 2026
 
+## Analysalternativ: trettioförsta granskningsbatchen
+
+Dialogens hjälptext får idiomatisk svensk ordföljd. Den skiljer nu också tydligt mellan den globala inställningsdialogen och dialogen för enskilda spel.
+
+Lokal deltafil: `pcsx2-sv-analysis-options-batch-31-20261111.xliff` (sträng-ID 12610). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
+
 ## SoundTouch-tidssträckning: trettionde granskningsbatchen
 
 Tre sammanhängande ljudinställningar normaliseras till den etablerade termen `tidssträckning`, som även används i termbasen och i närliggande emulatorprojekt. `SoundTouch` behålls som produktnamn. Texten förklarar nu att ljudet sträcks eller krymps för att hålla bufferten inom gränserna, och procenttecknet får korrekt svenskt mellanrum.
