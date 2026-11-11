@@ -108,6 +108,27 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 034: notifieringscenter, nedladdare, förlopp och
   inställningsserialisering (10) har granskats radvis. Den verifierade
   delbatchen finns lokalt i commit `02c13e7` och är ännu inte pushad till PR:n.
+- 2026-11-11, batch 035: startsida samt nätverkssvar, portomdirigering och
+  proxy (35) har granskats radvis. Ändringarna är verifierade lokalt i commit
+  `fdd91c3` och ännu inte pushade till PR:n.
+- 2026-11-11, batch 036: skärmtangentbordets layoutmetadata, knappar,
+  färgteman och filåtgärder (76) har granskats radvis. Ändringarna är
+  verifierade lokalt i commit `004479e` och ännu inte pushade till PR:n.
+- 2026-11-11, batch 037: applianceguider för import och export (92) har
+  granskats radvis. Ändringarna är verifierade lokalt i commit `ad4d5ca` och
+  ännu inte pushade till PR:n.
+- 2026-11-11, batch 038: guiden för virtuell hårddisk (11) har granskats
+  radvis. Ändringarna är verifierade lokalt i commit `6a6739a` och ännu inte
+  pushade till PR:n.
+- 2026-11-11, batch 039: uppdateringsinställningar, uppdateringsintervall och
+  miniverktygsfält (31) har granskats radvis. Ändringarna är verifierade
+  lokalt i commit `91fc31c` och ännu inte pushade till PR:n.
+- 2026-11-11, batch 040: aktivitetsöversikten för värd och virtuella
+  maskiner (38) har granskats radvis. Ändringarna är verifierade lokalt i
+  commit `dc5663f` och ännu inte pushade till PR:n.
+- 2026-11-11, batch 041: medier, användarnamn och lösenord, seriella portar
+  samt nätverksfunktioner (73) har granskats radvis. Ändringarna är
+  verifierade lokalt i commit `aedd069` och ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
