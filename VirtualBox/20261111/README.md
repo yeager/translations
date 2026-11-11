@@ -311,6 +311,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   lokalt i commit `f9051f9` och ännu inte pushade till PR:n.
 - 2026-11-11, batch 105: samtliga 4 aktiva meddelanden i
   `UIVirtualMachineItemCloud` är granskade radvis. Ingen textändring behövdes.
+- 2026-11-11, batch 106: samtliga 9 aktiva meddelanden i
+  `UIAdvancedSettingsDialogGlobal` är granskade radvis. Ingen textändring
+  behövdes.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
