@@ -10,4 +10,7 @@ Strängarna använder `ärende` och `rapportör` konsekvent. För den kontextbun
 
 Kontroller: JSON-parse och antal (48), l10n-lint (0 fel, 0 varningar), Hunspell-SV, svlangs skrivregler och svengelskakontroll, diffkontroll och Gitleaks. Hunspell-SV markerar enbart platshållarnamnen `duration`, `name`, `percentage`, `reason`, `title` och `user`. Svlangs naturlighetsanalys körd på den sammanfogade UI-mängden ger förväntade falsklarm för platshållare och fristående knappar/etiketter; skrivregler och svengelskakontroll är godkända.
 
-Ingen post har sparats i Crowdin. Spara först efter uttryckligt klartecken vid själva sparåtgärden och verifiera därefter exakt lagrad måltext och uppdaterat strängantal.
+Ingen post har sparats i Crowdin. Vid den senaste åtkomstkontrollen saknades
+den tidigare webbsessionen och Crowdin CLI saknade projektkonfiguration. När en
+etablerad kanal åter är tillgänglig ska batchen sparas och både lagrade måltexter
+och uppdaterat strängantal verifieras.

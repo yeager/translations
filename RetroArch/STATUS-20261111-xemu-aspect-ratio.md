@@ -7,4 +7,7 @@
 
 Den svenska formuleringen är kontextgranskad. `msgfmt --check --check-header`, svlangs skrivregler och svengelskakontroll, diffkontroll och Gitleaks är godkända. Hunspell-SV markerar endast `Auto`, `Chihiro`, `Widescreen`, `bredbild` och `bredbildskorrigering`; de är produktnamn eller avsiktliga facktermer. l10n-lint har inga fel och en varning från den engelska källtextens `16-9`, inte från den svenska måltexten.
 
-Ingen ändring har sparats i Crowdin. Spara först efter uttryckligt klartecken vid själva sparåtgärden och läs därefter tillbaka den sparade måltexten exakt.
+Ingen ändring har sparats i Crowdin. Vid den senaste åtkomstkontrollen saknades
+den tidigare webbsessionen och Crowdin CLI saknade projektkonfiguration. När en
+etablerad kanal åter är tillgänglig ska deltat sparas och den lagrade måltexten
+läsas tillbaka exakt.

@@ -12,5 +12,7 @@ Den lokala deltafilen
 *rendera ungefärlig grafik*. XML, l10n-lint och Gitleaks är godkända. svlang
 och Hunspell-sv markerar endast XML/källtext och etablerade facktermer.
 
-Ingen ny Crowdin-ändring skickades i denna kontroll. Den externa uppdateringen
-väntar på uttryckligt godkännande vid själva publiceringssteget.
+Ingen ny Crowdin-ändring skickades i denna kontroll. Vid den senaste
+åtkomstkontrollen saknades den tidigare webbsessionen och Crowdin CLI saknade
+projektkonfiguration. När en etablerad kanal åter är tillgänglig ska ändringen
+sparas och läsas tillbaka innan den räknas som inskickad.
