@@ -228,6 +228,18 @@ granskad.
 Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 23 översättningar med 127 ord; 0 godkändes automatiskt och 0 hoppades över.
 
+## Dynamiska procentvärden: nionde granskningsbatchen
+
+Sex dynamiska procentvärden i ljud-, handkontroll-, inmatnings- och
+emuleringsinställningar saknade svenskt mellanrum före procenttecknet.
+`pcsx2-sv-dynamic-percent-batch-09-20261111.xliff` rättar enbart detta och
+bevarar alla Qt-platsmarkörer, bildfrekvenser samt NTSC och PAL.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar. svlang listar bara NTSC och PAL som
+sällsynta ord. `msgfmt` är inte tillämpligt på XLIFF. Batchen är lokalt
+granskad men har ännu inte skickats upstream.
+
 ## Installationsguiden: tredje granskningsbatchen
 
 Installationsguidens HTML-hjälpruta för spelkataloger hade en inledande
