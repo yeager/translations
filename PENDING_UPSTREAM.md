@@ -33,6 +33,11 @@
 
 ## Förberett men spärrat hos tjänsten
 
+- **Eden, Qt Translations:** 17 granskade svenska texter för uppdaterarens
+  dialoger är arkiverade i
+  [uppdaterarbatchen](eden/STATUS-20261111-updater-batch.md). Den aktuella
+  Transifex-resursen saknar tillgänglig API- eller webbläsaranslutning i
+  arbetsmiljön, så batchen är inte inskickad ännu.
 - **Open Shaders:** lokala importkandidater finns, men Hosted Weblate är
   fortfarande automatiskt låst på grund av ett sammanslagningsfel. Den
   synliga statusen 2026-11-03 är 1 238 av 5 140 översatta strängar,
