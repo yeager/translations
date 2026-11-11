@@ -62,3 +62,11 @@ Platshållare och radbrytningar kontrollerades före varje API-inskick;
 skickad måltext återlästes exakt. Slutlig resursstatistik från API:t visar
 2 122 av 2 122 svenska Qt-strängar översatta och 0 oöversatta. Detta anger
 översättningsstatus, inte en eventuell separat granskningsstatus i Transifex.
+
+## Livekontroll av Qt-resursen 11 november 2026
+
+Den inloggade Transifex-redigeraren kontrollerades direkt för
+`edenemu/eden-emulator`, resursen `qt-translations`, svenska. Båda
+filtren visade **0 Inte översatta** respektive **0 Inte granskade**. Detta
+verifierar den aktuella UI-statusen för Qt-resursen; ingen ny översättning
+eller extern ändring skickades vid kontrollen.
