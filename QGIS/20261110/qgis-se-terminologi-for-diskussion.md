@@ -26,6 +26,8 @@ Källor som kontrollerats 2026-11-10: [QGIS 4.2-dokumentationen](https://docs.qg
 | feature | objekt | Fastställd | GIS-objekt i lager. Använd inte funktion för geografiskt objekt. |
 | feature id | objekt-id | Rekommenderad | Kort UI-form. `FID` behålls när det är fältnamn eller identifierare. |
 | feature type | objekttyp | Rekommenderad | |
+| geometry type | geometrityp | Rekommenderad | Skriv ihop i vektorexport och datamodell. |
+| non-linear geometry type | icke-linjär geometrityp | Rekommenderad | `Icke-` har bindestreck; `geometrityp` skrivs ihop. |
 | field | fält | Fastställd | Attributfält. Kolumn avser främst tabellvyn. |
 | attribute | attribut | Fastställd | |
 | attribute table | attributtabell | Fastställd | |
@@ -40,7 +42,9 @@ Källor som kontrollerats 2026-11-10: [QGIS 4.2-dokumentationen](https://docs.qg
 | layer tree | lagerträd | Rekommenderad | |
 | layer order | lagerordning | Rekommenderad | |
 | vector layer | vektorlager | Fastställd | |
+| vector export | vektorexport | Rekommenderad | GDAL-, OGR- och PostGIS-export. |
 | raster layer | rasterlager | Fastställd | |
+| action | åtgärd | Rekommenderad | Användardefinierad QGIS-åtgärd; inte alltid ett kommando. |
 | mesh layer | nätlager | Rekommenderad | Avser mesh-data, inte bild- eller vägnät. |
 | point cloud layer | punktmolnslager | Fastställd | |
 | virtual layer | virtuellt lager | Rekommenderad | |
@@ -191,8 +195,17 @@ Källor som kontrollerats 2026-11-10: [QGIS 4.2-dokumentationen](https://docs.qg
 | digital elevation model (DEM) | digital höjdmodell (DEM) | Fastställd | |
 | terrain | terräng | Fastställd | |
 | point cloud | punktmoln | Fastställd | |
+| billboard | Billboard | Rekommenderad | Tekniskt grafiknamn för en kameravänd symbol; `skylt` rekommenderas inte. |
+| screen space error | skärmfel | Öppen | Kort UI-term för felmåttet i skärmrymden. QGIS API använder måttet för 3D-rendering; diskutera gärna formuleringen med Qgis.se. |
 | point cloud attribute | punktmolnsattribut | Rekommenderad | |
 | classification | klassificering | Fastställd | Raster-, punktmolns- och symbologikontext. |
+| LAS point classification | LAS-klassificering av punkter | Rekommenderad | ASPRS LAS-klasser i QGIS punktmoln. |
+| wire - guard (shield) | topplina (skärm) | Rekommenderad | LAS-klass 13. Svenska kraftnät använder `topplina` för ledningen över fasledarna. |
+| wire - conductor (phase) | fasledare | Fastställd | LAS-klass 14. |
+| transmission tower | kraftledningsstolpe | Fastställd | LAS-klass 15. |
+| wire-structure connector (insulator) | ledningsfäste (isolator) | Rekommenderad | LAS-klass 16; omfattar isolatorer och anslutningsdetaljer. |
+| bridge deck | brobana | Rekommenderad | LAS-klass 17. |
+| high noise | kraftigt brus | Rekommenderad | LAS-klass 18. |
 | elevation | höjd | Fastställd | |
 | profile | profil | Fastställd | |
 | profile tool | profilverktyg | Rekommenderad | |
@@ -213,6 +226,8 @@ Källor som kontrollerats 2026-11-10: [QGIS 4.2-dokumentationen](https://docs.qg
 | animation | animering | Fastställd | |
 | cumulative | ackumulerad | Rekommenderad | |
 | 3D map view | 3D-kartvy | Rekommenderad | Bindestreck efter sifferförkortning. |
+| tile resolution | rutupplösning | Rekommenderad | Följer QGIS-termen `ruta` för `tile`. |
+| map tile resolution | kartans rutupplösning | Rekommenderad | Använd genitiv när kartan är bestämningen. |
 | 3D scene | 3D-scen | Rekommenderad | |
 | terrain settings | terränginställningar | Rekommenderad | |
 | terrain exaggeration | höjdförstoring | Rekommenderad | Visuell förstoring av terränghöjd. |
@@ -343,7 +358,9 @@ Källor som kontrollerats 2026-11-10: [QGIS 4.2-dokumentationen](https://docs.qg
 | warp | omprojicera | Öppen | GDAL-specifik kontext kan motivera `warpa` endast i kodnära text. |
 | geodesic | geodetisk | Rekommenderad | |
 | ellipsoid | ellipsoid | Fastställd | |
+| waypoint | brytpunkt | Rekommenderad | GPSBabel och GPX; följer QGIS befintliga GPSBabel-etiketter. |
 | route | rutt | Fastställd | |
+| track | spår | Rekommenderad | GPSBabel och GPX. |
 | network | nätverk | Fastställd | Transportnätverk i analys; inte datornätverk utan förtydligande. |
 | shortest path | kortaste väg | Rekommenderad | |
 | service area | serviceområde | Rekommenderad | Nätverksanalys. |
@@ -389,6 +406,8 @@ Källor som kontrollerats 2026-11-10: [QGIS 4.2-dokumentationen](https://docs.qg
 | layout designer | layoutdesignern | Fastställd | |
 | layout manager | layouthanteraren | Fastställd | |
 | layout item | layoutelement | Rekommenderad | |
+| font family | typsnittsfamilj | Fastställd | Följer befintliga QGIS-etiketter. |
+| default north arrow SVG path | standardsökväg till SVG-filen för nordpil | Rekommenderad | `SVG` är formatnamn och `nordpil` är QGIS etablerade kartelementsterm. |
 | map item | kartelement | Rekommenderad | |
 | legend | teckenförklaring | Fastställd | |
 | legend item | teckenförklaringsobjekt | Öppen | Kan kortas till teckenförklaringselement. |
@@ -450,6 +469,8 @@ Källor som kontrollerats 2026-11-10: [QGIS 4.2-dokumentationen](https://docs.qg
 | web service | webbtjänst | Fastställd | |
 | web map service | webbkarttjänst | Rekommenderad | Behåll WMS som standardnamn. |
 | tile | ruta | Fastställd | Inte platta i QGIS UI. |
+| vector tile | vektorruta | Rekommenderad | Följer QGIS-termen `ruta` för `tile`. |
+| sprite | sprite | Rekommenderad | Tekniskt namn i vektorrutestilens resursformat. |
 | tile matrix | rutmatris | Fastställd | |
 | metatile | metaruta | Fastställd | |
 | cache | cache | Rekommenderad | Cacha som verb bör undvikas i UI. |
