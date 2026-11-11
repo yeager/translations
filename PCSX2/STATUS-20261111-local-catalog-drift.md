@@ -1594,3 +1594,20 @@ Crowdin-inskicket verifierades via API. För sträng 17279 skapades det ännu in
 godkända förslaget 449887. Sträng 17281 och 14010 hade redan identiska, ännu
 inte godkända förslag, 435043 respektive 294434, och fick därför inga nya
 förslag. Detta är upstream-inskick, inte upstream-granskning eller merge.
+
+## Bildrutesynkronisering: nittioförsta granskningsbatchen
+
+Två helskärmstexter normaliseras till etablerade svenska grafiktermer:
+`värdsystemets uppdateringsfrekvens`, `inmatningsfördröjning` och
+`bildruteintervall`.
+
+Lokal deltafil: `pcsx2-sv-fullscreen-frame-timing-batch-91-20261111.xliff`
+(sträng-ID 8181 och 9923). XML-validering, exakt källtextjämförelse,
+l10n-lint, diffkontroll och Gitleaks passerar. svlangs V2-varning gäller en
+grammatiskt korrekt UI-etikett och Hunspell-SV markerar enbart facktermen
+`bildruteintervall`. `msgfmt --check` kan inte tolka XLIFF och är därför inte
+tillämplig.
+
+Crowdin-inskicket verifierades via API. De skapade, ännu inte godkända,
+förslagen är 449889 och 449891. Detta är ett upstream-inskick, inte
+upstream-granskning eller merge.
