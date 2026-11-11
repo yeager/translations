@@ -590,6 +590,19 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 449491, 449493 och 449495. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Bildsynkronisering: sextioandra granskningsbatchen
+
+`pcsx2-sv-frame-sync-batch-62-20261111.xliff` förtydligar hjälptexterna för
+bildrutekö, VSync och synkronisering med värdsystemets uppdateringsfrekvens.
+`Inmatningsfördröjning` används konsekvent och onödig upprepning av
+`innan` och `bildskärm eller skärm` är borttagen.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar. Hunspell-SV markerar bara tekniknamn,
+förkortningar och korrekta sammansättningar. svlangs V2-varningar är falska
+positiv på korrekta huvudsatser. `msgfmt` kan inte tolka XLIFF och är därför
+inte tillämpligt.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
