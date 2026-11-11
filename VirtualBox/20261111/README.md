@@ -197,6 +197,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 062: samtliga 45 aktiva meddelanden i `UIMediumManager`
   är granskade radvis. Ändringarna är verifierade lokalt i commit `c50614d`
   och ännu inte pushade till PR:n.
+- 2026-11-11, batch 063: samtliga 43 aktiva meddelanden i
+  `UIWizardImportApp` är granskade radvis. Ändringarna är verifierade lokalt
+  i commit `7cc27ec` och ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
