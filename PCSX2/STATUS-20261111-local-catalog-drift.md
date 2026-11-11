@@ -1479,3 +1479,10 @@ Batchen är lokalt granskad.
 Sju nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
 449779, 449781, 449783, 449785, 449787, 449789 och 449791. De är
 upstream-inskickade för granskning, men inget är upstream-godkänt ännu.
+
+## Sparlägen: åttiotredje granskningsbatchen
+
+`pcsx2-sv-save-state-consistency-batch-83-20261111.xliff` rättar sex
+sparlägessträngar. Benämningarna blir konsekventa, säkerhetskopian avser rätt
+objekt och hardcorelägets begränsningar beskriver funktionerna korrekt.
+Batchen är lokalt granskad och inväntar upstream-inskick.
