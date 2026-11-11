@@ -515,6 +515,12 @@ sammansättningen `sparlägesinställningar`. svlangs V2-varning gäller en
 parentesfras, inte en sats. `msgfmt` kan inte tolka XLIFF och är därför inte
 tillämpligt.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+6 översättningar med 19 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449453, 449455, 449457, 449459, 449461 och
+449463. De är upstream-inskickade för granskning men ännu inte
+upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
