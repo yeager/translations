@@ -680,6 +680,25 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 över. De nya förslagen har ID 449545, 449547, 449549 och 449551. De är
 upstream-inskickade för granskning men ännu inte upstream-godkända.
 
+## Felsökarinställningar: sextiosjunde granskningsbatchen
+
+`pcsx2-sv-debugger-settings-batch-67-20261111.xliff` förtydligar
+felsökarens analysinställningar, val för sparade ritanrop och bildrutor,
+omstartskravet för släppindikatorer samt spelunika mappar för ögonblicksbilder.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar utan fel. Hunspell-SV markerar endast tekniska termer och korrekta
+sammansättningar: `ritanrop` och `släppindikatorer`. svlangs två V2-varningar
+gäller korrekta satser. `msgfmt` kan inte tolka XLIFF och är därför inte
+tillämpligt.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+7 översättningar med 80 ord; 0 godkändes automatiskt. En sträng hoppades över
+av dubblettkontrollen, vilket bekräftar att samma korrekta formulering redan
+finns i flödet. De nya förslagen har ID 449553, 449555, 449557, 449559,
+449561, 449563 och 449565. De är upstream-inskickade för granskning men ännu
+inte upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
