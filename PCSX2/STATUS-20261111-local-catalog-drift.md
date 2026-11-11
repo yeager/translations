@@ -1492,3 +1492,11 @@ Fyra nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
 eftersom rätt förslag redan fanns: 449309 och 449311. Inga befintliga förslag
 har ändrats. Alla berörda förslag är upstream-inskickade för granskning, men
 inget är upstream-godkänt ännu.
+
+## Spargränssnitt och bildrutegenerering: åttiofjärde granskningsbatchen
+
+`pcsx2-sv-save-ui-frame-generation-batch-84-20261111.xliff` rättar tio
+strängar i helskärmsgränssnittets hantering av sparlägen och en förklarande
+grafikinställning. Den skiljer på sparfiler och sparlägen och beskriver
+bildrutegenerering med korrekt svensk meningsbyggnad.
+Batchen är lokalt granskad och inväntar upstream-inskick.
