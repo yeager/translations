@@ -521,6 +521,18 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 449463. De är upstream-inskickade för granskning men ännu inte
 upstream-godkända.
 
+## Sparlägesgränssnitt: femtioåttonde granskningsbatchen
+
+`pcsx2-sv-savestate-ui-batch-58-20261111.xliff` rättar menyalternativet,
+väljaren och varningstexten för sparlägen. `Läs in` används för att hämta ett
+tillstånd, `sparläge` för emulatorns funktion och `sparning i spelet` för
+spelets egen sparfunktion.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar. Hunspell-SV markerar bara den korrekta
+formen `sparningar`. svlangs V2-varning gäller den korrekta ordföljden i
+varningstexten. `msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
