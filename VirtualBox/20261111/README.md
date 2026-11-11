@@ -524,6 +524,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 189: samtliga 4 aktiva meddelanden i `UIHomePane` är
   granskade radvis. Två HTML-texter har rättats lokalt och inväntar den
   samlade uppdateringen av PR #848.
+- 2026-11-11, batch 190: samtliga 2 aktiva meddelanden i `UIHotKeyEditor`
+  är granskade radvis. Två verktygstips har rättats lokalt och inväntar den
+  samlade uppdateringen av PR #848.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
