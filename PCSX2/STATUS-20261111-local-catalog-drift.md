@@ -8,6 +8,10 @@ Hjälptexten för tryckkänsliga knappmakron förenklas till idiomatisk svenska.
 
 Lokal deltafil: `pcsx2-sv-macro-pressure-batch-32-20261111.xliff` (sträng-ID 6311). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
 
+XML-validering, exakt källtextjämförelse, l10n-lint, Hunspell-SV, diffkontroll och Gitleaks passerar. svlangs V2-varning är en falsk positiv för en korrekt inledd prepositionsfras. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
+Crowdin-importen verifierades via API: 1 sträng och 20 ord importerades, 0 godkändes automatiskt och inget hoppades över. Det skapade, ännu ej godkända förslaget är 449213. Detta är ett upstream-inskick, inte upstream-granskning eller merge.
+
 ## Analysalternativ: trettioförsta granskningsbatchen
 
 Dialogens hjälptext får idiomatisk svensk ordföljd. Den skiljer nu också tydligt mellan den globala inställningsdialogen och dialogen för enskilda spel.
