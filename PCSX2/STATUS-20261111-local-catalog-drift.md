@@ -90,3 +90,18 @@ som separata poster. Crowdin klassar ett nytt `Vulkan` som dubblett och erbjuder
 bara röstning eller godkännande av originalet. Ingen röst, inget godkännande
 och ingen dubblett sparades. Eventuella osparade försök rensades och editorn
 visar därefter inga osparade översättningar.
+
+## Dubblettspärr verifierad på nytt
+
+I den aktuella svenska PCSX2-redigeraren kontrollerades den aktiva posten
+`GraphicsSettingsWidget['Vulkan']` igen. Den felaktiga måltexten är fortfarande
+`Fel vid initiering av Vulkan-renderare:\n{}`, medan den fristående korrekta
+översättningen `Vulkan` finns i samma strängs förslagslista. När `Vulkan`
+anges som ny måltext markerar Crowdin den som dubblett och inaktiverar vanlig
+sparning med meddelandet att den ursprungliga översättningen ska röstas på
+eller godkännas. Ändringen ångrades innan sidan lämnades.
+
+Det bekräftar att den etablerade import- och redigerarrollen inte kan föra in
+den här rättningen utan en projektgodkänd metod för dubbletter. Varken röstning
+eller godkännande har utförts. Upstream-status för den lokala batchen är därför
+fortfarande: **ej införd**.
